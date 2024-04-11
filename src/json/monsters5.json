@@ -1871,7 +1871,7 @@
 				"**Melee** 2 claws +11 (1d4+2)   ",
 				"**Special Attacks** detect thoughts (DC 17), sneak attack +3d6   ",
 				"**Psychic Magic** (CL 4th; concentration +8)   ",
-				"5 PE-babble (2 PE, DC 16), blur (2 PE), deja vu (1 PE, DC 15), hideous laughter (1 PE, DC 15), hold person (2 PE, DC 16), hypnotism (1 PE, DC 15), id insinuation I (2 PE, DC 16), paranoia (1 PE, DC 15)"
+				"*5 PE*-babble (2 PE, DC 16), blur (2 PE), deja vu (1 PE, DC 15), hideous laughter (1 PE, DC 15), hold person (2 PE, DC 16), hypnotism (1 PE, DC 15), id insinuation I (2 PE, DC 16), paranoia (1 PE, DC 15)"
 			],
 			"str": 15,
 			"dex": 19,
@@ -1948,7 +1948,7 @@
 				"**Melee** 4 claws +21 (1d6+6 plus grab)   ",
 				"**Special Attacks** corporeal possession, detect thoughts (DC 21)   ",
 				"**Psychic Magic** (CL 12th; concentration +16)   ",
-				"20 PE-detect magic (0 PE), dimension door (4 PE), dispel magic (3 PE), displacement (3 PE), dominate person (5 PE, DC 19), ego whip III (5 PE, DC 19), expeditious retreat (1 PE), greater invisibility (4 PE), mage hand (0 PE), mind thrust V (5 PE, DC 19), misdirection (2 PE, DC 16), psychic crush I (5 PE, DC 19), ray of enfeeblement (1 PE, DC 15), see invisibility (2 PE), spider climb (2 PE), telekinesis (5 PE, DC 19)"
+				"*20 PE*-detect magic (0 PE), dimension door (4 PE), dispel magic (3 PE), displacement (3 PE), dominate person (5 PE, DC 19), ego whip III (5 PE, DC 19), expeditious retreat (1 PE), greater invisibility (4 PE), mage hand (0 PE), mind thrust V (5 PE, DC 19), misdirection (2 PE, DC 16), psychic crush I (5 PE, DC 19), ray of enfeeblement (1 PE, DC 15), see invisibility (2 PE), spider climb (2 PE), telekinesis (5 PE, DC 19)"
 			],
 			"str": 22,
 			"dex": 19,
@@ -6822,7 +6822,13 @@
 				"**Space** 5 ft., **Reach** 5 ft. (20 ft. with bite)   ",
 				"**Special Attacks** elongate neck, rokurokubi's curse   ",
 				"**Sorcerer Spells Known ** (CL 12th; concentration +17)   ",
-				"6th (3)-permanent image (DC 21) 5th (6)-feeblemind (DC 20), nightmare (DC 20) 4th (7)-charm monster (DC 19), confusion (DC 19), locate creature 3rd (7)-dispel magic, fly, keen edge, wind wall 2nd (7)-ghoul touch (DC 17), invisibility, knock, touch of idiocy 1st (8)-charm person (DC 16), disguise self, obscuring mist, shocking grasp, sleep (DC 16) 0 (at will)-arcane mark, detect magic, detect poison, ghost sound (DC 15), mage hand, message, open/close, prestidigitation, read magic"
+				"*6th (3)*-permanent image (DC 21)   ",
+				"*5th (6)*-feeblemind (DC 20), nightmare (DC 20)   ",
+				"*4th (7)*-charm monster (DC 19), confusion (DC 19), locate creature   ",
+				"*3rd (7)*-dispel magic, fly, keen edge, wind wall   ",
+				"*2nd (7)*-ghoul touch (DC 17), invisibility, knock, touch of idiocy   ",
+				"*1st (8)*-charm person (DC 16), disguise self, obscuring mist, shocking grasp, sleep (DC 16)   ",
+				"*0 (at will)*-arcane mark, detect magic, detect poison, ghost sound (DC 15), mage hand, message, open/close, prestidigitation, read magic"
 			],
 			"str": 18,
 			"dex": 23,
@@ -7501,7 +7507,7 @@
 				"**Melee** slam +2 (1d2-2)   ",
 				"**Special Attacks** sin magic   ",
 				"**Spell-Like Abilities (CL 3rd; concentration +4)   ",
-				"At will - burning hands (DC 12), color spray (DC 12), hold portal, ray of enfeeblement (DC 12), reduce person (DC 12), sleep (DC 12), summon monster I"
+				"*At will* - burning hands (DC 12), color spray (DC 12), hold portal, ray of enfeeblement (DC 12), reduce person (DC 12), sleep (DC 12), summon monster I"
 			],
 			"str": 6,
 			"dex": 15,
@@ -13715,7 +13721,7 @@
 				"**Melee** mwk dagger +15/+10 (1d4/19-20), bite +9 (1d6 plus poison)   ",
 				"**Special Attacks** poison   ",
 				"**Psychic Magic** (CL 9th; concentration +14)   ",
-				"12 PE-anticipate thoughts (2 PE, DC 17), call spirit (5 PE, DC 20), command (1 PE, DC 16), disguise self (1 PE, DC 16), hypnotism (1 PE, DC 16), instigate psychic duel (2 PE, DC 17), suggestion (2 PE, DC 17), synesthesia (3 PE, DC 18)"
+				"*12 PE*-anticipate thoughts (2 PE, DC 17), call spirit (5 PE, DC 20), command (1 PE, DC 16), disguise self (1 PE, DC 16), hypnotism (1 PE, DC 16), instigate psychic duel (2 PE, DC 17), suggestion (2 PE, DC 17), synesthesia (3 PE, DC 18)"
 			],
 			"str": 10,
 			"dex": 23,
@@ -14221,7 +14227,7 @@
 				"**Space** 15 ft., **Reach** 15 ft.   ",
 				"**Special Attacks** confusion command   ",
 				"**Psychic Magic** (CL 15th; concentration +19)   ",
-				"12 PE-anticipate thoughts (2 PE, DC 16), detect thoughts (2 PE, DC 16), levitate (2 PE), mental barrier IV (5 PE), mind fog (5 PE, DC 19), psychic crush I (5 PE, DC 19), suggestion (2 PE, DC 17)"
+				"*12 PE*-anticipate thoughts (2 PE, DC 16), detect thoughts (2 PE, DC 16), levitate (2 PE), mental barrier IV (5 PE), mind fog (5 PE, DC 19), psychic crush I (5 PE, DC 19), suggestion (2 PE, DC 17)"
 			],
 			"str": 23,
 			"dex": 22,
@@ -17180,7 +17186,7 @@
 				"**Melee** +2 defending quarterstaff +13/+8 (1d6+3), gore +11 (1d8+1 plus petrification [DC 23])   ",
 				"**Special Attacks** blight mastery, wild shape 6/day Druid   ",
 				"**Spell-Like Abilities (CL 14th; concentration +21)   ",
-				"10/day-acid dart (1d6+7 acid)   ",
+				"*10/day*-acid dart (1d6+7 acid)   ",
 				"**Druid Spells Prepared ** (CL 14th; concentration +21)   ",
 				"*7th*-quickened contagion (DC 20), creeping doom (DC 24), elemental body IV[^D] (earth only), fire storm (DC 24)   ",
 				"*6th*-antilife shell, quickened barkskin, greater dispel magic, stone tell, stoneskin[^D]   ",
@@ -18208,11 +18214,11 @@
 				"**Ranged** ray +4 ranged touch (by spell)   ",
 				"**Special Attacks** channel negative energy (DC 13, 6/day, command undead only)   ",
 				"**Spell-Like Abilities (CL 3rd; concentration +6)   ",
-				"6/day - grave touch (1 round)   ",
+				"*6/day* - grave touch (1 round)   ",
 				"**Spells Prepared ** (CL 3rd; concentration +6)   ",
-				"2nd - ghoul touch (DC 17), scorching ray, spectral hand   ",
-				"1st - chill touch (DC 16), mage armor, magic missile, ray of enfeeblement (DC 16)   ",
-				"0 (at will) - detect magic, mage hand, ray of frost, read magic, touch of fatigue (DC 15)   ",
+				"*2nd* - ghoul touch (DC 17), scorching ray, spectral hand   ",
+				"*1st* - chill touch (DC 16), mage armor, magic missile, ray of enfeeblement (DC 16)   ",
+				"*0 (at will)* - detect magic, mage hand, ray of frost, read magic, touch of fatigue (DC 15)   ",
 				"**Opposition Schools** Enchantment, Illusion"
 			],
 			"str": 12,
@@ -23628,10 +23634,10 @@
 			"special_abilities": [
 				"**Stampede (Ex)** A stampede occurs if three or more storm aurochs make a trample attack while remaining adjacent to each other. While stampeding, storm aurochs can trample foes of their size or smaller, and the trample's save DC increases by 2.",
 				"",
-				"**Storming Charge (Su)** A storm aurochs steps grow thunderous as it charges toward its enemies. A storm aurochs' powerful charge deals an additional 3d6 points of electricity damage, and its trample deals an additional 3d6 points of sonic damage, which are already included in the above statistics. If the storm aurochs is outdoors and in a stormy area-one featuring a rain shower, clouds and wind, hot and cloudy conditions, or even a tornado (including a whirlwind formed by a djinni or an air elemental of at least Large size)\"its powerful charge and trample instead deal 3d10 points of electricity or sonic damage respectively, rather than 3d6 points of damage."
+				"**Storming Charge (Su)** A storm aurochs steps grow thunderous as it charges toward its enemies. A storm aurochs' powerful charge deals an additional 3d6 points of electricity damage, and its trample deals an additional 3d6 points of sonic damage, which are already included in the above statistics. If the storm aurochs is outdoors and in a stormy area-one featuring a rain shower, clouds and wind, hot and cloudy conditions, or even a tornado (including a whirlwind formed by a djinni or an air elemental of at least Large size)-its powerful charge and trample instead deal 3d10 points of electricity or sonic damage respectively, rather than 3d6 points of damage."
 			],
 			"ecology2": [
-				"Storm aurochs behave much as their more mundane cousins do. They are gregarious, herbivorous creatures that travel in herds of up to several dozen extended family members. These untamed herds are nomadic, and their migratory patterns mirror Golarion's natural weather patterns. Herds are fiercely territorial, with weather fronts forming the natural boundary between two herds\" territories. Territorial disputes are common, though rarely lethal, and are often accompanied by terrific natural and magical storms.",
+				"Storm aurochs behave much as their more mundane cousins do. They are gregarious, herbivorous creatures that travel in herds of up to several dozen extended family members. These untamed herds are nomadic, and their migratory patterns mirror Golarion's natural weather patterns. Herds are fiercely territorial, with weather fronts forming the natural boundary between two herds' territories. Territorial disputes are common, though rarely lethal, and are often accompanied by terrific natural and magical storms.",
 				"",
 				"In addition to more traditional fodder, storm aurochs also graze on clouds. It is unclear whether or not this provides them any real nourishment, and it may be that they do so purely out of enjoyment. This can be a blessing and a curse for areas frequented by herds of storm aurochs; these areas soon become cloudless and sunny. Overgrazing can prevent much needed rain from reaching the ground, eventually leading to periods of drought and famine for those living nearby. For this reason, farmers often see herds of storm aurochs as pests. Aside from the dangers inherent in facing a storm aurochs, slaying one often comes with the added danger of drawing the ire of its storm giant owner, and so most communities prefer to relocate an aurochs herd as gently as possible, or perhaps even negotiate with the owner, rather than trying to slay the aurochs.",
 				"",
@@ -24481,7 +24487,7 @@
 				"**Melee** bite +16 (1d8+4 plus 1d6 bleed), 2 claws +16 (1d6+4/19-20 plus grab)   ",
 				"**Special Attacks** bleed (1d6), pounce, prehensile tail, rake (2 claws +16, 1d6+4), whelp magic   ",
 				"**Psychic Magic** (CL 12th; concentration +15)   ",
-				"0 PE (see whelp magic)-id insinuation II (3 PE, DC 16), mind thrust III (3 PE, DC 16), thought shield II (3 PE)"
+				"*0 PE* (see whelp magic)-id insinuation II (3 PE, DC 16), mind thrust III (3 PE, DC 16), thought shield II (3 PE)"
 			],
 			"str": 19,
 			"dex": 19,
@@ -26176,7 +26182,7 @@
 				"**Ranged** ranged touch -1 (by spell)   ",
 				"**Special Attacks** burn (1d6, DC 19), constrict (1d6+3), symbiosis   ",
 				"**Spell-Like Abilities (CL 5th; concentration +0)   ",
-				"At will - detect thoughts (DC 7), produce flame 3/day - searing light"
+				"*At will* - detect thoughts (DC 7), produce flame 3/day - searing light"
 			],
 			"str": 14,
 			"dex": 1,
@@ -27599,7 +27605,7 @@
 				"**Melee** bite +9 (1d3-3 plus eat thoughts)   ",
 				"**Space** 2-1/2 ft., **Reach** 0 ft.   ",
 				"**Psychic Magic** (CL 4th; concentration +6)   ",
-				"5 PE-identify (1 PE), daze monster (2 PE, DC 14), detect thoughts (2 PE, DC 14), resist energy (2 PE)"
+				"*5 PE*-identify (1 PE), daze monster (2 PE, DC 14), detect thoughts (2 PE, DC 14), resist energy (2 PE)"
 			],
 			"str": 4,
 			"dex": 19,
@@ -28938,7 +28944,7 @@
 				"**Melee** bite +6 (1d4+2), 2 slams +6 (1d3+2)   ",
 				"**Special Attacks** trickster's torment   ",
 				"**Spell-Like Abilities (CL 4th; concentration +5)   ",
-				"3/day - invisibility"
+				"*3/day* - invisibility"
 			],
 			"str": 14,
 			"dex": 15,
@@ -29710,7 +29716,7 @@
 				"**Space** 20 ft., **Reach** 20 ft.   ",
 				"**Special Attacks** curse of barkflesh, rock throwing (240 ft.), shake the earth, trample (4d6+18, DC 29)   ",
 				"**Spell-Like Abilities (CL 11th; concentration +15)   ",
-				"At will - entangle (DC 15)"
+				"*At will* - entangle (DC 15)"
 			],
 			"str": 35,
 			"dex": 8,
@@ -34182,7 +34188,7 @@
 				"**Melee** unarmed strike +9 (1d8+5) or flurry of blows +9/+9 (1d8+5)   ",
 				"**Special Attacks** flurry of blows, stunning fist (5/day, DC 15)   ",
 				"**Psychic Magic** (CL 5th; concentration +5)   ",
-				"8 PE-burst of adrenaline (1 PE), burst of insight (1 PE), ego whip I (3 PE, DC 13), levitate (2 PE), paranoia (2 PE, DC 12)"
+				"*8 PE*-burst of adrenaline (1 PE), burst of insight (1 PE), ego whip I (3 PE, DC 13), levitate (2 PE), paranoia (2 PE, DC 12)"
 			],
 			"str": 20,
 			"dex": 16,
@@ -36400,7 +36406,7 @@
 			],
 			"ecology": [ "**Environment** any land (Abaddon)" ],
 			"description": [
-				"Urdefhans created the first skavelings-flying undead horrors nicknamed \"ghoul bats\"and rely on them to maintain air superiority in Orv's colossal caverns. While some urdefhans subdue wild undead mobats for use as mounts, others create new skavelings and form permanent bonds with the resulting less intelligent but more loyal specimens. Skaveling riders serve as forward scouts who report on enemy movements, track intruders in urdefhan lands, and support or lead urdefhan soldiers in battle. The casual urdefhan view of death and destruction doesn't extend to these riders\" skavelings, and an urdefhan will shake the foundations of Golarion to murder the creature who destroys its mount.",
+				"Urdefhans created the first skavelings-flying undead horrors nicknamed \"ghoul bats\"and rely on them to maintain air superiority in Orv's colossal caverns. While some urdefhans subdue wild undead mobats for use as mounts, others create new skavelings and form permanent bonds with the resulting less intelligent but more loyal specimens. Skaveling riders serve as forward scouts who report on enemy movements, track intruders in urdefhan lands, and support or lead urdefhan soldiers in battle. The casual urdefhan view of death and destruction doesn't extend to these riders' skavelings, and an urdefhan will shake the foundations of Golarion to murder the creature who destroys its mount.",
 				"",
 				"### Skaveling Mount",
 				"",
@@ -38299,7 +38305,7 @@
 				"*Constant*-tongues, true seeing   ",
 				"*At will*-deeper darkness   ",
 				"*3/day*-contact other plane   ",
-				"1/month-wish"
+				"*1/month*-wish"
 			],
 			"str": 27,
 			"dex": 20,
@@ -38368,7 +38374,7 @@
 				"*Constant*-deathwatch, freedom of movement, haste, tongues, true seeing   ",
 				"*At will*-bestow curse (DC 20), crushing despair (DC 19), detect thoughts (DC 18), dispel magic, fear (DC 20), scrying (DC 20), suggestion (DC 19)   ",
 				"*1/day*-circle of death (DC 22), ethereal jaunt, geas/quest, mass suggestion (DC 22), modify memory (DC 20)   ",
-				"1/month-limited wish (to non-fey only)"
+				"*1/month*-limited wish (to non-fey only)"
 			],
 			"str": 32,
 			"dex": 25,
@@ -45595,7 +45601,7 @@
 				"**Ranged** spear +7 (1d8+4/x3)   ",
 				"**Special Attacks** psychogenic secretions   ",
 				"**Psychic Magic** (CL 6th; concentration +7)   ",
-				"5 PE-mindlink (1 PE, DC 12), silent image (1 PE, DC 12), suggestion (2 PE, DC 13)"
+				"*5 PE*-mindlink (1 PE, DC 12), silent image (1 PE, DC 12), suggestion (2 PE, DC 13)"
 			],
 			"str": 18,
 			"dex": 17,
@@ -45814,9 +45820,9 @@
 				"**Spell-Like Abilities (CL 10th; concentration +13)   ",
 				"*Constant*-air walk   ",
 				"*At will*-darkness, telekinesis (DC 18), tree shape   ",
-				"1/year-interplanetary teleport (self plus 50 lbs. of objects only)   ",
+				"*1/year*-interplanetary teleport (self plus 50 lbs. of objects only)   ",
 				"**Psychic Magic** (CL 10th; concentration +13)   ",
-				"20 PE-control summoned creature (4 PE, DC 17), demand (8 PE, DC 21), fear (4 PE, DC 17), quickened true strike (1 PE)"
+				"*20 PE*-control summoned creature (4 PE, DC 17), demand (8 PE, DC 21), fear (4 PE, DC 17), quickened true strike (1 PE)"
 			],
 			"str": 24,
 			"dex": 18,
@@ -46301,7 +46307,7 @@
 				"**Spell-Like Abilities (CL 19th; concentration +27)   ",
 				"*At will*-astral projection (self only), detect thoughts (DC 18), hold monster (DC 21), modify memory (DC 21)   ",
 				"**Psychic Magic** (CL 19th; concentration +27)   ",
-				"22 PE-hypercognition (2 PE), intellect fortress III (6 PE), major mind swap (9 PE, DC 29), mental barrier V (6 PE), mind probe (4 PE, DC 24), remote viewing (5 PE), thought shield V (6 PE)"
+				"*22 PE*-hypercognition (2 PE), intellect fortress III (6 PE), major mind swap (9 PE, DC 29), mental barrier V (6 PE), mind probe (4 PE, DC 24), remote viewing (5 PE), thought shield V (6 PE)"
 			],
 			"str": 26,
 			"dex": 17,
@@ -47263,7 +47269,7 @@
 				"**Melee** +1 melee touch (1d4 acid, cold, electricity, or fire damage)   ",
 				"**Space** 2-1/2 ft., **Reach** 0 ft.   ",
 				"**Spell-Like Abilities (CL 2nd)   ",
-				"At will - mage hand, mending 1/day - endure elements, touch of fatigue"
+				"*At will* - mage hand, mending 1/day - endure elements, touch of fatigue"
 			],
 			"str": 6,
 			"dex": 14,

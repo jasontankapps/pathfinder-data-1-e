@@ -1137,505 +1137,6 @@
 			"short_description": "This grotesque, crimson wormlike creature has a circular mouth full of fangs. A pair of segmented tentacles sporting razor-edged ridges protrudes from the sides of its mouth."
 		},
 		{
-			"name": "Kaiju, Agyra",
-			"file": "monsterdisplay0751.html",
-			"sources": [ "Bestiary 4" ],
-			"cr": 27,
-			"alignment": "CN",
-			"size": "colossal",
-			"creature_type": "magical beast",
-			"creature_subtypes": [
-				"air",
-				"kaiju"
-			],
-			"heading": [
-				"## Agyra, CR 27",
-				"**Source** [Bestiary 4 pg. 166](source:Bestiary 4)   ",
-				"**XP** 3,276,800   ",
-				"CN Colossal magical beast (air, kaiju)   ",
-				"**Init** +11; **Senses** blindsense 30 ft., darkvision 600 ft., low-light vision; Perception +38"
-			],
-			"defense": [
-				"**AC** 45, touch 9, flat-footed 38 (+7 Dex, +36 natural, -8 size)   ",
-				"**hp** 656 (32d10+480); fast healing 30   ",
-				"**Fort** +33, **Ref** +25, **Will** +21   ",
-				"**Defensive Abilities** electrified corpse, ferocity, rebirth, recovery; **DR** 20/epic; **Immune** ability damage, ability drain, death effects, disease, electricity, energy drain, fear; **Resist** acid 30, cold 30, fire 30, negative energy 30, sonic 30"
-			],
-			"offense": [
-				"**Speed** 80 ft., fly 200 ft. (average); swift flight   ",
-				"**Melee** 2 bites +41 (6d6+17/19-20), 2 talons +41 (3d8+17), tail slap +36 (10d6+8/19-20 plus bleed)   ",
-				"**Space** 50 ft., **Reach** 50 ft. (75 ft. with tail)   ",
-				"**Special Attacks** bleed (5d6), blinding flash, breath weapon, hurl foe, hurricane, thunderous blast"
-			],
-			"str": 44,
-			"dex": 25,
-			"con": 41,
-			"int": 3,
-			"wis": 29,
-			"cha": 25,
-			"base_attack_bonus": 32,
-			"cmb": 57,
-			"cmd": 74,
-			"statistics": [
-				"**Str** 44, **Dex** 25, **Con**: 41, **Int** 3, **Wis** 29, **Cha**, 25   ",
-				"**Base Atk** +32; **CMB** +57 (+61 bull rush); **CMD** 74 (76 vs. bull rush)   ",
-				"**Feats** [Combat Reflexes](feat:Combat Reflexes), [Critical Focus](feat:Critical Focus), [Greater Bull Rush](feat:Greater Bull Rush), [Greater Vital Strike](feat:Greater Vital Strike), [Hover](feat:Hover), [Improved Bull Rush](feat:Improved Bull Rush), [Improved Critical (tail slap)](feat:Improved Critical), [Improved Critical (bite)](feat:Improved Critical), [Improved Initiative](feat:Improved Initiative), [Improved Iron Will](feat:Improved Iron Will), [Improved Vital Strike](feat:Improved Vital Strike), [Iron Will](feat:Iron Will), [Power Attack](feat:Power Attack), [Staggering Critical](feat:Staggering Critical), [Vital Strike](feat:Vital Strike), [Wingover](feat:Wingover)   ",
-				"**Skills** Fly +24, Perception +38; **Racial Modifiers** +16 Perception   ",
-				"**Languages** Auran (can't speak)   ",
-				"**SQ** massive, storm flier"
-			],
-			"ecology": [
-				"**Environment** warm mountains   ",
-				"**Organization** solitary (unique)   ",
-				"**Treasure** incidental"
-			],
-			"special_abilities": [
-				"**Blinding Flash (Su)** By spreading her wings as a full-round action while she stands upon the ground, Agyra can create a blinding flash of light that targets all creatures within 100 feet. Affected creatures must succeed at a DC 41 Fortitude save or be permanently blinded and staggered for 1d6 rounds by the blast of light. A successful saving throw reduces the blindness to 1 round and negates the staggered effect. The save DC is Constitution-based.",
-				"",
-				"**Breath Weapon (Su)** Once every 4 rounds as a standard action, each of Agyra's twin heads can breathe out a line of electricity to a range of 1,200 feet. Agyra can breathe each line in a different direction. Each creature caught in a line of electricity must succeed at a DC 41 Reflex save or take 20d6 points of electricity damage and be staggered for 1d4 rounds. A successful saving throw halves the damage and negates the staggered effect. A creature struck by both breath weapons simultaneously must attempt separate saving throws against each breath weapon, but takes a -4 penalty on both-the damage and staggered condition duration stack with each other. A creature wearing medium or heavy metal armor or a creature composed mostly of metal that fails its saving throw is also stunned for 1 round. A creature slain by Agyra's breath weapon remains electrified for 2d4 rounds after death-any creature that touches the body automatically takes 3d6 points of electricity damage. The save DC is Constitution-based.",
-				"",
-				"**Electrified Corpse (Su)** If Agyra is slain, her corpse crackles and flashes with pulses of electrical light if she has not used her rebirth ability that year. Any creature that touches her corpse takes 3d6 points of electricity damage. Even if Agyra's body is destroyed, the site of her death continues to carry this electrical charge for 1 minute, or until Agyra is reborn, whichever comes first.",
-				"",
-				"**Hurricane (Sp)** Once per day, Agyra can create a supernatural hurricane surrounding herself. This effect functions as control weather, save that it affects an area with a 4-mile radius, lasts for 24 hours, and can only be used to create hurricane-force winds. The hurricane created is static, and features a calm eye at the center with a 500-foot radius.",
-				"",
-				"**Rebirth (Su)** Agyra remains dead for only 1 minute before she come back to life, as if via a true resurrection spell. Agyra rises from the exact same position she occupied when she died, and typically takes advantage of this second chance to use her swift flight to escape as soon as possible. Agyra can only be reborn in this manner once per year; if she is slain a second time before a year has passed, her death is permanent and her corpse does not become electrified. This ability replaces Agyra's ability to immediately heal damage that would normally kill her, granted by her recovery ability, but does not replace the other defenses granted by recovery.",
-				"",
-				"**Storm Flier (Ex)** Agyra does not take penalties on Fly checks when flying in strong or more powerful winds.",
-				"",
-				"**Swift Flight (Su)** As a standard action once per hour, Agyra can fly in a straight line at an incredible speed. She may travel up to 1 mile in this manner-doing so does not provoke attacks of opportunity. When Agyra activates this ability, her thunderous blast ability is automatically triggered from the swift flight's point of origin.",
-				"",
-				"**Thunderous Blast (Su)** When Agyra uses her swift flight, she creates a thunderous sonic boom. This devastating explosion of sound occurs at her location when she activates swift flight, filling an area equal to her space and her reach combined-resulting in a 100-foot-diameter burst of sonic energy. All creatures in this area of effect take 20d10 points of sonic damage, are permanently deafened, are knocked prone, and are stunned for 1 round. A successful DC 41 Reflex save halves the damage, reduces the deafened condition to 1d4 rounds, and negates the knocked prone and stun effects entirely. The save DC is Constitution-based."
-			],
-			"description": [
-				"Agyra, the Forever Storm, is believed by many cultures to be the cause of seasonal typhoons or other great storms' such tempests being a manifestation of Agyra's monstrous breaths as she exhales during her long slumber every season. While this kaiju is not in fact responsible for the world's storms, her powers over wind and lightning are significant, and when she is vexed to rampage, the effects of her hurricanes can be as devastating to a region as her more direct attacks.",
-				"",
-				"Agyra has the appearance of a primeval, two-headed flying reptile with a wingspan of over 150 feet. Her tail is perhaps the most fearsome of her aspects. This lengthy and flailing appendage is covered with razor-sharp blades and wickedly barbed spines capable of slashing through buildings and tearing through armor with great force and from great distances.",
-				"",
-				"Agyra dwells on the upper slopes of a long-dormant volcano that sits on a remote tropical island beyond the main shipping lanes and the scope of most explorers' travels. As with many kaiju, she spends the bulk of her time in deep and peaceful slumber. She is ferociously protective of the strange peoples who dwell on the shores of this island, and has been known to rouse herself to come to their defense against slavers, pirates, or other external threats to their way of life. Despite this strange protective streak, Agyra is not a kindly creature-and none know this more plainly than those who share her island. Her responses to intrusions to the island may simply be defenses of her perceived territories, for certainly the villages of the locals suffer significant damage during her local rampages. She's been known to take wing to travel to distant cities as well, often as a result of some of her island's inhabitants being taken from the shores as slaves. Yet the devastation she wreaks upon the slavers' destination cities pays no regard to the safety of the slaves themselves-they are in as much danger as anyone else from the kaiju's vengeful wrath in this situation.",
-				"",
-				"There are rumors that certain shamans on the isle conceal sacred words or some ancient ritual to waken and command Agyra, and that many of her rampages are not the result of the kaiju being territorial or protective, but simply due to an ancient bargain the natives' ancestors forged with the mighty beast in some forgotten era. Some speculate that such rituals require the sacrifice of trespassers, but this may be nothing more than fearful superstition or rumors spread by shamans to persuade foreigners to stay clear of their island.",
-				"",
-				"Agyra has a particular hatred of the kaiju Mogaru, and often leaves her volcanic lair to fly west to the remote jungle lake that serves as Mogaru's home to clash with her nemesis. Mogaru's penchant for attacking coastal cities often results in a devastating escalation when Agyra arrives to do battle with the land-bound kaiju. Sometimes, methods of conjuring Agyra are used to deliberately lure the kaiju to a city besieged by Mogaru, but just as often her arrival seems to be driven by self-interest. Agyra typically manages to weaken Mogaru enough to drive him off, but is often slain herself in these battles, resurrecting and returning to her home at the same time Mogaru returns to his. The nature of this rivalry is unclear, but kaiju scholars believe that the two monsters have been enemies for longer than humanity has existed."
-			],
-			"monster_family": "Kaiju",
-			"short_description": "This two-headed monstrosity has vast wings and a long tail covered in a forest of blades."
-		},
-		{
-			"name": "Kaiju, Bezravnis",
-			"file": "monsterdisplay9e34.html",
-			"sources": [ "Bestiary 4" ],
-			"cr": 26,
-			"alignment": "CN",
-			"size": "colossal",
-			"creature_type": "magical beast",
-			"creature_subtypes": [
-				"earth",
-				"kaiju"
-			],
-			"heading": [
-				"## Bezravnis, CR 26",
-				"**Source** [Bestiary 4 pg. 168](source:Bestiary 4)   ",
-				"**XP** 2,457,600   ",
-				"CN Colossal magical beast (earth, kaiju)   ",
-				"**Init** +9; **Senses** darkvision 600 ft., low-light vision, tremorsense 600 ft.; Perception +37"
-			],
-			"defense": [
-				"**AC** 44, touch 7, flat-footed 39 (+5 Dex, +37 natural, -8 size)   ",
-				"**hp** 615 (30d10+450); fast healing 30   ",
-				"**Fort** +32, **Ref** +24, **Will** +20   ",
-				"**Defensive Abilities** ferocity, recovery; **DR** 20/epic; **Immune** ability damage, ability drain, death effects, disease, energy drain, fear, fire; **Resist** acid 30, cold 30, electricity 30, negative energy 30, sonic 30"
-			],
-			"offense": [
-				"**Speed** 100 ft., burrow 100 ft.   ",
-				"**Melee** 2 claws +40 (4d6+18/19-20 plus grab), 3 stings +40 (3d6+18/19-20 plus 2d6 fire and poison)   ",
-				"**Space** 50 ft., **Reach** 50 ft.   ",
-				"**Special Attacks** burrowing charge, constrict (4d6+27), heat beam, hurl foe, poison, trample (2d8+27, DC 43), web (+27 ranged, DC 40, 30 hp)"
-			],
-			"str": 47,
-			"dex": 20,
-			"con": 40,
-			"int": 3,
-			"wis": 26,
-			"cha": 23,
-			"base_attack_bonus": 30,
-			"cmb": 56,
-			"cmd": 71,
-			"statistics": [
-				"**Str** 47, **Dex** 20, **Con**: 40, **Int** 3, **Wis** 26, **Cha**, 23   ",
-				"**Base Atk** +30; **CMB** +56 (+60 bull rush, +60 grapple); **CMD** 71 (73 vs. bull rush, 83 vs. trip)   ",
-				"**Feats** [Combat Reflexes](feat:Combat Reflexes), [Critical Focus](feat:Critical Focus), [Greater Bull Rush](feat:Greater Bull Rush), [Greater Vital Strike](feat:Greater Vital Strike), [Improved Bull Rush](feat:Improved Bull Rush), [Improved Critical (claw)](feat:Improved Critical), [Improved Critical (sting)](feat:Improved Critical), [Improved Initiative](feat:Improved Initiative), [Improved Lightning Reflexes](feat:Improved Lightning Reflexes), [Improved Vital Strike](feat:Improved Vital Strike), [Iron Will](feat:Iron Will), [Lightning Reflexes](feat:Lightning Reflexes), [Power Attack](feat:Power Attack), [Staggering Critical](feat:Staggering Critical), [Vital Strike](feat:Vital Strike)   ",
-				"**Skills** Climb +31, Perception +37, Stealth +2 (+32 when burrowing); **Racial Modifiers** +16 Perception, +30 Stealth when burrowing   ",
-				"**Languages** Terran (can't speak)   ",
-				"**SQ** massive, no breath"
-			],
-			"ecology": [
-				"**Environment** warm deserts   ",
-				"**Organization** solitary (unique)   ",
-				"**Treasure** incidental"
-			],
-			"special_abilities": [
-				"**Burrowing Charge (Ex)** Once per minute, Bezravnis can make a charge attack while burrowing through loose earth, sand, mud, or magma, or through any other loosely packed earth or stone. When Bezaravnis reaches the target, it erupts from the ground as part of its attack. If Bezravnis hits the target of its burrowing charge attack, it deals double damage with its attack. Any creatures standing in or flying less than 50 feet above the space Bezravnis occupies at the end of this charge are immediately subjected to Bezravnis's trample attack. Any buildings entirely within this space take double damage from the trample attack (4d8+54 points)-this damage bypasses hardness. In addition, Huge or smaller creatures must succeed at a DC 40 Reflex save or be buried in earth, as if by a cave-in or collapse. This bury zone extends into all squares affected by Bezravnis's reach.",
-				"",
-				"**Heat Beam (Su)** Once every 4 rounds, Bezravnis can fire beams of searing heat and fire from one of its three stingers. Each stinger's heat beam is a separate attack with its own 4-round recharge period. The kaiju may fire one heat beam from a stinger as a move action, two heat beams as a standard action, or all three as a full-round action. Each heat beam is a 1,200-foot-long line that deals 20d6 points of fire damage to everything in its path (Reflex DC 40 half). If Bezravnis fires more than one heat beam, it can direct them in different directions. The save DC is Constitution-based.",
-				"",
-				"**Poison (Su)** Sting-injury; save Fort DC 40; frequency 1/round for 6 rounds; effect staggered for 1 round plus loss of fire immunity and resistance; cure 3 consecutive saves. As long as a creature suffers the effects of Bezravnis's poison, it loses all racial resistances and immunities to fire. Any spell or spell-like effects active when the target fails its initial saving throw against this poison are suppressed as long as it continues to be staggered by the poison. New effects of this nature that become active after that initial failed saving throw function normally if the caster succeeds at a DC 35 caster level check; otherwise, the spell effects are suppressed until the victim is no longer staggered.",
-				"",
-				"**Web (Ex)** Bezravnis's webs are immune to fire damage. In addition, these webs are semi-living things that continue to crush and squeeze those entangled by them. If a creature is entangled in the webs, at the start of each turn during which it is entangled, it takes 2d6+6 points of bludgeoning damage as the webs crush and constrict it. This ability otherwise functions the same as the universal monster ability."
-			],
-			"description": [
-				"Bezravnis, known also as the Inferno Below, dwells in the sands of a sparsely inhabited high-altitude desert found in the shadow of the world's largest mountain range. There, the 130-foot-long beast slumbers the centuries away until its cycle of wakefulness rouses it from its torpor and causes it to emerge from the sands in an eruption of fire and ash. The Inferno Below then begins its rampage, traveling in a straight line toward a heavily populated region bordering the great desert. Typically, the Inferno Below's rampage is limited to a single city, and never the same one twice in a row. After destroying no less than two-thirds of the city, it retreats back to the vast desert, burrows deep, and settles into a new sleep of ages.",
-				"",
-				"The reason for the Inferno Below's cyclic rampages is not well understood, but the cycle of these rampages functions like clockwork-they take place every 273 years with little deviation. As there seems to be no pattern to the kaiju's attacks themselves, with a different city being targeted each cycle, the cities of the bordering nations do their best to prepare for the monster's attack. The nations themselves have little love for each other, and attempts to generate lures to direct the kaiju's march toward an enemy city are common-yet these lures have yet to work, and in fact they seem to result in the kaiju attacking a city in the luring nation more often than not. Other cities spare no expense during a so-called \"Inferno Season,\" and send huge armies of scouts into the desert to watch for signs of the kaiju's emergence or traces of its burrowing passage through the sands, in hopes of determining the direction of the beast's travel and warning likely target cities (or, in the case of a trajectory that leads it to an enemy city, working to silence warnings).",
-				"",
-				"Kaiju scholars have correlated Bezravnis's appearance with the passage of a singular red comet in the skies above the world-an astronomical event known as the Inferno Star. As the comet nears the world, Bezravnis emerges, and as the comet vanishes from the sky, the kaiju turns its back and returns to the desert. Confirmation of this correlation has given rise to numerous theories. Some believe that Bezravnis first fell to the world from the Inferno Star, and its advent wakens within the beast a bewildered longing for home that drives it into a frenzy. Others hold that the kaiju exists as a guardian against an even more deadly occupant of the Inferno Star, and that by displaying its power by destroying a city, Bezravnis is in fact protecting the world by driving the Inferno Star back into the depths of space.",
-				"",
-				"But Bezravnis doesn't always have the luxury of waiting for the Inferno Star to draw near before waking. At several points in the past, lunatics, cults, and accidents have woken the kaiju before its appointed time. Some mad, apocalyptic-minded spellcasters use powerful magic to cause great explosions above the sands where the kaiju slumbers. Earthquakes, severe weather phenomena, and similar natural events have been known to waken the monster early as well. When Bezravnis wakens off-cycle like this, the monster is particularly foul-tempered. It's rampage does not follow a straight line-instead, its travels are erratic as it pursues the perceived cause of its wakening with single-minded ferocity and tenacity. In this way, cults have accomplished what the border nations have not-leading the kaiju to attack an enemy. Of course, such tactics are dangerous and often backfire, for Bezravnis is fast and destructive, and it has been known to follow such tormenters.",
-				"",
-				"Bezravnis doesn't seem to be particularly vexed by the presence of other kaiju, and ignores them unless it is attacked first. Once attacked, however, the Inferno Below becomes singularly focused and deviates from its path to fight the target creature as long as it remains visible or alive. Smaller foes can sometimes distract the kaiju from its path in this manner if they can deal enough damage upon the creature to bait it into directing its furious rage on them."
-			],
-			"monster_family": "Kaiju",
-			"short_description": "The armored plates of this immense, three-tailed scorpion are fiery red, and its stingers glow with molten heat."
-		},
-		{
-			"name": "Kaiju, Mogaru",
-			"file": "monsterdisplaybbfb.html",
-			"sources": [ "Bestiary 4" ],
-			"cr": 28,
-			"alignment": "CN",
-			"size": "colossal",
-			"creature_type": "magical beast",
-			"creature_subtypes": [
-				"kaiju",
-				"water"
-			],
-			"heading": [
-				"## Mogaru, CR 28",
-				"**Source** [Bestiary 4 pg. 170](source:Bestiary 4)   ",
-				"**XP** 4,915,200   ",
-				"CN Colossal magical beast (kaiju, water)   ",
-				"**Init** +9; **Senses** darkvision 600 ft., low-light vision, see invisibility, sense kaiju; Perception +45"
-			],
-			"defense": [
-				"**AC** 47, touch 7, flat-footed 42 (+5 Dex, +40 natural, -8 size)   ",
-				"**hp** 697 (34d10+510); fast healing 30   ",
-				"**Fort** +34, **Ref** +24, **Will** +23   ",
-				"**Defensive Abilities** absorb energy, ferocity, recovery; **DR** 20/epic; **Immune** ability damage, ability drain, death effects, disease, energy drain, fire, and fear; **Resist** acid 30, cold 30, electricity 30, negative energy 30, sonic 30   ",
-				"**Weaknesses** susceptible to song"
-			],
-			"offense": [
-				"**Speed** 100 ft., swim 100 ft.   ",
-				"**Melee** bite +46 (8d6+20/19-20 plus grab), 2 claws +46 (4d8+20/19-20), 2 tail slaps +44 (6d6+10/19-20)   ",
-				"**Ranged** firebolts +31 touch (damage variable; see below)   ",
-				"**Space** 60 ft., **Reach** 60 ft.   ",
-				"**Special Attacks** breath weapon, ferocity, fast swallow, hurl foe, reflexive breath, swallow whole (10d6 bludgeoning and 10d6 fire damage, AC 30, 69 hp), trample (4d8+30, DC 47)"
-			],
-			"str": 50,
-			"dex": 21,
-			"con": 41,
-			"int": 3,
-			"wis": 30,
-			"cha": 26,
-			"base_attack_bonus": 34,
-			"cmb": 62,
-			"cmd": 79,
-			"statistics": [
-				"**Str** 50, **Dex** 21, **Con**: 41, **Int** 3, **Wis** 30, **Cha**, 26   ",
-				"**Base Atk** +34; **CMB** +62 (+66 bull rush, +66 grapple, +66 sunder); **CMD** 79 (81 vs. bull rush, 81 vs. sunder)   ",
-				"**Feats** [Combat Reflexes](feat:Combat Reflexes), [Critical Focus](feat:Critical Focus), [Greater Bull Rush](feat:Greater Bull Rush), [Greater Sunder](feat:Greater Sunder), [Greater Vital Strike](feat:Greater Vital Strike), [Improved Bull Rush](feat:Improved Bull Rush), [Improved Critical (bite)](feat:Improved Critical), [Improved Critical (claw)](feat:Improved Critical), [Improved Initiative](feat:Improved Initiative), [Improved Iron Will](feat:Improved Iron Will), [Improved Sunder](feat:Improved Sunder), [Improved Vital Strike](feat:Improved Vital Strike), [Iron Will](feat:Iron Will), [Multiattack](feat:Multiattack), [Power Attack](feat:Power Attack), [Staggering Critical](feat:Staggering Critical), [Vital Strike](feat:Vital Strike)   ",
-				"**Skills** Perception +45, Swim +49; **Racial Modifiers** +16 Perception   ",
-				"**Languages** Aquan (can't speak)   ",
-				"**SQ** massive"
-			],
-			"ecology": [
-				"**Environment** warm forests or water   ",
-				"**Organization** solitary (unique)   ",
-				"**Treasure** incidental"
-			],
-			"special_abilities": [
-				"**Absorb Energy (Ex)** Mogaru absorbs energy attacks that damage him, including negative energy attacks. Damage blocked by one of his resistances or immunities instead heals him an amount equal to the damage dealt. He may absorb only one kind of energy in this manner in a round. The first type of energy that affects him in a round (whether or not it penetrates his immunities or resistance to actually damage him) sets the type of energy he absorbs for that round. Hit points gained in excess of his normal maximum are lost. Mogaru cannot gain healing from energy effects generated by himself.",
-				"",
-				"**Breath Weapon (Su)** Once every 4 rounds, Mogaru can breathe out a beam of fiery red force. When Mogaru uses this attack, he can choose to focus the breath weapon into a single 1,200-foot-long line, or he can shorten the range and turn his head and body while breathing, effectively affecting a 600-foot-long cone. All creatures caught in this area of effect take 20d6 points of fire damage, 20d6 points of force damage, and are staggered for 1d6 rounds from the devastating energy (Reflex DC 42 halves the damage and prevents the staggered effect). A creature slain by this effect is disintegrated, whether the saving throw was successful or not. This breath weapon is particularly effective at blasting through cover-cover does not grant any bonuses on Reflex saves against Mogaru's breath weapon. The save DC is Constitution-based.",
-				"",
-				"**Firebolts (Su)** As a standard action on any round immediately following the use of his breath weapon, Mogaru can fire bolts of red energy from the glowing spines along his back. These bolts are ranged touch attacks with a range of 1,200 feet. When Mogaru uses this ability, he must choose between firing one firebolt, three firebolts, or six firebolts. If he fires one, it deals 20d6 points of damage on a hit. If he fires three bolts, each deals 8d6 points of damage on a hit. If he fires six bolts, each deals 5d6 points of damage on a hit. Half of the damage caused by any one firebolt is fire damage, the other half is force damage. Firebolts deal full damage against objects, and ignore the first 10 points of hardness possessed by an object.",
-				"",
-				"**Reflexive Breath (Ex)** The first time in any round that Mogaru can make an attack of opportunity, he can choose to use a diminished version of his breath weapon instead of making a physical attack. This reflexive breath weapon attack only targets the creature that provoked the attack of opportunity, but otherwise causes the same damage and effects his breath weapon normally inflicts (Reflex DC 32 halves the damage and negates the staggered effect). Use of his breath weapon in this way does not affect the recharge rate of the regular breath weapon. The save DC is Constitution-based, and includes a -10 penalty to reflect the fact that the reflexive breath is a shorter (but no less intense) blast of energy than the kaiju's typical breath weapon attack.",
-				"",
-				"**Sense Kaiju (Su)** Mogaru can sense the location of the nearest active kaiju, as if using discern location, at will.",
-				"",
-				"**Susceptible to Song (Ex)** Mogaru's actions can be influenced by song, provided the kaiju notices the singing. If the kaiju is not currently engaged in battle, he automatically hears any song within 100 feet that is directed at him in an attempt to influence him, but when he is in combat, there's only a cumulative 20% chance per round of sustained singing that he notices the song. In order to influence Mogaru, the singer must make a DC 35 Perform (sing) check (this check cannot be bolstered by the aid another action, and the singer cannot take 10 or 20 on the check). The result of this check sets the DC of the Will save Mogaru must make in order to not be influenced by the song. The singer can choose to influence Mogaru as if she had successfully cast suggestion on the kaiju (CL = the singer's ranks in Perform [sing]). If Mogaru succeeds at a Will save (DC = the singer's ranks in Perform [sing] + the singer's Charisma modifier), the effects of the influence last for a maximum of 1d4 rounds; otherwise, the effects last as long as a suggestion spell would normally last. Mogaru cannot use his recovery ability to recover from song influence, and a single singer may influence Mogaru only once per day."
-			],
-			"description": [
-				"Mogaru, known as the Final King to kaiju scholars, or simply as King Mogaru, is one of the most destructive of his kind. Although not the most powerful kaiju (a sobering thought in and of itself ), Mogaru is certainly the most active of the known kaiju. Additionally, Mogaru seems to be as eager to rampage through the works of humanity as he is to attack and kill other kaiju, making him something of a mixed blessing to kaiju-threatened cities. While the prospect of an attack by Mogaru is the stuff of nightmares, the possibility of his intervention during a different kaiju attack is the stuff of hope, though the damage dealt to a city during its defense may be significant. Mogaru appears as a towering dinosaur with twin tails, spines that glow red as he uses his breath weapon, and two powerful clawed forearms.",
-				"",
-				"King Mogaru dwells in the depths of a tropical jungle, sleeping silently at the bottom of an unusually deep lake until roused. Legends hold that Mogaru was born of the world itself, either formed from the spirits of countless plants and animals resulting from ages of hunting and predation by humanoids for food or sport, or formed from the souls of the countless slain in an ancient apocalypse or war that devastated one of the first of the world's empires. Regardless of the actual cause, the birth of Mogaru in these legends seems to be the same-soon after another kaiju, Lord Varklops, emerged from an erupting volcano, Mogaru rose to oppose the Thrice-Headed Fiend in a vast battle that nearly slew Varklops while devastating an entire nation in the process. Mogaru is also rumored to have slain no fewer than a dozen other kaiju, including Agmazar the Star Titan, now believed to be the only undead kaiju in existence.",
-				"",
-				"Of particular note is the curious fact that Mogaru exhibits a particularly unique interest in song. Legends of skilled singers being able to save their cities with a single mournful paean to the kaiju, or of vengeful bards using their craft to waken the monster from his lair to send him on a rampage are common along coastal regions with a history of kaiju attacks, and in such regions renowned singers are well respected for this ability to influence one of the world's most destructive creatures. Kaiju scholars suspect that song manages to penetrate Mogaru's memories of some primeval event, but the reasons for the kaiju's reaction to the song are its own.",
-				"",
-				"Mogaru stands 140 feet high and weighs 20,000 tons, and is nearly 300 feet long from nose to tail."
-			],
-			"monster_family": "Kaiju",
-			"short_description": "This towering saurian lumbers on its hind legs, its twin tails thrashing and the spines on its back glowing with red energy."
-		},
-		{
-			"name": "Kaiju, Varklops",
-			"file": "monsterdisplay6547.html",
-			"sources": [
-				"Bestiary 6",
-				"Bestiary 4"
-			],
-			"cr": 30,
-			"alignment": "CE",
-			"size": "colossal",
-			"creature_type": "magical beast",
-			"creature_subtypes": [
-				"fire",
-				"kaiju"
-			],
-			"heading": [
-				"## Varklops, CR 30",
-				"**Source** [Bestiary 6 pg. 170](source:Bestiary 6)   ",
-				"**XP** 9,830,400   ",
-				"CE Colossal magical beast (fire, kaiju)   ",
-				"**Init** +17; **Senses** darkvision 600 ft., low-light vision, mistsight, tremorsense 300 ft.; Perception +34"
-			],
-			"defense": [
-				"**AC** 48, touch 16, flat-footed 34 (+13 Dex, +1 dodge, +32 natural, -8 size)   ",
-				"**hp** 752 (35d10+560); fast healing 30   ",
-				"**Fort** +35, **Ref** +32, **Will** +23   ",
-				"**Defensive Abilities** deflect cold, ferocity, recovery; **DR** 20/epic; **Immune** ability damage, ability drain, death effects, disease, energy drain, fear, fire; **Resist** acid 30, cold 30, electricity 30, negative energy 30, sonic 30   ",
-				"**Weaknesses** distracted when outnumbered, vulnerable to cold"
-			],
-			"offense": [
-				"**Speed** 80 ft., burrow 60 ft., fly 150 ft. (poor)   ",
-				"**Melee** 3 bites +46 (6d6+26/19-20 plus burn), 2 wings +44 (3d8+16/19-20 plus burn), tail slap +46 (4d8+35/19-20/x3 plus burn)   ",
-				"**Space** 60 ft., **Reach** 60 ft.   ",
-				"**Special Attacks** breath weapon, burn (2d6 fire, DC 43), eruption, fire monsoon, improved hurl foe, kaijuslayer, rend (2 bites, 6d6+28; or 3 bites, 12d6+28)"
-			],
-			"str": 48,
-			"dex": 37,
-			"con": 42,
-			"int": 3,
-			"wis": 30,
-			"cha": 29,
-			"base_attack_bonus": 35,
-			"cmb": 62,
-			"cmd": 86,
-			"statistics": [
-				"**Str** 48, **Dex** 37, **Con**: 42, **Int** 3, **Wis** 30, **Cha**, 29   ",
-				"**Base Atk** +35; **CMB** +62 (+66 bull rush); **CMD** 86 (88 vs. bull rush, can't be tripped)   ",
-				"**Feats** [Combat Reflexes](feat:Combat Reflexes), [Critical Focus](feat:Critical Focus), [Dodge](feat:Dodge), [Greater Bull Rush](feat:Greater Bull Rush), [Greater Vital Strike](feat:Greater Vital Strike), [Improved Bull Rush](feat:Improved Bull Rush), [Improved Critical (bite, tail slap, wing)](feat:Improved Critical), [Improved Initiative](feat:Improved Initiative), [Improved Iron Will](feat:Improved Iron Will), [Improved Vital Strike](feat:Improved Vital Strike), [Iron Will](feat:Iron Will), [Lunge](feat:Lunge), [Multiattack](feat:Multiattack), [Power Attack](feat:Power Attack), [Staggering Critical](feat:Staggering Critical), [Vital Strike](feat:Vital Strike)   ",
-				"**Skills** Fly +34, Perception +34; **Racial Modifiers** +16 Perception   ",
-				"**Languages** Ignan (can't speak)   ",
-				"**SQ** devastating, massive, powerful blows (tail slap)"
-			],
-			"ecology": [
-				"**Environment** warm mountains   ",
-				"**Organization** solitary (unique)   ",
-				"**Treasure** incidental"
-			],
-			"special_abilities": [
-				"**Breath Weapon (Su)** Each of Varklops's three heads can exhale a blast of searing fire and billowing ash in a 1,200-foot line once every 4 rounds. Each head's breath weapon is a separate attack with its own 4-round recharge period. The kaiju can exhale one line of fire as a move action, two lines as a standard action, or three lines as a full-round action. Each breath weapon deals 20d6 points of fire damage and 20d6 points of bludgeoning damage to all creatures in the area of effect as they are barraged with semi-solid chunks of superheated rock and magma expelled in the torrent of fire; targets are also stunned for 1 round by the overwhelming force. With a successful DC 43 Reflex save, a creature takes half damage and negates the stun effect. If Varklops exhales more than one breath weapon, he can use them in different directions. If a creature is subjected to more than one breath weapon in a round in this manner, it takes damage from and must attempt separate saves against each breath weapon. The save DCs are Constitution-based.",
-				"",
-				"**Deflect Cold (Ex)** Although Varklops is vulnerable to cold damage, he can shield himself from a cold attack by reflexively curling his wings around himself as an immediate action when he would otherwise take cold damage. He must choose to use this ability before any cold damage from the attack is applied and before he attempts any applicable saving throws to resist the cold damage, but he can wait until after the attack hits to choose to deflect cold. When he uses this ability, all cold damage from that particular attack is ignored. At Varklops's discretion, he can deflect the cold damage to any single adjacent creature, which is then instead treated as the target of the cold attack. If the cold attack was an area effect that also affected the adjacent creature, that creature does not take the cold damage twice, but does need to attempt two saving throws (if applicable) against the effect, taking the worse of the two results as the actual result.",
-				"",
-				"**Devastating (Ex)** Varklops is particularly devastating, and any attack or special ability he uses to deal damage to an object ignores hardness less than 20. Objects take full damage from his fire-based attacks.",
-				"",
-				"**Distracted When Outnumbered (Ex)** While Varklops is furiously focused on slaying kaiju, his rudimentary intellect supports a surprisingly powerful and inflated sense of selfworth that crumbles when he faces overwhelming odds. In any combat round that involves two allied kaiju focusing their efforts against him, Varklops loses his kaijuslayer ability and becomes so distracted by which target to focus on that he must succeed at a DC 30 Will save or become staggered for that round. Non-kaiju cannot distract Varklops in this manner, even if the non-kaiju is similar in size to a kaiju.",
-				"",
-				"**Eruption (Su)** Up to three times per day (but no more than once every 4 rounds) as Varklops emerges onto the surface of terrain after burrowing, he does so with an explosion of ash and magma. All creatures within 150 feet of Varklops when he bursts out of the ground in this manner take 20d6 points of fire damage. Huge or smaller creatures in this area are knocked prone. With a successful DC 43 Reflex save, creatures take half the damage and negate being knocked prone, but a creature that takes any damage from this eruption is subjected to Varklops's burn ability. In addition, the eruption creates a cloud of ash in the area of effect; this cloud of ash lingers in the area for 1 minute, obscuring vision as per obscuring mist. The save DC is Constitution-based.",
-				"",
-				"**Fire Monsoon (Su)** Once per day as Varklops moves at full speed while flying, he can rain down a torrential storm of fire, burning any target up to 300 feet below him. All targets Varklops passes over in flight take 20d6 points of fire damage (Reflex DC 43 half); any creature that takes any damage from this attack is subjected to Varklops's burn ability. The area affected by the fire monsoon continues to burn for 1 minute-any creature that begins its turn in this area takes 4d6 points of fire damage. The save DC is Constitution-based.",
-				"",
-				"**Improved Hurl Foe (Ex)** When Varklops hits a creature with his tail slap and uses his hurl foe kaiju ability (see page 305), the distance the foe is knocked back doubles.",
-				"",
-				"**Kaijuslayer (Su)** Varklops takes particular delight in the slaying of other kaiju, and his aggression causes all kaiju to take a -4 penalty on saving throws against Varklops's special attacks. Another kaiju cannot use recovery to prevent itself from being killed by one of Varklops's attacks. This ability does not function against the kaiju known as King Mogaru."
-			],
-			"description": [
-				"Lord Varklops is indisputably the most powerful of the known kaiju, a tremendously destructive force of devastation that dwells in the heart of an active volcano in a tropical mountain range when not hunting his favorite prey-other kaiju. Although the fact that Lord Varklops so eagerly hunts and slays kaiju might seem to make him an ally of all civilizations threatened by such creatures, in truth Varklops is also one of the few kaiju to be actively evil in his predations upon the world. When no other kaiju present themselves as victims and the urge to destroy seizes Varklops, the socalled Thrice-Headed Fiend thinks nothing of razing entire cities for his pleasure.",
-				"",
-				"This eagerness to destroy appeals to apocalypse-minded cultists and to deranged exiles who seek revenge against the cities they were forced to flee. Varklops is known to look favorably upon those who approach him with requests for targeted devastation-particularly if the offer includes the opportunity to attack another kaiju. Varklops has little interest in assaulting civilizations in polar regions, but his greatest weakness is his inflated, if rudimentary, ego.",
-				"",
-				"When facing multiple kaiju, Varklops often gets distracted and frustrated-a condition that several societies have risked using to their advantage by luring other kaiju to their defense. Of course, the devastation a city might suffer when three or more kaiju fight may well exceed that wrought by Varklops alone, so such desperate actions are not taken lightly.",
-				"",
-				"Varklops has a particularly strong hatred of King Mogaru, as this kaiju alone can resist Varklops's rage. The reasons for this immunity are unknown, but certainly Mogaru matches Varklops's hatred, and battles between the two kaiju are the stuff of legend. Varklops is 200 feet long and weighs 16,000 tons."
-			],
-			"monster_family": "Kaiju",
-			"short_description": "This immense, fiery-orange serpent has three horned heads, a pair of draconic wings, and a long tail tipped with four bony spikes."
-		},
-		{
-			"name": "Kaiju, Vorgozen",
-			"file": "monsterdisplay79b1.html",
-			"sources": [
-				"Bestiary 6",
-				"Bestiary 4"
-			],
-			"cr": 29,
-			"alignment": "CN",
-			"size": "colossal",
-			"creature_type": "ooze",
-			"creature_subtypes": [
-				"kaiju",
-				"water"
-			],
-			"heading": [
-				"## Vorgozen, CR 29",
-				"**Source** [Bestiary 6 pg. 172](source:Bestiary 6)   ",
-				"**XP** 6,553,600   ",
-				"CN Colossal ooze (kaiju, water)   ",
-				"**Init** +14; **Senses** darkvision 600 ft., tremorsense 600 ft.; Perception +32   ",
-				"**Aura** polluted magic (300 ft.)"
-			],
-			"defense": [
-				"**AC** 47, touch 13, flat-footed 36 (+10 Dex, +1 dodge, +34 natural, -8 size)   ",
-				"**hp** 717 (35d8+560); fast healing 30   ",
-				"**Fort** +27, **Ref** +23, **Will** +24   ",
-				"**Defensive Abilities** absorb magic, ferocity, recovery; **DR** 20/epic; **Immune** ability damage, ability drain, acid, death effects, disease, energy drain, fear, poison, ooze traits; **Resist** acid 30, cold 30, electricity 30, fire 30, sonic 30, negative energy 30; **SR** 40"
-			],
-			"offense": [
-				"**Speed** 50 ft., climb 50 ft., swim 100 ft.   ",
-				"**Melee** 6 tentacles +40 (4d6+21/19-20 plus 2d6 acid and grab)   ",
-				"**Space** 80 ft., **Reach** 60 ft.   ",
-				"**Special Attacks** acid beam, constrict (4d6+31 plus 2d6 acid), fast swallow, hurl foe, infuse terrain, swallow whole (10d6 acid and 10d6 bludgeoning damage, AC 27, 71 hp)"
-			],
-			"str": 52,
-			"dex": 31,
-			"con": 42,
-			"int": 3,
-			"wis": 32,
-			"cha": 27,
-			"base_attack_bonus": 26,
-			"cmb": 55,
-			"cmd": 76,
-			"statistics": [
-				"**Str** 52, **Dex** 31, **Con**: 42, **Int** 3, **Wis** 32, **Cha**, 27   ",
-				"**Base Atk** +26; **CMB** +55 (+59 bull rush); **CMD** 76 (78 vs. bull rush, can't be tripped)   ",
-				"**Feats** [Blinding Critical](feat:Blinding Critical), [Combat Reflexes](feat:Combat Reflexes), [Critical Focus](feat:Critical Focus), [Dodge](feat:Dodge), [Greater Bull Rush](feat:Greater Bull Rush), [Greater Vital Strike](feat:Greater Vital Strike), [Improved Bull Rush](feat:Improved Bull Rush), [Improved Critical (tentacle)](feat:Improved Critical), [Improved Initiative](feat:Improved Initiative), [Improved Lightning Reflexes](feat:Improved Lightning Reflexes), [Improved Vital Strike](feat:Improved Vital Strike), [Iron Will](feat:Iron Will), [Lightning Reflexes](feat:Lightning Reflexes), [Lunge](feat:Lunge), [Mobility](feat:Mobility), [Power Attack](feat:Power Attack), [Vital Strike](feat:Vital Strike), [Weapon Focus (tentacle)](feat:Weapon Focus)   ",
-				"**Skills** Climb +44, Perception +32, Swim +47; **Racial Modifiers** +16 Perception   ",
-				"**Languages** Aquan (can't speak)   ",
-				"**SQ** massive"
-			],
-			"ecology": [
-				"**Environment** warm swamps   ",
-				"**Organization** solitary (unique)   ",
-				"**Treasure** incidental"
-			],
-			"special_abilities": [
-				"**Absorb Magic (Ex)** When a spell or spell-like ability fails to overcome Vorgozen's spell resistance, it is wholly or partially absorbed by the kaiju. If the spell was an area-effect spell or targeted more than just Vorgozen, it functions normally against other targets and Vorgozen regains a number of hit points equal to double the spell's level. If the spell targeted only Vorgozen, she absorbs the entire spell and regains a number of hit points equal to 10 x the spell's level. Whenever Vorgozen absorbs magic in this way, her polluted magic aura grows more powerful (whether or not the absorbed magic healed her of damage); all rolls to determine the effect of polluted magic are modified by +20 for the remainder of the round.",
-				"",
-				"**Acid Beam (Su)** Once every 4 rounds, Vorgozen can unleash a beam of foul acid. This creates a 1,200-foot line of high pressure caustic fluid. All creatures caught in the area of effect take 20d6 points of acid damage and 20d6 points of bludgeoning damage, and are knocked prone. A creature that succeeds at a DC 43 Reflex save takes half damage and avoids being knocked prone. A Huge or smaller creature that is knocked prone is also pushed away from Vorgozen. A Huge creature is pushed back 10 feet, a Large creature 20 feet, a Medium creature 40 feet, and Small or smaller creatures 80 feet. Creatures that are pushed take 1d6 additional points of bludgeoning damage per 10 feet they are pushed, but can attempt a DC 43 Reflex save to halve this additional damage. The save DC is Constitution-based.",
-				"",
-				"**Infuse Terrain (Su)** Once per day as a standard action, Vorgozen can dematerialize and seep into the terrain, infusing it with her polluted nature. The kaiju appears to simply melt into the surrounding terrain when she uses this ability, vanishing from view. The terrain in a 1-mile radius becomes infused with the kaiju's essence-if the terrain is swamp or other wetland, the radius increases to 10 miles. While infusing terrain, Vorgozen cannot be harmed, and all magical effects generated in the region can trigger polluted effects (see Polluted Magic below). Vorgozen remains aware of what takes place in the region of infused terrain, and she can remain infused in the terrain indefinitely, during which time she does not need to breathe, eat, or sleep. She can emerge from the terrain at any point within the infused region as a swift action, gaining the benefit of a heal spell (CL 20th) when she does so. Alternatively, she can suppress all effects of her presence on the terrain for up to 24 hours to move at a speed of 50 miles per hour, as per shadow walk. When she ceases moving (typically upon arriving at a region with powerful magic that has drawn her attention), her presence remains suppressed and she cannot move for the remainder of the 24 hours, at which point the suppression ends and her presence again infuses the surrounding terrain.",
-				"",
-				"**Polluted Magic (Su)** Vorgozen's presence pollutes magic, causing magical abilities to become unreliable when used within 300 feet of the kaiju. When a creature within this area generates a spell, spell-like ability, or supernatural effect, roll on the table below to see how Vorgozen's polluting presence hampers or transforms the effect. Effects created by creatures outside of this 300-foot aura are unaffected by Vorgozen's polluted magic, even if the effect of the spell or supernatural ability enters the area of polluted magic or targets Vorgozen. Likewise, ongoing spell effects or supernatural effects are not polluted when Vorgozen's aura envelops them. Vorgozen's own supernatural abilities never trigger polluted magic effects.",
-				"",
-				"| d% | Result |",
-				"| --- | --- |",
-				"| 1-30 | The spell or supernatural effect functions normally. |",
-				"| 31-50 | The spell or supernatural effect is diluted, functioning at half capacity (caster level, all damage and other randomly determined elements, and durations and areas of effect not determined by caster level are halved); the DCs of saving throws to resist the effect are decreased by 10. |",
-				"| 51-70 | The spell or supernatural effect is cancelled and its use for that activation is wasted. |",
-				"| 71-90 | The spell or supernatural effect is canceled and its use for that activation is wasted. The creator of the spell or supernatural effect must succeed at a DC 35 Fortitude save or be nauseated for 1d4 rounds. The nausea is a mind-affecting effect. The save DC is Charisma-based. |",
-				"| 91 or higher | The spell or supernatural effect is canceled and its use for that activation is wasted. The creator of the spell or supernatural effect must succeed at a DC 35 Will save or suffer the effects of feeblemind (CL 20th). The feeblemind effect is a mind-affecting effect. The save DC is Charisma-based. |",
-				"",
-				"**Swallow Whole (Ex)** If a creature that is swallowed whole by Vorgozen manages to escape by cutting itself free, Vorgozen's gelatinous body simply seals over the hole created so that other swallowed creatures must cut their own way out."
-			],
-			"description": [
-				"Most kaiju are ancient creatures that have dwelled in hidden lairs since the dawn of civilization, prehistoric monsters woken from eons-long slumbers, or alien entities who visit the world only rarely. But Vorgozen (referred to as the Shapeless Feeder by some, and as Queen Vorgozen by those who wish to see all magic abolished from the world) is a relatively recent addition to the world's kaiju. This accidental but overwhelmingly powerful creation was forged from the unfortunate combination of hubris and arrogance. The absolute destruction of the remote academy in an immense fen that gave rise to the Shapeless Feeder left few clues as to the nature of the potent magic the wizards there were toying with. What hints remain suggest it involved reverse-engineering an artifact in an attempt to distill the potent powers held within the core of a once flying city.",
-				"",
-				"Born as she was out of the abuse of magical power, Vorgozen is very much a personification of the arrogant wizard who values the study and mastery of magic and the pursuit of arcane power over all else. The Shapeless Feeder was not content to remain at the epicenter of her accidental creation, and has instead seeped through the world, drawn by powerful magical auras or supernatural foci. Fortunately for civilization, after emerging to destroy, the Shapeless Feeder invariably retreats to vast swamplands such as the site of her genesis to hibernate for decades before rousing once again from her slumber.",
-				"",
-				"The powerful magic of other kaiju's supernatural abilities is particularly coveted by Vorgozen, and she enjoys polluting these effects more than any other. She is often drawn to places where other kaiju rampage as a result.",
-				"",
-				"Queen Vorgozen is an immense mound of protoplasm nearly 80 feet in diameter. She weighs 24,000 tons."
-			],
-			"monster_family": "Kaiju",
-			"short_description": "This mountain of filthy green sludge heaps up on itself, extending six tentacles and unfolding its core to reveal a single red eye."
-		},
-		{
-			"name": "Kaiju, Yarthoon",
-			"file": "monsterdisplayac41.html",
-			"sources": [
-				"Bestiary 6",
-				"Bestiary 4"
-			],
-			"cr": 25,
-			"alignment": "CN",
-			"size": "colossal",
-			"creature_type": "magical beast",
-			"creature_subtypes": [
-				"air",
-				"kaiju"
-			],
-			"heading": [
-				"## Yarthoon, CR 25",
-				"**Source** [Bestiary 6 pg. 174](source:Bestiary 6)   ",
-				"**XP** 1,638,400   ",
-				"CN Colossal magical beast (air, kaiju)   ",
-				"**Init** +13; **Senses** low-light vision, mistsight, see in darkness, tremorsense 300 ft.; Perception +28"
-			],
-			"defense": [
-				"**AC** 44, touch 12, flat-footed 34 (+9 Dex, +1 dodge, +32 natural, -8 size)   ",
-				"**hp** 565 (29d10+406); fast healing 30   ",
-				"**Fort** +30, **Ref** +25, **Will** +19   ",
-				"**Defensive Abilities** ferocity, recovery; **DR** 20/epic; **Immune** ability damage, ability drain, cold, death effects, disease, energy drain, fear; **Resist** acid 30, electricity 30, fire 30, negative energy 30, sonic 30"
-			],
-			"offense": [
-				"**Speed** 60 ft., burrow 100 ft., fly 100 ft. (average), swim 100 ft.   ",
-				"**Melee** 2 bites +39 (4d6+27/19-20 plus 4d6 cold and grab), slam +39 (4d8+27/19-20 plus 4d6 cold and staggering strike)   ",
-				"**Space** 30 ft., **Reach** 30 ft.   ",
-				"**Special Attacks** clinging frost, eye beams, fast swallow, freezing mist, hurl foe, penetrating cold, swallow whole (6d6 bludgeoning and 6d6 cold damage, AC 26, 56 hp), swift bite"
-			],
-			"str": 46,
-			"dex": 29,
-			"con": 38,
-			"int": 3,
-			"wis": 26,
-			"cha": 21,
-			"base_attack_bonus": 29,
-			"cmb": 55,
-			"cmd": 75,
-			"statistics": [
-				"**Str** 46, **Dex** 29, **Con**: 38, **Int** 3, **Wis** 26, **Cha**, 21   ",
-				"**Base Atk** +29; **CMB** +55 (+59 overrun); **CMD** 75 (77 vs. overrun, can't be tripped)   ",
-				"**Feats** [Critical Focus](feat:Critical Focus), [Dodge](feat:Dodge), [Flyby Attack](feat:Flyby Attack), [Greater Overrun](feat:Greater Overrun), [Improved Critical (bite, slam)](feat:Improved Critical), [Improved Initiative](feat:Improved Initiative), [Improved Iron Will](feat:Improved Iron Will), [Improved Overrun](feat:Improved Overrun), [Improved Vital Strike](feat:Improved Vital Strike), [Iron Will](feat:Iron Will), [Power Attack](feat:Power Attack), [Staggering Critical](feat:Staggering Critical), [Vital Strike](feat:Vital Strike), [Wingover](feat:Wingover)   ",
-				"**Skills** Fly +32, Perception +28, Swim +26; **Racial Modifiers** +16 Perception   ",
-				"**Languages** Auran (can't speak)   ",
-				"**SQ** massive, no breath, powerful blows (bite, slam), starflight"
-			],
-			"ecology": [
-				"**Environment** any cold (the world's moon or outer space)   ",
-				"**Organization** solitary (unique)   ",
-				"**Treasure** incidental"
-			],
-			"special_abilities": [
-				"**Clinging Frost (Su)** Whenever a creature takes cold damage from Yarthoon (including from her freezing mist), the creature becomes encrusted with a layer of clinging frost for 1 round. The duration of this clinging frost stacks with multiple instances of cold damage from Yarthoon. As long as a creature has at least 1 round of clinging frost remaining, it takes a -2 penalty on all Reflex saving throws and Dexterity-based skill checks. As long as a creature has at least 2 rounds of clinging frost remaining, it is staggered. Freedom of movement negates the effects of clinging frost, and if a creature activates a fire-based supernatural ability on its turn, it reduces the number of rounds remaining by 1d4. Creatures with the fire subtype, the heat ability, or any similar ability to shed significant warmth are immune to clinging frost.",
-				"",
-				"**Eye Beams (Su)** Once every 4 rounds as a standard action, Yarthoon can emit several beams of freezing energy from her eyes. When Yarthoon uses this attack, she can choose to fire all of the beams in one direction to create a single line 1,200 feet long, or she can instead fire eight separate beams as ranged touch attacks with a range of 1,200 feet. If she chooses to fire them in a line, all creatures within the area of effect take 20d6 points of cold damage (Reflex DC 38 half). If she fires the beams as ranged touch attacks, she has a +30 attack bonus but can target a single creature with no more than two eye beams at a time (though she can fire the beams in any direction to attack multiple targets in range). A single eye beam deals 8d6 points of cold damage on a hit (no save). The save DC for the line-based attack is Constitution-based.",
-				"",
-				"**Freezing Mist (Su)** Once per day as a swift action, Yarthoon can exhale a cloud of freezing mist, filling a 200-foot-radius sphere surrounding her. This mist obscures vision as per obscuring mist and persists for 10 rounds, and is not dispersed by moderate wind. A strong wind (21+ mph) disperses the mist in 2d4 rounds, while fireball, flame strike, or similar spells burn away the mist in the spell's area. Any creature within the area of the mist when Yarthoon creates it takes 8d6 points of cold damage (Reflex DC 38 half). A creature that begins its turn within the mist takes 4d6 points of cold damage (no save) at the start of its turn. The save DC is Constitution-based.",
-				"",
-				"**Penetrating Cold (Su)** When Yarthoon deals cold damage, the damage ignores the first 30 points of cold resistance the target has.",
-				"",
-				"**Staggering Strike (Ex)** If Yarthoon hits a Gargantuan or smaller foe that's standing on the ground with her slam attack, the target struck must succeed at a DC 42 Reflex save or be knocked prone and become staggered for 1d6 rounds. If she hits a Gargantuan or smaller flying foe, the creature is staggered for 1d6 rounds and must succeed at a DC 42 Fly check or lose 30 feet of altitude (a winged flying creature loses 60 feet of altitude instead; this replaces the normal rule for being attacked while flying for winged creatures). A Colossal creature struck by Yarthoon's slam must succeed at a DC 42 Reflex save to resist being staggered for 1 round, but is not knocked prone or forced to lose altitude. The save DC is Strength-based.",
-				"",
-				"**Starflight (Su)** Yarthoon can survive in the void of outer space. She flies through space at incredible speeds, but generally only does so to travel between the moon and the world below when her attention is caught or her curiosity piqued. It takes Yarthoon only 2d4 hours to travel from the moon to the world below. If she were to travel to a more distant point in the same solar system, she requires only 3d6 days to make the journey, while trips beyond this range generally take her 3d6 weeks.",
-				"",
-				"**Swift Bite (Ex)** Yarthoon strikes with astonishing speed when she attacks with her bite. Whenever Yarthoon makes a bite attack on her turn, she can attack two times, either as a standard action to bite twice, or as part of a full attack to bite two times in addition to making one slam attack. She can make any number of attacks of opportunity with her bite attack, but does not get to bite more than once when she does so."
-			],
-			"description": [
-				"Yarthoon is among the least powerful of the kaiju, yet even she is of staggering size and capable of unleashing devastation on an apocalyptic scale. Known as the Moon Grub to kaiju scholars, Yarthoon does indeed dwell upon the moon itself, where she spends much of her time in a frozen reach of ice and snow, created, in part, by her presence and the effects of her freezing breath over the course of centuries. (Note that although Yarthoon's exhalations fill the region with freezing mist, the Moon Grub herself has no need to breathe and can exist comfortably in the vacuum of space.)",
-				"",
-				"Were Yarthoon content to remain upon the moon, there would be little known about the frozen kaiju; unfortunately, the larger world her home orbits is a constant fascination for her. Indeed, certain events have been known to specifically attract Yarthoon's attention, whether they're intentional calls such as powerful rituals led by apocalyptic cultists, or accidental lures that occur when powerful effects of magical cold occur. The exact nature of these attractions varies, and even the most learned scholars argue over what exactly it is that draws Yarthoon to visit the world. None, however, dispute the devastation Yarthoon unleashes, if unintentionally, when she visits the world. Unlike many kaiju, Yarthoon seems not to purposefully seek out civilizations to destroy, but her immense size and her freezing breath wreak havoc nonetheless. Fortunately, Yarthoon's visits to the world typically last for only a few days before she slithers off into the sky like an eel swimming through water to return to her den on the moon.",
-				"",
-				"Yarthoon has a complex relationship with Mogaru, the Final King. Often, Mogaru's devastation on a region is enough to lure Yarthoon down from the moon, in which case she often clashes with the more powerful kaiju. Likewise, Mogaru's ability to sense kaiju often results in him coming to investigate a region that Yarthoon has decided to visit. Yet the two kaiju never seem willing to finish a fight against the other, and rather than deliver a death blow when the chance rises, each seems content to let the other flee. The one thing that seems to unite the two kaiju is their shared hatred of Lord Varklops, and the two kaiju have teamed up several times to drive off the three-headed fiend more than once.",
-				"",
-				"Although Yarthoon is the least powerful of the known kaiju, the Moon Grub has been remarkably resilient. Time and time again, Yarthoon has returned after suffering what seemed to be a complete defeat, at either the hands of powerful heroes or the claws and fangs of fellow kaiju. Scholars of these immense monsters have theorized that Yarthoon may not be a unique creature, and that in its hidden lair on the moon, multiple Moon Grubs writhe and dream. Others posit that Yarthoon is but the larval stage of a kaiju, and that while only one may live at any time, numerous other eggs lie in a hidden creche on the moon, waiting to hatch and release replacement Moon Grubs as needed.",
-				"",
-				"Yarthoon is 250 feet long from head to tail and weighs 14,000 tons."
-			],
-			"monster_family": "Kaiju",
-			"short_description": "This immense pale blue worm raises one end of its body like a serpent, its many-toothed maw opening amid a ring of glowing eyes."
-		},
-		{
 			"name": "Kakuen-Taka",
 			"searchable_name": "Kakuen Taka",
 			"file": "monsterdisplay57fe.html",
@@ -3323,7 +2824,7 @@
 			"description": [
 				"Brilliantly beautiful but nearly as elusive as the breeze, the caterpillar-like katroome is a little creature with an enormous ego. Katroomes are rare and mostly live deep within forests or similar uninhabited areas. Most travelers confuse them with fey creatures, given their magical abilities, capriciousness, and haughty demeanors. In reality, they are magical beasts that almost never reveal themselves to others unless they wish.",
 				"",
-				"Katroomes tend to view themselves as monarchs of their surroundings. They don't believe themselves superior to all others in their demesnes; they simply think that it's their birthright to protect their homelands and natural surroundings. In turn, they expect to be treated with the respect such a position deserves. To those unfamiliar with a katroome's ways, the creature might come across as overbearing or imperious. Even to those who might compliment its beauty, a katroome might condescendingly issue a correction: \"I'm not beautiful,\" one might say, \"I'm not beautiful,\"",
+				"Katroomes tend to view themselves as monarchs of their surroundings. They don't believe themselves superior to all others in their demesnes; they simply think that it's their birthright to protect their homelands and natural surroundings. In turn, they expect to be treated with the respect such a position deserves. To those unfamiliar with a katroome's ways, the creature might come across as overbearing or imperious. Even to those who might compliment its beauty, a katroome might condescendingly issue a correction: \"I'm not beautiful,\" one might say, \"I am *regal*.\"",
 				"",
 				"Travelers typically encounter katroomes because the creatures are curious about any visitors in their realm. If the travelers seem innocuous and prove that they understand a katroome's internalized hierarchy of the area, the katroome might aid them with information. If the travelers are wicked or have disrespected the katroome or its home, the creature might stalk them, using its compulsion abilities and its natural webbing to play malicious pranks on the party.",
 				"",
@@ -6621,7 +6122,9 @@
 				"**Space** 15 ft., **Reach** 15 ft.   ",
 				"**Special Attacks** breath weapon (50-ft. cone, 2d8+8 piercing damage plus grab, Reflex DC 27 for half, usable every 1d4 rounds), dancing chains, entrapping chains, pull (breath weapon, 10 feet), rend (2 chains, 2d8+12)   ",
 				"**Spell-Like Abilities (CL 16th)   ",
-				"At will - blur (self only), dimensional anchor 3/day - deeper darkness, shadow walk (DC 19), silence (DC 15) 1/day - discern location"
+				"*At will* - blur (self only), dimensional anchor   ",
+				"*3/day* - deeper darkness, shadow walk (DC 19), silence (DC 15)   ",
+				"*1/day* - discern location"
 			],
 			"str": 26,
 			"dex": 14,
@@ -8121,7 +7624,9 @@
 				"**Space** 2-1/2 ft., **Reach** 0 ft.   ",
 				"**Special Attacks** suggestion   ",
 				"**Spell-Like Abilities (CL 7th)   ",
-				"At will - create water, detect evil, ghost sound, guidance, lullaby, mage hand, mending, message, open/close, prestidigitation, purify food and drink 3/day - bless, bless water, dancing lights, produce flame, protection from evil, sanctuary (DC 13), unseen servant 1/day - calm emotions, continual flame, gust of wind, pyrotechnics, whispering wind"
+				"*At will* - create water, detect evil, ghost sound, guidance, lullaby, mage hand, mending, message, open/close, prestidigitation, purify food and drink   ",
+				"*3/day* - bless, bless water, dancing lights, produce flame, protection from evil, sanctuary (DC 13), unseen servant   ",
+				"*1/day* - calm emotions, continual flame, gust of wind, pyrotechnics, whispering wind"
 			],
 			"str": 10,
 			"dex": 17,
@@ -8152,10 +7657,10 @@
 				"",
 				"**Statua (Su)** All lares rely on a small stone figure, known as a statua, for survival. This figurine serves as a lar's home, resting place, and tie to the Material Plane. Lares typically rest within their statua, finding it a comfortable place from which to oversee their surroundings. For every round a lar spends doing nothing besides resting within its statua, it regenerates 1 point of damage. However, being separated from the statua for extended periods of time weakens the lar. For every 5 hours a lar remains outside of its statua, it takes 1d6 points of nonlethal damage. Only returning to the statua can heal this damage. If a lar falls to 0 hit points, even from nonlethal damage, it is banished back to the Upper Planes. While a lar's statua exists, the connected lar is treated as a native outsider. Any attempt to banish the lar-through dismissal or a similar spell-merely transports the creature back to its statua. If the statua is destroyed, a lar can be dismissed from the Material Plane as normal.",
 				"",
-				"**Suggestion (Sp)** A lar can influence creatures as per the spell suggestion, with some variations, at will. First, to influence a creature in this manner, a lar must occupy the same square as its target. The lar is considered to be able to speak any language and communicate with any creature-even animals and vermin (which are usually immune to mind-affecting effects)\"for the purposes of this effect. The target may attempt to resist a lar's suggestion by making a DC 17 Will save. The save DC is Charisma-based and includes a +2 racial bonus."
+				"**Suggestion (Sp)** A lar can influence creatures as per the spell suggestion, with some variations, at will. First, to influence a creature in this manner, a lar must occupy the same square as its target. The lar is considered to be able to speak any language and communicate with any creature-even animals and vermin (which are usually immune to mind-affecting effects)-for the purposes of this effect. The target may attempt to resist a lar's suggestion by making a DC 17 Will save. The save DC is Charisma-based and includes a +2 racial bonus."
 			],
 			"description": [
-				"Sometimes referred to as -watchsouls,\" lares are subtle, benevolent spirits that prefer to spend their existence on the Material Plane minding the homes and fortunes of deserving mortals. Kind but aloof, lares watch over their mortal wards and help only when they are most needed. Yet where their homes are intruded upon or their charges imperiled, they prove frighteningly effective guardians, turning everything in their tiny dominions into living weapons.",
+				"Sometimes referred to as \"watchsouls,\" lares are subtle, benevolent spirits that prefer to spend their existence on the Material Plane minding the homes and fortunes of deserving mortals. Kind but aloof, lares watch over their mortal wards and help only when they are most needed. Yet where their homes are intruded upon or their charges imperiled, they prove frighteningly effective guardians, turning everything in their tiny dominions into living weapons.",
 				"",
 				"Lares are innately invisible, making the nature of their existence something of a mystery. Originating from the Upper Planes, these spirits have no true bodies and appear only as vague spectral eddies to those capable of seeing invisible beings. Yet while their forms prove vague, their blessings are undeniable.",
 				"",
@@ -13115,7 +12620,7 @@
 				"*At will*-mass suggestion (DC 25), mind thrust VI (DC 27)   ",
 				"*1/day*-animate plants (DC 26; self unaffected), weird (DC 28)   ",
 				"**Psychic Magic** (CL 23rd; concentration +32)   ",
-				"40 PE-create greater mindscape (7 PE, DC 26), dream council (7 PE, DC 26), dream scan (6 PE, DC 25), dream voyage (9 PE, DC 28), greater dispel magic (6 PE), id insinuation IV (5 PE, DC 24), microcosm (9 PE, DC 28), mind probe (5 PE, DC 26), nightmare (5 PE, DC 24), psychic image (9 PE, DC 28)"
+				"*40 PE*-create greater mindscape (7 PE, DC 26), dream council (7 PE, DC 26), dream scan (6 PE, DC 25), dream voyage (9 PE, DC 28), greater dispel magic (6 PE), id insinuation IV (5 PE, DC 24), microcosm (9 PE, DC 28), mind probe (5 PE, DC 26), nightmare (5 PE, DC 24), psychic image (9 PE, DC 28)"
 			],
 			"str": 38,
 			"dex": 23,
@@ -14352,7 +13857,7 @@
 				"**Spell-Like Abilities (CL 16th; concentration +22; Wisdom-based)   ",
 				"*At will*-greater teleport (self only), plane shift (self only)   ",
 				"**Psychic Magic** (CL 16th; concentration +22; Wisdom-based)   ",
-				"27 PE-catatonia (3 PE, DC 19), cognitive block (3 PE, DC 19), divide mind (9 PE), mind thrust IV (4 PE, DC 20), remote viewing (5 PE), retrocognition (5 PE), unshakable zeal (7 PE)"
+				"*27 PE*-catatonia (3 PE, DC 19), cognitive block (3 PE, DC 19), divide mind (9 PE), mind thrust IV (4 PE, DC 20), remote viewing (5 PE), retrocognition (5 PE), unshakable zeal (7 PE)"
 			],
 			"str": 15,
 			"dex": 23,
@@ -14425,7 +13930,7 @@
 				"**Spell-Like Abilities (CL 12th; concentration +17; Wis-based)   ",
 				"*At will*-greater teleport (self only), plane shift (self only)   ",
 				"**Psychic Magic** (CL 12th; concentration +17; Wis-based)   ",
-				"25 PE-analyze aura (3 PE), aversion (2 PE, DC 17), enshroud thoughts (2 PE), mind thrust VI (6 PE, DC 21), psychic asylum (5 PE), psychic crush I (5 PE, DC 20), quintessence (1 PE)"
+				"*25 PE*-analyze aura (3 PE), aversion (2 PE, DC 17), enshroud thoughts (2 PE), mind thrust VI (6 PE, DC 21), psychic asylum (5 PE), psychic crush I (5 PE, DC 20), quintessence (1 PE)"
 			],
 			"str": 13,
 			"dex": 19,
@@ -14497,7 +14002,7 @@
 				"**Spell-Like Abilities (CL 14th; concentration +19; Wisdom-based)   ",
 				"*At will*-greater teleport (self only), plane shift (self only)   ",
 				"**Psychic Magic** (CL 14th; concentration +19; Wisdom-based)   ",
-				"19 PE-anticipate thoughts (2 PE), burst of insight (1 PE), dream council (6 PE, DC 21), synapse overload (5 PE, DC 20), remote viewing (5 PE)"
+				"*19 PE*-anticipate thoughts (2 PE), burst of insight (1 PE), dream council (6 PE, DC 21), synapse overload (5 PE, DC 20), remote viewing (5 PE)"
 			],
 			"str": 19,
 			"dex": 23,
@@ -14572,7 +14077,7 @@
 				"**Spell-Like Abilities (CL 18th; concentration +26; Wisdom-based)   ",
 				"*At will*-greater teleport (self only), plane shift (self only)   ",
 				"**Psychic Magic** (CL 18th; concentration +26; Wisdom-based)   ",
-				"45 PE-aversion (2 PE, DC 20), awaken (5 PE), awaken construct (6 PE), babble (3 PE, DC 21), ego whip (7 PE, DC 25), greater synaptic pulse (5 PE, DC 23), mind thrust VI (6 PE, DC 24), mindwipe (4 PE, DC 22), psychic image (9 PE), psychic surgery (6 PE), synapse overload (5 PE, DC 23)"
+				"*45 PE*-aversion (2 PE, DC 20), awaken (5 PE), awaken construct (6 PE), babble (3 PE, DC 21), ego whip (7 PE, DC 25), greater synaptic pulse (5 PE, DC 23), mind thrust VI (6 PE, DC 24), mindwipe (4 PE, DC 22), psychic image (9 PE), psychic surgery (6 PE), synapse overload (5 PE, DC 23)"
 			],
 			"str": 19,
 			"dex": 27,
@@ -19192,7 +18697,7 @@
 				"**Paralytic Saliva (Su)** Three times per day, as an immediate action an angheuvore can affect a living creature it bites with paralytic saliva. An affected creature is paralyzed for 1 round unless it succeeds at a DC 13 Fortitude save. Elves are immune to this effect. The save DC is Constitution-based."
 			],
 			"description": [
-				"The connection between [elves](unknown:elves) and [ghouls](unknown:ghouls) is not clearly understood; elves are resistant to ghouls' paralyzing touch, but not the disease that transforms humanoids into ghouls. Angheuvore mortics, or \"half-ghouls,\" are lanky, pallid creatures with an insatiable hunger for flesh. They have the long ears and featureless, dark eyes characteristic of elves but have a larger jaw filled with sharp teeth. Born from elven parents afflicted with [ghoul fever](unknown:ghoul fever) or otherwise subjected to necromantic energies, angheuvores are often shunned as children due to their appetites. They typically grow up on their own or among degenerate communities of other angheuvores. Never fully satisfied without a belly full of humanoid flesh, angheuvores lurk at the edges of civilization looking for opportunities to sate their appetites. Some angheuvores keep other humanoids as prisoners to feast upon at their leisure, and the victims in these \"larders\" live in constant fear of becoming the next meal. Angheuvores living within humanoid communities often keep a low profile by subsisting on corpses and frequently work as gravediggers, morticians, or physicians.",
+				"The connection between [elves](race:elf) and [ghouls](monster:ghoul) is not clearly understood; elves are resistant to ghouls' paralyzing touch, but not the disease that transforms humanoids into ghouls. Angheuvore mortics, or \"half-ghouls,\" are lanky, pallid creatures with an insatiable hunger for flesh. They have the long ears and featureless, dark eyes characteristic of elves but have a larger jaw filled with sharp teeth. Born from elven parents afflicted with [ghoul fever](unknown:ghoul fever) or otherwise subjected to necromantic energies, angheuvores are often shunned as children due to their appetites. They typically grow up on their own or among degenerate communities of other angheuvores. Never fully satisfied without a belly full of humanoid flesh, angheuvores lurk at the edges of civilization looking for opportunities to sate their appetites. Some angheuvores keep other humanoids as prisoners to feast upon at their leisure, and the victims in these \"larders\" live in constant fear of becoming the next meal. Angheuvores living within humanoid communities often keep a low profile by subsisting on corpses and frequently work as gravediggers, morticians, or physicians.",
 				"",
 				"Like elves, angheuvores are long lived, often drifting from community to community for centuries. They share an appreciation for art, although angheuvore aesthetics are often unpleasant to other humanoids, as they predominantly center on the look and smell of blood, flesh, and organs. Unlike elves, angheuvores aren't particularly patient and don't take any particular care to live in harmony with their surroundings.",
 				"",
@@ -19289,7 +18794,7 @@
 				"",
 				"Thanks to their magic and incidental allure to fey, etiolings usually find homes in primeval wildernesses. Even those who take up residence in permanent structures find their magic and unwanted followers transforming any dwelling into an overgrown ruin within weeks. Because they cannot control their corrupting touch, anything the gnomes interact with regularly is scrubbed clean of life, from insects and moss to gardens to mortal neighbors. While the world around them flourishes, their own circles decay into tumbledown sterility.",
 				"",
-				"Storms bring some measure of calm to the etioling's mind-as if the primordial energy within them were siphoned off by the more powerful forces swirling about- and the mortics can seem truly mad as they rejoice in dangerous weathers. Most are simply intoxicated by the terrible but awesome displays of nature, though a few become true servants of powerful weathercontrolling outsiders or fey, striking grim bargains to bring suffering to others in exchange for control over their own unstable minds."
+				"Storms bring some measure of calm to the etioling's mind-as if the primordial energy within them were siphoned off by the more powerful forces swirling about- and the mortics can seem truly mad as they rejoice in dangerous weathers. Most are simply intoxicated by the terrible but awesome displays of nature, though a few become true servants of powerful weather-controlling outsiders or fey, striking grim bargains to bring suffering to others in exchange for control over their own unstable minds."
 			],
 			"monster_family": "Mortic",
 			"short_description": "Glowing veins of green creep across the flesh of this pale, spasming gnome. Stifled giggles escape her rictus grin."
@@ -19619,7 +19124,7 @@
 				"",
 				"A typical relictner stands about 4 feet tall and weighs 125 pounds.",
 				"",
-				"Sometimes, when a dwarf survives the affliction of a [mummy's](unknown:mummy's) curse, a sliver of that dread power remains in her blood, lying dormant for years or even generations. The curse mutates, and its host mutates in turn to become the half-dead creature known as a relictner. The two grow together in a kind of twisted symbiosis, until it becomes hard to tell where the relictner ends and its curse begins. Removing a relictner's curse (possible only with [wish](unknown:wish) or [miracle](unknown:miracle)) kills it instantly, as the curse has long since taken over the host's vital biological functions.",
+				"Sometimes, when a dwarf survives the affliction of a [mummy's](unknown:mummy) curse, a sliver of that dread power remains in her blood, lying dormant for years or even generations. The curse mutates, and its host mutates in turn to become the half-dead creature known as a relictner. The two grow together in a kind of twisted symbiosis, until it becomes hard to tell where the relictner ends and its curse begins. Removing a relictner's curse (possible only with [wish](unknown:wish) or [miracle](unknown:miracle)) kills it instantly, as the curse has long since taken over the host's vital biological functions.",
 				"",
 				"Soon after its curse manifests, a relictner feels an urge to claim some kind of structure or building as its own. A relictner considers its home a vital part of its being, much like a hermit crab's shell, and few relictners willingly leave their chosen lairs. A relictner forced to leave its home experiences bouts of twitchy, agoraphobic mania interspersed with melancholic lethargy. This is not to say that relictners don't sometimes grit their teeth and travel-a relictner is an intelligent creature, after all-but it takes quite a lot of motivation.",
 				"",
@@ -20564,7 +20069,13 @@
 				"**Ranged** 5 sound strikes +16 ranged touch (4d6 sonic)   ",
 				"**Special Attacks** bardic performance 49 rounds/day (swift action; as a 16th-level bard)   ",
 				"**Bard Spells Known ** (CL 16th; concentration +25)   ",
-				"6th (2)-brilliant inspiration, irresistible dance (DC 25) 5th (5)-greater dispel magic, greater heroism, frozen note (DC 25), shadowbard 4th (6)-break enchantment, heroic finale, legend lore, modify memory (DC 23), virtuoso performance 3rd (7)-exquisite accompaniment, glibness, good hope, haste, purging finale 2nd (7)-calm emotions (DC 21), eagle's splendor, gallant inspiration, honeyed tongue, share memory (DC 21), tactical acumen 1st (8)-hideous laughter (DC 20), identify, liberating command, saving finale, solid note, timely inspiration 0 (at will)-detect magic, ghost sound (DC 19), lullaby (DC 19), message, prestidigitation, summon instrument"
+				"*6th (2)*-brilliant inspiration, irresistible dance (DC 25)   ",
+				"*5th (5)*-greater dispel magic, greater heroism, frozen note (DC 25), shadowbard   ",
+				"*4th (6)*-break enchantment, heroic finale, legend lore, modify memory (DC 23), virtuoso performance   ",
+				"*3rd (7)*-exquisite accompaniment, glibness, good hope, haste, purging finale   ",
+				"*2nd (7)*-calm emotions (DC 21), eagle's splendor, gallant inspiration, honeyed tongue, share memory (DC 21), tactical acumen   ",
+				"*1st (8)*-hideous laughter (DC 20), identify, liberating command, saving finale, solid note, timely inspiration   ",
+				"*0 (at will)*-detect magic, ghost sound (DC 19), lullaby (DC 19), message, prestidigitation, summon instrument"
 			],
 			"str": 14,
 			"dex": 27,
@@ -20850,7 +20361,12 @@
 				"**Space** 15 ft., **Reach** 15 ft.   ",
 				"**Special Attacks** breath weapon (80-ft. line, 12d6 force damage plus magical disruption, Reflex DC 23 for half, usable every 1d4 rounds)   ",
 				"**Sorcerer Spells Known ** (CL 11th; concentration +14)   ",
-				"5th (4)-commune with nature, telekinesis 4th (6)-bestow curse (DC 17), cure serious wounds, illusory wall (DC 17) 3rd (7)-aversion (DC 16), dispel magic, greater magic fang, snare 2nd (7)-barkskin, false life, resist energy, scare (DC 15), web (DC 15) 1st (7)-cure light wounds, magic missile, obscuring mist, pass without trace, true strike 0 (at will)-bleed (DC 13), detect magic, ghost sound (DC 13), guidance, mage hand, open/close, read magic, resistance, virtue"
+				"*5th (4)*-commune with nature, telekinesis   ",
+				"*4th (6)*-bestow curse (DC 17), cure serious wounds, illusory wall (DC 17)   ",
+				"*3rd (7)*-aversion (DC 16), dispel magic, greater magic fang, snare   ",
+				"*2nd (7)*-barkskin, false life, resist energy, scare (DC 15), web (DC 15)   ",
+				"*1st (7)*-cure light wounds, magic missile, obscuring mist, pass without trace, true strike   ",
+				"*0 (at will)*-bleed (DC 13), detect magic, ghost sound (DC 13), guidance, mage hand, open/close, read magic, resistance, virtue"
 			],
 			"str": 28,
 			"dex": 21,
@@ -22135,7 +21651,7 @@
 				"*At will*-clairvoyance/clairaudience, detect thoughts (DC 19), mass charm monster (DC 25), mass suggestion (DC 23), poison (DC 20), telekinesis, teleport   ",
 				"*3/day*-quickened mass suggestion (DC 23)   ",
 				"**Psychic Magic** (CL 20th; concentration +27)   ",
-				"27 PE-demand offering (2 PE, DC 19), ego whip V (6 PE, DC 23), id insinuation IV (5 PE, DC 22), mass inflict pain (6 PE, DC 23), mind thrust VI (6 PE, DC 23), psychic crush V (9 PE, DC 26), telekinetic storm (9 PE, DC 26)"
+				"*27 PE*-demand offering (2 PE, DC 19), ego whip V (6 PE, DC 23), id insinuation IV (5 PE, DC 22), mass inflict pain (6 PE, DC 23), mind thrust VI (6 PE, DC 23), psychic crush V (9 PE, DC 26), telekinetic storm (9 PE, DC 26)"
 			],
 			"str": 34,
 			"dex": 11,
@@ -22699,7 +22215,7 @@
 				"**Space** 10 ft., **Reach** 5 ft.   ",
 				"**Special Attacks** smoke   ",
 				"**Spell-Like Abilities (CL 6th)   ",
-				"1/day (self plus 1 rider only)-plane shift"
+				"*1/day* (self plus 1 rider only)-plane shift"
 			],
 			"str": 18,
 			"dex": 15,
@@ -22762,7 +22278,7 @@
 				"**Space** 15 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** smoke (DC 22)   ",
 				"**Spell-Like Abilities (CL 15th)   ",
-				"1/hour (self plus 1 rider only)-ethereal jaunt, plane shift"
+				"*1/hour* (self plus 1 rider only)-ethereal jaunt, plane shift"
 			],
 			"str": 31,
 			"dex": 15,
@@ -23206,7 +22722,7 @@
 				"**Space** 5 ft., **Reach** 20 ft. (with slam)   ",
 				"**Special Attacks** shadow crafting   ",
 				"**Spell-Like Abilities (CL 10th)   ",
-				"At will - detect thoughts (DC 16) 3/day - deeper darkness"
+				"*At will* - detect thoughts (DC 16) 3/day - deeper darkness"
 			],
 			"str": 17,
 			"dex": 24,
@@ -24180,7 +23696,7 @@
 				"**Spell-Like Abilities (CL 11th; concentration +17)   ",
 				"*Constant*-mage armor   ",
 				"**Psychic Magic** (CL 11th; concentration +17)   ",
-				"10 PE-ego whip I (3 PE, DC 19), id insinuation I (2 PE, DC 18), mental barrier I (1 PE), mind thrust IV (4 PE, DC 20)"
+				"*10 PE*-ego whip I (3 PE, DC 19), id insinuation I (2 PE, DC 18), mental barrier I (1 PE), mind thrust IV (4 PE, DC 20)"
 			],
 			"str": 10,
 			"dex": 19,
@@ -24390,7 +23906,9 @@
 				"**Melee** incorporeal touch +16 (1d6 Int drain plus daze)   ",
 				"**Special Attacks** jungle animus, thought eater   ",
 				"**Spell-Like Abilities (CL 14th; concentration +21)   ",
-				"At will - entangle (DC 18), enthrall (DC 19), goodberry, mage hand, obscuring mist 3/day - command plants (DC 21), giant vermin, hallucinatory terrain (DC 21), helping hand, move earth, rainbow pattern (DC 21), soften earth and stone (DC 19), spike growth (DC 20), tree stride 1/day - animate plants, creeping doom (DC 24), find the path, legend lore, mage's magnificent mansion, reincarnate"
+				"*At will* - entangle (DC 18), enthrall (DC 19), goodberry, mage hand, obscuring mist   ",
+				"*3/day* - command plants (DC 21), giant vermin, hallucinatory terrain (DC 21), helping hand, move earth, rainbow pattern (DC 21), soften earth and stone (DC 19), spike growth (DC 20), tree stride   ",
+				"*1/day* - animate plants, creeping doom (DC 24), find the path, legend lore, mage's magnificent mansion, reincarnate"
 			],
 			"str": null,
 			"dex": 23,
@@ -29215,7 +28733,7 @@
 				"**Spell-Like Abilities (CL 9th; concentration +9)   ",
 				"*Constant*-detect magic   ",
 				"**Psychic Magic** (CL 9th; concentration +12)   ",
-				"22 PE-detect psychic significance (1 PE), hallucinatory terrain (DC 17, 4 PE), identify (1 PE), locate object (2 PE), make whole (2 PE), mirage arcana (DC 18, 5 PE), object reading (1 PE), shatter (DC 15, 2 PE), sound burst (DC 15, 2 PE)"
+				"*22 PE*-detect psychic significance (1 PE), hallucinatory terrain (DC 17, 4 PE), identify (1 PE), locate object (2 PE), make whole (2 PE), mirage arcana (DC 18, 5 PE), object reading (1 PE), shatter (DC 15, 2 PE), sound burst (DC 15, 2 PE)"
 			],
 			"str": 19,
 			"dex": 13,
@@ -32897,7 +32415,7 @@
 				"*At will*-confusion (DC 23), greater dispel magic, greater teleport (self plus 50 lbs. of objects only), major creation, plane shift (DC 26), telekinesis (DC 34)   ",
 				"*3/day*-quickened confusion (DC 23), quickened disintegrate (DC 25), prismatic spray (DC 26), reshape reality (DC 26), quickened telekinesis (DC 24), word of chaos (DC 26)   ",
 				"*1/day*-heal, implosion (DC 28), mage's disjunction, prismatic sphere (DC 28)   ",
-				"1/year-miracle"
+				"*1/year*-miracle"
 			],
 			"str": 29,
 			"dex": 31,
@@ -33856,7 +33374,7 @@
 				"**Melee** bite +8 (1d3-2 plus poison)   ",
 				"**Space** 2-1/2 ft., **Reach** 0 ft.   ",
 				"**Psychic Magic** (CL 6th; concentration +8)   ",
-				"5 PE-charm person (1 PE, DC 13), detect thoughts (2 PE, DC 13), invisibility (2 PE, self only)"
+				"*5 PE*-charm person (1 PE, DC 13), detect thoughts (2 PE, DC 13), invisibility (2 PE, self only)"
 			],
 			"str": 6,
 			"dex": 16,
@@ -33927,7 +33445,7 @@
 				"**Melee** incorporeal touch +16 (mindwipe)   ",
 				"**Special Attacks** mass erasure (DC 19), mindwipe (DC 18)   ",
 				"**Psychic Magic** (CL 8th; concentration +11)   ",
-				"20 PE-cognitive block (3 PE, DC 16), ego whip I (3 PE, DC 16), mind probe (4 PE, DC 17), mind thrust III (3 PE, DC 16), possession (5 PE, DC 18), synaptic pulse (3 PE, DC 16), thought shield III (4 PE, DC 17)"
+				"*20 PE*-cognitive block (3 PE, DC 16), ego whip I (3 PE, DC 16), mind probe (4 PE, DC 17), mind thrust III (3 PE, DC 16), possession (5 PE, DC 18), synaptic pulse (3 PE, DC 16), thought shield III (4 PE, DC 17)"
 			],
 			"str": null,
 			"dex": 19,
@@ -35000,7 +34518,11 @@
 				"*5/day*-speak with dead   ",
 				"*3/day*-summon (level 7, 1d4 giant tarantulas [Pathfinder RPG Bestiary 2 256] 75% or 1d4 spider swarms 100%) Inquisitor   ",
 				"**Spells Known ** (CL 12th; concentration +15)   ",
-				"4th (3)-cure critical wounds, divination, freedom of movement, spell immunity 3rd (5)-blood biography (DC 16), dimensional anchor, dispel magic, halt undead (DC 16) 2nd (6)-confess (DC 15), detect thoughts (DC 15), hold person (DC 15), invisibility, see invisibility 1st (6)-bane (DC 14), command (DC 14), comprehend languages, expeditious retreat, sanctuary (DC 14), wrath 0-bleed (DC 13), detect magic, disrupt undead, read magic, sift, stabilize"
+				"*4th (3)*-cure critical wounds, divination, freedom of movement, spell immunity   ",
+				"*3rd (5)*-blood biography (DC 16), dimensional anchor, dispel magic, halt undead (DC 16)   ",
+				"*2nd (6)*-confess (DC 15), detect thoughts (DC 15), hold person (DC 15), invisibility, see invisibility   ",
+				"*1st (6)*-bane (DC 14), command (DC 14), comprehend languages, expeditious retreat, sanctuary (DC 14), wrath   ",
+				"*0*-bleed (DC 13), detect magic, disrupt undead, read magic, sift, stabilize"
 			],
 			"str": 22,
 			"dex": 19,

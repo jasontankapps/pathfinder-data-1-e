@@ -92,7 +92,7 @@
 				"**Ranged** light crossbow +0 (1d8/19-20)   ",
 				"**Special Attacks** channel positive energy (5/day, 1d6, DC 12); rebuke death (1d4+1, 6/day); touch of good (6/day)   ",
 				"**Spell-Like Abilities (CL 1st; concentration +3)   ",
-				"1/day - daylight   ",
+				"*1/day* - daylight   ",
 				"**Spells Prepared ** (CL 1st)   ",
 				"*1st*-bless, command (DC 14), protection from evil[^D]   ",
 				"*0 (at will)*-detect magic, guidance, stabilize   ",
@@ -155,7 +155,7 @@
 				"*At will*-calm emotions (DC 16), charm monster (DC 18), clairaudience/clairvoyance (clairvoyance only), daze monster (DC 16), feather fall   ",
 				"*3/day*-dispel magic, lightning bolt (DC 17)   ",
 				"*1/day*-dominate monster (DC 23)   ",
-				"1/month-interplanetary teleport"
+				"*1/month*-interplanetary teleport"
 			],
 			"str": 11,
 			"dex": 21,
@@ -4292,7 +4292,7 @@
 				"**Water Manipulation (Su)** A thalassic architect is adept at the telekinetic manipulation of matter, including the waters it inhabits. This at-will ability is a standard action with a duration of concentration + 1 round. The ability functions in two different modes that can be used only one at a time. The architect can force the water around a creature to lock in place and act as a solid, paralyzing the target as per [hold monster](unknown:hold monster) unless the target succeeds at a DC 20 Reflex save. Aside from using effects such as [freedom of movement](unknown:freedom of movement) or [remove paralysis](unknown:remove paralysis), the target can also break free with a DC 20 Strength check. This ability can affect a creature more than once, but each casting grants a new saving throw. Alternatively, it can thicken water to the consistency of gelatin in a 20-foot radius. Creatures with a swim speed treat this area as difficult terrain. Creatures without a swim speed increase the DC for Swim checks to move through the affected area by 10 (for example, calm underwater areas, usually DC 10, become DC 20). In either case, 5-foot steps become impossible. The save DC is Charisma-based."
 			],
 			"description": [
-				"\"Thalassic architect- is a human term for a racial subspecies of aboleth, known as uldraaghus in the language of alghollthus. Uldraaghus were engineered and bred by the mysterious entities that rule the alghollthu race from the deepest oceanic trenches. Whereas aboleths and veiled masters are adept at using telepathy and mental domination, thalassic architects use telekinetic powers to manipulate-even create or destroy-physical matter.",
+				"Thalassic architect is a human term for a racial subspecies of aboleth, known as uldraaghus in the language of alghollthus. Uldraaghus were engineered and bred by the mysterious entities that rule the alghollthu race from the deepest oceanic trenches. Whereas aboleths and veiled masters are adept at using telepathy and mental domination, thalassic architects use telekinetic powers to manipulate-even create or destroy-physical matter.",
 				"",
 				"Uldraaghus more closely resemble veiled masters than they do standard aboleths. They're smaller, being about 15 feet long and weighing 2,800 pounds. Furthermore, they have five eyes instead of three; four are set to either side of their head, while a larger fifth eye is set in the center and glows with a brilliant white light. Thalassic architects have four tentacles, two of which end in clawed appendages capable of manipulating objects. Dark bands of scales typically ring their silvery bodies.",
 				"",
@@ -4350,7 +4350,13 @@
 				"*At will*-detect thoughts (DC 18), dominate person (DC 21), hypnotic pattern (DC 18), illusory wall (DC 20), mirage arcana (DC 21), persistent image (DC 21), programmed image (DC 22), project image (DC 23), veil (DC 22)   ",
 				"*3/day*-dominate monster (DC 25), quickened dominate person (DC 21), geas/quest, mass suggestion (DC 22)   ",
 				"**Sorcerer Spells Known ** (CL 12th; concentration +18)   ",
-				"6th (4)-symbol of persuasion (DC 23) 5th (6)-symbol of pain (DC 22), teleport 4th (7)-dimension door, phantasmal killer (DC 20), symbol of slowing (DC 21) 3rd (7)-clairaudience/clairvoyance, explosive runes (DC 20), hold person (DC 19), secret page 2nd (8)-blindness/deafness (DC 18), invisibility, levitate, symbol of mirroring (DC 19), touch of idiocy 1st (8)- charm person (DC 17), comprehend languages, erase, ray of enfeeblement (DC 17), silent image (DC 17) 0 (at will)-arcane mark, dancing lights, daze (DC 16), detect magic, ghost sound (DC 16), mage hand, message, read magic, touch of fatigue (DC 16)"
+				"*6th (4)*-symbol of persuasion (DC 23)   ",
+				"*5th (6)*-symbol of pain (DC 22), teleport   ",
+				"*4th (7)*-dimension door, phantasmal killer (DC 20), symbol of slowing (DC 21)   ",
+				"*3rd (7)*-clairaudience/clairvoyance, explosive runes (DC 20), hold person (DC 19), secret page   ",
+				"*2nd (8)*-blindness/deafness (DC 18), invisibility, levitate, symbol of mirroring (DC 19), touch of idiocy   ",
+				"*1st (8)*- charm person (DC 17), comprehend languages, erase, ray of enfeeblement (DC 17), silent image (DC 17)   ",
+				"*0 (at will)*-arcane mark, dancing lights, daze (DC 16), detect magic, ghost sound (DC 16), mage hand, message, read magic, touch of fatigue (DC 16)"
 			],
 			"str": 22,
 			"dex": 22,
@@ -5476,7 +5482,9 @@
 				"**Space** 10 ft., **Reach** 5 ft.   ",
 				"**Special Attacks** rend (4 claws +16, 1d6+7)   ",
 				"**Spell-Like Abilities (CL 14th; concentration +16)   ",
-				"Constant - see invisibility At will - deeper darkness, dimension door, dispel magic 3/day - dominate monster (DC 21), fear (DC 16)"
+				"*Constant* - see invisibility   ",
+				"*At will* - deeper darkness, dimension door, dispel magic   ",
+				"*3/day* - dominate monster (DC 21), fear (DC 16)"
 			],
 			"str": 21,
 			"dex": 17,
@@ -7218,7 +7226,7 @@
 				"*3/day*-crushing despair (DC 19), deeper darkness, nightmare (DC 20), suggestion (DC 18)   ",
 				"*1/day*-eyebite (DC 22), summon (level 4, 2d4 ceustodaemons 80% or 1 anisydaemon 35%)   ",
 				"**Psychic Magic** (CL 15th; concentration +20)   ",
-				"10 PE-babble (3 PE, DC 18), ego whip V (7 PE, DC 22), mental block (2 PE, DC 17), murderous command (1 PE, DC 16), psychic crush III (7 PE, DC 22)"
+				"*10 PE*-babble (3 PE, DC 18), ego whip V (7 PE, DC 22), mental block (2 PE, DC 17), murderous command (1 PE, DC 16), psychic crush III (7 PE, DC 22)"
 			],
 			"str": 28,
 			"dex": 19,
@@ -11172,7 +11180,7 @@
 				"*At will*-greater teleport (self plus 50 lbs. of objects only)   ",
 				"*1/day*-summon (level 4, 1 vayuphak 35%)   ",
 				"**Psychic Magic** (CL 5th; concentration +9)   ",
-				"7 PE-dispel magic (3 PE), id insinuation I (2 PE, DC 16), object reading (1 PE), scorching ray (2 PE)"
+				"*7 PE*-dispel magic (3 PE), id insinuation I (2 PE, DC 16), object reading (1 PE), scorching ray (2 PE)"
 			],
 			"str": 16,
 			"dex": 16,
@@ -13291,7 +13299,7 @@
 				"*Constant*-see invisibility, shield of faith   ",
 				"*At will*-deep slumber (DC 18), invisibility   ",
 				"**Psychic Magic** (CL 18th; concentration +23)   ",
-				"24 PE-cure serious wounds (3 PE), dancing lights (0 PE), detect mindscape (2 PE), dream council (5 PE), etheric shards (5 PE, DC 20), greater create mindscape (6 PE), lesser restoration (2 PE), message (0 PE), mindscape door (3 PE), mindwipe (4 PE, DC 19), symbol of sleep (5 PE, DC 20), thought shield IV (5 PE)"
+				"*24 PE*-cure serious wounds (3 PE), dancing lights (0 PE), detect mindscape (2 PE), dream council (5 PE), etheric shards (5 PE, DC 20), greater create mindscape (6 PE), lesser restoration (2 PE), message (0 PE), mindscape door (3 PE), mindwipe (4 PE, DC 19), symbol of sleep (5 PE, DC 20), thought shield IV (5 PE)"
 			],
 			"str": 24,
 			"dex": 21,
@@ -13722,210 +13730,6 @@
 				"Azruverdas stand 16 feet tall on their many legs and weigh close to 4,000 pounds."
 			],
 			"short_description": "A humanoid head peers forth from this enormous creature's beautifully iridescent, spike-covered beetle carapace."
-		},
-		{
-			"name": "Baba Yaga's Rider, Black Rider",
-			"file": "monsterdisplaye8ce.html",
-			"sources": [ "Irrisen - Land of Eternal Winter" ],
-			"cr": 13,
-			"alignment": "LN",
-			"size": "medium",
-			"creature_type": "fey",
-			"heading": [
-				"## Black Rider, CR 13",
-				"**Source** [Irrisen - Land of Eternal Winter pg. 53](source:Irrisen - Land of Eternal Winter)   ",
-				"**XP** 25,600   ",
-				"LN Medium fey   ",
-				"**Init** +5; **Senses** darkvision 60 ft., low-light vision; Perception +25   ",
-				"**Aura** icy aura (10 ft., DC 24)"
-			],
-			"defense": [
-				"**AC** 29, touch 15, flat-footed 24 (+9 armor, +5 Dex, +5 natural)   ",
-				"**hp** 171 (18d6+108)   ",
-				"**Fort** +12, **Ref** +16, **Will** +15   ",
-				"**DR** 10/cold iron; **Immune** cold, poison; **SR** 24"
-			],
-			"offense": [
-				"**Speed** 30 ft.   ",
-				"**Melee** +2 icy burst spear +18/+13 (1d8+11/19-20/x3)   ",
-				"**Special Attacks** Rider's weapon, weal or woe (DC 24)   ",
-				"**Spell-Like Abilities (CL 13th; concentration +18)   ",
-				"*Constant*-see invisibility   ",
-				"*At will*-chill touch (DC 16), detect thoughts (DC 17), zone of truth (DC 17)   ",
-				"*5/day*-deeper darkness, ice storm   ",
-				"*3/day*-cone of cold (DC 20), dust of twilight(DC 17), moonstruck (DC 19)   ",
-				"*1/day*-cloak of dreams (DC 21)"
-			],
-			"str": 23,
-			"dex": 20,
-			"con": 22,
-			"int": 17,
-			"wis": 18,
-			"cha": 21,
-			"base_attack_bonus": 9,
-			"cmb": 15,
-			"cmd": 25,
-			"statistics": [
-				"**Str** 23, **Dex** 20, **Con**: 22, **Int** 17, **Wis** 18, **Cha**, 21   ",
-				"**Base Atk** +9; **CMB** +15; **CMD** 25 (can't be disarmed)   ",
-				"**Feats** [Cleave](feat:Cleave), [Critical Focus](feat:Critical Focus), [Improved Critical (spear)](feat:Improved Critical), [Mounted Combat](feat:Mounted Combat), [Power Attack](feat:Power Attack), [Ride-By Attack](feat:Ride-By Attack), [Spirited Charge](feat:Spirited Charge), [Trample](feat:Trample), [Weapon Focus (spear)](feat:Weapon Focus)   ",
-				"**Skills** Intimidate +23, Knowledge (arcana) +18, Knowledge (history) +18, Knowledge (nature) +21, Knowledge (planes) +18, Perception +25, Ride +26, Sense Motive +25, Stealth +26, Survival +16   ",
-				"**Languages** Common, Hallit, Skald, Sylvan; telepathy 60 ft.   ",
-				"**SQ** conjure mount, Rider's robes"
-			],
-			"ecology": [
-				"**Environment** any   ",
-				"**Organization** solitary   ",
-				"**Treasure** none"
-			],
-			"special_abilities": [
-				"**Icy Aura (Su)** Misty vapors roil from the Black Rider to a distance of 10 feet. Any creatures in contact with the vapors must succeed at a DC 24 Fortitude save or be slowed as per the slow spell. Once affected, the creature remains slowed as long as it is in the aura and for 1 round afterward. The save DC is Charisma-based.",
-				"",
-				"**Rider's Robes (Su)** The Black Rider wears robes that provide the same protection as full plate armor.",
-				"",
-				"**Rider's Weapon (Su)** Whenever the Black Rider successfully confirms a critical hit with his +2 icy burst spear, the target is stunned for 1 round unless it succeeds at a DC 24 Fortitude save. The save DC is Charisma-based."
-			],
-			"description": [
-				"The Black Rider has the most forbidding appearance of the Three Riders. He always appears in a frightening form when called to service. His judgments are the least recorded in history, as they are all performed under the cover of night, and many Irriseni citizens blame other vicious creatures and strange occurrences for the disappearance of their fellow citizens."
-			],
-			"monster_family": "Baba Yaga's Rider",
-			"short_description": "A man with curling ram's horns sits astride a snorting, stamping black warhorse, gripping a dark, battle-worn spear."
-		},
-		{
-			"name": "Baba Yaga's Rider, Red Rider",
-			"file": "monsterdisplayc039.html",
-			"sources": [ "Irrisen - Land of Eternal Winter" ],
-			"cr": 12,
-			"alignment": "LN",
-			"size": "medium",
-			"creature_type": "fey",
-			"heading": [
-				"## Red Rider, CR 12",
-				"**Source** [Irrisen - Land of Eternal Winter pg. 54](source:Irrisen - Land of Eternal Winter)   ",
-				"**XP** 19,200   ",
-				"LN Medium fey   ",
-				"**Init** +9; **Senses** darkvision 60 ft., low-light vision; Perception +23"
-			],
-			"defense": [
-				"**AC** 29, touch 15, flat-footed 24 (+8 armor, +5 Dex, +4 natural, +2 shield)   ",
-				"**hp** 152 (16d6+96)   ",
-				"**Fort** +11, **Ref** +15, **Will** +14   ",
-				"**DR** 10/cold iron; **Immune** cold, poison; **SR** 23"
-			],
-			"offense": [
-				"**Speed** 30 ft.   ",
-				"**Melee** +2 flaming scimitar +18/+13 (1d6+9/15-20)   ",
-				"**Special Attacks** bright blast, Rider's weapon, weal or woe (DC 23)   ",
-				"**Spell-Like Abilities (CL 12th; concentration +17)   ",
-				"*Constant*-see invisibility   ",
-				"*At will*-chill touch (DC 16), detect thoughts (DC 17), zone of truth (DC 17)   ",
-				"*5/day*-ice storm   ",
-				"*3/day*-cone of cold (DC 20), flame strike (DC 20)   ",
-				"*1/day*-fire storm (DC 23)"
-			],
-			"str": 24,
-			"dex": 21,
-			"con": 22,
-			"int": 17,
-			"wis": 18,
-			"cha": 21,
-			"base_attack_bonus": 8,
-			"cmb": 15,
-			"cmd": 25,
-			"statistics": [
-				"**Str** 24, **Dex** 21, **Con**: 22, **Int** 17, **Wis** 18, **Cha**, 21   ",
-				"**Base Atk** +8; **CMB** +15; **CMD** 25 (can't be disarmed)   ",
-				"**Feats** [Critical Focus](feat:Critical Focus), [Improved Critical (scimitar)](feat:Improved Critical), [Improved Initiative](feat:Improved Initiative), [Mounted Combat](feat:Mounted Combat), [Power Attack](feat:Power Attack), [Ride-By Attack](feat:Ride-By Attack), [Trample](feat:Trample), [Weapon Focus (scimitar)](feat:Weapon Focus)   ",
-				"**Skills** Acrobatics +12, Diplomacy +24, Intimidate +21, Knowledge (arcana) +15, Knowledge (history) +15, Knowledge (nature) +18, Knowledge (planes) +15, Perception +23, Ride +24, Sense Motive +23, Stealth +20   ",
-				"**Languages** Common, Hallit, Skald, Sylvan; telepathy 60 ft.   ",
-				"**SQ** conjure mount, Rider's robes"
-			],
-			"ecology": [
-				"**Environment** any   ",
-				"**Organization** solitary   ",
-				"**Treasure** none"
-			],
-			"special_abilities": [
-				"**Bright Blast (Su)** Three times per day, the Red Rider can erupt in flames, damaging all creatures within a 20-foot radius. Those caught in the blast must succeed at a DC 23 Reflex save or take 3d6 points of fire damage and be dazed for 1 round and dazzled for an additional 1d4 rounds. The save DC is Charisma-based.",
-				"",
-				"**Rider's Robes (Su)** The Red Rider wears robes that provide the same protection as half-plate armor.",
-				"",
-				"**Rider's Weapon (Su)** Whenever the Red Rider successfully confirms a critical hit with his +2 flaming scimitar, the target is dazed for 1 round unless it succeeds at a DC 23 Fortitude save. The save DC is Charisma-based."
-			],
-			"description": [
-				"The Red Rider is the most fiery and aggressive of the Three Riders. When Irriseni citizens share old tales of previous Riders around the hearth, stories of the Red Rider's judgments always go into gruesome detail about his wholesale slaughter and shocking violence. Some argue that the Red Rider is no more vicious than the Black Rider, and that the larger number of heinous tales about the Red Rider are simply the result of the time of day in which he engages in his tasks. More citizens are awake and out of their homes during the day to witness the Red Rider's judgments before he cedes his time to the night."
-			],
-			"monster_family": "Baba Yaga's Rider",
-			"short_description": "A man with fiery red hair and antlers rides a red-gold stallion. His robes expose the hairy legs of a goat, ending in cloven hooves."
-		},
-		{
-			"name": "Baba Yaga's Rider, White Rider",
-			"file": "monsterdisplay37a1.html",
-			"sources": [ "Irrisen - Land of Eternal Winter" ],
-			"cr": 11,
-			"alignment": "LN",
-			"size": "medium",
-			"creature_type": "fey",
-			"heading": [
-				"## White Rider, CR 11",
-				"**Source** [Irrisen - Land of Eternal Winter pg. 55](source:Irrisen - Land of Eternal Winter)   ",
-				"**XP** 12,800   ",
-				"LN Medium fey   ",
-				"**Init** +7; **Senses** darkvision 60 ft., low-light vision; Perception +24   ",
-				"**Aura** blinding light (30 ft., DC 23)"
-			],
-			"defense": [
-				"**AC** 27, touch 17, flat-footed 20 (+6 armor, +7 Dex, +4 natural)   ",
-				"**hp** 136 (16d6+80)   ",
-				"**Fort** +10, **Ref** +17, **Will** +15   ",
-				"**DR** 10/cold iron; **Immune** cold, poison; **SR** 22"
-			],
-			"offense": [
-				"**Speed** 30 ft.   ",
-				"**Melee** +1 longsword +14/+9 (1d8+6/19-20)   ",
-				"**Ranged** +2 seeking composite longbow +18/+13 (1d8+7/19-20/x3)   ",
-				"**Special Attacks** Rider's weapon, weal or woe (DC 23)   ",
-				"**Spell-Like Abilities (CL 11th; concentration +16)   ",
-				"*Constant*-see invisibility   ",
-				"*At will*-chill touch (DC 16), detect thoughts (DC 17), zone of truth (DC 17)   ",
-				"*5/day*-ice storm, daybreak arrow   ",
-				"*3/day*- charm monster (DC 19), cone of cold (DC 20)   ",
-				"*1/day*-mass suggestion (DC 21)"
-			],
-			"str": 20,
-			"dex": 25,
-			"con": 20,
-			"int": 18,
-			"wis": 21,
-			"cha": 21,
-			"base_attack_bonus": 8,
-			"cmb": 13,
-			"cmd": 23,
-			"statistics": [
-				"**Str** 20, **Dex** 25, **Con**: 20, **Int** 18, **Wis** 21, **Cha**, 21   ",
-				"**Base Atk** +8; **CMB** +13; **CMD** 23   ",
-				"**Feats** [Improved Critical (composite longbow)](feat:Improved Critical), [Manyshot](feat:Manyshot), [Mounted Archery](feat:Mounted Archery), [Mounted Combat](feat:Mounted Combat), [Point-Blank Shot](feat:Point-Blank Shot), [Precise Shot](feat:Precise Shot), [Rapid Shot](feat:Rapid Shot), [Weapon Focus (composite longbow)](feat:Weapon Focus)   ",
-				"**Skills** Bluff +18, Diplomacy +23, Intimidate +20, Knowledge (arcana) +18, Knowledge (history) +18, Knowledge (nature) +21, Knowledge (planes) +18, Perception +24, Ride +26, Sense Motive +24, Stealth +26   ",
-				"**Languages** Common, Hallit, Skald, Sylvan; telepathy 60 ft.   ",
-				"**SQ** conjure mount, Rider's robes"
-			],
-			"ecology": [
-				"**Environment** any   ",
-				"**Organization** solitary   ",
-				"**Treasure** +1 longsword"
-			],
-			"special_abilities": [
-				"**Blinding Light (Su)** The White Rider can radiate a 30-foot-radius aura of blinding light as a free action. Creatures within the affected area must succeed at a DC 23 Fortitude save or be permanently blinded. A creature that successfully saves cannot be affected again by the Rider's blinding light aura for 24 hours. The save is Constitution-based.",
-				"",
-				"**Rider's Robes (Su)** The White Rider wears robes that provide the same protection as a breastplate.",
-				"",
-				"**Rider's Weapon (Su)** The White Rider has a +2 seeking composite longbow and a quiver that produces a never-ending supply of arrows. Once per round, she can draw a +1 brilliant energy arrow from her quiver."
-			],
-			"description": [
-				"The White Rider is the most even-tempered and diplomatic of the Three Riders. This does not mean that she is sympathetic or merciful, just that there is less blood staining the crisp white garments she wears. When the White Rider comes calling, citizens of Irrisen often seek to curry favor by bringing her gifts of hot tea, pastries, and fresh baked bread. She rarely accepts these offerings, and when she does it is only from those she has already judged to be loyal to Baba Yaga and worthy of the Queen of Witches's rule. Those who too eagerly attempt to carry favor face added scrutiny from her."
-			],
-			"monster_family": "Baba Yaga's Rider",
-			"short_description": "A tall, handsome woman sits astride a white horse. She grips an elegant longbow made of raw birch."
 		},
 		{
 			"name": "Baboon",
@@ -14517,7 +14321,7 @@
 				"*Constant*-ethereal fists   ",
 				"*At will*-dream council, invisibility, lullaby, sleep (DC 21)   ",
 				"**Psychic Magic** (CL 18th; concentration +26)   ",
-				"30 PE-deep slumber (3 PE, DC 21), dream scan (5 PE, DC 23), dream voyage (9 PE), incorporeal chains (6 PE), modify memory (5 PE, DC 23)"
+				"*30 PE*-deep slumber (3 PE, DC 21), dream scan (5 PE, DC 23), dream voyage (9 PE), incorporeal chains (6 PE), modify memory (5 PE, DC 23)"
 			],
 			"str": 18,
 			"dex": 25,
@@ -17808,7 +17612,7 @@
 				"**Melee** 1 shortspear +0 (1d4-2), 1 bite +0 (1d4-2)   ",
 				"**Ranged** 1 shortspear +4 (1d4-2)   ",
 				"**Spell-Like Abilities (CL 1st; concentration +2)   ",
-				"3/day - charm person (DC 13)"
+				"*3/day* - charm person (DC 13)"
 			],
 			"str": 6,
 			"dex": 15,
@@ -19016,7 +18820,10 @@
 				"**Melee** 2 claws +8 (1d8+4)   ",
 				"**Ranged** mwk sling +9 (1d4+4)   ",
 				"**Spell-Like Abilities (CL 7th; concentration +11)   ",
-				"Constant - speak with plants At will - dancing lights, entangle (DC 15), plant growth, whispering wind 3/day - deep slumber (DC 17), modify memory (DC 18), spike growth (DC 17) 1/day - goodberry, hallucinatory terrain (DC 18), lesser geas (DC 17)"
+				"*Constant* - speak with plants   ",
+				"*At will* - dancing lights, entangle (DC 15), plant growth, whispering wind   ",
+				"*3/day* - deep slumber (DC 17), modify memory (DC 18), spike growth (DC 17)   ",
+				"*1/day* - goodberry, hallucinatory terrain (DC 18), lesser geas (DC 17)"
 			],
 			"str": 18,
 			"dex": 21,
@@ -20862,7 +20669,7 @@
 				"**Space** 5 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** abduct, sneak attack +1d6   ",
 				"**Spell-Like Abilities (CL 8th; concentration +12)   ",
-				"10 PE-aversion (2 PE, DC 16), hallucinatory terrain (4 PE, DC 18), hold person (2 PE, DC 16), invisibility (2 PE, DC 16), telekinetic maneuver (0 PE)"
+				"*10 PE*-aversion (2 PE, DC 16), hallucinatory terrain (4 PE, DC 18), hold person (2 PE, DC 16), invisibility (2 PE, DC 16), telekinetic maneuver (0 PE)"
 			],
 			"str": 15,
 			"dex": 20,
@@ -21784,13 +21591,15 @@
 				"**Speed** 30 ft.   ",
 				"**Melee** 2 claws +13 (1d4+3 plus grounding curse)   ",
 				"**Spell-Like Abilities (CL 7th; concentration +10)   ",
-				"Constant - pass without trace At will - entangle (DC 14) 3/day - command plants (DC 17) 1/day - summon nature's ally V (1 shambling mound only)   ",
+				"*Constant* - pass without trace   ",
+				"*At will* - entangle (DC 14) 3/day - command plants (DC 17)   ",
+				"*1/day* - summon nature's ally V (1 shambling mound only)   ",
 				"**Spells Prepared ** (CL 7th; concentration +10)   ",
-				"4th - spike stones (DC 17)   ",
-				"3rd - call lightning (2, DC 16), plant growth   ",
-				"2nd - fog cloud, soften earth and stone, tree shape, wood shape (DC 15)   ",
-				"1st - calm animals, detect animals or plants, goodberry, magic fang, speak with animals   ",
-				"0 - create water, detect magic, detect poison, know direction, mending"
+				"*4th* - spike stones (DC 17)   ",
+				"*3rd* - call lightning (2, DC 16), plant growth   ",
+				"*2nd* - fog cloud, soften earth and stone, tree shape, wood shape (DC 15)   ",
+				"*1st* - calm animals, detect animals or plants, goodberry, magic fang, speak with animals   ",
+				"*0* - create water, detect magic, detect poison, know direction, mending"
 			],
 			"str": 17,
 			"dex": 15,
@@ -21978,7 +21787,7 @@
 				"**Space** 2-1/2 ft., **Reach** 0 ft.   ",
 				"**Special Attacks** brain drain   ",
 				"**Psychic Magic** (CL 2nd; concentration +2)   ",
-				"12 PE-expeditious retreat (1 PE), mind thrust I (1 PE, DC 11), silent image (1 PE, DC 11)"
+				"*12 PE*-expeditious retreat (1 PE), mind thrust I (1 PE, DC 11), silent image (1 PE, DC 11)"
 			],
 			"str": 4,
 			"dex": 14,
@@ -22041,7 +21850,7 @@
 				"**Space** 2-1/2 ft., **Reach** 0 ft.   ",
 				"**Special Attacks** brain exchange, monarch bite   ",
 				"**Psychic Magic** (CL 6th; concentration +8)   ",
-				"16 PE-aversion (2 PE, DC 14), fly (3 PE), major image (3 PE, DC 15), mental barrier I (2 PE), mind thrust II (2 PE, DC 14), silent image (1 PE, DC 13)"
+				"*16 PE*-aversion (2 PE, DC 14), fly (3 PE), major image (3 PE, DC 15), mental barrier I (2 PE), mind thrust II (2 PE, DC 14), silent image (1 PE, DC 13)"
 			],
 			"str": 6,
 			"dex": 14,
@@ -22181,7 +21990,7 @@
 				"**Spell-Like Abilities (CL 20th; concentration +24)   ",
 				"*Constant*-thoughtsense   ",
 				"**Psychic Magic** (CL 16th; concentration +20)   ",
-				"30 PE-dominate person (5 PE, DC 19), greater command (5 PE, DC 19), paranoia (2 PE, DC 16)"
+				"*30 PE*-dominate person (5 PE, DC 19), greater command (5 PE, DC 19), paranoia (2 PE, DC 16)"
 			],
 			"str": 33,
 			"dex": 22,
@@ -23544,7 +23353,9 @@
 				"*3/day*-cure light wounds   ",
 				"*1/day*-invisibility   ",
 				"**Sorcerer Spells Known ** (CL 5th; concentration +8)   ",
-				"2nd (5)-acid arrow, daze monster (DC 15) 1st (7)-chill touch (DC 14), color spray (DC 14), magic missile, sleep (DC 14) 0 (at will)-dancing lights, daze (DC 13), disrupt undead, ghost sound (DC 13), mage hand, prestidigitation"
+				"*2nd (5)*-acid arrow, daze monster (DC 15)   ",
+				"*1st (7)*-chill touch (DC 14), color spray (DC 14), magic missile, sleep (DC 14)   ",
+				"*0 (at will)*-dancing lights, daze (DC 13), disrupt undead, ghost sound (DC 13), mage hand, prestidigitation"
 			],
 			"str": 11,
 			"dex": 10,
@@ -24045,7 +23856,9 @@
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** breath weapon (60-foot line, 14d6 energy damage, Reflex DC 22 half, usable 1/day)   ",
 				"**Spell-Like Abilities (CL 12th; concentration +15)   ",
-				"Constant - air walk, magic weapon, true seeing, water walk 3/day - lightning bolt (DC 16) 1/day - chain lightning (DC 19)"
+				"*Constant* - air walk, magic weapon, true seeing, water walk   ",
+				"*3/day* - lightning bolt (DC 16)   ",
+				"*1/day* - chain lightning (DC 19)"
 			],
 			"str": 25,
 			"dex": 15,
@@ -24114,7 +23927,7 @@
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** consume mind, wrap in despair   ",
 				"**Psychic Magic** (CL 10th; concentration +12)   ",
-				"12 PE-aversion (2 PE, DC 15), emotive block (3 PE, DC 16), greater oneiric horror (4 PE, DC 17), mind thrust V (5 PE, DC 18), paranoia (2 PE, DC 15), telempathic projection (1 PE, DC 14)"
+				"*12 PE*-aversion (2 PE, DC 15), emotive block (3 PE, DC 16), greater oneiric horror (4 PE, DC 17), mind thrust V (5 PE, DC 18), paranoia (2 PE, DC 15), telempathic projection (1 PE, DC 14)"
 			],
 			"str": null,
 			"dex": 25,
@@ -24310,7 +24123,7 @@
 				"**Space** 10 ft., **Reach** 5 ft.   ",
 				"**Special Attacks** decapitating strike, hypnotic display, rend (2 talons, 1d6+9)   ",
 				"**Spell-Like Abilities (CL 12th; concentration +14)   ",
-				"3/day - entropic shield, ventriloquism (DC 13)"
+				"*3/day* - entropic shield, ventriloquism (DC 13)"
 			],
 			"str": 23,
 			"dex": 17,
@@ -25614,7 +25427,7 @@
 				"*3/day*-charm monster (DC 19), daze monster (DC 17), hold monster (DC 20), hypnotic pattern (DC 18), vampiric touch   ",
 				"*1/week*-plane shift (willing targets only)   ",
 				"**Psychic Magic** (CL 9th; concentration +15)   ",
-				"10 PE-burst of insight (1 PE), emotive block (3 PE, DC 19), greater oneiric horror (4 PE, DC 20), mind thrust III (3 PE, DC 19), mindscape door (3 PE, DC 19), mindwipe (4 PE, DC 20), telekinetic maneuver (3 PE)"
+				"*10 PE*-burst of insight (1 PE), emotive block (3 PE, DC 19), greater oneiric horror (4 PE, DC 20), mind thrust III (3 PE, DC 19), mindscape door (3 PE, DC 19), mindwipe (4 PE, DC 20), telekinetic maneuver (3 PE)"
 			],
 			"str": 20,
 			"dex": 21,
@@ -25639,10 +25452,10 @@
 				"**Treasure** double"
 			],
 			"special_abilities": [
-				"**Caulborn Traits (Su, Ex)** A caulborn thoughtkeeper shares the abilities of regular caulborn\"consume thoughts, cooperative scrying, hive mind, psychic deflection, and thoughtsense-which function as normal except as noted. If all caulborn participating in a cooperative scrying are thoughtkeepers, the save DC increases by 2."
+				"**Caulborn Traits (Su, Ex)** A caulborn thoughtkeeper shares the abilities of regular caulborn-consume thoughts, cooperative scrying, hive mind, psychic deflection, and thoughtsense-which function as normal except as noted. If all caulborn participating in a cooperative scrying are thoughtkeepers, the save DC increases by 2."
 			],
 			"description": [
-				"Planar scholars who subsist on the physic energy of other races, the telepathic caulborn wander the planes, storing both sustenance and information in their hives\" massive brain-sacs, which are called chrestomaths. These latter entities act as living libraries, containing within them a communal racial memory spanning eons.",
+				"Planar scholars who subsist on the physic energy of other races, the telepathic caulborn wander the planes, storing both sustenance and information in their hives' massive brain-sacs, which are called chrestomaths. These latter entities act as living libraries, containing within them a communal racial memory spanning eons.",
 				"",
 				"While caulborn's similar appearance and hive mind lead most other intelligent races to assume all of the caulborn's humanoid individuals are identical, their race still has a certain degree of specialization. The more powerful variant known to outsiders as caulborn thoughtkeepers are a prime example of this differentiation. With their advanced psychic powers and combat abilities, these elite individuals range farthest from the hive in their search for esoteric knowledge, or directly guard and care for their hive's chrestomath. Yet while this might seem like a case of the most important jobs going to the most powerful individuals, the truth is in fact the opposite: subsisting on the best psychic energy or remaining in closest proximity to the intense volume of thoughts that constantly passes through a chrestomath empowers individual caulborn, allowing them to grow into full thoughtkeeper status. Physically, thoughtkeepers resemble other caulborn-they bear no special markings or badges of office, and in fact are treated no differently by their peers outside of their utilization, as within the hive mind they're simply seen as stronger appendages of the same greater being.",
 				"",
@@ -27126,7 +26939,7 @@
 				"*Constant*-enshroud thoughts   ",
 				"*At will*-charm monster (DC 18), dominate person (DC 19), mind thrust II (DC 16), synesthesia (DC 17), telekinetic projectile   ",
 				"**Psychic Magic** (CL 10th; concentration +14)   ",
-				"9 PE-mind thrust III (3 PE, DC 17), synaptic pulse (3 PE, DC 17)"
+				"*9 PE*-mind thrust III (3 PE, DC 17), synaptic pulse (3 PE, DC 17)"
 			],
 			"str": 4,
 			"dex": 19,
@@ -28792,7 +28605,7 @@
 				"**Space** 15 ft., **Reach** 15 ft.   ",
 				"**Special Attacks** burn (2d6 fire, DC 24), heat, rock throwing (120 ft.)   ",
 				"**Spell-Like Abilities (CL 18th; concentration +18)   ",
-				"1/month-earthquake"
+				"*1/month*-earthquake"
 			],
 			"str": 26,
 			"dex": 13,
@@ -29451,7 +29264,7 @@
 				"",
 				"**Hypnotic Colors (Sp)** As a standard action, a choxani can swirl its colors in a way that captures the attention of onlookers. This functions as hypnotic pattern (Will DC 14 negates), and the choxani's caster level is equal to its Hit Dice for the purpose of determining the total Hit Dice of creatures affected. A creature that successfully saves against this ability is immune to uses of it by the same choxani for 24 hours. The save DC is Charisma-based.",
 				"",
-				"**Pattern Reading (Su)** As a full-round action, a choxani can let its subconscious thoughts form patterns on its skin, then interpret the results. This acts as augury, save that the chance of a meaningful reply is 10% times the choxani's number of Hit Dice, up to a maximum of 90%. Additionally, if a result would be \"nothing\"\"including as a result of failure\" it is instead interpreted as one of the other three results, chosen randomly. The choxani has no way of knowing whether this ability has succeeded or failed."
+				"**Pattern Reading (Su)** As a full-round action, a choxani can let its subconscious thoughts form patterns on its skin, then interpret the results. This acts as augury, save that the chance of a meaningful reply is 10% times the choxani's number of Hit Dice, up to a maximum of 90%. Additionally, if a result would be \"nothing\", including as a result of failure, it is instead interpreted as one of the other three results, chosen randomly. The choxani has no way of knowing whether this ability has succeeded or failed."
 			],
 			"description": [
 				"Also called \"picture people,\" choxani embody those aspects of nature that resemble other things, from a chameleon changing color to a cloud blown into the shape of a dog. Choxani see these moments of representation as proof of the plan underlying all reality, and honor them with religious fervor. They communicate primarily through hand gestures and their constantly changing markings, which can form text or images. When eating, the colors on their fingers or faces stretch out into funnels, sucking in the colors of other organisms and leaving them lifeless gray husks. A typical choxani is 7 feet tall and 150 pounds."
@@ -29633,7 +29446,7 @@
 				"**Spell-Like Abilities (CL 3rd; concentration +4)   ",
 				"*Constant*-feather fall   ",
 				"**Psychic Magic** (CL 3rd; concentration +4)   ",
-				"5 PE-alter winds (1 PE, DC 12), gust of wind (2 PE, DC 13), whispering wind (2 PE)"
+				"*5 PE*-alter winds (1 PE, DC 12), gust of wind (2 PE, DC 13), whispering wind (2 PE)"
 			],
 			"str": 6,
 			"dex": 17,
@@ -32889,7 +32702,16 @@
 				"*Constant*-air walk, true seeing   ",
 				"*At will*-detect thoughts (DC 21)   ",
 				"**Psychic Spells Known ** (CL 19th; concentration +29)   ",
-				"9th (5)-dominate monster (DC 29), implosion (DC 29), time stop 8th (7)-demand (DC 28), mass charm monster (DC 28), psychic crush IV (DC 27) 7th (8)-ego whip V (DC 26), insanity (DC 27), project image (DC 27) 6th (8)-mass inflict pain (DC 25), mind thrust VI (DC 25), veil (DC 26) 5th (8)-greater command (DC 25), greater synaptic pulse (DC 24), mind fog (DC 25), possession (DC 24) 4th (8)-dream, hallucinatory terrain (DC 24), mind probe (DC 23), scrying (DC 24) 3rd (9)-clairaudience/clairvoyance, dispel magic, illusory script (DC 23), telekinetic maneuver 2nd (9)-enthrall (DC 22), share memory (DC 22), status, suggestion (DC 22), undetectable alignment 1st (9)-alarm, entropic shield, mage armor, psychic reading, unseen servant 0 (at will)-arcane mark, daze (DC 20), detect magic, detect psychic significance, mage hand, message, open/close, read magic, telekinetic projectile"
+				"*9th (5)*-dominate monster (DC 29), implosion (DC 29), time stop   ",
+				"*8th (7)*-demand (DC 28), mass charm monster (DC 28), psychic crush IV (DC 27)   ",
+				"*7th (8)*-ego whip V (DC 26), insanity (DC 27), project image (DC 27)   ",
+				"*6th (8)*-mass inflict pain (DC 25), mind thrust VI (DC 25), veil (DC 26)   ",
+				"*5th (8)*-greater command (DC 25), greater synaptic pulse (DC 24), mind fog (DC 25), possession (DC 24)   ",
+				"*4th (8)*-dream, hallucinatory terrain (DC 24), mind probe (DC 23), scrying (DC 24)   ",
+				"*3rd (9)*-clairaudience/clairvoyance, dispel magic, illusory script (DC 23), telekinetic maneuver   ",
+				"*2nd (9)*-enthrall (DC 22), share memory (DC 22), status, suggestion (DC 22), undetectable alignment   ",
+				"*1st (9)*-alarm, entropic shield, mage armor, psychic reading, unseen servant   ",
+				"*0 (at will)*-arcane mark, daze (DC 20), detect magic, detect psychic significance, mage hand, message, open/close, read magic, telekinetic projectile"
 			],
 			"str": 47,
 			"dex": 24,
@@ -33026,7 +32848,7 @@
 				"*Constant*-mage hand, thought shield I, thoughtsense, tongues   ",
 				"*At will*-detect thoughts (DC 17)   ",
 				"**Psychic Magic** (CL 9th; concentration +14)   ",
-				"12 PE-detect magic (0 PE), hypercognition (2 PE), instigate psychic duel (2 PE, DC 17), mind thrust II (2 PE, DC 17), mindlink (1 PE), mindscape door (3 PE, DC 18), psychic asylum (5 PE), synaptic pulse (3 PE, DC 18), thought shield III (4 PE)"
+				"*12 PE*-detect magic (0 PE), hypercognition (2 PE), instigate psychic duel (2 PE, DC 17), mind thrust II (2 PE, DC 17), mindlink (1 PE), mindscape door (3 PE, DC 18), psychic asylum (5 PE), synaptic pulse (3 PE, DC 18), thought shield III (4 PE)"
 			],
 			"str": 10,
 			"dex": 12,
@@ -33907,7 +33729,7 @@
 				"**Spell-Like Abilities (CL 9th; concentration +15)   ",
 				"*Constant*-detect chaos, detect evil, detect good, detect law   ",
 				"*At will*-alter self, detect thoughts (DC 18), ethereal jaunt (CL 18th), invisibility, plane shift (DC 23)   ",
-				"1/year-wish (CL 20th)   ",
+				"*1/year*-wish (CL 20th)   ",
 				"**Sorcerer Spells Known ** (CL 12th; concentration +18)   ",
 				"*6th (4/day)*-chain lightning (DC 22)   ",
 				"*5th (6/day)*-breath of life, flame strike (DC 21)   ",
