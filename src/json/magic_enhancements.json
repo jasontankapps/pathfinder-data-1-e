@@ -269,8 +269,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, evolution surge; **Price** +1 bonus"
 		},
 		{
-			"name": "light fortification",
-			"display_name": "Fortification (light)",
+			"name": "Fortification (light)",
+			"searchable_name": "light fortification",
 			"file": "magicarmordisplay7af0.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -450,8 +450,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, stabilize, cure critical wounds or lesser restoration; **Price** +1 bonus"
 		},
 		{
-			"name": "terrain striding",
-			"display_name": "Terrain-striding",
+			"name": "Terrain-striding",
+			"searchable_name": "terrain striding",
 			"file": "magicarmordisplay4e9b.html",
 			"sources": [ "Armor Master's Handbook" ],
 			"effective_bonus_adjustment": 1,
@@ -541,8 +541,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, crushing despair; **Price** +1 bonus"
 		},
 		{
-			"name": "buoyant light armor",
-			"display_name": "Buoyant (light armor)",
+			"name": "Buoyant (light armor)",
+			"searchable_name": "buoyant light armor",
 			"file": "magicarmordisplay6c0c.html",
 			"sources": [ "Magical Marketplace" ],
 			"cost_additional": 1000,
@@ -581,8 +581,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, feather fall; **Price** 500 gp"
 		},
 		{
-			"name": "buoyant medium or heavy armor",
-			"display_name": "Buoyant (medium/heavy armor)",
+			"name": "Buoyant (medium/heavy armor)",
+			"searchable_name": "buoyant medium or heavy armor",
 			"file": "magicarmordisplaya1bf.html",
 			"sources": [ "Magical Marketplace" ],
 			"cost_additional": 2000,
@@ -614,8 +614,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, resize item; **Price** 1,000 gp"
 		},
 		{
-			"name": "poison resistant",
-			"display_name": "Poison-Resistant",
+			"name": "Poison-Resistant",
+			"searchable_name": "poison resistant",
 			"file": "magicarmordisplayeb9d.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost_additional": 2250,
@@ -942,8 +942,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, mage armor; **Price** +2 bonus"
 		},
 		{
-			"name": "spell resistance 13",
-			"display_name": "Spell Resistance (13)",
+			"name": "Spell Resistance (13)",
+			"searchable_name": "spell resistance 13",
 			"file": "magicarmordisplay3a8d.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -1206,8 +1206,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, remove fear; **Price** +2,500 gp"
 		},
 		{
-			"name": "spirit bonded",
-			"display_name": "Spirit-bonded",
+			"name": "Spirit-bonded",
+			"searchable_name": "spirit bonded",
 			"file": "magicarmordisplay2882.html",
 			"sources": [ "Armor Master's Handbook" ],
 			"cost_additional": 6000,
@@ -1342,8 +1342,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, pass without trace; **Price** 3,750 gp"
 		},
 		{
-			"name": "arrow collecting",
-			"display_name": "Arrow-collecting",
+			"name": "Arrow-collecting",
+			"searchable_name": "arrow collecting",
 			"file": "magicarmordisplayf58c.html",
 			"sources": [ "Armor Master's Handbook" ],
 			"effective_bonus_adjustment": 3,
@@ -1397,8 +1397,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, plane shift; **Price** +3 bonus"
 		},
 		{
-			"name": "moderate fortification",
-			"display_name": "Fortification (moderate)",
+			"name": "Fortification (moderate)",
+			"searchable_name": "moderate fortification",
 			"file": "magicarmordisplaya46e.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -1485,8 +1485,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, true seeing; **Price** +3 bonus"
 		},
 		{
-			"name": "spell resistance 15",
-			"display_name": "Spell Resistance (15)",
+			"name": "Spell Resistance (15)",
+			"searchable_name": "spell resistance 15",
 			"file": "magicarmordisplay2e04.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -1665,8 +1665,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, fly; **Price** 7,500 gp"
 		},
 		{
-			"name": "improved shadow",
-			"display_name": "Shadow, Improved",
+			"name": "Shadow, Improved",
+			"searchable_name": "improved shadow",
 			"file": "magicarmordisplay18ec.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -1687,8 +1687,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, invisibility, silence; **Price** +7,500 gp"
 		},
 		{
-			"name": "improved slick",
-			"display_name": "Slick, Improved",
+			"name": "Slick, Improved",
+			"searchable_name": "improved slick",
 			"file": "magicarmordisplayc998.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -1709,8 +1709,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, grease; **Price** +7,500 gp"
 		},
 		{
-			"name": "venom eating",
-			"display_name": "Venom-eating",
+			"name": "Venom-eating",
+			"searchable_name": "venom eating",
 			"file": "magicarmordisplay7de5.html",
 			"sources": [ "Armor Master's Handbook" ],
 			"cost_additional": 15000,
@@ -1746,8 +1746,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, Mythic Crafter, limited wish or miracle; **Price** +4 bonus"
 		},
 		{
-			"name": "spell resistance 17",
-			"display_name": "Spell Resistance (17)",
+			"name": "Spell Resistance (17)",
+			"searchable_name": "spell resistance 17",
 			"file": "magicarmordisplay5535.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -1831,8 +1831,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, fly, iron body; **Price** +5 bonus"
 		},
 		{
-			"name": "heavy fortification",
-			"display_name": "Fortification (heavy)",
+			"name": "Fortification (heavy)",
+			"searchable_name": "heavy fortification",
 			"file": "magicarmordisplay2929.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -1856,8 +1856,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, limited wish or miracle; **Price** varies"
 		},
 		{
-			"name": "spell resistance 19",
-			"display_name": "Spell Resistance (19)",
+			"name": "Spell Resistance (19)",
+			"searchable_name": "spell resistance 19",
 			"file": "magicarmordisplay25a4.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -2019,8 +2019,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, freedom of movement; **Price** 1,875 gp (aquadynamic), 7,500 gp (improved aquadynamic), 16,875 gp (greater aquadynamic)"
 		},
 		{
-			"name": "greater shadow",
-			"display_name": "Shadow, Greater",
+			"name": "Shadow, Greater",
+			"searchable_name": "greater shadow",
 			"file": "magicarmordisplayff1d.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -2041,8 +2041,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, invisibility, silence; **Price** +16,875 gp"
 		},
 		{
-			"name": "greater slick",
-			"display_name": "Slick, Greater",
+			"name": "Slick, Greater",
+			"searchable_name": "greater slick",
 			"file": "magicarmordisplay9c11.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -2063,8 +2063,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, grease; **Price** +16,875 gp"
 		},
 		{
-			"name": "improved energy resistance",
-			"display_name": "Energy Resistance, Improved",
+			"name": "Energy Resistance, Improved",
+			"searchable_name": "improved energy resistance",
 			"file": "magicarmordisplaya307.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -2133,8 +2133,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, control undead; **Price** +24,500 gp"
 		},
 		{
-			"name": "greater energy resistance",
-			"display_name": "Energy Resistance, Greater",
+			"name": "Energy Resistance, Greater",
+			"searchable_name": "greater energy resistance",
 			"file": "magicarmordisplay0939.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -2383,8 +2383,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, spell absorption; **Price** +1 bonus"
 		},
 		{
-			"name": "buoyant shield",
-			"display_name": "Buoyant (shield)",
+			"name": "Buoyant (shield)",
+			"searchable_name": "buoyant shield",
 			"file": "magicarmordisplay1942.html",
 			"sources": [ "Magical Marketplace" ],
 			"cost_additional": 1000,
@@ -2437,8 +2437,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, shield; **Price** +2 bonus"
 		},
 		{
-			"name": "greater guarding",
-			"display_name": "Guarding, Greater",
+			"name": "Guarding, Greater",
+			"searchable_name": "greater guarding",
 			"file": "magicarmordisplaye091.html",
 			"sources": [ "Advanced Race Guide" ],
 			"effective_bonus_adjustment": 2,
@@ -2781,8 +2781,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, confusion; **Price** -"
 		},
 		{
-			"name": "blood hunting",
-			"display_name": "blood-hunting",
+			"name": "blood-hunting",
+			"searchable_name": "blood hunting",
 			"file": "magicweaponsdisplay2e92.html",
 			"sources": [ "Advanced Class Guide" ],
 			"effective_bonus_adjustment": 1,
@@ -3248,8 +3248,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, darkvision, detect evil, summon monster I; **Price** -"
 		},
 		{
-			"name": "dueling pfsg",
-			"display_name": "dueling (PSFG)",
+			"name": "dueling (PSFG)",
+			"searchable_name": "dueling pfsg",
 			"file": "magicweaponsdisplaye43d.html",
 			"sources": [ "Pathfinder Society Field Guide" ],
 			"effective_bonus_adjustment": 1,
@@ -3269,8 +3269,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, cat's grace; **Price** -"
 		},
 		{
-			"name": "fate stealing",
-			"display_name": "fate-stealing",
+			"name": "fate-stealing",
+			"searchable_name": "fate stealing",
 			"file": "magicweaponsdisplayf7bd.html",
 			"sources": [ "Advanced Class Guide" ],
 			"effective_bonus_adjustment": 1,
@@ -4166,8 +4166,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, creator must be a caster of at least 12th level; **Price** -"
 		},
 		{
-			"name": "spirit hunting",
-			"display_name": "spirit-hunting",
+			"name": "spirit-hunting",
+			"searchable_name": "spirit hunting",
 			"file": "magicweaponsdisplay937b.html",
 			"sources": [ "Advanced Class Guide" ],
 			"effective_bonus_adjustment": 1,
@@ -4460,8 +4460,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, rope trick; **Price** 1,250 gp"
 		},
 		{
-			"name": "lesser concealed",
-			"display_name": "concealed, lesser",
+			"name": "concealed, lesser",
+			"searchable_name": "lesser concealed",
 			"file": "magicweaponsdisplay1854.html",
 			"sources": [ "Spymaster's Handbook" ],
 			"cost_additional": 3000,
@@ -4592,8 +4592,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, doom; **Price** 2,500 gp"
 		},
 		{
-			"name": "liberating wmh",
-			"display_name": "liberating (WMH)",
+			"name": "liberating (WMH)",
+			"searchable_name": "liberating wmh",
 			"file": "magicweaponsdisplay556f.html",
 			"sources": [ "Weapon Master's Handbook" ],
 			"cost_additional": 7000,
@@ -4839,8 +4839,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, heal; **Price** -"
 		},
 		{
-			"name": "greater distracting",
-			"display_name": "distracting, greater",
+			"name": "distracting, greater",
+			"searchable_name": "greater distracting",
 			"file": "magicweaponsdisplayb222.html",
 			"sources": [ "Advanced Class Guide" ],
 			"effective_bonus_adjustment": 2,
@@ -4900,8 +4900,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, rage; **Price** -"
 		},
 		{
-			"name": "fury born",
-			"display_name": "fury-born",
+			"name": "fury-born",
+			"searchable_name": "fury born",
 			"file": "magicweaponsdisplay1ec2.html",
 			"sources": [ "Advanced Race Guide" ],
 			"effective_bonus_adjustment": 2,
@@ -5123,8 +5123,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, touch of gracelessness; **Price** -"
 		},
 		{
-			"name": "liberating ui",
-			"display_name": "liberating (UI)",
+			"name": "liberating (UI)",
+			"searchable_name": "liberating ui",
 			"file": "magicweaponsdisplay5921.html",
 			"sources": [ "Ultimate Intrigue" ],
 			"effective_bonus_adjustment": 2,
@@ -5524,8 +5524,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, greater invisibility; **Price** -"
 		},
 		{
-			"name": "greater vampiric",
-			"display_name": "vampiric, greater",
+			"name": "vampiric, greater",
+			"searchable_name": "greater vampiric",
 			"file": "magicweaponsdisplay5ed3.html",
 			"sources": [ "Horror Adventures" ],
 			"effective_bonus_adjustment": 2,
@@ -5614,8 +5614,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, cat's grace; **Price** +7,000 gp"
 		},
 		{
-			"name": "greater transformative",
-			"display_name": "transformative, greater",
+			"name": "transformative, greater",
+			"searchable_name": "greater transformative",
 			"file": "magicweaponsdisplay6f04.html",
 			"sources": [ "Inner Sea Intrigue" ],
 			"cost_additional": 15000,
@@ -5653,8 +5653,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, ray of exhaustion; **Price** -"
 		},
 		{
-			"name": "greater flamboyant",
-			"display_name": "flamboyant, greater",
+			"name": "flamboyant, greater",
+			"searchable_name": "greater flamboyant",
 			"file": "magicweaponsdisplay3e82.html",
 			"sources": [ "Advanced Class Guide" ],
 			"effective_bonus_adjustment": 3,
@@ -5965,8 +5965,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, air bubble (Ultimate Combat); **Price** +750 gp"
 		},
 		{
-			"name": "normal sniping",
-			"display_name": "sniping (normal)",
+			"name": "sniping (normal)",
+			"searchable_name": "normal sniping",
 			"file": "magicweaponsdisplay9a84.html",
 			"sources": [ "Ranged Tactics Toolbox" ],
 			"cost_additional": 1875,
@@ -6343,8 +6343,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, disintegrate, make whole; **Price** 1,000 gp"
 		},
 		{
-			"name": "improved sniping",
-			"display_name": "sniping (improved)",
+			"name": "sniping (improved)",
+			"searchable_name": "improved sniping",
 			"file": "magicweaponsdisplay5950.html",
 			"sources": [ "Ranged Tactics Toolbox" ],
 			"cost_additional": 7500,
@@ -6404,8 +6404,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, flare burst; **Price** -"
 		},
 		{
-			"name": "lesser designating",
-			"display_name": "designating (lesser)",
+			"name": "designating (lesser)",
+			"searchable_name": "lesser designating",
 			"file": "magicweaponsdisplayacaf.html",
 			"sources": [ "Ultimate Equipment" ],
 			"effective_bonus_adjustment": 2,
@@ -6506,8 +6506,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, longshot; **Price** -"
 		},
 		{
-			"name": "greater sniping",
-			"display_name": "sniping (greater)",
+			"name": "sniping (greater)",
+			"searchable_name": "greater sniping",
 			"file": "magicweaponsdisplay6fd5.html",
 			"sources": [ "Ranged Tactics Toolbox" ],
 			"cost_additional": 16875,
@@ -6527,8 +6527,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, invisibility, silence; **Price** 8,437 gp"
 		},
 		{
-			"name": "greater lucky",
-			"display_name": "lucky, greater",
+			"name": "lucky, greater",
+			"searchable_name": "greater lucky",
 			"file": "magicweaponsdisplay4a0c.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -6551,8 +6551,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, greater heroism, creator must be a grit user; **Price** -"
 		},
 		{
-			"name": "greater reliable",
-			"display_name": "reliable (greater)",
+			"name": "reliable (greater)",
+			"searchable_name": "greater reliable",
 			"file": "magicweaponsdisplayc4a5.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -6615,8 +6615,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, gust of wind; **Price** -"
 		},
 		{
-			"name": "greater designating",
-			"display_name": "designating (greater)",
+			"name": "designating (greater)",
+			"searchable_name": "greater designating",
 			"file": "magicweaponsdisplay15c8.html",
 			"sources": [ "Ultimate Equipment" ],
 			"effective_bonus_adjustment": 4,
@@ -6676,8 +6676,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, ricochet shot (Ultimate Combat); **Price** -"
 		},
 		{
-			"name": "heart piercing",
-			"display_name": "heart-piercing",
+			"name": "heart-piercing",
+			"searchable_name": "heart piercing",
 			"file": "magicweaponsdisplayb795.html",
 			"sources": [ "Weapon Master's Handbook" ],
 			"effective_bonus_adjustment": 5,

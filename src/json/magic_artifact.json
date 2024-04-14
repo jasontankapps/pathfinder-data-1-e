@@ -1522,8 +1522,8 @@
 			"destruction": "The Imperial Diadem is destroyed if both Hastur and Cassilda die within 24 hours of each other. This releases all of those souls stored within the item to the Boneyard or permits them to be resurrected in a restored Yhtill."
 		},
 		{
-			"name": "Ioun Stones Thassilonian",
-			"display_name": "Ioun Stones-Thassilonian",
+			"name": "Ioun Stones-Thassilonian",
+			"searchable_name": "Ioun Stones Thassilonian",
 			"file": "magicartifactsdisplay285b.html",
 			"sources": [
 				"Rise of the Runelords Adventure Path",
@@ -2209,8 +2209,8 @@
 			"destruction": "Once a selected group is brought to Shenmen and completes the task set by the Osa painting, the painting itself turns into a blank, nonmagical canvas."
 		},
 		{
-			"name": "Ovinrbaane Enemy of All Enemies",
-			"display_name": "Ovinrbaane-Enemy of All Enemies",
+			"name": "Ovinrbaane-Enemy of All Enemies",
+			"searchable_name": "Ovinrbaane Enemy of All Enemies",
 			"file": "magicartifactsdisplay0995.html",
 			"sources": [
 				"Artifacts and Legends",
@@ -2523,8 +2523,8 @@
 			"destruction": "The quill must be tricked into revealing the method of destroying itself without asking it to reveal that method."
 		},
 		{
-			"name": "Rift Born Sphere",
-			"display_name": "Rift-Born Sphere",
+			"name": "Rift-Born Sphere",
+			"searchable_name": "Rift Born Sphere",
 			"file": "magicartifactsdisplaydeb0.html",
 			"sources": [ "Classic Treasures Revisited" ],
 			"types": [
@@ -2655,8 +2655,8 @@
 			"destruction": "If a creature wears a set of runewarded gauntlets and then plunges his hands into the runeforge pool, where the gauntlets were created ages ago, any blow struck against the submerged gauntlets by a character currently controlled by an intelligent weapon of a different alignment than the wearer of the gauntlets destroys the gauntlets (and the wearer's hands). Missing hands can be restored via [regenerate][unknown:regenerate) or similar effects."
 		},
 		{
-			"name": "Runewell Amulet Envy",
-			"display_name": "Runewell Amulet (Envy)",
+			"name": "Runewell Amulet (Envy)",
+			"searchable_name": "Runewell Amulet Envy",
 			"file": "magicartifactsdisplay2b2e.html",
 			"sources": [ "Pathfinder #137: The City Outside of Time" ],
 			"types": [
@@ -2676,8 +2676,8 @@
 			"destruction": "If Belimarius's defective runewell is destroyed, this amulet is destroyed as well."
 		},
 		{
-			"name": "Runewell Amulet Greed",
-			"display_name": "Runewell Amulet (Greed)",
+			"name": "Runewell Amulet (Greed)",
+			"searchable_name": "Runewell Amulet Greed",
 			"file": "magicartifactsdisplay0941.html",
 			"sources": [
 				"Rise of the Runelords Adventure Path",
@@ -2701,8 +2701,8 @@
 			"destruction": "A runewell amulet must be thrown into an active runewell of an opposing magic (a runewell of lust or a runewell of pride in the case of this particular amulet)-doing so causes the amulet to shatter into four fragments, which then scatter throughout the region that was once Thassilon. If these four fragments can be gathered and placed back in the associated runewell (the runewell of greed in this case), the amulet reforms and returns to full use."
 		},
 		{
-			"name": "Runewell Minor",
-			"display_name": "Runewell-Minor",
+			"name": "Runewell-Minor",
+			"searchable_name": "Runewell Minor",
 			"file": "magicartifactsdisplaya7a4.html",
 			"sources": [
 				"Rise of the Runelords Adventure Path",
@@ -2834,8 +2834,8 @@
 			"destruction": "Sigils of the great cataclysm can be destroyed by placing a complete set in a silk bag, submerging the bag at the bottom of a nixie's pool, and casting bless water on the pool at each sunrise for 1 month."
 		},
 		{
-			"name": "Sihedron Tome Envy",
-			"display_name": "Sihedron Tome (Envy)",
+			"name": "Sihedron Tome (Envy)",
+			"searchable_name": "Sihedron Tome Envy",
 			"file": "magicartifactsdisplaye9b0.html",
 			"sources": [ "Pathfinder #137: The City Outside of Time" ],
 			"types": [
@@ -2855,8 +2855,8 @@
 			"destruction": "A special 9th-level spell must be designed that exists only to destroy the specific and particular Sihedron Tome into which it is inscribed. This spell, which has numerous expensive and rare material components, must then be cast on the Sihedron Tome by its owner."
 		},
 		{
-			"name": "Sihedron Tome Greed",
-			"display_name": "Sihedron Tome (Greed)",
+			"name": "Sihedron Tome (Greed)",
+			"searchable_name": "Sihedron Tome Greed",
 			"file": "magicartifactsdisplayc456.html",
 			"sources": [
 				"Rise of the Runelords Adventure Path",
@@ -3250,8 +3250,8 @@
 			"destruction": "A Storm Kindler's rod can be destroyed as easily as a typical +4 shocking burst spell storing club after it has been carried for at least 24 hours by someone not part of or affiliated with the Storm Kindlers."
 		},
 		{
-			"name": "Suishen Guardian of the Amatatsu",
-			"display_name": "Suishen-Guardian of the Amatatsu",
+			"name": "Suishen-Guardian of the Amatatsu",
+			"searchable_name": "Suishen Guardian of the Amatatsu",
 			"file": "magicartifactsdisplay4e20.html",
 			"sources": [
 				"Jade Regent Adventure Path",
@@ -4553,8 +4553,8 @@
 			"destruction": "The Book of the Damned must be divided into its three chapters and apocryphal notes using a dangerous ritual known as the quartern disjunction (see page 187). Each section must then be destroyed separately within the span of 1 day. Details on how each of these sections can be destroyed appear under their individual descriptions in Chapter 3 of this book. If not all of the sections are destroyed at the end of 1 day, destroyed sections are restored to full functionality and all the sections vanish, reappearing in separate obscure corners of the multiverse."
 		},
 		{
-			"name": "Book of the Damned Apocrypha",
-			"display_name": "Book of the Damned (Apocrypha)",
+			"name": "Book of the Damned (Apocrypha)",
+			"searchable_name": "Book of the Damned Apocrypha",
 			"file": "magicartifactsdisplay5e06.html",
 			"sources": [ "Book of the Damned" ],
 			"types": [
@@ -4578,8 +4578,8 @@
 			"destruction": "The Book of the Damned apocrypha can be destroyed only by immersing the pages in 10 gallons of holy water while in the presence of at least one creature of each subtype of evil outsider described within. Unless the other three portions of the Book of the Damned are also destroyed within 24 hours, this portion reappears unharmed at some random, obscure point in the multiverse."
 		},
 		{
-			"name": "Book of the Damned Daemonic",
-			"display_name": "Book of the Damned (Daemonic)",
+			"name": "Book of the Damned (Daemonic)",
+			"searchable_name": "Book of the Damned Daemonic",
 			"file": "magicartifactsdisplay0193.html",
 			"sources": [
 				"Book of the Damned",
@@ -4606,8 +4606,8 @@
 			"destruction": "The daemonic Book of the Damned can be destroyed by washing away the text on each page with the tears of a good outsider, at which point the book crumbles to ashes. Unless the other three portions of the Book of the Damned are also destroyed within 24 hours, the daemonic Book of the Damned reappears unharmed at some random, obscure point in the multiverse."
 		},
 		{
-			"name": "Book of the Damned Demonic",
-			"display_name": "Book of the Damned (Demonic)",
+			"name": "Book of the Damned (Demonic)",
+			"searchable_name": "Book of the Damned Demonic",
 			"file": "magicartifactsdisplay9457.html",
 			"sources": [
 				"Book of the Damned",
@@ -4633,8 +4633,8 @@
 			"destruction": "The demonic Book of the Damned can be destroyed by feeding the pages to a lawful or good outsider (though doing so usually results in the outsider's death or fall from grace). Unless the other three portions of the Book of the Damned are also destroyed within 24 hours, the demonic Book of the Damned reappears unharmed at some random, obscure point in the multiverse."
 		},
 		{
-			"name": "Book of the Damned Diabolic",
-			"display_name": "Book of the Damned (Diabolic)",
+			"name": "Book of the Damned (Diabolic)",
+			"searchable_name": "Book of the Damned Diabolic",
 			"file": "magicartifactsdisplaybe21.html",
 			"sources": [
 				"Book of the Damned",
@@ -5181,8 +5181,8 @@
 			"destruction": "Dryad's Song crumbles into ash if it is wholly submerged in a mixture of glaistig blood and a traitor's tears of regret."
 		},
 		{
-			"name": "Dryad's Song Corrupted",
-			"display_name": "Dryad's Song (Corrupted)",
+			"name": "Dryad's Song (Corrupted)",
+			"searchable_name": "Dryad's Song Corrupted",
 			"file": "magicartifactsdisplay5f84.html",
 			"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
 			"types": [
@@ -6007,8 +6007,8 @@
 			"destruction": "The Mirror of Sorshen shatters into a thousand pieces if an intelligent but completely innocent creature first resists the mirror's attraction and then later accidentally drops it."
 		},
 		{
-			"name": "Mog Lathar the Petrified Spider",
-			"display_name": "Mog-Lathar, the Petrified Spider",
+			"name": "Mog-Lathar, the Petrified Spider",
+			"searchable_name": "Mog Lathar the Petrified Spider",
 			"file": "magicartifactsdisplayf8eb.html",
 			"sources": [ "The House on Hook Street" ],
 			"types": [
@@ -6314,8 +6314,8 @@
 			"destruction": "The Ravenous Blade must be driven into the heart of a good cleric, who must then gorge herself for 3 days and 3 nights uninterrupted until the sword has eaten its fill, at which point it rusts and crumbles."
 		},
 		{
-			"name": "Relic of Kazavon Armor of Skulls",
-			"display_name": "Relic of Kazavon-Armor of Skulls",
+			"name": "Relic of Kazavon-Armor of Skulls",
+			"searchable_name": "Relic of Kazavon Armor of Skulls",
 			"file": "magicartifactsdisplay888d.html",
 			"sources": [
 				"Artifacts and Legends",
@@ -6347,8 +6347,8 @@
 			"destruction": "One who has never killed another creature must bind the Armor of Skulls in gold chains (worth 1,000,000 gp), then slowly shatter the armor by shortening the chain by one link every day for 1,000 days."
 		},
 		{
-			"name": "Relic of Kazavon Bound Blade",
-			"display_name": "Relic of Kazavon-Bound Blade",
+			"name": "Relic of Kazavon-Bound Blade",
+			"searchable_name": "Relic of Kazavon Bound Blade",
 			"file": "magicartifactsdisplay23d9.html",
 			"sources": [
 				"Artifacts and Legends",
@@ -6380,8 +6380,8 @@
 			"destruction": "The Bound Blade shatters if used by a paladin of Abadar to slay a fallen paladin dedicated to Zon-Kuthon."
 		},
 		{
-			"name": "Relic of Kazavon Crown of Fangs",
-			"display_name": "Relic of Kazavon-Crown of Fangs",
+			"name": "Relic of Kazavon-Crown of Fangs",
+			"searchable_name": "Relic of Kazavon Crown of Fangs",
 			"file": "magicartifactsdisplaye4d9.html",
 			"sources": [ "Artifacts and Legends" ],
 			"types": [
@@ -6409,8 +6409,8 @@
 			"destruction": "The Crown of Fangs is destroyed if struck by a holy sword forged by a once-mortal god."
 		},
 		{
-			"name": "Relic of Kazavon Howling Horn",
-			"display_name": "Relic of Kazavon-Howling Horn",
+			"name": "Relic of Kazavon-Howling Horn",
+			"searchable_name": "Relic of Kazavon Howling Horn",
 			"file": "magicartifactsdisplaye981.html",
 			"sources": [
 				"Artifacts and Legends",
@@ -6441,8 +6441,8 @@
 			"destruction": "A performer must use the Howling Horn to make a successful DC 40 Perform (wind instruments) check to entertain a good-aligned deity."
 		},
 		{
-			"name": "Relic of Kazavon Shredskin",
-			"display_name": "Relic of Kazavon-Shredskin",
+			"name": "Relic of Kazavon-Shredskin",
+			"searchable_name": "Relic of Kazavon Shredskin",
 			"file": "magicartifactsdisplay979b.html",
 			"sources": [
 				"Artifacts and Legends",
@@ -6473,8 +6473,8 @@
 			"destruction": "The Shredskin must be taken to the Positive Energy Plane or Sarenrae's domain on Nirvana and exposed to direct light for 1 month."
 		},
 		{
-			"name": "Relic of Kazavon Staff of the Slain",
-			"display_name": "Relic of Kazavon-Staff of the Slain",
+			"name": "Relic of Kazavon-Staff of the Slain",
+			"searchable_name": "Relic of Kazavon Staff of the Slain",
 			"file": "magicartifactsdisplay829a.html",
 			"sources": [
 				"Artifacts and Legends",
@@ -6507,8 +6507,8 @@
 			"destruction": "Unknown to either personality, destroying the staff requires submerging it for 24 hours in a pool of silver dragon tears."
 		},
 		{
-			"name": "Relic of Kazavon Throne of Nalt",
-			"display_name": "Relic of Kazavon-Throne of Nalt",
+			"name": "Relic of Kazavon-Throne of Nalt",
+			"searchable_name": "Relic of Kazavon Throne of Nalt",
 			"file": "magicartifactsdisplaya386.html",
 			"sources": [
 				"Artifacts and Legends",
@@ -7136,8 +7136,8 @@
 			"destruction": "The Shield of Aroden is designed to be destroyed, but the supposedly invulnerable shards left by its destruction can be utterly destroyed if they are consumed by a chaotic neutral being at least as powerful as a demigod, such as the proteans' Speakers of the Depths or the Eldest known as Count Ranalc."
 		},
 		{
-			"name": "Shield of Xin Undoros",
-			"display_name": "Shield of Xin-Undoros",
+			"name": "Shield of Xin-Undoros",
+			"searchable_name": "Shield of Xin Undoros",
 			"file": "magicartifactsdisplaye0a5.html",
 			"sources": [ "Pathfinder #137: The City Outside of Time" ],
 			"types": [
@@ -7288,8 +7288,8 @@
 			"destruction": "The Skullsoul cannot be destroyed but it can be contained. As long as the Skullsoul stays pierced by either a weapon with the vorpal special ability or a holy avenger, it is contained and entirely inert until the sword is removed."
 		},
 		{
-			"name": "Song of Extinction Music Box",
-			"display_name": "Song of Extinction (Music Box)",
+			"name": "Song of Extinction (Music Box)",
+			"searchable_name": "Song of Extinction Music Box",
 			"file": "magicartifactsdisplayd5d6.html",
 			"sources": [ "Artifacts and Legends" ],
 			"types": [
@@ -7463,8 +7463,8 @@
 			"destruction": "Asmodeus must crush the mace with his bare hands, but only if Barzahk is first slain."
 		},
 		{
-			"name": "Sword of Gluttony Ungarato",
-			"display_name": "Sword of Gluttony-Ungarato",
+			"name": "Sword of Gluttony-Ungarato",
+			"searchable_name": "Sword of Gluttony Ungarato",
 			"file": "magicartifactsdisplay2a7e.html",
 			"sources": [ "Artifacts and Legends" ],
 			"types": [
@@ -7493,8 +7493,8 @@
 			"destruction": "Each of the Seven Swords of Sin can be destroyed merely if commanded to break. That command, however, must come from the rightful runelord of the nation and school of magic associated with the blade."
 		},
 		{
-			"name": "Sword of Greed Chellan",
-			"display_name": "Sword of Greed-Chellan",
+			"name": "Sword of Greed-Chellan",
+			"searchable_name": "Sword of Greed Chellan",
 			"file": "magicartifactsdisplay008b.html",
 			"sources": [
 				"Rise of the Runelords Adventure Path",
@@ -7529,8 +7529,8 @@
 			"destruction": "Karzoug can destroy the sword of greed merely by commanding its destruction with his voice (a free action for the runelord)."
 		},
 		{
-			"name": "Sword of Lust Asheia",
-			"display_name": "Sword of Lust-Asheia",
+			"name": "Sword of Lust-Asheia",
+			"searchable_name": "Sword of Lust Asheia",
 			"file": "magicartifactsdisplay8ce7.html",
 			"sources": [
 				"Artifacts and Legends",
@@ -7562,8 +7562,8 @@
 			"destruction": "Each of the Seven Swords of Sin can be destroyed merely if commanded to break. That command, however, must come from the rightful runelord of the nation and school of magic associated with the blade."
 		},
 		{
-			"name": "Sword of Pride Baraket",
-			"display_name": "Sword of Pride-Baraket",
+			"name": "Sword of Pride-Baraket",
+			"searchable_name": "Sword of Pride Baraket",
 			"file": "magicartifactsdisplaya291.html",
 			"sources": [
 				"Pathfinder #133: Secrets of Roderic's Cove",
@@ -7596,8 +7596,8 @@
 			"destruction": "Each of the Swords of Sin can be destroyed merely by being commanded to break. That command, however, must come from the rightful runelord of the nation and school of magic associated with the blade."
 		},
 		{
-			"name": "Sword of Sloth Shin Tari",
-			"display_name": "Sword of Sloth, Shin-Tari",
+			"name": "Sword of Sloth, Shin-Tari",
+			"searchable_name": "Sword of Sloth Shin Tari",
 			"file": "magicartifactsdisplayb692.html",
 			"sources": [ "Artifacts and Legends" ],
 			"types": [
@@ -7649,8 +7649,8 @@
 			"destruction": "The Sword of Valor can be destroyed by Iomedae herself, but only if she chooses to do so and rips it apart with her bare hands."
 		},
 		{
-			"name": "Sword of Wrath Garvok",
-			"display_name": "Sword of Wrath-Garvok",
+			"name": "Sword of Wrath-Garvok",
+			"searchable_name": "Sword of Wrath Garvok",
 			"file": "magicartifactsdisplaye8ce.html",
 			"sources": [ "Artifacts and Legends" ],
 			"types": [
@@ -7713,8 +7713,8 @@
 			"destruction": "The Synchrony Device must be carefully disassembled and each ring destroyed individually before the following ring is removed until reaching the device's abysium core, which must be contained and disposed of separately. Activating the device also destroys it."
 		},
 		{
-			"name": "Tannaris Sword of Envy",
-			"display_name": "Tannaris-Sword of Envy",
+			"name": "Tannaris-Sword of Envy",
+			"searchable_name": "Tannaris Sword of Envy",
 			"file": "magicartifactsdisplay545f.html",
 			"sources": [
 				"Pathfinder #137: The City Outside of Time",

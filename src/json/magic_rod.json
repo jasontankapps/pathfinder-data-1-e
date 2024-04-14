@@ -22,8 +22,8 @@
 			"construction": "**Requirements** Craft Rod, cure light wounds; **Cost** 1,125 gp, 90 XP"
 		},
 		{
-			"name": "Lesser Rod of the Thriceborn",
-			"display_name": "Rod of the Thriceborn (lesser)",
+			"name": "Rod of the Thriceborn (lesser)",
+			"searchable_name": "Lesser Rod of the Thriceborn",
 			"file": "magicrodsdisplay3784.html",
 			"sources": [ "Legacy of the First World" ],
 			"cost": 2500,
@@ -44,8 +44,8 @@
 			"construction": "**Requirements** Craft Rod, threefold sight; **Cost** 1,250 gp (lesser), 3,250 gp (normal), 9,750 (greater)"
 		},
 		{
-			"name": "Lesser Rod of Giant Summoning",
-			"display_name": "Rod of Giant Summoning (lesser)",
+			"name": "Rod of Giant Summoning (lesser)",
+			"searchable_name": "Lesser Rod of Giant Summoning",
 			"file": "magicrodsdisplay64e7.html",
 			"sources": [ "Monster Summoner's Handbook" ],
 			"cost": 3000,
@@ -189,8 +189,8 @@
 			"construction": "**Requirements** Craft Rod, fabricate, polymorph any object; **Cost** 2,500 gp"
 		},
 		{
-			"name": "Lesser Recondite Rod",
-			"display_name": "Recondite Rod (lesser)",
+			"name": "Recondite Rod (lesser)",
+			"searchable_name": "Lesser Recondite Rod",
 			"file": "magicrodsdisplayf131.html",
 			"sources": [ "Psychic Anthology" ],
 			"cost": 5000,
@@ -232,8 +232,8 @@
 			"construction": "**Requirements** Craft Rod, blindness/deafness, wall of force; **Cost** 2,700 gp"
 		},
 		{
-			"name": "Normal Rod of the Thriceborn",
-			"display_name": "Rod of the Thriceborn (normal)",
+			"name": "Rod of the Thriceborn (normal)",
+			"searchable_name": "Normal Rod of the Thriceborn",
 			"file": "magicrodsdisplay1f63.html",
 			"sources": [ "Legacy of the First World" ],
 			"cost": 6500,
@@ -464,8 +464,8 @@
 			"construction": "**Requirements** Craft Rod, Extend Spell, creator must possess the hex class feature; **Cost** 5,500 gp"
 		},
 		{
-			"name": "Normal Rod of Giant Summoning",
-			"display_name": "Rod of Giant Summoning (normal)",
+			"name": "Rod of Giant Summoning (normal)",
+			"searchable_name": "Normal Rod of Giant Summoning",
 			"file": "magicrodsdisplay89cd.html",
 			"sources": [ "Monster Summoner's Handbook" ],
 			"cost": 11000,
@@ -698,8 +698,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, Craft Rod, baleful polymorph, creator must be good; **Cost** 6,500 gp"
 		},
 		{
-			"name": "Trap Stealer's Rod",
-			"display_name": "Trap-Stealer's Rod",
+			"name": "Trap-Stealer's Rod",
+			"searchable_name": "Trap Stealer's Rod",
 			"file": "magicrodsdisplaydc77.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 13500,
@@ -972,8 +972,8 @@
 			"construction": "**Requirements** Craft Rod, ectoplasmic snare; **Cost** 9,000 gp"
 		},
 		{
-			"name": "Normal Recondite Rod",
-			"display_name": "Recondite Rod (normal)",
+			"name": "Recondite Rod (normal)",
+			"searchable_name": "Normal Recondite Rod",
 			"file": "magicrodsdisplay3f31.html",
 			"sources": [ "Psychic Anthology" ],
 			"cost": 18000,
@@ -1030,8 +1030,8 @@
 			"construction": "**Requirements** Craft Rod, Craft Magic Arms and Armor, poison, creator must be evil; **Cost** 9,500 gp"
 		},
 		{
-			"name": "Greater Rod of the Thriceborn",
-			"display_name": "Rod of the Thriceborn (greater)",
+			"name": "Rod of the Thriceborn (greater)",
+			"searchable_name": "Greater Rod of the Thriceborn",
 			"file": "magicrodsdisplayb3da.html",
 			"sources": [ "Legacy of the First World" ],
 			"cost": 19500,
@@ -1224,8 +1224,8 @@
 			"construction": "**Requirements** Craft Rod, vampiric touch; **Cost** 12,000 gp, 960 XP"
 		},
 		{
-			"name": "Greater Rod of Giant Summoning",
-			"display_name": "Rod of Giant Summoning (greater)",
+			"name": "Rod of Giant Summoning (greater)",
+			"searchable_name": "Greater Rod of Giant Summoning",
 			"file": "magicrodsdisplay1d34.html",
 			"sources": [ "Monster Summoner's Handbook" ],
 			"cost": 24500,
@@ -1691,8 +1691,8 @@
 			"construction": "**Requirements** Craft Rod, geas/quest, mass charm monster; **Cost** 21,000 gp"
 		},
 		{
-			"name": "Greater Recondite Rod",
-			"display_name": "Recondite Rod (greater)",
+			"name": "Recondite Rod (greater)",
+			"searchable_name": "Greater Recondite Rod",
 			"file": "magicrodsdisplay13e3.html",
 			"sources": [ "Psychic Anthology" ],
 			"cost": 40500,
@@ -1913,8 +1913,8 @@
 			"construction": "**Requirements** Craft Rod, gate; **Cost** 30,500 gp"
 		},
 		{
-			"name": "Rod of Well Deserved Rest",
-			"display_name": "Rod of Well-Deserved Rest",
+			"name": "Rod of Well-Deserved Rest",
+			"searchable_name": "Rod of Well Deserved Rest",
 			"file": "magicrodsdisplay0bdb.html",
 			"sources": [ "Pathfinder #39: The City of Seven Spears" ],
 			"cost": 62000,
@@ -2305,8 +2305,8 @@
 			"construction": "**Requirements** Craft Rod, limited wish, wish; **Cost** 100,000 gp"
 		},
 		{
-			"name": "Lesser Eclipsed Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Eclipsed (lesser)",
+			"name": "Rod of Metamagic, Eclipsed (lesser)",
+			"searchable_name": "Lesser Eclipsed Rod of Metamagic",
 			"file": "magicrodsdisplay7c90.html",
 			"sources": [ "Blood of Shadows" ],
 			"cost": 1500,
@@ -2327,8 +2327,8 @@
 			"construction": "**Requirements** Craft Rod, Eclipsed Spell; **Cost** 750 gp (lesser), 2,750 gp (normal), 6,125 gp (greater)"
 		},
 		{
-			"name": "Lesser Merciful Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Merciful (lesser)",
+			"name": "Rod of Metamagic, Merciful (lesser)",
+			"searchable_name": "Lesser Merciful Rod of Metamagic",
 			"file": "magicrodsdisplay43ac.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -2352,8 +2352,8 @@
 			"construction": "**Requirements** Craft Rod, Merciful Spell; **Cost** 750 gp (lesser), 2,750 gp (normal), 6,125 gp (greater)"
 		},
 		{
-			"name": "Lesser Murky Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Murky (lesser)",
+			"name": "Rod of Metamagic, Murky (lesser)",
+			"searchable_name": "Lesser Murky Rod of Metamagic",
 			"file": "magicrodsdisplay2d2a.html",
 			"sources": [ "Aquatic Adventures" ],
 			"cost": 1500,
@@ -2374,8 +2374,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, freedom of movement; **Cost** 750 gp (lesser), 2,750 gp (normal), 6,125 gp (greater)"
 		},
 		{
-			"name": "Lesser Steam Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Steam (lesser)",
+			"name": "Rod of Metamagic, Steam (lesser)",
+			"searchable_name": "Lesser Steam Rod of Metamagic",
 			"file": "magicrodsdisplayb8cd.html",
 			"sources": [ "Aquatic Adventures" ],
 			"cost": 1500,
@@ -2396,8 +2396,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, freedom of movement; **Cost** 750 gp (lesser), 2,750 gp (normal), 6,125 gp (greater)"
 		},
 		{
-			"name": "Lesser Apocalyptic Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Apocalyptic (lesser)",
+			"name": "Rod of Metamagic, Apocalyptic (lesser)",
+			"searchable_name": "Lesser Apocalyptic Rod of Metamagic",
 			"file": "magicrodsdisplay5b65.html",
 			"sources": [ "Planar Adventures" ],
 			"cost": 3000,
@@ -2418,8 +2418,8 @@
 			"construction": "**Requirements** Craft Rod, Apocolyptic Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		},
 		{
-			"name": "Lesser Authoritative Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Authoritative (lesser)",
+			"name": "Rod of Metamagic, Authoritative (lesser)",
+			"searchable_name": "Lesser Authoritative Rod of Metamagic",
 			"file": "magicrodsdisplay19be.html",
 			"sources": [ "Planar Adventures" ],
 			"cost": 3000,
@@ -2440,8 +2440,8 @@
 			"construction": "**Requirements** Craft Rod, Authoritative Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		},
 		{
-			"name": "Lesser Blissful Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Blissful (lesser)",
+			"name": "Rod of Metamagic, Blissful (lesser)",
+			"searchable_name": "Lesser Blissful Rod of Metamagic",
 			"file": "magicrodsdisplay3698.html",
 			"sources": [ "Planar Adventures" ],
 			"cost": 3000,
@@ -2462,8 +2462,8 @@
 			"construction": "**Requirements** Craft Rod, Blissful Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		},
 		{
-			"name": "Lesser Bouncing Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Bouncing (lesser)",
+			"name": "Rod of Metamagic, Bouncing (lesser)",
+			"searchable_name": "Lesser Bouncing Rod of Metamagic",
 			"file": "magicrodsdisplay9881.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -2487,8 +2487,8 @@
 			"construction": "**Requirements** Craft Rod, Bouncing Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		},
 		{
-			"name": "Lesser Crypt Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Crypt (lesser)",
+			"name": "Rod of Metamagic, Crypt (lesser)",
+			"searchable_name": "Lesser Crypt Rod of Metamagic",
 			"file": "magicrodsdisplayfe79.html",
 			"sources": [ "Planar Adventures" ],
 			"cost": 3000,
@@ -2509,8 +2509,8 @@
 			"construction": "**Requirements** Craft Rod, Crypt Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		},
 		{
-			"name": "Lesser Disruptive Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Disruptive (lesser)",
+			"name": "Rod of Metamagic, Disruptive (lesser)",
+			"searchable_name": "Lesser Disruptive Rod of Metamagic",
 			"file": "magicrodsdisplay8783.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -2534,8 +2534,8 @@
 			"construction": "**Requirements** Craft Rod, Disruptive Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		},
 		{
-			"name": "Lesser Ectoplasmic Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Ectoplasmic (lesser)",
+			"name": "Rod of Metamagic, Ectoplasmic (lesser)",
+			"searchable_name": "Lesser Ectoplasmic Rod of Metamagic",
 			"file": "magicrodsdisplay8f51.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -2559,8 +2559,8 @@
 			"construction": "**Requirements** Craft Rod, Ectoplasmic Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		},
 		{
-			"name": "Lesser Elemental Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Elemental (lesser)",
+			"name": "Rod of Metamagic, Elemental (lesser)",
+			"searchable_name": "Lesser Elemental Rod of Metamagic",
 			"file": "magicrodsdisplayd8a0.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -2584,8 +2584,8 @@
 			"construction": "**Requirements** Craft Rod, Elemental Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		},
 		{
-			"name": "Lesser Enlarge Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Enlarge (lesser)",
+			"name": "Rod of Metamagic, Enlarge (lesser)",
+			"searchable_name": "Lesser Enlarge Rod of Metamagic",
 			"file": "magicrodsdisplayd179.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -2609,8 +2609,8 @@
 			"construction": "**Requirements** Craft Rod, Enlarge Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		},
 		{
-			"name": "Lesser Extend Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Extend (lesser)",
+			"name": "Rod of Metamagic, Extend (lesser)",
+			"searchable_name": "Lesser Extend Rod of Metamagic",
 			"file": "magicrodsdisplay088a.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -2634,8 +2634,8 @@
 			"construction": "**Requirements** Craft Rod, Extend Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		},
 		{
-			"name": "Lesser Flaring Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Flaring (lesser)",
+			"name": "Rod of Metamagic, Flaring (lesser)",
+			"searchable_name": "Lesser Flaring Rod of Metamagic",
 			"file": "magicrodsdisplayd830.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 3000,
@@ -2656,8 +2656,8 @@
 			"construction": "**Requirements** Craft Rod, Flaring Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		},
 		{
-			"name": "Lesser Focused Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Focused (lesser)",
+			"name": "Rod of Metamagic, Focused (lesser)",
+			"searchable_name": "Lesser Focused Rod of Metamagic",
 			"file": "magicrodsdisplay41d3.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -2681,8 +2681,8 @@
 			"construction": "**Requirements** Craft Rod, Focused Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		},
 		{
-			"name": "Lesser Furious Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Furious (lesser)",
+			"name": "Rod of Metamagic, Furious (lesser)",
+			"searchable_name": "Lesser Furious Rod of Metamagic",
 			"file": "magicrodsdisplay96fd.html",
 			"sources": [ "Occult Adventures" ],
 			"cost": 3000,
@@ -2703,8 +2703,8 @@
 			"construction": "**Requirements** Craft Rod, Furious Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 22,250 gp (greater)"
 		},
 		{
-			"name": "Lesser Intensified Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Intensified (lesser)",
+			"name": "Rod of Metamagic, Intensified (lesser)",
+			"searchable_name": "Lesser Intensified Rod of Metamagic",
 			"file": "magicrodsdisplay04dc.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -2728,8 +2728,8 @@
 			"construction": "**Requirements** Craft Rod, Intensified Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		},
 		{
-			"name": "Lesser Lingering Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Lingering (lesser)",
+			"name": "Rod of Metamagic, Lingering (lesser)",
+			"searchable_name": "Lesser Lingering Rod of Metamagic",
 			"file": "magicrodsdisplaye75f.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -2753,8 +2753,8 @@
 			"construction": "**Requirements** Craft Rod, Lingering Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		},
 		{
-			"name": "Lesser Logical Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Logical (lesser)",
+			"name": "Rod of Metamagic, Logical (lesser)",
+			"searchable_name": "Lesser Logical Rod of Metamagic",
 			"file": "magicrodsdisplay8daa.html",
 			"sources": [ "Occult Adventures" ],
 			"cost": 3000,
@@ -2775,8 +2775,8 @@
 			"construction": "**Requirements** Craft Rod, Logical Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		},
 		{
-			"name": "Lesser Piercing Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Piercing (lesser)",
+			"name": "Rod of Metamagic, Piercing (lesser)",
+			"searchable_name": "Lesser Piercing Rod of Metamagic",
 			"file": "magicrodsdisplay3bdb.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 3000,
@@ -2797,8 +2797,8 @@
 			"construction": "**Requirements** Craft Rod, Piercing Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		},
 		{
-			"name": "Lesser Reach Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Reach (lesser)",
+			"name": "Rod of Metamagic, Reach (lesser)",
+			"searchable_name": "Lesser Reach Rod of Metamagic",
 			"file": "magicrodsdisplay1cb5.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -2822,8 +2822,8 @@
 			"construction": "**Requirements** Craft Rod, Reach Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		},
 		{
-			"name": "Lesser Rime Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Rime (lesser)",
+			"name": "Rod of Metamagic, Rime (lesser)",
+			"searchable_name": "Lesser Rime Rod of Metamagic",
 			"file": "magicrodsdisplay283f.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 3000,
@@ -2844,8 +2844,8 @@
 			"construction": "**Requirements** Craft Rod, Rime Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		},
 		{
-			"name": "Lesser Scarring Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Scarring (lesser)",
+			"name": "Rod of Metamagic, Scarring (lesser)",
+			"searchable_name": "Lesser Scarring Rod of Metamagic",
 			"file": "magicrodsdisplaydfea.html",
 			"sources": [ "Occult Adventures" ],
 			"cost": 3000,
@@ -2866,8 +2866,8 @@
 			"construction": "**Requirements** Craft Rod, Scarring Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 22,250 gp (greater)"
 		},
 		{
-			"name": "Lesser Selective Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Selective (lesser)",
+			"name": "Rod of Metamagic, Selective (lesser)",
+			"searchable_name": "Lesser Selective Rod of Metamagic",
 			"file": "magicrodsdisplay8cf5.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -2891,8 +2891,8 @@
 			"construction": "**Requirements** Craft Rod, Selective Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		},
 		{
-			"name": "Lesser Silent Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Silent (lesser)",
+			"name": "Rod of Metamagic, Silent (lesser)",
+			"searchable_name": "Lesser Silent Rod of Metamagic",
 			"file": "magicrodsdisplay4dab.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -2916,8 +2916,8 @@
 			"construction": "**Requirements** Craft Rod, Silent Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		},
 		{
-			"name": "Lesser Stable Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Stable (lesser)",
+			"name": "Rod of Metamagic, Stable (lesser)",
+			"searchable_name": "Lesser Stable Rod of Metamagic",
 			"file": "magicrodsdisplayf7c8.html",
 			"sources": [ "Wardens of the Reborn Forge" ],
 			"cost": 3000,
@@ -2938,8 +2938,8 @@
 			"construction": "**Requirements** Craft Rod, Stable Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		},
 		{
-			"name": "Lesser Toppling Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Toppling (lesser)",
+			"name": "Rod of Metamagic, Toppling (lesser)",
+			"searchable_name": "Lesser Toppling Rod of Metamagic",
 			"file": "magicrodsdisplay64aa.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 3000,
@@ -2960,8 +2960,8 @@
 			"construction": "**Requirements** Craft Rod, Toppling Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		},
 		{
-			"name": "Lesser Tumultuous Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Tumultuous (lesser)",
+			"name": "Rod of Metamagic, Tumultuous (lesser)",
+			"searchable_name": "Lesser Tumultuous Rod of Metamagic",
 			"file": "magicrodsdisplay322f.html",
 			"sources": [ "Planar Adventures" ],
 			"cost": 3000,
@@ -2982,8 +2982,8 @@
 			"construction": "**Requirements** Craft Rod, Tumultuous Spell; **Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)"
 		},
 		{
-			"name": "Normal Eclipsed Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Eclipsed (normal)",
+			"name": "Rod of Metamagic, Eclipsed (normal)",
+			"searchable_name": "Normal Eclipsed Rod of Metamagic",
 			"file": "magicrodsdisplay2f4a.html",
 			"sources": [ "Blood of Shadows" ],
 			"cost": 5500,
@@ -2994,8 +2994,8 @@
 			"copyof": "Rod of Metamagic, Eclipsed (lesser)"
 		},
 		{
-			"name": "Normal Merciful Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Merciful (normal)",
+			"name": "Rod of Metamagic, Merciful (normal)",
+			"searchable_name": "Normal Merciful Rod of Metamagic",
 			"file": "magicrodsdisplaya9d3.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3009,8 +3009,8 @@
 			"copyof": "Rod of Metamagic, Merciful (lesser)"
 		},
 		{
-			"name": "Normal Murky Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Murky (normal)",
+			"name": "Rod of Metamagic, Murky (normal)",
+			"searchable_name": "Normal Murky Rod of Metamagic",
 			"file": "magicrodsdisplay0489.html",
 			"sources": [ "Aquatic Adventures" ],
 			"cost": 5500,
@@ -3021,8 +3021,8 @@
 			"copyof": "Rod of Metamagic, Murky (lesser)"
 		},
 		{
-			"name": "Normal Steam Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Steam (normal)",
+			"name": "Rod of Metamagic, Steam (normal)",
+			"searchable_name": "Normal Steam Rod of Metamagic",
 			"file": "magicrodsdisplayc630.html",
 			"sources": [ "Aquatic Adventures" ],
 			"cost": 5500,
@@ -3033,8 +3033,8 @@
 			"copyof": "Rod of Metamagic, Steam (lesser)"
 		},
 		{
-			"name": "Lesser Burning Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Burning (lesser)",
+			"name": "Rod of Metamagic, Burning (lesser)",
+			"searchable_name": "Lesser Burning Rod of Metamagic",
 			"file": "magicrodsdisplay92c3.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 9000,
@@ -3055,8 +3055,8 @@
 			"construction": "**Requirements** Craft Rod, Burning Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		},
 		{
-			"name": "Lesser Concussive Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Concussive (lesser)",
+			"name": "Rod of Metamagic, Concussive (lesser)",
+			"searchable_name": "Lesser Concussive Rod of Metamagic",
 			"file": "magicrodsdisplay6621.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 9000,
@@ -3077,8 +3077,8 @@
 			"construction": "**Requirements** Craft Rod, Concussive Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		},
 		{
-			"name": "Lesser Empower Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Empower (lesser)",
+			"name": "Rod of Metamagic, Empower (lesser)",
+			"searchable_name": "Lesser Empower Rod of Metamagic",
 			"file": "magicrodsdisplay7fbb.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3102,8 +3102,8 @@
 			"construction": "**Requirements** Craft Rod, Empower Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		},
 		{
-			"name": "Lesser Fearsome Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Fearsome (lesser)",
+			"name": "Rod of Metamagic, Fearsome (lesser)",
+			"searchable_name": "Lesser Fearsome Rod of Metamagic",
 			"file": "magicrodsdisplayd9bd.html",
 			"sources": [ "Occult Adventures" ],
 			"cost": 9000,
@@ -3124,8 +3124,8 @@
 			"construction": "**Requirements** Craft Rod, Fearsome Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		},
 		{
-			"name": "Lesser Persistent Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Persistent (lesser)",
+			"name": "Rod of Metamagic, Persistent (lesser)",
+			"searchable_name": "Lesser Persistent Rod of Metamagic",
 			"file": "magicrodsdisplay91cd.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3149,8 +3149,8 @@
 			"construction": "**Requirements** Craft Rod, Persistent Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		},
 		{
-			"name": "Lesser Sickening Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Sickening (lesser)",
+			"name": "Rod of Metamagic, Sickening (lesser)",
+			"searchable_name": "Lesser Sickening Rod of Metamagic",
 			"file": "magicrodsdisplay3d86.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3174,8 +3174,8 @@
 			"construction": "**Requirements** Craft Rod, Sickening Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		},
 		{
-			"name": "Lesser Snuffing Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Snuffing (lesser)",
+			"name": "Rod of Metamagic, Snuffing (lesser)",
+			"searchable_name": "Lesser Snuffing Rod of Metamagic",
 			"file": "magicrodsdisplaya883.html",
 			"sources": [ "Blood of Shadows" ],
 			"cost": 9000,
@@ -3196,8 +3196,8 @@
 			"construction": "**Requirements** Craft Rod, Snuffing Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		},
 		{
-			"name": "Lesser Stygian Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Stygian (lesser)",
+			"name": "Rod of Metamagic, Stygian (lesser)",
+			"searchable_name": "Lesser Stygian Rod of Metamagic",
 			"file": "magicrodsdisplay15da.html",
 			"sources": [ "Planar Adventures" ],
 			"cost": 9000,
@@ -3218,8 +3218,8 @@
 			"construction": "**Requirements** Craft Rod, Stygian Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		},
 		{
-			"name": "Lesser Thanatopic Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Thanatopic (lesser)",
+			"name": "Rod of Metamagic, Thanatopic (lesser)",
+			"searchable_name": "Lesser Thanatopic Rod of Metamagic",
 			"file": "magicrodsdisplay9500.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 9000,
@@ -3240,8 +3240,8 @@
 			"construction": "**Requirements** Craft Rod, Thanatopic Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		},
 		{
-			"name": "Lesser Threnodic Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Threnodic (lesser)",
+			"name": "Rod of Metamagic, Threnodic (lesser)",
+			"searchable_name": "Lesser Threnodic Rod of Metamagic",
 			"file": "magicrodsdisplay1a78.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 9000,
@@ -3262,8 +3262,8 @@
 			"construction": "**Requirements** Craft Rod, Threnodic Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		},
 		{
-			"name": "Lesser Thundering Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Thundering (lesser)",
+			"name": "Rod of Metamagic, Thundering (lesser)",
+			"searchable_name": "Lesser Thundering Rod of Metamagic",
 			"file": "magicrodsdisplaya7e6.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3287,8 +3287,8 @@
 			"construction": "**Requirements** Craft Rod, Thundering Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		},
 		{
-			"name": "Lesser Traumatic Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Traumatic (lesser)",
+			"name": "Rod of Metamagic, Traumatic (lesser)",
+			"searchable_name": "Lesser Traumatic Rod of Metamagic",
 			"file": "magicrodsdisplay9569.html",
 			"sources": [ "Occult Adventures" ],
 			"cost": 9000,
@@ -3309,8 +3309,8 @@
 			"construction": "**Requirements** Craft Rod, Traumatic Spell; **Cost** 4,500 gp (lesser), 16,250 gp (normal), 36,500 gp (greater)"
 		},
 		{
-			"name": "Normal Apocalyptic Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Apocalyptic (normal)",
+			"name": "Rod of Metamagic, Apocalyptic (normal)",
+			"searchable_name": "Normal Apocalyptic Rod of Metamagic",
 			"file": "magicrodsdisplay287e.html",
 			"sources": [ "Planar Adventures" ],
 			"cost": 11000,
@@ -3321,8 +3321,8 @@
 			"copyof": "Rod of Metamagic, Apocalyptic (lesser)"
 		},
 		{
-			"name": "Normal Authoritative Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Authoritative (normal)",
+			"name": "Rod of Metamagic, Authoritative (normal)",
+			"searchable_name": "Normal Authoritative Rod of Metamagic",
 			"file": "magicrodsdisplay5033.html",
 			"sources": [ "Planar Adventures" ],
 			"cost": 11000,
@@ -3333,8 +3333,8 @@
 			"copyof": "Rod of Metamagic, Authoritative (lesser)"
 		},
 		{
-			"name": "Normal Blissful Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Blissful (normal)",
+			"name": "Rod of Metamagic, Blissful (normal)",
+			"searchable_name": "Normal Blissful Rod of Metamagic",
 			"file": "magicrodsdisplay9188.html",
 			"sources": [ "Planar Adventures" ],
 			"cost": 11000,
@@ -3345,8 +3345,8 @@
 			"copyof": "Rod of Metamagic, Blissful (lesser)"
 		},
 		{
-			"name": "Normal Bouncing Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Bouncing (normal)",
+			"name": "Rod of Metamagic, Bouncing (normal)",
+			"searchable_name": "Normal Bouncing Rod of Metamagic",
 			"file": "magicrodsdisplayc210.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3360,8 +3360,8 @@
 			"copyof": "Rod of Metamagic, Bouncing (lesser)"
 		},
 		{
-			"name": "Normal Crypt Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Crypt (normal)",
+			"name": "Rod of Metamagic, Crypt (normal)",
+			"searchable_name": "Normal Crypt Rod of Metamagic",
 			"file": "magicrodsdisplay5c3c.html",
 			"sources": [ "Planar Adventures" ],
 			"cost": 11000,
@@ -3372,8 +3372,8 @@
 			"copyof": "Rod of Metamagic, Crypt (lesser)"
 		},
 		{
-			"name": "Normal Disruptive Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Disruptive (normal)",
+			"name": "Rod of Metamagic, Disruptive (normal)",
+			"searchable_name": "Normal Disruptive Rod of Metamagic",
 			"file": "magicrodsdisplay0191.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3387,8 +3387,8 @@
 			"copyof": "Rod of Metamagic, Disruptive (lesser)"
 		},
 		{
-			"name": "Normal Ectoplasmic Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Ectoplasmic (normal)",
+			"name": "Rod of Metamagic, Ectoplasmic (normal)",
+			"searchable_name": "Normal Ectoplasmic Rod of Metamagic",
 			"file": "magicrodsdisplay2803.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3402,8 +3402,8 @@
 			"copyof": "Rod of Metamagic, Ectoplasmic (lesser)"
 		},
 		{
-			"name": "Normal Elemental Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Elemental (normal)",
+			"name": "Rod of Metamagic, Elemental (normal)",
+			"searchable_name": "Normal Elemental Rod of Metamagic",
 			"file": "magicrodsdisplaybe85.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3417,8 +3417,8 @@
 			"copyof": "Rod of Metamagic, Elemental (lesser)"
 		},
 		{
-			"name": "Normal Enlarge Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Enlarge (normal)",
+			"name": "Rod of Metamagic, Enlarge (normal)",
+			"searchable_name": "Normal Enlarge Rod of Metamagic",
 			"file": "magicrodsdisplayc237.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3432,8 +3432,8 @@
 			"copyof": "Rod of Metamagic, Enlarge (lesser)"
 		},
 		{
-			"name": "Normal Extend Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Extend (normal)",
+			"name": "Rod of Metamagic, Extend (normal)",
+			"searchable_name": "Normal Extend Rod of Metamagic",
 			"file": "magicrodsdisplay9bcb.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3447,8 +3447,8 @@
 			"copyof": "Rod of Metamagic, Extend (lesser)"
 		},
 		{
-			"name": "Normal Flaring Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Flaring (normal)",
+			"name": "Rod of Metamagic, Flaring (normal)",
+			"searchable_name": "Normal Flaring Rod of Metamagic",
 			"file": "magicrodsdisplaya3e4.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 11000,
@@ -3459,8 +3459,8 @@
 			"copyof": "Rod of Metamagic, Flaring (lesser)"
 		},
 		{
-			"name": "Normal Focused Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Focused (normal)",
+			"name": "Rod of Metamagic, Focused (normal)",
+			"searchable_name": "Normal Focused Rod of Metamagic",
 			"file": "magicrodsdisplay9c8b.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3474,8 +3474,8 @@
 			"copyof": "Rod of Metamagic, Focused (lesser)"
 		},
 		{
-			"name": "Normal Furious Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Furious (normal)",
+			"name": "Rod of Metamagic, Furious (normal)",
+			"searchable_name": "Normal Furious Rod of Metamagic",
 			"file": "magicrodsdisplayb953.html",
 			"sources": [ "Occult Adventures" ],
 			"cost": 11000,
@@ -3486,8 +3486,8 @@
 			"copyof": "Rod of Metamagic, Furious (lesser)"
 		},
 		{
-			"name": "Normal Intensified Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Intensified (normal)",
+			"name": "Rod of Metamagic, Intensified (normal)",
+			"searchable_name": "Normal Intensified Rod of Metamagic",
 			"file": "magicrodsdisplay2e4a.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3501,8 +3501,8 @@
 			"copyof": "Rod of Metamagic, Intensified (lesser)"
 		},
 		{
-			"name": "Normal Lingering Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Lingering (normal)",
+			"name": "Rod of Metamagic, Lingering (normal)",
+			"searchable_name": "Normal Lingering Rod of Metamagic",
 			"file": "magicrodsdisplay06bf.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3516,8 +3516,8 @@
 			"copyof": "Rod of Metamagic, Lingering (lesser)"
 		},
 		{
-			"name": "Normal Logical Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Logical (normal)",
+			"name": "Rod of Metamagic, Logical (normal)",
+			"searchable_name": "Normal Logical Rod of Metamagic",
 			"file": "magicrodsdisplay98f6.html",
 			"sources": [ "Occult Adventures" ],
 			"cost": 11000,
@@ -3528,8 +3528,8 @@
 			"copyof": "Rod of Metamagic, Logical (lesser)"
 		},
 		{
-			"name": "Normal Piercing Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Piercing (normal)",
+			"name": "Rod of Metamagic, Piercing (normal)",
+			"searchable_name": "Normal Piercing Rod of Metamagic",
 			"file": "magicrodsdisplayf791.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 11000,
@@ -3540,8 +3540,8 @@
 			"copyof": "Rod of Metamagic, Piercing (lesser)"
 		},
 		{
-			"name": "Normal Reach Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Reach (normal)",
+			"name": "Rod of Metamagic, Reach (normal)",
+			"searchable_name": "Normal Reach Rod of Metamagic",
 			"file": "magicrodsdisplay69c7.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3555,8 +3555,8 @@
 			"copyof": "Rod of Metamagic, Reach (lesser)"
 		},
 		{
-			"name": "Normal Rime Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Rime (normal)",
+			"name": "Rod of Metamagic, Rime (normal)",
+			"searchable_name": "Normal Rime Rod of Metamagic",
 			"file": "magicrodsdisplayd80c.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 11000,
@@ -3567,8 +3567,8 @@
 			"copyof": "Rod of Metamagic, Rime (lesser)"
 		},
 		{
-			"name": "Normal Scarring Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Scarring (normal)",
+			"name": "Rod of Metamagic, Scarring (normal)",
+			"searchable_name": "Normal Scarring Rod of Metamagic",
 			"file": "magicrodsdisplayae67.html",
 			"sources": [ "Occult Adventures" ],
 			"cost": 11000,
@@ -3579,8 +3579,8 @@
 			"copyof": "Rod of Metamagic, Scarring (lesser)"
 		},
 		{
-			"name": "Normal Selective Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Selective (normal)",
+			"name": "Rod of Metamagic, Selective (normal)",
+			"searchable_name": "Normal Selective Rod of Metamagic",
 			"file": "magicrodsdisplayb371.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3594,8 +3594,8 @@
 			"copyof": "Rod of Metamagic, Selective (lesser)"
 		},
 		{
-			"name": "Normal Silent Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Silent (normal)",
+			"name": "Rod of Metamagic, Silent (normal)",
+			"searchable_name": "Normal Silent Rod of Metamagic",
 			"file": "magicrodsdisplay191a.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3609,8 +3609,8 @@
 			"copyof": "Rod of Metamagic, Silent (lesser)"
 		},
 		{
-			"name": "Normal Stable Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Stable (normal)",
+			"name": "Rod of Metamagic, Stable (normal)",
+			"searchable_name": "Normal Stable Rod of Metamagic",
 			"file": "magicrodsdisplayb10f.html",
 			"sources": [ "Wardens of the Reborn Forge" ],
 			"cost": 11000,
@@ -3621,8 +3621,8 @@
 			"copyof": "Rod of Metamagic, Stable (lesser)"
 		},
 		{
-			"name": "Normal Toppling Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Toppling (normal)",
+			"name": "Rod of Metamagic, Toppling (normal)",
+			"searchable_name": "Normal Toppling Rod of Metamagic",
 			"file": "magicrodsdisplay872a.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 11000,
@@ -3633,8 +3633,8 @@
 			"copyof": "Rod of Metamagic, Toppling (lesser)"
 		},
 		{
-			"name": "Normal Tumultuous Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Tumultuous (normal)",
+			"name": "Rod of Metamagic, Tumultuous (normal)",
+			"searchable_name": "Normal Tumultuous Rod of Metamagic",
 			"file": "magicrodsdisplayf865.html",
 			"sources": [ "Planar Adventures" ],
 			"cost": 11000,
@@ -3645,8 +3645,8 @@
 			"copyof": "Rod of Metamagic, Tumultuous (lesser)"
 		},
 		{
-			"name": "Greater Eclipsed Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Eclipsed (greater)",
+			"name": "Rod of Metamagic, Eclipsed (greater)",
+			"searchable_name": "Greater Eclipsed Rod of Metamagic",
 			"file": "magicrodsdisplaya1d3.html",
 			"sources": [ "Blood of Shadows" ],
 			"cost": 12250,
@@ -3657,8 +3657,8 @@
 			"copyof": "Rod of Metamagic, Eclipsed (lesser)"
 		},
 		{
-			"name": "Greater Merciful Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Merciful (greater)",
+			"name": "Rod of Metamagic, Merciful (greater)",
+			"searchable_name": "Greater Merciful Rod of Metamagic",
 			"file": "magicrodsdisplay330b.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3672,8 +3672,8 @@
 			"copyof": "Rod of Metamagic, Merciful (lesser)"
 		},
 		{
-			"name": "Greater Murky Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Murky (greater)",
+			"name": "Rod of Metamagic, Murky (greater)",
+			"searchable_name": "Greater Murky Rod of Metamagic",
 			"file": "magicrodsdisplay9656.html",
 			"sources": [ "Aquatic Adventures" ],
 			"cost": 12250,
@@ -3684,8 +3684,8 @@
 			"copyof": "Rod of Metamagic, Murky (lesser)"
 		},
 		{
-			"name": "Greater Steam Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Steam (greater)",
+			"name": "Rod of Metamagic, Steam (greater)",
+			"searchable_name": "Greater Steam Rod of Metamagic",
 			"file": "magicrodsdisplay530f.html",
 			"sources": [ "Aquatic Adventures" ],
 			"cost": 12250,
@@ -3696,8 +3696,8 @@
 			"copyof": "Rod of Metamagic, Steam (lesser)"
 		},
 		{
-			"name": "Lesser Dazing Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Dazing (lesser)",
+			"name": "Rod of Metamagic, Dazing (lesser)",
+			"searchable_name": "Lesser Dazing Rod of Metamagic",
 			"file": "magicrodsdisplay1944.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3721,8 +3721,8 @@
 			"construction": "**Requirements** Craft Rod, Dazing Spell; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
 		},
 		{
-			"name": "Lesser Echoing Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Echoing (lesser)",
+			"name": "Rod of Metamagic, Echoing (lesser)",
+			"searchable_name": "Lesser Echoing Rod of Metamagic",
 			"file": "magicrodsdisplay1f73.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 14000,
@@ -3743,8 +3743,8 @@
 			"construction": "**Requirements** Craft Rod, Echoing Spell; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
 		},
 		{
-			"name": "Lesser Familiar Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Familiar (lesser)",
+			"name": "Rod of Metamagic, Familiar (lesser)",
+			"searchable_name": "Lesser Familiar Rod of Metamagic",
 			"file": "magicrodsdisplay5cfb.html",
 			"sources": [ "Animal Archive" ],
 			"cost": 14000,
@@ -3765,8 +3765,8 @@
 			"construction": "**Requirements** Craft Rod, Familiar Spell; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
 		},
 		{
-			"name": "Lesser Maximize Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Maximize (lesser)",
+			"name": "Rod of Metamagic, Maximize (lesser)",
+			"searchable_name": "Lesser Maximize Rod of Metamagic",
 			"file": "magicrodsdisplay722b.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3790,8 +3790,8 @@
 			"construction": "**Requirements** Craft Rod, Maximize Spell; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
 		},
 		{
-			"name": "Lesser Widen Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Widen (lesser)",
+			"name": "Rod of Metamagic, Widen (lesser)",
+			"searchable_name": "Lesser Widen Rod of Metamagic",
 			"file": "magicrodsdisplay406c.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 14000,
@@ -3812,8 +3812,8 @@
 			"construction": "**Requirements** Craft Rod, Widen Spell; **Cost** 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)"
 		},
 		{
-			"name": "Greater Apocalyptic Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Apocalyptic (greater)",
+			"name": "Rod of Metamagic, Apocalyptic (greater)",
+			"searchable_name": "Greater Apocalyptic Rod of Metamagic",
 			"file": "magicrodsdisplay6d06.html",
 			"sources": [ "Planar Adventures" ],
 			"cost": 24500,
@@ -3824,8 +3824,8 @@
 			"copyof": "Rod of Metamagic, Apocalyptic (lesser)"
 		},
 		{
-			"name": "Greater Authoritative Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Authoritative (greater)",
+			"name": "Rod of Metamagic, Authoritative (greater)",
+			"searchable_name": "Greater Authoritative Rod of Metamagic",
 			"file": "magicrodsdisplayad5d.html",
 			"sources": [ "Planar Adventures" ],
 			"cost": 24500,
@@ -3836,8 +3836,8 @@
 			"copyof": "Rod of Metamagic, Authoritative (lesser)"
 		},
 		{
-			"name": "Greater Blissful Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Blissful (greater)",
+			"name": "Rod of Metamagic, Blissful (greater)",
+			"searchable_name": "Greater Blissful Rod of Metamagic",
 			"file": "magicrodsdisplayb59a.html",
 			"sources": [ "Planar Adventures" ],
 			"cost": 24500,
@@ -3848,8 +3848,8 @@
 			"copyof": "Rod of Metamagic, Blissful (lesser)"
 		},
 		{
-			"name": "Greater Bouncing Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Bouncing (greater)",
+			"name": "Rod of Metamagic, Bouncing (greater)",
+			"searchable_name": "Greater Bouncing Rod of Metamagic",
 			"file": "magicrodsdisplay15bb.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3863,8 +3863,8 @@
 			"copyof": "Rod of Metamagic, Bouncing (lesser)"
 		},
 		{
-			"name": "Greater Crypt Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Crypt (greater)",
+			"name": "Rod of Metamagic, Crypt (greater)",
+			"searchable_name": "Greater Crypt Rod of Metamagic",
 			"file": "magicrodsdisplayd6d9.html",
 			"sources": [ "Planar Adventures" ],
 			"cost": 24500,
@@ -3875,8 +3875,8 @@
 			"copyof": "Rod of Metamagic, Crypt (lesser)"
 		},
 		{
-			"name": "Greater Disruptive Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Disruptive (greater)",
+			"name": "Rod of Metamagic, Disruptive (greater)",
+			"searchable_name": "Greater Disruptive Rod of Metamagic",
 			"file": "magicrodsdisplay919a.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3890,8 +3890,8 @@
 			"copyof": "Rod of Metamagic, Disruptive (lesser)"
 		},
 		{
-			"name": "Greater Ectoplasmic Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Ectoplasmic (greater)",
+			"name": "Rod of Metamagic, Ectoplasmic (greater)",
+			"searchable_name": "Greater Ectoplasmic Rod of Metamagic",
 			"file": "magicrodsdisplay6987.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3905,8 +3905,8 @@
 			"copyof": "Rod of Metamagic, Ectoplasmic (lesser)"
 		},
 		{
-			"name": "Greater Elemental Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Elemental (greater)",
+			"name": "Rod of Metamagic, Elemental (greater)",
+			"searchable_name": "Greater Elemental Rod of Metamagic",
 			"file": "magicrodsdisplay52fa.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3920,8 +3920,8 @@
 			"copyof": "Rod of Metamagic, Elemental (lesser)"
 		},
 		{
-			"name": "Greater Enlarge Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Enlarge (greater)",
+			"name": "Rod of Metamagic, Enlarge (greater)",
+			"searchable_name": "Greater Enlarge Rod of Metamagic",
 			"file": "magicrodsdisplay85b6.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3935,8 +3935,8 @@
 			"copyof": "Rod of Metamagic, Enlarge (lesser)"
 		},
 		{
-			"name": "Greater Extend Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Extend (greater)",
+			"name": "Rod of Metamagic, Extend (greater)",
+			"searchable_name": "Greater Extend Rod of Metamagic",
 			"file": "magicrodsdisplaydea8.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3950,8 +3950,8 @@
 			"copyof": "Rod of Metamagic, Extend (lesser)"
 		},
 		{
-			"name": "Greater Flaring Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Flaring (greater)",
+			"name": "Rod of Metamagic, Flaring (greater)",
+			"searchable_name": "Greater Flaring Rod of Metamagic",
 			"file": "magicrodsdisplayfc0b.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 24500,
@@ -3962,8 +3962,8 @@
 			"copyof": "Rod of Metamagic, Flaring (lesser)"
 		},
 		{
-			"name": "Greater Focused Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Focused (greater)",
+			"name": "Rod of Metamagic, Focused (greater)",
+			"searchable_name": "Greater Focused Rod of Metamagic",
 			"file": "magicrodsdisplay4d52.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3977,8 +3977,8 @@
 			"copyof": "Rod of Metamagic, Focused (lesser)"
 		},
 		{
-			"name": "Greater Furious Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Furious (greater)",
+			"name": "Rod of Metamagic, Furious (greater)",
+			"searchable_name": "Greater Furious Rod of Metamagic",
 			"file": "magicrodsdisplay7385.html",
 			"sources": [ "Occult Adventures" ],
 			"cost": 24500,
@@ -3989,8 +3989,8 @@
 			"copyof": "Rod of Metamagic, Furious (lesser)"
 		},
 		{
-			"name": "Greater Intensified Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Intensified (greater)",
+			"name": "Rod of Metamagic, Intensified (greater)",
+			"searchable_name": "Greater Intensified Rod of Metamagic",
 			"file": "magicrodsdisplay3dea.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -4004,8 +4004,8 @@
 			"copyof": "Rod of Metamagic, Intensified (lesser)"
 		},
 		{
-			"name": "Greater Lingering Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Lingering (greater)",
+			"name": "Rod of Metamagic, Lingering (greater)",
+			"searchable_name": "Greater Lingering Rod of Metamagic",
 			"file": "magicrodsdisplay6f24.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -4019,8 +4019,8 @@
 			"copyof": "Rod of Metamagic, Lingering (lesser)"
 		},
 		{
-			"name": "Greater Logical Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Logical (greater)",
+			"name": "Rod of Metamagic, Logical (greater)",
+			"searchable_name": "Greater Logical Rod of Metamagic",
 			"file": "magicrodsdisplayd303.html",
 			"sources": [ "Occult Adventures" ],
 			"cost": 24500,
@@ -4031,8 +4031,8 @@
 			"copyof": "Rod of Metamagic, Logical (lesser)"
 		},
 		{
-			"name": "Greater Piercing Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Piercing (greater)",
+			"name": "Rod of Metamagic, Piercing (greater)",
+			"searchable_name": "Greater Piercing Rod of Metamagic",
 			"file": "magicrodsdisplayc07d.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 24500,
@@ -4043,8 +4043,8 @@
 			"copyof": "Rod of Metamagic, Piercing (lesser)"
 		},
 		{
-			"name": "Greater Reach Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Reach (greater)",
+			"name": "Rod of Metamagic, Reach (greater)",
+			"searchable_name": "Greater Reach Rod of Metamagic",
 			"file": "magicrodsdisplay54e9.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -4058,8 +4058,8 @@
 			"copyof": "Rod of Metamagic, Reach (lesser)"
 		},
 		{
-			"name": "Greater Rime Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Rime (greater)",
+			"name": "Rod of Metamagic, Rime (greater)",
+			"searchable_name": "Greater Rime Rod of Metamagic",
 			"file": "magicrodsdisplay6b36.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 24500,
@@ -4070,8 +4070,8 @@
 			"copyof": "Rod of Metamagic, Rime (lesser)"
 		},
 		{
-			"name": "Greater Scarring Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Scarring (greater)",
+			"name": "Rod of Metamagic, Scarring (greater)",
+			"searchable_name": "Greater Scarring Rod of Metamagic",
 			"file": "magicrodsdisplayadaa.html",
 			"sources": [ "Occult Adventures" ],
 			"cost": 24500,
@@ -4082,8 +4082,8 @@
 			"copyof": "Rod of Metamagic, Scarring (lesser)"
 		},
 		{
-			"name": "Greater Selective Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Selective (greater)",
+			"name": "Rod of Metamagic, Selective (greater)",
+			"searchable_name": "Greater Selective Rod of Metamagic",
 			"file": "magicrodsdisplayc214.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -4097,8 +4097,8 @@
 			"copyof": "Rod of Metamagic, Selective (lesser)"
 		},
 		{
-			"name": "Greater Silent Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Silent (greater)",
+			"name": "Rod of Metamagic, Silent (greater)",
+			"searchable_name": "Greater Silent Rod of Metamagic",
 			"file": "magicrodsdisplay108d.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -4112,8 +4112,8 @@
 			"copyof": "Rod of Metamagic, Silent (lesser)"
 		},
 		{
-			"name": "Greater Stable Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Stable (greater)",
+			"name": "Rod of Metamagic, Stable (greater)",
+			"searchable_name": "Greater Stable Rod of Metamagic",
 			"file": "magicrodsdisplay9c32.html",
 			"sources": [ "Wardens of the Reborn Forge" ],
 			"cost": 24500,
@@ -4124,8 +4124,8 @@
 			"copyof": "Rod of Metamagic, Stable (lesser)"
 		},
 		{
-			"name": "Greater Toppling Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Toppling (greater)",
+			"name": "Rod of Metamagic, Toppling (greater)",
+			"searchable_name": "Greater Toppling Rod of Metamagic",
 			"file": "magicrodsdisplay75b5.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 24500,
@@ -4136,8 +4136,8 @@
 			"copyof": "Rod of Metamagic, Toppling (lesser)"
 		},
 		{
-			"name": "Greater Tumultuous Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Tumultuous (greater)",
+			"name": "Rod of Metamagic, Tumultuous (greater)",
+			"searchable_name": "Greater Tumultuous Rod of Metamagic",
 			"file": "magicrodsdisplayf1f3.html",
 			"sources": [ "Planar Adventures" ],
 			"cost": 24500,
@@ -4148,8 +4148,8 @@
 			"copyof": "Rod of Metamagic, Tumultuous (lesser)"
 		},
 		{
-			"name": "Normal Burning Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Burning (normal)",
+			"name": "Rod of Metamagic, Burning (normal)",
+			"searchable_name": "Normal Burning Rod of Metamagic",
 			"file": "magicrodsdisplay90fd.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 32500,
@@ -4160,8 +4160,8 @@
 			"copyof": "Rod of Metamagic, Burning (lesser)"
 		},
 		{
-			"name": "Normal Concussive Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Concussive (normal)",
+			"name": "Rod of Metamagic, Concussive (normal)",
+			"searchable_name": "Normal Concussive Rod of Metamagic",
 			"file": "magicrodsdisplayc3a5.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 32500,
@@ -4172,8 +4172,8 @@
 			"copyof": "Rod of Metamagic, Concussive (lesser)"
 		},
 		{
-			"name": "Normal Empower Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Empower (normal)",
+			"name": "Rod of Metamagic, Empower (normal)",
+			"searchable_name": "Normal Empower Rod of Metamagic",
 			"file": "magicrodsdisplay1620.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -4187,8 +4187,8 @@
 			"copyof": "Rod of Metamagic, Empower (lesser)"
 		},
 		{
-			"name": "Normal Fearsome Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Fearsome (normal)",
+			"name": "Rod of Metamagic, Fearsome (normal)",
+			"searchable_name": "Normal Fearsome Rod of Metamagic",
 			"file": "magicrodsdisplay32b6.html",
 			"sources": [ "Occult Adventures" ],
 			"cost": 32500,
@@ -4199,8 +4199,8 @@
 			"copyof": "Rod of Metamagic, Fearsome (lesser)"
 		},
 		{
-			"name": "Normal Persistent Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Persistent (normal)",
+			"name": "Rod of Metamagic, Persistent (normal)",
+			"searchable_name": "Normal Persistent Rod of Metamagic",
 			"file": "magicrodsdisplayff7a.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -4214,8 +4214,8 @@
 			"copyof": "Rod of Metamagic, Persistent (lesser)"
 		},
 		{
-			"name": "Normal Sickening Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Sickening (normal)",
+			"name": "Rod of Metamagic, Sickening (normal)",
+			"searchable_name": "Normal Sickening Rod of Metamagic",
 			"file": "magicrodsdisplay0d81.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -4229,8 +4229,8 @@
 			"copyof": "Rod of Metamagic, Sickening (lesser)"
 		},
 		{
-			"name": "Normal Snuffing Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Snuffing (normal)",
+			"name": "Rod of Metamagic, Snuffing (normal)",
+			"searchable_name": "Normal Snuffing Rod of Metamagic",
 			"file": "magicrodsdisplay641d.html",
 			"sources": [ "Blood of Shadows" ],
 			"cost": 32500,
@@ -4241,8 +4241,8 @@
 			"copyof": "Rod of Metamagic, Snuffing (lesser)"
 		},
 		{
-			"name": "Normal Stygian Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Stygian (normal)",
+			"name": "Rod of Metamagic, Stygian (normal)",
+			"searchable_name": "Normal Stygian Rod of Metamagic",
 			"file": "magicrodsdisplay493e.html",
 			"sources": [ "Planar Adventures" ],
 			"cost": 32500,
@@ -4253,8 +4253,8 @@
 			"copyof": "Rod of Metamagic, Stygian (lesser)"
 		},
 		{
-			"name": "Normal Thanatopic Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Thanatopic (normal)",
+			"name": "Rod of Metamagic, Thanatopic (normal)",
+			"searchable_name": "Normal Thanatopic Rod of Metamagic",
 			"file": "magicrodsdisplay4298.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 32500,
@@ -4265,8 +4265,8 @@
 			"copyof": "Rod of Metamagic, Thanatopic (lesser)"
 		},
 		{
-			"name": "Normal Threnodic Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Threnodic (normal)",
+			"name": "Rod of Metamagic, Threnodic (normal)",
+			"searchable_name": "Normal Threnodic Rod of Metamagic",
 			"file": "magicrodsdisplay9f2d.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 32500,
@@ -4277,8 +4277,8 @@
 			"copyof": "Rod of Metamagic, Threnodic (lesser)"
 		},
 		{
-			"name": "Normal Thundering Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Thundering (normal)",
+			"name": "Rod of Metamagic, Thundering (normal)",
+			"searchable_name": "Normal Thundering Rod of Metamagic",
 			"file": "magicrodsdisplayea23.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -4292,8 +4292,8 @@
 			"copyof": "Rod of Metamagic, Thundering (lesser)"
 		},
 		{
-			"name": "Normal Traumatic Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Traumatic (normal)",
+			"name": "Rod of Metamagic, Traumatic (normal)",
+			"searchable_name": "Normal Traumatic Rod of Metamagic",
 			"file": "magicrodsdisplay70c0.html",
 			"sources": [ "Occult Adventures" ],
 			"cost": 32500,
@@ -4304,8 +4304,8 @@
 			"copyof": "Rod of Metamagic, Traumatic (lesser)"
 		},
 		{
-			"name": "Lesser Quicken Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Quicken (lesser)",
+			"name": "Rod of Metamagic, Quicken (lesser)",
+			"searchable_name": "Lesser Quicken Rod of Metamagic",
 			"file": "magicrodsdisplay3d6e.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -4329,8 +4329,8 @@
 			"construction": "**Requirements** Craft Rod, Quicken Spell; **Cost** 17,500 gp (lesser), 37,750 gp (normal), 85,000 gp (greater)"
 		},
 		{
-			"name": "Normal Dazing Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Dazing (normal)",
+			"name": "Rod of Metamagic, Dazing (normal)",
+			"searchable_name": "Normal Dazing Rod of Metamagic",
 			"file": "magicrodsdisplayaf70.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -4344,8 +4344,8 @@
 			"copyof": "Rod of Metamagic, Dazing (lesser)"
 		},
 		{
-			"name": "Normal Echoing Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Echoing (normal)",
+			"name": "Rod of Metamagic, Echoing (normal)",
+			"searchable_name": "Normal Echoing Rod of Metamagic",
 			"file": "magicrodsdisplayb4f6.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 54000,
@@ -4356,8 +4356,8 @@
 			"copyof": "Rod of Metamagic, Echoing (lesser)"
 		},
 		{
-			"name": "Normal Familiar Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Familiar (normal)",
+			"name": "Rod of Metamagic, Familiar (normal)",
+			"searchable_name": "Normal Familiar Rod of Metamagic",
 			"file": "magicrodsdisplay9bbb.html",
 			"sources": [ "Animal Archive" ],
 			"cost": 54000,
@@ -4368,8 +4368,8 @@
 			"copyof": "Rod of Metamagic, Familiar (lesser)"
 		},
 		{
-			"name": "Normal Maximize Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Maximize (normal)",
+			"name": "Rod of Metamagic, Maximize (normal)",
+			"searchable_name": "Normal Maximize Rod of Metamagic",
 			"file": "magicrodsdisplay21a5.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -4383,8 +4383,8 @@
 			"copyof": "Rod of Metamagic, Maximize (lesser)"
 		},
 		{
-			"name": "Normal Widen Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Widen (normal)",
+			"name": "Rod of Metamagic, Widen (normal)",
+			"searchable_name": "Normal Widen Rod of Metamagic",
 			"file": "magicrodsdisplayaab9.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 54000,
@@ -4395,8 +4395,8 @@
 			"copyof": "Rod of Metamagic, Widen (lesser)"
 		},
 		{
-			"name": "Greater Burning Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Burning (greater)",
+			"name": "Rod of Metamagic, Burning (greater)",
+			"searchable_name": "Greater Burning Rod of Metamagic",
 			"file": "magicrodsdisplay9060.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 73000,
@@ -4407,8 +4407,8 @@
 			"copyof": "Rod of Metamagic, Burning (lesser)"
 		},
 		{
-			"name": "Greater Concussive Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Concussive (greater)",
+			"name": "Rod of Metamagic, Concussive (greater)",
+			"searchable_name": "Greater Concussive Rod of Metamagic",
 			"file": "magicrodsdisplay4746.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 73000,
@@ -4419,8 +4419,8 @@
 			"copyof": "Rod of Metamagic, Concussive (lesser)"
 		},
 		{
-			"name": "Greater Empower Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Empower (greater)",
+			"name": "Rod of Metamagic, Empower (greater)",
+			"searchable_name": "Greater Empower Rod of Metamagic",
 			"file": "magicrodsdisplay19fd.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -4434,8 +4434,8 @@
 			"copyof": "Rod of Metamagic, Empower (lesser)"
 		},
 		{
-			"name": "Greater Fearsome Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Fearsome (greater)",
+			"name": "Rod of Metamagic, Fearsome (greater)",
+			"searchable_name": "Greater Fearsome Rod of Metamagic",
 			"file": "magicrodsdisplay531e.html",
 			"sources": [ "Occult Adventures" ],
 			"cost": 73000,
@@ -4446,8 +4446,8 @@
 			"copyof": "Rod of Metamagic, Fearsome (lesser)"
 		},
 		{
-			"name": "Greater Persistent Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Persistent (greater)",
+			"name": "Rod of Metamagic, Persistent (greater)",
+			"searchable_name": "Greater Persistent Rod of Metamagic",
 			"file": "magicrodsdisplay9508.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -4461,8 +4461,8 @@
 			"copyof": "Rod of Metamagic, Persistent (lesser)"
 		},
 		{
-			"name": "Greater Sickening Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Sickening (greater)",
+			"name": "Rod of Metamagic, Sickening (greater)",
+			"searchable_name": "Greater Sickening Rod of Metamagic",
 			"file": "magicrodsdisplay2692.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -4476,8 +4476,8 @@
 			"copyof": "Rod of Metamagic, Sickening (lesser)"
 		},
 		{
-			"name": "Greater Snuffing Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Snuffing (greater)",
+			"name": "Rod of Metamagic, Snuffing (greater)",
+			"searchable_name": "Greater Snuffing Rod of Metamagic",
 			"file": "magicrodsdisplay0f41.html",
 			"sources": [ "Blood of Shadows" ],
 			"cost": 73000,
@@ -4488,8 +4488,8 @@
 			"copyof": "Rod of Metamagic, Snuffing (lesser)"
 		},
 		{
-			"name": "Greater Stygian Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Stygian (greater)",
+			"name": "Rod of Metamagic, Stygian (greater)",
+			"searchable_name": "Greater Stygian Rod of Metamagic",
 			"file": "magicrodsdisplayeb52.html",
 			"sources": [ "Planar Adventures" ],
 			"cost": 73000,
@@ -4500,8 +4500,8 @@
 			"copyof": "Rod of Metamagic, Stygian (lesser)"
 		},
 		{
-			"name": "Greater Thanatopic Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Thanatopic (greater)",
+			"name": "Rod of Metamagic, Thanatopic (greater)",
+			"searchable_name": "Greater Thanatopic Rod of Metamagic",
 			"file": "magicrodsdisplayf0f1.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 73000,
@@ -4512,8 +4512,8 @@
 			"copyof": "Rod of Metamagic, Thanatopic (lesser)"
 		},
 		{
-			"name": "Greater Threnodic Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Threnodic (greater)",
+			"name": "Rod of Metamagic, Threnodic (greater)",
+			"searchable_name": "Greater Threnodic Rod of Metamagic",
 			"file": "magicrodsdisplay98c6.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 73000,
@@ -4524,8 +4524,8 @@
 			"copyof": "Rod of Metamagic, Threnodic (lesser)"
 		},
 		{
-			"name": "Greater Thundering Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Thundering (greater)",
+			"name": "Rod of Metamagic, Thundering (greater)",
+			"searchable_name": "Greater Thundering Rod of Metamagic",
 			"file": "magicrodsdisplay9e58.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -4539,8 +4539,8 @@
 			"copyof": "Rod of Metamagic, Thundering (lesser)"
 		},
 		{
-			"name": "Greater Traumatic Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Traumatic (greater)",
+			"name": "Rod of Metamagic, Traumatic (greater)",
+			"searchable_name": "Greater Traumatic Rod of Metamagic",
 			"file": "magicrodsdisplaye868.html",
 			"sources": [ "Occult Adventures" ],
 			"cost": 73000,
@@ -4551,8 +4551,8 @@
 			"copyof": "Rod of Metamagic, Traumatic (lesser)"
 		},
 		{
-			"name": "Normal Quicken Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Quicken (normal)",
+			"name": "Rod of Metamagic, Quicken (normal)",
+			"searchable_name": "Normal Quicken Rod of Metamagic",
 			"file": "magicrodsdisplayfc16.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -4566,8 +4566,8 @@
 			"copyof": "Rod of Metamagic, Quicken (lesser)"
 		},
 		{
-			"name": "Greater Dazing Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Dazing (greater)",
+			"name": "Rod of Metamagic, Dazing (greater)",
+			"searchable_name": "Greater Dazing Rod of Metamagic",
 			"file": "magicrodsdisplayd4d7.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -4581,8 +4581,8 @@
 			"copyof": "Rod of Metamagic, Dazing (lesser)"
 		},
 		{
-			"name": "Greater Echoing Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Echoing (greater)",
+			"name": "Rod of Metamagic, Echoing (greater)",
+			"searchable_name": "Greater Echoing Rod of Metamagic",
 			"file": "magicrodsdisplay7b21.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 121500,
@@ -4593,8 +4593,8 @@
 			"copyof": "Rod of Metamagic, Echoing (lesser)"
 		},
 		{
-			"name": "Greater Familiar Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Familiar (greater)",
+			"name": "Rod of Metamagic, Familiar (greater)",
+			"searchable_name": "Greater Familiar Rod of Metamagic",
 			"file": "magicrodsdisplaydbcb.html",
 			"sources": [ "Animal Archive" ],
 			"cost": 121500,
@@ -4605,8 +4605,8 @@
 			"copyof": "Rod of Metamagic, Familiar (lesser)"
 		},
 		{
-			"name": "Greater Maximize Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Maximize (greater)",
+			"name": "Rod of Metamagic, Maximize (greater)",
+			"searchable_name": "Greater Maximize Rod of Metamagic",
 			"file": "magicrodsdisplaye76a.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -4620,8 +4620,8 @@
 			"copyof": "Rod of Metamagic, Maximize (lesser)"
 		},
 		{
-			"name": "Greater Widen Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Widen (greater)",
+			"name": "Rod of Metamagic, Widen (greater)",
+			"searchable_name": "Greater Widen Rod of Metamagic",
 			"file": "magicrodsdisplay0bdf.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 121500,
@@ -4632,8 +4632,8 @@
 			"copyof": "Rod of Metamagic, Widen (lesser)"
 		},
 		{
-			"name": "Greater Quicken Rod of Metamagic",
-			"display_name": "Rod of Metamagic, Quicken (greater)",
+			"name": "Rod of Metamagic, Quicken (greater)",
+			"searchable_name": "Greater Quicken Rod of Metamagic",
 			"file": "magicrodsdisplay63ea.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -4647,8 +4647,8 @@
 			"copyof": "Rod of Metamagic, Quicken (lesser)"
 		},
 		{
-			"name": "Lesser Rod That Should Not Be",
-			"display_name": "Rod That Should Not Be (Lesser)",
+			"name": "Rod That Should Not Be (Lesser)",
+			"searchable_name": "Lesser Rod That Should Not Be",
 			"file": "magicintelligentdisplaye7e2.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 12000,
@@ -4678,8 +4678,8 @@
 			"construction": "summon monster III (Lesser), summon monster V (Greater); **Price** 6,000 gp (Lesser), 20,000 gp (Greater)"
 		},
 		{
-			"name": "Greater Rod That Should Not Be",
-			"display_name": "Rod That Should Not Be (Greater)",
+			"name": "Rod That Should Not Be (Greater)",
+			"searchable_name": "Greater Rod That Should Not Be",
 			"file": "magicintelligentdisplayc16e.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 40000,

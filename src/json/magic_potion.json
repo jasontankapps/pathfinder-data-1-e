@@ -106,8 +106,8 @@
 			"construction": "**Requirements** Brew Potion, Profession (cook) 5 ranks, creator must have 5 ranks in Balance, Climb, and Swim; **Cost** 450 gp, 36 XP"
 		},
 		{
-			"name": "Sun Dried Lantern Lemons",
-			"display_name": "Sun-Dried Lantern Lemons",
+			"name": "Sun-Dried Lantern Lemons",
+			"searchable_name": "Sun Dried Lantern Lemons",
 			"file": "magicpotionsdisplayd0bb.html",
 			"sources": [ "Elves of Golarion" ],
 			"cost": 900,
@@ -129,8 +129,8 @@
 			"construction": "**Requirements** Brew Potion, Profession (cook) 5 ranks, daylight; **Cost** 450 gp, 36 XP"
 		},
 		{
-			"name": "Calming Oils",
-			"display_name": "Calming Oils (Gozreh)",
+			"name": "Calming Oils (Gozreh)",
+			"searchable_name": "Calming Oils",
 			"file": "magicpotionsdisplay3b24.html",
 			"sources": [ "Faiths of Balance" ],
 			"cost": 1000,

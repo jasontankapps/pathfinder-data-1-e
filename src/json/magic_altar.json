@@ -221,8 +221,8 @@
 			"construction": "**Requirements** Craft Wondrous Item, death ward, false life, magic circle against good, creator must worship Urgathoa; **Cost** 4,000 gp"
 		},
 		{
-			"name": "Altar of Zon Kuthon",
-			"display_name": "Altar of Zon-Kuthon",
+			"name": "Altar of Zon-Kuthon",
+			"searchable_name": "Altar of Zon Kuthon",
 			"file": "magicaltarsdisplayfb67.html",
 			"sources": [ "Inner Sea Gods" ],
 			"cost": 8000,

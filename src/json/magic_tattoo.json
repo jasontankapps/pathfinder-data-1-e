@@ -132,8 +132,8 @@
 			"construction": "**Requirements** Improved Dirty Trick, Inscribe Magical Tattoo, summon monster I; **Cost** 1,000 gp"
 		},
 		{
-			"name": "Lesser Caster's Tattoo",
-			"display_name": "Caster's Tattoo (Lesser)",
+			"name": "Caster's Tattoo (Lesser)",
+			"searchable_name": "Lesser Caster's Tattoo",
 			"file": "magictattoodisplay1fdc.html",
 			"sources": [ "Inner Sea Magic" ],
 			"cost": 6000,
@@ -307,8 +307,8 @@
 			"construction": "**Requirements** Inscribe Magical Tattoo, summon nature's ally I; **Cost** 9,000 gp"
 		},
 		{
-			"name": "Normal Caster's Tattoo",
-			"display_name": "Caster's Tattoo (Normal)",
+			"name": "Caster's Tattoo (Normal)",
+			"searchable_name": "Normal Caster's Tattoo",
 			"file": "magictattoodisplay0214.html",
 			"sources": [ "Inner Sea Magic" ],
 			"cost": 21000,
@@ -340,8 +340,8 @@
 			"construction": "**Requirements** Inscribe Magical Tattoo, protective penumbra; **Cost** 12,000 gp"
 		},
 		{
-			"name": "Greater Caster's Tattoo",
-			"display_name": "Caster's Tattoo (Greater)",
+			"name": "Caster's Tattoo (Greater)",
+			"searchable_name": "Greater Caster's Tattoo",
 			"file": "magictattoodisplay0908.html",
 			"sources": [ "Inner Sea Magic" ],
 			"cost": 48000,

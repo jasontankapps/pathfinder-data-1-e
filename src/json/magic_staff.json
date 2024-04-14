@@ -268,8 +268,8 @@
 			"construction": "**Requirements** Craft Staff, allegro, chord of shards, saving finale; **Cost** 7,400 gp"
 		},
 		{
-			"name": "Staff of the Master Necromancy",
-			"display_name": "Staff of the Master (Necromancy)",
+			"name": "Staff of the Master (Necromancy)",
+			"searchable_name": "Staff of the Master Necromancy",
 			"file": "magicstavesdisplay41fa.html",
 			"sources": [ "Conquest of Bloodsworn Vale" ],
 			"cost": 15200,
@@ -656,8 +656,8 @@
 			"construction": "**Requirements** Craft Staff, aura sight, protection from evil, summon nature's ally I, summon nature's ally II, zone of truth; **Cost** 12,400 gp"
 		},
 		{
-			"name": "Drazmorg's Staff of All Sight",
-			"display_name": "Drazmorg's Staff of All-Sight",
+			"name": "Drazmorg's Staff of All-Sight",
+			"searchable_name": "Drazmorg's Staff of All Sight",
 			"file": "magicstavesdisplaye85b.html",
 			"sources": [ "Hungry are the Dead" ],
 			"cost": 25000,
@@ -1068,8 +1068,8 @@
 			"construction": "**Requirements** Craft Staff, castigate, command, denounce, zone of truth; **Cost** 16,000 gp"
 		},
 		{
-			"name": "Many Eyed Staff",
-			"display_name": "Many-Eyed Staff",
+			"name": "Many-Eyed Staff",
+			"searchable_name": "Many Eyed Staff",
 			"file": "magicstavesdisplay91d0.html",
 			"sources": [ "Horror Adventures" ],
 			"cost": 32000,
@@ -1280,8 +1280,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, Craft Staff, force hook charge, force punch, kinetic reverberation, levitate; **Cost** 20,300 gp"
 		},
 		{
-			"name": "Staff of Spirit Talking",
-			"display_name": "Staff of Spirit-Talking",
+			"name": "Staff of Spirit-Talking",
+			"searchable_name": "Staff of Spirit Talking",
 			"file": "magicstavesdisplay76ef.html",
 			"sources": [ "Sargava, the Lost Colony" ],
 			"cost": 39050,

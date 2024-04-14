@@ -127,8 +127,8 @@
 			]
 		},
 		{
-			"name": "Mage Shot Acid",
-			"display_name": "Mage Shot (Acid)",
+			"name": "Mage Shot (Acid)",
+			"searchable_name": "Mage Shot Acid",
 			"file": "magicweaponsdisplay2c52.html",
 			"sources": [ "Villain Codex" ],
 			"cost": 178,
@@ -148,8 +148,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, acid arrow; **Price** 98 gp"
 		},
 		{
-			"name": "Mage Shot Cold",
-			"display_name": "Mage Shot (Cold)",
+			"name": "Mage Shot (Cold)",
+			"searchable_name": "Mage Shot Cold",
 			"file": "magicweaponsdisplay868d.html",
 			"sources": [ "Villain Codex" ],
 			"cost": 178,
@@ -169,8 +169,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, cone of cold; **Price** 98 gp"
 		},
 		{
-			"name": "Mage Shot Electricity",
-			"display_name": "Mage Shot (Electricity)",
+			"name": "Mage Shot (Electricity)",
+			"searchable_name": "Mage Shot Electricity",
 			"file": "magicweaponsdisplay016a.html",
 			"sources": [ "Villain Codex" ],
 			"cost": 178,
@@ -190,8 +190,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, lightning bolt; **Price** 98 gp"
 		},
 		{
-			"name": "Mage Shot Fire",
-			"display_name": "Mage Shot (Fire)",
+			"name": "Mage Shot (Fire)",
+			"searchable_name": "Mage Shot Fire",
 			"file": "magicweaponsdisplaye8a6-2.html",
 			"sources": [ "Villain Codex" ],
 			"cost": 178,
@@ -234,8 +234,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, stinking cloud; **Price** 98 gp"
 		},
 		{
-			"name": "Mephit Head Arrow",
-			"display_name": "Mephit-Head Arrow",
+			"name": "Mephit-Head Arrow",
+			"searchable_name": "Mephit Head Arrow",
 			"file": "magicweaponsdisplayc88b.html",
 			"sources": [ "Planar Adventures" ],
 			"cost": 200,
@@ -574,8 +574,8 @@
 			"construction": "**Requirements** [</a>, <a href=\"spelldisplayf436.html?ItemName=glue%20seal\">glue seal][unknown:</a>, <a href=\"spelldisplayf436.html?ItemName=glue%20seal\">glue seal); **Price** 250 gp"
 		},
 		{
-			"name": "Hushing Arrow normal",
-			"display_name": "Hushing Arrow (normal)",
+			"name": "Hushing Arrow (normal)",
+			"searchable_name": "Hushing Arrow normal",
 			"file": "magicweaponsdisplayf450.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 547,
@@ -677,8 +677,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, invisibility, magic aura, silence, vicarious view; **Price** 326 gp"
 		},
 		{
-			"name": "lesser Boulder Bullet",
-			"display_name": "Boulder Bullet (lesser)",
+			"name": "Boulder Bullet (lesser)",
+			"searchable_name": "lesser Boulder Bullet",
 			"file": "magicweaponsdisplay21f5-2.html",
 			"sources": [ "Ranged Tactics Toolbox" ],
 			"cost": 806,
@@ -721,8 +721,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, blink; **Price** 461 gp"
 		},
 		{
-			"name": "greater Hushing Arrow",
-			"display_name": "Hushing Arrow (greater)",
+			"name": "Hushing Arrow (greater)",
+			"searchable_name": "greater Hushing Arrow",
 			"file": "magicweaponsdisplayd50d.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 1047,
@@ -841,8 +841,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, acid arrow; **Price** 758 gp"
 		},
 		{
-			"name": "lesser Burrowing Bullet",
-			"display_name": "Burrowing Bullet (lesser)",
+			"name": "Burrowing Bullet (lesser)",
+			"searchable_name": "lesser Burrowing Bullet",
 			"file": "magicweaponsdisplay6645.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -907,8 +907,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, fireball; **Price** 1,052 gp, 60 XP"
 		},
 		{
-			"name": "Boulder Bullet normal",
-			"display_name": "Boulder Bullet (normal)",
+			"name": "Boulder Bullet (normal)",
+			"searchable_name": "Boulder Bullet normal",
 			"file": "magicweaponsdisplay4f5a.html",
 			"sources": [ "Ranged Tactics Toolbox" ],
 			"cost": 1966,
@@ -940,8 +940,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, locate creature; **Price** 1,000 gp"
 		},
 		{
-			"name": "Slaying Arrow normal",
-			"display_name": "Slaying Arrow (normal)",
+			"name": "Slaying Arrow (normal)",
+			"searchable_name": "Slaying Arrow normal",
 			"file": "magicweaponsdisplay5cad.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -1264,8 +1264,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, hydraulic push; **Price** 1,855 gp"
 		},
 		{
-			"name": "greater Burrowing Bullet",
-			"display_name": "Burrowing Bullet (greater)",
+			"name": "Burrowing Bullet (greater)",
+			"searchable_name": "greater Burrowing Bullet",
 			"file": "magicweaponsdisplaye8a6.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -1400,8 +1400,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, rage; **Price** 2,160 gp"
 		},
 		{
-			"name": "greater Boulder Bullet",
-			"display_name": "Boulder Bullet (greater)",
+			"name": "Boulder Bullet (greater)",
+			"searchable_name": "greater Boulder Bullet",
 			"file": "magicweaponsdisplay589e.html",
 			"sources": [ "Ranged Tactics Toolbox" ],
 			"cost": 4006,
@@ -1411,8 +1411,8 @@
 			"copyof": "Boulder Bullet (lesser)"
 		},
 		{
-			"name": "greater Slaying Arrow",
-			"display_name": "Slaying Arrow (greater)",
+			"name": "Slaying Arrow (greater)",
+			"searchable_name": "greater Slaying Arrow",
 			"file": "magicweaponsdisplay5759.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -1999,8 +1999,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, bless water, create water, magic weapon; **Price** 2,680 gp, 107 XP"
 		},
 		{
-			"name": "Machete of Clearing normal",
-			"display_name": "Machete of Clearing (normal)",
+			"name": "Machete of Clearing (normal)",
+			"searchable_name": "Machete of Clearing normal",
 			"file": "magicweaponsdisplay8c25.html",
 			"sources": [ "Sargava, the Lost Colony" ],
 			"cost": 5550,
@@ -2541,8 +2541,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, calcific touch; **Price** 4,305 gp"
 		},
 		{
-			"name": "Shadow Cleaver",
-			"display_name": "Shadow Cleaver (Elf)",
+			"name": "Shadow Cleaver (Elf)",
+			"searchable_name": "Shadow Cleaver",
 			"file": "magicweaponsdisplayb1ae.html",
 			"sources": [ "Inner Sea Races" ],
 			"cost": 8310,
@@ -2583,8 +2583,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, feather fall, longstrider; **Price** 4,311 gp"
 		},
 		{
-			"name": "lesser Leng Flail",
-			"display_name": "Leng Flail (lesser)",
+			"name": "Leng Flail (lesser)",
+			"searchable_name": "lesser Leng Flail",
 			"file": "magicweaponsdisplay037e.html",
 			"sources": [ "Melee Tactics Toolbox" ],
 			"cost": 8315,
@@ -2961,8 +2961,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, deeper darkness, identify; **Price** 4,750 gp"
 		},
 		{
-			"name": "Glaive Guisarme of the Vanguard",
-			"display_name": "Glaive-Guisarme of the Vanguard",
+			"name": "Glaive-Guisarme of the Vanguard",
+			"searchable_name": "Glaive Guisarme of the Vanguard",
 			"file": "magicweaponsdisplay7c44.html",
 			"sources": [ "Knights of the Inner Sea" ],
 			"cost": 9512,
@@ -3128,8 +3128,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, freedom of movement, touch of the sea; **Price** 5,105 gp"
 		},
 		{
-			"name": "Junkblade",
-			"display_name": "Junkblade (Goblin)",
+			"name": "Junkblade (Goblin)",
+			"searchable_name": "Junkblade",
 			"file": "magicweaponsdisplay50c1.html",
 			"sources": [ "Inner Sea Races" ],
 			"cost": 9928,
@@ -3298,8 +3298,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, unseen servant, creator must have the poison use ability; **Price** 5,302 gp"
 		},
 		{
-			"name": "En Nebi Blade of the Leopard",
-			"display_name": "En-Nebi, Blade of the Leopard",
+			"name": "En-Nebi, Blade of the Leopard",
+			"searchable_name": "En Nebi Blade of the Leopard",
 			"file": "magicweaponsdisplay3d20.html",
 			"sources": [ "Pathfinder #19: Howl of the Carrion King" ],
 			"cost": 10302,
@@ -3962,8 +3962,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, charm animal, hold animal; **Price** 5,908 gp"
 		},
 		{
-			"name": "Machete of Clearing animal or plant bane",
-			"display_name": "Machete of Clearing (animal or plant bane)",
+			"name": "Machete of Clearing (animal or plant bane)",
+			"searchable_name": "Machete of Clearing animal or plant bane",
 			"file": "magicweaponsdisplay7f15.html",
 			"sources": [ "Sargava, the Lost Colony" ],
 			"cost": 11550,
@@ -3994,8 +3994,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, cure light wounds, daze monster; **Price** 6,500 gp"
 		},
 		{
-			"name": "Triple Stinging Blade",
-			"display_name": "Triple-Stinging Blade (Calistria)",
+			"name": "Triple-Stinging Blade (Calistria)",
+			"searchable_name": "Triple Stinging Blade",
 			"file": "magicweaponsdisplay6549.html",
 			"sources": [ "Faiths of Balance" ],
 			"cost": 11702,
@@ -4475,8 +4475,8 @@
 			"construction": "**Requirements** [</a>, <a href=\"spelldisplayb54a.html?ItemName=cause%20fear\">cause fear][unknown:</a>, <a href=\"spelldisplayb54a.html?ItemName=cause%20fear\">cause fear), [repel vermin][unknown:repel vermin), [summon swarm][unknown:summon swarm); **Price** 6,750 gp"
 		},
 		{
-			"name": "Shadde Quah Spirit Bolas",
-			"display_name": "Shadde-Quah Spirit Bolas",
+			"name": "Shadde-Quah Spirit Bolas",
+			"searchable_name": "Shadde Quah Spirit Bolas",
 			"file": "magicweaponsdisplay9b90.html",
 			"sources": [ "Inner Sea Combat" ],
 			"cost": 13715,
@@ -4583,8 +4583,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, break enchantment; **Price** 7,300 gp"
 		},
 		{
-			"name": "Ten Ring Sword",
-			"display_name": "Ten-Ring Sword",
+			"name": "Ten-Ring Sword",
+			"searchable_name": "Ten Ring Sword",
 			"file": "magicweaponsdisplayf286.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 14315,
@@ -4807,8 +4807,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, lead blades, lightning bolt; **Price** 8,015 gp"
 		},
 		{
-			"name": "lesser Mace of Smiting",
-			"display_name": "Mace of Smiting (lesser)",
+			"name": "Mace of Smiting (lesser)",
+			"searchable_name": "lesser Mace of Smiting",
 			"file": "magicweaponsdisplay4573.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -4832,8 +4832,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, disintegrate; **Price** 9,512 gp (lesser), 39,312 gp (normal)"
 		},
 		{
-			"name": "Tsuruhashi the Silent Crane",
-			"display_name": "Tsuruhashi, the Silent Crane",
+			"name": "Tsuruhashi, the Silent Crane",
+			"searchable_name": "Tsuruhashi the Silent Crane",
 			"file": "magicweaponsdisplay3dfb.html",
 			"sources": [ "Pathfinder #54: The Empty Throne" ],
 			"cost": 16101,
@@ -5288,8 +5288,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, charm animals, speak with animals; **Price** 9,482 gp"
 		},
 		{
-			"name": "Treekeeper's Staff",
-			"display_name": "Treekeeper's Staff (Elf)",
+			"name": "Treekeeper's Staff (Elf)",
+			"searchable_name": "Treekeeper's Staff",
 			"file": "magicweaponsdisplayb24e.html",
 			"sources": [ "Inner Sea Races" ],
 			"cost": 18700,
@@ -5372,8 +5372,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, feast of ashes, lesser restoration; **Price** 9,801 gp"
 		},
 		{
-			"name": "Dinosaur Killer",
-			"display_name": "Dinosaur-Killer",
+			"name": "Dinosaur-Killer",
+			"searchable_name": "Dinosaur Killer",
 			"file": "magicweaponsdisplay7521.html",
 			"sources": [ "Melee Tactics Toolbox" ],
 			"cost": 19305,
@@ -5455,8 +5455,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, Mythic Crafter, dimension door, telekinesis; **Price** 9,902 gp"
 		},
 		{
-			"name": "Talon Sword normal",
-			"display_name": "Talon Sword (normal)",
+			"name": "Talon Sword (normal)",
+			"searchable_name": "Talon Sword normal",
 			"file": "magicweaponsdisplaycf2f.html",
 			"sources": [ "Andoran, Spirit of Liberty" ],
 			"cost": 19515,
@@ -5600,8 +5600,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, telekinesis; **Price** 20,301 gp"
 		},
 		{
-			"name": "Shields' Bane",
-			"display_name": "Shields' Bane (Ulfen)",
+			"name": "Shields' Bane (Ulfen)",
+			"searchable_name": "Shields' Bane",
 			"file": "magicweaponsdisplay0c59.html",
 			"sources": [ "Inner Sea Races" ],
 			"cost": 20310,
@@ -5682,8 +5682,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, blindness/deafness, stone shape; **Price** 28,300 gp"
 		},
 		{
-			"name": "Dueling Bokken",
-			"display_name": "Dueling Bokken (Tengu)",
+			"name": "Dueling Bokken (Tengu)",
+			"searchable_name": "Dueling Bokken",
 			"file": "magicweaponsdisplay5940.html",
 			"sources": [ "Inner Sea Races" ],
 			"cost": 20350,
@@ -5898,8 +5898,8 @@
 			"construction": "**Requirements** Combat Reflexes, Craft Magic Arms and Armor, cat's grace, fabricate, fireball, make whole; **Price** 11,070 gp"
 		},
 		{
-			"name": "Luck Blade 0 wishes",
-			"display_name": "Luck Blade (0 wishes)",
+			"name": "Luck Blade (0 wishes)",
+			"searchable_name": "Luck Blade 0 wishes",
 			"file": "magicweaponsdisplaye26c.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -6119,8 +6119,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, true strike; **Price** 11,187 gp"
 		},
 		{
-			"name": "Knight Captain's Lance",
-			"display_name": "Knight-Captain's Lance",
+			"name": "Knight-Captain's Lance",
+			"searchable_name": "Knight Captain's Lance",
 			"file": "magicweaponsdisplay7e14.html",
 			"sources": [ "Knights of the Inner Sea" ],
 			"cost": 22710,
@@ -6354,8 +6354,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, bleed, inflict critical wounds; **Price** 12,310 gp"
 		},
 		{
-			"name": "Emerald Eyed Blade",
-			"display_name": "Emerald-Eyed Blade",
+			"name": "Emerald-Eyed Blade",
+			"searchable_name": "Emerald Eyed Blade",
 			"file": "magicweaponsdisplay9a09.html",
 			"sources": [ "Merchant's Manifest" ],
 			"cost": 24315,
@@ -6396,8 +6396,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, Mythic Crafter, greater magic weapon, keen edge, telekinesis; **Price** 12,502 gp"
 		},
 		{
-			"name": "Frost Thunder Hammer",
-			"display_name": "Frost-Thunder Hammer",
+			"name": "Frost-Thunder Hammer",
+			"searchable_name": "Frost Thunder Hammer",
 			"file": "magicweaponsdisplay1eb6.html",
 			"sources": [ "Pathfinder #69: Maiden, Mother, Crone" ],
 			"cost": 24524,
@@ -6818,8 +6818,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, contagion; **Price** 14,065 gp, 1,100 XP"
 		},
 		{
-			"name": "Mount Splitting Pick",
-			"display_name": "Mount-Splitting Pick (Dwarf)",
+			"name": "Mount-Splitting Pick (Dwarf)",
+			"searchable_name": "Mount Splitting Pick",
 			"file": "magicweaponsdisplayebef.html",
 			"sources": [ "Inner Sea Races" ],
 			"cost": 28008,
@@ -6925,8 +6925,8 @@
 			"construction": "**Requirements** Craft Arms and Armor, chain of perdition, secret chest; **Price** 14,550 gp"
 		},
 		{
-			"name": "Nine Fold Spirit Sword",
-			"display_name": "Nine-Fold Spirit Sword",
+			"name": "Nine-Fold Spirit Sword",
+			"searchable_name": "Nine Fold Spirit Sword",
 			"file": "magicweaponsdisplayc664.html",
 			"sources": [ "Pathfinder #51: The Hungry Storm" ],
 			"cost": 28800,
@@ -7154,8 +7154,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, searing light, warp wood; **Price** 15,400 gp"
 		},
 		{
-			"name": "Pale Maiden 0 wishes",
-			"display_name": "Pale Maiden (0 wishes)",
+			"name": "Pale Maiden (0 wishes)",
+			"searchable_name": "Pale Maiden 0 wishes",
 			"file": "magicweaponsdisplayb7fb.html",
 			"sources": [ "Lost Treasures" ],
 			"cost": 32065,
@@ -7175,8 +7175,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, miracle or wish; **Price** 16,190 gp (0 wishes), 48,840 gp (1 wish), 81,490 gp (2 wishes), 114,140 gp (3 wishes)"
 		},
 		{
-			"name": "Mokele Mbembe Tail Whip",
-			"display_name": "Mokele-Mbembe Tail Whip",
+			"name": "Mokele-Mbembe Tail Whip",
+			"searchable_name": "Mokele Mbembe Tail Whip",
 			"file": "magicweaponsdisplay8017.html",
 			"sources": [ "Mystery Monsters Revisited" ],
 			"cost": 32301,
@@ -7260,8 +7260,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, animal growth, bull's strength; **Price** 16,310 gp"
 		},
 		{
-			"name": "Serpent Necked Flail",
-			"display_name": "Serpent-Necked Flail",
+			"name": "Serpent-Necked Flail",
+			"searchable_name": "Serpent Necked Flail",
 			"file": "magicweaponsdisplay1a73.html",
 			"sources": [ "Monster Codex" ],
 			"cost": 32315,
@@ -7281,8 +7281,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, haste; **Price** 16,165 gp"
 		},
 		{
-			"name": "Gentleman's Foil",
-			"display_name": "Gentleman's Foil (Taldan)",
+			"name": "Gentleman's Foil (Taldan)",
+			"searchable_name": "Gentleman's Foil",
 			"file": "magicweaponsdisplay77fd.html",
 			"sources": [ "Inner Sea Races" ],
 			"cost": 32320,
@@ -7507,8 +7507,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, call lightning, contagion; **Price** 17,400 gp"
 		},
 		{
-			"name": "Errani Kamaki",
-			"display_name": "Errani Kamaki (Gillmen)",
+			"name": "Errani Kamaki (Gillmen)",
+			"searchable_name": "Errani Kamaki",
 			"file": "magicweaponsdisplayd3ce.html",
 			"sources": [ "Inner Sea Races" ],
 			"cost": 35005,
@@ -7529,8 +7529,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, bleed, warp wood, creator must be a gillman; **Price** 17,655 gp"
 		},
 		{
-			"name": "Hunter's Mambele",
-			"display_name": "Hunter's Mambele (Mwangi)",
+			"name": "Hunter's Mambele (Mwangi)",
+			"searchable_name": "Hunter's Mambele",
 			"file": "magicweaponsdisplaye6ae.html",
 			"sources": [ "Inner Sea Races" ],
 			"cost": 35304,
@@ -7571,8 +7571,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, heal, plane shift; **Price** 17,812 gp"
 		},
 		{
-			"name": "Scalerazor",
-			"display_name": "Scalerazor (Azlanti)",
+			"name": "Scalerazor (Azlanti)",
+			"searchable_name": "Scalerazor",
 			"file": "magicweaponsdisplayf4ac.html",
 			"sources": [ "Inner Sea Races" ],
 			"cost": 35315,
@@ -7863,8 +7863,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, fear; **Price** 19,432 gp"
 		},
 		{
-			"name": "Talon Sword talonstrike",
-			"display_name": "Talon Sword (talonstrike)",
+			"name": "Talon Sword (talonstrike)",
+			"searchable_name": "Talon Sword talonstrike",
 			"file": "magicweaponsdisplaybcff.html",
 			"sources": [ "Andoran, Spirit of Liberty" ],
 			"cost": 38715,
@@ -8317,8 +8317,8 @@
 			"construction": "**Requirements** Craft Arms and Armor, knock, passwall; **Price** 25,312 gp"
 		},
 		{
-			"name": "greater Leng Flail",
-			"display_name": "Leng Flail (greater)",
+			"name": "Leng Flail (greater)",
+			"searchable_name": "greater Leng Flail",
 			"file": "magicweaponsdisplay4b1d.html",
 			"sources": [ "Melee Tactics Toolbox" ],
 			"cost": 50315,
@@ -8376,8 +8376,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, daylight, creator must be good; **Price** 25,335 gp"
 		},
 		{
-			"name": "Storval's Thunder",
-			"display_name": "Storval's Thunder (Shoanti)",
+			"name": "Storval's Thunder (Shoanti)",
+			"searchable_name": "Storval's Thunder",
 			"file": "magicweaponsdisplayf6e3.html",
 			"sources": [ "Inner Sea Races" ],
 			"cost": 50340,
@@ -8398,8 +8398,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, lightning bolt, sound burst, creator must be a Shoanti; **Price** 25,340 gp"
 		},
 		{
-			"name": "True Warrior's Blade",
-			"display_name": "True Warrior's Blade (Kellid)",
+			"name": "True Warrior's Blade (Kellid)",
+			"searchable_name": "True Warrior's Blade",
 			"file": "magicweaponsdisplay47be.html",
 			"sources": [ "Inner Sea Races" ],
 			"cost": 50350,
@@ -8502,8 +8502,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, contagion, summon monster VII; **Price** 26,218 gp"
 		},
 		{
-			"name": "Rythius the Kyton Scourge",
-			"display_name": "Rythius, the Kyton Scourge",
+			"name": "Rythius, the Kyton Scourge",
+			"searchable_name": "Rythius the Kyton Scourge",
 			"file": "magicweaponsdisplaya524.html",
 			"sources": [ "Champions of Purity" ],
 			"cost": 53000,
@@ -8773,8 +8773,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, creator must be a dwarf of at least 10th level; **Price** 30,312 gp"
 		},
 		{
-			"name": "Clever Sling Staff",
-			"display_name": "Clever Sling Staff (Halfling)",
+			"name": "Clever Sling Staff (Halfling)",
+			"searchable_name": "Clever Sling Staff",
 			"file": "magicweaponsdisplay2595.html",
 			"sources": [ "Inner Sea Races" ],
 			"cost": 60320,
@@ -8876,8 +8876,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, clairaudience/clairvoyance, greater invisibility, silence; **Price** 31,302 gp"
 		},
 		{
-			"name": "Luck Blade 1 wish",
-			"display_name": "Luck Blade (1 wish)",
+			"name": "Luck Blade (1 wish)",
+			"searchable_name": "Luck Blade 1 wish",
 			"file": "magicweaponsdisplayb0b8.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -9018,8 +9018,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, consecrate, holy smite, plane shift, creator must be good; **Price** 33,533 gp"
 		},
 		{
-			"name": "Karusetsu the Cutting Light",
-			"display_name": "Karusetsu, the Cutting Light",
+			"name": "Karusetsu, the Cutting Light",
+			"searchable_name": "Karusetsu the Cutting Light",
 			"file": "magicweaponsdisplay2a87-2.html",
 			"sources": [ "Pathfinder #54: The Empty Throne" ],
 			"cost": 67500,
@@ -9104,8 +9104,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, Mythic Crafter, antimagic field; **Price** 36,100 gp"
 		},
 		{
-			"name": "Pale Maiden 1 wish",
-			"display_name": "Pale Maiden (1 wish)",
+			"name": "Pale Maiden (1 wish)",
+			"searchable_name": "Pale Maiden 1 wish",
 			"file": "magicweaponsdisplayabfa.html",
 			"sources": [ "Lost Treasures" ],
 			"cost": 72365,
@@ -9155,8 +9155,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, circle of death, keen edge; **Price** 30,000 gp"
 		},
 		{
-			"name": "Mace of Smiting normal",
-			"display_name": "Mace of Smiting (normal)",
+			"name": "Mace of Smiting (normal)",
+			"searchable_name": "Mace of Smiting normal",
 			"file": "magicweaponsdisplay33eb.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -9189,8 +9189,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, cause fear, death knell, rage, sickening entanglement; **Price** 37,815 gp"
 		},
 		{
-			"name": "Blade of the Sword Saint",
-			"display_name": "Blade of the Sword-Saint",
+			"name": "Blade of the Sword-Saint",
+			"searchable_name": "Blade of the Sword Saint",
 			"file": "magicweaponsdisplay435d.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 75350,
@@ -9231,8 +9231,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, death knell, greater arcane sight, keen edge, limited wish; **Price** 37,815 gp"
 		},
 		{
-			"name": "Greater Murderer's Machete",
-			"display_name": "Murderer's Machete, Greater",
+			"name": "Murderer's Machete, Greater",
+			"searchable_name": "Greater Murderer's Machete",
 			"file": "magicweaponsdisplay2a6e.html",
 			"sources": [ "Horror Adventures" ],
 			"cost": 78310,
@@ -9379,8 +9379,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, bleed, summon monster I; **Price** 45,000 gp"
 		},
 		{
-			"name": "Ikarikurusai the Raging Cyclone",
-			"display_name": "Ikarikurusai, the Raging Cyclone",
+			"name": "Ikarikurusai, the Raging Cyclone",
+			"searchable_name": "Ikarikurusai the Raging Cyclone",
 			"file": "magicweaponsdisplaydda0.html",
 			"sources": [ "Pathfinder #54: The Empty Throne" ],
 			"cost": 90308,
@@ -9564,8 +9564,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, bull's strength, earthquake, giant form I, lead blades, shrink item; **Price** 49,320 gp"
 		},
 		{
-			"name": "Luck Blade 2 wishes",
-			"display_name": "Luck Blade (2 wishes)",
+			"name": "Luck Blade (2 wishes)",
+			"searchable_name": "Luck Blade 2 wishes",
 			"file": "magicweaponsdisplaye833.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -9620,8 +9620,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, call lightning, control weather, greater magic fang, vortex; **Price** 54,990 gp"
 		},
 		{
-			"name": "Pale Maiden 2 wishes",
-			"display_name": "Pale Maiden (2 wishes)",
+			"name": "Pale Maiden (2 wishes)",
+			"searchable_name": "Pale Maiden 2 wishes",
 			"file": "magicweaponsdisplaya223.html",
 			"sources": [ "Lost Treasures" ],
 			"cost": 112665,
@@ -9717,8 +9717,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, chill metal or ice storm; horrid wilting, keen edge; **Price** 64,300 gp"
 		},
 		{
-			"name": "Luck Blade 3 wishes",
-			"display_name": "Luck Blade (3 wishes)",
+			"name": "Luck Blade (3 wishes)",
+			"searchable_name": "Luck Blade 3 wishes",
 			"file": "magicweaponsdisplayb9f2.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -9795,8 +9795,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, Mythic Crafter, flame strike, gaseous form, instant summons, shield of faith; **Price** 75,815 gp"
 		},
 		{
-			"name": "Pale Maiden 3 wishes",
-			"display_name": "Pale Maiden (3 wishes)",
+			"name": "Pale Maiden (3 wishes)",
+			"searchable_name": "Pale Maiden 3 wishes",
 			"file": "magicweaponsdisplay5e11.html",
 			"sources": [ "Lost Treasures" ],
 			"cost": 152965,
@@ -10090,8 +10090,8 @@
 			"construction": "Craft Magic Arms and Armor, detect aberration, summon monster I; **Price** 24,435 gp"
 		},
 		{
-			"name": "Abat Ne the Blackstone Mace",
-			"display_name": "Abat-Ne, the Blackstone Mace",
+			"name": "Abat-Ne, the Blackstone Mace",
+			"searchable_name": "Abat Ne the Blackstone Mace",
 			"file": "magicintelligentdisplay698a.html",
 			"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 			"cost": 51005,
@@ -10303,8 +10303,8 @@
 			"construction": "Craft Arms and Armor, keen edge, animate object, the soul of a willing bard of at least 8th level; **Price** 500 gp"
 		},
 		{
-			"name": "Cursed Sword",
-			"display_name": "-2 Cursed Sword",
+			"name": "-2 Cursed Sword",
+			"searchable_name": "Cursed Sword",
 			"file": "magiccurseddisplaya3f6.html",
 			"sources": [
 				"Ultimate Equipment",

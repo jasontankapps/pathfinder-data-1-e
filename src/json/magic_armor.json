@@ -418,8 +418,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, endure elements, entangle, creator must be a druid; **Price** 2,275 gp"
 		},
 		{
-			"name": "Half Plate of the Dark Prince",
-			"display_name": "Half-Plate of the Dark Prince",
+			"name": "Half-Plate of the Dark Prince",
+			"searchable_name": "Half Plate of the Dark Prince",
 			"file": "magicarmordisplayb78c.html",
 			"sources": [ "Inner Sea Gods" ],
 			"cost": 3910,
@@ -476,8 +476,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, bleed, interrogation; **Price** 2,160 gp"
 		},
 		{
-			"name": "Forgefather's Half Plate",
-			"display_name": "Forgefather's Half-Plate",
+			"name": "Forgefather's Half-Plate",
+			"searchable_name": "Forgefather's Half Plate",
 			"file": "magicarmordisplayc462.html",
 			"sources": [ "Inner Sea Gods" ],
 			"cost": 4180,
@@ -767,8 +767,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, invisibility, silence, true strike; **Price** 2,800 gp"
 		},
 		{
-			"name": "All Seeing Armor",
-			"display_name": "All-Seeing Armor",
+			"name": "All-Seeing Armor",
+			"searchable_name": "All Seeing Armor",
 			"file": "magicarmordisplayc6e3.html",
 			"sources": [ "Inner Sea Gods" ],
 			"cost": 5570,
@@ -1036,8 +1036,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, alter self, invisibility; **Price** 4,535 gp"
 		},
 		{
-			"name": "Stone eater Armor",
-			"display_name": "Stone-eater Armor",
+			"name": "Stone-eater Armor",
+			"searchable_name": "Stone eater Armor",
 			"file": "magicarmordisplay0552.html",
 			"sources": [ "Armor Master's Handbook" ],
 			"cost": 8950,
@@ -1238,8 +1238,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, bear's endurance; **Price** 5,665 gp"
 		},
 		{
-			"name": "Gnome Scrap Armor",
-			"display_name": "Gnome Scrap Armor (Gnome)",
+			"name": "Gnome Scrap Armor (Gnome)",
+			"searchable_name": "Gnome Scrap Armor",
 			"file": "magicarmordisplay783a.html",
 			"sources": [ "Inner Sea Races" ],
 			"cost": 11175,
@@ -1482,8 +1482,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, instant summons; **Price** 7,650 gp"
 		},
 		{
-			"name": "Hallowed Chain",
-			"display_name": "Hallowed Chain (Varisian)",
+			"name": "Hallowed Chain (Varisian)",
+			"searchable_name": "Hallowed Chain",
 			"file": "magicarmordisplay9fa4.html",
 			"sources": [ "Inner Sea Races" ],
 			"cost": 12800,
@@ -1543,8 +1543,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, stoneskin; **Price** 7,160 gp"
 		},
 		{
-			"name": "Armor of Grim Triumph",
-			"display_name": "Armor of Grim Triumph (Orc)",
+			"name": "Armor of Grim Triumph (Orc)",
+			"searchable_name": "Armor of Grim Triumph",
 			"file": "magicarmordisplay27c0.html",
 			"sources": [ "Inner Sea Races" ],
 			"cost": 14300,
@@ -1648,8 +1648,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, rope trick; **Price** 9,700 gp"
 		},
 		{
-			"name": "Coat of Shells",
-			"display_name": "Coat of Shells (Gillmen, Merfolk)",
+			"name": "Coat of Shells (Gillmen, Merfolk)",
+			"searchable_name": "Coat of Shells",
 			"file": "magicarmordisplayea37.html",
 			"sources": [ "Inner Sea Races" ],
 			"cost": 15350,
@@ -2070,8 +2070,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, fear; **Price** 10,275 gp"
 		},
 		{
-			"name": "Do Maru of Broken Flesh",
-			"display_name": "Do-Maru of Broken Flesh",
+			"name": "Do-Maru of Broken Flesh",
+			"searchable_name": "Do Maru of Broken Flesh",
 			"file": "magicarmordisplay9e62.html",
 			"sources": [ "Pathfinder #52: Forest of Spirits" ],
 			"cost": 20550,
@@ -2285,8 +2285,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, prayer, sanctify armor; **Price** 16,900 gp"
 		},
 		{
-			"name": "Goblin Plate",
-			"display_name": "Goblin Plate (Goblin)",
+			"name": "Goblin Plate (Goblin)",
+			"searchable_name": "Goblin Plate",
 			"file": "magicarmordisplay4879.html",
 			"sources": [ "Inner Sea Races" ],
 			"cost": 23650,
@@ -2508,8 +2508,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, invigorate, rage, waves of fatigue; **Price** 13,030 gp"
 		},
 		{
-			"name": "Mail of Sly Steps",
-			"display_name": "Mail of Sly Steps (Halfling)",
+			"name": "Mail of Sly Steps (Halfling)",
+			"searchable_name": "Mail of Sly Steps",
 			"file": "magicarmordisplaya781.html",
 			"sources": [ "Inner Sea Races" ],
 			"cost": 25900,
@@ -2551,8 +2551,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, haste; **Price** 18,500 gp"
 		},
 		{
-			"name": "Panoply of the Fierani Knight",
-			"display_name": "Panoply of the Fierani Knight (Elf)",
+			"name": "Panoply of the Fierani Knight (Elf)",
+			"searchable_name": "Panoply of the Fierani Knight",
 			"file": "magicarmordisplay7abf.html",
 			"sources": [ "Inner Sea Races" ],
 			"cost": 26500,
@@ -2947,8 +2947,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, fire shield, fly; **Price** 18,890 gp"
 		},
 		{
-			"name": "Giant Hide Armor ogre",
-			"display_name": "Giant-Hide Armor (ogre)",
+			"name": "Giant-Hide Armor (ogre)",
+			"searchable_name": "Giant Hide Armor ogre",
 			"file": "magicarmordisplay146f.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -2991,8 +2991,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, form of the dragon I, freedom of movement, major curse; **Price** 22,300 gp"
 		},
 		{
-			"name": "Greater Hallowed Chain",
-			"display_name": "Hallowed Chain, Greater (Varisian)",
+			"name": "Hallowed Chain, Greater (Varisian)",
+			"searchable_name": "Greater Hallowed Chain",
 			"file": "magicarmordisplay0cfb.html",
 			"sources": [ "Inner Sea Races" ],
 			"cost": 43300,
@@ -3032,8 +3032,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, polymorph, resist fire; **Price** 22,215 gp"
 		},
 		{
-			"name": "Giant Hide Armor hill giant",
-			"display_name": "Giant-Hide Armor (hill giant)",
+			"name": "Giant-Hide Armor (hill giant)",
+			"searchable_name": "Giant Hide Armor hill giant",
 			"file": "magicarmordisplayd421.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3155,8 +3155,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, beast shape III; **Price** 29,115 gp"
 		},
 		{
-			"name": "Giant Hide Armor stone fire or frost giant",
-			"display_name": "Giant-Hide Armor (stone, fire, or frost giant)",
+			"name": "Giant-Hide Armor (stone, fire, or frost giant)",
+			"searchable_name": "Giant Hide Armor stone fire or frost giant",
 			"file": "magicarmordisplay3fc3.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3179,8 +3179,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, giant form I (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or giant form II (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
 		},
 		{
-			"name": "Giant Hide Armor troll",
-			"display_name": "Giant-Hide Armor (troll)",
+			"name": "Giant-Hide Armor (troll)",
+			"searchable_name": "Giant Hide Armor troll",
 			"file": "magicarmordisplay159d.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3284,8 +3284,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, sunburst; **Price** 32,400 gp"
 		},
 		{
-			"name": "O Yoroi of Imperial Rule",
-			"display_name": "O-Yoroi of Imperial Rule",
+			"name": "O-Yoroi of Imperial Rule",
+			"searchable_name": "O Yoroi of Imperial Rule",
 			"file": "magicarmordisplayfef8.html",
 			"sources": [ "Pathfinder #54: The Empty Throne" ],
 			"cost": 68400,
@@ -3304,8 +3304,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, clenched fist, disguise self; **Price** 42,550 gp"
 		},
 		{
-			"name": "Giant Hide Armor cloud giant",
-			"display_name": "Giant-Hide Armor (cloud giant)",
+			"name": "Giant-Hide Armor (cloud giant)",
+			"searchable_name": "Giant Hide Armor cloud giant",
 			"file": "magicarmordisplay3430.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3328,8 +3328,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, giant form I (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or giant form II (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
 		},
 		{
-			"name": "Giant Hide Armor storm giant",
-			"display_name": "Giant-Hide Armor (storm giant)",
+			"name": "Giant-Hide Armor (storm giant)",
+			"searchable_name": "Giant Hide Armor storm giant",
 			"file": "magicarmordisplayee25.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -3352,8 +3352,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, giant form I (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or giant form II (cloud giant or storm giant); **Price** 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)"
 		},
 		{
-			"name": "Daystar Half Plate",
-			"display_name": "Daystar Half-Plate",
+			"name": "Daystar Half-Plate",
+			"searchable_name": "Daystar Half Plate",
 			"file": "magicarmordisplay1b2c.html",
 			"sources": [
 				"Ultimate Equipment",
@@ -4051,8 +4051,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, daylight, light; **Price** 4,975 gp"
 		},
 		{
-			"name": "Greater Caster's Shield",
-			"display_name": "Caster's Shield, Greater",
+			"name": "Caster's Shield, Greater",
+			"searchable_name": "Greater Caster's Shield",
 			"file": "magicarmordisplay22e8.html",
 			"sources": [ "Ultimate Equipment" ],
 			"cost": 10153,
@@ -4096,8 +4096,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, cat's grace, shield; **Price** 5,155 gp"
 		},
 		{
-			"name": "Stalker's Fang",
-			"display_name": "Stalker's Fang (Shoanti)",
+			"name": "Stalker's Fang (Shoanti)",
+			"searchable_name": "Stalker's Fang",
 			"file": "magicarmordisplay2c50.html",
 			"sources": [ "Inner Sea Races" ],
 			"cost": 11462,
@@ -4540,8 +4540,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, bull's strength, etherealness; **Price** 9,733 gp"
 		},
 		{
-			"name": "Lyrune Quah Klar",
-			"display_name": "Lyrune-Quah Klar",
+			"name": "Lyrune-Quah Klar",
+			"searchable_name": "Lyrune Quah Klar",
 			"file": "magicarmordisplay33eb.html",
 			"sources": [ "Inner Sea Combat" ],
 			"cost": 19912,
