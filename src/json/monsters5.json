@@ -133,7 +133,7 @@
 			"special_abilities": [
 				"**Horrific Appearance (Su)** Creatures that succumb to an augnagar's horrific appearance are driven momentarily insane. This results in 2 points of Charisma damage and leaves the victim confused for 1d3 rounds.",
 				"",
-				"**Rotting Curse (Su)** Bite-injury; Save Fort DC 26; Frequency 1/day; Effect 1d6 Con drain plus constant stench. A creature that suffers the rotting curse imparted by an augnagar's bite displays hideous, festering wounds that exude a horrific stench. This functions as the stench universal monster rule (see page 302), save that it affects all creatures except those that are immune to poison. The victim of this curse receives no saving throw to avoid becoming sickened by the stench, but other creatures can attempt a DC 26 Fortitude save to negate this condition-those who fail remain sickened as long as they remain within 30 feet of the cursed victim. The horrific stench also imparts a -8 penalty on all Stealth checks made by the cursed victim. The save DC is Constitution-based."
+				"**Rotting Curse (Su)** Bite-injury; **Save** Fort DC 26; **Frequency** 1/day; **Effect** 1d6 Con drain plus constant stench. A creature that suffers the rotting curse imparted by an augnagar's bite displays hideous, festering wounds that exude a horrific stench. This functions as the stench universal monster rule (see page 302), save that it affects all creatures except those that are immune to poison. The victim of this curse receives no saving throw to avoid becoming sickened by the stench, but other creatures can attempt a DC 26 Fortitude save to negate this condition-those who fail remain sickened as long as they remain within 30 feet of the cursed victim. The horrific stench also imparts a -8 penalty on all Stealth checks made by the cursed victim. The save DC is Constitution-based."
 			],
 			"description": [
 				"The immense augnagar is relatively slow-witted. As an outsider, it does not need to eat to survive, yet it remains ravenous and feeds on anything it can overpower. The augnagar prefers the taste of well-rotted flesh- particularly rotted demon flesh-and the horrific curse its bite imparts flavors its meals perfectly. Yet the augnagar's favorite feast is of a much more cannibalistic type. These creatures find the flesh of their own kind to be the greatest delicacy. When an augnagar feeds upon enough of its own kind, it grows enormously bloated such that it can no longer fly, at which point it uses its clawed tails to tear its body apart in a frenzy of self-destruction. From this storm of torn fat and shredded viscera emerges a fully grown thulgant qlippoth-a creature similar in shape to an augnagar, yet much more intelligent and even more dangerous.",
@@ -7551,7 +7551,7 @@
 			"construction": [
 				"A rune guardian's body is carved from a single block of semiprecious stone, then polished and treated with rare dusts and oils worth at least 500 gp.",
 				"",
-				"CL 11th; Price 6,500 gp Requirements Craft Construct, fly, geas/quest, plus burning hands, color spray, hold portal, ray of enfeeblement, reduce person, sleep, or summon monster I, creator must be caster level 11th; Skill Craft (stonecarving) DC 16; Cost 3,500 gp"
+				"**CL** 11th; **Price** 6,500 gp; **Requirements** Craft Construct, fly, geas/quest, plus burning hands, color spray, hold portal, ray of enfeeblement, reduce person, sleep, or summon monster I, creator must be caster level 11th; Skill Craft (stonecarving) DC 16; **Cost** 3,500 gp"
 			],
 			"short_description": "A carved rune detaches itself from the wall and floats silently in midair, glowing with arcane energy."
 		},
@@ -10885,9 +10885,9 @@
 			"construction": [
 				"Scarecrows are constructed of a variety of materials, but usually include a frame of wood bound by rope or twine, covered in cloth or ragged garments, then stuffed with grass or straw. Some have simple heads made from bags stuffed with straw, with two holes cut for eyes, while others have more elaborate pumpkin or gourd heads carved with grotesque faces. Once the basic body has been constructed, unguents and special powders worth 500 gp are also required.",
 				"",
-				"CL 6th; Price 15,500 gp",
+				"**CL** 6th; **Price** 15,500 gp",
 				"",
-				"Requirements Craft Construct, command, fear, geas/quest, hypnotic pattern, creator must be caster level 6th; Skill Craft (carpentry), Craft (sculptures), or Profession (farmer) DC 12; Cost 8,000 gp"
+				"**Requirements** Craft Construct, command, fear, geas/quest, hypnotic pattern, creator must be caster level 6th; Skill Craft (carpentry), Craft (sculptures), or Profession (farmer) DC 12; **Cost** 8,000 gp"
 			],
 			"short_description": "It suddenly becomes clear that this is no ordinary pumpkin-headed scarecrow when its eyes glow and it comes to jerky life."
 		},
@@ -11912,9 +11912,9 @@
 			"construction": [
 				"A scythe glass swarm is built from 2,500 pounds of glass, which is infused with exotic materials that costs 1,000 gp in total during the melting process.",
 				"",
-				"CL 13th; Price 61,500 gp",
+				"**CL** 13th; **Price** 61,500 gp",
 				"",
-				"Requirements Craft Construct, geas/quest, hypnotism, limited wish, creator must be caster level 13th; Skill Craft (glass) DC 20; Cost 31,250 gp"
+				"**Requirements** Craft Construct, geas/quest, hypnotism, limited wish, creator must be caster level 13th; Skill Craft (glass) DC 20; **Cost** 31,250 gp"
 			],
 			"short_description": "The razor-sharp wings of a thousand stained glass insects jingle with a resonant melody."
 		},
@@ -13243,9 +13243,9 @@
 			"construction": [
 				"A sentinel hut must be made of the wood from a tree grown in Irrisen's eternal winter (an extraordinarily rare commodity) and thatch for the roof. Both wood and thatch must be treated with magical ointments and powders worth 1,000 gp.",
 				"",
-				"CL 10th; Price 33,000 gp",
+				"**CL** 10th; **Price** 33,000 gp",
 				"",
-				"Requirements Craft Construct, animate object, cat's grace, confusion, geas/quest, jump, minor creation; Skill Craft (sculptures) DC 18; Cost 18,000 gp"
+				"**Requirements** Craft Construct, animate object, cat's grace, confusion, geas/quest, jump, minor creation; Skill Craft (sculptures) DC 18; **Cost** 18,000 gp"
 			],
 			"short_description": "This strange windowless cabin, with a steep thatched roof and a single door painted red, stands on an enormous pair of knobby legs."
 		},
@@ -14113,17 +14113,17 @@
 			"construction": [
 				"The process begins with the recently deceased body of an evil desert giant. The body must undergo a painstaking embalming process. This preparation keeps the body from rotting and hardens its flesh, making it as tough as stone. During this time, a headpiece made from 1,500 pounds of bronze, brass, or iron must be cast using special, cursed elixirs in the process. The head of the preserved giant must be severed cleanly at the shoulders and the headpiece then bolted on. At this point, two gems (each worth at least 2,000 gp) of the appropriate type are fitted into the headpiece's eye sockets before the construct is animated with an elemental spirit.",
 				"",
-				"CL 17th; Price 184,000 gp",
+				"**CL** 17th; **Price** 184,000 gp",
 				"",
-				"Requirements Craft Construct, blasphemy, geas/quest, miracle; Skill Heal DC 20 and Craft (armor) or Craft (blacksmithing) DC 22; Cost 90,000 gp.",
+				"**Requirements** Craft Construct, blasphemy, geas/quest, miracle; Skill Heal DC 20 and Craft (armor) or Craft (blacksmithing) DC 22; **Cost** 90,000 gp.",
 				"",
 				"**Elevated Set Guardian**",
 				"",
 				"The process of creating an elevated Set guardian is nearly identical to creating a regular Set guardian except for the cost of the required materials. The gemstones fitted into the construct's eye sockets each must be worth at least 5,000 gp.",
 				"",
-				"CL 18th; Price 210,000 gp",
+				"**CL** 18th; **Price** 210,000 gp",
 				"",
-				"Requirements Craft Construct, blasphemy, geas/quest, miracle; Skill Heal DC 26 and Craft (armor) or Craft (blacksmithing) DC 28; Cost 110,000 gp."
+				"**Requirements** Craft Construct, blasphemy, geas/quest, miracle; Skill Heal DC 26 and Craft (armor) or Craft (blacksmithing) DC 28; **Cost** 110,000 gp."
 			],
 			"short_description": "This towering figure's head is completely encased in a shiny black metal helmet that resembles the head of a long-snouted canine. Ruby gems sparkle in its eye sockets."
 		},
@@ -15914,9 +15914,9 @@
 			"construction": [
 				"A shell sentinel's body consists of 200 pounds of shells, each of which must be polished and ground so that its edges are as sharp as razors. The shells must then be laid out in a pattern roughly corresponding to the creature's final shape, and then anointed with a thick and vile necromantic reduction from the living flesh of a creature afflicted with the slime of an aboleth or of a veiled master. Other rarer alchemical reagents can be substituted for this reduction (such substitutes are required if the creator wishes the final construct to be nonevil). The entire process must take place while submerged in water, and the total cost of the components is 2,000 gp.",
 				"",
-				"CL 9th; Price 10,000 gp",
+				"**CL** 9th; **Price** 10,000 gp",
 				"",
-				"Requirements Craft Construct, false life, geas/quest or dominate monster, keen edge, poison (an aboleth or veiled master can substitute its slime for this requirement), creator must be caster level 9th; Skill Craft (alchemy) DC 20; Cost 6,000 gp"
+				"**Requirements** Craft Construct, false life, geas/quest or dominate monster, keen edge, poison (an aboleth or veiled master can substitute its slime for this requirement), creator must be caster level 9th; Skill Craft (alchemy) DC 20; **Cost** 6,000 gp"
 			],
 			"short_description": "This mass of shells is assembled into a shape that resembles a cross between a frog and a squid. Its \"head\" is a tangle of long limbs composed of razor-sharp edges, and its body seeps with foamy, toxic-looking slime."
 		},
@@ -16193,7 +16193,9 @@
 				"A chance meeting between individual ships in bottles is not the only manner in which fleets form. Water spirits sometimes conspire to commandeer multiple ships in bottles together, and nautical museums have reported dozens of ships in bottles flying off shelves and out to sea."
 			],
 			"construction": [
-				"A ship in a bottle can be created through a binding ritual undertaken by a powerful spellcaster. The ritual requires a masterwork model ship in a bottle that must be built from materials worth 100 gp, and DC 30 Craft (woodworking) skill checks made over 2 consecutive weeks. Alternatively, a masterwork model ship in a bottle can instead be purchased for the ritual, but it must be worth at least 600 gp. Ship in a Bottle CL 9th; Price 5,100 gp (5,600 gp) Requirements Craft Construct, animate object, magic jar, suitable spirit of a living creature, 2 ranks in Craft (woodworking); Cost 2,600 gp (3,100 gp)",
+				"A ship in a bottle can be created through a binding ritual undertaken by a powerful spellcaster. The ritual requires a masterwork model ship in a bottle that must be built from materials worth 100 gp, and DC 30 Craft (woodworking) skill checks made over 2 consecutive weeks. Alternatively, a masterwork model ship in a bottle can instead be purchased for the ritual, but it must be worth at least 600 gp.",
+				"",
+				"Ship in a Bottle: **CL** 9th; **Price** 5,100 gp (5,600 gp); **Requirements** Craft Construct, animate object, magic jar, suitable spirit of a living creature, 2 ranks in Craft (woodworking); **Cost** 2,600 gp (3,100 gp)",
 				"",
 				"**Ship in a Bottle as a Haunt**",
 				"",
@@ -16278,7 +16280,9 @@
 				"A chance meeting between individual ships in bottles is not the only manner in which fleets form. Water spirits sometimes conspire to commandeer multiple ships in bottles together, and nautical museums have reported dozens of ships in bottles flying off shelves and out to sea."
 			],
 			"construction": [
-				"A ship in a bottle can be created through a binding ritual undertaken by a powerful spellcaster. The ritual requires a masterwork model ship in a bottle that must be built from materials worth 100 gp, and DC 30 Craft (woodworking) skill checks made over 2 consecutive weeks. Alternatively, a masterwork model ship in a bottle can instead be purchased for the ritual, but it must be worth at least 600 gp. Ship in a Bottle CL 9th; Price 5,100 gp (5,600 gp) Requirements Craft Construct, animate object, magic jar, suitable spirit of a living creature, 2 ranks in Craft (woodworking); Cost 2,600 gp (3,100 gp)",
+				"A ship in a bottle can be created through a binding ritual undertaken by a powerful spellcaster. The ritual requires a masterwork model ship in a bottle that must be built from materials worth 100 gp, and DC 30 Craft (woodworking) skill checks made over 2 consecutive weeks. Alternatively, a masterwork model ship in a bottle can instead be purchased for the ritual, but it must be worth at least 600 gp.",
+				"",
+				"Ship in a Bottle; **CL** 9th; **Price** 5,100 gp (5,600 gp); **Requirements** Craft Construct, animate object, magic jar, suitable spirit of a living creature, 2 ranks in Craft (woodworking); **Cost** 2,600 gp (3,100 gp)",
 				"",
 				"**Ship in a Bottle as a Haunt**",
 				"",
@@ -16371,7 +16375,7 @@
 			"construction": [
 				"A ship sentinel is built from 400 pounds of wood. The creator or a hired artisan must then shape the creature into the desired likeness, usually after a fashion common to the nautical vessels of the region. Afterward, a special varnish is made from a mixture of sand, seawater, crushed pearls and shells, and magically treated oils' the varnish is worth a total of 250 gp and is applied to the entire form. If the creator intends for the ship sentinel to wield a weapon, a masterwork or better version of that weapon must also be supplied.",
 				"",
-				"Ship Sentinel CL 9th; Price 21,250 gp; 21,750 gp (ballista marksman); 23,250 gp (mariner's muse); 25,250 gp (sea sorcerer) Requirements Craft Construct, animate object, limited wish, creator must be caster level 9th; Craft (woodworking) check DC 25; Cost 10,750 gp; 11,000 gp (ballista marksman); 11,750 gp (mariner's muse); 12,750 gp (sea sorcerer)"
+				"Ship Sentinel; **CL** 9th; **Price** 21,250 gp; 21,750 gp (ballista marksman); 23,250 gp (mariner's muse); 25,250 gp (sea sorcerer); **Requirements** Craft Construct, animate object, limited wish, creator must be caster level 9th; Craft (woodworking) check DC 25; **Cost** 10,750 gp; 11,000 gp (ballista marksman); 11,750 gp (mariner's muse); 12,750 gp (sea sorcerer)"
 			],
 			"short_description": "A larger-than-life wooden carving of a mermaid holding a spear clambers forward, the vibrant paint coating her frame encrusted in years' worth of sea salt."
 		},
@@ -18568,9 +18572,9 @@
 			"construction": [
 				"A skinstitch's body is made from leather and cloth costing at least 500 gp.",
 				"",
-				"CL 8th; Price 6,500 gp",
+				"**CL** 8th; **Price** 6,500 gp",
 				"",
-				"Requirements Craft Construct, creator must be caster level 10 Skill Craft (leather); Cost 3,500 gp"
+				"**Requirements** Craft Construct, creator must be caster level 10 Skill Craft (leather); **Cost** 3,500 gp"
 			],
 			"short_description": "This hulking thing is a patchwork of rotten cloth and grotesque skin, with stray bits of straw poking out the seams."
 		},
@@ -18888,9 +18892,9 @@
 			"construction": [
 				"A skull ripper is made from the carcasses of dead vermin and skulls, either harvested by the creator or purchased from shady adventurers for roughly 500 gp in total.",
 				"",
-				"CL 13th; Price 30,500 gp",
+				"**CL** 13th; **Price** 30,500 gp",
 				"",
-				"Requirements Craft Construct, animate dead, fear, geas/quest, keen edge, limited wish; Skill Heal or Knowledge (engineering) DC 15; Cost 15,500 gp"
+				"**Requirements** Craft Construct, animate dead, fear, geas/quest, keen edge, limited wish; Skill Heal or Knowledge (engineering) DC 15; **Cost** 15,500 gp"
 			],
 			"short_description": "This chittering, scorpion-shaped monstrosity appears to be made of a hideous mix of chitinous limbs and human skulls."
 		},
@@ -20691,9 +20695,9 @@
 			"construction": [
 				"A soulbound doll's body is made from wood, stone, or porcelain, with one exquisite item worth at least 300 gp to serve as the soul focus. Creation requires a soul fragment from a deceased creature that must die at some point during the creation of the doll-as a result, most soulbound dolls are created by evil spellcasters. Other spellcasters can create soulbound dolls, but if the donor soul is unwilling, they may have alignment repercussions. An unwilling soul can resist the procedure with a DC 20 Will save. Stripping a soul fragment from the dead does not prevent the rest of the soul from continuing on to the afterlife, nor does it prevent the body from later being resurrected or raised from the dead.",
 				"",
-				"CL 7th; Price 4,300 gp",
+				"**CL** 7th; **Price** 4,300 gp",
 				"",
-				"Requirements Craft Construct, false life, lesser geas, magic jar, minor creation, soul of a living creature who dies or is slain during the creation process; Skill Craft (sculptures); Cost 2,300 gp."
+				"**Requirements** Craft Construct, false life, lesser geas, magic jar, minor creation, soul of a living creature who dies or is slain during the creation process; Skill Craft (sculptures); **Cost** 2,300 gp."
 			],
 			"short_description": "This doll's glass eyes glisten with unmistakable curiosity as it comes to life with a fluid grace."
 		},
@@ -20771,9 +20775,9 @@
 			"construction": [
 				"A soulbound mannequin is made from wood or porcelain, with one expertly carved mask worth at least 500 gp to serve as the soul focus. Creation requires a soul fragment from a creature who dies at some point during the creation of the mannequin (this doesn't prevent the rest of the soul from continuing on to the afterlife or prevent the body from later being revived). An unwilling soul can resist the procedure with a successful DC 20 Will save.",
 				"",
-				"CL 7th; Price 16,500 gp",
+				"**CL** 7th; **Price** 16,500 gp",
 				"",
-				"Requirements Craft Construct, disguise self, false life, lesser geas, magic jar, minor creation, soul of a living creature who dies or is slain during the creation process; Skill Craft (sculptures); Cost 8,500 gp"
+				"**Requirements** Craft Construct, disguise self, false life, lesser geas, magic jar, minor creation, soul of a living creature who dies or is slain during the creation process; Skill Craft (sculptures); **Cost** 8,500 gp"
 			],
 			"short_description": "This strange construct is shaped like a masked humanoid made of wood and porcelain."
 		},
@@ -20848,9 +20852,9 @@
 			"construction": [
 				"A soulbound shell is constructed from marble, a 5,000 gp gem for the soul focus, and the soul of a willing spellcaster of at least 12th level who dies at the culmination of the creation process and animates the stone shell.",
 				"",
-				"CL 12th; Price 115,000 gp",
+				"**CL** 12th; **Price** 115,000 gp",
 				"",
-				"Requirements Craft Construct, false life, magic jar, make whole, mnemonic enhancer, stoneskin; Skill Craft (sculpture); Cost 60,000 gp"
+				"**Requirements** Craft Construct, false life, magic jar, make whole, mnemonic enhancer, stoneskin; Skill Craft (sculpture); **Cost** 60,000 gp"
 			],
 			"short_description": "This white statue of a bald human is marbled with glowing green veins of energy."
 		},
@@ -25702,9 +25706,9 @@
 			"construction": [
 				"A taotieh is built from 12,000 pounds of marble, treated with special unguents and chemicals.",
 				"",
-				"CL 14th; Price 105,000 gp",
+				"**CL** 14th; **Price** 105,000 gp",
 				"",
-				"Requirements Craft Construct, geas/quest, limited wish, plane shift, creator must be caster level 14th; Skill Craft (sculpture) or Craft (stonemasonry) DC 25; Cost 55,000 gp"
+				"**Requirements** Craft Construct, geas/quest, limited wish, plane shift, creator must be caster level 14th; Skill Craft (sculpture) or Craft (stonemasonry) DC 25; **Cost** 55,000 gp"
 			],
 			"short_description": "This white marble statue resembles a large feline, but its body and face are covered in decorative etchings and runes."
 		},
@@ -25971,9 +25975,9 @@
 			"construction": [
 				"A tattoo guardian must be inked by a skilled artist, with rare inks worth 500 gp derived from one of several esoteric formulae.",
 				"",
-				"CL 9th; Price 14,500 gp",
+				"**CL** 9th; **Price** 14,500 gp",
 				"",
-				"Requirements Craft Construct, animate objects, fly, geas/quest, parchment swarm, shield other, creator must be caster level 9th; Skill Craft (calligraphy) or Craft (tattoo) DC 20; Cost 7,500 gp"
+				"**Requirements** Craft Construct, animate objects, fly, geas/quest, parchment swarm, shield other, creator must be caster level 9th; Skill Craft (calligraphy) or Craft (tattoo) DC 20; **Cost** 7,500 gp"
 			],
 			"short_description": "This beautiful, impossibly intricate tattoo appears to swirl and move along its wearer's skin."
 		},
@@ -26869,9 +26873,9 @@
 			"construction": [
 				"A terra-cotta soldier's body is made from 600 pounds of clay, fired with rare and magical glazes worth 500 gp.",
 				"",
-				"CL 9th; Price 19,500 gp",
+				"**CL** 9th; **Price** 19,500 gp",
 				"",
-				"Requirements Craft Construct, animate objects, cat's grace, geas/quest, keen edge, creator must be caster level 9th; Skill Craft (pottery) or Craft (sculptures) DC 14; Cost 10,000 gp"
+				"**Requirements** Craft Construct, animate objects, cat's grace, geas/quest, keen edge, creator must be caster level 9th; Skill Craft (pottery) or Craft (sculptures) DC 14; **Cost** 10,000 gp"
 			],
 			"short_description": "This perfectly sculpted, finely detailed, life-sized clay figure has a look of fierce determination and a sword clenched in each hand."
 		},
@@ -27025,7 +27029,7 @@
 			"construction": [
 				"Though the exact process of creating the base form differs depending on the materials involved, the process of animating sentinels is roughly the same. Each sentinel must be carved or worked to a fine detail before being subjected to spells and magical unguents worth 1,000 gp.",
 				"",
-				"Bronze Sentinel CL 10th; Price 21,000 Requirements Craft Construct, alarm, detect magic, geas/quest, limited wish, scorching ray, creator must be caster level 10th; Skill Craft (sculpture) DC 18; Cost 11,000 gp"
+				"Bronze Sentinel; **CL** 10th; **Price** 21,000 gp; **Requirements** Craft Construct, alarm, detect magic, geas/quest, limited wish, scorching ray, creator must be caster level 10th; Skill Craft (sculpture) DC 18; **Cost** 11,000 gp"
 			],
 			"monster_family": "Thassilonian Sentinel",
 			"short_description": "Sculpted from bronze in the form of a large humanoid head, this creature perches on six mechanical legs, its eyes intermittently shining with an orange glow."
@@ -27096,9 +27100,9 @@
 			"construction": [
 				"Though the exact process of creating the base form differs depending on the materials involved, the process of animating sentinels is roughly the same, regardless of the specific type of sentinel being created. (The statue atop which the sentinel often perches is not a part of its total cost). Each sentinel must be carved or worked in fine detail before being subjected to spells and magical unguents worth 1,000 gp.",
 				"",
-				"CL 14th; Price 28,000 gp",
+				"**CL** 14th; **Price** 28,000 gp",
 				"",
-				"Requirements [Craft Construct](unknown:Craft_Construct), [alarm](unknown:alarm), [cone of cold](unknown:cone_of_cold), [detect magic](unknown:detect_magic), [geas/quest](unknown:geas/quest), [limited wish](unknown:limited_wish); Skill Craft (sculpture) DC 22; Cost 14,000 gp"
+				"**Requirements** [Craft Construct](unknown:Craft_Construct), [alarm](unknown:alarm), [cone of cold](unknown:cone_of_cold), [detect magic](unknown:detect_magic), [geas/quest](unknown:geas/quest), [limited wish](unknown:limited_wish); Skill Craft (sculpture) DC 22; **Cost** 14,000 gp"
 			],
 			"monster_family": "Thassilonian Sentinel",
 			"short_description": "An apelike head with demonic features cast in black iron sits on six segmented mechanical legs."
@@ -27170,9 +27174,9 @@
 			"construction": [
 				"Though the exact process of creating the base form differs depending on the materials involved, the process of animating sentinels is roughly the same, regardless of the specific type of sentinel being created. (The statue atop which the sentinel often perches is not a part of its total cost). Each sentinel must be carved or worked in fine detail before being subjected to spells and magical unguents worth 1,000 gp.",
 				"",
-				"CL 16th; Price 36,000 gp",
+				"**CL** 16th; **Price** 36,000 gp",
 				"",
-				"Requirements [Craft Construct](unknown:Craft_Construct), [alarm](unknown:alarm), [detect magic](unknown:detect_magic), [geas/quest](unknown:geas/quest), [limited wish](unknown:limited_wish), [poison](unknown:poison), [shout](unknown:shout); Skill Craft (sculpture) DC 26; Cost 18,000 gp"
+				"**Requirements** [Craft Construct](unknown:Craft_Construct), [alarm](unknown:alarm), [detect magic](unknown:detect_magic), [geas/quest](unknown:geas/quest), [limited wish](unknown:limited_wish), [poison](unknown:poison), [shout](unknown:shout); Skill Craft (sculpture) DC 26; **Cost** 18,000 gp"
 			],
 			"monster_family": "Thassilonian Sentinel",
 			"short_description": "Sculpted from ivory in the form of a large skull, this construct perches on six segmented legs of whitened bone."
@@ -27243,7 +27247,7 @@
 			"construction": [
 				"Though the exact process of creating the base form differs depending on the materials involved, the process of animating sentinels is roughly the same. Each sentinel must be carved or worked to a fine detail before being subjected to spells and magical unguents worth 1,000 gp.",
 				"",
-				"Marble Sentinel CL 12th; Price 24,000 Requirements Craft Construct, alarm, detect magic, geas/quest, limited wish, stone shape, creator must be caster level 12th; Skill Craft (sculpture) DC 20; Cost 12,500 gp"
+				"Marble Sentinel; **CL** 12th; **Price** 24,000 gp; **Requirements** Craft Construct, alarm, detect magic, geas/quest, limited wish, stone shape, creator must be caster level 12th; Skill Craft (sculpture) DC 20; **Cost** 12,500 gp"
 			],
 			"monster_family": "Thassilonian Sentinel",
 			"short_description": "Crouched on six jointed metal legs, this large humanoid head crafted from polished marble gazes intently with its glowing green eyes."
@@ -28475,9 +28479,9 @@
 			"construction": [
 				"A tiberolith is created from three stone slabs (2,500 pounds each). They're bound with plant matter or sinew treated with unguents costing at least 7,000 gp.",
 				"",
-				"CL 12th; Price 48,000 gp",
+				"**CL** 12th; **Price** 48,000 gp",
 				"",
-				"Requirements Craft Construct, acid fog, limited wish, stone shape, creator must be at least caster level 11th; Skill Craft (sculptures) or Craft (stonemasonry) DC 18; Cost 24,000 gp"
+				"**Requirements** Craft Construct, acid fog, limited wish, stone shape, creator must be at least caster level 11th; Skill Craft (sculptures) or Craft (stonemasonry) DC 18; **Cost** 24,000 gp"
 			],
 			"short_description": "A bizarre thrum echoes from somewhere deep within this towering stone hulk, and blue liquid runs down its shuddering body."
 		},
@@ -30035,9 +30039,9 @@
 			"construction": [
 				"A tophet's hollow body is made of 3,000 pounds of iron or steel forged in heats comparable to those found in active volcanoes. Tophets can be made of other metals as well, such as bronze or cold iron.",
 				"",
-				"CL 12th; Price 45,000 gp",
+				"**CL** 12th; **Price** 45,000 gp",
 				"",
-				"Requirements Craft Construct, bull's strength, endure elements, creator must be CL 12th; Skill Craft (sculptures) DC 20; Cost 23,500 gp"
+				"**Requirements** Craft Construct, bull's strength, endure elements, creator must be CL 12th; Skill Craft (sculptures) DC 20; **Cost** 23,500 gp"
 			],
 			"short_description": "A distended metal maw filled with blunt, sculpted teeth stretches across the upper portion of this rotund iron effigy."
 		},
@@ -30780,9 +30784,9 @@
 				"",
 				"Initially, a creator shapes a totem's features into a ferocious, monstrous image. Then, the application of the proper spells enables the construct to alter its appearance to mimic other creatures.",
 				"",
-				"Tribal Totem CL 8th; Price 19,000 gp Requirements Craft Construct, animate objects, disguise self, locate creature, magic mouth, shield other, creator must be caster level 11th; Skill Craft (carpentry) and Craft (sculpture) DC 20; Cost 10,000 gp.",
+				"Tribal Totem **CL** 8th; **Price** 19,000 gp; **Requirements** Craft Construct, animate objects, disguise self, locate creature, magic mouth, shield other, creator must be caster level 11th; Skill Craft (carpentry) and Craft (sculpture) DC 20; **Cost** 10,000 gp.",
 				"",
-				"Greater Tribal Totem CL 9th; Price 22,000 gp Requirements Craft Construct, animate objects, arcane eye, disguise self, locate creature, magic mouth, shield other, creator must be caster level 13th; Skill Craft (carpentry) and Craft (sculpture) DC 20; Cost 12,000 gp."
+				"Greater Tribal Totem **CL** 9th; **Price** 22,000 gp; **Requirements** Craft Construct, animate objects, arcane eye, disguise self, locate creature, magic mouth, shield other, creator must be caster level 13th; Skill Craft (carpentry) and Craft (sculpture) DC 20; **Cost** 12,000 gp."
 			],
 			"short_description": "With the splintering sound of dry, cracking wood, a human-sized graven image lurches to life. Its features shift and reform with every step, cycling through a variety of faces both strange and oddly familiar. Bits of feather, leaves, and decorative stone embellish its surface, and the strong smell of lacquer and resin assaults the senses as it draws near with a menacing, ponderous gait."
 		},
@@ -34352,9 +34356,9 @@
 			"construction": [
 				"A tupilaq is built from 30 pounds of whale bones, bound together with sinew worth 750 gp. When the creature's creation is complete, the sinew falls away and the bones fuse together to create the animated creature.",
 				"",
-				"CL 8th; Price 21,000 gp",
+				"**CL** 8th; **Price** 21,000 gp",
 				"",
-				"Requirements Craft Construct, geas/quest, keen edge, locate creature, creator must be caster level 8th, creation must be done in complete secrecy; Skill Craft (scrimshaw) DC 20; Cost 10,875 gp"
+				"**Requirements** Craft Construct, geas/quest, keen edge, locate creature, creator must be caster level 8th, creation must be done in complete secrecy; Skill Craft (scrimshaw) DC 20; **Cost** 10,875 gp"
 			],
 			"short_description": "This small humanoid figure grinds and clatters as it moves, its body carved from bones decorated with fine scrimshaw."
 		},
@@ -36076,9 +36080,9 @@
 				"Urannags have long vexed scholars, some of whom contend that they're creatures, while others argue that they're complex traps. In truth, they're both-an unsettling example of how reality on the Abyss doesn't match mortal expectations. An urannag behaves like an ambush predator, yet has no need for sustenance and is driven to flense prey out of innate sadism."
 			],
 			"construction": [
-				"CL 10th; Price 35,200 gp",
+				"**CL** 10th; **Price** 35,200 gp",
 				"",
-				"Requirements [Craft Construct](unknown:Craft_Construct), [geas/quest](unknown:geas/quest), [keen edge](unknown:keen_edge), [limited wish](unknown:limited_wish), [planar binding](unknown:planar_binding); Skill Craft (sculptures) DC 19; Cost 17,700 gp"
+				"**Requirements** [Craft Construct](unknown:Craft_Construct), [geas/quest](unknown:geas/quest), [keen edge](unknown:keen_edge), [limited wish](unknown:limited_wish), [planar binding](unknown:planar_binding); Skill Craft (sculptures) DC 19; **Cost** 17,700 gp"
 			],
 			"short_description": "What at first appeared to be a sadistic spiked cage writhes into unholy life, extending bladed, articulated arms."
 		},
@@ -38495,7 +38499,7 @@
 				"",
 				"Although many vilkacis are purposefully created and employed by evil spellcasters, some manifest spontaneously. These beings wander and rampage as they please, but still are bound to a talisman similar to a canopic stone. This spontaneously created artifact can be utilized by those who discover it and discern its importance in the same way as can a canopic stone created specifically to summon and control a vilkacis, and typically takes the form of the dead werewolf -s skull, the silver weapon that killed the werewolf, or a talisman it bore in life.",
 				"",
-				"Canopic Stone CL 12th; Price 28,800 gp Requirements Craft Wondrous Item, create undead, rage; Cost 14,400 gp"
+				"Canopic Stone **CL** 12th; **Price** 28,800 gp; **Requirements** Craft Wondrous Item, create undead, rage; **Cost** 14,400 gp"
 			],
 			"short_description": "Within a swirling mass of frigid air manifests the form of a bestial specter. Claws the size of daggers lash menacingly before its half-bestial, half-humanoid form, and its narrow eyes glow with a smoldering malevolence."
 		},
@@ -42035,9 +42039,9 @@
 			"construction": [
 				"A wickerman is created from 12,000 pounds of wicker and rare wood costing 10,000 gp. Activating the wickerman requires sacrificing a living humanoid inside its chest cage. Sacrificing a creature is an evil act.",
 				"",
-				"CL 14th; Price 110,000 gp",
+				"**CL** 14th; **Price** 110,000 gp",
 				"",
-				"Requirements Craft Construct, fire seeds, wall of fire, warp wood, creator must be caster level 12th; Skill Craft (carpentry) or Craft (sculptures) DC 15; Cost 60,000 gp"
+				"**Requirements** Craft Construct, fire seeds, wall of fire, warp wood, creator must be caster level 12th; Skill Craft (carpentry) or Craft (sculptures) DC 15; **Cost** 60,000 gp"
 			],
 			"short_description": "This humanoid-shaped colossus is a towering fury of burning wicker and wood."
 		},
@@ -45986,7 +45990,7 @@
 				"",
 				"**Zombies of the Yellow Mire**",
 				"",
-				"**Source** [Horror Realms p. 33](source:_Horror_Realms)",
+				"**Source** [Horror Realms p. 33](source:Horror_Realms)",
 				"",
 				"The yellow musk zombies born in Yellow Mire may be familiar to adventurers who have encountered yellow musk creepers in the past, but the abominable flora of Golden Garden are an altogether separate horror. Below are three of the most common varieties of yellow musk zombies that arise from Golden Garden, which otherwise share statistics with typical yellow musk zombies.",
 				"",

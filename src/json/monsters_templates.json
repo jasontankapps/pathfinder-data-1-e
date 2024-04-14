@@ -7025,11 +7025,11 @@
 				"",
 				"Soul Focus",
 				"",
-				"CL 7th; Price 10,000 gp + 1,000 gp per Hit Die of the base creature",
+				"**CL** 7th; **Price** 10,000 gp + 1,000 gp per Hit Die of the base creature",
 				"",
 				"Construction",
 				"",
-				"Requirements [Craft Construct](unknown:Craft_Construct), [Craft Wondrous Item](unknown:Craft_Wondrous_Item), [geas/quest](unknown:geas/quest), [magic jar](unknown:magic_jar), soul of a living creature who dies or is slain during the creation process; Skill Craft (gemcutting); Cost 5,000 gp + 1,000 gp per Hit Die of the base creature"
+				"**Requirements** [Craft Construct](unknown:Craft_Construct), [Craft Wondrous Item](unknown:Craft_Wondrous_Item), [geas/quest](unknown:geas/quest), [magic jar](unknown:magic_jar), soul of a living creature who dies or is slain during the creation process; Skill Craft (gemcutting); **Cost** 5,000 gp + 1,000 gp per Hit Die of the base creature"
 			]
 		},
 		{
@@ -7357,7 +7357,7 @@
 				"",
 				"Creatures with the terror template are warped by prolonged contact with the Negative Energy Plane. They are terrifying to behold and have developed special resistances and attacks. A terror creature's quick and rebuild rules are the same.",
 				"",
-				"**Rebuild Rules:** **Alignment** changes to NE; **Senses** gains darkvision 60 ft.; Aura fear (as fear spell, 20 ft., Will save DC 10 + 1/2 terror creature's racial HD + creature's Charisma modifier); **Defensive Abilities** negative energy absorption (Su; heals 1 hit point for every 3 points of damage that negative energy attacks would otherwise deal; a terror creature gets no saving throw against negative energy effects); **Immune** fear effects"
+				"**Rebuild Rules:** **Alignment** changes to NE; **Senses** gains darkvision 60 ft.; **Aura** fear (as fear spell, 20 ft., Will save DC 10 + 1/2 terror creature's racial HD + creature's Charisma modifier); **Defensive Abilities** negative energy absorption (Su; heals 1 hit point for every 3 points of damage that negative energy attacks would otherwise deal; a terror creature gets no saving throw against negative energy effects); **Immune** fear effects"
 			]
 		},
 		{
@@ -7428,8 +7428,10 @@
 				"",
 				"Construction",
 				"",
-				"A trompe l-oeil is created from a masterwork painting of the base creature, with a cost varying on the size of the subject. Trompe l'Oeil CL varies (equal to the trompe l-oeil's HD); Price varies (100 gp per HD plus cost of painting)   ",
-				"Requirements Craft Construct, animate objects, enter image; Skill Craft (painting); Cost 500 gp per HD plus cost of painting"
+				"A trompe l-oeil is created from a masterwork painting of the base creature, with a cost varying on the size of the subject.",
+				"",
+				"Trompe l'Oeil **CL** varies (equal to the trompe l-oeil's HD); **Price** varies (100 gp per HD plus cost of painting)   ",
+				"**Requirements** Craft Construct, animate objects, enter image; Skill Craft (painting); **Cost** 500 gp per HD plus cost of painting"
 			]
 		},
 		{
@@ -8014,8 +8016,8 @@
 				"",
 				"Construction",
 				"",
-				"Waxwork Creature   CLvaries (equal to the waxwork creature's HD); Price 1,000 gp per HD plus cost of wax   ",
-				"Requirements Craft Construct, animate objects, make whole; Skill Craft (sculpture); Cost 500 gp per HD plus cost of wax"
+				"Waxwork Creature; **CL** varies (equal to the waxwork creature's HD); **Price** 1,000 gp per HD plus cost of wax   ",
+				"**Requirements** Craft Construct, animate objects, make whole; Skill Craft (sculpture); **Cost** 500 gp per HD plus cost of wax"
 			]
 		},
 		{

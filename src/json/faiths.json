@@ -78,7 +78,7 @@
 				"Fortifications",
 				"Inevitable",
 				"Leadership",
-				"Legislation (Law)",
+				"Legislation",
 				"Martyr",
 				"Metal",
 				"Portal",
@@ -157,26 +157,47 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Crossbowman (Fighter)](unknown:Crossbowman_(Fighter)), [Knight of Coins (Paladin)](unknown:Knight_of_Coins_(Paladin)), [Urban Druid (Druid)](unknown:Urban_Druid_(Druid)), [Urban Ranger (Ranger)](unknown:Urban_Ranger_(Ranger))",
+				"",
 				"#### Feats",
+				"",
 				"[Crossbow Mastery](feat:Crossbow_Mastery), [Divine Dignity](feat:Divine_Dignity), [Measured Response](feat:Measured_Response), [Perfect Casting](feat:Perfect_Casting)",
+				"",
 				"#### Magic Items - Altars",
+				"",
 				"[Altar of Abadar](magic/altar:Altar_of_Abadar)",
+				"",
 				"#### Magic Items - Armor",
+				"",
 				"[Golden Judge's Breastplate](magic/armor:Golden_Judge's_Breastplate)",
+				"",
 				"#### Magic Items - Rods",
+				"",
 				"[Rod of Metal and Mineral Detection](magic/rod:Rod_of_Metal_and_Mineral_Detection)",
+				"",
 				"#### Magic Items - Weapons",
+				"",
 				"[Fugitive Finder](magic/weapon:Fugitive_Finder), [Mace of Keys](magic/weapon:Mace_of_Keys), [Vaultbow](magic/weapon:Vaultbow)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Elixir of Truth](magic/wondrous:Elixir_of_Truth), [Key Cloak](magic/wondrous:Key_Cloak), [Key of the Second Vault](magic/wondrous:Key_of_the_Second_Vault), [Lyre of Building](magic/wondrous:Lyre_of_Building), [Meltdown Safe](magic/wondrous:Meltdown_Safe), [Safecamp Wagon](magic/wondrous:Safecamp_Wagon), [Secure Paypack](magic/wondrous:Secure_Paypack), [Universal Lock](magic/wondrous:Universal_Lock)",
+				"",
 				"#### Monsters",
+				"",
 				"[Lawgiver (Herald)](monster:Lawgiver_(Herald)), [Orsheval](monster:Orsheval)",
+				"",
 				"#### Prestige Classes",
+				"",
 				"[Balanced Scale of Abadar](unknown:Balanced_Scale_of_Abadar), [Justicar](unknown:Justicar)",
+				"",
 				"#### Spells",
+				"",
 				"[Abadar's Truthtelling](spell:Abadar's_Truthtelling), [Blessing of the Watch](spell:Blessing_of_the_Watch), [Dictum](spell:Dictum), [Fairness](spell:Fairness), [Order's Wrath](spell:Order's_Wrath), [Soul Vault](spell:Soul_Vault), [True Appraisal](spell:True_Appraisal)",
+				"",
 				"#### Traits",
+				"",
 				"[Eye for Quality](trait:Eye_for_Quality), [Eyes and Ears of the City](trait:Eyes_and_Ears_of_the_City), [Honey-Tongued](trait:Honey-Tongued), [Lover of the Law](trait:Lover_of_the_Law), [Sense of Order](trait:Sense_of_Order), [The City Protects](trait:The_City_Protects)"
 			],
 			"unique_spell_rules": [
@@ -242,8 +263,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Dreamed Secrets](feat:Dreamed_Secrets)",
+				"",
 				"#### Traits",
+				"",
 				"[Unspeakable Bond](trait:Unspeakable_Bond)"
 			]
 		},
@@ -272,8 +296,7 @@
 			],
 			"subdomains": [
 				"Arcane",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Education (Knowledge)",
 				"Memory",
 				"Rites",
@@ -330,10 +353,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -401,8 +429,7 @@
 			"subdomains": [
 				"Blood",
 				"Deception",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Insect",
 				"Murder",
 				"Tactics",
@@ -446,20 +473,35 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Crimson Chymist (Alchemist)](unknown:Crimson_Chymist_(Alchemist)), [Mantis Zealot (Warpriest)](unknown:Mantis_Zealot_(Warpriest))",
+				"",
 				"#### Feats",
+				"",
 				"[Bloody Sabres](feat:Bloody_Sabres)",
+				"",
 				"#### Magic Items - Armor",
+				"",
 				"[Red Stalker Armor](magic/armor:Red_Stalker_Armor)",
+				"",
 				"#### Magic Items - Weapons",
+				"",
 				"[Crimson Bluff](magic/weapon:Crimson_Bluff), [Fuming Blood Sabre](magic/weapon:Fuming_Blood_Sabre)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Eye of the Mantis](magic/wondrous:Eye_of_the_Mantis), [Mantis Embrace](magic/wondrous:Mantis_Embrace), [Mask of the Mantis](magic/wondrous:Mask_of_the_Mantis)",
+				"",
 				"#### Monsters",
+				"",
 				"[Kaicharek](monster:Kaicharek)",
+				"",
 				"#### Prestige Classes",
+				"",
 				"[Death Slayer](unknown:Death_Slayer), [Red Mantis Assassin](unknown:Red_Mantis_Assassin)",
+				"",
 				"#### Traits",
+				"",
 				"[Deep Wounding](trait:Deep_Wounding), [Frightening Speed](trait:Frightening_Speed)"
 			],
 			"unique_spell_rules": [
@@ -629,8 +671,7 @@
 				"Protection"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Construct",
 				"Loyalty",
 				"Purity",
@@ -648,6 +689,7 @@
 			],
 			"for_followers": [
 				"#### Traits",
+				"",
 				"[Clockwork Surgeon](trait:Clockwork_Surgeon)"
 			]
 		},
@@ -971,8 +1013,7 @@
 				"Sun"
 			],
 			"subdomains": [
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Feather",
 				"Fur",
 				"Insect",
@@ -1030,12 +1071,19 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Iron Tyrant (Antipaladin)](unknown:Iron_Tyrant_(Antipaladin))",
+				"",
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -1063,8 +1111,7 @@
 			],
 			"subdomains": [
 				"Deception",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Insanity",
 				"Thievery"
 			],
@@ -1095,6 +1142,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -1121,8 +1169,7 @@
 				"Strength"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Ferocity",
 				"Fur",
 				"Resolve"
@@ -1154,6 +1201,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -1239,8 +1287,11 @@
 			],
 			"for_followers": [
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Steward's Iron Key](magic/wondrous:Steward's_Iron_Key)",
+				"",
 				"#### Traits",
+				"",
 				"[Opener of Doors](trait:Opener_of_Doors)"
 			],
 			"unique_spell_rules": [
@@ -1422,8 +1473,7 @@
 			"subdomains": [
 				"Curse",
 				"Deception",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Thievery"
 			],
 			"details": [
@@ -1477,10 +1527,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -1507,8 +1562,7 @@
 				"Protection"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Defense",
 				"Education (Knowledge)",
 				"Memory",
@@ -1546,8 +1600,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Andoletta's Consolation](trait:Andoletta's_Consolation), [Empyreal Focus](trait:Empyreal_Focus), [Enemy of Delusion](trait:Enemy_of_Delusion)"
 			]
 		},
@@ -1576,8 +1633,7 @@
 			],
 			"subdomains": [
 				"Decay",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Fur",
 				"Growth"
 			],
@@ -1631,12 +1687,19 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Iron Tyrant (Antipaladin)](unknown:Iron_Tyrant_(Antipaladin))",
+				"",
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -1663,8 +1726,7 @@
 				"War"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Ash",
 				"Smoke",
 				"Tactics"
@@ -1717,8 +1779,11 @@
 			],
 			"for_followers": [
 				"#### Spells",
+				"",
 				"[Planned Assault](spell:Planned_Assault)",
+				"",
 				"#### Traits",
+				"",
 				"[Angradd's Flame](trait:Angradd's_Flame), [Angradd's Valor](trait:Angradd's_Valor), [Battlefield Caster](trait:Battlefield_Caster), [Well-Prepared](trait:Well-Prepared)"
 			]
 		},
@@ -1837,8 +1902,7 @@
 			],
 			"subdomains": [
 				"Catastrophe",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Dragon",
 				"Entropy",
 				"Fear",
@@ -1856,6 +1920,7 @@
 			],
 			"for_followers": [
 				"#### Traits",
+				"",
 				"[Snake Handler](trait:Snake_Handler)"
 			]
 		},
@@ -1886,7 +1951,7 @@
 				"Daemon",
 				"Loss",
 				"Night",
-				"Plague (Evil)"
+				"Plague"
 			],
 			"details": [
 				"**Alignment** NE   ",
@@ -1929,12 +1994,19 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Grim Apostle (Spiritualist)](unknown:Grim_Apostle_(Spiritualist))",
+				"",
 				"#### Feats",
+				"",
 				"[Aura of Succumbing](feat:Aura_of_Succumbing)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Apollyon Clasp](magic/wondrous:Apollyon_Clasp)",
+				"",
 				"#### Traits",
+				"",
 				"[Covenant of Abaddon](trait:Covenant_of_Abaddon)"
 			]
 		},
@@ -1965,8 +2037,7 @@
 				"Travel"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Construct",
 				"Dragon",
 				"Exploration",
@@ -2027,10 +2098,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Divine Barrier](feat:Divine_Barrier)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Orb of the Waybringer](magic/wondrous:Orb_of_the_Waybringer)",
+				"",
 				"#### Traits",
+				"",
 				"[Inspiring Leader](trait:Inspiring_Leader), [Scaly Ally](trait:Scaly_Ally)"
 			],
 			"unique_spell_rules": [
@@ -2129,8 +2205,11 @@
 			],
 			"for_followers": [
 				"#### Magic Items - Weapons",
+				"",
 				"[Red Crusader's Quill](magic/weapon:Red_Crusader's_Quill)",
+				"",
 				"#### Spells",
+				"",
 				"[Bloodstone Mirror](spell:Bloodstone_Mirror), [Litany of the Red Crusader](spell:Litany_of_the_Red_Crusader), [Unspoken Name](spell:Unspoken_Name)"
 			],
 			"unique_spell_rules": [
@@ -2178,8 +2257,7 @@
 				"Scalykind"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Dragon",
 				"Love",
 				"Lust"
@@ -2264,8 +2342,7 @@
 			],
 			"subdomains": [
 				"Deception",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Thievery",
 				"Wind"
 			],
@@ -2319,10 +2396,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -2416,8 +2498,11 @@
 			],
 			"for_followers": [
 				"#### Magic Items - Sets",
+				"",
 				"[Aroden's Array](magic/set:Aroden's_Array)",
+				"",
 				"#### Traits",
+				"",
 				"[Devotee of a Dead God](trait:Devotee_of_a_Dead_God), [Faithful Arodenite](trait:Faithful_Arodenite)"
 			]
 		},
@@ -2492,8 +2577,7 @@
 				"War"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Cooperation",
 				"Defense",
 				"Fortifications",
@@ -2530,8 +2614,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus), [Eye of Arqueros](trait:Eye_of_Arqueros), [Living Bulwark](trait:Living_Bulwark)"
 			]
 		},
@@ -2591,8 +2678,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -2621,8 +2711,7 @@
 			],
 			"subdomains": [
 				"Ancestors",
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Moon",
 				"Revelry"
 			],
@@ -2676,14 +2765,23 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Ghost Whisperer](feat:Ghost_Whisperer), [Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Magic Items - Weapons",
+				"",
 				"[Channeler's Scarf](magic/weapon:Channeler's_Scarf)",
+				"",
 				"#### Prestige Classes",
+				"",
 				"[Ashavic Dancer](unknown:Ashavic_Dancer)",
+				"",
 				"#### Spells",
+				"",
 				"[Alluring Light](spell:Alluring_Light), [Moonrise Arrow](spell:Moonrise_Arrow)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			],
 			"unique_spell_rules": [
@@ -2777,11 +2875,10 @@
 				"Ash",
 				"Corruption",
 				"Deception",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Divine",
 				"Greed",
-				"Legislation (Law)",
+				"Legislation",
 				"Rites",
 				"Smoke",
 				"Sovereignty"
@@ -2876,24 +2973,43 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Demagogue (Bard)](unknown:Demagogue_(Bard)), [Hamatulatsu Master (Monk)](unknown:Hamatulatsu_Master_(Monk)), [Hungry Ghost Monk (Monk)](unknown:Hungry_Ghost_Monk_(Monk)), [Infiltrator (Inquisitor)](unknown:Infiltrator_(Inquisitor))",
+				"",
 				"#### Feats",
+				"",
 				"[Conversion Channel](feat:Conversion_Channel), [Devilish Pride](feat:Devilish_Pride), [Diabolical Negotiator](feat:Diabolical_Negotiator), [Hamatulatsu](feat:Hamatulatsu)",
+				"",
 				"#### Magic Items - Altars",
+				"",
 				"[Altar of Asmodeus](magic/altar:Altar_of_Asmodeus)",
+				"",
 				"#### Magic Items - Armor",
+				"",
 				"[Half-Plate of the Dark Prince](magic/armor:Half-Plate_of_the_Dark_Prince)",
+				"",
 				"#### Magic Items - Rings",
+				"",
 				"[Profane Seal Signet](magic/ring:Profane_Seal_Signet)",
+				"",
 				"#### Magic Items - Weapons",
+				"",
 				"[Hell's Eye](magic/weapon:Hell's_Eye)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Barbed Pentacle of Asmodeus](magic/wondrous:Barbed_Pentacle_of_Asmodeus), [Circlet of Persuasion](magic/wondrous:Circlet_of_Persuasion), [Diabolical Masquerade Mask](magic/wondrous:Diabolical_Masquerade_Mask), [Infernal Cord (Greater)](magic/wondrous:Infernal_Cord_(Greater)), [Hamatulatsu Robe](magic/wondrous:Hamatulatsu_Robe), [Infernal Cord (Normal)](magic/wondrous:Infernal_Cord_(Normal)), [Pentacle Token](magic/wondrous:Pentacle_Token)",
+				"",
 				"#### Monsters",
+				"",
 				"[Accomplice Devil (Hesperian)](monster:Accomplice_Devil_(Hesperian)), [Basileus (Herald)](monster:Basileus_(Herald))",
+				"",
 				"#### Spells",
+				"",
 				"[Beguiling Gift](spell:Beguiling_Gift), [Burning Gaze](spell:Burning_Gaze), [Infernal Healing](spell:Infernal_Healing), [Infernal Healing, Greater](spell:Infernal_Healing,_Greater), [Planar Binding](spell:Planar_Binding), [Shared Sacrifice](spell:Shared_Sacrifice), [Spellcasting Contract](spell:Spellcasting_Contract), [Spellcasting Contract, Greater](spell:Spellcasting_Contract,_Greater), [Spellcasting Contract, Lesser](spell:Spellcasting_Contract,_Lesser), [Vision of Hell](spell:Vision_of_Hell)",
+				"",
 				"#### Traits",
+				"",
 				"[Asmodean Demon Hunter](trait:Asmodean_Demon_Hunter), [Contract Master](trait:Contract_Master), [Demon Hunter](trait:Demon_Hunter), [Fiendish Confidence](trait:Fiendish_Confidence), [Liar's Tongue](trait:Liar's_Tongue)"
 			],
 			"unique_spell_rules": [
@@ -2948,10 +3064,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Dreamed Secrets](feat:Dreamed_Secrets)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Preklikin's Book of Cults](magic/wondrous:Preklikin's_Book_of_Cults)",
+				"",
 				"#### Traits",
+				"",
 				"[Unspeakable Bond](trait:Unspeakable_Bond)"
 			]
 		},
@@ -2998,6 +3119,7 @@
 			],
 			"for_followers": [
 				"#### Prestige Classes",
+				"",
 				"[Mortal Usher](unknown:Mortal_Usher), [Proctor](unknown:Proctor)"
 			]
 		},
@@ -3041,8 +3163,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Elemental Vigor](feat:Elemental_Vigor)",
+				"",
 				"#### Traits",
+				"",
 				"[Affinity for the Elements](trait:Affinity_for_the_Elements)"
 			]
 		},
@@ -3087,8 +3212,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Dreamed Secrets](feat:Dreamed_Secrets)",
+				"",
 				"#### Traits",
+				"",
 				"[Unspeakable Bond](trait:Unspeakable_Bond)"
 			]
 		},
@@ -3115,8 +3243,7 @@
 				"Law"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Murder",
 				"Undead",
 				"Wind"
@@ -3162,8 +3289,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)",
+				"",
 				"#### Traits",
+				"",
 				"[Flames of Hell](trait:Flames_of_Hell)"
 			]
 		},
@@ -3192,8 +3322,7 @@
 				"Strength"
 			],
 			"subdomains": [
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Ferocity",
 				"Fur",
 				"Resolve"
@@ -3248,12 +3377,19 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Spells",
+				"",
 				"[Bleeding Strike](spell:Bleeding_Strike)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			],
 			"unique_spell_rules": [
@@ -3319,8 +3455,7 @@
 				"Plant"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Fear",
 				"Fur",
 				"Growth"
@@ -3352,6 +3487,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -3379,8 +3515,7 @@
 			],
 			"subdomains": [
 				"Arcane",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Divine",
 				"Portal",
 				"Trade"
@@ -3427,8 +3562,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)",
+				"",
 				"#### Traits",
+				"",
 				"[Flames of Hell](trait:Flames_of_Hell)"
 			]
 		},
@@ -3551,8 +3689,11 @@
 			],
 			"for_followers": [
 				"#### Prestige Classes",
+				"",
 				"[Mortal Usher](unknown:Mortal_Usher), [Proctor](unknown:Proctor)",
+				"",
 				"#### Spells",
+				"",
 				"[Keyhole](spell:Keyhole), [Open the Dead Roads](spell:Open_the_Dead_Roads)"
 			],
 			"unique_spell_rules": [
@@ -3635,8 +3776,7 @@
 			],
 			"subdomains": [
 				"Catastrophe",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Lust",
 				"Rage"
 			],
@@ -3681,8 +3821,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)",
+				"",
 				"#### Traits",
+				"",
 				"[Flames of Hell](trait:Flames_of_Hell)"
 			]
 		},
@@ -3724,8 +3867,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -3896,16 +4042,27 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Deep Shaman (Shaman)](unknown:Deep_Shaman_(Shaman))",
+				"",
 				"#### Magic Items - Armor",
+				"",
 				"[Sea Banshee Coat](magic/armor:Sea_Banshee_Coat)",
+				"",
 				"#### Magic Items - Sets",
+				"",
 				"[Besmara's Bounty](magic/set:Besmara's_Bounty)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Besmara's Bicorne](magic/wondrous:Besmara's_Bicorne), [Besmara's Tricorne](magic/wondrous:Besmara's_Tricorne)",
+				"",
 				"#### Spells",
+				"",
 				"[Advanced Scurvy](spell:Advanced_Scurvy), [Cloud of Seasickness](spell:Cloud_of_Seasickness)",
+				"",
 				"#### Traits",
+				"",
 				"[Besmara's Name](trait:Besmara's_Name), [Besmara's Strength](trait:Besmara's_Strength), [Cheat Death](trait:Cheat_Death), [Deck Fighter](trait:Deck_Fighter), [Expert Boarder](trait:Expert_Boarder)"
 			],
 			"unique_spell_rules": [
@@ -3987,8 +4144,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -4015,8 +4175,7 @@
 				"Rune"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Language",
 				"Toil",
 				"Wards"
@@ -4048,6 +4207,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -4074,8 +4234,7 @@
 				"Void"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Freedom",
 				"Revolution",
 				"Stars"
@@ -4105,8 +4264,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -4196,10 +4358,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Dreamed Secrets](feat:Dreamed_Secrets)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Preklikin's Book of Cults](magic/wondrous:Preklikin's_Book_of_Cults)",
+				"",
 				"#### Traits",
+				"",
 				"[Unspeakable Bond](trait:Unspeakable_Bond)"
 			]
 		},
@@ -4241,10 +4408,15 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Sacred Attendant (Cleric)](unknown:Sacred_Attendant_(Cleric))",
+				"",
 				"#### Spells",
+				"",
 				"[Dwarven Veil](spell:Dwarven_Veil)",
+				"",
 				"#### Traits",
+				"",
 				"[Alluring](trait:Alluring), [Wedded Bliss](trait:Wedded_Bliss)"
 			]
 		},
@@ -4382,14 +4554,23 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Voice of Brigh (Bard)](unknown:Voice_of_Brigh_(Bard))",
+				"",
 				"#### Magic Items - Armor",
+				"",
 				"[Bronze Whisperer's Shield](magic/armor:Bronze_Whisperer's_Shield)",
+				"",
 				"#### Monsters",
+				"",
 				"[Latten Mechanism (Herald)](monster:Latten_Mechanism_(Herald))",
+				"",
 				"#### Spells",
+				"",
 				"[Semblance of Flesh](spell:Semblance_of_Flesh)",
+				"",
 				"#### Traits",
+				"",
 				"[Brigh's Insight](trait:Brigh's_Insight), [Nimble Fingers, Keen Mind](trait:Nimble_Fingers,_Keen_Mind)"
 			],
 			"unique_spell_rules": [
@@ -4539,8 +4720,7 @@
 				"Travel"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Murder",
 				"Souls",
 				"Trade"
@@ -4572,6 +4752,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -4598,8 +4779,7 @@
 				"Madness"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Insanity",
 				"Memory",
 				"Nightmare"
@@ -4631,6 +4811,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -4664,7 +4845,7 @@
 				"Trickery"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
+				"Azata",
 				"Captivation",
 				"Curse",
 				"Deception",
@@ -4750,24 +4931,43 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Calistrian Hunter (Fighter)](unknown:Calistrian_Hunter_(Fighter)), [Charlatan (Rogue)](unknown:Charlatan_(Rogue)), [Court Bard (Bard)](unknown:Court_Bard_(Bard))",
+				"",
 				"#### Feats",
+				"",
 				"[Antagonize](feat:Antagonize), [Bloody Vengeance](feat:Bloody_Vengeance), [Curse of Vengeance](feat:Curse_of_Vengeance), [Seductive Channel](feat:Seductive_Channel)",
+				"",
 				"#### Magic Items - Altars",
+				"",
 				"[Altar of Calistria](magic/altar:Altar_of_Calistria)",
+				"",
 				"#### Magic Items - Armor",
+				"",
 				"[Armor of the Unquenchable Fire](magic/armor:Armor_of_the_Unquenchable_Fire)",
+				"",
 				"#### Magic Items - Rings",
+				"",
 				"[Ring of Unquenchable Passions](magic/ring:Ring_of_Unquenchable_Passions)",
+				"",
 				"#### Magic Items - Weapons",
+				"",
 				"[Calistrian Kiss](magic/weapon:Calistrian_Kiss), [Hateful Sting](magic/weapon:Hateful_Sting), [Vengeful Kiss](magic/weapon:Vengeful_Kiss)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Elixir of Emulation](magic/wondrous:Elixir_of_Emulation), [Elixir of Love](magic/wondrous:Elixir_of_Love), [Eyes of Charming](magic/wondrous:Eyes_of_Charming), [Scarves of the Stinging Dancer](magic/wondrous:Scarves_of_the_Stinging_Dancer), [Stinging Stiletto](magic/wondrous:Stinging_Stiletto), [Feather Token (Whip)](magic/wondrous:Feather_Token_(Whip))",
+				"",
 				"#### Monsters",
+				"",
 				"[The Menotherian (Herald)](monster:The_Menotherian_(Herald)), [Vendenopterix](monster:Vendenopterix)",
+				"",
 				"#### Spells",
+				"",
 				"[Betraying Sting](spell:Betraying_Sting), [Calistria's Guardian Wasps](spell:Calistria's_Guardian_Wasps), [Cape of Wasps](spell:Cape_of_Wasps), [Harvest Knowledge](spell:Harvest_Knowledge), [Incessant Buzzing](spell:Incessant_Buzzing), [Lover's Vengeance](spell:Lover's_Vengeance), [Painful Revelation](spell:Painful_Revelation), [Phantasmal Revenge](spell:Phantasmal_Revenge), [Pillow Talk](spell:Pillow_Talk), [Reveal Secrets](spell:Reveal_Secrets), [Secret Speech](spell:Secret_Speech), [Seducer's Eyes](spell:Seducer's_Eyes), [Unnatural Lust](spell:Unnatural_Lust), [Vengeful Stinger](spell:Vengeful_Stinger)",
+				"",
 				"#### Traits",
+				"",
 				"[Calistrian Courtesan](trait:Calistrian_Courtesan), [Enchanting Conniver](trait:Enchanting_Conniver), [Holy Schemer](trait:Holy_Schemer), [Opportunistic](trait:Opportunistic), [Sacred Avenger](trait:Sacred_Avenger), [Wasp Whisperer](trait:Wasp_Whisperer)"
 			],
 			"unique_spell_rules": [
@@ -4835,8 +5035,7 @@
 			],
 			"subdomains": [
 				"Deception",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Fear",
 				"Fur",
 				"Moon",
@@ -4886,8 +5085,7 @@
 				"Travel"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Competition",
 				"Exploration",
 				"Ferocity",
@@ -4963,26 +5161,47 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Cad (Fighter)](unknown:Cad_(Fighter)), [Daredevil (Bard)](unknown:Daredevil_(Bard)), [Drunken Brute (Barbarian)](unknown:Drunken_Brute_(Barbarian))",
+				"",
 				"#### Feats",
+				"",
 				"[Bravery in Action](feat:Bravery_in_Action), [Courage in a Bottle](feat:Courage_in_a_Bottle), [Drunken Brawler](feat:Drunken_Brawler), [Drunken God's Blessings](feat:Drunken_God's_Blessings), [Liberation Channel](feat:Liberation_Channel), [Two-Weapon Drunkard](feat:Two-Weapon_Drunkard), [Unbound Bravery](feat:Unbound_Bravery), [Undaunted Bravery](feat:Undaunted_Bravery)",
+				"",
 				"#### Magic Items - Altars",
+				"",
 				"[Altar of Cayden Cailean](magic/altar:Altar_of_Cayden_Cailean)",
+				"",
 				"#### Magic Items - Armor",
+				"",
 				"[Lucky Drunk's Mail](magic/armor:Lucky_Drunk's_Mail)",
+				"",
 				"#### Magic Items - Rings",
+				"",
 				"[Red Hound Ring](magic/ring:Red_Hound_Ring)",
+				"",
 				"#### Magic Items - Weapons",
+				"",
 				"[Cailean Fighting Tankard](magic/weapon:Cailean_Fighting_Tankard), [Carouser's Retort](magic/weapon:Carouser's_Retort), [Censuring Placard](magic/weapon:Censuring_Placard)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Amulet of Courage](magic/wondrous:Amulet_of_Courage), [Drinking Horn of Bottomless Valor](magic/wondrous:Drinking_Horn_of_Bottomless_Valor), [Neverspill Goblet](magic/wondrous:Neverspill_Goblet), [Parting Glass](magic/wondrous:Parting_Glass), [Stagger-Proof Boots](magic/wondrous:Stagger-Proof_Boots), [Tankard of the Drunken Hero](magic/wondrous:Tankard_of_the_Drunken_Hero), [Thundering Collar](magic/wondrous:Thundering_Collar), [Watchful Tankard](magic/wondrous:Watchful_Tankard)",
+				"",
 				"#### Monsters",
+				"",
 				"[Ataxian](monster:Ataxian), [Thais (Herald)](monster:Thais_(Herald))",
+				"",
 				"#### Prestige Classes",
+				"",
 				"[Brewkeeper](unknown:Brewkeeper), [Chevalier](unknown:Chevalier)",
+				"",
 				"#### Spells",
+				"",
 				"[Blessing of Courage and Life](spell:Blessing_of_Courage_and_Life), [Drunkard's Breath](spell:Drunkard's_Breath), [Enhance Water](spell:Enhance_Water), [Ferment](spell:Ferment), [Free Spirit](spell:Free_Spirit), [Freedom's Toast](spell:Freedom's_Toast), [Heroism](spell:Heroism), [Knock, Mass](spell:Knock,_Mass), [Pick Your Poison](spell:Pick_Your_Poison), [Spirit Share](spell:Spirit_Share)",
+				"",
 				"#### Traits",
+				"",
 				"[Adventurous Imbiber](trait:Adventurous_Imbiber), [Fortified Drinker](trait:Fortified_Drinker), [Good-Natured](trait:Good-Natured), [Strong Willed](trait:Strong_Willed), [Strong-Willed](trait:Strong-Willed)"
 			],
 			"unique_spell_rules": [
@@ -5032,8 +5251,7 @@
 				"Plant"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Feather",
 				"Fur",
 				"Growth"
@@ -5051,8 +5269,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -5099,6 +5320,7 @@
 			],
 			"for_followers": [
 				"#### Prestige Classes",
+				"",
 				"[Mortal Usher](unknown:Mortal_Usher), [Proctor](unknown:Proctor)"
 			]
 		},
@@ -5125,8 +5347,7 @@
 				"Protection"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Defense",
 				"Fate",
 				"Purity"
@@ -5156,8 +5377,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -5319,6 +5543,7 @@
 			],
 			"for_followers": [
 				"#### Traits",
+				"",
 				"[Burst of Speed](trait:Burst_of_Speed)"
 			]
 		},
@@ -5391,12 +5616,19 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Grim Apostle (Spiritualist)](unknown:Grim_Apostle_(Spiritualist))",
+				"",
 				"#### Feats",
+				"",
 				"[Aura of Succumbing](feat:Aura_of_Succumbing)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Bridle of Charon](magic/wondrous:Bridle_of_Charon)",
+				"",
 				"#### Traits",
+				"",
 				"[Covenant of Abaddon](trait:Covenant_of_Abaddon)"
 			]
 		},
@@ -5436,10 +5668,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Dreamed Secrets](feat:Dreamed_Secrets)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Preklikin's Book of Cults](magic/wondrous:Preklikin's_Book_of_Cults)",
+				"",
 				"#### Traits",
+				"",
 				"[Unspeakable Bond](trait:Unspeakable_Bond)"
 			]
 		},
@@ -5667,8 +5904,7 @@
 				"Magic"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Insanity",
 				"Revelry",
 				"Whimsy"
@@ -5698,8 +5934,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -5861,8 +6100,7 @@
 				"Magic"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Fear",
 				"Slavery",
 				"Undead"
@@ -5894,6 +6132,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -5952,6 +6191,7 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Planar Rifter (Gunslinger)](unknown:Planar_Rifter_(Gunslinger))"
 			]
 		},
@@ -6059,10 +6299,15 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Ankou's Shadow (Slayer)](unknown:Ankou's_Shadow_(Slayer)), [Shadow Scion (Rogue)](unknown:Shadow_Scion_(Rogue))",
+				"",
 				"#### Feats",
+				"",
 				"[Fey Friend](feat:Fey_Friend)",
+				"",
 				"#### Traits",
+				"",
 				"[Shaper of Reality](trait:Shaper_of_Reality)"
 			]
 		},
@@ -6089,8 +6334,7 @@
 				"Water"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Memory",
 				"Oceans",
 				"Rivers"
@@ -6122,6 +6366,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -6163,10 +6408,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Dreamed Secrets](feat:Dreamed_Secrets)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Preklikin's Book of Cults](magic/wondrous:Preklikin's_Book_of_Cults)",
+				"",
 				"#### Traits",
+				"",
 				"[Unspeakable Bond](trait:Unspeakable_Bond)"
 			]
 		},
@@ -6197,8 +6447,7 @@
 			"subdomains": [
 				"Caves",
 				"Decay",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Growth"
 			],
 			"details": [
@@ -6251,12 +6500,19 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Spells",
+				"",
 				"[Fungal Blisters](spell:Fungal_Blisters), [Sebaceous Twin](spell:Sebaceous_Twin)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			],
 			"unique_summon_rules": [
@@ -6336,8 +6592,7 @@
 				"Evil"
 			],
 			"subdomains": [
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Feather",
 				"Fur",
 				"Rage"
@@ -6402,8 +6657,7 @@
 			],
 			"subdomains": [
 				"Catastrophe",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Oceans",
 				"Rage"
 			],
@@ -6457,10 +6711,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -6495,8 +6754,7 @@
 				"Catastrophe",
 				"Corruption",
 				"Deception",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Dragon",
 				"Greed",
 				"Hatred",
@@ -6556,10 +6814,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hunter of Dahak](feat:Hunter_of_Dahak)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Nightstone of Sorrow](magic/wondrous:Nightstone_of_Sorrow)",
+				"",
 				"#### Traits",
+				"",
 				"[Dragon Tracker](trait:Dragon_Tracker), [Dragonslayer](trait:Dragonslayer)"
 			],
 			"unique_spell_rules": [
@@ -6677,8 +6940,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus), [Scarred by War](trait:Scarred_by_War)"
 			]
 		},
@@ -6705,8 +6971,7 @@
 				"Law"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Heroism",
 				"Honor",
 				"Judgment"
@@ -6736,8 +7001,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -6784,6 +7052,7 @@
 			],
 			"for_followers": [
 				"#### Prestige Classes",
+				"",
 				"[Mortal Usher](unknown:Mortal_Usher), [Proctor](unknown:Proctor)"
 			]
 		},
@@ -6814,8 +7083,7 @@
 			"subdomains": [
 				"Blood",
 				"Catastrophe",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Insect",
 				"Tactics"
 			],
@@ -6870,14 +7138,23 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Sets",
+				"",
 				"[Dread Demonic Armor](magic/set:Dread_Demonic_Armor)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Spells",
+				"",
 				"[Abyssal Vermin](spell:Abyssal_Vermin)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			],
 			"unique_spell_rules": [
@@ -6937,8 +7214,7 @@
 				"Travel"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Curse",
 				"Exploration",
 				"Fate",
@@ -7005,7 +7281,7 @@
 				"",
 				"**Initial Benefit:** You can add your Charisma bonus to attack rolls and damage rolls when wielding a starknife. If you do so, you don't modify attack rolls and damage rolls with your starknife with your Strength modifier, your Dexterity modifier (if you have Weapon Finesse), or any other ability score (if you have an ability that allows you to modify attack rolls and damage rolls with that ability score).",
 				"",
-				"**Advanced Prerequisite:** Dexterity 17, [Divine Fighting Technique](feat:Divine_Fighting_Technique), [Point-Blank Shot](feat:Point-Blank_Shot), [Rapid Shot](feat:Rapid_Shot), either Base Attack Bonus +11 or 11 ranks in [Sleight of Hand](skills:Sleight_of_Hand).",
+				"**Advanced Prerequisite:** Dexterity 17, [Divine Fighting Technique](feat:Divine_Fighting_Technique), [Point-Blank Shot](feat:Point-Blank_Shot), [Rapid Shot](feat:Rapid_Shot), either Base Attack Bonus +11 or 11 ranks in [Sleight of Hand](skill:Sleight_of_Hand).",
 				"",
 				"**Optional Advanced Replacement:** A chaotic good bard of at least 10th level who worships Desna can replace a versatile performance with the following advanced benefit without meeting its prerequisites.",
 				"",
@@ -7013,28 +7289,51 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Guide (Ranger)](unknown:Guide_(Ranger)), [Stargazer (Oracle)](unknown:Stargazer_(Oracle)), [World Walker (Druid)](unknown:World_Walker_(Druid))",
+				"",
 				"#### Feats",
+				"",
 				"[Butterfly's Sting](feat:Butterfly's_Sting), [Cosmic Gate](feat:Cosmic_Gate), [Guided Star](feat:Guided_Star), [Improved Stellar Wanderer](feat:Improved_Stellar_Wanderer), [Lady Luck's Guidance](feat:Lady_Luck's_Guidance), [Stellar Wanderer](feat:Stellar_Wanderer), [Trailblazing Channel](feat:Trailblazing_Channel)",
+				"",
 				"#### Magic Items - Altars",
+				"",
 				"[Altar of Desna](magic/altar:Altar_of_Desna)",
+				"",
 				"#### Magic Items - Armor",
+				"",
 				"[Starsong Mail](magic/armor:Starsong_Mail)",
+				"",
 				"#### Magic Items - Rings",
+				"",
 				"[Ring of Stairs and Stars](magic/ring:Ring_of_Stairs_and_Stars)",
+				"",
 				"#### Magic Items - Staves",
+				"",
 				"[Staff of Slumber](magic/staff:Staff_of_Slumber)",
+				"",
 				"#### Magic Items - Weapons",
+				"",
 				"[Shooting Starknife](magic/weapon:Shooting_Starknife)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Cloak of the Night Sky](magic/wondrous:Cloak_of_the_Night_Sky), [Desna's Coin](magic/wondrous:Desna's_Coin), [Dream Candle](magic/wondrous:Dream_Candle), [Dreamwing Cape](magic/wondrous:Dreamwing_Cape), [Necklace of Netted Stars](magic/wondrous:Necklace_of_Netted_Stars), [Robe of Stars](magic/wondrous:Robe_of_Stars), [Starfaring Robes](magic/wondrous:Starfaring_Robes), [Stone of Good Luck (Luckstone)](magic/wondrous:Stone_of_Good_Luck_(Luckstone))",
+				"",
 				"#### Monsters",
+				"",
 				"[Night Monarch (Herald)](monster:Night_Monarch_(Herald)), [Thyrlien](monster:Thyrlien)",
+				"",
 				"#### Prestige Classes",
+				"",
 				"[Sphere Singer](unknown:Sphere_Singer), [Spherewalker](unknown:Spherewalker)",
+				"",
 				"#### Spells",
+				"",
 				"[Beacon of Luck](spell:Beacon_of_Luck), [Dream](spell:Dream), [Dream Feast](spell:Dream_Feast), [Find the Path](spell:Find_the_Path), [Guiding Star](spell:Guiding_Star), [Haze of Dreams](spell:Haze_of_Dreams), [Traveling Dream](spell:Traveling_Dream), [Wandering Star Motes](spell:Wandering_Star_Motes)",
+				"",
 				"#### Traits",
+				"",
 				"[Faithful Artist](trait:Faithful_Artist), [Follower of the Stars](trait:Follower_of_the_Stars), [Good Dreams](trait:Good_Dreams), [Starchild](trait:Starchild), [Stoic Optimism](trait:Stoic_Optimism), [Thrill-Seeker](trait:Thrill-Seeker)"
 			],
 			"unique_spell_rules": [
@@ -7084,8 +7383,7 @@
 				"Law"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Murder",
 				"Night",
 				"Undead"
@@ -7117,6 +7415,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -7230,11 +7529,10 @@
 			],
 			"subdomains": [
 				"Deception",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Hubris (Nobility)",
 				"Leadership",
-				"Legislation (Law)",
+				"Legislation",
 				"Sovereignty",
 				"Tyranny"
 			],
@@ -7280,8 +7578,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)",
+				"",
 				"#### Traits",
+				"",
 				"[Flames of Hell](trait:Flames_of_Hell)"
 			]
 		},
@@ -7309,8 +7610,7 @@
 			],
 			"subdomains": [
 				"Catastrophe",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Rage",
 				"Souls"
 			],
@@ -7430,8 +7730,7 @@
 			"subdomains": [
 				"Catastrophe",
 				"Caves",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Dragon"
 			],
 			"details": [
@@ -7461,6 +7760,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			],
 			"unique_spell_rules": [
@@ -7517,8 +7817,11 @@
 			],
 			"for_followers": [
 				"#### Spells",
+				"",
 				"[Bloodsworn Retribution](spell:Bloodsworn_Retribution)",
+				"",
 				"#### Traits",
+				"",
 				"[Furious Vengeance](trait:Furious_Vengeance)"
 			]
 		},
@@ -7543,8 +7846,7 @@
 			],
 			"subdomains": [
 				"Defense",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Family",
 				"Home"
 			],
@@ -7633,12 +7935,19 @@
 			],
 			"for_followers": [
 				"#### Magic Items - Armor",
+				"",
 				"[Toiler's Armor](magic/armor:Toiler's_Armor)",
+				"",
 				"#### Magic Items - Rings",
+				"",
 				"[Droskar's Guiding Ring](magic/ring:Droskar's_Guiding_Ring)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Gray Gambler's Hat](magic/wondrous:Gray_Gambler's_Hat)",
+				"",
 				"#### Traits",
+				"",
 				"[Extended Toil](trait:Extended_Toil), [Resigned](trait:Resigned), [Toilcrafter](trait:Toilcrafter)"
 			]
 		},
@@ -7719,8 +8028,7 @@
 				"Madness"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Freedom",
 				"Insanity",
 				"Nightmare"
@@ -7752,6 +8060,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -7775,8 +8084,7 @@
 				"Sun"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Day",
 				"Feather",
 				"Light"
@@ -7818,8 +8126,7 @@
 			"subdomains": [
 				"Blood",
 				"Catastrophe",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Rage"
 			],
 			"details": [
@@ -7882,8 +8189,7 @@
 				"Law"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Construct",
 				"Metal",
 				"Toil"
@@ -7901,8 +8207,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -7929,8 +8238,7 @@
 				"Travel"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Exploration",
 				"Tyranny",
 				"Wind"
@@ -7962,6 +8270,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -7986,8 +8295,7 @@
 				"Weather"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Cooperation",
 				"Education (Community)",
 				"Exploration",
@@ -8005,6 +8313,7 @@
 			],
 			"for_followers": [
 				"#### Traits",
+				"",
 				"[Sacred Orienteer](trait:Sacred_Orienteer)"
 			]
 		},
@@ -8039,8 +8348,7 @@
 				"Plant"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Education (Community)",
 				"Family",
 				"Feather",
@@ -8126,26 +8434,47 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Archer (Fighter)](unknown:Archer_(Fighter)), [Divine Hunter (Paladin)](unknown:Divine_Hunter_(Paladin)), [Sniper (Rogue)](unknown:Sniper_(Rogue)), [Trapper (Ranger)](unknown:Trapper_(Ranger))",
+				"",
 				"#### Feats",
+				"",
 				"[Erastil's Blessing](feat:Erastil's_Blessing), [Nimble Natural Summons](feat:Nimble_Natural_Summons), [Savior's Arrow](feat:Savior's_Arrow), [Thicket Channel](feat:Thicket_Channel)",
+				"",
 				"#### Magic Items - Altars",
+				"",
 				"[Altar of Erastil](magic/altar:Altar_of_Erastil)",
+				"",
 				"#### Magic Items - Armor",
+				"",
 				"[Deadeye Leather](magic/armor:Deadeye_Leather)",
+				"",
 				"#### Magic Items - Rings",
+				"",
 				"[Deadeye's Spotter Ring](magic/ring:Deadeye's_Spotter_Ring)",
+				"",
 				"#### Magic Items - Weapons",
+				"",
 				"[Kinbonded Bow](magic/weapon:Kinbonded_Bow)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Bracers of Archery (Greater)](magic/wondrous:Bracers_of_Archery_(Greater)), [Bracers of Archery (Lesser)](magic/wondrous:Bracers_of_Archery_(Lesser)), [Bronze Skinning Knife](magic/wondrous:Bronze_Skinning_Knife), [Cloak of Elvenkind](magic/wondrous:Cloak_of_Elvenkind), [Efficient Quiver](magic/wondrous:Efficient_Quiver)",
+				"",
 				"#### Monsters",
+				"",
 				"[Stag Archon](monster:Stag_Archon), [The Grim White Stag (Herald)](monster:The_Grim_White_Stag_(Herald))",
+				"",
 				"#### Prestige Classes",
+				"",
 				"[Hinterlander](unknown:Hinterlander)",
+				"",
 				"#### Spells",
+				"",
 				"[Allfood](spell:Allfood), [Deadeye's Arrow](spell:Deadeye's_Arrow), [Deadeye's Lore](spell:Deadeye's_Lore), [Hunter's Blessing](spell:Hunter's_Blessing), [Tracking Mark](spell:Tracking_Mark)",
+				"",
 				"#### Traits",
+				"",
 				"[Deadeye Bowman](trait:Deadeye_Bowman), [Erastil's Speaker](trait:Erastil's_Speaker), [Patient Optimist](trait:Patient_Optimist), [Provider](trait:Provider), [Wise Teacher](trait:Wise_Teacher)"
 			],
 			"unique_spell_rules": [
@@ -8272,8 +8601,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -8300,8 +8632,7 @@
 				"Strength"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Freedom",
 				"Resolve",
 				"Revolution",
@@ -8334,8 +8665,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -8380,6 +8714,7 @@
 			],
 			"for_followers": [
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Sacrificial Dagger of the Blood Mother](magic/wondrous:Sacrificial_Dagger_of_the_Blood_Mother)"
 			]
 		},
@@ -8406,8 +8741,7 @@
 				"Law"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Memory",
 				"Murder",
 				"Thought"
@@ -8439,6 +8773,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -8548,8 +8883,7 @@
 				"Good"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Cloud",
 				"Construct",
 				"Friendship",
@@ -8569,8 +8903,11 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Twilight Speaker (Skald)](unknown:Twilight_Speaker_(Skald))",
+				"",
 				"#### Traits",
+				"",
 				"[Structural Knowledge](trait:Structural_Knowledge)"
 			]
 		},
@@ -8600,8 +8937,7 @@
 			"subdomains": [
 				"Ash",
 				"Blood",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Smoke"
 			],
 			"details": [
@@ -8654,10 +8990,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye), [Demonic Smith's Gloves](magic/wondrous:Demonic_Smith's_Gloves)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -8735,8 +9076,7 @@
 				"Good"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Family",
 				"Home",
 				"Martyr"
@@ -8762,8 +9102,11 @@
 			],
 			"for_followers": [
 				"#### Spells",
+				"",
 				"[Watchful Eye](spell:Watchful_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Blessed Orphan](trait:Blessed_Orphan), [Folgrit's Bounty](trait:Folgrit's_Bounty), [Folgrit's Mercy](trait:Folgrit's_Mercy)"
 			]
 		},
@@ -8835,8 +9178,7 @@
 			],
 			"subdomains": [
 				"Ash",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Growth",
 				"Slavery"
 			],
@@ -8867,6 +9209,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -8893,8 +9236,7 @@
 				"Water"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Oceans",
 				"Rivers",
 				"Wards"
@@ -8926,6 +9268,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -9003,8 +9346,7 @@
 			"subdomains": [
 				"Blood",
 				"Corruption",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Heroism",
 				"Honor",
 				"Hubris (Glory)",
@@ -9121,8 +9463,7 @@
 				"Water"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Ferocity",
 				"Oceans",
 				"Resolve"
@@ -9193,10 +9534,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)",
+				"",
 				"#### Spells",
+				"",
 				"[Heretic's Tongue](spell:Heretic's_Tongue)",
+				"",
 				"#### Traits",
+				"",
 				"[Flames of Hell](trait:Flames_of_Hell)"
 			],
 			"unique_spell_rules": [
@@ -9251,10 +9597,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Dreamed Secrets](feat:Dreamed_Secrets)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Preklikin's Book of Cults](magic/wondrous:Preklikin's_Book_of_Cults)",
+				"",
 				"#### Traits",
+				"",
 				"[Unspeakable Bond](trait:Unspeakable_Bond)"
 			]
 		},
@@ -9282,8 +9633,7 @@
 			],
 			"subdomains": [
 				"Ancestors",
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Home",
 				"Loyalty"
 			],
@@ -9312,8 +9662,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -9340,11 +9693,10 @@
 			"subdomains": [
 				"Catastrophe",
 				"Cloud",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Fur",
 				"Insect",
-				"Plague (Evil)",
+				"Plague",
 				"Rage",
 				"Wind"
 			],
@@ -9394,10 +9746,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Siphon Channel](feat:Siphon_Channel)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Gossamer Amberstone](magic/wondrous:Gossamer_Amberstone)",
+				"",
 				"#### Traits",
+				"",
 				"[Diseased Heart](trait:Diseased_Heart), [Potent Concoctions](trait:Potent_Concoctions)"
 			],
 			"unique_spell_rules": [
@@ -9440,8 +9797,7 @@
 				"Water"
 			],
 			"subdomains": [
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Murder",
 				"Rivers",
 				"Undead"
@@ -9496,10 +9852,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -9605,24 +9966,43 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Armor Master (Fighter)](unknown:Armor_Master_(Fighter)), [Armored Hulk (Barbarian)](unknown:Armored_Hulk_(Barbarian)), [Invulnerable Rager (Barbarian)](unknown:Invulnerable_Rager_(Barbarian))",
+				"",
 				"#### Feats",
+				"",
 				"[Channel Viciousness](feat:Channel_Viciousness), [Charge Through](feat:Charge_Through), [Furious Focus](feat:Furious_Focus), [Ironbound Master](feat:Ironbound_Master), [To the Last](feat:To_the_Last)",
+				"",
 				"#### Magic Items - Altars",
+				"",
 				"[Altar of Gorum](magic/altar:Altar_of_Gorum)",
+				"",
 				"#### Magic Items - Armor",
+				"",
 				"[Eternal Iron Breastplate](magic/armor:Eternal_Iron_Breastplate)",
+				"",
 				"#### Magic Items - Rings",
+				"",
 				"[Ring of Sundering Metals](magic/ring:Ring_of_Sundering_Metals)",
+				"",
 				"#### Magic Items - Weapons",
+				"",
 				"[Bloodlight](magic/weapon:Bloodlight)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Iron Lord's Transforming Slivers](magic/wondrous:Iron_Lord's_Transforming_Slivers), [Maul of the Titans](magic/wondrous:Maul_of_the_Titans), [Shad'gorum Nugget](magic/wondrous:Shad'gorum_Nugget)",
+				"",
 				"#### Monsters",
+				"",
 				"[The First Blade (Herald)](monster:The_First_Blade_(Herald)), [Zentragt](monster:Zentragt)",
+				"",
 				"#### Spells",
+				"",
 				"[Gorum's Armor](spell:Gorum's_Armor), [Instant Armor](spell:Instant_Armor), [Lighten Object](spell:Lighten_Object), [Lighten Object, Mass](spell:Lighten_Object,_Mass), [Swallow Your Fear](spell:Swallow_Your_Fear)",
+				"",
 				"#### Traits",
+				"",
 				"[Battlefield Caster](trait:Battlefield_Caster), [Iron Grip](trait:Iron_Grip), [Shield-Trained](trait:Shield-Trained), [Strong Heart](trait:Strong_Heart), [Veteran of Battle](trait:Veteran_of_Battle)"
 			],
 			"unique_spell_rules": [
@@ -9748,28 +10128,51 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Aquatic Druid (Druid)](unknown:Aquatic_Druid_(Druid)), [Crashing Wave (Cleric)](unknown:Crashing_Wave_(Cleric)), [Sea Singer (Bard)](unknown:Sea_Singer_(Bard)), [Storm Druid (Druid)](unknown:Storm_Druid_(Druid))",
+				"",
 				"#### Feats",
+				"",
 				"[Channel Endurance](feat:Channel_Endurance), [Riptide Attack](feat:Riptide_Attack), [Wave Master](feat:Wave_Master)",
+				"",
 				"#### Magic Items - Altars",
+				"",
 				"[Altar of Gozreh](magic/altar:Altar_of_Gozreh)",
+				"",
 				"#### Magic Items - Armor",
+				"",
 				"[Driftwood Shield](magic/armor:Driftwood_Shield), [Kiml?? Coat](magic/armor:Kiml??_Coat)",
+				"",
 				"#### Magic Items - Rings",
+				"",
 				"[Ring of Animal Friendship](magic/ring:Ring_of_Animal_Friendship)",
+				"",
 				"#### Magic Items - Rods",
+				"",
 				"[Rod of Thunder and Lightning](magic/rod:Rod_of_Thunder_and_Lightning)",
+				"",
 				"#### Magic Items - Weapons",
+				"",
 				"[Stormstrike](magic/weapon:Stormstrike)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Featherscale Cloak](magic/wondrous:Featherscale_Cloak), [Orb of Storms](magic/wondrous:Orb_of_Storms), [Wayfinder of Zephyrs](magic/wondrous:Wayfinder_of_Zephyrs), [Windwave Kilt](magic/wondrous:Windwave_Kilt)",
+				"",
 				"#### Monsters",
+				"",
 				"[Personification of Fury (Herald)](monster:Personification_of_Fury_(Herald)), [Xocothian](monster:Xocothian)",
+				"",
 				"#### Prestige Classes",
+				"",
 				"[Storm Kindler](unknown:Storm_Kindler)",
+				"",
 				"#### Spells",
+				"",
 				"[Call Animal](spell:Call_Animal), [Control Weather](spell:Control_Weather), [Gozreh's Trident](spell:Gozreh's_Trident), [Hydraulic Torrent](spell:Hydraulic_Torrent), [Ice Armor](spell:Ice_Armor), [Read Weather](spell:Read_Weather), [Sky Swim](spell:Sky_Swim)",
+				"",
 				"#### Traits",
+				"",
 				"[Child of Nature](trait:Child_of_Nature), [Gozreh's Sight](trait:Gozreh's_Sight), [Natural Philosopher](trait:Natural_Philosopher), [Strong Swimmer](trait:Strong_Swimmer)"
 			],
 			"unique_spell_rules": [
@@ -9828,8 +10231,7 @@
 			],
 			"subdomains": [
 				"Curse",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Fear",
 				"Fur"
 			],
@@ -9860,6 +10262,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -9967,18 +10370,31 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Cultivator (Bard)](unknown:Cultivator_(Bard)), [Green Faith Initiate (Druid)](unknown:Green_Faith_Initiate_(Druid)), [Green Faith Marshal (Inquisitor)](unknown:Green_Faith_Marshal_(Inquisitor))",
+				"",
 				"#### Feats",
+				"",
 				"[Green Faith Acolyte](feat:Green_Faith_Acolyte)",
+				"",
 				"#### Magic Items - Weapons",
+				"",
 				"[Midsummer Sickle](magic/weapon:Midsummer_Sickle)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Evergreen Seed Pouch](magic/wondrous:Evergreen_Seed_Pouch), [Warden's Cudgel](magic/wondrous:Warden's_Cudgel)",
+				"",
 				"#### Prestige Classes",
+				"",
 				"[Green Faith Acolyte](unknown:Green_Faith_Acolyte)",
+				"",
 				"#### Spells",
+				"",
 				"[Hibernate](spell:Hibernate), [Summon Elemental Steed](spell:Summon_Elemental_Steed), [Tripvine](spell:Tripvine)",
+				"",
 				"#### Traits",
+				"",
 				"[Eyes of the Wild](trait:Eyes_of_the_Wild), [Know the Land](trait:Know_the_Land)"
 			],
 			"unique_summon_rules": [
@@ -10081,14 +10497,23 @@
 			],
 			"for_followers": [
 				"#### Magic Items - Weapons",
+				"",
 				"[Obliviating Flail](magic/weapon:Obliviating_Flail)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Deathlurker's Cloak](magic/wondrous:Deathlurker's_Cloak)",
+				"",
 				"#### Monsters",
+				"",
 				"[End's Voice (Herald)](monster:End's_Voice_(Herald))",
+				"",
 				"#### Spells",
+				"",
 				"[Curse Item](spell:Curse_Item)",
+				"",
 				"#### Traits",
+				"",
 				"[Broken Mind](trait:Broken_Mind)"
 			],
 			"unique_spell_rules": [
@@ -10211,8 +10636,7 @@
 				"Protection"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Defense",
 				"Friendship",
 				"Loyalty"
@@ -10230,8 +10654,11 @@
 			],
 			"for_followers": [
 				"#### Spells",
+				"",
 				"[Peacemaker's Parley](spell:Peacemaker's_Parley)",
+				"",
 				"#### Traits",
+				"",
 				"[Honeyed Words](trait:Honeyed_Words)"
 			]
 		},
@@ -10304,8 +10731,7 @@
 			],
 			"subdomains": [
 				"Corruption",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Hatred",
 				"Insanity",
 				"Nightmare",
@@ -10356,10 +10782,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Hate](feat:Channel_Hate)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Hag's Shabble](magic/wondrous:Hag's_Shabble)",
+				"",
 				"#### Traits",
+				"",
 				"[Vindictive Strike](trait:Vindictive_Strike), [Wronged](trait:Wronged)"
 			],
 			"unique_spell_rules": [
@@ -10396,8 +10827,7 @@
 			"subdomains": [
 				"Alchemy (Artifice)",
 				"Construct",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Resolve",
 				"Self-Realization (Strength)",
 				"Toil"
@@ -10453,10 +10883,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -10486,8 +10921,7 @@
 				"Arson",
 				"Ash",
 				"Defense",
-				"Devil (Evil)",
-				"Devil (Law)"
+				"Devil"
 			],
 			"details": [
 				"**Alignment** LE   ",
@@ -10516,6 +10950,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -10540,8 +10975,7 @@
 			],
 			"subdomains": [
 				"Blood",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Ferocity",
 				"Slavery"
 			],
@@ -10586,10 +11020,15 @@
 			],
 			"for_followers": [
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Great Barghest Hero Cloak](magic/wondrous:Great_Barghest_Hero_Cloak)",
+				"",
 				"#### Spells",
+				"",
 				"[Barghest Feast](spell:Barghest_Feast), [Hobbling Bomb Admixture](spell:Hobbling_Bomb_Admixture)",
+				"",
 				"#### Traits",
+				"",
 				"[Strength of the Barghest](trait:Strength_of_the_Barghest)"
 			],
 			"unique_spell_rules": [
@@ -10632,8 +11071,7 @@
 				"Strength"
 			],
 			"subdomains": [
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Ferocity",
 				"Moon",
 				"Nightmare"
@@ -10703,8 +11141,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -10785,6 +11226,7 @@
 			],
 			"for_followers": [
 				"#### Traits",
+				"",
 				"[Light Sleeper](trait:Light_Sleeper), [River Freedom](trait:River_Freedom)"
 			],
 			"unique_spell_rules": [
@@ -10919,12 +11361,19 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Dreamed Secrets](feat:Dreamed_Secrets)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Preklikin's Book of Cults](magic/wondrous:Preklikin's_Book_of_Cults)",
+				"",
 				"#### Spells",
+				"",
 				"[Yellow Sign](spell:Yellow_Sign)",
+				"",
 				"#### Traits",
+				"",
 				"[Unspeakable Bond](trait:Unspeakable_Bond)"
 			],
 			"unique_spell_rules": [
@@ -11009,8 +11458,7 @@
 				"Travel"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Cloud",
 				"Exploration",
 				"Love",
@@ -11113,6 +11561,7 @@
 			],
 			"for_followers": [
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Crackling Tassel](magic/wondrous:Crackling_Tassel)"
 			],
 			"unique_spell_rules": [
@@ -11151,8 +11600,7 @@
 				"Luck"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Cooperation",
 				"Fate",
 				"Love"
@@ -11170,8 +11618,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -11251,8 +11702,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Elemental Vigor](feat:Elemental_Vigor)",
+				"",
 				"#### Traits",
+				"",
 				"[Affinity for the Elements](trait:Affinity_for_the_Elements)"
 			]
 		},
@@ -11378,8 +11832,7 @@
 			],
 			"subdomains": [
 				"Day",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Light",
 				"Rage"
 			],
@@ -11410,6 +11863,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -11557,6 +12011,7 @@
 			],
 			"for_followers": [
 				"#### Prestige Classes",
+				"",
 				"[Proctor](unknown:Proctor)"
 			]
 		},
@@ -11610,10 +12065,15 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Twinned Summoner (Summoner)](unknown:Twinned_Summoner_(Summoner)), [Twinned Summoner (Summoner (Unchained))](unknown:Twinned_Summoner_(Summoner_(Unchained)))",
+				"",
 				"#### Feats",
+				"",
 				"[Fey Friend](feat:Fey_Friend)",
+				"",
 				"#### Traits",
+				"",
 				"[Shaper of Reality](trait:Shaper_of_Reality)"
 			]
 		},
@@ -11640,8 +12100,7 @@
 				"Plant"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Growth",
 				"Medicine",
 				"Restoration",
@@ -11673,8 +12132,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -11721,6 +12183,7 @@
 			],
 			"for_followers": [
 				"#### Prestige Classes",
+				"",
 				"[Mortal Usher](unknown:Mortal_Usher), [Proctor](unknown:Proctor)"
 			]
 		},
@@ -11773,6 +12236,7 @@
 			],
 			"for_followers": [
 				"#### Monsters",
+				"",
 				"[Libitinarii](monster:Libitinarii)"
 			]
 		},
@@ -11855,8 +12319,7 @@
 				"War"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Chivalry",
 				"Day",
 				"Duels",
@@ -11952,26 +12415,47 @@
 			],
 			"for_followers": [
 				"#### **Archetypes**",
+				"",
 				"[Battle Scout (Ranger)](unknown:Battle_Scout_(Ranger)), [Crusader (Cleric)](unknown:Crusader_(Cleric)), [Iomedaen Enforcer (Paladin)](unknown:Iomedaen_Enforcer_(Paladin)), [Shining Knight (Paladin)](unknown:Shining_Knight_(Paladin)), [Standard Bearer (Cavalier)](unknown:Standard_Bearer_(Cavalier))",
+				"",
 				"#### **Feats**",
+				"",
 				"[Disciple of the Sword](feat:Disciple_of_the_Sword), [Hands of Valor](feat:Hands_of_Valor), [Protective Channel](feat:Protective_Channel), [Strike True](feat:Strike_True)",
+				"",
 				"#### **Magic Items - Altars**",
+				"",
 				"[Altar of Iomedae](magic/altar:Altar_of_Iomedae)",
+				"",
 				"#### **Magic Items - Armor**",
+				"",
 				"[Icon of Order](magic/armor:Icon_of_Order), [Inheritor's Breastplate](magic/armor:Inheritor's_Breastplate), [War Commander's Field Plate](magic/armor:War_Commander's_Field_Plate)",
+				"",
 				"#### **Magic Items - Rings**",
+				"",
 				"[Knight-Inheritor's Ring](magic/ring:Knight-Inheritor's_Ring)",
+				"",
 				"#### **Magic Items - Weapons**",
+				"",
 				"[Crusader's Longsword](magic/weapon:Crusader's_Longsword), [Inheritor's Light](magic/weapon:Inheritor's_Light), [Iomedae's Needle](magic/weapon:Iomedae's_Needle)",
+				"",
 				"#### **Magic Items - Wondrous Items**",
+				"",
 				"[Knight's Pennon (Battle)](magic/wondrous:Knight's_Pennon_(Battle)), [Cloak of the Crusader](magic/wondrous:Cloak_of_the_Crusader), [Lord's Banner (Crusades)](magic/wondrous:Lord's_Banner_(Crusades)), [Glorious Tabard (Greater)](magic/wondrous:Glorious_Tabard_(Greater)), [Knight's Pennon (Honor)](magic/wondrous:Knight's_Pennon_(Honor)), [Inheritor's Gauntlet](magic/wondrous:Inheritor's_Gauntlet), [Glorious Tabard (Lesser)](magic/wondrous:Glorious_Tabard_(Lesser)), [Medal of the Hero's Heart](magic/wondrous:Medal_of_the_Hero's_Heart), [Knight's Pennon (Parley)](magic/wondrous:Knight's_Pennon_(Parley)), [Lord's Banner (Swiftness)](magic/wondrous:Lord's_Banner_(Swiftness)), [Lord's Banner (Terror)](magic/wondrous:Lord's_Banner_(Terror)), [Lord's Banner (Victory)](magic/wondrous:Lord's_Banner_(Victory))",
+				"",
 				"#### **Monsters**",
+				"",
 				"[Hand of the Inheritor (Herald)](monster:Hand_of_the_Inheritor_(Herald)), [Iophanite](monster:Iophanite)",
+				"",
 				"#### **Prestige Classes**",
+				"",
 				"[Heritor Knight](unknown:Heritor_Knight), [Inheritor's Crusader](unknown:Inheritor's_Crusader), [Knight of Ozem](unknown:Knight_of_Ozem)",
+				"",
 				"#### **Spells**",
+				"",
 				"[Bestow Grace of the Champion](spell:Bestow_Grace_of_the_Champion), [Burst of Glory](spell:Burst_of_Glory), [Inheritor's Smite](spell:Inheritor's_Smite), [Light Prison](spell:Light_Prison), [Litany of Righteousness](spell:Litany_of_Righteousness), [Spear of Purity](spell:Spear_of_Purity), [Weapons Against Evil](spell:Weapons_Against_Evil)",
+				"",
 				"#### **Traits**",
+				"",
 				"[A Shining Beacon](trait:A_Shining_Beacon), [Divine Warrior](trait:Divine_Warrior), [Inheritor's Immunity](trait:Inheritor's_Immunity), [Purity of Faith](trait:Purity_of_Faith), [Regal Presence](trait:Regal_Presence), [Searing Beacon](trait:Searing_Beacon)"
 			],
 			"unique_spell_rules": [
@@ -12100,8 +12584,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -12221,28 +12708,51 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Disciple of Wholeness (Monk)](unknown:Disciple_of_Wholeness_(Monk)), [Disciple of Wholeness (Monk (Unchained))](unknown:Disciple_of_Wholeness_(Monk_(Unchained))), [Iroran Paladin (Paladin)](unknown:Iroran_Paladin_(Paladin)), [Ki Mystic (Monk)](unknown:Ki_Mystic_(Monk)), [Scrollmaster (Wizard)](unknown:Scrollmaster_(Wizard)), [Unarmed Fighter (Fighter)](unknown:Unarmed_Fighter_(Fighter))",
+				"",
 				"#### Feats",
+				"",
 				"[Improved Unarmed Strike](feat:Improved_Unarmed_Strike), [Ki Channel](feat:Ki_Channel), [Master of Knowledge](feat:Master_of_Knowledge), [Scholar](feat:Scholar), [Steady Engagement](feat:Steady_Engagement)",
+				"",
 				"#### Magic Items - Altars",
+				"",
 				"[Altar of Irori](magic/altar:Altar_of_Irori)",
+				"",
 				"#### Magic Items - Armor",
+				"",
 				"[Perfection Leather](magic/armor:Perfection_Leather)",
+				"",
 				"#### Magic Items - Rings",
+				"",
 				"[Ring of Serene Contortions](magic/ring:Ring_of_Serene_Contortions)",
+				"",
 				"#### Magic Items - Sets",
+				"",
 				"[Irori's Meditation](magic/set:Irori's_Meditation)",
+				"",
 				"#### Magic Items - Weapons",
+				"",
 				"[Perfectionist Shavtoosh](magic/weapon:Perfectionist_Shavtoosh), [Quarterstaff of Contemplation](magic/weapon:Quarterstaff_of_Contemplation)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Amulet of Mighty Fists (+1)](magic/wondrous:Amulet_of_Mighty_Fists_(+1)), [Amulet of Mighty Fists (+2)](magic/wondrous:Amulet_of_Mighty_Fists_(+2)), [Amulet of Mighty Fists (+3)](magic/wondrous:Amulet_of_Mighty_Fists_(+3)), [Amulet of Mighty Fists (+4)](magic/wondrous:Amulet_of_Mighty_Fists_(+4)), [Amulet of Mighty Fists (+5)](magic/wondrous:Amulet_of_Mighty_Fists_(+5)), [Incense of Meditation](magic/wondrous:Incense_of_Meditation), [Monk's Robe](magic/wondrous:Monk's_Robe), [Purification Talisman](magic/wondrous:Purification_Talisman), [Robe of the Master of Masters](magic/wondrous:Robe_of_the_Master_of_Masters)",
+				"",
 				"#### Monsters",
+				"",
 				"[Pavbagha](monster:Pavbagha), [The Old Man (Herald)](monster:The_Old_Man_(Herald))",
+				"",
 				"#### Prestige Classes",
+				"",
 				"[Champion of Irori](unknown:Champion_of_Irori)",
+				"",
 				"#### Spells",
+				"",
 				"[Abstemiousness](spell:Abstemiousness), [Blood Crow Strike](spell:Blood_Crow_Strike), [Channel Vigor](spell:Channel_Vigor), [Replenish Ki](spell:Replenish_Ki)",
+				"",
 				"#### Traits",
+				"",
 				"[Centered](trait:Centered), [Eternal Understanding](trait:Eternal_Understanding), [Seer of Reality](trait:Seer_of_Reality), [Sensing Imperfection](trait:Sensing_Imperfection), [Wisdom in the Flesh](trait:Wisdom_in_the_Flesh)"
 			],
 			"unique_spell_rules": [
@@ -12404,10 +12914,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Dreamed Secrets](feat:Dreamed_Secrets)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Preklikin's Book of Cults](magic/wondrous:Preklikin's_Book_of_Cults)",
+				"",
 				"#### Traits",
+				"",
 				"[Unspeakable Bond](trait:Unspeakable_Bond)"
 			]
 		},
@@ -12437,8 +12952,7 @@
 			"subdomains": [
 				"Ash",
 				"Blood",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Tactics"
 			],
 			"details": [
@@ -12477,6 +12991,7 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Iron Tyrant (Antipaladin)](unknown:Iron_Tyrant_(Antipaladin))"
 			]
 		},
@@ -12573,6 +13088,7 @@
 			],
 			"for_followers": [
 				"#### Traits",
+				"",
 				"[Fruits of Your Labor](trait:Fruits_of_Your_Labor)"
 			]
 		},
@@ -12631,8 +13147,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -12659,8 +13178,7 @@
 				"Water"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Flotsam",
 				"Revelry",
 				"Rivers"
@@ -12690,8 +13208,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -12738,6 +13259,7 @@
 			],
 			"for_followers": [
 				"#### Prestige Classes",
+				"",
 				"[Proctor](unknown:Proctor)"
 			]
 		},
@@ -12766,8 +13288,7 @@
 			],
 			"subdomains": [
 				"Deception",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Fur",
 				"Moon"
 			],
@@ -12821,10 +13342,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -12851,8 +13377,7 @@
 				"Law"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Family",
 				"Home",
 				"Restoration"
@@ -12884,6 +13409,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -12912,8 +13438,7 @@
 			],
 			"subdomains": [
 				"Catastrophe",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Flotsam",
 				"Rage"
 			],
@@ -12967,10 +13492,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -13049,8 +13579,7 @@
 				"Knowledge"
 			],
 			"subdomains": [
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Memory",
 				"Murder",
 				"Undead"
@@ -13105,10 +13634,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			],
 			"unique_summon_rules": [
@@ -13202,8 +13736,7 @@
 				"Law"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Murder",
 				"Slavery",
 				"Undead"
@@ -13235,6 +13768,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -13344,8 +13878,7 @@
 				"Law"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Espionage (Knowledge)",
 				"Moon",
 				"Night",
@@ -13364,8 +13897,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -13407,8 +13943,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Elemental Vigor](feat:Elemental_Vigor), [Touch of the Brackish Emperor](feat:Touch_of_the_Brackish_Emperor)",
+				"",
 				"#### Traits",
+				"",
 				"[Affinity for the Elements](trait:Affinity_for_the_Elements)"
 			]
 		},
@@ -13477,8 +14016,7 @@
 				"Travel"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Day",
 				"Exploration",
 				"Light"
@@ -13496,8 +14034,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -13544,6 +14085,7 @@
 			],
 			"for_followers": [
 				"#### Prestige Classes",
+				"",
 				"[Proctor](unknown:Proctor)"
 			]
 		},
@@ -13571,8 +14113,7 @@
 				"Weather"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Feather",
 				"Fur",
 				"Growth",
@@ -13624,6 +14165,7 @@
 			],
 			"for_followers": [
 				"#### Traits",
+				"",
 				"[Favored Prey](trait:Favored_Prey)"
 			],
 			"unique_spell_rules": [
@@ -13698,8 +14240,7 @@
 			],
 			"subdomains": [
 				"Blood",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Fear",
 				"Fur",
 				"Insect"
@@ -13738,8 +14279,7 @@
 				"Travel"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Captivation",
 				"Exploration",
 				"Fate",
@@ -13807,8 +14347,11 @@
 			],
 			"for_followers": [
 				"#### Spells",
+				"",
 				"[Oath of Justice](spell:Oath_of_Justice)",
+				"",
 				"#### Traits",
+				"",
 				"[Strict Judgment](trait:Strict_Judgment)"
 			]
 		},
@@ -13867,8 +14410,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -13897,8 +14443,7 @@
 				"War"
 			],
 			"subdomains": [
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Ferocity",
 				"Ice",
 				"Tactics"
@@ -13953,12 +14498,19 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Spells",
+				"",
 				"[Frosthammer](spell:Frosthammer)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			],
 			"unique_spell_rules": [
@@ -14014,8 +14566,7 @@
 			"subdomains": [
 				"Ambush",
 				"Deception",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Smoke"
 			],
 			"details": [
@@ -14060,8 +14611,7 @@
 				"Magic"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Divine",
 				"Memory",
 				"Thought"
@@ -14079,8 +14629,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -14219,10 +14772,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Daring Exploit](feat:Daring_Exploit), [Intrepid Rescuer](feat:Intrepid_Rescuer)",
+				"",
 				"#### Prestige Classes",
+				"",
 				"[Darechaser](unknown:Darechaser)",
+				"",
 				"#### Traits",
+				"",
 				"[Strength's Fanfare](trait:Strength's_Fanfare), [The Flexing Arm](trait:The_Flexing_Arm)"
 			],
 			"unique_spell_rules": [
@@ -14258,8 +14816,7 @@
 				"Ash",
 				"Catastrophe",
 				"Decay",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Hatred",
 				"Rage",
 				"Smoke"
@@ -14356,8 +14913,7 @@
 				"Sun"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Fate",
 				"Light",
 				"Thirst",
@@ -14389,8 +14945,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -14429,8 +14988,7 @@
 				"Cannibalism",
 				"Corruption",
 				"Deception",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Ferocity",
 				"Insanity",
 				"Nightmare",
@@ -14547,22 +15105,39 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Beast Rider (Cavalier)](unknown:Beast_Rider_(Cavalier)), [Beast-Bonded (Witch)](unknown:Beast-Bonded_(Witch)), [Beastmorph (Alchemist)](unknown:Beastmorph_(Alchemist)), [Evolutionist (Summoner)](unknown:Evolutionist_(Summoner)), [Savage Warrior (Fighter)](unknown:Savage_Warrior_(Fighter))",
+				"",
 				"#### Feats",
+				"",
 				"[Destroy Identity](feat:Destroy_Identity), [Fearsome Finish](feat:Fearsome_Finish), [Lamashtu's Mark](feat:Lamashtu's_Mark), [Nightmare Scars](feat:Nightmare_Scars)",
+				"",
 				"#### Magic Items - Altars",
+				"",
 				"[Altar of Lamashtu](magic/altar:Altar_of_Lamashtu)",
+				"",
 				"#### Magic Items - Armor",
+				"",
 				"[Pelt of the Demon Mother](magic/armor:Pelt_of_the_Demon_Mother)",
+				"",
 				"#### Magic Items - Weapons",
+				"",
 				"[Bonespur Dagger](magic/weapon:Bonespur_Dagger), [Fanged Falchion](magic/weapon:Fanged_Falchion), [Jackal's Blade](magic/weapon:Jackal's_Blade), [Redlust's Daughter](magic/weapon:Redlust's_Daughter)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Demon Mother's Mask](magic/wondrous:Demon_Mother's_Mask), [Gutbite Belt](magic/wondrous:Gutbite_Belt), [Mortuary Mask](magic/wondrous:Mortuary_Mask)",
+				"",
 				"#### Monsters",
+				"",
 				"[Swaithe](monster:Swaithe), [Yethazmari (Herald)](monster:Yethazmari_(Herald))",
+				"",
 				"#### Spells",
+				"",
 				"[Anthropomorphic Animal](spell:Anthropomorphic_Animal), [Blade of Dark Triumph](spell:Blade_of_Dark_Triumph), [Demon Dream](spell:Demon_Dream), [Litany of Madness](spell:Litany_of_Madness), [Monstrous Extremities](spell:Monstrous_Extremities), [Summon Barghest I](spell:Summon_Barghest_I), [Summon Barghest II](spell:Summon_Barghest_II), [Teratoid Caress](spell:Teratoid_Caress), [Vision of Lamashtu](spell:Vision_of_Lamashtu), [Waters of Lamashtu](spell:Waters_of_Lamashtu)",
+				"",
 				"#### Traits",
+				"",
 				"[Deformed](trait:Deformed), [Mother's Rage](trait:Mother's_Rage), [Mother's Teeth](trait:Mother's_Teeth), [Opportune Slayer](trait:Opportune_Slayer), [Unhinged Mentality](trait:Unhinged_Mentality), [Voice of Monsters](trait:Voice_of_Monsters)"
 			],
 			"unique_spell_rules": [
@@ -14609,8 +15184,7 @@
 				"Strength"
 			],
 			"subdomains": [
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Resolve",
 				"Slavery",
 				"Tyranny"
@@ -14628,6 +15202,7 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Iron Tyrant (Antipaladin)](unknown:Iron_Tyrant_(Antipaladin))"
 			]
 		},
@@ -14676,6 +15251,7 @@
 			],
 			"for_followers": [
 				"#### Magic Items - Weapons",
+				"",
 				"[Feast of Rats](magic/weapon:Feast_of_Rats)"
 			]
 		},
@@ -14703,8 +15279,7 @@
 			],
 			"subdomains": [
 				"Catastrophe",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Rage",
 				"Wind"
 			],
@@ -14735,6 +15310,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -14799,12 +15375,11 @@
 				"Rune"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Hubris (Nobility)",
 				"Language",
 				"Leadership",
-				"Legislation (Law)",
+				"Legislation",
 				"Legislation (Rune)",
 				"Memory",
 				"Sovereignty",
@@ -14825,8 +15400,11 @@
 			],
 			"for_followers": [
 				"#### Spells",
+				"",
 				"[Lissalan Snake Sigil](spell:Lissalan_Snake_Sigil)",
+				"",
 				"#### Traits",
+				"",
 				"[Loreseeker](trait:Loreseeker)"
 			],
 			"unique_spell_rules": [
@@ -14920,8 +15498,7 @@
 				"Repose"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Resurrection",
 				"Souls",
 				"Undead"
@@ -14953,6 +15530,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -14994,8 +15572,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -15024,8 +15605,7 @@
 			"subdomains": [
 				"Arcane",
 				"Deception",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Thievery"
 			],
 			"details": [
@@ -15055,6 +15635,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -15081,8 +15662,7 @@
 				"Nobility"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Feather",
 				"Fur",
 				"Slavery"
@@ -15114,6 +15694,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -15140,8 +15721,7 @@
 				"Protection"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Friendship",
 				"Lust",
 				"Purity"
@@ -15171,8 +15751,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -15214,8 +15797,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -15359,16 +15945,27 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Nornkith (Monk)](unknown:Nornkith_(Monk))",
+				"",
 				"#### Feats",
+				"",
 				"[Fey Friend](feat:Fey_Friend)",
+				"",
 				"#### Magic Items - Rods",
+				"",
 				"[Rod of the Thriceborn (normal)](magic/rod:Rod_of_the_Thriceborn_(normal))",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Charm of the Thriceborn](magic/wondrous:Charm_of_the_Thriceborn), [Ribbon of the Three](magic/wondrous:Ribbon_of_the_Three)",
+				"",
 				"#### Spells",
+				"",
 				"[Threefold Face](spell:Threefold_Face), [Threefold Form](spell:Threefold_Form), [Threefold Sight](spell:Threefold_Sight)",
+				"",
 				"#### Traits",
+				"",
 				"[Shaper of Reality](trait:Shaper_of_Reality)"
 			],
 			"unique_spell_rules": [
@@ -15422,8 +16019,11 @@
 			],
 			"for_followers": [
 				"#### Spells",
+				"",
 				"[Invigorating Repose](spell:Invigorating_Repose)",
+				"",
 				"#### Traits",
+				"",
 				"[Gifted Medium](trait:Gifted_Medium)"
 			],
 			"unique_spell_rules": [
@@ -15470,8 +16070,7 @@
 			],
 			"subdomains": [
 				"Deception",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Thievery",
 				"Undead"
 			],
@@ -15541,6 +16140,7 @@
 			],
 			"for_followers": [
 				"#### Spells",
+				"",
 				"[Create Drug](spell:Create_Drug)"
 			],
 			"unique_spell_rules": [
@@ -15584,8 +16184,7 @@
 				"War"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Ferocity",
 				"Tactics",
 				"Tyranny"
@@ -15617,6 +16216,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -15644,8 +16244,7 @@
 			],
 			"subdomains": [
 				"Construct",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Memory",
 				"Toil"
 			],
@@ -15676,6 +16275,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -15706,8 +16306,7 @@
 			],
 			"subdomains": [
 				"Construct",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Metal",
 				"Toil"
 			],
@@ -15753,8 +16352,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)",
+				"",
 				"#### Traits",
+				"",
 				"[Flames of Hell](trait:Flames_of_Hell)"
 			]
 		},
@@ -15778,8 +16380,7 @@
 				"Strength"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Competition",
 				"Resolve",
 				"Restoration",
@@ -15798,8 +16399,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -15863,8 +16467,8 @@
 			],
 			"subdomains": [
 				"Agathion",
-				"Archon (Good)",
-				"Azata (Good)",
+				"Archon",
+				"Azata",
 				"Cooperation",
 				"Family",
 				"Memory"
@@ -15905,8 +16509,7 @@
 			],
 			"subdomains": [
 				"Catastrophe",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Insect",
 				"Rage",
 				"Venom"
@@ -15962,10 +16565,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -15993,8 +16601,7 @@
 				"Trickery"
 			],
 			"subdomains": [
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Lust",
 				"Murder",
 				"Undead"
@@ -16057,8 +16664,7 @@
 				"Rune"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Language",
 				"Memory",
 				"Thought"
@@ -16129,10 +16735,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)",
+				"",
 				"#### Spells",
+				"",
 				"[Seer's Bane](spell:Seer's_Bane)",
+				"",
 				"#### Traits",
+				"",
 				"[Flames of Hell](trait:Flames_of_Hell)"
 			],
 			"unique_spell_rules": [
@@ -16176,8 +16787,7 @@
 			],
 			"subdomains": [
 				"Deception",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Lust",
 				"Thievery"
 			],
@@ -16231,10 +16841,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -16276,10 +16891,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Dreamed Secrets](feat:Dreamed_Secrets)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Preklikin's Book of Cults](magic/wondrous:Preklikin's_Book_of_Cults)",
+				"",
 				"#### Traits",
+				"",
 				"[Unspeakable Bond](trait:Unspeakable_Bond)"
 			]
 		},
@@ -16307,8 +16927,7 @@
 				"Protection"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Defense",
 				"Freedom",
 				"Purity",
@@ -16361,18 +16980,31 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Champion of the Faith (Warpriest)](unknown:Champion_of_the_Faith_(Warpriest)), [Crusader (Cleric)](unknown:Crusader_(Cleric)), [Divine Strategist (Cleric)](unknown:Divine_Strategist_(Cleric)), [Hidden Priest (Cleric)](unknown:Hidden_Priest_(Cleric)), [Kintargo Rebel (Rogue)](unknown:Kintargo_Rebel_(Rogue)), [Urban Ranger (Ranger)](unknown:Urban_Ranger_(Ranger)), [Wilderness Medic (Ranger)](unknown:Wilderness_Medic_(Ranger))",
+				"",
 				"#### Feats",
+				"",
 				"[Beacon of Hope](feat:Beacon_of_Hope)",
+				"",
 				"#### Magic Items - Armor",
+				"",
 				"[Milanite Armor](magic/armor:Milanite_Armor)",
+				"",
 				"#### Magic Items - Weapons",
+				"",
 				"[Enduring Bloom](magic/weapon:Enduring_Bloom), [Everbloom Thorn](magic/weapon:Everbloom_Thorn), [Everbloom's Rose](magic/weapon:Everbloom's_Rose)",
+				"",
 				"#### Prestige Classes",
+				"",
 				"[Rose Warden](unknown:Rose_Warden)",
+				"",
 				"#### Spells",
+				"",
 				"[Martyr's Bargain](spell:Martyr's_Bargain), [Martyr's Last Blessing](spell:Martyr's_Last_Blessing), [Peasant Armaments](spell:Peasant_Armaments)",
+				"",
 				"#### Traits",
+				"",
 				"[Split-Second Defense](trait:Split-Second_Defense), [Talented Organizer](trait:Talented_Organizer)"
 			],
 			"unique_spell_rules": [
@@ -16427,8 +17059,7 @@
 			],
 			"subdomains": [
 				"Construct",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Ferocity",
 				"Metal",
 				"Petrification",
@@ -16548,8 +17179,7 @@
 			],
 			"subdomains": [
 				"Ash",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Smoke",
 				"Tactics"
 			],
@@ -16619,10 +17249,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Molech](magic/wondrous:Molech)",
+				"",
 				"#### Traits",
+				"",
 				"[Flames of Hell](trait:Flames_of_Hell)"
 			],
 			"unique_spell_rules": [
@@ -16683,6 +17318,7 @@
 			],
 			"for_followers": [
 				"#### Prestige Classes",
+				"",
 				"[Proctor](unknown:Proctor)"
 			]
 		},
@@ -16722,10 +17358,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Dreamed Secrets](feat:Dreamed_Secrets)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Preklikin's Book of Cults](magic/wondrous:Preklikin's_Book_of_Cults)",
+				"",
 				"#### Traits",
+				"",
 				"[Unspeakable Bond](trait:Unspeakable_Bond)"
 			]
 		},
@@ -16820,6 +17461,7 @@
 			],
 			"for_followers": [
 				"#### Prestige Classes",
+				"",
 				"[Mortal Usher](unknown:Mortal_Usher), [Proctor](unknown:Proctor)"
 			]
 		},
@@ -16866,6 +17508,7 @@
 			],
 			"for_followers": [
 				"#### Prestige Classes",
+				"",
 				"[Mortal Usher](unknown:Mortal_Usher), [Proctor](unknown:Proctor)"
 			]
 		},
@@ -16894,8 +17537,7 @@
 			],
 			"subdomains": [
 				"Caves",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Fur",
 				"Metal"
 			],
@@ -17054,8 +17696,7 @@
 			],
 			"subdomains": [
 				"Ancestors",
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Heroism",
 				"Honor",
 				"Leadership",
@@ -17072,6 +17713,7 @@
 			],
 			"for_followers": [
 				"#### Traits",
+				"",
 				"[Shared Ancestors](trait:Shared_Ancestors)"
 			]
 		},
@@ -17145,8 +17787,11 @@
 			],
 			"for_followers": [
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Hero's Release Pendant](magic/wondrous:Hero's_Release_Pendant)",
+				"",
 				"#### Traits",
+				"",
 				"[Empty Heart, Full Heart](trait:Empty_Heart,_Full_Heart)"
 			],
 			"unique_spell_rules": [
@@ -17368,6 +18013,7 @@
 			],
 			"for_followers": [
 				"#### Prestige Classes",
+				"",
 				"[Mortal Usher](unknown:Mortal_Usher), [Proctor](unknown:Proctor)"
 			]
 		},
@@ -17414,6 +18060,7 @@
 			],
 			"for_followers": [
 				"#### Prestige Classes",
+				"",
 				"[Proctor](unknown:Proctor)"
 			]
 		},
@@ -17567,8 +18214,7 @@
 			],
 			"subdomains": [
 				"Blood",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Murder",
 				"Venom"
 			],
@@ -17599,6 +18245,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -17622,8 +18269,7 @@
 				"Strength"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Freedom",
 				"Judgment",
 				"Resolve"
@@ -17641,8 +18287,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -17740,26 +18389,47 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Cloistered Cleric (Cleric)](unknown:Cloistered_Cleric_(Cleric)), [Magician (Bard)](unknown:Magician_(Bard)), [Staff Magus (Magus)](unknown:Staff_Magus_(Magus))",
+				"",
 				"#### Feats",
+				"",
 				"[Arcane Insight](feat:Arcane_Insight), [Forceful Channel](feat:Forceful_Channel), [Magical Epiphany](feat:Magical_Epiphany)",
+				"",
 				"#### Magic Items - Altars",
+				"",
 				"[Altar of Nethys](magic/altar:Altar_of_Nethys)",
+				"",
 				"#### Magic Items - Armor",
+				"",
 				"[All-Seeing Armor](magic/armor:All-Seeing_Armor)",
+				"",
 				"#### Magic Items - Rings",
+				"",
 				"[Nethysian Ring of Minor Spell Storing](magic/ring:Nethysian_Ring_of_Minor_Spell_Storing), [Ring of Wizardry (type I)](magic/ring:Ring_of_Wizardry_(type_I)), [Ring of Wizardry (type II)](magic/ring:Ring_of_Wizardry_(type_II)), [Ring of Wizardry (type III)](magic/ring:Ring_of_Wizardry_(type_III)), [Ring of Wizardry (type IV)](magic/ring:Ring_of_Wizardry_(type_IV))",
+				"",
 				"#### Magic Items - Staves",
+				"",
 				"[Staff of Nethys](magic/staff:Staff_of_Nethys)",
+				"",
 				"#### Magic Items - Weapons",
+				"",
 				"[Quarterstaff of Entwined Serpents](magic/weapon:Quarterstaff_of_Entwined_Serpents)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Mask of Conflicting Energies](magic/wondrous:Mask_of_Conflicting_Energies), [Spellsight Bracer](magic/wondrous:Spellsight_Bracer)",
+				"",
 				"#### Monsters",
+				"",
 				"[Arcanotheign (Herald)](monster:Arcanotheign_(Herald)), [Burleev](monster:Burleev)",
+				"",
 				"#### Spells",
+				"",
 				"[Channel the Gift](spell:Channel_the_Gift), [Fractions of Heal and Harm](spell:Fractions_of_Heal_and_Harm), [Medusa's Bane](spell:Medusa's_Bane), [Spell Gauge](spell:Spell_Gauge), [Spell Scourge](spell:Spell_Scourge)",
+				"",
 				"#### Traits",
+				"",
 				"[Arcane Depth](trait:Arcane_Depth), [Magic Is Life](trait:Magic_Is_Life), [Thirst for Knowledge](trait:Thirst_for_Knowledge), [Underlying Principles](trait:Underlying_Principles)"
 			],
 			"unique_spell_rules": [
@@ -17846,8 +18516,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Fey Friend](feat:Fey_Friend)",
+				"",
 				"#### Traits",
+				"",
 				"[Shaper of Reality](trait:Shaper_of_Reality)"
 			]
 		},
@@ -17890,8 +18563,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Dreamed Secrets](feat:Dreamed_Secrets)",
+				"",
 				"#### Traits",
+				"",
 				"[Unspeakable Bond](trait:Unspeakable_Bond)"
 			]
 		},
@@ -17919,8 +18595,7 @@
 				"Strength"
 			],
 			"subdomains": [
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Ferocity",
 				"Loss",
 				"Murder"
@@ -18038,8 +18713,11 @@
 			],
 			"for_followers": [
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Rhombocrystal](magic/wondrous:Rhombocrystal)",
+				"",
 				"#### Traits",
+				"",
 				"[Agent of Chance](trait:Agent_of_Chance)"
 			],
 			"unique_spell_rules": [
@@ -18147,8 +18825,7 @@
 				"Evil"
 			],
 			"subdomains": [
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Loss",
 				"Lust",
 				"Night",
@@ -18204,10 +18881,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -18359,8 +19041,7 @@
 			],
 			"subdomains": [
 				"Blood",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Ferocity",
 				"Rage"
 			],
@@ -18402,8 +19083,7 @@
 			"subdomains": [
 				"Ash",
 				"Day",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Smoke",
 				"Thirst"
 			],
@@ -18458,10 +19138,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -18498,8 +19183,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Dreamed Secrets](feat:Dreamed_Secrets)",
+				"",
 				"#### Traits",
+				"",
 				"[Unspeakable Bond](trait:Unspeakable_Bond)"
 			]
 		},
@@ -18534,8 +19222,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Dreamed Secrets](feat:Dreamed_Secrets)",
+				"",
 				"#### Traits",
+				"",
 				"[Unspeakable Bond](trait:Unspeakable_Bond)"
 			]
 		},
@@ -18572,8 +19263,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Dreamed Secrets](feat:Dreamed_Secrets)",
+				"",
 				"#### Traits",
+				"",
 				"[Unspeakable Bond](trait:Unspeakable_Bond)"
 			]
 		},
@@ -18653,8 +19347,7 @@
 				"Protection"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Defense",
 				"Hubris (Nobility)",
 				"Leadership",
@@ -18686,8 +19379,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -18817,8 +19513,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -18958,6 +19657,7 @@
 			],
 			"for_followers": [
 				"#### Traits",
+				"",
 				"[Planar Wayfarer](trait:Planar_Wayfarer)"
 			]
 		},
@@ -18985,8 +19685,7 @@
 				"Magic"
 			],
 			"subdomains": [
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Divine",
 				"Murder",
 				"Undead"
@@ -19041,10 +19740,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -19090,10 +19794,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Dreamed Secrets](feat:Dreamed_Secrets)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Preklikin's Book of Cults](magic/wondrous:Preklikin's_Book_of_Cults)",
+				"",
 				"#### Traits",
+				"",
 				"[Unspeakable Bond](trait:Unspeakable_Bond)"
 			]
 		},
@@ -19120,8 +19829,7 @@
 				"Madness"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Insanity",
 				"Nightmare",
 				"Toil"
@@ -19153,6 +19861,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -19178,8 +19887,7 @@
 			],
 			"subdomains": [
 				"Ancestors",
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Growth",
 				"Restoration",
 				"Resurrection",
@@ -19351,6 +20059,7 @@
 			],
 			"for_followers": [
 				"#### Prestige Classes",
+				"",
 				"[Proctor](unknown:Proctor)"
 			]
 		},
@@ -19380,8 +20089,7 @@
 			"subdomains": [
 				"Blood",
 				"Catastrophe",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Oceans"
 			],
 			"details": [
@@ -19546,8 +20254,7 @@
 			"subdomains": [
 				"Cloud",
 				"Deception",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Wind"
 			],
 			"details": [
@@ -19600,10 +20307,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -19696,28 +20408,51 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Exorcist (Inquisitor)](unknown:Exorcist_(Inquisitor)), [Fated Guide (Spiritualist)](unknown:Fated_Guide_(Spiritualist)), [Seer (Oracle)](unknown:Seer_(Oracle)), [Stoic Caregiver (Cleric)](unknown:Stoic_Caregiver_(Cleric))",
+				"",
 				"#### Feats",
+				"",
 				"[Eerie Sense](feat:Eerie_Sense), [Fateful Channel](feat:Fateful_Channel), [Messenger of Fate](feat:Messenger_of_Fate)",
+				"",
 				"#### Magic Items - Altars",
+				"",
 				"[Altar of Pharasma](magic/altar:Altar_of_Pharasma)",
+				"",
 				"#### Magic Items - Armor",
+				"",
 				"[Gravewatcher Chainmail](magic/armor:Gravewatcher_Chainmail)",
+				"",
 				"#### Magic Items - Rings",
+				"",
 				"[Ghost Battling Ring](magic/ring:Ghost_Battling_Ring), [Ring of the Faithful Dead](magic/ring:Ring_of_the_Faithful_Dead)",
+				"",
 				"#### Magic Items - Sets",
+				"",
 				"[Pharasma's Command](magic/set:Pharasma's_Command)",
+				"",
 				"#### Magic Items - Weapons",
+				"",
 				"[Fate Blade](magic/weapon:Fate_Blade), [Lady's Spiral](magic/weapon:Lady's_Spiral), [Nightpiercer](magic/weapon:Nightpiercer)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Crystal Ball (Detect Thoughts)](magic/wondrous:Crystal_Ball_(Detect_Thoughts)), [Fate's Shears](magic/wondrous:Fate's_Shears), [Icon of the Midwife](magic/wondrous:Icon_of_the_Midwife), [Lady's Mercy](magic/wondrous:Lady's_Mercy), [Crystal Ball (Normal)](magic/wondrous:Crystal_Ball_(Normal)), [Crystal Ball (See Invisibility)](magic/wondrous:Crystal_Ball_(See_Invisibility)), [Stone of Tomb Warding](magic/wondrous:Stone_of_Tomb_Warding), [Crystal Ball (Telepathy)](magic/wondrous:Crystal_Ball_(Telepathy)), [Crystal Ball (True Seeing)](magic/wondrous:Crystal_Ball_(True_Seeing))",
+				"",
 				"#### Monsters",
+				"",
 				"[Ahmuuth](monster:Ahmuuth), [Steward of the Skein (Herald)](monster:Steward_of_the_Skein_(Herald))",
+				"",
 				"#### Prestige Classes",
+				"",
 				"[Mortal Usher](unknown:Mortal_Usher)",
+				"",
 				"#### Spells",
+				"",
 				"[Defending Bone](spell:Defending_Bone), [Early Judgment](spell:Early_Judgment), [Funereal Weapon](spell:Funereal_Weapon), [Necrostasis](spell:Necrostasis), [Preserve](spell:Preserve), [Smite Abomination](spell:Smite_Abomination), [Spiral Ascent](spell:Spiral_Ascent), [Spiral Descent](spell:Spiral_Descent)",
+				"",
 				"#### Traits",
+				"",
 				"[Corpse Hunter](trait:Corpse_Hunter), [Spirit Guide](trait:Spirit_Guide), [Stabilizing Touch](trait:Stabilizing_Touch), [Undead Slayer (Pharasma)](trait:Undead_Slayer_(Pharasma))"
 			],
 			"unique_spell_rules": [
@@ -19866,6 +20601,7 @@
 			],
 			"for_followers": [
 				"#### Prestige Classes",
+				"",
 				"[Mortal Usher](unknown:Mortal_Usher), [Proctor](unknown:Proctor)"
 			]
 		},
@@ -19892,8 +20628,7 @@
 				"Trickery"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Deception",
 				"Revelry",
 				"Whimsy"
@@ -19923,8 +20658,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -19951,8 +20689,7 @@
 				"Plant"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Growth",
 				"Insanity",
 				"Nightmare"
@@ -19984,6 +20721,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -20146,8 +20884,7 @@
 				"Weather"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Cloud",
 				"Seasons",
 				"Stars"
@@ -20177,10 +20914,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Prestige Classes",
+				"",
 				"[Stargazer](unknown:Stargazer)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -20231,6 +20973,7 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Arcane Physician (Wizard)](unknown:Arcane_Physician_(Wizard))"
 			]
 		},
@@ -20257,8 +21000,7 @@
 				"Law"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Exploration",
 				"Honor",
 				"Metal"
@@ -20290,6 +21032,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -20433,10 +21176,15 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Deepwater Rager (Barbarian)](unknown:Deepwater_Rager_(Barbarian)), [Serpent Herald (Skald)](unknown:Serpent_Herald_(Skald))",
+				"",
 				"#### Feats",
+				"",
 				"[Fey Friend](feat:Fey_Friend)",
+				"",
 				"#### Traits",
+				"",
 				"[Shaper of Reality](trait:Shaper_of_Reality)"
 			],
 			"unique_spell_rules": [
@@ -20478,8 +21226,7 @@
 				"Nobility"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Judgment",
 				"Martyr",
 				"Rage"
@@ -20517,14 +21264,23 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Angelfire Apostle (Cleric)](unknown:Angelfire_Apostle_(Cleric)), [Sixth Wing Bulwark (Warpriest)](unknown:Sixth_Wing_Bulwark_(Warpriest))",
+				"",
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Prestige Classes",
+				"",
 				"[Crimson Templar](unknown:Crimson_Templar)",
+				"",
 				"#### Spells",
+				"",
 				"[Shield of Wings](spell:Shield_of_Wings)",
+				"",
 				"#### Traits",
+				"",
 				"[Avowed Inspiration](trait:Avowed_Inspiration), [Empyreal Focus](trait:Empyreal_Focus), [Redeemed by Ragathiel](trait:Redeemed_by_Ragathiel)"
 			]
 		},
@@ -20599,8 +21355,7 @@
 				"Weather"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Feather",
 				"Seasons",
 				"Storms"
@@ -20632,6 +21387,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -20705,8 +21461,7 @@
 				"Healing"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Catastrophe",
 				"Loss",
 				"Restoration"
@@ -20724,8 +21479,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -20766,10 +21524,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Dreamed Secrets](feat:Dreamed_Secrets)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Preklikin's Book of Cults](magic/wondrous:Preklikin's_Book_of_Cults)",
+				"",
 				"#### Traits",
+				"",
 				"[Unspeakable Bond](trait:Unspeakable_Bond)"
 			]
 		},
@@ -20857,10 +21620,8 @@
 				"Cannibalism",
 				"Catastrophe",
 				"Corruption",
-				"Demodand (Chaos)",
-				"Demodand (Evil)",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demodand",
+				"Demon",
 				"Hatred",
 				"Lightning",
 				"Protean",
@@ -20942,22 +21703,39 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Blight Druid (Druid)](unknown:Blight_Druid_(Druid)), [Breaker (Barbarian)](unknown:Breaker_(Barbarian)), [Iconoclast (Inquisitor)](unknown:Iconoclast_(Inquisitor)), [Rough Rampager (Antipaladin)](unknown:Rough_Rampager_(Antipaladin)), [Two-Handed Fighter (Fighter)](unknown:Two-Handed_Fighter_(Fighter)), [Wild Rager (Barbarian)](unknown:Wild_Rager_(Barbarian))",
+				"",
 				"#### Feats",
+				"",
 				"[Breaker of Barriers](feat:Breaker_of_Barriers), [Gory Finish](feat:Gory_Finish), [Merciless Rush](feat:Merciless_Rush), [Oath of the Unbound](feat:Oath_of_the_Unbound), [Squash Flat](feat:Squash_Flat), [Sundering Strike](feat:Sundering_Strike), [Warrior Priest](feat:Warrior_Priest)",
+				"",
 				"#### Magic Items - Altars",
+				"",
 				"[Altar of Rovagug](magic/altar:Altar_of_Rovagug)",
+				"",
 				"#### Magic Items - Armor",
+				"",
 				"[Fangtide Scale Mail](magic/armor:Fangtide_Scale_Mail)",
+				"",
 				"#### Magic Items - Weapons",
+				"",
 				"[Rusting Teeth of the Rough Beast](magic/weapon:Rusting_Teeth_of_the_Rough_Beast)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Broken Chain of the Beast](magic/wondrous:Broken_Chain_of_the_Beast), [Choker of the Rough Beast](magic/wondrous:Choker_of_the_Rough_Beast), [Gauntlet of Rust](magic/wondrous:Gauntlet_of_Rust), [Maul of the Titans](magic/wondrous:Maul_of_the_Titans)",
+				"",
 				"#### Monsters",
+				"",
 				"[Tarrasque (Herald)](monster:Tarrasque_(Herald)), [Thognorok](monster:Thognorok)",
+				"",
 				"#### Spells",
+				"",
 				"[Break](spell:Break), [Brittle Portal](spell:Brittle_Portal), [Deadly Juggernaut](spell:Deadly_Juggernaut), [Destruction](spell:Destruction), [Face of the Devourer](spell:Face_of_the_Devourer), [Rage](spell:Rage), [Rovagug's Fury](spell:Rovagug's_Fury), [Spawn Calling](spell:Spawn_Calling)",
+				"",
 				"#### Traits",
+				"",
 				"[Bestial Wrath](trait:Bestial_Wrath), [Destructive Blows](trait:Destructive_Blows), [Fury](trait:Fury), [Hatred of the Gods](trait:Hatred_of_the_Gods), [Sacred Smasher](trait:Sacred_Smasher), [Wrecking Wrath](trait:Wrecking_Wrath)"
 			],
 			"unique_spell_rules": [
@@ -21044,8 +21822,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -21127,8 +21908,7 @@
 			],
 			"subdomains": [
 				"Ash",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Honor",
 				"Smoke"
 			],
@@ -21159,6 +21939,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -21183,8 +21964,7 @@
 			],
 			"subdomains": [
 				"Cloud",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Lightning",
 				"Monsoon",
 				"Storms",
@@ -21226,8 +22006,7 @@
 				"Trickery"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Murder",
 				"Thievery",
 				"Undead"
@@ -21259,6 +22038,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -21334,8 +22114,7 @@
 			],
 			"subdomains": [
 				"Construct",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Ferocity",
 				"Toil"
 			],
@@ -21366,6 +22145,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -21412,6 +22192,7 @@
 			],
 			"for_followers": [
 				"#### Prestige Classes",
+				"",
 				"[Mortal Usher](unknown:Mortal_Usher), [Proctor](unknown:Proctor)"
 			]
 		},
@@ -21532,26 +22313,47 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Angelfire Apostle (Cleric)](unknown:Angelfire_Apostle_(Cleric)), [Dawnflower Dervish (Bard)](unknown:Dawnflower_Dervish_(Bard)), [Dervish Dancer (Bard)](unknown:Dervish_Dancer_(Bard)), [Merciful Healer (Cleric)](unknown:Merciful_Healer_(Cleric)), [Undead Scourge (Paladin)](unknown:Undead_Scourge_(Paladin))",
+				"",
 				"#### Feats",
+				"",
 				"[Bestow Hope](feat:Bestow_Hope), [Dawn's Blessing](feat:Dawn's_Blessing), [Dervish Dance](feat:Dervish_Dance), [Flame Blade Dervish](feat:Flame_Blade_Dervish), [Glorious Blaze](feat:Glorious_Blaze), [Glorious Heat](feat:Glorious_Heat), [Sacred Pyromania](feat:Sacred_Pyromania), [Sun Striker](feat:Sun_Striker)",
+				"",
 				"#### Magic Items - Altars",
+				"",
 				"[Altar of Sarenrae](magic/altar:Altar_of_Sarenrae), [Altar of the Dawnflower](magic/altar:Altar_of_the_Dawnflower)",
+				"",
 				"#### Magic Items - Armor",
+				"",
 				"[Dawnflower Chain Vest](magic/armor:Dawnflower_Chain_Vest)",
+				"",
 				"#### Magic Items - Rings",
+				"",
 				"[Glorious Flame Ring](magic/ring:Glorious_Flame_Ring)",
+				"",
 				"#### Magic Items - Weapons",
+				"",
 				"[Dawnfire](magic/weapon:Dawnfire)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dawnflower Lantern](magic/wondrous:Dawnflower_Lantern), [Dawnflower Sash](magic/wondrous:Dawnflower_Sash), [Dervish Sikke](magic/wondrous:Dervish_Sikke), [Saliharion](magic/wondrous:Saliharion), [Scabbard of the Lost Kiss](magic/wondrous:Scabbard_of_the_Lost_Kiss), [Sunlord's Feather](magic/wondrous:Sunlord's_Feather)",
+				"",
 				"#### Monsters",
+				"",
 				"[Sunlord Thalachos (Herald)](monster:Sunlord_Thalachos_(Herald)), [Yhohm](monster:Yhohm)",
+				"",
 				"#### Prestige Classes",
+				"",
 				"[Dawnflower Anchorite](unknown:Dawnflower_Anchorite), [Dawnflower Dissident](unknown:Dawnflower_Dissident)",
+				"",
 				"#### Spells",
+				"",
 				"[Daybreak Arrow](spell:Daybreak_Arrow), [Shield of the Dawnflower](spell:Shield_of_the_Dawnflower), [Shield of the Dawnflower, Greater](spell:Shield_of_the_Dawnflower,_Greater), [Sign of the Dawnflower](spell:Sign_of_the_Dawnflower), [Sun Metal](spell:Sun_Metal), [Unwelcome Halo](spell:Unwelcome_Halo)",
+				"",
 				"#### Traits",
+				"",
 				"[Ambassador](trait:Ambassador), [Blade of Mercy](trait:Blade_of_Mercy), [Cleansing Light](trait:Cleansing_Light), [Cleansing the Twisted](trait:Cleansing_the_Twisted), [Dawn Renewal](trait:Dawn_Renewal), [Envoy of Healing](trait:Envoy_of_Healing), [Flame of the Dawnflower](trait:Flame_of_the_Dawnflower), [Illuminator](trait:Illuminator), [Light-Bringer](trait:Light-Bringer), [Strength of the Sun](trait:Strength_of_the_Sun), [Under Siege](trait:Under_Siege)"
 			],
 			"unique_spell_rules": [
@@ -21653,8 +22455,7 @@
 			],
 			"subdomains": [
 				"Deception",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Lust",
 				"Venom"
 			],
@@ -21685,6 +22486,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -21749,8 +22551,7 @@
 			],
 			"subdomains": [
 				"Ancestors",
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Defense",
 				"Purity",
 				"Restoration",
@@ -21820,8 +22621,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -21885,8 +22689,7 @@
 			],
 			"subdomains": [
 				"Ash",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Divine",
 				"Smoke"
 			],
@@ -21926,8 +22729,7 @@
 				"Nobility"
 			],
 			"subdomains": [
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Leadership",
 				"Love",
 				"Lust"
@@ -22038,8 +22840,7 @@
 				"Nobility"
 			],
 			"subdomains": [
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Leadership",
 				"Martyr",
 				"Rage"
@@ -22094,10 +22895,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -22157,8 +22963,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -22302,26 +23111,47 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Sin Eater (Inquisitor)](unknown:Sin_Eater_(Inquisitor)), [Songhealer (Bard)](unknown:Songhealer_(Bard))",
+				"",
 				"#### Feats",
+				"",
 				"[Bladed Brush](feat:Bladed_Brush), [Clarifying Channel](feat:Clarifying_Channel), [Divine Expression](feat:Divine_Expression), [Persuasive Performer](feat:Persuasive_Performer)",
+				"",
 				"#### Magic Items - Altars",
+				"",
 				"[Altar of Shelyn](magic/altar:Altar_of_Shelyn)",
+				"",
 				"#### Magic Items - Armor",
+				"",
 				"[Rosy Hauberk](magic/armor:Rosy_Hauberk)",
+				"",
 				"#### Magic Items - Rings",
+				"",
 				"[Ring of Seven Lovely Colors](magic/ring:Ring_of_Seven_Lovely_Colors)",
+				"",
 				"#### Magic Items - Weapons",
+				"",
 				"[Blade of Three Fancies](magic/weapon:Blade_of_Three_Fancies)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Beautiful War Paint](magic/wondrous:Beautiful_War_Paint), [Boots of the Eternal Rose](magic/wondrous:Boots_of_the_Eternal_Rose), [Bracelet of Friends](magic/wondrous:Bracelet_of_Friends), [Harp of Charming](magic/wondrous:Harp_of_Charming), [Marvelous Pigments](magic/wondrous:Marvelous_Pigments), [Perfect Tuning Fork](magic/wondrous:Perfect_Tuning_Fork), [Zonzon Doll of Forgiveness](magic/wondrous:Zonzon_Doll_of_Forgiveness)",
+				"",
 				"#### Monsters",
+				"",
 				"[Dapsara](monster:Dapsara), [The Spirit of Adoration (Herald)](monster:The_Spirit_of_Adoration_(Herald))",
+				"",
 				"#### Prestige Classes",
+				"",
 				"[Devoted Muse](unknown:Devoted_Muse)",
+				"",
 				"#### Spells",
+				"",
 				"[Adoration](spell:Adoration), [Aspect of the Nightingale](spell:Aspect_of_the_Nightingale), [Joyful Rapture](spell:Joyful_Rapture), [Tap Inner Beauty](spell:Tap_Inner_Beauty), [Trail of the Rose](spell:Trail_of_the_Rose), [Unbreakable Heart](spell:Unbreakable_Heart), [Waves of Ecstasy](spell:Waves_of_Ecstasy)",
+				"",
 				"#### Traits",
+				"",
 				"[Ear for Music](trait:Ear_for_Music), [Inner Beauty](trait:Inner_Beauty), [Intense Artist](trait:Intense_Artist), [Self-Sacrifice](trait:Self-Sacrifice), [Unswaying Love](trait:Unswaying_Love)"
 			],
 			"unique_spell_rules": [
@@ -22428,8 +23258,7 @@
 				"Madness"
 			],
 			"subdomains": [
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Insanity",
 				"Loss",
 				"Nightmare"
@@ -22484,10 +23313,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -22517,8 +23351,7 @@
 			],
 			"subdomains": [
 				"Ancestors",
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Chivalry",
 				"Day",
 				"Heroism",
@@ -22581,6 +23414,7 @@
 			],
 			"for_followers": [
 				"#### Traits",
+				"",
 				"[Ancestor's Blade](trait:Ancestor's_Blade), [Pristine Reputation](trait:Pristine_Reputation)"
 			],
 			"unique_spell_rules": [
@@ -22657,8 +23491,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Dreamed Secrets](feat:Dreamed_Secrets)",
+				"",
 				"#### Traits",
+				"",
 				"[Unspeakable Bond](trait:Unspeakable_Bond)"
 			]
 		},
@@ -22715,12 +23552,19 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Chronomancer (Wizard)](unknown:Chronomancer_(Wizard))",
+				"",
 				"#### Feats",
+				"",
 				"[Fey Friend](feat:Fey_Friend)",
+				"",
 				"#### Spells",
+				"",
 				"[Ally Across Time](spell:Ally_Across_Time), [Army Across Time](spell:Army_Across_Time), [Temporal Divergence](spell:Temporal_Divergence), [Temporal Regression](spell:Temporal_Regression)",
+				"",
 				"#### Traits",
+				"",
 				"[Shaper of Reality](trait:Shaper_of_Reality)"
 			],
 			"unique_spell_rules": [
@@ -22754,8 +23598,7 @@
 				"Strength"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Ferocity",
 				"Leadership",
 				"Loyalty",
@@ -22796,8 +23639,7 @@
 			],
 			"subdomains": [
 				"Deception",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Loss",
 				"Nightmare",
 				"Truth"
@@ -22853,10 +23695,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -22883,8 +23730,7 @@
 				"Travel"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Exploration",
 				"Fate",
 				"Friendship"
@@ -22914,8 +23760,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -22943,8 +23792,7 @@
 				"Weather"
 			],
 			"subdomains": [
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Ice",
 				"Storms",
 				"Undead"
@@ -23066,12 +23914,19 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Believable Veils](feat:Believable_Veils)",
+				"",
 				"#### Magic Items - Armor",
+				"",
 				"[Veiled Chain](magic/armor:Veiled_Chain)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Veil of Veils](magic/wondrous:Veil_of_Veils)",
+				"",
 				"#### Traits",
+				"",
 				"[Strip the Veils](trait:Strip_the_Veils), [Veils upon Veils](trait:Veils_upon_Veils)"
 			],
 			"unique_spell_rules": [
@@ -23105,8 +23960,7 @@
 				"Sun"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Day",
 				"Heroism",
 				"Light"
@@ -23143,8 +23997,7 @@
 				"Trickery"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Deception",
 				"Divine",
 				"Whimsy"
@@ -23235,8 +24088,7 @@
 				"War"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Honor",
 				"Martyr",
 				"Tactics"
@@ -23254,8 +24106,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -23322,8 +24177,7 @@
 				"Travel"
 			],
 			"subdomains": [
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Exploration",
 				"Love",
 				"Lust"
@@ -23378,10 +24232,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -23440,10 +24299,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition), [New Thassilonian Magic](feat:New_Thassilonian_Magic)",
+				"",
 				"#### Prestige Classes",
+				"",
 				"[Runeguard](unknown:Runeguard)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -23527,6 +24391,7 @@
 			],
 			"for_followers": [
 				"#### Prestige Classes",
+				"",
 				"[Proctor](unknown:Proctor)"
 			]
 		},
@@ -23746,8 +24611,7 @@
 				"Law"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Cooperation",
 				"Education (Community)",
 				"Family",
@@ -23766,8 +24630,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -23841,14 +24708,23 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Grim Apostle (Spiritualist)](unknown:Grim_Apostle_(Spiritualist))",
+				"",
 				"#### Feats",
+				"",
 				"[Aura of Succumbing](feat:Aura_of_Succumbing)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Szuriel's Scabbard](magic/wondrous:Szuriel's_Scabbard)",
+				"",
 				"#### Spells",
+				"",
 				"[Black Sword of War](spell:Black_Sword_of_War), [Bloody Tears and Jagged Smile](spell:Bloody_Tears_and_Jagged_Smile)",
+				"",
 				"#### Traits",
+				"",
 				"[Covenant of Abaddon](trait:Covenant_of_Abaddon)"
 			],
 			"unique_summon_rules": [
@@ -23936,8 +24812,7 @@
 				"Law"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Feather",
 				"Moon",
 				"Night"
@@ -23967,8 +24842,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -24063,6 +24941,7 @@
 			],
 			"for_followers": [
 				"#### Prestige Classes",
+				"",
 				"[Mortal Usher](unknown:Mortal_Usher), [Proctor](unknown:Proctor)"
 			]
 		},
@@ -24089,8 +24968,7 @@
 				"Trickery"
 			],
 			"subdomains": [
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Leadership",
 				"Thievery",
 				"Whimsy"
@@ -24136,12 +25014,19 @@
 			],
 			"for_followers": [
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Silent Blade Vest](magic/wondrous:Silent_Blade_Vest)",
+				"",
 				"#### Monsters",
+				"",
 				"[Fantionette](monster:Fantionette)",
+				"",
 				"#### Spells",
+				"",
 				"[Halfling Vengeance](spell:Halfling_Vengeance), [Halfling Vengeance, Mass](spell:Halfling_Vengeance,_Mass), [Word of Beckoning](spell:Word_of_Beckoning)",
+				"",
 				"#### Traits",
+				"",
 				"[Always Threatening](trait:Always_Threatening), [Backstabber](trait:Backstabber)"
 			],
 			"unique_spell_rules": [
@@ -24210,12 +25095,19 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Grasping Vine (Shaman)](unknown:Grasping_Vine_(Shaman)), [Seducer (Witch)](unknown:Seducer_(Witch))",
+				"",
 				"#### Feats",
+				"",
 				"[Fey Friend](feat:Fey_Friend)",
+				"",
 				"#### Spells",
+				"",
 				"[Alluring Spores](spell:Alluring_Spores), [Strand of the Tangled Knot](spell:Strand_of_the_Tangled_Knot), [Thirsting Entanglement](spell:Thirsting_Entanglement)",
+				"",
 				"#### Traits",
+				"",
 				"[Shaper of Reality](trait:Shaper_of_Reality)"
 			]
 		},
@@ -24269,10 +25161,15 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Fey Prankster (Bard)](unknown:Fey_Prankster_(Bard))",
+				"",
 				"#### Feats",
+				"",
 				"[Fey Friend](feat:Fey_Friend)",
+				"",
 				"#### Traits",
+				"",
 				"[Shaper of Reality](trait:Shaper_of_Reality)"
 			]
 		},
@@ -24326,10 +25223,15 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Hermit (Oracle)](unknown:Hermit_(Oracle))",
+				"",
 				"#### Feats",
+				"",
 				"[Fey Friend](feat:Fey_Friend)",
+				"",
 				"#### Traits",
+				"",
 				"[Shaper of Reality](trait:Shaper_of_Reality)"
 			]
 		},
@@ -24376,6 +25278,7 @@
 			],
 			"for_followers": [
 				"#### Prestige Classes",
+				"",
 				"[Mortal Usher](unknown:Mortal_Usher), [Proctor](unknown:Proctor)"
 			]
 		},
@@ -24399,8 +25302,7 @@
 				"Good"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Family",
 				"Revelry",
 				"Whimsy"
@@ -24418,8 +25320,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -24483,8 +25388,7 @@
 			],
 			"subdomains": [
 				"Blood",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Ice",
 				"Tactics"
 			],
@@ -24576,8 +25480,7 @@
 			],
 			"subdomains": [
 				"Deception",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Language",
 				"Memory"
 			],
@@ -24608,6 +25511,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -24671,8 +25575,7 @@
 				"Water"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Exploration",
 				"Ice",
 				"Storms"
@@ -24702,8 +25605,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -24739,8 +25645,7 @@
 				"Protection"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Caves",
 				"Construct",
 				"Defense",
@@ -24820,24 +25725,43 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Divine Strategist (Cleric)](unknown:Divine_Strategist_(Cleric)), [Forgefather's Seeker (Paladin)](unknown:Forgefather's_Seeker_(Paladin)), [Holy Tactician (Paladin)](unknown:Holy_Tactician_(Paladin)), [Monk of the Sacred Mountain (Monk)](unknown:Monk_of_the_Sacred_Mountain_(Monk)), [Strategist (Cavalier)](unknown:Strategist_(Cavalier)), [Tactician (Fighter)](unknown:Tactician_(Fighter))",
+				"",
 				"#### Feats",
+				"",
 				"[Blessed Hammer](feat:Blessed_Hammer), [Rebuffing Reduction](feat:Rebuffing_Reduction), [Shrewd Tactician](feat:Shrewd_Tactician), [Stalwart](feat:Stalwart), [Steelskin Channel](feat:Steelskin_Channel), [Stone Strider](feat:Stone_Strider), [Uncanny Ally](feat:Uncanny_Ally)",
+				"",
 				"#### Magic Items - Altars",
+				"",
 				"[Altar of Torag](magic/altar:Altar_of_Torag)",
+				"",
 				"#### Magic Items - Armor",
+				"",
 				"[Forgefather's Half-Plate](magic/armor:Forgefather's_Half-Plate)",
+				"",
 				"#### Magic Items - Weapons",
+				"",
 				"[Dwarfbond Hammer](magic/weapon:Dwarfbond_Hammer), [Forgefather's Sledge](magic/weapon:Forgefather's_Sledge)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Belt of Dwarvenkind](magic/wondrous:Belt_of_Dwarvenkind), [Belt of Stoneskin](magic/wondrous:Belt_of_Stoneskin), [Boots of the Earth](magic/wondrous:Boots_of_the_Earth), [Father's Forgehammer](magic/wondrous:Father's_Forgehammer)",
+				"",
 				"#### Monsters",
+				"",
 				"[Chalkost](monster:Chalkost), [The Grand Defender (Herald)](monster:The_Grand_Defender_(Herald))",
+				"",
 				"#### Prestige Classes",
+				"",
 				"[Sacred Sentinel](unknown:Sacred_Sentinel)",
+				"",
 				"#### Spells",
+				"",
 				"[Crafter's Fortune](spell:Crafter's_Fortune), [Fallback Strategy](spell:Fallback_Strategy), [Firebelly](spell:Firebelly), [Hairline Fractures](spell:Hairline_Fractures), [Hammer of Mending](spell:Hammer_of_Mending), [Ironbloom Sprouts](spell:Ironbloom_Sprouts), [Tactical Formation](spell:Tactical_Formation)",
+				"",
 				"#### Traits",
+				"",
 				"[Battlefield Caster](trait:Battlefield_Caster), [Defensive Strategist](trait:Defensive_Strategist), [Eye of the Father](trait:Eye_of_the_Father), [Guardian of the Forge](trait:Guardian_of_the_Forge), [Protective Faith](trait:Protective_Faith)"
 			],
 			"unique_spell_rules": [
@@ -24989,12 +25913,19 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Grim Apostle (Spiritualist)](unknown:Grim_Apostle_(Spiritualist))",
+				"",
 				"#### Feats",
+				"",
 				"[Aura of Succumbing](feat:Aura_of_Succumbing)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Belt of Trelmarixian](magic/wondrous:Belt_of_Trelmarixian)",
+				"",
 				"#### Traits",
+				"",
 				"[Covenant of Abaddon](trait:Covenant_of_Abaddon)"
 			]
 		},
@@ -25098,10 +26029,15 @@
 			],
 			"for_followers": [
 				"#### Monsters",
+				"",
 				"[Chelonidal](monster:Chelonidal)",
+				"",
 				"#### Spells",
+				"",
 				"[Mighty Strength](spell:Mighty_Strength)",
+				"",
 				"#### Traits",
+				"",
 				"[Battlefield Caster](trait:Battlefield_Caster), [Guardian Smite](trait:Guardian_Smite), [Mighty Protector](trait:Mighty_Protector), [Steady Strength](trait:Steady_Strength)"
 			]
 		},
@@ -25141,10 +26077,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Dreamed Secrets](feat:Dreamed_Secrets)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Preklikin's Book of Cults](magic/wondrous:Preklikin's_Book_of_Cults)",
+				"",
 				"#### Traits",
+				"",
 				"[Unspeakable Bond](trait:Unspeakable_Bond)"
 			]
 		},
@@ -25173,8 +26114,7 @@
 			],
 			"subdomains": [
 				"Ancestors",
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Insanity",
 				"Moon",
 				"Night",
@@ -25413,8 +26353,7 @@
 			],
 			"subdomains": [
 				"Blood",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Ferocity",
 				"Fur",
 				"Resolve",
@@ -25433,8 +26372,11 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Iron Tyrant (Antipaladin)](unknown:Iron_Tyrant_(Antipaladin))",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Bear Pelt of the Bonebreaker](magic/wondrous:Bear_Pelt_of_the_Bonebreaker)"
 			]
 		},
@@ -25472,7 +26414,7 @@
 				"Ferocity",
 				"Murder",
 				"Plague (Death)",
-				"Plague (Evil)",
+				"Plague",
 				"Self-Realization (Strength)",
 				"Shadow (Death)",
 				"Undead"
@@ -25548,26 +26490,47 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Dirge Bard (Bard)](unknown:Dirge_Bard_(Bard)), [Gravewalker (Witch)](unknown:Gravewalker_(Witch)), [Undead Lord (Cleric)](unknown:Undead_Lord_(Cleric))",
+				"",
 				"#### Feats",
+				"",
 				"[Bolster Undead](feat:Bolster_Undead), [Potion Glutton](feat:Potion_Glutton), [Shatter Resolve](feat:Shatter_Resolve), [Thanatopic Spell](feat:Thanatopic_Spell), [Threnodic Spell](feat:Threnodic_Spell), [Undead Master](feat:Undead_Master)",
+				"",
 				"#### Magic Items - Altars",
+				"",
 				"[Altar of Urgathoa](magic/altar:Altar_of_Urgathoa)",
+				"",
 				"#### Magic Items - Armor",
+				"",
 				"[Pallid Chain](magic/armor:Pallid_Chain)",
+				"",
 				"#### Magic Items - Rings",
+				"",
 				"[Gluttonous Feasting Ring](magic/ring:Gluttonous_Feasting_Ring)",
+				"",
 				"#### Magic Items - Sets",
+				"",
 				"[Urgathoa's Gluttony](magic/set:Urgathoa's_Gluttony)",
+				"",
 				"#### Magic Items - Weapons",
+				"",
 				"[Nail of the Princess](magic/weapon:Nail_of_the_Princess), [Reaper's Lantern](magic/weapon:Reaper's_Lantern)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Darkskull](magic/wondrous:Darkskull), [Gloves of Bony Power](magic/wondrous:Gloves_of_Bony_Power), [Mask of the Skull](magic/wondrous:Mask_of_the_Skull), [Pallid Crystal](magic/wondrous:Pallid_Crystal), [Plagueborn Mantle](magic/wondrous:Plagueborn_Mantle), [Robe of Bones](magic/wondrous:Robe_of_Bones), [Urgathoa's Breath](magic/wondrous:Urgathoa's_Breath)",
+				"",
 				"#### Monsters",
+				"",
 				"[Mother's Maw (Herald)](monster:Mother's_Maw_(Herald)), [Pallid Angel](monster:Pallid_Angel), [Sarcovalt](monster:Sarcovalt)",
+				"",
 				"#### Spells",
+				"",
 				"[Epidemic](spell:Epidemic), [Ghoul Hunger](spell:Ghoul_Hunger), [Plague Bearer](spell:Plague_Bearer)",
+				"",
 				"#### Traits",
+				"",
 				"[Corpse Cannibal](trait:Corpse_Cannibal), [Deathspeaker](trait:Deathspeaker), [Denial of Fate](trait:Denial_of_Fate), [Inoculated](trait:Inoculated)"
 			],
 			"unique_spell_rules": [
@@ -25630,8 +26593,7 @@
 				"Strength"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Honor",
 				"Resolve",
 				"Tyranny"
@@ -25663,6 +26625,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -25692,8 +26655,7 @@
 			"subdomains": [
 				"Ash",
 				"Catastrophe",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Storms"
 			],
 			"details": [
@@ -25746,10 +26708,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -25839,8 +26806,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -25915,8 +26885,7 @@
 				"Weather"
 			],
 			"subdomains": [
-				"Azata (Chaos)",
-				"Azata (Good)",
+				"Azata",
 				"Growth",
 				"Seasons",
 				"Storms"
@@ -25946,8 +26915,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -25994,6 +26966,7 @@
 			],
 			"for_followers": [
 				"#### Prestige Classes",
+				"",
 				"[Mortal Usher](unknown:Mortal_Usher), [Proctor](unknown:Proctor)"
 			]
 		},
@@ -26040,6 +27013,7 @@
 			],
 			"for_followers": [
 				"#### Prestige Classes",
+				"",
 				"[Proctor](unknown:Proctor)"
 			]
 		},
@@ -26066,8 +27040,7 @@
 				"Liberation"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Language",
 				"Memory",
 				"Thought"
@@ -26099,6 +27072,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -26122,8 +27096,7 @@
 				"War"
 			],
 			"subdomains": [
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Fear",
 				"Metal",
 				"Tactics"
@@ -26141,6 +27114,7 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Iron Tyrant (Antipaladin)](unknown:Iron_Tyrant_(Antipaladin))"
 			]
 		},
@@ -26187,6 +27161,7 @@
 			],
 			"for_followers": [
 				"#### Prestige Classes",
+				"",
 				"[Mortal Usher](unknown:Mortal_Usher), [Proctor](unknown:Proctor)"
 			]
 		},
@@ -26275,8 +27250,11 @@
 			],
 			"for_followers": [
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Great Barghest Hero Cloak](magic/wondrous:Great_Barghest_Hero_Cloak)",
+				"",
 				"#### Traits",
+				"",
 				"[Restless Hunger](trait:Restless_Hunger)"
 			]
 		},
@@ -26483,8 +27461,7 @@
 				"Law"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Martyr",
 				"Rage",
 				"Resurrection"
@@ -26520,10 +27497,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition), [Smite Evil Magic](feat:Smite_Evil_Magic)",
+				"",
 				"#### Prestige Classes",
+				"",
 				"[Scar Seeker](unknown:Scar_Seeker)",
+				"",
 				"#### Traits",
+				"",
 				"[Blind Zeal](trait:Blind_Zeal), [Bloody Vengeance](trait:Bloody_Vengeance), [Empyreal Focus](trait:Empyreal_Focus), [Resilient Martyr](trait:Resilient_Martyr)"
 			]
 		},
@@ -26550,8 +27532,7 @@
 				"Weather"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Seasons",
 				"Storms",
 				"Venom"
@@ -26583,6 +27564,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -26629,6 +27611,7 @@
 			],
 			"for_followers": [
 				"#### Prestige Classes",
+				"",
 				"[Mortal Usher](unknown:Mortal_Usher), [Proctor](unknown:Proctor)"
 			]
 		},
@@ -26707,8 +27690,7 @@
 				"Water"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Defense",
 				"Exploration",
 				"Purity",
@@ -26736,6 +27718,7 @@
 			],
 			"for_followers": [
 				"#### Traits",
+				"",
 				"[Snake Handler](trait:Snake_Handler)"
 			]
 		},
@@ -26762,10 +27745,9 @@
 				"Protection"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Defense",
-				"Legislation (Law)",
+				"Legislation",
 				"Loyalty",
 				"Purity"
 			],
@@ -26794,8 +27776,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -26823,8 +27808,7 @@
 			],
 			"subdomains": [
 				"Defense",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Metal",
 				"Tyranny"
 			],
@@ -26855,6 +27839,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -26925,12 +27910,19 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Dreamed Secrets](feat:Dreamed_Secrets)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Preklikin's Book of Cults](magic/wondrous:Preklikin's_Book_of_Cults)",
+				"",
 				"#### Spells",
+				"",
 				"[What Grows Within](spell:What_Grows_Within)",
+				"",
 				"#### Traits",
+				"",
 				"[Unspeakable Bond](trait:Unspeakable_Bond)"
 			],
 			"unique_spell_rules": [
@@ -26971,8 +27963,7 @@
 				"Protection"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Fear",
 				"Freedom",
 				"Revolution"
@@ -27004,6 +27995,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -27079,8 +28071,7 @@
 			],
 			"subdomains": [
 				"Caves",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Entropy",
 				"Ferocity",
 				"Petrification"
@@ -27136,10 +28127,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -27268,9 +28264,8 @@
 			"subdomains": [
 				"Construct",
 				"Deception",
-				"Demodand (Evil)",
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Demodand",
+				"Devil",
 				"Murder",
 				"Toil",
 				"Undead"
@@ -27379,6 +28374,7 @@
 			],
 			"for_followers": [
 				"#### Spells",
+				"",
 				"[Qlippoth Appearance](spell:Qlippoth_Appearance)"
 			],
 			"unique_spell_rules": [
@@ -27466,8 +28462,7 @@
 				"Weather"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Moon",
 				"Night",
 				"Storms"
@@ -27499,6 +28494,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -27545,6 +28541,7 @@
 			],
 			"for_followers": [
 				"#### Prestige Classes",
+				"",
 				"[Proctor](unknown:Proctor)"
 			]
 		},
@@ -27575,8 +28572,7 @@
 				"War"
 			],
 			"subdomains": [
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Hubris (Nobility)",
 				"Leadership",
 				"Martyr",
@@ -27598,10 +28594,15 @@
 			],
 			"for_followers": [
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Belt of the Snake King](magic/wondrous:Belt_of_the_Snake_King)",
+				"",
 				"#### Spells",
+				"",
 				"[Constricting Coils](spell:Constricting_Coils)",
+				"",
 				"#### Traits",
+				"",
 				"[Serpentine Squeeze](trait:Serpentine_Squeeze)"
 			],
 			"unique_spell_rules": [
@@ -27652,8 +28653,7 @@
 			],
 			"subdomains": [
 				"Ancestors",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Entropy",
 				"Murder"
 			],
@@ -27707,10 +28707,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -27750,10 +28755,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Dreamed Secrets](feat:Dreamed_Secrets)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Preklikin's Book of Cults](magic/wondrous:Preklikin's_Book_of_Cults)",
+				"",
 				"#### Traits",
+				"",
 				"[Unspeakable Bond](trait:Unspeakable_Bond)"
 			]
 		},
@@ -27810,10 +28820,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Harborwing Cloak](magic/wondrous:Harborwing_Cloak)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -27855,8 +28870,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Elemental Vigor](feat:Elemental_Vigor)",
+				"",
 				"#### Traits",
+				"",
 				"[Affinity for the Elements](trait:Affinity_for_the_Elements)"
 			]
 		},
@@ -27904,8 +28922,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Dreamed Secrets](feat:Dreamed_Secrets)",
+				"",
 				"#### Traits",
+				"",
 				"[Unspeakable Bond](trait:Unspeakable_Bond)"
 			]
 		},
@@ -27931,7 +28952,7 @@
 			],
 			"subdomains": [
 				"Arcane",
-				"Azata (Good)",
+				"Azata",
 				"Caves",
 				"Construct",
 				"Divine",
@@ -27957,6 +28978,7 @@
 			],
 			"for_followers": [
 				"#### Traits",
+				"",
 				"[Magic's Might](trait:Magic's_Might)"
 			]
 		},
@@ -28033,8 +29055,7 @@
 				"Nobility"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Leadership",
 				"Martyr",
 				"Torture"
@@ -28066,6 +29087,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -28090,8 +29112,7 @@
 			],
 			"subdomains": [
 				"Catastrophe",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Murder",
 				"Undead"
 			],
@@ -28199,8 +29220,11 @@
 			],
 			"for_followers": [
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Great Barghest Hero Cloak](magic/wondrous:Great_Barghest_Hero_Cloak)",
+				"",
 				"#### Traits",
+				"",
 				"[Wolf Cub](trait:Wolf_Cub)"
 			]
 		},
@@ -28281,8 +29305,7 @@
 				"Trickery"
 			],
 			"subdomains": [
-				"Devil (Evil)",
-				"Devil (Law)",
+				"Devil",
 				"Fear",
 				"Lust",
 				"Torture"
@@ -28314,6 +29337,7 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Hellish Shackles](feat:Hellish_Shackles)"
 			]
 		},
@@ -28341,8 +29365,7 @@
 				"Strength"
 			],
 			"subdomains": [
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Ferocity",
 				"Resolve",
 				"Saurian"
@@ -28397,10 +29420,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -28471,8 +29499,7 @@
 				"Water"
 			],
 			"subdomains": [
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Flotsam",
 				"Oceans",
 				"Thievery"
@@ -28490,8 +29517,11 @@
 			],
 			"for_followers": [
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Great Barghest Hero Cloak](magic/wondrous:Great_Barghest_Hero_Cloak)",
+				"",
 				"#### Traits",
+				"",
 				"[Flounderer](trait:Flounderer)"
 			]
 		},
@@ -28518,8 +29548,7 @@
 				"Travel"
 			],
 			"subdomains": [
-				"Archon (Good)",
-				"Archon (Law)",
+				"Archon",
 				"Exploration",
 				"Judgment",
 				"Thought"
@@ -28549,8 +29578,11 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Heroic Interposition](feat:Heroic_Interposition)",
+				"",
 				"#### Traits",
+				"",
 				"[Empyreal Focus](trait:Empyreal_Focus)"
 			]
 		},
@@ -28582,10 +29614,8 @@
 			],
 			"subdomains": [
 				"Catastrophe",
-				"Devil (Evil)",
-				"Devil (Law)",
-				"Kyton (Evil)",
-				"Kyton (Law)",
+				"Devil",
+				"Kyton",
 				"Loss",
 				"Murder",
 				"Night",
@@ -28657,28 +29687,51 @@
 			],
 			"for_followers": [
 				"#### Archetypes",
+				"",
 				"[Scarred Rager (Barbarian)](unknown:Scarred_Rager_(Barbarian)), [Vivisectionist (Alchemist)](unknown:Vivisectionist_(Alchemist))",
+				"",
 				"#### Feats",
+				"",
 				"[Bloodletting](feat:Bloodletting), [Cruelty](feat:Cruelty), [Flagellant](feat:Flagellant), [Shade of the Uskwood](feat:Shade_of_the_Uskwood)",
+				"",
 				"#### Magic Items - Altars",
+				"",
 				"[Altar of Zon-Kuthon](magic/altar:Altar_of_Zon-Kuthon)",
+				"",
 				"#### Magic Items - Armor",
+				"",
 				"[Painspike Armor](magic/armor:Painspike_Armor), [Raiment of Chains](magic/armor:Raiment_of_Chains)",
+				"",
 				"#### Magic Items - Rods",
+				"",
 				"[Rod of Shadows](magic/rod:Rod_of_Shadows)",
+				"",
 				"#### Magic Items - Staves",
+				"",
 				"[Staff of Hungry Shadows](magic/staff:Staff_of_Hungry_Shadows)",
+				"",
 				"#### Magic Items - Weapons",
+				"",
 				"[Bloodthirst Dagger](magic/weapon:Bloodthirst_Dagger), [Fist of the Pit](magic/weapon:Fist_of_the_Pit), [Grasp of Torment](magic/weapon:Grasp_of_Torment), [Shadowbound Chains](magic/weapon:Shadowbound_Chains), [Torment of the Midnight Lord](magic/weapon:Torment_of_the_Midnight_Lord), [Umbral Chain](magic/weapon:Umbral_Chain)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Mask of Cutting Flesh](magic/wondrous:Mask_of_Cutting_Flesh), [Scabbard of Pain](magic/wondrous:Scabbard_of_Pain)",
+				"",
 				"#### Monsters",
+				"",
 				"[Joyful Thing](monster:Joyful_Thing), [Lampadarius](monster:Lampadarius), [The Prince in Chains (Herald)](monster:The_Prince_in_Chains_(Herald))",
+				"",
 				"#### Prestige Classes",
+				"",
 				"[Pain Taster](unknown:Pain_Taster), [Umbral Court Agent](unknown:Umbral_Court_Agent)",
+				"",
 				"#### Spells",
+				"",
 				"[Bereave](spell:Bereave), [Eyebite](spell:Eyebite), [Instrument of Agony](spell:Instrument_of_Agony), [Maddening Oubliette](spell:Maddening_Oubliette), [Overstimulate](spell:Overstimulate), [Pain Strike](spell:Pain_Strike), [Protective Penumbra](spell:Protective_Penumbra), [Sadomasochism](spell:Sadomasochism), [Scarify](spell:Scarify), [Shadow Walk](spell:Shadow_Walk), [Shroud of Darkness](spell:Shroud_of_Darkness), [Symbol of Pain](spell:Symbol_of_Pain), [Sympathetic Wounds](spell:Sympathetic_Wounds), [Touch of Bloodletting](spell:Touch_of_Bloodletting)",
+				"",
 				"#### Traits",
+				"",
 				"[Battlefield Surgeon](trait:Battlefield_Surgeon), [Demoralizing Presence](trait:Demoralizing_Presence), [Kuthite Caster](trait:Kuthite_Caster), [Pain Is Pleasure](trait:Pain_Is_Pleasure)"
 			],
 			"unique_spell_rules": [
@@ -28729,8 +29782,7 @@
 			],
 			"subdomains": [
 				"Blood",
-				"Demon (Chaos)",
-				"Demon (Evil)",
+				"Demon",
 				"Murder",
 				"Undead"
 			],
@@ -28784,10 +29836,15 @@
 			],
 			"for_followers": [
 				"#### Feats",
+				"",
 				"[Channel Discord](feat:Channel_Discord)",
+				"",
 				"#### Magic Items - Wondrous Items",
+				"",
 				"[Dagon's Eye](magic/wondrous:Dagon's_Eye)",
+				"",
 				"#### Traits",
+				"",
 				"[Blessing of the Feast](trait:Blessing_of_the_Feast), [Demonic Persuasion](trait:Demonic_Persuasion)"
 			]
 		},
@@ -28906,8 +29963,11 @@
 			],
 			"for_followers": [
 				"#### Magic Items - Altars",
+				"",
 				"[Altar of Zursvaater](magic/altar:Altar_of_Zursvaater)",
+				"",
 				"#### Spells",
+				"",
 				"[Stoke the Inner Fire](spell:Stoke_the_Inner_Fire)"
 			],
 			"unique_spell_rules": [
@@ -29015,12 +30075,19 @@
 			],
 			"for_followers": [
 				"#### Magic Items - Armor",
+				"",
 				"[Grim Gloom Mail](magic/armor:Grim_Gloom_Mail)",
+				"",
 				"#### Monsters",
+				"",
 				"[Gravedragger (Herald)](monster:Gravedragger_(Herald))",
+				"",
 				"#### Spells",
+				"",
 				"[Curse of Unexpected Death](spell:Curse_of_Unexpected_Death)",
+				"",
 				"#### Traits",
+				"",
 				"[Accident Resistant](trait:Accident_Resistant), [Fatal Trapper](trait:Fatal_Trapper)"
 			],
 			"unique_spell_rules": [

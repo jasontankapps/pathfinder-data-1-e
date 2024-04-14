@@ -442,9 +442,9 @@
 			"construction": [
 				"Although the Champion of the Gilded Host is made almost entirely of gold, most gold colossi are alloys of gold and less precious metals that cost 100,000 gp to build. Such lesser constructs lack the Champion of the Gilded Host's suppressing stomp ability (which was added after the colossus's initial completion) though they retain the stomp attack and pinning stomp special attack. Gold colossi are MR 6.",
 				"",
-				"CL 14th; Price 100,000 gp",
+				"**CL** 14th; **Price** 100,000 gp",
 				"",
-				"Requirements Craft Construct, Mythic Crafter, antimagic field, good hope, remove fear, vengeful outrage, wish, creator must be at least mythic rank or tier 6th"
+				"**Requirements** Craft Construct, Mythic Crafter, antimagic field, good hope, remove fear, vengeful outrage, wish, creator must be at least mythic rank or tier 6th"
 			],
 			"short_description": "This towering humanoid creature is made almost entirely of gold and radiates a warm light."
 		},
@@ -643,9 +643,9 @@
 			"construction": [
 				"The creation of a flesh colossus requires at least 500 humanoid corpses with a total cost of 10,000 gp.",
 				"",
-				"CL 12th; Price 120,000 gp",
+				"**CL** 12th; **Price** 120,000 gp",
 				"",
-				"Requirements Craft Construct, Mythic Crafter 6th mythic tier, animate dead, antimagic field, gentle repose, limited wish; Skill Heal DC 25; Cost 70,000 gp"
+				"**Requirements** Craft Construct, Mythic Crafter 6th mythic tier, animate dead, antimagic field, gentle repose, limited wish; Skill Heal DC 25; **Cost** 70,000 gp"
 			],
 			"short_description": "This enormous monstrosity looks like a pile of fresh humanoid bodies shoved into a shambling humanoid shape."
 		},
@@ -726,9 +726,9 @@
 			"construction": [
 				"The body of an iron colossus is constructed from hundreds of tons of iron, costing 100,000 gp.",
 				"",
-				"CL 17th; Price 500,000 gp",
+				"**CL** 17th; **Price** 500,000 gp",
 				"",
-				"Requirements Craft Construct, Mythic Crafter, mythic tier or rank 8, antimagic field, cloudkill, meteor swarm, rusting grasp, wall of iron, wish; Skill Craft (blacksmithing) DC 30; Cost 300,000 gp"
+				"**Requirements** Craft Construct, Mythic Crafter, mythic tier or rank 8, antimagic field, cloudkill, meteor swarm, rusting grasp, wall of iron, wish; Skill Craft (blacksmithing) DC 30; **Cost** 300,000 gp"
 			],
 			"short_description": "A siege engineer's nightmare, this giant machine emits noxious fumes from its grinding engine."
 		},
@@ -806,9 +806,9 @@
 			"construction": [
 				"The body of a sphinx colossus is first carved from sandstone of the highest quality costing 25,000 gp.",
 				"",
-				"CL 11th; Price 100,000 gp",
+				"**CL** 11th; **Price** 100,000 gp",
 				"",
-				"Requirements Craft Construct, Mythic Crafter, Quicken Spell, 4th mythic rank or tier, antimagic field, limited wish, moment of prescience, true strike; Skill Craft (stonemasonry) DC 25; Cost 62,500 gp"
+				"**Requirements** Craft Construct, Mythic Crafter, Quicken Spell, 4th mythic rank or tier, antimagic field, limited wish, moment of prescience, true strike; Skill Craft (stonemasonry) DC 25; **Cost** 62,500 gp"
 			],
 			"short_description": "This stone edifice resembles a lion with a regal human face, garbed in royal clothing."
 		},
@@ -887,9 +887,9 @@
 			"construction": [
 				"The body of a stone colossus costs 40,000 gp.",
 				"",
-				"CL 15th; Price 300,000 gp",
+				"**CL** 15th; **Price** 300,000 gp",
 				"",
-				"Requirements Craft Construct, Mythic Crafter, mythic rank or tier 8, antimagic field, magnificent mansion, make whole, wall of stone, wish; Skill Craft (stonemasonry) DC 30; Cost 170,000 gp"
+				"**Requirements** Craft Construct, Mythic Crafter, mythic rank or tier 8, antimagic field, magnificent mansion, make whole, wall of stone, wish; Skill Craft (stonemasonry) DC 30; **Cost** 170,000 gp"
 			],
 			"short_description": "This immense stone figure appears to be a keep that uprooted itself and went for a walk."
 		},
@@ -959,9 +959,9 @@
 			"construction": [
 				"The body of a wood colossus requires hundreds of tons of living trees or raw lumber, costing at least 80,000 gp.",
 				"",
-				"CL 14th price 300,000 gp",
+				"**CL** 14th; **Price** 300,000 gp",
 				"",
-				"Requirements Craft Construct, Mythic Crafter, 7th mythic rank or tier, antimagic field, magnificent mansion, ironwood, limited wish or miracle Skill Craft (woodworking) DC 30; Cost 190,000 gp"
+				"**Requirements** Craft Construct, Mythic Crafter, 7th mythic rank or tier, antimagic field, magnificent mansion, ironwood, limited wish or miracle Skill Craft (woodworking) DC 30; **Cost** 190,000 gp"
 			],
 			"short_description": "This gigantic construct looks like a walking mansion, its body and limbs composed of various rooms."
 		},

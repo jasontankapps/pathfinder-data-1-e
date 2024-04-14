@@ -976,9 +976,9 @@
 			"construction": [
 				"A juggernaut's body must be created from 20,000 gp worth of clay, crystal, metal, stone, wood, or bone.",
 				"",
-				"CL 13th; Price 140,000 gp",
+				"**CL** 13th; **Price** 140,000 gp",
 				"",
-				"Requirements Craft Construct, greater magic weapon, imbue with spell ability, make whole, stone shape, creator must be caster level 10th; Skill Craft (carpentry, sculptures, or stonemasonry); Cost 80,000 gp"
+				"**Requirements** Craft Construct, greater magic weapon, imbue with spell ability, make whole, stone shape, creator must be caster level 10th; Skill Craft (carpentry, sculptures, or stonemasonry); **Cost** 80,000 gp"
 			],
 			"short_description": "This oppressive construct rumbles forth on deadly rollers, crushing everything in its path."
 		},
@@ -3799,9 +3799,9 @@
 			"construction": [
 				"A kikituk's body is built from an intact whale skeleton smeared with 5,000 gp of rare herbal paste.",
 				"",
-				"CL 14th; Price 145,000 gp",
+				"**CL** 14th; **Price** 145,000 gp",
 				"",
-				"Requirements Craft Construct, blasphemy, geas/quest, keen edge, creator must be at least caster level 14th; Skill Craft (scrimshaw) DC 25; Cost 75,000 gp"
+				"**Requirements** Craft Construct, blasphemy, geas/quest, keen edge, creator must be at least caster level 14th; Skill Craft (scrimshaw) DC 25; **Cost** 75,000 gp"
 			],
 			"short_description": "This lumbering whale skeleton has a set of bony legs affixed to its frame. Its bones bear complex scrimshaw patterns."
 		},
@@ -8581,11 +8581,11 @@
 				"",
 				"**Cactus Leshy**",
 				"",
-				"CL 7th; Price 2,500 gp",
+				"**CL** 7th; **Price** 2,500 gp",
 				"",
 				"**Ritual**",
 				"",
-				"Requirements Knowledge (nature) 5 ranks, goodberry, plant growth, summon nature's ally II; Skill Knowledge (nature) DC 14; Cost 1,250 gp"
+				"**Requirements** Knowledge (nature) 5 ranks, goodberry, plant growth, summon nature's ally II; Skill Knowledge (nature) DC 14; **Cost** 1,250 gp"
 			],
 			"monster_family": "Leshy",
 			"short_description": "A prickly cactus's arms are covered in vicious spines."
@@ -8667,9 +8667,9 @@
 			"creating": [
 				"A flytrap leshy is usually grown in swampy or marshy terrain. A flytrap leshy will only emerge if it is given a small pile of freshly killed insects to eat.",
 				"",
-				"CL 10th; Price 6,500 gp",
+				"**CL** 10th; **Price** 6,500 gp",
 				"",
-				"Requirements Knowledge (nature) 5 ranks, burst of nettles, plant growth, summon nature's ally IV; Skill Knowledge (nature) DC 18; Cost 3,250 gp"
+				"**Requirements** Knowledge (nature) 5 ranks, burst of nettles, plant growth, summon nature's ally IV; Skill Knowledge (nature) DC 18; **Cost** 3,250 gp"
 			],
 			"monster_family": "Leshy",
 			"short_description": "This cluster of flytraps has a vaguely humanoid shape. The beady eyes atop the largest flytrap glare menacingly."
@@ -8750,11 +8750,11 @@
 				"",
 				"**Fungus Leshy**",
 				"",
-				"CL 8th; Price 2,500 gp",
+				"**CL** 8th; **Price** 2,500 gp",
 				"",
 				"**Ritual**",
 				"",
-				"Requirements Knowledge (nature) 5 ranks, obscuring mist, plant growth, summon nature's ally II; Skill Knowledge (dungeoneering or nature) DC 14; Cost 1,250 gp"
+				"**Requirements** Knowledge (nature) 5 ranks, obscuring mist, plant growth, summon nature's ally II; Skill Knowledge (dungeoneering or nature) DC 14; **Cost** 1,250 gp"
 			],
 			"monster_family": "Leshy",
 			"short_description": "Mismatched eyes dot this plant creature's thick mushroom cap, while below works an overlarge maw set with pale fungal teeth."
@@ -8834,11 +8834,11 @@
 				"",
 				"**Gourd Leshy**",
 				"",
-				"CL 6th; Price 1,500 gp",
+				"**CL** 6th; **Price** 1,500 gp",
 				"",
 				"**Ritual**",
 				"",
-				"Requirements Knowledge (nature) 5 ranks, entangle, plant growth, summon nature's ally I; Skill Knowledge (nature) DC 13; Cost 750 gp"
+				"**Requirements** Knowledge (nature) 5 ranks, entangle, plant growth, summon nature's ally I; Skill Knowledge (nature) DC 13; **Cost** 750 gp"
 			],
 			"monster_family": "Leshy",
 			"short_description": "This little plant man walks on legs like tangled vines and has a pumpkin carved with eyes and a mouth for a head."
@@ -8913,11 +8913,11 @@
 				"",
 				"**Leaf Leshy**",
 				"",
-				"CL 5th; Price 1,000 gp",
+				"**CL** 5th; **Price** 1,000 gp",
 				"",
 				"**Ritual**",
 				"",
-				"Requirements Knowledge (nature) 5 ranks, magic stone, plant growth, summon nature's ally I; Skill Knowledge (nature) DC 12; Cost 500 gp"
+				"**Requirements** Knowledge (nature) 5 ranks, magic stone, plant growth, summon nature's ally I; Skill Knowledge (nature) DC 12; **Cost** 500 gp"
 			],
 			"monster_family": "Leshy",
 			"short_description": "This little plant person is clad in a winglike leaf cloak and pinecone armor, wielding a twig as a makeshift spear."
@@ -9000,11 +9000,11 @@
 				"",
 				"**Lichen Leshy**",
 				"",
-				"CL 10th; Price 4,500 gp",
+				"**CL** 10th; **Price** 4,500 gp",
 				"",
 				"**Ritual**",
 				"",
-				"Requirements Knowledge (nature) 5 ranks, plant growth, soften earth and stone, summon nature's ally III; Skill Knowledge (nature) DC 15; Cost 2,250 gp"
+				"**Requirements** Knowledge (nature) 5 ranks, plant growth, soften earth and stone, summon nature's ally III; Skill Knowledge (nature) DC 15; **Cost** 2,250 gp"
 			],
 			"monster_family": "Leshy",
 			"short_description": "This miniature plant person has a body composed of lichens and a rain cape woven from leafy growths."
@@ -9085,9 +9085,9 @@
 			"creating": [
 				"Lotus leshys grow best in warm ponds and lakes in quiet areas. To grow a lotus leshy, the maker must plant a lotus seed by the water's edge, and sit in quiet mediation by the seed until it sprouts.",
 				"",
-				"CL 12th; Price 9,000 gp",
+				"**CL** 12th; **Price** 9,000 gp",
 				"",
-				"Requirements Knowledge (nature) 5 ranks, Knowledge (religion) 5 ranks, lily pad stride, plant growth, summon nature's ally V; Skill Knowledge (nature or religion) DC 19; Cost 4,500 gp"
+				"**Requirements** Knowledge (nature) 5 ranks, Knowledge (religion) 5 ranks, lily pad stride, plant growth, summon nature's ally V; Skill Knowledge (nature or religion) DC 19; **Cost** 4,500 gp"
 			],
 			"monster_family": "Leshy",
 			"short_description": "A plant whose body resembles a blooming lotus flower exudes an air of serenity."
@@ -9166,11 +9166,11 @@
 				"",
 				"**Seaweed Leshy**",
 				"",
-				"CL 10th; Price 4,500 gp",
+				"**CL** 10th; **Price** 4,500 gp",
 				"",
 				"**Ritual**",
 				"",
-				"Requirements Knowledge (nature) 5 ranks, plant growth, summon nature's ally III, water breathing; Skill Knowledge (nature) DC 16; Cost 2,250 gp"
+				"**Requirements** Knowledge (nature) 5 ranks, plant growth, summon nature's ally III, water breathing; Skill Knowledge (nature) DC 16; **Cost** 2,250 gp"
 			],
 			"monster_family": "Leshy",
 			"short_description": "This vaguely humanoid plant creature has a body formed of soggy green seaweed and wears crude armor made from seashells."
@@ -9251,11 +9251,11 @@
 				"",
 				"**Snapdragon Leshy**",
 				"",
-				"CL 10th; Price 6,500 gp",
+				"**CL** 10th; **Price** 6,500 gp",
 				"",
 				"**Ritual**",
 				"",
-				"Requirements Knowledge (nature) 5 ranks, Perform (comedy, oratory, or sing) 1 rank, plant growth, speak with plants, summon nature's ally IV; Skill Knowledge (nature) DC 18; Cost 3,250 gp"
+				"**Requirements** Knowledge (nature) 5 ranks, Perform (comedy, oratory, or sing) 1 rank, plant growth, speak with plants, summon nature's ally IV; Skill Knowledge (nature) DC 18; **Cost** 3,250 gp"
 			],
 			"monster_family": "Leshy",
 			"short_description": "Verdant stalks entwine one another to create a humanoid shape with a giant snapdragon blossom for a head."
@@ -9333,11 +9333,11 @@
 				"",
 				"**Sunflower Leshy**",
 				"",
-				"CL 5th; Price 1,000 gp",
+				"**CL** 5th; **Price** 1,000 gp",
 				"",
 				"**Ritual**",
 				"",
-				"Requirements Knowledge (nature) 5 ranks, light, plant growth, summon nature's ally I; Skill Knowledge (nature) DC 12; Cost 500 gp"
+				"**Requirements** Knowledge (nature) 5 ranks, light, plant growth, summon nature's ally I; Skill Knowledge (nature) DC 12; **Cost** 500 gp"
 			],
 			"monster_family": "Leshy",
 			"short_description": "The petals of this small plant's large, flat, flowering head reflect light in unnatural ways."
@@ -10941,9 +10941,9 @@
 			"construction": [
 				"The construction of the stone effigy requires an appropriate amount of stone (at least 40 tons' worth) and a successful DC 20 Craft (stonemasonry) check. If the crafter fails the check, the stone is rendered useless for this purpose and a new block must be obtained. The creation of the effigy also requires two gems that are worth at least 500 gp each. A completed effigy acts as a soul receptacle, sucking in the intended target's soul as long as it dies within a mile of the inert statue. It takes the soul a full week to adjust to its new home, at which point the effigy animates and can use all of its abilities normally. During this transition period, the effigy remains a stone statue; it can be destroyed as normal or by removing or destroying the eye gems. Other forms of living effigies can be made of bone, bronze, wood, or similar materials.",
 				"",
-				"CL 15th; Price 71,000 gp",
+				"**CL** 15th; **Price** 71,000 gp",
 				"",
-				"Requirements Craft Construct, limited wish, nightmare, trap the soul, creator must be caster level 15th; Skill Craft (stonemasonry) DC 20; Cost 35,000 gp"
+				"**Requirements** Craft Construct, limited wish, nightmare, trap the soul, creator must be caster level 15th; Skill Craft (stonemasonry) DC 20; **Cost** 35,000 gp"
 			],
 			"short_description": "Carved from gray stone, this enormous figure is shaped like the head of some primordial giant."
 		},
@@ -11397,9 +11397,9 @@
 			"construction": [
 				"The pieces of a living wall must come from normal humanoid corpses that have not decayed significantly. The wall must also include at least one skull of a Large or larger creature (not necessarily a humanoid). Assembly requires at least 20 different full bodies. Special flesh-dissolving acids worth 500 gp are also required to cement the pieces together. Note that creating a living wall requires casting a spell with the evil descriptor.",
 				"",
-				"CL 12th; Price 18,500 gp",
+				"**CL** 12th; **Price** 18,500 gp",
 				"",
-				"Requirements Craft Construct, animate dead, geas/quest, limited wish, creator must be caster level 8th; Skill Craft (leather) or Heal DC 13; Cost 9,500 gp"
+				"**Requirements** Craft Construct, animate dead, geas/quest, limited wish, creator must be caster level 8th; Skill Craft (leather) or Heal DC 13; **Cost** 9,500 gp"
 			],
 			"short_description": "This gruesome wall is made stacked corpses mortared together into an unyielding mass of grasping limbs, topped with a dragon skull."
 		},
@@ -17405,9 +17405,9 @@
 			"construction": [
 				"The creation of a mirror man requires a single living creature (usually human), which is killed during the process. Its manufacture requires costly alchemical reagents and a mirror faceplate crafted specifically for the creature. The creature's soul is bound to the mirror, which prevents it from continuing to the afterlife and protects it from being resurrected or raised from the dead. Most of the original creature's memories are expunged, but mirror men retain many of their originals skills; consequently, the most effective mirror men are former career criminals and foreign spies. The creation process is excruciating to the victim, and creating a mirror man constitutes an evil act.",
 				"",
-				"CL 11th; Price 24,500 gp",
+				"**CL** 11th; **Price** 24,500 gp",
 				"",
-				"Requirements Craft Construct, animate dead, cat's grace, geas/quest, Irriseni mirror sight, magic jar, sending, creator must be caster level 11th, soul of a living creature that dies or is slain during the creation process; Skill Craft (sculpture) DC 17 or Heal DC 17; Cost 12,500 gp"
+				"**Requirements** Craft Construct, animate dead, cat's grace, geas/quest, Irriseni mirror sight, magic jar, sending, creator must be caster level 11th, soul of a living creature that dies or is slain during the creation process; Skill Craft (sculpture) DC 17 or Heal DC 17; **Cost** 12,500 gp"
 			],
 			"short_description": "Tall and lean, this hooded figure resembles a human until the terrible face beneath the cowl is revealed-nothing but a featureless mirror, reflecting a hard, cold world."
 		},
@@ -18552,11 +18552,11 @@
 				"",
 				"Morgod jelly causes vivid hallucinations and a sense of euphoria, and proves remarkably addictive to most humanoids. Morgodeas not only coat their stingers in this jelly, but also collect it in vials or wax-covered paper to sell to victims once they become addicted. For further details on drugs and addiction, see page 236 of the Pathfinder RPG GameMastery Guide.",
 				"",
-				"Type ingested or injury; Addiction special (see below), Fortitude DC 15 Price 10 gp Effects 1 hour; +1d2 Cha and all creatures are considered to have concealment against the user Damage 1d2 Cha and 1d2 Wis",
+				"**Type** ingested or injury; **Addiction** special (see below), Fortitude DC 15 Price 10 gp Effects 1 hour; +1d2 Cha and all creatures are considered to have concealment against the user Damage 1d2 Cha and 1d2 Wis",
 				"",
 				"**Morgod Addiction**",
 				"",
-				"Type disease, variable; Save Will DC 15 Onset 1 day; Frequency 1/day Effect -2 penalty to Wis and Cha, target cannot naturally heal ability damage caused by morgod jelly; Cure 3 consecutive saves"
+				"**Type** disease, variable; **Save** Will DC 15 Onset 1 day; **Frequency** 1/day Effect -2 penalty to Wis and Cha, target cannot naturally heal ability damage caused by morgod jelly; **Cure** 3 consecutive saves"
 			],
 			"short_description": "Amid this hissing cloud of glistening cockroaches is a disheveled vagrant with wasplike stingers extending from its palms."
 		},
@@ -21256,9 +21256,9 @@
 			"construction": [
 				"A necrophidius's body consists of a human skull and the skeletal remains of a constrictor snake, all treated with rare oils and powders worth 1,000 gp.",
 				"",
-				"CL 10th; Price 7,500 gp",
+				"**CL** 10th; **Price** 7,500 gp",
 				"",
-				"Requirements Craft Construct, cat's grace, daze monster, geas/quest, ghoul touch, creator must be caster level 7th; Skill Craft (sculpture) or Heal DC 15; Cost 4,250 gp"
+				"**Requirements** Craft Construct, cat's grace, daze monster, geas/quest, ghoul touch, creator must be caster level 7th; Skill Craft (sculpture) or Heal DC 15; **Cost** 4,250 gp"
 			],
 			"short_description": "The soft scrape of bone reveals the long, sinuous skeleton of a large snake, its head a humanoid skull with a snake's jaws."
 		},
@@ -31584,9 +31584,9 @@
 			"construction": [
 				"Small poppets require quality pieces of wood or wicker worth 100 gp.",
 				"",
-				"CL 3rd; Price 900 gp",
+				"**CL** 3rd; **Price** 900 gp",
 				"",
-				"Requirements Craft Construct or Craft Poppet, make whole, mending; Skill Craft (carpentry) DC 18; Cost 500 gp"
+				"**Requirements** Craft Construct or Craft Poppet, make whole, mending; Skill Craft (carpentry) DC 18; **Cost** 500 gp"
 			],
 			"monster_family": "Poppet"
 		},
@@ -31641,9 +31641,9 @@
 			"construction": [
 				"Poppets are among the simplest of constructs. The creator must start with quality pieces of wood and wicker worth 10 gp.",
 				"",
-				"CL 1st; Price 310 gp",
+				"**CL** 1st; **Price** 310 gp",
 				"",
-				"Requirements Craft Construct or Craft Poppet, make whole, mending; Skill Craft (carpentry) DC 15; Cost 160 gp"
+				"**Requirements** Craft Construct or Craft Poppet, make whole, mending; Skill Craft (carpentry) DC 15; **Cost** 160 gp"
 			],
 			"monster_family": "Poppet"
 		},

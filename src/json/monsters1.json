@@ -629,9 +629,9 @@
 			"construction": [
 				"An abrakarn viper's body and its diadem of control are built from 5,000 pounds of magically treated brass and rare metals costing 10,000 gp in total.",
 				"",
-				"CL 8th; Price 150,000 gp",
+				"**CL** 8th; **Price** 150,000 gp",
 				"",
-				"Requirements Craft Construct, animate object, confusion, geas/quest, shield other; Skill Craft (armor), Craft (blacksmithing), or Craft (weapons) DC 21; Cost 80,000 gp"
+				"**Requirements** Craft Construct, animate object, confusion, geas/quest, shield other; Skill Craft (armor), Craft (blacksmithing), or Craft (weapons) DC 21; **Cost** 80,000 gp"
 			],
 			"short_description": "This massive, three-headed clockwork snake is crafted of brass and strange, dark alloys."
 		},
@@ -3498,9 +3498,9 @@
 			"construction": [
 				"An akaruzug is created from a 15-foot-tall hollow statue of a fallen angel. More than 6,000 pounds of stone and iron are used in its creation, along with rare infernal admixtures and agents costing at least 15,000 gp.",
 				"",
-				"CL 15th; Price 160,000 gp",
+				"**CL** 15th; **Price** 160,000 gp",
 				"",
-				"Requirements [Craft Construct](unknown:Craft_Construct), [enervation](unknown:enervation), [magic jar](unknown:magic_jar), [unhallow](unknown:unhallow), willing or helpless humanoid sacrifice, creator must be caster level 15th; Skill Craft (armor) or Craft (sculpture) DC 24; Cost 87,500 gp"
+				"**Requirements** [Craft Construct](unknown:Craft_Construct), [enervation](unknown:enervation), [magic jar](unknown:magic_jar), [unhallow](unknown:unhallow), willing or helpless humanoid sacrifice, creator must be caster level 15th; Skill Craft (armor) or Craft (sculpture) DC 24; **Cost** 87,500 gp"
 			],
 			"short_description": "This stony guardian has been sculpted in the shape of a grim, horned angel, and a crucified corpse has been affixed to its chest."
 		},
@@ -4811,7 +4811,7 @@
 			"construction": [
 				"Although the secret to the creation of aluums is closely guarded by the Pactmasters, near approximations have appeared elsewhere, indicating that some have either reverse-engineered the process or have stolen those secrets from Katapesh. During the creation process, the souls of a dozen slaves are siphoned from their bodies as they die. Fragments of these souls are placed within the inert body of the aluum, giving it its animating force.",
 				"",
-				"CL 13th; Price 80,000 gp Requirements Craft Construct, geas/quest, hold monster, limited wish, magic jar, creator must be caster level 13th; Skill Craft (armor) or Craft (weapons) DC 18; Cost 40,000 gp"
+				"**CL** 13th; **Price** 80,000 gp Requirements Craft Construct, geas/quest, hold monster, limited wish, magic jar, creator must be caster level 13th; Skill Craft (armor) or Craft (weapons) DC 18; **Cost** 40,000 gp"
 			],
 			"short_description": "This looming humanoid figure is made of rune-etched metal and polished stone, with crystalline eyes that glow with blue light."
 		},
@@ -6739,7 +6739,7 @@
 			"construction": [
 				"An angelic guardian is made from 2,000 pounds of metal that is treated with unguents and ointments worth 2,000 gp.",
 				"",
-				"Angelic Guardian CL 9th; Price 22,000 gp Requirements Craft Construct, mage armor, scorching ray, creator must be caster level 10th; Skill Craft (sculpture) or Knowledge (engineering) DC 15; Cost 12,000 gp"
+				"Angelic Guardian; **CL** 9th; **Price** 22,000 gp Requirements Craft Construct, mage armor, scorching ray, creator must be caster level 10th; Skill Craft (sculpture) or Knowledge (engineering) DC 15; **Cost** 12,000 gp"
 			],
 			"short_description": "This brass statue is sculpted in the shape of an angel with metal wings, and its halo takes the form of a burning crown."
 		},
@@ -6897,9 +6897,9 @@
 			"construction": [
 				"An animate aria must be constructed in a ceremony involving a musical performance and a framework of silver chimes worth 2,000 gp, the latter of which is consumed in the shaping of the creature's form.",
 				"",
-				"CL 12th; Price 38,000 gp",
+				"**CL** 12th; **Price** 38,000 gp",
 				"",
-				"Requirements Craft Construct, geas/quest, shout, solid note, creator must be caster level 12th; Skill Perform (sing) DC 25; Cost 20,000 gp"
+				"**Requirements** Craft Construct, geas/quest, shout, solid note, creator must be caster level 12th; Skill Perform (sing) DC 25; **Cost** 20,000 gp"
 			],
 			"short_description": "An inspirational song emanates from what appears to be point in thin air twelve feet off the ground. Stirring crescendos and moving fanfares can be heard throughout its melody."
 		},
@@ -7175,9 +7175,9 @@
 			"construction": [
 				"An animated tank is built by retrofitting a preexisting tank and hard-wiring its pickled brain to the controls through strange technology, rather than crafting the construct's tank body from scratch. The secrets to preserving brains and connecting them to metal war wagons is lost, as is the nonmagical technological process by which Viktor Miloslav constructed the monstrosities found on Earth during the First World War. However, those able to inspect a destroyed specimen may be able to reconstruct the process. In addition to an animated tank's creation requirements-beyond the body of an intact tank-an animating brain must be harvested soon after its body is deceased, preserved with gentle repose, and subjected to a special nutrient bath before being revived and ultimately hooked into the tank. Only time and experimentation will reveal whether other secrets to this mysterious process were lost in the chaos of war on Earth.",
 				"",
-				"CL 12th; Price 200,000 gp",
+				"**CL** 12th; **Price** 200,000 gp",
 				"",
-				"Requirements Craft Construct, animate object, geas/quest, resurrection, telekinesis; Skill Craft (blacksmithing), Knowledge (engineering), and Heal DC 25; Cost 100,000 gp"
+				"**Requirements** Craft Construct, animate object, geas/quest, resurrection, telekinesis; Skill Craft (blacksmithing), Knowledge (engineering), and Heal DC 25; **Cost** 100,000 gp"
 			],
 			"variants": [
 				"Viktor Miloslav is rumored to have created variations on the normal Mark V tank during his brief explorations into self-animated war machines during World War I.",
@@ -9789,9 +9789,9 @@
 			"construction": [
 				"Crafting an Ardoc moilant requires 20,000 pounds of steel smelt with rare compounds costing 7,500 gp. The precise process is jealously guarded by the Ardoc family.",
 				"",
-				"CL 13th Price 87,500 gp",
+				"**CL** 13th; **Price** 87,500 gp",
 				"",
-				"Requirements [Craft Construct](unknown:Craft_Construct), [geas/quest](unknown:geas/quest), [limited wish](unknown:limited_wish), [make whole](unknown:make_whole), [move earth](unknown:move_earth), creator must be caster level 13th; Skill Craft (armor) or Craft (weapons) DC 20; Cost 47,500 gp"
+				"**Requirements** [Craft Construct](unknown:Craft_Construct), [geas/quest](unknown:geas/quest), [limited wish](unknown:limited_wish), [make whole](unknown:make_whole), [move earth](unknown:move_earth), creator must be caster level 13th; Skill Craft (armor) or Craft (weapons) DC 20; **Cost** 47,500 gp"
 			],
 			"short_description": "This massive metallic biped stands on thick legs. A wide, serrated shovel serves as the brute's head, and iron pincers at the ends of its powerful arms snap open and shut."
 		},
@@ -9857,9 +9857,9 @@
 			"construction": [
 				"The suit of full plate armor that makes up the argent warden's body must be of masterwork quality.",
 				"",
-				"CL 11th; Price 25,650 gp",
+				"**CL** 11th; **Price** 25,650 gp",
 				"",
-				"Requirements Craft Construct, animate object, protection from evil, creator must be caster level 11th, must be constructed in Heaven; Skill Craft (armor) DC 15; Cost 13,650 gp"
+				"**Requirements** Craft Construct, animate object, protection from evil, creator must be caster level 11th, must be constructed in Heaven; Skill Craft (armor) DC 15; **Cost** 13,650 gp"
 			],
 			"short_description": "This silver-armored knight moves with precision and poise. Gaps in its armor reveal nothing but glowing golden light within."
 		},
@@ -12201,7 +12201,7 @@
 				"",
 				"Avernus Razorback Meat",
 				"",
-				"Type ingested; Addiction minor, Fortitude DC 18 Price 100 gp Effects 1 hour; +1 alchemical bonus to Strength and Constitution Damage 1d4 Wisdom damage",
+				"**Type** ingested; **Addiction** minor, Fortitude DC 18 Price 100 gp; **Effects** 1 hour; +1 alchemical bonus to Strength and Constitution Damage 1d4 Wisdom damage",
 				"",
 				"Avernus Razorback Tusks: The tusks of the largest razorback can be fashioned into vicious daggers, and count as 151 gp worth of raw materials needed in the creation of a masterwork dagger. A successful DC 26 Craft (weapons) check and 1d3 days of work are required to create a masterwork dagger from such a tusk."
 			],
@@ -14857,11 +14857,11 @@
 				"",
 				"**Barometz**",
 				"",
-				"CL 15th; Price 80,500",
+				"**CL** 15th; **Price** 80,500",
 				"",
 				"**Ritual**",
 				"",
-				"Requirements Knowledge (nature) 15 ranks, plant growth, entangle, ironwood, summon nature's ally VII; Skill Knowledge (nature) DC 25; Cost 40,200 gp"
+				"**Requirements** Knowledge (nature) 15 ranks, plant growth, entangle, ironwood, summon nature's ally VII; Skill Knowledge (nature) DC 25; **Cost** 40,200 gp"
 			],
 			"short_description": "This massive green ramlike creature's pelt is actually a tangle of vines, and its horns are wickedly sharp wooden branches."
 		},
@@ -19359,7 +19359,7 @@
 				"",
 				"While exceedingly dangerous, even when administered by a practiced healer, the best cure for this disease is dosing the patient with the poison arsenic. If the patient survives, there's a cumulative 30% chance per dose that the disease is immediately cured.",
 				"",
-				"Sleeping Sickness Type disease (parasite), injury; Save Fortitude DC 14 Onset 1d2 days; Frequency 1/day Effect 1d4 Wis damage and target is fatigued; Cure 2 consecutive saves or arsenic (see text)"
+				"*Sleeping Sickness* **Type** disease (parasite), injury; **Save** Fortitude DC 14 Onset 1d2 days; **Frequency** 1/day Effect 1d4 Wis damage and target is fatigued; **Cure** 2 consecutive saves or arsenic (see text)"
 			],
 			"short_description": "A high-pitched whine issues forth from the haze of this surging crimson cloud. Within, thousands of tiny forms whir in agitation, each a tiny insect with a needle-like proboscis."
 		},
@@ -24836,9 +24836,9 @@
 			"construction": [
 				"A caryatid column's body is carved from a single 2,000-pound block of stone, such as granite or marble. The stone must be of exceptional quality, and costs 2,000 gp.",
 				"",
-				"CL 9th; Price 12,000 gp",
+				"**CL** 9th; **Price** 12,000 gp",
 				"",
-				"Requirements Craft Construct, lesser geas, polymorph, shatter, caster must be at least 9th level; Skill Craft ( sculpting) or Craft (stonemasonry) DC 15; Cost 7,000 gp"
+				"**Requirements** Craft Construct, lesser geas, polymorph, shatter, caster must be at least 9th level; Skill Craft ( sculpting) or Craft (stonemasonry) DC 15; **Cost** 7,000 gp"
 			],
 			"short_description": "With its feet planted firmly together, this marble statue of a female warrior holding a stone sword rises up to support the ceiling."
 		},
@@ -26700,9 +26700,9 @@
 			"construction": [
 				"A cephalophore is constructed from a single block of marble weighing at least 4,000 pounds and costing 3,500 gp.",
 				"",
-				"CL 11th; Price 33,500 gp",
+				"**CL** 11th; **Price** 33,500 gp",
 				"",
-				"Requirements Craft Construct, animate objects, daze monster, geas/quest, resurrection, creator must be caster level 11th; Skill Craft (sculpture) DC 20; Cost 18,500 gp"
+				"**Requirements** Craft Construct, animate objects, daze monster, geas/quest, resurrection, creator must be caster level 11th; Skill Craft (sculpture) DC 20; **Cost** 18,500 gp"
 			],
 			"short_description": "Holding its own severed head in its hands, this tall marble statue looms stern and forbidding over its domain."
 		},
@@ -30261,9 +30261,9 @@
 			"construction": [
 				"The creator of a clockwork angel must start with specially prepared clockwork pieces worth 15,000 gp.",
 				"",
-				"CL 16th; Price 200,000 gp",
+				"**CL** 16th; **Price** 200,000 gp",
 				"",
-				"Requirements Craft Construct, fly, geas/quest, and greater magic weapon, creator must be at least caster level 16th; Skill Craft (clockwork) DC 25; Cost 107,500 gp plus the items listed separately above"
+				"**Requirements** Craft Construct, fly, geas/quest, and greater magic weapon, creator must be at least caster level 16th; Skill Craft (clockwork) DC 25; **Cost** 107,500 gp plus the items listed separately above"
 			],
 			"monster_family": "Clockwork",
 			"short_description": "Brass, bronze, and silver components adorn this angelic figure. Moving gears are visible within the gaps of its metallic body."
@@ -30337,9 +30337,9 @@
 			"construction": [
 				"The creator of a clockwork assassin must start with crafted clockwork pieces worth 12,000 gp.",
 				"",
-				"CL 16th; Price 150,000 gp",
+				"**CL** 16th; **Price** 150,000 gp",
 				"",
-				"Requirements Craft Construct, gaseous form, geas/quest, keen edge, and major creation, creator must be at least caster level 16th; Skill Craft (clockwork) DC 20; Cost 81,000 gp"
+				"**Requirements** Craft Construct, gaseous form, geas/quest, keen edge, and major creation, creator must be at least caster level 16th; Skill Craft (clockwork) DC 20; **Cost** 81,000 gp"
 			],
 			"monster_family": "Clockwork",
 			"short_description": "This sleek, one-eyed construct crouches, ready for battle. Its arms end in weapons-a rapier and a compact crossbow bolt launcher."
@@ -30432,9 +30432,9 @@
 			"construction": [
 				"The clockwork dragon is a masterpiece of clockwork construction and is exceptionally difficult to create. The creator must begin with crafted clockwork pieces worth 25,000 gp.",
 				"",
-				"CL 18th; Price 300,000 gp",
+				"**CL** 18th; **Price** 300,000 gp",
 				"",
-				"Requirements Craft Construct, animate objects, geas/quest, and limited wish, creator must be at least CL 18th; Skill Craft (clockwork) DC 20; Cost 162,500 gp"
+				"**Requirements** Craft Construct, animate objects, geas/quest, and limited wish, creator must be at least CL 18th; Skill Craft (clockwork) DC 20; **Cost** 162,500 gp"
 			],
 			"monster_family": "Clockwork",
 			"short_description": "Though made of thousands of metal parts, this masterpiece of gleaming metal glides through the air with impossible grace."
@@ -30523,9 +30523,9 @@
 			"construction": [
 				"When creating a clockwork excavator, the creator must obtain adamantine drill bits worth 10,000 gp, in addition to acid- and fire-resistant clockwork components worth 10,000 gp.",
 				"",
-				"CL 10th; Price 140,000 gp",
+				"**CL** 10th; **Price** 140,000 gp",
 				"",
-				"Requirements Craft Construct, animate objects, fabricate, geas/quest, locate object, shatter, creator must be at least caster level 10th; Skill Craft (clockwork) DC 20; Cost 80,000 gp"
+				"**Requirements** Craft Construct, animate objects, fabricate, geas/quest, locate object, shatter, creator must be at least caster level 10th; Skill Craft (clockwork) DC 20; **Cost** 80,000 gp"
 			],
 			"monster_family": "Clockwork",
 			"short_description": "Set atop spoked wheels, this huge contraption has two hinged arms that appear to be designed to shovel rocks into its open maw. Gleaming drills set around the construct's base look like they could easily break apart stone, and a gleaming scope of dark-hued glass projects from the end of a jointed arm."
@@ -30599,9 +30599,9 @@
 			"construction": [
 				"The creator of a clockwork familiar must start with crafted clockwork pieces worth 500 gp.",
 				"",
-				"CL 12th; Price 14,500 gp",
+				"**CL** 12th; **Price** 14,500 gp",
 				"",
-				"Requirements Craft Construct, geas/quest, make whole, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; Cost 7,500 gp"
+				"**Requirements** Craft Construct, geas/quest, make whole, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 7,500 gp"
 			],
 			"monster_family": "Clockwork",
 			"short_description": "This tiny metallic creature is shaped like a raven, gears and belts whirring beneath its shining, articulated plates."
@@ -30676,9 +30676,9 @@
 			"construction": [
 				"The creator of a clockwork fiend must start with crafted clockwork pieces worth 20,000 gp.",
 				"",
-				"CL 18th; Price 280,000 gp",
+				"**CL** 18th; **Price** 280,000 gp",
 				"",
-				"Requirements Craft Construct, delayed blast fireball, fire shield, geas/quest, and rage, creator must be at least caster level 18th; Skill Craft (clockwork) DC 25; Cost 150,000 gp"
+				"**Requirements** Craft Construct, delayed blast fireball, fire shield, geas/quest, and rage, creator must be at least caster level 18th; Skill Craft (clockwork) DC 25; **Cost** 150,000 gp"
 			],
 			"monster_family": "Clockwork",
 			"short_description": "Resembling a metallic horned devil, this apparatus whirs with the sound of internal mechanisms."
@@ -30748,9 +30748,9 @@
 			"construction": [
 				"Though their appearance makes them seem rushed, the creation of a clockwork goblin still requires a certain degree of technique and finesse. The creator of a clockwork goblin must start with clockwork pieces worth 750 gp.",
 				"",
-				"CL 12th; Price 9,250 gp",
+				"**CL** 12th; **Price** 9,250 gp",
 				"",
-				"Requirements [Craft Construct](unknown:Craft_Construct), [burning hands](unknown:burning_hands), [geas/quest](unknown:geas/quest), creator must be caster level 12th; Skill Craft (clockwork) DC 20; Cost 5,000 gp"
+				"**Requirements** [Craft Construct](unknown:Craft_Construct), [burning hands](unknown:burning_hands), [geas/quest](unknown:geas/quest), creator must be caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 5,000 gp"
 			],
 			"monster_family": "Clockwork",
 			"short_description": "Haphazard in its creation, this mechanical creature has the shape of a goblin wielding a dogslicer."
@@ -30821,9 +30821,9 @@
 			"construction": [
 				"The clockwork goliath is one of the most difficult of its kind to create. The creator must start with crafted clockwork pieces worth 20,000 gp.",
 				"",
-				"CL 18th; Price 300,000 gp",
+				"**CL** 18th; **Price** 300,000 gp",
 				"",
-				"Requirements Craft Construct, Gunsmithing, animate objects, geas/quest, and limited wish, creator must be at least caster level 18th; Skill Craft (clockwork) DC 25; Cost 160,000 gp"
+				"**Requirements** Craft Construct, Gunsmithing, animate objects, geas/quest, and limited wish, creator must be at least caster level 18th; Skill Craft (clockwork) DC 25; **Cost** 160,000 gp"
 			],
 			"monster_family": "Clockwork",
 			"short_description": "The gears of this enormous, four-armed mechanical giant shriek and grind in a deafening cacophony as it lumbers forth."
@@ -30892,9 +30892,9 @@
 			"construction": [
 				"The creator of a clockwork guardian must start with crafted clockwork pieces worth 2,000 gp.",
 				"",
-				"CL 12th; Price 50,000 gp",
+				"**CL** 12th; **Price** 50,000 gp",
 				"",
-				"Requirements Craft Construct, Shield Proficiency, geas/quest, fabricate, and wall of iron, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; Cost 26,000 gp"
+				"**Requirements** Craft Construct, Shield Proficiency, geas/quest, fabricate, and wall of iron, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 26,000 gp"
 			],
 			"monster_family": "Clockwork",
 			"short_description": "This human-shaped construct has a helm-like head with a single crystalline eye. One arm ends in a large shield-like sheet of metal."
@@ -30967,9 +30967,9 @@
 			"construction": [
 				"The creator of a clockwork gunslinger must start with a pistol worth 1,000 gp, a crystalline hourglass worth 500 gp, and created clockwork pieces worth 1,750 gp.",
 				"",
-				"CL 12th; Price 40,250 gp",
+				"**CL** 12th; **Price** 40,250 gp",
 				"",
-				"Requirements [Craft Construct](unknown:Craft_Construct), [Exotic Weapon Proficiency (pistol)](unknown:Exotic_Weapon_Proficiency_(pistol)), [haste](unknown:haste), [geas/quest](unknown:geas/quest), [slow](unknown:slow), creator must be caster level 12th; Skill Craft (clockwork) DC 20; Cost 21,750 gp"
+				"**Requirements** [Craft Construct](unknown:Craft_Construct), [Exotic Weapon Proficiency (pistol)](unknown:Exotic_Weapon_Proficiency_(pistol)), [haste](unknown:haste), [geas/quest](unknown:geas/quest), [slow](unknown:slow), creator must be caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 21,750 gp"
 			],
 			"monster_family": "Clockwork",
 			"short_description": "One of this slim construct's arms ends in a whirling clockwork pistol, and a crystalline hourglass fits snugly between its pectoral armor plates."
@@ -31044,9 +31044,9 @@
 			"construction": [
 				"The creation of a clockwork hound is a delicate process, requiring fine work in order to provide the necessary space for the hound's storage bay. The creator of a clockwork hound must start the process with crafted clockwork pieces worth 750 gp.",
 				"",
-				"CL 12th; Price 30,000 gp",
+				"**CL** 12th; **Price** 30,000 gp",
 				"",
-				"Requirements Craft Construct, expeditious retreat, geas/quest, and secret chest, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; Cost 15,375 gp"
+				"**Requirements** Craft Construct, expeditious retreat, geas/quest, and secret chest, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 15,375 gp"
 			],
 			"monster_family": "Clockwork",
 			"short_description": "Two emerald crystal eyes stare out from this artificial hound's brass-, bronze-, and iron-forged body."
@@ -31121,9 +31121,9 @@
 			"construction": [
 				"When creating these clockworks, great care must be taken to waterproof their components. The creator must start with crafted clockwork pieces worth 10,000 gp.",
 				"",
-				"CL 12th; Price 130,000 gp",
+				"**CL** 12th; **Price** 130,000 gp",
 				"",
-				"Requirements Craft Construct, freedom of movement, geas/quest, heat metal, and limited wish, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; Cost 70,000 gp"
+				"**Requirements** Craft Construct, freedom of movement, geas/quest, heat metal, and limited wish, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 70,000 gp"
 			],
 			"monster_family": "Clockwork",
 			"short_description": "Long and metallic, this serpentine construction resembles a mechanical eel with several paddle-like limbs."
@@ -31199,9 +31199,9 @@
 			"construction": [
 				"The creator of a clockwork mage must start with crafted clockwork pieces worth 2,000 gp.",
 				"",
-				"CL 12th; Price 84,000 gp",
+				"**CL** 12th; **Price** 84,000 gp",
 				"",
-				"Requirements Craft Construct, geas/quest, and mnemonic enhancer, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; Cost 43,000 gp"
+				"**Requirements** Craft Construct, geas/quest, and mnemonic enhancer, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 43,000 gp"
 			],
 			"monster_family": "Clockwork",
 			"short_description": "This faceless construct has a crystal wand set into its chest, bristling with arcane energy."
@@ -31300,9 +31300,9 @@
 			"construction": [
 				"A clockwork nautiloid is difficult to create, as each component must be waterproof and able to withstand the crushing pressure of the deep ocean. The creator must start with crafted clockwork pieces worth 18,000 gp.",
 				"",
-				"CL 14th; Price 200,000 gp",
+				"**CL** 14th; **Price** 200,000 gp",
 				"",
-				"Requirements [Craft Construct](unknown:Craft_Construct), [geas/quest](unknown:geas/quest), [limited wish](unknown:limited_wish), [true seeing](unknown:true_seeing), creator must be at least caster level 12th; Skill Craft (clockwork) DC 25; Cost 109,000 gp"
+				"**Requirements** [Craft Construct](unknown:Craft_Construct), [geas/quest](unknown:geas/quest), [limited wish](unknown:limited_wish), [true seeing](unknown:true_seeing), creator must be at least caster level 12th; Skill Craft (clockwork) DC 25; **Cost** 109,000 gp"
 			],
 			"monster_family": "Clockwork",
 			"short_description": "Nestled in a massive spiraled armored shell, this clockwork creature has several dozen grasping tentacles surrounding its octopus-like beak."
@@ -31394,9 +31394,9 @@
 			"construction": [
 				"The creator of a clockwork overseer must start with crafted clockwork pieces worth 2,000 gp.",
 				"",
-				"CL 12th; Price 42,000 gp",
+				"**CL** 12th; **Price** 42,000 gp",
 				"",
-				"Requirements [Craft Construct](unknown:Craft_Construct), [geas/quest](unknown:geas/quest) and [haste](unknown:haste), creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; Cost 22,000 gp"
+				"**Requirements** [Craft Construct](unknown:Craft_Construct), [geas/quest](unknown:geas/quest) and [haste](unknown:haste), creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 22,000 gp"
 			],
 			"monster_family": "Clockwork",
 			"short_description": "One arm of this six-limbed clockwork construct ends in a broad fist, and the other extends into an articulated metal lash."
@@ -31468,9 +31468,9 @@
 			"construction": [
 				"The creator of a clockwork priest must start with a diamond worth 5,000 gp as well as created clockwork pieces worth 5,000 gp.",
 				"",
-				"CL 12th; Price 95,000 gp",
+				"**CL** 12th; **Price** 95,000 gp",
 				"",
-				"Requirements [Craft Construct](unknown:Craft_Construct), [animate object](unknown:animate_object), [geas/quest](unknown:geas/quest), [limited wish](unknown:limited_wish), creator must be caster level 12th and be able to channel energy; Skill Craft (clockwork) DC 22; Cost 52,500 gp"
+				"**Requirements** [Craft Construct](unknown:Craft_Construct), [animate object](unknown:animate_object), [geas/quest](unknown:geas/quest), [limited wish](unknown:limited_wish), creator must be caster level 12th and be able to channel energy; Skill Craft (clockwork) DC 22; **Cost** 52,500 gp"
 			],
 			"monster_family": "Clockwork",
 			"short_description": "This four-armed clockwork construct has a glowing crystal globe as a head and a shining crystal set into its chest."
@@ -31541,9 +31541,9 @@
 			"construction": [
 				"The creator of a clockwork servant must start with crafted clockwork pieces worth 500 gp.",
 				"",
-				"CL 12th; Price 7,500 gp (13,500 for an intelligent servant)",
+				"**CL** 12th; **Price** 7,500 gp (13,500 for an intelligent servant)",
 				"",
-				"Requirements Craft Construct, geas/quest and make whole, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; Cost 4,000 gp (7,000 for an intelligent clockwork servant)"
+				"**Requirements** Craft Construct, geas/quest and make whole, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 4,000 gp (7,000 for an intelligent clockwork servant)"
 			],
 			"monster_family": "Clockwork",
 			"short_description": "This four-armed, human-sized clockwork construct balances on three legs that rise into a central body."
@@ -31614,9 +31614,9 @@
 			"construction": [
 				"The creator of a clockwork snail must start with crafted clockwork pieces worth 7,500 gp and 1,000 gp worth of refined eidite ore.",
 				"",
-				"CL 12th; Price 100,000 gp",
+				"**CL** 12th; **Price** 100,000 gp",
 				"",
-				"Requirements Craft Construct, animate objects, freedom of movement, geas/quest, and poison, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; Cost 50,000 gp"
+				"**Requirements** Craft Construct, animate objects, freedom of movement, geas/quest, and poison, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 50,000 gp"
 			],
 			"monster_family": "Clockwork",
 			"short_description": "The torso of this constructed gastropod is elongated and eerily humanoid. Smog pours from the shell-like posterior of the machine, while toxic green ooze courses through its translucent pipes."
@@ -31689,9 +31689,9 @@
 			"construction": [
 				"The creator must start with crafted clockwork pieces worth 1,000 gp; the cost of the soldier's weapon is not included in this price.",
 				"",
-				"CL 12th; Price 37,000 gp",
+				"**CL** 12th; **Price** 37,000 gp",
 				"",
-				"Requirements Craft Construct, geas/quest and heroism, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; Cost 19,000 gp"
+				"**Requirements** Craft Construct, geas/quest and heroism, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 19,000 gp"
 			],
 			"monster_family": "Clockwork",
 			"short_description": "Cogs and gears are visible in the gaps of this metallic creature's armor. It wields a polearm as it stands ready at attention."
@@ -31764,9 +31764,9 @@
 			"construction": [
 				"The inner workings of a clockwork songbird are made of intricately interlocked components, with the most complex machinery located in the creature's voice box. The creator of a clockwork songbird must start with crafted clockwork pieces worth 250 gp.",
 				"",
-				"CL 12th; Price 3,250 gp",
+				"**CL** 12th; **Price** 3,250 gp",
 				"",
-				"Requirements [Craft Construct](unknown:Craft_Construct), [geas/quest](unknown:geas/quest), [ghost sound](unknown:ghost_sound), [haste](unknown:haste), [heroism](unknown:heroism), [sleep](unknown:sleep), creator must be caster level 12th; Skill Craft (clockwork) DC 20; Cost 1,750 gp"
+				"**Requirements** [Craft Construct](unknown:Craft_Construct), [geas/quest](unknown:geas/quest), [ghost sound](unknown:ghost_sound), [haste](unknown:haste), [heroism](unknown:heroism), [sleep](unknown:sleep), creator must be caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 1,750 gp"
 			],
 			"monster_family": "Clockwork",
 			"short_description": "This gilded mechanical bird produces melodious songs from its complex clockwork voice box."
@@ -31836,9 +31836,9 @@
 			"construction": [
 				"These delicate constructs are full of small parts and difficult to construct. The creator must start with crafted clockwork pieces worth 250 gp.",
 				"",
-				"CL 12th; Price 1,250 gp",
+				"**CL** 12th; **Price** 1,250 gp",
 				"",
-				"Requirements Craft Construct, geas/quest and ghost sound, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; Cost 750 gp"
+				"**Requirements** Craft Construct, geas/quest and ghost sound, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 750 gp"
 			],
 			"monster_family": "Clockwork",
 			"short_description": "This tiny steel creature has one oversized eye, a spherical body, and several spiderlike legs of grinding metal."
@@ -31911,9 +31911,9 @@
 			"construction": [
 				"The creator of a clockwork steed must start with crafted clockwork pieces worth 3,000 gp. When building a clockwork charger, the pivot can be built for any size lance, typically Medium.",
 				"",
-				"CL 12th; Price 29,000 gp (33,500 for a clockwork charger)",
+				"**CL** 12th; **Price** 29,000 gp (33,500 for a clockwork charger)",
 				"",
-				"Requirements Craft Construct, bull's strength, geas/quest, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; Cost 16,000 gp (18,750 for a clockwork charger)"
+				"**Requirements** Craft Construct, bull's strength, geas/quest, creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 16,000 gp (18,750 for a clockwork charger)"
 			],
 			"monster_family": "Clockwork",
 			"short_description": "Gleaming gears whir and buzz in an orchestra of motion whenever this red-eyed steed moves."
@@ -31999,9 +31999,9 @@
 				"",
 				"Creating these clockworks requires precisely crafted gears and other refined mechanisms, plus various anesthetizing fluids, worth 8,500 gp. However, the process isn't a matter of simply building the mechanisms in the correct shape-some aspect of a clockwork vivisectionist's function remains incomprehensible and alien to beings on the Material Plane, so aspiring clockwork makers must consult with extraplanar powers using contact other plane. One theory suggests that constructing the clockwork near a gate to Leng, or, for the truly adventurous builder, on Leng itself, may increase the chance of successfully creating a functional clockwork vivisectionist.",
 				"",
-				"CL 10th; Price 80,000 gp",
+				"**CL** 10th; **Price** 80,000 gp",
 				"",
-				"Requirements Craft Construct, contact other plane, geas/quest, limited wish, creator must be at least caster level 10th; Skill Craft (clockwork) DC 20; Cost 44,250 gp"
+				"**Requirements** Craft Construct, contact other plane, geas/quest, limited wish, creator must be at least caster level 10th; Skill Craft (clockwork) DC 20; **Cost** 44,250 gp"
 			],
 			"monster_family": "Clockwork",
 			"short_description": "The mechanical workings of this humanoid figure are incredibly complex, but the gore-spattered scalpels it has on one hand and the glistening syringes inside its cage-like chest make its intentions clear."
@@ -32062,9 +32062,9 @@
 			"construction": [
 				"A mechanical efreeti requires intricate gears and other components worth 500 gp.",
 				"",
-				"CL 7th; Price 3,500 gp",
+				"**CL** 7th; **Price** 3,500 gp",
 				"",
-				"Requirements Craft Construct, animate objects, fireball, lesser geas, creator must be at least caster level 7th; Skill Craft (clockwork) DC 15; Cost 2,000 gp",
+				"**Requirements** Craft Construct, animate objects, fireball, lesser geas, creator must be at least caster level 7th; Skill Craft (clockwork) DC 15; **Cost** 2,000 gp",
 				"",
 				"**Variant Mechanical Genies**",
 				"",
@@ -32140,9 +32140,9 @@
 			"construction": [
 				"A toy golem requires approximately 300 tiny clockwork components worth a total of 1,000 gp.",
 				"",
-				"CL 7th; Price 16,000 gp",
+				"**CL** 7th; **Price** 16,000 gp",
 				"",
-				"Requirements Craft Construct, lesser geas, false life, minor creation, creator must be at least caster level 7th; Skill Craft (clockwork) DC 17; Cost 8,500 gp"
+				"**Requirements** Craft Construct, lesser geas, false life, minor creation, creator must be at least caster level 7th; Skill Craft (clockwork) DC 17; **Cost** 8,500 gp"
 			],
 			"monster_family": "Clockwork",
 			"short_description": "This amalgam of mechanical toys clacks and whirs."
@@ -32976,7 +32976,7 @@
 				"",
 				"**Copsewight Poison**",
 				"",
-				"Price 500 gp Type poison, contact; Save Fortitude DC 18 Onset immediate; Frequency 1/round for 2 rounds Effect 1d2 Con damage; Cure 1 save A skilled alchemist can collect and preserve the juices from a copsewight's fruit, distilling them into a contact poison. The fruit from a single copsewight can produce up to 12 doses of poison."
+				"**Price** 500 gp Type poison, contact; **Save** Fortitude DC 18 Onset immediate; **Frequency** 1/round for 2 rounds Effect 1d2 Con damage; **Cure** 1 save A skilled alchemist can collect and preserve the juices from a copsewight's fruit, distilling them into a contact poison. The fruit from a single copsewight can produce up to 12 doses of poison."
 			],
 			"short_description": "The twisted, leafless branches of this dead tree still bear bright red fruit, each one shriveled and covered in splotches of black rot."
 		},
@@ -35200,9 +35200,9 @@
 			"construction": [
 				"A cryptguard is carved from 1,200 pounds of consecrated marble that costs 3,500 gp.",
 				"",
-				"CL 12th; Price 46,500 gp",
+				"**CL** 12th; **Price** 46,500 gp",
 				"",
-				"Requirements Craft Construct, animate object, consecrate, disrupting weapon, geas/quest, and planar ally, creator must be caster level 12th; Skill Craft (sculpture) DC 20; Cost 25,000 gp"
+				"**Requirements** Craft Construct, animate object, consecrate, disrupting weapon, geas/quest, and planar ally, creator must be caster level 12th; Skill Craft (sculpture) DC 20; **Cost** 25,000 gp"
 			],
 			"short_description": "This elegantly sculpted marble statue depicts a winged woman dressed in flowing robes, but with a raven's skull for a head."
 		},
@@ -35466,9 +35466,9 @@
 			"construction": [
 				"A cutlass spider is an amalgam of weapons worked into a cage-like frame of wood or metal. These materials cost a total of 400 gp.",
 				"",
-				"CL 9th; Price 18,400 gp",
+				"**CL** 9th; **Price** 18,400 gp",
 				"",
-				"Requirements Craft Construct, keen edge, lesser geas, and telekinesis; Skill Craft (weapons) DC 15; Cost 9,400 gp"
+				"**Requirements** Craft Construct, keen edge, lesser geas, and telekinesis; Skill Craft (weapons) DC 15; **Cost** 9,400 gp"
 			],
 			"short_description": "This spiderlike creature seems to be made entirely out of weapons and splintered planks, its legs ending in curved blades."
 		},

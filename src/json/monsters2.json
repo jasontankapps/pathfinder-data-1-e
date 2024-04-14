@@ -15018,7 +15018,7 @@
 				"",
 				"**Rabies**",
 				"",
-				"Type disease, injury; Save Fortitude DC 14 Onset 2d6 weeks; Frequency 1/day Effect 1 Con damage plus 1d3 Wis damage (minimum reduction to 1 Wis); Cure 2 consecutive saves"
+				"**Type** disease, injury; **Save** Fortitude DC 14 Onset 2d6 weeks; **Frequency** 1/day; **Effect** 1 Con damage plus 1d3 Wis damage (minimum reduction to 1 Wis); **Cure** 2 consecutive saves"
 			],
 			"short_description": "This small dog has a rough coat and a hungry look in its dark brown eyes."
 		},
@@ -26881,7 +26881,7 @@
 			"construction": [
 				"An ebon acolytus is chiseled from a single block of dark stone, often black granite or marble, jade, or some other lustrous material, and weighing at least 4,000 pounds. The stone must be of exceptional quality and costs at least 6,000 gp.",
 				"",
-				"Ebon Acolytus CL 11th; Price 24,000 gp Construction Craft Construct, animate objects, desecrate, trap the soul, creator must be caster level 11th; Skill Craft (sculpting) or Craft (stonemasonry) DC 16; Cost 12,000 gp"
+				"*Ebon Acolytus* **CL** 11th; **Price** 24,000 gp Construction Craft Construct, animate objects, desecrate, trap the soul, creator must be caster level 11th; Skill Craft (sculpting) or Craft (stonemasonry) DC 16; **Cost** 12,000 gp"
 			],
 			"short_description": "A chilling statue strands behind a dark altar, both smeared with evidence of grisly sacrifices. The monstrous statue, sculpted as a perverse amalgam of both man and beast, raises a wickedly curved sacrificial dagger above its head, its bejeweled eyes seeming to glint with murderous zeal."
 		},
@@ -30834,9 +30834,9 @@
 			"construction": [
 				"The bear carcass, taxidermy process, and armor for an embalming bear cost 900 gp in raw materials alone. In addition, the construct must be injected with 1,200 gp worth of special embalming fluid.",
 				"",
-				"CL 8th; Price 18,500 gp",
+				"**CL** 8th; **Price** 18,500 gp",
 				"",
-				"Requirements Craft Construct, animate objects, minor creation, creator must be caster level 8th; Skill Craft (taxidermy) DC 18; Cost 10,300 gp"
+				"**Requirements** Craft Construct, animate objects, minor creation, creator must be caster level 8th; Skill Craft (taxidermy) DC 18; **Cost** 10,300 gp"
 			],
 			"short_description": "This decaying taxidermic bear is held together with thick stitches, metal armor plates, and a pungent chemical fluid."
 		},
@@ -30903,9 +30903,9 @@
 			"construction": [
 				"An emerald automaton begins as an articulated iron frame connected with thick copper wiring, and is then covered by armored plates. These materials cost at least 500 gp. The creator must then use a fist-sized shard of crystal from the Emerald Spire as the automaton's main battery, placing it in the construct's hollow chest.",
 				"",
-				"CL 6th; Price 12,000 gp",
+				"**CL** 6th; **Price** 12,000 gp",
 				"",
-				"Requirements Craft Construct, lesser geas, shocking grasp, creator must be caster level 6th; Skill Craft (armor) DC 20; Cost 6,500 gp"
+				"**Requirements** Craft Construct, lesser geas, shocking grasp, creator must be caster level 6th; Skill Craft (armor) DC 20; **Cost** 6,500 gp"
 			],
 			"short_description": "An eerie green glow shines through the seams of this mechanical creature's armor."
 		},
