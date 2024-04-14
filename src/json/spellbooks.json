@@ -1,0 +1,1518 @@
+{
+	"description": [
+		"# Spellbooks",
+		"",
+		"**Description Source:** [Ultimate Magic](source:Ultimate_Magic)",
+		"",
+		"Each spellbook or formula book is a unique reflection of the personality and capabilities of its creator. Many of these tomes contain more than just spells, such as notes on the caster's other research, personal diaries, naturalist sketches, or even political treatises. Some contain preparation rituals, each of which grants a boon-or sometimes a hindrance-to spellcasters who use the book to prepare their spells.",
+		"",
+		"The sample spellbooks and formula books below each list a description of the book, information on the caster's specialty school and oppositional schools (if any), the book's spells, and its preparation ritual (if any). Some books also contain precautions against prying eyes.",
+		"",
+		"Descriptions, protections, preparation rituals, and spell content can be mixed and matched as desired from different books. Higher-level books can easily serve for lower-level casters-just drop the spell levels that aren't applicable and remove lower-level spells as desired. Similarly, if you desire longer books, combine two together or add spells or formulae of your choice to the desired levels. These books also work as spellbooks and formula books for new characters. Just copy the list, hand it to the player, and go.",
+		"",
+		"A standard spellbook includes all cantrips except those in the wizard's oppositional schools. Books containing cantrips from additional sources are noted in the content description.",
+		"",
+		"Each book features a value, which represents what a character must pay for the book on the open market, though finding a seller may be difficult. The character may sell the book for half that value. Any book with a preparation ritual has two sets of costs, one for the book without the preparation ritual and one for the book with the ritual.",
+		"",
+		"## Using Preparation Rituals",
+		"",
+		"When a spellcaster who prepares spells uses a spellbook or formula book with a preparation ritual, as long as he prepares at least three spells (not including cantrips) or formulae from the spellbooks, he gains a temporary boon granted by the ritual. The boon lasts until its effect is spent (as specified by the boon description) or the spellcaster prepares spells again (at which time it can be reapplied by preparing at least three spells from the book). A spellcaster can only take the effect of one preparation ritual when she prepares spells, no matter how many spellbooks with preparation rituals she uses to prepare spells.",
+		"",
+		"\"S\" indicates a spell from the caster's specialty school, whereas \"OP\" indicates a spell from the spellbook creator's opposition school.",
+		"",
+		"**Description Source:** [Arcane Anthology](source:Arcane_Anthology)",
+		"",
+		"## Transcribing Spellbook Preparation Rituals",
+		"",
+		"Preparation rituals grant a unique boon to anyone who prepares at least three spells from the associated spellbook. Like spells, preparation rituals can be copied into new spellbooks. To imbue a spellbook with a preparation ritual, you must have the Scribe Scroll feat, as well as a number of ranks in Spellcraft and a caster level each equal to double the highest spell level in the original spellbook. You also must have scribed at least three spells from the original spellbook into the new spellbook; at least one of these spells must be of the highest spell level found in the original spellbook. You must prepare those three spells (or know them, if you cast spells spontaneously) and perform an 8-hour creation ritual that requires supplies costing half as much as the value of the preparation ritual (the difference in the spellbook's value with and without the preparation ritual). At the ritual's end, attempt a Spellcraft check (DC = 10 + double the highest spell level in the original spellbook). If you succeed, the new spellbook gains that preparation ritual. If you fail, the supplies are wasted to no effect. Formula book preparation rituals are similarly imbued, but use extracts rather than spells, and instead of Scribe Scroll, you must have Brew Potion. A spellbook can have multiple preparation rituals, but it must meet the requirements for each. This does not affect the number of preparation rituals from which a character can benefit.",
+		"",
+		"## Prayer Book and Meditation Book Rituals",
+		"",
+		"Characters who prepare divine spells can create prayer books containing divine magical writing similar to the arcane magical writing in spellbooks. These books are usually used to instruct new acolytes in a faith's magical traditions or to make use of preparation rituals that align with the faith's goals. Prayer books with preparation rituals follow the same rules as arcane spellbooks with preparation rituals. Any preparation rituals found in spellbooks can also be found in prayer books, which have the same number of spells of each level recorded but generally draw them from the cleric, druid, or shaman spell list. Any character able to prepare the appropriate spells as divine spells can benefit from the preparation ritual recorded in a prayer book.",
+		"",
+		"A meditation book is a secular version of a prayer book, recording theories and philosophies of magic, and can be used to focus energies when preparing arcane spells from a source other than a spellbook (such as for witches) or meditating to regain spell slots (for spontaneous spellcasters). A spellcaster can benefit from a meditation book's preparation rituals by preparing spells or meditating to regain spell slots while studying the spellbook and expending one spell slot of a level at least equal to that of the highest-level spell within the meditation book.",
+		"",
+		"Meditation books and prayer books have the same cost as the spellbooks they emulate (including the cost of the scribed spells, despite the users of such books not normally requiring spellbooks to prepare spells). If the boon granted by a meditation book or spellbook applies to only a particular class's spells, a character gaining that boon can apply it to any spell from the same class list that the spells she prepared were drawn from (for prayer books) or that provided the spell slot expended (in the case of meditation books)."
+	],
+	"list": [
+		{
+			"name": "Apprentice Chapbook of Rul Thaven",
+			"file": "spellbookdisplay3152.html",
+			"cost": 195,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 2 Diviner"
+			],
+			"sources": [
+				"Ultimate Magic"
+			],
+			"description": [
+				"## Apprentice Chapbook of Rul Thaven",
+				"### Level 2 Diviner",
+				"",
+				"**Source** [Ultimate Magic pg. 121](source:Ultimate_Magic)",
+				"",
+				"**Opposition** Illusion, transmutation   ",
+				"**Value** 195 gp ( gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 1st-*comprehend languages*[^S], *detect secret doors*[^S], *detect undead*[^S], *identify*[^S], *protection from evil*, *protection from law*, *summon monster I*, *true strike*[^S]",
+				"",
+				"[^S]: A spell from the caster's specialty school."
+			]
+		},
+		{
+			"name": "Arctic Call",
+			"file": "spellbookdisplay6da1.html",
+			"cost": 4335,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 11 Evoker"
+			],
+			"sources": [
+				"Ultimate Magic"
+			],
+			"description": [
+				"## Arctic Call",
+				"### Level 11 Evoker",
+				"",
+				"**Source** [Ultimate Magic pg. 124](source:Ultimate_Magic)",
+				"",
+				"**Opposition** Illusion, necromancy   ",
+				"**Protection** fire trap modified to inflict cold damage (Reflex DC 17)   ",
+				"**Value** 4,335 gp (5,985 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 6th-*contingency*[^S], *freezing sphere*[^S], *repulsion*",
+				"- 5th-*cone of cold*[^S], *mage's private sanctum*, *permanency*, *teleport*, *wall of force*[^S]",
+				"- 4th-*ice storm*[^S], *shout*[^S], *stoneskin*, *symbol of revelation*, *wall of ice*[^S]",
+				"- 3rd-*arcane sight*, *dispel magic*, *elemental aura*[^S], *fire trap*, *heroism*, *lightning bolt*[^S], *phantom steed*, *seek thoughts*",
+				"- 2nd-*bull's strength*, *false life*[^OP], *glitterdust*, *hideous laughter*, *make whole*, *resist energy*, *rope trick*",
+				"- 1st-*detect secret doors*, *endure elements*, *enlarge person*, *feather fall*, *mage armor*, *magic missile*[^S], *obscuring mist*, *shield*, *shocking grasp*[^S]",
+				"",
+				"**Ritual**",
+				"",
+				"**Rime Bite (Su)** You infuse your spell with a biting cold that few can withstand. Spend this boon as a free action when you cast a spell with the cold descriptor. Any damage from that spell ignores all resistance to cold, but does not ignore immunity to cold.",
+				"",
+				"[^S]: A spell from the caster's specialty school.   ",
+				"[^OP]: A spell from the spellbook creator's opposition school."
+			]
+		},
+		{
+			"name": "Arrowsong's Sorrow",
+			"file": "spellbookdisplay6a15.html",
+			"cost": 1200,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 3 Universalist"
+			],
+			"sources": [
+				"Arcane Anthology"
+			],
+			"description": [
+				"## Arrowsong's Sorrow",
+				"### Level 3 Universalist",
+				"",
+				"**Source** [Arcane Anthology pg. 30](source:Arcane_Anthology)",
+				"",
+				"**Value** 1,200 gp (2,200 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 3rd-*contingent action*, *cloak of winds*, *fireball*, *lightning bolt*",
+				"- 2nd-*acid arrow*, *arrow eruption*, *protection from arrows*, *scorching ray*, *stone call*",
+				"- 1st-*blend*, *gravity bow*, *identify*, *longshot*, *magic missile*, *shield*, *true strike*",
+				"",
+				"**Ritual**",
+				"",
+				"**Disruption Master (Ex)** Arrowsong's claims about the imperfections of spellcasting and the failings of magic provide additional insight into interrupting spellcasting. Unlike other boons, you do not spend this one. Until you prepare spells again, when you damage a foe or the foe fails a saving throw against a spell of yours, the foe also takes a -2 penalty on all concentration checks it attempts for 1 round."
+			]
+		},
+		{
+			"name": "Book of Harms",
+			"file": "spellbookdisplayb4cd.html",
+			"cost": 535,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 5 Evoker"
+			],
+			"sources": [
+				"Ultimate Magic"
+			],
+			"description": [
+				"## Book of Harms",
+				"### Level 5 Evoker",
+				"",
+				"**Source** [Ultimate Magic pg. 122](source:Ultimate_Magic)",
+				"",
+				"**Opposition** Divination, transmutation   ",
+				"**Protection** Average lock (DC 25)   ",
+				"**Value** 535 gp (900 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 3rd-*fireball*[^S], *lightning bolt*[^S]",
+				"- 2nd-*acid arrow*, *darkness*[^S], *ghoul touch*, *gust of wind*[^S]",
+				"- 1st-*burning hands*[^S], *color spray*, *corrosive touch*, *hydraulic push*[^S], *hypnotism*, *magic missile*[^S], *ray of enfeeblement*, *shocking grasp*[^S]",
+				"",
+				"**Ritual**",
+				"",
+				"**Harmful Surge (Su)** You can maximize a spell, but doing so damages you. Spend this boon effect as a free action when you cast a wizard evocation spell. When you do, you can treat that spell as if it were cast with the Maximize Spell metamagic feat, but you take 1d4 points of damage ?? the level of the spell that you are maximizing. The damage you take cannot be reduced in any way.",
+				"",
+				"[^S]: A spell from the caster's specialty school."
+			]
+		},
+		{
+			"name": "Book of the Grave",
+			"file": "spellbookdisplay43e0.html",
+			"cost": 815,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 6 Necromancer"
+			],
+			"sources": [
+				"Ultimate Magic"
+			],
+			"description": [
+				"## Book of the Grave",
+				"### Level 6 Necromancer",
+				"",
+				"**Source** [Ultimate Magic pg. 122](source:Ultimate_Magic)",
+				"",
+				"**Opposition** Enchantment,transmutation   ",
+				"**Protection** The edges of the first three pages are coated with nitharit poison (contact; save Fort DC 13; frequency 1/minute for 6 minutes; effect 1d3 Con damage; cure 1 save).   ",
+				"**Value** 815 gp (1,265 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 3rd-*blood biography*, *ray of exhaustion*[^S], *vampiric touch*[^S], *vitriol*",
+				"- 2nd-*command undead*[^S], *create treasure map*, *ghoul touch*[^S], *spectral hand*[^S], *stone call*, *web*",
+				"- 1st-*burning hands*, *chill touch*[^S], *disguise self*, *mage armor*, *protection from good*, *ray of enfeeblement*[^S], *sculpt corpse*[^S], *shield*, *true strike*, *ventriloquism*",
+				"",
+				"**Ritual**",
+				"",
+				"**Breath of the Grave (Su)** As a swift action, spend this boon's effect to breathe a 15-foot cone of rotting stench. Creatures within the cone must succeed at a Fortitude saving throw (DC 10 + your highest caster level in a class that prepares spells) or be sickened for 1 round. This spends the boon. After this boon has been spent, you take a -4 penalty on Diplomacy and Stealth checks until you prepare spells again.",
+				"",
+				"[^S]: A spell from the caster's specialty school."
+			]
+		},
+		{
+			"name": "Calamaes Fragment",
+			"file": "spellbookdisplay2539.html",
+			"cost": 1565,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 7 Transmuter"
+			],
+			"sources": [
+				"Arcane Anthology"
+			],
+			"description": [
+				"## Calamaes Fragment",
+				"### Level 7 Transmuter",
+				"",
+				"**Source** [Arcane Anthology pg. 18](source:Arcane_Anthology)",
+				"",
+				"**Value** 1,565 gp ( gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 4th-*dimension door*, *lesser age resistance*, *liquefy*",
+				"- 3rd-*deft digits*, *dispel magic*, *greater magic weapon*, *haste*, *hostile levitation*, *rags to riches*",
+				"- 2nd-*alter self*, *darkvision*, *fool's gold*, *glide*, *glitterdust*, *scorching ray*, *touch of idiocy*",
+				"- 1st-*ant haul*, *jury-rig*, *mage armor*, *magic missile*, *polypurpose panacea*, *shocking grasp*, *sleep*, *tears to wine*"
+			]
+		},
+		{
+			"name": "Chymist's Guidebook",
+			"file": "spellbookdisplayc4e9.html",
+			"cost": 2545,
+			"types": [
+				"Formula Book"
+			],
+			"prerequisites": [
+				"Level 15 Alchemist"
+			],
+			"sources": [
+				"Ultimate Magic"
+			],
+			"description": [
+				"## Chymist's Guidebook",
+				"### Level 15 Alchemist",
+				"",
+				"**Source** [Ultimate Magic pg. 125](source:Ultimate_Magic)",
+				"",
+				"**Protection** Good lock (DC 30)   ",
+				"**Value** 2,545 gp ( gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 5th-*delayed consumption*, *magic jar*, *spell resistance*",
+				"- 4th-*detonate*, *freedom of movement*, *greater invisibility*, *restoration*, *stoneskin*",
+				"- 3rd-*amplify elixir*, *arcane sight*, *haste*, *heroism*, *protection from energy*, *thorn body*",
+				"- 2nd-*alter self*, *bear's endurance*, *false life*, *fire breath*, *see invisibility*, *transmute potion to poison*",
+				"- 1st-*ant haul*, *comprehend languages*, *cure light wounds*, *detect secret doors*, *enlarge person*, *jump*, *keen senses*, *negate aroma*, *shield*, *true strike*"
+			]
+		},
+		{
+			"name": "Cold Irony",
+			"file": "spellbookdisplay6dab.html",
+			"cost": 2420,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 15 Bard"
+			],
+			"sources": [
+				"Arcane Anthology"
+			],
+			"description": [
+				"## Cold Irony",
+				"### Level 15 Bard",
+				"",
+				"**Source** [Arcane Anthology pg. 24](source:Arcane_Anthology)",
+				"",
+				"**Value** 2,420 gp (2,795 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 5th-*foe to friend*, *greater heroism*, *song of discord*, *unwilling shield*",
+				"- 4th-*break enchantment*, *detect scrying*, *dominate person*, *foretell failure*",
+				"- 3rd-*blink*, *find fault*, *glibness*, *haste*, *reviving finale*",
+				"- 2nd-*cure moderate wounds*, *gallant inspiration*, *hold person*, *locate object*, *misdirection*, *perfect placement*",
+				"- 1st-*expeditious retreat*, *memory lapse*, *moment of greatness*, *obscure object*, *undetectable alignment*, *vanish*",
+				"",
+				"**Ritual**",
+				"",
+				"**Brain Wash (Su)** You combine magic and skill to masterfully manipulate your subjects. You can expend this boon when you cast a spell on a creature you have succeeded at a Bluff, Diplomacy, Knowledge, or Sense Motive check against. You cast that spell at +1 caster level and its save DC increases by 1."
+			]
+		},
+		{
+			"name": "Cyrusian Codex",
+			"file": "spellbookdisplay108b.html",
+			"cost": 4425,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 11 Transmuter"
+			],
+			"sources": [
+				"Arcane Anthology"
+			],
+			"description": [
+				"## Cyrusian Codex",
+				"### Level 11 Transmuter",
+				"",
+				"**Source** [Arcane Anthology pg. 18](source:Arcane_Anthology)",
+				"",
+				"**Protection** Good lock with arcane lock (DC 40)   ",
+				"**Value** 4,425 gp (9,125 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 6th-*age resistance*, *disintegrate*, *greater heroism*, *wall of iron*",
+				"- 5th-*dissolution*, *major creation*, *open arms*, *treasure stitching*",
+				"- 4th-*adjustable polymorph*, *calcific touch*, *greater darkvision*, *liquefy*, *rags to riches*, *shout*",
+				"- 3rd-*anthropomorphic animal*, *deft digits*, *disable construct*, *dispel magic*, *fly*, *lightning bolt*",
+				"- 2nd-*arcane lock*, *darkness*, *detect thoughts*, *full pouch*, *masterwork transformation*, *shatter*, *silk to steel*, *twisted space*",
+				"- 1st-*ant haul*, *burning hands*, *endure elements*, *jump*, *mage armor*, *mirror strike*, *true strike*, *vocal alteration*",
+				"",
+				"**Ritual**",
+				"",
+				"**Enduring Alteration (Su)** Your spells resist reality's attempts to restore the things you change. You can spend this boon to apply the benefits of the Extend Spell feat to a transmutation spell as you cast it. This also increases the DC to dispel that spell (via dispel magic or similar abilities) by 4. This boon does not increase the spell level or casting time of your spell."
+			]
+		},
+		{
+			"name": "Defensive Primer",
+			"file": "spellbookdisplay4fe2.html",
+			"cost": 185,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 1 Abjurer"
+			],
+			"sources": [
+				"Ultimate Magic"
+			],
+			"description": [
+				"## Defensive Primer",
+				"### Level 1 Abjurer",
+				"",
+				"**Source** [Ultimate Magic pg. 121](source:Ultimate_Magic)",
+				"",
+				"**Opposition** Conjuration, enchantment   ",
+				"**Protection** Average lock (DC 25)   ",
+				"**Value** 185 gp ( gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 1st-*burning hands*, *detect undead*, *expeditious retreat*, *magic missile*, *protection from evil*[^S], *ray of enfeeblement*, *shield*[^S]",
+				"",
+				"[^S]: A spell from the caster's specialty school."
+			]
+		},
+		{
+			"name": "Erages Journeyman's Manual",
+			"file": "spellbookdisplayfffa.html",
+			"cost": 575,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 7 Magus"
+			],
+			"sources": [
+				"Arcane Anthology"
+			],
+			"description": [
+				"## Erages Journeyman's Manual",
+				"### Level 7 Magus",
+				"",
+				"**Source** [Arcane Anthology pg. 5](source:Arcane_Anthology)",
+				"",
+				"**Value** 575 gp (1,100 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 3rd-*dispel magic*, *haste*",
+				"- 2nd-*alter self*, *frigid touch*, *invisibility*, *mirror image*, *pyrotechnics*, *scorching ray*",
+				"- 1st-*chill touch*, *color spray*, *enlarge person*, *grease*, *jump*, *reduce person*, *shield*, *silent image*",
+				"",
+				"**Ritual**",
+				"",
+				"**Avoiding Spell (Su)** Whenever you cast a transmutation spell, you can spend this boon as a swift action to gain a +1 dodge bonus to your AC for a number of rounds equal to the spell's level."
+			]
+		},
+		{
+			"name": "Galtan Cookbook",
+			"file": "spellbookdisplay39e0.html",
+			"cost": 670,
+			"types": [
+				"Formula Book"
+			],
+			"prerequisites": [
+				"Level 8 Alchemist"
+			],
+			"sources": [
+				"Arcane Anthology"
+			],
+			"description": [
+				"## Galtan Cookbook",
+				"### Level 8 Alchemist",
+				"",
+				"**Source** [Arcane Anthology pg. 5](source:Arcane_Anthology)",
+				"",
+				"**Value** 670 gp (1,270 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 3rd-*absorbing touch*, *arcane sight*, *draconic reservoir*, *seek thoughts*",
+				"- 2nd-*cat's grace*, *invisibility*, *perceive cues*, *resist energy*, *see invisibility*, *undetectable alignment*",
+				"- 1st-*ant haul*, *bomber's eye*, *comprehend languages*, *detect secret doors*, *disguise self*, *expeditious retreat*, *true strike*",
+				"",
+				"**Ritual**",
+				"",
+				"**Blast Finesse (Su)** As an immediate action when you throw a bomb, you can spend this boon to shape the blast by adding up to three 5-foot squares to the area, as long as these spaces are adjacent to the bomb's normal area of effect."
+			]
+		},
+		{
+			"name": "Grandfather's Legacy",
+			"file": "spellbookdisplay24c5.html",
+			"cost": 7635,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 14 Necromancer"
+			],
+			"sources": [
+				"Ultimate Magic"
+			],
+			"description": [
+				"## Grandfather's Legacy",
+				"### Level 14 Necromancer",
+				"",
+				"**Source** [Ultimate Magic pg. 124](source:Ultimate_Magic)",
+				"",
+				"**Opposition** Enchantment, illusion   ",
+				"**Protection** A series of three superior locks each augmented with arcane lock (DC 50) and a symbol of weakness (Fortitude DC 20) on the second page of each book.   ",
+				"**Value** 7,635 gp ( gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 7th-*control undead*[^S], *finger of death*[^S], *symbol of weakness*[^S], *temporary resurrection*[^S]",
+				"- 6th-*acid fog*, *chain lightning*, *circle of death*[^S], *create undead*[^S], *unwilling shield*[^S]",
+				"- 5th-*dismissal*, *hold monster*, *magic jar*[^S], *possess object*[^S], *wall of force*, *waves of fatigue*[^S]",
+				"- 4th-*animate dead*[^S], *bestow curse*[^S], *contagion*[^S], *enervation*[^S], *shadow projection*[^S], *shout*, *wall of ice*",
+				"- 3rd-*gentle repose*[^S], *halt undead*[^S], *lightning bolt*, *magic circle against good*, *nondetection*, *ray of exhaustion*[^S], *stinking cloud*, *vampiric touch*[^S]",
+				"- 2nd-*arcane lock*, *blindness*[^S], *darkness*, *false life*[^S], *obscure object*, *resist energy*, *scare*[^S], *summon swarm*",
+				"- 1st-*cause fear*[^S], *chill touch*[^S], *floating disk*, *hypnotism*, *obscuring fog*, *ray of enfeeblement*[^S], *restore corpse*[^S], *sculpt corpse*[^S], *shield*, *sleep*",
+				"",
+				"[^S]: A spell from the caster's specialty school."
+			]
+		},
+		{
+			"name": "Grimoire of Glittering Eyes",
+			"file": "spellbookdisplayfd13.html",
+			"cost": 1055,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 7 Illusionist"
+			],
+			"sources": [
+				"Ultimate Magic"
+			],
+			"description": [
+				"## Grimoire of Glittering Eyes",
+				"### Level 7 Illusionist",
+				"",
+				"**Source** [Ultimate Magic pg. 122](source:Ultimate_Magic)",
+				"",
+				"**Opposition** Evocation, necromancy   ",
+				"**Protection** Protection The entire book is warded with illusory script (Will DC 16; on failure, the suggestion is for the reader to \"Close the book and leave\").   ",
+				"**Value** 1,055 gp (1,755 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 4th-*phantasmal killer*[^S], *wandering star motes*[^S]",
+				"- 3rd-*illusory script*[^S], *invisibility sphere*[^S], *madness*[^S], *major image*[^S]",
+				"- 2nd-*magic mouth*[^S], *misdirection*[^S], *phantom trap*[^S], *scare*[^OP]",
+				"- 1st-*alarm*, *animate rope*, *color spray*[^S], *comprehend languages*, *disguise self*[^S], *hypnotism*, *magic aura*[^S], *magic weapon*, *shield*, *sleep*",
+				"",
+				"**Ritual**",
+				"",
+				"**Glittering Eyes (Su)** When casting an illusion spell, you gain expanded sight. Spend this boon's effect as a free action when you cast an illusion spell. You gain darkvision 60 feet and a +4 bonus on saving throws to disbelieve illusions, with both benefits lasting for 1 minute.",
+				"",
+				"[^S]: A spell from the caster's specialty school.   ",
+				"[^OP]: A spell from the spellbook creator's opposition school."
+			]
+		},
+		{
+			"name": "Guardian Grimoire",
+			"file": "spellbookdisplaye7c9.html",
+			"cost": 10055,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 15 Abjurer"
+			],
+			"sources": [
+				"Ultimate Magic"
+			],
+			"description": [
+				"## Guardian Grimoire",
+				"### Level 15 Abjurer",
+				"",
+				"**Source** [Ultimate Magic pg. 125](source:Ultimate_Magic)",
+				"",
+				"**Opposition** Illusion, necromancy   ",
+				"**Protection** Explosive runes (Reflex DC 16) and fire trap (Reflex DC 17)   ",
+				"**Value** 10,055 gp (13,055 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 8th-*binding*, *maze*, *protection from spells*[^S]",
+				"- 7th-*banishment*[^S], *delayed blast fireball*, *expend*[^S], *form of the dragon II*, *grasping hand*",
+				"- 6th-*analyze dweomer*, *antimagic field*[^S], *chain lightning*, *greater dispel magic*[^S], *true seeing*",
+				"- 5th-*break enchantment*[^S], *cone of cold*, *dismissal*[^S], *polymorph*, *summon monster V*, *wall of force*",
+				"- 4th-*confusion*, *dimension door*, *dimensional anchor*[^S], *fire trap*[^S], *mass enlarge person*, *secure shelter*, *true form*[^S]",
+				"- 3rd-*cloak of winds*[^S], *daylight*, *enter image*, *explosive runes*[^S], *haste*, *lightning bolt*, *magic circle against evil*[^S], *water breathing*",
+				"- 2nd-*cushioning bands*, *detect thoughts*, *glitterdust*, *knock*, *protection from arrows*[^S], *resist energy*[^S], *scorching ray*, *whispering wind*",
+				"- 1st-*animate rope*, *detect secret doors*, *detect undead*, *endure elements*[^S], *feather fall*, *obscuring mist*, *protection from chaos*[^S], *shadow blade*[^S], *shield*[^S], *shocking grasp*, *touch of gracelessness*",
+				"",
+				"**Ritual**",
+				"",
+				"**Guardian Trick (Su)** With a quick phrase of power, you attempt to foil an attack. Spend this boon's effect as an immediate action when an undead or outsider hits you with an attack. The attacking creature must reroll the attack, taking the second roll even if it is lower.",
+				"",
+				"[^S]: A spell from the caster's specialty school."
+			]
+		},
+		{
+			"name": "Insights of Far-Seeing Taernis",
+			"file": "spellbookdisplay6182.html",
+			"cost": 4555,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 12 Conjurer"
+			],
+			"sources": [
+				"Ultimate Magic"
+			],
+			"description": [
+				"## Insights of Far-Seeing Taernis",
+				"### Level 12 Conjurer",
+				"",
+				"**Source** [Ultimate Magic pg. 124](source:Ultimate_Magic)",
+				"",
+				"**Opposition** Divination, necromancy   ",
+				"**Protection** Sepia snake sigil (Reflex DC 16)   ",
+				"**Value** 4,555 gp (6,355 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 6th-*getaway*[^S], *planar binding*[^S], *summon monster VI*[^S], *wall of iron*[^S]",
+				"- 5th-*contact other plane*[^OP], *life bubble*, *overland flight*, *teleport*[^S]",
+				"- 4th-*acid pit*[^S], *black tentacles*[^S], *dimensional anchor*, *lesser geas*, *phantasmal killer*, *solid fog*[^S]",
+				"- 3rd-*gaseous form*, *greater magic weapon*, *magic circle against evil*, *sepia snake sigil*[^S], *spiked pit*[^S], *stinking cloud*, *tiny hut*",
+				"- 2nd-*arrow eruption*[^S], *daze monster*, *dust of twilight*[^S], *fantastic reach*, *glitterdust*[^S], *metabolize*[^S], *shatter*, *stone call*[^S]",
+				"- 1st-*comprehend languages*[^OP], *disguise self*, *jump*, *mage armor*[^S], *magic aura*, *mount*[^S], *sleep*, *stumble gap*[^S], *unseen servant*[^S]",
+				"",
+				"**Ritual**",
+				"",
+				"**Sturdy Summoning (Su)** A creature you summon gains augmented defenses for a short time. Spend this boon effect as a free action when you cast a conjuration (summoning) wizard spell. The creature you summon with that spell gains a number of temporary hit points equal to your caster level, and as long as the summoned creature has at least 1 of these hit points, it gains a +2 circumstance bonus on saving throws.",
+				"",
+				"[^S]: A spell from the caster's specialty school.   ",
+				"[^OP]: A spell from the spellbook creator's opposition school."
+			]
+		},
+		{
+			"name": "Journal of the Beast Within",
+			"file": "spellbookdisplayc34b.html",
+			"cost": 915,
+			"types": [
+				"Formula Book"
+			],
+			"prerequisites": [
+				"Level 10 Alchemist"
+			],
+			"sources": [
+				"Ultimate Magic"
+			],
+			"description": [
+				"## Journal of the Beast Within",
+				"### Level 10 Alchemist",
+				"",
+				"**Source** [Ultimate Magic pg. 123](source:Ultimate_Magic)",
+				"",
+				"**Value** 915 gp (2,165 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 4th-*dragon's breath*",
+				"- 3rd-*beast shape I*, *rage*, *tongues*, *water breathing*",
+				"- 2nd-*barkskin*, *bull's strength*, *cure moderate wounds*, *elemental touch*, *resist energy*",
+				"- 1st-*bomber's eye*, *comprehend languages*, *crafter's fortune*, *cure light wounds*, *disguise self*, *enlarge person*, *identify*, *shield*",
+				"",
+				"**Ritual**",
+				"",
+				"**Beastly Concoction (Su)** This journal grants you the ability to make an extremely potent and savage mutagen. Spend this boon when you imbibe your mutagen. The mutagen grants you a +6 alchemical bonus to your selected ability score instead of the normal +4; you take a -2 penalty to all of your mental ability scores (Intelligence, Wisdom, and Charisma) while the mutagen is in effect."
+			]
+		},
+		{
+			"name": "Journeyman Book of Rul Thaven",
+			"file": "spellbookdisplay84c7.html",
+			"cost": 2195,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 9 Diviner"
+			],
+			"sources": [
+				"Ultimate Magic"
+			],
+			"description": [
+				"## Journeyman Book of Rul Thaven",
+				"### Level 9 Diviner",
+				"",
+				"**Source** [Ultimate Magic pg. 123](source:Ultimate_Magic)",
+				"",
+				"**Opposition** Illusion, transmutation   ",
+				"**Protection** Average lock (DC 25), and the 5th-level spells are hidden with secret page. The special word is \"reveal.\"   ",
+				"**Value** 2,195 gp (3,320 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 5th-*contact other plane*[^S], *major creation*, *telepathic bond<sub>S</sub>,*",
+				"- 4th-*detect scrying*[^S], *locate creature*[^S], *remove curse*, *scrying*[^S]",
+				"- 3rd-*arcane sight*[^S], *clairaudience/clairvoyance*[^S], *secret page*[^OP], *tongues*[^S]",
+				"- 2nd-*detect thoughts*[^S], *flaming sphere*, *locate object*[^S], *resist energy*, *see invisibility*[^S], *summon monster II*",
+				"- 1st-*cause fear*, *comprehend languages*[^S], *detect secret doors*[^S], *detect undead*[^S], *disguise self*[^OP], *identify*[^S], *protection from evil*, *protection from law*, *true strike*[^S]",
+				"",
+				"**Ritual**",
+				"",
+				"**Eyes of Rul Thaven (Su)** You use a trick perfected by Rul Thaven to ferret out invisible creatures. Spend this boon's effect as a swift action. You gain the effects of see invisibility for 1 round.",
+				"",
+				"[^S]: A spell from the caster's specialty school.   ",
+				"[^OP]: A spell from the spellbook creator's opposition school."
+			]
+		},
+		{
+			"name": "Lab Journal of Constance Inflix",
+			"file": "spellbookdisplay0f2d.html",
+			"cost": 395,
+			"types": [
+				"Formula Book"
+			],
+			"prerequisites": [
+				"Level 5 Alchemist"
+			],
+			"sources": [
+				"Ultimate Magic"
+			],
+			"description": [
+				"## Lab Journal of Constance Inflix",
+				"### Level 5 Alchemist",
+				"",
+				"**Source** [Ultimate Magic pg. 122](source:Ultimate_Magic)",
+				"",
+				"**Value** 395 gp (770 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 2nd-*blur*, *delay poison*, *fire breath*, *transmute potion to poison*, *vomit swarm*",
+				"- 1st-*bomber's eye*, *comprehend languages*, *cure light wounds*, *jump*, *keen senses*, *negate aroma*, *resist energy*, *touch of the sea*",
+				"",
+				"**Ritual**",
+				"",
+				"**Alchemical Protection (Su)** The alchemical knowledge granted by this book protects you from poisons and alchemical items. Spend this boon's effect as an immediate action when you make a saving throw against poison or an alchemical item but before rolling the saving throw. You gain a +4 bonus on that saving throw."
+			]
+		},
+		{
+			"name": "Library of the Dancer of Skins",
+			"file": "spellbookdisplay4644.html",
+			"cost": 16435,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 19 Universalist"
+			],
+			"sources": [
+				"Ultimate Magic"
+			],
+			"description": [
+				"## Library of the Dancer of Skins",
+				"### Level 19 Universalist",
+				"",
+				"**Source** [Ultimate Magic pg. 126](source:Ultimate_Magic)",
+				"",
+				"**Value** 16,435 gp (20,710 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 9th-*shapechange*, *weird*, *wish*, *world wave*",
+				"- 8th-*giant form II*, *polar ray*, *scintillating pattern*, *seamantle*, *trap the soul*",
+				"- 7th-*control weather*, *elemental body IV*, *phantasmal revenge*, *power word blind*, *rampart*, *spell turning*",
+				"- 6th-*beast shape IV*, *cloak of dreams*, *control water*, *fluid form*, *getaway*, *lightning field*, *plant shape II*",
+				"- 5th-*comet*, *fabricate*, *fire snake*, *geyser*, *hold monster*, *overland flight*, *planar adaptation*, *telekinesis*",
+				"- 4th-*dragon's breath*, *dimension door*, *firefall*, *greater invisibility*, *moonstruck*, *resilient sphere*, *true form*, *wandering star motes*",
+				"- 3rd-*blink*, *cloak of winds*, *elemental aura*, *fly*, *lightwall*, *shifting sands*, *twilight knife*, *versatile weapon*",
+				"- 2nd-*accelerate poison*, *arrow eruption*, *dust of twilight*, *elemental speech*, *alter self*, *fire breath*, *share language*, *slipstream*",
+				"- 1st-*alter winds*, *ant haul*, *endure elements*, *feather fall*, *flare burst*, *identify*, *stone fist*, *touch of the sea*, *true strike*, *vanish*",
+				"",
+				"**Ritual**",
+				"",
+				"**Defensive Boon (Su)** You throw up a quick burst of arcane energy that deflects an incoming spell attack. As an immediate action when targeted with a touch spell or spell-like ability, you can spend this boon's effect to gain a +4 deflection bonus to AC against the triggering attack."
+			]
+		},
+		{
+			"name": "Manual of Binding",
+			"file": "spellbookdisplay124d.html",
+			"cost": 17165,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 18 Conjurer"
+			],
+			"sources": [
+				"Ultimate Magic"
+			],
+			"description": [
+				"## Manual of Binding",
+				"### Level 18 Conjurer",
+				"",
+				"**Source** [Ultimate Magic pg. 126](source:Ultimate_Magic)",
+				"",
+				"**Opposition** Abjuration, enchantment   ",
+				"**Protection** magic aura (spellbook appears nonmagical), secret page hides the notes on constructing a lich's phylactery, sepia snake sigil (Reflex DC 17)   ",
+				"**Value** 17,165 gp (21,215 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 9th-*gate*[^S], *soul bind*, *summon monster IX*[^S], *time stop*, *wish*",
+				"- 8th-*create greater undead*, *horrid wilting*, *greater planar binding*[^S], *maze*[^S], *screen*",
+				"- 7th-*banishment*[^OP], *finger of death*, *grasping hand*, *greater teleport*[^S], *reverse gravity*, *summon monster VII*[^S]",
+				"- 6th-*contagious flames*, *disintegrate*, *greater dispel magic*[^OP], *legend lore*, *planar binding*[^S], *wall of iron*[^S]",
+				"- 5th-*cloudkill*[^S], *cone of cold*, *contact other plane*, *hungry pit*[^S], *magic jar*, *overland flight*, *permanency*, *secret chest*[^S], *symbol of pain*",
+				"- 4th-*ball lightning*, *black tentacles*[^S], *detect scrying*, *dimension door*[^S], *enervation*, *greater invisibility*, *resilient sphere*, *remove curse*[^OP]",
+				"- 3rd-*blink*, *daylight*, *enter image*, *fireball*, *gentle repose*, *secret page*, *sepia snake sigil*[^S], *stinking cloud*[^S]",
+				"- 2nd-*darkvision*, *false life*, *glitterdust*[^S], *make whole*, *mirror image*, *resist energy*[^OP], *see invisibility*, *summon swarm*[^S], *web*[^S]",
+				"- 1st-*burning hands*, *detect undead*, *disguise self*, *grease*[^S], *mage armor*[^S], *magic aura*, *magic missile*, *ray of enfeeblement*, *unseen servant*[^S]",
+				"",
+				"**Ritual**",
+				"",
+				"**Revivifying Contingency (Su)** You do not spend this boon with an action. When you are affected by this boon, the first time you are reduced to 0 or fewer hit points, you immediately regain 2d6 hit points. If this is enough for you to reach 0 hit points or higher, you do not fall unconscious.",
+				"",
+				"[^S]: A spell from the caster's specialty school.   ",
+				"[^OP]: A spell from the spellbook creator's opposition school."
+			]
+		},
+		{
+			"name": "Manuscript of Jack Were-son",
+			"file": "spellbookdisplay7208.html",
+			"cost": 2835,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 10 Universalist"
+			],
+			"sources": [
+				"Ultimate Magic"
+			],
+			"description": [
+				"## Manuscript of Jack Were-son",
+				"### Level 10 Universalist",
+				"",
+				"**Source** [Ultimate Magic pg. 123](source:Ultimate_Magic)",
+				"",
+				"**Protection** Average lock with arcane lock (DC 35) and explosive runes (Reflex DC 16)   ",
+				"**Value** 2,835 gp ([unknown] gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 5th-*break enchantment*, *mage's private sanctum*, *polymorph*, *treasure stitching*",
+				"- 4th-*charm monster*, *dimension door*, *greater invisibility*, *moonstruck*, *true form*",
+				"- 3rd-*cloak of winds*, *explosive runes*, *haste*, *lightning bolt*, *nondetection*, *twilight knife*",
+				"- 2nd-*acid arrow*, *burning gaze*, *dust of twilight*, *fog cloud*, *metabolize*, *protection from arrows*, *spider climb*",
+				"- 1st-*alter winds*, *ant haul*, *burning hands*, *cause fear*, *hold portal*, *identify*, *magic missile*, *sleep*, *stone fist*, *vanish*"
+			]
+		},
+		{
+			"name": "Master Books of Rul Thaven",
+			"file": "spellbookdisplayb284.html",
+			"cost": 12725,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 17 Diviner"
+			],
+			"sources": [
+				"Ultimate Magic"
+			],
+			"description": [
+				"## Master Books of Rul Thaven",
+				"### Level 17 Diviner",
+				"",
+				"**Source** [Ultimate Magic pg. 126](source:Ultimate_Magic)",
+				"",
+				"**Opposition** Illusion, transmutation   ",
+				"**Protection** Each book features a superior lock (DC 40); secret page hides the 9th- and 7th-level spells, and the first book is warded with explosive runes (Reflex DC 17).   ",
+				"**Value** 12,725 gp (16,550 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 9th-*foresight*[^S], *freedom*",
+				"- 8th-*demand*, *discern location*[^S], *greater prying eyes*[^S], *trap the soul*",
+				"- 7th-*instant summons*, *greater arcane sight*[^S], *greater scrying*[^S], *plane shift*, *vision*[^S]",
+				"- 6th-*analyze dweomer*[^S], *greater dispel magic*, *guards and wards*, *legend lore*[^S], *repulsion*, *true seeing*[^S]",
+				"- 5th-*contact other plane*[^S], *major creation*, *secret chest*, *sending*, *telepathic bond*[^S], *planar adaptation*[^OP]",
+				"- 4th-*bestow curse*, *dimensional anchor*, *lesser geas*, *lesser globe of invulnerability*, *locate creature*[^S], *remove curse*, *secure shelter*, *share senses*[^S]",
+				"- 3rd-*arcane sight*[^S], *blood biography*[^S], *clairaudience/clairvoyance*[^S], *explosive runes*, *secret page*[^OP], *seek senses*[^S], *tongues*[^S]",
+				"- 2nd-*continual flame*, *detect thoughts*[^S], *flaming sphere*, *hold person*, *locate object*[^S], *resist energy*, *see invisibility*[^S], *summon monster II*",
+				"- 1st-*cause fear*, *comprehend languages*[^S], *detect secret doors*[^S], *detect undead*[^S], *disguise self *[^OP], *identify*[^S], *protection from evil*, *protection from law*, *true strike*[^S]",
+				"",
+				"**Ritual**",
+				"",
+				"**Improved Eyes of Rul Thaven (Su)** This improved boon allows you to see invisible creatures. You can activate the boon's effect as a swift action to gain the effects of see invisibility for up to 10 rounds. The rounds need not be consecutive, but you must spend a swift action each time you activate the boon's effect. The boon's effect is only spent when all 10 rounds of see invisibility are used up, or the next time you prepare wizard spells.",
+				"",
+				"[^S]: A spell from the caster's specialty school.   ",
+				"[^OP]: A spell from the spellbook creator's opposition school."
+			]
+		},
+		{
+			"name": "Mastery of Word and Thought",
+			"file": "spellbookdisplayad2b.html",
+			"cost": 22675,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 20 Enchanter"
+			],
+			"sources": [
+				"Ultimate Magic"
+			],
+			"description": [
+				"## Mastery of Word and Thought",
+				"### Level 20 Enchanter",
+				"",
+				"**Source** [Ultimate Magic pg. 127](source:Ultimate_Magic)",
+				"",
+				"**Opposition** Conjuration, illusion   ",
+				"**Protection** Symbol of death on the first page of the book (Fort DC 22)   ",
+				"**Value** 22,675 gp (27,265 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 9th-*dominate monster*[^S], *foresight*, *mage's disjunction*, *mass hold monster*[^S], *mass suffocation*, *power word kill*[^S], *time stop*",
+				"- 8th-*binding*[^S], *clone*, *irresistible dance*[^S], *mind blank*, *polymorph any object*, *power word stun*[^S], *sunburst*",
+				"- 7th-*deflection*, *greater arcane sight*, *instant summons*[^OP], *limited wish*, *mass hold person*[^S], *plane shift*[^OP], *power world blind*[^S], *resonating word*, *symbol of stunning*[^S]",
+				"- 6th-*cloak of dreams*[^S], *contingency*, *enemy hammer*, *forceful hand*, *greater dispel magic*, *geas/quest*[^S], *legend lore*, *mage's lucubration*, *true seeing*",
+				"- 5th-*dismissal*, *dominate person*[^S], *fabricate*, *icy prison*, *feeblemind*[^S], *mage's private sanctum*, *permanency*, *prying eyes*, *teleport*[^OP]",
+				"- 4th-*bestow curse*, *crushing despair*[^S], *dimensional anchor*, *fear*, *moonstruck*[^S], *resilient sphere*, *stone shape*, *stoneskin*",
+				"- 3rd-*fireball*, *fly*, *greater magic weapon*, *heroism*[^S], *loathsome veil*, *nondetection*, *protection from energy*, *symbol of peace*[^S], *suggestion*[^S]",
+				"- 2nd-*arcane lock*, *continual flame*, *false life*, *hideous laughter*[^S], *magic mouth*[^OP], *mirror image*[^OP], *resist energy*, *rope trick*, *see invisibility*, *touch of idiocy*[^S]",
+				"- 1st-*alarm*, *charm person*[^S], *feather fall*, *forced quiet*, *hydraulic push*, *identify*, *magic missile*, *memory lapse*[^S], *ray of enfeeblement*, *shield*, *unseen servant*[^OP]",
+				"",
+				"**Ritual**",
+				"",
+				"**Curse of Names (Su)** When you are finished preparing your spells with this book, write the proper name of a single creature among the list of names in this book. As a swift action, when you are within 30 feet of the named creature, you can call out its name to bestow the curse of names on it. This spends the boon's effect. The target creature takes a -2 penalty on all attack rolls, and a -4 penalty on all attack rolls against you, for 1 minute. When you activate this curse, the name is crossed out in the back of the book. That creature cannot be the target of a curse of names originating from you ever again. The penalties of two instances of curse of names on the same creature do not stack.",
+				"",
+				"[^S]: A spell from the caster's specialty school.   ",
+				"[^OP]: A spell from the spellbook creator's opposition school."
+			]
+		},
+		{
+			"name": "Mysteries of Shadow",
+			"file": "spellbookdisplay1782.html",
+			"cost": 11865,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 16 Illusionist"
+			],
+			"sources": [
+				"Ultimate Magic"
+			],
+			"description": [
+				"## Mysteries of Shadow",
+				"### Level 16 Illusionist",
+				"",
+				"**Source** [Ultimate Magic pg. 125](source:Ultimate_Magic)",
+				"",
+				"**Opposition** Divination, evocation   ",
+				"**Protection** illusory script (Will DC 16; on failure the suggestion is \"Forget the existence of the descriptions and notes\"), phantom trap (opening any of the books seems to set off a trap)   ",
+				"**Value** 11,865 gp (15,065 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 8th-*greater shadow evocation*[^S], *mind blank*, *scintillating pattern*[^S], *temporal stasis*",
+				"- 7th-*finger of death*, *greater shadow conjuration*[^S], *project image*[^S], *simulacrum*[^S], *spell turning*",
+				"- 6th-*eyebite*, *guards and wards*, *limited wish*, *permanent image*[^S], *programmed image*[^S], *shadow walk*[^S], *symbol of persuasion*",
+				"- 5th-*cloudkill*, *mirage arcana*[^S], *mind fog*, *nightmare*[^S], *seeming*[^S], *shadow evocation*[^S], *telekinesis*",
+				"- 4th-*black tentacles*, *dimension door*, *greater invisibility*[^S], *lesser globe of invulnerability*, *phantasmal killer*[^S], *remove curse*, *scrying*[^OP], *shadow conjuration*[^S]",
+				"- 3rd-*dispel magic*, *heroism*, *illusory script*[^S], *magic circle against good*, *major image*[^S], *phantom steed*, *shrink item*, *slow*",
+				"- 2nd-*arcane lock*, *darkness*[^OP], *false life*, *glitterdust*, *magic mouth*[^S], *mirror image*[^S], *obscure object*, *phantom trap*[^S], *whispering wind*",
+				"- 1st-*color spray*[^S], *disguise self *[^S], *endure elements*, *feather fall*, *grease*, *magic aura*[^S], *minor image*[^S], *obscuring mist*, *ray of enfeeblement*, *silent image*[^S], *ventriloquism*[^S]",
+				"",
+				"**Ritual**",
+				"",
+				"**Shadow Knowledge (Su)** The knowledge in this book clings to your consciousness like the Shadow Plane itself. Unlike other boons, you do not spend this one. Until you prepare spells again, you are considered trained in all Knowledge skills as long as the check pertains to the geography and denizens of the Shadow Plane. If you are already trained in the appropriate Knowledge skill, you gain a +2 circumstance bonus on these checks instead.",
+				"",
+				"[^S]: A spell from the caster's specialty school.   ",
+				"[^OP]: A spell from the spellbook creator's opposition school."
+			]
+		},
+		{
+			"name": "Nyzam's Remedies",
+			"file": "spellbookdisplay12b0.html",
+			"cost": 50,
+			"types": [
+				"Formula Book"
+			],
+			"prerequisites": [
+				"Level 3 Alchemist"
+			],
+			"sources": [
+				"Arcane Anthology"
+			],
+			"description": [
+				"## Nyzam's Remedies",
+				"### Level 3 Alchemist",
+				"",
+				"**Source** [Arcane Anthology pg. 5](source:Arcane_Anthology)",
+				"",
+				"**Value** 50 gp (115 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 1st-*cure light wounds*, *expeditious retreat*, *keen senses*, *polypurpose panacea*, *youthful appearance*",
+				"",
+				"**Ritual**",
+				"",
+				"**Rejuvenating Infusion (Su)** Whenever you imbibe an alchemist extract of a conjuration spell, you can spend this boon as a swift action. If you do, you are healed of 1 point of damage and can ignore the effects of fatigue for 1 round."
+			]
+		},
+		{
+			"name": "Quest Eternal",
+			"file": "spellbookdisplay9e10.html",
+			"cost": 6475,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 13 Diviner"
+			],
+			"sources": [
+				"Ultimate Magic"
+			],
+			"description": [
+				"## Quest Eternal",
+				"### Level 13 Diviner",
+				"",
+				"**Source** [Ultimate Magic pg. 124](source:Ultimate_Magic)",
+				"",
+				"**Opposition** Conjuration, transmutation   ",
+				"**Value** 6,475 gp (8,395 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 7th-*greater arcane sight*[^S], *greater scrying*[^S], *prismatic spray*",
+				"- 6th-*chain lightning*, *contingency*, *eyebite*, *legend lore*[^S], *true seeing*[^S]",
+				"- 5th-*dominate person*, *fire snake*, *prying eyes*[^S], *teleport*[^OP], *telepathic bond*[^S]",
+				"- 4th-*arcane eye*[^S], *confusion*, *detect scrying*[^S], *fear*, *ice storm*, *wall of fire*",
+				"- 3rd-*clairaudience/clairvoyance*[^S], *dispel magic*, *displacement*, *greater magic weapon*[^OP], *hydraulic torrent*, *lightning bolt*, *seek thoughts*, *tongues*[^S]",
+				"- 2nd-*arcane lock*, *false life*, *fox's cunning*[^OP], *locate object*[^S], *resist energy*, *scorching ray*, *see invisibility*[^S], *touch of idiocy*",
+				"- 1st-*alarm*, *charm person*, *comprehend languages*[^S], *color spray*, *detect secret doors*[^S], *expeditious excavation*[^OP], *floating disk*, *protection from evil*, *shield*, *true strike*[^S], *ventriloquism*",
+				"",
+				"**Ritual**",
+				"",
+				"**Travel Sage (Su)** There is nothing like a magic book to enhance the memory. Unlike other boons, you do not spend this one. Until you prepare spells again, you are considered trained in Knowledge (geography). If you are already trained in Knowledge (geography), you gain a +2 circumstance bonus on those checks instead.",
+				"",
+				"[^S]: A spell from the caster's specialty school.   ",
+				"[^OP]: A spell from the spellbook creator's opposition school."
+			]
+		},
+		{
+			"name": "Runes of Wealth",
+			"file": "spellbookdisplay1e01.html",
+			"cost": 26365,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 18 Transmuter"
+			],
+			"sources": [
+				"Arcane Anthology"
+			],
+			"description": [
+				"## Runes of Wealth",
+				"### Level 18 Transmuter",
+				"",
+				"**Source** [Arcane Anthology pg. 18](source:Arcane_Anthology)",
+				"",
+				"**Protection** Superior lock with arcane lock (DC 50), polymorph (appears as a different spellbook each evening if no spells have been prepared from it)   ",
+				"**Value** 26,365 gp (31,365 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 9th-*fiery body*, *greater create demiplane*, *shapechange*, *time stop*, *transmute blood to acid*, *transmute golem*",
+				"- 8th-*frightful aspect*, *greater planar binding*, *greater shout*, *moment of prescience*, *polymorph any object*, *temporal stasis*",
+				"- 7th-*artificer's curse*, *control construct*, *emblem of greed*, *firebrand*, *greater age resistance*, *greater teleport*, *legendary proportions*, *reverse gravity*",
+				"- 6th-*enemy hammer*, *disintegrate*, *flesh to stone*, *globe of invulnerability*, *monstrous physique IV*, *sonic form*, *tar pool*, *transformation*",
+				"- 5th-*baleful polymorph*, *beast shape III*, *contact other plane*, *monstrous physique III*, *open arms*, *permanency*, *polymorph*, *rune of ruin*, *telekinesis*, *treasure stitching*",
+				"- 4th-*arcane eye*, *black tentacles*, *dimension door*, *fire shield*, *greater darkvision*, *monstrous physique II*, *obsidian flow*, *stoneskin*, *telekinetic charge*, *true form*",
+				"- 3rd-*deft digits*, *disable construct*, *enter image*, *excruciating deformation*, *fly*, *greater magic weapon*, *haste*, *heroism*, *lightning bolt*, *monstrous physique I*, *protection from energy*, *strangling hair*",
+				"- 2nd-*arcane lock*, *continual flame*, *disfiguring touch*, *locate object*, *make whole*, *masterwork transformation*, *protection from arrows*, *scorching ray*, *see invisibility*, *shatter*, *summon swarm*, *telekinetic assembly*",
+				"- 1st-*ant haul*, *burning hands*, *color spray*, *comprehend languages*, *identify*, *jump*, *mage armor*, *magic missile*, *mirror strike*, *reduce person*, *thunderstomp*, *youthful appearance*",
+				"",
+				"**Ritual**",
+				"",
+				"**Change Magic (Su)** Even the nature of magic is susceptible to your powerful transmutations. You can spend this boon as a swift action to declare a non-transmutation spell you are casting to be \"changed magic.\" This spell becomes a transmutation effect, and benefits from any abilities or feats that influence your transmutation spells and can be applied to the spell you cast (such as Spell Focus)."
+			]
+		},
+		{
+			"name": "Sarini's Workbook",
+			"file": "spellbookdisplayc6ee.html",
+			"cost": 4295,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 16 Magus with Bard Spells"
+			],
+			"sources": [
+				"Arcane Anthology"
+			],
+			"description": [
+				"## Sarini's Workbook",
+				"### Level 16 Magus with Bard Spells",
+				"",
+				"**Source** [Arcane Anthology pg. 26](source:Arcane_Anthology)",
+				"",
+				"**Value** 4,295 gp (4,670 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 6th-*mass eagle's splendor*, *transformation*",
+				"- 5th-*baleful polymorph*, *shadow evocation*, *telekinesis*, *teleport*, *vampiric shadow shield*, *wall of force*",
+				"- 4th-*black tentacles*, *charm monster*, *greater flaming sphere*, *mass enlarge person*, *mass reduce person*, *tough crowd*, *wreath of blades*",
+				"- 3rd-*burst of speed*, *dispel magic*, *fly*, *heckle*, *major image*, *stage fright*",
+				"- 2nd-*alter self*, *darkness*, *hold person*, *minor image*, *pilfering hand*, *scorching ray*",
+				"- 1st-*charm person*, *flare burst*, *grease*, *jump*, *mirror strike*, *mount*, *negative reaction*, *silent image*, *true strike*, *unseen servant*",
+				"",
+				"**Ritual**",
+				"",
+				"**Devilishly Reasonable (Su)** You can spend this boon to gain a +5 bonus on a Diplomacy check against a target that has an attitude of friendly or helpful toward you to request aid in the form of the target revealing an important secret."
+			]
+		},
+		{
+			"name": "Songs of the Linnorm Kings",
+			"file": "spellbookdisplaye55f.html",
+			"cost": 180,
+			"types": [
+				"Meditation Book"
+			],
+			"prerequisites": [
+				"Level 5 Skald"
+			],
+			"sources": [
+				"Arcane Anthology"
+			],
+			"description": [
+				"## Songs of the Linnorm Kings",
+				"### Level 5 Skald",
+				"",
+				"**Source** [Arcane Anthology pg. 5](source:Arcane_Anthology)",
+				"",
+				"**Value** 180 gp (440 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 2nd-*marching chant*, *path of glory*, *scare*",
+				"- 1st-*cure light wounds*, *heightened awareness*, *remove fear*",
+				"- 0 (at will)-*dancing lights*, *ghost sound*, *lullaby*, *mage hand*, *mending*, *resistance*",
+				"",
+				"**Ritual**",
+				"",
+				"**Storied Spell Lore (Su)** When you use this meditation ritual, choose a spell of 2nd level or lower in this meditation book. Whenever you cast a bard or skald conjuration spell, you can spend this boon as a swift action to add the chosen spell to your list of bard or skald spells known for 1 round."
+			]
+		},
+		{
+			"name": "The Formulae of Master Gebr",
+			"file": "spellbookdisplay5d9c.html",
+			"cost": 6615,
+			"types": [
+				"Formula Book"
+			],
+			"prerequisites": [
+				"Level 20 Alchemist"
+			],
+			"sources": [
+				"Ultimate Magic"
+			],
+			"description": [
+				"## The Formulae of Master Gebr",
+				"### Level 20 Alchemist",
+				"",
+				"**Source** [Ultimate Magic pg. 127](source:Ultimate_Magic)",
+				"",
+				"**Protection** The cover is treated with tears of death poison (contact; save Fort DC 22; onset 1 minute; frequency 1/minute for 6 minutes; effect 1d6 Con damage and paralyzed for 1 minute).   ",
+				"**Value** 6,615 gp (11,115 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 6th-*elemental body III*, *form of the dragon I*, *heal*, *shadow walk*, *transformation*, *twin form*",
+				"- 5th-*delayed consumption*, *dream*, *elude time*, *nightmare*, *overland flight*, *resurgent transformation*, *spell resistance*",
+				"- 4th-*detonate*, *dragon's breath*, *fire shield*, *fluid form*, *greater invisibility*, *neutralize poison*, *stoneskin*, *universal formula*",
+				"- 3rd-*absorbing touch*, *amplify elixir*, *bloodhound*, *displacement*, *draconic reservoir*, *haste*, *heroism*, *seek thoughts*, *thorn body*",
+				"- 2nd-*alchemical allocation*, *barkskin*, *bull's strength*, *cat's grace*, *elemental touch*, *fire breath*, *perceive cues*, *see invisibility*, *transmute potion to poison*, *vomit swarm*",
+				"- 1st-*bomber's eye*, *comprehend languages*, *crafter's fortune*, *disguise self*, *endure elements*, *keen senses*, *negate aroma*, *shield*, *stone fist*, *touch of the sea*",
+				"",
+				"**Ritual**",
+				"",
+				"**Spontaneous Bomb (Su)** When it comes to bombs, you have a special trick up your sleeve. Once per day as a swift action, you can apply a discovery that you qualify for (but do not already know) to a bomb. This does not allow you to stack non-stacking discoveries on a bomb."
+			]
+		},
+		{
+			"name": "The Guide's Analects",
+			"file": "spellbookdisplay21db.html",
+			"cost": 690,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 6 Universalist"
+			],
+			"sources": [
+				"Arcane Anthology"
+			],
+			"description": [
+				"## The Guide's Analects",
+				"### Level 6 Universalist",
+				"",
+				"**Source** [Arcane Anthology pg. 6](source:Arcane_Anthology)",
+				"",
+				"**Value** 690 gp (990 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 3rd-*Aroden's spellsword*, *heroism*, *lesser guardian monument*, *magic circle against evil*",
+				"- 2nd-*arcane disruption*, *human potential*, *masterwork transformation*, *winged sword*",
+				"- 1st-*detect undead*, *endure elements*, *expeditious construction*, *heightened awareness*, *linked legacy*, *mage armor*",
+				"",
+				"**Ritual**",
+				"",
+				"**Glorious Blade (Su)** When you attack with a sword (including swordlike effects created by spells such as spiritual weapon, as long as they require attack rolls), you can expend a prepared spell or spell slot as a free action to spend this boon. If you do, you gain an insight bonus on the attack roll equal to the level of the prepared spell or spell slot expended."
+			]
+		},
+		{
+			"name": "The Last Azlanti's Analects",
+			"file": "spellbookdisplayfde6.html",
+			"cost": 7030,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 15 Universalist"
+			],
+			"sources": [
+				"Arcane Anthology"
+			],
+			"description": [
+				"## The Last Azlanti's Analects",
+				"### Level 15 Universalist",
+				"",
+				"**Source** [Arcane Anthology pg. 6](source:Arcane_Anthology)",
+				"",
+				"**Protection** Average lock with arcane lock (DC 35) and explosive runes (Reflex DC 16)   ",
+				"**Value** 7,030 gp (10,030 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 8th-*dimensional lock*, *iron body*",
+				"- 7th-*Aroden's magic army*, *delayed blast fireball*, *instant summons*, *limited wish*",
+				"- 6th-*antimagic field*, *Last Azlanti's defending sword*, *mass human potential*, *transformation*",
+				"- 5th-*banishing blade*, *cone of cold*, *fabricate*, *greater guardian monument*",
+				"- 4th-*dimensional anchor*, *fear*, *locate creature*, *resilient sphere*",
+				"- 3rd-*daylight*, *dispel magic*, *fireball*, *greater magic weapon*",
+				"- 2nd-*continual flame*, *false life*, *human potential*, *whispering wind*",
+				"- 1st-*alarm*, *anticipate peril*, *expeditious construction*, *floating disk*, *hold portal*, *magic missile*, *protection from chaos*, *unseen servant*",
+				"",
+				"**Ritual**",
+				"",
+				"**Efficient Creator (Su)** You can spend this boon to use the magic item creation rules to create items with the Craft skill for one day. When doing this, your material costs are equal to half the final value of the item crafted (rather than the normal 1/3 of the cost for using the Craft skill). You can craft items with a cost greater than 1,000 gp by expending this boon over successive days, in the same way magic items with a cost over 1,000 gp can be crafted over multiple days. You otherwise follow all the rules and options for magic item creations."
+			]
+		},
+		{
+			"name": "The Prying Eye",
+			"file": "spellbookdisplayb310.html",
+			"cost": 1940,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 7 Universalist"
+			],
+			"sources": [
+				"Divine Anthology"
+			],
+			"description": [
+				"## The Prying Eye",
+				"### Level 7 Universalist",
+				"",
+				"**Source** [Divine Anthology pg. 5](source:Divine_Anthology)",
+				"",
+				"**Value** 1,940 gp (2,200 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 4th-*arcane eye*, *eyes of the void*, *medusa's bane*",
+				"- 3rd-*arcane sight*, *channel the gift*, *fractions of heal and harm*",
+				"- 2nd-*darkvision*, *burning gaze*, *see invisibility*, *spell gauge*",
+				"- 1st-*countless eyesUM*, *detect secret doors*, *identify*, *invisibility alarm*, *see alignment*, *true strike*",
+				"",
+				"**Ritual**",
+				"",
+				"**Keen Perception (Su)** You can spend this boon to gain a +2 insight bonus on a single Perception or Sense Motive check."
+			]
+		},
+		{
+			"name": "The Swordsman's Analects",
+			"file": "spellbookdisplay09b8.html",
+			"cost": 250,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 3 Universalist"
+			],
+			"sources": [
+				"Arcane Anthology"
+			],
+			"description": [
+				"## The Swordsman's Analects",
+				"### Level 3 Universalist",
+				"",
+				"**Source** [Arcane Anthology pg. 6](source:Arcane_Anthology)",
+				"",
+				"**Value** 250 gp (400 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 2nd-*force sword*, *human potential*",
+				"- 1st-*expeditious construction*, *identify*, *magic weapon*, *mirror strike*, *protection from evil*, *unerring weapon*",
+				"",
+				"**Ritual**",
+				"",
+				"**Shielding Weapon (Su)** Your spells infuse a weapon with protective magic. Spend this boon as an immediate action whenever you cast an abjuration spell. When you do, a weapon you wield grants you a shield bonus to your AC equal to 1 + 1/2 the spell's level for 1 round."
+			]
+		},
+		{
+			"name": "Tome of Stone Wards",
+			"file": "spellbookdisplay7608.html",
+			"cost": 4385,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 17 Abjurer"
+			],
+			"sources": [
+				"Arcane Anthology"
+			],
+			"description": [
+				"## Tome of Stone Wards",
+				"### Level 17 Abjurer",
+				"",
+				"**Source** [Arcane Anthology pg. 28](source:Arcane_Anthology)",
+				"",
+				"**Value** 4,385 gp (8,385 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 9th-*imprisonment*",
+				"- 8th-*dimensional lock*, *protection from spells*",
+				"- 7th-*banishment*, *spell turning*",
+				"- 6th-*greater make whole (Pathfinder Campaign Setting: Technology Guide 10)*, *guards and wards*, *move earth*, *symbol of sealing*",
+				"- 5th-*life bubble*, *major creation*, *passwall*, *wall of stone*, *wreath of blades*",
+				"- 4th-*curse of magic negation*, *make whole*, *stone shape*, *stoneskin*",
+				"- 3rd-*burrow*, *communal spider climb*, *dispel magic*, *explosive runes*, *shrink item*, *spiked pit*, *stunning barrier*",
+				"- 2nd-*arcane lock*, *certain grip*, *communal ant haul*, *create pit*, *knock*, *resist energy*, *spider climb*, *stone call*, *warding weapon*",
+				"- 1st-*alarm*, *ant haul*, *expeditious excavation*, *invisibility alarm*",
+				"",
+				"**Ritual**",
+				""
+			]
+		},
+		{
+			"name": "Tome of the Transmuter",
+			"file": "spellbookdisplay51f3.html",
+			"cost": 1835,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 8 Transmuter"
+			],
+			"sources": [
+				"Ultimate Magic"
+			],
+			"description": [
+				"## Tome of the Transmuter",
+				"### Level 8 Transmuter",
+				"",
+				"**Source** [Ultimate Magic pg. 123](source:Ultimate_Magic)",
+				"",
+				"**Opposition** Illusion, necromancy   ",
+				"**Protection** Good lock (DC 30), explosive runes (Reflex DC 16)   ",
+				"**Value** 1,835 gp (2,635 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 4th-*beast shape II*[^S], *calcific touch*[^S], *confusion*, *dimension door*, *stone shape*[^S]",
+				"- 3rd-*arcane sight*, *dispel magic*, *explosive runes*, *lightning bolt*, *greater magic weapon*[^S], *slow*[^S]",
+				"- 2nd-*alter self*[^S], *flaming sphere*, *knock*[^S], *pyrotechnics*[^S], *resist energy*, *see invisibility*, *whispering wind*[^S]",
+				"- 1st-*animate rope*[^S], *charm person*, *color spray*[^OP], *erase*[^S], *floating disk*, *hush*, *mage armor*, *magic missile*, *protection from chaos*, *unseen servant*",
+				"",
+				"**Ritual**",
+				"",
+				"**Defensive Transmutation (Su)** When taking another shape, you can increase your defenses. Spend this boon's effect as a free action when you cast a transmutation spell with a range of personal. As long as you are affected by that spell, you gain a +2 natural armor bonus for the duration of the spell.",
+				"",
+				"[^S]: A spell from the caster's specialty school.   ",
+				"[^OP]: A spell from the spellbook creator's opposition school."
+			]
+		},
+		{
+			"name": "Traveler's Tome",
+			"file": "spellbookdisplay31ff.html",
+			"cost": 365,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 4 Transmuter"
+			],
+			"sources": [
+				"Ultimate Magic"
+			],
+			"description": [
+				"## Traveler's Tome",
+				"### Level 4 Transmuter",
+				"",
+				"**Source** [Ultimate Magic pg. 121](source:Ultimate_Magic)",
+				"",
+				"**Opposition** Conjuration, enchantment   ",
+				"**Protection** Simple lock (DC 20)   ",
+				"**Value** 365 gp ( gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 2nd-*glide*[^S], *knock*[^S], *levitate*[^S], *rope trick*[^S]",
+				"- 1st-*ant haul*[^S], *enlarge person*[^S], *erase*[^S], *expeditious retreat*[^S], *gravity bow*[^S], *hold portal*, *jump*[^S], *magic weapon*[^S], *shield*",
+				"",
+				"[^S]: A spell from the caster's specialty school."
+			]
+		},
+		{
+			"name": "Unnamed Journal",
+			"file": "spellbookdisplay57a2.html",
+			"cost": 275,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 3 Universalist"
+			],
+			"sources": [
+				"Ultimate Magic"
+			],
+			"description": [
+				"## Unnamed Journal",
+				"### Level 3 Universalist",
+				"",
+				"**Source** [Ultimate Magic pg. 121](source:Ultimate_Magic)",
+				"",
+				"**Value** 275 gp ( gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 2nd-*fox's cunning*, *scorching ray*",
+				"- 1st-*alarm*, *feather fall*, *obscuring mist*, *mount*, *shield*, *shocking grasp*, *silent image*, *sleep*"
+			]
+		},
+		{
+			"name": "Wisdom of Jatembe (Nine Warriors Edition)",
+			"file": "spellbookdisplayd534.html",
+			"cost": 13415,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 17 Diviner"
+			],
+			"sources": [
+				"Arcane Anthology"
+			],
+			"description": [
+				"## Wisdom of Jatembe (Nine Warriors Edition)",
+				"### Level 17 Diviner",
+				"",
+				"**Source** [Arcane Anthology pg. 13](source:Arcane_Anthology)",
+				"",
+				"**Value** 13,415 gp (38,415 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 9th-*gate*, *mage's disjunction*, *meteor swarm*, *time stop*",
+				"- 8th-*maze*, *polymorph any object*, *power word stun*, *summon monster VIII*",
+				"- 7th-*forcecage*, *mage's sword*, *mass invisibility*, *summon monster VII*",
+				"- 6th-*chain lightning*, *globe of invulnerability*, *Jatembe's ire*, *legend lore*, *mislead*, *summon monster VI*, *true seeing*",
+				"- 5th-*baleful polymorph*, *cloudkill*, *communal stoneskin*, *cone of cold*, *mage's faithful hound*, *overland flight*",
+				"- 4th-*communal protection from energy*, *dimension door*, *enervation*, *greater celestial healing*, *mass enlarge person*, *wall of fire*",
+				"- 3rd-*communal resist energy*, *fireball*, *haste*, *lightning bolt*, *planar inquiry*",
+				"- 2nd-*blur*, *communal protection from evil*, *glitterdust*, *mirror image*",
+				"- 1st-*celestial healing*, *expeditious retreat*, *feather fall*, *magic missile*, *obscuring mist*, *true strike*",
+				"",
+				"**Ritual**",
+				"",
+				"**Secrets of Jatembe (Su)** This edition of the Wisdom of Jatembe includes a number of unique rituals and philosophical notes supposedly written by the Old-Mage himself. These secrets allow you to prepare one of the following spells as an arcane spell 1 level higher than its druid spell level: barkskin, call lightning, cyclic reincarnation, entangle, forest friend, lesser restoration, plant growth, speak with animals, and speak with plants. At the GM's discretion, additional spells of 6th level or lower from the druid spell list may be available through the preparation rituals of specific copies of this book (which increases the spellbook's price by twice the cost of adding a wizard spell of the same level to the spellbook)."
+			]
+		},
+		{
+			"name": "Wisdom of Jatembe (Six Warriors Edition)",
+			"file": "spellbookdisplay64db.html",
+			"cost": 4725,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 11 Diviner"
+			],
+			"sources": [
+				"Arcane Anthology"
+			],
+			"description": [
+				"## Wisdom of Jatembe (Six Warriors Edition)",
+				"### Level 11 Diviner",
+				"",
+				"**Source** [Arcane Anthology pg. 12](source:Arcane_Anthology)",
+				"",
+				"**Value** 4,725 gp (6,025 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 6th-*chain lightning*, *contagious flames*, *Jatembe's ire*, *legend lore*, *planar binding*",
+				"- 5th-*dismissal*, *lesser planar binding*, *overland flight*, *polymorph*, *sending*, *summon monster V*, *telepathic bond*",
+				"- 4th-*black tentacles*, *dimensional anchor*, *greater celestial healing*, *wall of fire*",
+				"- 3rd-*dispel magic*, *haste*, *planar inquiry*, *stinking cloud*",
+				"- 2nd-*blindness/deafness*, *mirror image*, *spectral hand*",
+				"- 1st-*celestial healing*, *magic missile*, *shocking grasp*, *true strike*",
+				"",
+				"**Ritual**",
+				"",
+				"**Jatembe's Vindication (Su)** The Old-Mage's teachings are a call to arms for all good spellcasters, stressing the importance of using one's talents altruistically and philanthropically, and his teachings foster the power of good in even the most apathetic heart. Expend this boon when you cast a spell that targets one or more creatures. The spell gains the good descriptor as well as a +2 sacred bonus on caster level checks to overcome the spell resistance of evil creatures. An evil creature cannot use this preparation ritual."
+			]
+		},
+		{
+			"name": "Wisdom of Jatembe (Three Warriors Edition)",
+			"file": "spellbookdisplay585d.html",
+			"cost": 375,
+			"types": [
+				"Spellbook"
+			],
+			"prerequisites": [
+				"Level 5 Diviner"
+			],
+			"sources": [
+				"Arcane Anthology"
+			],
+			"description": [
+				"## Wisdom of Jatembe (Three Warriors Edition)",
+				"### Level 5 Diviner",
+				"",
+				"**Source** [Arcane Anthology pg. 12](source:Arcane_Anthology)",
+				"",
+				"**Value** 375 gp (875 gp with the preparation ritual)",
+				"",
+				"**Spells**",
+				"",
+				"- 3rd-*beast shape I*, *clairaudience/clairvoyance*, *planar inquiry*, *tongues*",
+				"- 2nd-*alter self*, *detect thoughts*, *locate object*, *obscure object*, *see invisibility*",
+				"- 1st-*celestial healing*, *comprehend languages*, *detect undead*, *endure elements*, *heightened awareness*, *hydraulic push*, *identify*, *obscuring mist*",
+				"",
+				"**Ritual**",
+				"",
+				"**Eyes of Jatembe (Su)** Several of the stories within this spellbook suggest ways to take what information you have and use it to infer the answers to questions for which you don't have proven solutions. Spend this boon when you cast a divination spell to increase the spell's caster level by +2."
+			]
+		}
+	]
+}
