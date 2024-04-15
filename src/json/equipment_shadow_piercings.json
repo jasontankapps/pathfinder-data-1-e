@@ -1,0 +1,224 @@
+{
+	"description": [
+		"**Description Source:** [Champions of Corruption](source:Champions of Corruption)",
+		"",
+		"True Nidalese savor pain, and they proudly wear this delight in the torturous piercing of their bodies. Shadow piercers are some of the most skilled pain artisans in Nidal's depraved culture. They create magical pieces of jewelry, formed partially of shadowstuff, and use them in all manner of surface piercings for their discerning clients. Some shadow piercings are more than just single pieces of jewelry-instead they are created in sets that form specific designs across an expanse of the wearer's skin."
+	],
+	"list": [
+		{
+			"name": "Body Piercings (Minor)",
+			"searchable_name": "Body Piercings Minor",
+			"sources": [ "Champions of Corruption" ],
+			"file": "shadowpiercingsdisplay3e55.html",
+			"cost": 1800,
+			"description": [
+				"## Body Piercings",
+				"",
+				"**Source** [Champions of Corruption pg. 28](source:Champions_of_Corruption)",
+				"",
+				"**Aura** faint transmutation CL 3rd   ",
+				"**Slot** body; **Price** 1,800 gp (Minor), 2,400 gp (Major), 3,200 gp (Greater); **Weight** &mdash;",
+				"",
+				"These piercings come in the form of grotesque spikes and needles that cover every inch of the wearer's skin.",
+				"",
+				"*Minor:* The wearer gains a +2 competence bonus to CMD against grappling attempts.",
+				"",
+				"*Major:* Any creature attacking the wearer with a natural or unarmed attack must succeed at a DC 15 Reflex save or take 1d4 points of damage.",
+				"",
+				"*Greater:* The wearer is considered to have +1 armor spikes when not wearing armor or bulky clothing, and is considered proficient with armor spikes.",
+				"",
+				"**Construction**",
+				"",
+				"**Requirements** Craft Shadow Piercing, Improved Grapple, magic weapon; **Cost** 900 gp (Minor), 1,200 gp (Major), 1,600 gp (Greater)"
+			]
+		},
+		{
+			"name": "Chest Piercings (Minor)",
+			"searchable_name": "Chest Piercings Minor",
+			"sources": [ "Champions of Corruption" ],
+			"file": "shadowpiercingsdisplay7475.html",
+			"cost": 2200,
+			"description": [
+				"Chest Piercings",
+				"",
+				"**Source** [Champions of Corruption pg. 28](source:Champions_of_Corruption)",
+				"",
+				"**Aura** faint transmutation CL 3rd   ",
+				"**Slot** body; **Price** 2,200 gp (Minor), 3,750 gp (Major), 5,750 gp (Greater); **Weight** &mdash;",
+				"",
+				"These excruciating body ornaments come in the form of sharp barbs and serrated rings inserted in the nipples, abdomen, or along the ribs. The pain they cause sharpens the mind and blocks out distractions.",
+				"",
+				"*Minor:* The wearer gains a +2 profane bonus on saves against effects that cause the dazed, nauseated, and sickened conditions.",
+				"",
+				"*Major:* The wearer gains a +5 competence bonus on concentration checks.",
+				"",
+				"*Greater:* The wearer gains a +4 profane bonus on saving throws against effects that deal ability damage or drain.",
+				"",
+				"**Construction**",
+				"",
+				"**Requirements** Craft Shadow Piercing, bear's endurance (minor and greater), fox's cunning (major); **Cost** 1,100 gp (Minor), 1,875 gp (Major), 2,875 gp (Greater)"
+			]
+		},
+		{
+			"name": "Body Piercings (Major)",
+			"searchable_name": "Body Piercings Major",
+			"sources": [ "Champions of Corruption" ],
+			"file": "shadowpiercingsdisplaya3a3.html",
+			"cost": 2400,
+			"copyof": "Body Piercings Minor"
+		},
+		{
+			"name": "Body Piercings (Greater)",
+			"searchable_name": "Body Piercings Greater",
+			"sources": [ "Champions of Corruption" ],
+			"file": "shadowpiercingsdisplayce07.html",
+			"cost": 3200,
+			"copyof": "Body Piercings Minor"
+		},
+		{
+			"name": "Chest Piercings (Major)",
+			"searchable_name": "Chest Piercings Major",
+			"sources": [ "Champions of Corruption" ],
+			"file": "shadowpiercingsdisplay4b45.html",
+			"cost": 3750,
+			"copyof": "Chest Piercings Minor"
+		},
+		{
+			"name": "Head Piercings (Minor)",
+			"searchable_name": "Head Piercings Minor",
+			"sources": [ "Champions of Corruption" ],
+			"file": "shadowpiercingsdisplay6380.html",
+			"cost": 3750,
+			"description": [
+				"## Head Piercings",
+				"",
+				"**Source** [Champions of Corruption pg. 28](source:Champions_of_Corruption)",
+				"",
+				"**Aura** faint transmutation CL 5th   ",
+				"**Slot** head; **Price** 3,750 gp (Minor), 6,000 gp (Major), 33,600 gp (Greater); **Weight** &mdash;",
+				"",
+				"Whether they are crowns of pins, pinned-back lips, or simple nose rings, these piercings accentuate the owner's terrifying presence and inner resolve.",
+				"",
+				"*Minor:* The wearer gains a +5 competence bonus on Intimidate checks.",
+				"",
+				"*Major:* The wearer gains a +4 profane bonus against mindaffecting effects.",
+				"",
+				"*Greater:* The wearer can use fear twice per day (Will DC 16).",
+				"",
+				"**Construction**",
+				"",
+				"**Requirements** Craft Shadow Piercing, fear (minor and greater), owl's wisdom (major); **Cost** 1,875 gp (Minor), 3,000 gp (Major), 16,800 gp (Greater)"
+			]
+		},
+		{
+			"name": "Chest Piercings (Greater)",
+			"searchable_name": "Chest Piercings Greater",
+			"sources": [ "Champions of Corruption" ],
+			"file": "shadowpiercingsdisplaycf3e.html",
+			"cost": 5750,
+			"copyof": "Chest Piercings Minor"
+		},
+		{
+			"name": "Head Piercings (Major)",
+			"searchable_name": "Head Piercings Major",
+			"file": "shadowpiercingsdisplay10bc.html",
+			"sources": [ "Champions of Corruption" ],
+			"cost": 6000,
+			"copyof": "Head Piercings Minor"
+		},
+		{
+			"name": "Eye Piercings (Minor)",
+			"searchable_name": "Eye Piercings Minor",
+			"sources": [ "Champions of Corruption" ],
+			"file": "shadowpiercingsdisplayc46e.html",
+			"cost": 6000,
+			"description": [
+				"## Eye Piercings",
+				"",
+				"**Source** [Champions of Corruption pg. 28](source:Champions_of_Corruption)",
+				"",
+				"**Aura** faint transmutation CL 5th   ",
+				"**Slot** eye; Price 6,000 gp (Minor), 18,000 gp (Major), 32,000 gp (Greater); **Weight** &mdash;",
+				"",
+				"These piercings may penetrate the eyebrow, eyelid, or the eye itself. Due to magical, they do not impair the owner's vision. All effects from an eye piercing are continuous.",
+				"",
+				"*Minor:* The wearer gains low-light vision. If the wearer already has low-light vision, the ability's range is doubled.",
+				"",
+				"*Major:* The wearer gains darkvision to 60 feet.",
+				"",
+				"*Greater:* The wearer gains the see in darkness special ability.",
+				"",
+				"**Construction**",
+				"",
+				"**Requirements** Craft Shadow Piercing, keen senses (minor), darkvision (major and greater); **Cost** 3,000 gp (Minor), 9,000 gp (Major), 16,000 gp (Greater)"
+			]
+		},
+		{
+			"name": "Suspension Piercings (Minor)",
+			"searchable_name": "Suspension Piercings Minor",
+			"sources": [ "Champions of Corruption" ],
+			"file": "shadowpiercingsdisplay7971.html",
+			"cost": 6000,
+			"description": [
+				"## Suspension Piercings",
+				"",
+				"**Source** [Champions of Corruption pg. 29](source:Champions_of_Corruption)",
+				"",
+				"**Aura** faint transmutation (minor and major), moderate transmutation (greater) CL 7th   ",
+				"**Slot** belt or shoulder; **Price** 6,000 gp (Minor), 7,200 gp (Major), 11,200 gp (Greater); **Weight** &mdash;",
+				"",
+				"These piercings are popular among suspensionists, who hang from hooks attached to their skin.",
+				"",
+				"*Minor:* The wearer gains feather fall as a continuous effect.",
+				"",
+				"*Major:* The wearer may use levitate twice per day.",
+				"",
+				"*Greater:* The wearer may use air walk once per day.",
+				"",
+				"**Construction**",
+				"",
+				"**Requirements** Craft Shadow Piercing, feather fall (minor), levitate (major), air walk (greater); **Cost** 3,000 gp (Minor), 3,600 gp (Major), 5,600 gp (Greater)"
+			]
+		},
+		{
+			"name": "Suspension Piercings (Major)",
+			"searchable_name": "Suspension Piercings Major",
+			"sources": [ "Champions of Corruption" ],
+			"file": "shadowpiercingsdisplayd8dc.html",
+			"cost": 7200,
+			"copyof": "Suspension Piercings Minor"
+		},
+		{
+			"name": "Suspension Piercings (Greater)",
+			"searchable_name": "Suspension Piercings Greater",
+			"sources": [ "Champions of Corruption" ],
+			"file": "shadowpiercingsdisplay0477.html",
+			"cost": 11200,
+			"copyof": "Suspension Piercings Minor"
+		},
+		{
+			"name": "Eye Piercings (Major)",
+			"searchable_name": "Eye Piercings Major",
+			"sources": [ "Champions of Corruption" ],
+			"file": "shadowpiercingsdisplaycf58.html",
+			"cost": 18000,
+			"copyof": "Eye Piercings Minor"
+		},
+		{
+			"name": "Eye Piercings (Greater)",
+			"searchable_name": "Eye Piercings Greater",
+			"sources": [ "Champions of Corruption" ],
+			"file": "shadowpiercingsdisplay8e0b.html",
+			"cost": 32000,
+			"copyof": "Eye Piercings Minor"
+		},
+		{
+			"name": "Head Piercings (Greater)",
+			"searchable_name": "Head Piercings Greater",
+			"sources": [ "Champions of Corruption" ],
+			"file": "shadowpiercingsdisplay21c0.html",
+			"cost": 33600,
+			"copyof": "Head Piercings Minor"
+		}
+	]
+}
