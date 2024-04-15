@@ -64693,7 +64693,7 @@
 				"",
 				"You've learned to summon a more diverse array of monsters.   ",
 				"**Prerequisites:** Knowledge (arcana) 1 rank, Knowledge (planes) 1 rank.   ",
-				"**Benefit:** Pick any two templates from the following list: [aerial](monstertemplate:aerial), [aqueous](monstertemplate:aqueous), [chthonic](monstertemplate:chthonic), [dark](monstertemplate:dark), [fiery](monstertemplate:fiery), or [primordial](monstertemplate:primordial). When you summon one or more creatures that would normally be available with the celestial, entropic, fiendish, or resolute template using a summon monster spell (or an effect that mimics such a spell), you can instead apply one of the chosen templates to each creature. You can apply a different template to each creature you summon.   ",
+				"**Benefit:** Pick any two templates from the following list: [aerial](monster/template:aerial), [aqueous](monster/template:aqueous), [chthonic](monster/template:chthonic), [dark](monster/template:dark), [fiery](monster/template:fiery), or [primordial](monster/template:primordial). When you summon one or more creatures that would normally be available with the celestial, entropic, fiendish, or resolute template using a summon monster spell (or an effect that mimics such a spell), you can instead apply one of the chosen templates to each creature. You can apply a different template to each creature you summon.   ",
 				"**Special:** You can select this feat more than once. Each time you do, you can choose an additional two templates."
 			],
 			"short_description": "Apply new templates to your summoned creatures"

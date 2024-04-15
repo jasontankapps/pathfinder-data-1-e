@@ -223,35 +223,35 @@
 				"",
 				"Your religious studies hinged on teachings rarely recognized by your faith. You can select one of the apocryphal subdomains detailed below, provided the subdomain is associated with your patron deity. In some cases, you can select a subdomain associated with a deity despite that deity not offering the associated domain-these exceptions are noted with an asterisk (&ast;), and you gain domain powers and domain spells from the associated domain as usual, even though your deity normally doesn't grant access to that domain. When selecting a subdomain associated with two domains, a priest can choose only a subdomain that modifies a domain to which he has access.",
 				"",
-				"**[Alchemy](domain:Alchemy) ([Artifice](domain:Artifice)/[Magic](domain:Magic)):** [Brigh](deity:Brigh), [Haagenti](deity:Haagenti), [Norgorber](deity:Norgorber)&ast; (Artifice only), [Orgesh](deity:Orgesh)&ast; (Magic only), [Qi Zhong](deity:Qi_Zhong))",
+				"**[Alchemy](domain:Alchemy) ([Artifice](domain:Artifice)/[Magic](domain:Magic)):** [Brigh](faith:Brigh), [Haagenti](faith:Haagenti), [Norgorber](faith:Norgorber)&ast; (Artifice only), [Orgesh](faith:Orgesh)&ast; (Magic only), [Qi Zhong](faith:Qi_Zhong))",
 				"",
-				"**[Captivation](domain:Captivation):** [Calistria](deity:Calistria), [Kofusachi](deity:Kofusachi), [Nalinivati](deity:Nalinivati), [Norgorber](deity:Norgorber), [Shelyn](deity:Shelyn)",
+				"**[Captivation](domain:Captivation):** [Calistria](faith:Calistria), [Kofusachi](faith:Kofusachi), [Nalinivati](faith:Nalinivati), [Norgorber](faith:Norgorber), [Shelyn](faith:Shelyn)",
 				"",
-				"**[Hubris](domain:Hubris) ([Glory](domain:Glory)/[Nobility](domain:Nobility)):** [Dispater](deity:Dispater), [General Susumu](deity:General_Susumu), [Iomedae](deity:Iomedae), [Jaidz](deity:Jaidz), [Lissala](deity:Lissala), [Olheon](deity:Olheon), [Ydersius](deity:Ydersius)",
+				"**[Hubris](domain:Hubris) ([Glory](domain:Glory)/[Nobility](domain:Nobility)):** [Dispater](faith:Dispater), [General Susumu](faith:General_Susumu), [Iomedae](faith:Iomedae), [Jaidz](faith:Jaidz), [Lissala](faith:Lissala), [Olheon](faith:Olheon), [Ydersius](faith:Ydersius)",
 				"",
-				"**[Insect](domain:Insect):** [Achaekek](deity:Achaekek)&ast;, [Aldinach](deity:Aldinach), [Deskari](deity:Deskari)&ast;, [Ghlaunder](deity:Ghlaunder), [Kitumu](deity:Kitumu), [Mazmezz](deity:Mazmezz)",
+				"**[Insect](domain:Insect):** [Achaekek](faith:Achaekek)&ast;, [Aldinach](faith:Aldinach), [Deskari](faith:Deskari)&ast;, [Ghlaunder](faith:Ghlaunder), [Kitumu](faith:Kitumu), [Mazmezz](faith:Mazmezz)",
 				"",
-				"**[Legend](domain:Legend):** [General Susumu](deity:General_Susumu), [Gorum](deity:Gorum), [Shizuru](deity:Shizuru)",
+				"**[Legend](domain:Legend):** [General Susumu](faith:General_Susumu), [Gorum](faith:Gorum), [Shizuru](faith:Shizuru)",
 				"",
-				"**[Lightning](domain:Lightning):** [Gozreh](deity:Gozreh), [Hei Feng](deity:Hei_Feng), [Rovagug](deity:Rovagug), [Rull](deity:Rull)",
+				"**[Lightning](domain:Lightning):** [Gozreh](faith:Gozreh), [Hei Feng](faith:Hei_Feng), [Rovagug](faith:Rovagug), [Rull](faith:Rull)",
 				"",
-				"**[Medicine](domain:Medicine):** [Dalenydra](deity:Dalenydra), [Immonhiel](deity:Immonhiel), [Irori](deity:Irori), [Korada](deity:Korada), [Qi Zhong](deity:Qi_Zhong), [Sarenrae](deity:Sarenrae)",
+				"**[Medicine](domain:Medicine):** [Dalenydra](faith:Dalenydra), [Immonhiel](faith:Immonhiel), [Irori](faith:Irori), [Korada](faith:Korada), [Qi Zhong](faith:Qi_Zhong), [Sarenrae](faith:Sarenrae)",
 				"",
-				"**[Monsoon](domain:Monsoon):** [Daikitsu](deity:Daikitsu), [Gozreh](deity:Gozreh), [Hei Feng](deity:Hei_Feng), [Rull](deity:Rull)",
+				"**[Monsoon](domain:Monsoon):** [Daikitsu](faith:Daikitsu), [Gozreh](faith:Gozreh), [Hei Feng](faith:Hei_Feng), [Rull](faith:Rull)",
 				"",
-				"**[Petrification](domain:Petrification):** [Ayrzul](deity:Ayrzul), [Minderhal](deity:Minderhal), [Soralyon](deity:Soralyon), [Xoveron](deity:Xoveron)",
+				"**[Petrification](domain:Petrification):** [Ayrzul](faith:Ayrzul), [Minderhal](faith:Minderhal), [Soralyon](faith:Soralyon), [Xoveron](faith:Xoveron)",
 				"",
-				"**[Portal](domain:Portal):** [Abadar](deity:Abadar), [Alseta](deity:Alseta)&ast;, [Barbatos](deity:Barbatos), [Yog-Sothoth](deity:Yog-Sothoth)",
+				"**[Portal](domain:Portal):** [Abadar](faith:Abadar), [Alseta](faith:Alseta)&ast;, [Barbatos](faith:Barbatos), [Yog-Sothoth](faith:Yog-Sothoth)",
 				"",
-				"**[Rites](domain:Rites):** [Abraxas](deity:Abraxas), [Asmodeus](deity:Asmodeus), [Nalinivati](deity:Nalinivati), [Nethys](deity:Nethys), [Nyarlathotep](deity:Nyarlathotep), [Sivanah](deity:Sivanah)",
+				"**[Rites](domain:Rites):** [Abraxas](faith:Abraxas), [Asmodeus](faith:Asmodeus), [Nalinivati](faith:Nalinivati), [Nethys](faith:Nethys), [Nyarlathotep](faith:Nyarlathotep), [Sivanah](faith:Sivanah)",
 				"",
-				"**[Self-Realization](domain:Self-Realization) ([Liberation](domain:Liberation)/[Strength](domain:Strength)):** [Arshea](deity:Arshea), [Falayna](deity:Falayna), [Haagenti](deity:Haagenti), [Irori](deity:Irori), [Kurgess](deity:Kurgess), [Shei](deity:Shei), [Urgathoa](deity:Urgathoa)",
+				"**[Self-Realization](domain:Self-Realization) ([Liberation](domain:Liberation)/[Strength](domain:Strength)):** [Arshea](faith:Arshea), [Falayna](faith:Falayna), [Haagenti](faith:Haagenti), [Irori](faith:Irori), [Kurgess](faith:Kurgess), [Shei](faith:Shei), [Urgathoa](faith:Urgathoa)",
 				"",
-				"**[Thirst](domain:Thirst):** [Aldinach](deity:Aldinach), [Lalaci](deity:Lalaci), [Nurgal](deity:Nurgal), [Sarenrae](deity:Sarenrae)",
+				"**[Thirst](domain:Thirst):** [Aldinach](faith:Aldinach), [Lalaci](faith:Lalaci), [Nurgal](faith:Nurgal), [Sarenrae](faith:Sarenrae)",
 				"",
-				"**[Thorns](domain:Thorns):** [The Green Mother](deity:The_Green_Mother), [Shub-Niggurath](deity:Shub-Niggurath), [Zyphus](deity:Zyphus)",
+				"**[Thorns](domain:Thorns):** [The Green Mother](faith:The_Green_Mother), [Shub-Niggurath](faith:Shub-Niggurath), [Zyphus](faith:Zyphus)",
 				"",
-				"**[Truth](domain:Truth):** [Groetus](deity:Groetus), [Lamashtu](deity:Lamashtu), [Sifkesh](deity:Sifkesh), [Sivanah](deity:Sivanah)"
+				"**[Truth](domain:Truth):** [Groetus](faith:Groetus), [Lamashtu](faith:Lamashtu), [Sifkesh](faith:Sifkesh), [Sivanah](faith:Sivanah)"
 			],
 			"type": "Faith",
 			"sources": [ "Divine Anthology" ]
@@ -1381,7 +1381,7 @@
 			"description": [
 				"## Asmodean Acolyte",
 				"",
-				"You grew up in the church of [Asmodeus](deity:Asmodeus), and have served as a faithful follower your entire life. You've studied the unholy texts, committed the rigid hierarchies of Hell to memory, and striven to eliminate emotion and mercy from your mind in emulation of the Prince of Darkness. You may have continued your career in the church, officially joining the priesthood and aspiring to advance to positions of higher authority and greater power, or you may have left the church, deciding the life of a priest was not for you. In either case, the education you received in the church has remained with you. You gain a +1 trait bonus on Diplomacy, Knowledge (planes), and Knowledge (religion) checks, and one of these skills (your choice) is a class skill for you. You also know the Infernal tongue (this does not count toward your number of languages)."
+				"You grew up in the church of [Asmodeus](faith:Asmodeus), and have served as a faithful follower your entire life. You've studied the unholy texts, committed the rigid hierarchies of Hell to memory, and striven to eliminate emotion and mercy from your mind in emulation of the Prince of Darkness. You may have continued your career in the church, officially joining the priesthood and aspiring to advance to positions of higher authority and greater power, or you may have left the church, deciding the life of a priest was not for you. In either case, the education you received in the church has remained with you. You gain a +1 trait bonus on Diplomacy, Knowledge (planes), and Knowledge (religion) checks, and one of these skills (your choice) is a class skill for you. You also know the Infernal tongue (this does not count toward your number of languages)."
 			],
 			"type": "Campaign",
 			"sources": [ "Hell's Vengeance Player's Guide" ]
@@ -2474,7 +2474,7 @@
 			"description": [
 				"## Blight-Burned",
 				"",
-				"You were raised deep in the Fangwood Forest, but in your childhood the Darkblight overtook your community, and blighted fey attacked your friends and family. Even after escaping, you barely survived infection by the otherworldly fungal disease and still bear a terrible scar from your ordeal. You gain a +2 trait bonus on Fortitude saving throws against disease or poison (your choice), and your scar now throbs painfully in the presence of unnatural creatures, immediately alerting you to their presence. This sixth sense alerts you to the presence of aberrations, oozes, and all creatures with the [blighted fey](monstertemplate:blighted_fey) and [fungal creature](monstertemplate:fungal_creature) templates within 30 feet (though it doesn't indicate their exact location). You can always act during the surprise round against such creatures, and you aren't considered flat-footed against such creatures in the first round of combat."
+				"You were raised deep in the Fangwood Forest, but in your childhood the Darkblight overtook your community, and blighted fey attacked your friends and family. Even after escaping, you barely survived infection by the otherworldly fungal disease and still bear a terrible scar from your ordeal. You gain a +2 trait bonus on Fortitude saving throws against disease or poison (your choice), and your scar now throbs painfully in the presence of unnatural creatures, immediately alerting you to their presence. This sixth sense alerts you to the presence of aberrations, oozes, and all creatures with the [blighted fey](monster/template:blighted_fey) and [fungal creature](monster/template:fungal_creature) templates within 30 feet (though it doesn't indicate their exact location). You can always act during the surprise round against such creatures, and you aren't considered flat-footed against such creatures in the first round of combat."
 			],
 			"type": "Campaign",
 			"sources": [ "Ironfang Invasion Player's Guide" ]
@@ -7117,7 +7117,7 @@
 			"description": [
 				"## Ex-Iomedaean",
 				"",
-				"You, or perhaps your family, were once worshipers of [Iomedae](deity:Iomedae), but something happened that made you lose your faith. Perhaps your family was accused of being dishonorable or cowardly, or maybe one of your family members was the victim of church \"justice.\" Or perhaps you simply met someone who opened your eyes and showed you the truth-that the Inheritor's so-called honor, valor, and justice are just tin plating on a strict dogma that seeks to control people by restricting their free will. In any event, you left the church, and as a result, your family was subjected to scorn and holier-than-thou disapproval. Ever since, you've vowed to some day get revenge against the church of Iomedae-and with the current situation brewing in Cheliax, you might finally have the opportunity.",
+				"You, or perhaps your family, were once worshipers of [Iomedae](faith:Iomedae), but something happened that made you lose your faith. Perhaps your family was accused of being dishonorable or cowardly, or maybe one of your family members was the victim of church \"justice.\" Or perhaps you simply met someone who opened your eyes and showed you the truth-that the Inheritor's so-called honor, valor, and justice are just tin plating on a strict dogma that seeks to control people by restricting their free will. In any event, you left the church, and as a result, your family was subjected to scorn and holier-than-thou disapproval. Ever since, you've vowed to some day get revenge against the church of Iomedae-and with the current situation brewing in Cheliax, you might finally have the opportunity.",
 				"",
 				"Choose one: against followers of Iomedae, including many (but not all) archons and angels, you gain a +1 trait bonus on attack rolls and weapon damage rolls, or you gain a +1 trait bonus on the save DCs of your spells."
 			],
@@ -16832,7 +16832,7 @@
 			"description": [
 				"## Scion of the Nine Circles",
 				"",
-				"While the worship of [Asmodeus](deity:Asmodeus) is widespread throughout Cheliax, you follow a different path: that of the philosophy of diabolism. Asmodeus and the other archdevils are worthy of respect and emulation, certainly, but rather than worship one Lord of Hell above all others, your faith is instead based on the veneration of the order and laws of Hell itself as a model for a perfect society. Free will must be suppressed to prevent rebellion, slavery is required to keep the unworthy in their place, and evil and cruelty are necessary for good and kindness to exist.",
+				"While the worship of [Asmodeus](faith:Asmodeus) is widespread throughout Cheliax, you follow a different path: that of the philosophy of diabolism. Asmodeus and the other archdevils are worthy of respect and emulation, certainly, but rather than worship one Lord of Hell above all others, your faith is instead based on the veneration of the order and laws of Hell itself as a model for a perfect society. Free will must be suppressed to prevent rebellion, slavery is required to keep the unworthy in their place, and evil and cruelty are necessary for good and kindness to exist.",
 				"",
 				"You gain a +1 trait bonus on Knowledge (planes) checks, and Knowledge (planes) is a class skill for you. You also know the Infernal tongue (this does not count toward your number of languages). In addition, your studies of Hell's underlying structure give strength to your determination. You gain a +2 trait bonus on Will saves against the mind-affecting effects of outsiders with the good subtype."
 			],

@@ -2662,7 +2662,7 @@
 				"",
 				"**Rebuild Rules:** The creature's type changes to plant, and it gains all of the traits of the [plant](unknown:plant) type. The creature gains telepathy with a range of 100 feet with other fungoid creatures. Its alignment changes to chaotic evil.",
 				"",
-				"**Fungal Creature Template:** Optionally, you can use the [fungal creature template](monstertemplate:fungal_creature) to represent creatures transformed by a fungus queen. In this case, the fungal creature's alignment changes to chaotic evil."
+				"**Fungal Creature Template:** Optionally, you can use the [fungal creature template](monster/template:fungal_creature) to represent creatures transformed by a fungus queen. In this case, the fungal creature's alignment changes to chaotic evil."
 			]
 		},
 		{
