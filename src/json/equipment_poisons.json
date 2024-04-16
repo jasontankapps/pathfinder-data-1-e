@@ -1,0 +1,3411 @@
+{
+	"sources": [
+		"PRPG Core Rulebook",
+		"Inner Sea Intrigue"
+	],
+	"description": [
+		"**Description Source:** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+		"",
+		"No other affliction is so prevalent as poison. From the fangs of a viper to the ichor-stained assassin's blade, poison is a constant threat. Poisons can be cured by successful saving throws and spells such as neutralize poison.",
+		"",
+		"**Source** [Inner Sea Intrigue](source:Inner_Sea_Intrigue)",
+		"",
+		"*Triggered Poisons*: Numerous Inner Sea poisons are designed to take effect only after exposure to a particular stimulus. Poisons in this section with onset triggers list the specific triggers in their Onset entries (rather than a number of rounds, minutes, or days). A character who fails his Fortitude saving throw upon exposure doesn't start attempting saving throws against the poison's effects until exposed to the listed stimulus.",
+		"",
+		"Some triggered poisons have initial and secondary effects. The first time after an affected character triggers the poison and fails a saving throw to resist the poison, the character suffers the initial effect. If the affected character fails any subsequent saving throws, he suffers the secondary effect. Unless noted otherwise, a triggered poison that isn't triggered after 1 day has no effect."
+	],
+	"list": [
+		{
+			"name": "Black Lotus Extract",
+			"file": "poisondisplayc0da.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Black Lotus Extract",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 558](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** N/A; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 20   ",
+				"**Onset** 1 minute; **Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d6 Con damage   ",
+				"**Cure** 2 consecutive saves"
+			]
+		},
+		{
+			"name": "Blackfrost",
+			"file": "poisondisplay1c14.html",
+			"sources": [
+				"Pathfinder #51: The Hungry Storm"
+			],
+			"description": [
+				"## Blackfrost",
+				"",
+				"**Sources** [Pathfinder #51: The Hungry Storm pg. 67](source:Pathfinder_#51:_The_Hungry_Storm)",
+				"",
+				"**Price** N/A; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 15   ",
+				"**Onset** 1 minute; **Frequency** 1/minute for 6 minutes   ",
+				"**Initial Effect** 2d6 hp damage (half acid, half cold); **Secondary Effect** 1d2 Con damage   ",
+				"**Cure** 2 consecutive saves"
+			]
+		},
+		{
+			"name": "Blue lily extract",
+			"file": "poisondisplaye523.html",
+			"sources": [
+				"Horror Realms"
+			],
+			"description": [
+				"## Blue lily extract",
+				"",
+				"**Sources** [Horror Realms pg. 29](source:Horror_Realms)",
+				"",
+				"**Price** N/A; **Weight** &mdash;   ",
+				"**Type** contact or injested; **Save** Fortitude DC 14 (18 if injested)   ",
+				"**Onset** 1 minute; **Frequency** 1/hour for 6 hours   ",
+				"**Effect** 1d4 Wisdom damage plus -4 penalty on Sense Motive checks and saving throws versus sleep effects for 1 hour;   ",
+				"**Cure** 2 saves",
+				"",
+				"The people of Farnvale make use of the following rare toxin to help mask their condition and prepare visitors for transport to the bodythief."
+			]
+		},
+		{
+			"name": "Burnt Other Fumes",
+			"file": "poisondisplayebcd.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Burnt Other Fumes",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 558](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** N/A; **Weight** &mdash;   ",
+				"**Type** inhaled; **Save** Fortitude DC 18   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Initial Effect** 1 Con drain; **Secondary Effect** 1d3 Con damage   ",
+				"**Cure** 2 consecutive saves"
+			]
+		},
+		{
+			"name": "Dragon Bile",
+			"file": "poisondisplayacd6.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Dragon Bile",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 558](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** N/A; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 26   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d3 Str damage"
+			]
+		},
+		{
+			"name": "Green Prismatic Poison",
+			"file": "poisondisplay2e7b.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Green Prismatic Poison",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 559](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** N/A; **Weight** &mdash;   ",
+				"**Type** spell; **Save** Fortitude DC varies by spell   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Initial Effect** death; **Secondary Effect** 1 Con damage   ",
+				"**Cure** 2 consecutive saves. See [prismatic sphere](spell:prismatic_sphere), [prismatic spray](spell:prismatic_spray), or [prismatic wall](spell:prismatic_wall) for more details."
+			]
+		},
+		{
+			"name": "Insanity Mist",
+			"file": "poisondisplay24fc.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Insanity Mist",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 560](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** N/A; **Weight** &mdash;   ",
+				"**Type** inhaled; **Save** Fortitude DC 15   ",
+				"**Frequency** 1/rounds for 6 rounds   ",
+				"**Effect** 1d3 Wis damage   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "King's Sleep",
+			"file": "poisondisplay1549.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## King's Sleep",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 560](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** N/A; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 18   ",
+				"**Onset** 1 day; **Frequency** 1/day   ",
+				"**Effect** 1 Con drain   ",
+				"**Cure** 2 consecutive saves"
+			]
+		},
+		{
+			"name": "Lethe water",
+			"file": "poisondisplaybdc8.html",
+			"sources": [
+				"Feast of Dust"
+			],
+			"description": [
+				"## Lethe water",
+				"",
+				"**Sources** [Feast of Dust pg. 42](source:Feast_of_Dust)",
+				"",
+				"**Price** N/A; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Willpower DC 16   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d4 Int and Cha damage (cannot reduce a creature's Int or Cha below 1)   ",
+				"**Cure** 2 saves",
+				"",
+				"Creatures reduced below 3 Intelligence gain the fiendish creature simple template (Pathfinder RPG Bestiary 294) and a +4 enhancement bonus to Strength and Constitution; these effects vanish if a creature's Intelligence score rises above 3.",
+				"",
+				"Lethe water loses its magical potency 24 hours after being removed from the hot springs, but remains mildly poisonous thanks to its mineral content (treat as bloodroot, but ingested rather than injury; Pathfinder RPG Core Rulebook 558)."
+			]
+		},
+		{
+			"name": "Maiden lily attar",
+			"file": "poisondisplay0842.html",
+			"sources": [
+				"Murder's Mark"
+			],
+			"description": [
+				"## Maiden lily attar",
+				"",
+				"**Sources** [Murder's Mark pg. 26](source:Murder's_Mark)",
+				"",
+				"**Price** N/A; **Weight** &mdash;   ",
+				"**Type** inhaled; **Save** Fortitude DC 13   ",
+				"**Frequency** 1/round for 4 rounds   ",
+				"**Initial Effect** unconscious for 1 minute; **Secondary Effect** unconscious for 1d4 hours   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Nightmare Vapor",
+			"file": "poisondisplay9cbb.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Nightmare Vapor",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 560](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** N/A; **Weight** &mdash;   ",
+				"**Type** inhaled; **Save** Fortitude DC 20   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1 Wis damage and confused for 1 round   ",
+				"**Cure** 2 consecutive saves"
+			]
+		},
+		{
+			"name": "Quicklime",
+			"file": "poisondisplaycb9d.html",
+			"sources": [
+				"Pathfinder #95: Anvil of Fire"
+			],
+			"description": [
+				"## Quicklime",
+				"",
+				"**Sources** [Pathfinder #95: Anvil of Fire pg. 29](source:Pathfinder_#95:_Anvil_of_Fire)",
+				"",
+				"**Price** N/A; **Weight** &mdash;   ",
+				"**Type** contact or inhaled; **Save** Fortitude DC 18   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d2 Con damage, blindness and nausea for 1d10 minutes   ",
+				"**Cure** 2 consecutive saves",
+				"",
+				"This caustic substance is a poisonous irritant, and reacts with water (including moisture in the eyes, nose, mouth, and lungs) to create heat."
+			]
+		},
+		{
+			"name": "Slow nectar",
+			"file": "poisondisplayaec3.html",
+			"sources": [
+				"Pathfinder #93: Forge of the Giant God"
+			],
+			"description": [
+				"## Slow nectar",
+				"",
+				"**Sources** [Pathfinder #93: Forge of the Giant God pg. 8](source:Pathfinder_#93:_Forge_of_the_Giant_God)",
+				"",
+				"**Price** N/A; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 17   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d3 Dex damage plus paralysis for 1 round   ",
+				"**Cure** 1 save",
+				"",
+				"The ettercaps collect the sap of small white flowers that grow on the nearby cliffs to create a paralytic poison known as slow nectar, which the creatures use in their traps."
+			]
+		},
+		{
+			"name": "Spidervine poison",
+			"file": "poisondisplayecf0.html",
+			"sources": [
+				"Heart of the Jungle"
+			],
+			"description": [
+				"## Spidervine poison",
+				"",
+				"**Sources** [Heart of the Jungle pg. 6](source:Heart_of_the_Jungle)",
+				"",
+				"**Price** N/A; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 15   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Initial Effect** paralysis; **Secondary Effect** 1d2 Con damage   ",
+				"**Cure** 2 consecutive saves"
+			]
+		},
+		{
+			"name": "Tears of Death",
+			"file": "poisondisplayf121.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Tears of Death",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 560](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** N/A; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 22   ",
+				"**Onset** 1 minute; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1d6 Con damage and paralyzed"
+			]
+		},
+		{
+			"name": "Ungol Dust",
+			"file": "poisondisplay791f.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Ungol Dust",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 560](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** N/A; **Weight** &mdash;   ",
+				"**Type** inhaled; **Save** Fortitude DC 15   ",
+				"**Frequency** 1/round for 4 rounds   ",
+				"**Initial Effect** 1 Cha drain; **Secondary Effect** 1d2 Cha damage   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Wyvern Poison",
+			"file": "poisondisplay13ba.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Wyvern Poison",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 560](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** N/A; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 17   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d4 Con damage   ",
+				"**Cure** 2 consecutive saves"
+			]
+		},
+		{
+			"name": "Pupil's friend",
+			"file": "poisondisplaya08e.html",
+			"sources": [
+				"Potions and Poisons"
+			],
+			"description": [
+				"## Pupil's friend",
+				"",
+				"**Sources** [Potions and Poisons pg. 25](source:Potions_and_Poisons)",
+				"",
+				"**Price** 30 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 10   ",
+				"**Onset** 10 minutes; **Frequency** 1/minute for 15 minutes   ",
+				"**Effect** sickened for 1 minute; if the target is affected by a second dose while already under the effects of this poison, the victim is instead nauseated for 1 minute   ",
+				"**Cure** 1 save",
+				"",
+				"This mostly benign, malodorous mold induces temporary illness with no lasting effect, and it can be detected in food or drink with a DC 15 Perception check, unless the food is particularly pungent, in which case the Perception DC increases by up to 5. Named for students wishing to convincingly feign illness, anyone can easily cultivate this mold in dark, moist spaces."
+			]
+		},
+		{
+			"name": "Dhabba spittle",
+			"file": "poisondisplaycf18.html",
+			"sources": [
+				"Dark Markets - A Guide to Katapesh"
+			],
+			"description": [
+				"## Dhabba spittle",
+				"",
+				"**Sources** [Dark Markets - A Guide to Katapesh pg. 40](source:Dark_Markets_-_A_Guide_to_Katapesh)",
+				"",
+				"**Price** 50 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 12   ",
+				"**Initial Effect** 1d6 acid damage and nauseated; **Secondary Effect** 1d4 Dex"
+			]
+		},
+		{
+			"name": "Red tears",
+			"file": "poisondisplayac84.html",
+			"sources": [
+				"Dirty Tactics Toolbox"
+			],
+			"description": [
+				"## Red tears",
+				"",
+				"**Sources** [Dirty Tactics Toolbox pg. 7](source:Dirty_Tactics_Toolbox)",
+				"",
+				"**Price** 50 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 15   ",
+				"**Frequency** 1/round for 10 rounds   ",
+				"**Effect** 1d6 points of damage. Creatures immune to bleed effects are immune to this damage   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Might blight",
+			"file": "poisondisplay1af3.html",
+			"sources": [
+				"Merchant's Manifest"
+			],
+			"description": [
+				"## Might blight",
+				"",
+				"**Sources** [Merchant's Manifest pg. 11](source:Merchant's_Manifest)",
+				"",
+				"**Price** 60 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 13   ",
+				"**Onset** 1 round; **Frequency** 1/round for 4 rounds   ",
+				"**Effect** 1 Str damage   ",
+				"**Cure** 2 consecutive saves",
+				"",
+				"The ratfolk of Diguo-Dashu, the \"Empire of the Rats,\" developed this poison to help their soldiers in overtaking foes. The poison produces lactic acids that slowly degrade the target's muscles, though for full efficacy, an exceptionally high dosage, repeated application, or a particularly feeble opponent is required."
+			]
+		},
+		{
+			"name": "Addlemind",
+			"file": "poisondisplay1d56.html",
+			"sources": [
+				"Dirty Tactics Toolbox"
+			],
+			"description": [
+				"## Addlemind",
+				"",
+				"**Sources** [Dirty Tactics Toolbox pg. 9](source:Dirty_Tactics_Toolbox)",
+				"",
+				"**Price** 75 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 15   ",
+				"**Onset** 1 minute; **Frequency** 1/minute for 10 minutes   ",
+				"**Effect** 1d2 Wisdom damage. As long as any Wisdom damage from this poison remains, the victim also takes a -5 penalty on all Knowledge and Perception checks   ",
+				"**Cure** 2 saves"
+			]
+		},
+		{
+			"name": "Concentrated laxative",
+			"file": "poisondisplay1707.html",
+			"sources": [
+				"Antihero's Handbook"
+			],
+			"description": [
+				"## Concentrated laxative",
+				"",
+				"**Sources** [Antihero's Handbook pg. 28](source:Antihero's_Handbook)",
+				"",
+				"**Price** 75 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 12   ",
+				"**Onset** 10 minutes; **Frequency** 1/minute for 2 minutes   ",
+				"**Effect** This mixture gained popularity-and notoriety-when Calistrians used it for elaborate pranks, but now tricksters of all stripes use the colonic concoction for any number of reasons, such as to incommode a nosy interlocutor. After the first failed saving throw, the target is sickened for 1 minute, and after a second failure, the target is nauseated for 1 minute   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Drow poison",
+			"file": "poisondisplay7ecf.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Drow poison",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 75 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 13   ",
+				"**Frequency** 1/minute for 2 minutes   ",
+				"**Initial Effect** unconscious 1 minute; **Secondary Effect** unconscious 2d4 hours   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Drow Poison",
+			"file": "poisondisplay2ad5.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Drow Poison",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 559](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 75 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 13   ",
+				"**Frequency** 1/minute for 2 minutes   ",
+				"**Initial Effect** unconsciousness for 1 minute; **Secondary Effect** unconsciousness for 2d4 hours   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Gelidburn oil",
+			"file": "poisondisplay97aa.html",
+			"sources": [
+				"Potions and Poisons"
+			],
+			"description": [
+				"## Gelidburn oil",
+				"",
+				"**Sources** [Potions and Poisons pg. 24](source:Potions_and_Poisons)",
+				"",
+				"**Price** 75 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 12   ",
+				"**Frequency** 1 round for 4 rounds   ",
+				"**Effect** 1d3 fire, 1d3 cold, and staggered 1 round   ",
+				"**Cure** 1 save",
+				"",
+				"This greasy pale-blue liquid delivers a shocking sensation that is both freezing cold and searing hot. Gelidburn oil is popular among pickpockets looking to stab, snatch, and run."
+			]
+		},
+		{
+			"name": "Goblin's eye",
+			"file": "poisondisplay9201.html",
+			"sources": [
+				"Ultimate Wilderness"
+			],
+			"description": [
+				"## Goblin's eye",
+				"",
+				"**Sources** [Ultimate Wilderness pg. 144](source:Ultimate_Wilderness)",
+				"",
+				"**Price** 75 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 13   ",
+				"**Onset** 1 minute; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1 Con damage and the creature is nauseated for 1 minute   ",
+				"**Cure** 1 save",
+				"",
+				"These bright red seeds feature a single black dot each, giving them a superficial resemblance to an eye. The bright colors of the seeds make them attractive to certain animals, as well as those unfamiliar with wilderness lore. A character who succeeds at a DC 15 Knowledge (nature) or Survival check identifies the seed as poisonous. In some places, the seeds are used as jewelry."
+			]
+		},
+		{
+			"name": "Vampire's kiss",
+			"file": "poisondisplayef94.html",
+			"sources": [
+				"Alchemy Manual"
+			],
+			"description": [
+				"## Vampire's kiss",
+				"",
+				"**Sources** [Alchemy Manual pg. 9](source:Alchemy_Manual)",
+				"",
+				"**Price** 75 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 15   ",
+				"**Frequency** 1/round for 2 rounds   ",
+				"**Initial Effect** 1d2 Con damage; **Secondary Effect** bleed damage from non-poison sources increases by 1 for 1 minute   ",
+				"**Cure** 1 save",
+				"",
+				"Alchemical Recipe",
+				"",
+				"Recipe (6 gold + 50 myrrh + 30 quicksilver)/distillation; Craft DC 15",
+				"Time 1 day; Tools retort; **Type** poison"
+			]
+		},
+		{
+			"name": "Confabulation powder",
+			"file": "poisondisplayf3c3.html",
+			"sources": [
+				"Alchemy Manual"
+			],
+			"description": [
+				"## Confabulation powder",
+				"",
+				"**Sources** [Alchemy Manual pg. 11](source:Alchemy_Manual)",
+				"",
+				"**Price** 80 gp; **Weight** &mdash;   ",
+				"**Type** inhaled; **Save** Fortitude DC 18   ",
+				"**Frequency** 1/minute for 2 minutes   ",
+				"**Initial Effect** staggered for 1 minute; **Secondary Effect** If already staggered, stunned, or unconscious, the victim becomes highly suggestible. If an event (whether true or false) is described to him, he unconsciously fabricates a detailed memory of the event, filling in any gaps in the description with his own best guesses. The confabulated memory can be disbelieved with a successful DC 18 Will save the first time it is recalled, but if the save fails, the victim treats it as completely genuine thereafter. All confabulated memories can be removed with a restoration or heal spell   ",
+				"**Cure** 1 save",
+				"",
+				"Alchemical Recipe",
+				"",
+				"Recipe (20 quicksilver + 15 cytillesh spores)/digestion; Craft DC 18",
+				"Time 1 day; Tools heat source; **Type** poison"
+			]
+		},
+		{
+			"name": "Baneberry",
+			"file": "poisondisplayae69.html",
+			"sources": [
+				"Guide to the River Kingdoms"
+			],
+			"description": [
+				"## Baneberry",
+				"",
+				"**Sources** [Guide to the River Kingdoms pg. 14](source:Guide_to_the_River_Kingdoms)",
+				"",
+				"**Price** 90 gp; **Weight** &mdash;   ",
+				"**Type** ingested or injury; **Save** Fortitude DC 15   ",
+				"**Onset** 1 round (injury), 30 minutes (ingested); **Frequency** 1/minute for 5 minutes   ",
+				"**Effect** 1d3 Strength damage, 1 Con damage, paralyzed for 1d3 rounds   ",
+				"**Cure** 2 saves"
+			]
+		},
+		{
+			"name": "Oil of Taggit",
+			"file": "poisondisplayc6d1.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Oil of Taggit",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 560](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 90 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 15   ",
+				"**Onset** 1 minute   ",
+				"**Effect** unconsciousness for 1d3 hours   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Oil of taggit",
+			"file": "poisondisplay46e2.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Oil of taggit",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 90 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 15   ",
+				"**Onset** 1 minute   ",
+				"**Effect** unconscious 1d3 hours   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Small centipede poison",
+			"file": "poisondisplay448e.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Small centipede poison",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 90 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 11   ",
+				"**Frequency** 1/round for 4 rounds   ",
+				"**Effect** 1 Dex   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Small Centipede Poison",
+			"file": "poisondisplay5724.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Small Centipede Poison",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 560](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 90 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 11   ",
+				"**Frequency** 1/round for 4 rounds   ",
+				"**Effect** 1 Dex damage   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Thornapple",
+			"file": "poisondisplayceef.html",
+			"sources": [
+				"Guide to the River Kingdoms"
+			],
+			"description": [
+				"## Thornapple",
+				"",
+				"**Sources** [Guide to the River Kingdoms pg. 14](source:Guide_to_the_River_Kingdoms)",
+				"",
+				"**Price** 90 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 11   ",
+				"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1 Int damage, 1 Wis damage, 1 Con damage, and blind for 1 minute   ",
+				"**Cure** 2 saves"
+			]
+		},
+		{
+			"name": "Belladonna",
+			"file": "poisondisplay2899.html",
+			"sources": [
+				"Ultimate Equipment",
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Belladonna",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment), [PRPG Core Rulebook pg. 558](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 100 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 14   ",
+				"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1d2 Str, see text   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Bloodroot",
+			"file": "poisondisplaye7db.html",
+			"sources": [
+				"Ultimate Equipment",
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Bloodroot",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment), [PRPG Core Rulebook pg. 558](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 100 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 12   ",
+				"**Onset** 1 round; **Frequency** 1/round for 4 rounds   ",
+				"**Effect** 1 Con and 1 Wis and confusion 1 round   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Bloodwine",
+			"file": "poisondisplayb310.html",
+			"sources": [
+				"Pathfinder #41: The Thousand Fangs Below"
+			],
+			"description": [
+				"## Bloodwine",
+				"",
+				"**Sources** [Pathfinder #41: The Thousand Fangs Below pg. 42](source:Pathfinder_#41:_The_Thousand_Fangs_Below)",
+				"",
+				"**Price** 100 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 25   ",
+				"**Frequency** 1/minute for 6 minutes   ",
+				"**Initial Effect** sickened for 1d4 hours; **Secondary Effect** 1d3 Wis damage   ",
+				"**Cure** 2 consecutive saves"
+			]
+		},
+		{
+			"name": "Flayleaf spider venom",
+			"file": "poisondisplay0043.html",
+			"sources": [
+				"Dark Markets - A Guide to Katapesh"
+			],
+			"description": [
+				"## Flayleaf spider venom",
+				"",
+				"**Sources** [Dark Markets - A Guide to Katapesh pg. 40](source:Dark_Markets_-_A_Guide_to_Katapesh)",
+				"",
+				"**Price** 100 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 11   ",
+				"**Initial Effect** 1d3 Con; **Secondary Effect** 1d3 Con"
+			]
+		},
+		{
+			"name": "Frightshade",
+			"file": "poisondisplay0298.html",
+			"sources": [
+				"Antihero's Handbook"
+			],
+			"description": [
+				"## Frightshade",
+				"",
+				"**Sources** [Antihero's Handbook pg. 29](source:Antihero's_Handbook)",
+				"",
+				"**Price** 100 gp; **Weight** &mdash;   ",
+				"**Type** inhaled; **Save** Fortitude DC 14   ",
+				"**Frequency** 1/round for 4 rounds   ",
+				"**Effect** This plant's pollen contains a powerful hallucinogen that causes affected creatures to experience terribly realistic visions of death and destruction. The target is shaken until the beginning of her next turn. When the target succeeds at her saving throw against the poison, or when the initial duration ends, she is shaken for an additional 1d4 rounds. (This is not a fear effect.)   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Frostspore",
+			"file": "poisondisplaye024.html",
+			"sources": [
+				"Pathfinder #61: Shards of Sin"
+			],
+			"description": [
+				"## Frostspore",
+				"",
+				"**Sources** [Pathfinder #61: Shards of Sin pg. 64](source:Pathfinder_#61:_Shards_of_Sin)",
+				"",
+				"**Price** 100 gp; **Weight** &mdash;   ",
+				"**Type** ingested or injury; **Save** Fortitude DC 13   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d6 cold damage plus staggered for 1 round   ",
+				"**Cure** 2 saves"
+			]
+		},
+		{
+			"name": "Greenblood Oil",
+			"file": "poisondisplayea83.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Greenblood Oil",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 559](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 100 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 13   ",
+				"**Frequency** 1/round for 4 rounds   ",
+				"**Effect** 11 Con damage   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Greenblood oil",
+			"file": "poisondisplayc4d3.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Greenblood oil",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 100 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 13   ",
+				"**Frequency** 1/round for 4 rounds   ",
+				"**Effect** 1 Con   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Numbing poison",
+			"file": "poisondisplay36d8.html",
+			"sources": [
+				"Pathfinder #7: Edge of Anarchy"
+			],
+			"description": [
+				"## Numbing poison",
+				"",
+				"**Sources** [Pathfinder #7: Edge of Anarchy pg. 89](source:Pathfinder_#7:_Edge_of_Anarchy)",
+				"",
+				"**Price** 100 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 13   ",
+				"**Initial Effect** 1d3 Str and 1d3 Dex; **Secondary Effect** 1d3 Str and 1d3 Dex"
+			]
+		},
+		{
+			"name": "Woundweal",
+			"file": "poisondisplay7c66.html",
+			"sources": [
+				"Adventurer's Armory"
+			],
+			"description": [
+				"## Woundweal",
+				"",
+				"**Sources** [Adventurer's Armory pg. 19](source:Adventurer's_Armory)",
+				"",
+				"**Price** 100 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 18   ",
+				"**Onset** 1 round; **Frequency** 1/day   ",
+				"**Effect** impaired healing (see description)   ",
+				"**Cure** 2 saves",
+				"",
+				"This gritty black paste is a poison that interferes with an afflicted creature's ability to recover from injuries. All Heal checks applied to the creature suffer a -10 penalty. In addition, anyone using magical healing on the target must make a DC 25 caster level check to succeed."
+			]
+		},
+		{
+			"name": "Arsenic",
+			"file": "poisondisplay657a.html",
+			"sources": [
+				"Ultimate Equipment",
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Arsenic",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment), [PRPG Core Rulebook pg. 558](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 120 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 13   ",
+				"**Onset** 10 minutes; **Frequency** 1/minute for 4 minutes   ",
+				"**Effect** 1d2 Con   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Black Adder Venom",
+			"file": "poisondisplay0c12.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Black Adder Venom",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 558](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 120 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 11   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d2 Con damage   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Black adder venom",
+			"file": "poisondisplayd4c5.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Black adder venom",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 120 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 11   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d2 Con   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Blue whinnis",
+			"file": "poisondisplay3320.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Blue whinnis",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 120 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 14   ",
+				"**Frequency** 1/round for 2 rounds   ",
+				"**Initial Effect** 1 Con; **Secondary Effect** unconscious 1d3 hours   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Blue Whinnis",
+			"file": "poisondisplay842e.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Blue Whinnis",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 558](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 120 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 14   ",
+				"**Frequency** 1/round for 2 rounds   ",
+				"**Initial Effect** 1 Con damage and 1 Wis damage; **Secondary Effect** unconsciousness for 1d3 hours   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Calotropis",
+			"file": "poisondisplayca9f.html",
+			"sources": [
+				"Guide to the River Kingdoms"
+			],
+			"description": [
+				"## Calotropis",
+				"",
+				"**Sources** [Guide to the River Kingdoms pg. 14](source:Guide_to_the_River_Kingdoms)",
+				"",
+				"**Price** 120 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 14   ",
+				"**Onset** 1 hour; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1 Wis damage and 1d3 Dex damage   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Liquid persuasion",
+			"file": "poisondisplay82f0.html",
+			"sources": [
+				"Alchemy Manual"
+			],
+			"description": [
+				"## Liquid persuasion",
+				"",
+				"**Sources** [Alchemy Manual pg. 9](source:Alchemy_Manual)",
+				"",
+				"**Price** 120 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 11   ",
+				"**Onset** 10 minutes; **Frequency** 1/minute for 5 minutes   ",
+				"**Effect** 1 Wis damage, and for the duration of the poison, the next time the victim's attitude toward another creature would shift one or more steps toward helpful as a result of a successful Diplomacy or Intimidate check or other effect, the victim's attitude also shifts one additional step. For example, if the victim's attitude would shift from indifferent to friendly (one step better), it shifts to helpful instead (two steps better)   ",
+				"**Cure** 1 save",
+				"",
+				"Alchemical Recipe",
+				"",
+				"Recipe (20 dew of lunary + 20 quicksilver + 80 spirit of wine)/distillation; Craft DC 11",
+				"Time 1 day; Tools retort; **Type** poison"
+			]
+		},
+		{
+			"name": "Goblinvine oil",
+			"file": "poisondisplay1705.html",
+			"sources": [
+				"Heroes of the Wild"
+			],
+			"description": [
+				"## Goblinvine oil",
+				"",
+				"**Sources** [Heroes of the Wild pg. 20](source:Heroes_of_the_Wild)",
+				"",
+				"**Price** 125 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 10   ",
+				"**Onset** 1 round   ",
+				"**Effect** sickened   ",
+				"**Cure** 2 consecutive saves or 1 minute spent washing the affected area",
+				"",
+				"Extracted from the mashed leaves of the pernicious goblinvine, this irritant is favored by goblins and tricksters alike."
+			]
+		},
+		{
+			"name": "Id Moss",
+			"file": "poisondisplay0c74.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Id Moss",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 559](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 125 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 14   ",
+				"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1d3 Int damage   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Id moss",
+			"file": "poisondisplayb52f.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Id moss",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 125 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 14   ",
+				"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1d3 Int   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Draughtcap fungus",
+			"file": "poisondisplayf27c.html",
+			"sources": [
+				"Ultimate Wilderness"
+			],
+			"description": [
+				"## Draughtcap fungus",
+				"",
+				"**Sources** [Ultimate Wilderness pg. 144](source:Ultimate_Wilderness)",
+				"",
+				"**Price** 150 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 16   ",
+				"**Onset** 4d6 hours; **Frequency** 1/hour for 8 hours   ",
+				"**Effect** 1d2 Str damage. Additionally, as long as a creature is suffering from draughtcap fungus, its body is unable to process liquids, causing the creature to undergo the effects of dehydration no matter how much it drinks and preventing the creature from benefitting from potions, extracts, and other such items. After the failed initial save, the creature counts as if it had gone without water for 1 day. Further, each failed ongoing save causes the creature to be treated as though it had gone an additional hour without consuming water.   ",
+				"**Cure** 2 consecutive saves",
+				"",
+				"This yellow-brown mushroom is commonly found in deserts and other dry environments. Its spores absorb moisture at an incredible rate, wreaking havoc on the body of any creature foolish enough to consume it. Draughtcap fungus bears a close resemblance to a common edible mushroom, and a successful DC 20 Knowledge (nature) or Survival check is required to differentiate the two."
+			]
+		},
+		{
+			"name": "Indigo dreams",
+			"file": "poisondisplay3b52.html",
+			"sources": [
+				"Ultimate Equipment",
+				"Second Darkness Player's Guide"
+			],
+			"description": [
+				"## Indigo dreams",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment), [Second Darkness Player's Guide pg. 21](source:Second_Darkness_Player's_Guide)",
+				"",
+				"**Price** 150 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 13   ",
+				"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1d3 Wis   ",
+				"**Cure** 2 saves"
+			]
+		},
+		{
+			"name": "Marvelous fear gas",
+			"file": "poisondisplayb362.html",
+			"sources": [
+				"Inner Sea Intrigue"
+			],
+			"description": [
+				"## Marvelous fear gas",
+				"",
+				"**Sources** [Inner Sea Intrigue pg. 50](source:Inner_Sea_Intrigue)",
+				"",
+				"**Price** 150 gp; **Weight** 1/2 lb.   ",
+				"**Type** inhaled; **Save** Fortitude DC 17   ",
+				"**Onset** injury or affected by any fear condition or effect; **Frequency** 1/minute for 4 minutes   ",
+				"**Initial Effect** shaken for 10 minutes (this can't produce a more severe fear effect); **Secondary Effect** 1d2 Wisdom damage   ",
+				"**Cure** 1 save",
+				"",
+				"This poison is the creation of the Guild of Wonders in Absalom, whose members hunt down and intimidate their enemies."
+			]
+		},
+		{
+			"name": "Medium spider venom",
+			"file": "poisondisplay3128.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Medium spider venom",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 150 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 14   ",
+				"**Frequency** 1/round for 4 rounds   ",
+				"**Effect** 1d2 Str   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Medium Spider Venom",
+			"file": "poisondisplay62bf.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Medium Spider Venom",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 560](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 150 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 14   ",
+				"**Frequency** 1/round for 4 rounds   ",
+				"**Effect** 1d2 Str damage, target can attempt one save to cure a lycanthropy affliction contracted in the past hour   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Rainbow scarab shell",
+			"file": "poisondisplay95da.html",
+			"sources": [
+				"Adventurer's Armory 2"
+			],
+			"description": [
+				"## Rainbow scarab shell",
+				"",
+				"**Sources** [Adventurer's Armory 2 pg. 18](source:Adventurer's_Armory_2)",
+				"",
+				"**Price** 150 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 14   ",
+				"**Onset** 1 round; **Frequency** 1/round for 4 rounds   ",
+				"**Effect** 1d4 Strength  damage and suffocation (see above)   ",
+				"**Cure** 1 save",
+				"",
+				"This iridescent toxin is made from the crushed shells of a rare type of Osirian beetle. A creature reduced to 0 Strength by the poison asphyxiates and immediately begins suffocating. Creatures that do not breathe are immune to this suffocation, but not the Strength damage."
+			]
+		},
+		{
+			"name": "Alchemical isolation",
+			"file": "poisondisplay84f8.html",
+			"sources": [
+				"Alchemy Manual"
+			],
+			"description": [
+				"## Alchemical isolation",
+				"",
+				"**Sources** [Alchemy Manual pg. 9](source:Alchemy_Manual)",
+				"",
+				"**Price** 175 gp; **Weight** 1 lb.   ",
+				"**Type** inhaled; **Save** Fortitude DC 13   ",
+				"**Frequency** 1/minute for 2 minutes   ",
+				"**Initial Effect** deafened for 10 minutes; **Secondary Effect** blinded for 10 minutes   ",
+				"**Cure** 1 save",
+				"",
+				"Alchemical Recipe",
+				"",
+				"Recipe (150 brimstone + 20 dew of lunary + 80 spirit of wine)/fermentation; Craft DC 13",
+				"Time 1 day; Tools heat source; **Type** poison"
+			]
+		},
+		{
+			"name": "Insecticide",
+			"file": "poisondisplay622d.html",
+			"sources": [
+				"Potions and Poisons"
+			],
+			"description": [
+				"## Insecticide",
+				"",
+				"**Sources** [Potions and Poisons pg. 24](source:Potions_and_Poisons)",
+				"",
+				"**Price** 175 gp; **Weight** &mdash;   ",
+				"**Type** inhaled; **Save** Fortitude DC 10 (see text)   ",
+				"**Frequency** 1/round for 3 rounds   ",
+				"**Effect** 1 Str damage (creatures with the vermin type are stunned for 1 round)   ",
+				"**Cure** 1 save",
+				"",
+				"Farmers protecting their crops and landlords maintaining their properties use insecticide to clear out pest infestations, but they must avoid the fumes of this dangerous gas. While it is formulated to exterminate vermin, the poison poses a danger to anyone. A single dose of insecticide immediately fills a 10-foot-by-10-foot area. It can be thrown at a range of 20 feet, and it dissipates after 1d6 rounds in a well-ventilated area. A moderate wind disperses the gas in 1 round. Creatures with the vermin type take a -5 penalty on the save"
+			]
+		},
+		{
+			"name": "Striped toadstool",
+			"file": "poisondisplaycf59.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Striped toadstool",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 180 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 11   ",
+				"**Onset** 10 minutes; **Frequency** 1/minute for 4 minutes   ",
+				"**Effect** 1d3 Wis and 1 Int   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Striped Toadstool",
+			"file": "poisondisplay40da.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Striped Toadstool",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 560](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 180 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 11   ",
+				"**Onset** 10 minutes; **Frequency** 1/minute for 4 minutes   ",
+				"**Effect** 1d3 Wis damage and 1 Int damage   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Black whinnis",
+			"file": "poisondisplay5bfe.html",
+			"sources": [
+				"Pathfinder #105: The Inferno Gate"
+			],
+			"description": [
+				"## Black whinnis",
+				"",
+				"**Sources** [Pathfinder #105: The Inferno Gate pg. 18](source:Pathfinder_#105:_The_Inferno_Gate)",
+				"",
+				"**Price** 200 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 14   ",
+				"**Frequency** 1/round for 2 rounds   ",
+				"**Initial Effect** 1 Con damage; **Secondary Effect** nausea for 1d4 rounds   ",
+				"**Cure** 1 save",
+				"",
+				"Black whinnis is a poison made from the same red creeper vine that produces the better-known blue whinnis poison, but the distilled sap from the blue whinnis thorns is further refined using a slightly more volatile process."
+			]
+		},
+		{
+			"name": "Chelish deathapple",
+			"file": "poisondisplay0a62.html",
+			"sources": [
+				"Inner Sea Intrigue"
+			],
+			"description": [
+				"## Chelish deathapple",
+				"",
+				"**Sources** [Inner Sea Intrigue pg. 50](source:Inner_Sea_Intrigue)",
+				"",
+				"**Price** 200 gp; **Weight** 1/2 lb.   ",
+				"**Type** ingested; **Save** Fortitude DC 23   ",
+				"**Onset** 1 minute; **Frequency** 1/minute for 2 minutes   ",
+				"**Initial Effect** enter a deathlike trance for 1 minute; see below; **Secondary Effect** remain in this deathlike trance for 8 hours   ",
+				"**Cure** 1 save",
+				"",
+				"This poison is culled from specially bred thornapples, and is often administered on the skin of an apple itself. It is typically employed to fake the deaths of dissidents so their disappearances don't attract attention. Creatures in the deathlike trance this poison causes are unconscious and can't be woken by mundane means; a successful DC 25 Heal check is required to realize the victim is alive. The victim can be shaken from this trance with any magical healing (including lesser restoration, as appropriate)."
+			]
+		},
+		{
+			"name": "Hazemind concentrate",
+			"file": "poisondisplayafc0.html",
+			"sources": [
+				"Familiar Folio"
+			],
+			"description": [
+				"## Hazemind concentrate",
+				"",
+				"**Sources** [Familiar Folio pg. 20](source:Familiar_Folio)",
+				"",
+				"**Price** 200 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 16   ",
+				"**Onset** 1 round; **Frequency** 1/round for 6 rounds   ",
+				"**Effect** The subject's mind goes",
+				"fuzzy, shifting its attitudes",
+				"toward all other creatures one",
+				"step closer to indifferent; DCs to influence the subject with",
+				"Charisma, Diplomacy, Handle Animal, or Intimidate checks",
+				"increase by 4",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Large scorpion venom",
+			"file": "poisondisplayb2a2.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Large scorpion venom",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 200 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 17   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d2 Str   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Large Scorpion Venom",
+			"file": "poisondisplay9c16.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Large Scorpion Venom",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 560](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 200 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 17   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d2 Str damage, target can attempt one save to cure a lycanthropy affliction contracted in the past hour   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Purple pesh",
+			"file": "poisondisplay7370.html",
+			"sources": [
+				"Dark Markets - A Guide to Katapesh"
+			],
+			"description": [
+				"## Purple pesh",
+				"",
+				"**Sources** [Dark Markets - A Guide to Katapesh pg. 40](source:Dark_Markets_-_A_Guide_to_Katapesh)",
+				"",
+				"**Price** 200 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 18   ",
+				"**Initial Effect** 1d2 Con and Str; **Secondary Effect** unconscious for 1 hour"
+			]
+		},
+		{
+			"name": "Spellscorch",
+			"file": "poisondisplay3b7c.html",
+			"sources": [
+				"Advanced Race Guide"
+			],
+			"description": [
+				"## Spellscorch",
+				"",
+				"**Sources** [Advanced Race Guide pg. 1](source:Advanced_Race_Guide)",
+				"",
+				"**Price** 200 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 14   ",
+				"**Frequency** 1/round for 4 rounds   ",
+				"**Effect** Refined from rare underground crystals, this poison causes a burning headache that impedes spellcasting. If the target fails its Fortitude save, for the next minute the target must make a Concentration check with a DC equal to 10 + spell level to cast a spell, and all other concentration checks to cast spells take a -5 penalty.   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Giant Wasp Poison",
+			"file": "poisondisplayf164.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Giant Wasp Poison",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 559](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 210 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 18   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d2 Dex damage   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Giant wasp poison",
+			"file": "poisondisplayb893.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Giant wasp poison",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 210 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 18   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d2 Dex   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Hazemind mist",
+			"file": "poisondisplay17d5.html",
+			"sources": [
+				"Familiar Folio"
+			],
+			"description": [
+				"## Hazemind mist",
+				"",
+				"**Sources** [Familiar Folio pg. 20](source:Familiar_Folio)",
+				"",
+				"**Price** 225 gp; **Weight** &mdash;   ",
+				"**Type** inhaled; **Save** Fortitude DC 13   ",
+				"**Onset** 1 round; **Frequency** 1/round for 10 rounds   ",
+				"**Effect** The subject's mind goes",
+				"fuzzy, shifting its attitudes",
+				"toward all other creatures one",
+				"step closer to indifferent; DCs to influence the subject with",
+				"Charisma, Diplomacy, Handle Animal, or Intimidate checks",
+				"increase by 4",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Diplopic serum",
+			"file": "poisondisplay82fb.html",
+			"sources": [
+				"Potions and Poisons"
+			],
+			"description": [
+				"## Diplopic serum",
+				"",
+				"**Sources** [Potions and Poisons pg. 24](source:Potions_and_Poisons)",
+				"",
+				"**Price** 250 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 15   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d2 Wis damage. Additionally, the creature has double vision, imposing a 50% miss chance on its attacks against all opponents. Blind creatures are unaffected by this additional effect   ",
+				"**Cure** 1 save",
+				"",
+				"Pei Zin herbalists accidentally created diplopic serum while attempting to devise a treatment for cataracts. Derived from dew of lunary, this aromatic pink serum temporarily affects a creature's vision systems, in addition to temporarily impairing its mental faculties."
+			]
+		},
+		{
+			"name": "Malyass Root Paste",
+			"file": "poisondisplay8dd5.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Malyass Root Paste",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 560](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 250 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 16   ",
+				"**Onset** 1 minute; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1d2 Dex damage   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Malyass root paste",
+			"file": "poisondisplaya837.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Malyass root paste",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 250 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 16   ",
+				"**Onset** 1 minute; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1d2 Dex   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Nymph's lure",
+			"file": "poisondisplay66a3.html",
+			"sources": [
+				"Ultimate Wilderness"
+			],
+			"description": [
+				"## Nymph's lure",
+				"",
+				"**Sources** [Ultimate Wilderness pg. 144](source:Ultimate_Wilderness)",
+				"",
+				"**Price** 250 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 15   ",
+				"**Onset** 1d4 hours; **Frequency** 1/hour for 8 hours   ",
+				"**Effect** 1d2 Str and Wis damage. Additionally, as long as a creature is afflicted with nymph's lure, its sweat exudes powerful pheromones that might attract wild creatures. The DCs of Perception and Survival checks to locate or track the creature using scent are reduced by 10. Additionally, when rolling to determine whether the afflicted creature has a random encounter, roll twice and if either roll would result in a random encounter, one occurs.   ",
+				"**Cure** 1 save",
+				"",
+				"Created from the concentrated pulp of the sweet-tasting pulapaya fruit (a large, bright-red, ovular delicacy with a hard rind and watery interior), nymph's lure is used for a variety of hunting purposes in remote tropical regions. It is used in a rite of passage in certain hunter-gatherer societies, where young men and women are given a dose of the poison and sent into the wild to hunt game and prove their worth, but it is also used as a punishment in some places, with the condemned being given several doses of the poison and then forced into the wild without any weapons or equipment."
+			]
+		},
+		{
+			"name": "Shadow essence",
+			"file": "poisondisplay0465.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Shadow essence",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 250 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 17   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Initial Effect** 1 Str drain; **Secondary Effect** 1d2 Str   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Shadow Essence",
+			"file": "poisondisplay6e07.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Shadow Essence",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 560](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 250 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 17   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Initial Effect** 1 Str drain; **Secondary Effect** 1d2 Str damage   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Blackfinger's salt",
+			"file": "poisondisplay6362.html",
+			"sources": [
+				"Potions and Poisons"
+			],
+			"description": [
+				"## Blackfinger's salt",
+				"",
+				"**Sources** [Potions and Poisons pg. 24](source:Potions_and_Poisons)",
+				"",
+				"**Price** 300 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 17   ",
+				"**Onset** 10 minutes; **Frequency** 1/minute for 6 minute   ",
+				"**Effect** 1d2 Con and 1d3 bleed   ",
+				"**Cure** 2 saves",
+				"",
+				"Blackfingers's salt can easily be hidden in all foods and beverages, as it lacks color, odor, and, despite the name, flavor. Soon after consuming this dastardly poison, a creature develops painful, bleeding ulcers throughout its stomach and esophagus. Followers of Norgorber originally developed the salt to mimic targets suffering a medical emergency and thus avoid suspicion of poisoning."
+			]
+		},
+		{
+			"name": "Sassone Leaf Residue",
+			"file": "poisondisplaybcfd.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Sassone Leaf Residue",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 560](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 300 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 16   ",
+				"**Onset** 1 minute; **Frequency** 1/minute for 6 minutes   ",
+				"**Initial Effect** 2d12 hit point damage; **Secondary Effect** 1 Con damage   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Sassone leaf residue",
+			"file": "poisondisplaybac6.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Sassone leaf residue",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 300 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 16   ",
+				"**Onset** 1 minute; **Frequency** 1/minute for 6 minutes   ",
+				"**Initial Effect** 2d12 hp; **Secondary Effect** 1 Con   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Sloth's bite",
+			"file": "poisondisplay056e.html",
+			"sources": [
+				"Antihero's Handbook"
+			],
+			"description": [
+				"## Sloth's bite",
+				"",
+				"**Sources** [Antihero's Handbook pg. 29](source:Antihero's_Handbook)",
+				"",
+				"**Price** 300 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 18   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** This poison causes the affected creature to be sluggish and slow to react. The target takes 1d2 points of Dexterity damage and is flat-footed until the beginning of her next turn   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Starving nettle",
+			"file": "poisondisplayd6e1.html",
+			"sources": [
+				"Ultimate Wilderness"
+			],
+			"description": [
+				"## Starving nettle",
+				"",
+				"**Sources** [Ultimate Wilderness pg. 145](source:Ultimate_Wilderness)",
+				"",
+				"**Price** 300 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 15   ",
+				"**Frequency** 1/day for 8 days   ",
+				"**Effect** 1d3 Dex and Con damage. In addition, each time the creature fails a save against the poison, for the following 24 hours it is overwhelmed with nausea whenever food is presented to it and is unable to bring itself to eat, no matter how hungry it becomes.   ",
+				"**Cure** 2 consecutive saves",
+				"",
+				"This peculiar nettle plant bears a singularly effective poison that protects it from being eaten: creatures pricked by the nettle's thorns and affected by the poison are overcome with nausea at the mere idea of food, protecting the plant from being consumed. Farmers remain vigilant for signs of this fast-growing and hardy plant; it is difficult and dangerous to remove, so culling it is best done early, while the plant is still relatively small."
+			]
+		},
+		{
+			"name": "Count Ambras's punishment",
+			"file": "poisondisplayfd99.html",
+			"sources": [
+				"Alchemy Manual"
+			],
+			"description": [
+				"## Count Ambras's punishment",
+				"",
+				"**Sources** [Alchemy Manual pg. 9](source:Alchemy_Manual)",
+				"",
+				"**Price** 350 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 16   ",
+				"**Onset** 1 minute; **Frequency** 1/minute for 6 minutes   ",
+				"**Initial Effect** 1 Dex drain and nauseated for 1 minute; **Secondary Effect** 1d2 Dex drain and sickened for 1 minute   ",
+				"**Cure** 1 save",
+				"",
+				"Alchemical Recipe",
+				"",
+				"Recipe (70 dew of lunary + 35 realgar + 70 urea)/digestion; Craft DC 16",
+				"Time 1 day; Tools heat source; **Type** poison"
+			]
+		},
+		{
+			"name": "Ossivane",
+			"file": "poisondisplay13e1.html",
+			"sources": [
+				"Potions and Poisons"
+			],
+			"description": [
+				"## Ossivane",
+				"",
+				"**Sources** [Potions and Poisons pg. 25](source:Potions_and_Poisons)",
+				"",
+				"**Price** 350 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 18   ",
+				"**Frequency** 1/round for 6 rounds (see text)   ",
+				"**Effect** 1d3 Dex   ",
+				"**Cure** 2 saves",
+				"",
+				"Ossivane mimics the petrification capability of cockatrices, but the toxin relies on the victim's heart pumping hard to spread the poison throughout the body as it stiffens limbs and locks joints. After the initial save, the victim attempts an additional Fortitude save against the poison only during rounds in which she takes a move, standard, or full-round action."
+			]
+		},
+		{
+			"name": "Slaver's will",
+			"file": "poisondisplay660b.html",
+			"sources": [
+				"Heroes of the Darklands"
+			],
+			"description": [
+				"## Slaver's will",
+				"",
+				"**Sources** [Heroes of the Darklands pg. 31](source:Heroes_of_the_Darklands)",
+				"",
+				"**Price** 350 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 14   ",
+				"**Onset** 10 minutes; **Frequency** 1/hour for 8 hours   ",
+				"**Effect**  1 Wis damage, target must roll twice and take the lower result for all saving throws against mind-affecting effects until the Wis damage is healed   ",
+				"**Cure** 1 save",
+				"",
+				"This saccharine extract is made by drow and duergar taskmasters to help keep recalcitrant slaves in line. The poison clouds the minds of those who consume it, impairing victims' critical thinking and making them more suggestible."
+			]
+		},
+		{
+			"name": "Blackfinder's silence",
+			"file": "poisondisplaya0b9.html",
+			"sources": [
+				"Inner Sea Intrigue"
+			],
+			"description": [
+				"## Blackfinder's silence",
+				"",
+				"**Sources** [Inner Sea Intrigue pg. 50](source:Inner_Sea_Intrigue)",
+				"",
+				"**Price** 400 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 14   ",
+				"**Frequency** 1/round for 4 rounds   ",
+				"**Effect** unable to speak (even to cast spells) for 1 round   ",
+				"**Cure** 1 save",
+				"",
+				"This poison is typically used by cultists of Norgorber to silence those who might tell secrets they want kept."
+			]
+		},
+		{
+			"name": "Bloodbrain Venom",
+			"file": "poisondisplay9d3c.html",
+			"sources": [
+				"Pathfinder #118: Siege of Stone"
+			],
+			"description": [
+				"## Bloodbrain Venom",
+				"",
+				"**Sources** [Pathfinder #118: Siege of Stone pg. 16](source:Pathfinder_#118:_Siege_of_Stone)",
+				"",
+				"**Price** 400 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 17   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Initial Effect** 1d6 Str damage and scented for 10 minutes; **Secondary Effect** 1d3 Str damage   ",
+				"**Cure** 1 save",
+				"",
+				"The morlock creepers brew a potent and fragrant poison harvested from the bright red sap of brainshaped mushrooms that flourish in the lower caverns. Creatures struck by the poisoned darts are marked with a pungent fungal aroma for 10 minutes, even if they succeed at their Fortitude save. The scent is particularly potent to morlocks, allowing them to detect creatures tainted by it with their scent ability at a range of 100 feet even in the still air of the caves. The smell can be scrubbed off as a full round action with an alkalai substance, such as milk or soap.",
+				"",
+				"One dose of bloodbrain venom costs 400 gp."
+			]
+		},
+		{
+			"name": "Brinestump special",
+			"file": "poisondisplayce16.html",
+			"sources": [
+				"Heroes of the Wild"
+			],
+			"description": [
+				"## Brinestump special",
+				"",
+				"**Sources** [Heroes of the Wild pg. 20](source:Heroes_of_the_Wild)",
+				"",
+				"**Price** 400 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 15   ",
+				"**Onset** 1 round   ",
+				"**Effect** nauseated for 5 rounds   ",
+				"**Cure** 1 save",
+				"",
+				"Invented as part of a series of dares between feuding goblin camps, this noxious brew fermented from a slurry of swamp flora is a favored concoction of the Licktoad tribe. The potent intoxicant is popular among goblinoids (who are immune to its nauseating effect), but all other races that partake of this frothy drink are wracked with nausea."
+			]
+		},
+		{
+			"name": "Cloudthorn venom",
+			"file": "poisondisplay02bc.html",
+			"sources": [
+				"Ultimate Wilderness"
+			],
+			"description": [
+				"## Cloudthorn venom",
+				"",
+				"**Sources** [Ultimate Wilderness pg. 144](source:Ultimate_Wilderness)",
+				"",
+				"**Price** 400 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 14   ",
+				"**Onset** 1d4 rounds; **Frequency** 1/hour for 3 hours   ",
+				"**Effect** 1d3 Str and Dex damage. In addition, the creature is unable to feel pain for 1 hour, rendering it immune to pain effects. A creature attacking the poisoned creature can attempt a Sleight of Hand check opposed by the poisoned creature's Perception check in order to attempt to deliver the attack without the target being aware of it, as the creature feels no pain from the attack. If a PC is rendered numb in this way, the GM should secretly track all damage dealt to the character until the numbing effect ends.   ",
+				"**Cure** 1 save",
+				"",
+				"This potent neurotoxin is created by the cloudthorn plant, a wild bramble whose thorns deliver a poison that numbs its victims to pain, allowing the plant to feast on the blood that flows from the wounds to the ground below. The plant's name comes from the weightless, airy feeling that victims of the poison experience, which some liken to the notion of walking on clouds."
+			]
+		},
+		{
+			"name": "Gray justice",
+			"file": "poisondisplayfac9.html",
+			"sources": [
+				"Agents of Evil"
+			],
+			"description": [
+				"## Gray justice",
+				"",
+				"**Sources** [Agents of Evil pg. 22](source:Agents_of_Evil)",
+				"",
+				"**Price** 400 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 18   ",
+				"**Frequency** 1/minute for 10 minutes   ",
+				"**Effect** 1d2 Wis, see text   ",
+				"**Cure** 2 saves",
+				"",
+				"Crafted by alchemists in Galt, gray justice has found use among the Gray Gardeners as an apparent truth serum. Gray justice makes victims more susceptible to interrogation and causes side effects such as lethargy, confusion, and nausea; some Gardeners administer it to prisoners before their execution to make them publicly admit their crimes. The grim truth of the poison is damning, however. Gray justice is no truth serum, but instead compels its victims to say whatever they think will please those around them. Each round a victim takes Wisdom damage from the poison, he answers any questions in the affirmative, agreeing to the best of his ability and even lying to confirm whatever he assumes the questioner wants to hear. If questioned by multiple people, the victim might contradict himself. If asked questions without an affirmative response or leading answer, the victim does not need to respond."
+			]
+		},
+		{
+			"name": "Lich Dust",
+			"file": "poisondisplay50cd.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Lich Dust",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 560](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 400 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 17   ",
+				"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1d3 Str damage   ",
+				"**Cure** 2 consecutive saves"
+			]
+		},
+		{
+			"name": "Lich dust",
+			"file": "poisondisplaybd1f.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Lich dust",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 400 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 17   ",
+				"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1d3 Str   ",
+				"**Cure** 2 saves"
+			]
+		},
+		{
+			"name": "Peasant's woe",
+			"file": "poisondisplaye0ba.html",
+			"sources": [
+				"Champions of Corruption"
+			],
+			"description": [
+				"## Peasant's woe",
+				"",
+				"**Sources** [Champions of Corruption pg. 27](source:Champions_of_Corruption)",
+				"",
+				"**Price** 400 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 15   ",
+				"**Frequency** 1/round for 4 rounds   ",
+				"**Initial Effect** -10 ft. to base speed for 1d6 minutes; **Secondary Effect** 1 Dex damage   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Rainbow jellyfish toxin",
+			"file": "poisondisplay8b3b.html",
+			"sources": [
+				"Rival Guide"
+			],
+			"description": [
+				"## Rainbow jellyfish toxin",
+				"",
+				"**Sources** [Rival Guide pg. 53](source:Rival_Guide)",
+				"",
+				"**Price** 400 gp; **Weight** &mdash;   ",
+				"**Type** contact, injury; **Save** Fortitude DC 14   ",
+				"**Frequency** 1/round for 2 rounds   ",
+				"**Initial Effect** staggered for 1d6 rounds; **Secondary Effect** paralyzed for 1d6 minutes   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Swampseer poison",
+			"file": "poisondisplaye28e.html",
+			"sources": [
+				"Ultimate Equipment",
+				"Pathfinder #34: Blood for Blood"
+			],
+			"description": [
+				"## Swampseer poison",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment), [Pathfinder #34: Blood for Blood pg. 63](source:Pathfinder_#34:_Blood_for_Blood)",
+				"",
+				"**Price** 400 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 18   ",
+				"**Onset** 10 minutes; **Frequency** 1/minute for 3 minutes   ",
+				"**Initial Effect** 1d4 Wis; **Secondary Effect** 1d2 Wis and confusion 1 minute   ",
+				"**Cure** 2 saves"
+			]
+		},
+		{
+			"name": "Terinav root",
+			"file": "poisondisplay624d.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Terinav root",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 400 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 16   ",
+				"**Onset** 1 minute; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1d3 Dex   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Terinav Root",
+			"file": "poisondisplay7926.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Terinav Root",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 560](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 400 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 16   ",
+				"**Onset** 1 minute; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1d3 Dex damage   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Blue star",
+			"file": "poisondisplayd831.html",
+			"sources": [
+				"Ultimate Wilderness"
+			],
+			"description": [
+				"## Blue star",
+				"",
+				"**Sources** [Ultimate Wilderness pg. 143](source:Ultimate_Wilderness)",
+				"",
+				"**Price** 500 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 15   ",
+				"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1d2 Con damage. In addition, the creature takes a -2 penalty on saving throws to resist poison for 1 week   ",
+				"**Cure** 2 consecutive saves",
+				"",
+				"This small bright-blue flower has five petals arrayed in a star shape and looks remarkably similar to several other species of blue flowers that live in similar regions, requiring a successful DC 15 Knowledge (nature) or Survival check to correctly identify. The poison causes severe liver damage, making it even more difficult to resist future poisons that a victim may encounter. Although rarely a direct danger to humanoids, the flowers are sometimes consumed by livestock. When this occurs, the venom can be passed on through milk the animals produce for the next week, affecting those who drink it as though they had consumed a dose of blue star."
+			]
+		},
+		{
+			"name": "Calistria's revenge",
+			"file": "poisondisplaydc2c.html",
+			"sources": [
+				"Inner Sea Intrigue"
+			],
+			"description": [
+				"## Calistria's revenge",
+				"",
+				"**Sources** [Inner Sea Intrigue pg. 50](source:Inner_Sea_Intrigue)",
+				"",
+				"**Price** 500 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 16   ",
+				"**Onset** consuming one or more alchoholic drink; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1d2 Dexterity damage   ",
+				"**Cure** 2 saves",
+				"",
+				"This poison is traditionally brewed as part of Calistrian revenge plots against traitorous lovers."
+			]
+		},
+		{
+			"name": "Fiddleback venom",
+			"file": "poisondisplaye1e1.html",
+			"sources": [
+				"Rival Guide"
+			],
+			"description": [
+				"## Fiddleback venom",
+				"",
+				"**Sources** [Rival Guide pg. 53](source:Rival_Guide)",
+				"",
+				"**Price** 500 gp; **Weight** &mdash;   ",
+				"**Type** injury, ingested; **Save** Fortitude DC 13   ",
+				"**Onset** 1 minute; **Frequency** 1/minute for 6 minutes   ",
+				"**Initial Effect** nauseated 1d4 rounds; **Secondary Effect** 1d3 Str damage and 1d4 Con damage   ",
+				"**Cure** 2 saves"
+			]
+		},
+		{
+			"name": "Halo mushroom toxin",
+			"file": "poisondisplayd54f.html",
+			"sources": [
+				"Adventurer's Armory 2"
+			],
+			"description": [
+				"## Halo mushroom toxin",
+				"",
+				"**Sources** [Adventurer's Armory 2 pg. 18](source:Adventurer's_Armory_2)",
+				"",
+				"**Price** 500 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 18   ",
+				"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes   ",
+				"**Initial Effect** distraction (see above); **Secondary Effect** 1d4 Wisdom damage   ",
+				"**Cure** 2 consectutive saves",
+				"",
+				"Extracted from mushrooms that grow commonly in caves and forests, this toxin is occasionally used as a recreational drug despite its dangerous side effects. A creature that fails its initial saving throws sees displaced auras of color and light around other creatures and objects. The creature treats all targets as if they had concealment, suffering a 20% miss chance on all attack rolls until the creature is cured or the poison has run its course."
+			]
+		},
+		{
+			"name": "Laughing gas",
+			"file": "poisondisplay6217.html",
+			"sources": [
+				"Dirty Tactics Toolbox"
+			],
+			"description": [
+				"## Laughing gas",
+				"",
+				"**Sources** [Dirty Tactics Toolbox pg. 9](source:Dirty_Tactics_Toolbox)",
+				"",
+				"**Price** 500 gp; **Weight** 1/2 lb.   ",
+				"**Type** inhaled; **Save** Fortitude DC 12   ",
+				"**Onset** immediate; **Frequency** 1/round for 5 rounds   ",
+				"**Effect** The subject experiences a bout of uncontrollable laughter and is dazed for 1 round   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Mage bane",
+			"file": "poisondisplay928a.html",
+			"sources": [
+				"Dark Markets - A Guide to Katapesh"
+			],
+			"description": [
+				"## Mage bane",
+				"",
+				"**Sources** [Dark Markets - A Guide to Katapesh pg. 40](source:Dark_Markets_-_A_Guide_to_Katapesh)",
+				"",
+				"**Price** 500 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 20   ",
+				"**Initial Effect** +10 to all Concentration checks for 1 hour; **Secondary Effect** +10 to all Concentration checks for 1 hour"
+			]
+		},
+		{
+			"name": "Riddleport tea",
+			"file": "poisondisplay52df.html",
+			"sources": [
+				"Second Darkness Player's Guide"
+			],
+			"description": [
+				"## Riddleport tea",
+				"",
+				"**Sources** [Second Darkness Player's Guide pg. 21](source:Second_Darkness_Player's_Guide)",
+				"",
+				"**Price** 500 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 15   ",
+				"**Initial Effect** confusion (as per the spell of the same name); **Secondary Effect** fatigue"
+			]
+		},
+		{
+			"name": "Wolfsbane",
+			"file": "poisondisplay0028.html",
+			"sources": [
+				"Ultimate Equipment",
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Wolfsbane",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment), [PRPG Core Rulebook pg. 560](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 500 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 16   ",
+				"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1d3 Con   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Crone's curse",
+			"file": "poisondisplay99e7.html",
+			"sources": [
+				"Ultimate Wilderness"
+			],
+			"description": [
+				"## Crone's curse",
+				"",
+				"**Sources** [Ultimate Wilderness pg. 144](source:Ultimate_Wilderness)",
+				"",
+				"**Price** 600 gp; **Weight** &mdash;   ",
+				"**Type** inhaled; **Save** Fortitude DC 16   ",
+				"**Onset** 1d4 hours; **Frequency** 1/day for 6 days   ",
+				"**Effect** 1 Dex and Wis damage. As long as a creature has any ability damage from crone's curse, the creature takes a -4 penalty on saving throws to resist the effects of extreme temperatures. Additionally, the creature gains vulnerability to cold and fire damage during this time, taking half again as much (+50%) damage from these forms of damage.   ",
+				"**Cure** 2 consecutive saves",
+				"",
+				"A blackish pollen produced by the night witch (a pale, vine-growing flower that blooms in the light of the moon and is hearty enough to survive very rugged and difficult environments), crone's curse disorients those who inhale it and interferes with the body's ability to regulate temperature. Merely walking through a field of night witch flowers is often sufficient enough to kick up a cloud of the nearly invisible black particles, which are a mere nuisance in temperate climates but can prove fatal to those exposed to them in deserts and tundra."
+			]
+		},
+		{
+			"name": "Jackalroot essence",
+			"file": "poisondisplay80c1.html",
+			"sources": [
+				"Ultimate Wilderness",
+				"Heroes of the Wild"
+			],
+			"description": [
+				"## Jackalroot essence",
+				"",
+				"**Sources** [Ultimate Wilderness pg. 144](source:Ultimate_Wilderness), [Heroes of the Wild pg. 20](source:Heroes_of_the_Wild)",
+				"",
+				"**Price** 600 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 18   ",
+				"**Frequency** 1/round for 1d6 rounds   ",
+				"**Effect** uncontrollble laughter (as per hideous laughter)   ",
+				"**Cure** 2 consecutive saves",
+				"",
+				"The short and thorny jackalroot grows in desert climates, typically under the partial shade of ridges or boulders. It is identifiable by its pale green berries, which it bears twice per year. To followers of Lamashtu, the gnarled, prickle-covered jackalroot is a blessing. The roots of this hearty desert shrub contain a potent, incapacitating ichor often used by gnolls in religious ceremonies and when capturing slaves."
+			]
+		},
+		{
+			"name": "Smell of fear",
+			"file": "poisondisplay470b.html",
+			"sources": [
+				"Alchemy Manual"
+			],
+			"description": [
+				"## Smell of fear",
+				"",
+				"**Sources** [Alchemy Manual pg. 7](source:Alchemy_Manual)",
+				"",
+				"**Price** 600 gp; **Weight** 1/2 lb.   ",
+				"**Type** inhaled; **Save** Fortitude DC 17   ",
+				"**Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1d2 Wis damage, and if the victim would become shaken during the next 1 minute, she becomes frightened instead   ",
+				"**Cure** 2 saves",
+				"",
+				"Alchemical Recipe",
+				"",
+				"Recipe (170 quicksilver + 170 realgar)/fermentation; Craft DC 17",
+				"Time 1 day; Tools heat source; **Type** poison"
+			]
+		},
+		{
+			"name": "Tears of perfection",
+			"file": "poisondisplay49f3.html",
+			"sources": [
+				"Faction Guide"
+			],
+			"description": [
+				"## Tears of perfection",
+				"",
+				"**Sources** [Faction Guide pg. 55](source:Faction_Guide)",
+				"",
+				"**Price** 600 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 18   ",
+				"**Onset** 1 round; **Frequency** 1/round for 4 rounds   ",
+				"**Initial Effect** 1d2 Wis damage and blindness for 1 round; **Secondary Effect** blindness for 24 hours   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Tongue twist",
+			"file": "poisondisplay0a05.html",
+			"sources": [
+				"Potions and Poisons"
+			],
+			"description": [
+				"## Tongue twist",
+				"",
+				"**Sources** [Potions and Poisons pg. 25](source:Potions_and_Poisons)",
+				"",
+				"**Price** 600 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 16   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d2 Int damage. Additionally, the creature loses the ability to speak one language at random from the languages he knows for 1 minute. Additional failed saves cause the target to lose the ability to speak additional languages if the target has the ability to speak more than one language. Any creature that can no longer speak a language speaks only gibberish, which prevents casting spells with verbal components   ",
+				"**Cure** 2 saves",
+				"",
+				"This viscous violet gel dulls the mind, impeding the ability to recall words. Thieves and assassins keep tongue twist on hand for dealing with troublesome spellcasters."
+			]
+		},
+		{
+			"name": "Nitharit",
+			"file": "poisondisplay9060.html",
+			"sources": [
+				"Ultimate Equipment",
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Nitharit",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment), [PRPG Core Rulebook pg. 560](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 650 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 13   ",
+				"**Onset** 1 minute; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1d3 Con   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Witch-hunter's sword",
+			"file": "poisondisplayd2a1.html",
+			"sources": [
+				"Ultimate Wilderness"
+			],
+			"description": [
+				"## Witch-hunter's sword",
+				"",
+				"**Sources** [Ultimate Wilderness pg. 145](source:Ultimate_Wilderness)",
+				"",
+				"**Price** 650 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 19   ",
+				"**Onset** 10 minutes; **Frequency** 1/hour for 8 hours   ",
+				"**Effect** 1 Int, Wis, and Cha damage. As long as this poison persists, the victim takes a -5 penalty on concentration checks. In addition, a creature suffering from witch-hunter's sword poison must succeed at a concentration check (DC = 20 + double the spell's level) to cast spells or use spell-like abilities.   ",
+				"**Cure** 2 consecutive saves",
+				"",
+				"This red fern has jagged, forward-pointing leaves and grows in small, close-packed groups. It is named for its popularity among witch hunters and inquisitors, and its leaves can be brewed into a tea that clouds the subject's mind, interfering with the ability to cast spells while still leaving the subject lucid enough to be interrogated. The tea has a unique taste, which can be detected with a successful DC 20 Perception check. Attempts to disguise the taste require a Profession (cook) check (or a Wisdom check, for untrained characters) opposed by the drinker's Perception check. At the GM's discretion, bonuses can be applied based on the ingredients used to mask the taste."
+			]
+		},
+		{
+			"name": "Purple Worm Poison",
+			"file": "poisondisplaye358.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Purple Worm Poison",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 560](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 700 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 24   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d3 Str damage   ",
+				"**Cure** 2 consecutive saves"
+			]
+		},
+		{
+			"name": "Purple worm poison",
+			"file": "poisondisplay42d9.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Purple worm poison",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 700 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 24   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d3 Str   ",
+				"**Cure** 2 saves"
+			]
+		},
+		{
+			"name": "Juvebloom",
+			"file": "poisondisplaycd2f.html",
+			"sources": [
+				"Potions and Poisons"
+			],
+			"description": [
+				"## Juvebloom",
+				"",
+				"**Sources** [Potions and Poisons pg. 25](source:Potions_and_Poisons)",
+				"",
+				"**Price** 750 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 16   ",
+				"**Onset** 1 day; **Frequency** 1day for 7 days   ",
+				"**Effect** 1 Wis drain. The creature looks younger by as much as half his age for a duration of 1 day. The younger appearance is purely cosmetic and has no mechanical effect   ",
+				"**Cure** 1 save",
+				"",
+				"Swindlers claim this green capsule restores the victim's youth. After 1 day, anyone taking juvebloom sees the seemingly time-bending results in the mirror. However, the benefit is not only temporary but also potentially quite damaging. Particularly daring confidence artists mix this capsule into a solution, attempting to sell it as the much more valuable sun orchid elixir."
+			]
+		},
+		{
+			"name": "Liquid leprosy",
+			"file": "poisondisplay0b85.html",
+			"sources": [
+				"Antihero's Handbook"
+			],
+			"description": [
+				"## Liquid leprosy",
+				"",
+				"**Sources** [Antihero's Handbook pg. 29](source:Antihero's_Handbook)",
+				"",
+				"**Price** 750 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 20   ",
+				"**Onset** 1 minute; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** Each time the target fails its saving throw, part of his body begins to necrotize. Roll d% on the table below to determine which part of the body starts rotting. Each necrotizing effect stacks with the others but not with itself; if the same effect is rolled more than once, choose a new effect that hasn't been rolled yet from on the table <table class=\"inner\"><tr><td>d%</td><td>Effect</td></tr> <tr><td>1-30</td><td>Hands, 2 Dex damage</td></tr> <tr><td>31-60</td><td>Arms, 2 Str damage</td></tr> <tr><td>61-95</td><td>Torso, 2 Con damage</td></tr> <tr><td>96-100</td><td>Brain, 2 Int and 2 Wis damage</td></tr></table>   ",
+				"**Cure** 2 saves"
+			]
+		},
+		{
+			"name": "Muddling heresy",
+			"file": "poisondisplaye9da.html",
+			"sources": [
+				"Pathfinder #107: Scourge of the Godclaw"
+			],
+			"description": [
+				"## Muddling heresy",
+				"",
+				"**Sources** [Pathfinder #107: Scourge of the Godclaw pg. 73](source:Pathfinder_#107:_Scourge_of_the_Godclaw)",
+				"",
+				"**Price** 750 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 20   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d4+1 Wis damage   ",
+				"**Cure** 2 saves",
+				"",
+				"The poison muddling heresy is often used by worshipers of Geryon to make others more susceptible to being convinced of blasphemies and revelations of heretical truths. While the poison can be used on its own, when used as part of a deific boon, the save DC, duration, or other effects may differ from normal."
+			]
+		},
+		{
+			"name": "Twilight illness",
+			"file": "poisondisplay8710.html",
+			"sources": [
+				"Inner Sea Intrigue"
+			],
+			"description": [
+				"## Twilight illness",
+				"",
+				"**Sources** [Inner Sea Intrigue pg. 50](source:Inner_Sea_Intrigue)",
+				"",
+				"**Price** 750 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 19   ",
+				"**Onset** eating food; **Frequency** 1/hour for 8 hours   ",
+				"**Effect** nauseated for 1 hour and then sickened for 1 day   ",
+				"**Cure** 1 save",
+				"",
+				"This poison is used by Twilight Talons to render targets too ill to work for a day-long enough to impersonate them."
+			]
+		},
+		{
+			"name": "Vessel between",
+			"file": "poisondisplay03a3.html",
+			"sources": [
+				"Inner Sea Intrigue"
+			],
+			"description": [
+				"## Vessel between",
+				"",
+				"**Sources** [Inner Sea Intrigue pg. 50](source:Inner_Sea_Intrigue)",
+				"",
+				"**Price** 750 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 20   ",
+				"**Onset** sickened; **Frequency** 1/minute for 4 minutes   ",
+				"**Effect** 1d2 Constitution and Wisdom damage   ",
+				"**Cure** 2 saves",
+				"",
+				"Daggermark assassins speak of this poison as if it were a companion helping them bear their victims along the road from life to death"
+			]
+		},
+		{
+			"name": "Black spider marsh poison",
+			"file": "poisondisplay8975.html",
+			"sources": [
+				"Advanced Race Guide"
+			],
+			"description": [
+				"## Black spider marsh poison",
+				"",
+				"**Sources** [Advanced Race Guide pg. 1](source:Advanced_Race_Guide)",
+				"",
+				"**Price** 800 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 14   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d4 Dex and confused for 1 round   ",
+				"**Cure** 2 consecutive saves"
+			]
+		},
+		{
+			"name": "Brain blot",
+			"file": "poisondisplayaaa3.html",
+			"sources": [
+				"Champions of Corruption"
+			],
+			"description": [
+				"## Brain blot",
+				"",
+				"**Sources** [Champions of Corruption pg. 27](source:Champions_of_Corruption)",
+				"",
+				"**Price** 800 gp; **Weight** &mdash;   ",
+				"**Type** inhaled; **Save** Fortitude DC 13   ",
+				"**Onset** 1 minute; **Frequency** 1/minute for 6 minutes   ",
+				"**Initial Effect** -5 on concentration checks for 1 hour; **Secondary Effect** 1 Int damage   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Cytillesh extract",
+			"file": "poisondisplayf4de.html",
+			"sources": [
+				"Alchemy Manual",
+				"Classic Horrors Revisited",
+				"Pathfinder #61: Shards of Sin",
+				"No Response from Deepmar"
+			],
+			"description": [
+				"## Cytillesh extract",
+				"",
+				"**Sources** [Alchemy Manual pg. 11](source:Alchemy_Manual), [Classic Horrors Revisited pg. 8](source:Classic_Horrors_Revisited), [Pathfinder #61: Shards of Sin pg. 64](source:Pathfinder_#61:_Shards_of_Sin), [No Response from Deepmar pg. 21](source:No_Response_from_Deepmar)",
+				"",
+				"**Price** 800 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 18   ",
+				"**Frequency** 1/hour for 8 hours   ",
+				"**Effect** The victim loses all memory of events that took place in the previous hour and can't form new memories for 8 hours. These lost and prevented memories might return later in the form of dreams, and can be returned with a restoration or heal spell   ",
+				"**Cure** 2 saves",
+				"",
+				"Alchemical Recipe",
+				"",
+				"Recipe (115 realgar + 115 cytillesh spores)/calcination; Craft DC 18",
+				"Time 1 hour; Tools crucible; **Type** poison"
+			]
+		},
+		{
+			"name": "Dark reaver powder",
+			"file": "poisondisplay416b.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Dark reaver powder",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 800 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 18   ",
+				"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1d3 Con and 1 Str   ",
+				"**Cure** 2 saves"
+			]
+		},
+		{
+			"name": "Dark Reaver Powder",
+			"file": "poisondisplay9092.html",
+			"sources": [
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Dark Reaver Powder",
+				"",
+				"**Sources** [PRPG Core Rulebook pg. 558](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 800 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 18   ",
+				"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1d3 Con damage and 1 Str damage   ",
+				"**Cure** 2 consecutive saves"
+			]
+		},
+		{
+			"name": "Violet venom",
+			"file": "poisondisplay369a.html",
+			"sources": [
+				"Ultimate Wilderness",
+				"Heroes of the Wild"
+			],
+			"description": [
+				"## Violet venom",
+				"",
+				"**Sources** [Ultimate Wilderness pg. 145](source:Ultimate_Wilderness), [Heroes of the Wild pg. 20](source:Heroes_of_the_Wild)",
+				"",
+				"**Price** 800 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 13   ",
+				"**Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1d2 Str and Con damage   ",
+				"**Cure** 1 save",
+				"",
+				"The putrefying essence of a violet fungus must be harvested with great care from a living specimen and processed quickly before it loses potency. Numerous kinds of subterranean creatures harvest this toxin to help them in their hunts for food, and they coat their weapons in the poison to help defend their underground settlements."
+			]
+		},
+		{
+			"name": "Flaming doom",
+			"file": "poisondisplay3cf7.html",
+			"sources": [
+				"Alchemy Manual"
+			],
+			"description": [
+				"## Flaming doom",
+				"",
+				"**Sources** [Alchemy Manual pg. 7](source:Alchemy_Manual)",
+				"",
+				"**Price** 900 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 18   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d6 fire damage and victim possibly catches on fire (see Pathfinder RPG Core Rulebook 444)   ",
+				"**Cure** 2 saves",
+				"",
+				"Alchemical Recipe",
+				"",
+				"Recipe (200 magnesium + 200 phosphorus + 250 saltpeter)/distillation; Craft DC 18",
+				"Time 1 day; Tools retort; **Type** poison"
+			]
+		},
+		{
+			"name": "Fury gas",
+			"file": "poisondisplay07d3.html",
+			"sources": [
+				"Alchemy Manual"
+			],
+			"description": [
+				"## Fury gas",
+				"",
+				"**Sources** [Alchemy Manual pg. 7](source:Alchemy_Manual)",
+				"",
+				"**Price** 900 gp; **Weight** 1/2 lb.   ",
+				"**Type** inhaled; **Save** Fortitude DC 16   ",
+				"**Frequency** 1/minute for 4 minutes   ",
+				"**Effect** Non-orcs are blinded for 1 minute. Orcs rage for 1 minute, gaining a +2 alchemical bonus to Strength and Dexterity, a +1 alchemical bonus on Will saves, and a -2 penalty to AC. This poison's effects are otherwise similar to a barbarian's rage, except that affected orcs are unable to discern friend from foe-attacking the nearest creature each round-and they are not fatigued afterward   ",
+				"**Cure** 2 saves",
+				"",
+				"Alchemical Recipe",
+				"",
+				"Recipe (180 brimstone + 80 quicksilver + 60 saltpeter)/fermentation; Craft DC 16",
+				"Time 1 day; Tools heat source; **Type** poison"
+			]
+		},
+		{
+			"name": "Nights-eye dust",
+			"file": "poisondisplayf707.html",
+			"sources": [
+				"Adventurer's Armory 2"
+			],
+			"description": [
+				"## Nights-eye dust",
+				"",
+				"**Sources** [Adventurer's Armory 2 pg. 18](source:Adventurer's_Armory_2)",
+				"",
+				"**Price** 900 gp; **Weight** &mdash;   ",
+				"**Type** inhaled; **Save** Fortitude DC 13   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Initial Effect** shaken; **Secondary Effect** blinded for 6 rounds   ",
+				"**Cure** 2 consecutive saves",
+				"",
+				"This fine powder is extracted from the wings of night's-eye moths. Creatures inhaling this poison become shaken and experience slowly building pressure behind the eyes, leading to blindness that persists until the creature is cured or the poison has run its course. A creature immune to fear cannot be shaken by the poison's initial effect and receives a +4 bonus on its saving throw against the poison's secondary effect."
+			]
+		},
+		{
+			"name": "Sweetdream",
+			"file": "poisondisplayf21e.html",
+			"sources": [
+				"Adventurer's Armory 2"
+			],
+			"description": [
+				"## Sweetdream",
+				"",
+				"**Sources** [Adventurer's Armory 2 pg. 18](source:Adventurer's_Armory_2)",
+				"",
+				"**Price** 900 gp; **Weight** &mdash;   ",
+				"**Type** inhaled; **Save** Fortitude DC 19   ",
+				"**Onset** 1 round; **Frequency** 1/minute for 2 minutes   ",
+				"**Initial Effect** sleep for 1 minute and forget events of 1d4 rounds prior to exposure; **Secondary Effect** sleep for 1d4 hours   ",
+				"**Cure** 1 save",
+				"",
+				"Often employed by spies and saboteurs, sweetdream is a potent sedative with useful amnesia-causing side effects. The memory loss is a mind-affecting effect.",
+				"",
+				"Victims of sweetdream often experience pleasant, fanciful dreams when affected by the poison's secondary effect, a fact that both inspired the poison its name and contributed to its medicinal use among those plagued by nightmares or insomnia. Unlike similar drugs, sweetdream is not habit-forming, and thus users have no risk of developing a physiological addiction to the inhaled powder. However, once a frequent user becomes accustomed to the poison's effects, he often finds himself unable to sleep without it, leading some authorities to ban its willing use."
+			]
+		},
+		{
+			"name": "Third eye",
+			"file": "poisondisplay3d28.html",
+			"sources": [
+				"Ultimate Wilderness"
+			],
+			"description": [
+				"## Third eye",
+				"",
+				"**Sources** [Ultimate Wilderness pg. 145](source:Ultimate_Wilderness)",
+				"",
+				"**Price** 900 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 17   ",
+				"**Onset** 1 minute; **Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d3 Wis damage. Each time the victim takes Wisdom damage, it must succeed at a DC 17 Will save or become confused for that round.   ",
+				"**Cure** 2 consecutive saves",
+				"",
+				"This poison is produced in the liver of a particular species of water-dwelling lizard and produces potent hallucinations. In some places, the lizards are raised as livestock specifically for the harvesting of the poison, which is then used for ritual ceremonies and recreational purposes. People in some cultures voluntarily dose themselves with this poison as a way to gain oracular insights into the world, but more often than not the revelations are nothing but subtle nightmares and lack true insight."
+			]
+		},
+		{
+			"name": "Bloodpyre",
+			"file": "poisondisplay52ad.html",
+			"sources": [
+				"Agents of Evil"
+			],
+			"description": [
+				"## Bloodpyre",
+				"",
+				"**Sources** [Agents of Evil pg. 22](source:Agents_of_Evil)",
+				"",
+				"**Price** 1,000 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 14   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1 Cha, Int, and Wis, 2d6 fire, see text   ",
+				"**Cure** 1 save",
+				"",
+				"This orange liquid burns regardless of temperature, which its drow creators claim is a side-effect of its Abyssal inspiration. The staggering pain inflicted by bloodpyre's slow burn inhibits victims' mental faculties but provides fiendish strength, so some drow houses enhance their warriors with bloodpyre despite the pain and damage it causes. Each round a victim fails her saving throw against bloodpyre's effects, she gains a cumulative +1 alchemical bonus to her Strength, to a maximum of +6 after six failed saves. In addition to ability score damage, the victim also takes 2d6 points of fire damage each time she fails the saving throw against the poison."
+			]
+		},
+		{
+			"name": "Cockatrice spit",
+			"file": "poisondisplayd99a.html",
+			"sources": [
+				"Rival Guide"
+			],
+			"description": [
+				"## Cockatrice spit",
+				"",
+				"**Sources** [Rival Guide pg. 53](source:Rival_Guide)",
+				"",
+				"**Price** 1,000 gp; **Weight** &mdash;   ",
+				"**Type** contact, injury, ingested; **Save** Fortitude DC 12   ",
+				"**Frequency** 1/round for 4 rounds   ",
+				"**Effect** 1d2 Dex damage (a creature who takes Dexterity damage equal to its Dexterity score from this poison becomes petrified; each day, a petrified victim can attempt a new DC 12 Fortitude save to recover from the venom and become unpetrified with an amount of Dexterity damage equal to 1 point less than its Dexterity score)   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Ragespittle",
+			"file": "poisondisplay7f9b.html",
+			"sources": [
+				"Agents of Evil"
+			],
+			"description": [
+				"## Ragespittle",
+				"",
+				"**Sources** [Agents of Evil pg. 22](source:Agents_of_Evil)",
+				"",
+				"**Price** 1,000 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 17   ",
+				"**Onset** 1 minute; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1d2 Dex, see text   ",
+				"**Cure** 2 saves",
+				"",
+				"Imported from Casmaron, the substance also known as Rovagug's spittle is employed by cults of the Rough Beast. The toxin is used to foment unrest by causing muscle tremors and aggression. Any creature that fails a Fortitude save against ragespittle is subjected to an uncontrollable rage. A rage-afflicted victim must succeed at a DC 17 Will save each round or attack the nearest creature, whether friend or foe. Effects that suppress confusion or emotional conditions suppress ragespittle's rage effect for their duration, but not the poison's ability damage. Effects that end confusion or emotional conditions suppress the urge for only 1d10 rounds while the poison remains in the victim's system."
+			]
+		},
+		{
+			"name": "Ungol dust",
+			"file": "poisondisplay812c.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Ungol dust",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 1,000 gp; **Weight** &mdash;   ",
+				"**Type** inhaled; **Save** Fortitude DC 15   ",
+				"**Frequency** 1/round for 4 rounds   ",
+				"**Initial Effect** 1 Cha drain; **Secondary Effect** 1d2 Cha   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Blistercap spore",
+			"file": "poisondisplay08f3.html",
+			"sources": [
+				"Ultimate Wilderness"
+			],
+			"description": [
+				"## Blistercap spore",
+				"",
+				"**Sources** [Ultimate Wilderness pg. 143](source:Ultimate_Wilderness)",
+				"",
+				"**Price** 1,125 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 20   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Initial Effect** 1d2 Dex drain and 1 Con drain; **Secondary Effect** sickened for 1 minute   ",
+				"**Cure** 2 consecutive saves",
+				"",
+				"Found in remote regions deep underground, the blistercap takes its name from the blisters on the bruise-colored cap atop its stem, which weep a toxic yellow fluid. The spores it produces often contribute to the dangers of underground exploration."
+			]
+		},
+		{
+			"name": "Blistercap spore poison",
+			"file": "poisondisplay6e80.html",
+			"sources": [
+				"Heroes of the Wild"
+			],
+			"description": [
+				"## Blistercap spore poison",
+				"",
+				"**Sources** [Heroes of the Wild pg. 20](source:Heroes_of_the_Wild)",
+				"",
+				"**Price** 1,125 gp; **Weight** 1 lb.   ",
+				"**Type** contact; **Save** Fortitude DC 20   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Initial Effect** 1d2 Dex drain, 1 Con drain; **Secondary Effect** sickened for 1 minute   ",
+				"**Cure** 2 consecutive saves",
+				"",
+				"Found primarily in the Darklands, this fungus takes its name from the bruise-colored puffballs capping its stem, which weep a toxic yellow fluid."
+			]
+		},
+		{
+			"name": "Lungsap powder",
+			"file": "poisondisplayc691.html",
+			"sources": [
+				"Antihero's Handbook"
+			],
+			"description": [
+				"## Lungsap powder",
+				"",
+				"**Sources** [Antihero's Handbook pg. 29](source:Antihero's_Handbook)",
+				"",
+				"**Price** 1,200 gp; **Weight** &mdash;   ",
+				"**Type** inhaled; **Save** Fortitude DC 16   ",
+				"**Frequency** 1/round for 4 rounds   ",
+				"**Effect** This fine powder absorbs the oxygen from the lungs of any creature that breathes it in, causing the creature to gradually asphyxiate. The target has difficulty breathing and is staggered. If the target suffers the effect for 4 rounds, he falls unconscious for 1 minute at the end of the fourth round   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Lungtaker",
+			"file": "poisondisplayf4a0.html",
+			"sources": [
+				"Magnimar, City of Monuments"
+			],
+			"description": [
+				"## Lungtaker",
+				"",
+				"**Sources** [Magnimar, City of Monuments pg. 45](source:Magnimar,_City_of_Monuments)",
+				"",
+				"**Price** 1,200 gp; **Weight** &mdash;   ",
+				"**Type** inhaled; **Save** Fortitude DC 17   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d6 Str; If this poison's accumulated Strength damage ever exceeds the victim's Strength score, the victim immediately begins to suffocate (Core Rulebook 445). A DC 17 Heal check (or any amount of magical healing) is enough to stop this suffocation before the victim dies.   ",
+				"**Cure** 2 saves"
+			]
+		},
+		{
+			"name": "Red bedlam",
+			"file": "poisondisplay905e.html",
+			"sources": [
+				"Ultimate Wilderness",
+				"Heroes of the Wild"
+			],
+			"description": [
+				"## Red bedlam",
+				"",
+				"**Sources** [Ultimate Wilderness pg. 145](source:Ultimate_Wilderness), [Heroes of the Wild pg. 20](source:Heroes_of_the_Wild)",
+				"",
+				"**Price** 1,200 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 15   ",
+				"**Onset** 10 minutes; **Frequency** 1/minute for 10 minutes   ",
+				"**Effect** confusion   ",
+				"**Cure** 2 consecutive saves",
+				"",
+				"Named for the scab-red mushrooms from which it is made, this potent hallucinogen is brewed by evil druids and witches in remote regions in order to enhance the savagery of their seasonal revels. Some use this poison to debilitate their victims for ritual sacrifice."
+			]
+		},
+		{
+			"name": "Skinsap extract",
+			"file": "poisondisplayfadd.html",
+			"sources": [
+				"Adventurer's Armory 2"
+			],
+			"description": [
+				"## Skinsap extract",
+				"",
+				"**Sources** [Adventurer's Armory 2 pg. 18](source:Adventurer's_Armory_2)",
+				"",
+				"**Price** 1,400 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 16   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Initial Effect** staggered and confused (see above); **Secondary Effect** 1d2 Dexterity damage   ",
+				"**Cure** 1 save",
+				"",
+				"Harvested by some Mwangi tribes from the skin of colorful tree frogs, this potent poison is often used to coat arrows, darts, and other weapons. A creature that fails its save is distracted by persistent auditory hallucinations of dripping water and susurrous voices, gaining the staggered condition until it is cured or the poison has run its course. A creature that fails two consecutive saving throws against this effect is also confused until cured or the poison has run its course; this confusion is a mind-affecting effect."
+			]
+		},
+		{
+			"name": "Azure lily pollen",
+			"file": "poisondisplay5b00.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Azure lily pollen",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 1,500 gp; **Weight** &mdash;   ",
+				"**Type** inhaled; **Save** Fortitude DC 15   ",
+				"**Frequency** 1/minute for 2 minutes   ",
+				"**Initial Effect** nauseated 1 minute; **Secondary Effect** paralyzed 2d4 hours   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Breath of the mantis god",
+			"file": "poisondisplayec12.html",
+			"sources": [
+				"Adventurer's Guide",
+				"Inner Sea Intrigue"
+			],
+			"description": [
+				"## Breath of the mantis god",
+				"",
+				"**Sources** [Adventurer's Guide pg. 158](source:Adventurer's_Guide), [Inner Sea Intrigue pg. 50](source:Inner_Sea_Intrigue)",
+				"",
+				"**Price** 1,500 gp; **Weight** &mdash;   ",
+				"**Type** inhaled; **Save** Fortitude DC 21   ",
+				"**Frequency** 1/minute for 6 minutes   ",
+				"**Initial Effect** 1d4 bleed; see text; **Secondary Effect** 1d3 Con damage   ",
+				"**Cure** 2 saves",
+				"",
+				"The Red Mantis exist in a world rife with healing magic and all manner of supernatural ways to dodge death. With the society's reputation based on its ability to bring death to any contracted target, what good would it be if a kindly cleric or wealthy relative paid for a victim to be brought back to life? As a matter of professional pride (as well as religious fervor), the Red Mantis go to great lengths to ensure that their victims remain in the grave once they are placed there. Breath of the mantis god is just one tool they've crafted to assure such ends.",
+				"",
+				"This toxin is made only by Red Mantis assassins to ensure a target's death, and the Red Mantis often task initiates with administering it to victims before their assassination. Once an affected creature fails its saving throw against this poison's initial effect, if the creature dies before this poison is cured or runs its course, any spellcaster who attempts to raise the creature from the dead must first succeed at a caster level check (DC = 10 + the dead creature's total Hit Dice), otherwise the spell fails."
+			]
+		},
+		{
+			"name": "Demon nettle sap",
+			"file": "poisondisplayb7ff.html",
+			"sources": [
+				"The Moonscar"
+			],
+			"description": [
+				"## Demon nettle sap",
+				"",
+				"**Sources** [The Moonscar pg. 7](source:The_Moonscar)",
+				"",
+				"**Price** 1,500 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 21   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d2 Wis drain"
+			]
+		},
+		{
+			"name": "Dragon bile",
+			"file": "poisondisplay9380.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Dragon bile",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 1,500 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 26   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d3 Str"
+			]
+		},
+		{
+			"name": "Hag spit",
+			"file": "poisondisplayf185.html",
+			"sources": [
+				"Rival Guide"
+			],
+			"description": [
+				"## Hag spit",
+				"",
+				"**Sources** [Rival Guide pg. 53](source:Rival_Guide)",
+				"",
+				"**Price** 1,500 gp; **Weight** &mdash;   ",
+				"**Type** injury, ingested; **Save** Fortitude DC 16   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Initial Effect** blindness for 1d10 rounds; **Secondary Effect** 1d4 Wis damage   ",
+				"**Cure** 2 saves"
+			]
+		},
+		{
+			"name": "Insanity mist",
+			"file": "poisondisplay63bd.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Insanity mist",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 1,500 gp; **Weight** &mdash;   ",
+				"**Type** inhaled; **Save** Fortitude DC 15   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d3 Wis   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Insanity pill",
+			"file": "poisondisplay99ff.html",
+			"sources": [
+				"Dark Markets - A Guide to Katapesh"
+			],
+			"description": [
+				"## Insanity pill",
+				"",
+				"**Sources** [Dark Markets - A Guide to Katapesh pg. 40](source:Dark_Markets_-_A_Guide_to_Katapesh)",
+				"",
+				"**Price** 1,500 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 14   ",
+				"**Effect** creature affected as if by a confusion spell for 1 minute"
+			]
+		},
+		{
+			"name": "Leng's tears",
+			"file": "poisondisplayd245.html",
+			"sources": [
+				"Adventurer's Armory 2"
+			],
+			"description": [
+				"## Leng's tears",
+				"",
+				"**Sources** [Adventurer's Armory 2 pg. 18](source:Adventurer's_Armory_2)",
+				"",
+				"**Price** 1,500 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 18   ",
+				"**Onset** 1 round; **Frequency** 1/10 minutes for 1 hour   ",
+				"**Effect** 1d2 Wisdom damage and paralyzed for 10 minutes   ",
+				"**Cure** 1 save",
+				"",
+				"Made from the distilled tears and sweat of denizens of Leng (Pathfinder RPG Bestiary 2 82), this substance causes hallucinations and temporary paralysis. A creature that fails its initial saving throw is paralyzed and experiences terrifying hallucinations of wandering through an icy, windswept waste. The creature's paralysis ends if it is cured or once the poison runs its course, though memories of the vivid hallucinations may haunt it for some time."
+			]
+		},
+		{
+			"name": "Nerveblast",
+			"file": "poisondisplay0448.html",
+			"sources": [
+				"Potions and Poisons"
+			],
+			"description": [
+				"## Nerveblast",
+				"",
+				"**Sources** [Potions and Poisons pg. 25](source:Potions_and_Poisons)",
+				"",
+				"**Price** 1,500 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 19   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1 Dex drain and shaken for 1 hour. The shaken condition progresses to more severe fear effects if the affected creature fails additional Fortitude saving throws against the poison. These more severe effects have the same duration as the initial shaken effect   ",
+				"**Cure** 2 consecutive saves",
+				"",
+				"This iridescent dust clings to weapons. On a hit, nerveblast immediately begins destroying nerves, blocking the signals between the brain and the rest of the body. The disconcerting effect causes many victims to flee in panic."
+			]
+		},
+		{
+			"name": "Scholarblight",
+			"file": "poisondisplayc878.html",
+			"sources": [
+				"Agents of Evil"
+			],
+			"description": [
+				"## Scholarblight",
+				"",
+				"**Sources** [Agents of Evil pg. 22](source:Agents_of_Evil)",
+				"",
+				"**Price** 1,500 gp; **Weight** &mdash;   ",
+				"**Type** inhaled; **Save** Fortitude DC 15   ",
+				"**Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1d3 Int, see text   ",
+				"**Cure** 1 save",
+				"",
+				"Created by the Whispering Way to simultaneously protect and bind newcomers and servants who have handled dangerous writings, scholarblight has long since become a preferred poison for those who target arcane spellcasters for assassination. Scholarblight causes headaches and impairs a victim's ability to form or recall memories through mild confusion and dysphoria. More drastically, victims who fail a saving throw against scholarblight lose their ability to read or write for 24 hours, as letters and symbols seem to twist, move, and reorient themselves. This prevents victims from using scrolls and spellbooks, but also protects an afflicted creature from any effect dependent on reading text, such as explosive runes."
+			]
+		},
+		{
+			"name": "Mindrust",
+			"file": "poisondisplayc616.html",
+			"sources": [
+				"Path of the Hellknight"
+			],
+			"description": [
+				"## Mindrust",
+				"",
+				"**Sources** [Path of the Hellknight pg. 45](source:Path_of_the_Hellknight)",
+				"",
+				"**Price** 1,600 gp; **Weight** &mdash;   ",
+				"**Type** inhaled; **Save** Fortitude DC 20   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1 Wis damage and suggestible for 1 minute per point of Wis damage taken; see above   ",
+				"**Cure** 2 consecutive saves",
+				"",
+				"Refined from a traditional concoction first employed by the witches of Irrisen, mindrust-or \"witch's rust\" as its northern creators know it-is a brownish, flaky concoction of condensed nightmare vapor, striped toadstools, and howler milk. The Order of the Rack has brought this poison south and uses it to get confessions from criminals, gain assistance in slipping into rebel holdouts, or make artists destroy their masterworks in a moment of weakness.",
+				"",
+				"Any creature that fails its Fortitude saving throw takes 1 point of Wisdom damage on each subsequent failed saving throw. For every point of Wisdom damage a sentient creature takes, it also become skittish and susceptible to suggestion for 1 minute. These minutes are cumulative; each time the creature takes Wisdom damage, its susceptibility to suggestion is extended by another minute. During that time, anyone can use the Intimidate skill as if it were the Diplomacy skill to make a request of the creature. Additionally, an affected creature takes a -4 penalty on saving throws against spells from the compulsion subschool while it is susceptible to suggestion. If this poison is neutralized, this susceptibility to suggestion also immediately ends."
+			]
+		},
+		{
+			"name": "Aconite root",
+			"file": "poisondisplay6eb8.html",
+			"sources": [
+				"Guide to the River Kingdoms"
+			],
+			"description": [
+				"## Aconite root",
+				"",
+				"**Sources** [Guide to the River Kingdoms pg. 14](source:Guide_to_the_River_Kingdoms)",
+				"",
+				"**Price** 1,800 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 25   ",
+				"**Onset** 1 minute; **Frequency** 1/round for 5 rounds   ",
+				"**Effect** 1d3 Dex damage, 1 Con damage, and nauseated for 1 round   ",
+				"**Cure** 2 saves"
+			]
+		},
+		{
+			"name": "Deathblade",
+			"file": "poisondisplayc71d.html",
+			"sources": [
+				"Ultimate Equipment",
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Deathblade",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment), [PRPG Core Rulebook pg. 558](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 1,800 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 20   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d3 Con   ",
+				"**Cure** 2 saves"
+			]
+		},
+		{
+			"name": "Nightmare vapor",
+			"file": "poisondisplay44d8.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Nightmare vapor",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 1,800 gp; **Weight** &mdash;   ",
+				"**Type** inhaled; **Save** Fortitude DC 20   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1 Wis and confused 1 round   ",
+				"**Cure** 2 saves"
+			]
+		},
+		{
+			"name": "Burnt othur fumes",
+			"file": "poisondisplayf7bf.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Burnt othur fumes",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 2,100 gp; **Weight** &mdash;   ",
+				"**Type** inhaled; **Save** Fortitude DC 18   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Initial Effect** 1 Con drain; **Secondary Effect** 1d3 Con   ",
+				"**Cure** 2 saves"
+			]
+		},
+		{
+			"name": "Grinding joint paste",
+			"file": "poisondisplay124d.html",
+			"sources": [
+				"Adventurer's Armory 2"
+			],
+			"description": [
+				"## Grinding joint paste",
+				"",
+				"**Sources** [Adventurer's Armory 2 pg. 18](source:Adventurer's_Armory_2)",
+				"",
+				"**Price** 2,100 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 16   ",
+				"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1d4 Dexterity damage   ",
+				"**Cure** 1 save",
+				"",
+				"This poisonous paste, made from dried cockatrice organs, causes extreme muscle stiffness and joint pain, with an unpleasant feeling of gravel grinding in the victim's shoulders, hips, and knees. As long as a creature has any Dexterity damage from this poison, the creature finds it physically painful to make wide motions with its limbs. Whenever the creature attacks with a two-handed weapon or moves more than 10 feet in a round (other than via travel that doesn't require movement, such as by wagon, or teleportation), it takes 2d6 points of damage."
+			]
+		},
+		{
+			"name": "Dream crystal toxin",
+			"file": "poisondisplay74cf.html",
+			"sources": [
+				"Doom Comes to Dustpawn"
+			],
+			"description": [
+				"## Dream crystal toxin",
+				"",
+				"**Sources** [Doom Comes to Dustpawn pg. 18](source:Doom_Comes_to_Dustpawn)",
+				"",
+				"**Price** 2,500 gp; **Weight** &mdash;   ",
+				"**Type** ingested or injury; **Save** Willpower DC 20   ",
+				"**Frequency** 1/hour for 6 hours   ",
+				"**Effect** 1d2 Int drain (a creature currently suffering the curse of bestial dreams transforms into an id mutant once its Intelligence is reduced by 6 points or reaches a score of 1, whichever comes first)   ",
+				"**Cure** 3 consecutive saves",
+				"",
+				"This supernatural toxin exists either in powdered form or, if mixed with an alchemically prepared solution of blood and magical reagents, as a sticky paste. The primary ingredient is a dream crystal whose stored dreams have been corrupted by otherworldly powers into nightmarish energies-a single crystal yields 1 dose of toxin. On Golarion, only the few dream crystals that remain in the crashed Lirgen's Glory can be used to create more of this toxin, but if the Emissary from Beyond establishes a domain in Dustpawn, it can create more dream crystals, given time. Dream crystal toxin introduced in significant quantities to a water supply dilutes the venom so that any who drink the water suffer a lesser version of its effects'see the curse of bestial dreams on page 4 for details. In any event, dream crystal toxin counts as both a poison and a curse for determining what can negate its effects. A creature must be immune to both poison and curses to be immune to dream crystal toxin."
+			]
+		},
+		{
+			"name": "Dreaming death",
+			"file": "poisondisplayd20f.html",
+			"sources": [
+				"Agents of Evil"
+			],
+			"description": [
+				"## Dreaming death",
+				"",
+				"**Sources** [Agents of Evil pg. 22](source:Agents_of_Evil)",
+				"",
+				"**Price** 2,500 gp; **Weight** &mdash;   ",
+				"**Type** inhaled; **Save** Fortitude DC 16   ",
+				"**Onset** 10 minutes; **Frequency** 1/10 minutes for 1 hour   ",
+				"**Effect** sleep 10 minutes, see text   ",
+				"**Cure** 1 save",
+				"",
+				"Imported in stoppered quartz vials by the enigmatic denizens of Leng, this green and violet gas lulls mortal creatures into a sleep filled with abominable nightmares and maddening half-truths. Creatures that fail their saving throws against dreaming death immediately fall into a fitful slumber for 10 minutes. This toxic sleep affects creatures normally immune to magical sleep effects (such as elves), and victims can be woken from the sleep only by overcoming or being cured of the poison. Each failed save extends the duration of this magical sleep by 10 minutes.",
+				"",
+				"Creatures awaken from these visions scarred and prone to self-harm. Victims must succeed at a Will save (DC = 14 + 2 for every 10 minutes spent sleeping) or begin cutting their own flesh with any available weapons. Affected creatures attempt to deliver a coup de grace attack upon themselves every round. A victim can attempt a new Will save at the beginning of each round, with a cumulative +2 bonus for each round she successfully damaged herself."
+			]
+		},
+		{
+			"name": "Everwake serum",
+			"file": "poisondisplaydaba.html",
+			"sources": [
+				"Champions of Corruption"
+			],
+			"description": [
+				"## Everwake serum",
+				"",
+				"**Sources** [Champions of Corruption pg. 27](source:Champions_of_Corruption)",
+				"",
+				"**Price** 2,500 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 16   ",
+				"**Frequency** 1/day for 5 days   ",
+				"**Effect** cannot voluntarily rest or sleep (spells such as sleep still function as normal), preventing spellcasters who need to rest to regain or prepare spells from doing so   ",
+				"**Cure** 2 saves"
+			]
+		},
+		{
+			"name": "Hemlock",
+			"file": "poisondisplay480e.html",
+			"sources": [
+				"Ultimate Equipment",
+				"PRPG Core Rulebook"
+			],
+			"description": [
+				"## Hemlock",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment), [PRPG Core Rulebook pg. 559](source:PRPG_Core_Rulebook)",
+				"",
+				"**Price** 2,500 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 18   ",
+				"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1d6 Dex, see text   ",
+				"**Cure** 2 saves"
+			]
+		},
+		{
+			"name": "Hydrofluoric acid",
+			"file": "poisondisplaye304.html",
+			"sources": [
+				"Potions and Poisons"
+			],
+			"description": [
+				"## Hydrofluoric acid",
+				"",
+				"**Sources** [Potions and Poisons pg. 24](source:Potions_and_Poisons)",
+				"",
+				"**Price** 2,500 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 20   ",
+				"**Onset** 1 minute; **Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d2 Str drain, 1d2 Con, and 2d6 acid   ",
+				"**Cure** 2 consecutive saves",
+				"",
+				"The wise alchemist takes careful precautions whenever handling hydrofluoric acid. This corrosive substance-an occasional byproduct of volcanic gases that is used for industrial purposes-dissolves bones and causes tissue damage when even a small amount contacts the skin. The acid dissolves the body of any victim who dies from hydrofluoric acid poisoning unless the acid is neutralized within 1 minute with a successful DC 20 Heal or Craft (alchemy) check. Hydrofluoric acid must be stored in a magically reinforced container, as it dissolves mundane glass and corrodes metal over time."
+			]
+		},
+		{
+			"name": "Snap will",
+			"file": "poisondisplay11dd.html",
+			"sources": [
+				"Dirty Tactics Toolbox"
+			],
+			"description": [
+				"## Snap will",
+				"",
+				"**Sources** [Dirty Tactics Toolbox pg. 9](source:Dirty_Tactics_Toolbox)",
+				"",
+				"**Price** 2,500 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 18   ",
+				"**Onset** 5 minutes; **Frequency** 1/minute for 10 minutes   ",
+				"**Effect** The subject experiences difficulty maintaining focus and self-control, and takes a -4 penalty on Will saves and Wisdom-based skill checks for 1 minute   ",
+				"**Cure** 2 saves"
+			]
+		},
+		{
+			"name": "Styx sap",
+			"file": "poisondisplaya98f.html",
+			"sources": [
+				"Ultimate Wilderness"
+			],
+			"description": [
+				"## Styx sap",
+				"",
+				"**Sources** [Ultimate Wilderness pg. 145](source:Ultimate_Wilderness)",
+				"",
+				"**Price** 2,600 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 18   ",
+				"**Onset** 1d4 minutes; **Frequency** 1/10 minutes for 60 minutes   ",
+				"**Effect** 1d4 Wis damage, and the creature loses its memories from the past 10 minutes, as though they had been erased by the spell modify memory   ",
+				"**Cure** 1 save",
+				"",
+				"This milky-white sap can be harvested from a rare jungle tree known as a \"weeping maiden\" in the local tongue. The tree's branches end in long, vine-like tendrils that hang low to the ground and bear large, bitter-tasting red fruit. While the fruit is safe to eat, the sap of the tree carries powerful neurotoxins that cause short-term memory loss in those that consume it. In some cultures, styx sap is occasionally taken deliberately in order to allow one to forget unpleasant or tragic events."
+			]
+		},
+		{
+			"name": "Wyvern poison",
+			"file": "poisondisplay949c.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Wyvern poison",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 3,000 gp; **Weight** &mdash;   ",
+				"**Type** injury; **Save** Fortitude DC 17   ",
+				"**Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d4 Con   ",
+				"**Cure** 2 saves"
+			]
+		},
+		{
+			"name": "Cyanide",
+			"file": "poisondisplay3ba3.html",
+			"sources": [
+				"Heroes of the Darklands"
+			],
+			"description": [
+				"## Cyanide",
+				"",
+				"**Sources** [Heroes of the Darklands pg. 31](source:Heroes_of_the_Darklands)",
+				"",
+				"**Price** 4,000 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 20   ",
+				"**Onset** 1 minute; **Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d4 Con damage, target must succeed at a second Fortitude save or 1 point of the Con damage is instead drain. Cyanide's unique metal-extracting properties make it effective against elementals with the earth subtype, despite their natural immunity to other poisons.   ",
+				"**Cure** 2 saves",
+				"",
+				"This potent toxin is used by both drow and duergar to extract gold from ore and to eliminate political enemies. Cyanide poisoning usually manifests as bright red flushing of the skin, even more noticeable in pallid creatures like derros and duergar."
+			]
+		},
+		{
+			"name": "Black lotus extract",
+			"file": "poisondisplay8b1a.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Black lotus extract",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 4,500 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 20   ",
+				"**Onset** 1 minute; **Frequency** 1/round for 6 rounds   ",
+				"**Effect** 1d6 Con   ",
+				"**Cure** 2 saves"
+			]
+		},
+		{
+			"name": "Leopard's bane",
+			"file": "poisondisplaye92c.html",
+			"sources": [
+				"Antihero's Handbook"
+			],
+			"description": [
+				"## Leopard's bane",
+				"",
+				"**Sources** [Antihero's Handbook pg. 29](source:Antihero's_Handbook)",
+				"",
+				"**Price** 4,500 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 20   ",
+				"**Onset** 1 minute; **Frequency** 1/round for 6 rounds   ",
+				"**Effect** Consuming the flowers of this plant weakens the walls of the imbiber's veins, causing them to rupture. The target takes 1d2 points of Constitution drain and 1d4 points of bleed damage. Blood (or an equivalent bodily fluid, if the imbiber does not have blood) flows from the target's eyes, causing the subject to be blinded for the duration of the bleed effect. This bleeding can be stopped as normal (with a successful DC 15 Heal check or the application of any magical healing)   ",
+				"**Cure** 2 saves"
+			]
+		},
+		{
+			"name": "King's sleep",
+			"file": "poisondisplay31e7.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## King's sleep",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 5,000 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 19   ",
+				"**Onset** 1 day; **Frequency** 1/day   ",
+				"**Effect** 1 Con drain   ",
+				"**Cure** 2 saves"
+			]
+		},
+		{
+			"name": "Whisperwound",
+			"file": "poisondisplay4ebc.html",
+			"sources": [
+				"Dirty Tactics Toolbox"
+			],
+			"description": [
+				"## Whisperwound",
+				"",
+				"**Sources** [Dirty Tactics Toolbox pg. 9](source:Dirty_Tactics_Toolbox)",
+				"",
+				"**Price** 5,000 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 20   ",
+				"**Onset** 1 minute; **Frequency** 1 round   ",
+				"**Effect** 1d6 Constitution damage. As long as any Constitution damage from this poison remains, the target finds it physically painful to speak above a soft whisper. Whenever the subject attempts to speak in a loud, clear voice'such as when casting a spell-he takes 2d6 points of damage   ",
+				"**Cure** 1 save"
+			]
+		},
+		{
+			"name": "Shamweed",
+			"file": "poisondisplay509a.html",
+			"sources": [
+				"Guide to the River Kingdoms"
+			],
+			"description": [
+				"## Shamweed",
+				"",
+				"**Sources** [Guide to the River Kingdoms pg. 14](source:Guide_to_the_River_Kingdoms)",
+				"",
+				"**Price** 6,500 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 18   ",
+				"**Onset** immediate and 1 week, see effect; **Frequency** varies, see effect   ",
+				"**Initial Effect** +1 Con/day for 1 week; **Secondary Effect** all Con gained from initial effect removed, 1d6 Con damage/day for 7 days   ",
+				"**Cure** 2 consecutive saves"
+			]
+		},
+		{
+			"name": "Tears of death",
+			"file": "poisondisplayaa64.html",
+			"sources": [
+				"Ultimate Equipment"
+			],
+			"description": [
+				"## Tears of death",
+				"",
+				"**Sources** [Ultimate Equipment pg. 111](source:Ultimate_Equipment)",
+				"",
+				"**Price** 6,500 gp; **Weight** &mdash;   ",
+				"**Type** contact; **Save** Fortitude DC 22   ",
+				"**Onset** 1 minute; **Frequency** 1/minute for 6 minutes   ",
+				"**Effect** 1d6 Con and paralyzed 1 minute"
+			]
+		},
+		{
+			"name": "Widow's kiss",
+			"file": "poisondisplaya656.html",
+			"sources": [
+				"Agents of Evil"
+			],
+			"description": [
+				"## Widow's kiss",
+				"",
+				"**Sources** [Agents of Evil pg. 22](source:Agents_of_Evil)",
+				"",
+				"**Price** 7,000 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 24   ",
+				"**Onset** 1d4 days; **Frequency** 1/day   ",
+				"**Effect** 1d3 Con, see text   ",
+				"**Cure** 3 saves",
+				"",
+				"Developed by the spiderlike jorogumos (Pathfinder RPG Bestiary 3 156), widow's kiss is distilled from the monsters' natural venom and infused with minuscule spider eggs. Creatures injected with the toxin experience headaches and cold sweats, after which the eggs begin to hatch and infest the host's bloodstream, slowly eating the body from within. If controlled or enticed, the swarm of spiders can take direct control of its host's body, rendering hosts susceptible to effects that control or influence vermin, including a jorogumo's spider empathy ability.",
+				"",
+				"The effects of widow's kiss can be removed a combination of cure disease and neutralize poison. If a creature is slain by the poison's Constitution damage, a spider swarm (Pathfinder RPG Bestiary 258) erupts from the body 1d6 rounds later."
+			]
+		},
+		{
+			"name": "Kiss of barbatos",
+			"file": "poisondisplay7f40.html",
+			"sources": [
+				"Magnimar, City of Monuments"
+			],
+			"description": [
+				"## Kiss of barbatos",
+				"",
+				"**Sources** [Magnimar, City of Monuments pg. 45](source:Magnimar,_City_of_Monuments)",
+				"",
+				"**Price** 7,500 gp; **Weight** &mdash;   ",
+				"**Type** contact, ingested; **Save** Fortitude DC 23   ",
+				"**Onset** 1d6 days; **Frequency** 1/day   ",
+				"**Effect** fatigued, 1d2 Str drain, and 1 Con drain   ",
+				"**Cure** 3 consecutive saves"
+			]
+		},
+		{
+			"name": "Fool's Leprosy",
+			"file": "poisondisplay8c4c.html",
+			"sources": [
+				"Curse of the Crimson Throne"
+			],
+			"description": [
+				"## Fool's Leprosy",
+				"",
+				"**Sources** [Curse of the Crimson Throne pg. 432](source:Curse_of_the_Crimson_Throne)",
+				"",
+				"**Price** 10,000 gp; **Weight** &mdash;   ",
+				"**Type** ingested; **Save** Fortitude DC 20   ",
+				"**Onset** 1 day; **Frequency** 1/day for 6 days   ",
+				"**Effect** 1d2 Cha damage and 1d2 Con drain   ",
+				"**Cure** 3 consecutive saves",
+				"",
+				"This cunning supernatural venom was originally engineered by Red Mantis alchemists. Fool's leprosy is a slow-acting but ultimately fatal ingested toxin that, once it takes hold in its victim's system, closely mimics the effects of a fast-moving form of [leprosy](unknown:leprosy). An attempt to divine its nature via [detect poison](spell:detect_poison) fails unless the caster succeeds at a DC 25 caster level check, and use of a spell like [diagnose disease](spell:diagnose_disease) always misidentifies the venom as a disease unless the caster succeeds at a DC 25 caster level check. In either event, the GM should roll for these caster level checks in secret. [Neutralize poison](spell:Neutralize_poison) and [slow poison](spell:slow_poison) function normally on a person suffering from fool's leprosy, but spells like [remove disease](spell:remove_disease) do not, as the condition is a poison effect, not a disease effect. [Heal](spell:Heal) can cure the effects of fool's leprosy but does nothing to educate the caster about the nature of the effect it removes. As long as the truth about fool's leprosy remains hidden, a successful DC 35 Heal check is required to recognize that someone suffering from its effects is affected by poison, not a disease."
+			]
+		}
+	]
+}

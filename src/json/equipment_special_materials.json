@@ -2,14 +2,19 @@
     "description": [
 		"**Special Materials**",
 		"",
-		"Description Source: [Ultimate Equipment](source:Ultimate_Equipment)",
+		"**Description Source:** [Ultimate Equipment](source:Ultimate_Equipment)",
 		"Weapons and armor can be crafted using materials that have innate special properties. If you make a suit of armor or a weapon out of more than one special material, you get the benefit of only the most prevalent material. However, you can build a double weapon with each head made of a different special material.",
+		"",
 		"Each of the special materials described below has a definite game effect. Some creatures have damage reduction that makes them resistant to all but a special type of damage, such as that dealt by evil-aligned weapons or bludgeoning weapons. Others are vulnerable to weapons of a particular material. Characters may choose to carry several different types of weapons, depending upon the types of creatures they most commonly encounter.",
+		"",
 		"**Primitive Materials**",
 		"",
 		"The standard Pathfinder Roleplaying Game campaign takes place in a time period similar to the medieval and early Renaissance age of iron and steel. But even in fantasy campaigns set in this era, some cultures lack steel, and some lack metalworking entirely. Sometimes this deficit is due to geographical remoteness, lack of resources, repression by a strong overlord, or societal taboos. Other campaigns might be set before the medieval era, or in a dark future where apocalypse survivors eke out livings with the best tools they can scavenge. Some might even choose a lower level of technology as a point of pride, for religious reasons, as an assertion of superior martial prowess, or even to honor ancestral warriors by using their bones to make weapons, allowing them to symbolically keep fighting for their tribe or family from beyond the grave.",
+		"",
 		"Primitive campaigns can be broken into two broad categories based on the level of technology. The first is the Stone Age, where worked metals are all but unknown. The second is the Bronze Age, where metal weapons appear but iron and steel have not been mastered or are rare.",
+		"",
 		"The following section presents general rules for armor and weapons made of bone, bronze, gold, obsidian, and stone. Most of these materials aren't as strong as steel and refer to the fragile quality for weapons and armor (see page 22).",
+		"",
 		"Items made from these materials can be magically strengthened at an additional cost of 100 gp per pound. See the individual material descriptions for the effect this has on the material's properties."
     ],
     "list": [
@@ -188,7 +193,7 @@
 				"",
 				"Caphorite, also known as drowstone, is a supernatural metallic ore found in large deposits in Sekamina. This radioactive mineral emits a magical radiation that registers a faint aura of transmutation magic to detect magic, though caphorite itself has no magical qualities and no effective caster level. Living creatures suffer no ill effects from caphorite radiation; however, plants exposed to caphorite radiation tend to grow more quickly, and with long-term exposure (over the course of several generations), they sometimes develop rudimentary sentience. Additionally, anyone attempting to cast a spell with the light descriptor within 30 feet of caphorite must succeed at a DC 15 caster level check or have the spell disrupted.",
 				"",
-				"Caphorite Ammunition: This ammunition typically consists of crossbow bolts, often employed by drow house guards. A caphorite arrow or bolt detonates on impact, its head shattering in a mass of fine caphorite particulate. Any nonmagical light in a 10-foot radius is immediately extinguished, while spells of 2nd level or lower with the light descriptor are rendered inactive for 1d4+1 rounds. Higher-level spells with the light descriptor are unaffected. Caphorite ammunition has a cost of +10 gp per item."
+				"**Caphorite Ammunition:** This ammunition typically consists of crossbow bolts, often employed by drow house guards. A caphorite arrow or bolt detonates on impact, its head shattering in a mass of fine caphorite particulate. Any nonmagical light in a 10-foot radius is immediately extinguished, while spells of 2nd level or lower with the light descriptor are rendered inactive for 1d4+1 rounds. Higher-level spells with the light descriptor are unaffected. Caphorite ammunition has a cost of +10 gp per item."
 			]
 		},
 		{
@@ -491,9 +496,9 @@
 				"",
 				"The Irespan's stones are infused with a unique variant of Thassilonian preservative magic. Scholars suspect that these features have grown in the stones of the bridge over the ages since Earthfall, and were not originally intended or even anticipated by the structure's architects. Bridge stones harvested from underwater rubble or mined from offshore pilings are not only of great value to builders and sculptors, but also of particular interest to those seeking to create stone constructs.",
 				"",
-				"Physical Properties: Irespan basalt is as hard as iron, while retaining its other stony features for carving and building. It has hardness 10 and typically fetches a price of about 5 sp per pound. However, since few buyers are interested in stones of less than 1,000 pounds, the Irespan basalt trade is relatively limited to specialists capable of harvesting and transporting such heavy blocks.",
+				"**Physical Properties:** Irespan basalt is as hard as iron, while retaining its other stony features for carving and building. It has hardness 10 and typically fetches a price of about 5 sp per pound. However, since few buyers are interested in stones of less than 1,000 pounds, the Irespan basalt trade is relatively limited to specialists capable of harvesting and transporting such heavy blocks.",
 				"",
-				"Building Constructs: When a construct's materials consist entirely of Irespan stone, its Craft DC increases by +5, but the required Caster Level decreases by 1. In addition, stone constructs crafted from Irespan stone gain a +2 bonus to Strength and gain twice as many bonus hit points as normal from the construct type."
+				"**Building Constructs:** When a construct's materials consist entirely of Irespan stone, its Craft DC increases by +5, but the required Caster Level decreases by 1. In addition, stone constructs crafted from Irespan stone gain a +2 bonus to Strength and gain twice as many bonus hit points as normal from the construct type."
 			]
 		},
 		{
@@ -506,7 +511,7 @@
 				"",
 				"Lazurite is a decayed form of a radioactive material no longer found in its natural form within the Darklands, said to be the remnants of a long-dead god. Lazurite is encountered exclusively in Sekamina, and appears as a crumbling black dust that emits a strong aura of necromancy. A corpse left within 30 feet of a naturally occurring deposit of lazurite for 24 hours has a 50% chance of spontaneously reanimating as a free-willed ghoul (often with the class levels it had in life). All undead within an area of lazurite radiation gain a +4 bonus on Will saves to resist channeled energy.",
 				"",
-				"Lazurite-Bonded Armor: While crafting lazurite equipment has proven to be a notoriously difficult feat, some artificers, particularly among Darklands ghouls, have concocted a means of coaxing small amounts of lazurite into sets of armor. These sets of armor include thin lines of blackened lazurite crisscrossing the regular surface of the armor. A creature wearing a set of lazurite-bonded armor gains a +2 bonus on saves to resist channeled energy and against cure spells. The wearer must attempt a Will save against positive energy channeling, regardless of whether it's harmful or helpful to the wearer. A living creature slain while wearing lazurite-bonded armor has a 10% chance of spontaneously rising as a ghoul after 24 hours.",
+				"**Lazurite-Bonded Armor:** While crafting lazurite equipment has proven to be a notoriously difficult feat, some artificers, particularly among Darklands ghouls, have concocted a means of coaxing small amounts of lazurite into sets of armor. These sets of armor include thin lines of blackened lazurite crisscrossing the regular surface of the armor. A creature wearing a set of lazurite-bonded armor gains a +2 bonus on saves to resist channeled energy and against cure spells. The wearer must attempt a Will save against positive energy channeling, regardless of whether it's harmful or helpful to the wearer. A living creature slain while wearing lazurite-bonded armor has a 10% chance of spontaneously rising as a ghoul after 24 hours.",
 				"",
 				"A set of light armor bonded with lazurite costs an additional 1,500 gp. A set of medium armor bonded with lazurite costs an additional 2,500 gp. A set of heavy armor bonded with lazurite costs an additional 3,500 gp."
 			]
