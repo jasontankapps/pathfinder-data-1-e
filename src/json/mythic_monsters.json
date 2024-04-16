@@ -434,7 +434,7 @@
 				"",
 				"Rather than rejoicing at the news of his rival's demise, the rajah of Praramdav feared that a Spawn of Rovagug might visit the same cataclysm upon his kingdom. He issued incentives of wealth and power to lure the brightest minds to his capitol; hundreds of sages answered his call and concluded that only a comparably large guardian could repel a Spawn's attack. Pointing to Rovagug's destructive power, the scholars informed the rajah that only the purest, most infallible and incorruptible material would do: gold.",
 				"",
-				"With study and divination revealing no weakness to the Tarrasque, the rajah desperately clung to the idea of a powerful golden guardian and turned his powerful army against his other neighbors in order to fund this ambitious construct. Within 5 years, the form of the colossus was complete, a dozen kingdoms were under the rajah's control, and a great army-known as the Gilded Host'stood ready to fight alongside its golden champion. Despite the construct's tremendous might, further divination determined that the Champion of the Gilded Host was still incapable of defeating a Spawn of Rovagug. The rajah continued to spend money to improve the construct, unwilling to abandon a weapon that had already consumed such vast resources. However, the Tarrasque never came.",
+				"With study and divination revealing no weakness to the Tarrasque, the rajah desperately clung to the idea of a powerful golden guardian and turned his powerful army against his other neighbors in order to fund this ambitious construct. Within 5 years, the form of the colossus was complete, a dozen kingdoms were under the rajah's control, and a great army-known as the Gilded Host-stood ready to fight alongside its golden champion. Despite the construct's tremendous might, further divination determined that the Champion of the Gilded Host was still incapable of defeating a Spawn of Rovagug. The rajah continued to spend money to improve the construct, unwilling to abandon a weapon that had already consumed such vast resources. However, the Tarrasque never came.",
 				"",
 				"Without a great victory to justify its leader's aggressive policies and reckless spending, Praramdav was unable to hold onto its new territory. It collapsed into bankruptcy, and its vassal kingdoms attempted in vain to melt down the colossus but succeeded only in breaking it into five virtually invulnerable sections: two arms, the head, the torso, and its articulated serpentine tail. A different kingdom claimed each one as spoils of Praramdav's folly. Nearly a millennium later, these same kingdoms had managed to reunite three of the pieces when Unyielding Kothogaz arrived in Vudra, but the Spawn of Rovagug attacked and scattered the pieces far and wide in its rampage. Ultimately, it was not a golden champion but an army of hero-priests that defeated Kothogaz."
 			],
@@ -711,7 +711,7 @@
 				"",
 				"**Deadly Fumes (Ex)** An iron colossus emits a 30-foot-radius cloud of poisonous gas, exposing creatures that start their turn in this area.",
 				"",
-				"Deadly Fumes: inhaled'save Fort DC 21; frequency 1/round for 2 rounds; effect 1d4 Constitution damage and sickened; cure 1 save.",
+				"Deadly Fumes: inhaled-save Fort DC 21; frequency 1/round for 2 rounds; effect 1d4 Constitution damage and sickened; cure 1 save.",
 				"",
 				"**Fire Absorption (Ex)** Not only is a flesh colossus immune to fire, but when targeted or hit by a spell or attack that would deal fire damage, it heals half the fire damage it would be dealt.",
 				"",
@@ -1065,7 +1065,7 @@
 				"*Constant*-true seeing, unholy aura (DC 26)   ",
 				"*At will*-greater teleport (self plus 50 lbs. of objects only), project image (DC 25), telekinesis (DC 23)   ",
 				"*3/day*-blade barrier (DC 24), fly, heal (self only)   ",
-				"*1/day*'summon (level 5, 1 marilith 20%, 1 nalfeshnee 35%, or 1d4 hezrous 60%)"
+				"*1/day*-summon (level 5, 1 marilith 20%, 1 nalfeshnee 35%, or 1d4 hezrous 60%)"
 			],
 			"str": 31,
 			"dex": 19,
@@ -1328,7 +1328,7 @@
 				"*Constant*-fly   ",
 				"*At will*-dimensional anchor, greater teleport (self plus 50 lbs. of objects only), invisibility (self only), major image (DC 17), wall of ice   ",
 				"*3/day*-quickened invisibility (self only)   ",
-				"*1/day*'summon (level 4, 1 bone devil 35%)"
+				"*1/day*-summon (level 4, 1 bone devil 35%)"
 			],
 			"str": 25,
 			"dex": 21,
@@ -1394,7 +1394,7 @@
 				"**Spell-Like Abilities (CL 13th; concentration +20)   ",
 				"*Constant*-fly   ",
 				"*At will*-cone of cold (DC 22), ice storm, greater teleport (self plus 50 lbs. of objects only), persistent image (DC 22), wall of ice (DC 21)   ",
-				"*1/day*'summon (level 4, 2 bone devils 50%)"
+				"*1/day*-summon (level 4, 2 bone devils 50%)"
 			],
 			"str": 25,
 			"dex": 21,
@@ -3812,7 +3812,7 @@
 				"**Unending (Su)** When a solar pitri is slain by a non-mythic source, it returns to life 24 hours later at the heart of the Positive Energy Plane."
 			],
 			"description": [
-				"Nearly perfect in form, action, and thought, solar pitris are revered as godlike creatures, and possess souls on fire with the radiance of creation and reincarnation. Solar pitris are in some ways alien to mortal reality, yet strongly in tune with it by way of the cycle of reincarnation. Each solar pitri is the embodiment of a soul that lived thousands- if not millions-of incarnations in at least one other multiverse that existed prior to the creation of the current one. Final expressions of enlightenment, these incredibly powerful entities have guided the development of all life for countless eons. Solar pitris possess singular focus on the development of the entire multiverse and all its creatures'some say even of deities themselves-guiding events down a course that leads like a descending spiral to another cycle of reincarnation at the eventual end of the current multiverse and creation of the next.",
+				"Nearly perfect in form, action, and thought, solar pitris are revered as godlike creatures, and possess souls on fire with the radiance of creation and reincarnation. Solar pitris are in some ways alien to mortal reality, yet strongly in tune with it by way of the cycle of reincarnation. Each solar pitri is the embodiment of a soul that lived thousands- if not millions-of incarnations in at least one other multiverse that existed prior to the creation of the current one. Final expressions of enlightenment, these incredibly powerful entities have guided the development of all life for countless eons. Solar pitris possess singular focus on the development of the entire multiverse and all its creatures-some say even of deities themselves-guiding events down a course that leads like a descending spiral to another cycle of reincarnation at the eventual end of the current multiverse and creation of the next.",
 				"",
 				"Some occult scholars contend that there are only seven solar pitris, and that they are the seven kumaras. Others believe that the numbers of these creatures range in the hundreds, thousands, or even millions, but that the majority of the solar pitris rest in still and silent meditation at the heart of the Positive Energy Plane, never venturing out into the vastness of the Astral Plane or other corners of the multiverse. Such sages insist that the intensity of their contemplation and meditation is the underlying fuel for the progression of souls, the expansion of space, and the f low of time. Some even go so far as to credit the solar pitris with the creation of the Cosmic Fire in the first place, though like all theories about the manasaputras in general and the kumaras in particular, the details are the subjects of heated debate and very little concrete evidence.",
 				"",
@@ -4397,7 +4397,7 @@
 				"",
 				"**Shroud of Flame (Su)** A mythic phoenix can cause its feathers to burst into fire as a free action. As long as its feathers are burning, any creature within reach must succeed at a DC 25 Reflex save each round to avoid taking 4d6 points of fire damage at the start of its turn. A creature that attacks the phoenix with natural or non-reach melee weapons takes 1d6 points of fire damage (no save) with each successful hit. The save DC is Constitution-based."
 			],
-			"description": [ "A mythic phoenix is appointed by the gods to watch over the birth, death, and renewal of significant things'such as heroes, religions, or even entire worlds. It uses its powers to destroy evils that would interfere with the great cycle." ],
+			"description": [ "A mythic phoenix is appointed by the gods to watch over the birth, death, and renewal of significant things-such as heroes, religions, or even entire worlds. It uses its powers to destroy evils that would interfere with the great cycle." ],
 			"short_description": "This flaming bird burns as brightly as the sun."
 		},
 		{

@@ -3394,7 +3394,7 @@
 				"Through ritual or force of will, you have awakened the latent power inherited from your hag mother.   ",
 				"**Prerequisites:** Iron Will or Mother's Gift, changeling.   ",
 				"**Benefit:** Your hag heritage racial abilities grow more powerful, granting you a +2 racial bonus on saving throws to resist arcane spells. You also gain a secondary ability that varies by your hag heritage; see the individual changeling heritage entries on pages 5-9.   ",
-				"**Special:** As you grow closer to your hag nature, you occasionally manifest signs of supernatural evil. Each day at midnight, there is a 50% chance you radiate an evil aura for the purposes of divination spells and spell-like abilities for the following 24 hours. On these days, you also cause minor displays of corruption nearby'such as curling pages or spoiling milk-at the GM's discretion"
+				"**Special:** As you grow closer to your hag nature, you occasionally manifest signs of supernatural evil. Each day at midnight, there is a 50% chance you radiate an evil aura for the purposes of divination spells and spell-like abilities for the following 24 hours. On these days, you also cause minor displays of corruption nearby-such as curling pages or spoiling milk-at the GM's discretion"
 			],
 			"short_description": "Awaken the latent power inherited from your hag mother"
 		},
@@ -13981,7 +13981,7 @@
 				"",
 				"**Source**  [Plane-Hopper's Handbook pg. 16](source:Plane-Hopper's_Handbook)",
 				"",
-				"Someone killed you: a monster, a murderer, a soldier, an executioner, it doesn't matter'someone made a conscious decision to end your life.   ",
+				"Someone killed you: a monster, a murderer, a soldier, an executioner, it doesn't matter-someone made a conscious decision to end your life.   ",
 				"**Prerequisites:** Duskwalker.   ",
 				"**Benefit:** Once per day, if you are reduced below 0 hit points as a result of an attack or ability used by another character, as an immediate action you can take a single standard action. You must use this action to attack or harm the creature that damaged you. At 11th level, you can use this feat a second time per day."
 			],
@@ -41869,7 +41869,7 @@
 				"**Source**  [Quests and Campaigns pg. 16](source:Quests_and_Campaigns)",
 				"",
 				"The object of your quest drives you ever forward.   ",
-				"**Prerequisites:** You must have some highly personal stake in attaining the object of your quest as determined collectively by you and the GM'such as needing an ancestral weapon to exact your revenge against a known betrayer, seeking to destroy the artifact that caused your family's downfall generations ago, or attempting to behead a monster that ravaged your homeland during your youth.   ",
+				"**Prerequisites:** You must have some highly personal stake in attaining the object of your quest as determined collectively by you and the GM-such as needing an ancestral weapon to exact your revenge against a known betrayer, seeking to destroy the artifact that caused your family's downfall generations ago, or attempting to behead a monster that ravaged your homeland during your youth.   ",
 				"**Benefit:** When you gain this feat, select one of the quest objects on this page or the facing page, or devise a quest object with your GM based on the quest objects presented in this section. You gain a +2 bonus on any Knowledge checks to gain information on the object of your quest. If you have 10 or more ranks in the Knowledge skill in question, the bonus increases to +4. In addition, once per day when you threaten a critical hit against a foe who specifically aims to stop you from completing your quest, you gain a +10 bonus on your confirmation roll against that opponent. You must announce the use of this ability after threatening the critical hit and before rolling your confirmation roll. This bonus does not stack with bonuses on confirmation rolls from other feats, such as Critical Focus.   ",
 				"**Goal:** Attain the object of your quest, as determined by you and the GM upon taking this feat. This likely means decidedly obtaining the item for yourself, though in some cases (such as when the quest object is more abstract or intangible) this might mean slaying a certain foe, achieving a certain honor, or completing some other set of predetermined objectives.   ",
 				"**Completion Benefit:** You gain renown throughout a region, perhaps even an entire continent. You are sung of in bardic tales and can be the subject of spells such as legend lore, regardless of your actual level. Commoners in nearby lands know of your deeds, and your reputation precedes you in numerous lands. In addition, you gain a specific benefit keyed to the object of your quest. See the quest objects in this section for examples of completion benefits when devising your own quest objects for use with this feat.   ",
@@ -46600,7 +46600,7 @@
 				"",
 				"You summon creatures whose very presence turns the stomach of your foes.   ",
 				"**Prerequisites:** [Spell Focus (conjuration)](feat:Spell_Focus); ability to cast summon monster or summon nature's ally.   ",
-				"**Benefit:** When you cast a summon monster or summon nature's ally spell, you can choose to summon a single creature that exudes a putrid odor or befouls the water surrounding it, granting it the stench universal monster ability. The duration of the sickened condition created by this stench is a number of rounds equal to the spell'slevel. When performing a putrid summon, you summon a creature from the next lower list than the spell you are casting. For instance, if you cast summon monster IV, you summon a creature from the summon monster III list."
+				"**Benefit:** When you cast a summon monster or summon nature's ally spell, you can choose to summon a single creature that exudes a putrid odor or befouls the water surrounding it, granting it the stench universal monster ability. The duration of the sickened condition created by this stench is a number of rounds equal to the spell's level. When performing a putrid summon, you summon a creature from the next lower list than the spell you are casting. For instance, if you cast summon monster IV, you summon a creature from the summon monster III list."
 			],
 			"short_description": "Summon a single weaker creature that has a horrific stench"
 		},
@@ -50413,7 +50413,7 @@
 				"",
 				"You can quickly size up spellcasters to gain an advantage when counterspelling their spells.   ",
 				"**Prerequisites:** Spellcraft 1 rank.   ",
-				"**Benefit:** When you witness a creature casting a spell, you can attempt a Spellcraft check to determine what sort of spellcaster the target is'specifically, what the target's class is. The DC of this skill check is equal to 10 + the spellcaster's Hit Dice. If the target has levels in multiple spellcasting classes, succeeding at this check reveals what class spell list the spell came from. If the result of the check is high enough that it would identify the spell being cast (DC = 15 + the spell's level), you also identify the spell.",
+				"**Benefit:** When you witness a creature casting a spell, you can attempt a Spellcraft check to determine what sort of spellcaster the target is-specifically, what the target's class is. The DC of this skill check is equal to 10 + the spellcaster's Hit Dice. If the target has levels in multiple spellcasting classes, succeeding at this check reveals what class spell list the spell came from. If the result of the check is high enough that it would identify the spell being cast (DC = 15 + the spell's level), you also identify the spell.",
 				"",
 				"Once you have identified the target's class, you can add your Wisdom or Charisma modifier (whichever is higher) to Spellcraft checks to identify all spells the target casts from that class's spell list. Additionally, after you have determined the target's spellcasting class, you can attempt an Intimidate check as a free action to demoralize the target, gaining a bonus equal to your Wisdom or Charisma modifier (whichever is highest)."
 			],

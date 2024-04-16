@@ -131,7 +131,7 @@
 				"**Source** [Inner Sea Gods pg. 12](source:Inner_Sea_Gods)",
 				"",
 				"1. **Lawful Bulwark (Sp)** shield of faith 3/day, shield other 2/day, or archon's aura 1/day",
-				"2. **Unflagging Ally (Sp)** Once per day as a standard action, you can summon a zelekhut inevitable. You gain telepathic communication with the zelekhut to a range of 100 feet, and the zelekhut follows your commands perfectly for 1 minute for each Hit Die you possess before vanishing back to its home. The zelekhut doesn't obey any command that would violate its lawful alignment'such commands are met with grim refusal, and could even prompt the zelekhut to attack you if the command is egregious enough.",
+				"2. **Unflagging Ally (Sp)** Once per day as a standard action, you can summon a zelekhut inevitable. You gain telepathic communication with the zelekhut to a range of 100 feet, and the zelekhut follows your commands perfectly for 1 minute for each Hit Die you possess before vanishing back to its home. The zelekhut doesn't obey any command that would violate its lawful alignment-such commands are met with grim refusal, and could even prompt the zelekhut to attack you if the command is egregious enough.",
 				"3. **Dictum Blow (Su)** Once per day, you can channel the effects of dictum through your weapon, though you don't need to cast (or even know) the spell. You must declare your use of this ability before rolling your attack. On a hit, the target is affected as if caught in the area of dictum as cast by a cleric of a level equal to your Hit Dice (maximum 20). If the target is lawful or its Hit Dice exceeds yours, it is unaffected. If your attack misses or the creature is unaffected, the dictum effect is wasted."
 			],
 			"paladin_code": [
@@ -2930,7 +2930,7 @@
 				"**Source** [Inner Sea Gods pg. 20](source:Inner_Sea_Gods)",
 				"",
 				"1. **Unholy Warrior (Sp)** protection from good 3/day, death knell 2/day, or defile armor 1/day",
-				"2. **Deceitful Duelist (Ex)** Your devotion to the Prince of Darkness has imbued you with some of his trickery. Three times per day, you can attempt a feint as a swift action. You gain a +4 profane bonus on your Bluff check when attempting to feint using this ability. If you successfully attack a creature that has lost its Dexterity bonus to AC as a result of your feint, you deal an additional 1d6 points of damage. This is in addition to any other precision-based damage you deal'such as from a sneak attack-and isn't multiplied on a critical hit.",
+				"2. **Deceitful Duelist (Ex)** Your devotion to the Prince of Darkness has imbued you with some of his trickery. Three times per day, you can attempt a feint as a swift action. You gain a +4 profane bonus on your Bluff check when attempting to feint using this ability. If you successfully attack a creature that has lost its Dexterity bonus to AC as a result of your feint, you deal an additional 1d6 points of damage. This is in addition to any other precision-based damage you deal-such as from a sneak attack-and isn't multiplied on a critical hit.",
 				"3. **Diabolical Resistances (Su)** Your dark patron rewards your faith with a few drops of devilish blood in your veins, granting you a measure of the resilience enjoyed by devilkind. Your skin takes on a ruddy cast, and your teeth grow slightly sharper. To a casual observer you may look no different, but anyone who studies you closely notices these traits. You gain fire resistance 10 and a +4 profane bonus on saving throws against poison."
 			],
 			"boon_fiendish_obedience": [
@@ -6673,7 +6673,7 @@
 				"**Sacred Color(s)** Blue, gold"
 			],
 			"obedience": [
-				"Offer a bowl of fresh blood to Dagon by speaking prayers over the blood and then emptying the blood into the sea. The bowl must be made of gold and inscribed with runes sacred to Dagon'such a bowl must be worth no less than 100 gp, but can be reused for multiple obediences. Gain a +4 profane bonus against the extraordinary or supernatural attacks of creatures with the aquatic or water subtype."
+				"Offer a bowl of fresh blood to Dagon by speaking prayers over the blood and then emptying the blood into the sea. The bowl must be made of gold and inscribed with runes sacred to Dagon-such a bowl must be worth no less than 100 gp, but can be reused for multiple obediences. Gain a +4 profane bonus against the extraordinary or supernatural attacks of creatures with the aquatic or water subtype."
 			],
 			"boon_demonic_obedience": [
 				"**Demoniac**",
@@ -7125,7 +7125,7 @@
 				"**Source** [Book of the Damned pg. 42](source:Book_of_the_Damned)",
 				"",
 				"1. **Swarming Susurrus (Sp)** inflict light wounds  3/day, summon swarm 2/day, or summon monster III (vermin only) 1/day",
-				"2. **Swarm-Walker (Su)** You can walk through any swarm without taking damage or suffering any ill effects'swarms recognize you as one of their own. As long as you stand within a swarm, you gain a +4 profane bonus on initiative checks and saving throws.",
+				"2. **Swarm-Walker (Su)** You can walk through any swarm without taking damage or suffering any ill effects-swarms recognize you as one of their own. As long as you stand within a swarm, you gain a +4 profane bonus on initiative checks and saving throws.",
 				"3. **Swarm Master (Sp)** You can cast quickened insect plague once per day.",
 				"",
 				"**Sentinel**",
@@ -14161,7 +14161,7 @@
 				"",
 				"1. **Nature's Offense (Sp)** [entangle](spell:entangle) 3/day, [gust of wind](spell:gust_of_wind) 2/day, or [earth tremor](spell:earth_tremor) 1/day",
 				"2. **Forest's Ward (Su)** You are a sacred guardian of the forest, protecting the wilderness as Ketephys does, and the forest protects you in turn. Whenever you are in the forest, you gain a +2 sacred bonus to AC. No matter what terrain you are in, creatures of the animal type must succeed at a Will save (DC = 10 + your Hit Dice) or be unable to attack you unless you harm them first.",
-				"3. **Hunter's Shot (Ex)** You have practiced Ketephys's art of archery for so long that you can ignore effects that would ruin shots for lesser archers'some say your aim is as good as that of the Hunter himself. You ignore cover or concealment from plants, though trees large enough to completely block your vision still provide total cover to the target. You also take no penalties on your ranged attacks due to the effects of wind, and you ignore any miss chance caused by mundane or magical winds. This ability functions no matter what terrain you are in."
+				"3. **Hunter's Shot (Ex)** You have practiced Ketephys's art of archery for so long that you can ignore effects that would ruin shots for lesser archers-some say your aim is as good as that of the Hunter himself. You ignore cover or concealment from plants, though trees large enough to completely block your vision still provide total cover to the target. You also take no penalties on your ranged attacks due to the effects of wind, and you ignore any miss chance caused by mundane or magical winds. This ability functions no matter what terrain you are in."
 			],
 			"for_followers": [
 				"#### Traits",
@@ -16690,7 +16690,7 @@
 				"",
 				"1. **Fool Maker (Sp)** charm person 3/day, undetectable alignment 2/day, or suggestion 1/day",
 				"2. **Persecutor (Ex)** You can use your Bluff skill to demoralize opponents and influence an opponent's attitude as though it were the Intimidate skill. The effects function the same. Additionally, you may use the Knowledge (religion) skill on any check related to knowing about or interpreting the law-including infernal contracts.",
-				"3. **Charming Liar (Su)** Whenever you use the Bluff skill, you can use the Diplomacy skill to influence an NPC's attitude at the same time. Both skill checks are made independently, so even if one fails, the other might succeed'suggesting an obvious but charming falsehood or an aggravating but convincing lie. Additionally, any spell of the charm subschool that you cast has its DC increased by 2.",
+				"3. **Charming Liar (Su)** Whenever you use the Bluff skill, you can use the Diplomacy skill to influence an NPC's attitude at the same time. Both skill checks are made independently, so even if one fails, the other might succeed-suggesting an obvious but charming falsehood or an aggravating but convincing lie. Additionally, any spell of the charm subschool that you cast has its DC increased by 2.",
 				"",
 				"**Exalted**",
 				"",
@@ -20387,7 +20387,7 @@
 				"**Source** [Inner Sea Gods pg. 116](source:Inner_Sea_Gods)",
 				"",
 				"1. **Preserver (Sp)** sanctuary 3/day, gentle repose 2/day, or speak with dead 1/day",
-				"2. **Decomposition (Su)** You can ensure the final rest of a creature. As a standard action, you can touch a corpse and cause it to dissolve into black ash. A corpse dissolved this way cannot be raised as an undead creature by any means short of a miracle or wish. The black ash left behind can, however, be used as the \"corpse\" for spells that return the dead to true life'such as raise dead-as long as the entire collection of ash is kept together.",
+				"2. **Decomposition (Su)** You can ensure the final rest of a creature. As a standard action, you can touch a corpse and cause it to dissolve into black ash. A corpse dissolved this way cannot be raised as an undead creature by any means short of a miracle or wish. The black ash left behind can, however, be used as the \"corpse\" for spells that return the dead to true life-such as raise dead-as long as the entire collection of ash is kept together.",
 				"3. **The Veil Is Drawn Aside (Su)** You gain the Extra Revelation feat, choosing a revelation from either your chosen mystery or the Bones mystery. If you don't have the revelation class feature, you instead gain a +4 sacred or profane bonus on saving throws against necromancy spells and death effects.",
 				"",
 				"**Exalted**",
@@ -23539,7 +23539,7 @@
 				"**Sacred Color(s)** White"
 			],
 			"obedience": [
-				"Build something small and fragile'such as a house of cards, an ice sculpture, or a sand castle-while contemplating the fleeting nature of existence and the inevitability of entropy. Leave your creation to decay at its own pace. You gain a +2 sacred bonus on initiative checks."
+				"Build something small and fragile-such as a house of cards, an ice sculpture, or a sand castle-while contemplating the fleeting nature of existence and the inevitability of entropy. Leave your creation to decay at its own pace. You gain a +2 sacred bonus on initiative checks."
 			],
 			"boon_fey_obedience": [
 				"**Feysworn**",

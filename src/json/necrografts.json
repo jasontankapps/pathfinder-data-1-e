@@ -4,7 +4,7 @@
 		"",
 		"**Description Source:** [Black Markets](source:Black_Markets)",
 		"",
-		"Grafting undead components to a living creature is illegal outside of Geb, but black markets across the Inner Sea region still trade in these undead body parts. Most prospective necrograft hosts seek out these macabre additions to replace a sick or missing body part, although some see necrografts as an extreme form of body modification, excising perfectly healthy body parts to make room for undead flesh. Not all necrograft hosts are willing recipients'some are forced to endure the surgical process as part of mad experiments.",
+		"Grafting undead components to a living creature is illegal outside of Geb, but black markets across the Inner Sea region still trade in these undead body parts. Most prospective necrograft hosts seek out these macabre additions to replace a sick or missing body part, although some see necrografts as an extreme form of body modification, excising perfectly healthy body parts to make room for undead flesh. Not all necrograft hosts are willing recipients-some are forced to endure the surgical process as part of mad experiments.",
 		"",
 		"A skilled necrograft surgeon (often a necromancer) is required to install a necrograft. Necrografts can be attached only to humanoids and only to replace a part-a necrograft arm can't be added in addition a human's two healthy arms, for example, but could replace a lost arm. When a necrograft is attached (a process requiring 1 hour), the recipient must succeed at a DC 18 Fortitude save or the necrograft fails to integrate with his body. Either way, the recipient takes 2 points of Constitution damage from the surgery.",
 		"",
@@ -93,7 +93,7 @@
 				"**Aura** faint abjuration and necromancy; **CL** 5th",
 				"**Slot** ; **Price** 20,000 gp; **Weight** &mdash;",
 				"",
-				"This necrograft weaves strips of rotted skin across the bearer's body in a grisly process of scarification. The dense, undead hide provides a +2 enhancement bonus to its host's natural armor bonus, and causes undead creatures to perceive the host as one of their own'skeletons, zombies, and other mindless undead ignore a character implanted with sallowflesh unless attacked first. Intelligent undead may also be fooled by this effect, but can recognize the host as a living creature with a successful DC 11 Will save; on a failed save, the undead assumes the host to be another intelligent undead. Undead attacked by the host, or that witness the host channel positive energy, can immediately see through this effect. Sallowflesh has no effect on living creatures' perceptions."
+				"This necrograft weaves strips of rotted skin across the bearer's body in a grisly process of scarification. The dense, undead hide provides a +2 enhancement bonus to its host's natural armor bonus, and causes undead creatures to perceive the host as one of their own-skeletons, zombies, and other mindless undead ignore a character implanted with sallowflesh unless attacked first. Intelligent undead may also be fooled by this effect, but can recognize the host as a living creature with a successful DC 11 Will save; on a failed save, the undead assumes the host to be another intelligent undead. Undead attacked by the host, or that witness the host channel positive energy, can immediately see through this effect. Sallowflesh has no effect on living creatures' perceptions."
 			],
 			"construction": "**Requirements** Craft Wondrous Item, animate dead, hide from undead, creator must have 5 ranks in Heal; **Cost** 10000 gp"
 		},
