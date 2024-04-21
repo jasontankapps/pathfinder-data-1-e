@@ -46908,7 +46908,7 @@
 				"",
 				"Your trap-making proficiency improves greatly.   ",
 				"**Prerequisites:** [Learn Ranger Trap](feat:Learn_Ranger_Trap) or trap class feature, Survival 5 ranks.   ",
-				"**Benefit:** When setting a [ranger trap](call/ability:traps), you can do so as a standard action rather than a full-round action. If you do so, the trap DC is reduced by 5."
+				"**Benefit:** When setting a [ranger trap](class/ability:traps), you can do so as a standard action rather than a full-round action. If you do so, the trap DC is reduced by 5."
 			],
 			"short_description": "Reduce the DC to set traps by 5 and learn to do so as a standard action"
 		},
