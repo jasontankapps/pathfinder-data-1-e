@@ -36917,5 +36917,2199 @@
 				]
 			}
 		]
+	},
+	"arcane_discoveries": {
+		"description": [
+			"## Arcane Discoveries",
+			"",
+			"**Source** [Ultimate Magic](source:Ultimate_Magic)   ",
+			"Wizards spend much of their lives seeking deeper truths, hunting knowledge as if it were life itself. The wizard's power is not necessarily the spells he wields; spells are merely the outward, most visible manifestation of that power. A wizard's true power is in his fierce intelligence, his dedication to his craft, and his ability to peel back the surface truths of reality to understand the fundamental underpinnings of existence. A wizard spends much of his time researching spells, and would rather find an undiscovered library than a room full of gold. A wizard need not be a reclusive bookworm, but he must have a burning curiosity for the unknown. Arcane discoveries are the results of this obsession with magic. A wizard can learn an arcane discovery in place of a regular feat or wizard bonus feat.",
+			"",
+			"---",
+			"",
+			"**Alchemical Affinity** ([Magical Marketplace pg. 18](source:Magical_Marketplace)): Having studied alongside alchemists, you've learned to use their methodologies to enhance your spellcraft. Whenever you cast a spell that appears on both the wizard and alchemist spell lists, you treat your caster level as 1 higher than normal and the save DC of such spells increases by 1. Additionally, you may copy spells from an alchemist's formula book into your spellbook just as you could with another wizard's spellbook. You must be at least a 5th-level wizard to select this discovery.",
+			"",
+			"**Arcane Builder** ([Ultimate Magic pg. 86](source:Ultimate_Magic)): You have an exceptional understanding of the theory behind creating magical items. Select one type of magic item (potions, wondrous items, and so on). You create items of this type 25% faster than normal, and gain a +4 bonus on Spellcraft checks (or other checks, as appropriate) to craft items of this type. You may select this discovery multiple times; its effects do not stack. Each time you select this discovery, it applies to a different type of magic item.",
+			"",
+			"**Balanced Summoning** ([Champions of Balance pg. 20](source:Champions_of_Balance)): You maintain balance by calling on opposing forces when summoning. Whenever you cast a summon monster spell, you can summon two creatures from a single list 1 or more levels lower than the level of the spell. The two creatures must have alignments that are opposite along at least one axis (chaotic and lawful or evil and good). For example, if you cast summon monster III, you could summon a celestial wolf and a fiendish hyena from the 2nd-level list.",
+			"",
+			"**Beyond Morality (Su)** ([Champions of Balance pg. 21](source:Champions_of_Balance)): As long as you are neutral, you may choose to be treated as the most favorable alignment when affected by spells whose effects vary based on alignment (such as holy word). If you are neutral in relation to evil and good, you may choose to be treated as good or evil. If you are neutral in relation to chaos and law, you may choose to be treated as lawful or chaotic. You may only choose to be treated as one alignment type along a single axis at a time (for instance, if you were within the area of both a magic circle against evil spell and an unholy blight spell, you would have to choose to be either evil, good, or neutral for the purpose of determining the spells' effects). You must be at least an 9th-level wizard to select this discovery.",
+			"",
+			"**Bonded Mask** ([Pathfinder #80: Empty Graves pg. 26](source:Pathfinder_#80:_Empty_Graves)): Your devotion to the Forgotten Pharaoh enables you to select a mask-typically an Osirian funerary mask-as your bonded item. The mask must be worn to have effect, and occupies the head slot. In addition, the mask shields you from notice. While wearing your bonded mask, efforts to use the Diplomacy skill to gather information about you take a -1 penalty, and you gain a +1 competence bonus on all saving throws against scrying and mind-reading effects that allow saving throws.",
+			"",
+			"**Creative Destruction (Su)** ([Champions of Balance pg. 21](source:Champions_of_Balance)): You have learned how to use destructive energy to empower yourself. When you cast an evocation spell that deals damage, you gain a number of temporary hit points equal to the total number of dice used to determine the damage caused by the spell. Temporary hit points gained from this discovery do not stack and disappear after 1 hour.",
+			"",
+			"**Defensive Feedback (Su)** ([Champions of Balance pg. 21](source:Champions_of_Balance)): Rather than dissipate damaging energy, you can redirect some of it back to its source. When an abjuration spell you cast prevents damage (with damage reduction or energy resistance), if the attacking creature is within 30 feet of the protected creature, the foe takes 1d6 points of damage for every 10 points of damage prevented.",
+			"",
+			"**Faith Magic** ([Magic Tactics Toolbox pg. 3](source:Magic_Tactics_Toolbox)): Select one spell granted by a domain belonging to the god you worship. This spell must be at least 2 levels lower than the highest-level wizard spell you can cast. When you first prepare your spells for the day, you can prepare this spell once, using a spell slot 1 level higher than the spell's actual level. This is cast as a divine spell.",
+			"",
+			"**Fast Study** ([Ultimate Magic pg. 86](source:Ultimate_Magic)): Normally, a wizard spends 1 hour preparing all of his spells for the day, or proportionately less if he only prepares some spells, with a minimum of 15 minutes of preparation. Thanks to mental discipline and clever mnemonics, you can prepare all of your spells in only 15 minutes, and your minimum preparation time is only 1 minute. You must be at least a 5th-level wizard to select this discovery.",
+			"",
+			"**Feral Speech (Su)** ([Ultimate Magic pg. 86](source:Ultimate_Magic)): You gain the ability to speak with and understand the response of any animal as if using [speak with animals](spell:speak_with_animals), though each time you speak to animals, you must decide to communicate with either amphibians, birds, fish, mammals, or reptiles, and can only speak to and understand animals of that type. You can make yourself understood as far as your voice carries. This discovery does not predispose any animal addressed toward you in any way. When you reach 12th level, you can also use this ability to communicate with vermin. You must be at least a 5th-level wizard to select this discovery.",
+			"",
+			"**Golem Constructor** ([Ultimate Magic pg. 86](source:Ultimate_Magic)): You have learned the art and craft of creating a single type of golem (such as stone golems or iron golems). When creating a golem of this type, you count as having the [Craft Wondrous Item](feat:Craft_Wondrous_Item), [Craft_Magic_Arms_and_Armor](feat:Craft Magic Arms and Armor), and [Craft Construct](feat:Craft_Construct) feats. You must meet all other construction requirements for the golem as normal. You may select this discovery multiple times. Each time you select this discovery, it applies to a different kind of golem. You must be at least a 9th-level wizard to select this discovery.",
+			"",
+			"**Idealize (Su)** ([Champions of Balance pg. 21](source:Champions_of_Balance)): In your quest for self-perfection, you have discovered a way to further enhance yourself and others. When a transmutation spell you cast grants an enhancement bonus to an ability score, that bonus increases by 2. At 20th level, the bonus increases by 4. You must be at least a 10th-level wizard to select this discovery.",
+			"",
+			"**Immortality (Ex)** ([Ultimate Magic pg. 86](source:Ultimate_Magic)): You discover a cure for aging, and from this point forward you take no penalty to your physical ability scores from advanced age. If you are already taking such penalties, they are removed at this time. You must be at least a 20th-level wizard to select this discovery.",
+			"",
+			"**Infectious Charms** ([Magical Marketplace pg. 18](source:Magical_Marketplace)): Your charms are so smooth that they're contagious. Anytime you target and successfully affect a single creature with a charm or compulsion spell and that creature is within 30 feet of another opponent, your spell has a chance of affecting the second creature as well. As a swift action immediately after affecting a creature with a charm or compulsion spell, you can cause the spell to carry over to the nearest creature within 30 feet. The spell behaves in all ways as though its new target were the original target of the spell. You must be at least an 11th-level wizard to select this discovery.",
+			"",
+			"**Ioun Bond** ([People of the River pg. 9](source:People_of_the_River)): You can form an arcane bond with an ioun stone. If you choose this arcane discovery at 1st level, you gain a dull gray ioun stone as a bonded object at no cost. A bonded ioun stone must be orbiting your head to have effect. At 12th level, you can turn a bonded dull gray ioun stone into another kind of ioun stone as if you possessed the Craft Wondrous Item feat; if you die or replace a bonded ioun stone that has been transformed in this way, the stone reverts to a dull gray ioun stone. You must have chosen a bonded object as your arcane bond to select this discovery.",
+			"",
+			"**Knowledge Is Power (Ex)** ([People of the River pg. 9](source:People_of_the_River)): Your understanding of physical forces gives you power over them. You add your Intelligence modifier on combat maneuver checks and to your CMD. You also add your Intelligence modifier on Strength checks to break or lift objects.",
+			"",
+			"**Multimorph (Su)** ([Ultimate Magic pg. 86](source:Ultimate_Magic)): Your studies in transmogrification have increased your control over shapechanging spells. When you cast a spell of the polymorph subschool on yourself, you may expend 1 minute of the spell's duration as a standard action to assume another form allowed by the spell. You can do this as often as you like, subject to the duration of the spell. You must be at least a 5th-level wizard to select this discovery.",
+			"",
+			"**Observant Illusion (Su)** ([Spymaster's Handbook pg. 23](source:Spymaster's_Handbook)): You can project your senses into any ongoing figment or shadow illusion you create with a spell of at least 3rd level. You can see through its eyes and hear through its ears as if you were standing where it is, and during your turn you can switch from using its senses to using your own, or back again, as a swift or move action. While you are using its senses, your body is considered blinded and deafened. You must be at least a 9th-level wizard to choose this discovery.",
+			"",
+			"**Opposition Research** ([Ultimate Magic pg. 86](source:Ultimate_Magic)): By completing strenuous studies, you have broken through the mental barriers that made it hard for you to prepare spells from one of your opposition schools. Select one wizard opposition school; preparing spells of this school now only requires one spell slot of the appropriate level instead of two, and you no longer have the -4 Spellcraft penalty for crafting items from that school. You must be at least a 9th-level wizard to select this discovery.",
+			"",
+			"**Psychic Preperation** ([Magic Tactics Toolbox pg. 3](source:Magic_Tactics_Toolbox)): You have learned a limited way to access psychic magic. When you first prepare your spells for the day, you can prepare one spell as a psychic spell. This spell must be at least 2 levels lower than the highest-level wizard spell you can cast, and takes a slot 1 level higher than the spell's actual level. When you cast this spell, it operates as a psychic spell, including using emotional and thought components in place of somatic and verbal components, and only having expensive material components.",
+			"",
+			"**Resilient Illusions** ([Magical Marketplace pg. 18](source:Magical_Marketplace)): You are able to conjure illusions so lifelike that they defy disbelief. Anytime a creature tries to disbelieve one of your illusion effects, make a caster level check. Treat the illusion's save DC as its normal DC or the result of the caster level check, whichever is higher. You must be at least an 8th-level wizard to select this discovery.",
+			"",
+			"**Split Slot** ([Ultimate Magic pg. 86](source:Ultimate_Magic)): Once per day when you prepare spells, you may treat any one of your open spell slots as if it were two spell slots that were two spell levels lower. For example, a 9th-level wizard can split a 5th-level slot into two 3rd-level slots, preparing fireball and lightning bolt in those 3rd-level slots. For all purposes, the two lower-level slots are treated as that lower level (so the split 5th-level slot used for a fireball has a DC as if it were in a normal 3rd-level slot). Splitting a 2nd-level slot lets you prepare two additional cantrips (which you can cast over and over, just like normally prepared cantrips). This discovery has no effect on cantrips or 1st-level spells. You may select this discovery multiple times; each time you select it, you may split another spell slot when you prepare spells. You cannot split a slot that you created by splitting a higher-level slot. You must be at least 5th level to select this discovery.",
+			"",
+			"**Staff-Like Wand** ([Ultimate Magic pg. 87](source:Ultimate_Magic)): Your research has unlocked a new power in conjunction with using a wand. Similar to using a magic staff, you use your own Intelligence score and relevant feats to set the DC for saves against spells you cast from a wand, and you can use your caster level when activating the power of a wand if it's higher than the caster level of the wand. You must be at least an 11th-level wizard and must have the Craft Staff feat to select this discovery.",
+			"",
+			"**Steward of the Great Beyond** ([Champions of Purity pg. 27](source:Champions_of_Purity)): Whenever a creature attempts to use a teleportation effect or summon a creature within 30 feet of you, you may attempt to block the effect. Make an opposed caster level check (1d20 + caster level) as an immediate action. If the check succeeds, the spell or effect fails and is wasted; otherwise, it is unaffected. You can use this ability once per day plus one additional time for every 5 wizard levels you possess beyond 10th. You must be at least a 9th-level wizard to select this discovery.",
+			"",
+			"**Time Stutter (Sp)** ([People of the River pg. 9](source:People_of_the_River)): You can briefly step out of time, pausing the world around you. This ability acts as the time stop spell, except that you gain only 1 round of apparent time. You can use this ability once per day plus one additional time for every 5 wizard levels you possess beyond 10th. You must be at least a 10th-level wizard to select this discovery.",
+			"",
+			"**True Name (Sp)** ([Ultimate Magic pg. 87](source:Ultimate_Magic)): Your researches into ancient tomes and your inquisitions of bound spirits have led you to one of the best-hidden secrets of the multiverse: the true name of an outsider-the name that defines the very essence of the creature and that gives the speaker control over the being. This outsider can have no more than 12 Hit Dice. Once per day, you can speak the common name by which the outsider is known, and the outsider travels to you as if you had cast planar binding upon it. It must obey you to the best of its ability, without pay or bargaining for its services, for its fear that you might release its true name to the wider world is enough to bring even the most recalcitrant of outsiders to bear.",
+			"If the creature is within 100 feet, as a move action, you may punish it by deliberately mispronouncing its name, wracking its very essence and giving it the sickened and staggered conditions for 1 round (even if the creature is normally immune to these conditions). You cannot use true name in an area of silence, but the creature does not have to be able to hear you for it to be harmed by the ability.",
+			"It is in your best interest to call this creature only sparingly, and occasionally reward it in some fashion to mollify its wrath. If you repeatedly fail to offer it a reward appropriate to its type and ethos, the creature may begin plotting ways to destroy the bond between you, whether by creating an accident that will destroy your memory of the name, by plaguing you with nuisances or dangers until you vow never to call on it again, or by actively seeking to destroy you through its own devices or those of an underling. If this creature is of a lawful type and you are violating its ethos, its superiors may even destroy it or you rather than allow you to contaminate their servant further. Worse, they may establish situations where it is necessary for you to summon this outsider, opening gateways to infernal or angelic interference, in order to gain a foothold on the Material Plane.",
+			"You may select this discovery multiple times. Each time you select this discovery, it applies to a different, specific outsider. You must be at least an 11th-level wizard to select this discovery. If you select this discovery at 15th level or higher, the creature may have up to 18 Hit Dice and the call acts as greater planar binding instead of planar binding.",
+			"",
+			"**Werewolf Shape** ([Blood of the Moon pg. 25](source:Blood_of_the_Moon)): When you cast beast shape IV or shapechange, you can choose to take the shape of a werewolf in addition to the other shapes available. While in werewolf shape, you gain all the effects of the werewolf template instead of the spell's normal benefits. You act in all respects as a natural lycanthrope for the duration of the spell, including the ability to inflict the curse of lycanthropy using the spell's save DC. You must be at least a 15th-level wizard to select this arcane discovery.",
+			"",
+			"**Yuelral's Blessing** ([Champions of Purity pg. 27](source:Champions_of_Purity)): You cast any spells that appear on both the wizard and druid spell lists at +1 caster level and with +1 to the save DC. In addition, you may replace the material component of any arcane spell with gems of the same value. You must be at least a 5th-level wizard to select this discovery."
+		],
+		"sources": [
+			"Magical Marketplace",
+			"Ultimate Magic",
+			"Champions of Balance",
+			"Pathfinder #80: Empty Graves",
+			"Magic Tactics Toolbox",
+			"People of the River",
+			"Spymaster's Handbook",
+			"Champions of Purity",
+			"Blood of the Moon"
+		]
+	},
+	"arcane_schools": {
+		"sources": [
+			"Advanced Player's Guide",
+			"Adventurer's Guide",
+			"Black Markets",
+			"Disciple's Doctrine",
+			"Dragon Empires Primer",
+			"Elemental Master's Handbook",
+			"Inner Sea Primer",
+			"PRPG Core Rulebook",
+			"Ultimate Magic"
+		],
+		"description": [
+			"## Arcane Schools",
+			"",
+			"The following descriptions detail each arcane school and its corresponding powers.",
+			"",
+			"**Focused Arcane Schools**",
+			"",
+			"Wizards that specialize in one of the schools of magic can instead chose to focus their studies still further. Wizards who choose a focused arcane school retain the bonus spells from their school and must select two prohibited schools as normal, but the focused school changes one or more of the powers granted by their arcane school. A wizard must take all of the replacement powers associated with his focused arcane school. Once a focused arcane school is chosen, it cannot be changed.",
+			"",
+			"**Elemental Arcane Schools**",
+			"",
+			"Instead of specializing in one of the standard eight schools of magic, a wizard can choose to specialize in one of the four elemental schools of magic. Like a normal arcane school, an elemental school grants a number of school powers and one bonus spell slot of each level the wizard can cast, from 1st on up. This bonus spell slot must be used to prepare a spell from the elemental school's spell list (see Chapter 5). Unlike a normal arcane school, each elemental school requires the wizard to select his opposed element as his opposition school (air opposes earth, fire opposes water). He does not need to select a second opposition school. He must expend two spell slots to prepare a spell from his opposed elemental school as normal.",
+			"",
+			"**Five Elements Variant**",
+			"",
+			"In some lands, scholars of magic insist that material things consist of five elements, not four: fire, earth, metal, water, and wood. Rather than directly opposing each other, these five elements counter and generate each other in a wheel-like formation: wood overcomes earth, earth overcomes water, water overcomes fire, fire overcomes metal, and metal overcomes wood. Similar to the four types of elemental wizard schools, some wizards specialize in the schools of magic based on metal or wood. Like a normal arcane school, an elemental school grants a number of school powers and one bonus spell slot of each level the wizard can cast, from 1st on up. This bonus spell slot must be used to prepare a spell from the elemental school's spell list (see below). Unlike a normal arcane school, each elemental school requires the wizard to select his opposed element as his opposition school-in the case of the five-element system, he must choose the element that overcomes his element as his opposition element (so a metal elementalist must select fire as his opposition school because fire overcomes metal). He does not need to select a second opposition school. He must expend two spell slots to prepare a spell from his opposed elemental school as normal."
+		],
+		"list": [
+			{
+				"name": "Abjuration",
+				"file": "schooldisplay358b.html",
+				"sources": [
+					"PRPG Core Rulebook",
+					"Advanced Player's Guide"
+				],
+				"focused_schools": "Banishment, Counterspell",
+				"description": [
+					"## Abjuration",
+					"",
+					"**Source** [PRPG Core Rulebook pg. 79](source:PRPG_Core_Rulebook)   ",
+					"The abjurer uses magic against itself, and masters the art of defensive and warding magics.",
+					"",
+					"**Resistance (Ex):** You gain resistance 5 to an energy type of your choice, chosen when you prepare spells. This resistance can be changed each day. At 11th level, this resistance increases to 10. At 20th level, this resistance changes to immunity to the chosen energy type.",
+					"",
+					"**Protective Ward (Su):** As a standard action, you can create a 10-foot-radius field of protective magic centered on you that lasts for a number of rounds equal to your Intelligence modifier. All allies in this area (including you) receive a +1 deflection bonus to their AC. This bonus increases by +1 for every five wizard levels you possess. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Energy Absorption (Su):** At 6th level, you gain an amount of energy absorption equal to 3 times your wizard level per day. Whenever you take energy damage, apply immunity, vulnerability (if any), and resistance first and apply the rest to this absorption, reducing your daily total by that amount. Any damage in excess of your absorption is applied to you normally.",
+					"",
+					"### Banishment School",
+					"",
+					"**Source** [Advanced Player's Guide pg. 144](source:Advanced_Player's_Guide)   ",
+					"**Associated School:** Abjuration.",
+					"",
+					"**Replacement Powers:** The following school powers replace the energy absorption power and the protective ward power of the abjuration school.",
+					"",
+					"**Unstable Bonds (Su):** At 1st level, your touch can disrupt the bonds that hold a summoned or called creature on this plane. As a melee touch attack, you can cause a summoned or called creature to become shaken and staggered for a number of rounds equal to 1/2 your wizard level (minimum 1). You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Aura of Banishment (Su):** At 8th level, you can emit a 30-foot aura of banishment for a number of rounds per day equal to your wizard level. Any summoned or called creature in the area must make a Will save each round. Once the creature fails a Will saving throw, it is staggered as long as it remains inside the aura. If it fails a second Will saving throw, it is immediately sent back to its home plane and the spell that summoned it immediately ends. If that spell summoned more than one creature, only the creature that failed its saving throws is affected. These rounds do not need to be consecutive.",
+					"",
+					"### Counterspell School",
+					"",
+					"**Source** [Advanced Player's Guide pg. 144](source:Advanced_Player's_Guide)   ",
+					"**Associated School:** Abjuration.",
+					"",
+					"**Replacement Powers:** The following school powers replace the protective ward power and the energy absorption power of the abjuration school.",
+					"",
+					"**Disruption (Su):** At 1st level, you gain the ability to disrupt spellcasting with a touch. As a melee touch attack, you can place a disruptive field around the target. While the field is in place, the target must make a concentration check to cast any spell or to use a spell-like ability in addition to any other required concentration checks. The DC of this check is equal to 15 + twice the spell's level. If the check is failed, the target's spell is wasted. This field lasts for a number of rounds equal to 1/2 your wizard level (minimum 1). You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Counterspell Mastery (Su):** At 6th level, you gain Improved Counterspell as a bonus feat. You may attempt to counterspell an opponent's spell once per day as an immediate action (instead of a readied action). You must use a spell at least one level higher than the spell being countered to use this ability. You can use this ability once per day at 6th level, plus one additional time per day for every 4 levels beyond 6th."
+				]
+			},
+			{
+				"name": "Conjuration",
+				"file": "schooldisplay27e8.html",
+				"sources": [
+					"Advanced Player's Guide",
+					"Black Markets",
+					"Inner Sea Primer",
+					"PRPG Core Rulebook"
+				],
+				"focused_schools": "Cheliax: Egorian Academy Infernal Binder, Creation, Extradimension, Teleportation",
+				"description": [
+					"## Conjuration",
+					"",
+					"**Source** [PRPG Core Rulebook pg. 80](source:PRPG_Core_Rulebook)   ",
+					"The conjurer focuses on the study of summoning monsters and magic alike to bend to his will.",
+					"",
+					"**Summoner's Charm (Su):** Whenever you cast a conjuration (summoning) spell, increase the duration by a number of rounds equal to 1/2 your wizard level (minimum 1). At 20th level, you can change the duration of all summon monster spells to permanent. You can have no more than one summon monster spell made permanent in this way at one time. If you designate another summon monster spell as permanent, the previous spell immediately ends. This increase is not doubled by Extend Spell.",
+					"",
+					"**Acid Dart (Sp):** As a standard action you can unleash an acid dart targeting any foe within 30 feet as a ranged touch attack. The acid dart deals 1d6 points of acid damage + 1 for every two wizard levels you possess. You can use this ability a number of times per day equal to 3 + your Intelligence modifier. This attack ignores spell resistance.",
+					"",
+					"**Dimensional Steps (Sp):** At 8th level, you can use this ability to teleport up to 30 feet per wizard level per day as a standard action. This teleportation must be used in 5-foot increments and such movement does not provoke an attack of opportunity. You can bring other willing creatures with you, but you must expend an equal amount of distance for each additional creature brought with you.",
+					"",
+					"### Cheliax: Egorian Academy Infernal Binder School",
+					"",
+					"**Source** [Inner Sea Primer pg. 29](source:Inner_Sea_Primer)   ",
+					"The prestigious Egorian Academy of the Magical Arts in Cheliax's capital city teaches a full spectrum of magic, both specialized and universalist, but the college is best known for its Infernal Binding program in the school of conjuration. An infernal binder learns the Names of Hell, and can use those powers to summon and bind devils to do her bidding. If she makes a single mistake in the binding, she opens herself to an eternity of torment. Egorian Academy wizards are recognized across Avistan as premier practitioners of the arcane arts. Many hold high positions in magical colleges across Golarion, but most seek to return one day to teach at their alma mater in Egorian.",
+					"",
+					"**Suggested Opposition Schools:** Divination, illusion, or transmutation.",
+					"",
+					"**Alignment:** Lawful Evil, Lawful Neutral, Neutral Evil, or Neutral.",
+					"",
+					"**Requirements:** An infernal binder must choose a familiar as her arcane bond at 1st level.",
+					"",
+					"**Associated School:** Conjuration.",
+					"",
+					"**Replacement Powers:** The following school powers replace the acid dart and dimensional steps powers of the conjuration school.",
+					"",
+					"**Planar Knowledge (Ex):** As an infernal binder, you gain a +3 bonus on Knowledge (planes) checks.",
+					"",
+					"**Assume Control (Su):** At 1st level, you can attempt to gain control over a summoned creature by disrupting the bond between it and the caster who summoned it. You must make a caster level check (1d20 + caster level) equal to 10 + the summoning caster's level. If you know the summoned creature's name, you receive a +2 circumstance bonus on the check. If the check is successful, you can control the summoned creature as if you had summoned it for a number of rounds equal to 1/2 your wizard level (minimum 1 round). This does not increase the duration of the original summoning. The original summoning caster can attempt to regain control of the summoned creature as a standard action by making a caster level check against your caster level + 10. When your control ends, the creature reverts to the control of its summoner. At 9th level, you can use this ability to bargain with called creatures as if you were the caster who conjured them. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Imp Familiar (Ex):** At 7th level, you gain Improved Familiar as a bonus feat, and must take an imp as a familiar. The imp replaces your current familiar.",
+					"",
+					"### Creation School",
+					"",
+					"**Source** [Advanced Player's Guide pg. 144](source:Advanced_Player's_Guide)   ",
+					"**Associated School:** Conjuration.",
+					"",
+					"**Replacement Powers:** The following school powers replace the acid dart power and the dimensional steps power of the conjuration school.",
+					"",
+					"**Create Gear (Su):** At 1st level, you can create any object that weighs no more than 1 pound per wizard level you possess. Creating an object in this way is a standard action. The item remains for 1 minute before fading away, although it disappears after one round if it leaves your possession. Creating an item to an exact specification might require a Craft skill check, subject to GM discretion. The object must be made of simple materials, such as wood, stone, glass, or metal, and cannot contain any moving parts. You could use this ability to create a dagger, but not a vial of alchemist's fire. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Creator's Will (Sp):** At 8th level, you can cast minor creation as a spell-like ability. You can have no more than one minor creation active at a time. If you cast the spell again, the previous casting immediately ends. At 12th level, this ability improves to major creation. You can use this ability a number of times per day equal to 1/2 your wizard level.",
+					"",
+					"### Extradimension School",
+					"",
+					"**Source** [Black Markets pg. 26](source:Black_Markets)   ",
+					"**Associated School:** Conjuration.",
+					"",
+					"**Replacement Powers:** The following school power replaces the summoner's charm power of the conjuration school.",
+					"",
+					"**Reshape Space (Su):** Whenever you cast a spell that creates an extradimensional space or demiplane, increase the duration by a number of units (rounds, minutes, hours, etc.) equal to 1/2 your wizard level (minimum 1). At 20th level, you can make one spell that creates an extradimensional space or demiplane permanent. You can have no more than one such spell made permanent in this way at a time. If you designate another spell as permanent, the previous permanent spell ends.",
+					"",
+					"### Teleportation School",
+					"",
+					"**Source** [Advanced Player's Guide pg. 147](source:Advanced_Player's_Guide)   ",
+					"**Associated School:** Conjuration.",
+					"",
+					"**Replacement Powers:** The following school power replaces the acid dart power of the conjuration school.",
+					"",
+					"**Shift (Su):** At 1st level, you can teleport to a nearby space as a swift action as if using dimension door. This movement does not provoke an attack of opportunity. You must be able to see the space that you are moving into. You cannot take other creatures with you when you use this ability (except for familiars). You can move 5 feet for every two wizard levels you possess (minimum 5 feet). You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
+				]
+			},
+			{
+				"name": "Divination",
+				"file": "schooldisplay3f63.html",
+				"sources": [
+					"PRPG Core Rulebook",
+					"Advanced Player's Guide"
+				],
+				"focused_schools": "Foresight, Prophecy, Scryer",
+				"description": [
+					"## Divination",
+					"",
+					"**Source** [PRPG Core Rulebook pg. 80](source:PRPG_Core_Rulebook)   ",
+					"Diviners are masters of remote viewing, prophecies, and using magic to explore the world.",
+					"",
+					"**Forewarned (Su):** You can always act in the surprise round even if you fail to make a Perception roll to notice a foe, but you are still considered flat-footed until you take an action. In addition, you receive a bonus on initiative checks equal to 1/2 your wizard level (minimum +1). At 20th level, anytime you roll initiative, assume the roll resulted in a natural 20.",
+					"",
+					"**Diviner's Fortune (Sp):** When you activate this school power, you can touch any creature as a standard action to give it an insight bonus on all of its attack rolls, skill checks, ability checks, and saving throws equal to 1/2 your wizard level (minimum +1) for 1 round. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Scrying Adept (Su):** At 8th level, you are always aware when you are being observed via magic, as if you had a permanent detect scrying. In addition, whenever you scry on a subject, treat the subject as one step more familiar to you. Very familiar subjects get a -10 penalty on their save to avoid your scrying attempts.",
+					"",
+					"### Foresight School",
+					"",
+					"**Source** [Advanced Player's Guide pg. 145](source:Advanced_Player's_Guide)   ",
+					"**Associated School:** Divination.",
+					"",
+					"**Replacement Powers:** The following school powers replace the diviner's fortune and scrying adept powers of the divination school.",
+					"",
+					"**Prescience (Su):** At the beginning of your turn, you may, as a free action, roll a single d20. At any point before your next turn, you may use the result of this roll as the result of any d20 roll you are required to make. If you do not use the d20 result before your next turn, it is lost. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Foretell (Su):** At 8th level, you can utter a prediction of the immediate future. While your foretelling is in effect, you emit a 30-foot aura of fortune that aids your allies or hinders your enemies, as chosen by you at the time of prediction. If you choose to aid, you and your allies gain a +2 luck bonus on ability checks, attack rolls, caster level checks, saving throws, and skill checks. If you choose to hinder, your enemies take a -2 penalty on those rolls instead. You can use this ability for a number of rounds per day equal to your wizard level. These rounds do not need to be consecutive.",
+					"",
+					"### Prophecy School",
+					"",
+					"**Source** [Disciple's Doctrine pg. 10](source:Disciple's_Doctrine)   ",
+					"Prophets who specialize in arcane magic often claim specialty in manipulating the powers of luck to their advantage.",
+					"",
+					"**Associated School:** Divination.",
+					"",
+					"**Replacement Powers:** The following replace the forewarned and scrying adept powers of the divination school.",
+					"",
+					"**Inspiring Prediction (Su):** A number of times per day equal to 3 + your Intelligence modifier, you can predict an ally's success, bolstering others' resolve. As a swift action, you can shout an inspiring prediction, granting each ally within 50 feet who can hear you a +4 luck bonus on her next attack roll, saving throw, or skill check.",
+					"",
+					"In Accordance with the Prophecy (Su): A number of times per day equal to your Intelligence modifier, you can publicly declare that your next spell is guided by prophecy. When you do, the next spell you cast has a 20% chance of fizzling (1-20 on a d%). If the spell does not fail, treat the spell as if it had been modified by the Empower Spell feat, even if you do not have that feat. At 12th level, the chance that the spell fizzles is reduced to 15% (1-15 on a d%). At 16th level, the chance is reduced to 10% (1-10 on a d%)",
+					"",
+					"### Scryer School",
+					"",
+					"**Source** [Advanced Player's Guide pg. 147](source:Advanced_Player's_Guide)   ",
+					"**Associated School:** Divination.",
+					"",
+					"**Replacement Powers:** The following school power replaces the diviner's fortune power of the divination school.",
+					"",
+					"**Send Senses (Sp):** As a standard action, you place a scrying sensor at a point within medium range (100 feet + 10 feet/wizard level) that you can see and have line of effect to. You can see or hear (not both) through this sensor for number of rounds equal to 1/2 your wizard level (minimum 1). The sensor otherwise functions as a clairaudience/clairovoyance spell with a caster level equal to your wizard level. You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
+				]
+			},
+			{
+				"name": "Enchantment",
+				"file": "schooldisplay21b2.html",
+				"sources": [
+					"PRPG Core Rulebook",
+					"Advanced Player's Guide"
+				],
+				"focused_schools": "Controller, Manipulator",
+				"description": [
+					"## Enchantment",
+					"",
+					"**Source** [PRPG Core Rulebook pg. 81](source:PRPG_Core_Rulebook)   ",
+					"The enchanter uses magic to control and manipulate the minds of his victims.",
+					"",
+					"**Enchanting Smile (Su):** You gain a +2 enhancement bonus on Bluff, Diplomacy, and Intimidate skill checks. This bonus increases by +1 for every five wizard levels you possess, up to a maximum of +6 at 20th level. At 20th level, whenever you succeed at a saving throw against a spell of the enchantment school, that spell is reflected back at its caster, as per spell turning.",
+					"",
+					"**Dazing Touch (Sp):** You can cause a living creature to become dazed for 1 round as a melee touch attack. Creatures with more Hit Dice than your wizard level are unaffected. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Aura of Despair (Su):** At 8th level, you can emit a 30-foot aura of despair for a number of rounds per day equal to your wizard level. Enemies within this aura take a -2 penalty on ability checks, attack rolls, damage rolls, saving throws, and skill checks. These rounds do not need to be consecutive.",
+					"",
+					"### Controller School",
+					"",
+					"**Source** [Advanced Player's Guide pg. 144](source:Advanced_Player's_Guide)   ",
+					"**Associated School:** Enchantment.",
+					"",
+					"**Replacement Powers:** The following school powers replace the enchanting smile and aura of despair powers of the enchantment school.",
+					"",
+					"**Force of Will (Su):** You can send thoughts and instructions telepathically to any creature within 60 feet that you have charmed or dominated as though you shared a common language. At 11th level, affected creatures can communicate back to you via the telepathic link as well. At 20th level, any creature that succeeds at a saving throw against an enchantment spell you have just cast is still affected for 1 round if the spell has a duration greater than 1 round.",
+					"",
+					"**Irresistible Demand (Sp):** At 8th level, you can force others to do your bidding. As a standard action, you attempt to dominate a creature as though using the dominate monster spell, except that the creature must have a number of Hit Dice equal to or less than your wizard level. The targeted creature receives a Will saving throw each round to negate the effect. The DC is equal to 10 + 1/2 your wizard level + your Intelligence modifier. You can dominate creatures for a number of rounds per day equal to your wizard level. These rounds do not need to be consecutive. You must concentrate as a standard action to maintain control over a dominated creature.",
+					"",
+					"### Manipulator School",
+					"",
+					"**Source** [Advanced Player's Guide pg. 146](source:Advanced_Player's_Guide)   ",
+					"**Associated School:** Enchantment.",
+					"",
+					"**Replacement Powers:** The following school powers replace the dazing touch and aura of despair powers of the enchantment school.",
+					"",
+					"**Beguiling Touch (Sp):** You can charm a living creature by touching it. Creatures with more Hit Dice than your wizard level are unaffected, as are creatures in combat and those with an attitude of hostile toward you. Creatures receive a Will saving throw to negate the effect. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier. Creatures that fail their save are affected by charm monster for a number of rounds equal to 1/2 your wizard level (minimum 1). This is a mind-affecting effect. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Shape Emotions (Su):** At 8th level, you can emit a 30-foot aura to either ward off or welcome emotional influence for a number of rounds per day equal to your wizard level. If you choose to ward, you and your allies within this aura receive a +4 morale bonus on saves against mind-affecting spells and effects, and any fear effects targeting you or your allies are reduced by one step (shaken has no effect, frightened becomes shaken, and panicked becomes frightened). If you chose to enhance emotional influence, enemies within the aura receive a -2 penalty on saves against mind-affecting spells and effects. These rounds do not need to be consecutive."
+				]
+			},
+			{
+				"name": "Evocation",
+				"file": "schooldisplayb0e9.html",
+				"sources": [
+					"PRPG Core Rulebook",
+					"Advanced Player's Guide"
+				],
+				"focused_schools": "Admixture, Generation",
+				"description": [
+					"## Evocation",
+					"",
+					"**Source** [PRPG Core Rulebook pg. 81](source:PRPG_Core_Rulebook)   ",
+					"Evokers revel in the raw power of magic, and can use it to create and destroy with shocking ease.",
+					"",
+					"**Intense Spells (Su):** Whenever you cast an evocation spell that deals hit point damage, add 1/2 your wizard level to the damage (minimum +1). This bonus only applies once to a spell, not once per missile or ray, and cannot be split between multiple missiles or rays. This bonus damage is not increased by Empower Spell or similar effects. This damage is of the same type as the spell. At 20th level, whenever you cast an evocation spell you can roll twice to penetrate a creature's spell resistance and take the better result.",
+					"",
+					"**Force Missile (Sp):** As a standard action you can unleash a force missile that automatically strikes a foe, as magic missile. The force missile deals 1d4 points of damage plus the damage from your intense spells evocation power. This is a force effect. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Elemental Wall (Sp):** At 8th level, you can create a wall of energy that lasts for a number of rounds per day equal to your wizard level. These rounds do not need to be consecutive. This wall deals acid, cold, electricity, or fire damage, determined when you create it. The elemental wall otherwise functions like wall of fire.",
+					"",
+					"### Admixture School",
+					"",
+					"**Source** [Advanced Player's Guide pg. 143](source:Advanced_Player's_Guide)   ",
+					"**Associated School:** Evocation.",
+					"",
+					"**Replacement Powers:** The following school powers replace the force missile and elemental wall powers of the evocation school.",
+					"",
+					"**Versatile Evocation (Su):** When you cast an evocation spell that does acid, cold, electricity, or fire damage, you may change the damage dealt to one of the other four energy types. This changes the descriptor of the spell to match the new energy type. Any non-damaging effects remain unchanged unless the new energy type invalidates them (an ice storm that deals fire damage might still provide a penalty on Perception checks due to smoke, but it would not create difficult terrain). Such effects are subject to GM discretion. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Elemental Manipulation (Su):** At 8th level, you can emit a 30-foot aura that transforms magical energy. Choose an energy type from acid, cold, electricity, and fire, and a second type to transform it into. Any magical source of energy of this type with a caster level equal to or less than your wizard level is altered to the chosen energy type. This includes supernatural effects from creatures with Hit Dice no greater than your caster level. For example, you could transform a white dragon's frigid breath weapon (a supernatural ability), but not a fire elemental's fiery touch (an extraordinary ability). If an effect lies only partially within your aura, only the portions within the aura are transformed. You can use this ability for a number of rounds per day equal to your wizard level. The rounds do not need to be consecutive.",
+					"",
+					"### Generation School",
+					"",
+					"**Source** [Advanced Player's Guide pg. 146](source:Advanced_Player's_Guide)   ",
+					"**Associated School:** Evocation.",
+					"",
+					"**Replacement Powers:** The following school powers replace the intense spells and force missile powers of the evocation school.",
+					"",
+					"**Lingering Evocations (Su):** Any evocation spell you cast with a duration greater than instantaneous lasts an additional number of rounds equal to 1/2 your wizard level (minimum +1). At 20th level, any dispel checks made against your evocation spells must be rolled twice, and your opponent must use the less favorable result.",
+					"",
+					"**Wind Servant (Sp):** As a standard action, you can generate a blast of air that hurls an unattended object (or objects) or an object in your possession up to 30 feet in a straight line. If you have a free hand, you can catch an object hurled toward yourself. You can move objects weighing up to 1 pound per wizard level. Objects are not thrown with enough force to cause damage, although fragile objects like alchemical weapons shatter on contact with a creature or hard surface. To hit a creature with an object, you must succeed at a ranged touch attack. You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
+				]
+			},
+			{
+				"name": "Illusion",
+				"file": "schooldisplay2703.html",
+				"sources": [
+					"PRPG Core Rulebook",
+					"Adventurer's Guide",
+					"Inner Sea Primer",
+					"Advanced Player's Guide"
+				],
+				"focused_schools": "Deception, Phantasm, Qadira: Mage of the Veil, Shadow",
+				"description": [
+					"## Illusion",
+					"",
+					"**Source** [PRPG Core Rulebook pg. 81](source:PRPG_Core_Rulebook)   ",
+					"Illusionists use magic to weave confounding images, figments, and phantoms to baffle and vex their foes.",
+					"",
+					"**Extended Illusions (Su):** Any illusion spell you cast with a duration of \"concentration\" lasts a number of additional rounds equal to 1/2 your wizard level after you stop maintaining concentration (minimum +1 round). At 20th level, you can make one illusion spell with a duration of \"concentration\" become permanent. You can have no more than one illusion made permanent in this way at one time. If you designate another illusion as permanent, the previous permanent illusion ends.",
+					"",
+					"**Blinding Ray (Sp):** As a standard action you can fire a shimmering ray at any foe within 30 feet as a ranged touch attack. The ray causes creatures to be blinded for 1 round. Creatures with more Hit Dice than your wizard level are dazzled for 1 round instead. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Invisibility Field (Sp):** At 8th level, you can make yourself invisible as a swift action for a number of rounds per day equal to your wizard level. These rounds do not need to be consecutive. This otherwise functions as greater invisibility.",
+					"",
+					"### Deception School",
+					"",
+					"**Source** [Adventurer's Guide pg. 53](source:Adventurer's_Guide)   ",
+					"**Associated School:** Illusion.",
+					"",
+					"**Replacement Powers:** The following school powers replace the blinding ray and extended illusions powers of the illusion school.",
+					"",
+					"**Deceptive Flourish (Su):** You gain a +2 enhancement bonus on Bluff and Disguise skill checks. This bonus increases by 1 for every 5 wizard levels you have, up to a maximum of +6 at 20th level. At 20th level, you gain the benefits of misdirection (Will DC = 20 + your Intelligence modifier) or nondetection permanently. At will as a standard action, you can change which of the two spells is active, and each time you activate misdirection, you can choose a new creature or object as the secondary object.",
+					"",
+					"**Subtle Misdirection (Sp):** As a standard action, you can touch a creature or an object that weighs no more than 25 pounds per caster level to impart an illusory ward that lasts for 1 minute. Attacks against a warded creature suffer a 20% miss chance, and the ward ends once it negates an attack. The DC of any caster level check, skill check, or saving throw to detect or determine the properties of a warded item increases by 1, plus 1 for every 5 wizard levels you have. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"### Phantasm School",
+					"",
+					"**Source** [Advanced Player's Guide pg. 146](source:Advanced_Player's_Guide)   ",
+					"**Associated School:** Illusion.",
+					"",
+					"**Replacement Powers:** The following school powers replace the blinding ray and invisibility field powers of the illusion school.",
+					"",
+					"**Terror (Su):** As a standard action, you can make a melee touch attack that causes a creature to be assailed by nightmares only it can see. The creature provokes an attack of opportunity from you or an ally of your choice. Creatures with more Hit Dice than your wizard level are unaffected. This is a mind-affecting fear effect. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Bedeviling Aura (Su):** At 8th level, you can emit a 30-foot aura that bedevils your enemies with phantasmal assailants. Enemies within this aura move at half speed, are unable to take attacks of opportunity, and are considered to be flanked. This is a mind-affecting effect. You can use this ability for a number of rounds per day equal to your wizard level. These rounds do not need to be consecutive.",
+					"",
+					"### Qadira: Mage of the Veil School",
+					"",
+					"**Source** [Inner Sea Primer pg. 29](source:Inner_Sea_Primer)   ",
+					"The city of Katheer is home to a great number of arcane colleges in the Qadiran tradition. Magic has a proud history in this land; its many schools compete with one another to find the best route to understanding the secrets of power.",
+					"",
+					"Among these is the focused school of veil magic. Rather than controlling the elements or transforming the environment, mages of the veil focus on much more subtle magic-blending into their surroundings to watch, observe, and gather secrets, or fading from view completely for the sake of solitude. Most graduates of this college enter the service of the satrap as spies, scouts, or infiltrators.",
+					"",
+					"**Requirements:** A mage of the veil must select disguise self as one of his spells known at 1st level.",
+					"",
+					"**Class Skills:** A mage of the veil gains Bluff, Disguise, and Stealth as class skills.",
+					"",
+					"**Associated School:** Illusion.",
+					"",
+					"**Replacement Powers:** The following school powers replace the blinding ray and invisibility field powers of the illusion school.",
+					"",
+					"**Face in the Crowd (Sp):** At 1st level as a standard action, you can cause yourself to appear so normal, mundane, and unexceptional that you blend in to your surroundings. All creatures within 30 feet treat you as if you belonged there, effectively ignoring you. Creatures outside of this area may notice that you appear out of place, but as soon as they approach within 30 feet they are affected by the magic and no longer think something is amiss. If you interact with an affected creature in any way, it gains a Will save (DC 10 + 1/2 your wizard level + your Intelligence modifier) to disbelieve the illusion and notice you. The effect lasts for a number of minutes equal to your wizard level, or until the illusion is dispelled. The minutes do not need to be consecutive, but must be used in 1-minute increments. This is a mind-affecting phantasm effect.",
+					"",
+					"This ability does not turn you invisible and opponents are not considered flat-footed. It does not allow you to disguise yourself as a specific individual, type of person, or member of another race, so you cannot blend into a group of uniformed guards or appear as a member of an individual's family, and a human cannot blend into a group of gnolls. You can blend in with any group made up of different types of people, such as a crowd of courtiers in a king's throne room, and you can disguise yourself (either through magic or more mundane means) to appear as a specific type of person or another race (such as a uniformed guard or a gnoll) before using this ability.",
+					"",
+					"**Master of the Veil (Sp):** At 8th level, you can create an illusion that hides the appearance of yourself and any number of allies within 30 feet for 1 round per wizard level. This ability otherwise functions like the spell veil. The rounds do not need to be consecutive.",
+					"",
+					"### Shadow School",
+					"",
+					"**Source** [Advanced Player's Guide pg. 147](source:Advanced_Player's_Guide)   ",
+					"**Associated School:** Illusion.",
+					"",
+					"**Replacement Powers:** The following school powers replace the blinding ray and invisibility field powers of the illusion school.",
+					"",
+					"**Binding Darkness (Sp):** As a standard action, you cast a weave of shadows at any foe within 30 feet as a ranged touch attack. The shadows entangle your foe for 1 round plus 1 additional round for every five wizard levels you possess. In conditions of bright light, this duration is halved (minimum 1 round). A creature entangled by your shadows has concealment from those without darkvision or the ability to see in darkness, and other creatures likewise have concealment relative to it. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Shadow Step (Sp):** At 8th level, you can use this ability to walk through the Shadow Plane and reappear as a standard action. You can travel up to 30 feet per wizard level per day in this fashion, either in a single round or broken up across multiple shadow steps. This movement must be used in 5-foot increments and does not provoke an attack of opportunity. Travel through the Shadow Plane is imprecise; when you arrive, you re-enter 1 square off target, as per the rules for thrown splash weapons. If this would place you in an occupied square, you instead arrive in the nearest safe location. When you arrive, you are cloaked in shadow and gain concealment as the blur spell for 1 round. You may bring other willing creatures with you, but you must expend an equal amount of distance for each additional creature brought with you. They likewise re-enter off target (roll location for each creature) and are cloaked in shadow for 1 round."
+				]
+			},
+			{
+				"name": "Necromancy",
+				"file": "schooldisplay685a.html",
+				"sources": [
+					"PRPG Core Rulebook",
+					"Advanced Player's Guide"
+				],
+				"focused_schools": "Life, Undead",
+				"description": [
+					"## Necromancy",
+					"",
+					"**Source** [PRPG Core Rulebook pg. 81](source:PRPG_Core_Rulebook)   ",
+					"The dread and feared necromancer commands undead and uses the foul power of unlife against his enemies.",
+					"",
+					"**Power over Undead (Su):** You receive Command Undead or Turn Undead as a bonus feat. You can channel energy a number of times per day equal to 3 + your Intelligence modifier, but only to use the selected feat. You can take other feats to add to this ability, such as Extra Channel and Improved Channel, but not feats that alter this ability, such as Elemental Channel and Alignment Channel. The DC to save against these feats is equal to 10 + 1/2 your wizard level + your Charisma modifier. At 20th level, undead cannot add their channel resistance to the save against this ability.",
+					"",
+					"**Grave Touch (Sp):** As a standard action, you can make a melee touch attack that causes a living creature to become shaken for a number of rounds equal to 1/2 your wizard level (minimum 1). If you touch a shaken creature with this ability, it becomes frightened for 1 round if it has fewer Hit Dice than your wizard level. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Life Sight (Su):** At 8th level, you gain blindsight to a range of 10 feet for a number of rounds per day equal to your wizard level. This ability only allows you to detect living creatures and undead creatures. This sight also tells you whether a creature is living or undead. Constructs and other creatures that are neither living nor undead cannot be seen with this ability. The range of this ability increases by 10 feet at 12th level, and by an additional 10 feet for every four levels beyond 12th. These rounds do not need to be consecutive.",
+					"",
+					"### Life School",
+					"",
+					"**Source** [Advanced Player's Guide pg. 146](source:Advanced_Player's_Guide)   ",
+					"**Associated School:** Necromancy.",
+					"",
+					"**Replacement Powers:** The following school powers replace the power over undead and grave touch powers of the necromancy school.",
+					"",
+					"**Healing Grace (Su):** Whenever you cast a spell that has targets, affects creatures in an area, or requires an attack roll, you may heal creatures affected by the spell a total of 1 point of damage per level of the spell. This healing may be spread out between the targets of the spell in any way you choose. If you assign any of the healing to an undead creature, it instead takes 1 point of damage for each point assigned. At 11th level, the amount of damage cured increases to 2 points of damage per level of the spell. This healing occurs when the spell is cast and has no effect on creatures that enter its area after the spell is in place. At 20th level, the amount of damage cured increases to 3 points of damage per level of the spell.",
+					"",
+					"**Share Essence (Sp):** As a standard action, you can share your vital energy with a living creature that you touch. You take 1d6 points of nonlethal damage + 1 for every two wizard levels you possess. You cannot take an amount of nonlethal damage equal to or greater than your current hit point total; any excess is prevented. The recipient gains a number of temporary hit points equal to the amount of damage you received (prevented damage is not counted). These temporary hit points disappear 1 hour later. You may not use this ability to grant yourself temporary hit points. You can use this ability a number of times per day equal to 3 + your Intelligence modifier. This ability has no effect if you are immune to nonlethal damage.",
+					"",
+					"### Undead School",
+					"",
+					"**Source** [Advanced Player's Guide pg. 147](source:Advanced_Player's_Guide)   ",
+					"**Associated School:** Necromancy.",
+					"",
+					"**Replacement Powers:** The following school power replaces the grave touch power of the necromancy school.",
+					"",
+					"**Bolster (Sp):** As a standard action, you can touch an undead creature and infuse it with negative energy. It gains a +1 profane bonus on all attack rolls and saving throws, as well as 1 temporary hit point per Hit Die and a +2 bonus to its turn resistance. The bonus on attack rolls and saving throws increases by +1 for every 5 wizard levels you possess. These bonuses last for a number of rounds equal to 1/2 your wizard level (minimum 1 round). The bonuses and temporary hit points are immediately dispelled if the creature is within the area of a consecrate spell. You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
+				]
+			},
+			{
+				"name": "Transmutation",
+				"file": "schooldisplayfc8f.html",
+				"sources": [
+					"PRPG Core Rulebook",
+					"Advanced Player's Guide"
+				],
+				"focused_schools": "Enhancement, Shapechange",
+				"description": [
+					"## Transmutation",
+					"",
+					"**Source** [PRPG Core Rulebook pg. 82](source:PRPG_Core_Rulebook)   ",
+					"Transmuters use magic to change the world around them.",
+					"",
+					"**Physical Enhancement (Su):** You gain a +1 enhancement bonus to one physical ability score (Strength, Dexterity, or Constitution). This bonus increases by +1 for every five wizard levels you possess to a maximum of +5 at 20th level. You can change this bonus to a new ability score when you prepare spells. At 20th level, this bonus applies to two physical ability scores of your choice.",
+					"",
+					"**Telekinetic Fist (Sp):** As a standard action you can strike with a telekinetic fist, targeting any foe within 30 feet as a ranged touch attack. The telekinetic fist deals 1d4 points of bludgeoning damage + 1 for every two wizard levels you possess. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Change Shape (Sp):** At 8th level, you can change your shape for a number of rounds per day equal to your wizard level. These rounds do not need to be consecutive. This ability otherwise functions like beast shape II or elemental body I. At 12th level, this ability functions like beast shape III or elemental body II.",
+					"",
+					"### Enhancement School",
+					"",
+					"**Source** [Advanced Player's Guide pg. 145](source:Advanced_Player's_Guide)   ",
+					"**Associated School:** Transmutation.",
+					"",
+					"**Replacement Powers:** The following school powers replace the telekinetic fist and change shape powers of the transmutation school.",
+					"",
+					"**Augment (Sp):** As a standard action, you can touch a creature and grant it either a +2 enhancement bonus to a single ability score of your choice or a +1 bonus to natural armor that stacks with any natural armor the creature might possess. At 10th level, the enhancement bonus to one ability score increases to +4. The natural armor bonus increases by +1 for every five wizard levels you possess, to a maximum of +5 at 20th level. This augmentation lasts a number of rounds equal to 1/2 your wizard level (minimum 1 round). You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Perfection of Self (Su):** At 8th level, as a swift action you can grant yourself an enhancement bonus to a single ability score equal to 1/2 your wizard level (maximum +10) for one round. You may use this ability for a number of times per day equal to your wizard level.",
+					"",
+					"### Shapechange School",
+					"",
+					"**Source** [Advanced Player's Guide pg. 147](source:Advanced_Player's_Guide)   ",
+					"**Associated School:** Transmutation.",
+					"",
+					"**Replacement Powers:** The following school power replaces the telekinetic fist power of the transmutation school.",
+					"",
+					"**Battleshaping (Su):** As a swift action, you grow a single natural weapon. The natural weapon lasts for 1 round and has a +1 enhancement bonus on attack and damage rolls for every four wizard levels you possess. You can grow a claw, a bite, or a gore attack. These attacks deal the normal damage for a creature of your size. At 11th level, you can shape two natural weapons. You may not grow additional limbs or a tail with this ability. You can use this ability a number of times per day equal to 3 + your Intelligence modifier."
+				]
+			},
+			{
+				"name": "Universalist",
+				"file": "schooldisplaycb6b.html",
+				"sources": [
+					"PRPG Core Rulebook",
+					"Inner Sea Primer"
+				],
+				"focused_schools": "Absalom: Arcanamirium Crafter",
+				"description": [
+					"## Universalist",
+					"",
+					"**Source** [PRPG Core Rulebook pg. 82](source:PRPG_Core_Rulebook)   ",
+					"Wizards who do not specialize (known as as universalists) have the most diversity of all arcane spellcasters.",
+					"",
+					"**Hand of the Apprentice (Su):** You cause your melee weapon to fly from your grasp and strike a foe before instantly returning to you. As a standard action, you can make a single attack using a melee weapon at a range of 30 feet. This attack is treated as a ranged attack with a thrown weapon, except that you add your Intelligence modifier on the attack roll instead of your Dexterity modifier (damage still relies on Strength). This ability cannot be used to perform a combat maneuver. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Metamagic Mastery (Su):** At 8th level, you can apply any one metamagic feat that you know to a spell you are about to cast. This does not alter the level of the spell or the casting time. You can use this ability once per day at 8th level and one additional time per day for every two wizard levels you possess beyond 8th. Any time you use this ability to apply a metamagic feat that increases the spell level by more than 1, you must use an additional daily usage for each level above 1 that the feat adds to the spell. Even though this ability does not modify the spell's actual level, you cannot use this ability to cast a spell whose modified spell level would be above the level of the highest-level spell that you are capable of casting.",
+					"",
+					"### Absalom: Arcanamirium Crafter School",
+					"",
+					"**Source** [Inner Sea Primer pg. 28](source:Inner_Sea_Primer)   ",
+					"The most famous magical college of the Inner Sea region, the Arcanamirium of Absalom teaches a broad array of specialties, but its most intensive specialty is no specialization at all. It is one of the primary training academies of universalist magic on Golarion, and the wizards who graduate from the school become well respected, well paid, and highly soughtafter in their homelands. An Arcanamirium crafter is one of the builders of the arcane world, assembling magic items with facility, skill, and power. He is intimately familiar with the craft and practice of imbuing items with arcane power, and works with precision even early in his career to help create some of the most powerful magic items of Golarion.",
+					"",
+					"**Associated School:** Universalist.",
+					"",
+					"**Replacement Powers:** The following school power replaces the hand of the apprentice power of the universalist school.",
+					"",
+					"**Metacharge (Ex):** As an Arcanamirium crafter, you gain a bonus feat at 3rd level, which must be an item creation feat or metamagic feat. You must still meet all prerequisites for a bonus feat, including caster level minimums. When using metamagic feats to create magic items, your skill and understanding of the principles involved in the item's creation give you a +2 bonus on the skill check made to create the item."
+				]
+			},
+			{
+				"name": "Aether",
+				"file": "schooldisplayd3d1.html",
+				"sources": [
+					"Elemental Master's Handbook"
+				],
+				"focused_schools": "",
+				"description": [
+					"## Aether",
+					"",
+					"**Source** [Elemental Master's Handbook pg. 20](source:Elemental_Master's_Handbook)   ",
+					"Aether is a strange and complex substance that occurs where the Elemental Planes touch the Ethereal Plane. Wizards who study aether use it to manipulate objects on the Material Plane. The aether elemental school is an elemental arcane school a wizard can specialize in instead of one of the standard schools of magic.",
+					"",
+					"Like a normal arcane school, the aether elemental school grants a number of school powers, as well as one bonus spell slot of each level the wizard can cast, from 1st on up. This bonus spell slot must be used to prepare a spell from the aether elemental school's spell list (see below). Unlike a normal arcane school, the aether elemental school requires the wizard to select a single element as his opposition school (air, earth, fire, or water, for example). The wizard does not need to select a second opposition school. He must expend two spell slots to prepare a spell from his opposed elemental school as normal.",
+					"",
+					"**Aether Magic:** Add the following spells to your wizard spell list at the listed spell level: 0-telekinetic projectile, 2nd-spiritual weapon, 4th-spiritual ally, 5th-ethereal envelope, 6th-animate objects, 7th-ectoplasmic eruption, 9th-telekinetic storm.",
+					"",
+					"**Aether Supremacy (Su):** You gain a +2 enhancement bonus on Sleight of Hand checks. This bonus increases by 1 for every 5 wizard levels you have. In addition, you can cast mage hand at will as a spell-like ability that uses your caster level. At 5th level, you can attempt Sleight of Hand checks against a target within 30 feet, though the skill check DC increases by 5, and any creature within line of sight of either you or the target can attempt an opposed Perception check to notice the attempt. At 10th level, you can attempt a Sleight of Hand check as a move action with only a -10 penalty. At 20th level, whenever you attempt a Sleight of Hand check, assume the roll resulted in a natural 20.",
+					"",
+					"**Telekinetic Protection (Su):** As a swift action, you can grant yourself protection against nonmagical attacks by forming a field to telekinetically deflect them. You gain DR 5/magic for 1 round. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Receptive Vibrations (Su):** At 8th level, you are constantly surrounded by ephemeral and invisible strands of aether, increasing your awareness of your surroundings. You are never denied your Dexterity bonus to AC against attacks made within 30 feet of you because you are flat-footed or because your assailant is unseen. In addition, you gain a bonus on Perception checks to avoid being surprised equal to half your wizard level."
+				]
+			},
+			{
+				"name": "Air",
+				"file": "schooldisplaybfc6.html",
+				"sources": [
+					"Advanced Player's Guide",
+					"Elemental Master's Handbook"
+				],
+				"focused_schools": "Ice, Smoke",
+				"description": [
+					"## Air",
+					"",
+					"**Source** [Advanced Player's Guide pg. 142](source:Advanced_Player's_Guide)   ",
+					"The air elementalist uses the forces of the wind, sky, clouds, and lightning to confuse and destroy his foes, all while flying through the air with ease.",
+					"",
+					"**Air Supremacy (Su):** You gain a +2 enhancement bonus on Fly skill checks. This bonus increases by +1 for every five wizard levels you possess. In addition, you can cast feather fall on yourself at will. At 5th level, you can cast levitate on yourself at will. At 10th level, you can cast fly on yourself at will. At 20th level, whenever you make a Fly skill check, assume the roll resulted in a natural 20.",
+					"",
+					"**Lightning Flash (Su):** As a standard action, you can unleash a flash of electricity. This flash deals 1d6 points of electricity damage + 1 point for every two wizard levels you possess to all creatures within 5 feet of you and dazzles them for 1d4 rounds. A successful Reflex save negates the dazzled effect and halves the damage. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Cyclone (Su):** At 8th level, you can create a vortex of turbulent wind around yourself as a standard action. This vortex has a radius of up to 10 feet and a maximum height of 10 feet per wizard level you possess. Any ranged attack passing through this vortex automatically misses. Any flying creature moving through the vortex must make a Fly skill check or immediately fall from the sky, taking falling damage (the creature cannot make a Fly check to reduce or negate this damage). Creatures on the ground cannot pass through the vortex without first making a Strength check. The DC of this check is equal to 10 + your caster level. The vortex is faintly visible and can be spotted with a DC 15 Perception skill check. You can use this ability for a number of rounds per day equal to your wizard level. These rounds do not need to be consecutive.",
+					"",
+					"### Ice School",
+					"",
+					"**Source** [Elemental Master's Handbook pg. 21](source:Elemental_Master's_Handbook)   ",
+					"**Associated School:** Air or Water.",
+					"",
+					"**Replacement Powers:** The following school powers replace the lightning flash and cyclone powers of the air school and the cold blast and wave powers of the water school.",
+					"",
+					"**Freezing Shards (Su):** As a standard action, you can cause shards of ice to burst forth from the ground around you. The shards deal 1d4 points of piercing damage and 1d6 points of cold damage + 1 point for every 2 wizard levels you have to all creatures within 5 feet of you. A successful Reflex save (DC = 10 + half your wizard level + your Intelligence modifier) negates the piercing damage and halves the cold damage. The shards remain until the beginning of your next turn; during this time, the area is difficult terrain. You are not affected by your own freezing shards and can move through the area normally. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Icy Shackles (Su):** At 8th level, as a standard action, you can make a melee touch attack against a foe to conjure icy restraints around its ankles, reducing its base speed to 5 feet and dealing it an amount of cold damage at the beginning of its turn equal to your Intelligence modifier. The manacles have AC 10, hardness 0, and 30 hit points, and a creature can destroy them with a successful Strength check (DC = 10 + half your wizard level + your Intelligence modifier) as a standard action. The icy shackles melt away after 1 minute. You can use this ability a number of times per day equal to your Intelligence modifier.",
+					"",
+					"### Smoke School",
+					"",
+					"**Source** [Elemental Master's Handbook pg. 21](source:Elemental_Master's_Handbook)   ",
+					"**Associated School:** Air or Fire.",
+					"",
+					"**Replacement Powers:** The following school powers replace the lightning flash and cyclone powers of the air school and the fire jet and dancing flame powers of the fire school.",
+					"",
+					"**Smokesight (Su):** You can see normally through natural fog and smoke, as well as any fog and smoke that you (but not others) magically create. A number of times per day equal to 3 + your Intelligence bonus, you can touch another creature as a standard action to grant it this vision for 1 hour.",
+					"",
+					"**Body of Smoke (Sp):** At 8th level, you can assume a gaseous form (as per the spell of that name) as a swift action for a number of minutes per day equal to your wizard level. This duration does not need to be consecutive, but it must be used in 1-minute increments."
+				]
+			},
+			{
+				"name": "Earth",
+				"file": "schooldisplaydbe1.html",
+				"sources": [
+					"Advanced Player's Guide",
+					"Elemental Master's Handbook"
+				],
+				"focused_schools": "Magma, Mud",
+				"description": [
+					"## Earth",
+					"",
+					"**Source** [Advanced Player's Guide pg. 142](source:Advanced_Player's_Guide)   ",
+					"The earth elementalist draws power from the stone around him, shaping it, shattering it, and bending it to his will. He can use it to defend himself or cause it to rise up and crush his foes.",
+					"",
+					"**Earth Supremacy (Su):** You gain a +2 enhancement bonus to your CMD to resist bull rush, reposition, trip, and overrun attempts as long as you are touching the ground. This bonus increases by +1 for every five wizard levels you possess. In addition, you gain a +1 insight bonus on melee attack and damage rolls whenever both you and your foe are touching the ground. At 20th level, earth and stone do not block the line of effect of your spells, although they do still block your line of sight.",
+					"",
+					"**Acid Cloud (Su):** As a standard action, you can create a 5-foot-radius cloud of acid vapor within 30 feet that lasts for 1 round. This cloud deals 1d6 points of acid damage + 1 point for every two wizard levels you possess to all creatures in the cloud and sickens them for 1 round. A successful Fortitude save negates the sickened effect and halves the damage. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier. Creatures that begin their turn inside the cloud can move out that turn without penalty, but those that enter the cloud are affected. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Earth Glide (Su):** At 8th level, you gain the ability to move through earth, dirt, and stone for a number of rounds per day equal to your wizard level. You cannot move through worked earth or stone; only natural substances can be traversed. If your total duration expires before you exit the earth, you are flung back to the point where you entered the stone, take 4d6 points of damage, and are stunned for 1 round. Your burrowing does not leave a hole, nor does it give any sign of your presence (although you can be detected by creatures with tremorsense). These rounds do not need to be consecutive.",
+					"",
+					"### Magma School",
+					"",
+					"**Source** [Elemental Master's Handbook pg. 21](source:Elemental_Master's_Handbook)   ",
+					"**Associated School:** Earth or Fire.",
+					"",
+					"**Replacement Powers:** The following school powers replace the acid cloud and earth glide powers of the earth school and the fire jet and dancing flame powers of the fire school.",
+					"",
+					"**Magma Furrow (Su):** As a standard action, you can send forth a 20-foot line of magma. Any creature in this line takes 1d6 points of fire damage + 1 point for every 2 wizard levels you have. A successful Reflex save (DC = 10 + half your wizard level + your Intelligence modifier) halves this damage. In addition, the ground in this area remains molten for another 1d4 rounds. Creatures that begin their turns in the area can move out that turn without penalty, but those that enter the area each take 1d6 points of fire damage. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Lava Shield (Su):** At 8th level, you can create a barrier of lava to protect you for 1 round as a standard action. Choose one edge of your space. That edge is treated as a solid wall for attacks targeting you only. You gain total cover from attacks that pass through this edge, and you gain the benefits of fire shield (warm shield) while adjacent to the lava shield. You can dismiss the lava shield as a free action, and it disappears immediately if you leave your space. You can use this ability a number of rounds per day equal to half your wizard level.",
+					"",
+					"### Mud School",
+					"",
+					"**Source** [Elemental Master's Handbook pg. 21](source:Elemental_Master's_Handbook)   ",
+					"**Associated School:** Earth or Water.",
+					"",
+					"**Replacement Powers:** The following school powers replace the acid cloud and earth glide powers of the earth school and the cold blast and wave powers of the water school.",
+					"",
+					"**Hindering Muck (Su):** As a standard action, you can create a 15-foot cone of sticky mud. Any creature in the cone must succeed at a Reflex save (DC = 10 + half your wizard level + your Intelligence modifier) or become entangled for 1 round for every wizard level you have. An affected creature can take a standard action that provokes attacks of opportunity to wipe off enough of the mud to remove the entangled condition. Jumping into a large body of water or being subject to an effect that creates a substantial amount of water (such as a casting of create water) removes all the mud on a creature. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Mud Missile (Su):** At 8th level, you can fling a ball of hardened mud at a foe within 30 feet as a standard action. If you succeed at a ranged touch attack, the mud slams into the target's face, dealing 1d6 points of bludgeoning damage for every 2 wizard levels you have and blinding the target for 1d4 rounds. A creature can remove the blinding mud from itself or another creature with a successful Strength check (DC = 10 + half your wizard level) as a standard action. You can use this ability a number of times per day equal to half your wizard level."
+				]
+			},
+			{
+				"name": "Fire",
+				"file": "schooldisplayb4ee.html",
+				"sources": [
+					"Advanced Player's Guide",
+					"Elemental Master's Handbook"
+				],
+				"focused_schools": "Magma, Smoke",
+				"description": [
+					"## Fire",
+					"",
+					"**Source** [Advanced Player's Guide pg. 142](source:Advanced_Player's_Guide)   ",
+					"The fire elementalist sees a world around him that is made to burn, and he can bring that fire to consume his foes. He has also learned that fire can purify and protect, if properly controlled.",
+					"",
+					"**Fire Supremacy (Su):** You gain resistance 5 to fire. At 10th level, this resistance increases to 10. At 20th level, you gain immunity to fire damage. In addition, whenever you are within 5 feet of a source of flame at least as large as a campfire, you can draw the fire around you for 1 round as a swift action. Anyone striking you with a melee weapon or unarmed strike takes an amount of fire damage equal to 1/2 your wizard level (minimum 1). Weapons with reach avoid this damage.",
+					"",
+					"**Fire Jet (Su):** As a standard action, you can send forth a 20-foot line of fire. Anyone in this line takes 1d6 points of fire damage + 1 point for every two wizard levels you possess. A successful Reflex save halves this damage. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier. Creatures that fail their saving throw catch fire and take 1d6 points of fire damage on the following round. Creatures that catch fire can avoid this damage by taking a full-round action to extinguish the flames by making a DC 15 Reflex save. Rolling on the ground gives a +2 circumstance bonus on the save. Dousing the creature with water automatically extinguishes the flame. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Dancing Flame (Su):** At 8th level, as a standard action, you can sculpt fire to suit your desires. With one use of this ability you can move any nonmagical fire up to 30 feet. Alternatively you can use this ability to alter any fire spell that you cast with a duration of instantaneous by removing any number of squares from its area of affect. If the fire spell has a duration, you can use this ability to reposition the spell, within its original range (treat this as if you had just cast the spell, even though the duration is unchanged). You cannot use this ability on a fire spell that you did not cast. If you move a nonmagical flame, it must have a new source of fuel. If it does not, it is extinguished in one round. You can use this ability a number of times per day equal to 1/2 your wizard level.",
+					"",
+					"### Magma School",
+					"",
+					"**Source** [Elemental Master's Handbook pg. 21](source:Elemental_Master's_Handbook)   ",
+					"**Associated School:** Earth or Fire.",
+					"",
+					"**Replacement Powers:** The following school powers replace the acid cloud and earth glide powers of the earth school and the fire jet and dancing flame powers of the fire school.",
+					"",
+					"**Magma Furrow (Su):** As a standard action, you can send forth a 20-foot line of magma. Any creature in this line takes 1d6 points of fire damage + 1 point for every 2 wizard levels you have. A successful Reflex save (DC = 10 + half your wizard level + your Intelligence modifier) halves this damage. In addition, the ground in this area remains molten for another 1d4 rounds. Creatures that begin their turns in the area can move out that turn without penalty, but those that enter the area each take 1d6 points of fire damage. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Lava Shield (Su):** At 8th level, you can create a barrier of lava to protect you for 1 round as a standard action. Choose one edge of your space. That edge is treated as a solid wall for attacks targeting you only. You gain total cover from attacks that pass through this edge, and you gain the benefits of fire shield (warm shield) while adjacent to the lava shield. You can dismiss the lava shield as a free action, and it disappears immediately if you leave your space. You can use this ability a number of rounds per day equal to half your wizard level.",
+					"",
+					"### Smoke School",
+					"",
+					"**Source** [Elemental Master's Handbook pg. 21](source:Elemental_Master's_Handbook)   ",
+					"**Associated School:** Air or Fire.",
+					"",
+					"**Replacement Powers:** The following school powers replace the lightning flash and cyclone powers of the air school and the fire jet and dancing flame powers of the fire school.",
+					"",
+					"**Smokesight (Su):** You can see normally through natural fog and smoke, as well as any fog and smoke that you (but not others) magically create. A number of times per day equal to 3 + your Intelligence bonus, you can touch another creature as a standard action to grant it this vision for 1 hour.",
+					"",
+					"**Body of Smoke (Sp):** At 8th level, you can assume a gaseous form (as per the spell of that name) as a swift action for a number of minutes per day equal to your wizard level. This duration does not need to be consecutive, but it must be used in 1-minute increments."
+				]
+			},
+			{
+				"name": "Metal",
+				"file": "schooldisplay508a.html",
+				"sources": [
+					"Ultimate Magic"
+				],
+				"focused_schools": "",
+				"description": [
+					"## Metal",
+					"",
+					"**Source** [Ultimate Magic pg. 87](source:Ultimate_Magic)   ",
+					"Metal represents firmness, rigidity, persistence, strength, determination, and electricity. It is commonly represented by gold and silver as its purest forms, though lower magic relating to iron and steel is part of the metal school.",
+					"",
+					"**Metal Magic:** At 1st level, add the following spells to your wizard spell list at the listed spell level: 3rd-chill metal, heat metal, 5th-rusting grasp, 9th-repel metal or stone.",
+					"",
+					"**Metal Rending (Su):** Whenever you cast a spell that deals hit point damage, you deal extra damage to creatures made of metal or wearing medium or heavy metal armor. Affected creatures take additional damage equal to 1/2 your wizard level. This bonus damage is not increased by Empower Spell or similar effects. This bonus only applies once to a spell, not once per missile or ray, and cannot be split between multiple missiles or rays. The damage is of the same type as the spell.",
+					"",
+					"At 20th level, whenever you cast a spell on a creature made of metal or wearing medium or heavy armor, you can roll twice to penetrate the creature's spell resistance and take the better result.",
+					"",
+					"**Iron Skin (Su):** You gain a +2 armor bonus to your Armor Class for 10 minutes; this bonus increases by +1 for every 5 caster levels (maximum +6 at 20th level). You can use this ability a number of times per day equal to 3 + your Intelligence bonus.",
+					"",
+					"**Shrapnel Burst (Su):** At 8th level, as a swift action, you can cause jagged pieces of metal to explode outward from your body. These shards deal 1d6 points of piercing damage per two wizard levels (minimum 1d6) to all creatures within a 10-foot-radius burst. A Reflex save halves this damage. In addition, the twisted scraps of metal make the area difficult terrain until your next turn (at which time they disappear). You can use this ability once per day, plus one additional time per day at 13th level and 18th level. At 10th-level, the shrapnel bypasses damage reduction as if it were a magic weapon."
+				]
+			},
+			{
+				"name": "Void",
+				"file": "schooldisplay2c1e.html",
+				"sources": [
+					"Dragon Empires Primer"
+				],
+				"focused_schools": "",
+				"description": [
+					"## Void",
+					"",
+					"**Source** [Dragon Empires Primer pg. 29](source:Dragon_Empires_Primer)   ",
+					"The void is a complex idea considered by some to be a fifth element-one that comprises thought, space, spiritualism, and insight. Wizards who tap into its mysterious powers gain control over energies that bind the earth to the heavens and the planes to their mysterious and eternal alignments, as well as the powers that stitch living beings to their spirits. The void elemental school presented here is an additional arcane school for the wizard class.",
+					"",
+					"A wizard who specializes in the void element gains a number of school powers and one bonus spell slot of each level that the wizard can cast, from 1st on up. This bonus spell slot must be used to prepare a spell from the void elemental school's spell list. Unlike a normal arcane school, the void elemental school requires the wizard to select a single element (air, earth, fire, or water) as his opposition school. A wizard must expend two spell slots to prepare a spell from his opposed elemental school as normal. He does not need to select a second opposition school.",
+					"",
+					"**Void Magic:** Add the following spells to your wizard spell list at the listed spell level: 1st-keen senses, 3rd-twilight knife, 4th- wandering star motes, 6th-true seeing, 8th- moment of prescience.",
+					"",
+					"**Void Awareness (Su):** Your ability to recognize the void allows your body to react to magical manifestations before you're even aware of them. You gain a +2 insight bonus on saving throws against spells and spell-like abilities. This bonus increases by +1 for every five wizard levels you possess. At 20th level, whenever you would be affected by a spell or spell-like ability that allows a saving throw, you can roll twice to save against the effect and take the better result.",
+					"",
+					"**Reveal Weakness (Su):** When you activate this school power as a standard action, you select a foe within 30 feet. That creature takes a penalty to its AC and on saving throws equal to 1/2 your caster level (minimum -1) for 1 round. You can use this ability a number of times per day equal to 3 + your Intelligence bonus.",
+					"",
+					"**Aura of Prescience (Su):** At 8th level, you can emit a 30-foot aura of void energy for a number of rounds per day equal to your wizard level. Allies within this aura gain a +2 insight bonus on ability checks, attack rolls, damage rolls, saving throws, and skill checks. These rounds do not need to be consecutive."
+				]
+			},
+			{
+				"name": "Water",
+				"file": "schooldisplayc28e.html",
+				"sources": [
+					"Advanced Player's Guide",
+					"Elemental Master's Handbook"
+				],
+				"focused_schools": "Ice, Mud",
+				"description": [
+					"## Water",
+					"",
+					"**Source** [Advanced Player's Guide pg. 143](source:Advanced_Player's_Guide)   ",
+					"The water elementalist draws magic from the ocean depths. His power is fluid as well, crushing foes in mighty waves or wearing them down through timeless erosion.",
+					"",
+					"**Water Supremacy (Su):** You gain a +2 enhancement bonus on Swim skill checks. This bonus increases by +1 for every five wizard levels you possess. In addition, you can hold your breath for a number of rounds equal to four times your Constitution score before you must start making checks to avoid drowning. At 10th level, you gain a swim speed equal to your base speed. At 20th level, whenever you make a Swim skill check, assume the roll resulted in a natural 20.",
+					"",
+					"**Cold Blast (Su):** As a standard action, you can unleash a blast of freezing cold. This blast deals 1d6 points of cold damage + 1 point for every two wizard levels you possess to all creatures within 5 feet of you and staggers them for 1 round. A successful Reflex save negates the staggered effect and halves the damage. The DC of this save is equal to 10 + 1/2 your wizard level + your Intelligence modifier. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Wave (Su):** At 8th level, you can create a wave of water that starts at your location and moves 30 feet per round away from you in a direction of your choosing. Creatures struck by the wave might be knocked down and pushed away. Make a caster level check against the CMD of each creature struck. If you succeed, the creature is knocked prone. If your check exceeds the CMD of the creature by 5 or more, it is carried with the wave during the wave's movement this round. You receive a +5 bonus on this check if the creature shares its space with the wave at the start of your turn (when the wave moves). Creatures carried in this way can move out of the wave on their turn if they succeed on a Strength check (DC = 10 + 1/2 your caster level + your Intelligence modifier), but they cannot breathe while sharing space with the wave. The wave is up to 20 feet high and up to 5 feet long for each wizard level you possess. Nonmagical fires hit by the wave are automatically extinguished. Magical fire effects are unaffected. You can use this ability for a number of rounds per day equal to 1/2 your wizard level.",
+					"",
+					"### Ice School",
+					"",
+					"**Source** [Elemental Master's Handbook pg. 21](source:Elemental_Master's_Handbook)   ",
+					"**Associated School:** Air or Water.",
+					"",
+					"**Replacement Powers:** The following school powers replace the lightning flash and cyclone powers of the air school and the cold blast and wave powers of the water school.",
+					"",
+					"**Freezing Shards (Su):** As a standard action, you can cause shards of ice to burst forth from the ground around you. The shards deal 1d4 points of piercing damage and 1d6 points of cold damage + 1 point for every 2 wizard levels you have to all creatures within 5 feet of you. A successful Reflex save (DC = 10 + half your wizard level + your Intelligence modifier) negates the piercing damage and halves the cold damage. The shards remain until the beginning of your next turn; during this time, the area is difficult terrain. You are not affected by your own freezing shards and can move through the area normally. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Icy Shackles (Su):** At 8th level, as a standard action, you can make a melee touch attack against a foe to conjure icy restraints around its ankles, reducing its base speed to 5 feet and dealing it an amount of cold damage at the beginning of its turn equal to your Intelligence modifier. The manacles have AC 10, hardness 0, and 30 hit points, and a creature can destroy them with a successful Strength check (DC = 10 + half your wizard level + your Intelligence modifier) as a standard action. The icy shackles melt away after 1 minute. You can use this ability a number of times per day equal to your Intelligence modifier.",
+					"",
+					"### Mud School",
+					"",
+					"**Source** [Elemental Master's Handbook pg. 21](source:Elemental_Master's_Handbook)   ",
+					"**Associated School:** Earth or Water.",
+					"",
+					"**Replacement Powers:** The following school powers replace the acid cloud and earth glide powers of the earth school and the cold blast and wave powers of the water school.",
+					"",
+					"**Hindering Muck (Su):** As a standard action, you can create a 15-foot cone of sticky mud. Any creature in the cone must succeed at a Reflex save (DC = 10 + half your wizard level + your Intelligence modifier) or become entangled for 1 round for every wizard level you have. An affected creature can take a standard action that provokes attacks of opportunity to wipe off enough of the mud to remove the entangled condition. Jumping into a large body of water or being subject to an effect that creates a substantial amount of water (such as a casting of create water) removes all the mud on a creature. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Mud Missile (Su):** At 8th level, you can fling a ball of hardened mud at a foe within 30 feet as a standard action. If you succeed at a ranged touch attack, the mud slams into the target's face, dealing 1d6 points of bludgeoning damage for every 2 wizard levels you have and blinding the target for 1d4 rounds. A creature can remove the blinding mud from itself or another creature with a successful Strength check (DC = 10 + half your wizard level) as a standard action. You can use this ability a number of times per day equal to half your wizard level."
+				]
+			},
+			{
+				"name": "Wood",
+				"file": "schooldisplay696e.html",
+				"sources": [
+					"Ultimate Magic"
+				],
+				"focused_schools": "",
+				"description": [
+					"## Wood",
+					"",
+					"**Source** [Ultimate Magic pg. 88](source:Ultimate_Magic)   ",
+					"Wood represents flexibility, warmth, wind, generosity, cooperation, and idealism. Practitioners of this elemental magic often resemble druids in character and in the use of their magic.",
+					"",
+					"**Wood Magic:** At 1st level, add the following spells to your wizard spell list at the listed spell level: 2nd-entangle, 3rd-tree shape, 4th-plant growth, 5th-command plants, 6th-tree stride, 7th-liveoak, 8th-transmute metal to wood, 9th-control plants.",
+					"",
+					"**Flexible Enhancement (Su):** A master of the wood element is able to bend like bamboo when stressed and snap back into place. You gain a +1 enhancement bonus to your Dexterity, Constitution, or Wisdom ability score. This bonus increases by +1 for every five wizard levels you possess to a maximum of +5 at 20th level. You can change this bonus to a new ability score when you prepare spells. At 20th level, this bonus applies to two of these ability scores of your choice.",
+					"",
+					"**Splintered Spear (Su):** As a standard action, you can create a wooden shortspear appropriate to your size, which hurls itself as a ranged attack against one target within 100 feet (range penalties apply), using your Intelligence modifier as an attack bonus instead of your Strength or Dexterity modifier. The spear deals normal damage according to its size, plus your Intelligence modifier, then breaks into countless splinters; the target takes 1 point of bleed damage each round on its turn. At 6th-level and every 6 levels thereafter, the spear gains a +1 enhancement bonus and the bleed damage increases by +1. You can use this ability a number of times per day equal to 3 + your Intelligence modifier.",
+					"",
+					"**Cooperative Defense (Su):** At 8th level, whenever a spell or effect targets you and one or more allies within 30 feet, you can use this ability to allow your allies to use your saving throw against the effect in place of their own. Each ally must make this choice individually before the rolls are made. Using this ability is an immediate action. You can use this ability once per day at 8th level, and one additional time per day for every four wizard levels beyond 8th."
+				]
+			}
+		]
+	},
+	"familiars": {
+		"description": [
+			"## Familiars",
+			"",
+			"A familiar is an animal chosen by a spellcaster to aid him in his study of magic. It retains the appearance, Hit Dice, base attack bonus, base save bonuses, skills, and feats of the normal animal it once was, but is now a magical beast for the purpose of effects that depend on its type. Only a normal, unmodified animal may become a familiar. An animal companion cannot also function as a familiar.",
+			"",
+			"A familiar grants special abilities to its master, as given on the table below. These special abilities apply only when the master and familiar are within 1 mile of each other.",
+			"",
+			"Levels of different classes that are entitled to familiars stack for the purpose of determining any familiar abilities that depend on the master's level.",
+			"",
+			"If a familiar is lost or dies, it can be replaced 1 week later through a specialized ritual that costs 200 gp per wizard level. The ritual takes 8 hours to complete.",
+			"",
+			"Statistics for familiars [can be found here](class/companion:familiar).",
+			"",
+			"While most familiars are Tiny animals or magical beasts, spellcasters may acquire larger or more unusual creatures during their travels, which impart certain rules effects that should be considered at the table.",
+			"",
+			"Small familiars threaten the areas around them like other Small creatures, and can be used to flank enemies-though both familiars and their masters are generally loath to employ such tactics, as the result is often a dead familiar. Small familiars are also harder to keep on a master's person than Tiny or smaller familiars; some form of magic item, like a bag of holding, is usually required.",
+			"",
+			"Construct, plant, and vermin familiars gain an Intelligence score, and they lose the mindless trait if they had it. If such familiars lack a language, they communicate with their masters and other creatures of their kind (greensting scorpions with other scorpions, mobile plant creatures with other mobile plant creatures, and so on) by way of a strange combination of behaviors, slight changes in coloration, and sometimes even the excretion of scents or pheromones. Other types of creatures can't understand this communication without magical aid.",
+			"",
+			"Outsiders and undead creatures are normally available only with the [Improved Familiar](feat:Improved_Familiar) feat, and require no other special rules.",
+			"",
+			"Improved familiars [are listed here.](class/ability:improvedfamiliars)"
+		],
+		"list": [
+			{
+				"name": "Archaeopteryx",
+				"monster_file": "monsterdisplaya60c.html",
+				"master_bonus": "Master gains a +2 bonus on Reflex saves",
+				"sources": [ "Bestiary 4" ]
+			},
+			{
+				"name": "Arctic fox",
+				"monster_file": "monsterdisplayb345.html",
+				"master_bonus": "Master gains a +2 bonus on Reflex saves (use fox statistics, +4 Stealth to blend into snow)",
+				"sources": [
+					"Ultimate Wilderness",
+					"Reign of Winter Player's Guide"
+				]
+			},
+			{
+				"name": "Arctic hare",
+				"monster_file": "monsterdisplay62c0.html",
+				"master_bonus": "Master gains a +4 bonus on initiative checks",
+				"sources": [
+					"Ultimate Wilderness",
+					"Reign of Winter Player's Guide"
+				]
+			},
+			{
+				"name": "Arctic tern",
+				"monster_file": "monsterdisplay7449.html",
+				"master_bonus": "Master gains a +3 bonus on Fly checks",
+				"sources": [
+					"Ultimate Wilderness",
+					"Reign of Winter Player's Guide"
+				]
+			},
+			{
+				"name": "Armadillo",
+				"monster_file": "monsterdisplay2119.html",
+				"master_bonus": "Master gains a +1 natural armor bonus to AC",
+				"sources": [
+					"Ultimate Wilderness",
+					"Animal Archive"
+				]
+			},
+			{
+				"name": "Bat",
+				"monster_file": "monsterdisplayd725.html",
+				"master_bonus": "Master gains a +3 bonus on Fly checks",
+				"sources": [
+					"Animal Archive",
+					"PRPG Core Rulebook"
+				]
+			},
+			{
+				"name": "Butterfly",
+				"monster_file": "monsterdisplayb5c7.html",
+				"master_bonus": "Master gains a +3 bonus on Perform checks",
+				"sources": [ "Ultimate Wilderness" ]
+			},
+			{
+				"name": "Cat",
+				"monster_file": "monsterdisplay6768.html",
+				"master_bonus": "Master gains a +3 bonus on Stealth checks",
+				"sources": [
+					"Animal Archive",
+					"PRPG Core Rulebook"
+				]
+			},
+			{
+				"name": "Cat, margay",
+				"searchable_name": "Margay Cat",
+				"monster_file": "monsterdisplaye6fb.html",
+				"master_bonus": "Master gains a +3 bonus on Bluff checks",
+				"sources": [ "Ultimate Wilderness" ]
+			},
+			{
+				"name": "Centipede, house",
+				"searchable_name": "House Centipede",
+				"monster_file": "monsterdisplayb18d.html",
+				"master_bonus": "Master gains a +3 bonus on Stealth checks",
+				"sources": [
+					"Animal Archive",
+					"Ultimate Magic"
+				]
+			},
+			{
+				"name": "Chicken",
+				"monster_file": "monsterdisplaye168.html",
+				"master_bonus": "Master gains a +3 hit points",
+				"sources": [
+					"Ultimate Wilderness",
+					"Bestiary 5",
+					"Familiar Folio"
+				]
+			},
+			{
+				"name": "Cockroach",
+				"monster_file": "monsterdisplay3533.html",
+				"master_bonus": "Master gains a +3 hit points",
+				"sources": [ "Ultimate Wilderness" ]
+			},
+			{
+				"name": "Compsognathus dinosaur",
+				"monster_file": "monsterdisplayace8.html",
+				"master_bonus": "Master gains a +4 bonus on initiative checks",
+				"sources": [
+					"Animal Archive",
+					"Bestiary 2"
+				]
+			},
+			{
+				"name": "Crab, king",
+				"searchable_name": "King Crab",
+				"monster_file": "monsterdisplay02d4.html",
+				"master_bonus": "Master gains a +2 bonus on combat maneuver checks to start and maintain a grapple",
+				"sources": [
+					"Animal Archive",
+					"Ultimate Magic"
+				]
+			},
+			{
+				"name": "Creeper ivy",
+				"monster_file": "monsterdisplay2e17.html",
+				"master_bonus": "Master gains a +3 bonus on Climb checks",
+				"sources": [ "Ultimate Wilderness" ]
+			},
+			{
+				"name": "Dodo",
+				"monster_file": "monsterdisplay6c84.html",
+				"master_bonus": "Master gains a +4 bonus on initiative checks",
+				"sources": [
+					"Ultimate Wilderness",
+					"Animal Archive",
+					"Bestiary 4"
+				]
+			},
+			{
+				"name": "Dolphin, popoto",
+				"searchable_name": "Popoto Dolphin",
+				"monster_file": "monsterdisplay873b.html",
+				"master_bonus": "Master gains a +3 bonus on Swim checks",
+				"sources": [
+					"Ultimate Wilderness",
+					"Familiar Folio"
+				]
+			},
+			{
+				"name": "Donkey rat",
+				"monster_file": "monsterdisplayc05c.html",
+				"master_bonus": "Master gains a +2 bonus on Fortitude saves",
+				"sources": [
+					"Animal Archive",
+					"Ultimate Magic"
+				]
+			},
+			{
+				"name": "Dwarf caiman",
+				"monster_file": "monsterdisplay13ca.html",
+				"master_bonus": "Master gains a +3 bonus on Stealth checks",
+				"sources": [
+					"Ultimate Wilderness",
+					"Animal Archive"
+				]
+			},
+			{
+				"name": "Dweomer cap",
+				"monster_file": "monsterdisplayea4a.html",
+				"master_bonus": "Master gains a +3 bonus on Spellcraft checks to identify magic items",
+				"sources": [ "Ultimate Wilderness" ]
+			},
+			{
+				"name": "Ermine",
+				"monster_file": "monsterdisplayf0df.html",
+				"master_bonus": "Master gains a +2 bonus on Reflex saves (use weasal statistics, +4 Stealth to blend into snow)",
+				"sources": [
+					"Ultimate Wilderness",
+					"Reign of Winter Player's Guide"
+				]
+			},
+			{
+				"name": "Fire salamander",
+				"monster_file": "monsterdisplay3563.html",
+				"master_bonus": "Master gains a +3 bonus on Escape Artist checks",
+				"sources": [ "Ultimate Wilderness" ]
+			},
+			{
+				"name": "Flowering lattice",
+				"monster_file": "monsterdisplayb4f1.html",
+				"master_bonus": "Master gains a +3 bonus on Diplomacy checks",
+				"sources": [ "Ultimate Wilderness" ]
+			},
+			{
+				"name": "Flying fox",
+				"monster_file": "monsterdisplay9049.html",
+				"master_bonus": "Master gains a +2 bonus on Fortitude saves",
+				"sources": [ "Bestiary 5" ]
+			},
+			{
+				"name": "Flying squirrel",
+				"monster_file": "monsterdisplay4225.html",
+				"master_bonus": "Master gains a +3 bonus on Fly checks",
+				"sources": [ "Bestiary 3" ]
+			},
+			{
+				"name": "Fox",
+				"monster_file": "monsterdisplayb345.html",
+				"master_bonus": "Master gains a +2 bonus on Reflex saves",
+				"sources": [
+					"Animal Archive",
+					"Bestiary 3",
+					"Ultimate Magic"
+				]
+			},
+			{
+				"name": "Giant flea",
+				"monster_file": "monsterdisplayb759.html",
+				"master_bonus": "Master gains a +3 bonus on Fortitude saves against disease (witch only)",
+				"sources": [ "Bestiary 4" ]
+			},
+			{
+				"name": "Giant isopod",
+				"monster_file": "monsterdisplay903e.html",
+				"master_bonus": "Master gains a +1 natural armor bonus to AC",
+				"sources": [ "Animal Archive" ]
+			},
+			{
+				"name": "Goat",
+				"monster_file": "monsterdisplay7e66.html",
+				"master_bonus": "Master gains a +3 bonus on Survival checks",
+				"sources": [
+					"Animal Archive",
+					"Ultimate Magic",
+					"Bestiary 3"
+				]
+			},
+			{
+				"name": "Hawk",
+				"monster_file": "monsterdisplaya721.html",
+				"master_bonus": "Master gains a +3 bonus on sight-based and opposed Perception checks in bright light",
+				"sources": [
+					"Animal Archive",
+					"PRPG Core Rulebook"
+				]
+			},
+			{
+				"name": "Hedgehog",
+				"monster_file": "monsterdisplay95b0.html",
+				"master_bonus": "Master gains a +2 bonus on Will saves",
+				"sources": [
+					"Animal Archive",
+					"Ultimate Magic"
+				]
+			},
+			{
+				"name": "Horned lizard",
+				"monster_file": "monsterdisplay3b9b.html",
+				"master_bonus": "Master gains a +2 bonus on Fortitude saves",
+				"sources": [ "Ultimate Wilderness" ]
+			},
+			{
+				"name": "Ioun wyrd",
+				"monster_file": "monsterdisplaya3e1.html",
+				"master_bonus": "Master gains a +1 natural armor bonus to AC",
+				"sources": [
+					"Ultimate Wilderness",
+					"Familiar Folio"
+				]
+			},
+			{
+				"name": "Isopod, giant",
+				"searchable_name": "Giant Isopod",
+				"monster_file": "monsterdisplay903e.html",
+				"master_bonus": "Master gains a +2 bonus on Reflex saves",
+				"sources": [ "Ultimate Wilderness" ]
+			},
+			{
+				"name": "Jerboa",
+				"monster_file": "monsterdisplay1a4e.html",
+				"master_bonus": "Master gains a +4 bonus on initiative checks",
+				"sources": [ "Ultimate Wilderness" ]
+			},
+			{
+				"name": "Kakapo",
+				"monster_file": "monsterdisplayf3c6.html",
+				"master_bonus": "Master gains a +3 bonus on Climb checks",
+				"sources": [
+					"Ultimate Wilderness",
+					"Familiar Folio"
+				]
+			},
+			{
+				"name": "Keulia",
+				"monster_file": "monsterdisplayd5f4.html",
+				"master_bonus": "Master gains a +3 bonus to Disguise checks",
+				"sources": [ "Druma, Profit and Prophecy" ]
+			},
+			{
+				"name": "Koala",
+				"monster_file": "monsterdisplay060b.html",
+				"master_bonus": "Master gains a +3 bonus on Climb checks",
+				"sources": [
+					"Ultimate Wilderness",
+					"Familiar Folio"
+				]
+			},
+			{
+				"name": "Lamprey",
+				"monster_file": "monsterdisplay0055.html",
+				"master_bonus": "Master gains a +3 hit points",
+				"sources": [ "Ultimate Wilderness" ]
+			},
+			{
+				"name": "Lemming",
+				"monster_file": "monsterdisplay3190.html",
+				"master_bonus": "Master gains a +2 bonus on Fortitude saves",
+				"sources": [
+					"Ultimate Wilderness",
+					"Reign of Winter Player's Guide"
+				]
+			},
+			{
+				"name": "Leopard slug",
+				"monster_file": "monsterdisplaya0d8.html",
+				"master_bonus": "Master gains a +3 bonus on Climb checks",
+				"sources": [ "Familiar Folio" ]
+			},
+			{
+				"name": "Leopard Slug",
+				"monster_file": "monsterdisplaya0d8.html",
+				"master_bonus": "Master gains a +3 bonus on Climb checks",
+				"sources": [ "Ultimate Wilderness" ]
+			},
+			{
+				"name": "Lich newt",
+				"monster_file": "monsterdisplayd1c0.html",
+				"master_bonus": "Master gains a +2 bonus on Fortitude saves against disease and poison",
+				"sources": [ "Pathfinder #115: Trail of the Hunted" ]
+			},
+			{
+				"name": "Lizard",
+				"monster_file": "monsterdisplay871f.html",
+				"master_bonus": "Master gains a +3 bonus on Climb checks",
+				"sources": [
+					"Animal Archive",
+					"PRPG Core Rulebook"
+				]
+			},
+			{
+				"name": "Marine iguana",
+				"monster_file": "monsterdisplay13ca.html",
+				"master_bonus": "Master gains a +3 bonus on Swim checks (use dwarf caiman stats for marine iguanas)",
+				"sources": [
+					"Ultimate Wilderness",
+					"Animal Archive"
+				]
+			},
+			{
+				"name": "Meerkat",
+				"monster_file": "monsterdisplayc719.html",
+				"master_bonus": "Master gains a +3 bonus on Escape Artist checks",
+				"sources": [ "Ultimate Wilderness" ]
+			},
+			{
+				"name": "Mole",
+				"monster_file": "monsterdisplayb7cf.html",
+				"master_bonus": "Master gains a +3 bonus on smell-, taste-, and touch-based Perception checks",
+				"sources": [
+					"Ultimate Wilderness",
+					"Familiar Folio"
+				]
+			},
+			{
+				"name": "Mongoose",
+				"monster_file": "monsterdisplayf0df.html",
+				"master_bonus": "Master gains a +2 bonus on Fortitude saves (use weasel stats for mongooses)",
+				"sources": [
+					"Ultimate Wilderness",
+					"Animal Archive"
+				]
+			},
+			{
+				"name": "Monkey",
+				"monster_file": "monsterdisplay7783.html",
+				"master_bonus": "Master gains a +3 bonus on Acrobatics checks",
+				"sources": [
+					"Animal Archive",
+					"PRPG Core Rulebook"
+				]
+			},
+			{
+				"name": "Moth",
+				"monster_file": "monsterdisplayb5c7.html",
+				"master_bonus": "Master gains a +3 bonus on Survival checks",
+				"sources": [ "Ultimate Wilderness" ]
+			},
+			{
+				"name": "Octopus, blue-ringed",
+				"searchable_name": "Blue Ringed Octopus",
+				"monster_file": "monsterdisplay1139.html",
+				"master_bonus": "Master gains a +3 bonus on Swim checks",
+				"sources": [
+					"Animal Archive",
+					"Ultimate Magic"
+				]
+			},
+			{
+				"name": "Osprey",
+				"monster_file": "monsterdisplaya721.html",
+				"master_bonus": "Master gains a +3 bonus on Survival checks (use hawk stats for ospreys)",
+				"sources": [
+					"Ultimate Wilderness",
+					"Animal Archive"
+				]
+			},
+			{
+				"name": "Otter",
+				"monster_file": "monsterdisplayf888.html",
+				"master_bonus": "Master gains a +3 bonus on Swim checks",
+				"sources": [
+					"Animal Archive",
+					"Bestiary 3"
+				]
+			},
+			{
+				"name": "Owl",
+				"monster_file": "monsterdisplay20c8.html",
+				"master_bonus": "Master gains a +3 bonus on sight-based and opposed Perception checks in shadows or darkness",
+				"sources": [
+					"Animal Archive",
+					"PRPG Core Rulebook"
+				]
+			},
+			{
+				"name": "Parrot",
+				"monster_file": "monsterdisplayb72d.html",
+				"master_bonus": "Master gains a +3 bonus on Linguistics checks (use raven stats for parrots)",
+				"sources": [
+					"Ultimate Wilderness",
+					"Animal Archive"
+				]
+			},
+			{
+				"name": "Peacock",
+				"monster_file": "monsterdisplay4b82.html",
+				"master_bonus": "Master gains a +3 bonus on Intimidate checks",
+				"sources": [ "Familiar Folio" ]
+			},
+			{
+				"name": "Peafowl",
+				"monster_file": "monsterdisplay189e.html",
+				"master_bonus": "Master gains a +3 bonus on Intimidate checks",
+				"sources": [ "Ultimate Wilderness" ]
+			},
+			{
+				"name": "Penguin",
+				"monster_file": "monsterdisplay1d03.html",
+				"master_bonus": "Master gains a +3 bonus on Swim checks",
+				"sources": [
+					"Ultimate Wilderness",
+					"Familiar Folio",
+					"Bestiary 5"
+				]
+			},
+			{
+				"name": "Petrifern",
+				"monster_file": "monsterdisplayb91b.html",
+				"master_bonus": "Master gains a +1 natural armor bonus to AC",
+				"sources": [
+					"Ultimate Wilderness",
+					"Familiar Folio"
+				]
+			},
+			{
+				"name": "Petromin",
+				"monster_file": "monsterdisplay58f8.html",
+				"master_bonus": "Master gains a +3 bonus on Stealth checks",
+				"sources": [ "Pathfinder #85: Fires of Creation" ]
+			},
+			{
+				"name": "Pig",
+				"monster_file": "monsterdisplay4d6d.html",
+				"master_bonus": "Master gains a +3 bonus on Diplomacy checks",
+				"sources": [
+					"Animal Archive",
+					"Ultimate Magic",
+					"Bestiary 3"
+				]
+			},
+			{
+				"name": "Platypus",
+				"monster_file": "monsterdisplayef3a.html",
+				"master_bonus": "Master gains a +3 bonus on Swim checks",
+				"sources": [
+					"Ultimate Wilderness",
+					"Bestiary 4",
+					"Animal Archive"
+				]
+			},
+			{
+				"name": "Ptarmigan",
+				"monster_file": "monsterdisplay0fa8.html",
+				"master_bonus": "Master gains a +3 bonus on Stealth checks",
+				"sources": [
+					"Ultimate Wilderness",
+					"Reign of Winter Player's Guide"
+				]
+			},
+			{
+				"name": "Pufferfish",
+				"monster_file": "monsterdisplay72f5.html",
+				"master_bonus": "Master gains a +2 bonus on Fortitude saves",
+				"sources": [
+					"Ultimate Wilderness",
+					"Familiar Folio"
+				]
+			},
+			{
+				"name": "Puffin",
+				"monster_file": "monsterdisplayf127.html",
+				"master_bonus": "Master gains a +2 bonus on Stealth checks",
+				"sources": [
+					"Ultimate Wilderness",
+					"Reign of Winter Player's Guide"
+				]
+			},
+			{
+				"name": "Rabbit",
+				"monster_file": "monsterdisplayf772.html",
+				"master_bonus": "Master gains a +4 bonus on initiative checks",
+				"sources": [
+					"Ultimate Wilderness",
+					"Animal Archive"
+				]
+			},
+			{
+				"name": "Raccoon",
+				"monster_file": "monsterdisplaydbe5.html",
+				"master_bonus": "Master gains a +3 bonus on Sleight of Hand checks",
+				"sources": [
+					"Animal Archive",
+					"Bestiary 3"
+				]
+			},
+			{
+				"name": "Rat",
+				"monster_file": "monsterdisplayfe92.html",
+				"master_bonus": "Master gains a +2 bonus on Fortitude saves",
+				"sources": [
+					"Animal Archive",
+					"PRPG Core Rulebook"
+				]
+			},
+			{
+				"name": "Raven",
+				"monster_file": "monsterdisplayb72d.html",
+				"master_bonus": "Master gains a +3 bonus on Appraise checks",
+				"special_ability": "A raven familiar can speak one language of its master's choice as a supernatural ability.",
+				"sources": [
+					"Animal Archive",
+					"PRPG Core Rulebook"
+				]
+			},
+			{
+				"name": "Ravenous Tumbleweed",
+				"monster_file": "monsterdisplay583a.html",
+				"master_bonus": "Master gains a 10-foot bonus to speed when using the charge, run, or withdraw actions",
+				"sources": [ "Ultimate Wilderness" ]
+			},
+			{
+				"name": "Razor Fern",
+				"monster_file": "monsterdisplayf722.html",
+				"master_bonus": "Master gains a +3 bonus on Stealth checks",
+				"sources": [ "Ultimate Wilderness" ]
+			},
+			{
+				"name": "Red panda",
+				"monster_file": "monsterdisplaybf7c.html",
+				"master_bonus": "Master gains a +3 bonus on Acrobatics checks",
+				"sources": [ "Bestiary 5" ]
+			},
+			{
+				"name": "Rhamphorhynchus",
+				"monster_file": "monsterdisplayefc9.html",
+				"master_bonus": "Master gains a +4 bonus on initiative checks",
+				"sources": [
+					"Ultimate Wilderness",
+					"Pathfinder #37: Souls for Smuggler's Shiv",
+					"Animal Archive"
+				]
+			},
+			{
+				"name": "Rock Tuatara",
+				"monster_file": "monsterdisplayabf8.html",
+				"master_bonus": "Master gains a +3 bonus on Stealth checks in rocky environments",
+				"sources": [ "Pathfinder #118: Siege of Stone" ]
+			},
+			{
+				"name": "Sawleg locust",
+				"monster_file": "monsterdisplay97fd.html",
+				"master_bonus": "Master gains a +3 bonus on Acrobatics checks",
+				"sources": [ "Ultimate Wilderness" ]
+			},
+			{
+				"name": "Scorpion, greensting",
+				"searchable_name": "Greensting Scorpion",
+				"monster_file": "monsterdisplay0f6e.html",
+				"master_bonus": "Master gains a +4 bonus on initiative checks (if familiar is within 1 mile)",
+				"sources": [
+					"Bestiary 4",
+					"Animal Archive",
+					"Ultimate Magic"
+				]
+			},
+			{
+				"name": "Sea krait",
+				"monster_file": "monsterdisplay84bd.html",
+				"master_bonus": "Master gains a +2 bonus on Fortitude saves (use viper stats for sea kraits)",
+				"sources": [
+					"Ultimate Wilderness",
+					"Animal Archive"
+				]
+			},
+			{
+				"name": "Seal",
+				"monster_file": "monsterdisplay9f40.html",
+				"master_bonus": "Master gains a +3 bonus on Swim checks",
+				"sources": [
+					"Ultimate Wilderness",
+					"Bestiary 5",
+					"Animal Archive"
+				]
+			},
+			{
+				"name": "Shimmerwing dragonfly",
+				"monster_file": "monsterdisplay6ded.html",
+				"master_bonus": "Master gains a +3 bonus on Fly checks",
+				"sources": [ "Ultimate Wilderness" ]
+			},
+			{
+				"name": "Skunk",
+				"monster_file": "monsterdisplay42b8.html",
+				"master_bonus": "Master gains a +2 bonus on Fortitude saves",
+				"sources": [
+					"Ultimate Wilderness",
+					"Animal Archive"
+				]
+			},
+			{
+				"name": "Sloth",
+				"monster_file": "monsterdisplayeada.html",
+				"master_bonus": "Master gains a +3 bonus on Climb checks",
+				"sources": [ "Bestiary 4" ]
+			},
+			{
+				"name": "Snail kite",
+				"monster_file": "monsterdisplaya721.html",
+				"master_bonus": "Master gains a +3 bonus on Fly checks (use hawk stats for snail kites)",
+				"sources": [
+					"Ultimate Wilderness",
+					"Animal Archive"
+				]
+			},
+			{
+				"name": "Snapping turtle",
+				"monster_file": "monsterdisplay38e6.html",
+				"master_bonus": "Master gains a +2 bonus on Fortitude saves",
+				"sources": [
+					"Animal Archive",
+					"Bestiary 2"
+				]
+			},
+			{
+				"name": "Snark",
+				"monster_file": "monsterdisplay76dd.html",
+				"master_bonus": "Master gains a +3 bonus on Stealth checks",
+				"sources": [ "Pathfinder #119: Prisoners of the Blight" ]
+			},
+			{
+				"name": "Snowy owl",
+				"monster_file": "monsterdisplay20c8.html",
+				"master_bonus": "Master gains a +3 bonus on sight-based and opposed Perception checks when in shadows or darkness (use owl statistics, +4 Stealth to blend into snow)",
+				"sources": [ "Reign of Winter Player's Guide" ]
+			},
+			{
+				"name": "Spider, scarlet",
+				"searchable_name": "Scarlet Spider",
+				"monster_file": "monsterdisplaycb06.html",
+				"master_bonus": "Master gains a +3 bonus on Climb checks (if familiar is within 1 mile)",
+				"sources": [
+					"Bestiary 4",
+					"Animal Archive",
+					"Ultimate Magic"
+				]
+			},
+			{
+				"name": "Spiny starfish",
+				"monster_file": "monsterdisplayb77c.html",
+				"master_bonus": "Master treats his effective character level as 4 higher to recover hit points by resting",
+				"sources": [ "Ultimate Wilderness" ]
+			},
+			{
+				"name": "Squirrel",
+				"monster_file": "monsterdisplay8dc3.html",
+				"master_bonus": "Master gains a +3 bonus on Escape Artist checks",
+				"sources": [
+					"Ultimate Wilderness",
+					"Animal Archive"
+				]
+			},
+			{
+				"name": "Squirrel, flying",
+				"searchable_name": "Flying Squirrel",
+				"monster_file": "monsterdisplay4225.html",
+				"master_bonus": "Master gains a +3 bonus on Fly checks",
+				"sources": [ "Animal Archive" ]
+			},
+			{
+				"name": "Suture vine",
+				"monster_file": "monsterdisplay4137.html",
+				"master_bonus": "Master gains a +3 bonus on Heal checks",
+				"sources": [ "Ultimate Wilderness" ]
+			},
+			{
+				"name": "Tardigrade, giant",
+				"searchable_name": "Giant Tardigrade",
+				"monster_file": "monsterdisplay197c.html",
+				"master_bonus": "Master gains a +2 bonus on Fortitude saves",
+				"sources": [ "Ultimate Wilderness" ]
+			},
+			{
+				"name": "Tarsier",
+				"monster_file": "monsterdisplay3d64.html",
+				"master_bonus": "Master gains a +3 bonus on Acrobatics checks",
+				"sources": [ "Ultimate Wilderness" ]
+			},
+			{
+				"name": "Tauhoti",
+				"monster_file": "monsterdisplay51a4.html",
+				"master_bonus": "Master gains a +3 bonus on one Profession check of her choice, selected when gaining the familiar",
+				"sources": [ "Druma, Profit and Prophecy" ]
+			},
+			{
+				"name": "Thrush",
+				"monster_file": "monsterdisplaybb21.html",
+				"master_bonus": "Master gains a +3 bonus on Diplomacy checks",
+				"special_ability": "A thrush familiar can speak one language of its master's choice as a supernatural ability.",
+				"sources": [
+					"Animal Archive",
+					"Ultimate Magic"
+				]
+			},
+			{
+				"name": "Toad",
+				"monster_file": "monsterdisplay312e.html",
+				"master_bonus": "Master gains 3 hit points",
+				"sources": [
+					"Animal Archive",
+					"PRPG Core Rulebook"
+				]
+			},
+			{
+				"name": "Torble",
+				"monster_file": "monsterdisplay0f1d.html",
+				"master_bonus": "Master gains a +2 bonus on Craft (alchemy) checks",
+				"sources": [ "Pathfinder #25: The Bastards of Erebus" ]
+			},
+			{
+				"name": "Toucan",
+				"monster_file": "monsterdisplayb72d.html",
+				"master_bonus": "Master gains a +3 bonus on Diplomacy checks (use raven stats for toucans [cannot speak])",
+				"sources": [
+					"Ultimate Wilderness",
+					"Animal Archive"
+				]
+			},
+			{
+				"name": "Trilobite",
+				"monster_file": "monsterdisplayc56c.html",
+				"master_bonus": "Master gains a +1 natural armor bonus to AC",
+				"sources": [ "Bestiary 5" ]
+			},
+			{
+				"name": "Tuatara",
+				"monster_file": "monsterdisplay9f5f.html",
+				"master_bonus": "Master gains a +3 bonus on Survival checks",
+				"sources": [ "Bestiary 4" ]
+			},
+			{
+				"name": "Tullimonstrum",
+				"monster_file": "monsterdisplayc060.html",
+				"master_bonus": "Master gains a +3 bonus on Perception checks",
+				"sources": [ "Pathfinder #124: City in the Deep" ]
+			},
+			{
+				"name": "Turtle",
+				"monster_file": "monsterdisplaydabc.html",
+				"master_bonus": "Master gains a +1 natural armor bonus to AC",
+				"sources": [
+					"Animal Archive",
+					"Ultimate Magic"
+				]
+			},
+			{
+				"name": "Vampire squid",
+				"monster_file": "monsterdisplay6c4c.html",
+				"master_bonus": "Master gains a +2 bonus on Reflex saves",
+				"sources": [ "Ultimate Wilderness" ]
+			},
+			{
+				"name": "Viper",
+				"monster_file": "monsterdisplay84bd.html",
+				"master_bonus": "Master gains a +3 bonus on Bluff checks",
+				"sources": [
+					"Animal Archive",
+					"PRPG Core Rulebook"
+				]
+			},
+			{
+				"name": "Wallaby",
+				"monster_file": "monsterdisplayc9ec.html",
+				"master_bonus": "Master gains a +3 bonus on Acrobatics checks",
+				"sources": [
+					"Ultimate Wilderness",
+					"Familiar Folio"
+				]
+			},
+			{
+				"name": "Weasel",
+				"monster_file": "monsterdisplayf0df.html",
+				"master_bonus": "Master gains a +2 bonus on Reflex saves",
+				"sources": [
+					"Animal Archive",
+					"PRPG Core Rulebook"
+				]
+			}
+		]
+	},
+	"improved_familiars": {
+		"description": [
+			"## Improved Familiars",
+			"",
+			"The [Improved Familiar](feat:Improved_Familiar) feat allows you to acquire a powerful familiar, but only when you could normally acquire a new familiar.",
+			"",
+			"When choosing a familiar, the creatures listed below are also available to you. You may choose a familiar with an alignment up to one step away on each alignment axis (lawful through chaotic, good through evil).",
+			"",
+			"Improved familiars otherwise use the rules for regular familiars, with two exceptions: if the creature's type is something other than animal, its type does not change; and improved familiars do not gain the ability to speak with other creatures of their kind (although many of them already have the ability to communicate).",
+			"",
+			"[^C]: A clockwork familiar needs crafting; see monstery entry",
+			"[^T]: This may be replaced with any other celestial, entropic, fey-touched, fiendish, or resolute animal from the standard familiar list.",
+			"[^H]: The master must first create the homunculus.",
+			"[^P]: A spellcaster within one step of chaotic neutral with an arcane caster level of 3rd or greater can gain a pyrausta as a familiar by taking the Improved Familiar feat. This causes the pyrausta's heart spark to glow slightly less brightly, but more steadily. This removes its fast healing ability and heart of flame special abilities.",
+			"[^E]: The spellcaster's alignment **must** match this, instead of being within one step of the familiar's alignment."
+		],
+		"list": [
+			{
+				"name": "Aether wysp",
+				"alignment": "Neutral",
+				"level": "7th",
+				"sources": "Bestiary 5"
+			},
+			{
+				"name": "Air wysp",
+				"alignment": "Neutral",
+				"level": "7th",
+				"sources": "Bestiary 5"
+			},
+			{
+				"name": "Almiraj",
+				"alignment": "Any",
+				"level": "5th",
+				"sources": "Bestiary 4"
+			},
+			{
+				"name": "Arbiter inevitable",
+				"alignment": "Lawful neutral",
+				"level": "7th",
+				"sources": "Ultimate Magic, Bestiary 2"
+			},
+			{
+				"name": "Augur kyton",
+				"alignment": "Lawful evil",
+				"level": "7th",
+				"sources": "Bestiary 3"
+			},
+			{
+				"name": "Bat, sootwing",
+				"alignment": "Any evil[^E]",
+				"level": "5th",
+				"sources": "Monster Codex"
+			},
+			{
+				"name": "Beheaded",
+				"alignment": "Neutral evil",
+				"level": "3rd",
+				"sources": "Bestiary 4, Pathfinder #43: Haunting of Harrowstone"
+			},
+			{
+				"name": "Brain Mole",
+				"alignment": "Neutral",
+				"level": "5th",
+				"sources": "Bestiary 5"
+			},
+			{
+				"name": "Brownie",
+				"alignment": "Neutral",
+				"level": "5th",
+				"sources": "Ultimate Magic, Bestiary 2"
+			},
+			{
+				"name": "Cacodaemon daemon",
+				"alignment": "Neutral evil",
+				"level": "7th",
+				"sources": "Ultimate Magic, Bestiary 2"
+			},
+			{
+				"name": "Caligraphy Wyrm",
+				"alignment": "Neutral",
+				"level": "7th",
+				"sources": "Legacy of Dragons"
+			},
+			{
+				"name": "Carbuncle",
+				"alignment": "Neutral",
+				"level": "5th",
+				"sources": "Bestiary 3, Pathfinder #31: Stolen Land"
+			},
+			{
+				"name": "Cassisian angel",
+				"alignment": "Neutral good",
+				"level": "7th",
+				"sources": "Ultimate Magic, Bestiary 2"
+			},
+			{
+				"name": "Cat sith",
+				"alignment": "Chaotic neutral",
+				"level": "7th",
+				"sources": "Familiar Folio"
+			},
+			{
+				"name": "Caypup",
+				"alignment": "Chaotic good",
+				"level": "7th",
+				"sources": "Familiar Folio"
+			},
+			{
+				"name": "Celestial hawk[^T]",
+				"alignment": "Neutral good",
+				"level": "3rd",
+				"sources": "PRPG Core Rulebook"
+			},
+			{
+				"name": "Ceru",
+				"alignment": "Neutral good",
+				"level": "7th",
+				"sources": "Inner Sea Bestiary"
+			},
+			{
+				"name": "Chuspiki",
+				"alignment": "Chaotic",
+				"level": "7th",
+				"sources": "Bestiary 5"
+			},
+			{
+				"name": "Clockwork familiar[^C]",
+				"alignment": "Any",
+				"level": "7th",
+				"sources": "Bestiary 5, Pathfinder #63: The Asylum Stone"
+			},
+			{
+				"name": "Coral capuchin",
+				"alignment": "Neutral",
+				"level": "3rd",
+				"sources": "Pathfinder #58: Island of Empty Eyes"
+			},
+			{
+				"name": "Cyphergull",
+				"alignment": "Neutral",
+				"level": "7th",
+				"sources": "Pathfinder #133: Secrets of Roderic's Cove"
+			},
+			{
+				"name": "Cythnigot qlippoth",
+				"alignment": "Chaotic evil",
+				"level": "7th",
+				"sources": "Ultimate Magic, Bestiary 2"
+			},
+			{
+				"name": "Dire rat",
+				"alignment": "Neutral",
+				"level": "3rd",
+				"sources": "PRPG Core Rulebook"
+			},
+			{
+				"name": "Doru div",
+				"alignment": "Neutral evil",
+				"level": "7th",
+				"sources": "Bestiary 3, Pathfinder #19: Howl of the Carrion King"
+			},
+			{
+				"name": "Dragon, faerie",
+				"alignment": "Chaotic good",
+				"level": "7th",
+				"sources": "Bestiary 3"
+			},
+			{
+				"name": "Dragon, tidepool",
+				"alignment": "Chaotic neutral",
+				"level": "7th",
+				"sources": "Pathfinder #55: The Wormwood Mutiny"
+			},
+			{
+				"name": "Dweomercat Cub",
+				"alignment": "Chaotic neutral",
+				"level": "7th",
+				"sources": "Pathfinder #36: Sound of a Thousand Screams"
+			},
+			{
+				"name": "Earth wysp",
+				"alignment": "Neutral",
+				"level": "7th",
+				"sources": "Bestiary 5"
+			},
+			{
+				"name": "Elemental, Small (any type)",
+				"alignment": "Neutral",
+				"level": "5th",
+				"sources": "PRPG Core Rulebook"
+			},
+			{
+				"name": "Entropic monkey[^T]",
+				"alignment": "Chaotic neutral",
+				"level": "3rd",
+				"sources": "Ultimate Magic"
+			},
+			{
+				"name": "Esipil sahkil",
+				"alignment": "Neutral evil",
+				"level": "7th",
+				"sources": "Bestiary 5"
+			},
+			{
+				"name": "Familiar automaton",
+				"alignment": "Lawful[^E]",
+				"level": "7th",
+				"sources": "Construct Handbook"
+			},
+			{
+				"name": "Fey-touched toad[^T]",
+				"alignment": "",
+				"level": "3rd",
+				"sources": "Heroes from the Fringe"
+			},
+			{
+				"name": "Fiendish viper[^T]",
+				"alignment": "Neutral evil",
+				"level": "3rd",
+				"sources": "PRPG Core Rulebook"
+			},
+			{
+				"name": "Fire wysp",
+				"alignment": "Neutral",
+				"level": "7th",
+				"sources": "Bestiary 5"
+			},
+			{
+				"name": "Galluvix",
+				"alignment": "Neutral",
+				"level": "7th",
+				"sources": "Pathfinder #128: Songbird, Scion, Saboteur"
+			},
+			{
+				"name": "Harbinger archon",
+				"alignment": "Lawful good",
+				"level": "7th",
+				"sources": "Bestiary 3"
+			},
+			{
+				"name": "Hellfire Ignis",
+				"alignment": "Neutral evil",
+				"level": "7th",
+				"sources": "Cheliax, the Infernal Empire"
+			},
+			{
+				"name": "Homunculus[^H]",
+				"alignment": "Any",
+				"level": "7th",
+				"sources": "PRPG Core Rulebook"
+			},
+			{
+				"name": "House drake",
+				"alignment": "Chaotic good",
+				"level": "7th",
+				"sources": "Curse of the Crimson Throne (PFRPG)"
+			},
+			{
+				"name": "Imp (Devil)",
+				"alignment": "Lawful evil",
+				"level": "7th",
+				"sources": "PRPG Core Rulebook"
+			},
+			{
+				"name": "Impundulu",
+				"alignment": "Neutral evil",
+				"level": "7th",
+				"sources": "Pathfinder #40: Vaults of Madness"
+			},
+			{
+				"name": "Isitoq",
+				"alignment": "Any evil[^E]",
+				"level": "5th",
+				"sources": "Bestiary 4"
+			},
+			{
+				"name": "Katroome",
+				"alignment": "Chaotic neutral",
+				"level": "5th",
+				"sources": "Gallows of Madness"
+			},
+			{
+				"name": "Liminal sprite",
+				"alignment": "Chaotic neutral",
+				"level": "7th",
+				"sources": "Bestiary 5"
+			},
+			{
+				"name": "Lyrakien azata",
+				"alignment": "Chaotic good",
+				"level": "7th",
+				"sources": "Ultimate Magic, Pathfinder #2: The Skinsaw Murders, Bestiary 2"
+			},
+			{
+				"name": "Mamiwa",
+				"alignment": "Neutral",
+				"level": "7th",
+				"sources": "Ire of the Storm"
+			},
+			{
+				"name": "Mephit (any type)",
+				"alignment": "Neutral",
+				"level": "7th",
+				"sources": "PRPG Core Rulebook"
+			},
+			{
+				"name": "Mockingfey",
+				"alignment": "Chaotic neutral",
+				"level": "4th",
+				"sources": "Pathfinder #87: The Choking Tower, Inner Sea Bestiary"
+			},
+			{
+				"name": "Nehushtan",
+				"alignment": "Good-aligned[^E]",
+				"level": "7th",
+				"sources": "Pathfinder #107: Scourge of the Godclaw"
+			},
+			{
+				"name": "Nosoi (Psychopomp)",
+				"alignment": "True neutral[^E]",
+				"level": "7th",
+				"sources": "Bestiary 4, Pathfinder #47: Ashes at Dawn"
+			},
+			{
+				"name": "Nuglub gremlin",
+				"alignment": "Chaotic evil",
+				"level": "7th",
+				"sources": "Ultimate Magic"
+			},
+			{
+				"name": "Nycar",
+				"alignment": "Chaotic neutral",
+				"level": "7th",
+				"sources": "Bestiary 4"
+			},
+			{
+				"name": "Paracletus aeon",
+				"alignment": "Neutral",
+				"level": "7th",
+				"sources": "Ultimate Magic, Bestiary 2"
+			},
+			{
+				"name": "Pipefox",
+				"alignment": "Neutral",
+				"level": "7th",
+				"sources": "Bestiary 4"
+			},
+			{
+				"name": "Pooka",
+				"alignment": "Any non-lawful[^E]",
+				"level": "7th",
+				"sources": "Bestiary 4"
+			},
+			{
+				"name": "Pseudodragon",
+				"alignment": "Neutral good",
+				"level": "7th",
+				"sources": "Advanced Race Guide, PRPG Core Rulebook"
+			},
+			{
+				"name": "Pseudosphinx",
+				"alignment": "Neutral",
+				"level": "7th",
+				"sources": "Familiar Folio"
+			},
+			{
+				"name": "Pseudowyvern",
+				"alignment": "Neutral",
+				"level": "7th",
+				"sources": "Legacy of Dragons"
+			},
+			{
+				"name": "Psyche serpent",
+				"alignment": "Neutral",
+				"level": "7th",
+				"sources": "Occult Bestiary"
+			},
+			{
+				"name": "Pyrausta[^P]",
+				"alignment": "Chaotic neutral",
+				"level": "3rd",
+				"sources": "Legacy of Dragons"
+			},
+			{
+				"name": "Quasit (Demon)",
+				"alignment": "Chaotic evil",
+				"level": "7th",
+				"sources": "PRPG Core Rulebook"
+			},
+			{
+				"name": "Raktavarna rakshasa",
+				"alignment": "Lawful evil",
+				"level": "7th",
+				"sources": "Bestiary 3"
+			},
+			{
+				"name": "Ratling",
+				"alignment": "Chaotic evil",
+				"level": "7th",
+				"sources": "Bestiary 4"
+			},
+			{
+				"name": "Resolute owl[^T]",
+				"alignment": "Lawful neutral",
+				"level": "3rd",
+				"sources": "Ultimate Magic"
+			},
+			{
+				"name": "Seru",
+				"alignment": "Any evil[^E]",
+				"level": "7th",
+				"sources": "Monster Codex"
+			},
+			{
+				"name": "Shadow drake",
+				"alignment": "Any evil[^E]",
+				"level": "7th",
+				"sources": "Bestiary 4"
+			},
+			{
+				"name": "Shikigami kami",
+				"alignment": "Lawful neutral",
+				"level": "7th",
+				"sources": "Bestiary 3"
+			},
+			{
+				"name": "Silvanshee agathion",
+				"alignment": "Neutral good",
+				"level": "7th",
+				"sources": "Ultimate Magic, Bestiary 2"
+			},
+			{
+				"name": "Sin seeker",
+				"alignment": "Any, see text",
+				"level": "5th",
+				"sources": "Pathfinder #73: The Worldwound Incursion"
+			},
+			{
+				"name": "Skvader",
+				"alignment": "Neutral",
+				"level": "3rd",
+				"sources": "Pathfinder #61: Shards of Sin"
+			},
+			{
+				"name": "Smokeshade",
+				"alignment": "Neutral evil",
+				"level": "7th",
+				"sources": "Nidal, Land of Shadows"
+			},
+			{
+				"name": "Spirit oni",
+				"alignment": "Lawful evil",
+				"level": "7th",
+				"sources": "Bestiary 3"
+			},
+			{
+				"name": "Sprite",
+				"alignment": "Chaotic neutral",
+				"level": "5th",
+				"sources": "Bestiary 3"
+			},
+			{
+				"name": "Stirge",
+				"alignment": "Neutral",
+				"level": "5th",
+				"sources": "PRPG Core Rulebook"
+			},
+			{
+				"name": "Tripurasura asura",
+				"alignment": "Lawful evil",
+				"level": "7th",
+				"sources": "Bestiary 3"
+			},
+			{
+				"name": "Typhilipede",
+				"alignment": "Lawful evil",
+				"level": "7th",
+				"sources": "Pathfinder #103: The Hellfire Compact"
+			},
+			{
+				"name": "Voidworm protean",
+				"alignment": "Chaotic neutral",
+				"level": "7th",
+				"sources": "Ultimate Magic, Bestiary 2"
+			},
+			{
+				"name": "Water wysp",
+				"alignment": "Neutral",
+				"level": "7th",
+				"sources": "Bestiary 5"
+			},
+			{
+				"name": "Wolpertinger",
+				"alignment": "Neutral",
+				"level": "5th",
+				"sources": "Pathfinder #61: Shards of Sin"
+			},
+			{
+				"name": "Xiao",
+				"alignment": "Chaotic neutral",
+				"level": "7th",
+				"sources": "Bestiary 5"
+			},
+			{
+				"name": "Zoog",
+				"alignment": "Chaotic evil",
+				"level": "5th",
+				"sources": "Bestiary 3"
+			}
+		]
 	}
 }

@@ -1,8 +1,8 @@
 {
 	"list": [
 		{
-			"name": "Faceless Hulk",
-			"display_name": "Faceless Hulk (Ugoroth)",
+			"name": "Faceless Hulk (Ugoroth)",
+			"searchable_name": "Faceless Hulk Ugoroth",
 			"file": "monsterdisplaya621.html",
 			"sources": [ "Pathfinder #110: The Thrushmoor Terror" ],
 			"cr": 9,
@@ -24226,8 +24226,8 @@
 			"short_description": "This hulking beast has slick, gray, hairless skin. Its numerous yellow eyes and wide toothy maw are its only facial features."
 		},
 		{
-			"name": "Atlach Nacha",
-			"display_name": "Great Old One, Atlach-Nacha",
+			"name": "Great Old One, Atlach-Nacha",
+			"searchable_name": "Atlach Nacha",
 			"file": "monsterdisplay8226.html",
 			"sources": [
 				"Pathfinder #112: The Whisper Out of Time",
@@ -25531,8 +25531,7 @@
 			"short_description": "Perched on the prickly legs of a cricket, this tiny creature has gossamer wings and the upper body of an elven woman."
 		},
 		{
-			"name": "Grim Reaper Bestiary 5",
-			"display_name": "Grim Reaper, Grim Reaper",
+			"name": "Grim Reaper",
 			"file": "monsterdisplay7838.html",
 			"sources": [ "Bestiary 5" ],
 			"cr": 22,
@@ -32829,8 +32828,8 @@
 			"short_description": "This hyena is covered in shaggy, tan-colored fur with black and brown stripes."
 		},
 		{
-			"name": "Dire Hyena",
-			"display_name": "Hyena, Dire Hyena (Hyaenodon)",
+			"name": "Hyena, Dire Hyena (Hyaenodon)",
+			"searchable_name": "Dire Hyena",
 			"file": "monsterdisplay46df.html",
 			"sources": [ "Pathfinder RPG Bestiary" ],
 			"cr": 3,
@@ -33631,8 +33630,8 @@
 			"short_description": "This creature's eyes are large and lidless, and its large head dominates its lanky frame. Tiny wings spread across its back and the four digits of each hand end in sharp claws."
 		},
 		{
-			"name": "Iku Turso",
-			"display_name": "Iku-Turso",
+			"name": "Iku-Turso",
+			"searchable_name": "Iku Turso",
 			"file": "monsterdisplaye68c.html",
 			"sources": [ "Bestiary 3" ],
 			"cr": 8,
