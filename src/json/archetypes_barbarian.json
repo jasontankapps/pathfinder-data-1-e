@@ -10,7 +10,7 @@
 			"Trap Sense",
 			"Improved Uncanny Dodge"
 		],
-		"short_description": "Some barbarians disdain the hides and leather used as armor by most of their kin. Instead they master the heaviest of armors, even those created by more civilized people, to gain greater protection and stability in battle. ",
+		"short_description": "Some barbarians disdain the hides and leather used as armor by most of their kin. Instead they master the heaviest of armors, even those created by more civilized people, to gain greater protection and stability in battle.",
 		"description": [
 			"## Armored Hulk",
 			"",
@@ -202,7 +202,7 @@
 			"Indomitable Will",
 			"Tireless Rage"
 		],
-		"short_description": "Deepwater ragers bellow ferociously as they charge their enemies, tackling them into the raging seas. ",
+		"short_description": "Deepwater ragers bellow ferociously as they charge their enemies, tackling them into the raging seas.",
 		"description": [
 			"## Deepwater Rager",
 			"",
@@ -669,13 +669,13 @@
 		"name": "Mooncursed",
 		"file": "archetypedisplaye5a2.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Race; Rage; Improved Uncanny Dodge; Greater Rage; Mighty Rage ",
+		"replaces": "Race; Rage; Improved Uncanny Dodge; Greater Rage; Mighty Rage",
 		"replace_array": [
 			"Race",
 			"Rage",
 			"Improved Uncanny Dodge",
 			"Greater Rage",
-			"Mighty Rage "
+			"Mighty Rage"
 		],
 		"short_description": "Some barbarians exhibit an unusual form of lycanthropy powered by their fury. Such a character transforms willfully but can maintain her animal or hybrid forms only while raging.",
 		"description": [
@@ -980,7 +980,7 @@
 			"Trap Sense",
 			"Improved Uncanny Dodge"
 		],
-		"short_description": "Some sea reavers are no more than hunters of the open sea, while others are raiders striking fear into coastal settlements within reach of the sea reavers' longships. ",
+		"short_description": "Some sea reavers are no more than hunters of the open sea, while others are raiders striking fear into coastal settlements within reach of the sea reavers' longships.",
 		"description": [
 			"## Sea Reaver",
 			"",
@@ -1012,7 +1012,7 @@
 			"Trap Sense",
 			"6th and 12th-level Rage Powers"
 		],
-		"short_description": "Coastal hunters and agents of the ocean's rage, sharptooth barbarians emulate the greatest predators of the sea. ",
+		"short_description": "Coastal hunters and agents of the ocean's rage, sharptooth barbarians emulate the greatest predators of the sea.",
 		"description": [
 			"## Sharptooth",
 			"",
@@ -1050,7 +1050,7 @@
 			"4th, 8th, 12th, 16th-level Rage Powers",
 			"Improved Uncanny Dodge"
 		],
-		"short_description": "The Shoanti tribes who live in the Cinderlands have turned the deadly emberstorms that plague the region into a rite of passage. A few who survive the experience begin to embrace the adrenaline and surge of joy that comes from dancing along the edge of a whirling firestorm. These thrill-seekers are known as burn riders, and their exploits are celebrated by all Shoanti. ",
+		"short_description": "The Shoanti tribes who live in the Cinderlands have turned the deadly emberstorms that plague the region into a rite of passage. A few who survive the experience begin to embrace the adrenaline and surge of joy that comes from dancing along the edge of a whirling firestorm. These thrill-seekers are known as burn riders, and their exploits are celebrated by all Shoanti.",
 		"description": [
 			"## Shoanti Burn Rider",
 			"",
@@ -1155,7 +1155,7 @@
 			"Fast Movement",
 			"Trap Sense"
 		],
-		"short_description": "Isolated and xenophobic tribes that dwell in areas untouched by civilization often see anything from cities and organized settlements as strange, dangerous, and decadent. ",
+		"short_description": "Isolated and xenophobic tribes that dwell in areas untouched by civilization often see anything from cities and organized settlements as strange, dangerous, and decadent.",
 		"description": [
 			"## True Primitive",
 			"",

@@ -40,7 +40,7 @@
 		"name": "Alchemical Sapper",
 		"file": "archetypedisplay0413.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Bomb; Mutagen; Poison Resistance; Swift Alchemy; 6th-level Discovery; Poison Immunity ",
+		"replaces": "Class Skills; Bomb; Mutagen; Poison Resistance; Swift Alchemy; 6th-level Discovery; Poison Immunity",
 		"replace_array": [
 			"Class Skills",
 			"Bomb",
@@ -48,7 +48,7 @@
 			"Poison Resistance",
 			"Swift Alchemy",
 			"6th-level Discovery",
-			"Poison Immunity "
+			"Poison Immunity"
 		],
 		"short_description": "Alchemical sappers are trained to create explosives.",
 		"description": [
@@ -114,11 +114,11 @@
 		"name": "Aquachymist",
 		"file": "archetypedisplay1388.html",
 		"sources": [ "Aquatic Adventures" ],
-		"replaces": "Class Skills; Bombs; 2nd-level Discovery ",
+		"replaces": "Class Skills; Bombs; 2nd-level Discovery",
 		"replace_array": [
 			"Class Skills",
 			"Bombs",
-			"2nd-level Discovery "
+			"2nd-level Discovery"
 		],
 		"short_description": "Aquachymists are those rare few alchemists of land-dwelling and aquatic races alike who strive to unlock new and fantastic secrets of alchemy that can be discovered only in the water's depths.",
 		"description": [
@@ -261,11 +261,11 @@
 		"name": "Blood Alchemist",
 		"file": "archetypedisplayc07e.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Alignment; Mutagen; Bombs ",
+		"replaces": "Alignment; Mutagen; Bombs",
 		"replace_array": [
 			"Alignment",
 			"Mutagen",
-			"Bombs "
+			"Bombs"
 		],
 		"short_description": "Most alchemists can transform matter and energy into other forms, but some wicked specialists realize that life itself is an energy that can greatly fuel their alchemy.",
 		"description": [
@@ -302,7 +302,7 @@
 			"Class Skills",
 			"Throw Anything"
 		],
-		"short_description": "(Grippli Only) Some grippli alchemists are particularly attuned to the swamps and the dangerous creatures that inhabit them; these serve as their laboratories and research subjects, respectively. ",
+		"short_description": "(Grippli Only) Some grippli alchemists are particularly attuned to the swamps and the dangerous creatures that inhabit them; these serve as their laboratories and research subjects, respectively.",
 		"description": [
 			"## Bogborn Alchemist",
 			"",
@@ -329,7 +329,7 @@
 			"Greater Mutagen",
 			"Grand Mutagen"
 		],
-		"short_description": "(Half-Elf Only) Some half-elven alchemists merge human curiosity with their elven link to nature. ",
+		"short_description": "(Half-Elf Only) Some half-elven alchemists merge human curiosity with their elven link to nature.",
 		"description": [
 			"## Bramble Brewer",
 			"",
@@ -385,7 +385,7 @@
 			"Poison Resistance +6",
 			"Poison Immunity"
 		],
-		"short_description": "Clone masters practice duplicating existing creatures in order to better understand how to create new life. ",
+		"short_description": "Clone masters practice duplicating existing creatures in order to better understand how to create new life.",
 		"description": [
 			"## Clone Master",
 			"",
@@ -748,11 +748,12 @@
 			"",
 			"At 1st level, an eldritch poisoner must choose whether her arcanotoxin deals Strength or Dexterity damage. At 3rd level and every 2 alchemist levels thereafter, she can enhance her arcanotoxin in one of the following ways. She can't select the same improvement twice in a row.",
 			"",
-			"**- Select one additional form of ability damage:** Charisma, Dexterity, Intelligence, Strength, or Wisdom.",
+			"- Select one additional form of ability damage: Charisma, Dexterity, Intelligence, Strength, or Wisdom.",
 			"- Grant an onset time of 1 round, or increase an existing onset time by 2 rounds (maximum 11 rounds).",
 			"- Increase the ability damage die by one step (maximum 1d6).",
 			"- Increase the number of consecutive saves required to cure the poison by 1 (maximum 3).",
 			"- Increase the frequency by 2 rounds (maximum 10 rounds).",
+			"",
 			"If an eldritch poisoner can deal different kinds of ability damage, she selects which ability to affect each time she creates a dose of arcanotoxin, and can willingly reduce enhanced aspects of her arcanotoxin, such as the save DC or onset time. Some discoveries apply secondary effects; a dose of arcanotoxin can cause only one secondary effect. Alchemist discoveries that affect mundane poisons do not apply to an arcanotoxin.",
 			"",
 			"This ability replaces bomb.",
@@ -1318,12 +1319,12 @@
 		"name": "Interrogator",
 		"file": "archetypedisplayd500.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Bomb; Mutagen; Persistent Mutagen ",
+		"replaces": "Class Skills; Bomb; Mutagen; Persistent Mutagen",
 		"replace_array": [
 			"Class Skills",
 			"Bomb",
 			"Mutagen",
-			"Persistent Mutagen "
+			"Persistent Mutagen"
 		],
 		"short_description": "An interrogator extracts vital information from reluctant individuals using alchemical and traditional methods.",
 		"description": [
@@ -1445,7 +1446,7 @@
 			"Mutagen",
 			"Poison Use"
 		],
-		"short_description": "A mindchemist can reach incredible levels of mental acuity, but suffers lingering debilitating effects to his physique. ",
+		"short_description": "A mindchemist can reach incredible levels of mental acuity, but suffers lingering debilitating effects to his physique.",
 		"description": [
 			"## Mindchemist",
 			"",
@@ -1663,7 +1664,7 @@
 			"Poison Resistance",
 			"Poison Immunity"
 		],
-		"short_description": "(Ratfolk Only) The plague bringer sees disease as the ultimate weapon, and has worked tirelessly to master new diseases and disease-delivery systems. ",
+		"short_description": "(Ratfolk Only) The plague bringer sees disease as the ultimate weapon, and has worked tirelessly to master new diseases and disease-delivery systems.",
 		"description": [
 			"## Plague Bringer",
 			"",
@@ -1698,7 +1699,7 @@
 			"Persistant Mutagen",
 			"18th-level Discovery"
 		],
-		"short_description": "Some alchemists are obsessed with collecting and preserving exotic creatures. ",
+		"short_description": "Some alchemists are obsessed with collecting and preserving exotic creatures.",
 		"description": [
 			"## Preservationist",
 			"",
@@ -1831,7 +1832,7 @@
 			"15th-level Bomb Damage Increase",
 			"17th-level Bomb Damage Increase"
 		],
-		"short_description": "A psychonaut uses his knowledge to explore altered states of consciousness and even other planes of existence. ",
+		"short_description": "A psychonaut uses his knowledge to explore altered states of consciousness and even other planes of existence.",
 		"description": [
 			"## Psychonaut",
 			"",
@@ -1895,7 +1896,7 @@
 			"13th-level Bomb Damage Increase",
 			"15th-level Bomb Damage Increase"
 		],
-		"short_description": "A reanimator is an alchemist who has discovered how to infuse a corpse with a semblance of life. ",
+		"short_description": "A reanimator is an alchemist who has discovered how to infuse a corpse with a semblance of life.",
 		"description": [
 			"## Reanimator",
 			"",
@@ -1951,7 +1952,7 @@
 		"sources": [ "Advanced Race Guide" ],
 		"replaces": "Mutagen",
 		"replace_array": [ "Mutagen" ],
-		"short_description": "(Gnome Only) The saboteur is an alchemist who specializes in destroying the plans, materials, and allies of his enemies. ",
+		"short_description": "(Gnome Only) The saboteur is an alchemist who specializes in destroying the plans, materials, and allies of his enemies.",
 		"description": [
 			"## Saboteur",
 			"",
@@ -2057,6 +2058,7 @@
 			"- The clockwork spy gains a +2 resistance bonus on Will saving throws.",
 			"- The clockwork spy gains a +2 natural armor bonus.",
 			"- The clockwork familiar's maneuverability is average.",
+			"",
 			"This ability replaces poison resistance +2, poison use, and poison resistance +4.",
 			"",
 			"**Clockwork Familiar (Ex):** At 6th level, the tinkerer turns her familiar into a [clockwork familiar](monster:clockwork_familiar) that takes any form she wishes. She must choose which type of item is installed in the clockwork familiar. She gains the clockwork familiar at no cost, as if she were a 7th-level spellcaster with the [Improved Familiar](feat:Improved_Familiar) feat.",
@@ -2069,6 +2071,7 @@
 			"- The clockwork familiar gains DR 10/adamantine.",
 			"- The clockwork familiar gains any feat for which it qualifies as a bonus feat.",
 			"- The clockwork familiar gains a +10 alchemical bonus on Stealth checks.",
+			"",
 			"This ability replaces poison resistance +6.",
 			"",
 			"**Clockwork Upgrade (Ex):** At 10th level, a tinkerer has learned how to change the type of magic item her clockwork familiar can carry. This requires 1 hour of uninterrupted work. A tinkerer can change the type of item her clockwork familiar carries only once every 24 hours. Additionally, a tinkerer can remove a spent item and install a new one as a move action.",
@@ -2179,7 +2182,7 @@
 		"sources": [ "Ultimate Magic" ],
 		"replaces": "Bomb",
 		"replace_array": [ "Bomb" ],
-		"short_description": "A vivisectionist studies bodies to better understand their function. ",
+		"short_description": "A vivisectionist studies bodies to better understand their function.",
 		"description": [
 			"## Vivisectionist",
 			"",
@@ -2209,11 +2212,11 @@
 		"name": "Wasteland Blightbreaker",
 		"file": "archetypedisplayb191.html",
 		"sources": [ "Healer's Handbook" ],
-		"replaces": "Poison Resistance +2, +6; Swift Poisoning; 8th-level Discovery ",
+		"replaces": "Poison Resistance +2, +6; Swift Poisoning; 8th-level Discovery",
 		"replace_array": [
 			"Poison Resistance +2, +6",
 			"Swift Poisoning",
-			"8th-level Discovery "
+			"8th-level Discovery"
 		],
 		"short_description": "The deleterious effects of the weird hazards of the Mana Wastes require special skill to remedy.",
 		"description": [

@@ -136,6 +136,7 @@
 			],
 			"paladin_code": [
 				"Of all the neutral gods, only Abadar supports and promotes a holy order of paladins. As the god of civilization and order, Abadar recognizes the value of holy warriors in advancing society's aims. His paladins follow the standard paladin code of protecting the innocent, acting with honor and honesty, and respecting lawful authority. In addition, an Abadaran paladin upholds the following creed.",
+				"",
 				"- I am a protector of the roadways and keep travelers from harm. No matter their destinations or goals, if they are peaceable and legitimate travelers who harm no others on the road, I will ensure that they pass safely.",
 				"- Bandits are a plague. Under my will they come to justice. If they will not come willingly before the law, where they can protest for justice in the courts, they will come under the power of my sword.",
 				"- Corruption in the courts is the greatest corruption of civilization. Without confidence in justice, citizens cannot believe in their countries, and civilization begins to disappear. I will root out corruption wherever I find it, and if a system is fundamentally flawed, I will work to aid citizens by reforming or replacing it.",
@@ -217,6 +218,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #8: Seven Days to the Grave pg. 67](source:Pathfinder_#8:_Seven_Days_to_the_Grave)",
+				"",
 				"- **[Summon Monster II](spell:Summon_Monster_II):** [Celestial Two-Headed Eagle](monster:Celestial_Two-Headed_Eagle) - LN [this creature has two heads. It gains a +2 racial bonus on Listen, Spot, and Search checks, but does not gain an extra bite attack]",
 				"- **[Summon Monster III](spell:Summon_Monster_III):** [Celestial Hippogriff](monster:Celestial_Hippogriff) - LN",
 				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Two-Headed Giant Eagle](monster:Two-Headed_Giant_Eagle) - LN [this creature has two heads. It gains a +2 racial bonus on Listen, Spot, and Search checks, but does not gain an extra bite attack]",
@@ -593,6 +595,7 @@
 			"on_golarion": [ "**Nationality** Iblydan" ],
 			"other_rules": [
 				"**Source** [Pathfinder #144: Midwives to Death pg. 74](source:Pathfinder_#144:_Midwives_to_Death)",
+				"",
 				"- Aerekostes can grant 9th-level spells"
 			]
 		},
@@ -1281,6 +1284,7 @@
 			"paladin_code": [
 				"As the intermediary between and servitor to the other civilized gods, Alseta prefers to remain neutral in conflicts among the gods. This impartiality naturally extends to her faithful, and thus followers of Alseta rarely become paladins.",
 				"The elves of Kyonin are a noteworthy exception to this trend. Elves who revere Alseta as the patron goddess of the aiudara (or \"elf gates\") swear oaths in her name to defend these sacred elven relics from those who would visit destruction upon them, including the fiendish Treerazer and his demonic forces. In addition to the normal paladin code, the tenets of these elven paladins of Alseta include the following affirmations.",
+				"",
 				"- Doorways are sacred boundaries and should be respected. I will not transgress across the threshold of an occupied structure uninvited unless doing so serves the glory of Alseta or is necessary to prevent a great evil from taking place.",
 				"- The Sovyrian Stone is a blessing from the goddess and is the beating heart of the elven people. I will defend it with my life.",
 				"- The aiudara are sacred relics and should never be used lightly. It is my responsibility to preserve the knowledge of the keys to these gates, and ensure they do not fall into the wrong hands."
@@ -1302,6 +1306,7 @@
 				"- [Open/Close](spell:Open/Close) can be prepared as a 0-level spell",
 				"- [Arcane Lock](spell:Arcane_Lock) can be prepared as a 2nd-level spell",
 				"- [Knock](spell:Knock) can be prepared as a 2nd-level spell",
+				"",
 				"**Source** [Inner Sea Faiths pg. 14](source:Inner_Sea_Faiths)",
 				"",
 				"**Cleric/Warpriest**",
@@ -1593,6 +1598,7 @@
 			],
 			"paladin_code": [
 				"Andoletta's paladins serve courts and other authorities. They seek to protect innocence and dispel foolishness. Their tenets include the following affirmations.",
+				"",
 				"- Children must be nurtured lest their innocence become callousness or ignorance. I will never be cold or negligent to a child.",
 				"- Virtue relies upon wisdom, and wisdom relies upon true awareness. I will never leave a falsehood unchallenged.",
 				"- I will be firm with the ignorant, but not cruel. Ignorance can be corrected.",
@@ -1772,6 +1778,7 @@
 			],
 			"paladin_code": [
 				"Paladins of Angradd see themselves as frontline soldiers in the war against evil. They seek to form coalitions not just to take down evils in the present, but to leave the world better prepared to oppose such evils in the future. Their tenets include the following affirmations.",
+				"",
 				"- I oppose evil in all its forms. I do not accept a weak evil just because I must also oppose a mighty evil. To defeat evil, I must understand it and know its strengths and weaknesses. Any evil I cannot defeat now, or that by opposing I would allow greater evil to escape or develop, I must study and work against so that I may more fully defeat it when I am ready. I must share what I learn with others who will fight alongside me.",
 				"- I am more than a warrior against the darkness-I am a symbol of all that is just and fair. I must serve as an example and as an inspiration, by being righteous in all my actions and showing others how benevolence and order can be used to create a more just, stable, and sustainable society.",
 				"- It is not enough to stop evil actions-the source of evil must be found and decisively defeated. I am not satisfied to passively wait for wrongs to come to my sight; rather, I seek them out. I will be a torch in the darkness and expose evil to the sight of others who are also willing to oppose it.",
@@ -2090,6 +2097,7 @@
 			],
 			"paladin_code": [
 				"Paladins of Apsu valiantly follow the dragon god's tenets of holy vigilance against evil. Those following the rigid code of a paladin must sacrifice the sedentary lifestyle of living in a single place in exchange for continuous travel and hardship. The tenets of such paladins include the following maxims.",
+				"",
 				"- I am the talon of Apsu's wrath. I strike where I am needed, but only when evil has been unmasked and there can be no doubt of my enemy's malice.",
 				"- When my purpose is unclear, I will walk the roads of the world to find a fresh focus. Every road leads to a new beginning.",
 				"- Nothing is worth sacrificing my life for, except protecting the lives of others. I will retreat when needed, and come back to vex my foes once again.",
@@ -2136,6 +2144,7 @@
 			],
 			"other_rules": [
 				"**Source** [Inner Sea Faiths pg. 19](source:Inner_Sea_Faiths)",
+				"",
 				"- Apsu has no oracles, for he believes inflicting a curse on a living creature is a terrible crime against that being, even in exchange for divine power."
 			]
 		},
@@ -2228,6 +2237,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #140: Eulogy for Roslar's Coffer pg. 73](source:Pathfinder_#140:_Eulogy_for_Roslar's_Coffer)",
+				"",
 				"- **[Summon Monster III](spell:Summon_Monster_III):** Augur Kyton",
 				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Fiendish Giant Scarab](monster:Fiendish_Giant_Scarab)",
 				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** Interlocutor Kyton"
@@ -2608,6 +2618,7 @@
 			],
 			"paladin_code": [
 				"The paladins of Arqueros are defense-oriented generals and bodyguards of virtuous public figures and honorable clients. Their tenets include the following affirmations.",
+				"",
 				"- I will never abandon an innocent in need of protection.",
 				"- The role of guardian is a sacred one. I will never neglect my duties when I agree to guard or protect others, even if they seem unworthy of my protection.",
 				"- A guardian is only as effective as his weapons and armor. I will maintain mine in peak condition at all times, repairing and cleaning them as consistently as possible without neglecting my charge."
@@ -2795,6 +2806,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #134: It Came from Hollow Mountain pg. 73](source:Pathfinder_#134:_It_Came_from_Hollow_Mountain)",
+				"",
 				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Celestial Pegesus](monster:Celestial_Pegesus)",
 				"- **[Summon Monster V](spell:Summon_Monster_V):** [Lunar Naga](monster:Lunar_Naga)"
 			]
@@ -3022,6 +3034,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #29: Mother of Flies pg. 67](source:Pathfinder_#29:_Mother_of_Flies)",
+				"",
 				"- **[Summon Monster II](spell:Summon_Monster_II):** [Hell Hound](monster:Hell_Hound) - LE",
 				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Cerberi](monster:Cerberi) - LE",
 				"- **[Summon Monster V](spell:Summon_Monster_V):** [Bearded Devil](monster:Bearded_Devil) - LE"
@@ -3424,11 +3437,13 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #77: Herald of the Ivory Labyrinth pg. 70](source:Pathfinder_#77:_Herald_of_the_Ivory_Labyrinth)",
+				"",
 				"- **[Summon Monster V](spell:Summon_Monster_V):** [Half-Fiend Minotaur](monster:Half-Fiend_Minotaur)",
 				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Fiendish Chimera](monster:Fiendish_Chimera)"
 			],
 			"other_rules": [
 				"**Source** [Pathfinder #77: Herald of the Ivory Labyrinth pg. 70](source:Pathfinder_#77:_Herald_of_the_Ivory_Labyrinth)",
+				"",
 				"- Witches of Baphomet may prepare monstrous physique spells at the same spell levels as the sorcerer/wizard versions."
 			]
 		},
@@ -3707,6 +3722,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #143: Borne by the Sun's Grace pg. 79](source:Pathfinder_#143:_Borne_by_the_Sun's_Grace)",
+				"",
 				"- **[Summon Monster III](spell:Summon_Monster_III):** [Entropic Giant Raven](monster:Entropic_Giant_Raven)",
 				"- **[Summon Monster III](spell:Summon_Monster_III):** [Nosoi](monster:Nosoi)",
 				"- **[Summon Monster V](spell:Summon_Monster_V):** [Catrina](monster:Catrina)",
@@ -4075,16 +4091,19 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #55: The Wormwood Mutiny pg. 72](source:Pathfinder_#55:_The_Wormwood_Mutiny)",
+				"",
 				"- **[Summon Monster II](spell:Summon_Monster_II):** [Entropic Reefclaw](monster:Entropic_Reefclaw) - CN (uses entropic simple template)",
 				"- **[Summon Monster V](spell:Summon_Monster_V):** [Saltwater Merrow](monster:Saltwater_Merrow) - NE",
 				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Tylosaurus](monster:Tylosaurus) - N"
 			],
 			"other_rules": [
 				"**Source** [Pathfinder #55: The Wormwood Mutiny pg. 72](source:Pathfinder_#55:_The_Wormwood_Mutiny)",
+				"",
 				"- A cleric of Besmara may give up one domain in exchange for a bird, [blue-ringed octopus](monster:blue-ringed_octopus), [king crab](monster:king_crab), [monkey](monster:monkey), or any of the familiars presented in the Core Rulebook. The cleric uses her cleric level as her effective wizard level for this purpose. A ranger who worships Besmara may select any of the creatures listed above as a familiar instead of choosing an animal companion. The ranger's effective wizard level for this ability is equal to his ranger level - 3.",
 				"",
 				"**Source** [Inner Sea Faiths pg. 26](source:Inner_Sea_Faiths)   ",
 				"Cleric/Warpriest",
+				"",
 				"- [Geas, Lesser](spell:Geas,_Lesser) can be prepared as a 4th-level spell [can only use to cause aversion to boats, ships, or open bodies of water]",
 				"- [Curse of Disgust](spell:Curse_of_Disgust) can be prepared as a 5th-level spell [can only use to cause aversion to boats, ships, or open bodies of water]"
 			]
@@ -4592,6 +4611,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #86: Lords of Rust pg. 74](source:Pathfinder_#86:_Lords_of_Rust)",
+				"",
 				"- **[Summon Monster I](spell:Summon_Monster_I):** [Clockwork Spy](monster:Clockwork_Spy)",
 				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Clockwork Servant](monster:Clockwork_Servant)",
 				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Clockwork Soldier](monster:Clockwork_Soldier)"
@@ -5007,6 +5027,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #17: A Memory of Darkness pg. 60](source:Pathfinder_#17:_A_Memory_of_Darkness)",
+				"",
 				"- **[Summon Monster I](spell:Summon_Monster_I):** [Giant Bee](monster:Giant_Bee) - N",
 				"- **[Summon Monster II](spell:Summon_Monster_II):** [Tiefling Rogue 1](monster:Tiefling_Rogue_1) - CN",
 				"- **[Summon Monster V](spell:Summon_Monster_V):** [Spider Eater](monster:Spider_Eater) - N",
@@ -5225,6 +5246,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #14: Children of the Void pg. 61](source:Pathfinder_#14:_Children_of_the_Void)",
+				"",
 				"- **[Summon Monster II](spell:Summon_Monster_II):** [Celestial Cayhound](monster:Celestial_Cayhound) - CG (uses riding dog statistics)",
 				"- **[Summon Monster III](spell:Summon_Monster_III):** [Satyr](monster:Satyr) - CG (without pipes)",
 				"- **[Summon Monster V](spell:Summon_Monster_V):** [Rust Monster](monster:Rust_Monster) - N",
@@ -5827,6 +5849,7 @@
 			],
 			"other_rules": [
 				"**Source** [Pathfinder #144: Midwives to Death pg. 74](source:Pathfinder_#144:_Midwives_to_Death)",
+				"",
 				"- Chinostes can grant up to 6th-level spells"
 			]
 		},
@@ -5878,6 +5901,7 @@
 			],
 			"other_rules": [
 				"**Source** [Pathfinder #144: Midwives to Death pg. 74](source:Pathfinder_#144:_Midwives_to_Death)",
+				"",
 				"- Chinostes can grant up to 6th-level spells."
 			]
 		},
@@ -6517,6 +6541,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #119: Prisoners of the Blight pg. 71](source:Pathfinder_#119:_Prisoners_of_the_Blight)",
+				"",
 				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Mandragora](monster:Mandragora)",
 				"- **[Summon Monster V](spell:Summon_Monster_V):** [Tendriculos](monster:Tendriculos)"
 			]
@@ -7175,6 +7200,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #78: City of Locusts pg. 70](source:Pathfinder_#78:_City_of_Locusts)",
+				"",
 				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Vermlek](monster:Vermlek)",
 				"- **[Summon Monster V](spell:Summon_Monster_V):** [Fiendish Giant Locust](monster:Fiendish_Giant_Locust)",
 				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Fiendish Giant Mosquito](monster:Fiendish_Giant_Mosquito)"
@@ -7353,6 +7379,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #2: The Skinsaw Murders pg. 72](source:Pathfinder_#2:_The_Skinsaw_Murders)",
+				"",
 				"- **[Summon Monster II](spell:Summon_Monster_II):** [Lyrakien](monster:Lyrakien) - CG",
 				"- **[Summon Monster III](spell:Summon_Monster_III):** [Star Monarch](monster:Star_Monarch) - CG [stats as a giant eagle]",
 				"- **[Summon Monster VII](spell:Summon_Monster_VII):** [Young Brass Dragon](monster:Young_Brass_Dragon) - CG (extraplanar)",
@@ -7890,6 +7917,7 @@
 			"on_golarion": [ "**Nationality** Iblydan" ],
 			"other_rules": [
 				"**Source** [Pathfinder #144: Midwives to Death pg. 74](source:Pathfinder_#144:_Midwives_to_Death)",
+				"",
 				"- Drokalion can grant up to 2nd-level spells"
 			]
 		},
@@ -8407,6 +8435,7 @@
 			],
 			"paladin_code": [
 				"The paladins of Erastil are gruff, strict traditionalists. They seek to preserve the integrity of rural life and communities. Their tenets include the following affirmations.",
+				"",
 				"- My community comes first, and I will contribute to it all that I can. If I don't give something back, who will?",
 				"- I must offer the poor in my community assistance, but I may not do the work for them-instead, I must teach them to contribute to the settlement. It is only through cooperation that a community grows strong.",
 				"- When danger threatens, I am not a fool. I seek first to make sure the weak and innocent are safe, and then I quell the danger.",
@@ -8500,11 +8529,13 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #32: Rivers Run Red pg. 71](source:Pathfinder_#32:_Rivers_Run_Red)",
+				"",
 				"- **[Summon Monster II](spell:Summon_Monster_II):** [Celestial Elk](monster:Celestial_Elk) - LG",
 				"- **[Summon Monster III](spell:Summon_Monster_III):** [Celestial Dire Boar](monster:Celestial_Dire_Boar) - LG"
 			],
 			"other_rules": [
 				"**Source** [Inner Sea Gods pg. 55](source:Inner_Sea_Gods)",
+				"",
 				"- Clerics and druids of Erastil are proficient with the shortbow"
 			]
 		},
@@ -9094,6 +9125,7 @@
 			],
 			"paladin_code": [
 				"The paladins of Folgrit are protectors of home and hearth who safeguard sacred places in times of war and peace. Many are mothers who seek to help and protect children and other mothers. Their tenets include the following affirmations.",
+				"",
 				"- Children are true innocents. I will protect them from harm above all else.",
 				"- A child's spirit is the light of a people. I will nurture children under my care.",
 				"- My home, whatever it might be, is always a refuge for the homeless.",
@@ -9556,6 +9588,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #107: Scourge of the Godclaw pg. 73](source:Pathfinder_#107:_Scourge_of_the_Godclaw)",
+				"",
 				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Venomous Snake Swarm](monster:Venomous_Snake_Swarm)",
 				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Drowning Devil (Sarglagon)](monster:Drowning_Devil_(Sarglagon))",
 				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Aghasura (Asura)](monster:Aghasura_(Asura))"
@@ -9770,6 +9803,7 @@
 			],
 			"other_rules": [
 				"**Source** [Inner Sea Faiths pg. 44](source:Inner_Sea_Faiths)",
+				"",
 				"- Clerics, druids, and rangers of Ghlaunder, upon first gaining the ability to cast divine spells, may choose to affect vermin instead of animals when using animal-oriented spells (such as animal shapes, detect animals or plants, and hide from animals); these spells can no longer be used to affect animals."
 			]
 		},
@@ -10026,6 +10060,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #35: War of the River Kings pg. 73](source:Pathfinder_#35:_War_of_the_River_Kings)",
+				"",
 				"- **[Summon Monster III](spell:Summon_Monster_III):** [Iron Cobra](monster:Iron_Cobra) - N (extraplanar, no poison)",
 				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Bulette](monster:Bulette) - N",
 				"- **[Summon Monster VII](spell:Summon_Monster_VII):** [Behir](monster:Behir) - N",
@@ -10033,6 +10068,7 @@
 			],
 			"other_rules": [
 				"**Source** [Pathfinder #35: War of the River Kings pg. 73](source:Pathfinder_#35:_War_of_the_River_Kings)",
+				"",
 				"- Followers are forbidden from casting the [rusting grasp](spell:rusting_grasp) spell. Druids are permitted to wear metal armor, though they do not automatically gain proficiency in any other categories of armor. They cannot cast spells while wearing metal armor, nor does it meld with them when they use wild shape; druids interested in metal armor acquire a set for a specific beast form and have allies or slaves put it on them when it is time to fight."
 			]
 		},
@@ -10199,6 +10235,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #38: Racing to Ruin pg. 71](source:Pathfinder_#38:_Racing_to_Ruin)",
+				"",
 				"- **[Summon Monster II](spell:Summon_Monster_II):** [Merfolk](monster:Merfolk) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
 				"- **[Summon Monster VII](spell:Summon_Monster_VII):** [Young Frost Giant](monster:Young_Frost_Giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
 				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Frost Giant](monster:Frost_Giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
@@ -10399,6 +10436,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #75: Demon's Heresy pg. 64](source:Pathfinder_#75:_Demon's_Heresy)",
+				"",
 				"- **[Summon Nature's Ally II](spell:Summon_Nature's_Ally_II)**: [Axe Beak](monster:Axe_Beak) [Order of Wing]",
 				"- **[Summon Nature's Ally II](spell:Summon_Nature's_Ally_II)**: [Dire Badger](monster:Dire_Badger) [Order of Earth]",
 				"- **[Summon Nature's Ally II](spell:Summon_Nature's_Ally_II)**: [Giant Porcupine](monster:Giant_Porcupine) [Order of Earth]",
@@ -10416,6 +10454,7 @@
 			],
 			"other_rules": [
 				"**Source** [Pathfinder #75: Demon's Heresy pg. 64](source:Pathfinder_#75:_Demon's_Heresy)",
+				"",
 				"- There are no clerics of the Green Faith; domains given are for Druids. The Green Faith is not headed by a deity, but is an order that worships and gains power from nature."
 			]
 		},
@@ -10527,6 +10566,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #64: Beyond the Doomsday Door pg. 73](source:Pathfinder_#64:_Beyond_the_Doomsday_Door)",
+				"",
 				"- **[Summon Monster II](spell:Summon_Monster_II):** [Akata](monster:Akata) (extraplanar)",
 				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Chaos Beast](monster:Chaos_Beast)",
 				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Mothman](monster:Mothman) (extraplanar)"
@@ -10588,6 +10628,7 @@
 			],
 			"paladin_code": [
 				"Paladins of Gruhastha are rare, for the Keeper's is not a martial faith. Those who champion his faith through arms typically do so out of need to travel to secluded villages or because they are sworn to protect specific holy sites or teachers. The code of Gruhastha's paladins contains the following adages.",
+				"",
 				"- Transcendence requires tranquility. No one can learn who is hungry or afraid. My first goal must be to ensure peace and stability for the greatest number of people possible.",
 				"- Enlightenment requires truth. I will not deny knowledge to those who seek answers without ill will, even if it seems to be harmful in the short term, as those who have false information will follow a false path.",
 				"- All can find their way to enlightenment. Whenever possible, intelligent creatures should be reasoned with and their grievances understood. Even if no negotiated resolution is possible, the use of force is always to be regretted, for it represents a failure.",
@@ -11046,6 +11087,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #117: Assault on Longshadow pg. 77](source:Pathfinder_#117:_Assault_on_Longshadow)",
+				"",
 				"- **[Summon Monster II](spell:Summon_Monster_II):** [Goblin Snake](monster:Goblin_Snake)",
 				"- **[Summon Monster V](spell:Summon_Monster_V):** [Barghest](monster:Barghest)",
 				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Greater Barghest](monster:Greater_Barghest)"
@@ -11386,6 +11428,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #110: The Thrushmoor Terror pg. 71](source:Pathfinder_#110:_The_Thrushmoor_Terror)",
+				"",
 				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Byakhee](monster:Byakhee)",
 				"- **[Summon Monster V](spell:Summon_Monster_V):** [Keeper of the Yellow Sign](monster:Keeper_of_the_Yellow_Sign)"
 			]
@@ -11918,6 +11961,7 @@
 			],
 			"other_rules": [
 				"**Source** [Pathfinder #144: Midwives to Death pg. 75](source:Pathfinder_#144:_Midwives_to_Death)",
+				"",
 				"- Iapholi can grant 9th-level spells"
 			]
 		},
@@ -12385,6 +12429,7 @@
 			],
 			"paladin_code": [
 				"The paladins of Iomedae are just and strong, crusaders who live for the joy of righteous battle. Their mission is to right wrongs and eliminate evil at its root. They serve as examples to others, and their code demands they protect the weak and innocent by eliminating sources of oppression, rather than merely the symptoms. They may back down or withdraw from a fight if they are overmatched, but if their lives will buy time for others to escape, they must give them. Their tenets include the following affirmations.",
+				"",
 				"- I will learn the weight of my sword. Without my heart to guide it, it is worthless-my strength is not in my sword, but in my heart. If I lose my sword, I have lost a tool. If I betray my heart, I have died.",
 				"- I will have faith in the Inheritor. I will channel her strength through my body. I will shine in her legion, and I will not tarnish her glory through base actions.",
 				"- I am the first into battle, and the last to leave it.",
@@ -12478,6 +12523,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #26: The Sixfold Trial pg. 71](source:Pathfinder_#26:_The_Sixfold_Trial)",
+				"",
 				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Celestial Lion](monster:Celestial_Lion) - LG",
 				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Celestial Griffon](monster:Celestial_Griffon) - NG",
 				"- **[Summon Nature's Ally VI](spell:Summon_Nature's_Ally_VI)**: [Celestial Griffon](monster:Celestial_Griffon) - NG"
@@ -12778,11 +12824,13 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #53: Tide of Honor pg. 73](source:Pathfinder_#53:_Tide_of_Honor)",
+				"",
 				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Giant Mantis](monster:Giant_Mantis) (extraplanar)",
 				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Tiger](monster:Tiger)"
 			],
 			"other_rules": [
 				"**Source** [Pathfinder #53: Tide of Honor pg. 73](source:Pathfinder_#53:_Tide_of_Honor)",
+				"",
 				"- Monks with access to the quivering palm ability may use it to render a target comatose for an extended period (lasting until the target receives a [heal](spell:heal), [restoration](spell:restoration), or [greater restoration](spell:greater_restoration) spell) rather than kill, chosen at the time the quivering palm is activated. Monks may use their wholeness of body ability on a willing creature as a standard action. The monk must touch the target, and the target becomes fatigued from this aid."
 			]
 		},
@@ -13647,6 +13695,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Mythic Realms pg. 55](source:Mythic_Realms)",
+				"",
 				"- **[Summon Monster I](spell:Summon_Monster_I):** [Fiendish Human Zombie](monster:Fiendish_Human_Zombie) [standard or fast zombie]",
 				"- **[Summon Monster II](spell:Summon_Monster_II):** [Fiendish Ghoul](monster:Fiendish_Ghoul)",
 				"- **[Summon Monster II](spell:Summon_Monster_II):** [Fiendish Plague Zombie](monster:Fiendish_Plague_Zombie)",
@@ -13662,6 +13711,7 @@
 			],
 			"other_rules": [
 				"**Source** [Mythic Realms pg. 55](source:Mythic_Realms)",
+				"",
 				"- When using [create undead](spell:create_undead), a cleric or oracle of Kabriri can create a ghul or great ghul from the corpse of a genie rather than creating a mummy (minimum caster level 15th). When creating a ghoul, ghast, ghul, or great ghul with this spell, a cleric or oracle of Kabriri can also apply the fiendish template to that creature. This requires the caster to double the normal material component cost or sacrifice a living humanoid as an additional material component of casting the spell."
 			]
 		},
@@ -13836,6 +13886,7 @@
 			],
 			"paladin_code": [
 				"Paladins of Kazutal proudly defend their communities and encourage strong relationships among the people they know and with whom they interact. Kazutal's paladins prefer friendship to violence, but they never back down from their responsibility to stand up for those weaker than themselves or those they consider under their protection. Their tenets include the following affirmations.",
+				"",
 				"- Bonds are what give our society strength. Though families and communities are complex and ever changing, I will focus to maintain the positive connections with my own family and community, and encourage others to do the same.",
 				"- No law, price, or justification can legitimize slavery. I will free slaves where I find them and will never enslave another creature to act against its own will.",
 				"- Conquest is destruction. I will always fight to defend others from violent subjugation, and no tyrant will ever receive my deference.",
@@ -14341,6 +14392,7 @@
 			],
 			"paladin_code": [
 				"The paladins of Kols are skyseekers, honorable servants of rightful dwarven lords, steadfast guardians of dwarven sites, and punishers of deserters and oathbreakers. Their tenets include the following affirmations.",
+				"",
 				"- My responsibilities to my people are a sacred duty to my god. I will never willingly shirk my duties.",
 				"- Oathbreakers and deserters undermine the bonds that hold society together. I will never allow one to go unpunished if it is within my power.",
 				"- A promise is sacred. I will never willingly break any oath or contract."
@@ -14535,6 +14587,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 66](source:Pathfinder_#69:_Maiden,_Mother,_Crone)",
+				"",
 				"- **[Summon Monster III](spell:Summon_Monster_III):** [Fiendish Ice Elemental (Small)](monster:Fiendish_Ice_Elemental_(Small))",
 				"- **[Summon Monster V](spell:Summon_Monster_V):** [Fiendish Ice Elemental (Medium)](monster:Fiendish_Ice_Elemental_(Medium))",
 				"- **[Summon Monster V](spell:Summon_Monster_V):** [Half-Fiend Yeti](monster:Half-Fiend_Yeti)",
@@ -14763,6 +14816,7 @@
 			],
 			"paladin_code": [
 				"Paladins of Kurgess are jovial in nature but firm in conviction, and brook no cheaters or liars among their ranks. Their tenants include the following affirmations.",
+				"",
 				"- Fairness and good sportsmanship are testaments to one's virtue. I must set the finest example of what it means to be sporting and noble in challenges of strength and honor.",
 				"- A challenge that is won unfairly is not a challenge won. I am no cheat, and I will lose any contest of brawn, honor, or mettle rather than resort to knavery or trickery.",
 				"- Frauds have no place among true competitors. In contests of import and high-stakes trials, I will unrelentingly reveal the untruthful and deliver them to their proper justice.",
@@ -15154,6 +15208,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #5: Sins of the Saviors pg. 71](source:Pathfinder_#5:_Sins_of_the_Saviors)",
+				"",
 				"- **[Summon Monster III](spell:Summon_Monster_III):** [Fiendish Worg](monster:Fiendish_Worg) - CE",
 				"- **[Summon Monster V](spell:Summon_Monster_V):** [Barghest](monster:Barghest) - CE (chaotic subtype instead of lawful)",
 				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Warped One](monster:Warped_One) - CE",
@@ -15161,6 +15216,7 @@
 			],
 			"other_rules": [
 				"**Source** [Inner Sea Gods pg. 99](source:Inner_Sea_Gods)",
+				"",
 				"- Druids/Rangers can use [summon nature's ally](spell:summon_nature's_ally) spells to summon fiendish animals from the same level summon monster list."
 			]
 		},
@@ -15417,6 +15473,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #65: Into the Nightmare Rift pg. 75](source:Pathfinder_#65:_Into_the_Nightmare_Rift)",
+				"",
 				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Advanced Kyton Evangelist](monster:Advanced_Kyton_Evangelist) - LE (extraplanar)",
 				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Dark Naga](monster:Dark_Naga) - LE"
 			]
@@ -16011,6 +16068,7 @@
 			],
 			"paladin_code": [
 				"Magrim places order and unchanging dependability above benevolence, but as the keeper of the dwarven afterlife and patron of the dead, he also insists on respect and security for the tombs of his faithful and those buried in keeping with his teachings. Thus, a small number of holy warriors periodically arise from the ranks of his most devout agents to protect tombs from the ravages of undead and prevent the spread of undeath from interfering with their demigod's goals. While all paladins of Magrim serve the demigod in their own way, each is also dedicated to this code.",
+				"",
 				"- The dead have earned their peace. I shall see them put to rest with respect, and do my utmost to keep their graves and tombs honored and undisturbed.",
 				"- Should some force or custom insist on treating the graves of the passed as anything other than a place of quiet memorial, I shall do all in my power to end this practice.",
 				"- The undead have stepped out of the natural order of life and death, and they threaten the sanctity of the grave. I shall seek to destroy them when possible, and keep them from the resting places of others.",
@@ -16156,6 +16214,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #99: Dance of the Damned pg. 75](source:Pathfinder_#99:_Dance_of_the_Damned)",
+				"",
 				"- **[Summon Monster III](spell:Summon_Monster_III):** [Forlarren](monster:Forlarren)",
 				"- **[Summon Monster V](spell:Summon_Monster_V):** [Achaierai](monster:Achaierai)",
 				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Cabal Devil](monster:Cabal_Devil)"
@@ -16757,6 +16816,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #102: Breaking the Bones of Hell pg. 72](source:Pathfinder_#102:_Breaking_the_Bones_of_Hell)",
+				"",
 				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Guardian Scroll](monster:Guardian_Scroll)",
 				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Contract Devil (Phistophilus)](monster:Contract_Devil_(Phistophilus))",
 				"- **[Summon Monster IX](spell:Summon_Monster_IX):** [Heresy Devil (Ayngavhaul)](monster:Heresy_Devil_(Ayngavhaul))"
@@ -17028,11 +17088,13 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #68: The Shackled Hut pg. 69](source:Pathfinder_#68:_The_Shackled_Hut)",
+				"",
 				"- **[Summon Monster I](spell:Summon_Monster_I):** [Great Horned Owl](monster:Great_Horned_Owl) (extraplanar)",
 				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Hound Archon](monster:Hound_Archon) - CG"
 			],
 			"other_rules": [
 				"**Source** [Inner Sea Faiths pg. 72](source:Inner_Sea_Faiths)",
+				"",
 				"- Milani's priests understand that a revolutionary's work is often rewarded with death, and they accept that they may one day be called to die for a cause. Fortunately, the goddess teaches that the truly devout who are martyred saving other people from death or tyranny will rise again in some way-perhaps even immediately, though being reborn in the faith is much more likely.",
 				"- Some priests claim to be the incarnations of past followers of the goddess, able to access memories of past lives with the proper magic and meditation. A follower born after Milani ascended to godhood (about a century ago) can attempt to search for his past lives' memories by casting legend lore, which Milani grants only for this purpose to clerics, inquisitors, and warpriests as a 4th-level divine spell. The first time a caster attempts this use of the spell, he rolls 1d4-1 to determine the number of specific followers of Milani whose memories he accesses; each time he uses the spell, it reveals only information known to those individuals. If the result of the roll is 0, the caster can access no memories, either because he is not a reincarnated follower of Milani or because the goddess has not made his past lives' memories available."
 			]
@@ -17270,6 +17332,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #105: The Inferno Gate pg. 73](source:Pathfinder_#105:_The_Inferno_Gate)",
+				"",
 				"- **[Summon Monster III](spell:Summon_Monster_III):** [Phantom Armor (Guardian)](monster:Phantom_Armor_(Guardian)) - LE",
 				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Warmonger Devil (Levaloch)](monster:Warmonger_Devil_(Levaloch))",
 				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Tophet](monster:Tophet)"
@@ -18458,11 +18521,13 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #41: The Thousand Fangs Below pg. 73](source:Pathfinder_#41:_The_Thousand_Fangs_Below)",
+				"",
 				"- **[Summon Monster III](spell:Summon_Monster_III):** [Blink Dog](monster:Blink_Dog) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
 				"- **[Summon Monster V](spell:Summon_Monster_V):** [Cloaker](monster:Cloaker) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]"
 			],
 			"other_rules": [
 				"**Source** [Inner Sea Gods pg. 107](source:Inner_Sea_Gods)",
+				"",
 				"- Forbidden from using [imbue with spell ability](spell:imbue_with_spell_ability) (or similar spells that grant spellcasting abilities) on living targets that cannot normally use spells or use spell-like abilities; it is considered an unworthy sharring of blessed magic."
 			]
 		},
@@ -19015,6 +19080,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #59: The Price of Infamy pg. 75](source:Pathfinder_#59:_The_Price_of_Infamy)",
+				"",
 				"- **[Summon Monster III](spell:Summon_Monster_III):** [Human Natural Wererat Rogue 2](monster:Human_Natural_Wererat_Rogue_2) (extraplanar)",
 				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Choker](monster:Choker) (extraplanar)",
 				"- **[Summon Monster V](spell:Summon_Monster_V):** [Shadow Mastiff](monster:Shadow_Mastiff)"
@@ -19565,6 +19631,7 @@
 			],
 			"other_rules": [
 				"**Source** [Pathfinder #144: Midwives to Death pg. 76](source:Pathfinder_#144:_Midwives_to_Death)",
+				"",
 				"- When casting [bleed glory](spell:bleed_glory), [mythic severance](spell:mythic_severance), [steal power](spell:steal_power), or any other spell that specifically harms mythic creatures, the clerics, inquisitors, and oracles of Ongalte are treated as mythic sources for the purpose of resisting the spells' effects.",
 				"- Ongalte can grant up to 8th-level spells."
 			]
@@ -19905,6 +19972,7 @@
 			],
 			"paladin_code": [
 				"Paladins of Osiris aim to defend the sanctity of both life and death, balancing service to these causes with great patience. Their tenets include the following maxims.",
+				"",
 				"- I will follow the word of the living pharaoh, or an equivalent ruler, so long as the pharaoh's actions do not cause unnecessary deaths. Malevolent individuals are unfit for the throne.",
 				"- The dead are sacred beings. I will seek and punish any who attempt to defile or desecrate the dead, their possessions, or their burial sites.",
 				"- Souls cursed to not reach the afterlife must be freed. I must use my will to break the shackles of undeath.",
@@ -20509,6 +20577,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #44: Trial of the Beast pg. 69](source:Pathfinder_#44:_Trial_of_the_Beast)",
+				"",
 				"- **[Summon Monster III](spell:Summon_Monster_III):** [Nosoi](monster:Nosoi)",
 				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Vanth](monster:Vanth)",
 				"- **[Summon Monster I](spell:Summon_Monster_I):** [Whippoorwill](monster:Whippoorwill) (uses eagle statistics)",
@@ -20516,6 +20585,7 @@
 			],
 			"other_rules": [
 				"**Source** [Inner Sea Gods pg. 123](source:Inner_Sea_Gods)",
+				"",
 				"- Since Pharasma despises undead, Pharasmin clerics with the Death domain replace the animate dead domain spell with speak with dead, replace create undead with antilife shell, and replace create greater undead with symbol of death. Clerics with the Souls subdomain replace the animate dead domain spell with speak with dead."
 			]
 		},
@@ -20554,6 +20624,7 @@
 			"on_golarion": [ "**Nationality** Iblydan" ],
 			"other_rules": [
 				"**Source** [Pathfinder #144: Midwives to Death pg. 74](source:Pathfinder_#144:_Midwives_to_Death)",
+				"",
 				"- Because Pharimia is unaligned, clerics of any alignment can worship her.",
 				"- Pharimia can grant 9th-level spells."
 			]
@@ -21256,6 +21327,7 @@
 			],
 			"paladin_code": [
 				"The paladins of Ragathiel are shining beacons of furious resolve on the battlefield, and they are careful stewards of valor everywhere. These paladins disproportionately come from cultures that are typically hostile to paladin training, including those of half-orcs, hobgoblins, Gebbites, and the Nidalese. The tenets of Ragathiel's paladins include the following affirmations.",
+				"",
 				"- I will avenge evil wrought upon the innocent.",
 				"- I will not give my word lightly, but once it is given, I will uphold a promise until my last breath.",
 				"- Those proven guilty must be punished for their crimes. I will not turn a blind eye to wrongdoing.",
@@ -21763,6 +21835,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #23: The Impossible Eye pg. 65](source:Pathfinder_#23:_The_Impossible_Eye)",
+				"",
 				"- **[Summon Monster III](spell:Summon_Monster_III):** [Choker](monster:Choker) - CE (extraplanar)",
 				"- **[Summon Monster V](spell:Summon_Monster_V):** [Fiendish Grick](monster:Fiendish_Grick) - NE",
 				"- **[Summon Monster V](spell:Summon_Monster_V):** [Gibbering Mouther](monster:Gibbering_Mouther) - CE (extraplanar)",
@@ -22289,6 +22362,7 @@
 			],
 			"paladin_code": [
 				"The paladins of the Dawnflower are fierce warriors, like their goddess. They provide hope to the weak and support to the righteous. Their tenets include the following adages.",
+				"",
 				"- I will protect my allies with my life. They are my light and my strength, as I am their light and their strength. We rise together.",
 				"- I will seek out and destroy the spawn of the Rough Beast. If I cannot defeat them, I will give my life trying. If my life would be wasted in the attempt, I will find allies. If any fall because of my inaction, their deaths lie upon my soul, and I will atone for each.",
 				"- I am fair to others. I expect nothing for myself but that which I need to survive.",
@@ -22385,6 +22459,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #20: House of the Beast pg. 62](source:Pathfinder_#20:_House_of_the_Beast)",
+				"",
 				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Janni](monster:Janni) - NG",
 				"- **[Summon Monster VII](spell:Summon_Monster_VII):** [Djinni](monster:Djinni) - NG",
 				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Efreeti](monster:Efreeti) - LG (redeemed) [does not have the [wish](spell:wish) spell-like ability]",
@@ -23102,6 +23177,7 @@
 			],
 			"paladin_code": [
 				"The paladins of Shelyn are peaceable promoters of art and beauty. They see the ugliness in evil, even when cloaked in the form of beauty, and their mission is to defend those who devote their lives to the creation of beauty, bring it forth themselves, and prevent the weak and foolish from being seduced by false promises. Their tenets include the following adages.",
+				"",
 				"- I see beauty in others. As a rough stone hides a diamond, a drab face may hide the heart of a saint.",
 				"- I am peaceful. I come first with a rose rather than a weapon, and act to prevent conflict before it blossoms. I never strike first, unless it is the only way to protect the innocent.",
 				"- I accept surrender if my opponent can be redeemed-and I never assume that they cannot be. All things that live love beauty, and I will show beauty's answer to them.",
@@ -23177,6 +23253,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #50: Night of Frozen Shadows pg. 75](source:Pathfinder_#50:_Night_of_Frozen_Shadows)",
+				"",
 				"- **[Summon Monster II](spell:Summon_Monster_II):** [Grig](monster:Grig) (extraplanar)",
 				"- **[Summon Monster III](spell:Summon_Monster_III):** [Silvanshee](monster:Silvanshee)",
 				"- **[Summon Monster V](spell:Summon_Monster_V):** [Vulpinal](monster:Vulpinal)"
@@ -23405,6 +23482,7 @@
 			],
 			"paladin_code": [
 				"Much of Shizuru's paladin code overlaps with the warrior code of ichimeiyo, which is so closely aligned with the goddess's tenets that those outside the faith may perceive no distinction between them. In addition to the tenets of ichimeiyo, the Empress of Heaven's paladins are expected to obey the following precepts.",
+				"",
 				"- Both my sword and my swordplay have been entrusted to me by those who have mastered their craft, and both deserve to be wielded by a skilled hand. My training will be consistent, and I will impart my training to others, as others passed my training down to me.",
 				"- I will honor the ancestors who have come before me and provided for my life.",
 				"- Though the bonds of love extend across any distance, I will not stretch them further by separating lovers.",
@@ -23431,6 +23509,7 @@
 				"**Oracle**",
 				"",
 				"- [Tail Strike](spell:Tail_Strike) can be prepared as a 4th-level spell",
+				"",
 				"**Source** [Faiths of Golarion pg. 55](source:Faiths_of_Golarion)",
 				"",
 				"**Cleric/Warpriest**",
@@ -24729,6 +24808,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #71: Rasputin Must Die! pg. 70](source:Pathfinder_#71:_Rasputin_Must_Die!)",
+				"",
 				"- **[Summon Monster III](spell:Summon_Monster_III):** [Cacodaemon](monster:Cacodaemon)",
 				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Fiendish urdefhan](monster:Fiendish_urdefhan)",
 				"- **[Summon Monster V](spell:Summon_Monster_V):** [Genthodaemon](monster:Genthodaemon)",
@@ -25039,6 +25119,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #131: The Reaper's Right Hand pg. 72](source:Pathfinder_#131:_The_Reaper's_Right_Hand)",
+				"",
 				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Shadow](monster:Shadow)",
 				"- **[Summon Monster VII](spell:Summon_Monster_VII):** [Greater Shadow](monster:Greater_Shadow)"
 			]
@@ -25705,6 +25786,7 @@
 			],
 			"paladin_code": [
 				"Paladins of Torag are dedicated to protecting not just the lives but the way of life for those under their charge, and hold the ways of their chosen people as holy, especially when they are the centuries-old works and traditions of an entire race. Their tenets include the following affirmations.",
+				"",
 				"- My word is my bond. When I give my word formally, I defend my oath to my death. Traps lie in idle banter or thoughtless talk, and so I watch my tongue.",
 				"- I am at all times truthful, honorable, and forthright, but my allegiance is to my people. I will do what is necessary to serve them, including misleading others if need be.",
 				"- I respect the forge, and never sully it with half-hearted work. My creations reflect the depth of my faith, and I will not allow flaws save in direst need.",
@@ -25786,6 +25868,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #62: Curse of the Lady's Light pg. 75](source:Pathfinder_#62:_Curse_of_the_Lady's_Light)",
+				"",
 				"- **[Summon Monster I](spell:Summon_Monster_I):** [Badger](monster:Badger)",
 				"- **[Summon Monster III](spell:Summon_Monster_III):** [Azer](monster:Azer)",
 				"- **[Summon Monster III](spell:Summon_Monster_III):** [Dire Badger](monster:Dire_Badger)"
@@ -26022,6 +26105,7 @@
 			],
 			"paladin_code": [
 				"The paladins of Trudd are stalwart protectors of the dwarven people and their greatest treasures. The tenets of Trudd's paladins include the following affirmations.",
+				"",
 				"- My strength is my sacred offering. I will maintain my body as I would a sacred relic and use it only for admirable pursuits.",
 				"- To ensure the safety of those I protect, I will be among the first to charge and the last to retreat, save when such tactics would place those I protect at undue risk.",
 				"- I will hold any defensive line if it will save innocents or the homes of my people.",
@@ -26164,6 +26248,7 @@
 			],
 			"paladin_code": [
 				"The paladins of Tsukiyo are patient teachers and wardens. They tend not to settle in any one community, either wandering from town to town or living a reclusive existence away from noteworthy settlements. However, these paladins are rarely far from communities in need, and they readily answer the call to shield a victim or destroy an undead menace. Their tenets include the following affirmations.",
+				"",
 				"- I am the voice for those who go unheard, be they spirits who cannot speak or those whom society has judged as broken or insane. I shall open the doors for others to listen to the voiceless when I can, and when I cannot, I will speak in the words of the voiceless, not my own.",
 				"- I am the eyes for those who cannot understand the truths of others who are not like them. I shall teach others how to accept, support, and celebrate those who think and speak differently than they do.",
 				"- I am the guide for mortal minds and souls. I shall offer kindness and aid to the lost, the frightened, the confused, and the dead. I shall calm restless spirits, and I shall banish violent ones with what compassion I can provide without endangering others.",
@@ -26328,6 +26413,7 @@
 			"on_golarion": [ "**Nationality** Iblydan" ],
 			"other_rules": [
 				"**Source** [Pathfinder #144: Midwives to Death pg. 74](source:Pathfinder_#144:_Midwives_to_Death)",
+				"",
 				"- Upion and Warrik can grant up to 4th-level spells."
 			]
 		},
@@ -26562,11 +26648,13 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #47: Ashes at Dawn pg. 71](source:Pathfinder_#47:_Ashes_at_Dawn)",
+				"",
 				"- **[Summon Monster I](spell:Summon_Monster_I):** [Bloody Human Skeleton](monster:Bloody_Human_Skeleton)",
 				"- **[Summon Monster VII](spell:Summon_Monster_VII):** [Daughter of Urgathoa](monster:Daughter_of_Urgathoa) (extraplanar)"
 			],
 			"other_rules": [
 				"**Source** [Inner Sea Gods pg. 163](source:Inner_Sea_Gods)",
+				"",
 				"- Priests who cast remove disease may draw diseases into themselves as they heal their targets; they become carriers without suffering ill effects. Contagion spells cast by Urgathoa's priests always use the caster's spell DC for the disease's secondary saves."
 			]
 		},
@@ -27491,6 +27579,7 @@
 			],
 			"paladin_code": [
 				"The paladins of Vildeis are eager and self-denying martyrs in search of a good cause. Their tenets include the following affirmations.",
+				"",
 				"- Sacrifice defies the selfishness of evil. I will not shy from a sacrifice that would help the greater good.",
 				"- Evil does not rest, so good cannot either. I will not be complacent, but rather seek out evil to oppose.",
 				"- Family is a rare refuge from the evils of the world, but it cannot keep me from my cause. I will not favor my own family over other innocents."
@@ -27709,6 +27798,7 @@
 			],
 			"paladin_code": [
 				"Paladins of Wadjet are stoic yet gentle defenders of the people, devoted especially to those living near rivers and other bodies of water. They are relentless in their crusade against Apep, the evil god of snakes and darkness. Their tenets include the following affirmations.",
+				"",
 				"- The just and innocent are my wards. I will keep them safe and protected from evil to my last breath.",
 				"- There are those who cannot travel to find what they need. If I find myself lacking in just actions, I will journey and find those who need my help.",
 				"- I will offer my services to explorers, traders, and travelers who are unable to defend themselves. Their journeys aid us all.",
@@ -27935,6 +28025,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #113: What Grows Within pg. 65](source:Pathfinder_#113:_What_Grows_Within)",
+				"",
 				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Phycomid](monster:Phycomid)",
 				"- **[Summon Monster V](spell:Summon_Monster_V):** [Basidirond](monster:Basidirond)",
 				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Mi-go](monster:Mi-go)"
@@ -28388,6 +28479,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #135: Runeplague pg. 75](source:Pathfinder_#135:_Runeplague)",
+				"",
 				"- **[Summon Monster VII](spell:Summon_Monster_VII):** [Qlippoth, Gorgoros](monster:Qlippoth,_Gorgoros)",
 				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Qlippoth, Gongorinan](monster:Qlippoth,_Gongorinan)"
 			]
@@ -28622,6 +28714,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #42: Sanctum of the Serpent God pg. 71](source:Pathfinder_#42:_Sanctum_of_the_Serpent_God)",
+				"",
 				"- **[Summon Monster II](spell:Summon_Monster_II):** [Venomous Snake](monster:Venomous_Snake) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
 				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Amphisbaena](monster:Amphisbaena)",
 				"- **[Summon Monster V](spell:Summon_Monster_V):** [Emperor Cobra](monster:Emperor_Cobra) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
@@ -28971,6 +29064,7 @@
 			],
 			"paladin_code": [
 				"The paladins of Yuelral are protectors of elven magical knowledge and of natural and magical wonders such as the aiudara. Their tenets include the following affirmations.",
+				"",
 				"- I will never defile the beauty of nature, nor cut a raw gemstone for aesthetic reasons.",
 				"- I will remain vigilant for talent in craft and magic. When I notice it, I will encourage its good use.",
 				"- I will respect the power of magic and never allow its misuse.",
@@ -29747,6 +29841,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #11: Skeletons of Scarwall pg. 69](source:Pathfinder_#11:_Skeletons_of_Scarwall)",
+				"",
 				"- **[Summon Monster II](spell:Summon_Monster_II):** Lesser Shadow (see Tome of Horrors) - LE",
 				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Shadow](monster:Shadow) - LE",
 				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Erinyes](monster:Erinyes) - LE",
@@ -29754,6 +29849,7 @@
 			],
 			"other_rules": [
 				"**Source** [Inner Sea Gods pg. 171](source:Inner_Sea_Gods)",
+				"",
 				"- A Kuthite priest's inflict spells always cause visible open wounds that look as though they were caused by slashing damage, though the actual cause of the damage is still negative energy."
 			]
 		},
@@ -29984,6 +30080,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #95: Anvil of Fire pg. 67](source:Pathfinder_#95:_Anvil_of_Fire)",
+				"",
 				"- **[Summon Monster I](spell:Summon_Monster_I):** [Burning Human Skeleton](monster:Burning_Human_Skeleton) (extraplanar)",
 				"- **[Summon Monster III](spell:Summon_Monster_III):** [Thoqqua](monster:Thoqqua)",
 				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Burning Fire Giant Skeleton](monster:Burning_Fire_Giant_Skeleton) (extraplanar)"
@@ -30102,6 +30199,7 @@
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #89: Palace of Fallen Stars pg. 75](source:Pathfinder_#89:_Palace_of_Fallen_Stars)",
+				"",
 				"- **[Summon Monster III](spell:Summon_Monster_III):** [Cacodaemon](monster:Cacodaemon)",
 				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Lacridaemon](monster:Lacridaemon)",
 				"- **[Summon Monster V](spell:Summon_Monster_V):** [Ceustodaemon](monster:Ceustodaemon)"

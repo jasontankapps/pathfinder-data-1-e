@@ -233,7 +233,7 @@
 			"Armor Mastery",
 			"Weapon Mastery"
 		],
-		"short_description": "While many fighters hone their weapon skills to a point of inescapable grace and lethality, there are those who live under the maxim that a good offense can be accomplished though an impenetrable defense. ",
+		"short_description": "While many fighters hone their weapon skills to a point of inescapable grace and lethality, there are those who live under the maxim that a good offense can be accomplished though an impenetrable defense.",
 		"description": [
 			"## Armor Master",
 			"",
@@ -259,7 +259,7 @@
 			"Weapon Training 1-4",
 			"Armor Mastery, Weapon Mastery"
 		],
-		"short_description": "All melee is up close and personal, but some warriors bring it as close as they can get. ",
+		"short_description": "All melee is up close and personal, but some warriors bring it as close as they can get.",
 		"description": [
 			"## Brawler",
 			"",
@@ -469,7 +469,7 @@
 			"Weapon Training 1-4",
 			"Armor Mastery"
 		],
-		"short_description": "The crossbowman has perfected the deadly use of the crossbow, a simple but cruelly efficient weapon, as a craftsman mastering a lethal tool. ",
+		"short_description": "The crossbowman has perfected the deadly use of the crossbow, a simple but cruelly efficient weapon, as a craftsman mastering a lethal tool.",
 		"description": [
 			"## Crossbowman",
 			"",
@@ -559,7 +559,7 @@
 			"Armor Mastery",
 			"Weapon Mastery"
 		],
-		"short_description": "Dragonheir scions are the martially inclined humanoid descendants of those influenced by draconic power. ",
+		"short_description": "Dragonheir scions are the martially inclined humanoid descendants of those influenced by draconic power.",
 		"description": [
 			"## Dragonheir Scion",
 			"",
@@ -622,7 +622,7 @@
 			"Armor Training 2-4",
 			"Weapon Mastery"
 		],
-		"short_description": "These gallant lancers serve in the vanguard of many armies or as knights-errant. ",
+		"short_description": "These gallant lancers serve in the vanguard of many armies or as knights-errant.",
 		"description": [
 			"## Dragoon",
 			"",
@@ -682,7 +682,7 @@
 			"Bravery",
 			"4th, 8th, 12th, 16th-level Bonus Feats;"
 		],
-		"short_description": "Known as the Blackjackets, the elite soldiers of Druma are and always have been mercenaries rather than a standing army. ",
+		"short_description": "Known as the Blackjackets, the elite soldiers of Druma are and always have been mercenaries rather than a standing army.",
 		"description": [
 			"## Druman Blackjacket",
 			"",
@@ -739,7 +739,7 @@
 			"Armor Mastery",
 			"Weapon Mastery"
 		],
-		"short_description": "(Dwarf Only) While the axe is the most famous dwarven weapon, the hammer is at the heart of dwarves' heritage as forgemasters and warriors alike. ",
+		"short_description": "(Dwarf Only) While the axe is the most famous dwarven weapon, the hammer is at the heart of dwarves' heritage as forgemasters and warriors alike.",
 		"description": [
 			"## Foehammer",
 			"",
@@ -807,7 +807,7 @@
 			"Weapon/Armor Proficiency",
 			"Bravery"
 		],
-		"short_description": "The gladiator is both a cunning warrior and a consummate performer, knowing life and death are balanced not only on a sword's edge, but also on the cheers or jeers of the crowd. ",
+		"short_description": "The gladiator is both a cunning warrior and a consummate performer, knowing life and death are balanced not only on a sword's edge, but also on the cheers or jeers of the crowd.",
 		"description": [
 			"## Gladiator",
 			"",
@@ -863,6 +863,7 @@
 			"- The gloomblade can increase a thrown shadow weapon's range increment (if any) by 20 feet.",
 			"- When he hits a foe with a melee attack with the weapon, he can use it to perform a reposition combat maneuver against the creature hit as a swift action. This does not provoke attacks of opportunity.",
 			"- Attacks made with the weapon ignore hardness equal to or less than the gloomblade's fighter level.",
+			"",
 			"For every 4 levels he has beyond 9th, a gloomblade can apply an additional effect to his shadow weapons, to a maximum of three effects at 17th level; these effects can be split between multiple shadow weapons as a gloomblade desires, but they don't stack with themselves.",
 			"",
 			"This alters weapon training."
@@ -1025,7 +1026,7 @@
 			"Armor Training 3-4",
 			"Weapon Mastery"
 		],
-		"short_description": "Where some fighters focus on strength and raw power, the mobile fighter relies on swiftness and mobility, gliding across the battlefield like a steel whirlwind and leaving destruction in his wake. ",
+		"short_description": "Where some fighters focus on strength and raw power, the mobile fighter relies on swiftness and mobility, gliding across the battlefield like a steel whirlwind and leaving destruction in his wake.",
 		"description": [
 			"## Mobile Fighter",
 			"",
@@ -1049,7 +1050,7 @@
 		"sources": [ "Armor Master's Handbook" ],
 		"replaces": "Armor Training",
 		"replace_array": [ "Armor Training" ],
-		"short_description": "Taking advantage of their weighty armor, Molthuni defenders can hold back an onslaught of enemies intent on breaking through their line. ",
+		"short_description": "Taking advantage of their weighty armor, Molthuni defenders can hold back an onslaught of enemies intent on breaking through their line.",
 		"description": [
 			"## Molthuni Defender",
 			"",
@@ -1932,7 +1933,7 @@
 			"Weapon Training 1-4",
 			"Weapon Mastery"
 		],
-		"short_description": "Many fighters believe the tower shield is a tool suitable only for troops on the battlefield, claiming it is too large and bulky to use in skirmishes or within dungeon corridors. ",
+		"short_description": "Many fighters believe the tower shield is a tool suitable only for troops on the battlefield, claiming it is too large and bulky to use in skirmishes or within dungeon corridors.",
 		"description": [
 			"## Tower Shield Specialist",
 			"",
@@ -1999,7 +2000,7 @@
 			"1st-level Bonus Feat",
 			"Weapon Training"
 		],
-		"short_description": "A tribal fighter knows that it is not the weapon that matters but the hand that wields it. Instead of encasing himself in metal armor like the soldiers fighting and dying for the socalled civilized lands do, he prefers to wear something he or his ancestors have killed. ",
+		"short_description": "A tribal fighter knows that it is not the weapon that matters but the hand that wields it. Instead of encasing himself in metal armor like the soldiers fighting and dying for the socalled civilized lands do, he prefers to wear something he or his ancestors have killed.",
 		"description": [
 			"## Tribal Fighter",
 			"",
@@ -2027,7 +2028,7 @@
 			"Armor Training 1-4",
 			"Armor Mastery"
 		],
-		"short_description": "Some fighters focus their efforts on finding the biggest, heaviest, most imposing weapon they can find and training to manage and harness the weight of their massive weapons for maximum impact. ",
+		"short_description": "Some fighters focus their efforts on finding the biggest, heaviest, most imposing weapon they can find and training to manage and harness the weight of their massive weapons for maximum impact.",
 		"description": [
 			"## Two-Handed Fighter",
 			"",
@@ -2098,7 +2099,7 @@
 			"Armor Mastery",
 			"Weapon Mastery"
 		],
-		"short_description": "The unarmed fighter picks up a weapon only rarely, and when he does, he prefers the weapons of the monk. ",
+		"short_description": "The unarmed fighter picks up a weapon only rarely, and when he does, he prefers the weapons of the monk.",
 		"description": [
 			"## Unarmed Fighter",
 			"",
@@ -2143,7 +2144,7 @@
 			"Armor Training 3-4",
 			"Weapon Mastery"
 		],
-		"short_description": "The unbreakable is a warrior of indomitable will, unstoppable and implacable once he has set his mind upon a course of action. ",
+		"short_description": "The unbreakable is a warrior of indomitable will, unstoppable and implacable once he has set his mind upon a course of action.",
 		"description": [
 			"## Unbreakable",
 			"",

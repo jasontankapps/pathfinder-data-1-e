@@ -115,7 +115,7 @@
 			"Uncanny Dodge",
 			"Improved Uncanny Dodge"
 		],
-		"short_description": "Adept at infiltration, trap removal, and lock picking, burglars prey on the homes of the wealthy and forgotten tombs alike. ",
+		"short_description": "Adept at infiltration, trap removal, and lock picking, burglars prey on the homes of the wealthy and forgotten tombs alike.",
 		"description": [
 			"## Burglar",
 			"",
@@ -252,7 +252,7 @@
 			"Trap Sense",
 			"10th-level Rogue Talent"
 		],
-		"short_description": "Consiglieres act as trusted mediators and administrators for crime families and various criminal organizations, and many serve as the right hand to the leaders of such groups. ",
+		"short_description": "Consiglieres act as trusted mediators and administrators for crime families and various criminal organizations, and many serve as the right hand to the leaders of such groups.",
 		"description": [
 			"## Consigliere",
 			"",
@@ -363,7 +363,7 @@
 			"Trapfinding",
 			"Trap Sense"
 		],
-		"short_description": "Cutpurses are often trained by guilds to collect the guild's tax from local businesses on a daily basis, whether through intimidation or pickpocketing. Some find themselves taking up the mantle of adventurer, and their talents are generally appreciated in this role, but the cutpurse is still the first person her companions look to when an item goes missing. ",
+		"short_description": "Cutpurses are often trained by guilds to collect the guild's tax from local businesses on a daily basis, whether through intimidation or pickpocketing. Some find themselves taking up the mantle of adventurer, and their talents are generally appreciated in this role, but the cutpurse is still the first person her companions look to when an item goes missing.",
 		"description": [
 			"## Cutpurse",
 			"",
@@ -481,13 +481,13 @@
 		"name": "Discretion Specialist",
 		"file": "archetypedisplay1322.html",
 		"sources": [ "Antihero's Handbook" ],
-		"replaces": "Trapfinding; Trap Sense/Danger Sense; 4th, 12-th level Rogue Talents; Uncanny Dodge; Improved Uncanny Dodge ",
+		"replaces": "Trapfinding; Trap Sense/Danger Sense; 4th, 12-th level Rogue Talents; Uncanny Dodge; Improved Uncanny Dodge",
 		"replace_array": [
 			"Trapfinding",
 			"Trap Sense/Danger Sense",
 			"4th, 12-th level Rogue Talents",
 			"Uncanny Dodge",
-			"Improved Uncanny Dodge "
+			"Improved Uncanny Dodge"
 		],
 		"short_description": "Discretion specialists deal with bodies, inconvenient witnesses, and other loose ends.",
 		"description": [
@@ -647,7 +647,7 @@
 			"2nd-level Rogue Talent",
 			"Trap Sense"
 		],
-		"short_description": "(Gillman Only) An eldritch raider is a rogue who seeks to unravel the mysteries of the destruction of the gillmen's homeland. ",
+		"short_description": "(Gillman Only) An eldritch raider is a rogue who seeks to unravel the mysteries of the destruction of the gillmen's homeland.",
 		"description": [
 			"## Eldritch Raider",
 			"",
@@ -1102,7 +1102,7 @@
 			"Trapfinding",
 			"Trap Sense"
 		],
-		"short_description": "(Kitsune Only) The kitsune trickster combines her sharpened wit with minor arcane powers of charm and persuasion. ",
+		"short_description": "(Kitsune Only) The kitsune trickster combines her sharpened wit with minor arcane powers of charm and persuasion.",
 		"description": [
 			"## Kitsune Trickster",
 			"",
@@ -1332,7 +1332,7 @@
 			"Trap Sense",
 			"Master Strike"
 		],
-		"short_description": "Phantom thieves come from the ranks of the elite, having grown bored with their finery, and seek thrills from acts of daring, skill, and crime. ",
+		"short_description": "Phantom thieves come from the ranks of the elite, having grown bored with their finery, and seek thrills from acts of daring, skill, and crime.",
 		"description": [
 			"## Phantom Thief",
 			"",
@@ -1370,7 +1370,7 @@
 			"2nd-level Rogue Talent",
 			"Trapfinding"
 		],
-		"short_description": "A pirate breaks from the confines of country and king to commit her crimes upon the high seas. ",
+		"short_description": "A pirate breaks from the confines of country and king to commit her crimes upon the high seas.",
 		"description": [
 			"## Pirate",
 			"",
@@ -1427,7 +1427,7 @@
 			"Trapfinding",
 			"Trap Sense"
 		],
-		"short_description": "The poisoner knows poison is just a tool toward an end, and is no different than any other weapon. ",
+		"short_description": "The poisoner knows poison is just a tool toward an end, and is no different than any other weapon.",
 		"description": [
 			"## Poisoner",
 			"",
@@ -1650,7 +1650,7 @@
 			"Uncanny Dodge",
 			"Improved Uncanny Dodge"
 		],
-		"short_description": "Scouts frequently roam the wilderness, often banding together as bandits, but sometimes serving as guides, as trailblazers, or as companions to a ranger or barbarian warrior. ",
+		"short_description": "Scouts frequently roam the wilderness, often banding together as bandits, but sometimes serving as guides, as trailblazers, or as companions to a ranger or barbarian warrior.",
 		"description": [
 			"## Scout",
 			"",
@@ -1846,7 +1846,7 @@
 		"name": "Sharper",
 		"file": "archetypedisplay6dc8.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Trapfinding; 2nd, 4th, 6th, 8th, 10th, 16th-level Rogue Talent; Trap Sense; ",
+		"replaces": "Trapfinding; 2nd, 4th, 6th, 8th, 10th, 16th-level Rogue Talent; Trap Sense;",
 		"replace_array": [
 			"Trapfinding",
 			"2nd, 4th, 6th, 8th, 10th, 16th-level Rogue Talent",
@@ -1894,7 +1894,7 @@
 			"Advanced Rogue Talent",
 			"Trap Sense 1-4"
 		],
-		"short_description": "(Half-Orc Only) Pushed into a life of crime by the society around them, half-orcs gravitate toward criminal activities that suit them best. ",
+		"short_description": "(Half-Orc Only) Pushed into a life of crime by the society around them, half-orcs gravitate toward criminal activities that suit them best.",
 		"description": [
 			"## Skulking Slayer",
 			"",
@@ -1928,7 +1928,7 @@
 		"name": "Sly Saboteur",
 		"file": "archetypedisplay7d2b.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Class Skills; Trap Sense; Uncanny Dodge; Improved Uncanny Dodge; ",
+		"replaces": "Class Skills; Trap Sense; Uncanny Dodge; Improved Uncanny Dodge;",
 		"replace_array": [
 			"Class Skills",
 			"Trap Sense",
@@ -1976,7 +1976,7 @@
 			"Trapfinding",
 			"Evasion"
 		],
-		"short_description": "Smugglers specialize in moving contraband from one area to another while avoiding detection by authorities. ",
+		"short_description": "Smugglers specialize in moving contraband from one area to another while avoiding detection by authorities.",
 		"description": [
 			"## Smuggler",
 			"",
@@ -2156,7 +2156,7 @@
 			"Trapfinding",
 			"Trap Sense"
 		],
-		"short_description": "The best spies are like chameleons, but not only can they change their appearances to fit the situation, they can also change their personalities, allegiances, and even loves if that's what it takes to achieve their clandestine goals. ",
+		"short_description": "The best spies are like chameleons, but not only can they change their appearances to fit the situation, they can also change their personalities, allegiances, and even loves if that's what it takes to achieve their clandestine goals.",
 		"description": [
 			"## Spy",
 			"",
@@ -2181,7 +2181,7 @@
 			"Trapfinding",
 			"Trap Sense"
 		],
-		"short_description": "The survivalist focuses her talents on surviving harsh and unforgiving conditions that would kill a lesser rogue. ",
+		"short_description": "The survivalist focuses her talents on surviving harsh and unforgiving conditions that would kill a lesser rogue.",
 		"description": [
 			"## Survivalist",
 			"",
@@ -2351,7 +2351,7 @@
 			"Trapfinding",
 			"Trap Sense"
 		],
-		"short_description": "Some criminals steal with finesse, their victims only discovering the crime when the rogue is long gone and the coin already spent. A thug, on the other hand, cares nothing for finesse. ",
+		"short_description": "Some criminals steal with finesse, their victims only discovering the crime when the rogue is long gone and the coin already spent. A thug, on the other hand, cares nothing for finesse.",
 		"description": [
 			"## Thug",
 			"",

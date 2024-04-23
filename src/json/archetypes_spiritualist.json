@@ -394,7 +394,7 @@
 			"Spiritual Interference",
 			"Greater Spiritual Interference"
 		],
-		"short_description": "A hag who dies with a curse on her breath is often anchored to the Ethereal Plane by the power of her hatred- similar to vile and angry mortal souls-and some even claw their way back to the living world through the souls of those they despised or ruined... or those unfortunate souls they birthed. Hag-haunted spiritualists are tethered to these spiteful spirits, anchoring them once again in the world of the living. ",
+		"short_description": "A hag who dies with a curse on her breath is often anchored to the Ethereal Plane by the power of her hatred- similar to vile and angry mortal souls-and some even claw their way back to the living world through the souls of those they despised or ruined... or those unfortunate souls they birthed. Hag-haunted spiritualists are tethered to these spiteful spirits, anchoring them once again in the world of the living.",
 		"description": [
 			"## Hag-Haunted",
 			"",
@@ -457,7 +457,7 @@
 			"Bonded Manifestation",
 			"Detect Undead, 11th, 15th, 17th-level uses of Calm Spirit"
 		],
-		"short_description": "Rather than bond with an existing spirit as most Rivethun eventually do, the involutionist creates a spirit from a piece of her own soul. ",
+		"short_description": "Rather than bond with an existing spirit as most Rivethun eventually do, the involutionist creates a spirit from a piece of her own soul.",
 		"description": [
 			"## Involutionist",
 			"",
@@ -592,7 +592,7 @@
 		"name": "Phantom Blade",
 		"file": "archetypedisplay1d9d.html",
 		"sources": [],
-		"replaces": "Weapon and Armor Proficiencies; Phantom; Phantom Recall; Spiritual Bond; Dual Bond; Etheric Tether; Shared Consciousness; Fused Consciousness; Empowered Consciousness; Bonded Senses; Bonded Manifestation; Spiritual Interference; Greater Spiritual Interference ",
+		"replaces": "Weapon and Armor Proficiencies; Phantom; Phantom Recall; Spiritual Bond; Dual Bond; Etheric Tether; Shared Consciousness; Fused Consciousness; Empowered Consciousness; Bonded Senses; Bonded Manifestation; Spiritual Interference; Greater Spiritual Interference",
 		"replace_array": [
 			"Weapon and Armor Proficiencies",
 			"Phantom",
@@ -606,7 +606,7 @@
 			"Bonded Senses",
 			"Bonded Manifestation",
 			"Spiritual Interference",
-			"Greater Spiritual Interference "
+			"Greater Spiritual Interference"
 		],
 		"short_description": "A small selection of spiritualists are connected to spirits of combat and warfare, and manifest a weapon instead of a phantom.",
 		"description": [
@@ -971,7 +971,7 @@
 		"name": "Soul Warden",
 		"file": "archetypedisplay7cc8.html",
 		"sources": [ "Planar Adventures" ],
-		"replaces": "Phantom; Etheric Tether; Shared Consciousness; Spiritual Interference; Fused Consciousness; Greater Spiritual Interference; Bonded Senses; Phantom Recall; Bonded Manifestation; Dual Bond; Empowered Consciousness ",
+		"replaces": "Phantom; Etheric Tether; Shared Consciousness; Spiritual Interference; Fused Consciousness; Greater Spiritual Interference; Bonded Senses; Phantom Recall; Bonded Manifestation; Dual Bond; Empowered Consciousness",
 		"replace_array": [
 			"Phantom",
 			"Etheric Tether",
@@ -983,7 +983,7 @@
 			"Phantom Recall",
 			"Bonded Manifestation",
 			"Dual Bond",
-			"Empowered Consciousness "
+			"Empowered Consciousness"
 		],
 		"short_description": "Soul wardens have helped their phantoms pass on and have become wardens of the soulstream, serving Pharasma and working with psychopomps to protect vulnerable souls from those who seek to capture, corrupt, or devour them.",
 		"description": [

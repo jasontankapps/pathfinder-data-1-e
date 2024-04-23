@@ -424,7 +424,7 @@
 		"name": "Experimenter",
 		"file": "archetypedisplay2ae2.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Alignment; Vigilatne Specialization; 1st-level Social Talent; Unshakable; Startling Appearance; Frightening Appearance; Stunning Appearance ",
+		"replaces": "Alignment; Vigilatne Specialization; 1st-level Social Talent; Unshakable; Startling Appearance; Frightening Appearance; Stunning Appearance",
 		"replace_array": [
 			"Alignment",
 			"Vigilatne Specialization",
@@ -432,7 +432,7 @@
 			"Unshakable",
 			"Startling Appearance",
 			"Frightening Appearance",
-			"Stunning Appearance "
+			"Stunning Appearance"
 		],
 		"short_description": "Some vigilantes adopt lives of secrecy to hide their strange experiments from public view.",
 		"description": [
@@ -838,7 +838,7 @@
 			"6th, 12th-level Vigilante Talent",
 			"Vengeance Strike"
 		],
-		"short_description": "Some vigilantes form special bonds with the creatures they use as steeds, considering these loyal and trusted mounts just as much heroes or antiheroes as they might be. ",
+		"short_description": "Some vigilantes form special bonds with the creatures they use as steeds, considering these loyal and trusted mounts just as much heroes or antiheroes as they might be.",
 		"description": [
 			"## Mounted Fury",
 			"",
@@ -954,7 +954,7 @@
 		"name": "Serial Killer",
 		"file": "archetypedisplay6080.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Alignment; Vigilante Specialization; Unshakable; 4th, 6th, 12th, 14th-level Vigilante Talent; 7th, 9th, 19th-level Social Talent; Startling Appearance; Frighting Appearance; Stunning Appearance ",
+		"replaces": "Alignment; Vigilante Specialization; Unshakable; 4th, 6th, 12th, 14th-level Vigilante Talent; 7th, 9th, 19th-level Social Talent; Startling Appearance; Frighting Appearance; Stunning Appearance",
 		"replace_array": [
 			"Alignment",
 			"Vigilante Specialization",
@@ -963,7 +963,7 @@
 			"7th, 9th, 19th-level Social Talent",
 			"Startling Appearance",
 			"Frighting Appearance",
-			"Stunning Appearance "
+			"Stunning Appearance"
 		],
 		"short_description": "Some vigilantes adopt an innocent guise to cloak their acts of brutal murder.",
 		"description": [
@@ -1061,7 +1061,7 @@
 			"2nd-level Vigilante Talents",
 			"Vigilante Talents"
 		],
-		"short_description": "Teisatsu are specialized vigilantes who focus on infiltrating social scenes and high-society gatherings on behalf of the feuding lords of Minkai. ",
+		"short_description": "Teisatsu are specialized vigilantes who focus on infiltrating social scenes and high-society gatherings on behalf of the feuding lords of Minkai.",
 		"description": [
 			"## Teisatsu",
 			"",
@@ -1102,7 +1102,7 @@
 			"Vigilante Specialization",
 			"Unshakable"
 		],
-		"short_description": "Practicing magic in secret, the warlock obscures her arcane scholarship from public view. ",
+		"short_description": "Practicing magic in secret, the warlock obscures her arcane scholarship from public view.",
 		"description": [
 			"## Warlock",
 			"",
@@ -1161,10 +1161,10 @@
 			"Ultimate Intrigue",
 			"(Pathfinder Player Companion: Blood of the Beast pg. 7)"
 		],
-		"replaces": "Vigilante Specialization; 2nd, 6th, 12th, 18th-level Vigilante Talent ",
+		"replaces": "Vigilante Specialization; 2nd, 6th, 12th, 18th-level Vigilante Talent",
 		"replace_array": [
 			"Vigilante Specialization",
-			"2nd, 6th, 12th, 18th-level Vigilante Talent "
+			"2nd, 6th, 12th, 18th-level Vigilante Talent"
 		],
 		"short_description": "Within some vigilantes are incredible innate abilities that, although normally the domain of natural beasts, inexplicably aid them in fighting their enemies.",
 		"description": [
@@ -1222,7 +1222,7 @@
 		"name": "Zealot",
 		"file": "archetypedisplay227d.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Skill Ranks; Weapon Proficieny; 4th, 8th, 10th, 14th, 16th-level Vigilante Talent; Alignment; Vigilante Specialization; ",
+		"replaces": "Class Skills; Skill Ranks; Weapon Proficieny; 4th, 8th, 10th, 14th, 16th-level Vigilante Talent; Alignment; Vigilante Specialization;",
 		"replace_array": [
 			"Class Skills",
 			"Skill Ranks",

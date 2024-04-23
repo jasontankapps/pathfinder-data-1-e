@@ -376,13 +376,13 @@
 		"name": "Elysiokineticist",
 		"file": "archetypedisplay701e.html",
 		"sources": [ "People of the Wastes" ],
-		"replaces": "Elemental Focus; Class Skills; Expanded Element; Basic Phytokinesis, 1st-level Infusion; Flesh of Wood ",
+		"replaces": "Elemental Focus; Class Skills; Expanded Element; Basic Phytokinesis, 1st-level Infusion; Flesh of Wood",
 		"replace_array": [
 			"Elemental Focus",
 			"Class Skills",
 			"Expanded Element",
 			"Basic Phytokinesis, 1st-level Infusion",
-			"Flesh of Wood "
+			"Flesh of Wood"
 		],
 		"short_description": "Similar to how phytokineticists draw their power from the First World, elysiokineticists trace their abilities to the riotous wilderness of the plane known as Elysium",
 		"description": [
@@ -632,6 +632,7 @@
 			"- Double her bonus (if any) on damage rolls for having at least 1 point in her ki pool, and gain a +1 bonus on attack rolls with her kinetic blasts. This bonus on attack rolls increases by 1 for every 3 kineticist levels she has. This effect remains for 1d4 rounds.",
 			"- Gain a +2 dodge bonus to AC for 1 round.",
 			"- Increase her base speed by 20 feet for 1 round.",
+			"",
 			"The ki pool is replenished each morning after 8 hours of rest or meditation; these hours do not need to be consecutive. If the psammokinetic has levels in another class that grants points to a pool of ki points, her psammokinetic levels stack with the levels of that class to determine the total number of ki points in the combined pool, but only one ability score modifier is added to the total. The choice of which score to use is made when the second class ability is gained, and once made, the choice cannot be changed. The psammokinetic can use ki points from this pool to power the abilities of every class she has that grants a ki pool.",
 			"",
 			"This replaces elemental overflow.",

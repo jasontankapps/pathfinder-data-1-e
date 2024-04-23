@@ -3,10 +3,10 @@
 		"name": "Banishing Warden",
 		"file": "archetypedisplay71b7.html",
 		"sources": [ "Monster Hunter's Handbook" ],
-		"replaces": "Class Skills; 3rd-level Mercy ",
+		"replaces": "Class Skills; 3rd-level Mercy",
 		"replace_array": [
 			"Class Skills",
-			"3rd-level Mercy "
+			"3rd-level Mercy"
 		],
 		"short_description": "The banishing warden is an expert at fighting all types of evil outsiders and sending them back to their native planes.",
 		"description": [
@@ -179,7 +179,7 @@
 			"Mercy",
 			"Divine Bond"
 		],
-		"short_description": "Some paladins see themselves as the last line of defense between the teeming hordes of evil and the innocent folk trying to make a living in a harsh, unforgiving world. ",
+		"short_description": "Some paladins see themselves as the last line of defense between the teeming hordes of evil and the innocent folk trying to make a living in a harsh, unforgiving world.",
 		"description": [
 			"## Divine Defender",
 			"",
@@ -589,7 +589,7 @@
 			"Smite Evil",
 			"Divine Bond"
 		],
-		"short_description": "Not all paladins are knights in shining armor. Holy guns roam the world searching for evil. And where they find it, they put it down. ",
+		"short_description": "Not all paladins are knights in shining armor. Holy guns roam the world searching for evil. And where they find it, they put it down.",
 		"description": [
 			"## Holy Gun",
 			"",
@@ -625,7 +625,7 @@
 			"Aura of Justice",
 			"Holy Champion"
 		],
-		"short_description": "The holy tactician inspires her allies on the field of battle. ",
+		"short_description": "The holy tactician inspires her allies on the field of battle.",
 		"description": [
 			"## Holy Tactician",
 			"",
@@ -817,7 +817,7 @@
 			"Divine Bond",
 			"Aura of Justice"
 		],
-		"short_description": "Iroran paladins meditate on self-perfection and train relentlessly, knowing that their example can inspire others to excel. ",
+		"short_description": "Iroran paladins meditate on self-perfection and train relentlessly, knowing that their example can inspire others to excel.",
 		"description": [
 			"## Iroran Paladin",
 			"",
@@ -856,7 +856,7 @@
 			"Detect Evil",
 			"3rd, 9th, 15th-level Mercy"
 		],
-		"short_description": "Knights of coins promote fair trade and stable commerce between cities and between nations. ",
+		"short_description": "Knights of coins promote fair trade and stable commerce between cities and between nations.",
 		"description": [
 			"## Knight of Coins",
 			"",
@@ -886,6 +886,7 @@
 			"- The target can use locate object as a spell-like ability once, using the knight of coins' class level as the caster level.",
 			"- The target can treat one settlement as having its base value and purchase limit increased by 30%. The target must choose the affected settlement when the knight of coins bestows this blessing.",
 			"- The target can treat one settlement as being one size category larger for the purposes of determining available magic items. The target must choose the affected settlement when the knight of coins bestows this blessing.",
+			"",
 			"This replaces the mercies gained at 3rd, 9th, and 15th levels."
 		]
 	},
@@ -1065,7 +1066,7 @@
 			"Aura of Resolve",
 			"Aura of Justice"
 		],
-		"short_description": "(Half-Orc Only) As most half-orcs are outcasts, a half-orc paladin recognizes that often those who are monstrous are not necessarily evil and that sometimes even those who are evil became that way because of circumstances and misfortune. ",
+		"short_description": "(Half-Orc Only) As most half-orcs are outcasts, a half-orc paladin recognizes that often those who are monstrous are not necessarily evil and that sometimes even those who are evil became that way because of circumstances and misfortune.",
 		"description": [
 			"## Redeemer",
 			"",
@@ -1093,7 +1094,7 @@
 			"Divine Bond",
 			"Aura of Resolve"
 		],
-		"short_description": "Paladins as a general rule, venerate the gods of good and purity, but some take this a step further, dedicating themselves to a specific deity and furthering the cause of the faith. ",
+		"short_description": "Paladins as a general rule, venerate the gods of good and purity, but some take this a step further, dedicating themselves to a specific deity and furthering the cause of the faith.",
 		"description": [
 			"## Sacred Servant",
 			"",
@@ -1123,7 +1124,7 @@
 			"Aura of Justice",
 			"Holy Champion"
 		],
-		"short_description": "When faced by evil, the sacred shield reaches first not for a weapon, but for her trusty shield. With her faith, she can ward others from harm. ",
+		"short_description": "When faced by evil, the sacred shield reaches first not for a weapon, but for her trusty shield. With her faith, she can ward others from harm.",
 		"description": [
 			"## Sacred Shield",
 			"",
@@ -1194,7 +1195,7 @@
 			"Divine Health",
 			"Aura of Justice"
 		],
-		"short_description": "While paladins often are seen mounted atop a loyal steed, the shining knight is the true symbol of mounted bravery. ",
+		"short_description": "While paladins often are seen mounted atop a loyal steed, the shining knight is the true symbol of mounted bravery.",
 		"description": [
 			"## Shining Knight",
 			"",
@@ -1404,7 +1405,7 @@
 			"Aura of Resolve",
 			"Aura of Faith",
 			"Aura of Righteousness",
-			"Aura of Justice ",
+			"Aura of Justice",
 			"Lay on Hands"
 		],
 		"short_description": "Though tortured crusaders may be beaten and battered, body, mind, and soul, they still somehow continue through torment and hardship. Despite setbacks and impossible odds, they shine like candles even in the darkest times",
@@ -1483,7 +1484,7 @@
 			"Aura of Resolve",
 			"Aura of Justice"
 		],
-		"short_description": "Undead are an abomination in the eyes of the just and righteous. It is no surprise then that there are some paladins that dedicate themselves to wiping these unholy terrors from the world. ",
+		"short_description": "Undead are an abomination in the eyes of the just and righteous. It is no surprise then that there are some paladins that dedicate themselves to wiping these unholy terrors from the world.",
 		"description": [
 			"## Undead Scourge",
 			"",
@@ -1501,7 +1502,7 @@
 		"name": "Vindictive Bastard",
 		"file": "archetypedisplay9d9d.html",
 		"sources": [ "Antihero's Handbook" ],
-		"replaces": "Aura; Detect Evil; Smite Evil; Divine Grace; Lay on Hands; Divine Health; Mercy; Channel Energy; Divine Bond; Aura of Justice; Aura of Faith; Aura of Righteousness; Holy Champion ",
+		"replaces": "Aura; Detect Evil; Smite Evil; Divine Grace; Lay on Hands; Divine Health; Mercy; Channel Energy; Divine Bond; Aura of Justice; Aura of Faith; Aura of Righteousness; Holy Champion",
 		"replace_array": [
 			"Aura",
 			"Detect Evil",
@@ -1515,7 +1516,7 @@
 			"Aura of Justice",
 			"Aura of Faith",
 			"Aura of Righteousness",
-			"Holy Champion "
+			"Holy Champion"
 		],
 		"short_description": "{Ex-paladin archetype) A vindictive bastard is a paladin that strikes out for retribution and revenge, far more interested in tearing down those who have harmed her or her companions than furthering a distant deity's cause.",
 		"description": [
@@ -1635,7 +1636,7 @@
 			"Spellcasting",
 			"Aura of Faith"
 		],
-		"short_description": "Some paladins use their gifts to focus on the holy light that shines within their souls. ",
+		"short_description": "Some paladins use their gifts to focus on the holy light that shines within their souls.",
 		"description": [
 			"## Warrior of the Holy Light",
 			"",
@@ -1661,7 +1662,7 @@
 		"name": "Wilderness Warden",
 		"file": "archetypedisplay44e1.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Class Skills; Divine Grace; Smite Evil; Aura of Courage; 3rd, 9th, 15th-level Mercy; Spells; Aura of Resolve; Aura of Justice ",
+		"replaces": "Class Skills; Divine Grace; Smite Evil; Aura of Courage; 3rd, 9th, 15th-level Mercy; Spells; Aura of Resolve; Aura of Justice",
 		"replace_array": [
 			"Class Skills",
 			"Divine Grace",
@@ -1670,7 +1671,7 @@
 			"3rd, 9th, 15th-level Mercy",
 			"Spells",
 			"Aura of Resolve",
-			"Aura of Justice "
+			"Aura of Justice"
 		],
 		"short_description": "Wilderness wardens are vigilant guardians of natural places of all kinds, from mountain peaks to tangled thickets.",
 		"description": [

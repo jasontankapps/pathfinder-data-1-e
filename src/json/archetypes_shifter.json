@@ -140,7 +140,7 @@
 		"name": "Elementalist Shifter",
 		"file": "archetypedisplay33b5.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Languages; Shifter Aspect; Wild Empathy; Shifter Claws; Wild Shape; Chimeric Aspect; Greater Chimeric Aspect ",
+		"replaces": "Languages; Shifter Aspect; Wild Empathy; Shifter Claws; Wild Shape; Chimeric Aspect; Greater Chimeric Aspect",
 		"replace_array": [
 			"Languages",
 			"Shifter Aspect",
@@ -148,7 +148,7 @@
 			"Shifter Claws",
 			"Wild Shape",
 			"Chimeric Aspect",
-			"Greater Chimeric Aspect "
+			"Greater Chimeric Aspect"
 		],
 		"short_description": "Rather than drawing power from bestial aspects, elementalist shifters channel power from the Inner Sphere and can take on powerful elemental forms at the cost of the greater diversity available to traditional shifters.",
 		"description": [
@@ -290,7 +290,7 @@
 		"name": "Fiendflesh Shifter",
 		"file": "archetypedisplaye81b.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Alignment; Shifter Claws; Wild Shape; Shifter Aspect; Defensive Instinct; Chimeric Aspect; Greater Chimeric Instinct ",
+		"replaces": "Alignment; Shifter Claws; Wild Shape; Shifter Aspect; Defensive Instinct; Chimeric Aspect; Greater Chimeric Instinct",
 		"replace_array": [
 			"Alignment",
 			"Shifter Claws",
@@ -298,7 +298,7 @@
 			"Shifter Aspect",
 			"Defensive Instinct",
 			"Chimeric Aspect",
-			"Greater Chimeric Instinct "
+			"Greater Chimeric Instinct"
 		],
 		"short_description": "By forging dark pacts with extraplanar forces, fiendflesh shifters invoke sinister powers to assume the strengths of daemons, demons, or devils.",
 		"description": [
@@ -435,7 +435,7 @@
 			"Ultimate Wilderness",
 			"official Paizo FAQ"
 		],
-		"replaces": "Weapon and Armor Proficiencies; Chimeric Form; Greater Chimeric Form; Wild Shape; Shifter Aspect; Shifter Claws; Wild Empathy; Defensive Instinct; Woodland Stride ",
+		"replaces": "Weapon and Armor Proficiencies; Chimeric Form; Greater Chimeric Form; Wild Shape; Shifter Aspect; Shifter Claws; Wild Empathy; Defensive Instinct; Woodland Stride",
 		"replace_array": [
 			"Weapon and Armor Proficiencies",
 			"Chimeric Form",
@@ -445,7 +445,7 @@
 			"Shifter Claws",
 			"Wild Empathy",
 			"Defensive Instinct",
-			"Woodland Stride "
+			"Woodland Stride"
 		],
 		"short_description": "While most shifters are trained in druidic traditions that allow them to tap into animalistic powers, others look instead to the simplest forms of life for inspiration. Known as oozemorphs, these shifters focus on the ooze-a form of life as simple in construction as it is dangerous in combat.",
 		"description": [

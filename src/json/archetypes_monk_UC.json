@@ -82,11 +82,11 @@
 		"name": "Disciple of Wholeness",
 		"file": "archetypedisplay939d.html",
 		"sources": [ "Healer's Handbook" ],
-		"replaces": "Ki Pool; Purity of Body; 4th, 12th, 14th level Ki Power ",
+		"replaces": "Ki Pool; Purity of Body; 4th, 12th, 14th level Ki Power",
 		"replace_array": [
 			"Ki Pool",
 			"Purity of Body",
-			"4th, 12th, 14th level Ki Power "
+			"4th, 12th, 14th level Ki Power"
 		],
 		"short_description": "Disciples of wholeness train to bring themselves and others closer to physical and spiritual perfection.",
 		"description": [

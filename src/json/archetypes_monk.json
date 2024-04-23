@@ -382,7 +382,7 @@
 			"Wholeness of Body",
 			"Diamond Body"
 		],
-		"short_description": "Monks of the hellcat sect follow the teachings of Asmodeus or another infernal power. ",
+		"short_description": "Monks of the hellcat sect follow the teachings of Asmodeus or another infernal power.",
 		"description": [
 			"## Hellcat",
 			"",
@@ -619,7 +619,7 @@
 			"Tongue of the Sun and Moon",
 			"Perfect Self"
 		],
-		"short_description": "(Hobgoblin Only) Through discipline and training, an ironskin monk hardens his body to withstand punishing blows. ",
+		"short_description": "(Hobgoblin Only) Through discipline and training, an ironskin monk hardens his body to withstand punishing blows.",
 		"description": [
 			"## Ironskin Monk",
 			"",
@@ -797,7 +797,7 @@
 			"Diamond Body",
 			"Quivering Palm"
 		],
-		"short_description": "The maneuver master specializes in more complicated moves than simple damage-dealing strikes. ",
+		"short_description": "The maneuver master specializes in more complicated moves than simple damage-dealing strikes.",
 		"description": [
 			"## Maneuver Master",
 			"",
@@ -838,7 +838,7 @@
 			"Diamond Soul",
 			"Empty Body"
 		],
-		"short_description": "The martial artist pursues a mastery of pure martial arts without the monastic traditions. He is a master of form, but lacks the ability to harness his ki. ",
+		"short_description": "The martial artist pursues a mastery of pure martial arts without the monastic traditions. He is a master of form, but lacks the ability to harness his ki.",
 		"description": [
 			"## Martial Artist",
 			"",
@@ -991,7 +991,7 @@
 			"Timeless Body",
 			"Perfect Self"
 		],
-		"short_description": "The monk of the four winds is connected to the natural world in a way few other creatures-even other monks-can hope to match. ",
+		"short_description": "The monk of the four winds is connected to the natural world in a way few other creatures-even other monks-can hope to match.",
 		"description": [
 			"## Monk of the Four Winds",
 			"",
@@ -1055,7 +1055,7 @@
 			"Quivering Palm",
 			"Tongue of the Sun and the Moon"
 		],
-		"short_description": "While a monk of the lotus realizes that combat cannot always be avoided-and is more than capable in a fight-he understands that all creatures are connected, and to harm another is to harm the self. ",
+		"short_description": "While a monk of the lotus realizes that combat cannot always be avoided-and is more than capable in a fight-he understands that all creatures are connected, and to harm another is to harm the self.",
 		"description": [
 			"## Monk of the Lotus",
 			"",
@@ -1109,7 +1109,7 @@
 			"Improved Evasion",
 			"Tongue of the Sun and the Moon"
 		],
-		"short_description": "The monk of the sacred mountain finds strength and power in the earth beneath his feet. ",
+		"short_description": "The monk of the sacred mountain finds strength and power in the earth beneath his feet.",
 		"description": [
 			"## Monk of the Sacred Mountain",
 			"",
@@ -1204,7 +1204,7 @@
 			"Empty Body",
 			"Perfect Self"
 		],
-		"short_description": "Nornkith hone their bodies and minds to follow the branching threefold paths of fate. ",
+		"short_description": "Nornkith hone their bodies and minds to follow the branching threefold paths of fate.",
 		"description": [
 			"## Nornkith",
 			"",
@@ -1328,7 +1328,7 @@
 			"Empty Body",
 			"Perfect Self"
 		],
-		"short_description": "The qinggong monk is a master of her ki, using it to perform superhuman stunts or even blast opponents with supernatural energy. ",
+		"short_description": "The qinggong monk is a master of her ki, using it to perform superhuman stunts or even blast opponents with supernatural energy.",
 		"description": [
 			"## Qinggong Monk",
 			"",
@@ -1823,14 +1823,14 @@
 		"name": "Sin Monk",
 		"file": "archetypedisplay420a.html",
 		"sources": [ "Antihero's Handbook" ],
-		"replaces": "Ki Pool; High Jump; Wholeness of Body; Abundant Step; Empty Body; Perfect Self ",
+		"replaces": "Ki Pool; High Jump; Wholeness of Body; Abundant Step; Empty Body; Perfect Self",
 		"replace_array": [
 			"Ki Pool",
 			"High Jump",
 			"Wholeness of Body",
 			"Abundant Step",
 			"Empty Body",
-			"Perfect Self "
+			"Perfect Self"
 		],
 		"short_description": "{Ex-monk archetype) Martial experts who have allowed such passions to lead them astray may find themselves gaining powers drawn from their newly embraced sins.",
 		"description": [
@@ -2138,7 +2138,7 @@
 			"Diamond Soul",
 			"Empty Body"
 		],
-		"short_description": "The style of the tetori is that of the majestic wrestler-a warrior with a dizzying array of grabs, holds, and locks with which to bewilder and incapacitate his foes. ",
+		"short_description": "The style of the tetori is that of the majestic wrestler-a warrior with a dizzying array of grabs, holds, and locks with which to bewilder and incapacitate his foes.",
 		"description": [
 			"## Tetori",
 			"",
@@ -2469,7 +2469,7 @@
 			"Diamond Body",
 			"Tongue of the Sun and the Moon"
 		],
-		"short_description": "The zen archer takes a weapon most other monks eschew and seeks perfection in the pull of a taut bowstring, the flex of a bow's limbs, and the flight of an arrow fired true. ",
+		"short_description": "The zen archer takes a weapon most other monks eschew and seeks perfection in the pull of a taut bowstring, the flex of a bow's limbs, and the flight of an arrow fired true.",
 		"description": [
 			"## Zen Archer",
 			"",

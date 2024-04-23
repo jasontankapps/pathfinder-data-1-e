@@ -148,9 +148,9 @@
 		"name": "Divine Champion",
 		"file": "archetypedisplay72f9.html",
 		"sources": [ "Divine Anthology" ],
-		"replaces": "3rd, 6th, 9th, 12th, 18th-level Bonus Feat ",
+		"replaces": "3rd, 6th, 9th, 12th, 18th-level Bonus Feat",
 		"replace_array": [
-			"3rd, 6th, 9th, 12th, 18th-level Bonus Feat "
+			"3rd, 6th, 9th, 12th, 18th-level Bonus Feat"
 		],
 		"short_description": "Divine champions are unswervingly devoted to their causes, and specialize in bringing battle to the enemies of their faiths.",
 		"description": [
@@ -185,7 +185,7 @@
 			"Blessings",
 			"3rd, 6th, 12th, and 15th-level Bonus Feats"
 		],
-		"short_description": "Some warpriests are called to lead great armies and face legions of foes. These divine commanders live for war and fight for glory. ",
+		"short_description": "Some warpriests are called to lead great armies and face legions of foes. These divine commanders live for war and fight for glory.",
 		"description": [
 			"## Divine Commander",
 			"",
@@ -618,7 +618,7 @@
 		"name": "Shieldbearer",
 		"file": "archetypedisplayb718.html",
 		"sources": [ "Armor Master's Handbook" ],
-		"replaces": "Focus Weapon; Sacred Weapon; Sacred Armor; ",
+		"replaces": "Focus Weapon; Sacred Weapon; Sacred Armor;",
 		"replace_array": [
 			"Focus Weapon",
 			"Sacred Weapon",

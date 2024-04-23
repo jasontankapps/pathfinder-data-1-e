@@ -51,7 +51,7 @@
 		"name": "Benefactor",
 		"file": "archetypedisplay0e3a.html",
 		"sources": [ "Healer's Handbook" ],
-		"replaces": "Spellcasting; Hexes; ",
+		"replaces": "Spellcasting; Hexes;",
 		"replace_array": [
 			"Spellcasting",
 			"Hexes",
@@ -273,7 +273,7 @@
 			"Spirit Magic",
 			"Deliver Touch Spells"
 		],
-		"short_description": "While all shamans use their connection to the spirits of the world to draw upon otherworldly magic powers, the shamans of the Lands of the Linnorm Kings have a unique tradition in which they use the power of patron spirits to directly control their enemies. ",
+		"short_description": "While all shamans use their connection to the spirits of the world to draw upon otherworldly magic powers, the shamans of the Lands of the Linnorm Kings have a unique tradition in which they use the power of patron spirits to directly control their enemies.",
 		"description": [
 			"## Overseer",
 			"",
@@ -356,7 +356,7 @@
 		"sources": [ "Blood of the Beast" ],
 		"replaces": "Spirit Magic spells",
 		"replace_array": [ "Spirit Magic spells" ],
-		"short_description": "The serendipitous, shamanistic rites associated with the traditional catfolk worship of the so-called \"spirits of creation\" focus upon attracting good fortune and banishing ill fortune in the name of these spirits. ",
+		"short_description": "The serendipitous, shamanistic rites associated with the traditional catfolk worship of the so-called \"spirits of creation\" focus upon attracting good fortune and banishing ill fortune in the name of these spirits.",
 		"description": [
 			"## Serendipity Shaman",
 			"",

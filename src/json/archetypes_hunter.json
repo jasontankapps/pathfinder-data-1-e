@@ -9,7 +9,7 @@
 			"Wild Empathy",
 			"Improved Empathic Link"
 		],
-		"short_description": "Hunters beneath the sea are just as committed as their surface-dwelling counterparts to working alongside their animal companions to eradicate threats. ",
+		"short_description": "Hunters beneath the sea are just as committed as their surface-dwelling counterparts to working alongside their animal companions to eradicate threats.",
 		"description": [
 			"## Aquatic Beastmaster",
 			"",
@@ -100,11 +100,11 @@
 		"name": "Colluding Scoundrel",
 		"file": "archetypedisplay6a48.html",
 		"sources": [ "Antihero's Handbook" ],
-		"replaces": "Animal Focus; Second Animal Focus; Master Hunter ",
+		"replaces": "Animal Focus; Second Animal Focus; Master Hunter",
 		"replace_array": [
 			"Animal Focus",
 			"Second Animal Focus",
-			"Master Hunter "
+			"Master Hunter"
 		],
 		"short_description": "The colluding scoundrel is a canny and conniving skirmisher, manipulating her enemies and leveraging her allies for her own benefit.",
 		"description": [

@@ -701,7 +701,7 @@
 			"A Thousand Faces",
 			"Venom Immunity"
 		],
-		"short_description": "A shaman with this totem calls upon the noble eagle, stern and proud, soaring high above the world with keen and pitiless eyes that miss nothing. ",
+		"short_description": "A shaman with this totem calls upon the noble eagle, stern and proud, soaring high above the world with keen and pitiless eyes that miss nothing.",
 		"description": [
 			"## Eagle Shaman",
 			"",
@@ -776,7 +776,7 @@
 			"Venom Immunity",
 			"Timeless Body"
 		],
-		"short_description": "(Human Only) Some youths, abandoned in the wilderness and then raised by animals, are so connected with their adoptive home and family that they become feral. ",
+		"short_description": "(Human Only) Some youths, abandoned in the wilderness and then raised by animals, are so connected with their adoptive home and family that they become feral.",
 		"description": [
 			"## Feral Child",
 			"",
@@ -835,7 +835,7 @@
 		"name": "Feyspeaker",
 		"file": "archetypedisplay43a3.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Spontaneous Casting; Wild Shape; Nature Sense; Base Attack Bonus; Class Skills; Skill Ranks; Armor Proficiency ",
+		"replaces": "Spontaneous Casting; Wild Shape; Nature Sense; Base Attack Bonus; Class Skills; Skill Ranks; Armor Proficiency",
 		"replace_array": [
 			"Spontaneous Casting",
 			"Wild Shape",
@@ -843,7 +843,7 @@
 			"Base Attack Bonus",
 			"Class Skills",
 			"Skill Ranks",
-			"Armor Proficiency "
+			"Armor Proficiency"
 		],
 		"short_description": "Some druids hear the whispers of the natural world like fey creatures do, and learn to mimic those tantalizing murmurs in order to influence the minds of both wild beasts and civilized people.",
 		"description": [
@@ -1363,7 +1363,7 @@
 			"Venom Immunity",
 			"A Thousand Faces"
 		],
-		"short_description": "A mooncaller is bound to the subtle influences of the ever-changing moon and its endless cycles from light to dark and back again. ",
+		"short_description": "A mooncaller is bound to the subtle influences of the ever-changing moon and its endless cycles from light to dark and back again.",
 		"description": [
 			"## Mooncaller",
 			"",
@@ -1424,7 +1424,7 @@
 			"A Thousand Faces",
 			"Timeless Body"
 		],
-		"short_description": "(Nagaji Only) The naga aspirant follows the ancient beliefs and engages in the rituals of a druidic sect dedicated to the transcendence of her nagaji form through absolute devotion to nagas and naga gods. ",
+		"short_description": "(Nagaji Only) The naga aspirant follows the ancient beliefs and engages in the rituals of a druidic sect dedicated to the transcendence of her nagaji form through absolute devotion to nagas and naga gods.",
 		"description": [
 			"## Naga Aspirant",
 			"",
@@ -1621,7 +1621,7 @@
 			"Venom Immunity",
 			"A Thousand Faces"
 		],
-		"short_description": "Out upon the wide and rolling prairies and savannahs, plains druids stand guard over the grasslands. ",
+		"short_description": "Out upon the wide and rolling prairies and savannahs, plains druids stand guard over the grasslands.",
 		"description": [
 			"## Plains Druid",
 			"",
@@ -1645,16 +1645,16 @@
 		"name": "Planar Extremist",
 		"file": "archetypedisplay4cc9.html",
 		"sources": [ "Antihero's Handbook" ],
-		"replaces": "Alignment; Spells; Nature's Bond; Spontaneous Casting; Resist Nature's Lure; Wild Shape ",
+		"replaces": "Alignment; Spells; Nature's Bond; Spontaneous Casting; Resist Nature's Lure; Wild Shape",
 		"replace_array": [
 			"Alignment",
 			"Spells",
 			"Nature's Bond",
 			"Spontaneous Casting",
 			"Resist Nature's Lure",
-			"Wild Shape "
+			"Wild Shape"
 		],
-		"short_description": "(Ex-druid archetype) Planar extremists are those druids that have lost their neutral stance and find themselves gravitating toward one of the four most extreme alignments ",
+		"short_description": "(Ex-druid archetype) Planar extremists are those druids that have lost their neutral stance and find themselves gravitating toward one of the four most extreme alignments",
 		"description": [
 			"## Planar Extremist",
 			"",
@@ -1773,12 +1773,12 @@
 		"name": "Restorer",
 		"file": "archetypedisplay5eb1.html",
 		"sources": [ "Healer's Handbook" ],
-		"replaces": "Nature Sense; Spontanteous Casting; Resist Nature's Lore; A Thousand Faces ",
+		"replaces": "Nature Sense; Spontanteous Casting; Resist Nature's Lore; A Thousand Faces",
 		"replace_array": [
 			"Nature Sense",
 			"Spontanteous Casting",
 			"Resist Nature's Lore",
-			"A Thousand Faces "
+			"A Thousand Faces"
 		],
 		"short_description": "Restorers carefully tend to the health of both the environment and creatures in it.",
 		"description": [
@@ -1950,7 +1950,7 @@
 		"sources": [ "Ultimate Magic" ],
 		"replaces": "Venom Immunity",
 		"replace_array": [ "Venom Immunity" ],
-		"short_description": "A shaman with this focus calls upon the primeval dinosaur, the archaic terror that lingers as a hungering, atavistic stranger at the fringes of the ecosystem, a destroyer and despoiler whose coming other animals dread. ",
+		"short_description": "A shaman with this focus calls upon the primeval dinosaur, the archaic terror that lingers as a hungering, atavistic stranger at the fringes of the ecosystem, a destroyer and despoiler whose coming other animals dread.",
 		"description": [
 			"## Saurian Shaman",
 			"",
@@ -2051,7 +2051,7 @@
 			"A Thousand Faces",
 			"Venom Immunity"
 		],
-		"short_description": "A shaman with this totem calls upon the cunning serpent, the stealthy deceiver who draws the weak minded in and strikes while they are unaware. ",
+		"short_description": "A shaman with this totem calls upon the cunning serpent, the stealthy deceiver who draws the weak minded in and strikes while they are unaware.",
 		"description": [
 			"## Serpent Shaman",
 			"",
@@ -2110,7 +2110,7 @@
 			"Wild Shape",
 			"A Thousand Faces"
 		],
-		"short_description": "Using the same primal energy with which other druids assume animal forms, skinshapers can imitate some of the most dangerous beasts of all: humans and other humanoids. ",
+		"short_description": "Using the same primal energy with which other druids assume animal forms, skinshapers can imitate some of the most dangerous beasts of all: humans and other humanoids.",
 		"description": [
 			"## Skinshaper",
 			"",
@@ -2357,7 +2357,7 @@
 			"Resist Nature's Lure",
 			"A Thousand Faces"
 		],
-		"short_description": "Some druids eschew pleasant glades and groves and instead seek out dank marshes, misty bogs and heaths, and trackless swamps as the place they call home and watch over with care, finding beauty and life in abundance in places few others would willingly enter. ",
+		"short_description": "Some druids eschew pleasant glades and groves and instead seek out dank marshes, misty bogs and heaths, and trackless swamps as the place they call home and watch over with care, finding beauty and life in abundance in places few others would willingly enter.",
 		"description": [
 			"## Swamp Druid",
 			"",
@@ -2561,7 +2561,7 @@
 			"Wild Empathy",
 			"Wild Shape"
 		],
-		"short_description": "(Elf and Vine Leshy Only) Some elves turn to the timeless growth of nature for solace, finding allies among the great trees themselves, and even leading the forest's plants into combat. ",
+		"short_description": "(Elf and Vine Leshy Only) Some elves turn to the timeless growth of nature for solace, finding allies among the great trees themselves, and even leading the forest's plants into combat.",
 		"description": [
 			"## Treesinger",
 			"",
@@ -2625,7 +2625,7 @@
 			"Resist Nature's Lure",
 			"Venom Immunity"
 		],
-		"short_description": "(Troll Only) Troll furies combine a druid's love of natural balance with a single-minded devotion to the welfare of the troll tribe. ",
+		"short_description": "(Troll Only) Troll furies combine a druid's love of natural balance with a single-minded devotion to the welfare of the troll tribe.",
 		"description": [
 			"## Troll Fury",
 			"",
@@ -2686,7 +2686,7 @@
 			"Resist Nature's Lure",
 			"Venom Immunity"
 		],
-		"short_description": "While many druids keep to the wilderness, some make their way within settlements, communing with the animals and vermin who live there and speaking for the nature that runs rampant in civilization's very cradle. ",
+		"short_description": "While many druids keep to the wilderness, some make their way within settlements, communing with the animals and vermin who live there and speaking for the nature that runs rampant in civilization's very cradle.",
 		"description": [
 			"## Urban Druid",
 			"",
@@ -2712,10 +2712,10 @@
 		"name": "Urushiol",
 		"file": "archetypedisplay5310.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Nature Bond; Resist Nature's Lure ",
+		"replaces": "Nature Bond; Resist Nature's Lure",
 		"replace_array": [
 			"Nature Bond",
-			"Resist Nature's Lure "
+			"Resist Nature's Lure"
 		],
 		"short_description": "When an urushiol druid forms a bond with nature, it takes a vastly different form than for most druids. His body becomes increasingly toxic, allowing him to secrete a deadly poison through his pores.",
 		"description": [
@@ -2814,7 +2814,7 @@
 			"Venom Immunity",
 			"Timeless Body"
 		],
-		"short_description": "While all druids traverse the wilderness with ease, the world walkers take it upon themselves to travel the entire world. ",
+		"short_description": "While all druids traverse the wilderness with ease, the world walkers take it upon themselves to travel the entire world.",
 		"description": [
 			"## World Walker",
 			"",

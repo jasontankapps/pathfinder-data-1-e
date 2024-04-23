@@ -3,7 +3,7 @@
 		"name": "Abendego Diver",
 		"file": "archetypedisplay31d7.html",
 		"sources": [ "Elemental Master's Handbook" ],
-		"replaces": "Weapon and Armor Proficiencies; Track; Wild Empathy; Favored Terrain; Woodland Stride; Swift Tracker; Master Hunter ",
+		"replaces": "Weapon and Armor Proficiencies; Track; Wild Empathy; Favored Terrain; Woodland Stride; Swift Tracker; Master Hunter",
 		"replace_array": [
 			"Weapon and Armor Proficiencies",
 			"Track",
@@ -11,7 +11,7 @@
 			"Favored Terrain",
 			"Woodland Stride",
 			"Swift Tracker",
-			"Master Hunter "
+			"Master Hunter"
 		],
 		"short_description": "Named for the vicious and unending storm in the southern Arcadian Ocean, Abendego divers have pushed their bodies to their limits, holding their breath to expand their lung capacity and swimming until ocean travel is second nature to them.",
 		"description": [
@@ -59,7 +59,7 @@
 			"2nd, 3rd, 4th Favored Enemies",
 			"Master Hunter"
 		],
-		"short_description": "Though regular outdoorsmen might suffice in many cases, some large forces look to battle scouts to keep the body of their troops safe and prepared for the terrain and whatever dangers that terrain hides. ",
+		"short_description": "Though regular outdoorsmen might suffice in many cases, some large forces look to battle scouts to keep the body of their troops safe and prepared for the terrain and whatever dangers that terrain hides.",
 		"description": [
 			"## Battle Scout",
 			"",
@@ -93,7 +93,7 @@
 			"6th-level Combat Style Feat",
 			"Camouflage"
 		],
-		"short_description": "Some rangers, particularly those in primitive lands or who were raised by animals, have unusually strong bonds with animals. ",
+		"short_description": "Some rangers, particularly those in primitive lands or who were raised by animals, have unusually strong bonds with animals.",
 		"description": [
 			"## Beast Master",
 			"",
@@ -115,7 +115,7 @@
 		"name": "Blightwarden",
 		"file": "archetypedisplay9e79.html",
 		"sources": [ "People of the Wastes" ],
-		"replaces": "Favored Enemy; Wild Empathy; 1st Favored Terrain; Endurance; ",
+		"replaces": "Favored Enemy; Wild Empathy; 1st Favored Terrain; Endurance;",
 		"replace_array": [
 			"Favored Enemy",
 			"Wild Empathy",
@@ -396,7 +396,7 @@
 			"Camouflage",
 			"Hide in Plain Sight"
 		],
-		"short_description": "Some rangers devote their lives to the woods, becoming hunters, protectors, and wilderness guides among its diverse terrain types. ",
+		"short_description": "Some rangers devote their lives to the woods, becoming hunters, protectors, and wilderness guides among its diverse terrain types.",
 		"description": [
 			"## Deep Walker",
 			"",
@@ -675,7 +675,7 @@
 			"Hunter's Bond",
 			"6th-level Combat Style Feat"
 		],
-		"short_description": "Rangers have always enjoyed a special bond with a specific animal, but the falconer takes this bond to a deeper level. ",
+		"short_description": "Rangers have always enjoyed a special bond with a specific animal, but the falconer takes this bond to a deeper level.",
 		"description": [
 			"## Falconer",
 			"",
@@ -748,14 +748,14 @@
 		"name": "Fortune-Finder",
 		"file": "archetypedisplayb8b2.html",
 		"sources": [ "Blood of the Beast" ],
-		"replaces": "Track; Hunter's Bond; Woodland Stride; Quarry; Improved Quarry; Master Hunter ",
+		"replaces": "Track; Hunter's Bond; Woodland Stride; Quarry; Improved Quarry; Master Hunter",
 		"replace_array": [
 			"Track",
 			"Hunter's Bond",
 			"Woodland Stride",
 			"Quarry",
 			"Improved Quarry",
-			"Master Hunter "
+			"Master Hunter"
 		],
 		"short_description": "Vanaras often leave home to seek fortune and sate their curiosity regarding the mysterious lands that lie beyond their native territories. The most skilled of these thrillseekers are called ba-sadhaks, or fortune-finders.",
 		"description": [
@@ -899,7 +899,7 @@
 			"Improved Quarry",
 			"Improved Evasion"
 		],
-		"short_description": "Many rangers are loners, but some choose to use their familiarity with the land to guide others safely through the wilderness. ",
+		"short_description": "Many rangers are loners, but some choose to use their familiarity with the land to guide others safely through the wilderness.",
 		"description": [
 			"## Guide",
 			"",
@@ -1006,7 +1006,7 @@
 			"Camouflage",
 			"Hide in Plain Sight"
 		],
-		"short_description": "Rangers of the plains use horses or other riding beasts to hunt their lands, forging a near-mystical relationship with their mounts. ",
+		"short_description": "Rangers of the plains use horses or other riding beasts to hunt their lands, forging a near-mystical relationship with their mounts.",
 		"description": [
 			"## Horse Lord",
 			"",
@@ -1289,14 +1289,14 @@
 		"name": "Planar Scout",
 		"file": "archetypedisplaydaed.html",
 		"sources": [ "Planar Adventures" ],
-		"replaces": "Class Skills; Wild Empathy; Favored Terrain; Hunter's Bond; Evasion; Improved Evasion ",
+		"replaces": "Class Skills; Wild Empathy; Favored Terrain; Hunter's Bond; Evasion; Improved Evasion",
 		"replace_array": [
 			"Class Skills",
 			"Wild Empathy",
 			"Favored Terrain",
 			"Hunter's Bond",
 			"Evasion",
-			"Improved Evasion "
+			"Improved Evasion"
 		],
 		"short_description": "Planar scouts are rangers specializing in traversing the planes-and surviving their journeys.",
 		"description": [
@@ -1354,13 +1354,13 @@
 		"name": "Poison Darter",
 		"file": "archetypedisplaya4be.html",
 		"sources": [ "Blood of the Beast" ],
-		"replaces": "Favored Enemy; Wild Empathy; Combat Style; Hunter's Bond; Master Hunter ",
+		"replaces": "Favored Enemy; Wild Empathy; Combat Style; Hunter's Bond; Master Hunter",
 		"replace_array": [
 			"Favored Enemy",
 			"Wild Empathy",
 			"Combat Style",
 			"Hunter's Bond",
-			"Master Hunter "
+			"Master Hunter"
 		],
 		"short_description": "In dense jungles, foliage and tight spaces hinder all but the most deceptively humble weapons: blowguns and poison.",
 		"description": [
@@ -1513,14 +1513,14 @@
 		"name": "Sentinel",
 		"file": "archetypedisplaybc69.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Wild Empathy; Hunter's Bond; Woodland Stride; 6th-level Combat Style Feat; Quarry; Improved Quarry ",
+		"replaces": "Wild Empathy; Hunter's Bond; Woodland Stride; 6th-level Combat Style Feat; Quarry; Improved Quarry",
 		"replace_array": [
 			"Wild Empathy",
 			"Hunter's Bond",
 			"Woodland Stride",
 			"6th-level Combat Style Feat",
 			"Quarry",
-			"Improved Quarry "
+			"Improved Quarry"
 		],
 		"short_description": "A sentinel specializes in heightening all of her senses to expose spies and those who work for opposing factions, rooting out all who attempt to slip past her evervigilant watch.",
 		"description": [
@@ -1562,7 +1562,7 @@
 			"Camouflage",
 			"Master Hunter"
 		],
-		"short_description": "Most rangers venture into the wilderness, but there are some who let the wilderness seep into them. ",
+		"short_description": "Most rangers venture into the wilderness, but there are some who let the wilderness seep into them.",
 		"description": [
 			"## Shapeshifter",
 			"",
@@ -1612,7 +1612,7 @@
 		"sources": [ "Advanced Player's Guide" ],
 		"replaces": "Spells",
 		"replace_array": [ "Spells" ],
-		"short_description": "Many rangers rely on spells, but there are some who eschew aid from divine powers for their own reasons. ",
+		"short_description": "Many rangers rely on spells, but there are some who eschew aid from divine powers for their own reasons.",
 		"description": [
 			"## Skirmisher",
 			"",
@@ -1685,7 +1685,7 @@
 			"Hunter's Bond",
 			"Camouflage"
 		],
-		"short_description": "Some rangers nurture a connection with the spirits that reside in all things. ",
+		"short_description": "Some rangers nurture a connection with the spirits that reside in all things.",
 		"description": [
 			"## Spirit Ranger",
 			"",
@@ -1978,7 +1978,7 @@
 			"Quarry",
 			"Improved Quarry"
 		],
-		"short_description": "The toxophilite emulates the sharpshooting rangers of legend, who could pin a fly to the wall with a single shot or split one arrow with another. ",
+		"short_description": "The toxophilite emulates the sharpshooting rangers of legend, who could pin a fly to the wall with a single shot or split one arrow with another.",
 		"description": [
 			"## Toxophilite",
 			"",
@@ -2160,7 +2160,7 @@
 			"Woodland Stride",
 			"Swift Tracker"
 		],
-		"short_description": "(Merfolk Only) The wave warden patrols beneath the sea, preserving the safety and secrets of merfolk communities. ",
+		"short_description": "(Merfolk Only) The wave warden patrols beneath the sea, preserving the safety and secrets of merfolk communities.",
 		"description": [
 			"## Wave Warden",
 			"",
@@ -2215,7 +2215,7 @@
 			"Camouflage",
 			"Improved Quarry"
 		],
-		"short_description": "(Half-Elf Only) The isolation that some half-elves feel leads them to live a life of isolation amid the wild places of the world. ",
+		"short_description": "(Half-Elf Only) The isolation that some half-elves feel leads them to live a life of isolation amid the wild places of the world.",
 		"description": [
 			"## Wild Shadow",
 			"",
@@ -2292,7 +2292,7 @@
 			"2nd-level Combat Style Feat",
 			"Hunter's Bond"
 		],
-		"short_description": "The wild stalker forsakes the bonds of community and lives in the trackless wilds far from others of his kind, or perhaps grew up there, never knowing of civilization as anything more than his enemy. ",
+		"short_description": "The wild stalker forsakes the bonds of community and lives in the trackless wilds far from others of his kind, or perhaps grew up there, never knowing of civilization as anything more than his enemy.",
 		"description": [
 			"## Wild Stalker",
 			"",
@@ -2362,13 +2362,13 @@
 		"name": "Wilderness Medic",
 		"file": "archetypedisplayf256.html",
 		"sources": [ "Healer's Handbook" ],
-		"replaces": "Wild Empathy; Endurance; Evasion; Hunter's Bond; Improved Evasion ",
+		"replaces": "Wild Empathy; Endurance; Evasion; Hunter's Bond; Improved Evasion",
 		"replace_array": [
 			"Wild Empathy",
 			"Endurance",
 			"Evasion",
 			"Hunter's Bond",
-			"Improved Evasion "
+			"Improved Evasion"
 		],
 		"short_description": "Wilderness medics know a variety of ways they can supply and preserve a rebellion or similar movement without requiring any resources that might make them easier to track down.",
 		"description": [

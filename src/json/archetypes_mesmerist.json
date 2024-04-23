@@ -43,7 +43,7 @@
 			"Hypnotic Stare",
 			"Mental Potency"
 		],
-		"short_description": "An autohypnotist has incredibly powerful psychic abilities that he can't entirely control. ",
+		"short_description": "An autohypnotist has incredibly powerful psychic abilities that he can't entirely control.",
 		"description": [
 			"## Autohypnotist",
 			"",
@@ -195,7 +195,7 @@
 		"name": "Enigma",
 		"file": "archetypedisplayefa6.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Hypnotic Stare; Consummate Liar; Painful Stare; Touch Treatment; Manifold Tricks; Glib Lie; Rule Minds ",
+		"replaces": "Hypnotic Stare; Consummate Liar; Painful Stare; Touch Treatment; Manifold Tricks; Glib Lie; Rule Minds",
 		"replace_array": [
 			"Hypnotic Stare",
 			"Consummate Liar",
@@ -203,7 +203,7 @@
 			"Touch Treatment",
 			"Manifold Tricks",
 			"Glib Lie",
-			"Rule Minds "
+			"Rule Minds"
 		],
 		"short_description": "An enigma spends his life dedicated to developing psychic abilities that allow him to operate unnoticed.",
 		"description": [
@@ -245,13 +245,13 @@
 		"name": "Eyebiter",
 		"file": "archetypedisplay3f09.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Consummate Liar; 1st-level Mesmerist Trick; Touch Treatment; Mental Potency; Glib Lie ",
+		"replaces": "Consummate Liar; 1st-level Mesmerist Trick; Touch Treatment; Mental Potency; Glib Lie",
 		"replace_array": [
 			"Consummate Liar",
 			"1st-level Mesmerist Trick",
 			"Touch Treatment",
 			"Mental Potency",
-			"Glib Lie "
+			"Glib Lie"
 		],
 		"short_description": "An eyebiter's eyes become so infused with psychic might that they can leave the eyebiter's body and move about on their own.",
 		"description": [
@@ -291,13 +291,13 @@
 		"name": "Fey Trickster",
 		"file": "archetypedisplayf973.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Spellcasting; Towering Ego; Touch Treatment; Rule Minds ",
+		"replaces": "Class Skills; Spellcasting; Towering Ego; Touch Treatment; Rule Minds",
 		"replace_array": [
 			"Class Skills",
 			"Spellcasting",
 			"Towering Ego",
 			"Touch Treatment",
-			"Rule Minds "
+			"Rule Minds"
 		],
 		"short_description": "Most mesmerists draw psychic power from the Astral Plane, but a few gain their powers in an unusual way: from a brush with the fey.",
 		"description": [
@@ -385,7 +385,7 @@
 		"name": "Hate-Monger",
 		"file": "archetypedisplay3da8.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Alignment; Consummate Liar; Touch Treatment; Mental Potency; Manifold Tricks; 7th-level Bold Stare; Glib Lie ",
+		"replaces": "Alignment; Consummate Liar; Touch Treatment; Mental Potency; Manifold Tricks; 7th-level Bold Stare; Glib Lie",
 		"replace_array": [
 			"Alignment",
 			"Consummate Liar",
@@ -393,7 +393,7 @@
 			"Mental Potency",
 			"Manifold Tricks",
 			"7th-level Bold Stare",
-			"Glib Lie "
+			"Glib Lie"
 		],
 		"short_description": "Hate-mongers are xenophobic and judgmental rabblerousers who whip up mobs against enemies real or imagined.",
 		"description": [

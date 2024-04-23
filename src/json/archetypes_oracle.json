@@ -174,7 +174,7 @@
 			"Mystery Class Skills",
 			"Mystery Bonus Spells"
 		],
-		"short_description": "All oracles are cursed to some degree, but some oracles bear an even heavier burden. ",
+		"short_description": "All oracles are cursed to some degree, but some oracles bear an even heavier burden.",
 		"description": [
 			"## Dual-Cursed Oracle",
 			"",
@@ -224,10 +224,11 @@
 			"",
 			"**Elemental Form (Su):** At 11th level, you gain the air, earth, fire, or water subtype and an associated ability:",
 			"",
-			"**- Air:** Fly speed of 30 feet with perfect maneuverability.",
-			"**- Earth:** Tremorsense with a range of 30 feet.",
-			"**- Fire:** Immunity to fire and vulnerability to cold.",
-			"**- Water:** Swim speed of 30 feet and the ability to breathe underwater.",
+			"- *Air:* Fly speed of 30 feet with perfect maneuverability.",
+			"- *Earth:* Tremorsense with a range of 30 feet.",
+			"- *Fire:* Immunity to fire and vulnerability to cold.",
+			"- *Water:* Swim speed of 30 feet and the ability to breathe underwater.",
+			"",
 			"**Elemental Revelation (Su):** At 20th level, you fully harness the power of the elements. You can apply the Elemental Spell metamagic feat to spells you cast without increasing the level or casting time. You can choose acid, cold, electricity, or fire each time you use this ability. Whenever you score a critical hit with an attack that deals energy damage, you ignore the target's energy resistance (if any). If you score such a critical hit against a creature that has immunity to the energy type you are attacking with, the creature takes half damage from the attack.",
 			"",
 			"This replaces final revelation."
@@ -277,7 +278,7 @@
 			"4th, 8th, 12th, 16th-level Bonus Spells",
 			"1st, 7th-level Revelation"
 		],
-		"short_description": "A hermit is a recluse who gained her oracular powers from isolation in a deep desert, on a mountain peak, or in another secluded location. ",
+		"short_description": "A hermit is a recluse who gained her oracular powers from isolation in a deep desert, on a mountain peak, or in another secluded location.",
 		"description": [
 			"## Hermit",
 			"",
@@ -374,13 +375,13 @@
 		"name": "Ocean's Echo",
 		"file": "archetypedisplay30ab.html",
 		"sources": [ "Blood of the Sea" ],
-		"replaces": "Mystery Bonus Skills; 4th, 8th, 10th, 12th, 14th-level Bonus Spells; 1st, 3rd, 15th-level Revelation ",
+		"replaces": "Mystery Bonus Skills; 4th, 8th, 10th, 12th, 14th-level Bonus Spells; 1st, 3rd, 15th-level Revelation",
 		"replace_array": [
 			"Mystery Bonus Skills",
 			"4th, 8th, 10th, 12th, 14th-level Bonus Spells",
-			"1st, 3rd, 15th-level Revelation "
+			"1st, 3rd, 15th-level Revelation"
 		],
-		"short_description": "Although many merfolk claim deep connections to both art and the natural world, a rare few merfolk can manipulate the forces of nature and weave them into song. ",
+		"short_description": "Although many merfolk claim deep connections to both art and the natural world, a rare few merfolk can manipulate the forces of nature and weave them into song.",
 		"description": [
 			"## Ocean's Echo",
 			"",
@@ -404,10 +405,10 @@
 		"name": "Pei Zin Practitioner",
 		"file": "archetypedisplayfbd5.html",
 		"sources": [ "Healer's Handbook" ],
-		"replaces": "Mystery Class Skills; 1st-level Revelation ",
+		"replaces": "Mystery Class Skills; 1st-level Revelation",
 		"replace_array": [
 			"Mystery Class Skills",
-			"1st-level Revelation "
+			"1st-level Revelation"
 		],
 		"short_description": "In distant Tian Xia, herbalists practice an obscure alchemical art known as Pei Zin herbalism, which involves medicinal and restorative techniques that are used throughout much of that continent.",
 		"description": [
@@ -479,7 +480,7 @@
 			"Mystery Bonus Spells",
 			"1st-level Revelation"
 		],
-		"short_description": "Some oracles are possessed by spirits, demons, or similar beings. ",
+		"short_description": "Some oracles are possessed by spirits, demons, or similar beings.",
 		"description": [
 			"## Possessed Oracle",
 			"",
@@ -533,7 +534,7 @@
 			"Spellcasting",
 			"3rd, 7th, 11th-level Revelation"
 		],
-		"short_description": "(Aasimar Only) The purifier seeks out signs of possession or mind control that manifest from unwilling (and often unwitting) servants for fiendish corruptors and their mortal minions. ",
+		"short_description": "(Aasimar Only) The purifier seeks out signs of possession or mind control that manifest from unwilling (and often unwitting) servants for fiendish corruptors and their mortal minions.",
 		"description": [
 			"## Purifier",
 			"",
@@ -696,7 +697,7 @@
 			"7th-level Revelation",
 			"Final Revelation"
 		],
-		"short_description": "(Tengu Only) The shigenjo walks the path of enlightenment and transcendence by seeking oneness with the celestial spirits. ",
+		"short_description": "(Tengu Only) The shigenjo walks the path of enlightenment and transcendence by seeking oneness with the celestial spirits.",
 		"description": [
 			"## Shigenjo",
 			"",

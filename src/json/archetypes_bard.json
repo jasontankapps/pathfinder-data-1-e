@@ -11,7 +11,7 @@
 			"Suggestion",
 			"Mass Suggestion"
 		],
-		"short_description": "An animal speaker focuses not on the ears and minds of humans, but on the creatures of the wild and those in the underbellies of cities. ",
+		"short_description": "An animal speaker focuses not on the ears and minds of humans, but on the creatures of the wild and those in the underbellies of cities.",
 		"description": [
 			"## Animal Speaker",
 			"",
@@ -47,7 +47,7 @@
 			"Lore Master",
 			"Jack of all Trades"
 		],
-		"short_description": "A master of the martial applications of steel and spell, the arcane duelist blends both into a lethal combination. ",
+		"short_description": "A master of the martial applications of steel and spell, the arcane duelist blends both into a lethal combination.",
 		"description": [
 			"## Arcane Duelist",
 			"",
@@ -140,7 +140,7 @@
 			"Lore Master",
 			"Jack of all Trades"
 		],
-		"short_description": "Some bards greatly prefer academic pursuits to the drama (and sometimes melodrama) of their artistic brethren. ",
+		"short_description": "Some bards greatly prefer academic pursuits to the drama (and sometimes melodrama) of their artistic brethren.",
 		"description": [
 			"## Archivist",
 			"",
@@ -580,7 +580,7 @@
 			"Well-Versed",
 			"Lore Master"
 		],
-		"short_description": "Cultivators use music to promote plant growth and influence the behavior of plants both naturally and supernaturally. ",
+		"short_description": "Cultivators use music to promote plant growth and influence the behavior of plants both naturally and supernaturally.",
 		"description": [
 			"## Cultivator",
 			"",
@@ -722,7 +722,7 @@
 			"Soothing Performance",
 			"Deadly Performance"
 		],
-		"short_description": "Not all bards inspire others with their performances. Dervish dancers enter a near-mystical trance that allows them to push their bodies beyond normal limits. ",
+		"short_description": "Not all bards inspire others with their performances. Dervish dancers enter a near-mystical trance that allows them to push their bodies beyond normal limits.",
 		"description": [
 			"## Dervish Dancer",
 			"",
@@ -1336,7 +1336,7 @@
 			"Well-Versed",
 			"Dirge of Doom"
 		],
-		"short_description": "Instead of using song and dance, a fortune-teller influences people by divining their fate. ",
+		"short_description": "Instead of using song and dance, a fortune-teller influences people by divining their fate.",
 		"description": [
 			"## Fortune-Teller",
 			"",
@@ -1383,7 +1383,7 @@
 			"Weapon/Armor Proficiencies",
 			"Bardic Knowledge"
 		],
-		"short_description": "Specially trained entertainers called geisha are praised for their appearance and skill at conversation, music, dancing, singing, poetry, and calligraphy. ",
+		"short_description": "Specially trained entertainers called geisha are praised for their appearance and skill at conversation, music, dancing, singing, poetry, and calligraphy.",
 		"description": [
 			"## Geisha",
 			"",
@@ -1486,7 +1486,7 @@
 		"name": "Impervious Messenger",
 		"file": "archetypedisplay4b10.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Fascinate; Suggestion; Mass Suggestion; Dirge of Doom; Frightening Tune; Bardic Knowledge; Well-Versed ",
+		"replaces": "Fascinate; Suggestion; Mass Suggestion; Dirge of Doom; Frightening Tune; Bardic Knowledge; Well-Versed",
 		"replace_array": [
 			"Fascinate",
 			"Suggestion",
@@ -1494,7 +1494,7 @@
 			"Dirge of Doom",
 			"Frightening Tune",
 			"Bardic Knowledge",
-			"Well-Versed "
+			"Well-Versed"
 		],
 		"short_description": "The impervious messenger is capable of harnessing the unique qualities of bardic magic to keep, transport, and communicate the most precious of secrets and messages.",
 		"description": [
@@ -1535,7 +1535,7 @@
 			"Well-Versed",
 			"Soothing Performance"
 		],
-		"short_description": "Jugglers are masters of manipulating objects, most famously by keeping multiple objects in the air simultaneously. ",
+		"short_description": "Jugglers are masters of manipulating objects, most famously by keeping multiple objects in the air simultaneously.",
 		"description": [
 			"## Juggler",
 			"",
@@ -1650,7 +1650,7 @@
 			"Lore Master",
 			"Jack of all Trades"
 		],
-		"short_description": "A magician dabbles in performance, but sees it as a means to tap into universal energies and channel them. ",
+		"short_description": "A magician dabbles in performance, but sees it as a means to tap into universal energies and channel them.",
 		"description": [
 			"## Magician",
 			"",
@@ -1682,7 +1682,7 @@
 		"name": "Masked Performer",
 		"file": "archetypedisplayb548.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Bardic Knowledge; Countersong; Inspire Competence; Surggestion; Mass Suggestion; Versatile Performance; Lore Master ",
+		"replaces": "Bardic Knowledge; Countersong; Inspire Competence; Surggestion; Mass Suggestion; Versatile Performance; Lore Master",
 		"replace_array": [
 			"Bardic Knowledge",
 			"Countersong",
@@ -1690,7 +1690,7 @@
 			"Surggestion",
 			"Mass Suggestion",
 			"Versatile Performance",
-			"Lore Master "
+			"Lore Master"
 		],
 		"short_description": "The masked performer takes on the persona represented by the likeness she wears.",
 		"description": [
@@ -2191,7 +2191,7 @@
 			"Inspire Courage",
 			"Inspire Competence"
 		],
-		"short_description": "(Wayang Only) A shadow puppeteer invokes amazing and terrifying shadow puppet shows, producing supernatural effects by creating and manipulating shadow. ",
+		"short_description": "(Wayang Only) A shadow puppeteer invokes amazing and terrifying shadow puppet shows, producing supernatural effects by creating and manipulating shadow.",
 		"description": [
 			"## Shadow Puppeteer",
 			"",
@@ -2360,7 +2360,7 @@
 			"Inspire Competence",
 			"Suggestion"
 		],
-		"short_description": "They say that words can cut deeper than any blade, and the sound striker proves this true. ",
+		"short_description": "They say that words can cut deeper than any blade, and the sound striker proves this true.",
 		"description": [
 			"## Sound Striker",
 			"",
@@ -2543,7 +2543,7 @@
 			"Dirge of Doom",
 			"Frightening Tune"
 		],
-		"short_description": "Thundercallers bear the knowledge of the ancients, wielding it like a weapon to protect the land for which they care so deeply. ",
+		"short_description": "Thundercallers bear the knowledge of the ancients, wielding it like a weapon to protect the land for which they care so deeply.",
 		"description": [
 			"## Thundercaller",
 			"",

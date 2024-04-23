@@ -448,7 +448,7 @@
 		"name": "Symbol Striker",
 		"file": "archetypedisplay2fee.html",
 		"sources": [ "Heroes from the Fringe" ],
-		"replaces": "Class Skills; Fast Movement; 6th, 9th, 12th, 18th-level Bloodline Feats; ",
+		"replaces": "Class Skills; Fast Movement; 6th, 9th, 12th, 18th-level Bloodline Feats;",
 		"replace_array": [
 			"Class Skills",
 			"Fast Movement",

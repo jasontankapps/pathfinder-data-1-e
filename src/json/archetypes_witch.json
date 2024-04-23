@@ -373,10 +373,10 @@
 		"name": "Gingerbread Witch",
 		"file": "archetypedisplay35c0.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Familiar; 1st, 4th, 8th, 10th, 12th, 16th-level Hex ",
+		"replaces": "Familiar; 1st, 4th, 8th, 10th, 12th, 16th-level Hex",
 		"replace_array": [
 			"Familiar",
-			"1st, 4th, 8th, 10th, 12th, 16th-level Hex "
+			"1st, 4th, 8th, 10th, 12th, 16th-level Hex"
 		],
 		"short_description": "A sweet tooth lures the gingerbread witch's victims to doom.",
 		"description": [
@@ -426,7 +426,7 @@
 			"4th-level Hex",
 			"8th-level Hex"
 		],
-		"short_description": "Having much in common with necromancers, the gravewalker is obsessed with the occult manipulations of the dead, particularly mindless undead such as zombies. ",
+		"short_description": "Having much in common with necromancers, the gravewalker is obsessed with the occult manipulations of the dead, particularly mindless undead such as zombies.",
 		"description": [
 			"## Gravewalker",
 			"",
@@ -488,7 +488,7 @@
 		"replace_array": [
 			"1st, 2nd, 4th, 8th, 10th, 12th, 14th, and 20th-level Hexes"
 		],
-		"short_description": "Whether a changeling in the process of succumbing to her mother's call, a witch cursed by a hag to become her instrument of torment, a vain and petty witch overeager for power, or some other unfortunate soul, a hagbound witch finds its soul has been infected by a hag's spite and powerful, corrupt arcane magic. ",
+		"short_description": "Whether a changeling in the process of succumbing to her mother's call, a witch cursed by a hag to become her instrument of torment, a vain and petty witch overeager for power, or some other unfortunate soul, a hagbound witch finds its soul has been infected by a hag's spite and powerful, corrupt arcane magic.",
 		"description": [
 			"## Hagbound",
 			"",
@@ -551,7 +551,7 @@
 			"4th-level Hex",
 			"8th-level Hex"
 		],
-		"short_description": "Among witches, there are those who devote themselves to the care of others and restrict their practices to the healing arts. ",
+		"short_description": "Among witches, there are those who devote themselves to the care of others and restrict their practices to the healing arts.",
 		"description": [
 			"## Hedge Witch",
 			"",
@@ -694,7 +694,7 @@
 			"Class Skills",
 			"2nd, 6th, 10th-level Hex"
 		],
-		"short_description": " Jinx witches specialize in calling down subtle misfortunes and deceiving enemies and allies alike. While they lack any ability to truly eliminate bad luck, they are uniquely gifted at making others believe otherwise. ",
+		"short_description": " Jinx witches specialize in calling down subtle misfortunes and deceiving enemies and allies alike. While they lack any ability to truly eliminate bad luck, they are uniquely gifted at making others believe otherwise.",
 		"description": [
 			"## Jinx Witch",
 			"",
@@ -759,7 +759,7 @@
 			"Patron",
 			"2nd, 6th, 20th-level Hexes"
 		],
-		"short_description": "Mediums tap into the spiritual power of those who have yet to find their final rest. Their ability to interact with these souls allows mediums to learn about the physical world through the experiences of those who came before them. ",
+		"short_description": "Mediums tap into the spiritual power of those who have yet to find their final rest. Their ability to interact with these souls allows mediums to learn about the physical world through the experiences of those who came before them.",
 		"description": [
 			"## Medium",
 			"",
@@ -1042,7 +1042,7 @@
 			"Familiar",
 			"1st-level Hex"
 		],
-		"short_description": "(Orc Only) The scarred witch doctor draws power from her ability to endure pain and suffering. ",
+		"short_description": "(Orc Only) The scarred witch doctor draws power from her ability to endure pain and suffering.",
 		"description": [
 			"## Scarred Witch Doctor",
 			"",
@@ -1079,7 +1079,7 @@
 			"Patron Spells",
 			"1st-level Hex"
 		],
-		"short_description": "A sea witch's affinities are tied to the vast oceans and the rolling waves. ",
+		"short_description": "A sea witch's affinities are tied to the vast oceans and the rolling waves.",
 		"description": [
 			"## Sea Witch",
 			"",
@@ -1148,7 +1148,7 @@
 			"Key Ability Score",
 			"1st, 6th, 8th-level Hex"
 		],
-		"short_description": "These charismatic witches, often devotees of the Green Mother, rely on their otherworldly charms to achieve their aims. ",
+		"short_description": "These charismatic witches, often devotees of the Green Mother, rely on their otherworldly charms to achieve their aims.",
 		"description": [
 			"## Seducer",
 			"",
@@ -1208,11 +1208,11 @@
 		"name": "Tatterdemalion",
 		"file": "archetypedisplaye0de.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Weapon Proficiencies; Cantrips; 1st, 4th, 8th, 12th, 16th-level Hex ",
+		"replaces": "Weapon Proficiencies; Cantrips; 1st, 4th, 8th, 12th, 16th-level Hex",
 		"replace_array": [
 			"Weapon Proficiencies",
 			"Cantrips",
-			"1st, 4th, 8th, 12th, 16th-level Hex "
+			"1st, 4th, 8th, 12th, 16th-level Hex"
 		],
 		"short_description": "Some witches can bend the warp and weft of fabric and thread.",
 		"description": [
@@ -1423,7 +1423,7 @@
 		"replace_array": [
 			"Spells per Day"
 		],
-		"short_description": "For reasons known only to them, witch-watchers offer protection to nobles across Golarion. ",
+		"short_description": "For reasons known only to them, witch-watchers offer protection to nobles across Golarion.",
 		"description": [
 			"## Witch-Watcher",
 			"",

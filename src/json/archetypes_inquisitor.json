@@ -38,14 +38,14 @@
 		"name": "Cloaked Wolf",
 		"file": "archetypedisplayccc3.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Stern Gaze; Cunning Initiative; Monster Lore; Solo Tactics; Teamwork Feats ",
+		"replaces": "Class Skills; Stern Gaze; Cunning Initiative; Monster Lore; Solo Tactics; Teamwork Feats",
 		"replace_array": [
 			"Class Skills",
 			"Stern Gaze",
 			"Cunning Initiative",
 			"Monster Lore",
 			"Solo Tactics",
-			"Teamwork Feats "
+			"Teamwork Feats"
 		],
 		"short_description": "Some inquisitors are adept at appearing harmless until they throw off their unassuming facades and take their enemies by surprise.",
 		"description": [
@@ -118,7 +118,7 @@
 			"Greater Bane",
 			"Third Judgment"
 		],
-		"short_description": "(Dwarf Only) The gruff traditionalism of most dwarves finds its apex in those who adhere to a strict orthodoxy rooted in ancient principles and practices and who are not amenable whatsoever to change or innovation. ",
+		"short_description": "(Dwarf Only) The gruff traditionalism of most dwarves finds its apex in those who adhere to a strict orthodoxy rooted in ancient principles and practices and who are not amenable whatsoever to change or innovation.",
 		"description": [
 			"## Exarch",
 			"",
@@ -207,11 +207,11 @@
 		"name": "Faith Hunter",
 		"file": "archetypedisplay3ec8.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Domain; Justice, Destruction Judgement; Detect Alignment ",
+		"replaces": "Domain; Justice, Destruction Judgement; Detect Alignment",
 		"replace_array": [
 			"Domain",
 			"Justice, Destruction Judgement",
-			"Detect Alignment "
+			"Detect Alignment"
 		],
 		"short_description": "Certain relentless inquisitors burn with special hatred for an enemy of specific convictions, and they stop at nothing when obsessively hunting these foes down.",
 		"description": [
@@ -306,7 +306,7 @@
 		"name": "Hexenhammer",
 		"file": "archetypedisplay21f7.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Monster Lore; Stern Gaze; Domain; Cunning Initiative; Teamwork Feats; Solo Tactics; Spellcasting ",
+		"replaces": "Monster Lore; Stern Gaze; Domain; Cunning Initiative; Teamwork Feats; Solo Tactics; Spellcasting",
 		"replace_array": [
 			"Monster Lore",
 			"Stern Gaze",
@@ -314,7 +314,7 @@
 			"Cunning Initiative",
 			"Teamwork Feats",
 			"Solo Tactics",
-			"Spellcasting "
+			"Spellcasting"
 		],
 		"short_description": "Hexenhammers learn to use the hexes and some spells of witches, but must pay the price for dealing with supernatural powers, as they slip ever closer to the evil they seek to destroy.",
 		"description": [
@@ -551,7 +551,7 @@
 		"name": "Living Grimoire",
 		"file": "archetypedisplay6fe2.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Monster Lore; Spellcasting; Cunning Initiative; Orisons; Judgement; Bane; Greater Bane; Second Judgement; Third Judgement; True Judgement ",
+		"replaces": "Monster Lore; Spellcasting; Cunning Initiative; Orisons; Judgement; Bane; Greater Bane; Second Judgement; Third Judgement; True Judgement",
 		"replace_array": [
 			"Monster Lore",
 			"Spellcasting",
@@ -562,7 +562,7 @@
 			"Greater Bane",
 			"Second Judgement",
 			"Third Judgement",
-			"True Judgement "
+			"True Judgement"
 		],
 		"short_description": "The living grimoire literally wields the sacred word of his deity, using his holy tome to smite the foes of his god with divine might.",
 		"description": [
@@ -674,7 +674,7 @@
 		"sources": [ "Ultimate Magic" ],
 		"replaces": "Solo Tactics",
 		"replace_array": [ "Solo Tactics" ],
-		"short_description": "Some inquisitors wander the land to spread the true word of their faith. ",
+		"short_description": "Some inquisitors wander the land to spread the true word of their faith.",
 		"description": [
 			"## Preacher",
 			"",
@@ -835,6 +835,7 @@
 			"- Correct (if the hunch is the exact truth, such as if a particular individual is responsible for a crime, or if a particular organization is behind a series of events).",
 			"- Incorrect (if the hunch is entirely off base, such as if a suspected individual had nothing to do with a crime, or a suspected organization had no interest or hand in a series of events).",
 			"- On the right track (if the hunch is partially correct, such as if a suspected individual participated in a criminal conspiracy or had foreknowledge of the crime in question, or if a suspected organization directly profited from and knew about but did not entirely orchestrate a series of events).",
+			"",
 			"This replaces the teamwork feat granted at 6th level.",
 			"",
 			"**Greater Detect Magic (Sp):** At 12th level, a royal accuser can use greater detect magic (Ultimate Intrigue 212) at will.",
@@ -922,7 +923,7 @@
 			"Greater Bane",
 			"Exploit Weakness"
 		],
-		"short_description": "Recognizing that torture is a poor method of securing truthful intelligence, secret seekers instead prefer magical means of inquiry. ",
+		"short_description": "Recognizing that torture is a poor method of securing truthful intelligence, secret seekers instead prefer magical means of inquiry.",
 		"description": [
 			"## Secret Seeker",
 			"",
@@ -954,7 +955,7 @@
 			"6th-level Teamwork Feat",
 			"Exploit Weakness"
 		],
-		"short_description": "There is a sect of inquisitors in some religions that believes it is not enough to hunt the enemies of the church-one must also devour those enemies' sins. ",
+		"short_description": "There is a sect of inquisitors in some religions that believes it is not enough to hunt the enemies of the church-one must also devour those enemies' sins.",
 		"description": [
 			"## Sin Eater",
 			"",
@@ -1231,7 +1232,7 @@
 			"Monster Lore",
 			"Stalwart"
 		],
-		"short_description": "Masters of secretly gathering information to further their faith's ends, urban infiltrators excel at operating within an unfriendly society or infiltrating an enemy cult. ",
+		"short_description": "Masters of secretly gathering information to further their faith's ends, urban infiltrators excel at operating within an unfriendly society or infiltrating an enemy cult.",
 		"description": [
 			"## Urban Infiltrator",
 			"",
@@ -1333,7 +1334,7 @@
 			"Track",
 			"Exploit Weakness"
 		],
-		"short_description": "When pursuing justice for their faith, inquisitors sometimes hunt sorcerers, witches, wizards, and other practitioners of arcane magic-but especially witches, since their devotion to a patron is often seen as suspect by many religions. ",
+		"short_description": "When pursuing justice for their faith, inquisitors sometimes hunt sorcerers, witches, wizards, and other practitioners of arcane magic-but especially witches, since their devotion to a patron is often seen as suspect by many religions.",
 		"description": [
 			"## Witch Hunter",
 			"",

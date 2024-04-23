@@ -109,15 +109,15 @@
 		"name": "Courser",
 		"file": "archetypedisplay0014.html",
 		"sources": [ "Blood of the Beast" ],
-		"replaces": "Opportune Parry and Riposte; Nimble; Menacing Swordplay; Superior Feint; Bleeding Wound ",
+		"replaces": "Opportune Parry and Riposte; Nimble; Menacing Swordplay; Superior Feint; Bleeding Wound",
 		"replace_array": [
 			"Opportune Parry and Riposte",
 			"Nimble",
 			"Menacing Swordplay",
 			"Superior Feint",
-			"Bleeding Wound "
+			"Bleeding Wound"
 		],
-		"short_description": "Coursers move with grace and ease, racing across rooftops, dashing up walls, and clearing vast gaps between buildings. ",
+		"short_description": "Coursers move with grace and ease, racing across rooftops, dashing up walls, and clearing vast gaps between buildings.",
 		"description": [
 			"## Courser",
 			"",
@@ -197,7 +197,7 @@
 			"Menacing Swordplay",
 			"Dizzying Defense"
 		],
-		"short_description": "The dashing thief relies on swift swordplay, dazzling charm, and spirited courage to commit audacious acts of thievery. ",
+		"short_description": "The dashing thief relies on swift swordplay, dazzling charm, and spirited courage to commit audacious acts of thievery.",
 		"description": [
 			"## Dashing Thief",
 			"",
@@ -450,12 +450,12 @@
 		"name": "Noble Fencer",
 		"file": "archetypedisplay5a91.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Dodging Panache; Superior Feint; Subtle Blade; Charmed Life ",
+		"replaces": "Dodging Panache; Superior Feint; Subtle Blade; Charmed Life",
 		"replace_array": [
 			"Dodging Panache",
 			"Superior Feint",
 			"Subtle Blade",
-			"Charmed Life "
+			"Charmed Life"
 		],
 		"short_description": "Noble fencers use their quick wits and panache in both physical and social confrontations, and they rely on their training and discipline to emerge victorious, rather than merely trusting to luck.",
 		"description": [

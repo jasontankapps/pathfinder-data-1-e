@@ -29,7 +29,7 @@
 			"Cantrips",
 			"Arcane School"
 		],
-		"short_description": "To many wizards, the experimentation of the alchemist seems quaint, if not dangerous or frightening. A few wizards take up the secrets of the bomb, however, fusing alchemy with their already considerable magical power. ",
+		"short_description": "To many wizards, the experimentation of the alchemist seems quaint, if not dangerous or frightening. A few wizards take up the secrets of the bomb, however, fusing alchemy with their already considerable magical power.",
 		"description": [
 			"## Arcane Bomber",
 			"",
@@ -288,13 +288,13 @@
 		"name": "Elder Mythos Scholar",
 		"file": "archetypedisplay2b14.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Arcane Bond; 1st, 8th-level Arcane School Ability; Spellbook; Scribe Scroll; 5th, 10th-level Bonus feats ",
+		"replaces": "Arcane Bond; 1st, 8th-level Arcane School Ability; Spellbook; Scribe Scroll; 5th, 10th-level Bonus feats",
 		"replace_array": [
 			"Arcane Bond",
 			"1st, 8th-level Arcane School Ability",
 			"Spellbook",
 			"Scribe Scroll",
-			"5th, 10th-level Bonus feats "
+			"5th, 10th-level Bonus feats"
 		],
 		"short_description": "Elder Mythos scholars risk their sanity to seek knowledge of alien and awful entities from beyond the stars.",
 		"description": [
@@ -761,7 +761,7 @@
 			"Cantrips",
 			"Arcane School"
 		],
-		"short_description": "The siege mage combines his arcane mastery with a supernatural link to siege engines. ",
+		"short_description": "The siege mage combines his arcane mastery with a supernatural link to siege engines.",
 		"description": [
 			"## Siege Mage",
 			"",
@@ -1028,7 +1028,7 @@
 			"Arcane Bond",
 			"5th, 10th, 15th-level Bonus Feat"
 		],
-		"short_description": "(Sylph Only) The wind listener takes a sylph's natural curiosity to the extreme, enhancing his natural skill at subterfuge and eavesdropping with potent arcane magic. ",
+		"short_description": "(Sylph Only) The wind listener takes a sylph's natural curiosity to the extreme, enhancing his natural skill at subterfuge and eavesdropping with potent arcane magic.",
 		"description": [
 			"## Wind Listener",
 			"",

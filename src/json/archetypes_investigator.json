@@ -87,7 +87,7 @@
 			"Keen Recollection",
 			"Swift Alchemy"
 		],
-		"short_description": "Cartographers are eager trailblazers who explore uncharted terrain, study landmarks, and find new paths through the wilderness. ",
+		"short_description": "Cartographers are eager trailblazers who explore uncharted terrain, study landmarks, and find new paths through the wilderness.",
 		"description": [
 			"## Cartographer",
 			"",
@@ -210,14 +210,14 @@
 		"name": "Cryptid Scholar",
 		"file": "archetypedisplay1715.html",
 		"sources": [ "Magic Tactics Toolbox" ],
-		"replaces": "Poison Lore; Poison Resistance; Studied Combat; Studied Strike ",
+		"replaces": "Poison Lore; Poison Resistance; Studied Combat; Studied Strike",
 		"replace_array": [
 			"Poison Lore",
 			"Poison Resistance",
 			"Studied Combat",
-			"Studied Strike "
+			"Studied Strike"
 		],
-		"short_description": "Cryptid scholars research monsters that lurk secretly at the edge of civilization, developing a deep expertise regarding their anatomy, habits, and ecology. ",
+		"short_description": "Cryptid scholars research monsters that lurk secretly at the edge of civilization, developing a deep expertise regarding their anatomy, habits, and ecology.",
 		"description": [
 			"## Cryptid Scholar",
 			"",
@@ -243,7 +243,7 @@
 		"name": "Cult Hunter",
 		"file": "archetypedisplay3f33.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Trapfinding; Poison Resistance; Poison Immunity; Poison Lore; Trap Sense; Swift Alchemy; Studied Combat Studied Strike; 7th, 13th-level Investigator Talent ",
+		"replaces": "Trapfinding; Poison Resistance; Poison Immunity; Poison Lore; Trap Sense; Swift Alchemy; Studied Combat Studied Strike; 7th, 13th-level Investigator Talent",
 		"replace_array": [
 			"Trapfinding",
 			"Poison Resistance",
@@ -252,7 +252,7 @@
 			"Trap Sense",
 			"Swift Alchemy",
 			"Studied Combat Studied Strike",
-			"7th, 13th-level Investigator Talent "
+			"7th, 13th-level Investigator Talent"
 		],
 		"short_description": "Cult hunters seek out heretical secret societies, purging their ideological taint and banishing summoned servants.",
 		"description": [
@@ -738,12 +738,12 @@
 		"name": "Majordomo",
 		"file": "archetypedisplayd0f0.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Trapfinding; Alchemy; Swift Alchemy; Trap Sense ",
+		"replaces": "Trapfinding; Alchemy; Swift Alchemy; Trap Sense",
 		"replace_array": [
 			"Trapfinding",
 			"Alchemy",
 			"Swift Alchemy",
-			"Trap Sense "
+			"Trap Sense"
 		],
 		"short_description": "In a world of intrigue where the loyalties of staff can be bought and sold, sometimes it takes the skills of an investigator to follow the byzantine paper trails and prevent embezzling and espionage within the estates of the elite.",
 		"description": [
@@ -888,7 +888,7 @@
 			"Trap Sense",
 			"3rd-level Investigator Talent"
 		],
-		"short_description": "Natural philosophers are scholars, explorers, and survivalists who feel at home in nature, seldom longing for the comforts of the city. ",
+		"short_description": "Natural philosophers are scholars, explorers, and survivalists who feel at home in nature, seldom longing for the comforts of the city.",
 		"description": [
 			"## Natural Philosopher",
 			"",
@@ -962,7 +962,7 @@
 		"name": "Profiler",
 		"file": "archetypedisplay43ad.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Trapfinding; Poison Lore; Trap Sense; Poison Resistance; Poison Immunity; Swift Alchemy; 7th-level Investigator Talent ",
+		"replaces": "Trapfinding; Poison Lore; Trap Sense; Poison Resistance; Poison Immunity; Swift Alchemy; 7th-level Investigator Talent",
 		"replace_array": [
 			"Trapfinding",
 			"Poison Lore",
@@ -970,7 +970,7 @@
 			"Poison Resistance",
 			"Poison Immunity",
 			"Swift Alchemy",
-			"7th-level Investigator Talent "
+			"7th-level Investigator Talent"
 		],
 		"short_description": "Profilers understand the human psyche to an intense degree, allowing them to predict the criminals they hunt.",
 		"description": [
@@ -1053,11 +1053,11 @@
 		"name": "Questioner",
 		"file": "archetypedisplay5f25.html",
 		"sources": [ "Magic Tactics Toolbox" ],
-		"replaces": "Inspiration; Alchemy; Poison Lore ",
+		"replaces": "Inspiration; Alchemy; Poison Lore",
 		"replace_array": [
 			"Inspiration",
 			"Alchemy",
-			"Poison Lore "
+			"Poison Lore"
 		],
 		"short_description": "Dabblers in arcane magic and masters of stealth and guile, questioners are investigators who often find themselves mucking about in cases for less-than-savory clientele or that require an extra bit of subtlety.",
 		"description": [

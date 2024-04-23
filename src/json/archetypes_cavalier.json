@@ -346,7 +346,7 @@
 			"Greater Banner",
 			"Master Tactician;"
 		],
-		"short_description": "While many cavaliers dream of riding a dragon into battle, drakeriders come to learn that the reality involves far more effort than they had expected. ",
+		"short_description": "While many cavaliers dream of riding a dragon into battle, drakeriders come to learn that the reality involves far more effort than they had expected.",
 		"description": [
 			"## Drakerider",
 			"",
@@ -575,7 +575,7 @@
 			"Mighty Charge",
 			"Greater Banner"
 		],
-		"short_description": "Ghost riders are conflicted warriors who use the powers of the phantasmal dead even while seeking out and banishing the corruption of undeath from plagued communities. ",
+		"short_description": "Ghost riders are conflicted warriors who use the powers of the phantasmal dead even while seeking out and banishing the corruption of undeath from plagued communities.",
 		"description": [
 			"## Ghost Rider",
 			"",
@@ -728,7 +728,7 @@
 			"Greater Tactician",
 			"Master Tactician"
 		],
-		"short_description": "Some cavaliers wander the lonely roads of the world-any world, including the First World-protecting travelers and acting as their honor guard. ",
+		"short_description": "Some cavaliers wander the lonely roads of the world-any world, including the First World-protecting travelers and acting as their honor guard.",
 		"description": [
 			"## Hooded Knight",
 			"",
@@ -818,7 +818,7 @@
 		"name": "Hussar",
 		"file": "archetypedisplay0b08.html",
 		"sources": [],
-		"replaces": "Armor Proficiencies; Class Skills; Tactician; Banner; Greater Banner; 6th, 12th, 18th-level Bonus Feats; Greater Tactician; Master Tactician ",
+		"replaces": "Armor Proficiencies; Class Skills; Tactician; Banner; Greater Banner; 6th, 12th, 18th-level Bonus Feats; Greater Tactician; Master Tactician",
 		"replace_array": [
 			"Armor Proficiencies",
 			"Class Skills",
@@ -827,7 +827,7 @@
 			"Greater Banner",
 			"6th, 12th, 18th-level Bonus Feats",
 			"Greater Tactician",
-			"Master Tactician "
+			"Master Tactician"
 		],
 		"short_description": "Agile and maneuverable cavalry, hussars make up for their relatively light armor with their speed and cunning.",
 		"description": [
@@ -949,7 +949,7 @@
 			"Mount",
 			"Expert Trainer"
 		],
-		"short_description": "Some cavaliers are entrusted by their masters with the care and use of expensive and powerful oddities-firearms. ",
+		"short_description": "Some cavaliers are entrusted by their masters with the care and use of expensive and powerful oddities-firearms.",
 		"description": [
 			"## Musketeer",
 			"",

@@ -451,7 +451,7 @@
 			"Dirge of Doom",
 			"Lore Master"
 		],
-		"short_description": "he instigator influences the will of the people, turning them toward his own purposes. ",
+		"short_description": "he instigator influences the will of the people, turning them toward his own purposes.",
 		"description": [
 			"## Instigator",
 			"",
@@ -517,7 +517,7 @@
 			"3rd-level Rage Power",
 			"Spell Kenning"
 		],
-		"short_description": "Warrior bands devoted to Ragadahn are often led by a serpent herald, whose deep roars shake the earth itself. ",
+		"short_description": "Warrior bands devoted to Ragadahn are often led by a serpent herald, whose deep roars shake the earth itself.",
 		"description": [
 			"## Serpent Herald",
 			"",
@@ -551,7 +551,7 @@
 			"Dirge of Doom",
 			"Master Skald"
 		],
-		"short_description": "The spell warrior uses his arcane knowledge rather than his rage to turn the tide of battle in favor of himself and his allies. ",
+		"short_description": "The spell warrior uses his arcane knowledge rather than his rage to turn the tide of battle in favor of himself and his allies.",
 		"description": [
 			"## Spell Warrior",
 			"",
@@ -817,11 +817,11 @@
 		"name": "War Painter",
 		"file": "archetypedisplaye897.html",
 		"sources": [ "Blood of the Beast" ],
-		"replaces": "Raging Song; Spell Kenning; Lore Master ",
+		"replaces": "Raging Song; Spell Kenning; Lore Master",
 		"replace_array": [
 			"Raging Song",
 			"Spell Kenning",
-			"Lore Master "
+			"Lore Master"
 		],
 		"short_description": "The gripplis of the Valashmai Jungle exhibit savage strength for their size-attributed in part to the frightful magical pigments applied to their skin by the tribes' mystical lore keepers.",
 		"description": [

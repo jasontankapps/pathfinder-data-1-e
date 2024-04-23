@@ -166,16 +166,16 @@
 		"name": "Channeler of the Unknown",
 		"file": "archetypedisplay1fa2.html",
 		"sources": [ "Antihero's Handbook" ],
-		"replaces": "Weapon and Armor Proficiency; Spells; Aura; Channel Energy; Domains; Spontaneous Casting ",
+		"replaces": "Weapon and Armor Proficiency; Spells; Aura; Channel Energy; Domains; Spontaneous Casting",
 		"replace_array": [
 			"Weapon and Armor Proficiency",
 			"Spells",
 			"Aura",
 			"Channel Energy",
 			"Domains",
-			"Spontaneous Casting "
+			"Spontaneous Casting"
 		],
-		"short_description": "(Ex-cleric archetype) Channelers of the unknown are those faithless clerics who channel the power of an unknown entity or force of the universe ",
+		"short_description": "(Ex-cleric archetype) Channelers of the unknown are those faithless clerics who channel the power of an unknown entity or force of the universe",
 		"description": [
 			"## Channeler of the Unknown",
 			"",
@@ -309,7 +309,7 @@
 			"Domains",
 			"Spells"
 		],
-		"short_description": "Crusaders serve the militant arm of a church, ready to stand guard over the religion's holy places and to be its swift, avenging arm against those who resist its truth. ",
+		"short_description": "Crusaders serve the militant arm of a church, ready to stand guard over the religion's holy places and to be its swift, avenging arm against those who resist its truth.",
 		"description": [
 			"## Crusader",
 			"",
@@ -332,7 +332,7 @@
 			"Domains",
 			"Channel Energy"
 		],
-		"short_description": "(Drow Only) Demon worship is common among the drow, and so are ranks of demonic apostles, who gain magical insight from their dark lords and crush their chaotic masters' enemies by channeling demonic energy. ",
+		"short_description": "(Drow Only) Demon worship is common among the drow, and so are ranks of demonic apostles, who gain magical insight from their dark lords and crush their chaotic masters' enemies by channeling demonic energy.",
 		"description": [
 			"## Demonic Apostle",
 			"",
@@ -357,7 +357,7 @@
 			"Domain",
 			"Aura"
 		],
-		"short_description": "Divine paragons strive to emulate their god's ideals as closely as possible. ",
+		"short_description": "Divine paragons strive to emulate their god's ideals as closely as possible.",
 		"description": [
 			"## Divine Paragon",
 			"",
@@ -386,7 +386,7 @@
 			"Domains",
 			"Channel Energy"
 		],
-		"short_description": "Divine scourges take on the role of dealing out unique punishments on behalf of their deities, taking pleasure in carrying out their sacrosanct duties. ",
+		"short_description": "Divine scourges take on the role of dealing out unique punishments on behalf of their deities, taking pleasure in carrying out their sacrosanct duties.",
 		"description": [
 			"## Divine Scourge",
 			"",
@@ -415,7 +415,7 @@
 			"Domains",
 			"Channel Energy"
 		],
-		"short_description": "The divine strategist leads the armies of the faithful, not from the front lines but through her clever strategy and tactical acumen. ",
+		"short_description": "The divine strategist leads the armies of the faithful, not from the front lines but through her clever strategy and tactical acumen.",
 		"description": [
 			"## Divine Strategist",
 			"",
@@ -471,13 +471,13 @@
 		"name": "Elder Mythos Cultist",
 		"file": "archetypedisplaye855.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Alignment; Domains; Channel Energy; Spontaneous Casting; 5th, 11th, and 19th-level Channel Energy increase ",
+		"replaces": "Alignment; Domains; Channel Energy; Spontaneous Casting; 5th, 11th, and 19th-level Channel Energy increase",
 		"replace_array": [
 			"Alignment",
 			"Domains",
 			"Channel Energy",
 			"Spontaneous Casting",
-			"5th, 11th, and 19th-level Channel Energy increase "
+			"5th, 11th, and 19th-level Channel Energy increase"
 		],
 		"short_description": "Typically grasping, secretive, and thoroughly mad, Elder Mythos cultists open their bodies and minds to horrifying realities not meant for the sane as they strive to prepare the world for the eventual return of their alien masters.",
 		"description": [
@@ -523,7 +523,7 @@
 			"Channel Energy",
 			"Spontaneous Casting"
 		],
-		"short_description": "The evangelist is the voice of her religion in the world. ",
+		"short_description": "The evangelist is the voice of her religion in the world.",
 		"description": [
 			"## Evangelist",
 			"",
@@ -560,7 +560,7 @@
 			"Domains",
 			"Channel Energy"
 		],
-		"short_description": "(Tiefling Only) Fiendish vessels, through their fiendish heritage, share an innate connection with their patron, and that connection grants them understanding and power. ",
+		"short_description": "(Tiefling Only) Fiendish vessels, through their fiendish heritage, share an innate connection with their patron, and that connection grants them understanding and power.",
 		"description": [
 			"## Fiendish Vessel",
 			"",
@@ -603,7 +603,7 @@
 			"Domains",
 			"Channel Energy"
 		],
-		"short_description": "(Dwarf Only) Forgemasters are priestly dwarves who are ritual casters and expert enchanters, able to produce their rune-graven armaments with astonishing speed. ",
+		"short_description": "(Dwarf Only) Forgemasters are priestly dwarves who are ritual casters and expert enchanters, able to produce their rune-graven armaments with astonishing speed.",
 		"description": [
 			"## Forgemaster",
 			"",
@@ -683,7 +683,7 @@
 		"name": "Herald Caller",
 		"file": "archetypedisplay375a.html",
 		"sources": [ "Monster Summoner's Handbook" ],
-		"replaces": "Class Skills; Domains; Armor Proficiencies; ",
+		"replaces": "Class Skills; Domains; Armor Proficiencies;",
 		"replace_array": [
 			"Class Skills",
 			"Domains",
@@ -906,7 +906,7 @@
 			"Domains",
 			"Channel Energy"
 		],
-		"short_description": "The merciful healer is a master of battlefield revivification, sustaining and restoring allies to keep them in the fight. ",
+		"short_description": "The merciful healer is a master of battlefield revivification, sustaining and restoring allies to keep them in the fight.",
 		"description": [
 			"## Merciful Healer",
 			"",
@@ -1021,7 +1021,7 @@
 		"sources": [ "Ultimate Magic" ],
 		"replaces": "Domains",
 		"replace_array": [ "Domains" ],
-		"short_description": "A radical cleric, unsatisfied with the orthodoxy of her deity's teachings, forges her own path of defiant divine expression. ",
+		"short_description": "A radical cleric, unsatisfied with the orthodoxy of her deity's teachings, forges her own path of defiant divine expression.",
 		"description": [
 			"## Separatist",
 			"",
@@ -1041,13 +1041,13 @@
 		"name": "Stoic Caregiver",
 		"file": "archetypedisplay6718.html",
 		"sources": [ "Healer's Handbook" ],
-		"replaces": "Channel Energy; Domains; ",
+		"replaces": "Channel Energy; Domains;",
 		"replace_array": [
 			"Channel Energy",
 			"Domains",
 			""
 		],
-		"short_description": "Stoic caregivers are champions of life in defiance of untimely death as well as undeath. ",
+		"short_description": "Stoic caregivers are champions of life in defiance of untimely death as well as undeath.",
 		"description": [
 			"## Stoic Caregiver",
 			"",
@@ -1157,7 +1157,7 @@
 			"Medium Armor/Shield Proficiency",
 			"8th-level Domain Power"
 		],
-		"short_description": "While most clerics are associated with a particular temple, adventuring clerics spend much of their time away from their favored place of worship, and there are those who worship primarily on the road and during the journey. ",
+		"short_description": "While most clerics are associated with a particular temple, adventuring clerics spend much of their time away from their favored place of worship, and there are those who worship primarily on the road and during the journey.",
 		"description": [
 			"## Varisian Pilgrim",
 			"",

@@ -797,14 +797,14 @@
 		"name": "Talisman Crafter",
 		"file": "archetypedisplay0081.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Implements; Magic Item Skill; Object Reading; Shift Focus; Aura Sight; 5th, 17th-level Focus Powers ",
+		"replaces": "Implements; Magic Item Skill; Object Reading; Shift Focus; Aura Sight; 5th, 17th-level Focus Powers",
 		"replace_array": [
 			"Implements",
 			"Magic Item Skill",
 			"Object Reading",
 			"Shift Focus",
 			"Aura Sight",
-			"5th, 17th-level Focus Powers "
+			"5th, 17th-level Focus Powers"
 		],
 		"short_description": "Talisman crafters specialize- in the creation of seals, constructing master talismans to use as implements and inscribing wards with esoteric geometry.",
 		"description": [
