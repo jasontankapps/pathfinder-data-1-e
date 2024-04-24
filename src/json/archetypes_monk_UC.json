@@ -39,7 +39,8 @@
 		"replaces": "Class Skills; 1st, 6th-level Bonus Feats; Still Mind; 12th-level Ki Power; Perfect Self",
 		"replace_array": [
 			"Class Skills",
-			"1st, 6th-level Bonus Feats",
+			"1st-level Bonus Feat",
+			"6th-level Bonus Feat",
 			"Still Mind",
 			"12th-level Ki Power",
 			"Perfect Self"
@@ -86,7 +87,9 @@
 		"replace_array": [
 			"Ki Pool",
 			"Purity of Body",
-			"4th, 12th, 14th level Ki Power"
+			"4th-level Ki Power",
+			"12th-level Ki Power",
+			"14th-level Ki Power"
 		],
 		"short_description": "Disciples of wholeness train to bring themselves and others closer to physical and spiritual perfection.",
 		"description": [
@@ -348,8 +351,14 @@
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"replaces": "2nd, 6th, 10th, 14th, and 18th-level Bonus Feats; 6th, 10th, 12th-level Ki Powers; Quivering Palm",
 		"replace_array": [
-			"2nd, 6th, 10th, 14th, and 18th-level Bonus Feats",
-			"6th, 10th, 12th-level Ki Powers",
+			"2nd-level Bonus Feat",
+			"6th-level Bonus Feat",
+			"10th-level Bonus Feat",
+			"14th-level Bonus Feat",
+			"18th-level Bonus Feat",
+			"6th-level Ki Power",
+			"10th-level Ki Power",
+			"12th-level Ki Power",
 			"Quivering Palm"
 		],
 		"short_description": "A body contains many points where the flesh, mind, and spirit coincide. A monk of the mantis is skilled at manipulating these points.",
@@ -413,7 +422,10 @@
 		"replaces": "Class Skills; 1st, 2nd, 6th, 10th-level Bonus Feat; 4th-level Ki Power",
 		"replace_array": [
 			"Class Skills",
-			"1st, 2nd, 6th, 10th-level Bonus Feat",
+			"1st-level Bonus Feat",
+			"2nd-level Bonus Feat",
+			"6th-level Bonus Feat",
+			"10th-level Bonus Feat",
 			"4th-level Ki Power"
 		],
 		"short_description": "Sage counselors are ascetics and mystics who leave the confines of the monastery walls to advise secular people about spiritual truths and to seek knowledge of the outside world.",
@@ -448,7 +460,8 @@
 		"replace_array": [
 			"Bonus Feats",
 			"Still Mind",
-			"4th, 12th-level Ki Power"
+			"4th-level Ki Power",
+			"12th-level Ki Power"
 		],
 		"short_description": "Scaled fists eschew passive introspection in favor of unshakable confidence. Steeped in traditions that trace their origins to the warrior-monks who trained under the tutelage of draconic masters in Tian Xia, scaled fists eschew passive introspection in favor of unshakable confidence. Scaled fists learn to combine brutal intimidation with the brazen ferocity of an ancient wyrm to devastate their foes.",
 		"description": [
@@ -488,8 +501,14 @@
 		"replace_array": [
 			"Class Skills",
 			"Stunning Fist",
-			"1st, 2nd, 6th, 10th, 14th, and 18th-level Bonus Feats",
-			"4th, 8th-level Ki Power"
+			"1st-level Bonus Feat",
+			"2nd-level Bonus Feat",
+			"6th-level Bonus Feat",
+			"10th-level Bonus Feat",
+			"14th-level Bonus Feat",
+			"18th-level Bonus Feat",
+			"4th-level Ki Power",
+			"8th-level Ki Power"
 		],
 		"short_description": "A serpent-fire adept embraces the secrets of her chakras and mastery of their energetic flow.",
 		"description": [
@@ -521,7 +540,8 @@
 		"replace_array": [
 			"Weapon Proficiency",
 			"Unarmed Strike",
-			"6th, 10th-level Bonus Feats",
+			"6th-level Bonus Feat",
+			"10th-level Bonus Feat",
 			"Wholeness of Body",
 			"Quivering Palm",
 			"Empty Body"
@@ -571,7 +591,8 @@
 			"Stunning Fist",
 			"Evasion",
 			"Improved Evasion",
-			"12th, 16th-level Bonus Feat"
+			"12th-level Bonus Feat",
+			"16th-level Bonus Feat"
 		],
 		"short_description": "Whether studying at the feet of psychopomps or merely imitating the creatures' philosophy and methods, soul shepherds believe in safeguarding the Cycle of Souls.",
 		"description": [

@@ -7,7 +7,8 @@
 		"replace_array": [
 			"Spell Combat",
 			"Arcane Pool",
-			"3rd, 18th-level Magus Arcana",
+			"3rd-level Magus Arcana",
+			"18th-level Magus Arcana",
 			"Improved Spell Combat",
 			"Greater Spell Combat"
 		],
@@ -150,7 +151,7 @@
 		"replace_array": [
 			"Arcane Pool",
 			"Spellstrike",
-			"3rd-level Arcana"
+			"3rd-level Magus Arcana"
 		],
 		"short_description": "The card caster is an ancient, martial offshoot of the traditional harrower, learning to not only draw power from the harrow, but also to invest each card with deadly power.",
 		"description": [
@@ -174,7 +175,7 @@
 		"sources": [ "Arcane Anthology" ],
 		"replaces": "Armor Proficiencies; Medium Armor; Heavy Armor; Spellcasting; Arcane Pool; Spell Combat; Spellstrike; 3rd-level Magus Arcana",
 		"replace_array": [
-			"Armor Proficiencies",
+			"Armor Proficiency",
 			"Medium Armor",
 			"Heavy Armor",
 			"Spellcasting",
@@ -243,7 +244,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"replaces": "Spells; Spell Recall; Arcane Pool; Spell Combat; Knowledge Pool; Improved Spell Combat; Greater Spell Combat",
 		"replace_array": [
-			"Spells",
+			"Spellcasting",
 			"Spell Recall",
 			"Arcane Pool",
 			"Spell Combat",
@@ -531,7 +532,7 @@
 		"sources": [ "Blood of the Ancients" ],
 		"replaces": "Spells; Arcane Pool; Cantrips; 3rd-level Magus Arcana; Spellstrike",
 		"replace_array": [
-			"Spells",
+			"Spellcasting",
 			"Arcane Pool",
 			"Cantrips",
 			"3rd-level Magus Arcana",
@@ -583,8 +584,8 @@
 		"sources": [ "Varisia, Birthplace of Legends" ],
 		"replaces": "Weapon/Armor Proficiencies; Diminished Spellcasting",
 		"replace_array": [
-			"Weapon/Armor Proficiencies",
-			"Diminished Spellcasting"
+			"Weapon/Armor Proficiency",
+			"Spellcasting"
 		],
 		"short_description": "The kapenia dancer laces their deadly scarves with powerful magic.",
 		"description": [
@@ -621,11 +622,11 @@
 		"replaces": "Weapon/Armor Proficiency; Spells; Spell Recall; Knowledge Pool; Medium Armor; 9th-level Arcana; Improved Spell Recall; Heavy Armor; True Magus",
 		"replace_array": [
 			"Weapon/Armor Proficiency",
-			"Spells",
+			"Spellcasting",
 			"Spell Recall",
 			"Knowledge Pool",
 			"Medium Armor",
-			"9th-level Arcana",
+			"9th-level Magus Arcana",
 			"Improved Spell Recall",
 			"Heavy Armor",
 			"True Magus"
@@ -768,10 +769,12 @@
 		"sources": [ "Ultimate Combat" ],
 		"replaces": "Spells; Spell Recall; Improved Spell Recall; 6th, 12th, 18th-level Magus Arcana; Knowledge Pool; Improved Spell Combat; Greater Spell Combat; True Magus",
 		"replace_array": [
-			"Spells",
+			"Spellcasting",
 			"Spell Recall",
 			"Improved Spell Recall",
-			"6th, 12th, 18th-level Magus Arcana",
+			"6th-level Magus Arcana",
+			"12th-level Magus Arcana",
+			"18th-level Magus Arcana",
 			"Knowledge Pool",
 			"Improved Spell Combat",
 			"Greater Spell Combat",
@@ -924,7 +927,7 @@
 		"sources": [ "Ultimate Combat" ],
 		"replaces": "Spells; Spell Combat; Spell Recall; Knowledge Pool; Improved Spell Combat; Greater Spell Combat; Greater Spell Access; Counterstrike",
 		"replace_array": [
-			"Spells",
+			"Spellcasting",
 			"Spell Combat",
 			"Spell Recall",
 			"Knowledge Pool",
@@ -969,7 +972,8 @@
 		"sources": [ "Pathfinder: Spiral of Bones #4" ],
 		"replaces": "3rd, 12th-level Magus Arcana; Speed Weapon Property",
 		"replace_array": [
-			"3rd, 12th-level Magus Arcana",
+			"3rd-level Magus Arcana",
+			"12th-level Magus Arcana",
 			"Speed Weapon Property"
 		],
 		"short_description": "A magus who has suffered greatly over the course ofher life can learn to channel that misery into her weapon and inflict it on others.",
@@ -996,7 +1000,7 @@
 		"sources": [ "Ultimate Combat" ],
 		"replaces": "Spells; Knowledge Pool; Spell Recall; Improved Spell Recall; Counterstrike; Greater Spell Access",
 		"replace_array": [
-			"Spells",
+			"Spellcasting",
 			"Knowledge Pool",
 			"Spell Recall",
 			"Improved Spell Recall",
@@ -1138,7 +1142,7 @@
 		"sources": [],
 		"replaces": "Weapon/Armor Proficiencies; Spell Recall",
 		"replace_array": [
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Spell Recall"
 		],
 		"short_description": "Magi who train themselves to accompany sages and archaeologists venturing into the Mordant Spire become spire defenders.",
@@ -1161,7 +1165,7 @@
 		"sources": [ "Ultimate Magic" ],
 		"replaces": "Weapon/Armor Proficiencies; Medium Armor; Heavy Armor; Fighter Training",
 		"replace_array": [
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Medium Armor",
 			"Heavy Armor",
 			"Fighter Training"

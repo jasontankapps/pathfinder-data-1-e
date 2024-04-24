@@ -5,8 +5,15 @@
 		"sources": [ "Advanced Race Guide" ],
 		"replaces": "Mystery Bonus Skills; 4th, 6th, 8th, 10th, 12th, 14th, 16th, and 18th-level Bonus Spells",
 		"replace_array": [
-			"Mystery Bonus Skills",
-			"4th, 6th, 8th, 10th, 12th, 14th, 16th, and 18th-level Bonus Spells"
+			"Mystery Skills",
+			"4th-level Bonus Spell",
+			"6th-level Bonus Spell",
+			"8th-level Bonus Spell",
+			"10th-level Bonus Spell",
+			"12th-level Bonus Spell",
+			"14th-level Bonus Spell",
+			"16th-level Bonus Spell",
+			"18th-level Bonus Spell"
 		],
 		"short_description": "(Elf Only) The ancient lorekeeper is a repository for all the beliefs and vast knowledge of an elven people.",
 		"description": [
@@ -60,9 +67,14 @@
 		"sources": [ "Advanced Race Guide" ],
 		"replaces": "Mystery Class Skills; 2nd, 4th, 6th, 10th, 12th level Mystery Bonus Spells; 1st, 3rd-level Revelations",
 		"replace_array": [
-			"Mystery Class Skills",
-			"2nd, 4th, 6th, 10th, 12th level Mystery Bonus Spells",
-			"1st, 3rd-level Revelations"
+			"Mystery Skills",
+			"2nd-level Bonus Spell",
+			"4th-level Bonus Spell",
+			"6th-level Bonus Spell",
+			"10th-level Bonus Spell",
+			"12th-level Bonus Spell",
+			"1st-level Revelation",
+			"3rd-level Revelation"
 		],
 		"short_description": "(Halfling Only) The community guardian is chosen to protect and succor the weak and innocent within her community.",
 		"description": [
@@ -93,9 +105,10 @@
 		"replaces": "Class Skills; Curse; Bonus Spells; 1st and 7th-level Revelations; Final Revelation",
 		"replace_array": [
 			"Class Skills",
-			"Curse",
+			"Oracle's Curse",
 			"Bonus Spells",
-			"1st and 7th-level Revelations",
+			"1st-level Revelation",
+			"7th-level Revelation",
 			"Final Revelation"
 		],
 		"short_description": "A cyclopean seer draws power from the mysterious prophetic abilities of ancient giants.",
@@ -134,8 +147,13 @@
 		"sources": [ "Disciple's Doctrine" ],
 		"replaces": "10th, 12th, 14th, 16th, 18th-level Mystery Bonus Spells; 1st, 7th-level Revelation; Final Revelation",
 		"replace_array": [
-			"10th, 12th, 14th, 16th, 18th-level Mystery Bonus Spells",
-			"1st, 7th-level Revelation",
+			"10th-level Bonus Spell",
+			"12th-level Bonus Spell",
+			"14th-level Bonus Spell",
+			"16th-level Bonus Spell",
+			"18th-level Bonus Spell",
+			"1st-level Revelation",
+			"7th-level Revelation",
 			"Final Revelation"
 		],
 		"short_description": "Divine numerologists use esoteric mathematics and numbers traditions to peer into the past and future and extract meaningful portents.",
@@ -171,8 +189,8 @@
 		"replaces": "Oracle's Curse; Mystery Class Skills; Mystery Bonus Spells",
 		"replace_array": [
 			"Oracle's Curse",
-			"Mystery Class Skills",
-			"Mystery Bonus Spells"
+			"Mystery Skills",
+			"Bonus Spells"
 		],
 		"short_description": "All oracles are cursed to some degree, but some oracles bear an even heavier burden.",
 		"description": [
@@ -203,10 +221,16 @@
 			"Ultimate Wilderness",
 			"People of the Sands"
 		],
-		"replaces": "4th, 6th, 8th, 10th ,12th, 18th-level Mystery Bonus Spells; 1st, 11th-level Revelation; Final Revelation",
+		"replaces": "4th, 6th, 8th, 10th, 12th, 18th-level Mystery Bonus Spells; 1st, 11th-level Revelation; Final Revelation",
 		"replace_array": [
-			"4th, 6th, 8th, 10th ,12th, 18th-level Mystery Bonus Spells",
-			"1st, 11th-level Revelation",
+			"4th-level Bonus Spell",
+			"6th-level Bonus Spell",
+			"8th-level Bonus Spell",
+			"10th-level Bonus Spell",
+			"12th-level Bonus Spell",
+			"18th-level Bonus Spell",
+			"1st-level Revelation",
+			"11th-level Revelation",
 			"Final Revelation"
 		],
 		"short_description": "An elementalist oracle has an affinity with the elements and elemental creatures. She can communicate with elemental creatures, and can eventually become an elemental herself.",
@@ -240,8 +264,8 @@
 		"sources": [ "Ultimate Magic" ],
 		"replaces": "Mystery Class Skills; Mystery Bonus Spells; 7th-level Revelation; Final Revelation",
 		"replace_array": [
-			"Mystery Class Skills",
-			"Mystery Bonus Spells",
+			"Mystery Skills",
+			"Bonus Spells",
 			"7th-level Revelation",
 			"Final Revelation"
 		],
@@ -274,9 +298,13 @@
 		"replaces": "Mystery; Curse; 4th, 8th, 12th, 16th-level Bonus Spells; 1st, 7th-level Revelation",
 		"replace_array": [
 			"Mystery",
-			"Curse",
-			"4th, 8th, 12th, 16th-level Bonus Spells",
-			"1st, 7th-level Revelation"
+			"Oracle's Curse",
+			"4th-level Bonus Spell",
+			"8th-level Bonus Spell",
+			"12th-level Bonus Spell",
+			"16th-level Bonus Spell",
+			"1st-level Revelation",
+			"7th-level Revelation"
 		],
 		"short_description": "A hermit is a recluse who gained her oracular powers from isolation in a deep desert, on a mountain peak, or in another secluded location.",
 		"description": [
@@ -308,7 +336,10 @@
 		"sources": [ "Heroes of the High Court" ],
 		"replaces": "2nd, 4th, 8th, 14th-level Bonus Spells; 3rd-level Revelation",
 		"replace_array": [
-			"2nd, 4th, 8th, 14th-level Bonus Spells",
+			"2nd-level Bonus Spell",
+			"4th-level Bonus Spell",
+			"8th-level Bonus Spell",
+			"14th-level Bonus Spell",
 			"3rd-level Revelation"
 		],
 		"short_description": "An inerrant voice serves as a spiritual advisor to either a monarch or noble.",
@@ -336,7 +367,11 @@
 		"replaces": "Mystery Skills; 6th, 10th, 12th, 16th, 18th-level Bonus Spells; 1st-level Revelation",
 		"replace_array": [
 			"Mystery Skills",
-			"6th, 10th, 12th, 16th, 18th-level Bonus Spells",
+			"6th-level Bonus Spell",
+			"10th-level Bonus Spell",
+			"12th-level Bonus Spell",
+			"16th-level Bonus Spell",
+			"18th-level Bonus Spell",
 			"1st-level Revelation"
 		],
 		"short_description": "Keleshite prophets help guide and serve the vast Padishah Empire of Kelesh and its interests across Golarion.",
@@ -377,9 +412,15 @@
 		"sources": [ "Blood of the Sea" ],
 		"replaces": "Mystery Bonus Skills; 4th, 8th, 10th, 12th, 14th-level Bonus Spells; 1st, 3rd, 15th-level Revelation",
 		"replace_array": [
-			"Mystery Bonus Skills",
-			"4th, 8th, 10th, 12th, 14th-level Bonus Spells",
-			"1st, 3rd, 15th-level Revelation"
+			"Mystery Skills",
+			"4th-level Bonus Spell",
+			"8th-level Bonus Spell",
+			"10th-level Bonus Spell",
+			"12th-level Bonus Spell",
+			"14th-level Bonus Spell",
+			"1st-level Revelation",
+			"3rd-level Revelation",
+			"15th-level Revelation"
 		],
 		"short_description": "Although many merfolk claim deep connections to both art and the natural world, a rare few merfolk can manipulate the forces of nature and weave them into song.",
 		"description": [
@@ -407,7 +448,7 @@
 		"sources": [ "Healer's Handbook" ],
 		"replaces": "Mystery Class Skills; 1st-level Revelation",
 		"replace_array": [
-			"Mystery Class Skills",
+			"Mystery Skills",
 			"1st-level Revelation"
 		],
 		"short_description": "In distant Tian Xia, herbalists practice an obscure alchemical art known as Pei Zin herbalism, which involves medicinal and restorative techniques that are used throughout much of that continent.",
@@ -448,7 +489,7 @@
 		"sources": [ "Ultimate Magic" ],
 		"replaces": "Mystery Bonus Spells; 3rd-level Revelation; Final Revelation",
 		"replace_array": [
-			"Mystery Bonus Spells",
+			"Bonus Spells",
 			"3rd-level Revelation",
 			"Final Revelation"
 		],
@@ -477,7 +518,7 @@
 		"replaces": "Oracle's Curse; Mystery Bonus Spells; 1st-level Revelation",
 		"replace_array": [
 			"Oracle's Curse",
-			"Mystery Bonus Spells",
+			"Bonus Spells",
 			"1st-level Revelation"
 		],
 		"short_description": "Some oracles are possessed by spirits, demons, or similar beings.",
@@ -532,7 +573,9 @@
 		"replace_array": [
 			"Bonus Spells",
 			"Spellcasting",
-			"3rd, 7th, 11th-level Revelation"
+			"3rd-level Revelation",
+			"7th-level Revelation",
+			"11th-level Revelation"
 		],
 		"short_description": "(Aasimar Only) The purifier seeks out signs of possession or mind control that manifest from unwilling (and often unwitting) servants for fiendish corruptors and their mortal minions.",
 		"description": [
@@ -601,9 +644,14 @@
 		"replaces": "Class Skills; 2nd, 6th, 8th, 10th ,18th-level Mystery Bonus Spells; Oracle's Curse; 1st, 11th-level Revelation; Final Revelation",
 		"replace_array": [
 			"Class Skills",
-			"2nd, 6th, 8th, 10th ,18th-level Mystery Bonus Spells",
+			"2nd-level Bonus Spell",
+			"6th-level Bonus Spell",
+			"8th-level Bonus Spell",
+			"10th-level Bonus Spell",
+			"18th-level Bonus Spell",
 			"Oracle's Curse",
-			"1st, 11th-level Revelation",
+			"1st-level Revelation",
+			"11th-level Revelation",
 			"Final Revelation"
 		],
 		"short_description": "River soul oracles derive their powers from their bonds with rivers, whether these waterways are rapid cascades or lazy channels plied by boats.",
@@ -640,7 +688,7 @@
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"replaces": "Mystery Class Skills, 3rd-level Revelation, 15th-level Revelation",
 		"replace_array": [
-			"Mystery Class Skills",
+			"Mystery Skills",
 			"3rd-level Revelation",
 			"15th-level Revelation"
 		],
@@ -664,7 +712,7 @@
 		"sources": [ "Ultimate Magic" ],
 		"replaces": "Mystery Bonus Spells; 1st-level Revelation; 3rd-level Revelation",
 		"replace_array": [
-			"Mystery Bonus Spells",
+			"Bonus Spells",
 			"1st-level Revelation",
 			"3rd-level Revelation"
 		],
@@ -736,7 +784,9 @@
 		"replaces": "Class Skills; 3rd, 7th, and 15th-level Revelations",
 		"replace_array": [
 			"Class Skills",
-			"3rd, 7th, and 15th-level Revelations"
+			"3rd-level Revelation",
+			"7th-level Revelation",
+			"15th-level Revelation"
 		],
 		"short_description": "Through her exploration of the universe's mysteries, a spirit guide opens connections to the spirit world and forms bonds with the entities that inhabit it.",
 		"description": [
@@ -764,7 +814,7 @@
 		"sources": [ "Ultimate Magic" ],
 		"replaces": "Mystery Bonus Spells; 1st-level Revelation; 7th-level Revelation",
 		"replace_array": [
-			"Mystery Bonus Spells",
+			"Bonus Spells",
 			"1st-level Revelation",
 			"7th-level Revelation"
 		],
@@ -795,10 +845,16 @@
 		"replaces": "Class Skills; Weapon and Armor Proficiency; 2nd, 10th, 12th, 14th, 16th, 18th-level Mystery Bonus Spells; Oracle's Curse; 1st, 11th-level Revelation; Final Revelation",
 		"replace_array": [
 			"Class Skills",
-			"Weapon and Armor Proficiency",
-			"2nd, 10th, 12th, 14th, 16th, 18th-level Mystery Bonus Spells",
+			"Weapon/Armor Proficiency",
+			"2nd-level Bonus Spell",
+			"10th-level Bonus Spell",
+			"12th-level Bonus Spell",
+			"14th-level Bonus Spell",
+			"16th-level Bonus Spell",
+			"18th-level Bonus Spell",
 			"Oracle's Curse",
-			"1st, 11th-level Revelation",
+			"1st-level Revelation",
+			"11th-level Revelation",
 			"Final Revelation"
 		],
 		"short_description": "Tree souls develop an affinity not just with trees but also with objects carved from them, feeling the essence of the tree's spirit living within.",
@@ -841,7 +897,10 @@
 		"sources": [ "Advanced Class Guide" ],
 		"replaces": "1st, 7th, 11th, and 15th-level Revelations",
 		"replace_array": [
-			"1st, 7th, 11th, and 15th-level Revelations"
+			"1st-level Revelation",
+			"7th-level Revelation",
+			"11th-level Revelation",
+			"15th-level Revelation"
 		],
 		"short_description": "A warsighted's unique gifts are not in strange magical revelations, but in her ability to adapt in the midst of a battle with new fighting techniques.",
 		"description": [

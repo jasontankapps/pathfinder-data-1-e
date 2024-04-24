@@ -3,11 +3,14 @@
 		"name": "Aerial Assaulter",
 		"file": "archetypedisplay4d73.html",
 		"sources": [ "Blood of the Ancients" ],
-		"replaces": "Class Skills; Bravery; 2nd, 12th-level Bonus Feat, Armor Mastery, Weapon Mastery",
+		"replaces": "Class Skills; Bravery; 2nd, 12th-level Bonus Feat; Armor Mastery; Weapon Mastery",
 		"replace_array": [
 			"Class Skills",
 			"Bravery",
-			"2nd, 12th-level Bonus Feat, Armor Mastery, Weapon Mastery"
+			"2nd-level Bonus Feat",
+			"12th-level Bonus Feat",
+			"Armor Mastery",
+			"Weapon Mastery"
 		],
 		"short_description": "Aerial assaulters leap to great heights and create higher ground where there is none.",
 		"description": [
@@ -46,7 +49,7 @@
 			"Weapon/Armor Proficiency",
 			"Class Skills",
 			"Bravery",
-			"Weapon Training 1-4"
+			"Weapon Training"
 		],
 		"short_description": "(Strix Only) Driven by suspicion and hatred, strix doggedly guard their territories, making deadly use of their flight.",
 		"description": [
@@ -78,7 +81,9 @@
 		"replaces": "Armor Training; 6th, 8th, 10th-level Bonus Feat",
 		"replace_array": [
 			"Armor Training",
-			"6th, 8th, 10th-level Bonus Feat"
+			"6th-level Bonus Feat",
+			"8th-level Bonus Feat",
+			"10th-level Bonus Feat"
 		],
 		"short_description": "Trained warrior in the art of the Aldori dueling sword.",
 		"description": [
@@ -116,9 +121,9 @@
 		"replace_array": [
 			"Armor Proficiency",
 			"Bravery",
-			"Armor Training 1-4",
+			"Armor Training",
 			"Armor Mastery",
-			"Weapon Training 1-4"
+			"Weapon Training"
 		],
 		"short_description": "Aquanaut fighters master the movement of water, using its flow to their advantage in combat.",
 		"description": [
@@ -155,8 +160,8 @@
 		"replaces": "Bravery; Armor Training 1-4; Weapon Training 1-4; Armor Mastery",
 		"replace_array": [
 			"Bravery",
-			"Armor Training 1-4",
-			"Weapon Training 1-4",
+			"Armor Training",
+			"Weapon Training",
 			"Armor Mastery"
 		],
 		"short_description": "The archer is dedicated to the careful mastery of the bow, perfecting his skills with years of practice.",
@@ -192,8 +197,9 @@
 		"replaces": "Class Skills; Skill Points; 1st, 10th-level Bonus Feats; Bravery",
 		"replace_array": [
 			"Class Skills",
-			"Skill Points",
-			"1st, 10th-level Bonus Feats",
+			"Skill Ranks",
+			"1st-level Bonus Feat",
+			"10th-level Bonus Feat",
 			"Bravery"
 		],
 		"short_description": "Fighters who focus their training to become Hellknights.",
@@ -229,7 +235,7 @@
 		"replaces": "Bravery; Weapon Training 1-4; Armor Mastery; Weapon Mastery",
 		"replace_array": [
 			"Bravery",
-			"Weapon Training 1-4",
+			"Weapon Training",
 			"Armor Mastery",
 			"Weapon Mastery"
 		],
@@ -255,9 +261,10 @@
 		"sources": [ "Ultimate Combat" ],
 		"replaces": "Armor Training 1-4; Weapon Training 1-4; Armor Mastery, Weapon Mastery",
 		"replace_array": [
-			"Armor Training 1-4",
-			"Weapon Training 1-4",
-			"Armor Mastery, Weapon Mastery"
+			"Armor Training",
+			"Weapon Training",
+			"Armor Mastery",
+			"Weapon Mastery"
 		],
 		"short_description": "All melee is up close and personal, but some warriors bring it as close as they can get.",
 		"description": [
@@ -287,8 +294,8 @@
 		"replace_array": [
 			"Weapon/Armor Proficiency",
 			"Bravery",
-			"Armor Training 1-4",
-			"Weapon Training 1-4",
+			"Armor Training",
+			"Weapon Training",
 			"Weapon Mastery"
 		],
 		"short_description": "In combat, most fighters have some sort of code of honor. Some believe that one should not kick enemies when they are down, or should limit use of other such dirty tricks to the most dire of circumstances. The cad places no such limitations on himself.",
@@ -310,7 +317,7 @@
 			"",
 			"**Deadly Surprise (Ex):** At 7th level, when a cad hits an opponent that is denied its Dexterity bonus to AC against him with a weapon or unarmed attack, he may attempt a dirty trick combat maneuver as an immediate action as part of the attack. This ability replaces armor training 2.",
 			"",
-			"**Razor-Sharp Chair Leg (Ex):** At 9th level, as a swift action, a cad may alter the type of damage dealt by an improvised weapon to bludgeoning, piercing, or slashing damage. In addition, the cad has a critical threat range of 19-20/??2 with any improvised melee weapon. This ability replaces weapon training 2.",
+			"**Razor-Sharp Chair Leg (Ex):** At 9th level, as a swift action, a cad may alter the type of damage dealt by an improvised weapon to bludgeoning, piercing, or slashing damage. In addition, the cad has a critical threat range of 19-20/x2 with any improvised melee weapon. This ability replaces weapon training 2.",
 			"",
 			"**Craven Combatant (Ex):** At 11th level, when fighting defensively or using Combat Expertise or total defense, a cad cannot be flanked except by a rogue or ninja whose level is four or more higher than the cad's fighter level. This ability replaces armor training 3.",
 			"",
@@ -332,7 +339,7 @@
 			"Weapon/Armor Proficiency",
 			"Class Skills",
 			"Bravery",
-			"Weapon Training 1-4",
+			"Weapon Training",
 			"Weapon Mastery"
 		],
 		"short_description": "Like a bounty hunter following his own rules, a Calistrian hunter tracks down elusive prey using his wits and delivers long-overdue retribution while easily ignoring his own injuries thanks to the joy he receives from a job well done.",
@@ -366,9 +373,10 @@
 		"replaces": "Class Skills; 1st, 4th-level Fighter Bonus Feats; Bravery; Weapon Training 1-4; Weapon Mastery",
 		"replace_array": [
 			"Class Skills",
-			"1st, 4th-level Fighter Bonus Feats",
+			"1st-level Bonus Feat",
+			"4th-level Bonus Feat",
 			"Bravery",
-			"Weapon Training 1-4",
+			"Weapon Training",
 			"Weapon Mastery"
 		],
 		"short_description": "(Drow Only) Perfectly at home in the darkness, the cavern sniper capitalizes on stealth and ranged attacks imbued with his spell-like abilities to harass his opponents.",
@@ -400,8 +408,13 @@
 		"replaces": "Weapon/Armor Proficiency; Skills; 1st, 2nd, 8th, 12th, 16th, and 20th-level Combat Feats; Armor Training; Weapon Training",
 		"replace_array": [
 			"Weapon/Armor Proficiency",
-			"Skills",
-			"1st, 2nd, 8th, 12th, 16th, and 20th-level Combat Feats",
+			"Class Skills",
+			"1st-level Bonus Feat",
+			"2nd-level Bonus Feat",
+			"8th-level Bonus Feat",
+			"12th-level Bonus Feat",
+			"16th-level Bonus Feat",
+			"20th-level Bonus Feat",
 			"Armor Training",
 			"Weapon Training"
 		],
@@ -465,8 +478,8 @@
 		"sources": [ "Advanced Player's Guide" ],
 		"replaces": "Armor Training 1-4; Weapon Training 1-4; Armor Mastery",
 		"replace_array": [
-			"Armor Training 1-4",
-			"Weapon Training 1-4",
+			"Armor Training",
+			"Weapon Training",
 			"Armor Mastery"
 		],
 		"short_description": "The crossbowman has perfected the deadly use of the crossbow, a simple but cruelly efficient weapon, as a craftsman mastering a lethal tool.",
@@ -504,7 +517,8 @@
 		"replaces": "Weapon Training 1; Armor Training 2 and 4; Armor Mastery",
 		"replace_array": [
 			"Weapon Training 1",
-			"Armor Training 2 and 4",
+			"Armor Training 2",
+			"Armor Training 4",
 			"Armor Mastery"
 		],
 		"short_description": "Cyber-soldiers replace fallible flesh with precisioncrafted machinery.",
@@ -528,7 +542,7 @@
 		"replaces": "Bravery; Weapon Training 1-4",
 		"replace_array": [
 			"Bravery",
-			"Weapon Training 1-4"
+			"Weapon Training"
 		],
 		"short_description": "(Orc Only) The dirty fighter laughs at concepts like honor and fair play. He cares only for victory, no matter how he achieves it, and spends as much time mastering sneaky combat maneuvers as he does drilling with weapons or learning how to wear armor.",
 		"description": [
@@ -553,7 +567,9 @@
 		"replaces": "Class Skills; 1st, 3rd, 5th-level Bonus Feats; Bravery; Armor Training; Armor Mastery; Weapon Mastery",
 		"replace_array": [
 			"Class Skills",
-			"1st, 3rd, 5th-level Bonus Feats",
+			"1st-level Bonus Feat",
+			"3rd-level Bonus Feat",
+			"5th-level Bonus Feat",
 			"Bravery",
 			"Armor Training",
 			"Armor Mastery",
@@ -618,8 +634,10 @@
 		"replace_array": [
 			"Weapon/Armor Proficiency",
 			"1st-level Bonus Feat",
-			"Weapon Training 1-4",
-			"Armor Training 2-4",
+			"Weapon Training",
+			"Armor Training 2",
+			"Armor Training 3",
+			"Armor Training 4",
 			"Weapon Mastery"
 		],
 		"short_description": "These gallant lancers serve in the vanguard of many armies or as knights-errant.",
@@ -653,7 +671,7 @@
 		"replaces": "Bravery; Weapon Training 1-4",
 		"replace_array": [
 			"Bravery",
-			"Weapon Training 1-4"
+			"Weapon Training"
 		],
 		"short_description": "Drill sergeants excel at training other combatants in fighting techniques.",
 		"description": [
@@ -677,10 +695,13 @@
 		"name": "Druman Blackjacket",
 		"file": "archetypedisplay954d.html",
 		"sources": [ "Inner Sea Combat" ],
-		"replaces": "Bravery; 4th, 8th, 12th, 16th-level Bonus Feats;",
+		"replaces": "Bravery; 4th, 8th, 12th, 16th-level Bonus Feats",
 		"replace_array": [
 			"Bravery",
-			"4th, 8th, 12th, 16th-level Bonus Feats;"
+			"4th-level Bonus Feat",
+			"8th-level Bonus Feat",
+			"12th-level Bonus Feat",
+			"16th-level Bonus Feat"
 		],
 		"short_description": "Known as the Blackjackets, the elite soldiers of Druma are and always have been mercenaries rather than a standing army.",
 		"description": [
@@ -709,7 +730,8 @@
 		"replaces": "Class Skills; 1st and 2nd-level Bonus Feats; Bravery",
 		"replace_array": [
 			"Class Skills",
-			"1st and 2nd-level Bonus Feats",
+			"1st-level Bonus Feat",
+			"2nd-level Bonus Feat",
 			"Bravery"
 		],
 		"short_description": "Eldritch guardians are trained to detect and give warning about magic threats to the people and places they protect.",
@@ -734,8 +756,10 @@
 		"sources": [ "Advanced Race Guide" ],
 		"replaces": "Armor Training 1-4; Weapon Training 2-4; Armor Mastery; Weapon Mastery",
 		"replace_array": [
-			"Armor Training 1-4",
-			"Weapon Training 2-4",
+			"Armor Training",
+			"Weapon Training 2",
+			"Weapon Training 3",
+			"Weapon Training 4",
 			"Armor Mastery",
 			"Weapon Mastery"
 		],
@@ -774,8 +798,8 @@
 		"replaces": "Bravery; Armor Training 1-4; Weapon Training 1-4; Armor Mastery",
 		"replace_array": [
 			"Bravery",
-			"Armor Training 1-4",
-			"Weapon Training 1-4",
+			"Armor Training",
+			"Weapon Training",
 			"Armor Mastery"
 		],
 		"short_description": "The free hand fighter specializes in the delicate art of handling a single weapon in one hand while using his free hand to balance, block, tip, and distract his opponents.",
@@ -830,7 +854,7 @@
 		"replaces": "Class Skills; Armor Proficiencies; Armor Training; Weapon Training",
 		"replace_array": [
 			"Class Skills",
-			"Armor Proficiencies",
+			"Armor Proficiency",
 			"Armor Training",
 			"Weapon Training"
 		],
@@ -876,7 +900,9 @@
 		"replaces": "Class Skills; 1st, 2nd, 4th-level Bonus Feats; Bravery",
 		"replace_array": [
 			"Class Skills",
-			"1st, 2nd, 4th-level Bonus Feats",
+			"1st-level Bonus Feat",
+			"2nd-level Bonus Feat",
+			"4th-level Bonus Feat",
 			"Bravery"
 		],
 		"short_description": "High guardians epitomize personal devotion, serving as the shield that protects his lord from the myriad dangers around every corner.",
@@ -915,7 +941,7 @@
 		"sources": [ "Adventurer's Guide" ],
 		"replaces": "Armor Proficiencies; Bravery; 2nd-level Bonus Feat; Armor Training; Armor Mastery",
 		"replace_array": [
-			"Armor Proficiencies",
+			"Armor Proficiency",
 			"Bravery",
 			"2nd-level Bonus Feat",
 			"Armor Training",
@@ -957,9 +983,9 @@
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"replaces": "Medium Armor, Heavy Armor, and Shield Proficiency; Bravery 1; Armor Training 1-4; Armor Mastery",
 		"replace_array": [
-			"Medium Armor, Heavy Armor, and Shield Proficiency",
+			"Armor Proficiency",
 			"Bravery 1",
-			"Armor Training 1-4",
+			"Armor Training",
 			"Armor Mastery"
 		],
 		"short_description": "Lore wardens are fighters who benefit from learning to outsmart and outmaneuver their foes rather than just overpower them.",
@@ -1022,8 +1048,9 @@
 		"replaces": "Bravery; Weapon Training 1-4; Armor Training 3-4; Weapon Mastery",
 		"replace_array": [
 			"Bravery",
-			"Weapon Training 1-4",
-			"Armor Training 3-4",
+			"Weapon Training",
+			"Armor Training 3",
+			"Armor Training 4",
 			"Weapon Mastery"
 		],
 		"short_description": "Where some fighters focus on strength and raw power, the mobile fighter relies on swiftness and mobility, gliding across the battlefield like a steel whirlwind and leaving destruction in his wake.",
@@ -1070,7 +1097,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"replaces": "Armor Training 1-4; Armor Mastery",
 		"replace_array": [
-			"Armor Training 1-4",
+			"Armor Training",
 			"Armor Mastery"
 		],
 		"short_description": "While most fighters rely on physical fitness and rigorous training to achieve martial superiority, a few prefer to create and imbibe dangerous concoctions that mutate them into fearsome creatures.",
@@ -1089,11 +1116,16 @@
 		"name": "Opportunist",
 		"file": "archetypedisplayfebc.html",
 		"sources": [ "Blood of the Beast" ],
-		"replaces": "Class Skils; Bravery; 1st, 4th, 8th, 12th, 16th, 20th-level Bonus Feat; Weapon Training 1",
+		"replaces": "Class Skills; Bravery; 1st, 4th, 8th, 12th, 16th, 20th-level Bonus Feat; Weapon Training 1",
 		"replace_array": [
-			"Class Skils",
+			"Class Skills",
 			"Bravery",
-			"1st, 4th, 8th, 12th, 16th, 20th-level Bonus Feat",
+			"1st-level Bonus Feat",
+			"4th-level Bonus Feat",
+			"8th-level Bonus Feat",
+			"12th-level Bonus Feat",
+			"16th-level Bonus Feat",
+			"20th-level Bonus Feat",
 			"Weapon Training 1"
 		],
 		"short_description": "Opportunists believe every battle is one of wits rather than arms.",
@@ -1115,17 +1147,17 @@
 			"",
 			"This ability replaces the bonus feats gained at 4th, 8th, 12th, 16th, and 20th levels.",
 			"",
-			"**Alchemical Admixture (Ex):** As a full round action that provokes an attack of opportunity, the opportunist can combine two alchemical weapons into a single vial. When thrown as a splash weapon, the mixture has the effects of both component substances and targets are affected as if hit by both. The mixture becomes inert after 1 hour. Combining identical alchemical weapons has no effect. The opportunist can use this ability once per day for every 4 fighter levels he has.",
+			"*Alchemical Admixture (Ex):* As a full round action that provokes an attack of opportunity, the opportunist can combine two alchemical weapons into a single vial. When thrown as a splash weapon, the mixture has the effects of both component substances and targets are affected as if hit by both. The mixture becomes inert after 1 hour. Combining identical alchemical weapons has no effect. The opportunist can use this ability once per day for every 4 fighter levels he has.",
 			"",
-			"**Alchemical Refinement (Ex):** The opportunist increases the save DC of any alchemical item he crafts by 1 for every 3 fighter levels he has. Doing so increases the raw material cost to craft that item by 10 gp for every +1 increase. This bonus applies only when the opportunist uses the crafted alchemical item himself; it functions as a normal item of its type for all other users.",
+			"*Alchemical Refinement (Ex):* The opportunist increases the save DC of any alchemical item he crafts by 1 for every 3 fighter levels he has. Doing so increases the raw material cost to craft that item by 10 gp for every +1 increase. This bonus applies only when the opportunist uses the crafted alchemical item himself; it functions as a normal item of its type for all other users.",
 			"",
-			"**Bombs (Ex):** The opportunist can make a number of bombs per day equal to his Intelligence modifier (minimum 1). These bombs act as alchemist's bombs and deal 1d6 points of fire damage, plus an additional 1d6 points for every 3 fighter levels the opportunist has.",
+			"*Bombs (Ex):* The opportunist can make a number of bombs per day equal to his Intelligence modifier (minimum 1). These bombs act as alchemist's bombs and deal 1d6 points of fire damage, plus an additional 1d6 points for every 3 fighter levels the opportunist has.",
 			"",
-			"**Clouded Shift (Ex):** As part of the standard action to ignite a smokestick or smoke pellet (Pathfinder RPG Ultimate Equipment 105), the opportunist can take a 5-foot step, even if he has already moved this round. He can use this ability only if he has not already taken a 5-foot step this round, and only if the smoke from his alchemical tool conceals his starting location.",
+			"*Clouded Shift (Ex):* As part of the standard action to ignite a smokestick or smoke pellet (Pathfinder RPG Ultimate Equipment 105), the opportunist can take a 5-foot step, even if he has already moved this round. He can use this ability only if he has not already taken a 5-foot step this round, and only if the smoke from his alchemical tool conceals his starting location.",
 			"",
-			"**Poison Use (Ex):** The opportunist no longer risks poisoning himself when applying poison to a weapon.",
+			"*Poison Use (Ex):* The opportunist no longer risks poisoning himself when applying poison to a weapon.",
 			"",
-			"**Rogue Talent (Ex):** The opportunist can select one of the following rogue talents for which he qualifies, treating his fighter level as his rogue level: deft palm, fast fingers, fast stealth, honeyed words, lasting poison, minor magic, or quick trapsmith. The opportunist can select this edge multiple times.",
+			"*Rogue Talent (Ex):* The opportunist can select one of the following rogue talents for which he qualifies, treating his fighter level as his rogue level: deft palm, fast fingers, fast stealth, honeyed words, lasting poison, minor magic, or quick trapsmith. The opportunist can select this edge multiple times.",
 			"",
 			"**Alchemical Onslaught (Ex):** At 5th level, an opportunist gains a +1 bonus on attack rolls with alchemical weapons and bombs and can add his Intelligence modifier to damage rolls for splash weapons. He can draw an alchemical weapon as a free action once per round.",
 			"",
@@ -1141,7 +1173,7 @@
 			"Skill Ranks",
 			"1st-level Bonus Feat",
 			"Bravery",
-			"Armor Training 1-4",
+			"Armor Training",
 			"Armor Mastery"
 		],
 		"short_description": "Pack mules carry heavy loads with ease and small packages with discretion.",
@@ -1171,8 +1203,8 @@
 		"replaces": "Bravery; Armor Training 1-4; Weapon Training 1-4; Weapon Mastery",
 		"replace_array": [
 			"Bravery",
-			"Armor Training 1-4",
-			"Weapon Training 1-4",
+			"Armor Training",
+			"Weapon Training",
 			"Weapon Mastery"
 		],
 		"short_description": "The phalanx soldier specializes in defensive tactics, using his shield to guard himself and his allies and forming a shield wall like an unbreakable anvil against which his enemies break.",
@@ -1208,8 +1240,8 @@
 		"replaces": "Bravery; Armor Training 1-4; Weapon Training 1-4; Armor Mastery",
 		"replace_array": [
 			"Bravery",
-			"Armor Training 1-4",
-			"Weapon Training 1-4",
+			"Armor Training",
+			"Weapon Training",
 			"Armor Mastery"
 		],
 		"short_description": "The polearm master is schooled in the ancient wisdom that enemies are best faced at the end of long striking pole.",
@@ -1242,7 +1274,7 @@
 		"sources": [ "Inner Sea Primer" ],
 		"replaces": "Armor Training 1-4",
 		"replace_array": [
-			"Armor Training 1-4"
+			"Armor Training"
 		],
 		"short_description": "Spinning warrior dervish of Sarenrae, wielding a scimitar with devastating consequences.",
 		"description": [
@@ -1296,8 +1328,8 @@
 		"replaces": "Bravery; Armor Training 1-4; Weapon Training 1-4; Armor Mastery",
 		"replace_array": [
 			"Bravery",
-			"Armor Training 1-4",
-			"Weapon Training 1-4",
+			"Armor Training",
+			"Weapon Training",
 			"Armor Mastery"
 		],
 		"short_description": "Roughriders study and practice the fine points of mounted combat, drilling endlessly with warbeasts-from noble thoroughbreds to trained monsters-to form a perfect synergy between rider and steed.",
@@ -1331,7 +1363,7 @@
 		"replaces": "Bravery; Weapon Training 1-4; Weapon Mastery",
 		"replace_array": [
 			"Bravery",
-			"Weapon Training 1-4",
+			"Weapon Training",
 			"Weapon Mastery"
 		],
 		"short_description": "Warriors' might is not measured only by their skill with steel, but also by their ability to inflict death with fang and claw, horn and hoof, and every exotic appendage the natural and unnatural world has to offer.",
@@ -1385,11 +1417,13 @@
 		"sources": [ "Villain Codex" ],
 		"replaces": "Armor Proficiencies; Skill Ranks per Level; Class Skills; 1st-level Bonus Feat; Armor Training 1, 3, 4; Weapon Training",
 		"replace_array": [
-			"Armor Proficiencies",
-			"Skill Ranks per Level",
+			"Armor Proficiency",
+			"Skill Ranks",
 			"Class Skills",
 			"1st-level Bonus Feat",
-			"Armor Training 1, 3, 4",
+			"Armor Training 1",
+			"Armor Training 3",
+			"Armor Training 4",
 			"Weapon Training"
 		],
 		"short_description": "The seasoned commander excels at leading troops through inspiration and the use of unit tactics.",
@@ -1435,10 +1469,12 @@
 		"replaces": "Class Skills; Weapon/Armor Proficiencies; Bravery; Armor Training 1-4; Weapon Training 2-4; Armor Mastery; Weapon Mastery",
 		"replace_array": [
 			"Class Skills",
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Bravery",
-			"Armor Training 1-4",
-			"Weapon Training 2-4",
+			"Armor Training",
+			"Weapon Training 2",
+			"Weapon Training 3",
+			"Weapon Training 4",
 			"Armor Mastery",
 			"Weapon Mastery"
 		],
@@ -1476,8 +1512,8 @@
 		"sources": [ "Advanced Player's Guide" ],
 		"replaces": "Armor Training 1-4; Weapon Training 1-4; Armor Mastery; Weapon Mastery",
 		"replace_array": [
-			"Armor Training 1-4",
-			"Weapon Training 1-4",
+			"Armor Training",
+			"Weapon Training",
 			"Armor Mastery",
 			"Weapon Mastery"
 		],
@@ -1509,7 +1545,10 @@
 		"sources": [ "Heroes of the Streets" ],
 		"replaces": "1st, 2nd, 4th, and 8th-level Bonus Feats; Bravery; Weapon Mastery",
 		"replace_array": [
-			"1st, 2nd, 4th, and 8th-level Bonus Feats",
+			"1st-level Bonus Feat",
+			"2nd-level Bonus Feat",
+			"4th-level Bonus Feat",
+			"8th-level Bonus Feat",
 			"Bravery",
 			"Weapon Mastery"
 		],
@@ -1542,7 +1581,7 @@
 		],
 		"replaces": "Armor Proficiencies; Class Skills; Skill Ranks; 2nd-level Bonus Feat; Bravery; Armor Training; Armor Mastery",
 		"replace_array": [
-			"Armor Proficiencies",
+			"Armor Proficiency",
 			"Class Skills",
 			"Skill Ranks",
 			"2nd-level Bonus Feat",
@@ -1601,7 +1640,7 @@
 		"replaces": "Class Skills; Armor Proficiencies; Bravery; Armor Training; Armor Mastery; Weapon Training; Weapon Mastery",
 		"replace_array": [
 			"Class Skills",
-			"Armor Proficiencies",
+			"Armor Proficiency",
 			"Bravery",
 			"Armor Training",
 			"Armor Mastery",
@@ -1642,8 +1681,8 @@
 		"sources": [ "Haunted Heroes Handbook" ],
 		"replaces": "1st level Bonus Feat; Weapon Training 1-4",
 		"replace_array": [
-			"1st level Bonus Feat",
-			"Weapon Training 1-4"
+			"1st-level Bonus Feat",
+			"Weapon Training"
 		],
 		"short_description": "A fighter who has impressive martial resolve and technique with a specific weapon as the result of a powerful relationship a similar weapon had with one of his??ancestors.",
 		"description": [
@@ -1682,9 +1721,14 @@
 		"replaces": "Weapon/Armor Proficiency; 1st, 2nd, 6th, 10th, 14th, 18th-level Bonus Feats; Bravery; Weapon Training 1-4; Weapon Mastery",
 		"replace_array": [
 			"Weapon/Armor Proficiency",
-			"1st, 2nd, 6th, 10th, 14th, 18th-level Bonus Feats",
+			"1st-level Bonus Feat",
+			"2nd-level Bonus Feat",
+			"6th-level Bonus Feat",
+			"10th-level Bonus Feat",
+			"14th-level Bonus Feat",
+			"18th-level Bonus Feat",
 			"Bravery",
-			"Weapon Training 1-4",
+			"Weapon Training",
 			"Weapon Mastery"
 		],
 		"short_description": "(Kobold Only) Scuttling between the legs of friend and foe alike, the swarm fighter is an unshakable combatant.",
@@ -1813,7 +1857,8 @@
 			"1st-level Bonus Feat",
 			"Bravery",
 			"Weapon Training 1",
-			"Armor Training 3, 4"
+			"Armor Training 3",
+			"Armor Training 4"
 		],
 		"short_description": "While many fighters focus on the fundamentals of melee and ranged combat, there are those who are trained to view the bigger picture on the battlefield.",
 		"description": [
@@ -1843,7 +1888,9 @@
 		"sources": [ "Inner Sea Primer" ],
 		"replaces": "Armor Training 1-3, Bravery, Weapon Training 1",
 		"replace_array": [
-			"Armor Training 1-3",
+			"Armor Training 1",
+			"Armor Training 2",
+			"Armor Training 3",
 			"Bravery",
 			"Weapon Training 1"
 		],
@@ -1873,8 +1920,9 @@
 		"sources": [ "Ultimate Combat" ],
 		"replaces": "Armor Training 1-4; Weapon Training 3-4; Armor Mastery",
 		"replace_array": [
-			"Armor Training 1-4",
-			"Weapon Training 3-4",
+			"Armor Training",
+			"Weapon Training 3",
+			"Weapon Training 4",
 			"Armor Mastery"
 		],
 		"short_description": "The thunderstriker adopts an unusual fighting style, gripping a heavy weapon with both hands and switching to a defensive posture with weapon and buckler, lashing out with the shield with surprising speed and power.",
@@ -1930,7 +1978,7 @@
 		"replaces": "Bravery; Weapon Training 1-4; Weapon Mastery",
 		"replace_array": [
 			"Bravery",
-			"Weapon Training 1-4",
+			"Weapon Training",
 			"Weapon Mastery"
 		],
 		"short_description": "Many fighters believe the tower shield is a tool suitable only for troops on the battlefield, claiming it is too large and bulky to use in skirmishes or within dungeon corridors.",
@@ -1959,7 +2007,7 @@
 		"sources": [ "Pathfinder #71: Rasputin Must Die!" ],
 		"replaces": "Armor Training 1-4",
 		"replace_array": [
-			"Armor Training 1-4"
+			"Armor Training"
 		],
 		"short_description": "Advances in technology have made archaic armors obsolete by the twentieth century, and modern soldiers concentrate training on firearms and swift feet.",
 		"description": [
@@ -2025,7 +2073,7 @@
 		"replaces": "Bravery; Armor Training 1-4; Armor Mastery",
 		"replace_array": [
 			"Bravery",
-			"Armor Training 1-4",
+			"Armor Training",
 			"Armor Mastery"
 		],
 		"short_description": "Some fighters focus their efforts on finding the biggest, heaviest, most imposing weapon they can find and training to manage and harness the weight of their massive weapons for maximum impact.",
@@ -2056,8 +2104,8 @@
 		"sources": [ "Advanced Player's Guide" ],
 		"replaces": "Armor Training 1-4; Weapon Training 1-4; Armor Mastery",
 		"replace_array": [
-			"Armor Training 1-4",
-			"Weapon Training 1-4",
+			"Armor Training",
+			"Weapon Training",
 			"Armor Mastery"
 		],
 		"short_description": "Trained under great masters who preached the simple truth that two are better than one when it comes to weapons, the two-weapon warrior is a terror when his hands are full.",
@@ -2093,9 +2141,10 @@
 			"Weapon/Armor Proficiency",
 			"1st-level Bonus Feat",
 			"Bravery",
-			"Armor Training 1-4",
-			"Weapon Training 1-4",
-			"8th, 12th-level Bonus Feat",
+			"Armor Training",
+			"Weapon Training",
+			"8th-level Bonus Feat",
+			"12th-level Bonus Feat",
 			"Armor Mastery",
 			"Weapon Mastery"
 		],
@@ -2140,8 +2189,9 @@
 			"Weapon/Armor Proficiency",
 			"1st-level Bonus Feat",
 			"Bravery",
-			"Weapon Training 1-4",
-			"Armor Training 3-4",
+			"Weapon Training",
+			"Armor Training 3",
+			"Armor Training 4",
 			"Weapon Mastery"
 		],
 		"short_description": "The unbreakable is a warrior of indomitable will, unstoppable and implacable once he has set his mind upon a course of action.",
@@ -2180,7 +2230,7 @@
 		"replace_array": [
 			"Weapon/Armor Proficiency",
 			"1st-level Bonus Feat",
-			"Weapon Training 1-4"
+			"Weapon Training"
 		],
 		"short_description": "The University of Lepidstadt has developed a reputation for churning out fearsome duelists. At the end of each academic year, the students all gather together and duel one another with light blades. Each student duels one opponent after another until he is marked on the cheek by an adversary's blade. These \"Lepidstadt scars\" are recognized throughout the Inner Sea region and beyond as marks of their prowess. The Lepidstadt Style is one of fluid motion and precise thrusts.",
 		"description": [
@@ -2209,7 +2259,10 @@
 		"replaces": "Class Skills; 1st, 6th, 10th, and 12th-level Bonus Feats; Weapon Training; Weapon Mastery; Armor Training",
 		"replace_array": [
 			"Class Skills",
-			"1st, 6th, 10th, and 12th-level Bonus Feats",
+			"1st-level Bonus Feat",
+			"6th-level Bonus Feat",
+			"10th-level Bonus Feat",
+			"12th-level Bonus Feat",
 			"Weapon Training",
 			"Weapon Mastery",
 			"Armor Training"
@@ -2234,7 +2287,9 @@
 		"sources": [],
 		"replaces": "1st, 6th, 12th-level Bonus Feat; Bravery",
 		"replace_array": [
-			"1st, 6th, 12th-level Bonus Feat",
+			"1st-level Bonus Feat",
+			"6th-level Bonus Feat",
+			"12th-level Bonus Feat",
 			"Bravery"
 		],
 		"short_description": "(Nagaji) The venomblade has learned to take full advantage of his toxic spittle, blinding his targets and then rushing in to cut them down where they stand.",
@@ -2266,7 +2321,7 @@
 		],
 		"replaces": "Weapon/Armor Proficiencies; Bravery; Armor Training; Weapon Training; Bonus Feats",
 		"replace_array": [
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Bravery",
 			"Armor Training",
 			"Weapon Training",
@@ -2307,7 +2362,7 @@
 		"replaces": "Class Skills; Weapon and Armor Proficiency; Armor Training; Armor Mastery",
 		"replace_array": [
 			"Class Skills",
-			"Weapon and Armor Proficiency",
+			"Weapon/Armor Proficiency",
 			"Armor Training",
 			"Armor Mastery"
 		],
@@ -2376,8 +2431,8 @@
 		"replaces": "Bravery; Armor Training 1-4; Weapon Training 1-4; Armor Mastery",
 		"replace_array": [
 			"Bravery",
-			"Armor Training 1-4",
-			"Weapon Training 1-4",
+			"Armor Training",
+			"Weapon Training",
 			"Armor Mastery"
 		],
 		"short_description": "Devoted to the perfection of a single weapon, the weapon master's meditations upon his favored weapon border on the obsessive, but none can deny his consummate skill.",

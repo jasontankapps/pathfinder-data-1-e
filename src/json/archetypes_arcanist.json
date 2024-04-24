@@ -3,9 +3,11 @@
 		"name": "Aeromancer",
 		"file": "archetypedisplay0a5a.html",
 		"sources": [],
-		"replaces": "1st, 5th, 11th-level Arcane Exploit",
+		"replaces": "1st, 5th, 11th-level Arcanist Exploit",
 		"replace_array": [
-			"1st, 5th, 11th-level Arcane Exploit"
+			"1st-level Arcanist Exploit",
+			"5th-level Arcanist Exploit",
+			"11th-level Arcanist Exploit"
 		],
 		"short_description": "While the practice of aeromancy is rare, some arcanists today are able to rival the aerial mastery of the ancient Shory aeromancers.",
 		"description": [
@@ -35,7 +37,9 @@
 		"sources": [ "Construct Handbook" ],
 		"replaces": "1st, 5th, 11th-level Arcanist Exploit",
 		"replace_array": [
-			"1st, 5th, 11th-level Arcanist Exploit"
+			"1st-level Arcanist Exploit",
+			"5th-level Arcanist Exploit",
+			"11th-level Arcanist Exploit"
 		],
 		"short_description": "Arcane tinkerers use their knowledge and understanding of magic to disrupt or even destroy constructs",
 		"description": [
@@ -59,7 +63,9 @@
 		"sources": [ "Advanced Class Guide" ],
 		"replaces": "1st, 3rd, and 9th-level Arcanist Exploits",
 		"replace_array": [
-			"1st, 3rd, and 9th-level Arcanist Exploits"
+			"1st-level Arcanist Exploit",
+			"3rd-level Arcanist Exploit",
+			"9th-level Arcanist Exploit"
 		],
 		"short_description": "A small number of arcanists learn to use blades as part of their spellcasting and in combat.",
 		"description": [
@@ -91,7 +97,10 @@
 		"sources": [ "Advanced Class Guide" ],
 		"replaces": "1st, 3rd, 9th, and 15th-level Arcanist Exploits; Magical Supremacy",
 		"replace_array": [
-			"1st, 3rd, 9th, and 15th-level Arcanist Exploits",
+			"1st-level Arcanist Exploit",
+			"3rd-level Arcanist Exploit",
+			"9th-level Arcanist Exploit",
+			"15th-level Arcanist Exploit",
 			"Magical Supremacy"
 		],
 		"short_description": "Though most arcanists possess only a rudimentary innate arcane gift, the blood arcanist has the full power of a bloodline to draw upon.",
@@ -114,7 +123,8 @@
 		"sources": [ "Advanced Class Guide" ],
 		"replaces": "3rd and 9th-level Arcanist Exploits; Magical Supremacy",
 		"replace_array": [
-			"3rd and 9th-level Arcanist Exploits",
+			"3rd-level Arcanist Exploit",
+			"9th-level Arcanist Exploit",
 			"Magical Supremacy"
 		],
 		"short_description": "Frequently called \"brown-furs,\" these transmutation-focused arcanists are known for transforming themselves into animals.",
@@ -137,7 +147,9 @@
 		"sources": [ "Advanced Class Guide" ],
 		"replaces": "3rd, 7th, and 13th-level Arcanist Exploits; Magical Supremacy",
 		"replace_array": [
-			"3rd, 7th, and 13th-level Arcanist Exploits",
+			"3rd-level Arcanist Exploit",
+			"7th-level Arcanist Exploit",
+			"13th-level Arcanist Exploit",
 			"Magical Supremacy"
 		],
 		"short_description": "For some arcanists, the power bubbling up from within is nearly too much to contain.",
@@ -164,7 +176,11 @@
 		"sources": [ "Advanced Class Guide" ],
 		"replaces": "1st, 3rd, 9th, 11th, and 15th-level Arcanist Exploits",
 		"replace_array": [
-			"1st, 3rd, 9th, 11th, and 15th-level Arcanist Exploits"
+			"1st-level Arcanist Exploit",
+			"3rd-level Arcanist Exploit",
+			"9th-level Arcanist Exploit",
+			"11th-level Arcanist Exploit",
+			"15th-level Arcanist Exploit"
 		],
 		"short_description": "Arcanists with an affinity for elemental forces sometimes focus on one and display its power in everything they do.",
 		"description": [
@@ -190,7 +206,8 @@
 		"sources": [ "Occult Origins" ],
 		"replaces": "1st and 9th-level Arcanist Exploits; Consume Spells",
 		"replace_array": [
-			"1st and 9th-level Arcanist Exploits",
+			"1st-level Arcanist Exploit",
+			"9th-level Arcanist Exploit",
 			"Consume Spells"
 		],
 		"short_description": "Based out of Varisia's Twilight Academy, the secretive Harrowed Society focuses its efforts on the intellectual study of the region's supernatural quirks and hidden history, and embraces the use of the harrow deck to examine the world's occult mysteries.",
@@ -233,7 +250,10 @@
 		"replaces": "Alignment; 1st, 5th, 9th, 17th-level Arcanist Exploit",
 		"replace_array": [
 			"Alignment",
-			"1st, 5th, 9th, 17th-level Arcanist Exploit"
+			"1st-level Arcanist Exploit",
+			"5th-level Arcanist Exploit",
+			"9th-level Arcanist Exploit",
+			"17th-level Arcanist Exploit"
 		],
 		"short_description": "Aspiring students of the Magaambya often spend decades researching arcane magic while learning to follow in the footsteps of the academy's founder, Old-Mage Jatembe.",
 		"description": [
@@ -269,7 +289,8 @@
 		"sources": [ "Advanced Class Guide" ],
 		"replaces": "1st and 7th-level Arcanist Exploits; Magical Supremacy",
 		"replace_array": [
-			"1st and 7th-level Arcanist Exploits",
+			"1st-level Arcanist Exploit",
+			"7th-level Arcanist Exploit",
 			"Magical Supremacy"
 		],
 		"short_description": "Not all arcanists peer inward to discern the deepest secrets of magic. Some look outward, connecting with extraplanar creatures and bartering for secrets, power, and favor.",
@@ -294,7 +315,9 @@
 		"sources": [ "Advanced Class Guide" ],
 		"replaces": "1st, 3rd, and 7th-level Arcanist Exploits",
 		"replace_array": [
-			"1st, 3rd, and 7th-level Arcanist Exploits"
+			"1st-level Arcanist Exploit",
+			"3rd-level Arcanist Exploit",
+			"7th-level Arcanist Exploit"
 		],
 		"short_description": "Some arcanists specialize in a school of magic and trade flexibility for focus.",
 		"description": [
@@ -314,7 +337,10 @@
 		"sources": [ "Advanced Class Guide" ],
 		"replaces": "1st, 7th, 13th, and 19th-level Arcanist Exploits",
 		"replace_array": [
-			"1st, 7th, 13th, and 19th-level Arcanist Exploits"
+			"1st-level Arcanist Exploit",
+			"7th-level Arcanist Exploit",
+			"13th-level Arcanist Exploit",
+			"19th-level Arcanist Exploit"
 		],
 		"short_description": "Where most arcanists are broad in their study of magic, a spell specialist has her power focused in a few spells.",
 		"description": [
@@ -343,8 +369,9 @@
 		"replaces": "Consume Spells; Spells; 1st and 11th-level Arcanist Exploits; Magical Supremacy",
 		"replace_array": [
 			"Consume Spells",
-			"Spells",
-			"1st and 11th-level Arcanist Exploits",
+			"Spellcasting",
+			"1st-level Arcanist Exploit",
+			"11th-level Arcanist Exploit",
 			"Magical Supremacy"
 		],
 		"short_description": "The twilight sages of Geb carry out experiments to solve the ultimate puzzle and unlock the secrets of life and death. While the twilight sages generally aren't actively malicious, most are willing to perform human experimentation in pursuit of knowledge with little regard for the casualties.",
@@ -372,7 +399,7 @@
 		"replaces": "Spellbooks; Spells",
 		"replace_array": [
 			"Spellbooks",
-			"Spells"
+			"Spellcasting"
 		],
 		"short_description": "Some arcanists store their spells as whispered secrets within familiars instead of on paper.",
 		"description": [
@@ -392,7 +419,8 @@
 		"sources": [ "Advanced Class Guide" ],
 		"replaces": "1st and 9th-level Arcanist Exploits",
 		"replace_array": [
-			"1st and 9th-level Arcanist Exploits"
+			"1st-level Arcanist Exploit",
+			"9th-level Arcanist Exploit"
 		],
 		"short_description": "A white mage is an arcanist touched by a divine power and gifted with the ability to heal others.",
 		"description": [

@@ -74,7 +74,7 @@
 		"replaces": "Class Skills; Weapon/Armor Proficiencies; Mount; Cavalier's Charge; Expert Trainer; Mighty Charge",
 		"replace_array": [
 			"Class Skills",
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Mount",
 			"Cavalier's Charge",
 			"Expert Trainer",
@@ -215,7 +215,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"replaces": "Weapon/Armor Proficiencies; Mount; Cavalier's Charge; Expert Trainer; Mighty Charge; Supreme Charge",
 		"replace_array": [
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Mount",
 			"Cavalier's Charge",
 			"Expert Trainer",
@@ -246,9 +246,9 @@
 		"name": "Daring General",
 		"file": "archetypedisplay3a4f.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "6th, 12th, 18th-level Bonus Feats; Demanding Challenge; Supreme Charge",
+		"replaces": "Bonus Feats; Demanding Challenge; Supreme Charge",
 		"replace_array": [
-			"6th, 12th, 18th-level Bonus Feats",
+			"Bonus Feats",
 			"Demanding Challenge",
 			"Supreme Charge"
 		],
@@ -336,15 +336,15 @@
 		"name": "Drakerider",
 		"file": "archetypedisplaya383.html",
 		"sources": [ "Legacy of Dragons" ],
-		"replaces": "Mount; Tactcian; Expert Trainer; Banner; Greater Tactician; Greater Banner; Master Tactician;",
+		"replaces": "Mount; Tactician; Expert Trainer; Banner; Greater Tactician; Greater Banner; Master Tactician",
 		"replace_array": [
 			"Mount",
-			"Tactcian",
+			"Tactician",
 			"Expert Trainer",
 			"Banner",
 			"Greater Tactician",
 			"Greater Banner",
-			"Master Tactician;"
+			"Master Tactician"
 		],
 		"short_description": "While many cavaliers dream of riding a dragon into battle, drakeriders come to learn that the reality involves far more effort than they had expected.",
 		"description": [
@@ -476,7 +476,7 @@
 		"replaces": "Class Skills; Weapon Proficiencies; Mount; Order",
 		"replace_array": [
 			"Class Skills",
-			"Weapon Proficiencies",
+			"Weapon Proficiency",
 			"Mount",
 			"Order"
 		],
@@ -818,14 +818,14 @@
 		"name": "Hussar",
 		"file": "archetypedisplay0b08.html",
 		"sources": [],
-		"replaces": "Armor Proficiencies; Class Skills; Tactician; Banner; Greater Banner; 6th, 12th, 18th-level Bonus Feats; Greater Tactician; Master Tactician",
+		"replaces": "Armor Proficiencies; Class Skills; Tactician; Banner; Greater Banner; Bonus Feats; Greater Tactician; Master Tactician",
 		"replace_array": [
-			"Armor Proficiencies",
+			"Armor Proficiency",
 			"Class Skills",
 			"Tactician",
 			"Banner",
 			"Greater Banner",
-			"6th, 12th, 18th-level Bonus Feats",
+			"Bonus Feats",
 			"Greater Tactician",
 			"Master Tactician"
 		],
@@ -1045,7 +1045,7 @@
 		],
 		"replaces": "Weapon and Armor Proficiency; Mount; Tactician; Cavalier's Charge; 6th-level Bonus Feat; Greater Tactician; Master Tactician",
 		"replace_array": [
-			"Weapon and Armor Proficiency",
+			"Weapon/Armor Proficiency",
 			"Mount",
 			"Tactician",
 			"Cavalier's Charge",
@@ -1093,13 +1093,13 @@
 		"name": "Saurian Champion",
 		"file": "archetypedisplayef03.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Class Skills; Weapon/Armor Proficiencies; Challenge; Order; Cavalier's Mount; Tactician; Greater Tactician; Master Tactician; Banner; Greater Banner",
+		"replaces": "Class Skills; Weapon/Armor Proficiencies; Challenge; Order; Mount; Tactician; Greater Tactician; Master Tactician; Banner; Greater Banner",
 		"replace_array": [
 			"Class Skills",
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Challenge",
 			"Order",
-			"Cavalier's Mount",
+			"Mount",
 			"Tactician",
 			"Greater Tactician",
 			"Master Tactician",
@@ -1202,12 +1202,12 @@
 		"name": "Spellscar Drifter",
 		"file": "archetypedisplay260c.html",
 		"sources": [ "Inner Sea Combat" ],
-		"replaces": "Weapon/Armor Proficiency; Tactician; Cavalier's Charge; Banner Cavalier; Bonus Feats; Greater Tactician; Mighty Charge; Demanding Challenge; Master Tactician; Supreme Charge",
+		"replaces": "Weapon/Armor Proficiency; Tactician; Cavalier's Charge; Banner; Bonus Feats; Greater Tactician; Mighty Charge; Demanding Challenge; Master Tactician; Supreme Charge",
 		"replace_array": [
 			"Weapon/Armor Proficiency",
 			"Tactician",
 			"Cavalier's Charge",
-			"Banner Cavalier",
+			"Banner",
 			"Bonus Feats",
 			"Greater Tactician",
 			"Mighty Charge",

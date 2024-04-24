@@ -7,7 +7,9 @@
 		"replace_array": [
 			"Uncanny Dodge",
 			"Improved Uncanny Dodge",
-			"6th, 12th, and 18th-level Bloodline Feats"
+			"6th-level Bloodline Feat",
+			"12th-level Bloodline Feat",
+			"18th-level Bloodline Feat"
 		],
 		"short_description": "While all bloodragers tap into their bloodlines to fuel the arcane energies they use in battle, some have the ability to call directly to the spirits of their ancestors to aid them, summoning spirits to fight for them or inspire their allies.",
 		"description": [
@@ -145,10 +147,13 @@
 		"replaces": "Spellcasting; 1st, 4th-level Bloodline Power; Bloodrage; Bonus Spells; 7th, 13th, 19th-level Damage Reduction",
 		"replace_array": [
 			"Spellcasting",
-			"1st, 4th-level Bloodline Power",
+			"1st-level Bloodline Power",
+			"4th-level Bloodline Power",
 			"Bloodrage",
 			"Bonus Spells",
-			"7th, 13th, 19th-level Damage Reduction"
+			"7th-level Damage Reduction",
+			"13th-level Damage Reduction",
+			"19th-level Damage Reduction"
 		],
 		"short_description": "Troubled by overwhelming rage and mystic forces beyond their comprehension, bloodragers have been traveling to the Magaambya for generations, seeking the peace and enlightenment promised by students of Old-Mage Jatembe.",
 		"description": [
@@ -187,7 +192,8 @@
 		"replaces": "Blood Sanctuary; 6th and 9th-level Bloodline Feats",
 		"replace_array": [
 			"Blood Sanctuary",
-			"6th and 9th-level Bloodline Feats"
+			"6th-level Bloodline Feat",
+			"9th-level Bloodline Feat"
 		],
 		"short_description": "Typically, nature finds its greatest harmony with divine magic, but sometimes a connection with the natural world manifest itself through the arcane current in the veins of the bloodragers called greenragers.",
 		"description": [
@@ -209,7 +215,7 @@
 		"sources": [ "Blood of the Coven" ],
 		"replaces": "Weapon/Armor Proficiencies; Fast Movement; Uncanny Dodge; Improved Uncanny Dodge; Damage Reduction",
 		"replace_array": [
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Fast Movement",
 			"Uncanny Dodge",
 			"Improved Uncanny Dodge",
@@ -339,7 +345,9 @@
 		"replaces": "Bloodline Powers; 9th, 12th, 15th-level Bloodline Feats; Greater Bloodrage; Mighty Bloodrage",
 		"replace_array": [
 			"Bloodline Powers",
-			"9th, 12th, 15th-level Bloodline Feats",
+			"9th-level Bloodline Feat",
+			"12th-level Bloodline Feat",
+			"15th-level Bloodline Feat",
 			"Greater Bloodrage",
 			"Mighty Bloodrage"
 		],
@@ -452,8 +460,10 @@
 		"replace_array": [
 			"Class Skills",
 			"Fast Movement",
-			"6th, 9th, 12th, 18th-level Bloodline Feats",
-			""
+			"6th-level Bloodline Feat",
+			"9th-level Bloodline Feat",
+			"12th-level Bloodline Feat",
+			"18th-level Bloodline Feat"
 		],
 		"short_description": "Symbol strikers are unique form of rune-wielding berserker spellcasters whose tradition originates from Dongun Hold, a Sky Citadel in Alkenstar",
 		"description": [
@@ -487,7 +497,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"replaces": "Spells; Blood Casting; Eschew Materials; Bloodline Spells",
 		"replace_array": [
-			"Spells",
+			"Spellcasting",
 			"Blood Casting",
 			"Eschew Materials",
 			"Bloodline Spells"
@@ -511,7 +521,7 @@
 		"replaces": "Class Skills; Weapon/Armor Proficiencies; Bloodrage; Blood Sanctuary; Damage Reduction",
 		"replace_array": [
 			"Class Skills",
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Bloodrage",
 			"Blood Sanctuary",
 			"Damage Reduction"

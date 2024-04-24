@@ -5,7 +5,7 @@
 		"sources": [ "Monster Hunter's Handbook" ],
 		"replaces": "Domains; Stern Gaze; Detect Alignment; Discern Lies",
 		"replace_array": [
-			"Domains",
+			"Domain",
 			"Stern Gaze",
 			"Detect Alignment",
 			"Discern Lies"
@@ -77,9 +77,9 @@
 		"name": "Cold Iron Warden",
 		"file": "archetypedisplayaca8.html",
 		"sources": [ "Demon Hunter's Handbook" ],
-		"replaces": "3rd, 6th, 9th, 12th, 15th, 18th-level Teamwork Feats; Bane; Discern Lies",
+		"replaces": "Teamwork Feats; Bane; Discern Lies",
 		"replace_array": [
-			"3rd, 6th, 9th, 12th, 15th, 18th-level Teamwork Feats",
+			"Teamwork Feats",
 			"Bane",
 			"Discern Lies"
 		],
@@ -164,7 +164,7 @@
 			"",
 			"**Closed Mind (Su):** An exorcist inquisitor must close off her mind to deny her enemies even a foothold. At 17th level, the inquisitor becomes immune to compulsion effects and possession attempts (including magic jar). This ability replaces slayer.",
 			"",
-			"**Verdict of Anathema (Su):** At 20th level, an inquisitor using judgment can unleash the verdict of anathema on her enemies. When she does, her judgment ends, and all enemy creatures within 10 feet are affected by her verdict of exorcism. This ability replaces true judgement."
+			"**Verdict of Anathema (Su):** At 20th level, an inquisitor using judgment can unleash the verdict of anathema on her enemies. When she does, her judgment ends, and all enemy creatures within 10 feet are affected by her verdict of exorcism. This ability replaces true judgment."
 		]
 	},
 	{
@@ -207,10 +207,11 @@
 		"name": "Faith Hunter",
 		"file": "archetypedisplay3ec8.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Domain; Justice, Destruction Judgement; Detect Alignment",
+		"replaces": "Domain; Justice, Destruction Judgment; Detect Alignment",
 		"replace_array": [
 			"Domain",
-			"Justice, Destruction Judgement",
+			"Justice Judgment",
+			"Destruction Judgment",
 			"Detect Alignment"
 		],
 		"short_description": "Certain relentless inquisitors burn with special hatred for an enemy of specific convictions, and they stop at nothing when obsessively hunting these foes down.",
@@ -220,7 +221,7 @@
 			"**Source** [Ultimate Intrigue pg. 28](source:Ultimate_Intrigue)   ",
 			"Certain relentless inquisitors burn with special hatred for an enemy of specific convictions, and they stop at nothing when obsessively hunting these foes down.",
 			"",
-			"**Sworn Enemy (Sp, Su):** A faith hunter chooses a single alignment (such as chaotic evil, rather than simply chaotic or evil) that directly opposes her own along either the law/ chaos axis or the good/evil axis (so a lawful good faith hunter can choose chaotic good, chaotic neutral, chaotic evil, neutral evil, or lawful evil, whereas a neutral good faith hunter can only choose chaotic evil, neutral evil, or lawful evil). Creatures of this alignment are her sworn enemies. She can detect creatures of that specific alignment at will, functioning as detect evil, except this ability works only on creatures and detects the specific alignment.",
+			"**Sworn Enemy (Sp, Su):** A faith hunter chooses a single alignment (such as chaotic evil, rather than simply chaotic or evil) that directly opposes her own along either the law/chaos axis or the good/evil axis (so a lawful good faith hunter can choose chaotic good, chaotic neutral, chaotic evil, neutral evil, or lawful evil, whereas a neutral good faith hunter can only choose chaotic evil, neutral evil, or lawful evil). Creatures of this alignment are her sworn enemies. She can detect creatures of that specific alignment at will, functioning as detect evil, except this ability works only on creatures and detects the specific alignment.",
 			"",
 			"At 6th level, once per day as a swift action, a faith hunter can smite one foe she can see. If the foe is of the faith hunter's sworn enemy alignment, the faith hunter gains a +4 sacred bonus on attack rolls against that foe and a sacred bonus equal to half her inquisitor level on damage rolls made against the foe. Smites against targets of the faith hunter's sworn enemy alignment automatically bypass any DR the creature might possess. If the faith hunter targets a creature that is not of her sworn enemy alignment, the smite is wasted with no effect.",
 			"",
@@ -440,12 +441,12 @@
 		"name": "Keeper of Construct",
 		"file": "archetypedisplay8faf.html",
 		"sources": [ "People of the Wastes" ],
-		"replaces": "Domain; Stern Gaze; Monster Lore; Exploid Weakness",
+		"replaces": "Domain; Stern Gaze; Monster Lore; Exploit Weakness",
 		"replace_array": [
 			"Domain",
 			"Stern Gaze",
 			"Monster Lore",
-			"Exploid Weakness"
+			"Exploit Weakness"
 		],
 		"short_description": "Some of Brigh's inquisitors, and occasionally those who follow Torag, track down malicious construct crafters and fight renegade constructs with unrivaled expertise.",
 		"description": [
@@ -551,18 +552,18 @@
 		"name": "Living Grimoire",
 		"file": "archetypedisplay6fe2.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Monster Lore; Spellcasting; Cunning Initiative; Orisons; Judgement; Bane; Greater Bane; Second Judgement; Third Judgement; True Judgement",
+		"replaces": "Monster Lore; Spellcasting; Cunning Initiative; Orisons; Judgment; Bane; Greater Bane; Second Judgment; Third Judgment; True Judgment",
 		"replace_array": [
 			"Monster Lore",
 			"Spellcasting",
 			"Cunning Initiative",
 			"Orisons",
-			"Judgement",
+			"Judgment",
 			"Bane",
 			"Greater Bane",
-			"Second Judgement",
-			"Third Judgement",
-			"True Judgement"
+			"Second Judgment",
+			"Third Judgment",
+			"True Judgment"
 		],
 		"short_description": "The living grimoire literally wields the sacred word of his deity, using his holy tome to smite the foes of his god with divine might.",
 		"description": [
@@ -700,7 +701,7 @@
 		"replace_array": [
 			"Alignment",
 			"Domain",
-			"Spells",
+			"Add Spells",
 			"3rd-level Teamwork Feat"
 		],
 		"short_description": "For generations, the catfolk of Murraseth have viewed the cults of Angazhan with loathing and hatred, and they believe it is their sacred duty to hunt down the followers of the Ravener King and expel them from the Material Plane",
@@ -805,7 +806,7 @@
 			"Stern Gaze",
 			"Detect Alignment",
 			"Solo Tactics",
-			"Teamwork Bonus Feats"
+			"Teamwork Feats"
 		],
 		"short_description": "Royal accusers serve the prince of Ustalav, cutting through the nation's baroque politics and quietly facing its many threats.",
 		"description": [
@@ -1184,11 +1185,11 @@
 		"name": "Umbral Stalker",
 		"file": "archetypedisplayafc4.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Domain; Justice Judgement",
+		"replaces": "Class Skills; Domain; Justice Judgment",
 		"replace_array": [
 			"Class Skills",
 			"Domain",
-			"Justice Judgement"
+			"Justice Judgment"
 		],
 		"short_description": "As a consummate lurker in the shadows, an umbral stalker observes the enemies of her faith and strikes before the unfortunate victims even know she is skulking nearby.",
 		"description": [
@@ -1258,9 +1259,10 @@
 		"sources": [ "Inner Sea Magic" ],
 		"replaces": "Altered Judgments (Purity, Smiting); Detect Alignment; Altered Bane",
 		"replace_array": [
-			"Altered Judgments (Purity, Smiting)",
+			"Purity Judgment",
+			"Smiting Judgment",
 			"Detect Alignment",
-			"Altered Bane"
+			"Bane"
 		],
 		"short_description": "The vampire hunter believes that the worst of undead are the ones with unnatural appetities for flesh and blood.",
 		"description": [
@@ -1288,12 +1290,12 @@
 		"name": "Vigilant Defender",
 		"file": "archetypedisplay2d89.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Judgement; Stern Gaze; Exploit Weakness; True Judgement",
+		"replaces": "Judgment; Stern Gaze; Exploit Weakness; True Judgment",
 		"replace_array": [
-			"Judgement",
+			"Judgment",
 			"Stern Gaze",
 			"Exploit Weakness",
-			"True Judgement"
+			"True Judgment"
 		],
 		"short_description": "Some inquisitors focus more on protecting those who share their faiths and their ideals than on actively hunting their enemies.",
 		"description": [

@@ -79,7 +79,9 @@
 			"No Trace",
 			"Uncanny Dodge",
 			"Improved Uncanny Dodge",
-			"10th, 12th, 16th-level Ninja Trick"
+			"10th-level Ninja Trick",
+			"12th-level Ninja Trick",
+			"16th-level Ninja Trick"
 		],
 		"short_description": "Hunting serpents are specially trained killers to that hunt relentlessly and fight from the shadows.",
 		"description": [
@@ -111,7 +113,7 @@
 		"sources": [ "Disciple's Doctrine" ],
 		"replaces": "Weapon and Armor Proficiency; Poison Use; Ki Pool; No Trace",
 		"replace_array": [
-			"Weapon and Armor Proficiency",
+			"Weapon/Armor Proficiency",
 			"Poison Use",
 			"Ki Pool",
 			"No Trace"

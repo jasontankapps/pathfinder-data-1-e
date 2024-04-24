@@ -37,7 +37,9 @@
 		"replaces": "Fast Movement; 4th, 8th, 12th-level Rage Power",
 		"replace_array": [
 			"Fast Movement",
-			"4th, 8th, 12th-level Rage Power"
+			"4th-level Rage Power",
+			"8th-level Rage Power",
+			"12th-level Rage Power"
 		],
 		"short_description": "While some barbarians take on bestial aspects in their rages, the beastkin berserker descends so deeply into primal fury that she actually transforms into an animal.",
 		"description": [
@@ -116,7 +118,7 @@
 		"sources": [ "Ultimate Wilderness" ],
 		"replaces": "Skills; Fast Movement; Uncanny Dodge; Improved Uncanny Dodge; Trap Sense; 6th-level Rage Power",
 		"replace_array": [
-			"Skills",
+			"Class Skills",
 			"Fast Movement",
 			"Uncanny Dodge",
 			"Improved Uncanny Dodge",
@@ -159,7 +161,7 @@
 		"sources": [ "Ultimate Wilderness" ],
 		"replaces": "Skills; Fast Movement; Trap Sense; Damage Reduction",
 		"replace_array": [
-			"Skills",
+			"Class Skills",
 			"Fast Movement",
 			"Trap Sense",
 			"Damage Reduction"
@@ -339,11 +341,11 @@
 		"name": "Fearsome Defender",
 		"file": "archetypedisplay7308.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Fast Movement; Uncanny Dodge; Trapsense; Improved Uncanny Dodge",
+		"replaces": "Fast Movement; Uncanny Dodge; Trap Sense; Improved Uncanny Dodge",
 		"replace_array": [
 			"Fast Movement",
 			"Uncanny Dodge",
-			"Trapsense",
+			"Trap Sense",
 			"Improved Uncanny Dodge"
 		],
 		"short_description": "These savage slaves feel little pain and exist only to rain terror down on the enemies of their pitiless masters.",
@@ -379,7 +381,11 @@
 			"Weapon/Armor Proficiency",
 			"Fast Movement",
 			"2nd-level Rage Power",
-			"Trap Sense 1-5",
+			"Trap Sense +1",
+			"Trap Sense +2",
+			"Trap Sense +3",
+			"Trap Sense +4",
+			"Trap Sense +5",
 			"Improved Uncanny Dodge"
 		],
 		"short_description": "(Goblin Only) Feral gnashers grow up in the wild, either raised by animals or scraping by on their own, and soon learn to fend for themselves.",
@@ -391,7 +397,7 @@
 			"",
 			"**Weapon and Armor Proficiency:** A feral gnasher loses all martial weapon proficiencies except for greatclub and loses proficiency with medium armor.",
 			"",
-			"**Savage Bite (Ex):** At 1st level, a feral gnasher gains a savage bite attack. This is a primary natural attack that deals 1d4 points of damage. If the goblin already has the hard head, big teeth racial trait, the damage increases to 1d6. At 10th level, the damage from a feral gnasher's bite increases to 1d6 (or 1d8 if the goblin has the hard head, big teeth racial trait) and deals ??3 damage on a critical hit. This ability replaces fast movement.",
+			"**Savage Bite (Ex):** At 1st level, a feral gnasher gains a savage bite attack. This is a primary natural attack that deals 1d4 points of damage. If the goblin already has the hard head, big teeth racial trait, the damage increases to 1d6. At 10th level, the damage from a feral gnasher's bite increases to 1d6 (or 1d8 if the goblin has the hard head, big teeth racial trait) and deals x3 damage on a critical hit. This ability replaces fast movement.",
 			"",
 			"**Impromptu Armament (Ex):** At 2nd level, a feral gnasher gains [Throw Anything](feat:Throw_Anything) as a bonus feat and can pick up an unattended object that can be wielded in one hand as a free action. Additionally, the feral gnasher can take [Catch Off-Guard](feat:Catch_Off-Guard) in place of a rage power. This replaces the rage power gained at second level.",
 			"",
@@ -415,7 +421,9 @@
 		"replaces": "Rage; 2nd, 8th, and 14th-level Rage Powers; Greater Rage; Mighty Rage",
 		"replace_array": [
 			"Rage",
-			"2nd, 8th, and 14th-level Rage Powers",
+			"2nd-level Rage Power",
+			"8th-level Rage Power",
+			"14th-level Rage Power",
 			"Greater Rage",
 			"Mighty Rage"
 		],
@@ -449,7 +457,9 @@
 			"Class Skills",
 			"Rage",
 			"Trap Sense",
-			"4th, 8th, 12th-level Rage Powers"
+			"4th-level Rage Power",
+			"8th-level Rage Power",
+			"12th-level Rage Power"
 		],
 		"short_description": "Geminate invokers are barbarians who use Rivethun traditions to invite spirits into their bodies.",
 		"description": [
@@ -528,7 +538,10 @@
 		"replaces": "Rage; 2nd, 8th, 14th, 20th-level Rage Powers; Uncanny Dodge; Trap Sense +3",
 		"replace_array": [
 			"Rage",
-			"2nd, 8th, 14th, 20th-level Rage Powers",
+			"2nd-level Rage Power",
+			"8th-level Rage Power",
+			"14th-level Rage Power",
+			"20th-level Rage Power",
 			"Uncanny Dodge",
 			"Trap Sense +3"
 		],
@@ -632,7 +645,11 @@
 		"sources": [ "Animal Archive" ],
 		"replaces": "2nd, 6th, 10th, 14th, 18th-level Rage Powers; Rage; Uncanny Dodge; Improved Uncanny Dodge; Damage Reduction; Indomitable Will",
 		"replace_array": [
-			"2nd, 6th, 10th, 14th, 18th-level Rage Powers",
+			"2nd-level Rage Power",
+			"6th-level Rage Power",
+			"10th-level Rage Power",
+			"14th-level Rage Power",
+			"18th-level Rage Power",
 			"Rage",
 			"Uncanny Dodge",
 			"Improved Uncanny Dodge",
@@ -669,9 +686,8 @@
 		"name": "Mooncursed",
 		"file": "archetypedisplaye5a2.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Race; Rage; Improved Uncanny Dodge; Greater Rage; Mighty Rage",
+		"replaces": "Rage; Improved Uncanny Dodge; Greater Rage; Mighty Rage",
 		"replace_array": [
-			"Race",
 			"Rage",
 			"Improved Uncanny Dodge",
 			"Greater Rage",
@@ -794,7 +810,11 @@
 		"sources": [ "Monster Codex" ],
 		"replaces": "2nd, 6th, 10th, 14th, and 18th-level Rage Powers; Damage Reduction",
 		"replace_array": [
-			"2nd, 6th, 10th, 14th, and 18th-level Rage Powers",
+			"2nd-level Rage Power",
+			"6th-level Rage Power",
+			"10th-level Rage Power",
+			"14th-level Rage Power",
+			"18th-level Rage Power",
 			"Damage Reduction"
 		],
 		"short_description": "Barbarian rages can be a thing of savage beauty, exhibiting a lethal grace. While such uncontrolled displays of carnage often disregard group tactics, there are those barbarians whose rages inspire and spur on their allies during the ferocious dance of death.",
@@ -912,10 +932,10 @@
 		"name": "Savage Technologist",
 		"file": "archetypedisplaybe0d.html",
 		"sources": [ "Technology Guide" ],
-		"replaces": "Class Skills; Weapon/Armor Proficiencies; Rage; Uncanny Dodge; Improved Uncanny Dodge",
+		"replaces": "Class Skills; Weapon/Armor Proficiency; Rage; Uncanny Dodge; Improved Uncanny Dodge",
 		"replace_array": [
 			"Class Skills",
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Rage",
 			"Uncanny Dodge",
 			"Improved Uncanny Dodge"
@@ -1010,7 +1030,8 @@
 			"Uncanny Dodge",
 			"Improved Uncanny Dodge",
 			"Trap Sense",
-			"6th and 12th-level Rage Powers"
+			"6th-level Rage Power",
+			"12th-level Rage Power"
 		],
 		"short_description": "Coastal hunters and agents of the ocean's rage, sharptooth barbarians emulate the greatest predators of the sea.",
 		"description": [
@@ -1047,7 +1068,10 @@
 			"Fast Movement",
 			"Uncanny Dodge",
 			"Trap Sense",
-			"4th, 8th, 12th, 16th-level Rage Powers",
+			"4th-level Rage Power",
+			"8th-level Rage Power",
+			"12th-level Rage Power",
+			"16th-level Rage Power",
 			"Improved Uncanny Dodge"
 		],
 		"short_description": "The Shoanti tribes who live in the Cinderlands have turned the deadly emberstorms that plague the region into a rite of passage. A few who survive the experience begin to embrace the adrenaline and surge of joy that comes from dancing along the edge of a whirling firestorm. These thrill-seekers are known as burn riders, and their exploits are celebrated by all Shoanti.",
@@ -1259,9 +1283,9 @@
 		"name": "Wildborn",
 		"file": "archetypedisplayfa20.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Weapon/Armor Proficiencies; Trap Sense; Rage Powers; Damage Reduction",
+		"replaces": "Weapon/Armor Proficiency; Trap Sense; Rage Powers; Damage Reduction",
 		"replace_array": [
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Trap Sense",
 			"Rage Powers",
 			"Damage Reduction"
@@ -1273,7 +1297,7 @@
 			"**Source** [Ultimate Wilderness pg. 39](source:Ultimate_Wilderness)   ",
 			"Some barbarians are born or bred outside the reach of civilization. These wildborn fight and survive without ever seeing a forge or worked stone, and only dare a trip into the city when no other option is available.",
 			"",
-			"**Weapon and Armor Proficiencies:** A wildborn is proficient with leather and hide armors (but not shields) and all simple weapons that can be crafted from bone, stone, or wood. In addition, a wildborn gains [Improved Unarmed Strike](feat:Improved_Unarmed_Strike) and [Catch Off-Guard](feat:Catch_Off-Guard) as bonus feats at 1st level. If she uses any other kind of weapon or armor, she loses her abilities from this archetype (except illiteracy) for the next 24 hours.",
+			"**Weapon and Armor Proficiency:** A wildborn is proficient with leather and hide armors (but not shields) and all simple weapons that can be crafted from bone, stone, or wood. In addition, a wildborn gains [Improved Unarmed Strike](feat:Improved_Unarmed_Strike) and [Catch Off-Guard](feat:Catch_Off-Guard) as bonus feats at 1st level. If she uses any other kind of weapon or armor, she loses her abilities from this archetype (except illiteracy) for the next 24 hours.",
 			"",
 			"This alters the barbarian's normal weapon and armor proficiencies.",
 			"",

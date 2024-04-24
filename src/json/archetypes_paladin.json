@@ -481,10 +481,11 @@
 		"name": "Ghost Hunter",
 		"file": "archetypedisplaycefd.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Smite Evil; 6th and 9th-level Mercies",
+		"replaces": "Smite Evil; 6th and 9th-level Mercy",
 		"replace_array": [
 			"Smite Evil",
-			"6th and 9th-level Mercies"
+			"6th-level Mercy",
+			"9th-level Mercy"
 		],
 		"short_description": "Ghost hunters devote their lives to eliminating malevolent spirits and putting them to rest.",
 		"description": [
@@ -504,7 +505,7 @@
 		"name": "Gray Paladin",
 		"file": "archetypedisplay4e66.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Alignment Restriction; Code of Conduct; Aura of Good; Class Skills; Smite Evil; Divine Grace; Aura of Courage; Aura of Resolve; Aura of Rightousness; Divine Health; Channel Positive Energy; Aura of Justice",
+		"replaces": "Alignment Restriction; Code of Conduct; Aura of Good; Class Skills; Smite Evil; Divine Grace; Aura of Courage; Aura of Resolve; Aura of Righteousness; Divine Health; Channel Positive Energy; Aura of Justice",
 		"replace_array": [
 			"Alignment Restriction",
 			"Code of Conduct",
@@ -514,7 +515,7 @@
 			"Divine Grace",
 			"Aura of Courage",
 			"Aura of Resolve",
-			"Aura of Rightousness",
+			"Aura of Righteousness",
 			"Divine Health",
 			"Channel Positive Energy",
 			"Aura of Justice"
@@ -562,7 +563,8 @@
 		"replaces": "Class Skills; 3rd and 6th-level Mercies",
 		"replace_array": [
 			"Class Skills",
-			"3rd and 6th-level Mercies"
+			"3rd-level Mercy",
+			"6th-level Mercy"
 		],
 		"short_description": "A holy guide believes that it's his sacred calling to clear the roads of bandits between towns as well as to escort travelers to safety.",
 		"description": [
@@ -680,10 +682,10 @@
 		"replaces": "Class Skills; Armor Proficiencies; Smite Evil; Detect Evil; Spells; Aura of Resolve",
 		"replace_array": [
 			"Class Skills",
-			"Armor Proficiencies",
+			"Armor Proficiency",
 			"Smite Evil",
 			"Detect Evil",
-			"Spells",
+			"Spellcasting",
 			"Aura of Resolve"
 		],
 		"short_description": "Hunting paladins are tenacious trackers and stealthy stalkers in pursuit of evildoers.",
@@ -854,7 +856,9 @@
 			"Class Skills",
 			"Skill Ranks",
 			"Detect Evil",
-			"3rd, 9th, 15th-level Mercy"
+			"3rd-level Mercy",
+			"9th-level Mercy",
+			"15th-level Mercy"
 		],
 		"short_description": "Knights of coins promote fair trade and stable commerce between cities and between nations.",
 		"description": [
@@ -1021,9 +1025,9 @@
 			"Detect Evil",
 			"Aura of Courage",
 			"Aura of Resolve",
-			"Spells",
+			"Spellcasting",
 			"Divine Bond",
-			"Channel Energy"
+			"Channel Positive Energy"
 		],
 		"short_description": "Some paladins are called to their faith by strange empathic visions and dreams that beckon them to the oceans and beyond.",
 		"description": [
@@ -1216,10 +1220,10 @@
 		"replaces": "Divine Bond; Channel Energy; Aura of Justice; Aura of Righteousness; Spells",
 		"replace_array": [
 			"Divine Bond",
-			"Channel Energy",
+			"Channel Positive Energy",
 			"Aura of Justice",
 			"Aura of Righteousness",
-			"Spells"
+			"Spellcasting"
 		],
 		"short_description": "Drake-riding paladins who serve as priests of Apsu.",
 		"description": [
@@ -1251,7 +1255,8 @@
 		"sources": [ "Horror Adventures" ],
 		"replaces": "6th, 12th-level Mercy; Aura of Justice",
 		"replace_array": [
-			"6th, 12th-level Mercy",
+			"6th-level Mercy",
+			"12th-level Mercy",
 			"Aura of Justice"
 		],
 		"short_description": "Soul sentinels use the strength of their resolve to stem the tide of corruption and insanity, as they believe that the greatest tragedy is a soul lost to evil when it was within their power to save it.",
@@ -1282,8 +1287,12 @@
 		"replace_array": [
 			"Smite Evil",
 			"Divine Grace",
-			"3rd, 9th, 12th, 15th, 18th-level Mercies",
-			"Spells",
+			"3rd-level Mercy",
+			"9th-level Mercy",
+			"12th-level Mercy",
+			"15th-level Mercy",
+			"18th-level Mercy",
+			"Spellcasting",
 			"Channel Positive Energy",
 			"Divine Bond",
 			"Aura of Justice",
@@ -1369,7 +1378,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"replaces": "Spells; Divine Bond; Aura of Justice",
 		"replace_array": [
-			"Spells",
+			"Spellcasting",
 			"Divine Bond",
 			"Aura of Justice"
 		],
@@ -1394,12 +1403,13 @@
 		"replaces": "Key Ability Score; Skills; Detect Evil; Divine Grace; Smite Evil; Lay on Hands; Channel Energy; Divine Bond; Aura of Courage; Aura of Resolve; Aura of Faith; Aura of Righteousness; Aura of Justice ; Lay on Hands",
 		"replace_array": [
 			"Key Ability Score",
-			"Skills",
+			"Class Skills",
+			"Skill Ranks",
 			"Detect Evil",
 			"Divine Grace",
 			"Smite Evil",
 			"Lay on Hands",
-			"Channel Energy",
+			"Channel Positive Energy",
 			"Divine Bond",
 			"Aura of Courage",
 			"Aura of Resolve",
@@ -1504,14 +1514,14 @@
 		"sources": [ "Antihero's Handbook" ],
 		"replaces": "Aura; Detect Evil; Smite Evil; Divine Grace; Lay on Hands; Divine Health; Mercy; Channel Energy; Divine Bond; Aura of Justice; Aura of Faith; Aura of Righteousness; Holy Champion",
 		"replace_array": [
-			"Aura",
+			"Aura of Good",
 			"Detect Evil",
 			"Smite Evil",
 			"Divine Grace",
 			"Lay on Hands",
 			"Divine Health",
 			"Mercy",
-			"Channel Energy",
+			"Channel Positive Energy",
 			"Divine Bond",
 			"Aura of Justice",
 			"Aura of Faith",
@@ -1525,9 +1535,7 @@
 			"**Source** [Antihero's Handbook pg. 14](source:Antihero's_Handbook)   ",
 			"While paladins often collaborate with less righteous adventurers in order to further their causes, those who spend too much time around companions with particularly loose morals run the risk of adopting those same unscrupulous ideologies and methods. Such a vindictive bastard, as these fallen paladins are known, strikes out for retribution and revenge, far more interested in tearing down those who have harmed her or her companions than furthering a distant deity's cause.",
 			"",
-			"This is an ex-class archetype and can be taken by a character immediately upon becoming an ex-paladin.",
-			"",
-			"EX-CLASS ARCHETYPES",
+			"**This is an ex-class archetype and can be taken by a character immediately upon becoming an ex-paladin.**",
 			"",
 			"The following archetype can be taken by an ex-paladin immediately upon becoming an ex-paladin, regardless of character level, replacing some or all of the lost class abilities. If another archetype the character had before she became an ex-paladin replaces the same ability as the ex-class archetype, she loses the old archetype in favor of the new one; otherwise, she can retain both archetypes as normal. Vindictive bastards can gain further levels in the paladin class, even though becoming an ex-paladin normally prohibits further advancement in the class. While an ex-member of a class can recant her failings and atone for her fall from her original class (typically involving an atonement spell), her acceptance of her ex-class archetype means she must atone both for her initial fall and for further straying from the path. As a result, such a character must be the target of two atonement spells or a similar effect to regain her lost class features. Upon doing so, she immediately loses this archetype and regains her original class (and archetype, if she had one).",
 			"",
@@ -1668,8 +1676,10 @@
 			"Divine Grace",
 			"Smite Evil",
 			"Aura of Courage",
-			"3rd, 9th, 15th-level Mercy",
-			"Spells",
+			"3rd-level Mercy",
+			"9th-level Mercy",
+			"15th-level Mercy",
+			"Spellcasting",
 			"Aura of Resolve",
 			"Aura of Justice"
 		],

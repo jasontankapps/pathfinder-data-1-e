@@ -39,7 +39,8 @@
 		"replaces": "Class Skills; 1st, 6th-level Bonus Feats; Still Mind; Abundant Step; Perfect Self",
 		"replace_array": [
 			"Class Skills",
-			"1st, 6th-level Bonus Feats",
+			"1st-level Bonus Feat",
+			"6th-level Bonus Feat",
 			"Still Mind",
 			"Abundant Step",
 			"Perfect Self"
@@ -195,7 +196,7 @@
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"replaces": "Weapon/Armor Proficiencies; Flurry of Blows; Bonus Feats; Stunning Fist; Still Mind; Purity of Body; Diamond Body",
 		"replace_array": [
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Flurry of Blows",
 			"Bonus Feats",
 			"Stunning Fist",
@@ -335,7 +336,7 @@
 		"sources": [ "The Harrow Handbook" ],
 		"replaces": "Weapon/Armor Proficiencies; Stunning Fist; Improved Evasion; Diamond Body; Quivering Palm",
 		"replace_array": [
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Stunning Fist",
 			"Improved Evasion",
 			"Diamond Body",
@@ -369,7 +370,7 @@
 		"replace_array": [
 			"Alignment",
 			"Class Skills",
-			"Weapon Proficiencies",
+			"Weapon Proficiency",
 			"Bonus Feats",
 			"Stunning Fist",
 			"Fast Movement",
@@ -655,7 +656,8 @@
 			"Class Skills",
 			"Stunning Fist",
 			"Still Mind",
-			"7th and 10th-level Ki Pool Abilities",
+			"7th-level Ki Pool Ability",
+			"10th-level Ki Pool Ability",
 			"Improved Evasion",
 			"Slow Fall",
 			"Perfect Self"
@@ -833,7 +835,7 @@
 			"Perfect Self",
 			"Wholeness of Body",
 			"Timeless Body",
-			"Tongue of Sun and Moon",
+			"Tongue of the Sun and Moon",
 			"Abundant Step",
 			"Diamond Soul",
 			"Empty Body"
@@ -907,7 +909,7 @@
 		"replaces": "Alignment; Weapon/Armor Proficiencies; Unarmed Strike; Ki Pool; Flurry of Blows; Stunning Fist; High Jump; Quivering Palm",
 		"replace_array": [
 			"Alignment",
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Unarmed Strike",
 			"Ki Pool",
 			"Flurry of Blows",
@@ -955,7 +957,7 @@
 		"sources": [ "Advanced Player's Guide" ],
 		"replaces": "Monk Weapon Proficiencies; Still Mind; Purity of Body; Diamond Body",
 		"replace_array": [
-			"Monk Weapon Proficiencies",
+			"Weapon Proficiency",
 			"Still Mind",
 			"Purity of Body",
 			"Diamond Body"
@@ -1053,7 +1055,7 @@
 			"Stunning Fist",
 			"Abundant Step",
 			"Quivering Palm",
-			"Tongue of the Sun and the Moon"
+			"Tongue of the Sun and Moon"
 		],
 		"short_description": "While a monk of the lotus realizes that combat cannot always be avoided-and is more than capable in a fight-he understands that all creatures are connected, and to harm another is to harm the self.",
 		"description": [
@@ -1077,7 +1079,11 @@
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"replaces": "2nd, 6th, 10th, 14th, and 18th-level Bonus Feats; Wholeness of Body; Diamond Body; Diamond Soul; Quivering Palm",
 		"replace_array": [
-			"2nd, 6th, 10th, 14th, and 18th-level Bonus Feats",
+			"2nd-level Bonus Feat",
+			"6th-level Bonus Feat",
+			"10th-level Bonus Feat",
+			"14th-level Bonus Feat",
+			"18th-level Bonus Feat",
 			"Wholeness of Body",
 			"Diamond Body",
 			"Diamond Soul",
@@ -1107,7 +1113,7 @@
 			"Slow Fall",
 			"High Jump",
 			"Improved Evasion",
-			"Tongue of the Sun and the Moon"
+			"Tongue of the Sun and Moon"
 		],
 		"short_description": "The monk of the sacred mountain finds strength and power in the earth beneath his feet.",
 		"description": [
@@ -1197,7 +1203,8 @@
 		"replace_array": [
 			"Key Ability Score",
 			"Stunning Fist",
-			"1st-, 10th-level Bonus Feat",
+			"1st-level Bonus Feat",
+			"10th-level Bonus Feat",
 			"Purity of Body",
 			"Diamond Soul",
 			"Quivering Palm",
@@ -1248,7 +1255,6 @@
 		"sources": [ "Inner Sea Combat" ],
 		"replaces": "Greed, Hatred, Defensive Training, Stonecunning, Weapon Familiarity (Dwarven Racial Traits); Stunning Fist; Wholeness of Body",
 		"replace_array": [
-			"Greed, Hatred, Defensive Training, Stonecunning, Weapon Familiarity (Dwarven Racial Traits)",
 			"Stunning Fist",
 			"Wholeness of Body"
 		],
@@ -1631,8 +1637,12 @@
 		"replaces": "Class Skills; 1st, 2nd, 6th, 10th-level Bonus Feat; Ki Pool abilities",
 		"replace_array": [
 			"Class Skills",
-			"1st, 2nd, 6th, 10th-level Bonus Feat",
-			"Ki Pool abilities"
+			"1st-level Bonus Feat",
+			"2nd-level Bonus Feat",
+			"6th-level Bonus Feat",
+			"10th-level Bonus Feat",
+			"Ki Speed Increase",
+			"Ki Extra Flurry"
 		],
 		"short_description": "Sage counselors are ascetics and mystics who leave the confines of the monastery walls to advise secular people about spiritual truths and to seek knowledge of the outside world.",
 		"description": [
@@ -1645,7 +1655,7 @@
 			"",
 			"This alters the monk's class skills.",
 			"",
-			"**Cunning Fist (Ex):** A sage counselor gains Combat Expertise as a bonus feat, even if he doesn't meet the prerequisites, and he can ignore the Intelligence prerequisite on feats that have Combat Expertise as a prerequisite. At 2nd level, he gains Improved Feint, and at 6th level, he gains Greater Feint, even if he doesn't meet the prerequisites.",
+			"**Cunning Fist (Ex):** A sage counselor gains [Combat Expertise](feat:Combat_Expertise) as a bonus feat, even if he doesn't meet the prerequisites, and he can ignore the Intelligence prerequisite on feats that have Combat Expertise as a prerequisite. At 2nd level, he gains [Improved Feint](feat:Improved_Feint), and at 6th level, he gains [Greater Feint](feat:Greater_Feint), even if he doesn't meet the prerequisites.",
 			"",
 			"This ability replaces the bonus feats gained at 1st, 2nd, and 6th levels.",
 			"",
@@ -1707,12 +1717,13 @@
 		"name": "Scarred Monk",
 		"file": "archetypedisplay0e60-2.html",
 		"sources": [ "Horror Realms" ],
-		"replaces": "Ki Pool; High Jump; Wholeness of Body; Abundant Step, Empty Body",
+		"replaces": "Ki Pool; High Jump; Wholeness of Body; Abundant Step; Empty Body",
 		"replace_array": [
 			"Ki Pool",
 			"High Jump",
 			"Wholeness of Body",
-			"Abundant Step, Empty Body"
+			"Abundant Step",
+			"Empty Body"
 		],
 		"short_description": "For monks who seek the truth hidden in pain, the practice of mortifications of the flesh helps to achieve enlightenment and acquire disturbing powers.",
 		"description": [
@@ -1764,7 +1775,10 @@
 			"Fast Movement",
 			"Improved Evasion",
 			"Evasion",
-			"2nd, 6th, 12th, 18th-level Bonus Feats"
+			"2nd-level Bonus Feat",
+			"6th-level Bonus Feat",
+			"12th-level Bonus Feat",
+			"18th-level Bonus Feat"
 		],
 		"short_description": "The sensei is a revered teacher who imparts lessons on the oneness of mind, body, and spirit, along with occasional correction that is subtle and swift.",
 		"description": [
@@ -1792,7 +1806,12 @@
 		"replace_array": [
 			"Class Skills",
 			"Stunning Fist",
-			"1st, 2nd, 6th, 10th, 14th, and 18th-level Bonus Feats",
+			"1st-level Bonus Feat",
+			"2nd-level Bonus Feat",
+			"6th-level Bonus Feat",
+			"10th-level Bonus Feat",
+			"14th-level Bonus Feat",
+			"18th-level Bonus Feat",
 			"Slow Fall",
 			"High Jump",
 			"Wholeness of Body"
@@ -1890,7 +1909,8 @@
 		"replace_array": [
 			"Weapon Proficiency",
 			"Unarmed Strike",
-			"6th, 10th-level Bonus Feats",
+			"6th-level Bonus Feat",
+			"10th-level Bonus Feat",
 			"Wholeness of Body",
 			"Quivering Palm",
 			"Empty Body"
@@ -1947,7 +1967,7 @@
 			"Diamond Body",
 			"Quivering Palm",
 			"Timeless Body",
-			"Tongue of Sun and Moon"
+			"Tongue of the Sun and Moon"
 		],
 		"short_description": "The sohei are masters of the horse and the hunt.",
 		"description": [
@@ -2055,7 +2075,7 @@
 		"replace_array": [
 			"Evasion",
 			"Fast Movement",
-			"Bonus Feat",
+			"Bonus Feats",
 			"High Jump",
 			"Improved Evasion",
 			"Abundant Step"
@@ -2071,7 +2091,7 @@
 			"",
 			"**Strength of Stone (Ex):** At 3rd level, a student of stone learns to draw strength from the earth. So long as both he and his opponent are touching the ground, the student of stone gains a +1 bonus on attack rolls, damage rolls, bull rush and trip combat maneuver rolls, and to his CMD when resisting a bull rush or trip attempt. This ability replaces fast movement.",
 			"",
-			"**Bonus Feat:** At 6th level, a student of stone adds Elemental Fist to his list of available bonus feats. If the student of stone selects Elemental Fist as a bonus feat, he may only deal acid damage when using the feat. At 10th level, the student of stone adds Shaitan Style to his list of bonus feats, at 14th level, he adds Shaitan Skin , and at 18th level, he adds Shaitan Earthblast. This otherwise functions as and alters the bonus feat ability.",
+			"**Bonus Feat:** At 6th level, a student of stone adds Elemental Fist to his list of available bonus feats. If the student of stone selects Elemental Fist as a bonus feat, he may only deal acid damage when using the feat. At 10th level, the student of stone adds Shaitan Style to his list of bonus feats, at 14th level, he adds Shaitan Skin, and at 18th level, he adds Shaitan Earthblast. This otherwise functions as and alters the bonus feat ability.",
 			"",
 			"**Bones of Stone (Su):** At 7th level, as a swift action, a student of stone can spend 1 ki point to gain DR 2/magic until the beginning of his next turn. At 10th level, he can spend 1 ki point to gain DR 2/chaotic until his next turn. At 15th level, he can spend 1 ki point to gain DR 5/chaotic until his next turn. This ability replaces high jump.",
 			"",
@@ -2134,7 +2154,7 @@
 			"Abundant Step",
 			"Improved Evasion",
 			"Timeless Body",
-			"Tongue of Sun and Moon",
+			"Tongue of the Sun and Moon",
 			"Diamond Soul",
 			"Empty Body"
 		],
@@ -2302,7 +2322,12 @@
 			"Flurry of Blows",
 			"Stunning Fist",
 			"Quivering Palm",
-			"1st, 2nd, 6th, 10th, 14th, and 18th-level Bonus Feats",
+			"1st-level Bonus Feat",
+			"2nd-level Bonus Feat",
+			"6th-level Bonus Feat",
+			"10th-level Bonus Feat",
+			"14th-level Bonus Feat",
+			"18th-level Bonus Feat",
 			"Unarmed Strike",
 			"Evasion",
 			"Slow Fall",
@@ -2467,7 +2492,7 @@
 			"Purity of Body",
 			"Improved Evasion",
 			"Diamond Body",
-			"Tongue of the Sun and the Moon"
+			"Tongue of the Sun and Moon"
 		],
 		"short_description": "The zen archer takes a weapon most other monks eschew and seeks perfection in the pull of a taut bowstring, the flex of a bow's limbs, and the flight of an arrow fired true.",
 		"description": [

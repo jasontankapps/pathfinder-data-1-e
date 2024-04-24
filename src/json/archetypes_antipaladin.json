@@ -3,11 +3,11 @@
 		"name": "Blighted Myrmidon",
 		"file": "archetypedisplayfb0e.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Smite Good; Fiendish Boon; 10th-level use of Smite Good; Aura of Vengeance; 15th-level Cruelty; Unholy Champion",
+		"replaces": "Smite Good; Fiendish Boon; 10th-level Smite Good use; Aura of Vengeance; 15th-level Cruelty; Unholy Champion",
 		"replace_array": [
 			"Smite Good",
 			"Fiendish Boon",
-			"10th-level use of Smite Good",
+			"10th-level Smite Good use",
 			"Aura of Vengeance",
 			"15th-level Cruelty",
 			"Unholy Champion"
@@ -50,7 +50,7 @@
 		"sources": [ "Champions of Corruption" ],
 		"replaces": "Spells; Aura of Sin",
 		"replace_array": [
-			"Spells",
+			"Spellcasting",
 			"Aura of Sin"
 		],
 		"short_description": "Some antipaladins serve or ally themselves with villains who are bent on earthly conquest.",
@@ -125,7 +125,7 @@
 			"Plague Bringer",
 			"Cruelty",
 			"Channel Negative Energy",
-			"Spells",
+			"Spellcasting",
 			"Fiendish Boon",
 			"Aura of Despair",
 			"Aura of Vengeance",
@@ -230,14 +230,14 @@
 		"name": "Knight of the Sepulcher",
 		"file": "archetypedisplay5c54.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Fiendish Boon; Aura of Despair; 10th-level Smite Good use; Aura of Vengeance; Aura of Sin; Cruetly; Aura of Depravity; Unholy Champion",
+		"replaces": "Fiendish Boon; Aura of Despair; 10th-level Smite Good use; Aura of Vengeance; Aura of Sin; Cruelty; Aura of Depravity; Unholy Champion",
 		"replace_array": [
 			"Fiendish Boon",
 			"Aura of Despair",
 			"10th-level Smite Good use",
 			"Aura of Vengeance",
 			"Aura of Sin",
-			"Cruetly",
+			"Cruelty",
 			"Aura of Depravity",
 			"Unholy Champion"
 		],

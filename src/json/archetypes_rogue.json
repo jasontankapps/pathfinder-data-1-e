@@ -137,7 +137,9 @@
 		"sources": [ "Animal Archive" ],
 		"replaces": "2nd, 4th, 6th-level Rogue Talents; Sneak Attack; Trap Sense",
 		"replace_array": [
-			"2nd, 4th, 6th-level Rogue Talents",
+			"2nd-level Rogue Talent",
+			"4th-level Rogue Talent",
+			"6th-level Rogue Talent",
 			"Sneak Attack",
 			"Trap Sense"
 		],
@@ -386,7 +388,10 @@
 		"replaces": "Evasion; 2nd, 8th, 14th, and 20th-level Rogue Talents",
 		"replace_array": [
 			"Evasion",
-			"2nd, 8th, 14th, and 20th-level Rogue Talents"
+			"2nd-level Rogue Talent",
+			"8th-level Rogue Talent",
+			"14th-level Rogue Talent",
+			"20th-level Rogue Talent"
 		],
 		"short_description": "Dark lurkers use darkness as an ally.",
 		"description": [
@@ -414,10 +419,10 @@
 		"name": "Deadly Courtesan",
 		"file": "archetypedisplay56e8.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Class Skills; 2nd-level Rogue Trick; Trap Sense; Improved Uncanny Dodge",
+		"replaces": "Class Skills; 2nd-level Rogue Talent; Trap Sense; Improved Uncanny Dodge",
 		"replace_array": [
 			"Class Skills",
-			"2nd-level Rogue Trick",
+			"2nd-level Rogue Talent",
 			"Trap Sense",
 			"Improved Uncanny Dodge"
 		],
@@ -430,7 +435,7 @@
 			"",
 			"**Class Skills:** At 1st level, a deadly courtesan adds Knowledge (history) and Knowledge (nobility) to her list of class skills and removes Knowledge (dungeoneering) from her list of class skills.",
 			"",
-			"**Bardic Performance (Su):** At 2nd level, a deadly courtesan gains the bardic performance ability and the fascinate bardic performance. Her fascinate DC is 10 + 1/2 her rogue level + her Charisma modifier. She can use this bardic performance for a number of rounds per day equal to 1 + her Charisma modifier. At each level after 2nd, she can use bardic performance for 1 additional round per day. If the courtesan also has bard levels, she may use these rounds for either class's fascinate bardic performance, and her bard and rogue levels stack for determining her fascinate DC. This ability replaces the rogue trick gained at 2nd level.",
+			"**Bardic Performance (Su):** At 2nd level, a deadly courtesan gains the bardic performance ability and the fascinate bardic performance. Her fascinate DC is 10 + 1/2 her rogue level + her Charisma modifier. She can use this bardic performance for a number of rounds per day equal to 1 + her Charisma modifier. At each level after 2nd, she can use bardic performance for 1 additional round per day. If the courtesan also has bard levels, she may use these rounds for either class's fascinate bardic performance, and her bard and rogue levels stack for determining her fascinate DC. This ability replaces the rogue talent gained at 2nd level.",
 			"",
 			"**Inspire Competence (Su):** At 3rd level, a deadly courtesan can use her bardic performance to inspire competence. The bonus begins at +2 and increases by +1 for every six levels the courtesan has attained beyond 3rd (+3 at 9th and +4 at 15th). This ability replaces all levels of trap sense.",
 			"",
@@ -481,11 +486,13 @@
 		"name": "Discretion Specialist",
 		"file": "archetypedisplay1322.html",
 		"sources": [ "Antihero's Handbook" ],
-		"replaces": "Trapfinding; Trap Sense/Danger Sense; 4th, 12-th level Rogue Talents; Uncanny Dodge; Improved Uncanny Dodge",
+		"replaces": "Trapfinding; Trap Sense/Danger Sense; 4th, 12th-level Rogue Talents; Uncanny Dodge; Improved Uncanny Dodge",
 		"replace_array": [
 			"Trapfinding",
-			"Trap Sense/Danger Sense",
-			"4th, 12-th level Rogue Talents",
+			"Trap Sense",
+			"Danger Sense",
+			"4th-level Rogue Talent",
+			"12th-level Rogue Talent",
 			"Uncanny Dodge",
 			"Improved Uncanny Dodge"
 		],
@@ -606,7 +613,10 @@
 		"replace_array": [
 			"Trapfinding",
 			"Evasion",
-			"4th, 8th, 12th, 16th-level Rogue Talents"
+			"4th-level Rogue Talent",
+			"8th-level Rogue Talent",
+			"12th-level Rogue Talent",
+			"16th-level Rogue Talent"
 		],
 		"short_description": "In the centuries since the Quest for the Sky, the mystic lore the dwarves call earthcraft has been passed down through the generations, and its practitioners are called earthshadows.",
 		"description": [
@@ -680,10 +690,12 @@
 		"replaces": "Armor Proficiency; Skills; Trap Sense; Sneak Attack; Rogue Talents; Uncanny Dodge; Improved Uncanny Dodge",
 		"replace_array": [
 			"Armor Proficiency",
-			"Skills",
+			"Class Skills",
+			"Skill Ranks",
 			"Trap Sense",
 			"Sneak Attack",
 			"Rogue Talents",
+			"Advanced Talents",
 			"Uncanny Dodge",
 			"Improved Uncanny Dodge"
 		],
@@ -772,7 +784,10 @@
 		"replaces": "Trapfinding; 2nd, 6th, 8th, and 12th-level Rogue Talents; Uncanny Dodge; Improved Uncanny Dodge",
 		"replace_array": [
 			"Trapfinding",
-			"2nd, 6th, 8th, and 12th-level Rogue Talents",
+			"2nd-level Rogue Talent",
+			"6th-level Rogue Talent",
+			"8th-level Rogue Talent",
+			"12th-level Rogue Talent",
 			"Uncanny Dodge",
 			"Improved Uncanny Dodge"
 		],
@@ -817,7 +832,7 @@
 		"replaces": "Evasion; Trap Sense 1-6; Uncanny Dodge; Improved Uncanny Dodge",
 		"replace_array": [
 			"Evasion",
-			"Trap Sense 1-6",
+			"Trap Sense",
 			"Uncanny Dodge",
 			"Improved Uncanny Dodge"
 		],
@@ -851,7 +866,9 @@
 		"replace_array": [
 			"Trapfinding",
 			"Trap Sense",
-			"4th, 8th, 12th-level Rogue Talent"
+			"4th-level Rogue Talent",
+			"8th-level Rogue Talent",
+			"12th-level Rogue Talent"
 		],
 		"short_description": "Galtan agitators fight mightily to cast down the enemies of their ideals within the shambles of the tumultuous nation of Galt.",
 		"description": [
@@ -974,10 +991,10 @@
 		"sources": [ "People of the Wastes" ],
 		"replaces": "Weapon Proficiencies; Trapfinding; Sneak Attack; Trap Finding; 6th-level Rogue Talent; Uncanny Dodge; Improved Uncanny Dodge",
 		"replace_array": [
-			"Weapon Proficiencies",
+			"Weapon Proficiency",
 			"Trapfinding",
 			"Sneak Attack",
-			"Trap Finding",
+			"Trap Sense",
 			"6th-level Rogue Talent",
 			"Uncanny Dodge",
 			"Improved Uncanny Dodge"
@@ -1020,7 +1037,9 @@
 		"sources": [ "Ultimate Intrigue" ],
 		"replaces": "2nd, 4th, 8th-level Rogue Talent; Uncanny Dodge; Improved Uncanny Dodge",
 		"replace_array": [
-			"2nd, 4th, 8th-level Rogue Talent",
+			"2nd-level Rogue Talent",
+			"4th-level Rogue Talent",
+			"8th-level Rogue Talent",
 			"Uncanny Dodge",
 			"Improved Uncanny Dodge"
 		],
@@ -1152,7 +1171,7 @@
 		"sources": [ "Melee Tactics Toolbox" ],
 		"replaces": "Weapon Proficiencies; Trapfinding; Trap Sense; 12th-level Rogue Talent",
 		"replace_array": [
-			"Weapon Proficiencies",
+			"Weapon Proficiency",
 			"Trapfinding",
 			"Trap Sense",
 			"12th-level Rogue Talent"
@@ -1184,7 +1203,8 @@
 		"replaces": "Trapfinding; 2nd, 10th-level Rogue Talent",
 		"replace_array": [
 			"Trapfinding",
-			"2nd, 10th-level Rogue Talent"
+			"2nd-level Rogue Talent",
+			"10th-level Rogue Talent"
 		],
 		"short_description": "A master of disguise believes that never letting her adversaries know her true identity protects her from bad luck or missteps on a job.",
 		"description": [
@@ -1213,7 +1233,13 @@
 		"replaces": "Trapfinding; 2nd, 4th, 6th, 8th, 10th, 14th, 18th-level Rogue Talents",
 		"replace_array": [
 			"Trapfinding",
-			"2nd, 4th, 6th, 8th, 10th, 14th, 18th-level Rogue Talents"
+			"2nd-level Rogue Talent",
+			"4th-level Rogue Talent",
+			"6th-level Rogue Talent",
+			"8th-level Rogue Talent",
+			"10th-level Rogue Talent",
+			"14th-level Rogue Talent",
+			"18th-level Rogue Talent"
 		],
 		"short_description": "Where bandits and tyrants prey on merchants and caravans, the nameless shadow preys on bandits and tyrants.",
 		"description": [
@@ -1392,9 +1418,9 @@
 		"name": "Planar Sneak",
 		"file": "archetypedisplay2b39.html",
 		"sources": [ "Planes of Power" ],
-		"replaces": "Trapsense; Uncanny Dodge; Improved Uncanny Dodge",
+		"replaces": "Trap Sense; Uncanny Dodge; Improved Uncanny Dodge",
 		"replace_array": [
-			"Trapsense",
+			"Trap Sense",
 			"Uncanny Dodge",
 			"Improved Uncanny Dodge"
 		],
@@ -1625,7 +1651,8 @@
 		"replaces": "Trapfinding; 2nd and 4th-level Rogue Talents",
 		"replace_array": [
 			"Trapfinding",
-			"2nd and 4th-level Rogue Talents"
+			"2nd-level Rogue Talent",
+			"4th-level Rogue Talent"
 		],
 		"short_description": "The sapper is a trained siege engineer and can deal with traps and other obstacles given plenty of time.",
 		"description": [
@@ -1771,7 +1798,9 @@
 		"replaces": "Trapfinding; 2nd, 8th, 14th-level Rogue Talent; Master Strike",
 		"replace_array": [
 			"Trapfinding",
-			"2nd, 8th, 14th-level Rogue Talent",
+			"2nd-level Rogue Talent",
+			"8th-level Rogue Talent",
+			"14th-level Rogue Talent",
 			"Master Strike"
 		],
 		"short_description": "Shadow scions have learned the secrets of light and dark and draw power from the shadows themselves.",
@@ -1849,9 +1878,13 @@
 		"replaces": "Trapfinding; 2nd, 4th, 6th, 8th, 10th, 16th-level Rogue Talent; Trap Sense;",
 		"replace_array": [
 			"Trapfinding",
-			"2nd, 4th, 6th, 8th, 10th, 16th-level Rogue Talent",
-			"Trap Sense",
-			""
+			"2nd-level Rogue Talent",
+			"4th-level Rogue Talent",
+			"6th-level Rogue Talent",
+			"8th-level Rogue Talent",
+			"10th-level Rogue Talent",
+			"16th-level Rogue Talent",
+			"Trap Sense"
 		],
 		"short_description": "Sharpers use trickery and deception to part an owner from his valuables.",
 		"description": [
@@ -1890,9 +1923,12 @@
 			"Weapon/Armor Proficiency",
 			"Class Skills",
 			"Trapfinding",
-			"Rogue Talent",
-			"Advanced Rogue Talent",
-			"Trap Sense 1-4"
+			"Rogue Talents",
+			"Advanced Talents",
+			"Trap Sense 1",
+			"Trap Sense 2",
+			"Trap Sense 3",
+			"Trap Sense 4"
 		],
 		"short_description": "(Half-Orc Only) Pushed into a life of crime by the society around them, half-orcs gravitate toward criminal activities that suit them best.",
 		"description": [
@@ -1909,7 +1945,7 @@
 			"",
 			"**Pass for Human (Ex):** At 1st level, when trying to conceal her half-orc heritage, a skulking slayer gains a bonus on Disguise checks equal to half her level. When using disguise to appear as a specific individual, skulking stalkers ignore the normal -2 penalty to appear as another race.",
 			"",
-			"**Underhanded Maneuvers (Ex):** At 1st level, when she could normally make a sneak attack, a slayer may instead make a dirty trick or steal combat maneuver with a bonus on her roll. This bonus is equal to her number of sneak attack dice for a dirty trick combat maneuver, or 1-1/2 ?? her number of sneak attack dice for a steal combat maneuver. This ability replaces trapfinding.",
+			"**Underhanded Maneuvers (Ex):** At 1st level, when she could normally make a sneak attack, a slayer may instead make a dirty trick or steal combat maneuver with a bonus on her roll. This bonus is equal to her number of sneak attack dice for a dirty trick combat maneuver, or 1-1/2 x her number of sneak attack dice for a steal combat maneuver. This ability replaces trapfinding.",
 			"",
 			"**Bonus Feats:** At 2nd level, a skulking slayer can select the Surprise Follow-Through feat (see below) in place of a rogue talent. At 10th level, she can select the Improved Surprise Follow-Through feat (if she already has Surprise Follow-Through) in place of an advanced rogue talent.",
 			"",
@@ -1933,8 +1969,7 @@
 			"Class Skills",
 			"Trap Sense",
 			"Uncanny Dodge",
-			"Improved Uncanny Dodge",
-			""
+			"Improved Uncanny Dodge"
 		],
 		"short_description": "Sly saboteurs are irregular soldiers who specialize in sabotage and surprise attacks.",
 		"description": [
@@ -2203,7 +2238,6 @@
 		"sources": [ "Potions and Poisons" ],
 		"replaces": "Racial Traits; Trapfinding; 2nd-level Rogue Talent; Trap Sense",
 		"replace_array": [
-			"Racial Traits",
 			"Trapfinding",
 			"2nd-level Rogue Talent",
 			"Trap Sense"
@@ -2377,7 +2411,8 @@
 			"Trap Sense",
 			"Uncanny Dodge",
 			"Improved Uncanny Dodge",
-			"4th, 8th-level Rogue Talent"
+			"4th-level Rogue Talent",
+			"8th-level Rogue Talent"
 		],
 		"short_description": "Tidal tricksters roam the seas, using their skillful mastery of the currents to move across aquatic battlefields and throw their enemies off-balance.",
 		"description": [
@@ -2405,7 +2440,7 @@
 		"sources": [ "Adventurer's Guide" ],
 		"replaces": "Weapon Proficiencies; Trapfinding; Trap Sense; Uncanny Dodge; Improved Uncanny Dodge",
 		"replace_array": [
-			"Weapon Proficiencies",
+			"Weapon Proficiency",
 			"Trapfinding",
 			"Trap Sense",
 			"Uncanny Dodge",
@@ -2535,7 +2570,8 @@
 			"Trapfinding",
 			"Uncanny Dodge",
 			"Improved Uncanny Dodge",
-			"12th and 20th-level Rogue Talents"
+			"12th-level Rogue Talent",
+			"20th-level Rogue Talent"
 		],
 		"short_description": "A clever rogue knows the easiest battle to win is the one that's over before your foe knows it has begun.",
 		"description": [

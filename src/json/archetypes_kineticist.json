@@ -3,12 +3,13 @@
 		"name": "Aquakinetcist",
 		"file": "archetypedisplay3ca6.html",
 		"sources": [ "Aquatic Adventures" ],
-		"replaces": "Elemental Focus; Expanded Element; Basic Hydrokinesis; 2nd, 6th-levle Utility Wild Talent; Elemental Defense",
+		"replaces": "Elemental Focus; Expanded Element; Basic Hydrokinesis; 2nd, 6th-level Utility Wild Talent; Elemental Defense",
 		"replace_array": [
 			"Elemental Focus",
 			"Expanded Element",
 			"Basic Hydrokinesis",
-			"2nd, 6th-levle Utility Wild Talent",
+			"2nd-level Utility Wild Talent",
+			"6th-level Utility Wild Talent",
 			"Elemental Defense"
 		],
 		"short_description": "While all hydrokineticists have the ability to control water, aquakineticists' powers are tied to their determination to explore the world beneath the waves.",
@@ -45,7 +46,10 @@
 		"sources": [ "Blood of the Coven" ],
 		"replaces": "4th, 6th, 8th, and 13th-level Utility Wild Talents",
 		"replace_array": [
-			"4th, 6th, 8th, and 13th-level Utility Wild Talents"
+			"4th-level Utility Wild Talent",
+			"6th-level Utility Wild Talent",
+			"8th-level Utility Wild Talent",
+			"13th-level Utility Wild Talent"
 		],
 		"short_description": "Those of strong will who live under a dark curse long enough might learn to control and channel the corrupt energy afflicting them.",
 		"description": [
@@ -73,11 +77,11 @@
 		"name": "Blightburner",
 		"file": "archetypedisplay3dc9.html",
 		"sources": [ "Heroes of the Darklands" ],
-		"replaces": "Elemental Focus; Basic Geokinesis; 2nd-level Utility Power; Elemental Overflow; Flesh of Stone; Gather Power; Internal Buffer",
+		"replaces": "Elemental Focus; Basic Geokinesis; 2nd-level Utility Wild Talent; Elemental Overflow; Flesh of Stone; Gather Power; Internal Buffer",
 		"replace_array": [
 			"Elemental Focus",
 			"Basic Geokinesis",
-			"2nd-level Utility Power",
+			"2nd-level Utility Wild Talent",
 			"Elemental Overflow",
 			"Flesh of Stone",
 			"Gather Power",
@@ -178,8 +182,12 @@
 		"sources": [ "Occult Adventures" ],
 		"replaces": "1st, 5th, 9th, and 11th-level Infusions; 6th and 8th-level Utility Wild Talent; Expanded Element; Omnikinesis",
 		"replace_array": [
-			"1st, 5th, 9th, and 11th-level Infusions",
-			"6th and 8th-level Utility Wild Talent",
+			"1st-level Infusion",
+			"5th-level Infusion",
+			"9th-level Infusion",
+			"11th-level Infusion",
+			"6th-level Utility Wild Talent",
+			"8th-level Utility Wild Talent",
 			"Expanded Element",
 			"Omnikinesis"
 		],
@@ -220,7 +228,9 @@
 			"Expanded Element",
 			"Gather Power",
 			"1st-level Infusion",
-			"4th, 8th, 12th-level Utility Wild Talent"
+			"4th-level Utility Wild Talent",
+			"8th-level Utility Wild Talent",
+			"12th-level Utility Wild Talent"
 		],
 		"short_description": "These kineticists are skilled riders, able to wield both weapons and fire with deadly skill.",
 		"description": [
@@ -288,8 +298,11 @@
 		"sources": [ "Occult Adventures" ],
 		"replaces": "1st, 3rd, 5th, and 9th-level Infusions; all utility wild talents",
 		"replace_array": [
-			"1st, 3rd, 5th, and 9th-level Infusions",
-			"all utility wild talents"
+			"1st-level Infusion",
+			"3rd-level Infusion",
+			"5th-level Infusion",
+			"9th-level Infusion",
+			"Utility Wild Talents"
 		],
 		"short_description": "For some kineticists, nothing in life is as sweet as destruction and pain. Elemental annihilators pursue only uses of their powers that harm others.",
 		"description": [
@@ -325,7 +338,9 @@
 			"Elemental Overflow",
 			"Wild Talents",
 			"Elemental Defense",
-			"5th, 9th, 13th-level Infusions"
+			"5th-level Infusion",
+			"9th-level Infusion",
+			"13th-level Infusion"
 		],
 		"short_description": "Combining the elemental powers of a kineticist with the rigid physical discipline of a monk, an elemental ascetic channels his powers through his body to enhance himself in combat.",
 		"description": [
@@ -350,8 +365,9 @@
 		"replaces": "Internal Buffer; Expanded Elements; 11th, 19th-level Infusion; Omnikinesis",
 		"replace_array": [
 			"Internal Buffer",
-			"Expanded Elements",
-			"11th, 19th-level Infusion",
+			"Expanded Element",
+			"11th-level Infusion",
+			"19th-level Infusion",
 			"Omnikinesis"
 		],
 		"short_description": "An elemental purist spurns all elements that are not her own, for utter devotion can allow one to accomplish even seemingly impossible heroics.",
@@ -381,7 +397,8 @@
 			"Elemental Focus",
 			"Class Skills",
 			"Expanded Element",
-			"Basic Phytokinesis, 1st-level Infusion",
+			"Basic Phytokinesis",
+			"1st-level Infusion",
 			"Flesh of Wood"
 		],
 		"short_description": "Similar to how phytokineticists draw their power from the First World, elysiokineticists trace their abilities to the riotous wilderness of the plane known as Elysium",
@@ -530,7 +547,8 @@
 		"replace_array": [
 			"Element",
 			"Expanded Element",
-			"6th, 10th-level Utility Wild Talents",
+			"6th-level Utility Wild Talent",
+			"10th-level Utility Wild Talent",
 			"Maximize Metakinesis",
 			"Basic Phytokinesis",
 			"Internal Buffer",
@@ -579,7 +597,7 @@
 			"**Source** [Occult Adventures pg. 91](source:Occult_Adventures)   ",
 			"Some kineticists have such a powerful personality that they can seize control of their element with their minds alone, without endangering their bodies.",
 			"",
-			"**Mind Over Matter (Ex):** An overwhelming soul uses her Charisma modifier instead of her Constitution modifier to determine her damage with wild talents, the DCs of Constitutionbased wild talents, the duration of wild talents with a Constitution-based duration, her bonus on concentration checks for wild talents, and the other Constitution-based effects of all her wild talents. She adds Bluff and Diplomacy to her list of kineticist class skills. This ability alters the kineticist's class skills and the key ability score of wild talents.",
+			"**Mind Over Matter (Ex):** An overwhelming soul uses her Charisma modifier instead of her Constitution modifier to determine her damage with wild talents, the DCs of Constitution-based wild talents, the duration of wild talents with a Constitution-based duration, her bonus on concentration checks for wild talents, and the other Constitution-based effects of all her wild talents. She adds Bluff and Diplomacy to her list of kineticist class skills. This ability alters the kineticist's class skills and the key ability score of wild talents.",
 			"",
 			"**Mental Prowess (Su):** An overwhelming soul's mind is strong enough to protect her body from the stress of channeling the elements. However, in exchange, she is unable to push her limits quite as far as other kineticists. She can't choose to accept burn, though she can use wild talents with a burn cost if she can reduce that cost to 0 points with abilities such as gather power and infusion specialization. If she would be forced to accept burn against her will (for example, if she fails a concentration check), instead of taking burn she takes 1 temporary negative level, which never kills her and can't be removed with restoration or greater restoration, but which disappears automatically after 24 hours. At 6th level, once per day, she can reduce the total burn cost of any wild talent by 1. She can use this ability an additional time per day at 10th level and every 4 levels thereafter. This ability alters burn and replaces internal buffer.",
 			"",
@@ -593,7 +611,8 @@
 		"replaces": "Alignment; Elemental Focus, Elemental Overflow; Expanded Element",
 		"replace_array": [
 			"Alignment",
-			"Elemental Focus, Elemental Overflow",
+			"Elemental Focus",
+			"Elemental Overflow",
 			"Expanded Element"
 		],
 		"short_description": "Psammokinetics are ascetic kineticists who consider the harsh nature of the burning deserts of Osirion to be a tempering fire that can purify all their imperfections.",

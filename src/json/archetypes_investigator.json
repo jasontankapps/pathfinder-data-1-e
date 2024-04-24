@@ -48,7 +48,8 @@
 			"Poison Lore",
 			"Poison Resistance",
 			"Poison Immunity",
-			"4th-level Studied Strike, 7th-level Investigator Talent"
+			"4th-level Studied Strike",
+			"7th-level Talent"
 		],
 		"short_description": "Bonded investigators use intelligent familiars to assist them in their investigations.",
 		"description": [
@@ -121,7 +122,7 @@
 		"name": "Cipher",
 		"file": "archetypedisplay23c0.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Inspiration; Trapfinding; Poison Lore; Poison Resistance; Poison Immunity; Trap SenseSwift Alchemy; 3rd, 5th, 7th, 9th, 11th-level Investigator Talent; Studied Strike",
+		"replaces": "Class Skills; Inspiration; Trapfinding; Poison Lore; Poison Resistance; Poison Immunity; Trap Sense; Swift Alchemy; 3rd, 5th, 7th, 9th, 11th-level Investigator Talent; Studied Strike",
 		"replace_array": [
 			"Class Skills",
 			"Inspiration",
@@ -129,8 +130,13 @@
 			"Poison Lore",
 			"Poison Resistance",
 			"Poison Immunity",
-			"Trap SenseSwift Alchemy",
-			"3rd, 5th, 7th, 9th, 11th-level Investigator Talent",
+			"Trap Sense",
+			"Swift Alchemy",
+			"3rd-level Talent",
+			"5th-level Talent",
+			"7th-level Talent",
+			"9th-level Talent",
+			"11th-level Talent",
 			"Studied Strike"
 		],
 		"short_description": "A cipher trains himself to remain undetected and ignored in order to conduct his investigations without opposition or bothersome questions",
@@ -186,7 +192,7 @@
 			"Trapfinding",
 			"Inspiration",
 			"Trap Sense",
-			"7th-level Investigator Talent"
+			"7th-level Talent"
 		],
 		"short_description": "A conspirator uses his knowledge of investigations to make sure he avoids any investigations that his rivals perform.",
 		"description": [
@@ -243,7 +249,7 @@
 		"name": "Cult Hunter",
 		"file": "archetypedisplay3f33.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Trapfinding; Poison Resistance; Poison Immunity; Poison Lore; Trap Sense; Swift Alchemy; Studied Combat Studied Strike; 7th, 13th-level Investigator Talent",
+		"replaces": "Trapfinding; Poison Resistance; Poison Immunity; Poison Lore; Trap Sense; Swift Alchemy; Studied Combat; Studied Strike; 7th, 13th-level Investigator Talent",
 		"replace_array": [
 			"Trapfinding",
 			"Poison Resistance",
@@ -251,8 +257,10 @@
 			"Poison Lore",
 			"Trap Sense",
 			"Swift Alchemy",
-			"Studied Combat Studied Strike",
-			"7th, 13th-level Investigator Talent"
+			"Studied Combat",
+			"Studied Strike",
+			"7th-level Talent",
+			"13th-level Talent"
 		],
 		"short_description": "Cult hunters seek out heretical secret societies, purging their ideological taint and banishing summoned servants.",
 		"description": [
@@ -310,7 +318,9 @@
 			"Poison Lore",
 			"Poison Resistance",
 			"Poison Immunity",
-			"7th, 13th, and 19th-level Talents"
+			"7th-level Talent",
+			"13th-level Talent",
+			"19th-level Talent"
 		],
 		"short_description": "The dread investigator observes human behavior after the fact, honing their intuition by delving into the mysteries of death.",
 		"description": [
@@ -395,7 +405,8 @@
 			"Inspiration",
 			"Trapfinding",
 			"Trap Sense",
-			"3rd, 5th-level Investigator Talent"
+			"3rd-level Talent",
+			"5th-level Talent"
 		],
 		"short_description": "A forensic physician specializes in analyzing medical details in order to solve crimes and uncover evidence.",
 		"description": [
@@ -425,7 +436,7 @@
 		"sources": [ "Horror Adventures" ],
 		"replaces": "Weapon and Armor Proficiency; Alchemy; Trapfinding; Trap Sense; Poison Resistance; Poison Immunity; Studied Combat; Studied Strike; Swift Alchemy",
 		"replace_array": [
-			"Weapon and Armor Proficiency",
+			"Weapon/Armor Proficiency",
 			"Alchemy",
 			"Trapfinding",
 			"Trap Sense",
@@ -485,7 +496,8 @@
 		"replace_array": [
 			"Poison Lore",
 			"Poison Resistance",
-			"7th, 13th-level Investigator Talent",
+			"7th-level Talent",
+			"13th-level Talent",
 			"Poison Immunity"
 		],
 		"short_description": "Guardians of immortality are Thuvian investigators charged with hunting down those who would attempt to steal or learn for themselves the secret to creating the sun orchid elixir.",
@@ -522,12 +534,18 @@
 		"name": "Hallucinist",
 		"file": "archetypedisplayb127.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Trapfinding; Trap Sense; 3rd, 5th, 7th, 9th, 11th, 15th-level Investigator Talent; Poison Lore' Poison Resistance; Poison Immunity; Keen Recollection; Studied Combat",
+		"replaces": "Trapfinding; Trap Sense; 3rd, 5th, 7th, 9th, 11th, 15th-level Investigator Talent; Poison Lore; Poison Resistance; Poison Immunity; Keen Recollection; Studied Combat",
 		"replace_array": [
 			"Trapfinding",
 			"Trap Sense",
-			"3rd, 5th, 7th, 9th, 11th, 15th-level Investigator Talent",
-			"Poison Lore' Poison Resistance",
+			"3rd-level Talent",
+			"5th-level Talent",
+			"7th-level Talent",
+			"9th-level Talent",
+			"11th-level Talent",
+			"15th-level Talent",
+			"Poison Lore",
+			"Poison Resistance",
 			"Poison Immunity",
 			"Keen Recollection",
 			"Studied Combat"
@@ -568,12 +586,13 @@
 		"name": "Holomog Demolitionist",
 		"file": "archetypedisplay9339.html",
 		"sources": [ "Heroes of Golarion" ],
-		"replaces": "Poison Lore; Poison Resistance; 3rd, 9th-level Investigator Talent; Studied Target",
+		"replaces": "Poison Lore; Poison Resistance; 3rd, 9th-level Investigator Talent; Studied Strike",
 		"replace_array": [
 			"Poison Lore",
 			"Poison Resistance",
-			"3rd, 9th-level Investigator Talent",
-			"Studied Target"
+			"3rd-level Talent",
+			"9th-level Talent",
+			"Studied Strike"
 		],
 		"short_description": "Holomog is an ancient nation built on even more ancient ruins. Its renowned civil engineers develop skills that allow them to take full advantage of their environments.",
 		"description": [
@@ -716,7 +735,7 @@
 			"Poison Resistance",
 			"Poison Immunity",
 			"Swift Alchemy",
-			"5th-level Investigator Talent"
+			"5th-level Talent"
 		],
 		"short_description": "The ability of investigators trained at the University of Lepidstadt to get to the bottom of a mystery is legendary, and troubled settlements throughout the region often send petitions to the university requesting the aid of a formally trained inspector when some mystery threatens the community as a whole.",
 		"description": [
@@ -850,7 +869,7 @@
 			"Trapfinding",
 			"Trap Sense",
 			"Swift Alchemy",
-			"9th-level Investigator Talent"
+			"9th-level Talent"
 		],
 		"short_description": "Although some investigators use their honed senses and cunning insight for personal gain, no one excels at such endeavors like the mastermind.",
 		"description": [
@@ -880,13 +899,13 @@
 		"sources": [ "Ultimate Wilderness" ],
 		"replaces": "Weapon/Armor Proficiencies; Class Skills; Inspiration; Trapfinding; Alchemy; Trap Sense; 3rd-level Investigator Talent",
 		"replace_array": [
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Class Skills",
 			"Inspiration",
 			"Trapfinding",
 			"Alchemy",
 			"Trap Sense",
-			"3rd-level Investigator Talent"
+			"3rd-level Talent"
 		],
 		"short_description": "Natural philosophers are scholars, explorers, and survivalists who feel at home in nature, seldom longing for the comforts of the city.",
 		"description": [
@@ -970,7 +989,7 @@
 			"Poison Resistance",
 			"Poison Immunity",
 			"Swift Alchemy",
-			"7th-level Investigator Talent"
+			"7th-level Talent"
 		],
 		"short_description": "Profilers understand the human psyche to an intense degree, allowing them to predict the criminals they hunt.",
 		"description": [
@@ -1096,7 +1115,8 @@
 		"replaces": "Trapfinding; 5th, 13th-level Investigator Talent",
 		"replace_array": [
 			"Trapfinding",
-			"5th, 13th-level Investigator Talent"
+			"5th-level Talent",
+			"13th-level Talent"
 		],
 		"short_description": "Whether an obsessive scientist, a healer determined to ensure the safety of her tinctures, or a seeker of new and interesting potions, a reckless epicurean's body is saturated with experimental chemicals and magic.",
 		"description": [
@@ -1124,14 +1144,15 @@
 		"name": "Ruthless Agent",
 		"file": "archetypedisplay779e.html",
 		"sources": [ "Antihero's Handbook" ],
-		"replaces": "Alignment; Inspiration; Trapfinding; Trap Sense; Swift Alchemy; 11th, 17th-level Investigator Talents.",
+		"replaces": "Alignment; Inspiration; Trapfinding; Trap Sense; Swift Alchemy; 11th, 17th-level Investigator Talents",
 		"replace_array": [
 			"Alignment",
 			"Inspiration",
 			"Trapfinding",
 			"Trap Sense",
 			"Swift Alchemy",
-			"11th, 17th-level Investigator Talents."
+			"11th-level Talent",
+			"17th-level Talent"
 		],
 		"short_description": "Ruthless agents are often called upon for their skills at extracting information by any means necessary.",
 		"description": [
@@ -1220,7 +1241,7 @@
 			"Trapfinding",
 			"Poison Resistance",
 			"Swift Alchemy",
-			"7th level Investigator Talent"
+			"7th-level Talent"
 		],
 		"short_description": "The skeptic accepts the existence of the occult world while challenging claims that the supernatural explains all of life's problems.",
 		"description": [
@@ -1340,7 +1361,7 @@
 		"sources": [ "Ultimate Wilderness" ],
 		"replaces": "Weapon/Armor Proficiencies; Alchemy; Trapfinding; Trap Sense; Swift Alchemy",
 		"replace_array": [
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Alchemy",
 			"Trapfinding",
 			"Trap Sense",
@@ -1388,7 +1409,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"replaces": "Weapon/Armor Proficiencies; Poison Lore; Swift Alchemy",
 		"replace_array": [
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Poison Lore",
 			"Swift Alchemy"
 		],
@@ -1455,7 +1476,7 @@
 		"replace_array": [
 			"Alchemy",
 			"Trapfinding",
-			"3rd-level Investigator Talent",
+			"3rd-level Talent",
 			"Keen Recollection",
 			"Trap Sense"
 		],

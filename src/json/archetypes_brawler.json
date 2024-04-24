@@ -6,7 +6,7 @@
 		"replaces": "Class Skills; Armor Proficiencies; Brawler's Cunning; Brawler's Flurry; AC Bonus; Knockout",
 		"replace_array": [
 			"Class Skills",
-			"Armor Proficiencies",
+			"Armor Proficiency",
 			"Brawler's Cunning",
 			"Brawler's Flurry",
 			"AC Bonus",
@@ -86,7 +86,7 @@
 		"replace_array": [
 			"Class Skills",
 			"Martial Flexibility",
-			"Bonus Combat Feats"
+			"Bonus Feats"
 		],
 		"short_description": "Brawlers that develop combat skills that use their prostheses so they always have a weapon at hand",
 		"description": [
@@ -184,7 +184,7 @@
 		"sources": [ "Blood of the Ancients" ],
 		"replaces": "Armor Proficiencies; 2nd-level Bonus Feat; Knockout; Close Weapon Mastery",
 		"replace_array": [
-			"Armor Proficiencies",
+			"Armor Proficiency",
 			"2nd-level Bonus Feat",
 			"Knockout",
 			"Close Weapon Mastery"
@@ -221,7 +221,8 @@
 		"sources": [ "Ultimate Wilderness" ],
 		"replaces": "2nd and 5th-level Bonus Feats; Maneuver Training; AC Bonus; Awesome Blow; Improved Awesome Blow",
 		"replace_array": [
-			"2nd and 5th-level Bonus Feats",
+			"2nd-level Bonus Feat",
+			"5th-level Bonus Feat",
 			"Maneuver Training",
 			"AC Bonus",
 			"Awesome Blow",
@@ -290,10 +291,10 @@
 		"name": "Shield Champion",
 		"file": "archetypedisplay1137.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Weapon/Armor Proficiencies; 3rd, 7th, 11th, 15th, and 19th-level Maneuver Training; Brawler's Strike",
+		"replaces": "Weapon/Armor Proficiencies; Maneuver Training; Brawler's Strike",
 		"replace_array": [
-			"Weapon/Armor Proficiencies",
-			"3rd, 7th, 11th, 15th, and 19th-level Maneuver Training",
+			"Weapon/Armor Proficiency",
+			"Maneuver Training",
 			"Brawler's Strike"
 		],
 		"short_description": "Stalwart in battle, a shield champion has perfected an entire martial discipline relying on only her hand-to-hand fighting skills and her ever-present shield.",
@@ -328,7 +329,10 @@
 		"replace_array": [
 			"Class Skills",
 			"Martial Flexibility",
-			"3rd, 7th, 11th, and 19th-level Maneuver Training"
+			"3rd-level Maneuver Training",
+			"7th-level Maneuver Training",
+			"11th-level Maneuver Training",
+			"19th-level Maneuver Training"
 		],
 		"short_description": "With her lightning quickness and guile, a snakebite striker keeps her foes' attention focused on her, because any one of her feints might be an actual attack.",
 		"description": [
@@ -521,7 +525,8 @@
 		"sources": [ "Ultimate Wilderness" ],
 		"replaces": "2nd and 11th-level Bonus Feats; Maneuver Training; Close Weapon Mastery",
 		"replace_array": [
-			"2nd and 11th-level Bonus Feats",
+			"2nd-level Bonus Feat",
+			"11th-level Bonus Feat",
 			"Maneuver Training",
 			"Close Weapon Mastery"
 		],
@@ -549,10 +554,10 @@
 		"name": "Wild Child",
 		"file": "archetypedisplayb8a8.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Class Skills; 2nd, 5th, 8th, 11th, 14th, 17th, and 20th-level Bonus Combat Feats; Close Weapon Mastery; Maneuver Training",
+		"replaces": "Class Skills; Bonus Combat Feats; Close Weapon Mastery; Maneuver Training",
 		"replace_array": [
 			"Class Skills",
-			"2nd, 5th, 8th, 11th, 14th, 17th, and 20th-level Bonus Combat Feats",
+			"Bonus Feats",
 			"Close Weapon Mastery",
 			"Maneuver Training"
 		],
@@ -580,7 +585,9 @@
 		"sources": [ "Adventurer's Guide" ],
 		"replaces": "2nd, 8th, 14th-level Bonus Feat; AC Bonus",
 		"replace_array": [
-			"2nd, 8th, 14th-level Bonus Feat",
+			"2nd-level Bonus Feat",
+			"8th-level Bonus Feat",
+			"14th-level Bonus Feat",
 			"AC Bonus"
 		],
 		"short_description": "Winding path renegades studied at the Houses of Perfection in Jalmeray, but while they grasped the mechanical aspects of the forms, they lacked the mental discipline required by the masters of the school.",

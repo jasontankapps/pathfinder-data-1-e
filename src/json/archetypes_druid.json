@@ -5,7 +5,7 @@
 		"sources": [ "Ultimate Wilderness" ],
 		"replaces": "Weapon/Armor Proficiencies; Nature Bond; Wild Empathy; Woodland Stride; Resist Nature's Lure; Wild Shape; Venom Immunity",
 		"replace_array": [
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Nature Bond",
 			"Wild Empathy",
 			"Woodland Stride",
@@ -55,7 +55,7 @@
 		"sources": [ "Monster Codex" ],
 		"replaces": "Weapon Proficiencies; Nature Bond; Wild Empathy; Trackless Step; Woodland Stride; Spontaneous Casting; Resist Nature's Lure; A Thousand Faces",
 		"replace_array": [
-			"Weapon Proficiencies",
+			"Weapon Proficiency",
 			"Nature Bond",
 			"Wild Empathy",
 			"Trackless Step",
@@ -192,7 +192,7 @@
 		"replaces": "Resist Nature's Lure, one less Wild Shape/day, Venom Immunity",
 		"replace_array": [
 			"Resist Nature's Lure",
-			"one less Wild Shape/day",
+			"Wild Shape",
 			"Venom Immunity"
 		],
 		"short_description": "Ashvawg Tamers are druids who have chosen to bond with a strange and monstrous creature.",
@@ -548,7 +548,7 @@
 		"replaces": "Spontaneous Casting; Nature's Bond; Wild Shape; Resist Nature's Lure",
 		"replace_array": [
 			"Spontaneous Casting",
-			"Nature's Bond",
+			"Nature Bond",
 			"Wild Shape",
 			"Resist Nature's Lure"
 		],
@@ -669,9 +669,9 @@
 		"name": "Drovier",
 		"file": "archetypedisplay6ade.html",
 		"sources": [ "Magic Tactics Toolbox" ],
-		"replaces": "Nature's Bond; Wild Shape",
+		"replaces": "Nature Bond; Wild Shape",
 		"replace_array": [
-			"Nature's Bond",
+			"Nature Bond",
 			"Wild Shape"
 		],
 		"short_description": "Droviers view their allies and adventuring companions as a herd or pack to be protected and directed.",
@@ -725,9 +725,9 @@
 		"name": "Elemental Ally",
 		"file": "archetypedisplay71ce.html",
 		"sources": [ "Monster Summoner's Handbook" ],
-		"replaces": "Nature's Bond; Wild Shape; Wild Empathy; Resist Nature's Lure",
+		"replaces": "Nature Bond; Wild Shape; Wild Empathy; Resist Nature's Lure",
 		"replace_array": [
-			"Nature's Bond",
+			"Nature Bond",
 			"Wild Shape",
 			"Wild Empathy",
 			"Resist Nature's Lure"
@@ -985,10 +985,11 @@
 			"Ultimate Wilderness",
 			"Faiths and Philosophies"
 		],
-		"replaces": "Trackless Step; 6th, 10th-level use of Wild Shape; Venom Immunity; A Thousand Faces",
+		"replaces": "Trackless Step; 6th, 10th-level Wild Shape; Venom Immunity; A Thousand Faces",
 		"replace_array": [
 			"Trackless Step",
-			"6th, 10th-level use of Wild Shape",
+			"6th-level Wild Shape",
+			"10th-level Wild Shape",
 			"Venom Immunity",
 			"A Thousand Faces"
 		],
@@ -1145,9 +1146,9 @@
 		"name": "Kraken Caller",
 		"file": "archetypedisplayffae.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
-		"replaces": "Bonus Language; Woodland Stride; Trackless Step; Resist Nature's Lure; Wild Shape; A Thousand Faces",
+		"replaces": "Bonus Languages; Woodland Stride; Trackless Step; Resist Nature's Lure; Wild Shape; A Thousand Faces",
 		"replace_array": [
-			"Bonus Language",
+			"Bonus Languages",
 			"Woodland Stride",
 			"Trackless Step",
 			"Resist Nature's Lure",
@@ -1509,7 +1510,7 @@
 		"replace_array": [
 			"Deity",
 			"Class Skills",
-			"Weapon Proficiencies",
+			"Weapon Proficiency",
 			"Nature Sense",
 			"Nature Bond",
 			"Resist Nature's Lure",
@@ -1648,8 +1649,8 @@
 		"replaces": "Alignment; Spells; Nature's Bond; Spontaneous Casting; Resist Nature's Lure; Wild Shape",
 		"replace_array": [
 			"Alignment",
-			"Spells",
-			"Nature's Bond",
+			"Spellcasting",
+			"Nature Bond",
 			"Spontaneous Casting",
 			"Resist Nature's Lure",
 			"Wild Shape"
@@ -1661,9 +1662,7 @@
 			"**Source** [Antihero's Handbook pg. 13](source:Antihero's_Handbook)   ",
 			"Through determined interest or repeated exposure to those places where the borders between planes are weaker, some druids lose their neutral stance and find themselves gravitating toward one of the four most extreme alignments: chaotic evil, chaotic good, lawful evil, or lawful good. While no longer able to harness the forces of nature like their neutral kin, these planar extremists find that their powers have shifted to reflect the Outer Plane most closely associated with their alignment. This is an ex-class archetype and can be taken by a character immediately upon becoming an ex-druid.",
 			"",
-			"EX-CLASS ARCHETYPES",
-			"",
-			"The following archetype can be taken by an ex-druid immediately upon becoming an ex-druid, regardless of character level, replacing some or all of the lost class abilities. If another archetype the character had before she became an ex-druid replaces the same ability as the ex-class archetype, she loses the old archetype in favor of the new one; otherwise, she can retain both archetypes as normal. Planar extremixts can gain further levels in the druid class, even though becoming an ex-druid normally prohibits further advancement in the class. While an ex-member of a class can recant her failings and atone for her fall from her original class (typically involving an atonement spell), her acceptance of her ex-class archetype means she must atone both for her initial fall and for further straying from the path. As a result, such a character must be the target of two atonement spells or a similar effect to regain her lost class features. Upon doing so, she immediately loses this archetype and regains her original class (and archetype, if she had one).",
+			"**The following archetype can be taken by an ex-druid immediately upon becoming an ex-druid, regardless of character level, replacing some or all of the lost class abilities.** If another archetype the character had before she became an ex-druid replaces the same ability as the ex-class archetype, she loses the old archetype in favor of the new one; otherwise, she can retain both archetypes as normal. Planar extremixts can gain further levels in the druid class, even though becoming an ex-druid normally prohibits further advancement in the class. While an ex-member of a class can recant her failings and atone for her fall from her original class (typically involving an atonement spell), her acceptance of her ex-class archetype means she must atone both for her initial fall and for further straying from the path. As a result, such a character must be the target of two atonement spells or a similar effect to regain her lost class features. Upon doing so, she immediately loses this archetype and regains her original class (and archetype, if she had one).",
 			"",
 			"**Alignment:** A planar extremist must have an alignment of chaotic evil, chaotic good, lawful evil, or lawful good.",
 			"",
@@ -1773,11 +1772,11 @@
 		"name": "Restorer",
 		"file": "archetypedisplay5eb1.html",
 		"sources": [ "Healer's Handbook" ],
-		"replaces": "Nature Sense; Spontanteous Casting; Resist Nature's Lore; A Thousand Faces",
+		"replaces": "Nature Sense; Spontaneous Casting; Resist Nature's Lure; A Thousand Faces",
 		"replace_array": [
 			"Nature Sense",
-			"Spontanteous Casting",
-			"Resist Nature's Lore",
+			"Spontaneous Casting",
+			"Resist Nature's Lure",
 			"A Thousand Faces"
 		],
 		"short_description": "Restorers carefully tend to the health of both the environment and creatures in it.",
@@ -2219,7 +2218,7 @@
 		"replaces": "Class Skills; Weapon and Armor Proficiencies; Nature Bond; Woodland Stride; Trackless Step; Resist Nature's Lure; Wild Shape",
 		"replace_array": [
 			"Class Skills",
-			"Weapon and Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Nature Bond",
 			"Woodland Stride",
 			"Trackless Step",
@@ -2268,7 +2267,7 @@
 		"sources": [ "Occult Origins" ],
 		"replaces": "Weapon/Armor Proficiencies; Nature Bond; Wild Empathy; Nature Sense; Trackless Step; Resist Nature's Lure; Wild Shape",
 		"replace_array": [
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Nature Bond",
 			"Wild Empathy",
 			"Nature Sense",
@@ -2317,7 +2316,7 @@
 		"replaces": "Class Skills; Weapon/Armor Proficiencies; Spellcasting; Nature Bond; Resist Nature's Lure; Wild Shape; Venom Immunity",
 		"replace_array": [
 			"Class Skills",
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Spellcasting",
 			"Nature Bond",
 			"Resist Nature's Lure",
@@ -2385,7 +2384,7 @@
 			"Woodland Stride",
 			"Nature Sense",
 			"Resist Nature's Lure",
-			"12th-level Wild Shape options"
+			"12th-level Wild Shape"
 		],
 		"short_description": "Whereas other druids commune with nature or even the spirit of a city, swarm mongers find beauty and strength in decay, and they draw their power from fungus, disease, and their own singular will to survive.",
 		"description": [
@@ -2431,7 +2430,7 @@
 		"replaces": "Alignment; Weapon and Armor Proficiencies; Nature Bond; Nature Sense; Trackless Step; Resist Nature's Lure; Venom Immunity",
 		"replace_array": [
 			"Alignment",
-			"Weapon and Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Nature Bond",
 			"Nature Sense",
 			"Trackless Step",

@@ -85,7 +85,9 @@
 		"sources": [ "Construct Handbook" ],
 		"replaces": "3rd, 9th, 15th-level Focus Power; Magic Circles; Outside Contact; Binding Circles; Fast Circles",
 		"replace_array": [
-			"3rd, 9th, 15th-level Focus Power",
+			"3rd-level Focus Power",
+			"9th-level Focus Power",
+			"15th-level Focus Power",
 			"Magic Circles",
 			"Outside Contact",
 			"Binding Circles",
@@ -111,12 +113,12 @@
 		"name": "Curator",
 		"file": "archetypedisplay07d1.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Implements; 3rd-level Focus Power; Shift Focus; Outsider Contact; Magic Circles; Binding Circles; Fast Circles",
+		"replaces": "Implements; 3rd-level Focus Power; Shift Focus; Outside Contact; Magic Circles; Binding Circles; Fast Circles",
 		"replace_array": [
 			"Implements",
 			"3rd-level Focus Power",
 			"Shift Focus",
-			"Outsider Contact",
+			"Outside Contact",
 			"Magic Circles",
 			"Binding Circles",
 			"Fast Circles"
@@ -190,7 +192,7 @@
 		"sources": [ "Martial Arts Handbook" ],
 		"replaces": "Weapon Proficiencies; Mental Focus; Shift Focus; Magic Circles; Outside Contact; Binding Circles; Fast Circles",
 		"replace_array": [
-			"Weapon Proficiencies",
+			"Weapon Proficiency",
 			"Mental Focus",
 			"Shift Focus",
 			"Magic Circles",
@@ -237,7 +239,8 @@
 			"Implements",
 			"Magic Item Skill",
 			"Aura Sight",
-			"7th and 13th-level Focus Powers"
+			"7th-level Focus Power",
+			"13th-level Focus Power"
 		],
 		"short_description": "A geomancer studies every type of land, deriving power from the differences between types of terrain.",
 		"description": [
@@ -420,7 +423,9 @@
 			"Object Reading",
 			"Aura Sight",
 			"3rd-level Focus Power",
-			"Outside Contact 2, 3, and 4"
+			"Outside Contact 2",
+			"Outside Contact 3",
+			"Outside Contact 4"
 		],
 		"short_description": "Many wilderness areas contain the remnants of ancient civilizations, with some waiting to be discovered and some held by fierce monsters or devious cults. An occult historian seeks these ruins not only for their esoteric artifacts but also to learn the structures' secrets.",
 		"description": [
@@ -496,7 +501,8 @@
 			"Implement Mastery",
 			"Magic Item Skill",
 			"Shift Focus",
-			"5th, 7th-level Focus Power",
+			"5th-level Focus Power",
+			"7th-level Focus Power",
 			"Magic Circles",
 			"Aura Sight"
 		],
@@ -605,8 +611,8 @@
 		"sources": [ "Occult Origins" ],
 		"replaces": "Weapon Proficiencies; Spells; Focus Powers; Implements; Knacks; Mental Focus",
 		"replace_array": [
-			"Weapon Proficiencies",
-			"Spells",
+			"Weapon Proficiency",
+			"Spellcasting",
 			"Focus Powers",
 			"Implements",
 			"Knacks",
@@ -738,7 +744,7 @@
 			"Class Skills",
 			"Knacks",
 			"Implements",
-			"Weapon and Armor Proficiency",
+			"Weapon/Armor Proficiency",
 			"Outside Contact",
 			"Magic Circles",
 			"Binding Circles",
@@ -804,7 +810,8 @@
 			"Object Reading",
 			"Shift Focus",
 			"Aura Sight",
-			"5th, 17th-level Focus Powers"
+			"5th-level Focus Power",
+			"17th-level Focus Power"
 		],
 		"short_description": "Talisman crafters specialize- in the creation of seals, constructing master talismans to use as implements and inscribing wards with esoteric geometry.",
 		"description": [

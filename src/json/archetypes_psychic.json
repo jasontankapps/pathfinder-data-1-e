@@ -20,14 +20,14 @@
 			"",
 			"This change to spells doesn't apply to knacks (0-level spells) or discipline spells, which function the same way they do for a normal psychic. When the amnesiac gains access to 3rd-level spells, she gains full recall of her 1st-level spells and no longer gains 1st-level amnesia slots, instead gaining the full number of 1st-level spells known from Table 1-8 and casting them as a normal psychic. When this happens, the amnesiac can select any level-appropriate spells from the psychic spell list as her spells known, even if they were never among the spells she prepared or recalled; once selected, these spells can no longer be changed, as with a normal psychic. Each time the psychic gains access to a new level of spells, she gains full memory of spells 2 levels lower in the same way (gaining full memory and permanently selecting her 2nd-level spells when she gains access to 4thlevel spells, and so on). This ability alters spellcasting.",
 			"",
-			"**Spell Recollection (Ex):** Once per hour as a swift action, an amnesiac can attempt to remember any spell from the psychic spell list of her choice from either of the 2 highest spell levels she can cast. When she does, she rolls on Table 2-1: Spell Recollection to determine the result. Because the mental stress of combat brings memories to the surface more easily, the amnesiac adds 1d10 to this roll's result if she's in combat when she attempts to recall a spell. Regardless of the result, the amnesiac expends an amnesia slot of the appropriate level for the spell she is attempting to remember; she must cast the spell remembered (if any) using that amnesia slot during the same round, or the spell slot is lost without effect. Once a spell has been remembered in this way, the amnesiac can cast it as one of her spells known for the rest of the day (even if she failed to cast the spell during the round in which she remembered it), unless spell recollection allowed her to cast a spell of a higher level than she would normally be able to cast.",
+			"**Spell Recollection (Ex):** Once per hour as a swift action, an amnesiac can attempt to remember any spell from the psychic spell list of her choice from either of the 2 highest spell levels she can cast. When she does, she rolls on the table below to determine the result. Because the mental stress of combat brings memories to the surface more easily, the amnesiac adds 1d10 to this roll's result if she's in combat when she attempts to recall a spell. Regardless of the result, the amnesiac expends an amnesia slot of the appropriate level for the spell she is attempting to remember; she must cast the spell remembered (if any) using that amnesia slot during the same round, or the spell slot is lost without effect. Once a spell has been remembered in this way, the amnesiac can cast it as one of her spells known for the rest of the day (even if she failed to cast the spell during the round in which she remembered it), unless spell recollection allowed her to cast a spell of a higher level than she would normally be able to cast.",
 			"",
 			"| d% | Result |",
 			"| --- | --- |",
 			"| 1-10 | The amnesiac is unable to cast spells this round. |",
 			"| 11-35 | The amnesiac can't remember the new spell (but can still cast spells this round). |",
 			"| 36-95 | The amnesiac remembers and can cast the new spell. |",
-			"| 96+ | The amnesiac can choose to treat this result as 36-95. Alternatively, once per day, she can instead temporarily recall any spell from the psychic spell list that's 1 level higher than the spell she's attempting to remember. When she does, her caster level counts as the minimum caster level required to cast the higherlevel spell, and she forgets the spell after it's cast. |"
+			"| 96+ | The amnesiac can choose to treat this result as 36-95. Alternatively, once per day, she can instead temporarily recall any spell from the psychic spell list that's 1 level higher than the spell she's attempting to remember. When she does, her caster level counts as the minimum caster level required to cast the higher-level spell, and she forgets the spell after it's cast. |"
 		]
 	},
 	{
@@ -37,7 +37,8 @@
 		"replaces": "Discipline Spells; 1st, 11th-level Phrenic Amplifications; Major Amplifications",
 		"replace_array": [
 			"Discipline Spells",
-			"1st, 11th-level Phrenic Amplifications",
+			"1st-level Phrenic Amplification",
+			"11th-level Phrenic Amplification",
 			"Major Amplifications"
 		],
 		"short_description": "An esoteric starseeker is a psychic who focuses her studies on uncovering the secrets of the sky and the constellations of the Cosmic Caravan.",
@@ -89,7 +90,8 @@
 			"Phrenic Pool",
 			"Psychic Discipline",
 			"Discipline Powers",
-			"1st and 15th-level Phrenic Amplification",
+			"1st-level Phrenic Amplification",
+			"15th-level Phrenic Amplification",
 			"Discipline Spells",
 			"Remade Self"
 		],
@@ -128,7 +130,8 @@
 		"replaces": "Discipline Spells; 1st, 11th-level Phrenic Amplifications; Telepathic Bond; Telepathy",
 		"replace_array": [
 			"Discipline Spells",
-			"1st, 11th-level Phrenic Amplifications",
+			"1st-level Phrenic Amplification",
+			"11th-level Phrenic Amplification",
 			"Telepathic Bond",
 			"Telepathy"
 		],
@@ -262,13 +265,15 @@
 		"name": "Psychic Marauder",
 		"file": "archetypedisplay3f97.html",
 		"sources": [ "Heroes of the Darklands" ],
-		"replaces": "Alignment; Detect Thoughts; 3rd, 11th, 19th-level Phrenic Amplification; Telepathic Bond; Remade Self  ",
+		"replaces": "Alignment; Detect Thoughts; 3rd, 11th, 19th-level Phrenic Amplification; Telepathic Bond; Remade Self",
 		"replace_array": [
 			"Alignment",
 			"Detect Thoughts",
-			"3rd, 11th, 19th-level Phrenic Amplification",
+			"3rd-level Phrenic Amplification",
+			"11th-level Phrenic Amplification",
+			"19th-level Phrenic Amplification",
 			"Telepathic Bond",
-			"Remade Self  "
+			"Remade Self"
 		],
 		"short_description": "The psychic marauder's powers come hand in hand with madness, either from exposure to alien psyches or from terrifying glimpses into the cosmos that the psychic can't suppress.",
 		"description": [
@@ -310,7 +315,9 @@
 		"replace_array": [
 			"Detect Thoughts",
 			"Telepathic Bond",
-			"11th, 15th, 19th-level Phrenic Amplifications"
+			"11th-level Phrenic Amplification",
+			"15th-level Phrenic Amplification",
+			"19th-level Phrenic Amplification"
 		],
 		"short_description": "A number of exceptional Darklands half-orcs have developed potent psychic abilities, unlocked by generations of exposure to a specific combination of mind-altering fungi and radiation",
 		"description": [

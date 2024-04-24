@@ -49,11 +49,11 @@
 		"name": "Chameleon Adept",
 		"file": "archetypedisplayd3b2.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Class Skills; Teamwork Feats; Hunter's Tactics; Wild Empathy; Precise Companion; Woodland Stride; Raise Animal Companion; One with the Wild",
+		"replaces": "Class Skills; Teamwork Feats; Hunter Tactics; Wild Empathy; Precise Companion; Woodland Stride; Raise Animal Companion; One with the Wild",
 		"replace_array": [
 			"Class Skills",
 			"Teamwork Feats",
-			"Hunter's Tactics",
+			"Hunter Tactics",
 			"Wild Empathy",
 			"Precise Companion",
 			"Woodland Stride",
@@ -241,7 +241,11 @@
 			"Greater Empathic Link",
 			"Master of the Wild",
 			"Raise Animal Companion",
-			"6th, 9th, 12th, 15th, and 18th-level Teamwork Feats"
+			"6th-level Teamwork Feat",
+			"9th-level Teamwork Feat",
+			"12th-level Teamwork Feat",
+			"15th-level Teamwork Feat",
+			"18th-level Teamwork Feat"
 		],
 		"short_description": "A feral hunter has forged a bond with nature that's so strong that she doesn't merely channel the aspects of animals' she actually becomes an animal herself.",
 		"description": [
@@ -269,12 +273,12 @@
 		"name": "Feykiller",
 		"file": "archetypedisplay3767.html",
 		"sources": [ "Legacy of the First World" ],
-		"replaces": "Animal Focus; Wild Empathy; Speak with Master; Improed Empathic Link; One with the Wild",
+		"replaces": "Animal Focus; Wild Empathy; Speak with Master; Improved Empathic Link; One with the Wild",
 		"replace_array": [
 			"Animal Focus",
 			"Wild Empathy",
 			"Speak with Master",
-			"Improed Empathic Link",
+			"Improved Empathic Link",
 			"One with the Wild"
 		],
 		"short_description": "Some hunters in fey-plagued regions are dedicated to tracking down and eradicating these threats.",
@@ -853,7 +857,7 @@
 			"Class Skills",
 			"Animal Companion",
 			"Hunter Tactics",
-			"Teamwork Feat",
+			"Teamwork Feats",
 			"Woodland Stride",
 			"One with the Wild"
 		],

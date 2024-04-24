@@ -43,7 +43,7 @@
 		"replaces": "Class Skills; Bomb; Mutagen; Poison Resistance; Swift Alchemy; 6th-level Discovery; Poison Immunity",
 		"replace_array": [
 			"Class Skills",
-			"Bomb",
+			"Bombs",
 			"Mutagen",
 			"Poison Resistance",
 			"Swift Alchemy",
@@ -96,7 +96,8 @@
 		"sources": [ "Monster Codex" ],
 		"replaces": "2nd and 4th-level Discoveries",
 		"replace_array": [
-			"2nd and 4th-level Discoveries"
+			"2nd-level Discovery",
+			"4th-level Discovery"
 		],
 		"short_description": "(Kobold Only) Because kobolds rely on traps to soften up enemies, kobold alchemists learn to turn bombs into traps.",
 		"description": [
@@ -202,7 +203,9 @@
 		"replaces": "Bombs; 6th, 12th, 18th-level Discovery; Persistent Mutagen",
 		"replace_array": [
 			"Bombs",
-			"6th, 12th, 18th-level Discovery",
+			"6th-level Discovery",
+			"12th-level Discovery",
+			"18th-level Discovery",
 			"Persistent Mutagen"
 		],
 		"short_description": "Blightseekers are alchemists devoted to the study of fungi native to the Darklands.",
@@ -381,7 +384,7 @@
 		"sources": [ "Ultimate Magic" ],
 		"replaces": "Bomb; Poison Resistance +6; Poison Immunity",
 		"replace_array": [
-			"Bomb",
+			"Bombs",
 			"Poison Resistance +6",
 			"Poison Immunity"
 		],
@@ -411,7 +414,9 @@
 		"sources": [],
 		"replaces": "2nd, 4th, 6th-level Discovery; Swift Poisoning",
 		"replace_array": [
-			"2nd, 4th, 6th-level Discovery",
+			"2nd-level Discovery",
+			"4th-level Discovery",
+			"6th-level Discovery",
 			"Swift Poisoning"
 		],
 		"short_description": "Concocters are experts at combining sets of chemicals to create unique effects.",
@@ -554,7 +559,7 @@
 		"sources": [ "Inner Sea Magic" ],
 		"replaces": "Alchemist Bomb, Mutagen, Brew Potion, Persistent Mutagen",
 		"replace_array": [
-			"Alchemist Bomb",
+			"Bombs",
 			"Mutagen",
 			"Brew Potion",
 			"Persistent Mutagen"
@@ -633,7 +638,9 @@
 		"replaces": "Mutagen; 2nd, 12th, 16th-level discovery; Throw Anything; Poison Resistance; Poison Use; Swift Poisoning",
 		"replace_array": [
 			"Mutagen",
-			"2nd, 12th, 16th-level discovery",
+			"2nd-level Discovery",
+			"12th-level Discovery",
+			"16th-level Discovery",
 			"Throw Anything",
 			"Poison Resistance",
 			"Poison Use",
@@ -665,14 +672,14 @@
 		"name": "Ectochymist",
 		"file": "archetypedisplayee8f.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Class Skills; Bombs; Poison Resistance; Poison Use; Swift Poisoning; 8th-level Alchemist Discovery; Poison Immunity",
+		"replaces": "Class Skills; Bombs; Poison Resistance; Poison Use; Swift Poisoning; 8th-level Discovery; Poison Immunity",
 		"replace_array": [
 			"Class Skills",
 			"Bombs",
 			"Poison Resistance",
 			"Poison Use",
 			"Swift Poisoning",
-			"8th-level Alchemist Discovery",
+			"8th-level Discovery",
 			"Poison Immunity"
 		],
 		"short_description": "Ectochymists study the effects of alchemy on soul and spirit, focusing on fighting ghosts and other incorporeal creatures.",
@@ -731,7 +738,7 @@
 		"sources": [ "Black Markets" ],
 		"replaces": "Bomb; Throw Anything; Mutagen; Persistent Mutagen; 4th-level Discovery",
 		"replace_array": [
-			"Bomb",
+			"Bombs",
 			"Throw Anything",
 			"Mutagen",
 			"Persistent Mutagen",
@@ -918,14 +925,14 @@
 		"replaces": "Weapon/Armor Proficiency; Bomb; Throw Anything; 4th-level Discovery; Poison Resistance +6; Poison Immunity; Persistent Mutagen",
 		"replace_array": [
 			"Weapon/Armor Proficiency",
-			"Bomb",
+			"Bombs",
 			"Throw Anything",
 			"4th-level Discovery",
 			"Poison Resistance +6",
 			"Poison Immunity",
 			"Persistent Mutagen"
 		],
-		"short_description": "(Goblin Only) Fire bombers are exceptionally good at using bombs to burn creatures and blow things up, but are not quite as good at creating other types of bombs or extracts. ",
+		"short_description": "(Goblin Only) Fire bombers are exceptionally good at using bombs to burn creatures and blow things up, but are not quite as good at creating other types of bombs or extracts.",
 		"description": [
 			"## Fire Bomber",
 			"",
@@ -998,7 +1005,7 @@
 		"sources": [ "Blood of Shadows" ],
 		"replaces": "Bomb; Poison Resistance; Poison Use; Swift Poisoning",
 		"replace_array": [
-			"Bomb",
+			"Bombs",
 			"Poison Resistance",
 			"Poison Use",
 			"Swift Poisoning"
@@ -1085,7 +1092,7 @@
 		"sources": [ "People of the Wastes" ],
 		"replaces": "Weapon and Armor Proficiencies; Bombs; Brew Potion; Throw Anything; Poison Resistance; Swift Poisoning",
 		"replace_array": [
-			"Weapon and Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Bombs",
 			"Brew Potion",
 			"Throw Anything",
@@ -1201,8 +1208,9 @@
 		"replaces": "Mutagen; 2nd and 4th-level Discoveries; Bomb; Poison Resistance; Poison Use; Poison Immunity; Persistent Mutagen",
 		"replace_array": [
 			"Mutagen",
-			"2nd and 4th-level Discoveries",
-			"Bomb",
+			"2nd-level Discovery",
+			"4th-level Discovery",
+			"Bombs",
 			"Poison Resistance",
 			"Poison Use",
 			"Poison Immunity",
@@ -1242,7 +1250,7 @@
 		"sources": [ "Ultimate Wilderness" ],
 		"replaces": "Bomb; Poison Resistance; Poison Immunity; 2nd-level Discovery",
 		"replace_array": [
-			"Bomb",
+			"Bombs",
 			"Poison Resistance",
 			"Poison Immunity",
 			"2nd-level Discovery"
@@ -1322,7 +1330,7 @@
 		"replaces": "Class Skills; Bomb; Mutagen; Persistent Mutagen",
 		"replace_array": [
 			"Class Skills",
-			"Bomb",
+			"Bombs",
 			"Mutagen",
 			"Persistent Mutagen"
 		],
@@ -1366,7 +1374,9 @@
 		"sources": [ "Horror Adventures" ],
 		"replaces": "Alchemy, 2nd, 4th-level Discovery; Mutagen",
 		"replace_array": [
-			"Alchemy, 2nd, 4th-level Discovery",
+			"Alchemy",
+			"2nd-level Discovery",
+			"4th-level Discovery",
 			"Mutagen"
 		],
 		"short_description": "The mad scientist's colleagues laughed at her insights, mocked her theories, and hounded her from the halls of academia, simply because they were too weak and frightened to understand her work.",
@@ -1404,7 +1414,7 @@
 		"replaces": "Class Skills; Bomb; Extracts; Throw Anything; Swift Alchemy; Swift Poisoning; Instant Alchemy",
 		"replace_array": [
 			"Class Skills",
-			"Bomb",
+			"Bombs",
 			"Extracts",
 			"Throw Anything",
 			"Swift Alchemy",
@@ -1468,13 +1478,13 @@
 		"name": "Mixologist",
 		"file": "archetypedisplay24de.html",
 		"sources": [ "Inner Sea Taverns" ],
-		"replaces": "Alchemy; Brew Potion; Mutagen; 2nd-level Discovery; POison Resistance; Persistent Mutagen",
+		"replaces": "Alchemy; Brew Potion; Mutagen; 2nd-level Discovery; Poison Resistance; Persistent Mutagen",
 		"replace_array": [
 			"Alchemy",
 			"Brew Potion",
 			"Mutagen",
 			"2nd-level Discovery",
-			"POison Resistance",
+			"Poison Resistance",
 			"Persistent Mutagen"
 		],
 		"short_description": "Mixologists focus on mastering the chemical reactions between alcohol and the physical body.",
@@ -1585,7 +1595,7 @@
 		"replaces": "Class Skills; Bomb; Brew Potion; Poison Resistance; Poison Immunity",
 		"replace_array": [
 			"Class Skills",
-			"Bomb",
+			"Bombs",
 			"Brew Potion",
 			"Poison Resistance",
 			"Poison Immunity"
@@ -1626,7 +1636,7 @@
 		"replace_array": [
 			"Extracts",
 			"Brew Potion",
-			"Bomb",
+			"Bombs",
 			"Mutagen",
 			"Persistent Mutagen"
 		],
@@ -1690,13 +1700,13 @@
 		"name": "Preservationist",
 		"file": "archetypedisplay75f8.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Poison Use; Poison Resistance +4; Poison Resistance +6; Poison Immunity; Persistant Mutagen; 18th-level Discovery",
+		"replaces": "Poison Use; Poison Resistance +4; Poison Resistance +6; Poison Immunity; Persistent Mutagen; 18th-level Discovery",
 		"replace_array": [
 			"Poison Use",
 			"Poison Resistance +4",
 			"Poison Resistance +6",
 			"Poison Immunity",
-			"Persistant Mutagen",
+			"Persistent Mutagen",
 			"18th-level Discovery"
 		],
 		"short_description": "Some alchemists are obsessed with collecting and preserving exotic creatures.",
@@ -1825,7 +1835,7 @@
 		"sources": [ "Ultimate Magic" ],
 		"replaces": "Bomb; Poison Resistance +4; Poison Resistance +6; Poison Immunity; 15th-level Bomb Damage Increase; 17th-level Bomb Damage Increase",
 		"replace_array": [
-			"Bomb",
+			"Bombs",
 			"Poison Resistance +4",
 			"Poison Resistance +6",
 			"Poison Immunity",
@@ -1891,7 +1901,7 @@
 		"sources": [ "Ultimate Magic" ],
 		"replaces": "Bomb; 7th-level Bomb Damage Increase; 13th-level Bomb Damage Increase; 15th-level Bomb Damage Increase",
 		"replace_array": [
-			"Bomb",
+			"Bombs",
 			"7th-level Bomb Damage Increase",
 			"13th-level Bomb Damage Increase",
 			"15th-level Bomb Damage Increase"
@@ -2121,7 +2131,9 @@
 		"replaces": "Poison Use; Poison Resistance +2, +4, +6; Swift Poisoning; Poison Immunity",
 		"replace_array": [
 			"Poison Use",
-			"Poison Resistance +2, +4, +6",
+			"Poison Resistance +2",
+			"Poison Resistance +4",
+			"Poison Resistance +6",
 			"Swift Poisoning",
 			"Poison Immunity"
 		],
@@ -2180,8 +2192,8 @@
 		"name": "Vivisectionist",
 		"file": "archetypedisplay6b50.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Bomb",
-		"replace_array": [ "Bomb" ],
+		"replaces": "Bombs",
+		"replace_array": [ "Bombs" ],
 		"short_description": "A vivisectionist studies bodies to better understand their function.",
 		"description": [
 			"## Vivisectionist",
@@ -2214,7 +2226,8 @@
 		"sources": [ "Healer's Handbook" ],
 		"replaces": "Poison Resistance +2, +6; Swift Poisoning; 8th-level Discovery",
 		"replace_array": [
-			"Poison Resistance +2, +6",
+			"Poison Resistance +2",
+			"Poison Resistance +6",
 			"Swift Poisoning",
 			"8th-level Discovery"
 		],

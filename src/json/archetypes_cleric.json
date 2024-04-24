@@ -45,7 +45,7 @@
 			"Aura",
 			"Channel Energy",
 			"Alignment",
-			"Spells",
+			"Spellcasting",
 			"Domains"
 		],
 		"short_description": "A rare few seek the power of dark forces for brighter ends by focusing on the utilitarian aspects of a god's portfolio, appeasing their deities through high praise and glorifying their chosen gods' unaligned aspects.",
@@ -137,11 +137,11 @@
 		"name": "Cardinal",
 		"file": "archetypedisplayd146.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Armor Proficieny; Spontaneous Casting; Domain; Class Skills; Skill Ranks; Base Attack Bonus",
+		"replaces": "Armor Proficiency; Spontaneous Casting; Domain; Class Skills; Skill Ranks; Base Attack Bonus",
 		"replace_array": [
-			"Armor Proficieny",
+			"Armor Proficiency",
 			"Spontaneous Casting",
-			"Domain",
+			"Domains",
 			"Class Skills",
 			"Skill Ranks",
 			"Base Attack Bonus"
@@ -168,8 +168,8 @@
 		"sources": [ "Antihero's Handbook" ],
 		"replaces": "Weapon and Armor Proficiency; Spells; Aura; Channel Energy; Domains; Spontaneous Casting",
 		"replace_array": [
-			"Weapon and Armor Proficiency",
-			"Spells",
+			"Weapon/Armor Proficiency",
+			"Spellcasting",
 			"Aura",
 			"Channel Energy",
 			"Domains",
@@ -182,15 +182,11 @@
 			"**Source** [Antihero's Handbook pg. 12](source:Antihero's_Handbook)   ",
 			"While most clerics who fall out of favor with their deities simply lose their divine connection and the powers it granted, a few continue to go through the motions of prayer and obedience, persisting in the habits of faith even when their faith itself has faded. Among these, an even smaller number find that while their original deity no longer answers their prayers, something else does: an unknown entity or force of the universe channeling its power through a trained and practicing vessel.",
 			"",
-			"This is an ex-class archetype and can be taken by a character immediately upon becoming an ex-cleric.",
-			"",
-			"EX-CLASS ARCHETYPES",
+			"**This is an ex-class archetype and can be taken by a character immediately upon becoming an ex-cleric.**",
 			"",
 			"The following archetype can be taken by an ex-cleric immediately upon becoming an ex-cleric, regardless of character level, replacing some or all of the lost class abilities. If another archetype the character had before she became an ex-cleric replaces the same ability as the ex-class archetype, she loses the old archetype in favor of the new one; otherwise, she can retain both archetypes as normal. Channelers of the unknown can gain further levels in the cleric class, even though becoming an ex-cleric normally prohibits further advancement in the class. While an ex-member of a class can recant her failings and atone for her fall from her original class (typically involving an atonement spell), her acceptance of her ex-class archetype means she must atone both for her initial fall and for further straying from the path. As a result, such a character must be the target of two atonement spells or a similar effect to regain her lost class features. Upon doing so, she immediately loses this archetype and regains her original class (and archetype, if she had one).",
 			"",
-			"Weapon and Armor Proficiency",
-			"",
-			"**:** A channeler of the unknown loses proficiency with her deity's favored weapon. She instead gains proficiency with one martial or exotic weapon, chosen when she first takes this archetype, which thereafter effectively functions as her holy or unholy symbol for the purposes of class abilities and spellcasting. The weapon chosen cannot be one associated with her former deity. Once she makes this choice, she can't later change it.",
+			"**Weapon/Armor Proficiency:** A channeler of the unknown loses proficiency with her deity's favored weapon. She instead gains proficiency with one martial or exotic weapon, chosen when she first takes this archetype, which thereafter effectively functions as her holy or unholy symbol for the purposes of class abilities and spellcasting. The weapon chosen cannot be one associated with her former deity. Once she makes this choice, she can't later change it.",
 			"",
 			"This alters the cleric's weapon and armor proficiency.",
 			"",
@@ -221,9 +217,9 @@
 		"sources": [ "Ultimate Magic" ],
 		"replaces": "Weapon/Armor Proficiencies; Domains; Spells",
 		"replace_array": [
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Domains",
-			"Spells"
+			"Spellcasting"
 		],
 		"short_description": "Cloistered clerics typically live in a temple and rarely interact with the outside world. They are bookish and well learned in the lore of the faith, paying less attention to its magical and martial aspects.",
 		"description": [
@@ -307,7 +303,7 @@
 		"replaces": "Domains; Spells",
 		"replace_array": [
 			"Domains",
-			"Spells"
+			"Spellcasting"
 		],
 		"short_description": "Crusaders serve the militant arm of a church, ready to stand guard over the religion's holy places and to be its swift, avenging arm against those who resist its truth.",
 		"description": [
@@ -354,7 +350,7 @@
 		"sources": [ "Divine Anthology" ],
 		"replaces": "Domain; Aura",
 		"replace_array": [
-			"Domain",
+			"Domains",
 			"Aura"
 		],
 		"short_description": "Divine paragons strive to emulate their god's ideals as closely as possible.",
@@ -437,8 +433,8 @@
 		"sources": [ "Advanced Class Guide" ],
 		"replaces": "Weapon/Armor Proficiencies; Domain; Channel Energy",
 		"replace_array": [
-			"Weapon/Armor Proficiencies",
-			"Domain",
+			"Weapon/Armor Proficiency",
+			"Domains",
 			"Channel Energy"
 		],
 		"short_description": "Eschewing physical armor for protection via the strength of his faith, an ecclesitheurge focuses on the miracles his deity bestows and the breadth of that deity's dominion.",
@@ -477,7 +473,9 @@
 			"Domains",
 			"Channel Energy",
 			"Spontaneous Casting",
-			"5th, 11th, and 19th-level Channel Energy increase"
+			"5th-level Channel Energy increase",
+			"11th-level Channel Energy increase",
+			"19th-level Channel Energy increase"
 		],
 		"short_description": "Typically grasping, secretive, and thoroughly mad, Elder Mythos cultists open their bodies and minds to horrifying realities not meant for the sane as they strive to prepare the world for the eventual return of their alien masters.",
 		"description": [
@@ -687,8 +685,7 @@
 		"replace_array": [
 			"Class Skills",
 			"Domains",
-			"Armor Proficiencies",
-			""
+			"Armor Proficiency"
 		],
 		"short_description": "Unlike warpriests or paladins, who charge headlong into battle in the name of their patron deities, herald callers are adept at calling powerful outsiders to aid their brethren in battle.",
 		"description": [
@@ -931,7 +928,7 @@
 		"replaces": "Skill Ranks; Weapon/Armor Proficiencies; Domains; Channel Energy",
 		"replace_array": [
 			"Skill Ranks",
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Domains",
 			"Channel Energy"
 		],
@@ -997,8 +994,8 @@
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"replaces": "1st Level Domain Power, Channel Energy 5th level increase, 4th-level spell slot",
 		"replace_array": [
-			"1st Level Domain Power",
-			"Channel Energy 5th level increase",
+			"1st-level Domain Power",
+			"5th-level Channel Energy increase",
 			"4th-level spell slot"
 		],
 		"short_description": "Those who trade some of their potential to better understand ancient texts and scrolls can become learned scroll scholars.",
@@ -1044,8 +1041,7 @@
 		"replaces": "Channel Energy; Domains;",
 		"replace_array": [
 			"Channel Energy",
-			"Domains",
-			""
+			"Domains"
 		],
 		"short_description": "Stoic caregivers are champions of life in defiance of untimely death as well as undeath.",
 		"description": [
@@ -1153,8 +1149,8 @@
 		"sources": [ "Inner Sea Magic" ],
 		"replaces": "Altered Domain Abilities; Medium Armor/Shield Proficiency; 8th-level Domain Power",
 		"replace_array": [
-			"Altered Domain Abilities",
-			"Medium Armor/Shield Proficiency",
+			"Domains",
+			"Armor Proficiency",
 			"8th-level Domain Power"
 		],
 		"short_description": "While most clerics are associated with a particular temple, adventuring clerics spend much of their time away from their favored place of worship, and there are those who worship primarily on the road and during the journey.",
