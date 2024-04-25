@@ -354,11 +354,11 @@
 			"Ultimate Wilderness",
 			"Familiar Folio"
 		],
-		"replaces": "Speak with Master; Speak with Animals of its Kind; Intelligence Score Advancement; Deliver Touch Spells; Spell Resistance",
+		"replaces": "Speak with Master; Speak with Animals of its Kind; Intelligence Score Progression; Deliver Touch Spells; Spell Resistance",
 		"replace_array": [
 			"Speak with Master",
 			"Speak with Animals of its Kind",
-			"Intelligence Score Advancement",
+			"Intelligence Score Progression",
 			"Deliver Touch Spells",
 			"Spell Resistance"
 		],

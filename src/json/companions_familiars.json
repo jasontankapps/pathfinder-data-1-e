@@ -4,6 +4,17 @@
 			"name": "Animal Companion",
 			"file": "COMPANION.html",
 			"sources": [ "PRPG Core Rulebook" ],
+			"archetypes": "archetypes_COMPANION.json",
+			"archetype_portions": [
+				"4th or 7th-level Advancement",
+				"Devotion",
+				"Evasion",
+				"Improved Evasion",
+				"Multiattack",
+				"Natural Armor Progression",
+				"See text",
+				"Share Spells"
+			],
 			"description": [
 				"## Animal Companion",
 				"",
@@ -345,6 +356,25 @@
 			"name": "Familiar",
 			"file": "FAMILIAR.html",
 			"sources": [ "PRPG Core Rulebook" ],
+			"archetypes": "archetypes_FAMILIAR.json",
+			"archetype_portions": [
+				"Alertness",
+				"Cannot combine with any other Archetype",
+				"Class Skills",
+				"Deliver Touch Spells",
+				"Empathic Link",
+				"Evasion",
+				"Improved Evasion",
+				"Intelligence Score Progression",
+				"Natural Armor Progression",
+				"Scry on Familiar",
+				"Share Spells",
+				"Skill Ranks",
+				"Speak with Animals of its Kind",
+				"Speak with Master",
+				"Spell Resistance",
+				"Variable Familiar Bonus"
+			],
 			"description": [
 				"## Familiar",
 				"",
