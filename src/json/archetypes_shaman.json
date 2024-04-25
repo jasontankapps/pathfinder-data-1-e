@@ -5,8 +5,12 @@
 		"sources": [ "Advanced Class Guide" ],
 		"replaces": "Spirit Magic Spells; 2nd, 8th, 10th, 12th, and 18th-level Hexes; Manifestation",
 		"replace_array": [
-			"Spirit Magic Spells",
-			"2nd, 8th, 10th, 12th, and 18th-level Hexes",
+			"Spirit Magic",
+			"2nd-level Hex",
+			"8th-level Hex",
+			"10th-level Hex",
+			"12th-level Hex",
+			"18th-level Hex",
 			"Manifestation"
 		],
 		"short_description": "Even among mystical practitioners, the animist has a strange perspective and even stranger magic. The animist perceives that all things have a spirit, including objects, constructs, illnesses, buildings, and the environment.",
@@ -54,8 +58,7 @@
 		"replaces": "Spellcasting; Hexes;",
 		"replace_array": [
 			"Spellcasting",
-			"Hexes",
-			""
+			"Hexes"
 		],
 		"short_description": "A benefactor seeks to improve the lives of others by primarily offering powerful supportive abilities and magic to her allies and others she deems worthy.",
 		"description": [
@@ -87,7 +90,7 @@
 		"replace_array": [
 			"Spirit Animal",
 			"Wandering Spirit",
-			"8th-level Shaman Hex",
+			"8th-level Hex",
 			"Manifestation"
 		],
 		"short_description": "A crystal tender focuses on the spirits of metal and stone, using crystals as a means to focus the power of the spirits she venerates.",
@@ -125,7 +128,7 @@
 			"Spirit",
 			"Spirit Animal",
 			"Class Skills",
-			"Spirit Abilities"
+			"Greater Spirit"
 		],
 		"short_description": "Deep shamans are tied to spirits from the depths.",
 		"description": [
@@ -163,7 +166,8 @@
 		"replace_array": [
 			"Spirit",
 			"Spirit Animal",
-			"4th, 10th-level Hexes",
+			"4th-level Hex",
+			"10th-level Hex",
 			"Spirit Magic"
 		],
 		"short_description": "Some shamans draw their powers from the might of dragons. These shamans each gain a powerful drake as an ally, and view caring for that drake as a sacred duty",
@@ -173,9 +177,7 @@
 			"**Source** [Legacy of Dragons pg. 24](source:Legacy_of_Dragons)   ",
 			"In some regions of Tian Xia, shamans are unusually common, and may have strong ties to dragon gods and imperial dragons who act as mentors. Some of these shamans draw their powers from the might of dragons, rather than from spirits. These shamans each gain a powerful drake as an ally, and view caring for that drake as a sacred duty.",
 			"",
-			"Drake Companion",
-			"",
-			"**:** A draconic shaman gains a drake companion instead of a spirit animal, and she communes with the drake to prepare her spells just as other shamans commune with their spirit animals. She doesn't gain a primary spirit, but she still gains wandering spirit at 4th level. She must select all her hexes (other than her wandering hexes) from the list of shaman hexes, and she can't select the witch hex shaman hex. She doesn't gain spirit magic slots until 4th level when she gains her wandering spirit. Any ability granted by a wandering spirit that would normally affect a spirit animal (such as nature's true spirit ability) has no effect for a draconic shaman.",
+			"**Drake Companion:** A draconic shaman gains a drake companion instead of a spirit animal, and she communes with the drake to prepare her spells just as other shamans commune with their spirit animals. She doesn't gain a primary spirit, but she still gains wandering spirit at 4th level. She must select all her hexes (other than her wandering hexes) from the list of shaman hexes, and she can't select the witch hex shaman hex. She doesn't gain spirit magic slots until 4th level when she gains her wandering spirit. Any ability granted by a wandering spirit that would normally affect a spirit animal (such as nature's true spirit ability) has no effect for a draconic shaman.",
 			"",
 			"This ability replaces spirit, spirit animal, and the hexes gained at 4th and 10th levels and alters spirit magic."
 		]
@@ -188,7 +190,8 @@
 		"replace_array": [
 			"Spirit Animal",
 			"Spirit Magic",
-			"2nd, 8th-level Hex"
+			"2nd-level Hex",
+			"8th-level Hex"
 		],
 		"short_description": "Grasping vine shamans are typically adherents of one of several scattered sects dedicated to the Green Mother. They revere plant life in all its forms, with a special fondness for poisonous or carnivorous plants.",
 		"description": [
@@ -296,7 +299,8 @@
 		"replaces": "Spirit Magic; 2nd and 6th-level Hexes",
 		"replace_array": [
 			"Spirit Magic",
-			"2nd and 6th-level Hexes"
+			"2nd-level Hex",
+			"6th-level Hex"
 		],
 		"short_description": "For a possessed shaman, merely communing with the spirit world is insufficient. Instead, she invites the spirits to share her body, granting them the chance to experience corporeal existence.",
 		"description": [
@@ -316,11 +320,13 @@
 		"name": "Primal Warden",
 		"file": "archetypedisplayc48d.html",
 		"sources": [ "People of the Wastes" ],
-		"replaces": "Spirit Animal; Spirit Magic; 4th, 8th, 12th-levle Hex",
+		"replaces": "Spirit Animal; Spirit Magic; 4th, 8th, 12th-level Hex",
 		"replace_array": [
 			"Spirit Animal",
 			"Spirit Magic",
-			"4th, 8th, 12th-levle Hex"
+			"4th-level Hex",
+			"8th-level Hex",
+			"12th-level Hex"
 		],
 		"short_description": "A shaman who communes with spirits that linger in areas where primal magic reigns, learning to stabilize these erratic energies and draw upon them to her benefit.",
 		"description": [
@@ -355,7 +361,7 @@
 		"file": "archetypedisplay2df5.html",
 		"sources": [ "Blood of the Beast" ],
 		"replaces": "Spirit Magic spells",
-		"replace_array": [ "Spirit Magic spells" ],
+		"replace_array": [ "Spirit Magic" ],
 		"short_description": "The serendipitous, shamanistic rites associated with the traditional catfolk worship of the so-called \"spirits of creation\" focus upon attracting good fortune and banishing ill fortune in the name of these spirits.",
 		"description": [
 			"## Serendipity Shaman",
@@ -386,9 +392,9 @@
 		"name": "Speaker for the Past",
 		"file": "archetypedisplay060a.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Spirit Familiar; Wandering Spirit; Wandering Hex",
+		"replaces": "Spirit Animal; Wandering Spirit; Wandering Hex",
 		"replace_array": [
-			"Spirit Familiar",
+			"Spirit Animal",
 			"Wandering Spirit",
 			"Wandering Hex"
 		],
@@ -413,8 +419,9 @@
 		"replaces": "Class Skills; Spirit Magic Spells; 2nd and 10th-level Hexes",
 		"replace_array": [
 			"Class Skills",
-			"Spirit Magic Spells",
-			"2nd and 10th-level Hexes"
+			"Spirit Magic",
+			"2nd-level Hex",
+			"10th-level Hex"
 		],
 		"short_description": "Not all spirits deserve reverence and respect. Some are twisted and despicable. It's a spirit warden's duty to end these spirits' existence.",
 		"description": [
@@ -471,7 +478,7 @@
 		"replaces": "Spirit; Hex; Spirit Animal; Wandering Spirit; Wandering Hex; Spirit Magic",
 		"replace_array": [
 			"Spirit",
-			"Hex",
+			"Hexes",
 			"Spirit Animal",
 			"Wandering Spirit",
 			"Wandering Hex",
@@ -504,7 +511,7 @@
 		"replaces": "Wandering Spirit; Spirit Magic Spells; Wandering Hex; Greater Wandering Spirit; True Wandering Spirit",
 		"replace_array": [
 			"Wandering Spirit",
-			"Spirit Magic Spells",
+			"Spirit Magic",
 			"Wandering Hex",
 			"Greater Wandering Spirit",
 			"True Wandering Spirit"
@@ -538,7 +545,10 @@
 		"replaces": "Alignment; 4th, 8th, 10th, and 12th-level Hexes",
 		"replace_array": [
 			"Alignment",
-			"4th, 8th, 10th, and 12th-level Hexes"
+			"4th-level Hex",
+			"8th-level Hex",
+			"10th-level Hex",
+			"12th-level Hex"
 		],
 		"short_description": "The witch doctor is a healer who specializes in afflictions of the soul.",
 		"description": [

@@ -5,7 +5,7 @@
 		"sources": [ "Martial Arts Handbook" ],
 		"replaces": "Weapon and Armor Proficiency; Mount; Weapon Expertise; Mounted Archer; Banner; Greater Banner",
 		"replace_array": [
-			"Weapon and Armor Proficiency",
+			"Weapon/Armor Proficiency",
 			"Mount",
 			"Weapon Expertise",
 			"Mounted Archer",
@@ -83,7 +83,7 @@
 			"Alignment",
 			"Mount",
 			"Mounted Archer",
-			"6th, 12th, 18th-level bonus feats"
+			"Bonus Combat Feats"
 		],
 		"short_description": "In Tian Xia, many samurai are tutored in the ways of honor using lessons that originate from sovereign dragons and their dedication to safeguarding harmony.",
 		"description": [
@@ -117,7 +117,7 @@
 		"sources": [],
 		"replaces": "Samurai's Mount; Mounted Charge; Banner; Greater Banner",
 		"replace_array": [
-			"Samurai's Mount",
+			"Mount",
 			"Mounted Charge",
 			"Banner",
 			"Greater Banner"
@@ -194,7 +194,7 @@
 		"sources": [ "Heroes from the Fringe" ],
 		"replaces": "Weapon and Armor Proficiency; Mount; Weapon Expertise; Banner; Greater Banner; Challenge; Mounted Archer; Demanding Challange; Bonus Combat Feats",
 		"replace_array": [
-			"Weapon and Armor Proficiency",
+			"Weapon/Armor Proficiency",
 			"Mount",
 			"Weapon Expertise",
 			"Banner",

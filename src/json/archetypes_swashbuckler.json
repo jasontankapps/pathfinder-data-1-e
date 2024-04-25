@@ -3,12 +3,12 @@
 		"name": "Arrow Champion",
 		"file": "archetypedisplayb81a.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Panache; Opportune Parry and Riposte; Precise Strike; Swashbuckler's Initiative; Swashbuckler Weapon Training; Swashbuckler Weapon Mastery",
+		"replaces": "Panache; Opportune Parry and Riposte; Precise Strike; Swashbuckler Initiative; Swashbuckler Weapon Training; Swashbuckler Weapon Mastery",
 		"replace_array": [
 			"Panache",
 			"Opportune Parry and Riposte",
 			"Precise Strike",
-			"Swashbuckler's Initiative",
+			"Swashbuckler Initiative",
 			"Swashbuckler Weapon Training",
 			"Swashbuckler Weapon Mastery"
 		],
@@ -156,7 +156,7 @@
 		"replaces": "Class Skills; Bonus Feat; Swashbuckler Initiative; Menacing Swordplay; Bleeding Wound",
 		"replace_array": [
 			"Class Skills",
-			"Bonus Feat",
+			"Bonus Feats",
 			"Swashbuckler Initiative",
 			"Menacing Swordplay",
 			"Bleeding Wound"
@@ -281,7 +281,7 @@
 			"1st, 7th, 15th-level Deeds",
 			"Charmed Life",
 			"Nimble",
-			"Kip-up"
+			"Kip-Up"
 		],
 		"short_description": "Instead of parrying attacks against her, a guiding blade redirects her enemies' ire away from her allies, interfering with enemies who attack her allies, whether that attack comes by blade or by spell.",
 		"description": [
@@ -386,7 +386,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"replaces": "Weapon Proficiencies; Swashbuckler Finesse; Dodging Panache",
 		"replace_array": [
-			"Weapon Proficiencies",
+			"Weapon Proficiency",
 			"Swashbuckler Finesse",
 			"Dodging Panache"
 		],
@@ -414,7 +414,7 @@
 		"replace_array": [
 			"Alignment",
 			"Class Skills",
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Swashbuckler Finesse",
 			"Nimble",
 			"4th-level Bonus Feat",
@@ -491,7 +491,7 @@
 		"sources": [ "Martial Arts Handbook" ],
 		"replaces": "Weapon and Armor Proficiency; Swashbuckler Finesse; Panache; Menacing Swordplay; Superior Feint; Bleeding Wound; Dizzying Defense; Bonus Feats",
 		"replace_array": [
-			"Weapon and Armor Proficiency",
+			"Weapon/Armor Proficiency",
 			"Swashbuckler Finesse",
 			"Panache",
 			"Menacing Swordplay",
@@ -548,7 +548,7 @@
 		"sources": [ "Advanced Class Guide" ],
 		"replaces": "Weapon Proficiencies; Panache; Opportune Parry and Riposte; Kip-Up; Superior Feint; Bleeding Wound; Swashbuckler Finesse",
 		"replace_array": [
-			"Weapon Proficiencies",
+			"Weapon Proficiency",
 			"Panache",
 			"Opportune Parry and Riposte",
 			"Kip-Up",

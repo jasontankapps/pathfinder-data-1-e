@@ -589,7 +589,7 @@
 				"**Pantheon** Iblydan Hero-Gods   ",
 				"**Areas of Concern** Contingencies, intelligent items   ",
 				"**Domains** [Artifice](domain:Artifice), [Healing](domain:Healing), [Knowledge](domain:Knowledge), [Magic](domain:Magic)   ",
-				"**Subdomains** [Arcane](domain:Magic), [Construct](domain:Artifice), [Memory](domain:Knowledge), [Resurrection](domain:Healing)      ",
+				"**Subdomains** [Arcane](domain:Magic), [Construct](domain:Artifice), [Memory](domain:Knowledge), [Resurrection](domain:Healing)   ",
 				"**Favored Weapon** none"
 			],
 			"on_golarion": [ "**Nationality** Iblydan" ],
@@ -887,7 +887,7 @@
 				"**Pantheon** Rakshasa Immortals   ",
 				"**Areas of Concern** N/a   ",
 				"**Domains** [Animal](domain:Animal), [Evil](domain:Evil), [Law](domain:Law), [Trickery](domain:Trickery)   ",
-				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)      ",
+				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)   ",
 				"**Favored Weapon** Kukri"
 			],
 			"obedience": [
@@ -937,7 +937,7 @@
 				"**Pantheon** Oni Daimyo   ",
 				"**Areas of Concern** Battle, honor, martial arts   ",
 				"**Domains** [Evil](domain:Evil), [Glory](domain:Glory), [Law](domain:Law), [War](domain:War)   ",
-				"**Subdomains** [Blood](domain:War), [Fear](domain:Evil), [Honor](domain:Glory), [Tactics](domain:War)      ",
+				"**Subdomains** [Blood](domain:War), [Fear](domain:Evil), [Honor](domain:Glory), [Tactics](domain:War)   ",
 				"**Favored Weapon** Unarmed strike"
 			],
 			"obedience": [
@@ -1385,7 +1385,7 @@
 				"**Pantheon** Sahkil Tormentors   ",
 				"**Areas of Concern** Brutality, torture, wild animals   ",
 				"**Domains** [Animal](domain:Animal), [Destruction](domain:Destruction), [Evil](domain:Evil), [Strength](domain:Strength)   ",
-				"**Subdomains** [Fear](domain:Evil), [Ferocity](domain:Strength), [Rage](domain:Destruction), [Sahkil](domain:Evil), [Torture](domain:Destruction)      ",
+				"**Subdomains** [Fear](domain:Evil), [Ferocity](domain:Strength), [Rage](domain:Destruction), [Sahkil](domain:Evil), [Torture](domain:Destruction)   ",
 				"**Favored Weapon** Kukri"
 			],
 			"obedience": [
@@ -1431,7 +1431,7 @@
 				"**Pantheon** Asura Ranas   ",
 				"**Areas of Concern** Axes, dismemberment, torture   ",
 				"**Domains** [Death](domain:Death), [Destruction](domain:Destruction), [Evil](domain:Evil), [Law](domain:Law)   ",
-				"**Subdomains** [Fear](domain:Evil), [Murder](domain:Death), [Rage](domain:Destruction), [Torture](domain:Destruction)      ",
+				"**Subdomains** [Fear](domain:Evil), [Murder](domain:Death), [Rage](domain:Destruction), [Torture](domain:Destruction)   ",
 				"**Favored Weapon** Battleaxe"
 			],
 			"obedience": [
@@ -2546,7 +2546,7 @@
 				"**Pantheon** Kyton Demagogues   ",
 				"**Areas of Concern** Possibility, revenge, sanctuary   ",
 				"**Domains** [Evil](domain:Evil), [Law](domain:Law), [Protection](domain:Protection), [Trickery](domain:Trickery)   ",
-				"**Subdomains** [Deception](domain:Trickery), [Defense](domain:Protection), [Fear](domain:Evil), [Tyranny](domain:Law)      ",
+				"**Subdomains** [Deception](domain:Trickery), [Defense](domain:Protection), [Fear](domain:Evil), [Tyranny](domain:Law)   ",
 				"**Favored Weapon** Warhammer"
 			],
 			"obedience": [
@@ -3615,7 +3615,7 @@
 				"**Pantheon** Kyton Demagogues   ",
 				"**Areas of Concern** The elderly, fatalistic insights, resurrection   ",
 				"**Domains** [Death](domain:Death), [Evil](domain:Evil), [Healing](domain:Healing), [Law](domain:Law)   ",
-				"**Subdomains** [Murder](domain:Death), [Restoration](domain:Healing), [Resurrection](domain:Healing), [Undead](domain:Death)      ",
+				"**Subdomains** [Murder](domain:Death), [Restoration](domain:Healing), [Resurrection](domain:Healing), [Undead](domain:Death)   ",
 				"**Favored Weapon** War razor"
 			],
 			"obedience": [
@@ -4321,7 +4321,7 @@
 				"**Pantheon** Asura Ranas   ",
 				"**Areas of Concern** Avarice, meditation, vigilance   ",
 				"**Domains** [Evil](domain:Evil), [Law](domain:Law), [Protection](domain:Protection), [Strength](domain:Strength)   ",
-				"**Subdomains** [Defense](domain:Protection), [Ferocity](domain:Strength), [Resolve](domain:Strength), [Tyranny](domain:Law)      ",
+				"**Subdomains** [Defense](domain:Protection), [Ferocity](domain:Strength), [Resolve](domain:Strength), [Tyranny](domain:Law)   ",
 				"**Favored Weapon** Halberd"
 			],
 			"obedience": [
@@ -4647,7 +4647,7 @@
 				"**Pantheon** Rakshasa Immortals   ",
 				"**Areas of Concern** N/a   ",
 				"**Domains** [Animal](domain:Animal), [Evil](domain:Evil), [Law](domain:Law), [Trickery](domain:Trickery)   ",
-				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)      ",
+				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)   ",
 				"**Favored Weapon** Kukri"
 			],
 			"obedience": [
@@ -4697,7 +4697,7 @@
 				"**Pantheon** Rakshasa Immortals   ",
 				"**Areas of Concern** N/a   ",
 				"**Domains** [Animal](domain:Animal), [Evil](domain:Evil), [Law](domain:Law), [Trickery](domain:Trickery)   ",
-				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)      ",
+				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)   ",
 				"**Favored Weapon** Kukri"
 			],
 			"obedience": [
@@ -5501,7 +5501,7 @@
 				"**Pantheon** Sahkil Tormentors   ",
 				"**Areas of Concern** Domination, hopelessness, mortality   ",
 				"**Domains** [Death](domain:Death), [Evil](domain:Evil), [Magic](domain:Magic), [Repose](domain:Repose)   ",
-				"**Subdomains** [Fear](domain:Evil), [Murder](domain:Death), [Sahkil](domain:Evil), [Souls](domain:Repose), [Undead](domain:Death)      ",
+				"**Subdomains** [Fear](domain:Evil), [Murder](domain:Death), [Sahkil](domain:Evil), [Souls](domain:Repose), [Undead](domain:Death)   ",
 				"**Favored Weapon** Quarterstaff"
 			],
 			"obedience": [
@@ -5548,7 +5548,7 @@
 				"**Pantheon** Sahkil Tormentors   ",
 				"**Areas of Concern** Catastrophic decline, detrimental complacency, monsters   ",
 				"**Domains** [Destruction](domain:Destruction), [Evil](domain:Evil), [Madness](domain:Madness), [Strength](domain:Strength)   ",
-				"**Subdomains** [Catastrophe](domain:Destruction), [Fear](domain:Evil), [Ferocity](domain:Strength), [Nightmare](domain:Madness), [Sahkil](domain:Evil)      ",
+				"**Subdomains** [Catastrophe](domain:Destruction), [Fear](domain:Evil), [Ferocity](domain:Strength), [Nightmare](domain:Madness), [Sahkil](domain:Evil)   ",
 				"**Favored Weapon** Falchion"
 			],
 			"obedience": [
@@ -5783,7 +5783,7 @@
 				"**Pantheon** Oni Daimyo   ",
 				"**Areas of Concern** Ambushes, hunting, traps   ",
 				"**Domains** [Artifice](domain:Artifice), [Evil](domain:Evil), [Travel](domain:Travel), [Trickery](domain:Trickery)   ",
-				"**Subdomains** [Deception](domain:Trickery), [Exploration](domain:Travel), [Toil](domain:Artifice)      ",
+				"**Subdomains** [Deception](domain:Trickery), [Exploration](domain:Travel), [Toil](domain:Artifice)   ",
 				"**Favored Weapon** Longbow"
 			],
 			"obedience": [
@@ -5829,7 +5829,7 @@
 				"**Pantheon** Iblydan Hero-Gods   ",
 				"**Areas of Concern** Tragedy, sacrifice   ",
 				"**Domains** [Evil](domain:Evil), [Luck](domain:Luck), [Nobility](domain:Nobility)   ",
-				"**Subdomains** [Curse](domain:Luck), [Martyr](domain:Nobility)      ",
+				"**Subdomains** [Curse](domain:Luck), [Martyr](domain:Nobility)   ",
 				"**Favored Weapon** wooden stake"
 			],
 			"on_golarion": [
@@ -5881,7 +5881,7 @@
 				"**Pantheon** Iblydan Hero-Gods   ",
 				"**Areas of Concern** Tragedy, sacrifice   ",
 				"**Domains** [Good](domain:Good), [Luck](domain:Luck), [Nobility](domain:Nobility)   ",
-				"**Subdomains** [Curse](domain:Luck), [Martyr](domain:Nobility)      ",
+				"**Subdomains** [Curse](domain:Luck), [Martyr](domain:Nobility)   ",
 				"**Favored Weapon** dagger"
 			],
 			"on_golarion": [
@@ -5996,7 +5996,7 @@
 				"**Pantheon** Asura Ranas   ",
 				"**Areas of Concern** Blood, butchers, leather   ",
 				"**Domains** [Death](domain:Death), [Evil](domain:Evil), [Law](domain:Law), [War](domain:War)   ",
-				"**Subdomains** [Blood](domain:War), [Fear](domain:Evil), [Murder](domain:Death), [Undead](domain:Death)      ",
+				"**Subdomains** [Blood](domain:War), [Fear](domain:Evil), [Murder](domain:Death), [Undead](domain:Death)   ",
 				"**Favored Weapon** Handaxe"
 			],
 			"obedience": [
@@ -6044,7 +6044,7 @@
 				"**Pantheon** Asura Ranas   ",
 				"**Areas of Concern** Mist, poison, veils   ",
 				"**Domains** [Air](domain:Air), [Evil](domain:Evil), [Law](domain:Law), [Trickery](domain:Trickery)   ",
-				"**Subdomains** [Cloud](domain:Air), [Deception](domain:Trickery), [Fear](domain:Evil), [Wind](domain:Air)      ",
+				"**Subdomains** [Cloud](domain:Air), [Deception](domain:Trickery), [Fear](domain:Evil), [Wind](domain:Air)   ",
 				"**Favored Weapon** Handaxe"
 			],
 			"obedience": [
@@ -6576,7 +6576,7 @@
 				"**Pantheon** Sahkil Tormentors   ",
 				"**Areas of Concern** Deadly pranks, stalkers, sudden death   ",
 				"**Domains** [Charm](domain:Charm), [Evil](domain:Evil), [Luck](domain:Luck), [Trickery](domain:Trickery)   ",
-				"**Subdomains** [Curse](domain:Luck), [Deception](domain:Trickery), [Fear](domain:Evil), [Sahkil](domain:Evil)      ",
+				"**Subdomains** [Curse](domain:Luck), [Deception](domain:Trickery), [Fear](domain:Evil), [Sahkil](domain:Evil)   ",
 				"**Favored Weapon** Rapier"
 			],
 			"obedience": [
@@ -7711,7 +7711,7 @@
 				"**Pantheon** Rakshasa Immortals   ",
 				"**Areas of Concern** N/a   ",
 				"**Domains** [Animal](domain:Animal), [Evil](domain:Evil), [Law](domain:Law), [Trickery](domain:Trickery)   ",
-				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)      ",
+				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)   ",
 				"**Favored Weapon** Kukri"
 			],
 			"obedience": [
@@ -7911,7 +7911,7 @@
 				"**Pantheon** Iblydan Hero-Gods   ",
 				"**Areas of Concern** none   ",
 				"**Domains** [Animal](domain:Animal), [Glory](domain:Glory)   ",
-				"**Subdomains** N/A      ",
+				"**Subdomains** N/A   ",
 				"**Favored Weapon** none"
 			],
 			"on_golarion": [ "**Nationality** Iblydan" ],
@@ -8875,7 +8875,7 @@
 				"**Pantheon** Kyton Demagogues   ",
 				"**Areas of Concern** Experience, murder, patterns   ",
 				"**Domains** [Evil](domain:Evil), [Knowledge](domain:Knowledge), [Law](domain:Law), [Repose](domain:Repose)   ",
-				"**Subdomains** [Ancestors](domain:Repose), [Fear](domain:Evil), [Memory](domain:Knowledge), [Souls](domain:Repose)      ",
+				"**Subdomains** [Ancestors](domain:Repose), [Fear](domain:Evil), [Memory](domain:Knowledge), [Souls](domain:Repose)   ",
 				"**Favored Weapon** Battle axe"
 			],
 			"obedience": [
@@ -9334,7 +9334,7 @@
 				"**Pantheon** Asura Ranas   ",
 				"**Areas of Concern** Corruption, indoctrination, lies   ",
 				"**Domains** [Community](domain:Community), [Evil](domain:Evil), [Law](domain:Law), [Trickery](domain:Trickery)   ",
-				"**Subdomains** [Deception](domain:Trickery), [Family](domain:Community), [Slavery](domain:Law), [Thievery](domain:Trickery)      ",
+				"**Subdomains** [Deception](domain:Trickery), [Family](domain:Community), [Slavery](domain:Law), [Thievery](domain:Trickery)   ",
 				"**Favored Weapon** Sap"
 			],
 			"obedience": [
@@ -10733,7 +10733,7 @@
 				"**Pantheon** Oni Daimyo   ",
 				"**Areas of Concern** Piracy, tea, tsunamis   ",
 				"**Domains** [Chaos](domain:Chaos), [Evil](domain:Evil), [Strength](domain:Strength), [Water](domain:Water)   ",
-				"**Subdomains** [Entropy](domain:Chaos), [Fear](domain:Evil), [Ferocity](domain:Strength), [Oceans](domain:Water)      ",
+				"**Subdomains** [Entropy](domain:Chaos), [Fear](domain:Evil), [Ferocity](domain:Strength), [Oceans](domain:Water)   ",
 				"**Favored Weapon** Nine-ring broadsword"
 			],
 			"obedience": [
@@ -11464,7 +11464,7 @@
 				"**Pantheon** Sahkil Tormentors   ",
 				"**Areas of Concern** Drought, drowning, stagnation   ",
 				"**Domains** [Evil](domain:Evil), [Travel](domain:Travel), [Water](domain:Water), [Weather](domain:Weather)   ",
-				"**Subdomains** [Fear](domain:Evil), [Rivers](domain:Water), [Sahkil](domain:Evil), [Seasons](domain:Weather), [Storms](domain:Weather)      ",
+				"**Subdomains** [Fear](domain:Evil), [Rivers](domain:Water), [Sahkil](domain:Evil), [Seasons](domain:Weather), [Storms](domain:Weather)   ",
 				"**Favored Weapon** Net"
 			],
 			"obedience": [
@@ -11783,7 +11783,7 @@
 				"**Pantheon** Rakshasa Immortals   ",
 				"**Areas of Concern** N/a   ",
 				"**Domains** [Animal](domain:Animal), [Evil](domain:Evil), [Law](domain:Law), [Trickery](domain:Trickery)   ",
-				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)      ",
+				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)   ",
 				"**Favored Weapon** Kukri"
 			],
 			"obedience": [
@@ -11833,7 +11833,7 @@
 				"**Pantheon** Asura Ranas   ",
 				"**Areas of Concern** Eternity, hunger, madness   ",
 				"**Domains** [Evil](domain:Evil), [Knowledge](domain:Knowledge), [Law](domain:Law), [Madness](domain:Madness)   ",
-				"**Subdomains** [Insanity](domain:Madness), [Memory](domain:Knowledge), [Nightmare](domain:Madness), [Thought](domain:Knowledge)      ",
+				"**Subdomains** [Insanity](domain:Madness), [Memory](domain:Knowledge), [Nightmare](domain:Madness), [Thought](domain:Knowledge)   ",
 				"**Favored Weapon** Kukri"
 			],
 			"obedience": [
@@ -11937,7 +11937,7 @@
 				"**Pantheon** Iblydan Hero-Gods   ",
 				"**Areas of Concern** Monstrous heritage, acceptance   ",
 				"**Domains** [Community](domain:Community), [Glory](domain:Glory), [Strength](domain:Strength)   ",
-				"**Subdomains** [Family](domain:Community), [Resolve](domain:Strength)      ",
+				"**Subdomains** [Family](domain:Community), [Resolve](domain:Strength)   ",
 				"**Favored Weapon** tail slap or heavy flail"
 			],
 			"on_golarion": [
@@ -11996,7 +11996,7 @@
 				"**Pantheon** Sahkil Tormentors   ",
 				"**Areas of Concern** Darkness, empty places, pits   ",
 				"**Domains** [Darkness](domain:Darkness), [Evil](domain:Evil), [Protection](domain:Protection), [Void](domain:Void)   ",
-				"**Subdomains** [Fear](domain:Evil), [Isolation](domain:Void), [Loss](domain:Darkness), [Night](domain:Darkness), [Sahkil](domain:Evil)      ",
+				"**Subdomains** [Fear](domain:Evil), [Isolation](domain:Void), [Loss](domain:Darkness), [Night](domain:Darkness), [Sahkil](domain:Evil)   ",
 				"**Favored Weapon** Shortbow"
 			],
 			"obedience": [
@@ -12261,7 +12261,7 @@
 				"**Pantheon** Kyton Demagogues   ",
 				"**Areas of Concern** Absolute cold, preservation, solitude   ",
 				"**Domains** [Evil](domain:Evil), [Law](domain:Law), [Void](domain:Void), [Water](domain:Water)   ",
-				"**Subdomains** [Fear](domain:Evil), [Ice](domain:Water), [Isolation](domain:Void), [Slavery](domain:Law)      ",
+				"**Subdomains** [Fear](domain:Evil), [Ice](domain:Water), [Isolation](domain:Void), [Slavery](domain:Law)   ",
 				"**Favored Weapon** Spiked Gaunutlet"
 			],
 			"obedience": [
@@ -12314,7 +12314,7 @@
 				"**Pantheon** Oni Daimyo   ",
 				"**Areas of Concern** Lavish wealth, origami, servitude   ",
 				"**Domains** [Community](domain:Community), [Evil](domain:Evil), [Law](domain:Law), [Nobility](domain:Nobility)   ",
-				"**Subdomains** [Family](domain:Community), [Home](domain:Community), [Leadership](domain:Nobility), [Tyranny](domain:Law)      ",
+				"**Subdomains** [Family](domain:Community), [Home](domain:Community), [Leadership](domain:Nobility), [Tyranny](domain:Law)   ",
 				"**Favored Weapon** Katana"
 			],
 			"obedience": [
@@ -12559,7 +12559,7 @@
 				"**Pantheon** Asura Ranas   ",
 				"**Areas of Concern** Caverns, Cliffs, Premature Burials   ",
 				"**Domains** [Death](domain:Death), [Earth](domain:Earth), [Evil](domain:Evil), [Law](domain:Law)   ",
-				"**Subdomains** [Caves](domain:Earth), [Fear](domain:Evil), [Murder](domain:Death), [Undead](domain:Death)      ",
+				"**Subdomains** [Caves](domain:Earth), [Fear](domain:Evil), [Murder](domain:Death), [Undead](domain:Death)   ",
 				"**Favored Weapon** Heavy pick"
 			],
 			"obedience": [
@@ -13582,7 +13582,7 @@
 				"**Pantheon** Rakshasa Immortals   ",
 				"**Areas of Concern** N/a   ",
 				"**Domains** [Animal](domain:Animal), [Evil](domain:Evil), [Law](domain:Law), [Trickery](domain:Trickery)   ",
-				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)      ",
+				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)   ",
 				"**Favored Weapon** Kukri"
 			],
 			"obedience": [
@@ -13745,7 +13745,7 @@
 				"**Pantheon** Kyton Demagogues   ",
 				"**Areas of Concern** Experimentation, physical merger, stiches   ",
 				"**Domains** [Community](domain:Community), [Earth](domain:Earth), [Evil](domain:Evil), [Law](domain:Law)   ",
-				"**Subdomains** [Family](domain:Community), [Fear](domain:Evil), [Metal](domain:Earth), [Tyranny](domain:Law)      ",
+				"**Subdomains** [Family](domain:Community), [Fear](domain:Evil), [Metal](domain:Earth), [Tyranny](domain:Law)   ",
 				"**Favored Weapon** Spiked chain"
 			],
 			"obedience": [
@@ -14720,7 +14720,7 @@
 				"**Pantheon** Rakshasa Immortals   ",
 				"**Areas of Concern** N/a   ",
 				"**Domains** [Animal](domain:Animal), [Evil](domain:Evil), [Law](domain:Law), [Trickery](domain:Trickery)   ",
-				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)      ",
+				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)   ",
 				"**Favored Weapon** Kukri"
 			],
 			"obedience": [
@@ -15931,7 +15931,7 @@
 				"**Pantheon** Asura Ranas   ",
 				"**Areas of Concern** Abduction, isolation, propaganda   ",
 				"**Domains** [Darkness](domain:Darkness), [Evil](domain:Evil), [Law](domain:Law), [Void](domain:Void)   ",
-				"**Subdomains** [Isolation](domain:Void), [Loss](domain:Darkness), [Night](domain:Darkness), [Stars](domain:Void)      ",
+				"**Subdomains** [Isolation](domain:Void), [Loss](domain:Darkness), [Night](domain:Darkness), [Stars](domain:Void)   ",
 				"**Favored Weapon** Net"
 			],
 			"obedience": [
@@ -17463,7 +17463,7 @@
 				"**Pantheon** Kyton Demagogues   ",
 				"**Areas of Concern** Invasiveness, proliferation, redundancy   ",
 				"**Domains** [Animal](domain:Animal), [Evil](domain:Evil), [Law](domain:Law), [Travel](domain:Travel)   ",
-				"**Subdomains** [Exploration](domain:Travel), [Fear](domain:Evil), [Feather](domain:Animal), [Fur](domain:Animal)      ",
+				"**Subdomains** [Exploration](domain:Travel), [Fear](domain:Evil), [Feather](domain:Animal), [Fur](domain:Animal)   ",
 				"**Favored Weapon** Heavy flail"
 			],
 			"obedience": [
@@ -17669,7 +17669,7 @@
 				"**Pantheon** Oni Daimyo   ",
 				"**Areas of Concern** Eclipses, sunsets, unseen things   ",
 				"**Domains** [Darkness](domain:Darkness), [Evil](domain:Evil), [Sun](domain:Sun), [Trickery](domain:Trickery)   ",
-				"**Subdomains** [Day](domain:Sun), [Deception](domain:Trickery), [Night](domain:Darkness), [Thievery](domain:Trickery)      ",
+				"**Subdomains** [Day](domain:Sun), [Deception](domain:Trickery), [Night](domain:Darkness), [Thievery](domain:Trickery)   ",
 				"**Favored Weapon** Kusarigama"
 			],
 			"obedience": [
@@ -17717,7 +17717,7 @@
 				"**Pantheon** Rakshasa Immortals   ",
 				"**Areas of Concern** N/a   ",
 				"**Domains** [Animal](domain:Animal), [Evil](domain:Evil), [Law](domain:Law), [Trickery](domain:Trickery)   ",
-				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)      ",
+				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)   ",
 				"**Favored Weapon** Kukri"
 			],
 			"obedience": [
@@ -18017,7 +18017,7 @@
 				"**Pantheon** Sahkil Tormentors   ",
 				"**Areas of Concern** Deslusions of authority, doubt, torment   ",
 				"**Domains** [Artifice](domain:Artifice), [Evil](domain:Evil), [Nobility](domain:Nobility), [Strength](domain:Strength)   ",
-				"**Subdomains** [Sahkil](domain:Evil)      ",
+				"**Subdomains** [Sahkil](domain:Evil)   ",
 				"**Favored Weapon** Longsword"
 			],
 			"obedience": [
@@ -18157,7 +18157,7 @@
 				"**Pantheon** Oni Daimyo   ",
 				"**Areas of Concern** Drought, forest fires, perfume   ",
 				"**Domains** [Destruction](domain:Destruction), [Evil](domain:Evil), [Fire](domain:Fire), [Weather](domain:Weather)   ",
-				"**Subdomains** [Arson](domain:Fire), [Catastrophe](domain:Destruction), [Seasons](domain:Weather), [Smoke](domain:Fire)      ",
+				"**Subdomains** [Arson](domain:Fire), [Catastrophe](domain:Destruction), [Seasons](domain:Weather), [Smoke](domain:Fire)   ",
 				"**Favored Weapon** Scimitar"
 			],
 			"obedience": [
@@ -19283,7 +19283,7 @@
 				"**Pantheon** Outer Gods   ",
 				"**Areas of Concern** Conspiracies, dangerous secrets, forbidden magic   ",
 				"**Domains** [Air](domain:Air), [Chaos](domain:Chaos), [Evil](domain:Evil), [Knowledge](domain:Knowledge), [Magic](domain:Magic)   ",
-				"**Favored Weapon** Punching dagger      ",
+				"**Favored Weapon** Punching dagger   ",
 				"**Symbol** Image of a featureless face"
 			],
 			"for_followers": [
@@ -19523,7 +19523,7 @@
 				"**Pantheon** Asura Ranas   ",
 				"**Areas of Concern** Beauty, double standards, self-mutalation   ",
 				"**Domains** [Charm](domain:Charm), [Evil](domain:Evil), [Law](domain:Law), [Madness](domain:Madness)   ",
-				"**Subdomains** [Fear](domain:Evil), [Insanity](domain:Madness), [Lust](domain:Charm), [Nightmare](domain:Madness)      ",
+				"**Subdomains** [Fear](domain:Evil), [Insanity](domain:Madness), [Lust](domain:Charm), [Nightmare](domain:Madness)   ",
 				"**Favored Weapon** Urumi"
 			],
 			"obedience": [
@@ -19614,7 +19614,7 @@
 				"**Pantheon** Iblydan Hero-Gods   ",
 				"**Areas of Concern** Deicide   ",
 				"**Domains** [Chaos](domain:Chaos), [Death](domain:Death), [Evil](domain:Evil)   ",
-				"**Subdomains** [Entropy](domain:Chaos), [Murder](domain:Death)      ",
+				"**Subdomains** [Entropy](domain:Chaos), [Murder](domain:Death)   ",
 				"**Favored Weapon** greataxe"
 			],
 			"on_golarion": [
@@ -19666,7 +19666,7 @@
 				"**Pantheon** Oni Daimyo   ",
 				"**Areas of Concern** Orgies, sake, tattoos   ",
 				"**Domains** [Chaos](domain:Chaos), [Charm](domain:Charm), [Evil](domain:Evil), [Rune](domain:Rune)   ",
-				"**Subdomains** [Language](domain:Rune), [Lust](domain:Charm), [Revelry](domain:Chaos), [Wards](domain:Rune)      ",
+				"**Subdomains** [Language](domain:Rune), [Lust](domain:Charm), [Revelry](domain:Chaos), [Wards](domain:Rune)   ",
 				"**Favored Weapon** Kerambit"
 			],
 			"obedience": [
@@ -20064,7 +20064,7 @@
 				"**Pantheon** Rakshasa Immortals   ",
 				"**Areas of Concern** N/a   ",
 				"**Domains** [Animal](domain:Animal), [Evil](domain:Evil), [Law](domain:Law), [Trickery](domain:Trickery)   ",
-				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)      ",
+				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)   ",
 				"**Favored Weapon** Kukri"
 			],
 			"obedience": [
@@ -20226,7 +20226,7 @@
 				"**Pantheon** Sahkil Tormentors   ",
 				"**Areas of Concern** Despair, restless spirits, sadism   ",
 				"**Domains** [Destruction](domain:Destruction), [Evil](domain:Evil), [Madness](domain:Madness), [Repose](domain:Repose)   ",
-				"**Subdomains** [Fear](domain:Evil), [Nightmare](domain:Madness), [Sahkil](domain:Evil), [Souls](domain:Repose), [Torture](domain:Destruction)      ",
+				"**Subdomains** [Fear](domain:Evil), [Nightmare](domain:Madness), [Sahkil](domain:Evil), [Souls](domain:Repose), [Torture](domain:Destruction)   ",
 				"**Favored Weapon** Scorpion whip"
 			],
 			"obedience": [
@@ -20618,7 +20618,7 @@
 				"**Pantheon** Iblydan Hero-Gods   ",
 				"**Areas of Concern** Ports, lighthouses   ",
 				"**Domains** [Fire](domain:Fire), [Sun](domain:Sun), [Travel](domain:Travel), [Water](domain:Water)   ",
-				"**Subdomains** [Exploration](domain:Travel), [Light](domain:Sun), [Oceans](domain:Water), [Trade](domain:Travel)      ",
+				"**Subdomains** [Exploration](domain:Travel), [Light](domain:Sun), [Oceans](domain:Water), [Trade](domain:Travel)   ",
 				"**Favored Weapon** none"
 			],
 			"on_golarion": [ "**Nationality** Iblydan" ],
@@ -20826,7 +20826,7 @@
 				"**Pantheon** Rakshasa Immortals   ",
 				"**Areas of Concern** N/a   ",
 				"**Domains** [Animal](domain:Animal), [Evil](domain:Evil), [Law](domain:Law), [Trickery](domain:Trickery)   ",
-				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)      ",
+				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)   ",
 				"**Favored Weapon** Kukri"
 			],
 			"obedience": [
@@ -21176,7 +21176,7 @@
 				"**Pantheon** Kyton Demagogues   ",
 				"**Areas of Concern** Evolution, mutation, skulls   ",
 				"**Domains** [Evil](domain:Evil), [Healing](domain:Healing), [Law](domain:Law), [Luck](domain:Luck)   ",
-				"**Subdomains** [Curse](domain:Luck), [Fate](domain:Luck), [Fear](domain:Evil), [Restoration](domain:Healing)      ",
+				"**Subdomains** [Curse](domain:Luck), [Fate](domain:Luck), [Fear](domain:Evil), [Restoration](domain:Healing)   ",
 				"**Favored Weapon** Halberd"
 			],
 			"obedience": [
@@ -21386,7 +21386,7 @@
 				"**Pantheon** Asura Ranas   ",
 				"**Areas of Concern** Eclipses, Executions, Gluttony   ",
 				"**Domains** [Darkness](domain:Darkness), [Death](domain:Death), [Evil](domain:Evil), [Law](domain:Law)   ",
-				"**Subdomains** [Fear](domain:Evil), [Loss](domain:Darkness), [Murder](domain:Death), [Night](domain:Darkness)      ",
+				"**Subdomains** [Fear](domain:Evil), [Loss](domain:Darkness), [Murder](domain:Death), [Night](domain:Darkness)   ",
 				"**Favored Weapon** Morningstar"
 			],
 			"obedience": [
@@ -21493,7 +21493,7 @@
 				"**Pantheon** Rakshasa Immortals   ",
 				"**Areas of Concern** N/a   ",
 				"**Domains** [Animal](domain:Animal), [Evil](domain:Evil), [Law](domain:Law), [Trickery](domain:Trickery)   ",
-				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)      ",
+				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)   ",
 				"**Favored Weapon** Kukri"
 			],
 			"obedience": [
@@ -22145,7 +22145,7 @@
 				"**Pantheon** Asura Ranas   ",
 				"**Areas of Concern** Fearful memories, serpents, vision   ",
 				"**Domains** [Evil](domain:Evil), [Knowledge](domain:Knowledge), [Law](domain:Law), [Scalykind](domain:Scalykind)   ",
-				"**Subdomains** [Fear](domain:Evil), [Memory](domain:Knowledge), [Thought](domain:Knowledge), [Venom](domain:Scalykind)      ",
+				"**Subdomains** [Fear](domain:Evil), [Memory](domain:Knowledge), [Thought](domain:Knowledge), [Venom](domain:Scalykind)   ",
 				"**Favored Weapon** Whip"
 			],
 			"obedience": [
@@ -22875,7 +22875,7 @@
 				"**Pantheon** Sahkil Tormentors   ",
 				"**Areas of Concern** Isolation, loneliness, lost time   ",
 				"**Domains** [Darkness](domain:Darkness), [Evil](domain:Evil), [Knowledge](domain:Knowledge), [Void](domain:Void)   ",
-				"**Subdomains** [Fear](domain:Evil), [Isolation](domain:Void), [Loss](domain:Darkness), [Memory](domain:Knowledge), [Sahkil](domain:Evil)      ",
+				"**Subdomains** [Fear](domain:Evil), [Isolation](domain:Void), [Loss](domain:Darkness), [Memory](domain:Knowledge), [Sahkil](domain:Evil)   ",
 				"**Favored Weapon** Sap"
 			],
 			"obedience": [
@@ -24558,7 +24558,7 @@
 				"**Pantheon** Kyton Demagogues   ",
 				"**Areas of Concern** Ecstasy, fleetingness, incorporeality   ",
 				"**Domains** [Air](domain:Air), [Evil](domain:Evil), [Law](domain:Law), [Nobility](domain:Nobility)   ",
-				"**Subdomains** [Fear](domain:Evil), [Leadership](domain:Nobility), [Martyr](domain:Nobility), [Wind](domain:Air)      ",
+				"**Subdomains** [Fear](domain:Evil), [Leadership](domain:Nobility), [Martyr](domain:Nobility), [Wind](domain:Air)   ",
 				"**Favored Weapon** Net"
 			],
 			"obedience": [
@@ -24650,7 +24650,7 @@
 				"**Pantheon** Rakshasa Immortals   ",
 				"**Areas of Concern** N/a   ",
 				"**Domains** [Animal](domain:Animal), [Evil](domain:Evil), [Law](domain:Law), [Trickery](domain:Trickery)   ",
-				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)      ",
+				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)   ",
 				"**Favored Weapon** Kukri"
 			],
 			"obedience": [
@@ -24960,7 +24960,7 @@
 				"**Pantheon** Asura Ranas   ",
 				"**Areas of Concern** Anger, dreams, shattering of bonds   ",
 				"**Domains** [Evil](domain:Evil), [Law](domain:Law), [Liberation](domain:Liberation), [Madness](domain:Madness)   ",
-				"**Subdomains** [Freedom](domain:Liberation), [Insanity](domain:Madness), [Nightmare](domain:Madness), [Revolution](domain:Liberation)      ",
+				"**Subdomains** [Freedom](domain:Liberation), [Insanity](domain:Madness), [Nightmare](domain:Madness), [Revolution](domain:Liberation)   ",
 				"**Favored Weapon** Warhammer"
 			],
 			"obedience": [
@@ -26407,7 +26407,7 @@
 				"**Pantheon** Iblydan Hero-Gods   ",
 				"**Areas of Concern** Promises, shield-bearers   ",
 				"**Domains** [Charm](domain:Charm), [Good](domain:Good), [Protection](domain:Protection)   ",
-				"**Subdomains** [Friendship](domain:Good), [Love](domain:Charm)      ",
+				"**Subdomains** [Friendship](domain:Good), [Love](domain:Charm)   ",
 				"**Favored Weapon** none"
 			],
 			"on_golarion": [ "**Nationality** Iblydan" ],
@@ -26838,7 +26838,7 @@
 				"**Pantheon** Oni Daimyo   ",
 				"**Areas of Concern** Earthquakes, Keys, Sabotage   ",
 				"**Domains** [Chaos](domain:Chaos), [Destruction](domain:Destruction), [Earth](domain:Earth), [Evil](domain:Evil)   ",
-				"**Subdomains** [Catastrophe](domain:Destruction), [Entropy](domain:Chaos), [Metal](domain:Earth), [Rage](domain:Destruction)      ",
+				"**Subdomains** [Catastrophe](domain:Destruction), [Entropy](domain:Chaos), [Metal](domain:Earth), [Rage](domain:Destruction)   ",
 				"**Favored Weapon** Tetsubo"
 			],
 			"obedience": [
@@ -26932,7 +26932,7 @@
 				"**Pantheon** Oni Daimyo   ",
 				"**Areas of Concern** Blizzards, frozen ghosts, starvation   ",
 				"**Domains** [Death](domain:Death), [Evil](domain:Evil), [Law](domain:Law), [Water](domain:Water)   ",
-				"**Subdomains** [Fear](domain:Evil), [Ice](domain:Water), [Murder](domain:Death), [Undead](domain:Death)      ",
+				"**Subdomains** [Fear](domain:Evil), [Ice](domain:Water), [Murder](domain:Death), [Undead](domain:Death)   ",
 				"**Favored Weapon** Urumi"
 			],
 			"obedience": [
@@ -27284,7 +27284,7 @@
 				"**Pantheon** Sahkil Tormentors   ",
 				"**Areas of Concern** Emotional manipulation, emptiness, ignorance   ",
 				"**Domains** [Charm](domain:Charm), [Evil](domain:Evil), [Knowledge](domain:Knowledge), [Void](domain:Void)   ",
-				"**Subdomains** [Corruption](domain:Evil), [Fear](domain:Evil), [Memory](domain:Knowledge), [Sahkil](domain:Evil), [Thought](domain:Knowledge)      ",
+				"**Subdomains** [Corruption](domain:Evil), [Fear](domain:Evil), [Memory](domain:Knowledge), [Sahkil](domain:Evil), [Thought](domain:Knowledge)   ",
 				"**Favored Weapon** Spiked chain"
 			],
 			"obedience": [
@@ -27412,7 +27412,7 @@
 				"**Pantheon** Sahkil Tormentors   ",
 				"**Areas of Concern** Fecundity, overgrown places, psychoactive plants   ",
 				"**Domains** [Charm](domain:Charm), [Evil](domain:Evil), [Plant](domain:Plant), [Weather](domain:Weather)   ",
-				"**Subdomains** [Decay](domain:Plant), [Fear](domain:Evil), [Growth](domain:Plant), [Lust](domain:Charm), [Sahkil](domain:Evil)      ",
+				"**Subdomains** [Decay](domain:Plant), [Fear](domain:Evil), [Growth](domain:Plant), [Lust](domain:Charm), [Sahkil](domain:Evil)   ",
 				"**Favored Weapon** Scythe"
 			],
 			"obedience": [
@@ -27458,7 +27458,7 @@
 				"**Pantheon** Kyton Demagogues   ",
 				"**Areas of Concern** Illusion of freedom, potential, transcendence   ",
 				"**Domains** [Destruction](domain:Destruction), [Evil](domain:Evil), [Law](domain:Law), [Liberation](domain:Liberation)   ",
-				"**Subdomains** [Freedom](domain:Liberation), [Revolution](domain:Liberation), [Slavery](domain:Law), [Torture](domain:Destruction)      ",
+				"**Subdomains** [Freedom](domain:Liberation), [Revolution](domain:Liberation), [Slavery](domain:Law), [Torture](domain:Destruction)   ",
 				"**Favored Weapon** Whip"
 			],
 			"obedience": [
@@ -27506,7 +27506,7 @@
 				"**Pantheon** Rakshasa Immortals   ",
 				"**Areas of Concern** N/a   ",
 				"**Domains** [Animal](domain:Animal), [Evil](domain:Evil), [Law](domain:Law), [Trickery](domain:Trickery)   ",
-				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)      ",
+				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)   ",
 				"**Favored Weapon** Kukri"
 			],
 			"obedience": [
@@ -28121,7 +28121,7 @@
 				"**Pantheon** Sahkil Tormentors   ",
 				"**Areas of Concern** Evisceration, fatal falls, genocide   ",
 				"**Domains** [Air](domain:Air), [Destruction](domain:Destruction), [Evil](domain:Evil), [War](domain:War)   ",
-				"**Subdomains** [Blood](domain:War), [Fear](domain:Evil), [Rage](domain:Destruction), [Sahkil](domain:Evil), [Wind](domain:Air)      ",
+				"**Subdomains** [Blood](domain:War), [Fear](domain:Evil), [Rage](domain:Destruction), [Sahkil](domain:Evil), [Wind](domain:Air)   ",
 				"**Favored Weapon** Terbutje"
 			],
 			"obedience": [
@@ -28314,7 +28314,7 @@
 				"**Pantheon** Oni Daimyo   ",
 				"**Areas of Concern** Curses, promises, volcanoes   ",
 				"**Domains** [Destruction](domain:Destruction), [Evil](domain:Evil), [Fire](domain:Fire), [Luck](domain:Luck)   ",
-				"**Subdomains** [Ash](domain:Fire), [Catastrophe](domain:Destruction), [Curse](domain:Luck), [Smoke](domain:Fire)      ",
+				"**Subdomains** [Ash](domain:Fire), [Catastrophe](domain:Destruction), [Curse](domain:Luck), [Smoke](domain:Fire)   ",
 				"**Favored Weapon** Meteor hammer"
 			],
 			"obedience": [
@@ -29106,7 +29106,7 @@
 				"**Pantheon** Rakshasa Immortals   ",
 				"**Areas of Concern** N/a   ",
 				"**Domains** [Animal](domain:Animal), [Evil](domain:Evil), [Law](domain:Law), [Trickery](domain:Trickery)   ",
-				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)      ",
+				"**Subdomains** [Deception](domain:Trickery), [Fear](domain:Evil), [Fur](domain:Animal), [Tyranny](domain:Law)   ",
 				"**Favored Weapon** Kukri"
 			],
 			"obedience": [
@@ -29557,7 +29557,7 @@
 				"**Pantheon** Sahkil Tormentors   ",
 				"**Areas of Concern** Avoiding responsibility, shifting earth, violence   ",
 				"**Domains** [Earth](domain:Earth), [Evil](domain:Evil), [Fire](domain:Fire), [Strength](domain:Strength)   ",
-				"**Subdomains** [Ash](domain:Fire), [Corruption](domain:Evil), [Fear](domain:Evil), [Ferocity](domain:Strength), [Sahkil](domain:Evil)      ",
+				"**Subdomains** [Ash](domain:Fire), [Corruption](domain:Evil), [Fear](domain:Evil), [Ferocity](domain:Strength), [Sahkil](domain:Evil)   ",
 				"**Favored Weapon** Tepoztopilli"
 			],
 			"obedience": [
@@ -29974,7 +29974,7 @@
 				"**Pantheon** Asura Ranas   ",
 				"**Areas of Concern** Fire, injustice, vendetts   ",
 				"**Domains** [Destruction](domain:Destruction), [Evil](domain:Evil), [Fire](domain:Fire), [Law](domain:Law)   ",
-				"**Subdomains** [Arson](domain:Fire), [Ash](domain:Fire), [Catastrophe](domain:Destruction), [Rage](domain:Destruction)      ",
+				"**Subdomains** [Arson](domain:Fire), [Ash](domain:Fire), [Catastrophe](domain:Destruction), [Rage](domain:Destruction)   ",
 				"**Favored Weapon** Kukri"
 			],
 			"obedience": [

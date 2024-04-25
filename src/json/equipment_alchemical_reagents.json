@@ -602,7 +602,7 @@
 				"**Doses** 1 (200 gp); **Spells** any",
 				"**Effect** When you use a whimsy star as a material component or focus for a spell, roll 1d6 and consult the table below. You can't use magic or other abilities to affect the result of this roll. If a result cannot apply to your spell, then the spell resolves normally. Regardless of the result, the spell slot required to cast the spell doesn't change.",
 				"| d6 | Result |",
-                "| --- | --- |",
+				"| --- | --- |",
 				"| 1 | The spell fails and you are dazzled for 1d4 rounds. |",
 				"| 2 | The spell resolves normally. |",
 				"| 3 | The spell is affected as per the [Enlarge Spell](feat:Enlarge_Spell) metamagic feat. |",

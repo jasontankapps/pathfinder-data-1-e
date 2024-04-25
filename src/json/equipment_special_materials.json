@@ -1,5 +1,5 @@
 {
-    "description": [
+	"description": [
 		"**Special Materials**",
 		"",
 		"**Description Source:** [Ultimate Equipment](source:Ultimate_Equipment)",
@@ -17,7 +17,7 @@
 		"",
 		"Items made from these materials can be magically strengthened at an additional cost of 100 gp per pound. See the individual material descriptions for the effect this has on the material's properties."
     ],
-    "list": [
+	"list": [
 		{
 			"name": "Abysium",
 			"sources": [ "Pathfinder #61: Shards of Sin" ],

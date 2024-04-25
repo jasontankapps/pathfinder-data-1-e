@@ -5027,7 +5027,7 @@
 					"",
 					"Each sway and shake of your hips calls up another temptation from the depths of Hell until your spectator, hapless and drooling, finally succumbs and freely offers up his life, honor, or very soul for just a taste of what you have proffered.",
 					"",
-					"**Prerequisite**: Perform (dance) 5 ranks.      ",
+					"**Prerequisite**: Perform (dance) 5 ranks.   ",
 					"**Cost**: Feat or 2nd-level bard spell known.",
 					"",
 					"**Effect**: Your dance entices one creature within 30 feet that is able to see you, invoking every imaginable vice and craving until finally the desire the creature personally finds most appealing overwhelms its thoughts. You always know what your target wants, and, if you have the means to provide it, can offer it to the creature in exchange for a specific service. The creature can resist this effect with a successful Will saving throw, and creatures never agree if you offer services that are physically impossible or obviously suicidal, or if you lie about having the means to fulfill the desire in question. The service can never take more than a day to complete, and the affected creature gains a +2 bonus on its saving throw if the service requires more than an hour to complete.",
@@ -28451,7 +28451,7 @@
 					"",
 					"*Oath Spells*: 1st-command; 2nd-calm emotions; 3rd- suggestion; 4th-order's wrath."
 				],
-				"replaces":  "Detect Evil, Smite Evil, Channel Positive Energy",
+				"replaces": "Detect Evil, Smite Evil, Channel Positive Energy",
 				"short_description": "These paladins dedicate themselves to the rule of law above all other things."
 			},
 			{
@@ -28476,7 +28476,7 @@
 					"",
 					"*Oath Spells*: 1st-true strike; 2nd-acute senses; 3rd-touch of idiocy; 4th-spell immunity."
 				],
-				"replaces":  "Aura of Courage, Aura of Justice, Holy Champion",
+				"replaces": "Aura of Courage, Aura of Justice, Holy Champion",
 				"short_description": "When a paladin takes this oath, she becomes a hunter of aberrations, protecting the common people from these bizarre threats. "
 			},
 			{
@@ -28564,7 +28564,7 @@
 					"",
 					"*Code of Conduct*: Destroy agents of the Whispering Way and stop the spread of their philosophy."
 				],
-				"replaces":  "Detect Evil, 3rd-level Mercy, 9th-level Mercy, Aura of Resolve, Aura of Justice",
+				"replaces": "Detect Evil, 3rd-level Mercy, 9th-level Mercy, Aura of Resolve, Aura of Justice",
 				"short_description": "A variation of the Oath against undead geared towards fighting the Whispering Way"
 			},
 			{
@@ -28587,7 +28587,7 @@
 					"",
 					"*Oath Spells*: 1st-enlarge person; 2nd-bear's endurance; 3rd-fly; 4th-stoneskin."
 				],
-				"replaces":  "Channel Positive Energy, Divine Bond, Holy Champion",
+				"replaces": "Channel Positive Energy, Divine Bond, Holy Champion",
 				"short_description": "Some paladins swear to protect others against the predation of dragonkind. "
 			},
 			{
@@ -28614,7 +28614,7 @@
 					"",
 					"*Oath Spells*: 1st-sanctify corpse; 2nd-darkvision; 3rd-searing light; 4th-halt undead."
 				],
-				"replaces":  "Detect Evil, 3rd-level Mercy, 9th-level Mercy, Aura of Resolve, Aura of Justice",
+				"replaces": "Detect Evil, 3rd-level Mercy, 9th-level Mercy, Aura of Resolve, Aura of Justice",
 				"short_description": "A paladin with this oath vows to restore the natural state of death to any animate corpse she encounters, and destroy the undead energy in the process."
 			},
 			{
@@ -28704,7 +28704,7 @@
 					"",
 					"*Code of Conduct*: Oppose demonic influence in all its forms and seek a way to close the Worldwound."
 				],
-				"replaces":  "Aura of Resolve, Divine Bond, 9th-level Mercy",
+				"replaces": "Aura of Resolve, Divine Bond, 9th-level Mercy",
 				"short_description": "A variation of the Oath against Fiends dedicated to closing the Worldwound"
 			},
 			{
@@ -28737,7 +28737,7 @@
 					"",
 					"*Oath Spells*: 1st-comprehend languages; 2nd-locate object; 3rd-tongues; 4th-true seeing."
 				],
-				"replaces":  "Class Skills, Smite Evil, Aura of Justice, Holy Champion",
+				"replaces": "Class Skills, Smite Evil, Aura of Justice, Holy Champion",
 				"short_description": "Paladins swearing the oath of the People's Council serve the common good by finding and thwarting those who abuse their authority."
 			},
 			{
@@ -28772,7 +28772,7 @@
 					"",
 					"*Oath Spells*: 1st-enlarge person; 2nd-find traps; 3rd-spiritual ally; 4th- blessing of fervor."
 				],
-				"replaces":  "Smite Evil, Divine Bond, Aura of Justice, Aura of Faith",
+				"replaces": "Smite Evil, Divine Bond, Aura of Justice, Aura of Faith",
 				"short_description": "Paladins with the oath of the skyseeker swear to defend the Sky Citadels their people retain and to help reclaim those the dwarves have lost, hoping to one day rebuild them on the greatest, most honorable ideals of the dwarven gods."
 			},
 			{

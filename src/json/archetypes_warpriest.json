@@ -93,9 +93,12 @@
 		"replace_array": [
 			"Class Skills",
 			"Skill Ranks",
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Focus Weapon",
-			"3rd, 9th, 12th, and 15th-level Bonus Feats",
+			"3rd-level Bonus Feat",
+			"9th-level Bonus Feat",
+			"12th-level Bonus Feat",
+			"15th-level Bonus Feat",
 			"Channel Energy"
 		],
 		"short_description": "Referred to as fanatics, lunatics, or obsessives, cultists see themselves as genuine devotees of their deity.",
@@ -150,7 +153,11 @@
 		"sources": [ "Divine Anthology" ],
 		"replaces": "3rd, 6th, 9th, 12th, 18th-level Bonus Feat",
 		"replace_array": [
-			"3rd, 6th, 9th, 12th, 18th-level Bonus Feat"
+			"3rd-level Bonus Feat",
+			"6th-level Bonus Feat",
+			"9th-level Bonus Feat",
+			"12th-level Bonus Feat",
+			"18th-level Bonus Feat"
 		],
 		"short_description": "Divine champions are unswervingly devoted to their causes, and specialize in bringing battle to the enemies of their faiths.",
 		"description": [
@@ -183,7 +190,10 @@
 		"replaces": "Blessings; 3rd, 6th, 12th, and 15th-level Bonus Feats",
 		"replace_array": [
 			"Blessings",
-			"3rd, 6th, 12th, and 15th-level Bonus Feats"
+			"3rd-level Bonus Feat",
+			"6th-level Bonus Feat",
+			"12th-level Bonus Feat",
+			"15th-level Bonus Feat"
 		],
 		"short_description": "Some warpriests are called to lead great armies and face legions of foes. These divine commanders live for war and fight for glory.",
 		"description": [
@@ -243,12 +253,14 @@
 		"name": "Fist of the Godclaw",
 		"file": "archetypedisplay4bc9.html",
 		"sources": [ "Disciple's Doctrine" ],
-		"replaces": "Alignment; Deities; Blessings; 3rd, 6th, 12th-level Bonus Feat; Aspect of War",
+		"replaces": "Alignment; Deity; Blessings; 3rd, 6th, 12th-level Bonus Feat; Aspect of War",
 		"replace_array": [
 			"Alignment",
-			"Deities",
+			"Deity",
 			"Blessings",
-			"3rd, 6th, 12th-level Bonus Feat",
+			"3rd-level Bonus Feat",
+			"6th-level Bonus Feat",
+			"12th-level Bonus Feat",
 			"Aspect of War"
 		],
 		"short_description": "Devoted to the divine control of law above all else, these zealots seek to establish absolute order.",
@@ -262,7 +274,7 @@
 			"",
 			"This alters the warpriest's alignment restriction.",
 			"",
-			"**Deities:** A fist of the Godclaw must worship Abadar, Asmodeus, Iomedae, Irori, or Torag. Alternatively, the fist of the Godclaw must venerate the pantheon of these deities known as the Godclaw.",
+			"**Deity:** A fist of the Godclaw must worship Abadar, Asmodeus, Iomedae, Irori, or Torag. Alternatively, the fist of the Godclaw must venerate the pantheon of these deities known as the Godclaw.",
 			"",
 			"**Blessings of the Godclaw (Ex):** A fist of the Godclaw must select the Law blessing and the Godclaw blessing.",
 			"",
@@ -288,9 +300,10 @@
 		"replaces": "Blessings; Spells; Bonus Feats; 3rd and 6th-level Bonus Feats; Channel Energy",
 		"replace_array": [
 			"Blessings",
-			"Spells",
+			"Adds Spells",
 			"Bonus Feats",
-			"3rd and 6th-level Bonus Feats",
+			"3rd-level Bonus Feat",
+			"6th-level Bonus Feat",
 			"Channel Energy"
 		],
 		"short_description": "Armorers of exquisite skill, forgepriests take inspiration from their deity to produce the most perfect weapons and armor they can, the better to equip the armies of the faithful.",
@@ -319,9 +332,9 @@
 		"name": "Jistkan Magistrate",
 		"file": "archetypedisplay771d.html",
 		"sources": [],
-		"replaces": "Class Skilss; Blessings; Spontaneous Casting; Bonus Languages; Channel Energy",
+		"replaces": "Class Skills; Blessings; Spontaneous Casting; Bonus Languages; Channel Energy",
 		"replace_array": [
-			"Class Skilss",
+			"Class Skills",
 			"Blessings",
 			"Spontaneous Casting",
 			"Bonus Languages",
@@ -402,7 +415,7 @@
 		"replace_array": [
 			"Deity",
 			"Alignment",
-			"Weapon and Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Sacred Weapon",
 			"Sacred Armor",
 			"Aspect of War"
@@ -439,7 +452,7 @@
 		"sources": [ "Weapon Master's Handbook" ],
 		"replaces": "Blessing; Sacred Armor; Sacred Weapon; Channel Energy",
 		"replace_array": [
-			"Blessing",
+			"Blessings",
 			"Sacred Armor",
 			"Sacred Weapon",
 			"Channel Energy"
@@ -476,7 +489,7 @@
 		"replace_array": [
 			"Alignment",
 			"Deity",
-			"Spellcasting",
+			"Spontaneous Casting",
 			"Fervor",
 			"Sacred Armor",
 			"Channel Energy"
@@ -507,7 +520,7 @@
 		"sources": [],
 		"replaces": "Weapon/Armor Proficiencies; Sacred Armor; 3rd-level Bonus Feat; Sacred Weapon; Blessings; Blessings (Major)",
 		"replace_array": [
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Sacred Armor",
 			"3rd-level Bonus Feat",
 			"Sacred Weapon",
@@ -580,10 +593,14 @@
 		"replaces": "Class Skills; Weapon/Armor Proficiencies; Sacred Weapon; Focus Weapon; 3rd, 6th, 9th, 12th, and 18th-level Bonus Feats; Sacred Armor",
 		"replace_array": [
 			"Class Skills",
-			"Weapon/Armor Proficiencies",
+			"Weapon/Armor Proficiency",
 			"Sacred Weapon",
 			"Focus Weapon",
-			"3rd, 6th, 9th, 12th, and 18th-level Bonus Feats",
+			"3rd-level Bonus Feat",
+			"6th-level Bonus Feat",
+			"9th-level Bonus Feat",
+			"12th-level Bonus Feat",
+			"18th-level Bonus Feat",
 			"Sacred Armor"
 		],
 		"short_description": "Unlike many warpriests, sacred fists leave behind armor and shield and instead rely on their fists and whatever protection their deity bestows on them.",
@@ -622,8 +639,7 @@
 		"replace_array": [
 			"Focus Weapon",
 			"Sacred Weapon",
-			"Sacred Armor",
-			""
+			"Sacred Armor"
 		],
 		"short_description": "Shieldbearers are divine warriors who stand on the front lines of battle, shoulder to shoulder with the soldiers of their people.",
 		"description": [
@@ -651,11 +667,13 @@
 		"sources": [ "Distant Realms" ],
 		"replaces": "Armor Proficiencies; Focus Weapon; Sacred Weapon; Sacred Armor; 6-th, 12th-, 18th-level Bonus Feats",
 		"replace_array": [
-			"Armor Proficiencies",
+			"Armor Proficiency",
 			"Focus Weapon",
 			"Sacred Weapon",
 			"Sacred Armor",
-			"6-th, 12th-, 18th-level Bonus Feats"
+			"6th-level Bonus Feat",
+			"12th-level Bonus Feat",
+			"18th-level Bonus Feat"
 		],
 		"short_description": "The Sixth Wing bulwark are followers of Ragathiel that train to hold the line and defend against the incursion of evil forces, fortifying herself and her allies to stand strong in the face of any opposition, no matter how dire.",
 		"description": [
