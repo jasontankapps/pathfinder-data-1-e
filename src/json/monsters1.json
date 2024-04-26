@@ -876,8 +876,8 @@
 			],
 			"offense": [
 				"**Speed** 10 ft., swim 50 ft.   ",
-				"**Melee** spear +8 (1d8+4/x3 plus poison), bite +2 (1d6+1)   ",
-				"**Ranged** spear +8 (1d8+3/x3 plus poison)   ",
+				"**Melee** spear +8 (1d8+4/&times;3 plus poison), bite +2 (1d6+1)   ",
+				"**Ranged** spear +8 (1d8+3/&times;3 plus poison)   ",
 				"**Special Attacks** rain frenzy"
 			],
 			"str": 16,
@@ -1090,7 +1090,7 @@
 			],
 			"offense": [
 				"**Speed** 40 ft.   ",
-				"**Melee** +1 spear +17/+12/+7 (1d8+7/x3), bite +10 (1d6+2 plus 1d6 cold)   ",
+				"**Melee** +1 spear +17/+12/+7 (1d8+7/&times;3), bite +10 (1d6+2 plus 1d6 cold)   ",
 				"**Special Attacks** frozen breath   ",
 				"**Spell-Like Abilities (CL 10th; concentration +11)   ",
 				"*Constant*-pass without trace   ",
@@ -1892,7 +1892,7 @@
 				"",
 				"**Natural Invisibility (Su)** This ability is constantly in effect, even when the aerial servant is attacking, and is not subject to invisibility purge. Against foes that are unable to see invisible creatures, it gains an additional +20 bonus on Stealth checks when moving, or +40 when stationary. On the Astral Plane or the Ethereal Plane, an aerial servant gains concealment (20% miss chance) rather than invisibility.",
 				"",
-				"**Wind Blast (Su)** Once every 1d4 rounds, as a standard action, an aerial servant can release a blast of wind in an 80-foot line, dealing 8d8 points of bludgeoning damage (Reflex DC 22 half). Medium or smaller creatures that fail their saving throws are knocked prone and pushed 1d4 x 5 feet away. The save DC is Constitution-based."
+				"**Wind Blast (Su)** Once every 1d4 rounds, as a standard action, an aerial servant can release a blast of wind in an 80-foot line, dealing 8d8 points of bludgeoning damage (Reflex DC 22 half). Medium or smaller creatures that fail their saving throws are knocked prone and pushed 1d4 &times; 5 feet away. The save DC is Constitution-based."
 			],
 			"description": [
 				"Aerial servants are deadly hunters native to the Plane of Air, though they often wander through planar portals to the Ethereal Plane and sometimes roam the Astral Plane as well. They are generally called to the Material Plane as bounty hunters or assassins, using their natural invisibility and near-faultless tracking skills to pursue their quarry and then strike unseen. They typically scatter enemies with blasts of wind before closing in to strangle their prey. While an aerial servant is easy to confuse with an invisible stalker (Pathfinder Roleplaying Game Bestiary), the former is far more dangerous, and those who misidentify the creature may not live to regret underestimating it.",
@@ -2175,7 +2175,7 @@
 			"offense": [
 				"**Speed** 50 ft.; gallop   ",
 				"**Melee** 2 slams +30 (1d6+10), 2 hooves +25 (2d6+5)   ",
-				"**Ranged** +3 composite longbow +29/+24/+19/+14 (1d8+13/x3)   ",
+				"**Ranged** +3 composite longbow +29/+24/+19/+14 (1d8+13/&times;3)   ",
 				"**Space** 10 ft., **Reach** 5 ft.   ",
 				"**Special Attacks** powerful charge (gore, 2d8+15 plus stagger)   ",
 				"**Spell-Like Abilities (CL 20th; concentration +24)   ",
@@ -3475,7 +3475,7 @@
 			"special_abilities": [
 				"**Soul Engine (Su)** An akaruzug draws the energy it requires to function from a living creature crucified upon its frame. An active akaruzug (or another creature working with an inactive akaruzug) can spend 1 minute to bind a helpless or willing creature to the construct. Once the victim is restrained, the akaruzug can attempt to draw the creature's soul into it once per round as a free action- the victim can resist with a successful DC 24 Will save. On a failure, the victim dies and the akaruzug becomes active. If the body crucified upon an active akaruzug is removed, the soul within the construct is freed and the akaruzug deactivates after 1d4 rounds. An akaruzug's victim cannot be resurrected while its soul is trapped within the construct, but destroying an akaruzug releases a trapped soul. While an akaruzug is active, attacks and effects directed specifically at the victim crucified to the akaruzug treat the attack or effect as if it targeted the akaruzug instead. However, a creature can attempt to remove a crucified body from the construct, but doing so first requires the creature to successfully pin the akaruzug. Once this occurs, the creature can attempt a combat maneuver check to wrench the body free. On a success, the corpse is removed and the akaruzug deactivates in 1d4 rounds. A deactivated akaruzug can take no action other than to attempt to draw in the soul of a creature crucified on its body to reactivate itself. It does not have an Intelligence score while deactivated, nor does it gain the benefit of any of its feats or skill ranks. It can't fly or move at all, and loses all benefits of its soul shield defensive ability. It retains its lawful evil alignment while deactivated. The save DC is Charisma-based.",
 				"",
-				"**Soul Shield (Ex)** As long as an akaruzug is active, it gains bonus hit points equal to its Charisma modifier x its Hit Dice (80 hit points for a typical akaruzug), and gains a deflection bonus equal to its Charisma modifier to its Armor Class (+4 for a typical akaruzug).",
+				"**Soul Shield (Ex)** As long as an akaruzug is active, it gains bonus hit points equal to its Charisma modifier &times; its Hit Dice (80 hit points for a typical akaruzug), and gains a deflection bonus equal to its Charisma modifier to its Armor Class (+4 for a typical akaruzug).",
 				"",
 				"**Soul Slave (Sp)** Using a trapped soul, an akaruzug can manifest a ghostly representation of its victim to attack its enemies. A soul slave appears as the akaruzug's victim did in life and wields a weapon favored by that individual, but otherwise functions as per [spiritual ally](unknown:spiritual_ally) cast by a 20thlevel caster (and, as such, has an attack of +24/+19/+14/+9 and deals 1d10+5 points of force damage on a hit).",
 				"",
@@ -5375,7 +5375,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., fly 480 ft. (perfect)   ",
-				"**Melee** +5 shock thundering spear +31/+26/+21/+16 (1d8+11/19-20/x3 plus 1d6 electricity)   ",
+				"**Melee** +5 shock thundering spear +31/+26/+21/+16 (1d8+11/19-20/&times;3 plus 1d6 electricity)   ",
 				"**Ranged** thunderstorm blast +32 (20d6+30/19-20 bludgeoning) or electric blast +32 touch (10d6+5/19-20 electricity) or air blast +32 (10d6+20/19-20 half bludgeoning and half electricity)   ",
 				"**Special Attacks** aerokinesis, infusions (chain, cloud, cyclone, extreme range, gusting infusion, pushing infusion, thundering infusion), manifest thunderbolt, wind orchestra   ",
 				"**Spell-Like Abilities (CL 20th; concentration +30)   ",
@@ -5548,7 +5548,7 @@
 			],
 			"offense": [
 				"**Speed** 50 ft., fly 100 ft. (good)   ",
-				"**Melee** +2 disrupting warhammer +26/+21/+16 (1d8+14/x3 plus stun) or slam +23 (1d8+12)   ",
+				"**Melee** +2 disrupting warhammer +26/+21/+16 (1d8+14/&times;3 plus stun) or slam +23 (1d8+12)   ",
 				"**Spell-Like Abilities (CL 13th)   ",
 				"At Will-aid, continual flame, detect evil, discern lies (DC 20), dispel evil (DC 21), dispel magic, holy aura (DC 24), holy smite (DC 20), holy word (DC 23), invisibility (self only), plane shift (DC 23), remove curse, remove disease, remove fear 7/day-cure light wounds, see invisibility 1/day-blade barrier (DC 22), heal"
 			],
@@ -5926,8 +5926,8 @@
 			],
 			"offense": [
 				"**Speed** 50 ft., fly 120 ft. (good)   ",
-				"**Melee** +1 holy merciful halberd +36/+31/+26/+21 (2d8+16/19-20/x3)   ",
-				"**Ranged** +1 holy merciful composite longbow +33/+28/+23/+18 (2d6+11/x3)   ",
+				"**Melee** +1 holy merciful halberd +36/+31/+26/+21 (2d8+16/19-20/&times;3)   ",
+				"**Ranged** +1 holy merciful composite longbow +33/+28/+23/+18 (2d6+11/&times;3)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Spell-Like Abilities (CL 20th; concentration +27)   ",
 				"*Constant*-detect evil, detect snares and pits, discern lies (DC 21), true seeing   ",
@@ -6033,8 +6033,8 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., fly 30 ft. (good)   ",
-				"**Melee** +1 lance +11/+6 (1d8+4/x3), or mwk greatsword +11/+6 (2d6+3/19-20)   ",
-				"**Ranged** mwk longbow +12/+7 (1d8/x3)   ",
+				"**Melee** +1 lance +11/+6 (1d8+4/&times;3), or mwk greatsword +11/+6 (2d6+3/19-20)   ",
+				"**Ranged** mwk longbow +12/+7 (1d8/&times;3)   ",
 				"**Special Attacks** celestial charge, righteous challenge   ",
 				"**Spell-Like Abilities (CL 5th; concentration +6)   ",
 				"*Constant*-detect evil   ",
@@ -6204,7 +6204,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft., fly 50 ft. (good)   ",
-				"**Ranged** mwk longbow +9 (1d6/x3)   ",
+				"**Ranged** mwk longbow +9 (1d6/&times;3)   ",
 				"**Spell-Like Abilities (CL 3rd; concentration +3)   ",
 				"*Constant*-detect evil   ",
 				"*At will*-light, resistance   ",
@@ -7128,7 +7128,7 @@
 			],
 			"offense": [
 				"**Speed** 40 ft.   ",
-				"**Ranged** 3 Maxim M1910 machine guns +15 (2d8/19-20), Hotchkiss 6 pounder +15 (8d6/x3)   ",
+				"**Ranged** 3 Maxim M1910 machine guns +15 (2d8/19-20), Hotchkiss 6 pounder +15 (8d6/&times;3)   ",
 				"**Space** 15 ft., **Reach** 5 ft.   ",
 				"**Special Attacks** integrated weaponry, telekinesis, vicious trample (6d6+18, DC 30)"
 			],
@@ -7331,7 +7331,7 @@
 				"",
 				"In combat, an ankheg prefers to attack with its bite. Against multiple foes, an ankheg often grabs one of the available targets and then attempts to retreat to safety, burrowing into the ground. A creature carried underground can still breathe with difficulty (the ankheg needs to breathe as well, so its tunnels are relatively porous), but is often eaten alive before its allies can rescue it.",
 				"",
-				"Ankhegs burrow with their legs and mandibles, moving with unsettling speed through loose soil, sand, gravel, and the like-they cannot burrow through solid stone. Burrowing ankhegs can construct tunnels by pausing frequently to shore up the walls with a thicker, less caustic secretion from their mouths. If an ankheg chooses to make a permanent tunnel when burrowing, it moves at half speed. A typical ankheg tunnel is 10 feet tall and wide, roughly circular in cross-section, and from 60 to 150 feet long ([1d10 + 5] x 10). Clusters of ankhegs often share the same territory and create intricate winding networks of tunnels under farmlands, sometimes resulting in sinkholes where too many burrow at once.",
+				"Ankhegs burrow with their legs and mandibles, moving with unsettling speed through loose soil, sand, gravel, and the like-they cannot burrow through solid stone. Burrowing ankhegs can construct tunnels by pausing frequently to shore up the walls with a thicker, less caustic secretion from their mouths. If an ankheg chooses to make a permanent tunnel when burrowing, it moves at half speed. A typical ankheg tunnel is 10 feet tall and wide, roughly circular in cross-section, and from 60 to 150 feet long ([1d10 + 5] &times; 10). Clusters of ankhegs often share the same territory and create intricate winding networks of tunnels under farmlands, sometimes resulting in sinkholes where too many burrow at once.",
 				"",
 				"Although ankhegs resemble immense vermin, they are in fact much more intelligent than the typical arachnid and, given time and a talented trainer, can even be trained to serve as mounts or beasts of burden. The fact that even \"domesticated\" ankhegs are prone to squirting acid when frightened or startled makes them unsafe at best in most heavily populated regions, but for more savage races like hobgoblins, troglodytes, and particularly orcs, ankhegs make popular guardians or even pets."
 			],
@@ -8133,7 +8133,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** cold iron warhammer +5 (1d8+3/x3)   ",
+				"**Melee** cold iron warhammer +5 (1d8+3/&times;3)   ",
 				"**Spell-Like Abilities (CL 1st; concentration +0)   ",
 				"*1/day*-protection from chaos"
 			],
@@ -9425,7 +9425,7 @@
 			"offense": [
 				"**Speed** 40 ft., fly 40 ft. (good)   ",
 				"**Melee** mwk longsword +5 (1d8+2/19-20), mwk short sword +5 (1d6+1/19-20)   ",
-				"**Ranged** shortbow +6 (1d6/x3)   ",
+				"**Ranged** shortbow +6 (1d6/&times;3)   ",
 				"**Special Attacks** sneak attack +1d6   ",
 				"**Spell-Like Abilities (CL 4th; concentration +3)   ",
 				"*Constant*-detect evil, magic circle against evil   ",
@@ -9505,7 +9505,7 @@
 			"offense": [
 				"**Speed** 40 ft.   ",
 				"**Melee** gore +7 (1d6+1 plus push)   ",
-				"**Ranged** mwk longbow +9/+4 (1d8/x3)   ",
+				"**Ranged** mwk longbow +9/+4 (1d8/&times;3)   ",
 				"**Special Attacks** push (gore, 10 ft.)   ",
 				"**Spell-Like Abilities (CL 6th; concentration +6)   ",
 				"*Constant*-detect evil   ",
@@ -9577,7 +9577,7 @@
 			],
 			"offense": [
 				"**Speed** 40 ft., fly 120 ft. (good); 30 ft. (fly 90 ft.) in armor   ",
-				"**Melee** +5 holy starknife +29/+24/+19/+14 (1d6+12/x3)   ",
+				"**Melee** +5 holy starknife +29/+24/+19/+14 (1d6+12/&times;3)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** smite evil 1/day (+6 attack and AC, +29 damage)   ",
 				"**Spell-Like Abilities (CL 19th; concentration +25)   ",
@@ -9957,7 +9957,7 @@
 			],
 			"offense": [
 				"**Speed** 40 ft.   ",
-				"**Melee** +2 [impervious](unknown:impervious) [transformative](unknown:transformative) spear +28/+23/+18 (2d6+17/x3 plus 2d6 fire), tail slap +20 (3d6+5 plus 2d6 fire and grab)   ",
+				"**Melee** +2 [impervious](unknown:impervious) [transformative](unknown:transformative) spear +28/+23/+18 (2d6+17/&times;3 plus 2d6 fire), tail slap +20 (3d6+5 plus 2d6 fire and grab)   ",
 				"**Space** 10 ft., **Reach** 10 ft. (20 ft. with tail)   ",
 				"**Special Attacks** constrict (3d6+15 plus 2d6 fire), heat (2d6 fire), lava trail   ",
 				"**Spell-Like Abilities (CL 20th; concentration +30)   ",
@@ -10770,7 +10770,7 @@
 			],
 			"offense": [
 				"**Speed** 50 ft.   ",
-				"**Melee** +1 punching dagger +23/+18/+13/+8 (1d6+8/19-20/x3), 3 +1 punching daggers +23 (1d6+4/19-20/x3), bite +19 (2d6+3) or bite +24 (2d6+7), 4 slams +24 (1d6+7)   ",
+				"**Melee** +1 punching dagger +23/+18/+13/+8 (1d6+8/19-20/&times;3), 3 +1 punching daggers +23 (1d6+4/19-20/&times;3), bite +19 (2d6+3) or bite +24 (2d6+7), 4 slams +24 (1d6+7)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** destructive blades, punitive penance, rend (2 slams or 2 punching daggers, 4d6 bleed and punitive penance), repentant rain   ",
 				"**Spell-Like Abilities (CL 18th; concentration +24)   ",
@@ -10864,8 +10864,8 @@
 			],
 			"offense": [
 				"**Speed** 40 ft., climb 30 ft.   ",
-				"**Melee** mwk handaxe +16/+11/+6 (1d6+3/x3), mwk handaxe +16/+11 (1d6+1/x3)   ",
-				"**Ranged** +1 composite shortbow +22/+17/+12 (1d6+4/x3) or +1 composite shortbows +20/+20/+15/+15/+10 (1d6+4/x3)   ",
+				"**Melee** mwk handaxe +16/+11/+6 (1d6+3/&times;3), mwk handaxe +16/+11 (1d6+1/&times;3)   ",
+				"**Ranged** +1 composite shortbow +22/+17/+12 (1d6+4/&times;3) or +1 composite shortbows +20/+20/+15/+15/+10 (1d6+4/&times;3)   ",
 				"**Special Attacks** dual bows   ",
 				"**Spell-Like Abilities (CL 14th; concentration +17)   ",
 				"*Constant*-see invisibility   ",
@@ -11099,7 +11099,7 @@
 			],
 			"offense": [
 				"**Speed** 50 ft.   ",
-				"**Melee** mwk longsword +19/+14/+9 (1d8+6/19-20), mwk spear +19 (1d8+9/x3), mwk kukri +19 (1d4+6/18-20), 2 slams +13 (1d4+3) or 6 slams +18 (1d4+6)   ",
+				"**Melee** mwk longsword +19/+14/+9 (1d8+6/19-20), mwk spear +19 (1d8+9/&times;3), mwk kukri +19 (1d4+6/18-20), 2 slams +13 (1d4+3) or 6 slams +18 (1d4+6)   ",
 				"**Special Attacks** infused weapons, multiweapon mastery   ",
 				"**Spell-Like Abilities (CL 9th; concentration +13)   ",
 				"*At will*-disguise self, greater teleport (self plus 50 lbs. of objects only), feather fall, see invisibility, spider climb   ",
@@ -11175,7 +11175,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., fly 40 ft. (good)   ",
-				"**Melee** mwk spear +12/+7 (1d8+4/x3), 2 wings +6 (1d4+1)   ",
+				"**Melee** mwk spear +12/+7 (1d8+4/&times;3), 2 wings +6 (1d4+1)   ",
 				"**Spell-Like Abilities (CL 5th; concentration +9)   ",
 				"*At will*-greater teleport (self plus 50 lbs. of objects only)   ",
 				"*1/day*-summon (level 4, 1 vayuphak 35%)   ",
@@ -12305,7 +12305,7 @@
 			],
 			"offense": [
 				"**Speed** 40 ft. (30 ft. in armor)   ",
-				"**Melee** +1 [merciful](unknown:merciful) greatclub +26/+21/+16/+11 (2d8+10), tentacle +20 (1d6+3 plus grab), slam +20 (2d6+3 plus energized maul) or +1 [axiomatic](unknown:axiomatic) glaive +26 (2d8+10/x3), +1 [merciful](unknown:merciful) greatclub +26 (2d8+10), tentacle +25 (1d6+3 plus grab), slam +25 (2d6+3 plus energized maul)   ",
+				"**Melee** +1 [merciful](unknown:merciful) greatclub +26/+21/+16/+11 (2d8+10), tentacle +20 (1d6+3 plus grab), slam +20 (2d6+3 plus energized maul) or +1 [axiomatic](unknown:axiomatic) glaive +26 (2d8+10/&times;3), +1 [merciful](unknown:merciful) greatclub +26 (2d8+10), tentacle +25 (1d6+3 plus grab), slam +25 (2d6+3 plus energized maul)   ",
 				"**Space** 10 ft., **Reach** 10 ft. (15 ft. with glaive and tentacle)   ",
 				"**Special Attacks** energized maul, tripartite assault, watchful faces   ",
 				"**Spell-Like Abilities (CL 20th; concentration +23)   ",
@@ -12466,7 +12466,7 @@
 			"offense": [
 				"**Speed** 40 ft., fly 100 ft. (perfect)   ",
 				"**Melee** +1 scimitar +13/+8 (1d6+8/18-20) or slam +12 (1d6+7)   ",
-				"**Ranged** +1 composite longbow +12/+7 (1d8+6/x3)   ",
+				"**Ranged** +1 composite longbow +12/+7 (1d8+6/&times;3)   ",
 				"**Special Attacks** whirlwind blast   ",
 				"**Spell-Like Abilities (CL 6th)   ",
 				"At Will-blur, charm person (DC 13), gust of wind (DC 14), mirror image, wind wall 2/day-lightning bolt (DC 15), cure serious wounds"
@@ -13291,8 +13291,8 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., fly 60 ft. (perfect)   ",
-				"**Melee** +3 starknife +27/+22/+17/+12 (1d6+10/19-20/x3)   ",
-				"**Ranged** +3 starknife +25 (1d6+10/19-20/x3)   ",
+				"**Melee** +3 starknife +27/+22/+17/+12 (1d6+10/19-20/&times;3)   ",
+				"**Ranged** +3 starknife +25 (1d6+10/19-20/&times;3)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** psychic starknife   ",
 				"**Spell-Like Abilities (CL 18th; concentration +23)   ",
@@ -13480,8 +13480,8 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., fly 100 ft. (perfect)   ",
-				"**Melee** +2 returning starknife +14/+9 (1d4+5/x3)   ",
-				"**Ranged** +2 returning starknife +14 (1d4+5/x3)   ",
+				"**Melee** +2 returning starknife +14/+9 (1d4+5/&times;3)   ",
+				"**Ranged** +2 returning starknife +14 (1d4+5/&times;3)   ",
 				"**Special Attacks** steal magic, sneak attack +1d6   ",
 				"**Spell-Like Abilities (CL 6th; concentration +11)   ",
 				"*Constant*-detect evil, detect magic   ",
@@ -13553,7 +13553,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft. (20 ft. in armor)   ",
-				"**Melee** mwk warhammer +4 (1d8+1/x3 plus 1d6 fire)   ",
+				"**Melee** mwk warhammer +4 (1d8+1/&times;3 plus 1d6 fire)   ",
 				"**Ranged** light hammer +3 (1d4+1 plus 1d6 fire)   ",
 				"**Special Attacks** heat (1d6 fire)"
 			],
@@ -14103,7 +14103,7 @@
 			],
 			"offense": [
 				"**Speed** 40 ft.   ",
-				"**Melee** 2 claws +8 (1d4+4 plus grab) or handaxe +7 (1d6+6/x3)   ",
+				"**Melee** 2 claws +8 (1d4+4 plus grab) or handaxe +7 (1d6+6/&times;3)   ",
 				"**Special Attacks** bag prey"
 			],
 			"str": 19,
@@ -14386,7 +14386,7 @@
 			],
 			"offense": [
 				"**Speed** 60 ft., climb 20 ft.   ",
-				"**Melee** bite +32 (2d8+13 plus grab), 2 claws +32 (2d6+13/19-20), tail slap +27 (2d8+19/x3 plus pain)   ",
+				"**Melee** bite +32 (2d8+13 plus grab), 2 claws +32 (2d6+13/19-20), tail slap +27 (2d8+19/&times;3 plus pain)   ",
 				"**Ranged** 4 quills +26 (1d10+13/19-20)   ",
 				"**Space** 20 ft., **Reach** 15 ft. (20 ft. with tail slap)   ",
 				"**Special Attacks** bounding charge, brutal tail, gaze, lash out, pounce, rake (4 claws, +32, 2d6+13/19-20), rend (2 claws, 2d6+19)"
@@ -14915,7 +14915,7 @@
 				"**Treasure** none"
 			],
 			"special_abilities": [
-				"**Dimensional Bark (Su)** Up to three times per day, a barrow hound can emit a bark of dimensional energy that sends foes spiraling through time and space. All creatures in a 30-foot cone must succeed at a DC 17 Will save or immediately be teleported 2d6 x 5 feet in a random direction (roll 1d8 to determine the direction, with 1 indicating north and other numbers indicating compass directions going clockwise). The direction is randomly determined for each affected creature. A teleported creature arrives in the closest open space to the determined destination, but must appear on a solid surface capable of supporting its weight. If there is no appropriate destination in that direction, the creature does not teleport at all. The save DC is Charisma-based.",
+				"**Dimensional Bark (Su)** Up to three times per day, a barrow hound can emit a bark of dimensional energy that sends foes spiraling through time and space. All creatures in a 30-foot cone must succeed at a DC 17 Will save or immediately be teleported 2d6 &times; 5 feet in a random direction (roll 1d8 to determine the direction, with 1 indicating north and other numbers indicating compass directions going clockwise). The direction is randomly determined for each affected creature. A teleported creature arrives in the closest open space to the determined destination, but must appear on a solid surface capable of supporting its weight. If there is no appropriate destination in that direction, the creature does not teleport at all. The save DC is Charisma-based.",
 				"",
 				"**Howl (Su)** A barrow hound can let out an ear-splitting howl that terrifies creatures in the vicinity. All creatures of 4 or fewer Hit Dice within 120 feet must succeed at a DC 17 Will save or become panicked for 2d4 rounds. Whether or not the save is successful, an affected creature is immune to the same barrow hound's howl for 24 hours. This is a sonic, mind-affecting effect. The save DC is Charisma-based."
 			],
@@ -15442,7 +15442,7 @@
 			"offense": [
 				"**Speed** 30 ft., fly 60 ft. (good)   ",
 				"**Melee** 2 claws +14 (1d6+3)   ",
-				"**Ranged** +1 composite longbow +19/+14/+9 (1d8+4/19-20/x3 plus 1d6 negative energy and paralysis)   ",
+				"**Ranged** +1 composite longbow +19/+14/+9 (1d8+4/19-20/&times;3 plus 1d6 negative energy and paralysis)   ",
 				"**Special Attacks** devour soul, dread howl, infused arrows"
 			],
 			"str": 17,
@@ -19852,8 +19852,8 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., water stride 50 ft.   ",
-				"**Melee** spear +4 (1d8+3/x3), bite -1 (1d6+1) or 2 claws +4 (1d4-2), bite +4 (1d6+2)   ",
-				"**Ranged** spear +4 (1d8+2/x3) or mwk net +5 ranged touch (entangle)"
+				"**Melee** spear +4 (1d8+3/&times;3), bite -1 (1d6+1) or 2 claws +4 (1d4-2), bite +4 (1d6+2)   ",
+				"**Ranged** spear +4 (1d8+2/&times;3) or mwk net +5 ranged touch (entangle)"
 			],
 			"str": 14,
 			"dex": 14,
@@ -20067,7 +20067,7 @@
 			],
 			"offense": [
 				"**Speed** 15 ft., swim 30 ft.   ",
-				"**Melee** +1 greataxe +16/+11 (1d12+8/19-20/x3), tongue +9 touch (sticky tongue)   ",
+				"**Melee** +1 greataxe +16/+11 (1d12+8/19-20/&times;3), tongue +9 touch (sticky tongue)   ",
 				"**Ranged** throwing axe +9 (1d6+5)   ",
 				"**Special Attacks** channel negative energy (DC 15, 4d6), smite good 3/day (+2 attack and AC, +7 damage), terrifying croak (DC 15)   ",
 				"**Spell-Like Abilities (CL 7th; concentration +9)   ",
@@ -20283,7 +20283,7 @@
 			"offense": [
 				"**Speed** 20 ft., swim 30 ft.   ",
 				"**Melee** morningstar +9 (1d8+4), tongue +4 touch (sticky tongue)   ",
-				"**Ranged** mwk composite longbow +8 (1d8+4/x3)   ",
+				"**Ranged** mwk composite longbow +8 (1d8+4/&times;3)   ",
 				"**Special Attacks** combat style (archery), favored enemy (reptilian humanoids +2), terrifying croak (DC 12)"
 			],
 			"str": 19,
@@ -20507,12 +20507,12 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., swim 30 ft.   ",
-				"**Melee** +1 spear +15/+10 (1d8+11/x3), tongue +8 touch (sticky tongue)   ",
+				"**Melee** +1 spear +15/+10 (1d8+11/&times;3), tongue +8 touch (sticky tongue)   ",
 				"**Ranged** javelin +5 (1d6+7)   ",
 				"**Special Attacks** rage (14 rounds/day), rage powers (knockback, superstition +3), terrifying croak (DC 14)"
 			],
 			"tactics": [
-				"**Base Statistics** When not raging, the barbarian's statistics are AC 16, touch 9, flat-footed 16; hp 72; Fort +11, Will +3; Melee +1 spear +13/+8 (1d8+8/x3), tongue +6 touch (sticky tongue); Str 20, Con 18; CMB +11; Skills Climb +10, Swim +18."
+				"**Base Statistics** When not raging, the barbarian's statistics are AC 16, touch 9, flat-footed 16; hp 72; Fort +11, Will +3; Melee +1 spear +13/+8 (1d8+8/&times;3), tongue +6 touch (sticky tongue); Str 20, Con 18; CMB +11; Skills Climb +10, Swim +18."
 			],
 			"str": 24,
 			"dex": 9,
@@ -20559,7 +20559,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft., swim 30 ft.   ",
-				"**Melee** +1 handaxe +14/+9 (1d6+6/19-20/x3), +1 handaxe +14/+9 (1d6+6/19-20/x3), tongue +9 touch (sticky tongue)   ",
+				"**Melee** +1 handaxe +14/+9 (1d6+6/19-20/&times;3), +1 handaxe +14/+9 (1d6+6/19-20/&times;3), tongue +9 touch (sticky tongue)   ",
 				"**Ranged** javelin +10 (1d6+5)   ",
 				"**Special Attacks** combat style (two-weapon), favored enemy (dragons +2, humans +4), terrifying croak (DC 12)   ",
 				"**Ranger Spells Prepared ** (CL 4th; concentration +5)   ",
@@ -21168,7 +21168,7 @@
 			"offense": [
 				"**Speed** swim 60 ft.   ",
 				"**Melee** slam +28 (8d8+24 plus energy drain)   ",
-				"**Ranged** 4 bone cannons +15 (6d6+16/x4)   ",
+				"**Ranged** 4 bone cannons +15 (6d6+16/&times;4)   ",
 				"**Space** 30 ft., **Reach** 30 ft.   ",
 				"**Special Attacks** energy drain (2 levels, DC 30), ghostly boarders, spectral energy cannon, Trample (8d8+24 plus energy drain, DC 39)"
 			],
@@ -21197,7 +21197,7 @@
 			"special_abilities": [
 				"**Blood Wake (Su)** The frothing, churning waters around a bone ship are stained crimson with blood. Creatures entering the bone ship's aura must attempt DC 30 Fortitude saves. Those that succeed at their saves become shaken for 1d6 rounds. Those that fail become shaken and staggered as they feel themselves drowning and envision themselves pulled down into the bloody waters. Staggered creatures take an additional -4 penalty to AC, on Reflex saves, and on Swim checks. Creatures can attempt a new save at the start of each of their turns to resist this effect. Those that succeed at their saving throws are immune to the bone ship's aura for 24 hours. This is a mind-affecting fear affect, and works only when the bone ship is in the water. The save DC is Charisma-based.",
 				"",
-				"**Bone Cannon (Su)** The bone ship can create four cannons fashioned from bone anywhere along its body as a swift action. These cannons deal 6d6 points of damage and have a x4 critical multiplier. The bone cannons have a range increment of 100 feet and deal both bludgeoning and piercing damage. At a range up of up to 100 feet, the bone ship's cannons are treated as touch attacks. The bone ship can fire all four cannons as a standard action. The ammunition is a combination of bones and debris. Because the ammunition is ejected from the bone ship's body, bone cannons add the bone ship's Strength modifier on damage rolls. The cannons are considered to be part of the bone ship and not separate objects.",
+				"**Bone Cannon (Su)** The bone ship can create four cannons fashioned from bone anywhere along its body as a swift action. These cannons deal 6d6 points of damage and have a &times;4 critical multiplier. The bone cannons have a range increment of 100 feet and deal both bludgeoning and piercing damage. At a range up of up to 100 feet, the bone ship's cannons are treated as touch attacks. The bone ship can fire all four cannons as a standard action. The ammunition is a combination of bones and debris. Because the ammunition is ejected from the bone ship's body, bone cannons add the bone ship's Strength modifier on damage rolls. The cannons are considered to be part of the bone ship and not separate objects.",
 				"",
 				"**Bound Souls (Su)** The souls of numerous sailors and sea creatures form the bone ship's collective consciousness and hull. A bone ship is immune to spells and effects affecting a specific number of creatures. Any creature attempting to communicate with a bone ship, such as through telepathy, hears only the anguished cries of the imprisoned souls and must succeed at a DC 30 Will save or be driven insane as per the insanity spell (CL 20th). The save DC is Charisma-based.",
 				"",
@@ -22590,7 +22590,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** +1 quarterstaff +12/+7 (1d6+7)   ",
-				"**Ranged** mwk shortbow +10 (1d6/x3)   ",
+				"**Ranged** mwk shortbow +10 (1d6/&times;3)   ",
 				"**Spell-Like Abilities (CL 10th; concentration +12)   ",
 				"*6/day*-elemental ray (1d6+5 fire)   ",
 				"*1/day*-elemental blast (10d6 fire, DC 18)   ",
@@ -22964,7 +22964,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** mwk scimitar +9 (1d6+3/18-20)   ",
-				"**Ranged** +1 composite longbow +10 (1d8+4/x3)   ",
+				"**Ranged** +1 composite longbow +10 (1d8+4/&times;3)   ",
 				"**Special Attacks** favored enemy (humans +2)"
 			],
 			"tactics": [
@@ -23153,7 +23153,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., burrow 10 ft.   ",
-				"**Melee** spear +0 (1d4-2/x3) or 2 claws +3 (1d2-2)   ",
+				"**Melee** spear +0 (1d4-2/&times;3) or 2 claws +3 (1d2-2)   ",
 				"**Ranged** light crossbow +3 (1d4/19-20)   ",
 				"**Space** 2-1/2 ft., **Reach** 0 ft.   ",
 				"**Special Attacks** disassemble (DC 12)   ",
@@ -23720,7 +23720,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., swim 20 ft.   ",
-				"**Melee** handaxe +5 (1d6+1/x3), claw +0 (1d4) or 2 claws +5 (1d4+1)   ",
+				"**Melee** handaxe +5 (1d6+1/&times;3), claw +0 (1d4) or 2 claws +5 (1d4+1)   ",
 				"**Special Attacks** share deformity, unsettling scream"
 			],
 			"str": 13,
@@ -25215,7 +25215,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** longsword +3 (1d8+2/19-20)   ",
-				"**Ranged** longbow +5 (1d8/x3)   ",
+				"**Ranged** longbow +5 (1d8/&times;3)   ",
 				"**Special Attacks** favored enemy (magical beasts +2)"
 			],
 			"str": 14,
@@ -25907,8 +25907,8 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., swim 40 ft., jet 200 ft.   ",
-				"**Melee** mwk spear +11/+6 (1d8+4/x3), 2 tentacles +5 (1d4+1 plus grab)   ",
-				"**Ranged** mwk spear +12 (1d8+3/x3)   ",
+				"**Melee** mwk spear +11/+6 (1d8+4/&times;3), 2 tentacles +5 (1d4+1 plus grab)   ",
+				"**Ranged** mwk spear +12 (1d8+3/&times;3)   ",
 				"**Space** 5 ft., **Reach** 5 ft. (10 ft. with tentacles)"
 			],
 			"str": 16,
@@ -26036,7 +26036,7 @@
 			"offense": [
 				"**Speed** 50 ft. (35 ft. in armor)   ",
 				"**Melee** longsword +5 (1d8+2/19-20), 2 hooves +0 (1d6+1)   ",
-				"**Ranged** spear +5 (1d8+2/x3)   ",
+				"**Ranged** spear +5 (1d8+2/&times;3)   ",
 				"**Space** 10 ft., **Reach** 5 ft."
 			],
 			"str": 15,
@@ -26094,8 +26094,8 @@
 			],
 			"offense": [
 				"**Speed** 90 ft.   ",
-				"**Melee** +2 lance +22/+17/+12 (1d8+9/x3), 2 hooves +15 (2d6+2/19-20) or mwk longsword +20/+15/+10 (1d8+5/19-20), 2 hooves +15 (2d6+2/19-20)   ",
-				"**Ranged** spear +17/+12/+7 (1d8+5/x3)   ",
+				"**Melee** +2 lance +22/+17/+12 (1d8+9/&times;3), 2 hooves +15 (2d6+2/19-20) or mwk longsword +20/+15/+10 (1d8+5/19-20), 2 hooves +15 (2d6+2/19-20)   ",
+				"**Ranged** spear +17/+12/+7 (1d8+5/&times;3)   ",
 				"**Space** 10 ft., **Reach** 5 ft.   ",
 				"**Special Attacks** banner +3/+2, challenge (+11, +3, 4/day), ride down, thundering hooves"
 			],
@@ -26151,7 +26151,7 @@
 			"offense": [
 				"**Speed** 50 ft.   ",
 				"**Melee** greatsword +10/+5 (2d6+6/19-20), 2 hooves +5 (1d6+2)   ",
-				"**Ranged** mwk composite longbow +10/+5 (1d8+4/x3)   ",
+				"**Ranged** mwk composite longbow +10/+5 (1d8+4/&times;3)   ",
 				"**Space** 10 ft., **Reach** 5 ft.   ",
 				"**Special Attacks** combat style (archery), favored enemy (animals +2)"
 			],
@@ -27417,7 +27417,7 @@
 			"special_abilities": [
 				"**Hold Breath (Ex)** Narwhals are expert deep divers, and a narwhal can hold its breath a number of minutes equal to 2 times its Constitution score before it risks drowning.",
 				"",
-				"**Tusk (Ex)** A charging narwhal can make a single gore attack with its tusk in place of its normal bite attack. If it hits, the tusk deals 2d6+14 points of damage with a x3 critical multiplier."
+				"**Tusk (Ex)** A charging narwhal can make a single gore attack with its tusk in place of its normal bite attack. If it hits, the tusk deals 2d6+14 points of damage with a &times;3 critical multiplier."
 			],
 			"description": [
 				"The narwhal is a skilled hunter in arctic waters, and has been known to dive deeper than even much larger cetaceans both in open water and beneath thick sheets of waterborne ice. Male narwhals possess a single, 6-footlong tusk extending from just above the mouth that serves to impress females during mating season, though in times of need the tusks may be used to break through thick ice or even in self-defense. A typical narwhal is 14 feet long (not including the tusk) and weighs 3,200 pounds."
@@ -27717,7 +27717,7 @@
 				"",
 				"Changelings are defined by their class levels' they don't have racial Hit Dice. All changelings have the following racial traits.",
 				"",
-				"-2 Constitution, +2 Wisdom, +2 Charisma: Changelings are frail, but are clever and comely. Hag Trait: A changeling possesses one of the following traits, depending on the type of hag her mother is. Hulking Changeling (Annis Hag): The changeling gains a +1 racial bonus on melee damage rolls. Green Widow (Green Hag): The changeling gains a +2 racial bonus on Bluff checks against creatures that are sexually attracted to her. Sea Lungs (Sea Hag): The changeling can hold her breath for a number of rounds equal to 3 x her Constitution score before she risks drowning. Claws: A changeling's hands and fingernails tend to harden and become sharp, granting her two claw attacks, each of which deals 1d4 points of damage. Natural Armor: Changelings have a +1 natural armor bonus. Darkvision: Changelings can see in the dark up to 60 feet. Languages: Changelings begin play speaking Common and the primary language of their host society. Changelings who have high Intelligence scores can choose from the following: Aklo, Draconic, Dwarven, Elven, Giant, Gnoll, Goblin, and Orc."
+				"-2 Constitution, +2 Wisdom, +2 Charisma: Changelings are frail, but are clever and comely. Hag Trait: A changeling possesses one of the following traits, depending on the type of hag her mother is. Hulking Changeling (Annis Hag): The changeling gains a +1 racial bonus on melee damage rolls. Green Widow (Green Hag): The changeling gains a +2 racial bonus on Bluff checks against creatures that are sexually attracted to her. Sea Lungs (Sea Hag): The changeling can hold her breath for a number of rounds equal to 3 &times; her Constitution score before she risks drowning. Claws: A changeling's hands and fingernails tend to harden and become sharp, granting her two claw attacks, each of which deals 1d4 points of damage. Natural Armor: Changelings have a +1 natural armor bonus. Darkvision: Changelings can see in the dark up to 60 feet. Languages: Changelings begin play speaking Common and the primary language of their host society. Changelings who have high Intelligence scores can choose from the following: Aklo, Draconic, Dwarven, Elven, Giant, Gnoll, Goblin, and Orc."
 			],
 			"short_description": "This slender woman's skin is unnaturally pale, her hair is dark, and each of her eyes is a different color."
 		},
@@ -27872,7 +27872,7 @@
 			"offense": [
 				"**Speed** 30 ft., climb 30 ft.   ",
 				"**Melee** mwk scimitar +12/+7 (1d4+4/18-20), bite +6 (1d3+6)   ",
-				"**Ranged** mwk composite shortbow +10/+5 (1d4+4/x3) or rock +10 (1d4+4, 19-20)   ",
+				"**Ranged** mwk composite shortbow +10/+5 (1d4+4/&times;3) or rock +10 (1d4+4, 19-20)   ",
 				"**Special Attacks** bleed, sneak attack +1d6, studied target +1 (1 target)"
 			],
 			"str": 19,
@@ -27928,7 +27928,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft., climb 30 ft.   ",
-				"**Melee** +1 spear +8 (1d6+2/x3), bite +2 (1d3+1)   ",
+				"**Melee** +1 spear +8 (1d6+2/&times;3), bite +2 (1d3+1)   ",
 				"**Ranged** rock +9 (1d4+1, 19-20)   ",
 				"**Special Attacks** channel negative energy 6/day (DC 15, 3d6), shrieking frenzy, thrown-weapon mastery   ",
 				"**Spell-Like Abilities (CL 5th; concentration +8)   ",
@@ -28056,7 +28056,7 @@
 			"offense": [
 				"**Speed** 30 ft., climb 30 ft.   ",
 				"**Melee** mwk club +10/+5 (1d4+2), bite +4 (1d3+3)   ",
-				"**Ranged** musket +11 (1d10/x4) or rock +12 (1d4+2/19-20)   ",
+				"**Ranged** musket +11 (1d10/&times;4) or rock +12 (1d4+2/19-20)   ",
 				"**Special Attacks** grit (3), shrieking frenzy, thrown-weapon mastery"
 			],
 			"str": 15,
@@ -28254,7 +28254,7 @@
 			"offense": [
 				"**Speed** 60 ft., fly 60 ft. (good)   ",
 				"**Melee** 2 bites +37 (2d6+12), gore +37 (1d8+6), 2 slams +37 (1d6+12)   ",
-				"**Ranged** +5 unholy composite longbow +42/+37/+32/+27 (2d6+17/19-20/x3)   ",
+				"**Ranged** +5 unholy composite longbow +42/+37/+32/+27 (2d6+17/19-20/&times;3)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** severance   ",
 				"**Spell-Like Abilities (CL 23rd; concentration +35)   ",
@@ -29233,7 +29233,7 @@
 			"offense": [
 				"**Speed** 30 ft., fly 40 ft. (average)   ",
 				"**Melee** discoloring touch +4 touch (1d6 plus energy drain) or rapier +4 (1d6/18-20)   ",
-				"**Ranged** longbow +4 (1d8/x3)   ",
+				"**Ranged** longbow +4 (1d8/&times;3)   ",
 				"**Special Attacks** energy drain (1 level, DC 14), hypnotic colors"
 			],
 			"str": 11,
@@ -29439,7 +29439,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., fly 60 ft. (perfect)   ",
-				"**Melee** tail fan +8 (1d4-2/x3)   ",
+				"**Melee** tail fan +8 (1d4-2/&times;3)   ",
 				"**Ranged** air blast +8 (2d6+3)   ",
 				"**Space** 2-1/2 ft., **Reach** 0 ft. (5 ft. with tail fan)   ",
 				"**Spell-Like Abilities (CL 3rd; concentration +4)   ",
@@ -30029,7 +30029,7 @@
 				"**Treasure** standard"
 			],
 			"special_abilities": [
-				"**Devour (Su)** Any time a cipactli kills or destroys a creature with its swallow whole ability, it gains a number of temporary hit points equal to 5 x the slain creature's Hit Dice.",
+				"**Devour (Su)** Any time a cipactli kills or destroys a creature with its swallow whole ability, it gains a number of temporary hit points equal to 5 &times; the slain creature's Hit Dice.",
 				"",
 				"**Destructive (Ex)** A cipactli's natural attacks are treated as adamantine for the purpose of damaging objects.",
 				"",
@@ -30634,7 +30634,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** bite +34 (2d8+11/18-20/x3), 2 claws +34 (2d6+11 plus bleed), 2 wings +29 (1d8+5)   ",
+				"**Melee** bite +34 (2d8+11/18-20/&times;3), 2 claws +34 (2d6+11 plus bleed), 2 wings +29 (1d8+5)   ",
 				"**Space** 5 ft., **Reach** 5 ft. (10 ft. with wings)   ",
 				"**Special Attacks** bleed (2d8), explosive rend, overdrive"
 			],
@@ -30783,7 +30783,7 @@
 			"offense": [
 				"**Speed** 40 ft.   ",
 				"**Melee** 4 slams +41 (3d6+17)   ",
-				"**Ranged** cannon +29/+24/+19/+14 (6d6/x4)   ",
+				"**Ranged** cannon +29/+24/+19/+14 (6d6/&times;4)   ",
 				"**Space** 20 ft., **Reach** 20 ft.   ",
 				"**Special Attacks** self-destruction, trample (3d6+25, DC 41)"
 			],
@@ -30808,7 +30808,7 @@
 				"**Treasure** none"
 			],
 			"special_abilities": [
-				"**Cannon (Ex)** One of a goliath's arms ends in a cannon. The goliath may use this as one of its four slam attacks, or it can use it to fire cannonballs. A cannon has a range increment of 100 feet, and deals 6d6 points of bludgeoning and piercing damage on a hit with a x4 critical modifier. A clockwork goliath's cannon can hold up to 12 cannonballs-reloading a single cannonball is a standard action.",
+				"**Cannon (Ex)** One of a goliath's arms ends in a cannon. The goliath may use this as one of its four slam attacks, or it can use it to fire cannonballs. A cannon has a range increment of 100 feet, and deals 6d6 points of bludgeoning and piercing damage on a hit with a &times;4 critical modifier. A clockwork goliath's cannon can hold up to 12 cannonballs-reloading a single cannonball is a standard action.",
 				"",
 				"**Self-Destruction (Su)** When a goliath's hit points are reduced to 10% its total (21 hp for most clockwork goliaths) or less but still above 0, it self-destructs on its next turn, bursting in an explosion of metal scraps and steam that deals 12d6 points of slashing damage plus 12d6 points of fire damage to all creatures within a 20-foot-radius burst. A successful DC 24 Reflex save halves the damage. The save is Constitution-based."
 			],
@@ -30928,7 +30928,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** slam +14 (1d6+7)   ",
-				"**Ranged** pistol +12 (1d8/x4)   ",
+				"**Ranged** pistol +12 (1d8/&times;4)   ",
 				"**Special Attacks** captive time"
 			],
 			"str": 20,
@@ -31648,7 +31648,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** +1 halberd +18/+13 (1d10+14/x3)   ",
+				"**Melee** +1 halberd +18/+13 (1d10+14/&times;3)   ",
 				"**Special Attacks** latch"
 			],
 			"str": 28,
@@ -32402,7 +32402,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.; icewalking   ",
-				"**Melee** +2 icy burst glaive +12/+7 (1d10+6/x3 plus 1d6 cold), gore +4 (2d6+1 plus 1d6 cold)   ",
+				"**Melee** +2 icy burst glaive +12/+7 (1d10+6/&times;3 plus 1d6 cold), gore +4 (2d6+1 plus 1d6 cold)   ",
 				"**Spell-Like Abilities (CL 10th; concentration +13)   ",
 				"*Constant*-pass without trace   ",
 				"*At will*-chill metal (DC 15), deep slumber (DC 16), ghost sound (DC 13), obscuring mist, phantom steed, ray of frost   ",
@@ -35123,7 +35123,7 @@
 				"**Treasure** standard"
 			],
 			"special_abilities": [
-				"**Teleporting Burst (Su)** Once per day, a crypt thing can teleport all creatures within 50 feet of it to randomly determined locations. The crypt thing can only affect creatures of which it is aware and to which it has line of sight. A successful DC 16 Will save negates this effect. An affected creature is teleported in a random direction (roll 1d8, with 1 indicating north and the other numbers indicating compass going clockwise) and a random distance (1d10 x 100 feet) away from the crypt thing; determine each creature's direction randomly. A teleported creature arrives in the closest open space to the determined destination, but must appear on a solid surface capable of supporting its weight. If there is no appropriate destination in that direction, the creature does not teleport at all. The save DC is Charisma-based."
+				"**Teleporting Burst (Su)** Once per day, a crypt thing can teleport all creatures within 50 feet of it to randomly determined locations. The crypt thing can only affect creatures of which it is aware and to which it has line of sight. A successful DC 16 Will save negates this effect. An affected creature is teleported in a random direction (roll 1d8, with 1 indicating north and the other numbers indicating compass going clockwise) and a random distance (1d10 &times; 100 feet) away from the crypt thing; determine each creature's direction randomly. A teleported creature arrives in the closest open space to the determined destination, but must appear on a solid surface capable of supporting its weight. If there is no appropriate destination in that direction, the creature does not teleport at all. The save DC is Charisma-based."
 			],
 			"description": [
 				"Crypt things are undead creatures found guarding tombs, graves, and crypts. Necromancers and other spellcasters create them to guard such areas, and the crypt things never leave their appointed lairs, even to pursue enemies. Their warded area may be a single room or passage, an entire grave complex, or even a city-sized necropolis. Though naturally solitary, multiple crypt things may guard a common area, often in conjunction with constructs or other undead.",
@@ -35495,7 +35495,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** greataxe +11/+6 (3d6+7/x3)   ",
+				"**Melee** greataxe +11/+6 (3d6+7/&times;3)   ",
 				"**Ranged** heavy crossbow +5 (2d8/19-20)   ",
 				"**Space** 10 ft., **Reach** 10 ft."
 			],
@@ -35683,8 +35683,8 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** mwk greataxe +17/+12 (3d6+10/x3)   ",
-				"**Ranged** +1 composite longbow +10/+5 (2d6+8/x3)   ",
+				"**Melee** mwk greataxe +17/+12 (3d6+10/&times;3)   ",
+				"**Ranged** +1 composite longbow +10/+5 (2d6+8/&times;3)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** combat style (two-handed weapon), favored enemy (humans +2)"
 			],
@@ -35742,7 +35742,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** +1 greatclub +21/+16/+11 (2d8+14)   ",
-				"**Ranged** longbow +10/+5/+0 (2d6/x3)   ",
+				"**Ranged** longbow +10/+5/+0 (2d6/&times;3)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** destructive +2, rage (20 rounds/day), rage powers (smasher, strength surge +4)"
 			],
@@ -35932,7 +35932,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** mwk Large greataxe +15/+10 (3d6+7/x3)   ",
+				"**Melee** mwk Large greataxe +15/+10 (3d6+7/&times;3)   ",
 				"**Ranged** heavy crossbow +10 (2d8/19-20)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Spell-Like Abilities (CL 10th; concentration +13)   ",
@@ -36061,8 +36061,8 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., fly 50 ft. (average)   ",
-				"**Melee** +1 returning starknife +19/+14/+9 (1d4+2/19-20/x3)   ",
-				"**Ranged** +1 returning starknife +19/+14/+9 (1d4+2/19-20/x3)   ",
+				"**Melee** +1 returning starknife +19/+14/+9 (1d4+2/19-20/&times;3)   ",
+				"**Ranged** +1 returning starknife +19/+14/+9 (1d4+2/19-20/&times;3)   ",
 				"**Special Attacks** dream powder, sneak attack +3d6   ",
 				"**Spell-Like Abilities (CL 12th; concentration +17)   ",
 				"*At will*-dancing lights, dream, restful sleep   ",

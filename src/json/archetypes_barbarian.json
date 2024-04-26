@@ -397,7 +397,7 @@
 			"",
 			"**Weapon and Armor Proficiency:** A feral gnasher loses all martial weapon proficiencies except for greatclub and loses proficiency with medium armor.",
 			"",
-			"**Savage Bite (Ex):** At 1st level, a feral gnasher gains a savage bite attack. This is a primary natural attack that deals 1d4 points of damage. If the goblin already has the hard head, big teeth racial trait, the damage increases to 1d6. At 10th level, the damage from a feral gnasher's bite increases to 1d6 (or 1d8 if the goblin has the hard head, big teeth racial trait) and deals x3 damage on a critical hit. This ability replaces fast movement.",
+			"**Savage Bite (Ex):** At 1st level, a feral gnasher gains a savage bite attack. This is a primary natural attack that deals 1d4 points of damage. If the goblin already has the hard head, big teeth racial trait, the damage increases to 1d6. At 10th level, the damage from a feral gnasher's bite increases to 1d6 (or 1d8 if the goblin has the hard head, big teeth racial trait) and deals $times;3 damage on a critical hit. This ability replaces fast movement.",
 			"",
 			"**Impromptu Armament (Ex):** At 2nd level, a feral gnasher gains [Throw Anything](feat:Throw_Anything) as a bonus feat and can pick up an unattended object that can be wielded in one hand as a free action. Additionally, the feral gnasher can take [Catch Off-Guard](feat:Catch_Off-Guard) in place of a rage power. This replaces the rage power gained at second level.",
 			"",

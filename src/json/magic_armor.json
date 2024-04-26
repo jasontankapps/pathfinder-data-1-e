@@ -44,7 +44,8 @@
 			"construction": "**Requirements** Craft Magic Arms and Armor, obscuring mist; **Price** 1,250 gp"
 		},
 		{
-			"name": "Kimle Coat",
+			"name": "Kiml&eacute; Coat",
+			"searchable_name": "Kimle Coat",
 			"file": "magicarmordisplay92d7.html",
 			"sources": [ "Inner Sea Gods" ],
 			"cost": 2300,
@@ -52,13 +53,13 @@
 			"slot": "armor",
 			"weight": 15,
 			"description": [
-				"## KimlÃ© Coat",
+				"## Kiml&eacute; Coat",
 				"",
-				"**Source** [Inner Sea Gods pg. 252](source:Inner_Sea_Gods)",
+				"**Source** [Inner Sea Gods pg. 73, 252](source:Inner_Sea_Gods)",
 				"**Aura** faint transmutation; **CL** 3rd",
 				"**Slot** armor; **Price** 2,300 gp; **Weight** 15 lbs.",
 				"",
-				"This +1 leather armor is made of kimlÃ© (see page 73) and resembles a snug light coat with a tattered lower fringe in the shape of trailing seaweed. The wearer of a kimlÃ© coat gains a +5 bonus on Swim checks. Once per day, the wearer can breathe water for 1 minute."
+				"This +1 leather armor is made of kiml&eacute;, a linen-like cloth made of a sea plant the church of Gozreh cultivates, and resembles a snug light coat with a tattered lower fringe in the shape of trailing seaweed. The wearer of a kiml&eacute; coat gains a +5 bonus on Swim checks. Once per day, the wearer can breathe water for 1 minute."
 			],
 			"construction": "**Requirements** Craft Magic Arms and Armor, water breathing, creator must have 5 ranks in the Swim skill; **Price** 1,230 gp"
 		},
@@ -2806,7 +2807,7 @@
 				"**Aura** strong transmutation; **CL** 15th",
 				"**Slot** armor; **Price** 32,350 gp; **Weight** 75 lbs.",
 				"",
-				"Three times per day, as an immediate action when struck by a melee attack while he is touching the ground, the wearer of this +1 titanic stoneplate can cause the earth around him to shake, turning the area into difficult terrain. The radius of this effect is equal to 1d4 x 5 feet, and any creature in the affected area must succeed at a DC 15 Reflex save or fall prone."
+				"Three times per day, as an immediate action when struck by a melee attack while he is touching the ground, the wearer of this +1 titanic stoneplate can cause the earth around him to shake, turning the area into difficult terrain. The radius of this effect is equal to 1d4 &times; 5 feet, and any creature in the affected area must succeed at a DC 15 Reflex save or fall prone."
 			],
 			"construction": "**Requirements** Craft Magic Arms and Armor, earthquake; **Price** 17,150 gp"
 		},
@@ -3797,7 +3798,7 @@
 				"**Aura** moderate evocation; **CL** 6th",
 				"**Slot** shield; **Price** 5,580 gp; **Weight** 15 lbs.",
 				"",
-				"This +1 heavy steel shield is covered in spines. It acts as a normal spiked shield. On command up to three times per day, the shield's wearer can fire one of the shield's spines. A fired spine has a +1 enhancement bonus, a range increment of 120 feet, and deals 1d10 points of damage (19-20/x2). Fired spines regenerate each day."
+				"This +1 heavy steel shield is covered in spines. It acts as a normal spiked shield. On command up to three times per day, the shield's wearer can fire one of the shield's spines. A fired spine has a +1 enhancement bonus, a range increment of 120 feet, and deals 1d10 points of damage (19-20/&times;2). Fired spines regenerate each day."
 			],
 			"construction": "**Requirements** Craft Magic Arms and Armor, magic missile; **Price** 2,875 gp"
 		},

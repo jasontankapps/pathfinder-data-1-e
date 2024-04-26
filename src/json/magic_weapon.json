@@ -4826,8 +4826,8 @@
 				"**Aura** moderate transmutation; **CL** 7th (lesser), 11th (normal)",
 				"**Slot** none; **Price** lesser (16,012 gp), normal (75,312 gp); **Weight** 8 lbs.",
 				"",
-				"A lesser mace of smiting is a +1 adamantine heavy mace with a +3 enhancement bonus against constructs. When it deals a successful critical hit to a construct, it deals x4 damage rather than x2. A critical hit dealt to an outsider deals x3 damage rather than x2.",
-				"A mace of smiting is a +3 adamantine heavy mace has a +5 enhancement bonus against constructs. When it deals a successful critical hit to a construct, it completely destroys the construct (no saving throw). A critical hit dealt to an outsider deals x4 damage rather than x2."
+				"A lesser mace of smiting is a +1 adamantine heavy mace with a +3 enhancement bonus against constructs. When it deals a successful critical hit to a construct, it deals &times;4 damage rather than &times;2. A critical hit dealt to an outsider deals &times;3 damage rather than &times;2.",
+				"A mace of smiting is a +3 adamantine heavy mace has a +5 enhancement bonus against constructs. When it deals a successful critical hit to a construct, it completely destroys the construct (no saving throw). A critical hit dealt to an outsider deals &times;4 damage rather than &times;2."
 			],
 			"construction": "**Requirements** Craft Magic Arms and Armor, disintegrate; **Price** 9,512 gp (lesser), 39,312 gp (normal)"
 		},
@@ -6582,7 +6582,7 @@
 				"**Aura** strong evocation; **CL** 15th",
 				"**Slot** none; **Price** 25,600 gp; **Weight** 3 lbs.",
 				"",
-				"Of elven make, this white +2 composite longbow (+2 S tr bonus) whispers \"Swift defeat to my enemies\" in Elven when nocked and pulled. Once per day, if the archer swears aloud to slay her target (a free action), the bow's whisper becomes the shout \"Death to those who have wronged me!\" Against such a sworn enemy, the bow has a +5 enhancement bonus, and arrows launched from it deal an additional 2d6 points of damage (and x4 on a critical hit instead of the normal x3). After an enemy has been sworn, the bow is treated as only a masterwork weapon against all foes other than the sworn enemy, and the archer takes a -1 penalty on attack rolls with any weapon other than the oathbow. These bonuses and penalties last for 7 days or until the sworn enemy is slain or destroyed by the wielder of the oathbow, whichever comes first.",
+				"Of elven make, this white +2 composite longbow (+2 S tr bonus) whispers \"Swift defeat to my enemies\" in Elven when nocked and pulled. Once per day, if the archer swears aloud to slay her target (a free action), the bow's whisper becomes the shout \"Death to those who have wronged me!\" Against such a sworn enemy, the bow has a +5 enhancement bonus, and arrows launched from it deal an additional 2d6 points of damage (and &times;4 on a critical hit instead of the normal &times;3). After an enemy has been sworn, the bow is treated as only a masterwork weapon against all foes other than the sworn enemy, and the archer takes a -1 penalty on attack rolls with any weapon other than the oathbow. These bonuses and penalties last for 7 days or until the sworn enemy is slain or destroyed by the wielder of the oathbow, whichever comes first.",
 				"The oathbow may only have one sworn enemy at a time. Once the wielder swears to slay a target, he cannot make a new oath until he has slain that target or 7 days have passed. Even if the wielder slays the sworn enemy on the same day that he makes the oath, he cannot activate the oathbow's special power again until 24 hours have passed from the time he made the oath."
 			],
 			"construction": "**Requirements** Craft Magic Arms and Armor, creator must be an elf; **Price** 13,100 gp"
@@ -6899,7 +6899,7 @@
 				"",
 				"Once per day as a standard action, the bearer of this +1 thundering naginata can strike the blade against the ground, causing it to ring with a deafening clangor that functions as the shout spell.",
 				"Stolen by Munasukaru years ago, the thundering blade is the ancestral weapon of the Sugimatu family, one of the five imperial families of Minkai. The thundering blade is imbued with royal honor, and bestows one permanent negative level on any creature without honor that attempts to wield it (such as oni, traitors, kinslayers, and the like). The negative level remains as long as the weapon is in hand and disappears when the weapon is no longer wielded. This negative level cannot be overcome in any way (including by restoration spells) while the weapon is wielded.",
-				"A naginata is a two-handed martial melee weapon that deals 1d8 points of slashing damage and has a critical modifier of x4. A naginata is a reach weapon. A naginata costs 35 gp and weighs 9 lbs."
+				"A naginata is a two-handed martial melee weapon that deals 1d8 points of slashing damage and has a critical modifier of &times;4. A naginata is a reach weapon. A naginata costs 35 gp and weighs 9 lbs."
 			],
 			"construction": "**Requirements** Craft Magic Arms and Armor, blindness/deafness, shout; **Price** 14,375 gp"
 		},
@@ -7608,7 +7608,7 @@
 				"**Aura** strong transmutation; **CL** 13th",
 				"**Slot** none; **Price** 35,320 gp; **Weight** 2 lbs.",
 				"",
-				"This +2 countering dueling rapier is particularly well balanced, and features a stout steel ball on the pommel. Three times per day, the wielder can make a surprise melee attack with the pommel as a swift action, as if proficient with the attack and at her normal attack bonus. The attack deals 1d6+2 points of bludgeoning damage, and the critical multiplier is 20/x2."
+				"This +2 countering dueling rapier is particularly well balanced, and features a stout steel ball on the pommel. Three times per day, the wielder can make a surprise melee attack with the pommel as a swift action, as if proficient with the attack and at her normal attack bonus. The attack deals 1d6+2 points of bludgeoning damage, and the critical multiplier is 20/&times;2."
 			],
 			"construction": "**Requirements** Combat Reflexes, Craft Magic Arms and Armor, cat's grace, daze; **Price** 17,820 gp"
 		},
@@ -8370,7 +8370,7 @@
 				"**Slot** none; **Price** 50,335 gp; **Weight** 2 lbs.",
 				"",
 				"This sword is the size of a bastard sword. However, a sun blade is wielded as if it were a short sword with respect to weight and ease of use. In other words, the weapon appears to all viewers to be a bastard sword, and deals bastard sword damage, but the wielder feels and reacts as if the weapon were a short sword. Any individual able to use either a bastard sword or a short sword with proficiency is proficient in the use of a sun blade. Likewise, Weapon Focus and Weapon Specialization in short sword and bastard sword apply equally, but the benefits of those feats do not stack.",
-				"In normal combat, the glowing golden blade of the weapon is equal to a +2 bastard sword. Against evil creatures, its enhancement bonus is +4. Against Negative Energy Plane creatures or undead creatures, the sword deals double damage (and x3 on a critical hit instead of the usual x2).",
+				"In normal combat, the glowing golden blade of the weapon is equal to a +2 bastard sword. Against evil creatures, its enhancement bonus is +4. Against Negative Energy Plane creatures or undead creatures, the sword deals double damage (and &times;3 on a critical hit instead of the usual &times;2).",
 				"The blade also has a special sunlight power. Once per day, the wielder can swing the blade vigorously above his head while speaking a command word. The sun blade then sheds a bright yellow radiance that acts like bright light and affects creatures susceptible to light as if it were natural sunlight. The radiance begins shining in a 10-foot radius around the sword wielder and extends outward at 5 feet per round for 10 rounds thereafter, to create a globe of light with a 60- foot radius. When the wielder stops swinging the sword, the radiance fades to a dim glow that persists for another minute before disappearing entirely. All sun blades are of good alignment, and any evil creature attempting to wield one gains one negative level. The negative level remains as long as the sword is in hand and disappears when the sword is no longer wielded. This negative level cannot be overcome in any way (including by restoration spells) while the sword is wielded."
 			],
 			"construction": "**Requirements** Craft Magic Arms and Armor, daylight, creator must be good; **Price** 25,335 gp"
@@ -9034,7 +9034,7 @@
 				"**Aura** strong evocation; **CL** 13th",
 				"**Slot** none; **Price** 67,500 gp; **Weight** 8 lbs.",
 				"",
-				"This exquisitely detailed +3 nodachi comes sheathed in a black-lacquered scabbard with gold filigree. Its hilt is wrapped in red dragonhide, and a single golden feather hangs from the pommel. Karusetsu enables its wielder to execute a flourishing slash three times per day in the direction of a single distant opponent (i.e., one not already engaged in melee combat with the wielder) up to 60 feet away. This flourishing slash projects a plane of scintillating force across the intervening distance, functioning as a ranged attack with a thrown weapon using the wielder's highest base attack bonus. On a successful hit, the blade's cutting light deals 4d6+3 points of force damage to the target, with a threat range of 18-20 and a critical multiplier of x2. In addition, a creature struck by the cutting light must succeed at a DC 14 Reflex save or be blinded for 1d4 rounds."
+				"This exquisitely detailed +3 nodachi comes sheathed in a black-lacquered scabbard with gold filigree. Its hilt is wrapped in red dragonhide, and a single golden feather hangs from the pommel. Karusetsu enables its wielder to execute a flourishing slash three times per day in the direction of a single distant opponent (i.e., one not already engaged in melee combat with the wielder) up to 60 feet away. This flourishing slash projects a plane of scintillating force across the intervening distance, functioning as a ranged attack with a thrown weapon using the wielder's highest base attack bonus. On a successful hit, the blade's cutting light deals 4d6+3 points of force damage to the target, with a threat range of 18-20 and a critical multiplier of &times;2. In addition, a creature struck by the cutting light must succeed at a DC 14 Reflex save or be blinded for 1d4 rounds."
 			],
 			"construction": "**Requirements** Craft Magic Arms and Armor, mage's sword, searing light; **Price** 33,930 gp"
 		},
@@ -10085,7 +10085,7 @@
 				"**Aura** strong conjuration and divination; **CL** 13th",
 				"**Slot** none; **Price** 48,535 gp; **Weight** 6 lbs.",
 				"",
-				"This +2 aberration-bane bastard sword is made of magically hardened bronze and has the special purpose of killing aberrations and creatures intrinsically tied to Xhamen-Dor (including seeded undead and the dormant Star Seed). Upianshe's spirit can sense such foes within 60 feet, her bane enchantment applies to them, and against them her critical hit multiplier increases to ??3. Finally, she can attempt Knowledge (dungeoneering) checks as though she had 5 ranks in the skill (total +13 bonus)."
+				"This +2 aberration-bane bastard sword is made of magically hardened bronze and has the special purpose of killing aberrations and creatures intrinsically tied to Xhamen-Dor (including seeded undead and the dormant Star Seed). Upianshe's spirit can sense such foes within 60 feet, her bane enchantment applies to them, and against them her critical hit multiplier increases to &times;3. Finally, she can attempt Knowledge (dungeoneering) checks as though she had 5 ranks in the skill (total +13 bonus)."
 			],
 			"construction": "Craft Magic Arms and Armor, detect aberration, summon monster I; **Price** 24,435 gp"
 		},

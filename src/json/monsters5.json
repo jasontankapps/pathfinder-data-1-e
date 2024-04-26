@@ -2975,8 +2975,8 @@
 			],
 			"offense": [
 				"**Speed** 20 ft.   ",
-				"**Melee** mwk handaxe +5 (1d4/x3)   ",
-				"**Ranged** mwk musket +8 (1d10/x4)   ",
+				"**Melee** mwk handaxe +5 (1d4/&times;3)   ",
+				"**Ranged** mwk musket +8 (1d10/&times;4)   ",
 				"**Special Attacks** grit (2), swarming"
 			],
 			"str": 11,
@@ -3031,7 +3031,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** mwk scimitar +7 (1d4+1/18-20)   ",
-				"**Ranged** mwk composite longbow +9 (1d6+1/x3)   ",
+				"**Ranged** mwk composite longbow +9 (1d6+1/&times;3)   ",
 				"**Special Attacks** combat style (archery), favored enemy (magical beasts +2), swarming"
 			],
 			"str": 12,
@@ -3221,7 +3221,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** +1 two-bladed sword +9/+4 (1d3+4/19-20), mwk two-bladed sword +9/+4 (1d6+1/19-20)   ",
-				"**Ranged** +1 composite longbow +13/+8 (1d6+3/x3)   ",
+				"**Ranged** +1 composite longbow +13/+8 (1d6+3/&times;3)   ",
 				"**Special Attacks** combat style (two-weapon), favored enemy (animals +2, humans +4), swarming"
 			],
 			"str": 14,
@@ -3830,7 +3830,7 @@
 			],
 			"offense": [
 				"**Speed** 50 ft., climb 30 ft.   ",
-				"**Melee** bite +17 (2d6+10/19-20/x3), 2 claws +17 (1d8+10)   ",
+				"**Melee** bite +17 (2d6+10/19-20/&times;3), 2 claws +17 (1d8+10)   ",
 				"**Space** 15 ft., **Reach** 15 ft.   ",
 				"**Special Attacks** bleed (1d6), pounce, rend (2 claws, 1d8+15)"
 			],
@@ -3855,7 +3855,7 @@
 				"**Treasure** none"
 			],
 			"special_abilities": [
-				"**Savage Bite (Ex)** A razormouth's bite threatens a critical hit on a 19-20, and on a confirmed critical hit deals x3 damage and 2d6 points of bleed damage."
+				"**Savage Bite (Ex)** A razormouth's bite threatens a critical hit on a 19-20, and on a confirmed critical hit deals &times;3 damage and 2d6 points of bleed damage."
 			],
 			"description": [
 				"Razormouths most often reside in mountainous areas or large canyons with steep cliffs. While most creatures would find such areas difficult to traverse, razormouths are especially mobile, being choice climbers that are able to leap from cliff faces to outcrops with singular alacrity. This exceptional mobility, along with a devastating pair of long, serrated fangs, make the fearsome razormouths unparalleled hunters, and few survive getting too close to their fangs."
@@ -3891,7 +3891,7 @@
 			],
 			"offense": [
 				"**Speed** 40 ft., fly 60 ft. (perfect)   ",
-				"**Melee** +3 scythe +27/+22/+17/+12 (2d6+13/19-20/x4 plus death touch)   ",
+				"**Melee** +3 scythe +27/+22/+17/+12 (2d6+13/19-20/&times;4 plus death touch)   ",
 				"**Space** 10 ft., **Reach** 15 ft.   ",
 				"**Spell-Like Abilities (CL 20th; concentration +29)   ",
 				"*Constant*-fly, foresight, true seeing   ",
@@ -3974,7 +3974,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** scythe +14/+9/+4 (2d4+3/x4 plus death touch)   ",
+				"**Melee** scythe +14/+9/+4 (2d4+3/&times;4 plus death touch)   ",
 				"**Special Attacks** fear cone (30 ft., DC 20)"
 			],
 			"str": 14,
@@ -4119,7 +4119,7 @@
 			],
 			"offense": [
 				"**Speed** 60 ft.   ",
-				"**Melee** Medium scythe +10 (2d4+10/x4), kick +4 (1d4+6)"
+				"**Melee** Medium scythe +10 (2d4+10/&times;4), kick +4 (1d4+6)"
 			],
 			"str": 18,
 			"dex": 19,
@@ -4947,7 +4947,7 @@
 			"offense": [
 				"**Speed** 50 ft., climb 30 ft.; booster jets   ",
 				"**Melee** 2 claws +28 (2d6+12/19-20)   ",
-				"**Ranged** 2 integrated chain guns +19 (8d6/x4)   ",
+				"**Ranged** 2 integrated chain guns +19 (8d6/&times;4)   ",
 				"**Space** 20 ft., **Reach** 20 ft.   ",
 				"**Special Attacks** combined arms, plasma lance, suppressing fire"
 			],
@@ -5358,8 +5358,8 @@
 			],
 			"offense": [
 				"**Speed** 20 ft.   ",
-				"**Melee** slam +9 (1d4+7) or mwk spear +10 (1d8+7/x3 plus 1d6 electricity)   ",
-				"**Ranged** mwk spear +6 (1d8+5/x3)"
+				"**Melee** slam +9 (1d4+7) or mwk spear +10 (1d8+7/&times;3 plus 1d6 electricity)   ",
+				"**Ranged** mwk spear +6 (1d8+5/&times;3)"
 			],
 			"str": 20,
 			"dex": 13,
@@ -5428,7 +5428,7 @@
 			"offense": [
 				"**Speed** 60 ft.   ",
 				"**Melee** adamantine chainsaw +29 (4d12+7/18-20), adamantine buzz saw +29 (2d12+7)   ",
-				"**Ranged** hypersonic rifle +27 (2d12/x3 plus stunned)   ",
+				"**Ranged** hypersonic rifle +27 (2d12/&times;3 plus stunned)   ",
 				"**Special Attacks** boosted charge, combined arms"
 			],
 			"str": 25,
@@ -6165,7 +6165,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** slam +7 (1d4+4) or rotary saw +8 (2d4+4/x3)"
+				"**Melee** slam +7 (1d4+4) or rotary saw +8 (2d4+4/&times;3)"
 			],
 			"str": 17,
 			"dex": 8,
@@ -7333,7 +7333,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** bite +4 (1d6+4)   ",
-				"**Ranged** longbow +3 (1d8/x3)   ",
+				"**Ranged** longbow +3 (1d8/&times;3)   ",
 				"**Special Attacks** favored enemy (humanoid [shapechanger] +2)"
 			],
 			"str": 16,
@@ -8867,7 +8867,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., swim 60 ft.   ",
-				"**Melee** 1 spear +4 (1d8+3/x3)   ",
+				"**Melee** 1 spear +4 (1d8+3/&times;3)   ",
 				"**Ranged** 1 light crossbow +5 (1d8/19-20)   ",
 				"**Special Attacks** blood frenzy   ",
 				"**Spell-Like Abilities (CL 5th; concentration +6)   ",
@@ -9008,8 +9008,8 @@
 			],
 			"offense": [
 				"**Speed** 40 ft., swim 60 ft.   ",
-				"**Melee** mwk harpoon +8 (1d8+6/x3), bite +2 (1d4+2)   ",
-				"**Ranged** mwk harpoon +6 (1d8+4/x3)   ",
+				"**Melee** mwk harpoon +8 (1d8+6/&times;3), bite +2 (1d4+2)   ",
+				"**Ranged** mwk harpoon +6 (1d8+4/&times;3)   ",
 				"**Special Attacks** blood frenzy, rage (8 rounds/day)"
 			],
 			"str": 19,
@@ -9124,7 +9124,7 @@
 			],
 			"offense": [
 				"**Speed** 5 ft., swim 80 ft.   ",
-				"**Melee** mwk longspear +8 (1d8+4/x3), bite +2 (1d6+3) or 2 claws +7 (1d4+3), bite +7 (1d6+3)   ",
+				"**Melee** mwk longspear +8 (1d8+4/&times;3), bite +2 (1d6+3) or 2 claws +7 (1d4+3), bite +7 (1d6+3)   ",
 				"**Ranged** mwk underwater heavy crossbow +8 (1d10/19-20)   ",
 				"**Special Attacks** blood frenzy, combat style (two-handed weapon), favored enemy (elves +2)"
 			],
@@ -9183,7 +9183,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., swim 60 ft.   ",
-				"**Melee** +1 spear +13/+8 (2d6+8/x3), bite +6 (1d8+5)   ",
+				"**Melee** +1 spear +13/+8 (2d6+8/&times;3), bite +6 (1d8+5)   ",
 				"**Ranged** mwk underwater heavy crossbow +6 (2d8/19-20)   ",
 				"**Special Attacks** blood frenzy, channel negative energy 5/day (DC 13, 4d6), destructive smite (+3, 8/day)   ",
 				"**Cleric Spells Prepared ** (CL 7th; concentration +12)   ",
@@ -9363,12 +9363,12 @@
 			],
 			"offense": [
 				"**Speed** 20 ft., swim 60 ft.   ",
-				"**Melee** lance of jousting +20/+15/+10 (1d8+8/19-20/x3), bite +17 (1d6+2), 2 claws +19 (1d4+5)   ",
+				"**Melee** lance of jousting +20/+15/+10 (1d8+8/19-20/&times;3), bite +17 (1d6+2), 2 claws +19 (1d4+5)   ",
 				"**Ranged** mwk underwater heavy crossbow +18 (1d10/19-20)   ",
 				"**Special Attacks** banner +3/+2, blood frenzy, cavalier's charge, challenge (+10, +3, 4/day)"
 			],
 			"tactics": [
-				"**Base Statistics** Without barkskin and heroism, the prince's statistics are AC 26, touch 14, flat-footed 23; Fort +14, Ref +11, Will +9; Melee lance of jousting +18/+13/+8 (1d8+8/19-20/x3), bite +15 (1d6+2), 2 claws +17 (1d4+5) or 4 claws +17 (1d4+5), bite +17 (1d6+5); Ranged mwk underwater heavy crossbow +16 (1d10/19-20); Skills Handle Animal +13, Knowledge (nobility) +14, Perception +16, Ride +13 (+16 with personal mount), Sense Motive +8, Swim +17."
+				"**Base Statistics** Without barkskin and heroism, the prince's statistics are AC 26, touch 14, flat-footed 23; Fort +14, Ref +11, Will +9; Melee lance of jousting +18/+13/+8 (1d8+8/19-20/&times;3), bite +15 (1d6+2), 2 claws +17 (1d4+5) or 4 claws +17 (1d4+5), bite +17 (1d6+5); Ranged mwk underwater heavy crossbow +16 (1d10/19-20); Skills Handle Animal +13, Knowledge (nobility) +14, Perception +16, Ride +13 (+16 with personal mount), Sense Motive +8, Swim +17."
 			],
 			"str": 20,
 			"dex": 16,
@@ -9629,7 +9629,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft.   ",
-				"**Melee** spear +11/+6 (1d8+4/x3 plus 1d6 fire), tail slap +6 (2d6+1 plus 1d6 fire and grab)   ",
+				"**Melee** spear +11/+6 (1d8+4/&times;3 plus 1d6 fire), tail slap +6 (2d6+1 plus 1d6 fire and grab)   ",
 				"**Space** 5 ft., **Reach** 5 ft. (10 ft. with tail)   ",
 				"**Special Attacks** constrict (2d6+4 plus 1d6 fire), heat"
 			],
@@ -9763,7 +9763,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** nine-ring broadsword +0 (1d8/x3) Occultist   ",
+				"**Melee** nine-ring broadsword +0 (1d8/&times;3) Occultist   ",
 				"**Spells Known ** (CL 1st; concentration +4)   ",
 				"*1st (2/day)*-disguise self, shocking grasp   ",
 				"*0 (at will)*-ghost sound (DC 13), telekinetic projectile Implements Evocation (rod, 2 points)-Resonant intense focus (+1); Focus energy ray (1d6), radiance (1 min.) Illusion (ring, 2 points)-Resonant distortion (10%); Focus minor figment (1 round)"
@@ -10318,7 +10318,7 @@
 			"offense": [
 				"**Speed** 40 ft.   ",
 				"**Melee** dagger +6 (1d4+2/19-20), horns +1 (1d6+1)   ",
-				"**Ranged** short bow +6 (1d6/x3)   ",
+				"**Ranged** short bow +6 (1d6/&times;3)   ",
 				"**Special Attacks** pipes   ",
 				"**Spell-Like Abilities (CL 8th)   ",
 				"*At will*-charm person (DC 15), dancing lights, ghost sound (DC 14), sleep (DC 15), suggestion (DC 17)   ",
@@ -10382,7 +10382,7 @@
 			"offense": [
 				"**Speed** 40 ft.   ",
 				"**Melee** dagger +6 (1d4+2/19-20), horns +1 (1d6+1)   ",
-				"**Ranged** +1 longbow +11 (1d8+1/x3)   ",
+				"**Ranged** +1 longbow +11 (1d8+1/&times;3)   ",
 				"**Special Attacks** pipes (DC 19)   ",
 				"**Spell-Like Abilities (CL 8th; concentration +13)   ",
 				"*At will*-dancing lights (DC 15), deep slumber (DC 18), ghost sound (DC 15), suggestion (DC 18)   ",
@@ -13056,7 +13056,7 @@
 			"offense": [
 				"**Speed** 40 ft.   ",
 				"**Melee** +5 morningstar +28/+28/+23/+18 (1d8+20/19-20), hoof +17 (2d6+5)   ",
-				"**Ranged** +5 composite longbow +27/+27/+22/+17 (1d8+13/x3)   ",
+				"**Ranged** +5 composite longbow +27/+27/+22/+17 (1d8+13/&times;3)   ",
 				"**Special Attacks** dramatic flourish, impossible verisimilitude, thyrsus   ",
 				"**Spell-Like Abilities (CL 21st; concentration +30)   ",
 				"*Constant*-haste, speak with animals, stone tell, true seeing   ",
@@ -13596,7 +13596,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** mwk scimitar +14/+9 (1d6+6/18-20), bite +8 (1d6+3 plus poison)   ",
-				"**Ranged** +1 composite shortbow +12/+7 (1d6+7/x3)   ",
+				"**Ranged** +1 composite shortbow +12/+7 (1d6+7/&times;3)   ",
 				"**Special Attacks** combat style (archery), favored enemy (humans +2)"
 			],
 			"tactics": [
@@ -13788,7 +13788,7 @@
 			"offense": [
 				"**Speed** 20 ft.   ",
 				"**Melee** +2 corrosive scimitar +17/+12/+7 (1d6+5/15-20 plus 1d6 acid), bite +9 (1d6+1 plus poison)   ",
-				"**Ranged** mwk composite longbow +19/+14/+9 (1d8+4/x3)   ",
+				"**Ranged** mwk composite longbow +19/+14/+9 (1d8+4/&times;3)   ",
 				"**Special Attacks** improved spell combat, spell combat (-2 attack, +2 concentration), spellstrike   ",
 				"**Spell-Like Abilities (CL 4th; concentration +7)   ",
 				"*At will*-disguise self (DC 14, humanoid form only), ventriloquism (DC 14)   ",
@@ -15944,7 +15944,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** +1 battleaxe +18/+13/+8 (2d6+10/x3), +1 battleaxe +18/+13 (2d6+10/x3)   ",
+				"**Melee** +1 battleaxe +18/+13/+8 (2d6+10/&times;3), +1 battleaxe +18/+13 (2d6+10/&times;3)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** festering heads   ",
 				"**Spell-Like Abilities (CL 8th; concentration +11)   ",
@@ -16012,7 +16012,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., fly 40 ft. (perfect)   ",
-				"**Melee** +3 axiomatic scythe +30/+25/+20/+15 (2d6+10/x4), 2 wings +21 (1d8+2)   ",
+				"**Melee** +3 axiomatic scythe +30/+25/+20/+15 (2d6+10/&times;4), 2 wings +21 (1d8+2)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** destroy soul   ",
 				"**Spell-Like Abilities (CL 20th; concentration +29)   ",
@@ -16318,8 +16318,8 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., swim 30 ft.   ",
-				"**Melee** mwk spear +11/+6 (2d6+6 plus salted wound/x3) or 2 slams +10 (1d6+4 plus salted wound)   ",
-				"**Ranged** mwk spear +12 (2d6+4 plus salted wound/x3)   ",
+				"**Melee** mwk spear +11/+6 (2d6+6 plus salted wound/&times;3) or 2 slams +10 (1d6+4 plus salted wound)   ",
+				"**Ranged** mwk spear +12 (2d6+4 plus salted wound/&times;3)   ",
 				"**Space** 10 ft., **Reach** 10 ft."
 			],
 			"str": 19,
@@ -16558,7 +16558,7 @@
 			"offense": [
 				"**Speed** 40 ft. (30 ft. in armor)   ",
 				"**Melee** longsword +5 (2d6+5/19-20), longsword +5 (2d6+2/19-20), 2 slams +4 (1d6+2)   ",
-				"**Ranged** shobhad longrifle +6 (2d6/x4) or 2 javelins +5 (1d8+5)   ",
+				"**Ranged** shobhad longrifle +6 (2d6/&times;4) or 2 javelins +5 (1d8+5)   ",
 				"**Space** 10 ft., **Reach** 10 ft."
 			],
 			"str": 20,
@@ -17113,7 +17113,7 @@
 			"offense": [
 				"**Speed** 30 ft., fly 60 ft. (perfect)   ",
 				"**Melee** mwk trident +6 (1d8+1)   ",
-				"**Ranged** mwk longbow +9 (1d8/x3)   ",
+				"**Ranged** mwk longbow +9 (1d8/&times;3)   ",
 				"**Special Attacks** astral recoil   ",
 				"**Spell-Like Abilities (CL 3rd; concentration +1)   ",
 				"*3/day*-floating disk (see below), shield, spiritual weapon"
@@ -17508,7 +17508,7 @@
 			],
 			"offense": [
 				"**Speed** 40 ft.   ",
-				"**Melee** ranseur +3 (2d4+1/x3), bite -2 (1d6 plus sinful bite) or bite +3 (1d6+1 plus sinful bite), 2 claws +3 (1d4+1)"
+				"**Melee** ranseur +3 (2d4+1/&times;3), bite -2 (1d6 plus sinful bite) or bite +3 (1d6+1 plus sinful bite), 2 claws +3 (1d4+1)"
 			],
 			"str": 13,
 			"dex": 13,
@@ -17957,7 +17957,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** gore +3 (1d4+1)   ",
-				"**Ranged** composite longbow +3 (1d6+1/x3)   ",
+				"**Ranged** composite longbow +3 (1d6+1/&times;3)   ",
 				"**Special Attacks** nature's traps"
 			],
 			"str": 12,
@@ -18606,7 +18606,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** 2 claws +4 (1d4+3)   ",
-				"**Ranged** longbow +3 (1d8/x3)   ",
+				"**Ranged** longbow +3 (1d8/&times;3)   ",
 				"**Special Attacks** favored enemy (human +2)   ",
 				"**Spell-Like Abilities (CL 1st; concentration +3)   ",
 				"*1/day*-speak with animals"
@@ -20097,7 +20097,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft., fly 60 ft. (good)   ",
-				"**Melee** bite +6 (1d8+3/x3 plus bleed), 2 claws +6 (1d4+3), sucking tentacles +1 (1d4+1 plus grab)   ",
+				"**Melee** bite +6 (1d8+3/&times;3 plus bleed), 2 claws +6 (1d4+3), sucking tentacles +1 (1d4+1 plus grab)   ",
 				"**Special Attacks** aerial charge, bleed (1d6), sucking tentacles"
 			],
 			"str": 17,
@@ -21091,7 +21091,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** spear +10 (1d8+4/x3) or 2 claws +10 (1d4+4)"
+				"**Melee** spear +10 (1d8+4/&times;3) or 2 claws +10 (1d4+4)"
 			],
 			"str": 19,
 			"dex": 14,
@@ -21161,7 +21161,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., climb 30 ft.   ",
-				"**Melee** bite +17 (1d8+8/19-20/x3), 4 tentacles +16 (1d6+4 plus grab)   ",
+				"**Melee** bite +17 (1d8+8/19-20/&times;3), 4 tentacles +16 (1d6+4 plus grab)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** blood drain (1d4 Con), devastation"
 			],
@@ -21423,7 +21423,7 @@
 				"| d% | Effect |",
 				"| --- | --- |",
 				"| 01-40 | The spell has no effect. |",
-				"| 41-70 | The Spellscar fext emits a burst of negative energy, dealing a number of points of negative energy damage equal to 1d6 x the spell level of the triggering spell to all creatures in a 30-footradius burst. |",
+				"| 41-70 | The Spellscar fext emits a burst of negative energy, dealing a number of points of negative energy damage equal to 1d6 &times; the spell level of the triggering spell to all creatures in a 30-footradius burst. |",
 				"| 71-90 | The Spellscar fext instantly switches places with the spellcaster that targeted the fext with the triggering spell as though by dimension door. |",
 				"| 91-100 | The spell is immediately turned back on its caster via spell turning. |",
 				"",
@@ -22594,7 +22594,7 @@
 			],
 			"offense": [
 				"**Speed** 40 ft., fly 60 ft. (good)   ",
-				"**Melee** +2 dancing glaive +24/+19/+14/+9 (2d8+8/x3)   ",
+				"**Melee** +2 dancing glaive +24/+19/+14/+9 (2d8+8/&times;3)   ",
 				"**Ranged** stunning bolt +21 (1d8 plus stun)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Spell-Like Abilities (CL 18th; concentration +24)   ",
@@ -23001,7 +23001,7 @@
 			"offense": [
 				"**Speed** 15 ft., fly 60 ft. (perfect)   ",
 				"**Melee** short sword +0 (1d2-4/19-20)   ",
-				"**Ranged** short bow +7 (1d2-4/x3)   ",
+				"**Ranged** short bow +7 (1d2-4/&times;3)   ",
 				"**Space** 1 ft., **Reach** 0 ft.   ",
 				"**Spell-Like Abilities (CL 5th; concentration +5)   ",
 				"*Constant*-detect evil, detect good   ",
@@ -23834,7 +23834,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., fly 60 ft. (average)   ",
-				"**Melee** spear +2 (1d8+1/x3)   ",
+				"**Melee** spear +2 (1d8+1/&times;3)   ",
 				"**Special Attacks** hatred"
 			],
 			"str": 12,
@@ -23897,8 +23897,8 @@
 			],
 			"offense": [
 				"**Speed** 20 ft., fly 45 ft. (average)   ",
-				"**Melee** +1 longspear +13/+8 (1d8+4/x3), 2 wings +7 (1d6+1)   ",
-				"**Ranged** mwk composite longbow +17/+12 (1d8+2/x3)   ",
+				"**Melee** +1 longspear +13/+8 (1d8+4/&times;3), 2 wings +7 (1d6+1)   ",
+				"**Ranged** mwk composite longbow +17/+12 (1d8+2/&times;3)   ",
 				"**Special Attacks** hatred, sneak attack +3d6, studied target +3 (3 targets)"
 			],
 			"str": 14,
@@ -23953,7 +23953,7 @@
 			"offense": [
 				"**Speed** 30 ft., fly 60 ft. (average)   ",
 				"**Melee** shortsword +4 (1d6+1/19-20) or dagger +4 (1d4+1/19-20)   ",
-				"**Ranged** shortbow +6 (1d6/x3)   ",
+				"**Ranged** shortbow +6 (1d6/&times;3)   ",
 				"**Special Attacks** hatred, studied combat (+2, 2 rounds), studied strike +1d6 Investigator Extracts Prepared (CL 4th; concentration +6) 2nd-detect thoughts (DC 14), invisibility 1st-disguise self, expeditious retreat, keen senses (DC 13), shield"
 			],
 			"str": 12,
@@ -24070,7 +24070,7 @@
 			],
 			"offense": [
 				"**Speed** 0 ft., fly 60 ft. (average)   ",
-				"**Melee** mwk spear +5 (1d6/x3)   ",
+				"**Melee** mwk spear +5 (1d6/&times;3)   ",
 				"**Ranged** mwk sling +7 (1d4)   ",
 				"**Special Attacks** bardic performance 16 rounds/day (countersong, distraction, fascinate [DC 15], inspire competence +2, inspire courage +2, suggestion [DC 15]), hatred   ",
 				"**Bard Spells Known ** (CL 6th; concentration +8)   ",
@@ -24558,7 +24558,7 @@
 			"offense": [
 				"**Speed** 20 ft. (30 ft. without armor)   ",
 				"**Melee** scimitar +4 (1d6+3/18-20)   ",
-				"**Ranged** shortbow +2 (1d6/x3)   ",
+				"**Ranged** shortbow +2 (1d6/&times;3)   ",
 				"**Special Attacks** elemental assault, favored enemy (humans +2)"
 			],
 			"str": 15,
@@ -24864,8 +24864,8 @@
 			],
 			"offense": [
 				"**Speed** 50 ft.   ",
-				"**Melee** mwk lance +22/+17/+12 (3d6+13/x3), gore +21 (2d6+9), 2 hooves +16 (1d8+4)   ",
-				"**Ranged** mwk composite longbow +16/+11/+6 (3d6+9/x3)   ",
+				"**Melee** mwk lance +22/+17/+12 (3d6+13/&times;3), gore +21 (2d6+9), 2 hooves +16 (1d8+4)   ",
+				"**Ranged** mwk composite longbow +16/+11/+6 (3d6+9/&times;3)   ",
 				"**Space** 15 ft., **Reach** 10 ft. (20 ft. with lance)   ",
 				"**Special Attacks** natural jouster, thunderous trample, trample (1d8+13, DC 26)"
 			],
@@ -24928,7 +24928,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft. (15 ft. in armor)   ",
-				"**Melee** heavy pick +3 (1d4+1/x4)   ",
+				"**Melee** heavy pick +3 (1d4+1/&times;4)   ",
 				"**Ranged** light crossbow +4 (1d6/19-20)   ",
 				"**Special Attacks** favored enemy (dwarf +2), +1 to attack vs. dwarven and reptilian humanoids   ",
 				"**Spell-Like Abilities (CL 1st)   ",
@@ -25110,7 +25110,7 @@
 			"offense": [
 				"**Speed** 30 ft., fly 40 ft. (good)   ",
 				"**Melee** mwk rapier +11 (1d6+1/18-20)   ",
-				"**Ranged** longbow +10 (1d8/x3)   ",
+				"**Ranged** longbow +10 (1d8/&times;3)   ",
 				"**Spell-Like Abilities (CL 10th; concentration +12)   ",
 				"*At will*-dancing lights   ",
 				"*1/day*-confusion (DC 16), deep slumber (DC 15), entangle (DC 13), glitterdust (DC 14), major image (DC 15)"
@@ -25837,7 +25837,7 @@
 				"",
 				"**Slippery (Ex)** A targotha secretes a thick mucus that allows it to move gracefully through viscous fluids like tar and oil. This mucus dissolves away adhesives (such as sovereign glue, tanglefoot bags, and webs) in 1d4 rounds. Additionally, all combat maneuver checks to grapple a targotha automatically fail, and the targotha automatically succeeds at any combat maneuver checks and Escape Artist checks to escape a grapple or a pin.",
 				"",
-				"**Tail Slap (Ex)** A targotha adds 1-1/2 x its Strength modifier to damage rolls for its tail slap. A targotha can attempt a bull rush combat maneuver check against a creature struck by its tail slap as a free action without provoking attacks of opportunity. The targotha can't move as part of this bull rush.",
+				"**Tail Slap (Ex)** A targotha adds 1-1/2 &times; its Strength modifier to damage rolls for its tail slap. A targotha can attempt a bull rush combat maneuver check against a creature struck by its tail slap as a free action without provoking attacks of opportunity. The targotha can't move as part of this bull rush.",
 				"",
 				"**Volatile Breath (Ex)** A targotha can breathe a 60-foot cone of flammable gas as a breath weapon. As a swift action, it can ignite the gas by using its jolt ability. When ignited, the gas explodes, dealing 15d6 points of fire damage to all creatures in the area (Reflex DC 23 half). If not ignited, the gas lingers in the area until dissipating at the start of the targotha's next turn. All creatures that breathe this gas in are confused for 1d4 rounds (Fortitude DC 23 negates). The save DCs are Constitution-based and have a -5 racial penalty."
 			],
@@ -26589,7 +26589,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** dagger +3 (1d4+1/19-20), bite -2 (1d3)   ",
-				"**Ranged** short bow +3 (1d6/x3)   ",
+				"**Ranged** short bow +3 (1d6/&times;3)   ",
 				"**Special Attacks** sneak attack +1d6"
 			],
 			"str": 12,
@@ -26903,7 +26903,7 @@
 			],
 			"offense": [
 				"**Speed** 50 ft., swim 50 ft.   ",
-				"**Melee** 2 claws +19 (2d6+6/x4), sting +17 (1d6+3 plus poison)   ",
+				"**Melee** 2 claws +19 (2d6+6/&times;4), sting +17 (1d6+3 plus poison)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** poison, pounce"
 			],
@@ -27898,7 +27898,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., fly 60 ft. (good)   ",
-				"**Melee** mwk glaive +13/+8 (1d10+6/x3), sting +10 (1d8+2 plus poison)   ",
+				"**Melee** mwk glaive +13/+8 (1d10+6/&times;3), sting +10 (1d8+2 plus poison)   ",
 				"**Special Attacks** inspiring dance, poison   ",
 				"**Spell-Like Abilities (CL 8th; concentration +11)   ",
 				"*Constant*-detect secret doors   ",
@@ -28116,7 +28116,7 @@
 			"offense": [
 				"**Speed** 30 ft., fly 60 ft. (good)   ",
 				"**Melee** sting +10 (1d8+7 plus poison)   ",
-				"**Ranged** composite longbow +8 (1d8+5/x3 plus poison) or Rapid Shot +6/+6 (1d8+5/x3 plus poison)   ",
+				"**Ranged** composite longbow +8 (1d8+5/&times;3 plus poison) or Rapid Shot +6/+6 (1d8+5/&times;3 plus poison)   ",
 				"**Special Attacks** merope consumption"
 			],
 			"str": 20,
@@ -28289,7 +28289,7 @@
 			"special_abilities": [
 				"**Thunderbolt (Su)** A thunderbird can fire a ray of thunder and lightning from its outspread wings as a standard action. This attack has a range of 200 feet with no range increment, and requires a ranged touch attack to hit. A creature critically hit by a thunderbolt is stunned and deafened for 1 round if it fails a DC 22 Fortitude save. The save DC is Constitution-based.",
 				"",
-				"**Storm Aura (Su)** A thunderbird is surrounded by a 100-foot-radius spread of severe winds that blow out from the center, dissipating swiftly at the limit of the aura's range. In this area, ranged weapons (but not siege weapons) take a -4 penalty on attack rolls, Fly checks are made at a -4 penalty, and exposed flames are extinguished. Small creatures must make a DC 10 Strength check (if on the ground) or a DC 20 Fly check to move toward the thunderbird, while Tiny or smaller creatures can be knocked backward (1d4 x 10 feet if they are on the ground and fail a DC 15 Strength check, or 2d6 x 10 feet if they are flying and fail a DC 25 Fly check). Creatures on the ground that are pushed back take 1d4 points of nonlethal damage per 10 feet, and flying creatures that are pushed back take 2d6 points of nonlethal damage regardless of the distance they are pushed. In addition, once every 1d4 rounds, a bolt of lightning strikes a random creature (other than the thunderbird) within the area of its storm aura. This bolt of lightning deals 12d6 points of electricity damage (DC 22 Reflex halves). The save DC for the lightning bolt is Constitution-based, while those for resisting the wind effects are fixed.",
+				"**Storm Aura (Su)** A thunderbird is surrounded by a 100-foot-radius spread of severe winds that blow out from the center, dissipating swiftly at the limit of the aura's range. In this area, ranged weapons (but not siege weapons) take a -4 penalty on attack rolls, Fly checks are made at a -4 penalty, and exposed flames are extinguished. Small creatures must make a DC 10 Strength check (if on the ground) or a DC 20 Fly check to move toward the thunderbird, while Tiny or smaller creatures can be knocked backward (1d4 &times; 10 feet if they are on the ground and fail a DC 15 Strength check, or 2d6 &times; 10 feet if they are flying and fail a DC 25 Fly check). Creatures on the ground that are pushed back take 1d4 points of nonlethal damage per 10 feet, and flying creatures that are pushed back take 2d6 points of nonlethal damage regardless of the distance they are pushed. In addition, once every 1d4 rounds, a bolt of lightning strikes a random creature (other than the thunderbird) within the area of its storm aura. This bolt of lightning deals 12d6 points of electricity damage (DC 22 Reflex halves). The save DC for the lightning bolt is Constitution-based, while those for resisting the wind effects are fixed.",
 				"",
 				"**Stormsight (Ex)** A thunderbird ignores all vision penalties and concealment from weather effects, including those created by fog cloud, obscuring mist, and similar spells."
 			],
@@ -29269,7 +29269,7 @@
 			],
 			"offense": [
 				"**Speed** 60 ft. (40 ft. in armor)   ",
-				"**Melee** +3 unholy battleaxe +37/+32/+27/+22 (6d6+22/19-20/x3), claw +29 (2d8+9) or 2 claws +34 (2d8+19)   ",
+				"**Melee** +3 unholy battleaxe +37/+32/+27/+22 (6d6+22/19-20/&times;3), claw +29 (2d8+9) or 2 claws +34 (2d8+19)   ",
 				"**Ranged** rock +16/+11/+6/+1 (2d6+19)   ",
 				"**Space** 30 ft., **Reach** 30 ft.   ",
 				"**Special Attacks** godslayer, rock-throwing (100 ft.), trample (2d8+28, DC 40)   ",
@@ -29851,7 +29851,7 @@
 			],
 			"offense": [
 				"**Speed** 15 ft., fly 60 ft. (perfect)   ",
-				"**Melee** +1 pliers +8 (1d4-2/19-20/x2), bite +7 (1d4-3 plus paralysis)   ",
+				"**Melee** +1 pliers +8 (1d4-2/19-20/&times;2), bite +7 (1d4-3 plus paralysis)   ",
 				"**Space** 1 ft., **Reach** 0 ft. (5 ft. with pliers)   ",
 				"**Special Attacks** death throes, paralysis (1d3 rounds, DC 11), pliers, tricky thief   ",
 				"**Spell-Like Abilities (CL 5th; concentration +7)   ",
@@ -30594,7 +30594,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** socket bayonet +9/+4 (1d6+3) or slam +9 (1d6+4)   ",
-				"**Ranged** Mosin-Nagant M1891 rifle +12/+7 (1d10+6/x4) or M1914 concussion grenade +10 (3d6)   ",
+				"**Ranged** Mosin-Nagant M1891 rifle +12/+7 (1d10+6/&times;4) or M1914 concussion grenade +10 (3d6)   ",
 				"**Special Attacks** trench warfare (rifle), weapon training (firearms +1)"
 			],
 			"str": 17,
@@ -30658,8 +30658,8 @@
 			],
 			"offense": [
 				"**Speed** 20 ft.   ",
-				"**Melee** lance +2 (1d8+1/x3) or longsword +2 (1d8+1/19-20)   ",
-				"**Ranged** composite longbow +3 (1d8+1/x3)   ",
+				"**Melee** lance +2 (1d8+1/&times;3) or longsword +2 (1d8+1/19-20)   ",
+				"**Ranged** composite longbow +3 (1d8+1/&times;3)   ",
 				"**Special Attacks** favored enemy (dragons +2)"
 			],
 			"str": 13,
@@ -30934,7 +30934,7 @@
 			"offense": [
 				"**Speed** 45 ft.   ",
 				"**Melee** bite +11 (1d6+7 plus trip), 2 claws +12 (1d4+7)   ",
-				"**Ranged** composite shortbow +7 (1d8+7/x3)   ",
+				"**Ranged** composite shortbow +7 (1d8+7/&times;3)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** combat style (natural weapon), favored enemy (humans +2)"
 			],
@@ -31143,7 +31143,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** mwk lance +13/+8 (1d8+5/x3), bite +6 (1d4+2), claw +6 (1d4+2)   ",
+				"**Melee** mwk lance +13/+8 (1d8+5/&times;3), bite +6 (1d4+2), claw +6 (1d4+2)   ",
 				"**Ranged** javelin +9/+4 (1d6+5)   ",
 				"**Special Attacks** weapon training (spears +1)"
 			],
@@ -31200,7 +31200,7 @@
 			],
 			"offense": [
 				"**Speed** 50 ft.   ",
-				"**Melee** +1 greataxe +15/+10 (1d12+8/x3), +1 bite +10 (1d4+4) or +1 bite +15 (1d4+8), 2 +1 claws +15 (1d4+8)   ",
+				"**Melee** +1 greataxe +15/+10 (1d12+8/&times;3), +1 bite +10 (1d4+4) or +1 bite +15 (1d4+8), 2 +1 claws +15 (1d4+8)   ",
 				"**Ranged** javelin +7 (1d6+7)   ",
 				"**Special Attacks** fire bolt (1d6+3 fire, 6/day), rage (7 rounds/day), rage powers (moment of clarity), wild shape 1/day (can adopt ooze form but not plant form)   ",
 				"**Druid Spells Prepared ** (CL 6th; concentration +9)   ",
@@ -31213,7 +31213,7 @@
 			"tactics": [
 				"**Before Combat** The chieftain casts bull's strength and greater magic fang on both himself and one ally, then casts barkskin on himself.   ",
 				"**During Combat** While his enemies are still at range, the chieftain casts swarm of fangs, stone call, and other attack spells. When cornered in melee, he rages and attacks with his greataxe.   ",
-				"**Base Statistics** When he's not raging, and without barkskin, bull's strength, and greater magic fang, the chieftain's statistics are AC 20, touch 13, flat-footed 20; hp 84; Fort +12, Will +8; Melee +1 greataxe +13/+8 (1d12+6/x3), bite +7 (1d4+2) or bite +12 (1d4+5), 2 claws +12 (1d4+5); Ranged javelin +7 (1d6+7); Str 16, Con 13; CMB +12, CMD 22."
+				"**Base Statistics** When he's not raging, and without barkskin, bull's strength, and greater magic fang, the chieftain's statistics are AC 20, touch 13, flat-footed 20; hp 84; Fort +12, Will +8; Melee +1 greataxe +13/+8 (1d12+6/&times;3), bite +7 (1d4+2) or bite +12 (1d4+5), 2 claws +12 (1d4+5); Ranged javelin +7 (1d6+7); Str 16, Con 13; CMB +12, CMD 22."
 			],
 			"str": 24,
 			"dex": 11,
@@ -31509,7 +31509,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft.   ",
-				"**Melee** +1 battleaxe +15/+10 (1d8+6/x3), bite +8 (1d4+2), claw +8 (1d4+2) or bite +13 (1d4+5), 2 claws +13 (1d4+5)   ",
+				"**Melee** +1 battleaxe +15/+10 (1d8+6/&times;3), bite +8 (1d4+2), claw +8 (1d4+2) or bite +13 (1d4+5), 2 claws +13 (1d4+5)   ",
 				"**Ranged** javelin +10/+5 (1d6+5)   ",
 				"**Special Attacks** channel negative energy 5/day (DC 15, 4d6), fury of the Abyss (+3, 8/day)   ",
 				"**Spell-Like Abilities (CL 7th; concentration +12)   ",
@@ -33413,7 +33413,7 @@
 				"",
 				"Holy Weapons (Su): Twice per day as a swift action, the troop gains a +20 bonus on troop and volley damage rolls against evil creatures, and such attacks are considered good and magic for the purpose of bypassing damage reduction. This effect lasts for 6 rounds.",
 				"",
-				"Knights Inheritor Troop (CR 15): This unit includes a handful of mounted knights inheritor among its number, each equipped with a lance. A knights inheritor troop has a speed of 40 feet and reach of 10 feet. The troop deals 3 x its troop damage if it moves at least 10 feet before making a troop attack.",
+				"Knights Inheritor Troop (CR 15): This unit includes a handful of mounted knights inheritor among its number, each equipped with a lance. A knights inheritor troop has a speed of 40 feet and reach of 10 feet. The troop deals 3 &times; its troop damage if it moves at least 10 feet before making a troop attack.",
 				"",
 				"Rassophore Troop (CR 15): This troop includes several rassophores, arcane spellcasters dedicated to the Glorious Reclamation, who provide magical support to their fellow soldiers. The rassophores cast flame arrow on the ammunition of the other members of the troop, which adds 1d6 points of fire damage to the troop's volley attack. The rassophores also augment their allies' defenses, granting a +2 enhancement bonus to the troop's AC and fire resistance 10.",
 				"",
@@ -33993,12 +33993,12 @@
 			],
 			"offense": [
 				"**Speed** 40 ft., burrow 20 ft.   ",
-				"**Melee** warhammer +7 (2d6+7/x3)   ",
+				"**Melee** warhammer +7 (2d6+7/&times;3)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** frenzy, rage (6 rounds/day)"
 			],
 			"tactics": [
-				"**Base Statistics** When not raging, the trox's statistics are AC 12, touch 10, flat-footed 11; hp 15; Fort +4, Will +0; warhammer +5 (2d6+5/x3); Str 21, Con 14; CMB +7, CMD 18; Skills Climb +9."
+				"**Base Statistics** When not raging, the trox's statistics are AC 12, touch 10, flat-footed 11; hp 15; Fort +4, Will +0; warhammer +5 (2d6+5/&times;3); Str 21, Con 14; CMB +7, CMD 18; Skills Climb +9."
 			],
 			"str": 25,
 			"dex": 13,
@@ -34704,7 +34704,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** spear +3 (1d4-1/x3) or 2 claws +7 (1d4-1)   ",
+				"**Melee** spear +3 (1d4-1/&times;3) or 2 claws +7 (1d4-1)   ",
 				"**Space** 2-1/2 ft., **Reach** 0 ft. (5 ft. with spear)   ",
 				"**Special Attacks** sneak attack +2d6, splinterspray"
 			],
@@ -35204,7 +35204,7 @@
 			"offense": [
 				"**Speed** 40 ft.   ",
 				"**Melee** dagger +7 (1d4+4/19-20), 2 unarmed strikes +7 (1d3+2 nonlethal)   ",
-				"**Ranged** shortbow +7 (1d6/x3)"
+				"**Ranged** shortbow +7 (1d6/&times;3)"
 			],
 			"str": 18,
 			"dex": 15,
@@ -35454,7 +35454,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., swim 30 ft.   ",
-				"**Melee** mwk falcata +9 (1d8+5/19-20/x3 plus nausea) or slam +7 (1d10+5 plus nausea)   ",
+				"**Melee** mwk falcata +9 (1d8+5/19-20/&times;3 plus nausea) or slam +7 (1d10+5 plus nausea)   ",
 				"**Special Attacks** sneak attack +1d6"
 			],
 			"str": 21,
@@ -35803,7 +35803,7 @@
 				"- Fear: A creature hit by a fear unfettered phantom's slam attack must succeed at a DC 13 Will saving throw or become shaken for 1d4 rounds.",
 				"- Hatred: A hatred unfettered phantom gains a +1 bonus on attack rolls and damage rolls with its slam attack against the creature that most recently harmed it.",
 				"- Jealousy: A jealousy unfettered phantom gains sneak attack +1d6 when using its slam attack.",
-				"- Zeal: A zeal unfettered phantom's slam attack has a critical threat range of 19-20 and a critical multiplier of x3."
+				"- Zeal: A zeal unfettered phantom's slam attack has a critical threat range of 19-20 and a critical multiplier of &times;3."
 			],
 			"description": [
 				"Willful fugitives of the Negative Energy Plane's dread gravity, phantoms are escaped souls of humanoid creatures in desperate search of a psychically attuned being with whom to merge-such a merger creates a spiritualist. Every phantom harbors a strong emotion that tears it from the normal path of souls seeking final judgment and reward. This dominant emotion empowers the phantom's slam attack and can manifest in more potent forms when this creature merges with a spiritualist, but it also serves as a weight that drags the phantom into the Ethereal Plane and toward the Negative Energy Plane. Until an unfettered phantom finds a refuge, it is a frantic and shifting thing, a desperate creature of raw emotion and need."
@@ -36115,7 +36115,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** rhoka sword +8 (1d8+6/18-20), bite +2 (1d4+2 plus 2 Str) or bite +7 (1d4+4 plus 2 Str)   ",
-				"**Ranged** composite longbow +4 (1d8+4/x3)   ",
+				"**Ranged** composite longbow +4 (1d8+4/&times;3)   ",
 				"**Special Attacks** blood drain (1 Con)   ",
 				"**Spell-Like Abilities (CL 3rd; concentration +5)   ",
 				"*At will*-feather fall   ",
@@ -36383,8 +36383,8 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** +1 rhoka sword +18/+13 (1d8+8/18-20), bite +12 (1d4+4) or mwk glaive +18/+13 (1d10+10/x3)   ",
-				"**Ranged** +1 composite shortbow +14/+9 (1d6+8/x3)   ",
+				"**Melee** +1 rhoka sword +18/+13 (1d8+8/18-20), bite +12 (1d4+4) or mwk glaive +18/+13 (1d10+10/&times;3)   ",
+				"**Ranged** +1 composite shortbow +14/+9 (1d6+8/&times;3)   ",
 				"**Special Attacks** banner +2, blood drain (1 Con), braggart, cavalier's charge, challenge 3/day (+7 damage), Strength damage, tactician 2/day (Outflank)   ",
 				"**Spell-Like Abilities (CL 3rd; concentration +6)   ",
 				"*At will*-feather fall   ",
@@ -36590,8 +36590,8 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., fly 100 ft. (perfect)   ",
-				"**Melee** +2 returning spear +23/+18/+13/+8 (1d8+8/x3)   ",
-				"**Ranged** +2 returning spear +22 (1d8+6/x3)   ",
+				"**Melee** +2 returning spear +23/+18/+13/+8 (1d8+8/&times;3)   ",
+				"**Ranged** +2 returning spear +22 (1d8+6/&times;3)   ",
 				"**Spell-Like Abilities (CL 12th; concentration +18)   ",
 				"*Constant*-deathwatch, tongues   ",
 				"*At will*-aid, death ward, gentle repose, plane shift (self and mount only)   ",
@@ -36662,7 +36662,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** mwk rapier +7 (1d6+1/18-20), mwk rapier +7 (1d6/18-20)   ",
-				"**Ranged** mwk composite longbow +9 (1d8+2/x3)   ",
+				"**Ranged** mwk composite longbow +9 (1d8+2/&times;3)   ",
 				"**Special Attacks** combat style (two-weapon), favored enemy (humans +2)   ",
 				"**Ranger Spells Prepared ** (CL 1st; concentration +2)   ",
 				"*1st*-entangle (DC 12)"
@@ -36904,13 +36904,13 @@
 			],
 			"offense": [
 				"**Speed** 40 ft.   ",
-				"**Melee** +1 greataxe +20/+15 (1d12+16/x3), bite +14 (1d4+5 plus energy drain), slam +15 (1d4+5 plus energy drain)   ",
+				"**Melee** +1 greataxe +20/+15 (1d12+16/&times;3), bite +14 (1d4+5 plus energy drain), slam +15 (1d4+5 plus energy drain)   ",
 				"**Special Attacks** blood drain, children of the night, create spawn, dominate (DC 20), energy drain (2 levels, DC 20), rage (24 rounds/day), rage powers (animal fury, bleeding blow, no escape, powerful blow +3)"
 			],
 			"tactics": [
 				"**Before Combat** The vampire savage drinks one or more of his potions as appropriate to the upcoming battle.   ",
 				"**During Combat** The vampire savage rages and makes full attacks against his opponents, grappling an opponent and draining blood if he has an opportunity to do so.   ",
-				"**Base Statistics** When he's not raging, the savage's statistics are AC 23, touch 16, flat-footed 18; hp 118; Fort +11, Will +6; Melee +1 greataxe +18/+13 (1d12+13/x3), slam +13 (1d4+4 plus energy drain), bite +12 (1d4+4 plus energy drain); Str 26, Cha 18; CMB +17 (+21 bull rush); CMD 33 (33 vs. bull rush)."
+				"**Base Statistics** When he's not raging, the savage's statistics are AC 23, touch 16, flat-footed 18; hp 118; Fort +11, Will +6; Melee +1 greataxe +18/+13 (1d12+13/&times;3), slam +13 (1d4+4 plus energy drain), bite +12 (1d4+4 plus energy drain); Str 26, Cha 18; CMB +17 (+21 bull rush); CMD 33 (33 vs. bull rush)."
 			],
 			"str": 30,
 			"dex": 18,
@@ -40227,7 +40227,7 @@
 			],
 			"offense": [
 				"**Speed** 40 ft.   ",
-				"**Melee** reaper +37 (3d6+11/x4), siege pick +37 (2d6+11/x4), wrecking ball +37 (3d6+11 plus stun), 2 slams +37 (1d8+11)   ",
+				"**Melee** reaper +37 (3d6+11/&times;4), siege pick +37 (2d6+11/&times;4), wrecking ball +37 (3d6+11 plus stun), 2 slams +37 (1d8+11)   ",
 				"**Ranged** 4 automatic crossbow bolts +32 (3d8/19-20), rock +33 (3d6+11)   ",
 				"**Space** 15 ft., **Reach** 15 ft. (30 ft. with wrecking ball)   ",
 				"**Special Attacks** rock throwing (140 ft.), warmonger weaponry"
@@ -42154,7 +42154,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** battleaxe +9 (1d8+7/x3)   ",
+				"**Melee** battleaxe +9 (1d8+7/&times;3)   ",
 				"**Ranged** javelin +7 (1d6+5)   ",
 				"**Spell-Like Abilities (CL 4th; concentration +5)   ",
 				"*3/day*-quench"
@@ -42222,7 +42222,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** gore +16 (1d6+7)   ",
-				"**Ranged** +5 icy burst seeking composite longbow +26/+21/+16 (1d8+10/19-20/x3 plus 1d6 cold)   ",
+				"**Ranged** +5 icy burst seeking composite longbow +26/+21/+16 (1d8+10/19-20/&times;3 plus 1d6 cold)   ",
 				"**Special Attacks** infuse arrow, wild gaze (DC 26)   ",
 				"**Spell-Like Abilities (CL 13th; concentration +18)   ",
 				"*Constant*-know direction, speak with animals, speak with plants   ",
@@ -42428,8 +42428,8 @@
 			],
 			"offense": [
 				"**Speed** 50 ft.   ",
-				"**Melee** monarch's glaive +30/+25/+20 (1d10+21/19-20/x3 plus 2d6), gore +19 (1d8+5)   ",
-				"**Ranged** monarch's glaive +26 (1d10+21/19-20/x3 plus 2d6)   ",
+				"**Melee** monarch's glaive +30/+25/+20 (1d10+21/19-20/&times;3 plus 2d6), gore +19 (1d8+5)   ",
+				"**Ranged** monarch's glaive +26 (1d10+21/19-20/&times;3 plus 2d6)   ",
 				"**Special Attacks** call to the hunt, monarch's glaive, staggering gore, wild gaze (DC 31), wild reincarnation   ",
 				"**Spell-Like Abilities (CL 17th; concentration +25)   ",
 				"*Constant*-know direction, speak with animals, speak with plants   ",
@@ -43009,7 +43009,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** ranseur +11/+6 (2d4+4/x3), 2 slams +6 (1d4+1 plus grab) or 4 slams +11 (1d4+3 plus grab)   ",
+				"**Melee** ranseur +11/+6 (2d4+4/&times;3), 2 slams +6 (1d4+1 plus grab) or 4 slams +11 (1d4+3 plus grab)   ",
 				"**Space** 5 ft., **Reach** 5 ft. (10 ft. with ranseur)   ",
 				"**Special Attacks** force bolt   ",
 				"**Spell-Like Abilities (CL 8th; concentration +13)   ",
@@ -43882,7 +43882,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** mwk scythe +8 (2d4+1/x4) or slam +6 (1d4+1 plus grab)   ",
+				"**Melee** mwk scythe +8 (2d4+1/&times;4) or slam +6 (1d4+1 plus grab)   ",
 				"**Special Attacks** discorporate, channel negative energy 6/day (DC 16, 4d6), destructive smite (+3, 8/day), squirming embrace, tenacious   ",
 				"**Spell-Like Abilities (CL 7th; concentration +12)   ",
 				"*8/day*-touch of evil (3 rounds)   ",
@@ -45205,7 +45205,7 @@
 			"offense": [
 				"**Speed** 40 ft.   ",
 				"**Melee** short swords +13/+13/+8 (1d6+3/19-20), claw +13 (1d4+3 plus grab), bite +7 (1d3+1 plus paralysis), or 4 claws +13 (1d4+3 plus grab), bite +12 (1d3+3 plus paralysis)   ",
-				"**Ranged** 2 longbows +13 (1d8/x3)   ",
+				"**Ranged** 2 longbows +13 (1d8/&times;3)   ",
 				"**Special Attacks** implant, paralysis (1d4 hours, DC 16)"
 			],
 			"str": 17,
@@ -45269,7 +45269,7 @@
 			"offense": [
 				"**Speed** 40 ft.   ",
 				"**Melee** mwk short sword +19/+14/+9 (1d6+5/19-20), mwk short sword +19/+14 (1d6+5/19-20), claw +18 (1d4+5 plus grab), bite +13 (1d3+2 plus paralysis) or 4 claws +18 (1d4+5 plus grab), bite +18 (1d3+5 plus paralysis)   ",
-				"**Ranged** mwk composite longbow +18/+13/+8 (1d8+5/x3), mwk composite longbow +18/+13 (1d8+5/x3)   ",
+				"**Ranged** mwk composite longbow +18/+13/+8 (1d8+5/&times;3), mwk composite longbow +18/+13 (1d8+5/&times;3)   ",
 				"**Special Attacks** implant, paralysis (1d4 hours, DC 20)"
 			],
 			"str": 21,
@@ -45601,8 +45601,8 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** spear +8 (1d8+6/x3), bite +3 (1d6+2) or 2 claws +8 (1d4+4), bite +8 (1d6+4)   ",
-				"**Ranged** spear +7 (1d8+4/x3)   ",
+				"**Melee** spear +8 (1d8+6/&times;3), bite +3 (1d6+2) or 2 claws +8 (1d4+4), bite +8 (1d6+4)   ",
+				"**Ranged** spear +7 (1d8+4/&times;3)   ",
 				"**Special Attacks** psychogenic secretions   ",
 				"**Psychic Magic** (CL 6th; concentration +7)   ",
 				"*5 PE*-mindlink (1 PE, DC 12), silent image (1 PE, DC 12), suggestion (2 PE, DC 13)"
@@ -46240,7 +46240,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft., climb 10 ft.   ",
-				"**Melee** 2 pincers +15 (2d8+9/x3)   ",
+				"**Melee** 2 pincers +15 (2d8+9/&times;3)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** amnesia, deadly pincers, mind swap   ",
 				"**Spell-Like Abilities (CL 15th; concentration +19)   ",
@@ -46307,7 +46307,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft., climb 10 ft.   ",
-				"**Melee** 2 pincers +21 (2d8+12/x3)   ",
+				"**Melee** 2 pincers +21 (2d8+12/&times;3)   ",
 				"**Ranged** lightning gun +16 touch (10d12 electricity)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** amnesia, deadly pincers   ",
@@ -46783,7 +46783,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** +2 keen thundering longspear +19/+14/+9 (1d8+13/19-20/x3) or +2 keen thundering longsword +19/+14/+9 (1d8+11/17-20)   ",
+				"**Melee** +2 keen thundering longspear +19/+14/+9 (1d8+13/19-20/&times;3) or +2 keen thundering longsword +19/+14/+9 (1d8+11/17-20)   ",
 				"**Special Attacks** petrifying glance (5/day, DC 26)   ",
 				"**Spell-Like Abilities (CL 10th; concentration +15)   ",
 				"*5/day*-cure light wounds, sanctuary (DC 16)   ",
@@ -47472,7 +47472,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** battleaxe +4 (1d8+1/x3), claw -1 (1d4) or 2 claws +4 (1d4+1)   ",
+				"**Melee** battleaxe +4 (1d8+1/&times;3), claw -1 (1d4) or 2 claws +4 (1d4+1)   ",
 				"**Spell-Like Abilities (CL 4th; concentration +6)   ",
 				"*At will*-darkness   ",
 				"*3/day*-ghoul touch, scare (DC 14)   ",

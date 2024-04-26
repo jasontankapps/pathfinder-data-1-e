@@ -1349,7 +1349,7 @@
 				"**Armor Bonus** +1; **Max Dex Bonus** &mdash;; **Armor Check Penalty** -1   ",
 				"**Arcane Spell Failure Chance** 5%",
 				"",
-				"**Damage** 1d4 (small), 1d6 (medium); **Critical** x2; **Range** -; **Type** S; **Special** see text   ",
+				"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** see text   ",
 				"**Category** One-Handed; **Proficiency** Martial   ",
 				"**[Weapon Group](class:fighter/weapongroups)** Blades, Heavy; Close",
 				"",
@@ -1383,7 +1383,7 @@
 				"",
 				"**Shield Bash Attacks:** You can bash an opponent with a light shield. Used this way, a light shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a light shield as a light weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
 				"",
-				"**Damage** 1d2 (small), 1d3 (medium); **Critical** x2; **Range** -; **Type** B; **Special** -   ",
+				"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -   ",
 				"**Category** Light; **Proficiency** Martial   ",
 				"**[Weapon Group](class:fighter/weapongroups)** Close; Tribal"
 			]
@@ -1415,7 +1415,7 @@
 				"",
 				"**Shield Bash Attacks:** You can bash an opponent with a light shield. Used this way, a light shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a light shield as a light weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
 				"",
-				"**Damage** 1d2 (small), 1d3 (medium); **Critical** x2; **Range** -; **Type** B; **Special** -   ",
+				"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -   ",
 				"**Category** Light; **Proficiency** Martial   ",
 				"**[Weapon Group](class:fighter/weapongroups)** Close; Tribal"
 			]
@@ -1447,7 +1447,7 @@
 				"",
 				"**Shield Bash Attacks:** You can bash an opponent with a light shield. Used this way, a light shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a light shield as a light weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
 				"",
-				"**Damage** 1d2 (small), 1d3 (medium); **Critical** x2; **Range** -; **Type** B; **Special** -   ",
+				"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -   ",
 				"**Category** Light; **Proficiency** Martial   ",
 				"**[Weapon Group](class:fighter/weapongroups)** Close; Tribal"
 			]
@@ -1479,7 +1479,7 @@
 				"",
 				"**Shield Bash Attacks:** You can bash an opponent with a light shield. Used this way, a light shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a light shield as a light weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
 				"",
-				"**Damage** 1d2 (small), 1d3 (medium); **Critical** x2; **Range** -; **Type** B; **Special** -   ",
+				"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -   ",
 				"**Category** Light; **Proficiency** Martial   ",
 				"**[Weapon Group](class:fighter/weapongroups)** Close; Tribal"
 			]
@@ -1513,7 +1513,7 @@
 				"",
 				"**Shield Bash Attacks:** You can bash an opponent with a light shield. Used this way, a light shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a light shield as a light weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
 				"",
-				"**Damage** 1d3 (small), 1d4 (medium); **Critical** x2; **Range** -; **Type** P; **Special** performance   ",
+				"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** performance   ",
 				"**Category** Light; **Proficiency** Exotic   ",
 				"**[Weapon Group](class:fighter/weapongroups)** Blades, Light; Close"
 			]
@@ -1547,7 +1547,7 @@
 				"",
 				"**Shield Bash Attacks:** You can bash an opponent with a light shield. Used this way, a light shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a light shield as a light weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
 				"",
-				"**Damage** 1d3 (small), 1d4 (medium); **Critical** x2; **Range** -; **Type** P; **Special** performance   ",
+				"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** performance   ",
 				"**Category** Light; **Proficiency** Exotic   ",
 				"**[Weapon Group](class:fighter/weapongroups)** Blades, Light; Close"
 			]
@@ -1598,7 +1598,7 @@
 				"This shield's sides are cut into jagged angles and honed to razor sharpness. Dwarven skirmishers often wield these shields in pairs, savagely hacking opponents to pieces, while some dwarven scoundrels enjoy the shields' imposing appearance and ease of use. If you have the Two-Weapon Fighting feat and are wielding two dwarven war-shields, increase the higher of the two shield bonuses by 1. You lose this benefit for 1 round when you make a shield bash with one or both dwarven war-shields (unless you have the Improved Shield Bash feat or a similar benefit). A hand holding a dwarven warshield can't be used for anything else. A dwarven war-shield gains no benefit from shield spikes.",
 				"",
 				"*Shield bash*   ",
-				"**Damage** 1d4 (small), 1d6 (medium); **Critical** x2; **Range** -; **Type** P or S; **Special** see text   ",
+				"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P or S; **Special** see text   ",
 				"**Category** Light; **Proficiency** Exotic   ",
 				"**[Weapon Group](class:fighter/weapongroups)** Close"
 			]
@@ -1630,7 +1630,7 @@
 				"",
 				"**Shield Bash Attacks:** You can bash an opponent with a heavy shield. Used this way, a heavy shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a heavy shield as a one-handed weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
 				"",
-				"**Damage** 1d3 (small), 1d4 (medium); **Critical** x2; **Range** -; **Type** B; **Special** -   ",
+				"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -   ",
 				"**Category** One-Handed; **Proficiency** Martial   ",
 				"**[Weapon Group](class:fighter/weapongroups)** Close; Tribal"
 			]
@@ -1662,7 +1662,7 @@
 				"",
 				"**Shield Bash Attacks:** You can bash an opponent with a heavy shield. Used this way, a heavy shield is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a heavy shield as a one-handed weapon. If you use your shield as a weapon, you lose its AC bonus until your next turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it, but the shield can be made into a magic weapon in its own right.",
 				"",
-				"**Damage** 1d3 (small), 1d4 (medium); **Critical** x2; **Range** -; **Type** B; **Special** -   ",
+				"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -   ",
 				"**Category** One-Handed; **Proficiency** Martial   ",
 				"**[Weapon Group](class:fighter/weapongroups)** Close; Tribal"
 			]

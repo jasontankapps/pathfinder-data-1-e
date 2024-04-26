@@ -1030,7 +1030,7 @@
 			"offense": [
 				"**Speed** 30 ft., fly 60 ft. (average)   ",
 				"**Melee** bite +16 (1d8+7), 2 claws +16 (1d6+7)   ",
-				"**Ranged** +1 composite longbow +18/+13 (2d6+8/x3 plus contagion)   ",
+				"**Ranged** +1 composite longbow +18/+13 (2d6+8/&times;3 plus contagion)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** breath of flies   ",
 				"**Spell-Like Abilities (CL 10th; concentration +13)   ",
@@ -1273,7 +1273,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., fly 60 ft. (average)   ",
-				"**Melee** +1 unholy halberd +28/+23/+18/+13 (4d8+13/19-20/x3 plus inherit soul), bite +21 (2d8+4)   ",
+				"**Melee** +1 unholy halberd +28/+23/+18/+13 (4d8+13/19-20/&times;3 plus inherit soul), bite +21 (2d8+4)   ",
 				"**Space** 20 ft., **Reach** 20 ft.   ",
 				"**Special Attacks** cloak of souls   ",
 				"**Spell-Like Abilities (CL 20th; concentration +27)   ",
@@ -1528,7 +1528,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., swim 50 ft.   ",
-				"**Melee** 2 claws +18 (2d6+7/18-20/x3 plus grab and 1d6 bleed), tentacles +16 (1d10+3 plus poison)   ",
+				"**Melee** 2 claws +18 (2d6+7/18-20/&times;3 plus grab and 1d6 bleed), tentacles +16 (1d10+3 plus poison)   ",
 				"**Special Attacks** constrict (2d6+10)   ",
 				"**Spell-Like Abilities (CL 11th; concentration +14)   ",
 				"*Constant*-detect good, detect magic, see invisibility   ",
@@ -1559,7 +1559,7 @@
 				"**Treasure** standard"
 			],
 			"special_abilities": [
-				"**Augmented Critical (Ex)** A piscodaemon's claws threaten a critical hit on an 18-20 and inflict x3 damage on a successful critical hit.",
+				"**Augmented Critical (Ex)** A piscodaemon's claws threaten a critical hit on an 18-20 and inflict &times;3 damage on a successful critical hit.",
 				"",
 				"**Poison (Ex)** Tentacles-injury; save Fort DC 22; frequency 1/round for 6 rounds; effect 1d2 Con plus staggered for 1 round; cure 2 consecutive saves."
 			],
@@ -1602,7 +1602,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., fly 60 ft. (good)   ",
-				"**Melee** +2 wounding halberd (2d8+18/19-20/x3), bite +24 (1d8+5)   ",
+				"**Melee** +2 wounding halberd (2d8+18/19-20/&times;3), bite +24 (1d8+5)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** weapon steep   ",
 				"**Spell-Like Abilities (CL 18th; concentration +23)   ",
@@ -1674,7 +1674,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., fly 60 ft. (good)   ",
-				"**Melee** bite +19 (1d8+7/18-20/x3 plus bleed), 2 claws +19 (1d6+7/19-20)   ",
+				"**Melee** bite +19 (1d8+7/18-20/&times;3 plus bleed), 2 claws +19 (1d6+7/19-20)   ",
 				"**Special Attacks** bleed (2d4+2), blood drain (1d2 Con), drain soul   ",
 				"**Spell-Like Abilities (CL 12th; concentration +14)   ",
 				"*At will*-greater teleport (self plus 50 lbs. of objects only)   ",
@@ -1704,7 +1704,7 @@
 				"**Treasure** standard"
 			],
 			"special_abilities": [
-				"**Augmented Critical (Ex)** A sangudaemon's bite threatens a critical hit on a roll of 18-20 and deals x3 damage on a confirmed critical hit.",
+				"**Augmented Critical (Ex)** A sangudaemon's bite threatens a critical hit on a roll of 18-20 and deals &times;3 damage on a confirmed critical hit.",
 				"",
 				"**Bleeding Aura (Su)** Blood gushes from wounds at an increased rate when within 30 feet of a sangudaemon. All bleed effects deal 2 additional points of damage (this bonus is included in the daemon's bleed damage). Heal checks to stop bleeding or stabilize a dying creature, Constitution checks to become stable, and saving throws against effects that deal bleed damage take a -4 penalty.",
 				"",
@@ -1903,7 +1903,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.; air walk   ",
-				"**Melee** +1 scythe +23/+18/+13/+8 (2d4+8/19-20/x4 plus confusion), 2 claws +16 (1d4+2 plus confusion)   ",
+				"**Melee** +1 scythe +23/+18/+13/+8 (2d4+8/19-20/&times;4 plus confusion), 2 claws +16 (1d4+2 plus confusion)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** confusion   ",
 				"**Spell-Like Abilities (CL 15th; concentration +20)   ",
@@ -2463,7 +2463,7 @@
 			],
 			"offense": [
 				"**Speed** fly 40 ft. (perfect)   ",
-				"**Melee** incorporeal scythe +18/+13 touch (2d6/x4 plus 1d6 Constitution drain)   ",
+				"**Melee** incorporeal scythe +18/+13 touch (2d6/&times;4 plus 1d6 Constitution drain)   ",
 				"**Space** 10 ft., **Reach** 10 ft."
 			],
 			"str": null,
@@ -3286,7 +3286,7 @@
 			],
 			"offense": [
 				"**Speed** fly 40 ft. (perfect)   ",
-				"**Melee** great claw +16 (2d6+9/x4 plus disease), claw +16 (1d8+9)   ",
+				"**Melee** great claw +16 (2d6+9/&times;4 plus disease), claw +16 (1d8+9)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Spell-Like Abilities (CL 11th; concentration +16)   ",
 				"*Constant* - desecrate (centered on self)   ",
@@ -3323,7 +3323,7 @@
 				"",
 				"**Disease (Su)** Bubonic Plague: Great claw-injury; save Fortitude DC 20; onset immediate; frequency 1/day; effect 1d4 Con damage and target is fatigued; cure 2 consecutive saves. The save DC is Charisma-based.",
 				"",
-				"**Great Claw (Ex)** One of the daughter's hands is a tremendous scythe-shaped claw. This attack inflicts x4 damage on a critical hit, and is treated as an evil weapon for the purposes of penetrating damage reduction.",
+				"**Great Claw (Ex)** One of the daughter's hands is a tremendous scythe-shaped claw. This attack inflicts &times;4 damage on a critical hit, and is treated as an evil weapon for the purposes of penetrating damage reduction.",
 				"",
 				"**Spells (Sp)** A daughter of Urgathoa casts spells as a 6th-level cleric of Urgathoa-but although she selects two domains to determine bonus spells, she does not gain any domain powers."
 			],
@@ -4029,7 +4029,7 @@
 			],
 			"offense": [
 				"**Speed** 10 ft., swim 40 ft.   ",
-				"**Melee** spear +6 (1d8+4/x3)   ",
+				"**Melee** spear +6 (1d8+4/&times;3)   ",
 				"**Special Attacks** sneak attack +2d6, sprint"
 			],
 			"str": 17,
@@ -4447,7 +4447,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft.   ",
-				"**Melee** mwk heavy pick +13 (1d6+10/x4)   ",
+				"**Melee** mwk heavy pick +13 (1d6+10/&times;4)   ",
 				"**Ranged** rock +7 (1d4+7)   ",
 				"**Special Attacks** consume light"
 			],
@@ -4651,7 +4651,7 @@
 			],
 			"offense": [
 				"**Speed** 40 ft., fly 50 ft. (average)   ",
-				"**Melee** +1 vicious maul +34/+29/+24/+19 (2d6+16/19-20/x3 plus 2d6) or 2 claws +33 (2d6+10)   ",
+				"**Melee** +1 vicious maul +34/+29/+24/+19 (2d6+16/19-20/&times;3 plus 2d6) or 2 claws +33 (2d6+10)   ",
 				"**Special Attacks** faith-stealing strike (DC 25), sacrilegious spittle   ",
 				"**Spell-Like Abilities (CL 17th; concentration +21)   ",
 				"*Constant*-detect good, detect magic, see invisibility   ",
@@ -5265,7 +5265,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** 2 claws +12 (1d6+5), bite +12 (1d6+5) or longspear +12/+7 (1d8+7/x3), bite +7 (1d6+2)   ",
+				"**Melee** 2 claws +12 (1d6+5), bite +12 (1d6+5) or longspear +12/+7 (1d8+7/&times;3), bite +7 (1d6+2)   ",
 				"**Space** 5 ft., **Reach** 5 ft. (10 ft. with longspear)   ",
 				"**Special Attacks** sneak attack +2d6   ",
 				"**Spell-Like Abilities (CL 7th)   ",
@@ -5516,7 +5516,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** mwk scimitar +6 (1d6+2/18-20), claw +0 (1d4+1/19-20) or 2 claws +5 (1d4+2/19-20)   ",
-				"**Ranged** mwk composite longbow +5 (1d8+2/x3)   ",
+				"**Ranged** mwk composite longbow +5 (1d8+2/&times;3)   ",
 				"**Special Attacks** sadistic strike, sinfrenzy   ",
 				"**Spell-Like Abilities (CL 3rd; concentration +5)   ",
 				"*3/day*-command (DC 13)   ",
@@ -7133,8 +7133,8 @@
 			],
 			"offense": [
 				"**Speed** 40 ft., climb 40 ft.   ",
-				"**Melee** +1 cold iron spear +23/+18/+13 (2d6+13/19-20/x3), bite +16 (1d8+4) or bite +21 (1d8+12)   ",
-				"**Ranged** +1 cold iron spear +18 (2d6+9/19-20/x3)   ",
+				"**Melee** +1 cold iron spear +23/+18/+13 (2d6+13/19-20/&times;3), bite +16 (1d8+4) or bite +21 (1d8+12)   ",
+				"**Ranged** +1 cold iron spear +18 (2d6+9/19-20/&times;3)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** chain-spear   ",
 				"**Spell-Like Abilities (CL 14th; concentration +18)   ",
@@ -7283,7 +7283,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** mwk halberd +10 (1d10+4/x3 plus disease), gore +3 (1d6+1) or gore +8 (1d6+4)   ",
+				"**Melee** mwk halberd +10 (1d10+4/&times;3 plus disease), gore +3 (1d6+1) or gore +8 (1d6+4)   ",
 				"**Special Attacks** powerful charge (gore, 3d6+4)   ",
 				"**Spell-Like Abilities (CL 6th; concentration +4)   ",
 				"*Constant*-see invisibility, tongues   ",
@@ -7828,7 +7828,7 @@
 			"offense": [
 				"**Speed** 20 ft.   ",
 				"**Melee** mwk two-bladed sword +10/+10/+7 (1d8+6/19-20)   ",
-				"**Ranged** composite longbow +8/+3 (1d8+4/x3)   ",
+				"**Ranged** composite longbow +8/+3 (1d8+4/&times;3)   ",
 				"**Special Attacks** betrayer's blade, disrupt coordination   ",
 				"**Spell-Like Abilities (CL 6th; concentration +8)   ",
 				"*At will*-alter self, greater teleport (self plus 50 pounds of objects only), lesser confusion (DC 13)   ",
@@ -8007,7 +8007,7 @@
 			],
 			"offense": [
 				"**Speed** 45 ft., fly 60 ft. (average)   ",
-				"**Melee** +1 unholy ranseur +28/+23/+18/+13 (3d6+17/x3) or bite +27 (3d6+11 plus smoking wound), 2 claws +27 (1d8+11), tail slap +22 (2d8+5 plus stun)   ",
+				"**Melee** +1 unholy ranseur +28/+23/+18/+13 (3d6+17/&times;3) or bite +27 (3d6+11 plus smoking wound), 2 claws +27 (1d8+11), tail slap +22 (2d8+5 plus stun)   ",
 				"**Space** 15 ft., **Reach** 15 ft. (30 ft. with ranseur)   ",
 				"**Special Attacks** breath weapon, trample (4d8+16, DC 30)   ",
 				"**Spell-Like Abilities (CL 18th; concentration +24)   ",
@@ -8974,7 +8974,7 @@
 				"**Feats** [Alertness](feat:Alertness), [Brew Potion](feat:Brew_Potion), [Combat Casting](feat:Combat_Casting), [Combat Reflexes](feat:Combat_Reflexes), [Dodge](feat:Dodge), [Improved Initiative](feat:Improved_Initiative), [Power Attack](feat:Power_Attack), [Throw Anything](feat:Throw_Anything), [Toughness](feat:Toughness)   ",
 				"**Skills** Bluff +13, Craft (alchemy) +17, Disable Device +15, Heal +2, Knowledge (arcana) +12, Knowledge (nature) +18, Perception +11, Sense Motive +12, Sleight of Hand +15, Spellcraft +21, Stealth +16, Use Magic Device +11   ",
 				"**Languages** Abyssal, Aklo, Common, Dwarven, Goblin, Undercommon   ",
-				"**SQ** alchemy (alchemy crafting +11, identify potions), cruel anatomist, mutagen (+4/-2, +2 natural, 110 minutes), discoveries (infusion, monstrous graft [arm], monstrous graft [leg x2], sleeper agent), madness, poison use, swift alchemy, swift poisoning, torturer's eye, torturous transformation   ",
+				"**SQ** alchemy (alchemy crafting +11, identify potions), cruel anatomist, mutagen (+4/-2, +2 natural, 110 minutes), discoveries (infusion, monstrous graft [arm], monstrous graft [leg &times;2], sleeper agent), madness, poison use, swift alchemy, swift poisoning, torturer's eye, torturous transformation   ",
 				"**Combat Gear** potions of cure moderate wounds (3), potions of haste (2), blue whinnis (4 doses), medium spider venom (10 doses); **Other Gear** +2 chain shirt, aklys, mwk repeating light crossbow with 20 bolts, amulet of natural armor +1, goggles of minute seeing, headband of vast intelligence +2, ring of protection +1, antitoxin (3), formula book (contains all prepared extracts, plus an additional four 1st-level, four 2nd-level, three 3rd-level, and two 4th-level extracts of the GM's choice), healer's kit, surgeon's tools, veterinarian's kit, granite and diamond dust (750 gp), powdered platinum (300 gp)"
 			],
 			"ecology": [ "**Environment** any underground" ],
@@ -10355,7 +10355,7 @@
 			"offense": [
 				"**Speed** 30 ft., fly 50 ft. (good)   ",
 				"**Melee** +1 longsword +15/+10 (1d8+8/19-20)   ",
-				"**Ranged** +1 flaming composite longbow +14/+14/+9 (1d8+6/x3 plus 1d6 fire) or rope +15 touch (entangle)   ",
+				"**Ranged** +1 flaming composite longbow +14/+14/+9 (1d8+6/&times;3 plus 1d6 fire) or rope +15 touch (entangle)   ",
 				"**Spell-Like Abilities (CL 12th)   ",
 				"*Constant*-true seeing   ",
 				"*At will*-fear (single target, DC 19), greater teleport (self plus 50 lbs. of objects only), minor image (DC 17), unholy blight (DC 19)   ",
@@ -10428,7 +10428,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., fly 40 ft. (good)   ",
-				"**Melee** +1 keen battleaxe +20/+15/+10 (1d8+11/19-20/x3), gore +14 (1d6+3)   ",
+				"**Melee** +1 keen battleaxe +20/+15/+10 (1d8+11/19-20/&times;3), gore +14 (1d6+3)   ",
 				"**Special Attacks** enraged warrior   ",
 				"**Spell-Like Abilities (CL 11th; concentration: +18)   ",
 				"*At will*-greater teleport (self plus 50 lbs. of objects only), scorching ray   ",
@@ -10530,7 +10530,7 @@
 			"special_abilities": [
 				"**Double Down (Su)** A gambling devil's understanding of probability is so good that it knows the best moment to play its hand, even if that means having to lose one first. As an immediate action, anytime a gambling devil rolls a d20 (for an attack roll, a saving throw, or a skill check), it can take a luck penalty of up to 1/2 of its Charisma modifier on the roll (-2 for most magadazes). The next time within 1 minute it attempts a d20 roll of the same category (for example, if the first roll was a skill check, the second can be any skill check), it gains a luck bonus to the roll equal to double the penalty taken earlier (+4 for most magadazes).",
 				"",
-				"**Produce Coins (Su)** A gambling devil can produce up to 50 gold coins by drawing them from its body as a free action. Typically, a magadaz uses this ability to pay its debts at a gaming table, but it must successfully use Sleight of Hand if it wishes to conceal the supernatural nature of this ability from any observers. Coins produced in this way disappear 1 hour after leaving the gambling devil's possession. In addition, a gambling devil can use these coins as weapons, turning them into dangerous thrown projectiles. Each coin deals 1d4 points of bludgeoning damage and counts as evil, lawful, and magic for the purpose of overcoming damage reduction. A gambling devil can produce a number of gold coins per day equal to 50 x its Constitution score (850 coins for most gambling devils).",
+				"**Produce Coins (Su)** A gambling devil can produce up to 50 gold coins by drawing them from its body as a free action. Typically, a magadaz uses this ability to pay its debts at a gaming table, but it must successfully use Sleight of Hand if it wishes to conceal the supernatural nature of this ability from any observers. Coins produced in this way disappear 1 hour after leaving the gambling devil's possession. In addition, a gambling devil can use these coins as weapons, turning them into dangerous thrown projectiles. Each coin deals 1d4 points of bludgeoning damage and counts as evil, lawful, and magic for the purpose of overcoming damage reduction. A gambling devil can produce a number of gold coins per day equal to 50 &times; its Constitution score (850 coins for most gambling devils).",
 				"",
 				"**Risk Aura (Su)** The presence of a gambling devil encourages nearby creatures to make riskier decisions and take bigger gambles. Any creature within 30 feet of a gambling devil must succeed at a DC 16 Will saving throw each round or be compelled to throw caution to the wind so long as it remains within the aura's effects. Whenever a situation calls for a d20 roll, any creature affected by this ability must roll twice. If either roll is a natural 20, the affected creature can use that roll. Otherwise, it must use the lower of the two results. A gambling devil can suppress or reactivate this aura as a swift action. The save DC is Charisma-based."
 			],
@@ -10590,7 +10590,7 @@
 			],
 			"offense": [
 				"**Speed** 40 ft., fly 60 ft. (average)   ",
-				"**Melee** 2 claws +22 (2d8+7/19-20/x3), 2 tentacles +20 (1d6+3 plus grab)   ",
+				"**Melee** 2 claws +22 (2d8+7/19-20/&times;3), 2 tentacles +20 (1d6+3 plus grab)   ",
 				"**Space** 5 ft., **Reach** 5 ft. (10 ft. with tentacle)   ",
 				"**Special Attacks** tentacle cage (4d8+10 bludgeoning, AC 17, 18 hp)   ",
 				"**Spell-Like Abilities (CL 14th; concentration +19)   ",
@@ -10820,7 +10820,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft., fly 50 ft. (average)   ",
-				"**Melee** mwk ranseur +12/+7 (2d4+6/x3) or 2 claws +11 (1d6+4 plus 2 bleed)   ",
+				"**Melee** mwk ranseur +12/+7 (2d4+6/&times;3) or 2 claws +11 (1d6+4 plus 2 bleed)   ",
 				"**Special Attacks** noxious breath, rend (2 claws, 1d6+6 plus 2 bleed)   ",
 				"**Spell-Like Abilities (CL 12th; concentration +12)   ",
 				"*Constant*-detect magic   ",
@@ -10974,7 +10974,7 @@
 			],
 			"offense": [
 				"**Speed** 40 ft., fly 60 ft. (good)   ",
-				"**Melee** +1 frost spear +21/+16/+11 (2d6+10/x3 plus 1d6 cold plus slow), bite +14 (2d6+6), tail +14 (3d6+3 plus slow)   ",
+				"**Melee** +1 frost spear +21/+16/+11 (2d6+10/&times;3 plus 1d6 cold plus slow), bite +14 (2d6+6), tail +14 (3d6+3 plus slow)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Spell-Like Abilities (CL 13th)   ",
 				"*Constant*-fly   ",
@@ -11423,7 +11423,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft.   ",
-				"**Melee** spear +1 (1d8/x3), 2 claws +1 (1d4)"
+				"**Melee** spear +1 (1d8/&times;3), 2 claws +1 (1d4)"
 			],
 			"tactics": [
 				"**During Combat** A nupperibo attacks the closest target. It reverts to attacking with its claws only if it is disarmed.   ",
@@ -11889,7 +11889,7 @@
 				"",
 				"**Vengeance (Su)** While seeking a victim a salikotal prepares itself daily, honing its will to effectively slaughter its intended quarry. On a given day, chosen as part of its contract killer ability, a salikotal may gain the benefit of any one of the following powers, either the one it feels will most aid it or whichever one its summoner requests. Only one of these abilities is active on a given day, and it only comes into effect when a salikotal kills its intended target with a coup de grace. These executions only function on living creatures.",
 				"",
-				"- Fideicide: The victim's soul is immediately shunted to a infernal prison on Erebus, the third layer of Hell. The soul can be returned to life, but upon casting the spell, the spellcaster attempting the resurrection takes an amount of fire damage equal to 1d6 x the victim's number of Hit Dice, and must make an immediate concentration check (DC 10 + damage delt + spell level) or lose the spell.",
+				"- Fideicide: The victim's soul is immediately shunted to a infernal prison on Erebus, the third layer of Hell. The soul can be returned to life, but upon casting the spell, the spellcaster attempting the resurrection takes an amount of fire damage equal to 1d6 &times; the victim's number of Hit Dice, and must make an immediate concentration check (DC 10 + damage delt + spell level) or lose the spell.",
 				"- Necrocide: After 1d4 rounds, the victim's body animates as a zombie under the salikotal's control. The devil may permanently grant control of the zombie to any sentient creature as a free action.",
 				"- Omnicide: The victim's body is utterly destroyed, disintegrating without a trace. Its clothing and possessions remain unharmed. Only spells that do not require a portion of the corpse may return the victim to life."
 			],
@@ -13196,7 +13196,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** 2 claws +13 (1d8+8/x3)   ",
+				"**Melee** 2 claws +13 (1d8+8/&times;3)   ",
 				"**Space** 15 ft., **Reach** 15 ft.   ",
 				"**Special Attacks** thumb spikes"
 			],
@@ -13257,7 +13257,7 @@
 			],
 			"offense": [
 				"**Speed** 40 ft.   ",
-				"**Melee** tail +12 (2d6+10/x3)   ",
+				"**Melee** tail +12 (2d6+10/&times;3)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** impaling strike"
 			],
@@ -13284,7 +13284,7 @@
 			"special_abilities": [
 				"**Defensive Spikes (Ex)** At the end of its turn, a kentrosaurus can crouch down and splay its back and shoulder spikes. It cannot make attacks of opportunity when using its defensive spikes in this way, but until its next turn any creature that attacks the kentrosaurus with light or one-handed melee weapons, natural weapons, or unarmed strikes takes 1d6 points of piercing damage unless it succeeds at a DC 15 Reflex saving throw. The save DC is Dexterity-based.",
 				"",
-				"**Impaling Strike (Ex)** A kentrosaurus's tail is a primary attack that deals piercing damage and has a x3 critical damage multiplier"
+				"**Impaling Strike (Ex)** A kentrosaurus's tail is a primary attack that deals piercing damage and has a &times;3 critical damage multiplier"
 			],
 			"description": [
 				"The kentrosaurus is a smaller relative of the stegosaurus, but features large bony spikes on its shoulders. A typical kentrosaurus measures 15 feet long and weighs 2,000 pounds."
@@ -13545,7 +13545,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., fly 50 ft. (clumsy)   ",
-				"**Melee** bite +13 (2d8+7/x3), 2 wings +8 (1d6+3)   ",
+				"**Melee** bite +13 (2d8+7/&times;3), 2 wings +8 (1d6+3)   ",
 				"**Space** 15 ft., **Reach** 15 ft."
 			],
 			"str": 25,
@@ -13572,7 +13572,7 @@
 			"special_abilities": [
 				"**Difficult to Train (Ex)** A quetzalcoatlus is remarkably difficult to train. Anyone trying to do so takes a -4 penalty on Handle Animal checks to train one of these looming pterosaurs.",
 				"",
-				"**Razor-Sharp Beak (Ex)** A quetzalcoatlus's bite attack has a critical multiplier of x3."
+				"**Razor-Sharp Beak (Ex)** A quetzalcoatlus's bite attack has a critical multiplier of &times;3."
 			],
 			"description": [
 				"The quetzalcoatlus is perhaps the largest of the pterosaurs, a category of flying reptile common in regions where dinosaurs dwell. Known to some as the \"swamp stalker\" and others by the misnomer \"dragonling,\" it is truly an awe-inspiring sight in the air, with an impressive 40-foot wingspan. On the ground, this creature's profile bears an uncanny resemblance to that of a giraffe, save for the fact that the folded wings arch up to either side of its lightly feathered body and its head bears a horrific but brightly colored razor-sharp beak"
@@ -14386,7 +14386,7 @@
 				"",
 				"As akvans go through existence slaying mortals and genies, many gravitate toward one of the races of geniekind, targeting members of that race with particular passion. Over ages of service, akvans who prove especially lethal in slaughtering genies garner the attention of Ahriman, who blesses such divs with increased power, transforming them into akvan princes.",
 				"",
-				"Each akvan prince dedicates itself to extinguishing a particular type of genie and gains special abilities with which to slaughter genies of that type. An akvan prince gains an additional 4-8 Hit Dice, a +4 bonus to three ability scores, and has a CR of 22-x24. The akvan prince also gains one of the following sets of abilities, depending on what type of genies it hunts.",
+				"Each akvan prince dedicates itself to extinguishing a particular type of genie and gains special abilities with which to slaughter genies of that type. An akvan prince gains an additional 4-8 Hit Dice, a +4 bonus to three ability scores, and has a CR of 22-&times;24. The akvan prince also gains one of the following sets of abilities, depending on what type of genies it hunts.",
 				"",
 				"Crumbling Earth: A shaitan-hunting akvan prince shatters the strongest stone. It gains the stone glide ability, tremorsense 100 feet, and a burrow speed of 100 feet, and its natural attacks are treated as adamantine for the purposes of overcoming damage reduction. It also gains the following spell-like abilities: 3/day-quickened stone shape, transmute mud to rock, transmute rock to mud, wish.",
 				"",
@@ -14684,8 +14684,8 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., swim 80 ft.   ",
-				"**Melee** bite +21 (1d8+7/19-20), 2 claws +20 (1d6+7), sting +20 (1d6+7 plus poison) or spear +20/+15/+10 (2d6+10/x3 plus poison), bite +19 (1d8+3/19-20), sting +18 (1d6+3 plus poison)   ",
-				"**Ranged** spear +15 (2d6+7/x3 plus poison)   ",
+				"**Melee** bite +21 (1d8+7/19-20), 2 claws +20 (1d6+7), sting +20 (1d6+7 plus poison) or spear +20/+15/+10 (2d6+10/&times;3 plus poison), bite +19 (1d8+3/19-20), sting +18 (1d6+3 plus poison)   ",
+				"**Ranged** spear +15 (2d6+7/&times;3 plus poison)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** boiling sea   ",
 				"**Spell-Like Abilities (CL 12th; concentration +14)   ",
@@ -20720,7 +20720,7 @@
 			],
 			"offense": [
 				"**Speed** 60 ft., fly 250 ft. (clumsy)   ",
-				"**Melee** bite +37 (4d6+18/19-20), 2 claws +36 (2d8+12), tail slap +35 (2d8+18/19-20/x3 plus trip), 2 wings +34 (2d6+6)   ",
+				"**Melee** bite +37 (4d6+18/19-20), 2 claws +36 (2d8+12), tail slap +35 (2d8+18/19-20/&times;3 plus trip), 2 wings +34 (2d6+6)   ",
 				"**Space** 15 ft., **Reach** 10 ft. (15 ft. with bite and tail slap)   ",
 				"**Special Attacks** breath weapon (60-ft. cone, 20d10 sonic damage, Reflex DC 31 half), crush, delirium breath, lashing tail, tail sweep, tripping tail   ",
 				"**Oracle Spells Known ** (CL 15th; concentration +23)   ",
@@ -23318,7 +23318,7 @@
 			],
 			"offense": [
 				"**Speed** 40 ft., fly 120 ft. (good)   ",
-				"**Melee** mwk glaive +18/+13 (2d8+12/x3), bite +13 (1d8+4) or bite +18 (1d8+8), 2 claws +17 (1d6+8)   ",
+				"**Melee** mwk glaive +18/+13 (2d8+12/&times;3), bite +13 (1d8+4) or bite +18 (1d8+8), 2 claws +17 (1d6+8)   ",
 				"**Space** 10 ft., **Reach** 10 ft. (15 ft. with glaive)   ",
 				"**Special Attacks** breath weapon (30-ft. cone, 9d6 fire damage, Reflex DC 20 half, usable every 1d4 rounds)"
 			],
@@ -23519,7 +23519,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., fly 60 ft. (perfect)   ",
-				"**Melee** bite +21 (3d6+15/17-20/x3), tail slap +16 (2d6+5)   ",
+				"**Melee** bite +21 (3d6+15/17-20/&times;3), tail slap +16 (2d6+5)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** ether bite   ",
 				"**Psychic Magic** (CL 12th; concentration +14)   ",
@@ -23548,7 +23548,7 @@
 				"**Treasure** standard"
 			],
 			"special_abilities": [
-				"**Ether Bite (Ex)** An ether drake applies 1-1/2 x its Strength modifier to damage dealt by its bite attack, and its bite threatens a critical hit on a roll of 19-20 and has a x3 multiplier. An ether drake's bite deals full damage to incorporeal creatures.",
+				"**Ether Bite (Ex)** An ether drake applies 1-1/2 &times; its Strength modifier to damage dealt by its bite attack, and its bite threatens a critical hit on a roll of 19-20 and has a &times;3 multiplier. An ether drake's bite deals full damage to incorporeal creatures.",
 				"",
 				"**Etheric Shift (Ex)** An ether drake can become ethereal (as the etherealness spell) once every 3 rounds as a swift action. The drake can activate this effect as a free action whenever it uses its speed surge ability, regardless of the number of rounds since the last time it used etheric shift. Once this ability is activated, the drake remains ethereal for 1 round.",
 				"",
@@ -23965,7 +23965,7 @@
 				"**Treasure** standard"
 			],
 			"special_abilities": [
-				"**Fogburst (Su)** As a standard action, a mist drake can expel a ball of solid mist that explodes into a cloud of fog upon impact. This attack has a range of 60 feet and deals 3d6 points of bludgeoning damage to all creatures in a 20-foot radius (Reflex DC 16 half). A flying creatures that fails its Reflex save is pushed 1d4 x 5 feet from the center of the fogburst's area of effect (taking 1d6 points of damage per 10 feet if it strikes a solid object), while creatures on the ground are knocked prone on a failed save. The area of effect of the fogburst is filled with mist (as obscuring mist) for 1d4 rounds after impact. Once a mist drake has used its fogburst attack, it cannot do so again for 1d6 rounds. The save DC is Constitution-based.",
+				"**Fogburst (Su)** As a standard action, a mist drake can expel a ball of solid mist that explodes into a cloud of fog upon impact. This attack has a range of 60 feet and deals 3d6 points of bludgeoning damage to all creatures in a 20-foot radius (Reflex DC 16 half). A flying creatures that fails its Reflex save is pushed 1d4 &times; 5 feet from the center of the fogburst's area of effect (taking 1d6 points of damage per 10 feet if it strikes a solid object), while creatures on the ground are knocked prone on a failed save. The area of effect of the fogburst is filled with mist (as obscuring mist) for 1d4 rounds after impact. Once a mist drake has used its fogburst attack, it cannot do so again for 1d6 rounds. The save DC is Constitution-based.",
 				"",
 				"**Fogvision (Ex)** A mist drake can see normally through any form of natural or magical mist, fog, or precipitation.",
 				"",
@@ -24360,7 +24360,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., swim 30 ft.   ",
-				"**Melee** greataxe +5 (1d12+4/x3 plus nausea) or slam +5 (1d10+4 plus nausea)"
+				"**Melee** greataxe +5 (1d12+4/&times;3 plus nausea) or slam +5 (1d10+4 plus nausea)"
 			],
 			"str": 17,
 			"dex": 10,
@@ -24900,7 +24900,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** mwk short sword +10/+5 (1d6+2/19-20)   ",
-				"**Ranged** +1 composite shortbow +11/+6 (1d6+3/x3 plus poison)   ",
+				"**Ranged** +1 composite shortbow +11/+6 (1d6+3/&times;3 plus poison)   ",
 				"**Special Attacks** deadly range (+20 feet), sneak attack +4d6   ",
 				"**Spell-Like Abilities (CL 8th; concentration +8)   ",
 				"*1/day*-dancing lights, darkness, faerie fire"
@@ -25249,7 +25249,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** short sword +2 (1d6+1/19-20)   ",
-				"**Ranged** mwk shortbow +6 (1d6/x3 plus poison)   ",
+				"**Ranged** mwk shortbow +6 (1d6/&times;3 plus poison)   ",
 				"**Special Attacks** sneak attack +1d6   ",
 				"**Spell-Like Abilities (CL 2nd; concentration +2)   ",
 				"*1/day*-dancing lights, darkness, faerie fire"
@@ -25377,7 +25377,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft.   ",
-				"**Melee** warhammer +3 (1d8+1/x3)   ",
+				"**Melee** warhammer +3 (1d8+1/&times;3)   ",
 				"**Ranged** light crossbow +0 (1d8/19-20)   ",
 				"**Spell-Like Abilities (CL 3rd)   ",
 				"*1/day*-enlarge person (self only), invisibility (self only)"
@@ -25554,7 +25554,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft.   ",
-				"**Melee** +2 dwarven waraxe +17/+12 (2d8+12/19-20/x3)   ",
+				"**Melee** +2 dwarven waraxe +17/+12 (2d8+12/19-20/&times;3)   ",
 				"**Ranged** mwk heavy crossbow +11 (2d8+1/19-20)   ",
 				"**Special Attacks** weapon training (axes +2, crossbows +1)   ",
 				"**Spell-Like Abilities (CL 9th; concentration +6)   ",
@@ -25735,7 +25735,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft.   ",
-				"**Melee** +1 warhammer +11/+6 (2d6+4/x3)   ",
+				"**Melee** +1 warhammer +11/+6 (2d6+4/&times;3)   ",
 				"**Ranged** mwk light crossbow +8 (1d8/19-20)   ",
 				"**Special Attacks** favored enemy (dwarves +4, elves +2)   ",
 				"**Spell-Like Abilities (CL 6th; concentration +3)   ",
@@ -25745,7 +25745,7 @@
 			],
 			"tactics": [
 				"**Before Combat** The lieutenant casts ironskin and lead blades on himself.   ",
-				"**Base Statistics** When not under the effects of ironskin and lead blades, the lieutenant's statistics are AC 16, touch 11, flat-footed 15; Melee +1 warhammer +11/+6 (1d8+4/x3)."
+				"**Base Statistics** When not under the effects of ironskin and lead blades, the lieutenant's statistics are AC 16, touch 11, flat-footed 15; Melee +1 warhammer +11/+6 (1d8+4/&times;3)."
 			],
 			"str": 16,
 			"dex": 12,
@@ -25796,7 +25796,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft.   ",
-				"**Melee** mwk dwarven waraxe +5 (2d8+4/x3)   ",
+				"**Melee** mwk dwarven waraxe +5 (2d8+4/&times;3)   ",
 				"**Ranged** heavy crossbow +3 (2d8/19-20)   ",
 				"**Spell-Like Abilities (CL 2nd; concentration -1)   ",
 				"*1/day*-enlarge person (self only), invisibility (self only)"
@@ -25850,7 +25850,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft.   ",
-				"**Melee** warhammer +3 (1d8+2/x3)   ",
+				"**Melee** warhammer +3 (1d8+2/&times;3)   ",
 				"**Ranged** mwk light crossbow +4 (1d8/19-20)   ",
 				"**Special Attacks** favored enemy (dwarves +2)   ",
 				"**Spell-Like Abilities (CL 1st; concentration -2)   ",
@@ -26270,7 +26270,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** dagger +2 (1d4+1/19-20)   ",
-				"**Ranged** composite longbow +4 (1d8+1/x3)   ",
+				"**Ranged** composite longbow +4 (1d8+1/&times;3)   ",
 				"**Special Attacks** favored enemy (undead +2), ghost hunter"
 			],
 			"str": 13,
@@ -27370,7 +27370,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** +2 battleaxe +19/+14/+9 (1d8+6/x3)   ",
+				"**Melee** +2 battleaxe +19/+14/+9 (1d8+6/&times;3)   ",
 				"**Ranged** mwk throwing axe +17 (1d6+4)   ",
 				"**Special Attacks** challenge of single combat   ",
 				"**Spell-Like Abilities (CL 10th; concentration +10)   ",
@@ -30865,7 +30865,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** guisarme +10 (2d4+7/x3) or longsword +10 (1d8+5/19-20), slam +5 (1d4+2)   ",
+				"**Melee** guisarme +10 (2d4+7/&times;3) or longsword +10 (1d8+5/19-20), slam +5 (1d4+2)   ",
 				"**Space** 5 ft., **Reach** 5 ft. (10 ft. with guisarme)"
 			],
 			"str": 20,
@@ -31077,7 +31077,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., fly 60 ft. (good)   ",
-				"**Melee** lash +22/+17/+12 (1d6+5/x2 plus poison)   ",
+				"**Melee** lash +22/+17/+12 (1d6+5/&times;2 plus poison)   ",
 				"**Space** 5 ft., **Reach** 5 ft. (10 ft. with lash)   ",
 				"**Special Attacks** lash, sneak attack +3d6   ",
 				"**Spell-Like Abilities (CL 13th; concentration +19)   ",
@@ -31146,8 +31146,8 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., swim 80 ft.   ",
-				"**Melee** slam +10 (1d4+4 plus intoxication) or spear +8 (1d8+4/x3)   ",
-				"**Ranged** spear +10 (1d8+3/x3)   ",
+				"**Melee** slam +10 (1d4+4 plus intoxication) or spear +8 (1d8+4/&times;3)   ",
+				"**Ranged** spear +10 (1d8+3/&times;3)   ",
 				"**Spell-Like Abilities (CL 10th; concentration +15)   ",
 				"*At will*-charm person (DC 16), suggestion (DC 18), unnatural lust (DC 17)   ",
 				"*3/day*-charm monster (DC 18), confusion (DC 19), daze monster (DC 17)   ",
@@ -31333,7 +31333,7 @@
 			"offense": [
 				"**Speed** 70 ft., fly 90 ft. (good)   ",
 				"**Melee** +3 cold iron keen longsword +20/+20/+15 (1d8+12/17-20 plus bleed)   ",
-				"**Ranged** +3 ironwood longbow +20/+20/+15 (1d8+3/x3 plus bleed)   ",
+				"**Ranged** +3 ironwood longbow +20/+20/+15 (1d8+3/&times;3 plus bleed)   ",
 				"**Special Attacks** bleed (1d6), favored enemy (all humanoids +10), ironwood mastery   ",
 				"**Spell-Like Abilities (CL 20th; concentration +25)   ",
 				"*Constant*-blur, haste (self only), protection from evil, protection from law, speak with animals, speak with plants   ",
@@ -31888,7 +31888,7 @@
 			"offense": [
 				"**Speed** 60 ft., burrow 30 ft.; earth glide   ",
 				"**Melee** viper rod +35/+30/+25/+20 (1d8+14 plus poison), 6 snake bites +28 (1d6+4 plus poison)   ",
-				"**Ranged** viper fangs +37/+32/+27/+22 (1d8+5/x3 plus poison)   ",
+				"**Ranged** viper fangs +37/+32/+27/+22 (1d8+5/&times;3 plus poison)   ",
 				"**Space** 5 ft., **Reach** 5 ft. (10 ft. with snake bites)   ",
 				"**Special Attacks** gaze, irresistible poison, poison, shattering shriek, snake independence, statue control, viper rod   ",
 				"**Spell-Like Abilities (CL 20th; concentration +30)   ",

@@ -29,7 +29,7 @@
 			],
 			"offense": [
 				"**Speed** 40 ft., fly 80 ft. (poor)   ",
-				"**Melee** bite +37 (4d8+19/19-20/x3), 2 claws +37 (3d6+13/19-20 plus grab), tail slap +32 (2d8+19), 2 wings +32 (1d8+6)   ",
+				"**Melee** bite +37 (4d8+19/19-20/&times;3), 2 claws +37 (3d6+13/19-20 plus grab), tail slap +32 (2d8+19), 2 wings +32 (1d8+6)   ",
 				"**Ranged** 2 eye rays +29 touch (15d6 fire/19-20 plus burn)   ",
 				"**Space** 15 ft., **Reach** 15 ft.   ",
 				"**Special Attacks** burble, burn (6d6, DC 34), eye rays, whiffling"
@@ -169,7 +169,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** mwk battleaxe +6 (1d8+2/x3), bite +0 (1d6+1) or bite +5 (1d6+3)   ",
+				"**Melee** mwk battleaxe +6 (1d8+2/&times;3), bite +0 (1d6+1) or bite +5 (1d6+3)   ",
 				"**Special Attacks** sleep gaze, weapon intuition"
 			],
 			"str": 15,
@@ -799,7 +799,7 @@
 			],
 			"offense": [
 				"**Speed** 50 ft., fly 20 ft. (poor)   ",
-				"**Melee** bite +31 (3d6+19/19-20/x3 plus grab), 2 talons +31 (1d8+13)   ",
+				"**Melee** bite +31 (3d6+19/19-20/&times;3 plus grab), 2 talons +31 (1d8+13)   ",
 				"**Space** 15 ft., **Reach** 15 ft. (20 ft. with bite)   ",
 				"**Special Attacks** deadly bite, shriek, swallow whole (3d6+19 bludgeoning plus 2d6 acid damage, AC 20, 23 hp)"
 			],
@@ -1006,7 +1006,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., fly 90 ft. (good)   ",
-				"**Melee** +1 ghost touch spear +14/+9/+4 (1d8+4/x3 plus 1d6 fire), bite +8 (1d6+1 plus 1d6 fire)   ",
+				"**Melee** +1 ghost touch spear +14/+9/+4 (1d8+4/&times;3 plus 1d6 fire), bite +8 (1d6+1 plus 1d6 fire)   ",
 				"**Ranged** ray +16 ranged touch (by spell)   ",
 				"**Special Attacks** breath weapon (60-ft. cone, 11d6 fire, Reflex DC 19 half, usable once every 1d4 rounds), positive energy   ",
 				"**Spell-Like Abilities (CL 11th; concentration +13)   ",
@@ -1308,7 +1308,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., fly 120 ft. (perfect)   ",
-				"**Melee** 4 claws +19 (1d6+12/19-20/x3 plus bleed and pain)   ",
+				"**Melee** 4 claws +19 (1d6+12/19-20/&times;3 plus bleed and pain)   ",
 				"**Special Attacks** bleed (1d6), deadly claws, delayed doom, pain   ",
 				"**Spell-Like Abilities (CL 12th; concentration +18)   ",
 				"*Constant*-greater magic fang   ",
@@ -1337,7 +1337,7 @@
 				"**Treasure** standard"
 			],
 			"special_abilities": [
-				"**Deadly Claws (Ex)** A kamaitachi's claws threaten a critical hit on a roll of 19-20 and deal x3 damage on a confirmed critical hit.",
+				"**Deadly Claws (Ex)** A kamaitachi's claws threaten a critical hit on a roll of 19-20 and deal &times;3 damage on a confirmed critical hit.",
 				"",
 				"**Delayed Doom (Su)** When a kamaitachi deals damage with a claw, it can delay the damage (including the bleed and pain effect). If it does, the damage doesn't take effect immediately. Instead, at any time in the next 2 weeks, the kamaitachi can cause the damage, bleed, and pain effects to instantly manifest as a free action. It can activate as many delayed doom effects on a single target as it wishes with the same free action, potentially cutting a victim who seemed unharmed into ribbons. The victim must remain within 1 mile of the kamaitachi between the time it incurs the damage and its manifestation-a victim who moves beyond this limit causes the delayed doom effect to immediately end without harm. Most kamaitachi try to keep track of their delayed doom victims via status.",
 				"",
@@ -1876,8 +1876,8 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** improvised weapon +4 (1d4+2/x3)   ",
-				"**Ranged** improvised weapon +6 (1d3+2/x3)   ",
+				"**Melee** improvised weapon +4 (1d4+2/&times;3)   ",
+				"**Ranged** improvised weapon +6 (1d3+2/&times;3)   ",
 				"**Space** 2-1/2 ft., **Reach** 0 ft.   ",
 				"**Spell-Like Abilities (CL 6th; concentration +8)   ",
 				"*At will*-invisibility (self only), statue (self only)   ",
@@ -1907,7 +1907,7 @@
 				"**Treasure** standard"
 			],
 			"special_abilities": [
-				"**Improvised Weapon Mastery (Ex)** A shikigami gains Catch Off-Guard and Throw Anything as bonus feats, and adds its Charisma modifier instead of its Strength modifier to damage done with any improvised weapon, as attacks it makes with such weapons seem supernaturally lucky in landing damaging blows. Although a shikigami is Tiny, it never provokes attacks of opportunity when it attacks an adjacent foe with a melee weapon. If a shikigami critically hits an opponent with an improvised weapon, it deals x3 damage. A shikigami is proficient with improvised weapons."
+				"**Improvised Weapon Mastery (Ex)** A shikigami gains Catch Off-Guard and Throw Anything as bonus feats, and adds its Charisma modifier instead of its Strength modifier to damage done with any improvised weapon, as attacks it makes with such weapons seem supernaturally lucky in landing damaging blows. Although a shikigami is Tiny, it never provokes attacks of opportunity when it attacks an adjacent foe with a melee weapon. If a shikigami critically hits an opponent with an improvised weapon, it deals &times;3 damage. A shikigami is proficient with improvised weapons."
 			],
 			"description": [
 				"Shikigami are the least of the kami, yet they make up for their lowly status with their loyalty and bravery. Unlike most other well-known types of kami, shikigami are more often associated with rural and urban regions than with natural settings. These kami are the protectors of the minor works of civilization-things like milestones, waymarkers, tiny garden statues, and other relatively mundane works of art crafted by humanoid hands.",
@@ -2101,8 +2101,8 @@
 			],
 			"offense": [
 				"**Speed** fly 30 ft. (perfect, 40 ft. without armor)   ",
-				"**Melee** +1 holy halberd +18/+13/+8 (1d10+7/x3)   ",
-				"**Ranged** +1 holy composite longbow +20/+15/+10 (1d8+5/x3)   ",
+				"**Melee** +1 holy halberd +18/+13/+8 (1d10+7/&times;3)   ",
+				"**Ranged** +1 holy composite longbow +20/+15/+10 (1d8+5/&times;3)   ",
 				"**Special Attacks** healing arrow, holy weapons   ",
 				"**Spell-Like Abilities (CL 13th; concentration +18)   ",
 				"*Constant*-detect evil, see invisibility   ",
@@ -2922,7 +2922,7 @@
 			"offense": [
 				"**Speed** 40 ft., climb 20 ft.   ",
 				"**Melee** bite +5 (1d6+1), 2 claws +5 (1d4+1)   ",
-				"**Ranged** longbow +6 (1d8/x3)   ",
+				"**Ranged** longbow +6 (1d8/&times;3)   ",
 				"**Special Attacks** rend (2 claws 1d4 +1)   ",
 				"**Spell-Like Abilities (CL 4th; concentration +4)   ",
 				"*Constant*-pass without trace"
@@ -3616,7 +3616,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** spear +4 (1d6+1/x3)   ",
+				"**Melee** spear +4 (1d6+1/&times;3)   ",
 				"**Ranged** net +6 (special)   ",
 				"**Special Attacks** steal fire"
 			],
@@ -4113,7 +4113,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft.   ",
-				"**Melee** +1 lance +11/+6 (1d6+2/x3), mwk short sword +10/+5 (1d4+1/19-20)   ",
+				"**Melee** +1 lance +11/+6 (1d6+2/&times;3), mwk short sword +10/+5 (1d4+1/19-20)   ",
 				"**Special Attacks** banner +2/+1, breath weapon (30-ft. line, 2d6 electricity damage, Reflex DC 14 half, usable every 1d4 rounds), cavalier's charge, challenge (+7, +2, 3/day)"
 			],
 			"str": 12,
@@ -4224,7 +4224,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** mwk spear +2 (1d6-1/x3)   ",
+				"**Melee** mwk spear +2 (1d6-1/&times;3)   ",
 				"**Ranged** sling +5 (1d3-1)   ",
 				"**Special Attacks** bomb 6/day (1d6+2 fire, DC 13), bomb trap   ",
 				"Alchemist Extracts Prepared (CL 2nd)   ",
@@ -4475,7 +4475,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** dagger +3 (1d3-1/19-20)   ",
-				"**Ranged** mwk shortbow +9 (1d4/x3)   ",
+				"**Ranged** mwk shortbow +9 (1d4/&times;3)   ",
 				"**Special Attacks** sneak attack +3d6"
 			],
 			"tactics": [
@@ -4533,7 +4533,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft.   ",
-				"**Melee** mwk lance +4 (1d6/x3)   ",
+				"**Melee** mwk lance +4 (1d6/&times;3)   ",
 				"**Special Attacks** challenge (+2, +1, 1/day)"
 			],
 			"str": 11,
@@ -4704,7 +4704,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** +1 short sword +7/+2 (1d4/19-20)   ",
-				"**Ranged** +1 shortbow +13/+8 (1d4+1/x3)   ",
+				"**Ranged** +1 shortbow +13/+8 (1d4+1/&times;3)   ",
 				"**Special Attacks** bardic performance 20 rounds/day (move action; countersong, frightful song [DC 16], distraction, inspire competence +3, inspire courage +2, suggestion [DC 16], yapping song [DC 16])   ",
 				"**Bard Spells Known ** (CL 8th; concentration +10)   ",
 				"*3rd (2/day)*-confusion (DC 15), deep slumber (DC 15), haste   ",
@@ -5876,7 +5876,7 @@
 			],
 			"offense": [
 				"**Speed** 40 ft.   ",
-				"**Melee** lancet +14/+9 (1d4+7/19-20/x3), lancet +14 (1d4+5/19-20/x3)   ",
+				"**Melee** lancet +14/+9 (1d4+7/19-20/&times;3), lancet +14 (1d4+5/19-20/&times;3)   ",
 				"**Special Attacks** unnerving gaze (30 ft., DC 16)   ",
 				"**Spell-Like Abilities (CL 7th; concentration +9)   ",
 				"*Constant*-aura of truth (DC 14)   ",
@@ -6453,7 +6453,7 @@
 			"offense": [
 				"**Speed** 30 ft.; [air walk](unknown:air_walk)   ",
 				"**Melee** 2 claws +22 (2d6+6 plus 2d6 cold), 2 chains +22 (1d8+6)   ",
-				"**Ranged** 4 icicles +23 (1d8+6/19-20/x3 plus 2d6 cold)   ",
+				"**Ranged** 4 icicles +23 (1d8+6/19-20/&times;3 plus 2d6 cold)   ",
 				"**Special Attacks** perfect freeze, unnerving gaze (30 ft., DC 21)   ",
 				"**Spell-Like Abilities (CL 13th; concentration +16)   ",
 				"*Constant*-air walk   ",
@@ -7245,7 +7245,7 @@
 			],
 			"offense": [
 				"**Speed** 10 ft., fly 60 ft. (good)   ",
-				"**Melee** bite +29 (2d8+10/19-20/x4 plus 2d6 acid damage and 2 Wisdom drain), 2 claws +29 (1d8+10 plus 2 Wisdom drain)   ",
+				"**Melee** bite +29 (2d8+10/19-20/&times;4 plus 2d6 acid damage and 2 Wisdom drain), 2 claws +29 (1d8+10 plus 2 Wisdom drain)   ",
 				"**Space** 15 ft., **Reach** 15 ft.   ",
 				"**Special Attacks** devastating bite, vile spew   ",
 				"**Spell-Like Abilities (CL 15th; concentration +19)   ",
@@ -7276,7 +7276,7 @@
 				"**Treasure** standard"
 			],
 			"special_abilities": [
-				"**Devastating Bite (Ex)** A hungerer's bite deals x4 damage on a successful critical hit. If this damage is enough to reduce a victim to negative hit points, the victim must succeed at a DC 30 Fortitude save to avoid being decapitated, bitten in half, or otherwise instantly killed by the horrific wound. The save DC is Strength-based.",
+				"**Devastating Bite (Ex)** A hungerer's bite deals &times;4 damage on a successful critical hit. If this damage is enough to reduce a victim to negative hit points, the victim must succeed at a DC 30 Fortitude save to avoid being decapitated, bitten in half, or otherwise instantly killed by the horrific wound. The save DC is Strength-based.",
 				"",
 				"**Vile Spew (Su)** Whenever a hungerer takes damage, the resulting wound spews a great gout of vile blood and acid. Any creature adjacent to a hungerer when it is wounded takes 2d6 points of acid damage (Reflex DC 25 negates). The save DC is Constitution-based.",
 				"",
@@ -7317,7 +7317,7 @@
 			"offense": [
 				"**Speed** 20 ft., fly 60 ft. (good)   ",
 				"**Melee** bite +16 (1d6+5 plus disease), 2 talons +16 (1d4+5)   ",
-				"**Ranged** mwk Large composite longbow +18/+13/+8 (2d6+5/x3)   ",
+				"**Ranged** mwk Large composite longbow +18/+13/+8 (2d6+5/&times;3)   ",
 				"**Special Attacks** catastrophic shot, disease"
 			],
 			"str": 20,
@@ -7453,7 +7453,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** bite +11 (1d8-2), 2 claws +11 (1d10-2/19-20 plus eye pluck)   ",
-				"**Ranged** +1 shortbow +13 (1d4-1/x3)   ",
+				"**Ranged** +1 shortbow +13 (1d4-1/&times;3)   ",
 				"**Special Attacks** eye pluck, special arrows   ",
 				"**Spell-Like Abilities (CL 10th; concentration +12)   ",
 				"*Constant*-detect chaos, detect evil, detect good, detect law   ",
@@ -9041,7 +9041,7 @@
 			"offense": [
 				"**Speed** 30 ft.; lily pad stride   ",
 				"**Melee** slam +8 (1d4)   ",
-				"**Ranged** seed spray +8 (1d3 nonlethal/x3 plus dream pollen)   ",
+				"**Ranged** seed spray +8 (1d3 nonlethal/&times;3 plus dream pollen)   ",
 				"**Special Attacks** dream pollen, seed spray   ",
 				"**Spell-Like Abilities (CL 14th; concentration +16)   ",
 				"*Constant*-lily pad stride, pass without trace"
@@ -9073,7 +9073,7 @@
 				"",
 				"**Dream Pollen (Ex)** A lotus leshy can expel pollen in a 15-foot cone. All creatures within the cone (as well as those who take damage from seed spray) must succeed at a DC 16 Will save or fall asleep for 1d4 rounds. The save DC is Constitution-based.",
 				"",
-				"**Seed Spray (Ex)** A lotus leshy can shoot several of its seeds at targets within 30 feet. It can shoot up to 6 seeds as a standard action, dividing the seeds as it chooses among targets in range. Each seed deals 1d3 points of nonlethal damage. The leshy rolls a single attack roll to determine the accuracy of all of the seeds in the spray. The attack has a x3 critical multiplier, and the leshy makes only one roll to confirm a critical threat."
+				"**Seed Spray (Ex)** A lotus leshy can shoot several of its seeds at targets within 30 feet. It can shoot up to 6 seeds as a standard action, dividing the seeds as it chooses among targets in range. Each seed deals 1d3 points of nonlethal damage. The leshy rolls a single attack roll to determine the accuracy of all of the seeds in the spray. The attack has a &times;3 critical multiplier, and the leshy makes only one roll to confirm a critical threat."
 			],
 			"description": [
 				"Enigmatic lotus leshys are wise guardians of secluded ponds and lakes. They spend most of their time in meditation as lotus flowers, sometimes for decades at a time. Although lotus leshys spend most of their time floating in solitary reflection, they do not shun the company of other creatures, and take humanoid form whenever they wish to speak. They find discussions of religion and philosophy particularly fascinating, and delight in fresh perspectives. Although they study deities of self-perfection and contemplation extensively, they do not revere such beings.",
@@ -9746,7 +9746,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft.   ",
-				"**Melee** +1 scythe +15/+10 (2d4+8/19-20/x4)   ",
+				"**Melee** +1 scythe +15/+10 (2d4+8/19-20/&times;4)   ",
 				"**Special Attacks** channel negative energy 9/day (DC 19, 6d6), disembodied strike (1d8+5); hand of the acolyte (8/day), soul lash (DC 19; 5d6)   ",
 				"**Cleric Spells Prepared ** (CL 11th; concentration +16)   ",
 				"*6th*-antilife shell, create undead[^D]   ",
@@ -11769,7 +11769,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft., swim 15 ft.   ",
-				"**Melee** +1 lance +17/+12 (1d8+8/19-20/x3) or claw +15 (1d6+5), bite +10 (1d4+2)   ",
+				"**Melee** +1 lance +17/+12 (1d8+8/19-20/&times;3) or claw +15 (1d6+5), bite +10 (1d4+2)   ",
 				"**Ranged** javelin +10 (1d6+5)   ",
 				"**Special Attacks** banner +2/+1, cavalier's charge, challenge (+9, +3, 3/day)"
 			],
@@ -11845,7 +11845,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft., swim 25 ft.   ",
-				"**Melee** +1 spear +11/+6 (1d8+1/x3), bite +5 (1d4) or 2 claws +10 (1d4), bite +5 (1d4)   ",
+				"**Melee** +1 spear +11/+6 (1d8+1/&times;3), bite +5 (1d4) or 2 claws +10 (1d4), bite +5 (1d4)   ",
 				"**Ranged** mwk sling +11 (1d4)   ",
 				"**Special Attacks** dispel hostility, undo artifice, wild shape 5/day   ",
 				"**Druid Spells Prepared ** (CL 12th; concentration +17)   ",
@@ -12030,7 +12030,7 @@
 			"offense": [
 				"**Speed** 30 ft., swim 15 ft.   ",
 				"**Melee** 2 claws +6 (1d6+3), bite +4 (1d4+1)   ",
-				"**Ranged** mwk longbow +5 (1d8/x3)   ",
+				"**Ranged** mwk longbow +5 (1d8/&times;3)   ",
 				"**Special Attacks** combat style (natural weapon), favored enemy (humans +2)"
 			],
 			"tactics": [
@@ -12084,7 +12084,7 @@
 			"offense": [
 				"**Speed** 30 ft., swim 30 ft.   ",
 				"**Melee** 2 claws +13 (1d6+4), bite +7 (1d4+2), tail slap +7 (1d4+2)   ",
-				"**Ranged** +1 composite longbow +10/+5 (1d8+5/x3)   ",
+				"**Ranged** +1 composite longbow +10/+5 (1d8+5/&times;3)   ",
 				"**Special Attacks** combat style (natural weapon), favored enemy (humans +4, reptilian humanoids +2)"
 			],
 			"str": 18,
@@ -12301,7 +12301,7 @@
 			],
 			"offense": [
 				"**Speed** 10 ft., swim 60 ft.   ",
-				"**Melee** longspear +2 (1d8/x3)   ",
+				"**Melee** longspear +2 (1d8/&times;3)   ",
 				"**Ranged** light crossbow +2 (1d8/19-20)"
 			],
 			"str": 10,
@@ -14070,7 +14070,7 @@
 			],
 			"offense": [
 				"**Speed** 40 ft., fly 60 ft. (perfect)   ",
-				"**Melee** unarmed strike +28/+23/+18/+13 (2d10+8/19-20/x3)   ",
+				"**Melee** unarmed strike +28/+23/+18/+13 (2d10+8/19-20/&times;3)   ",
 				"**Ranged** lunar rays +31/+26/+21/+16 touch (8d6 cold and 8d6 positive energy)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** anatomical undoing, lunar rays, stunning fist (6/day, DC 18)   ",
@@ -14707,7 +14707,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** dagger +10/+5 (1d4/19-20), snake bite +5 (1d4 plus poison)   ",
-				"**Ranged** mwk longbow +11/+6 (1d8/x3)   ",
+				"**Ranged** mwk longbow +11/+6 (1d8/&times;3)   ",
 				"**Special Attacks** petrifying gaze"
 			],
 			"str": 10,
@@ -14772,7 +14772,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** 2 claws +16 (1d6+2), snake bite +16 (1d6+2 plus poison), tail slap +11 (1d8+1 plus grab) or mwk scimitar +15/+10/+5 (1d8+2/18-20)   ",
-				"**Ranged** +2 seeking composite longbow +18/+13/+8 (2d6+4/x3)   ",
+				"**Ranged** +2 seeking composite longbow +18/+13/+8 (2d6+4/&times;3)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** constrict (1d8+1), favored enemy (humans +2, monstrous humanoids +4), petrifying gaze   ",
 				"**Ranger Spells Prepared ** (CL 2nd; concentration +3)   ",
@@ -16908,7 +16908,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** greataxe +9/+4 (3d6+6/x3) and gore +4 (1d6+2)   ",
+				"**Melee** greataxe +9/+4 (3d6+6/&times;3) and gore +4 (1d6+2)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** powerful charge (gore +11, 2d6+6)"
 			],
@@ -17032,7 +17032,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** +1 greataxe +26/+21/+16 (3d6+17/19-20/x3), gore +20 (1d8+5) or gore +25 (1d8+16)   ",
+				"**Melee** +1 greataxe +26/+21/+16 (3d6+17/19-20/&times;3), gore +20 (1d8+5) or gore +25 (1d8+16)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** bronze mask, powerful charge (gore, 2d8+16), steel-shod hooves, trample (2d6+16, DC 28)"
 			],
@@ -17114,8 +17114,8 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** +1 greataxe +12/+7 (3d6+7/x3), gore +11 (1d6+2)   ",
-				"**Ranged** mwk composite longbow +11/+6 (2d6+6/x3)   ",
+				"**Melee** +1 greataxe +12/+7 (3d6+7/&times;3), gore +11 (1d6+2)   ",
+				"**Ranged** mwk composite longbow +11/+6 (2d6+6/&times;3)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** combat style (two-handed weapon), favored enemy (monstrous humanoids +2), powerful charge (gore, 1d6+17)"
 			],
@@ -17173,7 +17173,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft.   ",
-				"**Melee** +1 glaive +21/+16/+11 (2d8+10/19-20/x3), gore +19 (1d6+9)   ",
+				"**Melee** +1 glaive +21/+16/+11 (2d8+10/19-20/&times;3), gore +19 (1d6+9)   ",
 				"**Ranged** mwk light crossbow +14 (2d6/19-20)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** channel negative energy 3/day (DC 15, 6d6), scythe of evil (5 rounds, 1/day), might of the gods (+11, 11 rounds/day), powerful charge (gore, 2d6+9)   ",
@@ -18831,7 +18831,7 @@
 			"offense": [
 				"**Speed** 20 ft.   ",
 				"**Melee** mwk dagger +10/+5 (1d4+4/19-20), mwk dagger +10/+5 (1d4+2/19-20) or mwk dagger +12/+7 (1d4+4/19-20)   ",
-				"**Ranged** mwk longbow +10/+5 (1d8/x3)   ",
+				"**Ranged** mwk longbow +10/+5 (1d8/&times;3)   ",
 				"**Special Attacks** ferocious rush, sneak attack +3d6"
 			],
 			"str": 18,
@@ -19081,7 +19081,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft.   ",
-				"**Melee** adamantine warhammer +16/+11/+6 (1d8+6/x3)   ",
+				"**Melee** adamantine warhammer +16/+11/+6 (1d8+6/&times;3)   ",
 				"**Special Attacks** fatal accident (1/day, 12d6 or 6d6 plus maneuver, DC 21 half)   ",
 				"**Spell-Like Abilities (CL 17th; concentration +20)   ",
 				"*At will*-meld into stone   ",
@@ -19870,7 +19870,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** +1 spear +12/+7 (1d8+8/x3 plus insidious mummy rot) or slam +11 (1d6+7 plus insidious mummy rot)   ",
+				"**Melee** +1 spear +12/+7 (1d8+8/&times;3 plus insidious mummy rot) or slam +11 (1d6+7 plus insidious mummy rot)   ",
 				"**Special Attacks** channel negative energy 8/day (DC 21, 5d6), channel rot, insidious mummy rot (DC 19), sandstorm wrath (DC 19, 6d8 fire and slashing), scythe of evil (4 rounds, 1/day), undead mastery (DC 19)   ",
 				"**Domain Spell-Like Abilities** (CL 9th; concentration +14)   ",
 				"*8/day*-touch of darkness (4 rounds), touch of evil (4 rounds)   ",
@@ -20003,8 +20003,8 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., swim 40 ft.   ",
-				"**Melee** mwk spear +7 (1d8+3/x3), 2 claws +6 (1d6+2)   ",
-				"**Ranged** mwk spear +7 (1d8+2/x3)   ",
+				"**Melee** mwk spear +7 (1d8+3/&times;3), 2 claws +6 (1d6+2)   ",
+				"**Ranged** mwk spear +7 (1d8+2/&times;3)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** rend (2 claws, 1d6+3)"
 			],
@@ -20939,8 +20939,8 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** naginata +5 (1d8+4/x4) or claw +4 (1d4+4)   ",
-				"**Ranged** longbow +3 (1d8/x3)   ",
+				"**Melee** naginata +5 (1d8+4/&times;4) or claw +4 (1d4+4)   ",
+				"**Ranged** longbow +3 (1d8/&times;3)   ",
 				"**Space** 5 ft., **Reach** 5 ft. (10 ft. with naginata)"
 			],
 			"str": 17,
@@ -21789,7 +21789,7 @@
 			"offense": [
 				"**Speed** 40 ft. (30 ft. in armor)   ",
 				"**Melee** +1 longsword +18/+13/+8 (2d6+11/17-20) or 2 slams +17 (1d6+7)   ",
-				"**Ranged** mwk spear +13/+8/+3 (2d6+7/x3)   ",
+				"**Ranged** mwk spear +13/+8/+3 (2d6+7/&times;3)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** crushing blow, mortal challenge"
 			],
@@ -23169,8 +23169,8 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** dagger +7 (1d3-1/19-20) or spear +3 (1d6-1/x3)   ",
-				"**Ranged** longbow +7 (1d6/x3) or spear +7 (1d6-1/x3)   ",
+				"**Melee** dagger +7 (1d3-1/19-20) or spear +3 (1d6-1/&times;3)   ",
+				"**Ranged** longbow +7 (1d6/&times;3) or spear +7 (1d6-1/&times;3)   ",
 				"**Spell-Like Abilities (CL 6th; concentration +10)   ",
 				"*At will*-charm animal (DC 15), create water, endure elements   ",
 				"*3/day*-detect thoughts (DC 16), entangle (DC 15), invisibility (self only)   ",
@@ -24550,13 +24550,13 @@
 			],
 			"offense": [
 				"**Speed** 50 ft.   ",
-				"**Melee** +1 greataxe +15/+10 (3d6+14/x3)   ",
+				"**Melee** +1 greataxe +15/+10 (3d6+14/&times;3)   ",
 				"**Ranged** javelin +5/+0 (1d8+9)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** rage (12 rounds/day), rage powers (scent)"
 			],
 			"tactics": [
-				"**Base Statistics** When he's not raging, the brute's statistics are AC 19, touch 10, flat-footed 19; hp 74; Fort +12, Will +6; Melee +1 greataxe +13/+8 (3d6+11/x3); Str 25, Con 19; CMB +14, CMD 25; Skills Climb +10."
+				"**Base Statistics** When he's not raging, the brute's statistics are AC 19, touch 10, flat-footed 19; hp 74; Fort +12, Will +6; Melee +1 greataxe +13/+8 (3d6+11/&times;3); Str 25, Con 19; CMB +14, CMD 25; Skills Climb +10."
 			],
 			"str": 29,
 			"dex": 10,
@@ -24687,12 +24687,12 @@
 			],
 			"offense": [
 				"**Speed** 50 ft.   ",
-				"**Melee** +1 greataxe +21/+16/+11 (3d6+16/x3), bite +15 (1d8+15 plus animal fury) or unarmed strike +20/+15/+10 (1d4+15)   ",
+				"**Melee** +1 greataxe +21/+16/+11 (3d6+16/&times;3), bite +15 (1d8+15 plus animal fury) or unarmed strike +20/+15/+10 (1d4+15)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** rage (21 rounds/day), rage powers (animal fury, scent, strength surge +8, superstition +4)"
 			],
 			"tactics": [
-				"**Base Statistics** When not raging, the glutton's statistics are AC 22, touch 12, flat-footed 20; hp 131; Fort +14, Will +7; Melee +1 greataxe +19/+14/+9 (3d6+13/x3), bite +13 (1d8+12 plus animal fury) or unarmed strike +18/+13/+8 (1d4+12); Str 26, Con 17; CMB +20, CMD 33."
+				"**Base Statistics** When not raging, the glutton's statistics are AC 22, touch 12, flat-footed 20; hp 131; Fort +14, Will +7; Melee +1 greataxe +19/+14/+9 (3d6+13/&times;3), bite +13 (1d8+12 plus animal fury) or unarmed strike +18/+13/+8 (1d4+12); Str 26, Con 17; CMB +20, CMD 33."
 			],
 			"str": 30,
 			"dex": 15,
@@ -24746,7 +24746,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** mwk greatsword +18/+13 (3d6+12/19-20)   ",
-				"**Ranged** mwk composite shortbow +10/+5 (1d8+8/x3)   ",
+				"**Ranged** mwk composite shortbow +10/+5 (1d8+8/&times;3)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** combat style (two-handed weapon), favored enemy (animals +2, humans +4)"
 			],
@@ -24892,7 +24892,7 @@
 			],
 			"offense": [
 				"**Speed** 40 ft.   ",
-				"**Melee** +1 ogre hook +17/+12 (2d8+14/x3 plus trip) or unarmed strike +16/+11 (1d4+12)   ",
+				"**Melee** +1 ogre hook +17/+12 (2d8+14/&times;3 plus trip) or unarmed strike +16/+11 (1d4+12)   ",
 				"**Ranged** javelin +8/+3 (1d8+7)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** weapon training (polearms +1)"
@@ -25066,7 +25066,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** mwk greataxe +10 (3d6+9/x3)   ",
+				"**Melee** mwk greataxe +10 (3d6+9/&times;3)   ",
 				"**Ranged** rock +5 (1d8+6)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** rock throwing (100 ft.)"
@@ -25346,7 +25346,7 @@
 			"special_abilities": [
 				"**Double Weapon Mastery (Ex)** An atamahuta fights with an orc double axe. While making a full attack, an atamahuta controls its arms with both heads and does not take a penalty on attack or damage rolls for attacking with a double weapon.",
 				"",
-				"**Spellstrike (Su)** An atamahuta can imbue its weapon with magical properties using its spell-like abilities. Whenever an atamahuta casts a spell with a range of \"touch\" from its spell-like abilities, it can deliver the spell through any weapon it is holding as part of a free melee attack at its highest base attack bonus as part of casting its spell. If successful, this melee attack deals its normal damage as well as the effects of the spell. This attack uses the weapon's critical multiplier (usually x3), but the spell effect only deals \u001b2 damage on a successful critical hit, while the weapon damage uses its own critical modifier. An atamahuta cannot make a full attack during the same round that it uses a spell-like ability unless another effect would allow it to do so.",
+				"**Spellstrike (Su)** An atamahuta can imbue its weapon with magical properties using its spell-like abilities. Whenever an atamahuta casts a spell with a range of \"touch\" from its spell-like abilities, it can deliver the spell through any weapon it is holding as part of a free melee attack at its highest base attack bonus as part of casting its spell. If successful, this melee attack deals its normal damage as well as the effects of the spell. This attack uses the weapon's critical multiplier (usually &times;3), but the spell effect only deals \u001b2 damage on a successful critical hit, while the weapon damage uses its own critical modifier. An atamahuta cannot make a full attack during the same round that it uses a spell-like ability unless another effect would allow it to do so.",
 				"",
 				"**Ward Off Distractions (Ex)** An atamahuta uses one of its heads to defend against attacks while the other is using a spell-like ability, giving it a +4 bonus to AC against attacks of opportunity while casting."
 			],
@@ -25650,8 +25650,8 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** mwk tetsubo +11/+6 (1d10+6/x4)   ",
-				"**Ranged** longbow +8/+3 (1d8/x3)   ",
+				"**Melee** mwk tetsubo +11/+6 (1d10+6/&times;4)   ",
+				"**Ranged** longbow +8/+3 (1d8/&times;3)   ",
 				"**Spell-Like Abilities (CL 6th; concentration +8)   ",
 				"*3/day*-command (DC 13), doom (DC 13), fly, magic weapon   ",
 				"*1/day*-bull's strength"
@@ -25824,7 +25824,7 @@
 			"offense": [
 				"**Speed** 30 ft. (40 ft. without armor)   ",
 				"**Melee** mwk greatclub +10 (1d10+6) or 2 claws +9 (1d6+4)   ",
-				"**Ranged** mwk composite longbow +9 (1d8+4/x3)   ",
+				"**Ranged** mwk composite longbow +9 (1d8+4/&times;3)   ",
 				"**Spell-Like Abilities (CL 5th; concentration +8)   ",
 				"*3/day*-darkness, fly   ",
 				"*1/day*-charm person (DC 14), deep slumber (DC 16), invisibility (self only)"
@@ -26292,7 +26292,7 @@
 			],
 			"offense": [
 				"**Speed** 50 ft., fly 60 ft. (good), swim 60 ft.   ",
-				"**Melee** mwk spear +35/+30/+25/+20 (3d6+21/19-20/x3) or 2 slams +34 (2d6+14)   ",
+				"**Melee** mwk spear +35/+30/+25/+20 (3d6+21/19-20/&times;3) or 2 slams +34 (2d6+14)   ",
 				"**Ranged** acidic missile +23 touch (4d6 acid plus nausea)   ",
 				"**Space** 15 ft., **Reach** 15 ft. (20 ft. with spear)   ",
 				"**Spell-Like Abilities (CL 18th; concentration +24)   ",
@@ -26401,7 +26401,7 @@
 				"**Treasure** standard (masterwork chain shirt, masterwork morningstar, other treasure)"
 			],
 			"special_abilities": [
-				"**Roaring Gale (Su)** As a standard action three times per day, a wind yai can select a point within sight on which to conjure a violent updraft, violently flinging its opponents into the air. When it uses this ability, the wind yai must make a single bull rush combat maneuver check (CMB equal to the wind yai's caster level + its Cha bonus; +21 for most wind yai) against all creatures in a 10-foot-radius burst. Any creature with a CMD score lower than the result of this check is hurled 1d6 x 10 feet straight up, and lands prone in a spot 1d4 x 5 feet from its original position. The wind yai selects the direction it wishes to throw its victims, and may select a different direction for each victim, though each must be thrown in a straight line. Creatures take falling damage for any impacts while traveling up or down in this way; if a creature collides with an object during its sideways movement, both the creature and the object take 1d6 points of damage and the creature is knocked prone in the space adjacent to the obstacle.",
+				"**Roaring Gale (Su)** As a standard action three times per day, a wind yai can select a point within sight on which to conjure a violent updraft, violently flinging its opponents into the air. When it uses this ability, the wind yai must make a single bull rush combat maneuver check (CMB equal to the wind yai's caster level + its Cha bonus; +21 for most wind yai) against all creatures in a 10-foot-radius burst. Any creature with a CMD score lower than the result of this check is hurled 1d6 &times; 10 feet straight up, and lands prone in a spot 1d4 &times; 5 feet from its original position. The wind yai selects the direction it wishes to throw its victims, and may select a different direction for each victim, though each must be thrown in a straight line. Creatures take falling damage for any impacts while traveling up or down in this way; if a creature collides with an object during its sideways movement, both the creature and the object take 1d6 points of damage and the creature is knocked prone in the space adjacent to the obstacle.",
 				"",
 				"**Shocking Missile (Su)** As a swift action, a wind yai can fire a bolt of electricity from its third eye as a ranged touch attack. This attack has a range of 180 feet with no range increment, and deals 4d6 points of damage. If the creature struck is wearing metal armor or is made of metal, it instead takes 4d8 points of damage. Upon being struck by this attack, the victim must make a DC 25 Fortitude save or be deafened for 1d4 rounds. The save DC is Charisma-based."
 			],
@@ -26457,8 +26457,8 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., fly 30 ft. (average)   ",
-				"**Melee** +1 kusarigama +10/+5 (1d6+4/x3), bite +3 (1d4+1)   ",
-				"**Ranged** composite longbow +10/+5 (1d8+2/x3)   ",
+				"**Melee** +1 kusarigama +10/+5 (1d6+4/&times;3), bite +3 (1d4+1)   ",
+				"**Ranged** composite longbow +10/+5 (1d8+2/&times;3)   ",
 				"**Special Attacks** steal voice   ",
 				"**Spell-Like Abilities (CL 5th; concentration +8)   ",
 				"*Constant*-see invisibility, ventriloquism (DC 14)   ",
@@ -26845,8 +26845,8 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** spear +5 (1d6+3/x3)   ",
-				"**Ranged** spear +4 (1d6+3/x3) or bolas +4 (1d3)   ",
+				"**Melee** spear +5 (1d6+3/&times;3)   ",
+				"**Ranged** spear +4 (1d6+3/&times;3) or bolas +4 (1d3)   ",
 				"**Special Attacks** tear apart"
 			],
 			"str": 17,
@@ -27034,7 +27034,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft.   ",
-				"**Melee** +1 lance +12/+7 (1d8+7/x3)   ",
+				"**Melee** +1 lance +12/+7 (1d8+7/&times;3)   ",
 				"**Ranged** javelin +7/+2 (1d6+4)   ",
 				"**Special Attacks** banner +2/+1, cavalier's charge, challenge (+7, +2, 3/day)"
 			],
@@ -27087,8 +27087,8 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** +1 orc double axe +18/+13 (1d8+9/19-20/x3) or +1 orc double axe +16/+11 (1d8+9/19-20/x3), +1 orc double axe +16 (1d8+5/19-20/x3)   ",
-				"**Ranged** mwk composite shortbow +15/+10 (1d6+5/x3)   ",
+				"**Melee** +1 orc double axe +18/+13 (1d8+9/19-20/&times;3) or +1 orc double axe +16/+11 (1d8+9/19-20/&times;3), +1 orc double axe +16 (1d8+5/19-20/&times;3)   ",
+				"**Ranged** mwk composite shortbow +15/+10 (1d6+5/&times;3)   ",
 				"**Special Attacks** weapon training (axes +2, bows +1)"
 			],
 			"str": 18,
@@ -27141,7 +27141,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** falchion +8 (2d4+4/18-20)   ",
-				"**Ranged** composite longbow +9/+9 (1d8+4/x3)   ",
+				"**Ranged** composite longbow +9/+9 (1d8+4/&times;3)   ",
 				"**Special Attacks** weapon training (bows +1)"
 			],
 			"str": 17,
@@ -27193,7 +27193,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft.   ",
-				"**Melee** battleaxe +5 (1d8+3/x3)   ",
+				"**Melee** battleaxe +5 (1d8+3/&times;3)   ",
 				"**Ranged** javelin +1 (1d6+3)   ",
 				"**Special Attacks** channel negative energy 4/day (DC 12, 2d6)   ",
 				"**Spell-Like Abilities (CL 3rd; concentration +4)   ",
@@ -27259,8 +27259,8 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** mwk battleaxe +10/+5 (1d8+3/x3)   ",
-				"**Ranged** +1 composite shortbow +10/+5 (1d6+4/x3)   ",
+				"**Melee** mwk battleaxe +10/+5 (1d8+3/&times;3)   ",
+				"**Ranged** +1 composite shortbow +10/+5 (1d6+4/&times;3)   ",
 				"**Special Attacks** combat style (archery), favored enemy (dwarves +4, humans +2)   ",
 				"**Ranger Spells Prepared ** (CL 3rd; concentration +4)   ",
 				"*1st*-longstrider, pass without trace"
@@ -27314,12 +27314,12 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** mwk spear +10 (1d8+9/x3) or falchion +9 (2d4+9/18-20)   ",
+				"**Melee** mwk spear +10 (1d8+9/&times;3) or falchion +9 (2d4+9/18-20)   ",
 				"**Ranged** javelin +2 (1d6+6)"
 			],
 			"tactics": [
 				"**Before Combat** The sergeant drinks a potion of bull's strength.   ",
-				"**Base Statistics** Without bull's strength, the sergeant's statistics are Melee mwk spear +8 (1d8+6/x3), or falchion +7 (2d4+6/18-20); Ranged javelin +2 (1d6+4); Str 19; CMB +7; CMD 16; Skills Intimidate +10."
+				"**Base Statistics** Without bull's strength, the sergeant's statistics are Melee mwk spear +8 (1d8+6/&times;3), or falchion +7 (2d4+6/18-20); Ranged javelin +2 (1d6+4); Str 19; CMB +7; CMD 16; Skills Intimidate +10."
 			],
 			"str": 23,
 			"dex": 8,
@@ -27599,7 +27599,7 @@
 			"offense": [
 				"**Speed** 20 ft.   ",
 				"**Melee** longsword +3 (1d8+3/19-20)   ",
-				"**Ranged** composite longbow +4 (1d8+2/x3)   ",
+				"**Ranged** composite longbow +4 (1d8+2/&times;3)   ",
 				"**Spell-Like Abilities (CL 1st; concentration +0)   ",
 				"*1/day*-magic stone"
 			],
@@ -28807,7 +28807,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Ranged** +1 pistols +15/+15/+10/+10/+5 (1d8+1/19-20/x4)   ",
+				"**Ranged** +1 pistols +15/+15/+10/+10/+5 (1d8+1/19-20/&times;4)   ",
 				"**Special Attacks** pistols, stranger's shot"
 			],
 			"str": 17,
@@ -28876,7 +28876,7 @@
 			],
 			"offense": [
 				"**Speed** 40 ft., fly 90 ft. (good)   ",
-				"**Melee** +1 unholy scythe +19/+14/+9 (2d4+10/x4 plus 2d6 vs. good creatures)   ",
+				"**Melee** +1 unholy scythe +19/+14/+9 (2d4+10/&times;4 plus 2d6 vs. good creatures)   ",
 				"**Special Attacks** bloodbath   ",
 				"**Spell-Like Abilities (CL 12th; concentration +17)   ",
 				"*Constant*-detect good, detect magic   ",
@@ -29275,7 +29275,7 @@
 			],
 			"offense": [
 				"**Speed** 20 ft.   ",
-				"**Melee** mwk heavy pick +9 (1d4+6/x4)   ",
+				"**Melee** mwk heavy pick +9 (1d4+6/&times;4)   ",
 				"**Special Attacks** earth mastery, pech magic, stone knowledge   ",
 				"**Spell-Like Abilities (CL 10th; concentration +11)   ",
 				"*3/day*-stone shape, stone tell"
@@ -30062,8 +30062,8 @@
 			],
 			"offense": [
 				"**Speed** 40 ft., fly 40 ft. (perfect)   ",
-				"**Melee** mwk lance +9/+4 (1d8+4/x3)   ",
-				"**Ranged** longbow +7/+2 (1d8/x3)   ",
+				"**Melee** mwk lance +9/+4 (1d8+4/&times;3)   ",
+				"**Ranged** longbow +7/+2 (1d8/&times;3)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** trample (1d6+4, DC 17)"
 			],
@@ -30822,7 +30822,7 @@
 			"offense": [
 				"**Speed** 20 ft., fly 60 ft. (good)   ",
 				"**Melee** short sword +8 (1d4-2/19-20)   ",
-				"**Ranged** longbow +8 (1d6-2/x3)   ",
+				"**Ranged** longbow +8 (1d6-2/&times;3)   ",
 				"**Special Attacks** special arrows   ",
 				"**Spell-Like Abilities (CL 8th)   ",
 				"*Constant*-detect chaos, detect evil, detect good, detect law   ",
@@ -31321,7 +31321,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** +1 scythe +15/+10 (2d4+10 plus 1d6 fire and 1d2 Con damage/x4)   ",
+				"**Melee** +1 scythe +15/+10 (2d4+10 plus 1d6 fire and 1d2 Con damage/&times;4)   ",
 				"**Special Attacks** searing weapons   ",
 				"**Spell-Like Abilities (CL 10th; concentration +14)   ",
 				"*Constant*-pass without trace   ",
@@ -33870,7 +33870,7 @@
 			"offense": [
 				"**Speed** 30 ft.   ",
 				"**Melee** 2 slams +11 (1d8)   ",
-				"**Ranged** +14 (1d8/x4)   ",
+				"**Ranged** +14 (1d8/&times;4)   ",
 				"**Special Attacks** bardic performance, show stopper   ",
 				"**Spell-Like Abilities (CL 11th; concentration +15)   ",
 				"*At will*-deathwatch, greater teleport (self plus 50 lbs. of objects only), invisibility (self only)   ",
@@ -34371,7 +34371,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., fly 100 ft. (good)   ",
-				"**Melee** +3 scythe +27/+22/+17/+12 (2d4+13/19-20/x4)   ",
+				"**Melee** +3 scythe +27/+22/+17/+12 (2d4+13/19-20/&times;4)   ",
 				"**Spell-Like Abilities (CL 14th; concentration +19)   ",
 				"*Constant*-detect evil, detect good, freedom of movement, true seeing   ",
 				"*At will*-dimensional anchor, dispel magic, gaseous form, greater teleport (self plus 50 lbs. of objects only), invisibility (self only), plane shift (self only), speak with dead, status, veil (DC 21)   ",
@@ -34667,7 +34667,7 @@
 			"offense": [
 				"**Speed** 40 ft., fly 100 ft. (good)   ",
 				"**Melee** 2 fated touches +23 (10d6)   ",
-				"**Ranged** silkbow +35/+30/+25/+20 (2d6+15/19-20/x3)   ",
+				"**Ranged** silkbow +35/+30/+25/+20 (2d6+15/19-20/&times;3)   ",
 				"**Special Attacks** fated touch, fateful arrows   ",
 				"**Spell-Like Abilities (CL 17th; concentration +27)   ",
 				"*Constant*-discern next of kin, mind blank, tongues, true seeing   ",
@@ -34828,7 +34828,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft., fly 50 ft. (average)   ",
-				"**Melee** +1 adamantine scythe +14/+9 (2d4+7/x4) or 2 claws +13 (1d6+4)   ",
+				"**Melee** +1 adamantine scythe +14/+9 (2d4+7/&times;4) or 2 claws +13 (1d6+4)   ",
 				"**Spell-Like Abilities (CL 10th; concentration +13)   ",
 				"*At will*-deathwatch, greater teleport (self plus 50 lbs. of objects only), invisibility (self only)   ",
 				"*3/day*-bestow curse (DC 17), locate creature, searing light"

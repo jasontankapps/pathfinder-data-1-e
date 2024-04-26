@@ -153,7 +153,7 @@
 			],
 			"offense": [
 				"**Speed** 40 ft., fly 80 ft. (average), swim 40 ft.   ",
-				"**Melee** +2 axiomatic keen potent bronze spear +34/+29/+24/+19 (2d6+17/19-20/x3), bite +24 (1d8+5 plus mark of restraint)   ",
+				"**Melee** +2 axiomatic keen potent bronze spear +34/+29/+24/+19 (2d6+17/19-20/&times;3), bite +24 (1d8+5 plus mark of restraint)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** mythic power (9/day, surge +1d10), paralyzing gaze   ",
 				"**Spell-Like Abilities (CL 19th; concentration +28)   ",
@@ -602,7 +602,7 @@
 			],
 			"offense": [
 				"**Speed** 60 ft.   ",
-				"**Melee** 2 slams +28 (2d12+16/19-20/x3 plus grab) or stomp +28 (4d12+24 plus pinning stomp)   ",
+				"**Melee** 2 slams +28 (2d12+16/19-20/&times;3 plus grab) or stomp +28 (4d12+24 plus pinning stomp)   ",
 				"**Space** 20 ft., **Reach** 20 ft.   ",
 				"**Special Attacks** constrict (2d12+16), mythic power (6/day, surge +1d8), mythic quickening, pinning stomp   ",
 				"**Spell-Like Abilities (CL 13th; concentration +14)   ",
@@ -677,7 +677,7 @@
 			"offense": [
 				"**Speed** 50 ft.   ",
 				"**Melee** flail +35/+30/+25/+20 (6d6+20/19-20) or stomp +35 (6d6+30 plus pinning stomp)   ",
-				"**Ranged**  2 heavy ballistae +14 (4d8/17-20/x3)   ",
+				"**Ranged**  2 heavy ballistae +14 (4d8/17-20/&times;3)   ",
 				"**Space** 30 ft., **Reach** 30 ft.   ",
 				"**Special Attacks** mythic power (8/day, surge +1d10), mythic quickening, pinning stomp   ",
 				"**Spell-Like Abilities (CL 17th; concentration +19)   ",
@@ -840,7 +840,7 @@
 			"offense": [
 				"**Speed** 40 ft.   ",
 				"**Melee** 2 slams +32 (3d10+19/19-20) or stomp +32 (6d10+28 plus pinning stomp)   ",
-				"**Ranged**  light ballista +13 (3d8/x3)   ",
+				"**Ranged**  light ballista +13 (3d8/&times;3)   ",
 				"**Space** 30 ft., **Reach** 30 ft.   ",
 				"**Special Attacks** mythic power (7/day, surge +1d10), mythic quickening, pinning stomp   ",
 				"**Spell-Like Abilities (CL 15th; concentration +16)   ",
@@ -1388,7 +1388,7 @@
 			],
 			"offense": [
 				"**Speed** 40 ft., fly 60 ft. (good), ice burrowing 30 ft.   ",
-				"**Melee** +2 frost spear +23/+18/+13 (2d6+12/x3 plus 1d6 cold plus ice shards plus slow), bite +15 (2d6+3), tail slap +15 (1d8+3 plus slow)   ",
+				"**Melee** +2 frost spear +23/+18/+13 (2d6+12/&times;3 plus 1d6 cold plus ice shards plus slow), bite +15 (2d6+3), tail slap +15 (1d8+3 plus slow)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** entrap (DC 23, 1d10 rounds, hardness 5, hp 10), favored enemy +6, mythic power (6/day, surge +1d8), pounce   ",
 				"**Spell-Like Abilities (CL 13th; concentration +20)   ",
@@ -1861,7 +1861,7 @@
 			],
 			"offense": [
 				"**Speed** 50 ft., climb 30 ft., swim 30 ft.   ",
-				"**Melee** 2 claws +31 (4d8+14/16-20/x4), gore +28 (4d6+7), 4 tentacles +29 (2d6+7)   ",
+				"**Melee** 2 claws +31 (4d8+14/16-20/&times;4), gore +28 (4d6+7), 4 tentacles +29 (2d6+7)   ",
 				"**Space** 15 ft., **Reach** 15 ft. (20 ft. with claws)   ",
 				"**Special Attacks** impregnate surrogate, mythic power (10/day, surge +1d12), razor claws, well of life   ",
 				"**Spell-Like Abilities (CL 20th; concentration +35)   ",
@@ -1905,7 +1905,7 @@
 				"",
 				"**Polymorphism (Ex)** The spawn gestating inside the drakainia constantly alter her internal construction, making her immune to bleed, disease, poison, and polymorph effects. When she is subject to a critical hit or a sneak attack, this polymorphism grants her a 75% chance of negating such attacks.",
 				"",
-				"**Razor Claws (Ex)** A drakainia's claws are razor sharp with a critical threat range of 17-20 and a critical multiplier of x4.",
+				"**Razor Claws (Ex)** A drakainia's claws are razor sharp with a critical threat range of 17-20 and a critical multiplier of &times;4.",
 				"",
 				"**Transfer Suffering (Su)** As a swift action, a drakainia can transfer a single harmful spell effect or condition from herself to one of her offspring that is currently within her gestation aura.",
 				"",
@@ -2780,7 +2780,7 @@
 			],
 			"offense": [
 				"**Speed** 40 ft.   ",
-				"**Melee** ghost touch bite +15 (1d8+7/18-20/x3 plus burn and vorpal bite), 2 claws +15 (1d6+7)   ",
+				"**Melee** ghost touch bite +15 (1d8+7/18-20/&times;3 plus burn and vorpal bite), 2 claws +15 (1d6+7)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** burn (1d6, DC 18), goblin king, improved bite, mythic power (2/day, surge +1d6), vorpal bite   ",
 				"**Spell-Like Abilities (CL 9th; concentration +13)   ",
@@ -2812,7 +2812,7 @@
 			"special_abilities": [
 				"**Goblin King (Su)** A mythic barghest has the inspire courage +2 and inspire competence +2 abilities of a 6th-level bard. Goblins, goblin dogs, worgs, hell hounds, and barghests gain double the normal bonuses from this ability.",
 				"",
-				"**Improved Bite (Ex)** A mythic barghest's bite has a critical threat range of 18-20 and critical multiplier of x3.",
+				"**Improved Bite (Ex)** A mythic barghest's bite has a critical threat range of 18-20 and critical multiplier of &times;3.",
 				"",
 				"**Vorpal Bite (Su)** If a mythic greater barghest confirms a critical hit against a non-mythic opponent, it can expend one use of mythic power as a free action to bite off the opponent's head, instantly killing it (Fort DC 15 negates). The save DC is Constitution-based."
 			],
@@ -3915,7 +3915,7 @@
 			"offense": [
 				"**Speed** 30 ft., fly 60 ft. (good)   ",
 				"**Melee** mwk bastard sword +10/+5 (1d10/19-20 plus poison), 2 snake bites +12 (1d6+3 plus poison)   ",
-				"**Ranged**  mwk longbow +13/+8 (1d8/x3 plus poison)   ",
+				"**Ranged**  mwk longbow +13/+8 (1d8/&times;3 plus poison)   ",
 				"**Space** 5 ft., **Reach** 5 ft. (10 ft. with snake bite)   ",
 				"**Special Attacks** mythic power (3/day, surge +1d6), petrifying gaze, poison, poison weapons, summon snake, unpetrify"
 			],
@@ -3979,7 +3979,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft.   ",
-				"**Melee** mwk greataxe +12/+7 (3d6+7/x3), gore +11 (1d6+2)   ",
+				"**Melee** mwk greataxe +12/+7 (3d6+7/&times;3), gore +11 (1d6+2)   ",
 				"**Space** 10 ft., **Reach** 10 ft.   ",
 				"**Special Attacks** mythic power (2/day, surge +1d6), oubliette, powerful charge (gore, 2d6+7)"
 			],
@@ -4929,7 +4929,7 @@
 			],
 			"offense": [
 				"**Speed** 90 ft.   ",
-				"**Melee** +3 axiomatic tetsubo +40/+40/+35/+30/+25 (6d8+30/19-20 x5) or 3 slams +37 (2d8+27)   ",
+				"**Melee** +3 axiomatic tetsubo +40/+40/+35/+30/+25 (6d8+30/19-20 &times;5) or 3 slams +37 (2d8+27)   ",
 				"**Space** 30 ft., **Reach** 30 ft.   ",
 				"**Special Attacks** devastator, mythic power (9/day, surge +1d10), rock throwing (120 ft.), trample (4d8+27, DC 39)   ",
 				"**Spell-Like Abilities (CL 20th; concentration +32)   ",
@@ -5015,7 +5015,7 @@
 			],
 			"offense": [
 				"**Speed** 30 ft. (40 ft. base); air walk   ",
-				"**Melee** +3 speed wounding heavy mace +29/+29/+24/+19/+14 (6d6+19/19-20/x3 plus bleed and push), slam +26 (2d8+24 plus push)   ",
+				"**Melee** +3 speed wounding heavy mace +29/+29/+24/+19/+14 (6d6+19/19-20/&times;3 plus bleed and push), slam +26 (2d8+24 plus push)   ",
 				"**Space** 30 ft., **Reach** 30 ft.   ",
 				"**Special Attacks** bleed (4d6), blood rage, mythic power (8/day, surge +1d10), push (heavy mace or slam, 10 ft.), rock throwing (100 ft.), trample (2d8+24, DC 35)   ",
 				"**Spell-Like Abilities (CL 20th; concentration +28)   ",

@@ -317,7 +317,7 @@
 			"",
 			"**Deadly Surprise (Ex):** At 7th level, when a cad hits an opponent that is denied its Dexterity bonus to AC against him with a weapon or unarmed attack, he may attempt a dirty trick combat maneuver as an immediate action as part of the attack. This ability replaces armor training 2.",
 			"",
-			"**Razor-Sharp Chair Leg (Ex):** At 9th level, as a swift action, a cad may alter the type of damage dealt by an improvised weapon to bludgeoning, piercing, or slashing damage. In addition, the cad has a critical threat range of 19-20/x2 with any improvised melee weapon. This ability replaces weapon training 2.",
+			"**Razor-Sharp Chair Leg (Ex):** At 9th level, as a swift action, a cad may alter the type of damage dealt by an improvised weapon to bludgeoning, piercing, or slashing damage. In addition, the cad has a critical threat range of 19-20/&times;2 with any improvised melee weapon. This ability replaces weapon training 2.",
 			"",
 			"**Craven Combatant (Ex):** At 11th level, when fighting defensively or using Combat Expertise or total defense, a cad cannot be flanked except by a rogue or ninja whose level is four or more higher than the cad's fighter level. This ability replaces armor training 3.",
 			"",
@@ -1684,12 +1684,12 @@
 			"1st-level Bonus Feat",
 			"Weapon Training"
 		],
-		"short_description": "A fighter who has impressive martial resolve and technique with a specific weapon as the result of a powerful relationship a similar weapon had with one of his??ancestors.",
+		"short_description": "A fighter who has impressive martial resolve and technique with a specific weapon as the result of a powerful relationship a similar weapon had with one of his ancestors.",
 		"description": [
 			"## Steelbound Fighter",
 			"",
 			"**Source** [Haunted Heroes Handbook pg. 22](source:Haunted_Heroes_Handbook)   ",
-			"Whenever a particularly imposing intelligent weapon controls the mind of its wielder for long enough, spiritual echoes of this dominance can have strange resonances throughout that wielder's bloodline for generations to come. The steelbound fighter is sometimes the result of such a legacy: a fighter who has impressive martial resolve and technique with a specific weapon as the result of a powerful relationship a similar weapon had with one of his??ancestors.",
+			"Whenever a particularly imposing intelligent weapon controls the mind of its wielder for long enough, spiritual echoes of this dominance can have strange resonances throughout that wielder's bloodline for generations to come. The steelbound fighter is sometimes the result of such a legacy: a fighter who has impressive martial resolve and technique with a specific weapon as the result of a powerful relationship a similar weapon had with one of his ancestors.",
 			"",
 			"Steelbound Weapon (Ex)",
 			"",
