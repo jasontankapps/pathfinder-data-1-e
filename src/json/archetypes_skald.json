@@ -329,7 +329,7 @@
 			"",
 			"**Melancholic Apparition (Su):** By using music, oration, and similar performances, an elegist can call forth a physical manifestation of the sorrow of his tales. This functions as a spiritualist's phantom with the despair focus. He can manifest his melancholic apparition as a standard action and dismiss it as a free action. The phantom appears adjacent to the skatd and can act immediately. The melancholic apparition is immediately dismissed if the elegist is killed, paralyzed, stunned, knocked unconscious, or otherwise prevented from taking a free action each round to maintain the performance that keeps the phantom manifested. At 1st level, an elegist can keep his apparition manifested for a total number of rounds each day equal to 3 + his Charisma modifier. For each skald level beyond 1st, he can manifest his apparition 2 additional rounds per day.",
 			"",
-			"Unlike a spiritualist's phantom, a melancholic apparition can't be harbored in the elegist's consciousness. When manifested, the melancholic apparition has the same number of hit points it had when previously manifested that day. It regains all of its hit points when the elegist regains his spells for the day. If the melancholic apparition is slain, the elegist can manifest it again in the same day by spending a number of additional rounds ot'this ability equal to half his skald level (minimum 1); the melancholic apparition returns with half its normal total of hit points.",
+			"Unlike a spiritualist's phantom, a melancholic apparition can't be harbored in the elegist's consciousness. When manifested, the melancholic apparition has the same number of hit points it had when previously manifested that day. It regains all of its hit points when the elegist regains his spells for the day. If the melancholic apparition is slain, the elegist can manifest it again in the same day by spending a number of additional rounds of this ability equal to half his skald level (minimum 1); the melancholic apparition returns with half its normal total of hit points.",
 			"",
 			"This replaces raging song and all related performances. as well as rage powers.",
 			"",
@@ -473,7 +473,7 @@
 			"",
 			"This ability replaces dirge of doom.",
 			"",
-			"**Revolutionary Heart (Su):** At 7th level, an instigator's tumultuous mastery of demagoguery and revolution makes it diff icult for others' compulsions to sway him. Once per day, when he fails a saving throw against a compulsion effect, he can attempt another saving throw after 1 time increment (1 round if the effect is measured in rounds, 1 minute if the effect is measured in minutes, 10 minutes if the spell is measured in 10-minute increments, and so on). Every 6 skald levels thereafter, he gains an additional daily use of this ability (to a maximum of 3 per day at 19th level).",
+			"**Revolutionary Heart (Su):** At 7th level, an instigator's tumultuous mastery of demagoguery and revolution makes it difficult for others' compulsions to sway him. Once per day, when he fails a saving throw against a compulsion effect, he can attempt another saving throw after 1 time increment (1 round if the effect is measured in rounds, 1 minute if the effect is measured in minutes, 10 minutes if the spell is measured in 10-minute increments, and so on). Every 6 skald levels thereafter, he gains an additional daily use of this ability (to a maximum of 3 per day at 19th level).",
 			"",
 			"This ability replaces lore master."
 		]
@@ -506,7 +506,7 @@
 			"",
 			"This ability replaces bardic knowledge.",
 			"",
-			"**Rogue Talents (Ex):** At 7th level, the red tongue learns a rogue talent of his choice, treating his skald level as his rogue level. He cannot select a talent that requires or modif ies a class feature he does not have (such as sneak attack), and he must meet all other prerequisites. For every 5 skald levels beyond 7th, he gains a new rogue talent.",
+			"**Rogue Talents (Ex):** At 7th level, the red tongue learns a rogue talent of his choice, treating his skald level as his rogue level. He cannot select a talent that requires or modifies a class feature he does not have (such as sneak attack), and he must meet all other prerequisites. For every 5 skald levels beyond 7th, he gains a new rogue talent.",
 			"",
 			"This ability replaces the versatile performance selections normally gained at 7th, 12th, and 17th levels.",
 			"",
@@ -583,7 +583,7 @@
 			"",
 			"**Song of Arcane Manipulation (Su):** At 10th level, a spell warrior can sacrifice his own rage magic to counter an opponent's spell. When using raging song, he can counterspell as an immediate action without interrupting his raging song. However, in addition to expending a spell slot (or spell slots) to attempt to counter the opponent's spell, the skald must expend 1 round of raging song per spell level of the opponent's spell (for example, if attempting to counterspell a 3rd-level spell, the skald must expend one of his own 3rd-level spell slots and 3 rounds of raging song). This ability replaces the dirge of doom raging song.",
 			"",
-			"**Spell Tamper (Su):** At 20th level, when a spell warrior successfully counterspells an opponent's spell, the opponent suffers a backlash of magical energy and takes 1d6 points of damage per spell level of the countered spell. If the opponent succeeds at a Will saving throw (DC = 10 + 1/2 the skald's level + the skald's Charisma modif ier), the damage is reduced by half. This damage is magical and is not subject to damage reduction or energy resistance. This ability replaces master skald.",
+			"**Spell Tamper (Su):** At 20th level, when a spell warrior successfully counterspells an opponent's spell, the opponent suffers a backlash of magical energy and takes 1d6 points of damage per spell level of the countered spell. If the opponent succeeds at a Will saving throw (DC = 10 + 1/2 the skald's level + the skald's Charisma modifier), the damage is reduced by half. This damage is magical and is not subject to damage reduction or energy resistance. This ability replaces master skald.",
 			"",
 			"**Rage Powers:** The following rage powers complement the spell warrior archetype: clear mind, disruptive, eater of magic, elemental rage (lesser, normal, and greater), energy resistance, spell sunder, spellbreaker, sunder enchantment, superstition, and witch hunter."
 		]
@@ -671,9 +671,9 @@
 			"",
 			"**Song of the Beast (Su):** The totemic skald grants the animal focus abilities of his totem animal (as the hunter's animal focus ability) to all allies affected by his raging song. He treats his skald level as his hunter level for determining the abilities of the animal focus (such as the improvements gained at 8th and 15th level). This ability replaces the rage power gained at 3rd level.",
 			"",
-			"**Totem Empathy (Ex and Sp):** At 4th level, the totemic skald can improve the attitude of animals of the same type as his totem. This ability functions just like a Diplomacy check to improve the attitude of a person. The skald rolls 1d20 and adds his skald level and his Charisma modif ier to determine the totem empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly.",
+			"**Totem Empathy (Ex and Sp):** At 4th level, the totemic skald can improve the attitude of animals of the same type as his totem. This ability functions just like a Diplomacy check to improve the attitude of a person. The skald rolls 1d20 and adds his skald level and his Charisma modifier to determine the totem empathy check result. The typical domestic animal has a starting attitude of indifferent, while wild animals are usually unfriendly.",
 			"",
-			"In addition, at 4th level, the totemic skald can cast charm animal once per day as a spell-like ability, using his skald level as his caster level and his Charisma modif ier to determine the DC. This only functions against animals that are of the same type as his totem animal (subject to GM discretion). At 8th level, and every 4 levels thereafter, he can use this ability one additional time per day.",
+			"In addition, at 4th level, the totemic skald can cast charm animal once per day as a spell-like ability, using his skald level as his caster level and his Charisma modifier to determine the DC. This only functions against animals that are of the same type as his totem animal (subject to GM discretion). At 8th level, and every 4 levels thereafter, he can use this ability one additional time per day.",
 			"",
 			"This ability replaces uncanny dodge and improved uncanny dodge.",
 			"",

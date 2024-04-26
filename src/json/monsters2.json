@@ -1,7 +1,7 @@
 {
 	"list": [
 		{
-			"name": "D-ziriak",
+			"name": "D'ziriak",
 			"searchable_name": "D ziriak",
 			"file": "monsterdisplaye189.html",
 			"sources": [ "Bestiary 2" ],
@@ -11,7 +11,7 @@
 			"creature_type": "outsider",
 			"creature_subtypes": [ "extraplanar" ],
 			"heading": [
-				"## D-ziriak, CR 3",
+				"## D'ziriak, CR 3",
 				"**Source** [Bestiary 2 pg. 113](source:Bestiary_2)   ",
 				"**XP** 800   ",
 				"N Medium outsider (extraplanar)   ",
@@ -43,7 +43,7 @@
 				"**Base Atk** +4; **CMB** +5 (+9 grapple); **CMD** 17   ",
 				"**Feats** [Combat Reflexes](feat:Combat_Reflexes), [Weapon Focus (claw)](feat:Weapon_Focus)   ",
 				"**Skills** Climb +8, Knowledge (arcana) +8, Knowledge (planes) +8, Perception +9, Sense Motive +9, Stealth +9, Survival +7, Use Magic Device +8   ",
-				"**Languages** D-ziriak; telepathy 100 ft.   ",
+				"**Languages** D'ziriak; telepathy 100 ft.   ",
 				"**SQ** glow"
 			],
 			"ecology": [
@@ -52,16 +52,16 @@
 				"**Treasure** standard"
 			],
 			"special_abilities": [
-				"**Dazzling Burst (Su)** Once per day, a d-ziriak can cause its body to flare with intense, colorful light as a swift action. Non-d-ziriaks within a 20-foot radius must make a DC 13 Fortitude save or be dazzled for 1 minute. After using this ability, the d-ziriak's brilliant glow is extinguished for 24 hours. This ability is a light effect, and creatures that cannot see are immune to it. The save DC is Constitution-based.",
+				"**Dazzling Burst (Su)** Once per day, a d'ziriak can cause its body to flare with intense, colorful light as a swift action. Non-d'ziriaks within a 20-foot radius must make a DC 13 Fortitude save or be dazzled for 1 minute. After using this ability, the d'ziriak's brilliant glow is extinguished for 24 hours. This ability is a light effect, and creatures that cannot see are immune to it. The save DC is Constitution-based.",
 				"",
-				"**Glow (Ex)** The colorful runes that decorate a d-ziriak's body create dim light in a 20-foot radius from its body."
+				"**Glow (Ex)** The colorful runes that decorate a d'ziriak's body create dim light in a 20-foot radius from its body."
 			],
 			"description": [
-				"Natives of the Plane of Shadow, d-ziriaks are a mysterious race of human-sized insectoids. From their partially buried hive cities rise spires and steeples adorned with alchemical fire and illusory flame, dim beacons of sanctuary in the foreboding twilight. The d-ziriaks remain staunchly neutral in most affairs, and are typically happy to converse with travelers via their eerie telepathy (their own language of buzzes and chitters is an obscure one known by few outside their race), but their unknown, obscure goals lead most others to regard this race with caution.",
+				"Natives of the Plane of Shadow, d'ziriaks are a mysterious race of human-sized insectoids. From their partially buried hive cities rise spires and steeples adorned with alchemical fire and illusory flame, dim beacons of sanctuary in the foreboding twilight. The d'ziriaks remain staunchly neutral in most affairs, and are typically happy to converse with travelers via their eerie telepathy (their own language of buzzes and chitters is an obscure one known by few outside their race), but their unknown, obscure goals lead most others to regard this race with caution.",
 				"",
-				"The average d-ziriak is 7 feet tall and has four arms, two legs, a termite-like abdomen, and a mandibled visage somewhere between that of insect and human. Two of its arms are large and possess sharp claws, while the other two are relatively small and used for fine manipulations, not combat. Strangely for a race native to the realm of shadows, the d-ziriaks have a colorful collection of runic shapes, almost like glowing tattoos, upon their chitinous flesh. These runes help to denote what role in d-ziriak society each of these beings serves.",
+				"The average d'ziriak is 7 feet tall and has four arms, two legs, a termite-like abdomen, and a mandibled visage somewhere between that of insect and human. Two of its arms are large and possess sharp claws, while the other two are relatively small and used for fine manipulations, not combat. Strangely for a race native to the realm of shadows, the d'ziriaks have a colorful collection of runic shapes, almost like glowing tattoos, upon their chitinous flesh. These runes help to denote what role in d'ziriak society each of these beings serves.",
 				"",
-				"D-ziriaks rarely travel off the Plane of Shadow except on orders of their rulers, and prefer to live their lives out in their hive cities. They remain open to trade and diplomacy with any brave enough to travel the Plane of Shadow, and are valued by many both on and off their plane for their artisans' ability to weave light into tangible art and create weapons of great quality and beauty."
+				"D'ziriaks rarely travel off the Plane of Shadow except on orders of their rulers, and prefer to live their lives out in their hive cities. They remain open to trade and diplomacy with any brave enough to travel the Plane of Shadow, and are valued by many both on and off their plane for their artisans' ability to weave light into tangible art and create weapons of great quality and beauty."
 			],
 			"short_description": "This four-armed creature looks like a cross between a human and a black and ochre termite. Its body and arms display glowing runes."
 		},
@@ -5210,7 +5210,7 @@
 				"",
 				"From the waist up these demons are built much like strong, hairy humans or dwarves, but with exaggerated proportions resembling those of a gorilla. Their thick necks sport bristling manes that merge with the hair on their backs, and their flat faces bear two ramlike horns and cold eyes filled with hate. Their breath is a freezing fog, and their teeth are small but numerous, like a shark's. An andrazku's legs seem small in comparison to its torso, bend backward like a satyr's, and end in large cloven hooves. Their skin is the dead blue of a frozen corpse or a frost giant. Their top-heavy builds mean they have difficulty standing upright and normally assume a hunched posture; many prefer to walk and run on all fours, like apes. An andrazku is 7 feet tall at the shoulder and weighs 450 pounds.",
 				"",
-				"An andrazku forms from the soul of a chaotic mortal who hated women and used his or her power to oppress and demean them, such as a tyrant who selectively enforced laws against women, a priest who preached that women are the source of all sin, or a father who secretly beat his wives and daughters for their supposed failures. For this reason andrazkus are known to scholars as -misogyny demons.- Few of these souls dared to greater crimes (which would cause their souls to become incubi or babaus), nor were they once mortals who hated women but never acted upon their hatred-an andrazku only forms from a soul filled with suff icient hatred toward women to provoke action, but that is hampered by enough cowardice to prevent it from performing acts of greater evil. Most of them were male mortals, but an especially misogynistic evil female creature might become an andrazku in the Abyss.",
+				"An andrazku forms from the soul of a chaotic mortal who hated women and used his or her power to oppress and demean them, such as a tyrant who selectively enforced laws against women, a priest who preached that women are the source of all sin, or a father who secretly beat his wives and daughters for their supposed failures. For this reason andrazkus are known to scholars as -misogyny demons.- Few of these souls dared to greater crimes (which would cause their souls to become incubi or babaus), nor were they once mortals who hated women but never acted upon their hatred-an andrazku only forms from a soul filled with sufficient hatred toward women to provoke action, but that is hampered by enough cowardice to prevent it from performing acts of greater evil. Most of them were male mortals, but an especially misogynistic evil female creature might become an andrazku in the Abyss.",
 				"",
 				"An andrazku grows excited when it senses its prey's fear, but becomes frustrated if the hunt lasts for too long. Despite these demons' masculine appearance and aggression, most of them are impotent and some completely lack genitalia, rendering their lust pointless. Their nature is to berate, degrade, and beat; they tend to kill only when they feel an urge to eat, when their stymied passion becomes too great to tolerate, or when they are mocked for their shortcomings.",
 				"",

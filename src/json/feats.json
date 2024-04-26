@@ -15873,7 +15873,7 @@
 				"",
 				"You know how to throw your enemies into harm's way at the last second.   ",
 				"**Prerequisites:** Int 13, [Combat Expertise](feat:Combat_Expertise), base attack bonus +6, evasion class feature.   ",
-				"**Benefit:** Whenever you are the target of an area-of-effect attack that normally deals half damage on a successful Reflex save (such as a fireball spell or dragon's breath weapon), you may, as an immediate action, wrestle an adjacent foe into harm's way. This does not alter the position of you or your opponent, but your opponent must attempt a Reflex save against the attack in your place. If your opponent fails, it takes half damage from the attack and you take none; if it succeeds, it takes no damage and you take damage as normal as though you-d failed your saving throw (though this damage is still reduced by abilities such as improved evasion). This feat works even if the opponent was already in the affected area of the attack (so it is possible that an unlucky opponent could take as much as 1-1/2 times the damage normally possible from the attack). You can use this ability only on a foe within one size category of yourself."
+				"**Benefit:** Whenever you are the target of an area-of-effect attack that normally deals half damage on a successful Reflex save (such as a fireball spell or dragon's breath weapon), you may, as an immediate action, wrestle an adjacent foe into harm's way. This does not alter the position of you or your opponent, but your opponent must attempt a Reflex save against the attack in your place. If your opponent fails, it takes half damage from the attack and you take none; if it succeeds, it takes no damage and you take damage as normal as though you'd failed your saving throw (though this damage is still reduced by abilities such as improved evasion). This feat works even if the opponent was already in the affected area of the attack (so it is possible that an unlucky opponent could take as much as 1-1/2 times the damage normally possible from the attack). You can use this ability only on a foe within one size category of yourself."
 			],
 			"short_description": "Pull an opponent into an area-of-effect attack to take damage in your place"
 		},
@@ -16897,7 +16897,7 @@
 				"",
 				"**Source**  [Pathfinder Unchained pg. 118](source:Pathfinder_Unchained)",
 				"",
-				"On your second and all subsequent unarmed strike attacks made in a round, you can spend 3 stamina points before making each attack to add 1-1/2 times your Strength modif ier to that attack's damage roll."
+				"On your second and all subsequent unarmed strike attacks made in a round, you can spend 3 stamina points before making each attack to add 1-1/2 times your Strength modifier to that attack's damage roll."
 			],
 			"short_description": "Gain +2 bonus against sleep, paralysis, and stun effects, and can ignore difficult terrain"
 		},
@@ -18208,7 +18208,7 @@
 				"**Benefit:** When casting a spell you've created, add 1 to your caster level. In addition, you gain a +2 bonus on Spellcraft checks. If you have 10 or more ranks in Spellcraft, this bonus increases to +4.   ",
 				"**Goal:** Create a new spell of at least 6th level.   ",
 				"**Completion Benefit:** The save DCs for any spells you create increase by 1 when you cast them. In addition, when applying metamagic feats to self-created spells, reduce the total level adjustment by 1. You can't reduce metamagic costs to lower than the spell's original level in this manner.   ",
-				"**Special:** For a self-created spell to benefit from this feat, it must be a truly novel spell. Spells slightly altered from the original (for example, delayed blast fireball as compared to fireball) gain no benefit. Alchemists can benef it from this feat as though their formulae and extracts were spells."
+				"**Special:** For a self-created spell to benefit from this feat, it must be a truly novel spell. Spells slightly altered from the original (for example, delayed blast fireball as compared to fireball) gain no benefit. Alchemists can benefit from this feat as though their formulae and extracts were spells."
 			],
 			"short_description": "Gain bonuses with spells that you've created"
 		},
@@ -20417,7 +20417,7 @@
 				"| Crysmal | Bestiary 2 61 |",
 				"| Dimetrodon[^T] (dinosaur) | Bestiary 3 78 |",
 				"| Dire weasel[^T] | Bestiary 4 275 |",
-				"| D-ziriak | Bestiary 2 113 |",
+				"| D'ziriak | Bestiary 2 113 |",
 				"| Foo lion | Bestiary 3 120 |",
 				"| Giant seahorse[^T] | Bestiary 4 234 |",
 				"| Giant skunk[^T] | Bestiary 3 247 |",
@@ -23379,7 +23379,7 @@
 				"",
 				"The rotting of your flesh has spread to your lungs and fills them with putrid fluids.   ",
 				"**Prerequisites:** Con 15, [Corrupted Flesh](feat:Corrupted_Flesh), 6 HD, ogre.   ",
-				"**Benefit:** You can exhale a 30-foot cone of vile-smelling, moist air mixed with phlegm and remnants of old meals. Creatures in the area must succeed at a Fortitude save (DC = 10 + 1/2 your Hit Dice + your Constitution modif ier) or they are nauseated for 1d6 minutes. Affected creatures that spend a full-round action gasping for fresh air and scraping off your oral debris may attempt another save to overcome the effect. You can use this breath weapon twice per day, plus one additional time per day for every 6 HD you possess beyond 6."
+				"**Benefit:** You can exhale a 30-foot cone of vile-smelling, moist air mixed with phlegm and remnants of old meals. Creatures in the area must succeed at a Fortitude save (DC = 10 + 1/2 your Hit Dice + your Constitution modifier) or they are nauseated for 1d6 minutes. Affected creatures that spend a full-round action gasping for fresh air and scraping off your oral debris may attempt another save to overcome the effect. You can use this breath weapon twice per day, plus one additional time per day for every 6 HD you possess beyond 6."
 			],
 			"short_description": "Exhale a cone of vile air and phlegm"
 		},
@@ -28579,7 +28579,7 @@
 				"",
 				"You can inspire extreme revulsion when you slaughter your enemies.   ",
 				"**Prerequisites:** [Intimidating Prowess](feat:Intimidating_Prowess), [Killing Flourish](feat:Killing_Flourish), Intimidate 11 ranks, slayer level 11th.   ",
-				"**Benefit:** Creatures you demoralize by using the Killing Flourish feat must succeed at a Fortitude save (DC = 10 + 1/2 your character level + the higher of your Strength or Dexterity modif ier) or become sickened for 1 minute.",
+				"**Benefit:** Creatures you demoralize by using the Killing Flourish feat must succeed at a Fortitude save (DC = 10 + 1/2 your character level + the higher of your Strength or Dexterity modifier) or become sickened for 1 minute.",
 				"",
 				"*Combat Trick* (from the [Combat Stamina](feat:Combat_Stamina) feat)",
 				"",
@@ -29273,7 +29273,7 @@
 				"",
 				"**Source**  [Pathfinder Unchained pg. 122](source:Pathfinder_Unchained)",
 				"",
-				"When you hit an opponent with a charge attack or conf irm a critical hit, you can spend 2 stamina points to make the target of the attack shaken for 1 round without discharging haunted fey aspect."
+				"When you hit an opponent with a charge attack or confirm a critical hit, you can spend 2 stamina points to make the target of the attack shaken for 1 round without discharging haunted fey aspect."
 			],
 			"short_description": "Gain independent use of gnome magic"
 		},
@@ -30093,7 +30093,7 @@
 				"",
 				"When the animal you're lashed to charges, you use its momentum in your own attack.   ",
 				"**Prerequisites:** [Horn Rider](feat:Horn_Rider), base attack bonus +1.   ",
-				"**Benefit:** Whenever you're lashed into a horn harness and you ready an action to make a melee attack against the target of a charge made by the creature you're lashed to, you gain the attack bonus for charging and your attack deals double damage (or triple damage with a lance). This benef it does not stack with the benef it of Spirited Charge."
+				"**Benefit:** Whenever you're lashed into a horn harness and you ready an action to make a melee attack against the target of a charge made by the creature you're lashed to, you gain the attack bonus for charging and your attack deals double damage (or triple damage with a lance). This benefit does not stack with the benefit of Spirited Charge."
 			],
 			"short_description": "Use your mount's momentum as part of your own attack"
 		},
@@ -37373,7 +37373,7 @@
 				"",
 				"Magic is in your blood, allowing you to cast spells no matter how furious you become.   ",
 				"**Prerequisites:** Bloodrage class feature or perfect clarity rage power.   ",
-				"**Benefit:** You can cast spells from any class that grants you spells while in a bloodrage, and you keep your rage benef its when using moment of clarity during a rage. If you have the greater bloodrage class feature, you also gain a +1 bonus to the save DCs of spells you cast while in a bloodrage."
+				"**Benefit:** You can cast spells from any class that grants you spells while in a bloodrage, and you keep your rage benefits when using moment of clarity during a rage. If you have the greater bloodrage class feature, you also gain a +1 bonus to the save DCs of spells you cast while in a bloodrage."
 			],
 			"short_description": "Cast spells from any of your classes during a bloodrage, keep rage benefits when using moment of clarity"
 		},
@@ -43462,7 +43462,7 @@
 				"",
 				"**Source**  [Pathfinder Unchained pg. 128](source:Pathfinder_Unchained)",
 				"",
-				"You can spend 2 stamina points to use this feat's benef it a second time during a single encounter. You can use this combat trick only once per encounter, so you still can't make more than two Parting Shot attacks total in one encounter."
+				"You can spend 2 stamina points to use this feat's benefit a second time during a single encounter. You can use this combat trick only once per encounter, so you still can't make more than two Parting Shot attacks total in one encounter."
 			],
 			"short_description": "Make a ranged attack when withdrawing"
 		},
@@ -46198,7 +46198,7 @@
 				"",
 				"The spirit finds ways to heal the body, guided by your faith.   ",
 				"**Prerequisites:** Cha 11, Psychic Sensitivity or the ability to cast psychic spells, Heal 3 ranks.   ",
-				"**Benefit:** As an additional use of the faith healing skill unlock, you can attempt to manipulate a creature's psychic form to heal damage to its physical form. This works as the treat deadly wounds use of the Heal skill, but also grants the creature a number of temporary hit points equal to the amount of damage healed. These temporary hit points last for 1 hour. Psychic healing doesn't require a healer's kit. A creature can benef it from psychic healing only once per day, and can't benef it from both this ability and treat deadly wounds in the same day."
+				"**Benefit:** As an additional use of the faith healing skill unlock, you can attempt to manipulate a creature's psychic form to heal damage to its physical form. This works as the treat deadly wounds use of the Heal skill, but also grants the creature a number of temporary hit points equal to the amount of damage healed. These temporary hit points last for 1 hour. Psychic healing doesn't require a healer's kit. A creature can benefit from psychic healing only once per day, and can't benefit from both this ability and treat deadly wounds in the same day."
 			],
 			"short_description": "Use faith healing to treat deadly wounds and grant temporary hit points"
 		},
@@ -48318,7 +48318,7 @@
 				"",
 				"You use your powerful metabolism to temporarily increase the strength of your muscles, but doing so costs you your regeneration powers.   ",
 				"**Prerequisites:** [Power Attack](feat:Power_Attack), regeneration, troll.   ",
-				"**Benefit:** As a free action, you can make your regeneration stop working for 1 minute and gain a +2 enhancement bonus to your Strength. You lose your regeneration ability while you benef it from this bonus to Strength and for 1 minute afterward. You can end this ability early as a free action. You can activate this ability only if your regeneration is functioning."
+				"**Benefit:** As a free action, you can make your regeneration stop working for 1 minute and gain a +2 enhancement bonus to your Strength. You lose your regeneration ability while you benefit from this bonus to Strength and for 1 minute afterward. You can end this ability early as a free action. You can activate this ability only if your regeneration is functioning."
 			],
 			"short_description": "Leech strength from your regeneration"
 		},
@@ -50359,7 +50359,7 @@
 				"",
 				"Your unarmed strikes can induce a near-crippling lethargy in your enemies.   ",
 				"**Prerequisites:** [Scorpion Style](feat:Scorpion_Style).   ",
-				"**Benefit:** Whenever you are using Scorpion Style, you add your tier to the number of rounds the target's base land speed is reduced. You can expend one use of mythic power when making your attack to slow your target, as the spell slow, unless it succeeds at a Fortitude save (DC 10 + 1/2 your character level + your Wisdom modif ier). The slowing effect supersedes the normal speed penalty of your Scorpion Strike, but lasts for an equal number of rounds."
+				"**Benefit:** Whenever you are using Scorpion Style, you add your tier to the number of rounds the target's base land speed is reduced. You can expend one use of mythic power when making your attack to slow your target, as the spell slow, unless it succeeds at a Fortitude save (DC 10 + 1/2 your character level + your Wisdom modifier). The slowing effect supersedes the normal speed penalty of your Scorpion Strike, but lasts for an equal number of rounds."
 			],
 			"short_description": "Reduce target's speed to 5 ft.",
 			"has_mythic_version": true
@@ -52681,7 +52681,7 @@
 				"",
 				"Many of those who dwell among the rooftops that span much of Korvosa become skillful at making bounding leaps and clambering up steep surfaces, and learn how to land more safely when they fall.   ",
 				"**Prerequisites:** Dex 12, Acrobatic.   ",
-				"**Benefit:** You gain a +2 bonus on Acrobatics and Climb checks, and can take 10 on Climb checks even when distracted. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill. If you fall, you automatically reduce the damage taken by the fall by 1d6, as if you-d fallen 10 feet less. This reduction in damage stacks with the reduction from a successful Acrobatics check to soften a fall."
+				"**Benefit:** You gain a +2 bonus on Acrobatics and Climb checks, and can take 10 on Climb checks even when distracted. If you have 10 or more ranks in one of these skills, the bonus increases to +4 for that skill. If you fall, you automatically reduce the damage taken by the fall by 1d6, as if you'd fallen 10 feet less. This reduction in damage stacks with the reduction from a successful Acrobatics check to soften a fall."
 			],
 			"short_description": "+2 Acrobatics/Climb, take 10 on Climb, fall down from heights easier"
 		},
@@ -54307,7 +54307,7 @@
 				"",
 				"**Source**  [Pathfinder Unchained pg. 132](source:Pathfinder_Unchained)",
 				"",
-				"While using Snapping Turtle Style, you can spend up to 5 stamina points to cause an enemy to take an additional penalty on one critical conf irmation roll against you equal to the number of stamina points you spent."
+				"While using Snapping Turtle Style, you can spend up to 5 stamina points to cause an enemy to take an additional penalty on one critical confirmation roll against you equal to the number of stamina points you spent."
 			],
 			"short_description": "AC bonus increases by 2, and opponents receive -4 on critical confirmations"
 		},
@@ -56617,7 +56617,7 @@
 				"You can concentrate even in the direst circumstances, and know how to retain your magic even when it would otherwise be wasted.   ",
 				"**Prerequisites:** Cha 15, Int 15, or Wis 15 (see special).   ",
 				"**Benefit:** Whenever you fail a concentration check while casting defensively and would normally lose a prepared spell or spell slot, you may attempt a Will save (DC = 15 + spell level) to retain the spell as though you had not attempted to cast it. The failed concentration check still results in the spell's failure, even if the spell is retained.   ",
-				"**Special:** To gain the benefits of this feat, you must meet the prerequisite that matches the ability score you use to determine your save DCs, bonus spells per day, and ability to cast spells of a given level. If you gain spells from multiple classes, you must meet the prerequisite ability score for each class to gain the benef its of this feat when casting spells from that class's spell list."
+				"**Special:** To gain the benefits of this feat, you must meet the prerequisite that matches the ability score you use to determine your save DCs, bonus spells per day, and ability to cast spells of a given level. If you gain spells from multiple classes, you must meet the prerequisite ability score for each class to gain the benefits of this feat when casting spells from that class's spell list."
 			],
 			"short_description": "Use a Will save to retain your spell on a failed concentration check to cast defensively"
 		},
@@ -58461,7 +58461,7 @@
 				"| Thoqqua (N) |",
 				"| Voidworm (protean) (CN) |",
 				"| 4th Level |",
-				"| D-ziriak (N) |",
+				"| D'ziriak (N) |",
 				"| Magmin (CN) |",
 				"| Mephit (any) (N) |",
 				"| Satyr (CN) |",
@@ -60876,7 +60876,7 @@
 				"You can swell your throat to amplify and broadcast your vocalizations over vast distances.   ",
 				"**Prerequisites:** Boggard, terrifying croak.   ",
 				"**Benefit:** The range of your terrifying croak ability increases by 5 feet for every 2 Hit Dice you have (maximum 30-foot increase). While speaking Boggard or wordlessly vocalizing, you can swell your throat pouch as a free action to reduce the Perception DC needed to hear your voice by an amount equal to your Hit Dice.   ",
-				"**Special:** The benef its of Throat Pouch and any feats that use it as a prerequisite are available only while you're wearing light, medium, or no armor."
+				"**Special:** The benefits of Throat Pouch and any feats that use it as a prerequisite are available only while you're wearing light, medium, or no armor."
 			],
 			"short_description": "Increase the range of your terrifying croak"
 		},
@@ -62288,7 +62288,7 @@
 				"",
 				"**Source**  [Pathfinder Unchained pg. 134](source:Pathfinder_Unchained)",
 				"",
-				"When you fail to confirm a critical hit with a melee attack, you can spend 2 stamina points to attempt to trip the target anyway. When you do, reroll the confirmation roll and use it to determine if the trip attempt exceeds the opponent's CMD. This reroll is used only for the trip combat maneuver; it can't cause the critical hit to be conf irmed. You still can't make the attempt if the target is immune to critical hits."
+				"When you fail to confirm a critical hit with a melee attack, you can spend 2 stamina points to attempt to trip the target anyway. When you do, reroll the confirmation roll and use it to determine if the trip attempt exceeds the opponent's CMD. This reroll is used only for the trip combat maneuver; it can't cause the critical hit to be confirmed. You still can't make the attempt if the target is immune to critical hits."
 			],
 			"short_description": "Attempt a trip attack on a successful critical hit"
 		},
@@ -62314,7 +62314,7 @@
 				"",
 				"**Source**  [Pathfinder Unchained pg. 134](source:Pathfinder_Unchained)",
 				"",
-				"You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benef its of this feat only as long as you have at least 1 stamina point in your stamina pool."
+				"You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13). You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina pool."
 			],
 			"short_description": "Use a quarterstaff to make a trip attempt against all adjacent enemies"
 		},
@@ -62685,7 +62685,7 @@
 				"",
 				"**Source**  [Pathfinder Unchained pg. 134](source:Pathfinder_Unchained)",
 				"",
-				"You can spend 2 stamina points to gain the benef its of this feat against a creature at least one size category larger than you that does not have the giant subtype. You gain this benef it until the start of your next turn."
+				"You can spend 2 stamina points to gain the benefits of this feat against a creature at least one size category larger than you that does not have the giant subtype. You gain this benefit until the start of your next turn."
 			],
 			"short_description": "Increase the damage with your off-hand weapon when fighting giants"
 		},
@@ -64542,7 +64542,7 @@
 				"",
 				"Your stare is toxic to your enemies.   ",
 				"**Prerequisites:** Mesmerist level 11th, painful stare class feature.   ",
-				"**Benefit:** When you trigger your painful stare, the target immediately becomes envenomed by the following poison: painful stare-injury; save Fort DC = 10 + 1/2 your mesmerist level + your Charisma modif ier; frequency 1/round for 6 rounds; effect 1d3 Dex; cure 2 saves. Whether your target succeeds at or fails its save, you can't use Venomous Stare against that particular foe for 24 hours."
+				"**Benefit:** When you trigger your painful stare, the target immediately becomes envenomed by the following poison: painful stare-injury; save Fort DC = 10 + 1/2 your mesmerist level + your Charisma modifier; frequency 1/round for 6 rounds; effect 1d3 Dex; cure 2 saves. Whether your target succeeds at or fails its save, you can't use Venomous Stare against that particular foe for 24 hours."
 			],
 			"short_description": "Target of painful stare is poisoned"
 		},
