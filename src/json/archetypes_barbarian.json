@@ -54,11 +54,11 @@
 			"",
 			"This ability replaces fast movement.",
 			"",
-			"**Feral Transformation (Su):** At 4th level, when entering a rage, a beastkin berserker can take the form of a Small or Medium animal. This functions as [beast shape I](spell:beast_shape_I), except the duration is for as long as the beastkin berserker rages and the animal must be one she has chosen with her savage rapport.",
+			"**Feral Transformation (Su):** At 4th level, when entering a rage, a beastkin berserker can take the form of a Small or Medium animal. This functions as [beast shape I](spell:beast_shape_1), except the duration is for as long as the beastkin berserker rages and the animal must be one she has chosen with her savage rapport.",
 			"",
-			"At 8th level, the beastkin berserker can use feral transformation to take the form of a Large or Tiny animal that she has chosen with her savage rapport. Feral transformation now acts as [beast shape II](spell:beast_shape_II).",
+			"At 8th level, the beastkin berserker can use feral transformation to take the form of a Large or Tiny animal that she has chosen with her savage rapport. Feral transformation now acts as [beast shape II](spell:beast_shape_2).",
 			"",
-			"At 12th level, a beastkin berserker is able to use feral transformation to take the form of a Huge or Diminutive animal that she has chosen with her savage rapport. Feral transformation now functions as [beast shape III](spell:beast_shape_III).",
+			"At 12th level, a beastkin berserker is able to use feral transformation to take the form of a Huge or Diminutive animal that she has chosen with her savage rapport. Feral transformation now functions as [beast shape III](spell:beast_shape_3).",
 			"",
 			"This ability replaces the rage powers gained at 4th, 8th, and 12th levels."
 		]
@@ -436,13 +436,13 @@
 			"",
 			"**Rage:** In additional to the standard bonuses and penalties of rage, a flesheater takes a -2 penalty to Intelligence while raging. The additional benefits and penalties from a flesheater's abilities last only as long as her rage does, and she cannot use these abilities if they would bring the total penalty to Intelligence to an amount equal to or greater than her Intelligence score. This ability alters the rage ability.",
 			"",
-			"**One Flesh (Su):** At 2nd level when entering a rage, a flesheater can spend an additional round of rage and take an additional -2 penalty to Intelligence to take on a single ability of the valid consumed creature whose flesh she ate most recently. For the purpose of this ability, a valid consumed creature is any dead animal, dragon, humanoid, or magical beast that died and was consumed by the flesheater within the past 24 hours. She can choose any ability listed under [beast shape I](spell:beast_shape_I), as long as the creature possessed that ability. At 5th level, the flesheater can take on any number of the creature's abilities that are listed under [beast shape I](spell:beast_shape_I). At 8th level, the flesheater can instead take on one of the creature's abilities listed under [beast shape II](spell:beast_shape_II). The flesheater's appearance alters to resemble the consumed creature, but she does not change shape. This is a polymorph effect. This ability replaces uncanny dodge, improved uncanny dodge, and the 2nd- and 8th-level rage powers.",
+			"**One Flesh (Su):** At 2nd level when entering a rage, a flesheater can spend an additional round of rage and take an additional -2 penalty to Intelligence to take on a single ability of the valid consumed creature whose flesh she ate most recently. For the purpose of this ability, a valid consumed creature is any dead animal, dragon, humanoid, or magical beast that died and was consumed by the flesheater within the past 24 hours. She can choose any ability listed under [beast shape I](spell:beast_shape_1), as long as the creature possessed that ability. At 5th level, the flesheater can take on any number of the creature's abilities that are listed under [beast shape I](spell:beast_shape_1). At 8th level, the flesheater can instead take on one of the creature's abilities listed under [beast shape II](spell:beast_shape_2). The flesheater's appearance alters to resemble the consumed creature, but she does not change shape. This is a polymorph effect. This ability replaces uncanny dodge, improved uncanny dodge, and the 2nd- and 8th-level rage powers.",
 			"",
 			"**Unbound Rage (Su):** At 11th level, a flesheater can draw in mass from the Ethereal Plane to enlarge herself when she enters a rage, as long as the creature whose flesh she last consumed was at least one size category larger than her base size. Unbound rage affects her as [enlarge person](spell:enlarge_person), except she receives a +4 size bonus to Strength and an additional -2 penalty to Intelligence. This ability replaces greater rage.",
 			"",
 			"**Feast (Su):** At 14th level, a flesheater can use her one flesh and unbound rage abilities to emulate any one valid consumed creature of her choice, rather than only the one she consumed most recently. This ability replaces the 14th-level rage power.",
 			"",
-			"**Unbound Form (Su):** At 20th level, a flesheater can use her one flesh ability to assume the shape of a valid consumed creature. This ability functions as [alter self](spell:alter_self), [beast shape IV](spell:beast_shape_IV), [form of the dragon III](spell:form_of_the_dragon_III), or [giant form II](spell:giant_form_II), as appropriate. This is a polymorph effect. This ability replaces mighty rage.",
+			"**Unbound Form (Su):** At 20th level, a flesheater can use her one flesh ability to assume the shape of a valid consumed creature. This ability functions as [alter self](spell:alter_self), [beast shape IV](spell:beast_shape_4), [form of the dragon III](spell:form_of_the_dragon_3), or [giant form II](spell:giant_form_2), as appropriate. This is a polymorph effect. This ability replaces mighty rage.",
 			"",
 			"**Rage Powers:** The following rage powers complement the flesheater archetype: animal fury, beast totem (any), inspire ferocity, internal fortitude, and terrifying howl."
 		]
@@ -702,7 +702,7 @@
 			"",
 			"**Race:** A mooncursed must either be a humanoid or monstrous humanoid.",
 			"",
-			"**Shifting Rage (Su):** A mooncursed can call upon an animal totem or inner curse, transforming her into a savage beast. Starting at 1st level, she chooses bear, boar, crocodile, shark, tiger, or wolf. Once chosen, this animal can't be changed. When using rounds of her shifting rage, instead of the usual bonuses and penalties from rage, the mooncursed transforms into a Medium version of this animal's form as if under the influence of [beast shape I](spell:beast_shape_I), treating her class level as her caster level whenever relevant. Other aspects of rage aside from the bonuses and penalties, such as the skill restrictions on skills and effects that require concentration, still apply during a shifting rage.",
+			"**Shifting Rage (Su):** A mooncursed can call upon an animal totem or inner curse, transforming her into a savage beast. Starting at 1st level, she chooses bear, boar, crocodile, shark, tiger, or wolf. Once chosen, this animal can't be changed. When using rounds of her shifting rage, instead of the usual bonuses and penalties from rage, the mooncursed transforms into a Medium version of this animal's form as if under the influence of [beast shape I](spell:beast_shape_1), treating her class level as her caster level whenever relevant. Other aspects of rage aside from the bonuses and penalties, such as the skill restrictions on skills and effects that require concentration, still apply during a shifting rage.",
 			"",
 			"This ability alters rage.",
 			"",
@@ -710,11 +710,11 @@
 			"",
 			"This ability replaces improved uncanny dodge.",
 			"",
-			"**Greater Shifting Rage (Su):** At 11th level, a mooncursed can assume larger alternate and hybrid forms. This functions like [beast shape II](spell:beast_shape_II), and it allows the mooncursed to take on a Medium or Large version of her animal's form.",
+			"**Greater Shifting Rage (Su):** At 11th level, a mooncursed can assume larger alternate and hybrid forms. This functions like [beast shape II](spell:beast_shape_2), and it allows the mooncursed to take on a Medium or Large version of her animal's form.",
 			"",
 			"This ability replaces greater rage.",
 			"",
-			"**Mighty Shifting Rage (Su):** At 20th level, a mooncursed can assume even larger alternate and hybrid forms. This functions like [beast shape III](spell:beast_shape_III), and it allows the mooncursed to take on a Medium, Large, or Huge version of her animal's form.",
+			"**Mighty Shifting Rage (Su):** At 20th level, a mooncursed can assume even larger alternate and hybrid forms. This functions like [beast shape III](spell:beast_shape_3), and it allows the mooncursed to take on a Medium, Large, or Huge version of her animal's form.",
 			"",
 			"This ability replaces mighty rage."
 		]

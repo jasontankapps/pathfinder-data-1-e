@@ -386,7 +386,7 @@
 				"| 90 | You gain an additional +2 racial bonus to your Charisma score. |",
 				"| 91 | If you die, your body can never be reanimated as an undead creature. |",
 				"| 92 | You gain a +1 racial bonus on Fortitude saves. |",
-				"| 93 | You can summon a [lantern archon](monster:lantern_archon) once per day as though by [summon monster III](spell:summon_monster_III). |",
+				"| 93 | You can summon a [lantern archon](monster:lantern_archon) once per day as though by [summon monster III](spell:summon_monster_3). |",
 				"| 94 | You can speak to horses and other equine animals. |",
 				"| 95 | You gain a +2 racial bonus on Diplomacy checks. |",
 				"| 96 | You gain a +2 racial bonus on Use Magic Device checks. |",
@@ -6761,7 +6761,7 @@
 				"**Medium:** Rougarous are Medium creatures.   ",
 				"**Normal Speed:** Rougarous have a base speed of 30 feet.   ",
 				"**Senses:** Rougarous have low-light vision and the scent special ability.   ",
-				"**Change Shape (Su) A rougarou can change shape once per day into a wolf as a standard action, as [beast shape I](spell:**_beast_shape_I). A rougarou can revert to its true form as a swift action.   ",
+				"**Change Shape (Su) A rougarou can change shape once per day into a wolf as a standard action, as [beast shape I](spell:**_beast_shape_1). A rougarou can revert to its true form as a swift action.   ",
 				"**Natural Weapon:** Rougarous have a bite attack that deals 1d4 points of damage. This is a secondary attack if a rougarou wields a manufactured weapon.   ",
 				"**Languages:** Rougarous speak Common and their own racial language of Rougarou. Rougarous with high Intelligence scores can choose from these bonus languages: Aklo, Elven, Gnoll, Gnome, Goblin, or Sylvan."
 			],

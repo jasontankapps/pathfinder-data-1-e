@@ -9602,7 +9602,7 @@
 				"**Feats** [Deceitful](feat:Deceitful), [Stealthy](feat:Stealthy)   ",
 				"**Skills** Bluff +6, Disguise +6, Escape Artist +4, Fly +2, Perception +5, Stealth +18   ",
 				"**Languages** Common, Sylvan, Undercommon   ",
-				"**SQ** change shape (chicken or fox; [beast shape II](unknown:beast_shape_II)), trickster's egg, unlikely form"
+				"**SQ** change shape (chicken or fox; [beast shape II](unknown:beast_shape_2)), trickster's egg, unlikely form"
 			],
 			"ecology": [
 				"**Environment** any land   ",
@@ -21146,7 +21146,7 @@
 				"",
 				"**CL** 16th; **Price** 209,000 gp",
 				"",
-				"**Requirements** [Craft Construct](unknown:Craft_Construct), [create greater undead](unknown:create_greater_undead), [form of the dragon I](unknown:form_of_the_dragon_I), [geas/quest](unknown:geas/quest), [limited wish](unknown:limited_wish), creator must be caster level 16th; Skill Craft (leather) or Heal DC 21; **Cost** 109,000 gp"
+				"**Requirements** [Craft Construct](unknown:Craft_Construct), [create greater undead](unknown:create_greater_undead), [form of the dragon I](unknown:form_of_the_dragon_1), [geas/quest](unknown:geas/quest), [limited wish](unknown:limited_wish), creator must be caster level 16th; Skill Craft (leather) or Heal DC 21; **Cost** 109,000 gp"
 			],
 			"monster_family": "Golem",
 			"short_description": "This massive, hunched monstrosity has a hide that appears to be a mix of reptilian scales of various colors."
@@ -26765,7 +26765,7 @@
 				"",
 				"All covens can cast the following spells, regardless of the hags that comprise them: [animate dead](unknown:animate_dead), [baleful polymorph](unknown:baleful_polymorph), [bestow curse](unknown:bestow_curse), [clairaudience/clairvoyance](unknown:clairaudience/clairvoyance), [commune](unknown:commune), [dream](unknown:dream), [forcecage](unknown:forcecage), [mind blank](unknown:mind_blank), [reincarnate](unknown:reincarnate), [speak with dead](unknown:speak_with_dead), [veil](unknown:veil), [vision](unknown:vision)",
 				"",
-				"The Annis Hag adds the following spells to the coven: [charm monster](unknown:charm_monster), [cloudkill](unknown:cloudkill), [giant form I](unknown:giant_form_I), mass bull's strength"
+				"The Annis Hag adds the following spells to the coven: [charm monster](unknown:charm_monster), [cloudkill](unknown:cloudkill), [giant form I](unknown:giant_form_1), mass bull's strength"
 			],
 			"monster_family": "Hag",
 			"short_description": "This repulsive, hunchbacked crone has skin the color of a fresh bruise. Despite her hunch, she looms taller than a human."
@@ -27690,7 +27690,7 @@
 				"",
 				"**Hallowed Lights (Su)** The glowing orbs surrounding a hallowed lynx radiate light out to a distance of 60 feet. This light counters and is countered by [darkness](unknown:darkness) as though it were an 8th-level spell. Allies in this light, including the hallowed lynx, gain an insight bonus on Charisma-based skill checks and Will saving throws equal to the lynx's Charisma modifier. Enemies in the light at the start of the lynx's turn must succeed at a DC 26 Will save or become blinded for 1 round. If the hallowed lynx has expended all seven of its orbs through its blinding orb or release shining child ability, the hallowed lights cease until at least one of the hallowed lynx's orbs has refreshed. The save DC is Charisma-based.",
 				"",
-				"**Release Shining Child (Su)** As a standard action, a hallowed lynx can release the [shining child](unknown:shining_child) encapsulated within any one of its glowing orbs. This functions as if the shining child had been summoned using a [summon monster IX](unknown:summon_monster_IX) spell (CL 23rd). Once an orb has been used in this manner, it loses its innate brilliance and cannot be used again until 24 hours have passed, after which time its energy refreshes and it resumes glowing."
+				"**Release Shining Child (Su)** As a standard action, a hallowed lynx can release the [shining child](unknown:shining_child) encapsulated within any one of its glowing orbs. This functions as if the shining child had been summoned using a [summon monster IX](unknown:summon_monster_9) spell (CL 23rd). Once an orb has been used in this manner, it loses its innate brilliance and cannot be used again until 24 hours have passed, after which time its energy refreshes and it resumes glowing."
 			],
 			"ecology2": [
 				"Hallowed lynxes are not natural creatures, though they are descended from the mundane lynxes still found across Varisia. Their origin can be traced to the height of the Thassilonian empire in the realm of Eurythnia, where the runelord Sorshen created the first hallowed lynxes to serve her as favored pets and guardians similar to the way in which animals served the gods.",

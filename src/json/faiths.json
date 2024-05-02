@@ -219,11 +219,11 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #8: Seven Days to the Grave pg. 67](source:Pathfinder_#8:_Seven_Days_to_the_Grave)",
 				"",
-				"- **[Summon Monster II](spell:Summon_Monster_II):** [Celestial Two-Headed Eagle](monster:Celestial_Two-Headed_Eagle) - LN [this creature has two heads. It gains a +2 racial bonus on Listen, Spot, and Search checks, but does not gain an extra bite attack]",
-				"- **[Summon Monster III](spell:Summon_Monster_III):** [Celestial Hippogriff](monster:Celestial_Hippogriff) - LN",
-				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Two-Headed Giant Eagle](monster:Two-Headed_Giant_Eagle) - LN [this creature has two heads. It gains a +2 racial bonus on Listen, Spot, and Search checks, but does not gain an extra bite attack]",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Celestial Griffon](monster:Celestial_Griffon) - LN",
-				"- **[Summon Monster IX](spell:Summon_Monster_IX):** [Kolyarut](monster:Kolyarut) - LN"
+				"- **[Summon Monster II](spell:Summon_Monster_2):** [Celestial Two-Headed Eagle](monster:Celestial_Two-Headed_Eagle) - LN [this creature has two heads. It gains a +2 racial bonus on Listen, Spot, and Search checks, but does not gain an extra bite attack]",
+				"- **[Summon Monster III](spell:Summon_Monster_3):** [Celestial Hippogriff](monster:Celestial_Hippogriff) - LN",
+				"- **[Summon Monster IV](spell:Summon_Monster_4):** [Two-Headed Giant Eagle](monster:Two-Headed_Giant_Eagle) - LN [this creature has two heads. It gains a +2 racial bonus on Listen, Spot, and Search checks, but does not gain an extra bite attack]",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Celestial Griffon](monster:Celestial_Griffon) - LN",
+				"- **[Summon Monster IX](spell:Summon_Monster_9):** [Kolyarut](monster:Kolyarut) - LN"
 			]
 		},
 		{
@@ -2238,9 +2238,9 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #140: Eulogy for Roslar's Coffer pg. 73](source:Pathfinder_#140:_Eulogy_for_Roslar's_Coffer)",
 				"",
-				"- **[Summon Monster III](spell:Summon_Monster_III):** Augur Kyton",
-				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Fiendish Giant Scarab](monster:Fiendish_Giant_Scarab)",
-				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** Interlocutor Kyton"
+				"- **[Summon Monster III](spell:Summon_Monster_3):** Augur Kyton",
+				"- **[Summon Monster VI](spell:Summon_Monster_6):** [Fiendish Giant Scarab](monster:Fiendish_Giant_Scarab)",
+				"- **[Summon Monster VIII](spell:Summon_Monster_8):** Interlocutor Kyton"
 			]
 		},
 		{
@@ -2807,8 +2807,8 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #134: It Came from Hollow Mountain pg. 73](source:Pathfinder_#134:_It_Came_from_Hollow_Mountain)",
 				"",
-				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Celestial Pegesus](monster:Celestial_Pegesus)",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Lunar Naga](monster:Lunar_Naga)"
+				"- **[Summon Monster IV](spell:Summon_Monster_4):** [Celestial Pegesus](monster:Celestial_Pegesus)",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Lunar Naga](monster:Lunar_Naga)"
 			]
 		},
 		{
@@ -3035,9 +3035,9 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #29: Mother of Flies pg. 67](source:Pathfinder_#29:_Mother_of_Flies)",
 				"",
-				"- **[Summon Monster II](spell:Summon_Monster_II):** [Hell Hound](monster:Hell_Hound) - LE",
-				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Cerberi](monster:Cerberi) - LE",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Bearded Devil](monster:Bearded_Devil) - LE"
+				"- **[Summon Monster II](spell:Summon_Monster_2):** [Hell Hound](monster:Hell_Hound) - LE",
+				"- **[Summon Monster IV](spell:Summon_Monster_4):** [Cerberi](monster:Cerberi) - LE",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Bearded Devil](monster:Bearded_Devil) - LE"
 			]
 		},
 		{
@@ -3289,7 +3289,7 @@
 				"**Source** [Book of the Damned pg. 28](source:Book_of_the_Damned)",
 				"",
 				"1. **Flies of the Seventh (Sp)** decompose corpse 3/day, haunting mists 2/day, distracting cacophony 1/day",
-				"2. **Master of the Multitudes (Sp)** The Lord of Flies happily lends you his hellish servants to further your unholy cause and, of course, his own glory. Once per day, you can summon a swarm of blood-sucking flies to consume your enemies. This functions as per [summon monster VII](spell:summon_monster_VII), except you can summon only a single swarm of blood-draining flies. Treat this swarm as a tick swarm with the fiendish template and a fly speed of 50 feet (perfect maneuverability).",
+				"2. **Master of the Multitudes (Sp)** The Lord of Flies happily lends you his hellish servants to further your unholy cause and, of course, his own glory. Once per day, you can summon a swarm of blood-sucking flies to consume your enemies. This functions as per [summon monster VII](spell:summon_monster_7), except you can summon only a single swarm of blood-draining flies. Treat this swarm as a tick swarm with the fiendish template and a fly speed of 50 feet (perfect maneuverability).",
 				"3. **Consume Divine Flesh (Su)** You relish the thought of the dying Azhia hanging in Baalzebul's home, hellish flies feasting on the forgotten god's flesh for eternity. Your obsession with this macabre act has imbued you with mind-warping abilities to make Baalzebul proud. Three times per day as a standard action, you can target a single living creature within 60 feet. If this creature fails a Will saving throw (DC = 10 + half your Hit Dice + your Wisdom modifier), it believes that flies and maggots are infesting its flesh, and it can take no actions for a full round as it claws at its flesh in terror. The imagined pain deals an amount of damage equal to 1d6 per Hit Die you have (maximum 20d6). The target can negate this effect with a successful Will saving throw. This is a mind-affecting effect. This ability has no effect on creatures that don't have flesh.",
 				"",
 				"**Sentinel**",
@@ -3410,36 +3410,36 @@
 				"",
 				"**Antipaladin**",
 				"",
-				"- [Monstrous Physique I](spell:Monstrous_Physique_I) can be prepared as a 2nd-level spell",
-				"- [Monstrous Physique II](spell:Monstrous_Physique_II) can be prepared as a 3rd-level spell",
-				"- [Monstrous Physique III](spell:Monstrous_Physique_III) can be prepared as a 4th-level spell",
+				"- [Monstrous Physique I](spell:Monstrous_Physique_1) can be prepared as a 2nd-level spell",
+				"- [Monstrous Physique II](spell:Monstrous_Physique_2) can be prepared as a 3rd-level spell",
+				"- [Monstrous Physique III](spell:Monstrous_Physique_3) can be prepared as a 4th-level spell",
 				"",
 				"**Cleric/Warpriest**",
 				"",
 				"- [Maze](spell:Maze) can be prepared as a 8th-level spell",
-				"- [Monstrous Physique I](spell:Monstrous_Physique_I) can be prepared as a 3rd-level spell",
-				"- [Monstrous Physique II](spell:Monstrous_Physique_II) can be prepared as a 4th-level spell",
-				"- [Monstrous Physique III](spell:Monstrous_Physique_III) can be prepared as a 5th-level spell",
-				"- [Monstrous Physique IV](spell:Monstrous_Physique_IV) can be prepared as a 6th-level spell",
+				"- [Monstrous Physique I](spell:Monstrous_Physique_1) can be prepared as a 3rd-level spell",
+				"- [Monstrous Physique II](spell:Monstrous_Physique_2) can be prepared as a 4th-level spell",
+				"- [Monstrous Physique III](spell:Monstrous_Physique_3) can be prepared as a 5th-level spell",
+				"- [Monstrous Physique IV](spell:Monstrous_Physique_4) can be prepared as a 6th-level spell",
 				"",
 				"**Ranger**",
 				"",
-				"- [Monstrous Physique I](spell:Monstrous_Physique_I) can be prepared as a 2nd-level spell",
-				"- [Monstrous Physique II](spell:Monstrous_Physique_II) can be prepared as a 3rd-level spell",
-				"- [Monstrous Physique III](spell:Monstrous_Physique_III) can be prepared as a 4th-level spell",
+				"- [Monstrous Physique I](spell:Monstrous_Physique_1) can be prepared as a 2nd-level spell",
+				"- [Monstrous Physique II](spell:Monstrous_Physique_2) can be prepared as a 3rd-level spell",
+				"- [Monstrous Physique III](spell:Monstrous_Physique_3) can be prepared as a 4th-level spell",
 				"",
 				"**Witch**",
 				"",
-				"- [Monstrous Physique I](spell:Monstrous_Physique_I) can be prepared as a 3rd-level spell",
-				"- [Monstrous Physique II](spell:Monstrous_Physique_II) can be prepared as a 4th-level spell",
-				"- [Monstrous Physique III](spell:Monstrous_Physique_III) can be prepared as a 5th-level spell",
-				"- [Monstrous Physique IV](spell:Monstrous_Physique_IV) can be prepared as a 6th-level spell"
+				"- [Monstrous Physique I](spell:Monstrous_Physique_1) can be prepared as a 3rd-level spell",
+				"- [Monstrous Physique II](spell:Monstrous_Physique_2) can be prepared as a 4th-level spell",
+				"- [Monstrous Physique III](spell:Monstrous_Physique_3) can be prepared as a 5th-level spell",
+				"- [Monstrous Physique IV](spell:Monstrous_Physique_4) can be prepared as a 6th-level spell"
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #77: Herald of the Ivory Labyrinth pg. 70](source:Pathfinder_#77:_Herald_of_the_Ivory_Labyrinth)",
 				"",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Half-Fiend Minotaur](monster:Half-Fiend_Minotaur)",
-				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Fiendish Chimera](monster:Fiendish_Chimera)"
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Half-Fiend Minotaur](monster:Half-Fiend_Minotaur)",
+				"- **[Summon Monster VI](spell:Summon_Monster_6):** [Fiendish Chimera](monster:Fiendish_Chimera)"
 			],
 			"other_rules": [
 				"**Source** [Pathfinder #77: Herald of the Ivory Labyrinth pg. 70](source:Pathfinder_#77:_Herald_of_the_Ivory_Labyrinth)",
@@ -3674,7 +3674,7 @@
 				"**Source** [Pathfinder #143: Borne by the Sun's Grace pg. 79](source:Pathfinder_#143:_Borne_by_the_Sun's_Grace)",
 				"",
 				"1. **Know Who Passed (Sp)** [alarm](spell:alarm) 3/day, [perceive cues](spell:perceive_cues) 2/day, or [speak with dead](spell:speak_with_dead) 1/day",
-				"2. **Wings of the Wanderer (Su)** As a standard action, you can assume the form of a [giant raven](monster:giant_raven) as if using the spell [beast shape II](spell:beast_shape_II). While in this form, you gain the raven's scavenger extraordinary ability, a +2 insight bonus to AC, and a +3 insight bonus on Perception checks. You can retain this form for 1 hour per HD you have; this time does not need to be consecutive, but it must be used in 1-hour increments. While in raven form, you can increase or decrease your size as a standard action, as if you had cast [reduce person](spell:reduce_person) or [enlarge person](spell:enlarge_person) (self only); these spells have their normal duration, treating your Hit Dice as your caster level, but casting either consumes 1 hour of your daily shapeshifting allotment.",
+				"2. **Wings of the Wanderer (Su)** As a standard action, you can assume the form of a [giant raven](monster:giant_raven) as if using the spell [beast shape II](spell:beast_shape_2). While in this form, you gain the raven's scavenger extraordinary ability, a +2 insight bonus to AC, and a +3 insight bonus on Perception checks. You can retain this form for 1 hour per HD you have; this time does not need to be consecutive, but it must be used in 1-hour increments. While in raven form, you can increase or decrease your size as a standard action, as if you had cast [reduce person](spell:reduce_person) or [enlarge person](spell:enlarge_person) (self only); these spells have their normal duration, treating your Hit Dice as your caster level, but casting either consumes 1 hour of your daily shapeshifting allotment.",
 				"3. **Terrain Dominance (Sp, Su, Ex)** Your passage is rarely impeded by landscapes or weather. For every 5 HD you have, you gain one terrain dominance as if you were a horizon walker; you do not need to have the terrain mastery class feature to select a terrain dominance. If you do not have a favored terrain bonus from another source, treat your favored terrain bonus as +2 when dealing with creatures native to the terrains over which you have dominance; you do not otherwise gain the benefits of favored terrain.",
 				"",
 				"**Exalted**",
@@ -3723,10 +3723,10 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #143: Borne by the Sun's Grace pg. 79](source:Pathfinder_#143:_Borne_by_the_Sun's_Grace)",
 				"",
-				"- **[Summon Monster III](spell:Summon_Monster_III):** [Entropic Giant Raven](monster:Entropic_Giant_Raven)",
-				"- **[Summon Monster III](spell:Summon_Monster_III):** [Nosoi](monster:Nosoi)",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Catrina](monster:Catrina)",
-				"- **[Summon Monster VII](spell:Summon_Monster_VII):** [Shoki](monster:Shoki)"
+				"- **[Summon Monster III](spell:Summon_Monster_3):** [Entropic Giant Raven](monster:Entropic_Giant_Raven)",
+				"- **[Summon Monster III](spell:Summon_Monster_3):** [Nosoi](monster:Nosoi)",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Catrina](monster:Catrina)",
+				"- **[Summon Monster VII](spell:Summon_Monster_7):** [Shoki](monster:Shoki)"
 			]
 		},
 		{
@@ -4092,9 +4092,9 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #55: The Wormwood Mutiny pg. 72](source:Pathfinder_#55:_The_Wormwood_Mutiny)",
 				"",
-				"- **[Summon Monster II](spell:Summon_Monster_II):** [Entropic Reefclaw](monster:Entropic_Reefclaw) - CN (uses entropic simple template)",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Saltwater Merrow](monster:Saltwater_Merrow) - NE",
-				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Tylosaurus](monster:Tylosaurus) - N"
+				"- **[Summon Monster II](spell:Summon_Monster_2):** [Entropic Reefclaw](monster:Entropic_Reefclaw) - CN (uses entropic simple template)",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Saltwater Merrow](monster:Saltwater_Merrow) - NE",
+				"- **[Summon Monster VI](spell:Summon_Monster_6):** [Tylosaurus](monster:Tylosaurus) - N"
 			],
 			"other_rules": [
 				"**Source** [Pathfinder #55: The Wormwood Mutiny pg. 72](source:Pathfinder_#55:_The_Wormwood_Mutiny)",
@@ -4612,9 +4612,9 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #86: Lords of Rust pg. 74](source:Pathfinder_#86:_Lords_of_Rust)",
 				"",
-				"- **[Summon Monster I](spell:Summon_Monster_I):** [Clockwork Spy](monster:Clockwork_Spy)",
-				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Clockwork Servant](monster:Clockwork_Servant)",
-				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Clockwork Soldier](monster:Clockwork_Soldier)"
+				"- **[Summon Monster I](spell:Summon_Monster_1):** [Clockwork Spy](monster:Clockwork_Spy)",
+				"- **[Summon Monster IV](spell:Summon_Monster_4):** [Clockwork Servant](monster:Clockwork_Servant)",
+				"- **[Summon Monster VI](spell:Summon_Monster_6):** [Clockwork Soldier](monster:Clockwork_Soldier)"
 			]
 		},
 		{
@@ -5028,10 +5028,10 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #17: A Memory of Darkness pg. 60](source:Pathfinder_#17:_A_Memory_of_Darkness)",
 				"",
-				"- **[Summon Monster I](spell:Summon_Monster_I):** [Giant Bee](monster:Giant_Bee) - N",
-				"- **[Summon Monster II](spell:Summon_Monster_II):** [Tiefling Rogue 1](monster:Tiefling_Rogue_1) - CN",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Spider Eater](monster:Spider_Eater) - N",
-				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Hellwasp Swarm](monster:Hellwasp_Swarm) - CE"
+				"- **[Summon Monster I](spell:Summon_Monster_1):** [Giant Bee](monster:Giant_Bee) - N",
+				"- **[Summon Monster II](spell:Summon_Monster_2):** [Tiefling Rogue 1](monster:Tiefling_Rogue_1) - CN",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Spider Eater](monster:Spider_Eater) - N",
+				"- **[Summon Monster VIII](spell:Summon_Monster_8):** [Hellwasp Swarm](monster:Hellwasp_Swarm) - CE"
 			]
 		},
 		{
@@ -5247,10 +5247,10 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #14: Children of the Void pg. 61](source:Pathfinder_#14:_Children_of_the_Void)",
 				"",
-				"- **[Summon Monster II](spell:Summon_Monster_II):** [Celestial Cayhound](monster:Celestial_Cayhound) - CG (uses riding dog statistics)",
-				"- **[Summon Monster III](spell:Summon_Monster_III):** [Satyr](monster:Satyr) - CG (without pipes)",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Rust Monster](monster:Rust_Monster) - N",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Satyr](monster:Satyr) - CG (with pipes)"
+				"- **[Summon Monster II](spell:Summon_Monster_2):** [Celestial Cayhound](monster:Celestial_Cayhound) - CG (uses riding dog statistics)",
+				"- **[Summon Monster III](spell:Summon_Monster_3):** [Satyr](monster:Satyr) - CG (without pipes)",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Rust Monster](monster:Rust_Monster) - N",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Satyr](monster:Satyr) - CG (with pipes)"
 			]
 		},
 		{
@@ -5841,11 +5841,11 @@
 				"",
 				"**Cleric/Warpriest**",
 				"",
-				"- [Undead Anatomy II](spell:Undead_Anatomy_II) can be prepared as a 5th-level spell",
+				"- [Undead Anatomy II](spell:Undead_Anatomy_2) can be prepared as a 5th-level spell",
 				"",
 				"**Oracle**",
 				"",
-				"- [Undead Anatomy II](spell:Undead_Anatomy_II) can be prepared as a 5th-level spell"
+				"- [Undead Anatomy II](spell:Undead_Anatomy_2) can be prepared as a 5th-level spell"
 			],
 			"other_rules": [
 				"**Source** [Pathfinder #144: Midwives to Death pg. 74](source:Pathfinder_#144:_Midwives_to_Death)",
@@ -6542,8 +6542,8 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #119: Prisoners of the Blight pg. 71](source:Pathfinder_#119:_Prisoners_of_the_Blight)",
 				"",
-				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Mandragora](monster:Mandragora)",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Tendriculos](monster:Tendriculos)"
+				"- **[Summon Monster IV](spell:Summon_Monster_4):** [Mandragora](monster:Mandragora)",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Tendriculos](monster:Tendriculos)"
 			]
 		},
 		{
@@ -7188,22 +7188,22 @@
 				"**Antipaladin**",
 				"",
 				"- [Cape of Wasps](spell:Cape_of_Wasps) can be prepared as a 4th-level spell",
-				"- [Vermin Shape I](spell:Vermin_Shape_I) can be prepared as a 4th-level spell",
+				"- [Vermin Shape I](spell:Vermin_Shape_1) can be prepared as a 4th-level spell",
 				"",
 				"**Cleric/Warpriest**",
 				"",
 				"- [Create Pit](spell:Create_Pit) can be prepared as a 3rd-level spell",
 				"- [Cape of Wasps](spell:Cape_of_Wasps) can be prepared as a 4th-level spell",
-				"- [Vermin Shape I](spell:Vermin_Shape_I) can be prepared as a 4th-level spell",
-				"- [Vermin Shape II](spell:Vermin_Shape_II) can be prepared as a 5th-level spell",
+				"- [Vermin Shape I](spell:Vermin_Shape_1) can be prepared as a 4th-level spell",
+				"- [Vermin Shape II](spell:Vermin_Shape_2) can be prepared as a 5th-level spell",
 				"- [Acid Pit](spell:Acid_Pit) can be prepared as a 6th-level spell"
 			],
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #78: City of Locusts pg. 70](source:Pathfinder_#78:_City_of_Locusts)",
 				"",
-				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Vermlek](monster:Vermlek)",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Fiendish Giant Locust](monster:Fiendish_Giant_Locust)",
-				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Fiendish Giant Mosquito](monster:Fiendish_Giant_Mosquito)"
+				"- **[Summon Monster IV](spell:Summon_Monster_4):** [Vermlek](monster:Vermlek)",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Fiendish Giant Locust](monster:Fiendish_Giant_Locust)",
+				"- **[Summon Monster VI](spell:Summon_Monster_6):** [Fiendish Giant Mosquito](monster:Fiendish_Giant_Mosquito)"
 			]
 		},
 		{
@@ -7380,11 +7380,11 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #2: The Skinsaw Murders pg. 72](source:Pathfinder_#2:_The_Skinsaw_Murders)",
 				"",
-				"- **[Summon Monster II](spell:Summon_Monster_II):** [Lyrakien](monster:Lyrakien) - CG",
-				"- **[Summon Monster III](spell:Summon_Monster_III):** [Star Monarch](monster:Star_Monarch) - CG [stats as a giant eagle]",
-				"- **[Summon Monster VII](spell:Summon_Monster_VII):** [Young Brass Dragon](monster:Young_Brass_Dragon) - CG (extraplanar)",
+				"- **[Summon Monster II](spell:Summon_Monster_2):** [Lyrakien](monster:Lyrakien) - CG",
+				"- **[Summon Monster III](spell:Summon_Monster_3):** [Star Monarch](monster:Star_Monarch) - CG [stats as a giant eagle]",
+				"- **[Summon Monster VII](spell:Summon_Monster_7):** [Young Brass Dragon](monster:Young_Brass_Dragon) - CG (extraplanar)",
 				"- **Source** [Monster Summoner's Handbook pg. 30](source:Monster_Summoner's_Handbook)",
-				"- **[Summon Monster II](spell:Summon_Monster_II):** [Pseudodragon](monster:Pseudodragon) - CG"
+				"- **[Summon Monster II](spell:Summon_Monster_2):** [Pseudodragon](monster:Pseudodragon) - CG"
 			]
 		},
 		{
@@ -8530,8 +8530,8 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #32: Rivers Run Red pg. 71](source:Pathfinder_#32:_Rivers_Run_Red)",
 				"",
-				"- **[Summon Monster II](spell:Summon_Monster_II):** [Celestial Elk](monster:Celestial_Elk) - LG",
-				"- **[Summon Monster III](spell:Summon_Monster_III):** [Celestial Dire Boar](monster:Celestial_Dire_Boar) - LG"
+				"- **[Summon Monster II](spell:Summon_Monster_2):** [Celestial Elk](monster:Celestial_Elk) - LG",
+				"- **[Summon Monster III](spell:Summon_Monster_3):** [Celestial Dire Boar](monster:Celestial_Dire_Boar) - LG"
 			],
 			"other_rules": [
 				"**Source** [Inner Sea Gods pg. 55](source:Inner_Sea_Gods)",
@@ -9589,9 +9589,9 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #107: Scourge of the Godclaw pg. 73](source:Pathfinder_#107:_Scourge_of_the_Godclaw)",
 				"",
-				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Venomous Snake Swarm](monster:Venomous_Snake_Swarm)",
-				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Drowning Devil (Sarglagon)](monster:Drowning_Devil_(Sarglagon))",
-				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Aghasura (Asura)](monster:Aghasura_(Asura))"
+				"- **[Summon Monster IV](spell:Summon_Monster_4):** [Venomous Snake Swarm](monster:Venomous_Snake_Swarm)",
+				"- **[Summon Monster VI](spell:Summon_Monster_6):** [Drowning Devil (Sarglagon)](monster:Drowning_Devil_(Sarglagon))",
+				"- **[Summon Monster VIII](spell:Summon_Monster_8):** [Aghasura (Asura)](monster:Aghasura_(Asura))"
 			]
 		},
 		{
@@ -10061,10 +10061,10 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #35: War of the River Kings pg. 73](source:Pathfinder_#35:_War_of_the_River_Kings)",
 				"",
-				"- **[Summon Monster III](spell:Summon_Monster_III):** [Iron Cobra](monster:Iron_Cobra) - N (extraplanar, no poison)",
-				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Bulette](monster:Bulette) - N",
-				"- **[Summon Monster VII](spell:Summon_Monster_VII):** [Behir](monster:Behir) - N",
-				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Gorgon](monster:Gorgon) - N"
+				"- **[Summon Monster III](spell:Summon_Monster_3):** [Iron Cobra](monster:Iron_Cobra) - N (extraplanar, no poison)",
+				"- **[Summon Monster VI](spell:Summon_Monster_6):** [Bulette](monster:Bulette) - N",
+				"- **[Summon Monster VII](spell:Summon_Monster_7):** [Behir](monster:Behir) - N",
+				"- **[Summon Monster VIII](spell:Summon_Monster_8):** [Gorgon](monster:Gorgon) - N"
 			],
 			"other_rules": [
 				"**Source** [Pathfinder #35: War of the River Kings pg. 73](source:Pathfinder_#35:_War_of_the_River_Kings)",
@@ -10236,12 +10236,12 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #38: Racing to Ruin pg. 71](source:Pathfinder_#38:_Racing_to_Ruin)",
 				"",
-				"- **[Summon Monster II](spell:Summon_Monster_II):** [Merfolk](monster:Merfolk) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
-				"- **[Summon Monster VII](spell:Summon_Monster_VII):** [Young Frost Giant](monster:Young_Frost_Giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
-				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Frost Giant](monster:Frost_Giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
-				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Young Cloud Giant](monster:Young_Cloud_Giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
-				"- **[Summon Monster IX](spell:Summon_Monster_IX):** [Cloud Giant](monster:Cloud_Giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
-				"- **[Summon Monster IX](spell:Summon_Monster_IX):** [Young Storm Giant](monster:Young_Storm_Giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]"
+				"- **[Summon Monster II](spell:Summon_Monster_2):** [Merfolk](monster:Merfolk) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
+				"- **[Summon Monster VII](spell:Summon_Monster_7):** [Young Frost Giant](monster:Young_Frost_Giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
+				"- **[Summon Monster VIII](spell:Summon_Monster_8):** [Frost Giant](monster:Frost_Giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
+				"- **[Summon Monster VIII](spell:Summon_Monster_8):** [Young Cloud Giant](monster:Young_Cloud_Giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
+				"- **[Summon Monster IX](spell:Summon_Monster_9):** [Cloud Giant](monster:Cloud_Giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
+				"- **[Summon Monster IX](spell:Summon_Monster_9):** [Young Storm Giant](monster:Young_Storm_Giant) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]"
 			]
 		},
 		{
@@ -10437,20 +10437,20 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #75: Demon's Heresy pg. 64](source:Pathfinder_#75:_Demon's_Heresy)",
 				"",
-				"- **[Summon Nature's Ally II](spell:Summon_Nature's_Ally_II)**: [Axe Beak](monster:Axe_Beak) [Order of Wing]",
-				"- **[Summon Nature's Ally II](spell:Summon_Nature's_Ally_II)**: [Dire Badger](monster:Dire_Badger) [Order of Earth]",
-				"- **[Summon Nature's Ally II](spell:Summon_Nature's_Ally_II)**: [Giant Porcupine](monster:Giant_Porcupine) [Order of Earth]",
-				"- **[Summon Nature's Ally IV](spell:Summon_Nature's_Ally_IV)**: [Giant Chameleon Lizard](monster:Giant_Chameleon_Lizard) [Order of Fang]",
-				"- **[Summon Nature's Ally IV](spell:Summon_Nature's_Ally_IV)**: [Giant Skunk](monster:Giant_Skunk) [Order of Earth]",
-				"- **[Summon Nature's Ally IV](spell:Summon_Nature's_Ally_IV)**: [Seaweed Leshy](monster:Seaweed_Leshy) [Order of Leaf or Wave]",
-				"- **[Summon Nature's Ally IV](spell:Summon_Nature's_Ally_IV)**: [Giant Vulture](monster:Giant_Vulture) [Order of Wing]",
-				"- **[Summon Nature's Ally V](spell:Summon_Nature's_Ally_V)**: [Emperor Cobra](monster:Emperor_Cobra) [Order of Fang]",
-				"- **[Summon Nature's Ally V](spell:Summon_Nature's_Ally_V)**: [Giant Owl](monster:Giant_Owl) [Order of Wing]",
-				"- **[Summon Nature's Ally V](spell:Summon_Nature's_Ally_V)**: [Giant Gar](monster:Giant_Gar) [Order of Wave]",
-				"- **[Summon Nature's Ally VI](spell:Summon_Nature's_Ally_VI)**: [Shambling Mound](monster:Shambling_Mound) [Order of Leaf]",
-				"- **[Summon Nature's Ally VII](spell:Summon_Nature's_Ally_VII)**: [Giant Snapping Turtle](monster:Giant_Snapping_Turtle) [Order of Wave]",
-				"- **[Summon Nature's Ally VII](spell:Summon_Nature's_Ally_VII)**: [Giant Anaconda](monster:Giant_Anaconda) [Order of Fang]",
-				"- **[Summon Nature's Ally VII](spell:Summon_Nature's_Ally_VII)**: [Giant Flytrap](monster:Giant_Flytrap) [Order of Leaf]"
+				"- **[Summon Nature's Ally II](spell:Summon_Nature's_Ally_2)**: [Axe Beak](monster:Axe_Beak) [Order of Wing]",
+				"- **[Summon Nature's Ally II](spell:Summon_Nature's_Ally_2)**: [Dire Badger](monster:Dire_Badger) [Order of Earth]",
+				"- **[Summon Nature's Ally II](spell:Summon_Nature's_Ally_2)**: [Giant Porcupine](monster:Giant_Porcupine) [Order of Earth]",
+				"- **[Summon Nature's Ally IV](spell:Summon_Nature's_Ally_4)**: [Giant Chameleon Lizard](monster:Giant_Chameleon_Lizard) [Order of Fang]",
+				"- **[Summon Nature's Ally IV](spell:Summon_Nature's_Ally_4)**: [Giant Skunk](monster:Giant_Skunk) [Order of Earth]",
+				"- **[Summon Nature's Ally IV](spell:Summon_Nature's_Ally_4)**: [Seaweed Leshy](monster:Seaweed_Leshy) [Order of Leaf or Wave]",
+				"- **[Summon Nature's Ally IV](spell:Summon_Nature's_Ally_4)**: [Giant Vulture](monster:Giant_Vulture) [Order of Wing]",
+				"- **[Summon Nature's Ally V](spell:Summon_Nature's_Ally_5)**: [Emperor Cobra](monster:Emperor_Cobra) [Order of Fang]",
+				"- **[Summon Nature's Ally V](spell:Summon_Nature's_Ally_5)**: [Giant Owl](monster:Giant_Owl) [Order of Wing]",
+				"- **[Summon Nature's Ally V](spell:Summon_Nature's_Ally_5)**: [Giant Gar](monster:Giant_Gar) [Order of Wave]",
+				"- **[Summon Nature's Ally VI](spell:Summon_Nature's_Ally_6)**: [Shambling Mound](monster:Shambling_Mound) [Order of Leaf]",
+				"- **[Summon Nature's Ally VII](spell:Summon_Nature's_Ally_7)**: [Giant Snapping Turtle](monster:Giant_Snapping_Turtle) [Order of Wave]",
+				"- **[Summon Nature's Ally VII](spell:Summon_Nature's_Ally_7)**: [Giant Anaconda](monster:Giant_Anaconda) [Order of Fang]",
+				"- **[Summon Nature's Ally VII](spell:Summon_Nature's_Ally_7)**: [Giant Flytrap](monster:Giant_Flytrap) [Order of Leaf]"
 			],
 			"other_rules": [
 				"**Source** [Pathfinder #75: Demon's Heresy pg. 64](source:Pathfinder_#75:_Demon's_Heresy)",
@@ -10567,9 +10567,9 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #64: Beyond the Doomsday Door pg. 73](source:Pathfinder_#64:_Beyond_the_Doomsday_Door)",
 				"",
-				"- **[Summon Monster II](spell:Summon_Monster_II):** [Akata](monster:Akata) (extraplanar)",
-				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Chaos Beast](monster:Chaos_Beast)",
-				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Mothman](monster:Mothman) (extraplanar)"
+				"- **[Summon Monster II](spell:Summon_Monster_2):** [Akata](monster:Akata) (extraplanar)",
+				"- **[Summon Monster VI](spell:Summon_Monster_6):** [Chaos Beast](monster:Chaos_Beast)",
+				"- **[Summon Monster VI](spell:Summon_Monster_6):** [Mothman](monster:Mothman) (extraplanar)"
 			]
 		},
 		{
@@ -11088,9 +11088,9 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #117: Assault on Longshadow pg. 77](source:Pathfinder_#117:_Assault_on_Longshadow)",
 				"",
-				"- **[Summon Monster II](spell:Summon_Monster_II):** [Goblin Snake](monster:Goblin_Snake)",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Barghest](monster:Barghest)",
-				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Greater Barghest](monster:Greater_Barghest)"
+				"- **[Summon Monster II](spell:Summon_Monster_2):** [Goblin Snake](monster:Goblin_Snake)",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Barghest](monster:Barghest)",
+				"- **[Summon Monster VI](spell:Summon_Monster_6):** [Greater Barghest](monster:Greater_Barghest)"
 			]
 		},
 		{
@@ -11429,8 +11429,8 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #110: The Thrushmoor Terror pg. 71](source:Pathfinder_#110:_The_Thrushmoor_Terror)",
 				"",
-				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Byakhee](monster:Byakhee)",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Keeper of the Yellow Sign](monster:Keeper_of_the_Yellow_Sign)"
+				"- **[Summon Monster IV](spell:Summon_Monster_4):** [Byakhee](monster:Byakhee)",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Keeper of the Yellow Sign](monster:Keeper_of_the_Yellow_Sign)"
 			]
 		},
 		{
@@ -11949,14 +11949,14 @@
 				"",
 				"**Cleric/Warpriest**",
 				"",
-				"- [Beast Shape III](spell:Beast_Shape_III) can be prepared as a 5th-level spell [magical beast only]",
-				"- [Beast Shape IV](spell:Beast_Shape_IV) can be prepared as a 6th-level spell [magical beast only]",
+				"- [Beast Shape III](spell:Beast_Shape_3) can be prepared as a 5th-level spell [magical beast only]",
+				"- [Beast Shape IV](spell:Beast_Shape_4) can be prepared as a 6th-level spell [magical beast only]",
 				"- [Magical Beast Shape](spell:Magical_Beast_Shape) can be prepared as a 7th-level spell",
 				"",
 				"**Oracle**",
 				"",
-				"- [Beast Shape III](spell:Beast_Shape_III) can be prepared as a 5th-level spell [magical beast only]",
-				"- [Beast Shape IV](spell:Beast_Shape_IV) can be prepared as a 6th-level spell [magical beast only]",
+				"- [Beast Shape III](spell:Beast_Shape_3) can be prepared as a 5th-level spell [magical beast only]",
+				"- [Beast Shape IV](spell:Beast_Shape_4) can be prepared as a 6th-level spell [magical beast only]",
 				"- [Magical Beast Shape](spell:Magical_Beast_Shape) can be prepared as a 7th-level spell"
 			],
 			"other_rules": [
@@ -12524,9 +12524,9 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #26: The Sixfold Trial pg. 71](source:Pathfinder_#26:_The_Sixfold_Trial)",
 				"",
-				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Celestial Lion](monster:Celestial_Lion) - LG",
-				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Celestial Griffon](monster:Celestial_Griffon) - NG",
-				"- **[Summon Nature's Ally VI](spell:Summon_Nature's_Ally_VI)**: [Celestial Griffon](monster:Celestial_Griffon) - NG"
+				"- **[Summon Monster IV](spell:Summon_Monster_4):** [Celestial Lion](monster:Celestial_Lion) - LG",
+				"- **[Summon Monster VI](spell:Summon_Monster_6):** [Celestial Griffon](monster:Celestial_Griffon) - NG",
+				"- **[Summon Nature's Ally VI](spell:Summon_Nature's_Ally_6)**: [Celestial Griffon](monster:Celestial_Griffon) - NG"
 			]
 		},
 		{
@@ -12825,8 +12825,8 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #53: Tide of Honor pg. 73](source:Pathfinder_#53:_Tide_of_Honor)",
 				"",
-				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Giant Mantis](monster:Giant_Mantis) (extraplanar)",
-				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Tiger](monster:Tiger)"
+				"- **[Summon Monster IV](spell:Summon_Monster_4):** [Giant Mantis](monster:Giant_Mantis) (extraplanar)",
+				"- **[Summon Monster IV](spell:Summon_Monster_4):** [Tiger](monster:Tiger)"
 			],
 			"other_rules": [
 				"**Source** [Pathfinder #53: Tide of Honor pg. 73](source:Pathfinder_#53:_Tide_of_Honor)",
@@ -13696,18 +13696,18 @@
 			"unique_summon_rules": [
 				"**Source** [Mythic Realms pg. 55](source:Mythic_Realms)",
 				"",
-				"- **[Summon Monster I](spell:Summon_Monster_I):** [Fiendish Human Zombie](monster:Fiendish_Human_Zombie) [standard or fast zombie]",
-				"- **[Summon Monster II](spell:Summon_Monster_II):** [Fiendish Ghoul](monster:Fiendish_Ghoul)",
-				"- **[Summon Monster II](spell:Summon_Monster_II):** [Fiendish Plague Zombie](monster:Fiendish_Plague_Zombie)",
-				"- **[Summon Monster III](spell:Summon_Monster_III):** [Fiendish Ghast](monster:Fiendish_Ghast)",
-				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Giant Fiendish Ghast](monster:Giant_Fiendish_Ghast)",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Ghul](monster:Ghul)",
-				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Fiendish Ghul](monster:Fiendish_Ghul)",
-				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Great Ghul](monster:Great_Ghul)",
-				"- **[Summon Monster VII](spell:Summon_Monster_VII):** [Fiendish Great Ghul](monster:Fiendish_Great_Ghul)",
-				"- **[Summon Monster VII](spell:Summon_Monster_VII):** [Fiendish Shaitan](monster:Fiendish_Shaitan)",
-				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Black Jinni](monster:Black_Jinni)",
-				"- **[Summon Monster IX](spell:Summon_Monster_IX):** [Fiendish Black Jinni](monster:Fiendish_Black_Jinni)"
+				"- **[Summon Monster I](spell:Summon_Monster_1):** [Fiendish Human Zombie](monster:Fiendish_Human_Zombie) [standard or fast zombie]",
+				"- **[Summon Monster II](spell:Summon_Monster_2):** [Fiendish Ghoul](monster:Fiendish_Ghoul)",
+				"- **[Summon Monster II](spell:Summon_Monster_2):** [Fiendish Plague Zombie](monster:Fiendish_Plague_Zombie)",
+				"- **[Summon Monster III](spell:Summon_Monster_3):** [Fiendish Ghast](monster:Fiendish_Ghast)",
+				"- **[Summon Monster IV](spell:Summon_Monster_4):** [Giant Fiendish Ghast](monster:Giant_Fiendish_Ghast)",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Ghul](monster:Ghul)",
+				"- **[Summon Monster VI](spell:Summon_Monster_6):** [Fiendish Ghul](monster:Fiendish_Ghul)",
+				"- **[Summon Monster VI](spell:Summon_Monster_6):** [Great Ghul](monster:Great_Ghul)",
+				"- **[Summon Monster VII](spell:Summon_Monster_7):** [Fiendish Great Ghul](monster:Fiendish_Great_Ghul)",
+				"- **[Summon Monster VII](spell:Summon_Monster_7):** [Fiendish Shaitan](monster:Fiendish_Shaitan)",
+				"- **[Summon Monster VIII](spell:Summon_Monster_8):** [Black Jinni](monster:Black_Jinni)",
+				"- **[Summon Monster IX](spell:Summon_Monster_9):** [Fiendish Black Jinni](monster:Fiendish_Black_Jinni)"
 			],
 			"other_rules": [
 				"**Source** [Mythic Realms pg. 55](source:Mythic_Realms)",
@@ -13899,9 +13899,9 @@
 				"",
 				"**Cleric/Warpriest**",
 				"",
-				"- [Beast Shape I](spell:Beast_Shape_I) can be prepared as a 3rd-level spell",
-				"- [Beast Shape II](spell:Beast_Shape_II) can be prepared as a 4th-level spell",
-				"- [Beast Shape III](spell:Beast_Shape_III) can be prepared as a 5th-level spell",
+				"- [Beast Shape I](spell:Beast_Shape_1) can be prepared as a 3rd-level spell",
+				"- [Beast Shape II](spell:Beast_Shape_2) can be prepared as a 4th-level spell",
+				"- [Beast Shape III](spell:Beast_Shape_3) can be prepared as a 5th-level spell",
 				"",
 				"**Paladin**",
 				"",
@@ -14588,13 +14588,13 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 66](source:Pathfinder_#69:_Maiden,_Mother,_Crone)",
 				"",
-				"- **[Summon Monster III](spell:Summon_Monster_III):** [Fiendish Ice Elemental (Small)](monster:Fiendish_Ice_Elemental_(Small))",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Fiendish Ice Elemental (Medium)](monster:Fiendish_Ice_Elemental_(Medium))",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Half-Fiend Yeti](monster:Half-Fiend_Yeti)",
-				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Fiendish Ice Elemental (Large)](monster:Fiendish_Ice_Elemental_(Large))",
-				"- **[Summon Monster VII](spell:Summon_Monster_VII):** [Fiendish Ice Elemental (Huge)](monster:Fiendish_Ice_Elemental_(Huge))",
-				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Fiendish Ice Elemental (Greater)](monster:Fiendish_Ice_Elemental_(Greater))",
-				"- **[Summon Monster IX](spell:Summon_Monster_IX):** [Fiendish Ice Elemental (Elder)](monster:Fiendish_Ice_Elemental_(Elder))"
+				"- **[Summon Monster III](spell:Summon_Monster_3):** [Fiendish Ice Elemental (Small)](monster:Fiendish_Ice_Elemental_(Small))",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Fiendish Ice Elemental (Medium)](monster:Fiendish_Ice_Elemental_(Medium))",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Half-Fiend Yeti](monster:Half-Fiend_Yeti)",
+				"- **[Summon Monster VI](spell:Summon_Monster_6):** [Fiendish Ice Elemental (Large)](monster:Fiendish_Ice_Elemental_(Large))",
+				"- **[Summon Monster VII](spell:Summon_Monster_7):** [Fiendish Ice Elemental (Huge)](monster:Fiendish_Ice_Elemental_(Huge))",
+				"- **[Summon Monster VIII](spell:Summon_Monster_8):** [Fiendish Ice Elemental (Greater)](monster:Fiendish_Ice_Elemental_(Greater))",
+				"- **[Summon Monster IX](spell:Summon_Monster_9):** [Fiendish Ice Elemental (Elder)](monster:Fiendish_Ice_Elemental_(Elder))"
 			]
 		},
 		{
@@ -15188,7 +15188,7 @@
 				"",
 				"#### Spells",
 				"",
-				"[Anthropomorphic Animal](spell:Anthropomorphic_Animal), [Blade of Dark Triumph](spell:Blade_of_Dark_Triumph), [Demon Dream](spell:Demon_Dream), [Litany of Madness](spell:Litany_of_Madness), [Monstrous Extremities](spell:Monstrous_Extremities), [Summon Barghest I](spell:Summon_Barghest_I), [Summon Barghest II](spell:Summon_Barghest_II), [Teratoid Caress](spell:Teratoid_Caress), [Vision of Lamashtu](spell:Vision_of_Lamashtu), [Waters of Lamashtu](spell:Waters_of_Lamashtu)",
+				"[Anthropomorphic Animal](spell:Anthropomorphic_Animal), [Blade of Dark Triumph](spell:Blade_of_Dark_Triumph), [Demon Dream](spell:Demon_Dream), [Litany of Madness](spell:Litany_of_Madness), [Monstrous Extremities](spell:Monstrous_Extremities), [Summon Barghest I](spell:Summon_Barghest_1), [Summon Barghest II](spell:Summon_Barghest_2), [Teratoid Caress](spell:Teratoid_Caress), [Vision of Lamashtu](spell:Vision_of_Lamashtu), [Waters of Lamashtu](spell:Waters_of_Lamashtu)",
 				"",
 				"#### Traits",
 				"",
@@ -15209,10 +15209,10 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #5: Sins of the Saviors pg. 71](source:Pathfinder_#5:_Sins_of_the_Saviors)",
 				"",
-				"- **[Summon Monster III](spell:Summon_Monster_III):** [Fiendish Worg](monster:Fiendish_Worg) - CE",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Barghest](monster:Barghest) - CE (chaotic subtype instead of lawful)",
-				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Warped One](monster:Warped_One) - CE",
-				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Nightmare](monster:Nightmare) - NE"
+				"- **[Summon Monster III](spell:Summon_Monster_3):** [Fiendish Worg](monster:Fiendish_Worg) - CE",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Barghest](monster:Barghest) - CE (chaotic subtype instead of lawful)",
+				"- **[Summon Monster VIII](spell:Summon_Monster_8):** [Warped One](monster:Warped_One) - CE",
+				"- **[Summon Monster VIII](spell:Summon_Monster_8):** [Nightmare](monster:Nightmare) - NE"
 			],
 			"other_rules": [
 				"**Source** [Inner Sea Gods pg. 99](source:Inner_Sea_Gods)",
@@ -15474,8 +15474,8 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #65: Into the Nightmare Rift pg. 75](source:Pathfinder_#65:_Into_the_Nightmare_Rift)",
 				"",
-				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Advanced Kyton Evangelist](monster:Advanced_Kyton_Evangelist) - LE (extraplanar)",
-				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Dark Naga](monster:Dark_Naga) - LE"
+				"- **[Summon Monster VI](spell:Summon_Monster_6):** [Advanced Kyton Evangelist](monster:Advanced_Kyton_Evangelist) - LE (extraplanar)",
+				"- **[Summon Monster VI](spell:Summon_Monster_6):** [Dark Naga](monster:Dark_Naga) - LE"
 			]
 		},
 		{
@@ -16215,9 +16215,9 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #99: Dance of the Damned pg. 75](source:Pathfinder_#99:_Dance_of_the_Damned)",
 				"",
-				"- **[Summon Monster III](spell:Summon_Monster_III):** [Forlarren](monster:Forlarren)",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Achaierai](monster:Achaierai)",
-				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Cabal Devil](monster:Cabal_Devil)"
+				"- **[Summon Monster III](spell:Summon_Monster_3):** [Forlarren](monster:Forlarren)",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Achaierai](monster:Achaierai)",
+				"- **[Summon Monster VIII](spell:Summon_Monster_8):** [Cabal Devil](monster:Cabal_Devil)"
 			]
 		},
 		{
@@ -16817,9 +16817,9 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #102: Breaking the Bones of Hell pg. 72](source:Pathfinder_#102:_Breaking_the_Bones_of_Hell)",
 				"",
-				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Guardian Scroll](monster:Guardian_Scroll)",
-				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Contract Devil (Phistophilus)](monster:Contract_Devil_(Phistophilus))",
-				"- **[Summon Monster IX](spell:Summon_Monster_IX):** [Heresy Devil (Ayngavhaul)](monster:Heresy_Devil_(Ayngavhaul))"
+				"- **[Summon Monster IV](spell:Summon_Monster_4):** [Guardian Scroll](monster:Guardian_Scroll)",
+				"- **[Summon Monster VIII](spell:Summon_Monster_8):** [Contract Devil (Phistophilus)](monster:Contract_Devil_(Phistophilus))",
+				"- **[Summon Monster IX](spell:Summon_Monster_9):** [Heresy Devil (Ayngavhaul)](monster:Heresy_Devil_(Ayngavhaul))"
 			]
 		},
 		{
@@ -17089,8 +17089,8 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #68: The Shackled Hut pg. 69](source:Pathfinder_#68:_The_Shackled_Hut)",
 				"",
-				"- **[Summon Monster I](spell:Summon_Monster_I):** [Great Horned Owl](monster:Great_Horned_Owl) (extraplanar)",
-				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Hound Archon](monster:Hound_Archon) - CG"
+				"- **[Summon Monster I](spell:Summon_Monster_1):** [Great Horned Owl](monster:Great_Horned_Owl) (extraplanar)",
+				"- **[Summon Monster IV](spell:Summon_Monster_4):** [Hound Archon](monster:Hound_Archon) - CG"
 			],
 			"other_rules": [
 				"**Source** [Inner Sea Faiths pg. 72](source:Inner_Sea_Faiths)",
@@ -17160,7 +17160,7 @@
 				"2. **Hands of Justice (Su)** For a number of rounds per day equal to your Hit Dice, you can infuse your slams or a melee weapon you wield with the power of pure law. Your attacks with these weapons gain the axiomatic weapon special ability. Any attacks that would damage these weapons first have their damage reduced by 5 before you apply DR, hardness, or any resistances. Activating or dismissing this ability is a free action, and the rounds need not be consecutive. Any weapon affected by this ability returns to normal 1 round after it leaves your hands.",
 				"3. **Rocky Flesh (Sp)** You gain a profane bonus equal to your Charisma modifier on your Fortitude saving throws and to your natural armor bonus.",
 				"",
-				"**[Summon Monster VII](spell:Summon_Monster_VII): [Stone Giant](monster:Stone_Giant) (fiendish or resolute)**"
+				"**[Summon Monster VII](spell:Summon_Monster_7): [Stone Giant](monster:Stone_Giant) (fiendish or resolute)**"
 			]
 		},
 		{
@@ -17333,9 +17333,9 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #105: The Inferno Gate pg. 73](source:Pathfinder_#105:_The_Inferno_Gate)",
 				"",
-				"- **[Summon Monster III](spell:Summon_Monster_III):** [Phantom Armor (Guardian)](monster:Phantom_Armor_(Guardian)) - LE",
-				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Warmonger Devil (Levaloch)](monster:Warmonger_Devil_(Levaloch))",
-				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Tophet](monster:Tophet)"
+				"- **[Summon Monster III](spell:Summon_Monster_3):** [Phantom Armor (Guardian)](monster:Phantom_Armor_(Guardian)) - LE",
+				"- **[Summon Monster VI](spell:Summon_Monster_6):** [Warmonger Devil (Levaloch)](monster:Warmonger_Devil_(Levaloch))",
+				"- **[Summon Monster VIII](spell:Summon_Monster_8):** [Tophet](monster:Tophet)"
 			]
 		},
 		{
@@ -18469,7 +18469,7 @@
 				"",
 				"#### Magic Items - Rings",
 				"",
-				"[Nethysian Ring of Minor Spell Storing](magic/ring:Nethysian_Ring_of_Minor_Spell_Storing), [Ring of Wizardry (type I)](magic/ring:Ring_of_Wizardry_(type_I)), [Ring of Wizardry (type II)](magic/ring:Ring_of_Wizardry_(type_II)), [Ring of Wizardry (type III)](magic/ring:Ring_of_Wizardry_(type_III)), [Ring of Wizardry (type IV)](magic/ring:Ring_of_Wizardry_(type_IV))",
+				"[Nethysian Ring of Minor Spell Storing](magic/ring:Nethysian_Ring_of_Minor_Spell_Storing), [Ring of Wizardry (type I)](magic/ring:Ring_of_Wizardry_(type_1)), [Ring of Wizardry (type II)](magic/ring:Ring_of_Wizardry_(type_2)), [Ring of Wizardry (type III)](magic/ring:Ring_of_Wizardry_(type_3)), [Ring of Wizardry (type IV)](magic/ring:Ring_of_Wizardry_(type_4))",
 				"",
 				"#### Magic Items - Staves",
 				"",
@@ -18522,8 +18522,8 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #41: The Thousand Fangs Below pg. 73](source:Pathfinder_#41:_The_Thousand_Fangs_Below)",
 				"",
-				"- **[Summon Monster III](spell:Summon_Monster_III):** [Blink Dog](monster:Blink_Dog) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Cloaker](monster:Cloaker) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]"
+				"- **[Summon Monster III](spell:Summon_Monster_3):** [Blink Dog](monster:Blink_Dog) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Cloaker](monster:Cloaker) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]"
 			],
 			"other_rules": [
 				"**Source** [Inner Sea Gods pg. 107](source:Inner_Sea_Gods)",
@@ -18855,7 +18855,7 @@
 				"",
 				"1. **Artist's Flourish (Sp)** [crafter's fortune](spell:crafter's_fortune) 3/ day, [wood shape](spell:wood_shape) 2/day, or [major image](spell:major_image) 1/day",
 				"2. **Swift Creation (Sp)** Once per day as a standard action, you can conjure an object into existence in your vicinity. Objects created in this fashion are always artistic in appearance- otherwise this spell-like ability functions as [major creation](spell:major_creation).",
-				"3. **Summon Sculpture (Sp)** Once per day, you can summon a construct to do your bidding. This functions as [summon monster IX](spell:summon_monster_IX), but you can only choose to summon one [iron golem](monster:iron_golem), 1d3 [stone golems](monster:stone_golems), or 1d4+1 [glass golems](monster:glass_golems).",
+				"3. **Summon Sculpture (Sp)** Once per day, you can summon a construct to do your bidding. This functions as [summon monster IX](spell:summon_monster_9), but you can only choose to summon one [iron golem](monster:iron_golem), 1d3 [stone golems](monster:stone_golems), or 1d4+1 [glass golems](monster:glass_golems).",
 				"",
 				"**Sentinel**",
 				"",
@@ -19081,9 +19081,9 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #59: The Price of Infamy pg. 75](source:Pathfinder_#59:_The_Price_of_Infamy)",
 				"",
-				"- **[Summon Monster III](spell:Summon_Monster_III):** [Human Natural Wererat Rogue 2](monster:Human_Natural_Wererat_Rogue_2) (extraplanar)",
-				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Choker](monster:Choker) (extraplanar)",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Shadow Mastiff](monster:Shadow_Mastiff)"
+				"- **[Summon Monster III](spell:Summon_Monster_3):** [Human Natural Wererat Rogue 2](monster:Human_Natural_Wererat_Rogue_2) (extraplanar)",
+				"- **[Summon Monster IV](spell:Summon_Monster_4):** [Choker](monster:Choker) (extraplanar)",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Shadow Mastiff](monster:Shadow_Mastiff)"
 			]
 		},
 		{
@@ -20578,10 +20578,10 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #44: Trial of the Beast pg. 69](source:Pathfinder_#44:_Trial_of_the_Beast)",
 				"",
-				"- **[Summon Monster III](spell:Summon_Monster_III):** [Nosoi](monster:Nosoi)",
-				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Vanth](monster:Vanth)",
-				"- **[Summon Monster I](spell:Summon_Monster_I):** [Whippoorwill](monster:Whippoorwill) (uses eagle statistics)",
-				"- **[Summon Nature's Ally I](spell:Summon_Nature's_Ally_I)**: [Whippoorwill](monster:Whippoorwill) (uses eagle statistics)"
+				"- **[Summon Monster III](spell:Summon_Monster_3):** [Nosoi](monster:Nosoi)",
+				"- **[Summon Monster VI](spell:Summon_Monster_6):** [Vanth](monster:Vanth)",
+				"- **[Summon Monster I](spell:Summon_Monster_1):** [Whippoorwill](monster:Whippoorwill) (uses eagle statistics)",
+				"- **[Summon Nature's Ally I](spell:Summon_Nature's_Ally_1)**: [Whippoorwill](monster:Whippoorwill) (uses eagle statistics)"
 			],
 			"other_rules": [
 				"**Source** [Inner Sea Gods pg. 123](source:Inner_Sea_Gods)",
@@ -21836,10 +21836,10 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #23: The Impossible Eye pg. 65](source:Pathfinder_#23:_The_Impossible_Eye)",
 				"",
-				"- **[Summon Monster III](spell:Summon_Monster_III):** [Choker](monster:Choker) - CE (extraplanar)",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Fiendish Grick](monster:Fiendish_Grick) - NE",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Gibbering Mouther](monster:Gibbering_Mouther) - CE (extraplanar)",
-				"- **[Summon Monster VII](spell:Summon_Monster_VII):** [Emkrah](monster:Emkrah) - CE"
+				"- **[Summon Monster III](spell:Summon_Monster_3):** [Choker](monster:Choker) - CE (extraplanar)",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Fiendish Grick](monster:Fiendish_Grick) - NE",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Gibbering Mouther](monster:Gibbering_Mouther) - CE (extraplanar)",
+				"- **[Summon Monster VII](spell:Summon_Monster_7):** [Emkrah](monster:Emkrah) - CE"
 			]
 		},
 		{
@@ -22460,11 +22460,11 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #20: House of the Beast pg. 62](source:Pathfinder_#20:_House_of_the_Beast)",
 				"",
-				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Janni](monster:Janni) - NG",
-				"- **[Summon Monster VII](spell:Summon_Monster_VII):** [Djinni](monster:Djinni) - NG",
-				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Efreeti](monster:Efreeti) - LG (redeemed) [does not have the [wish](spell:wish) spell-like ability]",
-				"- **[Summon Nature's Ally VII](spell:Summon_Nature's_Ally_VII)**: [Djinni](monster:Djinni) - NG",
-				"- **[Summon Nature's Ally VIII](spell:Summon_Nature's_Ally_VIII)**: [Efreeti](monster:Efreeti) - LG (redeemed) [does not have the [wish](spell:wish) spell-like ability]"
+				"- **[Summon Monster VI](spell:Summon_Monster_6):** [Janni](monster:Janni) - NG",
+				"- **[Summon Monster VII](spell:Summon_Monster_7):** [Djinni](monster:Djinni) - NG",
+				"- **[Summon Monster VIII](spell:Summon_Monster_8):** [Efreeti](monster:Efreeti) - LG (redeemed) [does not have the [wish](spell:wish) spell-like ability]",
+				"- **[Summon Nature's Ally VII](spell:Summon_Nature's_Ally_7)**: [Djinni](monster:Djinni) - NG",
+				"- **[Summon Nature's Ally VIII](spell:Summon_Nature's_Ally_8)**: [Efreeti](monster:Efreeti) - LG (redeemed) [does not have the [wish](spell:wish) spell-like ability]"
 			]
 		},
 		{
@@ -23254,9 +23254,9 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #50: Night of Frozen Shadows pg. 75](source:Pathfinder_#50:_Night_of_Frozen_Shadows)",
 				"",
-				"- **[Summon Monster II](spell:Summon_Monster_II):** [Grig](monster:Grig) (extraplanar)",
-				"- **[Summon Monster III](spell:Summon_Monster_III):** [Silvanshee](monster:Silvanshee)",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Vulpinal](monster:Vulpinal)"
+				"- **[Summon Monster II](spell:Summon_Monster_2):** [Grig](monster:Grig) (extraplanar)",
+				"- **[Summon Monster III](spell:Summon_Monster_3):** [Silvanshee](monster:Silvanshee)",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Vulpinal](monster:Vulpinal)"
 			]
 		},
 		{
@@ -24809,10 +24809,10 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #71: Rasputin Must Die! pg. 70](source:Pathfinder_#71:_Rasputin_Must_Die!)",
 				"",
-				"- **[Summon Monster III](spell:Summon_Monster_III):** [Cacodaemon](monster:Cacodaemon)",
-				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Fiendish urdefhan](monster:Fiendish_urdefhan)",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Genthodaemon](monster:Genthodaemon)",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Nightmare](monster:Nightmare)"
+				"- **[Summon Monster III](spell:Summon_Monster_3):** [Cacodaemon](monster:Cacodaemon)",
+				"- **[Summon Monster IV](spell:Summon_Monster_4):** [Fiendish urdefhan](monster:Fiendish_urdefhan)",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Genthodaemon](monster:Genthodaemon)",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Nightmare](monster:Nightmare)"
 			]
 		},
 		{
@@ -25120,8 +25120,8 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #131: The Reaper's Right Hand pg. 72](source:Pathfinder_#131:_The_Reaper's_Right_Hand)",
 				"",
-				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Shadow](monster:Shadow)",
-				"- **[Summon Monster VII](spell:Summon_Monster_VII):** [Greater Shadow](monster:Greater_Shadow)"
+				"- **[Summon Monster IV](spell:Summon_Monster_4):** [Shadow](monster:Shadow)",
+				"- **[Summon Monster VII](spell:Summon_Monster_7):** [Greater Shadow](monster:Greater_Shadow)"
 			]
 		},
 		{
@@ -25869,9 +25869,9 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #62: Curse of the Lady's Light pg. 75](source:Pathfinder_#62:_Curse_of_the_Lady's_Light)",
 				"",
-				"- **[Summon Monster I](spell:Summon_Monster_I):** [Badger](monster:Badger)",
-				"- **[Summon Monster III](spell:Summon_Monster_III):** [Azer](monster:Azer)",
-				"- **[Summon Monster III](spell:Summon_Monster_III):** [Dire Badger](monster:Dire_Badger)"
+				"- **[Summon Monster I](spell:Summon_Monster_1):** [Badger](monster:Badger)",
+				"- **[Summon Monster III](spell:Summon_Monster_3):** [Azer](monster:Azer)",
+				"- **[Summon Monster III](spell:Summon_Monster_3):** [Dire Badger](monster:Dire_Badger)"
 			]
 		},
 		{
@@ -26649,8 +26649,8 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #47: Ashes at Dawn pg. 71](source:Pathfinder_#47:_Ashes_at_Dawn)",
 				"",
-				"- **[Summon Monster I](spell:Summon_Monster_I):** [Bloody Human Skeleton](monster:Bloody_Human_Skeleton)",
-				"- **[Summon Monster VII](spell:Summon_Monster_VII):** [Daughter of Urgathoa](monster:Daughter_of_Urgathoa) (extraplanar)"
+				"- **[Summon Monster I](spell:Summon_Monster_1):** [Bloody Human Skeleton](monster:Bloody_Human_Skeleton)",
+				"- **[Summon Monster VII](spell:Summon_Monster_7):** [Daughter of Urgathoa](monster:Daughter_of_Urgathoa) (extraplanar)"
 			],
 			"other_rules": [
 				"**Source** [Inner Sea Gods pg. 163](source:Inner_Sea_Gods)",
@@ -28026,9 +28026,9 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #113: What Grows Within pg. 65](source:Pathfinder_#113:_What_Grows_Within)",
 				"",
-				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Phycomid](monster:Phycomid)",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Basidirond](monster:Basidirond)",
-				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Mi-go](monster:Mi-go)"
+				"- **[Summon Monster IV](spell:Summon_Monster_4):** [Phycomid](monster:Phycomid)",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Basidirond](monster:Basidirond)",
+				"- **[Summon Monster VI](spell:Summon_Monster_6):** [Mi-go](monster:Mi-go)"
 			]
 		},
 		{
@@ -28433,7 +28433,7 @@
 				"",
 				"**Source** [Pathfinder #135: Runeplague pg. 75](source:Pathfinder_#135:_Runeplague)",
 				"",
-				"1. **Transformations (Sp)** [enlarge person](spell:enlarge_person) 3/day, [alter self](spell:alter_self) 2/day, or [undead anatomy I](spell:undead_anatomy_I) 1/day",
+				"1. **Transformations (Sp)** [enlarge person](spell:enlarge_person) 3/day, [alter self](spell:alter_self) 2/day, or [undead anatomy I](spell:undead_anatomy_1) 1/day",
 				"2. **Shrivel Limbs (Su)** Three times per day, you can make a touch attack to cause a living creature's arms and legs to temporarily wither unless it succeeds at a Fortitude saving throw (DC = 10 + half your total Hit Dice + your Charisma modifier). An affected creature counts as one size category smaller for the purpose of determining the size of weapons it can wield. If the creature is capable of making natural attacks with its arms, hands, or claws, the damage dealt by those attacks decreases as though the target were one size category smaller than its actual size. In addition, the creature's base speed decreases by 10 feet (to a minimum of 5 feet) and its Strength score counts as 4 lower for the purpose of determining its carrying capacity. After 24 hours, the creature's limbs return to normal. This is a curse effect.",
 				"3. **Contagious Curse (Sp)** You can cast [conditional curse](spell:conditional_curse) as a spell-like ability once per day. The condition you dictate to remove the curse must involve the target manipulating the flesh of two other creatures in some manner (such as removing a limb or organ, or grafting on an additional facial feature). Each creature whose flesh the target manipulates in this manner must also succeed at a saving throw at the same DC as your [conditional curse](spell:conditional_curse) or be affected in the same way as the first target, with the same condition to remove the curse.",
 				"",
@@ -28480,8 +28480,8 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #135: Runeplague pg. 75](source:Pathfinder_#135:_Runeplague)",
 				"",
-				"- **[Summon Monster VII](spell:Summon_Monster_VII):** [Qlippoth, Gorgoros](monster:Qlippoth,_Gorgoros)",
-				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Qlippoth, Gongorinan](monster:Qlippoth,_Gongorinan)"
+				"- **[Summon Monster VII](spell:Summon_Monster_7):** [Qlippoth, Gorgoros](monster:Qlippoth,_Gorgoros)",
+				"- **[Summon Monster VIII](spell:Summon_Monster_8):** [Qlippoth, Gongorinan](monster:Qlippoth,_Gongorinan)"
 			]
 		},
 		{
@@ -28703,9 +28703,9 @@
 				"**Cleric/Warpriest**",
 				"",
 				"- [Accelerate Poison](spell:Accelerate_Poison) can be prepared as a 2nd-level spell",
-				"- [Beast Shape I](spell:Beast_Shape_I) can be prepared as a 3rd-level spell [only to take the form of a snake or serpent]",
-				"- [Beast Shape II](spell:Beast_Shape_II) can be prepared as a 4th-level spell [only to take the form of a snake or serpent]",
-				"- [Beast Shape III](spell:Beast_Shape_III) can be prepared as a 5th-level spell [only to take the form of a snake or serpent]",
+				"- [Beast Shape I](spell:Beast_Shape_1) can be prepared as a 3rd-level spell [only to take the form of a snake or serpent]",
+				"- [Beast Shape II](spell:Beast_Shape_2) can be prepared as a 4th-level spell [only to take the form of a snake or serpent]",
+				"- [Beast Shape III](spell:Beast_Shape_3) can be prepared as a 5th-level spell [only to take the form of a snake or serpent]",
 				"- [Venomous Bolt](spell:Venomous_Bolt) can be prepared as a 4th-level spell [arrow or bolt appears to be a rigid viper that bites its target with poisoned fangs]",
 				"",
 				"**Druid**",
@@ -28715,10 +28715,10 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #42: Sanctum of the Serpent God pg. 71](source:Pathfinder_#42:_Sanctum_of_the_Serpent_God)",
 				"",
-				"- **[Summon Monster II](spell:Summon_Monster_II):** [Venomous Snake](monster:Venomous_Snake) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
-				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Amphisbaena](monster:Amphisbaena)",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Emperor Cobra](monster:Emperor_Cobra) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
-				"- **[Summon Monster VII](spell:Summon_Monster_VII):** [Giant Anaconda](monster:Giant_Anaconda) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]"
+				"- **[Summon Monster II](spell:Summon_Monster_2):** [Venomous Snake](monster:Venomous_Snake) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
+				"- **[Summon Monster IV](spell:Summon_Monster_4):** [Amphisbaena](monster:Amphisbaena)",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Emperor Cobra](monster:Emperor_Cobra) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]",
+				"- **[Summon Monster VII](spell:Summon_Monster_7):** [Giant Anaconda](monster:Giant_Anaconda) [this creature is summoned with the celestial template if you are good, or with the fiendish template if you are evil; you may choose either if you are neutral]"
 			]
 		},
 		{
@@ -29842,10 +29842,10 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #11: Skeletons of Scarwall pg. 69](source:Pathfinder_#11:_Skeletons_of_Scarwall)",
 				"",
-				"- **[Summon Monster II](spell:Summon_Monster_II):** Lesser Shadow (see Tome of Horrors) - LE",
-				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Shadow](monster:Shadow) - LE",
-				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Erinyes](monster:Erinyes) - LE",
-				"- **[Summon Monster VIII](spell:Summon_Monster_VIII):** [Greater Shadow](monster:Greater_Shadow) - LE"
+				"- **[Summon Monster II](spell:Summon_Monster_2):** Lesser Shadow (see Tome of Horrors) - LE",
+				"- **[Summon Monster IV](spell:Summon_Monster_4):** [Shadow](monster:Shadow) - LE",
+				"- **[Summon Monster VIII](spell:Summon_Monster_8):** [Erinyes](monster:Erinyes) - LE",
+				"- **[Summon Monster VIII](spell:Summon_Monster_8):** [Greater Shadow](monster:Greater_Shadow) - LE"
 			],
 			"other_rules": [
 				"**Source** [Inner Sea Gods pg. 171](source:Inner_Sea_Gods)",
@@ -30081,9 +30081,9 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #95: Anvil of Fire pg. 67](source:Pathfinder_#95:_Anvil_of_Fire)",
 				"",
-				"- **[Summon Monster I](spell:Summon_Monster_I):** [Burning Human Skeleton](monster:Burning_Human_Skeleton) (extraplanar)",
-				"- **[Summon Monster III](spell:Summon_Monster_III):** [Thoqqua](monster:Thoqqua)",
-				"- **[Summon Monster VI](spell:Summon_Monster_VI):** [Burning Fire Giant Skeleton](monster:Burning_Fire_Giant_Skeleton) (extraplanar)"
+				"- **[Summon Monster I](spell:Summon_Monster_1):** [Burning Human Skeleton](monster:Burning_Human_Skeleton) (extraplanar)",
+				"- **[Summon Monster III](spell:Summon_Monster_3):** [Thoqqua](monster:Thoqqua)",
+				"- **[Summon Monster VI](spell:Summon_Monster_6):** [Burning Fire Giant Skeleton](monster:Burning_Fire_Giant_Skeleton) (extraplanar)"
 			]
 		},
 		{
@@ -30200,9 +30200,9 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #89: Palace of Fallen Stars pg. 75](source:Pathfinder_#89:_Palace_of_Fallen_Stars)",
 				"",
-				"- **[Summon Monster III](spell:Summon_Monster_III):** [Cacodaemon](monster:Cacodaemon)",
-				"- **[Summon Monster IV](spell:Summon_Monster_IV):** [Lacridaemon](monster:Lacridaemon)",
-				"- **[Summon Monster V](spell:Summon_Monster_V):** [Ceustodaemon](monster:Ceustodaemon)"
+				"- **[Summon Monster III](spell:Summon_Monster_3):** [Cacodaemon](monster:Cacodaemon)",
+				"- **[Summon Monster IV](spell:Summon_Monster_4):** [Lacridaemon](monster:Lacridaemon)",
+				"- **[Summon Monster V](spell:Summon_Monster_5):** [Ceustodaemon](monster:Ceustodaemon)"
 			]
 		}
 	]
