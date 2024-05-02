@@ -281,6 +281,8 @@
 			"sources": [ "PRPG Core Rulebook" ],
 			"type": "basic",
 			"description": [
+				"### Summon Monster I",
+				"",
 				"**Sources** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
 				"",
 				"- [Dire Rat](monster:Dire_Rat) [^A]",
@@ -586,6 +588,8 @@
 			],
 			"type": "basic",
 			"description": [
+				"### Summon Monster II",
+				"",
 				"**Sources** [Bestiary 5](source:Bestiary_5), [PRPG Core Rulebook](source:PRPG_Core_Rulebook), [Bestiary 2](source:Bestiary_2), [Qadira, Gateway to the East](source:Qadira,_Gateway_to_the_East)",
 				"",
 				"- [Aether Elemental (Small)](monster:Small_Aether_Elemental)",
@@ -1210,6 +1214,8 @@
 			"sources": [ "PRPG Core Rulebook" ],
 			"type": "basic",
 			"description": [
+				"### Summon Monster III",
+				"",
 				"**Sources** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
 				"",
 				"- [Ant, Giant (Soldier)](monster:Giant_Ant) [^A]",
@@ -1697,6 +1703,8 @@
 			],
 			"type": "basic",
 			"description": [
+				"### Summon Monster IV",
+				"",
 				"**Sources** [Bestiary 5](source:Bestiary_5), [PRPG Core Rulebook](source:PRPG_Core_Rulebook), [Bestiary 2](source:Bestiary_2), [Seven Swords of Sin](source:Seven_Swords_of_Sin)",
 				"",
 				"- [Aether Elemental (Medium)](monster:Medium_Aether_Elemental)",
@@ -2222,6 +2230,8 @@
 			],
 			"type": "basic",
 			"description": [
+				"### Summon Monster V",
+				"",
 				"**Sources** [Bestiary 5](source:Bestiary_5), [PRPG Core Rulebook](source:PRPG_Core_Rulebook), [Bestiary 2](source:Bestiary_2), [Planes of Power](source:Planes_of_Power), [Pathfinder #92: The Hill Giant's Pledge](source:Pathfinder_#92:_The_Hill_Giant's_Pledge)",
 				"",
 				"- [Aether Elemental (Large)](monster:Large_Aether_Elemental)",
@@ -2786,6 +2796,8 @@
 			],
 			"type": "basic",
 			"description": [
+				"### Summon Monster VI",
+				"",
 				"**Sources** [Bestiary 5](source:Bestiary_5), [PRPG Core Rulebook](source:PRPG_Core_Rulebook), [Bestiary 2](source:Bestiary_2)",
 				"",
 				"- [Aether Elemental (Huge)](monster:Huge_Aether_Elemental)",
@@ -3279,6 +3291,8 @@
 			],
 			"type": "basic",
 			"description": [
+				"### Summon Monster VII",
+				"",
 				"**Sources** [Bestiary 5](source:Bestiary_5), [PRPG Core Rulebook](source:PRPG_Core_Rulebook), [Bestiary 2](source:Bestiary_2)",
 				"",
 				"- [Aether Elemental (Greater)](monster:Greater_Aether_Elemental)",
@@ -3709,6 +3723,8 @@
 			],
 			"type": "basic",
 			"description": [
+				"### Summon Monster VIII",
+				"",
 				"**Sources** [Bestiary 5](source:Bestiary_5), [PRPG Core Rulebook](source:PRPG_Core_Rulebook), [Bestiary 2](source:Bestiary_2)",
 				"",
 				"- [Aether Elemental (Elder)](monster:Elder_Aether_Elemental)",
@@ -4053,6 +4069,8 @@
 			"sources": [ "PRPG Core Rulebook" ],
 			"type": "basic",
 			"description": [
+				"### Summon Monster IX",
+				"",
 				"**Sources** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
 				"",
 				"- [Astral Deva (Angel)](monster:Astral_Deva) [good]",
@@ -4212,6 +4230,8 @@
 			"sources": [ "PRPG Core Rulebook" ],
 			"type": "basic",
 			"description": [
+				"### Summon Nature's Ally I",
+				"",
 				"**Sources** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
 				"",
 				"- [Dire Rat](monster:Dire_Rat)",
@@ -4440,6 +4460,8 @@
 			],
 			"type": "basic",
 			"description": [
+				"### Summon Nature's Ally II",
+				"",
 				"**Sources** [PRPG Core Rulebook](source:PRPG_Core_Rulebook), [Bestiary 2](source:Bestiary_2)",
 				"",
 				"- [Air Elemental (Small)](monster:Small_Air_Elemental) [air]",
@@ -4679,6 +4701,8 @@
 			"sources": [ "PRPG Core Rulebook" ],
 			"type": "basic",
 			"description": [
+				"### Summon Nature's Ally III",
+				"",
 				"**Sources** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
 				"",
 				"- [Ant, Giant (Soldier)](monster:Giant_Ant)",
@@ -4903,6 +4927,8 @@
 			],
 			"type": "basic",
 			"description": [
+				"### Summon Nature's Ally IV",
+				"",
 				"**Sources** [PRPG Core Rulebook](source:PRPG_Core_Rulebook), [Bestiary 2](source:Bestiary_2), [Pathfinder #116: Fangs of War](source:Pathfinder_#116:_Fangs_of_War)",
 				"",
 				"- [Air Elemental (Medium)](monster:Medium_Air_Elemental) [air]",
@@ -5161,6 +5187,8 @@
 			],
 			"type": "basic",
 			"description": [
+				"### Summon Nature's Ally V",
+				"",
 				"**Sources** [PRPG Core Rulebook](source:PRPG_Core_Rulebook), [Bestiary 2](source:Bestiary_2)",
 				"",
 				"- [Air Elemental (Large)](monster:Large_Air_Elemental) [air]",
@@ -5348,6 +5376,8 @@
 			],
 			"type": "basic",
 			"description": [
+				"### Summon Nature's Ally VI",
+				"",
 				"**Sources** [PRPG Core Rulebook](source:PRPG_Core_Rulebook), [Bestiary 2](source:Bestiary_2)",
 				"",
 				"- [Air Elemental (Huge)](monster:Huge_Air_Elemental) [air]",
@@ -5585,6 +5615,8 @@
 			],
 			"type": "basic",
 			"description": [
+				"### Summon Nature's Ally VII",
+				"",
 				"**Sources** [PRPG Core Rulebook](source:PRPG_Core_Rulebook), [Bestiary 2](source:Bestiary_2)",
 				"",
 				"- [Air Elemental (Greater)](monster:Greater_Air_Elemental) [air]",
@@ -5687,6 +5719,8 @@
 			],
 			"type": "basic",
 			"description": [
+				"### Summon Nature's Ally VIII",
+				"",
 				"**Sources** [PRPG Core Rulebook](source:PRPG_Core_Rulebook), [Bestiary 2](source:Bestiary_2)",
 				"",
 				"- [Air Elemental (Elder)](monster:Elder_Air_Elemental) [air]",
@@ -5820,6 +5854,8 @@
 			"sources": [ "PRPG Core Rulebook" ],
 			"type": "basic",
 			"description": [
+				"### Summon Nature's Ally IX",
+				"",
 				"**Sources** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
 				"",
 				"- [Pixie (w/irresisitible dance and sleep arrows)](monster:Pixie)",

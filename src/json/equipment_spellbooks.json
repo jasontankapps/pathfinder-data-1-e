@@ -39,9 +39,6 @@
 			"name": "Apprentice Chapbook of Rul Thaven",
 			"file": "spellbookdisplay3152.html",
 			"cost": 195,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 2 Diviner"
 			],
@@ -68,9 +65,6 @@
 			"name": "Arctic Call",
 			"file": "spellbookdisplay6da1.html",
 			"cost": 4335,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 11 Evoker"
 			],
@@ -108,9 +102,6 @@
 			"name": "Arrowsong's Sorrow",
 			"file": "spellbookdisplay6a15.html",
 			"cost": 1200,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 3 Universalist"
 			],
@@ -140,9 +131,6 @@
 			"name": "Book of Harms",
 			"file": "spellbookdisplayb4cd.html",
 			"cost": 535,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 5 Evoker"
 			],
@@ -176,9 +164,6 @@
 			"name": "Book of the Grave",
 			"file": "spellbookdisplay43e0.html",
 			"cost": 815,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 6 Necromancer"
 			],
@@ -212,9 +197,6 @@
 			"name": "Calamaes Fragment",
 			"file": "spellbookdisplay2539.html",
 			"cost": 1565,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 7 Transmuter"
 			],
@@ -241,9 +223,6 @@
 			"name": "Chymist's Guidebook",
 			"file": "spellbookdisplayc4e9.html",
 			"cost": 2545,
-			"types": [
-				"Formula Book"
-			],
 			"prerequisites": [
 				"Level 15 Alchemist"
 			],
@@ -272,9 +251,6 @@
 			"name": "Cold Irony",
 			"file": "spellbookdisplay6dab.html",
 			"cost": 2420,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 15 Bard"
 			],
@@ -306,9 +282,6 @@
 			"name": "Cyrusian Codex",
 			"file": "spellbookdisplay108b.html",
 			"cost": 4425,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 11 Transmuter"
 			],
@@ -342,9 +315,6 @@
 			"name": "Defensive Primer",
 			"file": "spellbookdisplay4fe2.html",
 			"cost": 185,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 1 Abjurer"
 			],
@@ -372,9 +342,6 @@
 			"name": "Erages Journeyman's Manual",
 			"file": "spellbookdisplayfffa.html",
 			"cost": 575,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 7 Magus"
 			],
@@ -404,9 +371,6 @@
 			"name": "Galtan Cookbook",
 			"file": "spellbookdisplay39e0.html",
 			"cost": 670,
-			"types": [
-				"Formula Book"
-			],
 			"prerequisites": [
 				"Level 8 Alchemist"
 			],
@@ -436,9 +400,6 @@
 			"name": "Grandfather's Legacy",
 			"file": "spellbookdisplay24c5.html",
 			"cost": 7635,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 14 Necromancer"
 			],
@@ -472,9 +433,6 @@
 			"name": "Grimoire of Glittering Eyes",
 			"file": "spellbookdisplayfd13.html",
 			"cost": 1055,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 7 Illusionist"
 			],
@@ -510,9 +468,6 @@
 			"name": "Guardian Grimoire",
 			"file": "spellbookdisplaye7c9.html",
 			"cost": 10055,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 15 Abjurer"
 			],
@@ -551,9 +506,6 @@
 			"name": "Insights of Far-Seeing Taernis",
 			"file": "spellbookdisplay6182.html",
 			"cost": 4555,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 12 Conjurer"
 			],
@@ -591,9 +543,6 @@
 			"name": "Journal of the Beast Within",
 			"file": "spellbookdisplayc34b.html",
 			"cost": 915,
-			"types": [
-				"Formula Book"
-			],
 			"prerequisites": [
 				"Level 10 Alchemist"
 			],
@@ -624,9 +573,6 @@
 			"name": "Journeyman Book of Rul Thaven",
 			"file": "spellbookdisplay84c7.html",
 			"cost": 2195,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 9 Diviner"
 			],
@@ -663,9 +609,6 @@
 			"name": "Lab Journal of Constance Inflix",
 			"file": "spellbookdisplay0f2d.html",
 			"cost": 395,
-			"types": [
-				"Formula Book"
-			],
 			"prerequisites": [
 				"Level 5 Alchemist"
 			],
@@ -694,9 +637,6 @@
 			"name": "Library of the Dancer of Skins",
 			"file": "spellbookdisplay4644.html",
 			"cost": 16435,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 19 Universalist"
 			],
@@ -732,9 +672,6 @@
 			"name": "Manual of Binding",
 			"file": "spellbookdisplay124d.html",
 			"cost": 17165,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 18 Conjurer"
 			],
@@ -775,9 +712,6 @@
 			"name": "Manuscript of Jack Were-son",
 			"file": "spellbookdisplay7208.html",
 			"cost": 2835,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 10 Universalist"
 			],
@@ -806,9 +740,6 @@
 			"name": "Master Books of Rul Thaven",
 			"file": "spellbookdisplayb284.html",
 			"cost": 12725,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 17 Diviner"
 			],
@@ -849,9 +780,6 @@
 			"name": "Mastery of Word and Thought",
 			"file": "spellbookdisplayad2b.html",
 			"cost": 22675,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 20 Enchanter"
 			],
@@ -892,9 +820,6 @@
 			"name": "Mysteries of Shadow",
 			"file": "spellbookdisplay1782.html",
 			"cost": 11865,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 16 Illusionist"
 			],
@@ -934,9 +859,6 @@
 			"name": "Nyzam's Remedies",
 			"file": "spellbookdisplay12b0.html",
 			"cost": 50,
-			"types": [
-				"Formula Book"
-			],
 			"prerequisites": [
 				"Level 3 Alchemist"
 			],
@@ -964,9 +886,6 @@
 			"name": "Quest Eternal",
 			"file": "spellbookdisplay9e10.html",
 			"cost": 6475,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 13 Diviner"
 			],
@@ -1004,9 +923,6 @@
 			"name": "Runes of Wealth",
 			"file": "spellbookdisplay1e01.html",
 			"cost": 26365,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 18 Transmuter"
 			],
@@ -1043,9 +959,6 @@
 			"name": "Sarini's Workbook",
 			"file": "spellbookdisplayc6ee.html",
 			"cost": 4295,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 16 Magus with Bard Spells"
 			],
@@ -1078,9 +991,6 @@
 			"name": "Songs of the Linnorm Kings",
 			"file": "spellbookdisplaye55f.html",
 			"cost": 180,
-			"types": [
-				"Meditation Book"
-			],
 			"prerequisites": [
 				"Level 5 Skald"
 			],
@@ -1110,9 +1020,6 @@
 			"name": "The Formulae of Master Gebr",
 			"file": "spellbookdisplay5d9c.html",
 			"cost": 6615,
-			"types": [
-				"Formula Book"
-			],
 			"prerequisites": [
 				"Level 20 Alchemist"
 			],
@@ -1146,9 +1053,6 @@
 			"name": "The Guide's Analects",
 			"file": "spellbookdisplay21db.html",
 			"cost": 690,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 6 Universalist"
 			],
@@ -1178,9 +1082,6 @@
 			"name": "The Last Azlanti's Analects",
 			"file": "spellbookdisplayfde6.html",
 			"cost": 7030,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 15 Universalist"
 			],
@@ -1216,9 +1117,6 @@
 			"name": "The Prying Eye",
 			"file": "spellbookdisplayb310.html",
 			"cost": 1940,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 7 Universalist"
 			],
@@ -1249,9 +1147,6 @@
 			"name": "The Swordsman's Analects",
 			"file": "spellbookdisplay09b8.html",
 			"cost": 250,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 3 Universalist"
 			],
@@ -1280,9 +1175,6 @@
 			"name": "Tome of Stone Wards",
 			"file": "spellbookdisplay7608.html",
 			"cost": 4385,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 17 Abjurer"
 			],
@@ -1317,9 +1209,6 @@
 			"name": "Tome of the Transmuter",
 			"file": "spellbookdisplay51f3.html",
 			"cost": 1835,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 8 Transmuter"
 			],
@@ -1355,9 +1244,6 @@
 			"name": "Traveler's Tome",
 			"file": "spellbookdisplay31ff.html",
 			"cost": 365,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 4 Transmuter"
 			],
@@ -1386,9 +1272,6 @@
 			"name": "Unnamed Journal",
 			"file": "spellbookdisplay57a2.html",
 			"cost": 275,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 3 Universalist"
 			],
@@ -1413,9 +1296,6 @@
 			"name": "Wisdom of Jatembe (Nine Warriors Edition)",
 			"file": "spellbookdisplayd534.html",
 			"cost": 13415,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 17 Diviner"
 			],
@@ -1451,9 +1331,6 @@
 			"name": "Wisdom of Jatembe (Six Warriors Edition)",
 			"file": "spellbookdisplay64db.html",
 			"cost": 4725,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 11 Diviner"
 			],
@@ -1486,9 +1363,6 @@
 			"name": "Wisdom of Jatembe (Three Warriors Edition)",
 			"file": "spellbookdisplay585d.html",
 			"cost": 375,
-			"types": [
-				"Spellbook"
-			],
 			"prerequisites": [
 				"Level 5 Diviner"
 			],

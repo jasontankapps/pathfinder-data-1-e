@@ -1,5 +1,4 @@
 {
-	"value_type": "feature",
 	"list": [
 		{
 			"name": "Agmazar the Star Titan",
@@ -284,18 +283,12 @@
 			"sources": [ "Mythic Realms" ],
 			"cr": 26,
 			"mr": 8,
-			"xp": 2457600,
-			"levels": "Female human lich wizard 20/marshal 8",
 			"alignment": "NE",
 			"size": "medium",
 			"creature_type": "undead",
 			"creature_subtypes": [ "human" ],
-			"initiative": 18,
-			"senses": [ "darkvision 60 ft." ],
-			"perception": 40,
-			"aura": [ "fear (60 ft., DC 30)" ],
 			"heading": [
-				"Arazni CR 26/MR 8",
+				"## Arazni CR 26/MR 8",
 				"**Source** [Mythic Realms pg. 50](source:Mythic_Realms)",
 				"**XP** 2,457,600",
 				"Female human lich wizard 20/marshal 8",
@@ -303,59 +296,12 @@
 				"**Init** +18; **Senses** darkvision 60 ft.; Perception +40",
 				"**Aura** fear (60 ft., DC 30)"
 			],
-			"ac": {
-				"ac": 44,
-				"touch": 22,
-				"flatfooted": 38,
-				"bonuses": {
-					"armor": 6,
-					"deflection": 5,
-					"dex": 6,
-					"insight": 1,
-					"natural": 10,
-					"shield": 6
-				}
-			},
-			"hp": {
-				"hp": 379
-			},
-			"saves": {
-				"fort": 23,
-				"ref": 21,
-				"will": 25
-			},
-			"defensive_abilities": [
-				"channel resistance +4",
-				"fortification (50%)",
-				"freedom of movement",
-				"hard to kill",
-				"mythic saving throws",
-				"rejuvenation",
-				"unstoppable"
-			],
-			"dr": [
-				15,
-				"bludgeoning and magic"
-			],
-			"immune": [
-				"cold",
-				"electricity",
-				"undead traits"
-			],
-			"sr": 23,
 			"defense": [
 				"**AC** 44, touch 22, flat-footed 38 (+6 armor, +5 deflection, +6 Dex, +1 insight, +10 natural, +6 shield)",
 				"**hp** 379 (20d6+307)",
 				"**Fort** +23, **Ref** +21, **Will** +25",
 				"**Defensive Abilities** channel resistance +4, fortification (50%), freedom of movement, hard to kill, mythic saving throws, rejuvenation, unstoppable; **DR** 15/bludgeoning and magic; **Immune** cold, electricity, undead traits; **SR** 23"
 			],
-			"speed": {
-				"land": 30,
-				"fly": 40,
-				"maneuverability": "average"
-			},
-			"space": 5,
-			"reach": 5,
 			"offense": [
 				"**Speed** 30 ft., fly 40 ft. (average)",
 				"**Melee** +5 conductive dancing keen rapier +23/+18 (1d6+12/15-20), touch +13 (1d8+10 plus paralyzing touch)",
@@ -383,44 +329,6 @@
 			"base_attack_bonus": 10,
 			"cmb": 17,
 			"cmd": 39,
-			"feats": [
-				"Arcane Strike",
-				"Craft Wondrous Item",
-				"Dual Path",
-				"Empower Spell",
-				"Extend Spell",
-				"Greater Spell Focus (enchantment)",
-				"Improved Initiative",
-				"Iron Will",
-				"Leadership",
-				"Lightning Reflexes",
-				"Mythic Spell Lore",
-				"Quicken Spell",
-				"Persistent Spell",
-				"Scribe Scroll",
-				"Spell Focus (enchantment)",
-				"Spell Focus (necromancy)",
-				"Spell Perfection (fireball)",
-				"Toughness"
-			],
-			"skills": [
-				"Appraise +18",
-				"Bluff +11",
-				"Craft (alchemy) +18",
-				"Diplomacy +31",
-				"Disguise +24",
-				"Fly +19",
-				"Handle Animal +11",
-				"Intimidate +33",
-				"Knowledge (arcana, dungeoneering, engineering, history, local, nobility, planes, religion) +38",
-				"Knowledge (geography, nature) +32",
-				"Linguistics +27",
-				"Perception +40",
-				"Sense Motive +17",
-				"Spellcraft +37",
-				"Stealth +35",
-				"Use Magic Device +31"
-			],
 			"statistics": [
 				"**Str** 24, **Dex** 22, **Con**: -, **Int** 39, **Wis** 18, **Cha**, 31",
 				"**Base Atk** +10; **CMB** +17; **CMD** 39",
@@ -502,9 +410,6 @@
 				"**Languages** all (language mastery); telepathy 300 ft.   ",
 				"**SQ** lord of the flies, swarm master"
 			],
-			"environment": "any (Hell)",
-			"organization": "solitary (unique)",
-			"treasure": "triple (+5 adamantine good-outsider-bane icy burst unholy longsword, other treasure)",
 			"ecology": [
 				"**Environment** any (Hell)   ",
 				"**Organization** solitary (unique)   ",
@@ -595,9 +500,6 @@
 				"**Languages** all (language mastery); speak with animals; telepathy 300 ft.   ",
 				"**SQ** change shape (animal, humanoid, and magical beast; shapechange), hear name, sphere of souls"
 			],
-			"environment": "any (Hell)",
-			"organization": "solitary (unique)",
-			"treasure": "triple (Eyjatas, other treasure)",
 			"ecology": [
 				"**Environment** any (Hell)   ",
 				"**Organization** solitary (unique)   ",
@@ -685,9 +587,6 @@
 				"**Languages** all (language mastery); telepathy 300 ft.   ",
 				"**SQ** change shape (see below)"
 			],
-			"environment": "any (Hell)",
-			"organization": "solitary (unique)",
-			"treasure": "triple (+4 speed unholy ranseur, other treasure)",
 			"ecology": [
 				"**Environment** any (Hell)   ",
 				"**Organization** solitary (unique)   ",
@@ -782,9 +681,6 @@
 				"**Languages** all (language mastery); telepathy 300 ft.   ",
 				"**SQ** change shape (any humanoid; alter self), lord of iron, voice of command"
 			],
-			"environment": "any (Hell)",
-			"organization": "solitary (unique)",
-			"treasure": "triple (The Eclipsing Eye, other treasure)",
 			"ecology": [
 				"**Environment** any (Hell)   ",
 				"**Organization** solitary (unique)   ",
@@ -871,9 +767,6 @@
 				"**Languages** all (language mastery); telepathy 300 ft.   ",
 				"**SQ** amphibious, change shape (humanoid and serpentine; shapechange)"
 			],
-			"environment": "any (Hell)",
-			"organization": "solitary (unique)",
-			"treasure": "triple (+5 arrow deflection bashing heavy steel shield, +5 cruel dispelling burst unholy flail, Horn of Lies, other treasure)",
 			"ecology": [
 				"**Environment** any (Hell)   ",
 				"**Organization** solitary (unique)   ",
@@ -963,9 +856,6 @@
 				"**Languages** all (language mastery); telepathy 300 ft.   ",
 				"**SQ** Argent Prince, Mammon's mark, plunderer"
 			],
-			"environment": "any (Hell)",
-			"organization": "solitary (unique)",
-			"treasure": "triple",
 			"ecology": [
 				"**Environment** any (Hell)   ",
 				"**Organization** solitary (unique)   ",
@@ -1053,9 +943,6 @@
 				"**Languages** all (language mastery); telepathy 300 ft.   ",
 				"**SQ** flattering inquisitor"
 			],
-			"environment": "any (Hell)",
-			"organization": "solitary (unique)",
-			"treasure": "triple (+5 axiomatic flaming unholy trident, Visineir, other treasure)",
 			"ecology": [
 				"**Environment** any (Hell)   ",
 				"**Organization** solitary (unique)   ",
@@ -1141,9 +1028,6 @@
 				"**Languages** all (language mastery); telepathy 300 ft.   ",
 				"**SQ** call weaponry, infernal fortress"
 			],
-			"environment": "any (Hell)",
-			"organization": "solitary (unique)",
-			"treasure": "triple (Goreletch, Ramithaine, other treasure)",
 			"ecology": [
 				"**Environment** any (Hell)   ",
 				"**Organization** solitary (unique)   ",
@@ -1297,78 +1181,24 @@
 			"sources": [ "Pathfinder #72: The Witch Queen's Revenge" ],
 			"cr": 30,
 			"mr": 10,
-			"xp": 9830400,
-			"levels": "Female venerable advanced human witch 20/archmage 10",
 			"alignment": "NE",
 			"size": "medium",
 			"creature_type": "humanoid",
 			"creature_subtypes": [ "human", "mythic" ],
-			"initiative": 19,
-			"senses": [
-				"arcane sight",
-				"darkvision 60 ft.",
-				"see invisibility"
-			],
-			"perception": 27,
 			"heading": [
-				"Baba Yaga CR 30/MR 10",
+				"## Baba Yaga CR 30/MR 10",
 				"**Source** [Pathfinder #72: The Witch Queen's Revenge pg. 74](source:Pathfinder_#72:_The_Witch_Queen's_Revenge)",
 				"**XP** 9,830,400",
 				"Female venerable advanced human witch 20/archmage 10",
 				"NE Medium humanoid (human, mythic)",
 				"**Init** +19; **Senses** arcane sight, darkvision 60 ft., see invisibility; Perception +27"
 			],
-			"ac": {
-				"ac": 51,
-				"touch": 31,
-				"flatfooted": 46,
-				"bonuses": {
-					"armor": 13,
-					"deflection": 5,
-					"dex": 5,
-					"insight": 11,
-					"natural": 7
-				}
-			},
-			"hp": {
-				"hp": 782
-			},
-			"saves": {
-				"fort": 30,
-				"ref": 27,
-				"will": 35
-			},
-			"defensive_abilities": [
-				"hard to kill",
-				"mythic saving throws",
-				"unstoppable"
-			],
-			"dr": [
-				10,
-				"epic and good"
-			],
-			"immune": [
-				"ability damage and drain",
-				"charm and compulsion effects",
-				"death effects",
-				"disease",
-				"energy drain",
-				"petrification",
-				"poison",
-				"and all forms of madness"
-			],
-			"sr": 35,
 			"defense": [
 				"**AC** 51, touch 31, flat-footed 46 (+13 armor, +5 deflection, +5 Dex, +11 insight, +7 natural)",
 				"**hp** 782 (20d6+710); regeneration 20",
 				"**Fort** +30, **Ref** +27, **Will** +35",
 				"**Defensive Abilities** hard to kill, mythic saving throws, unstoppable; **DR** 10/epic and good; **Immune** ability damage and drain, charm and compulsion effects, death effects, disease, energy drain, petrification, poison, and all forms of madness; **SR** 35 (arcane only)"
 			],
-			"speed": {
-				"land": 30
-			},
-			"space": 5,
-			"reach": 5,
 			"offense": [
 				"**Speed** 30 ft.",
 				"**Melee** Baba Yaga's besom +17/+12 (1d6+7)",
@@ -1394,52 +1224,6 @@
 			"base_attack_bonus": 10,
 			"cmb": 13,
 			"cmd": 36,
-			"feats": [
-				"Accursed Critical",
-				"Accursed Hex",
-				"Brew Potion",
-				"Extra Hex",
-				"Extra Path Ability",
-				"Greater Spell Penetration",
-				"Improved Familiar",
-				"Improved Initiative",
-				"Mythic Paragon",
-				"Mythic Spell Lore",
-				"Quicken Spell",
-				"Spell Penetration",
-				"Split Hex",
-				"Split Major Hex",
-				"Toughness"
-			],
-			"skills": [
-				"Acrobatics +15",
-				"Appraise +23",
-				"Bluff +26",
-				"Craft (alchemy) +22",
-				"Craft (woodworking) +22",
-				"Diplomacy +21",
-				"Escape Artist +25",
-				"Fly +23",
-				"Heal +25",
-				"Intimidate +36",
-				"Knowledge (arcana) +41",
-				"Knowledge (dungeoneering) +38",
-				"Knowledge (engineering) +38",
-				"Knowledge (geography) +38",
-				"Knowledge (history) +41",
-				"Knowledge (local) +38",
-				"Knowledge (nature) +41",
-				"Knowledge (nobility) +38",
-				"Knowledge (planes) +41",
-				"Knowledge (religion) +38",
-				"Perception +27",
-				"Ride +13",
-				"Sense Motive +27",
-				"Spellcraft +41",
-				"Stealth +25",
-				"Survival +11",
-				"Use Magic Device +34"
-			],
 			"statistics": [
 				"**Str** 17, **Dex** 20, **Con**: 26, **Int** 46, **Wis** 24, **Cha**, 32",
 				"**Base Atk** +10; **CMB** +13; **CMD** 36",
@@ -1768,9 +1552,6 @@
 				"**Languages** Common, Druidic   ",
 				"**SQ** apian emissaries, swarmlike, taboo name"
 			],
-			"environment": "temperate forest (Andoran)",
-			"organization": "solitary",
-			"treasure": "double",
 			"ecology": [
 				"**Environment** temperate forest (Andoran)   ",
 				"**Organization** solitary   ",
@@ -1894,9 +1675,6 @@
 				"**Languages** Abyssal, Celestial, Common, Draconic, Infernal, Thassilonian   ",
 				"**SQ** transdimensional tentacles, warp dimensions"
 			],
-			"environment": "the Storval Deep",
-			"organization": "solitary",
-			"treasure": "triple",
 			"ecology": [
 				"**Environment** the Storval Deep   ",
 				"**Organization** solitary   ",
@@ -2017,9 +1795,6 @@
 				"**Languages** Celestial, Common, Infernal; telepathy 100 ft.   ",
 				"**SQ** change shape (owl or mouse), martyr's blood, tactician"
 			],
-			"environment": "any land (Elysium)",
-			"organization": "solitary",
-			"treasure": "standard (+4 darkwood breastplate, other treasure)",
 			"ecology": [
 				"**Environment** any land (Elysium)   ",
 				"**Organization** solitary   ",
@@ -2201,9 +1976,6 @@
 				"**Languages** all languages; speak with animals; telepathy 300 ft.   ",
 				"**SQ** change shape (any animal, magical beast, or minotaur; greater polymorph), infernal brand, language mastery"
 			],
-			"environment": "any (Abyss)",
-			"organization": "solitary (unique)",
-			"treasure": "triple (Aizerghaul, 2d6 scrolls, other treasure)",
 			"ecology": [
 				"**Environment** any (Abyss)   ",
 				"**Organization** solitary (unique)   ",
@@ -2298,9 +2070,6 @@
 				"**Languages** Abyssal, Aquan, Celestial, Common, Draconic; speak with animals (aquatic animals only), telepathy 300 ft.   ",
 				"**SQ** compression, demon lord traits"
 			],
-			"environment": "any oceans (Abyss)",
-			"organization": "solitary (unique)",
-			"treasure": "triple",
 			"ecology": [
 				"**Environment** any oceans (Abyss)   ",
 				"**Organization** solitary (unique)   ",
@@ -2391,9 +2160,6 @@
 				"**Languages** Abyssal, Celestial, Common, Draconic, Terran, Undercommon; telepathy 300 ft.   ",
 				"**SQ** wall crawler"
 			],
-			"environment": "any (Abyss)",
-			"organization": "solitary (unique)",
-			"treasure": "triple (Riftcarver, other treasure)",
 			"ecology": [
 				"**Environment** any (Abyss)   ",
 				"**Organization** solitary (unique)   ",
@@ -2490,9 +2256,6 @@
 				"**Languages** Abyssal, Celestial, Common, Draconic, Giant; telepathy 300 ft.   ",
 				"**SQ** demon lord traits"
 			],
-			"environment": "any cold (Abyss)",
-			"organization": "solitary (unique)",
-			"treasure": "triple (+5 adamantine icy burst warhammer, other treasure)",
 			"ecology": [
 				"**Environment** any cold (Abyss)   ",
 				"**Organization** solitary (unique)   ",
@@ -2586,9 +2349,6 @@
 				"**Languages** Abyssal, Celestial, Common, Draconic, Undercommon; telepathy 300 ft., tongues   ",
 				"**SQ** change shape (any humanoid; alter self), swift transformation"
 			],
-			"environment": "any (Abyss)",
-			"organization": "solitary (unique)",
-			"treasure": "triple (Shadowkiss, 100,000 gp in various jewelry, other treasure)",
 			"ecology": [
 				"**Environment** any (Abyss)   ",
 				"**Organization** solitary (unique)   ",
@@ -2683,9 +2443,6 @@
 				"**Languages** Abyssal, Auran, Celestial, Common, Draconic; telepathy 300 ft.   ",
 				"**SQ** demon lord traits"
 			],
-			"environment": "any (Abyss)",
-			"organization": "solitary (unique)",
-			"treasure": "triple (Scepter of Shibaxet, other treasure)",
 			"ecology": [
 				"**Environment** any (Abyss)   ",
 				"**Organization** solitary (unique)   ",
@@ -2779,9 +2536,6 @@
 				"**Languages** Abyssal, Celestial, Common, Draconic; telepathy 300 ft.   ",
 				"**SQ** master of lies"
 			],
-			"environment": "any (Abyss)",
-			"organization": "solitary (unique)",
-			"treasure": "triple (2 +5 unholy daggers, other treasure)",
 			"ecology": [
 				"**Environment** any (Abyss)   ",
 				"**Organization** solitary (unique)   ",
@@ -2878,9 +2632,6 @@
 				"**Languages** Abyssal (can't speak), Celestial (can't speak), Common (can't speak); telepathy 300 ft.   ",
 				"**SQ** demon lord traits, detached limbs"
 			],
-			"environment": "any (Abyss)",
-			"organization": "solitary (unique)",
-			"treasure": "triple (+5 unholy speed war razor, other treasure)",
 			"ecology": [
 				"**Environment** any (Abyss)   ",
 				"**Organization** solitary (unique)   ",
@@ -2969,9 +2720,6 @@
 				"**Skills** Acrobatics +39 (+47 when jumping), Disable Device +42, Fly +42, Intimidate +45, Knowledge (arcana) +40, Knowledge (religion) +40, Knowledge (engineering) +43, Knowledge (planes) +43, Perception +55, Sense Motive +47, Spellcraft +43, Stealth +34, Use Magic Device +42; **Racial Modifiers** +8 Perception   ",
 				"**Languages** Abyssal, Celestial, Common, Draconic, Terran; telepathy 300 ft."
 			],
-			"environment": "any (Ghahazi, Abyss)",
-			"organization": "solitary (unique)",
-			"treasure": "triple",
 			"ecology": [
 				"**Environment** any (Ghahazi, Abyss)   ",
 				"**Organization** solitary (unique)   ",
@@ -3057,9 +2805,6 @@
 				"**Languages** Abyssal, Aklo, Azlanti (does not speak), telepathy 100 ft.   ",
 				"**SQ** command snakes"
 			],
-			"environment": "any",
-			"organization": "solitary",
-			"treasure": "standard",
 			"ecology": [
 				"**Environment** any   ",
 				"**Organization** solitary   ",
@@ -3136,9 +2881,6 @@
 				"**Languages** Celestial; telepathy 300 ft.; truespeech   ",
 				"**SQ** fulfillment, nomadic, seed of life, unlimited abandon"
 			],
-			"environment": "any (Nirvana)",
-			"organization": "solitary (unique)",
-			"treasure": "triple (+5 disrupting holy merciful flail, other treasure)",
 			"ecology": [
 				"**Environment** any (Nirvana)   ",
 				"**Organization** solitary (unique)   ",
@@ -3233,9 +2975,6 @@
 				"**Languages** Celestial, Common, Draconic, Infernal; telepathy 300 ft.; truespeech   ",
 				"**SQ** luminescent form, lyrical grace, seed of life"
 			],
-			"environment": "any (Elysium)",
-			"organization": "solitary (unique)",
-			"treasure": "triple",
 			"ecology": [
 				"**Environment** any (Elysium)   ",
 				"**Organization** solitary (unique)   ",
@@ -3333,9 +3072,6 @@
 				"**Languages** Aklo, Celestial, Common; telepathy 300 ft.; truespeech   ",
 				"**SQ** celestial grace, interstellar mastery, no breath, seed of life, silence between, starflight"
 			],
-			"environment": "any (Elysium)",
-			"organization": "solitary (unique)",
-			"treasure": "triple (Voidsedge, other treasure)",
 			"ecology": [
 				"**Environment** any (Elysium)   ",
 				"**Organization** solitary (unique)   ",
@@ -3441,9 +3177,6 @@
 				"**Languages** Celestial, Draconic, Infernal, Sylvan; truespeech   ",
 				"**SQ** change shape (any humanoid, alter self), empyreal lord traits, perfect archer, seed of life"
 			],
-			"environment": "any forest or plain (Elysium)",
-			"organization": "unique",
-			"treasure": "standard (+5 holy cold iron club, +5 evil outsider bane longbow, other treasure)",
 			"ecology": [
 				"**Environment** any forest or plain (Elysium)   ",
 				"**Organization** unique   ",
@@ -3542,9 +3275,6 @@
 				"**Languages** Celestial, Infernal; speak with animals, truespeech   ",
 				"**SQ** abundant step, change shape (avoral or any humanoid, shapechange), combat style master, empyreal lord traits, ki pool (22 points; adamantine, epic, good, lawful, magic, mythic, silver), lay on hands (15d6, 29/day), seed of life, tranquil master"
 			],
-			"environment": "any forests or mountains (Nirvana)",
-			"organization": "unique",
-			"treasure": "standard (+5 quarterstaff, other treasure)",
 			"ecology": [
 				"**Environment** any forests or mountains (Nirvana)   ",
 				"**Organization** unique   ",
@@ -3645,9 +3375,6 @@
 				"**Languages** Celestial, Infernal; telepathy 300 ft.; truespeech   ",
 				"**SQ** lay on hands (17d6, 10/day), seed of life"
 			],
-			"environment": "any (Heaven)",
-			"organization": "solitary (unique)",
-			"treasure": "triple (+5 evil-outsider-bane flaming burst holy bastard sword, +5 full plate, other treasure)",
 			"ecology": [
 				"**Environment** any (Heaven)   ",
 				"**Organization** solitary (unique)   ",
@@ -3746,9 +3473,6 @@
 				"**Languages** Celestial, Draconic; truespeech   ",
 				"**SQ** lay on hands (16d6, 25/day), seed of life"
 			],
-			"environment": "any (Heaven)",
-			"organization": "unique",
-			"treasure": "standard (Cicatrix, other treasure)",
 			"ecology": [
 				"**Environment** any (Heaven)   ",
 				"**Organization** unique   ",
@@ -4713,8 +4437,8 @@
 			"short_description": "This massive wormlike creature appears to be made of solid darkness that sucks surrounding light into its body to be forever extinguished."
 		},
 		{
-			"name": "Rhan Tegoth",
-			"display_name": "Great Old One, Rhan-Tegoth",
+			"name": "Great Old One, Rhan-Tegoth",
+			"searchable_name": "Rhan Tegoth",
 			"file": "monsterdisplay1bc8.html",
 			"sources": [
 				"Bestiary 6",
@@ -5010,8 +4734,8 @@
 			"short_description": "Neither quite humanoid nor quite toad, this lumbering monstrosity maintains a malevolent expression on its batlike face."
 		},
 		{
-			"name": "Xhamen Dor",
-			"display_name": "Great Old One, Xhamen-Dor",
+			"name": "Great Old One, Xhamen-Dor",
+			"searchable_name": "Xhamen Dor",
 			"file": "monsterdisplay8f72.html",
 			"sources": [
 				"Pathfinder #113: What Grows Within",
@@ -7276,65 +7000,24 @@
 			"sources": [ "Mythic Realms" ],
 			"cr": 25,
 			"mr": 8,
-			"xp": 1638400,
-			"levels": "Male frost giant ranger 12/marshal 8",
 			"alignment": "CE",
 			"size": "large",
 			"creature_type": "humanoid",
 			"creature_subtypes": [ "cold", "giant" ],
-			"initiative": 19,
-			"senses": [ "low-light vision" ],
-			"perception": 33,
 			"heading": [
-				"Jarl Gnargorak CR 25/MR 8",
+				"## Jarl Gnargorak CR 25/MR 8",
 				"**Source** [Mythic Realms pg. 52](source:Mythic_Realms)",
 				"**XP** 1,638,400",
 				"Male frost giant ranger 12/marshal 8",
 				"CE Large humanoid (cold, giant)",
 				"**Init** +19; **Senses** low-light vision; Perception +33"
 			],
-			"ac": {
-				"ac": 43,
-				"touch": 19,
-				"flatfooted": 38,
-				"bonuses": {
-					"armor": 10,
-					"deflection": 5,
-					"dex": 5,
-					"natural": 14,
-					"size": -1
-				}
-			},
-			"hp": {
-				"hp": 485
-			},
-			"saves": {
-				"fort": 34,
-				"ref": 26,
-				"will": 19
-			},
-			"defensive_abilities": [
-				"evasion",
-				"hard to kill",
-				"mythic saving throws",
-				"rock catching",
-				"unstoppable"
-			],
-			"resist": {
-				"electricity": 20,
-				"fire": 30
-			},
 			"defense": [
 				"**AC** 43, touch 19, flat-footed 38 (+10 armor, +5 deflection, +5 Dex, +14 natural, -1 size)",
 				"**hp** 485 (26 HD; 14d8+12d10+356)",
 				"**Fort** +34, **Ref** +26, **Will** +19; +2 vs. fire-based effects",
 				"**Defensive Abilities** evasion, hard to kill, mythic saving throws, rock catching, unstoppable; **Resist** electricity 20, fire 30"
 			],
-			"speed": {
-				"land": 30
-			},
-			"space": 10,
-			"reach": 10,
 			"offense": [
 				"**Speed** 30 ft.",
 				"**Melee** Winter's Heart +41/+36/+31/+26 (2d8+25/17-20 plus 1d6 cold)",
@@ -7355,33 +7038,6 @@
 			"base_attack_bonus": 22,
 			"cmb": 36,
 			"cmd": 58,
-			"feats": [
-				"Awesome Blow",
-				"Deadly Aim",
-				"Endurance",
-				"Exotic Weapon Proficiency (bastard sword)",
-				"Improved Bull Rush",
-				"Improved Critical (bastard sword)",
-				"Improved Critical (composite longbow)",
-				"Improved Initiative",
-				"Improved Precise Shot",
-				"Iron Will",
-				"Leadership",
-				"Lightning Reflexes",
-				"Pinpoint Targeting",
-				"Point-Blank Shot",
-				"Power Attack",
-				"Precise Shot",
-				"Rapid Shot"
-			],
-			"skills": [
-				"Intimidate +33",
-				"Knowledge (geography, nature) +13",
-				"Perception +33",
-				"Sense Motive +14",
-				"Stealth +25 (+29 in snow)",
-				"Survival +33"
-			],
 			"statistics": [
 				"**Str** 37, **Dex** 24, **Con**: 34, **Int** 12, **Wis** 18, **Cha**, 18",
 				"**Base Atk** +22; **CMB** +36 (+38 bull rush); **CMD** 58 (60 vs. bull rush)",
@@ -8092,66 +7748,23 @@
 			"sources": [ "Mythic Realms" ],
 			"cr": 23,
 			"mr": 6,
-			"xp": 819200,
-			"levels": "Male ghoul cleric of Kabriri 5/sorcerer (wildblooded) 5/mystic theurge 10/hierophant 6",
 			"alignment": "CE",
 			"size": "medium",
 			"creature_type": "undead",
-			"initiative": 11,
-			"senses": [
-				"darkvision 60 ft.",
-				"deathwatch 30 ft.",
-				"true seeing"
-			],
-			"perception": 11,
 			"heading": [
-				"Kortash Khain CR 23/MR 6",
+				"## Kortash Khain CR 23/MR 6",
 				"**Source** [Mythic Realms pg. 54](source:Mythic_Realms)",
 				"**XP** 819,200",
 				"Male ghoul cleric of Kabriri 5/sorcerer (wildblooded) 5/mystic theurge 10/hierophant 6",
 				"CE Medium undead",
 				"**Init** +11; **Senses** darkvision 60 ft., deathwatch 30 ft., true seeing; Perception +11"
 			],
-			"ac": {
-				"ac": 39,
-				"touch": 22,
-				"flatfooted": 34,
-				"bonuses": {
-					"armor": 5,
-					"deflection": 5,
-					"dex": 5,
-					"luck": 2,
-					"natural": 7,
-					"shield": 5
-				}
-			},
-			"hp": {
-				"hp": 391
-			},
-			"saves": {
-				"fort": 25,
-				"ref": 17,
-				"will": 34
-			},
-			"defensive_abilities": [
-				"channel resistance +2",
-				"contingencies",
-				"hard to kill",
-				"mind blank",
-				"mythic saving throws"
-			],
-			"immune": [ "undead traits" ],
 			"defense": [
 				"**AC** 39, touch 22, flat-footed 34 (+5 armor, +5 deflection, +5 Dex, +2 luck, +7 natural, +5 shield)",
 				"**hp** 391 (22 HD; 2d8+5d8+5d6+10d6+308)",
 				"**Fort** +25, **Ref** +17, **Will** +34",
 				"**Defensive Abilities** channel resistance +2, contingencies, hard to kill, mind blank, mythic saving throws; **Immune** undead traits"
 			],
-			"speed": {
-				"land": 30
-			},
-			"space": 5,
-			"reach": 5,
 			"offense": [
 				"**Speed** 30 ft.",
 				"**Melee** bite +12 (1d6+1 plus disease and paralysis), 2 claws +12 (1d4+1 plus paralysis), staff of power +14/+9/+4 (1d6+3)",
@@ -8189,26 +7802,6 @@
 			"base_attack_bonus": 11,
 			"cmb": 12,
 			"cmd": 32,
-			"feats": [
-				"Accursed Critical",
-				"Craft Wondrous Item",
-				"Demonic Obedience",
-				"Empower Spell",
-				"Eschew Materials",
-				"Extra Channel",
-				"Improved Critical (ray)",
-				"Mythic Spell Lore",
-				"Spell Focus (necromancy)",
-				"Thanatopic Spell",
-				"Toughness",
-				"Weapon Focus (ray)"
-			],
-			"skills": [
-				"Intimidate +32",
-				"Knowledge (arcana, planes, religion) +28",
-				"Spellcraft +28",
-				"Use Magic Device +24"
-			],
 			"statistics": [
 				"**Str** 13, **Dex** 21, **Con**: -, **Int** 17, **Wis** 32, **Cha**, 31",
 				"**Base Atk** +11; **CMB** +12; **CMD** 32",
@@ -8281,9 +7874,6 @@
 				"**Languages** Aklo, Azlanti, Draconic, Infernal, Terran, Thassilonian; telepathy 100 ft.   ",
 				"**SQ** change shape (human; alter self), feed, spell-like crafting"
 			],
-			"environment": "any land (extraplanar)",
-			"organization": "solitary or cabal (herald and 1d4 charmed outsiders of CR 5 to CR 10)",
-			"treasure": "standard",
 			"ecology": [
 				"**Environment** any land (extraplanar)   ",
 				"**Organization** solitary or cabal (herald and 1d4 charmed outsiders of CR 5 to CR 10)   ",
@@ -8360,9 +7950,6 @@
 				"**SQ** infernal duke traits, temporal anomaly   ",
 				"**Combat Gear** boots of speed, rods of cancellation (2), staff of power; **Other Gear** bracers of armor +6, mirror of life trapping, ring of evasion, ring of protection +5"
 			],
-			"environment": "any (Korvosa)",
-			"organization": "solitary",
-			"treasure": "triple",
 			"ecology": [
 				"**Environment** any (Korvosa)   ",
 				"**Organization** solitary   ",
@@ -8647,9 +8234,6 @@
 				"**Skills** Bluff +33, Climb +28, Diplomacy +25, Intimidate +33, Knowledge (planes) +28, Knowledge (religion) +21, Perception +33, Sense Motive +33, Spellcraft +25   ",
 				"**Languages** Abyssal, Aklo, Common; telepathy 300 ft."
 			],
-			"environment": "warm jungles (Yoha's Graveyard)",
-			"organization": "solitary",
-			"treasure": "double",
 			"ecology": [
 				"**Environment** warm jungles (Yoha's Graveyard)   ",
 				"**Organization** solitary   ",
@@ -8719,9 +8303,6 @@
 				"**Languages** Abyssal, Celestial, Common, Draconic; telepathy 300 ft.   ",
 				"**SQ** nascent demon lord traits"
 			],
-			"environment": "any (Kurnugia)",
-			"organization": "solitary",
-			"treasure": "triple (+5 keen vorpal bastard sword, other treasure)",
 			"ecology": [
 				"**Environment** any (Kurnugia)   ",
 				"**Organization** solitary   ",
@@ -8748,61 +8329,23 @@
 			"short_description": "Twin talons attached to grotesque back-appendages drip blood from this hideously emaciated, jackal-legged albino demon."
 		},
 		{
-			"name": "Old Mage Jatembe",
-			"display_name": "Old-Mage Jatembe",
+			"name": "Old-Mage Jatembe",
+			"searchable_name": "Old Mage Jatembe",
 			"file": "mythicmonsterdisplay769b.html",
 			"sources": [ "Mythic Realms" ],
 			"cr": 24,
 			"mr": 6,
-			"xp": 1228800,
-			"levels": "Male old human wizard 20/archmage 6",
 			"alignment": "NG",
 			"size": "medium",
 			"creature_type": "humanoid",
 			"creature_subtypes": [ "human" ],
-			"initiative": 13,
-			"senses": [
-				"arcane sight",
-				"darkvision 60 ft.",
-				"see invisibility"
-			],
-			"perception": 28,
 			"heading": [
-				"Old-Mage Jatembe CR 24/MR 6",
+				"## Old-Mage Jatembe CR 24/MR 6",
 				"**Source** [Mythic Realms pg. 56](source:Mythic_Realms)",
 				"**XP** 1,228,800",
 				"Male old human wizard 20/archmage 6",
 				"NG Medium humanoid (human)",
 				"**Init** +13; **Senses** arcane sight, darkvision 60 ft., see invisibility; Perception +28"
-			],
-			"ac": {
-				"ac": 32,
-				"touch": 19,
-				"flatfooted": 29,
-				"bonuses": {
-					"armor": 8,
-					"deflection": 5,
-					"dex": 3,
-					"insight": 1,
-					"natural": 5
-				}
-			},
-			"hp": {
-				"hp": 210
-			},
-			"saves": {
-				"fort": 16,
-				"ref": 15,
-				"will": 25
-			},
-			"defensive_abilities": [
-				"hard to kill",
-				"mind blank",
-				"mythic saving throws"
-			],
-			"dr": [
-				10,
-				"epic"
 			],
 			"defense": [
 				"**AC** 32, touch 19, flat-footed 29 (+8 armor, +5 deflection, +3 Dex, +1 insight, +5 natural)",
@@ -8810,11 +8353,6 @@
 				"**Fort** +16, **Ref** +15, **Will** +25; +8 vs. mind-affecting",
 				"**Defensive Abilities** hard to kill, mind blank, mythic saving throws; **DR** 10/epic"
 			],
-			"speed": {
-				"land": 30
-			},
-			"space": 5,
-			"reach": 5,
 			"offense": [
 				"**Speed** 30 ft.",
 				"**Melee** staff of the planes +13/+8 (1d6+3)",
@@ -8840,40 +8378,6 @@
 			"base_attack_bonus": 10,
 			"cmb": 12,
 			"cmd": 31,
-			"feats": [
-				"Augment Summoning",
-				"Extend Spell",
-				"Fast Learner",
-				"Greater Spell Penetration",
-				"Heighten Spell",
-				"Improved Initiative",
-				"Maximize Spell",
-				"Mythic Spell Lore (2)",
-				"Quicken Spell",
-				"Scribe Scroll",
-				"Silent Spell",
-				"Spell Focus (conjuration)",
-				"Spell Focus (evocation)",
-				"Spell Penetration",
-				"Still Spell",
-				"Toughness"
-			],
-			"skills": [
-				"Bluff +30",
-				"Diplomacy +30",
-				"Fly +27",
-				"Handle Animal +30",
-				"Heal +28",
-				"Intimidate +30",
-				"Knowledge (arcana, dungeoneering, geography, history, nature, planes, religion) +39",
-				"Perception +28",
-				"Perform (oratory) +30",
-				"Sense Motive +28",
-				"Spellcraft +39",
-				"Stealth +5",
-				"Survival +28",
-				"Use Magic Device +30"
-			],
 			"statistics": [
 				"**Str** 14, **Dex** 16, **Con**: 18, **Int** 41, **Wis** 24, **Cha**, 22",
 				"**Base Atk** +10; **CMB** +12; **CMD** 31",
@@ -9518,9 +9022,6 @@
 				"**Languages** Abyssal; telepathy 300 ft.   ",
 				"**SQ** tainted resurrection"
 			],
-			"environment": "any (Abyss)",
-			"organization": "solitary (unique)",
-			"treasure": "triple",
 			"ecology": [
 				"**Environment** any (Abyss)   ",
 				"**Organization** solitary (unique)   ",
@@ -9612,9 +9113,6 @@
 				"**Skills** Acrobatics +40, Bluff +46, Diplomacy +37, Fly +51, Intimidate +37, Knowledge (arcana, history, local, nobility, religion) +38, Knowledge (planes) +41, Perception +40, Sense Motive +40, Spellcraft +38, Stealth +43, Use Magic Device +37   ",
 				"**Languages** Abyssal; telepathy 300 ft., tongues"
 			],
-			"environment": "any (Abyss)",
-			"organization": "solitary (unique)",
-			"treasure": "triple",
 			"ecology": [
 				"**Environment** any (Abyss)   ",
 				"**Organization** solitary (unique)   ",
@@ -9708,9 +9206,6 @@
 				"**Languages** Abyssal; telepathy 300 ft.   ",
 				"**SQ** amphibious, compression, massive, swarm mastery"
 			],
-			"environment": "any (Abyss)",
-			"organization": "solitary (unique)",
-			"treasure": "triple",
 			"ecology": [
 				"**Environment** any (Abyss)   ",
 				"**Organization** solitary (unique)   ",
@@ -9809,9 +9304,6 @@
 				"**Languages** Abyssal (can't speak); telepathy 300 ft.   ",
 				"**SQ** entangling acid, false intellect, intellectual flash, no breath, trailing tar"
 			],
-			"environment": "any (Abyss)",
-			"organization": "solitary (unique)",
-			"treasure": "triple",
 			"ecology": [
 				"**Environment** any (Abyss)   ",
 				"**Organization** solitary (unique)   ",
@@ -9905,9 +9397,6 @@
 				"**Languages** Abyssal; telepathy 300 ft.   ",
 				"**SQ** qlippoth lord traits"
 			],
-			"environment": "any (Sekatar-Seraktis)",
-			"organization": "solitary or group (Yamasoth plus 2d6 gongorinans and 2d6 various polymorphed minions)",
-			"treasure": "triple",
 			"ecology": [
 				"**Environment** any (Sekatar-Seraktis)   ",
 				"**Organization** solitary or group (Yamasoth plus 2d6 gongorinans and 2d6 various polymorphed minions)   ",
@@ -10056,27 +9545,18 @@
 			"short_description": "This sagely stone giant wears loose furs and a long cloak, and wields a large stone club covered with crystals."
 		},
 		{
-			"name": "Raskineya the Dark Comet",
-			"display_name": "Raskineya, the Dark Comet",
+			"name": "Raskineya, the Dark Comet",
+			"searchable_name": "Raskineya the Dark Comet",
 			"file": "mythicmonsterdisplay50fe.html",
 			"sources": [ "Mythic Realms" ],
 			"cr": 16,
 			"mr": 6,
-			"xp": 76800,
-			"levels": "Female adult void dragon",
 			"alignment": "CE",
 			"size": "huge",
 			"creature_type": "dragon",
 			"creature_subtypes": [ "mythic" ],
-			"initiative": 11,
-			"senses": [
-				"dragon senses",
-				"see in darkness"
-			],
-			"perception": 22,
-			"aura": [ "alien presence (180 ft., DC 23, sickened or nauseated 5d6 rounds)" ],
 			"heading": [
-				"Raskineya, the Dark Comet CR 16/MR 6",
+				"## Raskineya, the Dark Comet CR 16/MR 6",
 				"**Source** [Mythic Realms pg. 60](source:Mythic_Realms)",
 				"**XP** 76,800",
 				"Female adult void dragon (see Pathfinder RPG Bestiary 4)",
@@ -10084,54 +9564,12 @@
 				"**Init** +11; **Senses** dragon senses, see in darkness; Perception +22",
 				"**Aura** alien presence (180 ft., DC 23, sickened or nauseated 5d6 rounds)"
 			],
-			"ac": {
-				"ac": 35,
-				"touch": 9,
-				"flatfooted": 34,
-				"bonuses": {
-					"dex": 1,
-					"natural": 26,
-					"size": -2
-				}
-			},
-			"hp": {
-				"hp": 260
-			},
-			"saves": {
-				"fort": 16,
-				"ref": 11,
-				"will": 15
-			},
-			"defensive_abilities": [
-				"dragon blood (1d8 cold)",
-				"DR 10/epic and magic"
-			],
-			"dr": [
-				10,
-				"epic and magic"
-			],
-			"immune": [
-				"cold",
-				"confusion",
-				"dragon traits",
-				"insanity effects",
-				"paralysis",
-				"sleep"
-			],
-			"sr": 30,
 			"defense": [
 				"**AC** 35, touch 9, flat-footed 34 (+1 Dex, +26 natural, -2 size)",
 				"**hp** 260 (16d12+156)",
 				"**Fort** +16, **Ref** +11, **Will** +15",
 				"**Defensive Abilities** dragon blood (1d8 cold), **DR** 10/epic and magic; **Immune** cold, confusion, dragon traits, insanity effects, paralysis, sleep; **SR** 30"
 			],
-			"speed": {
-				"land": 40,
-				"fly": 200,
-				"maneuverability": "good"
-			},
-			"space": 15,
-			"reach": 10,
 			"offense": [
 				"**Speed** 40 ft., fly 200 ft. (good); starflight",
 				"**Melee** bite +26 (2d8+15/19-20 plus 2d6 obliteration plus grab), 2 claws +24 (2d6+10), tail slap +22 (2d6+15), 2 wings +22 (1d8+5)",
@@ -10153,28 +9591,6 @@
 			"base_attack_bonus": 16,
 			"cmb": 28,
 			"cmd": 37,
-			"feats": [
-				"Flyby Attack",
-				"Hover",
-				"Improved Critical (bite)",
-				"Improved Initiative",
-				"Iron Will",
-				"Multiattack",
-				"Weapon Focus (bite)",
-				"Wingover"
-			],
-			"skills": [
-				"Acrobatics +17 (+21 when jumping)",
-				"Bluff +24",
-				"Fly +20",
-				"Intimidate +24",
-				"Knowledge (arcana, planes) +24",
-				"Perception +22",
-				"Sense Motive +22",
-				"Spellcraft +24",
-				"Stealth +20",
-				"Use Magic Device +24"
-			],
 			"statistics": [
 				"**Str** 31, **Dex** 12, **Con**: 23, **Int** 20, **Wis** 17, **Cha**, 20",
 				"**Base Atk** +16; **CMB** +28 (+32 grapple); **CMD** 37 (41 vs. grapple or trip)",
@@ -10250,9 +9666,6 @@
 				"**Skills** Fly +12, Intimidate +12, Knowledge (geography) +5, Perception +18, Stealth +14, Survival +18   ",
 				"**Languages** Abyssal, Varisian"
 			],
-			"environment": "any (Varisia)",
-			"organization": "solitary",
-			"treasure": "incidental",
 			"ecology": [
 				"**Environment** any (Varisia)   ",
 				"**Organization** solitary   ",
@@ -10383,9 +9796,6 @@
 				"**Languages** Abyssal, Celestial, Common, Draconic, Ignan; telepathy 300 ft.   ",
 				"**SQ** change shape (any humanoid; alter self), divine deception, nascent demon lord traits"
 			],
-			"environment": "any (Abyss)",
-			"organization": "solitary (unique)",
-			"treasure": "triple",
 			"ecology": [
 				"**Environment** any (Abyss)   ",
 				"**Organization** solitary (unique)   ",
@@ -10522,9 +9932,6 @@
 				"**Languages** Aklo   ",
 				"**SQ** hibernation, unstoppable force"
 			],
-			"environment": "any (Darklands)",
-			"organization": "solitary",
-			"treasure": "none",
 			"ecology": [
 				"**Environment** any (Darklands)   ",
 				"**Organization** solitary   ",
@@ -10590,9 +9997,6 @@
 				"**Languages** Aklo (can't speak)   ",
 				"**SQ** hibernation, massive, no breath"
 			],
-			"environment": "any (Sothis)",
-			"organization": "unique",
-			"treasure": "none",
 			"ecology": [
 				"**Environment** any (Sothis)   ",
 				"**Organization** unique   ",
@@ -10673,9 +10077,6 @@
 				"**Languages** Aklo   ",
 				"**SQ** hibernation, shatter silence, unstoppable force"
 			],
-			"environment": "any (Casmaron)",
-			"organization": "solitary",
-			"treasure": "none",
 			"ecology": [
 				"**Environment** any (Casmaron)   ",
 				"**Organization** solitary   ",
@@ -10745,9 +10146,6 @@
 				"**Languages** Celestial, Common, Draconic, Infernal; speak with animals; truespeech   ",
 				"**SQ** benevolent mercy, lay on hands (10d6, 10/day, as a 20th-level paladin)"
 			],
-			"environment": "any air (Nirvana)",
-			"organization": "solitary or flight (Talmandor and 3-6 advanced avorals)",
-			"treasure": "triple",
 			"ecology": [
 				"**Environment** any air (Nirvana)   ",
 				"**Organization** solitary or flight (Talmandor and 3-6 advanced avorals)   ",
@@ -10886,64 +10284,24 @@
 			"sources": [ "Mythic Adventures" ],
 			"cr": 10,
 			"mr": 4,
-			"xp": 9600,
-			"levels": "Advanced mythic owlbear",
 			"alignment": "N",
 			"size": "large",
 			"creature_type": "magical beast",
 			"creature_subtypes": [ "mythic" ],
-			"initiative": 10,
-			"senses": [
-				"darkvision 60 ft.",
-				"low-light vision",
-				"scent"
-			],
-			"perception": 16,
 			"heading": [
-				"The First Owlbear CR 10/MR 4",
+				"## The First Owlbear CR 10/MR 4",
 				"**Source** [Mythic Adventures pg. 213](source:Mythic_Adventures)",
 				"**XP** 9,600",
 				"Advanced mythic owlbear",
 				"N Large magical beast (mythic)",
 				"**Init** +10; **Senses** darkvision 60 ft., low-light vision, scent; Perception +16"
 			],
-			"ac": {
-				"ac": 23,
-				"touch": 11,
-				"flatfooted": 21,
-				"bonuses": {
-					"dex": 2,
-					"natural": 12,
-					"size": -1
-				}
-			},
-			"hp": {
-				"hp": 165,
-				"fast_healing": 5
-			},
-			"saves": {
-				"fort": 16,
-				"ref": 9,
-				"will": 7
-			},
-			"dr": [
-				5,
-				"epic"
-			],
-			"sr": 21,
 			"defense": [
 				"**AC** 23, touch 11, flat-footed 21 (+2 Dex, +12 natural, -1 size)",
 				"**hp** 165 (10d10+110); fast healing 5",
 				"**Fort** +16, **Ref** +9, **Will** +7",
 				"**DR** 5/epic; **SR** 21"
 			],
-			"speed": {
-				"land": 30,
-				"fly": 60,
-				"maneuverability": "average"
-			},
-			"space": 10,
-			"reach": 5,
 			"offense": [
 				"**Speed** 30 ft., fly 60 ft. (average)",
 				"**Melee** bite +17 (2d6+8), 2 claws +18 (1d8+8 plus grab)",
@@ -10959,17 +10317,6 @@
 			"base_attack_bonus": 10,
 			"cmb": 19,
 			"cmd": 31,
-			"feats": [
-				"Great Fortitude",
-				"Improved Initiative",
-				"Iron Will",
-				"Skill Focus (Perception)",
-				"Weapon Focus (claws)"
-			],
-			"skills": [
-				"Fly +5",
-				"Perception +16"
-			],
 			"statistics": [
 				"**Str** 27, **Dex** 14, **Con**: 24, **Int** 2, **Wis** 14, **Cha**, 10",
 				"**Base Atk** +10; **CMB** +19 (+23 grapple); **CMD** 31 (35 vs. trip)",
@@ -10977,9 +10324,6 @@
 				"**Skills** Fly +5, Perception +16",
 				"**SQ** immortal (see page 13)"
 			],
-			"environment": "temperate forests",
-			"organization": "solitary, pair, or pack (3-8)",
-			"treasure": "incidental",
 			"ecology": [
 				"**Environment** temperate forests",
 				"**Organization** solitary, pair, or pack (3-8)",
@@ -11169,22 +10513,12 @@
 			"sources": [ "Mythic Realms" ],
 			"cr": 26,
 			"mr": 10,
-			"xp": 2457600,
-			"levels": "Human mythic lich necromancer 20",
 			"alignment": "NE",
 			"size": "medium",
 			"creature_type": "undead",
 			"creature_subtypes": [ "augmented humanoid", "human", "mythic" ],
-			"initiative": 18,
-			"senses": [
-				"darkvision 60 ft.",
-				"see in darkness",
-				"spell perception"
-			],
-			"perception": 33,
-			"aura": [ "absolute terror (60-ft. radius, DC 39)" ],
 			"heading": [
-				"The Whispering Tyrant CR 26/MR 10",
+				"## The Whispering Tyrant CR 26/MR 10",
 				"**Source** [Mythic Realms pg. 62](source:Mythic_Realms)",
 				"**XP** 2,457,600",
 				"Human mythic lich necromancer 20",
@@ -11192,53 +10526,12 @@
 				"**Init** +18; **Senses** darkvision 60 ft., see in darkness, spell perception; Perception +33",
 				"**Aura** absolute terror (60-ft. radius, DC 39)"
 			],
-			"ac": {
-				"ac": 46,
-				"touch": 19,
-				"flatfooted": 42,
-				"bonuses": {
-					"armor": 8,
-					"deflection": 5,
-					"dex": 4,
-					"natural": 19
-				}
-			},
-			"hp": {
-				"hp": 392
-			},
-			"saves": {
-				"fort": 21,
-				"ref": 16,
-				"will": 22
-			},
-			"defensive_abilities": [
-				"channel resistance +12",
-				"rejuvenation"
-			],
-			"dr": [
-				15,
-				"bludgeoning and magic"
-			],
-			"immune": [
-				"acid",
-				"channel energy from non-mythic sources",
-				"cold",
-				"electricity",
-				"undead traits"
-			],
-			"resist": {},
-			"sr": 42,
 			"defense": [
 				"**AC** 46, touch 19, flat-footed 42 (+8 armor, +5 deflection, +4 Dex, +19 natural)",
 				"**hp** 392 (20d6+320)",
 				"**Fort** +21, **Ref** +16, **Will** +22",
 				"**Defensive Abilities** channel resistance +12, rejuvenation; **DR** 15/bludgeoning and magic; **Immune** acid, channel energy from non-mythic sources, cold, electricity, undead traits; **Resist** half damage from positive energy; **SR** 42"
 			],
-			"speed": {
-				"land": 30
-			},
-			"space": 5,
-			"reach": 5,
 			"offense": [
 				"**Speed** 30 ft.",
 				"**Melee** +2 keen wounding dagger +15/+10 (1d4+5/19-20), touch +8 (1d8+10 plus 5d6 negative energy plus paralysis)",
@@ -11265,41 +10558,6 @@
 			"base_attack_bonus": 10,
 			"cmb": 12,
 			"cmd": 19,
-			"feats": [
-				"Command Undead",
-				"Craft Construct",
-				"Craft Wondrous Item",
-				"Empower Spell",
-				"Eschew Materials",
-				"Extend Spell",
-				"Extra Mythic Power",
-				"Greater Spell Focus (necromancy)",
-				"Improved Initiative",
-				"Improved Iron Will",
-				"Iron Will",
-				"Mythic Spell Lore",
-				"Quicken Spell",
-				"Scribe Scroll",
-				"Silent Spell",
-				"Spell Focus (necromancy)",
-				"Spell Penetration",
-				"Still Spell",
-				"Toughness"
-			],
-			"skills": [
-				"Acrobatics +25",
-				"Bluff +30",
-				"Diplomacy +30",
-				"Escape Artist +25",
-				"Fly +28",
-				"Intimidate +33",
-				"Knowledge (arcana, dungeoneering, history, planes, religion) +37",
-				"Perception +34",
-				"Sense Motive +34",
-				"Spellcraft +37",
-				"Stealth +36",
-				"Use Magic Device +30"
-			],
 			"statistics": [
 				"**Str** 14, **Dex** 19, **Con**: -, **Int** 36, **Wis** 14, **Cha**, 28",
 				"**Base Atk** +10; **CMB** +12; **CMD** 19",
@@ -11436,9 +10694,6 @@
 				"**SQ** nascent demon lord traits   ",
 				"**Gear** Blackaxe (see page 299)"
 			],
-			"environment": "Tanglebriar",
-			"organization": "solitary or group (Treerazor plus 1d4 nalfeshnees and 2d4 hezrous)",
-			"treasure": "triple (plus [Blackaxe](unknown:Blackaxe))",
 			"ecology": [
 				"**Environment** Tanglebriar   ",
 				"**Organization** solitary or group (Treerazor plus 1d4 nalfeshnees and 2d4 hezrous)   ",
@@ -11567,9 +10822,6 @@
 				"**Languages** Abyssal, Aklo, Common, Draconic, Infernal, Protean; telepathy 300 ft.   ",
 				"**SQ** no breath, reform flesh, starflight"
 			],
-			"environment": "any",
-			"organization": "unique",
-			"treasure": "standard",
 			"ecology": [
 				"**Environment** any   ",
 				"**Organization** unique   ",
@@ -12129,9 +11381,6 @@
 				"**Languages** Aquan, Auran, Draconic, Ignan, Terran, telepathy 300 ft.   ",
 				"**SQ** change shape (any fire elemental; elemental body IV), elemental realm, fire tyrant, pyroportation"
 			],
-			"environment": "any (Plane of Fire)",
-			"organization": "solitary (unique)",
-			"treasure": "triple (4 Large +4 earth-outsider-bane flaming burst longswords, other treasure)",
 			"ecology": [
 				"**Environment** any (Plane of Fire)   ",
 				"**Organization** solitary (unique)   ",
@@ -12219,9 +11468,6 @@
 				"**Languages** Abyssal, Common, Ignan, Infernal; telepathy 300 ft.   ",
 				"**SQ** daemonic harbinger traits"
 			],
-			"environment": "any (Osirion)",
-			"organization": "solitary",
-			"treasure": "triple (+5 breastplate, other treasure)",
 			"ecology": [
 				"**Environment** any (Osirion)   ",
 				"**Organization** solitary   ",

@@ -10437,20 +10437,20 @@
 			"unique_summon_rules": [
 				"**Source** [Pathfinder #75: Demon's Heresy pg. 64](source:Pathfinder_#75:_Demon's_Heresy)",
 				"",
-				"- **[Summon Nature's Ally II](spell:Summon_Nature's_Ally_2)**: [Axe Beak](monster:Axe_Beak) [Order of Wing]",
-				"- **[Summon Nature's Ally II](spell:Summon_Nature's_Ally_2)**: [Dire Badger](monster:Dire_Badger) [Order of Earth]",
-				"- **[Summon Nature's Ally II](spell:Summon_Nature's_Ally_2)**: [Giant Porcupine](monster:Giant_Porcupine) [Order of Earth]",
-				"- **[Summon Nature's Ally IV](spell:Summon_Nature's_Ally_4)**: [Giant Chameleon Lizard](monster:Giant_Chameleon_Lizard) [Order of Fang]",
-				"- **[Summon Nature's Ally IV](spell:Summon_Nature's_Ally_4)**: [Giant Skunk](monster:Giant_Skunk) [Order of Earth]",
-				"- **[Summon Nature's Ally IV](spell:Summon_Nature's_Ally_4)**: [Seaweed Leshy](monster:Seaweed_Leshy) [Order of Leaf or Wave]",
-				"- **[Summon Nature's Ally IV](spell:Summon_Nature's_Ally_4)**: [Giant Vulture](monster:Giant_Vulture) [Order of Wing]",
-				"- **[Summon Nature's Ally V](spell:Summon_Nature's_Ally_5)**: [Emperor Cobra](monster:Emperor_Cobra) [Order of Fang]",
-				"- **[Summon Nature's Ally V](spell:Summon_Nature's_Ally_5)**: [Giant Owl](monster:Giant_Owl) [Order of Wing]",
-				"- **[Summon Nature's Ally V](spell:Summon_Nature's_Ally_5)**: [Giant Gar](monster:Giant_Gar) [Order of Wave]",
-				"- **[Summon Nature's Ally VI](spell:Summon_Nature's_Ally_6)**: [Shambling Mound](monster:Shambling_Mound) [Order of Leaf]",
-				"- **[Summon Nature's Ally VII](spell:Summon_Nature's_Ally_7)**: [Giant Snapping Turtle](monster:Giant_Snapping_Turtle) [Order of Wave]",
-				"- **[Summon Nature's Ally VII](spell:Summon_Nature's_Ally_7)**: [Giant Anaconda](monster:Giant_Anaconda) [Order of Fang]",
-				"- **[Summon Nature's Ally VII](spell:Summon_Nature's_Ally_7)**: [Giant Flytrap](monster:Giant_Flytrap) [Order of Leaf]"
+				"- **[Summon Nature's Ally II](spell:Summon_Nature's_Ally_2):** [Axe Beak](monster:Axe_Beak) [Order of Wing]",
+				"- **[Summon Nature's Ally II](spell:Summon_Nature's_Ally_2):** [Dire Badger](monster:Dire_Badger) [Order of Earth]",
+				"- **[Summon Nature's Ally II](spell:Summon_Nature's_Ally_2):** [Giant Porcupine](monster:Giant_Porcupine) [Order of Earth]",
+				"- **[Summon Nature's Ally IV](spell:Summon_Nature's_Ally_4):** [Giant Chameleon Lizard](monster:Giant_Chameleon_Lizard) [Order of Fang]",
+				"- **[Summon Nature's Ally IV](spell:Summon_Nature's_Ally_4):** [Giant Skunk](monster:Giant_Skunk) [Order of Earth]",
+				"- **[Summon Nature's Ally IV](spell:Summon_Nature's_Ally_4):** [Seaweed Leshy](monster:Seaweed_Leshy) [Order of Leaf or Wave]",
+				"- **[Summon Nature's Ally IV](spell:Summon_Nature's_Ally_4):** [Giant Vulture](monster:Giant_Vulture) [Order of Wing]",
+				"- **[Summon Nature's Ally V](spell:Summon_Nature's_Ally_5):** [Emperor Cobra](monster:Emperor_Cobra) [Order of Fang]",
+				"- **[Summon Nature's Ally V](spell:Summon_Nature's_Ally_5):** [Giant Owl](monster:Giant_Owl) [Order of Wing]",
+				"- **[Summon Nature's Ally V](spell:Summon_Nature's_Ally_5):** [Giant Gar](monster:Giant_Gar) [Order of Wave]",
+				"- **[Summon Nature's Ally VI](spell:Summon_Nature's_Ally_6):** [Shambling Mound](monster:Shambling_Mound) [Order of Leaf]",
+				"- **[Summon Nature's Ally VII](spell:Summon_Nature's_Ally_7):** [Giant Snapping Turtle](monster:Giant_Snapping_Turtle) [Order of Wave]",
+				"- **[Summon Nature's Ally VII](spell:Summon_Nature's_Ally_7):** [Giant Anaconda](monster:Giant_Anaconda) [Order of Fang]",
+				"- **[Summon Nature's Ally VII](spell:Summon_Nature's_Ally_7):** [Giant Flytrap](monster:Giant_Flytrap) [Order of Leaf]"
 			],
 			"other_rules": [
 				"**Source** [Pathfinder #75: Demon's Heresy pg. 64](source:Pathfinder_#75:_Demon's_Heresy)",
@@ -12526,7 +12526,7 @@
 				"",
 				"- **[Summon Monster IV](spell:Summon_Monster_4):** [Celestial Lion](monster:Celestial_Lion) - LG",
 				"- **[Summon Monster VI](spell:Summon_Monster_6):** [Celestial Griffon](monster:Celestial_Griffon) - NG",
-				"- **[Summon Nature's Ally VI](spell:Summon_Nature's_Ally_6)**: [Celestial Griffon](monster:Celestial_Griffon) - NG"
+				"- **[Summon Nature's Ally VI](spell:Summon_Nature's_Ally_6):** [Celestial Griffon](monster:Celestial_Griffon) - NG"
 			]
 		},
 		{
@@ -20581,7 +20581,7 @@
 				"- **[Summon Monster III](spell:Summon_Monster_3):** [Nosoi](monster:Nosoi)",
 				"- **[Summon Monster VI](spell:Summon_Monster_6):** [Vanth](monster:Vanth)",
 				"- **[Summon Monster I](spell:Summon_Monster_1):** [Whippoorwill](monster:Whippoorwill) (uses eagle statistics)",
-				"- **[Summon Nature's Ally I](spell:Summon_Nature's_Ally_1)**: [Whippoorwill](monster:Whippoorwill) (uses eagle statistics)"
+				"- **[Summon Nature's Ally I](spell:Summon_Nature's_Ally_1):** [Whippoorwill](monster:Whippoorwill) (uses eagle statistics)"
 			],
 			"other_rules": [
 				"**Source** [Inner Sea Gods pg. 123](source:Inner_Sea_Gods)",
@@ -22463,8 +22463,8 @@
 				"- **[Summon Monster VI](spell:Summon_Monster_6):** [Janni](monster:Janni) - NG",
 				"- **[Summon Monster VII](spell:Summon_Monster_7):** [Djinni](monster:Djinni) - NG",
 				"- **[Summon Monster VIII](spell:Summon_Monster_8):** [Efreeti](monster:Efreeti) - LG (redeemed) [does not have the [wish](spell:wish) spell-like ability]",
-				"- **[Summon Nature's Ally VII](spell:Summon_Nature's_Ally_7)**: [Djinni](monster:Djinni) - NG",
-				"- **[Summon Nature's Ally VIII](spell:Summon_Nature's_Ally_8)**: [Efreeti](monster:Efreeti) - LG (redeemed) [does not have the [wish](spell:wish) spell-like ability]"
+				"- **[Summon Nature's Ally VII](spell:Summon_Nature's_Ally_7):** [Djinni](monster:Djinni) - NG",
+				"- **[Summon Nature's Ally VIII](spell:Summon_Nature's_Ally_8):** [Efreeti](monster:Efreeti) - LG (redeemed) [does not have the [wish](spell:wish) spell-like ability]"
 			]
 		},
 		{

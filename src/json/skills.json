@@ -1439,6 +1439,8 @@
 			"armor_check_penalty": false,
 			"background_skill": true,
 			"description": [
+				"## Knowledge (engineering)",
+				"",
 				"You are educated in a field of study and can answer both simple and complex questions. Like the Craft, Perform, and Profession skills, Knowledge actually encompasses a number of different specialties. Below are listed typical fields of study.",
 				"",
 				"- Arcana (ancient mysteries, magic traditions, arcane symbols, constructs, dragons, magical beasts)",
@@ -1503,6 +1505,8 @@
 			"armor_check_penalty": false,
 			"background_skill": true,
 			"description": [
+				"## Knowledge (geography)",
+				"",
 				"You are educated in a field of study and can answer both simple and complex questions. Like the Craft, Perform, and Profession skills, Knowledge actually encompasses a number of different specialties. Below are listed typical fields of study.",
 				"",
 				"- Arcana (ancient mysteries, magic traditions, arcane symbols, constructs, dragons, magical beasts)",
@@ -1567,6 +1571,8 @@
 			"armor_check_penalty": false,
 			"background_skill": true,
 			"description": [
+				"## Knowledge (history)",
+				"",
 				"You are educated in a field of study and can answer both simple and complex questions. Like the Craft, Perform, and Profession skills, Knowledge actually encompasses a number of different specialties. Below are listed typical fields of study.",
 				"",
 				"- Arcana (ancient mysteries, magic traditions, arcane symbols, constructs, dragons, magical beasts)",
@@ -1774,6 +1780,8 @@
 			"armor_check_penalty": false,
 			"background_skill": true,
 			"description": [
+				"## Knowledge (nobility)",
+				"",
 				"You are educated in a field of study and can answer both simple and complex questions. Like the Craft, Perform, and Profession skills, Knowledge actually encompasses a number of different specialties. Below are listed typical fields of study.",
 				"",
 				"- Arcana (ancient mysteries, magic traditions, arcane symbols, constructs, dragons, magical beasts)",

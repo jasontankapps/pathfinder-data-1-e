@@ -11,7 +11,7 @@
 			"creature_type": "aberration",
 			"creature_subtypes": [ "aquatic", "mythic" ],
 			"heading": [
-				"Mythic Aboleth CR 9/MR 3   ",
+				"## Mythic Aboleth CR 9/MR 3   ",
 				"**Source** [Mythic Adventures pg. 178](source:Mythic_Adventures)   ",
 				"**XP** 6,400   ",
 				"LE Huge aberration (aquatic, mythic)   ",
@@ -78,7 +78,7 @@
 			"creature_type": "monstrous humanoid",
 			"creature_subtypes": [ "mythic", "shapechanger" ],
 			"heading": [
-				"Mythic Anunnaki CR 18/MR 7   ",
+				"## Mythic Anunnaki CR 18/MR 7   ",
 				"**Source** [Bestiary 5 pg. 28](source:Bestiary_5)   ",
 				"**XP** 153,600   ",
 				"N Large monstrous humanoid (mythic, shapechanger)   ",
@@ -138,7 +138,7 @@
 			"creature_type": "outsider",
 			"creature_subtypes": [ "extraplanar", "lawful", "mythic", "water" ],
 			"heading": [
-				"Mythic Apkallu CR 23/MR 9   ",
+				"## Mythic Apkallu CR 23/MR 9   ",
 				"**Source** [Bestiary 5 pg. 32](source:Bestiary_5)   ",
 				"**XP** 819,200   ",
 				"LN Large outsider (extraplanar, lawful, mythic, water)   ",
@@ -235,7 +235,7 @@
 			"creature_type": "outsider",
 			"creature_subtypes": [ "evil", "extraplanar", "mythic" ],
 			"heading": [
-				"Mythic Apocalypse Locust CR 6/MR 3   ",
+				"## Mythic Apocalypse Locust CR 6/MR 3   ",
 				"**Source** [Bestiary 4 pg. 12](source:Bestiary_4)   ",
 				"**XP** 2,400   ",
 				"CE Large outsider (evil, extraplanar, mythic)   ",
@@ -299,7 +299,7 @@
 			"creature_type": "aberration",
 			"creature_subtypes": [ "mythic" ],
 			"heading": [
-				"Mythic Argus CR 13/MR 6   ",
+				"## Mythic Argus CR 13/MR 6   ",
 				"**Source** [Bestiary 4 pg. 13](source:Bestiary_4)   ",
 				"**XP** 25,600   ",
 				"LN Gargantuan aberration (mythic)   ",
@@ -374,7 +374,7 @@
 			"creature_type": "construct",
 			"creature_subtypes": [ "colossus", "mythic" ],
 			"heading": [
-				"Mythic Champion of the Gilded Host CR 18/MR 7   ",
+				"## Mythic Champion of the Gilded Host CR 18/MR 7   ",
 				"**Source** [Lost Treasures pg. 23](source:Lost_Treasures)   ",
 				"**XP** 153,600   ",
 				"N Colossal construct (colossus, mythic)   ",
@@ -459,7 +459,7 @@
 			"creature_type": "fey",
 			"creature_subtypes": [ "mythic" ],
 			"heading": [
-				"Mythic Chaneque CR 1/MR 1   ",
+				"## Mythic Chaneque CR 1/MR 1   ",
 				"**Source** [Bestiary 4 pg. 28](source:Bestiary_4)   ",
 				"**XP** 400   ",
 				"NE Small fey (mythic)   ",
@@ -527,7 +527,7 @@
 			"creature_type": "magical beast",
 			"creature_subtypes": [ "mythic" ],
 			"heading": [
-				"Mythic Cockatrice CR 4/MR 1   ",
+				"## Mythic Cockatrice CR 4/MR 1   ",
 				"**Source** [Mythic Adventures pg. 180](source:Mythic_Adventures)   ",
 				"**XP** 1,200   ",
 				"N Small magical beast (mythic)   ",
@@ -587,7 +587,7 @@
 			"creature_type": "construct",
 			"creature_subtypes": [ "colossus", "mythic" ],
 			"heading": [
-				"Mythic Flesh Colossus CR 16/MR 6   ",
+				"## Mythic Flesh Colossus CR 16/MR 6   ",
 				"**Source** [Bestiary 4 pg. 35](source:Bestiary_4)   ",
 				"**XP** 76,800   ",
 				"N Gargantuan construct (colossus, mythic)   ",
@@ -661,7 +661,7 @@
 			"creature_type": "construct",
 			"creature_subtypes": [ "colossus", "mythic" ],
 			"heading": [
-				"Mythic Iron Colossus CR 21/MR 8   ",
+				"## Mythic Iron Colossus CR 21/MR 8   ",
 				"**Source** [Bestiary 4 pg. 36](source:Bestiary_4)   ",
 				"**XP** 409,600   ",
 				"N Colossal construct (colossus, mythic)   ",
@@ -747,7 +747,7 @@
 			"creature_type": "construct",
 			"creature_subtypes": [ "colossus", "mythic" ],
 			"heading": [
-				"Mythic Sphinx Colossus CR 14/MR 4   ",
+				"## Mythic Sphinx Colossus CR 14/MR 4   ",
 				"**Source** [Bestiary 5 pg. 58](source:Bestiary_5), [Osirion, Legacy of the Pharaohs pg. 56](source:Osirion,_Legacy_of_the_Pharaohs)   ",
 				"**XP** 38,400   ",
 				"N Gargantuan construct (colossus, mythic)   ",
@@ -824,7 +824,7 @@
 			"creature_type": "construct",
 			"creature_subtypes": [ "colossus", "mythic" ],
 			"heading": [
-				"Mythic Stone Colossus CR 19/MR 7   ",
+				"## Mythic Stone Colossus CR 19/MR 7   ",
 				"**Source** [Bestiary 4 pg. 37](source:Bestiary_4)   ",
 				"**XP** 204,800   ",
 				"N Colossal construct (colossus, mythic)   ",
@@ -905,7 +905,7 @@
 			"creature_type": "construct",
 			"creature_subtypes": [ "colossus", "mythic" ],
 			"heading": [
-				"Mythic Wood Colossus CR 17/MR 6   ",
+				"## Mythic Wood Colossus CR 17/MR 6   ",
 				"**Source** [Bestiary 5 pg. 59](source:Bestiary_5)   ",
 				"**XP** 102,400   ",
 				"N Gargantuan construct (colossus, mythic)   ",
@@ -977,7 +977,7 @@
 			"creature_type": "humanoid",
 			"creature_subtypes": [ "giant", "mythic" ],
 			"heading": [
-				"Mythic Great Cyclops CR 15/MR 6   ",
+				"## Mythic Great Cyclops CR 15/MR 6   ",
 				"**Source** [Mythic Adventures pg. 181](source:Mythic_Adventures)   ",
 				"**XP** 51,200   ",
 				"CE Huge humanoid (giant, mythic)   ",
@@ -1043,7 +1043,7 @@
 			"creature_type": "outsider",
 			"creature_subtypes": [ "chaotic", "demon", "evil", "extraplanar", "mythic" ],
 			"heading": [
-				"Mythic Marilith CR 21/MR 8   ",
+				"## Mythic Marilith CR 21/MR 8   ",
 				"**Source** [Mythic Adventures pg. 182](source:Mythic_Adventures)   ",
 				"**XP** 409,600   ",
 				"CE Large outsider (chaotic, demon, evil, extraplanar, mythic)   ",
@@ -1111,7 +1111,7 @@
 			"creature_type": "outsider",
 			"creature_subtypes": [ "chaotic", "demon", "evil", "extraplanar", "mythic" ],
 			"heading": [
-				"Mythic Nalfeshnee CR 17/MR 7   ",
+				"## Mythic Nalfeshnee CR 17/MR 7   ",
 				"**Source** [Mythic Adventures pg. 183](source:Mythic_Adventures)   ",
 				"**XP** 102,400   ",
 				"CE Huge outsider (chaotic, demon, evil, extraplanar, mythic)   ",
@@ -1178,7 +1178,7 @@
 			"creature_type": "outsider",
 			"creature_subtypes": [ "chaotic", "demon", "evil", "extraplanar", "mythic" ],
 			"heading": [
-				"Mythic Vrock CR 11/MR 4   ",
+				"## Mythic Vrock CR 11/MR 4   ",
 				"**Source** [Mythic Adventures pg. 184](source:Mythic_Adventures)   ",
 				"**XP** 12,800   ",
 				"CE Large outsider (chaotic, demon, evil, extraplanar, mythic)   ",
@@ -1244,7 +1244,7 @@
 			"creature_type": "construct",
 			"creature_subtypes": [ "extraplanar", "mythic" ],
 			"heading": [
-				"Mythic Devastator CR 22/MR 8   ",
+				"## Mythic Devastator CR 22/MR 8   ",
 				"**Source** [Bestiary 5 pg. 77](source:Bestiary_5), [Pathfinder #78: City of Locusts pg. 90](source:Pathfinder_#78:_City_of_Locusts)   ",
 				"**XP** 614,400   ",
 				"CE Gargantuan construct (extraplanar, mythic)   ",
@@ -1306,7 +1306,7 @@
 			"creature_type": "outsider",
 			"creature_subtypes": [ "devil", "evil", "extraplanar", "lawful", "mythic" ],
 			"heading": [
-				"Mythic Bone Devil CR 11/MR 4   ",
+				"## Mythic Bone Devil CR 11/MR 4   ",
 				"**Source** [Mythic Adventures pg. 185](source:Mythic_Adventures)   ",
 				"**XP** 12,800   ",
 				"LE Large outsider (devil, evil, extraplanar, lawful, mythic)   ",
@@ -1373,7 +1373,7 @@
 			"creature_type": "outsider",
 			"creature_subtypes": [ "devil", "evil", "extraplanar", "lawful", "mythic" ],
 			"heading": [
-				"Mythic Ice Devil CR 16/MR 6   ",
+				"## Mythic Ice Devil CR 16/MR 6   ",
 				"**Source** [Mythic Adventures pg. 186](source:Mythic_Adventures)   ",
 				"**XP** 76,800   ",
 				"LE Large outsider (devil, evil, extraplanar, lawful, mythic)   ",
@@ -1443,7 +1443,7 @@
 			"creature_type": "dragon",
 			"creature_subtypes": [ "mythic", "water" ],
 			"heading": [
-				"Mythic Mature Adult Black Dragon CR 15/MR 6   ",
+				"## Mythic Mature Adult Black Dragon CR 15/MR 6   ",
 				"**Source** [Mythic Adventures pg. 187](source:Mythic_Adventures)   ",
 				"**XP** 51,200   ",
 				"CE Large dragon (mythic, water)   ",
@@ -1508,7 +1508,7 @@
 			"creature_type": "dragon",
 			"creature_subtypes": [ "earth", "mythic" ],
 			"heading": [
-				"Mythic Mature Adult Blue Dragon CR 17/MR 7   ",
+				"## Mythic Mature Adult Blue Dragon CR 17/MR 7   ",
 				"**Source** [Mythic Adventures pg. 188](source:Mythic_Adventures)   ",
 				"**XP** 102,400   ",
 				"LE Huge dragon (earth, mythic)   ",
@@ -1573,7 +1573,7 @@
 			"creature_type": "dragon",
 			"creature_subtypes": [ "air", "mythic" ],
 			"heading": [
-				"Mythic Very Old Green Dragon CR 20/MR 8   ",
+				"## Mythic Very Old Green Dragon CR 20/MR 8   ",
 				"**Source** [Mythic Adventures pg. 189](source:Mythic_Adventures)   ",
 				"**XP** 307,200   ",
 				"LE Gargantuan dragon (air, mythic)   ",
@@ -1641,7 +1641,7 @@
 			"creature_type": "dragon",
 			"creature_subtypes": [ "fire", "mythic" ],
 			"heading": [
-				"Mythic Wyrm Red Dragon CR 25/MR 10   ",
+				"## Mythic Wyrm Red Dragon CR 25/MR 10   ",
 				"**Source** [Mythic Adventures pg. 190](source:Mythic_Adventures)   ",
 				"**XP** 1,638,400   ",
 				"CE Gargantuan dragon (fire, mythic)   ",
@@ -1720,7 +1720,7 @@
 			"creature_type": "dragon",
 			"creature_subtypes": [ "fire", "mythic" ],
 			"heading": [
-				"Mythic Young Red Dragon CR 12/MR 5   ",
+				"## Mythic Young Red Dragon CR 12/MR 5   ",
 				"**Source** [Mythic Adventures pg. 190](source:Mythic_Adventures)   ",
 				"**XP** 19,200   ",
 				"CE Large dragon (fire, mythic)   ",
@@ -1786,7 +1786,7 @@
 			"creature_type": "dragon",
 			"creature_subtypes": [ "cold", "mythic" ],
 			"heading": [
-				"Mythic Juvenile White Dragon CR 9/MR 3   ",
+				"## Mythic Juvenile White Dragon CR 9/MR 3   ",
 				"**Source** [Mythic Adventures pg. 192](source:Mythic_Adventures)   ",
 				"**XP** 6,400   ",
 				"CE Medium dragon (cold, mythic)   ",
@@ -1846,7 +1846,7 @@
 			"creature_type": "aberration",
 			"creature_subtypes": [ "mythic" ],
 			"heading": [
-				"Mythic Drakainia CR 25/MR 10   ",
+				"## Mythic Drakainia CR 25/MR 10   ",
 				"**Source** [Bestiary 4 pg. 76](source:Bestiary_4)   ",
 				"**XP** 1,638,400   ",
 				"NE Huge aberration (mythic)   ",
@@ -1948,7 +1948,7 @@
 			"creature_type": "outsider",
 			"creature_subtypes": [ "air", "elemental", "extraplanar", "mythic" ],
 			"heading": [
-				"Mythic Elder Air Elemental CR 14/MR 5   ",
+				"## Mythic Elder Air Elemental CR 14/MR 5   ",
 				"**Source** [Mythic Adventures pg. 193](source:Mythic_Adventures)   ",
 				"**XP** 38,400   ",
 				"N Huge outsider (air, elemental, extraplanar, mythic)   ",
@@ -2011,7 +2011,7 @@
 			"creature_type": "outsider",
 			"creature_subtypes": [ "earth", "elemental", "extraplanar", "mythic" ],
 			"heading": [
-				"Mythic Elder Earth Elemental CR 14/MR 5   ",
+				"## Mythic Elder Earth Elemental CR 14/MR 5   ",
 				"**Source** [Mythic Adventures pg. 194](source:Mythic_Adventures)   ",
 				"**XP** 38,400   ",
 				"N Huge outsider (earth, elemental, extraplanar, mythic)   ",
@@ -2077,7 +2077,7 @@
 			"creature_type": "outsider",
 			"creature_subtypes": [ "elemental", "extraplanar", "fire", "mythic" ],
 			"heading": [
-				"Mythic Elder Fire Elemental CR 14/MR 5   ",
+				"## Mythic Elder Fire Elemental CR 14/MR 5   ",
 				"**Source** [Mythic Adventures pg. 195](source:Mythic_Adventures)   ",
 				"**XP** 38,400   ",
 				"N Huge outsider (elemental, extraplanar, fire, mythic)   ",
@@ -2145,7 +2145,7 @@
 			"creature_type": "outsider",
 			"creature_subtypes": [ "elemental", "extraplanar", "mythic", "water" ],
 			"heading": [
-				"Mythic Elder Water Elemental CR 14/MR 5   ",
+				"## Mythic Elder Water Elemental CR 14/MR 5   ",
 				"**Source** [Mythic Adventures pg. 196](source:Mythic_Adventures)   ",
 				"**XP** 38,400   ",
 				"N Huge outsider (elemental, extraplanar, mythic, water)   ",
@@ -2209,7 +2209,7 @@
 			"creature_type": "outsider",
 			"creature_subtypes": [ "extraplanar", "mythic" ],
 			"heading": [
-				"Mythic Elohim CR 23/MR 6   ",
+				"## Mythic Elohim CR 23/MR 6   ",
 				"**Source** [Bestiary 4 pg. 86](source:Bestiary_4)   ",
 				"**XP** 819,200   ",
 				"N Huge outsider (extraplanar, mythic)   ",
@@ -2274,7 +2274,7 @@
 			"creature_type": "humanoid",
 			"creature_subtypes": [ "giant", "mythic" ],
 			"heading": [
-				"Mythic Ettin CR 8/MR 3   ",
+				"## Mythic Ettin CR 8/MR 3   ",
 				"**Source** [Mythic Adventures pg. 197](source:Mythic_Adventures)   ",
 				"**XP** 4,800   ",
 				"CE Large humanoid (giant, mythic)   ",
@@ -2348,7 +2348,7 @@
 			"creature_type": "monstrous humanoid",
 			"creature_subtypes": [ "earth", "mythic" ],
 			"heading": [
-				"Mythic Gargoyle CR 5/MR 2   ",
+				"## Mythic Gargoyle CR 5/MR 2   ",
 				"**Source** [Mythic Adventures pg. 198](source:Mythic_Adventures)   ",
 				"**XP** 1,600   ",
 				"CE Medium monstrous humanoid (earth, mythic)   ",
@@ -2415,7 +2415,7 @@
 			"creature_type": "humanoid",
 			"creature_subtypes": [ "fire", "giant", "mythic" ],
 			"heading": [
-				"Mythic Fire Giant CR 12/MR 5   ",
+				"## Mythic Fire Giant CR 12/MR 5   ",
 				"**Source** [Mythic Adventures pg. 199](source:Mythic_Adventures)   ",
 				"**XP** 19,200   ",
 				"LE Large humanoid (fire, giant, mythic)   ",
@@ -2479,7 +2479,7 @@
 			"creature_type": "humanoid",
 			"creature_subtypes": [ "giant", "mythic" ],
 			"heading": [
-				"Mythic Hill Giant CR 9/MR 3   ",
+				"## Mythic Hill Giant CR 9/MR 3   ",
 				"**Source** [Mythic Adventures pg. 200](source:Mythic_Adventures)   ",
 				"**XP** 6,400   ",
 				"CE Large humanoid (giant, mythic)   ",
@@ -2541,7 +2541,7 @@
 			"creature_type": "fey",
 			"creature_subtypes": [ "earth", "mythic" ],
 			"heading": [
-				"Mythic Glaistig CR 21/MR 10   ",
+				"## Mythic Glaistig CR 21/MR 10   ",
 				"**Source** [Bestiary 5 pg. 124](source:Bestiary_5)   ",
 				"**XP** 409,600   ",
 				"CN Medium fey (earth, mythic)   ",
@@ -2625,7 +2625,7 @@
 			"creature_type": "construct",
 			"creature_subtypes": [ "mythic" ],
 			"heading": [
-				"Mythic Flesh Golem CR 9/MR 3   ",
+				"## Mythic Flesh Golem CR 9/MR 3   ",
 				"**Source** [Mythic Adventures pg. 201](source:Mythic_Adventures)   ",
 				"**XP** 6,400   ",
 				"N Large construct (mythic)   ",
@@ -2690,7 +2690,7 @@
 			"creature_type": "monstrous humanoid",
 			"creature_subtypes": [ "evil", "mythic" ],
 			"heading": [
-				"Mythic Graeae CR 5/MR 2   ",
+				"## Mythic Graeae CR 5/MR 2   ",
 				"**Source** [Bestiary 4 pg. 134](source:Bestiary_4)   ",
 				"**XP** 1,600   ",
 				"NE Medium monstrous humanoid (evil, mythic)   ",
@@ -2766,7 +2766,7 @@
 			"creature_type": "outsider",
 			"creature_subtypes": [ "evil", "extraplanar", "lawful", "mythic", "shapechanger" ],
 			"heading": [
-				"Mythic Greater Barghest CR 8/MR 2   ",
+				"## Mythic Greater Barghest CR 8/MR 2   ",
 				"**Source** [Mythic Adventures pg. 179](source:Mythic_Adventures)   ",
 				"**XP** 4,800   ",
 				"LE Large outsider (evil, extraplanar, lawful, mythic, shapechanger)   ",
@@ -2838,7 +2838,7 @@
 			"creature_type": "monstrous humanoid",
 			"creature_subtypes": [ "mythic" ],
 			"heading": [
-				"Mythic Grendel CR 19/MR 7   ",
+				"## Mythic Grendel CR 19/MR 7   ",
 				"**Source** [Bestiary 4 pg. 145](source:Bestiary_4)   ",
 				"**XP** 204,800   ",
 				"CE Large monstrous humanoid (mythic)   ",
@@ -2898,7 +2898,7 @@
 			"creature_type": "magical beast",
 			"creature_subtypes": [ "mythic" ],
 			"heading": [
-				"Mythic Griffon CR 5/MR 2   ",
+				"## Mythic Griffon CR 5/MR 2   ",
 				"**Source** [Mythic Adventures pg. 202](source:Mythic_Adventures)   ",
 				"**XP** 1,600   ",
 				"N Large magical beast (mythic)   ",
@@ -2960,7 +2960,7 @@
 			"creature_type": "magical beast",
 			"creature_subtypes": [ "mythic" ],
 			"heading": [
-				"Mythic Grogrisant CR 16/MR 6   ",
+				"## Mythic Grogrisant CR 16/MR 6   ",
 				"**Source** [Taldor, the First Empire pg. 59](source:Taldor,_the_First_Empire)   ",
 				"**XP** 76,800   ",
 				"N Huge magical beast (mythic)   ",
@@ -3033,7 +3033,7 @@
 			"creature_type": "dragon",
 			"creature_subtypes": [ "aquatic", "mythic" ],
 			"heading": [
-				"Mythic Guardian Dragon CR 24/MR 10   ",
+				"## Mythic Guardian Dragon CR 24/MR 10   ",
 				"**Source** [Bestiary 4 pg. 146](source:Bestiary_4)   ",
 				"**XP** 1,228,800   ",
 				"N Gargantuan dragon (aquatic, mythic)   ",
@@ -3118,7 +3118,7 @@
 			"creature_type": "outsider",
 			"creature_subtypes": [ "evil", "extraplanar", "fire", "lawful", "mythic" ],
 			"heading": [
-				"Mythic Hell Hound CR 4/MR 1   ",
+				"## Mythic Hell Hound CR 4/MR 1   ",
 				"**Source** [Mythic Adventures pg. 203](source:Mythic_Adventures)   ",
 				"**XP** 1,200   ",
 				"LE Medium outsider (evil, extraplanar, fire, lawful, mythic)   ",
@@ -3173,7 +3173,7 @@
 			"creature_type": "outsider",
 			"creature_subtypes": [ "evil", "extraplanar", "fire", "lawful", "mythic" ],
 			"heading": [
-				"Mythic Nessian Warhound CR 11/MR 4   ",
+				"## Mythic Nessian Warhound CR 11/MR 4   ",
 				"**Source** [Mythic Adventures pg. 203](source:Mythic_Adventures)   ",
 				"**XP** 12,800   ",
 				"LE Large outsider (evil, extraplanar, fire, lawful, mythic)   ",
@@ -3229,7 +3229,7 @@
 			"creature_type": "undead",
 			"creature_subtypes": [ "mythic" ],
 			"heading": [
-				"Mythic Human Skeleton CR 1/MR 1   ",
+				"## Mythic Human Skeleton CR 1/MR 1   ",
 				"**Source** [Mythic Adventures pg. 197](source:Mythic_Adventures)   ",
 				"**XP** 400   ",
 				"NE Medium undead (mythic)   ",
@@ -3308,7 +3308,7 @@
 			"creature_type": "magical beast",
 			"creature_subtypes": [ "mythic" ],
 			"heading": [
-				"Mythic Hydra CR 9/MR 3   ",
+				"## Mythic Hydra CR 9/MR 3   ",
 				"**Source** [Mythic Adventures pg. 204](source:Mythic_Adventures)   ",
 				"**XP** 6,400   ",
 				"N Huge magical beast (mythic)   ",
@@ -3368,7 +3368,7 @@
 			"creature_type": "plant",
 			"creature_subtypes": [ "extraplanar", "mythic" ],
 			"heading": [
-				"Mythic Irminsul CR 17/MR 7   ",
+				"## Mythic Irminsul CR 17/MR 7   ",
 				"**Source** [Bestiary 4 pg. 158](source:Bestiary_4)   ",
 				"**XP** 102,400   ",
 				"CN Gargantuan plant (extraplanar, mythic)   ",
@@ -3430,7 +3430,7 @@
 			"creature_type": "magical beast",
 			"creature_subtypes": [ "aquatic", "extraplanar", "mythic", "shapechanger" ],
 			"heading": [
-				"Mythic Julunggali CR 21/MR 8   ",
+				"## Mythic Julunggali CR 21/MR 8   ",
 				"**Source** [Bestiary 4 pg. 164](source:Bestiary_4)   ",
 				"**XP** 409,600   ",
 				"N Colossal magical beast (aquatic, extraplanar, mythic, shapechanger)   ",
@@ -3500,7 +3500,7 @@
 			"creature_type": "monstrous humanoid",
 			"creature_subtypes": [ "mythic", "shapechanger" ],
 			"heading": [
-				"Mythic Lamia CR 7/MR 3   ",
+				"## Mythic Lamia CR 7/MR 3   ",
 				"**Source** [Mythic Adventures pg. 205](source:Mythic_Adventures)   ",
 				"**XP** 3,200   ",
 				"CE Large monstrous humanoid (mythic, shapechanger)   ",
@@ -3577,7 +3577,7 @@
 			"creature_type": "fey",
 			"creature_subtypes": [ "mythic" ],
 			"heading": [
-				"Mythic Leanan Sidhe CR 9/MR 3   ",
+				"## Mythic Leanan Sidhe CR 9/MR 3   ",
 				"**Source** [Bestiary 4 pg. 180](source:Bestiary_4)   ",
 				"**XP** 6,400   ",
 				"CN Medium fey (mythic)   ",
@@ -3642,7 +3642,7 @@
 			"creature_type": "undead",
 			"creature_subtypes": [ "augmented humanoid", "human", "mythic" ],
 			"heading": [
-				"Mythic Lich CR 17/MR 7   ",
+				"## Mythic Lich CR 17/MR 7   ",
 				"**Source** [Mythic Adventures pg. 206](source:Mythic_Adventures)   ",
 				"**XP** 102,400   ",
 				"Human lich cleric of Asmodeus 13   ",
@@ -3752,7 +3752,7 @@
 			"creature_type": "outsider",
 			"creature_subtypes": [ "extraplanar", "good", "lawful", "manasaputra", "mythic" ],
 			"heading": [
-				"Mythic Solar Pitri (Agnishvatta) CR 22/MR 8   ",
+				"## Mythic Solar Pitri (Agnishvatta) CR 22/MR 8   ",
 				"**Source** [Bestiary 5 pg. 166](source:Bestiary_5)   ",
 				"**XP** 614,400   ",
 				"LG Large outsider (extraplanar, good, lawful, manasaputra, mythic)   ",
@@ -3835,7 +3835,7 @@
 			"creature_type": "magical beast",
 			"creature_subtypes": [ "mythic" ],
 			"heading": [
-				"Mythic Manticore CR 6/MR 2   ",
+				"## Mythic Manticore CR 6/MR 2   ",
 				"**Source** [Mythic Adventures pg. 208](source:Mythic_Adventures)   ",
 				"**XP** 2,400   ",
 				"LE Large magical beast (mythic)   ",
@@ -3900,7 +3900,7 @@
 			"creature_type": "monstrous humanoid",
 			"creature_subtypes": [ "mythic" ],
 			"heading": [
-				"Mythic Medusa CR 9/MR 3   ",
+				"## Mythic Medusa CR 9/MR 3   ",
 				"**Source** [Mythic Adventures pg. 209](source:Mythic_Adventures)   ",
 				"**XP** 6,400   ",
 				"LE Medium monstrous humanoid (mythic)   ",
@@ -3965,7 +3965,7 @@
 			"creature_type": "monstrous humanoid",
 			"creature_subtypes": [ "mythic" ],
 			"heading": [
-				"Mythic Minotaur CR 6/MR 2   ",
+				"## Mythic Minotaur CR 6/MR 2   ",
 				"**Source** [Mythic Adventures pg. 210](source:Mythic_Adventures)   ",
 				"**XP** 2,400   ",
 				"CE Large monstrous humanoid (mythic)   ",
@@ -4026,7 +4026,7 @@
 			"creature_type": "undead",
 			"creature_subtypes": [ "mythic" ],
 			"heading": [
-				"Mythic Mummy CR 7/MR 3   ",
+				"## Mythic Mummy CR 7/MR 3   ",
 				"**Source** [Mythic Adventures pg. 211](source:Mythic_Adventures)   ",
 				"**XP** 3,200   ",
 				"LE Medium undead (mythic)   ",
@@ -4090,7 +4090,7 @@
 			"creature_type": "magical beast",
 			"creature_subtypes": [ "mythic" ],
 			"heading": [
-				"Mythic Myrmecoleon CR 10/MR 3   ",
+				"## Mythic Myrmecoleon CR 10/MR 3   ",
 				"**Source** [Bestiary 4 pg. 198](source:Bestiary_4)   ",
 				"**XP** 9,600   ",
 				"N Huge magical beast (mythic)   ",
@@ -4155,7 +4155,7 @@
 			"creature_type": "humanoid",
 			"creature_subtypes": [ "giant", "mythic" ],
 			"heading": [
-				"Mythic Ogre CR 4/MR 1   ",
+				"## Mythic Ogre CR 4/MR 1   ",
 				"**Source** [Mythic Adventures pg. 212](source:Mythic_Adventures)   ",
 				"**XP** 1,200   ",
 				"CE Large humanoid (giant, mythic)   ",
@@ -4220,7 +4220,7 @@
 			"creature_type": "magical beast",
 			"creature_subtypes": [ "mythic" ],
 			"heading": [
-				"Mythic Ophiotaurus CR 17/MR 7   ",
+				"## Mythic Ophiotaurus CR 17/MR 7   ",
 				"**Source** [Bestiary 5 pg. 185](source:Bestiary_5)   ",
 				"**XP** 102,400   ",
 				"N Gargantuan magical beast (mythic)   ",
@@ -4289,7 +4289,7 @@
 			"creature_type": "magical beast",
 			"creature_subtypes": [ "mythic" ],
 			"heading": [
-				"Mythic Owlbear CR 5/MR 2   ",
+				"## Mythic Owlbear CR 5/MR 2   ",
 				"**Source** [Mythic Adventures pg. 213](source:Mythic_Adventures)   ",
 				"**XP** 1,600   ",
 				"N Large magical beast (mythic)   ",
@@ -4342,7 +4342,7 @@
 			"creature_type": "magical beast",
 			"creature_subtypes": [ "fire", "mythic" ],
 			"heading": [
-				"Mythic Phoenix CR 18/MR 7   ",
+				"## Mythic Phoenix CR 18/MR 7   ",
 				"**Source** [Mythic Adventures pg. 214](source:Mythic_Adventures)   ",
 				"**XP** 153,600   ",
 				"NG Gargantuan magical beast (fire, mythic)   ",
@@ -4412,7 +4412,7 @@
 			"creature_type": "magical beast",
 			"creature_subtypes": [ "mythic", "swarm" ],
 			"heading": [
-				"Mythic Bat Plague Swarm CR 17/MR 8   ",
+				"## Mythic Bat Plague Swarm CR 17/MR 8   ",
 				"**Source** [Bestiary 5 pg. 193](source:Bestiary_5)   ",
 				"**XP** 102,400   ",
 				"NE Diminutive magical beast (mythic, swarm)   ",
@@ -4472,7 +4472,7 @@
 			"creature_type": "magical beast",
 			"creature_subtypes": [ "mythic", "swarm" ],
 			"heading": [
-				"Mythic Locust Plague Swarm CR 15/MR 8   ",
+				"## Mythic Locust Plague Swarm CR 15/MR 8   ",
 				"**Source** [Bestiary 5 pg. 192](source:Bestiary_5)   ",
 				"**XP** 51,200   ",
 				"NE Fine magical beast (mythic, swarm)   ",
@@ -4533,7 +4533,7 @@
 			"creature_type": "magical beast",
 			"creature_subtypes": [ "mythic", "swarm" ],
 			"heading": [
-				"Mythic Rat Plague Swarm CR 11/MR 8   ",
+				"## Mythic Rat Plague Swarm CR 11/MR 8   ",
 				"**Source** [Bestiary 5 pg. 192](source:Bestiary_5)   ",
 				"**XP** 12,800   ",
 				"LE Tiny magical beast (mythic, swarm)   ",
@@ -4597,7 +4597,7 @@
 			"creature_type": "outsider",
 			"creature_subtypes": [ "elemental", "extraplanar", "mythic", "water" ],
 			"heading": [
-				"Mythic Portunus CR 16/MR 6   ",
+				"## Mythic Portunus CR 16/MR 6   ",
 				"**Source** [Pathfinder #125: Tower of the Drowned Dead pg. 90](source:Pathfinder_#125:_Tower_of_the_Drowned_Dead)   ",
 				"**XP** 76,800   ",
 				"N Huge outsider (elemental, extraplanar, mythic, water)   ",
@@ -4686,7 +4686,7 @@
 			"creature_type": "outsider",
 			"creature_subtypes": [ "mythic", "native", "shapechanger" ],
 			"heading": [
-				"Mythic Rakshasa CR 12/MR 5   ",
+				"## Mythic Rakshasa CR 12/MR 5   ",
 				"**Source** [Mythic Adventures pg. 215](source:Mythic_Adventures)   ",
 				"**XP** 19,200   ",
 				"LE Medium outsider (mythic, native, shapechanger)   ",
@@ -4753,7 +4753,7 @@
 			"creature_type": "dragon",
 			"creature_subtypes": [ "aquatic", "mythic", "water" ],
 			"heading": [
-				"Mythic Shen CR 24/MR 9   ",
+				"## Mythic Shen CR 24/MR 9   ",
 				"**Source** [Bestiary 5 pg. 230](source:Bestiary_5)   ",
 				"**XP** 1,228,800   ",
 				"N Gargantuan dragon (aquatic, mythic, water)   ",
@@ -4852,7 +4852,7 @@
 			"creature_type": "magical beast",
 			"creature_subtypes": [ "mythic" ],
 			"heading": [
-				"Mythic Sphinx CR 10/MR 4   ",
+				"## Mythic Sphinx CR 10/MR 4   ",
 				"**Source** [Mythic Adventures pg. 217](source:Mythic_Adventures)   ",
 				"**XP** 9,600   ",
 				"N Large magical beast (mythic)   ",
@@ -4914,7 +4914,7 @@
 			"creature_type": "outsider",
 			"creature_subtypes": [ "extraplanar", "lawful", "mythic" ],
 			"heading": [
-				"Mythic Danava CR 24/MR 9   ",
+				"## Mythic Danava CR 24/MR 9   ",
 				"**Source** [Bestiary 5 pg. 246](source:Bestiary_5)   ",
 				"**XP** 1,228,800   ",
 				"LN Colossal outsider (extraplanar, lawful, mythic)   ",
@@ -5000,7 +5000,7 @@
 			"creature_type": "outsider",
 			"creature_subtypes": [ "chaotic", "evil", "extraplanar", "mythic" ],
 			"heading": [
-				"Mythic Fomorian Titan CR 22/MR 8   ",
+				"## Mythic Fomorian Titan CR 22/MR 8   ",
 				"**Source** [Bestiary 4 pg. 261](source:Bestiary_4)   ",
 				"**XP** 614,400   ",
 				"CE Colossal outsider (chaotic, evil, extraplanar, mythic)   ",
@@ -5064,7 +5064,7 @@
 			"creature_type": "plant",
 			"creature_subtypes": [ "mythic" ],
 			"heading": [
-				"Mythic Treant CR 10/MR 4   ",
+				"## Mythic Treant CR 10/MR 4   ",
 				"**Source** [Mythic Adventures pg. 218](source:Mythic_Adventures)   ",
 				"**XP** 9,600   ",
 				"NG Huge plant (mythic)   ",
@@ -5135,7 +5135,7 @@
 			"creature_type": "humanoid",
 			"creature_subtypes": [ "giant", "mythic" ],
 			"heading": [
-				"Mythic Troll CR 6/MR 2   ",
+				"## Mythic Troll CR 6/MR 2   ",
 				"**Source** [Mythic Adventures pg. 219](source:Mythic_Adventures)   ",
 				"**XP** 2,400   ",
 				"CE Large humanoid (giant, mythic)   ",
@@ -5213,7 +5213,7 @@
 			"creature_type": "ooze",
 			"creature_subtypes": [ "mythic" ],
 			"heading": [
-				"Mythic Tyrant Jelly CR 9/MR 3   ",
+				"## Mythic Tyrant Jelly CR 9/MR 3   ",
 				"**Source** [Bestiary 4 pg. 266](source:Bestiary_4)   ",
 				"**XP** 6,400   ",
 				"N Large ooze (mythic)   ",
@@ -5281,7 +5281,7 @@
 			"creature_type": "humanoid",
 			"creature_subtypes": [ "mythic", "udaeus" ],
 			"heading": [
-				"Mythic Udaeus CR 4/MR 1   ",
+				"## Mythic Udaeus CR 4/MR 1   ",
 				"**Source** [Bestiary 4 pg. 267](source:Bestiary_4)   ",
 				"**XP** 1,200   ",
 				"N Medium humanoid (mythic, udaeus)   ",
@@ -5350,7 +5350,7 @@
 			"creature_type": "undead",
 			"creature_subtypes": [ "augmented humanoid", "human", "mythic" ],
 			"heading": [
-				"Mythic Vampire CR 10/MR 4   ",
+				"## Mythic Vampire CR 10/MR 4   ",
 				"**Source** [Mythic Adventures pg. 220](source:Mythic_Adventures)   ",
 				"**XP** 9,600   ",
 				"Human vampire fighter 7   ",
@@ -5451,7 +5451,7 @@
 			"creature_type": "magical beast",
 			"creature_subtypes": [ "cold", "mythic" ],
 			"heading": [
-				"Mythic Winter Wolf CR 6/MR 2   ",
+				"## Mythic Winter Wolf CR 6/MR 2   ",
 				"**Source** [Mythic Adventures pg. 222](source:Mythic_Adventures)   ",
 				"**XP** 2,400   ",
 				"NE Large magical beast (cold, mythic)   ",
@@ -5505,7 +5505,7 @@
 			"creature_type": "magical beast",
 			"creature_subtypes": [ "mythic" ],
 			"heading": [
-				"Mythic Worg CR 3/MR 1   ",
+				"## Mythic Worg CR 3/MR 1   ",
 				"**Source** [Mythic Adventures pg. 222](source:Mythic_Adventures)   ",
 				"**XP** 800   ",
 				"NE Medium magical beast (mythic)   ",
@@ -5558,7 +5558,7 @@
 			"creature_type": "dragon",
 			"creature_subtypes": [ "mythic" ],
 			"heading": [
-				"Mythic Wyvern CR 8/MR 3   ",
+				"## Mythic Wyvern CR 8/MR 3   ",
 				"**Source** [Mythic Adventures pg. 223](source:Mythic_Adventures)   ",
 				"**XP** 4,800   ",
 				"N Large dragon (mythic)   ",
@@ -5626,7 +5626,7 @@
 			"creature_type": "outsider",
 			"creature_subtypes": [ "earth", "elemental", "extraplanar", "mythic" ],
 			"heading": [
-				"Mythic Vault Builder CR 20/MR 8   ",
+				"## Mythic Vault Builder CR 20/MR 8   ",
 				"**Source** [Planar Adventures pg. 252](source:Planar_Adventures), [The Emerald Spire Superdungeon pg. 159](source:The_Emerald_Spire_Superdungeon)   ",
 				"**XP** 307,200   ",
 				"LN Medium outsider (earth, elemental, extraplanar, mythic)   ",
