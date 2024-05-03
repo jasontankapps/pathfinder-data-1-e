@@ -77,7 +77,8 @@
 				"",
 				"**Choking Smoke:** This crumbling chunk of chalky white coal allows a kobold to breathe a 15-foot cone of foul vapor that deals 1d6 points of acid damage and sickens a creature for 1d4 rounds. A creature that succeeds at a DC 15 Reflex saving throw takes half damage and is not sickened.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Blinding cinders: Craft (Alchemy) DC 25   ",
 				"Choking smoke: Craft (Alchemy) DC 20"
 			]
@@ -153,7 +154,8 @@
 				"",
 				"This flask of caustic liquid reacts with an ooze's natural acids. You can throw an alkali flask as a splash weapon with a range increment of 10 feet. Against non-ooze creatures, an alkali flask functions as a normal flask of acid. Against oozes and other acid-based creatures, the alkali flask inflicts double damage. Crafting this item is a DC 20 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 20"
 			]
 		},
@@ -312,7 +314,8 @@
 				"",
 				"This thick-shafted arrow contains a reservoir of holy water and is designed to burst upon impact. A raining arrow damages the target as normal, and also treats the target as though it had been struck by a direct hit from a thrown vial of holy water; adjacent creatures take splash damage from this effect. A raining arrow imparts a -2 penalty on attack rolls because of its weight. A raining arrow costs 30 gp, and can be crafted with a successful DC 25 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			],
 			"note": "Weight is approximate, based on 20 regular arrows weighing half a pound."
@@ -569,7 +572,8 @@
 				"",
 				"These metal crossbow bolts have a glass section in the middle filled with acid. On a hit, an acid bolt deals 1d4 points of acid damage in addition to its normal damage. Acid bolts do not cause splash damage.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			],
 			"note": "Weight is based on the weight of two crossbow bolts."
@@ -593,7 +597,8 @@
 				"",
 				"These carefully crafted wooden crossbow bolts have a hollow core filled with alchemist's fire. On a hit, an alchemical fire bolt deals 1d4 points of fire damage in addition to its normal damage. Alchemical fire bolts do not cause splash damage, and they do not set targets on fire unless a target is particularly flammable.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			],
 			"note": "Weight is based on crossbow bolts."
@@ -617,7 +622,8 @@
 				"",
 				"These metal crossbow bolts have a glass section in the middle filled with liquid ice. On a hit, it deals 1d4 points of cold damage in addition to its normal damage. Liquid ice bolts do not cause splash damage.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			],
 			"note": "Weight is based on the weight of two crossbow bolts."
@@ -640,7 +646,8 @@
 				"",
 				"These iron crossbow bolts have resin tips that break when the bolts strike their targets; inside the tip is a dose of injury or contact poison. In addition to dealing damage normally, anyone struck by a poison bolt is exposed to the poison. When using a poison bolt, you do not risk poisoning yourself, but the tip affects the bolt's accuracy; double all range increment penalties when using poison bolts. The bolt's cost does not include the cost of the poison, which must be included during creation.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 20"
 			],
 			"note": "Weight is based on the weight of two crossbow bolts."
@@ -666,7 +673,8 @@
 				"",
 				"This flask of volatile chemicals contains traces of graveyard dirt and a few drops of blood from a righteous creature. You can throw a bone burn flask as a splash weapon with a range increment of 10 feet. Against non-undead creatures, a bone burn flask functions as a normal flask of acid. Against undead creatures, the bone burn flask deals double damage. On the round following a direct hit, a skeletal undead damaged by a bone burn flask takes 1d6 additional points of damage (Reflex DC 15 negates). Crafting this item requires a successful DC 20 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 20"
 			]
 		},
@@ -691,7 +699,8 @@
 				"",
 				"Electricity crackles along a metal filament inside this small glass bottle. You can open the bottle as a standard action, unleashing a small bolt of lightning toward an enemy within 20 feet of you. This is a ranged touch attack that deals 1d8 points of electricity damage. Any creature in a line between you and the target (including the target) takes 1 point of sonic damage from the terrific clap of thunder the bolt generates (Reflex DC 15 negates). Crafting bottled lightning is a DC 25 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -714,7 +723,8 @@
 				"",
 				"Animal musk, spoiled meat, pungent plants, and any other foul-smelling substances on hand go into a batch of brewed reek. When boiled, this mixture becomes a thick alchemical slime that adheres to anything it touches. You can hurl brewed reek as a splash weapon with a range increment of 10 feet. A creature struck with a direct hit must succeed at a DC 15 Fortitude save or be sickened for 2d6 rounds. If the target fails its save, it must make a second Fortitude save or be nauseated for 1 round. Creatures in the splash area must make a Fortitude save or be sickened for 1 round. A creature that drinks brewed reek does not get a saving throw and is sickened for 2d6 rounds and nauseated for 1 round.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -738,7 +748,8 @@
 				"",
 				"This simple clay pot has two sealed, airtight inner chambers containing alchemical liquids. The jar is thrown as a splash weapon. It shatters on impact, covering the target with a mixture of the two liquids. One round later on your turn, the liquids react and explode with concussive force. The target takes 1 point of sonic damage, is deafened for 1d4 rounds, and must make a DC 12 Fortitude save or be stunned for 1 round. Creatures within 5 feet of the explosion take 1 point of sonic damage. The target can use a full-round action to scrape or wash off the liquid before it detonates, depositing the material in its square or an adjacent square; the material detonates as normal, though the original target only takes damage as if it were within 5 feet of the explosion. Crafting this item is a DC 25 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -757,7 +768,8 @@
 				"",
 				"This metal canister contains alchemical reactants separated by parchment and a slow-burning fuse. Lighting the fuse is a move action; 1d3 rounds later, the chroma grenade explodes, spewing luminescent sparks and gases that fill a 10-foot-radius area. Creatures in the area are dazzled and take a -2 penalty on saving throws against illusion (pattern) spells for 3 rounds (DC 15 Will negates). A chroma grenade can be thrown as though it were a splash weapon with a range increment of 10 feet. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -803,7 +815,8 @@
 				"",
 				"The powdered salts in this stoppered glass sphere contains reagents blessed by a cleric or another divine authority. You can throw a sphere of consecrated salts as a splash weapon with a range increment of 10 feet. Consecrated salts deal damage to evil outsiders, haunts, and undead as if they were a flask of [holy water](unknown:holy_water). Additionally, if a haunt or rejuvenating undead such as a [ghost](monster:ghost) is reduced to 0 hp within 1 minute of being damaged by consecrated salts, its reset time (in the case of a haunt) or rejuvenation is delayed by 1 day. This delay can also be achieved by sprinkling consecrated salts on the earthly remains of a ghost or the affected area of a haunt. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 30"
 			]
 		},
@@ -822,7 +835,8 @@
 				"",
 				"This gritty sand bonds to surfaces that resist energy damage, corroding the protection. Corrosenze can be applied to a weapon as if it were a poison. A creature struck with a weapon coated with corrosenze has its energy resistance reduced by 5 for 5 minutes (no saving throw), with the energy type correlating with the corrosenze's color: rust-colored corrosenze affects acid resistance, salt-colored affects cold, granitecolored affects electricity, and ash-colored affects fire. As a full-round action, the target can attempt a DC 15 Reflex saving throw to scrape off the corrosenze and regain its lost energy resistance. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -843,7 +857,8 @@
 				"",
 				"Harvested from the cytillesh fungus commonly found in the Darklands, these small vials emit a bright blue glow, and are commonly used in intertribal kobold disputes. When broken, a cytillesh stun vial releases a flash of blue light consisting of bright light in a 10-foot radius and dim light in a 20-foot radius. All creatures within the flash area must make a Will save (DC 20). Creatures that fail are stunned for 1d2 rounds if they're in the area of bright light, or are confused for 1 round if in the area of dim light. Crafting this item requires a successful DC 30 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 30"
 			]
 		},
@@ -866,7 +881,8 @@
 				"",
 				"This alchemical flare explodes in black sparks 1 round after lighting. Any creature with darkvision in the same square as a darkflare when it explodes must succeed at a DC 15 Fortitude save or lose its darkvision for 1d10 rounds. Affected creatures can still use other vision (such as normal vision and low-light vision) with no penalty.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -885,7 +901,8 @@
 				"",
 				"Concocted from samples of elemental earth drained of vitality, this fine powder damages creatures with the earth subtype, as well as constructs made from earth, stone, or precious metals (brass, bronze, copper, gold, mithral, or silver), like holy water damages undead. Deadground dust can also be applied to a stone door to reduce its break DC by 10 (multiple doses don't further lower the DC), and it affects devices and mechanisms made from precious metals or stone like rusting powder does. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -933,7 +950,8 @@
 				"",
 				"The casing of this modified fuse grenade is partially filled with animal dung or guano. You can throw a dung grenade as a splash weapon with a range increment of 10 feet. Any creature directly hit by a dung grenade or in its splash radius takes 1d6 points of fire damage and is covered with the grenade's malodorous contents, becoming sickened for 1d4 rounds. A target can attempt a DC 15 Reflex saving throw to halve the damage and the duration of the sickened condition. Crafting a dung grenade requires a successful DC 25 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -956,7 +974,8 @@
 				"",
 				"**Diamond Dust Vials (25 gp):** These vials are filled with finely ground mineral crystals. When you shatter a vial with your punch, the target you hit must succeed at a DC 20 Reflex save to shield its eyes or be temporarily blinded for 1 round.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"4 vials: Craft (Alchemy) DC 15   ",
 				"Gloves: Craft (Alchemy) DC 20   ",
 				"Diamond dust vial: Craft (Alchemy) DC 25"
@@ -1006,7 +1025,8 @@
 				"",
 				"This flask is filled with the detritus of minor ectoplasmic phantoms and similar creatures. You can throw a flask of ectoplasmic residue as a splash weapon. Treat this attack as a ranged touch attack with a range increment of 10 feet. A direct hit deals no damage, but the target must succeed at a DC 13 Will save or be shaken for 1d4 rounds. Every creature within 5 feet of the point where the flask hits must succeed at a DC 13 Will save or be shaken for 1 round. This is a mind-affecting fear effect.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -1060,7 +1080,8 @@
 				"",
 				"This flask of alchemical powder reacts to the elemental power in suli blood. Adding at least 1 hit point worth of suli blood to it creates an alchemical splash weapon. The splash weapon works like a flask of acid, except the damage is a random energy type (acid, cold, electricity, or fire). A DC 10 Craft (alchemy) check identifies what energy type the activated flask has. The activated flux retains its power for 24 hours before becoming inert material. The Craft (alchemy) DC to create this is 20.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 20"
 			]
 		},
@@ -1095,7 +1116,8 @@
 				"",
 				"A greater splash weapon can be used only by Large or larger creatures, though it can be used as ammunition in a catapult or trebuchet. When used as ammunition in one of these siege engines, use the range for the engine rather than the greater splash weapon's range.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 30"
 			]
 		},
@@ -1119,7 +1141,8 @@
 				"",
 				"This small firework burns brightly and makes a loud, eerie whistling sound. It can be thrown to target an intersection as a splash weapon. Any creatures within 5 feet of the noise are effectively deafened while they remain in the area, as even the loudest sounds they make are drowned out by the piercing sound. A banshee ballerina firework burns for 1d4+1 rounds before extinguishing itself with a quiet puff of smoke. Crafting this item is a DC 30 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 30"
 			]
 		},
@@ -1144,7 +1167,8 @@
 				"",
 				"When lit, this foot-long wooden tube begins to hiss and emit puffs of smoke. One round later it takes flight, moving in a straight line at a speed of 90 feet for 1d6 rounds before exploding in a burst of thick, colorful smoke. Each square the firework passes through during its flight fills with smoke (treat the effect as a fog cloud spell, except a moderate or stronger wind dissipates the smoke in 1 round), as does an area in a 15- foot radius surrounding the point at which the rocket exploded. This smoke stings the eyes and inflames the lungs, and a creature that begins its turn in a square filled with smoke must succeed at a DC 15 Fortitude saving throw or be sickened for 1d4 rounds.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -1190,7 +1214,8 @@
 				"",
 				"Once its fuse has been lit, this hoop-shaped firework emits colorful sparks from a series of outward-angled wooden tubes. It can then be rolled along the ground or thrown as a splash weapon with a range increment of 30 feet. One round after being lit, a fire wheel firework explodes in a spectacular 5-foottall cylindrical blast with a 20-foot radius. All creatures in the area take 3d6 points of fire damage and are blinded for 1 minute (Reflex DC 16 halves damage, negates blindness).",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -1258,7 +1283,8 @@
 				"",
 				"The fountain sheds light as a torch and can ignite combustible materials such as parchment, straw, dry sticks, and cloth. Once ignited, it lasts for 1 minute. If extinguished before this time, the remaining duration is wasted. Crafting this item is a DC 25 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -1283,7 +1309,8 @@
 				"",
 				"When lit, this small conical firework emits bright white sparks that illuminate the area as a candle. It can be thrown to target an intersection as a splash weapon. One round later, it begins to emit pulses of extremely bright light for 1d6 rounds. Any creature that begins its turn within 15 feet of the firework must succeed at a DC 12 Reflex saving throw or be blinded for 1d4 rounds.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 30"
 			]
 		},
@@ -1309,7 +1336,8 @@
 				"",
 				"As a standard action, the firework can be extinguished before this time by being fully submerged or forcing its tip into the ground or a similar surface, but the remaining duration is wasted. A lit holy fountain firework can be picked up and moved, but the fountain's burst of holy water and light doesn't function during this time and the creature carrying the lit firework takes 1d4 points of fire damage each round she holds it. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -1356,7 +1384,8 @@
 				"",
 				"This finger-sized explosive detonates noisily 1 round after lighting. Anyone in the same square as a paper candle when it explodes must make a DC 15 Fortitude save or be dazzled for 1d4 rounds. Crafting this item is a DC 20 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 20"
 			]
 		},
@@ -1380,7 +1409,8 @@
 				"",
 				"You can use this rocket can deliver simple auditory and visual signals to an army from a distance. When used during mass combat, a signal rocket allows a commander to change strategy track with a higher degree of success than normal. A commander can launch a signal rocket while changing a strategy track by more than 1 step to grant his army a +5 circumstance bonus on its Morale check to implement his orders. Crafting this item requires a successful DC 15 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 15"
 			]
 		},
@@ -1429,7 +1459,8 @@
 				"",
 				"When lit, this footlong wooden tube begins to shake and emit a handful of white sparks, shedding light as a torch. One round later it takes flight, moving at a speed of 90 feet for 1d6 rounds before loudly exploding in a burst of light and sound, dealing 2d6 points of fire damage in a 10-foot-radius burst (Reflex DC 15 halves). Anyone who takes damage from the explosion is either blinded or deafened (50% chance of either) for 1 round. Crafting this item is a DC 25 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -1480,7 +1511,8 @@
 				"",
 				"When lit, this footlong wooden tube launches a flaming pyrotechnic \"candle\" every round for 4 rounds. The projectiles deal 1 point of nonlethal damage and 1 point of fire damage if they hit; on a critical hit, the target is also blinded for 1 round. The projectiles shed light as candles for 1 round and have a range increment of 5 feet. Attacking with a star candle is a ranged touch attack and always has a -4 nonproficiency penalty. Crafting this item is a DC 20 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 20"
 			]
 		},
@@ -1508,7 +1540,8 @@
 				"",
 				"This tree stump-sized bundle of tubes immediately begins to emit arcs of multi-colored sparks when lit. Starting 1d6 rounds after lighting, it loudly releases brightly colored streaks of tiny flaming particles for 4 rounds. Outdoors, these particles soar far up into the sky before dispersing. Indoors or in a closed area, the ricocheting fireworks deal 1d6 points of fire damage each round in a 20-foot-radius spread (Reflex DC 15 halves). Creatures who fail their save are blinded for 1d4 rounds and deafened for 1 hour. Crafting this item is a DC 25 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -1535,7 +1568,8 @@
 				"",
 				"This coarse gray powder ignites and burns almost instantly if exposed to flame, significant friction, or even simple force such as throwing it against a floor (a standard action). Creatures within a 10-foot-radius burst are blinded for 1 round (Fortitude DC 13 negates). Crafting this item is a DC 20 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 20"
 			]
 		},
@@ -1564,7 +1598,8 @@
 				"",
 				"This hollow clay container holds a small charge of black powder and a slow-burning fuse. Lighting the fuse is a move action; 1d3 rounds later the grenade explodes, dealing 2d6 points of bludgeoning damage and 1d6 points of fire damage in a 10-foot-radius burst (Reflex DC 15 halves). You throw a fuse grenade as if it were a splash weapon. Crafting this item is a DC 25 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -1587,7 +1622,8 @@
 				"",
 				"Harvested and concentrated from the remains of slain ghasts, this foul-smelling powder is kept in tightly sealed flasks. It is thrown as a splash weapon and the flask breaks on impact, releasing noxious dust. The target is nauseated for 1 round and sickened for 3 rounds after that. A successful DC 12 Fortitude save prevents the nauseated condition, but not the sickened condition. Creatures within 5 feet of where the flask hits are sickened for 1 round. This is a poison effect. Crafting this item is a DC 20 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 20"
 			]
 		},
@@ -1612,7 +1648,8 @@
 				"",
 				"This large barrel-shaped sparkler is imbued with mysterious, hellish forces. The fuse can be lit as a standard action; 1d4 rounds later, the sparkler crackles violently with sickly-green sparks that take the form of an army of ferocious devils. Creatures within a 10-foot-radius burst take 3d6 points of fire damage and become shaken for 2 rounds; a target can attempt a DC 15 Will save to halve the damage and the duration of the shaken condition. Crafting a hellfire sparkler requires a successful DC 25 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -1664,7 +1701,8 @@
 				"",
 				"This violet balm comes in a small ceramic pot. When applied to a weapon as a standard action, it forms a transparent coating. Weapons coated in this balm deal an additional 2d4 points of damage to undead or evil outsiders. A creature affected by the balm must succeed at a DC 10 Reflex save or take an additional 1d4 points of damage the following round. Any nonmagical weapon coated with the balm affects incorporeal undead or evil outsiders as if it were a magic weapon. Any magic weapon coated with the balm affects incorporeal undead or evil outsiders as if the weapon had the ghost touch special ability. The balm remains effective until you make a successful attack with the weapon or until 1 minute has passed, whichever is sooner. Each dose of balm can coat one weapon or 10 pieces of ammunition.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 20"
 			]
 		},
@@ -1686,7 +1724,8 @@
 				"",
 				"Incendiary catalyst can be thrown at a creature as a ranged touch attack with a range increment of 10 feet. On a hit, the target is doused with accelerants that give the target vulnerability to fire for 1 round. Incendiary catalyst does not affect creatures that are already vulnerable to fire, and the target's fire immunity and resistances apply as normal. Crafting this item requires a successful DC 20 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 20"
 			]
 		},
@@ -1710,7 +1749,8 @@
 				"",
 				"Although it causes no severe damage, insomnia can cause a creature to be more prone to fatigue or exhaustion. Though it prevents sleep (and thus prevents wizards and some other spellcasters from regaining their spells), insomnia powder does not prevent a creature from meditating or praying. The effects of insomnia powder can be countered by sleep, neutralize poison, or similar effects.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -1736,7 +1776,8 @@
 				"",
 				"This fine gray powder causes targets to suffer from uncontrollable itching until they spend at least 1 round washing it off. Throwing a packet of itching powder is a splash attack with a range increment of 10 feet. Anyone standing on the square of impact must succeed at a DC 12 Fortitude save to resist the powder, while those in adjacent squares must make a DC 8 Fortitude save. Creatures that fail the save take a -2 penalty on attack rolls, saving throws, skill checks, and ability checks until they wash the powder off. This is a poison effect. Crafting this item is a DC 25 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -1764,7 +1805,8 @@
 				"",
 				"Also known as firebreather's oil, this bitter liquid is harder to ignite than common oil but burns quickly at a low temperature, making it ideal for exotic performers such as fire-spinners and flame-spitters. You may spit a mouthful of keros oil past an open flame (such as a candle, tindertwig, or torch) to ignite it, creating a brief burst of fire. If you use it to attack, the attack is a ranged touch attack with a maximum range of 5 feet that deals 1d3 points of fire damage. If you roll a 1 on your attack roll, you accidentally inhale or swallow some of the burning fuel; you take 1d6 points of fire damage and are nauseated for 1 round. A bottle of keros oil holds enough for 10 mouthfuls; taking a mouthful from the bottle is a standard action (the Rapid Reload feat reduces this to a move action). Crafting this item is a DC 15 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 15"
 			]
 		},
@@ -1786,7 +1828,8 @@
 				"",
 				"Named after a malevolent Mwangi goddess, this sack of luminous paste is made from crushed jungle flowers. You can throw Kitumu's ire as a ranged touch attack with a range increment of 10 feet; on a hit, the target is coated with the paste. A target coated with the paste draws the attention of any swarm within 30 feet, causing it to seek out and attack the target over any other creature. In addition, an affected creature takes a -2 penalty on saving throws against swarms' distraction ability. Kitumu's ire lasts for 1 hour or until washed away with at least a gallon of alcohol.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 30"
 			]
 		},
@@ -1811,7 +1854,8 @@
 				"",
 				"You can empty the contents of this palm-sized metal tube with a quick flick of your wrist (a move action), causing the bubbling transparent liquid within to instantly solidify into a jagged crystalline blade. By holding the tube, you can then use the crystalline blade as if it were a Medium short sword with the fragile quality (see page 22). The blade lasts for 10 minutes, after which it evaporates, leaving nothing behind but the tube. You can add one dose of poison to the liquid in the bottle, which acts like applying a dose of poison to a weapon except it is a full-round action; when the liquid turns into a solid blade, the weapon includes one application of that poison. When the blade evaporates, the poison does so as well. Crafting a liquid blade is a DC 15 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 15"
 			]
 		},
@@ -1840,7 +1884,8 @@
 				"",
 				"Also known as \"alchemist's ice,\" this sealed jar contains crystalline blue fluid that immediately starts to hiss and evaporate once opened. During the 1d6 rounds after it is opened but before it evaporates completely, you can use it to freeze a liquid or to coat an object in a thin layer of ice. You can also throw liquid ice as a splash weapon. A direct hit deals 1d6 points of cold damage; creatures within 5 feet of where it hits take 1 point of cold damage from the splash. Crafting this item is a DC 25 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -1887,7 +1932,8 @@
 				"",
 				"This sealed vial contains a highly potent indigo liquid and is an essential item for Dongun Hold miners, who often keep such vials handy for use against hostile subterranean creatures. The vial can be thrown as a splash weapon with a range increment of 10 feet. A direct hit deals 2d6 points of acid damage; this damage is doubled against creatures made of crystal, earth, or metal. Every creature within 5 feet of the impact takes 1 point of acid damage. Crafting mineral acid requires a successful DC 20 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 20"
 			]
 		},
@@ -1926,7 +1972,8 @@
 				"",
 				"This glass container of foul-smelling oil shatters easily upon impact. You can throw a vial of noxious aromatic as a splash weapon with a range increment of 10 feet. If a creature with the scent sense is standing in the square of impact, it must succeed at a DC 14 Fortitude save or be nauseated for 1d4+1 rounds. Any creature with scent in an adjacent square must succeed at a DC 12 Fortitude save or be sickened for 1 round. Creatures without the scent ability are not affected by noxious aromatic.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 20"
 			]
 		},
@@ -1958,7 +2005,8 @@
 				"",
 				"A greater splash weapon can be used only by Large or larger creatures, though it can be used as ammunition in a catapult or trebuchet. When used as ammunition in one of these siege engines, use the range for the engine rather than the greater splash weapon's range.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 35"
 			]
 		},
@@ -1984,7 +2032,8 @@
 				"",
 				"This variant of a fuse grenade has most of the black powder replaced with metal pellets. When it explodes, it deals 1d6 points of bludgeoning damage, 1d6 points of piercing damage, and 1d6 points of fire damage in a 10-foot-radius burst (Reflex DC 15 halves). A typical pellet grenade uses iron pellets, but they can instead be packed with silver, cold iron, or adamantine, bypassing damage reduction as appropriate to that material type. Like ammunition, the pellets are destroyed after one use. Crafting a pellet grenade is a DC 25 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -2058,7 +2107,8 @@
 				"",
 				"This vial contains a large snowflake that melts only at temperatures of 140 degrees Fahrenheit or above. Perfect ice is an alchemically engineered form of water that briefly converts any moisture it touches into a similar state. When a flask of perfect ice is opened or broken (such as by being thrown as a splash weapon), the snowflake within expands rapidly, forming a layer of ice and snow with a 60-foot radius along any nearby surface. Any living creature that touches an area of perfect ice or starts its turn in a space of perfect ice takes 4d6 points of damage from desiccation as some of the water in its body crystallizes (Fortitude DC 18 half). Creatures with the water subtype take half again as much damage (150%) and receive no saving throw. The ice crystals that form along flat surfaces are large and strong, and are treated as caltrops. The ice persists for 10 minutes, after which it vaporizes or reverts to a normal state for its temperature. To avoid the hazards of its large area of effect, many users propel the vial from a launching crossbow or use similar means to extend their throwing range.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -2079,7 +2129,8 @@
 				"",
 				"The most common disease refined for these powders is filth fever, costing 144 gp, but refined plague powders of other diseases are available, with a price equal to the base save DC of the disease squared. Making a plague powder always requires access to a sample of the disease and exposes the creator to the disease in question each day of crafting. Crafting a dose of plague powder requires a successful DC 25 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -2101,7 +2152,8 @@
 				"",
 				"This large flask holds a swarm of angry wasps. A portable hive can be thrown as a splash weapon, and when it hits a grid intersection or a creature, a [wasp swarm](monster:wasp_swarm) appears in a 10-foot-by-10-foot square at the point of impact. This swarm does not have the distraction or poison special abilities, and it disperses after 1d4 rounds. Crafting a portable hive requires a successful DC 25 Craft (alchemy) check",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -2124,7 +2176,8 @@
 				"",
 				"A pox burster is an alchemically preserved animal bladder or gourd that has been filled with toxic, rotting materials. You can throw a pox burster as a splash weapon. Treat this attack as a ranged touch attack with a range increment of 10 feet. A direct hit forces a target to immediately make a DC 13 Fortitude save or contract filth fever. Every space adjacent to the target square of the pox burster is covered in disease-causing filth. For the next minute, any creature that is injured while in one of these spaces must also make a DC 9 Fortitude save or contract filth fever.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 20"
 			]
 		},
@@ -2147,7 +2200,8 @@
 				"",
 				"This thin black liquid is stored in airtight flasks because it evaporates quickly when exposed to air. Its cloying vapors cling to a target, obscuring vision for a short period of time. You can throw a shadowcloy flask as a splash weapon with a range increment of 10 feet. A direct hit means the target treats the ambient light as one category darker than normal , with a creature already in natural darkness treating it as supernatural darkness. This effect lasts for 1 round. A thrown shadowcloy flask has no effect on adjacent creatures or if it misses.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 20"
 			]
 		},
@@ -2172,7 +2226,8 @@
 				"",
 				"This vivid green gel instantly crystallizes into needle-like shards upon contact with the air. You can throw a flask of shard gel as a splash weapon. A direct hit deals 1d4 points of piercing damage as the shards penetrate the target's flesh. The target's square and each square adjacent to it are covered in shards that function like caltrops. The caltrops last for 5 rounds before dissolving into harmless green sludge. Any effect that deals sonic damage to an area (such as sound burst or shout) immediately destroys all gel shards in that area. Crafting a flask of shard gel is a DC 20 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 20"
 			]
 		},
@@ -2220,7 +2275,8 @@
 				"",
 				"The viscous turquoise oil in this fine glass vial bursts into a pearlescent, silvery mist when exposed to air. You can throw a vial of silvercloud oil as a splash weapon with a range increment of 10 feet. A direct hit allows the mist to enter the body of a target with DR/silver and eat away at the victim's defenses, reducing its DR/ silver by 1 per round for 1d4+1 rounds (to a minimum of 0). Once the duration of this effect ends, the target fully regains its damage reduction. Each creature with DR/silver within 5 feet of the point where the vial struck takes a -1 penalty to its DR/ silver for 1 round. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -2268,7 +2324,8 @@
 				"",
 				"Dark blue crystals are suspended at various points in this chunky mixture of icy liquid. When the liquid inside is exposed to open air, a vial of slow slime has a unique congealing effect on amorphous bodies. The wielder can throw a vial of slime slow as a splash weapon. If a creature with the amorphous special quality suffers a direct hit, that creature must succeed at a DC 20 Fortitude save or lose the benefits of being amorphous for 1d4 rounds. Amorphous creatures indirectly hit by slime slow must attempt the same Fortitude save, but only risk losing the benefits of being amorphous for 1 round. Crafting a vial of slime slow requires a successful DC 20 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 20"
 			]
 		},
@@ -2295,7 +2352,8 @@
 				"",
 				"This coarse yellowish-red powder is a splash weapon that causes uncontrollable sneezing for 1d4+1 rounds. Anyone standing in the square of impact must succeed at a DC 12 Fortitude save to resist the powder, while those in adjacent squares must make DC 8 Fortitude saves. Creatures affected by sneezing powder must make a DC 10 Fortitude save every round for the duration or be staggered until their next turn. This is a poison effect. Crafting this item is a DC 25 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -2316,7 +2374,8 @@
 				"",
 				"This tacky paste is peppered with flakes of glass created using materials from the Elemental Planes, and this glass effectively limits underground movement. When you throw somnigrip at a creature (this requires a ranged touch attack with a range increment of 10 feet) and strike your target, the creature must succeed at a DC 20 Strength check each round. If the creature succeeds, it can burrow or use earth glide (if it has that ability) at half its burrow speed that round. If it fails, the creature cannot burrow or use earth glide at all that round, although it can still move using its other speeds as normal. Somnigrip dissolves and stops affecting a creature's movement after 1 minute. Crafting this item requires a successful DC 20 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 20"
 			]
 		},
@@ -2342,7 +2401,8 @@
 				"",
 				"**Smog Pellet:** The smoke from a smog pellet is oily, and creatures that are hit by a smog pellet or pass through the smoke are covered in thick residue. This residue makes invisible creatures visible for 1d4 rounds.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -2416,7 +2476,8 @@
 				"",
 				"This hollow clay container holds black powder, a slow-burning fuse, and rock salt or hard beads of resin or rubber. Lighting the fuse is a move action; 1d3 rounds later, the sting grenade explodes, dealing 2d6 points of nonlethal damage and 1d6 points of fire damage in a 10-foot-radius burst (Reflex DC 15 half). A sting grenade is treated as a splash weapon with a range increment of 10 feet. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -2489,7 +2550,8 @@
 				"",
 				"This sack contains tanglefoot bag materials and alchemical powders that burn at a high temperature. It functions like a tanglefoot bag, plus a direct hit on a creature deals 1d6 points of fire damage, and the creature must make a DC 20 Reflex save or catch on fire. If it catches on fire, for the next 2 rounds extinguishing the flames is a DC 25 Reflex save instead of a DC 15 save, and using water to extinguish the flames creates a burst of burning material equivalent to alchemist's fire making a direct hit on the target (including splash damage). After the initial 2 rounds, the flames may be extinguished as normal. Crafting this item is a DC 30 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 30"
 			]
 		},
@@ -2539,7 +2601,8 @@
 				"",
 				"This larger version of a tanglefoot bag entangles its target as normal and requires a successful DC 20 Reflex saving throw to avoid being stuck to the floor. In addition, it can affect Huge and smaller creatures, and has a range increment of 60 feet. A creature that is glued to the floor can break free by succeeding at a DC 30 Strength check or by dealing 25 points of damage to the goo with a slashing weapon.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 35"
 			]
 		},
@@ -2566,7 +2629,8 @@
 				"",
 				"A hit with a tar bomb deals 1d4 points of fire damage and has the potential to set the struck object or creature on fire, causing an additional 1d6 points of fire damage each round unless the target or an adjacent creature makes a DC 15 Reflex save to extinguish the flames as a full-round action. Knocking the tar bomb or the burning creature or object into a body of water or magically extinguishing the flames automatically smothers the fire.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 15"
 			]
 		},
@@ -2590,7 +2654,8 @@
 				"",
 				"Used by the dwarves of Dongun Hold to excavate precious crystals from deep underground, this heavy ceramic canister is packed with inert fibers surrounding a large alchemically infused blackpowder charge with a fuse. Lighting the fuse is a move action; 1d3 rounds after the fuse is lit, the charge explodes, dealing 2d6 points of bludgeoning damage and 2d6 points of sonic damage in a 10-foot-radius burst (Reflex DC 15 half). Creatures in the area of effect are knocked prone and deafened (a successful saving throw negates being knocked prone and reduces the deafened condition to 1 round). Crafting a thunderclap charge requires a successful DC 25 Craft (alchemy) check.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
@@ -2641,7 +2706,8 @@
 				"",
 				"This tincture is used to counteract hair loss and guarantee luxurious locks, but alchemists have developed a concentrated form for use in combat. You can throw tress tincture as a ranged touch attack with a range increment of 10 feet. On a hit, the target's hair grows long and thick, partly blocking the target's vision. The affected creature treats all other creatures as if they had concealment. As a swift action, the affected creature can brush or toss its hair aside, negating this concealment for 1 round. As a full-round action that provokes an attack of opportunity, the affected creature can hack off enough hair to end the concealment effect; this requires a light or one-handed slashing weapon. Creatures incapable of growing hair are unaffected by tress tincture.",
 				"",
-				"*Construction*   ",
+				"### Construction",
+				"",
 				"Craft (Alchemy) DC 25"
 			]
 		},
