@@ -280,34 +280,6 @@
 			]
 		},
 		{
-			"name": "Staff of the Master (Necromancy)",
-			"searchable_name": "Staff of the Master Necromancy",
-			"file": "magicstavesdisplay41fa.html",
-			"sources": [ "Conquest of Bloodsworn Vale" ],
-			"cost": 15200,
-			"slot": "none",
-			"weight": 0,
-			"description": [
-				"## Staff of the Master (Necromancy)",
-				"",
-				"**Source** [Conquest of Bloodsworn Vale pg. 25](source:Conquest_of_Bloodsworn_Vale)   ",
-				"**Aura** faint necromancy; **CL** 5th   ",
-				"**Slot** none; **Price** 15,200 gp; **Weight** -",
-				"",
-				"Often given as gifts to apprentices upon reaching the rank of master, these staves come in eight different varieties, one each for every school of magic. This particular staff is for the school of necromancy. Aside from acting as a +1/+1 quarterstaff, this staff allows use of the following spells:",
-				"",
-				"- ray of enfeeblement (1 charge)",
-				"- spectral hand (1 charge)",
-				"- vampiric touch (2 charges)",
-				"",
-				"In addition, this staff can be used to cast spells using any metamagic feats known by the wielder, without increasing the spell's level. This consumes a number of charges equal to the number of spell levels increased by the feat. No more than one feat can be applied to a spell cast by the wielder in this way. Using the staff for this purpose does not increase the casting time of the spell.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Staff, ray of enfeeblement, spectral hand, vampiric touch; **Cost** 7,900 gp, 584 XP"
-			]
-		},
-		{
 			"name": "Crook of Cildhureen",
 			"file": "magicstavesdisplay0e8c.html",
 			"sources": [ "Realm of the Fellnight Queen" ],
@@ -685,35 +657,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Staff, aura sight, protection from evil, summon nature's ally I, summon nature's ally II, zone of truth; **Cost** 12,400 gp"
-			]
-		},
-		{
-			"name": "Drazmorg's Staff of All-Sight",
-			"searchable_name": "Drazmorg's Staff of All Sight",
-			"file": "magicstavesdisplaye85b.html",
-			"sources": [ "Hungry are the Dead" ],
-			"cost": 25000,
-			"slot": "none",
-			"weight": 0,
-			"description": [
-				"## Drazmorg's Staff of All-Sight",
-				"",
-				"**Source** [Hungry are the Dead pg. 27](source:Hungry_are_the_Dead)   ",
-				"**Aura** strong divination (scrying); **CL** 9th   ",
-				"**Slot** none; **Price** 25,000 gp; **Weight** -",
-				"",
-				"This long, gnarled staff looks like several bones fused together and encased in desiccated, gray skin. It appears as if grown from living flesh and bone, then mummified. At the top of the staff, a clump of sinew clasps a spherical object. When the command word is spoken and two charges are expended, the sinew folds back revealing the petrified eyeball of some mammoth beast. The petrified eye functions in a similar fashion to a crystal ball, allowing the user to see events through the eyes of his minions. Drazmorg can use his staff to project his voice from any minion he is currently scrying through, allowing him to usher warnings and threats over great distances, as well as command his spawn. It loses this ability after its charges are consumed.",
-				"",
-				"In addition, the staff allows the use of the following spells:",
-				"",
-				"- clairaudience/clairvoyance (1 charge)",
-				"- detect scrying (2 charges)",
-				"",
-				"The staff is linked to Drazmorg and the seeping energy of the broken Seal. When Drazmorg dies, the staff bends and twists like a wounded snake, then shudders and becomes inert, its eye open and staring. The petrified eyeball retains some of its power, functioning as an eye of scrying, and can be pried or cut out of the \"dead\" staff without harming its abilities.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Staff, clairaudience/clairvoyance, detect scrying, scrying; **Cost** 12,500 gp, 1,000 XP"
 			]
 		},
 		{

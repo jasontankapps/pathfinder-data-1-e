@@ -1681,27 +1681,6 @@
 			]
 		},
 		{
-			"name": "Vest of Endure Elements",
-			"file": "magicwondrousdisplay1abb.html",
-			"sources": [ "Flight of the Red Raven" ],
-			"cost": 1000,
-			"slot": "body",
-			"weight": 0,
-			"description": [
-				"## Vest of Endure Elements",
-				"",
-				"**Source** [Flight of the Red Raven pg. 25](source:Flight_of_the_Red_Raven)   ",
-				"**Aura** faint abjuration; **CL** 1st   ",
-				"**Slot** torso; **Price** 1,000 gp; **Weight** -;",
-				"",
-				"This long sheepskin vest grants the benefits of an endure elements spell when worn. You must wear a vest of endure elements for 24 hours before it begins to take effect.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, endure elements; **Cost** 500 gp, 40 XP"
-			]
-		},
-		{
 			"name": "Coldfire Wrappings",
 			"file": "magicwondrousdisplayb294.html",
 			"sources": [ "Pathfinder #48: Shadows of Gallowspire" ],
@@ -2642,27 +2621,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Wondrous Item, Hamatulatsu, righteous might or transformation, unholy blight; **Cost** 7,000 gp"
-			]
-		},
-		{
-			"name": "Scintillating Garment",
-			"file": "magicwondrousdisplay9979.html",
-			"sources": [ "Magic of Thassilon" ],
-			"cost": 14000,
-			"slot": "body",
-			"weight": 0,
-			"description": [
-				"## Scintillating Garment",
-				"",
-				"**Source** [Magic of Thassilon pg. 3](source:Magic_of_Thassilon)   ",
-				"**Aura** moderate enchantment; **CL** 7th   ",
-				"**Slot** torso; **Price** 14,000 gp; **Weight** -;",
-				"",
-				"A scintillating garment can become either a tight-fitting tunic of any style or a long, tight dress of any cut. It appears to be made of mist and shimmering silks, hinting at the form and color of the skin beneath without revealing it. When worn, it gives any successful Diplomacy check made by the wearer the chance to increase one target's attitude by one additional step (PH 72). The wearer chooses a single target affected by her Diplomacy check to make a DC 13 Will save. If the target fails, his attitude improves by one step above the attitude indicated by the check. If the target succeeds, he is unaffected by the garment but his attitude is still adjusted by the successful Diplomacy check as normal. Any target that successfully saves against the garment's effects is immune to its magic for 24 hours. A scintillating garment has no affect on a failed Diplomacy check.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, eagle's splendor; **Cost** 7,000 gp, 560 XP"
 			]
 		},
 		{
@@ -4464,50 +4422,6 @@
 			]
 		},
 		{
-			"name": "Drazmorg's Stasis Crucible",
-			"file": "magicwondrousdisplayd56e.html",
-			"sources": [ "Hungry are the Dead" ],
-			"cost": 23000,
-			"slot": "chest",
-			"weight": 0,
-			"description": [
-				"## Drazmorg's Stasis Crucible",
-				"",
-				"**Source** [Hungry are the Dead pg. 27](source:Hungry_are_the_Dead)   ",
-				"**Aura** moderate transmutation; **CL** 12th   ",
-				"**Slot** chest and legs; **Price** 23,000 gp; **Weight** -;",
-				"",
-				"This device looks like a giant glass tube set within a protective iron cage. The glass tube is scrawled with hundreds of mystic sigils and filled with strange tubes and fluids. Bolts around the iron lip of the tube allow it to be fastened into the wearers flesh, while dozens of tubes and probes connect to the wearer's upper body. The device is designed for a creature lacking a lower body or at least missing its legs; it can only effectively be used by undead, as a living creature would almost certainly die from the item grafting itself to his body and removing extraneous flesh to do so (though the character could be raised from the dead or animated as an undead after this death).",
-				"",
-				"When properly attached, you may fly at speed 30 (perfect maneuverability). You gain a +4 armor bonus to AC.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, fly, mage armor; **Cost** 11,500 gp, 920 XP"
-			]
-		},
-		{
-			"name": "Mantle of Lordly Command",
-			"file": "magicwondrousdisplayd50e.html",
-			"sources": [ "Magic of Thassilon" ],
-			"cost": 23000,
-			"slot": "chest",
-			"weight": 0,
-			"description": [
-				"## Mantle of Lordly Command",
-				"",
-				"**Source** [Magic of Thassilon pg. 4](source:Magic_of_Thassilon)   ",
-				"**Aura** moderate illusion and enchantment; **CL** 10th   ",
-				"**Slot** mantle; **Price** 23,000 gp; **Weight** -;",
-				"",
-				"This intimidating mantle of gold and silver is set with several large gems, which seem to change in cut and type of stone every time it's viewed. The wearer of this mantle always appears to be clean, uninjured, and calm, granting him a +5 bonus on Diplomacy checks. Also, once per day as a standard action, the wearer can bellow a single word in a thundering, imperious tone. This functions as the spell shout, and the word can be heard by any creature within 200 feet. If this word is one of the five orders detailed by the spell command, in addition to the effects of shout, all creatures within 25 feet must make a DC 16 Will save or be affected as if by the spell command. Those damaged by shout take a -4 penalty on this Will save.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, disguise self, greater command, shout; **Cost** 11,500 gp, 920 XP"
-			]
-		},
-		{
 			"name": "Spectral Shroud",
 			"file": "magicwondrousdisplay0210.html",
 			"sources": [ "Ultimate Equipment" ],
@@ -4954,27 +4868,6 @@
 			]
 		},
 		{
-			"name": "Gossip Glass",
-			"file": "magicwondrousdisplay5bab.html",
-			"sources": [ "Taldor, Echoes of Glory" ],
-			"cost": 3600,
-			"slot": "eyes",
-			"weight": 1,
-			"description": [
-				"## Gossip Glass",
-				"",
-				"**Source** [Taldor, Echoes of Glory pg. 26](source:Taldor,_Echoes_of_Glory)   ",
-				"**Aura** faint divination; **CL** 1st   ",
-				"**Slot** eyes; **Price** 3,600 gp; **Weight** 1 lb.",
-				"",
-				"This silver, bejeweled set of opera glasses is indistinguishable from a regular set, save that when you look through the lenses you gain a +4 competence bonus to Spot checks. When reading lips, you can understand any spoken language as the comprehend languages spell. You can only use a gossip glass to spy on conversations within line of sight and must be able to see people speak in order to read their lips.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, comprehend languages; **Cost** 1,800 gp, 144 XP"
-			]
-		},
-		{
 			"name": "Eyes of the Owl",
 			"file": "magicwondrousdisplayea2e.html",
 			"sources": [
@@ -5331,27 +5224,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Wondrous Item, light, scorching ray; **Cost** 4,400 gp"
-			]
-		},
-		{
-			"name": "Culling Goggles",
-			"file": "magicwondrousdisplaydb3e-2.html",
-			"sources": [ "Seven Swords of Sin" ],
-			"cost": 9000,
-			"slot": "eyes",
-			"weight": 0,
-			"description": [
-				"## Culling Goggles",
-				"",
-				"**Source** [Seven Swords of Sin pg. 32](source:Seven_Swords_of_Sin)   ",
-				"**Aura** faint necromancy; **CL** 3rd   ",
-				"**Slot** goggles; **Price** 9,000 gp; **Weight** -;",
-				"",
-				"These goggles have dark, almost black lenses bound in brown leather cured from the skin of a sentient humanoid. Wearing these goggles lets you view your surroundings as if under the constant effect of a deathwatch spell extending 30 feet. Additionally, three times per day, you may touch a creature and trigger a death knell effect, as the spell.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, death knell, deathwatch; **Cost** 4,500 gp, 360 XP"
 			]
 		},
 		{
@@ -6197,27 +6069,6 @@
 			]
 		},
 		{
-			"name": "Boots of the Soft Step",
-			"file": "magicwondrousdisplay69f9.html",
-			"sources": [ "Legacy of Fire Player's Guide" ],
-			"cost": 1000,
-			"slot": "feet",
-			"weight": 2,
-			"description": [
-				"## Boots of the Soft Step",
-				"",
-				"**Source** [Legacy of Fire Player's Guide pg. 26](source:Legacy_of_Fire_Player's_Guide)   ",
-				"**Aura** faint transmutation; **CL** 7th   ",
-				"**Slot** boots; **Price** 1,000 gp; **Weight** 2 lbs.",
-				"",
-				"These bronze-riveted boots have thick leather soles that compress and expand as you walk. This reduces the force of your footfalls, making you more difficult to detect with tremorsense. If you are walking at half speed, a creature with tremorsense can only sense you at half the usual distance. If you walk at one-quarter speed or slower, a creature with tremorsense cannot detect you at all.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, feather fall; **Cost** 500 gp, 40 XP"
-			]
-		},
-		{
 			"name": "Slippers of Scampering",
 			"file": "magicwondrousdisplay9e1d.html",
 			"sources": [ "Villain Codex" ],
@@ -6563,27 +6414,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Wondrous Item, cat's grace; **Cost** 1,500 gp"
-			]
-		},
-		{
-			"name": "Dunestrider Boots",
-			"file": "magicwondrousdisplay0915.html",
-			"sources": [ "Legacy of Fire Player's Guide" ],
-			"cost": 3000,
-			"slot": "feet",
-			"weight": 2,
-			"description": [
-				"## Dunestrider Boots",
-				"",
-				"**Source** [Legacy of Fire Player's Guide pg. 26](source:Legacy_of_Fire_Player's_Guide)   ",
-				"**Aura** moderate transmutation; **CL** 7th   ",
-				"**Slot** boots; **Price** 3,000 gp; **Weight** 2 lbs.",
-				"",
-				"These boots are cracked and weathered from the desert sun. When you wear dunestrider boots, you may walk on sand as if it were hardpacked earth. Overland movement across sandy desert is treated as plains. Even loose sand and quicksand are not difficult terrain for you, allowing you to cross them at normal speed.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, expeditious retreat, longstrider; **Cost** 1,500 gp, 120 XP"
 			]
 		},
 		{
@@ -8420,27 +8250,6 @@
 			]
 		},
 		{
-			"name": "Handstraps of Roofjumping",
-			"file": "magicwondrousdisplaye052.html",
-			"sources": [ "Legacy of Fire Player's Guide" ],
-			"cost": 1500,
-			"slot": "hands",
-			"weight": 0,
-			"description": [
-				"## Handstraps of Roofjumping",
-				"",
-				"**Source** [Legacy of Fire Player's Guide pg. 27](source:Legacy_of_Fire_Player's_Guide)   ",
-				"**Aura** faint transmutation; **CL** 5th   ",
-				"**Slot** gloves; **Price** 1,500 gp; **Weight** -;",
-				"",
-				"These long cloth strips are intricately embroidered with urban scenes. When wrapped around your hands (like a boxer's or mummy's wraps) you gain a +1 competence bonus to Balance, Jump, and Tumble checks, and a +1 competence bonus to Reflex saves made to catch a ledge or arrest a fall.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, cat's grace, jump; **Cost** 750 gp, 60 XP"
-			]
-		},
-		{
 			"name": "Ioun Gauntlet",
 			"file": "magicwondrousdisplay91b4.html",
 			"sources": [ "Pathfinder #122: Into the Shattered Continent" ],
@@ -9199,28 +9008,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Wondrous Item, shield; **Cost** 3,000 gp"
-			]
-		},
-		{
-			"name": "Glove of Strength-Stealing",
-			"searchable_name": "Glove of Strength Stealing",
-			"file": "magicwondrousdisplay5072.html",
-			"sources": [ "Magic of Thassilon" ],
-			"cost": 6000,
-			"slot": "hands",
-			"weight": 0,
-			"description": [
-				"## Glove of Strength-Stealing",
-				"",
-				"**Source** [Magic of Thassilon pg. 3](source:Magic_of_Thassilon)   ",
-				"**Aura** moderate necromancy; **CL** 6th   ",
-				"**Slot** gloves; **Price** 6,000 gp; **Weight** -;",
-				"",
-				"This single, seamless glove of gray calfskin is fitted with silver finger bones, covering the wearer's hand snugly yet stretching to accommodate movement. Once per day, the wearer of a glove of strength-stealing may spend a free action to activate a chill touch effect, as per the spell. Any Strength damage inflicted by the wearer's touch for the 6 rounds it remains in effect is added to his Strength score as an enhancement bonus (to a maximum of +6). This bonus fades 1 hour after the glove is activated.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, bull's strength, chill touch; **Cost** 3,000 gp, 240 XP"
 			]
 		},
 		{
@@ -10087,27 +9874,6 @@
 			]
 		},
 		{
-			"name": "Empty Hands",
-			"file": "magicwondrousdisplay4c81.html",
-			"sources": [ "Magic of Thassilon" ],
-			"cost": 18000,
-			"slot": "hands",
-			"weight": 0,
-			"description": [
-				"## Empty Hands",
-				"",
-				"**Source** [Magic of Thassilon pg. 4](source:Magic_of_Thassilon)   ",
-				"**Aura** moderate illusion; **CL** 7th   ",
-				"**Slot** gloves; **Price** 18,000 gp; **Weight** -;",
-				"",
-				"The empty hands are an innocuous looking pair of wellcrafted gloves made of soft, tanned brown leather. As a standard action, the wearer can cause any weapon or item he holds to become invisible for 3 minutes, during which it is clear the wearer is holding something, but it's not possible to see exactly what it is. The wearer gains a +1 circumstance bonus on attack rolls with an invisible weapon, a +5 circumstance bonus on opposed Bluff checks made to feint in combat or claim to be unarmed, and a +10 circumstance bonus on opposed Sleight of Hand checks made to conceal a weapon or item. This invisibility can be dismissed as a free action. The 3 minutes a held item is invisible need not be consecutive, but must be expended in 1-minute increments. Empty hands grant no bonuses against foes able to see invisible objects, as per spells like see invisibility or true seeing. Empty hands can only affect one item at a time, even if one item is held in each hand.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Rod, greater invisibility; **Cost** 9,000 gp, 720 XP"
-			]
-		},
-		{
 			"name": "Vampiric Gloves",
 			"file": "magicwondrousdisplay8fe5.html",
 			"sources": [ "Ultimate Equipment" ],
@@ -10396,50 +10162,6 @@
 			]
 		},
 		{
-			"name": "Rust Monster Antenna Whip",
-			"file": "magicwondrousdisplay03be.html",
-			"sources": [ "Dungeon Denizens Revisited" ],
-			"cost": 56000,
-			"slot": "hands",
-			"weight": 2,
-			"description": [
-				"## Rust Monster Antenna Whip",
-				"",
-				"**Source** [Dungeon Denizens Revisited pg. 55](source:Dungeon_Denizens_Revisited)   ",
-				"**Aura** moderate transmutation; **CL** 7th   ",
-				"**Slot** hand; **Price** 56,000 gp; **Weight** 2 lbs.",
-				"",
-				"Crafted from a preserved rust monster antenna, this item works similarly to a gauntlet of rust, with the exceptions that you can make a rusting grasp touch attack with the whip at will, you can use it on all nonmagical metallic objects (not just ferrous ones), and it does not protect you from other rusting attacks. This item counts as a whip for the purposes of proficiency and weapon feats.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, rusting grasp; **Cost** 28,000 gp (24,000 gp if deceased rust monster is provided), 2,240 XP"
-			]
-		},
-		{
-			"name": "Effigy of the Favored Servant",
-			"file": "magicwondrousdisplay0e03.html",
-			"sources": [ "Magic of Thassilon" ],
-			"cost": 60000,
-			"slot": "hands",
-			"weight": 0,
-			"description": [
-				"## Effigy of the Favored Servant",
-				"",
-				"**Source** [Magic of Thassilon pg. 4](source:Magic_of_Thassilon)   ",
-				"**Aura** strong transmutation and necromancy; **CL** 15th   ",
-				"**Slot** hand; **Price** 60,000 gp; **Weight** -;",
-				"",
-				"An effigy of the favored servant is a thumb-sized figurine of wondrous power depicting a marble, toga-wearing slave. When commanded, the statue grows and animates with the same statistics as a hill giant. The giant has no hint of personality, but is capable of telepathically receiving orders from the item's possessor up to a range of 100 feet. The item can be used twice a week for up to 6 hours per use. If animated in an area too small for the giant to appear in, the figurine simply doesn't animate, with no weekly use expended.",
-				"",
-				"In addition to its use as a figurine of wondrous power, an effigy of the favored servant can be used as the repository of a dying soul once per day. By spending a full round action on a sentient, living creature reduced to -1 or fewer hit points, the effigy's bearer can draw its soul into the statuette, killing the creature if it fails a DC 22 Will save. From that time forward, the giant summoned by the figurine has the same personality as the killed creature. The creature must obey the figurine bearer's commands, and the effigy functions as normal. The creature retains none of the skills or abilities it had in life, being effectively trapped within the statuette. The creature cannot be resurrected or otherwise returned to life unless the effigy is destroyed. If the effigy is used to trap another dying soul, the first is released and may be raised normally.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, animate objects, death knell, trap the soul; **Cost** 30,000 gp, 2,400 XP"
-			]
-		},
-		{
 			"name": "Gloves of Improvised Might (+4)",
 			"searchable_name": "Gloves of Improvised Might 4",
 			"file": "magicwondrousdisplay385a.html",
@@ -10472,27 +10194,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Magic Arms and Armor, Craft Wondrous Item, greater magic fang, insanity; **Cost** 33,500 gp"
-			]
-		},
-		{
-			"name": "Ruby Circlet",
-			"file": "magicwondrousdisplayfcef.html",
-			"sources": [ "Osirion, Land of the Pharaohs" ],
-			"cost": 94000,
-			"slot": "hands",
-			"weight": 5,
-			"description": [
-				"## Ruby Circlet",
-				"",
-				"**Source** [Osirion, Land of the Pharaohs pg. 31](source:Osirion,_Land_of_the_Pharaohs)   ",
-				"**Aura** moderate conjuration and transmutation; **CL** 11th   ",
-				"**Slot** hand; **Price** 94,000 gp; **Weight** 5 lbs.",
-				"",
-				"This golden circlet is set with rubies and is small enough to fit under the standard head regalia of a reigning pharaoh. It functions as a +6 periapt of Wisdom and a circlet of persuasion. If you are the rightful ruler of Osirion, you can use the Ruby Circlet to telepathically communicate with Janhelia, agent of the elemental lords of the desert; this ability functions as long as you and she are on the same plane.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, eagle's splendor, owl's wisdom, planar ally, telepathic bond; **Cost** 47,000 gp, 3,760 XP"
 			]
 		},
 		{
@@ -10874,27 +10575,6 @@
 			]
 		},
 		{
-			"name": "Glarecutter Goggles",
-			"file": "magicwondrousdisplay7482.html",
-			"sources": [ "Legacy of Fire Player's Guide" ],
-			"cost": 2000,
-			"slot": "head",
-			"weight": 1,
-			"description": [
-				"## Glarecutter Goggles",
-				"",
-				"**Source** [Legacy of Fire Player's Guide pg. 27](source:Legacy_of_Fire_Player's_Guide)   ",
-				"**Aura** faint conjuration; **CL** 5th   ",
-				"**Slot** mask; **Price** 2,000 gp; **Weight** 1 lb.",
-				"",
-				"These dark lenses of smoked glass are set in a thin leather headband and filter the light reaching your eyes. You gain a +5 resistance bonus on Fortitude saving throws against sight- and light-based hazards or attacks, such as desert glare, blindness, gaze attacks, and so on.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, remove blindness/deafness, resistance; **Cost** 1,000 gp, 80 XP"
-			]
-		},
-		{
 			"name": "Plaguebringer's Mask",
 			"file": "magicwondrousdisplayacf1.html",
 			"sources": [
@@ -10916,50 +10596,6 @@
 				"### Construction",
 				"",
 				"**Requirements** [Craft Wondrous Item](unknown:Craft_Wondrous_Item), [misdirection](unknown:misdirection), [remove disease](unknown:remove_disease); **Cost** 1,000 gp"
-			]
-		},
-		{
-			"name": "Holy Mask of the Living God",
-			"file": "magicwondrousdisplay5bbe.html",
-			"sources": [ "Gods and Magic" ],
-			"cost": 2100,
-			"slot": "head",
-			"weight": 1,
-			"description": [
-				"## Holy Mask of the Living God",
-				"",
-				"**Source** [Gods and Magic pg. 57](source:Gods_and_Magic)   ",
-				"**Aura** moderate illusion (shadow); **CL** 1st   ",
-				"**Slot** mask; **Price** 2,100 gp; **Weight** 1 lb.",
-				"",
-				"This iron mask models the stoic face of the Living God Razmir; its forehead bears a diamond-shaped ivory ornament said to come from the Living God's own mask.",
-				"",
-				"If Razmir is your patron, gain a +2 competence bonus on Heal and Intimidate checks. You may use cause fear and cure light wounds once per day.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, cause fear, shadow conjuration, creator must have at least 5 ranks in Heal and Intimidate; **Cost** 1,050 gp, 84 XP"
-			]
-		},
-		{
-			"name": "Keffiyeh of Cooling",
-			"file": "magicwondrousdisplayde2f.html",
-			"sources": [ "Legacy of Fire Player's Guide" ],
-			"cost": 2100,
-			"slot": "head",
-			"weight": 2,
-			"description": [
-				"## Keffiyeh of Cooling",
-				"",
-				"**Source** [Legacy of Fire Player's Guide pg. 27](source:Legacy_of_Fire_Player's_Guide)   ",
-				"**Aura** faint abjuration; **CL** 7th   ",
-				"**Slot** head; **Price** 2,100 gp; **Weight** 2 lbs.",
-				"",
-				"This keffiyeh remains bright white, no matter how many sandstorms it has been in. It protects you from hot environments as if you had endure elements cast upon you. It provides no magical protection against cold environments.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, endure elements; **Cost** 1,050 gp, 84 XP"
 			]
 		},
 		{
@@ -12763,27 +12399,6 @@
 			]
 		},
 		{
-			"name": "Crown of the Kobold King",
-			"file": "magicwondrousdisplay84b3.html",
-			"sources": [ "Crown of the Kobold King" ],
-			"cost": 15000,
-			"slot": "head",
-			"weight": 0,
-			"description": [
-				"## Crown of the Kobold King",
-				"",
-				"**Source** [Crown of the Kobold King pg. 26](source:Crown_of_the_Kobold_King)   ",
-				"**Aura** strong transmutation; **CL** 12th   ",
-				"**Slot** helmet; **Price** 15,000 gp; **Weight** -;",
-				"",
-				"Merlokrep's crown is as old as his tribe, and the burnished bronze heirloom has passed from king to king for centuries. The blood rite mumbled by Jekkajak might or might not exist, but even without this ceremony the crown invests its wearer with power. Wearing the crown grants a +2 enhancement bonus to Charisma and a +2 natural armor bonus. You are immune to the frightful presence ability of all dragons. If you are a sorcerer you cast spells at +1 caster level.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, barkskin, eagle's splendor; **Cost** 7,500 gp, 600 XP"
-			]
-		},
-		{
 			"name": "Tin Cap",
 			"file": "magicwondrousdisplay2de4.html",
 			"sources": [ "Occult Adventures" ],
@@ -14009,28 +13624,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Wondrous Item, cone of cold, resist energy; **Cost** 24,000 gp"
-			]
-		},
-		{
-			"name": "Golden Helm of Xin-Shalast",
-			"searchable_name": "Golden Helm of Xin Shalast",
-			"file": "magicwondrousdisplay9cd6.html",
-			"sources": [ "Magic of Thassilon" ],
-			"cost": 48000,
-			"slot": "head",
-			"weight": 0,
-			"description": [
-				"## Golden Helm of Xin-Shalast",
-				"",
-				"**Source** [Magic of Thassilon pg. 3](source:Magic_of_Thassilon)   ",
-				"**Aura** strong transmutation; **CL** 15th   ",
-				"**Slot** head; **Price** 48,000 gp; **Weight** -;",
-				"",
-				"This ornate, crested helmet of gold is typical of those worn by palace and household guards in and around Xin-Shalast. Topped with a brush of platinum bristles and filigreed with silver around the rim and nose guard, the golden helm is as much a display of wealth and status as it is a powerful magic tool. When donning a golden helm of Xin-Shalast, the wearer takes on the appearance of a masterfully sculpted golden statue. This change is purely cosmetic, except for 10 minutes per day when the owner can activate the effects of an iron body spell. The iron body effect can be activated as a free action.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, iron body; **Cost** 24,000 gp, 1,920 XP"
 			]
 		},
 		{
@@ -15986,29 +15579,6 @@
 			]
 		},
 		{
-			"name": "Dust of Envy",
-			"file": "magicwondrousdisplayf904.html",
-			"sources": [ "Magic of Thassilon" ],
-			"cost": 900,
-			"slot": "neck",
-			"weight": 0,
-			"description": [
-				"## Dust of Envy",
-				"",
-				"**Source** [Magic of Thassilon pg. 1](source:Magic_of_Thassilon)   ",
-				"**Aura** moderate abjuration; **CL** 6th   ",
-				"**Slot** amulet; **Price** 900 gp; **Weight** -;",
-				"",
-				"Upon a frail silver chain dangles a tiny crystalline phial filled with light blue dust. When one shatters the phial, it releases a potent flash of abjuration magic that affects all evocation and necromancy magic in a 30-foot-radius with a targeted dispel magic. Each phial holds one use of the dust and, once used, the item is destroyed. This phial can be used as a thrown weapon (PH 158).",
-				"",
-				"While legends credit Runelord Belimarius with creating dust of envy, further historical accounts imply that the remaining runelords also uncovered the secrets of making their own virtue-related dusts - all of which activate under similar circumstances and produce similar effects, being attuned to a specific sin and targeting spells of the schools related to the two opposing sins.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, dispel magic; **Cost** 450 gp, 36 XP"
-			]
-		},
-		{
 			"name": "Talisman (Lesser) (Freedom)",
 			"searchable_name": "Lesser Talisman Freedom",
 			"file": "magicwondrousdisplay9056.html",
@@ -16190,28 +15760,6 @@
 			"cost": 1400,
 			"slot": "neck",
 			"copyof": "Death's Head Talisman (10 HD)"
-		},
-		{
-			"name": "Fetish of Natural Armor (+1)",
-			"searchable_name": "Fetish of Natural Armor 1",
-			"file": "magicwondrousdisplayc2d4.html",
-			"sources": [ "Rivers into Darkness" ],
-			"cost": 1500,
-			"slot": "neck",
-			"weight": 0,
-			"description": [
-				"## Fetish of Natural Armor",
-				"",
-				"**Source** [Rivers into Darkness pg. 15](source:Rivers_into_Darkness)   ",
-				"**Aura** faint transmutation; **CL** 5th   ",
-				"**Slot** amulet; **Price** 1,500 gp (+1), 7,000 gp (+2), 16,500 gp (+3); **Weight** -;",
-				"",
-				"This fetish is a small charm made of bound sticks and ornamental stones worn around the neck on a thong. Wearing it toughens your body and flesh, giving you an enhancement bonus to your natural armor bonus from +1 to +3, depending on the kind of fetish, similar to an amulet of natural armor. in the creation of one of these amulets, a portion of your spirit is bound up in it so that once worn, if removed, you gain a negative level until this fetish or another ekujae fetish is worn again. This negative level can be permanently removed and your connection with the fetish broken with a restoration spell or a remove curse spell immediately followed by a successful Dc 15 fortitude save. if you fail the save, you must receive another remove curse before you can attempt another save.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, barkskin, creator's caster level must be at least 3 times the fetish's bonus; **Cost** 750 gp, 60 XP (+1), 3,500 gp, 280 XP (+2), 8,250 gp, 660 XP (+3)"
-			]
 		},
 		{
 			"name": "Amulet of Bullet Protection (+1)",
@@ -16602,27 +16150,6 @@
 			"copyof": "Talisman (Lesser) (Beneficial Winds)"
 		},
 		{
-			"name": "Soulspeaker",
-			"file": "magicwondrousdisplay7618.html",
-			"sources": [ "Hollow's Last Hope" ],
-			"cost": 2400,
-			"slot": "neck",
-			"weight": 0,
-			"description": [
-				"## Soulspeaker",
-				"",
-				"**Source** [Hollow's Last Hope pg. 10](source:Hollow's_Last_Hope)   ",
-				"**Aura** faint illusion; **CL** 3rd   ",
-				"**Slot** amulet; **Price** 2,400 gp; **Weight** -;",
-				"",
-				"This grotesque, amulet-like shrunken head is said to contain the enslaved soul of its former owner. Forced to obey whomever carries it, once per day a soulspeaker can repeat a message as if the spell magic mouth were cast upon it. The owner must merely hold the 6-inch-in-diameter head and speak his message and the conditions under which the soulspeaker should repeat it. While it carries a message, the eyes of the stitched head stretch open, closing as soon as its message has been delivered.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, magic mouth; **Cost** 1,200 gp, 96 XP"
-			]
-		},
-		{
 			"name": "Armillary Amulet",
 			"file": "magicwondrousdisplay2acf.html",
 			"sources": [ "From Shore to Sea" ],
@@ -16866,29 +16393,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Wondrous Item, repel vermin; **Cost** 1,500 gp"
-			]
-		},
-		{
-			"name": "Azlant Pendant",
-			"file": "magicwondrousdisplaybb56.html",
-			"sources": [ "Gods and Magic" ],
-			"cost": 3100,
-			"slot": "neck",
-			"weight": 2,
-			"description": [
-				"## Azlant Pendant",
-				"",
-				"**Source** [Gods and Magic pg. 54](source:Gods_and_Magic)   ",
-				"**Aura** moderate divination; **CL** 5th   ",
-				"**Slot** necklace; **Price** 3,100 gp; **Weight** 2 lbs.",
-				"",
-				"This heavy necklace is usually made of gold and looks like a large winged eye. You gain a +5 competence bonus on one type of Knowledge checks (each pendant has a different specialty).",
-				"",
-				"If Aroden is your patron, the pendant counts as a holy symbol. Once per day as a free action, you may add a +10 insight bonus on a single skill check you are about to roll.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, moment of prescience, creator must have 5 ranks in the appropriate Knowledge skill; **Cost** 1,550 gp, 124 XP"
 			]
 		},
 		{
@@ -18525,27 +18029,6 @@
 			]
 		},
 		{
-			"name": "Scale of the Mariner",
-			"file": "magicwondrousdisplay3932.html",
-			"sources": [ "Treasure of Chimera Cove" ],
-			"cost": 8000,
-			"slot": "neck",
-			"weight": 0,
-			"description": [
-				"## Scale of the Mariner",
-				"",
-				"**Source** [Treasure of Chimera Cove pg. 25](source:Treasure_of_Chimera_Cove)   ",
-				"**Aura** faint abjuration and transmutation; **CL** 5th   ",
-				"**Slot** amulet; **Price** 8,000 gp; **Weight** -;",
-				"",
-				"These simple silver brooches are often found pinned to the capes of captains of the Andoren merchant marine. The wearer of this brooch gains a +1 enhancement bonus to natural armor and fire resistance 5. In addition, the wearer can always choose to take 10 on a Swim check, even if distracted or endangered.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, barkskin, resist energy; **Cost** 4,000 gp, 320 XP"
-			]
-		},
-		{
 			"name": "Nursing Necklace (Spider)",
 			"searchable_name": "Nursing Necklace Spider",
 			"file": "magicwondrousdisplay81ec.html",
@@ -19160,27 +18643,6 @@
 			]
 		},
 		{
-			"name": "Missive Stone",
-			"file": "magicwondrousdisplay368b.html",
-			"sources": [ "Taldor, Echoes of Glory" ],
-			"cost": 10000,
-			"slot": "neck",
-			"weight": 0,
-			"description": [
-				"## Missive Stone",
-				"",
-				"**Source** [Taldor, Echoes of Glory pg. 26](source:Taldor,_Echoes_of_Glory)   ",
-				"**Aura** faint transmutation; **CL** 3rd   ",
-				"**Slot** neck; **Price** 10,000 gp; **Weight** -;",
-				"",
-				"These two small, polished pieces of black rock dangle from simple silver chains and are covered in dozens of tiny arcane symbols etched in red paint. Missive stones are always created in pairs. When you and another person each wear one of the stones, you can send whispered messages to each other as long as you are no more than 3 miles apart.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, whispering wind; **Cost** 5,000 gp, 400 XP"
-			]
-		},
-		{
 			"name": "Necklace of Air Adaptation",
 			"file": "magicwondrousdisplaydccd.html",
 			"sources": [ "Pathfinder #122: Into the Shattered Continent" ],
@@ -19216,27 +18678,6 @@
 			"cost": 10000,
 			"slot": "neck",
 			"copyof": "Amulet of the Spirits (Heavens)"
-		},
-		{
-			"name": "Unerring Compass",
-			"file": "magicwondrousdisplay354e.html",
-			"sources": [ "Crucible of Chaos" ],
-			"cost": 10000,
-			"slot": "neck",
-			"weight": 0,
-			"description": [
-				"## Unerring Compass",
-				"",
-				"**Source** [Crucible of Chaos pg. 3](source:Crucible_of_Chaos)   ",
-				"**Aura** faint divination; **CL** 5th   ",
-				"**Slot** amulet; **Price** 10,000 gp; **Weight** -;",
-				"",
-				"This gold and silver compass has a single mithral needle that always points toward the nearest flying city. These were common items for flying city dwellers to take when they went \"below\" to visit the groundlings, as otherwise it could be difficult to return to their homes.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, locate object; **Cost** 5,000 gp, 400 XP"
-			]
 		},
 		{
 			"name": "Vishkanya Periapt",
@@ -21211,27 +20652,6 @@
 			]
 		},
 		{
-			"name": "Firepowder",
-			"file": "magicwondrousdisplayd7c4.html",
-			"sources": [ "Legacy of Fire Player's Guide" ],
-			"cost": 10,
-			"slot": "none",
-			"weight": 0.5,
-			"description": [
-				"## Firepowder",
-				"",
-				"**Source** [Legacy of Fire Player's Guide pg. 27](source:Legacy_of_Fire_Player's_Guide)   ",
-				"**Aura** faint evocation (fire); **CL** 3rd   ",
-				"**Slot** none; **Price** 10 gp; **Weight** 1/2 lb.",
-				"",
-				"This chalky yellow powder is usually kept in a finely woven canvas pouch. When you mix firepowder with fine sand, the resultant mixture quickly heats up until it combusts, creating a slow-burning flame that requires no additional fuel. Half a pound of firepowder takes 1 minute to mix, and the fire produced burns for 8 hours, equivalent to a standard campfire.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, continual flame; **Cost** 5 gp, 1 XP"
-			]
-		},
-		{
 			"name": "Hex Nail",
 			"file": "magicwondrousdisplayd234.html",
 			"sources": [
@@ -21363,27 +20783,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Wondrous Item, major creation; **Cost** 25 gp (Anchor), 75 gp (Lance), 100 gp (Fan), 100 gp (Sky Hook), 150 gp (Bird), 200 gp (Catapult), 200 gp (Tree), 225 gp (Floating Feather), 225 gp (Swan Boat), 250 gp (Campsite), 250 gp (Ram), 250 gp (Whip), 300 gp (Tar and Feathers), 500 gp (Siege Tower)"
-			]
-		},
-		{
-			"name": "Sentinel Scorpion",
-			"file": "magicwondrousdisplayc7b9.html",
-			"sources": [ "Legacy of Fire Player's Guide" ],
-			"cost": 50,
-			"slot": "none",
-			"weight": 0.5,
-			"description": [
-				"## Sentinel Scorpion",
-				"",
-				"**Source** [Legacy of Fire Player's Guide pg. 27](source:Legacy_of_Fire_Player's_Guide)   ",
-				"**Aura** faint divination; **CL** 1st   ",
-				"**Slot** none; **Price** 50 gp; **Weight** 1/2 lb.",
-				"",
-				"This crystalline hand-sized scorpion figurine is so full of cracks and occlusions that it looks as if it could fall apart at any minute. As a standard action you may throw the sentinel scorpion to the ground, causing it to explode into crystalline shards that cover the ground in a 10-foot burst. When any creature steps in the area, the shards make popping sounds as loud as the audible version of the alarm spell. A creature moving in the area of the shards has a 10% chance each round of stepping on the stinger. The stinger injects Large scorpion venom (1d6 Str/1d6 Str, Fort DC 18 negates) and is treated as a trap (Search DC 20, Disable Device DC 20). After 2 hours, the shards decay into harmless powder.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, alarm; **Cost** 25 gp, 2 XP"
 			]
 		},
 		{
@@ -21749,27 +21148,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Wondrous Item, gentle repose; **Cost** 75 gp"
-			]
-		},
-		{
-			"name": "Goblet of Quenching",
-			"file": "magicwondrousdisplay03e3.html",
-			"sources": [ "Legacy of Fire Player's Guide" ],
-			"cost": 180,
-			"slot": "none",
-			"weight": 1,
-			"description": [
-				"## Goblet of Quenching",
-				"",
-				"**Source** [Legacy of Fire Player's Guide pg. 27](source:Legacy_of_Fire_Player's_Guide)   ",
-				"**Aura** faint conjuration (creation); **CL** 1st   ",
-				"**Slot** none; **Price** 180 gp; **Weight** 1 lb.",
-				"",
-				"At your command, this simple clay goblet fills itself with cool, fresh drinking water. The goblet can create up to 2 gallons of water per day. The water evaporates normally if left exposed, and is completely normal water; you can store it, use it to create holy water, and so on.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, create water; **Cost** 90 gp, 7 XP"
 			]
 		},
 		{
@@ -22523,29 +21901,6 @@
 			]
 		},
 		{
-			"name": "Salt Lamp",
-			"file": "magicwondrousdisplay47a8.html",
-			"sources": [ "Second Darkness Player's Guide" ],
-			"cost": 350,
-			"slot": "none",
-			"weight": 2,
-			"description": [
-				"## Salt Lamp",
-				"",
-				"**Source** [Second Darkness Player's Guide pg. 29](source:Second_Darkness_Player's_Guide)   ",
-				"**Aura** faint conjuration; **CL** 5th   ",
-				"**Price** 350 gp; **Weight** 2 lbs.",
-				"",
-				"A salt lamp appears as nothing more than a fist-sized chunk of pink, white, or green quartz-like rock. In reality, the \"rock\" is compressed salt mined from areas infused with strange magical radiations. When you speak the command word, the salt lamp lights up with a glow equivalent to a torch. The salt lamp becomes warm, though never uncomfortably hot, to the touch. The salt lamp glows for 1d4+1 hours before its light fades out and it becomes ordinary salt.",
-				"",
-				"At any time while the salt lamp glows, you can hurl it at the floor, causing it to explode into a cloud of glimmering salt crystals that form a 10-foot radius cloud. The cloud continues to shed light as a torch, as well as visibly outlining invisible objects within the cloud. Shining salt particles cover anyone within the area and adhere and glow for the remainder of the lamp's duration. The salt particles cannot be removed by normal means, but they can be dispelled. Any creature within the cloud, or covered with the salt particles, takes a -40 penalty on Hide checks.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, glitterdust, light; **Cost** 175 gp, 14 XP"
-			]
-		},
-		{
 			"name": "Stunstone",
 			"file": "magicwondrousdisplay7295.html",
 			"sources": [ "Pathfinder #39: The City of Seven Spears" ],
@@ -22645,31 +22000,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Wondrous Item, erase; **Cost** 200 gp"
-			]
-		},
-		{
-			"name": "Gremlin Bell",
-			"file": "magicwondrousdisplay16c7.html",
-			"sources": [ "Pathfinder #19: Howl of the Carrion King" ],
-			"cost": 400,
-			"slot": "none",
-			"weight": 0,
-			"description": [
-				"## Gremlin Bell",
-				"",
-				"**Source** [Pathfinder #19: Howl of the Carrion King pg. 85](source:Pathfinder_#19:_Howl_of_the_Carrion_King)   ",
-				"**Aura** faint abjuration; **CL** 2nd   ",
-				"**Slot** none; **Price** 400 gp; **Weight** -;",
-				"",
-				"From rural villages to bustling cities, many blame even the slightest misfortunes on the depredations of gremlins. Regardless of whether such creatures are truly to blame for a community's problems, many shrines and hedge wizards sell tiny charms to their neighbors, talismans meant to ward off lesser evils: gremlin bells.",
-				"",
-				"Crafted from bronze, brass, or countless other semiprecious metals, these miniature bells-no more than an inch tall-hang from delicate chains or short silken cords and ring with a tinny tinkling. Typically affixed over doorframes or to precious objects, when rung frequently these ornaments supposedly ward off gremlins and protect those nearby from ill fortune. And unlike most such folk magic, expertly made gremlin bells actually work.",
-				"",
-				"Gremlin bells have two uses. First, they irritate gremlins. Any gremlin that comes within 20 feet of a gremlin bell cannot make use of any of its supernatural abilities and becomes uncomfortable, typically seeking to leave the area (though it is not compelled to do so). Secondly, once per day a gremlin bell can be purposefully rung. All gremlins within 20 feet who can hear the chime must make a DC 16 Will save or be sickened for the next 5 minutes.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, protection from evil; **Cost** 200 gp, 16 XP"
 			]
 		},
 		{
@@ -22960,27 +22290,6 @@
 			]
 		},
 		{
-			"name": "Bag of Everlasting Dung",
-			"file": "magicwondrousdisplay8ffd-2.html",
-			"sources": [ "Legacy of Fire Player's Guide" ],
-			"cost": 500,
-			"slot": "none",
-			"weight": 4,
-			"description": [
-				"## Bag of Everlasting Dung",
-				"",
-				"**Source** [Legacy of Fire Player's Guide pg. 26](source:Legacy_of_Fire_Player's_Guide)   ",
-				"**Aura** faint conjuration (creation); **CL** 5th   ",
-				"**Slot** none; **Price** 500 gp; **Weight** 4 lbs.",
-				"",
-				"This leather bag exudes a pungent scent when opened. Each day it provides enough dried dung to fuel a small fire for 8 hours or fertilize a 20-foot-square patch of land.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, create food and water; **Cost** 250 gp, 20 XP"
-			]
-		},
-		{
 			"name": "Bilious Bottle",
 			"file": "magicwondrousdisplaya8ca.html",
 			"sources": [ "Pathfinder #73: The Worldwound Incursion" ],
@@ -23206,29 +22515,6 @@
 			]
 		},
 		{
-			"name": "Mushroom Vest",
-			"file": "magicwondrousdisplay52c4.html",
-			"sources": [ "Second Darkness Player's Guide" ],
-			"cost": 500,
-			"slot": "none",
-			"weight": 3,
-			"description": [
-				"## Mushroom Vest",
-				"",
-				"**Source** [Second Darkness Player's Guide pg. 28](source:Second_Darkness_Player's_Guide)   ",
-				"**Aura** faint abjuration; **CL** 5th   ",
-				"**Price** 500 gp; **Weight** 3 lbs.",
-				"",
-				"This spongy, mottled brown vest is several inches thick and composed of woven strips of preserved fungus. The vest feels soft to the touch and springs back into shape no matter how badly compressed. Its magic keeps the vest fresh and whole despite constant wear and abuse.",
-				"",
-				"A mushroom vest protects you from impact trauma. When wearing the vest, you treat any fall as if it were 20 feet less when calculating damage.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, feather fall; **Cost** 250 gp, 20 XP"
-			]
-		},
-		{
 			"name": "Nest Revealer",
 			"file": "magicwondrousdisplayf0e7.html",
 			"sources": [ "Monster Hunter's Handbook" ],
@@ -23339,27 +22625,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Wondrous Item, guidance, creator must have at least 5 ranks in Knowledge (religion); **Cost** 250 gp"
-			]
-		},
-		{
-			"name": "Sandsculpt Resin",
-			"file": "magicwondrousdisplay8a18.html",
-			"sources": [ "Legacy of Fire Player's Guide" ],
-			"cost": 500,
-			"slot": "none",
-			"weight": 1,
-			"description": [
-				"## Sandsculpt Resin",
-				"",
-				"**Source** [Legacy of Fire Player's Guide pg. 27](source:Legacy_of_Fire_Player's_Guide)   ",
-				"**Aura** faint transmutation; **CL** 5th   ",
-				"**Slot** none; **Price** 500 gp; **Weight** 1 lb. per sheet",
-				"",
-				"This sticky, amber-colored resin comes sandwiched between two sheets of vellum. When you coat your hands with the resin, you gain the ability to sculpt sand as per the stone shape spell, but you cannot create items with moving parts and must sculpt the shape by hand. One use of resin allows you to shape up to 15 cubic feet of sand, requiring 1 minute per cubic foot sculpted. Sand shapes that cannot support themselves naturally (such as arches or overhangs) collapse after 1 hour, but stable shapes like thick walls or mounds persist indefinitely, barring vandalism or erosion. Once applied to your hands, the resin's power lasts until you have sculpted 15 cubic feet of sand or 1 hour has passed.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, stone shape; **Cost** 250 gp, 20 XP"
 			]
 		},
 		{
@@ -23935,29 +23200,6 @@
 			]
 		},
 		{
-			"name": "Necrobinding Serum",
-			"file": "magicwondrousdisplayb389.html",
-			"sources": [ "Hungry are the Dead" ],
-			"cost": 700,
-			"slot": "none",
-			"weight": 0,
-			"description": [
-				"## Necrobinding Serum",
-				"",
-				"**Source** [Hungry are the Dead pg. 18](source:Hungry_are_the_Dead)   ",
-				"**Aura** faint necromancy; **CL** 7th   ",
-				"**Slot** none; **Price** 700 gp; **Weight** -;",
-				"",
-				"This potent alchemical serum is distilled from the body of an intelligent corporeal undead who seeks to establish absolute control over his undead minions. In a wicked ritual, the creator sloughs his own flesh into specially prepared receptacles filled with mystic herbs, where it dissolves and ferments in fluids siphoned from his body.",
-				"",
-				"When completed, the creator can then inject the fluids into an undead creature, allowing him to control it for 7 days if under the effect of a command undead spell.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, command undead, creator must be undead; **Cost** 350 gp, 28 XP"
-			]
-		},
-		{
 			"name": "Poison Popcushion",
 			"file": "magicwondrousdisplayfac4.html",
 			"sources": [ "Magical Marketplace" ],
@@ -24204,27 +23446,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Wondrous Item, charm monster; **Cost** 375 gp"
-			]
-		},
-		{
-			"name": "Dyso's Travel Canopy",
-			"file": "magicwondrousdisplayc36f.html",
-			"sources": [ "Legacy of Fire Player's Guide" ],
-			"cost": 750,
-			"slot": "none",
-			"weight": 3,
-			"description": [
-				"## Dyso's Travel Canopy",
-				"",
-				"**Source** [Legacy of Fire Player's Guide pg. 26](source:Legacy_of_Fire_Player's_Guide)   ",
-				"**Aura** faint evocation; **CL** 7th   ",
-				"**Slot** none; **Price** 750 gp; **Weight** 3 lbs.",
-				"",
-				"This 5-foot-square cloth canopy is brightly colored with gold fringe around the edges, something a slightly foppish sultan might use while resting on the seashore. When you speak the command word, the canopy unfolds and floats 3 feet above your head, positioning itself to keep you shaded. The travel canopy cannot hold any weight. It reverts to its 1-foot-square folded form at your command, or automatically when it is out of the sun for more than 1 minute.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, floating disk; **Cost** 375 gp, 30 XP"
 			]
 		},
 		{
@@ -24694,31 +23915,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Wondrous Item, plant growth, summon nature's ally III; **Cost** 1,250 gp (fungus lechy), 750 gp (gourd leshy), 500 gp (leaf leshy), 2,250 gp (seaweed leshy)"
-			]
-		},
-		{
-			"name": "Portable Stalactite",
-			"file": "magicwondrousdisplay10ca.html",
-			"sources": [ "Second Darkness Player's Guide" ],
-			"cost": 800,
-			"slot": "none",
-			"weight": 1,
-			"description": [
-				"## Portable Stalactite",
-				"",
-				"**Source** [Second Darkness Player's Guide pg. 28](source:Second_Darkness_Player's_Guide)   ",
-				"**Aura** faint transmutation; **CL** 3rd   ",
-				"**Price** 800 gp; **Weight** 1 lb.",
-				"",
-				"This miniature stone stalactite measures 4 to 5 inches long. As a standard action, you can toss a portable stalactite up to any solid surface no more than 20 feet above, whereupon the portable stalactite automatically affixes to the ceiling. If no suitable ceiling exists, the portable stalactite falls at your feet.",
-				"",
-				"Once affixed, the portable stalactite remains in place until you call it back to your hand (a standard action) or until a living creature (except you) walks under it, at which point it drops from the ceiling and makes a +10 attack roll aainst the target. If it hits, it deals 1d6+1 points of damage.",
-				"",
-				"You can affix as many portable stalactites as you like to an area's ceiling, but you must leave at least 5 feet of space between each. A portable stalactite can be detected and disarmed as if it were a trap-it's a DC 20 Search check to discover, and a DC 15 Disarm Device check to safely detach one.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, magic stone; **Cost** 400 gp, 32 XP"
 			]
 		},
 		{
@@ -25949,29 +25145,6 @@
 			]
 		},
 		{
-			"name": "The Storied Orb",
-			"file": "magicwondrousdisplay0dd7.html",
-			"sources": [ "Flight of the Red Raven" ],
-			"cost": 1000,
-			"slot": "none",
-			"weight": 0,
-			"description": [
-				"## The Storied Orb",
-				"",
-				"**Source** [Flight of the Red Raven pg. 18](source:Flight_of_the_Red_Raven)   ",
-				"**Aura** faint divination; **CL** 1st   ",
-				"**Slot** none; **Price** 1,000 gp; **Weight** -;",
-				"",
-				"From this cup poured the poison that killed the Caliph of the Djinn. According to a djinn fable, the Caliph berated the cup for failing to warn him of the treachery, and so abashed was the vessel that it swore from that time on to warn if it was ever again filled with poison.",
-				"",
-				"The storied cup is a golden chalice decorated with scenes of the djinn court. If a poisonous liquid is poured into the cup the images change from those of friendly discourse to impressions of angry fighting. A character unaware of this property must make a DC 20 Spot check to notice the sudden change.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, detect poison; **Cost** 500 gp, 40 XP"
-			]
-		},
-		{
 			"name": "Tidy Trunk",
 			"file": "magicwondrousdisplayf14a.html",
 			"sources": [ "Lost Treasures" ],
@@ -26324,29 +25497,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Wondrous Item, neutralize poison, remove disease; **Cost** 600 gp"
-			]
-		},
-		{
-			"name": "Caver's Hammock",
-			"file": "magicwondrousdisplay79c0.html",
-			"sources": [ "Second Darkness Player's Guide" ],
-			"cost": 1200,
-			"slot": "none",
-			"weight": 1,
-			"description": [
-				"## Caver's Hammock",
-				"",
-				"**Source** [Second Darkness Player's Guide pg. 28](source:Second_Darkness_Player's_Guide)   ",
-				"**Aura** faint illusion and transmutation; **CL** 5th   ",
-				"**Price** 1,200 gp; **Weight** 1 lb.",
-				"",
-				"This soft, billowy hammock weighs next to nothing and folds up small enough to fit into a pocket. Its magic renders the hammock both lightweight and incredibly strong, able to support up to 500 pounds. With a command word, the hammock affixes to any relatively flat, overhead surface or any two sturdy surfaces up to 10 feet apart. The hammock refuses to adhere to surfaces not strong enough to support the hammock at full capacity.",
-				"",
-				"Once affixed, a caver's hammock takes on a dark gray, pebbly appearance like that of a typical cavern wall. Anyone attempting to spot the hammock in an underground or naturally rocky setting must make a DC 30 Spot check. Creatures with darkvision gain no special bonus to notice a caver's hammock, but creatures with blindsense or scent have no additional difficulty in noticing an occupant of a caver's hammock.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, silent image, spider climb; **Cost** 600 gp, 48 XP"
 			]
 		},
 		{
@@ -27074,33 +26224,6 @@
 			]
 		},
 		{
-			"name": "Flask of Ebon Flame",
-			"file": "magicwondrousdisplaydfd9.html",
-			"sources": [ "Pathfinder #22: The End of Eternity" ],
-			"cost": 1500,
-			"slot": "none",
-			"weight": 1,
-			"description": [
-				"## Flask of Ebon Flame",
-				"",
-				"**Source** [Pathfinder #22: The End of Eternity pg. 38](source:Pathfinder_#22:_The_End_of_Eternity)   ",
-				"**Aura** faint transmutation; **CL** 5th   ",
-				"**Price** 1,500 gp; **Weight** 1 lb.",
-				"",
-				"This small flask smokes with an odorless black mist when opened. Each flask contains a single use of ebon flame, a strange sort of fire that is hostile to normal fire. Cool to the touch even in hot environs, when poured out, a flask creates a 20-footradius burst of black fire centered on the user. This burst of ebon flame extinguishes all natural fires and dispels magical fire (dispel check 1d20+5) in the area, including magic items that have fire effects (such as a flametongue sword or a necklace of fireballs), although items dispelled merely cease to function for 1d4 rounds.",
-				"",
-				"The ebon flame can cure damage caused by fire- each creature in the burst is healed 5d6 points of damage caused by fire effects.",
-				"",
-				"A creature with the fire subtype inside the area of the burst takes 5d6 points of damage and is stunned for 1 round-a successful DC 15 Fortitude save halves the damage and negates the stun effect.",
-				"",
-				"Ebon flame is unstable, and when combined in doses larger than a single use, or when not stored in a specially prepared flask, it dissipates harmlessly in a cloud of faint black smoke. Overlapping areas of ebon flame do not stack their effects.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, false life or cure moderate wounds, resist energy or quench; **Cost** 750 gp, 60 XP"
-			]
-		},
-		{
 			"name": "Incense of Dulled Senses",
 			"file": "magicwondrousdisplay15b0.html",
 			"sources": [ "Dragonslayer's Handbook" ],
@@ -27238,27 +26361,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Wondrous Item, identify, levitate, magic mouth; **Cost** 750 gp"
-			]
-		},
-		{
-			"name": "Philanderous Compact",
-			"file": "magicwondrousdisplayc352.html",
-			"sources": [ "Taldor, Echoes of Glory" ],
-			"cost": 1500,
-			"slot": "none",
-			"weight": 0,
-			"description": [
-				"## Philanderous Compact",
-				"",
-				"**Source** [Taldor, Echoes of Glory pg. 27](source:Taldor,_Echoes_of_Glory)   ",
-				"**Aura** faint illusion; **CL** 1st   ",
-				"**Slot** none; **Price** 1,500 gp; **Weight** -;",
-				"",
-				"This small, polished leather case opens to reveal a mirror, face powder, rouge, and a puff. Using the puff and uttering a command word allows you to change your appearance once per day as per disguise self. Additionally, you get a +2 competence bonus to Gather Information checks.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, disguise self, creator must have at least 5 ranks in Gather Information; **Cost** 750 gp, 60 XP"
 			]
 		},
 		{
@@ -29132,29 +28234,6 @@
 			]
 		},
 		{
-			"name": "Faith Orb",
-			"file": "magicwondrousdisplayb7c4.html",
-			"sources": [ "The Demon Within" ],
-			"cost": 2250,
-			"slot": "none",
-			"weight": 0,
-			"description": [
-				"## Faith Orb",
-				"",
-				"**Source** [The Demon Within pg. 30](source:The_Demon_Within)   ",
-				"**Aura** moderate evocation; **CL** 9th   ",
-				"**Slot** none; **Price** 2,250 gp; **Weight** -;",
-				"",
-				"This brass orb is a bit larger than a human fist. It is covered with symbols of goodness and law and thick studs. If used as an improvised weapon, it deals 1d6 points of bludgeoning damage and serves as a good weapon for the purpose of overcoming damage reduction.",
-				"",
-				"The faith orb is activated when a special stud is depressed (usually marked by a different metal). activating the orb is a standard action, but the orb may be thrown as a ranged touch attack (10-foot range increment) with the same action that is used to activate it. at the end of the action or when it hits its target (use the chart on PHB 158 to see where it goes if you miss), it triggers a flame strike centered on the orb. Creatures caught in the blast area suffer 9d6 damage as the spell, or half with a Dc 17 Reflex save. The faith orb is consumed in the process.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, flame strike; **Cost** 1,125 gp, 45 XP"
-			]
-		},
-		{
 			"name": "Flying Ointment",
 			"file": "magicwondrousdisplay5b3c.html",
 			"sources": [
@@ -29332,27 +28411,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Wondrous Item, divine favor, creator must have 5 ranks in Appraise; **Cost** 1,125 gp"
-			]
-		},
-		{
-			"name": "Tallowheart Mass",
-			"file": "magicwondrousdisplay9d59.html",
-			"sources": [ "Hungry are the Dead" ],
-			"cost": 2250,
-			"slot": "none",
-			"weight": 1,
-			"description": [
-				"## Tallowheart Mass",
-				"",
-				"**Source** [Hungry are the Dead pg. 23](source:Hungry_are_the_Dead)   ",
-				"**Aura** faint abjuration, conjuration, and transmutation; **CL** 5th   ",
-				"**Slot** none; **Price** 2,250 gp; **Weight** 1 lb.",
-				"",
-				"This disgusting mass of hardened beef tallow is always found divided into three parts, each with a different function. If you rub the first piece on a weapon it acts as a potion of haste. If you eat the second piece it acts as a potion of cure serious wounds. If you eat the third piece it acts as a potion of protection from fire, absorbing 60 points of damage before losing its effectiveness, but any round you take fire damage causes you to cough sticky black smoke like a pan of grease on fire (harmless to you or others but disturbing to see or experience). You can separate the three pieces of the mass without harming its properties. Each piece can only be used once.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, cure serious wounds, haste, protection from energy; **Cost** 1,125 gp, 90 XP"
 			]
 		},
 		{
@@ -30708,7 +29766,7 @@
 				"",
 				"Crystal ([Construct Handbook pg. 17](source:Construct_Handbook)): The book contains [geas/quest](unknown:geas/quest), [limited wish](unknown:limited_wish), [possession](unknown:possession), and [thoughtsense](unknown:thoughtsense). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a [crystal golem](unknown:crystal_golem).; **Aura** strong divination, enchantment, and necromancy; **CL** 15th; [Craft Construct](unknown:Craft_Construct), [geas/quest](unknown:geas/quest), [limited wish](unknown:limited_wish), [possession](unknown:possession), [thoughtsense](unknown:thoughtsense), creator must be caster level 15th.",
 				"",
-				"Dragonhide ([Construct Handbook pg. 17](source:Construct_Handbook)): The book contains [create greater undead](unknown:create_greater_undead), [form of the dragon I](unknown:form_of_the_dragon_I), [geas/quest](unknown:geas/quest), and [limited wish](unknown:limited_wish). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a [dragonhide golem](unknown:dragonhide_golem).; **Aura** strong enchantment, necromancy, and transmutation; **CL** 16th; [Craft Construct](unknown:Craft_Construct), [create greater undead](unknown:create_greater_undead), [form of the dragon I](unknown:form_of_the_dragon_I), [geas/quest](unknown:geas/quest), [limited wish](unknown:limited_wish), creator must be caster level 16th.",
+				"Dragonhide ([Construct Handbook pg. 17](source:Construct_Handbook)): The book contains [create greater undead](unknown:create_greater_undead), [form of the dragon I](unknown:form_of_the_dragon_1), [geas/quest](unknown:geas/quest), and [limited wish](unknown:limited_wish). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a [dragonhide golem](unknown:dragonhide_golem).; **Aura** strong enchantment, necromancy, and transmutation; **CL** 16th; [Craft Construct](unknown:Craft_Construct), [create greater undead](unknown:create_greater_undead), [form of the dragon I](unknown:form_of_the_dragon_1), [geas/quest](unknown:geas/quest), [limited wish](unknown:limited_wish), creator must be caster level 16th.",
 				"",
 				"Flesh ([Ultimate Equipment pg. 300](source:Ultimate_Equipment), [PRPG Core Rulebook pg. 1](source:PRPG_Core_Rulebook)): The book contains animate dead, bull's strength, geas/quest, and limited wish. The reader may treat her caster level as one level higher than normal for the purpose of crafting a flesh golem.; **Aura** moderate enchantment, necromancy [evil], and transmutation; **CL** 8th; Craft Construct, animate objects, bull's strength, geas/quest, limited wish, creator must be caster level 8th.",
 				"",
@@ -31525,30 +30583,6 @@
 			]
 		},
 		{
-			"name": "Elixir of Shadewalking",
-			"file": "magicwondrousdisplay0212.html",
-			"sources": [
-				"Pathfinder Campaign Setting",
-				"Pathfinder #10: A History of Ashes"
-			],
-			"cost": 3500,
-			"slot": "none",
-			"weight": 1,
-			"description": [
-				"## Elixir of Shadewalking",
-				"",
-				"**Source** [Pathfinder Campaign Setting pg. 197](source:Pathfinder_Campaign_Setting), [Pathfinder #10: A History of Ashes pg. 19](source:Pathfinder_#10:_A_History_of_Ashes)   ",
-				"**Aura** moderate illusion; **CL** 11th   ",
-				"**Price** 3,500 gp; **Weight** 1 lb.",
-				"",
-				"Typically kept in a small bone flask, a draught of this potent elixir is enough to catapult the drinker and up to 11 additional creatures the drinker is in contact with at the time of imbibing into the Shadow Plane. Once there, the affected creatures are under the effects of a shadow walk spell and may travel at an effective speed of 50 mph over land for up to 11 hours.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, shadow walk; **Cost** 1,750 gp, 140 XP"
-			]
-		},
-		{
 			"name": "Icon of the Midwife",
 			"file": "magicwondrousdisplay94d8.html",
 			"sources": [
@@ -31641,29 +30675,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Wondrous Item, geas/quest; **Cost** 1,750 gp"
-			]
-		},
-		{
-			"name": "Trackless Boots",
-			"file": "magicwondrousdisplay563c.html",
-			"sources": [ "Second Darkness Player's Guide" ],
-			"cost": 3500,
-			"slot": "none",
-			"weight": 2,
-			"description": [
-				"## Trackless Boots",
-				"",
-				"**Source** [Second Darkness Player's Guide pg. 29](source:Second_Darkness_Player's_Guide)   ",
-				"**Aura** faint transmutation; **CL** 9th   ",
-				"**Price** 3,500 gp; **Weight** 2 lbs.",
-				"",
-				"Leaving marks of your passage can alert predators that a newcomer has entered their territory. Trackless boots help prevent you from making too much noise as you creep along, and they also mask traces of your passage through underground caverns to prevent your enemies from finding you. These boots are particularly valued by smugglers who work in patrolled areas.",
-				"",
-				"Trackless boots are soft, well-worn leather boots with thin soles. The softness of the boots' soles add a +4 competence bonus on Move Silently checks. In addition, the boots conceal your passage much like the pass without trace spell-you leave no trail underground and cannot be tracked.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, pass without trace; **Cost** 1,750 gp, 140 XP"
 			]
 		},
 		{
@@ -31838,29 +30849,6 @@
 			"cost": 3600,
 			"slot": "none",
 			"copyof": "Leshy Mulch Manual (Leaf Leshy)"
-		},
-		{
-			"name": "Talisman of the Summoned Steed",
-			"file": "magicwondrousdisplay2c95.html",
-			"sources": [ "Taldor, Echoes of Glory" ],
-			"cost": 3600,
-			"slot": "none",
-			"weight": 0,
-			"description": [
-				"## Talisman of the Summoned Steed",
-				"",
-				"**Source** [Taldor, Echoes of Glory pg. 27](source:Taldor,_Echoes_of_Glory)   ",
-				"**Aura** faint conjuration; **CL** 1st   ",
-				"**Slot** none; **Price** 3,600 gp; **Weight** -;",
-				"",
-				"This onyx talisman resembles a majestic black stallion covered in carved wavy lines and bearing a tiny twine bridle. When the command word is spoken, it transforms into a saddled and thoroughbred light horse that serves you willingly. The command word also returns it to talisman form. If slain, the horse reverts to talisman form and cannot be activated again for 24 hours.",
-				"",
-				"Each talisman's horse form has a specific color (black, brown, gray, pinto, and so on) and markings (blazes, stars, stockings, etc.), chosen by the creator when the item is crafted.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, mount, creator must have at least 5 ranks in Ride; **Cost** 1,800 gp, 144 XP"
-			]
 		},
 		{
 			"name": "Chalice of Communal Dweomer",
@@ -32039,7 +31027,7 @@
 				"",
 				"### Construction",
 				"",
-				"**Requirements** Craft Wondrous Item, animate objects, additional spells, see text; **Cost** 1,900 gp (Silver Raven), 3,000 gp (Coral Hippocampus), 3,500 gp (Emerald Frog), 3,750 gp, 300 XP (Lapis Camel), 3,800 gp (Pearl Dolphin), 4,500 gp (Ruby Butterfly), 4,550 gp (Black Jade Raven), 4,550 gp (Serpentine Eagle), 4,550 gp (Serpentine Owl), 5,000 gp (Bronze Griffon), 5,000 gp (Ebony Fly), 5,000 gp (Hematite Courgar), 5,000 gp (Slate Spider), 6,500 gp (Tin Imp), 7,000 gp (Glass Walrus), 7,500 gp (Obsidian Raven), 7,750 gp (Onyx Dog), 8,250 gp (Golden Lions), 8,500 gp (Marble Elephant), 10,500 gp (Ivory Goats), 14,250 gp (Obsidian Steed), 30,000 gp (Basalt Dragon)"
+				"**Requirements** Craft Wondrous Item, animate objects, additional spells, see text; **Cost** 1,900 gp (Silver Raven), 3,000 gp (Coral Hippocampus), 3,500 gp (Emerald Frog), 3,750 gp (Lapis Camel), 3,800 gp (Pearl Dolphin), 4,500 gp (Ruby Butterfly), 4,550 gp (Black Jade Raven), 4,550 gp (Serpentine Eagle), 4,550 gp (Serpentine Owl), 5,000 gp (Bronze Griffon), 5,000 gp (Ebony Fly), 5,000 gp (Hematite Courgar), 5,000 gp (Slate Spider), 6,500 gp (Tin Imp), 7,000 gp (Glass Walrus), 7,500 gp (Obsidian Raven), 7,750 gp (Onyx Dog), 8,250 gp (Golden Lions), 8,500 gp (Marble Elephant), 10,500 gp (Ivory Goats), 14,250 gp (Obsidian Steed), 30,000 gp (Basalt Dragon)"
 			]
 		},
 		{
@@ -33881,27 +32869,6 @@
 			]
 		},
 		{
-			"name": "Soaring Cathedra",
-			"file": "magicwondrousdisplaya76a.html",
-			"sources": [ "Taldor, Echoes of Glory" ],
-			"cost": 5000,
-			"slot": "none",
-			"weight": 250,
-			"description": [
-				"## Soaring Cathedra",
-				"",
-				"**Source** [Taldor, Echoes of Glory pg. 27](source:Taldor,_Echoes_of_Glory)   ",
-				"**Aura** faint transmutation; **CL** 3rd   ",
-				"**Slot** none; **Price** 5,000 gp; **Weight** 250 lbs.",
-				"",
-				"This large sedan chair is made of light but sturdy blackwood and is draped with white silk coverings. Inside, there is room for two medium-sized occupants on a bed of silken pillows and thick padding. Its movement is controlled by one of the occupants. It always floats a few feet above the ground and moves horizontally with a speed of 10 feet, though the occupants can make it land or float again as a free action.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, levitate, creator must have at least 5 ranks in Craft (woodworking); **Cost** 2,500 gp, 200 XP"
-			]
-		},
-		{
 			"name": "Soul Jar",
 			"file": "magicwondrousdisplaya966.html",
 			"sources": [
@@ -34767,27 +33734,6 @@
 			"cost": 6000,
 			"slot": "none",
 			"copyof": "Figurine of Wondrous Power (Silver Raven)"
-		},
-		{
-			"name": "Eye of Scrying",
-			"file": "magicwondrousdisplay21ec.html",
-			"sources": [ "Hungry are the Dead" ],
-			"cost": 6000,
-			"slot": "none",
-			"weight": 7,
-			"description": [
-				"## Eye of Scrying",
-				"",
-				"**Source** [Hungry are the Dead pg. 27](source:Hungry_are_the_Dead)   ",
-				"**Aura** moderate divination (scrying); **CL** 7th   ",
-				"**Slot** none; **Price** 6,000 gp; **Weight** 7 lbs.",
-				"",
-				"This bloodshot eye is larger than a grown man's fist. Its vivid green iris suggests strange depths, and is unnerving to look at for too long. Once per day you may use it to cast clairaudiance/clairvoyance. If you can cast scrying, you may use the eye as your focus object for the spell.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, clairaudience/clairvoyance; **Cost** 3,000 gp, 240 XP"
-			]
 		},
 		{
 			"name": "Fan of Autumn",
@@ -36130,27 +35076,6 @@
 			]
 		},
 		{
-			"name": "Horn of the Golden Draught",
-			"file": "magicwondrousdisplay5609.html",
-			"sources": [ "Pathfinder #22: The End of Eternity" ],
-			"cost": 7000,
-			"slot": "none",
-			"weight": 5,
-			"description": [
-				"## Horn of the Golden Draught",
-				"",
-				"**Source** [Pathfinder #22: The End of Eternity pg. 19](source:Pathfinder_#22:_The_End_of_Eternity)   ",
-				"**Aura** moderate transmutation; **CL** 10th   ",
-				"**Price** 7,000 gp; **Weight** 5 lbs.",
-				"",
-				"As a standard action, this gold-plated drinking horn can produce a golden draught. A creature that imbibes or is anointed with this liquid is freed from enchantments, transmutations, and curses as if subjected to a break enchantment spell. If the user suffers from no such conditions, her skin instead takes on a golden hue and becomes almost impervious to blows, as per stoneskin. A horn of the golden draught can produce up to five draughts of each version of the draught before it turns to brass and becomes nonmagical.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, break enchantment, stoneskin; **Cost** 3,500 gp, 280 XP"
-			]
-		},
-		{
 			"name": "Instant Bridge",
 			"file": "magicwondrousdisplay69a9.html",
 			"sources": [ "Ultimate Equipment" ],
@@ -36675,29 +35600,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Wondrous Item, dimension door; **Cost** 3,800 gp"
-			]
-		},
-		{
-			"name": "Creeping Glyph",
-			"file": "magicwondrousdisplay0b39-2.html",
-			"sources": [ "Entombed with the Pharaohs" ],
-			"cost": 7750,
-			"slot": "none",
-			"weight": 0,
-			"description": [
-				"## Creeping Glyph",
-				"",
-				"**Source** [Entombed with the Pharaohs pg. 25](source:Entombed_with_the_Pharaohs)   ",
-				"**Aura** moderate abjuration and evocation; **CL** 11th   ",
-				"**Slot** none; **Price** 7,750 gp; **Weight** -;",
-				"",
-				"This glyph is a coruscating pattern of ancient arcane symbols stretching across a flat surface in a tight 5-foot-radius circle. It is also a mobile trap with a speed of 20 feet that responds to your commands. After it rests in place for a full round, it blends with the floor and becomes a creeping glyph trap.",
-				"",
-				"Creeping Glyph Trap-CR 2 Type magic device; Search DC 28; Disable Device DC 28 Trigger touch; Reset automatic after 3 rounds Effect An explosion in a single 5-foot square that deals 4d4 points of nonlethal damage.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, animate objects, glyph of warding; **Cost** 3,875 gp, 310 XP"
 			]
 		},
 		{
@@ -37510,27 +36412,6 @@
 			"copyof": "Bag of Tricks (Gray)"
 		},
 		{
-			"name": "Tomb Guard",
-			"file": "magicwondrousdisplayc14d.html",
-			"sources": [ "Entombed with the Pharaohs" ],
-			"cost": 8500,
-			"slot": "none",
-			"weight": 0,
-			"description": [
-				"## Tomb Guard",
-				"",
-				"**Source** [Entombed with the Pharaohs pg. 26](source:Entombed_with_the_Pharaohs)   ",
-				"**Aura** moderate transmutation; **CL** 9th   ",
-				"**Slot** none; **Price** 8,500 gp; **Weight** -;",
-				"",
-				"Once affixed, this ancient ankh bonds seamlessly to the hilt or handle of any magic melee weapon. The ankh's power remains dormant until you fall in battle-unconscious, dead, or dying. At that point, the ankh animates the weapon, enabling it to strike out against all foes, tenaciously guarding your fallen body. Treat this effect as a dancing weapon, except that the weapon is allowed to make up to three attacks of opportunity each round. The ankh tirelessly defends you for up to 1 hour or until you regain consciousness. The ankh can only be activated once per day.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, animate objects; **Cost** 4,225 gp, 340 XP"
-			]
-		},
-		{
 			"name": "Scabbard of the Lost Kiss",
 			"file": "magicwondrousdisplaya5b1.html",
 			"sources": [ "Inner Sea Temples" ],
@@ -38062,48 +36943,6 @@
 			"copyof": "Figurine of Wondrous Power (Silver Raven)"
 		},
 		{
-			"name": "Mudstone Minion",
-			"file": "magicwondrousdisplay9628.html",
-			"sources": [ "The Pact Stone Pyramid" ],
-			"cost": 9250,
-			"slot": "none",
-			"weight": 1,
-			"description": [
-				"## Mudstone Minion",
-				"",
-				"**Source** [The Pact Stone Pyramid pg. 29](source:The_Pact_Stone_Pyramid)   ",
-				"**Aura** moderate conjuration; **CL** 9th   ",
-				"**Slot** none; **Price** 9,250 gp; **Weight** 1 lb.",
-				"",
-				"When you take a full-round action to mold this perpetually moist lump of clay into an animal, it flashes to life and grows to full size, attacking your enemies or following your commands if you have the means to communicate with animals. After 9 rounds the animal reverts to nonmagical clay. You may use the clay to create any sort of creature that summon nature's ally I, II, III, IV, or V can summon. There is enough clay to create up to five spell levels of creatures. For example, you could expend 3 spell levels of clay to create a lion (from the summon nature's ally III list) and still have 2 spell levels left over. Each use of the clay produces only one creature.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, summon nature's ally V; **Cost** 2,250 gp, 90 XP"
-			]
-		},
-		{
-			"name": "Jade Mantis",
-			"file": "magicwondrousdisplayde6f.html",
-			"sources": [ "Entombed with the Pharaohs" ],
-			"cost": 9450,
-			"slot": "none",
-			"weight": 0,
-			"description": [
-				"## Jade Mantis",
-				"",
-				"**Source** [Entombed with the Pharaohs pg. 26](source:Entombed_with_the_Pharaohs)   ",
-				"**Aura** moderate transmutation; **CL** 11th   ",
-				"**Slot** none; **Price** 9,450 gp; **Weight** -;",
-				"",
-				"A tiny emerald statuette, the jade mantis is part of the broader collection of figurines of wondrous power (often referred to across Golarion as jeweled life). When activated, the statuette transforms into a giant praying mantis (MM 285) under your command. You may call upon it three times per week for up to 1 hour per use.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, animate objects; **Cost** 4,725 gp, 378 XP"
-			]
-		},
-		{
 			"name": "Strand of Prayer Beads (Lesser)",
 			"searchable_name": "Lesser Strand of Prayer Beads",
 			"file": "magicwondrousdisplayfc41.html",
@@ -38161,27 +37000,6 @@
 				"### Construction",
 				"",
 				"**Requirements** [Craft Wondrous Item](unknown:Craft_Wondrous_Item), [animate objects](unknown:animate_objects), [fly](unknown:fly), [make whole](unknown:make_whole); **Cost** 4,900 gp"
-			]
-		},
-		{
-			"name": "Sorcerous Pigments",
-			"file": "magicwondrousdisplayeb65.html",
-			"sources": [ "Gallery of Evil" ],
-			"cost": 9900,
-			"slot": "none",
-			"weight": 0,
-			"description": [
-				"## Sorcerous Pigments",
-				"",
-				"**Source** [Gallery of Evil pg. 32](source:Gallery_of_Evil)   ",
-				"**Aura** strong evocation; **CL** 12th   ",
-				"**Price** 9,900 gp; **Weight** -;",
-				"",
-				"This set of magical paints comes in a set of three small clay pots, each containing a different color - blue, yellow, and red. You may use the sorcerous pigments to store spells in a painting and set a specific condition that triggers the spells. You must succeed at a Craft (painting) check (DC 10 + spell level) in order to successfully store each spell. On a failed check, the spell and the sorcerous pigments that would have been used are wasted. A set of sorcerous pigments can be used to \"paint\" up to 12 levels of spells.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, contingency; **Cost** 36,000 gp, 1,440 XP"
 			]
 		},
 		{
@@ -38461,27 +37279,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Wondrous Item, animate objects, flesh to stone; **Cost** 5,000 gp (Courser), 7,400 gp (Destrier)"
-			]
-		},
-		{
-			"name": "Cresset of Grisly Interrogation",
-			"file": "magicwondrousdisplay4a5c.html",
-			"sources": [ "Hungry are the Dead" ],
-			"cost": 10000,
-			"slot": "none",
-			"weight": 1,
-			"description": [
-				"## Cresset of Grisly Interrogation",
-				"",
-				"**Source** [Hungry are the Dead pg. 15](source:Hungry_are_the_Dead)   ",
-				"**Aura** moderate necromancy; **CL** 5th   ",
-				"**Slot** none; **Price** 10,000 gp; **Weight** 1 lb.",
-				"",
-				"This small iron cage is engraved with dozens of ancient funerary runes. On opposing sides of the cage frame, two large bolts can be adjusted to hold a humanoid head in a stationary position within. When a head is placed inside and the command word is spoken, you can sequester information from it as if it were under the effect of a speak with dead spell. The cage can coerce three answers per day, which do not need to be from the same head or asked in a limited period of time (for example, you could ask a kobold's head a question in the morning, an orc's head a question in the afternoon, and an ogre's head a question in the evening).",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, speak with dead; **Cost** 5,000 gp, 400 XP"
 			]
 		},
 		{
@@ -40236,27 +39033,6 @@
 			]
 		},
 		{
-			"name": "Seed of Fire",
-			"file": "magicwondrousdisplayf8e0.html",
-			"sources": [ "Conquest of Bloodsworn Vale" ],
-			"cost": 14400,
-			"slot": "none",
-			"weight": 0,
-			"description": [
-				"## Seed of Fire",
-				"",
-				"**Source** [Conquest of Bloodsworn Vale pg. 21](source:Conquest_of_Bloodsworn_Vale)   ",
-				"**Aura** strong evocation; **CL** 18th   ",
-				"**Price** 14,400 gp; **Weight** -;",
-				"",
-				"Created by the Empire of Cheliax as a weapon capable of scouring the battlefield in cleansing flame, this magic item consists of a pair of red gemstones. When the command word and a period of time is spoken into one of the gems, the other becomes permanently stationary and begins to glow with flame. When the period of time expires, the gemstone explodes, raining fire on a 60-foot square area directly below it. This fire deals 18d6 points of fire damage to all creatures and structures in the area. A DC 22 Reflex save halves this damage. Once activated, the seed can only be deactivated by destroying its partner gem (which destroys the item) or by speaking a special command word into the partner gem, which allows the seed of fire to be reused.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, firestorm; **Cost** 7,200 gp, 576 XP"
-			]
-		},
-		{
 			"name": "Portable Pit (Persistent pit)",
 			"searchable_name": "Portable Pit Persistent pit",
 			"file": "magicwondrousdisplay3c3e.html",
@@ -41018,27 +39794,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Wondrous Item, bestow curse, and a piece of the body of the humanoid to be affected; **Cost** 8,000 gp"
-			]
-		},
-		{
-			"name": "Hand of the Theurge",
-			"file": "magicwondrousdisplayd245.html",
-			"sources": [ "Guardians of Dragonfall" ],
-			"cost": 16000,
-			"slot": "none",
-			"weight": 0,
-			"description": [
-				"## Hand of the Theurge",
-				"",
-				"**Source** [Guardians of Dragonfall pg. 29](source:Guardians_of_Dragonfall)   ",
-				"**Aura** strong transmutation; **CL** 15th   ",
-				"**Slot** none; **Price** 16,000 gp; **Weight** -;",
-				"",
-				"This large crystal, sized and shaped like a loosely clenched human fist, perfectly accepts any wand. As a standard action, the hand can be loosed to activate a wand on its own at any target within range. Any such activation costs 3 charges from the wand. The hand can activate the wand for up to 4 rounds and then drops. It is considered attended by you for all effects that target items, and it exists within your space. The hand of the theurge accompanies you everywhere, whether you move by physical or magical means. If you have an unoccupied hand, you can grasp it while it is activating on its own as a free action; when so retrieved, the hand can't animate again for 4 rounds.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, animate objects; **Cost** 8,000 gp, 640 XP"
 			]
 		},
 		{
@@ -44556,29 +43311,6 @@
 			]
 		},
 		{
-			"name": "Portrait of Health",
-			"file": "magicwondrousdisplayf675.html",
-			"sources": [ "Gallery of Evil" ],
-			"cost": 35650,
-			"slot": "none",
-			"weight": 0,
-			"description": [
-				"## Portrait of Health",
-				"",
-				"**Source** [Gallery of Evil pg. 32](source:Gallery_of_Evil)   ",
-				"**Aura** moderate conjuration (healing); **CL** 11th   ",
-				"**Price** 35,650 gp; **Weight** -;",
-				"",
-				"This beautiful watercolor painting depicts a clear mountain stream flanked by moss-covered stones and dew-drenched ferns. Mountains rise up in the background, casting rippled shadows across the water's surface. The silver frame is etched with symbols of healing.",
-				"",
-				"By touching the painting while uttering one of three seperate command words, you may cast the following spells: 3/day - maximized cure light wounds (13 points); 1/day - maximized cure moderate wounds (26 points); 1/week - heal.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, Maximize Spell, cure light wounds, cure moderate wounds, heal; **Cost** 17,825 gp, 1,426 XP"
-			]
-		},
-		{
 			"name": "Page of Spell Knowledge (6th)",
 			"searchable_name": "Page of Spell Knowledge 6th",
 			"file": "magicwondrousdisplay42b3.html",
@@ -44864,27 +43596,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Wondrous Item, discern lies, light, zone of truth; **Cost** 19,500 gp"
-			]
-		},
-		{
-			"name": "Animator Brush",
-			"file": "magicwondrousdisplayda15-2.html",
-			"sources": [ "Gallery of Evil" ],
-			"cost": 40000,
-			"slot": "none",
-			"weight": 0,
-			"description": [
-				"## Animator Brush",
-				"",
-				"**Source** [Gallery of Evil pg. 31](source:Gallery_of_Evil)   ",
-				"**Aura** moderate transmutation; **CL** 11th   ",
-				"**Price** 40,000 gp; **Weight** -;",
-				"",
-				"With a few strokes to an inanimate object, this ordinary-looking brush animates the item just as if animate objects had been cast on it. Each use of this ability expends 1 charge. An animator brush has 25 charges when created.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, animate objects; **Cost** 20,000 gp, 1,600 XP"
 			]
 		},
 		{
@@ -45815,31 +44526,6 @@
 			"copyof": "Crystal Ball (Normal)"
 		},
 		{
-			"name": "Vanity's Eye",
-			"file": "magicwondrousdisplayfd73.html",
-			"sources": [ "Magic of Thassilon" ],
-			"cost": 51000,
-			"slot": "none",
-			"weight": 1,
-			"description": [
-				"## Vanity's Eye",
-				"",
-				"**Source** [Magic of Thassilon pg. 1](source:Magic_of_Thassilon)   ",
-				"**Aura** moderate enchantment and transmutation; **CL** 12th   ",
-				"**Slot** none; **Price** 51,000 gp; **Weight** 1 lb.",
-				"",
-				"This pair of fine, silver hand mirrors secretly steals the confidence and finesse of one bearer and transfers them to another. Two distinct components make up vanity's eye: a silver hand mirror set with flawless glass (the master) and a silver hand mirror set with slightly warped glass (the slave).",
-				"",
-				"The mirrors have no effect until one looks into the slave mirror. Once a creature looks into the slave mirror, it must make a DC 20 Will save or be deceived by the mirror into believing that it has magically made him more dashing, suave, and glib. In truth, however, the slave mirror is cursed and steals the bearer's Charisma, causing him to take a -6 penalty to his Charisma score. The bearer is unaware of this penalty, and will not willingly part with the magical mirror. This penalty persists for as long as the mirror's curse lasts. Should the mirror be lost or taken, the bearer does all he can to retrieve the mirror. Only break enchantment, limited wish, remove curse, miracle, or wish can make the mirror's holder willingly part with the item and return his stolen Charisma. Breaking the slave mirror also restores the victim's Charisma. The slave mirror can only affect one creature at a time and has no affect on other creatures that look into it.",
-				"",
-				"For as long as the slave mirror imposes a Charisma penalty upon a victim, the bearer of the master mirror gains a +6 enhancement bonus to his Charisma. This bonus applies as long as the master mirror's bearer is within 10 feet of the mirror. If the master mirror is destroyed, its bearer loses this bonus and the slave mirror is rendered inert, freeing any victim and restoring his Charisma.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, bestow curse, eagle's splendor; **Cost** 25,500 gp, 2,040 XP"
-			]
-		},
-		{
 			"name": "Last Leaves of the Autumn Dryad",
 			"file": "magicwondrousdisplay3421.html",
 			"sources": [ "Ultimate Equipment" ],
@@ -46045,7 +44731,7 @@
 				"",
 				"### Construction",
 				"",
-				"**Requirements** [Craft Wondrous Item](unknown:Craft_Wondrous_Item), [deathwatch](unknown:deathwatch), [summon monster VIII](unknown:summon_monster_VIII); **Cost** 22,500 gp"
+				"**Requirements** [Craft Wondrous Item](unknown:Craft_Wondrous_Item), [deathwatch](unknown:deathwatch), [summon monster VIII](unknown:summon_monster_8); **Cost** 22,500 gp"
 			]
 		},
 		{
@@ -46676,27 +45362,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Wondrous Item, dispel magic, greater polymorph, true seeing; **Cost** 33,000 gp"
-			]
-		},
-		{
-			"name": "The Pendulate Divan of Emperor Fortigre'",
-			"file": "magicwondrousdisplay2976.html",
-			"sources": [ "Taldor, Echoes of Glory" ],
-			"cost": 66000,
-			"slot": "none",
-			"weight": 100,
-			"description": [
-				"## The Pendulate Divan of Emperor Fortigre'",
-				"",
-				"**Source** [Taldor, Echoes of Glory pg. 26](source:Taldor,_Echoes_of_Glory)   ",
-				"**Aura** moderate conjuration and transmutation; **CL** 11th   ",
-				"**Slot** none; **Price** 66,000 gp; **Weight** 100 lbs.",
-				"",
-				"This luxurious, red felt divan is edged in gold latticework and made from highly polished, glossy black wood. If you lie upon it, you automatically understand how to activate it. Created for the mad Emperor Fortigre' of Taldor thousands of years ago, the pendulate divan includes many special abilities. When you sit, stand, or lie upon it, it can walk like a fourlegged animal with a movement speed of 30 feet, create up to 2 gallons of water per day, protect you with endure elements, and fly or teleport as per the spells (once each per day). The original pendulate divan is stored in the Imperial Palace in Taldor, though a few copies of it were created over the centuries, and many wealthy nobles own lesser versions which can only walk and have no other powers.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, animate object, create water, endure elements, fly, teleport, creator must have at least 5 ranks in Craft (woodworking); **Cost** 33,000 gp, 2,640 XP (original version), 20,000 gp, 800 XP (lesser version)"
 			]
 		},
 		{
@@ -49407,27 +48072,6 @@
 			]
 		},
 		{
-			"name": "The Red Raven's Cape",
-			"file": "magicwondrousdisplayfe6c.html",
-			"sources": [ "Flight of the Red Raven" ],
-			"cost": 5000,
-			"slot": "shoulders",
-			"weight": 0,
-			"description": [
-				"## The Red Raven's Cape",
-				"",
-				"**Source** [Flight of the Red Raven pg. 23](source:Flight_of_the_Red_Raven)   ",
-				"**Aura** strength conjuration; **CL** 5th   ",
-				"**Slot** shoulders; **Price** 5,000 gp; **Weight** -;",
-				"",
-				"What once was a fine red cape is now tattered and torn nearly in two. Once per day, as a standard action, you can dimension door to a range of 40 feet, but you cannot bring additional targets. When you disappear, you leave behind a cloud of smoke, appearing in a similar fashion at your destination.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, dimension door; **Cost** 6,500 gp, 200 XP"
-			]
-		},
-		{
 			"name": "Harborwing Cloak",
 			"file": "magicwondrousdisplayfe58.html",
 			"sources": [ "Merchant's Manifest" ],
@@ -51095,27 +49739,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Wondrous Item, animate objects; **Cost** 15,000 gp"
-			]
-		},
-		{
-			"name": "Cloak of Nightmares",
-			"file": "magicwondrousdisplay3b06.html",
-			"sources": [ "Seven Swords of Sin" ],
-			"cost": 30000,
-			"slot": "shoulders",
-			"weight": 0,
-			"description": [
-				"## Cloak of Nightmares",
-				"",
-				"**Source** [Seven Swords of Sin pg. 32](source:Seven_Swords_of_Sin)   ",
-				"**Aura** strong conjuration; **CL** 14th   ",
-				"**Slot** back; **Price** 30,000 gp; **Weight** -;",
-				"",
-				"The beauty of this red cloak hides its sinister nature, as at any moment it is capable of shredding into numerous hideous creatures known as nightmare bats. As a free action, you can release 1d4 nightmare bats. These bats remain until destroyed and can be recalled into the cloak as a move action. Bats recalled to the cloak are healed of all damage after 1 hour. A newly crafted cloak of nightmares contains eight bats. When a bat is destroyed completely before it can be recalled, it cannot be replaced and the cloak's upper limit is reduced by one.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Wondrous Item, summon monster IV; **Cost** 18,000 gp, 1,200 XP"
 			]
 		},
 		{

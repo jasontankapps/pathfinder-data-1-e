@@ -1207,29 +1207,6 @@
 			]
 		},
 		{
-			"name": "Spelunker's Mail",
-			"file": "magicarmordisplaycf24.html",
-			"sources": [ "Second Darkness Player's Guide" ],
-			"cost": 10000,
-			"slot": "armor",
-			"weight": 10,
-			"description": [
-				"## Spelunker's Mail",
-				"",
-				"**Source** [Second Darkness Player's Guide pg. 29](source:Second_Darkness_Player's_Guide)   ",
-				"**Aura** faint conjuration and moderate transmutation; **CL** 10th   ",
-				"**Slot** armor; **Price** 10,000 gp; **Weight** 10 lbs.",
-				"",
-				"Spelunker's mail allows a creature to more easily navigate narrow underground tunnels by granting the wearer the option of reducing his size when a passageway grows too narrow.",
-				"",
-				"Spelunker's mail is a +1 slick chain shirt and has a dark, lustrous sheen to its blue-black links. Ten times per day, by speaking a command word, you can activate the armor's power to reduce your size. Your size category decreases by one step and you gain the relevant bonuses and penalties of your new size. Your abilities and speed remain unchanged, and all equipment you wear or carry reduces appropriately in size. This transformation lasts for up to a minute, and you can dismiss its effects as a free action.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Magic Arms and Armor, grease, reduce person; **Price** 4,875 gp, 390 XP"
-			]
-		},
-		{
 			"name": "Windstrider Mail",
 			"file": "magicarmordisplaycb3a.html",
 			"sources": [ "Down the Blighted Path" ],
@@ -2696,7 +2673,7 @@
 				"",
 				"### Construction",
 				"",
-				"**Requirements** [Craft Magic Arms and Armor](unknown:Craft_Magic_Arms_and_Armor), [undead anatomy II](unknown:undead_anatomy_II); **Price** 12,500 gp"
+				"**Requirements** [Craft Magic Arms and Armor](unknown:Craft_Magic_Arms_and_Armor), [undead anatomy II](unknown:undead_anatomy_2); **Price** 12,500 gp"
 			]
 		},
 		{
@@ -2909,27 +2886,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Magic Arms and Armor, beast shape II, poison; **Price** 14,000 gp"
-			]
-		},
-		{
-			"name": "Celestial Plate Armor",
-			"file": "magicarmordisplay724b.html",
-			"sources": [ "Pathfinder #11: Skeletons of Scarwall" ],
-			"cost": 28650,
-			"slot": "armor",
-			"weight": 25,
-			"description": [
-				"## Celestial Plate Armor",
-				"",
-				"**Source** [Pathfinder #11: Skeletons of Scarwall pg. 29](source:Pathfinder_#11:_Skeletons_of_Scarwall)   ",
-				"**Aura** faint transmutation (good); **CL** 8th   ",
-				"**Slot** armor; **Price** 28,650 gp; **Weight** 25 lbs.",
-				"",
-				"Celestial plate armor is a sturdier version of the standard celestial armor. This bright silver suit of +3 full plate is remarkably light, and is treated as medium armor. It has a maximum Dexterity bonus of +6, an armor check penalty of -3, and an arcane spell failure chance of 20%. It allows the wearer to use fly on command (as the spell) once per day.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Magic Arms and Armor, creator must be good, fly; **Price** 15,150 gp, 1,080 XP"
 			]
 		},
 		{
@@ -4347,27 +4303,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Magic Arms and Armor, shrink item; **Price** 4,170 gp"
-			]
-		},
-		{
-			"name": "Bulette Bulwark",
-			"file": "magicarmordisplaya0c5.html",
-			"sources": [ "Dungeon Denizens Revisited" ],
-			"cost": 9157,
-			"slot": "shield",
-			"weight": 15,
-			"description": [
-				"## Bulette Bulwark",
-				"",
-				"**Source** [Dungeon Denizens Revisited pg. 7](source:Dungeon_Denizens_Revisited)   ",
-				"**Aura** faint abjuration; **CL** 9th   ",
-				"**Slot** shield; **Price** 9,157 gp; **Weight** 15 lbs.",
-				"",
-				"Fashioned from a bulette's neck armor, this +3 heavy shield is as hard as steel (hardness 10, 20 hp). Because it is not made of metal, druids can use it without penalty.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Magic Arms and Armor, 1 intact set of neck plates from a bulette; **Price** 4,657 gp, 360 XP"
 			]
 		},
 		{

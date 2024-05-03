@@ -1,27 +1,6 @@
 {
 	"list": [
 		{
-			"name": "Wracking Rod",
-			"file": "magicrodsdisplay28c0.html",
-			"sources": [ "Entombed with the Pharaohs" ],
-			"cost": 2250,
-			"slot": "none",
-			"weight": 0,
-			"description": [
-				"## Wracking Rod",
-				"",
-				"**Source** [Entombed with the Pharaohs pg. 26](source:Entombed_with_the_Pharaohs)   ",
-				"**Aura** moderate necromancy; **CL** 9th   ",
-				"**Slot** none; **Price** 2,250 gp; **Weight** -",
-				"",
-				"This black poker has a cherry-red tip, as though fresh from a searing fire. The more artful interrogators of Cheliax well understand that their subjects soon learn to welcome unconsciousness and even death as a means to escape torture. To frustrate their victim's respite, a torturer's wracking rod delivers a painful jolt that keeps the target alert for an extended session of interrogation. On a successful touch attack, the victim receives the benefit of a cure light wounds spell (ld8+1) but must also make a DC 16 Fortitude save or be sickened for 2d4 rounds. Over the decades, desperate members of Cheliax's underclass have found that these rods double as black market sources of emergency healing. A wracking rod can be used up to 5 times per day.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Rod, cure light wounds; **Cost** 1,125 gp, 90 XP"
-			]
-		},
-		{
 			"name": "Rod of the Thriceborn (lesser)",
 			"searchable_name": "Lesser Rod of the Thriceborn",
 			"file": "magicrodsdisplay3784.html",
@@ -364,27 +343,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Rod, bestow curse, levitate, silent image; **Cost** 5,000 gp"
-			]
-		},
-		{
-			"name": "Rod of Writhing",
-			"file": "magicrodsdisplay8b57.html",
-			"sources": [ "Entombed with the Pharaohs" ],
-			"cost": 10000,
-			"slot": "none",
-			"weight": 0,
-			"description": [
-				"## Rod of Writhing",
-				"",
-				"**Source** [Entombed with the Pharaohs pg. 26](source:Entombed_with_the_Pharaohs)   ",
-				"**Aura** moderate transmutation; **CL** 9th   ",
-				"**Slot** none; **Price** 10,000 gp; **Weight** -",
-				"",
-				"This curved, snake-headed scepter is cool and moist to the touch. When you hold the rod aloft and speak the command word, tiny blue-tinged vipers pour out of your eyes, ears, and mouth until you collapse and vanish into a writhing mass of intertwined snakes. Treat this effect as the polymorph spell, but use the stats for a centipede swarm, MM 238, except that the swarm is considered to have a hive mind. The disturbing transformation can be performed once per day and lasts up to 10 minutes or until you discontinue it (as a free action).",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Rod, polymorph, summon swarm; **Cost** 5,000 gp, 400 XP"
 			]
 		},
 		{
@@ -1112,32 +1070,6 @@
 			]
 		},
 		{
-			"name": "Rod of the River Serpent",
-			"file": "magicrodsdisplayd447.html",
-			"sources": [ "Osirion, Land of the Pharaohs" ],
-			"cost": 20000,
-			"slot": "none",
-			"maybe_slot": "hand",
-			"weight": 10,
-			"description": [
-				"## Rod of the River Serpent",
-				"",
-				"**Source** [Osirion, Land of the Pharaohs pg. 25](source:Osirion,_Land_of_the_Pharaohs)   ",
-				"**Aura** moderate illusion and transmutation; **CL** 10th   ",
-				"**Slot** hand; **Price** 20,000 gp; **Weight** 10 lbs.",
-				"",
-				"This heavy rod is carved to look like the fanged head of the river serpent Apep, the primordial snake-being who was the deceiver, devourer, and destroyer of the sun, light, and life. You can use the rod as a +1 heavy mace. If you are chaotic, you can activate the other abilities of the rod.",
-				"",
-				"You gain darkvision at a range of 30 feet when you hold the rod. Once per day, you can use the rod to create an eerie pattern of shadows that acts as a hypnotic pattern (Will DC 13 negates); this pattern also acts as a dispel magic to any spells with the light descriptor within its area of effect.",
-				"",
-				"When you confirm a critical hit with the rod, it automatically attempts a grapple (+5 bonus) against the target as a free action that does not provoke attacks of opportunity. If the grapple check succeeds, the snake head on the rod unhinges its jaw to swallow the target whole into a flesh-walled extradimensional space. The swallowed target suffers 1d8 points of bludgeoning damage per round on its turn and is considered grappled. It can escape with a DC 20 Escape Artist check or by damaging the fleshy walls of the extradimensional prison (AC 12, 24 hit points); either means of escape causes the rod's mouth to expand and disgorge the trapped creature into a random adjacent square (as does the death of a swallowed creature). The prison can hold 1 Medium, 2 Small, 8 Tiny, or 32 Diminutive or smaller opponents.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Magic Arms and Armor, Craft Rod, darkvision, dispel magic, hypnotic pattern, secret chest; **Cost** 10,000 gp, 788 XP"
-			]
-		},
-		{
 			"name": "Suzerain Scepter",
 			"file": "magicrodsdisplay0170.html",
 			"sources": [ "Ultimate Equipment" ],
@@ -1182,30 +1114,6 @@
 			]
 		},
 		{
-			"name": "Rod of Malrion",
-			"file": "magicrodsdisplay66d5.html",
-			"sources": [ "Magic of Thassilon" ],
-			"cost": 22400,
-			"slot": "none",
-			"maybe_slot": "held",
-			"weight": 0,
-			"description": [
-				"## Rod of Malrion",
-				"",
-				"**Source** [Magic of Thassilon pg. 5](source:Magic_of_Thassilon)   ",
-				"**Aura** moderate evocation; **CL** 7th   ",
-				"**Slot** held; **Price** 22,400 gp; **Weight** -",
-				"",
-				"This 14-inch rod of simple white oak is sheathed with a 3-inch sleeve of rune-carved steel in the middle. The ends are seared, as if the wood had endured a forest fire. Once per day, the wielder of a rod of Malrion can surround a target with four walls of fire, forming a square around the target. The caster determines whether the walls spring up within 10 or 20 feet of the target and whether the heat affects creatures within or outside the barrier of flames. If the walls are raised within 10 feet of the target with the heat spreading inward, the target takes 8d4 points of fire damage by standing at the centermost space; if they are created within 20 feet, the target takes no damage if he does not move from the centermost space. The size of the target does not affect how far away from a creature the walls appear. Passing through any of the walls deals 2d6+7 points of fire damage (double damage to undead).",
-				"",
-				"The rod creates as many of the four walls of fire as it can, though barriers and cramped quarters might prevent the walls from appearing at their full size. The flames created by the rod last for 1 minute.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Rod, wall of fire; **Cost** 11,200 gp, 896 XP"
-			]
-		},
-		{
 			"name": "Rod of Enemy Detection",
 			"file": "magicrodsdisplayfaee.html",
 			"sources": [
@@ -1227,30 +1135,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Rod, true seeing; **Cost** 23,500 gp"
-			]
-		},
-		{
-			"name": "Famine Rod",
-			"file": "magicrodsdisplay7f7f.html",
-			"sources": [ "Magic of Thassilon" ],
-			"cost": 24000,
-			"slot": "none",
-			"maybe_slot": "held",
-			"weight": 3,
-			"description": [
-				"## Famine Rod",
-				"",
-				"**Source** [Magic of Thassilon pg. 1](source:Magic_of_Thassilon)   ",
-				"**Aura** moderate necromancy; **CL** 6th   ",
-				"**Slot** held; **Price** 24,000 gp; **Weight** 3 lbs.",
-				"",
-				"A famine rod is a 2-foot length of ebony carved in the likeness of a gaunt, emaciated man. As a standard action, the wielder can expend 1 charge to make a ranged touch attack against a foe within 60 feet, dealing 2d6 points of damage on a hit. The wielder gains temporary hit points equal to half of the damage the rod deals. The temporary hit points disappear 1 hour later. The wielder can expend 3 charges to deal 4d6 points of damage instead.",
-				"",
-				"A famine rod has 10 charges when found. Spent charges are renewed once per week, so that a wielder can expend up to 10 charges in any 1-week period.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Rod, vampiric touch; **Cost** 12,000 gp, 960 XP"
 			]
 		},
 		{

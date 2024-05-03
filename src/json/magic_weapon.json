@@ -569,7 +569,7 @@
 				"",
 				"### Construction",
 				"",
-				"**Requirements** [</a>, <a href=\"spelldisplayf436.html?ItemName=glue%20seal\">glue seal](unknown:</a>,_<a_href=\"spelldisplayf436.html?ItemName=glue%20seal\">glue_seal); **Price** 250 gp"
+				"**Requirements** [Craft Magic Arms and Armor](feat:Craft_Magic_Arms_and_Armor), [glue seal](spell:glue_seal); **Price** 250 gp"
 			]
 		},
 		{
@@ -883,29 +883,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Magic Arms and Armor, cup of dust (Advanced Player's Guide), summon monster I; **Price** 880 gp"
-			]
-		},
-		{
-			"name": "Sacrificial Spear",
-			"file": "magicweaponsdisplay4ce9.html",
-			"sources": [ "Magic of Thassilon" ],
-			"cost": 1802,
-			"slot": "weapon",
-			"weight": 0,
-			"description": [
-				"## Sacrificial Spear",
-				"",
-				"**Source** [Magic of Thassilon pg. 5](source:Magic_of_Thassilon)   ",
-				"**Aura** faint evocation; **CL** 5th   ",
-				"**Slot** held; **Price** 1,802 gp; **Weight** -",
-				"",
-				"An ashen shaft with a steel blade, this finely crafted masterwork shortspear holds a removable shard of carnelian at its base. By crushing the gem as a move action, the spear explodes as per the spell fireball. This detonation is centered on the spear and deals 5d6 points of fire damage to all creatures within a 20-foot-radius spread. The spear's bearer or allies are not immune to this damage (unless they have immunity to fire from another source) and the weapon is destroyed.",
-				"",
-				"A sacrificial spear can be detonated at a range by spending a full-round action to throw the spear and crush the gem. If the attack roll hits the target, the fireball is centered on the target, otherwise refer to the thrown weapons chart to determine where the spear lands (PH 158). Each spear has a specific shard attuned to it at the time of its creation, which can be removed or reaffixed to its spear as a standard action.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Magic Arms and Armor, fireball; **Price** 1,052 gp, 60 XP"
 			]
 		},
 		{
@@ -1538,27 +1515,6 @@
 			]
 		},
 		{
-			"name": "Barracuda's Bite",
-			"file": "magicweaponsdisplayb831.html",
-			"sources": [ "Treasure of Chimera Cove" ],
-			"cost": 4315,
-			"slot": "weapon",
-			"weight": 0,
-			"description": [
-				"## Barracuda's Bite",
-				"",
-				"**Source** [Treasure of Chimera Cove pg. 25](source:Treasure_of_Chimera_Cove)   ",
-				"**Aura** moderate transmutation; **CL** 6th   ",
-				"**Price** 4,315 gp; **Weight** -",
-				"",
-				"The tines of this trident are fang-like, and its haft is wrapped in small-scaled dark green leather. Three times per day on command as a swift action, the weapon can extend its reach by 10 feet for a single attack. The weapon is otherwise a +1 trident.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Magic Arms and Armor, blink; **Price** 2,315 gp, 160 XP"
-			]
-		},
-		{
 			"name": "Shatterspike",
 			"file": "magicweaponsdisplay08eb.html",
 			"sources": [
@@ -1967,28 +1923,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Magic Arms and Armor, creator must be able to channel negative energy; **Price** 2,818 gp"
-			]
-		},
-		{
-			"name": "Water Scorpion",
-			"file": "magicweaponsdisplay36cd.html",
-			"sources": [ "The Demon Within" ],
-			"cost": 5360,
-			"weight": 0,
-			"description": [
-				"## Water Scorpion",
-				"",
-				"**Source** [The Demon Within pg. 31](source:The_Demon_Within)   ",
-				"**Aura** faint transmutation; **CL** 1st   ",
-				"**Slot** none; **Price** 5,360 gp; **Weight** -",
-				"",
-				"This wood and iron weapon resembles a light crossbow with a very short prod. The prod itself is non-functional, but provides the water scorpion with excellent balance. The water scorpion functions as a +1 weapon that magically produces a stream of holy water with a range of 30 feet each time it is fired. The stream strikes its opponent as a ranged touch attack that deals 2d4+1 points of damage to undead and evil outsiders. To other creatures it is harmless. Only one stream might be fired each round, but there are rumors of water scorpions of speed created from the original.",
-				"",
-				"Anyone proficient with crossbows may use a water scorpion without penalty.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Magic Arms and Armor, bless water, create water, magic weapon; **Price** 2,680 gp, 107 XP"
 			]
 		},
 		{
@@ -2629,27 +2563,6 @@
 			]
 		},
 		{
-			"name": "Wyvernsting",
-			"file": "magicweaponsdisplayac25.html",
-			"sources": [ "Carnival of Tears" ],
-			"cost": 8335,
-			"slot": "weapon",
-			"weight": 0,
-			"description": [
-				"## Wyvernsting",
-				"",
-				"**Source** [Carnival of Tears pg. 12](source:Carnival_of_Tears)   ",
-				"**Aura** moderate transmutation; **CL** 9th   ",
-				"**Slot** weapon; **Price** 8,335 gp; **Weight** -",
-				"",
-				"This fell +1 light crossbow, made from wyvern sinew and bone and marked with ancient sigils, bestows a minor poison upon its ammunition (injury DC 15, 1d4 Dex/1d4 Con).",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Magic Arms and Armor, poison; **Price** 4,167 gp, 320 XP"
-			]
-		},
-		{
 			"name": "Shearing Sword",
 			"file": "magicweaponsdisplayc10c.html",
 			"sources": [ "Inner Sea Combat" ],
@@ -2707,9 +2620,9 @@
 				"**Aura** moderate transmutation; **CL** 7th   ",
 				"**Slot** none; **Price** 8,500 gp; **Weight** -",
 				"",
-				"This +1 returning featherweight dart transforms into an insect-sized stirge when fired. As with a normal featherweight dart, a stirge lancet deals no damage; it instead administers 1 dose of an applied poison so long as the target doesn't have damage reduction, hardness, or similar abilities. If no poison is applied to the stirge lancet, it instead attaches to the target for 1 round and draws 1 ounce of blood or an equivalent fluid (if any) from the target. After applying poison or drawing blood, the dart flies through the air back to the creature that fired it. Unlike other featherweight darts, a <istirge lancet is not damaged or destroyed when used, and can be reused indefinitely (though it can store only 1 dose of poison or one blood sample at a time).",
+				"This +1 returning featherweight dart transforms into an insect-sized stirge when fired. As with a normal featherweight dart, a stirge lancet deals no damage; it instead administers 1 dose of an applied poison so long as the target doesn't have damage reduction, hardness, or similar abilities. If no poison is applied to the stirge lancet, it instead attaches to the target for 1 round and draws 1 ounce of blood or an equivalent fluid (if any) from the target. After applying poison or drawing blood, the dart flies through the air back to the creature that fired it. Unlike other featherweight darts, a stirge lancet is not damaged or destroyed when used, and can be reused indefinitely (though it can store only 1 dose of poison or one blood sample at a time).",
 				"",
-				"Although a stirge lancet leaves no evidence, the sound of its buzzing wings may attract attention. A creature hit by a stirge lancet can attempt a Perception check to hear its humming; the DC for this check is equal to 20 + the <>stirge lancet's enhancement bonus on attack rolls (DC 21 for a standard stirge lancet). If the target succeeds at this Perception check, it instinctively attempts to bat the dart out of the air without a second thought, thinking the projectile to be an ordinary insect. There is a 50% chance that a dart so detected is batted from the sky, preventing it from returning to the creature that fired it and allowing it to be detected with a successful DC 15 Perception check, as normal for a featherweight dart. A batted dart is not destroyed, but must be retrieved manually.",
+				"Although a stirge lancet leaves no evidence, the sound of its buzzing wings may attract attention. A creature hit by a stirge lancet can attempt a Perception check to hear its humming; the DC for this check is equal to 20 + the stirge lancet's enhancement bonus on attack rolls (DC 21 for a standard stirge lancet). If the target succeeds at this Perception check, it instinctively attempts to bat the dart out of the air without a second thought, thinking the projectile to be an ordinary insect. There is a 50% chance that a dart so detected is batted from the sky, preventing it from returning to the creature that fired it and allowing it to be detected with a successful DC 15 Perception check, as normal for a featherweight dart. A batted dart is not destroyed, but must be retrieved manually.",
 				"",
 				"### Construction",
 				"",
@@ -3316,32 +3229,6 @@
 			]
 		},
 		{
-			"name": "En-Nebi, Blade of the Leopard",
-			"searchable_name": "En Nebi Blade of the Leopard",
-			"file": "magicweaponsdisplay3d20.html",
-			"sources": [ "Pathfinder #19: Howl of the Carrion King" ],
-			"cost": 10302,
-			"slot": "weapon",
-			"weight": 1,
-			"description": [
-				"## En-Nebi, Blade of the Leopard",
-				"",
-				"**Source** [Pathfinder #19: Howl of the Carrion King pg. 68](source:Pathfinder_#19:_Howl_of_the_Carrion_King)   ",
-				"**Aura** moderate transmutation; **CL** 9th   ",
-				"**Price** 10,302 gp; **Weight** 1 lb.",
-				"",
-				"Crafted in Katapesh some 300 years ago, En-Nebi is a katar some 15 inches in length. An embossed image of a ferocious Katapeshi leopard adorns the weapon's hilt, while strange shadowy patterns writhe across its damascened blade, even in strong light.",
-				"",
-				"In combat, En-Nebi is treated as a +1 vicious punch dagger. As it strikes, the extra damage from the vicious property manifests as if a great cat's claws had cruelly raked the victim's flesh. While this effect can be unnerving, the consequences for the katar's wielder are even worse: if he confirms a critical hit with the weapon, he must make a DC 15 Fortitude save or contract a form of lycanthropy, becoming a Katapeshi wereleopard lycanthrope.",
-				"",
-				"Easily twice the size of common leopards, Katapeshi leopards are infamous for their savagery. Now extremely rare, these massive creatures once ranged from Nex to Thuvia (same stats as tigers). Treat Katapeshi wereleopard lycanthropes as chaotic evil weretigers (MM 172).",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Magic Arms and Armor, bestow curse, summon monster IV; **Price** 5,151 gp, 412 XP"
-			]
-		},
-		{
 			"name": "Lacerating Rapier",
 			"file": "magicweaponsdisplaye662.html",
 			"sources": [ "Magical Marketplace" ],
@@ -3804,33 +3691,6 @@
 			]
 		},
 		{
-			"name": "Heartripper Blade",
-			"file": "magicweaponsdisplay37c2.html",
-			"sources": [ "Crown of the Kobold King" ],
-			"cost": 11302,
-			"slot": "weapon",
-			"weight": 0,
-			"description": [
-				"## Heartripper Blade",
-				"",
-				"**Source** [Crown of the Kobold King pg. 27](source:Crown_of_the_Kobold_King)   ",
-				"**Aura** moderate conjuration, divination, and evocation; **CL** 10th   ",
-				"**Slot** weapon; **Price** 11,302 gp; **Weight** -",
-				"",
-				"This +1 dagger is granted baleful powers when used in bloody sacrifice. Whenever used to deliver a coup de grace, the Heartripper Blade pulls the victim's still-beating heart free from his body. You may then consume the heart to gain any of the following abilities.",
-				"",
-				"You may eat the heart to gain a simultaneous remove disease, restoration, and cure serious wounds effect.",
-				"",
-				"You may utter a command word and cause the heart to burst into flames, after which the Blade becomes a +2 flaming burst dagger for 1 hour. This consumes the heart.",
-				"",
-				"You may speak a blasphemous second command word to cause the heart to boil and smoke. Breathing in the smoke gives you glimpses of the future or far off places and objects, granting you the ability to use divination or scrying. This consumes the heart.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Magic Arms and Armor, flame blade, keen edge, restoration, scrying; **Price** 5,802 gp, 440 XP"
-			]
-		},
-		{
 			"name": "Pick of Stonecleaving",
 			"file": "magicweaponsdisplay55a5.html",
 			"sources": [ "Mythic Adventures" ],
@@ -4147,31 +4007,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Magic Arms and Armor, force punch, shield; **Price** 6,155 gp"
-			]
-		},
-		{
-			"name": "Whisper and Shadow",
-			"file": "magicweaponsdisplay37cf.html",
-			"sources": [ "Carnival of Tears" ],
-			"cost": 12310,
-			"slot": "weapon",
-			"weight": 0,
-			"description": [
-				"## Whisper and Shadow",
-				"",
-				"**Source** [Carnival of Tears pg. 12](source:Carnival_of_Tears)   ",
-				"**Aura** moderate illusion; **CL** 10th   ",
-				"**Slot** weapon; **Price** 12,310 gp; **Weight** -",
-				"",
-				"12,310 gp is the price for each sword in the pair.",
-				"",
-				"These cruel, paired +1 cold iron shortswords where once wielded by the Doom Bringers at the end of the First World and were thought to be lost. Recently, pairs of these blades have emerged once more, finding their way into the hands of men and elves. Most sages consider their reappearance a dark omen, though only the most erudite even know these weapons' true origins. When you use Whisper and Shadow in tandem you gain the Two Weapon Fighting feat (even if you do not qualify for it).",
-				"",
-				"Additionally, three times per day, Whisper may be used to cast silence (CL 10th, DC 20). Three times per day, Shadow may be used to cast invisibility (CL 10th), or the blade itself can be turned invisible for one round, making it incredibly difficult to parry and dodge. If your opponent cannot see invisible objects and does not succeed on a DC 25 Spot check to follow your arm motions, he is considered flat-footed against all your attacks with Shadow that round.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Magic Arms and Armor, invisibility, silence; **Price** 6,155 gp, 480 XP"
 			]
 		},
 		{
@@ -4511,7 +4346,7 @@
 				"",
 				"### Construction",
 				"",
-				"**Requirements** [</a>, <a href=\"spelldisplayb54a.html?ItemName=cause%20fear\">cause fear](unknown:</a>,_<a_href=\"spelldisplayb54a.html?ItemName=cause%20fear\">cause_fear), [repel vermin](unknown:repel_vermin), [summon swarm](unknown:summon_swarm); **Price** 6,750 gp"
+				"**Requirements** [Craft Magic Arms and Armor](feat:Craft_Magic_Arms_and_Armor), [cause fear](spell:cause_fear), [repel vermin](spell:repel_vermin), [summon swarm](spell:summon_swarm); **Price** 6,750 gp"
 			]
 		},
 		{
@@ -5170,27 +5005,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Craft Magic Arms and Armor, keen edge, shatter; **Price** 9,310 gp"
-			]
-		},
-		{
-			"name": "The Brazen Claw",
-			"file": "magicweaponsdisplay1af8.html",
-			"sources": [ "Dark Markets - A Guide to Katapesh" ],
-			"cost": 18315,
-			"slot": "weapon",
-			"weight": 4,
-			"description": [
-				"## The Brazen Claw",
-				"",
-				"**Source** [Dark Markets - A Guide to Katapesh pg. 17](source:Dark_Markets_-_A_Guide_to_Katapesh)   ",
-				"**Aura** moderate transmutation; **CL** 9th   ",
-				"**Slot** weapon; **Price** 18,315 gp; **Weight** 4 lbs.",
-				"",
-				"This jagged piece of curved brass with a razor-sharp edge functions as a +2 vicious scimitar. If a gnoll wields the brazen claw, he takes no damage from the sword's vicious ability.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Magic Arms and Armor, enervation, magic weapon, creator must be a gnoll; **Price** 9,158 gp, 733 XP"
 			]
 		},
 		{
@@ -6517,30 +6331,6 @@
 			]
 		},
 		{
-			"name": "Luthier's Rapier",
-			"file": "magicweaponsdisplay86bd.html",
-			"sources": [ "Second Darkness Player's Guide" ],
-			"cost": 25020,
-			"weight": 2,
-			"description": [
-				"## Luthier's Rapier",
-				"",
-				"**Source** [Second Darkness Player's Guide pg. 25](source:Second_Darkness_Player's_Guide); Errata [Link 1](unknown:Link_1)   ",
-				"**Aura** strong transmutation; **CL** 11th   ",
-				"**Slot** none; **Price** 25,020 gp; **Weight** 2 lbs.",
-				"",
-				"Many stories feature Luthier, Knight of the Vineyard, champion of good and Cayden Cailean's trusted ally. These legends often mention Luthier's elegant rapier, and while the original Luthier's rapier undoubtedly remains with its owner, copies surface from time to time-usually when a faithful follower of Cayden Cailean requires assistance.",
-				"",
-				"Rose-hued steel forms the length of the blade, and gold flowers seem to blossom in the filigreed basket-hilt. A large ruby glimmers at the hilt's center. Luthier's rapier is a +1 holy rapier. Once per day, you can activate the power of the ruby embedded in the rapier's hilt to gain a +4 sacred bonus to Charisma and a +4 morale bonus on saving throws against fear effects. These bonuses last for 10 minutes.",
-				"",
-				"Also, once, you can command the gem to shatter in an explosion of red light. Every creature except you within 30 feet must make a DC 20 Will save or be dazed for 3 rounds. Once you shatter the gem in this fashion, the rapier becomes just a normal +1 rapier.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Magic Arms and Armor, bless weapon, eagle's splendor, creator must be chaotic good; **Price** 12,510 gp, 200 XP"
-			]
-		},
-		{
 			"name": "Spirit Caller",
 			"file": "magicweaponsdisplay01cf.html",
 			"sources": [ "Ultimate Equipment" ],
@@ -6885,29 +6675,6 @@
 			]
 		},
 		{
-			"name": "Sporeblade",
-			"file": "magicweaponsdisplay2030.html",
-			"sources": [ "Second Darkness Player's Guide" ],
-			"cost": 27815,
-			"slot": "weapon",
-			"weight": 1,
-			"description": [
-				"## Sporeblade",
-				"",
-				"**Source** [Second Darkness Player's Guide pg. 29](source:Second_Darkness_Player's_Guide)   ",
-				"**Aura** moderate necromancy; **CL** 13th   ",
-				"**Slot** weapon; **Price** 27,815 gp; **Weight** 1 lb.",
-				"",
-				"Bulbous fungal growths sprout from this short sword's blade, particularly around the hilt. The fungal growths constantly swell, wither, and sprout again in a continuous cycle. The growths appear bright blue, green, yellow, and purple. The weapon's blade is a dull gray that does not reflect light.",
-				"",
-				"The sporeblade is a +2 keen short sword. On a successful critical hit, the sporeblade deals its normal critical damage and also creates a puff of mottled spores. The victim of the critical hit must make a DC 20 Fortitude save. On a failed save, the victim takes 1d4 points of Constitution damage and becomes fatigued for 1 hour as the spores take root in his flesh and grow with unsettling speed into thick, fibrous tendrils. The special critical hit ability of the sporeblade functions no more than once per round.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Magic Arms and Armor, contagion; **Price** 14,065 gp, 1,100 XP"
-			]
-		},
-		{
 			"name": "Mount-Splitting Pick (Dwarf)",
 			"searchable_name": "Mount Splitting Pick",
 			"file": "magicweaponsdisplayebef.html",
@@ -7233,7 +7000,7 @@
 				"",
 				"### Construction",
 				"",
-				"**Requirements** [Craft Magic Arms and Armor](unknown:Craft_Magic_Arms_and_Armor), [giant form I](unknown:giant_form_I); **Price** 15,160 gp"
+				"**Requirements** [Craft Magic Arms and Armor](unknown:Craft_Magic_Arms_and_Armor), [giant form I](unknown:giant_form_1); **Price** 15,160 gp"
 			]
 		},
 		{
@@ -9174,27 +8941,6 @@
 			]
 		},
 		{
-			"name": "Crook of the Ancient Serpent",
-			"file": "magicweaponsdisplay92d5.html",
-			"sources": [ "Osirion, Land of the Pharaohs" ],
-			"cost": 70000,
-			"slot": "hands",
-			"weight": 5,
-			"description": [
-				"## Crook of the Ancient Serpent",
-				"",
-				"**Source** [Osirion, Land of the Pharaohs pg. 31](source:Osirion,_Land_of_the_Pharaohs)   ",
-				"**Aura** strong divination, evocation, and necromancy; **CL** 13th   ",
-				"**Slot** hand; **Price** 70,000 gp; **Weight** 5 lbs.",
-				"",
-				"This curved and striped staff of office has all the powers of a rod of withering and a rod of enemy detection. It can also store one offensive spell as if it were a weapon with the spell storing property.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Craft Magic Arms and Armor, contagion, true seeing, creator must be at least 12th level; **Price** 35,000 gp, 3,000 XP"
-			]
-		},
-		{
 			"name": "Seaspike",
 			"file": "magicweaponsdisplaydd37.html",
 			"sources": [ "Pathfinder #124: City in the Deep" ],
@@ -9381,7 +9127,7 @@
 				"",
 				"### Construction",
 				"",
-				"**Requirements** Craft Magic Arms and Armor, bleed, cruel jaunt (see page 114), keen edge,/i>, creator must sacrifice a sentient living creature; **Price** 39,310 gp"
+				"**Requirements** [Craft Magic Arms and Armor](feat:Craft_Magic_Arms_and_Armor), bleed, cruel jaunt, keen edge, creator must sacrifice a sentient living creature; **Price** 39,310 gp"
 			]
 		},
 		{
@@ -10124,17 +9870,17 @@
 				"**Aura** moderate necromancy; **CL** 8th   ",
 				"**Slot** none; **Price** 23,335 gp; **Weight** 6 lbs.",
 				"",
-				"Ukwar is a +1 [conductive](unknown:conductive) battleaxe infused with the angry spirit of a Deadwatcher orc leader named Ukwar. After perishing in Scarwall and rising soon thereafter as a [fext](unknown:fext), Ukwar spent decades longing to be free of her curse. When she is permanently slain, her spirit enters her axe. As long as the PCs continue to adventure in Scarwall, she doesn't attempt to exert influence over her wielder-she wants to see each and every one of Scarwall's denizens suffer. If her wielder spends more than 1 day outside of Scarwall (and the castle remains cursed), she attempts to take control and force her wielder to return and finish this job.",
+				"Ukwar is a +1 [conductive](magic/weapon:conductive) battleaxe infused with the angry spirit of a Deadwatcher orc leader named Ukwar. After perishing in Scarwall and rising soon thereafter as a [fext](unknown:fext), Ukwar spent decades longing to be free of her curse. When she is permanently slain, her spirit enters her axe. As long as the PCs continue to adventure in Scarwall, she doesn't attempt to exert influence over her wielder-she wants to see each and every one of Scarwall's denizens suffer. If her wielder spends more than 1 day outside of Scarwall (and the castle remains cursed), she attempts to take control and force her wielder to return and finish this job.",
 				"",
-				"As long as Ukwar remains intelligent, the blade grants weapon proficiency with the battleaxe to her wielder. If the wielder is already proficient with battleaxes, he instead gains a +1 bonus on all attack rolls and damage rolls made with Ukwar. She imposes negative levels on nonchaotic evil wielders only when they are outside of Scarwall. She can cast [rage](unknown:rage) once per day, and does so on her wielder the first time each day he attacks one of the spirit anchors or the chained spirit-she can be convinced to cast [rage](unknown:rage) on her wielder at another time with a successful DC 20 Diplomacy or Intimidate check (a standard action).",
+				"As long as Ukwar remains intelligent, the blade grants weapon proficiency with the battleaxe to her wielder. If the wielder is already proficient with battleaxes, he instead gains a +1 bonus on all attack rolls and damage rolls made with Ukwar. She imposes negative levels on nonchaotic evil wielders only when they are outside of Scarwall. She can cast [rage](spell:rage) once per day, and does so on her wielder the first time each day he attacks one of the spirit anchors or the chained spirit-she can be convinced to cast [rage](spell:rage) on her wielder at another time with a successful DC 20 Diplomacy or Intimidate check (a standard action).",
 				"",
-				"Ukwar's special purpose is to lift Scarwall's curse, and as long as her wielder is engaged in this quest and is within Scarwall, the weapon functions as a +1 conductive <MAGIC.WEAPONS%Bane\">undead-bane</a> battleaxe. If Scarwall's curse is lifted, Ukwar's spirit leaves the axe behind, and this weapon returns to being an unintelligent +1 conductive battleaxe.",
+				"Ukwar's special purpose is to lift Scarwall's curse, and as long as her wielder is engaged in this quest and is within Scarwall, the weapon functions as a +1 conductive undead-bane battleaxe. If Scarwall's curse is lifted, Ukwar's spirit leaves the axe behind, and this weapon returns to being an unintelligent +1 conductive battleaxe.",
 				"",
 				"Ukwar is a unique weapon created through a nonstandard method, but a character who wishes to create an identical weapon can do so using the guidelines below.",
 				"",
 				"### Construction",
 				"",
-				"[Craft Magic Arms and Armor](unknown:Craft_Magic_Arms_and_Armor), [rage](unknown:rage), [spectral hand](unknown:spectral_hand), [summon monster I](unknown:summon_monster_I); **Price** 14,335 gp"
+				"[Craft Magic Arms and Armor](unknown:Craft_Magic_Arms_and_Armor), [rage](unknown:rage), [spectral hand](unknown:spectral_hand), [summon monster I](unknown:summon_monster_1); **Price** 14,335 gp"
 			]
 		},
 		{

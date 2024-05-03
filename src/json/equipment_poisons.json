@@ -2279,7 +2279,15 @@
 				"**Price** 750 gp; **Weight** &mdash;   ",
 				"**Type** contact; **Save** Fortitude DC 20   ",
 				"**Onset** 1 minute; **Frequency** 1/minute for 6 minutes   ",
-				"**Effect** Each time the target fails its saving throw, part of his body begins to necrotize. Roll d% on the table below to determine which part of the body starts rotting. Each necrotizing effect stacks with the others but not with itself; if the same effect is rolled more than once, choose a new effect that hasn't been rolled yet from on the table <table class=\"inner\"><tr><td>d%</td><td>Effect</td></tr> <tr><td>1-30</td><td>Hands, 2 Dex damage</td></tr> <tr><td>31-60</td><td>Arms, 2 Str damage</td></tr> <tr><td>61-95</td><td>Torso, 2 Con damage</td></tr> <tr><td>96-100</td><td>Brain, 2 Int and 2 Wis damage</td></tr></table>   ",
+				"**Effect** Each time the target fails its saving throw, part of his body begins to necrotize. Roll d% on the table below to determine which part of the body starts rotting. Each necrotizing effect stacks with the others but not with itself; if the same effect is rolled more than once, choose a new effect that hasn't been rolled yet from on the table",
+				"",
+				"| d% | Effect |",
+				"| --- | --- |",
+				"| 1-30 | Hands, 2 Dex damage |",
+				"| 31-60 | Arms, 2 Str damage |",
+				"| 61-95 | Torso, 2 Con damage |",
+				"| 96-100 | Brain, 2 Int and 2 Wis damage |",
+				"",
 				"**Cure** 2 saves"
 			]
 		},

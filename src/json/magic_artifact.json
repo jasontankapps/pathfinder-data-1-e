@@ -3123,7 +3123,7 @@
 				"A Storm Kindler's rod acts as a +4 [shocking burst](unknown:shocking_burst) [spell storing](unknown:spell_storing) club, but its spell storing capabilities can store only druid spells. While carried in one hand, the rod grants its wielder immunity to cold and electricity. The rod's other powers are as follows. ",
 				"",
 				"- Invoke Lightning: Up to three times per day as a swift action, the wielder can call down a stroke of lightning from the skies. This functions as [flame strike](unknown:flame_strike), save that the damage dealt is half electricity and half from divine power.",
-				"- Summon Lightning Elemental: Once per day as a standard action, the wielder can summon an [elder lightning elemental](unknown:elder_lightning_elemental), 1d3 [greater lightning elementals](unknown:greater_lightning_elementals), or 1d4+1 [huge lightning elementals](unknown:huge_lightning_elementals). This functions as per [summon monster VIII](unknown:summon_monster_VIII), except that it requires a standard action instead of a full round.",
+				"- Summon Lightning Elemental: Once per day as a standard action, the wielder can summon an [elder lightning elemental](unknown:elder_lightning_elemental), 1d3 [greater lightning elementals](unknown:greater_lightning_elementals), or 1d4+1 [huge lightning elementals](unknown:huge_lightning_elementals). This functions as per [summon monster VIII](unknown:summon_monster_8), except that it requires a standard action instead of a full round.",
 				"- Unleash Storm: Once per day, the wielder can call upon a devastating storm. This functions as [storm of vengeance](unknown:storm_of_vengeance), save that on the second round, the storm creates freezing rain that deals cold damage rather than acid damage."
 			],
 			"destruction": "A Storm Kindler's rod can be destroyed as easily as a typical +4 shocking burst spell storing club after it has been carried for at least 24 hours by someone not part of or affiliated with the Storm Kindlers."
@@ -6925,7 +6925,7 @@
 				"",
 				"Charity: Grants a +4 insight bonus to AC and [dimensional anchor](unknown:dimensional_anchor) as a spell-like ability. Opposed by both kindness and temperance.",
 				"",
-				"Generosity: Grants a +4 insight bonus on attack rolls and [beast shape II](unknown:beast_shape_II) as a spell-like ability. Opposed by humility and love.",
+				"Generosity: Grants a +4 insight bonus on attack rolls and [beast shape II](unknown:beast_shape_2) as a spell-like ability. Opposed by humility and love.",
 				"",
 				"Humility: Grants a +8 insight bonus on skill checks and [greater invisibility](unknown:greater_invisibility) as a spell-like ability. Opposed by generosity and zeal.",
 				"",

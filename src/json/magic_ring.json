@@ -202,27 +202,6 @@
 			]
 		},
 		{
-			"name": "Ring of Torag",
-			"file": "magicringsdisplayad76.html",
-			"sources": [ "Hollow's Last Hope" ],
-			"cost": 1200,
-			"slot": "ring",
-			"weight": 0,
-			"description": [
-				"## Ring of Torag",
-				"",
-				"**Source** [Hollow's Last Hope pg. 16](source:Hollow's_Last_Hope)   ",
-				"**Aura** faint abjuration; **CL** 3rd   ",
-				"**Slot** ring; **Price** 1,200 gp; **Weight** -",
-				"",
-				"This simple golden ring has a large red gemstone set into it that sparkles with an inner fire. The wearer of the ring gains fire resistance 10 against the first fire attack that hits him that day. This protection renews itself every morning at dawn. In addition, the wearer receives a +1 resistance bonus on saves made against fire spells and effects. The ring must be worn for 24 hours to have any effect.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Forge Ring, resist energy; **Cost** 600 gp, 48 XP"
-			]
-		},
-		{
 			"name": "Dark Life Ring",
 			"file": "magicringsdisplayd162.html",
 			"sources": [ "Champions of Corruption" ],
@@ -445,50 +424,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Forge Ring, sculpt corpse (Advanced Player's Guide); **Cost** 1,000 gp"
-			]
-		},
-		{
-			"name": "Ring of the Sublime",
-			"file": "magicringsdisplay4ef9.html",
-			"sources": [ "Taldor, Echoes of Glory" ],
-			"cost": 2000,
-			"slot": "ring",
-			"weight": 0,
-			"description": [
-				"## Ring of the Sublime",
-				"",
-				"**Source** [Taldor, Echoes of Glory pg. 27](source:Taldor,_Echoes_of_Glory)   ",
-				"**Aura** faint abjuration; **CL** 1st   ",
-				"**Slot** ring; **Price** 2,000 gp; **Weight** -",
-				"",
-				"This ornate gold ring is set with a single round sapphire and platinum stems. When worn, the ring of the sublime protects its wearer from fear effects as if constantly under the effects of remove fear. Wearers of rings of the sublime in Taldor often believe the ring's ability to combat fear also removes social anxiety, making the wearer a more confident and self-assured member of high society.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Forge Ring, remove fear; **Cost** 1,000 gp, 80 XP"
-			]
-		},
-		{
-			"name": "Ring of Emancipation",
-			"file": "magicringsdisplay719b.html",
-			"sources": [ "Second Darkness Player's Guide" ],
-			"cost": 2100,
-			"slot": "ring",
-			"weight": 0,
-			"description": [
-				"## Ring of Emancipation",
-				"",
-				"**Source** [Second Darkness Player's Guide pg. 25](source:Second_Darkness_Player's_Guide)   ",
-				"**Aura** faint transmutation and moderate evocation; **CL** 7th   ",
-				"**Slot** ring; **Price** 2,100 gp; **Weight** -",
-				"",
-				"This single thick iron band makes for a rather ugly ring. Rust pits the surface of the ring in places and the item seems on the brink of falling apart. Occasionally, these rings bear a tiny chain link or dented tankard symbol.",
-				"",
-				"While wearing a ring of emancipation, you gain a +2 competence bonus on all Open Lock and Escape Artist checks, in addition to all attack rolls made to sunder. Also, the ring has three charges, which can be expended at any time to cast shatter as a spell-like ability with a caster level equal to your character level. Each time a charge is expended, the ring becomes more rusted and marred. Upon the third charge being expended, the ring is destroyed.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Forge Ring, cat's grace, shatter; **Cost** 1,050 gp, 84 XP"
 			]
 		},
 		{
@@ -1388,33 +1323,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Forge Ring, planar ally or planar binding, creator must be lawful evil; **Cost** 3,650 gp"
-			]
-		},
-		{
-			"name": "Ring of the Stone Sibling",
-			"file": "magicringsdisplay1fe6.html",
-			"sources": [ "Second Darkness Player's Guide" ],
-			"cost": 7400,
-			"slot": "ring",
-			"weight": 0,
-			"description": [
-				"## Ring of the Stone Sibling",
-				"",
-				"**Source** [Second Darkness Player's Guide pg. 29](source:Second_Darkness_Player's_Guide)   ",
-				"**Aura** moderate conjuration; **CL** 9th   ",
-				"**Slot** ring; **Price** 7,400 gp; **Weight** -",
-				"",
-				"This gray ring looks like stone, but the material is soft and flexible. Once per day, as a standard action, you can touch a stone wall with your hand to create a stone duplicate of yourself.",
-				"",
-				"Immediately upon activating the ring of the stone sibling, your double steps out of the wall. It appears to be a stone statue carved in an exact likeness of you. The stone double stands 10 feet away from you and mimics your movements, as if reflected in a mirror. As a move-equivalent action, you can mentally command the stone sibling to move to a new location, but it must remain within 30 feet of you at all times.",
-				"",
-				"The stone sibling has hardness 8 and 50 hit points. It can take no actions other than to aid you, which it does every round on your turn. The stone sibling makes a +5 aid another check each round, either to aid your attack rolls or your Armor Class, as you command. It continues to render the same aid indefinitely until you command it otherwise (which requires a move action).",
-				"",
-				"The stone sibling lasts for 10 minutes, until it is destroyed, or until you dismiss it (a standard action), whichever comes first.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Forge Ring, mirror image, stone shape; **Cost** 3,700 gp, 296 XP"
 			]
 		},
 		{
@@ -3139,37 +3047,6 @@
 			]
 		},
 		{
-			"name": "Ring of the Clean Hands",
-			"file": "magicringsdisplay1427.html",
-			"sources": [ "Magic of Thassilon" ],
-			"cost": 18000,
-			"slot": "ring",
-			"weight": 0,
-			"description": [
-				"## Ring of the Clean Hands",
-				"",
-				"**Source** [Magic of Thassilon pg. 4](source:Magic_of_Thassilon)   ",
-				"**Aura** strong transmutation; **CL** 9th   ",
-				"**Price** 18,000 gp; **Weight** -",
-				"",
-				"This delicate ring of forged bronze is formed into the shape of two hands, which do not quite touch as they meet at the top of the wearer's finger. A ring of the clean hands grants use of telekinesis as a standard action and has 10 charges. These charges return at the start of the next day.",
-				"",
-				"The ring's charges can be expended to create the following effects:",
-				"",
-				"Combat maneuver: This effect costs 3 charges for each round it is active, but otherwise functions as described by the spell telekinesis. The force created by this effect has a +9 base attack bonus, and is considered to have Strength 20 and Dexterity 20.",
-				"",
-				"Force lash: This effect costs 3 charges, striking out as if with an invisible whip. One target within 60 feet must make a DC 17 Will save or be struck for 4d6 points of nonlethal damage. This attack does not affect targets with a +3 or higher natural armor bonus, or a +1 or higher armor bonus.",
-				"",
-				"Sustained force: This effect costs 1 charge for each round it is active, but otherwise functions as described by the spell telekinesis, making it capable of lifting 225 lbs.",
-				"",
-				"Violent thrust: This effect costs 5 charges, but otherwise functions as described by the spell telekinesis, allowing you to throw up to 9 creatures or objects up to 90 feet, with a total weight of 225 lbs. The attack roll has a +9 modifier. The Will save is DC 17.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Forge Ring, telekinesis; **Cost** 9,000 gp, 720 XP"
-			]
-		},
-		{
 			"name": "Rings of Bondage",
 			"file": "magicringsdisplayc730.html",
 			"sources": [ "Ultimate Intrigue" ],
@@ -3552,27 +3429,6 @@
 				"### Construction",
 				"",
 				"**Requirements** Forge Ring, dimension door, summon swarm; **Cost** 13,000 gp"
-			]
-		},
-		{
-			"name": "The Bloodflame Ring",
-			"file": "magicringsdisplayb2d8.html",
-			"sources": [ "Clash of the Kingslayers" ],
-			"cost": 26000,
-			"slot": "ring",
-			"weight": 0,
-			"description": [
-				"## The Bloodflame Ring",
-				"",
-				"**Source** [Clash of the Kingslayers pg. 29](source:Clash_of_the_Kingslayers)   ",
-				"**Aura** strong transmutation; **CL** 15th   ",
-				"**Slot** ring; **Price** 26,000 gp; **Weight** -",
-				"",
-				"This beautiful adamantine ring is warm to the touch. Artful pictures etched inside it tell the tale of its creation; the imagery claims that this ring was one of the first items crafted by employing heat to coerce metal into shape. When worn, it transforms your blood into pure molten iron, which does not harm you, and provides certain benefits: you gain the fire subtype. Any creature striking you with its body or a handheld weapon deals normal damage, but at the same time the attacker takes 1d6 points of fire damage. Creatures that drain blood (such as stirges and vampires) take the standard fire damage for attacking you and you do not suffer any effects of their blood drain special ability. you count as a ferrous creature for the purpose of rusting grasp and similar effects.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Forge Ring, fire shield, iron body; **Cost** 13,000 gp, 1,040 XP"
 			]
 		},
 		{
