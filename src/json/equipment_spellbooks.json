@@ -1,6 +1,6 @@
 {
 	"description": [
-		"# Spellbooks",
+		"## Spellbooks",
 		"",
 		"**Description Source:** [Ultimate Magic](source:Ultimate_Magic)",
 		"",
@@ -14,7 +14,7 @@
 		"",
 		"Each book features a value, which represents what a character must pay for the book on the open market, though finding a seller may be difficult. The character may sell the book for half that value. Any book with a preparation ritual has two sets of costs, one for the book without the preparation ritual and one for the book with the ritual.",
 		"",
-		"## Using Preparation Rituals",
+		"### Using Preparation Rituals",
 		"",
 		"When a spellcaster who prepares spells uses a spellbook or formula book with a preparation ritual, as long as he prepares at least three spells (not including cantrips) or formulae from the spellbooks, he gains a temporary boon granted by the ritual. The boon lasts until its effect is spent (as specified by the boon description) or the spellcaster prepares spells again (at which time it can be reapplied by preparing at least three spells from the book). A spellcaster can only take the effect of one preparation ritual when she prepares spells, no matter how many spellbooks with preparation rituals she uses to prepare spells.",
 		"",
@@ -22,11 +22,11 @@
 		"",
 		"**Description Source:** [Arcane Anthology](source:Arcane_Anthology)",
 		"",
-		"## Transcribing Spellbook Preparation Rituals",
+		"### Transcribing Spellbook Preparation Rituals",
 		"",
 		"Preparation rituals grant a unique boon to anyone who prepares at least three spells from the associated spellbook. Like spells, preparation rituals can be copied into new spellbooks. To imbue a spellbook with a preparation ritual, you must have the Scribe Scroll feat, as well as a number of ranks in Spellcraft and a caster level each equal to double the highest spell level in the original spellbook. You also must have scribed at least three spells from the original spellbook into the new spellbook; at least one of these spells must be of the highest spell level found in the original spellbook. You must prepare those three spells (or know them, if you cast spells spontaneously) and perform an 8-hour creation ritual that requires supplies costing half as much as the value of the preparation ritual (the difference in the spellbook's value with and without the preparation ritual). At the ritual's end, attempt a Spellcraft check (DC = 10 + double the highest spell level in the original spellbook). If you succeed, the new spellbook gains that preparation ritual. If you fail, the supplies are wasted to no effect. Formula book preparation rituals are similarly imbued, but use extracts rather than spells, and instead of Scribe Scroll, you must have Brew Potion. A spellbook can have multiple preparation rituals, but it must meet the requirements for each. This does not affect the number of preparation rituals from which a character can benefit.",
 		"",
-		"## Prayer Book and Meditation Book Rituals",
+		"### Prayer Book and Meditation Book Rituals",
 		"",
 		"Characters who prepare divine spells can create prayer books containing divine magical writing similar to the arcane magical writing in spellbooks. These books are usually used to instruct new acolytes in a faith's magical traditions or to make use of preparation rituals that align with the faith's goals. Prayer books with preparation rituals follow the same rules as arcane spellbooks with preparation rituals. Any preparation rituals found in spellbooks can also be found in prayer books, which have the same number of spells of each level recorded but generally draw them from the cleric, druid, or shaman spell list. Any character able to prepare the appropriate spells as divine spells can benefit from the preparation ritual recorded in a prayer book.",
 		"",
@@ -39,13 +39,10 @@
 			"name": "Apprentice Chapbook of Rul Thaven",
 			"file": "spellbookdisplay3152.html",
 			"cost": 195,
-			"prerequisites": [
-				"Level 2 Diviner"
-			],
 			"sources": [ "Ultimate Magic" ],
 			"description": [
-				"## Apprentice Chapbook of Rul Thaven",
-				"### Level 2 Diviner",
+				"### Apprentice Chapbook of Rul Thaven",
+				"#### Level 2 Diviner",
 				"",
 				"**Source** [Ultimate Magic pg. 121](source:Ultimate_Magic)",
 				"",
@@ -63,13 +60,10 @@
 			"name": "Arctic Call",
 			"file": "spellbookdisplay6da1.html",
 			"cost": 4335,
-			"prerequisites": [
-				"Level 11 Evoker"
-			],
 			"sources": [ "Ultimate Magic" ],
 			"description": [
-				"## Arctic Call",
-				"### Level 11 Evoker",
+				"### Arctic Call",
+				"#### Level 11 Evoker",
 				"",
 				"**Source** [Ultimate Magic pg. 124](source:Ultimate_Magic)",
 				"",
@@ -98,13 +92,10 @@
 			"name": "Arrowsong's Sorrow",
 			"file": "spellbookdisplay6a15.html",
 			"cost": 1200,
-			"prerequisites": [
-				"Level 3 Universalist"
-			],
 			"sources": [ "Arcane Anthology" ],
 			"description": [
-				"## Arrowsong's Sorrow",
-				"### Level 3 Universalist",
+				"### Arrowsong's Sorrow",
+				"#### Level 3 Universalist",
 				"",
 				"**Source** [Arcane Anthology pg. 30](source:Arcane_Anthology)",
 				"",
@@ -125,13 +116,10 @@
 			"name": "Book of Harms",
 			"file": "spellbookdisplayb4cd.html",
 			"cost": 535,
-			"prerequisites": [
-				"Level 5 Evoker"
-			],
 			"sources": [ "Ultimate Magic" ],
 			"description": [
-				"## Book of Harms",
-				"### Level 5 Evoker",
+				"### Book of Harms",
+				"#### Level 5 Evoker",
 				"",
 				"**Source** [Ultimate Magic pg. 122](source:Ultimate_Magic)",
 				"",
@@ -156,13 +144,10 @@
 			"name": "Book of the Grave",
 			"file": "spellbookdisplay43e0.html",
 			"cost": 815,
-			"prerequisites": [
-				"Level 6 Necromancer"
-			],
 			"sources": [ "Ultimate Magic" ],
 			"description": [
-				"## Book of the Grave",
-				"### Level 6 Necromancer",
+				"### Book of the Grave",
+				"#### Level 6 Necromancer",
 				"",
 				"**Source** [Ultimate Magic pg. 122](source:Ultimate_Magic)",
 				"",
@@ -187,13 +172,10 @@
 			"name": "Calamaes Fragment",
 			"file": "spellbookdisplay2539.html",
 			"cost": 1565,
-			"prerequisites": [
-				"Level 7 Transmuter"
-			],
 			"sources": [ "Arcane Anthology" ],
 			"description": [
-				"## Calamaes Fragment",
-				"### Level 7 Transmuter",
+				"### Calamaes Fragment",
+				"#### Level 7 Transmuter",
 				"",
 				"**Source** [Arcane Anthology pg. 18](source:Arcane_Anthology)",
 				"",
@@ -211,13 +193,10 @@
 			"name": "Chymist's Guidebook",
 			"file": "spellbookdisplayc4e9.html",
 			"cost": 2545,
-			"prerequisites": [
-				"Level 15 Alchemist"
-			],
 			"sources": [ "Ultimate Magic" ],
 			"description": [
-				"## Chymist's Guidebook",
-				"### Level 15 Alchemist",
+				"### Chymist's Guidebook",
+				"#### Level 15 Alchemist",
 				"",
 				"**Source** [Ultimate Magic pg. 125](source:Ultimate_Magic)",
 				"",
@@ -237,13 +216,10 @@
 			"name": "Cold Irony",
 			"file": "spellbookdisplay6dab.html",
 			"cost": 2420,
-			"prerequisites": [
-				"Level 15 Bard"
-			],
 			"sources": [ "Arcane Anthology" ],
 			"description": [
-				"## Cold Irony",
-				"### Level 15 Bard",
+				"### Cold Irony",
+				"#### Level 15 Bard",
 				"",
 				"**Source** [Arcane Anthology pg. 24](source:Arcane_Anthology)",
 				"",
@@ -266,13 +242,10 @@
 			"name": "Cyrusian Codex",
 			"file": "spellbookdisplay108b.html",
 			"cost": 4425,
-			"prerequisites": [
-				"Level 11 Transmuter"
-			],
 			"sources": [ "Arcane Anthology" ],
 			"description": [
-				"## Cyrusian Codex",
-				"### Level 11 Transmuter",
+				"### Cyrusian Codex",
+				"#### Level 11 Transmuter",
 				"",
 				"**Source** [Arcane Anthology pg. 18](source:Arcane_Anthology)",
 				"",
@@ -297,13 +270,10 @@
 			"name": "Defensive Primer",
 			"file": "spellbookdisplay4fe2.html",
 			"cost": 185,
-			"prerequisites": [
-				"Level 1 Abjurer"
-			],
 			"sources": [ "Ultimate Magic" ],
 			"description": [
-				"## Defensive Primer",
-				"### Level 1 Abjurer",
+				"### Defensive Primer",
+				"#### Level 1 Abjurer",
 				"",
 				"**Source** [Ultimate Magic pg. 121](source:Ultimate_Magic)",
 				"",
@@ -322,13 +292,10 @@
 			"name": "Erages Journeyman's Manual",
 			"file": "spellbookdisplayfffa.html",
 			"cost": 575,
-			"prerequisites": [
-				"Level 7 Magus"
-			],
 			"sources": [ "Arcane Anthology" ],
 			"description": [
-				"## Erages Journeyman's Manual",
-				"### Level 7 Magus",
+				"### Erages Journeyman's Manual",
+				"#### Level 7 Magus",
 				"",
 				"**Source** [Arcane Anthology pg. 5](source:Arcane_Anthology)",
 				"",
@@ -349,13 +316,10 @@
 			"name": "Galtan Cookbook",
 			"file": "spellbookdisplay39e0.html",
 			"cost": 670,
-			"prerequisites": [
-				"Level 8 Alchemist"
-			],
 			"sources": [ "Arcane Anthology" ],
 			"description": [
-				"## Galtan Cookbook",
-				"### Level 8 Alchemist",
+				"### Galtan Cookbook",
+				"#### Level 8 Alchemist",
 				"",
 				"**Source** [Arcane Anthology pg. 5](source:Arcane_Anthology)",
 				"",
@@ -376,13 +340,10 @@
 			"name": "Grandfather's Legacy",
 			"file": "spellbookdisplay24c5.html",
 			"cost": 7635,
-			"prerequisites": [
-				"Level 14 Necromancer"
-			],
 			"sources": [ "Ultimate Magic" ],
 			"description": [
-				"## Grandfather's Legacy",
-				"### Level 14 Necromancer",
+				"### Grandfather's Legacy",
+				"#### Level 14 Necromancer",
 				"",
 				"**Source** [Ultimate Magic pg. 124](source:Ultimate_Magic)",
 				"",
@@ -407,13 +368,10 @@
 			"name": "Grimoire of Glittering Eyes",
 			"file": "spellbookdisplayfd13.html",
 			"cost": 1055,
-			"prerequisites": [
-				"Level 7 Illusionist"
-			],
 			"sources": [ "Ultimate Magic" ],
 			"description": [
-				"## Grimoire of Glittering Eyes",
-				"### Level 7 Illusionist",
+				"### Grimoire of Glittering Eyes",
+				"#### Level 7 Illusionist",
 				"",
 				"**Source** [Ultimate Magic pg. 122](source:Ultimate_Magic)",
 				"",
@@ -440,13 +398,10 @@
 			"name": "Guardian Grimoire",
 			"file": "spellbookdisplaye7c9.html",
 			"cost": 10055,
-			"prerequisites": [
-				"Level 15 Abjurer"
-			],
 			"sources": [ "Ultimate Magic" ],
 			"description": [
-				"## Guardian Grimoire",
-				"### Level 15 Abjurer",
+				"### Guardian Grimoire",
+				"#### Level 15 Abjurer",
 				"",
 				"**Source** [Ultimate Magic pg. 125](source:Ultimate_Magic)",
 				"",
@@ -476,13 +431,10 @@
 			"name": "Insights of Far-Seeing Taernis",
 			"file": "spellbookdisplay6182.html",
 			"cost": 4555,
-			"prerequisites": [
-				"Level 12 Conjurer"
-			],
 			"sources": [ "Ultimate Magic" ],
 			"description": [
-				"## Insights of Far-Seeing Taernis",
-				"### Level 12 Conjurer",
+				"### Insights of Far-Seeing Taernis",
+				"#### Level 12 Conjurer",
 				"",
 				"**Source** [Ultimate Magic pg. 124](source:Ultimate_Magic)",
 				"",
@@ -511,13 +463,10 @@
 			"name": "Journal of the Beast Within",
 			"file": "spellbookdisplayc34b.html",
 			"cost": 915,
-			"prerequisites": [
-				"Level 10 Alchemist"
-			],
 			"sources": [ "Ultimate Magic" ],
 			"description": [
-				"## Journal of the Beast Within",
-				"### Level 10 Alchemist",
+				"### Journal of the Beast Within",
+				"#### Level 10 Alchemist",
 				"",
 				"**Source** [Ultimate Magic pg. 123](source:Ultimate_Magic)",
 				"",
@@ -539,13 +488,10 @@
 			"name": "Journeyman Book of Rul Thaven",
 			"file": "spellbookdisplay84c7.html",
 			"cost": 2195,
-			"prerequisites": [
-				"Level 9 Diviner"
-			],
 			"sources": [ "Ultimate Magic" ],
 			"description": [
-				"## Journeyman Book of Rul Thaven",
-				"### Level 9 Diviner",
+				"### Journeyman Book of Rul Thaven",
+				"#### Level 9 Diviner",
 				"",
 				"**Source** [Ultimate Magic pg. 123](source:Ultimate_Magic)",
 				"",
@@ -573,13 +519,10 @@
 			"name": "Lab Journal of Constance Inflix",
 			"file": "spellbookdisplay0f2d.html",
 			"cost": 395,
-			"prerequisites": [
-				"Level 5 Alchemist"
-			],
 			"sources": [ "Ultimate Magic" ],
 			"description": [
-				"## Lab Journal of Constance Inflix",
-				"### Level 5 Alchemist",
+				"### Lab Journal of Constance Inflix",
+				"#### Level 5 Alchemist",
 				"",
 				"**Source** [Ultimate Magic pg. 122](source:Ultimate_Magic)",
 				"",
@@ -599,13 +542,10 @@
 			"name": "Library of the Dancer of Skins",
 			"file": "spellbookdisplay4644.html",
 			"cost": 16435,
-			"prerequisites": [
-				"Level 19 Universalist"
-			],
 			"sources": [ "Ultimate Magic" ],
 			"description": [
-				"## Library of the Dancer of Skins",
-				"### Level 19 Universalist",
+				"### Library of the Dancer of Skins",
+				"#### Level 19 Universalist",
 				"",
 				"**Source** [Ultimate Magic pg. 126](source:Ultimate_Magic)",
 				"",
@@ -632,13 +572,10 @@
 			"name": "Manual of Binding",
 			"file": "spellbookdisplay124d.html",
 			"cost": 17165,
-			"prerequisites": [
-				"Level 18 Conjurer"
-			],
 			"sources": [ "Ultimate Magic" ],
 			"description": [
-				"## Manual of Binding",
-				"### Level 18 Conjurer",
+				"### Manual of Binding",
+				"#### Level 18 Conjurer",
 				"",
 				"**Source** [Ultimate Magic pg. 126](source:Ultimate_Magic)",
 				"",
@@ -670,13 +607,10 @@
 			"name": "Manuscript of Jack Were-son",
 			"file": "spellbookdisplay7208.html",
 			"cost": 2835,
-			"prerequisites": [
-				"Level 10 Universalist"
-			],
 			"sources": [ "Ultimate Magic" ],
 			"description": [
-				"## Manuscript of Jack Were-son",
-				"### Level 10 Universalist",
+				"### Manuscript of Jack Were-son",
+				"#### Level 10 Universalist",
 				"",
 				"**Source** [Ultimate Magic pg. 123](source:Ultimate_Magic)",
 				"",
@@ -696,13 +630,10 @@
 			"name": "Master Books of Rul Thaven",
 			"file": "spellbookdisplayb284.html",
 			"cost": 12725,
-			"prerequisites": [
-				"Level 17 Diviner"
-			],
 			"sources": [ "Ultimate Magic" ],
 			"description": [
-				"## Master Books of Rul Thaven",
-				"### Level 17 Diviner",
+				"### Master Books of Rul Thaven",
+				"#### Level 17 Diviner",
 				"",
 				"**Source** [Ultimate Magic pg. 126](source:Ultimate_Magic)",
 				"",
@@ -734,13 +665,10 @@
 			"name": "Mastery of Word and Thought",
 			"file": "spellbookdisplayad2b.html",
 			"cost": 22675,
-			"prerequisites": [
-				"Level 20 Enchanter"
-			],
 			"sources": [ "Ultimate Magic" ],
 			"description": [
-				"## Mastery of Word and Thought",
-				"### Level 20 Enchanter",
+				"### Mastery of Word and Thought",
+				"#### Level 20 Enchanter",
 				"",
 				"**Source** [Ultimate Magic pg. 127](source:Ultimate_Magic)",
 				"",
@@ -772,13 +700,10 @@
 			"name": "Mysteries of Shadow",
 			"file": "spellbookdisplay1782.html",
 			"cost": 11865,
-			"prerequisites": [
-				"Level 16 Illusionist"
-			],
 			"sources": [ "Ultimate Magic" ],
 			"description": [
-				"## Mysteries of Shadow",
-				"### Level 16 Illusionist",
+				"### Mysteries of Shadow",
+				"#### Level 16 Illusionist",
 				"",
 				"**Source** [Ultimate Magic pg. 125](source:Ultimate_Magic)",
 				"",
@@ -809,13 +734,10 @@
 			"name": "Nyzam's Remedies",
 			"file": "spellbookdisplay12b0.html",
 			"cost": 50,
-			"prerequisites": [
-				"Level 3 Alchemist"
-			],
 			"sources": [ "Arcane Anthology" ],
 			"description": [
-				"## Nyzam's Remedies",
-				"### Level 3 Alchemist",
+				"### Nyzam's Remedies",
+				"#### Level 3 Alchemist",
 				"",
 				"**Source** [Arcane Anthology pg. 5](source:Arcane_Anthology)",
 				"",
@@ -834,13 +756,10 @@
 			"name": "Quest Eternal",
 			"file": "spellbookdisplay9e10.html",
 			"cost": 6475,
-			"prerequisites": [
-				"Level 13 Diviner"
-			],
 			"sources": [ "Ultimate Magic" ],
 			"description": [
-				"## Quest Eternal",
-				"### Level 13 Diviner",
+				"### Quest Eternal",
+				"#### Level 13 Diviner",
 				"",
 				"**Source** [Ultimate Magic pg. 124](source:Ultimate_Magic)",
 				"",
@@ -869,13 +788,10 @@
 			"name": "Runes of Wealth",
 			"file": "spellbookdisplay1e01.html",
 			"cost": 26365,
-			"prerequisites": [
-				"Level 18 Transmuter"
-			],
 			"sources": [ "Arcane Anthology" ],
 			"description": [
-				"## Runes of Wealth",
-				"### Level 18 Transmuter",
+				"### Runes of Wealth",
+				"#### Level 18 Transmuter",
 				"",
 				"**Source** [Arcane Anthology pg. 18](source:Arcane_Anthology)",
 				"",
@@ -903,13 +819,10 @@
 			"name": "Sarini's Workbook",
 			"file": "spellbookdisplayc6ee.html",
 			"cost": 4295,
-			"prerequisites": [
-				"Level 16 Magus with Bard Spells"
-			],
 			"sources": [ "Arcane Anthology" ],
 			"description": [
-				"## Sarini's Workbook",
-				"### Level 16 Magus with Bard Spells",
+				"### Sarini's Workbook",
+				"#### Level 16 Magus with Bard Spells",
 				"",
 				"**Source** [Arcane Anthology pg. 26](source:Arcane_Anthology)",
 				"",
@@ -933,13 +846,10 @@
 			"name": "Songs of the Linnorm Kings",
 			"file": "spellbookdisplaye55f.html",
 			"cost": 180,
-			"prerequisites": [
-				"Level 5 Skald"
-			],
 			"sources": [ "Arcane Anthology" ],
 			"description": [
-				"## Songs of the Linnorm Kings",
-				"### Level 5 Skald",
+				"### Songs of the Linnorm Kings",
+				"#### Level 5 Skald",
 				"",
 				"**Source** [Arcane Anthology pg. 5](source:Arcane_Anthology)",
 				"",
@@ -960,13 +870,10 @@
 			"name": "The Formulae of Master Gebr",
 			"file": "spellbookdisplay5d9c.html",
 			"cost": 6615,
-			"prerequisites": [
-				"Level 20 Alchemist"
-			],
 			"sources": [ "Ultimate Magic" ],
 			"description": [
-				"## The Formulae of Master Gebr",
-				"### Level 20 Alchemist",
+				"### The Formulae of Master Gebr",
+				"#### Level 20 Alchemist",
 				"",
 				"**Source** [Ultimate Magic pg. 127](source:Ultimate_Magic)",
 				"",
@@ -991,13 +898,10 @@
 			"name": "The Guide's Analects",
 			"file": "spellbookdisplay21db.html",
 			"cost": 690,
-			"prerequisites": [
-				"Level 6 Universalist"
-			],
 			"sources": [ "Arcane Anthology" ],
 			"description": [
-				"## The Guide's Analects",
-				"### Level 6 Universalist",
+				"### The Guide's Analects",
+				"#### Level 6 Universalist",
 				"",
 				"**Source** [Arcane Anthology pg. 6](source:Arcane_Anthology)",
 				"",
@@ -1018,13 +922,10 @@
 			"name": "The Last Azlanti's Analects",
 			"file": "spellbookdisplayfde6.html",
 			"cost": 7030,
-			"prerequisites": [
-				"Level 15 Universalist"
-			],
 			"sources": [ "Arcane Anthology" ],
 			"description": [
-				"## The Last Azlanti's Analects",
-				"### Level 15 Universalist",
+				"### The Last Azlanti's Analects",
+				"#### Level 15 Universalist",
 				"",
 				"**Source** [Arcane Anthology pg. 6](source:Arcane_Anthology)",
 				"",
@@ -1051,13 +952,10 @@
 			"name": "The Prying Eye",
 			"file": "spellbookdisplayb310.html",
 			"cost": 1940,
-			"prerequisites": [
-				"Level 7 Universalist"
-			],
 			"sources": [ "Divine Anthology" ],
 			"description": [
-				"## The Prying Eye",
-				"### Level 7 Universalist",
+				"### The Prying Eye",
+				"#### Level 7 Universalist",
 				"",
 				"**Source** [Divine Anthology pg. 5](source:Divine_Anthology)",
 				"",
@@ -1079,13 +977,10 @@
 			"name": "The Swordsman's Analects",
 			"file": "spellbookdisplay09b8.html",
 			"cost": 250,
-			"prerequisites": [
-				"Level 3 Universalist"
-			],
 			"sources": [ "Arcane Anthology" ],
 			"description": [
-				"## The Swordsman's Analects",
-				"### Level 3 Universalist",
+				"### The Swordsman's Analects",
+				"#### Level 3 Universalist",
 				"",
 				"**Source** [Arcane Anthology pg. 6](source:Arcane_Anthology)",
 				"",
@@ -1105,13 +1000,10 @@
 			"name": "Tome of Stone Wards",
 			"file": "spellbookdisplay7608.html",
 			"cost": 4385,
-			"prerequisites": [
-				"Level 17 Abjurer"
-			],
 			"sources": [ "Arcane Anthology" ],
 			"description": [
-				"## Tome of Stone Wards",
-				"### Level 17 Abjurer",
+				"### Tome of Stone Wards",
+				"#### Level 17 Abjurer",
 				"",
 				"**Source** [Arcane Anthology pg. 28](source:Arcane_Anthology)",
 				"",
@@ -1137,13 +1029,10 @@
 			"name": "Tome of the Transmuter",
 			"file": "spellbookdisplay51f3.html",
 			"cost": 1835,
-			"prerequisites": [
-				"Level 8 Transmuter"
-			],
 			"sources": [ "Ultimate Magic" ],
 			"description": [
-				"## Tome of the Transmuter",
-				"### Level 8 Transmuter",
+				"### Tome of the Transmuter",
+				"#### Level 8 Transmuter",
 				"",
 				"**Source** [Ultimate Magic pg. 123](source:Ultimate_Magic)",
 				"",
@@ -1170,13 +1059,10 @@
 			"name": "Traveler's Tome",
 			"file": "spellbookdisplay31ff.html",
 			"cost": 365,
-			"prerequisites": [
-				"Level 4 Transmuter"
-			],
 			"sources": [ "Ultimate Magic" ],
 			"description": [
-				"## Traveler's Tome",
-				"### Level 4 Transmuter",
+				"### Traveler's Tome",
+				"#### Level 4 Transmuter",
 				"",
 				"**Source** [Ultimate Magic pg. 121](source:Ultimate_Magic)",
 				"",
@@ -1196,13 +1082,10 @@
 			"name": "Unnamed Journal",
 			"file": "spellbookdisplay57a2.html",
 			"cost": 275,
-			"prerequisites": [
-				"Level 3 Universalist"
-			],
 			"sources": [ "Ultimate Magic" ],
 			"description": [
-				"## Unnamed Journal",
-				"### Level 3 Universalist",
+				"### Unnamed Journal",
+				"#### Level 3 Universalist",
 				"",
 				"**Source** [Ultimate Magic pg. 121](source:Ultimate_Magic)",
 				"",
@@ -1218,13 +1101,10 @@
 			"name": "Wisdom of Jatembe (Nine Warriors Edition)",
 			"file": "spellbookdisplayd534.html",
 			"cost": 13415,
-			"prerequisites": [
-				"Level 17 Diviner"
-			],
 			"sources": [ "Arcane Anthology" ],
 			"description": [
-				"## Wisdom of Jatembe (Nine Warriors Edition)",
-				"### Level 17 Diviner",
+				"### Wisdom of Jatembe (Nine Warriors Edition)",
+				"#### Level 17 Diviner",
 				"",
 				"**Source** [Arcane Anthology pg. 13](source:Arcane_Anthology)",
 				"",
@@ -1251,13 +1131,10 @@
 			"name": "Wisdom of Jatembe (Six Warriors Edition)",
 			"file": "spellbookdisplay64db.html",
 			"cost": 4725,
-			"prerequisites": [
-				"Level 11 Diviner"
-			],
 			"sources": [ "Arcane Anthology" ],
 			"description": [
-				"## Wisdom of Jatembe (Six Warriors Edition)",
-				"### Level 11 Diviner",
+				"### Wisdom of Jatembe (Six Warriors Edition)",
+				"#### Level 11 Diviner",
 				"",
 				"**Source** [Arcane Anthology pg. 12](source:Arcane_Anthology)",
 				"",
@@ -1281,13 +1158,10 @@
 			"name": "Wisdom of Jatembe (Three Warriors Edition)",
 			"file": "spellbookdisplay585d.html",
 			"cost": 375,
-			"prerequisites": [
-				"Level 5 Diviner"
-			],
 			"sources": [ "Arcane Anthology" ],
 			"description": [
-				"## Wisdom of Jatembe (Three Warriors Edition)",
-				"### Level 5 Diviner",
+				"### Wisdom of Jatembe (Three Warriors Edition)",
+				"#### Level 5 Diviner",
 				"",
 				"**Source** [Arcane Anthology pg. 12](source:Arcane_Anthology)",
 				"",
