@@ -6234,7 +6234,7 @@
 		"description": [
 			"## Bloodline Mutations",
 			"",
-			"**Source** [Magic Tactics Toolbox](source:Magic_Tactics_Toolbox]",
+			"**Source** [Magic Tactics Toolbox](source:Magic_Tactics_Toolbox)",
 			"",
 			"Although heirs to similar arcane bloodlines may share commonalities, the unique circumstances in which a bloodline enters a bloodrager or sorcerer's lineage can result in the manifestation of particularly strange or unusual bloodline powers known as mutations. Whenever a bloodrager or a sorcerer gains a new bloodline power, she can swap her bloodline power for a bloodline mutation whose prerequisites she meets. Once this choice is made, it cannot be changed, and a bloodrager or sorcerer cannot swap a bloodline power that she has altered or replaced with an archetype for a bloodline mutation. A bloodrager need not be in a bloodrage to use her bloodline mutation powers.",
 			"",
@@ -16037,9 +16037,7 @@
 		]
 	},
 	"advanced_armor_training": {
-		"sources": [
-			"Armor Master's Handbook"
-		],
+		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Advanced Armor Training",
 			"",
@@ -16120,9 +16118,7 @@
 		]
 	},
 	"advanced_weapon_training": {
-		"sources": [
-			"Weapon Master's Handbook"
-		],
+		"sources": [ "Weapon Master's Handbook" ],
 		"description": [
 			"## Advanced Weapon Training",
 			"",
@@ -26924,9 +26920,7 @@
 			{
 				"name": "Ancestor",
 				"file": "mysterydisplay1854.html",
-				"sources": [
-					"Ultimate Magic"
-				],
+				"sources": [ "Ultimate Magic" ],
 				"deities": [
 					"Erastil",
 					"Irori",
@@ -26971,9 +26965,7 @@
 			{
 				"name": "Apocalypse",
 				"file": "mysterydisplaya5ab.html",
-				"sources": [
-					"Monster Codex"
-				],
+				"sources": [ "Monster Codex" ],
 				"deities": [
 					"Gorum",
 					"Rovagug"
@@ -27019,9 +27011,7 @@
 			{
 				"name": "Ascetic",
 				"file": "mysterydisplayd1c6.html",
-				"sources": [
-					"Villain Codex"
-				],
+				"sources": [ "Villain Codex" ],
 				"deities": [
 					"Gozreh",
 					"Irori"
@@ -27061,9 +27051,7 @@
 			{
 				"name": "Battle",
 				"file": "mysterydisplay55dc.html",
-				"sources": [
-					"Advanced Player's Guide"
-				],
+				"sources": [ "Advanced Player's Guide" ],
 				"deities": [
 					"Cayden Cailean",
 					"Gorum",
@@ -27109,9 +27097,7 @@
 			{
 				"name": "Bones",
 				"file": "mysterydisplay706f.html",
-				"sources": [
-					"Advanced Player's Guide"
-				],
+				"sources": [ "Advanced Player's Guide" ],
 				"deities": [
 					"Norgorber",
 					"Pharasma",
@@ -27156,9 +27142,7 @@
 			{
 				"name": "Dark Tapestry",
 				"file": "mysterydisplay7137.html",
-				"sources": [
-					"Ultimate Magic"
-				],
+				"sources": [ "Ultimate Magic" ],
 				"deities": [
 					"Lamashtu",
 					"Norgorber",
@@ -27203,9 +27187,7 @@
 			{
 				"name": "Dragon",
 				"file": "mysterydisplay1041.html",
-				"sources": [
-					"Legacy of Dragons"
-				],
+				"sources": [ "Legacy of Dragons" ],
 				"deities": [
 					"Dahak",
 					"General Susumu",
@@ -27257,9 +27239,7 @@
 			{
 				"name": "Elemental",
 				"file": "mysterydisplay04c4.html",
-				"sources": [
-					"Elemental Master's Handbook"
-				],
+				"sources": [ "Elemental Master's Handbook" ],
 				"deities": [
 					"Elemental Lords",
 					"Gozreh",
@@ -27308,9 +27288,7 @@
 			{
 				"name": "Flame",
 				"file": "mysterydisplay5771.html",
-				"sources": [
-					"Advanced Player's Guide"
-				],
+				"sources": [ "Advanced Player's Guide" ],
 				"deities": [
 					"Asmodeus",
 					"Sarenrae"
@@ -27354,9 +27332,7 @@
 			{
 				"name": "Godclaw",
 				"file": "mysterydisplay7ee6.html",
-				"sources": [
-					"Path of the Hellknight"
-				],
+				"sources": [ "Path of the Hellknight" ],
 				"deities": [
 					"Abadar",
 					"Asmodeus",
@@ -27405,9 +27381,7 @@
 			{
 				"name": "Heavens",
 				"file": "mysterydisplay923d.html",
-				"sources": [
-					"Advanced Player's Guide"
-				],
+				"sources": [ "Advanced Player's Guide" ],
 				"deities": [
 					"Desna",
 					"Gozreh",
@@ -27453,9 +27427,7 @@
 			{
 				"name": "Intrigue",
 				"file": "mysterydisplayb269.html",
-				"sources": [
-					"Ultimate Intrigue"
-				],
+				"sources": [ "Ultimate Intrigue" ],
 				"deities": [
 					"Calistria",
 					"Norgorber"
@@ -27543,9 +27515,7 @@
 			{
 				"name": "Life",
 				"file": "mysterydisplay195c.html",
-				"sources": [
-					"Advanced Player's Guide"
-				],
+				"sources": [ "Advanced Player's Guide" ],
 				"deities": [
 					"Gozreh",
 					"Pharasma",
@@ -27590,9 +27560,7 @@
 			{
 				"name": "Lore",
 				"file": "mysterydisplayd63b.html",
-				"sources": [
-					"Advanced Player's Guide"
-				],
+				"sources": [ "Advanced Player's Guide" ],
 				"deities": [
 					"Abadar",
 					"Irori",
@@ -27637,9 +27605,7 @@
 			{
 				"name": "Lunar",
 				"file": "mysterydisplayd77f.html",
-				"sources": [
-					"Blood of the Moon"
-				],
+				"sources": [ "Blood of the Moon" ],
 				"deities": [
 					"Ashava",
 					"Desna",
@@ -27687,9 +27653,7 @@
 			{
 				"name": "Metal",
 				"file": "mysterydisplay508a.html",
-				"sources": [
-					"Ultimate Magic"
-				],
+				"sources": [ "Ultimate Magic" ],
 				"deities": [
 					"Abadar",
 					"Gorum",
@@ -27734,9 +27698,7 @@
 			{
 				"name": "Nature",
 				"file": "mysterydisplayd262.html",
-				"sources": [
-					"Advanced Player's Guide"
-				],
+				"sources": [ "Advanced Player's Guide" ],
 				"deities": [
 					"Erastil",
 					"Gozreh"
@@ -27831,9 +27793,7 @@
 			{
 				"name": "Outer Rifts",
 				"file": "mysterydisplay0ce0.html",
-				"sources": [
-					"Inner Sea Magic"
-				],
+				"sources": [ "Inner Sea Magic" ],
 				"deities": [
 					"Iomedae",
 					"Groetus",
@@ -27879,9 +27839,7 @@
 			{
 				"name": "Reaper",
 				"file": "mysterydisplay928f.html",
-				"sources": [
-					"Pathfinder #139: The Dead Road"
-				],
+				"sources": [ "Pathfinder #139: The Dead Road" ],
 				"deities": [
 					"Achaekek",
 					"Groetus",
@@ -27928,9 +27886,7 @@
 			{
 				"name": "Shadow",
 				"file": "mysterydisplay372c.html",
-				"sources": [
-					"Blood of Shadows"
-				],
+				"sources": [ "Blood of Shadows" ],
 				"deities": [
 					"Groetus",
 					"Lao Shu Po",
@@ -27976,9 +27932,7 @@
 			{
 				"name": "Solar",
 				"file": "mysterydisplay1559.html",
-				"sources": [
-					"The Harrow Handbook"
-				],
+				"sources": [ "The Harrow Handbook" ],
 				"deities": [
 					"Desna",
 					"Gozreh",
@@ -28030,9 +27984,7 @@
 			{
 				"name": "Spellscar",
 				"file": "mysterydisplayf6bd.html",
-				"sources": [
-					"Inner Sea Magic"
-				],
+				"sources": [ "Inner Sea Magic" ],
 				"deities": [
 					"Gozreh",
 					"Lamashtu",
@@ -28078,9 +28030,7 @@
 			{
 				"name": "Stone",
 				"file": "mysterydisplay1180.html",
-				"sources": [
-					"Advanced Player's Guide"
-				],
+				"sources": [ "Advanced Player's Guide" ],
 				"deities": [
 					"Abadar",
 					"Gorum",
@@ -28125,9 +28075,7 @@
 			{
 				"name": "Streets",
 				"file": "mysterydisplay18c8.html",
-				"sources": [
-					"Heroes of the Streets"
-				],
+				"sources": [ "Heroes of the Streets" ],
 				"deities": [
 					"Cayden Cailean",
 					"Milani",
@@ -28170,9 +28118,7 @@
 			{
 				"name": "Succor",
 				"file": "mysterydisplay04f8.html",
-				"sources": [
-					"Healer's Handbook"
-				],
+				"sources": [ "Healer's Handbook" ],
 				"deities": [
 					"Milani",
 					"Pharasma",
@@ -28220,9 +28166,7 @@
 			{
 				"name": "Time",
 				"file": "mysterydisplay65b9.html",
-				"sources": [
-					"Ultimate Magic"
-				],
+				"sources": [ "Ultimate Magic" ],
 				"deities": [
 					"Gozreh",
 					"Nethys",
@@ -28267,9 +28211,7 @@
 			{
 				"name": "Volcano",
 				"file": "mysterydisplay6f38.html",
-				"sources": [
-					"Pathfinder #95: Anvil of Fire"
-				],
+				"sources": [ "Pathfinder #95: Anvil of Fire" ],
 				"deities": [
 					"Flauros",
 					"Mhar",
@@ -28317,9 +28259,7 @@
 			{
 				"name": "Waves",
 				"file": "mysterydisplay037d.html",
-				"sources": [
-					"Advanced Player's Guide"
-				],
+				"sources": [ "Advanced Player's Guide" ],
 				"deities": [
 					"Gozreh",
 					"Pharasma"
@@ -28363,9 +28303,7 @@
 			{
 				"name": "Whimsy",
 				"file": "mysterydisplayb47e.html",
-				"sources": [
-					"Legacy of the First World"
-				],
+				"sources": [ "Legacy of the First World" ],
 				"deities": [
 					"Green Mother",
 					"Lantern King",
@@ -28413,9 +28351,7 @@
 			{
 				"name": "Wind",
 				"file": "mysterydisplay437e.html",
-				"sources": [
-					"Advanced Player's Guide"
-				],
+				"sources": [ "Advanced Player's Guide" ],
 				"deities": [
 					"Gozreh",
 					"Shelyn"
@@ -28459,9 +28395,7 @@
 			{
 				"name": "Winter",
 				"file": "mysterydisplay05e6.html",
-				"sources": [
-					"People of the North"
-				],
+				"sources": [ "People of the North" ],
 				"deities": [
 					"Gorum",
 					"Gozreh",
@@ -28508,9 +28442,7 @@
 			{
 				"name": "Wood",
 				"file": "mysterydisplay696e.html",
-				"sources": [
-					"Ultimate Magic"
-				],
+				"sources": [ "Ultimate Magic" ],
 				"deities": [
 					"Erastil",
 					"Gozreh"
@@ -35863,9 +35795,7 @@
 			{
 				"name": "Air",
 				"file": "warpriestblessingdisplaybfc6.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Gozreh, Shelyn",
 				"description": [
 					"## Air",
@@ -35881,9 +35811,7 @@
 			{
 				"name": "Animal",
 				"file": "warpriestblessingdisplay59e5.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Erastil, Gozreh",
 				"description": [
 					"## Animal",
@@ -35899,9 +35827,7 @@
 			{
 				"name": "Artifice",
 				"file": "warpriestblessingdisplayc9f7.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Torag",
 				"description": [
 					"## Artifice",
@@ -35917,9 +35843,7 @@
 			{
 				"name": "Chaos",
 				"file": "warpriestblessingdisplay62a5.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Calistria, Cayden Cailean, Desna, Gorum, Lamashtu, Rovagug",
 				"description": [
 					"## Chaos",
@@ -35935,9 +35859,7 @@
 			{
 				"name": "Charm",
 				"file": "warpriestblessingdisplay7b1f.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Calistria, Cayden Cailean, Norgorber, Shelyn",
 				"description": [
 					"## Charm",
@@ -35981,9 +35903,7 @@
 			{
 				"name": "Curse",
 				"file": "warpriestblessingdisplay00ce.html",
-				"sources": [
-					"Magic Tactics Toolbox"
-				],
+				"sources": [ "Magic Tactics Toolbox" ],
 				"deities": "Andirifkhu, Calistria, Desna, Graffiacane, Magdh",
 				"description": [
 					"## Curse",
@@ -35999,9 +35919,7 @@
 			{
 				"name": "Darkness",
 				"file": "warpriestblessingdisplay95e4.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Zon-Kuthon",
 				"description": [
 					"## Darkness",
@@ -36017,9 +35935,7 @@
 			{
 				"name": "Death",
 				"file": "warpriestblessingdisplay1db1.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Norgorber, Pharasma, Urgathoa, Zon-Kuthon",
 				"description": [
 					"## Death",
@@ -36035,9 +35951,7 @@
 			{
 				"name": "Destruction",
 				"file": "warpriestblessingdisplay4d6f.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Gorum, Nethys, Rovagug, Zon-Kuthon",
 				"description": [
 					"## Destruction",
@@ -36053,9 +35967,7 @@
 			{
 				"name": "Earth",
 				"file": "warpriestblessingdisplaydbe1.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Abadar, Torag",
 				"description": [
 					"## Earth",
@@ -36071,9 +35983,7 @@
 			{
 				"name": "Earthquake",
 				"file": "warpriestblessingdisplay1f03.html",
-				"sources": [
-					"Ultimate Wilderness"
-				],
+				"sources": [ "Ultimate Wilderness" ],
 				"deities": "Evil deities that offer the Earth blessing or nonevil deities with disasters in their portfolios",
 				"description": [
 					"## Earthquake",
@@ -36089,9 +35999,7 @@
 			{
 				"name": "Evil",
 				"file": "warpriestblessingdisplay4f4d.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Asmodeus, Lamashtu, Norgorber, Rovagug, Urgathoa, Zon-Kuthon",
 				"description": [
 					"## Evil",
@@ -36107,9 +36015,7 @@
 			{
 				"name": "Fire",
 				"file": "warpriestblessingdisplayb4ee.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Asmodeus, Sarenrae",
 				"description": [
 					"## Fire",
@@ -36125,9 +36031,7 @@
 			{
 				"name": "Flood",
 				"file": "warpriestblessingdisplay4be3.html",
-				"sources": [
-					"Ultimate Wilderness"
-				],
+				"sources": [ "Ultimate Wilderness" ],
 				"deities": "Evil deities that offer the Water blessing or nonevil deities with disasters in their portfolios",
 				"description": [
 					"## Flood",
@@ -36143,9 +36047,7 @@
 			{
 				"name": "Glory",
 				"file": "warpriestblessingdisplay7908.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Gorum, Iomedae, Sarenrae",
 				"description": [
 					"## Glory",
@@ -36161,9 +36063,7 @@
 			{
 				"name": "Godclaw",
 				"file": "warpriestblessingdisplay7ee6.html",
-				"sources": [
-					"Disciple's Doctrine"
-				],
+				"sources": [ "Disciple's Doctrine" ],
 				"deities": "Abadar, Asmodeus, Iomedae, Irori, Torag",
 				"description": [
 					"## Godclaw",
@@ -36179,9 +36079,7 @@
 			{
 				"name": "Good",
 				"file": "warpriestblessingdisplay8701.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Cayden Cailean, Desna, Erastil, Iomedae, Sarenrae, Shelyn, Torag",
 				"description": [
 					"## Good",
@@ -36233,9 +36131,7 @@
 			{
 				"name": "Knowledge",
 				"file": "warpriestblessingdisplayf339.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Calistria, Irori, Nethys, Norgorber, Pharasma",
 				"description": [
 					"## Knowledge",
@@ -36251,9 +36147,7 @@
 			{
 				"name": "Law",
 				"file": "warpriestblessingdisplay4ce9.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Abadar, Asmodeus, Erastil, Iomedae, Irori, Torag, Zon-Kuthon",
 				"description": [
 					"## Law",
@@ -36297,9 +36191,7 @@
 			{
 				"name": "Luck",
 				"file": "warpriestblessingdisplaye325.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Calistria, Desna, Shelyn",
 				"description": [
 					"## Luck",
@@ -36315,9 +36207,7 @@
 			{
 				"name": "Madness",
 				"file": "warpriestblessingdisplay5f1e.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Lamashtu",
 				"description": [
 					"## Madness",
@@ -36333,9 +36223,7 @@
 			{
 				"name": "Magic",
 				"file": "warpriestblessingdisplay61f2.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Asmodeus, Nethys, Urgathoa",
 				"description": [
 					"## Magic",
@@ -36379,9 +36267,7 @@
 			{
 				"name": "Plant",
 				"file": "warpriestblessingdisplay918f.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Erastil, Gozreh",
 				"description": [
 					"## Plant",
@@ -36397,9 +36283,7 @@
 			{
 				"name": "Protection",
 				"file": "warpriestblessingdisplayee20.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Abadar, Nethys, Shelyn, Torag",
 				"description": [
 					"## Protection",
@@ -36415,9 +36299,7 @@
 			{
 				"name": "Repose",
 				"file": "warpriestblessingdisplay2df8.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Pharasma",
 				"description": [
 					"## Repose",
@@ -36433,9 +36315,7 @@
 			{
 				"name": "Rune",
 				"file": "warpriestblessingdisplay45fc.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Irori, Nethys",
 				"description": [
 					"## Rune",
@@ -36451,9 +36331,7 @@
 			{
 				"name": "Scalykind",
 				"file": "warpriestblessingdisplay5cf6.html",
-				"sources": [
-					"Advanced Class Origins"
-				],
+				"sources": [ "Advanced Class Origins" ],
 				"deities": "Apsu, Dahak, Ragadahn, Ydersius",
 				"description": [
 					"## Scalykind",
@@ -36469,9 +36347,7 @@
 			{
 				"name": "Shadow",
 				"file": "warpriestblessingdisplay372c.html",
-				"sources": [
-					"Blood of Shadows"
-				],
+				"sources": [ "Blood of Shadows" ],
 				"deities": "Nocticula, Norgorber, Zon-Kuthon",
 				"description": [
 					"## Shadow",
@@ -36487,9 +36363,7 @@
 			{
 				"name": "Strength",
 				"file": "warpriestblessingdisplay4234.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Cayden Cailean, Gorum, Irori, Lamashtu, Urgathoa",
 				"description": [
 					"## Strength",
@@ -36505,9 +36379,7 @@
 			{
 				"name": "Sun",
 				"file": "warpriestblessingdisplay57b3.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Iomedae, Sarenrae",
 				"description": [
 					"## Sun",
@@ -36523,9 +36395,7 @@
 			{
 				"name": "Tornado",
 				"file": "warpriestblessingdisplayff6a.html",
-				"sources": [
-					"Ultimate Wilderness"
-				],
+				"sources": [ "Ultimate Wilderness" ],
 				"deities": "Evil deities that offer the Air blessing or nonevil deities with disasters in their portfolios",
 				"description": [
 					"## Tornado",
@@ -36541,9 +36411,7 @@
 			{
 				"name": "Travel",
 				"file": "warpriestblessingdisplayba15.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Abadar, Cayden Cailean, Desna",
 				"description": [
 					"## Travel",
@@ -36559,9 +36427,7 @@
 			{
 				"name": "Trickery",
 				"file": "warpriestblessingdisplay3da5.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Asmodeus, Calistria, Lamashtu, Norgorber",
 				"description": [
 					"## Trickery",
@@ -36577,9 +36443,7 @@
 			{
 				"name": "Void",
 				"file": "warpriestblessingdisplay2c1e.html",
-				"sources": [
-					"Advanced Class Origins"
-				],
+				"sources": [ "Advanced Class Origins" ],
 				"deities": "Great Old Ones, Groetus",
 				"description": [
 					"## Void",
@@ -36595,9 +36459,7 @@
 			{
 				"name": "War",
 				"file": "warpriestblessingdisplayf936.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Gorum, Iomedae, Rovagug, Urgathoa",
 				"description": [
 					"## War",
@@ -36613,9 +36475,7 @@
 			{
 				"name": "Water",
 				"file": "warpriestblessingdisplayc28e.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Gozreh, Pharasma",
 				"description": [
 					"## Water",
@@ -36631,9 +36491,7 @@
 			{
 				"name": "Weather",
 				"file": "warpriestblessingdisplay2941.html",
-				"sources": [
-					"Advanced Class Guide"
-				],
+				"sources": [ "Advanced Class Guide" ],
 				"deities": "Gozreh, Rovagug",
 				"description": [
 					"## Weather",
@@ -36649,9 +36507,7 @@
 			{
 				"name": "Wildfire",
 				"file": "warpriestblessingdisplay463a.html",
-				"sources": [
-					"Ultimate Wilderness"
-				],
+				"sources": [ "Ultimate Wilderness" ],
 				"deities": "Evil deities that offer the Fire blessing or nonevil deities with disasters in their portfolios",
 				"description": [
 					"## Wildfire",
@@ -37717,9 +37573,7 @@
 			{
 				"name": "Aether",
 				"file": "schooldisplayd3d1.html",
-				"sources": [
-					"Elemental Master's Handbook"
-				],
+				"sources": [ "Elemental Master's Handbook" ],
 				"focused_schools": "",
 				"description": [
 					"## Aether",
@@ -37870,9 +37724,7 @@
 			{
 				"name": "Metal",
 				"file": "schooldisplay508a.html",
-				"sources": [
-					"Ultimate Magic"
-				],
+				"sources": [ "Ultimate Magic" ],
 				"focused_schools": "",
 				"description": [
 					"## Metal",
@@ -37894,9 +37746,7 @@
 			{
 				"name": "Void",
 				"file": "schooldisplay2c1e.html",
-				"sources": [
-					"Dragon Empires Primer"
-				],
+				"sources": [ "Dragon Empires Primer" ],
 				"focused_schools": "",
 				"description": [
 					"## Void",
@@ -37961,9 +37811,7 @@
 			{
 				"name": "Wood",
 				"file": "schooldisplay696e.html",
-				"sources": [
-					"Ultimate Magic"
-				],
+				"sources": [ "Ultimate Magic" ],
 				"focused_schools": "",
 				"description": [
 					"## Wood",
@@ -39364,9 +39212,7 @@
 			{
 				"name": "Order of the Chain",
 				"file": "hellknightordersdisplay2372.html",
-				"sources": [
-					"Path of the Hellknight"
-				],
+				"sources": [ "Path of the Hellknight" ],
 				"short_description": "These Hellknights serve as wardens and trackers devoted to hunting down the enemies of society and locking away dangerous criminals.",
 				"description": [
 					"### Order of the Chain",
@@ -39400,9 +39246,7 @@
 			{
 				"name": "Order of the Gate",
 				"file": "hellknightordersdisplaye5e0.html",
-				"sources": [
-					"Path of the Hellknight"
-				],
+				"sources": [ "Path of the Hellknight" ],
 				"short_description": "Dominated by spellcasting signifers who employ magic in surveillance, manipulation, and execution, this order is known for predicting crimes and creating magical innovations.",
 				"description": [
 					"### Order of the Gate",
@@ -39436,9 +39280,7 @@
 			{
 				"name": "Order of the Godclaw",
 				"file": "hellknightordersdisplay15c0.html",
-				"sources": [
-					"Path of the Hellknight"
-				],
+				"sources": [ "Path of the Hellknight" ],
 				"short_description": "Crusaders in the service of a pantheon of five lawful deities, these Hellknights bring order wherever it is needed, usually by force. Their unusual faith is understood by few.",
 				"description": [
 					"### Order of the Godclaw",
@@ -39472,9 +39314,7 @@
 			{
 				"name": "Order of the Nail",
 				"file": "hellknightordersdisplaye565.html",
-				"sources": [
-					"Path of the Hellknight"
-				],
+				"sources": [ "Path of the Hellknight" ],
 				"short_description": "These knights at the vanguard of civilization bring order to frontier settlements and stamp out those who impede society's march.",
 				"description": [
 					"### Order of the Nail",
@@ -39508,9 +39348,7 @@
 			{
 				"name": "Order of the Pyre",
 				"file": "hellknightordersdisplayb4de.html",
-				"sources": [
-					"Path of the Hellknight"
-				],
+				"sources": [ "Path of the Hellknight" ],
 				"short_description": "With spell and blade, this order seeks out superstition and witchcraft and destroys any chaotic cults that threaten the minds and souls of law-abiding citizens.",
 				"description": [
 					"### Order of the Pyre",
@@ -39545,9 +39383,7 @@
 			{
 				"name": "Order of the Rack",
 				"file": "hellknightordersdisplayd6db.html",
-				"sources": [
-					"Path of the Hellknight"
-				],
+				"sources": [ "Path of the Hellknight" ],
 				"short_description": "These Hellknights root out and quell subversive knowledge and destructive ideas they believe capable of impeding order's march.",
 				"description": [
 					"### Order of the Rack",
@@ -39582,9 +39418,7 @@
 			{
 				"name": "Order of the Scourge",
 				"file": "hellknightordersdisplay66a2.html",
-				"sources": [
-					"Path of the Hellknight"
-				],
+				"sources": [ "Path of the Hellknight" ],
 				"short_description": "Using their vast wealth and resources, these armored sleuths work- sometimes under cover-to take down corrupt politicians, thieves' guilds, and bastions of organized crime.",
 				"description": [
 					"### Order of the Scourge",
@@ -39619,9 +39453,7 @@
 			{
 				"name": "Order of the Coil (Minor Order)",
 				"file": "hellknightordersdisplay50d2.html",
-				"sources": [
-					"Path of the Hellknight"
-				],
+				"sources": [ "Path of the Hellknight" ],
 				"short_description": "A small order of Hellknights that seeks to wipe out the native inhabitants of Sargava in the name of civilization",
 				"description": [
 					"### Order of the Coil (Minor Order)",
@@ -39657,9 +39489,7 @@
 			{
 				"name": "Order of the Crux (Minor Order)",
 				"file": "hellknightordersdisplayb6aa.html",
-				"sources": [
-					"Path of the Hellknight"
-				],
+				"sources": [ "Path of the Hellknight" ],
 				"short_description": "A remnant of the Chelish civil war, these butchers were destroyed by the Order of the Scourge, but have risen again in unlife",
 				"description": [
 					"### Order of the Crux (Minor Order)",
@@ -39687,9 +39517,7 @@
 			{
 				"name": "Order of the Glyph (Minor Order)",
 				"file": "hellknightordersdisplayb64a.html",
-				"sources": [
-					"Path of the Hellknight"
-				],
+				"sources": [ "Path of the Hellknight" ],
 				"short_description": "An unofficial band of Hellknights, charged with protecting the true history of Cheliax",
 				"description": [
 					"### Order of the Glyph (Minor Order)",
@@ -39726,9 +39554,7 @@
 			{
 				"name": "Order of the Pike (Minor Order)",
 				"file": "hellknightordersdisplaye377.html",
-				"sources": [
-					"Path of the Hellknight"
-				],
+				"sources": [ "Path of the Hellknight" ],
 				"short_description": "Monster-slayers and heroes, this order dedicates itself to wiping out dangerous creatures.",
 				"description": [
 					"### Order of the Pike (Minor Order)",
@@ -39765,9 +39591,7 @@
 			{
 				"name": "Order of the Scar (Minor Order)",
 				"file": "hellknightordersdisplay65f9.html",
-				"sources": [
-					"Path of the Hellknight"
-				],
+				"sources": [ "Path of the Hellknight" ],
 				"short_description": "Mercenary assassin-hunters, this order protects its charges and oppsess the Daggermark Guild and the followers of Achaekek.",
 				"description": [
 					"### Order of the Scar (Minor Order)",
@@ -39843,9 +39667,7 @@
 			{
 				"name": "Order of the Wall (Minor Order)",
 				"file": "hellknightordersdisplaycb0d.html",
-				"sources": [
-					"Path of the Hellknight"
-				],
+				"sources": [ "Path of the Hellknight" ],
 				"short_description": "These hellknights serve as guardians and watchmen against the forces that would intrude on the borders of civilization",
 				"description": [
 					"### Order of the Wall (Minor Order)",

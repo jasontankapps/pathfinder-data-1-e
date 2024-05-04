@@ -2,9 +2,7 @@
 	"list": [
 		{
 			"name": "adlet",
-			"sources": [
-				"Bestiary 3"
-			],
+			"sources": [ "Bestiary 3" ],
 			"description": [
 				"## Adlet",
 				"",
@@ -31,9 +29,7 @@
 		},
 		{
 			"name": "aether",
-			"sources": [
-				"Bestiary 5"
-			],
+			"sources": [ "Bestiary 5" ],
 			"description": [
 				"## Aether",
 				"",
@@ -80,9 +76,7 @@
 		},
 		{
 			"name": "android",
-			"sources": [
-				"Bestiary 5"
-			],
+			"sources": [ "Bestiary 5" ],
 			"description": [
 				"## Android",
 				"",
@@ -150,9 +144,7 @@
 		},
 		{
 			"name": "astomoi",
-			"sources": [
-				"Bestiary 5"
-			],
+			"sources": [ "Bestiary 5" ],
 			"description": [
 				"## Astomoi",
 				"",
@@ -161,9 +153,7 @@
 		},
 		{
 			"name": "asura",
-			"sources": [
-				"Bestiary 3"
-			],
+			"sources": [ "Bestiary 3" ],
 			"description": [
 				"## Asura",
 				"",
@@ -219,9 +209,7 @@
 		},
 		{
 			"name": "behemoth",
-			"sources": [
-				"Bestiary 3"
-			],
+			"sources": [ "Bestiary 3" ],
 			"description": [
 				"## Behemoth",
 				"",
@@ -241,9 +229,7 @@
 		},
 		{
 			"name": "blight",
-			"sources": [
-				"Bestiary 6"
-			],
+			"sources": [ "Bestiary 6" ],
 			"description": [
 				"## Blight",
 				"",
@@ -260,9 +246,7 @@
 		},
 		{
 			"name": "catfolk",
-			"sources": [
-				"Bestiary 3"
-			],
+			"sources": [ "Bestiary 3" ],
 			"description": [
 				"## Catfolk",
 				"",
@@ -271,9 +255,7 @@
 		},
 		{
 			"name": "changeling",
-			"sources": [
-				"Bestiary 4"
-			],
+			"sources": [ "Bestiary 4" ],
 			"description": [
 				"## Changeling",
 				"",
@@ -384,9 +366,7 @@
 		},
 		{
 			"name": "deep one",
-			"sources": [
-				"Bestiary 5"
-			],
+			"sources": [ "Bestiary 5" ],
 			"description": [
 				"## Deep One",
 				"",
@@ -438,9 +418,7 @@
 		},
 		{
 			"name": "derro",
-			"sources": [
-				"Bestiary 6"
-			],
+			"sources": [ "Bestiary 6" ],
 			"description": [
 				"## Derro",
 				"",
@@ -473,9 +451,7 @@
 		},
 		{
 			"name": "div",
-			"sources": [
-				"Bestiary 3"
-			],
+			"sources": [ "Bestiary 3" ],
 			"description": [
 				"## Div",
 				"",
@@ -491,9 +467,7 @@
 		},
 		{
 			"name": "dwarf",
-			"sources": [
-				"Pathfinder RPG Bestiary"
-			],
+			"sources": [ "Pathfinder RPG Bestiary" ],
 			"description": [
 				"## Dwarf",
 				"",
@@ -658,9 +632,7 @@
 		},
 		{
 			"name": "gray",
-			"sources": [
-				"Bestiary 5"
-			],
+			"sources": [ "Bestiary 5" ],
 			"description": [
 				"## Gray",
 				"",
@@ -690,9 +662,7 @@
 		},
 		{
 			"name": "grippli",
-			"sources": [
-				"Bestiary 2"
-			],
+			"sources": [ "Bestiary 2" ],
 			"description": [
 				"## Grippli",
 				"",
@@ -701,9 +671,7 @@
 		},
 		{
 			"name": "halfling",
-			"sources": [
-				"Pathfinder RPG Bestiary"
-			],
+			"sources": [ "Pathfinder RPG Bestiary" ],
 			"description": [
 				"## Halfling",
 				"",
@@ -712,9 +680,7 @@
 		},
 		{
 			"name": "hive",
-			"sources": [
-				"Horror Adventures"
-			],
+			"sources": [ "Horror Adventures" ],
 			"description": [
 				"## Hive",
 				"",
@@ -773,9 +739,7 @@
 		},
 		{
 			"name": "inevitable",
-			"sources": [
-				"Bestiary 2"
-			],
+			"sources": [ "Bestiary 2" ],
 			"description": [
 				"## Inevitable",
 				"",
@@ -834,9 +798,7 @@
 		},
 		{
 			"name": "kasatha",
-			"sources": [
-				"Bestiary 4"
-			],
+			"sources": [ "Bestiary 4" ],
 			"description": [
 				"## Kasatha",
 				"",
@@ -845,9 +807,7 @@
 		},
 		{
 			"name": "kitsune",
-			"sources": [
-				"Bestiary 4"
-			],
+			"sources": [ "Bestiary 4" ],
 			"description": [
 				"## Kitsune",
 				"",
@@ -909,9 +869,7 @@
 		},
 		{
 			"name": "manasaputra",
-			"sources": [
-				"Bestiary 5"
-			],
+			"sources": [ "Bestiary 5" ],
 			"description": [
 				"## Manasaputra",
 				"",
@@ -932,9 +890,7 @@
 		},
 		{
 			"name": "mortic",
-			"sources": [
-				"Pathfinder #139: The Dead Road"
-			],
+			"sources": [ "Pathfinder #139: The Dead Road" ],
 			"description": [
 				"## Mortic",
 				"",
@@ -951,9 +907,7 @@
 		},
 		{
 			"name": "munavri",
-			"sources": [
-				"Bestiary 6"
-			],
+			"sources": [ "Bestiary 6" ],
 			"description": [
 				"## Munavri",
 				"",
@@ -1000,9 +954,7 @@
 		},
 		{
 			"name": "nightshade",
-			"sources": [
-				"Bestiary 2"
-			],
+			"sources": [ "Bestiary 2" ],
 			"description": [
 				"## Nightshade",
 				"",
@@ -1018,9 +970,7 @@
 		},
 		{
 			"name": "oni",
-			"sources": [
-				"Bestiary 3"
-			],
+			"sources": [ "Bestiary 3" ],
 			"description": [
 				"## Oni",
 				"",
@@ -1034,9 +984,7 @@
 		},
 		{
 			"name": "orc",
-			"sources": [
-				"Pathfinder RPG Bestiary"
-			],
+			"sources": [ "Pathfinder RPG Bestiary" ],
 			"description": [
 				"## Orc",
 				"",
@@ -1045,9 +993,7 @@
 		},
 		{
 			"name": "phantom",
-			"sources": [
-				"Bestiary 5"
-			],
+			"sources": [ "Bestiary 5" ],
 			"description": [
 				"## Phantom",
 				"",
@@ -1139,9 +1085,7 @@
 		},
 		{
 			"name": "rakshasa",
-			"sources": [
-				"Bestiary 3"
-			],
+			"sources": [ "Bestiary 3" ],
 			"description": [
 				"## Rakshasa",
 				"",
@@ -1157,9 +1101,7 @@
 		},
 		{
 			"name": "ratfolk",
-			"sources": [
-				"Bestiary 3"
-			],
+			"sources": [ "Bestiary 3" ],
 			"description": [
 				"## Ratfolk",
 				"",
@@ -1182,9 +1124,7 @@
 		},
 		{
 			"name": "robot",
-			"sources": [
-				"Bestiary 5"
-			],
+			"sources": [ "Bestiary 5" ],
 			"description": [
 				"## Robot",
 				"",
@@ -1228,9 +1168,7 @@
 		},
 		{
 			"name": "samsaran",
-			"sources": [
-				"Bestiary 4"
-			],
+			"sources": [ "Bestiary 4" ],
 			"description": [
 				"## Samsaran",
 				"",
@@ -1267,9 +1205,7 @@
 		},
 		{
 			"name": "skinwalker",
-			"sources": [
-				"Bestiary 5"
-			],
+			"sources": [ "Bestiary 5" ],
 			"description": [
 				"## Skinwalker",
 				"",
@@ -1278,9 +1214,7 @@
 		},
 		{
 			"name": "spawn of rovagug",
-			"sources": [
-				"Inner Sea Gods"
-			],
+			"sources": [ "Inner Sea Gods" ],
 			"description": [
 				"## Spawn of Rovagug",
 				"",
@@ -1326,9 +1260,7 @@
 		},
 		{
 			"name": "troop",
-			"sources": [
-				"Bestiary 6"
-			],
+			"sources": [ "Bestiary 6" ],
 			"description": [
 				"## Troop",
 				"",
@@ -1355,9 +1287,7 @@
 		},
 		{
 			"name": "vanara",
-			"sources": [
-				"Bestiary 3"
-			],
+			"sources": [ "Bestiary 3" ],
 			"description": [
 				"## Vanara",
 				"",
@@ -1366,9 +1296,7 @@
 		},
 		{
 			"name": "vishkanya",
-			"sources": [
-				"Bestiary 3"
-			],
+			"sources": [ "Bestiary 3" ],
 			"description": [
 				"## Vishkanya",
 				"",
@@ -1393,9 +1321,7 @@
 		},
 		{
 			"name": "wayang",
-			"sources": [
-				"Bestiary 4"
-			],
+			"sources": [ "Bestiary 4" ],
 			"description": [
 				"## Wayang",
 				"",
@@ -1404,9 +1330,7 @@
 		},
 		{
 			"name": "wild hunt",
-			"sources": [
-				"Bestiary 6"
-			],
+			"sources": [ "Bestiary 6" ],
 			"description": [
 				"## Wild Hunt",
 				"",

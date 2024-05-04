@@ -26,9 +26,7 @@
 	"list": [
 		{
 			"name": "Adhesive Slime",
-			"sources": [
-				"Potions and Poisons"
-			],
+			"sources": [ "Potions and Poisons" ],
 			"price": null,
 			"elixir_price": 500,
 			"slot": "none",
@@ -121,9 +119,7 @@
 		},
 		{
 			"name": "Camouflage Flesh",
-			"sources": [
-				"Horror Adventures"
-			],
+			"sources": [ "Horror Adventures" ],
 			"price": 30000,
 			"elixir_price": 1000,
 			"slot": "body",
@@ -168,9 +164,7 @@
 		},
 		{
 			"name": "Cerebral Husk",
-			"sources": [
-				"Horror Adventures"
-			],
+			"sources": [ "Horror Adventures" ],
 			"price": 6000,
 			"elixir_price": 500,
 			"slot": "headband",
@@ -191,9 +185,7 @@
 		},
 		{
 			"name": "Claw Gauntlet",
-			"sources": [
-				"Horror Adventures"
-			],
+			"sources": [ "Horror Adventures" ],
 			"price": 32000,
 			"elixir_price": 1600,
 			"slot": "hand",
@@ -214,9 +206,7 @@
 		},
 		{
 			"name": "Darksight Eyes",
-			"sources": [
-				"Horror Adventures"
-			],
+			"sources": [ "Horror Adventures" ],
 			"price": 6000,
 			"elixir_price": 300,
 			"slot": "eyes",
@@ -237,9 +227,7 @@
 		},
 		{
 			"name": "Grasping Tendril",
-			"sources": [
-				"Horror Adventures"
-			],
+			"sources": [ "Horror Adventures" ],
 			"price": 22500,
 			"elixir_price": 500,
 			"slot": "varies",
@@ -308,9 +296,7 @@
 		},
 		{
 			"name": "Ring of Eyes",
-			"sources": [
-				"Potions and Poisons"
-			],
+			"sources": [ "Potions and Poisons" ],
 			"price": null,
 			"elixir_price": 1400,
 			"slot": "none",
@@ -331,9 +317,7 @@
 		},
 		{
 			"name": "Shark Gills",
-			"sources": [
-				"Horror Adventures"
-			],
+			"sources": [ "Horror Adventures" ],
 			"price": 9000,
 			"elixir_price": 500,
 			"slot": "neck",
@@ -378,9 +362,7 @@
 		},
 		{
 			"name": "Webbed Appendages",
-			"sources": [
-				"Potions and Poisons"
-			],
+			"sources": [ "Potions and Poisons" ],
 			"price": null,
 			"elixir_price": 300,
 			"slot": "none",
@@ -401,9 +383,7 @@
 		},
 		{
 			"name": "Wings of Darkness",
-			"sources": [
-				"Horror Adventures"
-			],
+			"sources": [ "Horror Adventures" ],
 			"price": 36000,
 			"elixir_price": 600,
 			"slot": "shoulders",

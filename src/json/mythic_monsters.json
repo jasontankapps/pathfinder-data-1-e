@@ -3265,8 +3265,9 @@
 				"**Organization** any   ",
 				"**Treasure** standard (2 scimitars, other treasure)"
 			],
-			"description": [ "A mythic skeleton is an animated corpse created with mythic magic such as mythic animate dead. It has an unnatural cunning that belies its mindless nature and a natural instinct for killing." ],
-			"creating": [
+			"description": [
+				"A mythic skeleton is an animated corpse created with mythic magic such as mythic animate dead. It has an unnatural cunning that belies its mindless nature and a natural instinct for killing.",
+				"",
 				"\"Mythic skeleton\" is an acquired template that can be added to any creature with the skeleton template (referred to hereafter as the base skeleton).",
 				"",
 				"**Mythic Subtype:** A mythic skeleton gains the mythic subtype, with a rank equal to half the CR of the base skeleton. Instead of gaining additional abilities according to its CR, it always gains channel resistance +2, relentless, and superior two-weapon fighting. The mythic skeleton gains all other benefits of having the mythic subtype: ability score bonuses, bonus hit points, mythic feats, mythic power, natural armor bonus, and spell resistance increase (if any).",
@@ -3696,8 +3697,9 @@
 				"**Organization** solitary   ",
 				"**Treasure** NPC gear (potions of invisibility [2], +3 chain shirt, +1 heavy mace, amulet of natural armor +3, belt of incredible dexterity +2, cloak of resistance +3, headband of mental prowess +4 [Wis, Cha], ring of protection +2, other treasure)"
 			],
-			"description": [ "A mythic lich is an undead spellcaster who gave up standard mythic path abilities in favor of abilities that preserve her existence and enhance her unnatural power." ],
-			"creating": [
+			"description": [
+				"A mythic lich is an undead spellcaster who gave up standard mythic path abilities in favor of abilities that preserve her existence and enhance her unnatural power.",
+				"",
 				"\"Mythic lich\" is an acquired template that can be added to any creature with the lich template (referred to hereafter as the base lich). A mythic lich uses the base lich's stats and abilities except as noted here.",
 				"",
 				"**Mythic Subtype:** A mythic lich gains the mythic subtype, with a rank equal to half the CR of the base lich. A mythic lich gains additional abilities depending on the base lich's CR instead of the mythic abilities it would get for having a rank. The mythic lich gains all other benefits of having the mythic subtype: ability score bonuses, bonus hit points, mythic feats, mythic power, natural armor bonus, and spell resistance increase (if any).",
@@ -5392,8 +5394,9 @@
 				"**Organization** solitary or family (vampire plus 2-8 spawn)   ",
 				"**Treasure** NPC gear (potion of inflict serious wounds, +1 bolts (10), +1 leather armor, +1 longsword, mwk light crossbow, cloak of resistance +2, ring of protection +1, other treasure)"
 			],
-			"description": [ "A mythic vampire has ties to the earliest of its kind, being either one of the first vampires or the offspring of such ancient creatures." ],
-			"creating": [
+			"description": [
+				"A mythic vampire has ties to the earliest of its kind, being either one of the first vampires or the offspring of such ancient creatures.",
+				"",
 				"\"Mythic vampire\" is an acquired template that can be added to any creature with the vampire template (referred to hereafter as the base vampire). A mythic vampire uses the base vampire's stats and abilities except as noted here.",
 				"",
 				"**Mythic Subtype:** A mythic vampire gains the mythic subtype, with a rank equal to half the CR of the base vampire. A mythic vampire gains additional abilities depending on the base vampire's CR instead of the mythic abilities it would get for having a rank. The mythic vampire gains all other benefits of having the mythic subtype: ability score bonuses, bonus hit points, mythic feats, mythic power, natural armor bonus, and spell resistance increase (if any).",

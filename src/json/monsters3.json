@@ -14136,12 +14136,9 @@
 				"**Extending Jaw (Ex)** A giant dragonfly nymph can extend its jaws with surprising speed. Not only does this extend the nymph's reach with its bite attack, but during the surprise round, a nymph gains a +4 bonus on attack rolls with its bite."
 			],
 			"description": [
-				"Giant dragonflies lay clutches of eggs in swampy terrain or areas of standing water. Their young, called nymphs, voraciously eat carrion and small prey, growing and maturing rapidly until they sprout fully functional wings and become adult dragonflies.",
-				"",
-				"### [Giant Dragonfly](race:Giant_Dragonfly]",
-				"",
-				"This glittering blue dragonfly is about the size of a horse and is large enough to carry off small farm animals or people."
-			]
+				"Giant dragonflies lay clutches of eggs in swampy terrain or areas of standing water. Their young, called nymphs, voraciously eat carrion and small prey, growing and maturing rapidly until they sprout fully functional wings and become adult dragonflies."
+			],
+			"short_description": "This glittering blue dragonfly is about the size of a horse and is large enough to carry off small farm animals or people."
 		},
 		{
 			"name": "Giant Fly",
@@ -23068,14 +23065,11 @@
 			"habitat": [
 				"Because of the difficulty of their creation and the aura of mysticism and mystery that their creators prefer to preserve around them, shadow golems are generally used to guard secret treasuries, the inner sanctums of temples devoted to Zon-Kuthon, hidden libraries, and portals between this world and the Shadow Plane. Of course, as the knowledge of their construction spreads through Cheliax, these eerie creations are slowly becoming more common in areas of importance to House Thrune and their closest allies."
 			],
-			"construction": [
-				"**Requirements** Craft Construct, geas/quest, greater shadow conjuration, limited wish, polymorph any object, creator must be caster level 18th; Skill Craft (sculpture) or Craft (stonemasonry) DC 24; **Cost** 100,000 gp"
-			],
 			"monster_family": "Golem",
 			"creating": [
-				"Shadow Golem",
-				"",
-				"**CL** 14th; **Price** 180,000 gp"
+				"**Shadow Golem**   ",
+				"**CL** 14th; **Price** 180,000 gp   ",
+				"**Requirements** Craft Construct, geas/quest, greater shadow conjuration, limited wish, polymorph any object, creator must be caster level 18th; Skill Craft (sculpture) or Craft (stonemasonry) DC 24; **Cost** 100,000 gp"
 			],
 			"short_description": "This towering humanoid figure seems to be made of solidified shadows. Two pale orbs glare from its otherwise blank visage."
 		},
@@ -30248,12 +30242,9 @@
 			"description": [
 				"Battle priests' augmentations to their allies' strength, stamina, precision, and speed are vital to many hobgoblin tactics, and as such the clerics often serve as trusted advisors to commanders, consulting to determine what magical support would best serve the tactical situation.",
 				"",
-				"Like all hobgoblins, battle priests live for the adrenaline rush of open warfare, and during the heat of a skirmish they often turn their attention away from their allies-it is the task of the soldier to survive and drive his enemy before him, and a battle priest sees it as coddling weakness to tend to wounds among those soldiers not strong enough to grasp their own victory. Rather, battle priests employ their magic to debilitate their foes, channeling the wrath of their gods of war upon those who oppose them.",
-				"",
-				"### [Hobgoblin](race:Hobgoblin]",
-				"",
-				"Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes."
-			]
+				"Like all hobgoblins, battle priests live for the adrenaline rush of open warfare, and during the heat of a skirmish they often turn their attention away from their allies-it is the task of the soldier to survive and drive his enemy before him, and a battle priest sees it as coddling weakness to tend to wounds among those soldiers not strong enough to grasp their own victory. Rather, battle priests employ their magic to debilitate their foes, channeling the wrath of their gods of war upon those who oppose them."
+			],
+			"short_description": "Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes."
 		},
 		{
 			"name": "Hobgoblin, Hobgoblin Battlefield Zealot",
@@ -30308,12 +30299,9 @@
 			],
 			"ecology": [ "**Environment** temperate hills" ],
 			"description": [
-				"Zealots generally use their magic to aid their allies and provide healing, knowing that keeping their tougher allies in good health makes for a stronger army.",
-				"",
-				"### [Hobgoblin](race:Hobgoblin]",
-				"",
-				"Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes."
-			]
+				"Zealots generally use their magic to aid their allies and provide healing, knowing that keeping their tougher allies in good health makes for a stronger army."
+			],
+			"short_description": "Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes."
 		},
 		{
 			"name": "Hobgoblin, Hobgoblin Bombardier",
@@ -30373,12 +30361,9 @@
 				"**Alternate Racial Features (Ex)** The bombardier has the engineer racial trait in place of sneaky, granting him a +2 bonus on Craft (alchemy) and Knowledge (engineering) checks. He also employs the hobgoblin alternate favored class option for his alchemy levels, granting him four additional uses of his bomb ability each day. Both of these racial options can be found on page 121 of the Pathfinder RPG Advanced Race Guide."
 			],
 			"description": [
-				"These alchemists focus their race's penchant for fire into more productive and efficient means of destruction than mere torches or bonfires. Instead, they hone the craft of concocting bombs, mutagens, and extracts. Though they possess the means of enhancing their physical prowess, many bombardiers forgo imbibing their mutagens prior to battle, believing that increasing one's weaknesses, even for potential gain in other areas, is a tactical mistake. When the situation calls for it, however, they drink mutagens to increase their physical stamina or ranged accuracy, preferring to decrease their perception and influence before compromising their mental faculties.",
-				"",
-				"### [Hobgoblin](race:Hobgoblin]",
-				"",
-				"Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes."
-			]
+				"These alchemists focus their race's penchant for fire into more productive and efficient means of destruction than mere torches or bonfires. Instead, they hone the craft of concocting bombs, mutagens, and extracts. Though they possess the means of enhancing their physical prowess, many bombardiers forgo imbibing their mutagens prior to battle, believing that increasing one's weaknesses, even for potential gain in other areas, is a tactical mistake. When the situation calls for it, however, they drink mutagens to increase their physical stamina or ranged accuracy, preferring to decrease their perception and influence before compromising their mental faculties."
+			],
+			"short_description": "Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes."
 		},
 		{
 			"name": "Hobgoblin, Hobgoblin Commander",
@@ -30507,12 +30492,9 @@
 			],
 			"ecology": [ "**Environment** temperate hills" ],
 			"description": [
-				"Hobgoblin forerunners are masters of mounted combat, and lead the charge at the front of hobgoblin armies. They sometimes use yzobus as mounts (see page 124).",
-				"",
-				"### [Hobgoblin](race:Hobgoblin]",
-				"",
-				"Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes."
-			]
+				"Hobgoblin forerunners are masters of mounted combat, and lead the charge at the front of hobgoblin armies. They sometimes use yzobus as mounts (see page 124)."
+			],
+			"short_description": "Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes."
 		},
 		{
 			"name": "Hobgoblin, Hobgoblin Lieutenant",
@@ -30564,12 +30546,9 @@
 			],
 			"ecology": [ "**Environment** temperate hills" ],
 			"description": [
-				"In addition to leading squadrons, hobgoblin lieutenants are assigned elite missions that call for stealth-particularly scouting missions and sabotage.",
-				"",
-				"### [Hobgoblin](race:Hobgoblin]",
-				"",
-				"Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes."
-			]
+				"In addition to leading squadrons, hobgoblin lieutenants are assigned elite missions that call for stealth-particularly scouting missions and sabotage."
+			],
+			"short_description": "Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes."
 		},
 		{
 			"name": "Hobgoblin, Hobgoblin Paragon",
@@ -30625,12 +30604,9 @@
 			],
 			"ecology": [ "**Environment** temperate hills" ],
 			"description": [
-				"Many hobgoblin paragons join specialized teams of fellow hobgoblins within larger armies, though they live isolated lives, apart from their regimented kin, rather than feeling a true camaraderie. A large number of them instead travel the world, participating in tournaments of martial skill, from gladiatorial arenas to competitions in distant monasteries practicing foreign techniques. Others pursue more mercenary endeavors, selling their talents to the highest bidder so long as their contract involves dishing out pain to the weak or the unworthy. Whether as lone bodyguards of corrupt merchants or politicians, or high-ranking enforcers of the criminal underworld, a hobgoblin paragon willing to serve a well-paying master has no trouble finding employment wherever she might seek it.",
-				"",
-				"### [Hobgoblin](race:Hobgoblin]",
-				"",
-				"Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes."
-			]
+				"Many hobgoblin paragons join specialized teams of fellow hobgoblins within larger armies, though they live isolated lives, apart from their regimented kin, rather than feeling a true camaraderie. A large number of them instead travel the world, participating in tournaments of martial skill, from gladiatorial arenas to competitions in distant monasteries practicing foreign techniques. Others pursue more mercenary endeavors, selling their talents to the highest bidder so long as their contract involves dishing out pain to the weak or the unworthy. Whether as lone bodyguards of corrupt merchants or politicians, or high-ranking enforcers of the criminal underworld, a hobgoblin paragon willing to serve a well-paying master has no trouble finding employment wherever she might seek it."
+			],
+			"short_description": "Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes."
 		},
 		{
 			"name": "Hobgoblin, Hobgoblin Sergeant",
@@ -30680,12 +30656,9 @@
 			],
 			"ecology": [ "**Environment** temperate hills" ],
 			"description": [
-				"Sergeants are versatile warriors; they're capable of engaging in battle up close or at range, and smart and tough enough to lead the army's rank-and-file troops.",
-				"",
-				"### [Hobgoblin](race:Hobgoblin]",
-				"",
-				"Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes."
-			]
+				"Sergeants are versatile warriors; they're capable of engaging in battle up close or at range, and smart and tough enough to lead the army's rank-and-file troops."
+			],
+			"short_description": "Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant eyes."
 		},
 		{
 			"name": "Hodag",
@@ -30835,13 +30808,11 @@
 				"",
 				"The method for creating hollow ones don't restrict the form to be that of a humanoid. The form needs to be a creature that has skin, though. A catalog of constructs was recently unearthed from an old Azlanti ruin that described an aboleth hollow one that perplexed the ancient explorer who encountered the strange creature. Hollow ones made in the form of creatures with particularly durable skin could have a much higher natural armor bonus than the typical hollow one described here."
 			],
-			"construction": [
-				"**Requirements** Craft Construct, lesser simulacrum; 2 square yards of skin collected over the course of 1 month and 1 ounce of brain material; creator must be caster level 9th; Skills Craft (alchemy) DC 24 and Heal DC 24; **Cost** 21,000 gp"
-			],
 			"creating": [
 				"The process used to fashion a hollow one requires the creator to collect a considerable quantity of the skin of the person being copied (referred to as the subject) using knives and an arcane ritual that ultimately deals 1d4 points of Constitution damage to the subject. The skin is alchemically treated and enhanced into a form not unlike the wrappings of a mummy. At the final moment of the ritual, the creator removes a piece of the subject's brain using a specially created brass and ebony hook with a tiny movable cutting blade attached. This hook is inserted into the subject's brain through the nose to remove a portion of living brain tissue, an act that deals an additional 1d2 points of Constitution damage to the subject. At this point, the creator must succeed at a DC 30 Heal check; otherwise the subject permanently loses 1d3 points of Intelligence.",
 				"",
-				"**CL** 9th; **Price** 42,000 gp"
+				"**CL** 9th; **Price** 42,000 gp   ",
+				"**Requirements** Craft Construct, lesser simulacrum; 2 square yards of skin collected over the course of 1 month and 1 ounce of brain material; creator must be caster level 9th; Skills Craft (alchemy) DC 24 and Heal DC 24; **Cost** 21,000 gp"
 			],
 			"short_description": "The faint chemical smell lingering on this creature's skin hints that it is not simply a normal person. Small, almost imperceptible flaws suggest that the creature's skin is somehow stretched over an invisible frame."
 		},
@@ -32766,11 +32737,7 @@
 			"description": [
 				"West of Kokutang in the Sodden Lands, there lies the remains of a once-proud and now-nameless village, destroyed when the massive Eye of Abendego consumed the gulf and buried the young nation of Yamasa and its secrets more than 100 years ago. Within the flooded ruins of this small settlement, the miasma hydra known to local Koboto tribespeople as Dhirgiska scavenges the wreckage and makes its lair in the vast caverns carved out of the marshy earth beneath the village. Attacking any who dare to near the destroyed village, the hydra has made it impossible for the people of Kokutang to fully explore the ruins and discover what importance the site once held for their people, if any. It is unknown what drives Dhirgiska to protect its lair so fervently, and some think that the beast was left by the deceased people of the village in order to protect their secrets and treasures. Whatever the case, it is well known that those who dare face the ruins and the beast that dwells within rarely come back alive.",
 				"",
-				"Though it is generally known that any foreigners who try to interact with the people of Kokutang will be met with ravenous hostility, it is thought that should some brave adventurer bring the heart of the treacherous Dhirgiska to them, she would be praised as a hero in their eyes.",
-				"",
-				"### [Hydra](race:Hydra]",
-				"",
-				"This massive hydra has black and green scales, and caustic purple venom drips from its numerous sets of fangs."
+				"Though it is generally known that any foreigners who try to interact with the people of Kokutang will be met with ravenous hostility, it is thought that should some brave adventurer bring the heart of the treacherous Dhirgiska to them, she would be praised as a hero in their eyes."
 			],
 			"short_description": "This massive hydra has black and green scales, and caustic purple venom drips from its numerous sets of fangs."
 		},

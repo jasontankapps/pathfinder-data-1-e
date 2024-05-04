@@ -24746,12 +24746,9 @@
 			],
 			"ecology": [ "**Environment** underground" ],
 			"description": [
-				"A demonic champion has been tested by the powers of the Abyss and emerged stronger for it. Her soul is scarred by centuries of depraved acts, and she is irredeemable in her evil-something she is happy to prove. Demonic champions enjoy many creature comforts within drow society thanks to the spoils they claim in war, but their bloodlust motivates them to repeatedly return to battle.",
-				"",
-				"### [Drow](race:Drow]",
-				"",
-				"This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless."
-			]
+				"A demonic champion has been tested by the powers of the Abyss and emerged stronger for it. Her soul is scarred by centuries of depraved acts, and she is irredeemable in her evil-something she is happy to prove. Demonic champions enjoy many creature comforts within drow society thanks to the spoils they claim in war, but their bloodlust motivates them to repeatedly return to battle."
+			],
+			"short_description": "This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless."
 		},
 		{
 			"name": "Drow, Drow House Captain",
@@ -24805,12 +24802,9 @@
 			],
 			"ecology": [ "**Environment** underground" ],
 			"description": [
-				"A house guard is better trained and equipped than a common warrior defending a drow city or caravan.",
-				"",
-				"### [Drow](race:Drow]",
-				"",
-				"This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless."
-			]
+				"A house guard is better trained and equipped than a common warrior defending a drow city or caravan."
+			],
+			"short_description": "This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless."
 		},
 		{
 			"name": "Drow, Drow House Guard",
@@ -24866,12 +24860,9 @@
 			],
 			"ecology": [ "**Environment** underground" ],
 			"description": [
-				"A house guard is better trained and equipped than a common warrior defending a drow city or caravan.",
-				"",
-				"### [Drow](race:Drow]",
-				"",
-				"This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless."
-			]
+				"A house guard is better trained and equipped than a common warrior defending a drow city or caravan."
+			],
+			"short_description": "This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless."
 		},
 		{
 			"name": "Drow, Drow Master Scout",
@@ -24928,12 +24919,9 @@
 			],
 			"ecology": [ "**Environment** underground" ],
 			"description": [
-				"Scouts are cunning and resourceful, but still must prove themselves to higher-ranked drow before being considered anything but expendable.",
-				"",
-				"### [Drow](race:Drow]",
-				"",
-				"This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless."
-			]
+				"Scouts are cunning and resourceful, but still must prove themselves to higher-ranked drow before being considered anything but expendable."
+			],
+			"short_description": "This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless."
 		},
 		{
 			"name": "Drow, Drow Matron",
@@ -25002,12 +24990,9 @@
 			],
 			"ecology": [ "**Environment** underground" ],
 			"description": [
-				"Born with unusual powers, the matron has survived coup attempts by countless rivals to remain the head of her house.",
-				"",
-				"### [Drow](race:Drow]",
-				"",
-				"This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless."
-			]
+				"Born with unusual powers, the matron has survived coup attempts by countless rivals to remain the head of her house."
+			],
+			"short_description": "This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless."
 		},
 		{
 			"name": "Drow, Drow Noble",
@@ -25074,12 +25059,9 @@
 				"",
 				"Drow society is ruled over by powerful nobility, themselves governed by sadistic and dangerous matriarchs who constantly plot and scheme against rival houses and lesser kin within their own families. The majority of drow are the common soldiers and decadent citizenry, with base stats as presented here-drow nobles are more powerful and dangerous, and are detailed below.",
 				"",
-				"In combat, drow are thoroughly ruthless, with little regard for fairness or mercy. They prefer to attack from ambush or to lure enemies into situations where they clearly have the upper hand. If things turn against them, drow are quick to flee, leaving slaves and minions to cover their escape.",
-				"",
-				"### [Drow](race:Drow]",
-				"",
-				"This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless."
-			]
+				"In combat, drow are thoroughly ruthless, with little regard for fairness or mercy. They prefer to attack from ambush or to lure enemies into situations where they clearly have the upper hand. If things turn against them, drow are quick to flee, leaving slaves and minions to cover their escape."
+			],
+			"short_description": "This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless."
 		},
 		{
 			"name": "Drow, Drow Poisoner",
@@ -25142,12 +25124,9 @@
 			],
 			"ecology": [ "**Environment** underground" ],
 			"description": [
-				"This drow makes use of deadly venoms and alchemy.",
-				"",
-				"### [Drow](race:Drow]",
-				"",
-				"This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless."
-			]
+				"This drow makes use of deadly venoms and alchemy."
+			],
+			"short_description": "This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless."
 		},
 		{
 			"name": "Drow, Drow Priest",
@@ -25215,12 +25194,9 @@
 			],
 			"ecology": [ "**Environment** underground" ],
 			"description": [
-				"Having manipulated and assassinated her way into the middle ranks of her church, the drow priest uses her powers to eliminate rivals as she continues her climb. The drow religious orders are just as cutthroat as every other aspect of drow society. Their priests see the ability to out-scheme one's foes as a sign of the unholy favor of their demonic patrons.",
-				"",
-				"### [Drow](race:Drow]",
-				"",
-				"This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless."
-			]
+				"Having manipulated and assassinated her way into the middle ranks of her church, the drow priest uses her powers to eliminate rivals as she continues her climb. The drow religious orders are just as cutthroat as every other aspect of drow society. Their priests see the ability to out-scheme one's foes as a sign of the unholy favor of their demonic patrons."
+			],
+			"short_description": "This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless."
 		},
 		{
 			"name": "Drow, Drow Scout",
@@ -25274,12 +25250,9 @@
 			],
 			"ecology": [ "**Environment** underground" ],
 			"description": [
-				"Scouts are cunning and resourceful, but still must prove themselves to higher-ranked drow before being considered anything but expendable.",
-				"",
-				"### [Drow](race:Drow]",
-				"",
-				"This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless."
-			]
+				"Scouts are cunning and resourceful, but still must prove themselves to higher-ranked drow before being considered anything but expendable."
+			],
+			"short_description": "This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless."
 		},
 		{
 			"name": "Dryad",
@@ -26513,11 +26486,7 @@
 				"",
 				"**Dweomercat Cubs as Familiars**",
 				"",
-				"Attracted to flashy displays of magic and the strange powers inherent in a bond between a magic-user and her familiar, a dweomercat cub that's wandered from the First World might find its taste for magic and adventure satisfied in the service of a particularly whimsical or ostentatious arcane spellcaster. A spellcaster with the Improved Familiar feat can acquire a chaotic neutral dweomercat cub at 7th level or higher. Should the spellcaster settle into a life of research and predictability for a span of months, the dweomercat cub familiar might take to wandering off and, eventually, might not return-deliberately severing the master-familiar bond and freeing the spellcaster to summon a new familiar.",
-				"",
-				"### [Dweomercat](race:Dweomercat]",
-				"",
-				"Its coat shining vividly, this majestic tiger looks exotic and otherworldly. It gazes with piercing yellow eyes and stands calmly, as though fearless."
+				"Attracted to flashy displays of magic and the strange powers inherent in a bond between a magic-user and her familiar, a dweomercat cub that's wandered from the First World might find its taste for magic and adventure satisfied in the service of a particularly whimsical or ostentatious arcane spellcaster. A spellcaster with the Improved Familiar feat can acquire a chaotic neutral dweomercat cub at 7th level or higher. Should the spellcaster settle into a life of research and predictability for a span of months, the dweomercat cub familiar might take to wandering off and, eventually, might not return-deliberately severing the master-familiar bond and freeing the spellcaster to summon a new familiar."
 			],
 			"short_description": "Its coat shining vividly, this majestic tiger looks exotic and otherworldly. It gazes with piercing yellow eyes and stands calmly, as though fearless."
 		},

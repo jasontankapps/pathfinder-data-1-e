@@ -14,9 +14,7 @@
 		{
 			"name": "Black Blessing",
 			"file": "_magicjujufetishes.html",
-			"sources": [
-				"Pathfinder #39: The City of Seven Spears"
-			],
+			"sources": [ "Pathfinder #39: The City of Seven Spears" ],
 			"cost": 500,
 			"slot": "neck",
 			"weight": null,
@@ -39,9 +37,7 @@
 		{
 			"name": "Ganji Doll",
 			"file": "_magicjujufetishes.html",
-			"sources": [
-				"Pathfinder #39: The City of Seven Spears"
-			],
+			"sources": [ "Pathfinder #39: The City of Seven Spears" ],
 			"cost": 16000,
 			"slot": "none",
 			"weight": null,
@@ -73,9 +69,7 @@
 			"name": "Ganji Doll, Greater",
 			"searchable_name": "Greater Ganji Doll",
 			"file": "_magicjujufetishes.html",
-			"sources": [
-				"Pathfinder #39: The City of Seven Spears"
-			],
+			"sources": [ "Pathfinder #39: The City of Seven Spears" ],
 			"cost": 36000,
 			"slot": "none",
 			"weight": null,
@@ -106,9 +100,7 @@
 		{
 			"name": "Laubo Powder",
 			"file": "_magicjujufetishes.html",
-			"sources": [
-				"Pathfinder #39: The City of Seven Spears"
-			],
+			"sources": [ "Pathfinder #39: The City of Seven Spears" ],
 			"cost": 2800,
 			"slot": "none",
 			"weight": null,
@@ -133,9 +125,7 @@
 		{
 			"name": "Spirit Tear",
 			"file": "_magicjujufetishes.html",
-			"sources": [
-				"Pathfinder #39: The City of Seven Spears"
-			],
+			"sources": [ "Pathfinder #39: The City of Seven Spears" ],
 			"cost": 1800,
 			"slot": "neck",
 			"weight": null,

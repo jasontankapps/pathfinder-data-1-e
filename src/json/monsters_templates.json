@@ -18,9 +18,9 @@
 				"",
 				"An accursed creature suffers under a powerful curse and can spread a spiteful curse of its own to others. Choose a thematic curse that you can convey to the players, but don't change the creature's statistics. You can use the sample curses as inspiration.",
 				"",
-				"**Quick Rules:** Two claw attacks that deal 1d4 points of damage (for Medium creatures); natural attacks cause bestow curse (DC = 10 + 1/2 creature's HD + creature's Cha modifier, CL = creature's HD) on a successful hit (this can inflict any effect of bestow curse or spread the creature's personal curse).",
+				"**Quick Rules:** Two claw attacks that deal 1d4 points of damage (for Medium creatures); natural attacks cause [bestow curse](spell:bestow_curse) (DC = 10 + 1/2 creature's HD + creature's Cha modifier, CL = creature's HD) on a successful hit (this can inflict any effect of bestow curse or spread the creature's personal curse).",
 				"",
-				"**Rebuild Rules:** **Melee** two claw attacks that each deal 1d4 points of damage (for Medium creatures); **Special Attacks** natural attacks cause bestow curse (DC = 10 + 1/2 creature's HD + creature's Cha modifier, CL = creature's HD) on a successful hit (this can inflict any effect of bestow curse or spread the creature's personal curse); **Special Qualities** the creature is under a particular curse."
+				"**Rebuild Rules:** **Melee** two claw attacks that each deal 1d4 points of damage (for Medium creatures); **Special Attacks** natural attacks cause *bestow curse* (DC = 10 + 1/2 creature's HD + creature's Cha modifier, CL = creature's HD) on a successful hit (this can inflict any effect of bestow curse or spread the creature's personal curse); **Special Qualities** the creature is under a particular curse."
 			]
 		},
 		{
@@ -111,7 +111,7 @@
 				"**Simple Template** No   ",
 				"**Usable with Summons** No",
 				"",
-				"[Alebrijes](unknown:Alebrijes) travel through dreams, visiting creatures as they sleep in hopes of answering questions, jogging memories, or providing inspiration. Alebrijes can take the shape of any animal or magical beast found throughout the Material Plane, though they have unique colorations and patterns all over their bodies, and some grow wings. These colorations typically include bright, vibrant hues and decorative patterns like spirals and stripes.",
+				"Alebrijes travel through dreams, visiting creatures as they sleep in hopes of answering questions, jogging memories, or providing inspiration. Alebrijes can take the shape of any animal or magical beast found throughout the Material Plane, though they have unique colorations and patterns all over their bodies, and some grow wings. These colorations typically include bright, vibrant hues and decorative patterns like spirals and stripes.",
 				"",
 				"\"Alebrije\" is an acquired template that can be added to any animal or magical beast (referred to hereafter as the base creature). An alebrije uses the base creature's statistics and special abilities except as noted here.",
 				"",
@@ -3670,7 +3670,7 @@
 				"",
 				"Eventually, the hivemind's mental network takes on more complex tasks as a collective mind. At this point, the hivemind creates a nexus, a single individual in the swarm through which the collective routes all thought. While the nexus is often fairly inconspicuous within the teeming mass of the swarm, it is possible for a highly perceptive observer to notice its decisive movements, spellcasting gestures, or intense gaze. The death of the nexus does not eliminate the shared intelligence of a hivemind, but it is disruptive, forcing the collective to focus inward to regroup and form a new nexus.",
 				"",
-				"\"Hivemind swarm\" is an acquired or inherited template that can be added to any creature with the [swarm subtype](creaturesubtype:swarm) (referred to hereafter as the base creature). The hivemind template allows a swarm to increase in power and abilities, much like a class-when you create a hivemind swarm, you can customize its CR as needed by adjusting the number of additional Hit Dice (and thus associated statistics). A hivemind swarm uses the base creature's statistics and special abilities except as noted here.",
+				"\"Hivemind swarm\" is an acquired or inherited template that can be added to any creature with the [swarm subtype](monster/subtype:swarm) (referred to hereafter as the base creature). The hivemind template allows a swarm to increase in power and abilities, much like a class-when you create a hivemind swarm, you can customize its CR as needed by adjusting the number of additional Hit Dice (and thus associated statistics). A hivemind swarm uses the base creature's statistics and special abilities except as noted here.",
 				"",
 				"**Challenge Rating:** +1 for each additional Hit Die gained above the base creature's Hit Dice.",
 				"",

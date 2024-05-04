@@ -13,9 +13,7 @@
 		{
 			"name": "Baleful Eye",
 			"file": "_magicdemonicimplants.html",
-			"sources": [
-				"Pathfinder #74: Sword of Valor"
-			],
+			"sources": [ "Pathfinder #74: Sword of Valor" ],
 			"cost": 7000,
 			"slot": "none",
 			"weight": 1,
@@ -63,9 +61,7 @@
 		{
 			"name": "Crown of Horns",
 			"file": "_magicdemonicimplants.html",
-			"sources": [
-				"Pathfinder #74: Sword of Valor"
-			],
+			"sources": [ "Pathfinder #74: Sword of Valor" ],
 			"cost": 20000,
 			"slot": "none",
 			"weight": 5,
@@ -88,7 +84,10 @@
 		{
 			"name": "Demon Blood",
 			"file": "_magicdemonicimplants.html",
-			"sources": ["Pathfinder #74: Sword of Valor"],
+			"sources": [
+				"Pathfinder #74: Sword of Valor",
+				"Book of the Damned - Volume 2: Lords of Chaos"
+			],
 			"cost": 800,
 			"slot": "none",
 			"weight": 1,
@@ -111,9 +110,7 @@
 		{
 			"name": "Demon Heart",
 			"file": "_magicdemonicimplants.html",
-			"sources": [
-				"Pathfinder #74: Sword of Valor"
-			],
+			"sources": [ "Pathfinder #74: Sword of Valor" ],
 			"cost": 6000,
 			"slot": "none",
 			"weight": 1,
@@ -159,9 +156,7 @@
 		{
 			"name": "Demon Talon",
 			"file": "_magicdemonicimplants.html",
-			"sources": [
-				"Book of the Damned - Volume 2: Lords of Chaos"
-			],
+			"sources": [ "Book of the Damned - Volume 2: Lords of Chaos" ],
 			"cost": 20000,
 			"slot": "none",
 			"weight": 3,
@@ -207,9 +202,7 @@
 		{
 			"name": "Demonhide",
 			"file": "_magicdemonicimplants.html",
-			"sources": [
-				"Pathfinder #74: Sword of Valor"
-			],
+			"sources": [ "Pathfinder #74: Sword of Valor" ],
 			"cost": 20000,
 			"slot": "none",
 			"weight": 10,
@@ -257,9 +250,7 @@
 		{
 			"name": "Wicked Wings",
 			"file": "_magicdemonicimplants.html",
-			"sources": [
-				"Pathfinder #74: Sword of Valor"
-			],
+			"sources": [ "Pathfinder #74: Sword of Valor" ],
 			"cost": 55000,
 			"slot": "none",
 			"weight": 3,

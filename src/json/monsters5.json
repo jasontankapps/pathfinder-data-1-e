@@ -2942,11 +2942,7 @@
 				"",
 				"Ratfolk are defined by their class levels-they do not possess racial Hit Dice. All ratfolk have the following racial traits.",
 				"",
-				"-2 Strength, +2 Dexterity, +2 Intelligence: Ratfolk are agile and clever, yet physically weak. Small: Ratfolk are Small and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a -1 penalty on CMB and to CMD, and a +4 size bonus on Stealth checks. Darkvision: Ratfolk can see in the dark up to 60 feet. Tinker: Ratfolk gain a +2 bonus on Craft (alchemy), Perception, and Use Magic Device checks. Rodent Empathy: Ratfolk gain a +4 bonus on Handle Animal checks made to influence rodents. Swarming: See above. Languages: Ratfolk begin play speaking Common. Ratfolk with high intelligence can choose from any of the following bonus languages: Aklo, Draconic, Dwarven, Gnoll, Gnome, Goblin, Halfling, Orc, and Undercommon.",
-				"",
-				"### [Ratfolk](race:Ratfolk]",
-				"",
-				"This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail."
+				"-2 Strength, +2 Dexterity, +2 Intelligence: Ratfolk are agile and clever, yet physically weak. Small: Ratfolk are Small and gain a +1 size bonus to their AC, a +1 size bonus on attack rolls, a -1 penalty on CMB and to CMD, and a +4 size bonus on Stealth checks. Darkvision: Ratfolk can see in the dark up to 60 feet. Tinker: Ratfolk gain a +2 bonus on Craft (alchemy), Perception, and Use Magic Device checks. Rodent Empathy: Ratfolk gain a +4 bonus on Handle Animal checks made to influence rodents. Swarming: See above. Languages: Ratfolk begin play speaking Common. Ratfolk with high intelligence can choose from any of the following bonus languages: Aklo, Draconic, Dwarven, Gnoll, Gnome, Goblin, Halfling, Orc, and Undercommon."
 			],
 			"short_description": "This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail."
 		},
@@ -2999,12 +2995,9 @@
 			],
 			"ecology": [ "**Environment** warm deserts or urban" ],
 			"description": [
-				"Because they trade so widely, ratfolk acquire interesting equipment-including black powder and rare metals.",
-				"",
-				"### [Ratfolk](race:Ratfolk]",
-				"",
-				"This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail."
-			]
+				"Because they trade so widely, ratfolk acquire interesting equipment-including black powder and rare metals."
+			],
+			"short_description": "This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail."
 		},
 		{
 			"name": "Ratfolk, Ratfolk Caravan Guard",
@@ -3054,12 +3047,9 @@
 			],
 			"ecology": [ "**Environment** warm deserts or urban" ],
 			"description": [
-				"Many nomadic ratfolk take on jobs that require travel.",
-				"",
-				"### [Ratfolk](race:Ratfolk]",
-				"",
-				"This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail."
-			]
+				"Many nomadic ratfolk take on jobs that require travel."
+			],
+			"short_description": "This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail."
 		},
 		{
 			"name": "Ratfolk, Ratfolk Chemist",
@@ -3118,12 +3108,9 @@
 			],
 			"ecology": [ "**Environment** warm deserts or urban" ],
 			"description": [
-				"Ratfolk chemists are treasured members of ratfolk colonies. Not only do they provide the warren with excellent defensive capability, but their alchemical creations are valuable merchandise to sell or trade.",
-				"",
-				"### [Ratfolk](race:Ratfolk]",
-				"",
-				"This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail."
-			]
+				"Ratfolk chemists are treasured members of ratfolk colonies. Not only do they provide the warren with excellent defensive capability, but their alchemical creations are valuable merchandise to sell or trade."
+			],
+			"short_description": "This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail."
 		},
 		{
 			"name": "Ratfolk, Ratfolk Elder",
@@ -3189,12 +3176,9 @@
 			],
 			"ecology": [ "**Environment** warm deserts or urban" ],
 			"description": [
-				"Since ratfolk have short lifespans, they heed the wisdom of those who attain old age. Many ratfolk aspire to become elders from a very young age, and try to get their hands on books and histories when they go into trade, intending to later study them. Often, aspiring leaders pursue the healing arts to keep the rest of the warren healthy-and to ensure they live long enough to pass on their knowledge.",
-				"",
-				"### [Ratfolk](race:Ratfolk]",
-				"",
-				"This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail."
-			]
+				"Since ratfolk have short lifespans, they heed the wisdom of those who attain old age. Many ratfolk aspire to become elders from a very young age, and try to get their hands on books and histories when they go into trade, intending to later study them. Often, aspiring leaders pursue the healing arts to keep the rest of the warren healthy-and to ensure they live long enough to pass on their knowledge."
+			],
+			"short_description": "This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail."
 		},
 		{
 			"name": "Ratfolk, Ratfolk Expedition Leader",
@@ -3244,12 +3228,9 @@
 			],
 			"ecology": [ "**Environment** warm deserts or urban" ],
 			"description": [
-				"Many nomadic ratfolk take on jobs that require travel.",
-				"",
-				"### [Ratfolk](race:Ratfolk]",
-				"",
-				"This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail."
-			]
+				"Many nomadic ratfolk take on jobs that require travel."
+			],
+			"short_description": "This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail."
 		},
 		{
 			"name": "Ratfolk, Ratfolk Sage",
@@ -3313,12 +3294,9 @@
 			],
 			"ecology": [ "**Environment** warm deserts or urban" ],
 			"description": [
-				"Magic is most useful to the warren when it provides insight, so diviners are held in high regard. Though the ratfolk sage prepares some offensive spells in case of attack-it's always good to be ready for danger-such things can be duplicated with alchemy and weaponry.",
-				"",
-				"### [Ratfolk](race:Ratfolk]",
-				"",
-				"This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail."
-			]
+				"Magic is most useful to the warren when it provides insight, so diviners are held in high regard. Though the ratfolk sage prepares some offensive spells in case of attack-it's always good to be ready for danger-such things can be duplicated with alchemy and weaponry."
+			],
+			"short_description": "This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail."
 		},
 		{
 			"name": "Ratfolk, Ratfolk Tinkerer",
@@ -3373,12 +3351,9 @@
 			],
 			"ecology": [ "**Environment** warm deserts or urban" ],
 			"description": [
-				"Ratfolk are adept at finding and disarming traps, which they scavenge to add to their warrens' defenses.",
-				"",
-				"### [Ratfolk](race:Ratfolk]",
-				"",
-				"This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail."
-			]
+				"Ratfolk are adept at finding and disarming traps, which they scavenge to add to their warrens' defenses."
+			],
+			"short_description": "This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail."
 		},
 		{
 			"name": "Ratfolk, Ratfolk Troubleshooter",
@@ -3432,12 +3407,9 @@
 			],
 			"ecology": [ "**Environment** warm deserts or urban" ],
 			"description": [
-				"Ratfolk are adept at finding and disarming traps, which they scavenge to add to their warrens' defenses.",
-				"",
-				"### [Ratfolk](race:Ratfolk]",
-				"",
-				"This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail."
-			]
+				"Ratfolk are adept at finding and disarming traps, which they scavenge to add to their warrens' defenses."
+			],
+			"short_description": "This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail."
 		},
 		{
 			"name": "Ratfolk, Ratfolk Warden",
@@ -3491,12 +3463,9 @@
 			],
 			"ecology": [ "**Environment** warm deserts or urban" ],
 			"description": [
-				"Because they trade so widely, ratfolk acquire interesting equipment-including black powder and rare metals.",
-				"",
-				"### [Ratfolk](race:Ratfolk]",
-				"",
-				"This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail."
-			]
+				"Because they trade so widely, ratfolk acquire interesting equipment-including black powder and rare metals."
+			],
+			"short_description": "This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail."
 		},
 		{
 			"name": "Ratling",
@@ -8976,12 +8945,9 @@
 			],
 			"ecology": [ "**Environment** temperate or warm ocean" ],
 			"description": [
-				"Powerful warriors occupy the top ranks of sahuagin society.",
-				"",
-				"### [Sahuagin](race:Sahuagin]",
-				"",
-				"This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw."
-			]
+				"Powerful warriors occupy the top ranks of sahuagin society."
+			],
+			"short_description": "This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw."
 		},
 		{
 			"name": "Sahuagin, Sahuagin Brute",
@@ -9032,12 +8998,9 @@
 			],
 			"ecology": [ "**Environment** temperate or warm ocean" ],
 			"description": [
-				"These sahuagin revel in their rage and blood frenzy.",
-				"",
-				"### [Sahuagin](race:Sahuagin]",
-				"",
-				"This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw."
-			]
+				"These sahuagin revel in their rage and blood frenzy."
+			],
+			"short_description": "This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw."
 		},
 		{
 			"name": "Sahuagin, Sahuagin Champion",
@@ -9092,12 +9055,9 @@
 			],
 			"ecology": [ "**Environment** temperate or warm ocean" ],
 			"description": [
-				"These sahuagin revel in their rage and blood frenzy.",
-				"",
-				"### [Sahuagin](race:Sahuagin]",
-				"",
-				"This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw."
-			]
+				"These sahuagin revel in their rage and blood frenzy."
+			],
+			"short_description": "This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw."
 		},
 		{
 			"name": "Sahuagin, Sahuagin Deep Racer",
@@ -9151,12 +9111,9 @@
 			],
 			"ecology": [ "**Environment** temperate or warm ocean" ],
 			"description": [
-				"Shark speakers prefer the company of vicious fish over other sahuagin.",
-				"",
-				"### [Sahuagin](race:Sahuagin]",
-				"",
-				"This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw."
-			]
+				"Shark speakers prefer the company of vicious fish over other sahuagin."
+			],
+			"short_description": "This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw."
 		},
 		{
 			"name": "Sahuagin, Sahuagin High Priestess",
@@ -9214,12 +9171,9 @@
 			],
 			"ecology": [ "**Environment** temperate or warm ocean" ],
 			"description": [
-				"Priestesses lead ceremonies and support military actions.",
-				"",
-				"### [Sahuagin](race:Sahuagin]",
-				"",
-				"This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw."
-			]
+				"Priestesses lead ceremonies and support military actions."
+			],
+			"short_description": "This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw."
 		},
 		{
 			"name": "Sahuagin, Sahuagin Infiltrator",
@@ -9274,12 +9228,9 @@
 			],
 			"ecology": [ "**Environment** temperate or warm ocean" ],
 			"description": [
-				"Agents lead the way for other sahuagin by scouting enemy patrols and hidden fortifications.",
-				"",
-				"### [Sahuagin](race:Sahuagin]",
-				"",
-				"This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw."
-			]
+				"Agents lead the way for other sahuagin by scouting enemy patrols and hidden fortifications."
+			],
+			"short_description": "This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw."
 		},
 		{
 			"name": "Sahuagin, Sahuagin Lieutenant",
@@ -9331,12 +9282,9 @@
 			],
 			"ecology": [ "**Environment** temperate or warm ocean" ],
 			"description": [
-				"Powerful warriors occupy the top ranks of sahuagin society.",
-				"",
-				"### [Sahuagin](race:Sahuagin]",
-				"",
-				"This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw."
-			]
+				"Powerful warriors occupy the top ranks of sahuagin society."
+			],
+			"short_description": "This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw."
 		},
 		{
 			"name": "Sahuagin, Sahuagin Prince",
@@ -9470,12 +9418,9 @@
 			],
 			"ecology": [ "**Environment** temperate or warm ocean" ],
 			"description": [
-				"Agents lead the way for other sahuagin by scouting enemy patrols and hidden fortifications.",
-				"",
-				"### [Sahuagin](race:Sahuagin]",
-				"",
-				"This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw."
-			]
+				"Agents lead the way for other sahuagin by scouting enemy patrols and hidden fortifications."
+			],
+			"short_description": "This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw."
 		},
 		{
 			"name": "Sahuagin, Sahuagin Shark Sentry",
@@ -9532,12 +9477,9 @@
 			],
 			"ecology": [ "**Environment** temperate or warm ocean" ],
 			"description": [
-				"Shark speakers prefer the company of vicious fish over other sahuagin.",
-				"",
-				"### [Sahuagin](race:Sahuagin]",
-				"",
-				"This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw."
-			]
+				"Shark speakers prefer the company of vicious fish over other sahuagin."
+			],
+			"short_description": "This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw."
 		},
 		{
 			"name": "Sahuagin, Sahuagin Underpriestess",
@@ -9594,12 +9536,9 @@
 			],
 			"ecology": [ "**Environment** temperate or warm ocean" ],
 			"description": [
-				"Priestesses lead ceremonies and support military actions.",
-				"",
-				"### [Sahuagin](race:Sahuagin]",
-				"",
-				"This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw."
-			]
+				"Priestesses lead ceremonies and support military actions."
+			],
+			"short_description": "This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw."
 		},
 		{
 			"name": "Salamander",
@@ -10412,11 +10351,7 @@
 				"**Pipes (Su)** A blackwood satyr can focus and empower his magical abilities by playing haunting melodies on his panpipes. When he plays, all creatures within a 60-foot radius must succeed at a DC 19 Will save or be affected by charm monster, deep slumber, reckless infatuation, or suggestion, depending on what tune the satyr chooses. A creature that successfully saves against any of the pipes- effects cannot be affected by the same set of pipes for 24 hours, but can still be affected by the blackwood satyr's other spell-like abilities as normal. The satyr's use of his pipes does not count toward his uses per day of his spell-like abilities, and if separated from them, he may continue to use his standard abilities. The pipes themselves are masterwork, and a satyr can craft a replacement with 1 week of labor. The save DC is Charisma-based."
 			],
 			"description": [
-				"Blackwood satyrs are an especially infamous breed of fey indigenous to the Verduran Forest, which straddles the borders of Andoran, Taldor, and Galt. They are well known throughout southeastern Avistan for exuding the pleasantly sweet aroma of blackwood tar, from which they gain their name. Though the human population surrounding the Verduran Forest seldom ventures deep into the fey wood for anything other than logging, the blackwood satyrs seem to take perverse pleasure in waylaying noble lords and ladies during their passage down the heavily traveled Sellen River, playing songs from the river's bank to lure vessels closer and enthrall all aboard.",
-				"",
-				"### [Satyr](race:Satyr]",
-				"",
-				"No flavor text."
+				"Blackwood satyrs are an especially infamous breed of fey indigenous to the Verduran Forest, which straddles the borders of Andoran, Taldor, and Galt. They are well known throughout southeastern Avistan for exuding the pleasantly sweet aroma of blackwood tar, from which they gain their name. Though the human population surrounding the Verduran Forest seldom ventures deep into the fey wood for anything other than logging, the blackwood satyrs seem to take perverse pleasure in waylaying noble lords and ladies during their passage down the heavily traveled Sellen River, playing songs from the river's bank to lure vessels closer and enthrall all aboard."
 			],
 			"short_description": "No flavor text."
 		},
@@ -23107,11 +23042,7 @@
 			"description": [
 				"When intruders threaten their beloved homes, sprite guards in large villages are taught to call for their fellow tribe members to form a vicious, enveloping swarm to drive back their enemies. Typically consisting of at least 5,000 sprites, these swarms are known for inflicting pain upon any creatures in their paths. Sprite swarms typically form only when the sprites' village is threatened by a large number of intruders or a single powerful foe; however, the malevolent sprites of Geb are quick to form swarms when faced with intrusion of any kind.",
 				"",
-				"In some parts of Golarion where sprites are known to exist, those accused of crimes or other unacceptable behavior are sentenced to face a sprite swarm so that nature itself can judge them. If a sprite swarm forms to drive one of the accused away, he is guilty; if not, he is innocent. Most of those sent forth never return, having run afoul of the sprites' protective instincts, but occasionally the sprites allow someone they deem not a threat to live-quite independently of their actual guilt or innocence.",
-				"",
-				"### [Sprite](race:Sprite]",
-				"",
-				"Thousands of tiny, colorful winged humanoids crawl from every corner of the forest to form this buzzing, writhing swarm."
+				"In some parts of Golarion where sprites are known to exist, those accused of crimes or other unacceptable behavior are sentenced to face a sprite swarm so that nature itself can judge them. If a sprite swarm forms to drive one of the accused away, he is guilty; if not, he is innocent. Most of those sent forth never return, having run afoul of the sprites' protective instincts, but occasionally the sprites allow someone they deem not a threat to live-quite independently of their actual guilt or innocence."
 			],
 			"short_description": "Thousands of tiny, colorful winged humanoids crawl from every corner of the forest to form this buzzing, writhing swarm."
 		},
@@ -30171,7 +30102,7 @@
 				"",
 				"Torbles that undergo the process of becoming a spellcaster's familiar lose their telepathic sensitivity and hive mind abilities, but gain a permanent Intelligence score of 3. Torble familiars grant their masters a +2 bonus on Craft (alchemy) checks.",
 				"",
-				"### [Torble](race:Torble]",
+				"### [Torble](race:Torble)",
 				"",
 				"This scuttling thing looks at first glance like a colorful, animate blob of slime, but its thin insectoid legs and eyestalks suggest it is a more advanced creature. Its antennae-like appendages wave about curiously, and its multiple legs carry forth its transparent, hand-sized body at a surprisingly swift scuttle."
 			]
@@ -31110,12 +31041,9 @@
 			],
 			"ecology": [ "**Environment** any underground" ],
 			"description": [
-				"Troglodyte divine spellcasters act as spiritual advisors for their tribes. Troglodyte clerics usually worship demon lords, particularly those associated with caverns and reptiles.",
-				"",
-				"### [Troglodyte](race:Troglodyte]",
-				"",
-				"This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back."
-			]
+				"Troglodyte divine spellcasters act as spiritual advisors for their tribes. Troglodyte clerics usually worship demon lords, particularly those associated with caverns and reptiles."
+			],
+			"short_description": "This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back."
 		},
 		{
 			"name": "Troglodyte, Troglodyte Champion",
@@ -31167,12 +31095,9 @@
 			],
 			"ecology": [ "**Environment** any underground" ],
 			"description": [
-				"These mounted warriors ride reptilian steeds such as giant monitor lizards or giant chameleons into combat.",
-				"",
-				"### [Troglodyte](race:Troglodyte]",
-				"",
-				"This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back."
-			]
+				"These mounted warriors ride reptilian steeds such as giant monitor lizards or giant chameleons into combat."
+			],
+			"short_description": "This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back."
 		},
 		{
 			"name": "Troglodyte, Troglodyte Chieftain",
@@ -31235,12 +31160,9 @@
 			],
 			"ecology": [ "**Environment** any underground" ],
 			"description": [
-				"Most ferocious troglodyte chieftains earn their positions by killing and eating their predecessors. Almost all chieftains practice some form of divine magic, and they must be strong-and cruel-to reign over their fractious, savage tribes. Troglodyte chieftains often wear fine metal items claimed from other creatures that they or their subjects have killed.",
-				"",
-				"### [Troglodyte](race:Troglodyte]",
-				"",
-				"This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back."
-			]
+				"Most ferocious troglodyte chieftains earn their positions by killing and eating their predecessors. Almost all chieftains practice some form of divine magic, and they must be strong-and cruel-to reign over their fractious, savage tribes. Troglodyte chieftains often wear fine metal items claimed from other creatures that they or their subjects have killed."
+			],
+			"short_description": "This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back."
 		},
 		{
 			"name": "Troglodyte, Troglodyte Priest",
@@ -31301,12 +31223,9 @@
 			],
 			"ecology": [ "**Environment** any underground" ],
 			"description": [
-				"Troglodyte divine spellcasters act as spiritual advisors for their tribes. Troglodyte clerics usually worship demon lords, particularly those associated with caverns and reptiles.",
-				"",
-				"### [Troglodyte](race:Troglodyte]",
-				"",
-				"This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back."
-			]
+				"Troglodyte divine spellcasters act as spiritual advisors for their tribes. Troglodyte clerics usually worship demon lords, particularly those associated with caverns and reptiles."
+			],
+			"short_description": "This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back."
 		},
 		{
 			"name": "Troglodyte, Troglodyte Scale-Rider",
@@ -31358,12 +31277,9 @@
 			],
 			"ecology": [ "**Environment** any underground" ],
 			"description": [
-				"These mounted warriors ride reptilian steeds such as giant monitor lizards or giant chameleons into combat.",
-				"",
-				"### [Troglodyte](race:Troglodyte]",
-				"",
-				"This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back."
-			]
+				"These mounted warriors ride reptilian steeds such as giant monitor lizards or giant chameleons into combat."
+			],
+			"short_description": "This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back."
 		},
 		{
 			"name": "Troglodyte, Troglodyte Skulker",
@@ -31415,12 +31331,9 @@
 			],
 			"ecology": [ "**Environment** any underground" ],
 			"description": [
-				"Far-ranging and mobile, troglodyte skulkers spend most of their time away from the tribe.",
-				"",
-				"### [Troglodyte](race:Troglodyte]",
-				"",
-				"This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back."
-			]
+				"Far-ranging and mobile, troglodyte skulkers spend most of their time away from the tribe."
+			],
+			"short_description": "This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back."
 		},
 		{
 			"name": "Troglodyte, Troglodyte Sorcerer",
@@ -31476,12 +31389,9 @@
 			],
 			"ecology": [ "**Environment** any underground" ],
 			"description": [
-				"Arcane casters often become scouts, as their divine counterparts monopolize the positions of power within the tribe. Most troglodyte sorcerers have the Abyssal, Deep Earth, Draconic, or Undead bloodline.",
-				"",
-				"### [Troglodyte](race:Troglodyte]",
-				"",
-				"This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back."
-			]
+				"Arcane casters often become scouts, as their divine counterparts monopolize the positions of power within the tribe. Most troglodyte sorcerers have the Abyssal, Deep Earth, Draconic, or Undead bloodline."
+			],
+			"short_description": "This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back."
 		},
 		{
 			"name": "Troglodyte, Troglodyte Tyrant",
@@ -31546,12 +31456,9 @@
 			],
 			"ecology": [ "**Environment** any underground" ],
 			"description": [
-				"Troglodyte tyrants come from the enlightened troglodytes who live far deeper underground than common troglodytes. Stronger, more intelligent, and longer-lived than their degenerate kin, they find it easy to assert dominance over tribes of normal troglodytes. Warlike in the extreme, tyrants are seasoned veterans of numerous military campaigns and they are expert tacticians, willing to sacrifice large numbers of troglodyte warriors to probe an enemy's strengths and weaknesses.",
-				"",
-				"### [Troglodyte](race:Troglodyte]",
-				"",
-				"This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back."
-			]
+				"Troglodyte tyrants come from the enlightened troglodytes who live far deeper underground than common troglodytes. Stronger, more intelligent, and longer-lived than their degenerate kin, they find it easy to assert dominance over tribes of normal troglodytes. Warlike in the extreme, tyrants are seasoned veterans of numerous military campaigns and they are expert tacticians, willing to sacrifice large numbers of troglodyte warriors to probe an enemy's strengths and weaknesses."
+			],
+			"short_description": "This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back."
 		},
 		{
 			"name": "Troglodyte, Troglodyte Warren Guard",
@@ -31608,12 +31515,9 @@
 			],
 			"ecology": [ "**Environment** any underground" ],
 			"description": [
-				"Troglodyte tribes trust only their most powerful members to look after the tribe's future members. Warren guards care for all of the tribe's eggs except those that are badly flawed; the warren guards consume eggs that will not hatch or that will likely result in a weak or sickly hatchling to ensure the future strength of the tribe. Despite warren guards' usual impartiality, religious leaders in the tribe are sometimes able to arrange for preferential treatment for eggs they laid or fertilized. This stops, however, at getting a warmer position for their eggs. A leader who tries to destroy a rival's eggs by pressuring or bribing a warren guard almost invariably draws that guard's wrath. These hulking, savage troglodytes fight with only tooth and claw. They're devoted to guarding the egg clutches, and leave their warrens only if all of the eggs have been destroyed. When set loose from this obligation, warren guards are feral, uncontrolled, and extremely dangerous.",
-				"",
-				"### [Troglodyte](race:Troglodyte]",
-				"",
-				"This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back."
-			]
+				"Troglodyte tribes trust only their most powerful members to look after the tribe's future members. Warren guards care for all of the tribe's eggs except those that are badly flawed; the warren guards consume eggs that will not hatch or that will likely result in a weak or sickly hatchling to ensure the future strength of the tribe. Despite warren guards' usual impartiality, religious leaders in the tribe are sometimes able to arrange for preferential treatment for eggs they laid or fertilized. This stops, however, at getting a warmer position for their eggs. A leader who tries to destroy a rival's eggs by pressuring or bribing a warren guard almost invariably draws that guard's wrath. These hulking, savage troglodytes fight with only tooth and claw. They're devoted to guarding the egg clutches, and leave their warrens only if all of the eggs have been destroyed. When set loose from this obligation, warren guards are feral, uncontrolled, and extremely dangerous."
+			],
+			"short_description": "This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back."
 		},
 		{
 			"name": "Troll",
@@ -35012,11 +34916,7 @@
 			"description": [
 				"The deathless guardians of Osirion's pre-Keleshite tombs are primarily the restless spirits of pharaohs, their loyal honor guards, and sometimes even mummified beasts. The emperors of Ancient Osirion occasionally demanded to be buried next to particularly favored pets, which were carefully sacrificed and embalmed. Famous examples include Zahur II's desert-acclimated firefoot fennecs, the toothed akh-birds of Menedes V, and the Dream Pharaoh's unsightly six-legged hounds. Perhaps no beasts were trusted into the afterlife so much as felines, however, who were almost without exception buried alongside deceased pharaohs or at the very least inscribed into their burial chamber walls. Those cats that rose from the dead- either because of the foul magical energies of a pharaoh's crypt or thanks to the necromantic magic of a restless undead pharaoh herself-were known as ubashki.",
 				"",
-				"Ubashki were prized for being stealthy, agile, and preternaturally perceptive sentries that made for effective spies and watch guards for the tombs of Osirian god-kings. Emperors often filled their crypts with the bodies of strangled and mutilated cats before they themselves were entombed, believing that a feline's suffering in life would translate to strength in undeath. Whether or not such theories were true is up for debate, but those felid creatures that did rise from death with their masters were indeed beasts to be reckoned with, and a sizeable pack of the mummified things could very well spell the end for would-be tomb raiders. Ranging from tiny housecats to desert-roaming mountain lions, the feline enshrined with a deceased pharaoh varied in type depending on the predilections of its master, but all were known to be significantly more powerful than their living iterations.",
-				"",
-				"### [Ubashki](race:Ubashki]",
-				"",
-				"No flavor text"
+				"Ubashki were prized for being stealthy, agile, and preternaturally perceptive sentries that made for effective spies and watch guards for the tombs of Osirian god-kings. Emperors often filled their crypts with the bodies of strangled and mutilated cats before they themselves were entombed, believing that a feline's suffering in life would translate to strength in undeath. Whether or not such theories were true is up for debate, but those felid creatures that did rise from death with their masters were indeed beasts to be reckoned with, and a sizeable pack of the mummified things could very well spell the end for would-be tomb raiders. Ranging from tiny housecats to desert-roaming mountain lions, the feline enshrined with a deceased pharaoh varied in type depending on the predilections of its master, but all were known to be significantly more powerful than their living iterations."
 			],
 			"short_description": "No flavor text"
 		},
@@ -38125,12 +38025,9 @@
 				"",
 				"**Greater Verdurous Ooze**",
 				"",
-				"Greater verdurous oozes are formed when several green oozes merge together as part of their reproductive process. They are similar in form but much larger, and while still green, exhibit white and red lines that resemble veins running through them. They are even more voracious and dangerous than standard green oozes, as they eat and eat to gain enough mass to reproduce. A greater verdurous ooze typically weighs 2,400 pounds and can easily spread to fill a 10-foot-square area.",
-				"",
-				"### [Verdurous Ooze](race:Verdurous_Ooze]",
-				"",
-				"A pool of greenish muck, blossoming with weird vegetable-like growths and sap-seeping boils, twitches into unnatural motion as a pseudopod springs outward, dragging the entire grotesque mass forward with an ameboid life."
-			]
+				"Greater verdurous oozes are formed when several green oozes merge together as part of their reproductive process. They are similar in form but much larger, and while still green, exhibit white and red lines that resemble veins running through them. They are even more voracious and dangerous than standard green oozes, as they eat and eat to gain enough mass to reproduce. A greater verdurous ooze typically weighs 2,400 pounds and can easily spread to fill a 10-foot-square area."
+			],
+			"short_description": "A pool of greenish muck, blossoming with weird vegetable-like growths and sap-seeping boils, twitches into unnatural motion as a pseudopod springs outward, dragging the entire grotesque mass forward with an ameboid life."
 		},
 		{
 			"name": "Vescavor Queen",
@@ -38499,7 +38396,9 @@
 				"",
 				"Although many vilkacis are purposefully created and employed by evil spellcasters, some manifest spontaneously. These beings wander and rampage as they please, but still are bound to a talisman similar to a canopic stone. This spontaneously created artifact can be utilized by those who discover it and discern its importance in the same way as can a canopic stone created specifically to summon and control a vilkacis, and typically takes the form of the dead werewolf -s skull, the silver weapon that killed the werewolf, or a talisman it bore in life.",
 				"",
-				"Canopic Stone **CL** 12th; **Price** 28,800 gp; **Requirements** Craft Wondrous Item, create undead, rage; **Cost** 14,400 gp"
+				"**Canopic Stone**   ",
+				"**CL** 12th; **Price** 28,800 gp   ",
+				"**Requirements** Craft Wondrous Item, create undead, rage; **Cost** 14,400 gp"
 			],
 			"short_description": "Within a swirling mass of frigid air manifests the form of a bestial specter. Claws the size of daggers lash menacingly before its half-bestial, half-humanoid form, and its narrow eyes glow with a smoldering malevolence."
 		},

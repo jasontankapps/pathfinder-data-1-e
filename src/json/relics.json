@@ -9,9 +9,7 @@
 		{
 			"name": "Band of the Crusader's Alliance",
 			"file": "relics85c9.html",
-			"sources": [
-				"Pathfinder #128: Songbird, Scion, Saboteur"
-			],
+			"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 			"slot": "ring",
 			"caster_level": "11th",
 			"description": [
@@ -37,9 +35,7 @@
 		{
 			"name": "Belt of the Last Wall",
 			"file": "relicsb03e.html",
-			"sources": [
-				"Pathfinder #141: Last Watch"
-			],
+			"sources": [ "Pathfinder #141: Last Watch" ],
 			"slot": "belt",
 			"caster_level": "13th",
 			"description": [
@@ -65,9 +61,7 @@
 		{
 			"name": "Dignity's Barb",
 			"file": "relics7278.html",
-			"sources": [
-				"Pathfinder #128: Songbird, Scion, Saboteur"
-			],
+			"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 			"slot": "none",
 			"caster_level": "12th",
 			"description": [
@@ -97,9 +91,7 @@
 		{
 			"name": "Envoy Ring",
 			"file": "relicsd537.html",
-			"sources": [
-				"Pathfinder #128: Songbird, Scion, Saboteur"
-			],
+			"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 			"slot": "ring",
 			"caster_level": "11th",
 			"description": [
@@ -129,9 +121,7 @@
 		{
 			"name": "Grace of the Last Azlanti",
 			"file": "relics2f44.html",
-			"sources": [
-				"Pathfinder #141: Last Watch"
-			],
+			"sources": [ "Pathfinder #141: Last Watch" ],
 			"slot": "neck",
 			"caster_level": "13th",
 			"description": [
@@ -157,9 +147,7 @@
 		{
 			"name": "Jalnesin's Broken Bonds",
 			"file": "relicsfb30.html",
-			"sources": [
-				"Pathfinder #141: Last Watch"
-			],
+			"sources": [ "Pathfinder #141: Last Watch" ],
 			"slot": "none",
 			"caster_level": "5th",
 			"description": [
@@ -185,9 +173,7 @@
 		{
 			"name": "Koriana's Blade",
 			"file": "relicsc5b5.html",
-			"sources": [
-				"Pathfinder #128: Songbird, Scion, Saboteur"
-			],
+			"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 			"slot": "none",
 			"caster_level": "17th",
 			"description": [
@@ -217,9 +203,7 @@
 		{
 			"name": "Lance of the Leaping Lion",
 			"file": "relics8e81.html",
-			"sources": [
-				"Pathfinder #141: Last Watch"
-			],
+			"sources": [ "Pathfinder #141: Last Watch" ],
 			"slot": "none",
 			"caster_level": "15th",
 			"description": [
@@ -245,9 +229,7 @@
 		{
 			"name": "Ovetrian's Plate",
 			"file": "relics1241.html",
-			"sources": [
-				"Pathfinder #128: Songbird, Scion, Saboteur"
-			],
+			"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 			"slot": "armor",
 			"caster_level": "15th",
 			"description": [
@@ -271,9 +253,7 @@
 		{
 			"name": "Scion's Dagger",
 			"file": "relics846f.html",
-			"sources": [
-				"Pathfinder #128: Songbird, Scion, Saboteur"
-			],
+			"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 			"slot": "none",
 			"caster_level": "17th",
 			"description": [
@@ -301,9 +281,7 @@
 		{
 			"name": "Standard of Conquest",
 			"file": "relicsab5a.html",
-			"sources": [
-				"Pathfinder #128: Songbird, Scion, Saboteur"
-			],
+			"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 			"slot": "none",
 			"caster_level": "15th",
 			"description": [
@@ -331,9 +309,7 @@
 		{
 			"name": "Subtle Mask",
 			"file": "relics1f0e.html",
-			"sources": [
-				"Pathfinder #128: Songbird, Scion, Saboteur"
-			],
+			"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 			"slot": "head",
 			"caster_level": "11th",
 			"description": [
@@ -361,9 +337,7 @@
 		{
 			"name": "Taldaris's Bequeathal",
 			"file": "relicsfd55.html",
-			"sources": [
-				"Pathfinder #141: Last Watch"
-			],
+			"sources": [ "Pathfinder #141: Last Watch" ],
 			"slot": "armor",
 			"caster_level": "9th",
 			"description": [

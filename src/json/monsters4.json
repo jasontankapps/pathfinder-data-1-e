@@ -4136,12 +4136,9 @@
 			],
 			"ecology": [ "**Environment** temperate underground or deep forest" ],
 			"description": [
-				"The boldest kobolds enjoy riding bizarre beasts into battle.",
-				"",
-				"### [Kobold](race:Kobold]",
-				"",
-				"This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail."
-			]
+				"The boldest kobolds enjoy riding bizarre beasts into battle."
+			],
+			"short_description": "This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail."
 		},
 		{
 			"name": "Kobold, Kobold Blade",
@@ -4192,12 +4189,9 @@
 			],
 			"ecology": [ "**Environment** temperate underground or deep forest" ],
 			"description": [
-				"Kobold warriors are more prudent than brave. They usually opt to attack from hiding with ranged weapons, and move into melee only when absolutely necessary-such as when the chief doesn't give them any other option.",
-				"",
-				"### [Kobold](race:Kobold]",
-				"",
-				"This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail."
-			]
+				"Kobold warriors are more prudent than brave. They usually opt to attack from hiding with ranged weapons, and move into melee only when absolutely necessary-such as when the chief doesn't give them any other option."
+			],
+			"short_description": "This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail."
 		},
 		{
 			"name": "Kobold, Kobold Bomber",
@@ -4253,12 +4247,9 @@
 			],
 			"ecology": [ "**Environment** temperate underground or deep forest" ],
 			"description": [
-				"Kobold tricksters are experts at crafting deadly traps-both magical and mundane-and at striking from concealment while their enemies are distracted by the traps' effects.",
-				"",
-				"### [Kobold](race:Kobold]",
-				"",
-				"This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail."
-			]
+				"Kobold tricksters are experts at crafting deadly traps-both magical and mundane-and at striking from concealment while their enemies are distracted by the traps' effects."
+			],
+			"short_description": "This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail."
 		},
 		{
 			"name": "Kobold, Kobold Chieftain",
@@ -4309,12 +4300,9 @@
 			],
 			"ecology": [ "**Environment** temperate underground or deep forest" ],
 			"description": [
-				"Kobold leaders are the undisputed masters of their tribes.",
-				"",
-				"### [Kobold](race:Kobold]",
-				"",
-				"This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail."
-			]
+				"Kobold leaders are the undisputed masters of their tribes."
+			],
+			"short_description": "This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail."
 		},
 		{
 			"name": "Kobold, Kobold Devilspeaker",
@@ -4379,12 +4367,9 @@
 			],
 			"ecology": [ "**Environment** temperate underground or deep forest" ],
 			"description": [
-				"Kobold priests are charged with ensuring both the spiritual and the physical welfare of a kobold tribe. Though some priests serve the dragon gods, many pay homage to Asmodeus, seeing in Hell the perfect embodiment of a lawful evil society. These devilspeakers believe a tribe should work like a well-oiled machine, and while kobolds' natural cowardice sometimes gets in the way, devilspeakers keep their warriors fighting bravely-whether the troops like it or not. Devilspeakers keep spells like animate dead handy, turning fallen kobold warriors into zombies. These kobold zombies effectively soften up invading adventurers, and dig tirelessly in the mines.",
-				"",
-				"### [Kobold](race:Kobold]",
-				"",
-				"This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail."
-			]
+				"Kobold priests are charged with ensuring both the spiritual and the physical welfare of a kobold tribe. Though some priests serve the dragon gods, many pay homage to Asmodeus, seeing in Hell the perfect embodiment of a lawful evil society. These devilspeakers believe a tribe should work like a well-oiled machine, and while kobolds' natural cowardice sometimes gets in the way, devilspeakers keep their warriors fighting bravely-whether the troops like it or not. Devilspeakers keep spells like animate dead handy, turning fallen kobold warriors into zombies. These kobold zombies effectively soften up invading adventurers, and dig tirelessly in the mines."
+			],
+			"short_description": "This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail."
 		},
 		{
 			"name": "Kobold, Kobold Guilecaster",
@@ -4441,12 +4426,9 @@
 			],
 			"ecology": [ "**Environment** temperate underground or deep forest" ],
 			"description": [
-				"Kobolds see sorcery as proof of their draconic heritage.",
-				"",
-				"### [Kobold](race:Kobold]",
-				"",
-				"This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail."
-			]
+				"Kobolds see sorcery as proof of their draconic heritage."
+			],
+			"short_description": "This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail."
 		},
 		{
 			"name": "Kobold, Kobold Master Trapper",
@@ -4501,12 +4483,9 @@
 			],
 			"ecology": [ "**Environment** temperate underground or deep forest" ],
 			"description": [
-				"Kobold tricksters are experts at crafting deadly traps-both magical and mundane-and at striking from concealment while their enemies are distracted by the traps' effects.",
-				"",
-				"### [Kobold](race:Kobold]",
-				"",
-				"This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail."
-			]
+				"Kobold tricksters are experts at crafting deadly traps-both magical and mundane-and at striking from concealment while their enemies are distracted by the traps' effects."
+			],
+			"short_description": "This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail."
 		},
 		{
 			"name": "Kobold, Kobold Monster Wrangler",
@@ -4556,12 +4535,9 @@
 			],
 			"ecology": [ "**Environment** temperate underground or deep forest" ],
 			"description": [
-				"The boldest kobolds enjoy riding bizarre beasts into battle.",
-				"",
-				"### [Kobold](race:Kobold]",
-				"",
-				"This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail."
-			]
+				"The boldest kobolds enjoy riding bizarre beasts into battle."
+			],
+			"short_description": "This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail."
 		},
 		{
 			"name": "Kobold, Kobold Scalecaster",
@@ -4616,12 +4592,9 @@
 			],
 			"ecology": [ "**Environment** temperate underground or deep forest" ],
 			"description": [
-				"Kobolds see sorcery as proof of their draconic heritage.",
-				"",
-				"### [Kobold](race:Kobold]",
-				"",
-				"This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail."
-			]
+				"Kobolds see sorcery as proof of their draconic heritage."
+			],
+			"short_description": "This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail."
 		},
 		{
 			"name": "Kobold, Kobold Sniper",
@@ -4671,12 +4644,9 @@
 			],
 			"ecology": [ "**Environment** temperate underground or deep forest" ],
 			"description": [
-				"Kobold warriors are more prudent than brave. They usually opt to attack from hiding with ranged weapons, and move into melee only when absolutely necessary-such as when the chief doesn't give them any other option.",
-				"",
-				"### [Kobold](race:Kobold]",
-				"",
-				"This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail."
-			]
+				"Kobold warriors are more prudent than brave. They usually opt to attack from hiding with ranged weapons, and move into melee only when absolutely necessary-such as when the chief doesn't give them any other option."
+			],
+			"short_description": "This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail."
 		},
 		{
 			"name": "Kobold, Kobold Yapper",
@@ -4732,12 +4702,9 @@
 			],
 			"ecology": [ "**Environment** temperate underground or deep forest" ],
 			"description": [
-				"Kobold leaders are the undisputed masters of their tribes.",
-				"",
-				"### [Kobold](race:Kobold]",
-				"",
-				"This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail."
-			]
+				"Kobold leaders are the undisputed masters of their tribes."
+			],
+			"short_description": "This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail."
 		},
 		{
 			"name": "Kokogiak",
@@ -8667,8 +8634,7 @@
 			"creating": [
 				"A flytrap leshy is usually grown in swampy or marshy terrain. A flytrap leshy will only emerge if it is given a small pile of freshly killed insects to eat.",
 				"",
-				"**CL** 10th; **Price** 6,500 gp",
-				"",
+				"**CL** 10th; **Price** 6,500 gp   ",
 				"**Requirements** Knowledge (nature) 5 ranks, burst of nettles, plant growth, summon nature's ally IV; Skill Knowledge (nature) DC 18; **Cost** 3,250 gp"
 			],
 			"monster_family": "Leshy",
@@ -9085,8 +9051,7 @@
 			"creating": [
 				"Lotus leshys grow best in warm ponds and lakes in quiet areas. To grow a lotus leshy, the maker must plant a lotus seed by the water's edge, and sit in quiet mediation by the seed until it sprouts.",
 				"",
-				"**CL** 12th; **Price** 9,000 gp",
-				"",
+				"**CL** 12th; **Price** 9,000 gp   ",
 				"**Requirements** Knowledge (nature) 5 ranks, Knowledge (religion) 5 ranks, lily pad stride, plant growth, summon nature's ally V; Skill Knowledge (nature or religion) DC 19; **Cost** 4,500 gp"
 			],
 			"monster_family": "Leshy",
@@ -14804,11 +14769,7 @@
 			"description": [
 				"At a young age, Eygreas learned from her mother-a strong-willed medusa by the name of Litiasha-that she was the daughter of a powerful boggard priestking. When the tribe of boggards ambushed Litiasha several years after Eygreas's birth, demanding that the medusa release her brazen daughter to them to be sacrificed on an altar to Gogunta, Litiasha barely had time to petrify more than half of the boggard warriors before she was overwhelmed and abducted by them, and sacrificed in her daughter's place. Eygreas barely escaped the onslaught; the traumatic event spurred within her a burning hatred for the froglike denizens of the swamp, and so she honed her skill with her bow and devoted her life to hunting the tribe that had killed her kin. After stealthily slaughtering all of the boggards with her arrows and gaze-and thus removing her only driving motivation-she fell into a realm of madness and bitter isolation.",
 				"",
-				"Now, the brazen medusa stalks the Thassilonian ruins that dot the southern Mushfens, seeking some sort of artifact or piece of history that will once again give meaning to her life, all the while butchering any she comes across with little regard to their motives or means. Though her memory is mostly shattered, her skill at hunting remains sharp, and she seeks solace from the chaos of her mind by stalking her prey and feasting on their corpses. Still, though she does not remember why, the sight of the toady people of the swamp enrages her to no end, and the only thing that will stop Eygreas from pursuing her current target is the opportunity to hunt a boggard instead.",
-				"",
-				"### [Medusa](race:Medusa]",
-				"",
-				"This monstrous, snaked-haired creature has the upper body of a bronze-skinned woman and the lower body of an enormous serpent."
+				"Now, the brazen medusa stalks the Thassilonian ruins that dot the southern Mushfens, seeking some sort of artifact or piece of history that will once again give meaning to her life, all the while butchering any she comes across with little regard to their motives or means. Though her memory is mostly shattered, her skill at hunting remains sharp, and she seeks solace from the chaos of her mind by stalking her prey and feasting on their corpses. Still, though she does not remember why, the sight of the toady people of the swamp enrages her to no end, and the only thing that will stop Eygreas from pursuing her current target is the opportunity to hunt a boggard instead."
 			],
 			"short_description": "This monstrous, snaked-haired creature has the upper body of a bronze-skinned woman and the lower body of an enormous serpent."
 		},
@@ -23139,12 +23100,9 @@
 			"description": [
 				"Nirentos are predatory plants with brutish intelligence, their thorny vines able to tear foes limb from limb. A nirento lures prey toward it by swaying its branches and vines in a visually stimulating dance, striking at victims mercilessly once they are within range of its natural weapons. Slain prey then piles up around the tree's base and is absorbed through its roots. Nirentos' spongy bodies ensure they absorb most physical blows, though they remain susceptible to slashes and cuts, and when so injured, a translucent green sap oozes from their wounds.",
 				"",
-				"Elder nirentos are individuals that have lived for well over a century, and have absorbed nutrients from countless victims over the years. A typical nirento is 15 feet tall and weighs 1,000 pounds, while elder nirentos can reach heights of up to 25 feet and weigh over a ton.",
-				"",
-				"### [Nirento](race:Nirento]",
-				"",
-				"Thorny vines encircle this tropical tree's thick, spongy trunk, and jungle debris lies strewn about its base."
-			]
+				"Elder nirentos are individuals that have lived for well over a century, and have absorbed nutrients from countless victims over the years. A typical nirento is 15 feet tall and weighs 1,000 pounds, while elder nirentos can reach heights of up to 25 feet and weigh over a ton."
+			],
+			"short_description": "Thorny vines encircle this tropical tree's thick, spongy trunk, and jungle debris lies strewn about its base."
 		},
 		{
 			"name": "Nisid",
@@ -24518,12 +24476,9 @@
 			],
 			"ecology": [ "**Environment** temperate or cold hills" ],
 			"description": [
-				"Violence is a way of life for ogres. Most of them learn the best ways to cause pain from their clans' bosses, who mete out beatings for even the slightest infraction.",
-				"",
-				"### [Ogre](race:Ogre]",
-				"",
-				"This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth."
-			]
+				"Violence is a way of life for ogres. Most of them learn the best ways to cause pain from their clans' bosses, who mete out beatings for even the slightest infraction."
+			],
+			"short_description": "This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth."
 		},
 		{
 			"name": "Ogre, Ogre Brute",
@@ -24578,12 +24533,9 @@
 			],
 			"ecology": [ "**Environment** temperate or cold hills" ],
 			"description": [
-				"Violence is a way of life for ogres. Most of them learn the best ways to cause pain from their clans' bosses, who mete out beatings for even the slightest infraction.",
-				"",
-				"### [Ogre](race:Ogre]",
-				"",
-				"This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth."
-			]
+				"Violence is a way of life for ogres. Most of them learn the best ways to cause pain from their clans' bosses, who mete out beatings for even the slightest infraction."
+			],
+			"short_description": "This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth."
 		},
 		{
 			"name": "Ogre, Ogre Destroyer",
@@ -24714,12 +24666,9 @@
 			],
 			"ecology": [ "**Environment** temperate or cold hills" ],
 			"description": [
-				"Ogre mancatchers and gluttons are welcome at all campfires for their amazing wrestling ability, funny stories, delicious baby jam, and skill at catching tasty humans. When one visits, she is offered first pick of food and mates.",
-				"",
-				"### [Ogre](race:Ogre]",
-				"",
-				"This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth."
-			]
+				"Ogre mancatchers and gluttons are welcome at all campfires for their amazing wrestling ability, funny stories, delicious baby jam, and skill at catching tasty humans. When one visits, she is offered first pick of food and mates."
+			],
+			"short_description": "This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth."
 		},
 		{
 			"name": "Ogre, Ogre Hunter",
@@ -24860,12 +24809,9 @@
 			],
 			"ecology": [ "**Environment** temperate or cold hills" ],
 			"description": [
-				"Few ogres live long enough to amass great power-which makes an army commanded by a powerful ogre king or queen a terrifying force to behold.",
-				"",
-				"### [Ogre](race:Ogre]",
-				"",
-				"This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth."
-			]
+				"Few ogres live long enough to amass great power-which makes an army commanded by a powerful ogre king or queen a terrifying force to behold."
+			],
+			"short_description": "This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth."
 		},
 		{
 			"name": "Ogre, Ogre Mancatcher",
@@ -24917,12 +24863,9 @@
 			],
 			"ecology": [ "**Environment** temperate or cold hills" ],
 			"description": [
-				"Ogre mancatchers and gluttons are welcome at all campfires for their amazing wrestling ability, funny stories, delicious baby jam, and skill at catching tasty humans. When one visits, she is offered first pick of food and mates.",
-				"",
-				"### [Ogre](race:Ogre]",
-				"",
-				"This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth."
-			]
+				"Ogre mancatchers and gluttons are welcome at all campfires for their amazing wrestling ability, funny stories, delicious baby jam, and skill at catching tasty humans. When one visits, she is offered first pick of food and mates."
+			],
+			"short_description": "This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth."
 		},
 		{
 			"name": "Ogre, Ogre Priest",
@@ -24978,12 +24921,9 @@
 			],
 			"ecology": [ "**Environment** temperate or cold hills" ],
 			"description": [
-				"Ogres belittle those who value smarts over strength, but clever ogres find their own paths to power.",
-				"",
-				"### [Ogre](race:Ogre]",
-				"",
-				"This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth."
-			]
+				"Ogres belittle those who value smarts over strength, but clever ogres find their own paths to power."
+			],
+			"short_description": "This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth."
 		},
 		{
 			"name": "Ogre, Ogre Stalker",
@@ -25035,12 +24975,9 @@
 			],
 			"ecology": [ "**Environment** temperate or cold hills" ],
 			"description": [
-				"Ogres belittle those who value smarts over strength, but clever ogres find their own paths to power.",
-				"",
-				"### [Ogre](race:Ogre]",
-				"",
-				"This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth."
-			]
+				"Ogres belittle those who value smarts over strength, but clever ogres find their own paths to power."
+			],
+			"short_description": "This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide mouth with ill-fitting teeth."
 		},
 		{
 			"name": "Ohancanu",
@@ -33087,12 +33024,9 @@
 			"habitat": [
 				"Proto-shoggoths have no true society, and are driven by two overwhelming instincts: the urge to infect living flesh, and the urge to merge with other proto-shoggoths. Once a creature succumbs to such an infestation, a proto-shoggoth instinctually knows to linger in the area and attempts to merge with its freshly born offspring when it erupts from the victim's body. A proto-shoggoth tends not to remain in proximity with others of its kind that it has failed to merge with, but is not hostile toward such incompatible specimens.",
 				"",
-				"Once two proto-shoggoths successfully merge and form a proto-shoggoth syncytium, the syncytium gains a rudimentary intellect that allows it to more successfully seek out others to merge with and finish the growth cycle into a full-fledged shoggoth. It can no longer infect flesh, though, nor can it merge with other nonsyncytium proto-shoggoths, but it does understand that lingering in areas where other proto-shoggoths are active will, eventually, give it opportunities to grow. A proto-shoggoth syncytium often acts as a protector over its mindless \"children\" and has been known to use rudimentary cunning to lure (or more often chase) unsuspecting living creatures into proto-shoggoth nests.",
-				"",
-				"### [Proto-Shoggoth](race:Proto-Shoggoth]",
-				"",
-				"Half-formed eyes, toothless mouths, gaping throats, and countless other malformed organs constantly form and dissolve over this monster's surface."
+				"Once two proto-shoggoths successfully merge and form a proto-shoggoth syncytium, the syncytium gains a rudimentary intellect that allows it to more successfully seek out others to merge with and finish the growth cycle into a full-fledged shoggoth. It can no longer infect flesh, though, nor can it merge with other nonsyncytium proto-shoggoths, but it does understand that lingering in areas where other proto-shoggoths are active will, eventually, give it opportunities to grow. A proto-shoggoth syncytium often acts as a protector over its mindless \"children\" and has been known to use rudimentary cunning to lure (or more often chase) unsuspecting living creatures into proto-shoggoth nests."
 			],
+			"short_description": "Half-formed eyes, toothless mouths, gaping throats, and countless other malformed organs constantly form and dissolve over this monster's surface.",
 			"description": [
 				"Early attempts by the elder things to craft life resulted in strange, heaving masses of protoplasm that displayed a disturbing hunger for living flesh. Emboldened by this discovery, the alien scientists soon stabilized this matter, resulting in the creation of the first proto-shoggoths.",
 				"",

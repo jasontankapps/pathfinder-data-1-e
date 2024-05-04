@@ -12,9 +12,7 @@
 		{
 			"name": "Arrow Trap",
 			"file": "trapsf030.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "1",
 			"type": "mechanical",
 			"perception_DC": "20",
@@ -34,9 +32,7 @@
 		{
 			"name": "Bear Trap",
 			"file": "traps796f.html",
-			"sources": [
-				"Advanced Player's Guide"
-			],
+			"sources": [ "Advanced Player's Guide" ],
 			"cr": "1",
 			"type": "mechanical",
 			"perception_DC": "15",
@@ -56,9 +52,7 @@
 		{
 			"name": "Breakaway Vine",
 			"file": "trapsfbab.html",
-			"sources": [
-				"Ultimate Wilderness"
-			],
+			"sources": [ "Ultimate Wilderness" ],
 			"cr": "1",
 			"type": "mechanical",
 			"perception_DC": "20",
@@ -81,9 +75,7 @@
 		{
 			"name": "Musk Shower",
 			"file": "trapsd0f5.html",
-			"sources": [
-				"Ultimate Wilderness"
-			],
+			"sources": [ "Ultimate Wilderness" ],
 			"cr": "1",
 			"type": "mechanical",
 			"perception_DC": "20",
@@ -106,9 +98,7 @@
 		{
 			"name": "Pit Trap",
 			"file": "traps6571.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "1",
 			"type": "mechanical",
 			"perception_DC": "20",
@@ -128,9 +118,7 @@
 		{
 			"name": "Poisoned Dart Trap",
 			"file": "traps54df.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "1",
 			"type": "mechanical",
 			"perception_DC": "20",
@@ -150,9 +138,7 @@
 		{
 			"name": "Spring Snare",
 			"file": "traps3ca1.html",
-			"sources": [
-				"Ultimate Wilderness"
-			],
+			"sources": [ "Ultimate Wilderness" ],
 			"cr": "1",
 			"type": "mechanical",
 			"perception_DC": "25",
@@ -175,9 +161,7 @@
 		{
 			"name": "Swinging Axe Trap",
 			"file": "trapsf0a2.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "1",
 			"type": "mechanical",
 			"perception_DC": "20",
@@ -197,9 +181,7 @@
 		{
 			"name": "Swinging Log",
 			"file": "traps2db7.html",
-			"sources": [
-				"Ultimate Wilderness"
-			],
+			"sources": [ "Ultimate Wilderness" ],
 			"cr": "1",
 			"type": "mechanical",
 			"perception_DC": "12",
@@ -222,9 +204,7 @@
 		{
 			"name": "Tar Snare",
 			"file": "traps8dc7.html",
-			"sources": [
-				"Ultimate Wilderness"
-			],
+			"sources": [ "Ultimate Wilderness" ],
 			"cr": "1",
 			"type": "mechanical",
 			"perception_DC": "20",
@@ -247,9 +227,7 @@
 		{
 			"name": "Burning Hands Trap",
 			"file": "trapsf145.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "2",
 			"type": "magic",
 			"perception_DC": "26",
@@ -269,9 +247,7 @@
 		{
 			"name": "Clam Clamp",
 			"file": "traps6fd9.html",
-			"sources": [
-				"Ultimate Wilderness"
-			],
+			"sources": [ "Ultimate Wilderness" ],
 			"cr": "2",
 			"type": "mechanical",
 			"perception_DC": "20",
@@ -294,9 +270,7 @@
 		{
 			"name": "Javelin Trap",
 			"file": "traps96e8.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "2",
 			"type": "mechanical",
 			"perception_DC": "20",
@@ -316,9 +290,7 @@
 		{
 			"name": "Spiked Pit Trap",
 			"file": "trapsccd7.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "2",
 			"type": "mechanical",
 			"perception_DC": "20",
@@ -338,9 +310,7 @@
 		{
 			"name": "Acid Arrow Trap",
 			"file": "trapsb72b.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "3",
 			"type": "magic",
 			"perception_DC": "27",
@@ -360,9 +330,7 @@
 		{
 			"name": "Camouflaged Pit Trap",
 			"file": "trapsdf34.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "3",
 			"type": "mechanical",
 			"perception_DC": "25",
@@ -382,9 +350,7 @@
 		{
 			"name": "Razor Grass",
 			"file": "trapsb088.html",
-			"sources": [
-				"Ultimate Wilderness"
-			],
+			"sources": [ "Ultimate Wilderness" ],
 			"cr": "3",
 			"type": "mechanical",
 			"perception_DC": "25",
@@ -407,9 +373,7 @@
 		{
 			"name": "Breakaway Log",
 			"file": "traps7b78.html",
-			"sources": [
-				"Ultimate Wilderness"
-			],
+			"sources": [ "Ultimate Wilderness" ],
 			"cr": "4",
 			"type": "mechanical",
 			"perception_DC": "25",
@@ -432,9 +396,7 @@
 		{
 			"name": "Electricity Arc Trap",
 			"file": "trapsbdf3.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "4",
 			"type": "mechanical",
 			"perception_DC": "25",
@@ -454,9 +416,7 @@
 		{
 			"name": "Spring-arm Spike",
 			"file": "traps20dc.html",
-			"sources": [
-				"Ultimate Wilderness"
-			],
+			"sources": [ "Ultimate Wilderness" ],
 			"cr": "4",
 			"type": "mechanical",
 			"perception_DC": "20",
@@ -479,9 +439,7 @@
 		{
 			"name": "Wall Scythe Trap",
 			"file": "trapsfad1.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "4",
 			"type": "mechanical",
 			"perception_DC": "20",
@@ -501,9 +459,7 @@
 		{
 			"name": "Deadfall",
 			"file": "traps9b0c.html",
-			"sources": [
-				"Ultimate Wilderness"
-			],
+			"sources": [ "Ultimate Wilderness" ],
 			"cr": "5",
 			"type": "mechanical",
 			"perception_DC": "20",
@@ -526,9 +482,7 @@
 		{
 			"name": "Falling Block Trap",
 			"file": "trapsf37a.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "5",
 			"type": "mechanical",
 			"perception_DC": "20",
@@ -548,9 +502,7 @@
 		{
 			"name": "Fireball Trap",
 			"file": "traps3075.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "5",
 			"type": "magic",
 			"perception_DC": "28",
@@ -570,9 +522,7 @@
 		{
 			"name": "Flame Strike Trap",
 			"file": "traps759b.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "6",
 			"type": "magic",
 			"perception_DC": "30",
@@ -592,9 +542,7 @@
 		{
 			"name": "Wyvern Arrow Trap",
 			"file": "trapsdba0.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "6",
 			"type": "mechanical",
 			"perception_DC": "20",
@@ -614,9 +562,7 @@
 		{
 			"name": "Faceless Statue Trap",
 			"file": "traps75b6.html",
-			"sources": [
-				"Horror Adventures"
-			],
+			"sources": [ "Horror Adventures" ],
 			"cr": "7",
 			"type": "magic",
 			"perception_DC": "31",
@@ -636,9 +582,7 @@
 		{
 			"name": "Frost Fangs Trap",
 			"file": "traps083d.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "7",
 			"type": "mechanical",
 			"perception_DC": "25",
@@ -658,9 +602,7 @@
 		{
 			"name": "Sinking Coffin Trap",
 			"file": "trapsa076.html",
-			"sources": [
-				"Horror Adventures"
-			],
+			"sources": [ "Horror Adventures" ],
 			"cr": "7",
 			"type": "mechanical",
 			"perception_DC": "25",
@@ -680,9 +622,7 @@
 		{
 			"name": "Summon Monster VI Trap",
 			"file": "trapsd0d1.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "7",
 			"type": "magic",
 			"perception_DC": "31",
@@ -702,9 +642,7 @@
 		{
 			"name": "Camouflaged Spiked Pit Trap",
 			"file": "traps4913.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "8",
 			"type": "mechanical",
 			"perception_DC": "25",
@@ -724,9 +662,7 @@
 		{
 			"name": "Insanity Mist Trap",
 			"file": "trapsaf83.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "8",
 			"type": "mechanical",
 			"perception_DC": "25",
@@ -746,9 +682,7 @@
 		{
 			"name": "Hail of Arrows Trap",
 			"file": "traps8c4c.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "9",
 			"type": "mechanical",
 			"perception_DC": "25",
@@ -768,9 +702,7 @@
 		{
 			"name": "Shocking Floor Trap",
 			"file": "trapsb2bb.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "9",
 			"type": "magic",
 			"perception_DC": "26",
@@ -790,9 +722,7 @@
 		{
 			"name": "Chamber of Blades Trap",
 			"file": "traps74c8.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "10",
 			"type": "mechanical",
 			"perception_DC": "25",
@@ -812,9 +742,7 @@
 		{
 			"name": "Energy Drain Trap",
 			"file": "traps55d5.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "10",
 			"type": "magic",
 			"perception_DC": "34",
@@ -834,9 +762,7 @@
 		{
 			"name": "Cone of Cold Trap",
 			"file": "traps3427.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "11",
 			"type": "magic",
 			"perception_DC": "30",
@@ -856,9 +782,7 @@
 		{
 			"name": "Crushing Cage Tarp",
 			"file": "trapsaa18.html",
-			"sources": [
-				"Horror Adventures"
-			],
+			"sources": [ "Horror Adventures" ],
 			"cr": "11",
 			"type": "mechanical",
 			"perception_DC": "29",
@@ -878,9 +802,7 @@
 		{
 			"name": "Poisoned Pit Trap",
 			"file": "trapsd7a6.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "12",
 			"type": "mechanical",
 			"perception_DC": "25",
@@ -900,9 +822,7 @@
 		{
 			"name": "Maximized Fireball Trap",
 			"file": "traps50a8.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "13",
 			"type": "magic",
 			"perception_DC": "31",
@@ -922,9 +842,7 @@
 		{
 			"name": "Harm Trap",
 			"file": "trapsb2b5.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "14",
 			"type": "magic",
 			"perception_DC": "31",
@@ -944,9 +862,7 @@
 		{
 			"name": "Crushing Stone Trap",
 			"file": "traps0a8f.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "15",
 			"type": "mechanical",
 			"perception_DC": "30",
@@ -966,9 +882,7 @@
 		{
 			"name": "Empowered Disintegrate Trap",
 			"file": "trapsd8c7.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "16",
 			"type": "magic",
 			"perception_DC": "33",
@@ -988,9 +902,7 @@
 		{
 			"name": "Lightning Bolt Gallery Trap",
 			"file": "traps9985.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "17",
 			"type": "magic",
 			"perception_DC": "29",
@@ -1010,9 +922,7 @@
 		{
 			"name": "Deadly Spear Trap",
 			"file": "traps78de.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "18",
 			"type": "mechanical",
 			"perception_DC": "30",
@@ -1032,9 +942,7 @@
 		{
 			"name": "Meteor Swarm Trap",
 			"file": "traps7450.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "19",
 			"type": "magic",
 			"perception_DC": "34",
@@ -1054,9 +962,7 @@
 		{
 			"name": "Destruction Trap",
 			"file": "traps56d7.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"cr": "20",
 			"type": "magic",
 			"perception_DC": "34",

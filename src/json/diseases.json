@@ -3,9 +3,7 @@
 		{
 			"name": "Bonecrusher (Dengue)",
 			"file": "diseasesc1cf.html",
-			"sources": [
-				"Heart of the Jungle"
-			],
+			"sources": [ "Heart of the Jungle" ],
 			"type": "injury",
 			"fortitude_save": "DC 12",
 			"onset": "1 week",
@@ -25,9 +23,7 @@
 		{
 			"name": "Filth Fever",
 			"file": "diseases80c3.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"type": "injury",
 			"fortitude_save": "DC 12",
 			"onset": "1d3 days",
@@ -47,9 +43,7 @@
 		{
 			"name": "Fungal Flu",
 			"file": "diseasesa570.html",
-			"sources": [
-				"Pathfinder #13: Shadow in the Sky"
-			],
+			"sources": [ "Pathfinder #13: Shadow in the Sky" ],
 			"type": "inhaled",
 			"fortitude_save": "DC 12",
 			"onset": "3d6 days",
@@ -69,9 +63,7 @@
 		{
 			"name": "Leprosy",
 			"file": "diseases2ed5.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"type": "contact, inhaled, or injury",
 			"fortitude_save": "DC 12 ((negates; DC 20 to avoid effects))",
 			"onset": "2d4 weeks",
@@ -91,9 +83,7 @@
 		{
 			"name": "Mindfire",
 			"file": "diseases1549.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"type": "inhaled",
 			"fortitude_save": "DC 12",
 			"onset": "1 day",
@@ -113,9 +103,7 @@
 		{
 			"name": "Ghoul Fever",
 			"file": "diseases2a8f.html",
-			"sources": [
-				"Pathfinder RPG Bestiary"
-			],
+			"sources": [ "Pathfinder RPG Bestiary" ],
 			"type": "injury",
 			"fortitude_save": "DC 13",
 			"onset": "1 day",
@@ -137,9 +125,7 @@
 		{
 			"name": "Green Haze",
 			"file": "diseases4d86.html",
-			"sources": [
-				"Heart of the Jungle"
-			],
+			"sources": [ "Heart of the Jungle" ],
 			"type": "contact",
 			"fortitude_save": "DC 13",
 			"onset": "1 day",
@@ -159,9 +145,7 @@
 		{
 			"name": "Shakes",
 			"file": "diseases6db3.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"type": "contact",
 			"fortitude_save": "DC 13",
 			"onset": "1 day",
@@ -181,9 +165,7 @@
 		{
 			"name": "Brainworms",
 			"file": "diseasese3a1.html",
-			"sources": [
-				"Heart of the Jungle"
-			],
+			"sources": [ "Heart of the Jungle" ],
 			"type": "contact or injury",
 			"fortitude_save": "DC 14",
 			"onset": "1 day",
@@ -203,9 +185,7 @@
 		{
 			"name": "Devil Chills",
 			"file": "diseasese73f.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"type": "injury",
 			"fortitude_save": "DC 14",
 			"onset": "1d4 days",
@@ -225,9 +205,7 @@
 		{
 			"name": "Sleeping Sickness",
 			"file": "diseasesedc1.html",
-			"sources": [
-				"Heart of the Jungle"
-			],
+			"sources": [ "Heart of the Jungle" ],
 			"type": "injury",
 			"fortitude_save": "DC 14",
 			"onset": "1d2 days",
@@ -249,9 +227,7 @@
 		{
 			"name": "Slimy Doom",
 			"file": "diseases2fd0.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"type": "contact",
 			"fortitude_save": "DC 14",
 			"onset": "1 day",
@@ -271,9 +247,7 @@
 		{
 			"name": "Tetanus ",
 			"file": "diseases9afa.html",
-			"sources": [
-				"Pathfinder #1: Burnt Offerings"
-			],
+			"sources": [ "Pathfinder #1: Burnt Offerings" ],
 			"type": "injury",
 			"fortitude_save": "DC 14",
 			"onset": "1d6 days",
@@ -293,9 +267,7 @@
 		{
 			"name": "Glacier Plague",
 			"file": "diseases117f.html",
-			"sources": [
-				"Irrisen - Land of Eternal Winter"
-			],
+			"sources": [ "Irrisen - Land of Eternal Winter" ],
 			"type": "contact or injury",
 			"fortitude_save": "DC 15",
 			"onset": "1 day",
@@ -317,9 +289,7 @@
 		{
 			"name": "Greenscale",
 			"file": "diseases3696.html",
-			"sources": [
-				"Heart of the Jungle"
-			],
+			"sources": [ "Heart of the Jungle" ],
 			"type": "injury",
 			"fortitude_save": "DC 15",
 			"onset": "1d6 days",
@@ -339,9 +309,7 @@
 		{
 			"name": "Moxix's Delectation",
 			"file": "diseases6012.html",
-			"sources": [
-				"Pathfinder #58: Island of Empty Eyes"
-			],
+			"sources": [ "Pathfinder #58: Island of Empty Eyes" ],
 			"type": "injury",
 			"fortitude_save": "DC 15",
 			"onset": "1 day",
@@ -363,9 +331,7 @@
 		{
 			"name": "Red Ache",
 			"file": "diseases1e97.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"type": "injury",
 			"fortitude_save": "DC 15",
 			"onset": "1d3 days",
@@ -385,9 +351,7 @@
 		{
 			"name": "Spellscar Fever",
 			"file": "diseases939f.html",
-			"sources": [
-				"Pathfinder #119: Prisoners of the Blight"
-			],
+			"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
 			"type": "ingested or inhaled",
 			"fortitude_save": "DC 15 (+1 per previous save)",
 			"onset": "2d6+1 days",
@@ -410,9 +374,7 @@
 		{
 			"name": "The Tainted Plague",
 			"file": "diseasesbc84.html",
-			"sources": [
-				"Pathfinder Campaign Setting"
-			],
+			"sources": [ "Pathfinder Campaign Setting" ],
 			"type": "contact",
 			"fortitude_save": "DC 15 (see description)",
 			"onset": "1 day",
@@ -434,9 +396,7 @@
 		{
 			"name": "Blinding Sickness",
 			"file": "diseasesae46.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"type": "ingested",
 			"fortitude_save": "DC 16",
 			"onset": "1d3 days",
@@ -481,9 +441,7 @@
 		{
 			"name": "Bonechill",
 			"file": "diseases4621.html",
-			"sources": [
-				"Pathfinder #51: The Hungry Storm"
-			],
+			"sources": [ "Pathfinder #51: The Hungry Storm" ],
 			"type": "injury",
 			"fortitude_save": "DC 16",
 			"onset": "1 day",
@@ -503,9 +461,7 @@
 		{
 			"name": "Boot Soup",
 			"file": "diseases875b.html",
-			"sources": [
-				"Heart of the Jungle"
-			],
+			"sources": [ "Heart of the Jungle" ],
 			"type": "contact",
 			"fortitude_save": "DC 16",
 			"onset": "1 day",
@@ -525,9 +481,7 @@
 		{
 			"name": "Cackle Fever",
 			"file": "diseases4ea2.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"type": "inhaled",
 			"fortitude_save": "DC 16",
 			"onset": "1 day",
@@ -547,9 +501,7 @@
 		{
 			"name": "Dvezda Plague",
 			"file": "diseasesd888.html",
-			"sources": [
-				"Pathfinder #69: Maiden, Mother, Crone"
-			],
+			"sources": [ "Pathfinder #69: Maiden, Mother, Crone" ],
 			"type": "ingested or inhaled",
 			"fortitude_save": "DC 16",
 			"onset": "1d4 days",
@@ -571,9 +523,7 @@
 		{
 			"name": "Dysentary",
 			"file": "diseases81c5.html",
-			"sources": [
-				"Heart of the Jungle"
-			],
+			"sources": [ "Heart of the Jungle" ],
 			"type": "contact or injury",
 			"fortitude_save": "DC 16",
 			"onset": "1d3 days",
@@ -593,9 +543,7 @@
 		{
 			"name": "Pulsing Puffs",
 			"file": "diseases8ec0.html",
-			"sources": [
-				"Heart of the Jungle"
-			],
+			"sources": [ "Heart of the Jungle" ],
 			"type": "injury",
 			"fortitude_save": "DC 16",
 			"onset": "1 day",
@@ -615,9 +563,7 @@
 		{
 			"name": "The Scales",
 			"file": "diseases65e4.html",
-			"sources": [
-				"Lost Cities of Golarion"
-			],
+			"sources": [ "Lost Cities of Golarion" ],
 			"type": "contact or injury",
 			"fortitude_save": "DC 16",
 			"onset": "1d4 days",
@@ -637,9 +583,7 @@
 		{
 			"name": "Bubonic Plague",
 			"file": "diseases6d51.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"type": "injury or inhaled",
 			"fortitude_save": "DC 17",
 			"onset": "1 day",
@@ -659,9 +603,7 @@
 		{
 			"name": "Chillbane Fever",
 			"file": "diseases7ca4.html",
-			"sources": [
-				"Irrisen - Land of Eternal Winter"
-			],
+			"sources": [ "Irrisen - Land of Eternal Winter" ],
 			"type": "inhaled, injury",
 			"fortitude_save": "DC 17",
 			"onset": "1 day",
@@ -683,9 +625,7 @@
 		{
 			"name": "Firegut",
 			"file": "diseases3507.html",
-			"sources": [
-				"Heart of the Jungle"
-			],
+			"sources": [ "Heart of the Jungle" ],
 			"type": "injury or inhaled",
 			"fortitude_save": "DC 17",
 			"onset": "1 day",
@@ -705,9 +645,7 @@
 		{
 			"name": "Demon Fever",
 			"file": "diseases4afc.html",
-			"sources": [
-				"PRPG Core Rulebook"
-			],
+			"sources": [ "PRPG Core Rulebook" ],
 			"type": "injury",
 			"fortitude_save": "DC 18",
 			"onset": "1 day",
@@ -727,9 +665,7 @@
 		{
 			"name": "Demonplague",
 			"file": "diseases210a.html",
-			"sources": [
-				"The Worldwound"
-			],
+			"sources": [ "The Worldwound" ],
 			"type": "injury or ingested",
 			"fortitude_save": "DC 18",
 			"onset": "1 day",
@@ -751,9 +687,7 @@
 		{
 			"name": "Malaria (Jungle Fever)",
 			"file": "diseasese098.html",
-			"sources": [
-				"Heart of the Jungle"
-			],
+			"sources": [ "Heart of the Jungle" ],
 			"type": "injury",
 			"fortitude_save": "DC 18",
 			"onset": "1d3 days",
@@ -796,9 +730,7 @@
 		{
 			"name": "Ergia",
 			"file": "diseases7cab.html",
-			"sources": [
-				"Pathfinder #51: The Hungry Storm"
-			],
+			"sources": [ "Pathfinder #51: The Hungry Storm" ],
 			"type": "contact",
 			"fortitude_save": "DC 20",
 			"onset": "1 day",
@@ -818,9 +750,7 @@
 		{
 			"name": "Scarlet Leprosy",
 			"file": "diseases4147.html",
-			"sources": [
-				"Undead Unleashed"
-			],
+			"sources": [ "Undead Unleashed" ],
 			"type": "contact",
 			"fortitude_save": "DC 20",
 			"onset": "1 day",
@@ -840,9 +770,7 @@
 		{
 			"name": "Vorel's Phage",
 			"file": "diseasesc93c.html",
-			"sources": [
-				"Pathfinder #2: The Skinsaw Murders"
-			],
+			"sources": [ "Pathfinder #2: The Skinsaw Murders" ],
 			"type": "contact or ingestion ",
 			"fortitude_save": "DC 20",
 			"onset": "1 day",
@@ -885,9 +813,7 @@
 		{
 			"name": "Crypt Fever",
 			"file": "diseases765b.html",
-			"sources": [
-				"Tomb of the Iron Medusa"
-			],
+			"sources": [ "Tomb of the Iron Medusa" ],
 			"type": "contact or inhaled",
 			"fortitude_save": "DC 22",
 			"onset": "1 minute",
@@ -907,9 +833,7 @@
 		{
 			"name": "Daemonic Wasting",
 			"file": "diseases662c.html",
-			"sources": [
-				"Pathfinder #54: The Empty Throne"
-			],
+			"sources": [ "Pathfinder #54: The Empty Throne" ],
 			"type": "contact",
 			"fortitude_save": "DC 23",
 			"onset": "1 day",

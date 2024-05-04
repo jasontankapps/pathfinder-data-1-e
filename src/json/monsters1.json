@@ -14788,12 +14788,9 @@
 				"**SQ** change shape (goblin or wolf, polymorph)"
 			],
 			"description": [
-				"Said to be fiendish relations of all goblinoid races, the hateful barghests come to the Material Plane to feed. As they consume the bodies of innocents, they grow increasingly powerful. A barghest eventually sheds its skin to transform into a greater barghest, at which point it often seeks out a tribe of goblins or other creatures to rule.",
-				"",
-				"### [Barghest](race:Barghest]",
-				"",
-				"This snarling, canine beast pads forward on all fours, its slender front limbs looking more like hands than a wolf's paws."
-			]
+				"Said to be fiendish relations of all goblinoid races, the hateful barghests come to the Material Plane to feed. As they consume the bodies of innocents, they grow increasingly powerful. A barghest eventually sheds its skin to transform into a greater barghest, at which point it often seeks out a tribe of goblins or other creatures to rule."
+			],
+			"short_description": "This snarling, canine beast pads forward on all fours, its slender front limbs looking more like hands than a wolf's paws."
 		},
 		{
 			"name": "Barometz",
@@ -22557,12 +22554,9 @@
 			],
 			"ecology": [ "**Environment** temperate mountains" ],
 			"description": [
-				"Stalking though the wilderness, bugbear hunters are always on the lookout for potential food and victims to practice their cruelties on. As a rule, they are territorial and patient, and thrill in the opportunity to prey on travelers far from the support of civilization.",
-				"",
-				"### [Bugbear](race:Bugbear]",
-				"",
-				"This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill."
-			]
+				"Stalking though the wilderness, bugbear hunters are always on the lookout for potential food and victims to practice their cruelties on. As a rule, they are territorial and patient, and thrill in the opportunity to prey on travelers far from the support of civilization."
+			],
+			"short_description": "This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill."
 		},
 		{
 			"name": "Bugbear, Bugbear Bloodmage",
@@ -22627,12 +22621,9 @@
 			],
 			"ecology": [ "**Environment** temperate mountains" ],
 			"description": [
-				"Arcane spellcasters among bugbears are typically sorcerers-few bugbears have enough interest or patience to follow arcane paths such as wizardry that require study or control. Bugbears call those with natural magical talent bloodmages, and treat their spellcasting ability the same as any skill-if it's useful for hurting, it's worth knowing. A typical bloodmage is interested in only spells that cause destruction and pain, plus a few supplemental spells to help her defend herself. Almost no bloodmages learn to create magic items.",
-				"",
-				"### [Bugbear](race:Bugbear]",
-				"",
-				"This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill."
-			]
+				"Arcane spellcasters among bugbears are typically sorcerers-few bugbears have enough interest or patience to follow arcane paths such as wizardry that require study or control. Bugbears call those with natural magical talent bloodmages, and treat their spellcasting ability the same as any skill-if it's useful for hurting, it's worth knowing. A typical bloodmage is interested in only spells that cause destruction and pain, plus a few supplemental spells to help her defend herself. Almost no bloodmages learn to create magic items."
+			],
+			"short_description": "This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill."
 		},
 		{
 			"name": "Bugbear, Bugbear Cultist",
@@ -22691,12 +22682,9 @@
 			],
 			"ecology": [ "**Environment** temperate mountains" ],
 			"description": [
-				"Bugbears worship in divergent, sometimes contradictory ways, and no one would call their religion \"organized.\" Most of them simply utter occasional thanks to any demon lords whose names they happen to know. A cultist who comes along with a slightly formalized religious spiel and the ability to cast potent spells can sometimes convince other bugbears to follow him into a religious fervor. Cultists revere gods of battle, particularly demon lords. Their rituals vary wildly, and often involve violent blood sacrifices. A small number of especially conceited cultists consider themselves true prophets or living gods.",
-				"",
-				"### [Bugbear](race:Bugbear]",
-				"",
-				"This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill."
-			]
+				"Bugbears worship in divergent, sometimes contradictory ways, and no one would call their religion \"organized.\" Most of them simply utter occasional thanks to any demon lords whose names they happen to know. A cultist who comes along with a slightly formalized religious spiel and the ability to cast potent spells can sometimes convince other bugbears to follow him into a religious fervor. Cultists revere gods of battle, particularly demon lords. Their rituals vary wildly, and often involve violent blood sacrifices. A small number of especially conceited cultists consider themselves true prophets or living gods."
+			],
+			"short_description": "This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill."
 		},
 		{
 			"name": "Bugbear, Bugbear Flesh Glutton",
@@ -22751,12 +22739,9 @@
 			],
 			"ecology": [ "**Environment** temperate mountains" ],
 			"description": [
-				"Some bugbears have an appetite for the flesh of sapient creatures, though they prefer consuming others over eating their own kind. They often keep groups of captives for weeks, killing and consuming them one at a time.",
-				"",
-				"### [Bugbear](race:Bugbear]",
-				"",
-				"This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill."
-			]
+				"Some bugbears have an appetite for the flesh of sapient creatures, though they prefer consuming others over eating their own kind. They often keep groups of captives for weeks, killing and consuming them one at a time."
+			],
+			"short_description": "This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill."
 		},
 		{
 			"name": "Bugbear, Bugbear Gnasher",
@@ -22811,12 +22796,9 @@
 			],
 			"ecology": [ "**Environment** temperate mountains" ],
 			"description": [
-				"Some bugbears have an appetite for the flesh of sapient creatures, though they prefer consuming others over eating their own kind. They often keep groups of captives for weeks, killing and consuming them one at a time.",
-				"",
-				"### [Bugbear](race:Bugbear]",
-				"",
-				"This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill."
-			]
+				"Some bugbears have an appetite for the flesh of sapient creatures, though they prefer consuming others over eating their own kind. They often keep groups of captives for weeks, killing and consuming them one at a time."
+			],
+			"short_description": "This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill."
 		},
 		{
 			"name": "Bugbear, Bugbear Lurker",
@@ -22870,12 +22852,9 @@
 			],
 			"ecology": [ "**Environment** temperate mountains" ],
 			"description": [
-				"Many bugbear sneaks serve as scouts and assassins for hobgoblin armies. They sometimes become enamored of the act of killing itself, and use their natural affinity for moving quietly to become unseen murderers in cities.",
-				"",
-				"### [Bugbear](race:Bugbear]",
-				"",
-				"This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill."
-			]
+				"Many bugbear sneaks serve as scouts and assassins for hobgoblin armies. They sometimes become enamored of the act of killing itself, and use their natural affinity for moving quietly to become unseen murderers in cities."
+			],
+			"short_description": "This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill."
 		},
 		{
 			"name": "Bugbear, Bugbear Shadow Sneak",
@@ -22932,12 +22911,9 @@
 			],
 			"ecology": [ "**Environment** temperate mountains" ],
 			"description": [
-				"Many bugbear sneaks serve as scouts and assassins for hobgoblin armies. They sometimes become enamored of the act of killing itself, and use their natural affinity for moving quietly to become unseen murderers in cities.",
-				"",
-				"### [Bugbear](race:Bugbear]",
-				"",
-				"This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill."
-			]
+				"Many bugbear sneaks serve as scouts and assassins for hobgoblin armies. They sometimes become enamored of the act of killing itself, and use their natural affinity for moving quietly to become unseen murderers in cities."
+			],
+			"short_description": "This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill."
 		},
 		{
 			"name": "Bugbear, Bugbear Stalker",
@@ -22991,12 +22967,9 @@
 			],
 			"ecology": [ "**Environment** temperate mountains" ],
 			"description": [
-				"Stalking though the wilderness, bugbear hunters are always on the lookout for potential food and victims to practice their cruelties on. As a rule, they are territorial and patient, and thrill in the opportunity to prey on travelers far from the support of civilization.",
-				"",
-				"### [Bugbear](race:Bugbear]",
-				"",
-				"This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill."
-			]
+				"Stalking though the wilderness, bugbear hunters are always on the lookout for potential food and victims to practice their cruelties on. As a rule, they are territorial and patient, and thrill in the opportunity to prey on travelers far from the support of civilization."
+			],
+			"short_description": "This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill."
 		},
 		{
 			"name": "Bugbear, Bugbear Tyrant",
@@ -23060,12 +23033,9 @@
 			"description": [
 				"Though he draws other bugbears to follow him by his charismatic presence, a bugbear tyrant truly makes his legend by defeating and torturing other creatures. Bugbears care far less about gaining territory or forcing surrender than they do about inflicting pain and collecting heads. They're quick to recognize and appreciate the cruelty in an antipaladin's heart, and the supernatural ability to inflict pain on others that he brings to bear.",
 				"",
-				"The tyrant doesn't reserve his violence for enemies of the bugbear race. It doesn't take much for him to turn on his underlings and slice them up for fun, especially if he's growing bored.",
-				"",
-				"### [Bugbear](race:Bugbear]",
-				"",
-				"This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill."
-			]
+				"The tyrant doesn't reserve his violence for enemies of the bugbear race. It doesn't take much for him to turn on his underlings and slice them up for fun, especially if he's growing bored."
+			],
+			"short_description": "This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with the thrill of the coming kill."
 		},
 		{
 			"name": "Buggane",
@@ -28501,12 +28471,9 @@
 				"",
 				"A chelarac can choose when to release a broodling and can keep one in its brood sac for an indefinite amount of time. A broodling grows to its young stage and then remains in stasis until the chelarac hatches it or the sac is ruptured. Young chelaracs rarely spend more than a day with their parent before scuttling off into the darkness to find their own lair. Broodlings grow at a surprising rate, reaching full adulthood in a matter of months. Newly hatched broodlings are less reticent to share their stored memories, and strangers can more easily ask these young monsters for information.",
 				"",
-				"An obscure text written by a Darklands alchemist includes a formula to make a substance that can be combined with the blood of a chelarac. The text claims that if the alchemist mixes this substance with the chelarac's blood and drinks the resulting concoction, the drinker is able to access a wealth of memories that were siphoned and stored in the monster's mind.",
-				"",
-				"### [Chelarac](race:Chelarac]",
-				"",
-				"This monstrous creature appears to be an enormous spider with a humanlike head. Sickly blisters holding squirming young cover the creature's abdomen."
-			]
+				"An obscure text written by a Darklands alchemist includes a formula to make a substance that can be combined with the blood of a chelarac. The text claims that if the alchemist mixes this substance with the chelarac's blood and drinks the resulting concoction, the drinker is able to access a wealth of memories that were siphoned and stored in the monster's mind."
+			],
+			"short_description": "This monstrous creature appears to be an enormous spider with a humanlike head. Sickly blisters holding squirming young cover the creature's abdomen."
 		},
 		{
 			"name": "Chemosit",
@@ -28820,11 +28787,7 @@
 			"description": [
 				"Legendary chimeras are among the eldest of their race, the longlived descendents of the initial attempts by Lamashtu to create what eventually became the common chimera. Relatively few legendary chimeras remain on Golarion, many having been killed over the ages either by brave heroes or during their own perilous endeavors. Those legendary chimeras still left are shunned and feared by their lesser kin, the common chimeras, and so the great beings reside only in the deepest expanses of wilderness, where they nurse their grudges and unleash terrible rampages upon nearby settlements and meddlesome intruders who awaken them from their dark dreams of what could have been.",
 				"",
-				"Legendary chimeras rarely breed, and when they do their offspring inevitably echo their unfinished forms' chimeras with the heads of other beasts, or lacking wings or other limbs, the mark of both their pride and their shame. Such creatures can remain in good health for well over a millennium, and thus, while they are only a little smarter than their common brethren, these illustrious beasts can live to see whole civilizations rise and fall, and possess an innate melancholy and dire wisdom few humanoids can fathom. And indeed, even if humanoids could, the legendary chimeras rarely humor beings they regard as inferior to themselves.",
-				"",
-				"### [Chimera](race:Chimera]",
-				"",
-				"This abomination has the head and foreparts of a great lion, an additional head and hindquarters of a ram, and a red dragon's head sprouting from its tail."
+				"Legendary chimeras rarely breed, and when they do their offspring inevitably echo their unfinished forms' chimeras with the heads of other beasts, or lacking wings or other limbs, the mark of both their pride and their shame. Such creatures can remain in good health for well over a millennium, and thus, while they are only a little smarter than their common brethren, these illustrious beasts can live to see whole civilizations rise and fall, and possess an innate melancholy and dire wisdom few humanoids can fathom. And indeed, even if humanoids could, the legendary chimeras rarely humor beings they regard as inferior to themselves."
 			],
 			"short_description": "This abomination has the head and foreparts of a great lion, an additional head and hindquarters of a ram, and a red dragon's head sprouting from its tail."
 		},
@@ -29197,12 +29160,9 @@
 				"",
 				"Certain nefarious sorcerers-known in some lands as kalkus-seek to mimic the horrifying shape and strange abilities of chon chons, or afflict their foes with such a curse. To this end, they've created a terrifying draught with the power to transform the drinker into a being resembling a chon chon, though few can guess for how long.",
 				"",
-				"Note from Nethys: This wondrous item, the [Chon Chon Elixir](unknown:Chon_Chon_Elixir), can be found in the Wondrous Item section.",
-				"",
-				"### [Chon Chon](race:Chon_Chon]",
-				"",
-				"This flying head has incredibly large ears that constantly flap to keep the creature aloft. It babbles to itself as it flies, as if to remind itself of secrets only it knows."
+				"Note from Nethys: This wondrous item, the [Chon Chon Elixir](unknown:Chon_Chon_Elixir), can be found in the Wondrous Item section."
 			],
+			"short_description": "This flying head has incredibly large ears that constantly flap to keep the creature aloft. It babbles to itself as it flies, as if to remind itself of secrets only it knows.",
 			"description": [
 				"Chon chons appear to be human heads with ears so grotesquely enlarged that they can serve as fleshy wings. Their jealous hatred of all beings with full bodies easily counters their comical appearance, however. Accursed creatures drawn to places of dark magic and arcane disasters, chon chons possess the desires of the most obsessed magic users, but their dementia and twisted forms prevent them from ever obtaining the power they seek. Although these crazed beings loathe all things, they do find a vicious kind of solace among their own kind, not out of any sort of commiseration, but rather by wallowing in the pain of their own kind. Such hateful swarms gather to bear witness to each others' misery, inadvertently increasing the deadly efficacy of the entire group.",
 				"",

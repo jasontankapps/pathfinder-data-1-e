@@ -3,9 +3,7 @@
 		{
 			"name": "Halucination",
 			"file": "madnessesa202.html",
-			"sources": [
-				"Horror Adventures"
-			],
+			"sources": [ "Horror Adventures" ],
 			"type": "lesser madness",
 			"will_save": "DC 14",
 			"onset": "2d6 days",
@@ -46,9 +44,7 @@
 		{
 			"name": "Melancholia",
 			"file": "madnesses83f4.html",
-			"sources": [
-				"Horror Adventures"
-			],
+			"sources": [ "Horror Adventures" ],
 			"type": "lesser madness",
 			"will_save": "DC 14",
 			"onset": "1d4 days",
@@ -89,9 +85,7 @@
 		{
 			"name": "Delirium",
 			"file": "madnesses1ee4.html",
-			"sources": [
-				"Horror Adventures"
-			],
+			"sources": [ "Horror Adventures" ],
 			"type": "lesser madness",
 			"will_save": "DC 16",
 			"onset": "1d4 days",
@@ -110,9 +104,7 @@
 		{
 			"name": "Delusion",
 			"file": "madnessesa281.html",
-			"sources": [
-				"Horror Adventures"
-			],
+			"sources": [ "Horror Adventures" ],
 			"type": "lesser madness",
 			"will_save": "DC 16",
 			"onset": "2d6 days",
@@ -133,9 +125,7 @@
 		{
 			"name": "Night Terrors",
 			"file": "madnesses4f19.html",
-			"sources": [
-				"Horror Adventures"
-			],
+			"sources": [ "Horror Adventures" ],
 			"type": "lesser madness",
 			"will_save": "DC 16",
 			"onset": "1 day",
@@ -176,9 +166,7 @@
 		{
 			"name": "Fugue",
 			"file": "madnessesf1d9.html",
-			"sources": [
-				"Horror Adventures"
-			],
+			"sources": [ "Horror Adventures" ],
 			"type": "lesser madness",
 			"will_save": "DC 18",
 			"onset": "1d4 days",
@@ -197,9 +185,7 @@
 		{
 			"name": "Cognitive Block",
 			"file": "madnessesf100.html",
-			"sources": [
-				"Horror Adventures"
-			],
+			"sources": [ "Horror Adventures" ],
 			"type": "greater madness",
 			"will_save": "DC 20",
 			"onset": "immediate",
@@ -242,9 +228,7 @@
 		{
 			"name": "Psychosomatic Loss",
 			"file": "madnesses07f3.html",
-			"sources": [
-				"Horror Adventures"
-			],
+			"sources": [ "Horror Adventures" ],
 			"type": "greater madness",
 			"will_save": "DC 20",
 			"onset": "immediate",
@@ -331,9 +315,7 @@
 		{
 			"name": "Catatonia",
 			"file": "madnesses9a4e.html",
-			"sources": [
-				"Horror Adventures"
-			],
+			"sources": [ "Horror Adventures" ],
 			"type": "greater madness",
 			"will_save": "DC 24",
 			"onset": "immediate",

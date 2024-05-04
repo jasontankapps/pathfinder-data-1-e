@@ -164,9 +164,7 @@
 			"searchable_name": "Artistry",
 			"optional_system": true,
 			"file": "skillArtistry.html",
-			"sources": [
-				"Pathfinder Unchained"
-			],
+			"sources": [ "Pathfinder Unchained" ],
 			"stat": "INT",
 			"trained_only": false,
 			"armor_check_penalty": false,
@@ -2078,9 +2076,7 @@
 			"name": "Lore (any)",
 			"searchable_name": "Lore",
 			"file": "skillLore.html",
-			"sources": [
-				"Pathfinder Unchained"
-			],
+			"sources": [ "Pathfinder Unchained" ],
 			"stat": "INT",
 			"trained_only": true,
 			"armor_check_penalty": false,
