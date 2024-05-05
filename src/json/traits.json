@@ -554,7 +554,7 @@
 		"display": "trait"
 	},
 	"air_touched": {
-		"copyof": "air_touched"
+		"copyof": "air-touched"
 	},
 	"airship_captain": {
 		"name": "Airship Captain",
@@ -1075,7 +1075,7 @@
 		"display": "trait"
 	},
 	"animal_spirit_vitality": {
-		"copyof": "animal_spirit_vitality"
+		"copyof": "animal-spirit_vitality"
 	},
 	"animalistic_affliction": {
 		"name": "Animalistic Affliction",
@@ -2338,7 +2338,7 @@
 		"display": "trait"
 	},
 	"betrayed_ex_noble": {
-		"copyof": "betrayed_ex_noble"
+		"copyof": "betrayed_ex-noble"
 	},
 	"bifurcated_magic": {
 		"name": "Bifurcated Magic",
@@ -2710,7 +2710,7 @@
 		"display": "trait"
 	},
 	"blight_burned": {
-		"copyof": "blight_burned"
+		"copyof": "blight-burned"
 	},
 	"blighted_physiology": {
 		"name": "Blighted Physiology",
@@ -2873,7 +2873,7 @@
 		"display": "trait"
 	},
 	"bloody_minded": {
-		"copyof": "bloody_minded"
+		"copyof": "bloody-minded"
 	},
 	"boar_resilience": {
 		"name": "Boar Resilience",
@@ -3106,7 +3106,7 @@
 		"display": "trait"
 	},
 	"bountiful_herb_lore": {
-		"copyof": "bountiful_herb_lore"
+		"copyof": "bountiful_herb-lore"
 	},
 	"bounty_hunter": {
 		"name": "Bounty Hunter",
@@ -3282,7 +3282,7 @@
 		"display": "trait"
 	},
 	"broken_not_beaten": {
-		"copyof": "broken_not_beaten"
+		"copyof": "broken,_not_beaten"
 	},
 	"bruising_intellect": {
 		"name": "Bruising Intellect",
@@ -3961,7 +3961,7 @@
 		"display": "trait"
 	},
 	"charau_ka_slayer": {
-		"copyof": "charau_ka_slayer"
+		"copyof": "charau-ka_slayer"
 	},
 	"charlatan": {
 		"name": "Charlatan",
@@ -4521,7 +4521,7 @@
 		"display": "trait"
 	},
 	"cliff_master": {
-		"copyof": "cliff_master"
+		"copyof": "cliff-master"
 	},
 	"clockwork_engineer": {
 		"name": "Clockwork Engineer",
@@ -4766,7 +4766,7 @@
 		"display": "trait"
 	},
 	"community_minded": {
-		"copyof": "community_minded"
+		"copyof": "community-minded"
 	},
 	"comparative_religion": {
 		"name": "Comparative Religion",
@@ -5134,7 +5134,7 @@
 		"display": "trait"
 	},
 	"cross_disciplined": {
-		"copyof": "cross_disciplined"
+		"copyof": "cross-disciplined"
 	},
 	"cross-knowledge": {
 		"name": "Cross-Knowledge",
@@ -5149,7 +5149,7 @@
 		"display": "trait"
 	},
 	"cross_knowledge": {
-		"copyof": "cross_knowledge"
+		"copyof": "cross-knowledge"
 	},
 	"crowd_dodger": {
 		"name": "Crowd Dodger",
@@ -5852,7 +5852,7 @@
 		"display": "trait"
 	},
 	"demon_proof_mind": {
-		"copyof": "demon_proof_mind"
+		"copyof": "demon-proof_mind"
 	},
 	"demonbane_summoner": {
 		"name": "Demonbane Summoner",
@@ -6498,7 +6498,7 @@
 		"display": "trait"
 	},
 	"dog_sniff_hate": {
-		"copyof": "dog_sniff_hate"
+		"copyof": "dog-sniff-hate"
 	},
 	"dogged": {
 		"name": "Dogged",
@@ -6701,7 +6701,7 @@
 		"display": "trait"
 	},
 	"dragon_hunted": {
-		"copyof": "dragon_hunted"
+		"copyof": "dragon-hunted"
 	},
 	"dragonfoe": {
 		"name": "Dragonfoe",
@@ -6917,7 +6917,7 @@
 		"display": "trait"
 	},
 	"dwarf_trained": {
-		"copyof": "dwarf_trained"
+		"copyof": "dwarf-trained"
 	},
 	"eager_combatant": {
 		"name": "Eager Combatant",
@@ -6997,7 +6997,7 @@
 		"display": "trait"
 	},
 	"earth_touched": {
-		"copyof": "earth_touched"
+		"copyof": "earth-touched"
 	},
 	"earthbound": {
 		"name": "Earthbound",
@@ -7392,7 +7392,7 @@
 		"display": "trait"
 	},
 	"empty_heart_full_heart": {
-		"copyof": "empty_heart_full_heart"
+		"copyof": "empty_heart,_full_heart"
 	},
 	"empty_mask": {
 		"name": "Empty Mask",
@@ -7780,7 +7780,7 @@
 		"display": "trait"
 	},
 	"ex_asmodean": {
-		"copyof": "ex_asmodean"
+		"copyof": "ex-asmodean"
 	},
 	"ex-iomedaean": {
 		"name": "Ex-Iomedaean",
@@ -7798,7 +7798,7 @@
 		"display": "trait"
 	},
 	"ex_iomedaean": {
-		"copyof": "ex_iomedaean"
+		"copyof": "ex-iomedaean"
 	},
 	"ex-sczarni": {
 		"name": "Ex-Sczarni",
@@ -7817,7 +7817,7 @@
 		"display": "trait"
 	},
 	"ex_sczarni": {
-		"copyof": "ex_sczarni"
+		"copyof": "ex-sczarni"
 	},
 	"exalted_of_the_society": {
 		"name": "Exalted of the Society",
@@ -8488,7 +8488,7 @@
 		"display": "trait"
 	},
 	"fed_up_citizen": {
-		"copyof": "fed_up_citizen"
+		"copyof": "fed-up_citizen"
 	},
 	"feline_instinct": {
 		"name": "Feline Instinct",
@@ -8579,7 +8579,7 @@
 		"display": "trait"
 	},
 	"fey_taken": {
-		"copyof": "fey_taken"
+		"copyof": "fey-taken"
 	},
 	"fey-wise": {
 		"name": "Fey-Wise",
@@ -8595,7 +8595,7 @@
 		"display": "trait"
 	},
 	"fey_wise": {
-		"copyof": "fey_wise"
+		"copyof": "fey-wise"
 	},
 	"fiend_blood": {
 		"name": "Fiend Blood",
@@ -8749,7 +8749,7 @@
 		"display": "trait"
 	},
 	"fire_tongued": {
-		"copyof": "fire_tongued"
+		"copyof": "fire-tongued"
 	},
 	"firebug_qac": {
 		"name": "Firebug (QaC)",
@@ -8843,7 +8843,7 @@
 		"display": "trait"
 	},
 	"flame_touched": {
-		"copyof": "flame_touched"
+		"copyof": "flame-touched"
 	},
 	"flames_of_hell": {
 		"name": "Flames of Hell",
@@ -9114,7 +9114,7 @@
 		"display": "trait"
 	},
 	"foreign_tongued": {
-		"copyof": "foreign_tongued"
+		"copyof": "foreign-tongued"
 	},
 	"forest_senses": {
 		"name": "Forest Senses",
@@ -9171,7 +9171,7 @@
 		"display": "trait"
 	},
 	"formerly_mind_swapped": {
-		"copyof": "formerly_mind_swapped"
+		"copyof": "formerly_mind-swapped"
 	},
 	"fortified_drinker": {
 		"name": "Fortified Drinker",
@@ -9564,7 +9564,7 @@
 		"display": "trait"
 	},
 	"frontier_forged": {
-		"copyof": "frontier_forged"
+		"copyof": "frontier-forged"
 	},
 	"frost_spitter": {
 		"name": "Frost Spitter",
@@ -9764,7 +9764,7 @@
 		"display": "trait"
 	},
 	"genie_caller": {
-		"copyof": "genie_caller"
+		"copyof": "genie-caller"
 	},
 	"gesture_expertise": {
 		"name": "Gesture Expertise",
@@ -9892,7 +9892,7 @@
 		"display": "trait"
 	},
 	"giant_blooded": {
-		"copyof": "giant_blooded"
+		"copyof": "giant-blooded"
 	},
 	"giant-harried": {
 		"name": "Giant-Harried",
@@ -9912,7 +9912,7 @@
 		"display": "trait"
 	},
 	"giant_harried": {
-		"copyof": "giant_harried"
+		"copyof": "giant-harried"
 	},
 	"giantslayer_scion": {
 		"name": "Giantslayer Scion",
@@ -10010,7 +10010,7 @@
 		"display": "trait"
 	},
 	"glint_tongued": {
-		"copyof": "glint_tongued"
+		"copyof": "glint-tongued"
 	},
 	"glory_of_old": {
 		"name": "Glory of Old",
@@ -10245,7 +10245,7 @@
 		"display": "trait"
 	},
 	"good_natured": {
-		"copyof": "good_natured"
+		"copyof": "good-natured"
 	},
 	"gozreh's_sight": {
 		"name": "Gozreh's Sight",
@@ -10334,7 +10334,7 @@
 		"display": "trait"
 	},
 	"green_blooded": {
-		"copyof": "green_blooded"
+		"copyof": "green-blooded"
 	},
 	"greenskin_stalker": {
 		"name": "Greenskin Stalker",
@@ -10372,7 +10372,7 @@
 		"display": "trait"
 	},
 	"grief_filled": {
-		"copyof": "grief_filled"
+		"copyof": "grief-filled"
 	},
 	"grim_optimism": {
 		"name": "Grim Optimism",
@@ -10558,7 +10558,7 @@
 		"display": "trait"
 	},
 	"half_forgotten_secrets": {
-		"copyof": "half_forgotten_secrets"
+		"copyof": "half-forgotten_secrets"
 	},
 	"hard_to_kill": {
 		"name": "Hard to Kill",
@@ -10966,7 +10966,7 @@
 		"display": "trait"
 	},
 	"hex_proof": {
-		"copyof": "hex_proof"
+		"copyof": "hex-proof"
 	},
 	"hidden_faith": {
 		"name": "Hidden Faith",
@@ -11141,7 +11141,7 @@
 		"display": "trait"
 	},
 	"honey_tongued": {
-		"copyof": "honey_tongued"
+		"copyof": "honey-tongued"
 	},
 	"honeyed_tongue": {
 		"name": "Honeyed Tongue",
@@ -11192,7 +11192,7 @@
 		"display": "trait"
 	},
 	"honor_bound": {
-		"copyof": "honor_bound"
+		"copyof": "honor-bound"
 	},
 	"honor-driven": {
 		"name": "Honor-Driven",
@@ -11209,7 +11209,7 @@
 		"display": "trait"
 	},
 	"honor_driven": {
-		"copyof": "honor_driven"
+		"copyof": "honor-driven"
 	},
 	"honored_fist_of_the_society": {
 		"name": "Honored Fist of the Society",
@@ -13043,7 +13043,7 @@
 		"display": "trait"
 	},
 	"light_bringer": {
-		"copyof": "light_bringer"
+		"copyof": "light-bringer"
 	},
 	"lightning_blessed": {
 		"name": "Lightning Blessed",
@@ -13161,7 +13161,7 @@
 		"display": "trait"
 	},
 	"liquid_tongued": {
-		"copyof": "liquid_tongued"
+		"copyof": "liquid-tongued"
 	},
 	"living_bulwark": {
 		"name": "Living Bulwark",
@@ -13189,7 +13189,7 @@
 		"display": "trait"
 	},
 	"local_know_it_all": {
-		"copyof": "local_know_it_all"
+		"copyof": "local_know-it-all"
 	},
 	"local_ties": {
 		"name": "Local Ties",
@@ -14522,7 +14522,7 @@
 		"display": "trait"
 	},
 	"mummy_cursed": {
-		"copyof": "mummy_cursed"
+		"copyof": "mummy-cursed"
 	},
 	"murky_allegiance": {
 		"name": "Murky Allegiance",
@@ -14561,7 +14561,7 @@
 		"display": "trait"
 	},
 	"mutabi_qi_explorer": {
-		"copyof": "mutabi_qi_explorer"
+		"copyof": "mutabi-qi_explorer"
 	},
 	"mutant_eye": {
 		"name": "Mutant Eye",
@@ -14847,7 +14847,7 @@
 		"display": "trait"
 	},
 	"near_death_experience": {
-		"copyof": "near_death_experience"
+		"copyof": "near-death_experience"
 	},
 	"nearly_blinded": {
 		"name": "Nearly Blinded",
@@ -14997,7 +14997,7 @@
 		"display": "trait"
 	},
 	"nimble_fingers_keen_mind": {
-		"copyof": "nimble_fingers_keen_mind"
+		"copyof": "nimble_fingers,_keen_mind"
 	},
 	"nine-tailed_scion": {
 		"name": "Nine-Tailed Scion",
@@ -15013,7 +15013,7 @@
 		"display": "trait"
 	},
 	"nine_tailed_scion": {
-		"copyof": "nine_tailed_scion"
+		"copyof": "nine-tailed_scion"
 	},
 	"nirmathi_militia": {
 		"name": "Nirmathi Militia",
@@ -15083,7 +15083,7 @@
 		"display": "trait"
 	},
 	"noble_in_exile": {
-		"copyof": "noble_in_exile"
+		"copyof": "noble-in-exile"
 	},
 	"nomadic": {
 		"name": "Nomadic",
@@ -15461,7 +15461,7 @@
 		"display": "trait"
 	},
 	"open_minded_explorer": {
-		"copyof": "open_minded_explorer"
+		"copyof": "open-minded_explorer"
 	},
 	"opener_of_doors": {
 		"name": "Opener of Doors",
@@ -15783,7 +15783,7 @@
 		"display": "trait"
 	},
 	"ozem_inspired": {
-		"copyof": "ozem_inspired"
+		"copyof": "ozem-inspired"
 	},
 	"pack_savvy": {
 		"name": "Pack Savvy",
@@ -16410,7 +16410,7 @@
 		"display": "trait"
 	},
 	"poverty_stricken": {
-		"copyof": "poverty_stricken"
+		"copyof": "poverty-stricken"
 	},
 	"power_of_suggestion": {
 		"name": "Power of Suggestion",
@@ -16436,7 +16436,7 @@
 		"display": "trait"
 	},
 	"power_hungry": {
-		"copyof": "power_hungry"
+		"copyof": "power-hungry"
 	},
 	"practiced_deception": {
 		"name": "Practiced Deception",
@@ -16669,7 +16669,7 @@
 		"display": "trait"
 	},
 	"priest_blessed": {
-		"copyof": "priest_blessed"
+		"copyof": "priest-blessed"
 	},
 	"principled": {
 		"name": "Principled",
@@ -17413,7 +17413,7 @@
 		"display": "trait"
 	},
 	"relic_proof": {
-		"copyof": "relic_proof"
+		"copyof": "relic-proof"
 	},
 	"religious_reformer": {
 		"name": "Religious Reformer",
@@ -18570,7 +18570,7 @@
 		"display": "trait"
 	},
 	"sea_souled": {
-		"copyof": "sea_souled"
+		"copyof": "sea-souled"
 	},
 	"seafaring_reputation": {
 		"name": "Seafaring Reputation",
@@ -18828,7 +18828,7 @@
 		"display": "trait"
 	},
 	"self_actualization": {
-		"copyof": "self_actualization"
+		"copyof": "self-actualization"
 	},
 	"self-aware": {
 		"name": "Self-Aware",
@@ -18845,7 +18845,7 @@
 		"display": "trait"
 	},
 	"self_aware": {
-		"copyof": "self_aware"
+		"copyof": "self-aware"
 	},
 	"self-doubting": {
 		"name": "Self-Doubting",
@@ -18860,7 +18860,7 @@
 		"display": "trait"
 	},
 	"self_doubting": {
-		"copyof": "self_doubting"
+		"copyof": "self-doubting"
 	},
 	"self-reliant": {
 		"name": "Self-Reliant",
@@ -18875,7 +18875,7 @@
 		"display": "trait"
 	},
 	"self_reliant": {
-		"copyof": "self_reliant"
+		"copyof": "self-reliant"
 	},
 	"self-sacrifice": {
 		"name": "Self-Sacrifice",
@@ -18892,7 +18892,7 @@
 		"display": "trait"
 	},
 	"self_sacrifice": {
-		"copyof": "self_sacrifice"
+		"copyof": "self-sacrifice"
 	},
 	"self-sustaining": {
 		"name": "Self-Sustaining",
@@ -18908,7 +18908,7 @@
 		"display": "trait"
 	},
 	"self_sustaining": {
-		"copyof": "self_sustaining"
+		"copyof": "self-sustaining"
 	},
 	"self-taught_scholar": {
 		"name": "Self-Taught Scholar",
@@ -18923,7 +18923,7 @@
 		"display": "trait"
 	},
 	"self_taught_scholar": {
-		"copyof": "self_taught_scholar"
+		"copyof": "self-taught_scholar"
 	},
 	"senatorial_hopeful": {
 		"name": "Senatorial Hopeful",
@@ -19195,7 +19195,7 @@
 		"display": "trait"
 	},
 	"shadow_scarred": {
-		"copyof": "shadow_scarred"
+		"copyof": "shadow-scarred"
 	},
 	"shadowsight": {
 		"name": "Shadowsight",
@@ -19347,7 +19347,7 @@
 		"display": "trait"
 	},
 	"shield_trained": {
-		"copyof": "shield_trained"
+		"copyof": "shield-trained"
 	},
 	"shift_the_blame": {
 		"name": "Shift the Blame",
@@ -19415,7 +19415,7 @@
 		"display": "trait"
 	},
 	"shoanti_spirit_singer": {
-		"copyof": "shoanti_spirit_singer"
+		"copyof": "shoanti_spirit-singer"
 	},
 	"shoanti_steed": {
 		"name": "Shoanti Steed",
@@ -20032,7 +20032,7 @@
 		"display": "trait"
 	},
 	"soul_searcher's_strength": {
-		"copyof": "soul_searcher's_strength"
+		"copyof": "soul-searcher's_strength"
 	},
 	"sound_of_mind": {
 		"name": "Sound of Mind",
@@ -20328,7 +20328,7 @@
 		"display": "trait"
 	},
 	"split_second_defense": {
-		"copyof": "split_second_defense"
+		"copyof": "split-second_defense"
 	},
 	"spooked": {
 		"name": "Spooked",
@@ -20367,7 +20367,7 @@
 		"display": "trait"
 	},
 	"st_clydwell's_ward": {
-		"copyof": "st_clydwell's_ward"
+		"copyof": "st._clydwell's_ward"
 	},
 	"stabbing_spells": {
 		"name": "Stabbing Spells",
@@ -20683,7 +20683,7 @@
 		"display": "trait"
 	},
 	"storm_touched": {
-		"copyof": "storm_touched"
+		"copyof": "storm-touched"
 	},
 	"stormrunner": {
 		"name": "Stormrunner",
@@ -20862,7 +20862,7 @@
 		"display": "trait"
 	},
 	"strong_arm_supple_wrist": {
-		"copyof": "strong_arm_supple_wrist"
+		"copyof": "strong_arm,_supple_wrist"
 	},
 	"strong_heart": {
 		"name": "Strong Heart",
@@ -20911,7 +20911,7 @@
 		"display": "trait"
 	},
 	"strong_willed": {
-		"copyof": "strong_willed"
+		"copyof": "strong-willed"
 	},
 	"structural_knowledge": {
 		"name": "Structural Knowledge",
@@ -21121,7 +21121,7 @@
 		"display": "trait"
 	},
 	"sun_blasted": {
-		"copyof": "sun_blasted"
+		"copyof": "sun-blasted"
 	},
 	"sun-blessed": {
 		"name": "Sun-Blessed",
@@ -21136,7 +21136,7 @@
 		"display": "trait"
 	},
 	"sun_blessed": {
-		"copyof": "sun_blessed"
+		"copyof": "sun-blessed"
 	},
 	"superior_clutch": {
 		"name": "Superior Clutch",
@@ -21503,7 +21503,7 @@
 		"display": "trait"
 	},
 	"tar_baphon's_whisper": {
-		"copyof": "tar_baphon's_whisper"
+		"copyof": "tar-baphon's_whisper"
 	},
 	"tarnished_halls_runner": {
 		"name": "Tarnished Halls Runner",
@@ -21994,7 +21994,7 @@
 		"display": "trait"
 	},
 	"thoughtful_wish_maker": {
-		"copyof": "thoughtful_wish_maker"
+		"copyof": "thoughtful_wish-maker"
 	},
 	"thrall_spotter": {
 		"name": "Thrall Spotter",
@@ -22057,7 +22057,7 @@
 		"display": "trait"
 	},
 	"thrown_together_fashion": {
-		"copyof": "thrown_together_fashion"
+		"copyof": "thrown-together_fashion"
 	},
 	"thrune_informant": {
 		"name": "Thrune Informant",
@@ -22564,7 +22564,7 @@
 		"display": "trait"
 	},
 	"triaxus_trained": {
-		"copyof": "triaxus_trained"
+		"copyof": "triaxus-trained"
 	},
 	"tribal": {
 		"name": "Tribal",
@@ -22827,7 +22827,7 @@
 		"display": "trait"
 	},
 	"two_world_magic": {
-		"copyof": "two_world_magic"
+		"copyof": "two-world_magic"
 	},
 	"ugly_swine": {
 		"name": "Ugly Swine",
@@ -23648,7 +23648,7 @@
 		"display": "trait"
 	},
 	"venom_drenched": {
-		"copyof": "venom_drenched"
+		"copyof": "venom-drenched"
 	},
 	"vermin_driver": {
 		"name": "Vermin Driver",
@@ -23921,7 +23921,7 @@
 		"display": "trait"
 	},
 	"walls_of_half_truths": {
-		"copyof": "walls_of_half_truths"
+		"copyof": "walls_of_half-truths"
 	},
 	"wanderer's_shroud": {
 		"name": "Wanderer's Shroud",
@@ -24184,7 +24184,7 @@
 		"display": "trait"
 	},
 	"water_touched": {
-		"copyof": "water_touched"
+		"copyof": "water-touched"
 	},
 	"water-trained": {
 		"name": "Water-Trained",
@@ -24200,7 +24200,7 @@
 		"display": "trait"
 	},
 	"water_trained": {
-		"copyof": "water_trained"
+		"copyof": "water-trained"
 	},
 	"wati_native": {
 		"name": "Wati Native",
@@ -24282,7 +24282,7 @@
 		"display": "trait"
 	},
 	"weather_beaten": {
-		"copyof": "weather_beaten"
+		"copyof": "weather-beaten"
 	},
 	"weathered": {
 		"name": "Weathered",
@@ -24387,7 +24387,7 @@
 		"display": "trait"
 	},
 	"well_informed": {
-		"copyof": "well_informed"
+		"copyof": "well-informed"
 	},
 	"well-prepared": {
 		"name": "Well-Prepared",
@@ -24403,7 +24403,7 @@
 		"display": "trait"
 	},
 	"well_prepared": {
-		"copyof": "well_prepared"
+		"copyof": "well-prepared"
 	},
 	"well-provisioned_adventurer": {
 		"name": "Well-Provisioned Adventurer",
@@ -24530,7 +24530,7 @@
 		"display": "trait"
 	},
 	"well_provisioned_adventurer": {
-		"copyof": "well_provisioned_adventurer"
+		"copyof": "well-provisioned_adventurer"
 	},
 	"wendifa_apprentice": {
 		"name": "Wendifa Apprentice",
@@ -24641,7 +24641,7 @@
 		"display": "trait"
 	},
 	"whole_hearted": {
-		"copyof": "whole_hearted"
+		"copyof": "whole-hearted"
 	},
 	"wicked_leader": {
 		"name": "Wicked Leader",
@@ -24728,7 +24728,7 @@
 		"display": "trait"
 	},
 	"wind_carried_voices": {
-		"copyof": "wind_carried_voices"
+		"copyof": "wind-carried_voices"
 	},
 	"windspeaker": {
 		"name": "Windspeaker",
@@ -24857,7 +24857,7 @@
 		"display": "trait"
 	},
 	"witch_tongued": {
-		"copyof": "witch_tongued"
+		"copyof": "witch-tongued"
 	},
 	"witness_to_nature's_cruelty": {
 		"name": "Witness to Nature's Cruelty",
@@ -24927,7 +24927,7 @@
 		"display": "trait"
 	},
 	"world_weary": {
-		"copyof": "world_weary"
+		"copyof": "world-weary"
 	},
 	"worldly": {
 		"name": "Worldly",

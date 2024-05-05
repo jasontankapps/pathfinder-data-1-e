@@ -1,854 +1,896 @@
 {
-	"list": [
-		{
-			"name": "Bonecrusher (Dengue)",
-			"file": "diseasesc1cf.html",
-			"sources": [ "Heart of the Jungle" ],
-			"type": "injury",
-			"fortitude_save": "DC 12",
-			"onset": "1 week",
-			"frequency": "1/day",
-			"effect": "1d4 Dex damage",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Bonecrusher (Dengue)",
-				"",
-				"**Source** [Heart of the Jungle pg. 6](source:heart_of_the_jungle)   ",
-				"**Type** injury; **Fortitude Save* DC 12   ",
-				"**Onset** 1 week; **Frequency** 1/day   ",
-				"**Effect** 1d4 Dex damage   ",
-				"**Cure** 2 consecutive saves"
-			]
-		},
-		{
-			"name": "Filth Fever",
-			"file": "diseases80c3.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"type": "injury",
-			"fortitude_save": "DC 12",
-			"onset": "1d3 days",
-			"frequency": "1/day",
-			"effect": "1d3 Dex damage and 1d3 Con damage",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Filth Fever",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 557](source:prpg_core_rulebook)   ",
-				"**Type** injury; **Fortitude Save* DC 12   ",
-				"**Onset** 1d3 days; **Frequency** 1/day   ",
-				"**Effect** 1d3 Dex damage and 1d3 Con damage   ",
-				"**Cure** 2 consecutive saves"
-			]
-		},
-		{
-			"name": "Fungal Flu",
-			"file": "diseasesa570.html",
-			"sources": [ "Pathfinder #13: Shadow in the Sky" ],
-			"type": "inhaled",
-			"fortitude_save": "DC 12",
-			"onset": "3d6 days",
-			"frequency": "1/day",
-			"effect": "1d4 Con. Rolling a 1 on any Fortitude save to resist taking damage from fungal flu results in blindness. The blindness persists - even resisting spells like remove blindness/deafness - until the disease is cured.",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Fungal Flu",
-				"",
-				"**Source** [Pathfinder #13: Shadow in the Sky pg. 81](source:pathfinder_#13_shadow_in_the_sky)   ",
-				"**Type** inhaled; **Fortitude Save* DC 12   ",
-				"**Onset** 3d6 days; **Frequency** 1/day   ",
-				"**Effect** 1d4 Con. Rolling a 1 on any Fortitude save to resist taking damage from fungal flu results in blindness. The blindness persists - even resisting spells like remove blindness/deafness - until the disease is cured.   ",
-				"**Cure** 2 consecutive saves"
-			]
-		},
-		{
-			"name": "Leprosy",
-			"file": "diseases2ed5.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"type": "contact, inhaled, or injury",
-			"fortitude_save": "DC 12 ((negates; DC 20 to avoid effects))",
-			"onset": "2d4 weeks",
-			"frequency": "1/week",
-			"effect": "1d2 Cha damage",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Leprosy",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 557](source:prpg_core_rulebook)   ",
-				"**Type** contact, inhaled, or injury; **Fortitude Save* DC 12 ((negates; DC 20 to avoid effects))   ",
-				"**Onset** 2d4 weeks; **Frequency** 1/week   ",
-				"**Effect** 1d2 Cha damage   ",
-				"**Cure** 2 consecutive saves"
-			]
-		},
-		{
-			"name": "Mindfire",
-			"file": "diseases1549.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"type": "inhaled",
-			"fortitude_save": "DC 12",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "1d4 Int damage",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Mindfire",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 557](source:prpg_core_rulebook)   ",
-				"**Type** inhaled; **Fortitude Save* DC 12   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** 1d4 Int damage   ",
-				"**Cure** 2 consecutive saves"
-			]
-		},
-		{
-			"name": "Ghoul Fever",
-			"file": "diseases2a8f.html",
-			"sources": [ "Pathfinder RPG Bestiary" ],
-			"type": "injury",
-			"fortitude_save": "DC 13",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "1d3 Con and 1d3 Dex damage",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Ghoul Fever",
-				"",
-				"**Source** [Pathfinder RPG Bestiary pg. 146](source:pathfinder_rpg_bestiary)   ",
-				"**Type** injury; **Fortitude Save* DC 13   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** 1d3 Con and 1d3 Dex damage   ",
-				"**Cure** 2 consecutive saves",
-				"",
-				"A humanoid who dies of ghoul fever rises as a [ghoul](monster:ghoul) at the next midnight. A humanoid who becomes a ghoul in this way retains none of the abilities it possessed in life. It is not under the control of any other ghouls, but it hungers for the flesh of the living and behaves like a normal ghoul in all respects. A humanoid of 4 Hit Dice or more rises as a ghast. The save DC is Charisma-based."
-			]
-		},
-		{
-			"name": "Green Haze",
-			"file": "diseases4d86.html",
-			"sources": [ "Heart of the Jungle" ],
-			"type": "contact",
-			"fortitude_save": "DC 13",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "-4 on Perception checks, target is permanently blinded if it fails 3 saves",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Green Haze",
-				"",
-				"**Source** [Heart of the Jungle pg. 7](source:heart_of_the_jungle)   ",
-				"**Type** contact; **Fortitude Save* DC 13   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** -4 on Perception checks, target is permanently blinded if it fails 3 saves   ",
-				"**Cure** 2 consecutive saves"
-			]
-		},
-		{
-			"name": "Shakes",
-			"file": "diseases6db3.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"type": "contact",
-			"fortitude_save": "DC 13",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "1d8 Dex damage",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Shakes",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 557](source:prpg_core_rulebook)   ",
-				"**Type** contact; **Fortitude Save* DC 13   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** 1d8 Dex damage   ",
-				"**Cure** 2 consecutive saves"
-			]
-		},
-		{
-			"name": "Brainworms",
-			"file": "diseasese3a1.html",
-			"sources": [ "Heart of the Jungle" ],
-			"type": "contact or injury",
-			"fortitude_save": "DC 14",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "1d3 Wis damage and 1d3 Int damage, if damaged in combat, target must make a second Fort save or gain the confused condition for the duration of the encounter",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Brainworms",
-				"",
-				"**Source** [Heart of the Jungle pg. 7](source:heart_of_the_jungle)   ",
-				"**Type** contact or injury; **Fortitude Save* DC 14   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** 1d3 Wis damage and 1d3 Int damage, if damaged in combat, target must make a second Fort save or gain the confused condition for the duration of the encounter   ",
-				"**Cure** 2 consecutive saves"
-			]
-		},
-		{
-			"name": "Devil Chills",
-			"file": "diseasese73f.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"type": "injury",
-			"fortitude_save": "DC 14",
-			"onset": "1d4 days",
-			"frequency": "1/day",
-			"effect": "1d4 Str damage",
-			"cure": "3 consecutive saves",
-			"description": [
-				"## Devil Chills",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 557](source:prpg_core_rulebook)   ",
-				"**Type** injury; **Fortitude Save* DC 14   ",
-				"**Onset** 1d4 days; **Frequency** 1/day   ",
-				"**Effect** 1d4 Str damage   ",
-				"**Cure** 3 consecutive saves"
-			]
-		},
-		{
-			"name": "Sleeping Sickness",
-			"file": "diseasesedc1.html",
-			"sources": [ "Heart of the Jungle" ],
-			"type": "injury",
-			"fortitude_save": "DC 14",
-			"onset": "1d2 days",
-			"frequency": "1/day",
-			"effect": "1d4 Wis damage and target is fatigued",
-			"cure": "2 consecutive saves or arsenic (see text)",
-			"description": [
-				"## Sleeping Sickness",
-				"",
-				"**Source** [Heart of the Jungle pg. 8](source:heart_of_the_jungle)   ",
-				"**Type** injury; **Fortitude Save* DC 14   ",
-				"**Onset** 1d2 days; **Frequency** 1/day   ",
-				"**Effect** 1d4 Wis damage and target is fatigued   ",
-				"**Cure** 2 consecutive saves or arsenic (see text)",
-				"",
-				"The best cure for this disease is dosing the patient with the poison arsenic (Pathfinder RPG Core Rulebook 558)-if the patient survives, there's a cumulative 30% chance that the disease is immediately cured."
-			]
-		},
-		{
-			"name": "Slimy Doom",
-			"file": "diseases2fd0.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"type": "contact",
-			"fortitude_save": "DC 14",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "1d4 Con damage, target must make a second Fort save or 1 point of the damage is drain instead",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Slimy Doom",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 557](source:prpg_core_rulebook)   ",
-				"**Type** contact; **Fortitude Save* DC 14   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** 1d4 Con damage, target must make a second Fort save or 1 point of the damage is drain instead   ",
-				"**Cure** 2 consecutive saves"
-			]
-		},
-		{
-			"name": "Tetanus ",
-			"file": "diseases9afa.html",
-			"sources": [ "Pathfinder #1: Burnt Offerings" ],
-			"type": "injury",
-			"fortitude_save": "DC 14",
-			"onset": "1d6 days",
-			"frequency": "1/day",
-			"effect": "1d4 Dex. Each time someone takes Dexterity damage from tetanus, there's a 50% chance his jaw muscles stiffen, preventing speech and the use of spells with verbal components for the next 24 hours. ",
-			"cure": "2 consecutive saves                                                                                 ",
-			"description": [
-				"## Tetanus ",
-				"",
-				"**Source** [Pathfinder #1: Burnt Offerings pg. 43](source:pathfinder_#1_burnt_offerings)   ",
-				"**Type** injury; **Fortitude Save* DC 14   ",
-				"**Onset** 1d6 days; **Frequency** 1/day   ",
-				"**Effect** 1d4 Dex. Each time someone takes Dexterity damage from tetanus, there's a 50% chance his jaw muscles stiffen, preventing speech and the use of spells with verbal components for the next 24 hours.   ",
-				"**Cure** 2 consecutive saves"
-			]
-		},
-		{
-			"name": "Glacier Plague",
-			"file": "diseases117f.html",
-			"sources": [ "Irrisen - Land of Eternal Winter" ],
-			"type": "contact or injury",
-			"fortitude_save": "DC 15",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "1d6 points of Dex damage and target is exhausted, its speed is reduced by half, and it is unable to speak",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Glacier Plague",
-				"",
-				"**Source** [Irrisen - Land of Eternal Winter pg. 48](source:irrisen_-_land_of_eternal_winter)   ",
-				"**Type** contact or injury; **Fortitude Save* DC 15   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** 1d6 points of Dex damage and target is exhausted, its speed is reduced by half, and it is unable to speak   ",
-				"**Cure** 2 consecutive saves",
-				"",
-				"Known to take root in places long buried by supernatural cold, this affliction infects ruins and deep forests throughout Irrisen. It slowly freezes creatures from the inside out without dealing cold damage, so sufferers simply feel the weariness and fatigue of exerting themselves in a cold environment. The affliction reduces an affected creature's range of movement and acts in many ways like very gradual petrification. A sufferer is unable to speak, is severely slowed, and takes Dexterity damage; if the victim's Dexterity score drops below 5, it is unable to move at all. Creatures suffering from this plague don't die from it, but it often strands them out in the cold where they die from exposure."
-			]
-		},
-		{
-			"name": "Greenscale",
-			"file": "diseases3696.html",
-			"sources": [ "Heart of the Jungle" ],
-			"type": "injury",
-			"fortitude_save": "DC 15",
-			"onset": "1d6 days",
-			"frequency": "1/week",
-			"effect": "1d2 Cha damage and 1d2 Dex damage, target must make a second Fort save or 1 point of the Cha damage is drain instead",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Greenscale",
-				"",
-				"**Source** [Heart of the Jungle pg. 7](source:heart_of_the_jungle)   ",
-				"**Type** injury; **Fortitude Save* DC 15   ",
-				"**Onset** 1d6 days; **Frequency** 1/week   ",
-				"**Effect** 1d2 Cha damage and 1d2 Dex damage, target must make a second Fort save or 1 point of the Cha damage is drain instead   ",
-				"**Cure** 2 consecutive saves"
-			]
-		},
-		{
-			"name": "Moxix's Delectation",
-			"file": "diseases6012.html",
-			"sources": [ "Pathfinder #58: Island of Empty Eyes" ],
-			"type": "injury",
-			"fortitude_save": "DC 15",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "1d3 Con and 1d3 Wis damage",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Moxix's Delectation",
-				"",
-				"**Source** [Pathfinder #58: Island of Empty Eyes pg. 67](source:pathfinder_#58_island_of_empty_eyes)   ",
-				"**Type** injury; **Fortitude Save* DC 15   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** 1d3 Con and 1d3 Wis damage   ",
-				"**Cure** 2 consecutive saves",
-				"",
-				"A humanoid afflicted with Moxix's delectation must attempt a new Will save each day. If the humanoid fails, it attacks and attempts to eat the weakest humanoid nearby. If the save is successful, it resists. A humanoid who dies or is killed while afflicted rises as a ghast at the next midnight. The save DC is Charisma-based."
-			]
-		},
-		{
-			"name": "Red Ache",
-			"file": "diseases1e97.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"type": "injury",
-			"fortitude_save": "DC 15",
-			"onset": "1d3 days",
-			"frequency": "1/day",
-			"effect": "1d6 Str damage",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Red Ache",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 557](source:prpg_core_rulebook)   ",
-				"**Type** injury; **Fortitude Save* DC 15   ",
-				"**Onset** 1d3 days; **Frequency** 1/day   ",
-				"**Effect** 1d6 Str damage   ",
-				"**Cure** 2 consecutive saves"
-			]
-		},
-		{
-			"name": "Spellscar Fever",
-			"file": "diseases939f.html",
-			"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
-			"type": "ingested or inhaled",
-			"fortitude_save": "DC 15 (+1 per previous save)",
-			"onset": "2d6+1 days",
-			"frequency": "1/day",
-			"effect": "1d2 Con damage, 1d2 Cha drain",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Spellscar Fever",
-				"",
-				"**Source** [Pathfinder #119: Prisoners of the Blight pg. 63](source:pathfinder_#119_prisoners_of_the_blight)   ",
-				"**Type** ingested or inhaled; **Fortitude Save* DC 15 (+1 per previous save)   ",
-				"**Onset** 2d6+1 days; **Frequency** 1/day   ",
-				"**Effect** 1d2 Con damage, 1d2 Cha drain   ",
-				"**Cure** 2 consecutive saves",
-				"",
-				"**Ongoing Save** Fort DC equal to the save DC of the failed saving throw   ",
-				"Anyone who lives with spellscar fever for a week straight without dying becomes immune to the disease and to mana fever, but also becomes a Mana Waste mutant (Pathfinder Campaign Setting: Inner Sea Bestiary 28) or a mutant (Pathfinder RPG Bestiary 5 180), chosen by the GM. A Mana Waste mutant created in such a way can use the following Spellscar Fever Deformities table in place of a deformity from the Inner Sea Bestiary, while a mutant resulting from spellscar fever can take one effect from the same table in place of one deformity and one mutation."
-			]
-		},
-		{
-			"name": "The Tainted Plague",
-			"file": "diseasesbc84.html",
-			"sources": [ "Pathfinder Campaign Setting" ],
-			"type": "contact",
-			"fortitude_save": "DC 15 (see description)",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "1d6 Con and 1d6 Wis",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## The Tainted Plague",
-				"",
-				"**Source** [Pathfinder Campaign Setting pg. 149](source:pathfinder_campaign_setting)   ",
-				"**Type** contact; **Fortitude Save* DC 15 (see description)   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** 1d6 Con and 1d6 Wis   ",
-				"**Cure** 2 consecutive saves",
-				"",
-				"Even in the absence of ravening abyssal hordes, the Worldwound causes a supernatural disease called the tainted plague. Those exposed to the Worldwound or creatures native to it (including creatures already suffering ability damage from the disease) must make a DC 15 Fortitude save once per day or become infected. Those reduced to 0 Wisdom are driven mad by the mind-bending horrors they have witnessed. Those reduced to 0 Constitution perish, their bodies rotting from the inside out and dissolving within 24 hours into primordial chaos matter."
-			]
-		},
-		{
-			"name": "Blinding Sickness",
-			"file": "diseasesae46.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"type": "ingested",
-			"fortitude_save": "DC 16",
-			"onset": "1d3 days",
-			"frequency": "1/day",
-			"effect": "1d4 Str damage, if more than 2 Str damage, target must make an additional Fort save or be permanently blinded",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Blinding Sickness",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 557](source:prpg_core_rulebook)   ",
-				"**Type** ingested; **Fortitude Save* DC 16   ",
-				"**Onset** 1d3 days; **Frequency** 1/day   ",
-				"**Effect** 1d4 Str damage, if more than 2 Str damage, target must make an additional Fort save or be permanently blinded   ",
-				"**Cure** 2 consecutive saves"
-			]
-		},
-		{
-			"name": "Blood Veil",
-			"file": "diseases0c53.html",
-			"sources": [
-				"Curse of the Crimson Throne",
-				"Pathfinder #8: Seven Days to the Grave"
-			],
-			"type": "contact or injury",
-			"fortitude_save": "DC 16 (the first time ethnically Varisian humanoids, including human, half-elves, and half-orcs with Varisian parentage, are exposed to blood veil, each such character has a flat 5% chance that she is immune to the disease)",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "1d4 Con damage and 1d4 Cha damage",
-			"cure": "&nbsp;",
-			"description": [
-				"## Blood Veil",
-				"",
-				"**Source** [Curse of the Crimson Throne pg. 431](source:curse_of_the_crimson_throne), [Pathfinder #8: Seven Days to the Grave pg. 9](source:pathfinder_#8_seven_days_to_the_grave)   ",
-				"**Type** contact or injury; **Fortitude Save* DC 16 (the first time ethnically Varisian humanoids, including human, half-elves, and half-orcs with Varisian parentage, are exposed to blood veil, each such character has a flat 5% chance that she is immune to the disease)   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** 1d4 Con damage and 1d4 Cha damage   ",
-				"**Cure**",
-				"",
-				"Blood veil takes its name from its most apparent symptoms: a rash and mask of blisters that cover the face. In its initial stages, the disease is characterized by headache, fatigue, coughing, and the aforementioned rash. As it progresses, the cough becomes more obtrusive; the rash spreads to the neck, face, and limbs and develops into poxlike blisters; and the lymph glands swell into painful buboes. At its most advanced stage, the blisters grow to the size of grapes or larger, internal bleeding creates black patches on the skin, and the victim expectorates blood. Ultimately, a bloody, wheezing death occurs. If left untreated, blood veil kills the average human in 7 days."
-			]
-		},
-		{
-			"name": "Bonechill",
-			"file": "diseases4621.html",
-			"sources": [ "Pathfinder #51: The Hungry Storm" ],
-			"type": "injury",
-			"fortitude_save": "DC 16",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "1d4 Dex damage and any nonlethal damage incurred from being in a cold environment becomes lethal damage (though it can still cause hypothermia)",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Bonechill",
-				"",
-				"**Source** [Pathfinder #51: The Hungry Storm pg. 67](source:pathfinder_#51_the_hungry_storm)   ",
-				"**Type** injury; **Fortitude Save* DC 16   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** 1d4 Dex damage and any nonlethal damage incurred from being in a cold environment becomes lethal damage (though it can still cause hypothermia)   ",
-				"**Cure** 2 consecutive saves"
-			]
-		},
-		{
-			"name": "Boot Soup",
-			"file": "diseases875b.html",
-			"sources": [ "Heart of the Jungle" ],
-			"type": "contact",
-			"fortitude_save": "DC 16",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "speed reduced by 5 feet and 1d3 Dex damage, creatures reduced to 0 feet are permanently paralyzed",
-			"cure": "2 consecutive saves, or completely skinning or burning the affected area (inflicting 1d8 points of damage)",
-			"description": [
-				"## Boot Soup",
-				"",
-				"**Source** [Heart of the Jungle pg. 7](source:heart_of_the_jungle)   ",
-				"**Type** contact; **Fortitude Save* DC 16   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** speed reduced by 5 feet and 1d3 Dex damage, creatures reduced to 0 feet are permanently paralyzed   ",
-				"**Cure** 2 consecutive saves, or completely skinning or burning the affected area (inflicting 1d8 points of damage)"
-			]
-		},
-		{
-			"name": "Cackle Fever",
-			"file": "diseases4ea2.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"type": "inhaled",
-			"fortitude_save": "DC 16",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "1d6 Wis damage",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Cackle Fever",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 557](source:prpg_core_rulebook)   ",
-				"**Type** inhaled; **Fortitude Save* DC 16   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** 1d6 Wis damage   ",
-				"**Cure** 2 consecutive saves"
-			]
-		},
-		{
-			"name": "Dvezda Plague",
-			"file": "diseasesd888.html",
-			"sources": [ "Pathfinder #69: Maiden, Mother, Crone" ],
-			"type": "ingested or inhaled",
-			"fortitude_save": "DC 16",
-			"onset": "1d4 days",
-			"frequency": "1/day",
-			"effect": "1d4 Con damage and 1 Dex damage",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Dvezda Plague",
-				"",
-				"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 71](source:pathfinder_#69_maiden,_mother,_crone)   ",
-				"**Type** ingested or inhaled; **Fortitude Save* DC 16   ",
-				"**Onset** 1d4 days; **Frequency** 1/day   ",
-				"**Effect** 1d4 Con damage and 1 Dex damage   ",
-				"**Cure** 2 consecutive saves",
-				"",
-				"Days after contracting the virus, the victim becomes stricken with a high fever and begins sweating profusely. Later, the victim begins suffering from extreme tremors, followed by a thinning of the blood and bleeding from the tear ducts, nose, ears, and other orifices."
-			]
-		},
-		{
-			"name": "Dysentary",
-			"file": "diseases81c5.html",
-			"sources": [ "Heart of the Jungle" ],
-			"type": "contact or injury",
-			"fortitude_save": "DC 16",
-			"onset": "1d3 days",
-			"frequency": "1/day",
-			"effect": "1d6 nonlethal damage and target is fatigued and staggered",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Dysentary",
-				"",
-				"**Source** [Heart of the Jungle pg. 7](source:heart_of_the_jungle)   ",
-				"**Type** contact or injury; **Fortitude Save* DC 16   ",
-				"**Onset** 1d3 days; **Frequency** 1/day   ",
-				"**Effect** 1d6 nonlethal damage and target is fatigued and staggered   ",
-				"**Cure** 2 consecutive saves"
-			]
-		},
-		{
-			"name": "Pulsing Puffs",
-			"file": "diseases8ec0.html",
-			"sources": [ "Heart of the Jungle" ],
-			"type": "injury",
-			"fortitude_save": "DC 16",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "1d4 Dex damage",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Pulsing Puffs",
-				"",
-				"**Source** [Heart of the Jungle pg. 8](source:heart_of_the_jungle)   ",
-				"**Type** injury; **Fortitude Save* DC 16   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** 1d4 Dex damage   ",
-				"**Cure** 2 consecutive saves"
-			]
-		},
-		{
-			"name": "The Scales",
-			"file": "diseases65e4.html",
-			"sources": [ "Lost Cities of Golarion" ],
-			"type": "contact or injury",
-			"fortitude_save": "DC 16",
-			"onset": "1d4 days",
-			"frequency": "1/2 days",
-			"effect": "1d2 Dex damage and 1d2 Cha damage",
-			"cure": "2 consecutive saves. Reptiles and creatures with the reptilian subtype receive a -2 penalty on saving throws and require 3 consecutive saves to recover.",
-			"description": [
-				"## The Scales",
-				"",
-				"**Source** [Lost Cities of Golarion pg. 8](source:lost_cities_of_golarion)   ",
-				"**Type** contact or injury; **Fortitude Save* DC 16   ",
-				"**Onset** 1d4 days; **Frequency** 1/2 days   ",
-				"**Effect** 1d2 Dex damage and 1d2 Cha damage   ",
-				"**Cure** 2 consecutive saves. Reptiles and creatures with the reptilian subtype receive a -2 penalty on saving throws and require 3 consecutive saves to recover."
-			]
-		},
-		{
-			"name": "Bubonic Plague",
-			"file": "diseases6d51.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"type": "injury or inhaled",
-			"fortitude_save": "DC 17",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "1d4 Con damage and 1 Cha damage and target is fatigued",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Bubonic Plague",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 557](source:prpg_core_rulebook)   ",
-				"**Type** injury or inhaled; **Fortitude Save* DC 17   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** 1d4 Con damage and 1 Cha damage and target is fatigued   ",
-				"**Cure** 2 consecutive saves"
-			]
-		},
-		{
-			"name": "Chillbane Fever",
-			"file": "diseases7ca4.html",
-			"sources": [ "Irrisen - Land of Eternal Winter" ],
-			"type": "inhaled, injury",
-			"fortitude_save": "DC 17",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "1d4 Con damage and target is sickened and fatigued",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Chillbane Fever",
-				"",
-				"**Source** [Irrisen - Land of Eternal Winter pg. 48](source:irrisen_-_land_of_eternal_winter)   ",
-				"**Type** inhaled, injury; **Fortitude Save* DC 17   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** 1d4 Con damage and target is sickened and fatigued   ",
-				"**Cure** 2 consecutive saves",
-				"",
-				"Not to be confused with the far more potent earlier strain that swept across Bleakmarch during the reign of Queen Velikas, this infectious disease is characterized by the sufferer's constant shaking, as though he were unable to get warm. The khala dragon (see page 59) is one known carrier of the illness, though many other forms of exposure are possible."
-			]
-		},
-		{
-			"name": "Firegut",
-			"file": "diseases3507.html",
-			"sources": [ "Heart of the Jungle" ],
-			"type": "injury or inhaled",
-			"fortitude_save": "DC 17",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "target is staggered",
-			"cure": "3 consecutive saves",
-			"description": [
-				"## Firegut",
-				"",
-				"**Source** [Heart of the Jungle pg. 7](source:heart_of_the_jungle)   ",
-				"**Type** injury or inhaled; **Fortitude Save* DC 17   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** target is staggered   ",
-				"**Cure** 3 consecutive saves"
-			]
-		},
-		{
-			"name": "Demon Fever",
-			"file": "diseases4afc.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"type": "injury",
-			"fortitude_save": "DC 18",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "1d6 Con damage, target must make a second Fort save or 1 point of the damage is drain instead",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Demon Fever",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 557](source:prpg_core_rulebook)   ",
-				"**Type** injury; **Fortitude Save* DC 18   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** 1d6 Con damage, target must make a second Fort save or 1 point of the damage is drain instead   ",
-				"**Cure** 2 consecutive saves"
-			]
-		},
-		{
-			"name": "Demonplague",
-			"file": "diseases210a.html",
-			"sources": [ "The Worldwound" ],
-			"type": "injury or ingested",
-			"fortitude_save": "DC 18",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "1d3 Con damage and 1d6 Wis damage, and victim is fatigued if it takes any ability damage from the disease; certain creatures slain by demonplague rise as plagued beasts (see page 56)",
-			"cure": "3 consecutive saves",
-			"description": [
-				"## Demonplague",
-				"",
-				"**Source** [The Worldwound pg. 29](source:the_worldwound)   ",
-				"**Type** injury or ingested; **Fortitude Save* DC 18   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** 1d3 Con damage and 1d6 Wis damage, and victim is fatigued if it takes any ability damage from the disease; certain creatures slain by demonplague rise as plagued beasts (see page 56)   ",
-				"**Cure** 3 consecutive saves",
-				"",
-				"Of the afflictions wreaked upon Sarkoris by the Worldwound and Deskari's host, the demonplague is perhaps the most insidious. This vile sickness spreads through water, affecting plant and animal life alike. In higher creatures, the demonplague causes madness and then death, but in animals and other unintelligent beasts, it continues beyond death, animating them as undead horrors called plagued beasts. The plague also twists and corrupts plant life-most of the hazardous plants detailed below are the results of normal plants becoming corrupted by the demonplague."
-			]
-		},
-		{
-			"name": "Malaria (Jungle Fever)",
-			"file": "diseasese098.html",
-			"sources": [ "Heart of the Jungle" ],
-			"type": "injury",
-			"fortitude_save": "DC 18",
-			"onset": "1d3 days",
-			"frequency": "1/day",
-			"effect": "1d3 Str damage and 1d3 Con damage and target is fatigued",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Malaria (Jungle Fever)",
-				"",
-				"**Source** [Heart of the Jungle pg. 7](source:heart_of_the_jungle)   ",
-				"**Type** injury; **Fortitude Save* DC 18   ",
-				"**Onset** 1d3 days; **Frequency** 1/day   ",
-				"**Effect** 1d3 Str damage and 1d3 Con damage and target is fatigued   ",
-				"**Cure** 2 consecutive saves"
-			]
-		},
-		{
-			"name": "Red Drip",
-			"file": "diseaseseb17.html",
-			"sources": [
-				"Undead Unleashed",
-				"Heart of the Jungle"
-			],
-			"type": "contact (fungus)",
-			"fortitude_save": "DC 18",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "1d4 Dex damage and 1d2 Cha damage",
-			"cure": "2 consecutive saves or amputation of infected limb",
-			"description": [
-				"## Red Drip",
-				"",
-				"**Source** [Undead Unleashed pg. 63](source:undead_unleashed), [Heart of the Jungle pg. 8](source:heart_of_the_jungle)   ",
-				"**Type** contact (fungus); **Fortitude Save* DC 18   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** 1d4 Dex damage and 1d2 Cha damage   ",
-				"**Cure** 2 consecutive saves or amputation of infected limb"
-			]
-		},
-		{
-			"name": "Ergia",
-			"file": "diseases7cab.html",
-			"sources": [ "Pathfinder #51: The Hungry Storm" ],
-			"type": "contact",
-			"fortitude_save": "DC 20",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "1d4 Str damage and 1d4 Con damage, target must make a second Fort save or 1 point of the damage is drain instead, and a creature that has suffered ability drain glows blue as if limned with faerie fire",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Ergia",
-				"",
-				"**Source** [Pathfinder #51: The Hungry Storm pg. 67](source:pathfinder_#51_the_hungry_storm)   ",
-				"**Type** contact; **Fortitude Save* DC 20   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** 1d4 Str damage and 1d4 Con damage, target must make a second Fort save or 1 point of the damage is drain instead, and a creature that has suffered ability drain glows blue as if limned with faerie fire   ",
-				"**Cure** 2 consecutive saves"
-			]
-		},
-		{
-			"name": "Scarlet Leprosy",
-			"file": "diseases4147.html",
-			"sources": [ "Undead Unleashed" ],
-			"type": "contact",
-			"fortitude_save": "DC 20",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "1d6 Con damage and 1d6 Cha damage; whenever the character takes Con damage, 1 point is permanent drain",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Scarlet Leprosy",
-				"",
-				"**Source** [Undead Unleashed pg. 15](source:undead_unleashed)   ",
-				"**Type** contact; **Fortitude Save* DC 20   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** 1d6 Con damage and 1d6 Cha damage; whenever the character takes Con damage, 1 point is permanent drain   ",
-				"**Cure** 2 consecutive saves"
-			]
-		},
-		{
-			"name": "Vorel's Phage",
-			"file": "diseasesc93c.html",
-			"sources": [ "Pathfinder #2: The Skinsaw Murders" ],
-			"type": "contact or ingestion ",
-			"fortitude_save": "DC 20",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "1d4 Cha and 1d4 Con.",
-			"cure": "2 consecutive saves                                                                                 ",
-			"description": [
-				"## Vorel's Phage",
-				"",
-				"**Source** [Pathfinder #2: The Skinsaw Murders pg. 27](source:pathfinder_#2_the_skinsaw_murders)   ",
-				"**Type** contact or ingestion ; **Fortitude Save* DC 20   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** 1d4 Cha and 1d4 Con.   ",
-				"**Cure** 2 consecutive saves"
-			]
-		},
-		{
-			"name": "Blightburn Sickness",
-			"file": "diseasesbd60.html",
-			"sources": [
-				"Undead Unleashed",
-				"Mythic Realms"
-			],
-			"type": "contact (see text)",
-			"fortitude_save": "DC 22",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "1d6 Con damage and 1d6 Cha damage; contact is automatic when a creature comes within a 60- foot radius of blightburn, and can be blocked only by lead sheeting, 1 foot of stone, or a force effect",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Blightburn Sickness",
-				"",
-				"**Source** [Undead Unleashed pg. 15](source:undead_unleashed), [Mythic Realms pg. 21](source:mythic_realms)   ",
-				"**Type** contact (see text); **Fortitude Save* DC 22   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** 1d6 Con damage and 1d6 Cha damage; contact is automatic when a creature comes within a 60- foot radius of blightburn, and can be blocked only by lead sheeting, 1 foot of stone, or a force effect   ",
-				"**Cure** 2 consecutive saves"
-			]
-		},
-		{
-			"name": "Crypt Fever",
-			"file": "diseases765b.html",
-			"sources": [ "Tomb of the Iron Medusa" ],
-			"type": "contact or inhaled",
-			"fortitude_save": "DC 22",
-			"onset": "1 minute",
-			"frequency": "1/day",
-			"effect": "1d6 Str damage, 1d6 Cha damage, and victim is exhausted",
-			"cure": "crypt fever can only be cured by successfully casting remove curse and remove disease within 1 minute of each other.",
-			"description": [
-				"## Crypt Fever",
-				"",
-				"**Source** [Tomb of the Iron Medusa pg. 13](source:tomb_of_the_iron_medusa)   ",
-				"**Type** contact or inhaled; **Fortitude Save* DC 22   ",
-				"**Onset** 1 minute; **Frequency** 1/day   ",
-				"**Effect** 1d6 Str damage, 1d6 Cha damage, and victim is exhausted   ",
-				"**Cure** crypt fever can only be cured by successfully casting remove curse and remove disease within 1 minute of each other."
-			]
-		},
-		{
-			"name": "Daemonic Wasting",
-			"file": "diseases662c.html",
-			"sources": [ "Pathfinder #54: The Empty Throne" ],
-			"type": "contact",
-			"fortitude_save": "DC 23",
-			"onset": "1 day",
-			"frequency": "1/day",
-			"effect": "1d4 Con damage and 1d4 Cha damage",
-			"cure": "2 consecutive saves",
-			"description": [
-				"## Daemonic Wasting",
-				"",
-				"**Source** [Pathfinder #54: The Empty Throne pg. 28](source:pathfinder_#54_the_empty_throne)   ",
-				"**Type** contact; **Fortitude Save* DC 23   ",
-				"**Onset** 1 day; **Frequency** 1/day   ",
-				"**Effect** 1d4 Con damage and 1d4 Cha damage   ",
-				"**Cure** 2 consecutive saves"
-			]
-		}
-	]
+	"bonecrusher_dengue": {
+		"name": "Bonecrusher (Dengue)",
+		"file": "diseasesc1cf.html",
+		"sources": [ "Heart of the Jungle" ],
+		"type": "injury",
+		"fortitude_save": "DC 12",
+		"onset": "1 week",
+		"frequency": "1/day",
+		"effect": "1d4 Dex damage",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Bonecrusher (Dengue)",
+			"",
+			"**Source** [Heart of the Jungle pg. 6](source:heart_of_the_jungle)   ",
+			"**Type** injury; **Fortitude Save* DC 12   ",
+			"**Onset** 1 week; **Frequency** 1/day   ",
+			"**Effect** 1d4 Dex damage   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"dengue": {
+		"copyof": "bonecrusher_dengue"
+	},
+	"filth_fever": {
+		"name": "Filth Fever",
+		"file": "diseases80c3.html",
+		"sources": [ "PRPG Core Rulebook" ],
+		"type": "injury",
+		"fortitude_save": "DC 12",
+		"onset": "1d3 days",
+		"frequency": "1/day",
+		"effect": "1d3 Dex damage and 1d3 Con damage",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Filth Fever",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 557](source:prpg_core_rulebook)   ",
+			"**Type** injury; **Fortitude Save* DC 12   ",
+			"**Onset** 1d3 days; **Frequency** 1/day   ",
+			"**Effect** 1d3 Dex damage and 1d3 Con damage   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"fungal_flu": {
+		"name": "Fungal Flu",
+		"file": "diseasesa570.html",
+		"sources": [ "Pathfinder #13: Shadow in the Sky" ],
+		"type": "inhaled",
+		"fortitude_save": "DC 12",
+		"onset": "3d6 days",
+		"frequency": "1/day",
+		"effect": "1d4 Con. Rolling a 1 on any Fortitude save to resist taking damage from fungal flu results in blindness. The blindness persists - even resisting spells like remove blindness/deafness - until the disease is cured.",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Fungal Flu",
+			"",
+			"**Source** [Pathfinder #13: Shadow in the Sky pg. 81](source:pathfinder_#13_shadow_in_the_sky)   ",
+			"**Type** inhaled; **Fortitude Save* DC 12   ",
+			"**Onset** 3d6 days; **Frequency** 1/day   ",
+			"**Effect** 1d4 Con. Rolling a 1 on any Fortitude save to resist taking damage from fungal flu results in blindness. The blindness persists - even resisting spells like remove blindness/deafness - until the disease is cured.   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"leprosy": {
+		"name": "Leprosy",
+		"file": "diseases2ed5.html",
+		"sources": [ "PRPG Core Rulebook" ],
+		"type": "contact, inhaled, or injury",
+		"fortitude_save": "DC 12 ((negates; DC 20 to avoid effects))",
+		"onset": "2d4 weeks",
+		"frequency": "1/week",
+		"effect": "1d2 Cha damage",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Leprosy",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 557](source:prpg_core_rulebook)   ",
+			"**Type** contact, inhaled, or injury; **Fortitude Save* DC 12 ((negates; DC 20 to avoid effects))   ",
+			"**Onset** 2d4 weeks; **Frequency** 1/week   ",
+			"**Effect** 1d2 Cha damage   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"mindfire": {
+		"name": "Mindfire",
+		"file": "diseases1549.html",
+		"sources": [ "PRPG Core Rulebook" ],
+		"type": "inhaled",
+		"fortitude_save": "DC 12",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "1d4 Int damage",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Mindfire",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 557](source:prpg_core_rulebook)   ",
+			"**Type** inhaled; **Fortitude Save* DC 12   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** 1d4 Int damage   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"ghoul_fever": {
+		"name": "Ghoul Fever",
+		"file": "diseases2a8f.html",
+		"sources": [ "Pathfinder RPG Bestiary" ],
+		"type": "injury",
+		"fortitude_save": "DC 13",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "1d3 Con and 1d3 Dex damage",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Ghoul Fever",
+			"",
+			"**Source** [Pathfinder RPG Bestiary pg. 146](source:pathfinder_rpg_bestiary)   ",
+			"**Type** injury; **Fortitude Save* DC 13   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** 1d3 Con and 1d3 Dex damage   ",
+			"**Cure** 2 consecutive saves",
+			"",
+			"A humanoid who dies of ghoul fever rises as a [ghoul](monster:ghoul) at the next midnight. A humanoid who becomes a ghoul in this way retains none of the abilities it possessed in life. It is not under the control of any other ghouls, but it hungers for the flesh of the living and behaves like a normal ghoul in all respects. A humanoid of 4 Hit Dice or more rises as a ghast. The save DC is Charisma-based."
+		],
+		"display": "disease"
+	},
+	"green_haze": {
+		"name": "Green Haze",
+		"file": "diseases4d86.html",
+		"sources": [ "Heart of the Jungle" ],
+		"type": "contact",
+		"fortitude_save": "DC 13",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "-4 on Perception checks, target is permanently blinded if it fails 3 saves",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Green Haze",
+			"",
+			"**Source** [Heart of the Jungle pg. 7](source:heart_of_the_jungle)   ",
+			"**Type** contact; **Fortitude Save* DC 13   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** -4 on Perception checks, target is permanently blinded if it fails 3 saves   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"shakes": {
+		"name": "Shakes",
+		"file": "diseases6db3.html",
+		"sources": [ "PRPG Core Rulebook" ],
+		"type": "contact",
+		"fortitude_save": "DC 13",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "1d8 Dex damage",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Shakes",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 557](source:prpg_core_rulebook)   ",
+			"**Type** contact; **Fortitude Save* DC 13   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** 1d8 Dex damage   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"brainworms": {
+		"name": "Brainworms",
+		"file": "diseasese3a1.html",
+		"sources": [ "Heart of the Jungle" ],
+		"type": "contact or injury",
+		"fortitude_save": "DC 14",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "1d3 Wis damage and 1d3 Int damage, if damaged in combat, target must make a second Fort save or gain the confused condition for the duration of the encounter",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Brainworms",
+			"",
+			"**Source** [Heart of the Jungle pg. 7](source:heart_of_the_jungle)   ",
+			"**Type** contact or injury; **Fortitude Save* DC 14   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** 1d3 Wis damage and 1d3 Int damage, if damaged in combat, target must make a second Fort save or gain the confused condition for the duration of the encounter   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"devil_chills": {
+		"name": "Devil Chills",
+		"file": "diseasese73f.html",
+		"sources": [ "PRPG Core Rulebook" ],
+		"type": "injury",
+		"fortitude_save": "DC 14",
+		"onset": "1d4 days",
+		"frequency": "1/day",
+		"effect": "1d4 Str damage",
+		"cure": "3 consecutive saves",
+		"description": [
+			"## Devil Chills",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 557](source:prpg_core_rulebook)   ",
+			"**Type** injury; **Fortitude Save* DC 14   ",
+			"**Onset** 1d4 days; **Frequency** 1/day   ",
+			"**Effect** 1d4 Str damage   ",
+			"**Cure** 3 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"sleeping_sickness": {
+		"name": "Sleeping Sickness",
+		"file": "diseasesedc1.html",
+		"sources": [ "Heart of the Jungle" ],
+		"type": "injury",
+		"fortitude_save": "DC 14",
+		"onset": "1d2 days",
+		"frequency": "1/day",
+		"effect": "1d4 Wis damage and target is fatigued",
+		"cure": "2 consecutive saves or arsenic (see text)",
+		"description": [
+			"## Sleeping Sickness",
+			"",
+			"**Source** [Heart of the Jungle pg. 8](source:heart_of_the_jungle)   ",
+			"**Type** injury; **Fortitude Save* DC 14   ",
+			"**Onset** 1d2 days; **Frequency** 1/day   ",
+			"**Effect** 1d4 Wis damage and target is fatigued   ",
+			"**Cure** 2 consecutive saves or arsenic (see text)",
+			"",
+			"The best cure for this disease is dosing the patient with the poison arsenic (Pathfinder RPG Core Rulebook 558)-if the patient survives, there's a cumulative 30% chance that the disease is immediately cured."
+		],
+		"display": "disease"
+	},
+	"slimy_doom": {
+		"name": "Slimy Doom",
+		"file": "diseases2fd0.html",
+		"sources": [ "PRPG Core Rulebook" ],
+		"type": "contact",
+		"fortitude_save": "DC 14",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "1d4 Con damage, target must make a second Fort save or 1 point of the damage is drain instead",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Slimy Doom",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 557](source:prpg_core_rulebook)   ",
+			"**Type** contact; **Fortitude Save* DC 14   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** 1d4 Con damage, target must make a second Fort save or 1 point of the damage is drain instead   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"tetanus_": {
+		"name": "Tetanus ",
+		"file": "diseases9afa.html",
+		"sources": [ "Pathfinder #1: Burnt Offerings" ],
+		"type": "injury",
+		"fortitude_save": "DC 14",
+		"onset": "1d6 days",
+		"frequency": "1/day",
+		"effect": "1d4 Dex. Each time someone takes Dexterity damage from tetanus, there's a 50% chance his jaw muscles stiffen, preventing speech and the use of spells with verbal components for the next 24 hours. ",
+		"cure": "2 consecutive saves                                                                                 ",
+		"description": [
+			"## Tetanus ",
+			"",
+			"**Source** [Pathfinder #1: Burnt Offerings pg. 43](source:pathfinder_#1_burnt_offerings)   ",
+			"**Type** injury; **Fortitude Save* DC 14   ",
+			"**Onset** 1d6 days; **Frequency** 1/day   ",
+			"**Effect** 1d4 Dex. Each time someone takes Dexterity damage from tetanus, there's a 50% chance his jaw muscles stiffen, preventing speech and the use of spells with verbal components for the next 24 hours.   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"glacier_plague": {
+		"name": "Glacier Plague",
+		"file": "diseases117f.html",
+		"sources": [ "Irrisen - Land of Eternal Winter" ],
+		"type": "contact or injury",
+		"fortitude_save": "DC 15",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "1d6 points of Dex damage and target is exhausted, its speed is reduced by half, and it is unable to speak",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Glacier Plague",
+			"",
+			"**Source** [Irrisen - Land of Eternal Winter pg. 48](source:irrisen_-_land_of_eternal_winter)   ",
+			"**Type** contact or injury; **Fortitude Save* DC 15   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** 1d6 points of Dex damage and target is exhausted, its speed is reduced by half, and it is unable to speak   ",
+			"**Cure** 2 consecutive saves",
+			"",
+			"Known to take root in places long buried by supernatural cold, this affliction infects ruins and deep forests throughout Irrisen. It slowly freezes creatures from the inside out without dealing cold damage, so sufferers simply feel the weariness and fatigue of exerting themselves in a cold environment. The affliction reduces an affected creature's range of movement and acts in many ways like very gradual petrification. A sufferer is unable to speak, is severely slowed, and takes Dexterity damage; if the victim's Dexterity score drops below 5, it is unable to move at all. Creatures suffering from this plague don't die from it, but it often strands them out in the cold where they die from exposure."
+		],
+		"display": "disease"
+	},
+	"greenscale": {
+		"name": "Greenscale",
+		"file": "diseases3696.html",
+		"sources": [ "Heart of the Jungle" ],
+		"type": "injury",
+		"fortitude_save": "DC 15",
+		"onset": "1d6 days",
+		"frequency": "1/week",
+		"effect": "1d2 Cha damage and 1d2 Dex damage, target must make a second Fort save or 1 point of the Cha damage is drain instead",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Greenscale",
+			"",
+			"**Source** [Heart of the Jungle pg. 7](source:heart_of_the_jungle)   ",
+			"**Type** injury; **Fortitude Save* DC 15   ",
+			"**Onset** 1d6 days; **Frequency** 1/week   ",
+			"**Effect** 1d2 Cha damage and 1d2 Dex damage, target must make a second Fort save or 1 point of the Cha damage is drain instead   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"moxix's_delectation": {
+		"name": "Moxix's Delectation",
+		"file": "diseases6012.html",
+		"sources": [ "Pathfinder #58: Island of Empty Eyes" ],
+		"type": "injury",
+		"fortitude_save": "DC 15",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "1d3 Con and 1d3 Wis damage",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Moxix's Delectation",
+			"",
+			"**Source** [Pathfinder #58: Island of Empty Eyes pg. 67](source:pathfinder_#58_island_of_empty_eyes)   ",
+			"**Type** injury; **Fortitude Save* DC 15   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** 1d3 Con and 1d3 Wis damage   ",
+			"**Cure** 2 consecutive saves",
+			"",
+			"A humanoid afflicted with Moxix's delectation must attempt a new Will save each day. If the humanoid fails, it attacks and attempts to eat the weakest humanoid nearby. If the save is successful, it resists. A humanoid who dies or is killed while afflicted rises as a ghast at the next midnight. The save DC is Charisma-based."
+		],
+		"display": "disease"
+	},
+	"red_ache": {
+		"name": "Red Ache",
+		"file": "diseases1e97.html",
+		"sources": [ "PRPG Core Rulebook" ],
+		"type": "injury",
+		"fortitude_save": "DC 15",
+		"onset": "1d3 days",
+		"frequency": "1/day",
+		"effect": "1d6 Str damage",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Red Ache",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 557](source:prpg_core_rulebook)   ",
+			"**Type** injury; **Fortitude Save* DC 15   ",
+			"**Onset** 1d3 days; **Frequency** 1/day   ",
+			"**Effect** 1d6 Str damage   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"spellscar_fever": {
+		"name": "Spellscar Fever",
+		"file": "diseases939f.html",
+		"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
+		"type": "ingested or inhaled",
+		"fortitude_save": "DC 15 (+1 per previous save)",
+		"onset": "2d6+1 days",
+		"frequency": "1/day",
+		"effect": "1d2 Con damage, 1d2 Cha drain",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Spellscar Fever",
+			"",
+			"**Source** [Pathfinder #119: Prisoners of the Blight pg. 63](source:pathfinder_#119_prisoners_of_the_blight)   ",
+			"**Type** ingested or inhaled; **Fortitude Save* DC 15 (+1 per previous save)   ",
+			"**Onset** 2d6+1 days; **Frequency** 1/day   ",
+			"**Effect** 1d2 Con damage, 1d2 Cha drain   ",
+			"**Cure** 2 consecutive saves",
+			"",
+			"**Ongoing Save** Fort DC equal to the save DC of the failed saving throw   ",
+			"Anyone who lives with spellscar fever for a week straight without dying becomes immune to the disease and to mana fever, but also becomes a Mana Waste mutant (Pathfinder Campaign Setting: Inner Sea Bestiary 28) or a mutant (Pathfinder RPG Bestiary 5 180), chosen by the GM. A Mana Waste mutant created in such a way can use the following Spellscar Fever Deformities table in place of a deformity from the Inner Sea Bestiary, while a mutant resulting from spellscar fever can take one effect from the same table in place of one deformity and one mutation."
+		],
+		"display": "disease"
+	},
+	"the_tainted_plague": {
+		"name": "The Tainted Plague",
+		"file": "diseasesbc84.html",
+		"sources": [ "Pathfinder Campaign Setting" ],
+		"type": "contact",
+		"fortitude_save": "DC 15 (see description)",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "1d6 Con and 1d6 Wis",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## The Tainted Plague",
+			"",
+			"**Source** [Pathfinder Campaign Setting pg. 149](source:pathfinder_campaign_setting)   ",
+			"**Type** contact; **Fortitude Save* DC 15 (see description)   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** 1d6 Con and 1d6 Wis   ",
+			"**Cure** 2 consecutive saves",
+			"",
+			"Even in the absence of ravening abyssal hordes, the Worldwound causes a supernatural disease called the tainted plague. Those exposed to the Worldwound or creatures native to it (including creatures already suffering ability damage from the disease) must make a DC 15 Fortitude save once per day or become infected. Those reduced to 0 Wisdom are driven mad by the mind-bending horrors they have witnessed. Those reduced to 0 Constitution perish, their bodies rotting from the inside out and dissolving within 24 hours into primordial chaos matter."
+		],
+		"display": "disease"
+	},
+	"blinding_sickness": {
+		"name": "Blinding Sickness",
+		"file": "diseasesae46.html",
+		"sources": [ "PRPG Core Rulebook" ],
+		"type": "ingested",
+		"fortitude_save": "DC 16",
+		"onset": "1d3 days",
+		"frequency": "1/day",
+		"effect": "1d4 Str damage, if more than 2 Str damage, target must make an additional Fort save or be permanently blinded",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Blinding Sickness",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 557](source:prpg_core_rulebook)   ",
+			"**Type** ingested; **Fortitude Save* DC 16   ",
+			"**Onset** 1d3 days; **Frequency** 1/day   ",
+			"**Effect** 1d4 Str damage, if more than 2 Str damage, target must make an additional Fort save or be permanently blinded   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"blood_veil": {
+		"name": "Blood Veil",
+		"file": "diseases0c53.html",
+		"sources": [
+			"Curse of the Crimson Throne",
+			"Pathfinder #8: Seven Days to the Grave"
+		],
+		"type": "contact or injury",
+		"fortitude_save": "DC 16 (the first time ethnically Varisian humanoids, including human, half-elves, and half-orcs with Varisian parentage, are exposed to blood veil, each such character has a flat 5% chance that she is immune to the disease)",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "1d4 Con damage and 1d4 Cha damage",
+		"cure": "&nbsp;",
+		"description": [
+			"## Blood Veil",
+			"",
+			"**Source** [Curse of the Crimson Throne pg. 431](source:curse_of_the_crimson_throne), [Pathfinder #8: Seven Days to the Grave pg. 9](source:pathfinder_#8_seven_days_to_the_grave)   ",
+			"**Type** contact or injury; **Fortitude Save* DC 16 (the first time ethnically Varisian humanoids, including human, half-elves, and half-orcs with Varisian parentage, are exposed to blood veil, each such character has a flat 5% chance that she is immune to the disease)   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** 1d4 Con damage and 1d4 Cha damage   ",
+			"**Cure**",
+			"",
+			"Blood veil takes its name from its most apparent symptoms: a rash and mask of blisters that cover the face. In its initial stages, the disease is characterized by headache, fatigue, coughing, and the aforementioned rash. As it progresses, the cough becomes more obtrusive; the rash spreads to the neck, face, and limbs and develops into poxlike blisters; and the lymph glands swell into painful buboes. At its most advanced stage, the blisters grow to the size of grapes or larger, internal bleeding creates black patches on the skin, and the victim expectorates blood. Ultimately, a bloody, wheezing death occurs. If left untreated, blood veil kills the average human in 7 days."
+		],
+		"display": "disease"
+	},
+	"bonechill": {
+		"name": "Bonechill",
+		"file": "diseases4621.html",
+		"sources": [ "Pathfinder #51: The Hungry Storm" ],
+		"type": "injury",
+		"fortitude_save": "DC 16",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "1d4 Dex damage and any nonlethal damage incurred from being in a cold environment becomes lethal damage (though it can still cause hypothermia)",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Bonechill",
+			"",
+			"**Source** [Pathfinder #51: The Hungry Storm pg. 67](source:pathfinder_#51_the_hungry_storm)   ",
+			"**Type** injury; **Fortitude Save* DC 16   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** 1d4 Dex damage and any nonlethal damage incurred from being in a cold environment becomes lethal damage (though it can still cause hypothermia)   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"boot_soup": {
+		"name": "Boot Soup",
+		"file": "diseases875b.html",
+		"sources": [ "Heart of the Jungle" ],
+		"type": "contact",
+		"fortitude_save": "DC 16",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "speed reduced by 5 feet and 1d3 Dex damage, creatures reduced to 0 feet are permanently paralyzed",
+		"cure": "2 consecutive saves, or completely skinning or burning the affected area (inflicting 1d8 points of damage)",
+		"description": [
+			"## Boot Soup",
+			"",
+			"**Source** [Heart of the Jungle pg. 7](source:heart_of_the_jungle)   ",
+			"**Type** contact; **Fortitude Save* DC 16   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** speed reduced by 5 feet and 1d3 Dex damage, creatures reduced to 0 feet are permanently paralyzed   ",
+			"**Cure** 2 consecutive saves, or completely skinning or burning the affected area (inflicting 1d8 points of damage)"
+		],
+		"display": "disease"
+	},
+	"cackle_fever": {
+		"name": "Cackle Fever",
+		"file": "diseases4ea2.html",
+		"sources": [ "PRPG Core Rulebook" ],
+		"type": "inhaled",
+		"fortitude_save": "DC 16",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "1d6 Wis damage",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Cackle Fever",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 557](source:prpg_core_rulebook)   ",
+			"**Type** inhaled; **Fortitude Save* DC 16   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** 1d6 Wis damage   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"dvezda_plague": {
+		"name": "Dvezda Plague",
+		"file": "diseasesd888.html",
+		"sources": [ "Pathfinder #69: Maiden, Mother, Crone" ],
+		"type": "ingested or inhaled",
+		"fortitude_save": "DC 16",
+		"onset": "1d4 days",
+		"frequency": "1/day",
+		"effect": "1d4 Con damage and 1 Dex damage",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Dvezda Plague",
+			"",
+			"**Source** [Pathfinder #69: Maiden, Mother, Crone pg. 71](source:pathfinder_#69_maiden,_mother,_crone)   ",
+			"**Type** ingested or inhaled; **Fortitude Save* DC 16   ",
+			"**Onset** 1d4 days; **Frequency** 1/day   ",
+			"**Effect** 1d4 Con damage and 1 Dex damage   ",
+			"**Cure** 2 consecutive saves",
+			"",
+			"Days after contracting the virus, the victim becomes stricken with a high fever and begins sweating profusely. Later, the victim begins suffering from extreme tremors, followed by a thinning of the blood and bleeding from the tear ducts, nose, ears, and other orifices."
+		],
+		"display": "disease"
+	},
+	"dysentary": {
+		"name": "Dysentary",
+		"file": "diseases81c5.html",
+		"sources": [ "Heart of the Jungle" ],
+		"type": "contact or injury",
+		"fortitude_save": "DC 16",
+		"onset": "1d3 days",
+		"frequency": "1/day",
+		"effect": "1d6 nonlethal damage and target is fatigued and staggered",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Dysentary",
+			"",
+			"**Source** [Heart of the Jungle pg. 7](source:heart_of_the_jungle)   ",
+			"**Type** contact or injury; **Fortitude Save* DC 16   ",
+			"**Onset** 1d3 days; **Frequency** 1/day   ",
+			"**Effect** 1d6 nonlethal damage and target is fatigued and staggered   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"pulsing_puffs": {
+		"name": "Pulsing Puffs",
+		"file": "diseases8ec0.html",
+		"sources": [ "Heart of the Jungle" ],
+		"type": "injury",
+		"fortitude_save": "DC 16",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "1d4 Dex damage",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Pulsing Puffs",
+			"",
+			"**Source** [Heart of the Jungle pg. 8](source:heart_of_the_jungle)   ",
+			"**Type** injury; **Fortitude Save* DC 16   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** 1d4 Dex damage   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"the_scales": {
+		"name": "The Scales",
+		"file": "diseases65e4.html",
+		"sources": [ "Lost Cities of Golarion" ],
+		"type": "contact or injury",
+		"fortitude_save": "DC 16",
+		"onset": "1d4 days",
+		"frequency": "1/2 days",
+		"effect": "1d2 Dex damage and 1d2 Cha damage",
+		"cure": "2 consecutive saves. Reptiles and creatures with the reptilian subtype receive a -2 penalty on saving throws and require 3 consecutive saves to recover.",
+		"description": [
+			"## The Scales",
+			"",
+			"**Source** [Lost Cities of Golarion pg. 8](source:lost_cities_of_golarion)   ",
+			"**Type** contact or injury; **Fortitude Save* DC 16   ",
+			"**Onset** 1d4 days; **Frequency** 1/2 days   ",
+			"**Effect** 1d2 Dex damage and 1d2 Cha damage   ",
+			"**Cure** 2 consecutive saves. Reptiles and creatures with the reptilian subtype receive a -2 penalty on saving throws and require 3 consecutive saves to recover."
+		],
+		"display": "disease"
+	},
+	"bubonic_plague": {
+		"name": "Bubonic Plague",
+		"file": "diseases6d51.html",
+		"sources": [ "PRPG Core Rulebook" ],
+		"type": "injury or inhaled",
+		"fortitude_save": "DC 17",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "1d4 Con damage and 1 Cha damage and target is fatigued",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Bubonic Plague",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 557](source:prpg_core_rulebook)   ",
+			"**Type** injury or inhaled; **Fortitude Save* DC 17   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** 1d4 Con damage and 1 Cha damage and target is fatigued   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"chillbane_fever": {
+		"name": "Chillbane Fever",
+		"file": "diseases7ca4.html",
+		"sources": [ "Irrisen - Land of Eternal Winter" ],
+		"type": "inhaled, injury",
+		"fortitude_save": "DC 17",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "1d4 Con damage and target is sickened and fatigued",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Chillbane Fever",
+			"",
+			"**Source** [Irrisen - Land of Eternal Winter pg. 48](source:irrisen_-_land_of_eternal_winter)   ",
+			"**Type** inhaled, injury; **Fortitude Save* DC 17   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** 1d4 Con damage and target is sickened and fatigued   ",
+			"**Cure** 2 consecutive saves",
+			"",
+			"Not to be confused with the far more potent earlier strain that swept across Bleakmarch during the reign of Queen Velikas, this infectious disease is characterized by the sufferer's constant shaking, as though he were unable to get warm. The khala dragon (see page 59) is one known carrier of the illness, though many other forms of exposure are possible."
+		],
+		"display": "disease"
+	},
+	"firegut": {
+		"name": "Firegut",
+		"file": "diseases3507.html",
+		"sources": [ "Heart of the Jungle" ],
+		"type": "injury or inhaled",
+		"fortitude_save": "DC 17",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "target is staggered",
+		"cure": "3 consecutive saves",
+		"description": [
+			"## Firegut",
+			"",
+			"**Source** [Heart of the Jungle pg. 7](source:heart_of_the_jungle)   ",
+			"**Type** injury or inhaled; **Fortitude Save* DC 17   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** target is staggered   ",
+			"**Cure** 3 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"demon_fever": {
+		"name": "Demon Fever",
+		"file": "diseases4afc.html",
+		"sources": [ "PRPG Core Rulebook" ],
+		"type": "injury",
+		"fortitude_save": "DC 18",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "1d6 Con damage, target must make a second Fort save or 1 point of the damage is drain instead",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Demon Fever",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 557](source:prpg_core_rulebook)   ",
+			"**Type** injury; **Fortitude Save* DC 18   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** 1d6 Con damage, target must make a second Fort save or 1 point of the damage is drain instead   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"demonplague": {
+		"name": "Demonplague",
+		"file": "diseases210a.html",
+		"sources": [ "The Worldwound" ],
+		"type": "injury or ingested",
+		"fortitude_save": "DC 18",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "1d3 Con damage and 1d6 Wis damage, and victim is fatigued if it takes any ability damage from the disease; certain creatures slain by demonplague rise as plagued beasts (see page 56)",
+		"cure": "3 consecutive saves",
+		"description": [
+			"## Demonplague",
+			"",
+			"**Source** [The Worldwound pg. 29](source:the_worldwound)   ",
+			"**Type** injury or ingested; **Fortitude Save* DC 18   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** 1d3 Con damage and 1d6 Wis damage, and victim is fatigued if it takes any ability damage from the disease; certain creatures slain by demonplague rise as plagued beasts (see page 56)   ",
+			"**Cure** 3 consecutive saves",
+			"",
+			"Of the afflictions wreaked upon Sarkoris by the Worldwound and Deskari's host, the demonplague is perhaps the most insidious. This vile sickness spreads through water, affecting plant and animal life alike. In higher creatures, the demonplague causes madness and then death, but in animals and other unintelligent beasts, it continues beyond death, animating them as undead horrors called plagued beasts. The plague also twists and corrupts plant life-most of the hazardous plants detailed below are the results of normal plants becoming corrupted by the demonplague."
+		],
+		"display": "disease"
+	},
+	"malaria_jungle_fever": {
+		"name": "Malaria (Jungle Fever)",
+		"file": "diseasese098.html",
+		"sources": [ "Heart of the Jungle" ],
+		"type": "injury",
+		"fortitude_save": "DC 18",
+		"onset": "1d3 days",
+		"frequency": "1/day",
+		"effect": "1d3 Str damage and 1d3 Con damage and target is fatigued",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Malaria (Jungle Fever)",
+			"",
+			"**Source** [Heart of the Jungle pg. 7](source:heart_of_the_jungle)   ",
+			"**Type** injury; **Fortitude Save* DC 18   ",
+			"**Onset** 1d3 days; **Frequency** 1/day   ",
+			"**Effect** 1d3 Str damage and 1d3 Con damage and target is fatigued   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"red_drip": {
+		"name": "Red Drip",
+		"file": "diseaseseb17.html",
+		"sources": [
+			"Undead Unleashed",
+			"Heart of the Jungle"
+		],
+		"type": "contact (fungus)",
+		"fortitude_save": "DC 18",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "1d4 Dex damage and 1d2 Cha damage",
+		"cure": "2 consecutive saves or amputation of infected limb",
+		"description": [
+			"## Red Drip",
+			"",
+			"**Source** [Undead Unleashed pg. 63](source:undead_unleashed), [Heart of the Jungle pg. 8](source:heart_of_the_jungle)   ",
+			"**Type** contact (fungus); **Fortitude Save* DC 18   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** 1d4 Dex damage and 1d2 Cha damage   ",
+			"**Cure** 2 consecutive saves or amputation of infected limb"
+		],
+		"display": "disease"
+	},
+	"ergia": {
+		"name": "Ergia",
+		"file": "diseases7cab.html",
+		"sources": [ "Pathfinder #51: The Hungry Storm" ],
+		"type": "contact",
+		"fortitude_save": "DC 20",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "1d4 Str damage and 1d4 Con damage, target must make a second Fort save or 1 point of the damage is drain instead, and a creature that has suffered ability drain glows blue as if limned with faerie fire",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Ergia",
+			"",
+			"**Source** [Pathfinder #51: The Hungry Storm pg. 67](source:pathfinder_#51_the_hungry_storm)   ",
+			"**Type** contact; **Fortitude Save* DC 20   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** 1d4 Str damage and 1d4 Con damage, target must make a second Fort save or 1 point of the damage is drain instead, and a creature that has suffered ability drain glows blue as if limned with faerie fire   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"scarlet_leprosy": {
+		"name": "Scarlet Leprosy",
+		"file": "diseases4147.html",
+		"sources": [ "Undead Unleashed" ],
+		"type": "contact",
+		"fortitude_save": "DC 20",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "1d6 Con damage and 1d6 Cha damage; whenever the character takes Con damage, 1 point is permanent drain",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Scarlet Leprosy",
+			"",
+			"**Source** [Undead Unleashed pg. 15](source:undead_unleashed)   ",
+			"**Type** contact; **Fortitude Save* DC 20   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** 1d6 Con damage and 1d6 Cha damage; whenever the character takes Con damage, 1 point is permanent drain   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"vorel's_phage": {
+		"name": "Vorel's Phage",
+		"file": "diseasesc93c.html",
+		"sources": [ "Pathfinder #2: The Skinsaw Murders" ],
+		"type": "contact or ingestion ",
+		"fortitude_save": "DC 20",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "1d4 Cha and 1d4 Con.",
+		"cure": "2 consecutive saves                                                                                 ",
+		"description": [
+			"## Vorel's Phage",
+			"",
+			"**Source** [Pathfinder #2: The Skinsaw Murders pg. 27](source:pathfinder_#2_the_skinsaw_murders)   ",
+			"**Type** contact or ingestion ; **Fortitude Save* DC 20   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** 1d4 Cha and 1d4 Con.   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"blightburn_sickness": {
+		"name": "Blightburn Sickness",
+		"file": "diseasesbd60.html",
+		"sources": [
+			"Undead Unleashed",
+			"Mythic Realms"
+		],
+		"type": "contact (see text)",
+		"fortitude_save": "DC 22",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "1d6 Con damage and 1d6 Cha damage; contact is automatic when a creature comes within a 60- foot radius of blightburn, and can be blocked only by lead sheeting, 1 foot of stone, or a force effect",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Blightburn Sickness",
+			"",
+			"**Source** [Undead Unleashed pg. 15](source:undead_unleashed), [Mythic Realms pg. 21](source:mythic_realms)   ",
+			"**Type** contact (see text); **Fortitude Save* DC 22   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** 1d6 Con damage and 1d6 Cha damage; contact is automatic when a creature comes within a 60- foot radius of blightburn, and can be blocked only by lead sheeting, 1 foot of stone, or a force effect   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	},
+	"crypt_fever": {
+		"name": "Crypt Fever",
+		"file": "diseases765b.html",
+		"sources": [ "Tomb of the Iron Medusa" ],
+		"type": "contact or inhaled",
+		"fortitude_save": "DC 22",
+		"onset": "1 minute",
+		"frequency": "1/day",
+		"effect": "1d6 Str damage, 1d6 Cha damage, and victim is exhausted",
+		"cure": "crypt fever can only be cured by successfully casting remove curse and remove disease within 1 minute of each other.",
+		"description": [
+			"## Crypt Fever",
+			"",
+			"**Source** [Tomb of the Iron Medusa pg. 13](source:tomb_of_the_iron_medusa)   ",
+			"**Type** contact or inhaled; **Fortitude Save* DC 22   ",
+			"**Onset** 1 minute; **Frequency** 1/day   ",
+			"**Effect** 1d6 Str damage, 1d6 Cha damage, and victim is exhausted   ",
+			"**Cure** crypt fever can only be cured by successfully casting remove curse and remove disease within 1 minute of each other."
+		],
+		"display": "disease"
+	},
+	"daemonic_wasting": {
+		"name": "Daemonic Wasting",
+		"file": "diseases662c.html",
+		"sources": [ "Pathfinder #54: The Empty Throne" ],
+		"type": "contact",
+		"fortitude_save": "DC 23",
+		"onset": "1 day",
+		"frequency": "1/day",
+		"effect": "1d4 Con damage and 1d4 Cha damage",
+		"cure": "2 consecutive saves",
+		"description": [
+			"## Daemonic Wasting",
+			"",
+			"**Source** [Pathfinder #54: The Empty Throne pg. 28](source:pathfinder_#54_the_empty_throne)   ",
+			"**Type** contact; **Fortitude Save* DC 23   ",
+			"**Onset** 1 day; **Frequency** 1/day   ",
+			"**Effect** 1d4 Con damage and 1d4 Cha damage   ",
+			"**Cure** 2 consecutive saves"
+		],
+		"display": "disease"
+	}
 }
