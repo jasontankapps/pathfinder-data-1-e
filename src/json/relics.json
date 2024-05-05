@@ -2,8 +2,8 @@
 	"description": [
 		"## Relics",
 		"",
-		"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 77](source:Pathfinder_#128:_Songbird,_Scion,_Saboteur)   ",
-		"Throughout the War for the Crown Adventure Path, PCs can find the following relics, organized below by the volume of the AP in which they appear. To use these relics in other campaigns, consult the information on PC level in parentheses. A relic's stat block details its base abilities followed by the powers the relic gains when it attains one or more triumphs. [Click here for the full rules on Relics.](rule:Relics)"
+		"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 77](source:pathfinder_#128_songbird,_scion,_saboteur)   ",
+		"Throughout the War for the Crown Adventure Path, PCs can find the following relics, organized below by the volume of the AP in which they appear. To use these relics in other campaigns, consult the information on PC level in parentheses. A relic's stat block details its base abilities followed by the powers the relic gains when it attains one or more triumphs. [Click here for the full rules on Relics.](rule:relics)"
 	],
 	"list": [
 		{
@@ -15,13 +15,13 @@
 			"description": [
 				"## Band of the Crusader's Alliance",
 				"",
-				"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source:Pathfinder_#128:_Songbird,_Scion,_Saboteur)   ",
+				"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source:pathfinder_#128_songbird,_scion,_saboteur)   ",
 				"**Introduced In** Pathfinder #130: City in the Lion's Eye; **Suitable For** PCs of 10th-12th level   ",
 				"**Aura** strong abjuration   ",
 				"**Slot** ring; **CL** 11th   ",
 				"**Weight** &mdash;",
 				"",
-				"Stylistic flourishes and a stout design suggest dwarves had a hand in forging this thick ring. The precise engineering of the small moving parts shows the fine artistry that went into creating the item. The ring features two carved symbols that flank a faceted onyx: one resembles the flag of Taldor, and the other depicts the eye of [Aroden](faith:Aroden).",
+				"Stylistic flourishes and a stout design suggest dwarves had a hand in forging this thick ring. The precise engineering of the small moving parts shows the fine artistry that went into creating the item. The ring features two carved symbols that flank a faceted onyx: one resembles the flag of Taldor, and the other depicts the eye of [Aroden](faith:aroden).",
 				"",
 				"Each of these three elements can be activated once per day to use a certain spell: the Taldan flag for [hold person](spell:hold_person) (DC = 13 + 1 per additional triumph attained), the eye of Aroden for [prayer](spell:prayer), and the onyx for [stone shape](spell:stone_shape).",
 				"",
@@ -41,7 +41,7 @@
 			"description": [
 				"## Belt of the Last Wall",
 				"",
-				"**Source** [Pathfinder #141: Last Watch](source:Pathfinder_#141:_Last_Watch)   ",
+				"**Source** [Pathfinder #141: Last Watch](source:pathfinder_#141_last_watch)   ",
 				"**Introduced In**    ",
 				"**Aura** strong abjuration and necromancy [lawful]   ",
 				"**Slot** belt; **CL** 13th   ",
@@ -67,7 +67,7 @@
 			"description": [
 				"## Dignity's Barb",
 				"",
-				"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source:Pathfinder_#128:_Songbird,_Scion,_Saboteur)   ",
+				"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source:pathfinder_#128_songbird,_scion,_saboteur)   ",
 				"**Introduced In** Pathfinder #127: Crownfall; **Suitable For** PCs of 1st-3rd level   ",
 				"**Aura** strong divination   ",
 				"**Slot** none; **CL** 12th   ",
@@ -97,7 +97,7 @@
 			"description": [
 				"## Envoy Ring",
 				"",
-				"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source:Pathfinder_#128:_Songbird,_Scion,_Saboteur)   ",
+				"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source:pathfinder_#128_songbird,_scion,_saboteur)   ",
 				"**Introduced In** Pathfinder #127: Crownfall; **Suitable For** PCs of 1st-3rd level   ",
 				"**Aura** moderate enchantment   ",
 				"**Slot** ring; **CL** 11th   ",
@@ -127,7 +127,7 @@
 			"description": [
 				"## Grace of the Last Azlanti",
 				"",
-				"**Source** [Pathfinder #141: Last Watch](source:Pathfinder_#141:_Last_Watch)   ",
+				"**Source** [Pathfinder #141: Last Watch](source:pathfinder_#141_last_watch)   ",
 				"**Introduced In**    ",
 				"**Aura** strong abjuration   ",
 				"**Slot** neck; **CL** 13th   ",
@@ -135,13 +135,13 @@
 				"",
 				"This illustrious pendant, forged from Elysian bronze, bears the likeness of a single closed and winged eye. The pendant is encrusted with hundreds of valuable gemstones that seem to twinkle even in the absence of light.",
 				"",
-				"Tethered to a simple leather cord, this Elysian bronze pendant resembles the holy symbol of [Aroden](faith:Aroden), save that it bears the likeness of a closed eye surrounded by a halo of precious gems. In addition to functioning as a holy symbol of Aroden, the Grace of the Last Azlanti is imbued with the very essence of the human spirit. Once per day, the wearer can speak a command word to gain one of the following feats as a bonus feat for 1 hour: [Great Fortitude](feat:Great_Fortitude), [Iron Will](feat:Iron_Will), [Lightning Reflexes](feat:Lightning_Reflexes), or [Skill Focus](feat:Skill_Focus). If the wearer already has [Great Fortitude](feat:Great_Fortitude), [Iron Will](feat:Iron_Will), or [Lightning Reflexes](feat:Lightning_Reflexes), she can instead gain the improved version of that feat. If the wearer already has the improved version of one of these feats, she can instead spend one daily use of the Grace of the Last Azlanti to regain her daily use of that feat.",
+				"Tethered to a simple leather cord, this Elysian bronze pendant resembles the holy symbol of [Aroden](faith:aroden), save that it bears the likeness of a closed eye surrounded by a halo of precious gems. In addition to functioning as a holy symbol of Aroden, the Grace of the Last Azlanti is imbued with the very essence of the human spirit. Once per day, the wearer can speak a command word to gain one of the following feats as a bonus feat for 1 hour: [Great Fortitude](feat:great_fortitude), [Iron Will](feat:iron_will), [Lightning Reflexes](feat:lightning_reflexes), or [Skill Focus](feat:skill_focus). If the wearer already has [Great Fortitude](feat:great_fortitude), [Iron Will](feat:iron_will), or [Lightning Reflexes](feat:lightning_reflexes), she can instead gain the improved version of that feat. If the wearer already has the improved version of one of these feats, she can instead spend one daily use of the Grace of the Last Azlanti to regain her daily use of that feat.",
 				"",
 				"### Worthiness",
 				"",
-				"**Task** To be worthy of this relic, you must accomplish an incredible deed with the express purpose of defending humanity from enslavement, harm, or a similar threat. For example, defeating a lieutenant of the [Whispering Tyrant](monster:Whispering_Tyrant) whose CR is equal to or greater than your level + 3 is an appropriate task. You are not worthy of this relic if you complete this task by orchestrating events that lead to this situation, as determined by the GM.",
+				"**Task** To be worthy of this relic, you must accomplish an incredible deed with the express purpose of defending humanity from enslavement, harm, or a similar threat. For example, defeating a lieutenant of the [Whispering Tyrant](monster:whispering_tyrant) whose CR is equal to or greater than your level + 3 is an appropriate task. You are not worthy of this relic if you complete this task by orchestrating events that lead to this situation, as determined by the GM.",
 				"",
-				"**Benefit** The wearer can activate the amulet three times per day. She can activate the amulet before the duration expires to replace the previously selected feat with another choice. In addition, the wearer can select from more feats when using this ability, adding [Expanded Arcana](feat:Expanded_Arcana) to the list as well as all feats with \"Extra\" in their name-such as [Extra Channel](feat:Extra_Channel), [Extra Rage Power](feat:Extra_Rage_Power), [Extra Rogue Talent](feat:Extra_Rogue_Talent), and so on- that list as a prerequisite a class feature the wearer has. When conveying the benefits of a feat with \"Extra\" in its name, the duration of the amulet's effect is only 10 minutes."
+				"**Benefit** The wearer can activate the amulet three times per day. She can activate the amulet before the duration expires to replace the previously selected feat with another choice. In addition, the wearer can select from more feats when using this ability, adding [Expanded Arcana](feat:expanded_arcana) to the list as well as all feats with \"Extra\" in their name-such as [Extra Channel](feat:extra_channel), [Extra Rage Power](feat:extra_rage_power), [Extra Rogue Talent](feat:extra_rogue_talent), and so on- that list as a prerequisite a class feature the wearer has. When conveying the benefits of a feat with \"Extra\" in its name, the duration of the amulet's effect is only 10 minutes."
 			]
 		},
 		{
@@ -153,7 +153,7 @@
 			"description": [
 				"## Jalnesin's Broken Bonds",
 				"",
-				"**Source** [Pathfinder #141: Last Watch](source:Pathfinder_#141:_Last_Watch)   ",
+				"**Source** [Pathfinder #141: Last Watch](source:pathfinder_#141_last_watch)   ",
 				"**Introduced In**    ",
 				"**Aura** faint transmutation   ",
 				"**Slot** none; **CL** 5th   ",
@@ -179,7 +179,7 @@
 			"description": [
 				"## Koriana's Blade",
 				"",
-				"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source:Pathfinder_#128:_Songbird,_Scion,_Saboteur)   ",
+				"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source:pathfinder_#128_songbird,_scion,_saboteur)   ",
 				"**Introduced In** Pathfinder #128: Songbird, Scion, Saboteur; **Suitable For** PCs of 4th-6th level   ",
 				"**Aura** strong abjuration   ",
 				"**Slot** none; **CL** 17th   ",
@@ -209,7 +209,7 @@
 			"description": [
 				"## Lance of the Leaping Lion",
 				"",
-				"**Source** [Pathfinder #141: Last Watch](source:Pathfinder_#141:_Last_Watch)   ",
+				"**Source** [Pathfinder #141: Last Watch](source:pathfinder_#141_last_watch)   ",
 				"**Introduced In**    ",
 				"**Aura** strong evocation   ",
 				"**Slot** none; **CL** 15th   ",
@@ -235,7 +235,7 @@
 			"description": [
 				"## Ovetrian's Plate",
 				"",
-				"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source:Pathfinder_#128:_Songbird,_Scion,_Saboteur)   ",
+				"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source:pathfinder_#128_songbird,_scion,_saboteur)   ",
 				"**Introduced In** Pathfinder #130: City in the Lion's Eye; **Suitable For** PCs of 10th-12th level   ",
 				"**Aura** strong enchantment   ",
 				"**Slot** armor; **CL** 15th   ",
@@ -259,7 +259,7 @@
 			"description": [
 				"## Scion's Dagger",
 				"",
-				"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source:Pathfinder_#128:_Songbird,_Scion,_Saboteur)   ",
+				"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source:pathfinder_#128_songbird,_scion,_saboteur)   ",
 				"**Introduced In** Pathfinder #129: The Twilight Child; **Suitable For** PCs of 7th-9th level   ",
 				"**Aura** strong necromancy   ",
 				"**Slot** none; **CL** 17th   ",
@@ -287,7 +287,7 @@
 			"description": [
 				"## Standard of Conquest",
 				"",
-				"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source:Pathfinder_#128:_Songbird,_Scion,_Saboteur)   ",
+				"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source:pathfinder_#128_songbird,_scion,_saboteur)   ",
 				"**Introduced In** Pathfinder #129: The Twilight Child; **Suitable For** PCs of 7th-9th level   ",
 				"**Aura** strong transmutation   ",
 				"**Slot** none; **CL** 15th   ",
@@ -315,7 +315,7 @@
 			"description": [
 				"## Subtle Mask",
 				"",
-				"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source:Pathfinder_#128:_Songbird,_Scion,_Saboteur)   ",
+				"**Source** [Pathfinder #128: Songbird, Scion, Saboteur](source:pathfinder_#128_songbird,_scion,_saboteur)   ",
 				"**Introduced In** Pathfinder #128: Songbird, Scion, Saboteur; **Suitable For** PCs of 4th-6th level   ",
 				"**Aura** moderate divination   ",
 				"**Slot** head; **CL** 11th   ",
@@ -343,7 +343,7 @@
 			"description": [
 				"## Taldaris's Bequeathal",
 				"",
-				"**Source** [Pathfinder #141: Last Watch](source:Pathfinder_#141:_Last_Watch)   ",
+				"**Source** [Pathfinder #141: Last Watch](source:pathfinder_#141_last_watch)   ",
 				"**Introduced In**    ",
 				"**Aura** moderate evocation   ",
 				"**Slot** armor; **CL** 9th   ",
@@ -355,7 +355,7 @@
 				"",
 				"### Worthiness",
 				"",
-				"**Task** To be worthy of this relic, you must earn [Iomedae's](faith:Iomedae) blessing by performing a miraculous act of heroic righteousness worthy of inclusion among the Acts of Iomedae, as determined by the GM, and you must perform this act while wearing the relic.",
+				"**Task** To be worthy of this relic, you must earn [Iomedae's](faith:iomedae) blessing by performing a miraculous act of heroic righteousness worthy of inclusion among the Acts of Iomedae, as determined by the GM, and you must perform this act while wearing the relic.",
 				"",
 				"**Benefit** The armor's enhancement bonus increases to +3, it gains the [determination](magic/armor:determination) armor special ability, and it gains the [defiant](magic/armor:defiant) armor special ability against evil dragons, evil outsiders, and evil undead. In addition, the number of points in the relic's reservoir increases to 3, and the wearer can spend 1 point as a standard action to transform into a [dire lion](monster:dire_lion), as [beast shape II](spell:beast_shape_2). This is a spell-like ability that uses the armor's caster level."
 			]

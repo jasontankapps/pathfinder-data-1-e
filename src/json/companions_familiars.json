@@ -18,7 +18,7 @@
 			"description": [
 				"## Animal Companion",
 				"",
-				"**Description Source:** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Description Source:** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"An animal companion's abilities are determined by the druid's level and its animal racial traits. They remain creatures of the animal type for purposes of determining which spells can affect them.",
 				"",
@@ -63,7 +63,7 @@
 				"",
 				"**Str/Dex Bonus:** Add this modifier to the animal companion's Strength and Dexterity scores.",
 				"",
-				"**Bonus Tricks:** The value given in this column is the total number of \"bonus\" tricks that the animal knows in addition to any that the druid might choose to teach it (see [Handle Animal](skill:Handle_Animal)). These bonus tricks don't require any training time or Handle Animal checks, and they don't count against the normal limit of tricks known by the animal. The druid selects these bonus tricks, and once selected, they can't be changed.",
+				"**Bonus Tricks:** The value given in this column is the total number of \"bonus\" tricks that the animal knows in addition to any that the druid might choose to teach it (see [Handle Animal](skill:handle_animal)). These bonus tricks don't require any training time or Handle Animal checks, and they don't count against the normal limit of tricks known by the animal. The druid selects these bonus tricks, and once selected, they can't be changed.",
 				"",
 				"**Special:** This includes a number of abilities gained by animal companions as they increase in power. Each of these bonuses is described below.",
 				"",
@@ -81,7 +81,7 @@
 				"",
 				"**Animal Feats**",
 				"",
-				"Animal companions can select from the following feats: [Acrobatic](feat:Acrobatic), [Agile Maneuvers](feat:Agile_Maneuvers), [Armor Proficiency, Heavy](feat:Armor_Proficiency,_Heavy), [Armor Proficiency, Light](feat:Armor_Proficiency,_Light), [Armor Proficiency, Medium](feat:Armor_Proficiency,_Medium), [Athletic](feat:Athletic), [Blind-Fight](feat:Blind-Fight), [Combat Reflexes](feat:Combat_Reflexes), [Devotion against the Unnatural](feat:Devotion_against_the_Unnatural), [Diehard](feat:Diehard), [Disruptive Companion](feat:Disruptive_Companion), [Dodge](feat:Dodge), [Endurance](feat:Endurance), [Feral Grace](feat:Feral_Grace), [Ferocious Beast](feat:Ferocious_Beast), [Ferocious Feint](feat:Ferocious_Feint), [Friendly Face](feat:Friendly_Face), [Great Fortitude](feat:Great_Fortitude), [Greater Tenacious Hunter](feat:Greater_Tenacious_Hunter), [Hefty Brute](feat:Hefty_Brute), [Improved Bull Rush](feat:Improved_Bull_Rush), [Improved Initiative](feat:Improved_Initiative), [Improved Intercept Blow](feat:Improved_Intercept_Blow), [Improved Natural Armor](feat:Improved_Natural_Armor), [Improved Natural Attack](feat:Improved_Natural_Attack), [Improved Overrun](feat:Improved_Overrun), [Intercept Blow](feat:Intercept_Blow), [Intimidating Prowess](feat:Intimidating_Prowess), [Iron Will](feat:Iron_Will), [Lightning Reflexes](feat:Lightning_Reflexes), [Linnorm Hunter Coordination](feat:Linnorm_Hunter_Coordination), [Linnorm Hunter Retreat](feat:Linnorm_Hunter_Retreat), [Linnorm Hunter Style](feat:Linnorm_Hunter_Style), [Mobility](feat:Mobility), [Power Attack](feat:Power_Attack), [Reflexive Interception](feat:Reflexive_Interception), [Run](feat:Run), [Share Feature](feat:Share_Feature), [Skill Focus](feat:Skill_Focus), [Spring Attack](feat:Spring_Attack), [Stealthy](feat:Stealthy), [Tenacious Hunter](feat:Tenacious_Hunter), [Toughness](feat:Toughness), [Weapon Focus](feat:Weapon_Focus). Animal companions with an Intelligence of 3 or higher can select any feat they are physically capable of using. GMs might expand this list to include feats from other sources."
+				"Animal companions can select from the following feats: [Acrobatic](feat:acrobatic), [Agile Maneuvers](feat:agile_maneuvers), [Armor Proficiency, Heavy](feat:armor_proficiency,_heavy), [Armor Proficiency, Light](feat:armor_proficiency,_light), [Armor Proficiency, Medium](feat:armor_proficiency,_medium), [Athletic](feat:athletic), [Blind-Fight](feat:blind-fight), [Combat Reflexes](feat:combat_reflexes), [Devotion against the Unnatural](feat:devotion_against_the_unnatural), [Diehard](feat:diehard), [Disruptive Companion](feat:disruptive_companion), [Dodge](feat:dodge), [Endurance](feat:endurance), [Feral Grace](feat:feral_grace), [Ferocious Beast](feat:ferocious_beast), [Ferocious Feint](feat:ferocious_feint), [Friendly Face](feat:friendly_face), [Great Fortitude](feat:great_fortitude), [Greater Tenacious Hunter](feat:greater_tenacious_hunter), [Hefty Brute](feat:hefty_brute), [Improved Bull Rush](feat:improved_bull_rush), [Improved Initiative](feat:improved_initiative), [Improved Intercept Blow](feat:improved_intercept_blow), [Improved Natural Armor](feat:improved_natural_armor), [Improved Natural Attack](feat:improved_natural_attack), [Improved Overrun](feat:improved_overrun), [Intercept Blow](feat:intercept_blow), [Intimidating Prowess](feat:intimidating_prowess), [Iron Will](feat:iron_will), [Lightning Reflexes](feat:lightning_reflexes), [Linnorm Hunter Coordination](feat:linnorm_hunter_coordination), [Linnorm Hunter Retreat](feat:linnorm_hunter_retreat), [Linnorm Hunter Style](feat:linnorm_hunter_style), [Mobility](feat:mobility), [Power Attack](feat:power_attack), [Reflexive Interception](feat:reflexive_interception), [Run](feat:run), [Share Feature](feat:share_feature), [Skill Focus](feat:skill_focus), [Spring Attack](feat:spring_attack), [Stealthy](feat:stealthy), [Tenacious Hunter](feat:tenacious_hunter), [Toughness](feat:toughness), [Weapon Focus](feat:weapon_focus). Animal companions with an Intelligence of 3 or higher can select any feat they are physically capable of using. GMs might expand this list to include feats from other sources."
 			]
 		},
 		{
@@ -91,7 +91,7 @@
 			"description": [
 				"## Drake",
 				"",
-				"**Description Source:** [Legacy of Dragons](source:Legacy_of_Dragons)",
+				"**Description Source:** [Legacy of Dragons](source:legacy_of_dragons)",
 				"",
 				"A drake can be a powerful ally to one who understands how to deal with its surly and obstinate attitude. Such a character is called the drake's \"charge\" as drakes refuse to refer to another being as their master. While drake companions enjoy accumulating hoards of shiny treasure, they adamantly refuse to wear barding, armor, or clothing items of any kind (belts, boots, and so on); they can wear magical jewelry such as amulets or rings but will agree to wear only one such item. Drake companions are not animal companions and don't count as animal companions for any purpose, including Handle Animal checks and tricks. Additionally, they are fairly lazy, and successful Diplomacy or Intimidate checks are needed to convince them to fatigue themselves or take major risks to their lives. Without the mount drake power, a drake companion actively refuses to suffer a rider and fights a rider it has not agreed to every step of the way, even if that rider is its charge. Drake companions are extreme oddities among drakes and irreplaceable to their charges, as it takes years to win a drake's trust. As such, should a drake companion die, her charge doesn't gain a replacement drake companion and must restore the companion from the dead. At the GM's discretion, a charge who lost his drake might be able to bond with a new drake after going on a quest to find another special drake and spending several years bonding with the new drake.",
 				"",
@@ -201,7 +201,7 @@
 			"description": [
 				"## Eidolon",
 				"",
-				"**Description Source:** [Advanced Player's Guide](source:Advanced_Player's_Guide)",
+				"**Description Source:** [Advanced Player's Guide](source:advanced_player's_guide)",
 				"",
 				"An eidolon's abilities are determined by the summoner's level and by the choices made using its evolution pool. Each eidolon possesses a base form that modifies these base statistics. Eidolons are outsiders for the purpose of determining which spells affect them.",
 				"",
@@ -280,7 +280,7 @@
 			"description": [
 				"## Unchained Eidolon",
 				"",
-				"**Description Source:** [Pathfinder Unchained](source:Pathfinder_Unchained)",
+				"**Description Source:** [Pathfinder Unchained](source:pathfinder_unchained)",
 				"",
 				"An eidolon's abilities are determined by the summoner's level and by the choices made using its evolution pool. Each eidolon possesses a base form that modifies these base statistics. Eidolons are outsiders for the purpose of determining which spells affect them.",
 				"",
@@ -378,7 +378,7 @@
 			"description": [
 				"## Familiar",
 				"",
-				"**Description Source:** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Description Source:** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"A familiar is an animal chosen by a spellcaster to aid him in his study of magic. It retains the appearance, Hit Dice, base attack bonus, base save bonuses, skills, and feats of the normal animal it once was, but is now a magical beast for the purpose of effects that depend on its type. Only a normal, unmodified animal may become a familiar. An animal companion cannot also function as a familiar.",
 				"",
@@ -451,7 +451,7 @@
 			"description": [
 				"## Phantom",
 				"",
-				"**Description Source:** [Occult Adventures](source:Occult_Adventures)",
+				"**Description Source:** [Occult Adventures](source:occult_adventures)",
 				"",
 				"A phantom's abilities are determined by the spiritualist's level and the choice of manifestations the spiritualist makes when she performs the manifestation ritual. Each phantom possesses an emotional focus that modifies these base statistics and abilities. Phantoms are considered outsiders for the purpose of determining which spells affect them.",
 				"",

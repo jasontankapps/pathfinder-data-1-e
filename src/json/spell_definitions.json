@@ -8,7 +8,7 @@
 			"description": [
 				"## Abjuration (school of magic)",
 				"",
-				"**Source** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"Abjurations are protective spells. They create physical or magical barriers, negate magical or physical abilities, harm trespassers, or even banish the subject of the spell to another plane of existence.",
 				"",
@@ -25,7 +25,7 @@
 			"description": [
 				"## Conjuration (school of magic)",
 				"",
-				"**Source** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"Each conjuration spell belongs to one of five subschools. Conjurations transport creatures from another plane of existence to your plane (calling); create objects or effects on the spot (creation); heal (healing); bring manifestations of objects, creatures, or forms of energy to you (summoning); or transport creatures or objects over great distances (teleportation). Creatures you conjure usually-but not always-obey your commands.",
 				"",
@@ -42,7 +42,7 @@
 			"description": [
 				"## Divination (school of magic)",
 				"",
-				"**Source** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"Divination spells enable you to learn secrets long forgotten, predict the future, find hidden things, and foil deceptive spells.",
 				"",
@@ -57,7 +57,7 @@
 			"description": [
 				"## Enchantment (school of magic)",
 				"",
-				"**Source** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"Enchantment spells affect the minds of others, influencing or controlling their behavior. All enchantments are mind-affecting spells. Two subschools of enchantment spells grant you influence over a subject creature."
 			]
@@ -70,7 +70,7 @@
 			"description": [
 				"## Evocation (school of magic)",
 				"",
-				"**Source** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"Evocation spells manipulate magical energy or tap an unseen source of power to produce a desired end. In effect, an evocation draws upon magic to create something out of nothing. Many of these spells produce spectacular effects, and evocation spells can deal large amounts of damage."
 			]
@@ -83,7 +83,7 @@
 			"description": [
 				"## Illusion (school of magic)",
 				"",
-				"**Source** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"Illusion spells deceive the senses or minds of others. They cause people to see things that are not there, not see things that are there, hear phantom noises, or remember things that never happened."
 			]
@@ -96,7 +96,7 @@
 			"description": [
 				"## Necromancy (school of magic)",
 				"",
-				"**Source** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"Necromancy spells manipulate the power of death, unlife, and the life force. Spells involving undead creatures make up a large part of this school."
 			]
@@ -109,7 +109,7 @@
 			"description": [
 				"## Transmutation (school of magic)",
 				"",
-				"**Source** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"Transmutation spells change the properties of some creature, thing, or condition."
 			]
@@ -122,7 +122,7 @@
 			"description": [
 				"## Universal (school of magic)",
 				"",
-				"**Source** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"A small number of spells (arcane mark, limited wish, permanency, prestidigitation, and wish) are universal, belonging to no school."
 			]
@@ -135,11 +135,11 @@
 			"description": [
 				"## Calling (subschool of magic)",
 				"",
-				"**Source** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"A calling spell transports a creature from another plane to the plane you are on. The spell grants the creature the one-time ability to return to its plane of origin, although the spell may limit the circumstances under which this is possible. Creatures who are called actually die when they are killed; they do not disappear and reform, as do those brought by a summoning spell (see below). The duration of a calling spell is instantaneous, which means that the called creature can't be dispelled.",
 				"",
-				"Calling is a subschool of [Conjuration](spell/definition:Conjuration)."
+				"Calling is a subschool of [Conjuration](spell/definition:conjuration)."
 			]
 		},
 		{
@@ -150,11 +150,11 @@
 			"description": [
 				"## Charm (subschool of magic)",
 				"",
-				"**Source** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"A charm spell changes how the subject views you, typically making it see you as a good friend.",
 				"",
-				"Charm is a subschool of [Enchantment](spell/definition:Enchantment)."
+				"Charm is a subschool of [Enchantment](spell/definition:enchantment)."
 			]
 		},
 		{
@@ -165,11 +165,11 @@
 			"description": [
 				"## Compulsion (subschool of magic)",
 				"",
-				"**Source** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"A compulsion spell forces the subject to act in some manner or changes the way its mind works. Some compulsion spells determine the subject's actions or the effects on the subject, others allow you to determine the subject's actions when you cast the spell, and still others give you ongoing control over the subject.",
 				"",
-				"Compulsion is a subschool of [Enchantment](spell/definition:Enchantment)."
+				"Compulsion is a subschool of [Enchantment](spell/definition:enchantment)."
 			]
 		},
 		{
@@ -180,11 +180,11 @@
 			"description": [
 				"## Creation (subschool of magic)",
 				"",
-				"**Source** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"A creation spell manipulates matter to create an object or creature in the place the spellcaster designates. If the spell has a duration other than instantaneous, magic holds the creation together, and when the spell ends, the conjured creature or object vanishes without a trace. If the spell has an instantaneous duration, the created object or creature is merely assembled through magic. It lasts indefinitely and does not depend on magic for its existence.",
 				"",
-				"Creation is a subschool of [Conjuration](spell/definition:Conjuration)."
+				"Creation is a subschool of [Conjuration](spell/definition:conjuration)."
 			]
 		},
 		{
@@ -195,7 +195,7 @@
 			"description": [
 				"## Figment (subschool of magic)",
 				"",
-				"**Source** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"A figment spell creates a false sensation. Those who perceive the figment perceive the same thing, not their own slightly different versions of the figment. It is not a personalized mental impression. Figments cannot make something seem to be something else. A figment that includes audible effects cannot duplicate intelligible speech unless the spell description specifically says it can. If intelligible speech is possible, it must be in a language you can speak. If you try to duplicate a language you cannot speak, the figment produces gibberish. Likewise, you cannot make a visual copy of something unless you know what it looks like (or copy another sense exactly unless you have experienced it).",
 				"",
@@ -203,7 +203,7 @@
 				"",
 				"A figment's AC is equal to 10 + its size modifier.",
 				"",
-				"Figment is a subschool of [Illusion](spell/definition:Illusion)."
+				"Figment is a subschool of [Illusion](spell/definition:illusion)."
 			]
 		},
 		{
@@ -214,11 +214,11 @@
 			"description": [
 				"## Glamer (subschool of magic)",
 				"",
-				"**Source** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"A glamer spell changes a subject's sensory qualities, making it look, feel, taste, smell, or sound like something else, or even seem to disappear.",
 				"",
-				"Glamer is a subschool of [Illusion](spell/definition:Illusion)."
+				"Glamer is a subschool of [Illusion](spell/definition:illusion)."
 			]
 		},
 		{
@@ -229,7 +229,7 @@
 			"description": [
 				"## Haunted (subschool of magic)",
 				"",
-				"**Source** [Haunted Heroes Handbook](source:Haunted_Heroes_Handbook)",
+				"**Source** [Haunted Heroes Handbook](source:haunted_heroes_handbook)",
 				"",
 				"These spells manipulate the lingering spiritual energy suffusing an area or surrounding an object into semi-autonomous magical effects. Haunted spells function like regular spells, but those with ongoing durations can be neutralized as though they were haunts as they take effect. The statistics for each spell's haunt-like manifestation are listed at the end of the spell's other statistics.",
 				"",
@@ -239,7 +239,7 @@
 				"",
 				"Haunted spells don't have histories like regular haunts do, so effects that reveal such information merely expose that the haunted spell is a magical effect. Efforts to communicate with haunted spells using [talking boards](equipment/misc:talking_boards), the spells [call spirit](spell:call_spirit) and [speak with haunt](spell:speak_with_haunt), or similar methods automatically fail.",
 				"",
-				"Haunted is a subschool of [Necromancy](spell/definition:Necromancy)."
+				"Haunted is a subschool of [Necromancy](spell/definition:necromancy)."
 			]
 		},
 		{
@@ -250,11 +250,11 @@
 			"description": [
 				"## Healing (subschool of magic)",
 				"",
-				"**Source** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"Certain divine conjurations heal creatures or even bring them back to life.",
 				"",
-				"Healing is a subschool of [Conjuration](spell/definition:Conjuration)."
+				"Healing is a subschool of [Conjuration](spell/definition:conjuration)."
 			]
 		},
 		{
@@ -265,11 +265,11 @@
 			"description": [
 				"## Pattern (subschool of magic)",
 				"",
-				"**Source** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"Like a figment, a pattern spell creates an image that others can see, but a pattern also affects the minds of those who see it or are caught in it. All patterns are mind-affecting spells.",
 				"",
-				"Pattern is a subschool of [Illusion](spell/definition:Illusion)."
+				"Pattern is a subschool of [Illusion](spell/definition:illusion)."
 			]
 		},
 		{
@@ -280,11 +280,11 @@
 			"description": [
 				"## Phantasm (subschool of magic)",
 				"",
-				"**Source** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"A phantasm spell creates a mental image that usually only the caster and the subject (or subjects) of the spell can perceive. This impression is totally in the minds of the subjects. It is a personalized mental impression, all in their heads and not a fake picture or something that they actually see. Third parties viewing or studying the scene don't notice the phantasm. All phantasms are mind-affecting spells.",
 				"",
-				"Phantasm is a subschool of [Illusion](spell/definition:Illusion)."
+				"Phantasm is a subschool of [Illusion](spell/definition:illusion)."
 			]
 		},
 		{
@@ -295,7 +295,7 @@
 			"description": [
 				"## Polymorph (subschool of magic)",
 				"",
-				"**Source** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"A polymorph spell transforms your physical body to take on the shape of another creature. While these spells make you appear to be the creature, granting you a +10 bonus on Disguise skill checks, they do not grant you all of the abilities and powers of the creature. Each polymorph spell allows you to assume the form of a creature of a specific type, granting you a number of bonuses to your ability scores and a bonus to your natural armor. In addition, each polymorph spell can grant you a number of other benefits, including movement types, resistances, and senses. If the form you choose grants these benefits, or a greater ability of the same type, you gain the listed benefit. If the form grants a lesser ability of the same type, you gain the lesser ability instead. Your base speed changes to match that of the form you assume. If the form grants a swim or burrow speed, you maintain the ability to breathe if you are swimming or burrowing. The DC for any of these abilities equals your DC for the polymorph spell used to change you into that form.",
 				"",
@@ -323,7 +323,7 @@
 				"| Gargantuan | -12 | +4 | -6 | Medium |",
 				"| Colossal | -16 | +4 | -8 | Medium |",
 				"",
-				"Polymorph is a subschool of [Transmutation](spell/definition:Transmutation)."
+				"Polymorph is a subschool of [Transmutation](spell/definition:transmutation)."
 			]
 		},
 		{
@@ -334,7 +334,7 @@
 			"description": [
 				"## Scrying (subschool of magic)",
 				"",
-				"**Source** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"A scrying spell creates an invisible magical sensor that sends you information. Unless noted otherwise, the sensor has the same powers of sensory acuity that you possess. This level of acuity includes any spells or effects that target you, but not spells or effects that emanate from you. The sensor, however, is treated as a separate, independent sensory organ of yours, and thus functions normally even if you have been blinded or deafened, or otherwise suffered sensory impairment.",
 				"",
@@ -342,7 +342,7 @@
 				"",
 				"Lead sheeting or magical protection blocks a scrying spell, and you sense that the spell is blocked.",
 				"",
-				"Scrying is a subschool of [Divination](spell/definition:Divination)."
+				"Scrying is a subschool of [Divination](spell/definition:divination)."
 			]
 		},
 		{
@@ -353,11 +353,11 @@
 			"description": [
 				"## Shadow (subschool of magic)",
 				"",
-				"**Source** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"A shadow spell creates something that is partially real from extradimensional energy. Such illusions can have real effects. Damage dealt by a shadow illusion is real.",
 				"",
-				"Shadow is a subschool of [Illusion](spell/definition:Illusion)."
+				"Shadow is a subschool of [Illusion](spell/definition:illusion)."
 			]
 		},
 		{
@@ -368,13 +368,13 @@
 			"description": [
 				"## Summoning (subschool of magic)",
 				"",
-				"**Source** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"A summoning spell instantly brings a creature or object to a place you designate. When the spell ends or is dispelled, a summoned creature is instantly sent back to where it came from, but a summoned object is not sent back unless the spell description specifically indicates this. A summoned creature also goes away if it is killed or if its hit points drop to 0 or lower, but it is not really dead. It takes 24 hours for the creature to reform, during which time it can't be summoned again.",
 				"",
 				"When the spell that summoned a creature ends and the creature disappears, all the spells it has cast expire. A summoned creature cannot use any innate summoning abilities it may have.",
 				"",
-				"Summoning is a subschool of [Conjuration](spell/definition:Conjuration)."
+				"Summoning is a subschool of [Conjuration](spell/definition:conjuration)."
 			]
 		},
 		{
@@ -385,13 +385,13 @@
 			"description": [
 				"## Teleportation (subschool of magic)",
 				"",
-				"**Source** [PRPG Core Rulebook](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook](source:prpg_core_rulebook)",
 				"",
 				"A teleportation spell transports one or more creatures or objects a great distance. The most powerful of these spells can cross planar boundaries. Unlike summoning spells, the transportation is (unless otherwise noted) one-way and not dispellable.",
 				"",
 				"Teleportation is instantaneous travel through the Astral Plane. Anything that blocks astral travel also blocks teleportation.",
 				"",
-				"Teleportation is a subschool of [Conjuration](spell/definition:Conjuration)."
+				"Teleportation is a subschool of [Conjuration](spell/definition:conjuration)."
 			]
 		},
 		{
@@ -402,7 +402,7 @@
 			"description": [
 				"## Acid (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"Acid effects deal damage with chemical reactions rather than cold, electricity, heat, or vibration. This descriptor includes both actual acids and their chemical opposites, called bases or alkalines (such as ammonia and lye)."
 			]
@@ -415,7 +415,7 @@
 			"description": [
 				"## Air (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"Spells that create air, manipulate air, or conjure creatures from air-dominant planes or with the air subtype should have the air descriptor."
 			]
@@ -428,7 +428,7 @@
 			"description": [
 				"## Chaotic (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"Spells that draw upon the power of true chaos or conjure creatures from chaos-aligned planes or with the chaotic subtype should have the chaos descriptor."
 			]
@@ -441,7 +441,7 @@
 			"description": [
 				"## Cold (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"Cold effects deal damage by making the target colder, typically by blasting it with supernaturally cooled matter or energy. Cold effects also include those that create ice, sleet, or snow out of nothing. They can cause frostbite, numbness, coordination problems, slowed movement and reactions, stupor, and death."
 			]
@@ -454,7 +454,7 @@
 			"description": [
 				"## Curse (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"Curses are often permanent effects, and usually cannot be dispelled, but can be removed with a [break enchantment](spell:break_enchantment), [limited wish](spell:limited_wish), [miracle](spell:miracle), [remove curse](spell:remove_curse), or [wish](spell:wish)."
 			]
@@ -467,7 +467,7 @@
 			"description": [
 				"## Darkness (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"Spells that create darkness or reduce the amount of light should have the darkness descriptor. Giving a spell the darkness descriptor indicates whether a spell like [daylight](spell:daylight) is high enough level to counter or dispel it."
 			]
@@ -480,7 +480,7 @@
 			"description": [
 				"## Death (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"Spells with the death descriptor directly attack a creature's life force to cause immediate death, or to draw on the power of a dead or dying creature. The [death ward](spell:death_ward) spell protects against death effects, and some creature types are immune to death effects."
 			]
@@ -493,7 +493,7 @@
 			"description": [
 				"## Disease (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"Disease effects give the target a disease, which may be an invading organism such as a bacteria or virus, an abnormal internal condition (such as a cancer or mental disorder), or a recurring magical effect that acts like one of the former. Creatures with resistance or immunity to disease apply that resistance to their saving throw and the effects of disease spells."
 			]
@@ -506,7 +506,7 @@
 			"description": [
 				"## Draconic (spell discriptor)",
 				"",
-				"**Source** [Legacy of Dragons](source:Legacy_of_Dragons)",
+				"**Source** [Legacy of Dragons](source:legacy_of_dragons)",
 				"",
 				"Spells with the draconic descriptor were created by dragons in ages long past, and still resonate within the blood of true dragons to this day. Creatures of the dragon type with 5 or more racial hit dice can select a draconic spell as a spell known regardless of the class spell list it's on. Each time such a creature gains an additional racial hit die, it can select a draconic spell in place of an existing spell known of the same or higher spell level."
 			]
@@ -519,7 +519,7 @@
 			"description": [
 				"## Earth (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"Spells that manipulate earth or conjure creatures from earth-dominant planes or with the earth subtype should have the earth descriptor."
 			]
@@ -532,7 +532,7 @@
 			"description": [
 				"## Electricity (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"Electricity effects involve the presence and flow of electrical charge, whether expressed in amperes or volts. Electricity deals damage to creatures by disrupting their biological systems. It deals damage to objects (as well as creatures) by heating the material it passes through, and thus technically many electricity spells could also be treated as fire spells, but for sake of game simplicity, it is better to just let electricity-based spells deal electricity damage. Electricity effects may stun, paralyze, or even kill."
 			]
@@ -545,7 +545,7 @@
 			"description": [
 				"## Emotion (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"Spells with this descriptor create emotions or manipulate the target's existing emotions. Most emotion spells are enchantments, except for fear spells, which are usually necromancy."
 			]
@@ -558,7 +558,7 @@
 			"description": [
 				"## Evil (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"Spells that draw upon evil powers or conjure creatures from evil-aligned planes or with the evil subtype should have the evil descriptor."
 			]
@@ -571,7 +571,7 @@
 			"description": [
 				"## Fear (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"Spells with the fear descriptor create, enhance, or manipulate fear. Most fear spells are necromancy spells, though some are enchantment spells."
 			]
@@ -584,7 +584,7 @@
 			"description": [
 				"## Fire (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"Fire effects make the target hotter by creating fire, directly heating the target with magic or friction. Lava, steam, and boiling water all deal fire damage. Fire effects can also cause confusion, dizziness, exhaustion, fatigue, nausea, unconsciousness, and death. Spells that manipulate fire or conjure creatures from fire-dominant planes or with the fire subtype should have the fire descriptor."
 			]
@@ -597,7 +597,7 @@
 			"description": [
 				"## Force (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"Spells with the force descriptor create or manipulate magical force. Force spells affect incorporeal creatures normally (as if they were corporeal creatures)."
 			]
@@ -610,7 +610,7 @@
 			"description": [
 				"## Good (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"Spells that draw upon the power of true goodness or conjure creatures from good-aligned planes or with the good subtype should have the good descriptor."
 			]
@@ -623,7 +623,7 @@
 			"description": [
 				"## Language-Dependent (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"A language-dependent spell uses intelligible language as a medium for communication. If the target cannot understand or hear what the caster of a language-dependent spell says, the spell has no effect, even if the target fails its saving throw."
 			]
@@ -636,7 +636,7 @@
 			"description": [
 				"## Lawful (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"Spells that draw upon the power of true law or conjure creatures from law-aligned planes or with the lawful subtype should have the law descriptor."
 			]
@@ -649,7 +649,7 @@
 			"description": [
 				"## Light (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"Spells that create significant amounts of light or attack darkness effects should have the light descriptor. Giving a spell the light descriptor indicates whether a spell like [darkness](spell:darkness) is high enough level counter or dispel it."
 			]
@@ -662,7 +662,7 @@
 			"description": [
 				"## Meditative (spell discriptor)",
 				"",
-				"**Source** [Divine Anthology](source:Divine_Anthology)",
+				"**Source** [Divine Anthology](source:divine_anthology)",
 				"",
 				"Meditative spells are not cast like other spells-they are cast during the period of the day when a spellcaster prepares her spells. A meditative spell must already be prepared at the time when you start your 1-hour spell preparation ritual, and at the end of that time, the meditative spell of your choosing is cast, leaving you with that one spell slot used for the remainder of the day. You can have only one meditative spell in effect on you at any one time. All meditative spells have a range of personal and a target of you, and they can't be brewed into potions or part of similar one-use items like elixirs. A meditative spell can be placed on a scroll or in a wand, but the act of casting the spell must always be incorporated into the user's spell-preparation time; it also takes 1 hour for a character who succeeds at an appropriate Use Magic Device check to operate such an item. Though some of these spells are on the cleric spell list, they can't be part of an oracle's list of spells known. Spontaneous casters such as oracles or sorcerers cannot benefit from the effects of a meditative spell, nor can characters who use such magic without preparation via Use Magic Device and a magic item, since part of the process of casting and maintaining the effects of a meditative spell involves tying the act of weaving the magic into the very process of meditation and study that a prepared spellcaster (such as a cleric or wizard) undergoes at the start of every day."
 			]
@@ -675,7 +675,7 @@
 			"description": [
 				"## Mind-Affecting (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"Mindless creatures (those with an Intelligence score of ---) and undead are immune to mind-affecting effects."
 			]
@@ -688,7 +688,7 @@
 			"description": [
 				"## Pain (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"Pain effects cause unpleasant sensations without any permanent physical damage (though a sensitive target may suffer mental repercussions from lengthy exposure to pain). Creatures that are immune to effects that require a Fort save (such as constructs and undead) are immune to pain effects."
 			]
@@ -701,7 +701,7 @@
 			"description": [
 				"## Poison (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"Poison effects use poison, venom, drugs, or similar toxic substances to disrupt and damage living creatures through chemical reactions. Technically, acids and poisons are both chemical reactions, but for the purpose of the Pathfinder Roleplaying Game, they are categorized as different effects, with acids dealing hit point damage and poisons causing ability damage, ability drain, bleeding, confusion, convulsions, nausea, paralysis, reduced healing, suffocation, unconsciousness, or death. Creatures with resistance to poison (such as dwarves) apply that resistance to their saving throws and the effects of poison spells. Creatures with immunity are immune to poisonous aspects of poison spells, but not necessarily all effects of the spell (for example, a spell that creates a pit full of liquid poison could still trap or drown a poison-immune creature)."
 			]
@@ -714,9 +714,9 @@
 			"description": [
 				"## Ruse (spell discriptor)",
 				"",
-				"**Source** [Ultimate Intrigue](source:Ultimate_Intrigue)",
+				"**Source** [Ultimate Intrigue](source:ultimate_intrigue)",
 				"",
-				"Spells with the ruse descriptor are easily mistaken for other spells and are intended to confuse even onlookers trained in Spellcraft or Knowledge (arcana). Attempts to identify a ruse spell by its effects, its aura, its components, or other attributes with a skill check treat the spell as though it were a different spell, as indicated in the spell's description. The one attempting the check can correctly identify the spell only by exceeding the DC by 10. The false spell is typically a level lower than the ruse spell, so skill checks use the DC for the lower-level spell. Even [detect magic](spell:detect_magic) and most similar spells don't prevent the caster from being fooled by a ruse spell. [Analyze dweomer](spell:Analyze_dweomer), [greater arcane sight](spell:greater_arcane_sight), and similar spells of the same or higher spell level that automatically identify spells reveal a ruse spell for what it is. Ruse spells that mimic harmless spells still list harmless on their saving throw or spell resistance lines; a creature that knows or suspects the true nature of the spell typically chooses to attempt the save."
+				"Spells with the ruse descriptor are easily mistaken for other spells and are intended to confuse even onlookers trained in Spellcraft or Knowledge (arcana). Attempts to identify a ruse spell by its effects, its aura, its components, or other attributes with a skill check treat the spell as though it were a different spell, as indicated in the spell's description. The one attempting the check can correctly identify the spell only by exceeding the DC by 10. The false spell is typically a level lower than the ruse spell, so skill checks use the DC for the lower-level spell. Even [detect magic](spell:detect_magic) and most similar spells don't prevent the caster from being fooled by a ruse spell. [Analyze dweomer](spell:analyze_dweomer), [greater arcane sight](spell:greater_arcane_sight), and similar spells of the same or higher spell level that automatically identify spells reveal a ruse spell for what it is. Ruse spells that mimic harmless spells still list harmless on their saving throw or spell resistance lines; a creature that knows or suspects the true nature of the spell typically chooses to attempt the save."
 			]
 		},
 		{
@@ -727,7 +727,7 @@
 			"description": [
 				"## Shadow (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"Shadow spells manipulate matter or energy from the Shadow Plane, or allow transport to or from that plane."
 			]
@@ -740,7 +740,7 @@
 			"description": [
 				"## Sonic (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"Sonic effects transmit energy to the target through frequent oscillations of pressure through the air, water, or ground. Sounds that are too high or too low for the humanoid ear to detect can still transmit enough energy to cause harm, which means that these effects can even affect deafened creatures. Sound effects can cause hit point damage, deafness, dizziness, nausea, pain, shortness of breath, and temporary blindness, and can detect creatures using batlike echolocation."
 			]
@@ -753,7 +753,7 @@
 			"description": [
 				"## Water (spell discriptor)",
 				"",
-				"**Source** [Ultimate Magic](source:Ultimate_Magic)",
+				"**Source** [Ultimate Magic](source:ultimate_magic)",
 				"",
 				"Spells that manipulate water or conjure creatures from water-dominant planes or with the water subtype should have the water descriptor."
 			]

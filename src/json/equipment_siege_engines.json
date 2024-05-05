@@ -11,7 +11,7 @@
 			"proficiency": "siege engine",
 			"description": [
 				"## Alchemist's fire",
-				"**Source** [Ultimate Combat pg. 164](source:Ultimate_Combat)",
+				"**Source** [Ultimate Combat pg. 164](source:ultimate_combat)",
 				"",
 				"This hard, ceramic canister of alchemist's fire can be used as ammunition in catapults and trebuchets. When it hits its target square, it deals 4d6 points of fire damage to each creature and wooden structure within 5 feet of the target space, and each creature must make a DC 20 Reflex saving throw or catch on fire (wooden objects automatically catch on fire). Every creature and wooden object within the area between 5 and 30 feet of the target space must make a DC 20 Reflex saving throw or take half the fire damage, but they do not catch on fire. On a siege engine mishap, this ammunition explodes before it is launched, dealing its damage to the siege engine and all nearby creatures and wooden objects as if one of the spaces of the siege engine (crew leader's choice) were the target square. This alchemical fire ignores the hardness of wooden objects.",
 				"",
@@ -29,7 +29,7 @@
 			"proficiency": "siege engine",
 			"description": [
 				"## Blast Shot",
-				"**Source** [Ultimate Combat pg. 164](source:Ultimate_Combat)",
+				"**Source** [Ultimate Combat pg. 164](source:ultimate_combat)",
 				"",
 				"Instead of a single hard ball, this ammunition is a bundle of large pellets, balls, or pieces of scrap metal, propelled a short distance by black powder and attacking all creatures and objects within an area. Both cannons and fiend's mouth cannons can fire this kind of ammunition. When such a siege engine fires this ammunition, it hits every creature and object within a 30-foot-cone burst. The siege engine makes attack rolls against each creature and unattended object in the burst. It must miss every creature or target to misfire, and a misfire generates the normal effect. It deals its normal damage on a hit, but does not ignore the hardness of objects.",
 				"",
@@ -47,7 +47,7 @@
 			"proficiency": "siege engine",
 			"description": [
 				"## Bomb",
-				"**Source** [Ultimate Combat pg. 164](source:Ultimate_Combat)",
+				"**Source** [Ultimate Combat pg. 164](source:ultimate_combat)",
 				"",
 				"A bomb is a metal canister filled with metal balls and black powder that can be used as ammunition in catapults and trebuchets or carried by two Medium creatures or one Large creature to its destination. A bomb either explodes on impact (if fired from a catapult or trebuchet, or within 3 rounds of a fuse being lit if carried). When it explodes, it deals 6d6 points of piercing and bludgeoning damage to all creatures and objects within 30 feet of the target square. On a siege engine mishap, this ammunition explodes before it is launched, dealing its damage to the siege engine and all nearby creatures and wooden objects as if one of the spaces of the siege engine (crew leader's choice) were the target square. It ignores the hardness of wood and stone.",
 				"",
@@ -65,9 +65,9 @@
 			"proficiency": "siege engine",
 			"description": [
 				"## Chain shot",
-				"**Source** [Ultimate Combat pg. 164](source:Ultimate_Combat)",
+				"**Source** [Ultimate Combat pg. 164](source:ultimate_combat)",
 				"",
-				"This siege engine firearm ammunition can be loaded in a cannon or a fiend's mouth cannon. It is especially good at tearing through sails and dirigibles (see the [Vehicle rules](unknown:Vehicle_rules)), dealing double its normal damage to those forms of propulsion. When fired at a creature, on a hit, the creature must succeed at a DC 20 Fortitude saving throw or be knocked prone.",
+				"This siege engine firearm ammunition can be loaded in a cannon or a fiend's mouth cannon. It is especially good at tearing through sails and dirigibles (see the [Vehicle rules](unknown:vehicle_rules)), dealing double its normal damage to those forms of propulsion. When fired at a creature, on a hit, the creature must succeed at a DC 20 Fortitude saving throw or be knocked prone.",
 				"",
 				"**Cost** 50 gp **Weight** 30 lbs   ",
 				"**Category** Ammunition; **Proficiency** Siege Engine"
@@ -83,7 +83,7 @@
 			"proficiency": "siege engine",
 			"description": [
 				"## Defoliant Shot",
-				"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source:Belkzen,_Hold_of_the_Orc_Hordes)",
+				"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source:belkzen,_hold_of_the_orc_hordes)",
 				"",
 				"When used as ammunition in a catapult or trebuchet, this ceramic canister releases a mist of [defoliant](unknown:defoliant) on impact. When it hits the target square, it deals 2d6 points of damage to any creature in that space. Plant creatures within 30 feet of the target square take an additional 4d6 points of damage. A successful DC 20 Fortitude saving throw halves this additional damage. Plant creatures within 5 feet of the target space that fail their saving throws also take 1d4 points of Strength damage and 1d4 points of Constitution damage. The defoliant also kills vegetation within 30 feet of the target square as described in Ultimate Equipment.",
 				"",
@@ -103,7 +103,7 @@
 			"proficiency": "siege engine",
 			"description": [
 				"## Entangling Bolt",
-				"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source:Belkzen,_Hold_of_the_Orc_Hordes)",
+				"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source:belkzen,_hold_of_the_orc_hordes)",
 				"",
 				"When launched from a ballista, this specialized bolt unfurls into a large net. An attack with entangling ammunition is a ranged touch attack, but it's only effective within one range increment. If it hits, the target is entangled, but the attack deals no damage.",
 				"",
@@ -123,7 +123,7 @@
 			"proficiency": "siege engine",
 			"description": [
 				"## Liquid ice",
-				"**Source** [Ultimate Combat pg. 164](source:Ultimate_Combat)",
+				"**Source** [Ultimate Combat pg. 164](source:ultimate_combat)",
 				"",
 				"This hard, ceramic canister filled with alchemical liquid ice can be used as ammunition in catapults and trebuchets. When it hits its target square, it deals 4d6 points of cold damage to each creature within 5 feet of the targeting space, and each creature must make a DC 20 Fortitude save or become entangled for 1 round. Every creature within the area between 5 and 30 feet of the target space must make a DC 20 Fortitude saving throw or take half damage. On a siege engine mishap, this ammunition explodes before it is launched, dealing its damage to all nearby creatures as if one of the spaces of the siege engine (crew leader's choice) were the target square.",
 				"",
@@ -141,7 +141,7 @@
 			"proficiency": "siege engine",
 			"description": [
 				"## Plague bundle",
-				"**Source** [Ultimate Combat pg. 164](source:Ultimate_Combat)",
+				"**Source** [Ultimate Combat pg. 164](source:ultimate_combat)",
 				"",
 				"This hard, ceramic canister is filled with a noxious mass of diseased carrion and offal that can be used as ammunition for a catapult or a trebuchet. It deals only half damage, but every creature hit by it is exposed to filth fever. A GM might allow a plague bundle to inflict other diseases.",
 				"",
@@ -159,7 +159,7 @@
 			"proficiency": "siege engine",
 			"description": [
 				"## Rockwasp Bomb",
-				"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source:Belkzen,_Hold_of_the_Orc_Hordes)",
+				"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source:belkzen,_hold_of_the_orc_hordes)",
 				"",
 				"Usable in catapults and trebuchets, this ammunition consists of a wooden crate packed with wax globes, from which a faint buzzing sound emanates. Visible as a dark shape at the center of each globe is a rat-sized hornet known as a rockwasp. The alchemical wax keeps the wasps immobilized, while tiny air holes allow them to breath. This ammunition deals only half damage, but releases a [wasp swarm](monster:wasp_swarm)-two wasp swarms if used for a heavy catapult or heavy trebuchet. The wasps attack for 1 minute before dispersing. On a siege engine mishap, the wasps escape before the ammunition is launched.",
 				"",
@@ -177,7 +177,7 @@
 			"proficiency": "siege engine",
 			"description": [
 				"## Smoke shot",
-				"**Source** [Ultimate Combat pg. 164](source:Ultimate_Combat)",
+				"**Source** [Ultimate Combat pg. 164](source:ultimate_combat)",
 				"",
 				"This hard ceramic sphere contains two alchemical substances separated by a thin barrier, much like a [smoke pellet](equipment/misc:smoke_pellet) in larger form, usable by cannons and fiend's mouth cannons. When it hits the targeting space, it deals 2d6 points of damage to any creature in that space, and the substances mingle and then create an area of foul but harmless yellow smoke radiating 30 feet from the target square. Treat the effect as a [fog cloud](spell:fog_cloud) spell. On a siege engine mishap, the ammunition explodes before it is launched. Its effect is centered on one of the spaces of the siege engine (crew leader's choice).",
 				"",
@@ -195,7 +195,7 @@
 			"proficiency": "siege engine",
 			"description": [
 				"## Ballista net",
-				"**Source** [Dragonslayer's Handbook pg. 27](source:Dragonslayer's_Handbook)",
+				"**Source** [Dragonslayer's Handbook pg. 27](source:dragonslayer's_handbook)",
 				"",
 				"This ballista bolt is specially equipped with a net which unfurls as the bolt flies toward its target. Unlike a standard ballista bolt, a ballista net requires only a touch attack to hit. If a ballista net hits, it deals no damage, but causes the target to become entangled. An entangled creature takes a -2 penalty on attack rolls and a -4 penalty to Dexterity, can move at only half speed, and cannot charge or run.",
 				"",
@@ -213,7 +213,7 @@
 			"proficiency": "siege engine",
 			"description": [
 				"## Flak",
-				"**Source** [Dragonslayer's Handbook pg. 27](source:Dragonslayer's_Handbook)",
+				"**Source** [Dragonslayer's Handbook pg. 27](source:dragonslayer's_handbook)",
 				"",
 				"Flak ammunition is a type of short-fused bomb, specifically designed to explode in midair. Flak ammunition is packed with steel balls and black powder, and may be fired from a bombard or catapult. When flak explodes, it deals 4d6 points of piercing and bludgeoning damage to all creatures and objects within 40 feet of the target square. A flak bomb must reach an altitude of at least 50 feet to function properly. If flak ammunition impacts anything before it reaches this altitude, the bomb deals 1d6 points of bludgeoning damage and fails to explode.",
 				"",
@@ -231,7 +231,7 @@
 			"proficiency": "siege engine",
 			"description": [
 				"## Flechette bolt",
-				"**Source** [Dragonslayer's Handbook pg. 27](source:Dragonslayer's_Handbook)",
+				"**Source** [Dragonslayer's Handbook pg. 27](source:dragonslayer's_handbook)",
 				"",
 				"This ballista bolt consists of dozens of small steel darts, called flechettes, which break away after the bolt is released. If the bolt impacts anything before it reaches a distance of 30 feet, it deals 1d8 points of damage. Between 30 and 60 feet away, the flechettes deploy, dealing piercing damage to every creature and object within a 30-foot-cone burst. After 60 feet, the flechettes lose momentum and fall harmlessly to the ground.",
 				"",
@@ -251,7 +251,7 @@
 			"proficiency": "siege engine",
 			"description": [
 				"## Weighted bolt",
-				"**Source** [Dragonslayer's Handbook pg. 27](source:Dragonslayer's_Handbook)",
+				"**Source** [Dragonslayer's Handbook pg. 27](source:dragonslayer's_handbook)",
 				"",
 				"This barbed ballista bolt is equipped with a heavy weight at the end of a long chain. The bolt's extra weight makes the bolt harder to fire accurately, and imposes a -2 penalty on attack rolls. In addition to the normal damage dealt by a ballista bolt of its size, on a successful hit the weighted bolt lodges itself into the target's body, leaving the weighted chain hanging loosely, imparting a -5 penalty on all Fly checks made by the target. These penalties stack if a target is hit with multiple weighted bolts. A weighted bolt can be removed with a successful DC 25 Heal check or a DC 20 Strength check.",
 				"",
@@ -282,7 +282,7 @@
 			"speed": 10,
 			"description": [
 				"## Ballista",
-				"**Source** [Ultimate Combat pg. 160](source:Ultimate_Combat), [PRPG Core Rulebook pg. 435](source:PRPG_Core_Rulebook)",
+				"**Source** [Ultimate Combat pg. 160](source:ultimate_combat), [PRPG Core Rulebook pg. 435](source:prpg_core_rulebook)",
 				"",
 				"Resembling a massive crossbow, a ballista's power is provided by twisted skeins of animal sinew used as torsion springs driving a pair of adjustable arms. A cord attached to both arms is winched back and a projectile is loaded into a grooved slider for release. Ballistae are direct-fire weapons.",
 				"",
@@ -324,7 +324,7 @@
 			"speed": 10,
 			"description": [
 				"## Cannon",
-				"**Source** [Ultimate Combat pg. 162](source:Ultimate_Combat)",
+				"**Source** [Ultimate Combat pg. 162](source:ultimate_combat)",
 				"",
 				"Cannons are crafted of metal-some are cast in one piece, others welded with iron bands-and mounted either in the ground or on wooden frames. Cannons use black powder to propel their projectiles with great force. A cannon has a misfire range of 1 (20 feet). Cannons have a hardness of 10 and 70 hit points. Cannon balls cost 30 gp each and weigh 25 pounds.",
 				"",
@@ -374,7 +374,7 @@
 			"speed": 0,
 			"description": [
 				"## Cannon, fiend's mouth",
-				"**Source** [Ultimate Combat pg. 163](source:Ultimate_Combat)",
+				"**Source** [Ultimate Combat pg. 163](source:ultimate_combat)",
 				"",
 				"These massive cannons are usually crafted in multiple pieces, and sometimes feature the heads of demons, devils, or other fiends at their mouths. Like normal canons, they propel their projectiles with great force. A fiend's mouth cannon has a misfire range of 1 (30 ft.). Fiend's mouth canons have a hardness of 10 and 140 hit points. Fiend's mouth cannon balls cost 45 gp and weigh 30 pounds each.",
 				"",
@@ -400,7 +400,7 @@
 			"speed": 10,
 			"description": [
 				"## Firedrake",
-				"**Source** [Ultimate Combat pg. 163](source:Ultimate_Combat)",
+				"**Source** [Ultimate Combat pg. 163](source:ultimate_combat)",
 				"",
 				"These large siege engines are typically wheeled or attached to vehicles that can transport them to the battlefield. This apparatus fires gouts of alchemist's fire in either a 60-foot line or a 30-foot cone (siege crew leader's choice). Targets in the area take 6d6 points of fire damage (DC 15 Reflex save halves); those who fail their saves also catch on fire. A firedrake with the broken condition that suffers a further mishap explodes, dealing its damage to all creatures within a 20-foot blast (DC 15 Reflex save halves). Firedrakes have a hardness of 10 and 70 hit points. One use of firedrake ammunition costs 200 gp and weighs 20 pounds.",
 				"",
@@ -429,7 +429,7 @@
 			"speed": 0,
 			"description": [
 				"## Manticore's Tail",
-				"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source:Belkzen,_Hold_of_the_Orc_Hordes)",
+				"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source:belkzen,_hold_of_the_orc_hordes)",
 				"",
 				"This massive ballista fires a dozen or more bolts at once in a devastating rain of steel that deals 3d8 points of damage. The crew leader makes a separate attack roll with a -2 penalty against each creature and object within a 60-foot cone, ignoring concealment. Confirm any critical threats separately. This weapon has a mishap only if the first attack roll is a mishap. A manticore's tail has a hardness of 5 and 100 hit points. Ammunition for one use of the manticore's tail costs 120 gp and weighs 120 pounds.",
 				"",
@@ -475,7 +475,7 @@
 			"speed": 0,
 			"description": [
 				"## Firewyrm",
-				"**Source** [Ultimate Combat pg. 163](source:Ultimate_Combat)",
+				"**Source** [Ultimate Combat pg. 163](source:ultimate_combat)",
 				"",
 				"This siege engine is a larger version of the firedrake. A firewyrm is too large to be transported to the battlefield in one piece and must be assembled once the component parts reach the battlefield. A firewyrm fires its gout of flame in either a 120-foot line or a 60-foot cone (crew leader's choice). Targets in the area take 6d6 points of fire damage (DC 20 Reflex save halves). Those who fail their saves catch on fire. A firewyrm with the broken condition that suffers a further mishap explodes, dealing its damage to all creatures within a 30-foot blast (DC 20 Reflex save halves). Firewyrms have a hardness of 10 and 140 hit points. One use of firewyrm ammunition costs 400 gp and weighs 40 pounds.",
 				"",
@@ -506,7 +506,7 @@
 			"speed": 10,
 			"description": [
 				"## Bombard",
-				"**Source** [Ultimate Combat pg. 161](source:Ultimate_Combat)",
+				"**Source** [Ultimate Combat pg. 161](source:ultimate_combat)",
 				"",
 				"Resembling either large cauldrons or more traditional cannons, these firearms lob their ammunition in an arc in order to deliver their deadly payloads over troops or castle walls. Bombards are normally fired indirectly, but can also be fired as direct-fire siege engines. When they are used for direct fire, they take a -4 penalty on attack rolls and have their range increment halved, but do not have a minimum range. Like all firearms, bombards do not suffer mishaps, but instead have a misfire chance.",
 				"",
@@ -552,7 +552,7 @@
 			"speed": 10,
 			"description": [
 				"## Catapult",
-				"**Source** [Ultimate Combat pg. 162](source:Ultimate_Combat), [PRPG Core Rulebook pg. 435](source:PRPG_Core_Rulebook)",
+				"**Source** [Ultimate Combat pg. 162](source:ultimate_combat), [PRPG Core Rulebook pg. 435](source:prpg_core_rulebook)",
 				"",
 				"Catapults are stone-throwing siege engines powered by winched arms that run through torsion skeins, and hold their payload in a cup that swings up and over the weapon when released. Catapults can hurl a variety of different types of ammunition (the damage given is for stone projectiles; other types of ammunition can be found later in this chapter). They are indirect-fire siege engines.",
 				"",
@@ -595,7 +595,7 @@
 			"speed": 0,
 			"description": [
 				"## Trebuchet",
-				"**Source** [Ultimate Combat pg. 163](source:Ultimate_Combat)",
+				"**Source** [Ultimate Combat pg. 163](source:ultimate_combat)",
 				"",
 				"Trebuchets are similar in form to catapults, with the payload placed into a basket, cup, or sling at the end of a long lever, and a counterweight (often with crew or animals pulling attached ropes) close to the fulcrum. The leverage imparted by a trebuchet allows it to hurl massive missiles that scatter to a number of squares around the target square based on the size of the trebuchet. Trebuchets are too bulky to move on wheels or vehicles and must be assembled on the battlefield. Trebuchets have a minimum range of 150 feet.",
 				"",
@@ -679,7 +679,7 @@
 			"speed": 0,
 			"description": [
 				"## Springal, arrow",
-				"**Source** [Ultimate Combat pg. 163](source:Ultimate_Combat)",
+				"**Source** [Ultimate Combat pg. 163](source:ultimate_combat)",
 				"",
 				"A springal uses a torsion-cranked composite paddle to strike a firing rack containing multiple arrows or black-powder-propelled rockets, which rain down in an arc over a burst area. Springals are indirect-fire weapons that affect an area centered on the target square (targeting DC 20).",
 				"",
@@ -813,7 +813,7 @@
 			"speed": 0,
 			"description": [
 				"## Bridge, assault",
-				"**Source** [Ultimate Combat pg. 165](source:Ultimate_Combat)",
+				"**Source** [Ultimate Combat pg. 165](source:ultimate_combat)",
 				"",
 				"An assault bridge is used to span a ditch, moat, or other gap. Raising an assault bridge requires one full-round action per 5 feet of length; up to four creatures may cooperate to raise a bridge. The time required is doubled for each size category that the bridge is larger than the creatures raising it. Large assault bridges have 40 hit points, Huge ones have 60 hit points, Gargantuan ones have 160 hit points, and Colossal ones have 240 hit points.",
 				"",
@@ -902,7 +902,7 @@
 			"speed": 0,
 			"description": [
 				"## Corvus",
-				"**Source** [Ultimate Combat pg. 165](source:Ultimate_Combat)",
+				"**Source** [Ultimate Combat pg. 165](source:ultimate_combat)",
 				"",
 				"A corvus is a boarding device that features a hinged counterweight system for mounting a bridge vertically on a siege tower or a vehicle, with a hooked end to grab onto a target vehicle or structure. A corvus is usually 10 feet wide and 15 feet long. It has a hardness of 5 and 10 hit points per square. Using a corvus requires a DC 10 Profession (siege engineer) check as a full-round action; if the check fails, the corvus fails to catch on the target and must be reset (a full-round action). A corvus mounted on a vehicle can target another moving vehicle (see Chapter 4: Vehicles). Doing so requires an opposed driving check to get the corvus into the correct position, which is within the length of the corvus and adjacent to the other vehicle. Once a corvus is attached, it takes a Strength check as a full-round action to dislodge the corvus. Alternatively, if the corvus is attached to a vehicle, either vehicle driver can make a driving check as a standard action to dislodge the corvus (a check that succeeds by 5 or more destroys the corvus). The base DC for either of these checks is 15, and the DC increases by 5 for every Small or Medium creature currently standing on the corvus. If a corvus is disengaged while creatures are standing on it, those creatures must make a DC 15 Reflex saving throw or fall. Succeeding at the saving throw allows them to move to the nearest area of safe ground, but such movement provokes attacks of opportunity. A corvus cannot be armored.",
 				"",
@@ -927,7 +927,7 @@
 			"speed": 0,
 			"description": [
 				"## Crushing Wheel",
-				"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source:Belkzen,_Hold_of_the_Orc_Hordes)",
+				"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source:belkzen,_hold_of_the_orc_hordes)",
 				"",
 				"The bulk of this weapon is a steel roller nearly 10 feet wide. Handles or a harness project from the axle, allowing four orcs or one Large beast to push the crushing wheel from behind. As a full-round action, its crew can roll the crushing wheel over creatures in front of it. This functions as the trample monster ability except as noted here. Creatures that are overrun fall prone and take 4d6 points of damage. Targets that succeed at a DC 15 Reflex saving throw take only half damage and avoid falling prone. A crushing wheel has a hardness of 10 and 100 hit points.",
 				"",
@@ -953,7 +953,7 @@
 			"speed": 0,
 			"description": [
 				"## Earthmaul",
-				"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source:Belkzen,_Hold_of_the_Orc_Hordes)",
+				"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source:belkzen,_hold_of_the_orc_hordes)",
 				"",
 				"This war machine is fitted with an enormous hammer. When dropped into the horizontal position, it functions like a sideways-mounted catapult, and is capable of clearing wide swaths of enemies. Although it doesn't use ammunition, the earthmaul must effectively be reloaded by winding the torsion. When the earthmaul is activated, creatures on the ground in a 15-foot cone take 6d6 points of damage, are knocked 10 feet in the direction of the swing, and fall prone. A successful DC 20 Reflex saving throw halves the damage and negates the additional effects. An earthmaul has a hardness of 5 and 100 hit points.",
 				"",
@@ -978,7 +978,7 @@
 			"speed": 15,
 			"description": [
 				"## Gallery",
-				"**Source** [Ultimate Combat pg. 166](source:Ultimate_Combat)",
+				"**Source** [Ultimate Combat pg. 166](source:ultimate_combat)",
 				"",
 				"A mobile temporary defense, a gallery is similar to a building made of hide or wood. Most are of flimsy construction, but rare examples are more stoutly built (use the rules for giving siege engines armor, and adjust AC, hardness, and hit points accordingly). Galleries are almost always a single section of movable \"wall\" plus another section that acts as the \"roof.\" (Galleries made to house battering rams are an exception, and typically have two joined wall sections and roof sections.) Because a gallery is partially open, it does not provide the same cover as a normal building: a creature inside a gallery gains cover if it is the same size as the gallery, improved cover if it is one size smaller, and total cover if it is two or more sizes smaller. Galleries are sized like creatures-a Larger gallery protects the same space as a Large creature, and so on.",
 				"",
@@ -1065,7 +1065,7 @@
 			"speed": 0,
 			"description": [
 				"## Harvester",
-				"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source:Belkzen,_Hold_of_the_Orc_Hordes)",
+				"**Source** [Belkzen, Hold of the Orc Hordes pg. 39](source:belkzen,_hold_of_the_orc_hordes)",
 				"",
 				"A variety of scythe-like blades extend from two sides of this wheeled machine. When it's pulled-typically by an aurochs or enslaved giants-the wheels' rotation causes the blades to slash indiscriminately. Each round the harvester moves, it makes a melee attack with a +10 modifier against any adjacent creature it passes; it deals 2d8 points of damage to those it hits. Multiple harvesters can be strung together. The crew required for a train of harvesters is equal to the total crew of the individual machines. Adjacent creatures are attacked by each individual harvester that passes them. A harvester has a hardness of 5 and 50 hit points.",
 				"",
@@ -1090,7 +1090,7 @@
 			"speed": 0,
 			"description": [
 				"## Ladder, escalade",
-				"**Source** [Ultimate Combat pg. 166](source:Ultimate_Combat)",
+				"**Source** [Ultimate Combat pg. 166](source:ultimate_combat)",
 				"",
 				"Escalade ladders have spiked bases for stability, and the upper 5 feet are metal-shod, with hardness 10 and 20 hit points. The remainder of the ladder is wooden and has hardness 5 and hit points based on its size. Large escalade ladders have 20 hit points, Huge ones have 30 hit points, Gargantuan ones have 80 hit points, and Colossal ones have 120 hit points. Escalade ladders cannot be armored.",
 				"",
@@ -1186,13 +1186,13 @@
 			"speed": 15,
 			"description": [
 				"## Ram",
-				"**Source** [Ultimate Combat pg. 166](source:Ultimate_Combat), [PRPG Core Rulebook pg. 435](source:PRPG_Core_Rulebook)",
+				"**Source** [Ultimate Combat pg. 166](source:ultimate_combat), [PRPG Core Rulebook pg. 435](source:prpg_core_rulebook)",
 				"",
 				"The most basic close assault weapons are iron-shod logs carried by one or more creatures to combine their strength. A ram can be used to deal damage or to make a Strength check against the target's break DC.",
 				"",
 				"**Ramming Charge:** Rams require momentum to be effective. All creatures using the ram must use the charge action to gain its full effect. Creatures not wishing to charge may make a ram attack as a full-round action, taking a -4 penalty on attack and damage rolls and Strength checks with the ram.",
 				"",
-				"**Breaking:** The crew leader makes a Strength check with a +2 bonus, adding +2 for each member of the crew (or equivalent number of larger creatures; see [Crew under Siege Engine Rules](unknown:Crew_under_Siege_Engine_Rules)) assisting. The ram also provides a +4 bonus per size category above Medium.",
+				"**Breaking:** The crew leader makes a Strength check with a +2 bonus, adding +2 for each member of the crew (or equivalent number of larger creatures; see [Crew under Siege Engine Rules](unknown:crew_under_siege_engine_rules)) assisting. The ram also provides a +4 bonus per size category above Medium.",
 				"",
 				"**Damage:** The crew leader makes an attack roll with a -4 nonproficiency penalty. A hit deals the listed damage, plus the Strength modifiers of the crew leader and all members of the crew, regardless of their size.",
 				"",
@@ -1292,7 +1292,7 @@
 			"speed": 15,
 			"description": [
 				"## Siege tower",
-				"**Source** [Ultimate Combat pg. 166](source:Ultimate_Combat)",
+				"**Source** [Ultimate Combat pg. 166](source:ultimate_combat)",
 				"",
 				"A wooden gallery of stout construction, a siege tower consists of a tall protective shell with a roof section. The lower story of the tower contains the crew members who propel the tower, and provides total cover to those within. A siege tower with the broken condition moves at half speed. If a siege tower is destroyed, the entire tower collapses. Treat this as a [cave-in](unknown:cave-in).",
 				"",

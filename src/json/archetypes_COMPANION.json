@@ -14,7 +14,7 @@
 		"description": [
 			"## Aberrant Companion",
 			"",
-			"**Source** [Ultimate Wilderness pg. 186](source:Ultimate_Wilderness)   ",
+			"**Source** [Ultimate Wilderness pg. 186](source:ultimate_wilderness)   ",
 			"There's something oddly wrong about aberrant companions. Yet though they're touched by eldritch magic or mutated by strange influences, they are still loyal, if unnatural, allies.",
 			"",
 			"**Aberrant Skills:** Aberrant companions treat Escape Artist and Intimidate as class skills.",
@@ -44,7 +44,7 @@
 		"description": [
 			"## Accursed Companion",
 			"",
-			"**Source** [Horror Realms pg. 10](source:Horror_Realms)   ",
+			"**Source** [Horror Realms pg. 10](source:horror_realms)   ",
 			"When a character calls upon the aid and companionship of one of nature's children, she forges a sacred pact to care for and cherish that creature. In exchange, the animal companion serves as her guide and guardian. The bond between the two strengthens, and the animal companion moves beyond its primal instincts and its soul blossoms. This transcendence is both beautiful and wondrous, but as with all magic, there is always a cost. As an animal companion's consciousness grows, it can sometimes attract the attention of the spiritual energies that hide in plain sight everywhere. While some of these forces are good or indifferent, others lurk in the void, in the deepest shadows where death waits. When the right moment comes, these darker entities latch onto these proud companions with a vicious hunger. Should the character fail to protect her companion, corruption ebbs forth and fills the once-magnificent creatures with vile intent. Cursed and corrupted, these companions return to their masters broken, scarred, and distraught. Theirs is a curse they are bound to share, for when mortals fail to protect their bonded companions, so too shall those mortals suffer.",
 			"",
 			"When a cavalier, druid, hunter, ranger, or other character loses an animal companion to a disturbingly gruesome death, particularly if that fate could have been avoided through an act the character chose not to or was unable to take, the soul of the slain animal companion sometimes remains bound to the character. In such cases, this scarred soul infests the next companion the character takes.",
@@ -94,7 +94,7 @@
 		"description": [
 			"## Ambusher",
 			"",
-			"**Source** [Ultimate Wilderness pg. 186](source:Ultimate_Wilderness)   ",
+			"**Source** [Ultimate Wilderness pg. 186](source:ultimate_wilderness)   ",
 			"Ambushers sneak up on unsuspecting prey, pouncing on targets when they least expect it.",
 			"",
 			"**Camouflage (Ex):** An ambusher gains a +4 racial bonus on Stealth checks in its natural environment (if this is unclear, use the environment in its Bestiary entry). At 15th level, an ambusher can use the Stealth skill to hide in its natural environment, even if the environment doesn't grant cover or concealment.",
@@ -122,7 +122,7 @@
 		"description": [
 			"## Apex Species",
 			"",
-			"**Source** [Wilderness Origins pg. 20](source:Wilderness_Origins)   ",
+			"**Source** [Wilderness Origins pg. 20](source:wilderness_origins)   ",
 			"Some animals have no serious competitors and no real predators. They are masters of their habitats, perfectly evolved to take advantage of their native terrain. They need not be predators, of course-some herbivores are just as lethally suited to their homes.",
 			"",
 			"**Native Environment (Ex):** An apex species selects a specific terrain type from the [ranger list of favored terrains](class:ranger_list_of_favored_terrains). While in that terrain, the apex species gains a bonus equal to half its level on checks and saves to deal with environmental hazards. An apex species may not select a plane as its native environment.",
@@ -155,7 +155,7 @@
 			"",
 			"**Desert:** The apex species gains a +4 morale bonus on Will saves against illusion spells and effects.",
 			"",
-			"**Forest, Urban:** The apex species gains [Skill Focus (Stealth)](feat:Skill_Focus_(Stealth)) as a bonus feat.",
+			"**Forest, Urban:** The apex species gains [Skill Focus (Stealth)](feat:skill_focus) as a bonus feat.",
 			"",
 			"**Jungle, Mountains:** The apex species gains a climb speed equal to half its base land speed, or increases its existing climb speed by 10 feet.",
 			"",
@@ -181,7 +181,7 @@
 		"description": [
 			"## Augmented Companion",
 			"",
-			"**Source** [Ultimate Wilderness pg. 186](source:Ultimate_Wilderness)   ",
+			"**Source** [Ultimate Wilderness pg. 186](source:ultimate_wilderness)   ",
 			"Augmented companions have suffered an injury, such as the loss of a wing, and parts of their bodies have been replaced by a master construct crafter. This procedure grants them unusual abilities.",
 			"",
 			"**Not Quite Animal:** The DC to use Handle Animal on an augmented companion is 5 higher, as if it were a nonanimal with an Intelligence score of 1 or 2.",
@@ -211,7 +211,7 @@
 		"description": [
 			"## Auspice",
 			"",
-			"**Source** [Ultimate Wilderness pg. 187](source:Ultimate_Wilderness)   ",
+			"**Source** [Ultimate Wilderness pg. 187](source:ultimate_wilderness)   ",
 			"Auspices were born with a birthmark or other feature that seems to be in the shape of their master's deity's holy symbol; they are usually animal sacred to that deity's religion.",
 			"",
 			"**Aligned (Ex):** Even though an auspice is an animal, its connection to its associated deity allows it to be chaotic neutral, lawful neutral, neutral evil, or neutral good, whichever is closest to the deity's alignment, or it can remain true neutral.",
@@ -243,7 +243,7 @@
 		"description": [
 			"## Bodyguard",
 			"",
-			"**Source** [Ultimate Wilderness pg. 187](source:Ultimate_Wilderness), [Animal Archive pg. 20](source:Animal_Archive)   ",
+			"**Source** [Ultimate Wilderness pg. 187](source:ultimate_wilderness), [Animal Archive pg. 20](source:animal_archive)   ",
 			"Some companions live lives of faithful devotion and steady vigilance, standing watch through long hours and always ready to leap into action to protect their masters.",
 			"",
 			"**Animal Feats:** In addition to the standard feats available to animal companions, a bodyguard can select Bodyguard, Combat Patrol, Heroic Defiance, Heroic Recovery, and In Harm's Way.",
@@ -278,7 +278,7 @@
 		"description": [
 			"## Bully",
 			"",
-			"**Source** [Ultimate Wilderness pg. 187](source:Ultimate_Wilderness)   ",
+			"**Source** [Ultimate Wilderness pg. 187](source:ultimate_wilderness)   ",
 			"Bigger than others of its kind, a bully is used to winning fights and displays of dominance for its choice of mates, territory, or other privileges.",
 			"",
 			"**Bully Feats:** In addition to the standard feats available to animal companions, a bully can select Greater Bull Rush, Greater Overrun, Greater Reposition, Greater Trip, Improved Reposition, and Improved Trip. It can use Power Attack instead of Combat Expertise as a prerequisite to qualify for feats on this list.",
@@ -305,7 +305,7 @@
 		"description": [
 			"## Charger",
 			"",
-			"**Source** [Animal Archive pg. 20](source:Animal_Archive)   ",
+			"**Source** [Animal Archive pg. 20](source:animal_archive)   ",
 			"The mighty charger is a boon to heavily armored and armed champions, bearing them and their ironmongery into battle without hesitation.",
 			"",
 			"**Animal Feats:** In addition to the standard animal companion feats, a charger may select Charge Through, Greater Overrun, Improved Great Fortitude, and Improved Iron Will.",
@@ -335,7 +335,7 @@
 		"description": [
 			"## Daredevil",
 			"",
-			"**Source** [Ultimate Wilderness pg. 187](source:Ultimate_Wilderness)   ",
+			"**Source** [Ultimate Wilderness pg. 187](source:ultimate_wilderness)   ",
 			"Daredevil companions join the fray with graceful leaps or swooping dives, heedless of the danger.",
 			"",
 			"**Artful Acrobat (Ex):** A daredevil gains a competence bonus on Acrobatics checks equal to half its Hit Dice.",
@@ -364,7 +364,7 @@
 		"description": [
 			"## Deathtouched Companion",
 			"",
-			"**Source** [Ultimate Wilderness pg. 187](source:Ultimate_Wilderness)   ",
+			"**Source** [Ultimate Wilderness pg. 187](source:ultimate_wilderness)   ",
 			"Whether the result of a partially successful attempt at revival, a strange blight, or repeated exposure to undead, deathtouched companions are living animals with a trace of the undead, somewhat like dhampirs.",
 			"",
 			"**Deathtouched Skills:** Deathtouched companions treat Intimidate as a class skill.",
@@ -398,7 +398,7 @@
 		"description": [
 			"## Draconic Companion",
 			"",
-			"**Source** [Ultimate Wilderness pg. 188](source:Ultimate_Wilderness)   ",
+			"**Source** [Ultimate Wilderness pg. 188](source:ultimate_wilderness)   ",
 			"Draconic companions bear a faint trace of dragon blood that grants them special abilities.",
 			"",
 			"**Draconic Skills:** Draconic companions treat Intimidate as a class skill.",
@@ -436,12 +436,12 @@
 		"description": [
 			"## Elemental Companion",
 			"",
-			"**Source** [Plane-Hopper's Handbook pg. 26](source:Plane-Hopper's_Handbook)   ",
+			"**Source** [Plane-Hopper's Handbook pg. 26](source:plane-hopper's_handbook)   ",
 			"The heart of this companion beats with primal energy.",
 			"",
 			"**Elemental Type (Ex):** An elemental companion gains a subtype that matches its element: air, earth, fire, or water.",
 			"",
-			"**Lesser Elemental Manifestation (Ex):** At 2nd level, an elemental companion gains one or more special abilities based on its element. An air companion gains a 20% miss chance against ranged attacks. An earth companion gains DR 1/adamantine, and this damage reduction increases by 1 for every 4 druid levels the master has. A fire companion can see through fire, fog, and smoke without penalty, and it gains [Nimble Moves](feat:Nimble_Moves) as a bonus feat. A water companion can breathe underwater, gains a swim speed of 20 feet, and gains a +2 dodge bonus to AC against attacks of opportunity; a water companion that already has a swim speed instead increases its swim speed by 10 feet.",
+			"**Lesser Elemental Manifestation (Ex):** At 2nd level, an elemental companion gains one or more special abilities based on its element. An air companion gains a 20% miss chance against ranged attacks. An earth companion gains DR 1/adamantine, and this damage reduction increases by 1 for every 4 druid levels the master has. A fire companion can see through fire, fog, and smoke without penalty, and it gains [Nimble Moves](feat:nimble_moves) as a bonus feat. A water companion can breathe underwater, gains a swim speed of 20 feet, and gains a +2 dodge bonus to AC against attacks of opportunity; a water companion that already has a swim speed instead increases its swim speed by 10 feet.",
 			"",
 			"This replaces evasion and improved evasion.",
 			"",
@@ -467,7 +467,7 @@
 		"description": [
 			"## Feytouched Companion",
 			"",
-			"**Source** [Ultimate Wilderness pg. 188](source:Ultimate_Wilderness)   ",
+			"**Source** [Ultimate Wilderness pg. 188](source:ultimate_wilderness)   ",
 			"Feytouched companions are strangely colored fauna native to the First World, the primal realm of the fey. They gain strange abilities tied to the fey.",
 			"",
 			"**Feytouched Skills:** Feytouched companions treat Perform as a class skill.",
@@ -529,7 +529,7 @@
 		"description": [
 			"## Racer",
 			"",
-			"**Source** [Ultimate Wilderness pg. 188](source:Ultimate_Wilderness), [Animal Archive pg. 21](source:Animal_Archive)   ",
+			"**Source** [Ultimate Wilderness pg. 188](source:ultimate_wilderness), [Animal Archive pg. 21](source:animal_archive)   ",
 			"Some companions have uncanny speed, providing their masters with swift transport.",
 			"",
 			"**Racer Feats:** In addition to the standard feats available to animal companions, a racer can select Acrobatic Steps, Charge Through, Improved Lightning Reflexes, Lightning Stance, Nimble Moves, and Wind Stance.",
@@ -561,7 +561,7 @@
 		"description": [
 			"## Totem Guide",
 			"",
-			"**Source** [Ultimate Wilderness pg. 189](source:Ultimate_Wilderness), [Animal Archive pg. 21](source:Animal_Archive)   ",
+			"**Source** [Ultimate Wilderness pg. 189](source:ultimate_wilderness), [Animal Archive pg. 21](source:animal_archive)   ",
 			"Totem guides embody the wisdom and spirituality of the natural world, providing guidance as well as aid in combat. Once a totem guide is chosen, a character can replace the companion if it is slain but must choose the same kind of totem guide.",
 			"",
 			"**Spiritual Guidance (Sp):** At 3rd level, a totem guide can use guidance as a spell-like ability at will as a full-round action, targeting itself or its master. In addition, a totem guide's master can spontaneously cast the following spells while adjacent to the totem guide by sacrificing a spell slot of equal or higher level: detect animals or plants (1st), augury (2nd), helping hand (3rd), divination (4th), commune with nature (5th), and find the path (6th). The totem guide serves as a divine focus for these spells, but costly material components must still be provided.",
@@ -594,7 +594,7 @@
 		"description": [
 			"## Tracker",
 			"",
-			"**Source** [Ultimate Wilderness pg. 189](source:Ultimate_Wilderness)   ",
+			"**Source** [Ultimate Wilderness pg. 189](source:ultimate_wilderness)   ",
 			"Some companions are expert trackers, able to use their scent ability to follow any trail.",
 			"",
 			"**Keen Nose:** A tracker must be an animal companion with the scent ability.",
@@ -616,7 +616,7 @@
 		"description": [
 			"## Unexpected Intellectual",
 			"",
-			"**Source** [Wilderness Origins pg. 20](source:Wilderness_Origins)   ",
+			"**Source** [Wilderness Origins pg. 20](source:wilderness_origins)   ",
 			"Sometimes, when an insect or other vermin is chosen to be an animal companion, it proves cleverer than expected. On occasion, it proves much cleverer.",
 			"",
 			"**Special Requirement:** Only vermin companions may become unexpected intellectuals.",
@@ -641,7 +641,7 @@
 		"description": [
 			"## Verdant Companion",
 			"",
-			"**Source** [Ultimate Wilderness pg. 189](source:Ultimate_Wilderness)   ",
+			"**Source** [Ultimate Wilderness pg. 189](source:ultimate_wilderness)   ",
 			"Favorites of druids who balance their responsibilities between flora and fauna, verdant companions are animals with some of the abilities and physical aspects of plants.",
 			"",
 			"**Not Quite Animal:** The DC to use Handle Animal on a verdant companion is 5 higher, as if it were a nonanimal with an Intelligence score of 1 or 2.",
@@ -666,7 +666,7 @@
 		"description": [
 			"## Wrecker",
 			"",
-			"**Source** [Ultimate Wilderness pg. 189](source:Ultimate_Wilderness)   ",
+			"**Source** [Ultimate Wilderness pg. 189](source:ultimate_wilderness)   ",
 			"Like unruly pets, some companions have a tendency to destroy nearby objects while unsupervised, and their masters can channel these destructive impulses into an advantage in battle.",
 			"",
 			"**Wrecker Feats:** In addition to the standard feats available to animal companions, a wrecker can select Improved Sunder and Greater Sunder.",

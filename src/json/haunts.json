@@ -9,7 +9,7 @@
 			"description": [
 				"## Isolation Haunt",
 				"",
-				"**Source** [Construct Handbook pg. 49](source:Construct_Handbook)   ",
+				"**Source** [Construct Handbook pg. 49](source:construct_handbook)   ",
 				"**CR** &mdash;; **XP* 0   ",
 				"NE haunt (30-ft. radius)   ",
 				"**Caster Level** 5th   ",
@@ -20,7 +20,7 @@
 				"",
 				"**Description**",
 				"",
-				"Nethys Note: See the [Haunted Construct](monster:Haunted_Construct) monster entry."
+				"Nethys Note: See the [Haunted Construct](monster:haunted_construct) monster entry."
 			]
 		},
 		{
@@ -32,7 +32,7 @@
 			"description": [
 				"## Bloody Handprints",
 				"",
-				"**Source** [Horror Adventures pg. 174](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 174](source:horror_adventures)   ",
 				"**CR** 1/4; **XP* 100   ",
 				"NE haunt (surface with area up to 5-ft. square)   ",
 				"**Caster Level** 1st   ",
@@ -55,7 +55,7 @@
 			"description": [
 				"## Scratching Behind the Wall",
 				"",
-				"**Source** [Horror Adventures pg. 175](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 175](source:horror_adventures)   ",
 				"**CR** 1/2; **XP* 200   ",
 				"CE haunt (5-ft.-by-10-ft. hallway)   ",
 				"**Caster Level** 1st   ",
@@ -78,7 +78,7 @@
 			"description": [
 				"## Cold Spot",
 				"",
-				"**Source** [Horror Adventures pg. 175](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 175](source:horror_adventures)   ",
 				"**CR** 1; **XP* 400   ",
 				"NE haunt (5-ft. radius)   ",
 				"**Caster Level** 1st   ",
@@ -101,7 +101,7 @@
 			"description": [
 				"## Rapping Spirit",
 				"",
-				"**Source** [Occult Adventures pg. 230](source:Occult_Adventures)   ",
+				"**Source** [Occult Adventures pg. 230](source:occult_adventures)   ",
 				"**CR** 1; **XP* 400   ",
 				"Alignment varies persistent haunt (5-ft. radius)   ",
 				"**Caster Level** 1st   ",
@@ -124,7 +124,7 @@
 			"description": [
 				"## Spectral Screams",
 				"",
-				"**Source** [Horror Adventures pg. 175](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 175](source:horror_adventures)   ",
 				"**CR** 2; **XP* 600   ",
 				"NE haunt (10-ft. radius)   ",
 				"**Caster Level** 3rd   ",
@@ -147,7 +147,7 @@
 			"description": [
 				"## Demanding Dead",
 				"",
-				"**Source** [Occult Adventures pg. 230](source:Occult_Adventures)   ",
+				"**Source** [Occult Adventures pg. 230](source:occult_adventures)   ",
 				"**CR** 3; **XP* 800   ",
 				"Alignment varies persistent haunt (15-ft. radius)   ",
 				"**Caster Level** 1st   ",
@@ -170,7 +170,7 @@
 			"description": [
 				"## Foreboding Mist",
 				"",
-				"**Source** [Horror Adventures pg. 175](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 175](source:horror_adventures)   ",
 				"**CR** 3; **XP* 800   ",
 				"NE persistent haunt (15-ft. radius)   ",
 				"**Caster Level** 3rd   ",
@@ -193,7 +193,7 @@
 			"description": [
 				"## Buried Alive",
 				"",
-				"**Source** [Horror Adventures pg. 175](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 175](source:horror_adventures)   ",
 				"**CR** 4; **XP* 1,200   ",
 				"NE persistent haunt (15-ft. radius)   ",
 				"**Caster Level** 5th   ",
@@ -216,7 +216,7 @@
 			"description": [
 				"## Flytrap",
 				"",
-				"**Source** [Pathfinder #144: Midwives to Death pg. 65](source:Pathfinder_#144:_Midwives_to_Death)   ",
+				"**Source** [Pathfinder #144: Midwives to Death pg. 65](source:pathfinder_#144_midwives_to_death)   ",
 				"**CR** 4; **XP* 1,200   ",
 				"N persistent botanical haunt (up to 20-foot radius)   ",
 				"**Caster Level** 4th   ",
@@ -235,14 +235,14 @@
 			"description": [
 				"## Following Footsteps",
 				"",
-				"**Source** [Ultimate Wilderness pg. 133](source:Ultimate_Wilderness)   ",
+				"**Source** [Ultimate Wilderness pg. 133](source:ultimate_wilderness)   ",
 				"**CR** 4; **XP* 1,200   ",
 				"CN variant haunt (20-ft. radius)   ",
 				"**Aura** moderate enchantment (compulsion)   ",
 				"**Caster Level** 7th   ",
 				"**Notice** Perception DC 10 (to notice nearby strange footprints and hear rustling in nearby underbrush)   ",
 				"**hp** 8; **Weakness** negative energy (see [echoes of the first world](rule:echoes_of_the_first_world)); **Trigger** proximity; **Reset** 1 week   ",
-				"**Effect** Strange animal noises pervade the underbrush within the area of the echo, and strange tracks can be easily discovered. Non-fey viewing the tracks are fascinated by them and are compelled to follow (DC 16 Will negates). Each creature that fails this save follows a different set of tracks only it can perceive, moving in a random direction for up to 1 minute at a speed of 20 feet per round. This effect continues even if the creature leaves the echo's area. At the end of each of its turns following the tracks, a creature can attempt a new Will saving throw to negate the effect. If it fails three such saving throws, the creature must follow the tracks for the remaining duration. [Break enchantment](spell:Break_enchantment) or a similar effect cast on an affected creature removes this compulsion. This is a mind-affecting effect.   ",
+				"**Effect** Strange animal noises pervade the underbrush within the area of the echo, and strange tracks can be easily discovered. Non-fey viewing the tracks are fascinated by them and are compelled to follow (DC 16 Will negates). Each creature that fails this save follows a different set of tracks only it can perceive, moving in a random direction for up to 1 minute at a speed of 20 feet per round. This effect continues even if the creature leaves the echo's area. At the end of each of its turns following the tracks, a creature can attempt a new Will saving throw to negate the effect. If it fails three such saving throws, the creature must follow the tracks for the remaining duration. [Break enchantment](spell:break_enchantment) or a similar effect cast on an affected creature removes this compulsion. This is a mind-affecting effect.   ",
 				"**Destruction** A character who succeeds at her initial saving throw against the compulsion can attempt to deal damage against the echo by disrupting the original tracks. This requires the use of Survival as a full-round action. With a successful DC 24 Survival check, such a character deals 1d6 points of damage to the echo. If the result of the Survival check used in this way is a natural 20, she deals 2d6 points of damage to the echo instead. Casting [find the path](spell:find_the_path) and touching the tracks (treating it as a creature for this use) destroys the haunt instantly."
 			]
 		},
@@ -255,7 +255,7 @@
 			"description": [
 				"## Belated Arrival",
 				"",
-				"**Source** [Horror Adventures pg. 176](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 176](source:horror_adventures)   ",
 				"**CR** 5; **XP* 1,600   ",
 				"N chained haunt (25-ft. radius)   ",
 				"**Caster Level** 9th   ",
@@ -278,7 +278,7 @@
 			"description": [
 				"## Bleeding Walls",
 				"",
-				"**Source** [GameMastery Guide pg. 243](source:GameMastery_Guide)   ",
+				"**Source** [GameMastery Guide pg. 243](source:gamemastery_guide)   ",
 				"**CR** 5; **XP* 1,600   ",
 				"CE haunt (5ft. by 20 ft. hallway)   ",
 				"**Caster Level** 5th   ",
@@ -297,7 +297,7 @@
 			"description": [
 				"## Spectral Vermin",
 				"",
-				"**Source** [Occult Adventures pg. 231](source:Occult_Adventures)   ",
+				"**Source** [Occult Adventures pg. 231](source:occult_adventures)   ",
 				"**CR** 5; **XP* 1,600   ",
 				"CE free-roaming persistent vaporous haunt (30-ft.-by-30-ft. room)   ",
 				"**Caster Level** 5th   ",
@@ -320,7 +320,7 @@
 			"description": [
 				"## Arcane Storm",
 				"",
-				"**Source** [Horror Adventures pg. 174](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 174](source:horror_adventures)   ",
 				"**CR** 6; **XP* 2,400   ",
 				"N persistent variant haunt (30-ft. radius)   ",
 				"**Aura** faint evocation   ",
@@ -348,7 +348,7 @@
 			"description": [
 				"## Death of Curchanus",
 				"",
-				"**Source** [Horror Realms pg. 62](source:Horror_Realms)   ",
+				"**Source** [Horror Realms pg. 62](source:horror_realms)   ",
 				"**CR** 6; **XP* 2,400   ",
 				"CE persistent variant haunt (20-ft. radius)   ",
 				"**Caster Level** 6th; Deity Lamashtu   ",
@@ -379,7 +379,7 @@
 			"description": [
 				"## Unsolved Murder",
 				"",
-				"**Source** [Horror Adventures pg. 176](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 176](source:horror_adventures)   ",
 				"**CR** 6; **XP* 2,400   ",
 				"NE latent persistent possessing haunt (up to a 30-ft. radius)   ",
 				"**Caster Level** 6th   ",
@@ -402,13 +402,13 @@
 			"description": [
 				"## Betrayal",
 				"",
-				"**Source** [Horror Adventures pg. 176](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 176](source:horror_adventures)   ",
 				"**CR** 7; **XP* 3,200   ",
 				"CE persistent haunt (30-ft. radius)   ",
 				"**Caster Level** 7th   ",
 				"**Notice** Perception or Sense Motive DC 20 (to see the outllines of a dozen cloaked figures begin to form or feel a suden sense of suspicion)   ",
 				"**hp** 31; **Trigger** proximity; **Reset** 1 day   ",
-				"**Effect** As dozens of cloaked figures swarm the area, the line between friend and foe blurs, and paranoia descends upon everyone within the haunt's area, as per [confusion](spell:confusion) (Will DC 15 negates). Furthermore, creatures within the haunt's area must attempt a DC 15 Will saving throw against the haunt's curse. Until it is removed, the curse forces its victims to attempt saving throws against spells, including those designated harmless. Additionally, the victims cannot benefit from any effect that requires them to treat another creature as an ally, such as flanking or aid another. [Remove curse](spell:Remove_curse) can remove this effect.   ",
+				"**Effect** As dozens of cloaked figures swarm the area, the line between friend and foe blurs, and paranoia descends upon everyone within the haunt's area, as per [confusion](spell:confusion) (Will DC 15 negates). Furthermore, creatures within the haunt's area must attempt a DC 15 Will saving throw against the haunt's curse. Until it is removed, the curse forces its victims to attempt saving throws against spells, including those designated harmless. Additionally, the victims cannot benefit from any effect that requires them to treat another creature as an ally, such as flanking or aid another. [Remove curse](spell:remove_curse) can remove this effect.   ",
 				"**Destruction** The betrayal haunt is destroyed if a victim falls unconscious or dies because of damage it took on behalf of another creature in the area. Any spell or ability that allows for the transfer of damage, such as [shield other](spell:shield_other) or a [life oracle's lifelink ability](class/ability/mystery:life), satisfies this haunt's requirement. This doesn't work if the characters in question colluded to manufacture the damage transfer to destroy the haunt; it works only if it was a truly selfless act of protecting another.",
 				"",
 				"**Description**",
@@ -425,14 +425,14 @@
 			"description": [
 				"## Drought's End",
 				"",
-				"**Source** [Horror Realms pg. 62](source:Horror_Realms)   ",
+				"**Source** [Horror Realms pg. 62](source:horror_realms)   ",
 				"**CR** 7; **XP* 3,200   ",
 				"N persistent variant haunt (30-ft. radius)   ",
 				"**Caster Level** 7th; Deity Gozreh   ",
 				"**Notice** Perception DC 0 (to hear a rumbling thunderstorm)   ",
 				"**hp** 31; **Weakness** chaotic, evil, good, or lawful effects; **Trigger** proximity; **Reset** 1 day   ",
 				"**Effect** A fierce storm rages, bringing [windstorm-strength winds and pouring rain](rule:windstorm-strength_winds_and_pouring_rain). Each round for 6 rounds, a bolt of lightning strikes a random creature within the area, dealing 5d10 points of damage (Reflex DC 17 half). A worshiper of Gozreh who stays in the area of the resonance for its entire 6-round duration gains the ability to cast each of the following spells once, with a caster level equal to her Hit Dice: [alter winds](spell:alter_winds), [resist energy](spell:resist_energy) (electricity only), and [water breathing](spell:water_breathing). The ability to cast these spells persists until it is expended.   ",
-				"**Destruction** [Control weather](spell:Control_weather) immediately destroys this haunt. When the spell is cast to destroy a drought's end, the spell has no other effect on the surrounding weather.",
+				"**Destruction** [Control weather](spell:control_weather) immediately destroys this haunt. When the spell is cast to destroy a drought's end, the spell has no other effect on the surrounding weather.",
 				"",
 				"**Description**",
 				"",
@@ -456,7 +456,7 @@
 			"description": [
 				"## Malignant Weapon",
 				"",
-				"**Source** [Occult Adventures pg. 231](source:Occult_Adventures)   ",
+				"**Source** [Occult Adventures pg. 231](source:occult_adventures)   ",
 				"**CR** 7; **XP* 3,200   ",
 				"LE persistent item-bound haunt (haunted object affecting up to a 35-ft. radius)   ",
 				"**Caster Level** 7th   ",
@@ -479,7 +479,7 @@
 			"description": [
 				"## Bountiful Feat",
 				"",
-				"**Source** [Pathfinder #144: Midwives to Death pg. 65](source:Pathfinder_#144:_Midwives_to_Death)   ",
+				"**Source** [Pathfinder #144: Midwives to Death pg. 65](source:pathfinder_#144_midwives_to_death)   ",
 				"**CR** 8; **XP* 4,800   ",
 				"N persistent botanical haunt (up to 40-foot radius)   ",
 				"**Caster Level** 8th   ",
@@ -506,7 +506,7 @@
 			"description": [
 				"## Dimensional Tear",
 				"",
-				"**Source** [Ultimate Wilderness pg. 133](source:Ultimate_Wilderness)   ",
+				"**Source** [Ultimate Wilderness pg. 133](source:ultimate_wilderness)   ",
 				"**CR** 8; **XP* 4,800   ",
 				"N persistent variant haunt (30-ft. radius)   ",
 				"**Aura** moderate conjuration (calling)   ",
@@ -527,7 +527,7 @@
 			"description": [
 				"## Robotic Reactivation",
 				"",
-				"**Source** [Horror Realms pg. 63](source:Horror_Realms)   ",
+				"**Source** [Horror Realms pg. 63](source:horror_realms)   ",
 				"**CR** 8; **XP* 4,800   ",
 				"N chained persistent variant haunt (20-ft. radius centered on the activated robot)   ",
 				"**Caster Level** 8th   ",
@@ -544,7 +544,7 @@
 				"",
 				"Advanced technology remains a mystery to most denizens of Golarion. In places where these wonders lie abandoned, such as the wrecks of the starships that crashed on Numerian soil or the mysterious halls of the Empty Lands of Apostae, strange interactions with unstable power sources can coax circuits back to life. GMs might consider using these same rules to handle other advanced magic and technology, such as a malfunctioning Shory sky city or a newly uncovered marvel of Azlanti electro-thaumaturgy.",
 				"",
-				"The animating force behind technological surges is not life energy, but electricity. As such, technological surges cannot be harmed with positive or negative energy. Instead, stopping them requires shutting down their function. Anyone trained in Disable Device can use the skill to attempt to disrupt the surge, and characters with the [Technologist](feat:Technologist) feat can use Knowledge (engineering) instead and gain a +5 bonus on either skill check. The DC of the skill check is equal to 15 + the haunt's CR. Each successful check deals 5 points of damage plus 1 additional point of damage per point by which the result exceeds the DC. A [discharge](spell:discharge) or [greater discharge](spell:greater_discharge) spell that targets a technological surge inflicts damage equal to the spell's caster level (for [discharge](spell:discharge)) or 1d4 points per caster level (for [greater discharge](spell:greater_discharge)). Electromagnetic effects, such as those caused by an EMP pistol or rifle, inflict normal damage to a technological surge. Other similar effects may well have an impact on a surge at the GM's discretion.",
+				"The animating force behind technological surges is not life energy, but electricity. As such, technological surges cannot be harmed with positive or negative energy. Instead, stopping them requires shutting down their function. Anyone trained in Disable Device can use the skill to attempt to disrupt the surge, and characters with the [Technologist](feat:technologist) feat can use Knowledge (engineering) instead and gain a +5 bonus on either skill check. The DC of the skill check is equal to 15 + the haunt's CR. Each successful check deals 5 points of damage plus 1 additional point of damage per point by which the result exceeds the DC. A [discharge](spell:discharge) or [greater discharge](spell:greater_discharge) spell that targets a technological surge inflicts damage equal to the spell's caster level (for [discharge](spell:discharge)) or 1d4 points per caster level (for [greater discharge](spell:greater_discharge)). Electromagnetic effects, such as those caused by an EMP pistol or rifle, inflict normal damage to a technological surge. Other similar effects may well have an impact on a surge at the GM's discretion.",
 				"",
 				"A technological surge's caster level represents its strength. Technological surges are completely nonmagical. Their effects cannot be disrupted with [antimagic field](spell:antimagic_field), [dispel magic](spell:dispel_magic), or similar abilities, even when they replicate spell effects. All technological surges are neutral aligned."
 			]
@@ -558,7 +558,7 @@
 			"description": [
 				"## Watery Grave",
 				"",
-				"**Source** [Horror Adventures pg. 177](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 177](source:horror_adventures)   ",
 				"**CR** 8; **XP* 4,800   ",
 				"CE chained free-roaming persistent haunt (one ship, up to a 40-ft. radius)   ",
 				"**Caster Level** 9th   ",
@@ -581,7 +581,7 @@
 			"description": [
 				"## Devouring Maws",
 				"",
-				"**Source** [Horror Adventures pg. 177](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 177](source:horror_adventures)   ",
 				"**CR** 9; **XP* 6,400   ",
 				"CE persistent haunt (30-ft. radius)   ",
 				"**Caster Level** 9th   ",
@@ -604,7 +604,7 @@
 			"description": [
 				"## Insidious Presence",
 				"",
-				"**Source** [Occult Adventures pg. 231](source:Occult_Adventures)   ",
+				"**Source** [Occult Adventures pg. 231](source:occult_adventures)   ",
 				"**CR** 9; **XP* 6,400   ",
 				"NE possessing persistent spiteful haunt (45-ft. radius when not possessing a creature)   ",
 				"**Caster Level** 10th   ",
@@ -629,7 +629,7 @@
 			"description": [
 				"## Network of Lasers",
 				"",
-				"**Source** [Horror Realms pg. 63](source:Horror_Realms)   ",
+				"**Source** [Horror Realms pg. 63](source:horror_realms)   ",
 				"**CR** 9; **XP* 6,400   ",
 				"N persistent variant haunt (up to 45-ft.-square room)   ",
 				"**Caster Level** 9th   ",
@@ -646,7 +646,7 @@
 				"",
 				"Advanced technology remains a mystery to most denizens of Golarion. In places where these wonders lie abandoned, such as the wrecks of the starships that crashed on Numerian soil or the mysterious halls of the Empty Lands of Apostae, strange interactions with unstable power sources can coax circuits back to life. GMs might consider using these same rules to handle other advanced magic and technology, such as a malfunctioning Shory sky city or a newly uncovered marvel of Azlanti electro-thaumaturgy.",
 				"",
-				"The animating force behind technological surges is not life energy, but electricity. As such, technological surges cannot be harmed with positive or negative energy. Instead, stopping them requires shutting down their function. Anyone trained in Disable Device can use the skill to attempt to disrupt the surge, and characters with the [Technologist](feat:Technologist) feat can use Knowledge (engineering) instead and gain a +5 bonus on either skill check. The DC of the skill check is equal to 15 + the haunt's CR. Each successful check deals 5 points of damage plus 1 additional point of damage per point by which the result exceeds the DC. A [discharge](spell:discharge) or [greater discharge](spell:greater_discharge) spell that targets a technological surge inflicts damage equal to the spell's caster level (for [discharge](spell:discharge)) or 1d4 points per caster level (for [greater discharge](spell:greater_discharge)). Electromagnetic effects, such as those caused by an EMP pistol or rifle, inflict normal damage to a technological surge. Other similar effects may well have an impact on a surge at the GM's discretion.",
+				"The animating force behind technological surges is not life energy, but electricity. As such, technological surges cannot be harmed with positive or negative energy. Instead, stopping them requires shutting down their function. Anyone trained in Disable Device can use the skill to attempt to disrupt the surge, and characters with the [Technologist](feat:technologist) feat can use Knowledge (engineering) instead and gain a +5 bonus on either skill check. The DC of the skill check is equal to 15 + the haunt's CR. Each successful check deals 5 points of damage plus 1 additional point of damage per point by which the result exceeds the DC. A [discharge](spell:discharge) or [greater discharge](spell:greater_discharge) spell that targets a technological surge inflicts damage equal to the spell's caster level (for [discharge](spell:discharge)) or 1d4 points per caster level (for [greater discharge](spell:greater_discharge)). Electromagnetic effects, such as those caused by an EMP pistol or rifle, inflict normal damage to a technological surge. Other similar effects may well have an impact on a surge at the GM's discretion.",
 				"",
 				"A technological surge's caster level represents its strength. Technological surges are completely nonmagical. Their effects cannot be disrupted with [antimagic field](spell:antimagic_field), [dispel magic](spell:dispel_magic), or similar abilities, even when they replicate spell effects. All technological surges are neutral aligned."
 			]
@@ -660,7 +660,7 @@
 			"description": [
 				"## Network of Lasers",
 				"",
-				"**Source** [Horror Realms pg. 61](source:Horror_Realms)   ",
+				"**Source** [Horror Realms pg. 61](source:horror_realms)   ",
 				"**CR** 9; **XP* 6,400   ",
 				"CN persistent variant haunt (40-ft. radius)   ",
 				"**Caster Level** 9th   ",
@@ -692,7 +692,7 @@
 			"description": [
 				"## Enchanting Demise",
 				"",
-				"**Source** [Ultimate Wilderness pg. 133](source:Ultimate_Wilderness)   ",
+				"**Source** [Ultimate Wilderness pg. 133](source:ultimate_wilderness)   ",
 				"**CR** 10; **XP* 9,600   ",
 				"CN persistent variant haunt (80-ft. radius)   ",
 				"**Aura** moderate enchantment (compulsion) [mind-affecting]   ",
@@ -701,7 +701,7 @@
 				"**hp** 45; **Weakness** negative energy (see [echoes of the first world](rule:echoes_of_the_first_world)); **Trigger** proximity   ",
 				"**Effect** Every minute a creature spends within an enchanting demise, that creature must succeed at a DC 25 Will save or fall asleep as though affected by [deep slumber](spell:deep_slumber). Creatures that fail this save and fall asleep take 1 point of Wisdom drain each minute they sleep within the area of an enchanting demise. A creature that succeeds at this Will saving throw remains awake, but it must attempt a new saving throw after 1 minute if it does not leave the enchanting demise's area. A creature reduced to 0 Wisdom by this effect dies and blooms into a field of colorful wildflowers with a radius of 5 feet per Hit Die the creature had. If this radius would extend beyond the radius of the enchanting demise, it instead expands the radius of the echo out to the border of the created wildflowers. The presence of such wildflowers reduces the Perception DC to notice the echo by 2.   ",
 				"**Benefit** Sleeping creatures take 1d4 points of Wisdom drain each minute instead of 1 per minute.   ",
-				"**Destruction** A character with the [Lucid Dreamer](feat:Lucid_Dreamer) feat who falls asleep in an enchanting demise intrusion can attempt to destroy it permanently in the Dimension of Dreams. When such a character falls asleep, he receives one attempt to successfully form a [lucid body](rule:lucid_body) without disadvantage. If he fails this check, he does not successfully lucid dream and remains in a dreamless slumber. If the character succeeds at this check, he can immediately attempt a DC 15 Charisma check to affect the boundary between the Dimension of Dreams, the Material Plane, and the First World. If he succeeds, the enchanting demise is destroyed and all sleeping creatures in its area wake up. If the character fails, he immediately ceases lucid dreaming and falls into a deep, dreamless sleep."
+				"**Destruction** A character with the [Lucid Dreamer](feat:lucid_dreamer) feat who falls asleep in an enchanting demise intrusion can attempt to destroy it permanently in the Dimension of Dreams. When such a character falls asleep, he receives one attempt to successfully form a [lucid body](rule:lucid_body) without disadvantage. If he fails this check, he does not successfully lucid dream and remains in a dreamless slumber. If the character succeeds at this check, he can immediately attempt a DC 15 Charisma check to affect the boundary between the Dimension of Dreams, the Material Plane, and the First World. If he succeeds, the enchanting demise is destroyed and all sleeping creatures in its area wake up. If the character fails, he immediately ceases lucid dreaming and falls into a deep, dreamless sleep."
 			]
 		},
 		{
@@ -713,7 +713,7 @@
 			"description": [
 				"## Living Decay",
 				"",
-				"**Source** [Horror Adventures pg. 177](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 177](source:horror_adventures)   ",
 				"**CR** 10; **XP* 9,600   ",
 				"NE persistent haunt (50-ft. radius)   ",
 				"**Caster Level** 9th   ",
@@ -742,7 +742,7 @@
 			"description": [
 				"## Maddening Influence",
 				"",
-				"**Source** [Horror Adventures pg. 173](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 173](source:horror_adventures)   ",
 				"**CR** 10; **XP* 9,600   ",
 				"CE free-roaming persistent variant haunt (30-ft. radiu)   ",
 				"**Caster Level** 9th   ",
@@ -767,7 +767,7 @@
 			"description": [
 				"## Psychic Echo (Anger)",
 				"",
-				"**Source** [Horror Adventures pg. 174](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 174](source:horror_adventures)   ",
 				"**CR** 10; **XP* 9,600   ",
 				"N persistent variant haunt (30-ft. radius)   ",
 				"**Caster Level** 11th   ",
@@ -778,9 +778,9 @@
 				"",
 				"**Description**",
 				"",
-				"Sometimes, the collective emotional energy of significant or traumatic events creates a lasting psychic impression, even in places not associated with death. These psychic haunts are mind-affecting emotion effects. A character who uses [analyze aura](spell:analyze_aura) or the [read aura skill unlock](skill:Perception) on a psychic haunt's area automatically detects the haunt and receives cryptic clues about how to put it to rest.",
+				"Sometimes, the collective emotional energy of significant or traumatic events creates a lasting psychic impression, even in places not associated with death. These psychic haunts are mind-affecting emotion effects. A character who uses [analyze aura](spell:analyze_aura) or the [read aura skill unlock](skill:perception) on a psychic haunt's area automatically detects the haunt and receives cryptic clues about how to put it to rest.",
 				"",
-				"Every psychic haunt focuses on a specific emotion, and when targeted by or within the area of effect of an emotion spell or effect that is not connected to the associated emotion, they take damage equal to three times the effect's spell level (each spell deals damage to the haunt once, regardless of its duration). [Calm emotions](spell:Calm_emotions) damages psychic haunts regardless of their associated emotion, and an emotion effect without a spell level deals an amount of damage equal to the HD of the creature who created the effect. A character can calm a psychic haunt with a Diplomacy check (DC = 15 + the haunt's CR). If successful, the haunt takes 5 points of damage plus additional damage equal to the amount the character exceeded the DC.",
+				"Every psychic haunt focuses on a specific emotion, and when targeted by or within the area of effect of an emotion spell or effect that is not connected to the associated emotion, they take damage equal to three times the effect's spell level (each spell deals damage to the haunt once, regardless of its duration). [Calm emotions](spell:calm_emotions) damages psychic haunts regardless of their associated emotion, and an emotion effect without a spell level deals an amount of damage equal to the HD of the creature who created the effect. A character can calm a psychic haunt with a Diplomacy check (DC = 15 + the haunt's CR). If successful, the haunt takes 5 points of damage plus additional damage equal to the amount the character exceeded the DC.",
 				"",
 				"The psychic echo below lies in the heart of an abandoned village. A group of raiders drove the villagers from their home by the sword, but an echo of the villagers' fury persists, stoking hatred against all members of the raiders' ethnic group."
 			]
@@ -794,9 +794,9 @@
 			"description": [
 				"## Servants of the Book",
 				"",
-				"**Source** [Book of the Damned pg. 167](source:Book_of_the_Damned)   ",
+				"**Source** [Book of the Damned pg. 167](source:book_of_the_damned)   ",
 				"**CR** 10; **XP* 9,600   ",
-				"NE haunt (20-ft.-radius circle centered on the [Book of the Damned](magic/artifact:Book_of_the_Damned))   ",
+				"NE haunt (20-ft.-radius circle centered on the [Book of the Damned](magic/artifact:book_of_the_damned))   ",
 				"**Caster Level** 10th   ",
 				"**Notice** Perception DC 28 (to hear eerie changing and faint screams)   ",
 				"**hp** 20; **Trigger** proximity; **Reset** 1 day   ",
@@ -819,7 +819,7 @@
 			"description": [
 				"## Eternal Pyre",
 				"",
-				"**Source** [Horror Adventures pg. 178](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 178](source:horror_adventures)   ",
 				"**CR** 11; **XP* 12,800   ",
 				"CE chained fast free-roaming persistent spiteful tenacious haunt (30-ft. radius)   ",
 				"**Caster Level** 11th   ",
@@ -842,7 +842,7 @@
 			"description": [
 				"## Spawn of the Abyss",
 				"",
-				"**Source** [Horror Adventures pg. 172](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 172](source:horror_adventures)   ",
 				"**CR** 11; **XP* 12,800   ",
 				"CN persistent vaporous variant haunt (40-ft. radius)   ",
 				"**Aura** Aura strong conjuration   ",
@@ -877,7 +877,7 @@
 			"description": [
 				"## Breach to the Quickening",
 				"",
-				"**Source** [Horror Realms pg. 60](source:Horror_Realms)   ",
+				"**Source** [Horror Realms pg. 60](source:horror_realms)   ",
 				"**CR** 12; **XP* 19,200   ",
 				"CN persistent variant haunt (30-ft. radius)   ",
 				"**Caster Level** 12th   ",
@@ -917,7 +917,7 @@
 			"description": [
 				"## Dissolving Vat",
 				"",
-				"**Source** [Horror Adventures pg. 178](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 178](source:horror_adventures)   ",
 				"**CR** 12; **XP* 19,200   ",
 				"CE fast persistent haunt (60-ft. radius centered around the vat)   ",
 				"**Caster Level** 11th   ",
@@ -940,7 +940,7 @@
 			"description": [
 				"## Heart Explosion",
 				"",
-				"**Source** [Horror Adventures pg. 178](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 178](source:horror_adventures)   ",
 				"**CR** 13; **XP* 25,600   ",
 				"CE fast persistent haunt (60-ft. radius)   ",
 				"**Caster Level** 13th   ",
@@ -963,7 +963,7 @@
 			"description": [
 				"## Crushing Terror",
 				"",
-				"**Source** [Horror Adventures pg. 179](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 179](source:horror_adventures)   ",
 				"**CR** 14; **XP* 38,400   ",
 				"NE persistent haunt (30-ft. radius)   ",
 				"**Caster Level** 13th   ",
@@ -986,7 +986,7 @@
 			"description": [
 				"## Final Soldier",
 				"",
-				"**Source** [Horror Adventures pg. 179](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 179](source:horror_adventures)   ",
 				"**CR** 15; **XP* 51,200   ",
 				"NE belligerent chained fast persistent tenacious vaporous haunt (60-ft. radius)   ",
 				"**Caster Level** 15th   ",
@@ -1009,7 +1009,7 @@
 			"description": [
 				"## Fallen from the Sky",
 				"",
-				"**Source** [Horror Adventures pg. 179](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 179](source:horror_adventures)   ",
 				"**CR** 16; **XP* 76,800   ",
 				"NE fast increased area persistent unyielding haunt (160-ft.-radius area aong the base and upper edge of a 200-ft.-tall cliff)   ",
 				"**Caster Level** 16th   ",
@@ -1032,7 +1032,7 @@
 			"description": [
 				"## Haunted Dungeon",
 				"",
-				"**Source** [Horror Adventures pg. 180](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 180](source:horror_adventures)   ",
 				"**CR** 17; **XP* 102,400   ",
 				"CE belligerent elusive free-roaming increased area persistent tenacious haunt (entire structure, up to a 170-ft. radius)   ",
 				"**Caster Level** 17th   ",
@@ -1055,7 +1055,7 @@
 			"description": [
 				"## Flayed Suicide",
 				"",
-				"**Source** [Horror Adventures pg. 180](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 180](source:horror_adventures)   ",
 				"**CR** 18; **XP* 153,600   ",
 				"NE belligerent persistent unyielding haunt (up to a 90-ft. radius)   ",
 				"**Caster Level** 20th   ",
@@ -1078,7 +1078,7 @@
 			"description": [
 				"## Soul Vortex",
 				"",
-				"**Source** [Horror Adventures pg. 180](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 180](source:horror_adventures)   ",
 				"**CR** 19; **XP* 204,800   ",
 				"NE belligerent fast persistent unyielding haunt (up to a 95-ft.-radius area)   ",
 				"**Caster Level** 20th   ",
@@ -1101,7 +1101,7 @@
 			"description": [
 				"## Twisted Wish",
 				"",
-				"**Source** [Horror Adventures pg. 181](source:Horror_Adventures)   ",
+				"**Source** [Horror Adventures pg. 181](source:horror_adventures)   ",
 				"**CR** 20; **XP* 307,200   ",
 				"LE belligerent free-roaming unyielding haunt (up to a 100-ft. radius))   ",
 				"**Caster Level** 20th   ",

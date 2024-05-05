@@ -9,7 +9,7 @@
 		"description": [
 			"## Blood God Disciple",
 			"",
-			"**Source** [Advanced Race Guide pg. 53](source:Advanced_Race_Guide)   ",
+			"**Source** [Advanced Race Guide pg. 53](source:advanced_race_guide)   ",
 			"A half-orc summoner who devotes himself to one of the bloody orc gods may believe his eidolon is an avatar of that god rather than a mere supernatural creature. A blood god disciple generally fights by the avatar's side and offers it blood sacrifices in exchange for martial prowess. A blood god disciple has the following class features.",
 			"",
 			"**Blood Feast (Su):** At 1st level, a blood god disciple can feed a recently fallen foe to his eidolon, allowing the outsider to channel some of its power into the summoner. The eidolon must spend a standard action to eat some of the opponent, which must be a living, corporeal creature killed or knocked unconscious by the eidolon or summoner in the past minute. This eating deals damage to the target as if the eidolon had attacked it with one natural attack (typically a bite). The fallen creature must have at least half as many Hit Dice as the summoner. Once the feeding is complete, the summoner may manifest one 1-point evolution. This lasts for 1 minute. The evolution's effects use the summoner's Hit Dice and ability scores rather than the eidolon's. The blood god disciple can use this ability a number of times per day equal to 3 + his Charisma modifier. He may only apply one use of this ability at a time (using it a second time replaces any evolution manifested with this ability), and can only manifest evolutions his eidolon has.",
@@ -41,7 +41,7 @@
 		"description": [
 			"## Blood Summoner",
 			"",
-			"**Source** [Champions of Corruption pg. 24](source:Champions_of_Corruption)   ",
+			"**Source** [Champions of Corruption pg. 24](source:champions_of_corruption)   ",
 			"A blood summoner conjures an eidolon born from violence and blood. These cruel spellcasters are common among the god-callers of now-shattered Sarkoris, where the influence of the Worldwound has warped them into beings of chilling malevolence.",
 			"",
 			"**Skills:** A blood summoner adds Heal to his list of class skills.",
@@ -70,7 +70,7 @@
 		"description": [
 			"## Broodmaster",
 			"",
-			"**Source** [Ultimate Magic pg. 78](source:Ultimate_Magic)   ",
+			"**Source** [Ultimate Magic pg. 78](source:ultimate_magic)   ",
 			"Most summoners bond with one eidolon for their entire lives, but the broodmaster forges a link with multiple smaller eidolons that make up his brood. Separately, a broodmaster's eidolons are no match for a summoner's single eidolon, but taken as a whole, an eidolon brood makes up in quantity what it lacks in individual power.",
 			"",
 			"**Eidolon Brood:** At 2nd level, instead of a single eidolon, a broodmaster summons two Small eidolons to his side, each less powerful than the single eidolon of a standard summoner. Each eidolon has it own base form and associated base statistics and free evolutions. Regardless of the number of eidolons in the brood, each eidolon has the same base attack bonus and base saving throw bonuses, but the rest of the eidolons' base statistics must be divided between the eidolons, including Hit Dice (minimum 1), skill points, number of feats, armor bonus, Str/Dex bonus, evolution pool (but see below), and maximum number of natural attacks. Individual eidolons in the brood must purchase evolutions separately. Once a broodmaster decides on the forms and abilities of his eidolons, they cannot be changed until the summoner gains a level.",
@@ -121,7 +121,7 @@
 		"description": [
 			"## Counter-Summoner",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 8](source:Monster_Summoner's_Handbook)   ",
+			"**Source** [Monster Summoner's Handbook pg. 8](source:monster_summoner's_handbook)   ",
 			"While most summoners excel at conjuring monsters, there are those who focus instead on disrupting the conjurations of opponents. The counter-summoner harnesses powerful abjuration magic to instantly thwart the conjuration and summoning abilities of other casters, though at the cost of weakening his own powers of conjuration.",
 			"",
 			"**Counter-Summon (Su):** At 1st level, a counter-summoner can attempt to counter a conjuration spell cast by another creature. He must identify the spell being cast as normal for counterspelling. If he does so, he can attempt to counter the spell as a swift or immediate action. To counter the spell, the counter-summoner must attempt a dispel check as if using dispel magic. If the spell being countered is a summon monster or summon nature's ally spell, the counter-summoner gains a bonus on the dispel check. The counter-summoner can use this ability a number of times per day equal to 3 his Charisma modifier. This replaces summon monster.",
@@ -147,7 +147,7 @@
 		"description": [
 			"## Evolutionist",
 			"",
-			"**Source** [Ultimate Magic pg. 79](source:Ultimate_Magic)   ",
+			"**Source** [Ultimate Magic pg. 79](source:ultimate_magic)   ",
 			"Changing an eidolon's evolutions is normally a slow process. As a summoner progresses in levels, his control over his eidolon's abilities increases. But an evolutionist possesses greater power over his eidolon's form, and is able to evolve his eidolon and its abilities to meet any challenge or face any threat as it comes up, seemingly on a whim.",
 			"",
 			"**Mutate Eidolon (Su):** At 6th level, an evolutionist can change his eidolon's evolutions as if he had gained a level. To mutate his eidolon, the evolutionist must perform an arcane ritual that requires 24 hours of uninterrupted concentration and costs 200 gp per summoner level in material components. This ability replaces maker's call.",
@@ -170,7 +170,7 @@
 		"description": [
 			"## First Worlder",
 			"",
-			"**Source** [Inner Sea Magic pg. 35](source:Inner_Sea_Magic)   ",
+			"**Source** [Inner Sea Magic pg. 35](source:inner_sea_magic)   ",
 			"Most summoners have a close connection to creatures from the farthest reaches of the planes. A few have a primal connection to nature, and their power is tied to the First World. It is not unusual for these summoners to associate with druids, for like druids, first worlders have a powerful tie to the natural world. Some first worlders are driven half-mad by the strange energies and intelligences that seep into their minds and bodies, though, and these poor souls are prone to lash out at loggers, druids, or innocent passersby without considering whether or not they are threats. A first worlder's eidolon usually resembles a fey creature or a plant monster, though some are fantastic otherworldly animals with exaggerated features. A first worlder has the following class features.",
 			"",
 			"**Summon Nature's Ally (Sp):** Starting at 1st level, a first worlder can cast summon nature's ally a number of times per day equal to 3 + his Charisma modifier. At levels where a summoner would gain a more powerful summon monster spell as a spell-like ability, he instead gains the equivalent summon nature's ally spell (at 19th level, he can use summon nature's ally IX or gate). When a first worlder gains a summon nature's ally spell as a spell-like ability, he adds it to his class spell list (he must still select it as a spell known if he wants to cast it as an actual spell). This ability otherwise replaces the summon monster ability of a normal summoner.",
@@ -219,7 +219,7 @@
 		"description": [
 			"## God Caller",
 			"",
-			"**Source** [Inner Sea Intrigue pg. 40](source:Inner_Sea_Intrigue)   ",
+			"**Source** [Inner Sea Intrigue pg. 40](source:inner_sea_intrigue)   ",
 			"God callers follow a fractured tradition that originated in the now-lost nation of Sarkoris. They speak to an assortment of ancient divine powers to lead their communities and sometimes stir up reformations in faiths with ideals similar to their personal convictions. Any summoner (including the summoner from Pathfinder Unchained) can select the god caller archetype.",
 			"",
 			"**Class Skills:** A god caller adds Diplomacy and Intimidate to his list of class skills, instead of Knowledge (dungeoneering, engineering, geography, and nature) and Use Magic Device.",
@@ -260,7 +260,7 @@
 		"description": [
 			"## Leshy Caller",
 			"",
-			"**Source** [Ultimate Wilderness pg. 94](source:Ultimate_Wilderness)   ",
+			"**Source** [Ultimate Wilderness pg. 94](source:ultimate_wilderness)   ",
 			"A leshy caller summons creatures from the First World and forges a bond with a leshy eidolon.",
 			"",
 			"**Leshy Eidolon:** When a leshy caller summons her eidolon, the eidolon's body is created from extraplanar plant material and imbued with the intelligence of a leshy spirit. Its statistics are changed from those of a standard eidolon as follows. An unchained summoner uses the plant eidolon subtype instead of one of the subtypes listed in Pathfinder RPG Pathfinder Unchained.",
@@ -302,7 +302,7 @@
 		"description": [
 			"## Master Summoner",
 			"",
-			"**Source** [Ultimate Magic pg. 80](source:Ultimate_Magic)   ",
+			"**Source** [Ultimate Magic pg. 80](source:ultimate_magic)   ",
 			"Most summoners forge a bond with a single, powerful eidolon, but some summoners seek to control a variety of creatures. The master summoner sacrifices the power of his eidolon in favor of summoning a plethora of otherworldly creatures to aid him.",
 			"",
 			"**Lesser Eidolon:** A master summoner's class level is halved (minimum 1) for the purposes of determining his eidolon's abilities, Hit Dice, evolution pool, and so on. The eidolon otherwise functions as normal. This ability replaces the summoner's normal eidolon ability.",
@@ -330,7 +330,7 @@
 		"description": [
 			"## Morphic Savant",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 16](source:Monster_Summoner's_Handbook)   ",
+			"**Source** [Monster Summoner's Handbook pg. 16](source:monster_summoner's_handbook)   ",
 			"A morphic savant is an agent of change who draws power from the Abyss, Elysium, or the Maelstrom to fulfill whatever goals strike his fancy. Chaotic evil and chaotic neutral morphic savants often train with Blackfire Adepts in the hopes of learning greater powers of chaotic unmaking, and chaotic good morphic savants are most common as agents of the Bellflower Network.",
 			"",
 			"**Alignment:** Any chaotic.",
@@ -365,7 +365,7 @@
 		"description": [
 			"## Naturalist",
 			"",
-			"**Source** [Advanced Class Guide pg. 123](source:Advanced_Class_Guide)   ",
+			"**Source** [Advanced Class Guide pg. 123](source:advanced_class_guide)   ",
 			"A naturalist is a summoner who is in tune with the natural world, using his magic like a lens to focus various animal aspects onto his eidolon. More akin to a hunter than to other arcane spellcasters, a naturalist instinctively masters the power of such creatures as the bear, wolf, mouse, or tiger to make his exotic eidolon the perfect living tool for battle or stealth, and he eventually discovers how to apply these transformations to himself as well.",
 			"",
 			"**Nature's Call (Sp):** Starting at 1st level, the naturalist can cast summon nature's ally I as a spell like ability a number of times per day equal to 3 + his Charisma modifier. He can only use this ability to summon creatures of the animal, magical beast, or vermin type. This ability otherwise functions as the summon monster I class feature (increasing in level as the naturalist goes up in level and with the same restrictions). This ability replaces summon monster I.",
@@ -398,7 +398,7 @@
 		"description": [
 			"## Pyroclast",
 			"",
-			"**Source** [Pathfinder #95: Anvil of Fire pg. 72](source:Pathfinder_#95:_Anvil_of_Fire)   ",
+			"**Source** [Pathfinder #95: Anvil of Fire pg. 72](source:pathfinder_#95_anvil_of_fire)   ",
 			"Pyroclasts harness the primal elemental energy of magma. Their eidolons often resemble elemental beings.",
 			"",
 			"**Diminished Spellcasting:** A pyroclast receives one fewer spell per day of each level than normal. If this reduces the number of spells for a level to 0, he can cast spells of that level only if his Charisma score grants him bonus spells of that level. This alters the summoner's spells.",
@@ -424,7 +424,7 @@
 		"description": [
 			"## Shadow Caller",
 			"",
-			"**Source** [Advanced Race Guide pg. 110](source:Advanced_Race_Guide)   ",
+			"**Source** [Advanced Race Guide pg. 110](source:advanced_race_guide)   ",
 			"While most summoners can call any manner of creature from across the planes to serve them in combat, supplementing the skills of their eidolon with a diverse range of creatures, others eschew this broad utility and instead concentrate upon calling forth entities from the Shadow Plane. A shadow caller has the following class features.",
 			"",
 			"**Class Skills:** The shadow caller adds Stealth to his list of class skills and removes Use Magic Device from his list of class skills.",
@@ -473,7 +473,7 @@
 		"description": [
 			"## Shaitan Binder",
 			"",
-			"**Source** [Advanced Race Guide pg. 146](source:Advanced_Race_Guide)   ",
+			"**Source** [Advanced Race Guide pg. 146](source:advanced_race_guide)   ",
 			"Shaitan binders call upon a reflection of their genie ancestors to serve as their eidolons. A shaitan binder has the following class features.",
 			"",
 			"**Base Form:** At 1st level, if a shaitan binder's eidolon has the biped base form, it gains a +2 bonus to one ability score. The shaitan binder must make this choice at 1st level. If at any time the shaitan binder's eidolon has another base form, it loses this bonus until it returns to biped form. A shaitan binder's eidolon does not gain the share spells ability.",
@@ -510,7 +510,7 @@
 		"description": [
 			"## Spirit Summoner",
 			"",
-			"**Source** [Advanced Class Guide pg. 123](source:Advanced_Class_Guide)   ",
+			"**Source** [Advanced Class Guide pg. 123](source:advanced_class_guide)   ",
 			"A spirit summoner is an arcane spellcaster whose eidolon is a manifestation of a shamanic spirit. The bond connecting the summoner and this spirit might be friendly, as a member of a tribe giving flesh to his protector spirit, or hostile, as an outlander or rival compelling service from an unwilling spirit. The summoner can draw upon the divine power of this spirit, but is not constrained by the spirit's morals or ethics.",
 			"",
 			"**Spirit (Su):** A spirit summoner forms a mystical bond with one spirit from the shaman class (see page 37). He gains the spirit ability of that spirit and uses his summoner level as his shaman level for determining its effects. The spirit summoner can select spells granted by that spirit as summoner spells known, using the shaman level of the spell as the summoner spell level. The summoner cannot select spirit spells that are above 6th level.",
@@ -547,7 +547,7 @@
 		"description": [
 			"## Storm Caller",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 16](source:Elemental_Master's_Handbook)   ",
+			"**Source** [Elemental Master's Handbook pg. 16](source:elemental_master's_handbook)   ",
 			"Many summoners beckon monsters from the Elemental Planes, but few are as specialized as storm callers, who channel the elemental energies of the Plane of Air. Storm callers are most commonly encountered in areas where thunderstorms appear frequently, including supernaturally stormy places like the Sodden Lands.",
 			"",
 			"**Stormy Eidolon:** A storm caller must select the resistance (electricity) or immunity (electricity) evolution for his eidolon. If the eidolon has neither of these evolutions, it becomes nauseated until it regains one of them.",
@@ -593,7 +593,7 @@
 		"description": [
 			"## Story Summoner",
 			"",
-			"**Source** [The Harrow Handbook pg. 25](source:The_Harrow_Handbook)   ",
+			"**Source** [The Harrow Handbook pg. 25](source:the_harrow_handbook)   ",
 			"Story summoners rely on the harrow to weave the paths they walk, turning their tales into reality. They channel magic through their harrow decks to influence the strange extraplanar beings they summon, bringing familiar and fateful characters to life. Some focus on the more whimsical figures of the harrow, while others bring its darkest icons into the real world.",
 			"",
 			"**Storykin Eidolon:** Unlike most eidolons, a story summoner's eidolon cannot touch or attack creatures warded by protection from evil and similar effects that prevent contact with summoned creatures. As a standard action while his eidolon is summoned, the story summoner can draw a random card from a complete harrow deck he owns. For a number of rounds equal to 1/2 the summoner's class level (minimum 1), the eidolon's alignment changes to match that of the harrow card drawn, and the eidolon gains a +4 enhancement bonus on the ability score linked to the drawn card's suit. The eidolon continues to follow its summoner's orders regardless of its alignment. The story summoner can use this ability a number of times per day equal to 3 + his Charisma modifier.",
@@ -621,7 +621,7 @@
 		"description": [
 			"## Synthesist",
 			"",
-			"**Source** [Ultimate Magic pg. 81](source:Ultimate_Magic)   ",
+			"**Source** [Ultimate Magic pg. 81](source:ultimate_magic)   ",
 			"Rather than summon an eidolon to serve by his side, the synthesist fuses his eidolon's essence to his own. Instead of two creatures, the synthesist is a fusion of the summoner and eidolon into a single being.",
 			"",
 			"**Fused Eidolon:** A synthesist summons the essence of a powerful outsider to meld with his own being. The synthesist wears the eidolon like translucent, living armor. The eidolon mimics all of the synthesist's movements, and the synthesist perceives through the eidolon's senses and speaks through its voice, as the two are now one creature. The synthesist directs all of the eidolon's actions while fused, perceives through its senses, and speaks through its voice, as the two are now one creature.",
@@ -661,7 +661,7 @@
 		"description": [
 			"## Twinned Summoner",
 			"",
-			"**Source** [Legacy of the First World pg. 18](source:Legacy_of_the_First_World)   ",
+			"**Source** [Legacy of the First World pg. 18](source:legacy_of_the_first_world)   ",
 			"Reflecting the connected nature of Imbrex, a twinned summoner and his eidolon appear identical save for any obvious differences, such as evolutions or equipment.",
 			"",
 			"**Twinned Eidolon:** The twinned summoner's eidolon is restricted to the biped base form. An unchained summoner's eidolon is instead restricted to the twinned eidolon subtype (see below). If the summoner's natural size is smaller than Medium, the twinned summoner's eidolon must be Small. This ability may require a different base form or subtype to match the twinned summoner's natural form, at the GM's discretion, if the twinned summoner is not a bipedal creature.",
@@ -693,7 +693,7 @@
 		"description": [
 			"## Unwavering Conduit",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 17](source:Monster_Summoner's_Handbook)   ",
+			"**Source** [Monster Summoner's Handbook pg. 17](source:monster_summoner's_handbook)   ",
 			"Unwavering conduits work to keep everything ordered and regimented, drawing on power from the Eternal City of Axis, Heaven, or Hell to enforce whichever laws the summoner finds paramount. Lawful good unwavering conduits often work with Riftwardens to protect the integrity of the Great Beyond, while lawful evil unwavering conduits are commonly diabolists in Cheliax.",
 			"",
 			"**Alignment:** Any lawful.",
@@ -724,7 +724,7 @@
 		"description": [
 			"## Wild Caller (ARG)",
 			"",
-			"**Source** [Advanced Race Guide pg. 44](source:Advanced_Race_Guide)   ",
+			"**Source** [Advanced Race Guide pg. 44](source:advanced_race_guide)   ",
 			"Often a half-elf's ties to nature and elven heritage are so strong that they can dramatically affect the nature of his summonings. The wild caller calls eidolons that take more natural and savage forms and summons from nature rather than the Great Beyond. A wild caller has the following class features.",
 			"",
 			"**Spells:** A wild caller does not have access to summon monster spells. Instead, he swaps out those spells on his spell list with summon nature's ally spells of the same level. This ability alters the normal spell list of the summoner.",
@@ -753,7 +753,7 @@
 		"description": [
 			"## Wild Caller (HotW)",
 			"",
-			"**Source** [Heroes of the Wild pg. 25](source:Heroes_of_the_Wild)   ",
+			"**Source** [Heroes of the Wild pg. 25](source:heroes_of_the_wild)   ",
 			"A wild caller summons creatures from the First World and forges a bond with an eidolon with a plant body.",
 			"",
 			"**Plant Eidolon:** When a wild caller summons his eidolon, the eidolon's body is created from extraplanar plant material and imbued with the intelligence of a being from the First World. Its statistics are changed from a standard eidolon as follows.",

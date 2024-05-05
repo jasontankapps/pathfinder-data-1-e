@@ -8,7 +8,7 @@
 			"description": [
 				"## Agent of the Grave",
 				"",
-				"**Source** [Pathfinder #45: Broken Moon pg. 67](source:Pathfinder_#45:_Broken_Moon)",
+				"**Source** [Pathfinder #45: Broken Moon pg. 67](source:pathfinder_#45_broken_moon)",
 				"",
 				"On their twisted route to immortality, adherents of the Whispering Way learn secret rites that aid them on their path. Every step brings a member that much closer to the final secret. Particularly promising members earn invitations to join an elite group within the organization. In their role as agents of the grave, these members serve the desires of the current leadership, yet more often than not, agents of the grave act solely for one cell or faction.",
 				"",
@@ -80,7 +80,7 @@
 			"description": [
 				"## Aldori Swordlord",
 				"",
-				"**Source** [Adventurer's Guide pg. 20](source:Adventurer's_Guide), [Paths of Prestige pg. 4](source:Paths_of_Prestige)",
+				"**Source** [Adventurer's Guide pg. 20](source:adventurer's_guide), [Paths of Prestige pg. 4](source:paths_of_prestige)",
 				"",
 				"The Aldori swordlords follow no singular path to dueling mastery-some of those who take up the blade only dabble in its use, while others explore swordplay with the dueling weapon in unconventional ways. But those who seek to most closely emulate the traditions created by Sirian Aldori usually do so by taking levels in the Aldori swordlord prestige class. When one hears of an Aldori swordlord traveling the back roads, confronting bandits and defeating braggarts by challenging them to single combat, that swordlord has very likely pursued this path.",
 				"",
@@ -148,7 +148,7 @@
 			"description": [
 				"## Arcane Archer",
 				"",
-				"**Source** [PRPG Core Rulebook pg. 374](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook pg. 374](source:prpg_core_rulebook)",
 				"",
 				"Many who seek to perfect the use of the bow sometimes pursue the path of the arcane archer. Arcane archers are masters of ranged combat, as they possess the ability to strike at targets with unerring accuracy and can imbue their arrows with powerful spells. Arrows fired by arcane archers fly at weird and uncanny angles to strike at foes around corners, and can pass through solid objects to hit enemies that cower behind such cover. At the height of their power, arcane archers can fell even the most powerful foes with a single, deadly shot.",
 				"",
@@ -228,16 +228,16 @@
 			"description": [
 				"## Deadeye Devotee (Arcane Archer)",
 				"",
-				"**Source** [PRPG Core Rulebook pg. 374](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook pg. 374](source:prpg_core_rulebook)",
 				"",
-				"Dedicated followers of [Erastil](faith:Erastil) become closer to their god by mastering archery and caring for each other. They can tap into the power of the Elk Father, who guides and empowers their arrows.",
+				"Dedicated followers of [Erastil](faith:erastil) become closer to their god by mastering archery and caring for each other. They can tap into the power of the Elk Father, who guides and empowers their arrows.",
 				"",
-				"**This is an archetype of the [Arcane Archer](class/prestige:Arcane_Archer).** It shares the same abilities and progression of that class, with the following changes:",
+				"**This is an archetype of the [Arcane Archer](class/prestige:arcane_archer).** It shares the same abilities and progression of that class, with the following changes:",
 				"",
 				"**Requirements:** To qualify to become a Deadeye devotee, a character must fulfill all the following criteria.",
 				"",
 				"**Alignment:** Lawful good, lawful neutral, or neutral good.   ",
-				"**Deity:** Must worship [Erastil](faith:Erastil).   ",
+				"**Deity:** Must worship [Erastil](faith:erastil).   ",
 				"**Base Attack Bonus:** +6.   ",
 				"**Feats:** Point-Blank Shot, Precise Shot, Weapon Focus (longbow).   ",
 				"**Spells:** Ability to cast 1st-level arcane spells.",
@@ -261,7 +261,7 @@
 			"description": [
 				"## Arcane Trickster",
 				"",
-				"**Source** [PRPG Core Rulebook pg. 376](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook pg. 376](source:prpg_core_rulebook)",
 				"",
 				"Few can match the guile and craftiness of arcane tricksters. These prodigious thieves blend the subtlest aspects of the arcane with the natural cunning of the bandit and the scoundrel, using spells to enhance their natural thieving abilities. Arcane tricksters can pick locks, disarm traps, and lift purses from a safe distance using their magical legerdemain, and as often as not seek humiliation as a goal to triumph over their foes than more violent solutions.",
 				"",
@@ -332,11 +332,11 @@
 			"description": [
 				"## Thought Thief (Arcane Trickster)",
 				"",
-				"**Source** [Paizo Blog - Hodgepodge from the Grand Lodge pg. 1](source:Paizo_Blog_-_Hodgepodge_from_the_Grand_Lodge)",
+				"**Source** [Paizo Blog - Hodgepodge from the Grand Lodge pg. 1](source:paizo_blog_-_hodgepodge_from_the_grand_lodge)",
 				"",
 				"A thought thief will happily rip ideas from their victim's head and their gold from their purse.",
 				"",
-				"**This is an archetype of the [Arcane Trickster](class/prestige:Arcane_Trickster).** It shares the same abilities and progression of that class, with the following changes:",
+				"**This is an archetype of the [Arcane Trickster](class/prestige:arcane_trickster).** It shares the same abilities and progression of that class, with the following changes:",
 				"",
 				"**Requirements:** To qualify to become a thought thief, a character must fulfill all the following criteria.",
 				"",
@@ -364,7 +364,7 @@
 			"description": [
 				"## Arclord of Nex",
 				"",
-				"**Source** [Paths of Prestige pg. 6](source:Paths_of_Prestige)",
+				"**Source** [Paths of Prestige pg. 6](source:paths_of_prestige)",
 				"",
 				"The Arclords of Nex trace their lineage to the personal retinue of the archmage Nex, and though the demiurge has been missing for over four millennia, the Arclords still seek to enact his will. Whenever possible, they follow in the literal footsteps of Nex by looking to the wizard-king's diary entries, workbooks, and scrolls (with such resources often being of questionable legitimacy). Seizing political power in the years immediately after his disappearance, the Arclords reinitiated hostilities with rival Geb while instituting laws and social policies derived from hoarded scraps of Nex's personal correspondence and journals. This behavior led to their ouster and exile from Nex.",
 				"",
@@ -434,7 +434,7 @@
 			"description": [
 				"## Argent Dramaturge",
 				"",
-				"**Source** [Adventurer's Guide pg. 172](source:Adventurer's_Guide)",
+				"**Source** [Adventurer's Guide pg. 172](source:adventurer's_guide)",
 				"",
 				"The city of Kintargo has a long and proud association with the arts, particularly the theater and the opera. The fascination with operatic performances is well established throughout the nation of Cheliax, yet in Kintargo the lack of direct meddling from the government or the church of Asmodeus (a luxury afforded by the city's relative distance from the Chelish heartland) allowed for performers in Kintargo to lace their works with anti-Thrune metaphors and themes of freedom and individuality that would have swiftly resulted in arrests or even executions had artists dared to perform them elsewhere in the nation.",
 				"",
@@ -511,7 +511,7 @@
 			"description": [
 				"## Asavir",
 				"",
-				"**Source** [Adventurer's Guide pg. 10](source:Adventurer's_Guide)",
+				"**Source** [Adventurer's Guide pg. 10](source:adventurer's_guide)",
 				"",
 				"The fighting style of asavirs originated among the Althameri tribespeople. Most tribal holds have only a single asavir, who leads infantry in defending the hold and distracting invaders while the tribe's light cavalry sweep around behind invading forces. An asavir's bond with her genie-blessed mount is even closer than the partnership most Al-Zabriti share with their horses, and her human compatriots fight with extra ferocity, knowing that they have a tireless protector. Asavirs sometimes leave their tribe to become mercenaries or adventurers, and it is from such asavirs that the techniques of this prestige class are usually spread to those outside of Al-Zabrit (much to traditionalists' chagrin). As members of the devoutly Sarenite tribes of Al-Zabrit, asavirs tend toward nonevil alignments. Asavirs outside the region exhibit a wide range of alignments, though those with chaotic alignments generally find that the discipline of the Imperial Forces discourages them from making a career of military service. Given the importance of family and tribal affiliations to Al-Zabriti identity, asavirs who are exiled from their tribes might slide into evil alignments out of despondence or resentment.",
 				"",
@@ -586,7 +586,7 @@
 			"description": [
 				"## Ashavic Dancer",
 				"",
-				"**Source** [Paths of the Righteous pg. 4](source:Paths_of_the_Righteous)",
+				"**Source** [Paths of the Righteous pg. 4](source:paths_of_the_righteous)",
 				"",
 				"Worshiped throughout the Inner Sea region, but particularly along Varisia's Lost Coast, the empyreal lord Ashava inspires her followers to leave the safety of cities and caravans to venture into the dark places of the world, where lonely souls are often set adrift from their natural course on the River of Souls. Using the light of the moon and mesmerizing performances, Ashavic dancers hope to rescue these lost souls from their eternal torment.",
 				"",
@@ -654,7 +654,7 @@
 			"description": [
 				"## Aspis Agent",
 				"",
-				"**Source** [Adventurer's Guide pg. 30](source:Adventurer's_Guide), [Paths of Prestige pg. 8](source:Paths_of_Prestige)",
+				"**Source** [Adventurer's Guide pg. 30](source:adventurer's_guide), [Paths of Prestige pg. 8](source:paths_of_prestige)",
 				"",
 				"The Aspis Consortium employs many unscrupulous individuals in its ongoing plots to achieve wealth and dominion throughout the Inner Sea region. Aspis agents are the Consortium's chief instruments in this endeavor- public ambassadors who put a pleasant and disarming face forward while diverting attention from the company's true interests and activities.",
 				"",
@@ -740,7 +740,7 @@
 			"description": [
 				"## Assassin",
 				"",
-				"**Source** [PRPG Core Rulebook pg. 378](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook pg. 378](source:prpg_core_rulebook)",
 				"",
 				"A mercenary undertaking his task with cold, professional detachment, the assassin is equally adept at espionage, bounty hunting, and terrorism. At his core, an assassin is an artisan, and his medium is death. Trained in a variety of killing techniques, assassins are among the most feared classes.",
 				"",
@@ -823,7 +823,7 @@
 			"description": [
 				"## Balanced Scale of Abadar",
 				"",
-				"**Source** [Dark Markets - A Guide to Katapesh pg. 54](source:Dark_Markets_-_A_Guide_to_Katapesh)",
+				"**Source** [Dark Markets - A Guide to Katapesh pg. 54](source:dark_markets_-_a_guide_to_katapesh)",
 				"",
 				"Balanced scales of Abadar fulfill a specialized role in Katapesh. In addition to utilizing their powers of mercantilism, balanced scales seek out lost, unclaimed, or wrongly seized wealth among the many tombs and ruins of the Katapesh desert. Balanced scales of Abadar develop unique powers that afford them the ability to enter dangerous areas where lost treasure can be restored to the light or hidden goods can be returned to their rightful owners. A balanced scale finds the most satisfaction in discovering long-lost treasures hidden in unmarked strongholds, owned by now nameless individuals of the past. A balanced scale can claim such wealth for her own and use it to further the strength of her church.",
 				"",
@@ -892,7 +892,7 @@
 			"description": [
 				"## Battle Herald",
 				"",
-				"**Source** [Advanced Player's Guide pg. 260](source:Advanced_Player's_Guide)",
+				"**Source** [Advanced Player's Guide pg. 260](source:advanced_player's_guide)",
 				"",
 				"In every army there are leaders who surpass the average cold-hearted mercenary, battle-scarred veteran, or wizened drill instructor, not so much in their skill at arms but in their ability to inspire and lead others. Battle heralds are just such captains-skilled warriors to be sure, but ones who have honed the art of leadership to a keen edge and keep it as ready as their sword as a means to victory. Battle heralds tap into reservoirs of courage, skill, bravery, and perseverance that those who serve with them never knew they had, and their allies often find themselves ascending the mount of triumph following the battle herald's glorious (if often tattered) banner.",
 				"",
@@ -1002,7 +1002,7 @@
 			"description": [
 				"## Bellflower Tiller",
 				"",
-				"**Source** [Adventurer's Guide pg. 40](source:Adventurer's_Guide), [Paths of Prestige pg. 10](source:Paths_of_Prestige)",
+				"**Source** [Adventurer's Guide pg. 40](source:adventurer's_guide), [Paths of Prestige pg. 10](source:paths_of_prestige)",
 				"",
 				"Perhaps no group has done more to sow the seeds of freedom in devil-haunted Cheliax than the Bellflower Network, and no agents of that network do or risk more than its dedicated Bellflower tillers. Charged with freeing slaves from the infernal nation's many plantations and escorting them to the safety of Andoran and Rahadoum, Bellflower tillers are a constant thorn in the side of House Thrune and its diabolical minions. These elite liberators practice their craft all across Cheliax, from the darkened streets of Egorian and Westcrown to the wilds of the Whisperwood. Bellflower tillers employ farming euphemisms to mask their activities from unfriendly ears' referring to their secret hideouts as \"barns,\" the slaves they escort as their \"crops,\" and the secret paths they take as \"rows.\" Excessive contact between Bellflower tillers is discouraged by the Bellflower Network's leadership, lest they risk exposing the organization to the authorities. Despite this, they often meet in secret to discuss which routes are safest to take, how much to bribe certain officials, and what tactics for organizing groups of slaves work best, and so improve chances of evading capture.",
 				"",
@@ -1072,7 +1072,7 @@
 			"description": [
 				"## Blackfire Adept",
 				"",
-				"**Source** [Paths of Prestige pg. 12](source:Paths_of_Prestige)",
+				"**Source** [Paths of Prestige pg. 12](source:paths_of_prestige)",
 				"",
 				"A loosely organized order of nihilistic alienists and demonologists, the Blackfire Adepts study the power of unmaking as it manifests throughout the multiverse. They focus their obsessive research on blackfire. This eldritch phenomenon burns away the fibers of reality wherever it touches, thinning the walls between planes-especially between the Material Plane and the dark and unholy pits of the evil Outer Planes. Some pursue blackfire for purely academic purposes, but most seek to harness and wield its energy to loose the destructive power of the multiverse upon all creation.",
 				"",
@@ -1145,7 +1145,7 @@
 			"description": [
 				"## Bloatmage",
 				"",
-				"**Source** [City of Strangers pg. 60](source:City_of_Strangers)",
+				"**Source** [City of Strangers pg. 60](source:city_of_strangers)",
 				"",
 				"Hemotheurges-more commonly and derogatorily referred to as bloatmages-are arcanists who believe there's literal truth to the old aphorism that \"magic runs in the blood.\" By magically overriding their bodies' fail-safes and producing more blood than they need, bloatmages are able to greatly increase their magical abilities, but at the cost of becoming grotesque, bloated masses of engorged flesh. Even more significant than any cosmetic changes, the stresses on a bloatmage's body can prove dangerous to both them and those around them, for if the cephalic pressure on a bloatmage's brain becomes too great, she flies into a murderous rage before falling unconscious and quickly bleeding out. Such obvious drawbacks keep most from walking the path of the bloated ascetics, but the bloatmages dismiss those detractors who lack the courage to follow in their footsteps, noting that in the pursuit of power and self-perfection, all other concerns are secondary.",
 				"",
@@ -1228,7 +1228,7 @@
 			"description": [
 				"## Brewkeeper",
 				"",
-				"**Source** [Paths of the Righteous pg. 6](source:Paths_of_the_Righteous)",
+				"**Source** [Paths of the Righteous pg. 6](source:paths_of_the_righteous)",
 				"",
 				"Among the most ardent and celebrated members of Cayden Cailean's devoted are his brewkeepers, members of the Drunken God's faith who specialize in the creation of fine alcohol and magical concoctions.",
 				"",
@@ -1317,7 +1317,7 @@
 			"description": [
 				"## Brightness Seeker",
 				"",
-				"**Source** [Elves of Golarion pg. 28](source:Elves_of_Golarion)",
+				"**Source** [Elves of Golarion pg. 28](source:elves_of_golarion)",
 				"",
 				"Revered as seers, able to channel memories and even physical features of prior incarnations as people and animals, Brightness Seekers devote themselves to the pursuit of enlightenment. During their uniquely personal journeys, they learn how to interpret signs and portents that allow them to make uncannily accurate predications about possible actions for themselves and others. Over time, as they forge ever-deeper connections with their past lives and approach an ultimate state of oneness with the world around them, they develop the capacity to manifest the abilities and eventually the actual forms of many different animals. Eventually, Brightness Seekers even gain the power to shrug off death itself should it interfere with their quest for enlightenment, and their ability to reincarnate themselves with their memories intact offers them a chance to eventually reclaim their original form.",
 				"",
@@ -1390,7 +1390,7 @@
 			"description": [
 				"## Brother of the Seal",
 				"",
-				"**Source** [Paths of Prestige pg. 14](source:Paths_of_Prestige)",
+				"**Source** [Paths of Prestige pg. 14](source:paths_of_prestige)",
 				"",
 				"In Kaer Maga, a city known for its secrets, one of the greatest mysteries is the massive eldritch seal hidden deep below Oriat. For centuries, this portal has been safeguarded by an order of monks known as the Brothers of the Seal, ensuring that none disturbed the mighty vault and unleashed what powers lay locked within. With the passage of time, however, the truth of what the seal hid was lost even to its guardians. As secret-keepers disappeared and records were lost, the Brothers of the Seal maintained their vigil but began to wonder what they guarded, and for whom, and realized that no one truly knew the answers anymore.",
 				"",
@@ -1468,7 +1468,7 @@
 			"description": [
 				"## Champion of Irori",
 				"",
-				"**Source** [Paths of Prestige pg. 16](source:Paths_of_Prestige)",
+				"**Source** [Paths of Prestige pg. 16](source:paths_of_prestige)",
 				"",
 				"The little-known champions of Irori give their lives in service to the perfection and uplift of society, their ultimate goal to create a safe and orderly world within which each person can find and perfect her true purpose in service to the whole. In their ethos, only through the accumulated perfection of each individual can societal transformation truly occur. Though Irori's core teachings apply equally to good, evil, and neutral individuals, champions of Irori focus on embodying and promulgating the virtues of hard work, discipline, and devotion to the causes of justice, truth, and the pursuit of perfection. It is only through this pursuit that individuals can realize true joy and liberate themselves from the cycles of reincarnation to serve the Master of Masters in the life beyond life.",
 				"",
@@ -1546,7 +1546,7 @@
 			"description": [
 				"## Chernasardo Warden",
 				"",
-				"**Source** [Pathfinder #116: Fangs of War pg. 68](source:Pathfinder_#116:_Fangs_of_War)",
+				"**Source** [Pathfinder #116: Fangs of War pg. 68](source:pathfinder_#116_fangs_of_war)",
 				"",
 				"Chernasardo warden is a title that few can reasonably hope to earn. Among the freedom fighters, wardens have proven themselves again and again, taking on enemies that threaten the fate of Nirmathas. With their unmatched martial prowess and tactical skills, Chernasardo wardens are masters of the forest. They specialize in neutralizing enemies without being seen, but they are not a threat to be taken lightly even in close-quarters combat.",
 				"",
@@ -1634,7 +1634,7 @@
 			"description": [
 				"## Chevalier",
 				"",
-				"**Source** [Pathfinder #14: Children of the Void pg. 62](source:Pathfinder_#14:_Children_of_the_Void)",
+				"**Source** [Pathfinder #14: Children of the Void pg. 62](source:pathfinder_#14_children_of_the_void)",
 				"",
 				"Some heroes don't believe in fancy rules or high creeds or big flowery speeches, they just want to kill evil things, spend time with friends, and swap great tales over a good meal and tasty drinks. Not as stuffy or restrictive as a fullfledged knighthood, in their hearts chevaliers are just good people who want to celebrate the good things in life and fight evil wherever it dares to tread.",
 				"",
@@ -1687,7 +1687,7 @@
 			"description": [
 				"## Crimson Templar",
 				"",
-				"**Source** [Paths of the Righteous pg. 8](source:Paths_of_the_Righteous)",
+				"**Source** [Paths of the Righteous pg. 8](source:paths_of_the_righteous)",
 				"",
 				"Even the most devout followers of good can recognize the need for ruthlessness when opposing true evil. The crimson templars of Ragathiel are taught that mercy is a virtue reserved for only those capable of accepting redemption. They must learn this lesson well, for they are trained to face the heartless legions of Hell. These women and men are Heaven's assassins, and they tread a bloody path so the oaths of others remain untarnished. Their mission is a thankless one, as righteous allies often view them as just a step away from corruption.",
 				"",
@@ -1764,7 +1764,7 @@
 			"description": [
 				"## Cyphermage",
 				"",
-				"**Source** [Adventurer's Guide pg. 57](source:Adventurer's_Guide), [Inner Sea Magic pg. 44](source:Inner_Sea_Magic)",
+				"**Source** [Adventurer's Guide pg. 57](source:adventurer's_guide), [Inner Sea Magic pg. 44](source:inner_sea_magic)",
 				"",
 				"Based in the pirate city of Riddleport, Cyphermages are students of ancient history and runic lore, with a particular focus on the monuments and magics of Thassilon. They are respected in some ways for their depth of knowledge about the history of the region, yet some people find them dangerously stubborn in their pursuit of secrets best left lost and in their borderline obsession with any scraps or fragments of rubble with markings that even remotely resemble runes. Like the legendary Cyphergate itself (an enormous rune-carved arch that spans the entrance to Riddleport's harbor), much of the labor of the Cyphermages seems to others to be wasted on pondering and searching for hidden meanings and sublime significance that simply may not exist. Nonetheless, Cyphermages are dogged in their pursuit of knowledge, often secretive not only with outsiders but also with one another, as each strives to uncover a forgotten scrap of lore, unearth a choice bit of Thassilonian architecture, or present a triumphant dissertation to his Cyphermage peers or to academics half a world away.",
 				"",
@@ -1844,7 +1844,7 @@
 			"description": [
 				"## Daggermark Poisoner",
 				"",
-				"**Source** [Paths of Prestige pg. 18](source:Paths_of_Prestige)",
+				"**Source** [Paths of Prestige pg. 18](source:paths_of_prestige)",
 				"",
 				"Poison is a common weapon of cultures and nations across Golarion, but the craft reaches its acme in the city of Daggermark, the festering heart of the chaotic and war-torn River Kingdoms. Members of the Daggermark Poisoners' Guild and aspiring hopefuls experiment with their craft constantly, creating hundreds of potent toxins either to sell or use for their own nefarious purposes.",
 				"",
@@ -1934,7 +1934,7 @@
 			"description": [
 				"## Daivrat",
 				"",
-				"**Source** [Qadira, Gateway to the East pg. 20](source:Qadira,_Gateway_to_the_East)",
+				"**Source** [Qadira, Gateway to the East pg. 20](source:qadira,_gateway_to_the_east)",
 				"",
 				"The empire of Kelesh is built by genies, who create towering spires and opulent palaces for the padishah emperor in the hopes that a future ruler will set their kinsfolk free. But not all Qadiran mages see genies as creatures to be bested and enslaved. Instead of potential slaves, these daivrat (\"brothers of genies\") treat genies as powerful allies, wise counselors, and comrades-in-arms. Though few are foolish enough to consider liberating the thralls of the emperor, each daivrat considers herself a soldier, servant, or cousin to the genies.",
 				"",
@@ -2013,7 +2013,7 @@
 			"description": [
 				"## Darechaser",
 				"",
-				"**Source** [Paths of the Righteous pg. 10](source:Paths_of_the_Righteous)",
+				"**Source** [Paths of the Righteous pg. 10](source:paths_of_the_righteous)",
 				"",
 				"While Kurgess's faithful thrive in sporting arenas, they understand that nature itself creates the greatest obstacle courses. The athletic fanatics known as darechasers seek out these untamed obstacles as challenges against which to test their strength. In order to continue improving, darechasers must often resort to besting their own records. Sometimes a darechaser will even bet against herself, only to strain to prove herself wrong and amaze bystanders. Darechasers travel widely and delight in both officiating competitions and performing physical feats that inspire a new generation of athleticism. Some even go so far as to use sports as a form of diplomacy, settling disputes with athletic competitions.",
 				"",
@@ -2096,7 +2096,7 @@
 			"description": [
 				"## Dawnflower Anchorite",
 				"",
-				"**Source** [Paths of the Righteous pg. 12](source:Paths_of_the_Righteous)",
+				"**Source** [Paths of the Righteous pg. 12](source:paths_of_the_righteous)",
 				"",
 				"Although most of Sarenrae's worshipers seek to aid others or seek out those villains who can be redeemed, a rare few instead raise their eyes in awe of the greatest of Sarenrae's gifts to mortals: the sun. These Dawnflower anchorites hope to receive enlightenment in their retreat to the wilds so that they can, some day, return to civilization and use their newfound grace to help heal the church's wounds.",
 				"",
@@ -2174,7 +2174,7 @@
 			"description": [
 				"## Dawnflower Dissident",
 				"",
-				"**Source** [Paths of Prestige pg. 20](source:Paths_of_Prestige)",
+				"**Source** [Paths of Prestige pg. 20](source:paths_of_prestige)",
 				"",
 				"The church of Sarenrae is known across Golarion for its benevolence. In some regions, it is a faith that seeks little more than the succor and relief of suffering wherever it can be found, a warming and cleansing flame that banishes chill, darkness, and despair. Elsewhere, Sarenrae's faith is a flame that not only cleanses but scourges the wicked, seeing injustice and cruelty as a wound that must be cauterized. Perhaps unsurprisingly for a faith built upon such incandescent passion and verve, the servants of Sarenrae don't always agree on the best methods to carry out their goddess's will, and their disagreements become heated, often to the point of violent conflict.",
 				"",
@@ -2253,7 +2253,7 @@
 			"description": [
 				"## Death Slayer",
 				"",
-				"**Source** [Adventurer's Guide pg. 152](source:Adventurer's_Guide)",
+				"**Source** [Adventurer's Guide pg. 152](source:adventurer's_guide)",
 				"",
 				"Since their establishment, the Red Mantis have abided by the divine laws established by Achaekek and the holy rituals of murder, including the law of reality that all things must die, in their time-or when a contract seals their fate. Even the gods themselves must face death, as evidenced by the death of the god Aroden a century ago. Creatures that attempt to avoid death through any means mock the order all living things must submit to, and as such mock the sacred act of assassination. Undead are particularly upsetting to some members of the Red Mantis, and death slayers are trained as specialized agents for missions where the target of an assassination is undead, or when an assassinated target returns from death as one of the undead.",
 				"",
@@ -2326,7 +2326,7 @@
 			"description": [
 				"## Demoniac",
 				"",
-				"**Source** [Book of the Damned pg. 208](source:Book_of_the_Damned), [Pathfinder #15: The Armageddon Echo pg. 62](source:Pathfinder_#15:_The_Armageddon_Echo), [Book of the Damned - Volume 2: Lords of Chaos pg. 46](source:Book_of_the_Damned_-_Volume_2:_Lords_of_Chaos)",
+				"**Source** [Book of the Damned pg. 208](source:book_of_the_damned), [Pathfinder #15: The Armageddon Echo pg. 62](source:pathfinder_#15_the_armageddon_echo), [Book of the Damned - Volume 2: Lords of Chaos pg. 46](source:book_of_the_damned_-_volume_2:_lords_of_chaos)",
 				"",
 				"Many demon worshipers understand that sinful souls become demons once the Abyss digests them, but the demoniac simply cannot wait for death to begin her transformation. Depending on which demon lord a demoniac devotes herself to, her evil obedience, suite of powers, and resistance change. Yet in the end, all demoniacs are damned, their souls transformed by the Abyss into demons upon their deaths.",
 				"",
@@ -2400,7 +2400,7 @@
 			"description": [
 				"## Devoted Muse",
 				"",
-				"**Source** [Paths of the Righteous pg. 14](source:Paths_of_the_Righteous)",
+				"**Source** [Paths of the Righteous pg. 14](source:paths_of_the_righteous)",
 				"",
 				"With Aroden's death came the Age of Lost Omens, the tumultuous time in which imperial Lung Wa collapsed, and its half-millennium of art and culture was threatened by aggressive warlords and squabbling successor states. In the century since, the passionate Muses of Five Flowers have trained and dispatched Shelyn's faithful to study, recover, and propagate the dying art forms abandoned and despoiled in the intervening decades. To protect themselves and the valuable works they preserve, each muse trains extensively in self-defense. Their unique fighting styles are an eclectic tribute to lost martial schools, fending off foes as much with fascinating form as with actual harm.",
 				"",
@@ -2478,7 +2478,7 @@
 			"description": [
 				"## Diabolist",
 				"",
-				"**Source** [Book of the Damned pg. 210](source:Book_of_the_Damned), [Book of the Damned - Volume 1: Princes of Darkness pg. 44](source:Book_of_the_Damned_-_Volume_1:_Princes_of_Darkness)",
+				"**Source** [Book of the Damned pg. 210](source:book_of_the_damned), [Book of the Damned - Volume 1: Princes of Darkness pg. 44](source:book_of_the_damned_-_volume_1:_princes_of_darkness)",
 				"",
 				"Though diabolists seek to enslave the forces of Hell and turn them toward goals other than corruption, only the most stalwart of diabolists can resist the temptations of the Pit.",
 				"",
@@ -2558,7 +2558,7 @@
 			"description": [
 				"## Divine Scion",
 				"",
-				"**Source** [Inner Sea Magic pg. 46](source:Inner_Sea_Magic)",
+				"**Source** [Inner Sea Magic pg. 46](source:inner_sea_magic)",
 				"",
 				"Many are the mortals who serve the gods, in small ways and large. Some give offerings to many divinities in hopes of appeasing them all, while others serve one faithfully and exclusively, even zealously. A few, however, are instead chosen by their deities to fulfill sacred missions. Some are merely graced with the anointing spirit of divinity, while a few are the literal scions of their divine patrons, by-blows of a dalliance with mortals. Whatever the source, these are the few who can, with the proper training, become divine scions. The spark of divinity animates their every deed, and voices whisper secrets and commands that were never meant for the ears of others. Divine scions may frustrate the orthodox hierarchy of their faith, as they represent an end-run around the ecclesiastical structures of the church. Their calling comes directly from their deity, and their orders supersede any earthly authority. Of course, many more claim such direct visitation and commission than actually have been touched by the divine, but it is risky to defy or deny any who claim it.",
 				"",
@@ -2661,7 +2661,7 @@
 			"description": [
 				"## Dragon Disciple",
 				"",
-				"**Source** [PRPG Core Rulebook pg. 380](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook pg. 380](source:prpg_core_rulebook)",
 				"",
 				"As some of the most ancient, powerful, and capricious creatures in existence, dragons occasionally enter into trysts with unsuspecting mortals or sire offspring with exceptional individuals. Likewise, the great power wielded by these creatures has long intrigued wizards and alchemists who have sought various magical methods to infuse their bodies with draconic power. As a result, the blood of dragons runs through the veins of many races. For some, this heritage manifests as a sorcerous bloodline and a predilection for magic; for others, however, the power of their draconic ancestors becomes an obsession.",
 				"",
@@ -2737,7 +2737,7 @@
 			"description": [
 				"## Duelist",
 				"",
-				"**Source** [PRPG Core Rulebook pg. 382](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook pg. 382](source:prpg_core_rulebook)",
 				"",
 				"Duelists represent the pinnacle of elegant swordplay. They move with a grace unmatched by most foes, parrying blows and countering attacks with swift thrusts of their blades. They may wear armor, but generally eschew such bulky protection as their grace allows them to dodge their opponents with ease. While others flounder on treacherous terrain, duelists charge nimbly across the battlefield, leaping and tumbling into the fray. They thrive in melee, where their skill with the blade allows them to make sudden attacks against clumsy foes and to cripple opponents with particularly well-placed thrusts of the blade.",
 				"",
@@ -2818,7 +2818,7 @@
 			"description": [
 				"## Eldritch Knight",
 				"",
-				"**Source** [PRPG Core Rulebook pg. 384](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook pg. 384](source:prpg_core_rulebook)",
 				"",
 				"Fearsome warriors and spellcasters, eldritch knights are rare among magic-users in their ability to wade into battle alongside fighters, barbarians, and other martial classes. Those who must face eldritch knights in combat fear them greatly, for their versatility on the battlefield is tremendous; against heavily armed and armored opponents they may level crippling spells, while opposing spellcasters meet their ends on an eldritch knight's blade.",
 				"",
@@ -2878,7 +2878,7 @@
 			"description": [
 				"## Enchanting Courtesan",
 				"",
-				"**Source** [Inner Sea Intrigue pg. 34](source:Inner_Sea_Intrigue)",
+				"**Source** [Inner Sea Intrigue pg. 34](source:inner_sea_intrigue)",
 				"",
 				"Enchanting courtesans are elite information brokers who perfect their bodies and develop their minds to use illusions, enchantments, and other magical extensions of their considerable charms. Although enchanting courtesans are most commonly trained by the church of Calistria, their much-sought-after skills can be found in groups across Golarion, from the Tallow Boys of Kaer Maga to students of Jalmeray's Conservatory. Although some enchanting courtesans work with spy organizations, others sell their services to please or humiliate high-profile targets. In order to avoid alienating clients, enchanting courtesans usually take great pains to exploit and sell their knowledge only through intermediaries such as highly professional thieves' guilds.",
 				"",
@@ -2953,7 +2953,7 @@
 			"description": [
 				"## Envoy of Balance",
 				"",
-				"**Source** [Champions of Balance pg. 30](source:Champions_of_Balance)",
+				"**Source** [Champions of Balance pg. 30](source:champions_of_balance)",
 				"",
 				"Standing beyond good and evil, outside law and chaos, an envoy of balance serves as the countering force against any extremism that seeks to elevate one alignment above all others. While their motives seem almost inexplicable to onlookers, envoys of balance see themselves as guardians of the cosmic scales and arbiters of universal balance.",
 				"",
@@ -3030,7 +3030,7 @@
 			"description": [
 				"## Esoteric Knight",
 				"",
-				"**Source** [Chronicle of Legends pg. 10](source:Chronicle_of_Legends)",
+				"**Source** [Chronicle of Legends pg. 10](source:chronicle_of_legends)",
 				"",
 				"Mysterious warriors and wielders of psychic powers, esoteric knights are as rare as the obscure techniques they obsessively practice. While others seek the perfection of mind and body in the pursuit of tranquility, these warriors aim to become perfect, dangerous weapons by learning occult secrets and mastering deadly fighting moves. Esoteric knights know that balance between mind and body is an advantage they can exploit against those who favor brains or brawn.",
 				"",
@@ -3041,7 +3041,7 @@
 				"To qualify to become an esoteric knight, a character must fulfill all of the following criteria.",
 				"",
 				"**Base Attack Bonus:** +5.   ",
-				"**Special:** [Kinetic blast](class:Kinetic_blast) class feature or ability to cast 1st-level psychic spells.",
+				"**Special:** [Kinetic blast](class:kinetic_blast) class feature or ability to cast 1st-level psychic spells.",
 				"",
 				"**Class Skills**",
 				"",
@@ -3081,7 +3081,7 @@
 				"",
 				"Some esoterica require a character to expend one or more spell slots to activate. A character with the burn class feature (such as a kineticist) can accept burn instead of expending spell slots. She can accept 1 point of burn instead of expending a 1st-level or lower spell slot, or 2 points of burn instead of expending a 3rd-level or lower spell slot.",
 				"",
-				"**Battle Mind (Su):** By expending a 1st-level spell slot as a free action while casting a spell or using a kinetic blast, the esoteric knight can cast the spell as if it were modified by the [Intuitive Spell](feat:Intuitive_Spell) and [Logical Spell](feat:Logical_Spell) feats or grant the kinetic blast the benefits of the [Point-Blank Shot](feat:Point-Blank_Shot) and [Precise Shot](feat:Precise_Shot) feats.",
+				"**Battle Mind (Su):** By expending a 1st-level spell slot as a free action while casting a spell or using a kinetic blast, the esoteric knight can cast the spell as if it were modified by the [Intuitive Spell](feat:intuitive_spell) and [Logical Spell](feat:logical_spell) feats or grant the kinetic blast the benefits of the [Point-Blank Shot](feat:point-blank_shot) and [Precise Shot](feat:precise_shot) feats.",
 				"",
 				"**Confounding Projection (Su):** By expending a 1st-level spell slot as a swift action, an esoteric knight can project a duplicate of herself into the mind of an enemy within 30 feet for 1 round. This duplicate appears to the enemy to occupy an adjacent space and grants the esoteric knight the benefits of flanking, even against enemies who are normally immune to flanking. This is a mind-affecting effect.",
 				"",
@@ -3106,7 +3106,7 @@
 			"description": [
 				"## Evangelist",
 				"",
-				"**Source** [Inner Sea Gods pg. 198](source:Inner_Sea_Gods)",
+				"**Source** [Inner Sea Gods pg. 198](source:inner_sea_gods)",
 				"",
 				"Though all faiths have their dedicated priests and righteous warriors, gods inspire devotion from a wide range of individuals. Rogues who specialize in stealth and poisons might swear allegiance to Norgorber, while wandering bards sing songs in praise of Desna. Even the most powerful deity is not too proud to turn such followers aside, for the worship of passionate acolytes is precious regardless of their backgrounds, professions, races, or ages, and they might lead others to the faith by example. These unusual but skillful followers of the gods are called evangelists.",
 				"",
@@ -3175,7 +3175,7 @@
 				"",
 				"**Protective Grace (Su):** The evangelist's chosen deity rewards her with heightened awareness and reaction skills, making her more difficult to strike in combat. At 2nd level, the evangelist gains a +1 dodge bonus to AC. This bonus increases to +2 at 7th level. The evangelist loses this bonus when she is denied her Dexterity bonus to AC.",
 				"",
-				"**Divine Boon:** As the evangelist gains levels, she gains boons from her chosen deity. The nature of these boons varies depending on the evangelist's chosen deity. Each deity grants three boons, each more powerful than the last. At 3rd level, the evangelist gains the first boon. At 6th level, she gains the second boon, and at 9th level, she gains the third boon. Consult the [Deific Obedience](feat:Deific_Obedience) feat and her deity's description for details on these divine boons. When a divine boon grants a spell-like ability, the evangelist's caster level for the spell-like ability equals her total character level. This ability allows an evangelist to access these boons earlier than with the Deific Obedience feat alone; it does not grant additional uses of the boons once the character reaches the necessary Hit Dice to earn the boons normally.",
+				"**Divine Boon:** As the evangelist gains levels, she gains boons from her chosen deity. The nature of these boons varies depending on the evangelist's chosen deity. Each deity grants three boons, each more powerful than the last. At 3rd level, the evangelist gains the first boon. At 6th level, she gains the second boon, and at 9th level, she gains the third boon. Consult the [Deific Obedience](feat:deific_obedience) feat and her deity's description for details on these divine boons. When a divine boon grants a spell-like ability, the evangelist's caster level for the spell-like ability equals her total character level. This ability allows an evangelist to access these boons earlier than with the Deific Obedience feat alone; it does not grant additional uses of the boons once the character reaches the necessary Hit Dice to earn the boons normally.",
 				"",
 				"**Gift of Tongues:** At 4th level, the evangelist may select a new language as a gift from her chosen deity. She gains the ability to speak and write this new language fluently, so as to better communicate with those she meets in the course of her travels. At 8th level, the evangelist selects a second language to learn. The ability to comprehend these languages is an instantaneous divine gift, and spells and effects that dispel persistent effects can't remove the evangelist's gift of tongues.",
 				"",
@@ -3194,7 +3194,7 @@
 			"description": [
 				"## Exalted",
 				"",
-				"**Source** [Inner Sea Gods pg. 200](source:Inner_Sea_Gods)",
+				"**Source** [Inner Sea Gods pg. 200](source:inner_sea_gods)",
 				"",
 				"The exalted exemplifies the teachings of her faith. More than a religious leader, she is the embodiment of faith that all members of the religion strive to emulate. She may be part of the official religious hierarchy or an independent worshiper, but wherever she goes she inspires others to join or commit more fully to her faith.",
 				"",
@@ -3278,7 +3278,7 @@
 			"description": [
 				"## Feysworn",
 				"",
-				"**Source** [The First World, Realm of the Fey pg. 8](source:The_First_World,_Realm_of_the_Fey)",
+				"**Source** [The First World, Realm of the Fey pg. 8](source:the_first_world,_realm_of_the_fey)",
 				"",
 				"The Eldest appreciate a broad range of talents in their servants. While some of their faithful are traditional divine casters, many more are feysworn-adventurers of all sorts who pledge themselves to the service of one of the fey lords in exchange for magical power. Most common in the First World, feysworn can also be found on the Material Plane among those adventurers and scholars who deal with fey, were raised with a close connection to the First World, or simply appreciate the Eldest's willingness to exchange divine power for souls and service without the burden of excessive dogma.",
 				"",
@@ -3368,7 +3368,7 @@
 			"description": [
 				"## Genie Binder",
 				"",
-				"**Source** [Elemental Master's Handbook pg. 26](source:Elemental_Master's_Handbook), [Pathfinder #22: The End of Eternity pg. 52](source:Pathfinder_#22:_The_End_of_Eternity)",
+				"**Source** [Elemental Master's Handbook pg. 26](source:elemental_master's_handbook), [Pathfinder #22: The End of Eternity pg. 52](source:pathfinder_#22_the_end_of_eternity)",
 				"",
 				"While genies chafe at being bound and bottled, they respect power-especially masters of the art of genie binding. The greatest of these conjurers was Sulesh the Great, a Keleshite spellcaster who refined the art of genie seals; his students continue to perfect his methods.",
 				"",
@@ -3436,7 +3436,7 @@
 			"description": [
 				"## Golden Legionnaire",
 				"",
-				"**Source** [Adventurer's Guide pg. 66](source:Adventurer's_Guide), [Paths of Prestige pg. 22](source:Paths_of_Prestige)",
+				"**Source** [Adventurer's Guide pg. 66](source:adventurer's_guide), [Paths of Prestige pg. 22](source:paths_of_prestige)",
 				"",
 				"Golden Legionnaires are members of the Eagle Knight branch known formally as Eagle Knights of the Golden Legion. The foremost protectors of Andoran and its populace, the Golden Legionnaires primarily guard Andoran's borders and watch over the country's untamed rural areas.",
 				"",
@@ -3513,7 +3513,7 @@
 			"description": [
 				"## Gray Corsair",
 				"",
-				"**Source** [Adventurer's Guide pg. 68](source:Adventurer's_Guide)",
+				"**Source** [Adventurer's Guide pg. 68](source:adventurer's_guide)",
 				"",
 				"Scourge of the seaborne slaver, Gray Corsairs augment existing class skills with specializations that suit them well for their long tours of duty at sea. Yet Gray Corsairs must also be able to operate with skill on land, for they are often expected to mount marine-based raids on island strongholds or other remote locations used by slavers as markets or staging areas for their cruelty.",
 				"",
@@ -3595,7 +3595,7 @@
 			"description": [
 				"## Gray Gardener",
 				"",
-				"**Source** [Paths of Prestige pg. 24](source:Paths_of_Prestige)",
+				"**Source** [Paths of Prestige pg. 24](source:paths_of_prestige)",
 				"",
 				"A secretive society brought into being during the early days of the Red Revolution in Galt, the Gray Gardeners are unswerving executioners who maintain their anonymity behind hoods and veils made from gray silk. Wildly popular with the bloodthirsty mobs that periodically hunt for suspected traitors, the Gray Gardeners put the condemned to death in gory public spectacles using magical guillotines known as final blades.",
 				"",
@@ -3675,7 +3675,7 @@
 			"description": [
 				"## Green Faith Acolyte",
 				"",
-				"**Source** [Paths of Prestige pg. 26](source:Paths_of_Prestige)",
+				"**Source** [Paths of Prestige pg. 26](source:paths_of_prestige)",
 				"",
 				"All followers of the Green Faith appreciate and respect nature, but for a Green Faith acolyte this admiration blossoms into a profound reverence for the power and infinite majesty of the natural world in all its aspects, both brutal and tender.",
 				"",
@@ -3755,7 +3755,7 @@
 			"description": [
 				"## Halfling Opportunist",
 				"",
-				"**Source** [Halflings of Golarion pg. 28](source:Halflings_of_Golarion)",
+				"**Source** [Halflings of Golarion pg. 28](source:halflings_of_golarion)",
 				"",
 				"Even more so than the rest of their kind, halfling opportunists make their own luck. Shamelessly willing to take advantage of their foes, they can instantly assess a situation in order to find a way to turn it to their own benefit. When a giant swings his club, the halfling opportunist leaps onto it and uses the momentum to make her jump go that much further. When a spellcaster hurls a bolt of magical energy, the halfling opportunist steps in front of a door and uses the power to help her to smash through so she can make her escape. When a courtier tries to blacken her name, the halfling opportunist lets loose such a stream of cheeky accusations that the courtier ends up looking like the traitor instead. Halfling opportunists' ability to exploit their enemies gives them a breezy selfconfidence and the sheer audacity to take risks few others would dare. Perhaps because of this brazenness, they seem blessed by amazing strokes of good fortune. However, they rarely take their luck for granted. Instead they rely upon their keen senses to sidestep danger and their adaptability to carry them through both combat and social settings.",
 				"",
@@ -3826,7 +3826,7 @@
 			"description": [
 				"## Harrower",
 				"",
-				"**Source** [Inner Sea World Guide pg. 276](source:Inner_Sea_World_Guide), [Pathfinder Campaign Setting pg. 224](source:Pathfinder_Campaign_Setting)",
+				"**Source** [Inner Sea World Guide pg. 276](source:inner_sea_world_guide), [Pathfinder Campaign Setting pg. 224](source:pathfinder_campaign_setting)",
 				"",
 				"One of the most mysterious and mystical Varisian traditions, and certainly one that has captured the imaginations and curiosity of many of the Inner Sea's peoples, is the harrowing. Using a special deck of cards known as a Harrow deck, one can perform a harrowing by laying the cards out in a three-by-three grid that reveals secrets of the target's past, present, and future.",
 				"",
@@ -3920,7 +3920,7 @@
 			"description": [
 				"## Hellknight Signifer",
 				"",
-				"**Source** [Adventurer's Guide pg. 92](source:Adventurer's_Guide), [Paths of Prestige pg. 28](source:Paths_of_Prestige)",
+				"**Source** [Adventurer's Guide pg. 92](source:adventurer's_guide), [Paths of Prestige pg. 28](source:paths_of_prestige)",
 				"",
 				"Hellknight signifers form the spellcasting arm of the Hellknight orders. They serve as faceless enforcers of order and use their magical powers to relentlessly root out and punish criminals to the letter of the law. They wear masks' often featureless-to mark themselves as impersonal agents of order, unswayed by empathy, detached from emotion, and dedicated to passing impartial judgment upon all lawbreakers. A signifer's distinctive mask is a symbol of his devotion to the precepts of law and exacting justice, and it serves as the focus for several of his signifer powers. Traditionally, signifers are arcane or divine spellcasters. As a signifer must be lawful, clerics who take this prestige class generally worship lawful deities, with the majority being worshipers of Abadar or Asmodeus. Despite trends toward diabolism, overall a signifer's views of good and evil are defined by his Hellknight order first and everything else second. While it's certainly possible for a psychic spellcaster to become a Hellknight signifer, to date, such examples are relatively rare among the various Hellknight orders. Yet in time, as such magic spreads and gains acceptance, psychic Hellknight signifers may well grow more common.",
 				"",
@@ -4005,7 +4005,7 @@
 			"description": [
 				"## Hellknight",
 				"",
-				"**Source** [Adventurer's Guide pg. 90](source:Adventurer's_Guide), [Inner Sea World Guide pg. 278](source:Inner_Sea_World_Guide)",
+				"**Source** [Adventurer's Guide pg. 90](source:adventurer's_guide), [Inner Sea World Guide pg. 278](source:inner_sea_world_guide)",
 				"",
 				"Not all who start as novice armigers have what it takes to become a full-fledged Hellknight, but those who do receive a wide array of abilities as they grow more powerful. While the individual powers and focus of a particular Hellknight vary according to his order, all Hellknights are universally feared and respected in regions where they maintain a presence. Most Hellknights are lawful neutral and proudly avoid being \"tainted\" by distractions such as good or evil, but some who rise in power shift toward tyrannical and cruel natures.",
 				"",
@@ -4076,7 +4076,7 @@
 			"description": [
 				"## Heritor Knight",
 				"",
-				"**Source** [Paths of the Righteous pg. 16](source:Paths_of_the_Righteous)",
+				"**Source** [Paths of the Righteous pg. 16](source:paths_of_the_righteous)",
 				"",
 				"Some seek to follow in the footsteps of Iomedae the Inheritor through study of the miracles of her mortal life.",
 				"",
@@ -4151,7 +4151,7 @@
 			"description": [
 				"## Hinterlander",
 				"",
-				"**Source** [Paths of the Righteous pg. 18](source:Paths_of_the_Righteous)",
+				"**Source** [Paths of the Righteous pg. 18](source:paths_of_the_righteous)",
 				"",
 				"Guards patrol great cities and druids protect the deep forests, but what of the boundaries between them? The hinterlands comprise the farmlands and woodland villages of Golarion, a liminal space between humanity and the wild. Some of the rugged men and women who defend these pockets of civilization are the hinterlanders. Hinterlanders are followers of Erastil who shield rural folk from dangerous creatures, extraplanar interlopers, and marauding undead. A hinterlander is skilled with a bow and in tune with the wild, yet capable of harnessing natural resources to nourish mortal communities. They are often touched by the divine, sworn to guard the borders of towns and villages against the forces that threaten to snuff out the hearth fires.",
 				"",
@@ -4232,7 +4232,7 @@
 			"description": [
 				"## Holy Vindicator",
 				"",
-				"**Source** [Advanced Player's Guide pg. 263](source:Advanced_Player's_Guide)",
+				"**Source** [Advanced Player's Guide pg. 263](source:advanced_player's_guide)",
 				"",
 				"Many faiths have within their membership an order of the church militant, be they holy knights or dark warriors, who put their lives and immortal souls on the line for their faith. They are paragons of battle, eschewing sermons for steel. These men and women are living conduits of divine power, down to their very blood, which they happily shed in a moment if it brings greater glory to their deity or judgment upon heretics, infidels, and all enemies of the faith.",
 				"",
@@ -4313,7 +4313,7 @@
 			"description": [
 				"## Horizon Walker",
 				"",
-				"**Source** [Advanced Player's Guide pg. 265](source:Advanced_Player's_Guide)",
+				"**Source** [Advanced Player's Guide pg. 265](source:advanced_player's_guide)",
 				"",
 				"Those whose wanderlust drives them to push the boundary of safe environments sometimes seek the calling of the horizon walker. Horizon walkers are masters of travel, always seeking to find the safe ways through inhospitable terrain. They are comfortable in places others speak of only in hushed whispers, and they can both venture forth onto untrod paths themselves and guide the less-traveled through such hazardous lands.",
 				"",
@@ -4413,7 +4413,7 @@
 			"description": [
 				"## Inheritor's Crusader",
 				"",
-				"**Source** [Pathfinder #26: The Sixfold Trial pg. 71](source:Pathfinder_#26:_The_Sixfold_Trial)",
+				"**Source** [Pathfinder #26: The Sixfold Trial pg. 71](source:pathfinder_#26_the_sixfold_trial)",
 				"",
 				"Honor, justice, and valor-while many righteous folk believe in these things, a select group of Iomedae's champions live and breathe them. It is in their blood and constantly at the forefront of their thoughts. The teachings of this once small, exclusive group of knights have inspired others, and now heroes all across Golarion take up swords in the name of these ideals. Most crusaders spend their time advancing the cause of the downtrodden, freeing the oppressed from tyranny and injustice, or helping the timid rise up in the face of evil, though their powers also make them suited for hunting down criminals, breaking the mental shackles of brainwashing and witchcraft, and destroying monsters that pierce the bravest hearts with fear.",
 				"",
@@ -4469,7 +4469,7 @@
 			"description": [
 				"## Inner Sea Pirate",
 				"",
-				"**Source** [Pirates of the Inner Sea pg. 24](source:Pirates_of_the_Inner_Sea)",
+				"**Source** [Pirates of the Inner Sea pg. 24](source:pirates_of_the_inner_sea)",
 				"",
 				"Pirates of the Inner Sea region sail many different bodies of water in search of plunder, from the most common Shackles pirates to the privateers of Andoran and the fast-moving brigands of the River Kingdoms. Those who prove handy on a ship might rise to the rank of captain and command their own ships. Inner Sea pirates are adept at both sailing and sword fighting, and most have looked death in the face more than once. They possess a variety of skills that prove useful when sailing and plundering, and two Inner Sea pirates might be quite different from each other.",
 				"",
@@ -4555,7 +4555,7 @@
 			"description": [
 				"## Justicar",
 				"",
-				"**Source** [Pathfinder #8: Seven Days to the Grave pg. 69](source:Pathfinder_#8:_Seven_Days_to_the_Grave)",
+				"**Source** [Pathfinder #8: Seven Days to the Grave pg. 69](source:pathfinder_#8_seven_days_to_the_grave)",
 				"",
 				"Justiciars embody law and civilization wherever they go, from the most corrupt depths of a city slum to the wildest frontier lands. They arbitrate disputes, deal with criminals, and establish law where there is none. In pleasant times they are diplomats, in dangerous ones they are judge, jury, and executioner. Their feet leave trails destined to become great roads, and their decrees carry the force of law. Being a justiciar is a serious duty and is not taken lightly-they tend to wear down over time, weathered not from travel and sunlight but from the heavy burden of carrying civilization forward into the future. A rare few pursue heretics of their own religion, keeping the faith stable and weeding out unruly elements. Each is sworn to uphold a religious or secular code.",
 				"",
@@ -4618,7 +4618,7 @@
 			"description": [
 				"## Knight of Ozem",
 				"",
-				"**Source** [Paths of Prestige pg. 30](source:Paths_of_Prestige)",
+				"**Source** [Paths of Prestige pg. 30](source:paths_of_prestige)",
 				"",
 				"Guardians of a sacred trust, the Knights of Ozem are a chivalrous order based out of Lastwall and dedicated to guarding against the return of Tar-Baphon, the dreaded Whispering Tyrant. They also fight against the schemes of all undead creatures and any plots to increase the power of undeath, especially those associated with the Whispering Way.",
 				"",
@@ -4691,7 +4691,7 @@
 			"description": [
 				"## Lantern Bearer",
 				"",
-				"**Source** [Adventurer's Guide pg. 110](source:Adventurer's_Guide), [Paths of Prestige pg. 32](source:Paths_of_Prestige)",
+				"**Source** [Adventurer's Guide pg. 110](source:adventurer's_guide), [Paths of Prestige pg. 32](source:paths_of_prestige)",
 				"",
 				"Originally, only elves were allowed to join the Lantern Bearers, but with the destruction of the Winter Council and the group's new focus on openness, these restrictions have been abandoned. While elves still hold a majority in the organization and its base of operations remains in Kyonin, any who seek to further the group's goals are welcome as members. The same goes for those passionate about opposing demonic influences or threats from the Darklands. These dedicated soldiers and redeemers, called Lantern Bearers after the group that gave rise to them, form the backbone of that organization.",
 				"",
@@ -4772,7 +4772,7 @@
 			"description": [
 				"## Liberator",
 				"",
-				"**Source** [Second Darkness Player's Guide pg. 22](source:Second_Darkness_Player's_Guide)",
+				"**Source** [Second Darkness Player's Guide pg. 22](source:second_darkness_player's_guide)",
 				"",
 				"Liberators fight to free the wrongfully imprisoned-be they slaves, political prisoners, or princesses locked in towers. They rely on physical strength-but also quick wits-to overcome oppressors. Since charging blindly into battle could result in a prisoner's death, liberators plan their rescues carefully.",
 				"",
@@ -4847,7 +4847,7 @@
 			"description": [
 				"## Lion Blade",
 				"",
-				"**Source** [Inner Sea Intrigue pg. 36](source:Inner_Sea_Intrigue), [Taldor, Echoes of Glory pg. 22](source:Taldor,_Echoes_of_Glory)",
+				"**Source** [Inner Sea Intrigue pg. 36](source:inner_sea_intrigue), [Taldor, Echoes of Glory pg. 22](source:taldor,_echoes_of_glory)",
 				"",
 				"Trained in the hidden Shadow Schools beneath the streets of Cassomir and Oppara, the Lion Blades of Taldor come from the empire's most secretive school of fighting arts and espionage. They prefer to fight in crowded urban areas and are masters of motion, controlling both their own movement and those around them. With the flick of a blade, they can slow their enemies to a crawl and then step into a crowd and disappear from sight. Lion Blades are typically recruited out of the famous bardic colleges of Oppara, as the Shadow Schools want intelligent, flexible trainees. A Lion Blade usually spends at least a year in training before taking on missions for the Taldan Empire and various non-governmental organizations. Lion Blade PCs are often on extended loan for a specific purpose or given permission to adventure in order to perfect their art in real-world settings. A rare few Lion Blades shirk their responsibilities and work independently or even serve the enemies of Taldor- Cheliax particularly values these turncoats.",
 				"",
@@ -4932,7 +4932,7 @@
 			"description": [
 				"## Living Monolith",
 				"",
-				"**Source** [People of the Sands pg. 25](source:People_of_the_Sands), [Osirion, Land of the Pharaohs pg. 22](source:Osirion,_Land_of_the_Pharaohs)",
+				"**Source** [People of the Sands pg. 25](source:people_of_the_sands), [Osirion, Land of the Pharaohs pg. 22](source:osirion,_land_of_the_pharaohs)",
 				"",
 				"The lands of Osirion, Rahadoum, and Thuvia-all once part of the realm of Ancient Osirion-are rife with aged ruins guarded by stony sentinels from bygone days, whose implacable gaze can still the heart of a miscreant or scare off a would-be tomb robber. The ancient race of sphinxes is said to have endowed the first living monoliths with their powers, raising statues to a semblance of life, but today, most of these paragons of justice are mortals who willingly take on the mantle of immortal warriors through ritual and devotion, imbuing themselves with the patience and eternal strength of stone.",
 				"",
@@ -5017,7 +5017,7 @@
 			"description": [
 				"## Loremaster",
 				"",
-				"**Source** [PRPG Core Rulebook pg. 385](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook pg. 385](source:prpg_core_rulebook)",
 				"",
 				"The loremaster is a gatherer and keeper of secrets. He is often obsessed by the written word, with cryptic and arcane lore serving as his devoted mistress. Holding to the adage that knowledge is power, the loremaster often forsakes material wealth and personal glory for rare or unusual information, an endless quest that brings him ever closer to his unattainable goal: perfection through edification. Often rejecting what he views as the pointless affectations and transitory pleasures of his short-sighted neighbors, the loremaster believes that the only worthwhile goal in life is the acquisition of intellectual might. After all, wealth is spent, passions fade, and the power of the body is limited by age, while the mind's capacity to grow greater with time is infinite.",
 				"",
@@ -5100,7 +5100,7 @@
 			"description": [
 				"## Low Templar",
 				"",
-				"**Source** [Inner Sea World Guide pg. 280](source:Inner_Sea_World_Guide), [Pathfinder Campaign Setting pg. 226](source:Pathfinder_Campaign_Setting)",
+				"**Source** [Inner Sea World Guide pg. 280](source:inner_sea_world_guide), [Pathfinder Campaign Setting pg. 226](source:pathfinder_campaign_setting)",
 				"",
 				"\"I do so swear under the Light, by the Sword and Scales of Truth and all the fires of heaven, to undertake this holy Crusade. I pledge to guard heart, spirit, body, and mind from the corruption of this Wound upon the World. I furthermore promise and declare that I shall wage relentless war against the Spawn of the Pit and their manifold legions, as directed by those with charge of this Crusade and whenever opportunity presents, to extirpate and annihilate their execrable race and any who serve them.\"",
 				"",
@@ -5183,7 +5183,7 @@
 			"description": [
 				"## Magaambyan Arcanist",
 				"",
-				"**Source** [Adventurer's Guide pg. 118](source:Adventurer's_Guide), [Paths of Prestige pg. 34](source:Paths_of_Prestige)",
+				"**Source** [Adventurer's Guide pg. 118](source:adventurer's_guide), [Paths of Prestige pg. 34](source:paths_of_prestige)",
 				"",
 				"A Magaambyan arcanist studies and follows traditions of magic originally discovered by Old-Mage Jatembe himself, and uses these arcane secrets to continue Jatembe's quest to bring decency and integrity to civilization. Despite the name of the class, any arcane spellcaster can expand her powers via this prestige class, not only arcanists. Most Magaambyan arcanists consider their studies to be a sacred duty and a tradition that spans the ages. As a Magaambyan arcanist learns the deeper meanings locked within the academy's wisdom, she discovers the true enlightened and philanthropic purpose of the Magaambya.",
 				"",
@@ -5260,7 +5260,7 @@
 			"description": [
 				"## Mammoth Rider",
 				"",
-				"**Source** [Adventurer's Guide pg. 128](source:Adventurer's_Guide), [Paths of Prestige pg. 36](source:Paths_of_Prestige)",
+				"**Source** [Adventurer's Guide pg. 128](source:adventurer's_guide), [Paths of Prestige pg. 36](source:paths_of_prestige)",
 				"",
 				"From the inhospitable arctic wastes of the far north come the mighty mammoth riders, fearsome warriors who have trained the great beasts that wander the chilly wilds to serve as their faithful steeds. Toughened by their harsh environment, mammoth riders tame their surroundings through tenacious determination and sheer force of will, fighting alongside their bestial companions to take down huge game and carve out a hard existence in the icy north.",
 				"",
@@ -5334,7 +5334,7 @@
 			"description": [
 				"## Master Chymist",
 				"",
-				"**Source** [Advanced Player's Guide pg. 267](source:Advanced_Player's_Guide)",
+				"**Source** [Advanced Player's Guide pg. 267](source:advanced_player's_guide)",
 				"",
 				"When alchemists blithely use mutagens to turn themselves into hulking creatures of muscle and reflex, civilized folk often turn their heads and mutter that such transformations must have a price. For a few alchemists, that price is transformation into a master chymist, a creature able to take a monstrous brute form as an act of will.",
 				"",
@@ -5434,7 +5434,7 @@
 			"description": [
 				"## Master Spy",
 				"",
-				"**Source** [Advanced Player's Guide pg. 270](source:Advanced_Player's_Guide)",
+				"**Source** [Advanced Player's Guide pg. 270](source:advanced_player's_guide)",
 				"",
 				"Unparalleled practitioners of deception, master spies rely on deceit and trickery over brawn and spells. A master spy is an expert at both magical and nonmagical means of evading detection, and quick-witted when it comes to improvisation. Master spies may serve countries or private interests, or sell their services to the highest bidder without a thought to long-term loyalty.",
 				"",
@@ -5518,7 +5518,7 @@
 			"description": [
 				"## Mortal Usher",
 				"",
-				"**Source** [Pathfinder #144: Midwives to Death pg. 76](source:Pathfinder_#144:_Midwives_to_Death)",
+				"**Source** [Pathfinder #144: Midwives to Death pg. 76](source:pathfinder_#144_midwives_to_death)",
 				"",
 				"Whether the trouble is a formidable lich draining power from thousands of enslaved ghosts or a [qlippoth](monster/family:qlippoth) funneling stolen souls through an Abyssal stronghold, occasionally the [psychopomps](monster/family:psychopomps) must enlist a mortal usher-a living agent imbued with their power and cunning-to travel where even the guardians of the River of Souls cannot tread.",
 				"",
@@ -5558,7 +5558,7 @@
 				"",
 				"**Reaping Strike (Su):**  At 1st level, whenever a mortal usher deals hit point damage by using the attack action, casting a spell that targets only a single creature, or throwing an alchemical item as a standard action (including an [alchemist's](class:alchemist) bombs), he deals an additional 1d6 points of damage to the target, plus an additional 1d6 points of damage for every 2 additional class levels he has beyond 1st. This damage is positive energy damage if the target is undead, or negative energy damage if the target is living; creatures that are neither living nor dead, such as constructs, are unaffected by this ability.",
 				"",
-				"**Vital Strike:** At 1st level, a mortal usher gains the [Vital Strike](feat:Vital_Strike) feat, and at 6th level he gains the [Improved Vital Strike](feat:Improved_Vital_Strike) feat, even if he would not normally meet the prerequisites for them. If the mortal usher already has Vital Strike or Improved Vital Strike when he would gain it through this ability, he can immediately swap it for another feat for which he qualified at the level he first took it. For the purposes of qualifying for any feat that includes Vital Strike as a prerequisite, the mortal usher can use his class level in place of his base attack bonus, adding this value to his base attack bonus from any other classes he has as normal.",
+				"**Vital Strike:** At 1st level, a mortal usher gains the [Vital Strike](feat:vital_strike) feat, and at 6th level he gains the [Improved Vital Strike](feat:improved_vital_strike) feat, even if he would not normally meet the prerequisites for them. If the mortal usher already has Vital Strike or Improved Vital Strike when he would gain it through this ability, he can immediately swap it for another feat for which he qualified at the level he first took it. For the purposes of qualifying for any feat that includes Vital Strike as a prerequisite, the mortal usher can use his class level in place of his base attack bonus, adding this value to his base attack bonus from any other classes he has as normal.",
 				"",
 				"**Mortal Talents:** At 2nd level, a mortal usher must choose a class he belonged to before adding the prestige class. At 2nd level and every 2 levels thereafter, the mortal usher gains the class features of an additional level in his chosen class (for example, a [wizard](class:wizard) 5/mortal usher 4 would have the arcane bond benefits, caster level, and spells per day of a 7th-level wizard). He still retains the Hit Dice, base attack bonus, saving throw bonuses, and skill ranks of the prestige class, but gains all other class features of his chosen class at the specified levels.",
 				"",
@@ -5583,7 +5583,7 @@
 			"description": [
 				"## Mystery Cultist",
 				"",
-				"**Source** [Chronicle of the Righteous pg. 48](source:Chronicle_of_the_Righteous)",
+				"**Source** [Chronicle of the Righteous pg. 48](source:chronicle_of_the_righteous)",
 				"",
 				"Among the most pious worshipers of the empyreal lords are those known as mystery cultists. These zealots hone their spellcasting powers in honor of their patron empyreal lord and dedicate their lives to the teachings of this entity. The most powerful and respected mystery cultists become leaders of their own mystery cults and use their not insignificant resources to further the cause of good.",
 				"",
@@ -5668,7 +5668,7 @@
 			"description": [
 				"## Mystic Theurge",
 				"",
-				"**Source** [PRPG Core Rulebook pg. 387](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook pg. 387](source:prpg_core_rulebook)",
 				"",
 				"Mystic theurges place no boundaries on their magical abilities and find no irreconcilable paradox in devotion to the arcane as well as the divine. They seek magic in all of its forms, finding no reason or logic in denying themselves instruction by limiting their knowledge to one stifling paradigm, though many are simply hungry for limitless power. No matter what their motivations, mystic theurges believe that perception is reality, and through the divine forces and astral energies of the multiverse, that perception can be used to manipulate and control not only the nature of this reality, but destiny itself.",
 				"",
@@ -5728,7 +5728,7 @@
 			"description": [
 				"## Nature Warden",
 				"",
-				"**Source** [Advanced Player's Guide pg. 272](source:Advanced_Player's_Guide)",
+				"**Source** [Advanced Player's Guide pg. 272](source:advanced_player's_guide)",
 				"",
 				"Nature wardens are guardians of the wild places of the world, hunters and explorers par excellence, highly skilled in negotiating their way among the nonhuman inhabitants of the wild. Nature wardens befriend and train a beast of the wild as a companion, and some call wardens \"beastmasters\" because of these pets, but nature wardens are much more than tamers of wild things. They are experts at navigating the harsh brutality of nature's fury and making do with whatever tools and weapons present themselves, but they go beyond being hardy survivalists to become cunning tacticians with keen analytical minds, able to adapt and prepare for any situation and make the absolute best use of the advantages that any terrain or environment can afford them.",
 				"",
@@ -5817,7 +5817,7 @@
 			"description": [
 				"## Noble Scion",
 				"",
-				"**Source** [Paths of Prestige pg. 38](source:Paths_of_Prestige)",
+				"**Source** [Paths of Prestige pg. 38](source:paths_of_prestige)",
 				"",
 				"Whether from a privileged upbringing or social elevation through worthy deeds, nobility is a station to which many aspire. To some noble scions, their mantle is one of responsibility and the duties of governance. To others, the privileges of rank are rewards to flaunt and lavish upon themselves, without consideration of the commoners, peasants, and other underlings who exist wholly beneath their notice.",
 				"",
@@ -5927,7 +5927,7 @@
 			"description": [
 				"## Pain Taster",
 				"",
-				"**Source** [Occult Mysteries pg. 46](source:Occult_Mysteries), [Pathfinder #15: The Armageddon Echo pg. 60](source:Pathfinder_#15:_The_Armageddon_Echo)",
+				"**Source** [Occult Mysteries pg. 46](source:occult_mysteries), [Pathfinder #15: The Armageddon Echo pg. 60](source:pathfinder_#15_the_armageddon_echo)",
 				"",
 				"For pain tasters, agony is more than a pleasure-it's a path to power. Until recently, pain tasting was a practice employed exclusively by the drow. However, in recent decades Kuthite scholars have begun spreading details about the practice through cult circles. Though on the surface most pain tasters are followers of Zon-Kuthon, that path is now beginning to crop up among other evil and neutral cults as well.",
 				"",
@@ -6016,7 +6016,7 @@
 			"description": [
 				"## Pathfinder Chronicler",
 				"",
-				"**Source** [PRPG Core Rulebook pg. 388](source:PRPG_Core_Rulebook), [Pathfinder Campaign Setting pg. 228](source:Pathfinder_Campaign_Setting)",
+				"**Source** [PRPG Core Rulebook pg. 388](source:prpg_core_rulebook), [Pathfinder Campaign Setting pg. 228](source:pathfinder_campaign_setting)",
 				"",
 				"Brave explorers and scavengers of lost or forgotten knowledge, Pathfinder chroniclers are quintessential adventurers, exploring the world for esoteric truths, magical and mundane relics and artifacts, and new and mysterious vistas, be they wonderful or terrible. For some, this journey is purely about the wealth, for others the glory of discovery, and still more are stirred by the irresistible drive to uncover the bones of the ages and legends of forgotten epochs in an effort to chronicle the deeds of yesterday, today, and tomorrow.",
 				"",
@@ -6101,7 +6101,7 @@
 			"description": [
 				"## Pathfinder Delver",
 				"",
-				"**Source** [Adventurer's Guide pg. 138](source:Adventurer's_Guide), [Seekers of Secrets pg. 58](source:Seekers_of_Secrets)",
+				"**Source** [Adventurer's Guide pg. 138](source:adventurer's_guide), [Seekers of Secrets pg. 58](source:seekers_of_secrets)",
 				"",
 				"Not all Pathfinders are concerned with cataloging their exploits. Some are most at home treading ground untouched in years or even centuries, in search of the next challenge, the next dungeon, or the next ancient treasure. Pathfinder delvers prefer to leave the journaling to others and set off on a new grand adventure before the ink dries on the chronicles of their last. Often they're accompanied by a cohort or other companion who might not have the bravery (or foolhardiness) to go it alone on a grand adventure, but is more than willing to chronicle the exploits and adventures of another. For many in the Pathfinder Society, the delvers represent a frustrating combination-on the one hand, their eagerness to explore helps the Society reach areas and learn secrets that may otherwise go undiscovered. On the other hand, their tendency toward poor documentation worries many Society members, who fear that the bulk of what a delver might discover will go unreported.",
 				"",
@@ -6170,7 +6170,7 @@
 			"description": [
 				"## Pathfinder Field Agent",
 				"",
-				"**Source** [Pathfinder Society Primer pg. 18](source:Pathfinder_Society_Primer)",
+				"**Source** [Pathfinder Society Primer pg. 18](source:pathfinder_society_primer)",
 				"",
 				"Equipped with a variety of skills and trained to keep a cool head even in the most dire circumstances, a practiced Pathfinder field agent is a boon to any adventuring party.",
 				"",
@@ -6265,7 +6265,7 @@
 			"description": [
 				"## Pathfinder Savant",
 				"",
-				"**Source** [Adventurer's Guide pg. 140](source:Adventurer's_Guide), [Seekers of Secrets pg. 60](source:Seekers_of_Secrets)",
+				"**Source** [Adventurer's Guide pg. 140](source:adventurer's_guide), [Seekers of Secrets pg. 60](source:seekers_of_secrets)",
 				"",
 				"Pathfinder savants are specialists in the theory and practice of magic, illuminating mysteries of the eldritch fabric that permeates existence. The path of the savant brings expertise in the lore of glyphs and sigils, knowledge of exotic spells, and the power to unlock the full potential of magical devices. This skill also makes savants quite valuable to adventuring parties, both in their mastery over ancient traps that utilize old magic and in their skill at identifying and utilizing magic items found in the field. Of course, with their focus on the intellectual portions of adventuring, Pathfinder savants are often ill-equipped to handle the tougher, more excruciating parts of a typical dungeon delve; melee combat, wrenching open stuck doors, and enduring dangerous and unhealthy environments are not the savant's forte. As a result, they rarely undertake solo missions, instead allying with wellrounded groups of fellow adventurers in order to interact with history and strange archaic wonders without dealing with the grislier portions of exploration all on their own. To the Pathfinder savant, this is merely a logical extension of their preferred role in exploration, but that doesn't protect them from periodic sneers and veiled insults from more physically focused companions. Of course, most such associates are quick to beg forgiveness when, inevitably, the savant is needed to decipher the workings of a strange magical device or to call upon their significant magical power to solve problems that cannot be dealt with through brawn alone.",
 				"",
@@ -6335,7 +6335,7 @@
 			"description": [
 				"## Pit Fighter",
 				"",
-				"**Source** [Paths of Prestige pg. 40](source:Paths_of_Prestige)",
+				"**Source** [Paths of Prestige pg. 40](source:paths_of_prestige)",
 				"",
 				"Any good pit fighter will tell you, it doesn't matter how well you fight-all the crowd cares about is blood, and they don't care if it's yours or the other guy's. So if you want to survive your time in the pit, make sure the people get their blood, and lots of it. If you're lucky enough, the audience will be on your side, you'll feel the roar of the crowd pounding in your chest, and nothing can stop you.",
 				"",
@@ -6413,7 +6413,7 @@
 			"description": [
 				"## Proctor",
 				"",
-				"**Source** [Concordance of Rivals pg. 44](source:Concordance_of_Rivals)",
+				"**Source** [Concordance of Rivals pg. 44](source:concordance_of_rivals)",
 				"",
 				"The most ardent worshippers of the monitor demigods, called proctors, devote their lives to serving their divinities. Some proctors are wanderers, but most embed themselves in a community; experienced proctors are often highly respected for their even-handed wisdom as mediators or judges. In the case of proctors who revere the protean lords, these \"communities\" might consist of thieves or anarchists, but such proctors are no less respected for their expertise.",
 				"",
@@ -6423,7 +6423,7 @@
 				"",
 				"",
 				"**Alignment:** Any neutral.   ",
-				"**Feats:** [Alertness](feat:Alertness), [Monitor Obedience](feat:Monitor_Obedience).   ",
+				"**Feats:** [Alertness](feat:alertness), [Monitor Obedience](feat:monitor_obedience).   ",
 				"**Skills:** Knowledge (planes) 7 ranks, Knowledge (religion) 7 ranks.   ",
 				"**Spells:** Ability to cast at least two abjuration spells of two different spell levels.   ",
 				"**Special:** Must worship a monitor demigod; must have met with a monitor of CR 5 or greater and declined an offer of assistance or power from a celestial or fiendish being of CR 10 or greater.",
@@ -6456,7 +6456,7 @@
 				"",
 				"**Spells per Day:** At the indicated levels, a proctor gains new spells per day as if she had gained a level in a spellcasting class she belonged to before adding the prestige class. She does not gain any other benefits a character of that class would have gained except for additional spells per day, spells known (if she is a spontaneous spellcaster), and an increased effective level of spellcasting. If a character had more than one spellcasting class before becoming a proctor, she must decide which class she adds each new proctor level for the purpose of determining spells per day.",
 				"",
-				"**Monitor Familiar (Ex):** The proctor gains the services of an [arbiter](monster:arbiter), [nosoi](monster:nosoi), [paracletus](monster:paracletus), or [voidworm](monster:voidworm) familiar, as appropriate for the proctor's monitor demigod. This functions as the [wizard's arcane bond class feature](class:wizard), but as if the proctor had selected the [Improved Familiar](feat:Improved_Familiar) feat. If the proctor has levels in another class that grants a familiar, levels in that class and the proctor class stack for determining the overall abilities of her familiar.",
+				"**Monitor Familiar (Ex):** The proctor gains the services of an [arbiter](monster:arbiter), [nosoi](monster:nosoi), [paracletus](monster:paracletus), or [voidworm](monster:voidworm) familiar, as appropriate for the proctor's monitor demigod. This functions as the [wizard's arcane bond class feature](class:wizard), but as if the proctor had selected the [Improved Familiar](feat:improved_familiar) feat. If the proctor has levels in another class that grants a familiar, levels in that class and the proctor class stack for determining the overall abilities of her familiar.",
 				"",
 				"**Obedience (Ex):** In order to maintain the abilities granted by this prestige class (including all spellcasting abilities augmented by this prestige class), a proctor must perform a daily obedience to her monitor, as set forth in the description of each monitor demigod.",
 				"",
@@ -6472,11 +6472,11 @@
 				"",
 				"Impulsives let their instincts guide them, and most often align with the protean lords. A proctor with this expression can cast [freedom of movement](spell:freedom_of_movement) once per day as a spell-like ability. At 5th level, the proctor can use this ability as a swift action.",
 				"",
-				"**Monitor Boon:** As a proctor gains levels, she gains boons from her monitor demigod. The nature of the boons varies depending on the proctor's chosen demigod. A monitor demigod grants three boons, each more powerful than the last. At 3rd level, the proctor gains the first boon. At 6th level, she gains the second boon, and at 9th level, she gains the third boon. Consult the [Monitor Obedience](feat:Monitor_Obedience) feat and the monitor demigod descriptions for details on monitor boons.",
+				"**Monitor Boon:** As a proctor gains levels, she gains boons from her monitor demigod. The nature of the boons varies depending on the proctor's chosen demigod. A monitor demigod grants three boons, each more powerful than the last. At 3rd level, the proctor gains the first boon. At 6th level, she gains the second boon, and at 9th level, she gains the third boon. Consult the [Monitor Obedience](feat:monitor_obedience) feat and the monitor demigod descriptions for details on monitor boons.",
 				"",
 				"When a monitor demigod grants a spell-like ability, the proctor's level for the spell-like ability is equal to her total character level. This ability allows a proctor to access these boons earlier than normal; it does not grant additional uses of the boons once the character reaches the necessary Hit Dice to earn the boons normally.",
 				"",
-				"**Summon Monitor (Sp):** At 4th level, a proctor can cast [summon monster VI](spell:summon_monster_6) once per day to conjure monitors based on her monitor expression. An executor can summon one [Axiomite](monster:Axiomite), 1d3 [mercanes](monster:mercanes), or 1d4+1 [novenaruts](monster:novenaruts). A foster can summon one [vanth](monster:vanth), 1d3 [morbais](monster:morbais), or 1d4+1 [catrinas](monster:catrinas). A harmonizer can summon one [theletos](monster:theletos), 1d3 [othaoses](monster:othaoses), or 1d4+1 [comozant wyrds](monster:comozant_wyrds). An impulsive can summon one [naunet](monster:naunet), 1d3 [azuretzis](monster:azuretzis), or 1d4+1 [ourdivars](monster:ourdivars).",
+				"**Summon Monitor (Sp):** At 4th level, a proctor can cast [summon monster VI](spell:summon_monster_6) once per day to conjure monitors based on her monitor expression. An executor can summon one [Axiomite](monster:axiomite), 1d3 [mercanes](monster:mercanes), or 1d4+1 [novenaruts](monster:novenaruts). A foster can summon one [vanth](monster:vanth), 1d3 [morbais](monster:morbais), or 1d4+1 [catrinas](monster:catrinas). A harmonizer can summon one [theletos](monster:theletos), 1d3 [othaoses](monster:othaoses), or 1d4+1 [comozant wyrds](monster:comozant_wyrds). An impulsive can summon one [naunet](monster:naunet), 1d3 [azuretzis](monster:azuretzis), or 1d4+1 [ourdivars](monster:ourdivars).",
 				"",
 				"At 8th level, the proctor also gains the ability to cast [summon monster VIII](spell:summon_monster_8) once per day to conjure additional monitors of the same type as her monitor expression. An executor can summon one [kolyarut](monster:kolyarut), 1d3 [zelekhuts](monster:zelekhuts), or 1d4+1 [axiomites](monster:axiomites). A foster can summon one [algea](monster:algea), 1d3 [shokis](monster:shokis), or 1d4+1 [vanths](monster:vanths). A harmonizer can summon one [akhana](monster:akhana), 1d3 [jyoti](monster:jyoti), or 1d4+1 [theletoses](monster:theletoses). An impulsive can summon one [ibshaunet](monster:ibshaunet), 1d3 [illureshis](monster:illureshis), or 1d4+1 [naunets](monster:naunets). At the GM's discretion, specific monitor demigods may allow proctors who worship them to summon other neutral outsiders of equal power with this ability.",
 				"",
@@ -6493,7 +6493,7 @@
 			"description": [
 				"## Prophet of Kalistrade",
 				"",
-				"**Source** [Paths of Prestige pg. 42](source:Paths_of_Prestige)",
+				"**Source** [Paths of Prestige pg. 42](source:paths_of_prestige)",
 				"",
 				"Any fool off the street can earn a few copper pieces for his labor, but the white-gloved leaders of Druma know that the only true path to success is that set forth in the Prophecies of Kalistrade, a series of directives that detail a strict regimen believers must follow in order to achieve wealth and prosperity. Such prohibitions include abstaining from several kinds of meat, most sexual activity, and virtually all physical contact with other people (wearing full-length white gloves in public to avoid inadvertent touching).",
 				"",
@@ -6564,7 +6564,7 @@
 			"description": [
 				"## Pure Legion Enforcer",
 				"",
-				"**Source** [Inner Sea Combat pg. 32](source:Inner_Sea_Combat)",
+				"**Source** [Inner Sea Combat pg. 32](source:inner_sea_combat)",
 				"",
 				"The nation of Rahadoum holds all religions equally in contempt. From calling down the holy fires of Iomedae to saying a quiet prayer on behalf of the dead to Pharasma, any expression of religious worship or spiritual proselytization is a crime punishable by fines, exile, imprisonment-or worse. These anti-religion laws, part of a larger code known as the Laws of Man, were originally created as the solution to the Oath Wars, a decades-long series of holy wars between the faithful of Sarenrae and followers of Nethys and Norgorber that ravaged Rahadoum centuries ago.",
 				"",
@@ -6643,7 +6643,7 @@
 			"description": [
 				"## Rage Prophet",
 				"",
-				"**Source** [Advanced Player's Guide pg. 275](source:Advanced_Player's_Guide)",
+				"**Source** [Advanced Player's Guide pg. 275](source:advanced_player's_guide)",
 				"",
 				"Throughout the wilderness, there are those warriors whose powers are infused by the spirits, who see and hear into the world beyond and draw unthinkable reserves of power from it. They are the chosen of the gods, and they often hold status nearly equal to that of a chief or shaman in a typical tribe, or sometimes even exceeding this. Rage prophets can dispense advice through their communion with the spirits and ability to divine the future.",
 				"",
@@ -6721,7 +6721,7 @@
 			"description": [
 				"## Razmiran Priest",
 				"",
-				"**Source** [Paths of Prestige pg. 44](source:Paths_of_Prestige)",
+				"**Source** [Paths of Prestige pg. 44](source:paths_of_prestige)",
 				"",
 				"Those who live within the boundaries of Razmir's holy lands know the power of the Living God. He makes his presence felt through demands of fealty, ever-increasing tithes, and the less-than-gentle hands of his most devout subjects. Of these devotees, it is Razmir's clergy that most accurately represents the fervor of their lord. They roam the lands spreading word of the power of Razmir, and using that power to convince the unfaithful of their misplaced loyalties in other gods and governments.",
 				"",
@@ -6799,7 +6799,7 @@
 			"description": [
 				"## Red Mantis Assassin",
 				"",
-				"**Source** [Adventurer's Guide pg. 154](source:Adventurer's_Guide), [Pathfinder #9: Escape from Old Korvosa pg. 69](source:Pathfinder_#9:_Escape_from_Old_Korvosa), [Pathfinder Campaign Setting pg. 230](source:Pathfinder_Campaign_Setting), [Inner Sea World Guide pg. 282](source:Inner_Sea_World_Guide)",
+				"**Source** [Adventurer's Guide pg. 154](source:adventurer's_guide), [Pathfinder #9: Escape from Old Korvosa pg. 69](source:pathfinder_#9_escape_from_old_korvosa), [Pathfinder Campaign Setting pg. 230](source:pathfinder_campaign_setting), [Inner Sea World Guide pg. 282](source:inner_sea_world_guide)",
 				"",
 				"Initiates of the Red Mantis usually begin their training as rogues, often with fighter or ranger levels, as stealth and skill at arms are both prerequisites to joining the order.",
 				"",
@@ -6872,7 +6872,7 @@
 			"description": [
 				"## Riftwarden",
 				"",
-				"**Source** [Paths of Prestige pg. 46](source:Paths_of_Prestige)",
+				"**Source** [Paths of Prestige pg. 46](source:paths_of_prestige)",
 				"",
 				"Guardians of the Great Beyond's integrity and stability, the Riftwardens can be found virtually anywhere throughout the multiverse combating their hated foes, the Blackfire Adepts. They travel throughout the Great Beyond as guides and wardens, sworn to protecting the boundaries between planes and punishing evildoers who would seek to use planar gateways for their own nefarious purposes.",
 				"",
@@ -6947,7 +6947,7 @@
 			"description": [
 				"## Ritualist",
 				"",
-				"**Source** [Chronicle of Legends pg. 12](source:Chronicle_of_Legends)",
+				"**Source** [Chronicle of Legends pg. 12](source:chronicle_of_legends)",
 				"",
 				"Long-forgotten occult rituals offer great power at a terrible price. While most traditional spellcasters consider these occult rituals dangerous and unreliable, some spellcasters hone their skills with such rituals, making the strange spells more likely to succeed and less likely to cause unintended harm. As ritualists deepen their understanding of ritual magic, they broaden their understanding of all things occult, becoming true masters of mysteries which others have no ability to comprehend. Even those uninitiated in the art of magic can cast rituals and interact with the fabric of magic, but their rituals pale in comparison to the power of those who have sacrificed, specialized, studied, and trained to perfect such arts.",
 				"",
@@ -7024,7 +7024,7 @@
 			"description": [
 				"## Rivethun Emissary",
 				"",
-				"**Source** [Adventurer's Guide pg. 164](source:Adventurer's_Guide)",
+				"**Source** [Adventurer's Guide pg. 164](source:adventurer's_guide)",
 				"",
 				"Rivethun teachings cultivate strength and empathy through knowledge, self-control, and willpower. At their culmination lies the ability to invest pain and discord into a spirit companion, and to take in a portion of that spirit's burden in exchange. This process creates a powerful bond to the spirit realms, allowing the Rivethun emissary to sense and pacify otherworldly creatures, and to channel powerful outsiders into the physical form of her spirit animal, creating a powerful hybrid called an animus to guide, protect, and advise her. Rivethun emissaries develop much like shamans, but their powerful bond with a singular spirit guide stunts their ability to bond with any wayward spirits they encounter.",
 				"",
@@ -7107,7 +7107,7 @@
 			"description": [
 				"## Rose Warden",
 				"",
-				"**Source** [Paths of the Righteous pg. 20](source:Paths_of_the_Righteous)",
+				"**Source** [Paths of the Righteous pg. 20](source:paths_of_the_righteous)",
 				"",
 				"Tyrants may attempt to crush the seeds of dissent before they can ever bloom, but the goddess Milani is always there to cultivate hope in the very heart of oppression and uplift the subjugated. Those known as rose wardens serve as her champions, their elite skills contributing to the cause of revolution-yet they are not obvious crusaders who revel in personal fame or glory. Though they oppose despotic governments, they do not act as anarchists or criminals; for example, rose wardens try to prevent demonstrations from becoming destructive riots to avoid harming innocents. Some of the greatest rose wardens are former thieves who adapted their talents to aid the downtrodden.",
 				"",
@@ -7191,7 +7191,7 @@
 			"description": [
 				"## Runeguard",
 				"",
-				"**Source** [Paths of the Righteous pg. 22](source:Paths_of_the_Righteous)",
+				"**Source** [Paths of the Righteous pg. 22](source:paths_of_the_righteous)",
 				"",
 				"The ancient traditions of Thassilonian magic became mired in the culture of sin due to the legacy of that land's runelords, but taken in its purest form, Thassilonian magic is no more good than evil. Indeed, at Thassilon's outset-before the runelords seized control-the original incarnations of these seven schools of magic were not associated with sins at all, but rather with the seven virtues of rule. This original lore is all but lost, but within the city-states of Varisia (particularly in Magnimar), a small order of spellcasters seeks to reclaim the knowledge of those empowering virtues. With the might of virtuous runes, they protect their homes from the lingering evil of Thassilon and look to the guidance of Soralyon, the Mystic Angel, to aid them in their quest. These spellcasters have also come to believe that a runelord's return to power is practically an inevitable threat that must be prepared for and defended against.",
 				"",
@@ -7263,7 +7263,7 @@
 			"description": [
 				"## Sacred Sentinel",
 				"",
-				"**Source** [Paths of the Righteous pg. 24](source:Paths_of_the_Righteous)",
+				"**Source** [Paths of the Righteous pg. 24](source:paths_of_the_righteous)",
 				"",
 				"Torag is thought of by many as a god of forging, but his primary areas of concern also include protection and strategy. Among the followers of Torag, some feel drawn to devote themselves to these later aspects of the Father of Creation. Known as sacred sentinels, these holy warriors view themselves as mortal shields of defense in Torag's service, and seek to place themselves where defenders are most needed. Many speak of themselves as pillars, strong structures that can hold up a vast building but only by supporting the other beams and supports needed. The pillar is the source of the strength, but its strength must serve to support a network of other beams or it accomplishes little.",
 				"",
@@ -7334,7 +7334,7 @@
 			"description": [
 				"## Sanguine Angel",
 				"",
-				"**Source** [Adventurer's Guide pg. 80](source:Adventurer's_Guide)",
+				"**Source** [Adventurer's Guide pg. 80](source:adventurer's_guide)",
 				"",
 				"Of those Gray Maidens who remain loyal to the ideals of Queen Ileosa, none have seen as much success as the members of the Erinyes Company. The company's origin lies with a band of Gray Maidens led by Qualins Rachmirol, who commandeered a ship in the wake of Ileosa's defeat and sailed to Cheliax. Her Infernal Majestrix was impressed by the soldiers' devotion and prowess; Abrogail adopted them into the Chelish military and gave the group its new name.",
 				"",
@@ -7418,7 +7418,7 @@
 			"description": [
 				"## Scar Seeker",
 				"",
-				"**Source** [Paths of the Righteous pg. 26](source:Paths_of_the_Righteous)",
+				"**Source** [Paths of the Righteous pg. 26](source:paths_of_the_righteous)",
 				"",
 				"The empyreal lord Vildeis doesn't demand acts of self-mortification. Nonetheless, some devoted turn their own skins into scarred manuscripts of noteworthy deeds and unforgettable failures. Those who wholly embrace these rites of scarification are known as scar seekers. There is no formal order of scar seekers. Instead, the path is a personal journey guided by the practitioner's convictions and experiences. Even when two scar seekers meet, they rarely remain together longer than it takes to compare their wounds or thwart a nearby fiend, as such disciples too often attempt to outdo one another's pain.",
 				"",
@@ -7491,7 +7491,7 @@
 			"description": [
 				"## Sentinel",
 				"",
-				"**Source** [Inner Sea Gods pg. 202](source:Inner_Sea_Gods)",
+				"**Source** [Inner Sea Gods pg. 202](source:inner_sea_gods)",
 				"",
 				"Every major deity boasts champions of some type, whether they are paladins sworn to Iomedae or barbarians who channel their destructive rage from Rovagug. The sentinel is a warrior who receives special powers in exchange for his service to a deity, and often serves as a guard for the deity's clergy. Some undergo official training, others experience visions leading them to their path, and some simply make the decision to pledge their lives to upholding their faith.",
 				"",
@@ -7583,7 +7583,7 @@
 			"description": [
 				"## Shackles Pirate",
 				"",
-				"**Source** [Pathfinder Campaign Setting pg. 232](source:Pathfinder_Campaign_Setting)",
+				"**Source** [Pathfinder Campaign Setting pg. 232](source:pathfinder_campaign_setting)",
 				"",
 				"Pirates of the Shackles prowl rivers in skiffs, rowboats, and coracles in search of easy prey. Those who prove handy at waterway robbery might someday find a position on the galleons that frequently raid along the coast and waylay trade ships. They are adept at navigating the treacherous marshes of the area, and able to survive the unending raging hurricane.",
 				"",
@@ -7679,7 +7679,7 @@
 			"description": [
 				"## Shadowdancer",
 				"",
-				"**Source** [PRPG Core Rulebook pg. 391](source:PRPG_Core_Rulebook)",
+				"**Source** [PRPG Core Rulebook pg. 391](source:prpg_core_rulebook)",
 				"",
 				"Civilized folk have always feared the night, barring themselves behind doors or comforting themselves with bonfires when the shadows grow long, rightfully wary of the creatures that prowl the darkness. Yet long ago, some learned that the best way to conquer an enemy is to embrace it. These were the first shadowdancers.",
 				"",
@@ -7767,7 +7767,7 @@
 			"description": [
 				"## Shieldmarshal",
 				"",
-				"**Source** [Paths of Prestige pg. 48](source:Paths_of_Prestige)",
+				"**Source** [Paths of Prestige pg. 48](source:paths_of_prestige)",
 				"",
 				"Shieldmarshals are the chieflaw enforcement officials of the Grand Duchy of Alkenstar, gunsmithing capital of the Inner Sea. They conduct both overt and discreet investigations of crimes within Alkenstar, as well as events elsewhere in the world that might threaten Alkenstar's monopolistic domination of the gun trade. Smuggling, industrial espionage, and sabotage greatly concern the Ironmaster and Alkenstar's ruling parliament, and the shieldmarshals are their chief weapon to combat such felonious behavior. The sheer skill with which they wield their favored firearms makes shieldmarshals a force to be reckoned with, and their silver crossed-rifle shield-badges are enough to open virtually any door in the Grand Duchy and to hold any citizen to account.",
 				"",
@@ -7852,7 +7852,7 @@
 			"description": [
 				"## Skyseeker",
 				"",
-				"**Source** [Paths of Prestige pg. 50](source:Paths_of_Prestige)",
+				"**Source** [Paths of Prestige pg. 50](source:paths_of_prestige)",
 				"",
 				"Perhaps no event so shaped dwarven history or culture as the legendary Quest for Sky. Spurred by the words of their prophets, the ancient dwarves abandoned their homes deep within the subterranean realm of Nar-Voth and began the perilous search for the sky over 5 millennia ago. For 300 years, the dwarves fought their way upward, driving their hated enemies-the orcs' before them. When they finally breached the surface, these legendary heroes built 10 grand fortresses across the face of Golarion-the 10 magnificent Sky Citadels.",
 				"",
@@ -7924,7 +7924,7 @@
 			"description": [
 				"## Sleepless Detective",
 				"",
-				"**Source** [Paths of Prestige pg. 52](source:Paths_of_Prestige)",
+				"**Source** [Paths of Prestige pg. 52](source:paths_of_prestige)",
 				"",
 				"Although it operates mainly in the mist-shrouded principality of Ustalav, the Sleepless Agency provides unscrupulous security and investigative services to clientele all across Avistan. Whether guarding aristocrats in Taldor, protecting relics on their way to the markets of Absalom, or infiltrating the insular gangs of Kaer Maga, Sleepless agents reliably execute their contracts with the utmost professionalism and efficiency. Yet of all the Sleepless Agency's personnel, its detectives are the most widely known and respected. Famous the world over for their astounding powers of logic and observation, Sleepless detectives solve some of the strangest, most impenetrable mysteries ever to trouble the citizens of the Inner Sea region-as long as someone has the coin to pay for such investigations.",
 				"",
@@ -7994,7 +7994,7 @@
 			"description": [
 				"## Soul Warden",
 				"",
-				"**Source** [Undead Slayer's Handbook pg. 30](source:Undead_Slayer's_Handbook)",
+				"**Source** [Undead Slayer's Handbook pg. 30](source:undead_slayer's_handbook)",
 				"",
 				"Bygone products of an ancient war, soul wardens are an enigma of themselves. The original soul wardens were a specially trained cadre of anti-necromantic commandos in the Nexian army during the Age of Destiny. They rose to prominence during the height of Nex's war against the undead kingdom of Geb. The wizards' conflict came to a close during the Age of Enthronement with the undeath of Geb and the disappearance of Nex, and soul wardens fell into obscurity as those armies effectively dissolved. Now, the only soul wardens who tread Golarion are those individuals who unofficially claim the title by mastering the millennia-old secrets of these forgotten warriors.",
 				"",
@@ -8076,7 +8076,7 @@
 			"description": [
 				"## Souldrinker",
 				"",
-				"**Source** [Book of the Damned pg. 212](source:Book_of_the_Damned), [Book of the Damned - Volume 3: Horsemen of the Apocalypse pg. 34](source:Book_of_the_Damned_-_Volume_3:_Horsemen_of_the_Apocalypse)",
+				"**Source** [Book of the Damned pg. 212](source:book_of_the_damned), [Book of the Damned - Volume 3: Horsemen of the Apocalypse pg. 34](source:book_of_the_damned_-_volume_3:_horsemen_of_the_apocalypse)",
 				"",
 				"Pledging their souls to Abaddon, souldrinkers are proxies of death, serving the architects of the apocalypse until eventually their own souls are drawn into their masters' waiting maws.",
 				"",
@@ -8161,7 +8161,7 @@
 			"description": [
 				"## Sphere Singer",
 				"",
-				"**Source** [Paths of the Righteous pg. 28](source:Paths_of_the_Righteous)",
+				"**Source** [Paths of the Righteous pg. 28](source:paths_of_the_righteous)",
 				"",
 				"The faithful of Desna are legendary for their love of wayfaring, but the sphere singer takes this wanderlust to almost extreme lengths. Sphere singers combine faith and song to help them in their travels. They are always eager to discover what is past the horizon or in the next chamber. As the sphere singer advances in level, she learns to influence dreams and manipulate luck. Eventually, she even transcends her mortal origins to travel among the stars. Yet a sphere singer never loses sight of the fact that no matter how powerful she grows, she is still subject to the fickle whims of fate, and she trusts in luck to aid her in times of need.",
 				"",
@@ -8235,7 +8235,7 @@
 			"description": [
 				"## Spherewalker",
 				"",
-				"**Source** [Pathfinder #2: The Skinsaw Murders pg. 73](source:Pathfinder_#2:_The_Skinsaw_Murders)",
+				"**Source** [Pathfinder #2: The Skinsaw Murders pg. 73](source:pathfinder_#2_the_skinsaw_murders)",
 				"",
 				"A spherewalker is one who embraces the philosophy of Desna: travel far and wide, fight for your dreams, and indulge your desires. Spherewalkers explore extreme locales, dream fantastic dreams, and press their luck (good and bad) to make their lives interesting and noteworthy. They are known for founding cities, discovering lost civilizations, and going places where none have ever trod. They may choose to walk the distant paths alone or try to understand the mysteries of the mind and soul and become great leaders. Above all, spherewalkers seek adventure, with all the risks and rewards that such endeavors bring.",
 				"",
@@ -8302,7 +8302,7 @@
 			"description": [
 				"## Stalwart Defender",
 				"",
-				"**Source** [Advanced Player's Guide pg. 277](source:Advanced_Player's_Guide)",
+				"**Source** [Advanced Player's Guide pg. 277](source:advanced_player's_guide)",
 				"",
 				"Drawn from the ranks of guards, knights, mercenaries, and thugs alike, stalwart defenders are masters of claiming an area and refusing to relinquish it. This behavior is more than a tactical decision for stalwart defenders; it's an obsessive, stubborn expression of the need to be undefeated. When stalwart defenders set themselves in a defensive stance, they place their whole effort into weathering whatever foe, conflict, or threat comes their way.",
 				"",
@@ -8407,7 +8407,7 @@
 			"description": [
 				"## Stargazer",
 				"",
-				"**Source** [Paths of the Righteous pg. 30](source:Paths_of_the_Righteous)",
+				"**Source** [Paths of the Righteous pg. 30](source:paths_of_the_righteous)",
 				"",
 				"The empyreal lord Pulura, the Shimmering Maiden, is said to dance among the lights of the aurora. Some of her worshipers seek her guidance in the starry skies, attuning themselves to the constellations of the Cosmic Caravan (Pathfinder Campaign Setting: Occult Mysteries 36). Beyond the stargazers' interests in the heavens, though, they also train for the inevitable conflict with demons. Pulura's bastion of worship in the Inner Sea region has traditionally been in the land of Sarkoris, which was consumed from within by the Worldwound at the advent of the Age of Lost Omens. Many of Pulura's worshipers perished during that disastrous invasion from the Abyss, but those who survived remained behind and, over the past several decades, have grown in power. This prestige class's specific defenses against demons and their ilk are a relatively recent addition to the traditions of the Puluran stargazer, but have served her worshipers well in helping them defend what little land they still control in the demon-blighted wastes of the Worldwound.",
 				"",
@@ -8494,7 +8494,7 @@
 			"description": [
 				"## Steel Falcon",
 				"",
-				"**Source** [Adventurer's Guide pg. 70](source:Adventurer's_Guide), [Andoran, Spirit of Liberty pg. 22](source:Andoran,_Spirit_of_Liberty)",
+				"**Source** [Adventurer's Guide pg. 70](source:adventurer's_guide), [Andoran, Spirit of Liberty pg. 22](source:andoran,_spirit_of_liberty)",
 				"",
 				"The Steel Falcons are Andoran's spiritual and physical vanguard, spreading the government's philosophical ideologies by whatever means necessary. This can be anything from bribing a foreign noble with inside information, to breaking the chains of the enslaved, to orchestrating widespread rebellion in an unfriendly land. While they occasionally serve as envoys and diplomats, Steel Falcons must be skilled at a variety of techniques if they expect to survive in hostile lands and accomplish their missions. The ability to utilize traps is as important to the Steel Falcon as the camaraderie she shares with her fellows. And while manipulating an enemy's emotions and seeking diplomatic solutions can solve some problems, others present no solution other than battle.",
 				"",
@@ -8569,7 +8569,7 @@
 			"description": [
 				"## Storm Kindler",
 				"",
-				"**Source** [Adventurer's Guide pg. 180](source:Adventurer's_Guide), [Paths of Prestige pg. 54](source:Paths_of_Prestige)",
+				"**Source** [Adventurer's Guide pg. 180](source:adventurer's_guide), [Paths of Prestige pg. 54](source:paths_of_prestige)",
 				"",
 				"Those who focus their studies on the Eye of Abendego can unlock and master potent techniques to augment their already impressive command of storm and wind. These scions of the hurricane take the name of Storm Kindler as more than merely the organization they belong to-they seek to develop not only power to manipulate storms, but also the ability to awaken the storms within their own bodies, physically transforming into vortexes of destruction.",
 				"",
@@ -8646,7 +8646,7 @@
 			"description": [
 				"## Student of Perfection",
 				"",
-				"**Source** [Adventurer's Guide pg. 102](source:Adventurer's_Guide)",
+				"**Source** [Adventurer's Guide pg. 102](source:adventurer's_guide)",
 				"",
 				"Even the masters of the Houses of Perfection consider themselves students, as imperfect beings always have more to learn. As a result of their continued training, these masters have developed powers unique to their monasteries.",
 				"",
@@ -8739,7 +8739,7 @@
 			"description": [
 				"## Student of War",
 				"",
-				"**Source** [Adventurer's Guide pg. 142](source:Adventurer's_Guide), [Seekers of Secrets pg. 62](source:Seekers_of_Secrets)",
+				"**Source** [Adventurer's Guide pg. 142](source:adventurer's_guide), [Seekers of Secrets pg. 62](source:seekers_of_secrets)",
 				"",
 				"To hear most warriors talk, battles are won by sharp iron and mighty thews. Yet the student of war knows that the key to victory is the mind behind the mettle, the training that guides the blade, and the discernment of when and where to strike. Any dedicated martial scholar can join this prestige class, but the Pathfinder Society draws the lion's share. The Society's libraries are a treasure trove to the aspiring student of war, home to obscure combat manuals, moldy bestiaries, and detailed histories of battle. Armed with these texts and hardened by constant drilling, the student of war fills her repertoire with tricks and techniques designed to exploit every weakness and negate every advantage of her foes.",
 				"",
@@ -8811,7 +8811,7 @@
 			"description": [
 				"## Tattooed Mystic",
 				"",
-				"**Source** [Paths of Prestige pg. 56](source:Paths_of_Prestige)",
+				"**Source** [Paths of Prestige pg. 56](source:paths_of_prestige)",
 				"",
 				"The tattooed mystics of Varisia are renowned throughout Avistan for both the artistry with which they adorn their bodies and the powerful magic they summon from these markings. Many learn the ways of tattooing from their forebears, the craft having been passed down through generations of Varisian wanderers and fortune-tellers. Others are born with what the Varisians call \"birth tattoos\"-incredibly elaborate and colorful birthmarks; those so blessed almost always grow up to become tattooed mystics. Regardless of how their fascination with the art begins, those seeking the powers of the tattooed mystic invariably turn to the runes of ancient Thassilon and the study of magic, combining the two into an elaborate and dangerous form of spellcraft.",
 				"",
@@ -8885,7 +8885,7 @@
 			"description": [
 				"## Technomancer",
 				"",
-				"**Source** [Technology Guide pg. 14](source:Technology_Guide)",
+				"**Source** [Technology Guide pg. 14](source:technology_guide)",
 				"",
 				"The true power in Numeria lies with the Technic League, not the Black Sovereign, and it is technomancers who rule the League. They master the art of blending magic and super-science, unlock the secrets of stolen technology, and devise cunning new inventions from the remnants of ruined devices.",
 				"",
@@ -8963,7 +8963,7 @@
 			"description": [
 				"## Thuvian Alchemist",
 				"",
-				"**Source** [People of the Sands pg. 26](source:People_of_the_Sands)",
+				"**Source** [People of the Sands pg. 26](source:people_of_the_sands)",
 				"",
 				"Thuvian alchemy evolved from the herbalism and horticulture of the ancient Tekritanin League. Their cultivars and gardeners were renowned, but such peaceful pursuits waned in prominence when the expansionist pharaohs of Osirion remade the land into a staging ground for war against the Jistka Imperium to the west. The old ways nearly became extinct, yet the lore of the desert's delicate blooms never entirely disappeared.",
 				"",
@@ -9042,7 +9042,7 @@
 			"description": [
 				"## Twilight Talon",
 				"",
-				"**Source** [Adventurer's Guide pg. 72](source:Adventurer's_Guide)",
+				"**Source** [Adventurer's Guide pg. 72](source:adventurer's_guide)",
 				"",
 				"Of all the members of the Eagle Knights, Twilight Talons often pay the highest price for the freedom the Eagle Knights work so hard to achieve, sacrificing years of their lives to serve as spies in nations whose cultures make their stomachs turn, and never receiving credit for or acknowledgment of their accomplishments-or even their existence. Perhaps even more exhausting are the moral and ethical choices a Twilight Talon has to make on so many of her missions. Often, such choices end up being difficult decisions made between two evils, and in many cases, a Twilight Talon ends up having to deal with the consequences of such decisions for months or even years to come. Yet to make no decision at all in such a time is perhaps the greatest evil of all, for to the Twilight Talon, acting in the best of intentions is always a better option than remaining quiet and allowing evil and cruelty to continue unopposed. Being selected to serve as a Twilight Talon is an honor bestowed on only the select few who Marshal Helena Trellis, head of the Talons, believes trustworthy enough to carry out the commitment and of strong enough character to be able to make morally difficult decisions for the best of Andoran-all without public recognition. To a Twilight Talon, a job well done is one that no one outside of the Talons ever knew occurred in the first place.",
 				"",
@@ -9108,7 +9108,7 @@
 			"description": [
 				"## Ulfen Guard",
 				"",
-				"**Source** [Inner Sea Combat pg. 34](source:Inner_Sea_Combat)",
+				"**Source** [Inner Sea Combat pg. 34](source:inner_sea_combat)",
 				"",
 				"After centuries of raiding and pillaging throughout Avistan, the Ulfen have earned their reputation for ferocity and fearlessness. Though seemingly at odds with this perception of barbarism, Ulfen are also known for their staunch loyalty, strong sense of honor, and unyielding resolve. The combination of these reputations is in large part why they have become desired as bodyguards throughout the region. Nowhere is this practice more pronounced than in Taldor, where Ulfen have become ensconced in the Taldan tradition and adopted as the elite bodyguards of Grand Prince Stavian III himself. Ulfen Guards, as outsiders, are generally thought to have no ulterior motives or secret loyalty to other Taldan families or political organizations; their honor keeps them loyal to the crown. An Ulfen Guard is required to be of at least half- Ulfen descent, with one or both parents hailing from the Lands of the Linnorm Kings. Non-Ulfen may serve the organization in a support capacity, but may not be Ulfen Guards themselves. While the Ulfen Guards are officially Stavian III's personal bodyguards, he often has them perform other tasks that take them all over the Inner Sea region, protecting his interests as well as his person, or operating secretly under the auspices of traveling Ulfen merchants, raiding seafarers, or unaffiliated mercenaries, all the while serving the Taldan crown.",
 				"",
@@ -9187,7 +9187,7 @@
 			"description": [
 				"## Umbral Court Agent",
 				"",
-				"**Source** [Paths of Prestige pg. 58](source:Paths_of_Prestige)",
+				"**Source** [Paths of Prestige pg. 58](source:paths_of_prestige)",
 				"",
 				"Zon-Kuthon's agents in the mortal realm preserve the god's grip on the shadowy nation of Nidal through darkness and horror. The rare few Kuthites gifted with the right to rule are known as the Umbral Court, and Umbral Court agents are their enforcers. Officially, Umbral Court agents operate primarily in the blasted city of Ridwan or the capital of Pangolais. In truth, however, Umbral Court agents operate throughout all of Nidal and its neighboring nations. Some work in the open as diplomats and consuls, others in secret as spies, agitators, and agents provocateur. Most agents in Nidal spend their time hunting down apostates and heretics, seeking to purge the nation of inappropriate influences. Those acting abroad seek out positions in rival nations' halls of power. Regardless of their methods, all serve the greater glory of Nidal-and the will of their dark god-with blind devotion.",
 				"",
@@ -9258,7 +9258,7 @@
 			"description": [
 				"## Veiled Illusionist",
 				"",
-				"**Source** [Paths of Prestige pg. 60](source:Paths_of_Prestige)",
+				"**Source** [Paths of Prestige pg. 60](source:paths_of_prestige)",
 				"",
 				"Many who seek to master the art of illusion turn to Sivanah, goddess of mysteries, reflections, and veils. She awards powerful insights into the nature of illusion and deception to those who are especially devout in their worship, possess exceptional skill in a craft, or simply manage to catch her eye. These rare few are known as veiled illusionists, the favored disciples of the Seventh Veil.",
 				"",
@@ -9335,7 +9335,7 @@
 			"description": [
 				"## Westcrown Devil",
 				"",
-				"**Source** [Adventurer's Guide pg. 48](source:Adventurer's_Guide)",
+				"**Source** [Adventurer's Guide pg. 48](source:adventurer's_guide)",
 				"",
 				"The Council of Thieves' premier agents-called \"devils\" as an ironic nod to Cheliax's infernal rulers-are steeped in the lore and mystery of the Council's home city of Westcrown.",
 				"",
@@ -9414,7 +9414,7 @@
 			"description": [
 				"## Winter Witch",
 				"",
-				"**Source** [Reign of Winter Player's Guide pg. 12](source:Reign_of_Winter_Player's_Guide), [Paths of Prestige pg. 62](source:Paths_of_Prestige)",
+				"**Source** [Reign of Winter Player's Guide pg. 12](source:reign_of_winter_player's_guide), [Paths of Prestige pg. 62](source:paths_of_prestige)",
 				"",
 				"In the minds of the folk of the arctic north, the otherworldly powers of winter witches are inextricably linked with the frozen realm of Irrisen and its cruel aristocracy. These rulers, the Jadwiga, have the bitter blood of Baba Yaga running through their veins, and possess unique abilities that make them unparalleled in their power over ice, snow, and cold.",
 				"",

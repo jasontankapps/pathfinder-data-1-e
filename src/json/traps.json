@@ -1,983 +1,1122 @@
 {
-	"description": [
+	"_description": [
 		"## Traps",
 		"",
-		"The following sample traps represent just some of the possibilities when constructing traps to challenge the player characters. [Click here for the full rules on Traps.](rule:Traps)"
+		"The following sample traps represent just some of the possibilities when constructing traps to challenge the player characters. [Click here for the full rules on Traps.](rule:traps)"
 	],
-	"sources": [
+	"_sources": [
 		"PRPG Core Rulebook",
 		"Ultimate Wilderness"
 	],
-	"list": [
-		{
-			"name": "Arrow Trap",
-			"file": "trapsf030.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "1",
-			"type": "mechanical",
-			"perception_DC": "20",
-			"disable_DC": "20",
-			"description": [
-				"### Arrow Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 420](source:PRPG_Core_Rulebook)   ",
-				"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** touch; **Reset** none   ",
-				"**Effect** Atk +15 ranged (1d8+1/&times;3)"
-			]
-		},
-		{
-			"name": "Bear Trap",
-			"file": "traps796f.html",
-			"sources": [ "Advanced Player's Guide" ],
-			"cr": "1",
-			"type": "mechanical",
-			"perception_DC": "15",
-			"disable_DC": "20",
-			"description": [
-				"### Bear Trap",
-				"",
-				"**Source** [Advanced Player's Guide pg. 184](source:Advanced_Player's_Guide)   ",
-				"**Type** mechanical; **Perception DC** 15; **Disable Device DC** 20",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; **Reset** manual   ",
-				"**Effect** Atk +10 melee (2d6+3); sharp jaws spring shut around the creature's ankle and halve the creature's base speed (or hold the creature immobile if the trap is attached to a solid object); the creature can escape with a DC 20 Disable Device check, DC 22 Escape Artist check, or DC 26 Strength check"
-			]
-		},
-		{
-			"name": "Breakaway Vine",
-			"file": "trapsfbab.html",
-			"sources": [ "Ultimate Wilderness" ],
-			"cr": "1",
-			"type": "mechanical",
-			"perception_DC": "20",
-			"disable_DC": "20",
-			"description": [
-				"### Breakaway Vine",
-				"",
-				"**Source** [Ultimate Wilderness pg. 172](source:Ultimate_Wilderness)   ",
-				"**Associated Terrain** any forests, jungles, or swamps   ",
-				"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** touch (timed); **Reset** repair   ",
-				"**Effect** A breakaway vine has been sabotaged so that it snaps not long after someone begins using it to climb. A breakaway vine trap can be crafted from a length of rope as well, but this ruins the rope for other uses. When a Small or larger creature climbs a breakaway vine, the vine snaps just before the creature reaches the top of the climb. A creature can grab a handhold and avoid the resulting fall with a successful DC 20 Reflex save. This breakaway vine assumes a 20-foot fall for 2d6 points of damage; longer falls increase the CR of the breakaway vine by 1 per additional 20 feet.",
-				"",
-				"See [Wilderness Traps](rule:Wilderness_Traps) for information on this traps Associated Terrain."
-			]
-		},
-		{
-			"name": "Musk Shower",
-			"file": "trapsd0f5.html",
-			"sources": [ "Ultimate Wilderness" ],
-			"cr": "1",
-			"type": "mechanical",
-			"perception_DC": "20",
-			"disable_DC": "20",
-			"description": [
-				"### Musk Shower",
-				"",
-				"**Source** [Ultimate Wilderness pg. 172](source:Ultimate_Wilderness)   ",
-				"**Associated Terrain** any   ",
-				"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; **Reset** none   ",
-				"**Effect** Effect This trap hides a jury-rigged container of absorbent debris that has been soaked in the musk of prey animals. When a creature enters a square trapped with a musk shower, the trap makes a +10 melee touch attack against the creature. On a hit, the musk shower deals no damage but douses the target in its strong scent. Creatures with [scent](umr:scent) double the range at which they can smell a doused creature for 1 week or until the musk is washed off with alcohol or another solvent. Creatures tracking the doused creature by smell gain a +10 bonus on Perception and Survival checks to track that target.",
-				"",
-				"See [Wilderness Traps](rule:Wilderness_Traps) for information on this traps Associated Terrain."
-			]
-		},
-		{
-			"name": "Pit Trap",
-			"file": "traps6571.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "1",
-			"type": "mechanical",
-			"perception_DC": "20",
-			"disable_DC": "20",
-			"description": [
-				"### Pit Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 420](source:PRPG_Core_Rulebook)   ",
-				"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; **Reset** manual   ",
-				"**Effect** 20-ft.-deep pit (2d6 falling damage); DC 20 Reflex avoids; multiple targets (all targets in a 10-ft.-square area)"
-			]
-		},
-		{
-			"name": "Poisoned Dart Trap",
-			"file": "traps54df.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "1",
-			"type": "mechanical",
-			"perception_DC": "20",
-			"disable_DC": "20",
-			"description": [
-				"### Poisoned Dart Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 420](source:PRPG_Core_Rulebook)   ",
-				"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** touch; **Reset** none   ",
-				"**Effect** Atk +10 ranged (1d3 plus greenblood oil)"
-			]
-		},
-		{
-			"name": "Spring Snare",
-			"file": "traps3ca1.html",
-			"sources": [ "Ultimate Wilderness" ],
-			"cr": "1",
-			"type": "mechanical",
-			"perception_DC": "25",
-			"disable_DC": "15",
-			"description": [
-				"### Spring Snare",
-				"",
-				"**Source** [Ultimate Wilderness pg. 172](source:Ultimate_Wilderness)   ",
-				"**Associated Terrain** any forests, jungles, or swamps   ",
-				"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 15",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; **Reset** manual   ",
-				"**Effect** A spring snare consists of a strong sapling that's been bent down with a noose affixed to the end. When a creature enters a square trapped by a spring snare, the noose attempts to snare the triggering creature with a +15 on its combat maneuver check to grapple. If it succeeds, the tree snaps upright and flings the target into the air for 1d6 damage. The creature then remains suspended 10 feet off the ground until it breaks the grapple.",
-				"",
-				"See [Wilderness Traps](rule:Wilderness_Traps) for information on this traps Associated Terrain."
-			]
-		},
-		{
-			"name": "Swinging Axe Trap",
-			"file": "trapsf0a2.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "1",
-			"type": "mechanical",
-			"perception_DC": "20",
-			"disable_DC": "20",
-			"description": [
-				"### Swinging Axe Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 420](source:PRPG_Core_Rulebook)   ",
-				"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; **Reset** manual   ",
-				"**Effect** Atk +10 melee (1d8+1/&times;3); multiple targets (all targets in a 10-ft. line)"
-			]
-		},
-		{
-			"name": "Swinging Log",
-			"file": "traps2db7.html",
-			"sources": [ "Ultimate Wilderness" ],
-			"cr": "1",
-			"type": "mechanical",
-			"perception_DC": "12",
-			"disable_DC": "12",
-			"description": [
-				"### Swinging Log",
-				"",
-				"**Source** [Ultimate Wilderness pg. 172](source:Ultimate_Wilderness)   ",
-				"**Associated Terrain** any forests or jungles   ",
-				"**Type** mechanical; **Perception DC** 12; **Disable Device DC** 12",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; **Reset** manual   ",
-				"**Effect** A large, heavy log is suspended in the canopy of a forest or jungle and attached to a trip line. When a creature passes through a 5-foot-square that's been trapped by this trip line, the log swings down and makes a melee attack with a +5 bonus (1d6+5 points of bludgeoning damage). A creature damaged by this log must succeed at a DC 15 Reflex save to avoid being knocked prone. Affixing a number of sharpened sticks to the log adds an additional 2d6 points of piercing damage and increases its CR by 1.",
-				"",
-				"See [Wilderness Traps](rule:Wilderness_Traps) for information on this traps Associated Terrain."
-			]
-		},
-		{
-			"name": "Tar Snare",
-			"file": "traps8dc7.html",
-			"sources": [ "Ultimate Wilderness" ],
-			"cr": "1",
-			"type": "mechanical",
-			"perception_DC": "20",
-			"disable_DC": "20",
-			"description": [
-				"### Tar Snare",
-				"",
-				"**Source** [Ultimate Wilderness pg. 172](source:Ultimate_Wilderness)   ",
-				"**Associated Terrain** any with tar pits or mud   ",
-				"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; **Reset** automatic   ",
-				"**Effect** A tar snare consists of a shallow trench filled with tar or sticky mud that is then covered with a layer of debris to disguise its presence. When a creature steps into a square trapped with a tar snare, the trap makes an attempt to grapple it with a +10 bonus on the combat maneuver check. Sharp sticks can be added to the pit as well-this increases the CR of the trap by 1 and affects a creature grappled by the trap as if it had walked on [caltrops](equipment/misc:caltrops).",
-				"",
-				"See [Wilderness Traps](rule:Wilderness_Traps) for information on this traps Associated Terrain."
-			]
-		},
-		{
-			"name": "Burning Hands Trap",
-			"file": "trapsf145.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "2",
-			"type": "magic",
-			"perception_DC": "26",
-			"disable_DC": "26",
-			"description": [
-				"### Burning Hands Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 420](source:PRPG_Core_Rulebook)   ",
-				"**Type** magic; **Perception DC** 26; **Disable Device DC** 26",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** proximity (alarm); **Reset** none   ",
-				"**Effect** spell effect (burning hands, 2d4 fire damage, DC 11 Reflex save for half damage); multiple targets (all targets in a 15-ft. cone)"
-			]
-		},
-		{
-			"name": "Clam Clamp",
-			"file": "traps6fd9.html",
-			"sources": [ "Ultimate Wilderness" ],
-			"cr": "2",
-			"type": "mechanical",
-			"perception_DC": "20",
-			"disable_DC": "17",
-			"description": [
-				"### Clam Clamp",
-				"",
-				"**Source** [Ultimate Wilderness pg. 173](source:Ultimate_Wilderness)   ",
-				"**Associated Terrain** any oceans   ",
-				"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 17",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; **Reset** automatic   ",
-				"**Effect** The classic \"clam clamp\" trap utilizes the heavy shell of a giant clam, but any similarly large bivalve mollusk or even flotsam can work. A clam clamp is typically set with a lure, such as a piece of shiny treasure. When a creature walks over a clam clamp or attempts to take the treasure, the clamp snaps shut and attempts a grapple with a +15 bonus on the combat maneuver check. The weight of the clam clamp is enough to hold a creature in place until the grappled creature can escape. A clam clamp located in an underwater area is more difficult to craft but also more dangerous to air-breathing creatures due to the fact that it can hold a creature underwater until it drowns; an underwater clam clamp's CR is 5.",
-				"",
-				"See [Wilderness Traps](rule:Wilderness_Traps) for information on this traps Associated Terrain."
-			]
-		},
-		{
-			"name": "Javelin Trap",
-			"file": "traps96e8.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "2",
-			"type": "mechanical",
-			"perception_DC": "20",
-			"disable_DC": "20",
-			"description": [
-				"### Javelin Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 420](source:PRPG_Core_Rulebook)   ",
-				"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; **Reset** none   ",
-				"**Effect** Atk +15 ranged (1d6+6)"
-			]
-		},
-		{
-			"name": "Spiked Pit Trap",
-			"file": "trapsccd7.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "2",
-			"type": "mechanical",
-			"perception_DC": "20",
-			"disable_DC": "20",
-			"description": [
-				"### Spiked Pit Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 420](source:PRPG_Core_Rulebook)   ",
-				"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; **Reset** manual   ",
-				"**Effect** 10-ft.-deep pit (1d6 falling damage); pit spikes (Atk +10 melee, 1d4 spikes per target for 1d4+2 damage each); DC 20 Reflex avoids; multiple targets (all targets in a 10-ft.-square area)"
-			]
-		},
-		{
-			"name": "Acid Arrow Trap",
-			"file": "trapsb72b.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "3",
-			"type": "magic",
-			"perception_DC": "27",
-			"disable_DC": "27",
-			"description": [
-				"### Acid Arrow Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 420](source:PRPG_Core_Rulebook)   ",
-				"**Type** magic; **Perception DC** 27; **Disable Device DC** 27",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** proximity (alarm); **Reset** none   ",
-				"**Effect** spell effect (acid arrow, Atk +2 ranged touch, 2d4 acid damage for 4 rounds)"
-			]
-		},
-		{
-			"name": "Camouflaged Pit Trap",
-			"file": "trapsdf34.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "3",
-			"type": "mechanical",
-			"perception_DC": "25",
-			"disable_DC": "20",
-			"description": [
-				"### Camouflaged Pit Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 420](source:PRPG_Core_Rulebook)   ",
-				"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 20",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; **Reset** manual   ",
-				"**Effect** 30-ft.-deep pit (3d6 falling damage); DC 20 Reflex avoids; multiple targets (all targets in a 10-ft.-square area)"
-			]
-		},
-		{
-			"name": "Razor Grass",
-			"file": "trapsb088.html",
-			"sources": [ "Ultimate Wilderness" ],
-			"cr": "3",
-			"type": "mechanical",
-			"perception_DC": "25",
-			"disable_DC": "20",
-			"description": [
-				"### Razor Grass",
-				"",
-				"**Source** [Ultimate Wilderness pg. 173](source:Ultimate_Wilderness)   ",
-				"**Associated Terrain** any with undergrowth   ",
-				"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 20",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; **Reset** automatic   ",
-				"**Effect** By hiding lengths of sharpened sticks or bones amid undergrowth (traditionally tall grass; when used in coastal or underwater areas, this trap is instead called a razor kelp trap), the trapper can lay a simple but effective trap. Whenever a creature moves into a square that contains razor grass, it takes 1d6 points of damage and must succeed at a DC 20 Reflex save or its speed is halved for 24 hours or until it receives magical healing or benefits from a successful DC 15 Heal check.",
-				"",
-				"See [Wilderness Traps](rule:Wilderness_Traps) for information on this traps Associated Terrain."
-			]
-		},
-		{
-			"name": "Breakaway Log",
-			"file": "traps7b78.html",
-			"sources": [ "Ultimate Wilderness" ],
-			"cr": "4",
-			"type": "mechanical",
-			"perception_DC": "25",
-			"disable_DC": "30",
-			"description": [
-				"### Breakaway Log",
-				"",
-				"**Source** [Ultimate Wilderness pg. 173](source:Ultimate_Wilderness)   ",
-				"**Associated Terrain** any forests, jungles, or swamps   ",
-				"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 30",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; **Reset** repair   ",
-				"**Effect** Fallen trees often form excellent natural bridges over rivers or chasms, or they afford routes to climb more safely over a wall or other barrier. Breakaway logs have been sabotaged so that they collapse once they are used. At the end of a round when a Medium or larger (or two Small) creatures use the log, it collapses. All creatures on the log then fall, taking appropriate damage from the plunge. This example breakaway log fills an area that is 5 feet wide and 20 feet long, and it results in a 20-foot fall which deals 2d6 points of falling damage. A creature that succeeds at a DC 15 Reflex save can cling to the log or leap to safety and avoid the damage entirely.",
-				"",
-				"See [Wilderness Traps](rule:Wilderness_Traps) for information on this traps Associated Terrain."
-			]
-		},
-		{
-			"name": "Electricity Arc Trap",
-			"file": "trapsbdf3.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "4",
-			"type": "mechanical",
-			"perception_DC": "25",
-			"disable_DC": "20",
-			"description": [
-				"### Electricity Arc Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 420](source:PRPG_Core_Rulebook)   ",
-				"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 20",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** touch; **Reset** none   ",
-				"**Effect** electricity arc (4d6 electricity damage, DC 20 Reflex save for half damage); multiple targets (all targets in a 30-ft. line)"
-			]
-		},
-		{
-			"name": "Spring-arm Spike",
-			"file": "traps20dc.html",
-			"sources": [ "Ultimate Wilderness" ],
-			"cr": "4",
-			"type": "mechanical",
-			"perception_DC": "20",
-			"disable_DC": "20",
-			"description": [
-				"### Spring-arm Spike",
-				"",
-				"**Source** [Ultimate Wilderness pg. 173](source:Ultimate_Wilderness)   ",
-				"**Associated Terrain** any forests, jungles, or swamps   ",
-				"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; **Reset** manual   ",
-				"**Effect** A spring-arm spike is similar to a [spring snare trap](trap:spring_snare_trap) in that it incorporates a strong sapling bent into a taut arc. When a creature enters a square that contains the spring-arm spike's trigger, the sapling snaps forward, driving a pointed spear into the target. The spring-arm spike makes a melee attack +15 (2d10+4/&times;3) against the target, which is also knocked prone unless it succeeds at a DC 20 Reflex save.",
-				"",
-				"See [Wilderness Traps](rule:Wilderness_Traps) for information on this traps Associated Terrain."
-			]
-		},
-		{
-			"name": "Wall Scythe Trap",
-			"file": "trapsfad1.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "4",
-			"type": "mechanical",
-			"perception_DC": "20",
-			"disable_DC": "20",
-			"description": [
-				"### Wall Scythe Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 420](source:PRPG_Core_Rulebook)   ",
-				"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; **Reset** automatic reset   ",
-				"**Effect** Atk +20 melee (2d4+6/&times;4)"
-			]
-		},
-		{
-			"name": "Deadfall",
-			"file": "traps9b0c.html",
-			"sources": [ "Ultimate Wilderness" ],
-			"cr": "5",
-			"type": "mechanical",
-			"perception_DC": "20",
-			"disable_DC": "20",
-			"description": [
-				"### Deadfall",
-				"",
-				"**Source** [Ultimate Wilderness pg. 173](source:Ultimate_Wilderness)   ",
-				"**Associated Terrain** any forests, jungles, mountains, or swaps   ",
-				"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; **Reset** manual   ",
-				"**Effect** Rigged to boulders, logs, or other heavy weights in canopies or on ledges, a trip line strung across an area can create a deadly trap. When a creature enters the deadfall's trigger square, the weights drop in a 20-foot line or a 10-foot-square area, affecting four 5-foot squares in all. Each creature in this area takes 4d6 points of damage and is knocked prone. With a successful DC 20 Reflex save, a target takes half the damage and avoids being knocked prone.",
-				"",
-				"See [Wilderness Traps](rule:Wilderness_Traps) for information on this traps Associated Terrain."
-			]
-		},
-		{
-			"name": "Falling Block Trap",
-			"file": "trapsf37a.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "5",
-			"type": "mechanical",
-			"perception_DC": "20",
-			"disable_DC": "20",
-			"description": [
-				"### Falling Block Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 420](source:PRPG_Core_Rulebook)   ",
-				"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; **Reset** manual   ",
-				"**Effect** Atk +15 melee (6d6); multiple targets (all targets in a 10-ft. square)"
-			]
-		},
-		{
-			"name": "Fireball Trap",
-			"file": "traps3075.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "5",
-			"type": "magic",
-			"perception_DC": "28",
-			"disable_DC": "28",
-			"description": [
-				"### Fireball Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 421](source:PRPG_Core_Rulebook)   ",
-				"**Type** magic; **Perception DC** 28; **Disable Device DC** 28",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** proximity (alarm); **Reset** none   ",
-				"**Effect** spell effect (fireball, 6d6 fire damage, DC 14 Reflex save for half damage); multiple targets (all targets in a 20-ft.-radius burst)"
-			]
-		},
-		{
-			"name": "Flame Strike Trap",
-			"file": "traps759b.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "6",
-			"type": "magic",
-			"perception_DC": "30",
-			"disable_DC": "30",
-			"description": [
-				"### Flame Strike Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 421](source:PRPG_Core_Rulebook)   ",
-				"**Type** magic; **Perception DC** 30; **Disable Device DC** 30",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** proximity (alarm); **Reset** none   ",
-				"**Effect** spell effect (flame strike, 8d6 fire damage, DC 17 Reflex save for half damage); multiple targets (all targets in a 10-ft.-radius cylinder)"
-			]
-		},
-		{
-			"name": "Wyvern Arrow Trap",
-			"file": "trapsdba0.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "6",
-			"type": "mechanical",
-			"perception_DC": "20",
-			"disable_DC": "20",
-			"description": [
-				"### Wyvern Arrow Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 421](source:PRPG_Core_Rulebook)   ",
-				"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; **Reset** none   ",
-				"**Effect** Atk +15 ranged (1d6 plus wyvern poison/&times;3)"
-			]
-		},
-		{
-			"name": "Faceless Statue Trap",
-			"file": "traps75b6.html",
-			"sources": [ "Horror Adventures" ],
-			"cr": "7",
-			"type": "magic",
-			"perception_DC": "31",
-			"disable_DC": "31",
-			"description": [
-				"### Faceless Statue Trap",
-				"",
-				"**Source** [Horror Adventures pg. 162](source:Horror_Adventures)   ",
-				"**Type** magic; **Perception DC** 31; **Disable Device DC** 31",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** proximity (15 feet); **Reset** none   ",
-				"**Effect** The faceless statue trap targets a creature with a [flesh to stone](spell:flesh_to_stone) effect (DC 19, single target), followed immediately by a [stone shape](spell:stone_shape) effect, which completely smooths the face of the target, making it appear to be faceless. If the creature is returned to flesh, this transformation persists, rendering the target permanently blind, deaf, mute, and unable to breathe. Unless the change is reversed via [regenerate](spell:regenerate) or other magic capable of restoring the target's mouth or nose, or unless the target is able to survive without breathing, the creature begins to suffocate immediately. Using [stone shape](spell:stone_shape) on the creature while it is still petrified can restore its face, preventing this, but only if the caster succeeds at a DC 25 Craft (sculpture) check. Otherwise, the spell creates a grotesque parody of a face, formed entirely of flesh and without function. Other variants of this trap exist that perform similarly grotesque alterations to a creature via [stone shape](spell:stone_shape)."
-			]
-		},
-		{
-			"name": "Frost Fangs Trap",
-			"file": "traps083d.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "7",
-			"type": "mechanical",
-			"perception_DC": "25",
-			"disable_DC": "20",
-			"description": [
-				"### Frost Fangs Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 421](source:PRPG_Core_Rulebook)   ",
-				"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 20",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; Duration 3 rounds; **Reset** none   ",
-				"**Effect** jets of freezing water (3d6 cold damage, DC 20 Reflex save for half damage); multiple targets (all targets in a 40-ft.-square chamber)"
-			]
-		},
-		{
-			"name": "Sinking Coffin Trap",
-			"file": "trapsa076.html",
-			"sources": [ "Horror Adventures" ],
-			"cr": "7",
-			"type": "mechanical",
-			"perception_DC": "25",
-			"disable_DC": "25",
-			"description": [
-				"### Sinking Coffin Trap",
-				"",
-				"**Source** [Horror Adventures pg. 162](source:Horror_Adventures)   ",
-				"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 25",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; **Reset** repair   ",
-				"**Effect** This trap activates similarly to a [pit trap](trap:pit_trap), but the pit is actually a metal coffin concealed under the floor that drops into a body of water under the floor once a creature falls inside. The pitlike opening is 5 feet across, leading into a hollow metal coffin that's 10 feet deep. A creature that steps onto the opening and fails a DC 20 Reflex save falls in, taking 1d6 points of falling damage. The top of the metal box then automatically shuts and locks (Disable Device DC 30, accessible from either side), and the fastenings holding the box to the floor release, causing it and anyone still inside or standing on top of it to plummet into a body of water, typically either fast-flowing or at least 200 feet deep. The box sinks at a rate of 60 feet per round, and could be carried by the current. The box is airtight, and contains enough air for a single Medium creature to breathe for 10 minutes before being at risk of [suffocation](rule:suffocation). If the box is successfully opened while underwater, the water takes 1 round to fill it, during which time any creature inside the box must succeed at a DC 15 Strength check to escape the box against the power of the rushing water."
-			]
-		},
-		{
-			"name": "Summon Monster VI Trap",
-			"file": "trapsd0d1.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "7",
-			"type": "magic",
-			"perception_DC": "31",
-			"disable_DC": "31",
-			"description": [
-				"### Summon Monster VI Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 421](source:PRPG_Core_Rulebook)   ",
-				"**Type** magic; **Perception DC** 31; **Disable Device DC** 31",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** proximity (alarm); **Reset** none   ",
-				"**Effect** spell effect (summon monster VI, summons 1d3 Large elementals or 1 Huge elemental)"
-			]
-		},
-		{
-			"name": "Camouflaged Spiked Pit Trap",
-			"file": "traps4913.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "8",
-			"type": "mechanical",
-			"perception_DC": "25",
-			"disable_DC": "20",
-			"description": [
-				"### Camouflaged Spiked Pit Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 421](source:PRPG_Core_Rulebook)   ",
-				"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 20",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; **Reset** manual   ",
-				"**Effect** 50-ft.-deep pit (5d6 falling damage); pit spikes (Atk +15 melee, 1d4 spikes per target for 1d6+5 damage each); DC 20 Reflex avoids; multiple targets (all targets in a 10-ft.-square area)"
-			]
-		},
-		{
-			"name": "Insanity Mist Trap",
-			"file": "trapsaf83.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "8",
-			"type": "mechanical",
-			"perception_DC": "25",
-			"disable_DC": "20",
-			"description": [
-				"### Insanity Mist Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 421](source:PRPG_Core_Rulebook)   ",
-				"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 20",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; **Reset** repair   ",
-				"**Effect** poison gas (insanity mist); never miss; onset delay (1 round); multiple targets (all targets in a 10-ft.-by-10-ft. room)"
-			]
-		},
-		{
-			"name": "Hail of Arrows Trap",
-			"file": "traps8c4c.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "9",
-			"type": "mechanical",
-			"perception_DC": "25",
-			"disable_DC": "25",
-			"description": [
-				"### Hail of Arrows Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 421](source:PRPG_Core_Rulebook)   ",
-				"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 25",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** visual (arcane eye); **Reset** repair   ",
-				"**Effect** Atk +20 ranged (6d6); multiple targets (all targets in a 20-ft. line)"
-			]
-		},
-		{
-			"name": "Shocking Floor Trap",
-			"file": "trapsb2bb.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "9",
-			"type": "magic",
-			"perception_DC": "26",
-			"disable_DC": "26",
-			"description": [
-				"### Shocking Floor Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 421](source:PRPG_Core_Rulebook)   ",
-				"**Type** magic; **Perception DC** 26; **Disable Device DC** 26",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** proximity (alarm); Duration 1d6 rounds; **Reset** none   ",
-				"**Effect** spell effect (shocking grasp, Atk +9 melee touch [4d6 electricity damage]); multiple targets (all targets in a 40-ft.-square room)"
-			]
-		},
-		{
-			"name": "Chamber of Blades Trap",
-			"file": "traps74c8.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "10",
-			"type": "mechanical",
-			"perception_DC": "25",
-			"disable_DC": "20",
-			"description": [
-				"### Chamber of Blades Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 421](source:PRPG_Core_Rulebook)   ",
-				"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 20",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; Duration 1d4 rounds; **Reset** repair   ",
-				"**Effect** Atk +20 melee (3d8+3); multiple targets (all targets in a 20-ft.-square chamber)"
-			]
-		},
-		{
-			"name": "Energy Drain Trap",
-			"file": "traps55d5.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "10",
-			"type": "magic",
-			"perception_DC": "34",
-			"disable_DC": "34",
-			"description": [
-				"### Energy Drain Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 421](source:PRPG_Core_Rulebook)   ",
-				"**Type** magic; **Perception DC** 34; **Disable Device DC** 34",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** visual (true seeing); **Reset** none   ",
-				"**Effect** spell effect (energy drain, Atk +10 ranged touch, 2d4 temporary negative levels, DC 23 Fortitude negates after 24 hours)"
-			]
-		},
-		{
-			"name": "Cone of Cold Trap",
-			"file": "traps3427.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "11",
-			"type": "magic",
-			"perception_DC": "30",
-			"disable_DC": "30",
-			"description": [
-				"### Cone of Cold Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 421](source:PRPG_Core_Rulebook)   ",
-				"**Type** magic; **Perception DC** 30; **Disable Device DC** 30",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** proximity (alarm); **Reset** none   ",
-				"**Effect** spell effect (cone of cold, 15d6 cold damage, DC 17 Reflex save for half damage); multiple targets (all targets in a 60-ft. cone)"
-			]
-		},
-		{
-			"name": "Crushing Cage Tarp",
-			"file": "trapsaa18.html",
-			"sources": [ "Horror Adventures" ],
-			"cr": "11",
-			"type": "mechanical",
-			"perception_DC": "29",
-			"disable_DC": "30",
-			"description": [
-				"### Crushing Cage Tarp",
-				"",
-				"**Source** [Horror Adventures pg. 161](source:Horror_Adventures)   ",
-				"**Type** mechanical; **Perception DC** 29; **Disable Device DC** 30",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; **Reset** manual   ",
-				"**Effect** A metal cage drops to seal creatures in a 10-foot-square area (no saving throw), and the ceiling of this cage begins to slowly lower to crush those within it , descending at a rate of 1 foot per round from a height of 10 feet. Creatures inside and outside the trapped area can attempt to open the cage's single locked door (Disable Device DC 30), but the lock is electrified, automatically dealing 6d6 points of electricity damage with each attempt, and imposing a -1 penalty on the check f or every 5 points of damage dealt in this way. Creatures inside the cage can attempt to hold up the ceiling of the cage as a ful l-round action with a successful DC 25 Strength check. Success prevents the cage from lowering that round, though it doesn't reverse the progress or allow egress. Once the height of the cage's ceiling is 3 feet, Medium creatures take 10d10 points of bludgeoning damage each round the cage's ceiling is not successfully held up. Once the height of the cage's ceiling is 1 foot, Small creatures take 10d10 points of bludgeoning damage each round that the ceiling is not successfully held up. Tiny creatures can attempt a DC 30 Escape Artist check to flee through the holes in the cage, Diminutive creatures must succeed at a DC 20 Escape Artist check, and Fine creatures can leave automatically. These traps are often employed in conjunction with an effect that prevents dimensional travel, such as [dimensional lock](spell:dimensional_lock). This addition doesn't change the trap's CR, but it does make the trap a combination of mechanical and magical."
-			]
-		},
-		{
-			"name": "Poisoned Pit Trap",
-			"file": "trapsd7a6.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "12",
-			"type": "mechanical",
-			"perception_DC": "25",
-			"disable_DC": "20",
-			"description": [
-				"### Poisoned Pit Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 421](source:PRPG_Core_Rulebook)   ",
-				"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 20",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; **Reset** manual   ",
-				"**Effect** 50-ft.-deep pit (5d6 falling damage); pit spikes (Atk +15 melee, 1d4 spikes per target for 1d6+5 damage each plus poison [shadow essence]); DC 25 Reflex avoids; multiple targets (all targets in a 10-ft.-square area)"
-			]
-		},
-		{
-			"name": "Maximized Fireball Trap",
-			"file": "traps50a8.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "13",
-			"type": "magic",
-			"perception_DC": "31",
-			"disable_DC": "31",
-			"description": [
-				"### Maximized Fireball Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 421](source:PRPG_Core_Rulebook)   ",
-				"**Type** magic; **Perception DC** 31; **Disable Device DC** 31",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** proximity (alarm); **Reset** none   ",
-				"**Effect** spell effect (fireball, 60 fire damage, DC 14 Reflex save for half damage); multiple targets (all targets in a 20-ft.-radius burst)"
-			]
-		},
-		{
-			"name": "Harm Trap",
-			"file": "trapsb2b5.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "14",
-			"type": "magic",
-			"perception_DC": "31",
-			"disable_DC": "31",
-			"description": [
-				"### Harm Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 422](source:PRPG_Core_Rulebook)   ",
-				"**Type** magic; **Perception DC** 31; **Disable Device DC** 31",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** touch; **Reset** none   ",
-				"**Effect** spell effect (harm, +6 melee touch, 130 damage, DC 19 Will save for half, cannot be reduced to less than 1 hit point)"
-			]
-		},
-		{
-			"name": "Crushing Stone Trap",
-			"file": "traps0a8f.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "15",
-			"type": "mechanical",
-			"perception_DC": "30",
-			"disable_DC": "20",
-			"description": [
-				"### Crushing Stone Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 422](source:PRPG_Core_Rulebook)   ",
-				"**Type** mechanical; **Perception DC** 30; **Disable Device DC** 20",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** location; **Reset** manual   ",
-				"**Effect** Atk +15 melee (16d6); multiple targets (all targets in a 10-ft. square)"
-			]
-		},
-		{
-			"name": "Empowered Disintegrate Trap",
-			"file": "trapsd8c7.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "16",
-			"type": "magic",
-			"perception_DC": "33",
-			"disable_DC": "33",
-			"description": [
-				"### Empowered Disintegrate Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 422](source:PRPG_Core_Rulebook)   ",
-				"**Type** magic; **Perception DC** 33; **Disable Device DC** 33",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** sight (true seeing); **Reset** none   ",
-				"**Effect** spell effect (empowered disintegrate, +9 ranged touch, 30d6 damage plus 50%, DC 19 Fort save reduces the damage to 5d6 plus 50%)"
-			]
-		},
-		{
-			"name": "Lightning Bolt Gallery Trap",
-			"file": "traps9985.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "17",
-			"type": "magic",
-			"perception_DC": "29",
-			"disable_DC": "29",
-			"description": [
-				"### Lightning Bolt Gallery Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 422](source:PRPG_Core_Rulebook)   ",
-				"**Type** magic; **Perception DC** 29; **Disable Device DC** 29",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** proximity (alarm); Duration 1d6 rounds; **Reset** none   ",
-				"**Effect** spell effect (heightened lightning bolt, 8d6 electricity damage, DC 16 Reflex save for half); multiple targets (all targets in a 60-ft.-square chamber)"
-			]
-		},
-		{
-			"name": "Deadly Spear Trap",
-			"file": "traps78de.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "18",
-			"type": "mechanical",
-			"perception_DC": "30",
-			"disable_DC": "30",
-			"description": [
-				"### Deadly Spear Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 422](source:PRPG_Core_Rulebook)   ",
-				"**Type** mechanical; **Perception DC** 30; **Disable Device DC** 30",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** sight (true seeing); **Reset** manual   ",
-				"**Effect** Atk +20 ranged (1d8+6 plus black lotus extract)"
-			]
-		},
-		{
-			"name": "Meteor Swarm Trap",
-			"file": "traps7450.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "19",
-			"type": "magic",
-			"perception_DC": "34",
-			"disable_DC": "34",
-			"description": [
-				"### Meteor Swarm Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 422](source:PRPG_Core_Rulebook)   ",
-				"**Type** magic; **Perception DC** 34; **Disable Device DC** 34",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** sight (true seeing); **Reset** none   ",
-				"**Effect** spell effect (meteor swarm, 4 meteors at separate targets, +9 ranged touch, 2d6 plus 6d6 fire [-4 save on a hit], DC 23 Reflex save for half fire damage, 18d6 fire damage from other meteors, DC 23 Reflex save for half damage); multiple targets (four targets, no two of which can be more than 40 ft. apart)"
-			]
-		},
-		{
-			"name": "Destruction Trap",
-			"file": "traps56d7.html",
-			"sources": [ "PRPG Core Rulebook" ],
-			"cr": "20",
-			"type": "magic",
-			"perception_DC": "34",
-			"disable_DC": "34",
-			"description": [
-				"### Destruction Trap",
-				"",
-				"**Source** [PRPG Core Rulebook pg. 422](source:PRPG_Core_Rulebook)   ",
-				"**Type** magic; **Perception DC** 34; **Disable Device DC** 34",
-				"",
-				"**Effects**",
-				"",
-				"**Trigger** proximity (alarm); **Reset** none   ",
-				"**Effect** spell effect (heightened destruction, 190 damage, DC 23 Fortitude save reduces damage to 10d6)"
-			]
-		}
-	]
+	"arrow_trap": {
+		"name": "Arrow Trap",
+		"file": "trapsf030.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "1",
+		"type": "mechanical",
+		"perception_DC": "20",
+		"disable_DC": "20",
+		"description": [
+			"### Arrow Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 420](source:prpg_core_rulebook)   ",
+			"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** touch; **Reset** none   ",
+			"**Effect** Atk +15 ranged (1d8+1/&times;3)"
+		],
+		"display": "trap"
+	},
+	"bear_trap": {
+		"name": "Bear Trap",
+		"file": "traps796f.html",
+		"sources": [
+			"Advanced Player's Guide"
+		],
+		"cr": "1",
+		"type": "mechanical",
+		"perception_DC": "15",
+		"disable_DC": "20",
+		"description": [
+			"### Bear Trap",
+			"",
+			"**Source** [Advanced Player's Guide pg. 184](source:advanced_player's_guide)   ",
+			"**Type** mechanical; **Perception DC** 15; **Disable Device DC** 20",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; **Reset** manual   ",
+			"**Effect** Atk +10 melee (2d6+3); sharp jaws spring shut around the creature's ankle and halve the creature's base speed (or hold the creature immobile if the trap is attached to a solid object); the creature can escape with a DC 20 Disable Device check, DC 22 Escape Artist check, or DC 26 Strength check"
+		],
+		"display": "trap"
+	},
+	"breakaway_vine": {
+		"name": "Breakaway Vine",
+		"file": "trapsfbab.html",
+		"sources": [
+			"Ultimate Wilderness"
+		],
+		"cr": "1",
+		"type": "mechanical",
+		"perception_DC": "20",
+		"disable_DC": "20",
+		"description": [
+			"### Breakaway Vine",
+			"",
+			"**Source** [Ultimate Wilderness pg. 172](source:ultimate_wilderness)   ",
+			"**Associated Terrain** any forests, jungles, or swamps   ",
+			"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** touch (timed); **Reset** repair   ",
+			"**Effect** A breakaway vine has been sabotaged so that it snaps not long after someone begins using it to climb. A breakaway vine trap can be crafted from a length of rope as well, but this ruins the rope for other uses. When a Small or larger creature climbs a breakaway vine, the vine snaps just before the creature reaches the top of the climb. A creature can grab a handhold and avoid the resulting fall with a successful DC 20 Reflex save. This breakaway vine assumes a 20-foot fall for 2d6 points of damage; longer falls increase the CR of the breakaway vine by 1 per additional 20 feet.",
+			"",
+			"See [Wilderness Traps](rule:wilderness_traps) for information on this traps Associated Terrain."
+		],
+		"display": "trap"
+	},
+	"musk_shower": {
+		"name": "Musk Shower",
+		"file": "trapsd0f5.html",
+		"sources": [
+			"Ultimate Wilderness"
+		],
+		"cr": "1",
+		"type": "mechanical",
+		"perception_DC": "20",
+		"disable_DC": "20",
+		"description": [
+			"### Musk Shower",
+			"",
+			"**Source** [Ultimate Wilderness pg. 172](source:ultimate_wilderness)   ",
+			"**Associated Terrain** any   ",
+			"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; **Reset** none   ",
+			"**Effect** Effect This trap hides a jury-rigged container of absorbent debris that has been soaked in the musk of prey animals. When a creature enters a square trapped with a musk shower, the trap makes a +10 melee touch attack against the creature. On a hit, the musk shower deals no damage but douses the target in its strong scent. Creatures with [scent](umr:scent) double the range at which they can smell a doused creature for 1 week or until the musk is washed off with alcohol or another solvent. Creatures tracking the doused creature by smell gain a +10 bonus on Perception and Survival checks to track that target.",
+			"",
+			"See [Wilderness Traps](rule:wilderness_traps) for information on this traps Associated Terrain."
+		],
+		"display": "trap"
+	},
+	"pit_trap": {
+		"name": "Pit Trap",
+		"file": "traps6571.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "1",
+		"type": "mechanical",
+		"perception_DC": "20",
+		"disable_DC": "20",
+		"description": [
+			"### Pit Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 420](source:prpg_core_rulebook)   ",
+			"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; **Reset** manual   ",
+			"**Effect** 20-ft.-deep pit (2d6 falling damage); DC 20 Reflex avoids; multiple targets (all targets in a 10-ft.-square area)"
+		],
+		"display": "trap"
+	},
+	"poisoned_dart_trap": {
+		"name": "Poisoned Dart Trap",
+		"file": "traps54df.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "1",
+		"type": "mechanical",
+		"perception_DC": "20",
+		"disable_DC": "20",
+		"description": [
+			"### Poisoned Dart Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 420](source:prpg_core_rulebook)   ",
+			"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** touch; **Reset** none   ",
+			"**Effect** Atk +10 ranged (1d3 plus greenblood oil)"
+		],
+		"display": "trap"
+	},
+	"spring_snare": {
+		"name": "Spring Snare",
+		"file": "traps3ca1.html",
+		"sources": [
+			"Ultimate Wilderness"
+		],
+		"cr": "1",
+		"type": "mechanical",
+		"perception_DC": "25",
+		"disable_DC": "15",
+		"description": [
+			"### Spring Snare",
+			"",
+			"**Source** [Ultimate Wilderness pg. 172](source:ultimate_wilderness)   ",
+			"**Associated Terrain** any forests, jungles, or swamps   ",
+			"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 15",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; **Reset** manual   ",
+			"**Effect** A spring snare consists of a strong sapling that's been bent down with a noose affixed to the end. When a creature enters a square trapped by a spring snare, the noose attempts to snare the triggering creature with a +15 on its combat maneuver check to grapple. If it succeeds, the tree snaps upright and flings the target into the air for 1d6 damage. The creature then remains suspended 10 feet off the ground until it breaks the grapple.",
+			"",
+			"See [Wilderness Traps](rule:wilderness_traps) for information on this traps Associated Terrain."
+		],
+		"display": "trap"
+	},
+	"swinging_axe_trap": {
+		"name": "Swinging Axe Trap",
+		"file": "trapsf0a2.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "1",
+		"type": "mechanical",
+		"perception_DC": "20",
+		"disable_DC": "20",
+		"description": [
+			"### Swinging Axe Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 420](source:prpg_core_rulebook)   ",
+			"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; **Reset** manual   ",
+			"**Effect** Atk +10 melee (1d8+1/&times;3); multiple targets (all targets in a 10-ft. line)"
+		],
+		"display": "trap"
+	},
+	"swinging_log": {
+		"name": "Swinging Log",
+		"file": "traps2db7.html",
+		"sources": [
+			"Ultimate Wilderness"
+		],
+		"cr": "1",
+		"type": "mechanical",
+		"perception_DC": "12",
+		"disable_DC": "12",
+		"description": [
+			"### Swinging Log",
+			"",
+			"**Source** [Ultimate Wilderness pg. 172](source:ultimate_wilderness)   ",
+			"**Associated Terrain** any forests or jungles   ",
+			"**Type** mechanical; **Perception DC** 12; **Disable Device DC** 12",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; **Reset** manual   ",
+			"**Effect** A large, heavy log is suspended in the canopy of a forest or jungle and attached to a trip line. When a creature passes through a 5-foot-square that's been trapped by this trip line, the log swings down and makes a melee attack with a +5 bonus (1d6+5 points of bludgeoning damage). A creature damaged by this log must succeed at a DC 15 Reflex save to avoid being knocked prone. Affixing a number of sharpened sticks to the log adds an additional 2d6 points of piercing damage and increases its CR by 1.",
+			"",
+			"See [Wilderness Traps](rule:wilderness_traps) for information on this traps Associated Terrain."
+		],
+		"display": "trap"
+	},
+	"tar_snare": {
+		"name": "Tar Snare",
+		"file": "traps8dc7.html",
+		"sources": [
+			"Ultimate Wilderness"
+		],
+		"cr": "1",
+		"type": "mechanical",
+		"perception_DC": "20",
+		"disable_DC": "20",
+		"description": [
+			"### Tar Snare",
+			"",
+			"**Source** [Ultimate Wilderness pg. 172](source:ultimate_wilderness)   ",
+			"**Associated Terrain** any with tar pits or mud   ",
+			"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; **Reset** automatic   ",
+			"**Effect** A tar snare consists of a shallow trench filled with tar or sticky mud that is then covered with a layer of debris to disguise its presence. When a creature steps into a square trapped with a tar snare, the trap makes an attempt to grapple it with a +10 bonus on the combat maneuver check. Sharp sticks can be added to the pit as well-this increases the CR of the trap by 1 and affects a creature grappled by the trap as if it had walked on [caltrops](equipment/misc:caltrops).",
+			"",
+			"See [Wilderness Traps](rule:wilderness_traps) for information on this traps Associated Terrain."
+		],
+		"display": "trap"
+	},
+	"burning_hands_trap": {
+		"name": "Burning Hands Trap",
+		"file": "trapsf145.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "2",
+		"type": "magic",
+		"perception_DC": "26",
+		"disable_DC": "26",
+		"description": [
+			"### Burning Hands Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 420](source:prpg_core_rulebook)   ",
+			"**Type** magic; **Perception DC** 26; **Disable Device DC** 26",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** proximity (alarm); **Reset** none   ",
+			"**Effect** spell effect (burning hands, 2d4 fire damage, DC 11 Reflex save for half damage); multiple targets (all targets in a 15-ft. cone)"
+		],
+		"display": "trap"
+	},
+	"clam_clamp": {
+		"name": "Clam Clamp",
+		"file": "traps6fd9.html",
+		"sources": [
+			"Ultimate Wilderness"
+		],
+		"cr": "2",
+		"type": "mechanical",
+		"perception_DC": "20",
+		"disable_DC": "17",
+		"description": [
+			"### Clam Clamp",
+			"",
+			"**Source** [Ultimate Wilderness pg. 173](source:ultimate_wilderness)   ",
+			"**Associated Terrain** any oceans   ",
+			"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 17",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; **Reset** automatic   ",
+			"**Effect** The classic \"clam clamp\" trap utilizes the heavy shell of a giant clam, but any similarly large bivalve mollusk or even flotsam can work. A clam clamp is typically set with a lure, such as a piece of shiny treasure. When a creature walks over a clam clamp or attempts to take the treasure, the clamp snaps shut and attempts a grapple with a +15 bonus on the combat maneuver check. The weight of the clam clamp is enough to hold a creature in place until the grappled creature can escape. A clam clamp located in an underwater area is more difficult to craft but also more dangerous to air-breathing creatures due to the fact that it can hold a creature underwater until it drowns; an underwater clam clamp's CR is 5.",
+			"",
+			"See [Wilderness Traps](rule:wilderness_traps) for information on this traps Associated Terrain."
+		],
+		"display": "trap"
+	},
+	"javelin_trap": {
+		"name": "Javelin Trap",
+		"file": "traps96e8.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "2",
+		"type": "mechanical",
+		"perception_DC": "20",
+		"disable_DC": "20",
+		"description": [
+			"### Javelin Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 420](source:prpg_core_rulebook)   ",
+			"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; **Reset** none   ",
+			"**Effect** Atk +15 ranged (1d6+6)"
+		],
+		"display": "trap"
+	},
+	"spiked_pit_trap": {
+		"name": "Spiked Pit Trap",
+		"file": "trapsccd7.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "2",
+		"type": "mechanical",
+		"perception_DC": "20",
+		"disable_DC": "20",
+		"description": [
+			"### Spiked Pit Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 420](source:prpg_core_rulebook)   ",
+			"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; **Reset** manual   ",
+			"**Effect** 10-ft.-deep pit (1d6 falling damage); pit spikes (Atk +10 melee, 1d4 spikes per target for 1d4+2 damage each); DC 20 Reflex avoids; multiple targets (all targets in a 10-ft.-square area)"
+		],
+		"display": "trap"
+	},
+	"acid_arrow_trap": {
+		"name": "Acid Arrow Trap",
+		"file": "trapsb72b.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "3",
+		"type": "magic",
+		"perception_DC": "27",
+		"disable_DC": "27",
+		"description": [
+			"### Acid Arrow Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 420](source:prpg_core_rulebook)   ",
+			"**Type** magic; **Perception DC** 27; **Disable Device DC** 27",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** proximity (alarm); **Reset** none   ",
+			"**Effect** spell effect (acid arrow, Atk +2 ranged touch, 2d4 acid damage for 4 rounds)"
+		],
+		"display": "trap"
+	},
+	"camouflaged_pit_trap": {
+		"name": "Camouflaged Pit Trap",
+		"file": "trapsdf34.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "3",
+		"type": "mechanical",
+		"perception_DC": "25",
+		"disable_DC": "20",
+		"description": [
+			"### Camouflaged Pit Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 420](source:prpg_core_rulebook)   ",
+			"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 20",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; **Reset** manual   ",
+			"**Effect** 30-ft.-deep pit (3d6 falling damage); DC 20 Reflex avoids; multiple targets (all targets in a 10-ft.-square area)"
+		],
+		"display": "trap"
+	},
+	"razor_grass": {
+		"name": "Razor Grass",
+		"file": "trapsb088.html",
+		"sources": [
+			"Ultimate Wilderness"
+		],
+		"cr": "3",
+		"type": "mechanical",
+		"perception_DC": "25",
+		"disable_DC": "20",
+		"description": [
+			"### Razor Grass",
+			"",
+			"**Source** [Ultimate Wilderness pg. 173](source:ultimate_wilderness)   ",
+			"**Associated Terrain** any with undergrowth   ",
+			"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 20",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; **Reset** automatic   ",
+			"**Effect** By hiding lengths of sharpened sticks or bones amid undergrowth (traditionally tall grass; when used in coastal or underwater areas, this trap is instead called a razor kelp trap), the trapper can lay a simple but effective trap. Whenever a creature moves into a square that contains razor grass, it takes 1d6 points of damage and must succeed at a DC 20 Reflex save or its speed is halved for 24 hours or until it receives magical healing or benefits from a successful DC 15 Heal check.",
+			"",
+			"See [Wilderness Traps](rule:wilderness_traps) for information on this traps Associated Terrain."
+		],
+		"display": "trap"
+	},
+	"breakaway_log": {
+		"name": "Breakaway Log",
+		"file": "traps7b78.html",
+		"sources": [
+			"Ultimate Wilderness"
+		],
+		"cr": "4",
+		"type": "mechanical",
+		"perception_DC": "25",
+		"disable_DC": "30",
+		"description": [
+			"### Breakaway Log",
+			"",
+			"**Source** [Ultimate Wilderness pg. 173](source:ultimate_wilderness)   ",
+			"**Associated Terrain** any forests, jungles, or swamps   ",
+			"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 30",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; **Reset** repair   ",
+			"**Effect** Fallen trees often form excellent natural bridges over rivers or chasms, or they afford routes to climb more safely over a wall or other barrier. Breakaway logs have been sabotaged so that they collapse once they are used. At the end of a round when a Medium or larger (or two Small) creatures use the log, it collapses. All creatures on the log then fall, taking appropriate damage from the plunge. This example breakaway log fills an area that is 5 feet wide and 20 feet long, and it results in a 20-foot fall which deals 2d6 points of falling damage. A creature that succeeds at a DC 15 Reflex save can cling to the log or leap to safety and avoid the damage entirely.",
+			"",
+			"See [Wilderness Traps](rule:wilderness_traps) for information on this traps Associated Terrain."
+		],
+		"display": "trap"
+	},
+	"electricity_arc_trap": {
+		"name": "Electricity Arc Trap",
+		"file": "trapsbdf3.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "4",
+		"type": "mechanical",
+		"perception_DC": "25",
+		"disable_DC": "20",
+		"description": [
+			"### Electricity Arc Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 420](source:prpg_core_rulebook)   ",
+			"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 20",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** touch; **Reset** none   ",
+			"**Effect** electricity arc (4d6 electricity damage, DC 20 Reflex save for half damage); multiple targets (all targets in a 30-ft. line)"
+		],
+		"display": "trap"
+	},
+	"spring-arm_spike": {
+		"name": "Spring-arm Spike",
+		"file": "traps20dc.html",
+		"sources": [
+			"Ultimate Wilderness"
+		],
+		"cr": "4",
+		"type": "mechanical",
+		"perception_DC": "20",
+		"disable_DC": "20",
+		"description": [
+			"### Spring-arm Spike",
+			"",
+			"**Source** [Ultimate Wilderness pg. 173](source:ultimate_wilderness)   ",
+			"**Associated Terrain** any forests, jungles, or swamps   ",
+			"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; **Reset** manual   ",
+			"**Effect** A spring-arm spike is similar to a [spring snare trap](trap:spring_snare_trap) in that it incorporates a strong sapling bent into a taut arc. When a creature enters a square that contains the spring-arm spike's trigger, the sapling snaps forward, driving a pointed spear into the target. The spring-arm spike makes a melee attack +15 (2d10+4/&times;3) against the target, which is also knocked prone unless it succeeds at a DC 20 Reflex save.",
+			"",
+			"See [Wilderness Traps](rule:wilderness_traps) for information on this traps Associated Terrain."
+		],
+		"display": "trap"
+	},
+	"wall_scythe_trap": {
+		"name": "Wall Scythe Trap",
+		"file": "trapsfad1.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "4",
+		"type": "mechanical",
+		"perception_DC": "20",
+		"disable_DC": "20",
+		"description": [
+			"### Wall Scythe Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 420](source:prpg_core_rulebook)   ",
+			"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; **Reset** automatic reset   ",
+			"**Effect** Atk +20 melee (2d4+6/&times;4)"
+		],
+		"display": "trap"
+	},
+	"deadfall": {
+		"name": "Deadfall",
+		"file": "traps9b0c.html",
+		"sources": [
+			"Ultimate Wilderness"
+		],
+		"cr": "5",
+		"type": "mechanical",
+		"perception_DC": "20",
+		"disable_DC": "20",
+		"description": [
+			"### Deadfall",
+			"",
+			"**Source** [Ultimate Wilderness pg. 173](source:ultimate_wilderness)   ",
+			"**Associated Terrain** any forests, jungles, mountains, or swaps   ",
+			"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; **Reset** manual   ",
+			"**Effect** Rigged to boulders, logs, or other heavy weights in canopies or on ledges, a trip line strung across an area can create a deadly trap. When a creature enters the deadfall's trigger square, the weights drop in a 20-foot line or a 10-foot-square area, affecting four 5-foot squares in all. Each creature in this area takes 4d6 points of damage and is knocked prone. With a successful DC 20 Reflex save, a target takes half the damage and avoids being knocked prone.",
+			"",
+			"See [Wilderness Traps](rule:wilderness_traps) for information on this traps Associated Terrain."
+		],
+		"display": "trap"
+	},
+	"falling_block_trap": {
+		"name": "Falling Block Trap",
+		"file": "trapsf37a.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "5",
+		"type": "mechanical",
+		"perception_DC": "20",
+		"disable_DC": "20",
+		"description": [
+			"### Falling Block Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 420](source:prpg_core_rulebook)   ",
+			"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; **Reset** manual   ",
+			"**Effect** Atk +15 melee (6d6); multiple targets (all targets in a 10-ft. square)"
+		],
+		"display": "trap"
+	},
+	"fireball_trap": {
+		"name": "Fireball Trap",
+		"file": "traps3075.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "5",
+		"type": "magic",
+		"perception_DC": "28",
+		"disable_DC": "28",
+		"description": [
+			"### Fireball Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 421](source:prpg_core_rulebook)   ",
+			"**Type** magic; **Perception DC** 28; **Disable Device DC** 28",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** proximity (alarm); **Reset** none   ",
+			"**Effect** spell effect (fireball, 6d6 fire damage, DC 14 Reflex save for half damage); multiple targets (all targets in a 20-ft.-radius burst)"
+		],
+		"display": "trap"
+	},
+	"flame_strike_trap": {
+		"name": "Flame Strike Trap",
+		"file": "traps759b.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "6",
+		"type": "magic",
+		"perception_DC": "30",
+		"disable_DC": "30",
+		"description": [
+			"### Flame Strike Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 421](source:prpg_core_rulebook)   ",
+			"**Type** magic; **Perception DC** 30; **Disable Device DC** 30",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** proximity (alarm); **Reset** none   ",
+			"**Effect** spell effect (flame strike, 8d6 fire damage, DC 17 Reflex save for half damage); multiple targets (all targets in a 10-ft.-radius cylinder)"
+		],
+		"display": "trap"
+	},
+	"wyvern_arrow_trap": {
+		"name": "Wyvern Arrow Trap",
+		"file": "trapsdba0.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "6",
+		"type": "mechanical",
+		"perception_DC": "20",
+		"disable_DC": "20",
+		"description": [
+			"### Wyvern Arrow Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 421](source:prpg_core_rulebook)   ",
+			"**Type** mechanical; **Perception DC** 20; **Disable Device DC** 20",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; **Reset** none   ",
+			"**Effect** Atk +15 ranged (1d6 plus wyvern poison/&times;3)"
+		],
+		"display": "trap"
+	},
+	"faceless_statue_trap": {
+		"name": "Faceless Statue Trap",
+		"file": "traps75b6.html",
+		"sources": [
+			"Horror Adventures"
+		],
+		"cr": "7",
+		"type": "magic",
+		"perception_DC": "31",
+		"disable_DC": "31",
+		"description": [
+			"### Faceless Statue Trap",
+			"",
+			"**Source** [Horror Adventures pg. 162](source:horror_adventures)   ",
+			"**Type** magic; **Perception DC** 31; **Disable Device DC** 31",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** proximity (15 feet); **Reset** none   ",
+			"**Effect** The faceless statue trap targets a creature with a [flesh to stone](spell:flesh_to_stone) effect (DC 19, single target), followed immediately by a [stone shape](spell:stone_shape) effect, which completely smooths the face of the target, making it appear to be faceless. If the creature is returned to flesh, this transformation persists, rendering the target permanently blind, deaf, mute, and unable to breathe. Unless the change is reversed via [regenerate](spell:regenerate) or other magic capable of restoring the target's mouth or nose, or unless the target is able to survive without breathing, the creature begins to suffocate immediately. Using [stone shape](spell:stone_shape) on the creature while it is still petrified can restore its face, preventing this, but only if the caster succeeds at a DC 25 Craft (sculpture) check. Otherwise, the spell creates a grotesque parody of a face, formed entirely of flesh and without function. Other variants of this trap exist that perform similarly grotesque alterations to a creature via [stone shape](spell:stone_shape)."
+		],
+		"display": "trap"
+	},
+	"frost_fangs_trap": {
+		"name": "Frost Fangs Trap",
+		"file": "traps083d.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "7",
+		"type": "mechanical",
+		"perception_DC": "25",
+		"disable_DC": "20",
+		"description": [
+			"### Frost Fangs Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 421](source:prpg_core_rulebook)   ",
+			"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 20",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; Duration 3 rounds; **Reset** none   ",
+			"**Effect** jets of freezing water (3d6 cold damage, DC 20 Reflex save for half damage); multiple targets (all targets in a 40-ft.-square chamber)"
+		],
+		"display": "trap"
+	},
+	"sinking_coffin_trap": {
+		"name": "Sinking Coffin Trap",
+		"file": "trapsa076.html",
+		"sources": [
+			"Horror Adventures"
+		],
+		"cr": "7",
+		"type": "mechanical",
+		"perception_DC": "25",
+		"disable_DC": "25",
+		"description": [
+			"### Sinking Coffin Trap",
+			"",
+			"**Source** [Horror Adventures pg. 162](source:horror_adventures)   ",
+			"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 25",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; **Reset** repair   ",
+			"**Effect** This trap activates similarly to a [pit trap](trap:pit_trap), but the pit is actually a metal coffin concealed under the floor that drops into a body of water under the floor once a creature falls inside. The pitlike opening is 5 feet across, leading into a hollow metal coffin that's 10 feet deep. A creature that steps onto the opening and fails a DC 20 Reflex save falls in, taking 1d6 points of falling damage. The top of the metal box then automatically shuts and locks (Disable Device DC 30, accessible from either side), and the fastenings holding the box to the floor release, causing it and anyone still inside or standing on top of it to plummet into a body of water, typically either fast-flowing or at least 200 feet deep. The box sinks at a rate of 60 feet per round, and could be carried by the current. The box is airtight, and contains enough air for a single Medium creature to breathe for 10 minutes before being at risk of [suffocation](rule:suffocation). If the box is successfully opened while underwater, the water takes 1 round to fill it, during which time any creature inside the box must succeed at a DC 15 Strength check to escape the box against the power of the rushing water."
+		],
+		"display": "trap"
+	},
+	"summon_monster_vi_trap": {
+		"name": "Summon Monster VI Trap",
+		"file": "trapsd0d1.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "7",
+		"type": "magic",
+		"perception_DC": "31",
+		"disable_DC": "31",
+		"description": [
+			"### Summon Monster VI Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 421](source:prpg_core_rulebook)   ",
+			"**Type** magic; **Perception DC** 31; **Disable Device DC** 31",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** proximity (alarm); **Reset** none   ",
+			"**Effect** spell effect (summon monster VI, summons 1d3 Large elementals or 1 Huge elemental)"
+		],
+		"display": "trap"
+	},
+	"camouflaged_spiked_pit_trap": {
+		"name": "Camouflaged Spiked Pit Trap",
+		"file": "traps4913.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "8",
+		"type": "mechanical",
+		"perception_DC": "25",
+		"disable_DC": "20",
+		"description": [
+			"### Camouflaged Spiked Pit Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 421](source:prpg_core_rulebook)   ",
+			"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 20",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; **Reset** manual   ",
+			"**Effect** 50-ft.-deep pit (5d6 falling damage); pit spikes (Atk +15 melee, 1d4 spikes per target for 1d6+5 damage each); DC 20 Reflex avoids; multiple targets (all targets in a 10-ft.-square area)"
+		],
+		"display": "trap"
+	},
+	"insanity_mist_trap": {
+		"name": "Insanity Mist Trap",
+		"file": "trapsaf83.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "8",
+		"type": "mechanical",
+		"perception_DC": "25",
+		"disable_DC": "20",
+		"description": [
+			"### Insanity Mist Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 421](source:prpg_core_rulebook)   ",
+			"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 20",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; **Reset** repair   ",
+			"**Effect** poison gas (insanity mist); never miss; onset delay (1 round); multiple targets (all targets in a 10-ft.-by-10-ft. room)"
+		],
+		"display": "trap"
+	},
+	"hail_of_arrows_trap": {
+		"name": "Hail of Arrows Trap",
+		"file": "traps8c4c.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "9",
+		"type": "mechanical",
+		"perception_DC": "25",
+		"disable_DC": "25",
+		"description": [
+			"### Hail of Arrows Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 421](source:prpg_core_rulebook)   ",
+			"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 25",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** visual (arcane eye); **Reset** repair   ",
+			"**Effect** Atk +20 ranged (6d6); multiple targets (all targets in a 20-ft. line)"
+		],
+		"display": "trap"
+	},
+	"shocking_floor_trap": {
+		"name": "Shocking Floor Trap",
+		"file": "trapsb2bb.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "9",
+		"type": "magic",
+		"perception_DC": "26",
+		"disable_DC": "26",
+		"description": [
+			"### Shocking Floor Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 421](source:prpg_core_rulebook)   ",
+			"**Type** magic; **Perception DC** 26; **Disable Device DC** 26",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** proximity (alarm); Duration 1d6 rounds; **Reset** none   ",
+			"**Effect** spell effect (shocking grasp, Atk +9 melee touch [4d6 electricity damage]); multiple targets (all targets in a 40-ft.-square room)"
+		],
+		"display": "trap"
+	},
+	"chamber_of_blades_trap": {
+		"name": "Chamber of Blades Trap",
+		"file": "traps74c8.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "10",
+		"type": "mechanical",
+		"perception_DC": "25",
+		"disable_DC": "20",
+		"description": [
+			"### Chamber of Blades Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 421](source:prpg_core_rulebook)   ",
+			"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 20",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; Duration 1d4 rounds; **Reset** repair   ",
+			"**Effect** Atk +20 melee (3d8+3); multiple targets (all targets in a 20-ft.-square chamber)"
+		],
+		"display": "trap"
+	},
+	"energy_drain_trap": {
+		"name": "Energy Drain Trap",
+		"file": "traps55d5.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "10",
+		"type": "magic",
+		"perception_DC": "34",
+		"disable_DC": "34",
+		"description": [
+			"### Energy Drain Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 421](source:prpg_core_rulebook)   ",
+			"**Type** magic; **Perception DC** 34; **Disable Device DC** 34",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** visual (true seeing); **Reset** none   ",
+			"**Effect** spell effect (energy drain, Atk +10 ranged touch, 2d4 temporary negative levels, DC 23 Fortitude negates after 24 hours)"
+		],
+		"display": "trap"
+	},
+	"cone_of_cold_trap": {
+		"name": "Cone of Cold Trap",
+		"file": "traps3427.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "11",
+		"type": "magic",
+		"perception_DC": "30",
+		"disable_DC": "30",
+		"description": [
+			"### Cone of Cold Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 421](source:prpg_core_rulebook)   ",
+			"**Type** magic; **Perception DC** 30; **Disable Device DC** 30",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** proximity (alarm); **Reset** none   ",
+			"**Effect** spell effect (cone of cold, 15d6 cold damage, DC 17 Reflex save for half damage); multiple targets (all targets in a 60-ft. cone)"
+		],
+		"display": "trap"
+	},
+	"crushing_cage_tarp": {
+		"name": "Crushing Cage Tarp",
+		"file": "trapsaa18.html",
+		"sources": [
+			"Horror Adventures"
+		],
+		"cr": "11",
+		"type": "mechanical",
+		"perception_DC": "29",
+		"disable_DC": "30",
+		"description": [
+			"### Crushing Cage Tarp",
+			"",
+			"**Source** [Horror Adventures pg. 161](source:horror_adventures)   ",
+			"**Type** mechanical; **Perception DC** 29; **Disable Device DC** 30",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; **Reset** manual   ",
+			"**Effect** A metal cage drops to seal creatures in a 10-foot-square area (no saving throw), and the ceiling of this cage begins to slowly lower to crush those within it , descending at a rate of 1 foot per round from a height of 10 feet. Creatures inside and outside the trapped area can attempt to open the cage's single locked door (Disable Device DC 30), but the lock is electrified, automatically dealing 6d6 points of electricity damage with each attempt, and imposing a -1 penalty on the check f or every 5 points of damage dealt in this way. Creatures inside the cage can attempt to hold up the ceiling of the cage as a ful l-round action with a successful DC 25 Strength check. Success prevents the cage from lowering that round, though it doesn't reverse the progress or allow egress. Once the height of the cage's ceiling is 3 feet, Medium creatures take 10d10 points of bludgeoning damage each round the cage's ceiling is not successfully held up. Once the height of the cage's ceiling is 1 foot, Small creatures take 10d10 points of bludgeoning damage each round that the ceiling is not successfully held up. Tiny creatures can attempt a DC 30 Escape Artist check to flee through the holes in the cage, Diminutive creatures must succeed at a DC 20 Escape Artist check, and Fine creatures can leave automatically. These traps are often employed in conjunction with an effect that prevents dimensional travel, such as [dimensional lock](spell:dimensional_lock). This addition doesn't change the trap's CR, but it does make the trap a combination of mechanical and magical."
+		],
+		"display": "trap"
+	},
+	"poisoned_pit_trap": {
+		"name": "Poisoned Pit Trap",
+		"file": "trapsd7a6.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "12",
+		"type": "mechanical",
+		"perception_DC": "25",
+		"disable_DC": "20",
+		"description": [
+			"### Poisoned Pit Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 421](source:prpg_core_rulebook)   ",
+			"**Type** mechanical; **Perception DC** 25; **Disable Device DC** 20",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; **Reset** manual   ",
+			"**Effect** 50-ft.-deep pit (5d6 falling damage); pit spikes (Atk +15 melee, 1d4 spikes per target for 1d6+5 damage each plus poison [shadow essence]); DC 25 Reflex avoids; multiple targets (all targets in a 10-ft.-square area)"
+		],
+		"display": "trap"
+	},
+	"maximized_fireball_trap": {
+		"name": "Maximized Fireball Trap",
+		"file": "traps50a8.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "13",
+		"type": "magic",
+		"perception_DC": "31",
+		"disable_DC": "31",
+		"description": [
+			"### Maximized Fireball Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 421](source:prpg_core_rulebook)   ",
+			"**Type** magic; **Perception DC** 31; **Disable Device DC** 31",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** proximity (alarm); **Reset** none   ",
+			"**Effect** spell effect (fireball, 60 fire damage, DC 14 Reflex save for half damage); multiple targets (all targets in a 20-ft.-radius burst)"
+		],
+		"display": "trap"
+	},
+	"harm_trap": {
+		"name": "Harm Trap",
+		"file": "trapsb2b5.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "14",
+		"type": "magic",
+		"perception_DC": "31",
+		"disable_DC": "31",
+		"description": [
+			"### Harm Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 422](source:prpg_core_rulebook)   ",
+			"**Type** magic; **Perception DC** 31; **Disable Device DC** 31",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** touch; **Reset** none   ",
+			"**Effect** spell effect (harm, +6 melee touch, 130 damage, DC 19 Will save for half, cannot be reduced to less than 1 hit point)"
+		],
+		"display": "trap"
+	},
+	"crushing_stone_trap": {
+		"name": "Crushing Stone Trap",
+		"file": "traps0a8f.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "15",
+		"type": "mechanical",
+		"perception_DC": "30",
+		"disable_DC": "20",
+		"description": [
+			"### Crushing Stone Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 422](source:prpg_core_rulebook)   ",
+			"**Type** mechanical; **Perception DC** 30; **Disable Device DC** 20",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** location; **Reset** manual   ",
+			"**Effect** Atk +15 melee (16d6); multiple targets (all targets in a 10-ft. square)"
+		],
+		"display": "trap"
+	},
+	"empowered_disintegrate_trap": {
+		"name": "Empowered Disintegrate Trap",
+		"file": "trapsd8c7.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "16",
+		"type": "magic",
+		"perception_DC": "33",
+		"disable_DC": "33",
+		"description": [
+			"### Empowered Disintegrate Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 422](source:prpg_core_rulebook)   ",
+			"**Type** magic; **Perception DC** 33; **Disable Device DC** 33",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** sight (true seeing); **Reset** none   ",
+			"**Effect** spell effect (empowered disintegrate, +9 ranged touch, 30d6 damage plus 50%, DC 19 Fort save reduces the damage to 5d6 plus 50%)"
+		],
+		"display": "trap"
+	},
+	"lightning_bolt_gallery_trap": {
+		"name": "Lightning Bolt Gallery Trap",
+		"file": "traps9985.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "17",
+		"type": "magic",
+		"perception_DC": "29",
+		"disable_DC": "29",
+		"description": [
+			"### Lightning Bolt Gallery Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 422](source:prpg_core_rulebook)   ",
+			"**Type** magic; **Perception DC** 29; **Disable Device DC** 29",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** proximity (alarm); Duration 1d6 rounds; **Reset** none   ",
+			"**Effect** spell effect (heightened lightning bolt, 8d6 electricity damage, DC 16 Reflex save for half); multiple targets (all targets in a 60-ft.-square chamber)"
+		],
+		"display": "trap"
+	},
+	"deadly_spear_trap": {
+		"name": "Deadly Spear Trap",
+		"file": "traps78de.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "18",
+		"type": "mechanical",
+		"perception_DC": "30",
+		"disable_DC": "30",
+		"description": [
+			"### Deadly Spear Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 422](source:prpg_core_rulebook)   ",
+			"**Type** mechanical; **Perception DC** 30; **Disable Device DC** 30",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** sight (true seeing); **Reset** manual   ",
+			"**Effect** Atk +20 ranged (1d8+6 plus black lotus extract)"
+		],
+		"display": "trap"
+	},
+	"meteor_swarm_trap": {
+		"name": "Meteor Swarm Trap",
+		"file": "traps7450.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "19",
+		"type": "magic",
+		"perception_DC": "34",
+		"disable_DC": "34",
+		"description": [
+			"### Meteor Swarm Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 422](source:prpg_core_rulebook)   ",
+			"**Type** magic; **Perception DC** 34; **Disable Device DC** 34",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** sight (true seeing); **Reset** none   ",
+			"**Effect** spell effect (meteor swarm, 4 meteors at separate targets, +9 ranged touch, 2d6 plus 6d6 fire [-4 save on a hit], DC 23 Reflex save for half fire damage, 18d6 fire damage from other meteors, DC 23 Reflex save for half damage); multiple targets (four targets, no two of which can be more than 40 ft. apart)"
+		],
+		"display": "trap"
+	},
+	"destruction_trap": {
+		"name": "Destruction Trap",
+		"file": "traps56d7.html",
+		"sources": [
+			"PRPG Core Rulebook"
+		],
+		"cr": "20",
+		"type": "magic",
+		"perception_DC": "34",
+		"disable_DC": "34",
+		"description": [
+			"### Destruction Trap",
+			"",
+			"**Source** [PRPG Core Rulebook pg. 422](source:prpg_core_rulebook)   ",
+			"**Type** magic; **Perception DC** 34; **Disable Device DC** 34",
+			"",
+			"**Effects**",
+			"",
+			"**Trigger** proximity (alarm); **Reset** none   ",
+			"**Effect** spell effect (heightened destruction, 190 damage, DC 23 Fortitude save reduces damage to 10d6)"
+		],
+		"display": "trap"
+	}
 }

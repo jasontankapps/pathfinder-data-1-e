@@ -15,7 +15,7 @@
 		"description": [
 			"## Animal Speaker",
 			"",
-			"**Source** [Ultimate Magic pg. 25](source:Ultimate_Magic)   ",
+			"**Source** [Ultimate Magic pg. 25](source:ultimate_magic)   ",
 			"An animal speaker focuses not on the ears and minds of humans, but on the creatures of the wild and those in the underbellies of cities.",
 			"",
 			"**Animal Friend:** An animal speaker selects a particular kind of animal, such as apes, badgers, bears, boars, cats, snakes, and so on. The bard gains a +4 bonus on Handle Animal checks to influence animals of his chosen kind. Animals of this kind have a starting attitude of at least \"indifferent\" toward the bard and never attack him unless he attacks them first.",
@@ -51,10 +51,10 @@
 		"description": [
 			"## Arcane Duelist",
 			"",
-			"**Source** [Advanced Player's Guide pg. 80](source:Advanced_Player's_Guide)   ",
+			"**Source** [Advanced Player's Guide pg. 80](source:advanced_player's_guide)   ",
 			"A master of the martial applications of steel and spell, the arcane duelist blends both into a lethal combination.",
 			"",
-			"**Arcane Strike:** Arcane duelists gain [Arcane Strike](feat:Arcane_Strike) as a bonus feat at 1st level. This ability replaces bardic knowledge.",
+			"**Arcane Strike:** Arcane duelists gain [Arcane Strike](feat:arcane_strike) as a bonus feat at 1st level. This ability replaces bardic knowledge.",
 			"",
 			"**Bardic Performance:** An arcane duelist gains the following types of bardic performance.",
 			"",
@@ -64,7 +64,7 @@
 			"",
 			"**Mass Bladethirst (Su):** An arcane duelist of 18th level or higher can use his bladethirst performance to enhance the weapons of as many allies as desired within 30 feet. The bonus provided by this power is +4 if conferred on two allies, +3 for three allies, +2 for four allies, and +1 for five or more allies. The power granted to each weapon must be identical. This ability replaces mass suggestion.",
 			"",
-			"**Bonus Feats:** An arcane duelist weaves might and magic in his combat style, gaining the following bonus feats at 2nd level and every four levels thereafter: 2nd level-[Combat Casting](feat:Combat_Casting), 6th level-[Disruptive](feat:Disruptive), 10th level-[Spellbreaker](feat:Spellbreaker), 14th level-[Penetrating Strike](feat:Penetrating_Strike), 18th level-[Greater Penetrating Strike](feat:Greater_Penetrating_Strike). This ability replaces versatile performance and well-versed.",
+			"**Bonus Feats:** An arcane duelist weaves might and magic in his combat style, gaining the following bonus feats at 2nd level and every four levels thereafter: 2nd level-[Combat Casting](feat:combat_casting), 6th level-[Disruptive](feat:disruptive), 10th level-[Spellbreaker](feat:spellbreaker), 14th level-[Penetrating Strike](feat:penetrating_strike), 18th level-[Greater Penetrating Strike](feat:greater_penetrating_strike). This ability replaces versatile performance and well-versed.",
 			"",
 			"**Arcane Bond (Ex):** At 5th level, an arcane duelist gains the [arcane bond ability as a wizard](class:arcane_bond_ability_as_a_wizard), using a weapon as his bonded item, allowing him to cast any one addition spell that he knows once per day. He may not choose a familiar or other type of bonded item. He may use the hand holding his bonded weapon for somatic components. This ability replaces lore master.",
 			"",
@@ -84,7 +84,7 @@
 		"description": [
 			"## Arcane Healer",
 			"",
-			"**Source** [Faiths and Philosophies pg. 13](source:Faiths_and_Philosophies)   ",
+			"**Source** [Faiths and Philosophies pg. 13](source:faiths_and_philosophies)   ",
 			"Though bards may have different reasons for wanting to heal the sick and injured, both out of pure altruism and in order to keep adventuring companions safe, the ability to heal also makes it much easier for a bard to pose as a cleric or other divine healer, opening the door for a wide array of swindles and scams.",
 			"",
 			"**Channel Energy (Su):** At 2nd level, an arcane healer gains the ability to [channel positive energy as a cleric](class:channel_positive_energy_as_a_cleric) of one level lower than his level. If a creature within the channeled energy's area of effect would be allowed a save against its effects, the DC is equal to 10 + 1/2 the arcane healer's level + the arcane healer's Charisma modifier. An arcane healer can use this ability once per day at 2nd level, gaining an additional use per day every four levels thereafter (6th, 10th, 14th, and 18th), to a maximum of 5 times per day at 18th level. This ability replaces versatile performance.",
@@ -106,7 +106,7 @@
 		"description": [
 			"## Archaeologist",
 			"",
-			"**Source** [Ultimate Combat pg. 32](source:Ultimate_Combat)   ",
+			"**Source** [Ultimate Combat pg. 32](source:ultimate_combat)   ",
 			"No stodgy researcher, this archaeologist meets his research head-on in the field. Archaeologists sacrifice the bard's inspirational performance for a smattering of rogue talents. This archetype also fits roguelike characters that focus more on learning than on stabbing foes in the back.",
 			"",
 			"**Bardic Performance:** Archaeologists do not gain the bardic performance ability or any of its performance types.",
@@ -144,7 +144,7 @@
 		"description": [
 			"## Archivist",
 			"",
-			"**Source** [Advanced Player's Guide pg. 80](source:Advanced_Player's_Guide)   ",
+			"**Source** [Advanced Player's Guide pg. 80](source:advanced_player's_guide)   ",
 			"Some bards greatly prefer academic pursuits to the drama (and sometimes melodrama) of their artistic brethren.",
 			"",
 			"**Bardic Performance:** An archivist gains the following types of bardic performance.",
@@ -179,7 +179,7 @@
 		"description": [
 			"## Argent Voice",
 			"",
-			"**Source** [Adventurer's Guide pg. 174](source:Adventurer's_Guide)   ",
+			"**Source** [Adventurer's Guide pg. 174](source:adventurer's_guide)   ",
 			"As much as the Silver Ravens are freedom fighters, they are also patrons of the arts. Perhaps owing to the strong ties between the organization's leadership and the Kintargo Opera House, the Silver Ravens are particularly active in the theater community and count many of Cheliax's finest singers among their recruits. In part, this is mere shrewdness, as actors and performers are often invited into the halls of the wealthy and powerful, where a rebellion can do the most damage.",
 			"",
 			"However, there is another reason for the Silver Ravens to recruit singers from the Chelish opera. The Silver Ravens rely on talented voices to deploy their most powerful weapon in the defense of Kintargo-the \"Song of Silver.\" While specially trained argent dramaturges can create lesser versions of this song, the true \"Song of Silver\" must be performed in Kintargo. Those among the Silver Ravens who dedicate themselves to the study of this magical performance are known as argent voices, and through practice and experience, these bards are able to modulate their own bardic performance abilities to reflect some measure of the power found in the \"Song of Silver.\" For this reason, argent voices are among the most respected and treasured of the Silver Raven's agents. While some argent voices travel the Inner Sea, fighting tyranny and oppression, many others remain in Kintargo, ready to activate the city's defenses should the need arise.",
@@ -225,7 +225,7 @@
 		"description": [
 			"## Arrowsong Minstrel",
 			"",
-			"**Source** [Arcane Anthology pg. 30](source:Arcane_Anthology)   ",
+			"**Source** [Arcane Anthology pg. 30](source:arcane_anthology)   ",
 			"Originating from the wooded wilds of Hymbria, Arrowsong minstrels combine the elven traditions of archery, song, and spellcasting into a seamless harmony of dazzling magical effects.",
 			"",
 			"**Weapon Proficiency:** An Arrowsong minstrel is proficient with longbows, but not the longsword, rapier, or whip. This alters the bard's weapon proficiencies.",
@@ -238,7 +238,7 @@
 			"",
 			"This ability replaces bardic knowledge, dirge of doom, distraction, fascinate, inspire competence, lore master, and soothing performance.",
 			"",
-			"**Precise Minstrel (Ex):** At 2nd level, an Arrowsong minstrel gains [Precise Shot](feat:Precise_Shot) as a bonus feat. In addition, any creature that is affected by any of the Arrowsong minstrel's bardic performance does not provide soft cover to enemies against her ranged attacks with a bow. This ability replaces the versatile performance gained at 2nd level and well-versed.",
+			"**Precise Minstrel (Ex):** At 2nd level, an Arrowsong minstrel gains [Precise Shot](feat:precise_shot) as a bonus feat. In addition, any creature that is affected by any of the Arrowsong minstrel's bardic performance does not provide soft cover to enemies against her ranged attacks with a bow. This ability replaces the versatile performance gained at 2nd level and well-versed.",
 			"",
 			"**Arrowsong Strike (Su):** At 6th level, an Arrowsong minstrel can use spellstrike ([as per the magus class feature](class:as_per_the_magus_class_feature)) to cast a single-target ranged touch attack spell and deliver it through a ranged weapon attack. Even if the spell can normally affect multiple targets, only a single missile, ray, or effect accompanies the attack. She cannot use spellstrike with normal touch attacks or melee attacks.",
 			"",
@@ -262,7 +262,7 @@
 		"description": [
 			"## Averaka Arbiter",
 			"",
-			"**Source** [Bastards of Golarion pg. 15](source:Bastards_of_Golarion)   ",
+			"**Source** [Bastards of Golarion pg. 15](source:bastards_of_golarion)   ",
 			"Some Averakan bards make it their mission to unify their fellow half-orcs, and are equally skilled at helping allies defeat common enemies and at building a new civilization that reflects their unique identity.",
 			"",
 			"**Bardic Performance:** An Averaka arbiter gains the following types of bardic performance.",
@@ -291,7 +291,7 @@
 		"description": [
 			"## Brazen Deceiver",
 			"",
-			"**Source** [Adventurer's Guide pg. 50](source:Adventurer's_Guide)   ",
+			"**Source** [Adventurer's Guide pg. 50](source:adventurer's_guide)   ",
 			"Where other thieves use stealth or intimidation to achieve their goals, the brazen deceiver depends on lies. The Council of Thieves often sends brazen deceivers to acquire blackmail materials, arrange the release of incarcerated agents, or otherwise manipulate events in the Council's favor. Brazen deceivers' techniques come from a dark source. During the reformation of the Council, Sabriune and Aspexia acquired the shattered fragments of an ancient relic called the Totemrix, which belonged to the long-deceased demon lord of shadows, Vyriavaxus. This particularly intrigued Sabriune, for it was her demonic patron Nocticula who slew Vyriavaxus. Drawing upon Sabriune's heretical faith, Aspexia's psychometric mastery, and Westcrown's lingering psychic trauma from an oppressive shadow curse that plagued its nights for many years, the Council leaders were able to coax remnants of power from the broken artifact. All brazen deceivers are imbued with a fragment of that power during their initiation-not enough to damn a soul or shift alignment, but just enough to give these bards access to the sinister energies they need to deceive.",
 			"",
 			"**Deceptive Tale (Su):** A brazen deceiver learns the deceptive tale bardic performance, allowing him to weave magic into his lies and imbue the most fantastic claims with the appearance of truth. While the brazen deceiver maintains this performance, he takes half the normal penalty on Bluff checks for unlikely lies (rounding down to -2). At 5th level, this effect also applies to Bluff checks for far-fetched lies, and at 11th level, it applies to Bluff checks for impossible lies. Deceptive tale relies on audible components.",
@@ -302,7 +302,7 @@
 			"",
 			"This ability replaces bardic knowledge.",
 			"",
-			"**Blatant Subtlety (Ex):** At 2nd level, a brazen deceiver has mastered the art of using magic without being detected. The brazen deceiver gains [Spellsong](feat:Spellsong) as a bonus feat. Observers do not automatically recognize his bardic performances as anything other than ordinary speech or performance. Those specifically looking for abnormal effects must succeed at a Sense Motive check (DC = 10 + half the brazen deceiver's bard level + the brazen deceiver's Charisma modifier) to detect his performances.",
+			"**Blatant Subtlety (Ex):** At 2nd level, a brazen deceiver has mastered the art of using magic without being detected. The brazen deceiver gains [Spellsong](feat:spellsong) as a bonus feat. Observers do not automatically recognize his bardic performances as anything other than ordinary speech or performance. Those specifically looking for abnormal effects must succeed at a Sense Motive check (DC = 10 + half the brazen deceiver's bard level + the brazen deceiver's Charisma modifier) to detect his performances.",
 			"",
 			"This ability replaces well-versed.",
 			"",
@@ -330,7 +330,7 @@
 		"description": [
 			"## Buccaneer",
 			"",
-			"**Source** [Pirates of the Inner Sea pg. 22](source:Pirates_of_the_Inner_Sea)   ",
+			"**Source** [Pirates of the Inner Sea pg. 22](source:pirates_of_the_inner_sea)   ",
 			"A buccaneer is a pirate who specializes in raiding ships and port towns, but who leaves his victims alive whenever possible. Buccaneers are flashy, debonair pirates who enjoy the excitement and rewards of piracy, but prefer not to kill; they are welcome on ships whose captains prefer to avoid the punishments that murder would bring or who lack the heart to strike down civilians in cold blood. Buccaneers are also popular in privateer crews-and among slave traders.",
 			"",
 			"**Hilt Bash (Ex):** A buccaneer develops the ability to fight with the hilts and flats of his weapons, aiming to leave his victims alive. He can use a weapon that normally deals lethal damage to deal nonlethal damage with no penalty on his attack roll. This ability replaces bardic knowledge.",
@@ -354,7 +354,7 @@
 		"description": [
 			"## Busker",
 			"",
-			"**Source** [Heroes of the Streets pg. 26](source:Heroes_of_the_Streets)   ",
+			"**Source** [Heroes of the Streets pg. 26](source:heroes_of_the_streets)   ",
 			"A busker uses his dazzling physical stunts to get by on his own in the city streets. Buskers commonly use their skills to entertain for a few coins, but also pick pockets, hide in plain sight as statues, and manipulate the desperate in medicine shows. Many buskers are also [jugglers](unknown:jugglers).",
 			"",
 			"**Bardic Performance:** Buskers do not gain the bardic performance ability or any of its performance types, except as noted below.",
@@ -392,7 +392,7 @@
 		"description": [
 			"## Celebrity",
 			"",
-			"**Source** [Ultimate Magic pg. 25](source:Ultimate_Magic)   ",
+			"**Source** [Ultimate Magic pg. 25](source:ultimate_magic)   ",
 			"Known for being known, a celebrity bard is a master of performance who captures the imagination and attention of his audience. He trades on his charisma, his wit, and his exploits to build his renown-and that of his companions.",
 			"",
 			"**Famous:** At 1st level, a celebrity bard may choose a region where he is famous, and within that region, the locals are more likely to react favorably toward the bard. The bard gains a bonus on Diplomacy and Intimidate checks in that area and to influence people from that area.",
@@ -424,7 +424,7 @@
 		"description": [
 			"## Chelish Diva",
 			"",
-			"**Source** [Inner Sea Magic pg. 32](source:Inner_Sea_Magic)   ",
+			"**Source** [Inner Sea Magic pg. 32](source:inner_sea_magic)   ",
 			"Cheliax is well known for its elaborate operas, and as with any kind of theater, there are performers whose egos get the better of them. Some have an inflated idea of their talent and importance. A few, the Chelish divas, are wholly justified in their feelings of superiority. In their pursuit of glory, their magic and discipline allows them to prove themselves better than any upstart actor, dancer, or chorus member-and when crossed, their fury is legendary. A Chelish diva has the following class features.",
 			"",
 			"**Famous:** At 1st level, a Chelish diva may choose a region where she is famous, and within that region, the locals are more likely to react favorably toward her. The bard gains a bonus on Bluff and Intimidate checks in that area and to influence people from that area.",
@@ -464,7 +464,7 @@
 		"description": [
 			"## Chronicler of Worlds",
 			"",
-			"**Source** [Planar Adventures pg. 11](source:Planar_Adventures)   ",
+			"**Source** [Planar Adventures pg. 11](source:planar_adventures)   ",
 			"In eons past, the angel Tabris was tasked with cataloging all knowledge of the Great Beyond, only to eventually be cast from Heaven for penning the Book of the Damned, the perfect catalog of all planar evil. His dedication and sacrifice to the task have inspired some to follow his example; these bards are known as the chroniclers of worlds.",
 			"",
 			"A chronicler of worlds forsakes morality in service of understanding; she is both warrior and mystic, scholar and soldier. Some chroniclers congregate in Axis to share their discoveries and theories, but the majority wander the planes, steadfastly pushing the boundaries of what is known.",
@@ -477,7 +477,7 @@
 			"",
 			"**Bardic Performance:** The chronicler of worlds gains the following bardic performances.",
 			"",
-			"**Quintessence Infusion (Su):** This performance infuses allies with planar quintessence. At 9th level, while on a plane other than the Material Plane, the chronicler of worlds can use this performance to target an ally within 30 feet. For every 3 bard levels she has beyond 9th, she can affect one additional creature. Affected allies gain the plane's basic infusion effect (see [Planar Infusions](feat:Planar_Infusions)). If the chronicler of worlds is 13th level or higher, affected creatures also gain the plane's improved infusion. If she is 16th level or higher, affected creatures also gain the plane's greater infusion. The first time each day a creature benefits from quintessence infusion, the plane infused is set for the day and additional infusions can grant only that plane's infusions. Infusions that have limited uses per day remain limited in that way, regardless of how many times quintessence infusion is gained. Quintessence infusion relies on audible and visual components.",
+			"**Quintessence Infusion (Su):** This performance infuses allies with planar quintessence. At 9th level, while on a plane other than the Material Plane, the chronicler of worlds can use this performance to target an ally within 30 feet. For every 3 bard levels she has beyond 9th, she can affect one additional creature. Affected allies gain the plane's basic infusion effect (see [Planar Infusions](feat:planar_infusions)). If the chronicler of worlds is 13th level or higher, affected creatures also gain the plane's improved infusion. If she is 16th level or higher, affected creatures also gain the plane's greater infusion. The first time each day a creature benefits from quintessence infusion, the plane infused is set for the day and additional infusions can grant only that plane's infusions. Infusions that have limited uses per day remain limited in that way, regardless of how many times quintessence infusion is gained. Quintessence infusion relies on audible and visual components.",
 			"",
 			"This replaces inspire greatness.",
 			"",
@@ -512,7 +512,7 @@
 		"description": [
 			"## Court Bard",
 			"",
-			"**Source** [Advanced Player's Guide pg. 81](source:Advanced_Player's_Guide)   ",
+			"**Source** [Advanced Player's Guide pg. 81](source:advanced_player's_guide)   ",
 			"Spending years studying all of the finer points of erudition and etiquette, the court bard takes up the role of resplendent proclaimer and artist-in-residence at the hand of nobility, royalty, and the well-moneyed elite who aspire to join their ranks.",
 			"",
 			"**Bardic Performance:** A court bard gains the following types of bardic performance.",
@@ -545,7 +545,7 @@
 		"description": [
 			"## Court Fool",
 			"",
-			"**Source** [Heroes of the High Court pg. 6](source:Heroes_of_the_High_Court)   ",
+			"**Source** [Heroes of the High Court pg. 6](source:heroes_of_the_high_court)   ",
 			"Arguably the oldest and most widespread role for a court entertainer is that of the court jester or fool. This role arose from the need to offset the intense, even deadly, seriousness of court business. The court fool serves as an outlet for the constant pressure of aristocratic dealings, relieving tensions through humor. The motley clad acrobat is a good example of this style of court fool, using physical comedy to generate belly laughs and raise spirits. In other courts, the court fool might ridicule social conventions with bawdy songs or engage in biting satire, parodying manners or even mocking individuals to spread good cheer. The court fool holds up an unflattering mirror to those in charge or speaks truths, however veiled, that no one else can safely utter.",
 			"",
 			"**Buffoonery (Ex):** A court fool gains a bonus equal to 1/2 his bard level on Acrobatics, Bluff, Climb, and Disguise checks (minimum +1).",
@@ -584,7 +584,7 @@
 		"description": [
 			"## Cultivator",
 			"",
-			"**Source** [Ultimate Wilderness pg. 40](source:Ultimate_Wilderness)   ",
+			"**Source** [Ultimate Wilderness pg. 40](source:ultimate_wilderness)   ",
 			"Cultivators use music to promote plant growth and influence the behavior of plants both naturally and supernaturally. Most cultivators work in conjunction with local communities to maintain crops and oversee harvests, while others serve as wardens of unspoiled natural wonders.",
 			"",
 			"**Class Skills:** A cultivator gains Survival as a class skill. This alters the bard's class skills.",
@@ -626,7 +626,7 @@
 		"description": [
 			"## Daredevil",
 			"",
-			"**Source** [Ultimate Combat pg. 32](source:Ultimate_Combat)   ",
+			"**Source** [Ultimate Combat pg. 32](source:ultimate_combat)   ",
 			"As quick at wordplay as at swordplay, daredevils are dashing heroes, inspiring their allies to match their clever repartee and acrobatic feats. Daredevils often lean toward comedy, dance, oratory, and singing.",
 			"",
 			"**Agile (Ex):** A daredevil adds half her class level (minimum 1) on Acrobatics, Bluff, Climb, and Escape Artist checks. This ability replaces bardic knowledge.",
@@ -657,12 +657,12 @@
 		"description": [
 			"## Dawnflower Dervish",
 			"",
-			"**Source** [Inner Sea Magic pg. 34](source:Inner_Sea_Magic)   ",
+			"**Source** [Inner Sea Magic pg. 34](source:inner_sea_magic)   ",
 			"Although Sarenrae is seen mainly as a goddess of healing and redemption in most parts of the Inner Sea, her stern, evil-smiting element is more common in areas like Qadira, Osirion, and Katapesh. Many of the Dawnflower's disciples from these lands become Dawnflower dervishes, religious mystics who use a spinning dance as part of their worship. Many bards of her faith hone their skills with dance and scimitar to become dervish dancers (see Ultimate Combat), but some tread a similar path focused more on magic and healing than swordplay. These are the Dawnflower dervishes. A Dawnflower dervish has the following class features.",
 			"",
 			"**Weapon and Armor Proficiency:** Dawnflower dervishes gain weapon proficiency with the scimitar. This ability replaces their proficiency with the rapier and whip.",
 			"",
-			"**Deity:** A Dawnflower dervish must be a worshiper of [Sarenrae](faith:Sarenrae). A dervish who abandons or betrays this faith reverts to a standard bard.",
+			"**Deity:** A Dawnflower dervish must be a worshiper of [Sarenrae](faith:sarenrae). A dervish who abandons or betrays this faith reverts to a standard bard.",
 			"",
 			"**Battle Dance:** A Dawnflower dervish is trained in the use of the Perform skill, especially dance, to create magical effects on himself. This works like bardic performance, except that the Dawnflower dervish's performances grant double their normal bonuses, but these bonuses only affect him. He does not need to be able to see or hear his own performance. Battle dancing is treated as bardic performance for the purposes of feats, abilities, and effects that affect bardic performance, except that battle dancing does not benefit from the Lingering Performance feat or any other ability that allows a bardic performance to grant bonuses after it has ended. The benefits of battle dancing apply only when the bard is wearing light or no armor. Like bardic performance, battle dancing cannot be maintained at the same time as other performance abilities.",
 			"",
@@ -670,11 +670,11 @@
 			"",
 			"When the Dawnflower dervish uses the inspire courage, inspire greatness, or inspire heroics bardic performance types as battle dances, these performance types only provide benefit to the Dawnflower dervish himself. All other types of bardic performance work normally (affecting the bard and his allies, or the bard's enemies, as appropriate). This ability alters the standard bardic performance ability.",
 			"",
-			"**Dervish Dance (Ex):** A Dawnflower dervish gains the [Dervish Dance](feat:Dervish_Dance) feat as a bonus feat. This ability replaces bardic knowledge.",
+			"**Dervish Dance (Ex):** A Dawnflower dervish gains the [Dervish Dance](feat:dervish_dance) feat as a bonus feat. This ability replaces bardic knowledge.",
 			"",
 			"**Spinning Spellcaster (Ex):** At 5th level, a Dawnflower dervish gains a +4 bonus on concentration checks to cast spells defensively. This ability replaces lore master.",
 			"",
-			"**Meditative Whirl (Ex):** At 8th level, when using battle dance, the Dawnflower dervish can enter a trancelike state where his spinning motion represents the movement of the planets around the sun, and his spirit is attuned to the healing aspects of Sarenrae. By spending a move action focusing on his whirling, the dervish can apply the [Quicken Spell](feat:Quicken_Spell) feat to any cure spell he is about to cast (effectively spending a move action and swift action to cast the spell). This does not alter the level of the spell or the casting time. The dervish can use this ability once per day at 8th level and one additional time per day for every two dervish levels he has beyond 8th. This ability replaces the dirge of doom bardic performance."
+			"**Meditative Whirl (Ex):** At 8th level, when using battle dance, the Dawnflower dervish can enter a trancelike state where his spinning motion represents the movement of the planets around the sun, and his spirit is attuned to the healing aspects of Sarenrae. By spending a move action focusing on his whirling, the dervish can apply the [Quicken Spell](feat:quicken_spell) feat to any cure spell he is about to cast (effectively spending a move action and swift action to cast the spell). This does not alter the level of the spell or the casting time. The dervish can use this ability once per day at 8th level and one additional time per day for every two dervish levels he has beyond 8th. This ability replaces the dirge of doom bardic performance."
 		]
 	},
 	{
@@ -692,7 +692,7 @@
 		"description": [
 			"## Demagogue",
 			"",
-			"**Source** [Ultimate Magic pg. 26](source:Ultimate_Magic)   ",
+			"**Source** [Ultimate Magic pg. 26](source:ultimate_magic)   ",
 			"Not content with providing amusing and occasionally instructive performances, the demagogue seeks to inflame and ignite his audience, driving them toward a specific purpose with carefully chosen words and tones that may spark momentous change.",
 			"",
 			"**Famous:** At 1st level, a demagogue is famous in a particular region. This works like the [famous ability of the celebrity bard archetype](unknown:famous_ability_of_the_celebrity_bard_archetype), except the demagogue's skill bonuses apply to Bluff and Intimidate instead of Diplomacy and Intimidate. This ability replaces inspire courage +1.",
@@ -726,12 +726,12 @@
 		"description": [
 			"## Dervish Dancer",
 			"",
-			"**Source** [Ultimate Combat pg. 32](source:Ultimate_Combat)   ",
+			"**Source** [Ultimate Combat pg. 32](source:ultimate_combat)   ",
 			"Not all bards inspire others with their performances. Dervish dancers enter a near-mystical trance that allows them to push their bodies beyond normal limits.",
 			"",
 			"**Weapon and Armor Proficiency:** Dervish dancers gain weapon proficiency with the scimitar and kukri. This ability replaces their proficiency with the rapier and whip.",
 			"",
-			"**Battle Dance:** A dervish dancer is trained in the use of the Perform skill, especially dance, to create magical effects on himself. This works like bardic performance, except the dervish dancer only affects himself, and does not need to be able to see or hear his own performance. Battle dancing is treated as bardic performance for the purposes of feats, abilities, effects, and the like that affect bardic performance, except that battle dancing does not benefit from the [Lingering Performance](feat:Lingering_Performance) feat or any other ability that allows a bardic performance to grant bonuses after it has ended. Battle dancing benefits apply only when the bard is wearing light or no armor. Like bardic performance, it cannot be maintained at the same time as other performance abilities.",
+			"**Battle Dance:** A dervish dancer is trained in the use of the Perform skill, especially dance, to create magical effects on himself. This works like bardic performance, except the dervish dancer only affects himself, and does not need to be able to see or hear his own performance. Battle dancing is treated as bardic performance for the purposes of feats, abilities, effects, and the like that affect bardic performance, except that battle dancing does not benefit from the [Lingering Performance](feat:lingering_performance) feat or any other ability that allows a bardic performance to grant bonuses after it has ended. Battle dancing benefits apply only when the bard is wearing light or no armor. Like bardic performance, it cannot be maintained at the same time as other performance abilities.",
 			"",
 			"Starting a battle dance is a move action, but it can be maintained each round as a free action. Changing a battle dance from one effect to another requires the dervish dancer to stop the previous performance and start the new one as a move action. Like a bard, a dervish dancer's performance ends immediately if he is killed, paralyzed, stunned, knocked unconscious, or otherwise prevented from taking a free action each round. A dervish dancer cannot perform more than one battle dance at a time. At 10th level, a dervish dancer can start a battle dance as a swift action instead of a move action.",
 			"",
@@ -739,7 +739,7 @@
 			"",
 			"**Rain of Blows (Su):** At 6th level, a dervish dancer can use his battle dance to speed up his attacks. When making a full attack action, he may make one extra attack with any weapon he is holding, as though under the effects of a [haste](spell:haste) spell. He also gains a +1 bonus on attack rolls and a +1 dodge bonus to AC and on Reflex saves. At 9th level, and every three bard levels thereafter, these bonuses increase by +1, to a maximum of +5 at 18th level. These bonuses do not stack with the [haste](spell:haste) spell. This ability replaces suggestion and mass suggestion.",
 			"",
-			"**Razor's Kiss (Su):** At 8th level, a dervish dancer can use his battle dance to improve his weapons' critical range. All attacks he makes with manufactured weapons are treated as though he had the [Improved Critical](feat:Improved_Critical) feat. Natural weapons and spells are not affected. This ability replaces dirge of doom.",
+			"**Razor's Kiss (Su):** At 8th level, a dervish dancer can use his battle dance to improve his weapons' critical range. All attacks he makes with manufactured weapons are treated as though he had the [Improved Critical](feat:improved_critical) feat. Natural weapons and spells are not affected. This ability replaces dirge of doom.",
 			"",
 			"**Leaf on the Wind (Su):** At 14th level, a dervish dancer can use his battle dance to evade attacks with unearthly grace and to shake off the effects of his wounds. Unlike other battle dances, leaf on the wind requires a standard action each round to start or maintain the performance. Each round it is maintained, including the first, the dervish dancer gains a +6 dodge bonus to Armor Class and on Reflex saves. If wounded, he heals 1 hit point of damage per bard level. This ability replaces frightening performance.",
 			"",
@@ -769,7 +769,7 @@
 		"description": [
 			"## Detective",
 			"",
-			"**Source** [Advanced Player's Guide pg. 81](source:Advanced_Player's_Guide)   ",
+			"**Source** [Advanced Player's Guide pg. 81](source:advanced_player's_guide)   ",
 			"Piecing together clues and catching the guilty with sheer cleverness, the detective is skilled at divining the truth.",
 			"",
 			"**Bardic Performance:** A detective gains the following types of bardic performance.",
@@ -802,7 +802,7 @@
 		"description": [
 			"## Dirge Bard",
 			"",
-			"**Source** [Ultimate Magic pg. 26](source:Ultimate_Magic)   ",
+			"**Source** [Ultimate Magic pg. 26](source:ultimate_magic)   ",
 			"A composer of sonorous laments for the dead and elaborate requiems for those lost yet long remembered, dirge bards master musical tools and tropes that must appeal to the ears and hearts of both the living and the dead.",
 			"",
 			"**Bardic Performance:** A dirge bard gains the following type of bardic performance.",
@@ -830,7 +830,7 @@
 		"description": [
 			"## Disciple of the Forked Tongue",
 			"",
-			"**Source** [Potions and Poisons pg. 7](source:Potions_and_Poisons)   ",
+			"**Source** [Potions and Poisons pg. 7](source:potions_and_poisons)   ",
 			"Studied in venomous words as well as venomous blood, a disciple of the forked tongue knows just the right phrase to slowly poison the soul. His voice can sink deep into his victims' hearts, destroying friendships and devouring the mind. The disciple of the forked tongue is an archetype of the bard class available to vishkanya characters.",
 			"",
 			"**Bardic Performance:** A disciple of the forked tongue gains the following bardic performances.",
@@ -922,7 +922,7 @@
 		"description": [
 			"## Dragon Yapper",
 			"",
-			"**Source** [Monster Codex pg. 128](source:Monster_Codex)   ",
+			"**Source** [Monster Codex pg. 128](source:monster_codex)   ",
 			"Kobolds' yammering songs distract opponents in combat, hindering their ability to attack.",
 			"",
 			"**Bardic Performance:** A dragon yapper gains the following types of bardic performance.",
@@ -952,7 +952,7 @@
 		"description": [
 			"## Duettist",
 			"",
-			"**Source** [Familiar Folio pg. 6](source:Familiar_Folio)   ",
+			"**Source** [Familiar Folio pg. 6](source:familiar_folio)   ",
 			"Whether singing a delicate duo with a nightingale or slipping coins from purses while a trained monkey distracts the crowd, the duettist blends his bond to his familiar with his natural talent for performance to create amazing effects.",
 			"",
 			"**Diminished Competency:** A duettist does not gain the well-versed or jack-of-all-trades class features.",
@@ -984,7 +984,7 @@
 		"description": [
 			"## Dwarven Scholar",
 			"",
-			"**Source** [Blood of the Ancients pg. 28](source:Blood_of_the_Ancients)   ",
+			"**Source** [Blood of the Ancients pg. 28](source:blood_of_the_ancients)   ",
 			"A dwarven scholar researches the lineage of the kings of the old dwarven empires and learns their ancient tactics. She keeps these ancient traditions alive by sharing them with her allies.",
 			"",
 			"**Weapon and Armor Proficiency:** A dwarven scholar is proficient with one weapon of her choosing with the word \"dwarven\" in its name, in addition to her normal weapon proficiencies. She is not proficient with shields.",
@@ -999,7 +999,7 @@
 			"",
 			"**Bardic Performance:** A dwarven scholar gains the following type of bardic performance.",
 			"",
-			"**War Chant (Su):** At 1st level, a dwarven scholar can use her performance to inspire the martial prowess of the ancient dwarves in her allies. The dwarven scholar selects a single combat feat she knows. Allies affected by this performance gain the benefit of this feat for as long as the performance is maintained. To be affected, an ally must be able to perceive the dwarven scholar's performance. If a combat feat has a daily use limitation (such as [Stunning Fist](feat:Stunning_Fist)), any uses of that combat feat by the dwarven scholar's allies while using this ability counts toward the dwarven scholar's feat's daily limit.",
+			"**War Chant (Su):** At 1st level, a dwarven scholar can use her performance to inspire the martial prowess of the ancient dwarves in her allies. The dwarven scholar selects a single combat feat she knows. Allies affected by this performance gain the benefit of this feat for as long as the performance is maintained. To be affected, an ally must be able to perceive the dwarven scholar's performance. If a combat feat has a daily use limitation (such as [Stunning Fist](feat:stunning_fist)), any uses of that combat feat by the dwarven scholar's allies while using this ability counts toward the dwarven scholar's feat's daily limit.",
 			"",
 			"At 6th level, the dwarven scholar may grant the benefit of two combat feats at the same time. She may use one of these feats to meet a prerequisite of the second feat. Maintaining two feats in this way requires spending 2 rounds of bardic performance every round.",
 			"",
@@ -1018,7 +1018,7 @@
 		"description": [
 			"## Faith Singer",
 			"",
-			"**Source** [Healer's Handbook pg. 19](source:Healer's_Handbook)   ",
+			"**Source** [Healer's Handbook pg. 19](source:healer's_handbook)   ",
 			"Faith singers show their faith in their deity with songs or other appropriate performances.",
 			"",
 			"**Faithful:** Like a cleric, a faith singer must worship a deity, and his alignment must be within one step of his deity's alignment.",
@@ -1069,7 +1069,7 @@
 			"| 14th | 8,000 gp | 50,000 gp  |",
 			"| 18th | 32,000 gp | 200,000 gp |",
 			"",
-			"**Summon Fey Allies:** At 3rd level, the fey courtier gains [Augment Summoning](feat:Augment_Summoning) as a bonus feat and can call upon natural allies who owe him favors. He adds [summon nature's ally I](spell:summon_nature's_ally_1) to his list of 1st-level bard spells known. Whenever he gains access to another spell level, he adds the next-higher [summon nature's ally](spell:summon_nature's_ally) spell to his list of bard spells known. The fey courtier adds the following creatures to the summon nature's ally list: 1st-[grimple (gremlin)](monster:grimple_(gremlin)), [mite](monster:mite), [sprite](monster:sprite); 2nd-[atomie](monster:atomie), [fuath (gremlin)](monster:fuath_(gremlin)), [nixie](monster:nixie); 3rd-[leprechaun](monster:leprechaun), [nuglub (gremlin)](monster:nuglub_(gremlin)), [pooka](monster:pooka); 4th-[kelpie](monster:kelpie), [korred](monster:korred), [twigjack](monster:twigjack); 5th-[lampad](monster:lampad), [lurker in light](monster:lurker_in_light), [swan maiden](monster:swan_maiden); 6th-[cold rider](monster:cold_rider), [oceanid](monster:oceanid), [sangoi](monster:sangoi).",
+			"**Summon Fey Allies:** At 3rd level, the fey courtier gains [Augment Summoning](feat:augment_summoning) as a bonus feat and can call upon natural allies who owe him favors. He adds [summon nature's ally I](spell:summon_nature's_ally_1) to his list of 1st-level bard spells known. Whenever he gains access to another spell level, he adds the next-higher [summon nature's ally](spell:summon_nature's_ally) spell to his list of bard spells known. The fey courtier adds the following creatures to the summon nature's ally list: 1st-[grimple (gremlin)](monster:grimple_gremlin), [mite](monster:mite), [sprite](monster:sprite); 2nd-[atomie](monster:atomie), [fuath (gremlin)](monster:fuath_gremlin), [nixie](monster:nixie); 3rd-[leprechaun](monster:leprechaun), [nuglub (gremlin)](monster:nuglub_gremlin), [pooka](monster:pooka); 4th-[kelpie](monster:kelpie), [korred](monster:korred), [twigjack](monster:twigjack); 5th-[lampad](monster:lampad), [lurker in light](monster:lurker_in_light), [swan maiden](monster:swan_maiden); 6th-[cold rider](monster:cold_rider), [oceanid](monster:oceanid), [sangoi](monster:sangoi).",
 			"",
 			"This replaces inspire competence."
 		]
@@ -1091,7 +1091,7 @@
 		"description": [
 			"## Fey Prankster",
 			"",
-			"**Source** [Legacy of the First World pg. 20](source:Legacy_of_the_First_World)   ",
+			"**Source** [Legacy of the First World pg. 20](source:legacy_of_the_first_world)   ",
 			"Sly and mischievous like the Lantern King himself, fey pranksters learn supernatural tricks that can cause their victims to suffer mishaps and accidents.",
 			"",
 			"**Mischievous Talent (Ex):** A fey prankster adds half her class level (minimum 1) on Bluff, Disguise, Sleight of Hand, and Stealth skill checks, and can attempt Sleight of Hand checks untrained.",
@@ -1112,7 +1112,7 @@
 			"",
 			"This ability replaces dirge of doom.",
 			"",
-			"**Dirty Trickster (Ex):** At 2nd level, a fey prankster gains [Improved Dirty Trick](feat:Improved_Dirty_Trick) as a bonus feat and counts as having [Combat Expertise](feat:Combat_Expertise) for the purpose of meeting the prerequisites of feats that have [Improved Dirty Trick](spell:Improved_Dirty_Trick) as a prerequisite.",
+			"**Dirty Trickster (Ex):** At 2nd level, a fey prankster gains [Improved Dirty Trick](feat:improved_dirty_trick) as a bonus feat and counts as having [Combat Expertise](feat:combat_expertise) for the purpose of meeting the prerequisites of feats that have [Improved Dirty Trick](spell:improved_dirty_trick) as a prerequisite.",
 			"",
 			"This ability replaces well-versed.",
 			"",
@@ -1139,7 +1139,7 @@
 		"description": [
 			"## Filidh",
 			"",
-			"**Source** [Ultimate Wilderness pg. 40](source:Ultimate_Wilderness)   ",
+			"**Source** [Ultimate Wilderness pg. 40](source:ultimate_wilderness)   ",
 			"By tapping into the world's natural music, specialized bards known as filidhs are able to see not only the tapestry of life but divine portents of the future from the rhythm of all life's song.",
 			"",
 			"**Armor and Weapon Proficiency:** A filidh is proficient with light armor and is prohibited from wearing metal armor. A filidh can wear wooden armor that has been altered by the ironwood spell. Filidhs are proficient with shields (except tower shields) but can use only those made of wood.",
@@ -1193,7 +1193,7 @@
 		"description": [
 			"## First World Minstrel",
 			"",
-			"**Source** [Legacy of the First World pg. 11](source:Legacy_of_the_First_World)   ",
+			"**Source** [Legacy of the First World pg. 11](source:legacy_of_the_first_world)   ",
 			"Most cultures tell stories of people stolen away by the fey, only to return years later, forever changed. The First World minstrel was changed in such a way by the fey, and his performances channel the mysterious powers of the First World.",
 			"",
 			"**Fey Magic:** A First World minstrel adds [summon nature's ally](spell:summon_nature's_ally) spells to his spell list instead of the equivalent [summon monster](spell:summon_monster) spells.",
@@ -1234,7 +1234,7 @@
 		"description": [
 			"## Flame Dancer",
 			"",
-			"**Source** [Advanced Class Guide pg. 81](source:Advanced_Class_Guide)   ",
+			"**Source** [Advanced Class Guide pg. 81](source:advanced_class_guide)   ",
 			"A flame dancer studies the movements of fire, adding its grace to his repertoire. He seeks truth in fire's burning essence, and uses his performance to unleash the power of fire against those who dare oppose him.",
 			"",
 			"**Bardic Performance:** A flame dancer gains the following bardic performances.",
@@ -1263,10 +1263,10 @@
 		"description": [
 			"## Flamesinger",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 5](source:Elemental_Master's_Handbook)   ",
+			"**Source** [Elemental Master's Handbook pg. 5](source:elemental_master's_handbook)   ",
 			"The flamesinger finds inspiration in the mesmerizing beauty of fire. While the flamesinger's tradition originated among the varied peoples of the Padishah Empire of Kelesh, it long ago spread to Qadira and from there throughout the Inner Sea region.",
 			"",
-			"**Fire Music:** A flamesinger gains [Fire Music](feat:Fire_Music) as a bonus feat at 1st level (without needing the meet the normal prerequisites). At 4th level (when she gains access to 2nd-level spells), she adds [summon monster I](spell:summon_monster_1) and [summon monster II](spell:summon_monster_2) to her bard spells known; every 3 levels thereafter she gains the next level of [summon monster](spell:summon_monster), until she adds [summon monster VI](spell:summon_monster_6) to her spells known at 16th level. The flamesinger must apply the [Fire Music](feat:Fire_Music) feat's effect when casting these spells.",
+			"**Fire Music:** A flamesinger gains [Fire Music](feat:fire_music) as a bonus feat at 1st level (without needing the meet the normal prerequisites). At 4th level (when she gains access to 2nd-level spells), she adds [summon monster I](spell:summon_monster_1) and [summon monster II](spell:summon_monster_2) to her bard spells known; every 3 levels thereafter she gains the next level of [summon monster](spell:summon_monster), until she adds [summon monster VI](spell:summon_monster_6) to her spells known at 16th level. The flamesinger must apply the [Fire Music](feat:fire_music) feat's effect when casting these spells.",
 			"",
 			"This ability replaces bardic knowledge and lore master.",
 			"",
@@ -1345,7 +1345,7 @@
 		"description": [
 			"## Geisha",
 			"",
-			"**Source** [Ultimate Magic pg. 27](source:Ultimate_Magic)   ",
+			"**Source** [Ultimate Magic pg. 27](source:ultimate_magic)   ",
 			"In some cultures, the professional entertainer is a prestigious role. Specially trained entertainers called geisha are praised for their appearance and skill at conversation, music, dancing, singing, poetry, and calligraphy. A geisha provides social intimacy and status but not physical intimacy.",
 			"",
 			"**Weapon and Armor Proficiency:** Geisha are proficient in all simple weapons and one monk weapon. Geisha are not proficient in any armor or shield; unlike bards, geisha are subject to arcane spell failure even when casting in light armor or when using a shield. This replaces the normal bard armor and weapon proficiencies.",
@@ -1371,7 +1371,7 @@
 		"description": [
 			"## Hatharat Agent",
 			"",
-			"**Source** [Qadira, Jewel of the East pg. 47](source:Qadira,_Jewel_of_the_East)   ",
+			"**Source** [Qadira, Jewel of the East pg. 47](source:qadira,_jewel_of_the_east)   ",
 			"Although the Hatharat employs all manner of specialists, bards who take up the role of agent are among its most infamous and widespread.",
 			"",
 			"**Called Favor (Ex):** At 1st level, a Hatharat agent can use his contacts to ask for a favor from various individuals who have benefited from Hatharat aid in the past. The agent must spend 1d4 hours in an urban area with a population of at least 200 people to use this ability, and must succeed at a DC 20 Diplomacy check to secure the favor. Once an attempt to call in a favor has been made, whether or not the Diplomacy check was successful, the Hatharat agent must wait 2d6 days before attempting to call in a new favor, so as to not overtax the favors owed the society as a whole.",
@@ -1414,7 +1414,7 @@
 		"description": [
 			"## Hoaxer",
 			"",
-			"**Source** [Black Markets pg. 29](source:Black_Markets)   ",
+			"**Source** [Black Markets pg. 29](source:black_markets)   ",
 			"Hoaxers specialize in creating valuable-looking counterfeits and infusing these false treasures with dangerous magic to make their marks more vulnerable to future swindles.",
 			"",
 			"**Counterfeiter (Ex):** A hoaxer adds half his bard level (minimum 1) on all Appraise, Bluff, and Sleight of Hand checks, as well as on Craft, Knowledge, Linguistics, Perception, and Profession checks to create or detect a counterfeit or forgery. He can attempt such skill checks untrained. This ability replaces bardic knowledge.",
@@ -1458,7 +1458,7 @@
 		"description": [
 			"## Impervious Messenger",
 			"",
-			"**Source** [Ultimate Intrigue pg. 20](source:Ultimate_Intrigue)   ",
+			"**Source** [Ultimate Intrigue pg. 20](source:ultimate_intrigue)   ",
 			"The impervious messenger is capable of harnessing the unique qualities of bardic magic to keep, transport, and communicate the most precious of secrets and messages, even when subject to the most vigorous forms of observation, be they magical or mundane.",
 			"",
 			"**Bardic Performance (Su):** An impervious messenger gains the following types of bardic performances.",
@@ -1497,14 +1497,14 @@
 		"description": [
 			"## Juggler",
 			"",
-			"**Source** [Ranged Tactics Toolbox pg. 7](source:Ranged_Tactics_Toolbox)   ",
+			"**Source** [Ranged Tactics Toolbox pg. 7](source:ranged_tactics_toolbox)   ",
 			"Jugglers are masters of manipulating objects, most famously by keeping multiple objects in the air simultaneously. They often incorporate this talent into acting, comedy, or dance. Adventuring jugglers find their abilities translate well into the use of thrown weapons.",
 			"",
 			"**Weapon and Armor Proficiencies:** A juggler is proficient with all simple weapons, plus martial thrown weapons. This replaces his normal weapon proficiencies. A juggler is not proficient with shields.",
 			"",
-			"**Fast Reactions (Ex):** At 1st level, a juggler gains [Deflect Arrows](feat:Deflect_Arrows) as a bonus feat. At 5th level, he gains [Snatch Arrows](feat:Snatch_Arrows) as a bonus feat. The juggler doesn't need to meet the prerequisites for these feats. The juggler can use the ability granted by these feats an additional time each round at 11th level (with a -5 penalty on his second attack roll) and at 17th level (with a -10 penalty on his third attack roll). This ability replaces bardic knowledge and lore master.",
+			"**Fast Reactions (Ex):** At 1st level, a juggler gains [Deflect Arrows](feat:deflect_arrows) as a bonus feat. At 5th level, he gains [Snatch Arrows](feat:snatch_arrows) as a bonus feat. The juggler doesn't need to meet the prerequisites for these feats. The juggler can use the ability granted by these feats an additional time each round at 11th level (with a -5 penalty on his second attack roll) and at 17th level (with a -10 penalty on his third attack roll). This ability replaces bardic knowledge and lore master.",
 			"",
-			"**Combat Juggling (Ex):** At 2nd level, a juggler can hold and wield (in other words, \"juggle\") up to three items or weapons in his hands. The juggler must be able to hold and wield an object in one hand in order to juggle it. This ability doesn't grant the juggler additional attacks, though it does allow him to use different weapons as part of a full attack. As long as he is juggling fewer than three objects, the juggler is considered to have a free hand (for the purposes of drawing a weapon, using somatic components, using [Deflect Arrows](feat:Deflect_Arrows), and so on). At 6th level and every 4 levels thereafter, the maximum number of objects the juggler can juggle increases by one, to a maximum of seven objects at 18th level.",
+			"**Combat Juggling (Ex):** At 2nd level, a juggler can hold and wield (in other words, \"juggle\") up to three items or weapons in his hands. The juggler must be able to hold and wield an object in one hand in order to juggle it. This ability doesn't grant the juggler additional attacks, though it does allow him to use different weapons as part of a full attack. As long as he is juggling fewer than three objects, the juggler is considered to have a free hand (for the purposes of drawing a weapon, using somatic components, using [Deflect Arrows](feat:deflect_arrows), and so on). At 6th level and every 4 levels thereafter, the maximum number of objects the juggler can juggle increases by one, to a maximum of seven objects at 18th level.",
 			"",
 			"If the juggler is affected by any action or condition that would require a concentration check while he is juggling, he must attempt a Sleight of Hand check to continue juggling and avoid losing concentration. The check's DC is the same as a concentration check, treating the spell level as twice the number of objects being juggled. If the juggler fails his Sleight of Hand check, he drops all juggled objects but one, determined randomly. This ability replaces versatile performance.",
 			"",
@@ -1526,7 +1526,7 @@
 		"description": [
 			"## Lotus Geisha",
 			"",
-			"**Source** [Dragon Empires Primer pg. 22](source:Dragon_Empires_Primer)   ",
+			"**Source** [Dragon Empires Primer pg. 22](source:dragon_empires_primer)   ",
 			"The lotus geisha of Minkai are renowned for their powers of seduction, and tales tell of lotus geisha disarming foes and bolstering allies. The lotus geisha is an archetype of the bard class.",
 			"",
 			"**Weapon Proficiency:** A lotus geisha is proficient with all simple weapons, plus the butterfly sword, fighting fan, iron brush, sai, shortbow, and shuriken. This replaces the normal bard weapon proficiencies.",
@@ -1539,7 +1539,7 @@
 			"",
 			"This ability replaces well-versed.",
 			"",
-			"**Bonus Feats:** At 1st level, a lotus geisha gains [Spell Focus (enchantment)](feat:Spell_Focus_(enchantment)) as a bonus feat. At 5th level, she gains [Greater Spell Focus (enchantment)](feat:Greater_Spell_Focus_(enchantment)) as a bonus feat. These bonus feats replace bardic knowledge and lore master."
+			"**Bonus Feats:** At 1st level, a lotus geisha gains [Spell Focus (enchantment)](feat:spell_focus) as a bonus feat. At 5th level, she gains [Greater Spell Focus (enchantment)](feat:greater_spell_focus) as a bonus feat. These bonus feats replace bardic knowledge and lore master."
 		]
 	},
 	{
@@ -1558,7 +1558,7 @@
 		"description": [
 			"## Luring Piper",
 			"",
-			"**Source** [Monster Hunter's Handbook pg. 11](source:Monster_Hunter's_Handbook)   ",
+			"**Source** [Monster Hunter's Handbook pg. 11](source:monster_hunter's_handbook)   ",
 			"Some bards have an exceptional ability to use their musical performances to entrance the world's wilder creatures. These performers are so focused that they create melodies capable of leading animals and fey to their unwilling death.",
 			"",
 			"**Class Skills:** A luring piper gains Survival as a class skill.",
@@ -1612,7 +1612,7 @@
 		"description": [
 			"## Magician",
 			"",
-			"**Source** [Advanced Player's Guide pg. 82](source:Advanced_Player's_Guide)   ",
+			"**Source** [Advanced Player's Guide pg. 82](source:advanced_player's_guide)   ",
 			"A magician dabbles in performance, but sees it as a means to tap into universal energies and channel them.",
 			"",
 			"**Bardic Performance:** A magician gains the following types of bardic performance.",
@@ -1625,7 +1625,7 @@
 			"",
 			"**Magical Talent (Ex):** A magician gains a bonus equal to half his level on Knowledge (arcana), Spellcraft, and Use Magic Device checks. This ability replaces bardic knowledge.",
 			"",
-			"**Improved Counterspell:** A magician gains [Improved Counterspell](feat:Improved_Counterspell) as a bonus feat. This ability replaces countersong.",
+			"**Improved Counterspell:** A magician gains [Improved Counterspell](feat:improved_counterspell) as a bonus feat. This ability replaces countersong.",
 			"",
 			"**Extended Performance (Su):** At 2nd level, a magician can extend the duration of bardic performance after he stops concentrating by sacrificing a spell slot as a swift action. The performance effect lingers for 1 extra round per level of the spell. Only one spell may be sacrificed per performance, and performance types that take affect after a specific number of rounds cannot be extended. This ability replaces well-versed.",
 			"",
@@ -1654,7 +1654,7 @@
 		"description": [
 			"## Masked Performer",
 			"",
-			"**Source** [Ultimate Intrigue pg. 20](source:Ultimate_Intrigue)   ",
+			"**Source** [Ultimate Intrigue pg. 20](source:ultimate_intrigue)   ",
 			"Not merely a entertainer in a disguise, the masked performer takes on the persona represented by the likeness she wears. Her alter ego might be a theatrical archetype, a legendary hero, or a revered spirit. Masked performers are often the stars of religious plays and festivals, and aficionados easily recognize them and associate them with their most famous role.",
 			"",
 			"**Dual Identity (Ex):** This ability acts as the [vigilante ability of the same name](class:vigilante_ability_of_the_same_name), except as follows. The masked performer's identities are referred to as social and masked, rather than social and vigilante.",
@@ -1673,7 +1673,7 @@
 			"",
 			"This ability replaces inspire competence.",
 			"",
-			"**Stage Combat (Su):** At 6th level, a masked performer gains the benefit of a [combat feat](unknown:combat_feat) she doesn't have as long as she maintains this performance. The masked performer chooses the feat when she starts this performance. The masked performer must meet all the feat's prerequisites. As usual when temporarily gaining a feat, if the feat she chooses has any limitations on uses, such as [Stunning Fist](feat:Stunning_Fist)'s daily uses, all uses of that combat feat while maintaining stage combat count toward that feat's limit. In the case of Stunning Fist, if the masked performer gained that feat again later the same day, the expended uses would remain expended. Stage combat relies on visual components.",
+			"**Stage Combat (Su):** At 6th level, a masked performer gains the benefit of a [combat feat](unknown:combat_feat) she doesn't have as long as she maintains this performance. The masked performer chooses the feat when she starts this performance. The masked performer must meet all the feat's prerequisites. As usual when temporarily gaining a feat, if the feat she chooses has any limitations on uses, such as [Stunning Fist](feat:stunning_fist)'s daily uses, all uses of that combat feat while maintaining stage combat count toward that feat's limit. In the case of Stunning Fist, if the masked performer gained that feat again later the same day, the expended uses would remain expended. Stage combat relies on visual components.",
 			"",
 			"This ability replaces suggestion.",
 			"",
@@ -1685,7 +1685,7 @@
 			"",
 			"This ability replaces versatile performance.",
 			"",
-			"**Masked Talents:** At 5th level, a masked performer gains a [rogue talent](unknown:rogue_talent) from the following list: expert leaper, fast stealth, ledge walker, rogue crawl, rope master, stand up, and wall scramble. At 17th level, a masked performer can choose any of the above talents or an advanced talent from the following list: defensive roll, fast tumble, hide in plain sight, and skill mastery. This ability does not qualify her for the [Extra Rogue Talent](feat:Extra_Rogue_Talent) feat.",
+			"**Masked Talents:** At 5th level, a masked performer gains a [rogue talent](unknown:rogue_talent) from the following list: expert leaper, fast stealth, ledge walker, rogue crawl, rope master, stand up, and wall scramble. At 17th level, a masked performer can choose any of the above talents or an advanced talent from the following list: defensive roll, fast tumble, hide in plain sight, and skill mastery. This ability does not qualify her for the [Extra Rogue Talent](feat:extra_rogue_talent) feat.",
 			"",
 			"This ability replaces lore master."
 		]
@@ -1709,12 +1709,12 @@
 		"description": [
 			"## Mute Musician",
 			"",
-			"**Source** [Horror Realms pg. 9](source:Horror_Realms)   ",
+			"**Source** [Horror Realms pg. 9](source:horror_realms)   ",
 			"A mute musician forswears speech for the unnatural songs and thunderous silences of the depths of space. She learns to blend light and sound in seemingly impossible ways. Some mute musicians look to the darker aspects of Desna as their inspiration for these performances, but most mute musicians find their muse in the alien sounds of the Elder Mythos and the entities that orbit the blind idiot god Azathoth, who floats in the heart of the Dark Tapestry.",
 			"",
 			"**Mute (Ex):** A mute musician has a disability or injury (possibly self-inflicted or even psychological) that prevents her from speaking or vocalizing. Language-dependent effects (including Perform [oratory]) require the bard to be able to use telepathy, nonverbal languages, or writing to communicate. She cannot use Perform (sing) or speak languages, though she can still create audible bardic performances by means of a musical instrument. A mute musician can provide verbal and somatic components for spells she casts via any musical instrument in which she has ranks in the appropriate Perform skill.",
 			"",
-			"**Eschew Materials (Ex):** A mute musician gains [Eschew Materials](feat:Eschew_Materials) as a bonus feat at 1st level.",
+			"**Eschew Materials (Ex):** A mute musician gains [Eschew Materials](feat:eschew_materials) as a bonus feat at 1st level.",
 			"",
 			"This ability replaces bardic knowledge.",
 			"",
@@ -1766,7 +1766,7 @@
 		"description": [
 			"## Negotiator",
 			"",
-			"**Source** [Champions of Balance pg. 18](source:Champions_of_Balance)   ",
+			"**Source** [Champions of Balance pg. 18](source:champions_of_balance)   ",
 			"Bards are experts at manipulating the emotions and perceptions of others. Negotiators are those bards who take the skills of a performer and apply them to the realms of business and law.",
 			"",
 			"**Hard Bargainer:** A negotiator adds half his class level (minimum 1) on Bluff, Diplomacy, Intimidate, Knowledge (local), and Sense Motive checks. This ability replaces bardic knowledge.",
@@ -1803,14 +1803,14 @@
 		"description": [
 			"## Phrenologist",
 			"",
-			"**Source** [Occult Adventures pg. 114](source:Occult_Adventures)   ",
+			"**Source** [Occult Adventures pg. 114](source:occult_adventures)   ",
 			"The phrenologist is an expert at reading creatures' skulls, and he learns to use this knowledge to his benefit.",
 			"",
-			"**Phrenological Knowledge (Ex):** A phrenologist is an expert at reading creatures' skulls. He gains [Psychic Sensitivity](feat:Psychic_Sensitivity) as a bonus feat, and he can use the phrenology skill unlock even if he is untrained in [Knowledge (arcana)](skill:Knowledge_arcana). He adds half his class level (minimum 1) on all Knowledge (arcana) checks for the phrenology occult skill unlock. This ability replaces bardic knowledge.",
+			"**Phrenological Knowledge (Ex):** A phrenologist is an expert at reading creatures' skulls. He gains [Psychic Sensitivity](feat:psychic_sensitivity) as a bonus feat, and he can use the phrenology skill unlock even if he is untrained in [Knowledge (arcana)](skill:knowledge_arcana). He adds half his class level (minimum 1) on all Knowledge (arcana) checks for the phrenology occult skill unlock. This ability replaces bardic knowledge.",
 			"",
 			"**Skull-Versed (Ex):** Starting at 2nd level, a phrenologist can use knowledge gleaned from a creature's skull to tailor a performance. All creatures on which the phrenologist has successfully used his phrenology skill unlock take a -2 penalty on all saving throws against the phrenologist's bardic performances. This ability replaces well-versed.",
 			"",
-			"**Phrenological Savant:** At 10th level, a phrenologist gains either [Psychic Maestro](feat:Psychic_Maestro) or [Psychic Virtuoso](feat:Psychic_Virtuoso) as a bonus feat. If he chooses [Psychic Maestro](feat:Psychic_Maestro), he must select phrenology as one of his two skill unlocks to use an additional time. This ability replaces jack-of-all-trades.",
+			"**Phrenological Savant:** At 10th level, a phrenologist gains either [Psychic Maestro](feat:psychic_maestro) or [Psychic Virtuoso](feat:psychic_virtuoso) as a bonus feat. If he chooses [Psychic Maestro](feat:psychic_maestro), he must select phrenology as one of his two skill unlocks to use an additional time. This ability replaces jack-of-all-trades.",
 			"",
 			"**Bardic Performance:** A phrenologist gains the following types of bardic performance.",
 			"",
@@ -1831,10 +1831,10 @@
 		"description": [
 			"## Pitax: Academy of Grand Arts",
 			"",
-			"**Source** [Guide to the River Kingdoms pg. 40](source:Guide_to_the_River_Kingdoms)   ",
+			"**Source** [Guide to the River Kingdoms pg. 40](source:guide_to_the_river_kingdoms)   ",
 			"Bards who have successfully mastered the strict curriculum of Pitax's Academy of Grand Arts to graduate are more adept in their assigned field of performance, at the expense of versatility in other areas. Such bards have the focused performance alternate class ability, which replaces versatile performance.",
 			"",
-			"**Focused Performance (Ex):** At 2nd level, a bard must choose one type of Perform skill. The bard gains [Extra Performance](feat:Extra_Performance) as a bonus feat, usable only with the chosen category of the Perform skill. At 8th level, and every 6 levels thereafter, the bard gains Extra Performance as an additional bonus feat. The additional uses of bardic performance gained from these feats cannot be used with any category of the Performance skill other than the one chosen at 2nd level."
+			"**Focused Performance (Ex):** At 2nd level, a bard must choose one type of Perform skill. The bard gains [Extra Performance](feat:extra_performance) as a bonus feat, usable only with the chosen category of the Perform skill. At 8th level, and every 6 levels thereafter, the bard gains Extra Performance as an additional bonus feat. The additional uses of bardic performance gained from these feats cannot be used with any category of the Performance skill other than the one chosen at 2nd level."
 		]
 	},
 	{
@@ -1852,7 +1852,7 @@
 		"description": [
 			"## Plant Speaker",
 			"",
-			"**Source** [Ultimate Wilderness pg. 22](source:Ultimate_Wilderness)   ",
+			"**Source** [Ultimate Wilderness pg. 22](source:ultimate_wilderness)   ",
 			"Plant speakers build upon their racial [plantspeech](race:plantspeech) ability and their storytelling tendencies to create an art form full of deep metaphors and allegory rather than specific details and facts.",
 			"",
 			"**Bardic Performance:** Plant speakers gain the following bardic performance.",
@@ -1885,7 +1885,7 @@
 		"description": [
 			"## Prankster",
 			"",
-			"**Source** [Advanced Race Guide pg. 35](source:Advanced_Race_Guide)   ",
+			"**Source** [Advanced Race Guide pg. 35](source:advanced_race_guide)   ",
 			"The prankster sees humor as the highest form or art, and pranks as the highest form of humor. In addition to setting friends up for light-hearted pranks, the prankster can use his quick wit and cruel sense of humor to enrage foes before incapacitating them with a clever turn of phrase.",
 			"",
 			"**Bardic Performance:** A prankster's bardic performance functions like a bard's, but some of its performances are exchanged for those listed below.",
@@ -1920,7 +1920,7 @@
 		"description": [
 			"## Provocateur",
 			"",
-			"**Source** [Inner Sea Intrigue pg. 45](source:Inner_Sea_Intrigue)   ",
+			"**Source** [Inner Sea Intrigue pg. 45](source:inner_sea_intrigue)   ",
 			"Provocateurs are bards who use their art to make controversial political statements, undermine enemies' reputations, and upset the status quo on a large scale. They can be found most often in areas of political unrest such as the unruly Chelish city of Kintargo, throughout rebellion-fraught Galt, and among the backstabbing upper classes of Absalom, Brevoy, and Taldor.",
 			"",
 			"**Provocateur (Ex):** A provocateur adds 1/2 his bard level on skill checks to reduce a target's influence (Ultimate Intrigue 102) and on skill checks to reduce a target's attitude toward another creature or organization.",
@@ -1955,7 +1955,7 @@
 		"description": [
 			"## Ringleader (AG)",
 			"",
-			"**Source** [Adventurer's Guide pg. 33](source:Adventurer's_Guide)   ",
+			"**Source** [Adventurer's Guide pg. 33](source:adventurer's_guide)   ",
 			"The Aspis Consortium's global operations are too extensive to conduct without relying on contractors and hirelings. Ringleaders are specialists who oversee large operations in which trouble could strike at any moment and any place.",
 			"",
 			"**Cunning Plan (Su):** By spending 1 minute laying out a plan, a ringleader can impart inspiring instructions to a number of allies equal to her bard level + her Charisma bonus. Upon concluding the plan, the ringleader chooses one of her bardic performances and expends a number of rounds of bardic performance equal to up to double her bard level. Thereafter, as a move action, the ringleader or any of the instructed allies can trigger the implanted instructions, causing that creature to immediately gain the benefits of the ringleader's implanted bardic performance (each creature can trigger the instructions for itself separately). This effect lasts for a number of rounds equal to the rounds of bardic performance the ringleader expended while creating the plan, though the effect also ends if the ringleader dismisses it as a free action or activates a different plan or bardic performance. For the purpose of this ability, the ringleader attempts any skill checks associated with the bardic performance once a creature triggers the plan. A ringleader's cunning plans all expire each time she regains her daily spell slots or after 24 hours (whichever comes first).",
@@ -1968,7 +1968,7 @@
 			"",
 			"This ability replaces well-versed.",
 			"",
-			"**Sinister Mien (Ex):** At 2nd level, a ringleader can use her Intimidate bonus in place of her Perform bonus when using her bardic performance class ability. When the ringleader uses Intimidate to improve a creature's attitude, the creature's attitude remains friendly for 10 additional minutes per point by which the ringleader exceeded the check's DC. At 6th level, the ringleader gains [Dazzling Display](feat:Dazzling_Display) as a bonus feat and does not need a weapon in her hand to use the feat. At 10th level, the ringleader can activate [Dazzling Display](feat:Dazzling_Display) as a standard action. At 14th level, she can affect all enemies within 60 feet with Dazzling Display. At 18th level, the range increases to 120 feet.",
+			"**Sinister Mien (Ex):** At 2nd level, a ringleader can use her Intimidate bonus in place of her Perform bonus when using her bardic performance class ability. When the ringleader uses Intimidate to improve a creature's attitude, the creature's attitude remains friendly for 10 additional minutes per point by which the ringleader exceeded the check's DC. At 6th level, the ringleader gains [Dazzling Display](feat:dazzling_display) as a bonus feat and does not need a weapon in her hand to use the feat. At 10th level, the ringleader can activate [Dazzling Display](feat:dazzling_display) as a standard action. At 14th level, she can affect all enemies within 60 feet with Dazzling Display. At 18th level, the range increases to 120 feet.",
 			"",
 			"This ability replaces versatile performance.",
 			"",
@@ -1994,7 +1994,7 @@
 		"description": [
 			"## Ringleader (UI)",
 			"",
-			"**Source** [Ultimate Intrigue pg. 21](source:Ultimate_Intrigue)   ",
+			"**Source** [Ultimate Intrigue pg. 21](source:ultimate_intrigue)   ",
 			"Ringleaders are adept in getting the most out of their allies, and they excel at planning for unexpected complications in advance. Often the masterminds behind elaborate heists and infiltrations, ringleaders use their organizational abilities to make sure the plan goes without a hitch, even when the team is split up and unable to communicate with each other on the spot.",
 			"",
 			"**Bardic Performance:** A ringleader gains an altered version of inspire competence that grants greater effects at higher levels.",
@@ -2045,7 +2045,7 @@
 		"description": [
 			"## Sandman",
 			"",
-			"**Source** [Advanced Player's Guide pg. 82](source:Advanced_Player's_Guide)   ",
+			"**Source** [Advanced Player's Guide pg. 82](source:advanced_player's_guide)   ",
 			"Combining performance with stealth, trickery, and guile, the sandman uses cleverness to keep others off-balance.",
 			"",
 			"**Bardic Performance:** A sandman gains the following types of bardic performance.",
@@ -2087,7 +2087,7 @@
 		"description": [
 			"## Savage Skald",
 			"",
-			"**Source** [Advanced Player's Guide pg. 84](source:Advanced_Player's_Guide)   ",
+			"**Source** [Advanced Player's Guide pg. 84](source:advanced_player's_guide)   ",
 			"Far from civilization, furious tribes have their own war-singers, work-chanters, and lore-keepers, savaging enemies with song and sword alike.",
 			"",
 			"**Bardic Performance:** A savage skald gains the following types of bardic performance.",
@@ -2096,7 +2096,7 @@
 			"",
 			"**Incite Rage (Su):** At 6th level, a savage skald can induce a furious rage in one creature within 30 feet. This effect functions as a [rage](spell:rage) spell that lasts as long as the target can hear the bard's performance; however, unwilling creatures can be affected if they fail a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier). Success renders the target immune to this power for 24 hours. The bard cannot target himself with this ability. If the target has the rage class feature, it can instead immediately rage and stay in this rage without consuming rounds of rage per day as long as the bard continues performing. This mind-affecting effect requires audible components. This performance replaces suggestion.",
 			"",
-			"**Song of the Fallen (Sp):** At 10th level, a savage skald can duplicate the effect of a [horn of Valhalla](magic/wondrous:horn_of_Valhalla). This effect requires 10 continuous rounds of performance and summons barbarians as a silver horn at 10th level, as a brass horn at 13th level, as a bronze horn at 16th level, and as an iron horn at 19th level. The warriors remain only as long as the bard continues his performance. This ability requires audible components. This performance replaces jack of all trades.",
+			"**Song of the Fallen (Sp):** At 10th level, a savage skald can duplicate the effect of a [horn of Valhalla](magic/wondrous:horn_of_valhalla). This effect requires 10 continuous rounds of performance and summons barbarians as a silver horn at 10th level, as a brass horn at 13th level, as a bronze horn at 16th level, and as an iron horn at 19th level. The warriors remain only as long as the bard continues his performance. This ability requires audible components. This performance replaces jack of all trades.",
 			"",
 			"**Berserkergang (Ex):** At 12th level, a savage skald can inspire a rapturous battle trance that suppresses pain, stunning, and fear effects for one creature, plus one additional creature per three levels after 12th. Affected creatures also gain DR 5/- (DR 10/- against nonlethal damage); this benefit stacks with the damage reduction class ability of barbarians. This mind-affecting ability requires audible components. This performance replaces soothing performance.",
 			"",
@@ -2121,7 +2121,7 @@
 		"description": [
 			"## Sea Singer",
 			"",
-			"**Source** [Advanced Player's Guide pg. 84](source:Advanced_Player's_Guide)   ",
+			"**Source** [Advanced Player's Guide pg. 84](source:advanced_player's_guide)   ",
 			"The sea singer calls the blue waters his home, and is much in demand among sea captains wishing good fortune for their crew and hull as they ply the tradewinds far and wide.",
 			"",
 			"**Bardic Performance:** A sea singer gains the following types of bardic performance.",
@@ -2154,7 +2154,7 @@
 		"description": [
 			"## Shadow Puppeteer",
 			"",
-			"**Source** [Advanced Race Guide pg. 210](source:Advanced_Race_Guide)   ",
+			"**Source** [Advanced Race Guide pg. 210](source:advanced_race_guide)   ",
 			"A shadow puppeteer invokes amazing and terrifying shadow puppet shows, producing supernatural effects by creating and manipulating shadow. A shadow puppeteer has the following class feature.",
 			"",
 			"**Bardic Performance:** A shadow puppeteer gains the following types of bardic performance. The character must be able to perform shadow puppetry in order to activate any of these abilities. Shadow puppetry uses Perform (act), and requires a light source. These abilities replace all levels of inspire courage and inspire competence.",
@@ -2181,7 +2181,7 @@
 		"description": [
 			"## Silver Balladeer",
 			"",
-			"**Source** [Occult Adventures pg. 115](source:Occult_Adventures)   ",
+			"**Source** [Occult Adventures pg. 115](source:occult_adventures)   ",
 			"The bright purity of silver makes beautiful music, and its vibrations are also anathema to unnatural creatures. Some bards use a mixture of silver-stringed instruments and esoteric knowledge to battle the dark forces of the world.",
 			"",
 			"**Alignment:** A silver balladeer must have a good alignment. This ability alters alignment.",
@@ -2216,7 +2216,7 @@
 		"description": [
 			"## Solacer",
 			"",
-			"**Source** [Healer's Handbook pg. 18](source:Healer's_Handbook)   ",
+			"**Source** [Healer's Handbook pg. 18](source:healer's_handbook)   ",
 			"Solacers are experts in the healing arts as well as creators of performances that console the distraught, rally the stricken, raise spirits, and vanquish sorrow.",
 			"",
 			"**Class Skills:** A solacer adds Heal to his list of class skills instead of Appraise.",
@@ -2258,7 +2258,7 @@
 		"description": [
 			"## Songhealer",
 			"",
-			"**Source** [Ultimate Magic pg. 27](source:Ultimate_Magic)   ",
+			"**Source** [Ultimate Magic pg. 27](source:ultimate_magic)   ",
 			"Words can harm, but they also heal. The songhealer brings peace and surcease of pain, calming wild emotions and providing a balm for the wounded body.",
 			"",
 			"**Enhance Healing (Su):** A number of times per day equal to his Charisma modifier, a songhealer can cause any healing effect from a spell completion or spell trigger item to function at a caster level equal to his class level. This ability replaces versatile performance.",
@@ -2285,10 +2285,10 @@
 		"description": [
 			"## Sorrowsoul",
 			"",
-			"**Source** [Ultimate Intrigue pg. 22](source:Ultimate_Intrigue)   ",
+			"**Source** [Ultimate Intrigue pg. 22](source:ultimate_intrigue)   ",
 			"It isn't uncommon for a bard to, on occasion, sing mournful tunes or craft elegies that depict the deepest sadness or the most profound suffering. But while most bards who do so create such performances for fame or wealth, the sorrowsoul has known tragedy and loss on a level so intimate, he has bound it to his soul.",
 			"",
-			"**Lyric Sorrow (Su):** A sorrowsoul draws upon grief, rage, and tragedy to fuel his bardic performances. When a sorrowsoul begins a bardic performance, he can choose to alter its effects with lyric sorrow. If he does so, he uses twice the number of rounds of his bardic performance ability as normal, and even if the sorrowsoul has the [Lingering Performance](feat:Lingering_Performance) feat, the performance's effects do not last for any additional rounds.",
+			"**Lyric Sorrow (Su):** A sorrowsoul draws upon grief, rage, and tragedy to fuel his bardic performances. When a sorrowsoul begins a bardic performance, he can choose to alter its effects with lyric sorrow. If he does so, he uses twice the number of rounds of his bardic performance ability as normal, and even if the sorrowsoul has the [Lingering Performance](feat:lingering_performance) feat, the performance's effects do not last for any additional rounds.",
 			"",
 			"At 1st level, a sorrowsoul can use his lyric sorrow in conjunction with inspire courage. When he chooses to do so, he increases his bonuses on saving throws and on weapon attack and damage rolls from +1 to +2, but his other allies receive no benefit. His bonuses when using lyric sorrow with inspire courage increase by 2 at 5th level and every 6 bard levels thereafter, to a maximum of +8 at 17th level.",
 			"",
@@ -2323,8 +2323,8 @@
 		"description": [
 			"## Sound Striker",
 			"",
-			"**Source** [Ultimate Magic pg. 27](source:Ultimate_Magic)   ",
-			"**Errata [Link](source:**Link)",
+			"**Source** [Ultimate Magic pg. 27](source:ultimate_magic)   ",
+			"**Errata [Link](source:**link)",
 			"",
 			"They say that words can cut deeper than any blade, and the sound striker proves this true. Using music and words as a weapon, he can focus his performances into a deadly delivery.",
 			"",
@@ -2350,10 +2350,10 @@
 		"description": [
 			"## Speaker of the Palatine Eye",
 			"",
-			"**Source** [Heroes of Golarion pg. 8](source:Heroes_of_Golarion)   ",
+			"**Source** [Heroes of Golarion pg. 8](source:heroes_of_golarion)   ",
 			"Working from the shadows of Ustalav's high society, the Esoteric Order of the Palatine Eye is a mystical cult built around the quest for immortality. Founded by a count who claimed to have been enlightened by angels, the Order follows a strict hierarchy, and membership is open only to the elite. The more money a member provides the Order, the more secrets he learns to aid his path toward angelic ascension. More information on the Esoteric Order of the Palatine Eye can be found in Pathfinder Adventure Path #44: Trial of the Beast.",
 			"",
-			"A speaker of the Palatine Eye influences others using his occult knowledge rather than the boisterous enthusiasm of most bards. He must be a worshipper of [Pharasma](faith:Pharasma), but he may worship additional deities as well.",
+			"A speaker of the Palatine Eye influences others using his occult knowledge rather than the boisterous enthusiasm of most bards. He must be a worshipper of [Pharasma](faith:pharasma), but he may worship additional deities as well.",
 			"",
 			"**Angelic Grace (Ex):** Members of the Order of the Palatine Eye carry themselves with the austerity and import their heavenly aspirations demand. A speaker of the Palatine Eye does not have Acrobatics or Escape Artist as class skills, but he gains Celestial as a bonus language. This does not count toward the number of languages he is otherwise able to learn.",
 			"",
@@ -2388,7 +2388,7 @@
 		"description": [
 			"## Stonesinger",
 			"",
-			"**Source** [Heroes of the Darklands pg. 11](source:Heroes_of_the_Darklands)   ",
+			"**Source** [Heroes of the Darklands pg. 11](source:heroes_of_the_darklands)   ",
 			"Once practiced by the dwarves in their Quest for Sky, the traditions of the stonesinger bards changed when the dwarves arrived on the surface. The tradition still hearkens back to its subterranean origins, however, and is practiced as a form of meditation or worship by many dwarves. Stonesingers are rare bards capable of vocalizing their bardic performances through subsonic harmonies, allowing their performances to carry as subtle vibrations through stone, rather than through the air. They command considerable power underground.",
 			"",
 			"**Earth Magic:** A stonesinger is treated as having the Eschew Materials feat so long as he is touching natural or manufactured stone. Additionally, a stonesinger adds the following spells to the bard spell list at the listed level: 1-[magic stone](spell:magic_stone), 2-[stone shield](spell:stone_shield), 3-[stone shape](spell:stone_shape), 4-[earth glide](spell:earth_glide), 5-[stoneskin](spell:stoneskin), 6-[stone tell](spell:stone_tell).",
@@ -2426,7 +2426,7 @@
 		"description": [
 			"## Street Performer",
 			"",
-			"**Source** [Advanced Player's Guide pg. 85](source:Advanced_Player's_Guide)   ",
+			"**Source** [Advanced Player's Guide pg. 85](source:advanced_player's_guide)   ",
 			"Whether acrobat, troubadour, or thespian, the street performer mixes with the masses, singing for his supper.",
 			"",
 			"**Bardic Performance:** A street performer gains the following types of bardic performance.",
@@ -2463,10 +2463,10 @@
 		"description": [
 			"## Studious Librarian",
 			"",
-			"**Source** [Inner Sea Intrigue pg. 46](source:Inner_Sea_Intrigue)   ",
+			"**Source** [Inner Sea Intrigue pg. 46](source:inner_sea_intrigue)   ",
 			"Studious librarians are bards that have studied long in great libraries of the Inner Sea region, such as Taldor's Kitharodian Academy in Oppara, Forae Logos and the Pathfinder Society's Skyreach in Absalom, and the Grand Library of Eto in Osirion.",
 			"",
-			"**Scribe Scroll:** A studious librarian gains [Scribe Scroll](feat:Scribe_Scroll) as a bonus feat.",
+			"**Scribe Scroll:** A studious librarian gains [Scribe Scroll](feat:scribe_scroll) as a bonus feat.",
 			"",
 			"This ability replaces distraction.",
 			"",
@@ -2507,7 +2507,7 @@
 		"description": [
 			"## Thundercaller",
 			"",
-			"**Source** [Ultimate Wilderness pg. 41](source:Ultimate_Wilderness), [Varisia, Birthplace of Legends pg. 11](source:Varisia,_Birthplace_of_Legends)   ",
+			"**Source** [Ultimate Wilderness pg. 41](source:ultimate_wilderness), [Varisia, Birthplace of Legends pg. 11](source:varisia,_birthplace_of_legends)   ",
 			"Thundercallers bear the knowledge of the ancients, wielding it like a weapon to protect the land for which they care so deeply. Their voices ring like thunder, calling the sky's wrath down upon their enemies and summoning furious rage to bolster their allies.",
 			"",
 			"**Bound to the Land (Ex):** A thundercaller gains a bonus equal to half her level on Handle Animal checks, Knowledge (nature) checks, and Survival checks.",
@@ -2548,8 +2548,8 @@
 		"description": [
 			"## Voice of Brigh",
 			"",
-			"**Source** [Construct Handbook pg. 14](source:Construct_Handbook)   ",
-			"**The [Whisper in Bronze](faith:**Whisper_in_Bronze) sometimes sends inspiration to her favorite followers in the form of music. These songs hold the notes of creation and unmaking that allow her followers to affect constructs. The bards who learn these songs take on the title of Voice of Brigh and typically play custom-made instruments that are themselves marvels of engineering and invention.",
+			"**Source** [Construct Handbook pg. 14](source:construct_handbook)   ",
+			"**The [Whisper in Bronze](faith:**whisper_in_bronze) sometimes sends inspiration to her favorite followers in the form of music. These songs hold the notes of creation and unmaking that allow her followers to affect constructs. The bards who learn these songs take on the title of Voice of Brigh and typically play custom-made instruments that are themselves marvels of engineering and invention.",
 			"",
 			"**Brigh's Knowledge (Ex):** A bard adds half his class level (minimum 1) as a bonus on Knowledge (arcana), Knowledge (dungeoneering), Knowledge (engineering), and Knowledge (religion) checks and can attempt these skill checks untrained. In addition, a Voice of Brigh can affect constructs with his bardic performance, even if they would normally be immune to or unaffected by his performance.",
 			"",
@@ -2590,7 +2590,7 @@
 		"description": [
 			"## Voice of the Wild",
 			"",
-			"**Source** [Advanced Class Guide pg. 81](source:Advanced_Class_Guide)   ",
+			"**Source** [Advanced Class Guide pg. 81](source:advanced_class_guide)   ",
 			"Most bards are inspired by the art of civilization, yet the voice of the wild's muse is the grandeur and beauty of nature. The voice of the wild has discovered some of nature's magical secrets, and can use his performance to bring out the bestial side in his allies.",
 			"",
 			"**Wild Knowledge (Ex):** At 1st level, a voice of the wild adds 1/2 his level (minimum 1) to all Knowledge (nature) checks. He can use Knowledge (geography) and Knowledge (nature) untrained. This ability replaces bardic knowledge.",
@@ -2615,7 +2615,7 @@
 		"description": [
 			"## Wasteland Chronicler",
 			"",
-			"**Source** [People of the Wastes pg. 25](source:People_of_the_Wastes)   ",
+			"**Source** [People of the Wastes pg. 25](source:people_of_the_wastes)   ",
 			"Some explore the farthest reaches of desolate wastelands, seeking to unlock the mysteries found there and meet the inhabitants of such regions, and chronicle their findings. The wasteland chronicler has discovered a connection to the wastelands and can use his performance to guide himself and others through these regions safely.",
 			"",
 			"**Wasteland Knowledge (Ex):** A wasteland chronicler adds half his level (minimum 1) as a bonus on Knowledge (geography), Knowledge (local), Knowledge (nature), Knowledge (planes), and Survival checks.",
@@ -2645,7 +2645,7 @@
 		"description": [
 			"## Watersinger",
 			"",
-			"**Source** [Advanced Race Guide pg. 176](source:Advanced_Race_Guide)   ",
+			"**Source** [Advanced Race Guide pg. 176](source:advanced_race_guide)   ",
 			"The watersinger's song reaches from the depths of his soul into the elemental waters from which life first sprang. His voice commands water, bending and shaping it to his desire.",
 			"",
 			"**Bardic Performance:** A watersinger has some unique bardic performances, which replace some of the standard bardic performances as listed in each entry. These bardic performances follow all the general rules and restrictions of a bard's bardic performances.",
@@ -2677,7 +2677,7 @@
 		"description": [
 			"## Wit",
 			"",
-			"**Source** [Ultimate Intrigue pg. 23](source:Ultimate_Intrigue)   ",
+			"**Source** [Ultimate Intrigue pg. 23](source:ultimate_intrigue)   ",
 			"The wit is a master of clever repartee and verbal dueling, moving through noble courts like a fish through water.",
 			"",
 			"**Way with Words (Ex):** A wit gains a +1 bonus on Bluff, Diplomacy, Intimidate, Linguistics, and Sense Motive checks. At 4th level, and every 4 bard levels thereafter, this bonus increases by 1, to a maximum of +6 at 20th level. He also gains a number of edges at the beginning of any verbal duel equal to this bonus.",
