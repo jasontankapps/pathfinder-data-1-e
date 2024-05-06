@@ -1,5 +1,5 @@
-[
-	{
+{
+	"aerial_assaulter": {
 		"name": "Aerial Assaulter",
 		"file": "archetypedisplay4d73.html",
 		"sources": [ "Blood of the Ancients" ],
@@ -38,9 +38,10 @@
 			"**High Ground Mastery (Ex):** At 20th level, whenever an aerial assaulter threatens a critical hit with an attack made from higher ground, he automatically confirms the critical hit, and the weapon's damage multiplier is increased by 1. In addition, all bull rush, dirty trick, drag, grapple, reposition, and trip combat maneuver checks against the aerial assaulter fail when attempted by opponents on lower ground than he is.",
 			"",
 			"This replaces weapon mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"airborne_ambusher": {
 		"name": "Airborne Ambusher",
 		"file": "archetypedisplay4642.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -69,9 +70,10 @@
 			"**Flying Dodger (Ex):** At 9th level, when an airborne ambusher flies at least half its fly speed on its turn, it gains a +1 dodge bonus to AC for 1 round. This bonus increases to +2 at 11th level and +4 at 17th level. This ability replaces weapon training 2.",
 			"",
 			"**Plummeting Charge (Ex):** At 13th level, if an airborne ambusher flies at least half its fly speed as part of a charge, it gains a +2 racial bonus on the attack roll (in addition to the normal charge bonus) and a +4 bonus on its critical confirmation roll. These bonuses improve to +4 and +6 at 17th level. This replaces weapon training 3 and 4."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"aldori_defender": {
 		"name": "Aldori Defender",
 		"file": "archetypedisplayd824.html",
 		"sources": [
@@ -111,9 +113,10 @@
 			"**Counterattack (Ex):** At 10th level, once per round, an Aldori defender can make an attack of opportunity against an opponent who hits him with a melee attack (regardless of how many attacks of opportunity the Aldori defender can otherwise make), so long as the attacking creature is within the his reach.",
 			"",
 			"This ability replaces the bonus feat the fighter would normally gain at 10th level."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"aquanaut": {
 		"name": "Aquanaut",
 		"file": "archetypedisplay736a.html",
 		"sources": [ "Aquatic Adventures" ],
@@ -151,9 +154,10 @@
 			"**Underwater Training:** At 5th level, an aquanaut chooses bludgeoning, slashing, or piercing melee weapons. If he chooses piercing melee weapons, he gains a +1 bonus on attack and damage rolls with those weapons when attacking underwater. If he chooses bludgeoning or slashing melee weapons, he can ignore the usual underwater penalties for attacking with those weapons (see page 44). At 9th and 13th levels, he can choose another type of melee weapon, applying this ability's initial benefit to his new choice and gaining an additional +1 bonus on attack and damage rolls to his previously chosen weapon types. At 17th level, he gains an additional +1 bonus on attack and damage rolls with all three types.",
 			"",
 			"This ability replaces weapon training."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"archer": {
 		"name": "Archer",
 		"file": "archetypedisplayc33a.html",
 		"sources": [ "Advanced Player's Guide" ],
@@ -188,9 +192,10 @@
 			"**Ranged Defense (Ex):** At 19th level, an archer gains DR 5/- against ranged attacks. In addition, as an immediate action, he can catch an arrow fired at him and shoot it any target he chooses, as if he had the Snatch Arrows feat. This ability replaces armor mastery.",
 			"",
 			"**Weapon Mastery (Ex):** An archer must choose a type of bow."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"armiger": {
 		"name": "Armiger",
 		"file": "archetypedisplayaf5c.html",
 		"sources": [ "Adventurer's Guide" ],
@@ -226,9 +231,10 @@
 			"**Ardent (Su):** Armigers are difficult to sway from their beliefs. At 2nd level, an armiger gains a +1 bonus on Will saves against charm effects. This bonus increases by 1 for every 4 fighter levels beyond 2nd. Once per day, if an armiger is forced to take an action that is diametrically opposed to her order's beliefs and values while under the influence of a charm or compulsion effect, she can immediately attempt a Will save against the effect's DC to resist acting out that order. Success does not remove the existing charm or compulsion effect, but does allow the armiger to resist betraying her beliefs.",
 			"",
 			"This replaces bravery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"armor_master": {
 		"name": "Armor Master",
 		"file": "archetypedisplayd57f.html",
 		"sources": [ "Ultimate Combat" ],
@@ -253,9 +259,10 @@
 			"**Fortification (Ex):** At 9th level, an armor master can use his armor to shield critical areas from injury. He treats any armor he wears as if it had the light fortification special ability. At 13th level, his armor gains the moderate fortification special ability. This fortification does not stack in any way with armor that has these special abilities. In these cases the armor master takes the better of the two fortifications. This ability replaces weapon training 2 and 4.",
 			"",
 			"**Indestructible (Ex):** At 20th level, an armor master gains complete immunity to critical hits and sneak attacks while he is wearing armor. In addition, unless his armor has the fragile armor quality, it cannot be sundered while he is wearing it. This ability replaces weapon mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"brawler": {
 		"name": "Brawler",
 		"file": "archetypedisplayd6ee.html",
 		"sources": [ "Ultimate Combat" ],
@@ -284,9 +291,10 @@
 			"**Stand Still:** At 13th level, a brawler gains Stand Still as a bonus feat, even if he does not have the Combat Reflexes feat. If the brawler already has the Stand Still feat, he can take any other combat feat instead. Furthermore, he gains a bonus equal to 1/2 his fighter level on combat maneuver checks when using the Stand Still feat.",
 			"",
 			"**Weapon Mastery (Ex):** A brawler must select a close weapon for this ability."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"cad": {
 		"name": "Cad",
 		"file": "archetypedisplay2946.html",
 		"sources": [ "Ultimate Combat" ],
@@ -328,9 +336,10 @@
 			"**Treacherous Blow (Ex):** At 15th level, when a cad confirms a critical hit, he can attempt a dirty trick combat maneuver as part of that attack as an immediate action. This ability replaces armor training 4.",
 			"",
 			"**Ultimate Payback (Ex):** At 20th level, any critical threats a cad makes against an opponent that has attacked him since the beginning of his last turn are automatically confirmed. This ability replaces weapon mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"calistrian_hunter": {
 		"name": "Calistrian Hunter",
 		"file": "archetypedisplaye1a7.html",
 		"sources": [ "Inner Sea Combat" ],
@@ -364,9 +373,10 @@
 			"**Perceived Wrongs (Ex):** At 17th level, a Calistrian hunter can, once per day, use his vengeance ability against any creature-even one that has not harmed him. If the target is also one that has damaged him since the beginning of his last turn, the bleed damage increases to 3d6 and the target is sickened for as long as the bleed effect continues. This ability replaces weapon training 4.",
 			"",
 			"**Certain Revenge (Ex):** At 20th level, a Calistrian hunter gains the improved quarry class feature; this functions like the ranger ability of the same name, but the target must have attacked him in the past day. Whenever he uses his vengeance ability against his quarry, the bleed damage increases by 2 per bleed damage die. This ability replaces weapon mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"cavern_sniper": {
 		"name": "Cavern Sniper",
 		"file": "archetypedisplay3f12.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -399,9 +409,10 @@
 			"**Greater Imbued Shot (Su):** At 9th level, the cavern sniper gains two extra uses of both his faerie fire and darkness spell-like abilities, but can only use these extra uses to imbue arrows and bolts with the imbued shot class feature. This ability replaces weapon training 2.",
 			"",
 			"**Weapon Mastery (Ex):** At 20th level, when the cavern sniper gains weapon mastery, he must choose a weapon in either the bow or crossbow weapon group."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"child_of_acavna_and_amaznen": {
 		"name": "Child of Acavna and Amaznen",
 		"file": "archetypedisplay3e00.html",
 		"sources": [ "Arcane Anthology" ],
@@ -444,9 +455,10 @@
 			"She uses the ranger's spells per day, but uses her Intelligence score to determine her bonus spells and spell saving throw DCs, just as a wizard does. She does not gain any other wizard abilities, such as an arcane bond or school. Each time she attains a new fighter level, she gains one bloodrager spell of her choice to add to her spellbook. The free spells must be of spell levels she can cast. She otherwise follows the rules for a wizard regarding her spellbook and learning or preparing spells.",
 			"",
 			"This replaces all weapon training and the bonus feats gained at 8th, 12th, 16th, and 20th level."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"corsair": {
 		"name": "Corsair",
 		"file": "archetypedisplayf690.html",
 		"sources": [ "Pirates of the Inner Sea" ],
@@ -470,9 +482,10 @@
 			"**Armored Pirate (Ex):** A corsair wears heavier armor than is common aboard a ship. At 3rd level, the corsair reduces the armor check penalty of any light armor he wears to 0 for purposes of Acrobatics and Swim checks. At 7th level, this becomes true of medium armor as well. At 11th level, it includes heavy armor. This ability replaces armor training.",
 			"",
 			"**Improved Deck Fighting (Ex):** At 6th level, the corsair gains Great Cleave as a bonus feat. He may use this feat even if he does not meet the prerequisites. A corsair does not take the normal -2 penalty to his AC when using the Great Cleave feat. This ability replaces the fighter's 6th-level bonus feat."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"crossbowman": {
 		"name": "Crossbowman",
 		"file": "archetypedisplay8349.html",
 		"sources": [ "Advanced Player's Guide" ],
@@ -508,9 +521,10 @@
 			"**Penetrating Shot (Ex):** At 19th level, when a crossbowman confirms a critical hit with a crossbow, the bolt pierces the target and can strike another creature in line behind it. The crossbowman must be able to trace a line starting at his space and passing through both targets to make this additional attack. The secondary attack is made at a -4 penalty, in addition to any modifiers for added range. If this attack is also a critical hit, the bolt can continue to hit another target, but the penalties stack. This ability replaces armor mastery.",
 			"",
 			"**Weapon Mastery (Ex):** A crossbowman must choose a type of crossbow."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"cyber-soldier": {
 		"name": "Cyber-Soldier",
 		"file": "archetypedisplaya115.html",
 		"sources": [ "Technology Guide" ],
@@ -533,9 +547,10 @@
 			"**Improved Implantation (Ex):** At 7th level, a cybersoldier can exceed the normal limitations on cybertech implantation. Her brain and body slots each accommodate one more piece of cybertech than normal. In addition, her limit on implantation points increases by 1/2 his cybersoldier level. She can allocate these points between his Intelligence and Constitution scores as she chooses. At 15th level, her body slot can accommodate two more pieces of cybertech than normal. This ability replaces armor training 2 and 4.",
 			"",
 			"**Resilience (Ex):** At 19th level, a cyber-soldier has a reservoir of 5 temporary hit points for each piece of implanted cybertech in his body. Lost temporary hit points are recovered at the rate of 10 points per hour. This ability replaces armor mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"dirty_fighter": {
 		"name": "Dirty Fighter",
 		"file": "archetypedisplaye61c.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -558,9 +573,10 @@
 			"**Speedy Tricks (Ex):** At 9th level, a dirty fighter has perfected how to quickly perform dirty tricks. He can make a dirty trick combat maneuver as an attack instead of a standard action. This ability replaces weapon training 2.",
 			"",
 			"**Double Tricks (Ex):** At 13th level, when a dirty fighter performs a combat maneuver, he may apply two different conditions to his target instead of one. Each penalty condition requires a separate action to remove. At 17th level, he may apply three different conditions. This ability replaces weapon training 3 and 4."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"dragonheir_scion": {
 		"name": "Dragonheir Scion",
 		"file": "archetypedisplay3bc9.html",
 		"sources": [],
@@ -624,9 +640,10 @@
 			"**Might of Wyrms (Su):** At 20th level, a dragonheir scion's draconic heritage becomes manifest. She gains immunity to paralysis, sleep, and damage of her energy type, as well as blindsense with a range of 60 feet.",
 			"",
 			"This ability replaces weapon mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"dragoon": {
 		"name": "Dragoon",
 		"file": "archetypedisplayc896.html",
 		"sources": [ "Ultimate Combat" ],
@@ -662,9 +679,10 @@
 			"**Leaping Lance (Ex):** At 15th level, a dragoon and his mount suffer no armor check penalty on Acrobatics checks while mounted. When charging, a dragoon may jump from his mount toward his target. If he jumps 10 feet, his charge modifiers on attack rolls and to AC are doubled and he is still considered mounted for lance damage, mounted combat feats, and so on. This ability replaces armor training 4.",
 			"",
 			"**Weapon Mastery:** The dragoon must select the lance for this ability."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"drill_sergeant": {
 		"name": "Drill Sergeant",
 		"file": "archetypedisplay012b.html",
 		"sources": [ "Melee Tactics Toolbox" ],
@@ -689,9 +707,10 @@
 			"**Weapon Trainer (Ex):** At 13th level, when a drill sergeant wields a weapon he has weapon training in, all allies within 30 feet who can see and hear the drill sergeant gain half his weapon training bonus when they wield any weapon from the same weapon group. This bonus doesn't stack with any weapon training bonus an ally already possesses. This ability replaces weapon training 3.",
 			"",
 			"**Master Tactician (Ex):** At 17th level, the drill sergeant gains the cavalier's master tactician class feature. This ability replaces weapon training 4."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"druman_blackjacket": {
 		"name": "Druman Blackjacket",
 		"file": "archetypedisplay954d.html",
 		"sources": [ "Inner Sea Combat" ],
@@ -721,9 +740,10 @@
 			"**Superior Tactics (Ex):** At 12th level, a Druman Blackjacket who uses the Blackjacket tactics ability can allow all affected Blackjackets to gain a second bonus teamwork feat possessed by at least one of the participants. This ability replaces the bonus feat gained at 12th level.",
 			"",
 			"**Esprit de Corps (Ex):** At 16th level, a Druman Blackjacket grants all Blackjackets with whom he is sharing one or more teamwork feats through the Blackjacket tactics ability a +2 morale bonus on attack rolls, ability checks, skill checks, and saving throws. Each affected Blackjacket increases this bonus by 1 if another affected Blackjacket has been reduced to 0 or fewer hit points since the beginning of his last turn. This ability replaces the bonus feat gained at 16th level."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"eldritch_guardian": {
 		"name": "Eldritch Guardian",
 		"file": "archetypedisplayf3a0.html",
 		"sources": [ "Familiar Folio" ],
@@ -748,9 +768,10 @@
 			"**Share Training (Ex):** At 2nd level, when the familiar can see and hear its master, it can use any combat feat possessed by the eldritch guardian. The familiar doesn't have to meet the feat's prerequisites, but at the GM's discretion may be precluded from using certain combat feats due to its physical form. For example, an eldritch guardian's pig familiar with access to Exotic Weapon Proficiency (spiked chain) would not gain the ability to use spiked chains, since it doesn't have any limbs capable of properly handling them. This ability replaces the bonus feat gained at 2nd level.",
 			"",
 			"**Steel Will (Ex):** At 2nd level, the eldritch guardian gains a +1 bonus on Will saves against fear and mind-affecting effects. This bonus increases by 1 for every 4 levels beyond 2nd. This ability replaces bravery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"foehammer": {
 		"name": "Foehammer",
 		"file": "archetypedisplaya141.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -789,9 +810,10 @@
 			"**Devastating Blow (Ex):** At 19th level, as a standard action, a foehammer may make a single melee attack with a weapon from the hammer weapon training group at a -5 penalty. If the attack hits, it is treated as a critical threat. Weapon special abilities that only activate on a critical hit do not activate if this critical hit is confirmed. This ability replaces armor mastery.",
 			"",
 			"**Weapon Mastery (Ex):** A foehammer must choose a weapon from the hammer group."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"free_hand_fighter": {
 		"name": "Free Hand Fighter",
 		"file": "archetypedisplayb10d.html",
 		"sources": [ "Advanced Player's Guide" ],
@@ -820,9 +842,10 @@
 			"**Interference (Ex):** At 13th level, a free hand fighter can make a disarm or trip combat maneuver against a target he threatens as a move action to push his opponent off balance. If successful, the target becomes flat-footed. This condition lasts until the target takes damage from a melee or ranged attack or until the beginning of the free hand fighter's next turn, whichever comes first. This ability replaces weapon training 3.",
 			"",
 			"**Reversal (Ex):** At 19th level, a free hand fighter can make a disarm combat maneuver against a creature he threatens as an immediate action when he is the target of a melee attack from another creature. If successful, the attack changes to target the target of the free hand fighter's maneuver instead of the free hand fighter himself. This ability replaces armor mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"gladiator": {
 		"name": "Gladiator",
 		"file": "archetypedisplay4208.html",
 		"sources": [ "Ultimate Combat" ],
@@ -845,9 +868,10 @@
 			"**Bonus Feats:** A gladiator may choose to take combat or performance feats as bonus feats.",
 			"",
 			"**Fame (Ex):** At 2nd level, when a gladiator begins a performance combat, he always starts with at least 1 victory point. If he already has victory points, he gains 1 extra victory point. At 10th level, the gladiator starts out with at least 2 victory points. If he already has victory points, he gains 2 extra victory points. This ability replaces bravery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"gloomblade": {
 		"name": "Gloomblade",
 		"file": "archetypedisplayd8ec.html",
 		"sources": [ "Planar Adventures" ],
@@ -891,9 +915,10 @@
 			"For every 4 levels he has beyond 9th, a gloomblade can apply an additional effect to his shadow weapons, to a maximum of three effects at 17th level; these effects can be split between multiple shadow weapons as a gloomblade desires, but they don't stack with themselves.",
 			"",
 			"This alters weapon training."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"high_guardian": {
 		"name": "High Guardian",
 		"file": "archetypedisplay0ceb.html",
 		"sources": [ "Heroes of the High Court" ],
@@ -933,9 +958,10 @@
 			"**Royal Protector (Ex):** At 4th level, a high guardian gains Bodyguard and In Harm's Way as bonus feats, though he can use them only to improve his obligation's AC or intercept a successful attack against his obligation.",
 			"",
 			"This ability replaces the bonus feat gained at 4th level."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"lore_warden": {
 		"name": "Lore Warden",
 		"file": "archetypedisplay9cdd.html",
 		"sources": [ "Adventurer's Guide" ],
@@ -975,9 +1001,10 @@
 			"**Swift Assessment (Ex):** The lore warden can now use her know thy enemy swords secret as a move action. At 15th level, she can use this ability as a swift action. She must have the know thy enemy swords secret before choosing this swords secret.",
 			"",
 			"This replaces armor training and armor mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"lore_warden_pfs_field_guide": {
 		"name": "Lore Warden (PFS Field Guide)",
 		"file": "archetypedisplay5ba5.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
@@ -1008,9 +1035,10 @@
 			"**Swift Lore (Ex):** At 14th level, a lore warden can use his Know Thy Enemy ability as a swift action. This ability replaces armor training 4.",
 			"",
 			"**Know Weakness (Ex):** At 19th level, a lore warden can automatically confirm a critical hit once per round when he threatens a critical hit. This ability replaces armor mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"martial_master": {
 		"name": "Martial Master",
 		"file": "archetypedisplay6b07.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -1039,9 +1067,10 @@
 			"At 20th level, a martial master can use this ability to gain the benefit of any number of combat feats as a swift action.",
 			"",
 			"This ability replaces weapon training and weapon mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"mobile_fighter": {
 		"name": "Mobile Fighter",
 		"file": "archetypedisplay3312.html",
 		"sources": [ "Advanced Player's Guide" ],
@@ -1069,14 +1098,17 @@
 			"**Fleet Footed (Ex):** At 15th level, the mobile fighter's speed increases by 10 feet. He can take 10 on Acrobatics checks even while distracted or threatened, and can take 20 on an Acrobatics check once per day for every five fighter levels he possesses. This ability replaces armor training 4.",
 			"",
 			"**Whirlwind Blitz (Ex):** At 20th level, a mobile fighter can make a full-attack action as a standard action. He may also use the Whirlwind Attack feat as a standard action. This ability replaces weapon mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"molthuni_defender": {
 		"name": "Molthuni Defender",
 		"file": "archetypedisplayec89.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"replaces": "Armor Training",
-		"replace_array": [ "Armor Training" ],
+		"replace_array": [
+			"Armor Training"
+		],
 		"short_description": "Taking advantage of their weighty armor, Molthuni defenders can hold back an onslaught of enemies intent on breaking through their line.",
 		"description": [
 			"## Molthuni Defender",
@@ -1089,9 +1121,10 @@
 			"In addition to this, the Molthuni defender is able to choose one of the following combat maneuvers: bull rush, dirty trick, drag, grapple, overrun, reposition, or trip. When he is wearing medium or heavy armor, the Molthuni defender adds half his armor training bonus on combat maneuver checks for the selected maneuver. He can choose an additional combat maneuver at 7th, 11th, and 15th levels.",
 			"",
 			"This ability replaces armor training 1 through 4, but counts as armor training for the purposes of qualifying for feats and prestige classes. It does not count as advanced armor training (see page 14)."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"mutation_warrior": {
 		"name": "Mutation Warrior",
 		"file": "archetypedisplay2b6f.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -1110,9 +1143,10 @@
 			"**Mutagen (Su):** At 3rd level, a mutation warrior discovers how to create a mutagen that he can imbibe in order to heighten his physical prowess at the cost of his personality. This ability functions as the alchemist's mutagen ability (Advanced Player's Guide 28), using his fighter level as his alchemist level. This ability replaces armor training 1.",
 			"",
 			"**Mutagen Discovery (Su):** At 7th level and every 4 levels thereafter, the mutation warrior can choose one of the following alchemist discoveries (Advanced Player's Guide 28) to augment his abilities: feral mutagen, grand mutagen, greater mutagen, infuse mutagen, nauseating flesh, preserve organs, rag doll mutagen, spontaneous healing, tentacle, vestigial arm, wings. The mutagen warrior uses his fighter level as his effective alchemist level for the purpose of these discoveries. This ability replaces armor training 2, 3, 4, and armor mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"opportunist": {
 		"name": "Opportunist",
 		"file": "archetypedisplayfebc.html",
 		"sources": [ "Blood of the Beast" ],
@@ -1162,9 +1196,10 @@
 			"**Alchemical Onslaught (Ex):** At 5th level, an opportunist gains a +1 bonus on attack rolls with alchemical weapons and bombs and can add his Intelligence modifier to damage rolls for splash weapons. He can draw an alchemical weapon as a free action once per round.",
 			"",
 			"This ability replaces weapon training 1."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"pack_mule": {
 		"name": "Pack Mule",
 		"file": "archetypedisplayc337.html",
 		"sources": [ "Black Markets" ],
@@ -1194,9 +1229,10 @@
 			"In addition, a pack mule can move at his normal speed while carrying a medium load. At 7th level, a pack mule can move at his normal speed while carrying a heavy load. This ability replaces armor training 1 through 4.",
 			"",
 			"**Healthy as a Mule (Ex):** At 19th level, whenever the pack mule takes Constitution, Dexterity, or Strength damage, he reduces the amount of ability damage taken by 2, to a minimum of 0. This ability replaces armor mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"phalanx_soldier": {
 		"name": "Phalanx Soldier",
 		"file": "archetypedisplay16fc.html",
 		"sources": [ "Advanced Player's Guide" ],
@@ -1231,9 +1267,10 @@
 			"**Irresistible Advance (Ex):** At 15th level, a phalanx fighter gains a bonus on bull rush and overrun CMB checks. This bonus depends on the type of shield used: +1 with a buckler, +2 with a light shield, +3 with a heavy shield, or +4 with a tower shield. This ability replaces armor training 4.",
 			"",
 			"**Shielded Fortress (Ex):** At 20th level, a phalanx fighter's shield cannot be disarmed or sundered. He gains evasion (as a rogue) when using a shield (improved evasion when using a tower shield). As a move action, a phalanx fighter can provide evasion to all adjacent allies until the beginning of his next turn. As an immediate action, he can provide improved evasion to an adjacent ally against one attack. This ability replaces weapon mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"polearm_master": {
 		"name": "Polearm Master",
 		"file": "archetypedisplay1349.html",
 		"sources": [ "Advanced Player's Guide" ],
@@ -1266,9 +1303,10 @@
 			"**Polearm Parry (Ex):** At 19th level, when an opponent threatened by a polearm master makes a melee attack against an ally, he may take an immediate action to grant his ally a +2 shield bonus to AC and DR 5/- against that attack. He may use this ability to protect himself, but only if the attacking creature is not adjacent to him. This ability replaces armor mastery.",
 			"",
 			"**Weapon Mastery (Ex):** A polearm master must choose a spear or polearm."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"qadira_dawnflower_dervish": {
 		"name": "Qadira: Dawnflower Dervish",
 		"file": "archetypedisplayf013.html",
 		"sources": [ "Inner Sea Primer" ],
@@ -1292,9 +1330,10 @@
 			"**Rapid Attack (Ex):** At 11th level, a Dawnflower dervish can combine a full attack with a single move. She must forgo the attack at her highest bonus but may take the remaining attacks at any point during her movement. This movement provokes attacks of opportunity as normal. This ability replaces armor training 3.",
 			"",
 			"**Lightning Strike (Ex):** At 15th level, as part of a full attack, a Dawnflower dervish can make one additional attack. This attack is at the dervish's highest base attack bonus, but each attack in the round (including the extra one) takes a -2 penalty. This ability replaces armor training 4."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"relic_master": {
 		"name": "Relic Master",
 		"file": "archetypedisplaya59b.html",
 		"sources": [ "Weapon Master's Handbook" ],
@@ -1319,9 +1358,10 @@
 			"**Relic Channeler (Su):** At 5th level, a relic master can increase the potency of a magic item she wields by investing it with a bit of her vitality as a swift action. If the item is armor, a shield, or a weapon, its enhancement bonus increases by 1 to a maximum of +5. If the magic item creates a spell or has a save DC, its effective caster level increases by 1. A relic master can use this ability for a number of minutes per day equal to 1 + her Constitution modifier (minimum 1 minute). This duration doesn't need to be consecutive, but it must be used in 1-minute increments. This ability replaces weapon training.",
 			"",
 			"**Improvised Item Mastery (Su):** At 19th level as a full-round action, the relic master can select one item mastery feat whose prerequisites she meets but that she doesn't already have. She gains access to this feat, though she can't use it as a prerequisite for other feats or options. If she selects a different item mastery feat, she loses access to her previous use of improvised item mastery and any magic effect created with it ends immediately. Any daily uses of a selected improvised item mastery feat count against all improvised mastery feats selected in the same day. This ability replaces armor mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"roughrider": {
 		"name": "Roughrider",
 		"file": "archetypedisplay0858.html",
 		"sources": [ "Advanced Player's Guide" ],
@@ -1354,9 +1394,10 @@
 			"**Unavoidable Onslaught (Ex):** At 15th level, a roughrider's mounted charge is not blocked by friendly creatures or difficult terrain. This ability replaces armor training 4.",
 			"",
 			"**Indomitable Steed (Ex):** At 19th level, a roughrider and his steed gain DR 5/- when mounted. This ability replaces armor mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"savage_warrior": {
 		"name": "Savage Warrior",
 		"file": "archetypedisplay0043.html",
 		"sources": [ "Advanced Player's Guide" ],
@@ -1384,9 +1425,10 @@
 			"**Greater Savage Charge (Ex):** At 17th level, when using savage charge, the AC penalty is reduced to 1/4 his fighter level instead of 1/2 his fighter level. In addition, a savage warrior can charge through friendly creatures and difficult terrain. This ability replaces weapon training 4.",
 			"",
 			"**Natural Weapon Mastery (Ex):** At 20th level, a savage warrior must choose one natural weapon. This ability replaces weapon mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"scrapper": {
 		"name": "Scrapper",
 		"file": "archetypedisplay0bae.html",
 		"sources": [],
@@ -1409,9 +1451,10 @@
 			"**Scrapper Training (Ex):** At 5th level, a scrapper selects one [fighter weapon group](unknown:fighter_weapon_group). He gains a +1 bonus on attack and damage rolls when performing a sunder combat maneuver with a weapon from the chosen group. He does not provoke attacks of opportunity when performing a sunder combat maneuver with a weapon from the chosen group. If the scrapper has the [Improved Sunder](feat:improved_sunder) feat, the bonuses on attack and damage rolls from this ability double. At 9th level and every 4 levels thereafter, a scrapper can either take the fighter's weapon training class feature or improve his bonuses from the scrapper training class feature by 1.",
 			"",
 			"This replaces weapon training 1."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"seasoned_commander": {
 		"name": "Seasoned Commander",
 		"file": "archetypedisplayd589.html",
 		"sources": [ "Villain Codex" ],
@@ -1460,9 +1503,10 @@
 			"**Master Tactician (Ex):** At 17th level, the seasoned commander gains the cavalier's master tactician class feature, treating his fighter level as his cavalier level for the purposes of this ability.",
 			"",
 			"This ability replaces weapon training 4."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"sensate": {
 		"name": "Sensate",
 		"file": "archetypedisplayf71b.html",
 		"sources": [ "Occult Adventures" ],
@@ -1504,9 +1548,10 @@
 			"**Perfect Senses (Su):** At 19th level, a sensate's senses reach perfection, and he can easily notice illusions and unseen foes by combining his senses. While centered, he gains the effects of true seeing as well as blindsense 60 feet. An unseen creature that makes no sound and leaves no scent (such as a creature under the effects of invisibility, silence, and negate aroma) can still avoid both the true seeing and the blindsense. This ability replaces armor mastery.",
 			"",
 			"**Precision (Su):** At 20th level, a sensate rolls twice to confirm critical hits while centered, taking the more favorable result. Opponents must roll twice to confirm critical hits against him, taking the less favorable result. The latter ability does not function when the sensate is denied his Dexterity bonus. This ability replaces weapon mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"shielded_fighter": {
 		"name": "Shielded Fighter",
 		"file": "archetypedisplay6664.html",
 		"sources": [ "Advanced Player's Guide" ],
@@ -1537,9 +1582,10 @@
 			"**Shield Mastery (Ex):** At 19th level, a shielded fighter gains DR 5/- when wielding a shield. This ability replaces armor mastery.",
 			"",
 			"**Shield Ward (Ex):** At 20th level, a shielded fighter gains evasion (as a rogue) while wielding a shield, and adds his shield bonus to his AC (not including enhancement bonuses) on Reflex saves and to his touch AC. In addition, his shield cannot be disarmed or sundered. This ability replaces weapon mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"siegebreaker": {
 		"name": "Siegebreaker",
 		"file": "archetypedisplay3c45.html",
 		"sources": [ "Heroes of the Streets" ],
@@ -1570,9 +1616,10 @@
 			"**Disorienting Blow (Ex):** At 8th level, as an immediate action, a siegebreaker can distract a foe he just hit with an attack or combat maneuver, imposing a -2 penalty on the foe's attack rolls, caster level checks, or skill checks for 1 round. The foe can negate this penalty with a successful Fortitude save (DC = 10 + 1/2 the siegebreaker's fighter level + his Strength modifier). At 14th level, the penalty increases to -4. This ability replaces the bonus feat gained at 8th level.",
 			"",
 			"**Masterful Distraction (Ex):** At 20th level, a siegebreaker can nauseate a foe he targets with his disorienting blow instead of inflicting a penalty. This ability replaces weapon mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"skirmisher": {
 		"name": "Skirmisher",
 		"file": "archetypedisplayf01f.html",
 		"sources": [
@@ -1631,9 +1678,10 @@
 			"**Mobile Mastery (Ex):** At 19th level, a skirmisher learns to position his body and conceal his body proportions with clothes so well that it is difficult to hit him. He gains a 20% miss chance on attacks against him. Mobile mastery functions even when the skirmisher is flat-footed, but not when he is immobilized or helpless, when he wears medium or heavy armor, or when he carries a medium or heavy load.",
 			"",
 			"This replaces armor mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"spear_fighter": {
 		"name": "Spear Fighter",
 		"file": "archetypedisplay3c27.html",
 		"sources": [ "Martial Arts Handbook" ],
@@ -1673,9 +1721,10 @@
 			"**Weapon Training (Ex):** At 5th level, a spear fighter must choose the spears weapon group for the weapon training class feature.",
 			"",
 			"**Weapon Mastery (Ex):** At 20th level, a spear fighter must choose a weapon from the spears weapon group for his weapon mastery class feature."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"steelbound_fighter": {
 		"name": "Steelbound Fighter",
 		"file": "archetypedisplaydb47.html",
 		"sources": [ "Haunted Heroes Handbook" ],
@@ -1712,9 +1761,10 @@
 			"A steelbound fighter transfers the effects of his steelbound awakening to a new weapon of the proper type automatically after carrying that weapon on his person for 24 hours, but can have only one weapon under the effects of steelbound awakening at any given time.",
 			"",
 			"This ability replaces weapon training."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"swarm_fighter": {
 		"name": "Swarm Fighter",
 		"file": "archetypedisplay866a.html",
 		"sources": [ "Kobolds of Golarion" ],
@@ -1769,9 +1819,10 @@
 			"**Soft Underbelly (Ex):** At 20th level, any attacks made against creatures with which the swarm fighter shares a space automatically confirm all critical threats.",
 			"",
 			"This ability replaces weapon mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"tactician": {
 		"name": "Tactician",
 		"file": "archetypedisplaye9c0.html",
 		"sources": [ "Ultimate Combat" ],
@@ -1804,9 +1855,10 @@
 			"**Cooperative Combatant (Ex):** At 11th level, when a tactician uses the aid another special attack, he may affect one additional ally per point of Intelligence bonus. For each ally that a tactician aids, he can pick whether to grant that ally the +2 bonus on its next attack against the opponent or the +2 bonus to AC against the opponent's next attack on that ally, and can grant different allies different bonuses. This ability replaces armor training 3.",
 			"",
 			"**Battle Insight (Ex):** At 15th level, as a swift action, a tactician can grant his Intelligence modifier as an insight bonus on the attack rolls made by a single ally within line of sight that can both see and hear the tactician. That ally gains the bonus until the end of the tactician's next turn. The tactician can use this ability a number of times per day equal to 3 + his Intelligence modifier. This ability replaces armor training 4."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"taldor_rondelero_duelist": {
 		"name": "Taldor: Rondelero Duelist",
 		"file": "archetypedisplayd7ad.html",
 		"sources": [ "Inner Sea Primer" ],
@@ -1836,9 +1888,10 @@
 			"**Armor Training (Ex):** At 7th level, a rondelero gains armor training 1, and can move at his normal speed in medium armor. At 15th level, the rondelero gains armor training 2, and can move at his normal speed in heavy armor. This ability replaces armor training 2.",
 			"",
 			"**Chopping Blow (Ex):** At 11th level, as a standard action, a rondelero can make a single melee attack with a falcata. If the attack hits, he may make a sunder combat maneuver against the target of his attack as a free action that does not provoke an attack of opportunity. This ability replaces armor training 3."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"thunderstriker": {
 		"name": "Thunderstriker",
 		"file": "archetypedisplay917f.html",
 		"sources": [ "Ultimate Combat" ],
@@ -1869,9 +1922,10 @@
 			"**Balanced Bashing (Ex):** At 17th level, a thunderstriker no longer suffers two-weapon fighting penalties when using a buckler as his off-hand weapon. This ability replaces weapon training 4.",
 			"",
 			"**Improved Buckler Defense (Ex):** At 19th level, a thunderstriker does not forfeit his shield bonus to AC from a buckler when fighting two-handed. This ability replaces armor mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"titan_fighter": {
 		"name": "Titan Fighter",
 		"file": "archetypedisplay9597.html",
 		"sources": [ "Giant Hunter's Handbook" ],
@@ -1893,9 +1947,10 @@
 			"**Incredible Heft (Ex):** At 3rd level, a titan fighter becomes more skilled at wielding weapons intended for creatures one size category larger than himself. The penalty on attack rolls for using such weapons is reduced by 1, including when using oversized two-handed weapons. At 7th level and every 4 levels thereafter, this penalty is reduced by another 1 (minimum 0). This ability replaces armor training.",
 			"",
 			"**Unstoppable Momentum (Ex):** At 5th level, a titan fighter gains a +1 bonus on combat maneuver checks and to CMD while wielding a weapon sized for a creature of a larger size category. At 9th level and every 4 levels thereafter, this bonus increases by 1. When wielding oversized weapons, the titan fighter can attempt to bull rush, drag, overrun, reposition, and trip creatures up to two sizes categories larger than himself. This ability replaces weapon training."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"tower_shield_specialist": {
 		"name": "Tower Shield Specialist",
 		"file": "archetypedisplayc3e6.html",
 		"sources": [ "Ultimate Combat" ],
@@ -1923,9 +1978,10 @@
 			"**Immediate Repositioning (Ex):** At 13th level, as an immediate action, a tower shield specialist can reposition his tower shield to another facing, but he cannot use this ability to interrupt an attack. This ability replaces weapon training 3.",
 			"",
 			"**Tower Shield Evasion (Ex):** At 16th level, while using a tower shield, the tower shield specialist gains evasion, as the rogue class ability. At 20th level, the shield specialist gains improved evasion, as the rogue advanced talent, while using a tower shield. This ability replaces both weapon training 4 and weapon mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"trench_fighter": {
 		"name": "Trench Fighter",
 		"file": "archetypedisplayf33e.html",
 		"sources": [ "Pathfinder #71: Rasputin Must Die!" ],
@@ -1961,9 +2017,10 @@
 			"gains an additional +2 AC bonus from the cover. This ability",
 			"",
 			"replaces armor training 1, 2, 3, and 4."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"tribal_fighter": {
 		"name": "Tribal Fighter",
 		"file": "archetypedisplayf03e.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -1988,9 +2045,10 @@
 			"**Tribal Weapon Training (Ex):** At 5th level, when a tribal fighter gains the weapon training ability, he must choose the tribal weapon group and doesn't later gain additional weapon groups, though the weapon training bonus for tribal weapons still improves at 9th level and every 4 levels thereafter. Additionally, if the tribal fighter has combat feats that apply to a specific weapon type (such as Improved Critical or Weapon Focus) and he has selected a weapon that belongs to the tribal weapon group, he can apply the benefits of that feat to all weapons that belong to the tribal weapon group that would legally apply (for instance, a feat that applies only to throwing weapons wouldn't apply to greatclubs). This benefit applies only to feats selected as fighter bonus feats.",
 			"",
 			"This alters weapon training."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"two-handed_fighter": {
 		"name": "Two-Handed Fighter",
 		"file": "archetypedisplaya742.html",
 		"sources": [ "Advanced Player's Guide" ],
@@ -2020,9 +2078,10 @@
 			"**Greater Power Attack (Ex):** At 15th level, when using Power Attack with a two-handed melee weapon, the bonus damage from Power Attack is doubled (+100%) instead of increased by half (+50%). This ability replaces armor training 4.",
 			"",
 			"**Devastating Blow (Ex):** At 19th level, as a standard action, a two-handed fighter may make a single melee attack with a two-handed weapon at a -5 penalty. If the attack hits, it is treated as a critical threat. Special weapon abilities that activate only on a critical hit do not activate if this critical hit is confirmed. This ability replaces armor mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"two-weapon_warrior": {
 		"name": "Two-Weapon Warrior",
 		"file": "archetypedisplay60b4.html",
 		"sources": [ "Advanced Player's Guide" ],
@@ -2054,9 +2113,10 @@
 			"**Deft Doublestrike (Ex):** At 17th level, when a two-weapon warrior hits an opponent with both weapons, he can make a disarm or sunder attempt (or trip, if one or both weapons can be used to trip) against that opponent as an immediate action that does not provoke attacks of opportunity. This ability replaces weapon training 4.",
 			"",
 			"**Deadly Defense (Ex):** At 19th level, when a two-weapon warrior makes a full attack with both weapons, every creature that hits him with a melee attack before the beginning of his next turn provokes an attack of opportunity from the warrior. This ability replaces armor mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"unarmed_fighter": {
 		"name": "Unarmed Fighter",
 		"file": "archetypedisplay61dc.html",
 		"sources": [ "Ultimate Combat" ],
@@ -2102,9 +2162,10 @@
 			"**Sheer Toughness (Ex):** At 19th level, an unarmed fighter becomes immune to nonlethal damage and the exhausted, fatigued, and staggered conditions. This ability replaces armor mastery.",
 			"",
 			"**Weapon Mastery (Ex):** This ability applies to unarmed strikes only."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"unbreakable": {
 		"name": "Unbreakable",
 		"file": "archetypedisplayb627.html",
 		"sources": [ "Ultimate Combat" ],
@@ -2144,9 +2205,10 @@
 			"**Miraculous Recovery (Ex):** At 17th level, when an unbreakable makes a saving throw to recover from an ongoing effect, he may roll twice and choose the better roll. This ability replaces weapon training 4.",
 			"",
 			"**Unbreakable Mind (Ex):** At 20th level, an unbreakable becomes nearly impossible to sway with honeyed words or magic. He gains immunity to mind-affecting effects. This ability replaces weapon mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"ustalavic_duelist": {
 		"name": "Ustalavic Duelist",
 		"file": "archetypedisplay4680.html",
 		"sources": [ "Inner Sea Combat" ],
@@ -2174,9 +2236,10 @@
 			"**Science of the Blade (Ex):** At 13th level, an Ustalavic duelist is able to apply his specialized knowledge of anatomy and physiology to his bladework. The duelist can make dirty trick (Advanced Player's Guide 320), disarm, and trip combat maneuvers using any one-handed piercing or slashing weapon. This ability replaces weapon training 3.",
 			"",
 			"**Surgical Strike (Ex):** At 17th level, when an Ustalavic duelist confirms a critical hit with a light or one-handed piercing or slashing weapon, he deals ability damage in addition to the normal bonus damage from the critical hit. The duelist chooses which ability is damaged, and deals an amount of damage equal to the critical multiplier of the wielded weapon. This ability replaces weapon training 4."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"varisian_free-style_fighter": {
 		"name": "Varisian Free-Style Fighter",
 		"file": "archetypedisplay53c7.html",
 		"sources": [ "Weapon Master's Handbook" ],
@@ -2203,9 +2266,10 @@
 			"**Martial Flexibility (Ex):** A Varisian free-style fighter gains martial flexibility as per the brawler class feature, treating his fighter level as his brawler level for the purposes of this ability. This ability replaces the bonus feats gained at 1st level, 6th level, 10th level, and 12th level, as well as weapon training and weapon mastery.",
 			"",
 			"**Free Fighting Style (Ex):** At 3rd level, a Varisian freestyle fighter can freely mix two of the styles he knows into a more flexible style. A Varisian free-style fighter can have an additional style feat stance active simultaneously with his first style feat stance. He can enter all of his allowed stances as a move action or one stance as a swift action. At 11th level, a Varisian free-style fighter can have the stances of up to two additional style feats active at the same time. At 15th level, a Varisian free-style fighter can have the stances of up to three additional style feats active at the same time. This ability replaces armor training."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"venomblade": {
 		"name": "Venomblade",
 		"file": "archetypedisplay0a14.html",
 		"sources": [],
@@ -2234,9 +2298,10 @@
 			"**Viper Strike (Ex):** At 12th level, upon making a successful attack with a slashing or piercing weapon, the venomblade can spend a use of the ability granted by the Spit Venom feat as a swift action to spray his toxin into the wound. This imposes a -4 penalty on the victim's saving throw against the poison and causes the target to take 1d6 additional points of damage from all successful attacks for 1 round. This is a poison effect.",
 			"",
 			"This replaces the bonus feat gained at 12th level."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"viking": {
 		"name": "Viking",
 		"file": "archetypedisplay5056.html",
 		"sources": [
@@ -2277,9 +2342,10 @@
 			"**Rage Powers (Ex):** At 6th level, whenever a viking gains a fighter bonus feat, she can instead gain a single rage power, as the barbarian class feature, in place of the bonus feat. Once selected, these rage powers cannot be changed.",
 			"",
 			"This alters the fighter's bonus feats."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"warlord": {
 		"name": "Warlord",
 		"file": "archetypedisplay2fb2.html",
 		"sources": [ "Pathfinder: Worldscape #3" ],
@@ -2322,9 +2388,10 @@
 			"This ability replaces armor mastery.",
 			"",
 			"* Rules for radium pistols. radium rifles. and Thark rifles can be found in the Pathfinder Chronicles appendix featured in Pathfinder Worldscape #2."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"weapon_bearer_squire": {
 		"name": "Weapon Bearer Squire",
 		"file": "archetypedisplay3b08.html",
 		"sources": [ "Knights of the Inner Sea" ],
@@ -2346,9 +2413,10 @@
 			"**Swift Sharpening (Ex):** At 2nd level, a weapon bearer squire can quickly hone her lord's weapons to make them more effective in combat. As a fullround action, a weapon bearer squire can use a whetstone to sharpen a weapon she is holding, granting whoever wields the weapon a +1 circumstance bonus on his next attack roll with that weapon. In addition, she can apply a weapon blanch (see Ultimate Equipment) to a weapon she is holding as a standard action, instead of a full-round action. This ability replaces the 2nd-level fighter bonus combat feat.",
 			"",
 			"**Combat Repairs (Ex):** At 3rd level, a weapon bearer squire can ensure her liege never goes unarmed, even if his weapon has all but shattered. As a full-round action, a weapon bearer squire can make rapid repairs to a weapon she is holding and is proficient with by succeeding at a DC 20 Craft (weapons) check. The item does not regain any hit points, but loses the broken condition for a number of rounds equal to the weapon bearer squire's class level. This ability replaces armor training 1."
-		]
+		],
+		"display": "archetype/fighter"
 	},
-	{
+	"weapon_master": {
 		"name": "Weapon Master",
 		"file": "archetypedisplay8d76.html",
 		"sources": [ "Advanced Player's Guide" ],
@@ -2379,6 +2447,7 @@
 			"**Critical Specialist (Ex):** At 17th level, the save DCs of any effects caused by a critical hit with a weapon master's chosen weapon increase by +4. This ability replaces weapon training 4.",
 			"",
 			"**Unstoppable Strike (Ex):** At 19th level, a weapon master can take a standard action to make one attack with his chosen weapon as a touch attack that ignores damage reduction (or hardness, if attacking an object). This ability replaces armor mastery."
-		]
+		],
+		"display": "archetype/fighter"
 	}
-]
+}

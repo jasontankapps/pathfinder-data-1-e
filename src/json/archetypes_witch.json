@@ -1,5 +1,5 @@
-[
-	{
+{
+	"alley_witch": {
 		"name": "Alley Witch",
 		"file": "archetypedisplay20d3.html",
 		"sources": [ "Heroes of the Streets" ],
@@ -27,9 +27,10 @@
 			"**Speak to the City:** An alley witch builds a special rapport with a single city. At 1st level, she can select one settlement whose type is large town size or larger. Within this settlement, she gains a +2 bonus on initiative checks, as well as Knowledge (local), Perception, Stealth, and Sense Motive checks. At 6th level and every 5 witch levels thereafter, this bonus increases by 2. The alley witch can build a rapport with a new city after 30 days of remaining there; this severs her bond to her previous settlement. This ability replaces the witch's 1st-level hex.",
 			"",
 			"**Hex Trader:** At 6th level, once per day as a full-round action, an alley witch can bind a hex she knows into a feather, bead, or other small token. Any creature holding this token can use that hex once as if using a potion, targeting itself or a creature it touches. While a hex is sealed into a token, the alley witch loses her ability to use that hex until the token is used or she can recover the token. If a hex can be used in increments (like the disguise hex), the alley witch decides how many increments the token contains when making it. If a hex has no set duration, it lasts for 1 minute once activated. This ability replaces the witch's 6th-level hex."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"ashiftah": {
 		"name": "Ashiftah",
 		"file": "archetypedisplaye99a.html",
 		"sources": [ "Qadira, Jewel of the East" ],
@@ -59,9 +60,10 @@
 			"**Fog of War (Sp):** At 6th level, as a standard action, an ashiftah can blanket a 20-foot-radius area of the battlefield in a clammy mist that functions as per barrow haze, allowing her to treat any area within the mist as within 30 feet for purposes of her hexes, as long as some part of that area is within 30 feet of her.",
 			"",
 			"This replaces the hex gained at 6th level."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"beast-bonded": {
 		"name": "Beast-Bonded",
 		"file": "archetypedisplay40dc.html",
 		"sources": [ "Ultimate Magic" ],
@@ -91,14 +93,17 @@
 			"**Major Hexes:** The following major hex complements the beast-bonded archetype: beast eye.",
 			"",
 			"**Grand Hexes:** The following grand hex complements the beast-bonded archetype: forced reincarnation."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"bonded_witch": {
 		"name": "Bonded Witch",
 		"file": "archetypedisplay9788.html",
 		"sources": [ "Advanced Race Guide" ],
 		"replaces": "Familiar",
-		"replace_array": [ "Familiar" ],
+		"replace_array": [
+			"Familiar"
+		],
 		"short_description": "(Half-Elf Only) While all witches commune with the unknown, the blend of human ingenuity and adept learning mixed with elven blood gives some half-elves a unique conduit to channel the powers of the arcane.",
 		"description": [
 			"## Bonded Witch",
@@ -123,9 +128,10 @@
 			"**Weapon:** 2nd-warding weapon; 4th-versatile weapon; 6th-greater magic weapon; 8th-telekinetic charge; 10th-energy siege shot; 12th-blade barrier; 14th-arcane cannon; 16th-earthquake; 18th-ride the lightning.",
 			"",
 			"This ability replaces the witch's familiar class feature."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"bouda": {
 		"name": "Bouda",
 		"file": "archetypedisplay8401.html",
 		"sources": [ "Monster Codex" ],
@@ -160,9 +166,10 @@
 			"The bouda does not lose the ability to speak while in animal form, and can communicate with hyenas and dire hyenas as if under the effects of speak with animals. Furthermore, while in this form, the bouda gains the benefit of the Natural Spell feat, even if she does not meet the prerequisites.",
 			"",
 			"This ability replaces the major hex granted at 10th level."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"cartomancer": {
 		"name": "Cartomancer",
 		"file": "archetypedisplay0944.html",
 		"sources": [ "The Harrow Handbook" ],
@@ -191,9 +198,10 @@
 			"**Major Hexes:** The following major hexes complement the cartomancer archetype: harrowing curse (see below), vision.",
 			"",
 			"**Grand Hexes:** The following grand hex complements the cartomancer archetype: dire prophecy."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"coral_witch": {
 		"name": "Coral Witch",
 		"file": "archetypedisplay4478.html",
 		"sources": [ "Blood of the Sea" ],
@@ -229,9 +237,10 @@
 			"**Major Hexes:** The following major hexes complement the coral witch archetype: beast eye, hag's eye, weather control.",
 			"",
 			"**Grand Hexes:** The following grand hex complements the coral witch archetype: life giver."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"demon-sworn": {
 		"name": "Demon-Sworn",
 		"file": "archetypedisplay949c.html",
 		"sources": [ "Heroes of the Darklands" ],
@@ -262,9 +271,10 @@
 			"This familiar cannot be replaced, and if slain, the ritual to replace the lost familiar recreates the same quasit, along with the same spells previously known. Replacing the familiar in this fashion also imparts the demon-sworn with 1 permanent negative level, as if she had been hit by an energy-draining creature.",
 			"",
 			"This ability replaces the hex gained at 6th level."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"dimensional_occultist": {
 		"name": "Dimensional Occultist",
 		"file": "archetypedisplay843f.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
@@ -288,9 +298,10 @@
 			"**Commune with Familiar (Sp):** At 8th level, a dimensional occultist can use her familiar as a link between herself and strange, otherworldly intelligences on other planes. Once per week, she may use this link to cast contact other plane as a spell-like ability, at a caster level equal to her witch level. The entity contacted replies to the witch via her familiar (which speaks in a strange disembodied voice), via telepathic contact, or by some similarly disconcerting method of communication. When a witch uses this method to contact other planes, she gains a +4 bonus on the Intelligence check to avoid the decrease to Intelligence and Charisma. If she still fails the save, the Intelligence/Charisma decrease lasts only 24 hours rather than a number of weeks. This ability replaces the witch's hex gained at 8th level.",
 			"",
 			"**Dimensional Waypoints (Ex):** At 12th level, a dimensional occultist can create a dimensional waypoint by spending 2d4 minutes inscribing a number of equations on a solid surface (such as a wall, tree, stone floor, or structure) with a writing instrument. The exact configuration of these equations is unique to each witch. From that point on, when she uses dimensional travel to travel to that location, she does so without any chance of mishap. Teleport always sends the witch to this spot, and even plane shift, if used to travel to that site, is precisely accurate. Once a dimensional waypoint is set, it remains active for that witch despite the condition of the inscription or even that of the surface upon which it was inscribed-it is the act of inscribing the waypoint, not the waypoint itself, that matters. At 12th level, and then again every two witch levels thereafter, the dimensional occultist can maintain an additional waypoint. She can replace a waypoint she's already set by simply using that waypoint's unique equation at a new site. This ability replaces the witch's hex gained at 12th level."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"dreamweaver": {
 		"name": "Dreamweaver",
 		"file": "archetypedisplayb621.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -326,9 +337,10 @@
 			"**Major Hexes:** The following major hexes complement the dreamweaver archetype: nightmare, vision .",
 			"",
 			"**Grand Hexes:** The following major hexes complement the dreamweaver archetype: eternal slumber ; dire prophecy ."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"flood_walker": {
 		"name": "Flood Walker",
 		"file": "archetypedisplay5ef5.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -378,9 +390,10 @@
 			"**Major Hexes:** The following major hex complements the flood walker archetype: weather control.",
 			"",
 			"**Grand Hexes:** The following grand hex complements the flood walker archetype: natural disaster."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"gingerbread_witch": {
 		"name": "Gingerbread Witch",
 		"file": "archetypedisplay35c0.html",
 		"sources": [ "Horror Adventures" ],
@@ -428,9 +441,10 @@
 			"**Horrible Hunger (Sp):** At 16th level, a gingerbread witch can affect a target as if she had cast feast of ashes on it, but with her hex DC instead of the spell's DC. This hunger is so intense that any creature can offer the target food as a standard action and the target is compelled to eat it, as if the creature offering it had cast beguiling gift (with a DC and caster level equal to that of the witch's hexes). She can use this ability once per day for every 4 witch levels she has.",
 			"",
 			"This ability replaces the hex gained at 16th level."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"gravewalker": {
 		"name": "Gravewalker",
 		"file": "archetypedisplay0a40.html",
 		"sources": [],
@@ -466,9 +480,10 @@
 			"**Major Hexes:** The following major hexes complement the gravewalker archetype: ice tomb, infected wounds, waxen image.",
 			"",
 			"**Grand Hexes:** The following grand hexes complement the gravewalker archetype: death curse, summon spirit."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"hag_of_gyronna": {
 		"name": "Hag of Gyronna",
 		"file": "archetypedisplayad6f.html",
 		"sources": [ "People of the River" ],
@@ -496,9 +511,10 @@
 			"**Sunder Hope (Su):** At 8th level, a hag of Gyronna can violently dismiss her curses to counter magical boons and impose her own capricious whims. Once per day, after the hag of Gyronna has successfully affected a creature within 30 feet with a mind-affecting spell, spell-like ability, or hex with a duration of longer than 1 round, she can choose to dismiss the mind-affecting effect as an immediate action. If she dismisses this effect in response to another creature targeting her victim with a beneficial spell or ability, the witch's effect is dismissed and the caster of the beneficial spell or ability must succeed at a Will save (DC = 10 + 1/2 the witch's level + her Intelligence modifier) or the spell or ability is wasted to no effect and the targeted victim takes 1d4 points of Wisdom damage. At 14th and 20th levels, a hag of Gyronna can use this ability an additional time per day. This ability replaces the witch's 8th-level hex.",
 			"",
 			"**Hag Crony (Su):** At 12th level, a hag of Gyronna gains a blessing from the Angry Hag in the form of an alliance with a night hag (Pathfinder RPG Bestiary 215). Once per week, the hag of Gyronna can as a full-round action summon the night hag from the Shadow Plane. The night hag serves the hag of Gyronna to the best of its ability as long as the witch's commands are consistent with the night hag's alignment and goals, but flees back to its native plane after a number of rounds equal to the witch's level or upon losing half or more of its hit points. The night hag may provide the hag of Gyronna with other favors or gifts at the GM's discretion. At 15th and 18th levels, a hag of Gyronna can call upon her hag crony an additional time per week. This ability replaces the witch's 12th-level hex."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"hagbound": {
 		"name": "Hagbound",
 		"file": "archetypedisplay2cfd.html",
 		"sources": [ "Blood of the Coven" ],
@@ -541,14 +557,17 @@
 			"**Hag Transformation:** At 20th level, the hagbound transforms into a true hag, purging all goodness and light from her in exchange for dark power. Her alignment becomes evil if it isn't already. Her type changes to monstrous humanoid, and she gains darkvision 60 feet; immunity to charm, fear, and spell effects; and the ability to join a coven. She gains spell resistance 31, and she grants this benefit to her other coven members.",
 			"",
 			"This replaces the hex gained at 20th level."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"havocker": {
 		"name": "Havocker",
 		"file": "archetypedisplay948d-2.html",
 		"sources": [ "Magic Tactics Toolbox" ],
 		"replaces": "Hexes",
-		"replace_array": [ "Hexes" ],
+		"replace_array": [
+			"Hexes"
+		],
 		"short_description": "Although most witches are guided to subtle curses and debilitating hexes by their mysterious patrons, some are instead taught the secrets of harnessing raw, destructive elemental power.",
 		"description": [
 			"## Havocker",
@@ -565,9 +584,10 @@
 			"This ability replaces the witch's hexes from 2nd level on, major hex, and grand hex.",
 			"",
 			"**Spellburn:** Beginning at 2nd level, a havocker can channel stored spell energy into her kinetic blast to increase the blast's overall utility and power. To use her inf sions, the havocker must lose a prepared witch spell to apply the infusion to her kinetic blast. Any spell sacrificed is required to have a spell level equal to or greater than the infusion's effective spell level. The havocker cannot accept additional burn if the infusion would allow her to do so."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"hedge_witch": {
 		"name": "Hedge Witch",
 		"file": "archetypedisplay8a35.html",
 		"sources": [ "Ultimate Magic" ],
@@ -594,9 +614,10 @@
 			"**Major Hexes:** The following major hexes complement the hedge witch archetype: major healing, weather control, witch's brew.",
 			"",
 			"**Grand Hexes:** The following grand hex complements the hedge witch archetype: life giver."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"herb_witch": {
 		"name": "Herb Witch",
 		"file": "archetypedisplay7229.html",
 		"sources": [
@@ -638,9 +659,10 @@
 			"**Major Hexes:** The following major hexes complement the herb witch archetype: major healing, weather control, witch's brew.",
 			"",
 			"**Grand Hexes:** The following grand hex complements the herb witch archetype: life giver."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"hex_channeler": {
 		"name": "Hex Channeler",
 		"file": "archetypedisplayb4c7.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -666,9 +688,10 @@
 			"**Major Hexes:** The following major hexes complement the hex channeler archetype: agony, cook people, infected wounds, major healing, and retribution.",
 			"",
 			"**Grand Hexes:** The following grand hexes complement the hex channeler archetype: death curse, dire prophecy, life giver, and summon spirit."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"invoker": {
 		"name": "Invoker",
 		"file": "archetypedisplay8939.html",
 		"sources": [ "Haunted Heroes Handbook" ],
@@ -713,9 +736,10 @@
 			"**Second Invocation (Su):** At 10th level, whenever an invoker uses her invoke patron ability, she selects two different facets of her patron for herself instead of one. Otherwise, this functions like a hunter's second animal focus ability.",
 			"",
 			"This ability replaces the witch's 10th-level hex"
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"jinx_witch": {
 		"name": "Jinx Witch",
 		"file": "archetypedisplay507c.html",
 		"sources": [ "Blood of the Beast" ],
@@ -756,9 +780,10 @@
 			"**Major Hexes:** The following major hexes complement the jinx witch archetype: hag's eye, retribution, and waxen image.",
 			"",
 			"**Grand Hexes:** The following grand hexes complement the jinx witch archetype: death curse, dire prophecy, and natural disaster."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"ley_line_guardian": {
 		"name": "Ley Line Guardian",
 		"file": "archetypedisplayb64f.html",
 		"sources": [ "Occult Adventures" ],
@@ -781,9 +806,10 @@
 			"**Conduit Surge (Su):** At 1st level, a ley line guardian is adept at channeling energy from ley lines to enhance her own spells. As a swift action, she can increase her effective caster level for the next spell she casts in that round by 1d4-1 levels. After performing a conduit surge, the ley line guardian must succeed at a Fortitude save (DC = 10 + level of spell cast + number of additional caster levels granted) or become staggered for a number of minutes equal to the level of the spell cast. At 8th level, the caster level increase becomes 1d4. She can use this ability a number of times per day equal to 3 + her Charisma modifier.",
 			"",
 			"This ability replaces familiar and the hexes gained at 1st and 8th levels."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"medium": {
 		"name": "Medium",
 		"file": "archetypedisplayd60c.html",
 		"sources": [ "Undead Slayer's Handbook" ],
@@ -814,14 +840,17 @@
 			"**Major Hexes:** The following major hexes complement the medium archetype: speak in dreams, vision.",
 			"",
 			"**Grand Hexes:** The following grand hex complements the medium archetype: summon spirit."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"mirror_witch": {
 		"name": "Mirror Witch",
 		"file": "archetypedisplay8419.html",
 		"sources": [],
 		"replaces": "Familiar",
-		"replace_array": [ "Familiar" ],
+		"replace_array": [
+			"Familiar"
+		],
 		"short_description": "Mirror witches eschew animal familiars and isntead talk to their patrons via mirror magic",
 		"description": [
 			"## Mirror Witch",
@@ -876,9 +905,10 @@
 			"**Scrying (Sp):** By consulting with her patron fragment for 1 hour, the mirror witch can expend a single use of cryptic omens to use scrying as a spell-like ability with a caster level equal to her witch level, using the patron mirror as the focus.",
 			"",
 			"**Mirror Casting (Su):** When using the mirror's scrying ability, detect chaos, detect evil, detect good, detect law, detect magic, message, read magic, and tongues all function reliably through the sensor. Also, if the mirror witch is at least 15th level, there is a 5% chance each of the following spells operates successfully through the sensor: cause fear, charm person, command, crushing despair, deep slumber, enthrall, fear, hold person, moonstruck, seek thoughts, and sleep; a creature that succeeds at its saving throw against one of these linked spells is forever immune to that particular mirror witch's attempts to cast that spell on that creature through her mirror."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"mountain_witch": {
 		"name": "Mountain Witch",
 		"file": "archetypedisplay4b93.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -906,9 +936,10 @@
 			"**Major Hexes:** The following major hexes complement the mountain witch archetype: beast eye, hidden home, hoarfrost, and weather control.",
 			"",
 			"**Grand Hexes:** The following grand hexes complement the mountain witch archetype: eternal slumber, natural disaster, and witch's hut."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"nexian_spellspy": {
 		"name": "Nexian Spellspy",
 		"file": "archetypedisplay622b.html",
 		"sources": [ "Inner Sea Intrigue" ],
@@ -943,9 +974,10 @@
 			"**Major Hexes:** The following major hexes complement the Nexian spellspy witch archetype beast eye, hag's eye, and vision.",
 			"",
 			"**Grand Hex:** The following grand hex complements the Nexian spellspy archetype dire prophecy."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"pact_witch": {
 		"name": "Pact Witch",
 		"file": "archetypedisplayef49.html",
 		"sources": [],
@@ -1003,9 +1035,10 @@
 			"**Planar Familiar:** When a pact witch reaches 6th level, his familiar turns into an outsider native to his chosen plane. The familiar retains its spells known; its memories; and its Intelligence, Wisdom, and Charisma scores, but is treated as a member of its new race in all other respects. The type of creature the familiar becomes is indicated above on Table 1-1: Planar Pacts; if more than one type of familiar is listed, a pact witch can choose which type his familiar becomes.",
 			"",
 			"This alters the witch's familiar and replaces the hex normally gained at 6th level."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"patron_familiars": {
 		"name": "Patron Familiars",
 		"file": "archetypedisplayc3c2.html",
 		"sources": [ "Familiar Folio" ],
@@ -1044,9 +1077,10 @@
 			"**Water-Amphibious Familiar (Su):** The familiar can breathe water for a number of minutes per day equal to 1/2 its master's witch level. These minutes need not be consecutive, but they must be spent in 1-minute intervals. If the familiar can already breathe water, it can breathe air for the same duration. At 10th level, the familiar gains a swim speed of 30 feet (or a land speed of 30 feet if it already has a swim speed) while using this ability. At 20th level, the familiar can move through water as though under the effects of freedom of movement while using this ability.",
 			"",
 			"**Wisdom-Preternatural Wisdom (Su):** The familiar gains a Wisdom score of 6. This score increases by 1 point at 3rd level and every 2 levels thereafter (at the same rate as its Intelligence score). This may cause a familiar whose Wisdom score is typically higher than 6 to start with a lower Wisdom score than normal."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"putrefactor": {
 		"name": "Putrefactor",
 		"file": "archetypedisplay09ed.html",
 		"sources": [ "Blood of the Coven" ],
@@ -1087,9 +1121,10 @@
 			"**Disgorge Swarm (Ex):** At 6th level, while her familiar is inside her, the putrefactor can disgorge all the crawling creatures within her at once as a standard action, retaining only her familiar. When she does, she loses 2 hit points per class level and forms a spider swarm as per the spell vomit swarm. The swarm gains the Armor Class and saving throw bonuses of her familiar. The swarm deals her verminous blood damage instead of its normal damage; while the swarm lasts, the putrefactor loses access to her verminous blood ability. The witch can target creatures with her hexes as if she occupied both the swarm's space and her own. When the duration ends, the swarm tries its best to return to her and crawl back into her body, restoring hit points equal to its current hit points, up to her maximum hit points. If the swarm dies or cannot return to her once the spell's duration ends, the witch does not regain any of her spent hit points. Once she reabsorbs the swarm, she can't disgorge it again for 1 hour.",
 			"",
 			"This replaces the hex gained at 6th level."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"rhetorician": {
 		"name": "Rhetorician",
 		"file": "archetypedisplaya964.html",
 		"sources": [ "Arcane Anthology" ],
@@ -1110,9 +1145,10 @@
 			"**Eldritch Glibness:** At 2nd level and every two witch levels thereafter, a rhetorician gains the following spells as spells known at the spell levels listed in parentheses. These spells are automatically added to the list of spells stored by her familiar. She treats these as being on the witch class spell list: 2nd-confusion, lesser (1st), 4th-detect thoughts (2nd), 6th-glibness (3rd), 8th-sculpt sound (4th), 10th-modify memory (5th), 12th-symbol of persuasion (6th), 14th-song of discord (7th), 16th-greater shout (8th), 18th- weird (9th). This ability replaces all the spells the witch gains from her patron.",
 			"",
 			"**Public Speaker (Ex):** A rhetorician gains Perform as a class skill. In addition, she is trained to project her voice with great skill and effect; the DC to hear her speak in difficult conditions is reduced by an amount equal to her class level + her Intelligence modifier (minimum 0)."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"scarred_witch_doctor": {
 		"name": "Scarred Witch Doctor",
 		"file": "archetypedisplay31b3.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -1149,9 +1185,10 @@
 			"**Major Hexes:** The following major hexes complement the scarred witch doctor archetype: agony, nightmare cook people, infected wounds.",
 			"",
 			"**Grand Hexes:** The following grand hexes complement the scarred witch doctor archetype: death curse, natural disaster dire prophecy."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"sea_witch": {
 		"name": "Sea Witch",
 		"file": "archetypedisplaycbe1.html",
 		"sources": [ "Ultimate Magic" ],
@@ -1180,9 +1217,10 @@
 			"**Major Hexes:** The following major hexes complement the sea witch archetype: hag eye, hidden home, weather control.",
 			"",
 			"**Grand Hexes:** The following grand hex complements the sea witch archetype: natural disaster."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"season_witch": {
 		"name": "Season Witch",
 		"file": "archetypedisplayb6d0.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -1217,9 +1255,10 @@
 			"**Major Hexes:** The following major hexes complement the season witch archetype: speak in dreams (spring), agony (summer), hoarfrost (autumn), major healing (winter).",
 			"",
 			"**Grand Hexes:** The following grand hexes complement the season witch archetype: forced reincarnation (spring), natural disaster (summer), death curse (autumn), life giver (winter)."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"seducer": {
 		"name": "Seducer",
 		"file": "archetypedisplay6e29.html",
 		"sources": [ "Legacy of the First World" ],
@@ -1253,9 +1292,10 @@
 			"**Garden of Delight (Su):** At 8th level, the seducer can create a magical bower once per day. This functions as tiny hut with a caster level equal to the seducer's witch level, but the interior is a lush garden. Those who rest for 8 hours within the garden heal at twice the usual rate. In addition, any creature engaging in willing sexual relations with the seducer in this garden gains a +2 morale bonus on saving throws for the next 24 hours. This bonus does not apply on saving throws against the seducer's spells or abilities.",
 			"",
 			"This replaces the hex gained at 8th level."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"synergist": {
 		"name": "Synergist",
 		"file": "archetypedisplay0e0b.html",
 		"sources": [ "Familiar Folio" ],
@@ -1287,9 +1327,10 @@
 			"At 14th level, during symbiosis the synergist gains any abilities the familiar possesses that are listed under beast shape IV. If the familiar has multiple natural attacks, the synergist gains them all, rather than just one.",
 			"",
 			"This ability replaces the hexes gained at 1st, 8th, and 14th level."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"tatterdemalion": {
 		"name": "Tatterdemalion",
 		"file": "archetypedisplaye0de.html",
 		"sources": [ "Horror Adventures" ],
@@ -1333,9 +1374,10 @@
 			"**Unravel (Su):** At 16th level, once per day when a tatterdemalion is hit by a melee or ranged attack, she can unravel herself as an immediate action, causing her body and gear to appear to collapse into a bundle of tattered rags and strands while she teleports to any open square within 30 feet. She takes no damage from the triggering attack, but she must have line of effect to the target square. She can use this ability twice per day at 20th level.",
 			"",
 			"These replace the hexes gained at 4th, 8th, 12th, and 16th levels."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"vellemancer": {
 		"name": "Vellemancer",
 		"file": "archetypedisplayd4b5.html",
 		"sources": [ "Blood of the Coven" ],
@@ -1368,9 +1410,10 @@
 			"**Expanded Wishgranter (Su):** At 8th level, the vellemancer adds the following spells to her familiar for free: bear's endurance, bull's strength, cat's grace, eagle's splendor, fox's cunning, and owl's wisdom. The vellemancer can cast these spells only as part of her wishgranter ability, but she can sacrifice any prepared spell of 2nd level or lower to spontaneously cast one of these spells.",
 			"",
 			"This replaces the hex normally gained at 8th level."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"veneficus_witch": {
 		"name": "Veneficus Witch",
 		"file": "archetypedisplay2174.html",
 		"sources": [ "People of the River" ],
@@ -1403,9 +1446,10 @@
 			"**Major Hexes:** The following major hexes complement the veneficus witch archetype: cook people, witch's brew.",
 			"",
 			"**Grand Hex:** The following grand hex complements the veneficus witch archetype: eternal slumber."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"venom_siphoner": {
 		"name": "Venom Siphoner",
 		"file": "archetypedisplay743e.html",
 		"sources": [ "Potions and Poisons" ],
@@ -1432,9 +1476,10 @@
 			"**Venom Expert (Ex):** At 2nd level, a venom siphoner does not risk exposure to her familiar's poison when attempting to milk venom from it (see page 142 of Pathfinder RPG Ultimate Wilderness). This replaces the hex gained at 2nd level.",
 			"",
 			"**Toxic Blood (Ex):** At 6th level, the venom siphoner's blood becomes toxic, empowering her abilities. Any creature that deals bleed damage to her with a natural, light, or one-handed weapon is automatically exposed to the same poison granted to her familiar and must succeed at the save or be affected by the poison. Additionally, when casting spells that have a single target and require a Fortitude save, she can cause the spell to deliver this poison as a free action; a target who succeeds at the save against the spell also avoids being affected by the poison. She can cause spells to deliver poison in this way a number of times per day equal to 3 + her Intelligence modifier. This ability refreshes when the venom siphoner communes with her familiar to prepare her daily spells. This replaces the hex gained at 6th level."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"white-haired_witch": {
 		"name": "White-Haired Witch",
 		"file": "archetypedisplaybd48.html",
 		"sources": [ "Dragon Empires Primer" ],
@@ -1468,9 +1513,10 @@
 			"This ability replaces hex.",
 			"",
 			"**Rogue Talents:** At 10th level, a white-haired witch learns a rogue talent, using her white-haired witch level in place of her rogue level. At 12th level and for every two levels thereafter, she gains an additional rogue talent. A whitehaired witch cannot select an individual rogue talent more than once, and can select from among the following: assault leader, combat trick, finesse rogue, major magic, minor magic, positioning attack, resiliency, surprise attack, and weapon training. At 18th level and 20th level, a white-haired witch can choose from among the following advanced rogue talents: another day, defensive roll, improved evasion, opportunist, redirect attack, slippery mind, and thoughtful reexamining. This ability replaces major hex and grand hex."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"winter_witch": {
 		"name": "Winter Witch",
 		"file": "archetypedisplayf2ab.html",
 		"sources": [
@@ -1507,9 +1553,10 @@
 			"**Frostfoot (Su):** This ability works like the spider climb spell, but the surfaces the witch climbs must be icy. The witch can move across icy surfaces without penalty and does not need to make Acrobatics checks to run or charge on ice. She can move across regular snow without penalty, and heavy snow costs her only 2 squares of movement instead of 4.",
 			"",
 			"**Frozen Caress (Su):** Whenever the winter witch casts a touch spell, she can infuse the magic with cold as a swift action. This grants the spell the cold descriptor, and adds 1d4 points of cold damage to the spell's effect. If the touch spell allows a saving throw, a successful save negates this additional cold damage."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"witch-watcher": {
 		"name": "Witch-Watcher",
 		"file": "archetypedisplayf681.html",
 		"sources": [ "Heroes of the High Court" ],
@@ -1537,9 +1584,10 @@
 			"**Solace:** The witch-watcher temporarily disrupts a spell affecting her covenant ally by succeeding at a dispel check against the spell, as per dispel magic. The ability suppresses a spell effect for a number of rounds equal to the witchwatcher's Intelligence modifier (minimum 1). If the spell affects multiple creatures, this ability suppresses the spell effect only for the covenant ally. At the end of this duration, the spell resumes and the suppressed rounds do not count against its total duration. This ability has no effect on spells that are instantaneous or have a duration of permanent.",
 			"",
 			"**Spell Resistance:** The covenant ally gains spell resistance equal to 6 the witch-watcher's witch level for a number of rounds equal to the witch-watcher's Intelligence modifier. At 10th level, the spell resistance increases to 11 the witch-watcher's witch level. The spell resistance cannot be suppressed, but it doesn't affect spells cast by the witch-watcher."
-		]
+		],
+		"display": "archetype/witch"
 	},
-	{
+	"wyrm_witch": {
 		"name": "Wyrm Witch",
 		"file": "archetypedisplay1cfc.html",
 		"sources": [ "Legacy of Dragons" ],
@@ -1580,6 +1628,7 @@
 			"A wyrmwitch must commune with his hoard to ready his body and mind for casting spells. If he does not spend at least 8 hours resting atop his hoard prior to preparing spells, he must attempt a concentration check anytime he attempts to cast a spell (DC = 20 + the spell's level). If the wyrmwitch does prepare spells after properly sleeping on his hoard, he gains the ability to call on his hoard to cast any one spell it is holding and that he is capable of casting, even if the spell is not prepared. This spell is treated like any other spell cast by the wyrmwitch, including when determining casting time, duration, and other effects dependent on the wyrmwitch's level. This spell cannot be modified by metamagic feats or other abilities.",
 			"",
 			"This ability replaces witch's familiar."
-		]
+		],
+		"display": "archetype/witch"
 	}
-]
+}

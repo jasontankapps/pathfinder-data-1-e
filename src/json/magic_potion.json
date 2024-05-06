@@ -1,26 +1,28 @@
 {
-	"list": [
-		{
-			"name": "Calming Oils (Gozreh)",
-			"searchable_name": "Calming Oils",
-			"file": "magicpotionsdisplay3b24.html",
-			"sources": [ "Faiths of Balance" ],
-			"cost": 1000,
-			"slot": "none",
-			"weight": 0,
-			"description": [
-				"## Calming Oils (Gozreh)",
-				"",
-				"**Source** [Faiths of Balance pg. 26](source:faiths_of_balance)   ",
-				"**Aura** faint abjuration; **CL** 5th   ",
-				"**Slot** none; **Price** 1,000 gp; **Weight** -",
-				"",
-				"A vial of calming oils help to lessen the rip and fury of great storms, reducing the winds (and the dangerous swells they create) in a 50-foot radius by one step (see page 439 of the Core Rulebook). This radius is measured from the person or ship's deck onto which it is poured, and travels with the oiled creature or surface if it is in motion (such as a ship under sail). If a spell that affects the wind, like control weather or whirlwind, would affect an area under the effect of calming oils, the spell's caster must make an opposed caster level check against the potion's caster level or the spell immediately ends. The oil's effect lasts for 1 hour, after which time the weather returns to normal. If Gozreh is your patron, you may drink the oil to give you water breathing for 1 hour.",
-				"",
-				"### Construction",
-				"",
-				"**Requirements** Brew Potion, water breathing, wind wall; **Cost** 500 gp"
-			]
-		}
-	]
+	"calming_oils_gozreh": {
+		"name": "Calming Oils (Gozreh)",
+		"searchable_name": "Calming Oils",
+		"file": "magicpotionsdisplay3b24.html",
+		"sources": [ "Faiths of Balance" ],
+		"cost": 1000,
+		"slot": "none",
+		"weight": 0,
+		"description": [
+			"## Calming Oils (Gozreh)",
+			"",
+			"**Source** [Faiths of Balance pg. 26](source:faiths_of_balance)   ",
+			"**Aura** faint abjuration; **CL** 5th   ",
+			"**Slot** none; **Price** 1,000 gp; **Weight** -",
+			"",
+			"A vial of calming oils help to lessen the rip and fury of great storms, reducing the winds (and the dangerous swells they create) in a 50-foot radius by one step (see page 439 of the Core Rulebook). This radius is measured from the person or ship's deck onto which it is poured, and travels with the oiled creature or surface if it is in motion (such as a ship under sail). If a spell that affects the wind, like control weather or whirlwind, would affect an area under the effect of calming oils, the spell's caster must make an opposed caster level check against the potion's caster level or the spell immediately ends. The oil's effect lasts for 1 hour, after which time the weather returns to normal. If Gozreh is your patron, you may drink the oil to give you water breathing for 1 hour.",
+			"",
+			"### Construction",
+			"",
+			"**Requirements** Brew Potion, water breathing, wind wall; **Cost** 500 gp"
+		],
+		"display": "magic/potion"
+	},
+	"calming_oils": {
+		"copyof": "calming_oils_gozreh"
+	}
 }

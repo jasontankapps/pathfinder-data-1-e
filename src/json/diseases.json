@@ -258,8 +258,8 @@
 		],
 		"display": "disease"
 	},
-	"tetanus_": {
-		"name": "Tetanus ",
+	"tetanus": {
+		"name": "Tetanus",
 		"file": "diseases9afa.html",
 		"sources": [ "Pathfinder #1: Burnt Offerings" ],
 		"type": "injury",

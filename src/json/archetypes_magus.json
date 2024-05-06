@@ -1,5 +1,5 @@
-[
-	{
+{
+	"armored_battlemage": {
 		"name": "Armored Battlemage",
 		"file": "archetypedisplayb7dd.html",
 		"sources": [ "Armor Master's Handbook" ],
@@ -42,9 +42,10 @@
 			"**Expanded Arcane Pool (Su):** At 14th level, the armored battlemage can grant his armor the glamered special ability at the cost of a +2 bonus, the slick or shadow special ability at the cost of a +3 bonus, and the greater slick or greater shadow special ability at the cost of a +5 bonus when using his arcane pool.",
 			"",
 			"This ability replaces greater spell combat."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"beastblade": {
 		"name": "Beastblade",
 		"file": "archetypedisplay9632.html",
 		"sources": [ "Familiar Folio" ],
@@ -69,9 +70,10 @@
 			"**Familiar Pool (Su):** At 7th level, when a beastblade prepares his magus spells, he can expend points from his arcane pool (up to a maximum number of points equal to his Intelligence modifier) to empower his familiar. For each point expended in this way, the familiar can cast one magus spell as a spelllike ability once that day. Each spell selected must be 3 spell levels lower than the highest spell level the beastblade can cast, and can't require a material component that costs more than 1 gp. This ability replaces knowledge pool.",
 			"",
 			"**Familiar Spellstrike (Su):** At 11th level, whenever a beastblade's familiar successfully delivers a touch spell against a creature the magus threatens, the target provokes an attack of opportunity from the magus. This ability replaces improved spell recall."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"bladebound": {
 		"name": "Bladebound",
 		"file": "archetypedisplayff04.html",
 		"sources": [],
@@ -141,9 +143,10 @@
 			"**Spell Defense (Sp):** A magus of 17th level or higher can expend an arcane point from his weapon's arcane pool as a free action; he then gains SR equal to his black blade's ego until the start of his next turn.",
 			"",
 			"**Life Drinker (Su):** At 19th level, each time the magus kills a living creature with the black blade, he can pick one of the following effects: the black blade restores 2 points to its arcane pool; the black blade restores 1 point to its arcane pool and the magus restores 1 point to his arcane pool; the magus gains a number of temporary hit points equal to the black blade's ego (these temporary hit points last until spent or 1 minute, whichever is shorter). The creature killed must have a number of Hit Dice equal to half the magus's character level for this to occur."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"card_caster": {
 		"name": "Card Caster",
 		"file": "archetypedisplay2c61.html",
 		"sources": [ "The Harrow Handbook" ],
@@ -167,9 +170,10 @@
 			"**Harrowed Spellstrike (Su):** Beginning at 2nd level, a card caster can invest a single thrown weapon with a single touch or ranged spell as part of the spell's normal casting time. The spell must target a single creature, and the spell's range changes to match the thrown weapon's range increment. This ability otherwise functions identically to spellstrike, except it can only be applied to thrown ranged weapons instead of melee attacks. This ability replaces and modifies spellstrike.",
 			"",
 			"**Role Dealer (Su):** Beginning at 3rd level, whenever the card caster randomly draws and throws a harrow card matching one axis of his alignment, the card's critical threat range increases to 19-20. If the card caster draws and throws a harrow card matching his alignment exactly, the attack's critical multiplier also increases to \u001e3 and the magus gains a +4 bonus on his confirmation roll. This ability replaces the magus arcana gained at 3rd level."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"deep_marshal": {
 		"name": "Deep Marshal",
 		"file": "archetypedisplay9dc1.html",
 		"sources": [ "Arcane Anthology" ],
@@ -202,9 +206,10 @@
 			"In addition, she is treated as having a number of ranks in Knowledge (dungeoneering) and Profession (miner) equal to her magus level, and she attempts Profession (miner) checks using her Intelligence modifier instead of her Wisdom modifier.",
 			"",
 			"This ability replaces the magus arcana gained at 3rd level."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"eldritch_archer": {
 		"name": "Eldritch Archer",
 		"file": "archetypedisplay0b87.html",
 		"sources": [],
@@ -236,9 +241,10 @@
 			"If the spell can normally affect multiple targets, only a single missile, ray, or effect accompanies each attack; if the spell allows multiple attacks and the eldritch archer can make additional ranged attacks as part of a full-round action with spell combat, one additional ray, missile, or effect from the spell accompanies each subsequent ranged attack the eldritch archer makes in the same round until all attacks allowed by the spell are made. Unused missiles, rays, or effects remaining at the end of the eldritch archer's turn are wasted. This ability alters spellstrike.",
 			"",
 			"**Focusing Spellstrike (Su):** At 16th level, an eldritch archer can use ranged spellstrike to deliver a cone- or line-shaped spell as a ray, affecting only the creature or object struck. This ability replaces counterstrike."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"eldritch_scion": {
 		"name": "Eldritch Scion",
 		"file": "archetypedisplay52c5.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -280,14 +286,17 @@
 			"**Improved Spell Combat (Ex):** At 14th level, an eldritch scion gains the improved spell combat class feature. This ability alters improved spell combat.",
 			"",
 			"**Greater Spell Combat (Ex):** At 18th level, an eldritch scion gains the greater spell combat class feature. This ability alters greater spell combat."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"elemental_knight": {
 		"name": "Elemental Knight",
 		"file": "archetypedisplayc025.html",
 		"sources": [ "Advanced Race Guide" ],
 		"replaces": "Spell Recall",
-		"replace_array": [ "Spell Recall" ],
+		"replace_array": [
+			"Spell Recall"
+		],
 		"short_description": "(Suli Only) Elemental knights are born with elemental energies surging through their blood and discover the secret of reconciling and focusing this primal power into the arcane.",
 		"description": [
 			"## Elemental Knight",
@@ -306,9 +315,10 @@
 			"**Elemental Matrix (Su):** At 4th level, an elemental knight gains Incremental Elemental Assault (see below) as a bonus feat. In addition, at 4th level, as a swift action, an elemental knight may expend rounds of duration from her elemental assault ability. For every 4 rounds expended, he gains 1 arcane pool point. This ability replaces spell recall.",
 			"",
 			"**Magus Arcana:** The following magus arcana complement the elemental knight archetype: empowered magic, pool strike, spell shield."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"esoteric": {
 		"name": "Esoteric",
 		"file": "archetypedisplay752d.html",
 		"sources": [ "Occult Adventures" ],
@@ -350,9 +360,10 @@
 			"**AC Bonus (Ex):** At 7th level when an esoteric wears light or no armor, he gains a +1 dodge bonus to AC and CMD. This bonus increases by 1 at 13th level. He loses these bonuses while immobilized or helpless, or while wearing medium or heavy armor, using a shield, or carrying a medium or heavy load. This ability replaces medium armor and heavy armor.",
 			"",
 			"**Improved Tattooed Spell (Sp):** At 11th level, an esoteric can use each of his spell-like abilities from tattooed spell one additional time per day. This ability replaces improved spell recall."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"fiend_flayer": {
 		"name": "Fiend Flayer",
 		"file": "archetypedisplay83a0.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -378,9 +389,10 @@
 			"A fiend flayer can only have one fiendblade in existence at a time. If he uses this ability again, the first fiendblade disappears.",
 			"",
 			"**Bypassing Strike (Su):** The fiend flayer can expend 1 point from his arcane pool as a swift action to allow one melee or spellstrike attack he makes before the end of his turn to ignore an evil outsider target's damage reduction."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"greensting_slayer": {
 		"name": "Greensting Slayer",
 		"file": "archetypedisplay3757.html",
 		"sources": [ "Bastards of Golarion" ],
@@ -408,9 +420,10 @@
 			"**Magus Arcana:** In addition to the new magus arcana presented below, the following magus arcana complement the greensting slayer archetype: close range, hasted assault, maneuver mastery, pool strike, and silent magic.",
 			"",
 			"**Dark Shifter (Su):** The magus can expend 1 point from his arcane pool as a move action to change the target of an ongoing spell effect with the darkness descriptor within 60 feet. The new target must be within the spell's range, using the magus's level as the effective caster level for the purpose of determining the maximum range the effect can be moved from the magus. If the spell effect the magus is moving originated from another creature, the magus must succeed at a caster level check to reposition the effect (DC = 11 + the effect's caster level). Failure wastes the magus's move action, but does not expend the point from his arcane pool. The magus must be at least 6th level before selecting this arcana."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"hexbreaker": {
 		"name": "Hexbreaker",
 		"file": "archetypedisplay79ea.html",
 		"sources": [ "Blood of the Coven" ],
@@ -443,14 +456,17 @@
 			"**Wracking Dispel (Su):** Whenever the hexbreaker successfully dispels a spell using break enchantment, dispel magic, or remove curse, he can expend 1 point from his arcane pool to wrack the original caster with pain, dealing 1d4 points of damage per spell level of the effect dispelled. If the target succeeds at a Will save (DC = 15 + the level of the spell dispelled + the hexbreaker's Intelligence modifier) it takes only 1 point of damage per spell level. The hexbreaker cannot target the same caster more than once per round with this ability, regardless of how many effects he dispels.",
 			"",
 			"**Magus Arcana:** The following magus arcana complement the hexbreaker: bane blade, dispelling strike, disruptive, lingering pain, spellbreaker, and reflection."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"hexcrafter": {
 		"name": "Hexcrafter",
 		"file": "archetypedisplaybc2f.html",
 		"sources": [ "Ultimate Magic" ],
 		"replaces": "Spell Recall",
-		"replace_array": [ "Spell Recall" ],
+		"replace_array": [
+			"Spell Recall"
+		],
 		"short_description": "A hexcrafter magus has uncovered the secret of using his arcane pool to recreate witch hexes.",
 		"description": [
 			"## Hexcrafter",
@@ -467,9 +483,10 @@
 			"**Spells:** A hexcrafter magus adds the following spells to his magus spell list: bestow curse, major curse, and all other spells of 6th level or lower that have the curse descriptor.",
 			"",
 			"**Magus Arcana:** The following magus arcana complement the hexcrafter archetype: arcane accuracy, broad study, familiar, and quicken magic."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"iron-ring_striker": {
 		"name": "Iron-Ring Striker",
 		"file": "archetypedisplayccff.html",
 		"sources": [ "Martial Arts Handbook" ],
@@ -524,9 +541,10 @@
 			"**Reflexive Spell Maneuver (Ex):** At 16th level, when an iron-ring striker is the target of a combat maneuver check to bull rush, disarm, sunder, or trip, as an immediate action he can target his attacker with a magus spell he has prepared with a range of touch. If the spell would normally require a touch attack, an iron-ring striker can attempt a combat maneuver check for this attack instead. The iron-ring striker must be wearing light armor or no armor to use reflexive spell maneuver.",
 			"",
 			"This replaces counterstrike."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"jistkan_artificer": {
 		"name": "Jistkan Artificer",
 		"file": "archetypedisplay6cb3.html",
 		"sources": [ "Blood of the Ancients" ],
@@ -576,9 +594,10 @@
 			"**Sharpened Arm (Ex):** A Jistkan artificer can rework his arm to more closely resemble a blade. He can choose to deal piercing or slashing damage with his golem arm. When he does so, the golem arm threatens a critical hit on 19-20. The artificer also adds keen and wounding to his list of arcane pool weapon abilities.",
 			"",
 			"**Shielding Arm (Ex):** A Jistkan artificer learns to deflect blows with his arm. If he is not wielding any other weapons, he gains a shield bonus to his AC equal to his golem arm's enhancement bonus."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"kapenia_dancer": {
 		"name": "Kapenia Dancer",
 		"file": "archetypedisplay9d53.html",
 		"sources": [ "Varisia, Birthplace of Legends" ],
@@ -613,9 +632,10 @@
 			"**Spirit Step (Su):** Whenever the kapenia dancer scores a critical hit with a bladed scarf, he may expend 1 point from his arcane pool to teleport to any point within 30 feet. The kapenia dancer's turn ends after being teleported. The kapenia dancer must be at least 12th level before selecting this arcana.",
 			"",
 			"**Magus Arcana:** The following magus arcana from Ultimate Combat () and Ultimate Magic () complement the kapenia dancer archetype: arcane cloak, dispelling strike, hastened assault, maneuver mastery, prescient attack, prescient defense."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"kensai": {
 		"name": "Kensai",
 		"file": "archetypedisplay3b87.html",
 		"sources": [ "Ultimate Combat" ],
@@ -665,9 +685,10 @@
 			"**Weapon Mastery (Ex):** At 20th level, a kensai gains weapon mastery with his favored weapon, as the fighter class ability. This ability replaces true magus.",
 			"",
 			"**Magus Arcana:** The following magus arcana complement the kensai archetype: concentrate, critical strike, deadly follow-up, precise prowess, prescient attack, prescient defense, spell shield."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"magic_warrior": {
 		"name": "Magic Warrior",
 		"file": "archetypedisplay2eaf.html",
 		"sources": [
@@ -710,9 +731,10 @@
 			"This replaces greater spell access.",
 			"",
 			"**Magus Arcana:** The following magus arcana complement the Magic Warrior archetype: accurate strike, arcane accuracy, arcane cloak, arcane edge, bane blade, devoted blade, empowered magic, maximized magic, quickened magic, silent magic, spell blending, and still magic."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"mindblade": {
 		"name": "Mindblade",
 		"file": "archetypedisplay47dc.html",
 		"sources": [ "Occult Adventures" ],
@@ -761,9 +783,10 @@
 			"**Rapid Manifest (Su):** At 8th level, a mindblade can manifest a psychic weapon as a swift action. This ability replaces improved spell combat.",
 			"",
 			"**Dual Manifest (Su):** At 13th level, a mindblade can manifest two psychic weapons with the same action. She must pay the cost for both weapons. Also, when wielding a weapon two-handed, she can use her spell combat ability as though she had a hand free. This ability replaces heavy armor."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"myrmidarch": {
 		"name": "Myrmidarch",
 		"file": "archetypedisplay874b.html",
 		"sources": [ "Ultimate Combat" ],
@@ -802,9 +825,10 @@
 			"**Armor Mastery (Ex):** At 20th level, a myrmidarch gains DR 5/- when wearing armor. This ability replaces true magus.",
 			"",
 			"**Magus Arcana:** The following magus arcana complement the myrmidarch archetype: accurate strike, arcane edge, lingering pain, prescient attack, prescient defense, spell shield, spellbreaker."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"nature-bonded_magus": {
 		"name": "Nature-Bonded Magus",
 		"file": "archetypedisplayff2e.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -839,9 +863,10 @@
 			"**Improved Familiar Symbiosis (Su):** At 11th level, when a nature-bonded magus is merged with his familiar, he gains a +4 enhancement bonus to his Strength and Constitution.",
 			"",
 			"This replaces improved spell recall."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"puppetmaster": {
 		"name": "Puppetmaster",
 		"file": "archetypedisplay6306.html",
 		"sources": [ "Arcane Anthology" ],
@@ -881,9 +906,10 @@
 			"**The Show Must Go On (Su):** When a puppetmaster has a creature under the effects of an enchantment spell and that creature has line of sight to an illusion spell the puppetmaster has cast with a duration of concentration, the puppetmaster can link the illusion spell to the enchanted target. As long as the target has line of sight to the illusion and is enchanted, and the puppetmaster has line of sight to both the target and the illusion, the puppetmaster can maintain the illusion as a free action each round. The puppetmaster can maintain only one illusion spell in this way. At 13th level, the puppetmaster can maintain two illusion spells in this way, requiring a separate enchanted target for each illusion. This ability replaces medium armor and heavy armor.",
 			"",
 			"**Scene Stealer (Su):** At 20th level, if a puppetmaster successfully disbelieves an illusion, he can expend 1 point from his arcane pool to try to negate or steal control of the illusion. The puppetmaster attempts a caster level check as if he were dispelling the effect with dispel magic. If he succeeds, he can either end the effect or alter it as if he were the spell's caster. If the spell's duration is concentration, the puppetmaster must concentrate on the new effect (or transfer it to an enchanted target using the show must go on) or it ends. This ability replaces true magus."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"sigilus": {
 		"name": "Sigilus",
 		"file": "archetypedisplay1039.html",
 		"sources": [ "Adventurer's Guide" ],
@@ -919,9 +945,10 @@
 			"A Sihedron rune can be inscribed only on light armor-it cannot be inscribed on medium or heavy armor, even if the magus later gains proficiency with medium or heavy armor.",
 			"",
 			"This ability replaces medium armor and heavy armor."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"skirnir": {
 		"name": "Skirnir",
 		"file": "archetypedisplaya98a.html",
 		"sources": [ "Ultimate Combat" ],
@@ -964,9 +991,10 @@
 			"**Greater Spellshield (Su):** At 16th level, a skirnir may activate a stored spell as an immediate action after being struck in combat. He may choose to have the spell affect himself or the creature that struck him. This ability replaces counterstrike.",
 			"",
 			"**Magus Arcana:** The following magus arcana complement the skirnir archetype: arcane redoubt, arcane redoubt (greater), enduring blade (may use on weapon or shield), pool strike, pool strike (arcing, clinging, thundering), prescient defense, reflection."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"sorrowblade": {
 		"name": "Sorrowblade",
 		"file": "archetypedisplay61f7-2.html",
 		"sources": [ "Pathfinder: Spiral of Bones #4" ],
@@ -992,9 +1020,10 @@
 			"**Wretched Strike (Su):** At 12th level, the sorrowblade can cause foes to lose all hope. By spending 1 point from her arcane pool as a swift action, she can imbue the weapon she is wielding with the power of unbridled pessimism. The first creature she strikes with this weapon within the next minute must succeed at a Will saving throw (DC = to + 1/2 the sorrowblade's magus level + her intelligence modifier) or take a -2 penalty an attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls for 1 hour. Additionally, during this time, the creature can't gain morale bonuses of any kind, and whenever the creature rolls a natural 1 on an attack roll or saving throw, fails an ability or skill check by more than 5, or takes additional damage as a result of a foe's confirmed critical hit, the penalty on rolls imposed by the wretched strike becomes -3 for 1 round. This increased penalty doesn't stack, even if multiple catastrophes occur on the same round.",
 			"",
 			"This ability replaces the magus arcana gained at 12th level."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"soul_forger": {
 		"name": "Soul Forger",
 		"file": "archetypedisplay4d1f.html",
 		"sources": [ "Ultimate Combat" ],
@@ -1037,9 +1066,10 @@
 			"**Instantaneous Reconstruction (Su):** At 19th level, a soul forger can reforge a destroyed item by touch as a standard action that does not provoke attacks of opportunity. This ability replaces greater spell access.",
 			"",
 			"**Magus Arcana:** The following magus arcana complement the soul forger archetype: arcane accuracy, bane blade, devoted blade, dispelling strike, enduring blade, and ghost blade."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"spell_dancer": {
 		"name": "Spell Dancer",
 		"file": "archetypedisplay6ae4.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -1072,9 +1102,10 @@
 			"**Greater Dance of Avoidance (Su):** At 13th level, while wearing light armor or no armor, a spell dancer's insight bonus to Armor Class increases to +4. This ability replaces the heavy armor class feature.",
 			"",
 			"**Magus Arcana:** The following magus arcana complement the spell dancer archetype: arcane cloak, prescient defense; close range, concentrate, hasted assault, spell shield."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"spell_trapper": {
 		"name": "Spell Trapper",
 		"file": "archetypedisplaya3d8.html",
 		"sources": [ "Magic Tactics Toolbox" ],
@@ -1108,14 +1139,17 @@
 			"**Distant Trapping (Sp):** At 10th level, a spell trapper can create spell traps at a distance. She can create her traps at close range (25 feet + 5 feet per 2 caster levels) as a full-round action that provokes attacks of opportunity.",
 			"",
 			"This replaces the fighter training ability."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"spellblade": {
 		"name": "Spellblade",
 		"file": "archetypedisplayda2c.html",
 		"sources": [ "Ultimate Magic" ],
 		"replaces": "Spellstrike",
-		"replace_array": [ "Spellstrike" ],
+		"replace_array": [
+			"Spellstrike"
+		],
 		"short_description": "A spellblade magus can manifest a ghostly blade of force that can be used as an off-hand weapon.",
 		"description": [
 			"## Spellblade",
@@ -1134,9 +1168,10 @@
 			"**Throw Athame (Su):** As a standard action, a spellblade magus can throw his athame up to 60 feet as a ranged attack (no range penalty). If the athame misses, it returns automatically to the magus' hand just before his next turn. If the athame hits, it deals damage and its duration ends; the magus can choose to spend up to 2 points from his arcane pool to increase the thrown athame's damage by +1d6 for each point spent.",
 			"",
 			"**Magus Arcana:** The following magus arcana complement the spellblade archetype: critical strike, hasted assault, pool strike, and spell shield."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"spire_defender": {
 		"name": "Spire Defender",
 		"file": "archetypedisplay0ae4.html",
 		"sources": [],
@@ -1157,9 +1192,10 @@
 			"**Bonus Feats (Ex):** At 1st level, the spire defender gains Combat Expertise and Dodge as bonus feats, even if he doesn't meet the prerequisites. The spire defender is not proficient in any kind of armor or shield. The spire defender does not have the magus' ability to ignore arcane spell failure from armor; however, if the spire defender becomes proficient in light armor, he automatically gains the magus's ability to ignore the arcane spell failure chance of light armor. If he becomes proficient in medium armor, at 7th level he ignores medium armor's chance of arcane spell failure. If he becomes proficient in heavy armor, at 13th level he ignores heavy armor's chance of arcane spell failure. This replaces the magus's normal armor proficiencies.",
 			"",
 			"**Arcane Augmentation (Su):** At 4th level, a magus can expend 1 point from his arcane pool as a swift action to grant himself a +5 competence bonus for 1 minute to one of the following skills: Acrobatics, Climb, Escape Artist, Perception, Stealth, and Swim. For every three levels beyond 4th, the magus gains another +1 enhancement bonus, to a maximum of +10 at 19th level. This ability replaces the spell recall ability."
-		]
+		],
+		"display": "archetype/magus"
 	},
-	{
+	"staff_magus": {
 		"name": "Staff Magus",
 		"file": "archetypedisplay9d69.html",
 		"sources": [ "Ultimate Magic" ],
@@ -1186,6 +1222,7 @@
 			"**Staff Weapon (Su):** At 10th level, a staff magus treats any magical staff he is wielding as a magical quarterstaff with an enhancement bonus to attack and damage equal to the staff's caster level divided by 4 (minimum +1). The staff must have at least 1 charge for the magus to use this ability. A staff magus can restore 1 charge to a staff by expending a number of points from his arcane pool equal to the level of the highest-level spell cast in the staff, as long as at least one spell in the staff is on the magus spell list. The magus cannot restore charges to more than one staff per day. This ability replaces fighter training.",
 			"",
 			"**Magus Arcana:** The following magus arcana complement the staff magus archetype: critical strike, dispelling strike, maneuver master, and spell shield."
-		]
+		],
+		"display": "archetype/magus"
 	}
-]
+}

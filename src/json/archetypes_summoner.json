@@ -1,10 +1,12 @@
-[
-	{
+{
+	"blood_god_disciple": {
 		"name": "Blood God Disciple",
 		"file": "archetypedisplaye8fe.html",
 		"sources": [ "Advanced Race Guide" ],
 		"replaces": "Summon Monster",
-		"replace_array": [ "Summon Monster" ],
+		"replace_array": [
+			"Summon Monster"
+		],
 		"short_description": "(Half-Orc) A half-orc summoner who devotes himself to one of the bloody orc gods may believe his eidolon is an avatar of that god rather than a mere supernatural creature.",
 		"description": [
 			"## Blood God Disciple",
@@ -23,9 +25,10 @@
 			"**Avatar Gambit (Ex):** At 7th level, when a blood god disciple dismisses his eidolon, he rages like a barbarian for a number of rounds equal to half his summoner level (he may end this rage early just like a barbarian, but if he does so, any remaining rounds of rage from this ability are lost). This replaces the summon monster IV spell-like ability.",
 			"",
 			"**Rage Power (Ex):** At 11th level and 15th level, a blood god disciple selects a barbarian rage power, which he may use when raging (whether from the avatar gambit ability or actual barbarian rage). This replaces the summon monster VI and VIII spell-like abilities."
-		]
+		],
+		"display": "archetype/summoner"
 	},
-	{
+	"blood_summoner": {
 		"name": "Blood Summoner",
 		"file": "archetypedisplayba24.html",
 		"sources": [ "Champions of Corruption" ],
@@ -53,9 +56,10 @@
 			"**Fiendish Calling (Su):** At 10th level, the blood summoner's summon monster ability can additionally be used as lesser planar binding as a standard action, but only to call evil outsiders. At 13th level, he can instead use it as planar binding. At 16th level, he can instead use it as greater planar binding. This ability replaces greater shield ally.",
 			"",
 			"**Blood Possession (Su):** At 16th level as a full-round action, a blood summoner's eidolon can enter and control the body of any corporeal creature that has blood. This ability functions as marionette possession, except that the eidolon's body also enters the target and the target can be unwilling. A successful Will save (DC = 10 + 1/2 the blood summoner's level + his Charisma modifier) negates this effect. This ability can be used once per day at 16th level, twice per day at 18th level, and three times per day at 20th level. The eidolon can end this possession at any time as a standard action. If the host body is slain while the eidolon is possessing it, the eidolon is immediately ejected, takes 4d6 points of damage, and is stunned for 1 round. This ability replaces merge forms."
-		]
+		],
+		"display": "archetype/summoner"
 	},
-	{
+	"broodmaster": {
 		"name": "Broodmaster",
 		"file": "archetypedisplaydae5.html",
 		"sources": [ "Ultimate Magic" ],
@@ -104,9 +108,10 @@
 			"Horders of Summoned Monsters",
 			"",
 			"The broodmaster and master summoner archetypes can potentially have 5, 10, or even more summoned creatures in play. This is a deliberate feature of these archetypes, and means that the summoner can potentially be a strong candidate for \"solo\" adventuring by one player. However, in the hands of an inexperienced or moderately experienced player, dealing with all of those creatures in combat can take a long time, forcing other players to wait extended periods between their turns in the initiative. It is strongly recommended that GMs only allow these archetypes for experienced players, or decide on a way to speed up the summoner's turn (such as by allowing other players to control some of the summoned monsters)."
-		]
+		],
+		"display": "archetype/summoner"
 	},
-	{
+	"counter-summoner": {
 		"name": "Counter-Summoner",
 		"file": "archetypedisplay17a9-2.html",
 		"sources": [ "Monster Summoner's Handbook" ],
@@ -131,9 +136,10 @@
 			"**Weaken Summons (Su):** At 10th level, as a standard action, a counter-summoner can attempt to weaken a summoned or called creature within 60 feet. The targeted creature takes a -2 penalty on attack and damage rolls and to Armor Class for 1 minute per summoner level. A successful Will save (DC = 10 1/2 the counter-summoner's class level his Charisma modifier) negates this effect. A given summoned creature can't be targeted by this ability more than once per 24-hour period. This ability replaces aspect.",
 			"",
 			"**Improved Weaken Summons (Su):** At 18th level, the penalty for the counter-summoner's weaken summons ability changes to -4. This ability replaces greater aspect."
-		]
+		],
+		"display": "archetype/summoner"
 	},
-	{
+	"evolutionist": {
 		"name": "Evolutionist",
 		"file": "archetypedisplaydb92.html",
 		"sources": [ "Ultimate Magic" ],
@@ -155,9 +161,10 @@
 			"**Evolve Base Form (Su):** Starting at 8th level, whenever he gains a level, the evolutionist can change his eidolon's base form to a new base form. Once chosen, this base form is set until the evolutionist gains another summoner level. This ability replaces transposition.",
 			"",
 			"**Transmogrify (Sp):** At 12th level, the evolutionist can cast transmogrify as a spell-like ability once per day without the need for a material component. This ability has a casting time of 1 minute. This ability replaces greater shield ally."
-		]
+		],
+		"display": "archetype/summoner"
 	},
-	{
+	"first_worlder": {
 		"name": "First Worlder",
 		"file": "archetypedisplay29d5.html",
 		"sources": [ "Inner Sea Magic" ],
@@ -200,9 +207,10 @@
 			"**Damage Reduction:** If the first worlder chooses this evolution, he may select DR/cold iron instead of one of the alignment-based types of damage reduction.",
 			"",
 			"This otherwise works like and replaces the eidolon ability of a normal summoner."
-		]
+		],
+		"display": "archetype/summoner"
 	},
-	{
+	"god_caller": {
 		"name": "God Caller",
 		"file": "archetypedisplay985b.html",
 		"sources": [ "Inner Sea Intrigue" ],
@@ -245,9 +253,10 @@
 			"**Overwhelming Presence (Sp):** At 20th level, a god caller's eidolon can use overwhelming presence (Pathfinder RPG Ultimate Magic 230) three times per day. The save DC is equal to 19 + the eidolon's Charisma modifier.",
 			"",
 			"This ability replaces twin eidolon."
-		]
+		],
+		"display": "archetype/summoner"
 	},
-	{
+	"leshy_caller": {
 		"name": "Leshy Caller",
 		"file": "archetypedisplay2e6c.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -286,9 +295,10 @@
 			"**Summon Nature's Ally (Sp):** A leshy caller can cast summon nature's ally as a spell-like ability a number of times per day equal to 3 + her Charisma modifier. At levels where a regular summoner would gain access to a new level of summon monster as a spell-like ability, the leshy caller instead gains the equivalent summon nature's ally spell; at 19th level, she can cast summon nature's ally IX or gate. When a leshy caller gains a summon nature's ally spell as a spell-like ability, she adds it to her class spell list (though she must still select it as a spell known if she wants to gain the ability to cast it as a normal spell). She adds leaf leshys, gourd leshys, fungus leshys, seaweed leshys, and lotus leshys to her list of creatures for summon nature's ally I, II, III, IV, and V, respectively.",
 			"",
 			"This alters summon monster."
-		]
+		],
+		"display": "archetype/summoner"
 	},
-	{
+	"master_summoner": {
 		"name": "Master Summoner",
 		"file": "archetypedisplay5af8.html",
 		"sources": [ "Ultimate Magic" ],
@@ -314,9 +324,10 @@
 			"**Hordes of Summoned Monsters**",
 			"",
 			"The broodmaster and master summoner archetypes can potentially have 5, 10, or even more summoned creatures in play. This is a deliberate feature of these archetypes, and means that the summoner can potentially be a strong candidate for \"solo\" adventuring by one player. However, in the hands of an inexperienced or moderately experienced player, dealing with all of those creatures in combat can take a long time, forcing other players to wait extended periods between their turns in the initiative. It is strongly recommended that GMs only allow these archetypes for experienced players, or decide on a way to speed up the summoner's turn (such as by allowing other players to control some of the summoned monsters)."
-		]
+		],
+		"display": "archetype/summoner"
 	},
-	{
+	"morphic_savant": {
 		"name": "Morphic Savant",
 		"file": "archetypedisplay5b09.html",
 		"sources": [ "Monster Summoner's Handbook" ],
@@ -346,9 +357,10 @@
 			"This ability alters summon monster.",
 			"",
 			"**Chaos Magic:** A morphic savant gains the following bonus spells known at the listed spell level: 1st-protection from law, 2nd-shard of chaos, 3rd-magic circle against law, 4th-chaos hammer, 5th-dispel law, 6th-word of chaos. The morphic savant gains one fewer spell known per spell level for spell levels 1-6. This ability alters the summoner's spells known."
-		]
+		],
+		"display": "archetype/summoner"
 	},
-	{
+	"naturalist": {
 		"name": "Naturalist",
 		"file": "archetypedisplay180a.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -381,9 +393,10 @@
 			"**Shared Focus (Su):** At 14th level, the naturalist begins to take on some of the feral nature of his eidolon. Whenever the naturalist uses animal focus to grant an aspect to his eidolon, he also gains the effects of the chosen aspect. The naturalist keeps this aspect until his eidolon is dismissed or sent back to its home plane. The naturalist gains the effects of only one aspect, even if the eidolon gains more than one (naturalist's choice). This ability replaces life bond.",
 			"",
 			"**Third Animal Focus (Su):** At 18th level, whenever a naturalist uses his animal focus ability, he can apply three different animal aspects to his eidolon (one of which lasts until he decides to change it). This ability replaces greater aspect."
-		]
+		],
+		"display": "archetype/summoner"
 	},
-	{
+	"pyroclast": {
 		"name": "Pyroclast",
 		"file": "archetypedisplayf1ca.html",
 		"sources": [ "Pathfinder #95: Anvil of Fire" ],
@@ -408,9 +421,10 @@
 			"**Detonate (Su):** At 6th level, a pyroclast can banish his eidolon in an explosion of fiery shards. This slays the eidolon and deals 1d6 points of damage per Hit Die of the eidolon to every creature in a 20-foot-radius burst (Reflex half, DC = 10 + 1/2 his summoner level + his Charisma modifier). Half of this damage is fire, and the other half is piercing. At 12th level, the pyroclast can reduce the damage by 4d6 to increase the burst radius to 40 feet. The pyroclast can use this ability once per day. This ability replaces maker's call.",
 			"",
 			"**Heart of Earth and Fire (Ex):** At 8th level, a pyroclast grants any of his summoned creatures with the earth or fire subtypes a +1 morale bonus on attack rolls, saving throws, and weapon damage rolls when he is within 30 feet. At 10th level, the pyroclast also grants these bonuses to his eidolon. This ability replaces transposition."
-		]
+		],
+		"display": "archetype/summoner"
 	},
-	{
+	"shadow_caller": {
 		"name": "Shadow Caller",
 		"file": "archetypedisplay9c42.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -454,9 +468,10 @@
 			"**Shadow Eidolon:** A shadow caller's eidolon is at once a thing of shadow called from the deep of the Shadow Plane and his own shadow; the two are inseparable. When his eidolon manifests, his shadow lengthens and finally detaches from him as a creature unto itself. For as long as the shadow caller's eidolon is manifested, he and the eidolon do not have distinct shadows, regardless of the presence or absence of light. This lack of a shadow replaces the magical symbol that identifies the summoner and his eidolon.",
 			"",
 			"This ability alters the summoner's eidolon ability."
-		]
+		],
+		"display": "archetype/summoner"
 	},
-	{
+	"shaitan_binder": {
 		"name": "Shaitan Binder",
 		"file": "archetypedisplay09c6.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -491,9 +506,10 @@
 			"**Stone Curse (Su):** At 18th level, a shaitan binder may select stone curse as a 4-point evolution. This allows the eidolon to trap creatures in stone like the shaitan stone curse ability. The DC to resist or break free of the stone curse is 10 + 1/2 the eidolon's Hit Dice + the eidolon's Strength score. This ability replaces greater aspect.",
 			"",
 			"**Noble Eidolon (Sp):** At 20th level, a shaitan binder's eidolon gains the ability to grant its summoner's wishes. Once per day, the eidolon can cast limited wish as a spell-like ability. The eidolon's caster level is equal to its level. The wish must be spoken aloud by the shaitan binder, beginning with the words \"I wish,\" and cannot duplicate a wish the eidolon has granted within the past 24 hours. If the eidolon uses this ability to duplicate a spell with a costly material component, the shaitan binder must provide that component. This ability replaces twin eidolon."
-		]
+		],
+		"display": "archetype/summoner"
 	},
-	{
+	"spirit_summoner": {
 		"name": "Spirit Summoner",
 		"file": "archetypedisplay8ec0.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -528,9 +544,10 @@
 			"At 8th, 10th, and 16th levels, the summoner can select another hex.",
 			"",
 			"This ability replaces aspect, maker's call, merge forms, and transposition."
-		]
+		],
+		"display": "archetype/summoner"
 	},
-	{
+	"storm_caller": {
 		"name": "Storm Caller",
 		"file": "archetypedisplay9bba.html",
 		"sources": [ "Elemental Master's Handbook" ],
@@ -577,9 +594,10 @@
 			"At 10th level, the storm caller automatically gains the flight evolution without reducing the number of evolution points available to the eidolon. He can use the aspect ability (and at 18th level, the greater aspect ability) to gain additional evolutions.",
 			"",
 			"This ability replaces maker's call and transposition."
-		]
+		],
+		"display": "archetype/summoner"
 	},
-	{
+	"story_summoner": {
 		"name": "Story Summoner",
 		"file": "archetypedisplay946b.html",
 		"sources": [ "The Harrow Handbook" ],
@@ -601,9 +619,10 @@
 			"**Summon Arcana:** At 2nd level, a story summoner can use a complete harrow deck he owns as an additional focus component for his summon monster spell-like ability. When he does so, the summoner draws a random card from the deck and applies a simple template to the summoned monster based on the card's alignment: celestial (any good), fiendish (any evil), resolute (any lawful), or entropic (any chaotic). If a card has more than one alignment-such as a lawful evil or chaotic good card-the summoner can choose which template to apply to the summoned creature. This ability allows a story summoner to summon and command creatures normally prohibited by their alignment. This ability replaces bond senses.",
 			"",
 			"**Evolve Base Form (Su):** Starting at 8th level, whenever he gains a level, the story summoner can change his eidolon's base form to a new base form. Once chosen, this base form is set until the story summoner gains another summoner level. This ability replaces transposition."
-		]
+		],
+		"display": "archetype/summoner"
 	},
-	{
+	"synthesist": {
 		"name": "Synthesist",
 		"file": "archetypedisplayf829.html",
 		"sources": [ "Ultimate Magic" ],
@@ -643,9 +662,10 @@
 			"**Split Forms (Su):** At 16th level, as a swift action, the synthesist and his fused eidolon can split into two creatures: the synthesist and the eidolon. Both have the same evolutions. The synthesist emerges in a square adjacent to the eidolon if possible. All effects and spells currently targeting the fused synthesist-eidolon affect both the synthesist and the eidolon.",
 			"",
 			"The synthesist can use this ability for a number of rounds per day equal to his summoner level. He can end this effect at any time as a full-round action. For the duration of this effect, the eidolon functions as a normal eidolon of the summoner's class level. This ability replaces merge forms."
-		]
+		],
+		"display": "archetype/summoner"
 	},
-	{
+	"twinned_summoner": {
 		"name": "Twinned Summoner",
 		"file": "archetypedisplay6ebd.html",
 		"sources": [ "Legacy of the First World" ],
@@ -677,9 +697,10 @@
 			"**Twin Summoner (Su):** At 16th level, a twinned summoner can touch his eidolon as a standard action, enhancing its similarity to the summoner. The eidolon loses any natural weapons or size increases gained from evolutions, and its Intelligence, Wisdom, and Charisma scores change to match the base scores of the summoner. The eidolon can cast any of the summoner's spells known using the summoner's caster level and spell slots. It doesn't gain the benefit of any of the summoner's items, feats, or other effects that affect spellcasting. The eidolon can keep this form for a number of minutes per day equal to the summoner's class level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. The summoner can end this effect as a free action.",
 			"",
 			"This ability replaces the merge forms class feature."
-		]
+		],
+		"display": "archetype/summoner"
 	},
-	{
+	"unwavering_conduit": {
 		"name": "Unwavering Conduit",
 		"file": "archetypedisplay87bf.html",
 		"sources": [ "Monster Summoner's Handbook" ],
@@ -709,9 +730,10 @@
 			"This ability alters summon monster.",
 			"",
 			"**Law Magic:** The unwavering conduit gains the following bonus spells known at the listed spell level: 1st-protection from chaos, 2nd-arrow of law, 3rd-magic circle against chaos, 4th-order's wrath, 5th-dispel chaos, 6th-dictum. The unwavering conduit gains one fewer spell known per spell level for spell levels 1-6. This ability alters the summoner's spells known."
-		]
+		],
+		"display": "archetype/summoner"
 	},
-	{
+	"wild_caller_arg": {
 		"name": "Wild Caller (ARG)",
 		"file": "archetypedisplay7fe8.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -736,9 +758,10 @@
 			"This ability alters the normal summoner's eidolon class feature, but is otherwise identical to that class feature.",
 			"",
 			"**Summon Nature's Ally I (Sp):** Starting at 1st level, a wild caller can cast summon nature's ally a number of times per day equal to 3 + his Charisma modifier. At 3rd level and every 2 levels thereafter, the power of this ability increases by one spell level, allowing him to summon more powerful creatures (to a maximum of summon nature's ally IX at 17th level). Furthermore, at 19th level, the wild caller cannot use gate as a spell-like ability, but can use either summon elder worm or summon froghemoth instead. This ability otherwise functions like the standard summoner's summon monster I ability and replaces that ability."
-		]
+		],
+		"display": "archetype/summoner"
 	},
-	{
+	"wild_caller_hotw": {
 		"name": "Wild Caller (HotW)",
 		"file": "archetypedisplay7c6c.html",
 		"sources": [ "Heroes of the Wild" ],
@@ -777,6 +800,7 @@
 			"**Summon Nature's Ally (Sp):** A wild caller can cast summon nature's ally as a spell-like ability a number of times per day equal to 3 + his Charisma modifier. At levels where a regular summoner would gain access to a new level of summon monster as a spell-like ability, the wild caller instead gains the equivalent summon nature's ally spell; at 19th level, he can use summon nature's ally IX or gate. When a wild caller gains a summon nature's ally spell as a spell-like ability, he adds it to his class spell list (though he must still select it as a spell known if he wants to gain the ability to cast it as a normal spell). This ability alters the summon monster ability.",
 			"",
 			"**Fey Friend (Ex):** At 10th level, the wild caller gains a +4 bonus on Bluff, Diplomacy, and Sense Motive checks against fey. This ability replaces aspect, which is instead gained at 18th level in place of greater aspect."
-		]
+		],
+		"display": "archetype/summoner"
 	}
-]
+}

@@ -1,5 +1,5 @@
-[
-	{
+{
+	"abolisher": {
 		"name": "Abolisher",
 		"file": "archetypedisplay9d18.html",
 		"sources": [ "Monster Hunter's Handbook" ],
@@ -32,9 +32,10 @@
 			"**Escape Corruption's Grasp (Sp):** At 5th level, an abolisher is divinely protected against the grasping tentacles and paralyzing secretions of aberrations. For a number of rounds per day equal to her inquisitor level, she can ignore impediments to movement, as per freedom of movement. These rounds don't need to be consecutive. Activating this ability is an immediate action.",
 			"",
 			"This ability replaces discern lies."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"cloaked_wolf": {
 		"name": "Cloaked Wolf",
 		"file": "archetypedisplayccc3.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -71,9 +72,10 @@
 			"Additionally, at 6th level and every 3 inquisitor levels thereafter, she gains a bonus feat from the following list: Alertness, Catch Off-Guard, Deceitful, Deft Hands, Dodge, Improved Initiative, Improved Unarmed Strike, Improvised Weapon Mastery, Lookout, Mobility, Spring Attack, Stunning Fist, and Throw Anything. She must meet the prerequisites of the selected bonus feat. As a standard action, a cloaked wolf can choose to learn a new bonus feat from the above list in place of the most recent bonus feat she has already learned. In effect, the cloaked wolf loses the bonus feat in exchange for the new one. She can only change the most recent bonus feat gained. Whenever she gains a new bonus feat, the previous bonus feat becomes set and cannot be changed again. A cloaked wolf can change her most recent bonus feat a number of times per day equal to her Wisdom modifier (minimum 1).",
 			"",
 			"This ability replaces solo tactics and teamwork feats."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"cold_iron_warden": {
 		"name": "Cold Iron Warden",
 		"file": "archetypedisplayaca8.html",
 		"sources": [ "Demon Hunter's Handbook" ],
@@ -103,9 +105,10 @@
 			"**Bane (Su):** A cold iron warden reduces the amount of bonus damage dealt when using her bane ability against creatures that are not outsiders with the chaotic or evil subtype by 1d6. She increases the amount of bonus damage by 1d6 when she selects outsiders with the chaotic or evil subtype. This ability modifies the bane ability.",
 			"",
 			"**Translate Telepathy (Su):** At 5th level, an inquisitor can sense when a creature within 5 feet of her receives or sends a telepathic message. The distance at which she can detect telepathic messages increases by 5 feet for every 5 additional inquisitor levels she has beyond 5th level, to a maximum of 20 feet at 20th level. By making a Perception check (DC 15 + the highest CR of the creatures using telepathy) as an immediate action, she may listen to all telepathic messages sent to and by creatures in this area for a number of rounds per day equal to her inquisitor level. These rounds do not need to be consecutive. This ability replaces discern lies."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"exarch": {
 		"name": "Exarch",
 		"file": "archetypedisplay85aa.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -138,9 +141,10 @@
 			"**Double Jeopardy (Su):** At 12th level, whenever an exarch uses her fearsome jurist ability, she may choose to affect two weapons, with one gaining the jurist weapon special ability and the other the menacing special ability as above. Both special abilities may be combined in a single weapon, whose critical threat range doubles. This does not stack with keen edge, Improved Critical, or similar effects. This ability replaces greater bane.",
 			"",
 			"**Aura of Reversion (Su):** At 16th level, while using her judgment, an exarch can project a 30-foot-radius emanation for a number of rounds per day equal to her inquisitor level. Any creature other than the exarch that is using a transmutation effect within this aura at the beginning of its turn becomes sickened, or sickened and nauseated if using a polymorph effect, including the change shape ability (Fortitude negates; DC 10 + 1/2 the exarch's level + her Wisdom modifier). Continuous effects from permanent magical items do not cause this effect. Within the aura, dispel checks against transmutation effects gain a +4 bonus. This ability cannot be used simultaneously with aura of repetition. This ability replaces her third judgment."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"exorcist": {
 		"name": "Exorcist",
 		"file": "archetypedisplay4214.html",
 		"sources": [ "Ultimate Magic" ],
@@ -165,9 +169,10 @@
 			"**Closed Mind (Su):** An exorcist inquisitor must close off her mind to deny her enemies even a foothold. At 17th level, the inquisitor becomes immune to compulsion effects and possession attempts (including magic jar). This ability replaces slayer.",
 			"",
 			"**Verdict of Anathema (Su):** At 20th level, an inquisitor using judgment can unleash the verdict of anathema on her enemies. When she does, her judgment ends, and all enemy creatures within 10 feet are affected by her verdict of exorcism. This ability replaces true judgment."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"expulsionist": {
 		"name": "Expulsionist",
 		"file": "archetypedisplayd09b.html",
 		"sources": [ "Haunted Heroes Handbook" ],
@@ -201,9 +206,10 @@
 			"**:** At 5th level, upon interacting with a rejuvenating undead (such as a ghost) or haunt for the first time (such as by attacking the ghost or channeling energy to damage the haunt), an expulsionist can attempt a Sense Motive check as a free action to determine the specific course of action required to permanently neutralize the spirit of haunt (DC = 20 + the target's CR).",
 			"",
 			"This ability replaces discern lies."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"faith_hunter": {
 		"name": "Faith Hunter",
 		"file": "archetypedisplay3ec8.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -236,9 +242,10 @@
 			"**Hateful Bane (Su):** At 5th level, a faith hunter's bane ability functions only against creatures that are both the selected creature type and her sworn enemy alignment.",
 			"",
 			"This ability alters bane."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"green_faith_marshal": {
 		"name": "Green Faith Marshal",
 		"file": "archetypedisplayeb27.html",
 		"sources": [
@@ -275,14 +282,17 @@
 			"**Wild Step (Ex):** At 11th level, a Green Faith marshal can move through any sort of naturally occurring difficult terrain (such as natural thorns, briars, overgrown areas, and similar terrain) at her normal speed without taking damage or suffering any other impairment. Terrain that is enchanted or magically manipulated to impede motion still affects her.",
 			"",
 			"This replaces stalwart."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"heretic": {
 		"name": "Heretic",
 		"file": "archetypedisplay248c.html",
 		"sources": [ "Ultimate Magic" ],
 		"replaces": "Monster Lore",
-		"replace_array": [ "Monster Lore" ],
+		"replace_array": [
+			"Monster Lore"
+		],
 		"short_description": "While all inquisitors hunt the enemies of the faith, sometimes, either through political maneuvering by her enemies or an unyielding tenacity that breaks her faith's basic tenets, an inquisitor can find herself a heretic.",
 		"description": [
 			"## Heretic",
@@ -301,9 +311,10 @@
 			"Ex-Inquisitors",
 			"",
 			"An inquisitor who becomes an ex-inquisitor can, with the GM's permission, take the heretic archetype, replacing her class abilities with the appropriate archetype abilities. If the character atones or joins a different faith, she loses her heretic abilities and regains her previous inquisitor class abilities."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"hexenhammer": {
 		"name": "Hexenhammer",
 		"file": "archetypedisplay21f7.html",
 		"sources": [ "Horror Adventures" ],
@@ -349,9 +360,10 @@
 			"**Witchcraft (Ex):** At 5th level and at every 3 inquisitor levels thereafter, a hexenhammer can learn a witch spell in place of a spell she already knows. In effect, she loses an old spell in exchange for a new one selected from the witch class spell list. The new spell's level must be the same as that of the spell being exchanged, and it must be at least 1 level lower than the highest-level inquisitor spell she can cast. The hexenhammer can swap out only a single spell at any given level and must choose whether or not to swap the spell at the same time she gains new spells known for the level.",
 			"",
 			"This ability alters the inquisitor's spellcasting."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"iconoclast": {
 		"name": "Iconoclast",
 		"file": "archetypedisplay1b94.html",
 		"sources": [ "Ultimate Combat" ],
@@ -379,9 +391,10 @@
 			"**Negating Critical (Sp):** At 14th level, when an iconoclast confirms a critical hit, the creature she hit must succeed at a Fortitude save at DC 10 + 1/2 the iconoclast's caster level + the iconoclast's Wisdom modifier for each non-artifact magic item the target is wearing or carrying. On a failed saving throw, the target of the critical hit can neither use nor gain benefit from any minor magic item for 1d4 rounds. This ability can be used in conjunction with critical feats. This ability replaces exploit weakness.",
 			"",
 			"**Destroy Artifact (Sp):** At 20th level, an iconoclast has the ability to destroy minor artifacts. The iconoclast must have possession of the minor artifact for at least a week, which she must spend in uninterrupted contemplation of the nature of the artifact. At the end of that week, she makes a DC 30 Spellcraft check to unweave the fabric of the item, and if she is successful, the artifact is destroyed. If the iconoclast fails, she cannot try to destroy the artifact again with this ability, but another iconoclast can. This ability replaces true judgment."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"immolator": {
 		"name": "Immolator",
 		"file": "archetypedisplay7068.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -408,9 +421,10 @@
 			"**Burnt Offering (Su):** At 5th level, as a swift action, an immolator can imbue one of her weapons with the flaming weapon special ability. Any creature slain by this weapon burns with magical flame; its body turns to ash, though its equipment is not harmed. This special ability only functions while the immolator wields the weapon. This ability lasts for a number of rounds per day equal to the immolator's level. These rounds do not need to be consecutive. At 12th level, this ability gives the immolator's weapon the flaming burst weapon special ability. This ability replaces bane and greater bane.",
 			"",
 			"**Judgment by Fire (Su):** At 20th level, an immolator can call fiery judgment down upon a foe during combat. Whenever an immolator uses her judgment ability, she can invoke a judgment by fire on a foe as a swift action. Once declared, the immolator can make a single melee (or ranged attack, if the foe is within 30 feet) against the target. If the attack hits, the attack deals fire damage instead of weapon damage, and the target must make a successful Fortitude save or die (creatures immune to fire do not have to save). The DC of this save is equal to 10 + 1/2 the immolator's level + the immolator's Wisdom modifier. Regardless of whether the save is successful, the target creature is immune to the immolator's judgment by fire ability for 24 hours. Creatures killed in this manner explode in a burst of fire, dealing 10d6 points of fire damage to every creature within 5 feet (Reflex save for half damage, DC 10 + 1/2 the immolator's level + the immolator's Wisdom modifier). Once this ability has been used, it cannot be used again for 1d4 rounds. This ability modifies and functions as true judgment."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"infiltrator": {
 		"name": "Infiltrator",
 		"file": "archetypedisplay95db.html",
 		"sources": [ "Ultimate Magic" ],
@@ -435,9 +449,10 @@
 			"**Forbidden Lore (Ex):** While other inquisitors learned to track unbelievers, an infiltrator learns how to cast their spells. An infiltrator can cast spells of an alignment opposed to her or her deity (ignoring the restriction in the Chaotic, Evil, Good, and Lawful Spells class ability). This ability replaces track.",
 			"",
 			"**Necessary Lies (Su):** An infiltrator adds her class level on saving throws against abilities that detect lies or reveal or force the truth, such as detect lies and zone of truth. This power replaces discern lies."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"keeper_of_construct": {
 		"name": "Keeper of Construct",
 		"file": "archetypedisplay8faf.html",
 		"sources": [ "People of the Wastes" ],
@@ -472,9 +487,10 @@
 			"If an affected construct was being controlled by a creature, that individual can regain control of the construct with a successful Charisma check (attempting this check requires a standard action) opposed by the inquisitor's Charisma check. On a success, the original creature regains full control of the construct and this effect ends.",
 			"",
 			"This replaces exploit weakness."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"keeper_of_the_current": {
 		"name": "Keeper of the Current",
 		"file": "archetypedisplay48bc.html",
 		"sources": [ "Blood of the Sea" ],
@@ -502,9 +518,10 @@
 			"**Rudderless Attack (Ex):** At 5th level, an opponent that takes extra damage from the keeper of the current's bane or greater bane ability has its swim speed halved for 1d4 rounds. A successful Fortitude saving throw (DC = 10 + half the inquisitor's level + her Wisdom modifier) negates this effect. If the keeper of the current targets a creature already affected by this ability, its swim speed is not further reduced but the duration of the effect is extended by 1d4 rounds.",
 			"",
 			"This ability replaces discern lies."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"kinslayer": {
 		"name": "Kinslayer",
 		"file": "archetypedisplay7d96.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -546,9 +563,10 @@
 			"**Undead Sense (Sp):** At 2nd level, a kinslayer gains the ability to use detect undead as a spell-like ability (caster level equal to the kinslayer's inquisitor level) at will. If she detects the presence of undead, she can use her monster lore ability to attempt to determine the type of undead detected as well as to reveal any strengths or weaknesses the undead might have. If any of the detected undead are vampires, she gains a bonus on the check equal to her inquisitor level to immediately identify them as such.",
 			"",
 			"This ability replaces detect alignment."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"living_grimoire": {
 		"name": "Living Grimoire",
 		"file": "archetypedisplay6fe2.html",
 		"sources": [ "Horror Adventures" ],
@@ -601,9 +619,10 @@
 			"**Word of God (Su):** At 20th level, a living grimoire can smite his foes with the holy word of his deity. Up to seven times per day, the inquisitor can make a single melee attack with his holy book against a target. If the attack hits, it deals damage normally and the target must succeed at a Fortitude save or die (DC = 10 + 1/2 the living grimoire's inquisitor level + his Intelligence modifier). Regardless of whether the save is successful, the target creature is immune to the living grimoire's word of god ability for 24 hours. Once the living grimoire uses this ability, he can't use it again for 1d4 rounds.",
 			"",
 			"This ability replaces true judgment."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"monster_tactician": {
 		"name": "Monster Tactician",
 		"file": "archetypedisplayf7c6.html",
 		"sources": [ "Monster Summoner's Handbook" ],
@@ -630,9 +649,10 @@
 			"This ability replaces judgment.",
 			"",
 			"**Summon Tactics (Su):** At 5th level, every time a monster tactician casts a summoning spell, she can choose any one teamwork feat she knows. All creatures summoned by the spell are treated as if they had the chosen feat for all purposes, without needing to meet any prerequisites. At 8th level and again at 16th level, the number of teamwork feats that she can choose when casting a summoning spell increases by 1. She cannot choose the same feat twice. At 20th level, all creatures summoned by the spell are treated as if they knew all of the monster tactician's teamwork feats. This ability replaces discern lies, second judgment, third judgment, slayer, and true judgment."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"oathkeeper": {
 		"name": "Oathkeeper",
 		"file": "archetypedisplay4261.html",
 		"sources": [ "Merchant's Manifest" ],
@@ -667,14 +687,17 @@
 			"This replaces monster lore.",
 			"",
 			"**Oathbreaker's Scourge (Su):** At 2nd level, if an oathkeeper is given physical evidence of a broken agreement and asked to hunt down the contract's breaker by the offended party, the oathkeeper gains a +4 sacred or profane bonus on Diplomacy and Survival skill checks to gather information about and track the target. The inquisitor is also treated as being 3 levels higher for the purpose of one judgment she uses against the deal breaker, so long as she keeps possession of the evidence. If the oathkeeper uses oathbreaker's scourge when attacking someone who is actually innocent of fraud-due to forgery, hasty judgments, or other deceptions-she loses access to all of her oathkeeper archetype abilities for 1 month or until she is the target of an atonement spell. This replaces track."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"preacher": {
 		"name": "Preacher",
 		"file": "archetypedisplay107a.html",
 		"sources": [ "Ultimate Magic" ],
 		"replaces": "Solo Tactics",
-		"replace_array": [ "Solo Tactics" ],
+		"replace_array": [
+			"Solo Tactics"
+		],
 		"short_description": "Some inquisitors wander the land to spread the true word of their faith.",
 		"description": [
 			"## Preacher",
@@ -691,9 +714,10 @@
 			"**Warning:** When a preacher's ally within line of sight would be hit by a melee or ranged attack, she may call out a warning to that ally, and the attacker must reroll the attack and use the results of the second roll. The ally must be able to hear the preacher and must not be helpless for this ability to have any effect.",
 			"",
 			"Whenever the preacher could select a bonus teamwork feat (at 3rd, 6th, 9th, 12th, 15th, and 18th level), she can instead choose to increase her number of uses per day of this ability by one. This ability replaces solo tactics."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"ravener_hunter": {
 		"name": "Ravener Hunter",
 		"file": "archetypedisplayfd1e.html",
 		"sources": [ "Blood of the Beast" ],
@@ -726,9 +750,10 @@
 			"This ability replaces the teamwork feat gained at 3rd level.",
 			"",
 			"**Solo Tactics (Ex):** A ravener hunter gains this ability at 6th level instead of 3rd level."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"reaper_of_secrets": {
 		"name": "Reaper of Secrets",
 		"file": "archetypedisplayc11c.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
@@ -756,9 +781,10 @@
 			"For example, a reaper of secrets with the Precise Strike feat gains the bonus from that feat if she and the target of her soul-piercing gaze occupy flanking positions relative to the creature she attacks.",
 			"",
 			"This ability replaces solo tactics."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"relic_hunter": {
 		"name": "Relic Hunter",
 		"file": "archetypedisplay1621.html",
 		"sources": [ "Occult Adventures" ],
@@ -794,9 +820,10 @@
 			"At 1st level, the relic hunter learns the two base focus powers from her chosen relic schools and can select one more focus power from the list of those made available by her chosen schools. Whenever she gains a new relic school, she gains the base focus power of that school. In addition, at 4th level and every 4 levels thereafter, she learns a new focus power selected from all of the powers granted by all of the relic schools she knows. She can use these focus powers only by expending points of deific focus. Unless otherwise noted, the DC for any saving throws against a focus power is equal to 10 + 1/2 the inquisitor's class level + the inquisitor's Wisdom modifier. She cannot select a focus power more than once. She uses her inquisitor level in place of an occultist level to qualify for focus powers.",
 			"",
 			"This ability replaces domain, bane, greater bane, second judgment, and third judgment."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"royal_accuser": {
 		"name": "Royal Accuser",
 		"file": "archetypedisplay379b.html",
 		"sources": [ "Inner Sea Intrigue" ],
@@ -846,9 +873,10 @@
 			"**Final Sway (Ex):** At 18th level, a royal accuser's word and intuition are greatly trusted and valued. Once per day, when using the influence system (Ultimate Intrigue 102) and interacting with an individual or organization with whom he has at least minor sway or is respected (rank 2), the royal accuser can treat his influence as two steps higher for the purposes of making a single request of that individual or organization. Alternatively, he can treat an individual's attitude toward him as up to two steps higher for the purpose of such a request.",
 			"",
 			"This replaces the teamwork feat granted at 18th level."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"sacred_huntsmaster": {
 		"name": "Sacred Huntsmaster",
 		"file": "archetypedisplaye3ab.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -881,9 +909,10 @@
 			"**Second Animal Focus (Ex):** At 17th level, whenever a sacred huntsmaster uses her animal focus ability, she selects two different animal aspects for herself instead of one, and can assign two aspects to her companion instead of one. As with the companion's previous aspect, the second one does not count against the minutes per day a sacred huntsmaster can take on an aspect. If her animal companion is dead and the sacred huntsmaster has applied that aspect to herself, that aspect counts toward her maximum of two aspects at once. The sacred huntsmaster can still only apply one of her dead companion's to herself, not both. This ability replaces slayer.",
 			"",
 			"**Greater Empathic Link (Su):** At 20th level, the range of a sacred huntsmaster's empathic link with her animal companion increases to 10 miles. If the animal companion is within 1 mile, it and the sacred huntsmaster can communicate telepathically. This ability replaces true judgment."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"sanctified_slayer": {
 		"name": "Sanctified Slayer",
 		"file": "archetypedisplayd484.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -911,9 +940,10 @@
 			"A sanctified slayer must be able to see the target well enough to pick out a vital spot and must be able to reach such a spot. A sanctified slayer cannot use sneak attack while striking a creature with concealment. This ability replaces the later iterations of the judgment ability.",
 			"",
 			"**Talented Slayer (Ex):** At 8th, 16th, 17th, and 20th levels, a sanctified slayer can gain a single slayer talent, including those from the list of rogue talents that a slayer can take, but not an advanced slayer talent. This ability replaces second judgment, third judgment, slayer, and true judgment."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"secret_seeker": {
 		"name": "Secret Seeker",
 		"file": "archetypedisplayea77.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -944,9 +974,10 @@
 			"**Seek Mind (Sp):** At 14th level, a secret seeker can use her detect mind ability to seek out people with particular anxieties, desires, or thoughts. This functions as per seek thoughts except that it works with any of the three types of mental output the secret seeker can detect with detect mind.",
 			"",
 			"This ability replaces exploit weakness."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"sin_eater": {
 		"name": "Sin Eater",
 		"file": "archetypedisplay53d3.html",
 		"sources": [ "Ultimate Magic" ],
@@ -978,9 +1009,10 @@
 			"**Speak with Dead (Sp):** At 6th level, when the inquisitor eats an enemy's sins, within 10 minutes of doing so, she can ask the remnants of the enemy's soul questions as if using speak with dead, with a caster level equal to her inquisitor level. She does not need the enemy's corpse to use this ability (she can eat sin, move away from the corpse, then use speak with dead), though the soul gets a saving throw just as a corpse would. This ability replaces the bonus teamwork feat gained at 6th level.",
 			"",
 			"**Burden of Sin (Sp):** At 14th level, a sin eater may spend a full-round action to transfer one harmful affliction, condition, or spell effect from another creature to herself (this includes curses, possessions, and permanent effects such as petrification, or any condition that break enchantment can end or reverse). The effect to be transferred is chosen by the sin eater and affects her as if she were the original target, continuing its duration (if any) and preventing any further effect on the original bearer. For example, the inquisitor could transfer a lethal disease to herself, or petrify herself to restore a petrified comrade. The sin eater can use this ability as often as desired, even using it multiple times on the same creature. This ability replaces exploit weakness."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"spellbreaker": {
 		"name": "Spellbreaker",
 		"file": "archetypedisplayee93.html",
 		"sources": [ "Ultimate Combat" ],
@@ -1005,9 +1037,10 @@
 			"**Foil Casting (Su):** At 3rd level, when an opponent tries to cast an arcane spell within a spellbreaker's threatened area, the DC for that caster to cast defensively increases by 2. This increase stacks with the effects of the Disruptive feat. Furthermore, the spellbreaker knows where to hit foes to foil casting from a distance. Each time she hits an arcane spellcaster or a creature that uses spell-like abilities with a ranged weapon attack, the DC of any Concentration checks the caster makes increases by 2 for 1 round. This ability replaces solo tactics.",
 			"",
 			"**Impervious (Ex):** At 20th level, a spellbreaker becomes immune to the effects of a single school of arcane magic. That school of magic must be the first one she picked for defense against magic (see above). Neither harmful nor helpful arcane spells of that school have an effect on the spellbreaker. If a spell of that school is an area of effect spell, the spell goes off as normal, but the spellbreaker is untouched by its effects. Once per day, as a swift action, the spellbreaker can grant this imperviousness to all allies in a 60-foot burst for 1 minute. This ability replaces final judgment."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"suit_seeker": {
 		"name": "Suit Seeker",
 		"file": "archetypedisplay37b1.html",
 		"sources": [],
@@ -1065,9 +1098,10 @@
 			"Regardless of whether or not the target succeeds at its save, it becomes immune to the inquisitor's unravel array ability for 24 hours. Once this ability has been used, it cannot be used again for 1d4 rounds. The destroyed harrow card is removed from the harrow deck. The suit seeker can continue to use the reduced deck for the purpose of her suit seeker powers as long as she wants, though she has no chance of drawing the destroyed card until she purchases a new harrow deck.",
 			"",
 			"This ability replaces true judgment."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"sworn_of_the_eldest": {
 		"name": "Sworn of the Eldest",
 		"file": "archetypedisplay0485.html",
 		"sources": [ "Wilderness Origins" ],
@@ -1108,9 +1142,10 @@
 			"**Magic of the Eldest:** At 3rd level and every 3 levels thereafter, a sworn of the Eldest gains a bonus spell slot of the highest spell level she can cast, and she learns the corresponding spell listed for her domain as a bonus spell known. She can use this bonus spell slot only to cast the domain spell of that level.",
 			"",
 			"This replaces all teamwork feats."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"tactical_leader": {
 		"name": "Tactical Leader",
 		"file": "archetypedisplay3a39.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -1143,9 +1178,10 @@
 			"**Battle Acumen (Ex):** At 14th level, a tactical leader can grant his judgment benefits to a single other ally within 30 feet who can see and hear the tactical leader as an immediate action. These benefits last until the beginning of the tactical leader's next turn. A tactical leader must have a judgment active to use this ability and the benefits granted are the same as those selected by his judgment. A tactical leader can use this ability a number of times per day equal to his Wisdom modifier (minimum 1).",
 			"",
 			"This ability replaces exploit weakness."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"traceless_operative": {
 		"name": "Traceless Operative",
 		"file": "archetypedisplaydfff.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -1179,9 +1215,10 @@
 			"**Improved Uncanny Dodge (Ex):** At 12th level, a traceless operative can no longer be flanked. This defense denies rogues (or other classes with the sneak attack ability) the ability to sneak attack the traceless operative by flanking her, unless the attacker has at least 4 more rogue levels (or levels in a class that grants the sneak attack class ability) than the traceless operative has inquisitor levels. If the traceless operative already has improved uncanny dodge from another class, the levels from the classes that grant improved uncanny dodge stack when determining the minimum rogue level (or level in another class with the sneak attack ability) required to flank the character.",
 			"",
 			"This ability replaces greater bane."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"umbral_stalker": {
 		"name": "Umbral Stalker",
 		"file": "archetypedisplayafc4.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -1221,9 +1258,10 @@
 			"Finally, if the umbral stalker deals energy damage to a creature unaware of her presence with vulnerability to that energy type, she deals 2 extra points of damage per die rolled.",
 			"",
 			"This ability alters exploit weakness."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"urban_infiltrator": {
 		"name": "Urban Infiltrator",
 		"file": "archetypedisplay4fd0.html",
 		"sources": [ "Magic Tactics Toolbox" ],
@@ -1251,9 +1289,10 @@
 			"**A Thousand Faces (Su):** At 11th level, an urban inquisitor gains the ability to change her appearance at will, as if using the alter self spell.",
 			"",
 			"This ability replaces stalwart."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"vampire_hunter": {
 		"name": "Vampire Hunter",
 		"file": "archetypedisplayb748.html",
 		"sources": [ "Inner Sea Magic" ],
@@ -1284,9 +1323,10 @@
 			"**Bane (Su):** A vampire hunter can only imbue her weapons with the undead-bane ability, but it persists even when she isn't holding the weapon.",
 			"",
 			"**Sun Strike (Su):** At 5th level, a vampire hunter can infuse a single weapon she wields with the purifying light of the sun as a swift action for a number of rounds per day equal to her inquisitor level. These rounds do not need to be consecutive. While a weapon is infused with the sun, it deals +1d6 points of damage to any creature that is susceptible or vulnerable to sunlight, including many types of undead (particularly spectres, vampires, and wraiths). This additional damage also applies to oozes and fungus-based monsters. A weapon infused with sun strike sheds illumination as if it were a sunrod."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"vigilant_defender": {
 		"name": "Vigilant Defender",
 		"file": "archetypedisplay2d89.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -1321,9 +1361,10 @@
 			"**True Vengeance (Su):** At 20th level, when a vigilant defender calls true judgment down upon a foe, if the foe has killed one of the vigilant defender's allies (permanent sentient allies, such as fellow party members or cohorts, not summoned monsters, animal companions, pets, or the like), the DC of the target's Fortitude save to avoid death is 2 higher. If the foe has not damaged any of the vigilant defender's allies, the DC to avoid death is instead 2 lower.",
 			"",
 			"This ability alters true judgment."
-		]
+		],
+		"display": "archetype/inquisitor"
 	},
-	{
+	"witch_hunter": {
 		"name": "Witch Hunter",
 		"file": "archetypedisplayc534.html",
 		"sources": [ "Ultimate Combat" ],
@@ -1352,6 +1393,7 @@
 			"**Witch's Bane Judgment (Ex):** At 14th level, a witch hunter gains the following judgment.",
 			"",
 			"**Witch's Bane:** Any creature that casts an arcane spell within 30 feet of the witch hunter takes a -2 penalty to AC against her attacks and a -2 penalty on saving throws against her spells while this judgment remains in effect. This ability replaces exploit weakness."
-		]
+		],
+		"display": "archetype/inquisitor"
 	}
-]
+}

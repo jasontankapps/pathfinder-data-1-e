@@ -1,5 +1,5 @@
-[
-	{
+{
+	"black_powder_vaulter": {
 		"name": "Black Powder Vaulter",
 		"file": "archetypedisplay351c.html",
 		"sources": [ "Martial Arts Handbook" ],
@@ -39,9 +39,10 @@
 			"**Dual Shot on the Run (Ex):** At 11th level, the black powder vaulter can make two attacks with firearms while using the shot on the run deed.",
 			"",
 			"This deed replaces the expert loading deed."
-		]
+		],
+		"display": "archetype/gunslinger"
 	},
-	{
+	"blatherskite": {
 		"name": "Blatherskite",
 		"file": "archetypedisplay8e46.html",
 		"sources": [ "Antihero's Handbook" ],
@@ -85,9 +86,10 @@
 			"**Blatherskite's Surprise (Ex):** At 7th level, when the blatherskite succeeds at a saving throw against a spell or an effect that would cause him to be blinded, confused, dazed, fascinated, frightened, nauseated, paralyzed, or stunned, he can allow the effect to affect him normally. As long as he has at least 1 grit point, as an immediate action he can cause the creature from which the effect originated to lose its Dexterity bonus to AC for a number of rounds equal to half the duration of the effect (in rounds) or half the gunslinger's level, whichever is lower (minimum 1 round). If he instead spends 1 grit point, he does not need to allow the effect to affect him normally to use this deed.",
 			"",
 			"This deed replaces the startling shot deed."
-		]
+		],
+		"display": "archetype/gunslinger"
 	},
-	{
+	"bolt_ace": {
 		"name": "Bolt Ace",
 		"file": "archetypedisplay9002.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -135,9 +137,10 @@
 			"**Crossbow Training (Ex):** Starting at 5th level, a bolt ace can select one specific type of crossbow, such as hand crossbow or heavy crossbow. She gains a bonus on damage rolls equal to her Dexterity modifier with that crossbow. Furthermore, when she scores a critical hit with that type of crossbow, her critical modifier increases by 1 (a &times;2 becomes a &times;3, for example).",
 			"",
 			"Every 4 levels thereafter, she can pick a different type of crossbow, gaining the bonus damage and increased critical multiplier with that type of crossbow as well. This ability replaces gun training."
-		]
+		],
+		"display": "archetype/gunslinger"
 	},
-	{
+	"buccaneer": {
 		"name": "Buccaneer",
 		"file": "archetypedisplay700b.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -183,9 +186,10 @@
 			"**Gun Training (Ex):** A buccaneer gains this ability only at 13th level with a single type of firearm.",
 			"",
 			"**Raider's Riposte (Ex):** At 17th level, whenever an enemy misses a buccaneer with an attack of opportunity, it provokes an attack of opportunity from the buccaneer. This ability replaces gun training 4."
-		]
+		],
+		"display": "archetype/gunslinger"
 	},
-	{
+	"bushwhacker": {
 		"name": "Bushwhacker",
 		"file": "archetypedisplay1d7a.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -216,9 +220,10 @@
 			"**Long Range Shifty Shot (Ex):** At 7th level, a bushwhacker can double the range at which she deals extra damage from a sneak attack or shifty shot (from 30 feet to 60 feet) with a firearm by spending 1 grit point. When she spends this grit point, she must still have at least 1 grit point left to deal extra damage from shifty shot if she is using this deed. This deed replaces the targeting deed.",
 			"",
 			"**Sneak Shot (Ex):** At 4th level and every four levels thereafter, a bushwhacker deals 1d6 points of extra damage when using a firearm to attack opponents who are unable to properly defend themselves. Unlike with the shifty shot ability, she deals this extra damage regardless of whether or not she has any grit points when making the attack. Except for the requirement that she makes a firearm attack, this works identically to a rogue's sneak attack class feature. This extra damage stacks with sneak attack and the damage from shifty shot. This ability replaces the bonus feats the gunslinger gains at 4th, 8th, 12th, 16th, and 20th level."
-		]
+		],
+		"display": "archetype/gunslinger"
 	},
-	{
+	"commando": {
 		"name": "Commando",
 		"file": "archetypedisplay1aac.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -270,9 +275,10 @@
 			"**Trapsmith:** At 5th level, a commando can learn how to create one ranger trap in place of gaining the next level of gun training. A commando can use a known trap a number of times per day equal to her Wisdom bonus (minimum 1). The DC for a commando's trap is equal to 10 + half her commando level + her Wisdom bonus, and it lasts 1 day per 2 levels she has. A commando can set only extraordinary ranger traps with this ability; as with extraordinary ranger traps, the trap DC for these traps has a -2 penalty.",
 			"",
 			"This alters gun training."
-		]
+		],
+		"display": "archetype/gunslinger"
 	},
-	{
+	"experimental_gunsmith": {
 		"name": "Experimental Gunsmith",
 		"file": "archetypedisplay256c.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -303,9 +309,10 @@
 			"**Recoilless:** The experimental gunsmith's firearm includes a series of gears, springs, and pistons designed to reduce its recoil and thus improve accuracy. The range increment of the weapon increases by 10 feet. However, the system is fragile, and easily damaged. Anytime the weapon misfires, this system becomes broken and does not function until the experimental gunsmith spends 1 hour repairing it.",
 			"",
 			"**Vial Launcher:** The experimental gunsmith adds a special tube onto her firearm that can hold 1 vial of alchemical material, such as alchemist's fire, a tanglefoot bag, or a thunderstone. A special trigger allows her to channel the force of black powder into this tube to launch the vial as a ranged attack with half the range increment of her firearm. The experimental gunsmith can take this action in place of any single ranged attack, and may use the same attack bonus that she can apply to the firearm. If the alchemical substance has a save DC, it becomes 10 + 1/2 her experimental gunsmith level + her Wisdom modifier when she launches the vial from her firearm. This increase only applies to the initial saving throw. If additional saving throws are called for, they are resolved as normal. Reloading the tube is a time-consuming process and requires two full-round actions. If the weapon misfires while loaded with an alchemical substance, it detonates with the experimental gunsmith (and the firearm) as the target."
-		]
+		],
+		"display": "archetype/gunslinger"
 	},
-	{
+	"firebrand": {
 		"name": "Firebrand",
 		"file": "archetypedisplay8932.html",
 		"sources": [ "Elemental Master's Handbook" ],
@@ -348,9 +355,10 @@
 			"**Bombs (Su):** At 5th level, the firebrand gains the bombs ability as an alchemist of her gunslinger level - 4, using her Charisma modifier in place of her Intelligence modifier to determine her number of bombs per day and the DC to avoid splash damage. The firebrand adds her Charisma modifier to her bombs' damage instead of her Intelligence modifier, even if she has the throw anything class feature. In addition, the firebrand's bombs are always under the effect of the explosive bombs discovery. Firebrand levels do not stack with levels in other classes with the bombs class feature.",
 			"",
 			"This ability replaces gun training."
-		]
+		],
+		"display": "archetype/gunslinger"
 	},
-	{
+	"graveslinger": {
 		"name": "Graveslinger",
 		"file": "archetypedisplay98bb.html",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
@@ -392,9 +400,10 @@
 			"**:** At 4th level, the graveslinger gains [Blind-Fight](feat:blind-fight) as a bonus feat. Additionally, as long as she has 1 grit point, she can always act in surprise rounds that are triggered by haunts and incorporeal undead, even if she fails to notice them.",
 			"",
 			"This replaces the bonus feat gained at 4th level."
-		]
+		],
+		"display": "archetype/gunslinger"
 	},
-	{
+	"gulch_gunner": {
 		"name": "Gulch Gunner",
 		"file": "archetypedisplay0b2e.html",
 		"sources": [],
@@ -431,9 +440,10 @@
 			"**Staggering Shot (Ex):** At 15th level, when the gulch gunner hits an adjacent target with a ranged firearm attack, the target must also make a Fortitude save (DC 10 + 1/2 the gulch gunner's level + the gulch gunner's Wisdom modifier) or be staggered for 1d4 rounds. This deed replaces the menacing shot deed.",
 			"",
 			"**Belly Shot (Ex):** At 9th level, a gulch gunner can press her firearm directly against a vulnerable location of an adjacent target, dealing additional damage. When the gulch gunner successfully hits an adjacent target with a ranged firearm attack, she deals +1d6 points of damage. This damage increases to +2d6 at 13th level and to +3d6 at 17th level. Creatures immune to precision damage, critical hits, or sneak attacks do not take this additional damage. This ability replaces the gun training ability gained at 9th, 13th, and 17th level."
-		]
+		],
+		"display": "archetype/gunslinger"
 	},
-	{
+	"gun_scavenger": {
 		"name": "Gun Scavenger",
 		"file": "archetypedisplay23bc.html",
 		"sources": [ "Inner Sea Combat" ],
@@ -462,9 +472,10 @@
 			"**Jury-Rig (Ex):** At 7th level, as a standard action, a gun scavenger can adjust a firearm she is currently wielding to fire in an unconventional way. She can spend 1 grit point to grant her firearm one of the following magic weapon enhancements for 1 round per gunslinger level: distance, flaming, glamered, or thundering. If she spends 2 grit points, she can instead grant the firearm flaming burst or stalking. Multiple uses of this ability don't stack with themselves. This deed replaces the targeting deed.",
 			"",
 			"**Arbitrary Aim (Ex):** Starting at 2nd level, a gun scavenger's attacks with firearms are difficult to predict. When shooting a firearm at a creature that has a dodge or insight bonus to its Armor Class, the gun scavenger treats the combined bonus as if it were 1 lower. This value increases by 1 for every 4 levels beyond 2nd level (to a maximum of 5 at 20th level). This ability replaces nimble."
-		]
+		],
+		"display": "archetype/gunslinger"
 	},
-	{
+	"gun_tank": {
 		"name": "Gun Tank",
 		"file": "archetypedisplay7828.html",
 		"sources": [ "Ultimate Combat" ],
@@ -494,9 +505,10 @@
 			"**Bullet Defection (Ex):** A gun tank is adept at modifying and using her armor to stop firearm attacks. Starting at 2nd level, a gun tank wearing medium or heavy armor gains half the armor's bonus plus the armor's enhancement bonus (if any) as a deflection bonus against any non-siege firearm or splash weapon attack (including the alchemist's bomb class ability). This ability has no affect on spells, spell-like abilities, or supernatural abilities that make a touch attack. This ability replaces nimble.",
 			"",
 			"**Armor Training (Ex):** At 4th level, a gun tank learns to be more maneuverable while wearing armor. Whenever she is wearing armor, the armor check penalty is reduced by 1 (to a minimum of 0) and the maximum Dexterity bonus allowed by her armor increases by 1. Every four levels thereafter (8th, 12th, and 16th), the bonus increases by 1, to a maximum of a -4 reduction of the armor check penalty and a +4 increase to the maximum Dexterity bonus allowed. This ability stacks with the fighter class ability of the same name. If the gun tank has both class features, she takes the most advantageous benefit of the two class features. This ability replaces the bonus feats the gunslinger gains at 4th level and every four levels thereafter."
-		]
+		],
+		"display": "archetype/gunslinger"
 	},
-	{
+	"gunner_squire": {
 		"name": "Gunner Squire",
 		"file": "archetypedisplayf99a.html",
 		"sources": [ "Knights of the Inner Sea" ],
@@ -520,9 +532,10 @@
 			"**Side Arm (Ex):** At 3rd level, as a full-round action, a gunner squire can spend 1 grit point to reload a one-handed or two-handed firearm she is holding. If the firearm has multiple barrels, she can reload a number of barrels per round equal to her Dexterity modifier (minimum 1). A gunner squire equipped with alchemical cartridges (see Ultimate Equipment) can use this deed to reload multiple firearms at once, dividing the number of barrels she's able to reload among the firearms she is carrying however she wishes, even if this would mean stowing and retrieving multiple firearms from her equipment with one action. Abilities, deeds, and feats that decrease reloading time (such as Rapid Reload) do not improve this deed. This deed replaces gunslinger initiative.",
 			"",
 			"**Safe Handling (Ex):** At 2nd level, as a full-round action, a gunner squire can temporarily ensure the safety of a firearm she is holding, reducing its misfire chance by 1 (to a minimum of 0) on the next attack roll made with that firearm. This reduction does not stack with itself. This reduction occurs after any increases are calculated for firing with the broken condition, or for any other effect that might increase the misfire value of a firearm. This ability replaces nimble +1."
-		]
+		],
+		"display": "archetype/gunslinger"
 	},
-	{
+	"maverick": {
 		"name": "Maverick",
 		"file": "archetypedisplayd1e9.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -552,9 +565,10 @@
 			"Gun Twirl (Ex) At 3rd level, as long as the maverick has at least 1 grit point, she can use flashy gunplay to intimidate her opponents. She gains the [Dazzling Display](feat:dazzling_display) feat and can use it with any firearm, even if she doesn't have [Weapon Focus](feat:weapon_focus) in that firearm.",
 			"",
 			"This deed replaces the gunslinger initiative deed."
-		]
+		],
+		"display": "archetype/gunslinger"
 	},
-	{
+	"musket_master": {
 		"name": "Musket Master",
 		"file": "archetypedisplay20d6.html",
 		"sources": [ "Ultimate Combat" ],
@@ -586,9 +600,10 @@
 			"**Rapid Reloader:** At 1st level, a musket master gains Rapid Reload (muskets) as a bonus feat.",
 			"",
 			"**Musket Training (Ex):** Starting at 5th level, a musket master increases her skill with two-handed firearms. She gains a bonus on damage rolls equal to her Dexterity modifier, and when she misfires with a two-handed firearm, the misfire value increases by 2 instead of 4. Every four levels thereafter (9th, 13th, and 17th), the bonus on damage rolls increases by +1. This replaces firearm training 1, 2, 3, and 4."
-		]
+		],
+		"display": "archetype/gunslinger"
 	},
-	{
+	"mysterious_stranger": {
 		"name": "Mysterious Stranger",
 		"file": "archetypedisplay6dba.html",
 		"sources": [ "Ultimate Combat" ],
@@ -617,9 +632,10 @@
 			"**Lucky (Ex):** Starting at 2nd level, a mysterious stranger gains a +1 luck bonus on Will saving throws. This bonus increases by +1 for every four levels beyond 2nd level (to a maximum of +5 at 20th level). This ability replaces nimble.",
 			"",
 			"**Stranger's Fortune (Ex):** Starting at 5th level, a mysterious stranger can ignore a firearm misfire a number of times per day equal to her Charisma bonus. She can use this ability as a free action. This ability replaces gun training 1."
-		]
+		],
+		"display": "archetype/gunslinger"
 	},
-	{
+	"pistolero": {
 		"name": "Pistolero",
 		"file": "archetypedisplay7e24.html",
 		"sources": [
@@ -657,9 +673,10 @@
 			"**Twin Shot Knockdown (Ex):** At 11th level, when the pistolero hits a single target with two or more one-handed firearm attacks during her turn, she can spend 1 grit point to knock the target prone. She can choose to spend the grit point after the attacks are made. This deed replaces the bleeding wound deed.",
 			"",
 			"**Pistol Training (Ex):** Starting at 5th level, a pistolero increases her skill with one-handed firearms. She gains a bonus on damage rolls equal to her Dexterity modifier, and when she misfires with a one-handed firearm, the misfire value increases by 2 instead of 4. Every four levels thereafter (9th, 13th, and 17th), the bonus on damage rolls increases by +1. This ability replaces gun training 1 to 4."
-		]
+		],
+		"display": "archetype/gunslinger"
 	},
-	{
+	"planar_rifter": {
 		"name": "Planar Rifter",
 		"file": "archetypedisplayd668.html",
 		"sources": [ "Plane-Hopper's Handbook" ],
@@ -709,9 +726,10 @@
 			"**Planar Strike (Su):** At 5th level, as long as he has at least 1 point in his grit pool, a planar rifter's weapon attacks deal an extra 1d6 points of damage of the same damage type reduced by his planar resistance. Aligned damage harms only creatures of an opposed alignment. At 13th level, this damage increases to 2d6.",
 			"",
 			"This replaces gun training."
-		]
+		],
+		"display": "archetype/gunslinger"
 	},
-	{
+	"scatter_gunner": {
 		"name": "Scatter Gunner",
 		"file": "archetypedisplay55f2.html",
 		"sources": [ "People of the Wastes" ],
@@ -753,9 +771,10 @@
 			"This replaces the dead shot deed.",
 			"",
 			"**Satchel Shot (Ex):** At 7th level, as a full-round action, a scatter gunner can load and fire an explosive shell, consuming ammunition as though he had made a scattering shot. This functions like throwing a splash weapon at a grid intersection but uses his firearm's range increment, attack bonus, and magic special abilities (if any). The shell affects creatures in a 10-foot radius as though the scatter gunner had made a scattering shot against them, and damaged creatures must succeed at a Reflex save (DC = 10 + half the scatter gunner's level + the scatter gunner's Dexterity modifier) or catch fire (Pathfinder RPG Core Rulebook 444). This replaces the targeting deed."
-		]
+		],
+		"display": "archetype/gunslinger"
 	},
-	{
+	"siege_gunner": {
 		"name": "Siege Gunner",
 		"file": "archetypedisplay1964.html",
 		"sources": [ "Inner Sea Combat" ],
@@ -785,9 +804,10 @@
 			"**Scattershot (Ex):** At 3rd level, if the siege gunner has at least 1 grit point, she can increase the effectiveness of scattering shots from hand-held firearms and blast shots from siege engines. The cone radius of scattering shots or blast shots increases by 5 feet for every three levels the siege gunner possesses (to a maximum of 30 feet at 18th level). This ability replaces gunslinger initiative.",
 			"",
 			"**Bonus Feats:** At 4th level, a siege gunner gains Siege Engineer as a bonus feat. At 8th level, she gains Master Siege Engineer as a bonus feat. She does not need to meet the prerequisites for these feats. At 12th level and for every 4 levels thereafter, the siege gunner gains a bonus feat in addition to those gained by normal advancement. These additional bonus feats must be combat or grit feats, and she must meet the prerequisites as normal. This replaces the gunslinger's normal bonus feats."
-		]
+		],
+		"display": "archetype/gunslinger"
 	},
-	{
+	"techslinger": {
 		"name": "Techslinger",
 		"file": "archetypedisplay94de.html",
 		"sources": [ "Technology Guide" ],
@@ -820,9 +840,10 @@
 			"**Technic Training (Ex):** Starting at 5th level, a techslinger can select one specific type of advanced technology firearm (such as a laser pistol, mindrender, stun gun, or zero rifle). Thereafter, she gains a bonus equal to her Dexterity modifier on damage rolls when using that firearm. Furthermore, she treats all detrimental glitches of timeworn versions of her selected firearm as a result of no glitch. (She can retain the effects of beneficial glitches if she wishes.)",
 			"",
 			"Every 4 levels thereafter (9th, 13th, and 17th), the techslinger selects another type of advanced technology firearm, gaining these bonuses for those types as well. This ability replaces gun training."
-		]
+		],
+		"display": "archetype/gunslinger"
 	},
-	{
+	"thronewarden": {
 		"name": "Thronewarden",
 		"file": "archetypedisplay7ca2.html",
 		"sources": [ "Heroes of the High Court" ],
@@ -862,9 +883,10 @@
 			"**Opening Shot (Ex):** At 11th level as a standard action, a thronewarden can call her allies to action in a surprise round by spending 1 grit point and shooting a firearm into the air. Any allies within 30 feet who would not normally be able to act in the surprise round can act at the end of the surprise round (their order is determined by their initiative results; they act in normal initiative order in following rounds). Allies who would normally act in the surprise round but who have not yet acted can take a full round's worth of actions instead of just a move or standard action.",
 			"",
 			"This deed replaces bleeding wound."
-		]
+		],
+		"display": "archetype/gunslinger"
 	},
-	{
+	"wyrm_sniper": {
 		"name": "Wyrm Sniper",
 		"file": "archetypedisplay5029.html",
 		"sources": [ "Dragonslayer's Handbook" ],
@@ -901,6 +923,7 @@
 			"**Heavy Gunner (Ex):** Starting at 5th level, a wyrm sniper may select one specific type of light siege weapon (suc as a ballista or light bombard) in place of a specific type of firearm as part of her gun training class ability. Every 4 levels thereafter (9th, 13th, and 17th), when she can pick a new type of firearm for the gun training class ability, the gunslinger may again select another type of light siege engine.",
 			"",
 			"**Master Siege Engineer (Ex):** At 12th level, a wyrm sniper may select the Master Siege Engineer combat feat as her bonus feat, even if she does not meet the feat's prerequisites."
-		]
+		],
+		"display": "archetype/gunslinger"
 	}
-]
+}

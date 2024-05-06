@@ -1,5 +1,5 @@
-[
-	{
+{
+	"agathiel": {
 		"name": "Agathiel",
 		"file": "archetypedisplayf26d.html",
 		"sources": [ "Spymaster's Handbook" ],
@@ -30,9 +30,10 @@
 			"**Agathion Blessing (Su):** Beginning at 2nd level, an agathiel gains Aspect of the Beast as a bonus feat while in his vigilante identity. If he selects the claws of the beast option, he can select a bite attack (1d8), a gore attack (1d8), or 2 slam attacks (1d4 each), as appropriate to his animal identity.",
 			"",
 			"This ability replaces the vigilante talent gained at 2nd level."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"anaphexia_thought-killer": {
 		"name": "Anaphexia Thought-Killer",
 		"file": "archetypedisplaybf45.html",
 		"sources": [ "Inner Sea Intrigue" ],
@@ -67,9 +68,10 @@
 			"**False Reading (Su):** At 15th level, an Anaphexia thought-killer is immune to all effects attempting to read her mind in both her social and vigilante identities. The Anaphexia thought-killer can attempt a Bluff check to provide false results to the creature attempting to read her thoughts, which the target can see through with a successful opposed Sense Motive check.",
 			"",
 			"This replaces the vigilante talent gained at 15th level."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"avenging_beast": {
 		"name": "Avenging Beast",
 		"file": "archetypedisplaye8ea.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -118,9 +120,10 @@
 			"**Wild Shape (Su):** At 5th level, when in his vigilante identity, the avenging beast gains the ability to take on the shape of the animal represented by his animal mask. This ability functions identically to the druid's wild shape ability, except the ability does not improve beyond functioning as beast shape I. The avenging beast treats his vigilante level as his druid level for the purposes of this ability. An avenging beast can use wild shape once per day at 5th level and one additional time per day at 7th level and every 2 levels thereafter, for a total of eight times per day at 19th level.",
 			"",
 			"This replaces startling appearance, frightening appearance, and stunning appearance."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"bellflower_harvester": {
 		"name": "Bellflower Harvester",
 		"file": "archetypedisplay341c.html",
 		"sources": [
@@ -160,9 +163,10 @@
 			"This ability replaces the vigilante talent gained at 2nd level.",
 			"",
 			"**Social Talents:** The following social talents complement the Bellflower harvester: case the joint, feign innocence, gossip collector, loyal aid, and subjective truth. Vigilante Talents The following vigilante talents complement the Bellflower harvester: blind spot, environment weapon, shadow's sight, and team player (see below)."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"brute": {
 		"name": "Brute",
 		"file": "archetypedisplayc409.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -222,9 +226,10 @@
 			"**Tear Them Apart (Ex):** At 20th level, a brute has learned how to tear at his enemies' bodies when he hits with multiple attacks. When he takes a full attack action while in his vigilante identity, if a brute hits an opponent with at least two attacks, he deals an additional 1d10 points of damage plus 1-1/2 times his Strength modifier. If he hits an opponent with four attacks during a full attack action while in his vigilante identity, he instead deals an additional 3d10 points of damage plus 1-1/2 times his Strength modifier. The damage occurs after he has taken his last attack with the full attack action. This counts as a rend and does not stack with other abilities that grant rend.",
 			"",
 			"This ability replaces vengeance strike."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"cabalist": {
 		"name": "Cabalist",
 		"file": "archetypedisplay858b.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -299,9 +304,10 @@
 			"**Shadowy Appearance (Sp):** At 17th level, a cabalist becomes cloaked in shadow while in his vigilante identity. He gains a continuous 20% miss chance (as per blur). The cabalist can deactivate or reactivate this effect as a standard action. Once per day, he can spend an immediate action to gain the benefits of greater invisibility for 1d6 rounds.",
 			"",
 			"This ability replaces stunning appearance."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"chu_ye_enforcer": {
 		"name": "Chu Ye Enforcer",
 		"file": "archetypedisplay3505.html",
 		"sources": [ "Martial Arts Handbook" ],
@@ -343,9 +349,10 @@
 			"**Third Eye (Su):** At 12th level, a Chu Ye enforcer's mask manifests a third eye. As a swift action a number of times per day equal to his vigilante level, he can launch a beam of fire from the eye as a ranged touch attack with a range of 180 feet. On a hit, the beam deals 4d6 points of fire damage. At 18th level, the beam damage increases to 8d6 points of fire damage.",
 			"",
 			"This replaces the vigilante talent gained at 12th level."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"darklantern": {
 		"name": "Darklantern",
 		"file": "archetypedisplaya621.html",
 		"sources": [ "Heroes of the Darklands" ],
@@ -377,9 +384,10 @@
 			"**Drow Paragon (Su):** At 4th level, the darklantern gains Spell Resistance equal to 6 + her vigilante level, and the range of her darkvision increases to 120 feet while in her vigilante identity.",
 			"",
 			"This replaces the vigilante talent gained at 4th level."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"dragonscale_loyalist": {
 		"name": "Dragonscale Loyalist",
 		"file": "archetypedisplay30c8.html",
 		"sources": [ "Heroes of the High Court" ],
@@ -431,9 +439,10 @@
 			"**Conqueror's Wrath (Ex):** Inspired by the deeds of Chora the Conqueror, a loyalist can rampage through enemy ranks. At 17th level, as a full-round action, a Dragonscale loyalist can make a full attack and move up to his speed. The loyalist can pause at any point or points during the movement, make one or more of his attacks, and continue moving. Creatures making attacks of opportunity against the loyalist during this movement gain a +4 bonus on their attack and damage rolls. Using this ability counts as using a vigilante talent.",
 			"",
 			"This ability replaces stunning appearance."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"experimenter": {
 		"name": "Experimenter",
 		"file": "archetypedisplay2ae2.html",
 		"sources": [ "Horror Adventures" ],
@@ -485,9 +494,10 @@
 			"**Mutable Mutagen:** At 17th level, the duration of an experimenter's mutagen increases to 1 hour per level.",
 			"",
 			"This ability replaces stunning appearance."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"faceless_enforcer": {
 		"name": "Faceless Enforcer",
 		"file": "archetypedisplay9694.html",
 		"sources": [ "Path of the Hellknight" ],
@@ -535,9 +545,10 @@
 			"**Enforcer's Wrath (Ex):** At 6th level, a faceless enforcer has become adept at using his vigilante identity to terrify and coerce lone enemies, particularly among the group he is currently infiltrating. He gains a +4 bonus on Intimidate checks against enemies when no other opponents are within 30 feet of him (or the creature he is intimidating). This bonus stacks with any bonuses the vigilante receives from renown or similar abilities. Additionally, if the vigilante successfully demoralizes a lone opponent with Intimidate, the opponent is shaken for 1 additional round.",
 			"",
 			"This ability replaces the vigilante talent gained at 6th level."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"ferocious_hunter": {
 		"name": "Ferocious Hunter",
 		"file": "archetypedisplay0f43.html",
 		"sources": [ "Heroes from the Fringe" ],
@@ -570,9 +581,10 @@
 			"**Symbol of Mastery:** At 8th level, a ferocious hunter gains Improved Critical with the weapon chosen for the symbol of pride ability. His base attack bonus is equal to his vigilante level for the purpose of qualifying for [Critical Focus](feat:critical_focus) and any feats that require [Critical Focus](feat:critical_focus) as a prerequisite.",
 			"",
 			"This replaces the vigilante talent gained at 8th level."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"gunmaster": {
 		"name": "Gunmaster",
 		"file": "archetypedisplay0142.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -614,14 +626,17 @@
 			"**Nimble (Ex):** Starting at 4th level, a gunmaster gains a +1 dodge bonus to AC while wearing light or no armor. Anything that causes the gunmaster to lose her Dexterity bonus to AC also causes the gunmaster to lose this dodge bonus. This bonus increases by 1 for every 6 vigilante levels beyond 4th (to a maximum of +3 at 16th level).",
 			"",
 			"This ability replaces unshakable."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"half-elf_double_scion": {
 		"name": "Half-Elf Double Scion",
 		"file": "archetypedisplay9869.html",
 		"sources": [ "Heroes from the Fringe" ],
 		"replaces": "Dual Identity",
-		"replace_array": [ "Dual Identity" ],
+		"replace_array": [
+			"Dual Identity"
+		],
 		"short_description": "The deception of hiding their true heritage can take a toll on some half-elves, and some form alternate identities to let the suppressed side of their heritage be known.",
 		"description": [
 			"## Half-Elf Double Scion",
@@ -640,9 +655,10 @@
 			"**Arrogant Strike (Ex):** A half-elf double scion has a highly confident style in battle, characteristic of both humans and elves. A half-elf double scion can declare that he is using this ability at the beginning of his turn as a free action. He automatically confirms any critical hits until the beginning of his next turn. He can use this ability once per day plus one additional time at 14th level and 18th level. A half-elf double scion must be at least 10th level to select this talent.",
 			"",
 			"**Slick Step (Ex):** A half-elf double scion can, as a move action, move 10 feet without provoking an attack of opportunity. This movement cannot pass through an opponent's square and must otherwise be a legal movement. He cannot draw a weapon during this movement."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"hangman": {
 		"name": "Hangman",
 		"file": "archetypedisplay6d15.html",
 		"sources": [ "Horror Adventures" ],
@@ -695,9 +711,10 @@
 			"**Suffocation (Ex):** At 17th level, the first time the hangman succeeds at a check to maintain a grapple (on his next turn after establishing the grapple), in place of the other options, he can suffocate the target and cause her to fall unconscious. A successful Fortitude save (DC = 15 + the hangman's Strength bonus) negates the suffocation. On subsequent rounds, the hangman can maintain the grapple to suffocate the target again. On the next failed save, the target drops to -1 hit points and starts dying. On the third failed save, she dies. Even if the hangman has the ability to maintain a grapple with less than a standard action, he can attempt to maintain a grapple to suffocate only once per round.",
 			"",
 			"This ability replaces stunning appearance."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"hidden_current": {
 		"name": "Hidden Current",
 		"file": "archetypedisplay8e59.html",
 		"sources": [ "Blood of the Sea" ],
@@ -725,9 +742,10 @@
 			"**Stealthy Swimmer (Ex):** Hidden currents can transition between land and sea at a moment's notice. If a hidden current begins his movement on land and ends his movement in water at least waist deep, or vice versa, he gains a +5 circumstance bonus on a Stealth check in the same turn.",
 			"",
 			"This ability replaces the hidden current's 2nd-level vigilante talent."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"imperial_agent": {
 		"name": "Imperial Agent",
 		"file": "archetypedisplay14cf.html",
 		"sources": [ "Blood of the Ancients" ],
@@ -755,9 +773,10 @@
 			"**False Flag (Ex):** At 5th level, whenever an imperial agent changes his identity, he has a third option (instead of social or vigilante) he can wear a false flag. This functions identically to the many guises social talent, except that the false flag identity is associated with a particular nation, organization, or other faction. The imperial agent gains a +20 circumstance bonus on Disguise checks to impersonate a member of that faction against creatures who are unaffiliated with that faction, potentially allowing the imperial agent to pin the blame for his actions on the faction he was impersonating. However, the imperial agent receives no bonus and a -10 penalty on Disguise checks against members of the faction he is impersonating. An imperial agent can choose a different faction each time he uses this ability. Factions that lack a flag, uniform, or other symbol of membership may be difficult or impossible to impersonate, at the GM's discretion.",
 			"",
 			"This replaces the social talent gained at 5th level."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"magical_child": {
 		"name": "Magical Child",
 		"file": "archetypedisplay27fd.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -808,9 +827,10 @@
 			"**Staunch Ally (Ex):** A magical child's familiar counts as the magical child for purposes of the startling appearance, frightening appearance, and stunning appearance abilities, and it can calculate its DCs using either its own Charisma modifier or the magical child's, whichever is better. At 20th level, the familiar can make vengeance strikes as if it were the magical child.",
 			"",
 			"This ability alters startling appearance, frightening appearance, stunning appearance, and vengeance strike."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"masked_maiden": {
 		"name": "Masked Maiden",
 		"file": "archetypedisplay7684.html",
 		"sources": [ "Adventurer's Guide" ],
@@ -851,9 +871,10 @@
 			"**Armor Training (Ex):** All Gray Maidens were drilled in the use of their armor, and as a masked maiden continues to lapse in and out of indoctrination, that training emerges slowly from her subconscious. At 3rd level, a masked maiden gains the fighter's armor training class feature, and at 19th level she gains armor mastery. She treats her vigilante level as her fighter level for the purposes of both.",
 			"",
 			"This replaces the vigilante's social talents gained at 3rd, 7th, 11th, 15th, and 19th levels."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"mounted_fury": {
 		"name": "Mounted Fury",
 		"file": "archetypedisplay30af.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -901,9 +922,10 @@
 			"**Vengeance Strike (Ex):** At 20th level, a mounted fury need not be mounted while he studies a target against whom he plans a vengeance strike, but he must be mounted when he makes the strike's attack.",
 			"",
 			"This ability alters vengeance strike."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"mutated_defender": {
 		"name": "Mutated Defender",
 		"file": "archetypedisplaycace.html",
 		"sources": [ "People of the Wastes" ],
@@ -932,9 +954,10 @@
 			"*Mutant Evolution:* The mutated defender gains a 1-point evolution from the eidolon list other than climb, improved natural armor, mount, skilled, or swim. He must meet any prerequisites as normal, using his vigilante level for prerequisites that require a summoner level. He can select an evolution granting a natural attack without fulfilling the subtype requirement, though he must replace one of his hands with the natural weapon. A mutated defender can select this mutant talent multiple times, choosing a different evolution each time.",
 			"",
 			"*Mutated Lobe (Sp):* A mutated defender's brain is enlarged and distended, granting him psychic powers. He can cast detect thoughts as a spell-like ability once per day for every 4 vigilante levels he has, with a caster level equal to his vigilante level. A vigilante must be at least 4th level to select this talent."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"psychometrist": {
 		"name": "Psychometrist",
 		"file": "archetypedisplaye9e9.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -978,9 +1001,10 @@
 			"**Psychometric Strike (Su):** At 20th level, a psychometrist gains twice the usual benefits of vengeance strike (up to the same maximum) against an opponent who possesses an object that once belonged to the psychometrist.",
 			"",
 			"This ability alters vengeance strike."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"serial_killer": {
 		"name": "Serial Killer",
 		"file": "archetypedisplay6080.html",
 		"sources": [ "Horror Adventures" ],
@@ -1044,9 +1068,10 @@
 			"**Swift Death (Ex):** At 17th level, a serial killer gains the swift death class feature as an assassin.",
 			"",
 			"This ability replaces the vigilante's stunning appearance."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"splintersoul": {
 		"name": "Splintersoul",
 		"file": "archetypedisplay146d.html",
 		"sources": [ "Antihero's Handbook" ],
@@ -1084,9 +1109,10 @@
 			"**Surprising Change (Ex):** At 7th level, when a splintersoul uses the immediate change talent to reveal his vigilante identity and then attacks a foe in the same round, he can use the startling appearance ability against that foe as though the foe were unaware of his presence. At 11th and 17th levels, he can use frightening appearance and stunning appearance, respectively, while using this ability. A splintersoul can use frightening appearance and stunning appearance only against foes who are unaware of his presence, and he can do so a number of times per day equal to his Charisma modifier. This ability doesn't function against foes who already know the splintersoul's identity.",
 			"",
 			"This alters startling appearance, frightening appearance, and stunning appearance."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"teisatsu": {
 		"name": "Teisatsu",
 		"file": "archetypedisplay13b9.html",
 		"sources": [ "Spymaster's Handbook" ],
@@ -1123,9 +1149,10 @@
 			"**Ki Power (Su):** The teisatsu gains a single ki power of his choice from the list available to the unchained monk class (Pathfinder RPG Pathfinder Unchained 14).",
 			"",
 			"**Shadow Tricks (Ex):** The teisatsu gains a single ninja trick (but not a master trick) of his choice. He cannot select a rogue talent in place of a ninja trick in this manner. If he selects a ninja trick marked with an asterisk (*), that talent applies to his hidden strikes instead of to sneak attacks, and the talent counts as a stalker vigilante talent with an asterisk (*) for the limitation of applying only one effect to a single hidden strike."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"warlock": {
 		"name": "Warlock",
 		"file": "archetypedisplay97ff.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -1192,9 +1219,10 @@
 			"**Social Simulacrum (Sp):** The warlock can create a shortlived simulacrum (as lesser simulacrum on page 238 of Ultimate Magic) that duplicates her social identity, allowing her to appear to be in two places at once. Creating the duplicate takes 1 hour and requires no material component cost. It lasts for 4 hours before turning back into an inert pile of snow. The duplicate replicates only the warlock's social identity, with the same alignment and social talents. It has no magical abilities, and can't assume a vigilante identity. As with the spell, the simulacrum isn't under the warlock's control. The warlock can create a social simulacrum no more than once per day and can have only one in existence at a time. A warlock must be at least 8th level to select this talent.",
 			"",
 			"**Tattoo Chamber (Su):** This talent functions as the cabalist ability of the same name."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"wildsoul": {
 		"name": "Wildsoul",
 		"file": "archetypedisplayb917.html",
 		"sources": [
@@ -1259,9 +1287,10 @@
 			"**Feline Pounce (Ex):** At 12th level, a feline wildsoul can strike quickly and lethally at a moment's notice. He gains the mad rush avenger vigilante talent, even if he is not an avenger.",
 			"",
 			"**Nine Lives (Su):** At 18th level, a feline wildsoul can survive attacks that would kill lesser vigilantes. He gains the defensive roll advanced rogue talent and can use this ability eight times per day."
-		]
+		],
+		"display": "archetype/vigilante"
 	},
-	{
+	"zealot": {
 		"name": "Zealot",
 		"file": "archetypedisplay227d.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -1328,6 +1357,7 @@
 			"As a swift action, the zealot chooses one target within sight to smite. If this target is of the proper alignment, the zealot adds his Charisma bonus on his attack rolls (to a maximum of half his vigilante level) and his vigilante level on all damage rolls against the target of his smite. If the target of smite is an outsider with an alignment subtype of the zealot's smite, a similarly aligned dragon, or an undead creature (if the zealot's smite is against evil creatures), a good-aligned cleric or paladin (if the zealot's smite is against good creatures), a chaotic aberration (if the zealot's smite is against chaotic creatures), or a lawful-aligned cleric or paladin (if the zealot's smite is against lawful creatures), the bonus to damage on the first successful attack increases to 2 points of damage per vigilante level. Regardless of the target, the zealot's smite attacks bypass the creature's DR as if it were a weapon with a +5 enhancement bonus.",
 			"",
 			"At 5th level, and every 3 vigilante levels thereafter, a zealot can smite one additional time per day, to a maximum of seven times per day at 20th level."
-		]
+		],
+		"display": "archetype/vigilante"
 	}
-]
+}

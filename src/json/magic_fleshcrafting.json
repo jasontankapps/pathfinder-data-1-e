@@ -1,5 +1,5 @@
 {
-	"description": [
+	"_description": [
 		"## Fleshcrafting",
 		"",
 		"**Description Source:** [Horror Adventures](source:horror_adventures)   ",
@@ -23,384 +23,399 @@
 		"",
 		"**Penalty:** This is the penalty that a creature takes while benefiting from a fleshcraft graft or elixir, or takes if it fails the saving throw after imbibing a fleshcraft elixir."
 	],
-	"list": [
-		{
-			"name": "Adhesive Slime",
-			"sources": [ "Potions and Poisons" ],
-			"price": null,
-			"elixir_price": 500,
-			"slot": "none",
-			"description": [
-				"### Adhesive Slime",
-				"",
-				"**Source** [Potions and Poisons pg. 21](source:potions_and_poisons)   ",
-				"**Price**  gp; **Elixir Price** 500 gp   ",
-				"**Saving Throw DC** 14; **Slot** ; **Temporary Duration** 1 hour   ",
-				"The subject's skin secretes a transparent, sticky substance, granting the creature a 15-foot climb speed.   ",
-				"**Penalty:** The subject takes a -4 penalty to CMD against grapple checks and must use a move action (instead of a free action) to drop a held object.",
-				"",
-				"#### Creation Requirements",
-				"",
-				"**Cost** N/A   ",
-				"Fleshwarper, Craft (alchemy) 8 ranks; Heal DC 18; **Elixir Cost** 250 gp"
-			]
-		},
-		{
-			"name": "Antennae",
-			"sources": [
-				"Horror Adventures",
-				"Pathfinder #16: Endless Night"
-			],
-			"price": 70000,
-			"elixir_price": 1250,
-			"slot": "eyes",
-			"description": [
-				"### Antennae",
-				"",
-				"**Source** [Horror Adventures pg. 167](source:horror_adventures), [Pathfinder #16: Endless Night pg. 63](source:pathfinder_#16_endless_night)   ",
-				"**Price** 70,000 gp; **Elixir Price** 1,250 gp   ",
-				"**Saving Throw DC** 20; **Slot** eyes; **Temporary Duration** 10 minutes   ",
-				"The subject's eyes are replaced by antennae that sprout from its eye sockets. The creature gains blindsight to a range of 30 feet.   ",
-				"**Penalty:** The subject is blinded.",
-				"",
-				"#### Creation Requirements",
-				"",
-				"**Cost** 35,000 gp   ",
-				"Fleshwarper, Craft (alchemy) 15 ranks; Heal DC 25; **Elixir Cost** 625 gp"
-			]
-		},
-		{
-			"name": "Blinding Spittle Glands",
-			"sources": [
-				"Horror Adventures",
-				"Pathfinder #16: Endless Night"
-			],
-			"price": 2000,
-			"elixir_price": 600,
-			"slot": "head",
-			"description": [
-				"### Blinding Spittle Glands",
-				"",
-				"**Source** [Horror Adventures pg. 167](source:horror_adventures), [Pathfinder #16: Endless Night pg. 63](source:pathfinder_#16_endless_night)   ",
-				"**Price** 2,000 gp; **Elixir Price** 600 gp   ",
-				"**Saving Throw DC** 13; **Slot** head; **Temporary Duration** 1 hour   ",
-				"The subject produces viscous black spittle that can temporarily blind creatures within 30 feet. If the subject succeeds at a ranged touch attack with this spittle, it blinds the target for 1d4 rounds. The subject can use this ability three times per day.   ",
-				"**Penalty:** The subject cannot speak or cast spells, use command word or spell-completion magic items, or cast spells with verbal components.",
-				"",
-				"#### Creation Requirements",
-				"",
-				"**Cost** 1,000 gp   ",
-				"Fleshwarper, Craft (alchemy) 8 ranks; Heal DC 18; **Elixir Cost** 300 gp"
-			]
-		},
-		{
-			"name": "Burrowing Claws",
-			"sources": [
-				"Horror Adventures",
-				"Pathfinder #16: Endless Night"
-			],
-			"price": 22500,
-			"elixir_price": 500,
-			"slot": "hands",
-			"description": [
-				"### Burrowing Claws",
-				"",
-				"**Source** [Horror Adventures pg. 167](source:horror_adventures), [Pathfinder #16: Endless Night pg. 63](source:pathfinder_#16_endless_night)   ",
-				"**Price** 22,500 gp; **Elixir Price** 500 gp   ",
-				"**Saving Throw DC** 15; **Slot** hands; **Temporary Duration** 1 hour   ",
-				"The subject's hands are replaced with hooked, clawed appendages. A Medium creature can use the claws as natural weapons that deal 1d6 points of slashing damage (1d4 points if Small). The claws grant the subject a burrow speed of 5 feet.   ",
-				"**Penalty:** The subject has a hard time wielding manufactured weapons and performing precision-based tasks involving hands (such as opening locks). Attacks with such weapons and skill checks and ability checks for such tasks take a -2 penalty.",
-				"",
-				"#### Creation Requirements",
-				"",
-				"**Cost** 11,250 gp   ",
-				"Fleshwarper, Craft (alchemy) 10 ranks; Heal DC 20; **Elixir Cost** 250 gp"
-			]
-		},
-		{
-			"name": "Camouflage Flesh",
-			"sources": [ "Horror Adventures" ],
-			"price": 30000,
-			"elixir_price": 1000,
-			"slot": "body",
-			"description": [
-				"### Camouflage Flesh",
-				"",
-				"**Source** [Horror Adventures pg. 167](source:horror_adventures)   ",
-				"**Price** 30,000 gp; **Elixir Price** 1,000 gp   ",
-				"**Saving Throw DC** 18; **Slot** body; **Temporary Duration** 1 hour   ",
-				"A glaze of strange, malleable skin wraps around the subject, granting it the ability to use Stealth in any natural terrain, whether or not it has cover or concealment.   ",
-				"**Penalty:** The subject takes a -4 penalty on Perception checks.",
-				"",
-				"#### Creation Requirements",
-				"",
-				"**Cost** 15,000 gp   ",
-				"Fleshwarper, Craft (alchemy) 13 ranks; Heal DC 23; **Elixir Cost** 500 gp"
-			]
-		},
-		{
-			"name": "Carapace",
-			"sources": [
-				"Horror Adventures",
-				"Pathfinder #16: Endless Night"
-			],
-			"price": 18000,
-			"elixir_price": 600,
-			"slot": "body",
-			"description": [
-				"### Carapace",
-				"",
-				"**Source** [Horror Adventures pg. 167](source:horror_adventures), [Pathfinder #16: Endless Night pg. 63](source:pathfinder_#16_endless_night)   ",
-				"**Price** 18,000 gp; **Elixir Price** 600 gp   ",
-				"**Saving Throw DC** 19; **Slot** body; **Temporary Duration** 1 hour   ",
-				"A chitinous carapace covers the subject's body, attached by a collection of fibrous nerves. This grants a +4 enhancement bonus to the subject's natural armor bonus.   ",
-				"**Penalty:** The inflexibility of the plates or the stiffness of a failed transformation imposes a -4 armor check penalty, which stacks with all other armor check penalties.",
-				"",
-				"#### Creation Requirements",
-				"",
-				"**Cost** 9,000 gp   ",
-				"Fleshwarper, Craft (alchemy) 14 ranks; Heal DC 24; **Elixir Cost** 300 gp"
-			]
-		},
-		{
-			"name": "Cerebral Husk",
-			"sources": [ "Horror Adventures" ],
-			"price": 6000,
-			"elixir_price": 500,
-			"slot": "headband",
-			"description": [
-				"### Cerebral Husk",
-				"",
-				"**Source** [Horror Adventures pg. 167](source:horror_adventures)   ",
-				"**Price** 6,000 gp; **Elixir Price** 500 gp   ",
-				"**Saving Throw DC** 17; **Slot** headband; **Temporary Duration** 24 hours   ",
-				"A cerebral husk forms on the back of the subject's head, burrowing synaptic fibers into the base of the skull. Once per day, when the subject fails a saving throw against a mind-affecting effect, it can shunt the effect into the cerebral husk. While the subject is not affected by that mind-affecting effect, it causes the husk to spasm, dealing 1d6 points of Constitution damage that the subject can recover from only by resting.   ",
-				"**Penalty:** The subject takes a -2 penalty on Intelligence-based checks.",
-				"",
-				"#### Creation Requirements",
-				"",
-				"**Cost** 3.000 gp   ",
-				"Fleshwarper, Craft (alchemy) 12 ranks; Heal DC 22; **Elixir Cost** 250 gp"
-			]
-		},
-		{
-			"name": "Claw Gauntlet",
-			"sources": [ "Horror Adventures" ],
-			"price": 32000,
-			"elixir_price": 1600,
-			"slot": "hand",
-			"description": [
-				"### Claw Gauntlet",
-				"",
-				"**Source** [Horror Adventures pg. 168](source:horror_adventures)   ",
-				"**Price** 32,000 gp; **Elixir Price** 1,600 gp   ",
-				"**Saving Throw DC** 20; **Slot** hand; **Temporary Duration** 1 hour   ",
-				"The subject's hands are replaced with clawed appendages that can be used as natural weapons that a Medium creature can use to deal 1d8 points of slashing damage (1d6 points if Small). The subject gains a +4 bonus on grapple combat maneuver checks with the gauntlet.   ",
-				"**Penalty:** The subject can't use the clawed hand to wield a weapon or manipulate objects. It takes a -4 penalty when performing precision-based tasks involving hands (such as opening locks) if attempting to do so with one hand.",
-				"",
-				"#### Creation Requirements",
-				"",
-				"**Cost** 16,000 gp   ",
-				"Fleshwarper, Craft (alchemy) 13 ranks; Heal DC 23; **Elixir Cost** 800 gp"
-			]
-		},
-		{
-			"name": "Darksight Eyes",
-			"sources": [ "Horror Adventures" ],
-			"price": 6000,
-			"elixir_price": 300,
-			"slot": "eyes",
-			"description": [
-				"### Darksight Eyes",
-				"",
-				"**Source** [Horror Adventures pg. 168](source:horror_adventures)   ",
-				"**Price** 6,000 gp; **Elixir Price** 300 gp   ",
-				"**Saving Throw DC** 15; **Slot** eyes; **Temporary Duration** 24 hours   ",
-				"Bulging eyes cover the subject's own, augmenting the existing organs. Fibrous nerve tissue grafts to the eyes, fusing them in place and linking the subject's vision to these new, bulbous appendages. The subject gains darkvision with a range of 60 feet.   ",
-				"**Penalty:** The subject gains light blindness (Pathfinder RPG Bestiary 301).",
-				"",
-				"#### Creation Requirements",
-				"",
-				"**Cost** 3,000 gp   ",
-				"Fleshwarper, Craft (alchemy) 10 ranks; Heal DC 20; **Elixir Cost** 150 gp"
-			]
-		},
-		{
-			"name": "Grasping Tendril",
-			"sources": [ "Horror Adventures" ],
-			"price": 22500,
-			"elixir_price": 500,
-			"slot": "varies",
-			"description": [
-				"### Grasping Tendril",
-				"",
-				"**Source** [Horror Adventures pg. 168](source:horror_adventures)   ",
-				"**Price** 22,500 gp; **Elixir Price** 500 gp   ",
-				"**Saving Throw DC** 16; **Slot** see below; **Temporary Duration** 1 hour   ",
-				"The subject gains a grasping tendril. If grafted as a replacement for a lost arm, this tendril functions as an arm, and if it isn't holding anything, a Medium creature can use the tendril as a secondary natural attack dealing 1d4 points of damage. If grafted elsewhere on the body (using the chest slot), the tendril can retrieve stowed objects on the subject's person and deliver them to an empty hand as a swift action, but cannot hold, use, or otherwise wield items. If the subject has no empty hand when the tendril retrieves a stowed item, the item harmlessly drops into the subject's space. A fleshcraft elixir granting a grasping tendril always transforms an arm, granting the first benefit.   ",
-				"**Penalty:** If the tendril replaces an arm, the subject has a hard time wielding manufactured weapons and performing precisionbased tasks involving hands (such as opening locks). Attacks with such weapons and skill or ability checks for such tasks take a -2 penalty. There is no penalty if the tendril is grafted elsewhere.",
-				"",
-				"#### Creation Requirements",
-				"",
-				"**Cost** 11,250 gp   ",
-				"Fleshwarper, Craft (alchemy) 11 ranks; Heal DC 21; **Elixir Cost** 250 gp"
-			]
-		},
-		{
-			"name": "Poison Fangs",
-			"sources": [
-				"Horror Adventures",
-				"Pathfinder #16: Endless Night"
-			],
-			"price": 12000,
-			"elixir_price": 800,
-			"slot": "head",
-			"description": [
-				"### Poison Fangs",
-				"",
-				"**Source** [Horror Adventures pg. 168](source:horror_adventures), [Pathfinder #16: Endless Night pg. 63](source:pathfinder_#16_endless_night)   ",
-				"**Price** 12,000 gp; **Elixir Price** 800 gp   ",
-				"**Saving Throw DC** 16; **Slot** head; **Temporary Duration** 10 minutes   ",
-				"The subject's teeth are replaced by strange, crooked fangs. A Medium creature gains a bite natural attack that deals 1d4 points of damage (1d3 points if Small). Three times per day, the subject can envenom the fangs as a free action before making the bite attack; the bite deals its normal damage plus poison (Fortitude DC = 15 + the subject's Constitution modifier; frequency 1/round for 3 rounds; effect 1d3 Str; cure 1 save). If the attack misses, the poison is wasted. The subject is immune to its own poison, but not other poisons (including the poisons of other creatures with poison fangs).   ",
-				"**Penalty:** The subject takes a -2 penalty on all Charisma-based skill checks except Intimidate checks.",
-				"",
-				"#### Creation Requirements",
-				"",
-				"**Cost** 6,000 gp   ",
-				"Fleshwarper, Craft (alchemy) 11 ranks; Heal DC 21; **Elixir Cost** 400 gp"
-			]
-		},
-		{
-			"name": "Retractable Spines",
-			"sources": [
-				"Horror Adventures",
-				"Pathfinder #16: Endless Night"
-			],
-			"price": 24000,
-			"elixir_price": 650,
-			"slot": "wrists",
-			"description": [
-				"### Retractable Spines",
-				"",
-				"**Source** [Horror Adventures pg. 168](source:horror_adventures), [Pathfinder #16: Endless Night pg. 63](source:pathfinder_#16_endless_night)   ",
-				"**Price** 24,000 gp; **Elixir Price** 650 gp   ",
-				"**Saving Throw DC** 15; **Slot** wrists; **Temporary Duration** 1 hour   ",
-				"Serrated, reptilian spines run along portions of the subject's arms. As a standard action, the subject can extend or retract a spine in one or both of its forearms. A Medium creature can use these spines as natural weapons that deal 1d6 points of piercing damage (1d4 points if Small), though as with claws, an attack with the spines uses the corresponding hand. The subject also gains a +2 bonus on grapple combat maneuver checks when both spines are extended.   ",
-				"**Penalty:** The subject has a hard time wielding manufactured weapons and performing precision-based tasks involving hands (such as opening locks) while the spines are extended. Attacks with such weapons and skill or ability checks for such tasks take a -2 penalty. If the subject gains this penalty because of a failed saving throw after drinking a fleshcraft elixir, the skin of its arms calcifies and it takes this penalty for the entire duration, even though it does not gain the use of the spines.",
-				"",
-				"#### Creation Requirements",
-				"",
-				"**Cost** 12,000 gp   ",
-				"Fleshwarper, Craft (alchemy) 10 ranks; Heal DC 20; **Elixir Cost** 325 gp"
-			]
-		},
-		{
-			"name": "Ring of Eyes",
-			"sources": [ "Potions and Poisons" ],
-			"price": null,
-			"elixir_price": 1400,
-			"slot": "none",
-			"description": [
-				"### Ring of Eyes",
-				"",
-				"**Source** [Potions and Poisons pg. 21](source:potions_and_poisons)   ",
-				"**Price**  gp; **Elixir Price** 1,400 gp   ",
-				"**Saving Throw DC** 20; **Slot** ; **Temporary Duration** 10 minutes   ",
-				"Numerous malformed eyes grow on the subject's head. The creature gains all-around vision and can't be flanked.   ",
-				"**Penalty:** The subject is overwhelmed by sensory information, leaving it dazzled for the duration.",
-				"",
-				"#### Creation Requirements",
-				"",
-				"**Cost** N/A   ",
-				"Fleshwarper, Craft (alchemy) 13 ranks; Heal DC 24; **Elixir Cost** 700 gp"
-			]
-		},
-		{
-			"name": "Shark Gills",
-			"sources": [ "Horror Adventures" ],
-			"price": 9000,
-			"elixir_price": 500,
-			"slot": "neck",
-			"description": [
-				"### Shark Gills",
-				"",
-				"**Source** [Horror Adventures pg. 168](source:horror_adventures)   ",
-				"**Price** 9,000 gp; **Elixir Price** 500 gp   ",
-				"**Saving Throw DC** 20; **Slot** neck; **Temporary Duration** 1 hour   ",
-				"The gills and some of the glands of a shark are grafted to the subject's neck and into its lungs, changing the way its respiratory system works. While it benefits from this fleshcraft, the subject can breathe water.   ",
-				"**Penalty:** The subject can no longer breathe air.",
-				"",
-				"#### Creation Requirements",
-				"",
-				"**Cost** 4,500 gp   ",
-				"Fleshwarper, Craft (alchemy) 15 ranks; Heal DC 25; **Elixir Cost** 250 gp"
-			]
-		},
-		{
-			"name": "Stinging Tail",
-			"sources": [
-				"Horror Adventures",
-				"Pathfinder #16: Endless Night"
-			],
-			"price": 12000,
-			"elixir_price": 800,
-			"slot": "belt",
-			"description": [
-				"### Stinging Tail",
-				"",
-				"**Source** [Horror Adventures pg. 169](source:horror_adventures), [Pathfinder #16: Endless Night pg. 63](source:pathfinder_#16_endless_night)   ",
-				"**Price** 12,000 gp; **Elixir Price** 800 gp   ",
-				"**Saving Throw DC** 16; **Slot** belt; **Temporary Duration** 10 minutes   ",
-				"The subject gains a large scorpion-like tail that sprouts from its lower back. A Medium creature can use its fleshwarped stinger as a natural weapon that deals 1d6 points of piercing damage (1d4 points if Small). Three times per day, the subject can envenom the stinger as a free action before making the attack; the stinger deals its normal damage plus poison (Fortitude DC = 15 + the subject's Constitution modifier; frequency 1/round for 4 rounds; effect 1d4 Dex; cure 1 save). If the attack misses, the poison is wasted. The subject is immune to its own poison, but not other poisons (including the poisons of other creatures with stinging tails).   ",
-				"**Penalty:** The subject takes a penalty of -5 feet to its land speed and a -2 penalty on Acrobatics checks.",
-				"",
-				"#### Creation Requirements",
-				"",
-				"**Cost** 6,000 gp   ",
-				"Fleshwarper, Craft (alchemy) 11 ranks; Heal DC 21; **Elixir Cost** 400 gp"
-			]
-		},
-		{
-			"name": "Webbed Appendages",
-			"sources": [ "Potions and Poisons" ],
-			"price": null,
-			"elixir_price": 300,
-			"slot": "none",
-			"description": [
-				"### Webbed Appendages",
-				"",
-				"**Source** [Potions and Poisons pg. 21](source:potions_and_poisons)   ",
-				"**Price**  gp; **Elixir Price** 300 gp   ",
-				"**Saving Throw DC** 12; **Slot** ; **Temporary Duration** 1 hour   ",
-				"Membranes of skin grow between the subject's fingers and toes and stretch between its appendages and body, granting the creature a 20-foot swim speed.   ",
-				"**Penalty:** The subject has difficulty holding items and takes a -2 penalty on attack rolls with held weapons.",
-				"",
-				"#### Creation Requirements",
-				"",
-				"**Cost** N/A   ",
-				"Fleshwarper, Craft (alchemy) 8 ranks; Heal DC 16; **Elixir Cost** 150 gp"
-			]
-		},
-		{
-			"name": "Wings of Darkness",
-			"sources": [ "Horror Adventures" ],
-			"price": 36000,
-			"elixir_price": 600,
-			"slot": "shoulders",
-			"description": [
-				"### Wings of Darkness",
-				"",
-				"**Source** [Horror Adventures pg. 169](source:horror_adventures)   ",
-				"**Price** 36,000 gp; **Elixir Price** 600 gp   ",
-				"**Saving Throw DC** 20; **Slot** shoulders; **Temporary Duration** 10 minutes   ",
-				"The subject gains leathery, batlike wings on its back, granting it a fly speed of 60 feet (with an average maneuverability) as well as a +5 competence bonus on Fly checks.   ",
-				"**Penalty:** The subject takes a -2 penalty on all Dexterity-based skill checks and ability checks except Fly checks.",
-				"",
-				"#### Creation Requirements",
-				"",
-				"**Cost** 18,000 gp   ",
-				"Fleshwarper, Craft (alchemy) 8 ranks; Heal DC 18; **Elixir Cost** 300 gp"
-			]
-		}
-	]
+	"adhesive_slime": {
+		"name": "Adhesive Slime",
+		"sources": [ "Potions and Poisons" ],
+		"price": null,
+		"elixir_price": 500,
+		"slot": "none",
+		"description": [
+			"### Adhesive Slime",
+			"",
+			"**Source** [Potions and Poisons pg. 21](source:potions_and_poisons)   ",
+			"**Price**  gp; **Elixir Price** 500 gp   ",
+			"**Saving Throw DC** 14; **Slot** ; **Temporary Duration** 1 hour   ",
+			"The subject's skin secretes a transparent, sticky substance, granting the creature a 15-foot climb speed.   ",
+			"**Penalty:** The subject takes a -4 penalty to CMD against grapple checks and must use a move action (instead of a free action) to drop a held object.",
+			"",
+			"#### Creation Requirements",
+			"",
+			"**Cost** N/A   ",
+			"Fleshwarper, Craft (alchemy) 8 ranks; Heal DC 18; **Elixir Cost** 250 gp"
+		],
+		"display": "magic/fleshcrafting"
+	},
+	"antennae": {
+		"name": "Antennae",
+		"sources": [
+			"Horror Adventures",
+			"Pathfinder #16: Endless Night"
+		],
+		"price": 70000,
+		"elixir_price": 1250,
+		"slot": "eyes",
+		"description": [
+			"### Antennae",
+			"",
+			"**Source** [Horror Adventures pg. 167](source:horror_adventures), [Pathfinder #16: Endless Night pg. 63](source:pathfinder_#16_endless_night)   ",
+			"**Price** 70,000 gp; **Elixir Price** 1,250 gp   ",
+			"**Saving Throw DC** 20; **Slot** eyes; **Temporary Duration** 10 minutes   ",
+			"The subject's eyes are replaced by antennae that sprout from its eye sockets. The creature gains blindsight to a range of 30 feet.   ",
+			"**Penalty:** The subject is blinded.",
+			"",
+			"#### Creation Requirements",
+			"",
+			"**Cost** 35,000 gp   ",
+			"Fleshwarper, Craft (alchemy) 15 ranks; Heal DC 25; **Elixir Cost** 625 gp"
+		],
+		"display": "magic/fleshcrafting"
+	},
+	"blinding_spittle_glands": {
+		"name": "Blinding Spittle Glands",
+		"sources": [
+			"Horror Adventures",
+			"Pathfinder #16: Endless Night"
+		],
+		"price": 2000,
+		"elixir_price": 600,
+		"slot": "head",
+		"description": [
+			"### Blinding Spittle Glands",
+			"",
+			"**Source** [Horror Adventures pg. 167](source:horror_adventures), [Pathfinder #16: Endless Night pg. 63](source:pathfinder_#16_endless_night)   ",
+			"**Price** 2,000 gp; **Elixir Price** 600 gp   ",
+			"**Saving Throw DC** 13; **Slot** head; **Temporary Duration** 1 hour   ",
+			"The subject produces viscous black spittle that can temporarily blind creatures within 30 feet. If the subject succeeds at a ranged touch attack with this spittle, it blinds the target for 1d4 rounds. The subject can use this ability three times per day.   ",
+			"**Penalty:** The subject cannot speak or cast spells, use command word or spell-completion magic items, or cast spells with verbal components.",
+			"",
+			"#### Creation Requirements",
+			"",
+			"**Cost** 1,000 gp   ",
+			"Fleshwarper, Craft (alchemy) 8 ranks; Heal DC 18; **Elixir Cost** 300 gp"
+		],
+		"display": "magic/fleshcrafting"
+	},
+	"burrowing_claws": {
+		"name": "Burrowing Claws",
+		"sources": [
+			"Horror Adventures",
+			"Pathfinder #16: Endless Night"
+		],
+		"price": 22500,
+		"elixir_price": 500,
+		"slot": "hands",
+		"description": [
+			"### Burrowing Claws",
+			"",
+			"**Source** [Horror Adventures pg. 167](source:horror_adventures), [Pathfinder #16: Endless Night pg. 63](source:pathfinder_#16_endless_night)   ",
+			"**Price** 22,500 gp; **Elixir Price** 500 gp   ",
+			"**Saving Throw DC** 15; **Slot** hands; **Temporary Duration** 1 hour   ",
+			"The subject's hands are replaced with hooked, clawed appendages. A Medium creature can use the claws as natural weapons that deal 1d6 points of slashing damage (1d4 points if Small). The claws grant the subject a burrow speed of 5 feet.   ",
+			"**Penalty:** The subject has a hard time wielding manufactured weapons and performing precision-based tasks involving hands (such as opening locks). Attacks with such weapons and skill checks and ability checks for such tasks take a -2 penalty.",
+			"",
+			"#### Creation Requirements",
+			"",
+			"**Cost** 11,250 gp   ",
+			"Fleshwarper, Craft (alchemy) 10 ranks; Heal DC 20; **Elixir Cost** 250 gp"
+		],
+		"display": "magic/fleshcrafting"
+	},
+	"camouflage_flesh": {
+		"name": "Camouflage Flesh",
+		"sources": [ "Horror Adventures" ],
+		"price": 30000,
+		"elixir_price": 1000,
+		"slot": "body",
+		"description": [
+			"### Camouflage Flesh",
+			"",
+			"**Source** [Horror Adventures pg. 167](source:horror_adventures)   ",
+			"**Price** 30,000 gp; **Elixir Price** 1,000 gp   ",
+			"**Saving Throw DC** 18; **Slot** body; **Temporary Duration** 1 hour   ",
+			"A glaze of strange, malleable skin wraps around the subject, granting it the ability to use Stealth in any natural terrain, whether or not it has cover or concealment.   ",
+			"**Penalty:** The subject takes a -4 penalty on Perception checks.",
+			"",
+			"#### Creation Requirements",
+			"",
+			"**Cost** 15,000 gp   ",
+			"Fleshwarper, Craft (alchemy) 13 ranks; Heal DC 23; **Elixir Cost** 500 gp"
+		],
+		"display": "magic/fleshcrafting"
+	},
+	"carapace": {
+		"name": "Carapace",
+		"sources": [
+			"Horror Adventures",
+			"Pathfinder #16: Endless Night"
+		],
+		"price": 18000,
+		"elixir_price": 600,
+		"slot": "body",
+		"description": [
+			"### Carapace",
+			"",
+			"**Source** [Horror Adventures pg. 167](source:horror_adventures), [Pathfinder #16: Endless Night pg. 63](source:pathfinder_#16_endless_night)   ",
+			"**Price** 18,000 gp; **Elixir Price** 600 gp   ",
+			"**Saving Throw DC** 19; **Slot** body; **Temporary Duration** 1 hour   ",
+			"A chitinous carapace covers the subject's body, attached by a collection of fibrous nerves. This grants a +4 enhancement bonus to the subject's natural armor bonus.   ",
+			"**Penalty:** The inflexibility of the plates or the stiffness of a failed transformation imposes a -4 armor check penalty, which stacks with all other armor check penalties.",
+			"",
+			"#### Creation Requirements",
+			"",
+			"**Cost** 9,000 gp   ",
+			"Fleshwarper, Craft (alchemy) 14 ranks; Heal DC 24; **Elixir Cost** 300 gp"
+		],
+		"display": "magic/fleshcrafting"
+	},
+	"cerebral_husk": {
+		"name": "Cerebral Husk",
+		"sources": [ "Horror Adventures" ],
+		"price": 6000,
+		"elixir_price": 500,
+		"slot": "headband",
+		"description": [
+			"### Cerebral Husk",
+			"",
+			"**Source** [Horror Adventures pg. 167](source:horror_adventures)   ",
+			"**Price** 6,000 gp; **Elixir Price** 500 gp   ",
+			"**Saving Throw DC** 17; **Slot** headband; **Temporary Duration** 24 hours   ",
+			"A cerebral husk forms on the back of the subject's head, burrowing synaptic fibers into the base of the skull. Once per day, when the subject fails a saving throw against a mind-affecting effect, it can shunt the effect into the cerebral husk. While the subject is not affected by that mind-affecting effect, it causes the husk to spasm, dealing 1d6 points of Constitution damage that the subject can recover from only by resting.   ",
+			"**Penalty:** The subject takes a -2 penalty on Intelligence-based checks.",
+			"",
+			"#### Creation Requirements",
+			"",
+			"**Cost** 3.000 gp   ",
+			"Fleshwarper, Craft (alchemy) 12 ranks; Heal DC 22; **Elixir Cost** 250 gp"
+		],
+		"display": "magic/fleshcrafting"
+	},
+	"claw_gauntlet": {
+		"name": "Claw Gauntlet",
+		"sources": [ "Horror Adventures" ],
+		"price": 32000,
+		"elixir_price": 1600,
+		"slot": "hand",
+		"description": [
+			"### Claw Gauntlet",
+			"",
+			"**Source** [Horror Adventures pg. 168](source:horror_adventures)   ",
+			"**Price** 32,000 gp; **Elixir Price** 1,600 gp   ",
+			"**Saving Throw DC** 20; **Slot** hand; **Temporary Duration** 1 hour   ",
+			"The subject's hands are replaced with clawed appendages that can be used as natural weapons that a Medium creature can use to deal 1d8 points of slashing damage (1d6 points if Small). The subject gains a +4 bonus on grapple combat maneuver checks with the gauntlet.   ",
+			"**Penalty:** The subject can't use the clawed hand to wield a weapon or manipulate objects. It takes a -4 penalty when performing precision-based tasks involving hands (such as opening locks) if attempting to do so with one hand.",
+			"",
+			"#### Creation Requirements",
+			"",
+			"**Cost** 16,000 gp   ",
+			"Fleshwarper, Craft (alchemy) 13 ranks; Heal DC 23; **Elixir Cost** 800 gp"
+		],
+		"display": "magic/fleshcrafting"
+	},
+	"darksight_eyes": {
+		"name": "Darksight Eyes",
+		"sources": [ "Horror Adventures" ],
+		"price": 6000,
+		"elixir_price": 300,
+		"slot": "eyes",
+		"description": [
+			"### Darksight Eyes",
+			"",
+			"**Source** [Horror Adventures pg. 168](source:horror_adventures)   ",
+			"**Price** 6,000 gp; **Elixir Price** 300 gp   ",
+			"**Saving Throw DC** 15; **Slot** eyes; **Temporary Duration** 24 hours   ",
+			"Bulging eyes cover the subject's own, augmenting the existing organs. Fibrous nerve tissue grafts to the eyes, fusing them in place and linking the subject's vision to these new, bulbous appendages. The subject gains darkvision with a range of 60 feet.   ",
+			"**Penalty:** The subject gains light blindness (Pathfinder RPG Bestiary 301).",
+			"",
+			"#### Creation Requirements",
+			"",
+			"**Cost** 3,000 gp   ",
+			"Fleshwarper, Craft (alchemy) 10 ranks; Heal DC 20; **Elixir Cost** 150 gp"
+		],
+		"display": "magic/fleshcrafting"
+	},
+	"grasping_tendril": {
+		"name": "Grasping Tendril",
+		"sources": [ "Horror Adventures" ],
+		"price": 22500,
+		"elixir_price": 500,
+		"slot": "varies",
+		"description": [
+			"### Grasping Tendril",
+			"",
+			"**Source** [Horror Adventures pg. 168](source:horror_adventures)   ",
+			"**Price** 22,500 gp; **Elixir Price** 500 gp   ",
+			"**Saving Throw DC** 16; **Slot** see below; **Temporary Duration** 1 hour   ",
+			"The subject gains a grasping tendril. If grafted as a replacement for a lost arm, this tendril functions as an arm, and if it isn't holding anything, a Medium creature can use the tendril as a secondary natural attack dealing 1d4 points of damage. If grafted elsewhere on the body (using the chest slot), the tendril can retrieve stowed objects on the subject's person and deliver them to an empty hand as a swift action, but cannot hold, use, or otherwise wield items. If the subject has no empty hand when the tendril retrieves a stowed item, the item harmlessly drops into the subject's space. A fleshcraft elixir granting a grasping tendril always transforms an arm, granting the first benefit.   ",
+			"**Penalty:** If the tendril replaces an arm, the subject has a hard time wielding manufactured weapons and performing precisionbased tasks involving hands (such as opening locks). Attacks with such weapons and skill or ability checks for such tasks take a -2 penalty. There is no penalty if the tendril is grafted elsewhere.",
+			"",
+			"#### Creation Requirements",
+			"",
+			"**Cost** 11,250 gp   ",
+			"Fleshwarper, Craft (alchemy) 11 ranks; Heal DC 21; **Elixir Cost** 250 gp"
+		],
+		"display": "magic/fleshcrafting"
+	},
+	"poison_fangs": {
+		"name": "Poison Fangs",
+		"sources": [
+			"Horror Adventures",
+			"Pathfinder #16: Endless Night"
+		],
+		"price": 12000,
+		"elixir_price": 800,
+		"slot": "head",
+		"description": [
+			"### Poison Fangs",
+			"",
+			"**Source** [Horror Adventures pg. 168](source:horror_adventures), [Pathfinder #16: Endless Night pg. 63](source:pathfinder_#16_endless_night)   ",
+			"**Price** 12,000 gp; **Elixir Price** 800 gp   ",
+			"**Saving Throw DC** 16; **Slot** head; **Temporary Duration** 10 minutes   ",
+			"The subject's teeth are replaced by strange, crooked fangs. A Medium creature gains a bite natural attack that deals 1d4 points of damage (1d3 points if Small). Three times per day, the subject can envenom the fangs as a free action before making the bite attack; the bite deals its normal damage plus poison (Fortitude DC = 15 + the subject's Constitution modifier; frequency 1/round for 3 rounds; effect 1d3 Str; cure 1 save). If the attack misses, the poison is wasted. The subject is immune to its own poison, but not other poisons (including the poisons of other creatures with poison fangs).   ",
+			"**Penalty:** The subject takes a -2 penalty on all Charisma-based skill checks except Intimidate checks.",
+			"",
+			"#### Creation Requirements",
+			"",
+			"**Cost** 6,000 gp   ",
+			"Fleshwarper, Craft (alchemy) 11 ranks; Heal DC 21; **Elixir Cost** 400 gp"
+		],
+		"display": "magic/fleshcrafting"
+	},
+	"retractable_spines": {
+		"name": "Retractable Spines",
+		"sources": [
+			"Horror Adventures",
+			"Pathfinder #16: Endless Night"
+		],
+		"price": 24000,
+		"elixir_price": 650,
+		"slot": "wrists",
+		"description": [
+			"### Retractable Spines",
+			"",
+			"**Source** [Horror Adventures pg. 168](source:horror_adventures), [Pathfinder #16: Endless Night pg. 63](source:pathfinder_#16_endless_night)   ",
+			"**Price** 24,000 gp; **Elixir Price** 650 gp   ",
+			"**Saving Throw DC** 15; **Slot** wrists; **Temporary Duration** 1 hour   ",
+			"Serrated, reptilian spines run along portions of the subject's arms. As a standard action, the subject can extend or retract a spine in one or both of its forearms. A Medium creature can use these spines as natural weapons that deal 1d6 points of piercing damage (1d4 points if Small), though as with claws, an attack with the spines uses the corresponding hand. The subject also gains a +2 bonus on grapple combat maneuver checks when both spines are extended.   ",
+			"**Penalty:** The subject has a hard time wielding manufactured weapons and performing precision-based tasks involving hands (such as opening locks) while the spines are extended. Attacks with such weapons and skill or ability checks for such tasks take a -2 penalty. If the subject gains this penalty because of a failed saving throw after drinking a fleshcraft elixir, the skin of its arms calcifies and it takes this penalty for the entire duration, even though it does not gain the use of the spines.",
+			"",
+			"#### Creation Requirements",
+			"",
+			"**Cost** 12,000 gp   ",
+			"Fleshwarper, Craft (alchemy) 10 ranks; Heal DC 20; **Elixir Cost** 325 gp"
+		],
+		"display": "magic/fleshcrafting"
+	},
+	"ring_of_eyes": {
+		"name": "Ring of Eyes",
+		"sources": [ "Potions and Poisons" ],
+		"price": null,
+		"elixir_price": 1400,
+		"slot": "none",
+		"description": [
+			"### Ring of Eyes",
+			"",
+			"**Source** [Potions and Poisons pg. 21](source:potions_and_poisons)   ",
+			"**Price**  gp; **Elixir Price** 1,400 gp   ",
+			"**Saving Throw DC** 20; **Slot** ; **Temporary Duration** 10 minutes   ",
+			"Numerous malformed eyes grow on the subject's head. The creature gains all-around vision and can't be flanked.   ",
+			"**Penalty:** The subject is overwhelmed by sensory information, leaving it dazzled for the duration.",
+			"",
+			"#### Creation Requirements",
+			"",
+			"**Cost** N/A   ",
+			"Fleshwarper, Craft (alchemy) 13 ranks; Heal DC 24; **Elixir Cost** 700 gp"
+		],
+		"display": "magic/fleshcrafting"
+	},
+	"shark_gills": {
+		"name": "Shark Gills",
+		"sources": [ "Horror Adventures" ],
+		"price": 9000,
+		"elixir_price": 500,
+		"slot": "neck",
+		"description": [
+			"### Shark Gills",
+			"",
+			"**Source** [Horror Adventures pg. 168](source:horror_adventures)   ",
+			"**Price** 9,000 gp; **Elixir Price** 500 gp   ",
+			"**Saving Throw DC** 20; **Slot** neck; **Temporary Duration** 1 hour   ",
+			"The gills and some of the glands of a shark are grafted to the subject's neck and into its lungs, changing the way its respiratory system works. While it benefits from this fleshcraft, the subject can breathe water.   ",
+			"**Penalty:** The subject can no longer breathe air.",
+			"",
+			"#### Creation Requirements",
+			"",
+			"**Cost** 4,500 gp   ",
+			"Fleshwarper, Craft (alchemy) 15 ranks; Heal DC 25; **Elixir Cost** 250 gp"
+		],
+		"display": "magic/fleshcrafting"
+	},
+	"stinging_tail": {
+		"name": "Stinging Tail",
+		"sources": [
+			"Horror Adventures",
+			"Pathfinder #16: Endless Night"
+		],
+		"price": 12000,
+		"elixir_price": 800,
+		"slot": "belt",
+		"description": [
+			"### Stinging Tail",
+			"",
+			"**Source** [Horror Adventures pg. 169](source:horror_adventures), [Pathfinder #16: Endless Night pg. 63](source:pathfinder_#16_endless_night)   ",
+			"**Price** 12,000 gp; **Elixir Price** 800 gp   ",
+			"**Saving Throw DC** 16; **Slot** belt; **Temporary Duration** 10 minutes   ",
+			"The subject gains a large scorpion-like tail that sprouts from its lower back. A Medium creature can use its fleshwarped stinger as a natural weapon that deals 1d6 points of piercing damage (1d4 points if Small). Three times per day, the subject can envenom the stinger as a free action before making the attack; the stinger deals its normal damage plus poison (Fortitude DC = 15 + the subject's Constitution modifier; frequency 1/round for 4 rounds; effect 1d4 Dex; cure 1 save). If the attack misses, the poison is wasted. The subject is immune to its own poison, but not other poisons (including the poisons of other creatures with stinging tails).   ",
+			"**Penalty:** The subject takes a penalty of -5 feet to its land speed and a -2 penalty on Acrobatics checks.",
+			"",
+			"#### Creation Requirements",
+			"",
+			"**Cost** 6,000 gp   ",
+			"Fleshwarper, Craft (alchemy) 11 ranks; Heal DC 21; **Elixir Cost** 400 gp"
+		],
+		"display": "magic/fleshcrafting"
+	},
+	"webbed_appendages": {
+		"name": "Webbed Appendages",
+		"sources": [ "Potions and Poisons" ],
+		"price": null,
+		"elixir_price": 300,
+		"slot": "none",
+		"description": [
+			"### Webbed Appendages",
+			"",
+			"**Source** [Potions and Poisons pg. 21](source:potions_and_poisons)   ",
+			"**Price**  gp; **Elixir Price** 300 gp   ",
+			"**Saving Throw DC** 12; **Slot** ; **Temporary Duration** 1 hour   ",
+			"Membranes of skin grow between the subject's fingers and toes and stretch between its appendages and body, granting the creature a 20-foot swim speed.   ",
+			"**Penalty:** The subject has difficulty holding items and takes a -2 penalty on attack rolls with held weapons.",
+			"",
+			"#### Creation Requirements",
+			"",
+			"**Cost** N/A   ",
+			"Fleshwarper, Craft (alchemy) 8 ranks; Heal DC 16; **Elixir Cost** 150 gp"
+		],
+		"display": "magic/fleshcrafting"
+	},
+	"wings_of_darkness": {
+		"name": "Wings of Darkness",
+		"sources": [ "Horror Adventures" ],
+		"price": 36000,
+		"elixir_price": 600,
+		"slot": "shoulders",
+		"description": [
+			"### Wings of Darkness",
+			"",
+			"**Source** [Horror Adventures pg. 169](source:horror_adventures)   ",
+			"**Price** 36,000 gp; **Elixir Price** 600 gp   ",
+			"**Saving Throw DC** 20; **Slot** shoulders; **Temporary Duration** 10 minutes   ",
+			"The subject gains leathery, batlike wings on its back, granting it a fly speed of 60 feet (with an average maneuverability) as well as a +5 competence bonus on Fly checks.   ",
+			"**Penalty:** The subject takes a -2 penalty on all Dexterity-based skill checks and ability checks except Fly checks.",
+			"",
+			"#### Creation Requirements",
+			"",
+			"**Cost** 18,000 gp   ",
+			"Fleshwarper, Craft (alchemy) 8 ranks; Heal DC 18; **Elixir Cost** 300 gp"
+		],
+		"display": "magic/fleshcrafting"
+	}
 }

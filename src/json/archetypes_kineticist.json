@@ -1,5 +1,5 @@
-[
-	{
+{
+	"aquakinetcist": {
 		"name": "Aquakinetcist",
 		"file": "archetypedisplay3ca6.html",
 		"sources": [ "Aquatic Adventures" ],
@@ -38,9 +38,10 @@
 			"**Ice Propagation (Su):** At 7th level, an aquakineticist's connection to the water around her allows her greater control over the ice formed by her cold attacks. When using her cold blast underwater (which freezes water into ice and deals half piercing damage; see cold spells on page 46), she can make the cold blast a physical blast and apply any form or substance infusions that she could apply to an ice composite blast. This still deals damage as per a simple physical blast, not a composite blast.",
 			"",
 			"This ability alters her cold simple blast."
-		]
+		],
+		"display": "archetype/kineticist"
 	},
-	{
+	"arakineticist": {
 		"name": "Arakineticist",
 		"file": "archetypedisplay48eb.html",
 		"sources": [ "Blood of the Coven" ],
@@ -71,9 +72,10 @@
 			"**Accursed Infusion (Su):** At 13th level, an arakineticist's blasts can temporarily curse and bedevil her foe. On a failed Will save, the target takes a -4 penalty on ability checks, attack rolls, saving throws, and skills checks for 1 round as if it were affected by bestow curse. A single creature can't be affected by more than one curse from this infusion at a time. This is a 6th-level substance infusion that costs 4 points of burn and can be used with negative and void blasts.",
 			"",
 			"This replaces the utility wild talent gained at 13th level."
-		]
+		],
+		"display": "archetype/kineticist"
 	},
-	{
+	"blightburner": {
 		"name": "Blightburner",
 		"file": "archetypedisplay3dc9.html",
 		"sources": [ "Heroes of the Darklands" ],
@@ -119,9 +121,10 @@
 			"**Radiation Resistance (Su):** At 6th level, a blightburner becomes resistant to all forms of radiation, and can use the radiation's energy as gathered power. She gains a bonus on saving throws to resist the effects of radiation equal to her elemental overflow bonus. When she succeeds at a save against radiation, she can reduce the total burn cost of a blast wild talent used before the end of her next turn as if she had gathered power with a move action. Once she gains this benefit, she can't do so again for 1 minute, even if she's exposed to radiation again before that. She can't use this ability if she's immune to poison or radiation. A blightburner gains an internal buffer at 11th level, and it has a capacity as if she were 5 levels lower.",
 			"",
 			"This ability alters gather power and internal buffer."
-		]
+		],
+		"display": "archetype/kineticist"
 	},
-	{
+	"blighted_defiler": {
 		"name": "Blighted Defiler",
 		"file": "archetypedisplay9c63.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -174,9 +177,10 @@
 			"**Steal Life (Su):** At 20th level, a blighted defiler who successfully uses steal power when gathering power as a move action can use a standard action on the same turn and choose a living creature within 30 feet. The creature must succeed at a Fortitude save (DC = 20 + the blighted defiler's Strength modifier) or die; this is a death effect. If the creature dies and was CR 10 or higher, on the blighted defiler's next turn, she counts as if she had used a full round to gather power with steal power. If the target survives or was lower than CR 10, she loses all benefits from both her gather power and steal power, as normal at the end of her turn.",
 			"",
 			"This replaces omnikinesis."
-		]
+		],
+		"display": "archetype/kineticist"
 	},
-	{
+	"blood_kineticist": {
 		"name": "Blood Kineticist",
 		"file": "archetypedisplayfdb8.html",
 		"sources": [ "Occult Adventures" ],
@@ -215,9 +219,10 @@
 			"**Vampiric Infusion (Su):** At 11th level, a blood kineticist can drain the vitality from her enemy's blood to restore her own. If her blast hits (or the enemy fails its saving throw against a blast without an attack roll) the blood kineticist can activate the kinetic healer utility wild talent on herself by accepting its burn cost; she doesn't need to take an action to do so. If she doesn't possess the kinetic healer utility wild talent, she can still use this ability, but it heals only half as much. This is a 5th-level substance infusion that costs 3 points of burn and can be used with water and blood blasts. This ability replaces the 11th-level infusion.",
 			"",
 			"**Blood Mastery (Su):** At 20th level, a blood kineticist no longer ages and can't be magically aged. She doesn't take penalties to her ability scores for aging and removes any such penalties she already possesses. She still accrues age bonuses as normal, but she doesn't die of old age when her time would be up. Because of her utter control over her own blood, she is immune to bleed, injected poisons, injury diseases, and the sickened and nauseated conditions unless she chooses to be affected. This ability replaces omnikinesis."
-		]
+		],
+		"display": "archetype/kineticist"
 	},
-	{
+	"cinderlands_adept": {
 		"name": "Cinderlands Adept",
 		"file": "archetypedisplaye4a1.html",
 		"sources": [ "Wilderness Origins" ],
@@ -254,9 +259,10 @@
 			"**Mount:** At 4th level, a Cinderlands adept gains a loyal mount. This ability functions like the druid's [animal companion](class:animal_companion) ability (as described in the [nature bond class feature](class:nature_bond_class_feature)), except that the Cinderlands adept always gains a [horse](class/ability/druidcompanion:horse) or [pony](class/ability/druidcompanion:pony) (though she can gain additional options at the GM's discretion) and her effective druid level is equal to her cinterlands adept level -3.",
 			"",
 			"This replaces the utility wild talents gained at 4th, 8th, and 12th levels."
-		]
+		],
+		"display": "archetype/kineticist"
 	},
-	{
+	"dark_elementalist": {
 		"name": "Dark Elementalist",
 		"file": "archetypedisplay2c90.html",
 		"sources": [ "Horror Adventures" ],
@@ -290,9 +296,10 @@
 			"A dark elementalist gains attack and damage bonuses from elemental overflow based on how many times that day she has used soul power to rack a soul, rather than based on her current burn total. For instance, a 9th-level dark elementalist who used soul power to rack three or more souls during the course of the day would add a +3 bonus on attack rolls and a +6 bonus on damage rolls. A dark elementalist does not gain size bonuses to physical ability scores or a chance to ignore critical hits and sneak attacks from elemental overflow.",
 			"",
 			"This ability alters burn and elemental overflow and replaces internal buffer."
-		]
+		],
+		"display": "archetype/kineticist"
 	},
-	{
+	"elemental_annihilator": {
 		"name": "Elemental Annihilator",
 		"file": "archetypedisplayb4f8.html",
 		"sources": [ "Occult Adventures" ],
@@ -326,9 +333,10 @@
 			"**Flurry of Devastation (Su):** At 6th level, an elemental annihilator can make a full attack of devastating infusions against targets within 120 feet as a full-attack action. Each individual attack deals damage as a devastating infusion. This is a 3rd-level form infusion that costs 1 point of burn and can be used with the same blast types as devastating infusion. Abilities such as Rapid Shot and haste that grant additional attacks apply normally to this full attack. If she makes only melee attacks with her flurry of devastation, she can use the Two-Weapon Fighting feats (unlike with the kinetic blade wild talent), but ranged devastating infusions do not work with Two-Weapon Fighting. For the elemental annihilator's off-hand attacks with Two-Weapon Fighting, she adds half her Constitution modifier to the damage (increasing to her full Constitution modifier if she has Double Slice). Though she can normally mix melee and ranged attacks with her flurry of devastation, she can't do so when she uses Two-Weapon Fighting. She can never use metakinesis or substance infusions with flurry of devastation. This ability replaces the 6th-, 12th-, and 16th level utility wild talents.",
 			"",
 			"**Omnicide (Su):** At 20th level, an elemental annihilator can unleash omnicide, a unique physical composite blast. Omnicide deals 10d6+10 points of bludgeoning damage, 10d6+10 points of cold damage, 10d6+10 points of electricity damage, 10d6+10 points of fire damage, and 10d6+10 points of force damage, and counts as a blast of all five elements. Omnicide costs 4 points of burn, which can be reduced by composite specialization as normal. This ability replaces omnikinesis and the 20th-level utility wild talent."
-		]
+		],
+		"display": "archetype/kineticist"
 	},
-	{
+	"elemental_ascetic": {
 		"name": "Elemental Ascetic",
 		"file": "archetypedisplay96ce.html",
 		"sources": [ "Occult Adventures" ],
@@ -356,9 +364,10 @@
 			"**AC Bonus (Ex):** At 2nd level, when unarmored, not using a shield, and unencumbered, an elemental ascetic adds his Wisdom bonus (if any) to his AC and his CMD. These bonuses to AC apply even against touch attacks or when the elemental ascetic is flat-footed. He loses these bonuses when he is immobilized or helpless. This bonus increases by 1 for every 4 kineticist levels the elemental ascetic possesses beyond 2nd. The elemental ascetic's kineticist levels stack with monk levels for the purpose of determining when the bonus increases. An elemental ascetic can never take the expanded defense utility wild talent. This ability replaces elemental defense.",
 			"",
 			"**Powerful Fist (Su):** At 5th level, an elemental ascetic can accept 2 additional points of burn when using kinetic fist to increase that infusion's damage dice from d6s to d8s. At 9th level, he can instead accept 3 additional points of burn to increase the damage dice from d6s to d10s. At 13th level, he can instead accept 4 additional points of burn to increase the damage dice from d6s to d12s. All of these options count as burn from a form infusion and can thus be reduced by infusion specialization. This ability replaces the 5th-, 9th-, and 13th-level infusions."
-		]
+		],
+		"display": "archetype/kineticist"
 	},
-	{
+	"elemental_purist": {
 		"name": "Elemental Purist",
 		"file": "archetypedisplay9209.html",
 		"sources": [ "Planes of Power" ],
@@ -386,9 +395,10 @@
 			"**Elemental Apocalypse (Su):** At 20th level, an elemental purist learns the apocalypse universal form infusion (Level 9; Burn 5; Associated Blasts any; Saving Throw Reflex half ) that she can use once per day. The apocalypse form infusion functions as the explosion form infusion, except the elemental purist can center the spread anywhere she can see within 1 mile, and she can choose to set the radius anywhere between 5 feet and 360 feet.",
 			"",
 			"This ability replaces omnikinesis."
-		]
+		],
+		"display": "archetype/kineticist"
 	},
-	{
+	"elysiokineticist": {
 		"name": "Elysiokineticist",
 		"file": "archetypedisplay701e.html",
 		"sources": [ "People of the Wastes" ],
@@ -425,9 +435,10 @@
 			"This replaces the flesh of wood defense wild talent granted by the wood element.",
 			"",
 			"**Ghaelelight Blast (Su):** At 15th level, an elysiokineticist gains the ghaelelight composite blast, which costs 2 points of burn. A ghaelelight blast is an energy blast that deals damage as a simple energy blast instead of a composite energy blast and deals chaotic and good damage. It is associated with the same infusions as positive blast."
-		]
+		],
+		"display": "archetype/kineticist"
 	},
-	{
+	"ioun_kineticist": {
 		"name": "Ioun Kineticist",
 		"file": "archetypedisplaycd29.html",
 		"sources": [ "Blood of the Ancients" ],
@@ -470,9 +481,10 @@
 			"This replaces the ability score boosts granted by elemental overflow.",
 			"",
 			"**Azlanti Blast (Su):** An ioun kineticist who selects aether as her expanded element does not gain the force composite blast. She instead gains the Azlanti composite blast, which costs 2 points of burn. An Azlanti blast is a physical blast that deals bludgeoning, piercing, or slashing damage."
-		]
+		],
+		"display": "archetype/kineticist"
 	},
-	{
+	"kinetic_chirurgeon": {
 		"name": "Kinetic Chirurgeon",
 		"file": "archetypedisplayc29b.html",
 		"sources": [ "Occult Adventures" ],
@@ -495,9 +507,10 @@
 			"**Metahealer (Su):** Starting at 5th level, a kinetic chirurgeon can apply any one of the following metahealer abilities to her kinetic healer wild talent instead of using her mercies. At 5th level, she can choose to roll one additional die when using kinetic healer. This increases to two additional dice at 11th level, and to three additional dice at 17th level. At 9th level, she can choose to bring an ally who died within 1 round back from the dead; this functions similarly to the breath of life spell. The ally regains the normal number of hit points from kinetic healer. An ally revived in this way takes 1 additional point of burn, beyond the normal 1 point of burn that either the kinetic chirurgeon or the ally must accept as a cost of the kinetic healer wild talent. At 13th level, a kinetic chirurgeon can choose to use kinetic healer on herself as a swift action. At 17th level, she can choose to heal both herself and another target with the same use of kinetic healer, although in that case, both she and her target must each accept 1 point of burn, instead of only one of them needing to do so as normal for kinetic healer. Regardless of her level, the kinetic chirurgeon can apply only one metahealer ability to a single use of kinetic healer. For instance, she could not bring back a dead ally and also roll extra dice for healing. This ability replaces metakinesis and infusion specialization.",
 			"",
 			"**Healing Buffer (Su):** At 6th level, a kinetic chirurgeon's internal buffer has double the usual maximum size, and she can use it only when she would accept points of burn for the kinetic healer wild talent. This ability alters internal buffer."
-		]
+		],
+		"display": "archetype/kineticist"
 	},
-	{
+	"kinetic_knight": {
 		"name": "Kinetic Knight",
 		"file": "archetypedisplay4900.html",
 		"sources": [ "Psychic Anthology" ],
@@ -537,9 +550,10 @@
 			"**Knight's Resolve (Ex):** At 3rd level, the kinetic knight gains the samurai's resolve class feature, as a samurai of her kineticist level - 2. At 11th level, she gains the samurai's greater resolve ability (Pathfinder RPG Ultimate Combat 20). If she also has samurai levels, those levels stack with her kineticist levels to determine the benefits of this ability.",
 			"",
 			"This ability replaces the kineticist infusion gained at 3rd level and supercharge."
-		]
+		],
+		"display": "archetype/kineticist"
 	},
-	{
+	"leshykineticist": {
 		"name": "Leshykineticist",
 		"file": "archetypedisplay95e3.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -576,9 +590,10 @@
 			"**Green Rebirth (Su):** At 20th level, a leshykineticist taps into the ancient power of the First World. When her verdant burst ability activates, it heals all allies and plant creatures in the area as if by a maximized version of her kinetic healer ability, rather than only 1d8 hit points. After 24 hours, one of the plants that grew in the area serves as a vessel for the leshykineticist's spirit again, allowing her to return to life without penalty. Killing all the new plants that grew from her verdant burst within 24 hours prevents her from reviving in this way.",
 			"",
 			"This replaces omnikinesis."
-		]
+		],
+		"display": "archetype/kineticist"
 	},
-	{
+	"overwhelming_soul": {
 		"name": "Overwhelming Soul",
 		"file": "archetypedisplay01e0.html",
 		"sources": [ "Occult Adventures" ],
@@ -602,9 +617,10 @@
 			"**Mental Prowess (Su):** An overwhelming soul's mind is strong enough to protect her body from the stress of channeling the elements. However, in exchange, she is unable to push her limits quite as far as other kineticists. She can't choose to accept burn, though she can use wild talents with a burn cost if she can reduce that cost to 0 points with abilities such as gather power and infusion specialization. If she would be forced to accept burn against her will (for example, if she fails a concentration check), instead of taking burn she takes 1 temporary negative level, which never kills her and can't be removed with restoration or greater restoration, but which disappears automatically after 24 hours. At 6th level, once per day, she can reduce the total burn cost of any wild talent by 1. She can use this ability an additional time per day at 10th level and every 4 levels thereafter. This ability alters burn and replaces internal buffer.",
 			"",
 			"**Overwhelming Power (Ex):** At 3rd level, an overwhelming soul gains a +1 bonus on attack rolls and damage rolls with her kinetic blasts. The damage bonus doesn't apply to kinetic blade, kinetic whip, or other infusions that don't apply the damage bonus from elemental overflow. This bonus increases by 1 at 6th level and every 3 levels thereafter. This ability replaces elemental overflow."
-		]
+		],
+		"display": "archetype/kineticist"
 	},
-	{
+	"psammokinetic": {
 		"name": "Psammokinetic",
 		"file": "archetypedisplayc759.html",
 		"sources": [ "Heroes from the Fringe" ],
@@ -653,9 +669,10 @@
 			"**Sand Element (Su):** At 7th level a psammokinetic must select the earth element as her expanded element. She treats her kineticist level as 2 levels lower (rather than 4 levels lower) for the purpose of determining which wild talents she can learn from the earth element. At 15th level, the psammokinetic must choose to expand her mastery of the air element as her expanded element.",
 			"",
 			"This alters expanded element."
-		]
+		],
+		"display": "archetype/kineticist"
 	},
-	{
+	"psychokineticist": {
 		"name": "Psychokineticist",
 		"file": "archetypedisplay5a36.html",
 		"sources": [ "Horror Adventures" ],
@@ -683,9 +700,10 @@
 			"**Mental Overflow (Ex):** A psychokineticist's elemental energy sends strange elemental humors and planar echoes through his brain instead of reshaping his body with matter from his element. Instead of gaining size bonuses to physical ability scores from elemental overflow, he gains alchemical bonuses to his mental ability scores in equal amounts (a +2 alchemical bonus to two mental ability scores at 6th level if he has at least 3 points of burn; a +4 alchemical bonus to one mental ability score and a +2 alchemical bonus to the other two at 11th level if he has at least 5 points of burn; and a +6 alchemical bonus to one mental ability score, a +4 alchemical bonus to another, and a +2 alchemical bonus to the last at 16th level if he has at least 7 points of burn). A psychokineticist doesn't gain a chance to negate critical hits and sneak attacks based on his burn. Otherwise, his elemental overflow works just like a normal kineticist's.",
 			"",
 			"This ability alters elemental overflow."
-		]
+		],
+		"display": "archetype/kineticist"
 	},
-	{
+	"terrakineticist": {
 		"name": "Terrakineticist",
 		"file": "archetypedisplay7874.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -723,6 +741,7 @@
 			"**Omniterrakinesis (Su):** At 20th level, a terrakineticist can accept 1 point of burn as a free action at the start of her turn to change her element without regard to the surrounding terrain until the beginning of her next turn.",
 			"",
 			"This replaces omnikinesis."
-		]
+		],
+		"display": "archetype/kineticist"
 	}
-]
+}

@@ -1,5 +1,5 @@
-[
-	{
+{
+	"black_asp": {
 		"name": "Black Asp",
 		"file": "archetypedisplay256a.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -30,9 +30,10 @@
 			"**Hidden Magic (Sp):** As an immediate action, the black asp can spend 1 ki point to hide the auras of all magic items he is carrying (as if they were all under magic aura) for 1 hour per monk level.",
 			"",
 			"**Shifting Form (Su):** As an immediate action, a black asp can spend 1 ki point to make his outline shift and waver for 1 round. This ability otherwise functions as per the spell blur."
-		]
+		],
+		"display": "archetype/monk_UC"
 	},
-	{
+	"brazen_disciple": {
 		"name": "Brazen Disciple",
 		"file": "archetypedisplay3c2b.html",
 		"sources": [ "Adventurer's Guide" ],
@@ -77,9 +78,10 @@
 			"**Genie Apotheosis:** At 20th level, a brazen disciple is treated as a native outsider with the fire subtype rather than as a humanoid (or whatever the monk's creature type was) for the purpose of spells and magical effects. He has immunity to fire and vulnerability to cold. Once per day, the brazen disciple can grant a limited wish (as per the spell limited wish) to a non-outsider as a spell-like ability (CL 20th).",
 			"",
 			"This ability replaces perfect self."
-		]
+		],
+		"display": "archetype/monk_UC"
 	},
-	{
+	"disciple_of_wholeness": {
 		"name": "Disciple of Wholeness",
 		"file": "archetypedisplay939d.html",
 		"sources": [ "Healer's Handbook" ],
@@ -113,9 +115,10 @@
 			"**Hone Soul (Su):** At 13th level, a disciple of wholeness can dispel a spell affecting a living creature by touching it as a standard action and spending 1 point from her ki pool. This power functions like the targeted dispel option of greater dispel magic, with the caster level equal to the disciple of wholeness's monk level.",
 			"",
 			"This ability replaces the ki power gained at 14th level (and an unchained monk cannot gain the diamond soul ki power)."
-		]
+		],
+		"display": "archetype/monk_UC"
 	},
-	{
+	"elemental_monk": {
 		"name": "Elemental Monk",
 		"file": "archetypedisplayef51.html",
 		"sources": [ "Disciple's Doctrine" ],
@@ -159,9 +162,10 @@
 			"This alters the monk's ki pool.",
 			"",
 			"**Planar Guide (Sp):** At 14th level as a standard action, an elemental monk can spend 1 ki point to transport herself and up to seven additional willing creatures, as per the plane shift spell, to one of the four Elemental Planes. Each additional creature increases the cost by 1 ki point."
-		]
+		],
+		"display": "archetype/monk_UC"
 	},
-	{
+	"invested_regent": {
 		"name": "Invested Regent",
 		"file": "archetypedisplay5e2a.html",
 		"sources": [ "Heroes of the High Court" ],
@@ -260,9 +264,10 @@
 			"*Greater restoration* (self only, 3 investiture points)",
 			"*Regenerate* (self only, 3 investiture points)",
 			"*Repulsion* (3 investiture points)"
-		]
+		],
+		"display": "archetype/monk_UC"
 	},
-	{
+	"lifting_hand": {
 		"name": "Lifting Hand",
 		"file": "archetypedisplay3598.html",
 		"sources": [ "Martial Arts Handbook" ],
@@ -298,9 +303,10 @@
 			"**Counter-Throw (Sp):** At 12th level, a lifting hand can ready an action to trigger if a creature tries to attack her. When the readied action triggers, the lifting hand can attempt a grapple combat maneuver check with a +2 bonus. If she succeeds, she grapples the creature and negates the triggering attack, and she can spend an immediate action to use the [Savage Slam](feat:savage_slam) feat.",
 			"",
 			"This replaces the ki power gained at 12th level."
-		]
+		],
+		"display": "archetype/monk_UC"
 	},
-	{
+	"monk_of_the_mantis": {
 		"name": "Monk of the Mantis",
 		"file": "archetypedisplay50c3.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
@@ -328,9 +334,10 @@
 			"**Debilitating Blows (Ex):** A monk of the mantis's knowledge of anatomy allows her to deal blows that both deal damage and impose debilitating conditions. At 6th level, if a monk of the mantis stuns a target with Stunning Fist, the target is also entangled for 1 round after the Stunning Fist effect ends. At 10th level, if the monk of the mantis stuns a target with Stunning Fist, the target is also exhausted for 1 round after the Stunning Fist effect ends. At 12th level, the monk can spend 1 point from her ki pool as part of her Stunning Fist attack to increase the duration of these additional effects to a number of rounds equal to her Wisdom bonus (minimum 2 rounds). This ability replaces the 6th, 10th, and 12th-level ki powers.",
 			"",
 			"**Disabling Palm (Su):** At 15th level, a monk of the mantis can render the target of her quivering palm unconscious instead of killing the creature. Upon failing its Fortitude saving throw, the target either is knocked unconscious for a number of minutes equal to the monk of the mantis's monk level or dies (the monk of the mantis's choice). This ability applies only if the monk selects the quivering palm ki power."
-		]
+		],
+		"display": "archetype/monk_UC"
 	},
-	{
+	"perfect_scholar": {
 		"name": "Perfect Scholar",
 		"file": "archetypedisplay5d02.html",
 		"sources": [ "Inner Sea Intrigue" ],
@@ -368,9 +375,10 @@
 			"**Walk with the Master (Su):** At 20th level, the perfect scholar has mastered his spiritual resonance, allowing him to travel as if using etherealness, plane shift, or shadow walk at his monk level by spending only 1 point from his ki pool. He cannot bring other creatures with him. He is treated as an outsider rather than his original type, although he can be brought back to life as if he were still of his former type.",
 			"",
 			"This ability alters perfect self."
-		]
+		],
+		"display": "archetype/monk_UC"
 	},
-	{
+	"sage_counselor": {
 		"name": "Sage Counselor",
 		"file": "archetypedisplay302a.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -405,9 +413,10 @@
 			"**Deceptive Ki (Su):** At 4th level, the sage counselor can spend 1 point from his ki pool as a swift action to give himself a +4 insight bonus on his next Bluff check. The sage counselor does not gain the ability to spend ki to increase his speed by 20 feet for 1 round.",
 			"",
 			"This ability alters ki pool and replaces the ki power gained at 4th level."
-		]
+		],
+		"display": "archetype/monk_UC"
 	},
-	{
+	"scaled_fist": {
 		"name": "Scaled Fist",
 		"file": "archetypedisplay7cfc.html",
 		"sources": [ "Legacy of Dragons" ],
@@ -446,9 +455,10 @@
 			"**:** At 12th level, a scaled fist can spend 3 points from her ki pool to make a breath weapon attack as a standard action. This breath weapon deals 1d6 points of damage of her energy type per monk level in a 30-foot cone. Those caught in the area of the breath can attempt a Reflex save (DC = 10 + 1/2 the scaled fist's monk level + her Charisma modifier) to halve the normal damage.",
 			"",
 			"This ability replaces the ki power gained at 12th level."
-		]
+		],
+		"display": "archetype/monk_UC"
 	},
-	{
+	"serpent-fire_adept": {
 		"name": "Serpent-Fire Adept",
 		"file": "archetypedisplaye179.html",
 		"sources": [ "Occult Origins" ],
@@ -485,9 +495,10 @@
 			"**Linked Chakras (Ex):** At 8th level, the serpent-fire adept can open multiple chakras at once as a standard action. The round that she does this, she is required to make saving throws only to resist being overwhelmed by the highest chakra she opens, though the save DCs are increased by 5. She can do this once per day, plus one additional time per day each at 12th and 17th level. This ability replaces the 8th-level ki power.",
 			"",
 			"**Chakra Mastery (Ex):** At 10th level, the serpent-fire adept gains [Chakra Master](feat:chakra_master) as a bonus feat. She need not meet the feat's prerequisites. When maintaining her open chakras with chakra expertise, she can spend 1 point of ki to gain the benefits of two chakras rather than one in that round (or three chakras, if she has opened her crown chakra). At 14th level, the serpent-fire adept's pool of serpent-fire ki increases to 7 points, and at 18th level, it increases to 9 points. This ability replaces the bonus feats gained at 10th, 14th, and 18th level."
-		]
+		],
+		"display": "archetype/monk_UC"
 	},
-	{
+	"softstrike_monk": {
 		"name": "Softstrike Monk",
 		"file": "archetypedisplayd7b8.html",
 		"sources": [ "Martial Arts Handbook" ],
@@ -535,9 +546,10 @@
 			"**Resilient Body (Su):** At 19th level, a softstrike monk's mastery of nonlethal combat lets him apply his techniques to his defense. A softstrike monk converts any precision damage he takes to nonlethal damage.",
 			"",
 			"This replaces empty body."
-		]
+		],
+		"display": "archetype/monk_UC"
 	},
-	{
+	"soul_shepherd": {
 		"name": "Soul Shepherd",
 		"file": "archetypedisplaye9d8.html",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
@@ -573,9 +585,10 @@
 			"**Yamaraj's Judgment (Sp):** At 16th level, a soul shepherd can spend 1 point from his ki pool as a standard action to attempt to free an enslaved soul from an effect that is imprisoning it, such as [soul bind](spell:soul_bind) or [trap the soul](spell:trap_the_soul). This functions as a targeted [dispel magic](spell:dispel_magic) spell with a caster level equal to the soul shepherd's level. He can spend an additional ki point when he activates this ability to gain a +4 bonus on the caster level check. If the soul is held prisoner by a creature or a non-spell effect, the soul shepherd frees it if his caster level check result is at least 11 + the creature or effect's CR.",
 			"",
 			"This replaces the ki power gained at 16th level."
-		]
+		],
+		"display": "archetype/monk_UC"
 	},
-	{
+	"windstep_master": {
 		"name": "Windstep Master",
 		"file": "archetypedisplay1153.html",
 		"sources": [ "Elemental Master's Handbook" ],
@@ -607,6 +620,7 @@
 			"**Swift Ki (Su):** At 4th level, the windstep master can spend 1 point from his ki pool as a swift action to sustain his wind step for 1 minute. During this time, the windstep master can remain airborne even if he doesn't reach a solid surface. He can also spend 1 point from his ki pool as a swift action to increase his wind step distance by 20 feet for 1 round. The windstep master does not gain the ability to spend ki to increase his base speed by 20 feet for 1 round.",
 			"",
 			"This ability alters ki pool."
-		]
+		],
+		"display": "archetype/monk_UC"
 	}
-]
+}

@@ -1,6 +1,8 @@
 {
-	"sources": [ "Black Markets" ],
-	"description": [
+	"_sources": [
+		"Black Markets"
+	],
+	"_description": [
 		"By combining the skill of potioncraft with a poisoner's art, cunning assassins and herbalists can craft vile supernatural threats. An infused poison combines the effects of an ingested poison and a potion. A creature drinking an infused poison is affected by the poison (and its initial effects or damage) first, after which the infused spell effect triggers and the imbiber must attempt a second saving throw (often of a different type or DC) against its magical effects. Spell resistance applies normally to an infused poison's magical effects, but offers no protection against the poison, and poison resistance offers no protection against the magical effects of an infused poison. Poison immunity renders a creature immune to an infused poison's magical effects.",
 		"",
 		"A poison can be infused with a spell of up to 3rd level that has a casting time of less than 1 minute and targets one or more creatures. As with a potion, you cannot create an infused poison without meeting its spell prerequisite. The base price of the infusion is equal to the level of the spell &times; the creator's caster level &times; 25 gp. The cost of the poison to be infused is paid separately. If the spell has a material component cost, it is added to the poison's base price and cost of creation.",
@@ -9,90 +11,92 @@
 		"",
 		"A character who attempts to identify an infused poison with a Perception check (as if it were a potion) has a 5% chance of poisoning herself, unless she has the poison use ability. This process doesn't consume the infused poison."
 	],
-	"list": [
-		{
-			"name": "Abyssal Arsenic",
-			"sources": [ "Black Markets" ],
-			"cost": 420,
-			"description": [
-				"## Abyssal Arsenic",
-				"",
-				"**Source** [Black Markets pg. 12](source:black_markets)   ",
-				"**Aura** faint transmutation; **CL** 3rd   ",
-				"**Slot** ; **Price** 420 gp; **Weight** &mdash;",
-				"",
-				"Favored by demon cultists, this malign variant of arsenic causes a wide variety of painful deformations in the victim's flesh.",
-				"",
-				"**Type** poison, ingested; **Save** Fortitude DC 13   ",
-				"**Onset** 10 minutes; **Frequency** 1/minute for 4 minutes   ",
-				"**Effect** 1d2 Con damage; **Cure** 1 save   ",
-				"**Spell Effect** disfiguring touch (Will DC 13)",
-				"",
-				"**Requirements** Brew Potion, Infuse Poison, disfiguring touch; **Cost** 270 gp"
-			]
-		},
-		{
-			"name": "Burning Heart",
-			"sources": [ "Black Markets" ],
-			"cost": 150,
-			"description": [
-				"## Burning Heart",
-				"",
-				"**Source** [Black Markets pg. 13](source:black_markets)   ",
-				"**Aura** faint evocation; **CL** 1st   ",
-				"**Slot** ; **Price** 150 gp; **Weight** &mdash;",
-				"",
-				"Brewed from belladonna and popular among the backstabbing nobility of Taldor and Cheliax, burning heart causes victims to burst into flames at the most embarrassing times.",
-				"",
-				"**Type** poison, ingested; **Save** Fortitude DC 14   ",
-				"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes   ",
-				"**Effect** 1d2 Str damage, target can attempt one save to cure a lycanthropy affliction contracted in the past hour; **Cure** 1 save   ",
-				"**Spell Effect** touch of combustion (Reflex DC 11)",
-				"",
-				"**Requirements** Brew Potion, Infuse Poison, touch of combustion; **Cost** 125 gp"
-			]
-		},
-		{
-			"name": "Dust of Eox",
-			"sources": [ "Black Markets" ],
-			"cost": 1150,
-			"description": [
-				"## Dust of Eox",
-				"",
-				"**Source** [Black Markets pg. 13](source:black_markets)   ",
-				"**Aura** faint abjuration; **CL** 5th   ",
-				"**Slot** ; **Price** 1,150 gp; **Weight** &mdash;",
-				"",
-				"This black metallic powder infuses lich dust with magic-destroying energies, tearing down any protective spells its imbiber may have in place. It is especially favored by Red Mantis assassins when they must target wizards, arcanists, or nobles with abundant magical servants.",
-				"",
-				"**Type** poison, ingested; **Save** Fortitude DC 13   ",
-				"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes   ",
-				"**Effect** 1d3 Str damage; **Cure** 2 consecutive saves   ",
-				"**Spell Effect** dispel magic",
-				"",
-				"**Requirements** Brew Potion, Infuse Poison, dispel magic; **Cost** 775 gp"
-			]
-		},
-		{
-			"name": "Liquid Influence",
-			"sources": [ "Black Markets" ],
-			"cost": 900,
-			"description": [
-				"## Liquid Influence",
-				"",
-				"**Source** [Black Markets pg. 13](source:black_markets)   ",
-				"**Aura** faint enchantment; **CL** 5th   ",
-				"**Slot** ; **Price** 900 gp; **Weight** &mdash;",
-				"",
-				"This heady liquid brewed from the toxin indigo dreams imparts a compulsion to its victim, decided when the poison is first created.",
-				"",
-				"**Type** poison, ingested; **Save** Fortitude DC 13   ",
-				"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes   ",
-				"**Effect** 1d3 Wis damage; **Cure** 2 consecutive saves   ",
-				"**Spell Effect** suggestion (Will DC 14)",
-				"",
-				"**Requirements** Brew Potion, Infuse Poison, suggestion; **Cost** 525 gp"
-			]
-		}
-	]
+	"abyssal_arsenic": {
+		"name": "Abyssal Arsenic",
+		"sources": [ "Black Markets" ],
+		"cost": 420,
+		"description": [
+			"## Abyssal Arsenic",
+			"",
+			"**Source** [Black Markets pg. 12](source:black_markets)   ",
+			"**Aura** faint transmutation; **CL** 3rd   ",
+			"**Slot** ; **Price** 420 gp; **Weight** &mdash;",
+			"",
+			"Favored by demon cultists, this malign variant of arsenic causes a wide variety of painful deformations in the victim's flesh.",
+			"",
+			"**Type** poison, ingested; **Save** Fortitude DC 13   ",
+			"**Onset** 10 minutes; **Frequency** 1/minute for 4 minutes   ",
+			"**Effect** 1d2 Con damage; **Cure** 1 save   ",
+			"**Spell Effect** disfiguring touch (Will DC 13)",
+			"",
+			"**Requirements** Brew Potion, Infuse Poison, disfiguring touch; **Cost** 270 gp"
+		],
+		"display": "magic/infused_poisons"
+	},
+	"burning_heart": {
+		"name": "Burning Heart",
+		"sources": [ "Black Markets" ],
+		"cost": 150,
+		"description": [
+			"## Burning Heart",
+			"",
+			"**Source** [Black Markets pg. 13](source:black_markets)   ",
+			"**Aura** faint evocation; **CL** 1st   ",
+			"**Slot** ; **Price** 150 gp; **Weight** &mdash;",
+			"",
+			"Brewed from belladonna and popular among the backstabbing nobility of Taldor and Cheliax, burning heart causes victims to burst into flames at the most embarrassing times.",
+			"",
+			"**Type** poison, ingested; **Save** Fortitude DC 14   ",
+			"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes   ",
+			"**Effect** 1d2 Str damage, target can attempt one save to cure a lycanthropy affliction contracted in the past hour; **Cure** 1 save   ",
+			"**Spell Effect** touch of combustion (Reflex DC 11)",
+			"",
+			"**Requirements** Brew Potion, Infuse Poison, touch of combustion; **Cost** 125 gp"
+		],
+		"display": "magic/infused_poisons"
+	},
+	"dust_of_eox": {
+		"name": "Dust of Eox",
+		"sources": [ "Black Markets" ],
+		"cost": 1150,
+		"description": [
+			"## Dust of Eox",
+			"",
+			"**Source** [Black Markets pg. 13](source:black_markets)   ",
+			"**Aura** faint abjuration; **CL** 5th   ",
+			"**Slot** ; **Price** 1,150 gp; **Weight** &mdash;",
+			"",
+			"This black metallic powder infuses lich dust with magic-destroying energies, tearing down any protective spells its imbiber may have in place. It is especially favored by Red Mantis assassins when they must target wizards, arcanists, or nobles with abundant magical servants.",
+			"",
+			"**Type** poison, ingested; **Save** Fortitude DC 13   ",
+			"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes   ",
+			"**Effect** 1d3 Str damage; **Cure** 2 consecutive saves   ",
+			"**Spell Effect** dispel magic",
+			"",
+			"**Requirements** Brew Potion, Infuse Poison, dispel magic; **Cost** 775 gp"
+		],
+		"display": "magic/infused_poisons"
+	},
+	"liquid_influence": {
+		"name": "Liquid Influence",
+		"sources": [ "Black Markets" ],
+		"cost": 900,
+		"description": [
+			"## Liquid Influence",
+			"",
+			"**Source** [Black Markets pg. 13](source:black_markets)   ",
+			"**Aura** faint enchantment; **CL** 5th   ",
+			"**Slot** ; **Price** 900 gp; **Weight** &mdash;",
+			"",
+			"This heady liquid brewed from the toxin indigo dreams imparts a compulsion to its victim, decided when the poison is first created.",
+			"",
+			"**Type** poison, ingested; **Save** Fortitude DC 13   ",
+			"**Onset** 10 minutes; **Frequency** 1/minute for 6 minutes   ",
+			"**Effect** 1d3 Wis damage; **Cure** 2 consecutive saves   ",
+			"**Spell Effect** suggestion (Will DC 14)",
+			"",
+			"**Requirements** Brew Potion, Infuse Poison, suggestion; **Cost** 525 gp"
+		],
+		"display": "magic/infused_poisons"
+	}
 }

@@ -1,5 +1,5 @@
-[
-	{
+{
+	"brawling_blademaster": {
 		"name": "Brawling Blademaster",
 		"file": "archetypedisplayd733.html",
 		"sources": [ "Martial Arts Handbook" ],
@@ -42,9 +42,10 @@
 			"**Superior Focus (Ex):** At 14th level, the brawling blademaster gains a +2 bonus on saving throws during a challenge.",
 			"",
 			"This replaces greater banner."
-		]
+		],
+		"display": "archetype/samurai"
 	},
-	{
+	"ironbound_sword": {
 		"name": "Ironbound Sword",
 		"file": "archetypedisplay722f.html",
 		"sources": [ "Blood of the Ancients" ],
@@ -72,9 +73,10 @@
 			"**Blade Reversal (Ex):** At 14th level, an ironbound sword can turn the force of an opponent's attacks back against them. Whenever the ironbound sword takes a full defense action, she can expend an attack of opportunity to attempt to counter melee attacks made against her. This counter is a single attack roll at the ironbound blade's full base attack bonus that resolves before the enemy's attack. If the counter successfully hits the attacking enemy's AC and if the ironbound sword's attack roll is higher than the attacking creature's attack roll, the ironbound sword takes no damage from the enemy's attack and can initiate a disarm combat maneuver against the attacking enemy as a free action. If the triggering attack was made with a natural attack or unarmed strike, a successful disarm combat maneuver renders that natural attack or unarmed strike unusable until the victim spends a standard action to reset dislocated joints. In addition, the ironbound sword can spend one use of her resolve when she hits with a nonlethal attack to initiate a disarm combat maneuver against her target as a free action.",
 			"",
 			"This replaces greater banner."
-		]
+		],
+		"display": "archetype/samurai"
 	},
-	{
+	"soverign_blade": {
 		"name": "Soverign Blade",
 		"file": "archetypedisplay75b9.html",
 		"sources": [ "Legacy of Dragons" ],
@@ -109,9 +111,10 @@
 			"**:** At 6th level, the sovereign blade can issue forth an immense roar similar to the breath weapon of a sovereign dragon. This functions as dragon's breath, except it deals sonic damage in a 30-foot cone and has a caster level equal to half the sovereign blade's samurai level. The sovereign blade can use this ability once per day, plus one additional time per day at 12th and 18th levels.",
 			"",
 			"This replaces the bonus feats a samurai gained at 6th, 12th, and 18th level."
-		]
+		],
+		"display": "archetype/samurai"
 	},
-	{
+	"sword_saint": {
 		"name": "Sword Saint",
 		"file": "archetypedisplay00bc.html",
 		"sources": [],
@@ -142,9 +145,10 @@
 			"**Terrifying Iaijutsu (Ex):** At 5th level, a sword saint's iaijutsu strike devastates the morale of foes that witness it. When a sword saint successfully hits with an iaijutsu strike, all foes within 30 feet must succeed at a Will save (DC 10 + 1/2 the sword saint's class level + the sword saint's Cha modifier) or become shaken for 1d4+1 rounds. This ability replaces banner.",
 			"",
 			"**Roaring Iaijutsu (Ex):** At 14th level, a sword saint's iaijutsu strike deafens foes upon impact. When a sword saint successfully hits with an iaijutsu strike, all foes within 30 feet must succeed at a Fortitude save (DC 10 + 1/2 the sword saint's class level + the sword saint's Str modifier) or be deafened for 1d4 minutes. This ability replaces greater banner."
-		]
+		],
+		"display": "archetype/samurai"
 	},
-	{
+	"ward_speaker": {
 		"name": "Ward Speaker",
 		"file": "archetypedisplayc6cc.html",
 		"sources": [ "Disciple's Doctrine" ],
@@ -186,9 +190,10 @@
 			"**Resilient Stand (Ex):** At 11th level, the spirits can bolster a ward speaker's willpower and resolve, granting him an inner reservoir he can use when he needs it most. If a ward speaker has not expended his daily uses of propitiation, he can call upon the spirits to reroll a saving throw during an honorable stand instead of expending a use of resolve to do so. He must take the result of the second roll, even if it is worse. This expends a daily use of propitiation.",
 			"",
 			"This alters honorable stand."
-		]
+		],
+		"display": "archetype/samurai"
 	},
-	{
+	"warrior_poet": {
 		"name": "Warrior Poet",
 		"file": "archetypedisplay7c80.html",
 		"sources": [ "Heroes from the Fringe" ],
@@ -246,9 +251,10 @@
 			"**Battle Dance (Ex):** At 6th level, the warrior poet gains [Spring Attack](feat:spring_attack) as a bonus feat. At 12th level, she gains [Improved Spring Attack](feat:improved_spring_attack) as a bonus feat, and at 18th level, she gains [Greater Spring Attack](feat:greater_spring_attack) as a bonus feat. The warrior poet does not need to meet the prerequisites for these feats.",
 			"",
 			"This replaces the samurai's bonus combat feats."
-		]
+		],
+		"display": "archetype/samurai"
 	},
-	{
+	"yojimbo": {
 		"name": "Yojimbo",
 		"file": "archetypedisplayd00e.html",
 		"sources": [ "Armor Master's Handbook" ],
@@ -276,6 +282,7 @@
 			"**Intercept (Ex):** At 4th level, a yojimbo learns to better disrupt the attacks of his enemies. He gains Bodyguard as a bonus feat, even if he does not meet the prerequisite. In addition, whenever the yojimbo uses the aid another action to increase an ally's Armor Class, the bonus to Armor Class from the aid another action increases by 1.",
 			"",
 			"This ability replaces mounted archer."
-		]
+		],
+		"display": "archetype/samurai"
 	}
-]
+}

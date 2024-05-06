@@ -1,5 +1,5 @@
-[
-	{
+{
+	"frozen_shadow": {
 		"name": "Frozen Shadow",
 		"file": "archetypedisplay3964.html",
 		"sources": [ "Inner Sea Intrigue" ],
@@ -36,9 +36,10 @@
 			"**Ninja Tricks:** The following ninja tricks complement the frozen shadow archetype bleeding attack, darkvision, deadly range, fast stealth, hidden weapons, sudden disguise, vanishing trick, and wall climber.",
 			"",
 			"**Advanced Ninja Tricks:** The following advanced ninja tricks complement the frozen shadow archetype assassinate, ghost step, invisible blade, master disguise, and see the unseen."
-		]
+		],
+		"display": "archetype/ninja"
 	},
-	{
+	"gunpowder_bombardier": {
 		"name": "Gunpowder Bombardier",
 		"file": "archetypedisplay0d8c.html",
 		"sources": [ "Heroes from the Fringe" ],
@@ -67,9 +68,10 @@
 			"**Delayed Explosive (Ex):** At 8th level, a gunpowder bombardier can plant a gunpowder bomb and delay its explosion. As a standard action, the gunpowder bombardier can place a gunpowder bomb-adding effects as she would if she were throwing the gunpowder bomb, and spending the requisite ki points-and specify a number of rounds after which the bomb will detonate, up to a maximum number of rounds equal to the gunpowder bombardier's ninja level. If the bomb is touched or moved by another creature, it detonates immediately. The gunpowder bombardier can have only one delayed explosive active at a time; planting another gunpowder bomb renders the previous bomb inert.",
 			"",
 			"This replaces improved uncanny dodge."
-		]
+		],
+		"display": "archetype/ninja"
 	},
-	{
+	"hunting_serpent": {
 		"name": "Hunting Serpent",
 		"file": "archetypedisplay8fb0.html",
 		"sources": [ "Villain Codex" ],
@@ -105,9 +107,10 @@
 			"**Certain Demise (Ex):** At 10th level, the hunting serpent's sneak attack damage applies on the first attack she makes each round against the target of her death mark ability, even if it normally wouldn't. Other effects that trigger on a sneak attack do not apply with this ability.",
 			"",
 			"This ability replaces the ninja trick gained at 10th level."
-		]
+		],
+		"display": "archetype/ninja"
 	},
-	{
+	"mask_of_the_living_god": {
 		"name": "Mask of the Living God",
 		"file": "archetypedisplayff53.html",
 		"sources": [ "Disciple's Doctrine" ],
@@ -146,9 +149,10 @@
 			"**Ninja Tricks:** The following ninja tricks complement the mask of the Living God archetype: forgotten trick, kamikaze, unarmed combat training, vanishing trick, weapon training.",
 			"",
 			"**Master Tricks:** The following master tricks complement the mask of the Living God: ghost step, see the unseen, and shadow split."
-		]
+		],
+		"display": "archetype/ninja"
 	},
-	{
+	"petal_ninja": {
 		"name": "Petal Ninja",
 		"file": "archetypedisplay3296.html",
 		"sources": [ "Wilderness Origins" ],
@@ -199,6 +203,7 @@
 			"**Sundial (Su):** At 6th level, the petal ninja gains the ability to change the lighting in a 30-foot-radius emanation centered on herself as a move action. For every ki point she spends, the light levels change by one step (from darkness to dim light, normal light, and bright light, and vice versa). This change remains in effect for 1 minute.",
 			"",
 			"This replaces light steps."
-		]
+		],
+		"display": "archetype/ninja"
 	}
-]
+}

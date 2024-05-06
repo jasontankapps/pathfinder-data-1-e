@@ -1,5 +1,5 @@
-[
-	{
+{
+	"aerochemist": {
 		"name": "Aerochemist",
 		"file": "archetypedisplay2be5.html",
 		"sources": [ "Blood of the Ancients" ],
@@ -34,9 +34,10 @@
 			"**Aerodynamic Prowess (Su):** At 2nd level, an aerochemist gains a +2 bonus on Fly checks. This bonus increases to +4 at 5th level, and +6 at 8th level.",
 			"",
 			"This replaces poison resistance."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"alchemical_sapper": {
 		"name": "Alchemical Sapper",
 		"file": "archetypedisplay0413.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -88,9 +89,10 @@
 			"**Selective Detonation (Su):** At 10th level, when an alchemical sapper plants a trip mine, he can designate a number of allies up to his Intelligence modifier, allowing the designated allies to pass safely through an armed trip mine's square without causing it to detonate. If another creature triggers the trip mine while an ally is nearby, the ally still takes damage as normal.",
 			"",
 			"This ability replaces poison immunity."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"alchemical_trapper": {
 		"name": "Alchemical Trapper",
 		"file": "archetypedisplay2619.html",
 		"sources": [ "Monster Codex" ],
@@ -109,9 +111,10 @@
 			"**Bomb Trap (Su):** At 2nd level, an alchemical trapper can use one of her bombs to make a trap. Setting a bomb trap is a full-round action that provokes attacks of opportunity. A bomb trap fills a single 5-foot square and cannot be placed in the same area as any other trap. The alchemical trapper needs the same materials required for making a bomb. The DCs for Perception checks to notice the trap, Disable Device checks to disable it, and saving throws to avoid it are equal to the DC for the alchemical trapper's bombs. All bomb traps have location triggers and do not reset. The alchemical trapper can use any one discovery that applies to a bomb when making a bomb trap. The bomb trap lasts 10 minutes for each alchemist level the trapper possesses. If the bomb trap is not disabled or exploded within that time frame, the trap becomes inert. Creating a bomb trap uses one of the alchemical trapper's bombs per day. This ability replaces the discovery at 2nd level.",
 			"",
 			"**Trapfinding (Ex):** At 4th level, an alchemical trapper can find and disable traps, as the rogue class feature of the same name. This ability replaces the discovery at 4th level."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"aquachymist": {
 		"name": "Aquachymist",
 		"file": "archetypedisplay1388.html",
 		"sources": [ "Aquatic Adventures" ],
@@ -141,9 +144,10 @@
 			"**Amphibious Mutagen (Su):** At 2nd level, an aquachymist's mutagen allows him to breathe both air and water for its duration, in addition to its other effects.",
 			"",
 			"This ability replaces the discovery at 2nd level."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"beastmorph": {
 		"name": "Beastmorph",
 		"file": "archetypedisplayaa81.html",
 		"sources": [ "Ultimate Combat" ],
@@ -170,9 +174,10 @@
 			"**Grand Beastform Mutagen:** At 14th level, a beastmorph's mutagen grants him four of the abilities listed in the [beast shape III](spell:beast_shape_3) spell, which persist as long as the mutagen. He may select four different abilities each time he creates a mutagen. This ability replaces persistent mutagen.",
 			"",
 			"**Discoveries:** The following discoveries complement the beastmorph archetype: feral mutagen, grand mutagen, greater mutagen, infuse mutagen, mummification, spontaneous healing, tentacle, and wings."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"blazing_torchbearer": {
 		"name": "Blazing Torchbearer",
 		"file": "archetypedisplayc0c8.html",
 		"sources": [ "Dungeoneer's Handbook" ],
@@ -194,9 +199,10 @@
 			"**Intense Light (Ex):** At 2nd level, a blazing torchbearer has mastered lighting and holding a torch to the point that it sheds more light than those carried by his peers. The radius of normal and increased illumination of any torch held by a blazing torchbearer increases by 10 feet. Once per day as a standard action, the blazing torchbearer can create a brilliant flash of light that blinds everyone within 10 feet (including the torchbearer) for 1 round. This ability replaces poison use.",
 			"",
 			"**Explosive Torch (Ex):** At 4th level, as a standard action, a blazing torchbearer can drop a special blend of explosive powders onto his torch before using it as a weapon. His next successful melee attack with the torch deals an additional 2d6 points of fire damage and sets the target on fire. This attack must be made within 1d4 rounds or the torch prematurely explodes at the end of the blazing torchbearer's turn, dealing damage to the blazing torchbearer and setting him on fire. This ability replaces the alchemist's 4th-level discovery."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"blightseeker": {
 		"name": "Blightseeker",
 		"file": "archetypedisplayd7bb.html",
 		"sources": [ "Heroes of the Darklands" ],
@@ -258,9 +264,10 @@
 			"**Blight Engineering (Ex):** At 14th level, a blightseeker can apply two blights that he knows to each spore bomb he creates.",
 			"",
 			"This ability replaces persistent mutagen."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"blood_alchemist": {
 		"name": "Blood Alchemist",
 		"file": "archetypedisplayc07e.html",
 		"sources": [ "Horror Adventures" ],
@@ -294,9 +301,10 @@
 			"This ability replaces bombs.",
 			"",
 			"**Blood Knowledge (Sp):** Starting at 4th level, a blood alchemist can spend an unused extract slot of 2nd level while mixing a drop of blood with various alchemical reagents in a process that takes 1 minute. If he does so, he can drink the resulting concoction as a standard action to gain the information he would learn as if he had cast [blood biography](spell:blood_biography) on the blood he just used. As per the spell, living and undead creatures receive a Will saving throw (DC = 13 + the blood alchemist's Intelligence modifier) to negate the effect."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"bogborn_alchemist": {
 		"name": "Bogborn Alchemist",
 		"file": "archetypedisplayf2f9.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -319,9 +327,10 @@
 			"**Discovery Options:** A bogborn alchemist can select the toxic skin grippli racial trait in place of an alchemical discovery.",
 			"",
 			"**Discoveries:** The following discoveries complement the bogborn alchemist archetype: chameleon; concentrate poison, sticky poison ; nauseating flesh, poison conversion; bottled ooze, tanglefoot bomb, tentacle ."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"bramble_brewer": {
 		"name": "Bramble Brewer",
 		"file": "archetypedisplay0b7b.html",
 		"sources": [],
@@ -350,9 +359,10 @@
 			"**Grand Discovery (Su):** At 20th level, a bramble brewer who selects the true mutagen grand discovery can create a dendrite mutagen that grants a +8 natural armor bonus and a +6 alchemical bonus to Strength, Dexterity, and Constitution. The bramble brewer takes a -2 penalty to his Intelligence, Wisdom, and Charisma scores as long as the mutagen persists. The bramble brewer's gains fast healing 10, but instead of only gaining fast healing in bright light, this fast healing persists in areas of bright or normal light. A bramble brewer must possess the grand mutagen discovery before selecting this discovery.",
 			"",
 			"**Discoveries:** The following discoveries complement the bramble brewer archetype: precise bombs; defoliant bomb; lingering spirit, strafe bomb, sunlight bomb."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"chirurgeon": {
 		"name": "Chirurgeon",
 		"file": "archetypedisplayb962.html",
 		"sources": [ "Ultimate Magic" ],
@@ -376,9 +386,10 @@
 			"**Power Over Death:** At 10th level, a chirurgeon adds [breath of life](spell:breath_of_life) to his formula book as a 4th-level extract. His infused curative ability applies to this extract. This ability replaces poison immunity.",
 			"",
 			"**Discoveries:** The following discoveries complement the chirurgeon archetype: elixir of life, healing touch, infusion, and spontaneous healing."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"clone_master": {
 		"name": "Clone Master",
 		"file": "archetypedisplay96c1.html",
 		"sources": [ "Ultimate Magic" ],
@@ -406,9 +417,10 @@
 			"**Clone:** At 16th level, a clone master adds [clone](spell:clone) to his formula book as a 6th-level extract.",
 			"",
 			"**Discoveries:** The following discoveries complement the clone master archetype: alchemical simulacrum, doppelganger simulacrum, preserve organs, and parasitic twin."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"concocter": {
 		"name": "Concocter",
 		"file": "archetypedisplay87a6.html",
 		"sources": [],
@@ -450,9 +462,10 @@
 			"| 4 | Both the extract and potion function normally and are affected as though they were spells extended with the [Extend Spell](feat:extend_spell) metamagic feat. If either the extract or the potion's duration is concentration, instantaneous, or permanent, both the extract and the potion simply function normally. |",
 			"",
 			"This replaces swift poisoning and the discovery gained at 6th level."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"construct_rider": {
 		"name": "Construct Rider",
 		"file": "archetypedisplayb7f7.html",
 		"sources": [ "Cohorts and Companions" ],
@@ -490,14 +503,17 @@
 			"**Vaporizing Reservoir (Ex, Su):** The construct rider upgrades his mount's reservoir, adding a compartment near the mouth which stores a bomb. Loading the bomb requires the same process as loading an extract or potion. A construct mount loaded with a bomb can unleash it as a breath weapon in a 15-foot cone or a 30-foot line as a standard action, dealing damage as a direct hit against all targets in the area of effect. The alchemist selects a line or cone area when loading the reservoir. Because the construct mount lacks the alchemist's Throw Anything ability, the alchemist's Intelligence bonus doesn't apply to this damage. A construct rider must be at least 8th level and possess the internal reservoir discovery before selecting this discovery.",
 			"",
 			"**Widened Vaporizer (Su):** When the construct mount uses its breath weapon from the vaporizing reservoir discovery, it can also unleash a 30-foot cone or a 60-foot line. A construct rider must be at least 10th level and possess the internal reservoir and vaporizing reservoir discoveries before selecting this discovery."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"crimson_chymist": {
 		"name": "Crimson Chymist",
 		"file": "archetypedisplay2b62.html",
 		"sources": [ "Adventurer's Guide" ],
 		"replaces": "Mutagen",
-		"replace_array": [ "Mutagen" ],
+		"replace_array": [
+			"Mutagen"
+		],
 		"short_description": "Crimson chymists turn to the alchemical arts, infusing their bodies with the mutagenic essence of the Mantis God.",
 		"description": [
 			"## Crimson Chymist",
@@ -520,9 +536,10 @@
 			"**Mantis Mutagen (Su):** At 1st level, a crimson chymist discovers how to create a specialized mutagen that grants her aspects of a praying mantis. A mantis mutagen functions as an alchemist mutagen, save that it always enhances Dexterity and applies a penalty to Charisma. When imbibed, the mutagen causes the crimson chymist's flesh to grow red chitinous plates on her body as natural armor and a row of small, cosmetic barbed hooks along her arms.",
 			"",
 			"This alters mutagen."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"cruorchymist": {
 		"name": "Cruorchymist",
 		"file": "archetypedisplay2b9e.html",
 		"sources": [ "Construct Handbook" ],
@@ -551,9 +568,10 @@
 			"This replaces Brew Potion.",
 			"",
 			"**Blood Augmentation (Ex):** At 4th level, a cruorchymist can provide more of his blood to further enhance his blood familiar. As a swift action, the cruorchymist can take 1 point of Constitution damage to provide his familiar with an [animal aspect](class:animal_aspect) for 1 minute, treating his alchemist level as his hunter level. The cruorchymist takes 1 additional point of Constitution damage for every minute he maintains the animal aspect beyond the first. At 12th level, the cruorchymist can select two animal aspects for his blood familiar instead of one, taking 2 points of Constitution damage for every minute that he maintains both animal aspects."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"crypt_breaker": {
 		"name": "Crypt Breaker",
 		"file": "archetypedisplayb87b.html",
 		"sources": [ "Inner Sea Magic" ],
@@ -580,9 +598,10 @@
 			"**Discoveries:** A crypt breaker may take the following rogue talents as discoveries: quick disable, trap sense, and trap spotter. Treat the crypt breaker's alchemist level as his rogue level for these talents.",
 			"",
 			"**Enhanced Alkahest (Su):** At 14th level, a crypt breaker's alkahest grows more potent. Against constructs and corporeal undead, the crypt breaker's alkahest bombs deal +1 points of damage per die, and the bomb threatens a critical hit on a 19-20. This does not stack with other effects that improve critical hit threat ranges. This ability replaces persistent mutagen."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"deep_bomber": {
 		"name": "Deep Bomber",
 		"file": "archetypedisplay2014.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -607,14 +626,17 @@
 			"**Stonekin:** At 6th level, the deep bomber automatically learns [tree shape](spell:tree_shape) as a 2nd-level extract, except instead of a tree, he takes the form of a stalagmite that is the same size as his current size. At 7th level, he automatically learns [meld into stone](spell:meld_into_stone) as a 3rd-level extract. This ability replaces swift poisoning.",
 			"",
 			"**Discoveries:** The following discoveries complement the deep bomber archetype: delayed bomb, dispelling bomb, fast bombs, infusion, madness bomb, poison bomb."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"dimensional_excavator": {
 		"name": "Dimensional Excavator",
 		"file": "archetypedisplay6661.html",
 		"sources": [ "Magic Tactics Toolbox" ],
 		"replaces": "4th-level Discovery",
-		"replace_array": [ "4th-level Discovery" ],
+		"replace_array": [
+			"4th-level Discovery"
+		],
 		"short_description": "Dimensional excavators have discovered and recorded ways to cause their bombs to create minor tears in the fabric of reality, forming extradimensional pits to vex their foes.",
 		"description": [
 			"## Dimensional Excavator",
@@ -629,9 +651,10 @@
 			"**Precipitous Discoveries (Su):** At 6th level, a dimensional excavator can choose to learn an additional pit spell in place of learning a new discovery. The alchemist must be able to use an extract of the appropriate level to select a pit spell as an extract. He can add the following spells to his extracts known, and use them as per the extradimensional extract ability: [spiked pit](spell:spiked_pit) (3rd-level extract), [acid pit](spell:acid_pit) (4th-level extract), [hungry pit](spell:hungry_pit) (5th-level extract).",
 			"",
 			"This alters the discovery ability."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"dragonblood_chymist": {
 		"name": "Dragonblood Chymist",
 		"file": "archetypedisplay4db4.html",
 		"sources": [ "Legacy of Dragons" ],
@@ -666,9 +689,10 @@
 			"**Draconic Resistances (Ex):** At 2nd level, a dragonblood chymist gains a +2 bonus on all saving throws against paralysis and sleep effects. This bonus increases to +4 at 6th level, and to +6 at 10th level. At 10th level, a dragonblood chymist becomes immune to paralysis and sleep effects.",
 			"",
 			"This ability replaces poison resistance, poison use, and swift poisoning"
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"ectochymist": {
 		"name": "Ectochymist",
 		"file": "archetypedisplayee8f.html",
 		"sources": [ "Occult Adventures" ],
@@ -704,14 +728,17 @@
 			"**Ectochymical Analysis (Sp):** At 10th level, an ectochymist can use alchemical processes to uncover esoteric knowledge from a haunted area that would normally require divinations to ascertain. This process takes 10 minutes and expends one use of ectoplasmic blanche. Treat this effect as [speak with haunt](spell:speak_with_haunt) with a saving throw DC equal to 10 + 1/2 the ectochymist's class level + the ectochymist's Charisma modifier and a caster level equal to the ectochymist's class level. Because the ectochymist is performing an analysis to answer his questions and not speaking with the haunt directly, he uses Craft (alchemy) rather than Sense Motive to oppose any Bluff checks the spirit might attempt in order to mislead him. This ability replaces poison immunity.",
 			"",
 			"**Discoveries:** The following discoveries complement the ectochymist archetype: alchemical simulacrum, cognatogen, grand cognatogen, greater alchemical simulacrum, and mummification."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"ectoplasm_master": {
 		"name": "Ectoplasm Master",
 		"file": "archetypedisplaye428.html",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"replaces": "Brew Potion",
-		"replace_array": [ "Brew Potion" ],
+		"replace_array": [
+			"Brew Potion"
+		],
 		"short_description": "Alchemists capable of distilling spectral horrors into alchemical reagents.",
 		"description": [
 			"## Ectoplasm Master",
@@ -730,9 +757,10 @@
 			"**Ectoplasmic Servant:** An ectoplasm master who selects this discovery adds all summon monster spells of 6th level or lower to his alchemist formula list as ectoplasmic extracts. Whenever he summons a creature using an ectoplasmic extract, the creature must appear in a square adjacent to his own, and it gains the [ectoplasmic creature template](monster/template:ectoplasmic). Creatures summoned using ectoplasmic extracts cannot have templates other than the ectoplasmic creature template.",
 			"",
 			"**Siphon Bomb:** The ectoplasm master's bombs can be modified to neutralize and crystallize the ectoplasmic energy of haunts and incorporeal undead. A siphon bomb deals full damage to incorporeal creatures as if it were a force effect, but deals only nonlethal damage to corporeal creatures. A siphon bomb also damages haunts, provided the siphon bomb explodes within a haunt's area of effect. This discovery modifies the alchemist's bombs and doesn't stack with other discoveries that modify bombs."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"eldritch_poisoner": {
 		"name": "Eldritch Poisoner",
 		"file": "archetypedisplayabc1.html",
 		"sources": [ "Black Markets" ],
@@ -802,9 +830,10 @@
 			"**Toxic Fumes (Ex):** The eldritch poisoner can create her arcanotoxin as an inhaled poison. She can throw a vial of arcanotoxin up to 30 feet as a ranged touch attack, affecting all creatures in a 10-foot-by-10-foot square. The arcanotoxin's save DC is reduced by 4, its duration is halved, and a successful save immediately ends the inhaled arcanotoxin's effect. The eldritch poisoner must be at least 6th level to select this discovery.",
 			"",
 			"**Careful Injection (Ex):** At 4th level, an eldritch poisoner can forgo some of her sneak attack damage in order to increase the save DC of a poison or arcanotoxin on the weapon used to make the sneak attack. The poison's DC increases by 1 for every 1d6 points of sneak attack damage forgone. This ability replaces the discovery gained at 4th level."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"energist": {
 		"name": "Energist",
 		"file": "archetypedisplay58bf.html",
 		"sources": [ "Planar Adventures" ],
@@ -842,9 +871,10 @@
 			"This alters throw anything and replaces the discovery gained at 2nd level and swift poisoning.",
 			"",
 			"**Energist Resistance (Su):** At 2nd level, an energist gains energy resistance equal to his alchemist level to positive or negative energy, whichever would naturally harm him. When on a positive-dominant plane such as the Positive Energy Plane, he can apply this resistance to offset the plane's fast healing. This replaces poison resistance."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"energy_scientist": {
 		"name": "Energy Scientist",
 		"file": "archetypedisplay29ef.html",
 		"sources": [ "Elemental Master's Handbook" ],
@@ -885,9 +915,10 @@
 			"**Salvage Energy (Ex):** At 2nd level, an energy scientist can siphon power from slain elementals into temporary alchemical weapons. While studying the remains of an elemental that has been dead for no longer than 1 minute per alchemist level, you can attempt a Craft (alchemy) check (DC = 20 + the elemental's CR) as a standard action. Success means the alchemist produces a number of canisters of [alchemist's fire](equipment/misc:alchemist's_fire) (from fire and magma elementals), [bottled lightning](equipment/misc:bottled_lightning) (from air and lightning elementals), [deadground dust](equipment/misc:deadground_dust) (from earth and mud elementals), or [liquid ice](equipment/misc:liquid_ice) (from water and ice elementals) equal to half the elemental's CR, rounded down. These items cannot be sold and become inert after 24 hours. At 6th level, the save DCs of the items produced increase by 2.",
 			"",
 			"This ability replaces poison use and swift poisoning."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"fermenter": {
 		"name": "Fermenter",
 		"file": "archetypedisplayc0aa.html",
 		"sources": [ "Potions and Poisons" ],
@@ -916,9 +947,10 @@
 			"**Batch Brew (Ex):** At 6th level, a fermenter learns how to brew tinctures in larger batches. Whenever she creates a tincture using Craft (alchemy), she can simultaneously create a number of additional tinctures equal to her Intelligence modifier. She expends resources for each tincture separately, but she attempts a single Craft check and applies the result to each tincture being brewed.",
 			"",
 			"This replaces swift poisoning."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"fire_bomber": {
 		"name": "Fire Bomber",
 		"file": "archetypedisplay19ae.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -954,9 +986,10 @@
 			"**Greater Fire Body (Ex):** At 14th level, fire bombers add [elemental body IV](spell:elemental_body_4) to their spell list as a 5th-level extract. [Elemental body](spell:elemental_body) extracts prepared using greater fire body are limited to fire elementals only. This ability replaces persistent mutagen.",
 			"",
 			"**Discoveries:** The following discoveries complement the fire bomber archetype: fire brand, rocket bomb ; explosive bombs, fast bombs, inferno bomb, precise bombs breath weapon bomb, explosive missile, immolation bomb ; bottled ooze, confusion bomb, strafe bomb ."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"first_world_innovator": {
 		"name": "First World Innovator",
 		"file": "archetypedisplayd2f6.html",
 		"sources": [ "Legacy of the First World" ],
@@ -997,9 +1030,10 @@
 			"**Refined Reagents (Su):** At 2nd level, whenever the First World innovator expends a dose of primal reagents to roll a die to apply a randomized outcome to his bombs or mutagen, he can expend 1 additional dose to ignore the result and roll again; he must take the second result.",
 			"",
 			"This ability replaces poison resistance."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"gloom_chymist": {
 		"name": "Gloom Chymist",
 		"file": "archetypedisplay4eac.html",
 		"sources": [ "Blood of Shadows" ],
@@ -1024,9 +1058,10 @@
 			"**Umbral Gloom (Su):** At 2nd level, whenever a gloom chymist makes a gloom, he can have it increase or decrease the light level by one step within its splash radius, in addition to its other effects. This change lasts for a number of rounds equal to the gloom chymist's Intelligence modifier. At 8th level, the gloom chymist expend two uses of his daily glooms to increase or decrease light levels as per [daylight](spell:daylight) or [deeper darkness](spell:deeper_darkness), respectively, using his alchemist level as the caster level.",
 			"",
 			"This ability replaces poison resistance, poison use, and swift poisoning."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"grenadier": {
 		"name": "Grenadier",
 		"file": "archetypedisplayc03a.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
@@ -1054,9 +1089,10 @@
 			"**Directed Blast (Su):** At 6th level, a grenadier can detonate a bomb so that it splashes in a 20-foot cone rather than affecting a radius. The cone starts at the alchemist and extends away from her in the direction she chooses. The alchemist designates one creature in the squares affected by the cone to be the target of the bomb and makes her attack roll against that creature; all other squares in the cone take splash damage. If the alchemist has the explosive bomb discovery and throws an explosive directed blast, the cone of splash damage is 30 feet long instead of 20 feet. This ability replaces swift poisoning.",
 			"",
 			"**Staggering Blast (Su):** At 10th level, a grenadier's bombs become particularly overwhelming when they explode. Whenever a grenadier scores a successful critical hit with a bomb, the creature directly struck by that bomb is staggered for 1d4+1 rounds. A successful Fortitude save (DC equals the bomb's Reflex save DC to avoid splash damage) reduces the duration to 1 round. The effects of this ability stack with a frost bomb's staggering effect, but not with the effects of the [Staggering Critical](feat:staggering_critical) feat. Additional hits from a staggering blast add to the effect's overall duration. This ability replaces poison immunity."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"grenadier_mc": {
 		"name": "Grenadier [MC]",
 		"file": "archetypedisplayf406.html",
 		"sources": [ "Monster Codex" ],
@@ -1084,9 +1120,10 @@
 			"**Directed Blast (Su):** At 6th level, a grenadier can detonate a bomb so that it splashes in a 20-foot cone rather than affecting a radius. The cone starts at the alchemist and extends away from her in the direction she chooses. The alchemist designates one creature in the squares affected by the cone to be the target of the bomb and makes her attack roll against that creature; all other squares in the cone take splash damage. If the alchemist has the explosive bomb discovery and throws an explosive directed blast, the cone of splash damage is 30 feet long instead of 20 feet. This ability replaces swift poisoning.",
 			"",
 			"**Staggering Blast (Su):** At 10th level, a grenadier's bombs become particularly overwhelming when they explode. Whenever a grenadier confirms a critical hit with a bomb, the creature directly struck by that bomb is staggered for 1d4+1 rounds. A successful Fortitude saving throw (DC equals the bomb's Reflex save DC to avoid splash damage) reduces the duration to 1 round. The effects of this ability stack with a frost bomb's staggering effect, but not with the effects of the Staggering Critical feat. Additional critical hits with bombs add to any duration remaining from previous ones. This ability replaces poison immunity."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"gun_chemist": {
 		"name": "Gun Chemist",
 		"file": "archetypedisplay8ccd.html",
 		"sources": [ "People of the Wastes" ],
@@ -1139,9 +1176,10 @@
 			"**Repeat Fire (Ex):** At 6th level, a gun chemist gains [Rapid Reload](feat:rapid_reload) as a bonus feat and must select a type of firearm. If he already has this feat, he can instead gain one combat feat for which he qualifies.",
 			"",
 			"This replaces swift poisoning."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"herbalist": {
 		"name": "Herbalist",
 		"file": "archetypedisplay074d.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -1173,9 +1211,10 @@
 			"**Seedpods (Su):** An herbalist can produce and throw seedpods as ranged touch attacks, similar to the ranged attacks of other leshys. He can create a number of seedpods each day equal to his alchemist level + his Wisdom modifier and can throw them as a standard action with a range increment of 20 feet. A seedpod deals 1d6 points of bludgeoning damage, plus an additional 1d6 points of damage at 3rd level and every 2 levels thereafter (this additional damage isn't multiplied on a critical hit or from effects like [Vital Strike](feat:vital_strike)). Seedpods are considered weapons and can be selected for feats like [Weapon Focus](feat:weapon_focus), and the herbalist can take the [Extra Bombs](feat:extra_bombs) feat to gain additional daily uses of his seedpods. His seedpods also gain one of the following additional effects unless the target succeeds at a Fortitude save (DC = 10 + half the herbalist's alchemist level + his Wisdom modifier). At 1st level, his seedpods can deafen their target for 1 round like a [leaf leshy](monster:leaf_leshy). At 2nd level, they can reduce the target's vision to 10 feet for 1 minute (unless the target spends a full-round action to wash the spores from its eyes early) like the spores of a [fungus leshy](monster:fungus_leshy). At 5th level, they can entangle their target for 2d4 rounds (unless the target succeeds at a Strength check or Escape Artist check at the save DC to break the vine early) like the seeds of a [gourd leshy](monster:gourd_leshy). At 8th level, they can sicken their target for 1d4 rounds like the spittle of a [flytrap leshy](monster:flytrap_leshy). At 10th level, they can blind their target until the end of their next turn like the water jets of a [seaweed leshy](monster:seaweed_leshy).",
 			"",
 			"This replaces bombs, poison use, poison resistance, and poison immunity."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"homunculist": {
 		"name": "Homunculist",
 		"file": "archetypedisplayd4ee.html",
 		"sources": [ "Familiar Folio" ],
@@ -1199,9 +1238,10 @@
 			"**Homunculus Familiar (Ex):** The homunculist has created a living [homunculus](monster:homunculus) in the shape of an animal or vermin. It functions in all ways as a familiar, treating the homunculist's alchemist level as his effective wizard level. This ability replaces mutagen.",
 			"",
 			"**Experimentation (Ex):** A homunculist is constantly experimenting on his familiar to give it new and unusual features and abilities. At 4th level, the homunculist can grant his familiar 1 evolution point worth of eidolon evolutions for every 4 alchemist levels he possesses, though he can't select any evolutions that require a particular base form. Each time the homunculist gains a level, he can change his familiar's evolutions. These evolutions stack with those from the [Evolved Familiar](feat:evolved_familiar) feat. The homunculist can select the [Evolved Familiar](feat:evolved_familiar) feat as an alchemist discovery if he meets its prerequisites."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"horticulturist": {
 		"name": "Horticulturist",
 		"file": "archetypedisplay0b61.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -1242,9 +1282,10 @@
 			"**Fury of Nature (Sp):** At 14th level, a horticulturist's connection with nature allows him to bring down nature's fury on his opponents. He can cast one of the following spells, chosen at the time of casting, once per day as a spell-like ability: call lightning storm, eagle aerie, or liveoak.",
 			"",
 			"This replaces persistent mutagen."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"ice_chemist": {
 		"name": "Ice Chemist",
 		"file": "archetypedisplayf10e.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -1269,14 +1310,17 @@
 			"**Cold Sweat (Su):** At 2nd level, an ice chemist channels her affinity for cold energy into her personal space, keeping herself and her gear cool. She gains cold resistance equal to her alchemist level and can survive comfortably in temperatures as low as -50&deg; Fahrenheit. This replaces poison resistance and poison immunity.",
 			"",
 			"**Frost Bomb (Su):** At 2nd level, an ice chemist gains the frost bomb discovery. This replaces the discovery that the alchemist normally gains at 2nd level."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"inspired_chemist": {
 		"name": "Inspired Chemist",
 		"file": "archetypedisplay8033.html",
 		"sources": [ "Advanced Class Guide" ],
 		"replaces": "Mutagen",
-		"replace_array": [ "Mutagen" ],
+		"replace_array": [
+			"Mutagen"
+		],
 		"short_description": "Akin to a mindchemist, inspired chemists use a type of cognatogen that instead of increasing their mental ability scores grants them inspiration like an investigator.",
 		"description": [
 			"## Inspired Chemist",
@@ -1293,9 +1337,10 @@
 			"**Languages:** An inspired chemist can learn three languages in place of a discovery.",
 			"",
 			"**Discoveries:** The following discoveries complement the inspired chemist archetype: grand inspiring cognatogen, greater inspiring cognatogen, and inspired bomb."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"internal_alchemist": {
 		"name": "Internal Alchemist",
 		"file": "archetypedisplay66fe.html",
 		"sources": [ "Ultimate Magic" ],
@@ -1321,9 +1366,10 @@
 			"**Uncanny Dodge:** Starting at 6th level, an internal alchemist can react to danger before his senses would normally allow him to do so. He cannot be caught flat-footed, nor does he lose his Dexterity bonus to AC if the attacker is invisible. However, he still loses his Dexterity bonus to AC if he is immobilized, or if an opponent successfully uses the feint action (see Bluff) against him. If the internal alchemist already has uncanny dodge from a different class, he automatically gains improved uncanny dodge (as a rogue) instead. This ability replaces swift poisoning.",
 			"",
 			"**Discoveries:** The following discoveries complement the internal alchemist archetype: cognatogen, elixir of life, grand cognatogen, greater cognatogen, lingering spirit, mummification, and spontaneous healing."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"interrogator": {
 		"name": "Interrogator",
 		"file": "archetypedisplayd500.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -1366,9 +1412,10 @@
 			"**Paralytic:** On a failed Will save, the injected creature is affected by [hold person](spell:hold_person) with a caster level equal to the interrogator's alchemist level. An alchemist must be at least 8th level to learn this serum.",
 			"",
 			"**Truth:** A creature injected with a truth serum must succeed at a Will save or be compelled to answer the interrogator's questions truthfully. The interrogator can ask one question per 2 alchemist levels (minimum 1). Answers might be brief, cryptic, or repetitive, especially if the injected creature is unfriendly, but they aren't false. If a creature has been subjected to a truth serum within the past week, whether it succeeded at or failed its save, any new serum fails."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"mad_scientist": {
 		"name": "Mad Scientist",
 		"file": "archetypedisplay4b5d.html",
 		"sources": [ "Horror Adventures" ],
@@ -1405,9 +1452,10 @@
 			"5th-Level Alchemist Formulae-[beast shape III](spell:beast_shape_3), [contact other plane](spell:contact_other_plane), [delayed consumption](spell:delayed_consumption), [dream](spell:dream), [elemental body II](spell:elemental_body_2), [elude time](spell:elude_time), [magic jar](spell:magic_jar), [nightmare](spell:nightmare), [overland flight](spell:overland_flight), [planar adaptation](spell:planar_adaptation), [plant shape I](spell:plant_shape_1), [polymorph](spell:polymorph), [resurgent transformation](spell:resurgent_transformation), [sending](spell:sending), [spell resistance](spell:spell_resistance).",
 			"",
 			"6th-Level Alchemist Formulae-[analyze dweomer](spell:analyze_dweomer), [beast shape IV](spell:beast_shape_4), [elemental body III](spell:elemental_body_3), [eyebite](spell:eyebite), [form of the dragon I](spell:form_of_the_dragon_1), [giant form I](spell:giant_form_1), [heal](spell:heal), [mislead](spell:mislead), [plant shape II](spell:plant_shape_2), [shadow walk](spell:shadow_walk), [statue](spell:statue), [transformation](spell:transformation), [true seeing](spell:true_seeing), [twin form](spell:twin_form), [wind walk](spell:wind_walk)."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"metamorph": {
 		"name": "Metamorph",
 		"file": "archetypedisplay28d8.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -1445,9 +1493,10 @@
 			"**Adaptive Physiology (Ex):** At 3rd level, a metamorph gains a 25% chance to negate critical hits and precision damage, similar to the preserve organs discovery. This chance increases to 50% at 6th level, and to 75% at 18th level.",
 			"",
 			"This ability replaces swift alchemy, swift poisoning, and instant alchemy."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"mindchemist": {
 		"name": "Mindchemist",
 		"file": "archetypedisplayd493.html",
 		"sources": [ "Ultimate Magic" ],
@@ -1472,9 +1521,10 @@
 			"**Languages:** A mindchemist may learn three languages in place of a discovery.",
 			"",
 			"**Discoveries:** The following discoveries complement the mindchemist archetype: grand cognatogen, greater cognatogen, infuse mutagen."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"mixologist": {
 		"name": "Mixologist",
 		"file": "archetypedisplay24de.html",
 		"sources": [ "Inner Sea Taverns" ],
@@ -1509,9 +1559,10 @@
 			"**Mixologist Master (Su):** At 14th level, a mixologist can have up to two alcoholic extracts for each level of extracts he can prepare as long as he can prepare at least two extracts of that level.",
 			"",
 			"This replaces persistent mutagen."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"mnemostiller": {
 		"name": "Mnemostiller",
 		"file": "archetypedisplayc8d4.html",
 		"sources": [ "Distant Realms" ],
@@ -1563,9 +1614,10 @@
 			"Mnemostil has also created a unique faith in Spire's Edge: amnesia cults. Many petitioners succumb to the expectation that they grow-that who they were in life is somehow not enough-and so render themselves into temporary or permanent blank slates to dwell in inert bliss. Others cannot reconcile their own actions and so wipe themselves clean to live in ignorance.",
 			"",
 			"Pruning the development of the soul is anathema to the purpose of Spire's Edge, and the city's psychopomps aggressively hunt both mnemostillers and amnesia cultists, with punishment for the crime invariably being exile into the Astral Plane."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"oenopion_researcher": {
 		"name": "Oenopion Researcher",
 		"file": "archetypedisplay8e65.html",
 		"sources": [ "Inner Sea Magic" ],
@@ -1586,9 +1638,10 @@
 			"**Experimental Mutagen (Su):** At 2nd level, an Oenopion researcher learns how to create an experimental mutagen that benefits others, though not as well as his normal mutagen. The experimental mutagen works just like a standard mutagen, except the natural armor bonus and the alchemical bonus to the ability score are half normal (+1 natural armor bonus and +2 to one ability score). The experimental mutagen has no risk of nauseating a creature who drinks it. The researcher decides when he creates the mutagen if it is a standard mutagen (which gives no benefit if another creature drinks it) or an experimental mutagen (which does); there is no difference in the cost, time to create, or any other aspect of the mutagen. If the researcher has discoveries or other abilities that alter or increase the benefits of the mutagen, these apply to the experimental mutagen (though the drinker only gets half the numerical bonus of the mutagen). This ability replaces poison use.",
 			"",
 			"**Acid Resistance (Ex):** At 3rd level, an Oenopion researcher gains acid resistance 5. This ability replaces swift alchemy."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"oozemaster": {
 		"name": "Oozemaster",
 		"file": "archetypedisplayf6a8.html",
 		"sources": [ "Monster Hunter's Handbook" ],
@@ -1626,9 +1679,10 @@
 			"This replaces poison resistance and poison immunity.",
 			"",
 			"**Discoveries:** The following discoveries complement the oozemaster archetype: bottled ooze, ooze blight, and splitting mutagen."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"perfumer": {
 		"name": "Perfumer",
 		"file": "archetypedisplay648c.html",
 		"sources": [ "Wilderness Origins" ],
@@ -1662,9 +1716,10 @@
 			"**Persistent Pheromones:** At 14th level, the alchemist gains the ability to distill extremely potent pheromones. His pheromone atomizers can be sprayed on up to four different targets before becoming fully used. This allows a perfumer to affect multiple targets with a single atomizer.",
 			"",
 			"This replaces persistent mutagen."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"plague_bringer": {
 		"name": "Plague Bringer",
 		"file": "archetypedisplayb03f.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -1694,9 +1749,10 @@
 			"**Disease Resistance (Ex):** At 2nd level, a plague bringer gains a +2 bonus on all saving throws against disease. This bonus increases to +4 at 5th level, and to +6 at 8th level. At 10th level, a plague bringer becomes completely immune to disease (including magical diseases). This ability replaces all increments of poison resistance and poison immunity.",
 			"",
 			"**Discoveries:** The following discoveries complement the plague bringer archetype: explosive bomb, precise bombs, smoke bomb breath weapon bomb, fast bomb, nauseating bomb ; plague bomb."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"preservationist": {
 		"name": "Preservationist",
 		"file": "archetypedisplay75f8.html",
 		"sources": [ "Ultimate Magic" ],
@@ -1729,9 +1785,10 @@
 			"**Bottled Ally VI:** At 18 level, a preservationist adds [summon nature's ally IX](spell:summon_nature's_ally_9) to his formula book as a 6th-level extract. This ability replaces his 18th-level discovery.",
 			"",
 			"**Discoveries:** The following discoveries complement the preservationist archetype: bottled ooze, preserve organs, tentacle, vestigial arm, and wings."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"promethean_alchemist": {
 		"name": "Promethean Alchemist",
 		"file": "archetypedisplay9929.html",
 		"sources": [],
@@ -1827,9 +1884,10 @@
 			"4th-Level Advancement",
 			"",
 			"Size Medium; Speed 30 ft., fly 40 ft. (average); Attack bite (1d6 plus poison), 2 claws (1d6); Ability Scores Str +4, Dex -2; Special Attacks poison (bite-injury frequency 1/minute for 60 minutes, effect sleep for 1 minute, cure 1 save, Con-based DC with a +2 racial bonus)."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"psychonaut": {
 		"name": "Psychonaut",
 		"file": "archetypedisplay8320.html",
 		"sources": [ "Ultimate Magic" ],
@@ -1862,9 +1920,10 @@
 			"**Master Precognition:** At 17th level, a psychonaut adds [foresight](spell:foresight) to his formula book as a 6th-level extract. This ability replaces the increase to bomb damage at this level.",
 			"",
 			"**Discoveries:** The following discoveries complement the psychonaut archetype: confusion bomb, eternal potion, extend potion, lingering spirit, and madness bomb."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"ragechemist": {
 		"name": "Ragechemist",
 		"file": "archetypedisplayb5eb.html",
 		"sources": [
@@ -1893,9 +1952,10 @@
 			"**Lumbering Rage:** At 10th level, whenever a ragechemist uses his rage mutagen ability, he may have the mutagen also give him a +2 morale bonus to Constitution, but when he takes a penalty on Will saving throws and to Intelligence, he also takes a -1 penalty to Dexterity. This ability replaces poison immunity.",
 			"",
 			"**Discoveries:** The following discoveries complement the ragechemist: feral mutagen, grand mutagen, greater mutagen, infuse mutagen, tentacle, and vestigial arm."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"reanimator": {
 		"name": "Reanimator",
 		"file": "archetypedisplay9476.html",
 		"sources": [ "Ultimate Magic" ],
@@ -1922,9 +1982,10 @@
 			"**Create Greater Undead:** At 15th level, a reanimator adds [create greater undead](spell:create_greater_undead) to his formula book as a 5th-level extract. This otherwise acts similarly to a [create undead](spell:create_undead) extract. This ability replaces the increase to bomb damage at this level.",
 			"",
 			"**Discoveries:** The following discoveries complement the reanimator archetype: alchemical zombie, elixir of life, eternal potion, mummification, and preserve organs."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"royal_alchemist": {
 		"name": "Royal Alchemist",
 		"file": "archetypedisplay2d14.html",
 		"sources": [ "Heroes of the High Court" ],
@@ -1954,14 +2015,17 @@
 			"At 6th level, the royal alchemist can alter the distribution of the bonuses of any unused alchemical antidotes as a full-round action, either combining them or splitting the bonuses further. The royal alchemist must be holding all unused alchemical antidotes he wishes to alter in this way.",
 			"",
 			"This ability replaces the alchemist's poison use and swift poisoning."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"saboteur": {
 		"name": "Saboteur",
 		"file": "archetypedisplayf9bb.html",
 		"sources": [ "Advanced Race Guide" ],
 		"replaces": "Mutagen",
-		"replace_array": [ "Mutagen" ],
+		"replace_array": [
+			"Mutagen"
+		],
 		"short_description": "(Gnome Only) The saboteur is an alchemist who specializes in destroying the plans, materials, and allies of his enemies.",
 		"description": [
 			"## Saboteur",
@@ -1990,9 +2054,10 @@
 			"**True Chameleon Mutagen:** The saboteur's chameleon mutagen now acts as if he was under the effects of the greater invisibility and spider climb spells, using his alchemist level as the caster level, for the duration of the mutagen. The saboteur must possess the grand chameleon mutagen discovery to select this grand discovery.",
 			"",
 			"**Discoveries:** The following discoveries complement the saboteur archetype: acid bomb, concussive bomb, delayed bomb, explosive bomb, fast bombs, inferno bomb, madness bomb, precise bombs, smoke bomb, stink bomb ; explosive missile, immolation bomb, siege bomb; blinding bomb, cognatogen, confusion bomb, tanglefoot bomb."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"sacrament_alchemist": {
 		"name": "Sacrament Alchemist",
 		"file": "archetypedisplayfdf9.html",
 		"sources": [ "Healer's Handbook" ],
@@ -2024,9 +2089,10 @@
 			"This ability replaces swift alchemy.",
 			"",
 			"**Discoveries:** The following discoveries complement the sacrament alchemist archetype: combine extracts, dilution, infusion, and ranged baptism."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"tinkerer": {
 		"name": "Tinkerer",
 		"file": "archetypedisplay0250.html",
 		"sources": [ "Inner Sea Intrigue" ],
@@ -2095,9 +2161,10 @@
 			"This replaces persistent mutagen.",
 			"",
 			"**Discoveries:** The following discoveries complement the tinkerer archetype combine extract, dilution, elixir of life, enhance potion, eternal potion, extend potion, infusion, and promethean disciple."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"toxicant": {
 		"name": "Toxicant",
 		"file": "archetypedisplay0190.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
@@ -2122,9 +2189,10 @@
 			"This ability replaces mutagen.",
 			"",
 			"**Toxic Digestion (Ex):** At 14th level, a toxicant can drink a poison as a standard action and suspend it within her own body. She is not affected by the poison, and doesn't need to attempt saving throws against it. When the toxicant next uses her toxic secretion on a creature that attacks her with a natural or unarmed attack, she can expose the attacker to the digested poison (with that poison's normal duration, effects, and save DC) rather than her normal toxic secretion, even if the digested poison isn't normally a contact poison. The alchemist can maintain only a single digested poison at a time. If she digests a new poison, any older digested poison is lost. This ability replaces persistent mutagen."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"trap_breaker": {
 		"name": "Trap Breaker",
 		"file": "archetypedisplayf5b9.html",
 		"sources": [ "Dungeoneer's Handbook" ],
@@ -2151,9 +2219,10 @@
 			"**Land Mine (Ex):** At 6th level, a trap breaker can turn his bombs into land mines. Setting a land mine is a fullround action that provokes attacks of opportunity. The land mine fills a single 5-foot square, and can't be placed in the same space as another trap, land mine, or magic trap. The trap breaker can arm the land mine with any bomb he is eligible to use, and the effects of this bomb are immediately transferred to the land mine. Creating a land mine uses up two of the alchemist's bombs per day. The DCs for Perception checks to notice the land mine, Disable Device checks to disable it, and saving throws to avoid its effects are equal to 10 + 1/2 the alchemist's level + his Intelligence modifier. All alchemist land mines are mechanical traps with the qualities Trigger: location and Reset: none. Land mines last for 1 day per alchemist level or until they are triggered, whichever comes first. This ability replaces swift poisoning.",
 			"",
 			"**Mine Engineering (Ex):** At 10th level, a trap breaker's expertise in improving explosives allows him to create land mines with minimal expense. Creating a land mine uses up only one of the alchemist's bombs per day. This ability replaces poison immunity."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"vaultbreaker": {
 		"name": "Vaultbreaker",
 		"file": "archetypedisplay688c.html",
 		"sources": [ "Villain Codex" ],
@@ -2186,14 +2255,17 @@
 			"**Enhanced Safecracking (Ex):** At 3rd level, a vaultbreaker gains incendiary charge as a bonus discovery, and his incendiary charges ignore 10 points of an object's hardness instead of 5.",
 			"",
 			"This ability alters bombs and replaces the poison use class ability."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"vivisectionist": {
 		"name": "Vivisectionist",
 		"file": "archetypedisplay6b50.html",
 		"sources": [ "Ultimate Magic" ],
 		"replaces": "Bombs",
-		"replace_array": [ "Bombs" ],
+		"replace_array": [
+			"Bombs"
+		],
 		"short_description": "A vivisectionist studies bodies to better understand their function.",
 		"description": [
 			"## Vivisectionist",
@@ -2218,9 +2290,10 @@
 			"**Crippling Strike:** At 10th level or later, a vivisectionist may select the [crippling strike rogue talent](unknown:crippling_strike_rogue_talent) in place of a discovery.",
 			"",
 			"**Discoveries:** The following discoveries complement the vivisectionist archetype: alchemical simulacrum, concentrate poison, doppelganger simulacrum, feral mutagen, parasitic twin, preserve organs, tentacle, tumor familiar, vestigial arm, and wings."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"wasteland_blightbreaker": {
 		"name": "Wasteland Blightbreaker",
 		"file": "archetypedisplayb191.html",
 		"sources": [ "Healer's Handbook" ],
@@ -2251,9 +2324,10 @@
 			"This ability replaces poison resistance +6 and the discovery gained at 8th level.",
 			"",
 			"**Discoveries:** The following discoveries complement the wasteland blightbreaker archetype: dispelling bomb, elixir of life, healing bomb, healing touch, infusion, spontaneous healing."
-		]
+		],
+		"display": "archetype/alchemist"
 	},
-	{
+	"winged_marauder": {
 		"name": "Winged Marauder",
 		"file": "archetypedisplaye34a.html",
 		"sources": [ "Monster Codex" ],
@@ -2277,6 +2351,7 @@
 			"**Discovery:** A winged marauder can select the following additional discovery.",
 			"",
 			"**Sipping Pet (Ex):** As a standard action, the marauder can administer a dose of a liquid (such as an extract, infusion, potion, or an alchemical liquid like antitoxin) to his animal companion, even if the companion is unconscious. The alchemist must be adjacent to or riding the companion to use this ability. An alchemist must have the infusion discovery to select this discovery."
-		]
+		],
+		"display": "archetype/alchemist"
 	}
-]
+}

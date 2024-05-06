@@ -1,5 +1,5 @@
-[
-	{
+{
+	"animist": {
 		"name": "Animist",
 		"file": "archetypedisplaycde4.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -49,9 +49,10 @@
 			"**Etherealness (Sp):** At 18th level, the animist can cast etherealness once per day as a spell-like ability. This ability replaces the hex gained at 18th level.",
 			"",
 			"**Spirit Shaman (Sp):** At 20th level, the animist can use ethereal jaunt as at will as a spell-like ability, and cast astral projection once per day as a spell-like ability. This ability replaces manifestation."
-		]
+		],
+		"display": "archetype/shaman"
 	},
-	{
+	"benefactor": {
 		"name": "Benefactor",
 		"file": "archetypedisplay0e3a.html",
 		"sources": [ "Healer's Handbook" ],
@@ -80,9 +81,10 @@
 			"**Expanded Boon (Su):** When a benefactor gains this hex, she chooses one of the following: ability checks, attack rolls, or skill checks. Instead of gaining an insight bonus on saving throws, any creature with a boon reservoir granted by the benefactor can spend 1 point as an immediate action to gain a +2 insight bonus on rolls or checks of the chosen kind until the start of its next turn. This hex can be chosen multiple times. Each time, it applies to a different roll or check. A benefactor must have the boon reservoir hex before choosing this hex.",
 			"",
 			"**Suppress Curse (Sp):** As a standard action, a benefactor can attempt to suppress one curse effect that is affecting a creature or object with a touch. This functions as per remove curse, except the curse's effects are suppressed for 1 hour, even if it is a cursed shield, weapon, or suit of armor. This allows a creature afflicted with any such cursed item to remove or get rid of it. The benefactor uses her shaman level as her caster level for the purpose of this hex."
-		]
+		],
+		"display": "archetype/shaman"
 	},
-	{
+	"crystal_tender": {
 		"name": "Crystal Tender",
 		"file": "archetypedisplay9b2b.html",
 		"sources": [ "Heroes of the Darklands" ],
@@ -117,9 +119,10 @@
 			"**Cabochon Form (Sp):** At 20th level, as a standard action, a crystal tender can transform her body into a living gemstone as per iron body with a duration of 12 hours. Instead of being vulnerable to effects that can harm an iron golem while in this form, she is vulnerable to effects that can harm a crystalline creature (such as shatter). She can use this ability once per day.",
 			"",
 			"This replaces manifestation."
-		]
+		],
+		"display": "archetype/shaman"
 	},
-	{
+	"deep_shaman": {
 		"name": "Deep Shaman",
 		"file": "archetypedisplay5d4b.html",
 		"sources": [ "Aquatic Adventures" ],
@@ -156,9 +159,10 @@
 			"**Brine Dragon Form (Su):** When a deep shaman gains access to the true version of the waves spirit, she can assume the form of a Large (or smaller) brine dragon as per form of the dragon II, with a line of acid breath weapon, acid resistance 20, and a swim speed of 60 feet. She can use this ability for 1 hour per shaman level each day, divided any way she chooses in 1 hour increments, though the spell's breath weapon limit applies across the whole day. Time she spends underwater doesn't count against this limit, but every minute (or fraction thereof ) that she spends flying expends 1 hour of her daily uses. At 18th level, she can assume the form of a Huge or smaller brine dragon as per form of the dragon III instead.",
 			"",
 			"This ability replaces the elemental form of the true spirit ability."
-		]
+		],
+		"display": "archetype/shaman"
 	},
-	{
+	"draconic_shaman": {
 		"name": "Draconic Shaman",
 		"file": "archetypedisplay5ab9.html",
 		"sources": [ "Legacy of Dragons" ],
@@ -180,9 +184,10 @@
 			"**Drake Companion:** A draconic shaman gains a drake companion instead of a spirit animal, and she communes with the drake to prepare her spells just as other shamans commune with their spirit animals. She doesn't gain a primary spirit, but she still gains wandering spirit at 4th level. She must select all her hexes (other than her wandering hexes) from the list of shaman hexes, and she can't select the witch hex shaman hex. She doesn't gain spirit magic slots until 4th level when she gains her wandering spirit. Any ability granted by a wandering spirit that would normally affect a spirit animal (such as nature's true spirit ability) has no effect for a draconic shaman.",
 			"",
 			"This ability replaces spirit, spirit animal, and the hexes gained at 4th and 10th levels and alters spirit magic."
-		]
+		],
+		"display": "archetype/shaman"
 	},
-	{
+	"grasping_vine": {
 		"name": "Grasping Vine",
 		"file": "archetypedisplayef4a.html",
 		"sources": [ "Legacy of the First World" ],
@@ -217,9 +222,10 @@
 			"**Flower's Form (Sp):** At 8th level, as a standard action, a grasping vine can assume the form of a Small or Medium plant creature, as per plant shape I. At 12th level, this ability functions as plant shape II. At 16th level, this ability functions as plant shape III. The grasping vine can use this ability for 1 minute per shaman level per day. This duration does not need to be used consecutively, but it must be spent in 1-minute increments.",
 			"",
 			"This ability replaces the shaman's hex gained at 8th level."
-		]
+		],
+		"display": "archetype/shaman"
 	},
-	{
+	"name-keeper": {
 		"name": "Name-Keeper",
 		"file": "archetypedisplay4b9b.html",
 		"sources": [ "Adventurer's Guide" ],
@@ -265,9 +271,10 @@
 			"**Versatile Hex (Su):** At 6th level, a namekeeper can temporarily gain a shaman hex or one of the hexes that her spirit has when she prepares her spells, lasting until the next time she prepares spells. At 14th level, she can select two such hexes each day.",
 			"",
 			"This ability replaces wandering hex."
-		]
+		],
+		"display": "archetype/shaman"
 	},
-	{
+	"overseer": {
 		"name": "Overseer",
 		"file": "archetypedisplayc551.html",
 		"sources": [ "Magic Tactics Toolbox" ],
@@ -290,9 +297,10 @@
 			"**Spirit Surge (Ex):** At 3rd level, an overseer gains the ability to cast any of her mind-affecting spells that target a single creature through her spirit animal. When she's using this ability, the selected spell's range becomes touch, and she must deliver the spell through the spirit animal via the spirit animal's deliver touch spells supernatural ability. The shaman's effective caster level for these spells is 2 higher than her normal caster level. The overseer can deliver any other spells via the deliver touch spells spirit animal ability.",
 			"",
 			"This alters the deliver touch spells spirit animal ability."
-		]
+		],
+		"display": "archetype/shaman"
 	},
-	{
+	"possessed_shaman": {
 		"name": "Possessed Shaman",
 		"file": "archetypedisplaybf21.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -314,9 +322,10 @@
 			"**Crowded Vessel (Su):** At 2nd level, whenever a possessed shaman fails a saving throw against a charm or compulsion spell or effect, she can attempt a new saving throw (using the original DC) at the end of her next turn as the spirits inside her attempt to regain control. If the saving throw is successful, the charm or compulsion effect ends. If the saving throw fails, she is affected as normal for the remainder of the duration. This ability replaces the hex gained at 2nd level.",
 			"",
 			"**Wandering Skills (Su):** At 6th level, a possessed shaman is able to make room for another spirit. When choosing her wandering spirit for the day, the possessed shaman chooses one skill. The possessed shaman treats this skill as if she had a number of ranks in it equal to her shaman level, and uses her Wisdom modifier in place of the ability modifier the skill would normally use. If the skill is a class skill, she receives the usual +3 bonus on skill checks for having ranks in that skill. Each time the possessed shaman changes her wandering spirit, she can also change the skill gained through this ability. These ranks do not stack with her other skill ranks (only the higher number of ranks applies). This ability replaces the wandering hex gained at 6th level."
-		]
+		],
+		"display": "archetype/shaman"
 	},
-	{
+	"primal_warden": {
 		"name": "Primal Warden",
 		"file": "archetypedisplayc48d.html",
 		"sources": [ "People of the Wastes" ],
@@ -354,14 +363,17 @@
 			"**Primal Blessing (Su):** At 4th level, the shaman gains the ability to channel primal magic into a target within 30 feet. Roll 1d4 to determine the effect. On a result of 1, the target takes a -2 penalty on attack rolls, saving throws, and skill checks. On a result of 2, the target's size is enlarged or reduced, as per enlarge person or reduce person, and the effect functions even if the target is not a humanoid; roll randomly to determine the effect. On a result of 3, the target gains a foot enhancement bonus to her base speed. On a result of 4, all attacks against the target suffer a 20% miss chance. The effects of this hex last for 1 minute. A creature affected by this hex cannot be affected by it again for 24 hours.",
 			"",
 			"**Greater Primal Blessing (Su):** At 12th level, the shaman's primal blessing hex improves. This functions as the primal blessing hex in all ways, except that the shaman has a chance to bestow greater benefits upon her targets. Roll 1d6 to determine the effect. On a result of 1-4, refer to the primal blessing ability to determine the effect. On a roll of 5, the target gains a luck bonus on attack rolls and saving throws and to her Armor Class. On a roll of 6, the target gains the benefit of the haste spell, using the primal warden's shaman level as her caster level."
-		]
+		],
+		"display": "archetype/shaman"
 	},
-	{
+	"serendipity_shaman": {
 		"name": "Serendipity Shaman",
 		"file": "archetypedisplay2df5.html",
 		"sources": [ "Blood of the Beast" ],
 		"replaces": "Spirit Magic spells",
-		"replace_array": [ "Spirit Magic" ],
+		"replace_array": [
+			"Spirit Magic"
+		],
 		"short_description": "The serendipitous, shamanistic rites associated with the traditional catfolk worship of the so-called \"spirits of creation\" focus upon attracting good fortune and banishing ill fortune in the name of these spirits.",
 		"description": [
 			"## Serendipity Shaman",
@@ -386,9 +398,10 @@
 			"**Spirit Magic:** A serendipity shaman adds both her spirit's spirit magic spells and the domain spells from the Luck cleric domain to the list of spells she can cast with the spirit magic ability. This hex cannot be taken as a wandering hex.",
 			"",
 			"**Tweak the Odds (Su):** Whenever the serendipity shaman or one of her allies within 30 feet rolls an ability check, attack roll, saving throw, or skill check, the shaman can use this ability as an immediate action to tweak the odds in her favor, increasing the result of the die roll or check by 1. This can turn a normal hit into a critical threat, but it cannot make an attack roll an automatic hit (this bonus does not stack with effects that increase a weapon's critical threat range, such as Improved Critical or keen edge). The shaman can use this ability a number of times per day equal to her shaman level. At 4th level and every 4 shaman levels thereafter, she can spend an additional use of this ability to further increase the die result of the target's roll by an additional 1. For example, a 12th-level shaman can spend up to three uses of this ability to increase an ally's roll by 1 per use expended."
-		]
+		],
+		"display": "archetype/shaman"
 	},
-	{
+	"speaker_for_the_past": {
 		"name": "Speaker for the Past",
 		"file": "archetypedisplay060a.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -410,9 +423,10 @@
 			"This ability replaces the shaman's familiar. The speaker for the past must choose a time when she must spend 1 hour each day in quiet contemplation to regain her daily allotment of spells, but does not need to commune with a familiar during this time. Because she has no familiar, she does not gain a spirit familiar feature from any spirit she bonds with.",
 			"",
 			"**Revelations of the Past:** At 4th, 6th, 12th, 14th, and 20th levels, the speaker for the past can select a revelation from the ancestor or time mysteries. She uses her shaman level as her oracle level for these revelations, and uses her Wisdom modifier in place of her Charisma modifier for the purposes of the revelation. This ability replaces wandering spirit and wandering hex."
-		]
+		],
+		"display": "archetype/shaman"
 	},
-	{
+	"spirit_warden": {
 		"name": "Spirit Warden",
 		"file": "archetypedisplayedb5.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -437,9 +451,10 @@
 			"**Rebuke Spirits (Su):** At 2nd level, the spirit warden gains the ability to channel positive energy as a cleric of her level. Regardless of her alignment, she can only use this ability to harm undead creatures. The spirit warden can use this ability a number of times per day equal to 3 + her Charisma modifier. This ability replaces the hex gained at 2nd level.",
 			"",
 			"**Laugh at Death (Su):** At 10th level, the spirit warden's familiarity with the dead has filled her with contempt for death itself. She gains a +4 insight bonus on saving throws against death effects and to avoid or remove negative levels. This ability replaces the hex gained at 10th level."
-		]
+		],
+		"display": "archetype/shaman"
 	},
-	{
+	"true_silvered_throne": {
 		"name": "True Silvered Throne",
 		"file": "archetypedisplayb7b8.html",
 		"sources": [ "Occult Origins" ],
@@ -469,9 +484,10 @@
 			"**Wandering Ritual (Su):** At 6th level, a true silvered throne can attempt to coax a nearby spirit into service with a 1-minute-long ritual once per day, gaining that spirit's spirit ability and adding its list of spells to those he can cast using his spirit magic. The silvered throne can maintain this bond for 1 hour, or until he dismisses the spirit as a free action. At 12th level, he also gains this spirit's greater spirit power while bonded, and at 20th level gains its true spirit power as well. He can perform a wandering ritual one additional time per day at 8th level and 14th level. This ability replaces wandering spirit and wandering hex.",
 			"",
 			"**Esoteric Rites (Ex):** At 8th level, a true silvered throne gains a +1 insight bonus on skill checks attempted as part of an occult ritual. This bonus increases by 1 for every 4 shaman levels beyond 8th (to a maximum of +5 at 20th level). If the true silvered throne is the ritual's primary caster, he also adds this bonus to the caster level of the ritual's effect. This ability replaces the 8th-level hex."
-		]
+		],
+		"display": "archetype/shaman"
 	},
-	{
+	"unsworn_shaman": {
 		"name": "Unsworn Shaman",
 		"file": "archetypedisplay3040.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -502,9 +518,10 @@
 			"Additionally, at 6th level, she also gains a second wandering spirit, gaining the abilities listed in the greater version of that spirit at 14th level, and the abilities listed in the true version at 20th level. This ability alters wandering spirit and replaces wandering hex.",
 			"",
 			"**Spirit Magic (Sp):** The unsworn shaman gains this ability at 2nd level rather than at 1st. This ability alters spirit magic."
-		]
+		],
+		"display": "archetype/shaman"
 	},
-	{
+	"visionary": {
 		"name": "Visionary",
 		"file": "archetypedisplaye5ae.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -536,9 +553,10 @@
 			"The visionary must still prepare these spells to receive these benefits. This ability replaces the wandering hex gained at 6th level.",
 			"",
 			"**Wandering Spirit (Su):** At 12th level, the visionary forms a temporary bond with another spirit (other than the one she selected using her spirit class feature). This is identical to the 4th-level shaman class feature. This adds the wandering spirit magic spells to the list of spells she can cast using spirit magic, along with vision spirit magic and her original spirit. At 20th level, she gains the abilities listed in the greater version of her wandering spirit. This ability replaces the greater version of wandering spirit gained at 12th level and true version of wandering spirit gained at 20th level."
-		]
+		],
+		"display": "archetype/shaman"
 	},
-	{
+	"witch_doctor": {
 		"name": "Witch Doctor",
 		"file": "archetypedisplay52d1.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -564,6 +582,7 @@
 			"**Counter Curse (Su):** At 8th level, the witch doctor can choose to lose any prepared spirit magic spell that is 3rd level or higher in order to spontaneously cast dispel magic or remove curse. This ability can only target a spell effect that is on an ally (including herself ). If she forfeits a spirit magic spell higher than 3rd level, she gains a +2 sacred bonus on her caster level check to dispel the spell or to remove the curse for every spell level higher than 3rd that she sacrifices. This ability replaces the hex gained at 8th level.",
 			"",
 			"**Countering Hex (Su):** At 10th level, the witch doctor can use her hex magic to counterspell as a readied action as dispel magic instead. She must succeed at a dispel check (1d20 + her shaman level) with a DC equal to 11 + the spell's caster level. If countering hex succeeds, the spell fizzles away and is lost. Failure means the spell is not countered. In either case, the witch doctor cannot attempt to use this hex against any of that caster's spells again for 24 hours. The witch doctor cannot use countering hex on an ongoing effect, a magic item, or a hex. This ability replaces the hex gained at 10th level."
-		]
+		],
+		"display": "archetype/shaman"
 	}
-]
+}

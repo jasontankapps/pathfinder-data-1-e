@@ -1,5 +1,5 @@
-[
-	{
+{
+	"aquatic_beastmaster": {
 		"name": "Aquatic Beastmaster",
 		"file": "archetypedisplay683d.html",
 		"sources": [ "Blood of the Sea" ],
@@ -43,9 +43,10 @@
 			"**Oceanic Defense (Ex):** At 4th level, an aquatic beastmaster gains a +4 bonus on saving throws against spells with the water descriptor and the extraordinary or supernatural abilities of creatures with the aquatic or water subtype whenever her animal companion is within 60 feet.",
 			"",
 			"This ability replaces improved empathic link."
-		]
+		],
+		"display": "archetype/hunter"
 	},
-	{
+	"chameleon_adept": {
 		"name": "Chameleon Adept",
 		"file": "archetypedisplayd3b2.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -94,9 +95,10 @@
 			"**One with the Wild (Ex):** At 17th level, when the companion is using wild shape to appear as a different type of animal, it counts as being in that animal focus for the purpose of one with the wild.",
 			"",
 			"This alters one with the wild."
-		]
+		],
+		"display": "archetype/hunter"
 	},
-	{
+	"colluding_scoundrel": {
 		"name": "Colluding Scoundrel",
 		"file": "archetypedisplay6a48.html",
 		"sources": [ "Antihero's Handbook" ],
@@ -128,9 +130,10 @@
 			"**Master Backstabber (Ex):** At 20th level, a colluding scoundrel is a master at dispatching distracted targets. As a standard action, she can make a single attack against a foe that is taking the penalties of her scapegoat ability and is adjacent to an ally currently designated as the scapegoat. If the attack hits, the target takes damage normally and must succeed at a Fortitude saving throw (DC = 10 + half the colluding scoundrel's level + her Wisdom modifier) or be slain. Whether or not the target succeeds, it cannot be targeted by this ability again (by any colluding scoundrel) for 24 hours.",
 			"",
 			"This replaces master hunter."
-		]
+		],
+		"display": "archetype/hunter"
 	},
-	{
+	"courtly_hunter": {
 		"name": "Courtly Hunter",
 		"file": "archetypedisplayfa61.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -190,9 +193,10 @@
 			"**Alternate Form (Su):** At 7th level, the courtly hunter's animal companion learns an additional subtle form. When the courtly hunter gains this ability, she chooses a Tiny animal. When under the effects of the subtle companion ability, the courtly hunter's animal companion can change between a shrunken, more innocuous version of its original shape or the shape of the chosen animal as a standard action. When it transforms, it loses abilities dependent on its original shape and gains abilities from its new shape as beast shape II. At 13th and 19th levels, the courtly hunter can select an additional form to add to the animal companion's list of choices while it is in its polymorphed form.",
 			"",
 			"This ability replaces bonus tricks."
-		]
+		],
+		"display": "archetype/hunter"
 	},
-	{
+	"divine_hunter": {
 		"name": "Divine Hunter",
 		"file": "archetypedisplay37ae.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -223,9 +227,10 @@
 			"This ability replaces teamwork feats.",
 			"",
 			"**Otherworldly Companion (Su):** At 3rd level, a hunter's companion takes on otherworldly features. If the divine hunter is good (or worships a good deity), the animal companion gains the celestial template. If the hunter is evil (or worships an evil deity), the animal companion gains the fiendish template. If the hunter is neutral and worships a neutral deity, she must choose either the celestial or fiendish template; once this choice is made, it cannot be changed. The companion's CR is considered to be equal to its Hit Dice for the purpose of the celestial or fiendish template. This ability replaces hunter tactics."
-		]
+		],
+		"display": "archetype/hunter"
 	},
-	{
+	"feral_hunter": {
 		"name": "Feral Hunter",
 		"file": "archetypedisplay5665.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -267,9 +272,10 @@
 			"**Wild Shape (Su):** At 4th level, a feral hunter gains the ability to change shape. This ability functions like the druid wild shape ability, except the hunter can take only animal forms (not elemental or plant forms). The hunter's effective druid level is equal to her class level. This ability replaces the bonus tricks, improved empathic link, greater empathic link, master of the wild, and raise animal companion class abilities.",
 			"",
 			"**Summon Pack (Sp):** Starting at 6th level, whenever a feral hunter casts a summon nature's ally spell to summon one or more animals, she summons one additional animal of the same type. The summoned creature or creatures must be animals and must be of the same type as the hunter's current aspect or of a similar type (bears for bear aspect, dogs or wolves for wolf aspect, great cats for the tiger aspect, and so on). The additional creature immediately vanishes if the hunter chooses a different aspect or ends his feral focus ability. She can increase the duration of any one summon nature's ally spell affected by this ability to 1 minute per level. She can have only one spell with a duration increased by this ability active at a time. This ability replaces the teamwork feats gained at 6th, 9th, 12th, 15th, and 18th levels."
-		]
+		],
+		"display": "archetype/hunter"
 	},
-	{
+	"feykiller": {
 		"name": "Feykiller",
 		"file": "archetypedisplay3767.html",
 		"sources": [ "Legacy of the First World" ],
@@ -313,9 +319,10 @@
 			"**Grounded (Su):** At 17th level, a feykiller gains a +4 insight bonus on saving throws against illusion and enchantment effects, and she is immune to illusion and enchantment effects created by fey. This ability functions only when her animal companion is within 60 feet.",
 			"",
 			"This ability replaces one with the wild."
-		]
+		],
+		"display": "archetype/hunter"
 	},
-	{
+	"flood_flourisher": {
 		"name": "Flood Flourisher",
 		"file": "archetypedisplaye953.html",
 		"sources": [ "People of the Wastes" ],
@@ -368,9 +375,10 @@
 			"**Fast Swimmer (Ex):** At 18th level, a flood flourisher increases her swim speed by 20 feet.",
 			"",
 			"This replaces the teamwork feat gained at 18th level."
-		]
+		],
+		"display": "archetype/hunter"
 	},
-	{
+	"forester": {
 		"name": "Forester",
 		"file": "archetypedisplayd2bc.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -428,9 +436,10 @@
 			"**Hide in Plain Sight (Ex):** At 14th level, while in any of her favored terrains, a forester can use the Stealth skill even while being observed.",
 			"",
 			"This replaces greater empathic link."
-		]
+		],
+		"display": "archetype/hunter"
 	},
-	{
+	"packmaster": {
 		"name": "Packmaster",
 		"file": "archetypedisplayd1aa.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -462,9 +471,10 @@
 			"**Second Pack Focus (Su):** At 8th level, the hunter gains an ability that functions like the second animal focus, but the hunter can either assign each companion one aspect each or assign both aspects to the same companion. The foci on the companions don't need to be the same, nor do they need to be the same as the one assigned to the packmaster. This ability replaces second animal focus.",
 			"",
 			"**Master of the Pack (Ex):** At 20th level, a packmaster and her animal companions can always move at full speed while using Survival to follow tracks without penalty. Each day when a packmaster gains new spells for the day, she chooses one animal focus to be active on herself or one of her animal companions for the entire day (if all of her animal companions are dead, she instead chooses two animal foci to be active on herself for the entire day). This focus is in addition to her pack focus class ability. This ability replaces master hunter."
-		]
+		],
+		"display": "archetype/hunter"
 	},
-	{
+	"patient_ambusher": {
 		"name": "Patient Ambusher",
 		"file": "archetypedisplay92b1.html",
 		"sources": [
@@ -506,9 +516,10 @@
 			"**Launch Trap (Su):** At 10th level, a patient ambusher can affix a magical ranger trap to an arrow, a crossbow bolt, or a thrown weapon, allowing her to set the trap remotely or use it as a direct attack. Attaching the trap to the projectile is part of the full-round action to create a new trap. The trapped projectile is fired or thrown in the normal manner. If fired at a square, the trap is treated as if the hunter had set the trap in that square, except the DC is 5 lower than normal. If the trap is fired at a creature, the target takes damage from the ranged weapon and is treated as if it had triggered the trap (attempting a saving throw, if any). The attack has a maximum range of 60 feet, and penalties from range increments apply on the attack roll. The duration of the trap starts when it is created, not when it is triggered.",
 			"",
 			"This replaces raise animal companion."
-		]
+		],
+		"display": "archetype/hunter"
 	},
-	{
+	"pelagic_hunter": {
 		"name": "Pelagic Hunter",
 		"file": "archetypedisplay5881.html",
 		"sources": [ "Aquatic Adventures" ],
@@ -560,9 +571,10 @@
 			"**Blood to Water (Su):** At 5th level, when a pelagic hunter or her animal companion bleeds underwater into the surrounding water (whether from piercing or slashing damage, a bleed effect, or another effect that causes blood to spill), the blood transmutes into ordinary water within 1 round. This prevents sharks and other predators with keen scent from being drawn to the pelagic hunter's position by the blood and makes it harder for such creatures to track her.",
 			"",
 			"This ability replaces woodland stride."
-		]
+		],
+		"display": "archetype/hunter"
 	},
-	{
+	"plant_master": {
 		"name": "Plant Master",
 		"file": "archetypedisplay8c82.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -622,9 +634,10 @@
 			"**Master Hunter (Ex):** At 20th level, when a plant master prepares spells for the day, he chooses one plant focus to be active for the entire day.",
 			"",
 			"This alters master hunter."
-		]
+		],
+		"display": "archetype/hunter"
 	},
-	{
+	"primal_companion_hunter": {
 		"name": "Primal Companion Hunter",
 		"file": "archetypedisplayd51c.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -654,9 +667,10 @@
 			"This ability can grant an evolution that allows additional evolution points to be spent to upgrade that evolution (such as damage reduction or flight), and any points left over can be spent on such upgrades. This ability cannot be used to grant an upgrade to an evolution that the companion already possesses. This ability replaces second animal focus.",
 			"",
 			"**Primal Master (Su):** At 20th level, a primal companion hunter becomes in tune with his primal nature. He can activate his companion's primal aspect as a free action. When using primal surge, he can grant his companion two evolutions instead of one (each costing up to 4 evolution points). This ability replaces master hunter."
-		]
+		],
+		"display": "archetype/hunter"
 	},
-	{
+	"roof_runner": {
 		"name": "Roof Runner",
 		"file": "archetypedisplaybd42.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -695,9 +709,10 @@
 			"**Master Climber (Ex):** At 20th level, a roof runner gains a climb speed equal to her base land speed, instead of being able to move at full speed while tracking.",
 			"",
 			"This ability alters master hunter."
-		]
+		],
+		"display": "archetype/hunter"
 	},
-	{
+	"scarab_stalker": {
 		"name": "Scarab Stalker",
 		"file": "archetypedisplayb9c8.html",
 		"sources": [
@@ -751,9 +766,10 @@
 			"**Desert Walker (Ex):** At 5th level, a scarab stalker and her animal companion can move through desert terrain at normal speed without taking damage or suffering any other impairments unless that terrain has been enchanted or magically manipulated.",
 			"",
 			"This replaces woodland stride."
-		]
+		],
+		"display": "archetype/hunter"
 	},
-	{
+	"totem-bonded": {
 		"name": "Totem-Bonded",
 		"file": "archetypedisplayad80.html",
 		"sources": [ "Adventurer's Guide" ],
@@ -784,9 +800,10 @@
 			"A totem-bonded's animal companion also benefits from the shared strength ability, and while it is active, the animal understands the totem-bonded's known languages and can be pushed to perform an unfamiliar trick as a free action. At 8th level, the animal companion gains a +1 bonus on saving throws and a +2 bonus on checks with each skill in which it has at least 1 rank. At 15th level, the animal companion's bonuses on saving throws and skill checks increase to +2 and +4 respectively.",
 			"",
 			"This ability replaces the hunter's animal focus class feature."
-		]
+		],
+		"display": "archetype/hunter"
 	},
-	{
+	"treestrider": {
 		"name": "Treestrider",
 		"file": "archetypedisplaya923.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -820,9 +837,10 @@
 			"**Tree Stride (Sp):** At 10th level, a treestrider can use a full-round action to move between two trees, as per the spell tree stride. Unlike the spell, this ability has a duration of instantaneous and the treestrider can make only a single transfer. She can bring her animal companion with her, but if she does, her companion can't take any actions that round. Tree stride can be used a number of times per day equal to 3 + the hunter's Wisdom modifier.",
 			"",
 			"This replaces raise animal companion."
-		]
+		],
+		"display": "archetype/hunter"
 	},
-	{
+	"uprooter_scout": {
 		"name": "Uprooter Scout",
 		"file": "archetypedisplay075a.html",
 		"sources": [ "Advanced Class Origins" ],
@@ -846,9 +864,10 @@
 			"**Unnatural Stride (Ex):** At 10th level, the Uprooter scout and her animal companion learn how to move through undergrowth (as woodland stride) that has been enchanted, corrupted, or magically manipulated. This ability replaces raise animal companion.",
 			"",
 			"**Demon's End (Ex):** At 17th level, even demons must respect the number of their kindred an Uprooter scout has slain, and lesser demons quake before her. The Uprooter scout and her companion can attempt to demoralize a demon as a swift action, rolling 1d20 and adding the scout's level and her Charisma modifier to determine the Intimidate check result. This ability replaces one with the wild."
-		]
+		],
+		"display": "archetype/hunter"
 	},
-	{
+	"urban_hunter": {
 		"name": "Urban Hunter",
 		"file": "archetypedisplay74d2.html",
 		"sources": [ "Heroes of the Streets" ],
@@ -879,9 +898,10 @@
 			"**Animal Insight (Ex):** At 5th level, an urban hunter and her animal companion learn to combine their insights to defeat deception and manipulation. As long as they are within 30 feet of each other, both hunter and animal companion gain an insight bonus on Sense Motive checks equal to half the urban hunter's hunter level. They also gain a +2 insight bonus on Will saving throws against illusions and mindaffecting effects. This ability replaces woodland stride.",
 			"",
 			"**Frightful Ferocity (Ex):** At 17th level, an urban hunter and her animal companion can each attempt an Intimidate check to demoralize a foe as a swift action. This ability replaces one with the wild."
-		]
+		],
+		"display": "archetype/hunter"
 	},
-	{
+	"verminous_hunter": {
 		"name": "Verminous Hunter",
 		"file": "archetypedisplayb01b.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -938,6 +958,7 @@
 			"This ability replaces animal focus.",
 			"",
 			"**Swarm Stride (Ex):** At 5th level, a verminous hunter learns to move through vermin without danger. He can safely pass through swarms of vermin and does not take swarm damage while within a vermin swarm's space. In addition, he is immune to a swarm's distraction ability. If the hunter or his animal companion attacks a swarm, they lose this protection against only that swarm. This ability replaces woodland stride."
-		]
+		],
+		"display": "archetype/hunter"
 	}
-]
+}

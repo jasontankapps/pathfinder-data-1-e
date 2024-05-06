@@ -1,5 +1,5 @@
-[
-	{
+{
+	"black_asp": {
 		"name": "Black Asp",
 		"file": "archetypedisplayd2ba.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -30,9 +30,10 @@
 			"**Hidden Magic (Sp):** As an immediate action, the black asp can spend 1 ki point to hide the auras of all magic items he is carrying (as if they were all under magic aura) for 1 hour per monk level.",
 			"",
 			"**Shifting Form (Su):** As an immediate action, a black asp can spend 1 ki point to make his outline shift and waver for 1 round. This ability otherwise functions as per the spell blur."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"brazen_disciple": {
 		"name": "Brazen Disciple",
 		"file": "archetypedisplayab73.html",
 		"sources": [ "Adventurer's Guide" ],
@@ -77,9 +78,10 @@
 			"**Genie Apotheosis:** At 20th level, a brazen disciple is treated as a native outsider with the fire subtype rather than as a humanoid (or whatever the monk's creature type was) for the purpose of spells and magical effects. He has immunity to fire and vulnerability to cold. Once per day, the brazen disciple can grant a limited wish (as per the spell limited wish) to a non-outsider as a spell-like ability (CL 20th).",
 			"",
 			"This ability replaces perfect self."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"disciple_of_wholeness": {
 		"name": "Disciple of Wholeness",
 		"file": "archetypedisplay392e.html",
 		"sources": [ "Healer's Handbook" ],
@@ -112,9 +114,10 @@
 			"**Hone Soul (Su):** At 13th level, a disciple of wholeness can dispel a spell affecting a living creature by touching it as a standard action and spending 1 point from her ki pool. This power functions like the targeted dispel option of greater dispel magic, with the caster level equal to the disciple of wholeness's monk level.",
 			"",
 			"This ability replaces the diamond soul ability."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"drunken_master": {
 		"name": "Drunken Master",
 		"file": "archetypedisplay607c.html",
 		"sources": [ "Advanced Player's Guide" ],
@@ -142,9 +145,10 @@
 			"**Drunken Resilience (Ex):** At 13th level, a drunken master gains DR 1/- as long as he has at least 1 point of drunken ki. At 16th level, the DR increases to 2/-. At 19th level, it increases to 3/-. This ability replaces diamond soul.",
 			"",
 			"**Firewater Breath (Su):** At 19th level, a drunken master can take a drink and expel a gout of alcohol-fueled fire in a 30-foot cone. Creatures within the cone take 20d6 points of fire damage. A successful Reflex saving throw (DC 10 + 1/2 the monk's level + the monk's Wis modifier) halves the damage. Using this ability is a standard action that consumes 4 ki points from the monk's ki pool. The monk must have at least 1 drunken ki point to use this ability. This ability replaces empty body."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"elemental_monk": {
 		"name": "Elemental Monk",
 		"file": "archetypedisplaya5e8.html",
 		"sources": [ "Disciple's Doctrine" ],
@@ -188,9 +192,10 @@
 			"This alters the monk's ki pool.",
 			"",
 			"**Planar Guide (Sp):** At 14th level as a standard action, an elemental monk can spend 1 ki point to transport herself and up to seven additional willing creatures, as per the plane shift spell, to one of the four Elemental Planes. Each additional creature increases the cost by 1 ki point."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"far_strike_monk": {
 		"name": "Far Strike Monk",
 		"file": "archetypedisplay546d.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
@@ -228,9 +233,10 @@
 			"**Ki Missile (Su):** At 5th level, a far strike monk can spend 1 point from his ki pool as a swift action to change the base damage dice of thrown weapons to that of his unarmed strikes. These weapons are also treated as ki focus weapons, allowing the monk to apply his special ki attacks to his thrown weapons as if they were unarmed strikes. This effect lasts until the beginning of his next turn. This ability replaces purity of body.",
 			"",
 			"**Trick Throw (Su):** At 11th level, a far strike monk can infuse his thrown weapons with ki to hit targets that he might otherwise miss. By spending 1 point from his ki pool as a swift action, the far strike monk can ignore concealment. By spending 2 points, he can ignore total concealment or cover. By spending 3 points, he can ignore total cover, even throwing weapons around corners. The weapon must still be able to reach the target; for instance, a target inside a closed building with no open doors or windows cannot be attacked using Trick Throw. These effects last for 1 round. This ability replaces diamond body."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"flowing_monk": {
 		"name": "Flowing Monk",
 		"file": "archetypedisplay90aa.html",
 		"sources": [ "Ultimate Combat" ],
@@ -263,9 +269,10 @@
 			"**Elusive Target (Ex):** At 5th level, as an immediate action, a flowing monk may spend 2 points from his ki pool to attempt a Reflex save opposed by an attacker's attack roll to halve damage from that attack. At 11th level and above, the flowing monk suffers no damage on a successful save, or half damage on a failed save. If the attacker is flanking the monk, the flanking opponent who is not attacking becomes the target of the attack. Use the same attack roll, and if the attack hits the new target, that creatures takes half damage (or full damage if the attack is completely avoided). Any associated effects from the attack (such as bleed, poison, or spell effects) apply fully even if the attack deals only half damage. This ability replaces purity of body and diamond body.",
 			"",
 			"**Volley Spell (Su):** At 15th level, when a targeted spell or spell-like ability fails to overcome a flowing monk's spell resistance, he may reflect the effect onto its caster as spell turning by spending a number of points from his ki pool equal to 1/2 the spell's level (minimum 1). This ability replaces quivering palm."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"gray_disciple": {
 		"name": "Gray Disciple",
 		"file": "archetypedisplayf6b2.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -299,9 +306,10 @@
 			"**Entomb (Su):** At 15th level, a gray disciple can phase a foe into solid rock, killing it instantly. To use this ability, he expends 1 ki point as part of a bull rush or reposition combat maneuver against a creature adjacent to unworked earth or stone. If the attempt succeeds, the gray disciple pushes his foe inside the rock using his earth glide ability. If the creature succeeds at a Reflex save (DC 10 + 1/2 the gray disciple's monk level + the gray disciple's Wisdom modifier), it is ejected in the nearest open space and takes 5d6 points of damage. If it fails, it dies instantly as its body merges with the surrounding stone. Entomb is usable once per day, but a failed bull rush or reposition attempt does not count as a use of the ability. Entomb has no effect on creatures that can earth glide, are incorporeal, or can otherwise can survive merging with a solid object. This ability replaces quivering palm.",
 			"",
 			"**Earthen Thrall (Sp):** At 17th level, a gray disciple can attempt to control a creature with the earth subtype once per day. This ability is treated as dominate monster (DC 10 + 1/2 the gray disciple's monk level + the gray disciple's Wisdom modifier), but is only effective against creatures with the earth subtype, and the gray disciple can keep only a single creature enthralled. If he attempts to control a second creature with this ability, the first creature is automatically released from domination whether or not the second attempt succeeds. This ability replaces tongue of the sun and moon and empty body."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"hamatulatsu_master": {
 		"name": "Hamatulatsu Master",
 		"file": "archetypedisplay95e9.html",
 		"sources": [ "Inner Sea Combat" ],
@@ -328,9 +336,10 @@
 			"**Ki Pool (Su):** By spending 1 point from her ki pool as a swift action, a hamatulatsu master can make one additional attack at her highest attack bonus when making a flurry of blows attack. Alternatively, she can spend 1 ki point as a swift action to gain one additional use of her stunning fist ability that round, though this does not grant her an additional attack. Finally, as an immediate action, a hamatulatsu master can spend 1 ki point to make a single melee attack with a +2 bonus against a creature that has damaged her with a natural melee attack, unarmed strike, or weapon without the reach property. This ability otherwise functions as normal for a monk of her level.",
 			"",
 			"**Infernal Resilience (Ex):** At 5th level, a hamatulatsu master gains immunity to all spells, spell-like abilities, and effects with the pain descriptor, as well as a +2 bonus on saving throws against effects that would sicken, nauseate, stagger, or stun her. This ability replaces purity of body."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"harrow_warden": {
 		"name": "Harrow Warden",
 		"file": "archetypedisplay3f8e.html",
 		"sources": [ "The Harrow Handbook" ],
@@ -360,9 +369,10 @@
 			"**Big Sky Stance (Su):** At 11th level, the harrow warden becomes secure in her role within the larger story. She gains immunity to curses and polymorph effects. This ability replaces diamond body.",
 			"",
 			"**Eclipse Strike (Su):** Beginning at 15th level, the harrow warden can strike a target with enough force to realign its place in the world. Foes damaged by the harrow warden's idiot strike can attempt a Fortitude save (DC 10 + 1/2 the monk's level + the monk's Wisdom modifier). Those that fail are transmuted into a harmless form, as per the baleful polymorph spell. This ability replaces quivering palm."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"hellcat": {
 		"name": "Hellcat",
 		"file": "archetypedisplay4610.html",
 		"sources": [ "Villain Codex" ],
@@ -425,9 +435,10 @@
 			"At 11th level, a hellcat can spend 1 point of ki as a swift action to become silhouetted with a ghostly flame, which makes him harder to see in light but easier to see in darkness for 1 round per level. He becomes invisible in bright light, gains concealment (20% miss chance) in normal light, gains no benefit in dim light, and gives off light like a candle in darkness, allowing other creatures to see him even without darkvision. If he takes any action that would break invisibility while in bright light, his invisibility is reduced to concealment until the end of his next turn.",
 			"",
 			"This ability alters ki pool and replaces wholeness of body and diamond body."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"hungry_ghost_monk": {
 		"name": "Hungry Ghost Monk",
 		"file": "archetypedisplay0e1b.html",
 		"sources": [ "Advanced Player's Guide" ],
@@ -455,9 +466,10 @@
 			"**Life from a Stone (Su):** At 11th level, a hungry ghost monk can steal ki or life force from any creature, not just living creatures. If the monk has at least 1 ki point in his pool, he gains the benefit of life funnel and steal ki when he confirms a critical hit against any creature or reduces any creature to 0 or fewer hit points. This ability replaces diamond body.",
 			"",
 			"**Sipping Demon (Su):** A 13th level, a hungry ghost monk gains 1 temporary hit point each time he hits an enemy with a melee attack. The monk gains a number of temporary hit points equal to his Wisdom modifier when he scores a critical hit. The maximum number of temporary hit points the monk can have is equal to his monk level. The temporary hit points disappear 1 hour later. The monk can only use this ability when he has at least 1 ki point in his ki pool. This ability is a proscribed manipulation of ki considered by many good monks to be a corruption. The ability replaces diamond soul."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"invested_regent": {
 		"name": "Invested Regent",
 		"file": "archetypedisplay5742.html",
 		"sources": [ "Heroes of the High Court" ],
@@ -556,9 +568,10 @@
 			"*Greater restoration* (self only, 3 investiture points)",
 			"*Regenerate* (self only, 3 investiture points)",
 			"*Repulsion* (3 investiture points)"
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"ironskin_monk": {
 		"name": "Ironskin Monk",
 		"file": "archetypedisplay3eda.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -599,9 +612,10 @@
 			"**Surefooted (Ex):** At 17th level, an ironskin monk's speed is not reduced by difficult terrain. This ability replaces tongue of the sun and moon.",
 			"",
 			"**Unbreakable (Ex):** At 20th level, an ironskin monk sets aside many of the frailties of mortal flesh. He becomes immune to death effects and stunning. He is not subject to ability damage or ability drain, and has a 75% chance of ignoring the extra damage dealt by critical hits and sneak attacks. This ability replaces perfect self."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"karmic_monk": {
 		"name": "Karmic Monk",
 		"file": "archetypedisplay1b48.html",
 		"sources": [ "Occult Adventures" ],
@@ -641,9 +655,10 @@
 			"This ability replaces slow fall 80 feet, and alters slow fall at 19th level to become slow fall 80 feet.",
 			"",
 			"**Harmonic Self:** At 20th level, a karmic monk is truly in tune with the harmonic balance of the universe. He gains the abilities of perfect self, except that instead of DR 10/chaotic, he gains DR 10 that is overcome only by attacks that do not count as chaotic, evil, good, or lawful. This ability alters perfect self."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"kata_master": {
 		"name": "Kata Master",
 		"file": "archetypedisplay9e92.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -671,9 +686,10 @@
 			"**Targeted Strike (Ex):** At 7th level, a kata master gains the swashbuckler's targeted strike deed. This ability replaces wholeness of body.",
 			"",
 			"**Dizzying Defense (Ex):** At 15th level, a kata master gains the dizzying defense swashbuckler deed. This ability replaces quivering palm."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"ki_mystic": {
 		"name": "Ki Mystic",
 		"file": "archetypedisplay6dd7.html",
 		"sources": [ "Advanced Player's Guide" ],
@@ -701,9 +717,10 @@
 			"**Mystic Prescience (Su):** At 13th level, a ki mystic gains a +2 insight bonus to AC and CMD. At 20th level, the bonus increases to +4. This ability replaces diamond soul.",
 			"",
 			"**Mystic Persistence (Su):** At 19th level, a ki mystic can create an aura once per day as a swift action at the cost of at least 2 points of ki. The aura emanates out to a 20-foot radius. The monk and all allies within the aura can roll two dice when making an attack roll or a saving throw and take the better result. The aura lasts for 1 round, plus an additional round for every 2 ki points spent when the monk created the aura. The monk can dismiss the aura at any time as a free action, but the ki points for the full duration of the aura are lost. This ability replaces empty body."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"lifting_hand": {
 		"name": "Lifting Hand",
 		"file": "archetypedisplay9403.html",
 		"sources": [ "Martial Arts Handbook" ],
@@ -739,9 +756,10 @@
 			"**Counter-Throw (Sp):** At 12th level, a lifting hand can ready an action to trigger if a creature tries to attack her. When the readied action triggers, the lifting hand can attempt a grapple combat maneuver check with a +2 bonus. If she succeeds, she grapples the creature and negates the triggering attack, and she can spend an immediate action to use the [Savage Slam](feat:savage_slam) feat.",
 			"",
 			"This replaces abundant step."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"maneuver_master": {
 		"name": "Maneuver Master",
 		"file": "archetypedisplay26a3.html",
 		"sources": [ "Ultimate Combat" ],
@@ -774,9 +792,10 @@
 			"**Sweeping Maneuver (Ex):** At 11th level, a maneuver master can make two combat maneuvers as a standard action, as long as neither maneuver requires the maneuver master to move. He may perform two identical maneuvers against two adjacent enemies, or he may perform two different combat maneuvers against the same target. This ability replaces diamond body.",
 			"",
 			"**Whirlwind Maneuver (Ex):** At 15th level, once per day as a full-round action, a maneuver master can attempt a single combat maneuver against every opponent he threatens, as long as the combat maneuver does not require movement. He makes a single combat maneuver check, and it applies to all targets. This ability replaces quivering palm."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"martial_artist": {
 		"name": "Martial Artist",
 		"file": "archetypedisplayb1cd.html",
 		"sources": [ "Ultimate Combat" ],
@@ -825,9 +844,10 @@
 			"**Quivering Palm:** A martial artist may use this ability one additional time per day per level above 15th, but may not have more than one in effect at a time.",
 			"",
 			"**Greater Defensive Roll (Ex):** At 19th level, a martial artist suffers no damage on a successful defensive roll, and only half damage if the Reflex saving throw fails. This ability replaces empty body."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"master_of_many_styles": {
 		"name": "Master of Many Styles",
 		"file": "archetypedisplayc923.html",
 		"sources": [ "Ultimate Combat" ],
@@ -855,9 +875,10 @@
 			"This ability replaces flurry of blows.",
 			"",
 			"**Perfect Style (Ex):** At 20th level, a master of many styles can have the stances of five style feats active at once, and can change those stances as a free action. This ability replaces perfect self."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"menhir_guardian": {
 		"name": "Menhir Guardian",
 		"file": "archetypedisplay6b78.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -904,9 +925,10 @@
 			"The menhir guardian can attempt a rebuking strike a number of times per day equal to his monk level but only once per round.",
 			"",
 			"This replaces stunning fist, high jump, and quivering palm."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"monk_of_the_empty_hand": {
 		"name": "Monk of the Empty Hand",
 		"file": "archetypedisplaya7dc.html",
 		"sources": [ "Advanced Player's Guide" ],
@@ -935,9 +957,10 @@
 			"**Ki Pool (Su):** At 4th level, in addition to the normal abilities of his ki pool, a monk of the empty hand may spend 1 point from his ki pool to increase the range increment for an improvised thrown weapon or shuriken by 20 feet for 1 round.",
 			"",
 			"**Ki Weapons (Su):** At 5th level, a monk of the empty hand may spend 1 point from his ki pool as a swift action to deal damage equal to his unarmed strike damage with an improvised weapon for 1 round. At 11th level, the monk may spend ki to grant an enhancement bonus or magical weapon abilities to an improvised weapon for 1 round, at the rate of 1 point of ki per +1 bonus or its equivalent. The monk may not spend more than 3 points of ki at one time for this purpose. For example, a monk can spend 2 points of ki to give his improvised weapon a +1 enhancement bonus and the ki focus quality, or just the flaming burst quality. At 15th level, the limit increases to 5 ki per round. The monk may use this ability to add magical weapon qualities to improvised weapons that could not normally have such a quality, such as adding the disruption quality to a slashing weapon, or the vorpal quality to a bludgeoning weapon. This ability replaces purity of body and diamond body."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"monk_of_the_four_winds": {
 		"name": "Monk of the Four Winds",
 		"file": "archetypedisplayd232.html",
 		"sources": [ "Advanced Player's Guide" ],
@@ -974,9 +997,10 @@
 			"**Aspect of the Tiger:** Dark stripes appear on the monk's skin, and his face becomes more feline. His eyes become catlike, with vertical pupils, and his canines enlarge. Once per hour, the monk can move at 10 times his normal land speed when he makes a charge and is treated as if he had the pounce ability. The tiger is swift, fierce, and deadly-a monk of any alignment can take on the aspect of the tiger.",
 			"",
 			"**Immortality (Su):** At 20th level, a monk of the four winds no longer ages. He remains in his current age category forever. Even if the monk comes to a violent end, he spontaneously reincarnates (as the spell) 24 hours later in a place of his choosing within 20 miles of the place he died. The monk must have visited the place in which he returns back to life at least once. This ability replaces perfect self."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"monk_of_the_healing_hand": {
 		"name": "Monk of the Healing Hand",
 		"file": "archetypedisplay6eca.html",
 		"sources": [ "Advanced Player's Guide" ],
@@ -999,9 +1023,10 @@
 			"**Ki Sacrifice (Su):** At 11th level, a monk of the healing hand can use his entire ki pool to bring a person back to life. It takes 1 hour to perform this ritual. At the end of the ritual, the monk sacrifices all of his ki in order to cast raise dead (as the spell) with a caster level equal to his monk level. The ritual uses all of the ki in the monk's ki pool; the monk must have at least 6 points of ki in his ki pool to use this ability. At 15th level, the monk may sacrifice his ki to cast resurrection. The monk must have at least 8 points of ki in his ki pool to use this ability. These rituals do not require material components. When this ability is used, the monk's ki pool is not replenished until 24 hours have passed. This ability replaces both diamond body and quivering palm.",
 			"",
 			"**True Sacrifice (Su):** At 20th level, in a final selfless act, a monk of the healing hand can draw in his entire ki, which then explodes outward in a 50-foot-radius emanation. All dead allies within the emanation are brought back to life, as if they were the subject of a true resurrection spell with a caster level equal to the monk's level. When the monk does this, he is truly and utterly destroyed. A monk destroyed in this way can never come back to life, not even by way of a wish or miracle spell or by the power of a deity. Furthermore, the monk's name can never be spoken or written down again. All written mentions of his name become nothing more than a blank space. This ability replaces perfect self."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"monk_of_the_lotus": {
 		"name": "Monk of the Lotus",
 		"file": "archetypedisplay2b76.html",
 		"sources": [ "Advanced Player's Guide" ],
@@ -1026,9 +1051,10 @@
 			"**Touch of Peace (Su):** At 15th level, a monk of the lotus can set up vibrations within the body of another creature to win over the creature's mind. The monk can use touch of peace once per day, and must announce his intent before making his attack roll. On a successful hit, the attack deals no damage, but the target is charmed as if the monk had cast charm monster with a caster level equal to the monk's level. The target does not get a saving throw against this effect. The creature is charmed for 1 day per level. If the monk or his allies attack the charmed creature, or if the monk asks or commands the charmed creature to take hostile actions, the effect ends. This is a mind-affecting charm effect. This ability replaces quivering palm.",
 			"",
 			"**Learned Master (Ex):** At 17th level, a monk of the lotus gains all Knowledge skills and the Linguistics skill as class skills. The monk uses Wisdom instead of Intelligence as the key ability for these skills. This ability replaces tongue of the sun and the moon."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"monk_of_the_mantis": {
 		"name": "Monk of the Mantis",
 		"file": "archetypedisplay271e.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
@@ -1056,9 +1082,10 @@
 			"**Debilitating Blows (Ex):** A monk of the mantis's knowledge of anatomy allows her to deal blows that both deal damage and impose debilitating conditions. At 7th level, if a monk of the mantis stuns a target with Stunning Fist, the target is also entangled for 1 round after the Stunning Fist effect ends. At 11th level, if the monk of the mantis stuns a target with Stunning Fist, the target is also exhausted for 1 round after the Stunning Fist effect ends. At 13th level, the monk can spend 1 point from her ki pool as part of her Stunning Fist attack to increase the duration of these additional effects to a number of rounds equal to her Wisdom bonus (minimum 2 rounds). This ability replaces wholeness of body, diamond body, and diamond soul. (For the unchained monk from Pathfinder RPG Pathfinder Unchained, this ability is gained at 6th level, improves at 10th and 12th levels, and replaces the ki powers gained at those levels.)",
 			"",
 			"**Disabling Palm (Su):** At 15th level, a monk of the mantis can render the target of her quivering palm unconscious instead of killing the creature. Upon failing its Fortitude saving throw, the target either is knocked unconscious for a number of minutes equal to the monk of the mantis's monk level or dies (the monk of the mantis's choice). This alters quivering palm. (For the monk class from Pathfinder Unchained, this ability applies only if the monk selects the quivering palm ki power.)"
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"monk_of_the_sacred_mountain": {
 		"name": "Monk of the Sacred Mountain",
 		"file": "archetypedisplay0e60.html",
 		"sources": [ "Advanced Player's Guide" ],
@@ -1086,9 +1113,10 @@
 			"**Adamantine Monk (Ex):** At 9th level, a monk of the sacred mountain has muscles so strong and skin so resilient that he gains DR 1/-. This DR increases by 1 for every three levels thereafter. As a swift action, the monk can spend 1 ki point to double his DR until the beginning of his next turn. This ability replaces improved evasion.",
 			"",
 			"**Vow of Silence (Su):** At 17th level, a monk of the sacred mountain becomes as impassive as stone, making a vow of silence in exchange for greater abilities. The monk gains a +2 insight bonus to AC and CMD and a +4 bonus on Sense Motive, Stealth, and Perception checks. The monk does not lose the capacity for speech, but if he ever speaks, he loses this feature for 24 hours. This ability replaces tongue of the sun and the moon."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"monk_of_the_seven_forms": {
 		"name": "Monk of the Seven Forms",
 		"file": "archetypedisplay5d1a.html",
 		"sources": [ "Inner Sea Combat" ],
@@ -1118,9 +1146,10 @@
 			"**Endurance (Ex):** At 3rd level, a monk of the seven forms gains Endurance as a bonus feat. This ability replaces maneuver training.",
 			"",
 			"**Sirocco Fury (Su):** At 11th level, a monk of the seven forms can spend 2 ki points as a full-round action to enter a meditative trance that replicates the spell dance of a hundred cuts (Pathfinder RPG Ultimate Magic 215), using his monk level as his caster level. Unlike the spell, a monk of the seven forms must both move 10 feet and make a melee attack each round after he begins this trance to prevent the effect from ending. At 15th level, he can instead spend 3 ki points when using this ability to make his trance replicate dance of a thousand cuts (Ultimate Magic 216) with the same limitations. This ability replaces abundant step and quivering palm."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"nimble_guardian": {
 		"name": "Nimble Guardian",
 		"file": "archetypedisplayd8f6.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -1148,9 +1177,10 @@
 			"**Guardian Feline (Su):** At 7th level, a nimble guardian can transform himself into a feline creature by spending 2 ki points. The effect lasts for 1 hour or until the nimble guardian changes back. Changing form (to animal or back) is a standard action and does not provoke an attack of opportunity. The chosen form must be some form of feline (cheetah, lion, etc.). This ability is otherwise identical to beast shape II. At 9th level, this ability functions as beast shape III. This ability replaces wholeness of body.",
 			"",
 			"**Evasion (Ex):** At 9th level, a nimble guardian gains evasion. This ability replaces improved evasion."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"nornkith": {
 		"name": "Nornkith",
 		"file": "archetypedisplayfe35.html",
 		"sources": [ "Legacy of the First World" ],
@@ -1202,9 +1232,10 @@
 			"**Norn Transformation:** At 20th level, a nornkith attains her fey heritage. Her type changes to fey, and she gains DR 10/cold iron.",
 			"",
 			"This ability replaces perfect self."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"ouat": {
 		"name": "Ouat",
 		"file": "archetypedisplayaaf0.html",
 		"sources": [ "Inner Sea Combat" ],
@@ -1229,9 +1260,10 @@
 			"**Spurn Tradition (Ex):** Ouat dwarves strive to separate themselves from the rest of their race and the traditions that bind them. The bonuses for nonmagical effects that target or specifically affect dwarf subtype creatures (such as a ranger's favored enemy class feature) are all reduced by half. In addition, an Ouat becomes proficient in one martial weapon with the monk property. This ability replaces the dwarf's defensive training, stonecunning, and weapon familiarity racial traits.",
 			"",
 			"**Know the Unseen Disciples (Su):** At 7th level, an Ouat can spot hidden creatures, as if using the spell see invisibility. Using this ability is a standard action that consumes 2 points from his ki pool. His caster level for this effect is equal to his class level. This ability replaces wholeness of body."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"perfect_scholar": {
 		"name": "Perfect Scholar",
 		"file": "archetypedisplayb023.html",
 		"sources": [ "Inner Sea Intrigue" ],
@@ -1269,9 +1301,10 @@
 			"**Walk with the Master (Su):** At 20th level, the perfect scholar has mastered his spiritual resonance, allowing him to travel as if using etherealness, plane shift, or shadow walk at his monk level by spending only 1 point from his ki pool. He cannot bring other creatures with him. He is treated as an outsider rather than his original type, although he can be brought back to life as if he were still of his former type.",
 			"",
 			"This ability alters perfect self."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"qinggong_monk": {
 		"name": "Qinggong Monk",
 		"file": "archetypedisplayf639.html",
 		"sources": [],
@@ -1583,9 +1616,10 @@
 			"**[perfect self](class:**perfect_self) (monk ability, level 20, 0 ki points) **Source** [Ultimate Magic pg. 52](source:ultimate_magic)",
 			"",
 			"**[Tiring Critical](feat:**tiring_critical) (3 ki points) **Source** [Ultimate Magic pg. 52](source:ultimate_magic)"
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"sage_counselor": {
 		"name": "Sage Counselor",
 		"file": "archetypedisplaydff3.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -1621,9 +1655,10 @@
 			"**Deceptive Ki (Su):** At 4th level, the sage counselor can spend 1 point from his ki pool as a swift action to give himself a +4 insight bonus on his next Bluff check. The sage counselor does not gain the ability to spend ki to increase his speed by 20 feet for 1 round.",
 			"",
 			"This ability alters ki pool."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"scaled_fist": {
 		"name": "Scaled Fist",
 		"file": "archetypedisplay5673.html",
 		"sources": [ "Legacy of Dragons" ],
@@ -1666,9 +1701,10 @@
 			"**:** At 15th level, a scaled fist can spend 3 points from her ki pool to make a breath weapon attack as a standard action. This breath weapon deals 1d6 points of damage of her energy type per monk level in a 30-foot cone. Those caught in the area of the breath can attempt a Reflex save (DC = 10 + 1/2 the scaled fist's monk level + her Charisma modifier) to halve the normal damage.",
 			"",
 			"This ability replaces quivering palm."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"scarred_monk": {
 		"name": "Scarred Monk",
 		"file": "archetypedisplay0e60-2.html",
 		"sources": [ "Horror Realms" ],
@@ -1718,9 +1754,10 @@
 			"**Tongueless Master (Su):** The monk assumes a vow of silence and slices out her own tongue. Thereafter, she wears the preserved appendage on a cord about her neck. She can no longer speak or cast spells with verbal components. Whenever she hits a creature with an unarmed strike, she can spend 1 point from her ki pool to steal the voice from her target. The target can resist this effect with a successful Will save (DC = 10 + 1/2 the scarred monk's level + her Wisdom modifier), otherwise the victim loses the ability to speak or cast spells with verbal components for a number of minutes equal to the total number of mortifications known by the scarred monk. During this time, the scarred monk can speak in the victim's voice.",
 			"",
 			"**Torturous Vision (Su):** As a move action, the scarred monk can spend 1 ki point to cause a creature that recently wounded her to suffer-in one sudden blast of agony-the pain of all the wounds the scarred monk has endured. The monk can target any living creature within 60 feet who has been affected by share pain in the last 24 hours. The creature becomes stunned with pain for 1 round and then staggered for 1d3 rounds unless it succeeds at a Will save (DC = 10 + 1/2 the monk's level + the monk's Wisdom modifier). The scarred monk must be at least 13th level and have the share pain mortification in order to take this mortification."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"sensei": {
 		"name": "Sensei",
 		"file": "archetypedisplay77b2.html",
 		"sources": [ "Ultimate Combat" ],
@@ -1751,9 +1788,10 @@
 			"**Mystic Wisdom (Su):** At 6th level, a sensei may use his advice ability when spending points from his ki pool to activate a class ability (using the normal actions required for each) in order to have that ability affect one ally within 30 feet rather than the sensei himself. At 10th level, a sensei may affect all allies within 30 feet rather than himself (spending points from his ki pool only once, not once for each target).",
 			"",
 			"At 10th level, a sensei may instead spend 1 point from his ki pool (as a swift action) while using advice to provide a single ally within 30 feet with evasion, fast movement, high jump, purity of body, or slow fall. At 14th level, a sensei may spend 2 points to grant one of the abilities listed above to all allies within 30 feet, or diamond body, diamond soul, or improved evasion to a single ally within 30 feet. These abilities function at the sensei's level and last 1 round. This ability replaces the bonus feats at 6th, 10th, and 14th level."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"serpent-fire_adept": {
 		"name": "Serpent-Fire Adept",
 		"file": "archetypedisplaya183.html",
 		"sources": [ "Occult Origins" ],
@@ -1791,9 +1829,10 @@
 			"**Linked Chakras (Ex):** At 7th level, the serpent-fire adept can open multiple chakras at once as a standard action. The round that she does this, she is required to make saving throws only to resist being overwhelmed by the highest chakra she opens, though the save DCs are increased by 5. She can do this once per day, plus one additional time per day each at 12th and 17th level. This ability replaces wholeness of body.",
 			"",
 			"**Chakra Mastery (Ex):** At 10th level, the serpent-fire adept gains [Chakra Master](feat:chakra_master) as a bonus feat. She need not meet the feat's prerequisites. When maintaining her open chakras with chakra expertise, she can spend 1 point of ki to gain the benefits of two chakras rather than one in that round (or three chakras, if she has opened her crown chakra). At 14th level, the serpent-fire adept's pool of serpent-fire ki increases to 7 points, and at 18th level, it increases to 9 points. This ability replaces the bonus feats gained at 10th, 14th, and 18th level."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"sin_monk": {
 		"name": "Sin Monk",
 		"file": "archetypedisplay420a.html",
 		"sources": [ "Antihero's Handbook" ],
@@ -1854,9 +1893,10 @@
 			"**Spawn of Sin (Ex):** At 20th level, the sin monk becomes the physical manifestation of his sins. He is forevermore treated as an aberration rather than a humanoid (or whatever the monk's creature type was) for the purpose of spells and magical effects, and his mind is so consumed by sin that he gains immunity to mind-affecting effects. He does not change in appearance or gain other abilities; however, should the sin monk be slain and brought back from the dead, he returns to life as a sinspawn (Pathfinder RPG Bestiary 2 246), retaining his class levels but otherwise replacing his creature type and racial abilities with those of his new form and becoming an NPC under the GM's control.",
 			"",
 			"This replaces perfect self."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"softstrike_monk": {
 		"name": "Softstrike Monk",
 		"file": "archetypedisplay2e31.html",
 		"sources": [ "Martial Arts Handbook" ],
@@ -1904,9 +1944,10 @@
 			"**Resilient Body (Su):** At 19th level, a softstrike monk's mastery of nonlethal combat lets him apply his techniques to his defense. A softstrike monk converts any precision damage he takes to nonlethal damage.",
 			"",
 			"This replaces empty body."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"sohei": {
 		"name": "Sohei",
 		"file": "archetypedisplayd30b.html",
 		"sources": [ "Ultimate Combat" ],
@@ -1946,9 +1987,10 @@
 			"**Ki Weapon (Su):** At 4th level, as a swift action, a sohei may spend 1 point from his ki pool to grant any weapon he wields (including his unarmed strike) a +1 enhancement bonus on attack and damage rolls, increasing by +1 per four levels after 4th to a maximum bonus of +5 at 20th level, until the end of his next turn. This ability replaces slow fall and abundant step.",
 			"",
 			"**Weapon Training (Ex):** At 6th level, a sohei gains weapon training in one of the following weapon groups, as the fighter class feature: bows, crossbows, monk weapons, polearms, spears, or thrown weapons. He may select an additional group of weapons for every six levels after 6th, to a maximum of three at 18th level. A sohei may use flurry of blows and ki strike with any weapon in which he has weapon training. This ability replaces purity of body, diamond body, quivering palm, timeless body, and tongue of sun and moon."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"soul_shepherd": {
 		"name": "Soul Shepherd",
 		"file": "archetypedisplay23cf.html",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
@@ -1984,9 +2026,10 @@
 			"**Yamaraj's Judgment (Sp):** At 15th level, a soul shepherd can spend 1 point from his ki pool as a standard action to attempt to free an enslaved soul from an effect that is imprisoning it, such as [soul bind](spell:soul_bind) or [trap the soul](spell:trap_the_soul). This functions as a targeted [dispel magic](spell:dispel_magic) spell with a caster level equal to the soul shepherd's level. He can spend an additional ki point when he activates this ability to gain a +4 bonus on the caster level check. If the soul is held prisoner by a creature or a non-spell effect, the soul shepherd frees it if his caster level check result is at least 11 + the creature or effect's CR.",
 			"",
 			"This replaces quivering palm."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"spirit_master": {
 		"name": "Spirit Master",
 		"file": "archetypedisplay2bf1.html",
 		"sources": [ "Undead Slayer's Handbook" ],
@@ -2020,9 +2063,10 @@
 			"**Spirit Flow (Su):** At 19th level, a spirit master can dramatically alter the flow of his own ki. As an immediate action, the spirit master can expend 3 ki points to alter his ki for a number of rounds equal to his class level. During this time, he is healed by negative energy as if he were an undead creature. The spirit master is still healed by positive energy as normal. This ability replaces empty body.",
 			"",
 			"**Spirit Mastery (Su):** At 20th level, a spirit master gains DR 10/evil and becomes immune to ability drain and ability damage. Additionally, once per week, the spirit master may bring a dead creature back to life. This ability functions as true resurrection, except the spirit master may not resurrect a creature that has been dead for longer than 1 day per class level. This ability replaces perfect self."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"student_of_stone": {
 		"name": "Student of Stone",
 		"file": "archetypedisplay02ef.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -2055,9 +2099,10 @@
 			"**Soul of Stone (Su):** At 12th level, as a swift action, a student of stone can spend 1 ki point to gain tremorsense 15 feet until his next turn. At 16th level, the range of this tremorsense increases to 30 feet. This ability replaces abundant step.",
 			"",
 			"**Stone Self:** At 20th level, a student of stone becomes an earth outsider. He gains the earth subtype, as well as DR 5/chaotic, burrow speed 20 feet, and tremorsense 20 feet."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"terra-cotta_monk": {
 		"name": "Terra-Cotta Monk",
 		"file": "archetypedisplay6260.html",
 		"sources": [ "Dungeoneer's Handbook" ],
@@ -2091,9 +2136,10 @@
 			"**Petrifying Strike (Su):** At 15th level, a terra-cotta monk can turn an opponent to stone with a single strike. He can use this ability once per day, and must announce the attempt before making his attack roll. If the terra-cotta monk's strike is successful, the creature must succeed at a Fortitude save (DC = 10 + 1/2 the monk's level + the monk's Wis modifier) or be petrified for 1 hour per monk level. Incorporeal creatures and creatures immune to petrification are unaffected by this ability. This ability replaces quivering palm.",
 			"",
 			"**Rainmaker (Su):** At 19th level, anytime a terra-cotta monk is underground, he may cause a section of the roof to come down on his enemies per the spell earthquake, with a caster level equal to his monk level. The terra-cotta monk may use this ability only while in a cave, cavern, or tunnel. Using this ability is a standard action that consumes 3 points from his ki pool. This ability replaces empty body."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"tetori": {
 		"name": "Tetori",
 		"file": "archetypedisplay6fc0.html",
 		"sources": [
@@ -2135,9 +2181,10 @@
 			"**Form Lock (Su):** At 13th level, a tetori can negate a polymorph effect by touch with a Wisdom check, adding a bonus equal to his monk level, against a DC of 11 + the caster level of the effect (or HD of the creature, for supernatural polymorph effects). This is a standard action requiring 2 points from the tetori's ki pool, or an immediate action if a creature the tetori is grappling attempts to use a polymorph effect. This ability replaces diamond soul.",
 			"",
 			"**Iron Body (Su):** At 19th level, as a move action, a tetori can make his tissues ultra-dense for 1 minute as the iron body spell by spending 3 points from his ki pool. This ability replaces empty body."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"treetop_monk": {
 		"name": "Treetop Monk",
 		"file": "archetypedisplaye595.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -2159,9 +2206,10 @@
 			"**Wood Affinity (Su):** At 5th level, a treetop monk may expend 1 point from his ki pool as a free action to treat a wooden object as if it were not broken for 1 minute (this includes a weapon with a wooden haft such as an axe or spear). At 8th level, as a free action, a treetop monk can expend 1 point from his ki pool to use the Lunge feat with any wooden or wood-hafted melee weapon. This ability replaces purity of body.",
 			"",
 			"**Freedom of Movement (Su):** At 12th level, a treetop may expend 1 point from his ki pool as a swift action to gain the effects of freedom of movement for 1 round. This ability replaces abundant step."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"underfoot_adept": {
 		"name": "Underfoot Adept",
 		"file": "archetypedisplay58fd.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -2183,9 +2231,10 @@
 			"**Underfoot Trip (Ex):** At 1st level, an underfoot adept learns a number of maneuvers and grabs that can cause even the largest opponents to stumble and fall. He gains Improved Trip as a bonus feat, even if he does not meet the requirements. At 4th level, and every four levels thereafter, he acts as if he is one size larger for the purposes of determining the maximum size of creatures he can trip and when determining his CMB and CMD for purposes of a trip combat maneuver. This ability replaces stunning fist.",
 			"",
 			"**Improved Underfoot Grace (Ex):** At 5th level, an underfoot adept's ability to avoid attacks of opportunity against those he passes improves. When using the Acrobatics skill to avoid attacks of opportunity, while moving through a threatened area or through an enemy's space, he takes no penalty when doing so at full speed. This ability replaces high jump."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"wanderer": {
 		"name": "Wanderer",
 		"file": "archetypedisplayab13.html",
 		"sources": [ "Advanced Race Guide" ],
@@ -2222,9 +2271,10 @@
 			"**Disappear Unnoticed (Ex):** At 12th level, the wanderer may use Stealth to hide even while being directly observed or when no cover or concealment is available, as long as he is adjacent to at least one creature of his size or larger, by spending 1 point from his ki pool. This effect lasts until the beginning of the wanderer's next turn and may be continued in consecutive rounds by spending 1 ki point each round. This ability replaces abundant step.",
 			"",
 			"**Free Step (Su):** At 13th level, the wanderer gains continuous freedom of movement as a continuous spell-like ability. This ability replaces diamond soul."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"wasteland_meditant": {
 		"name": "Wasteland Meditant",
 		"file": "archetypedisplaybbe5.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -2266,9 +2316,10 @@
 			"**Pillar of Salt (Su):** At 15th level, a wasteland meditant can transform a creature's body into a column of crumbling salt with a touch. He can use pillar of salt once per day as part of an unarmed strike, and he must announce his intent before making his attack roll. Creatures immune to critical hits or transmutation effects cannot be affected. A creature successfully damaged by the wasteland meditant's unarmed strike must succeed at a Fortitude saving throw (DC = 10 + half the monk's level + his Wisdom modifier) or begin to calcify. Each round thereafter, the target of pillar of salt takes 2 points of Strength and Dexterity drain and gains a +1 bonus to its natural armor as a crust of salt begins to cover its body and restrict movement. These effects take place every round at the start of the wasteland meditant's turn and continue for 1 round per level the wasteland meditant has. If the target is reduced to 0 Strength or Dexterity at any time during this duration, the creature is instantly killed and its body is transformed into a pillar of salt. A creature killed in this way can't be brought back to life except by miracle, true resurrection, or wish. Total immersion in water suppresses the ongoing effects of pillar of salt but resets the accumulated natural armor bonus to zero. As long as the target lives, the ongoing effect of pillar of salt can be ended via a heal spell.",
 			"",
 			"This replaces quivering palm."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"water_dancer": {
 		"name": "Water Dancer",
 		"file": "archetypedisplayc729.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -2327,9 +2378,10 @@
 			"**Water Stride (Sp):** At 12th level, a water dancer can leap from one source of water to another as per dimension door as a move action by expending 1 point of ki from his ki pool. He must begin and end his movement in a space of water equal to his size. He cannot take other creatures with him when he uses this ability.",
 			"",
 			"This replaces abundant step."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"weapon_adept": {
 		"name": "Weapon Adept",
 		"file": "archetypedisplay4828.html",
 		"sources": [ "Advanced Player's Guide" ],
@@ -2357,9 +2409,10 @@
 			"**Uncanny Initiative (Ex):** At 17th level, a weapon adept does not need to roll for initiative. He always treats his initiative roll as if it resulted in any number of his choosing (from 1 to 20). This ability replaces timeless body.",
 			"",
 			"**Pure Power:** At 20th level, a weapon adept forsakes the ideals of the perfect self to become a bastion of the physical and mental virtues monks hold dear. The monk gains a +2 bonus to Strength, Dexterity, and Wisdom. This ability replaces perfect self."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"wildcat": {
 		"name": "Wildcat",
 		"file": "archetypedisplay3cee.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -2398,9 +2451,10 @@
 			"**Turn the Tables (Ex):** At 13th level, opponents provoke an attack of opportunity from the wildcat whenever they fail at a combat maneuver against the wildcat. This ability replaces diamond soul.",
 			"",
 			"**Dirty Blow (Ex):** At 19th level, when a wildcat succeeds at a dirty trick combat maneuver, he can deal his unarmed strike damage to that opponent. This ability replaces empty body."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"windstep_master": {
 		"name": "Windstep Master",
 		"file": "archetypedisplaya941.html",
 		"sources": [ "Elemental Master's Handbook" ],
@@ -2432,9 +2486,10 @@
 			"**Swift Ki (Su):** At 4th level, the windstep master can spend 1 point from his ki pool as a swift action to sustain his wind step for 1 minute. During this time, the windstep master can remain airborne even if he doesn't reach a solid surface. He can also spend 1 point from his ki pool as a swift action to increase his wind step distance by 20 feet for 1 round. The windstep master does not gain the ability to spend ki to increase his base speed by 20 feet for 1 round.",
 			"",
 			"This ability alters ki pool."
-		]
+		],
+		"display": "archetype/monk"
 	},
-	{
+	"zen_archer": {
 		"name": "Zen Archer",
 		"file": "archetypedisplay9a49.html",
 		"sources": [ "Advanced Player's Guide" ],
@@ -2481,6 +2536,7 @@
 			"**Trick Shot (Su):** At 11th level, a zen archer may hit targets that he might otherwise miss. By spending 1 point from his ki pool as a swift action, the zen archer can ignore concealment. By spending 2 points, he can ignore total concealment or cover. By spending 3 points, he can ignore total cover, even firing arrows around corners. The arrow must still be able to reach the target; a target inside a closed building with no open doors or windows cannot be attacked. These effects last for 1 round. This ability replaces diamond body.",
 			"",
 			"**Ki Focus Bow (Su):** At 17th level, as long as he has at least 1 point of ki in his ki pool, a zen archer may treat arrows fired from his bow as if they were [ki focus](magic/weapon:ki_focus) weapons, allowing him to use his special ki attacks as if his arrows were unarmed attacks. This ability replaces tongue of the sun and moon."
-		]
+		],
+		"display": "archetype/monk"
 	}
-]
+}

@@ -1,5 +1,5 @@
-[
-	{
+{
+	"antiquarian": {
 		"name": "Antiquarian",
 		"file": "archetypedisplayee01.html",
 		"sources": [ "Blood of the Ancients" ],
@@ -37,9 +37,10 @@
 			"**Swift Search (Ex):** At 4th level, an antiquarian can study the secrets of a location with incredible speed. Whenever he takes 20 on a Perception check, it takes him only 1 minute.",
 			"",
 			"This replaces swift alchemy."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"bonded_investigator": {
 		"name": "Bonded Investigator",
 		"file": "archetypedisplay6e51.html",
 		"sources": [ "Inner Sea Intrigue" ],
@@ -75,9 +76,10 @@
 			"This replaces the investigator talent gained at 7th level.",
 			"",
 			"**Investigator Talents:** The following investigator talents complement the bonded investigator archetype effortless aid, perceptive tracking, tenacious inspiration, and unconventional inspiration."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"cartographer": {
 		"name": "Cartographer",
 		"file": "archetypedisplay5837.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -116,9 +118,10 @@
 			"**Swift Travels (Ex):** At 4th level, while in studied terrain, a cartographer intuitively knows the easiest, shortest, and fastest way through the wilderness. For the purpose of determining overland speed, the cartographer treats any trackless terrain as though he were on a trail, and he treats any terrain with a road or trail as though it were a highway. He can extend the benefit to up to one creature per investigator level traveling with him.",
 			"",
 			"This replaces swift alchemy."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"cipher": {
 		"name": "Cipher",
 		"file": "archetypedisplay23c0.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -181,9 +184,10 @@
 			"**Hide in Plain Sight (Su):** At 7th level, a cipher can use the Stealth skill to hide even while being observed; as long as his observer is within range of his inattention blindness ability (even if it is not affected by inattention blindness), he can hide without anything to actually hide behind.",
 			"",
 			"This ability replaces the investigator talent gained at 7th level."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"conspirator": {
 		"name": "Conspirator",
 		"file": "archetypedisplayd5aa.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -210,9 +214,10 @@
 			"Additionally, at 7th level, if a scrying sensor is invisible, the invisibility does not increase the DC of the conspirator's Perception check to notice it, regardless of whether or not he is using an ability that allows him to see invisible things. The DC for his Perception check is equal to 20 + the spell's level (with no +20 increase to the Perception DC for a moving invisible sensor or no +40 increase for an immobile invisible sensor).",
 			"",
 			"This ability replaces trap sense and the investigator talent gained at 7th level."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"cryptid_scholar": {
 		"name": "Cryptid Scholar",
 		"file": "archetypedisplay1715.html",
 		"sources": [ "Magic Tactics Toolbox" ],
@@ -243,9 +248,10 @@
 			"**Knowledgeable Strike (Ex):** At 4th level, the cryptid scholar can direct allies to exploit a monster's weaknesses. If the cryptid scholar ends his opportune advice early as a move action, each ally within 30 feet who can hear the cryptid scholar deals additional damage on its next successful unarmed, natural, or weapon attack against that specific kind of monster within 1 round. The additional damage is 1d6 at 4th level and increases by 1d6 for every 4 investigator levels thereafter (to a maximum of 5d6 at 20th level). The damage of knowledgeable strike is precision damage and is not multiplied on a critical hit; creatures that are immune to sneak attacks are also immune to knowledgeable strike. Ranged attacks gain this additional damage only against a target within 30 feet. The ally must be able to see the target well enough to pick out a vital spot and must be able to reach such a spot. Knowledgeable strike cannot be used against a creature with concealment.",
 			"",
 			"This ability replaces studied strike."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"cult_hunter": {
 		"name": "Cult Hunter",
 		"file": "archetypedisplay3f33.html",
 		"sources": [ "Horror Adventures" ],
@@ -304,9 +310,10 @@
 			"**Extraplanar Expulsion (Sp):** At 13th level, a cult hunter can grant himself the ability to use dispel chaos, dispel evil, dispel good, or dispel law as a spell-like ability (using his investigator level as his caster level and his Intelligence to determine the DCs) by sacrificing an unused 5th- or 6th-level extract for the day. He is able to use this ability as many times as he likes, but only so long as he continues to have unused 5thor 6th-level extract slots to expend.",
 			"",
 			"This replaces the 13th-level investigator talent."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"dread_investigator": {
 		"name": "Dread Investigator",
 		"file": "archetypedisplay202f.html",
 		"sources": [ "Cohorts and Companions" ],
@@ -340,9 +347,10 @@
 			"**Reanimation Fluid (Ex):** At 7th level, a dread investigator adds undead anatomy I to his formula book, and he can share this extract with an unconscious creature as if he had the infusion discovery. If the creature is dying when it receives the infusion, it stabilizes and gains temporary hit points equal to twice the dread investigator's level. Rather than having the extract take effect immediately, the dread investigator may choose for the extract to remain latent for up to 10 minutes per level. He can trigger the extract's effect at any point by touching the creature as a standard action, and it automatically triggers if the creature using it is reduced to 0 or fewer hit points. The dread investigator can also amplify the effect of the extract, allowing it to function as undead anatomy II, but this reduces the extract's duration to 1 round per level and at the end of its duration the creature using the extract is reduced to -1 hit points.",
 			"",
 			"At 13th level, a dread investigator adds undead anatomy II to his formula book, and at 19th level undead anatomy III, which he can use in the same way, including amplifying the effect of the extract to the next-higher-level undead anatomy spell. This ability replaces the investigator talents gained at 7th, 13th, and 19th level."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"empiricist": {
 		"name": "Empiricist",
 		"file": "archetypedisplayb9d9.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -367,9 +375,10 @@
 			"At 8th level, the empiricist's insight bonus increases to +4. At 16th level, he gains immunity to all illusion spells and spell-like abilities that allow a save to disbelieve the effects. This ability replaces swift alchemy.",
 			"",
 			"**Master Intellect (Ex):** At 20th level, an empiricist's powers of reason and deduction become almost superhuman, and he is able to use them in nearly all aspects of life. At 20th level, an empiricist can use inspiration on all skills (even ones he is not trained in) and all ability checks (including initiative checks) without spending inspiration. This ability replaces true inspiration."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"engineer": {
 		"name": "Engineer",
 		"file": "archetypedisplay10a2.html",
 		"sources": [ "Construct Handbook" ],
@@ -394,9 +403,10 @@
 			"**Mechanical Understanding (Ex):** At 3rd level, an engineer gains a deeper understanding of constructs and machines. He gains a +1 bonus on Knowledge (arcana) checks to identify constructs and a +1 bonus on Knowledge (engineering) checks. This bonus increases by 1 at 6th level and every 3 levels thereafter.",
 			"",
 			"This replaces trap sense."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"forensic_physician": {
 		"name": "Forensic Physician",
 		"file": "archetypedisplay7b59.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -428,9 +438,10 @@
 			"If the forensic physician succeeds at the Heal check but might not have heard of the creature's race before, he can attempt an automatic Knowledge check to see if he knows about the creature. If he succeeds, he identifies the blood (and gains all other benefits of the Knowledge check); otherwise, he knows that he succeeded at the Heal check but the blood is not from a creature he recognizes. If the blood is in its original setting, and the forensic physician exceeds the DC by 5 or more, he can study the blood to determine a rough estimate of when the blood was shed, and he can study the bloodstain patterns to get an approximate idea of how the creatures involved were positioned and moving.",
 			"",
 			"This ability replaces the investigator talent gained at 5th level."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"gravedigger": {
 		"name": "Gravedigger",
 		"file": "archetypedisplayef83.html",
 		"sources": [ "Horror Adventures" ],
@@ -486,9 +497,10 @@
 			"**Grave Lamp (Su):** At 4th level, a gravedigger can form a psychic bond with a lantern, using it as a conjuration implement in much the same way as she uses her relic focus as a necromancy implement. She can expend inspiration to fuel her grave lamp's focus powers the same number of times each day as she can for her relic focus (for example, a 6th-level gravedigger with 6 points of inspiration could expend up to three uses of inspiration as mental focus for her relic focus and up to three uses of inspiration as mental focus for her grave lamp).",
 			"",
 			"This ability replaces swift alchemy."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"guardian_of_immortality": {
 		"name": "Guardian of Immortality",
 		"file": "archetypedisplay5135.html",
 		"sources": [ "Inner Sea Intrigue" ],
@@ -528,9 +540,10 @@
 			"This replaces the investigator talent gained at 13th level.",
 			"",
 			"**Investigator Talents:** The following investigator talents complement the guardian of immortality archetype: alchemist discovery, combat inspiration, greater combat inspiration, inspired alertness, stealing strike, and toppling strike."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"hallucinist": {
 		"name": "Hallucinist",
 		"file": "archetypedisplayb127.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -580,9 +593,10 @@
 			"**Simultaneous Study (Su):** At 6th level and every 3 investigator levels thereafter, the expanded mind of a hallucinist is able to maintain his studied combat bonuses against an additional target at the same time. In order to do so, the hallucinist must be using his psychedelic perception ability and must expend one use of inspiration in order to designate each target beyond the first target (this cost stacks with the use of inspiration required to designate a target more than once per 24 hours). He still needs to take a move action for each target, designating them one at a time. The hallucinist can discard this connection to a target of studied combat as a free action, allowing him to study another target in its place.",
 			"",
 			"This ability alters studied combat and replaces all remaining trap sense."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"holomog_demolitionist": {
 		"name": "Holomog Demolitionist",
 		"file": "archetypedisplay9339.html",
 		"sources": [ "Heroes of Golarion" ],
@@ -622,9 +636,10 @@
 			"At 10th level, the Holomog demolitionist can use this ability to create clouds of dust and rubble that create concealment rather than difficult terrain in the same area. This concealment lasts 1d4 rounds plus 1 round for every 4 investigator levels, and the Holomog demolitionist is affected by the concealment as normal.",
 			"",
 			"At 14th level, the difficult terrain the Holomog demolitionist creates provides cover for himself and his allies."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"infiltrator": {
 		"name": "Infiltrator",
 		"file": "archetypedisplay3b23-2.html",
 		"sources": [],
@@ -657,9 +672,10 @@
 			"At 8th level, the infiltrator gains the effects of its master of disguise class feature on this special use of the Disguise skill (no penalty for a voice of a different gender, race, or age category, and only a -3 penalty for a different size category). This ability replaces poison lore.",
 			"",
 			"**Mimic Mastery (Su):** At 2nd level, when an infiltrator uses disguise self or any polymorph extracts on himself, he is treated as 2 investigator levels higher for the purpose of determining the duration of that extract's effect. He can use these extracts to take the appearance of specific individuals of the type of form he chooses, gaining a +10 to Disguise checks even if that extract does not typically grant such a bonus. Furthermore, these extracts grant the infiltrator a +10 bonus to Disguise checks made as part of his voice mimicry ability. This ability replaces poison resistance."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"jinyiwei": {
 		"name": "Jinyiwei",
 		"file": "archetypedisplay8392.html",
 		"sources": [ "Blood of the Ancients" ],
@@ -693,9 +709,10 @@
 			"**Imperial Judgment (Su):** At 4th level, a jinyiwei can carry out trial and sentence with her own divine authority. She gains the judgment inquisitor class feature as an inquisitor 3 levels lower than her investigator level, and her investigator levels stack with inquisitor levels for the purposes of determining her judgments' abilities and number of judgments per day. At 11th level, she gains the second judgment inquisitor class feature, and at 19th level, she gains the third judgment inquisitor class feature.",
 			"",
 			"This replaces swift alchemy."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"lamplighter": {
 		"name": "Lamplighter",
 		"file": "archetypedisplay1ca3.html",
 		"sources": [ "Heroes of the Streets" ],
@@ -722,9 +739,10 @@
 			"**Alchemical Illumination (Sp):** At 2nd level, as a standard action, a lamplighter can cast certain light spells by burning a magic extract, infusion, or potion of a spell of the same or greater level than the light spell in a lit lantern or torch. If the spell has a range of touch, the lantern or torch counts as the object touched. The spell's DC, if any, equals 10 + spell level + the lamplighter's Intelligence modifier. At 2nd level, the lamplighter can cast light and continual flame (24 hour duration). At 5th level, the lamplighter can cast daylight and discovery torch. At 8th level, the lamplighter can cast searing light. At 11th level, the lamplighter can cast judgment light. The lamplighter need not have an active judgment to cast this spell, can choose what color of judgment light is created, can use his alignment for golden light, and can select any element for copper light. This ability replaces poison lore, poison resistance, and poison immunity.",
 			"",
 			"**Ready for the Revelation (Ex):** At 3rd level, a lamplighter can use inspiration on initiative checks without spending a use of inspiration. He can use his Intelligence modifier in place of his Dexterity modifier on initiative checks. At 6th level, if the lamplighter has Quick Draw, he can draw a weapon as part of his initiative check. At 9th level, the lamplighter isn't flat-footed before he acts in the first round of combat. At 12th level, the lamplighter adds his Intelligence bonus as well as his Dexterity bonus to initiative checks. At 15th level, the lamplighter can act last during the surprise round even if he is otherwise unaware combat has started. At 18th level, the lamplighter is not limited to just a move or standard action during the surprise round-he can act normally. This ability replaces keen recollection and trap sense."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"lepidstadt_inspector": {
 		"name": "Lepidstadt Inspector",
 		"file": "archetypedisplay79c7.html",
 		"sources": [ "Advanced Class Origins" ],
@@ -751,9 +769,10 @@
 			"**Perceptive Tracking (Ex):** At 3rd level, a Lepidstadt inspector must take the perceptive tracking talent as his investigator talent. He doesn't need to be trained in Perception to do so.",
 			"",
 			"**Relentless Pursuit (Ex):** At 5th level, a Lepidstadt inspector can learn enough about a suspect through observation that he can deduce the most effective way to deal with the subject. Once per day, if a Lepidstadt inspector finds a creature's tracks using perceptive tracking, he gains a +2 bonus on Bluff, Knowledge, Perception, Sense Motive, and Survival checks against or about that creature, as well as on weapon attack and damage rolls against that creature. These bonuses last until the Lepidstadt inspector selects a new subject for relentless pursuit. This ability replaces swift alchemy and the investigator talent gained at 5th level."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"majordomo": {
 		"name": "Majordomo",
 		"file": "archetypedisplayd0f0.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -794,9 +813,10 @@
 			"If using the kingdom-building rules from Pathfinder RPG Ultimate Campaign, at 3rd level, the majordomo counts her Intelligence score as 2 higher when determining the bonus she provides in a kingdom leadership role. Her effective Intelligence score increases by an additional 2 at 6th level and every 3 investigator levels thereafter.",
 			"",
 			"This ability replaces all instances of trap sense."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"malice_binder": {
 		"name": "Malice Binder",
 		"file": "archetypedisplayb5ac.html",
 		"sources": [ "Blood of the Coven" ],
@@ -857,9 +877,10 @@
 			"**Witch Trapper (Ex):** Beginning at 11th level, whenever the malice binder would gain a fetter, he can instead select a ranger trap (Pathfinder RPG Ultimate Magic 64), treating his investigator level as his ranger level for the purpose of determining the trap's effect.",
 			"",
 			"This replaces poison immunity."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"mastermind": {
 		"name": "Mastermind",
 		"file": "archetypedisplay9d91.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -891,9 +912,10 @@
 			"**Mastermind Defense (Ex):** At 4th level, a mastermind can, as an immediate action, expend two uses of inspiration to make an inspired defense. He rolls his inspiration die and applies the result as a penalty on an attack roll made against him. If the mastermind has the combat inspiration talent, he can expend one use of inspiration instead of two. This ability replaces swift alchemy.",
 			"",
 			"**Impregnable Mind (Su):** At 9th level, a mastermind's secrecy, obscurity, and mental conditioning reach superhuman levels. He becomes immune to any divination spell, spell-like ability, or effect that allows a saving throw (though he can still allow a divination effect to affect him if he wishes). Even divination effects that do not allow a saving throw have difficulty piercing a mastermind's barriers, as a mastermind can now choose to think in any language he speaks. Unless the opponent reading a mastermind's thoughts speaks all of the mastermind's languages, attempts at thought reading automatically fail. This ability replaces the investigator talent gained at 9th level."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"natural_philosopher": {
 		"name": "Natural Philosopher",
 		"file": "archetypedisplay5ebf.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -933,9 +955,10 @@
 			"**Herbalism (Su):** At 3rd level, a natural philosopher augments his knowledge of alchemy with herbal lore. He gains the infusion discovery and can use Knowledge (nature) in place of Craft (alchemy) and Profession (herbalist) checks. He also gains a competence bonus equal to his class level on Craft (alchemy) checks to create alchemical items, and he gains half that bonus on Profession (herbalist) checks to find herbs (for more information on herbalism, see page 152).",
 			"",
 			"This alters alchemy and replaces trap sense and the investigator talent gained at 3rd level."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"portal_seeker": {
 		"name": "Portal Seeker",
 		"file": "archetypedisplay7e4f.html",
 		"sources": [ "Planar Adventures" ],
@@ -975,9 +998,10 @@
 			"**Extended Portals (Su):** At 11th level, a portal seeker can spend 2 Portal Points to create two portals as a standard action, one in an adjacent square and one within 5 feet per investigator level she has in a visible location. These portals persist until the end of her next turn, and creatures of any size can step move through either, using 5 feet of movement to exit from the other portal. At the end of her next turn, she can spend an additional 2 Portal Points as a free action to extend the portals' duration by 1 round.",
 			"",
 			"This replaces poison immunity."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"profiler": {
 		"name": "Profiler",
 		"file": "archetypedisplay43ad.html",
 		"sources": [ "Horror Adventures" ],
@@ -1015,9 +1039,10 @@
 			"**Pack Psychology (Su):** At 7th level, a profiler can understand the way that groups act together, allowing him to exploit the vulnerabilities in their attacks. A profiler can't be flanked by creatures with an Intelligence score and he gains a +1 bonus to his AC against such creatures when they would otherwise flank him, as he plays their movements against each other.",
 			"",
 			"This ability replaces the investigator talent at 7th level."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"psychic_detective": {
 		"name": "Psychic Detective",
 		"file": "archetypedisplay5e7c.html",
 		"sources": [ "Occult Adventures" ],
@@ -1066,9 +1091,10 @@
 			"**Phrenic Dabbler (Su):** At 3rd level, a psychic detective gains a small pool of phrenic points equal to 1/2 her psychic detective level, as well as one phrenic amplification, as the psychic class feature. This does not allow the psychic detective to qualify for the Extra Amplification feat. This ability replaces the investigator talent gained at 3rd level.",
 			"",
 			"**Investigator Talents:** A psychic detective selects investigator talents as normal, except she cannot select the alchemist discovery investigator talent. She can select the Expanded Phrenic Pool feat as a discovery even though she doesn't meet that feat's prerequisites, and she can select an extra phrenic amplification once as a discovery. The following investigator talents, which can be found on pages 32-34 of the Pathfinder RPG Advanced Class Guide, complement the psychic detective archetype: confusing strike, device talent, effortless aid, hidden agendas, inspired intelligence, item lore, and unconventional inspiration. This ability alters investigator talents."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"questioner": {
 		"name": "Questioner",
 		"file": "archetypedisplay5f25.html",
 		"sources": [ "Magic Tactics Toolbox" ],
@@ -1106,9 +1132,10 @@
 			"This ability alters investigator talents.",
 			"",
 			"**Investigator Talents:** The following investigator talents complement the questioner archetype particularly well: expanded inspiration, inspirational expertise, perceptive tracking, rogue talent, and underworld inspiration."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"reckless_epicurean": {
 		"name": "Reckless Epicurean",
 		"file": "archetypedisplaya43d.html",
 		"sources": [ "Potions and Poisons" ],
@@ -1138,9 +1165,10 @@
 			"**Sympathetic Resistance (Su):** At 13th level, when a reckless epicurean drinks an extract or a potion, she gains an alchemical bonus on saves against spells and spell-like abilities of the same school as that potion or extract for a number of rounds equal to her Intelligence modifier. This bonus is equal to the level of the spell contained in the extract or potion. The investigator can use this ability a number of times per day equal to her Intelligence modifier (minimum 1).",
 			"",
 			"This replaces the investigator talent gained at 13th level."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"ruthless_agent": {
 		"name": "Ruthless Agent",
 		"file": "archetypedisplay779e.html",
 		"sources": [ "Antihero's Handbook" ],
@@ -1192,9 +1220,10 @@
 			"At 17th level, the ruthless agent can compel obedience from two creatures at once, and she is always aware of the targets as if they were under the effects of a status spell (caster level = the ruthless agent's investigator level).",
 			"",
 			"This replaces the investigator talents gained at 11th and 17th levels."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"scavenger": {
 		"name": "Scavenger",
 		"file": "archetypedisplaya1c3.html",
 		"sources": [ "Blood of the Beast" ],
@@ -1230,9 +1259,10 @@
 			"**Construct Mastery (Ex):** At 2nd level, a scavenger gains a +2 bonus on all Craft checks to modify or repair creatures of the construct type, as well as a +2 bonus on all weapon damage rolls against constructs. This bonus increases to +4 at 5th level, and to +6 at 8th level. At 11th level, the scavenger gains Craft Construct as a bonus feat, even if he does not meet the prerequisites.",
 			"",
 			"This ability replaces the investigator's poison resistance and poison immunity."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"skeptic": {
 		"name": "Skeptic",
 		"file": "archetypedisplay2a4b.html",
 		"sources": [ "Haunted Heroes Handbook" ],
@@ -1265,9 +1295,10 @@
 			"**Exorcising Touch (Su):** At 7th level, a skeptic can damage a creature currently possessing another without lethally harming the possessed creature. To make an exorcising strike, the skeptic must make a touch attack against the possessed creature. On a hit, she damages the possessing creature or entity, dealing an amount of lethal damage equal to her studied strike bonus damage. The possessed creature takes this amount of damage as nonlethal damage at the same time.",
 			"",
 			"This ability replaces the investigator talent the skeptic would otherwise gain at 7th level."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"sleuth": {
 		"name": "Sleuth",
 		"file": "archetypedisplaydb90.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -1314,9 +1345,10 @@
 			"**Grit, Luck, and Panache:** Grit, luck, and panache represent three different means by which heroes can gain access to the same heroic pool, using it to accomplish fantastic feats. For characters with a mix of grit, luck, and panache, they pool the three resources together into a combined pool. (Those who use panache and luck do not gain twice their Charisma bonus in their pool.) For feats, magic items, and other effects, a panache user can spend and gain luck points in place of grit or panache points, and vice versa.",
 			"",
 			"A luck user does not count as a grit or panache user to satisfy feat prerequisites."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"spiritualist": {
 		"name": "Spiritualist",
 		"file": "archetypedisplaya502.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -1353,9 +1385,10 @@
 			"**Touched by the Beyond (Su):** At 11th level, the spiritualist's ability to touch the beyond grants him further protection against the dangers of death and negative energy. The spiritualist becomes immune to death effects, and he takes half damage from negative energy. This ability replaces poison immunity.",
 			"",
 			"**Investigator Talents:** The following investigator talents complement the spiritualist archetype: amazing inspiration, combat inspiration, effortless aid, eidetic recollection, empathy, expanded inspiration, hidden agendas, inspirational expertise, item lore, studied defense, and tenacious inspiration."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"star_watcher": {
 		"name": "Star Watcher",
 		"file": "archetypedisplay799e.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -1401,9 +1434,10 @@
 			"**Shooting Star (Ex):** A star watcher can calculate trajectories with terrifying accuracy. He can apply the benefits of studied combat, studied strike, and investigator talents that add effects to studied combat or studied strike while using a starknife as a thrown weapon.",
 			"",
 			"Access to these additional talents replaces swift alchemy."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"steel_hound": {
 		"name": "Steel Hound",
 		"file": "archetypedisplay263d.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -1431,9 +1465,10 @@
 			"**Blind Shot (Su):** A steel hound can spend 1 grit point to ignore all miss chances due to concealment when making firearm attacks. This effect lasts until the end of his turn. This ability allows the steel hound to ignore concealment, but does not reveal or allow him to see the enemy. This ability replaces swift alchemy.",
 			"",
 			"**Talented Shot (Ex):** At 11th level, a steel hound can select a gunslinger deed in place of an investigator talent. He can select from any deed available to a gunslinger of his investigator level - 4."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"tekritanin_arbiter": {
 		"name": "Tekritanin Arbiter",
 		"file": "archetypedisplay6024.html",
 		"sources": [ "Blood of the Ancients" ],
@@ -1466,9 +1501,10 @@
 			"**Fluent Speaker (Ex):** At 3rd level, a Tekritanin arbiter learns to speak one language with the skill of a native speaker. He chooses one language he knows and gains a +1 bonus on Disguise checks to appear as an individual native to any region where the language is primarily spoken. In addition, he gains a +1 bonus on both Diplomacy checks to change initial attitudes and Sense Motive checks to detect falsehoods when dealing with individuals with the selected language as their native language. At 6th level and every 3 levels thereafter, these bonuses increase by 1 and the Tekritanin arbiter can select one additional language that his bonuses apply to, up to a maximum of +6 each for six languages at 18th level.",
 			"",
 			"This replaces trap sense."
-		]
+		],
+		"display": "archetype/investigator"
 	},
-	{
+	"toxin_codexer": {
 		"name": "Toxin Codexer",
 		"file": "archetypedisplay2440.html",
 		"sources": [ "Potions and Poisons" ],
@@ -1522,6 +1558,7 @@
 			"- Bestow a 30% spell failure chance on a target.",
 			"",
 			"This replaces keen recollection and trap sense."
-		]
+		],
+		"display": "archetype/investigator"
 	}
-]
+}

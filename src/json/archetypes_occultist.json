@@ -1,5 +1,5 @@
-[
-	{
+{
+	"ancestral_aspirant": {
 		"name": "Ancestral Aspirant",
 		"file": "archetypedisplayc67f.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -32,9 +32,10 @@
 			"**Courtly Contacts (Su):** Ancestral aspirants have contacts among courtly circles rather than otherworldly circles. This works similarly to outside contact except for the following differences: First, he doesn't need to use a magic circle or make a payment (though he still expends 1 point of mental focus from his enchantment implement). Second, he can use those contacts to gather information for him (as per the Diplomacy skill to gather information) without spending the time himself, rather than asking a question and receiving a result similar to a divination. He can ask more questions over the same time period at 12th level and every 4 levels thereafter, as normal with outside contact. At 16th level, instead of delivering messages and objects, the courtly contacts can spread vicious rumors and gossip about a target throughout a settlement, causing any creatures in the settlement whose attitude toward the target wasn't helpful to have its attitude toward the target worsened by one step. These baseless rumors last 1 week or until the target spends 8 hours refuting them and succeeds at a Diplomacy check (DC = 10 + the ancestral aspirant's occultist level + his Intelligence modifier).",
 			"",
 			"This ability replaces outside contact."
-		]
+		],
+		"display": "archetype/occultist"
 	},
-	{
+	"battle_host": {
 		"name": "Battle Host",
 		"file": "archetypedisplay61f7.html",
 		"sources": [ "Occult Adventures" ],
@@ -77,9 +78,10 @@
 			"**Spirit Warrior (Sp):** At 5th level, a battle host can call forth the spirit of a dead warrior who once owned his bonded item. Calling the spirit is a standard action, and unlike the use of most spell-like abilities, it doesn't provoke an attack of opportunity. This ability functions as spiritual ally (Pathfinder RPG Advanced Player's Guide 246), using the battle host's occultist level as his caster level and his Intelligence modifier instead of his Wisdom modifier to determine the spell's effects. The battle host can summon a spirit warrior once per day at 5th level, plus one additional time per day for every 4 occultist levels he possesses beyond 5th. This ability replaces aura sight.",
 			"",
 			"**Heroic Splendor (Su):** At 6th level, a battle host can draw power from his bonded item to imbue himself with superhuman strength, agility, or resilience. As a swift action, a battle host can grant himself a +4 insight bonus to Strength, Dexterity, or Constitution for 1 minute. The battle host can use this ability once per day at 6th level, plus one additional time per day for every 4 occultist levels he possesses beyond 6th. If he activates heroic splendor again before the duration expires, the new use of heroic splendor replaces the old use. This ability replaces outside contact."
-		]
+		],
+		"display": "archetype/occultist"
 	},
-	{
+	"construct_collector": {
 		"name": "Construct Collector",
 		"file": "archetypedisplayafe8.html",
 		"sources": [ "Construct Handbook" ],
@@ -107,9 +109,10 @@
 			"**Repower Construct (Su):** At 8th level, a construct collector can use his mental focus to restore and gain control of a construct. As an immediate action, he can expend a number of points of generic mental focus (minimum 2 points) to prevent a construct within 30 feet from becoming destroyed when reduced to 0 or fewer hit points. The construct immediately regains a number of hit points equal to half of the construct collector's current hit points (minimum 1). The construct follows all of the construct collector's orders until the end of the collector's next turn or until reduced to 0 or fewer hit points. Afterwards, the construct is completely destroyed and cannot be repowered again, even by another construct collector. At 12th level, the construct is instead completely destroyed after a number of rounds equal to the number of points of generic mental focus expended. At 16th level, the construct is instead completely destroyed after a number of minutes equal to the number of points of generic mental focus expended.",
 			"",
 			"This replaces magic circles, outside contact, binding circles, and fast circles."
-		]
+		],
+		"display": "archetype/occultist"
 	},
-	{
+	"curator": {
 		"name": "Curator",
 		"file": "archetypedisplay07d1.html",
 		"sources": [ "Adventurer's Guide" ],
@@ -153,9 +156,10 @@
 			"**Mental Catalog (Su):** At 8th level, the points of mental focus invested in the curator's relic collection increase by 2. This total increases by 1 additional point at 12th level and 16th level.",
 			"",
 			"This ability replaces an occultist's magic circles, binding circles, and fast circles."
-		]
+		],
+		"display": "archetype/occultist"
 	},
-	{
+	"esoteric_initiate": {
 		"name": "Esoteric Initiate",
 		"file": "archetypedisplay809d.html",
 		"sources": [ "Disciple's Doctrine" ],
@@ -184,9 +188,10 @@
 			"**Symbolism (Sp):** At 5th level, an initiate who spends 1 minute carefully studying any written work can understand its gist even if he doesn't speak the language in which the text is written. A number of times per day equal to the initiate's occultist level, the initiate can cast comprehend languages as a spell-like ability to read a written work, using his occultist level as his caster level. If he uses symbolism to read a portion of the work that contains a hidden message or a cypher, he is automatically granted a Linguistics check with a bonus equal to his occultist level to decipher the message.",
 			"",
 			"This replaces aura sight."
-		]
+		],
+		"display": "archetype/occultist"
 	},
-	{
+	"extemporaneous_channeler": {
 		"name": "Extemporaneous Channeler",
 		"file": "archetypedisplayeddd.html",
 		"sources": [ "Martial Arts Handbook" ],
@@ -226,9 +231,10 @@
 			"**Improvised Spell (Su):** At 8th level, an extemporaneous channeler learns to use her implements to improvise a spell similar to one she already knows. Once per day, an extemporaneous channeler can cast an occultist spell from an implement school she knows as if it were one of her spells known, expending a spell slot of the same level and an amount of generic focus equal to the spell's level to cast the desired spell. A spell cast as an improvised spell always has a minimum casting time of 1 round, regardless of the casting time of the spell. At 12th level, an extemporaneous channeler can use this ability twice per day. At 17th level, she can use this ability three times per day.",
 			"",
 			"This replaces magic circles, outside contact, binding circles, and fast circles."
-		]
+		],
+		"display": "archetype/occultist"
 	},
-	{
+	"geomancer": {
 		"name": "Geomancer",
 		"file": "archetypedisplayf566.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -298,9 +304,10 @@
 			"**Wall of Terrain (Sp):** At 13th level, as a standard action, a geomancer can expend 3 points of mental focus invested in the terrain to fashion a solid wall of the surrounding terrain, no matter its actual composition. This functions as per wall of stone, using the geomancer's occultist level as his caster level. By expending an extra point of generic mental focus, he can increase the hardness of the wall to 10 and give it an extra 5 hit points per inch of thickness.",
 			"",
 			"This replaces the focus power gained at 13th level."
-		]
+		],
+		"display": "archetype/occultist"
 	},
-	{
+	"haunt_collector": {
 		"name": "Haunt Collector",
 		"file": "archetypedisplayacf9.html",
 		"sources": [ "Horror Adventures" ],
@@ -343,9 +350,10 @@
 			"At 16th level, the haunt collector can extricate an implement's spirit as a standard action.",
 			"",
 			"This ability replaces magic circles, binding circles, and fast circles."
-		]
+		],
+		"display": "archetype/occultist"
 	},
-	{
+	"naturalist": {
 		"name": "Naturalist",
 		"file": "archetypedisplayb5f8.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -384,9 +392,10 @@
 			"**Reflect on the Land (Sp):** At 12th level, a naturalist can cast commune with nature once per day as a spell-like ability with a caster level equal to his occultist level.",
 			"",
 			"This replaces binding circles."
-		]
+		],
+		"display": "archetype/occultist"
 	},
-	{
+	"necroccultist": {
 		"name": "Necroccultist",
 		"file": "archetypedisplay428c.html",
 		"sources": [ "Occult Adventures" ],
@@ -412,9 +421,10 @@
 			"**Ghostly Horde (Su):** At 5th level, a necroccultist can spend 1 point of mental focus from a necromancy implement to summon a mob of ghostly spirits to harass his enemies. Summoning the ghostly horde is a standard action that doesn't provoke attacks of opportunity. The ghostly horde appears within 60 feet of the necroccultist, fills an area 20 feet in diameter, and always hovers a few inches off the ground (thus ignoring any difficult terrain). The necroccultist can command the ghostly horde to move up to 30 feet each round as a move action, though the farthest edge of the ghostly horde can never be more than 60 feet from the necroccultist. Any creature caught inside the ghostly horde takes 1d6 points of damage per 2 occultist levels at the start of its turn (up to a maximum of 10d6 points of damage at 20th level). A successful Fortitude save (DC = 10 + 1/2 the necroccultist's occultist level + the necroccultist's Intelligence modifier) halves this damage. This damage is not negative energy-it manifests in the form of physical wounds and aches as if from supernatural aging. Nonliving creatures and creatures immune to magical aging are immune to this damage, but otherwise the damage bypasses all forms of damage reduction. The ghostly horde remains for 1 round, though at the beginning of his turn, the necroccultist can expend 1 point of mental focus as a swift action to extend the duration for 1 additional round. The necroccultist can use this ability once per day at 5th level, plus one additional time per day for every 5 occultist levels thereafter. This ability replaces aura sight.",
 			"",
 			"**Life Drain (Sp):** At 8th level, a necroccultist can expend 1 point of mental focus from a necromancy implement to unleash a life-draining ray as a ranged touch attack that causes the target to accrue 1d4 negative levels. The ray has a range of 60 feet. The negative levels last a number of minutes equal to the necroccultist's occultist level. For each negative level this attack gives a target, the necroccultist regains a number of hit points equal to his occultist level. The necroccultist can use this ability once per day at 8th level, plus one additional time per day for every 3 occultist levels thereafter. This ability replaces outside contact."
-		]
+		],
+		"display": "archetype/occultist"
 	},
-	{
+	"occult_historian": {
 		"name": "Occult Historian",
 		"file": "archetypedisplay7778.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -447,9 +457,10 @@
 			"**Crumbling Strike (Su):** At 12th level, an occult historian can channel the erosion of countless ages into a single melee strike. As a full-round action, the occult historian can make a melee attack against a single target at her highest base attack bonus. If she hits, she deals 2d6 points of damage per occultist level she has (maximum 40d6). If the target succeeds at a Fortitude save (the save DC is equal to 10 + half the occult historian's occultist level + her Intelligence modifier), it takes only 5d6 points of damage. A creature slain by this attack crumbles to dust. The occult historian can use this ability once per day, plus an additional time per day at 16th and 20th levels.",
 			"",
 			"This replaces outside contact 2, 3, and 4."
-		]
+		],
+		"display": "archetype/occultist"
 	},
-	{
+	"panoply_savant": {
 		"name": "Panoply Savant",
 		"file": "archetypedisplaycf1b.html",
 		"sources": [ "Psychic Anthology" ],
@@ -489,9 +500,10 @@
 			"**Combined Powers (Su):** At 16th level, whenever a panoply savant uses a focus power from one of his chosen panoply's associated implements, he can expend 2 additional points of mental focus to also use a focus power from one of his chosen panoply's other associated implements as part of the same action. The second focus power must take the same amount of time or less to activate than the first focus power, and the panoply savant must expend the normal mental focus cost to use the second focus power.",
 			"",
 			"This ability replaces fast circles."
-		]
+		],
+		"display": "archetype/occultist"
 	},
-	{
+	"planar_harmonizer": {
 		"name": "Planar Harmonizer",
 		"file": "archetypedisplay1fb4.html",
 		"sources": [ "Plane-Hopper's Handbook" ],
@@ -528,9 +540,10 @@
 			"**Outside Messenger (Su):** At 5th level, a planar harmonizer gains the magic circles class feature. Whenever she creates a magic circle, she can expend 1 additional point of mental focus (either generic focus or focus from any one of her implements) to focus the circle inward and lure that outsider to the circle (similar to using [lesser planar binding](spell:lesser_planar_binding)). This functions as the outside contact occultist ability, except the information gained can be anything that might be learned through an [augury](spell:augury) spell.",
 			"",
 			"This alters magic circles and replaces aura sight and the focus power gained at 5th level."
-		]
+		],
+		"display": "archetype/occultist"
 	},
-	{
+	"psychodermist": {
 		"name": "Psychodermist",
 		"file": "archetypedisplaydcff.html",
 		"sources": [ "Monster Hunter's Handbook" ],
@@ -603,9 +616,10 @@
 			"*Necromancy:* Bones, bile, and life-sustaining fluids, such as blood.",
 			"",
 			"*Transmutation:* Feet, hands, paws, wings, and other appendages tied to locomotion."
-		]
+		],
+		"display": "archetype/occultist"
 	},
-	{
+	"reliquarian": {
 		"name": "Reliquarian",
 		"file": "archetypedisplay7c90.html",
 		"sources": [ "Occult Origins" ],
@@ -638,9 +652,10 @@
 			"**Orisons:** A reliquarian gains one orison, or 0-level divine spell, each time she selects an implement school (including when she again selects a school that she has already learned to use.) These orisons otherwise behave as an occultist's knacks. This ability replaces knacks.",
 			"",
 			"**Divine Focus (Su):** A reliquarian uses her Wisdom modifier, rather than her Intelligence modifier, to determine the amount of mental focus available to her each day. This ability modifies mental focus."
-		]
+		],
+		"display": "archetype/occultist"
 	},
-	{
+	"secret_broker": {
 		"name": "Secret Broker",
 		"file": "archetypedisplay773c.html",
 		"sources": [ "Ultimate Intrigue" ],
@@ -691,9 +706,10 @@
 			"**Purge Secret (Sp):** At 16th level, a secret broker can expend 3 points of mental focus from her divination implement to apply her erase secret ability to up to one creature per level within 30 feet of her.",
 			"",
 			"This ability replaces fast circles."
-		]
+		],
+		"display": "archetype/occultist"
 	},
-	{
+	"sha'ir": {
 		"name": "Sha'ir",
 		"file": "archetypedisplayb7d8.html",
 		"sources": [ "Occult Adventures" ],
@@ -732,9 +748,10 @@
 			"**Manifest Jin (Su):** At 7th level, the sha'ir can designate one of her jin and manifest its powers, allowing it to count as a Small elemental at all times, as if using augment jin to augment it to a Small elemental but with a permanent duration. By concentrating for 1 full round, she can change which of her jin she manifests in this way. This ability replaces aura sight.",
 			"",
 			"**Jin Spy (Su):** At 8th level, when a sha'ir gains her outside contact ability, instead of learning the true names of outsiders, she can ask one or more of her jin to perform tasks. She chooses from the same tasks listed under outside contact (as appropriate to her occultist level). This doesn't require negotiation or gifts, but the jin is not available to the sha'ir during the time it spends performing these tasks. This ability alters outside contact."
-		]
+		],
+		"display": "archetype/occultist"
 	},
-	{
+	"silksworn": {
 		"name": "Silksworn",
 		"file": "archetypedisplay9169.html",
 		"sources": [ "Heroes of the High Court" ],
@@ -797,9 +814,10 @@
 			"**Implement Mastery (Su):** At 20th level, a silksworn chooses two implement schools instead of one, and implement mastery's effects apply to both. The silksworn gains 4 additional points of mental focus for each school's implement.",
 			"",
 			"This alters the occultist's implement mastery."
-		]
+		],
+		"display": "archetype/occultist"
 	},
-	{
+	"talisman_crafter": {
 		"name": "Talisman Crafter",
 		"file": "archetypedisplay0081.html",
 		"sources": [ "Horror Adventures" ],
@@ -837,9 +855,10 @@
 			"**Warding Seal (Su):** At 5th level, a talisman crafter can inscribe a warding seal, infusing an inscribed glyph with psychic energy. Inscribing the seal follows the rules for drawing magic circles, takes 1 minute, and requires the occultist to expend 1 point of mental focus (either generic focus or focus from any one of her implements). As a full-round action that provokes attacks of opportunity, the talisman crafter expends 1 point of mental focus to scribe a special seal, infusing the glyph with a psychic spell she knows that affects one or more creatures and expending the spell slot just as if she had cast the spell. This seal holds the spell energy in check until it's triggered by conditions set forth when the seal is crafted or until the occultist refreshes her mental focus. The seal functions as the spell glyph option of the glyph of warding spell. At 17th level, the talisman crafter's fast circles ability applies to her warding seals, and she treats the ability as the greater spell glyph option of the greater glyph of warding spell.",
 			"",
 			"This ability replaces aura sight and the focus powers normally gained at 5th and 17th levels."
-		]
+		],
+		"display": "archetype/occultist"
 	},
-	{
+	"tome_eater": {
 		"name": "Tome Eater",
 		"file": "archetypedisplay3890.html",
 		"sources": [ "Occult Adventures" ],
@@ -881,6 +900,7 @@
 			"This ability replaces shift focus, the implement gained at 6th level, magic circles, outside contact, binding circles, and fast circles.",
 			"",
 			"**Word Sense (Sp, Su):** At 5th level, a tome eater is constantly under the effect of read magic. Additionally, she can automatically detect the general topic of a piece of writing, and whether that writing is a magical scroll or tome, simply by looking at it. If she spends 1 round concentrating on a text within 30 feet per 100 pages of the text, she can gain a sense of a text's contents as if she had skimmed the text. This ability replaces aura sight."
-		]
+		],
+		"display": "archetype/occultist"
 	}
-]
+}

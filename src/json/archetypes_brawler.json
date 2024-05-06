@@ -1,5 +1,5 @@
-[
-	{
+{
+	"battle_dancer": {
 		"name": "Battle Dancer",
 		"file": "archetypedisplay1efd.html",
 		"sources": [ "Martial Arts Handbook" ],
@@ -42,9 +42,10 @@
 			"**Sparring Partners (Ex):** At 4th level, once per day when a battle dancer gains a flanking bonus on an attack while using her rolling flurry ability, the ally providing the flank gains a flanking bonus on its next attack against that opponent, even if the battle dancer moves out of a flanking position. If either the opponent or the ally moves more than 5 feet before the ally's attack, the flanking bonus is lost. This ability works only if the ally is on the opposite side of an opponent during the battle dancer's attack, not if a flanking bonus is gained in some other way, such as through [Gang Up](feat:gang_up). A battle dancer can use this ability one additional time per day at 10th level and at 16th level.",
 			"",
 			"This replaces knockout."
-		]
+		],
+		"display": "archetype/brawler"
 	},
-	{
+	"bouncer": {
 		"name": "Bouncer",
 		"file": "archetypedisplayca53.html",
 		"sources": [ "Inner Sea Taverns" ],
@@ -76,9 +77,10 @@
 			"**Bar Fight Mastery (Ex):** At 5th level, in addition to the benefits of close weapon mastery, when a bouncer confirms a critical hit against a major participant in a bar fight, she also reduces the tenacity of the crowd by her normal brawling damage amount (this amount isn't doubled).",
 			"",
 			"This alters close weapon mastery."
-		]
+		],
+		"display": "archetype/brawler"
 	},
-	{
+	"constructed_pugilist": {
 		"name": "Constructed Pugilist",
 		"file": "archetypedisplay6df4.html",
 		"sources": [ "People of the Wastes" ],
@@ -124,9 +126,10 @@
 			"**Bonus Item Creation Feats:** At 2nd level, a constructed pugilist adds [Craft Magic Arms and Armor](feat:craft_magic_arms_and_armor), [Master Craftsman (Craft [weapons])](feat:master_craftsman), and [Skill Focus (Craft [weapons])](feat:skill_focus) to the list of bonus feats she can choose (instead of just combat feats).",
 			"",
 			"This alters bonus combat feats."
-		]
+		],
+		"display": "archetype/brawler"
 	},
-	{
+	"exemplar": {
 		"name": "Exemplar",
 		"file": "archetypedisplay786d.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -150,14 +153,17 @@
 			"**Inspiring Prowess (Ex):** At 3rd level, an exemplar gains the ability to use certain [bardic performances](class:bardic_performances). She can use this ability for a number of rounds per day equal to 3 + her Charisma modifier; this increases by 1 round per brawler level thereafter. The exemplar's effective bard level for this ability is equal to her brawler level - 2. At 3rd level, the exemplar can use inspire courage. At 11th level, the exemplar can use inspire greatness. At 15th level, the exemplar can use inspire heroics. Instead of the Perform skill, she activates this ability with impressive flourishes and displays of martial talent (this uses visual components). This ability otherwise functions as bardic performance; feats and other effects that affect bardic performance (such as the [Extra Performance](feat:extra_performance) feat) apply to it. This ability replaces maneuver training and AC bonus.",
 			"",
 			"**Field Instruction (Ex):** At 5th level, as a standard action an exemplar can grant a [teamwork feat](unknown:teamwork_feat) to all allies within 30 feet who can see and hear her. This teamwork feat must be one the exemplar knows or has gained with the martial flexibility ability. Allies retain the use of this teamwork feat for 3 rounds + 1 round for every 2 brawler levels. If the granted teamwork feat is one gained from martial flexibility, this duration ends immediately if the exemplar loses access to that feat. Allies don't need to meet the prerequisites of this teamwork feat. The exemplar can use this ability once per day at 5th level, plus one additional time per day at 9th, 12th, and 17th level. This ability otherwise counts as the cavalier's tactician class feature; feats and other effects which affect tactician (such as Practiced Tactician) apply to it. This ability replaces brawler's strike."
-		]
+		],
+		"display": "archetype/brawler"
 	},
-	{
+	"feral_striker": {
 		"name": "Feral Striker",
 		"file": "archetypedisplaye7a6.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"replaces": "Martial Flexibility",
-		"replace_array": [ "Martial Flexibility" ],
+		"replace_array": [
+			"Martial Flexibility"
+		],
 		"short_description": "A feral striker taps into a reservoir of druidic power hidden inside herself, allowing her to take animalistic characteristics.",
 		"description": [
 			"## Feral Striker",
@@ -176,9 +182,10 @@
 			"At 20th level, the feral striker can take on as many aspects as she wishes at once as a swift action, and they count as only one aspect for the purpose of calculating duration.",
 			"",
 			"This replaces martial flexibility."
-		]
+		],
+		"display": "archetype/brawler"
 	},
-	{
+	"hinyasi": {
 		"name": "Hinyasi",
 		"file": "archetypedisplay44e1-2.html",
 		"sources": [ "Blood of the Ancients" ],
@@ -213,9 +220,10 @@
 			"**Improvisation Mastery (Ex):** At 5th level, a hinyasi picks one type of improvised weapon (light, onehanded, or two-handed) and gains a +2 bonus on attack and damage rolls with that type of weapon.",
 			"",
 			"This replaces close weapon mastery."
-		]
+		],
+		"display": "archetype/brawler"
 	},
-	{
+	"living_avalanche": {
 		"name": "Living Avalanche",
 		"file": "archetypedisplay250e.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -260,9 +268,10 @@
 			"**Improved Avalanche (Ex):** At 20th level, if a living avalanche rolls a natural 20 on an overrun combat maneuver check as part of the avalanche ability, she can immediately attempt to confirm the critical hit by attempting another combat maneuver check with the same modifiers as the previous one; if the critical hit is confirmed, the attack deals double damage.",
 			"",
 			"This replaces improved awesome blow."
-		]
+		],
+		"display": "archetype/brawler"
 	},
-	{
+	"mutagenic_mauler": {
 		"name": "Mutagenic Mauler",
 		"file": "archetypedisplay32e4.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -285,9 +294,10 @@
 			"This ability replaces martial flexibility.",
 			"",
 			"**Beastmorph (Su):** Starting at 4th level, a mutagenic mauler gains additional abilities when using her mutagen. At 4th level, she gains low-light vision and a +10 enhancement bonus to her base speed. At 9th level, she gains darkvision to a range of 30 feet and a climb speed of 15 feet. At 13th level, the enhancement bonus to her base speed increases to +15 feet and she gains the scent ability within 30 feet. At 18th level, her climb speed increases to 30 feet, and the enhancement bonus to her base speed increases to +20 feet. This ability replaces AC bonus."
-		]
+		],
+		"display": "archetype/brawler"
 	},
-	{
+	"shield_champion": {
 		"name": "Shield Champion",
 		"file": "archetypedisplay1137.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -319,9 +329,10 @@
 			"If a shield champion has additional attacks from a high base attack bonus, these additional attacks can be ricochets off an earlier target. The distance to each additional target adds to the total range of the shield, and range penalties apply, but there are no additional penalties for attacking in this manner. Because ricocheting attacks are treated as separate attacks, effects and modifiers that only apply to one attack roll (such as true strike) only apply to the first attack and not to the others. A shield champion can throw a shield as part of a brawler's flurry.",
 			"",
 			"At 9th level, a shield champion gains [Greater Shield Focus](feat:greater_shield_focus) as a bonus feat. She must meet all prerequisites before selecting that feat. At 12th level, a shield champion can use her unarmed strike damage when dealing damage with a shield (whether in melee or thrown) or the shield's damage, whichever is greater. At 17th level, by ricocheting her shield off a nearby surface before hitting your intended target, she can treat that surface as the origin square of the attack to determine whether the target is flanked and whether the target gains a cover bonus to its AC. She can use this ability to attack a creature with total concealment from her if she knows what square it occupies, but the attack still has a 50% miss chance. This ability replaces brawler's strike."
-		]
+		],
+		"display": "archetype/brawler"
 	},
-	{
+	"snakebite_striker": {
 		"name": "Snakebite Striker",
 		"file": "archetypedisplay9f82.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -348,9 +359,10 @@
 			"**Snake Feint (Ex):** At 3rd level, a snakebite striker who uses a standard action to move can combine that move with a feint. If she is able to feint as a move action (such as from having the [Improved Feint](feat:improved_feint) feat), she can combine a move action to move with her feint. At 11th level, once per round she can declare her square and one adjacent square as the origin of her attacks until her next turn (allowing her to use one or both squares to determine whether she or allies are flanking an opponent). At 15th level, she counts an additional adjacent square for this purpose. This ability replaces maneuver training gained at 3rd and 7th levels.",
 			"",
 			"**Opportunist (Ex):** At 11th level, once per round the snakebite striker can make an attack of opportunity against an opponent who has just been struck for damage in melee by another character. This attack counts as an attack of opportunity for that round. She cannot use this ability more than once per round, even if she has the [Combat Reflexes](feat:combat_reflexes) feat or a similar ability. At 19th level, she can use this ability twice per round. This ability replaces the maneuver training gained at 11th and 19th levels."
-		]
+		],
+		"display": "archetype/brawler"
 	},
-	{
+	"steel-breaker": {
 		"name": "Steel-Breaker",
 		"file": "archetypedisplayda84.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -374,9 +386,10 @@
 			"A steel-breaker can instead use this ability as a swift action to analyze the movements and expressions of one creature within 30 feet, granting a bonus on Sense Motive checks and Reflex saving throws, as well as a dodge bonus to AC against that opponent equal to 1/2 her brawler level until the start of her next turn. This ability replaces brawler's strike.",
 			"",
 			"**Sunder Training (Ex):** At 3rd level, a steel-breaker receives additional training in sunder combat maneuvers. She gains a bonus when attempting a sunder combat maneuver checks and a bonus to her CMD when defending against this maneuver. At 7th level, these bonuses increase by 1, and she gains a bonus on disarm combat maneuver checks and a bonus to her CMD when defending against a disarm maneuver. At 11th, 15th, and 19th levels, all of these bonuses increase by 1. This ability alters maneuver training."
-		]
+		],
+		"display": "archetype/brawler"
 	},
-	{
+	"strangler": {
 		"name": "Strangler",
 		"file": "archetypedisplay4f90.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -405,9 +418,10 @@
 			"**Sleeper Hold (Ex):** At 4th level, a strangler can instantly render a pinned opponent unconscious. This works like the knockout ability, but requires a successful grapple combat maneuver check against the pinned opponent and does not have to damage the opponent. Creatures that do not need to breathe, are immune to critical hits, or are immune to nonlethal damage are immune to this ability. At 10th level, a strangler can use this ability twice per day. At 16th level, she can use it three times per day. This alters knockout.",
 			"",
 			"**Neckbreaker (Ex):** At 16th level, a strangler can attempt to instantly kill a pinned opponent as a standard action. This works like the sleeper hold ability, but imposes a -5 penalty on her grapple combat maneuver check. If the opponent succeeds at its Fortitude save, the strangler deals damage as if she had attempted the grapple check to damage her opponent; if the opponent fails its Fortitude save, it dies. Creatures that are immune to critical hits are immune to this ability. At 20th level, the strangler can attempt this as a move action instead of a standard can. This ability replaces awesome blow and improved awesome blow."
-		]
+		],
+		"display": "archetype/brawler"
 	},
-	{
+	"strong-side_boxer": {
 		"name": "Strong-Side Boxer",
 		"file": "archetypedisplay70a0.html",
 		"sources": [ "Martial Arts Handbook" ],
@@ -435,9 +449,10 @@
 			"**Lead Leg (Ex):** At 5th level, a strong-side boxer can spend 1 minute to wrap one of her legs in a chain, and can thereafter use the chain-wrapped leg both defensively and offensively. While her leg is wrapped, she is considered to be wearing a chain shirt, gaining all the appropriate bonuses and penalties. The chain can be enchanted as armor and is treated as masterwork. Once per round while wearing the chain, she can apply a +4 circumstance bonus to a trip attempt as an immediate action.",
 			"",
 			"This replaces close weapon mastery."
-		]
+		],
+		"display": "archetype/brawler"
 	},
-	{
+	"turfer": {
 		"name": "Turfer",
 		"file": "archetypedisplayac2f.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -462,9 +477,10 @@
 			"**Terrain Mastery (Su):** At 4th level, a turfer gains the benefits of [endure elements](spell:endure_elements) and a foot enhancement bonus to her base speed, but only in her favored terrains. In addition, she can move through difficult terrain in her favored terrains at her normal speed without taking damage or suffering any other impairment, but she can't do so through difficult terrain that has been magically manipulated. At 10th and 16th levels, her enhancement bonus to her base speed increases by 10 feet within her favored terrains. The turfer loses this ability if she wears medium or heavy armor or carries a medium or heavy load.",
 			"",
 			"This replaces knockout."
-		]
+		],
+		"display": "archetype/brawler"
 	},
-	{
+	"ulfen_beast-wrestler": {
 		"name": "Ulfen Beast-Wrestler",
 		"file": "archetypedisplay8c66.html",
 		"sources": [ "Advanced Class Origins" ],
@@ -485,9 +501,10 @@
 			"At 7th, 11th, 15th, and 19th levels, the Ulfen beast-wrestler can select an additional type of creature. In addition, at each such interval the bonuses against any one type of creature she's chosen (including the one just selected, if so desired) increase by 2. If a specific creature falls into more than one category, the beast-wrestler's bonuses don't stack; she simply uses whichever bonus is higher. This ability replaces maneuver training.",
 			"",
 			"**Beast Defenses (Ex):** At 4th level, when facing enemies she selected with beast training, the beast-wrestler gains a bonus to AC equal to 1/2 her beast training bonus against that creature. This ability replaces AC bonus."
-		]
+		],
+		"display": "archetype/brawler"
 	},
-	{
+	"venomfist": {
 		"name": "Venomfist",
 		"file": "archetypedisplay85df.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -517,9 +534,10 @@
 			"This is a poison effect. The venomfist can't suppress it, but she affects only those she damages with her unarmed strikes (not those she merely touches).",
 			"",
 			"This alters unarmed strike and replaces knockout and close weapon mastery."
-		]
+		],
+		"display": "archetype/brawler"
 	},
-	{
+	"verdant_grappler": {
 		"name": "Verdant Grappler",
 		"file": "archetypedisplay1f58.html",
 		"sources": [ "Ultimate Wilderness" ],
@@ -548,9 +566,10 @@
 			"**Phytological Anatomy (Su):** At 11th level, the verdant grappler transforms partially into a plant. She gains a +2 bonus on saving throws against mind-affecting, paralysis, poison, polymorph, sleep, and stunning effects.",
 			"",
 			"This replaces the combat feat gained at 11th level."
-		]
+		],
+		"display": "archetype/brawler"
 	},
-	{
+	"wild_child": {
 		"name": "Wild Child",
 		"file": "archetypedisplayb8a8.html",
 		"sources": [ "Advanced Class Guide" ],
@@ -577,9 +596,10 @@
 			"**Maneuver Training (Ex):** Whenever the wild child chooses a new maneuver for this ability, his animal companion also learns a trick to make use of this combat maneuver. For example, if the wild child chooses maneuver training (dirty trick), his animal companion also learns a trick that allows it to use the dirty trick combat maneuver. He cannot choose any tricks that rely on ranged attacks. This bonus trick doesn't count against the animal companion's total tricks known and does not take any time or checks to train. Should the wild child gain a new animal companion (such as if the previous one dies), this new animal companion begins with the same number of bonus tricks. This ability alters maneuver training.",
 			"",
 			"**Wild Tricks (Ex):** The wild child has learned a number of tricks to aid his allies and his animal companion, as well as to hinder his opponents. At 5th level and every 6 levels thereafter, the wild child learns one [hunter's trick](unknown:hunter's_trick). He cannot choose any tricks that rely on ranged attacks. The wild child can use these tricks a number of times per day equal to 1/2 his brawler level + his Constitution modifier. This ability otherwise follows the rules of the hunter's tricks ability, including all action costs. This ability replaces the bonus combat feats gained at 5th, 11th, and 17th levels."
-		]
+		],
+		"display": "archetype/brawler"
 	},
-	{
+	"winding_path_renegade": {
 		"name": "Winding Path Renegade",
 		"file": "archetypedisplay4c82.html",
 		"sources": [ "Adventurer's Guide" ],
@@ -618,6 +638,7 @@
 			"| Slow fall | 4th  |",
 			"| High jump | 5th  |",
 			"| Improved evasion | 9th |"
-		]
+		],
+		"display": "archetype/brawler"
 	}
-]
+}
