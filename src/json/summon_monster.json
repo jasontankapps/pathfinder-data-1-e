@@ -22,7 +22,7 @@
 			"",
 			"**Sources** [Monster Summoner's Handbook](source:monster_summoner's_handbook)",
 			"",
-			"- [Two-Headed Celestial Eagle (LN)](monster:eagle) [^I]   ",
+			"- [Two-Headed Celestial Eagle (LN)](monster:eagle) [^I]  ",
 			"-- *This creature has two heads. It gains a +2 racial bonus on Perception checks, but does not gain an extra bite attack.*"
 		],
 		"display": "summon"
@@ -1323,7 +1323,7 @@
 			"**Sources** [Monster Summoner's Handbook](source:monster_summoner's_handbook)",
 			"",
 			"- [Resolute Griffon (LN)](monster:griffon) [^I]",
-			"- [Two-Headed Celestial Giant Eagle (LN)](monster:giant_eagle) [^I]   ",
+			"- [Two-Headed Celestial Giant Eagle (LN)](monster:giant_eagle) [^I]  ",
 			"-- *This creature has two heads. It gains a +2 racial bonus on Perception checks, but does not gain an extra bite attack.*"
 		],
 		"display": "summon"
@@ -2351,7 +2351,7 @@
 			"",
 			"**Sources** [Elemental Master's Handbook](source:elemental_master's_handbook)",
 			"",
-			"- [Djinni](monster:djinni) [air]   ",
+			"- [Djinni](monster:djinni) [air]  ",
 			"-- *Cannot cast wish*"
 		],
 		"display": "summon"
@@ -2393,7 +2393,7 @@
 			"- [Woolly Rhinoceros](monster:woolly_rhinoceros) [^A]",
 			"- [Xill](monster:xill) [evil]",
 			"- [Agrawgh](monster:agrawgh) [earth]",
-			"- [Ourdivar](monster:ourdivar) [chaotic]   ",
+			"- [Ourdivar](monster:ourdivar) [chaotic]  ",
 			"-- *Spellcaster must be Chaotic Neutral*"
 		],
 		"display": "summon"
@@ -2953,9 +2953,9 @@
 			"",
 			"**Sources** [Elemental Master's Handbook](source:elemental_master's_handbook)",
 			"",
-			"- [Efreeti](monster:efreeti) [fire]   ",
+			"- [Efreeti](monster:efreeti) [fire]  ",
 			"-- *Cannot cast wish*",
-			"- [Shaitan](monster:shaitan) [earth]   ",
+			"- [Shaitan](monster:shaitan) [earth]  ",
 			"-- *Cannot cast wish*"
 		],
 		"display": "summon"
@@ -3480,7 +3480,7 @@
 			"",
 			"**Sources** [Elemental Master's Handbook](source:elemental_master's_handbook)",
 			"",
-			"- [Marid](monster:marid) [water]   ",
+			"- [Marid](monster:marid) [water]  ",
 			"-- *Cannot cast wish*"
 		],
 		"display": "summon"
@@ -3718,7 +3718,7 @@
 			"",
 			"**Sources** [Pathfinder #20: House of the Beast](source:pathfinder_#20_house_of_the_beast)",
 			"",
-			"- [Efreeti (LG)](monster:efreeti) [fire]   ",
+			"- [Efreeti (LG)](monster:efreeti) [fire]  ",
 			"-- *Does not have the wish spell-like ability*"
 		],
 		"display": "summon"
@@ -3799,7 +3799,7 @@
 			"- [Hezrou (Demon, CE)](monster:hezrou) [chaotic, evil]",
 			"- [Meladaemon (Daemon, NE)](monster:meladaemon) [evil]",
 			"- [Rusalka (NE)](monster:rusalka)",
-			"- [Young Adult Green Dragon (LE)](monster:young_green_dragon) [air]   ",
+			"- [Young Adult Green Dragon (LE)](monster:young_green_dragon) [air]  ",
 			"-- *There is no published stat block for a Young Adult Green Dragon. Summoners should use the Dragon Age Categories, Dragon Ability Scores, and Dragon Attacks and Speeds tables to modify the base Green Dragon stat block*"
 		],
 		"display": "summon"
@@ -4361,7 +4361,7 @@
 			"",
 			"**Sources** [Monster Summoner's Handbook](source:monster_summoner's_handbook)",
 			"",
-			"- [Two-Headed Celestial Eagle (LN)](monster:eagle) [^I]   ",
+			"- [Two-Headed Celestial Eagle (LN)](monster:eagle) [^I]  ",
 			"-- *This creature has two heads. It gains a +2 racial bonus on Perception checks, but does not gain an extra bite attack.*"
 		],
 		"display": "summon"
@@ -4392,7 +4392,7 @@
 			"",
 			"**Sources** [Pathfinder #44: Trial of the Beast](source:pathfinder_#44_trial_of_the_beast)",
 			"",
-			"- [Whippoorwill](monster:eagle)   ",
+			"- [Whippoorwill](monster:eagle)  ",
 			"-- *uses eagle statistics*"
 		],
 		"display": "summon"
@@ -4613,11 +4613,11 @@
 			"",
 			"**Sources** [Pathfinder #75: Demon's Heresy](source:pathfinder_#75_demon's_heresy)",
 			"",
-			"- [Axe Beak](monster:axe_beak)   ",
+			"- [Axe Beak](monster:axe_beak)  ",
 			"-- *Order of the Wing*",
-			"- [Dire Badger](monster:dire_badger)   ",
+			"- [Dire Badger](monster:dire_badger)  ",
 			"-- *Order of the Earth*",
-			"- [Giant Porcupine](monster:giant_porcupine)   ",
+			"- [Giant Porcupine](monster:giant_porcupine)  ",
 			"-- *Order of the Earth*"
 		],
 		"display": "summon"
@@ -4710,7 +4710,7 @@
 			"**Sources** [Heroes of the Wild](source:heroes_of_the_wild)",
 			"",
 			"- [Gourd Leshy](monster:gourd_leshy)",
-			"- [Leaf Ray](monster:leaf_ray)   ",
+			"- [Leaf Ray](monster:leaf_ray)  ",
 			"-- *Without Seed ability*"
 		],
 		"display": "summon"
@@ -5029,7 +5029,7 @@
 			"**Sources** [Monster Summoner's Handbook](source:monster_summoner's_handbook)",
 			"",
 			"- [Resolute Griffon (LN)](monster:griffon) [^I]",
-			"- [Two-Headed Celestial Giant Eagle (LN)](monster:giant_eagle) [^I]   ",
+			"- [Two-Headed Celestial Giant Eagle (LN)](monster:giant_eagle) [^I]  ",
 			"-- *This creature has two heads. It gains a +2 racial bonus on Perception checks, but does not gain an extra bite attack.*"
 		],
 		"display": "summon"
@@ -5060,13 +5060,13 @@
 			"",
 			"**Sources** [Pathfinder #75: Demon's Heresy](source:pathfinder_#75_demon's_heresy)",
 			"",
-			"- [Giant Chameleon Lizard](monster:giant_chameleon)   ",
+			"- [Giant Chameleon Lizard](monster:giant_chameleon)  ",
 			"-- *Order of the Fang*",
-			"- [Giant Skunk](monster:giant_skunk)   ",
+			"- [Giant Skunk](monster:giant_skunk)  ",
 			"-- *Order of the Earth*",
-			"- [Giant Vulture](monster:giant_vulture)   ",
+			"- [Giant Vulture](monster:giant_vulture)  ",
 			"-- *Order of the Wing*",
-			"- [Seaweed Leshy](monster:seaweed_leshy)   ",
+			"- [Seaweed Leshy](monster:seaweed_leshy)  ",
 			"-- *Order of the Leaf, Wave*"
 		],
 		"display": "summon"
@@ -5190,7 +5190,7 @@
 			"**Sources** [Heroes of the Wild](source:heroes_of_the_wild)",
 			"",
 			"- [Assassin Vine](monster:assassin_vine)",
-			"- [Seaweed Leshy](monster:seaweed_leshy)   ",
+			"- [Seaweed Leshy](monster:seaweed_leshy)  ",
 			"-- *Without Air Cyst ability*"
 		],
 		"display": "summon"
@@ -5327,11 +5327,11 @@
 			"",
 			"**Sources** [Pathfinder #75: Demon's Heresy](source:pathfinder_#75_demon's_heresy)",
 			"",
-			"- [Emperor Cobra](monster:emperor_cobra)   ",
+			"- [Emperor Cobra](monster:emperor_cobra)  ",
 			"-- *Order of the Fang*",
-			"- [Giant Gar](monster:giant_gar)   ",
+			"- [Giant Gar](monster:giant_gar)  ",
 			"-- *Order of the Wave*",
-			"- [Giant Owl](monster:giant_owl)   ",
+			"- [Giant Owl](monster:giant_owl)  ",
 			"-- *Order of the Wing*"
 		],
 		"display": "summon"
@@ -5577,7 +5577,7 @@
 			"",
 			"**Sources** [Pathfinder #75: Demon's Heresy](source:pathfinder_#75_demon's_heresy)",
 			"",
-			"- [Shambling Mound](monster:shambling_mound)   ",
+			"- [Shambling Mound](monster:shambling_mound)  ",
 			"-- *Order of the Leaf*"
 		],
 		"display": "summon"
@@ -5794,11 +5794,11 @@
 			"",
 			"**Sources** [Pathfinder #75: Demon's Heresy](source:pathfinder_#75_demon's_heresy)",
 			"",
-			"- [Giant Anaconda](monster:giant_anaconda)   ",
+			"- [Giant Anaconda](monster:giant_anaconda)  ",
 			"-- *Order of the Fang*",
-			"- [Giant Flytrap](monster:giant_flytrap)   ",
+			"- [Giant Flytrap](monster:giant_flytrap)  ",
 			"-- *Order of the Leaf*",
-			"- [Giant Snapping Turtle](monster:giant_snapping_turtle)   ",
+			"- [Giant Snapping Turtle](monster:giant_snapping_turtle)  ",
 			"-- *Order of the Wave*"
 		],
 		"display": "summon"
@@ -6032,7 +6032,7 @@
 			"",
 			"**Sources** [Pathfinder #20: House of the Beast](source:pathfinder_#20_house_of_the_beast)",
 			"",
-			"- [Efreeti (LG)](monster:efreeti) [fire]   ",
+			"- [Efreeti (LG)](monster:efreeti) [fire]  ",
 			"-- *Does not have the wish spell-like ability*"
 		],
 		"display": "summon"
