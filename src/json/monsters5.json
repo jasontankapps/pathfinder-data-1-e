@@ -44695,9 +44695,7 @@
 			"",
 			"### Voidsticks",
 			"",
-			"In remote parts of the world, it is not always practical for the faithful to visit holy places with any regularity. In particular, the weak, the sick, and the dying may be in no position to trek across plains or risk dangerous water crossings to see their spiritual leaders. In response to this, the godstick was born-a crafted rod that serves as a portable shrine, carried by shamans and witchdoctors and pushed into the ground to focus devotion at any location. Ingenuity is not just the way of the benign, however, and just as often it is the way of evil. Before long, shamans who worshiped more hateful deities corrupted this notion; they created the voidsticks and drove them into bodies, living or dead, charging those bodies with the power of the endless void and creating rattling, hungry abominations.",
-			"",
-			"Note from Nethys: The [Voidstick](unknown:voidstick) can be found in the Wondrous Item section."
+			"In remote parts of the world, it is not always practical for the faithful to visit holy places with any regularity. In particular, the weak, the sick, and the dying may be in no position to trek across plains or risk dangerous water crossings to see their spiritual leaders. In response to this, the godstick was born-a crafted rod that serves as a portable shrine, carried by shamans and witchdoctors and pushed into the ground to focus devotion at any location. Ingenuity is not just the way of the benign, however, and just as often it is the way of evil. Before long, shamans who worshiped more hateful deities corrupted this notion; they created the [voidsticks](magic/wondrous:voidstick) and drove them into bodies, living or dead, charging those bodies with the power of the endless void and creating rattling, hungry abominations."
 		],
 		"short_description": "This shambling humanoid's taut gray skin shows signs of arcane symbols now faded with age and decay. Long, darkwood spikes riddle its body; every inch of flesh is staked and violated. A palpable aura of entropy and despair hangs over the sorry, perforated creature.",
 		"display": "monster"
@@ -53502,7 +53500,7 @@
 			"",
 			"### Magic Item",
 			"",
-			"In addition to their strange mind-swapping mechanisms, yithian elders also construct other devices alien to the inhabitants of Golarion, including their signature [lightning guns](unknown:lightning_guns)."
+			"In addition to their strange mind-swapping mechanisms, yithian elders also construct other devices alien to the inhabitants of Golarion, including their signature [lightning guns](magic/wondrous:lightning_guns)."
 		],
 		"short_description": "This creature's conical body bears four rubbery appendages: two end in strong pincers, another ends in a cluster of four trumpetlike organs, and yet another is attached to a round head with three eyes that glow with ancient, forbidden power.",
 		"display": "monster"

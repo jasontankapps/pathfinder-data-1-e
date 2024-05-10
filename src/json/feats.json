@@ -27085,7 +27085,7 @@
 			"You possess a strong tie to your fiendish ancestors, granting you favorable abilities.   ",
 			"**Prerequisites:** Tiefling, must be taken at 1st level.   ",
 			"**Benefit:** Your fiendish bloodline proves particularly strong, being tied to a specific race of fiends. Rather than taking a tiefling's usual racial ability modifiers, choose one of the tiefling heritage modifiers presented on page 64. In addition, you may roll on the Variant Tiefling Abilities table three times and choose the most favorable ability.   ",
-			"**Note:** [Blood of Fiends pgs. 18-23](source:blood_of_fiends) reprints the tiefling heritages and does not require players to select the Fiendish Heritage feat to take one."
+			"**Special:** [Blood of Fiends pgs. 18-23](source:blood_of_fiends) reprinted the tiefling heritages without requiring this feat to access them. This feat is now essentially irrelevant."
 		],
 		"short_description": "Choose a different Tiefling heritage",
 		"display": "feat"
@@ -29669,6 +29669,7 @@
 			"| Misayyah | Fire 10 | Firesight | Sunborn | Flaming trail |",
 			"| Tuanu | Cold 10 | Water sense | Fluid movement | Waterborn |",
 			"| Zefaheen | Electricity 10 | Desert walker | Sand sense | Air walker |",
+			"",
 			"**Note:** see the descriptions of the special abilities [here](unknown:here)."
 		],
 		"short_description": "Your mount has been blessed by genies",
@@ -31055,7 +31056,6 @@
 			"**Source**  [Villain Codex pg. 80](source:villain_codex)",
 			"",
 			"You can pull in foes with your whip and then attack them with your sword.   ",
-			"**Note:** This description is identical to the one from Improved Balor Whip and likely a mistake; the Archives will be updated if and when a correction is released.   ",
 			"**Prerequisites:** [Balor Whip](feat:balor_whip), [Improved Balor Whip](feat:improved_balor_whip), [Whip Mastery](feat:whip_mastery), base attack bonus +16.   ",
 			"**Benefit:** When you use Improved Balor Whip to make a single attack at your highest attack bonus, your critical threat range increases to 19-20 and you gain a +4 bonus on critical confirmation rolls if you threaten a critical hit with that attack."
 		],

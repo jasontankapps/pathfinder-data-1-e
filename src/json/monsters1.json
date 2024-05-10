@@ -21242,8 +21242,6 @@
 			"",
 			"#### Description",
 			"",
-			"Nethys Note: The blast shadow was not given a description. The following is reprinted from its entry in Pathfinder #15: The Armageddon Echo",
-			"",
 			"Death by fire is a horrible fate, but far worse is death by a fiery apocalypse. While most are incinerated by such conflagrations, others are infused with the energy of that terrible act and rise again as blast shadows. These undead creatures linger on after the inferno, seeking to spread their pain to the living. Blast shadows haunt the wastelands that spawned them, waiting for victims to come and learn of the catastrophe. Only then do they strike out from the shadows to show them the horrors up close.",
 			"",
 			"Blast shadows typically have the form of the creatures they were in life, though scorched and withered by their fiery deaths. Little more than humanoid skeletons with bits of flesh and hair fused to charred bones, blast shadows usually weigh little more than 60 pounds, and stand at a height typical for the race of which they were formerly members.",
@@ -34472,9 +34470,7 @@
 			"",
 			"Secret of the Kalkus",
 			"",
-			"Certain nefarious sorcerers-known in some lands as kalkus-seek to mimic the horrifying shape and strange abilities of chon chons, or afflict their foes with such a curse. To this end, they've created a terrifying draught with the power to transform the drinker into a being resembling a chon chon, though few can guess for how long.",
-			"",
-			"Note from Nethys: This wondrous item, the [Chon Chon Elixir](unknown:chon_chon_elixir), can be found in the Wondrous Item section."
+			"Certain nefarious sorcerers-known in some lands as kalkus-seek to mimic the horrifying shape and strange abilities of chon chons, or afflict their foes with such a curse. To this end, they've created a [terrifying draught](magic/wondrous:chon_chon_elixir) with the power to transform the drinker into a being resembling a chon chon, though few can guess for how long."
 		],
 		"short_description": "This flying head has incredibly large ears that constantly flap to keep the creature aloft. It babbles to itself as it flies, as if to remind itself of secrets only it knows.",
 		"display": "monster"
@@ -34564,9 +34560,7 @@
 			"",
 			"Secret of the Kalkus",
 			"",
-			"Certain nefarious sorcerers-known in some lands as kalkus-seek to mimic the horrifying shape and strange abilities of chon chons, or afflict their foes with such a curse. To this end, they've created a terrifying draught with the power to transform the drinker into a being resembling a chon chon, though few can guess for how long.",
-			"",
-			"Note from Nethys: This wondrous item, the [Chon Chon Elixir](unknown:chon_chon_elixir), can be found in the Wondrous Item section."
+			"Certain nefarious sorcerers-known in some lands as kalkus-seek to mimic the horrifying shape and strange abilities of chon chons, or afflict their foes with such a curse. To this end, they've created a [terrifying draught](magic/wondrous:chon_chon_elixir) with the power to transform the drinker into a being resembling a chon chon, though few can guess for how long."
 		],
 		"short_description": "This flying head has incredibly large ears that constantly flap to keep the creature aloft. It babbles to itself as it flies, as if to remind itself of secrets only it knows.",
 		"display": "monster"
