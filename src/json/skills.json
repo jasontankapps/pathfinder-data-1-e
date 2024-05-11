@@ -1,4 +1,5 @@
 {
+	"_prefix": "skill",
 	"_searchable_properties": {
 		"STRING": [
 			"short_description"

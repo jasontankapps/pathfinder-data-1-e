@@ -37,117 +37,52 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 **14. Reformation:** If any provision of this License is held to be unenforceable, such provision shall be reformed only to the extent necessary to make it enforceable.
 
 **15. COPYRIGHT NOTICE**  
-Open Game License v 1.0 Copyright 2000, Wizards of the Coast, Inc.  
-System Reference Document. Copyright 2000. Wizards of the Coast, Inc; Authors: Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.  
-[This app/repository] Copyright 2024-
-
-**System Reference Document** &copy; 2000, Wizards of the Coast, Inc.; Authors: Jonathan Tweet, Monte Cook, and Skip Williams, based on original material by Gary Gygax and Dave Arneson.  
+**Open Game License v 1.0** Copyright 2000, Wizards of the Coast, Inc.  
+**System Reference Document** Copyright 2000, Wizards of the Coast, Inc; Authors: Jonathan Tweet, Monte Cook, Skip Williams, based on material by E. Gary Gygax and Dave Arneson.  
+[This app/repository] Copyright 2024-  
 **Jade Dragons and Hungry Ghosts** &copy; 2001, Green Ronin Publishing; Authors: Wolfgang Baur, David â€œZebâ€ Cook, Erik Mona, Leon Phillips, Chris Pramas, and Steven E. Schend.  
 **Legions of Hell** &copy; 2001, Green Ronin Publishing; Author: Chris Pramas.  
 **Adherer from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Authors: Scott Greene and Clark Peterson, based on original material by Guy Shearer.  
-**Amphisbaena from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Angel, Monadic Deva from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Angel, Movanic Deva from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Animal Lord from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
+**Amphisbaena; Angel, Monadic Deva; Angel, Movanic Deva; Animal Lord; Ascomid; Atomie; Aurumvorax; Axe Beak; Basidirond; Beetle, Slicer; Brownie; Daemon, Ceustodaemon (Guardian Daemon); Daemon, Derghodaemon; Daemon, Hydrodaemon; Daemon, Oinodaemon; Daemon, Piscodaemon; Demodand, Shaggy; Demodand, Slimy; Demodand, Tarry; Demon, Nabasu; Dracolisk; Dragon Horse; Dust Digger; Executioner's Hood; Foo Creature; Froghemoth; Giant Slug; Gloomwing; Grippli; Hangman Tree; Jackalwere; Jubilex; Kech; Korred; Leprechaun; Mihstu; Mongrelman; Nabasu Demon; Nereid; Pech; Phycomid; Quickling; Quickwood; Slime Mold; Slithering Tracker; Tenebrous Worm; Tick, Giant & Dragon; Vegepygmy; White Pudding; Wolf-In-Sheep's-Clothing; Yeti; and Zombie, Juju from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
 **Armies of the Abyss** &copy; 2002, Green Ronin Publishing; Authors: Erik Mona and Chris Pramas.  
-**Ascomid from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Atomie from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Aurumvorax from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Axe Beak from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Basidirond from The Tome of Horrors** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
 **Bat, Mobat from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Authors: Scott Peterson and Clark Peterson, based on original material by Gary Gygax.  
-**Beetle, Slicer from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Blindheim from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Roger Musson.  
+**Blindheim, Crypt Thing, Disenchanter, Sandman, and Scarecrow from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Roger Musson.  
 **Book of the Righteous** &copy; 2002, Aaron Loeb.  
-**Brownie from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
 **Bunyip from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Dermot Jackson.  
-**Carbuncle from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Authors: Scott Greene, based on original material by Albie Fiore.  
-**Caryatid Column from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Jean Wells.  
-**Cave Fisher from The Tome of Horrors** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Lawrence Schick.  
-**Crypt Thing from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Roger Musson.  
-**Daemon, Ceustodaemon (Guardian Daemon) from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Daemon, Ceustodaemon (Guardian Daemon) from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Ian McDowall.  
-**Daemon, Ceustodaemon from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Ian McDowall.  
-**Daemon, Derghodaemon from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Daemon, Hydrodaemon from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Daemon, Oinodaemon from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Daemon, Piscodaemon from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
+**Carbuncle, and Yellow Musk Creeper from The Tome of Horrors** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Albie Fiore.  
+**Caryatid Column and Decapus from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Jean Wells.  
+**Cave Fisher and Kelpie from The Tome of Horrors** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Lawrence Schick.  
+**Daemon, Ceustodaemon and Daemon, Ceustodaemon (Guardian Daemon) from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Ian McDowall.  
 **Dark Creeper from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Rik Shepard.  
-**Dark Stalker from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Simon Muth.  
+**Dark Stalker and Skulk from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Simon Muth.  
 **Death Worm from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene and Erica Balsley.  
-**Decapus from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Jean Wells.  
-**Demodand, Shaggy from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Demodand, Slimy from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Demodand, Tarry from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Demon, Nabasu from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
 **Dire Corby from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Jeff Wyndham.  
-**Disenchanter from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Roger Musson.  
-**Dracolisk from The Tome of Horrors** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Dragon Horse from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
 **Dragon, Faerie from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Brian Jaeger and Gary Gygax.  
-**Dust Digger from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Ear Seeker from The Tome of Horrors** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene and Erica Balsley, based on original material by Gary Gygax.  
-**Executioner's Hood from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
+**Ear Seeker and Hippocampus from The Tome of Horrors** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene and Erica Balsley, based on original material by Gary Gygax.  
 **Flail Snail from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Simon Tilbrook.  
 **Flumph from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Ian McDowell and Douglas Naismith.  
-**Foo Creature from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
 **Forlarren from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Ian Livingstone.  
-**Froghemoth from The Tome of Horrors** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Giant Slug from The Tome of Horrors** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
 **Giant, Wood from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Wizards of the Coast.  
-**Gloomwing from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Grippli from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
 **Gryph from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Peter Brown.  
-**Hangman Tree from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Hippocampus from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene and Erica Balsley, based on original material by Gary Gygax.  
 **Huecuva from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Underworld Oracle.  
-**Ice Golem from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene.  
+**Ice Golem; Magma ooze; and Troll, Rock from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene.  
 **Iron Cobra from The Tome of Horrors** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Philip Masters.  
-**Jackalwere from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Jubilex from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
 **Kamadan from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Nick Louth.  
-**Kech from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Kelpie from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Lawrence Schick.  
-**Korred from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Leprechaun from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Magma ooze from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene.  
-**Mihstu from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
 **Mite from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Ian Livingstone and Mark Barnes.  
-**Mongrelman from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Nabasu Demon from The Tome of Horrors** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
 **Necrophidius from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Simon Tillbrook.  
-**Nereid from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
 **Path of the Magi** &copy; 2002, Citizen Games/Troll Lord Games; Authors: Mike McArtor, W. Jason Peck, Jeff Quick, and Sean K Reynolds.  
-**Pech from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Phycomid from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
 **Plot & Poison: A Guidebook to Drow** &copy; 2002, Green Ronin Publishing; Author: Matthew Sernett.  
 **Plot & Poison** &copy; 2002, Green Ronin Publishing, LLC; Author: Matthew Sernett.  
 **Poltergeist from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Lewis Pulsipher.  
-**Quickling from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Quickwood from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
 **Rot Grub from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Authors: Scott Greene and Clark Peterson, based on original material by Gary Gygax.  
-**Sandman from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Roger Musson.  
-**Scarecrow from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Roger Musson.  
 **Shadow Demon from The Tome of Horrors** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Neville White.  
 **Skreyn's Register: The Bonds of Magic** &copy; 2002, Sean K Reynolds.  
-**Skulk from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Simon Muth.  
-**Slime Mold from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Slithering Tracker from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
 **Soul Eater from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by David Cook.  
 **Spriggan from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene and Erica Balsley, based on original material by Roger Moore and Gary Gygax.  
-**Tenebrous Worm from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
 **Tentamort from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Mike Roberts.  
 **The Book of Hallowed Might** &copy; 2002, Monte J. Cook.  
-**Tick, Giant & Dragon from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
 **Troll, Ice from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Russell Cole.  
-**Troll, Rock from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene.  
-**Vegepygmy from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**White Pudding from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Wolf-In-Sheep's-Clothing from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
 **Wood Golem from The Tome of Horrors** &copy; 2002, Necromancer Games, Inc.; Authors: Scott Greene and Patrick Lawinger.  
-**Yellow Musk Creeper from The Tome of Horrors** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Albie Fiore.  
-**Yeti from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
-**Zombie, Juju from The Tome of Horrors Revised** &copy; 2002, Necromancer Games, Inc.; Author: Scott Greene, based on original material by Gary Gygax.  
 **Anger of Angels** &copy; 2003, Sean K Reynolds.  
 **Book of Fiends** &copy; 2003, Green Ronin Publishing; Authors: Aaron Loeb, Erik Mona, Chris Pramas, Robert J. Schwalb.  
 **Monte Cook's Arcana Unearthed** &copy; 2003, Monte J. Cook.  
@@ -180,6 +115,10 @@ System Reference Document. Copyright 2000. Wizards of the Coast, Inc; Authors: J
 **Guide to Korvosa** &copy; 2008, Paizo Publishing, LLC; Author: Mike McArtor.  
 **Into the Darklands** &copy; 2008, Paizo Publishing, LLC; Authors: James Jacobs and Greg A. Vaughan.  
 **Kobold Quarterly Issue 7** &copy; 2008, Open Design LLC, [www.koboldquarterly.com]; Authors: John Baichtal, Wolfgang Baur, Ross Byers, Matthew Cicci, John Flemming, Jeremy Jones, Derek Kagemann, Phillip Larwood, Richard Pett, and Stan!  
+**Pathfinder 6: Spires of Xin-Shalast** &copy; 2008, Paizo Publishing, LLC; Author: Greg A. Vaughan.  
+**Pathfinder 7: Edge of Anarchy** &copy; 2008, Paizo Publishing, LLC; Author: Nicolas Logue.  
+**Pathfinder 8: Seven Days to the Grave** &copy; 2008, Paizo Publishing, LLC; Author: F. Wesley Schneider.  
+**Pathfinder 9: Escape from Old Korvosa** &copy; 2008, Paizo Publishing, LLC; Author: Richard Pett.  
 **Pathfinder 10: A History of Ashes** &copy; 2008, Paizo Publishing, LLC; Author: Michael Kortes.  
 **Pathfinder 11: Skeletons of Scarwall** &copy; 2008, Paizo Publishing, LLC; Author: Greg A. Vaughan.  
 **Pathfinder 12: Crown of Fangs** &copy; 2008, Paizo Publishing, LLC; Author: Tito Leati.  
@@ -188,10 +127,6 @@ System Reference Document. Copyright 2000. Wizards of the Coast, Inc; Authors: J
 **Pathfinder 15: The Armageddon Echo** &copy; 2008, Paizo Publishing, LLC; Author: Jason Bulmahn.  
 **Pathfinder 16: Endless Night** &copy; 2008, Paizo Publishing, LLC; Author: F. Wesley Schneider.  
 **Pathfinder 17: A Memory of Darkness** &copy; 2008, Paizo Publishing, LLC; Author: J. D. Wiker.  
-**Pathfinder 6: Spires of Xin-Shalast** &copy; 2008, Paizo Publishing, LLC; Author: Greg A. Vaughan.  
-**Pathfinder 7: Edge of Anarchy** &copy; 2008, Paizo Publishing, LLC; Author: Nicolas Logue.  
-**Pathfinder 8: Seven Days to the Grave** &copy; 2008, Paizo Publishing, LLC; Author: F. Wesley Schneider.  
-**Pathfinder 9: Escape from Old Korvosa** &copy; 2008, Paizo Publishing, LLC; Author: Richard Pett.  
 **Pathfinder Chronicles: Guide to Absalom** &copy; 2008, Paizo Publishing, LLC; Author: Owen K.C. Stephens.  
 **Pathfinder Companion: Elves of Golarion** &copy; 2008, Paizo Publishing, LLC; Authors: Jeff Quick and Hal Maclean.  
 **Pathfinder Companion: Osirion, Land of Pharaohs** &copy; 2008, Paizo Publishing, LLC; Authors: Jason Nelson and Todd Stewart.  
@@ -239,6 +174,10 @@ System Reference Document. Copyright 2000. Wizards of the Coast, Inc; Authors: J
 **Pathfinder RPG Bestiary** &copy; 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on original material by Jonathan Tweet, Monte Cook, and Skip Williams.  
 **Condition Cards.** &copy; 2010, Paizo Publishing, LLC. Author: Jason Bulmahn.  
 **Kobold Quarterly Issue 14** &copy; 2010, Open Design LLC, [www.koboldquarterly.com].  
+**Pathfinder Adventure Path volume #30: The Twice-Damned Prince** &copy; 2010, Paizo Publishing, LLC; Author: Brian Cortijo and James Jacobs.  
+**Pathfinder Adventure Path volume #31: Stolen Land** &copy; 2010, Paizo Publishing, LLC; Author: Tim Hitchcock.  
+**Pathfinder Adventure Path volume #32: Rivers Run Red** &copy; 2010, Paizo Publishing, LLC; Author: Rob McCreary.  
+**Pathfinder Adventure Path volume #33: The Varnhold Vanishing** &copy; 2010, Paizo Publishing, LLC; Author: Greg A. Vaughan.  
 **Pathfinder Adventure Path #34: Blood for Blood** &copy; 2010, Paizo Publishing, LLC; Author: Neil Spicer.  
 **Pathfinder Adventure Path #35: War of the River Kings** &copy; 2010, Paizo Publishing, LLC; Author: Jason Nelson.  
 **Pathfinder Adventure Path #36: Sound of a Thousand Screams** &copy; 2010, Paizo Publishing, LLC; Author: Richard Pett.  
@@ -246,10 +185,6 @@ System Reference Document. Copyright 2000. Wizards of the Coast, Inc; Authors: J
 **Pathfinder Adventure Path #38: Racing to Ruin** &copy; 2010, Paizo Publishing, LLC; Author: Tim Hitchcock.  
 **Pathfinder Adventure Path #39: City of Seven Spears** &copy; 2010, Paizo Publishing, LLC; Authors: James Jacobs, Kevin Kulp, Rob McCreary, and Owen K.C. Stephens.  
 **Pathfinder Adventure Path #40: Vaults of Madness** &copy; 2010, Paizo Publishing, LLC; Author: Greg A. Vaughan.  
-**Pathfinder Adventure Path volume #30: The Twice-Damned Prince** &copy; 2010, Paizo Publishing, LLC; Author: Brian Cortijo and James Jacobs.  
-**Pathfinder Adventure Path volume #31: Stolen Land** &copy; 2010, Paizo Publishing, LLC; Author: Tim Hitchcock.  
-**Pathfinder Adventure Path volume #32: Rivers Run Red** &copy; 2010, Paizo Publishing, LLC; Author: Rob McCreary.  
-**Pathfinder Adventure Path volume #33: The Varnhold Vanishing** &copy; 2010, Paizo Publishing, LLC; Author: Greg A. Vaughan.  
 **Pathfinder Campaign Setting: Lords of Chaos: Book of the Damned, Vol. 2** &copy; 2010, Paizo Publishing, LLC; Author: James Jacobs.  
 **Pathfinder Campaign Setting: Misfit Monsters Redeemed** &copy; 2010, Paizo Publishing, LLC; Authors: Adam Daigle, Crystal Frasier, Colin McComb, Rob McCreary, Jason Nelson, and James L. Sutter.  
 **Pathfinder Chronicles: City of Strangers** &copy; 2010, Paizo Publishing, LLC; Author: James L. Sutter.  
@@ -273,130 +208,47 @@ System Reference Document. Copyright 2000. Wizards of the Coast, Inc; Authors: J
 **Pathfinder RPG Advanced Player's Guide** &copy; 2010, Paizo Publishing, LLC; Author: Jason Bulmahn.  
 **Pathfinder RPG Core Rulebook** &copy; 2010, Paizo Publishing, LLC; Author: Jason Bulmahn, based on original material by Jonathan Tweet, Monte Cook, and Skip Williams.  
 **Pathfinder RPG GameMastery Guide** &copy; 2010, Paizo Publishing, LLC; Author: Cam Banks, Wolfgang Baur, Jason Bulmahn, Jim Butler, Eric Cagle, Graeme Davis, Adam Daigle, Joshua J. Frost, James Jacobs, Kenneth Hite, Steven Kenson, Robin Laws, Tito Leati, Rob McCreary, Hal Maclean, Colin McComb, Jason Nelson, David Noonan, Richard Pett, Rich Redman, Sean K Reynolds, F. Wesley Schneider, Amber Scott, Doug Seacat, Mike Selinker, Lisa Stevens, James L. Sutter, Russ Taylor, Penny Williams, Skip Williams, Teeuwynn Woodruff.  
-**Abyssal Larva from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Adherer from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Authors: Scott Greene and Clark Peterson, based on original material by Guy Shearer.  
-**Aerial Servant from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; Published and distributed by Frog God Games; Authors: Clark Greene and Clark Peterson, based on original material by Gary Gygax.  
-**Airfiend from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Erica Balsley.  
-**Amphisbaena from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Angel, Monadic Deva from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Angel, Movanic Deva from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Animal Lord, Cat Lord from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Ascomoid from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Atomie from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Aurumvorax from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Axe Beak from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Baccae from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Baphomet from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Basidirond from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Bat, Mobat from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Authors: Scott Greene and Clark Peterson, based on original material by Gary Gygax.  
-**Beetle, Slicer from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Blindheim from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Roger Musson.  
-**Brownie from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Brykolakas from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Bunyip from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Dermot Jackson.  
-**Burning Dervish from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Authors: Scott Greene and Casey Christofferson.  
-**Carbuncle from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Albie Fiore.  
-**Caryatid Column from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Jean Wells.  
-**Cave Fisher from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Lawrence Schick.  
-**Cave Moray from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene and Clark Peterson, based on original material by Gary Gygax.  
-**Church Grim from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Erica Balsley.  
-**Cinder Ghoul from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Erica Balsley.  
-**Coffer Corpse from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Simon Eaton.  
-**Corpse Orgy from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Crucifixion Spirit from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Crypt Thing from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Roger Musson.  
-**Crystallis from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Daemon, Ceustodaemon (Guardian Daemon) from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Ian McDowall.  
-**Daemon, Derghodaemon from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Daemon, Guardian from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Ian McDowall.  
-**Daemon, Hydrodaemon from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Daemon, Oinodaemon from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Daemon, Piscodaemon from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Dark Creeper from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Rik Shepard.  
-**Dark Stalker from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Simon Muth.  
-**Death Dog from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Underworld Oracle.  
-**Death Worm from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Authors: Scott Greene and Erica Balsley.  
-**Debased Fey from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Decapus from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Jean Wells.  
-**Demodand, Shaggy from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Demodand, Slime from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Demodand, Slimy from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Demodand, Tarry from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Demon Lord, Baphomet from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Demon Lord, Dagon from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Demon Lord, Jubilex from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Demon Lord, Kostchtchie from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Demon Lord, Orcus from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene and Clark Peterson, based on original material by Gary Gygax.  
-**Demon Lord, Pazuzu from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Demon, Alu- from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Demon, Nabasu from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Demon, Shadow from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Neville White.  
-**Devil, Flayer from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Devil, Nupperibo from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Dire Corby from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Jeff Wyndham.  
-**Dracolisk from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Dragon Horse from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Dragon, Faerie from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Brian Jaeger and Gary Gygax.  
-**Dust Digger from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Tracy and Laura Hickman.  
-**Executioner's Hood from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Flail Snail from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Simon Tilbrook.  
-**Flind and Flindbar from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by J.D. Morris.  
-**Flind from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by J.D. Morris.  
-**Flumph from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Ian McDowell and Douglas Naismith.  
-**Foo Creature from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Forlarren from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Ian Livingstone.  
-**Froghemoth from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Genie, Marid from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Giant, Wood from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Wizards of the Coast.  
-**Gloomwing from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Gloomwing from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Nigel Morgan.  
-**Golem, Furnace from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Golem, Ice from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Golem, Mummy from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Golem, Rope from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Golem, Witch-Doll from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Golem, Wood from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Authors: Scott Greene and Patrick Lawinger.  
-**Grippli from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene and Erica Balsley, based on original material by Gary Gygax.  
-**Gryph from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Peter Brown.  
-**Hangman Tree from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Hippocampus from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Authors: Scott Greene and Erica Balsley, based on original material by Gary Gygax.  
-**Huecuva from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Underworld Oracle.  
-**Ice Golem from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Iron Cobra from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Philip Masters.  
-**Jackalwere from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Jackalwere from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Ian McDowell and Douglas Naismith.  
+**Abyssal Larva; Baccae; Brykolakas; Corpse Orgy; Crucifixion Spirit; Crystallis; Debased Fey; Demon Lord, Dagon; Devil, Flayer; Golem, Furnace; Golem, Ice; Golem, Mummy; Golem, Rope; Golem, Witch-Doll; Ice Golem; Mummy of the Deep; Ooze, Entropic; Ooze, Glacial; Ooze, Magma; Phantasm; Pit Hag; Slime Mold; Stone Maiden; Swarm, Adamantine Wasp; Swarm, Shadow Rat; Swarm, Warden Jack; Temporal Crawler; Time Flayer; Tombstone Fairy; Troll, Rock; Undead Lord; Willow Dusk; Witch Tree; and Zombie, Brine from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene.  
+**Adherer from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Authors: Scott Greene and Clark Peterson, based on original material by Guy Shearer.  
+**Aerial Servant from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Authors: Clark Greene and Clark Peterson, based on original material by Gary Gygax.  
+**Airfiend, Church Grim, Cinder Ghoul, and Sand Kraken from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Erica Balsley.  
+**Amphisbaena; Angel, Monadic Deva; Angel, Movanic Deva; Animal Lord, Cat Lord; Ascomoid; Atomie; Aurumvorax; Axe Beak; Baphomet; Basidirond; Beetle, Slicer; Brownie; Daemon, Derghodaemon; Daemon, Hydrodaemon; Daemon, Oinodaemon; Daemon, Piscodaemon; Demodand, Shaggy; Demodand, Slime; Demodand, Slimy; Demodand, Tarry; Demon Lord, Baphomet; Demon Lord, Jubilex; Demon Lord, Kostchtchie; Demon Lord, Pazuzu; Demon, Alu-; Demon, Nabasu; Devil, Nupperibo; Dracolisk; Dragon Horse; Executioner's Hood; Foo Creature; Froghemoth; Genie, Marid; Gloomwing; Hangman Tree; Jackalwere; Jelly, Mustard; Jubilex; Juju Zombie; Kech; Kelpie; Korred; Kostchtchie; Leprechaun; Lurker Above; Marid; Mihstu; Monadic Deva; Moon Dog; Movanic Deva; Muckdweller; Nabasu Demon; Nabasu; Nereid; Ooze, Crystal from The Tome Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
+**Orcus; Pazuzu; Pech; Phycomid; Pudding, White; Quickling; Quickwood; Russet Mold; Skeleton Warrior; Slithering Tracker; Slug, Giant; Swarm, Raven; Tenebrous Worm; Thorny; Tick, Giant; Trapper; Vegepygmy; Wolf-in-Sheep's-Clothing; Wolf-In-Sheep's-Clothing; Yeti; Zombie, Juju from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
+**Bat, Mobat; and Rot Grub from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Authors: Scott Greene and Clark Peterson, based on original material by Gary Gygax.  
+**Blindheim, Crypt Thing, Sandman, and Scarecrow from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Roger Musson.  
+**Bunyip from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Dermot Jackson.  
+**Burning Dervish from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Authors: Scott Greene and Casey Christofferson.  
+**Carbuncle; Yellow Musk Creeper; and Yellow Musk Zombie from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Albie Fiore.  
+**Caryatid Column and Decapus from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Jean Wells.  
+**Cave Fisher; Kelpie; and Sandling from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Lawrence Schick.  
+**Cave Moray; Demon Lord, Orcus; and Mobat from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene and Clark Peterson, based on original material by Gary Gygax.  
+**Coffer Corpse from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Simon Eaton.  
+**Daemon, Ceustodaemon (Guardian Daemon) and Daemon, Guardian from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Ian McDowall.  
+**Dark Creeper from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Rik Shepard.  
+**Dark Stalker and Skulk from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Simon Muth.  
+**Death Dog and Huecuva from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Underworld Oracle.  
+**Death Worm from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Authors: Scott Greene and Erica Balsley.  
+**Demon, Shadow from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Neville White.  
+**Dire Corby from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Jeff Wyndham.  
+**Dragon, Faerie from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Brian Jaeger and Gary Gygax.  
+**Dust Digger from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Tracy and Laura Hickman.  
+**Flail Snail from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Simon Tilbrook.  
+**Flind and Flindbar from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by J.D. Morris.  
+**Flumph and Jackalwere from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Ian McDowell and Douglas Naismith.  
+**Forlarren from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Ian Livingstone.  
+**Giant, Wood from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Wizards of the Coast.  
+**Gloomwing from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Nigel Morgan.  
+**Golem, Wood from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Authors: Scott Greene and Patrick Lawinger.  
+**Grippli from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene and Erica Balsley, based on original material by Gary Gygax.  
+**Gryph from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Peter Brown.  
+**Hippocampus from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Authors: Scott Greene and Erica Balsley, based on original material by Gary Gygax.  
+**Iron Cobra from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Philip Masters.  
 **Jade Regent Player's Guide** &copy; 2011, Paizo Publishing, LLC; Authors: James Jacobs and Patrick Renie.  
-**Jelly, Mustard from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Jubilex from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Juju Zombie from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Kamadan from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Nick Louth.  
-**Kech from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Kelpie from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Kelpie from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Lawrence Schick.  
-**Korred from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Kostchtchie from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Lantern Goat from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene and Lance Hawvermale.  
-**Leprechaun from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Lurker Above from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Marid from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Mihstu from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Mite from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Authors: Scott Greene and Skeeter Green, based on original material by Ian Livingstone and Mark Barnes.  
-**Mobat from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene and Clark Peterson, based on original material by Gary Gygax.  
-**Monadic Deva from The Tome of Horrors Complete** &copy; 2011, Necromancer Games Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Mongrelman from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Roger Moore and Gary Gygax.  
-**Moon Dog from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Movanic Deva from The Tome of Horrors Complete** &copy; 2011, Necromancer Games Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Muckdweller from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Mummy of the Deep from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Nabasu Demon from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Nabasu from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Necrophidius from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Simon Tillbrook.  
-**Nereid from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Ooze, Crystal from The Tome Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Ooze, Entropic from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Ooze, Glacial from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Ooze, Magma from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Orcus from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
+**Kamadan from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Nick Louth.  
+**Lantern Goat from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene and Lance Hawvermale.  
+**Mite from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Authors: Scott Greene and Skeeter Green, based on original material by Ian Livingstone and Mark Barnes.  
+**Mongrelman from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Roger Moore and Gary Gygax.  
+**Necrophidius from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Simon Tillbrook.  
 **Pathfinder Adventure Path #41: The Thousand Fangs Below** &copy; 2011, Paizo Publishing, LLC; Authors: Graeme Davis and Rob McCreary.  
 **Pathfinder Adventure Path #42: Sanctum of the Serpent God** &copy; 2011, Paizo Publishing, LLC; Author: Neil Spicer.  
 **Pathfinder Adventure Path #43: The Haunting of Harrowstone** &copy; 2011, Paizo Publishing, LLC; Author: Michael Kortes.  
@@ -421,61 +273,15 @@ System Reference Document. Copyright 2000. Wizards of the Coast, Inc; Authors: J
 **Pathfinder Roleplaying Game Bestiary 3** &copy; 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Bulmahn, Adam Daigle, James Jacobs, Michael Kenway, Rob McCreary, Patrick Renie, Chris Sims, F. Wesley Schneider, James L. Sutter, and Russ Taylor, based on original material by Jonathan Tweet, Monte Cook, and Skip Williams.  
 **Pathfinder Roleplaying Game Ultimate Combat** &copy; 2011, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Brian J. Cortijo, Jim Groves, Tim Hitchcock, Richard A. Hunt, Colin McComb, Jason Nelson, Tom Phillips, Patrick Renie, Sean K Reynolds, and Russ Taylor.  
 **Pathfinder Roleplaying Game Ultimate Magic** &copy; 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor.  
-**Pazuzu from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Pech from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Phantasm from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Phycomid from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Pit Hag from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Poltergeist from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Lewis Pulsipher.  
-**Pudding, White from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Quickling from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Quickwood from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Rat, Shadow from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Authors: Clark Peterson and Scott Greene.  
-**Rot Grub from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Authors: Scott Greene and Clark Peterson, based on original material by Gary Gygax.  
-**Russet Mold from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Sand Kraken from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Erica Balsley.  
-**Sandling from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Lawrence Schick.  
-**Sandman from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Roger Musson.  
-**Scarecrow from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Roger Musson.  
-**Shadow Demon from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Neville White.  
-**Skeleton Warrior from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Skulk from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Simon Muth.  
-**Slime Mold from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Slithering Tracker from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Slug, Giant from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Soul Eater from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by David Cook.  
-**Spriggan from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Authors: Scott Greene and Erica Balsley, based on original material by Roger Moore and Gary Gygax.  
-**Stone Maiden from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Swarm, Adamantine Wasp from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Swarm, Raven from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Swarm, Shadow Rat from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Swarm, Warden Jack from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Temporal Crawler from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Tenebrous Worm from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Tentamort from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Mike Roberts.  
-**Thessalhydra from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax and Wizards of the Coast.  
-**Thorny from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Tick, Giant from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Time Flayer from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Tombstone Fairy from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Trapper from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Treant, Lightning from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Casey Christofferson.  
-**Troll, Ice from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Authors: Scott Greene and Erica Balsley, based on original material by Russell Cole.  
-**Troll, Rock from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Troll, Two-Headed from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Oliver Charles MacDonald.  
-**Undead Lord from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Vegepygmy from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Willow Dusk from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Witch Tree from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Wolf-in-Sheep's-Clothing from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Wolf-In-Sheep's-Clothing from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Wood Giant from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Wizards of the Coast.  
-**Wood Golem from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Authors: Scott Greene and Patrick Lawinger.  
-**Yellow Musk Creeper from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Albie Fiore.  
-**Yellow Musk Zombie from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Albie Fiore.  
-**Yeti from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
-**Zombie, Brine from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene.  
-**Zombie, Juju from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc., published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax.  
+**Poltergeist from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Lewis Pulsipher.  
+**Rat, Shadow from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Authors: Clark Peterson and Scott Greene.  
+**Soul Eater from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by David Cook.  
+**Spriggan from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Authors: Scott Greene and Erica Balsley, based on original material by Roger Moore and Gary Gygax.  
+**Tentamort from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Mike Roberts.  
+**Thessalhydra from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Gary Gygax and Wizards of the Coast.  
+**Treant, Lightning from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Casey Christofferson.  
+**Troll, Ice from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Authors: Scott Greene and Erica Balsley, based on original material by Russell Cole.  
+**Troll, Two-Headed from The Tome of Horrors Complete** &copy; 2011, Necromancer Games, Inc.; published and distributed by Frog God Games; Author: Scott Greene, based on original material by Oliver Charles MacDonald.  
 **Midgard Bestiary for Pathfinder RPG** &copy; 2012, Open Design LLC; Authors: Adam Daigle with Chris Harris, Michael Kortes, James MacKenzie, Rob Manning, Ben McFarland, Carlos Ovalle, Jan Rodewald, Adam Roy, Christina Stiles, James Thomas, and Mike Welham.  
 **Pathfinder Adventure Path #54: The Empty Throne** &copy; 2012, Paizo Publishing, LLC; Author: Neil Spicer.  
 **Pathfinder Adventure Path #55: The Wormwood Mutiny** &copy; 2012, Paizo Publishing, LLC; Author: Richard Pett.  
@@ -610,8 +416,6 @@ System Reference Document. Copyright 2000. Wizards of the Coast, Inc; Authors: J
 **Pathfinder Roleplaying Game Strategy Guide** &copy; 2014, Paizo Inc.; Authors: Wolfgang Baur, Jason Bulmahn, John Compton, Jessica Price, and Sean K Reynolds.  
 **Giantslayer Player's Guide** &copy; 2015, Paizo Inc.; Authors: Adam Daigle and Rob McCreary.  
 **Hell's Rebels Player's Guide** &copy; 2015, Paizo Inc.; Author: James Jacobs.  
-**Pathfinder Adventure Path #100: A Song of Silver** &copy; 2015, Paizo Inc.; Authors: James Jacobs, with Adam Daigle, Crystal Frasier, Jim Groves, Tim Hitchcock, Brandon Hodge, Nicolas Logue, Stephanie Lor&eacute;e, Rob McCreary, Erik Mona, Jason Nelson, Richard Pett, Sean K Reynolds, F. Wesley Schneider, Amber E. Scott, Mike Shel, Neil Spicer, and Greg A. Vaughan.  
-**Pathfinder Adventure Path #101: The Kintargo Contract** &copy; 2015, Paizo Inc.; Authors: Jim Groves, with Robert Brookes, Stephanie Lor&eacute;e, Kalervo Oikarinen, David N. Ross, F. Wesley Schneider, and Todd Stewart.  
 **Pathfinder Adventure Path #91: Battle of Bloodmarch Hill** &copy; 2015, Paizo Inc.; Authors: Patrick Renie, with Tyler Beck, Adam Daigle, Richard Pett, Stephen Radney-MacFarland, and David Schwartz.  
 **Pathfinder Adventure Path #92: The Hill Giant's Pledge** &copy; 2015, Paizo Inc.; Authors: Larry Wilhelm, with Benjamin Bruck, Thurston Hillman, Mikko Kallio, Michael Kortes, David Schwartz, and Russ Taylor.  
 **Pathfinder Adventure Path #93: Forge of the Giant God** &copy; 2015, Paizo Inc.; Authors: Tim Hitchcock, with Benjamin Bruck, Mark Moreland, Sean K Reynolds, and Greg A. Vaughan.  
@@ -621,6 +425,8 @@ System Reference Document. Copyright 2000. Wizards of the Coast, Inc; Authors: J
 **Pathfinder Adventure Path #97: In Hell's Bright Shadow** &copy; 2015, Paizo Inc.; Authors: Crystal Frasier, with Eric Hindley, Stephanie Lor&eacute;e, and Michael McCarthy.  
 **Pathfinder Adventure Path #98: Turn of the Torrent** &copy; 2015, Paizo Inc.; Authors: Mike Shel, with Thurston Hillman, Stephanie Lor&eacute;e, Tim Nightengale, and Todd Stewart.  
 **Pathfinder Adventure Path #99: Dance of the Damned** &copy; 2015, Paizo Inc.; Authors: Richard Pett, with Stephanie Lor&eacute;e, Michael McCarthy, Alistair Rigg, F. Wesley Schneider, and Todd Stewart.  
+**Pathfinder Adventure Path #100: A Song of Silver** &copy; 2015, Paizo Inc.; Authors: James Jacobs, with Adam Daigle, Crystal Frasier, Jim Groves, Tim Hitchcock, Brandon Hodge, Nicolas Logue, Stephanie Lor&eacute;e, Rob McCreary, Erik Mona, Jason Nelson, Richard Pett, Sean K Reynolds, F. Wesley Schneider, Amber E. Scott, Mike Shel, Neil Spicer, and Greg A. Vaughan.  
+**Pathfinder Adventure Path #101: The Kintargo Contract** &copy; 2015, Paizo Inc.; Authors: Jim Groves, with Robert Brookes, Stephanie Lor&eacute;e, Kalervo Oikarinen, David N. Ross, F. Wesley Schneider, and Todd Stewart.  
 **Pathfinder Campaign Setting: Andoran, Birthplace of Freedom** &copy; 2015, Paizo Inc.; Authors: Tim Hitchcock and Jason Nelson.  
 **Pathfinder Campaign Setting: Belkzen, Hold of the Orc Hordes** &copy; 2015, Paizo Inc.; Authors: Tyler Beck, Jason Garrett, Alex Greenshields, and David Schwartz.  
 **Pathfinder Campaign Setting: Cheliax, The Infernal Empire** &copy; 2015, Paizo Inc.; Authors: Amanda Hamon Kunz, Ron Lundeen, and Mark Moreland.  

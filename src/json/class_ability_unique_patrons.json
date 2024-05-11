@@ -1,0 +1,140 @@
+{
+	"_prefix": "class_abilities-patron_unique",
+	"_description": [
+		"## Unique Patrons",
+		"",
+		"**Source** [Blood of the Coven pg. 15](source:blood_of_the_coven)  ",
+		"Witch patrons are enigmatic entities, sometimes fair minded and other times malevolent. Some are demigods or powerful spirits, such as those that grant shamans their spellcasting. Others are manifestations of cosmic forces, created by the certainty of mortals and the fundamental need for balance in much the same way aeons manifest. While kindly patrons are rare-attracting worshipers more readily than agents-the majority are high-minded and neutral figures. They dispense arcane power to those whose interests and mindsets align with their needs, and once a witch drifts from the cause or refuses to pay the price for such power, her patron divests the spellcaster of her powers and departs. Wicked patrons enjoy longer-lasting relationships, however, manipulating the witches' minds and punishing disobedience in a manner far more personal than an evil god. The familiar of a wicked patron becomes equal parts power source and prison guard, forever studying its charge for disobedience.",
+		"",
+		"The various published witch patron themes present a wide array of concepts and priorities to align with a large variety of supernatural beings. Some specific patrons, however, might offer variations within the spells they grant. Special patrons swap out the spells normally provided by a patron theme at specific levels, and grant a specific hex and drawback at 1st level. Once a specific patron has been selected, a witch cannot change her patron or raise a hand against that entity without losing her spellcasting, hexes, and familiar. These categories are limited in the patron themes they can provide; their witches must select from one of the four listed for each entry. These patrons are extraordinary examples of their kind, often invested with unique or mythic powers and pursuing long-term agendas measured in centuries or eons."
+	],
+	"_sources": [
+		"Blood of the Coven"
+	],
+	"celestial_agenda": {
+		"name": "Celestial Agenda",
+		"file": "uniquepatrondisplaydfb4.html",
+		"themes": "Endurance, Healing, Light, Portents",
+		"description": [
+			"### Celestial Agenda",
+			"",
+			"While good deities and empyreal lords have organized faiths to carry out their wills, powerfully ranked agathions, angels, and archons-and occasional intersectional councils of good outsiders-sometimes invest white witches with celestial might to defend the weak and heal the sick. You gain the ward hex at 1st level, but your patron holds you to a higher standard: you must be of good alignment, and you take a -2 penalty on Bluff, Intimidate, Sleight of Hand, and other skill checks to deceive or threaten others.",
+			"",
+			"**Available Patron Themes:** Endurance, Healing, Light, Portents",
+			"",
+			"**Spell Changes:** 4th-[castigate](spell:castigate), 10th-[rebuke](spell:rebuke), 16th-[greater planar ally (good outsiders only)](spell:greater_planar_ally)."
+		]
+	},
+	"empath": {
+		"name": "Empath",
+		"file": "uniquepatrondisplay351c.html",
+		"themes": "Ancestors, Mind, Spirits, Wisdom",
+		"description": [
+			"### Empath",
+			"",
+			"Your patron is a manifestation of the collective living experience-mortal desire and purpose given direction by the beliefs of countless minds and hearts. You gain the tongues hex at 1st level, but you cannot help but feel the despair, pain, and other negative emotions in those around you, taking a -5 penalty on saving throws against emotion effects.",
+			"",
+			"**Available Patron Themes:** Ancestors, Mind, Spirits, Wisdom",
+			"",
+			"**Spell Changes:** 2nd-[burst of insight](spell:burst_of_insight), 6th-[analyze aura](spell:analyze_aura), 10th-[retrocognition](spell:retrocognition)."
+		]
+	},
+	"fey_gifts": {
+		"name": "Fey Gifts",
+		"file": "uniquepatrondisplay1997.html",
+		"themes": "Agility, Enchantment, Trickery, Winter",
+		"description": [
+			"### Fey Gifts",
+			"",
+			"A powerful fey or other entity from the First World has offered you magic. You serve as an anchor and scrying focus in the Material Plane for your patron, but you also provide frequent amusement. You gain the charm hex at 1st level, but your fey patron delights in your failure and injury and frequently jinxes you; once each day, the Game Master can demand you reroll a single ability check, attack roll, saving throw, or skill check and use the worse result.",
+			"",
+			"**Available Patron Themes:** Agility, Enchantment, Trickery, Winter",
+			"",
+			"**Spell Changes:** 2nd-[disguise self](spell:disguise_self), 4th-[hideous laughter](spell:hideous_laughter), 16th-[irresistible dance](spell:irresistible_dance)."
+		]
+	},
+	"green_whispers": {
+		"name": "Green Whispers",
+		"file": "uniquepatrondisplaye426.html",
+		"themes": "Animals, Endurance, Moon, Transformation",
+		"description": [
+			"### Green Whispers",
+			"",
+			"Your witch powers are a manifestation of the Green Faith or bestowed by a representative of natural forces, such as an ancient treant or nature spirit, who expects you to wield such gifts on its behalf. You gain the feral speech hex at 1st level, but you cannot abide the touch of iron or steel; contact with either metal deals 1d3 points of damage each round, and wearing metal armor prevents you from casting spells until it is removed.",
+			"",
+			"**Available Patron Themes:** Animals, Endurance, Moon, Transformation",
+			"",
+			"**Spell Changes:** 2nd-[entangle](spell:entangle), 6th-[plant growth](spell:plant_growth), 10th-[tree stride](spell:tree_stride)."
+		]
+	},
+	"hag's_calling": {
+		"name": "Hag's Calling",
+		"file": "uniquepatrondisplay990f.html",
+		"themes": "Moon, Plague, Shadow, Vengeance",
+		"description": [
+			"### Hag's Calling",
+			"",
+			"Hags of exceptional power-most often mute hags and dreamthief hags-sometimes invest mortal agents with the same well of ancient power they have mastered. Hags most often invest their changeling daughters with such power, either once they have proven loyal or else to tempt them into wickedness. You gain the coven hex at 1st level, but you can neither use the aid another action nor receive benefits from others' aid another actions.",
+			"",
+			"**Available Patron Themes:** Moon, Plague, Shadow, Vengeance",
+			"",
+			"**Spell Changes:** 2nd-[disguise self](spell:disguise_self), 8th-[sending](spell:sending), 10th-[commune (hag/patron rather than deity)](spell:commune)."
+		]
+	},
+	"infernal_contract": {
+		"name": "Infernal Contract",
+		"file": "uniquepatrondisplay91a6.html",
+		"themes": "Enchantment, Strength, Trickery, Vengeance",
+		"description": [
+			"### Infernal Contract",
+			"",
+			"Your power was brokered from a powerful daemon, demon, or devil to speed the corruption and moral decay of mortals. When you die, your soul goes to Abaddon, the Abyss, or Hell, and you can't be raised or resurrected except by extraordinary means-though bold service may earn you a favored position in damnation. You gain the misfortune hex at 1st level, but your magic requires sacrifice; each day when you prepare spells, you must deal 1d6 points of damage to yourself as part of your infernal ritual, feeding the lost blood to your familiar. At 5th level and every 5 levels thereafter, this damage increases by 1d6.",
+			"",
+			"**Available Patron Themes:** Enchantment, Strength, Trickery, Vengeance",
+			"",
+			"**Spell Changes:** 8th-[lesser planar ally](spell:lesser_planar_ally), 12th-[planar ally](spell:planar_ally), 16th-[greater planar ally (your bonus spells can be used to summon only the type of outsider your patron represents)](spell:greater_planar_ally)."
+		]
+	},
+	"shadowbound": {
+		"name": "Shadowbound",
+		"file": "uniquepatrondisplayd4c3.html",
+		"themes": "Death, Deception, Ethereal, Shadow",
+		"description": [
+			"### Shadowbound",
+			"",
+			"Deep exposure to entities from the Plane of Shadow-kytons, nightshades, owbs, and similar ethereal forces-has infused you with shadow. You gain the disguise hex at 1st level, but you also gain light blindness.",
+			"",
+			"**Available Patron Themes:** Death, Deception, Ethereal, Shadow",
+			"",
+			"**Spell Changes:** 8th-[shadow conjuration](spell:shadow_conjuration), 12th-[shadow walk](spell:shadow_walk), 16th-[greater shadow evocation](spell:greater_shadow_evocation)."
+		]
+	},
+	"the_condition_of_all": {
+		"name": "The Condition of All",
+		"file": "uniquepatrondisplay2fa6.html",
+		"themes": "Elements, Time, Transformation, Wisdom",
+		"description": [
+			"### The Condition of All",
+			"",
+			"Aeons are often patrons to witches, seeking out mortals who share their vested interest in some agenda that helps them promote the cosmic balance. You gain the scar hex at 1st level, but such service requires unwavering commitment to their cause, and you lose your spellcasting and hexes (but not your familiar) if your alignment changes after taking your first witch level; you regain your spellcasting and hexes once you revert to your original alignment.",
+			"",
+			"**Available Patron Themes:** Elements, Time, Transformation, Wisdom",
+			"",
+			"**Spell Changes:** 2nd-[forbid action](spell:forbid_action), 8th-[dismissal](spell:dismissal), 12th-[geas/quest](spell:geas/quest)."
+		]
+	},
+	"touched_by_the_outer_gods": {
+		"name": "Touched by the Outer Gods",
+		"file": "uniquepatrondisplay3fd2.html",
+		"themes": "Insanity, Occult, Stars, Transformation",
+		"description": [
+			"### Touched by the Outer Gods",
+			"",
+			"Your powers hail from an incomprehensible being from beyond the stars, whose motivations and needs erode your psyche. You gain the unnerve beasts hex at 1st level, but you take a -2 penalty on saving throws against confusion and emotion effects and are affected by such effects for at least 1 round even on a successful saving throw.",
+			"",
+			"**Available Patron Themes:** Insanity, Occult, Stars, Transformation",
+			"",
+			"Spell Changes: 2nd-[lesser confusion](spell:lesser_confusion), 8th-[dreadscape](spell:dreadscape), 10th-[compelling rant](spell:compelling_rant)."
+		]
+	}
+}

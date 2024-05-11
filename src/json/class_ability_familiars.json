@@ -1,0 +1,859 @@
+{
+	"_prefix": "class_abilities-familiar",
+	"_description": [
+		"## Familiars",
+		"",
+		"A familiar is an animal chosen by a spellcaster to aid him in his study of magic. It retains the appearance, Hit Dice, base attack bonus, base save bonuses, skills, and feats of the normal animal it once was, but is now a magical beast for the purpose of effects that depend on its type. Only a normal, unmodified animal may become a familiar. An animal companion cannot also function as a familiar.",
+		"",
+		"A familiar grants special abilities to its master, as given on the table below. These special abilities apply only when the master and familiar are within 1 mile of each other.",
+		"",
+		"Levels of different classes that are entitled to familiars stack for the purpose of determining any familiar abilities that depend on the master's level.",
+		"",
+		"If a familiar is lost or dies, it can be replaced 1 week later through a specialized ritual that costs 200 gp per wizard level. The ritual takes 8 hours to complete.",
+		"",
+		"Statistics for familiars [can be found here](class/companion:familiar).",
+		"",
+		"While most familiars are Tiny animals or magical beasts, spellcasters may acquire larger or more unusual creatures during their travels, which impart certain rules effects that should be considered at the table.",
+		"",
+		"Small familiars threaten the areas around them like other Small creatures, and can be used to flank enemies-though both familiars and their masters are generally loath to employ such tactics, as the result is often a dead familiar. Small familiars are also harder to keep on a master's person than Tiny or smaller familiars; some form of magic item, like a bag of holding, is usually required.",
+		"",
+		"Construct, plant, and vermin familiars gain an Intelligence score, and they lose the mindless trait if they had it. If such familiars lack a language, they communicate with their masters and other creatures of their kind (greensting scorpions with other scorpions, mobile plant creatures with other mobile plant creatures, and so on) by way of a strange combination of behaviors, slight changes in coloration, and sometimes even the excretion of scents or pheromones. Other types of creatures can't understand this communication without magical aid.",
+		"",
+		"Outsiders and undead creatures are normally available only with the [Improved Familiar](feat:improved_familiar) feat, and require no other special rules.",
+		"",
+		"Improved familiars [are listed here.](class/ability:improvedfamiliars)"
+	],
+	"archaeopteryx": {
+		"name": "Archaeopteryx",
+		"monster_file": "monsterdisplaya60c.html",
+		"master_bonus": "Master gains a +2 bonus on Reflex saves",
+		"sources": [ "Bestiary 4" ]
+	},
+	"arctic_fox": {
+		"name": "Arctic fox",
+		"monster_file": "monsterdisplayb345.html",
+		"master_bonus": "Master gains a +2 bonus on Reflex saves (use fox statistics, +4 Stealth to blend into snow)",
+		"sources": [
+			"Ultimate Wilderness",
+			"Reign of Winter Player's Guide"
+		]
+	},
+	"arctic_hare": {
+		"name": "Arctic hare",
+		"monster_file": "monsterdisplay62c0.html",
+		"master_bonus": "Master gains a +4 bonus on initiative checks",
+		"sources": [
+			"Ultimate Wilderness",
+			"Reign of Winter Player's Guide"
+		]
+	},
+	"arctic_tern": {
+		"name": "Arctic tern",
+		"monster_file": "monsterdisplay7449.html",
+		"master_bonus": "Master gains a +3 bonus on Fly checks",
+		"sources": [
+			"Ultimate Wilderness",
+			"Reign of Winter Player's Guide"
+		]
+	},
+	"armadillo": {
+		"name": "Armadillo",
+		"monster_file": "monsterdisplay2119.html",
+		"master_bonus": "Master gains a +1 natural armor bonus to AC",
+		"sources": [
+			"Ultimate Wilderness",
+			"Animal Archive"
+		]
+	},
+	"bat": {
+		"name": "Bat",
+		"monster_file": "monsterdisplayd725.html",
+		"master_bonus": "Master gains a +3 bonus on Fly checks",
+		"sources": [
+			"Animal Archive",
+			"PRPG Core Rulebook"
+		]
+	},
+	"butterfly": {
+		"name": "Butterfly",
+		"monster_file": "monsterdisplayb5c7.html",
+		"master_bonus": "Master gains a +3 bonus on Perform checks",
+		"sources": [ "Ultimate Wilderness" ]
+	},
+	"cat": {
+		"name": "Cat",
+		"monster_file": "monsterdisplay6768.html",
+		"master_bonus": "Master gains a +3 bonus on Stealth checks",
+		"sources": [
+			"Animal Archive",
+			"PRPG Core Rulebook"
+		]
+	},
+	"cat,_margay": {
+		"name": "Cat, margay",
+		"searchable_name": "Margay Cat",
+		"monster_file": "monsterdisplaye6fb.html",
+		"master_bonus": "Master gains a +3 bonus on Bluff checks",
+		"sources": [ "Ultimate Wilderness" ]
+	},
+	"centipede,_house": {
+		"name": "Centipede, house",
+		"searchable_name": "House Centipede",
+		"monster_file": "monsterdisplayb18d.html",
+		"master_bonus": "Master gains a +3 bonus on Stealth checks",
+		"sources": [
+			"Animal Archive",
+			"Ultimate Magic"
+		]
+	},
+	"chicken": {
+		"name": "Chicken",
+		"monster_file": "monsterdisplaye168.html",
+		"master_bonus": "Master gains a +3 hit points",
+		"sources": [
+			"Ultimate Wilderness",
+			"Bestiary 5",
+			"Familiar Folio"
+		]
+	},
+	"cockroach": {
+		"name": "Cockroach",
+		"monster_file": "monsterdisplay3533.html",
+		"master_bonus": "Master gains a +3 hit points",
+		"sources": [ "Ultimate Wilderness" ]
+	},
+	"compsognathus_dinosaur": {
+		"name": "Compsognathus dinosaur",
+		"monster_file": "monsterdisplayace8.html",
+		"master_bonus": "Master gains a +4 bonus on initiative checks",
+		"sources": [
+			"Animal Archive",
+			"Bestiary 2"
+		]
+	},
+	"crab,_king": {
+		"name": "Crab, king",
+		"searchable_name": "King Crab",
+		"monster_file": "monsterdisplay02d4.html",
+		"master_bonus": "Master gains a +2 bonus on combat maneuver checks to start and maintain a grapple",
+		"sources": [
+			"Animal Archive",
+			"Ultimate Magic"
+		]
+	},
+	"creeper_ivy": {
+		"name": "Creeper ivy",
+		"monster_file": "monsterdisplay2e17.html",
+		"master_bonus": "Master gains a +3 bonus on Climb checks",
+		"sources": [ "Ultimate Wilderness" ]
+	},
+	"dodo": {
+		"name": "Dodo",
+		"monster_file": "monsterdisplay6c84.html",
+		"master_bonus": "Master gains a +4 bonus on initiative checks",
+		"sources": [
+			"Ultimate Wilderness",
+			"Animal Archive",
+			"Bestiary 4"
+		]
+	},
+	"dolphin,_popoto": {
+		"name": "Dolphin, popoto",
+		"searchable_name": "Popoto Dolphin",
+		"monster_file": "monsterdisplay873b.html",
+		"master_bonus": "Master gains a +3 bonus on Swim checks",
+		"sources": [
+			"Ultimate Wilderness",
+			"Familiar Folio"
+		]
+	},
+	"donkey_rat": {
+		"name": "Donkey rat",
+		"monster_file": "monsterdisplayc05c.html",
+		"master_bonus": "Master gains a +2 bonus on Fortitude saves",
+		"sources": [
+			"Animal Archive",
+			"Ultimate Magic"
+		]
+	},
+	"dwarf_caiman": {
+		"name": "Dwarf caiman",
+		"monster_file": "monsterdisplay13ca.html",
+		"master_bonus": "Master gains a +3 bonus on Stealth checks",
+		"sources": [
+			"Ultimate Wilderness",
+			"Animal Archive"
+		]
+	},
+	"dweomer_cap": {
+		"name": "Dweomer cap",
+		"monster_file": "monsterdisplayea4a.html",
+		"master_bonus": "Master gains a +3 bonus on Spellcraft checks to identify magic items",
+		"sources": [ "Ultimate Wilderness" ]
+	},
+	"ermine": {
+		"name": "Ermine",
+		"monster_file": "monsterdisplayf0df.html",
+		"master_bonus": "Master gains a +2 bonus on Reflex saves (use weasal statistics, +4 Stealth to blend into snow)",
+		"sources": [
+			"Ultimate Wilderness",
+			"Reign of Winter Player's Guide"
+		]
+	},
+	"fire_salamander": {
+		"name": "Fire salamander",
+		"monster_file": "monsterdisplay3563.html",
+		"master_bonus": "Master gains a +3 bonus on Escape Artist checks",
+		"sources": [ "Ultimate Wilderness" ]
+	},
+	"flowering_lattice": {
+		"name": "Flowering lattice",
+		"monster_file": "monsterdisplayb4f1.html",
+		"master_bonus": "Master gains a +3 bonus on Diplomacy checks",
+		"sources": [ "Ultimate Wilderness" ]
+	},
+	"flying_fox": {
+		"name": "Flying fox",
+		"monster_file": "monsterdisplay9049.html",
+		"master_bonus": "Master gains a +2 bonus on Fortitude saves",
+		"sources": [ "Bestiary 5" ]
+	},
+	"flying_squirrel": {
+		"name": "Flying squirrel",
+		"monster_file": "monsterdisplay4225.html",
+		"master_bonus": "Master gains a +3 bonus on Fly checks",
+		"sources": [ "Bestiary 3" ]
+	},
+	"fox": {
+		"name": "Fox",
+		"monster_file": "monsterdisplayb345.html",
+		"master_bonus": "Master gains a +2 bonus on Reflex saves",
+		"sources": [
+			"Animal Archive",
+			"Bestiary 3",
+			"Ultimate Magic"
+		]
+	},
+	"giant_flea": {
+		"name": "Giant flea",
+		"monster_file": "monsterdisplayb759.html",
+		"master_bonus": "Master gains a +3 bonus on Fortitude saves against disease (witch only)",
+		"sources": [ "Bestiary 4" ]
+	},
+	"giant_isopod": {
+		"name": "Giant isopod",
+		"monster_file": "monsterdisplay903e.html",
+		"master_bonus": "Master gains a +1 natural armor bonus to AC",
+		"sources": [ "Animal Archive" ]
+	},
+	"goat": {
+		"name": "Goat",
+		"monster_file": "monsterdisplay7e66.html",
+		"master_bonus": "Master gains a +3 bonus on Survival checks",
+		"sources": [
+			"Animal Archive",
+			"Ultimate Magic",
+			"Bestiary 3"
+		]
+	},
+	"hawk": {
+		"name": "Hawk",
+		"monster_file": "monsterdisplaya721.html",
+		"master_bonus": "Master gains a +3 bonus on sight-based and opposed Perception checks in bright light",
+		"sources": [
+			"Animal Archive",
+			"PRPG Core Rulebook"
+		]
+	},
+	"hedgehog": {
+		"name": "Hedgehog",
+		"monster_file": "monsterdisplay95b0.html",
+		"master_bonus": "Master gains a +2 bonus on Will saves",
+		"sources": [
+			"Animal Archive",
+			"Ultimate Magic"
+		]
+	},
+	"horned_lizard": {
+		"name": "Horned lizard",
+		"monster_file": "monsterdisplay3b9b.html",
+		"master_bonus": "Master gains a +2 bonus on Fortitude saves",
+		"sources": [ "Ultimate Wilderness" ]
+	},
+	"ioun_wyrd": {
+		"name": "Ioun wyrd",
+		"monster_file": "monsterdisplaya3e1.html",
+		"master_bonus": "Master gains a +1 natural armor bonus to AC",
+		"sources": [
+			"Ultimate Wilderness",
+			"Familiar Folio"
+		]
+	},
+	"isopod,_giant": {
+		"name": "Isopod, giant",
+		"searchable_name": "Giant Isopod",
+		"monster_file": "monsterdisplay903e.html",
+		"master_bonus": "Master gains a +2 bonus on Reflex saves",
+		"sources": [ "Ultimate Wilderness" ]
+	},
+	"jerboa": {
+		"name": "Jerboa",
+		"monster_file": "monsterdisplay1a4e.html",
+		"master_bonus": "Master gains a +4 bonus on initiative checks",
+		"sources": [ "Ultimate Wilderness" ]
+	},
+	"kakapo": {
+		"name": "Kakapo",
+		"monster_file": "monsterdisplayf3c6.html",
+		"master_bonus": "Master gains a +3 bonus on Climb checks",
+		"sources": [
+			"Ultimate Wilderness",
+			"Familiar Folio"
+		]
+	},
+	"keulia": {
+		"name": "Keulia",
+		"monster_file": "monsterdisplayd5f4.html",
+		"master_bonus": "Master gains a +3 bonus to Disguise checks",
+		"sources": [ "Druma, Profit and Prophecy" ]
+	},
+	"koala": {
+		"name": "Koala",
+		"monster_file": "monsterdisplay060b.html",
+		"master_bonus": "Master gains a +3 bonus on Climb checks",
+		"sources": [
+			"Ultimate Wilderness",
+			"Familiar Folio"
+		]
+	},
+	"lamprey": {
+		"name": "Lamprey",
+		"monster_file": "monsterdisplay0055.html",
+		"master_bonus": "Master gains a +3 hit points",
+		"sources": [ "Ultimate Wilderness" ]
+	},
+	"lemming": {
+		"name": "Lemming",
+		"monster_file": "monsterdisplay3190.html",
+		"master_bonus": "Master gains a +2 bonus on Fortitude saves",
+		"sources": [
+			"Ultimate Wilderness",
+			"Reign of Winter Player's Guide"
+		]
+	},
+	"leopard_slug": {
+		"name": "Leopard slug",
+		"monster_file": "monsterdisplaya0d8.html",
+		"master_bonus": "Master gains a +3 bonus on Climb checks",
+		"sources": [ "Familiar Folio" ]
+	},
+	"leopard_slug_2": {
+		"name": "Leopard Slug",
+		"monster_file": "monsterdisplaya0d8.html",
+		"master_bonus": "Master gains a +3 bonus on Climb checks",
+		"sources": [ "Ultimate Wilderness" ]
+	},
+	"lich_newt": {
+		"name": "Lich newt",
+		"monster_file": "monsterdisplayd1c0.html",
+		"master_bonus": "Master gains a +2 bonus on Fortitude saves against disease and poison",
+		"sources": [ "Pathfinder #115: Trail of the Hunted" ]
+	},
+	"lizard": {
+		"name": "Lizard",
+		"monster_file": "monsterdisplay871f.html",
+		"master_bonus": "Master gains a +3 bonus on Climb checks",
+		"sources": [
+			"Animal Archive",
+			"PRPG Core Rulebook"
+		]
+	},
+	"marine_iguana": {
+		"name": "Marine iguana",
+		"monster_file": "monsterdisplay13ca.html",
+		"master_bonus": "Master gains a +3 bonus on Swim checks (use dwarf caiman stats for marine iguanas)",
+		"sources": [
+			"Ultimate Wilderness",
+			"Animal Archive"
+		]
+	},
+	"meerkat": {
+		"name": "Meerkat",
+		"monster_file": "monsterdisplayc719.html",
+		"master_bonus": "Master gains a +3 bonus on Escape Artist checks",
+		"sources": [ "Ultimate Wilderness" ]
+	},
+	"mole": {
+		"name": "Mole",
+		"monster_file": "monsterdisplayb7cf.html",
+		"master_bonus": "Master gains a +3 bonus on smell-, taste-, and touch-based Perception checks",
+		"sources": [
+			"Ultimate Wilderness",
+			"Familiar Folio"
+		]
+	},
+	"mongoose": {
+		"name": "Mongoose",
+		"monster_file": "monsterdisplayf0df.html",
+		"master_bonus": "Master gains a +2 bonus on Fortitude saves (use weasel stats for mongooses)",
+		"sources": [
+			"Ultimate Wilderness",
+			"Animal Archive"
+		]
+	},
+	"monkey": {
+		"name": "Monkey",
+		"monster_file": "monsterdisplay7783.html",
+		"master_bonus": "Master gains a +3 bonus on Acrobatics checks",
+		"sources": [
+			"Animal Archive",
+			"PRPG Core Rulebook"
+		]
+	},
+	"moth": {
+		"name": "Moth",
+		"monster_file": "monsterdisplayb5c7.html",
+		"master_bonus": "Master gains a +3 bonus on Survival checks",
+		"sources": [ "Ultimate Wilderness" ]
+	},
+	"octopus,_blue-ringed": {
+		"name": "Octopus, blue-ringed",
+		"searchable_name": "Blue Ringed Octopus",
+		"monster_file": "monsterdisplay1139.html",
+		"master_bonus": "Master gains a +3 bonus on Swim checks",
+		"sources": [
+			"Animal Archive",
+			"Ultimate Magic"
+		]
+	},
+	"osprey": {
+		"name": "Osprey",
+		"monster_file": "monsterdisplaya721.html",
+		"master_bonus": "Master gains a +3 bonus on Survival checks (use hawk stats for ospreys)",
+		"sources": [
+			"Ultimate Wilderness",
+			"Animal Archive"
+		]
+	},
+	"otter": {
+		"name": "Otter",
+		"monster_file": "monsterdisplayf888.html",
+		"master_bonus": "Master gains a +3 bonus on Swim checks",
+		"sources": [
+			"Animal Archive",
+			"Bestiary 3"
+		]
+	},
+	"owl": {
+		"name": "Owl",
+		"monster_file": "monsterdisplay20c8.html",
+		"master_bonus": "Master gains a +3 bonus on sight-based and opposed Perception checks in shadows or darkness",
+		"sources": [
+			"Animal Archive",
+			"PRPG Core Rulebook"
+		]
+	},
+	"parrot": {
+		"name": "Parrot",
+		"monster_file": "monsterdisplayb72d.html",
+		"master_bonus": "Master gains a +3 bonus on Linguistics checks (use raven stats for parrots)",
+		"sources": [
+			"Ultimate Wilderness",
+			"Animal Archive"
+		]
+	},
+	"peacock": {
+		"name": "Peacock",
+		"monster_file": "monsterdisplay4b82.html",
+		"master_bonus": "Master gains a +3 bonus on Intimidate checks",
+		"sources": [ "Familiar Folio" ]
+	},
+	"peafowl": {
+		"name": "Peafowl",
+		"monster_file": "monsterdisplay189e.html",
+		"master_bonus": "Master gains a +3 bonus on Intimidate checks",
+		"sources": [ "Ultimate Wilderness" ]
+	},
+	"penguin": {
+		"name": "Penguin",
+		"monster_file": "monsterdisplay1d03.html",
+		"master_bonus": "Master gains a +3 bonus on Swim checks",
+		"sources": [
+			"Ultimate Wilderness",
+			"Familiar Folio",
+			"Bestiary 5"
+		]
+	},
+	"petrifern": {
+		"name": "Petrifern",
+		"monster_file": "monsterdisplayb91b.html",
+		"master_bonus": "Master gains a +1 natural armor bonus to AC",
+		"sources": [
+			"Ultimate Wilderness",
+			"Familiar Folio"
+		]
+	},
+	"petromin": {
+		"name": "Petromin",
+		"monster_file": "monsterdisplay58f8.html",
+		"master_bonus": "Master gains a +3 bonus on Stealth checks",
+		"sources": [ "Pathfinder #85: Fires of Creation" ]
+	},
+	"pig": {
+		"name": "Pig",
+		"monster_file": "monsterdisplay4d6d.html",
+		"master_bonus": "Master gains a +3 bonus on Diplomacy checks",
+		"sources": [
+			"Animal Archive",
+			"Ultimate Magic",
+			"Bestiary 3"
+		]
+	},
+	"platypus": {
+		"name": "Platypus",
+		"monster_file": "monsterdisplayef3a.html",
+		"master_bonus": "Master gains a +3 bonus on Swim checks",
+		"sources": [
+			"Ultimate Wilderness",
+			"Bestiary 4",
+			"Animal Archive"
+		]
+	},
+	"ptarmigan": {
+		"name": "Ptarmigan",
+		"monster_file": "monsterdisplay0fa8.html",
+		"master_bonus": "Master gains a +3 bonus on Stealth checks",
+		"sources": [
+			"Ultimate Wilderness",
+			"Reign of Winter Player's Guide"
+		]
+	},
+	"pufferfish": {
+		"name": "Pufferfish",
+		"monster_file": "monsterdisplay72f5.html",
+		"master_bonus": "Master gains a +2 bonus on Fortitude saves",
+		"sources": [
+			"Ultimate Wilderness",
+			"Familiar Folio"
+		]
+	},
+	"puffin": {
+		"name": "Puffin",
+		"monster_file": "monsterdisplayf127.html",
+		"master_bonus": "Master gains a +2 bonus on Stealth checks",
+		"sources": [
+			"Ultimate Wilderness",
+			"Reign of Winter Player's Guide"
+		]
+	},
+	"rabbit": {
+		"name": "Rabbit",
+		"monster_file": "monsterdisplayf772.html",
+		"master_bonus": "Master gains a +4 bonus on initiative checks",
+		"sources": [
+			"Ultimate Wilderness",
+			"Animal Archive"
+		]
+	},
+	"raccoon": {
+		"name": "Raccoon",
+		"monster_file": "monsterdisplaydbe5.html",
+		"master_bonus": "Master gains a +3 bonus on Sleight of Hand checks",
+		"sources": [
+			"Animal Archive",
+			"Bestiary 3"
+		]
+	},
+	"rat": {
+		"name": "Rat",
+		"monster_file": "monsterdisplayfe92.html",
+		"master_bonus": "Master gains a +2 bonus on Fortitude saves",
+		"sources": [
+			"Animal Archive",
+			"PRPG Core Rulebook"
+		]
+	},
+	"raven": {
+		"name": "Raven",
+		"monster_file": "monsterdisplayb72d.html",
+		"master_bonus": "Master gains a +3 bonus on Appraise checks",
+		"special_ability": "A raven familiar can speak one language of its master's choice as a supernatural ability.",
+		"sources": [
+			"Animal Archive",
+			"PRPG Core Rulebook"
+		]
+	},
+	"ravenous_tumbleweed": {
+		"name": "Ravenous Tumbleweed",
+		"monster_file": "monsterdisplay583a.html",
+		"master_bonus": "Master gains a 10-foot bonus to speed when using the charge, run, or withdraw actions",
+		"sources": [ "Ultimate Wilderness" ]
+	},
+	"razor_fern": {
+		"name": "Razor Fern",
+		"monster_file": "monsterdisplayf722.html",
+		"master_bonus": "Master gains a +3 bonus on Stealth checks",
+		"sources": [ "Ultimate Wilderness" ]
+	},
+	"red_panda": {
+		"name": "Red panda",
+		"monster_file": "monsterdisplaybf7c.html",
+		"master_bonus": "Master gains a +3 bonus on Acrobatics checks",
+		"sources": [ "Bestiary 5" ]
+	},
+	"rhamphorhynchus": {
+		"name": "Rhamphorhynchus",
+		"monster_file": "monsterdisplayefc9.html",
+		"master_bonus": "Master gains a +4 bonus on initiative checks",
+		"sources": [
+			"Ultimate Wilderness",
+			"Pathfinder #37: Souls for Smuggler's Shiv",
+			"Animal Archive"
+		]
+	},
+	"rock_tuatara": {
+		"name": "Rock Tuatara",
+		"monster_file": "monsterdisplayabf8.html",
+		"master_bonus": "Master gains a +3 bonus on Stealth checks in rocky environments",
+		"sources": [ "Pathfinder #118: Siege of Stone" ]
+	},
+	"sawleg_locust": {
+		"name": "Sawleg locust",
+		"monster_file": "monsterdisplay97fd.html",
+		"master_bonus": "Master gains a +3 bonus on Acrobatics checks",
+		"sources": [ "Ultimate Wilderness" ]
+	},
+	"scorpion,_greensting": {
+		"name": "Scorpion, greensting",
+		"searchable_name": "Greensting Scorpion",
+		"monster_file": "monsterdisplay0f6e.html",
+		"master_bonus": "Master gains a +4 bonus on initiative checks (if familiar is within 1 mile)",
+		"sources": [
+			"Bestiary 4",
+			"Animal Archive",
+			"Ultimate Magic"
+		]
+	},
+	"sea_krait": {
+		"name": "Sea krait",
+		"monster_file": "monsterdisplay84bd.html",
+		"master_bonus": "Master gains a +2 bonus on Fortitude saves (use viper stats for sea kraits)",
+		"sources": [
+			"Ultimate Wilderness",
+			"Animal Archive"
+		]
+	},
+	"seal": {
+		"name": "Seal",
+		"monster_file": "monsterdisplay9f40.html",
+		"master_bonus": "Master gains a +3 bonus on Swim checks",
+		"sources": [
+			"Ultimate Wilderness",
+			"Bestiary 5",
+			"Animal Archive"
+		]
+	},
+	"shimmerwing_dragonfly": {
+		"name": "Shimmerwing dragonfly",
+		"monster_file": "monsterdisplay6ded.html",
+		"master_bonus": "Master gains a +3 bonus on Fly checks",
+		"sources": [ "Ultimate Wilderness" ]
+	},
+	"skunk": {
+		"name": "Skunk",
+		"monster_file": "monsterdisplay42b8.html",
+		"master_bonus": "Master gains a +2 bonus on Fortitude saves",
+		"sources": [
+			"Ultimate Wilderness",
+			"Animal Archive"
+		]
+	},
+	"sloth": {
+		"name": "Sloth",
+		"monster_file": "monsterdisplayeada.html",
+		"master_bonus": "Master gains a +3 bonus on Climb checks",
+		"sources": [ "Bestiary 4" ]
+	},
+	"snail_kite": {
+		"name": "Snail kite",
+		"monster_file": "monsterdisplaya721.html",
+		"master_bonus": "Master gains a +3 bonus on Fly checks (use hawk stats for snail kites)",
+		"sources": [
+			"Ultimate Wilderness",
+			"Animal Archive"
+		]
+	},
+	"snapping_turtle": {
+		"name": "Snapping turtle",
+		"monster_file": "monsterdisplay38e6.html",
+		"master_bonus": "Master gains a +2 bonus on Fortitude saves",
+		"sources": [
+			"Animal Archive",
+			"Bestiary 2"
+		]
+	},
+	"snark": {
+		"name": "Snark",
+		"monster_file": "monsterdisplay76dd.html",
+		"master_bonus": "Master gains a +3 bonus on Stealth checks",
+		"sources": [ "Pathfinder #119: Prisoners of the Blight" ]
+	},
+	"snowy_owl": {
+		"name": "Snowy owl",
+		"monster_file": "monsterdisplay20c8.html",
+		"master_bonus": "Master gains a +3 bonus on sight-based and opposed Perception checks when in shadows or darkness (use owl statistics, +4 Stealth to blend into snow)",
+		"sources": [ "Reign of Winter Player's Guide" ]
+	},
+	"spider,_scarlet": {
+		"name": "Spider, scarlet",
+		"searchable_name": "Scarlet Spider",
+		"monster_file": "monsterdisplaycb06.html",
+		"master_bonus": "Master gains a +3 bonus on Climb checks (if familiar is within 1 mile)",
+		"sources": [
+			"Bestiary 4",
+			"Animal Archive",
+			"Ultimate Magic"
+		]
+	},
+	"spiny_starfish": {
+		"name": "Spiny starfish",
+		"monster_file": "monsterdisplayb77c.html",
+		"master_bonus": "Master treats his effective character level as 4 higher to recover hit points by resting",
+		"sources": [ "Ultimate Wilderness" ]
+	},
+	"squirrel": {
+		"name": "Squirrel",
+		"monster_file": "monsterdisplay8dc3.html",
+		"master_bonus": "Master gains a +3 bonus on Escape Artist checks",
+		"sources": [
+			"Ultimate Wilderness",
+			"Animal Archive"
+		]
+	},
+	"squirrel,_flying": {
+		"name": "Squirrel, flying",
+		"searchable_name": "Flying Squirrel",
+		"monster_file": "monsterdisplay4225.html",
+		"master_bonus": "Master gains a +3 bonus on Fly checks",
+		"sources": [ "Animal Archive" ]
+	},
+	"suture_vine": {
+		"name": "Suture vine",
+		"monster_file": "monsterdisplay4137.html",
+		"master_bonus": "Master gains a +3 bonus on Heal checks",
+		"sources": [ "Ultimate Wilderness" ]
+	},
+	"tardigrade,_giant": {
+		"name": "Tardigrade, giant",
+		"searchable_name": "Giant Tardigrade",
+		"monster_file": "monsterdisplay197c.html",
+		"master_bonus": "Master gains a +2 bonus on Fortitude saves",
+		"sources": [ "Ultimate Wilderness" ]
+	},
+	"tarsier": {
+		"name": "Tarsier",
+		"monster_file": "monsterdisplay3d64.html",
+		"master_bonus": "Master gains a +3 bonus on Acrobatics checks",
+		"sources": [ "Ultimate Wilderness" ]
+	},
+	"tauhoti": {
+		"name": "Tauhoti",
+		"monster_file": "monsterdisplay51a4.html",
+		"master_bonus": "Master gains a +3 bonus on one Profession check of her choice, selected when gaining the familiar",
+		"sources": [ "Druma, Profit and Prophecy" ]
+	},
+	"thrush": {
+		"name": "Thrush",
+		"monster_file": "monsterdisplaybb21.html",
+		"master_bonus": "Master gains a +3 bonus on Diplomacy checks",
+		"special_ability": "A thrush familiar can speak one language of its master's choice as a supernatural ability.",
+		"sources": [
+			"Animal Archive",
+			"Ultimate Magic"
+		]
+	},
+	"toad": {
+		"name": "Toad",
+		"monster_file": "monsterdisplay312e.html",
+		"master_bonus": "Master gains 3 hit points",
+		"sources": [
+			"Animal Archive",
+			"PRPG Core Rulebook"
+		]
+	},
+	"torble": {
+		"name": "Torble",
+		"monster_file": "monsterdisplay0f1d.html",
+		"master_bonus": "Master gains a +2 bonus on Craft (alchemy) checks",
+		"sources": [ "Pathfinder #25: The Bastards of Erebus" ]
+	},
+	"toucan": {
+		"name": "Toucan",
+		"monster_file": "monsterdisplayb72d.html",
+		"master_bonus": "Master gains a +3 bonus on Diplomacy checks (use raven stats for toucans [cannot speak])",
+		"sources": [
+			"Ultimate Wilderness",
+			"Animal Archive"
+		]
+	},
+	"trilobite": {
+		"name": "Trilobite",
+		"monster_file": "monsterdisplayc56c.html",
+		"master_bonus": "Master gains a +1 natural armor bonus to AC",
+		"sources": [ "Bestiary 5" ]
+	},
+	"tuatara": {
+		"name": "Tuatara",
+		"monster_file": "monsterdisplay9f5f.html",
+		"master_bonus": "Master gains a +3 bonus on Survival checks",
+		"sources": [ "Bestiary 4" ]
+	},
+	"tullimonstrum": {
+		"name": "Tullimonstrum",
+		"monster_file": "monsterdisplayc060.html",
+		"master_bonus": "Master gains a +3 bonus on Perception checks",
+		"sources": [ "Pathfinder #124: City in the Deep" ]
+	},
+	"turtle": {
+		"name": "Turtle",
+		"monster_file": "monsterdisplaydabc.html",
+		"master_bonus": "Master gains a +1 natural armor bonus to AC",
+		"sources": [
+			"Animal Archive",
+			"Ultimate Magic"
+		]
+	},
+	"vampire_squid": {
+		"name": "Vampire squid",
+		"monster_file": "monsterdisplay6c4c.html",
+		"master_bonus": "Master gains a +2 bonus on Reflex saves",
+		"sources": [ "Ultimate Wilderness" ]
+	},
+	"viper": {
+		"name": "Viper",
+		"monster_file": "monsterdisplay84bd.html",
+		"master_bonus": "Master gains a +3 bonus on Bluff checks",
+		"sources": [
+			"Animal Archive",
+			"PRPG Core Rulebook"
+		]
+	},
+	"wallaby": {
+		"name": "Wallaby",
+		"monster_file": "monsterdisplayc9ec.html",
+		"master_bonus": "Master gains a +3 bonus on Acrobatics checks",
+		"sources": [
+			"Ultimate Wilderness",
+			"Familiar Folio"
+		]
+	},
+	"weasel": {
+		"name": "Weasel",
+		"monster_file": "monsterdisplayf0df.html",
+		"master_bonus": "Master gains a +2 bonus on Reflex saves",
+		"sources": [
+			"Animal Archive",
+			"PRPG Core Rulebook"
+		]
+	}
+}

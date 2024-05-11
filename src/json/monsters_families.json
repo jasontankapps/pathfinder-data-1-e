@@ -1,4 +1,5 @@
 {
+	"_prefix": "monster-family",
 	"aeon": {
 		"name": "Aeon",
 		"file": "monsterfamiliesc452.html",
@@ -1378,7 +1379,7 @@
 		"name": "Dragon (Esoteric)",
 		"searchable_name": "Esoteric Dragon",
 		"file": "monsterfamiliesd900.html",
-		"_files": [
+		"other_files": [
 			"monsterfamilies3e50.html",
 			"monsterfamilies3ffe.html",
 			"monsterfamilies07d2.html",
