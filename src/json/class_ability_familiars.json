@@ -11,7 +11,7 @@
 		"",
 		"If a familiar is lost or dies, it can be replaced 1 week later through a specialized ritual that costs 200 gp per wizard level. The ritual takes 8 hours to complete.",
 		"",
-		"Statistics for familiars [can be found here](class/companion:familiar).",
+		"Statistics for familiars [can be found here](class/companion/familiar).",
 		"",
 		"While most familiars are Tiny animals or magical beasts, spellcasters may acquire larger or more unusual creatures during their travels, which impart certain rules effects that should be considered at the table.",
 		"",
@@ -19,9 +19,9 @@
 		"",
 		"Construct, plant, and vermin familiars gain an Intelligence score, and they lose the mindless trait if they had it. If such familiars lack a language, they communicate with their masters and other creatures of their kind (greensting scorpions with other scorpions, mobile plant creatures with other mobile plant creatures, and so on) by way of a strange combination of behaviors, slight changes in coloration, and sometimes even the excretion of scents or pheromones. Other types of creatures can't understand this communication without magical aid.",
 		"",
-		"Outsiders and undead creatures are normally available only with the [Improved Familiar](feat:improved_familiar) feat, and require no other special rules.",
+		"Outsiders and undead creatures are normally available only with the [Improved Familiar](feat/improved_familiar) feat, and require no other special rules.",
 		"",
-		"Improved familiars [are listed here.](class/ability:improvedfamiliars)"
+		"Improved familiars [are listed here.](class/ability/improvedfamiliars)"
 	],
 	"archaeopteryx": {
 		"name": "Archaeopteryx",

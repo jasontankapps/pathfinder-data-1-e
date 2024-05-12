@@ -3,7 +3,7 @@
 	"_description": [
 		"## Demonic Implants",
 		"",
-		"**Description Source:** [Book of the Damned - Volume 2: Lords of Chaos](source:book_of_the_damned_-_volume_2:_lords_of_chaos)  ",
+		"**Description Source:** [Book of the Damned - Volume 2: Lords of Chaos](source/book_of_the_damned_-_volume_2_lords_of_chaos)  ",
 		"A less invasive, but perhaps more painful, method of becoming a demon is the piecemeal transplanting of demonic elements into a mortal's body. By extracting a portion of a demon's body and then preparing it by utilizing various occult techniques or strange methods of preservation, one can reap a portion of the demon's power and transfer it into a sentient being. Demonic implants can either be temporary (and often addictive) drug-like magical elixirs, or they can be actual body parts that must be grafted onto or into a living mortal before they work. All are treated as wondrous items for the purposes of construction and use. The three examples listed below merely scratch the surface of this reckless category of magic item.",
 		"",
 		"All demonic implants require a willing host to attach them to-attempts to attach a demonic implant to an unwilling host automatically fail. Successfully attached demonic implants impart a negative level to a lawful or good user-the number of negative levels imparted stacks with each new implant. These negative levels remain as long as the implant remains attached or (in the case of demon blood) until the effects wear off. They never result in actual level loss, but cannot be overcome in any way while the implant is in effect.",
@@ -20,7 +20,7 @@
 		"description": [
 			"### Baleful Eye",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 72](source:pathfinder_#74_sword_of_valor)  ",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 72](source/pathfinder_#74_sword_of_valor)  ",
 			"**Aura** faint transmutation [evil]; **CL** 5th  ",
 			"**Slot** none; **Price** 7,000 gp; **Weight** 1 lb.",
 			"",
@@ -44,7 +44,7 @@
 		"description": [
 			"### Brazen Hooves",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 72](source:pathfinder_#74_sword_of_valor)",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 72](source/pathfinder_#74_sword_of_valor)",
 			"**Aura** strong transmutation [evil]; **CL** 15th",
 			"**Slot** none; **Price** 15,000 gp; **Weight** 4 lbs.",
 			"",
@@ -70,7 +70,7 @@
 		"description": [
 			"### Crown of Horns",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 72](source:pathfinder_#74_sword_of_valor)  ",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 72](source/pathfinder_#74_sword_of_valor)  ",
 			"**Aura** strong transmutation [chaotic, evil]; **CL** 15th  ",
 			"**Slot** none; **Price** 20,000 gp; **Weight** 5 lbs.",
 			"",
@@ -97,7 +97,7 @@
 		"description": [
 			"### Demon Blood",
 			"",
-			"**Source** [Book of the Damned - Volume 2: Lords of Chaos pg. 44](source:book_of_the_damned_-_volume_2:_lords_of_chaos)",
+			"**Source** [Book of the Damned - Volume 2: Lords of Chaos pg. 44](source/book_of_the_damned_-_volume_2_lords_of_chaos)",
 			"**Aura** faint evocation [evil]; **CL** 5th",
 			"**Slot** none; **Price** 800 gp; **Weight** 1 lbs.",
 			"",
@@ -121,7 +121,7 @@
 		"description": [
 			"### Demon Heart",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 73](source:pathfinder_#74_sword_of_valor)  ",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 73](source/pathfinder_#74_sword_of_valor)  ",
 			"**Aura** strong abjuration [chaotic, evil]; **CL** 13th  ",
 			"**Slot** none; **Price** 6,000 gp; **Weight** 1 lb.",
 			"",
@@ -145,7 +145,7 @@
 		"description": [
 			"### Demon Senses",
 			"",
-			"**Source** [Book of the Damned - Volume 2: Lords of Chaos pg. 44](source:book_of_the_damned_-_volume_2:_lords_of_chaos)",
+			"**Source** [Book of the Damned - Volume 2: Lords of Chaos pg. 44](source/book_of_the_damned_-_volume_2_lords_of_chaos)",
 			"**Aura** strong conjuration [evil]; **CL** 15th",
 			"**Slot** none; **Price** 20,000 gp; **Weight** 1 lbs.",
 			"",
@@ -169,7 +169,7 @@
 		"description": [
 			"### Demon Talon",
 			"",
-			"**Source** [Book of the Damned - Volume 2: Lords of Chaos pg. 44](source:book_of_the_damned_-_volume_2:_lords_of_chaos)  ",
+			"**Source** [Book of the Damned - Volume 2: Lords of Chaos pg. 44](source/book_of_the_damned_-_volume_2_lords_of_chaos)  ",
 			"**Aura** strong conjuration [evil]; **CL** 15th  ",
 			"**Slot** none; **Price** 20,000 gp; **Weight** 3 lbs.",
 			"",
@@ -193,7 +193,7 @@
 		"description": [
 			"### Demon Tongue",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 73](source:pathfinder_#74_sword_of_valor)",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 73](source/pathfinder_#74_sword_of_valor)",
 			"**Aura** moderate transmutation [chaotic, evil]; **CL** 10th",
 			"**Slot** none; **Price** 10,000 gp; **Weight** &mdash;",
 			"",
@@ -217,7 +217,7 @@
 		"description": [
 			"### Demonhide",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 73](source:pathfinder_#74_sword_of_valor)  ",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 73](source/pathfinder_#74_sword_of_valor)  ",
 			"**Aura** moderate transmutation [evil]; **CL** 10th  ",
 			"**Slot** none; **Price** 20,000 gp; **Weight** 10 lbs.",
 			"",
@@ -241,7 +241,7 @@
 		"description": [
 			"### Splintered Mind",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 73](source:pathfinder_#74_sword_of_valor)",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 73](source/pathfinder_#74_sword_of_valor)",
 			"**Aura** moderate abjuration [chaotic, evil]; **CL** 10th",
 			"**Slot** none; **Price** 16,000 gp; **Weight** 3 lbs.",
 			"",
@@ -267,7 +267,7 @@
 		"description": [
 			"### Wicked Wings",
 			"",
-			"**Source** [Pathfinder #74: Sword of Valor pg. 74](source:pathfinder_#74_sword_of_valor)  ",
+			"**Source** [Pathfinder #74: Sword of Valor pg. 74](source/pathfinder_#74_sword_of_valor)  ",
 			"**Aura** moderate transmutation [evil]; **CL** 7th  ",
 			"**Slot** none; **Price** 55,000 gp; **Weight** 3 lbs.",
 			"",

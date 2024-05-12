@@ -13,7 +13,7 @@
 		"description": [
 			"## Dungeon Ring",
 			"",
-			"**Source** [Ultimate Equipment pg. 166](source:ultimate_equipment), [Advanced Player's Guide pg. 292](source:advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 166](source/ultimate_equipment), [Advanced Player's Guide pg. 292](source/advanced_player's_guide)  ",
 			"**Aura** moderate divination; **CL** 8th  ",
 			"**Slot** ring; **Price** 250 gp (prisoner's), 16,000 gp (jailer's); **Weight** -",
 			"",
@@ -37,7 +37,7 @@
 		"description": [
 			"## Ironbound Ring",
 			"",
-			"**Source** [Adventurer's Guide pg. 36](source:adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 36](source/adventurer's_guide)  ",
 			"**Aura** faint abjuration and enchantment; **CL** 5th  ",
 			"**Slot** ring; **Price** 500 gp (Minion), 8,000 gp (Master); **Weight** -",
 			"",
@@ -59,7 +59,7 @@
 		"description": [
 			"## Fool's Malady",
 			"",
-			"**Source** [Villain Codex pg. 33](source:villain_codex)  ",
+			"**Source** [Villain Codex pg. 33](source/villain_codex)  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** ring; **Price** 900 gp; **Weight** -",
 			"",
@@ -83,7 +83,7 @@
 		"description": [
 			"## Kyton Ring",
 			"",
-			"**Source** [Horror Adventures pg. 216](source:horror_adventures)  ",
+			"**Source** [Horror Adventures pg. 216](source/horror_adventures)  ",
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** ring; **Price** 1,000 gp; **Weight** -",
 			"",
@@ -108,7 +108,7 @@
 		"description": [
 			"## Ring of Arcane Signets",
 			"",
-			"**Source** [Ultimate Equipment pg. 167](source:ultimate_equipment), [Advanced Player's Guide pg. 292](source:advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 167](source/ultimate_equipment), [Advanced Player's Guide pg. 292](source/advanced_player's_guide)  ",
 			"**Aura** faint universal; **CL** 8th  ",
 			"**Slot** ring; **Price** 1,000 gp; **Weight** -",
 			"",
@@ -130,7 +130,7 @@
 		"description": [
 			"## Ring of Inurement",
 			"",
-			"**Source** [Ire of the Storm pg. 51](source:ire_of_the_storm)  ",
+			"**Source** [Ire of the Storm pg. 51](source/ire_of_the_storm)  ",
 			"**Aura** faint abjuration; **CL** 1st  ",
 			"**Slot** ring; **Price** 1,000 gp; **Weight** -",
 			"",
@@ -152,7 +152,7 @@
 		"description": [
 			"## Ring of the Faithful Dead",
 			"",
-			"**Source** [Inner Sea Temples pg. 42](source:inner_sea_temples)  ",
+			"**Source** [Inner Sea Temples pg. 42](source/inner_sea_temples)  ",
 			"**Aura** faint evocation; **CL** 3rd  ",
 			"**Slot** ring; **Price** 1,000 gp; **Weight** -",
 			"",
@@ -174,7 +174,7 @@
 		"description": [
 			"## Riverclub Ring",
 			"",
-			"**Source** [People of the River pg. 29](source:people_of_the_river)  ",
+			"**Source** [People of the River pg. 29](source/people_of_the_river)  ",
 			"**Aura** faint conjuration; **CL** 1st  ",
 			"**Slot** ring; **Price** 1,000 gp; **Weight** -",
 			"",
@@ -196,7 +196,7 @@
 		"description": [
 			"## Ring of Serene Contortions",
 			"",
-			"**Source** [Inner Sea Gods pg. 259](source:inner_sea_gods)  ",
+			"**Source** [Inner Sea Gods pg. 259](source/inner_sea_gods)  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** ring; **Price** 1,200 gp; **Weight** -",
 			"",
@@ -218,7 +218,7 @@
 		"description": [
 			"## Dark Life Ring",
 			"",
-			"**Source** [Champions of Corruption pg. 30](source:champions_of_corruption)  ",
+			"**Source** [Champions of Corruption pg. 30](source/champions_of_corruption)  ",
 			"**Aura** faint necromancy; **CL** 3rd  ",
 			"**Slot** ring; **Price** 1,250 gp; **Weight** -",
 			"",
@@ -243,15 +243,15 @@
 		"description": [
 			"## Ring of Resistance",
 			"",
-			"**Source** [Pathfinder #123: The Flooded Cathedral pg. 44](source:pathfinder_#123_the_flooded_cathedral)  ",
+			"**Source** [Pathfinder #123: The Flooded Cathedral pg. 44](source/pathfinder_#123_the_flooded_cathedral)  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** ring; **Price** 1,500 gp (+1), 6,000 gp (+2), 13,500 gp (+3), 24,000 gp (+4), 37,500 gp (+5); **Weight** -",
 			"",
-			"Protective symbols adorn this magic ring. It functions as a [cloak of resistance](unknown:cloak_of_resistance) with an equivalent bonus.",
+			"Protective symbols adorn this magic ring. It functions as a [cloak of resistance](unknown/cloak_of_resistance) with an equivalent bonus.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](unknown:forge_ring), [resistance](unknown:resistance), creator's caster level must be at least three times the ring's bonus; **Cost** 750 gp (+1), 3,000 gp (+2), 6,750 gp (+3), 12,000 gp (+4), 17,750 gp (+5)"
+			"**Requirements** [Forge Ring](unknown/forge_ring), [resistance](unknown/resistance), creator's caster level must be at least three times the ring's bonus; **Cost** 750 gp (+1), 3,000 gp (+2), 6,750 gp (+3), 12,000 gp (+4), 17,750 gp (+5)"
 		],
 		"display": "magic/ring"
 	},
@@ -268,7 +268,7 @@
 		"description": [
 			"## Deadeye's Spotter Ring",
 			"",
-			"**Source** [Inner Sea Gods pg. 258](source:inner_sea_gods)  ",
+			"**Source** [Inner Sea Gods pg. 258](source/inner_sea_gods)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** ring; **Price** 1,500 gp; **Weight** -",
 			"",
@@ -290,7 +290,7 @@
 		"description": [
 			"## Ring of Spell Knowledge",
 			"",
-			"**Source** [Ultimate Equipment pg. 174](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 174](source/ultimate_equipment)  ",
 			"**Aura** moderate or strong (no school); **CL** 7th  ",
 			"**Slot** ring; **Price** 1,500 gp (type I), 6,000 gp (type II), 13,500 gp (type III), 24,000 gp (type IV); **Weight** -",
 			"",
@@ -316,7 +316,7 @@
 		"description": [
 			"## Ring of Balanced Grip",
 			"",
-			"**Source** [Adventurer's Armory 2 pg. 23](source:adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 23](source/adventurer's_armory_2)  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** ring; **Price** 1,600 gp; **Weight** -",
 			"",
@@ -338,7 +338,7 @@
 		"description": [
 			"## Ring of Starlight",
 			"",
-			"**Source** [Merchant's Manifest pg. 12](source:merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 12](source/merchant's_manifest)  ",
 			"**Aura** faint evocation; **CL** 1st  ",
 			"**Slot** ring; **Price** 1,600 gp; **Weight** -",
 			"",
@@ -364,7 +364,7 @@
 		"description": [
 			"## Ring of Protection",
 			"",
-			"**Source** [Ultimate Equipment pg. 172](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 172](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** ring; **Price** 2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp (+5); **Weight** -",
 			"",
@@ -392,7 +392,7 @@
 		"description": [
 			"## Bloodletting Thimble",
 			"",
-			"**Source** [Monster Codex pg. 237](source:monster_codex), [Blood of the Night pg. 31](source:blood_of_the_night)  ",
+			"**Source** [Monster Codex pg. 237](source/monster_codex), [Blood of the Night pg. 31](source/blood_of_the_night)  ",
 			"**Aura** faint enchantment; **CL** 3rd  ",
 			"**Slot** ring; **Price** 2,000 gp; **Weight** -",
 			"",
@@ -414,7 +414,7 @@
 		"description": [
 			"## Ring of Lingering Blood Magic",
 			"",
-			"**Source** [Advanced Class Guide pg. 217](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 217](source/advanced_class_guide)  ",
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** ring; **Price** 2,000 gp; **Weight** -",
 			"",
@@ -436,7 +436,7 @@
 		"description": [
 			"## Ring of the Grasping Grave",
 			"",
-			"**Source** [Ultimate Equipment pg. 176](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 176](source/ultimate_equipment)  ",
 			"**Aura** faint necromancy; **CL** 1st  ",
 			"**Slot** ring; **Price** 2,000 gp; **Weight** -",
 			"",
@@ -461,7 +461,7 @@
 		"description": [
 			"## Ring of Feather Falling",
 			"",
-			"**Source** [Ultimate Equipment pg. 170](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 170](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** faint transmutation; **CL** 1st  ",
 			"**Slot** ring; **Price** 2,200 gp; **Weight** -",
 			"",
@@ -486,7 +486,7 @@
 		"description": [
 			"## Ring of Climbing",
 			"",
-			"**Source** [Ultimate Equipment pg. 168](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 168](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** ring; **Price** 2,500 gp; **Weight** -",
 			"",
@@ -511,7 +511,7 @@
 		"description": [
 			"## Ring of Jumping",
 			"",
-			"**Source** [Ultimate Equipment pg. 172](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 172](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** faint transmutation; **CL** 2nd  ",
 			"**Slot** ring; **Price** 2,500 gp; **Weight** -",
 			"",
@@ -536,7 +536,7 @@
 		"description": [
 			"## Ring of Sustenance",
 			"",
-			"**Source** [Ultimate Equipment pg. 175](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 175](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** ring; **Price** 2,500 gp; **Weight** -",
 			"",
@@ -561,7 +561,7 @@
 		"description": [
 			"## Ring of Swimming",
 			"",
-			"**Source** [Ultimate Equipment pg. 175](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 175](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** faint transmutation; **CL** 2nd  ",
 			"**Slot** ring; **Price** 2,500 gp; **Weight** -",
 			"",
@@ -586,7 +586,7 @@
 		"description": [
 			"## Droskar's Guiding Ring",
 			"",
-			"**Source** [Inner Sea Gods pg. 258](source:inner_sea_gods), [Gods and Magic pg. 56](source:gods_and_magic)  ",
+			"**Source** [Inner Sea Gods pg. 258](source/inner_sea_gods), [Gods and Magic pg. 56](source/gods_and_magic)  ",
 			"**Aura** faint enchantment; **CL** 3rd  ",
 			"**Slot** ring; **Price** 2,600 gp; **Weight** -",
 			"",
@@ -608,7 +608,7 @@
 		"description": [
 			"## Ring of Natural Attunement (Leshy)",
 			"",
-			"**Source** [Advanced Class Guide pg. 217](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 217](source/advanced_class_guide)  ",
 			"**Aura** faint conjuration; **CL** 3rd  ",
 			"**Slot** ring; **Price** 2,800 gp; **Weight** -",
 			"",
@@ -634,7 +634,7 @@
 		"description": [
 			"## Knight-Inheritor's Ring",
 			"",
-			"**Source** [Pathfinder #103: The Hellfire Compact pg. 73](source:pathfinder_#103_the_hellfire_compact), [Inner Sea Gods pg. 258](source:inner_sea_gods)  ",
+			"**Source** [Pathfinder #103: The Hellfire Compact pg. 73](source/pathfinder_#103_the_hellfire_compact), [Inner Sea Gods pg. 258](source/inner_sea_gods)  ",
 			"**Aura** faint enchantment and transmutation; **CL** 5th  ",
 			"**Slot** ring; **Price** 3,000 gp; **Weight** -",
 			"",
@@ -659,7 +659,7 @@
 		"description": [
 			"## Profane Seal Signet",
 			"",
-			"**Source** [Inner Sea Gods pg. 259](source:inner_sea_gods)  ",
+			"**Source** [Inner Sea Gods pg. 259](source/inner_sea_gods)  ",
 			"**Aura** faint abjuration, enchantment, and universal; **CL** 5th  ",
 			"**Slot** ring; **Price** 3,000 gp; **Weight** -",
 			"",
@@ -681,7 +681,7 @@
 		"description": [
 			"## Ring of Austere Majesty",
 			"",
-			"**Source** [Merchant's Manifest pg. 19](source:merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 19](source/merchant's_manifest)  ",
 			"**Aura** faint enchantment; **CL** 5th  ",
 			"**Slot** ring; **Price** 3,000 gp; **Weight** -",
 			"",
@@ -706,7 +706,7 @@
 		"description": [
 			"## Ring of Ferocious Action",
 			"",
-			"**Source** [Ultimate Equipment pg. 170](source:ultimate_equipment), [Advanced Race Guide pg. 58](source:advanced_race_guide)  ",
+			"**Source** [Ultimate Equipment pg. 170](source/ultimate_equipment), [Advanced Race Guide pg. 58](source/advanced_race_guide)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** ring; **Price** 3,000 gp; **Weight** -",
 			"",
@@ -728,7 +728,7 @@
 		"description": [
 			"## Ring of Powerful Blood Magic",
 			"",
-			"**Source** [Advanced Class Guide pg. 218](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 218](source/advanced_class_guide)  ",
 			"**Aura** moderate evocation; **CL** 9th  ",
 			"**Slot** ring; **Price** 3,000 gp; **Weight** -",
 			"",
@@ -750,7 +750,7 @@
 		"description": [
 			"## Tyrant's Friend",
 			"",
-			"**Source** [Pathfinder Society Field Guide pg. 54](source:pathfinder_society_field_guide)  ",
+			"**Source** [Pathfinder Society Field Guide pg. 54](source/pathfinder_society_field_guide)  ",
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** ring; **Price** 3,000 gp; **Weight** -",
 			"",
@@ -758,7 +758,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](unknown:forge_ring), [detect poison](unknown:detect_poison); **Cost** 1,500 gp"
+			"**Requirements** [Forge Ring](unknown/forge_ring), [detect poison](unknown/detect_poison); **Cost** 1,500 gp"
 		],
 		"display": "magic/ring"
 	},
@@ -772,7 +772,7 @@
 		"description": [
 			"## Ring of Eloquence",
 			"",
-			"**Source** [Advanced Class Guide pg. 217](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 217](source/advanced_class_guide)  ",
 			"**Aura** faint divination; **CL** 3rd  ",
 			"**Slot** ring; **Price** 3,500 gp; **Weight** -",
 			"",
@@ -796,7 +796,7 @@
 		"description": [
 			"## Ring of Stairs and Stars",
 			"",
-			"**Source** [Inner Sea Gods pg. 259](source:inner_sea_gods)  ",
+			"**Source** [Inner Sea Gods pg. 259](source/inner_sea_gods)  ",
 			"**Aura** faint evocation, illusion, and transmutation; **CL** 3rd  ",
 			"**Slot** ring; **Price** 3,820 gp; **Weight** -",
 			"",
@@ -818,7 +818,7 @@
 		"description": [
 			"## Ring of Ancestral Blood Magic",
 			"",
-			"**Source** [Advanced Class Guide pg. 216](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 216](source/advanced_class_guide)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** ring; **Price** 4,000 gp; **Weight** -",
 			"",
@@ -843,7 +843,7 @@
 		"description": [
 			"## Ring of Counterspells",
 			"",
-			"**Source** [Ultimate Equipment pg. 168](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 168](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** moderate evocation; **CL** 11th  ",
 			"**Slot** ring; **Price** 4,000 gp; **Weight** -",
 			"",
@@ -865,7 +865,7 @@
 		"description": [
 			"## Ring of Planar Focus",
 			"",
-			"**Source** [Planar Adventures pg. 49](source:planar_adventures)  ",
+			"**Source** [Planar Adventures pg. 49](source/planar_adventures)  ",
 			"**Aura** strong divination; **CL** 15th  ",
 			"**Slot** ring; **Price** 4,000 gp; **Weight** -",
 			"",
@@ -889,7 +889,7 @@
 		"description": [
 			"## Ring of Seven Lovely Colors",
 			"",
-			"**Source** [Inner Sea Gods pg. 259](source:inner_sea_gods)  ",
+			"**Source** [Inner Sea Gods pg. 259](source/inner_sea_gods)  ",
 			"**Aura** faint abjuration and illusion; **CL** 7th  ",
 			"**Slot** ring; **Price** 4,000 gp; **Weight** -",
 			"",
@@ -911,17 +911,17 @@
 		"description": [
 			"## Saltspray Ring",
 			"",
-			"**Source** [Pathfinder #121: The Lost Outpost pg. 54](source:pathfinder_#121_the_lost_outpost)  ",
+			"**Source** [Pathfinder #121: The Lost Outpost pg. 54](source/pathfinder_#121_the_lost_outpost)  ",
 			"**Aura** faint conjuration and transmutation; **CL** 5th  ",
 			"**Slot** ring; **Price** 4,500 gp; **Weight** -",
 			"",
 			"This mithral ring is engraved with a pattern of rolling waves that encircles the entire band. The saltspray ring is immune to rust, both from natural oxidation and rust caused by magical effects.",
 			"",
-			"Upon command, the ring causes a thick vapor to continuously surround its owner as per [obscuring mist](unknown:obscuring_mist), except the mist has a 10-foot radius from the wearer and the area of effect moves with the wearer. This mist is exceedingly wet and extinguishes all nonmagical fires within its area. Magical fires and creatures with the fire subtype are not dispelled or adversely affected by the mist, though such creatures find being in the fog to be an uncomfortable experience. The mist does not permit aquatic creatures without the amphibious special quality to breathe out of water, but creatures that must remain wet or suffer a negative effect or condition have that requirement satisfied by the ring's effect. This effect can be dismissed as a standard action. The ring has no effect whatsoever underwater.",
+			"Upon command, the ring causes a thick vapor to continuously surround its owner as per [obscuring mist](unknown/obscuring_mist), except the mist has a 10-foot radius from the wearer and the area of effect moves with the wearer. This mist is exceedingly wet and extinguishes all nonmagical fires within its area. Magical fires and creatures with the fire subtype are not dispelled or adversely affected by the mist, though such creatures find being in the fog to be an uncomfortable experience. The mist does not permit aquatic creatures without the amphibious special quality to breathe out of water, but creatures that must remain wet or suffer a negative effect or condition have that requirement satisfied by the ring's effect. This effect can be dismissed as a standard action. The ring has no effect whatsoever underwater.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](unknown:forge_ring), [obscuring mist](unknown:obscuring_mist), [quench](unknown:quench); **Cost** 2,250 gp"
+			"**Requirements** [Forge Ring](unknown/forge_ring), [obscuring mist](unknown/obscuring_mist), [quench](unknown/quench); **Cost** 2,250 gp"
 		],
 		"display": "magic/ring"
 	},
@@ -935,7 +935,7 @@
 		"description": [
 			"## Red Hound Ring",
 			"",
-			"**Source** [Inner Sea Gods pg. 259](source:inner_sea_gods)  ",
+			"**Source** [Inner Sea Gods pg. 259](source/inner_sea_gods)  ",
 			"**Aura** faint abjuration, conjuration, and transmutation; **CL** 5th  ",
 			"**Slot** ring; **Price** 4,700 gp; **Weight** -",
 			"",
@@ -957,7 +957,7 @@
 		"description": [
 			"## Ring of Delayed Doom",
 			"",
-			"**Source** [Advanced Player's Guide pg. 292](source:advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 292](source/advanced_player's_guide)  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** ring; **Price** 5,000 gp (1 stone), 10,000 gp (2 stones), 15,000 gp (3 stones), 20,000 gp (4 stones), 25,000 gp (5 stones), 30,000 gp (6 stones), 35,000 gp (7 stones), 40,000 gp (8 stones), 45,000 gp (9 stones); **Weight** -",
 			"",
@@ -979,7 +979,7 @@
 		"description": [
 			"## Gluttonous Feasting Ring",
 			"",
-			"**Source** [Inner Sea Gods pg. 258](source:inner_sea_gods)  ",
+			"**Source** [Inner Sea Gods pg. 258](source/inner_sea_gods)  ",
 			"**Aura** faint necromancy and transmutation; **CL** 5th  ",
 			"**Slot** ring; **Price** 5,000 gp; **Weight** -",
 			"",
@@ -1004,7 +1004,7 @@
 		"description": [
 			"## Ring of Maniacal Devices",
 			"",
-			"**Source** [Ultimate Equipment pg. 172](source:ultimate_equipment), [Advanced Player's Guide pg. 292](source:advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 172](source/ultimate_equipment), [Advanced Player's Guide pg. 292](source/advanced_player's_guide)  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** ring; **Price** 5,000 gp; **Weight** -",
 			"",
@@ -1029,7 +1029,7 @@
 		"description": [
 			"## Ring of Rat Fangs",
 			"",
-			"**Source** [Ultimate Equipment pg. 172](source:ultimate_equipment), [Advanced Race Guide pg. 155](source:advanced_race_guide)  ",
+			"**Source** [Ultimate Equipment pg. 172](source/ultimate_equipment), [Advanced Race Guide pg. 155](source/advanced_race_guide)  ",
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** ring; **Price** 5,000 gp; **Weight** -",
 			"",
@@ -1051,7 +1051,7 @@
 		"description": [
 			"## Glorious Flame Ring",
 			"",
-			"**Source** [Inner Sea Gods pg. 258](source:inner_sea_gods)  ",
+			"**Source** [Inner Sea Gods pg. 258](source/inner_sea_gods)  ",
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** ring; **Price** 5,400 gp; **Weight** -",
 			"",
@@ -1075,7 +1075,7 @@
 		"description": [
 			"## Ring of Vengeful Blood Magic",
 			"",
-			"**Source** [Advanced Class Guide pg. 220](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 220](source/advanced_class_guide)  ",
 			"**Aura** moderate abjuration; **CL** 11th  ",
 			"**Slot** ring; **Price** 5,400 gp; **Weight** -",
 			"",
@@ -1110,7 +1110,7 @@
 		"description": [
 			"## Communique Rings",
 			"",
-			"**Source** [Ultimate Intrigue pg. 241](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 241](source/ultimate_intrigue)  ",
 			"**Aura** moderate transmutation; **CL** 6th  ",
 			"**Slot** ring; **Price** 6,000 gp; **Weight** -",
 			"",
@@ -1132,7 +1132,7 @@
 		"description": [
 			"## Ring of Far Strike",
 			"",
-			"**Source** [Ranged Tactics Toolbox pg. 29](source:ranged_tactics_toolbox)  ",
+			"**Source** [Ranged Tactics Toolbox pg. 29](source/ranged_tactics_toolbox)  ",
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** ring; **Price** 6,000 gp; **Weight** -",
 			"",
@@ -1157,7 +1157,7 @@
 		"description": [
 			"## Ring of Return",
 			"",
-			"**Source** [Qadira, Jewel of the East pg. 9](source:qadira,_jewel_of_the_east), [Ultimate Equipment pg. 173](source:ultimate_equipment)  ",
+			"**Source** [Qadira, Jewel of the East pg. 9](source/qadira,_jewel_of_the_east), [Ultimate Equipment pg. 173](source/ultimate_equipment)  ",
 			"**Aura** strong conjuration; **CL** 13th  ",
 			"**Slot** ring; **Price** 6,000 gp; **Weight** -",
 			"",
@@ -1179,7 +1179,7 @@
 		"description": [
 			"## Ring of Sacred Mistletoe",
 			"",
-			"**Source** [Ultimate Equipment pg. 173](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 173](source/ultimate_equipment)  ",
 			"**Aura** faint transmutation; **CL** 1st  ",
 			"**Slot** ring; **Price** 6,000 gp; **Weight** -",
 			"",
@@ -1203,7 +1203,7 @@
 		"description": [
 			"## Ring of Sundering Metals",
 			"",
-			"**Source** [Inner Sea Gods pg. 259](source:inner_sea_gods)  ",
+			"**Source** [Inner Sea Gods pg. 259](source/inner_sea_gods)  ",
 			"**Aura** faint abjuration and transmutation; **CL** 5th  ",
 			"**Slot** ring; **Price** 6,000 gp; **Weight** -",
 			"",
@@ -1228,7 +1228,7 @@
 		"description": [
 			"## Ring of Swarming Stabs",
 			"",
-			"**Source** [Ultimate Equipment pg. 175](source:ultimate_equipment), [Advanced Race Guide pg. 155](source:advanced_race_guide)  ",
+			"**Source** [Ultimate Equipment pg. 175](source/ultimate_equipment), [Advanced Race Guide pg. 155](source/advanced_race_guide)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** ring; **Price** 6,000 gp; **Weight** -",
 			"",
@@ -1259,7 +1259,7 @@
 		"description": [
 			"## Ring of Unquenchable Passions",
 			"",
-			"**Source** [Inner Sea Gods pg. 259](source:inner_sea_gods)  ",
+			"**Source** [Inner Sea Gods pg. 259](source/inner_sea_gods)  ",
 			"**Aura** faint abjuration and transmutation; **CL** 5th  ",
 			"**Slot** ring; **Price** 6,500 gp; **Weight** -",
 			"",
@@ -1281,7 +1281,7 @@
 		"description": [
 			"## Ring of Grit Mastery",
 			"",
-			"**Source** [Ultimate Equipment pg. 171](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 171](source/ultimate_equipment)  ",
 			"**Aura** faint abjuration and evocation; **CL** 3rd  ",
 			"**Slot** ring; **Price** 6,840 gp; **Weight** -",
 			"",
@@ -1309,7 +1309,7 @@
 		"description": [
 			"## Ring of Summoning Affinity (Archon)",
 			"",
-			"**Source** [Advanced Class Guide pg. 218](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 218](source/advanced_class_guide)  ",
 			"**Aura** faint conjuration [good, law]; **CL** 5th  ",
 			"**Slot** ring; **Price** 7,000 gp; **Weight** -",
 			"",
@@ -1331,7 +1331,7 @@
 		"description": [
 			"## Ring of Summoning Affinity (Angel)",
 			"",
-			"**Source** [Advanced Class Guide pg. 218](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 218](source/advanced_class_guide)  ",
 			"**Aura** faint conjuration [good]; **CL** 5th  ",
 			"**Slot** ring; **Price** 7,200 gp; **Weight** -",
 			"",
@@ -1353,7 +1353,7 @@
 		"description": [
 			"## Ring of Summoning Affinity (Protean)",
 			"",
-			"**Source** [Advanced Class Guide pg. 219](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 219](source/advanced_class_guide)  ",
 			"**Aura** faint conjuration [chaos]; **CL** 5th  ",
 			"**Slot** ring; **Price** 7,200 gp; **Weight** -",
 			"",
@@ -1375,7 +1375,7 @@
 		"description": [
 			"## Ring of Summoning Affinity (Kyton)",
 			"",
-			"**Source** [Advanced Class Guide pg. 219](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 219](source/advanced_class_guide)  ",
 			"**Aura** faint conjuration [evil, law]; **CL** 5th  ",
 			"**Slot** ring; **Price** 7,300 gp; **Weight** -",
 			"",
@@ -1397,7 +1397,7 @@
 		"description": [
 			"## Ring of Summoning Affinity (Asura)",
 			"",
-			"**Source** [Advanced Class Guide pg. 218](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 218](source/advanced_class_guide)  ",
 			"**Aura** faint conjuration [evil, law]; **CL** 5th  ",
 			"**Slot** ring; **Price** 7,600 gp; **Weight** -",
 			"",
@@ -1419,7 +1419,7 @@
 		"description": [
 			"## Ring of Summoning Affinity (Psychopomp)",
 			"",
-			"**Source** [Advanced Class Guide pg. 219](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 219](source/advanced_class_guide)  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** ring; **Price** 7,600 gp; **Weight** -",
 			"",
@@ -1441,7 +1441,7 @@
 		"description": [
 			"## Ring of Summoning Affinity (Agathion)",
 			"",
-			"**Source** [Advanced Class Guide pg. 218](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 218](source/advanced_class_guide)  ",
 			"**Aura** faint conjuration [good]; **CL** 5th  ",
 			"**Slot** ring; **Price** 7,700 gp; **Weight** -",
 			"",
@@ -1463,7 +1463,7 @@
 		"description": [
 			"## Ring of Culturemeld",
 			"",
-			"**Source** [Bastards of Golarion pg. 5](source:bastards_of_golarion)  ",
+			"**Source** [Bastards of Golarion pg. 5](source/bastards_of_golarion)  ",
 			"**Aura** moderate enchantment; **CL** 7th  ",
 			"**Slot** ring; **Price** 7,800 gp; **Weight** -",
 			"",
@@ -1487,7 +1487,7 @@
 		"description": [
 			"## Ring of Natural Attunement (Kami)",
 			"",
-			"**Source** [Advanced Class Guide pg. 217](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 217](source/advanced_class_guide)  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** ring; **Price** 7,800 gp; **Weight** -",
 			"",
@@ -1509,7 +1509,7 @@
 		"description": [
 			"## Ring of Summoning Affinity (Aeon)",
 			"",
-			"**Source** [Advanced Class Guide pg. 218](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 218](source/advanced_class_guide)  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** ring; **Price** 7,800 gp; **Weight** -",
 			"",
@@ -1532,7 +1532,7 @@
 		"description": [
 			"## Ring of the Godless",
 			"",
-			"**Source** [People of the Sands pg. 29](source:people_of_the_sands)  ",
+			"**Source** [People of the Sands pg. 29](source/people_of_the_sands)  ",
 			"**Aura** faint abjuration and divination; **CL** 5th  ",
 			"**Slot** ring; **Price** 8,000 gp (+1), 17,000 gp (+2), 27,000 gp (+3), 38,000 gp (+4), 50,000 gp (+5); **Weight** -",
 			"",
@@ -1575,7 +1575,7 @@
 		"description": [
 			"## Maintenance Overseer's Ring",
 			"",
-			"**Source** [Heroes of the Streets pg. 15](source:heroes_of_the_streets)  ",
+			"**Source** [Heroes of the Streets pg. 15](source/heroes_of_the_streets)  ",
 			"**Aura** faint divination; **CL** 4th  ",
 			"**Slot** ring; **Price** 8,000 gp; **Weight** -",
 			"",
@@ -1611,7 +1611,7 @@
 		"description": [
 			"## Ring of Forcefangs",
 			"",
-			"**Source** [Ultimate Equipment pg. 171](source:ultimate_equipment), [Advanced Player's Guide pg. 292](source:advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 171](source/ultimate_equipment), [Advanced Player's Guide pg. 292](source/advanced_player's_guide)  ",
 			"**Aura** moderate evocation; **CL** 9th  ",
 			"**Slot** ring; **Price** 8,000 gp; **Weight** -",
 			"",
@@ -1633,7 +1633,7 @@
 		"description": [
 			"## Ring of Heroes",
 			"",
-			"**Source** [Advanced Player's Guide pg. 325](source:advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 325](source/advanced_player's_guide)  ",
 			"**Aura** moderate (no school); **CL** 7th  ",
 			"**Slot** ring; **Price** 8,000 gp; **Weight** -",
 			"",
@@ -1658,7 +1658,7 @@
 		"description": [
 			"## Ring of Mind Shielding",
 			"",
-			"**Source** [Ultimate Equipment pg. 172](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 172](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** faint abjuration; **CL** 3rd  ",
 			"**Slot** ring; **Price** 8,000 gp; **Weight** -",
 			"",
@@ -1680,7 +1680,7 @@
 		"description": [
 			"## Ring of Strength Sapping",
 			"",
-			"**Source** [Ultimate Equipment pg. 174](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 174](source/ultimate_equipment)  ",
 			"**Aura** moderate necromancy; **CL** 7th  ",
 			"**Slot** ring; **Price** 8,000 gp; **Weight** -",
 			"",
@@ -1702,7 +1702,7 @@
 		"description": [
 			"## Ring of the Beast",
 			"",
-			"**Source** [Pathfinder Society Field Guide pg. 53](source:pathfinder_society_field_guide)  ",
+			"**Source** [Pathfinder Society Field Guide pg. 53](source/pathfinder_society_field_guide)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** ring; **Price** 8,000 gp; **Weight** -",
 			"",
@@ -1724,7 +1724,7 @@
 		"description": [
 			"## Society Ring",
 			"",
-			"**Source** [Villain Codex pg. 201](source:villain_codex)  ",
+			"**Source** [Villain Codex pg. 201](source/villain_codex)  ",
 			"**Aura** faint abjuration, divination, illusion, and transmutation; **CL** 5th  ",
 			"**Slot** ring; **Price** 8,000 gp; **Weight** -",
 			"",
@@ -1750,7 +1750,7 @@
 		"description": [
 			"## Soultether Ring",
 			"",
-			"**Source** [Planar Adventures pg. 49](source:planar_adventures)  ",
+			"**Source** [Planar Adventures pg. 49](source/planar_adventures)  ",
 			"**Aura** strong necromancy; **CL** 17th  ",
 			"**Slot** ring; **Price** 8,000 gp; **Weight** -",
 			"",
@@ -1772,7 +1772,7 @@
 		"description": [
 			"## Ring of Summoning Affinity (Inevitable)",
 			"",
-			"**Source** [Advanced Class Guide pg. 219](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 219](source/advanced_class_guide)  ",
 			"**Aura** faint conjuration [law]; **CL** 5th  ",
 			"**Slot** ring; **Price** 8,100 gp; **Weight** -",
 			"",
@@ -1794,7 +1794,7 @@
 		"description": [
 			"## Band of Toxic Nullification",
 			"",
-			"**Source** [Potions and Poisons pg. 30](source:potions_and_poisons)  ",
+			"**Source** [Potions and Poisons pg. 30](source/potions_and_poisons)  ",
 			"**Aura** moderate necromancy; **CL** 9th  ",
 			"**Slot** ring; **Price** 8,500 gp; **Weight** -",
 			"",
@@ -1816,7 +1816,7 @@
 		"description": [
 			"## Contract Rings",
 			"",
-			"**Source** [Cohorts and Companions pg. 29](source:cohorts_and_companions)  ",
+			"**Source** [Cohorts and Companions pg. 29](source/cohorts_and_companions)  ",
 			"**Aura** moderate enchantment; **CL** 7th  ",
 			"**Slot** ring; **Price** 8,500 gp; **Weight** -",
 			"",
@@ -1843,7 +1843,7 @@
 		"description": [
 			"## Ring of Force Shield",
 			"",
-			"**Source** [Ultimate Equipment pg. 171](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 171](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** moderate evocation; **CL** 9th  ",
 			"**Slot** ring; **Price** 8,500 gp; **Weight** -",
 			"",
@@ -1865,7 +1865,7 @@
 		"description": [
 			"## Ring of Summoning Affinity (Qlippoth)",
 			"",
-			"**Source** [Advanced Class Guide pg. 220](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 220](source/advanced_class_guide)  ",
 			"**Aura** faint conjuration [chaos, evil]; **CL** 5th  ",
 			"**Slot** ring; **Price** 8,600 gp; **Weight** -",
 			"",
@@ -1890,7 +1890,7 @@
 		"description": [
 			"## Ring of the Ram",
 			"",
-			"**Source** [Ultimate Equipment pg. 176](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 176](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** ring; **Price** 8,600 gp; **Weight** -",
 			"",
@@ -1916,7 +1916,7 @@
 		"description": [
 			"## Scholar's Ring",
 			"",
-			"**Source** [Ultimate Equipment pg. 177](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 177](source/ultimate_equipment)  ",
 			"**Aura** moderate conjuration; **CL** 5th  ",
 			"**Slot** ring; **Price** 8,700 gp; **Weight** -",
 			"",
@@ -1940,7 +1940,7 @@
 		"description": [
 			"## Ring of Protected Life",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 29](source:undead_slayer's_handbook)  ",
+			"**Source** [Undead Slayer's Handbook pg. 29](source/undead_slayer's_handbook)  ",
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** ring; **Price** 9,000 gp; **Weight** 1 lb.",
 			"",
@@ -1963,7 +1963,7 @@
 		"description": [
 			"## Rings of Friend-Finding",
 			"",
-			"**Source** [Cohorts and Companions pg. 29](source:cohorts_and_companions)  ",
+			"**Source** [Cohorts and Companions pg. 29](source/cohorts_and_companions)  ",
 			"**Aura** moderate enchantment; **CL** 7th  ",
 			"**Slot** ring; **Price** 9,000 gp; **Weight** -",
 			"",
@@ -1988,7 +1988,7 @@
 		"description": [
 			"## Ring of Summoning Affinity (Div)",
 			"",
-			"**Source** [Advanced Class Guide pg. 219](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 219](source/advanced_class_guide)  ",
 			"**Aura** faint conjuration [chaos, evil]; **CL** 5th  ",
 			"**Slot** ring; **Price** 9,100 gp; **Weight** -",
 			"",
@@ -2010,7 +2010,7 @@
 		"description": [
 			"## Band of Efficacious Death",
 			"",
-			"**Source** [Potions and Poisons pg. 28](source:potions_and_poisons)  ",
+			"**Source** [Potions and Poisons pg. 28](source/potions_and_poisons)  ",
 			"**Aura** faint necromancy; **CL** 3rd  ",
 			"**Slot** ring; **Price** 9,250 gp; **Weight** -",
 			"",
@@ -2030,7 +2030,7 @@
 		"slot": "ring",
 		"weight": 0,
 		"description": [
-			"## Source [Chronicle of the Righteous pg. 53](source:chronicle_of_the_righteous)",
+			"## Source [Chronicle of the Righteous pg. 53](source/chronicle_of_the_righteous)",
 			"",
 			"**Aura** faint illusion; **CL** 3rd  ",
 			"**Slot** ring; **Price** 9,900 gp; **Weight** -",
@@ -2068,7 +2068,7 @@
 		"description": [
 			"## Ring of Revelation",
 			"",
-			"**Source** [Ultimate Equipment pg. 173](source:ultimate_equipment), [Advanced Player's Guide pg. 293](source:advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 173](source/ultimate_equipment), [Advanced Player's Guide pg. 293](source/advanced_player's_guide)  ",
 			"**Aura** moderate varies; **CL** 11th  ",
 			"**Slot** ring; **Price** 10,000 gp (lesser), 16,000 gp (greater), 24,000 gp (superior); **Weight** -",
 			"",
@@ -2099,7 +2099,7 @@
 		"description": [
 			"## Ring of Climbing (improved)",
 			"",
-			"**Source** [Ultimate Equipment pg. 168](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 168](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** ring; **Price** 10,000 gp; **Weight** -",
 			"",
@@ -2124,7 +2124,7 @@
 		"description": [
 			"## Ring of Curing",
 			"",
-			"**Source** [Ultimate Equipment pg. 168](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 168](source/ultimate_equipment)  ",
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** ring; **Price** 10,000 gp; **Weight** -",
 			"",
@@ -2146,7 +2146,7 @@
 		"description": [
 			"## Ring of Foe Focus",
 			"",
-			"**Source** [Ultimate Equipment pg. 170](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 170](source/ultimate_equipment)  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** ring; **Price** 10,000 gp; **Weight** -",
 			"",
@@ -2172,7 +2172,7 @@
 		"description": [
 			"## Ring of Jumping (improved)",
 			"",
-			"**Source** [Ultimate Equipment pg. 172](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 172](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** ring; **Price** 10,000 gp; **Weight** -",
 			"",
@@ -2197,7 +2197,7 @@
 		"description": [
 			"## Ring of Ki Mastery",
 			"",
-			"**Source** [Ultimate Equipment pg. 172](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 172](source/ultimate_equipment)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** ring; **Price** 10,000 gp; **Weight** -",
 			"",
@@ -2223,7 +2223,7 @@
 		"description": [
 			"## Ring of Seven Virtues",
 			"",
-			"**Source** [Pathfinder #39: The City of Seven Spears pg. 56](source:pathfinder_#39_the_city_of_seven_spears)  ",
+			"**Source** [Pathfinder #39: The City of Seven Spears pg. 56](source/pathfinder_#39_the_city_of_seven_spears)  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** ring; **Price** 10,000 gp; **Weight** -",
 			"",
@@ -2249,7 +2249,7 @@
 		"description": [
 			"## Ring of Swimming (improved)",
 			"",
-			"**Source** [Ultimate Equipment pg. 175](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 175](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** ring; **Price** 10,000 gp; **Weight** -",
 			"",
@@ -2274,7 +2274,7 @@
 		"description": [
 			"## Ring of Summoning Affinity (Daemon)",
 			"",
-			"**Source** [Advanced Class Guide pg. 219](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 219](source/advanced_class_guide)  ",
 			"**Aura** faint conjuration [evil]; **CL** 5th  ",
 			"**Slot** ring; **Price** 10,600 gp; **Weight** -",
 			"",
@@ -2299,7 +2299,7 @@
 		"description": [
 			"## Ring of Animal Friendship",
 			"",
-			"**Source** [Ultimate Equipment pg. 166](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 166](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** faint enchantment; **CL** 3rd  ",
 			"**Slot** ring; **Price** 10,800 gp; **Weight** -",
 			"",
@@ -2321,7 +2321,7 @@
 		"description": [
 			"## Ring of the Iron Skull",
 			"",
-			"**Source** [Pathfinder #57: Tempest Rising pg. 59](source:pathfinder_#57_tempest_rising)  ",
+			"**Source** [Pathfinder #57: Tempest Rising pg. 59](source/pathfinder_#57_tempest_rising)  ",
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** ring; **Price** 10,800 gp; **Weight** -",
 			"",
@@ -2343,7 +2343,7 @@
 		"description": [
 			"## Ring of Transposition",
 			"",
-			"**Source** [Ultimate Equipment pg. 176](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 176](source/ultimate_equipment)  ",
 			"**Aura** moderate conjuration; **CL** 10th  ",
 			"**Slot** ring; **Price** 10,800 gp; **Weight** -",
 			"",
@@ -2365,7 +2365,7 @@
 		"description": [
 			"## Holdout Ring",
 			"",
-			"**Source** [Inner Sea Combat pg. 59](source:inner_sea_combat)  ",
+			"**Source** [Inner Sea Combat pg. 59](source/inner_sea_combat)  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** ring; **Price** 11,000 gp; **Weight** -",
 			"",
@@ -2389,7 +2389,7 @@
 		"description": [
 			"## Ring of Tactical Precision",
 			"",
-			"**Source** [Ultimate Equipment pg. 175](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 175](source/ultimate_equipment)  ",
 			"**Aura** moderate transmutation; **CL** 3rd  ",
 			"**Slot** ring; **Price** 11,000 gp; **Weight** -",
 			"",
@@ -2414,7 +2414,7 @@
 		"description": [
 			"## Ring of the Sophisticate",
 			"",
-			"**Source** [Ultimate Equipment pg. 176](source:ultimate_equipment), [Advanced Race Guide pg. 48](source:advanced_race_guide)  ",
+			"**Source** [Ultimate Equipment pg. 176](source/ultimate_equipment), [Advanced Race Guide pg. 48](source/advanced_race_guide)  ",
 			"**Aura** moderate transmutation and divination; **CL** 8th  ",
 			"**Slot** ring; **Price** 11,000 gp; **Weight** -",
 			"",
@@ -2436,7 +2436,7 @@
 		"description": [
 			"## Decoy Ring",
 			"",
-			"**Source** [Ultimate Equipment pg. 166](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 166](source/ultimate_equipment)  ",
 			"**Aura** moderate illusion; **CL** 11th  ",
 			"**Slot** ring; **Price** 12,000 gp; **Weight** -",
 			"",
@@ -2462,7 +2462,7 @@
 		"description": [
 			"## Ring of Energy Resistance",
 			"",
-			"**Source** [Ultimate Equipment pg. 170](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 170](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** moderate abjuration; **CL** 11th  ",
 			"**Slot** ring; **Price** 12,000 gp (minor), 28,000 gp (major), 44,000 gp (greater); **Weight** -",
 			"",
@@ -2489,7 +2489,7 @@
 		"description": [
 			"## Ring of Blood Calling",
 			"",
-			"**Source** [Pathfinder #106: For Queen and Empire pg. 18](source:pathfinder_#106_for_queen_and_empire)  ",
+			"**Source** [Pathfinder #106: For Queen and Empire pg. 18](source/pathfinder_#106_for_queen_and_empire)  ",
 			"**Aura** moderate conjuration; **CL** 11th  ",
 			"**Slot** ring; **Price** 12,000 gp; **Weight** -",
 			"",
@@ -2515,15 +2515,15 @@
 		"description": [
 			"## Ring of Resistance",
 			"",
-			"**Source** [Pathfinder #123: The Flooded Cathedral pg. 44](source:pathfinder_#123_the_flooded_cathedral)  ",
+			"**Source** [Pathfinder #123: The Flooded Cathedral pg. 44](source/pathfinder_#123_the_flooded_cathedral)  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** ring; **Price** 1,500 gp (+1), 6,000 gp (+2), 13,500 gp (+3), 24,000 gp (+4), 37,500 gp (+5); **Weight** -",
 			"",
-			"Protective symbols adorn this magic ring. It functions as a [cloak of resistance](unknown:cloak_of_resistance) with an equivalent bonus.",
+			"Protective symbols adorn this magic ring. It functions as a [cloak of resistance](unknown/cloak_of_resistance) with an equivalent bonus.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](unknown:forge_ring), [resistance](unknown:resistance), creator's caster level must be at least three times the ring's bonus; **Cost** 750 gp (+1), 3,000 gp (+2), 6,750 gp (+3), 12,000 gp (+4), 17,750 gp (+5)"
+			"**Requirements** [Forge Ring](unknown/forge_ring), [resistance](unknown/resistance), creator's caster level must be at least three times the ring's bonus; **Cost** 750 gp (+1), 3,000 gp (+2), 6,750 gp (+3), 12,000 gp (+4), 17,750 gp (+5)"
 		],
 		"display": "magic/ring"
 	},
@@ -2537,7 +2537,7 @@
 		"description": [
 			"## Ring of Ectoplasmic Invigoration",
 			"",
-			"**Source** [Ultimate Equipment pg. 169](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 169](source/ultimate_equipment)  ",
 			"**Aura** moderate conjuration; **CL** 6th  ",
 			"**Slot** ring; **Price** 12,000 gp; **Weight** -",
 			"",
@@ -2562,15 +2562,15 @@
 		"description": [
 			"## Ring of Immolation",
 			"",
-			"**Source** [Curse of the Crimson Throne pg. 435](source:curse_of_the_crimson_throne), [Pathfinder #11: Skeletons of Scarwall pg. 42](source:pathfinder_#11_skeletons_of_scarwall)  ",
+			"**Source** [Curse of the Crimson Throne pg. 435](source/curse_of_the_crimson_throne), [Pathfinder #11: Skeletons of Scarwall pg. 42](source/pathfinder_#11_skeletons_of_scarwall)  ",
 			"**Aura** moderate evocation (fire); **CL** 10th  ",
 			"**Slot** ring; **Price** 12,000 gp; **Weight** -",
 			"",
-			"A ring of immolation is made of pumice and hardened ash but is as strong as metal. As a free action, the wearer can activate the ring to create a [fire shield](unknown:fire_shield) (warm) on himself. The wearer of a ring of immolation can activate a [fire shield](unknown:fire_shield) on himself for up to 10 rounds each day (these rounds need not be used consecutively). If the wearer would take magical cold damage and any rounds of duration remain, the ring automatically activates for 1 round and protects the wearer from the cold damage as per [fire shield](unknown:fire_shield).",
+			"A ring of immolation is made of pumice and hardened ash but is as strong as metal. As a free action, the wearer can activate the ring to create a [fire shield](unknown/fire_shield) (warm) on himself. The wearer of a ring of immolation can activate a [fire shield](unknown/fire_shield) on himself for up to 10 rounds each day (these rounds need not be used consecutively). If the wearer would take magical cold damage and any rounds of duration remain, the ring automatically activates for 1 round and protects the wearer from the cold damage as per [fire shield](unknown/fire_shield).",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](unknown:forge_ring), [fire shield](unknown:fire_shield); **Cost** 6,000 gp"
+			"**Requirements** [Forge Ring](unknown/forge_ring), [fire shield](unknown/fire_shield); **Cost** 6,000 gp"
 		],
 		"display": "magic/ring"
 	},
@@ -2584,7 +2584,7 @@
 		"description": [
 			"## Ring of Retreat",
 			"",
-			"**Source** [Adventurer's Guide pg. 115](source:adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 115](source/adventurer's_guide)  ",
 			"**Aura** strong conjuration; **CL** 12th  ",
 			"**Slot** ring; **Price** 12,000 gp; **Weight** -",
 			"",
@@ -2606,7 +2606,7 @@
 		"description": [
 			"## Ring of the Troglodyte",
 			"",
-			"**Source** [Ultimate Equipment pg. 176](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 176](source/ultimate_equipment)  ",
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** ring; **Price** 12,000 gp; **Weight** -",
 			"",
@@ -2630,7 +2630,7 @@
 		"description": [
 			"## Steelhand Circle",
 			"",
-			"**Source** [Ultimate Equipment pg. 177](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 177](source/ultimate_equipment)  ",
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** ring; **Price** 12,000 gp; **Weight** -",
 			"",
@@ -2657,7 +2657,7 @@
 		"description": [
 			"## Ring of Chameleon Power",
 			"",
-			"**Source** [Ultimate Equipment pg. 168](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 168](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** faint illusion; **CL** 3rd  ",
 			"**Slot** ring; **Price** 12,700 gp; **Weight** -",
 			"",
@@ -2679,7 +2679,7 @@
 		"description": [
 			"## Ring of Natural Attunement (Drake)",
 			"",
-			"**Source** [Advanced Class Guide pg. 217](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 217](source/advanced_class_guide)  ",
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** ring; **Price** 12,880 gp; **Weight** -",
 			"",
@@ -2701,7 +2701,7 @@
 		"description": [
 			"## Ghost Battling Ring",
 			"",
-			"**Source** [Inner Sea Gods pg. 258](source:inner_sea_gods)  ",
+			"**Source** [Inner Sea Gods pg. 258](source/inner_sea_gods)  ",
 			"**Aura** faint illusion, necromancy, and transmutation; **CL** 5th  ",
 			"**Slot** ring; **Price** 13,000 gp; **Weight** -",
 			"",
@@ -2745,7 +2745,7 @@
 		"description": [
 			"## Ring of Rulership",
 			"",
-			"**Source** [Villain Codex pg. 153](source:villain_codex)  ",
+			"**Source** [Villain Codex pg. 153](source/villain_codex)  ",
 			"**Aura** strong enchantment; **CL** 12th  ",
 			"**Slot** ring; **Price** 14,000 gp; **Weight** -",
 			"",
@@ -2771,7 +2771,7 @@
 		"description": [
 			"## Ring of the Sea Strider",
 			"",
-			"**Source** [Ultimate Equipment pg. 176](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 176](source/ultimate_equipment)  ",
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** ring; **Price** 14,000 gp; **Weight** -",
 			"",
@@ -2793,7 +2793,7 @@
 		"description": [
 			"## Duxotar's Signet",
 			"",
-			"**Source** [Pathfinder #108: Hell Comes to Westcrown pg. 38](source:pathfinder_#108_hell_comes_to_westcrown)  ",
+			"**Source** [Pathfinder #108: Hell Comes to Westcrown pg. 38](source/pathfinder_#108_hell_comes_to_westcrown)  ",
 			"**Aura** moderate abjuration and illusion; **CL** 6th  ",
 			"**Slot** ring; **Price** 14,500 gp; **Weight** -",
 			"",
@@ -2824,7 +2824,7 @@
 		"description": [
 			"## Ophidian Coil",
 			"",
-			"**Source** [Down the Blighted Path pg. 62](source:down_the_blighted_path)  ",
+			"**Source** [Down the Blighted Path pg. 62](source/down_the_blighted_path)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** ring; **Price** 15,000 gp; **Weight** -",
 			"",
@@ -2852,7 +2852,7 @@
 		"description": [
 			"## Ring of Adept Maneuvers",
 			"",
-			"**Source** [Inner Sea Combat pg. 62](source:inner_sea_combat)  ",
+			"**Source** [Inner Sea Combat pg. 62](source/inner_sea_combat)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** ring; **Price** 15,000 gp; **Weight** -",
 			"",
@@ -2878,7 +2878,7 @@
 		"description": [
 			"## Ring of Resilience",
 			"",
-			"**Source** [Advanced Class Guide pg. 218](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 218](source/advanced_class_guide)  ",
 			"**Aura** moderate conjuration; **CL** 10th  ",
 			"**Slot** ring; **Price** 15,000 gp; **Weight** -",
 			"",
@@ -2903,7 +2903,7 @@
 		"description": [
 			"## Ring of Retribution",
 			"",
-			"**Source** [Ultimate Equipment pg. 173](source:ultimate_equipment), [Advanced Player's Guide pg. 292](source:advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 173](source/ultimate_equipment), [Advanced Player's Guide pg. 292](source/advanced_player's_guide)  ",
 			"**Aura** strong evocation; **CL** 13th  ",
 			"**Slot** ring; **Price** 15,000 gp; **Weight** -",
 			"",
@@ -2925,7 +2925,7 @@
 		"description": [
 			"## Ring of the Cacodaemon",
 			"",
-			"**Source** [Book of the Damned pg. 197](source:book_of_the_damned)  ",
+			"**Source** [Book of the Damned pg. 197](source/book_of_the_damned)  ",
 			"**Aura** moderate necromancy; **CL** 8th  ",
 			"**Slot** ring; **Price** 15,000 gp; **Weight** -",
 			"",
@@ -2950,7 +2950,7 @@
 		"description": [
 			"## Ring of Water Walking",
 			"",
-			"**Source** [Ultimate Equipment pg. 177](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 177](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** ring; **Price** 15,000 gp; **Weight** -",
 			"",
@@ -2972,7 +2972,7 @@
 		"description": [
 			"## Scavenger's Ring",
 			"",
-			"**Source** [Magical Marketplace pg. 9](source:magical_marketplace)  ",
+			"**Source** [Magical Marketplace pg. 9](source/magical_marketplace)  ",
 			"**Aura** moderate abjuration; **CL** 7th  ",
 			"**Slot** ring; **Price** 15,000 gp; **Weight** -",
 			"",
@@ -3010,7 +3010,7 @@
 		"description": [
 			"## Heavenly Aegis Ring",
 			"",
-			"**Source** [Horror Adventures pg. 216](source:horror_adventures)  ",
+			"**Source** [Horror Adventures pg. 216](source/horror_adventures)  ",
 			"**Aura** moderate evocation [good]; **CL** 10th  ",
 			"**Slot** ring; **Price** 16,000 gp; **Weight** -",
 			"",
@@ -3048,7 +3048,7 @@
 		"description": [
 			"## Ring of Perfect Sizing",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 33](source:giant_hunter's_handbook)  ",
+			"**Source** [Giant Hunter's Handbook pg. 33](source/giant_hunter's_handbook)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** ring; **Price** 16,000 gp; **Weight** -",
 			"",
@@ -3070,7 +3070,7 @@
 		"description": [
 			"## Sigil of Kraggodan",
 			"",
-			"**Source** [Pathfinder #118: Siege of Stone pg. 41](source:pathfinder_#118_siege_of_stone)  ",
+			"**Source** [Pathfinder #118: Siege of Stone pg. 41](source/pathfinder_#118_siege_of_stone)  ",
 			"**Aura** moderate abjuration; **CL** 10th  ",
 			"**Slot** ring; **Price** 16,000 gp; **Weight** -",
 			"",
@@ -3092,7 +3092,7 @@
 		"description": [
 			"## Ring of Entropy and Order",
 			"",
-			"**Source** [Planar Adventures pg. 49](source:planar_adventures)  ",
+			"**Source** [Planar Adventures pg. 49](source/planar_adventures)  ",
 			"**Aura** moderate abjuration; **CL** 10th  ",
 			"**Slot** ring; **Price** 16,200 gp; **Weight** -",
 			"",
@@ -3144,7 +3144,7 @@
 		"description": [
 			"## Ring of Inner Fortitude",
 			"",
-			"**Source** [Ultimate Equipment pg. 171](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 171](source/ultimate_equipment)  ",
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** ring; **Price** 18,000 gp (minor), 42,000 gp (major), 66,000 gp (greater); **Weight** -",
 			"",
@@ -3179,7 +3179,7 @@
 		"description": [
 			"## Ring of Spell Storing (minor)",
 			"",
-			"**Source** [Ultimate Equipment pg. 174](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 174](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** ring; **Price** 18,000 gp; **Weight** -",
 			"",
@@ -3204,7 +3204,7 @@
 		"description": [
 			"## Ring of Stony Flesh",
 			"",
-			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep pg. 63](source:pathfinder_#83_the_slave_trenches_of_hakotep)  ",
+			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep pg. 63](source/pathfinder_#83_the_slave_trenches_of_hakotep)  ",
 			"**Aura** moderate abjuration; **CL** 11th  ",
 			"**Slot** ring; **Price** 18,000 gp; **Weight** -",
 			"",
@@ -3226,7 +3226,7 @@
 		"description": [
 			"## Rings of Bondage",
 			"",
-			"**Source** [Ultimate Intrigue pg. 242](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 242](source/ultimate_intrigue)  ",
 			"**Aura** moderate enchantment; **CL** 7th  ",
 			"**Slot** ring; **Price** 18,200 gp; **Weight** -",
 			"",
@@ -3254,7 +3254,7 @@
 		"description": [
 			"## Ring of Energy Shroud",
 			"",
-			"**Source** [Ultimate Equipment pg. 170](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 170](source/ultimate_equipment)  ",
 			"**Aura** strong abjuration; **CL** 13th  ",
 			"**Slot** ring; **Price** 19,500 gp; **Weight** -",
 			"",
@@ -3285,7 +3285,7 @@
 		"description": [
 			"## Nethysian Ring of Minor Spell Storing",
 			"",
-			"**Source** [Inner Sea Gods pg. 259](source:inner_sea_gods)  ",
+			"**Source** [Inner Sea Gods pg. 259](source/inner_sea_gods)  ",
 			"**Aura** moderate abjuration and transmutation [chaotic, evil, good, lawful]; **CL** 5th  ",
 			"**Slot** ring; **Price** 20,000 gp; **Weight** -",
 			"",
@@ -3307,7 +3307,7 @@
 		"description": [
 			"## Ring of Arcane Mastery",
 			"",
-			"**Source** [Ultimate Equipment pg. 167](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 167](source/ultimate_equipment)  ",
 			"**Aura** strong abjuration and evocation; **CL** 11th  ",
 			"**Slot** ring; **Price** 20,000 gp; **Weight** -",
 			"",
@@ -3336,7 +3336,7 @@
 		"description": [
 			"## Ring of Invisibility",
 			"",
-			"**Source** [Ultimate Equipment pg. 171](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 171](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** faint illusion; **CL** 3rd  ",
 			"**Slot** ring; **Price** 20,000 gp; **Weight** -",
 			"",
@@ -3358,7 +3358,7 @@
 		"description": [
 			"## Ring of Phrenic Prowess",
 			"",
-			"**Source** [Psychic Anthology pg. 8](source:psychic_anthology)  ",
+			"**Source** [Psychic Anthology pg. 8](source/psychic_anthology)  ",
 			"**Aura** moderate abjuration and divination; **CL** 11th  ",
 			"**Slot** ring; **Price** 20,000 gp; **Weight** -",
 			"",
@@ -3384,7 +3384,7 @@
 		"description": [
 			"## Ring of Plagues",
 			"",
-			"**Source** [Champions of Corruption pg. 31](source:champions_of_corruption)  ",
+			"**Source** [Champions of Corruption pg. 31](source/champions_of_corruption)  ",
 			"**Aura** moderate necromancy; **CL** 11th  ",
 			"**Slot** ring; **Price** 20,000 gp; **Weight** -",
 			"",
@@ -3408,7 +3408,7 @@
 		"description": [
 			"## Ring of Terrible Cost",
 			"",
-			"**Source** [Cheliax, Empire of Devils pg. 21](source:cheliax,_empire_of_devils)  ",
+			"**Source** [Cheliax, Empire of Devils pg. 21](source/cheliax,_empire_of_devils)  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** ring; **Price** 20,000 gp; **Weight** -",
 			"",
@@ -3439,7 +3439,7 @@
 		"description": [
 			"## Ring of Wizardry",
 			"",
-			"**Source** [Ultimate Equipment pg. 177](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 177](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** moderate (no school); **CL** 11th  ",
 			"**Slot** ring; **Price** 20,000 gp (type I), 40,000 gp (type II), 70,000 gp (type III), 100,000 gp (type IV); **Weight** -",
 			"",
@@ -3461,7 +3461,7 @@
 		"description": [
 			"## Ring of Mysticism",
 			"",
-			"**Source** [Psychic Anthology pg. 8](source:psychic_anthology)  ",
+			"**Source** [Psychic Anthology pg. 8](source/psychic_anthology)  ",
 			"**Aura** moderate (no school); **CL** 11th  ",
 			"**Slot** ring; **Price** 20,000 gp (Type I), 40,000 gp (Type II), 70,000 gp (Type III), 100,000 gp (Type IV); **Weight** -",
 			"",
@@ -3529,7 +3529,7 @@
 		"description": [
 			"## Ring of Evasion",
 			"",
-			"**Source** [Ultimate Equipment pg. 170](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 170](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** ring; **Price** 25,000 gp; **Weight** -",
 			"",
@@ -3555,7 +3555,7 @@
 		"description": [
 			"## Ring of X-Ray Vision",
 			"",
-			"**Source** [Ultimate Equipment pg. 177](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 177](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** moderate divination; **CL** 6th  ",
 			"**Slot** ring; **Price** 25,000 gp; **Weight** -",
 			"",
@@ -3582,7 +3582,7 @@
 		"description": [
 			"## Witness Hunter's Ring",
 			"",
-			"**Source** [Inner Sea Intrigue pg. 56](source:inner_sea_intrigue)  ",
+			"**Source** [Inner Sea Intrigue pg. 56](source/inner_sea_intrigue)  ",
 			"**Aura** moderate divination; **CL** 7th  ",
 			"**Slot** ring; **Price** 25,200 gp; **Weight** -",
 			"",
@@ -3604,7 +3604,7 @@
 		"description": [
 			"## Swarmwalker's Ring",
 			"",
-			"**Source** [Ultimate Intrigue pg. 242](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 242](source/ultimate_intrigue)  ",
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** ring; **Price** 26,000 gp; **Weight** -",
 			"",
@@ -3646,7 +3646,7 @@
 		"description": [
 			"## Ring of Blinking",
 			"",
-			"**Source** [Ultimate Equipment pg. 168](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 168](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** ring; **Price** 27,000 gp; **Weight** -",
 			"",
@@ -3680,7 +3680,7 @@
 		"description": [
 			"## Ring of the Ecclesiarch",
 			"",
-			"**Source** [Ultimate Equipment pg. 175](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 175](source/ultimate_equipment)  ",
 			"**Aura** faint enchantment; **CL** 5th  ",
 			"**Slot** ring; **Price** 28,500 gp; **Weight** -",
 			"",
@@ -3713,7 +3713,7 @@
 		"description": [
 			"## Elemental Ring",
 			"",
-			"**Source** [Cohorts and Companions pg. 11](source:cohorts_and_companions)  ",
+			"**Source** [Cohorts and Companions pg. 11](source/cohorts_and_companions)  ",
 			"**Aura** strong conjuration; **CL** 15th  ",
 			"**Slot** ring; **Price** 30,000 gp; **Weight** 1 lb.",
 			"",
@@ -3737,7 +3737,7 @@
 		"description": [
 			"## Planefarer's Band",
 			"",
-			"**Source** [Planes of Power pg. 9](source:planes_of_power)  ",
+			"**Source** [Planes of Power pg. 9](source/planes_of_power)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** ring; **Price** 30,000 gp; **Weight** -",
 			"",
@@ -3767,7 +3767,7 @@
 		"description": [
 			"## Ring of Transcendent Spells",
 			"",
-			"**Source** [Mythic Adventures pg. 156](source:mythic_adventures)  ",
+			"**Source** [Mythic Adventures pg. 156](source/mythic_adventures)  ",
 			"**Aura** strong universal; **CL** 13th  ",
 			"**Slot** ring; **Price** 30,000 gp; **Weight** -",
 			"",
@@ -3793,7 +3793,7 @@
 		"description": [
 			"## Rings of Alien Geometries",
 			"",
-			"**Source** [Horror Adventures pg. 216](source:horror_adventures)  ",
+			"**Source** [Horror Adventures pg. 216](source/horror_adventures)  ",
 			"**Aura** moderate conjuration; **CL** 10th  ",
 			"**Slot** ring; **Price** 30,000 gp; **Weight** -",
 			"",
@@ -3817,7 +3817,7 @@
 		"description": [
 			"## Ring of Resumption",
 			"",
-			"**Source** [Healer's Handbook pg. 30](source:healer's_handbook)  ",
+			"**Source** [Healer's Handbook pg. 30](source/healer's_handbook)  ",
 			"**Aura** moderate conjuration; **CL** 11th  ",
 			"**Slot** ring; **Price** 30,800 gp; **Weight** -",
 			"",
@@ -3841,7 +3841,7 @@
 		"description": [
 			"## Ring of Energy Dampening",
 			"",
-			"**Source** [Mythic Adventures pg. 156](source:mythic_adventures)  ",
+			"**Source** [Mythic Adventures pg. 156](source/mythic_adventures)  ",
 			"**Aura** moderate abjuration; **CL** 10th  ",
 			"**Slot** ring; **Price** 31,500 gp; **Weight** -",
 			"",
@@ -3879,7 +3879,7 @@
 		"description": [
 			"## Ring of Refusal",
 			"",
-			"**Source** [Inner Sea Monster Codex pg. 29](source:inner_sea_monster_codex)  ",
+			"**Source** [Inner Sea Monster Codex pg. 29](source/inner_sea_monster_codex)  ",
 			"**Aura** strong conjuration and transmutation; **CL** 13th  ",
 			"**Slot** ring; **Price** 32,500 gp; **Weight** -",
 			"",
@@ -3915,7 +3915,7 @@
 		"description": [
 			"## Sihedron Ring",
 			"",
-			"**Source** [Rise of the Runelords Anniversary Edition pg. 426](source:rise_of_the_runelords_anniversary_edition), [Pathfinder #6: Spires of Xin-Shalast pg. 37](source:pathfinder_#6_spires_of_xin-shalast)  ",
+			"**Source** [Rise of the Runelords Anniversary Edition pg. 426](source/rise_of_the_runelords_anniversary_edition), [Pathfinder #6: Spires of Xin-Shalast pg. 37](source/pathfinder_#6_spires_of_xin-shalast)  ",
 			"**Aura** moderate abjuration and illusion; **CL** 9th  ",
 			"**Slot** ring; **Price** 35,000 gp; **Weight** -",
 			"",
@@ -3977,7 +3977,7 @@
 		"description": [
 			"## Ring of Freedom of Movement",
 			"",
-			"**Source** [Ultimate Equipment pg. 171](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 171](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** moderate abjuration; **CL** 7th  ",
 			"**Slot** ring; **Price** 40,000 gp; **Weight** -",
 			"",
@@ -4030,7 +4030,7 @@
 		"description": [
 			"## Rings of Bondage, Greater",
 			"",
-			"**Source** [Ultimate Intrigue pg. 242](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 242](source/ultimate_intrigue)  ",
 			"**Aura** moderate enchantment; **CL** 11th  ",
 			"**Slot** ring; **Price** 42,000 gp; **Weight** -",
 			"",
@@ -4082,7 +4082,7 @@
 		"description": [
 			"## Ring of Delayed Doom",
 			"",
-			"**Source** [Ultimate Equipment pg. 169](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 169](source/ultimate_equipment)  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** ring; **Price** 45,000 gp; **Weight** -",
 			"",
@@ -4102,7 +4102,7 @@
 		"slot": "ring",
 		"weight": 0,
 		"description": [
-			"## Source [Dragonslayer's Handbook pg. 31](source:dragonslayer's_handbook)",
+			"## Source [Dragonslayer's Handbook pg. 31](source/dragonslayer's_handbook)",
 			"",
 			"**Aura** moderate abjuration and necromancy; **CL** 7th  ",
 			"**Slot** ring; **Price** 48,000 gp; **Weight** -",
@@ -4158,17 +4158,17 @@
 		"description": [
 			"## Band of Triumph",
 			"",
-			"**Source** [Pathfinder #131: The Reaper's Right Hand pg. 35](source:pathfinder_#131_the_reaper's_right_hand)  ",
+			"**Source** [Pathfinder #131: The Reaper's Right Hand pg. 35](source/pathfinder_#131_the_reaper's_right_hand)  ",
 			"**Aura** strong enchantment and evocation; **CL** 13th  ",
 			"**Slot** ring; **Price** 50,000 gp; **Weight** -",
 			"",
-			"This white-gold ring bears the relief image of a roaring lion. Once per day on command, the wearer can point the ring and mentally designate one or more creatures or objects in a 60-foot cone as enemies, after which the ring roars triumphantly. Selected targets in the area are affected by [shout](unknown:shout) (Fortitude DC 20). All other objects in the area are unharmed, and all other creatures in the area receive the benefits of the [inspire courage bardic performance](unknown:inspire_courage_bardic_performance) as performed by a 7th-level bard for 3 rounds. When activating the ring, the wearer can expend 1 round of her bardic performance ability to use her own bard level to calculate the performance's effect.",
+			"This white-gold ring bears the relief image of a roaring lion. Once per day on command, the wearer can point the ring and mentally designate one or more creatures or objects in a 60-foot cone as enemies, after which the ring roars triumphantly. Selected targets in the area are affected by [shout](unknown/shout) (Fortitude DC 20). All other objects in the area are unharmed, and all other creatures in the area receive the benefits of the [inspire courage bardic performance](unknown/inspire_courage_bardic_performance) as performed by a 7th-level bard for 3 rounds. When activating the ring, the wearer can expend 1 round of her bardic performance ability to use her own bard level to calculate the performance's effect.",
 			"",
 			"In addition, the ring grants the wearer a +4 enhancement bonus to Charisma; treat this as a temporary ability bonus for the first 24 hours the ring is worn.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](unknown:forge_ring), [eagle's splendor](unknown:eagle's_splendor), [good hope](unknown:good_hope), [shout](unknown:shout); **Cost** 25,000 gp"
+			"**Requirements** [Forge Ring](unknown/forge_ring), [eagle's splendor](unknown/eagle's_splendor), [good hope](unknown/good_hope), [shout](unknown/shout); **Cost** 25,000 gp"
 		],
 		"display": "magic/ring"
 	},
@@ -4185,7 +4185,7 @@
 		"description": [
 			"## Ring of Friend Shield",
 			"",
-			"**Source** [Ultimate Equipment pg. 171](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 171](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** moderate abjuration; **CL** 10th  ",
 			"**Slot** ring; **Price** 50,000 gp; **Weight** -",
 			"",
@@ -4207,7 +4207,7 @@
 		"description": [
 			"## Ring of Psychic Mastery",
 			"",
-			"**Source** [Occult Adventures pg. 252](source:occult_adventures)  ",
+			"**Source** [Occult Adventures pg. 252](source/occult_adventures)  ",
 			"**Aura** strong (no school); **CL** 14th  ",
 			"**Slot** ring; **Price** 50,000 gp; **Weight** -",
 			"",
@@ -4232,7 +4232,7 @@
 		"description": [
 			"## Ring of Shooting Stars",
 			"",
-			"**Source** [Ultimate Equipment pg. 173](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 173](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** strong evocation; **CL** 12th  ",
 			"**Slot** ring; **Price** 50,000 gp; **Weight** -",
 			"",
@@ -4283,7 +4283,7 @@
 		"description": [
 			"## Ring of Spell Storing",
 			"",
-			"**Source** [Ultimate Equipment pg. 174](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 174](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** moderate evocation; **CL** 9th  ",
 			"**Slot** ring; **Price** 50,000 gp; **Weight** -",
 			"",
@@ -4311,7 +4311,7 @@
 		"description": [
 			"## Ring of Continuation",
 			"",
-			"**Source** [Ultimate Equipment pg. 168](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 168](source/ultimate_equipment)  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** ring; **Price** 56,000 gp; **Weight** -",
 			"",
@@ -4333,7 +4333,7 @@
 		"description": [
 			"## Survivor's Ring",
 			"",
-			"**Source** [Inner Sea Intrigue pg. 56](source:inner_sea_intrigue)  ",
+			"**Source** [Inner Sea Intrigue pg. 56](source/inner_sea_intrigue)  ",
 			"**Aura** strong illusion; **CL** 18th  ",
 			"**Slot** ring; **Price** 56,160 gp; **Weight** -",
 			"",
@@ -4368,7 +4368,7 @@
 		"description": [
 			"## Spiritualist Rings",
 			"",
-			"**Source** [Ultimate Equipment pg. 177](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 177](source/ultimate_equipment)  ",
 			"**Aura** strong necromancy; **CL** 12th  ",
 			"**Slot** ring; **Price** 70,000 gp; **Weight** -",
 			"",
@@ -4419,7 +4419,7 @@
 		"description": [
 			"## Ring of Telekinesis",
 			"",
-			"**Source** [Ultimate Equipment pg. 175](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 175](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** ring; **Price** 75,000 gp; **Weight** -",
 			"",
@@ -4444,7 +4444,7 @@
 		"description": [
 			"## Ring of Regeneration",
 			"",
-			"**Source** [Ultimate Equipment pg. 172](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 172](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** strong conjuration; **CL** 15th  ",
 			"**Slot** ring; **Price** 90,000 gp; **Weight** -",
 			"",
@@ -4469,7 +4469,7 @@
 		"description": [
 			"## Ring of Spell Turning",
 			"",
-			"**Source** [Ultimate Equipment pg. 174](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 174](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** strong abjuration; **CL** 13th  ",
 			"**Slot** ring; **Price** 100,000 gp; **Weight** -",
 			"",
@@ -4512,7 +4512,7 @@
 		"description": [
 			"## Ring of the Shadow Victim",
 			"",
-			"**Source** [Ultimate Intrigue pg. 241](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 241](source/ultimate_intrigue)  ",
 			"**Aura** moderate illusion; **CL** 7th  ",
 			"**Slot** ring; **Price** 101,000 gp; **Weight** -",
 			"",
@@ -4543,7 +4543,7 @@
 		"description": [
 			"## Ring of Three Wishes",
 			"",
-			"**Source** [Ultimate Equipment pg. 176](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 176](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** strong universal; **CL** 20th  ",
 			"**Slot** ring; **Price** 120,000 gp; **Weight** -",
 			"",
@@ -4568,7 +4568,7 @@
 		"description": [
 			"## Ring of Djinni Calling",
 			"",
-			"**Source** [Ultimate Equipment pg. 169](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 169](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** strong conjuration; **CL** 17th  ",
 			"**Slot** ring; **Price** 125,000 gp; **Weight** -",
 			"",
@@ -4590,11 +4590,11 @@
 		"description": [
 			"## Ring of the Recalled Soul",
 			"",
-			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 28](source:pathfinder_#132_the_six-legend_soul)  ",
+			"**Source** [Pathfinder #132: The Six-Legend Soul pg. 28](source/pathfinder_#132_the_six-legend_soul)  ",
 			"**Aura** moderate illusion; **CL** 18th  ",
 			"**Slot** ring; **Price** 150,000 gp; **Weight** -",
 			"",
-			"The ring of the recalled soul allows the wearer to open a door into a nearby mindscape they are aware of as if using the spell [mindscape door](unknown:mindscape_door), but the targeted creature cannot resist this effect with a Will save. If the ring's wearer connects to the mindscape, he can designate up to 10 other creatures to be able to see and pass through the door as though it were a normal doorway. The ring grants no ability to detect mindscapes, so the wearer must already be aware of its existence via interactions, hearsay, or the [detect mindscape](unknown:detect_mindscape) spell.",
+			"The ring of the recalled soul allows the wearer to open a door into a nearby mindscape they are aware of as if using the spell [mindscape door](unknown/mindscape_door), but the targeted creature cannot resist this effect with a Will save. If the ring's wearer connects to the mindscape, he can designate up to 10 other creatures to be able to see and pass through the door as though it were a normal doorway. The ring grants no ability to detect mindscapes, so the wearer must already be aware of its existence via interactions, hearsay, or the [detect mindscape](unknown/detect_mindscape) spell.",
 			"",
 			"Once the ring's wearer has connected to the mindscape, he can open the door to that particular mindscape from anywhere on the same plane, so long as the mindscape still exists. Physical distance poses no barrier to the mindscape. Each time the ring's wearer opens the door to a mindscape he has previously visited, he can alter the designated creatures allowed to pass through the door as if he were opening the door for the first time.",
 			"",
@@ -4602,7 +4602,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](unknown:forge_ring), [mindscape door](unknown:mindscape_door); **Cost** 75,000 gp"
+			"**Requirements** [Forge Ring](unknown/forge_ring), [mindscape door](unknown/mindscape_door); **Cost** 75,000 gp"
 		],
 		"display": "magic/ring"
 	},
@@ -4616,7 +4616,7 @@
 		"description": [
 			"## Ring of the Hidden Psyche",
 			"",
-			"**Source** [Occult Adventures pg. 252](source:occult_adventures)  ",
+			"**Source** [Occult Adventures pg. 252](source/occult_adventures)  ",
 			"**Aura** strong (no school); **CL** 18th  ",
 			"**Slot** ring; **Price** 160,000 gp; **Weight** -",
 			"",
@@ -4645,7 +4645,7 @@
 		"description": [
 			"## Ring of Splendid Security",
 			"",
-			"**Source** [Curse of the Crimson Throne pg. 435](source:curse_of_the_crimson_throne), [Pathfinder #12: Crown of Fangs pg. 60](source:pathfinder_#12_crown_of_fangs)  ",
+			"**Source** [Curse of the Crimson Throne pg. 435](source/curse_of_the_crimson_throne), [Pathfinder #12: Crown of Fangs pg. 60](source/pathfinder_#12_crown_of_fangs)  ",
 			"**Aura** strong abjuration; **CL** 16th  ",
 			"**Slot** ring; **Price** 180,000 gp; **Weight** -",
 			"",
@@ -4653,7 +4653,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](unknown:forge_ring), [minor image](unknown:minor_image), [resistance](unknown:resistance), [shield](unknown:shield) or [shield of faith](unknown:shield_of_faith),; **Cost** 90,000 gp"
+			"**Requirements** [Forge Ring](unknown/forge_ring), [minor image](unknown/minor_image), [resistance](unknown/resistance), [shield](unknown/shield) or [shield of faith](unknown/shield_of_faith),; **Cost** 90,000 gp"
 		],
 		"display": "magic/ring"
 	},
@@ -4670,7 +4670,7 @@
 		"description": [
 			"## Ring of Elemental Command",
 			"",
-			"**Source** [Ultimate Equipment pg. 169](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 169](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** strong conjuration; **CL** 15th  ",
 			"**Slot** ring; **Price** 200,000 gp; **Weight** -",
 			"",
@@ -4755,7 +4755,7 @@
 		"description": [
 			"## Ring of Spell Storing (major)",
 			"",
-			"**Source** [Ultimate Equipment pg. 174](source:ultimate_equipment), [PRPG Core Rulebook pg. 479](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 174](source/ultimate_equipment), [PRPG Core Rulebook pg. 479](source/prpg_core_rulebook)  ",
 			"**Aura** strong evocation; **CL** 17th  ",
 			"**Slot** ring; **Price** 200,000 gp; **Weight** -",
 			"",
@@ -4784,7 +4784,7 @@
 		"description": [
 			"## Wary Ring",
 			"",
-			"**Source** [Magical Marketplace pg. 17](source:magical_marketplace)  ",
+			"**Source** [Magical Marketplace pg. 17](source/magical_marketplace)  ",
 			"**Aura** n/a; **CL** 9th  ",
 			"**Slot** ring; **Price** 14,600 gp",
 			"",
@@ -4813,7 +4813,7 @@
 		"description": [
 			"## Ring of the Weary Sky",
 			"",
-			"**Source** [Lost Treasures pg. 49](source:lost_treasures)  ",
+			"**Source** [Lost Treasures pg. 49](source/lost_treasures)  ",
 			"**Aura** moderate abjuration and enchantment; **CL** 7th  ",
 			"**Slot** ring; **Price** 14,800 gp",
 			"",
@@ -4842,7 +4842,7 @@
 			"Communication telepathy (Common and seven other languages)"
 		],
 		"description": [
-			"## Source [Ultimate Equipment pg. 359](source:ultimate_equipment)",
+			"## Source [Ultimate Equipment pg. 359](source/ultimate_equipment)",
 			"",
 			"**Aura** moderate abjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 116,500 gp",
@@ -4876,7 +4876,7 @@
 		"weight": 0,
 		"cursed": true,
 		"description": [
-			"## Source [Ultimate Equipment pg. 344](source:ultimate_equipment), [Advanced Player's Guide pg. 310](source:advanced_player's_guide)",
+			"## Source [Ultimate Equipment pg. 344](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_player's_guide)",
 			"",
 			"**Aura** strong transmutation; **CL** 16th  ",
 			"**Slot** ring; **Weight** -",
@@ -4901,7 +4901,7 @@
 		"description": [
 			"## Chatter Ring",
 			"",
-			"**Source** [Antihero's Handbook pg. 31](source:antihero's_handbook)  ",
+			"**Source** [Antihero's Handbook pg. 31](source/antihero's_handbook)  ",
 			"**Aura** faint divination; **CL** 3rd  ",
 			"**Slot** ring; **Weight** -",
 			"",
@@ -4924,7 +4924,7 @@
 		"weight": 0,
 		"cursed": true,
 		"description": [
-			"## Source [Ultimate Equipment pg. 349](source:ultimate_equipment), [PRPG Core Rulebook pg. 542](source:prpg_core_rulebook)",
+			"## Source [Ultimate Equipment pg. 349](source/ultimate_equipment), [PRPG Core Rulebook pg. 542](source/prpg_core_rulebook)",
 			"",
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** ring; **Weight** -",
@@ -4945,7 +4945,7 @@
 		"weight": 0,
 		"cursed": true,
 		"description": [
-			"## Source [Ultimate Equipment pg. 349](source:ultimate_equipment)",
+			"## Source [Ultimate Equipment pg. 349](source/ultimate_equipment)",
 			"",
 			"**Aura** moderate necromancy; **CL** 10th  ",
 			"**Slot** ring; **Weight** -",
@@ -4966,7 +4966,7 @@
 		"weight": 0,
 		"cursed": true,
 		"description": [
-			"## Source [Ultimate Equipment pg. 349](source:ultimate_equipment)",
+			"## Source [Ultimate Equipment pg. 349](source/ultimate_equipment)",
 			"",
 			"**Aura** strong abjuration; **CL** 13th  ",
 			"**Slot** ring; **Weight** -",
@@ -4990,7 +4990,7 @@
 		"weight": 0,
 		"cursed": true,
 		"description": [
-			"## Source [Ultimate Equipment pg. 349](source:ultimate_equipment), [Advanced Player's Guide pg. 310](source:advanced_player's_guide)",
+			"## Source [Ultimate Equipment pg. 349](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_player's_guide)",
 			"",
 			"**Aura** moderate enchantment; **CL** 9th  ",
 			"**Slot** ring; **Weight** -",

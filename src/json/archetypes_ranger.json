@@ -18,7 +18,7 @@
 		"description": [
 			"## Abendego Diver",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 12](source:elemental_master's_handbook)  ",
+			"**Source** [Elemental Master's Handbook pg. 12](source/elemental_master's_handbook)  ",
 			"Named for the vicious and unending storm in the southern Arcadian Ocean, Abendego divers have pushed their bodies to their limits, holding their breath to expand their lung capacity and swimming until ocean travel is second nature to them.",
 			"",
 			"**Weapon and Armor Proficiency:** An Abendego diver is not proficient with shields but is proficient with harpoons and nets.",
@@ -67,7 +67,7 @@
 		"description": [
 			"## Battle Scout",
 			"",
-			"**Source** [Ultimate Combat pg. 66](source:ultimate_combat)  ",
+			"**Source** [Ultimate Combat pg. 66](source/ultimate_combat)  ",
 			"Armies need clean water, safe routes, and intelligence about their enemies. Though regular outdoorsmen might suffice in many cases, some large forces look to battle scouts to keep the body of their troops safe and prepared for the terrain and whatever dangers that terrain hides.",
 			"",
 			"**Hunter's Bond (Ex):** At 4th level, when a battle scout gains the hunter's bond ability, he must choose to bond with his companions. Battle scouts do not have animal companions.",
@@ -102,7 +102,7 @@
 		"description": [
 			"## Beast Master",
 			"",
-			"**Source** [Advanced Player's Guide pg. 124](source:advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 124](source/advanced_player's_guide)  ",
 			"Some rangers, particularly those in primitive lands or who were raised by animals, have unusually strong bonds with animals. Unique among rangers, they can bond with multiple animals of any kind, creating a menagerie of wild yet loyal creatures, like a strange family. A beast master has the following class features.",
 			"",
 			"**Class Skills:** A beast master's class skills are Acrobatics (Dex), Climb (Str), Craft (Int), Escape Artist (Dex), Handle Animal (Cha), Heal (Wis), Intimidate (Cha), Knowledge (nature) (Int), Perception (Wis), Ride (Dex), Stealth (Dex), Survival (Wis), and Swim (Wis). These replace the standard ranger class skills.",
@@ -132,7 +132,7 @@
 		"description": [
 			"## Blightwarden",
 			"",
-			"**Source** [People of the Wastes pg. 17](source:people_of_the_wastes)  ",
+			"**Source** [People of the Wastes pg. 17](source/people_of_the_wastes)  ",
 			"Some rangers feel so closely connected to their homelands that they stand as guardians against pervasive corruptions that pervert those lands beyond the point of recognition.",
 			"",
 			"**Hunt the Blighted (Ex):** A blightwarden's first favored enemy is always a special type of creature: blighted. His bonuses from his first favored enemy apply to creatures with one or more of the following templates: blighted fey, fungal creature, fungoid, Mana Wastes mutant, mutant, mutant goblin, and plagued beast. Additionally, the bonuses apply against creatures with the blight subtype.",
@@ -177,7 +177,7 @@
 		"description": [
 			"## Bow Nomad",
 			"",
-			"**Source** [People of the Stars pg. 8](source:people_of_the_stars)  ",
+			"**Source** [People of the Stars pg. 8](source/people_of_the_stars)  ",
 			"Thanks to their four arms, kasathas can master a combat form native to their home world and rarely witnessed on Golarion-wielding two bows at once. This archetype is available to kasathas (and to other races with four or more arms at the GM's discretion).",
 			"",
 			"**Twin Bows (Ex):** At 1st level, a bow nomad can simultaneously wield a combination of two of any of the following ranged weapons: shortbow, longbow, and their composite versions. When a bow nomad makes a full attack with two bows, twoweapon penalties apply and can be offset with Two- Weapon Fighting feats. Since bows aren't light weapons, a bow nomad with Two-Weapon Fighting takes a -4 penalty on attacks with each of her bows. Extra attacks from other sources, such as those granted by Manyshot or Rapid Shot, can be applied to only one of the wielded bows per round. This ability replaces wild empathy.",
@@ -219,7 +219,7 @@
 		"description": [
 			"## Cinderwalker",
 			"",
-			"**Source** [Pathfinder #95: Anvil of Fire pg. 72](source:pathfinder_#95_anvil_of_fire)  ",
+			"**Source** [Pathfinder #95: Anvil of Fire pg. 72](source/pathfinder_#95_anvil_of_fire)  ",
 			"Cinderwalkers traverse burning wastelands and restless mountains, thriving in lands most creatures avoid.",
 			"",
 			"**Born to the Fire (Ex):** At 3rd level, a cinderwalker gains a +2 bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival checks when in volcanic or geothermally active areas. Such areas include calderas, hot springs, lava plains, and volcanically formed hills or mountains. In addition, the cinderwalker adds this bonus on any ability checks, saving throws, or skill checks to avoid geothermal or volcanic hazards. The cinderwalker can choose to improve this bonus in place of improving a favored terrain bonus. A cinderwalker traveling through volcanic or geothermally active areas leaves no trail and cannot be tracked (though he can leave a trail if he chooses). This ability replaces the cinderwalker's first favored terrain and wild empathy.",
@@ -244,7 +244,7 @@
 		"description": [
 			"## Code Runner",
 			"",
-			"**Source** [Ultimate Intrigue pg. 40](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 40](source/ultimate_intrigue)  ",
 			"A code runner specializes in the subtle and speedy transfer of secret messages. He performs long runs between distant lands, sometimes spanning continents and often traversing difficult terrain. He trains his mind both to memorize long messages and to resist any attempts to steal his covert communiques.",
 			"",
 			"**Class Skills:** A code runner adds Knowledge (local) and Linguistics to his list of class skills, instead of Handle Animal and Heal",
@@ -279,7 +279,7 @@
 		"description": [
 			"## Corpse Hunter",
 			"",
-			"**Source** [Undead Slayer's Handbook pg. 24](source:undead_slayer's_handbook)  ",
+			"**Source** [Undead Slayer's Handbook pg. 24](source/undead_slayer's_handbook)  ",
 			"Many rangers count the undead among their favored enemies, but some make a full-time job out of hunting down and destroying these walking corpses. A corpse hunter has the following class features.",
 			"",
 			"**Class Skills:** A corpse hunter adds Knowledge (religion) to his list of class skills, and removes Knowledge (nature) from his list of class skills.",
@@ -314,7 +314,7 @@
 		"description": [
 			"## Dandy",
 			"",
-			"**Source** [Ultimate Intrigue pg. 41](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 41](source/ultimate_intrigue)  ",
 			"The antithesis of the gruff and wild woodsmen, a dandy takes effort to master the subtle etiquette of noble courts, the whispers of dark rumors, and the customs of the cultured world. Nonetheless, he is still a ranger at heart, and he hunts for rumors and gossip throughout the grand ballrooms of the wealthy and powerful just as most rangers hunt for enemies in the wilderness.",
 			"",
 			"**Class Skills:** A dandy adds Bluff, Diplomacy, Knowledge (local), Knowledge (nobility), and Sense Motive to his list of class skills, instead of Handle Animal, Knowledge (dungeoneering), Knowledge (geography), Knowledge (nature), and Survival.",
@@ -372,7 +372,7 @@
 		"description": [
 			"## Darklands Sailor",
 			"",
-			"**Source** [Heroes of the Darklands pg. 27](source:heroes_of_the_darklands)  ",
+			"**Source** [Heroes of the Darklands pg. 27](source/heroes_of_the_darklands)  ",
 			"Those plying the lightless waters of the Darklands learn to use sound to augment their compromised vision, providing insight into the hazards lurking below the surface. A Darklands sailor has the following class features.",
 			"",
 			"**Skilled Pilot (Ex):** A Darklands sailor adds half his level (minimum 1) to Profession (sailor) and Survival checks to navigate or avoid natural hazards in subterranean waterways.",
@@ -412,7 +412,7 @@
 		"description": [
 			"## Deep Walker",
 			"",
-			"**Source** [Ultimate Combat pg. 66](source:ultimate_combat)  ",
+			"**Source** [Ultimate Combat pg. 66](source/ultimate_combat)  ",
 			"Some rangers devote their lives to the woods, becoming hunters, protectors, and wilderness guides among its diverse terrain types. The deep walker is instead a master of the strange terrain of the deep earth, exploring its caverns and caves, becoming a master of the dark corridors most surface dwellers fear to explore-and perhaps the reason they fear to explore them.",
 			"",
 			"**Deep Knowledge (Ex):** At 3rd level, a deep walker gains a +2 bonus on initiative checks and Knowledge (dungeoneering), Perception, Stealth, and Survival skill checks while underground (in caves and dungeons). Every 5 levels thereafter, the deep walker gains an additional +3 on each of those checks while underground (to a maximum of +11 at 18th level). This ability replaces favored terrain.",
@@ -439,7 +439,7 @@
 		"description": [
 			"## Divine Tracker",
 			"",
-			"**Source** [Advanced Class Guide pg. 108](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 108](source/advanced_class_guide)  ",
 			"Blessed by his deity, a divine tracker hunts down those he deems deserving of his retribution. His weapon is likely to find purchase in his favored enemy.",
 			"",
 			"**Alignment:** A divine tracker's alignment must be within one step of his deity's, along either the law/chaos axis or the good/evil axis.",
@@ -467,7 +467,7 @@
 		"description": [
 			"## Dragon Hunter",
 			"",
-			"**Source** [Dragonslayer's Handbook pg. 22](source:dragonslayer's_handbook)  ",
+			"**Source** [Dragonslayer's Handbook pg. 22](source/dragonslayer's_handbook)  ",
 			"The quintessential dragonslayers, dragon hunters are experts at forging through the wilds in search of great wyrms. Dragon hunters have the following class features.",
 			"",
 			"**Class Skills:** A dragon hunter adds Knowledge (arcana) to his list of class skills, in addition to the normal ranger class skills.",
@@ -500,7 +500,7 @@
 		"description": [
 			"## Drake Warden",
 			"",
-			"**Source** [Legacy of Dragons pg. 24](source:legacy_of_dragons)  ",
+			"**Source** [Legacy of Dragons pg. 24](source/legacy_of_dragons)  ",
 			"Some rangers specialize in dealing with rambunctious younger drakes, protecting them and teaching them to tolerate, and even trust, humanoid creatures. These drake wardens follow and pass along secret techniques for raising drakes effectively, and thanks to their methods, their drakes are both fiercely loyal and extremely useful for scouting and stealth missions.",
 			"",
 			"**Young Drake:** At 4th level, a drake warden gains a drake companion instead of an animal companion, but his effective charge's level is equal to his ranger level - 3. The young drake gains drake powers only when its charge reaches 3rd and 7th levels (not 11th or 15th level) and increases in size only when its charge reaches 5th level (not 9th, 13th, or 17th level).",
@@ -526,7 +526,7 @@
 		"description": [
 			"## Dungeon Rover",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 22](source:dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 22](source/dungeoneer's_handbook)  ",
 			"These rangers specialize in surviving hostile subterranean environs. They are well equipped to avoid traps, spot secret passages, and deal with inimical dungeon tenants.",
 			"",
 			"**Class Skills:** A dungeon rover gains Disable Device and Knowledge (engineering) as class skills and loses Ride as a class skill.",
@@ -558,7 +558,7 @@
 		"description": [
 			"## Dusk Stalker",
 			"",
-			"**Source** [Advanced Race Guide pg. 110](source:advanced_race_guide)  ",
+			"**Source** [Advanced Race Guide pg. 110](source/advanced_race_guide)  ",
 			"Hunters and guides through the Shadow Plane, dusk stalkers are rangers that thrive in shadow. Adept at hunting in dusk, darkness, and twilight, these rangers excel at manipulating shadows.",
 			"",
 			"**Class Skills:** The dusk stalker adds Knowledge (planes) to his list of class skills and removes Knowledge (nature) from his list of class skills.",
@@ -584,7 +584,7 @@
 		"description": [
 			"## Elemental Envoy",
 			"",
-			"**Source** [Disciple's Doctrine pg. 5](source:disciple's_doctrine)  ",
+			"**Source** [Disciple's Doctrine pg. 5](source/disciple's_doctrine)  ",
 			"An elemental envoy travels the Elemental Planes. He has learned to protect himself from their many dangers, and he models his fighting style after their teachings.",
 			"",
 			"**Planar Combatant (Ex):** At 2nd level, an elemental envoy must choose the elemental combat style on this page, choosing his combat style feats from that list.",
@@ -611,7 +611,7 @@
 		"description": [
 			"## Falconer",
 			"",
-			"**Source** [Ultimate Combat pg. 67](source:ultimate_combat)  ",
+			"**Source** [Ultimate Combat pg. 67](source/ultimate_combat)  ",
 			"Rangers have always enjoyed a special bond with a specific animal, but the falconer takes this bond to a deeper level. Falconers begin with their companion earlier than other rangers, and have the ability to teach their companions special tricks.",
 			"",
 			"**Feathered Companion (Ex):** At 1st level, a falconer earns the trust and companionship of a bird of prey. The bird can be of any type of large hunting or scavenging bird (even a vulture). This ability functions like the druid animal companion ability (which is part of the nature bond class feature), but the falconer must take the bird (or falcon; Ultimate Wildneress pg. 178) animal companion, and that companion has only half the normal hit points.",
@@ -647,7 +647,7 @@
 		"description": [
 			"## Flamewarden",
 			"",
-			"**Source** [Ultimate Wilderness pg. 72](source:ultimate_wilderness)  ",
+			"**Source** [Ultimate Wilderness pg. 72](source/ultimate_wilderness)  ",
 			"Emulating the blazing phoenix, flamewardens sweep through the world like a selective forest fire, burning away corruption, evil, and those who cling to decay.",
 			"",
 			"**Touch of Flame (Su):** At 4th level, a flamewarden can cause his weapons to burst into flame. As a standard action, the ranger can grant a single weapon he holds the flaming special ability for 1 minute; while under this effect, the weapon counts as magic for the purpose of overcoming damage reduction. A flamewarden can use this ability a number of times per day equal to 3 + his Wisdom modifier. At 12th level, weapons affected by this ability gain the flaming burst special ability instead.",
@@ -695,7 +695,7 @@
 		"description": [
 			"## Fortune-Finder",
 			"",
-			"**Source** [Blood of the Beast pg. 29](source:blood_of_the_beast)  ",
+			"**Source** [Blood of the Beast pg. 29](source/blood_of_the_beast)  ",
 			"Vanaras often leave home to seek fortune and sate their curiosity regarding the mysterious lands that lie beyond their native territories. The most skilled of these thrillseekers are called ba-sadhaks, or fortune-finders. So successful have these canny explorers been at exploring Golarion at large that the secrets of their success are closely guarded, resulting in only extremely rare nonvanaran fortune-finders.",
 			"",
 			"**Hinterlander (Ex):** A fortune-finder adds 1/2 his level (minimum 1) on all Climb and Swim checks.",
@@ -736,7 +736,7 @@
 		"description": [
 			"## Freebooter",
 			"",
-			"**Source** [Pirates of the Inner Sea pg. 23](source:pirates_of_the_inner_sea)  ",
+			"**Source** [Pirates of the Inner Sea pg. 23](source/pirates_of_the_inner_sea)  ",
 			"A freebooter is a natural leader, a pirate who works well with a variety of people and in a variety of roles. Her specialized combat tactics help organize and direct a crew, and freebooters' talents are in high demand. Most freebooters work as independent agents. A freebooter signs on with a crew when she feels the urge to travel, and often moves to a new ship when her contract ends.",
 			"",
 			"**Freebooter's Bane (Ex):** At 1st level, the freebooter can, as a move action, indicate an enemy in combat and rally her allies to focus on that target. The freebooter and her allies gain a +1 bonus on weapon attack and damage rolls against the target. This ability applies only to allies who can see or hear the freebooter and who are within 30 feet of the freebooter at the time she activates this ability. At 5th level and every 5 levels thereafter (10th, 15th, and 20th level), the bonus increases by 1.",
@@ -768,7 +768,7 @@
 		"description": [
 			"## Galvanic Saboteur",
 			"",
-			"**Source** [People of the River pg. 25](source:people_of_the_river)  ",
+			"**Source** [People of the River pg. 25](source/people_of_the_river)  ",
 			"The transformation of the great warlord Kevoth-Kul into the hedonistic Black Sovereign a few decades ago was difficult for the people of Numeria to accept. Many Kellid locals blame Kevoth-Kul's change on the influence of the Technic League and view both the League and their mechanical minions with a mix of fear and distrust. Some Kellid rangers have since developed skills to defeat the League's robotic enforcers and devious arcanists.",
 			"",
 			"**Class Skills:** A galvanic saboteur adds Disable Device and Knowledge (arcana) to his list of class skills and removes Handle Animal and Knowledge (dungeoneering) from his list of class skills.",
@@ -813,7 +813,7 @@
 		"description": [
 			"## Groom",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 21](source:dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 21](source/dungeoneer's_handbook)  ",
 			"The groom attends to the needs of the party's mounts and beasts of burden during their adventures, and guards these animals while the party goes underground.",
 			"",
 			"**Hide the Horses (Ex):** A groom finds the best place to stable and conceal a party's mounts while the group explores a dungeon. A groom adds half her level (minimum 1) on Stealth skill checks for both herself and the mounts she's hiding while she is concealing a party's mounts. This ability replaces track.",
@@ -841,7 +841,7 @@
 		"description": [
 			"## Guide",
 			"",
-			"**Source** [Advanced Player's Guide pg. 125](source:advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 125](source/advanced_player's_guide)  ",
 			"Many rangers are loners, but some choose to use their familiarity with the land to guide others safely through the wilderness. The guide forgoes a favored enemy to focus on the task or foe at hand, and can pass his knowledge and luck on to his charges. A guide has the following class features.",
 			"",
 			"**Ranger's Focus (Ex):** At 1st level, once per day, the guide can focus on a single enemy within line of sight as a swift action. That creature remains the ranger's focus until it is reduced to 0 or fewer hit points or surrenders, or until the ranger designates a new focus, whichever occurs first. The ranger gains a +2 bonus on attack and damage rolls against the target of his focus. At 5th level, and every five levels thereafter, this bonus increases by +2.",
@@ -874,7 +874,7 @@
 		"description": [
 			"## Guildbreaker",
 			"",
-			"**Source** [Ultimate Intrigue pg. 41](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 41](source/ultimate_intrigue)  ",
 			"Some rangers aren't the type to put their steel and sweat behind fighting particular kinds of creatures. Instead, these shrewd warriors alter their focus and dedicate their efforts to dismantling enemy organizations. Guildbreakers stoke their enmity for their foes, and they train to track the movements of rival organizations, and even to infiltrate these groups to gather secret intelligence.",
 			"",
 			"**Class Skills:** A guildbreaker adds Bluff, Disguise, and Knowledge (local) to his list of class skills, instead of Handle Animal, Heal, and Knowledge (geography).",
@@ -920,7 +920,7 @@
 		"description": [
 			"## Hooded Champion",
 			"",
-			"**Source** [Advanced Class Guide pg. 108](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 108](source/advanced_class_guide)  ",
 			"The hooded champion lives on the periphery of civilized lands, and is often at odds with the forces of law and order. He is frequently a hero of oppressed peoples, lurking in the woods near their homes and trying to right the injustices inflicted upon them by the wealthy and powerful.",
 			"",
 			"**Panache (Ex):** At 1st level, the hooded champion gains the swashbuckler's panache class feature. He regains panache through critical hits and killing blows when using a bow of any kind, rather than when using a light or one-handed piercing melee weapon. If the hooded champion has this ability and the panache ability from another class or archetype, the panache points from the two sources do not stack, but the hooded champion regains panache in any way either class feature allows him to. For example, a character with a Charisma score of 16 who has both the hooded champion's and the swashbuckler's panache has a base of 3 panache points, and regains panache from critical hits and killing blows from both bows and light or one-handed piercing melee weapons. This ability replaces favored enemy at 1st level.",
@@ -952,7 +952,7 @@
 		"description": [
 			"## Horse Lord",
 			"",
-			"**Source** [Advanced Player's Guide pg. 125](source:advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 125](source/advanced_player's_guide)  ",
 			"Rangers of the plains use horses or other riding beasts to hunt their lands, forging a near-mystical relationship with their mounts. Horse lords are unparalleled mounted combatants, the envy of even the most dedicated cavalier. Though called \"horse lords\" as a generic term, these rangers are not restricted to horses for their animal companions-any creature the ranger can ride is included in these abilities. A horse lord has the following class features.",
 			"",
 			"**Combat Style Feat (Ex):** At 2nd level, a horse lord must choose the mounted combat style.",
@@ -1012,7 +1012,7 @@
 		"description": [
 			"## Infiltrator",
 			"",
-			"**Source** [Advanced Player's Guide pg. 125](source:advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 125](source/advanced_player's_guide)  ",
 			"Some rangers study their favored enemies and learn their ways, applying this knowledge to their own abilities and using their foes' strengths against them. Infiltrators are willing to walk a mile in an enemy's shoes so as to learn eveything there is to know about their foes in order to more effectively hunt and kill them.",
 			"",
 			"**Adaptation (Ex):** At 3rd level, an infiltrator learns how to copy the unusual abilities of his prey. He chooses one type of creature he has selected as a favored enemy, such as \"aberrations.\" The ranger selects one ability or feat from the adaptation list for that type (see below). A ranger can use adaptations for 10 minutes per day per ranger level he possesses. This duration does not need to be consecutive, but it must be used in 10-minute increments. If the adaptation requires the ranger to make a more specific choice (such as what skill to use with Skill Focus), this choice is permanent and cannot be changed.",
@@ -1088,7 +1088,7 @@
 		"description": [
 			"## Jungle Lord",
 			"",
-			"**Source** [Pathfinder: Worldscape #4 pg. 25](source:pathfinder_worldscape_#4)  ",
+			"**Source** [Pathfinder: Worldscape #4 pg. 25](source/pathfinder_worldscape_#4)  ",
 			"Whether raised from birth under the jungle canopy in a native tribe or settlement, marooned as a child and reared by animals, or simply an ordinary person lost in the trackless tangle and forced to thrive in the wilderness or die, jungle lords are tempered by their harsh and unforgiving environments into something more than ordinary men and women. Their ordeals and experiences combine the physical prowess gained as a result of life hunting dangerous beasts with the wisdom gained from surviving countless natural dangers to earn them the respect of the jungle's denizens, man and animal alike.",
 			"",
 			"**Class Skills:** The jungle lord gains Acrobatics and Linguistics as class skills instead of Knowledge (dungeoneering) and Spellcraft.",
@@ -1155,7 +1155,7 @@
 		"description": [
 			"## Lantern Lighter",
 			"",
-			"**Source** [Adventurer's Guide pg. 113](source:adventurer's_guide), [Inner Sea Intrigue pg. 42](source:inner_sea_intrigue)  ",
+			"**Source** [Adventurer's Guide pg. 113](source/adventurer's_guide), [Inner Sea Intrigue pg. 42](source/inner_sea_intrigue)  ",
 			"Lantern lighters were originally entrusted with secretly eliminating the drow and quarantining any knowledge of their existence, but in the new Lantern Bearer era, the lantern lighters have refocused their efforts on helping to rescue those imprisoned by the drow, or even to help individual drow who seek to escape the cruelties of their society for a chance at redemption on the surface. Of course, escape from drow society is only the beginning of a drow's long and fraught path to redemption, and even the kindest or most repentant drow are likely to face prejudice from most of those who recognize her origins. In addition to their rescue efforts, lantern lighters often serve as sponsors for escapees and work to create pockets of civilization where redeemed drow can live in relative peace and safety by encouraging surface dwellers to cast aside the lurking shadows of prejudice and fear.",
 			"",
 			"While the vast majority of lantern lighters are elves from Kyonin, a few non-elven members of the organization have proven themselves trustworthy and dedicated enough to join their ranks. As their efforts to spread the light to other regions beyond Kyonin grow, lantern lighters of other races are beginning to round out the order's numbers, particularly in areas and regions that suffer under oppressive regimes.",
@@ -1217,7 +1217,7 @@
 		"description": [
 			"## Nirmathi Irregular",
 			"",
-			"**Source** [Inner Sea Magic pg. 37](source:inner_sea_magic)  ",
+			"**Source** [Inner Sea Magic pg. 37](source/inner_sea_magic)  ",
 			"The forested country of Nirmathas is known for its rangers-skilled trackers, marksmen, and silent stalkers under the leafy canopy. Nirmathas has no formal military, for her people love their freedom and are reluctant to take orders from anyone, so her defense falls to individual scouts and small groups of allied commandos. Many of Nirmathas's rangers take the guide or skirmisher archetypes (see the Advanced Player's Guide), but some focus on the magic of stealth. These irregular troops fight against the frequent invasions by Molthuni soldiers, striking quickly and melting into the green shadows as soon as their opponents rally themselves for a counterattack. A Nirmathi irregular has the following class features.",
 			"",
 			"**Weapon and Armor Proficiency:** A Nirmathi irregular is proficient with all simple and martial weapons and with light armor. This replaces the normal ranger armor and weapon proficiency.",
@@ -1251,7 +1251,7 @@
 		"description": [
 			"## Planar Scout",
 			"",
-			"**Source** [Planar Adventures pg. 17](source:planar_adventures)  ",
+			"**Source** [Planar Adventures pg. 17](source/planar_adventures)  ",
 			"Planar scouts are rangers specializing in traversing the planes-and surviving their journeys.",
 			"",
 			"**Class Skills:** A planar scout gains Knowledge (planes) as a class skill but does not gain Knowledge (dungeoneering) as a class skill.",
@@ -1316,7 +1316,7 @@
 		"description": [
 			"## Poison Darter",
 			"",
-			"**Source** [Blood of the Beast pg. 9](source:blood_of_the_beast)  ",
+			"**Source** [Blood of the Beast pg. 9](source/blood_of_the_beast)  ",
 			"In dense jungles, foliage and tight spaces hinder all but the most deceptively humble weapons: blowguns and poison.",
 			"",
 			"**Debilitating Venom (Ex):** A poison darter can concoct potent toxins that he can apply to his weapons. He can use this ability a number of times per day equal to 1/2 his ranger level + his Wisdom modifier; if he has the toxic skin alternate racial trait (Pathfinder RPG Advanced Race Guide 190), he can expend a daily use of that poison to employ his debilitating venom ability an additional time. The debilitating venom functions only for the poison darter and becomes inert if not used within 1 hour. Creating a debilitating venom is a standard action, and it can be applied to a weapon as a move action.",
@@ -1359,7 +1359,7 @@
 		"description": [
 			"## Raven Master",
 			"",
-			"**Source** [Adventurer's Guide pg. 175](source:adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 175](source/adventurer's_guide)  ",
 			"While the Silver Ravens adopted their name as a way to honor the group of adventurers who defended Kintargo during the Chelish Civil War, some Silver Ravens have gone even farther, breeding and training actual ravens to serve both as living symbols of the organization and as fearsome weapons against House Thrune and its diabolic servants. These rangers, known as raven masters, eschew a ranger's usual connection to the natural world to form a mystic bond with their birds and to grant both animal and master a number of specialized abilities. Over time, the feathers of these raven companions take on a silvery sheen, causing them to resemble the birds produced by the figurines of wondrous power, which served as the original Silver Ravens' namesake.",
 			"",
 			"Raven masters serve as messengers and spies for the Silver Ravens, using their ravens to scout the border between Ravounel and Cheliax and report any suspicious Thrune troop movements. Outside of Cheliax, raven companions alight on the rooftops and window ledges of palaces and keeps to eavesdrop on tyrants and dictators, feeding these precious secrets to the raven master so that she can more efficiently foment and organize rebellion.",
@@ -1412,7 +1412,7 @@
 		"description": [
 			"## Realm Wanderer",
 			"",
-			"**Source** [Distant Realms pg. 22](source:distant_realms)  ",
+			"**Source** [Distant Realms pg. 22](source/distant_realms)  ",
 			"Some of the most free-roaming rangers are those who tread between locales so varied that they may as well be separate worlds altogether-and quite often these disparate places are literally Hell and the Material Plane. Like the Queen of Dis, whom many of them admire, these rangers take to heart the lessons they've learned from their vastly contrasting experiences and know that creatively embracing this wisdom is sometimes the difference between life and death.",
 			"",
 			"**Class Skills:** A realm wanderer adds Diplomacy and Bluff to his list of class skills, but does not gain Intimidate and Stealth as class skills.",
@@ -1456,7 +1456,7 @@
 		"description": [
 			"## Sable Company Marine",
 			"",
-			"**Source** [Inner Sea Combat pg. 43](source:inner_sea_combat), [Paizo Blog - Sable Company Marine pg. 1](source:paizo_blog_-_sable_company_marine)  ",
+			"**Source** [Inner Sea Combat pg. 43](source/inner_sea_combat), [Paizo Blog - Sable Company Marine pg. 1](source/paizo_blog_-_sable_company_marine)  ",
 			"Sable Company marines receive their training at the elite Endrin Military Academy in Korvosa. A large portion of their education is the handling and riding of hippogriffs, the iconic mounts of members of the company.",
 			"",
 			"**Hippogriff Companion:** At 2nd level, a Sable Company marine adds Monstrous Mount (see page 14) to the list of bonus feats made available to him by his chosen combat style, regardless of the style chosen. He can only use this feat to select a hippogriff mount (see page 14). If he does so, he treats his ranger level - 1 as his effective druid level. A marine who takes this option does not gain the hunter's bond class feature at 4th level.",
@@ -1482,7 +1482,7 @@
 		"description": [
 			"## Sentinel",
 			"",
-			"**Source** [Ultimate Intrigue pg. 42](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 42](source/ultimate_intrigue)  ",
 			"A sentinel specializes in heightening all of her senses to expose spies and those who work for opposing factions, rooting out all who attempt to slip past her evervigilant watch. Her uncanny skills are in ready demand by city guards, business owners, and even criminal organizations that desire to keep the authorities out of their disreputable affairs.",
 			"",
 			"**Mugshot (Sp):** A sentinel can spend 1 minute studying the appearance of a target or a likeness of the target in the form of a picture, carving, or visual illusion and memorize it with perfect recall. From that point on, the sentinel gains a +4 bonus on Perception checks to notice the target in disguise or pick him out of a crowd. The sentinel is automatically allowed a Perception check against the target's Disguise check whenever she sees the target, even if the individual isn't doing anything to draw attention to himself. A sentinel can memorize the appearance of a number of targets equal to her Wisdom modifier (minimum 1) at any given time. Once a sentinel has reached her maximum number of memorized appearances, she must forget one of the memorized faces before gaining a new one.",
@@ -1523,7 +1523,7 @@
 		"description": [
 			"## Shapeshifter",
 			"",
-			"**Source** [Advanced Player's Guide pg. 126](source:advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 126](source/advanced_player's_guide)  ",
 			"Most rangers venture into the wilderness, but there are some who let the wilderness seep into them. Whether by curse, disease, ancient rite, a slight lycanthropic influence in the blood, or the corrupting influence of chaos, these rangers embrace the wild to transform themselves into something untamed and feral. Shapeshifters are often held in awe, but are even more often feared. A shapeshifter has the following class features.",
 			"",
 			"**Combat Style Feat (Ex):** At 2nd level, a shapeshifter ranger must choose the natural weapon combat style.",
@@ -1576,7 +1576,7 @@
 		"description": [
 			"## Skirmisher",
 			"",
-			"**Source** [Advanced Player's Guide pg. 128](source:advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 128](source/advanced_player's_guide)  ",
 			"Many rangers rely on spells, but there are some who eschew aid from divine powers for their own reasons. Skirmishers rely on their wits, their wisdom, and sometimes even instinct to aid in their quests. A skirmisher has the following class features.",
 			"",
 			"**Hunter's Tricks:** At 5th level, a skirmisher ranger learns the use of hunter's tricks, which typically grant a boon or bonus to the ranger or a nearby ally. At 5th level, the ranger learns one trick, selected from the list below. At 7th level, and every two levels thereafter, he learns another trick. A ranger can use these tricks a total number of times per day equal to 1/2 his ranger level + his Wisdom modifier. Tricks are usually swift actions, but sometimes move or free actions that modify a standard action, usually an attack action. Once a trick is chosen, it can't be retrained. A ranger cannot select an individual trick more than once. This ability replaces the ranger's spells class feature. Skirmishers do not gain any spells or spellcasting ability, do not have a caster level, and cannot use spell trigger and spell completion magic items.",
@@ -1650,7 +1650,7 @@
 		"description": [
 			"## Spirit Ranger",
 			"",
-			"**Source** [Advanced Player's Guide pg. 129](source:advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 129](source/advanced_player's_guide)  ",
 			"Some rangers nurture a connection with the spirits that reside in all things. By communing with these spirits, the spirit ranger can gain glimpses of things to come. A spirit ranger has the following class features.",
 			"",
 			"**Spirit Bond (Ex):** At 4th level, instead of forming a bond with his hunting companions or an animal companion, the spirit ranger forms a bond with the spirits of nature themselves. Each day, as long as he is within one of his favored terrains, the ranger can cast augury (Pathfinder RPG Core Rulebook 245) as a spell-like ability with a caster level equal to his ranger level. In addition, he can call upon these spirits to cast any one ranger spell that he is capable of casting, without having to prepare the spell. At 8th level, and every four levels thereafter, he can cast an additional spell in this way. This replaces hunter's bond.",
@@ -1676,7 +1676,7 @@
 		"description": [
 			"## Stormwalker",
 			"",
-			"**Source** [Ultimate Wilderness pg. 72](source:ultimate_wilderness)  ",
+			"**Source** [Ultimate Wilderness pg. 72](source/ultimate_wilderness)  ",
 			"Rangers who walk in the tempest unafraid draw the power of the storm into themselves and become stormwalkers.",
 			"",
 			"**Combat Style Feat (Ex):** At 2nd level, a stormwalker must choose archery style.",
@@ -1720,7 +1720,7 @@
 		"description": [
 			"## Summit Sentinel",
 			"",
-			"**Source** [Ultimate Wilderness pg. 72](source:ultimate_wilderness)  ",
+			"**Source** [Ultimate Wilderness pg. 72](source/ultimate_wilderness)  ",
 			"Some rangers eschew the path of the swift skirmisher and embrace the implacable strength of the mountain.",
 			"",
 			"**Roots of the Mountain (Su):** At 2nd level, a summit sentinel gains Toughness as a bonus feat.",
@@ -1770,7 +1770,7 @@
 		"description": [
 			"## Sword-Devil",
 			"",
-			"**Source** [Pathfinder: Worldscape #1 pg. 27](source:pathfinder_worldscape_#1)  ",
+			"**Source** [Pathfinder: Worldscape #1 pg. 27](source/pathfinder_worldscape_#1)  ",
 			"Agile, vengeful, and deadly, a sword-devil fights with precision and grace, channeling the difficult lessons of a star-crossed life into unparalleled battle prowess. Favoring speed and evasive techniques over brute force, sword-devils choose precision over power and acrobatics over armor. Charismatic and carefree, a sword-devil makes fast friends and inspires her companions to greatness, even while vowing a swift death upon her enemies.",
 			"",
 			"**Class Skills:** The sword-devil gains Acrobatics as a class skill as a replacement for Spellcraft.",
@@ -1822,7 +1822,7 @@
 		"description": [
 			"## Tanglebriar Demonslayer",
 			"",
-			"**Source** [Inner Sea Combat pg. 46](source:inner_sea_combat)  ",
+			"**Source** [Inner Sea Combat pg. 46](source/inner_sea_combat)  ",
 			"During the elves' long absence from Golarion, the nascent demon lord Treerazer took up residence in the Fierani Forest in what is now the Elven kingdom of Kyonin. Eventually, the demon's presence in the forest drew the elves back to Golarion, who sought to purge the fiendish blight from this once-sacred land. They defeated Treerazer but could not destroy him, forcing him instead into the southern reaches of the Fierani, a corrupted region of twisted plants and fiendish denizens called Tanglebriar. Even today, the elves constantly battle to keep the corruption in the Tanglebriar from spreading to the rest of the Fierani Forest and beyond. Though they are sworn foes of Treerazer and his kin, Tanglebriar demonslayers are known to venture forth from Kyonin to broaden their expertise in the destruction of demons.",
 			"",
 			"**Skills:** Tanglebriar demonslayers gain Knowledge (planes) as a class skill.",
@@ -1857,7 +1857,7 @@
 		"description": [
 			"## Tidal Hunter",
 			"",
-			"**Source** [Ultimate Wilderness pg. 73](source:ultimate_wilderness)  ",
+			"**Source** [Ultimate Wilderness pg. 73](source/ultimate_wilderness)  ",
 			"The tidal hunter draws strength from the fish and other wildlife of the deep.",
 			"",
 			"**Waterborn (Su):** A tidal hunter can breathe water for up to 10 minutes per ranger level each day. At 6th level, he can breathe underwater indefinitely.",
@@ -1899,7 +1899,7 @@
 		"description": [
 			"## Toxic Herbalist",
 			"",
-			"**Source** [Ultimate Wilderness pg. 74](source:ultimate_wilderness)  ",
+			"**Source** [Ultimate Wilderness pg. 74](source/ultimate_wilderness)  ",
 			"Saviors and destroyers in equal measure, toxic herbalists use nature's bounty to craft remedies and poisons.",
 			"",
 			"**Toxic Touch (Ex):** A toxic herbalist studies the safe handling of deadly substances. He cannot accidentally poison himself when he applies poison to a weapon.",
@@ -1950,7 +1950,7 @@
 		"description": [
 			"## Toxophilite",
 			"",
-			"**Source** [Ranged Tactics Toolbox pg. 11](source:ranged_tactics_toolbox)  ",
+			"**Source** [Ranged Tactics Toolbox pg. 11](source/ranged_tactics_toolbox)  ",
 			"While many rangers use bows and arrows, the toxophilite takes special pride in her skill at archery. The toxophilite emulates the sharpshooting rangers of legend, who could pin a fly to the wall with a single shot or split one arrow with another. A truly talented toxophilite can even shoot down an enemy's arrow while it's still in flight.",
 			"",
 			"**Arrow-Splitter (Ex):** A toxophilite gains a +1 bonus on ranged attack rolls against creatures or objects two or more size categories smaller than her. The toxophilite's ranged attacks also deal full damage to objects instead of half damage. This ability replaces wild empathy.",
@@ -1980,7 +1980,7 @@
 		"description": [
 			"## Transporter",
 			"",
-			"**Source** [Ultimate Intrigue pg. 43](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 43](source/ultimate_intrigue)  ",
 			"Transporters specialize in smuggling people as efficiently as possible through harsh and difficult environments. Individuals such as escaped political exiles, refugees fleeing danger, and various criminals all seek the transporter's services. While some transporters actively work to serve justice or a political cause, others are wily opportunists filling a need and profiting from the high price that desperate people are willing to pay for safe, discrete passage.",
 			"",
 			"**Trailbreaker (Ex):** A transporter constantly works to obscure his trail. He increases the Survival DC to track him, or a group of which he is a part, by an amount equal to half his ranger level (minimum 1). This does not stack with similar abilities, such as a traceless operative's trackless ability.",
@@ -2046,7 +2046,7 @@
 		"description": [
 			"## Trophy Hunter",
 			"",
-			"**Source** [Ultimate Combat pg. 67](source:ultimate_combat)  ",
+			"**Source** [Ultimate Combat pg. 67](source/ultimate_combat)  ",
 			"Some rangers have taken up the mysteries of black powder in order to become big game hunters. Finding firearms useful for taking down large and dangerous prey, they enter the fight with the crack of black powder fire, often ranging far and wide in their safaris and searches for ever-more-dangerous denizens of the wild to track, study, appreciate-and kill. While this might strike some as going against the ranger's usual respect for nature and the creatures of the wild, trophy hunters understand that they are just more pieces in nature's grand puzzle, and that the laws of the jungle-the right to kill and feed on those weaker than you, and the need to establish dominance through cunning and bloodshed-are both their rights and their duty as the current top of the food chain.",
 			"",
 			"**Improved Tracking (Ex):** At 1st level, a trophy hunter gains a +2 bonus on Survival skill checks when following or identifying tracks. When he tracks, he can also attempt a Knowledge (nature) check at DC 15. On a success, the trophy hunter can discern the type and condition of any animals or magical beasts he tracks. By studying their tracks, the trophy hunter is able to identify a rough approximation of their health, maneuverability, and their general behavior as compared to the norm. This ability replaces wild empathy.",
@@ -2073,7 +2073,7 @@
 		"description": [
 			"## Urban Ranger",
 			"",
-			"**Source** [Advanced Player's Guide pg. 130](source:advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 130](source/advanced_player's_guide)  ",
 			"For the urban ranger, the streets and sewers of the city are just as dangerous as the barren wastelands or the deep forests. An urban ranger has the following class features.",
 			"",
 			"**Urban Ranger:** At 1st level, an urban ranger adds Disable Device and Knowledge (local) to his list of class skills and removes Handle Animal and Knowledge (nature) from his list of class skills.",
@@ -2109,7 +2109,7 @@
 		"description": [
 			"## Warden",
 			"",
-			"**Source** [Ultimate Combat pg. 68](source:ultimate_combat)  ",
+			"**Source** [Ultimate Combat pg. 68](source/ultimate_combat)  ",
 			"All rangers have a bond with the wilderness, but the warden may have the strongest. This protector sits guard in the middle of the wilderness, keeping a lookout for any dangers that might spill from the deeper wilderness beyond, and protecting civilization from the savagery of nature-and vice versa. His long weeks, months, and sometimes years of isolation cause him to \"hear\" what the land is saying. Not all are crazy.",
 			"",
 			"**Master of Terrain (Ex):** At 1st level, a warden selects his first favored terrain. He gains another one at 3rd level, and then every five levels thereafter (for a maximum of five favored terrains at 18th level). This ability replaces the ranger's first favored enemy ability.",
@@ -2140,7 +2140,7 @@
 		"description": [
 			"## Wave Warden",
 			"",
-			"**Source** [Advanced Race Guide pg. 194](source:advanced_race_guide)  ",
+			"**Source** [Advanced Race Guide pg. 194](source/advanced_race_guide)  ",
 			"The wave warden patrols beneath the sea, preserving the safety and secrets of merfolk communities. Though he fares best beneath the water, dry land is no haven to his quarry.",
 			"",
 			"**Deep Sentinel (Ex):** A wave warden adds half his level (minimum +1) on Perception checks made to notice creatures underwater. This ability replaces track.",
@@ -2169,7 +2169,7 @@
 		"description": [
 			"## Wild Hunter",
 			"",
-			"**Source** [Advanced Class Guide pg. 108](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 108](source/advanced_class_guide)  ",
 			"A wild hunter seeks to emulate the animals around him to keep him safe while he tracks his prey. Instead of studying the traits and behaviors of a favored enemy, a wild hunter studies those of various animals, incorporating those attributes into his hunting strategy.",
 			"",
 			"**Animal Focus (Su):** At 1st level, as a swift action a wild hunter can take on the aspect of an animal, gaining a bonus or special ability based on the type of animal emulated. This functions as the hunter's animal focus class feature (see page 27), though this only applies to the wild hunter and not an animal companion (see shared focus, below). The wild hunter can use this ability for 1 minute per day per ranger level. This duration does not need to be consecutive, but it must be spent in 1-minute increments. He can only emulate one animal at a time. This ability replaces all instances of the favored enemy class ability.",
@@ -2197,7 +2197,7 @@
 		"description": [
 			"## Wild Shadow",
 			"",
-			"**Source** [Advanced Race Guide pg. 45](source:advanced_race_guide)  ",
+			"**Source** [Advanced Race Guide pg. 45](source/advanced_race_guide)  ",
 			"The isolation that some half-elves feel leads them to live a life of isolation amid the wild places of the world. Such rangers stalk the wild like shadows, creating close bonds with the wild itself instead of seeking the solace and aid of companions. While ill at ease within cities and other urban areas, they are adept at using the terrain to tactical advantage; they dart through brambles and rough terrain with uncommon grace and use the land itself to lock down enemies. A wild shadow has the following class features.",
 			"",
 			"**Wild at Heart (Ex):** At 1st level, a wild shadow adds only 1/2 his class level when making wild empathy checks while in urban areas, and adds only 1/4 his class level to follow or identify tracks in such areas. In non-urban settings, he is considered two levels higher when determining the bonuses for such checks. This ability alters the track and wild empathy class features.",
@@ -2233,7 +2233,7 @@
 		"description": [
 			"## Wild Soul",
 			"",
-			"**Source** [Ultimate Wilderness pg. 75](source:ultimate_wilderness)  ",
+			"**Source** [Ultimate Wilderness pg. 75](source/ultimate_wilderness)  ",
 			"Hailing from primitive roots in the wild, some rangers venture to more civilized lands and learn their ways. Wild souls carry these more refined teachings back to the frontier lands of their birth, and they employ that knowledge in defense of their homes.",
 			"",
 			"**Unfettered Soul:** A wild soul swears to himself never to make use of advanced technology, alchemy, arcane magic, or firearms. He also must oppose their use on his person, refusing to be a willing target and attempting a saving throw if possible (even if the effect is harmless or beneficial). Violating this oath causes a wild soul to lose the abilities granted by this archetype until he atones.",
@@ -2276,7 +2276,7 @@
 		"description": [
 			"## Wild Stalker",
 			"",
-			"**Source** [Ultimate Combat pg. 68](source:ultimate_combat)  ",
+			"**Source** [Ultimate Combat pg. 68](source/ultimate_combat)  ",
 			"Civilization grows stronger and more decadent with each passing year. It tears into unclaimed wilderness and destroys the fragile ecology in its constant push for expansion and exploitation. The wild stalker forsakes the bonds of community and lives in the trackless wilds far from others of his kind, or perhaps grew up there, never knowing of civilization as anything more than his enemy. He drives pioneers back to civilization and strives to keep the land unspoiled.",
 			"",
 			"**Strong Senses (Ex):** At 1st level, a wild stalker's life among the wild has sharpened his senses. He gains low-light vision and a +1 bonus on Perception checks. If he already has low-light vision, he gains a +2 bonus on Perception checks instead. This bonus increases by +1 for every four levels after 1st (to a maximum of +6 at 20th level, or +7 if the character did not gain low-light vision from this ability). This ability replaces the ranger's first favored enemy ability.",
@@ -2309,7 +2309,7 @@
 		"description": [
 			"## Wilderness Explorer",
 			"",
-			"**Source** [Ultimate Wilderness pg. 74](source:ultimate_wilderness)  ",
+			"**Source** [Ultimate Wilderness pg. 74](source/ultimate_wilderness)  ",
 			"Wilderness explorers are adept at making peaceful contact with remote societies.",
 			"",
 			"**Class Skills (Ex):** A wilderness explorer gains Diplomacy and Knowledge (local) as class skills, but he does not gain Intimidate or Knowledge (dungeoneering) as class skills.",
@@ -2356,7 +2356,7 @@
 		"description": [
 			"## Wilderness Medic",
 			"",
-			"**Source** [Healer's Handbook pg. 5](source:healer's_handbook)  ",
+			"**Source** [Healer's Handbook pg. 5](source/healer's_handbook)  ",
 			"Wilderness medics know a variety of ways they can supply and preserve a rebellion or similar movement without requiring any resources that might make them easier to track down.",
 			"",
 			"**Herbalist Training (Ex):** At 1st level, a wilderness medic can attempt Profession (herbalism) checks untrained and the wilderness medic gains a bonus equal to 1/2 his ranger level (minimum +1) on Heal checks and Profession (herbalism) checks. When he successfully forages for herbs (Pathfinder Player Companion: Heroes of the Wild 10), he finds twice as many doses of any herb he would normally.",
@@ -2395,7 +2395,7 @@
 		"description": [
 			"## Witchguard",
 			"",
-			"**Source** [People of the North pg. 25](source:people_of_the_north)  ",
+			"**Source** [People of the North pg. 25](source/people_of_the_north)  ",
 			"Witchguards are the sworn defenders of the White Witches of Irrisen. Although the White Witches are spellcasters of immense power, even they cannot defend themselves against every attack. Witchguards dedicate their lives to protecting their charges, and they gain some arcane knowledge in return. They are trained to work closely with witches and defend their charges from harm. Witchguards learn magical abilities from the same patrons that grant witches their powers, though they can use their abilities to protect any kind of spellcaster, not just a witch. A witchguard is ready to face any foe that might threaten his charge, and he is ever prepared to lay down his life to protect the life of the person he is sworn to defend.",
 			"",
 			"**Class Skills:** A witchguard adds Knowledge (nobility) and Sense Motive to his list of class skills, and removes Handle Animal and Knowledge (dungeoneering) from his list of class skills.",
@@ -2426,7 +2426,7 @@
 		"description": [
 			"## Yokai Hunter",
 			"",
-			"**Source** [Dragon Empires Primer pg. 23](source:dragon_empires_primer)  ",
+			"**Source** [Dragon Empires Primer pg. 23](source/dragon_empires_primer)  ",
 			"Yokai hunters possess a supernatural tether to the spirit worlds that shroud mortal existence. They use their powers to peer into the realm of the dead, and are adept at hunting those who dwell in the realm between the Material Plane and the Great Beyond, the supernatural beings Tians refer to as yokai. The yokai hunter is an archetype of the ranger class.",
 			"",
 			"**Favored Yokai (Su):** A yokai hunter possesses a supernatural ability to sense beings connected to the spirit world, such as kami, oni, and ghosts, and is formidable at fighting them. At 1st level, a yokai hunter gains a +2 bonus on weapon attacks and damage rolls against one of the following creature types (and subtypes, if applicable), which are considered yokai for the purposes of this archetype: aberration, dragon, fey, magical beast, outsider (native), and undead (incorporeal). (A GM may choose to alter this list for the purposes of her campaign.) At 5th level and every five levels thereafter, a yokai hunter may select another favored yokai from this list, gaining a +2 bonus on weapon attacks and damage rolls against that yokai.",

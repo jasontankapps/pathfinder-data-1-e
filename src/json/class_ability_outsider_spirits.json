@@ -3,7 +3,7 @@
 	"_description": [
 		"## Outsider Spirits",
 		"",
-		"**Source** [Psychic Anthology](source:psychic_anthology)  ",
+		"**Source** [Psychic Anthology](source/psychic_anthology)  ",
 		"An outer channeler can invoke creatures from the following outsider subtypes. The outsiders associated with each spirit provide no mechanical benefit and are merely suggestions based on the themes and interests of each creature. At the GM's discretion, he can swap which outsiders are associated with each spirit and can even use outsiders of the indicated subtype that aren't listed, though outsiders capable of serving as an improved familiar and outsiders of CR 20 or higher typically do not answer an outer channeler's calls."
 	],
 	"_sources": [ "Psychic Anthology" ],
@@ -12,7 +12,7 @@
 		"description": [
 			"### Aeon",
 			"",
-			"**Source** [Psychic Anthology pg. 13](source:psychic_anthology)  ",
+			"**Source** [Psychic Anthology pg. 13](source/psychic_anthology)  ",
 			"An aeon is an inscrutable force that dispassionately seeks to bring perfect balance to the multiverse.",
 			"",
 			"**Alignment:** Neutral.  ",
@@ -29,16 +29,16 @@
 		"description": [
 			"### Agathion",
 			"",
-			"**Source** [Psychic Anthology pg. 13](source:psychic_anthology)  ",
+			"**Source** [Psychic Anthology pg. 13](source/psychic_anthology)  ",
 			"An agathion is an animal-like spirit from Nirvana, a defender of innocence and a champion of good.",
 			"",
 			"**Alignment:** Neutral good.  ",
 			"**Spirits:** Avoral (guardian), bishop (hierophant), cervinal (marshal), leonal (champion), reptial (archmage), and vulpinal (trickster).  ",
 			"**Taboos:** Choose one of the following: you must act aggressively to best (though not necessarily slay) evil foes; you must provide whatever service you can to promote good in the world and help the innocent, as long as such actions do not impair or prevent you from doing good in the future; you must offer your full protection and support to nonevil innocents who are in need of your service.",
 			"",
-			"**Lay on Hands (Intermediate, Su):** You gain the [lay on hands](class:paladin) class feature, using your medium level as your effective paladin level.",
+			"**Lay on Hands (Intermediate, Su):** You gain the [lay on hands](class/paladin) class feature, using your medium level as your effective paladin level.",
 			"",
-			"**Voice of Nirvana (Gift, Su):** You can speak to beasts and men alike as a standard action, gaining the benefits of [speak with animals](spell:speak_with_animals) and [tongues](spell:tongues) simultaneously. You can use this ability for up to 10 minutes per day per medium level. These minutes don't need to be consecutive, but must be used in 1-minute increments."
+			"**Voice of Nirvana (Gift, Su):** You can speak to beasts and men alike as a standard action, gaining the benefits of [speak with animals](spell/speak_with_animals) and [tongues](spell/tongues) simultaneously. You can use this ability for up to 10 minutes per day per medium level. These minutes don't need to be consecutive, but must be used in 1-minute increments."
 		]
 	},
 	"angel": {
@@ -46,18 +46,18 @@
 		"description": [
 			"### Angel",
 			"",
-			"**Source** [Psychic Anthology pg. 13](source:psychic_anthology)  ",
+			"**Source** [Psychic Anthology pg. 13](source/psychic_anthology)  ",
 			"An angel is a servant of the good-aligned planes, a voice of unity and cooperation among celestial beings.",
 			"",
 			"**Alignment:** Any good.  ",
 			"**Spirits:** Astral deva (trickster), balisse (hierophant), empyrean (archmage), movanic deva (champion), planetar (marshal), and solar (guardian).  ",
 			"**Taboos:** Choose one of the following: you must not ignore an opportunity to destroy or hinder an evil creature or organization unless doing so would put innocents in harm's way; you must always offer your foes a chance to peacefully surrender to you, and you must accept and honor any such terms that your foes agree to; you must offer whatever support and assistance you can spare to any creature that asks such service from you, provided your actions do not further the cause of evil.",
 			"",
-			"**Protective Aura (Intermediate, Su):** You gain a +4 deflection bonus to your AC and a +4 resistance bonus on saving throws against attacks made by or effects created by evil creatures. In addition, you are protected from effects created by evil creatures that possess you or exert mental control over you, as per [protection from evil](spell:protection_from_evil).",
+			"**Protective Aura (Intermediate, Su):** You gain a +4 deflection bonus to your AC and a +4 resistance bonus on saving throws against attacks made by or effects created by evil creatures. In addition, you are protected from effects created by evil creatures that possess you or exert mental control over you, as per [protection from evil](spell/protection_from_evil).",
 			"",
 			"As a standard action, you can project this benefit to allies within 10 feet as an aura. You may use this ability for a number of rounds per day equal to your medium level. These rounds don't need to be consecutive.",
 			"",
-			"**Truespeech (Gift, Su):** You gain [tongues](spell:tongues) as a constant spell-like ability, with a caster level equal to your medium level."
+			"**Truespeech (Gift, Su):** You gain [tongues](spell/tongues) as a constant spell-like ability, with a caster level equal to your medium level."
 		]
 	},
 	"archon": {
@@ -65,7 +65,7 @@
 		"description": [
 			"### Archon",
 			"",
-			"**Source** [Psychic Anthology pg. 13](source:psychic_anthology)  ",
+			"**Source** [Psychic Anthology pg. 13](source/psychic_anthology)  ",
 			"An archon is a celestial defender of Heaven, righteousness and justice personified.",
 			"",
 			"**Alignment:** Lawful good.  ",
@@ -74,7 +74,7 @@
 			"",
 			"**Aura of Menace (Intermediate, Su):** As a swift action, you activate a righteous aura that embodies your outsider's fury. Hostile creatures within a 20-foot radius of you must succeed at a Will save (DC = 10 + half your medium level + your Charisma modifier) or take a -2 penalty on attack rolls, on saving throws, and to AC. This penalty lasts for 1 minute, or until you become frightened, panicked, paralyzed, stunned, unconscious, or otherwise prevented from participating in the current encounter. Whether or not a creature fails its save, it can't be affected by your aura again for 24 hours.",
 			"",
-			"**Teleportation (Gift, Su):** Add [dimension door](spell:dimension_door) to your medium spell list and list of spells known as a 4th-level spell. In addition, you can cast dimension door as a spell-like ability a number of times per day equal to your Charisma modifier, using your medium level as the spell's caster level."
+			"**Teleportation (Gift, Su):** Add [dimension door](spell/dimension_door) to your medium spell list and list of spells known as a 4th-level spell. In addition, you can cast dimension door as a spell-like ability a number of times per day equal to your Charisma modifier, using your medium level as the spell's caster level."
 		]
 	},
 	"azata": {
@@ -82,14 +82,14 @@
 		"description": [
 			"### Azata",
 			"",
-			"**Source** [Psychic Anthology pg. 14](source:psychic_anthology)  ",
+			"**Source** [Psychic Anthology pg. 14](source/psychic_anthology)  ",
 			"An azata is a whimsical outsider from Elysium, a living embodiment of freedom and goodness.",
 			"",
 			"**Alignment:** Chaotic good.  ",
 			"**Spirits:** Bralani (champion), ghaele (hierophant), lillend (marshal), raelis (archmage), uinuja (guardian), and yamah (trickster).  ",
 			"**Taboos:** Choose one of the following: whenever you encounter fine art, food, or performances, you must take no actions for 1d4+1 rounds other than to indulge in your find or until you see a potential or obvious threat (as per the fascinated condition); you must attempt any challenge or obstacle that blocks your path unless doing so would be obviously harmful to you or those under your care; you must always offer support and protection to any nonevil creature that is unable to protect itself.",
 			"",
-			"**Slip the Surly Bonds (Intermediate, Sp):** You can ignore impediments to your mobility. For a number of rounds per day equal to your medium level, you can move normally regardless of magical effects that impede movement, as if you were affected by [freedom of movement](spell:freedom_of_movement). In addition, you can cast [liberating command](spell:liberating_command) as a spell-like ability a number of times per day equal to your Charisma modifier, using your medium level as the spell's caster level.",
+			"**Slip the Surly Bonds (Intermediate, Sp):** You can ignore impediments to your mobility. For a number of rounds per day equal to your medium level, you can move normally regardless of magical effects that impede movement, as if you were affected by [freedom of movement](spell/freedom_of_movement). In addition, you can cast [liberating command](spell/liberating_command) as a spell-like ability a number of times per day equal to your Charisma modifier, using your medium level as the spell's caster level.",
 			"",
 			"**Gift of Flight (Gift, Ex):** You grow feathery wings as a swift action, which otherwise function as per fly. You can use this ability for a number of minutes each day equal to your medium level. These minutes don't need to be consecutive, but must be used in 1-minute increments."
 		]
@@ -99,16 +99,16 @@
 		"description": [
 			"### Daemon",
 			"",
-			"**Source** [Psychic Anthology pg. 14](source:psychic_anthology)  ",
+			"**Source** [Psychic Anthology pg. 14](source/psychic_anthology)  ",
 			"A daemon is a nihilistic fiend from Abaddon, an entity obsessed with the eradication of mortal life.",
 			"",
 			"**Alignment:** Neutral evil.  ",
 			"**Spirits:** Astradaemon (hierophant), ceustodaemon (guardian), derghodaemon (champion), phasmadaemon (trickster), purrodaemon (marshal), and venedaemon (archmage).  ",
 			"**Taboos:** Choose one of the following: you must painfully end the life of a single mortal creature (with no fewer than half your Hit Dice) per day, provided that doing so does not jeopardize your own safety; you must take every opportunity to manipulate and coerce others into performing self-deprecating and self-destructive actions; you must consume a bit of every mortal creature you slay, be it flesh or soul.",
 			"",
-			"**Summon Daemon (Intermediate, Sp):** You can summon a servant of Abaddon as a standard action. This functions as per [summon monster II](spell:summon_monster_2), but you can summon only animals with the [fiendish template](monster/template:fiendish) or outsiders with the [daemon](monster/subtype:daemon) subtype. This ability can summon only one creature, regardless of the list used. For every 2 medium levels beyond 6th, the level of the summon monster spell increases by 1 (to a maximum of summon monster IX at 20th level). You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
+			"**Summon Daemon (Intermediate, Sp):** You can summon a servant of Abaddon as a standard action. This functions as per [summon monster II](spell/summon_monster_2), but you can summon only animals with the [fiendish template](monster/template/fiendish) or outsiders with the [daemon](monster/subtype/daemon) subtype. This ability can summon only one creature, regardless of the list used. For every 2 medium levels beyond 6th, the level of the summon monster spell increases by 1 (to a maximum of summon monster IX at 20th level). You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
 			"",
-			"**Consume the Soul (Gift, Sp):** You can consume or imprison the soul of a dying creature. You gain the ability to cast [death knell](spell:death_knell) as a spell-like ability three times per day using your medium level as the spell's caster level. Instead of gaining the normal benefits of this spell when the target fails its save, you can instead lock the target's soul within a soul gem, functioning like the soul lock ability of a [cacodaemon](monster:cacodaemon). You count as an evil outsider for the purpose of determining whether you receive a benefit when you ingest a soul gem created by the soul lock ability."
+			"**Consume the Soul (Gift, Sp):** You can consume or imprison the soul of a dying creature. You gain the ability to cast [death knell](spell/death_knell) as a spell-like ability three times per day using your medium level as the spell's caster level. Instead of gaining the normal benefits of this spell when the target fails its save, you can instead lock the target's soul within a soul gem, functioning like the soul lock ability of a [cacodaemon](monster/cacodaemon). You count as an evil outsider for the purpose of determining whether you receive a benefit when you ingest a soul gem created by the soul lock ability."
 		]
 	},
 	"demon": {
@@ -116,14 +116,14 @@
 		"description": [
 			"### Demon",
 			"",
-			"**Source** [Psychic Anthology pg. 14](source:psychic_anthology)  ",
+			"**Source** [Psychic Anthology pg. 14](source/psychic_anthology)  ",
 			"A demon is a fiendish spawn of the fecund Abyss, discord and destruction made flesh.",
 			"",
 			"**Alignment:** Chaotic evil.  ",
 			"**Spirits:** Glabrezu (archmage), incubus (guardian), marilith (marshal), succubus (trickster), vilsteth (hierophant), and vrock (champion).  ",
 			"**Taboos:** Choose one of the following: you must not ignore an opportunity to destroy something (or someone) precious to those who actively oppose your plans or goals; you must take every opportunity to tempt or coerce others into embracing their most sinful desires, and you must partake in such delights at every opportunity; you must take every opportunity to inflict physical or emotional pain upon others, provided such indulgences do not detract from your personal goals or safety.",
 			"",
-			"**Summon Demon (Intermediate, Sp):** You can summon a horror from the Abyss as a standard action. This functions as per [summon monster II](spell:summon_monster_2), but you can summon only animals with the [fiendish template](monster/template:fiendish) or outsiders with the [demon](monster/subtype:demon) subtype. This ability can summon only one creature, regardless of the list used. For every 2 medium levels beyond 6th, the level of the summon monster spell increases by 1 (to a maximum of summon monster IX at 20th level). You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
+			"**Summon Demon (Intermediate, Sp):** You can summon a horror from the Abyss as a standard action. This functions as per [summon monster II](spell/summon_monster_2), but you can summon only animals with the [fiendish template](monster/template/fiendish) or outsiders with the [demon](monster/subtype/demon) subtype. This ability can summon only one creature, regardless of the list used. For every 2 medium levels beyond 6th, the level of the summon monster spell increases by 1 (to a maximum of summon monster IX at 20th level). You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
 			"",
 			"**Demonic Taint (Gift, Su):** Your natural weapons, as well as any weapons you wield, are treated as chaotic and evil for the purpose of overcoming damage reduction."
 		]
@@ -133,16 +133,16 @@
 		"description": [
 			"### Devil",
 			"",
-			"**Source** [Psychic Anthology pg. 15](source:psychic_anthology)  ",
+			"**Source** [Psychic Anthology pg. 15](source/psychic_anthology)  ",
 			"A devil is a legalistic fiend from Hell, nothing less than absolute law and order incarnate.",
 			"",
 			"**Alignment:** Lawful evil.  ",
 			"**Spirits:** Ayngavhaul (archmage), cornugon (champion), deimavigga (hierophant), erinyes (champion), hamatula (guardian), and osyluth (trickster).  ",
 			"**Taboos:** Choose one of the following: you must abide by any contracts you sign or verbally agree to, though you are only ever required to obey the letter of these agreements and may twist their intent to your favor; you must tempt others whenever the opportunity arises; you must destroy or despoil all holy sites and relics that you encounter, if doing so would not put you in obvious danger.",
 			"",
-			"**Summon Devil (Intermediate, Sp):** You can summon a denizen of Hell as a standard action. This functions as per [summon monster II](spell:summon_monster_2), but you can summon only animals with the [fiendish template](monster/template:fiendish) or outsiders with the [devil](monster/subtype:devil) subtype. This ability can summon only one creature, regardless of the list used. For every 2 medium levels beyond 6th, the level of the summon monster spell increases by 1 (to a maximum of summon monster IX at 20th level). You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
+			"**Summon Devil (Intermediate, Sp):** You can summon a denizen of Hell as a standard action. This functions as per [summon monster II](spell/summon_monster_2), but you can summon only animals with the [fiendish template](monster/template/fiendish) or outsiders with the [devil](monster/subtype/devil) subtype. This ability can summon only one creature, regardless of the list used. For every 2 medium levels beyond 6th, the level of the summon monster spell increases by 1 (to a maximum of summon monster IX at 20th level). You can use this ability a number of times per day equal to 3 + your Charisma modifier.",
 			"",
-			"**See in Darkness (Gift, Su):** You gain darkvision 30 feet. If you already have darkvision, your darkvision range increases by 30 feet instead. This darkvision allows you to see perfectly in darkness of any kind, even that created by a [deeper darkness](spell:deeper_darkness) spell."
+			"**See in Darkness (Gift, Su):** You gain darkvision 30 feet. If you already have darkvision, your darkvision range increases by 30 feet instead. This darkvision allows you to see perfectly in darkness of any kind, even that created by a [deeper darkness](spell/deeper_darkness) spell."
 		]
 	},
 	"psychopomp": {
@@ -150,7 +150,7 @@
 		"description": [
 			"### Psychopomp",
 			"",
-			"**Source** [Psychic Anthology pg. 15](source:psychic_anthology)  ",
+			"**Source** [Psychic Anthology pg. 15](source/psychic_anthology)  ",
 			"A psychopomp is a steward of souls from the Boneyard, tasked with bringing mortal souls to the afterlife.",
 			"",
 			"**Alignment:** Neutral.  ",

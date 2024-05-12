@@ -3,7 +3,7 @@
 	"_description": [
 		"# Necrografts",
 		"",
-		"**Description Source:** [Black Markets](source:black_markets)",
+		"**Description Source:** [Black Markets](source/black_markets)",
 		"",
 		"Grafting undead components to a living creature is illegal outside of Geb, but black markets across the Inner Sea region still trade in these undead body parts. Most prospective necrograft hosts seek out these macabre additions to replace a sick or missing body part, although some see necrografts as an extreme form of body modification, excising perfectly healthy body parts to make room for undead flesh. Not all necrograft hosts are willing recipients-some are forced to endure the surgical process as part of mad experiments.",
 		"",
@@ -20,7 +20,7 @@
 		"description": [
 			"## Ghoulgut",
 			"",
-			"**Source** [Black Markets pg. 15](source:black_markets)  ",
+			"**Source** [Black Markets pg. 15](source/black_markets)  ",
 			"**Aura** moderate necromancy and transmutation; **CL** 9th  ",
 			"**Slot** ; **Price** 16,000 gp; **Weight** &mdash;",
 			"",
@@ -41,7 +41,7 @@
 		"description": [
 			"## Gravespawn Gland",
 			"",
-			"**Source** [Black Markets pg. 15](source:black_markets)  ",
+			"**Source** [Black Markets pg. 15](source/black_markets)  ",
 			"**Aura** moderate necromancy; **CL** 11th  ",
 			"**Slot** ; **Price** 6,200 gp; **Weight** &mdash;",
 			"",
@@ -64,7 +64,7 @@
 		"description": [
 			"## Necrograft Arm",
 			"",
-			"**Source** [Black Markets pg. 15](source:black_markets)  ",
+			"**Source** [Black Markets pg. 15](source/black_markets)  ",
 			"**Aura** strong necromancy and transmutation; **CL** 13th  ",
 			"**Slot** ; **Price** 12,000 gp; **Weight** &mdash;",
 			"",
@@ -85,7 +85,7 @@
 		"description": [
 			"## Necrograft Leg",
 			"",
-			"**Source** [Black Markets pg. 15](source:black_markets)  ",
+			"**Source** [Black Markets pg. 15](source/black_markets)  ",
 			"**Aura** strong necromancy and transmutation; **CL** 13th  ",
 			"**Slot** ; **Price** 6,400 gp; **Weight** &mdash;",
 			"",
@@ -106,7 +106,7 @@
 		"description": [
 			"## Sallowflesh",
 			"",
-			"**Source** [Black Markets pg. 15](source:black_markets)  ",
+			"**Source** [Black Markets pg. 15](source/black_markets)  ",
 			"**Aura** faint abjuration and necromancy; **CL** 5th  ",
 			"**Slot** ; **Price** 20,000 gp; **Weight** &mdash;",
 			"",
@@ -127,7 +127,7 @@
 		"description": [
 			"## Strangler's Tongue",
 			"",
-			"**Source** [Black Markets pg. 15](source:black_markets)  ",
+			"**Source** [Black Markets pg. 15](source/black_markets)  ",
 			"**Aura** faint enchantment and necromancy; **CL** 5th  ",
 			"**Slot** ; **Price** 36,000 gp; **Weight** &mdash;",
 			"",

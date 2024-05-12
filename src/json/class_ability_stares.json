@@ -18,7 +18,7 @@
 		"file": "mesmeriststaresdisplayf2a5.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
-			"**Allure** ([Occult Adventures pg. 42](source:occult_adventures)): The hypnotic stare penalty also applies on initiative checks and Perception checks."
+			"**Allure** ([Occult Adventures pg. 42](source/occult_adventures)): The hypnotic stare penalty also applies on initiative checks and Perception checks."
 		]
 	},
 	"devilbane_binding": {
@@ -26,7 +26,7 @@
 		"file": "mesmeriststaresdisplay6fe7.html",
 		"sources": [ "Occult Origins" ],
 		"description": [
-			"**Devilbane Binding&ast;** ([Occult Origins pg. 13](source:occult_origins)): The hypnotic stare penalty also applies to all Charisma checks to escape planar binding spells, and applies to the target's spell resistance against a planar binding spell."
+			"**Devilbane Binding&ast;** ([Occult Origins pg. 13](source/occult_origins)): The hypnotic stare penalty also applies to all Charisma checks to escape planar binding spells, and applies to the target's spell resistance against a planar binding spell."
 		]
 	},
 	"devilbane_dampening": {
@@ -34,7 +34,7 @@
 		"file": "mesmeriststaresdisplay1edf.html",
 		"sources": [ "Occult Origins" ],
 		"description": [
-			"**Devilbane Dampening&ast;** ([Occult Origins pg. 13](source:occult_origins)): The hypnotic stare penalty also applies to the target's resistance to a single form of energy, chosen by the mesmerist when he initiates the stare. If the mesmerist targets a form of energy to which his target has no resistance, this improvement has no effect."
+			"**Devilbane Dampening&ast;** ([Occult Origins pg. 13](source/occult_origins)): The hypnotic stare penalty also applies to the target's resistance to a single form of energy, chosen by the mesmerist when he initiates the stare. If the mesmerist targets a form of energy to which his target has no resistance, this improvement has no effect."
 		]
 	},
 	"devilbane_dismissal": {
@@ -42,7 +42,7 @@
 		"file": "mesmeriststaresdisplay5ede.html",
 		"sources": [ "Occult Origins" ],
 		"description": [
-			"**Devilbane Dismissal&ast;** ([Occult Origins pg. 13](source:occult_origins)): The hypnotic stare reduces the duration of any conjuration (summoning) spells the target casts, or that are currently affecting the target, by half."
+			"**Devilbane Dismissal&ast;** ([Occult Origins pg. 13](source/occult_origins)): The hypnotic stare reduces the duration of any conjuration (summoning) spells the target casts, or that are currently affecting the target, by half."
 		]
 	},
 	"devilbane_impediment": {
@@ -50,7 +50,7 @@
 		"file": "mesmeriststaresdisplaye4f3.html",
 		"sources": [ "Occult Origins" ],
 		"description": [
-			"**Devilbane Impediment&ast;** ([Occult Origins pg. 13](source:occult_origins)): The target of your hypnotic stare must succeed at a concentration check (DC = 15 + the level of the spell) to activate any of its spell-like abilities (but not standard spellcasting). If the target fails the check, the spell-like ability doesn't function but is still expended."
+			"**Devilbane Impediment&ast;** ([Occult Origins pg. 13](source/occult_origins)): The target of your hypnotic stare must succeed at a concentration check (DC = 15 + the level of the spell) to activate any of its spell-like abilities (but not standard spellcasting). If the target fails the check, the spell-like ability doesn't function but is still expended."
 		]
 	},
 	"devilbane_mundanity": {
@@ -58,7 +58,7 @@
 		"file": "mesmeriststaresdisplay7685.html",
 		"sources": [ "Occult Origins" ],
 		"description": [
-			"**Devilbane Mundanity&ast;** ([Occult Origins pg. 13](source:occult_origins)): The hypnotic stare penalty also applies to the target's spell resistance. This ability doesn't stack with the sapped magic bold stare improvement."
+			"**Devilbane Mundanity&ast;** ([Occult Origins pg. 13](source/occult_origins)): The hypnotic stare penalty also applies to the target's spell resistance. This ability doesn't stack with the sapped magic bold stare improvement."
 		]
 	},
 	"devilbane_withering": {
@@ -66,7 +66,7 @@
 		"file": "mesmeriststaresdisplay3280.html",
 		"sources": [ "Occult Origins" ],
 		"description": [
-			"**Devilbane Withering&ast;** ([Occult Origins pg. 13](source:occult_origins)): The hypnotic stare penalty also applies to attack rolls and damage rolls, but only if the target is an outsider. Unlike most devilbane gazes, this gaze has no effect on creatures not of the outsider type, and effect's penalty isn't doubled when it targets outsiders."
+			"**Devilbane Withering&ast;** ([Occult Origins pg. 13](source/occult_origins)): The hypnotic stare penalty also applies to attack rolls and damage rolls, but only if the target is an outsider. Unlike most devilbane gazes, this gaze has no effect on creatures not of the outsider type, and effect's penalty isn't doubled when it targets outsiders."
 		]
 	},
 	"disorientation": {
@@ -74,7 +74,7 @@
 		"file": "mesmeriststaresdisplay62a8.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
-			"**Disorientation** ([Occult Adventures pg. 42](source:occult_adventures)): The hypnotic stare penalty also applies on attack rolls."
+			"**Disorientation** ([Occult Adventures pg. 42](source/occult_adventures)): The hypnotic stare penalty also applies on attack rolls."
 		]
 	},
 	"disquiet": {
@@ -82,7 +82,7 @@
 		"file": "mesmeriststaresdisplay12c9.html",
 		"sources": [ "Occult Realms" ],
 		"description": [
-			"**Disquiet** ([Occult Realms pg. 16](source:occult_realms)): The target of the hypnotic stare is shaken while in areas of total darkness."
+			"**Disquiet** ([Occult Realms pg. 16](source/occult_realms)): The target of the hypnotic stare is shaken while in areas of total darkness."
 		]
 	},
 	"distracted": {
@@ -90,7 +90,7 @@
 		"file": "mesmeriststaresdisplay801b.html",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
-			"**Distracted** ([Heroes of Golarion pg. 9](source:heroes_of_golarion)): The hypnotic stare penalty also applies to concentration checks."
+			"**Distracted** ([Heroes of Golarion pg. 9](source/heroes_of_golarion)): The hypnotic stare penalty also applies to concentration checks."
 		]
 	},
 	"infiltration": {
@@ -98,7 +98,7 @@
 		"file": "mesmeriststaresdisplay9a73.html",
 		"sources": [ "Occult Realms" ],
 		"description": [
-			"**Infiltration** ([Occult Realms pg. 16](source:occult_realms)): The hypnotic stare penalty also applies to the target's Perception checks and CMD."
+			"**Infiltration** ([Occult Realms pg. 16](source/occult_realms)): The hypnotic stare penalty also applies to the target's Perception checks and CMD."
 		]
 	},
 	"lethality": {
@@ -106,7 +106,7 @@
 		"file": "mesmeriststaresdisplayc6c3.html",
 		"sources": [ "Occult Realms" ],
 		"description": [
-			"**Lethality** ([Occult Realms pg. 16](source:occult_realms)): The hypnotic stare penalty also applies to the target's Fortitude saves versus poison and diseases."
+			"**Lethality** ([Occult Realms pg. 16](source/occult_realms)): The hypnotic stare penalty also applies to the target's Fortitude saves versus poison and diseases."
 		]
 	},
 	"nightblindness": {
@@ -114,7 +114,7 @@
 		"file": "mesmeriststaresdisplay5bf2.html",
 		"sources": [ "Occult Realms" ],
 		"description": [
-			"**Nightblindness** ([Occult Realms pg. 16](source:occult_realms)): The darkvision range of the hypnotic stare's target decreases by 10 feet."
+			"**Nightblindness** ([Occult Realms pg. 16](source/occult_realms)): The darkvision range of the hypnotic stare's target decreases by 10 feet."
 		]
 	},
 	"nightmare": {
@@ -122,7 +122,7 @@
 		"file": "mesmeriststaresdisplaydb50.html",
 		"sources": [ "Occult Realms" ],
 		"description": [
-			"**Nightmare** ([Occult Realms pg. 16](source:occult_realms)): The target of the hypnotic stare rolls twice on all Will saves versus fear, taking the lower result."
+			"**Nightmare** ([Occult Realms pg. 16](source/occult_realms)): The target of the hypnotic stare rolls twice on all Will saves versus fear, taking the lower result."
 		]
 	},
 	"oscillation": {
@@ -130,7 +130,7 @@
 		"file": "mesmeriststaresdisplay2c5f.html",
 		"sources": [ "Occult Realms" ],
 		"description": [
-			"**Oscillation** ([Occult Realms pg. 16](source:occult_realms)): The target of the hypnotic stare treats all enemies beyond 30 feet (except the mesmerist) as having concealment (20% miss chance)."
+			"**Oscillation** ([Occult Realms pg. 16](source/occult_realms)): The target of the hypnotic stare treats all enemies beyond 30 feet (except the mesmerist) as having concealment (20% miss chance)."
 		]
 	},
 	"psychic_inception": {
@@ -138,7 +138,7 @@
 		"file": "mesmeriststaresdisplaya835.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
-			"**Psychic Inception** ([Occult Adventures pg. 43](source:occult_adventures)): The hypnotic stare and its penalty can affect creatures that are mindless or immune to mind-affecting effects (such as an undead or vermin). The mesmerist can also partially affect such a creature with his mind-affecting spells and abilities if it's under the effect of his hypnotic stare; it gains a +2 bonus on its saving throw (if any), and if affected, it still has a 50% chance each round of ignoring the effect. Ignoring the effect doesn't end the effect, but does allow the creature to act normally for that round."
+			"**Psychic Inception** ([Occult Adventures pg. 43](source/occult_adventures)): The hypnotic stare and its penalty can affect creatures that are mindless or immune to mind-affecting effects (such as an undead or vermin). The mesmerist can also partially affect such a creature with his mind-affecting spells and abilities if it's under the effect of his hypnotic stare; it gains a +2 bonus on its saving throw (if any), and if affected, it still has a 50% chance each round of ignoring the effect. Ignoring the effect doesn't end the effect, but does allow the creature to act normally for that round."
 		]
 	},
 	"restriction": {
@@ -146,7 +146,7 @@
 		"file": "mesmeriststaresdisplayeffe.html",
 		"sources": [ "Occult Realms" ],
 		"description": [
-			"**Restriction** ([Occult Realms pg. 16](source:occult_realms)): The target of the hypnotic stare treats all areas of dim light or darker as difficult terrain."
+			"**Restriction** ([Occult Realms pg. 16](source/occult_realms)): The target of the hypnotic stare treats all areas of dim light or darker as difficult terrain."
 		]
 	},
 	"sabotage": {
@@ -154,7 +154,7 @@
 		"file": "mesmeriststaresdisplaycba0.html",
 		"sources": [ "Occult Realms" ],
 		"description": [
-			"**Sabotage** ([Occult Realms pg. 16](source:occult_realms)): The hypnotic stare penalty also applies to Diplomacy and Intimidate checks."
+			"**Sabotage** ([Occult Realms pg. 16](source/occult_realms)): The hypnotic stare penalty also applies to Diplomacy and Intimidate checks."
 		]
 	},
 	"sapped_magic": {
@@ -162,7 +162,7 @@
 		"file": "mesmeriststaresdisplay1723.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
-			"**Sapped Magic** ([Occult Adventures pg. 43](source:occult_adventures)): The hypnotic stare penalty also applies to the DCs of spells and spell-like abilities used by the target, and to the target's spell resistance (if any)."
+			"**Sapped Magic** ([Occult Adventures pg. 43](source/occult_adventures)): The hypnotic stare penalty also applies to the DCs of spells and spell-like abilities used by the target, and to the target's spell resistance (if any)."
 		]
 	},
 	"sensed": {
@@ -170,7 +170,7 @@
 		"file": "mesmeriststaresdisplay46d4.html",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
-			"**Sensed** ([Heroes of Golarion pg. 9](source:heroes_of_golarion)): The hypnotic stare penalty also applies to Stealth checks."
+			"**Sensed** ([Heroes of Golarion pg. 9](source/heroes_of_golarion)): The hypnotic stare penalty also applies to Stealth checks."
 		]
 	},
 	"sluggishness": {
@@ -178,7 +178,7 @@
 		"file": "mesmeriststaresdisplay09ec.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
-			"**Sluggishness** ([Occult Adventures pg. 43](source:occult_adventures)): The target of the hypnotic stare has all of its speeds reduced by 5 feet (to a minimum of 5 feet), and the hypnotic stare penalty also applies to the target's Reflex saving throws."
+			"**Sluggishness** ([Occult Adventures pg. 43](source/occult_adventures)): The target of the hypnotic stare has all of its speeds reduced by 5 feet (to a minimum of 5 feet), and the hypnotic stare penalty also applies to the target's Reflex saving throws."
 		]
 	},
 	"susceptibility": {
@@ -186,7 +186,7 @@
 		"file": "mesmeriststaresdisplay9beb.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
-			"**Susceptibility** ([Occult Adventures pg. 43](source:occult_adventures)): The hypnotic stare penalty also applies to the target's Sense Motive checks to oppose Bluff checks, and to the DCs of Diplomacy and Intimidate checks made against the target."
+			"**Susceptibility** ([Occult Adventures pg. 43](source/occult_adventures)): The hypnotic stare penalty also applies to the target's Sense Motive checks to oppose Bluff checks, and to the DCs of Diplomacy and Intimidate checks made against the target."
 		]
 	},
 	"timidity": {
@@ -194,7 +194,7 @@
 		"file": "mesmeriststaresdisplay6c57.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
-			"**Timidity** ([Occult Adventures pg. 43](source:occult_adventures)): The hypnotic stare penalty also applies to damage rolls."
+			"**Timidity** ([Occult Adventures pg. 43](source/occult_adventures)): The hypnotic stare penalty also applies to damage rolls."
 		]
 	},
 	"unaided": {
@@ -202,7 +202,7 @@
 		"file": "mesmeriststaresdisplay5542.html",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
-			"**Unaided** ([Heroes of Golarion pg. 9](source:heroes_of_golarion)): The target of the hypnotic stare is not able to grant or receive flanking bonuses."
+			"**Unaided** ([Heroes of Golarion pg. 9](source/heroes_of_golarion)): The target of the hypnotic stare is not able to grant or receive flanking bonuses."
 		]
 	}
 }

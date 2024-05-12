@@ -10,7 +10,7 @@
 		"description": [
 			"## Halucination",
 			"",
-			"**Source** [Horror Adventures pg. 184](source:horror_adventures)  ",
+			"**Source** [Horror Adventures pg. 184](source/horror_adventures)  ",
 			"**Type** lesser madness; **Save DC** 14  ",
 			"*Onset** 2d6 days  ",
 			"**Effect** -4 penalty on any Will saving throw against or to disbelieve illusions, and illusions of things that are not there (see below)  ",
@@ -33,7 +33,7 @@
 		"description": [
 			"## Mania",
 			"",
-			"**Source** [Horror Adventures pg. 184](source:horror_adventures), [GameMastery Guide pg. 250](source:gamemastery_guide)  ",
+			"**Source** [Horror Adventures pg. 184](source/horror_adventures), [GameMastery Guide pg. 250](source/gamemastery_guide)  ",
 			"**Type** lesser madness (compulsion); **Save DC** 14  ",
 			"*Onset** 1 day  ",
 			"**Effect** Each round when an afflicted character is within 30 feet and can see the object of her mania, she must succeed at a Will saving throw or rush to interact with that object. If the afflicted character succeeds at the saving throw by 5 or more, she can keep away from the object of the mania or resist the manic activity for 1 minute before having to attempt the saving throw again. After failing a saving throw and fully performing the mania's compulsion, the afflicted character need not attempt another saving throw for 1 minute, as she has temporarily satisfied her obsession.  ",
@@ -53,7 +53,7 @@
 		"description": [
 			"## Melancholia",
 			"",
-			"**Source** [Horror Adventures pg. 185](source:horror_adventures)  ",
+			"**Source** [Horror Adventures pg. 185](source/horror_adventures)  ",
 			"**Type** lesser madness; **Save DC** 14  ",
 			"*Onset** 1d4 days  ",
 			"**Effect** -2 penalty on initiative checks, and morale bonuses are halved (minimum +0)  ",
@@ -76,7 +76,7 @@
 		"description": [
 			"## Phobia",
 			"",
-			"**Source** [Horror Adventures pg. 185](source:horror_adventures), [GameMastery Guide pg. 250](source:gamemastery_guide)  ",
+			"**Source** [Horror Adventures pg. 185](source/horror_adventures), [GameMastery Guide pg. 250](source/gamemastery_guide)  ",
 			"**Type** lesser madness (fear); **Save DC** 14  ",
 			"*Onset** 1 day  ",
 			"**Effect** Each round an afflicted character is within 30 feet and can see the object of her phobia, she must succeed at a Will saving throw or become shaken. The next round, the afflicted character can choose to attempt another saving throw to end the effect, but if she fails, she becomes scared (see page 10) instead. A scared character can choose to attempt another saving throw to become shaken again, but if she fails, she becomes frightened for 1d6 rounds instead.  ",
@@ -96,7 +96,7 @@
 		"description": [
 			"## Delirium",
 			"",
-			"**Source** [Horror Adventures pg. 183](source:horror_adventures)  ",
+			"**Source** [Horror Adventures pg. 183](source/horror_adventures)  ",
 			"**Type** lesser madness; **Save DC** 16  ",
 			"*Onset** 1d4 days  ",
 			"**Effect** -2 penalty on Wisdom- and Intelligence-based checks; cannot take 10 or 20 on any check  ",
@@ -116,7 +116,7 @@
 		"description": [
 			"## Delusion",
 			"",
-			"**Source** [Horror Adventures pg. 183](source:horror_adventures)  ",
+			"**Source** [Horror Adventures pg. 183](source/horror_adventures)  ",
 			"**Type** lesser madness; **Save DC** 16  ",
 			"*Onset** 2d6 days  ",
 			"**Effect** The afflicted character believes something that is not true, and no amount of evidence can dissuade him of the belief.  ",
@@ -138,7 +138,7 @@
 		"description": [
 			"## Night Terrors",
 			"",
-			"**Source** [Horror Adventures pg. 185](source:horror_adventures)  ",
+			"**Source** [Horror Adventures pg. 185](source/horror_adventures)  ",
 			"**Type** lesser madness; **Save DC** 16  ",
 			"*Onset** 1 day  ",
 			"**Effect** Each night when the afflicted character sleeps, she must succeed at a saving throw or wake up fatigued (see below).  ",
@@ -161,7 +161,7 @@
 		"description": [
 			"## Paranoid",
 			"",
-			"**Source** [Horror Adventures pg. 185](source:horror_adventures), [GameMastery Guide pg. 251](source:gamemastery_guide)  ",
+			"**Source** [Horror Adventures pg. 185](source/horror_adventures), [GameMastery Guide pg. 251](source/gamemastery_guide)  ",
 			"**Type** lesser madness; **Save DC** 17  ",
 			"*Onset** 2d6 days  ",
 			"**Effect** The afflicted character gains a +2 bonus on saving throws against charm effects, but takes a -2 penalty on Bluff, Diplomacy, and Sense Motive checks. When the afflicted character attempts a Sense Motive check, the GM rolls the check in secret, and failure gives the afflicted character the impression that those whose motives he is trying to sense are plotting against him in some way. Lastly, any time the afflicted character tries to use or gain a benefit from the aid another action, or is the target of a beneficial spell or effect from an ally, he must succeed at a Will saving throw in order to take the aid another action or gain the benefit from the action, spell, or effect.  ",
@@ -181,7 +181,7 @@
 		"description": [
 			"## Fugue",
 			"",
-			"**Source** [Horror Adventures pg. 184](source:horror_adventures)  ",
+			"**Source** [Horror Adventures pg. 184](source/horror_adventures)  ",
 			"**Type** lesser madness; **Save DC** 18  ",
 			"*Onset** 1d4 days  ",
 			"**Effect** -2 penalty on Will saving throws and skill checks, and some memory loss (see below)  ",
@@ -201,7 +201,7 @@
 		"description": [
 			"## Cognitive Block",
 			"",
-			"**Source** [Horror Adventures pg. 187](source:horror_adventures)  ",
+			"**Source** [Horror Adventures pg. 187](source/horror_adventures)  ",
 			"**Type** greater madness; **Save DC** 20  ",
 			"*Onset** immediate  ",
 			"**Effect** The afflicted character can no longer speak or write and has difficulty concentrating. He can no longer use command word items, spell-trigger items, or spell-completion items. He takes a -10 penalty on concentration checks. He cannot cast spells with a verbal or thought component, and cannot prepare spells from a spellbook.  ",
@@ -224,7 +224,7 @@
 		"description": [
 			"## Dissociated Identity",
 			"",
-			"**Source** [Horror Adventures pg. 187](source:horror_adventures), [GameMastery Guide pg. 251](source:gamemastery_guide)  ",
+			"**Source** [Horror Adventures pg. 187](source/horror_adventures), [GameMastery Guide pg. 251](source/gamemastery_guide)  ",
 			"**Type** greater madness; **Save DC** 20  ",
 			"*Onset** 2d6 days  ",
 			"**Effect** -6 penalty on Will saving throws and Wisdom-based checks, and disassociated identities (see below)  ",
@@ -246,13 +246,13 @@
 		"description": [
 			"## Psychosomatic Loss",
 			"",
-			"**Source** [Horror Adventures pg. 187](source:horror_adventures)  ",
+			"**Source** [Horror Adventures pg. 187](source/horror_adventures)  ",
 			"**Type** greater madness; **Save DC** 20  ",
 			"*Onset** immediate  ",
 			"**Effect** The afflicted character becomes blinded or deafened, loses another special sense (like scent or blindsense), loses the use of limbs, or loses a special movement speed (like a fly or swim speed). The GM chooses how the psychosomatic loss manifests.  ",
 			"**Dormancy Effect** None",
 			"",
-			"While there is nothing physically wrong with the afflicted character, some kind of mental trauma has forced her brain to shut down sensory or motor systems. Furthermore, magical effects that typically remove these conditions (such as [remove blindness/deafness](spell:remove_blindness_deafness)) have no effect on this madness; the madness must be cured in order to regain the senses or motor skills."
+			"While there is nothing physically wrong with the afflicted character, some kind of mental trauma has forced her brain to shut down sensory or motor systems. Furthermore, magical effects that typically remove these conditions (such as [remove blindness/deafness](spell/remove_blindness_deafness)) have no effect on this madness; the madness must be cured in order to regain the senses or motor skills."
 		],
 		"display": "madness"
 	},
@@ -269,7 +269,7 @@
 		"description": [
 			"## Amnesia",
 			"",
-			"**Source** [Horror Adventures pg. 186](source:horror_adventures), [GameMastery Guide pg. 250](source:gamemastery_guide)  ",
+			"**Source** [Horror Adventures pg. 186](source/horror_adventures), [GameMastery Guide pg. 250](source/gamemastery_guide)  ",
 			"**Type** greater madness; **Save DC** 22  ",
 			"*Onset** immediate  ",
 			"**Effect** -4 penalty on Will saving throws and skill checks, and loss of memory (see below)  ",
@@ -294,7 +294,7 @@
 		"description": [
 			"## Moral Insanity",
 			"",
-			"**Source** [Horror Adventures pg. 187](source:horror_adventures), [GameMastery Guide pg. 251](source:gamemastery_guide)  ",
+			"**Source** [Horror Adventures pg. 187](source/horror_adventures), [GameMastery Guide pg. 251](source/gamemastery_guide)  ",
 			"**Type** greater madness; **Save DC** 22  ",
 			"*Onset** 3d6 days  ",
 			"**Effect** The afflicted character's alignment shifts to evil, and he gains a +10 competence bonus on Bluff checks to hide this madness. Once per day, the afflicted character can attempt a Will saving throw to suppress this effect for 24 hours.  ",
@@ -317,7 +317,7 @@
 		"description": [
 			"## Schizophrenia",
 			"",
-			"**Source** [Horror Adventures pg. 187](source:horror_adventures), [GameMastery Guide pg. 251](source:gamemastery_guide)  ",
+			"**Source** [Horror Adventures pg. 187](source/horror_adventures), [GameMastery Guide pg. 251](source/gamemastery_guide)  ",
 			"**Type** greater madness; **Save DC** 22  ",
 			"*Onset** 1d6 days  ",
 			"**Effect** -4 penalty on Wisdom- and Charisma-based checks; cannot take 10 or take 20 on any check; chance of becoming confused (see below)  ",
@@ -337,7 +337,7 @@
 		"description": [
 			"## Catatonia",
 			"",
-			"**Source** [Horror Adventures pg. 186](source:horror_adventures)  ",
+			"**Source** [Horror Adventures pg. 186](source/horror_adventures)  ",
 			"**Type** greater madness; **Save DC** 24  ",
 			"*Onset** immediate  ",
 			"**Effect** The afflicted character acts as if she were cowering, but this is not a fear effect, unlike other forms of cowering.  ",

@@ -21,7 +21,7 @@
 		"description": [
 			"## Azonite Pellets",
 			"",
-			"**Source** [Pathfinder #89: Palace of Fallen Stars pg. 62](source:pathfinder_#89_palace_of_fallen_stars)  ",
+			"**Source** [Pathfinder #89: Palace of Fallen Stars pg. 62](source/pathfinder_#89_palace_of_fallen_stars)  ",
 			"**Price** 100 gp",
 			"",
 			"### Construction",
@@ -41,7 +41,7 @@
 		"description": [
 			"## Baseline",
 			"",
-			"**Source** [Technology Guide pg. 33](source:technology_guide)  ",
+			"**Source** [Technology Guide pg. 33](source/technology_guide)  ",
 			"**Price** 2,250 gp",
 			"",
 			"### Construction",
@@ -61,7 +61,7 @@
 		"description": [
 			"## Cardioamp",
 			"",
-			"**Source** [Technology Guide pg. 33](source:technology_guide)  ",
+			"**Source** [Technology Guide pg. 33](source/technology_guide)  ",
 			"**Price** 4,550 gp",
 			"",
 			"### Construction",
@@ -83,7 +83,7 @@
 		"description": [
 			"## Cureall",
 			"",
-			"**Source** [Technology Guide pg. 33](source:technology_guide)  ",
+			"**Source** [Technology Guide pg. 33](source/technology_guide)  ",
 			"**Price** 1,400 gp",
 			"",
 			"### Construction",
@@ -105,7 +105,7 @@
 		"description": [
 			"## Hemochem (Grade I)",
 			"",
-			"**Source** [Technology Guide pg. 34](source:technology_guide)  ",
+			"**Source** [Technology Guide pg. 34](source/technology_guide)  ",
 			"**Price** 250 gp (Grade I), 500 gp (Grade II), 750 gp (Grade III), 1,000 gp (Grade IV), 1,250 gp (Grave V)",
 			"",
 			"### Construction",
@@ -133,7 +133,7 @@
 		"description": [
 			"## Hemochem (Grade II)",
 			"",
-			"**Source** [Technology Guide pg. 34](source:technology_guide)  ",
+			"**Source** [Technology Guide pg. 34](source/technology_guide)  ",
 			"**Price** 250 gp (Grade I), 500 gp (Grade II), 750 gp (Grade III), 1,000 gp (Grade IV), 1,250 gp (Grave V)"
 		],
 		"copyof": "hemochem_grade_i",
@@ -147,7 +147,7 @@
 		"description": [
 			"## Hemochem (Grade III)",
 			"",
-			"**Source** [Technology Guide pg. 34](source:technology_guide)  ",
+			"**Source** [Technology Guide pg. 34](source/technology_guide)  ",
 			"**Price** 250 gp (Grade I), 500 gp (Grade II), 750 gp (Grade III), 1,000 gp (Grade IV), 1,250 gp (Grave V)"
 		],
 		"copyof": "hemochem_grade_i",
@@ -161,7 +161,7 @@
 		"description": [
 			"## Hemochem (Grade IV)",
 			"",
-			"**Source** [Technology Guide pg. 34](source:technology_guide)  ",
+			"**Source** [Technology Guide pg. 34](source/technology_guide)  ",
 			"**Price** 250 gp (Grade I), 500 gp (Grade II), 750 gp (Grade III), 1,000 gp (Grade IV), 1,250 gp (Grave V)"
 		],
 		"copyof": "hemochem_grade_i",
@@ -175,7 +175,7 @@
 		"description": [
 			"## Hemochem (Grave V)",
 			"",
-			"**Source** [Technology Guide pg. 34](source:technology_guide)  ",
+			"**Source** [Technology Guide pg. 34](source/technology_guide)  ",
 			"**Price** 250 gp (Grade I), 500 gp (Grade II), 750 gp (Grade III), 1,000 gp (Grade IV), 1,250 gp (Grave V)"
 		],
 		"copyof": "hemochem_grade_i",
@@ -189,7 +189,7 @@
 		"description": [
 			"## Hype",
 			"",
-			"**Source** [Technology Guide pg. 34](source:technology_guide)  ",
+			"**Source** [Technology Guide pg. 34](source/technology_guide)  ",
 			"**Price** 250 gp",
 			"",
 			"### Construction",
@@ -209,7 +209,7 @@
 		"description": [
 			"## Soothe",
 			"",
-			"**Source** [Pathfinder #86: Lords of Rust pg. 63](source:pathfinder_#86_lords_of_rust)  ",
+			"**Source** [Pathfinder #86: Lords of Rust pg. 63](source/pathfinder_#86_lords_of_rust)  ",
 			"**Price** 200 gp",
 			"",
 			"### Construction",
@@ -229,7 +229,7 @@
 		"description": [
 			"## Torpinal",
 			"",
-			"**Source** [Technology Guide pg. 34](source:technology_guide)  ",
+			"**Source** [Technology Guide pg. 34](source/technology_guide)  ",
 			"**Price** 300 gp",
 			"",
 			"### Construction",
@@ -251,7 +251,7 @@
 		"description": [
 			"## Universal Serum",
 			"",
-			"**Source** [Pathfinder #85: Fires of Creation pg. 61](source:pathfinder_#85_fires_of_creation)  ",
+			"**Source** [Pathfinder #85: Fires of Creation pg. 61](source/pathfinder_#85_fires_of_creation)  ",
 			"**Price** 400 gp",
 			"",
 			"### Construction",
@@ -271,7 +271,7 @@
 		"description": [
 			"## Vitality Serum",
 			"",
-			"**Source** [Pathfinder #85: Fires of Creation pg. 61](source:pathfinder_#85_fires_of_creation)  ",
+			"**Source** [Pathfinder #85: Fires of Creation pg. 61](source/pathfinder_#85_fires_of_creation)  ",
 			"**Price** 500 gp",
 			"",
 			"### Construction",
@@ -291,7 +291,7 @@
 		"description": [
 			"## Vive",
 			"",
-			"**Source** [Technology Guide pg. 34](source:technology_guide)  ",
+			"**Source** [Technology Guide pg. 34](source/technology_guide)  ",
 			"**Price** 200 gp",
 			"",
 			"### Construction",
@@ -311,7 +311,7 @@
 		"description": [
 			"## Zortaphen",
 			"",
-			"**Source** [Technology Guide pg. 34](source:technology_guide)  ",
+			"**Source** [Technology Guide pg. 34](source/technology_guide)  ",
 			"**Price** 2,250 gp",
 			"",
 			"### Construction",

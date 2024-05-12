@@ -5,11 +5,11 @@
 		"Inner Sea Intrigue"
 	],
 	"_description": [
-		"**Description Source:** [PRPG Core Rulebook](source:prpg_core_rulebook)",
+		"**Description Source:** [PRPG Core Rulebook](source/prpg_core_rulebook)",
 		"",
 		"No other affliction is so prevalent as poison. From the fangs of a viper to the ichor-stained assassin's blade, poison is a constant threat. Poisons can be cured by successful saving throws and spells such as neutralize poison.",
 		"",
-		"**Source** [Inner Sea Intrigue](source:inner_sea_intrigue)",
+		"**Source** [Inner Sea Intrigue](source/inner_sea_intrigue)",
 		"",
 		"*Triggered Poisons*: Numerous Inner Sea poisons are designed to take effect only after exposure to a particular stimulus. Poisons in this section with onset triggers list the specific triggers in their Onset entries (rather than a number of rounds, minutes, or days). A character who fails his Fortitude saving throw upon exposure doesn't start attempting saving throws against the poison's effects until exposed to the listed stimulus.",
 		"",
@@ -25,7 +25,7 @@
 		"description": [
 			"## Black Lotus Extract",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 558](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 558](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 4,500 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 20  ",
@@ -42,7 +42,7 @@
 		"description": [
 			"## Blackfrost",
 			"",
-			"**Sources** [Pathfinder #51: The Hungry Storm pg. 67](source:pathfinder_#51_the_hungry_storm)",
+			"**Sources** [Pathfinder #51: The Hungry Storm pg. 67](source/pathfinder_#51_the_hungry_storm)",
 			"",
 			"**Price** N/A; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 15  ",
@@ -59,7 +59,7 @@
 		"description": [
 			"## Blue lily extract",
 			"",
-			"**Sources** [Horror Realms pg. 29](source:horror_realms)",
+			"**Sources** [Horror Realms pg. 29](source/horror_realms)",
 			"",
 			"**Price** N/A; **Weight** &mdash;  ",
 			"**Type** contact or injested; **Save** Fortitude DC 14 (18 if injested)  ",
@@ -78,7 +78,7 @@
 		"description": [
 			"## Burnt Other Fumes",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 558](source:prpg_core_rulebook)",
+			"**Sources** [PRPG Core Rulebook pg. 558](source/prpg_core_rulebook)",
 			"",
 			"**Price** N/A; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 18  ",
@@ -95,13 +95,13 @@
 		"description": [
 			"## Green Prismatic Poison",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 559](source:prpg_core_rulebook)",
+			"**Sources** [PRPG Core Rulebook pg. 559](source/prpg_core_rulebook)",
 			"",
 			"**Price** N/A; **Weight** &mdash;  ",
 			"**Type** spell; **Save** Fortitude DC varies by spell  ",
 			"**Frequency** 1/round for 6 rounds  ",
 			"**Initial Effect** death; **Secondary Effect** 1 Con damage  ",
-			"**Cure** 2 consecutive saves. See [prismatic sphere](spell:prismatic_sphere), [prismatic spray](spell:prismatic_spray), or [prismatic wall](spell:prismatic_wall) for more details."
+			"**Cure** 2 consecutive saves. See [prismatic sphere](spell/prismatic_sphere), [prismatic spray](spell/prismatic_spray), or [prismatic wall](spell/prismatic_wall) for more details."
 		],
 		"display": "equippoison"
 	},
@@ -115,7 +115,7 @@
 		"description": [
 			"## King's Sleep",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 560](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 560](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 5,000 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 18  ",
@@ -132,7 +132,7 @@
 		"description": [
 			"## Lethe water",
 			"",
-			"**Sources** [Feast of Dust pg. 42](source:feast_of_dust)",
+			"**Sources** [Feast of Dust pg. 42](source/feast_of_dust)",
 			"",
 			"**Price** N/A; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Willpower DC 16  ",
@@ -153,7 +153,7 @@
 		"description": [
 			"## Maiden lily attar",
 			"",
-			"**Sources** [Murder's Mark pg. 26](source:murder's_mark)",
+			"**Sources** [Murder's Mark pg. 26](source/murder's_mark)",
 			"",
 			"**Price** N/A; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 13  ",
@@ -170,7 +170,7 @@
 		"description": [
 			"## Quicklime",
 			"",
-			"**Sources** [Pathfinder #95: Anvil of Fire pg. 29](source:pathfinder_#95_anvil_of_fire)",
+			"**Sources** [Pathfinder #95: Anvil of Fire pg. 29](source/pathfinder_#95_anvil_of_fire)",
 			"",
 			"**Price** N/A; **Weight** &mdash;  ",
 			"**Type** contact or inhaled; **Save** Fortitude DC 18  ",
@@ -189,7 +189,7 @@
 		"description": [
 			"## Slow nectar",
 			"",
-			"**Sources** [Pathfinder #93: Forge of the Giant God pg. 8](source:pathfinder_#93_forge_of_the_giant_god)",
+			"**Sources** [Pathfinder #93: Forge of the Giant God pg. 8](source/pathfinder_#93_forge_of_the_giant_god)",
 			"",
 			"**Price** N/A; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 17  ",
@@ -208,7 +208,7 @@
 		"description": [
 			"## Spidervine poison",
 			"",
-			"**Sources** [Heart of the Jungle pg. 6](source:heart_of_the_jungle)",
+			"**Sources** [Heart of the Jungle pg. 6](source/heart_of_the_jungle)",
 			"",
 			"**Price** N/A; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 15  ",
@@ -228,7 +228,7 @@
 		"description": [
 			"## Tears of Death",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 560](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 560](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 6,500 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 22  ",
@@ -247,7 +247,7 @@
 		"description": [
 			"## Ungol Dust",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 560](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 560](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 1,000 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 15  ",
@@ -267,7 +267,7 @@
 		"description": [
 			"## Wyvern Poison",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 560](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 560](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 3,000 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 17  ",
@@ -284,7 +284,7 @@
 		"description": [
 			"## Pupil's friend",
 			"",
-			"**Sources** [Potions and Poisons pg. 25](source:potions_and_poisons)",
+			"**Sources** [Potions and Poisons pg. 25](source/potions_and_poisons)",
 			"",
 			"**Price** 30 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 10  ",
@@ -303,7 +303,7 @@
 		"description": [
 			"## Dhabba spittle",
 			"",
-			"**Sources** [Dark Markets - A Guide to Katapesh pg. 40](source:dark_markets_-_a_guide_to_katapesh)",
+			"**Sources** [Dark Markets - A Guide to Katapesh pg. 40](source/dark_markets_-_a_guide_to_katapesh)",
 			"",
 			"**Price** 50 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 12  ",
@@ -318,7 +318,7 @@
 		"description": [
 			"## Red tears",
 			"",
-			"**Sources** [Dirty Tactics Toolbox pg. 7](source:dirty_tactics_toolbox)",
+			"**Sources** [Dirty Tactics Toolbox pg. 7](source/dirty_tactics_toolbox)",
 			"",
 			"**Price** 50 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 15  ",
@@ -335,7 +335,7 @@
 		"description": [
 			"## Might blight",
 			"",
-			"**Sources** [Merchant's Manifest pg. 11](source:merchant's_manifest)",
+			"**Sources** [Merchant's Manifest pg. 11](source/merchant's_manifest)",
 			"",
 			"**Price** 60 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 13  ",
@@ -354,7 +354,7 @@
 		"description": [
 			"## Addlemind",
 			"",
-			"**Sources** [Dirty Tactics Toolbox pg. 9](source:dirty_tactics_toolbox)",
+			"**Sources** [Dirty Tactics Toolbox pg. 9](source/dirty_tactics_toolbox)",
 			"",
 			"**Price** 75 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 15  ",
@@ -371,7 +371,7 @@
 		"description": [
 			"## Concentrated laxative",
 			"",
-			"**Sources** [Antihero's Handbook pg. 28](source:antihero's_handbook)",
+			"**Sources** [Antihero's Handbook pg. 28](source/antihero's_handbook)",
 			"",
 			"**Price** 75 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 12  ",
@@ -391,7 +391,7 @@
 		"description": [
 			"## Drow Poison",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 559](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 559](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 75 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 13  ",
@@ -408,7 +408,7 @@
 		"description": [
 			"## Gelidburn oil",
 			"",
-			"**Sources** [Potions and Poisons pg. 24](source:potions_and_poisons)",
+			"**Sources** [Potions and Poisons pg. 24](source/potions_and_poisons)",
 			"",
 			"**Price** 75 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 12  ",
@@ -427,7 +427,7 @@
 		"description": [
 			"## Goblin's eye",
 			"",
-			"**Sources** [Ultimate Wilderness pg. 144](source:ultimate_wilderness)",
+			"**Sources** [Ultimate Wilderness pg. 144](source/ultimate_wilderness)",
 			"",
 			"**Price** 75 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 13  ",
@@ -446,7 +446,7 @@
 		"description": [
 			"## Vampire's kiss",
 			"",
-			"**Sources** [Alchemy Manual pg. 9](source:alchemy_manual)",
+			"**Sources** [Alchemy Manual pg. 9](source/alchemy_manual)",
 			"",
 			"**Price** 75 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 15  ",
@@ -468,7 +468,7 @@
 		"description": [
 			"## Confabulation powder",
 			"",
-			"**Sources** [Alchemy Manual pg. 11](source:alchemy_manual)",
+			"**Sources** [Alchemy Manual pg. 11](source/alchemy_manual)",
 			"",
 			"**Price** 80 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 18  ",
@@ -490,7 +490,7 @@
 		"description": [
 			"## Baneberry",
 			"",
-			"**Sources** [Guide to the River Kingdoms pg. 14](source:guide_to_the_river_kingdoms)",
+			"**Sources** [Guide to the River Kingdoms pg. 14](source/guide_to_the_river_kingdoms)",
 			"",
 			"**Price** 90 gp; **Weight** &mdash;  ",
 			"**Type** ingested or injury; **Save** Fortitude DC 15  ",
@@ -510,7 +510,7 @@
 		"description": [
 			"## Oil of Taggit",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 560](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 560](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 90 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 15  ",
@@ -530,7 +530,7 @@
 		"description": [
 			"## Small Centipede Poison",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 560](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 560](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 90 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 11  ",
@@ -547,7 +547,7 @@
 		"description": [
 			"## Thornapple",
 			"",
-			"**Sources** [Guide to the River Kingdoms pg. 14](source:guide_to_the_river_kingdoms)",
+			"**Sources** [Guide to the River Kingdoms pg. 14](source/guide_to_the_river_kingdoms)",
 			"",
 			"**Price** 90 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 11  ",
@@ -567,7 +567,7 @@
 		"description": [
 			"## Belladonna",
 			"",
-			"**Sources** [Ultimate Equipment pg. 111](source:ultimate_equipment), [PRPG Core Rulebook pg. 558](source:prpg_core_rulebook)",
+			"**Sources** [Ultimate Equipment pg. 111](source/ultimate_equipment), [PRPG Core Rulebook pg. 558](source/prpg_core_rulebook)",
 			"",
 			"**Price** 100 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 14  ",
@@ -587,7 +587,7 @@
 		"description": [
 			"## Bloodroot",
 			"",
-			"**Sources** [Ultimate Equipment pg. 111](source:ultimate_equipment), [PRPG Core Rulebook pg. 558](source:prpg_core_rulebook)",
+			"**Sources** [Ultimate Equipment pg. 111](source/ultimate_equipment), [PRPG Core Rulebook pg. 558](source/prpg_core_rulebook)",
 			"",
 			"**Price** 100 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 12  ",
@@ -604,7 +604,7 @@
 		"description": [
 			"## Bloodwine",
 			"",
-			"**Sources** [Pathfinder #41: The Thousand Fangs Below pg. 42](source:pathfinder_#41_the_thousand_fangs_below)",
+			"**Sources** [Pathfinder #41: The Thousand Fangs Below pg. 42](source/pathfinder_#41_the_thousand_fangs_below)",
 			"",
 			"**Price** 100 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 25  ",
@@ -621,7 +621,7 @@
 		"description": [
 			"## Flayleaf spider venom",
 			"",
-			"**Sources** [Dark Markets - A Guide to Katapesh pg. 40](source:dark_markets_-_a_guide_to_katapesh)",
+			"**Sources** [Dark Markets - A Guide to Katapesh pg. 40](source/dark_markets_-_a_guide_to_katapesh)",
 			"",
 			"**Price** 100 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 11  ",
@@ -636,7 +636,7 @@
 		"description": [
 			"## Frightshade",
 			"",
-			"**Sources** [Antihero's Handbook pg. 29](source:antihero's_handbook)",
+			"**Sources** [Antihero's Handbook pg. 29](source/antihero's_handbook)",
 			"",
 			"**Price** 100 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 14  ",
@@ -653,7 +653,7 @@
 		"description": [
 			"## Frostspore",
 			"",
-			"**Sources** [Pathfinder #61: Shards of Sin pg. 64](source:pathfinder_#61_shards_of_sin)",
+			"**Sources** [Pathfinder #61: Shards of Sin pg. 64](source/pathfinder_#61_shards_of_sin)",
 			"",
 			"**Price** 100 gp; **Weight** &mdash;  ",
 			"**Type** ingested or injury; **Save** Fortitude DC 13  ",
@@ -673,7 +673,7 @@
 		"description": [
 			"## Greenblood Oil",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 559](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 559](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 100 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 13  ",
@@ -690,7 +690,7 @@
 		"description": [
 			"## Numbing poison",
 			"",
-			"**Sources** [Pathfinder #7: Edge of Anarchy pg. 89](source:pathfinder_#7_edge_of_anarchy)",
+			"**Sources** [Pathfinder #7: Edge of Anarchy pg. 89](source/pathfinder_#7_edge_of_anarchy)",
 			"",
 			"**Price** 100 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 13  ",
@@ -705,7 +705,7 @@
 		"description": [
 			"## Woundweal",
 			"",
-			"**Sources** [Adventurer's Armory pg. 19](source:adventurer's_armory)",
+			"**Sources** [Adventurer's Armory pg. 19](source/adventurer's_armory)",
 			"",
 			"**Price** 100 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 18  ",
@@ -727,7 +727,7 @@
 		"description": [
 			"## Arsenic",
 			"",
-			"**Sources** [Ultimate Equipment pg. 111](source:ultimate_equipment), [PRPG Core Rulebook pg. 558](source:prpg_core_rulebook)",
+			"**Sources** [Ultimate Equipment pg. 111](source/ultimate_equipment), [PRPG Core Rulebook pg. 558](source/prpg_core_rulebook)",
 			"",
 			"**Price** 120 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 13  ",
@@ -747,7 +747,7 @@
 		"description": [
 			"## Black Adder Venom",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 558](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 558](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 120 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 11  ",
@@ -767,7 +767,7 @@
 		"description": [
 			"## Blue Whinnis",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 558](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 558](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 120 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 14  ",
@@ -784,7 +784,7 @@
 		"description": [
 			"## Calotropis",
 			"",
-			"**Sources** [Guide to the River Kingdoms pg. 14](source:guide_to_the_river_kingdoms)",
+			"**Sources** [Guide to the River Kingdoms pg. 14](source/guide_to_the_river_kingdoms)",
 			"",
 			"**Price** 120 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 14  ",
@@ -801,7 +801,7 @@
 		"description": [
 			"## Liquid persuasion",
 			"",
-			"**Sources** [Alchemy Manual pg. 9](source:alchemy_manual)",
+			"**Sources** [Alchemy Manual pg. 9](source/alchemy_manual)",
 			"",
 			"**Price** 120 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 11  ",
@@ -823,7 +823,7 @@
 		"description": [
 			"## Goblinvine oil",
 			"",
-			"**Sources** [Heroes of the Wild pg. 20](source:heroes_of_the_wild)",
+			"**Sources** [Heroes of the Wild pg. 20](source/heroes_of_the_wild)",
 			"",
 			"**Price** 125 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 10  ",
@@ -845,7 +845,7 @@
 		"description": [
 			"## Id Moss",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 559](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 559](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 125 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 14  ",
@@ -862,7 +862,7 @@
 		"description": [
 			"## Draughtcap fungus",
 			"",
-			"**Sources** [Ultimate Wilderness pg. 144](source:ultimate_wilderness)",
+			"**Sources** [Ultimate Wilderness pg. 144](source/ultimate_wilderness)",
 			"",
 			"**Price** 150 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 16  ",
@@ -884,7 +884,7 @@
 		"description": [
 			"## Indigo dreams",
 			"",
-			"**Sources** [Ultimate Equipment pg. 111](source:ultimate_equipment), [Second Darkness Player's Guide pg. 21](source:second_darkness_player's_guide)",
+			"**Sources** [Ultimate Equipment pg. 111](source/ultimate_equipment), [Second Darkness Player's Guide pg. 21](source/second_darkness_player's_guide)",
 			"",
 			"**Price** 150 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 13  ",
@@ -901,7 +901,7 @@
 		"description": [
 			"## Marvelous fear gas",
 			"",
-			"**Sources** [Inner Sea Intrigue pg. 50](source:inner_sea_intrigue)",
+			"**Sources** [Inner Sea Intrigue pg. 50](source/inner_sea_intrigue)",
 			"",
 			"**Price** 150 gp; **Weight** 1/2 lb.  ",
 			"**Type** inhaled; **Save** Fortitude DC 17  ",
@@ -923,7 +923,7 @@
 		"description": [
 			"## Medium Spider Venom",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 560](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 560](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 150 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 14  ",
@@ -940,7 +940,7 @@
 		"description": [
 			"## Rainbow scarab shell",
 			"",
-			"**Sources** [Adventurer's Armory 2 pg. 18](source:adventurer's_armory_2)",
+			"**Sources** [Adventurer's Armory 2 pg. 18](source/adventurer's_armory_2)",
 			"",
 			"**Price** 150 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 14  ",
@@ -959,7 +959,7 @@
 		"description": [
 			"## Alchemical isolation",
 			"",
-			"**Sources** [Alchemy Manual pg. 9](source:alchemy_manual)",
+			"**Sources** [Alchemy Manual pg. 9](source/alchemy_manual)",
 			"",
 			"**Price** 175 gp; **Weight** 1 lb.  ",
 			"**Type** inhaled; **Save** Fortitude DC 13  ",
@@ -981,7 +981,7 @@
 		"description": [
 			"## Insecticide",
 			"",
-			"**Sources** [Potions and Poisons pg. 24](source:potions_and_poisons)",
+			"**Sources** [Potions and Poisons pg. 24](source/potions_and_poisons)",
 			"",
 			"**Price** 175 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 10 (see text)  ",
@@ -1003,7 +1003,7 @@
 		"description": [
 			"## Striped Toadstool",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 560](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 560](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 180 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 11  ",
@@ -1020,7 +1020,7 @@
 		"description": [
 			"## Black whinnis",
 			"",
-			"**Sources** [Pathfinder #105: The Inferno Gate pg. 18](source:pathfinder_#105_the_inferno_gate)",
+			"**Sources** [Pathfinder #105: The Inferno Gate pg. 18](source/pathfinder_#105_the_inferno_gate)",
 			"",
 			"**Price** 200 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 14  ",
@@ -1039,7 +1039,7 @@
 		"description": [
 			"## Chelish deathapple",
 			"",
-			"**Sources** [Inner Sea Intrigue pg. 50](source:inner_sea_intrigue)",
+			"**Sources** [Inner Sea Intrigue pg. 50](source/inner_sea_intrigue)",
 			"",
 			"**Price** 200 gp; **Weight** 1/2 lb.  ",
 			"**Type** ingested; **Save** Fortitude DC 23  ",
@@ -1058,7 +1058,7 @@
 		"description": [
 			"## Hazemind concentrate",
 			"",
-			"**Sources** [Familiar Folio pg. 20](source:familiar_folio)",
+			"**Sources** [Familiar Folio pg. 20](source/familiar_folio)",
 			"",
 			"**Price** 200 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 16  ",
@@ -1083,7 +1083,7 @@
 		"description": [
 			"## Large Scorpion Venom",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 560](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 560](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 200 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 17  ",
@@ -1100,7 +1100,7 @@
 		"description": [
 			"## Purple pesh",
 			"",
-			"**Sources** [Dark Markets - A Guide to Katapesh pg. 40](source:dark_markets_-_a_guide_to_katapesh)",
+			"**Sources** [Dark Markets - A Guide to Katapesh pg. 40](source/dark_markets_-_a_guide_to_katapesh)",
 			"",
 			"**Price** 200 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 18  ",
@@ -1115,7 +1115,7 @@
 		"description": [
 			"## Spellscorch",
 			"",
-			"**Sources** [Advanced Race Guide pg. 1](source:advanced_race_guide)",
+			"**Sources** [Advanced Race Guide pg. 1](source/advanced_race_guide)",
 			"",
 			"**Price** 200 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 14  ",
@@ -1135,7 +1135,7 @@
 		"description": [
 			"## Giant Wasp Poison",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 559](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 559](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 210 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 18  ",
@@ -1152,7 +1152,7 @@
 		"description": [
 			"## Hazemind mist",
 			"",
-			"**Sources** [Familiar Folio pg. 20](source:familiar_folio)",
+			"**Sources** [Familiar Folio pg. 20](source/familiar_folio)",
 			"",
 			"**Price** 225 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 13  ",
@@ -1174,7 +1174,7 @@
 		"description": [
 			"## Diplopic serum",
 			"",
-			"**Sources** [Potions and Poisons pg. 24](source:potions_and_poisons)",
+			"**Sources** [Potions and Poisons pg. 24](source/potions_and_poisons)",
 			"",
 			"**Price** 250 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 15  ",
@@ -1196,7 +1196,7 @@
 		"description": [
 			"## Malyass Root Paste",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 560](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 560](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 250 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 16  ",
@@ -1213,7 +1213,7 @@
 		"description": [
 			"## Nymph's lure",
 			"",
-			"**Sources** [Ultimate Wilderness pg. 144](source:ultimate_wilderness)",
+			"**Sources** [Ultimate Wilderness pg. 144](source/ultimate_wilderness)",
 			"",
 			"**Price** 250 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 15  ",
@@ -1235,7 +1235,7 @@
 		"description": [
 			"## Shadow Essence",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 560](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 560](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 250 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 17  ",
@@ -1252,7 +1252,7 @@
 		"description": [
 			"## Blackfinger's salt",
 			"",
-			"**Sources** [Potions and Poisons pg. 24](source:potions_and_poisons)",
+			"**Sources** [Potions and Poisons pg. 24](source/potions_and_poisons)",
 			"",
 			"**Price** 300 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 17  ",
@@ -1274,7 +1274,7 @@
 		"description": [
 			"## Sassone Leaf Residue",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 560](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 560](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 300 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 16  ",
@@ -1291,7 +1291,7 @@
 		"description": [
 			"## Sloth's bite",
 			"",
-			"**Sources** [Antihero's Handbook pg. 29](source:antihero's_handbook)",
+			"**Sources** [Antihero's Handbook pg. 29](source/antihero's_handbook)",
 			"",
 			"**Price** 300 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 18  ",
@@ -1308,7 +1308,7 @@
 		"description": [
 			"## Starving nettle",
 			"",
-			"**Sources** [Ultimate Wilderness pg. 145](source:ultimate_wilderness)",
+			"**Sources** [Ultimate Wilderness pg. 145](source/ultimate_wilderness)",
 			"",
 			"**Price** 300 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 15  ",
@@ -1327,7 +1327,7 @@
 		"description": [
 			"## Count Ambras's punishment",
 			"",
-			"**Sources** [Alchemy Manual pg. 9](source:alchemy_manual)",
+			"**Sources** [Alchemy Manual pg. 9](source/alchemy_manual)",
 			"",
 			"**Price** 350 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 16  ",
@@ -1349,7 +1349,7 @@
 		"description": [
 			"## Ossivane",
 			"",
-			"**Sources** [Potions and Poisons pg. 25](source:potions_and_poisons)",
+			"**Sources** [Potions and Poisons pg. 25](source/potions_and_poisons)",
 			"",
 			"**Price** 350 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 18  ",
@@ -1368,7 +1368,7 @@
 		"description": [
 			"## Slaver's will",
 			"",
-			"**Sources** [Heroes of the Darklands pg. 31](source:heroes_of_the_darklands)",
+			"**Sources** [Heroes of the Darklands pg. 31](source/heroes_of_the_darklands)",
 			"",
 			"**Price** 350 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 14  ",
@@ -1387,7 +1387,7 @@
 		"description": [
 			"## Blackfinder's silence",
 			"",
-			"**Sources** [Inner Sea Intrigue pg. 50](source:inner_sea_intrigue)",
+			"**Sources** [Inner Sea Intrigue pg. 50](source/inner_sea_intrigue)",
 			"",
 			"**Price** 400 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 14  ",
@@ -1406,7 +1406,7 @@
 		"description": [
 			"## Bloodbrain Venom",
 			"",
-			"**Sources** [Pathfinder #118: Siege of Stone pg. 16](source:pathfinder_#118_siege_of_stone)",
+			"**Sources** [Pathfinder #118: Siege of Stone pg. 16](source/pathfinder_#118_siege_of_stone)",
 			"",
 			"**Price** 400 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 17  ",
@@ -1427,7 +1427,7 @@
 		"description": [
 			"## Brinestump special",
 			"",
-			"**Sources** [Heroes of the Wild pg. 20](source:heroes_of_the_wild)",
+			"**Sources** [Heroes of the Wild pg. 20](source/heroes_of_the_wild)",
 			"",
 			"**Price** 400 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 15  ",
@@ -1446,7 +1446,7 @@
 		"description": [
 			"## Cloudthorn venom",
 			"",
-			"**Sources** [Ultimate Wilderness pg. 144](source:ultimate_wilderness)",
+			"**Sources** [Ultimate Wilderness pg. 144](source/ultimate_wilderness)",
 			"",
 			"**Price** 400 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 14  ",
@@ -1465,7 +1465,7 @@
 		"description": [
 			"## Gray justice",
 			"",
-			"**Sources** [Agents of Evil pg. 22](source:agents_of_evil)",
+			"**Sources** [Agents of Evil pg. 22](source/agents_of_evil)",
 			"",
 			"**Price** 400 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 18  ",
@@ -1487,7 +1487,7 @@
 		"description": [
 			"## Lich Dust",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 560](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 560](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 400 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 17  ",
@@ -1504,7 +1504,7 @@
 		"description": [
 			"## Peasant's woe",
 			"",
-			"**Sources** [Champions of Corruption pg. 27](source:champions_of_corruption)",
+			"**Sources** [Champions of Corruption pg. 27](source/champions_of_corruption)",
 			"",
 			"**Price** 400 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 15  ",
@@ -1521,7 +1521,7 @@
 		"description": [
 			"## Rainbow jellyfish toxin",
 			"",
-			"**Sources** [Rival Guide pg. 53](source:rival_guide)",
+			"**Sources** [Rival Guide pg. 53](source/rival_guide)",
 			"",
 			"**Price** 400 gp; **Weight** &mdash;  ",
 			"**Type** contact, injury; **Save** Fortitude DC 14  ",
@@ -1541,7 +1541,7 @@
 		"description": [
 			"## Swampseer poison",
 			"",
-			"**Sources** [Ultimate Equipment pg. 111](source:ultimate_equipment), [Pathfinder #34: Blood for Blood pg. 63](source:pathfinder_#34_blood_for_blood)",
+			"**Sources** [Ultimate Equipment pg. 111](source/ultimate_equipment), [Pathfinder #34: Blood for Blood pg. 63](source/pathfinder_#34_blood_for_blood)",
 			"",
 			"**Price** 400 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 18  ",
@@ -1561,7 +1561,7 @@
 		"description": [
 			"## Terinav Root",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 560](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 560](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 400 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 16  ",
@@ -1578,7 +1578,7 @@
 		"description": [
 			"## Blue star",
 			"",
-			"**Sources** [Ultimate Wilderness pg. 143](source:ultimate_wilderness)",
+			"**Sources** [Ultimate Wilderness pg. 143](source/ultimate_wilderness)",
 			"",
 			"**Price** 500 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 15  ",
@@ -1597,7 +1597,7 @@
 		"description": [
 			"## Calistria's revenge",
 			"",
-			"**Sources** [Inner Sea Intrigue pg. 50](source:inner_sea_intrigue)",
+			"**Sources** [Inner Sea Intrigue pg. 50](source/inner_sea_intrigue)",
 			"",
 			"**Price** 500 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 16  ",
@@ -1616,7 +1616,7 @@
 		"description": [
 			"## Fiddleback venom",
 			"",
-			"**Sources** [Rival Guide pg. 53](source:rival_guide)",
+			"**Sources** [Rival Guide pg. 53](source/rival_guide)",
 			"",
 			"**Price** 500 gp; **Weight** &mdash;  ",
 			"**Type** injury, ingested; **Save** Fortitude DC 13  ",
@@ -1633,7 +1633,7 @@
 		"description": [
 			"## Halo mushroom toxin",
 			"",
-			"**Sources** [Adventurer's Armory 2 pg. 18](source:adventurer's_armory_2)",
+			"**Sources** [Adventurer's Armory 2 pg. 18](source/adventurer's_armory_2)",
 			"",
 			"**Price** 500 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 18  ",
@@ -1652,7 +1652,7 @@
 		"description": [
 			"## Laughing gas",
 			"",
-			"**Sources** [Dirty Tactics Toolbox pg. 9](source:dirty_tactics_toolbox)",
+			"**Sources** [Dirty Tactics Toolbox pg. 9](source/dirty_tactics_toolbox)",
 			"",
 			"**Price** 500 gp; **Weight** 1/2 lb.  ",
 			"**Type** inhaled; **Save** Fortitude DC 12  ",
@@ -1669,7 +1669,7 @@
 		"description": [
 			"## Mage bane",
 			"",
-			"**Sources** [Dark Markets - A Guide to Katapesh pg. 40](source:dark_markets_-_a_guide_to_katapesh)",
+			"**Sources** [Dark Markets - A Guide to Katapesh pg. 40](source/dark_markets_-_a_guide_to_katapesh)",
 			"",
 			"**Price** 500 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 20  ",
@@ -1684,7 +1684,7 @@
 		"description": [
 			"## Riddleport tea",
 			"",
-			"**Sources** [Second Darkness Player's Guide pg. 21](source:second_darkness_player's_guide)",
+			"**Sources** [Second Darkness Player's Guide pg. 21](source/second_darkness_player's_guide)",
 			"",
 			"**Price** 500 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 15  ",
@@ -1702,7 +1702,7 @@
 		"description": [
 			"## Wolfsbane",
 			"",
-			"**Sources** [Ultimate Equipment pg. 111](source:ultimate_equipment), [PRPG Core Rulebook pg. 560](source:prpg_core_rulebook)",
+			"**Sources** [Ultimate Equipment pg. 111](source/ultimate_equipment), [PRPG Core Rulebook pg. 560](source/prpg_core_rulebook)",
 			"",
 			"**Price** 500 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 16  ",
@@ -1719,7 +1719,7 @@
 		"description": [
 			"## Crone's curse",
 			"",
-			"**Sources** [Ultimate Wilderness pg. 144](source:ultimate_wilderness)",
+			"**Sources** [Ultimate Wilderness pg. 144](source/ultimate_wilderness)",
 			"",
 			"**Price** 600 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 16  ",
@@ -1741,7 +1741,7 @@
 		"description": [
 			"## Jackalroot essence",
 			"",
-			"**Sources** [Ultimate Wilderness pg. 144](source:ultimate_wilderness), [Heroes of the Wild pg. 20](source:heroes_of_the_wild)",
+			"**Sources** [Ultimate Wilderness pg. 144](source/ultimate_wilderness), [Heroes of the Wild pg. 20](source/heroes_of_the_wild)",
 			"",
 			"**Price** 600 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 18  ",
@@ -1760,7 +1760,7 @@
 		"description": [
 			"## Smell of fear",
 			"",
-			"**Sources** [Alchemy Manual pg. 7](source:alchemy_manual)",
+			"**Sources** [Alchemy Manual pg. 7](source/alchemy_manual)",
 			"",
 			"**Price** 600 gp; **Weight** 1/2 lb.  ",
 			"**Type** inhaled; **Save** Fortitude DC 17  ",
@@ -1782,7 +1782,7 @@
 		"description": [
 			"## Tears of perfection",
 			"",
-			"**Sources** [Faction Guide pg. 55](source:faction_guide)",
+			"**Sources** [Faction Guide pg. 55](source/faction_guide)",
 			"",
 			"**Price** 600 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 18  ",
@@ -1799,7 +1799,7 @@
 		"description": [
 			"## Tongue twist",
 			"",
-			"**Sources** [Potions and Poisons pg. 25](source:potions_and_poisons)",
+			"**Sources** [Potions and Poisons pg. 25](source/potions_and_poisons)",
 			"",
 			"**Price** 600 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 16  ",
@@ -1821,7 +1821,7 @@
 		"description": [
 			"## Nitharit",
 			"",
-			"**Sources** [Ultimate Equipment pg. 111](source:ultimate_equipment), [PRPG Core Rulebook pg. 560](source:prpg_core_rulebook)",
+			"**Sources** [Ultimate Equipment pg. 111](source/ultimate_equipment), [PRPG Core Rulebook pg. 560](source/prpg_core_rulebook)",
 			"",
 			"**Price** 650 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 13  ",
@@ -1838,7 +1838,7 @@
 		"description": [
 			"## Witch-hunter's sword",
 			"",
-			"**Sources** [Ultimate Wilderness pg. 145](source:ultimate_wilderness)",
+			"**Sources** [Ultimate Wilderness pg. 145](source/ultimate_wilderness)",
 			"",
 			"**Price** 650 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 19  ",
@@ -1860,7 +1860,7 @@
 		"description": [
 			"## Purple Worm Poison",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 560](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 560](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 700 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 24  ",
@@ -1877,7 +1877,7 @@
 		"description": [
 			"## Juvebloom",
 			"",
-			"**Sources** [Potions and Poisons pg. 25](source:potions_and_poisons)",
+			"**Sources** [Potions and Poisons pg. 25](source/potions_and_poisons)",
 			"",
 			"**Price** 750 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 16  ",
@@ -1896,7 +1896,7 @@
 		"description": [
 			"## Liquid leprosy",
 			"",
-			"**Sources** [Antihero's Handbook pg. 29](source:antihero's_handbook)",
+			"**Sources** [Antihero's Handbook pg. 29](source/antihero's_handbook)",
 			"",
 			"**Price** 750 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 20  ",
@@ -1921,7 +1921,7 @@
 		"description": [
 			"## Muddling heresy",
 			"",
-			"**Sources** [Pathfinder #107: Scourge of the Godclaw pg. 73](source:pathfinder_#107_scourge_of_the_godclaw)",
+			"**Sources** [Pathfinder #107: Scourge of the Godclaw pg. 73](source/pathfinder_#107_scourge_of_the_godclaw)",
 			"",
 			"**Price** 750 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 20  ",
@@ -1940,7 +1940,7 @@
 		"description": [
 			"## Twilight illness",
 			"",
-			"**Sources** [Inner Sea Intrigue pg. 50](source:inner_sea_intrigue)",
+			"**Sources** [Inner Sea Intrigue pg. 50](source/inner_sea_intrigue)",
 			"",
 			"**Price** 750 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 19  ",
@@ -1959,7 +1959,7 @@
 		"description": [
 			"## Vessel between",
 			"",
-			"**Sources** [Inner Sea Intrigue pg. 50](source:inner_sea_intrigue)",
+			"**Sources** [Inner Sea Intrigue pg. 50](source/inner_sea_intrigue)",
 			"",
 			"**Price** 750 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 20  ",
@@ -1978,7 +1978,7 @@
 		"description": [
 			"## Black spider marsh poison",
 			"",
-			"**Sources** [Advanced Race Guide pg. 1](source:advanced_race_guide)",
+			"**Sources** [Advanced Race Guide pg. 1](source/advanced_race_guide)",
 			"",
 			"**Price** 800 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 14  ",
@@ -1995,7 +1995,7 @@
 		"description": [
 			"## Brain blot",
 			"",
-			"**Sources** [Champions of Corruption pg. 27](source:champions_of_corruption)",
+			"**Sources** [Champions of Corruption pg. 27](source/champions_of_corruption)",
 			"",
 			"**Price** 800 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 13  ",
@@ -2017,7 +2017,7 @@
 		"description": [
 			"## Cytillesh extract",
 			"",
-			"**Sources** [Alchemy Manual pg. 11](source:alchemy_manual), [Classic Horrors Revisited pg. 8](source:classic_horrors_revisited), [Pathfinder #61: Shards of Sin pg. 64](source:pathfinder_#61_shards_of_sin), [No Response from Deepmar pg. 21](source:no_response_from_deepmar)",
+			"**Sources** [Alchemy Manual pg. 11](source/alchemy_manual), [Classic Horrors Revisited pg. 8](source/classic_horrors_revisited), [Pathfinder #61: Shards of Sin pg. 64](source/pathfinder_#61_shards_of_sin), [No Response from Deepmar pg. 21](source/no_response_from_deepmar)",
 			"",
 			"**Price** 800 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 18  ",
@@ -2042,7 +2042,7 @@
 		"description": [
 			"## Dark Reaver Powder",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 558](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 558](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 800 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 18  ",
@@ -2062,7 +2062,7 @@
 		"description": [
 			"## Violet venom",
 			"",
-			"**Sources** [Ultimate Wilderness pg. 145](source:ultimate_wilderness), [Heroes of the Wild pg. 20](source:heroes_of_the_wild)",
+			"**Sources** [Ultimate Wilderness pg. 145](source/ultimate_wilderness), [Heroes of the Wild pg. 20](source/heroes_of_the_wild)",
 			"",
 			"**Price** 800 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 13  ",
@@ -2081,7 +2081,7 @@
 		"description": [
 			"## Flaming doom",
 			"",
-			"**Sources** [Alchemy Manual pg. 7](source:alchemy_manual)",
+			"**Sources** [Alchemy Manual pg. 7](source/alchemy_manual)",
 			"",
 			"**Price** 900 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 18  ",
@@ -2103,7 +2103,7 @@
 		"description": [
 			"## Fury gas",
 			"",
-			"**Sources** [Alchemy Manual pg. 7](source:alchemy_manual)",
+			"**Sources** [Alchemy Manual pg. 7](source/alchemy_manual)",
 			"",
 			"**Price** 900 gp; **Weight** 1/2 lb.  ",
 			"**Type** inhaled; **Save** Fortitude DC 16  ",
@@ -2125,7 +2125,7 @@
 		"description": [
 			"## Nights-eye dust",
 			"",
-			"**Sources** [Adventurer's Armory 2 pg. 18](source:adventurer's_armory_2)",
+			"**Sources** [Adventurer's Armory 2 pg. 18](source/adventurer's_armory_2)",
 			"",
 			"**Price** 900 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 13  ",
@@ -2144,7 +2144,7 @@
 		"description": [
 			"## Sweetdream",
 			"",
-			"**Sources** [Adventurer's Armory 2 pg. 18](source:adventurer's_armory_2)",
+			"**Sources** [Adventurer's Armory 2 pg. 18](source/adventurer's_armory_2)",
 			"",
 			"**Price** 900 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 19  ",
@@ -2165,7 +2165,7 @@
 		"description": [
 			"## Third eye",
 			"",
-			"**Sources** [Ultimate Wilderness pg. 145](source:ultimate_wilderness)",
+			"**Sources** [Ultimate Wilderness pg. 145](source/ultimate_wilderness)",
 			"",
 			"**Price** 900 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 17  ",
@@ -2184,7 +2184,7 @@
 		"description": [
 			"## Bloodpyre",
 			"",
-			"**Sources** [Agents of Evil pg. 22](source:agents_of_evil)",
+			"**Sources** [Agents of Evil pg. 22](source/agents_of_evil)",
 			"",
 			"**Price** 1,000 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 14  ",
@@ -2203,7 +2203,7 @@
 		"description": [
 			"## Cockatrice spit",
 			"",
-			"**Sources** [Rival Guide pg. 53](source:rival_guide)",
+			"**Sources** [Rival Guide pg. 53](source/rival_guide)",
 			"",
 			"**Price** 1,000 gp; **Weight** &mdash;  ",
 			"**Type** contact, injury, ingested; **Save** Fortitude DC 12  ",
@@ -2220,7 +2220,7 @@
 		"description": [
 			"## Ragespittle",
 			"",
-			"**Sources** [Agents of Evil pg. 22](source:agents_of_evil)",
+			"**Sources** [Agents of Evil pg. 22](source/agents_of_evil)",
 			"",
 			"**Price** 1,000 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 17  ",
@@ -2239,7 +2239,7 @@
 		"description": [
 			"## Blistercap spore poison",
 			"",
-			"**Sources** [Ultimate Wilderness pg. 143](source:ultimate_wilderness)",
+			"**Sources** [Ultimate Wilderness pg. 143](source/ultimate_wilderness)",
 			"",
 			"**Price** 1,125 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 20  ",
@@ -2258,7 +2258,7 @@
 		"description": [
 			"## Lungsap powder",
 			"",
-			"**Sources** [Antihero's Handbook pg. 29](source:antihero's_handbook)",
+			"**Sources** [Antihero's Handbook pg. 29](source/antihero's_handbook)",
 			"",
 			"**Price** 1,200 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 16  ",
@@ -2275,7 +2275,7 @@
 		"description": [
 			"## Lungtaker",
 			"",
-			"**Sources** [Magnimar, City of Monuments pg. 45](source:magnimar,_city_of_monuments)",
+			"**Sources** [Magnimar, City of Monuments pg. 45](source/magnimar,_city_of_monuments)",
 			"",
 			"**Price** 1,200 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 17  ",
@@ -2295,7 +2295,7 @@
 		"description": [
 			"## Red bedlam",
 			"",
-			"**Sources** [Ultimate Wilderness pg. 145](source:ultimate_wilderness), [Heroes of the Wild pg. 20](source:heroes_of_the_wild)",
+			"**Sources** [Ultimate Wilderness pg. 145](source/ultimate_wilderness), [Heroes of the Wild pg. 20](source/heroes_of_the_wild)",
 			"",
 			"**Price** 1,200 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 15  ",
@@ -2314,7 +2314,7 @@
 		"description": [
 			"## Skinsap extract",
 			"",
-			"**Sources** [Adventurer's Armory 2 pg. 18](source:adventurer's_armory_2)",
+			"**Sources** [Adventurer's Armory 2 pg. 18](source/adventurer's_armory_2)",
 			"",
 			"**Price** 1,400 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 16  ",
@@ -2333,7 +2333,7 @@
 		"description": [
 			"## Azure lily pollen",
 			"",
-			"**Sources** [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 1,500 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 15  ",
@@ -2353,7 +2353,7 @@
 		"description": [
 			"## Breath of the mantis god",
 			"",
-			"**Sources** [Adventurer's Guide pg. 158](source:adventurer's_guide), [Inner Sea Intrigue pg. 50](source:inner_sea_intrigue)",
+			"**Sources** [Adventurer's Guide pg. 158](source/adventurer's_guide), [Inner Sea Intrigue pg. 50](source/inner_sea_intrigue)",
 			"",
 			"**Price** 1,500 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 21  ",
@@ -2374,7 +2374,7 @@
 		"description": [
 			"## Demon nettle sap",
 			"",
-			"**Sources** [The Moonscar pg. 7](source:the_moonscar)",
+			"**Sources** [The Moonscar pg. 7](source/the_moonscar)",
 			"",
 			"**Price** 1,500 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 21  ",
@@ -2393,7 +2393,7 @@
 		"description": [
 			"## Dragon Bile",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 558](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 558](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 1,500 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 26  ",
@@ -2409,7 +2409,7 @@
 		"description": [
 			"## Hag spit",
 			"",
-			"**Sources** [Rival Guide pg. 53](source:rival_guide)",
+			"**Sources** [Rival Guide pg. 53](source/rival_guide)",
 			"",
 			"**Price** 1,500 gp; **Weight** &mdash;  ",
 			"**Type** injury, ingested; **Save** Fortitude DC 16  ",
@@ -2429,7 +2429,7 @@
 		"description": [
 			"## Insanity Mist",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 560](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 560](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 1,500 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 15  ",
@@ -2446,7 +2446,7 @@
 		"description": [
 			"## Insanity pill",
 			"",
-			"**Sources** [Dark Markets - A Guide to Katapesh pg. 40](source:dark_markets_-_a_guide_to_katapesh)",
+			"**Sources** [Dark Markets - A Guide to Katapesh pg. 40](source/dark_markets_-_a_guide_to_katapesh)",
 			"",
 			"**Price** 1,500 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 14  ",
@@ -2461,7 +2461,7 @@
 		"description": [
 			"## Leng's tears",
 			"",
-			"**Sources** [Adventurer's Armory 2 pg. 18](source:adventurer's_armory_2)",
+			"**Sources** [Adventurer's Armory 2 pg. 18](source/adventurer's_armory_2)",
 			"",
 			"**Price** 1,500 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 18  ",
@@ -2480,7 +2480,7 @@
 		"description": [
 			"## Nerveblast",
 			"",
-			"**Sources** [Potions and Poisons pg. 25](source:potions_and_poisons)",
+			"**Sources** [Potions and Poisons pg. 25](source/potions_and_poisons)",
 			"",
 			"**Price** 1,500 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 19  ",
@@ -2499,7 +2499,7 @@
 		"description": [
 			"## Scholarblight",
 			"",
-			"**Sources** [Agents of Evil pg. 22](source:agents_of_evil)",
+			"**Sources** [Agents of Evil pg. 22](source/agents_of_evil)",
 			"",
 			"**Price** 1,500 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 15  ",
@@ -2518,7 +2518,7 @@
 		"description": [
 			"## Mindrust",
 			"",
-			"**Sources** [Path of the Hellknight pg. 45](source:path_of_the_hellknight)",
+			"**Sources** [Path of the Hellknight pg. 45](source/path_of_the_hellknight)",
 			"",
 			"**Price** 1,600 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 20  ",
@@ -2539,7 +2539,7 @@
 		"description": [
 			"## Aconite root",
 			"",
-			"**Sources** [Guide to the River Kingdoms pg. 14](source:guide_to_the_river_kingdoms)",
+			"**Sources** [Guide to the River Kingdoms pg. 14](source/guide_to_the_river_kingdoms)",
 			"",
 			"**Price** 1,800 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 25  ",
@@ -2559,7 +2559,7 @@
 		"description": [
 			"## Deathblade",
 			"",
-			"**Sources** [Ultimate Equipment pg. 111](source:ultimate_equipment), [PRPG Core Rulebook pg. 558](source:prpg_core_rulebook)",
+			"**Sources** [Ultimate Equipment pg. 111](source/ultimate_equipment), [PRPG Core Rulebook pg. 558](source/prpg_core_rulebook)",
 			"",
 			"**Price** 1,800 gp; **Weight** &mdash;  ",
 			"**Type** injury; **Save** Fortitude DC 20  ",
@@ -2579,7 +2579,7 @@
 		"description": [
 			"## Nightmare Vapor",
 			"",
-			"**Sources** [PRPG Core Rulebook pg. 560](source:prpg_core_rulebook), [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [PRPG Core Rulebook pg. 560](source/prpg_core_rulebook), [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 1,800 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 20  ",
@@ -2596,7 +2596,7 @@
 		"description": [
 			"## Burnt othur fumes",
 			"",
-			"**Sources** [Ultimate Equipment pg. 111](source:ultimate_equipment)",
+			"**Sources** [Ultimate Equipment pg. 111](source/ultimate_equipment)",
 			"",
 			"**Price** 2,100 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 18  ",
@@ -2613,7 +2613,7 @@
 		"description": [
 			"## Grinding joint paste",
 			"",
-			"**Sources** [Adventurer's Armory 2 pg. 18](source:adventurer's_armory_2)",
+			"**Sources** [Adventurer's Armory 2 pg. 18](source/adventurer's_armory_2)",
 			"",
 			"**Price** 2,100 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 16  ",
@@ -2632,7 +2632,7 @@
 		"description": [
 			"## Dream crystal toxin",
 			"",
-			"**Sources** [Doom Comes to Dustpawn pg. 18](source:doom_comes_to_dustpawn)",
+			"**Sources** [Doom Comes to Dustpawn pg. 18](source/doom_comes_to_dustpawn)",
 			"",
 			"**Price** 2,500 gp; **Weight** &mdash;  ",
 			"**Type** ingested or injury; **Save** Willpower DC 20  ",
@@ -2651,7 +2651,7 @@
 		"description": [
 			"## Dreaming death",
 			"",
-			"**Sources** [Agents of Evil pg. 22](source:agents_of_evil)",
+			"**Sources** [Agents of Evil pg. 22](source/agents_of_evil)",
 			"",
 			"**Price** 2,500 gp; **Weight** &mdash;  ",
 			"**Type** inhaled; **Save** Fortitude DC 16  ",
@@ -2672,7 +2672,7 @@
 		"description": [
 			"## Everwake serum",
 			"",
-			"**Sources** [Champions of Corruption pg. 27](source:champions_of_corruption)",
+			"**Sources** [Champions of Corruption pg. 27](source/champions_of_corruption)",
 			"",
 			"**Price** 2,500 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 16  ",
@@ -2692,7 +2692,7 @@
 		"description": [
 			"## Hemlock",
 			"",
-			"**Sources** [Ultimate Equipment pg. 111](source:ultimate_equipment), [PRPG Core Rulebook pg. 559](source:prpg_core_rulebook)",
+			"**Sources** [Ultimate Equipment pg. 111](source/ultimate_equipment), [PRPG Core Rulebook pg. 559](source/prpg_core_rulebook)",
 			"",
 			"**Price** 2,500 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 18  ",
@@ -2709,7 +2709,7 @@
 		"description": [
 			"## Hydrofluoric acid",
 			"",
-			"**Sources** [Potions and Poisons pg. 24](source:potions_and_poisons)",
+			"**Sources** [Potions and Poisons pg. 24](source/potions_and_poisons)",
 			"",
 			"**Price** 2,500 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 20  ",
@@ -2728,7 +2728,7 @@
 		"description": [
 			"## Snap will",
 			"",
-			"**Sources** [Dirty Tactics Toolbox pg. 9](source:dirty_tactics_toolbox)",
+			"**Sources** [Dirty Tactics Toolbox pg. 9](source/dirty_tactics_toolbox)",
 			"",
 			"**Price** 2,500 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 18  ",
@@ -2745,7 +2745,7 @@
 		"description": [
 			"## Styx sap",
 			"",
-			"**Sources** [Ultimate Wilderness pg. 145](source:ultimate_wilderness)",
+			"**Sources** [Ultimate Wilderness pg. 145](source/ultimate_wilderness)",
 			"",
 			"**Price** 2,600 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 18  ",
@@ -2764,7 +2764,7 @@
 		"description": [
 			"## Cyanide",
 			"",
-			"**Sources** [Heroes of the Darklands pg. 31](source:heroes_of_the_darklands)",
+			"**Sources** [Heroes of the Darklands pg. 31](source/heroes_of_the_darklands)",
 			"",
 			"**Price** 4,000 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 20  ",
@@ -2783,7 +2783,7 @@
 		"description": [
 			"## Leopard's bane",
 			"",
-			"**Sources** [Antihero's Handbook pg. 29](source:antihero's_handbook)",
+			"**Sources** [Antihero's Handbook pg. 29](source/antihero's_handbook)",
 			"",
 			"**Price** 4,500 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 20  ",
@@ -2800,7 +2800,7 @@
 		"description": [
 			"## Whisperwound",
 			"",
-			"**Sources** [Dirty Tactics Toolbox pg. 9](source:dirty_tactics_toolbox)",
+			"**Sources** [Dirty Tactics Toolbox pg. 9](source/dirty_tactics_toolbox)",
 			"",
 			"**Price** 5,000 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 20  ",
@@ -2817,7 +2817,7 @@
 		"description": [
 			"## Shamweed",
 			"",
-			"**Sources** [Guide to the River Kingdoms pg. 14](source:guide_to_the_river_kingdoms)",
+			"**Sources** [Guide to the River Kingdoms pg. 14](source/guide_to_the_river_kingdoms)",
 			"",
 			"**Price** 6,500 gp; **Weight** &mdash;  ",
 			"**Type** contact; **Save** Fortitude DC 18  ",
@@ -2834,7 +2834,7 @@
 		"description": [
 			"## Widow's kiss",
 			"",
-			"**Sources** [Agents of Evil pg. 22](source:agents_of_evil)",
+			"**Sources** [Agents of Evil pg. 22](source/agents_of_evil)",
 			"",
 			"**Price** 7,000 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 24  ",
@@ -2855,7 +2855,7 @@
 		"description": [
 			"## Kiss of barbatos",
 			"",
-			"**Sources** [Magnimar, City of Monuments pg. 45](source:magnimar,_city_of_monuments)",
+			"**Sources** [Magnimar, City of Monuments pg. 45](source/magnimar,_city_of_monuments)",
 			"",
 			"**Price** 7,500 gp; **Weight** &mdash;  ",
 			"**Type** contact, ingested; **Save** Fortitude DC 23  ",
@@ -2872,7 +2872,7 @@
 		"description": [
 			"## Fool's Leprosy",
 			"",
-			"**Sources** [Curse of the Crimson Throne pg. 432](source:curse_of_the_crimson_throne)",
+			"**Sources** [Curse of the Crimson Throne pg. 432](source/curse_of_the_crimson_throne)",
 			"",
 			"**Price** 10,000 gp; **Weight** &mdash;  ",
 			"**Type** ingested; **Save** Fortitude DC 20  ",
@@ -2880,7 +2880,7 @@
 			"**Effect** 1d2 Cha damage and 1d2 Con drain  ",
 			"**Cure** 3 consecutive saves",
 			"",
-			"This cunning supernatural venom was originally engineered by Red Mantis alchemists. Fool's leprosy is a slow-acting but ultimately fatal ingested toxin that, once it takes hold in its victim's system, closely mimics the effects of a fast-moving form of [leprosy](disease:leprosy). An attempt to divine its nature via [detect poison](spell:detect_poison) fails unless the caster succeeds at a DC 25 caster level check, and use of a spell like [diagnose disease](spell:diagnose_disease) always misidentifies the venom as a disease unless the caster succeeds at a DC 25 caster level check. In either event, the GM should roll for these caster level checks in secret. [Neutralize poison](spell:neutralize_poison) and [slow poison](spell:slow_poison) function normally on a person suffering from fool's leprosy, but spells like [remove disease](spell:remove_disease) do not, as the condition is a poison effect, not a disease effect. [Heal](spell:heal) can cure the effects of fool's leprosy but does nothing to educate the caster about the nature of the effect it removes. As long as the truth about fool's leprosy remains hidden, a successful DC 35 Heal check is required to recognize that someone suffering from its effects is affected by poison, not a disease."
+			"This cunning supernatural venom was originally engineered by Red Mantis alchemists. Fool's leprosy is a slow-acting but ultimately fatal ingested toxin that, once it takes hold in its victim's system, closely mimics the effects of a fast-moving form of [leprosy](disease/leprosy). An attempt to divine its nature via [detect poison](spell/detect_poison) fails unless the caster succeeds at a DC 25 caster level check, and use of a spell like [diagnose disease](spell/diagnose_disease) always misidentifies the venom as a disease unless the caster succeeds at a DC 25 caster level check. In either event, the GM should roll for these caster level checks in secret. [Neutralize poison](spell/neutralize_poison) and [slow poison](spell/slow_poison) function normally on a person suffering from fool's leprosy, but spells like [remove disease](spell/remove_disease) do not, as the condition is a poison effect, not a disease effect. [Heal](spell/heal) can cure the effects of fool's leprosy but does nothing to educate the caster about the nature of the effect it removes. As long as the truth about fool's leprosy remains hidden, a successful DC 35 Heal check is required to recognize that someone suffering from its effects is affected by poison, not a disease."
 		],
 		"display": "equippoison"
 	}

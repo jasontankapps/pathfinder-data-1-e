@@ -14,7 +14,7 @@
 		"description": [
 			"## Arms of the Iron God",
 			"",
-			"**Source** [Pathfinder #90: The Divinity Drive pg. 60](source:pathfinder_#90_the_divinity_drive)  ",
+			"**Source** [Pathfinder #90: The Divinity Drive pg. 60](source/pathfinder_#90_the_divinity_drive)  ",
 			"**Slot** arms (cybernetic); **Weight** 28 lbs.  ",
 			"**Capacity** -; **Usage** -  ",
 			"**Install** DC 38; **Implantation** 4",
@@ -42,7 +42,7 @@
 		"description": [
 			"## Autodoc",
 			"",
-			"**Source** [Technology Guide pg. 60](source:technology_guide)  ",
+			"**Source** [Technology Guide pg. 60](source/technology_guide)  ",
 			"**Slot** none; **Weight** 1,200 lbs.  ",
 			"**Capacity** 120; **Usage** see text",
 			"",
@@ -82,7 +82,7 @@
 		"description": [
 			"## Beam Cannon (Gravity Cannon)",
 			"",
-			"**Source** [Pathfinder #89: Palace of Fallen Stars pg. 62](source:pathfinder_#89_palace_of_fallen_stars)  ",
+			"**Source** [Pathfinder #89: Palace of Fallen Stars pg. 62](source/pathfinder_#89_palace_of_fallen_stars)  ",
 			"**Slot** none; **Weight** 18 lbs.  ",
 			"**Capacity** 50; **Usage** 1 charge  ",
 			"**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry)  ",
@@ -114,7 +114,7 @@
 		"description": [
 			"## Compact AI Core",
 			"",
-			"**Source** [Pathfinder #88: Valley of the Brain Collectors pg. 62](source:pathfinder_#88_valley_of_the_brain_collectors)  ",
+			"**Source** [Pathfinder #88: Valley of the Brain Collectors pg. 62](source/pathfinder_#88_valley_of_the_brain_collectors)  ",
 			"**Slot** none; **Weight** 8 lbs.  ",
 			"**Capacity** 240; **Usage** 1/hour",
 			"",
@@ -143,7 +143,7 @@
 		"description": [
 			"## Divinity Drive",
 			"",
-			"**Source** [Pathfinder #90: The Divinity Drive pg. 60](source:pathfinder_#90_the_divinity_drive)  ",
+			"**Source** [Pathfinder #90: The Divinity Drive pg. 60](source/pathfinder_#90_the_divinity_drive)  ",
 			"**Slot** none; **Weight** 2,500 lbs.  ",
 			"**Capacity** infinite; **Usage** see text",
 			"",
@@ -177,7 +177,7 @@
 		"description": [
 			"## Extinction Wave Device",
 			"",
-			"**Source** [Technology Guide pg. 60](source:technology_guide)  ",
+			"**Source** [Technology Guide pg. 60](source/technology_guide)  ",
 			"**Slot** none; **Weight** 1,000 lbs.  ",
 			"**Capacity** -; **Usage** -",
 			"",
@@ -197,7 +197,7 @@
 		"description": [
 			"## Memory Facet (Aggression, Ego, Inhibitor)",
 			"",
-			"**Source** [Pathfinder #86: Lords of Rust pg. 62](source:pathfinder_#86_lords_of_rust)  ",
+			"**Source** [Pathfinder #86: Lords of Rust pg. 62](source/pathfinder_#86_lords_of_rust)  ",
 			"**Slot** none; **Weight** &mdash;  ",
 			"**Capacity** -; **Usage** -",
 			"",
@@ -226,7 +226,7 @@
 		"description": [
 			"## Memory Facet (Compassion, Ingenuity)",
 			"",
-			"**Source** [Pathfinder #88: Valley of the Brain Collectors pg. 62](source:pathfinder_#88_valley_of_the_brain_collectors)  ",
+			"**Source** [Pathfinder #88: Valley of the Brain Collectors pg. 62](source/pathfinder_#88_valley_of_the_brain_collectors)  ",
 			"**Slot** none; **Weight** &mdash;  ",
 			"**Capacity** -; **Usage** -",
 			"",
@@ -250,7 +250,7 @@
 		"description": [
 			"## Memory Facet (Creativity, Cruelty, Instinct, Intuition, Logic, Psyche)",
 			"",
-			"**Source** [Pathfinder #90: The Divinity Drive pg. 61](source:pathfinder_#90_the_divinity_drive)  ",
+			"**Source** [Pathfinder #90: The Divinity Drive pg. 61](source/pathfinder_#90_the_divinity_drive)  ",
 			"**Slot** none; **Weight** &mdash;  ",
 			"**Capacity** -; **Usage** -",
 			"",
@@ -278,7 +278,7 @@
 		"description": [
 			"## Memory Facet (Discipline, Entropy, Guile)",
 			"",
-			"**Source** [Pathfinder #89: Palace of Fallen Stars pg. 63](source:pathfinder_#89_palace_of_fallen_stars)  ",
+			"**Source** [Pathfinder #89: Palace of Fallen Stars pg. 63](source/pathfinder_#89_palace_of_fallen_stars)  ",
 			"**Slot** none; **Weight** &mdash;  ",
 			"**Capacity** -; **Usage** -",
 			"",
@@ -304,7 +304,7 @@
 		"description": [
 			"## Power Relay",
 			"",
-			"**Source** [Pathfinder #85: Fires of Creation pg. 60](source:pathfinder_#85_fires_of_creation)  ",
+			"**Source** [Pathfinder #85: Fires of Creation pg. 60](source/pathfinder_#85_fires_of_creation)  ",
 			"**Slot** none; **Weight** 50 lbs.  ",
 			"**Capacity** 10; **Usage** special",
 			"",
@@ -337,7 +337,7 @@
 		"description": [
 			"## Powered Armor",
 			"",
-			"**Source** [Technology Guide pg. 61](source:technology_guide)  ",
+			"**Source** [Technology Guide pg. 61](source/technology_guide)  ",
 			"**Slot** armor; **Weight** 50 lbs.  ",
 			"**Capacity** 100; **Usage** see text",
 			"",
@@ -383,7 +383,7 @@
 		"description": [
 			"## Psychic Imprinter",
 			"",
-			"**Source** [Technology Guide pg. 61](source:technology_guide)  ",
+			"**Source** [Technology Guide pg. 61](source/technology_guide)  ",
 			"**Slot** head; **Weight** 10 lbs.  ",
 			"**Capacity** 20; **Usage** 1 charge",
 			"",
@@ -406,7 +406,7 @@
 		"description": [
 			"## Rebirthing Chamber",
 			"",
-			"**Source** [Technology Guide pg. 61](source:technology_guide)  ",
+			"**Source** [Technology Guide pg. 61](source/technology_guide)  ",
 			"**Slot** none; **Weight** 1,200 lbs.  ",
 			"**Capacity** -; **Usage** 200 charges/day",
 			"",
@@ -431,7 +431,7 @@
 		"description": [
 			"## Temporal Accelerator",
 			"",
-			"**Source** [Technology Guide pg. 62](source:technology_guide)  ",
+			"**Source** [Technology Guide pg. 62](source/technology_guide)  ",
 			"**Slot** head; **Weight** 1 lb.  ",
 			"**Capacity** -; **Usage** -",
 			"",

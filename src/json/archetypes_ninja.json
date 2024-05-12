@@ -15,7 +15,7 @@
 		"description": [
 			"## Frozen Shadow",
 			"",
-			"**Source** [Inner Sea Intrigue pg. 38](source:inner_sea_intrigue)  ",
+			"**Source** [Inner Sea Intrigue pg. 38](source/inner_sea_intrigue)  ",
 			"Frozen shadows belong to a rare ninja clan operating in Avistan, having migrated to the Lands of the Linnorm Kings decades ago. Most members are Tian, Ulfen, and Varki humans, and they work as thieves, power brokers, and spies loosely guided by secretive masters with unknown agendas.",
 			"",
 			"**Class Skills:** A frozen shadow adds Survival to his list of class skills, instead of Diplomacy.",
@@ -55,7 +55,7 @@
 		"description": [
 			"## Gunpowder Bombardier",
 			"",
-			"**Source** [Heroes from the Fringe pg. 30](source:heroes_from_the_fringe)  ",
+			"**Source** [Heroes from the Fringe pg. 30](source/heroes_from_the_fringe)  ",
 			"Ratfolk assassins and other ninjas with an affinity for gunpowder demonstrate masterful control of bombs, using the explosives to inflict major damage or impair their foes.",
 			"",
 			"**Gunpowder Bomb (Ex):** At 2nd level, a gunpowder bombardier can expend 1 ki point to throw a gunpowder bomb at a grid intersection as a ranged attack against AC 5 with a range of 20 feet. The gunpowder bomb deals 1d6 points of bludgeoning damage to all creatures in a 10-footradius burst, which can be increased to 20 feet by spending 1 additional ki point. A creature in the bomb's radius can attempt a Reflex save (DC = 10 + half the gunpowder bombardier's ninja level + her Dexterity modifier) for half damage. At 5th level and every 2 levels thereafter, the bomb's damage increases by 1d6, to a maximum of 9d6 points of bludgeoning damage at 19th level.",
@@ -90,7 +90,7 @@
 		"description": [
 			"## Hunting Serpent",
 			"",
-			"**Source** [Villain Codex pg. 104](source:villain_codex)  ",
+			"**Source** [Villain Codex pg. 104](source/villain_codex)  ",
 			"The order dispatches specially trained killers to hunt relentlessly and fight from the shadows.",
 			"",
 			"**Class Skills:** A hunting serpent gains Survival as a class skill but loses Knowledge (nobility).",
@@ -126,7 +126,7 @@
 		"description": [
 			"## Mask of the Living God",
 			"",
-			"**Source** [Disciple's Doctrine pg. 20](source:disciple's_doctrine)  ",
+			"**Source** [Disciple's Doctrine pg. 20](source/disciple's_doctrine)  ",
 			"When the Living God needs to silence the voices of those heretics who question too loudly, these enforcers are the tools he employs.",
 			"",
 			"**Weapon and Armor Proficiencies:** In addition to having the ninja's normal weapon and armor proficiencies, the mask of the Living God is proficient with bolas, saps, and whips.",
@@ -170,8 +170,8 @@
 		"description": [
 			"## Petal Ninja",
 			"",
-			"**Source** [Wilderness Origins pg. 13](source:wilderness_origins)  ",
-			"**Petal ninjas are a secretive clan of [ghoran](race:**ghoran) infiltrators, in touch with their plantlike nature to the point where they can change their forms, allowing them access into places that were previously impossible to reach.",
+			"**Source** [Wilderness Origins pg. 13](source/wilderness_origins)  ",
+			"**Petal ninjas are a secretive clan of [ghoran](race/**ghoran) infiltrators, in touch with their plantlike nature to the point where they can change their forms, allowing them access into places that were previously impossible to reach.",
 			"",
 			"Petal ninja is an archetype available only to ghorans.",
 			"",
@@ -197,7 +197,7 @@
 			"",
 			"This replaces the ninja trick gained at 2nd level.",
 			"",
-			"**Burst of Blossoms (Su):** At 4th level, a petal ninja gains the ability to transform into a cloud of blossoms as a standard action. By spending 1 point from her ki pool, a petal ninja can take the form of a cloud of blossoms, becoming insubstantial for 1 round, as [gaseous form](spell:gaseous_form). While insubstantial she also gains a +4 circumstance bonus on Stealth checks. At 8th level, the duration increases to a number of rounds equal to 1 plus the petal ninja's Charisma modifier.",
+			"**Burst of Blossoms (Su):** At 4th level, a petal ninja gains the ability to transform into a cloud of blossoms as a standard action. By spending 1 point from her ki pool, a petal ninja can take the form of a cloud of blossoms, becoming insubstantial for 1 round, as [gaseous form](spell/gaseous_form). While insubstantial she also gains a +4 circumstance bonus on Stealth checks. At 8th level, the duration increases to a number of rounds equal to 1 plus the petal ninja's Charisma modifier.",
 			"",
 			"This replaces no trace, uncanny dodge, and improved uncanny dodge.",
 			"",

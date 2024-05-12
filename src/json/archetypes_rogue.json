@@ -13,7 +13,7 @@
 		"description": [
 			"## Acrobat",
 			"",
-			"**Source** [Advanced Player's Guide pg. 132](source:advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 132](source/advanced_player's_guide)  ",
 			"Agility and daring are both excellent rogue traits, and their confluence can create spectacular feats of acrobatics. Whether they are daring thieves, infiltrating assassins, or intrepid spies, proper training in acrobatics is a valuable boon for rogues.",
 			"",
 			"**Expert Acrobat (Ex):** At 1st level, an acrobat does not suffer any armor check penalties on Acrobatics, Climb, Fly, Sleight of Hand, or Stealth skill checks while wearing light armor. When she is not wearing armor, she gains a +2 competency bonus on Acrobatics and Fly skill checks. This ability replaces trapfinding.",
@@ -38,7 +38,7 @@
 		"description": [
 			"## Bandit",
 			"",
-			"**Source** [Ultimate Combat pg. 71](source:ultimate_combat)  ",
+			"**Source** [Ultimate Combat pg. 71](source/ultimate_combat)  ",
 			"Bandits, brigands, and highwaymen hone their craft along the roadsides and byways of the world, where they leap from the shadows to plunder the spoils of passing travelers. Bandits tend to have a variety of skills; sometimes these skills are similar to a ranger's, but a bandit's tactics always deal with surprise followed by intimidation, with the clear threat of naked force if intimidation does not do the trick. But not all bandits are ruthless thugs. There are those who become outlaws in opposition to tyrants or similar oppressors. These bandits target the status quo and distribute their spoils back into the needy hands of the peasantry.",
 			"",
 			"**Ambush (Ex):** At 4th level, a bandit becomes fully practiced in the art of ambushing. When she acts in the surprise round, she can take a move action, standard action, and swift action during the surprise round, not just a move or standard action. This ability replaces uncanny dodge.",
@@ -64,7 +64,7 @@
 		"description": [
 			"## Bekyar Kidnapper",
 			"",
-			"**Source** [Inner Sea Combat pg. 36](source:inner_sea_combat)  ",
+			"**Source** [Inner Sea Combat pg. 36](source/inner_sea_combat)  ",
 			"One of the many ethnicities found in the Mwangi Expanse, the Bekyar people are slavers and demon worshipers. A Bekyar kidnapper is not only adept at hiding herself in thick jungles and quickly subduing her prey, but also at spreading rumors of hidden ruins, buried treasure, and other such valuables that might lure an unwary foreigner into her traps.",
 			"",
 			"**Clean Capture (Ex):** At 1st level, a Bekyar kidnapper reduces the penalty to her combat maneuver check to tie up a pinned or otherwise restrained target by an amount equal to 1/2 her rogue level. In addition, she can take the feats Improved Grapple and Greater Grapple as rogue talents. She can ignore the Improved Unarmed Strike requirement when selecting these feats as rogue talents, but must meet all other prerequisites. This ability replaces trapfinding.",
@@ -92,7 +92,7 @@
 		"description": [
 			"## Bellflower Irrigator",
 			"",
-			"**Source** [Adventurer's Guide pg. 43](source:adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 43](source/adventurer's_guide)  ",
 			"Bellflower irrigators take on tasks that many other agents of the Bellflower Network find distasteful. Rather than focusing on saving slaves, Bellflower irrigators seek to defeat slavery by aiming to eliminate the source. They gauge the precise moment to strike from the shadows and annihilate slave traders and masters alike. Bellflower irrigators realize that for every slave released today, another will be shackled tomorrow-until all the masters are dead. This cynicism leads Bellflower irrigators to target anyone who owns or sells slaves on Golarion, especially cruel masters within Cheliax.",
 			"",
 			"Though most Bellflower irrigators are halflings, this branch of the Network is more diverse than many of the others-anyone with a hatred of slavery and a talent for stealth and martial combat is free to join. Bellflower irrigators employ combat methods that many find questionable, such as the use of poison and calculated strikes meant to kill rather than incapacitate. The Bellflower Network does not knowingly allow evil members, but very few Bellflower irrigators are good-most are chaotic neutral in alignment, as their methods of solving the problem of slavery often force them into moral and ethical gray areas. A few Bellflower irrigators are in fact evil, but these rarities do their best to hide their personal lack of morals and addiction to cruelty in order to maintain their positions and connection to the Bellflowers, for as evil as they may be, they share a hatred of slavery with their more altruistic kin. An evil Bellflower irrigator who is found out is typically exiled from the group, yet most continue to fight slavery even after they are sent away in this way.",
@@ -126,7 +126,7 @@
 		"description": [
 			"## Burglar",
 			"",
-			"**Source** [Advanced Player's Guide pg. 132](source:advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 132](source/advanced_player's_guide)  ",
 			"Adept at infiltration, trap removal, and lock picking, burglars prey on the homes of the wealthy and forgotten tombs alike. Such riches are guarded with vicious traps and hazards, but the devious mind of the burglar allows her to find such dangers and avoid them.",
 			"",
 			"**Careful Disarm (Ex):** At 4th level, whenever a burglar attempts to disarm a trap using Disable Device, she does not spring the trap unless she fails by 10 or more. If she does set off a trap she was attempting to disarm, she adds double her trap sense bonus to avoid the trap. This ability replaces uncanny dodge.",
@@ -155,7 +155,7 @@
 		"description": [
 			"## Carnivalist",
 			"",
-			"**Source** [Animal Archive pg. 6](source:animal_archive)  ",
+			"**Source** [Animal Archive pg. 6](source/animal_archive)  ",
 			"Carnivalists train their miniature minions to perform acts of larceny and often hide their true talents behind theatrical sideshows.",
 			"",
 			"**Class Skills:** A carnivalist gains Handle Animal as a class skill.",
@@ -187,7 +187,7 @@
 		"description": [
 			"## Cat Burglar",
 			"",
-			"**Source** [Advanced Race Guide pg. 92](source:advanced_race_guide)  ",
+			"**Source** [Advanced Race Guide pg. 92](source/advanced_race_guide)  ",
 			"Gifted with finesse and stealth, catfolk make excellent burglars. Cat burglars are masters of breaking and entering, using their feline grace to make it seem as though no crime was ever committed in the first place. Few locks can withstand skilled cat burglars, and such nimble rogues are capable of bypassing traps without activating them and enabling associates to do the same. A cat burglar has the following class features.",
 			"",
 			"**Phantom Presence (Ex):** At 4th level, a cat burglar masters stealthy movement and leaves no trace of her passing in dungeons and cities. While in dungeon and urban environments, she leaves no trail and cannot be tracked, though she can choose to leave behind a trail if she so desires. Furthermore, she can always choose to take 10 when making a Stealth check. This ability replaces uncanny dodge.",
@@ -213,7 +213,7 @@
 		"description": [
 			"## Chameleon",
 			"",
-			"**Source** [Ultimate Combat pg. 71](source:ultimate_combat)  ",
+			"**Source** [Ultimate Combat pg. 71](source/ultimate_combat)  ",
 			"An absolute master of disguise, a chameleon effortlessly blends into any environment. Whether disappearing into crowded city streets, vanishing into desert sands, or slipping into the darkness of subterranean tunnels, the chameleon relies upon her ability to become part of her surroundings.",
 			"",
 			"**Misdirection (Ex):** At 1st level, a chameleon begins her career knowing that the secret to disappearing lies in deceiving the senses of her observers. Every day she gains a pool of stealth points equal to her ranks in Bluff. These points refresh at the start of each day. Before making a Stealth check, she can choose to put stealth points into the roll, gaining a bonus on Stealth checks equal to the number of stealth points she puts into the roll. If she gains a bonus on Bluff checks because of a feat (such as Skill Focus [Bluff]), she adds a number of points to her stealth pool equal to the bonus the feat grants. This ability replaces trapfinding.",
@@ -239,7 +239,7 @@
 		"description": [
 			"## Charlatan",
 			"",
-			"**Source** [Ultimate Combat pg. 72](source:ultimate_combat)  ",
+			"**Source** [Ultimate Combat pg. 72](source/ultimate_combat)  ",
 			"A charlatan is a master of lies and deception. Whether creating simple cons or elaborately woven hoaxes capable of swaying the masses and those in positions of power, a charlatan is often a purveyor of snake-oil, forgeries, and rumormongering.",
 			"",
 			"**Natural Born Liar (Ex):** At 1st level, when a charlatan successfully deceives a creature with a Bluff, that creature takes a -2 penalty on the charlatan's Bluff checks for the next 24 hours. This ability does not stack with itself. This ability replaces trapfinding.",
@@ -270,7 +270,7 @@
 		"description": [
 			"## Consigliere",
 			"",
-			"**Source** [Ultimate Intrigue pg. 44](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 44](source/ultimate_intrigue)  ",
 			"Consiglieres act as trusted mediators and administrators for crime families and various criminal organizations, and many serve as the right hand to the leaders of such groups. Other consiglieres prefer to work as independent operators and sell their advice and expertise to the highest bidder. Though some consiglieres insulate themselves from violence and criminal activities, many enjoy getting their hands dirty leading strike teams or gangs of hardened thugs.",
 			"",
 			"**Class Skills:** A consigliere adds Knowledge (nobility) to his list of class skills, instead of Knowledge (dungeoneering).",
@@ -314,18 +314,18 @@
 		"description": [
 			"## Construct Saboteur",
 			"",
-			"**Source** [Construct Handbook pg. 12](source:construct_handbook)  ",
+			"**Source** [Construct Handbook pg. 12](source/construct_handbook)  ",
 			"The construct saboteur harnesses arcane energy to combat the golems and eldritch guardians that prowl the depths of ancient ruins and forgotten tombs.",
 			"",
 			"**Class Skills:** A construct saboteur has Knowledge (arcana) and Knowledge (engineering) but does not have Knowledge (dungeoneering) and Knowledge (local) as class skills.",
 			"",
 			"This alters the rogue's class skills.",
 			"",
-			"**Arcane Strike (Ex):** A construct saboteur gains [Arcane Strike](feat:arcane_strike) as a bonus feat, even if she does not meet the prerequisites. She uses her construct saboteur class level in place of her caster level for the purposes of the feat's effects.",
+			"**Arcane Strike (Ex):** A construct saboteur gains [Arcane Strike](feat/arcane_strike) as a bonus feat, even if she does not meet the prerequisites. She uses her construct saboteur class level in place of her caster level for the purposes of the feat's effects.",
 			"",
 			"This replaces trapfinding.",
 			"",
-			"**Arcane Sabotage (Su):** At 2nd level, a construct saboteur can user her arcane prowess to hinder constructs. Whenever she uses [Arcane Strike](feat:arcane_strike) to attack a construct, she can activate one of the following sabotage abilities that she has gained. She gains one sabotage ability at 2nd level and can thereafter select any sabotage ability in place of a rogue talent. The DC for any sabotage ability that requires a saving throw is 10 + half the construct saboteur's level + the construct saboteur's Intelligence modifier.",
+			"**Arcane Sabotage (Su):** At 2nd level, a construct saboteur can user her arcane prowess to hinder constructs. Whenever she uses [Arcane Strike](feat/arcane_strike) to attack a construct, she can activate one of the following sabotage abilities that she has gained. She gains one sabotage ability at 2nd level and can thereafter select any sabotage ability in place of a rogue talent. The DC for any sabotage ability that requires a saving throw is 10 + half the construct saboteur's level + the construct saboteur's Intelligence modifier.",
 			"",
 			"**Diminish Senses:** A jolt of energy overwhelms the construct's senses. The construct is blinded for 1 round. A construct saboteur can forgo dealing sneak attack damage to extend the duration of the blindness by 1 round for every 2d6 points of sneak attack damage forgone in this way. A construct can negate this effect with a successful Will save.",
 			"",
@@ -356,7 +356,7 @@
 		"description": [
 			"## Counterfeit Mage",
 			"",
-			"**Source** [Advanced Class Guide pg. 109](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 109](source/advanced_class_guide)  ",
 			"Charlatans and stage magicians use slight of hand to fake magic. A counterfeit mage goes a step further, parroting the motions and activation phrases used by arcane casters to activate wands or other magical accoutrements. While counterfeit mages rarely fool a real wizard, their command of the arcane is enough to convince most lay people.",
 			"",
 			"**Magical Expertise (Ex):** At 1st level, a counterfeit mage adds 1/2 his level to Disable Device checks to disarm magical traps, Perception checks to find magical traps, and Use Magic Device checks to activate scrolls and wands. A counterfeit mage can use Disable Device to disarm magic traps. This ability replaces trapfinding.",
@@ -384,7 +384,7 @@
 		"description": [
 			"## Cutpurse",
 			"",
-			"**Source** [Advanced Player's Guide pg. 132](source:advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 132](source/advanced_player's_guide)  ",
 			"Everyone who lives in the city understands that a wealthy man stays wealthy by guarding his purse while wandering the streets and markets. Cutpurses are often trained by guilds to collect the guild's tax from local businesses on a daily basis, whether through intimidation or pickpocketing. Some find themselves taking up the mantle of adventurer, and their talents are generally appreciated in this role, but the cutpurse is still the first person her companions look to when an item goes missing.",
 			"",
 			"**Measure the Mark (Ex):** When a cutpurse makes a Sleight of Hand check to take something from a creature, the target makes its Perception check before the rogue makes her Sleight of Hand check, and the rogue knows the Perception check result. She can decide whether or not to make the check based on the results of the target's Perception check. If the rogue elects not to make the check, she can make a Bluff check, opposed by the target's Sense Motive, to prevent the target from noticing the attempt. This ability replaces trapfinding.",
@@ -413,7 +413,7 @@
 		"description": [
 			"## Dark Lurker",
 			"",
-			"**Source** [Heroes of the Streets pg. 26](source:heroes_of_the_streets)  ",
+			"**Source** [Heroes of the Streets pg. 26](source/heroes_of_the_streets)  ",
 			"Dark lurkers use darkness as an ally. They are widely feared in many major metropolises, spoken of as \"living shadows\" by guards of Magnimar who patrol under the Irespan and called \"the hungry night\" by citizens of Absalom who mistake them for fetchling assassins.",
 			"",
 			"**Blades from the Shadows (Ex):** At 2nd level, a dark lurker gains shadow strike as a bonus rogue talent. (A character using the unchained rogue class from Pathfinder RPG Pathfinder Unchained instead gains the ability to make attacks of opportunity against foes with cover, though not foes with improved cover or total cover). At 6th level, the dark lurker can deal precision damage to targets with total concealment (though any miss chance applies normally, and may prevent an attack from hitting in the first place).",
@@ -447,7 +447,7 @@
 		"description": [
 			"## Deadly Courtesan",
 			"",
-			"**Source** [Advanced Race Guide pg. 208](source:advanced_race_guide)  ",
+			"**Source** [Advanced Race Guide pg. 208](source/advanced_race_guide)  ",
 			"Skilled at manipulation and diversion, the deadly courtesan builds up those around her and periodically takes them down. She can be a spy, entertainer, assassin, bodyguard, or just an intimate to someone who needs it most. A deadly courtesan has the following class features.",
 			"",
 			"**Class Skills:** At 1st level, a deadly courtesan adds Knowledge (history) and Knowledge (nobility) to her list of class skills and removes Knowledge (dungeoneering) from her list of class skills.",
@@ -478,7 +478,7 @@
 		"description": [
 			"## Desert Raider",
 			"",
-			"**Source** [Ultimate Wilderness pg. 76](source:ultimate_wilderness)  ",
+			"**Source** [Ultimate Wilderness pg. 76](source/ultimate_wilderness)  ",
 			"Desert raiders constantly threaten caravans that cross vast, desolate expanses. Some desert raiders are tribespeople who raid to supplement their hardscrabble existence, while others are career thieves who take to the desert to avoid the noose. To survive, a desert raider must learn the secrets of the deserts and become inured to their dangers. Though most often associated with hot deserts, desert raiders can also operate in tundra, where sunlight on snow can blind as easily as on sand.",
 			"",
 			"**Class Skills:** A desert raider adds Knowledge (geography) and Survival to her list of class skills instead of Knowledge (dungeoneering) and Swim.",
@@ -519,7 +519,7 @@
 		"description": [
 			"## Discretion Specialist",
 			"",
-			"**Source** [Antihero's Handbook pg. 25](source:antihero's_handbook)  ",
+			"**Source** [Antihero's Handbook pg. 25](source/antihero's_handbook)  ",
 			"Often brought in to handle messy situations, discretion specialists deal with bodies, inconvenient witnesses, and other loose ends. Many organizations employ them to cover up activities that might be unpopular-should they become known to the general populace.",
 			"",
 			"This archetype is appropriate for rogues built using either the Pathfinder RPG Core Rulebook or Pathfinder RPG Pathfinder Unchained.",
@@ -570,7 +570,7 @@
 		"description": [
 			"## Dreamthief",
 			"",
-			"**Source** [Planar Adventures pg. 12](source:planar_adventures)  ",
+			"**Source** [Planar Adventures pg. 12](source/planar_adventures)  ",
 			"The dreamthief is master of both waking and dreaming worlds. Each dreamthief bears a focused fragment of emotion, known as a dreamshard, within her soul. Some are born with such fragments, while others gain their dreamshards during traumatic moments, especially those involving nightmares, attacks by ethereal beings, or incidents that take place in the Dimension of Dreams. Whether a dreamshard is shaped from the dreamer's aggregated emotions or manifested from a repressed aspect of herself, this metaphysical crystal grants a dreamthief supernatural powers, which she supplements with skill and grace.",
 			"",
 			"Dreamthieves' powers grant them enhanced access to dreamscapes. Using the unique power of her dreamshard, a knowledgeable dreamthief can crystallize and steal dreamers' deepest emotions. Such theft can alter dreamers in profound ways, whether for better or worse.",
@@ -614,7 +614,7 @@
 		"description": [
 			"## Driver",
 			"",
-			"**Source** [Ultimate Combat pg. 72](source:ultimate_combat)  ",
+			"**Source** [Ultimate Combat pg. 72](source/ultimate_combat)  ",
 			"A driver makes her living driving vehicles in the service of those who can pay for her considerable talents. She may be a wagon-driver practiced at smuggling contraband, an accomplished musher blazing arctic trails, or a seemingly refined coach driver placing her roguish talents in the service of a wealthy patron. This archetype works best with the vehicle combat rules in Chapter 4.",
 			"",
 			"**Hard Drive (Ex):** When driving a vehicle that uses a group of animals or magical beasts as muscle propulsion, the DCs of all driving checks are reduced by 2, the maximum speed of the vehicle increases by 10 feet, and the acceleration increases by 5 feet. This ability takes the place of trapfinding.",
@@ -644,7 +644,7 @@
 		"description": [
 			"## Earthshadow",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 8](source:elemental_master's_handbook)  ",
+			"**Source** [Elemental Master's Handbook pg. 8](source/elemental_master's_handbook)  ",
 			"When the dwarves began their Quest for Sky millennia ago to reach the world's surface, they already had a deep understanding of the earth's secrets. In the centuries since, the mystic lore the dwarves call earthcraft has been passed down through the generations, and its practitioners are called earthshadows. While many earthshadows are dwarves, their secrets have been shared with a worthy few members of other races over the ages.",
 			"",
 			"**Earthlink (Su):** The earth grants an earthshadow swiftness and hones her senses. When an earthshadow is in direct contact with an expanse of natural earth or unworked stone that is at least as large as she is, she adds half her rogue level (minimum 1) to Acrobatics and Perception checks.",
@@ -684,7 +684,7 @@
 		"description": [
 			"## Eldritch Raider",
 			"",
-			"**Source** [Advanced Race Guide pg. 189](source:advanced_race_guide)  ",
+			"**Source** [Advanced Race Guide pg. 189](source/advanced_race_guide)  ",
 			"An eldritch raider is a rogue who seeks to unravel the mysteries of the destruction of the gillmen's homeland. They explore old ruins that date back to the days of the old human empire and track down relics and lore from its glory days. An eldritch raider has the following class features.",
 			"",
 			"**Class Skills:** An eldritch raider adds Knowledge (arcana), Knowledge (history), and Spellcraft to her list of class skills and removes Disguise, Perform, and Sleight of Hand from her list of class skills.",
@@ -727,7 +727,7 @@
 		"description": [
 			"## Eldritch Scoundrel",
 			"",
-			"**Source** [Arcane Anthology pg. 23](source:arcane_anthology)  ",
+			"**Source** [Arcane Anthology pg. 23](source/arcane_anthology)  ",
 			"Students of arcane magic, legerdemain, and stealth, eldritch scoundrels are a rare breed of adventurer most commonly found seeking lost and valuable arcane writings in the ruins of fallen empires, such as Thassilon or the Jistka Imperium.",
 			"",
 			"**Armor Proficiencies:** An eldritch scoundrel is not proficient with any armor or shields. Armor sometimes interferes with an eldritch scoundrel's gestures, which can cause her spells with somatic components to fail (Pathfinder RPG Core Rulebook 83). This alters the rogue's armor proficiencies.",
@@ -762,7 +762,7 @@
 		"description": [
 			"## Escapologist",
 			"",
-			"**Source** [Occult Adventures pg. 123](source:occult_adventures)  ",
+			"**Source** [Occult Adventures pg. 123](source/occult_adventures)  ",
 			"The escapologist excels at escaping any confinement, whether physical, magical, or mental. Few restraints can hold an escapologist for long.",
 			"",
 			"**Elusive:** An escapologist adds 1/2 her rogue level (minimum +1) as a bonus on all Disable Device and Escape Artist checks. An escapologist can use Disable Device to disarm magical traps. This ability replaces trapfinding, but counts as trapfinding for the purposes of prerequisites and abilities that require trapfinding.",
@@ -787,7 +787,7 @@
 		"description": [
 			"## False Medium",
 			"",
-			"**Source** [Occult Adventures pg. 123](source:occult_adventures)  ",
+			"**Source** [Occult Adventures pg. 123](source/occult_adventures)  ",
 			"The false medium is a master of pretending to have occult powers in order to manipulate the emotions and atmosphere of the people and places around him, often reaping a healthy reward from the bereaved, who find solace in his comforting lies.",
 			"",
 			"**Dim the Lights (Ex):** At 1st level, while in dim light or darkness, a false medium adds 1/2 his rogue level as a bonus on Bluff, Disguise, and Sleight of Hand checks, and creatures without low-light vision or darkvision take an equal penalty on skill checks to oppose the false medium's Bluff, Disguise, and Sleight of Hand checks. This ability replaces trapfinding.",
@@ -822,7 +822,7 @@
 		"description": [
 			"## Fey Prankster",
 			"",
-			"**Source** [Ultimate Wilderness pg. 12](source:ultimate_wilderness)  ",
+			"**Source** [Ultimate Wilderness pg. 12](source/ultimate_wilderness)  ",
 			"Fey pranksters specialize in tricking others to teach a lesson or for their own entertainment.",
 			"",
 			"**Treacherous Plants (Sp):** The fey prankster can cause plants to distract nearby creatures. To use this ability, the fey prankster attempts a Bluff check to create a distraction to hide as a swift action or to feint against an adjacent opponent as a move action, so long as the target is adjacent to plants. He gains a bonus on this check equal to half his rogue level (minimum +1).",
@@ -903,7 +903,7 @@
 		"description": [
 			"## Galtan Agitator",
 			"",
-			"**Source** [Inner Sea Intrigue pg. 39](source:inner_sea_intrigue)  ",
+			"**Source** [Inner Sea Intrigue pg. 39](source/inner_sea_intrigue)  ",
 			"Galtan agitators fight mightily to cast down the enemies of their ideals within the shambles of the tumultuous nation of Galt. Any rogue (including the rogue from Pathfinder RPG Pathfinder Unchained) can select the Galtan agitator archetype.",
 			"",
 			"**Reputation (Ex):** This ability functions as the renown vigilante social talent (Pathfinder RPG Ultimate Intrigue 12). In addition to improving attitudes, it also improves the Galtan agitator's starting influence (Ultimate Intrigue 102) and reputation with contacts (Pathfinder RPG Ultimate Campaign 148) in the area by one level or step. For the purpose of vigilante social talents, the Galtan agitator does not have a vigilante identity and is always considered to be in her social identity, unless she has another identity (such as from the vigilante class). If the Galtan agitator has another identity, she does not gain any benefits from renown while in that identity unless she has the renown social talent or a similar ability.",
@@ -948,7 +948,7 @@
 		"description": [
 			"## Guerrilla",
 			"",
-			"**Source** [Inner Sea Intrigue pg. 41](source:inner_sea_intrigue)  ",
+			"**Source** [Inner Sea Intrigue pg. 41](source/inner_sea_intrigue)  ",
 			"Guerrillas fight against oppressive leadership and governments-often under cover of night-including Chelish colonization in Sargava and the power structures in Cheliax proper, Nidal, and Razmiran. Any rogue (including the rogue from Pathfinder Unchained) can select the guerrilla archetype.",
 			"",
 			"**Skilled Liar (Ex):** Whenever a guerrilla uses Bluff to attempt to deceive someone, she gains a bonus on the opposed roll equal to 1/2 her rogue level (minimum +1). A guerrilla can still use Disable Device to disarm magic traps.",
@@ -992,7 +992,7 @@
 		"description": [
 			"## Guild Agent",
 			"",
-			"**Source** [Ultimate Intrigue pg. 45](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 45](source/ultimate_intrigue)  ",
 			"Guild agents are members of a thieves' guild or other shadowy organization. What they lose in independence, they more than make up for in benefits gained due to their association's infrastructure. Guild agents come at all levels of the organization, from a lowly recruit all the way up to the guildmaster himself.",
 			"",
 			"**Honor Among Thieves (Ex):** A guild agent must remain a member in good standing of a thieves' guild (he starts at rank 1 with her guild when using the organizational influence system). If the guild agent leaves his guild, he loses all of the abilities granted by this archetype and does not gain their replacements. If he joins a new guild, the guild agent regains his abilities, though depending on how he joins the guild, he may regain his abilities all at once or gradually over time. Even if the guild in question operates in multiple locations, the guild agent chooses a settlement as a base of operations for his own activities.",
@@ -1035,7 +1035,7 @@
 		"description": [
 			"## Gun Smuggler",
 			"",
-			"**Source** [People of the Wastes pg. 13](source:people_of_the_wastes)  ",
+			"**Source** [People of the Wastes pg. 13](source/people_of_the_wastes)  ",
 			"Alkenstar protects the secrets of gunpowder and controls the sale of firearms, creating lucrative opportunities for those who can sneak the technology beyond the Mana Wastes. Gun smugglers are adept at procuring firearms and concealing their secret weapons.",
 			"",
 			"**Weapon Proficiency:** A gun smuggler is proficient with all simple weapons and one-handed firearms, plus the rapier, sap, short sword, and sword cane.",
@@ -1080,7 +1080,7 @@
 		"description": [
 			"## Heister",
 			"",
-			"**Source** [Ultimate Intrigue pg. 45](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 45](source/ultimate_intrigue)  ",
 			"Notorious for their stealth, imagination, and elaborately planned thefts and capers, heisters specialize in breaking into secure locations, stealing items of value, and escaping undetected. Heisters often work as members of or independent operatives contracted to criminal organizations, crime families, or wealthy individuals inclined to unlawful activity.",
 			"",
 			"**Rum Dubber (Ex):** At 2nd level, whenever a heister attempts to open a lock without a set of thieves' tools, the DC increases by 2, instead of 10.",
@@ -1113,7 +1113,7 @@
 		"description": [
 			"## Investigator",
 			"",
-			"**Source** [Advanced Player's Guide pg. 133](source:advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 133](source/advanced_player's_guide)  ",
 			"Not all rogues work against the law. Investigators use their skills to serve the law, often in the employ of nobles or in the pursuit of noble causes. In some cities cabals of investigators work for rulers or bureaucracies, but often an investigator is a free agent who pursues whatever mysteries come across her path. Of course, not all investigators serve the law. Crime lords and guildmasters often have squads of investigators serving their own nefarious purposes.",
 			"",
 			"**Follow Up (Ex):** An investigator can roll twice on any Diplomacy check made to gather information, and receives the information for both results. This takes the same amount of time as one check. If the lesser of the two checks reveals false information, the rogue is aware of it. False information is not revealed in this way if the people she questioned do not know it to be false. This ability replaces trapfinding.",
@@ -1137,7 +1137,7 @@
 		"description": [
 			"## Kintargo Rebel",
 			"",
-			"**Source** [Inner Sea Combat pg. 40](source:inner_sea_combat)  ",
+			"**Source** [Inner Sea Combat pg. 40](source/inner_sea_combat)  ",
 			"With few natural barriers, a thriving international port, and many miles separating it from Egorian, Kintargo is geographically suited for rebellion against the rigid laws that reign in Cheliax. This rebellion is hardly malicious in intent; business is simply easier without the imposing bureaucracy. Whenever the Chelish navy sails into the port, these rebels are quick to appear agreeably subservient in order to conceal their noncompliance and avoid retribution.",
 			"",
 			"**Sophisticated Stealth (Ex):** At 3rd level, a Kintargo rebel gains a +1 bonus on Knowledge (nobility) checks. In addition, she gains a +1 bonus on Bluff checks to convey a secret message and on Sense Motive checks to discern secret messages. These bonuses increase by 1 every 3 rogue levels thereafter. This ability replaces trap sense.",
@@ -1163,7 +1163,7 @@
 		"description": [
 			"## Kitsune Trickster",
 			"",
-			"**Source** [Advanced Race Guide pg. 192](source:advanced_race_guide)  ",
+			"**Source** [Advanced Race Guide pg. 192](source/advanced_race_guide)  ",
 			"The kitsune trickster combines her sharpened wit with minor arcane powers of charm and persuasion. She uses her talents to spin convincing lies, riddles, and stories. A trickster has the following class features.",
 			"",
 			"**Kitsune's Guile (Ex):** At 1st level, a trickster relies on her intellect as much as her personality. She adds her Intelligence modifier on Bluff, Diplomacy, Disguise, and Sense Motive checks. This ability replaces trapfinding.",
@@ -1190,7 +1190,7 @@
 		"description": [
 			"## Knife Master",
 			"",
-			"**Source** [Ultimate Combat pg. 72](source:ultimate_combat)  ",
+			"**Source** [Ultimate Combat pg. 72](source/ultimate_combat)  ",
 			"The knife master is a trained killer who specializes in close-up combat and the wave and weave of knife fighting. In her hands, daggers and other similar light blades become truly deadly instruments..",
 			"",
 			"**Hidden Blade:** A knife master adds 1/2 her level on Sleight of Hand checks made to conceal a light blade. This ability replaces trapfinding.",
@@ -1220,7 +1220,7 @@
 		"description": [
 			"## Makeshift Scrapper",
 			"",
-			"**Source** [Melee Tactics Toolbox pg. 15](source:melee_tactics_toolbox)  ",
+			"**Source** [Melee Tactics Toolbox pg. 15](source/melee_tactics_toolbox)  ",
 			"Some combatants specialize in the study of certain weapons, but those without formal training often learn to survive a fight by making brilliant use of whatever is lying around.",
 			"",
 			"**Weapon Proficiency:** The makeshift scrapper is proficient with only simple weapons.",
@@ -1251,7 +1251,7 @@
 		"description": [
 			"## Master of Disguise",
 			"",
-			"**Source** [Ultimate Intrigue pg. 46](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 46](source/ultimate_intrigue)  ",
 			"A master of disguise feels no need to advertise her skills to build a reputation. Instead, she believes that never letting her adversaries know her true identity protects her from bad luck or missteps on a job.",
 			"",
 			"**Consummate Actor (Ex):** A master of disguise adds half her rogue level (minimum 1) on all Disguise checks and on Bluff checks to stay in character while using Disguise. At 2nd level, she gains the quick disguise rogue talent, and she can create a disguise twice as quickly as normal even for that rogue talent (she can create a disguise that encompasses only minor details as a standard action).",
@@ -1287,7 +1287,7 @@
 		"description": [
 			"## Nameless Shadow",
 			"",
-			"**Source** [Merchant's Manifest pg. 30](source:merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 30](source/merchant's_manifest)  ",
 			"Where bandits and tyrants prey on merchants and caravans, the nameless shadow preys on bandits and tyrants. Posing as mundane merchants or other harmless travelers, these assassins can hide both within darkness and in the anonymity of a seemingly unimportant crowd. This archetype is appropriate for rogues built using the rules from the Pathfinder RPG Core Rulebook as well as for unchained rogues.",
 			"",
 			"**Harmless Guise (Ex):** A nameless shadow gains the dual identity and seamless guise vigilante class features, with the following restrictions. Her social identity must be that of a mundane and nonthreatening member of society, such as a farmer or a merchant. At 6th level, the nameless shadow gains the many guises vigilante social talent. At 8th level, the nameless shadow gains the quick change vigilante social talent. At 14th level, the nameless shadow gains the everyman vigilante social talent. At 18th level, the nameless shadow gains the any guise vigilante social talent.",
@@ -1317,7 +1317,7 @@
 		"description": [
 			"## Needler",
 			"",
-			"**Source** [Potions and Poisons pg. 12](source:potions_and_poisons)  ",
+			"**Source** [Potions and Poisons pg. 12](source/potions_and_poisons)  ",
 			"While some assassins and killers prefer to be up front with their poison use, others favor a covert approach. Needlers use subtlety and misdirection to deliver deadly poisons to unsuspecting victims in creative and unorthodox ways. This archetype is appropriate for rogues built using the rules from the Pathfinder RPG Core Rulebook as well as for unchained rogues.",
 			"",
 			"**Adroit Poisoner (Ex):** At 2nd level, a needler gains a +2 bonus on Sleight of Hand checks. This bonus increases to +4 when the needler uses Sleight of Hand to draw a hidden weapon that is coated in poison. At 8th level, these bonuses increase to +4 and +6, respectively.",
@@ -1352,7 +1352,7 @@
 		"description": [
 			"## Numerian Scavenger",
 			"",
-			"**Source** [Technology Guide pg. 13](source:technology_guide)  ",
+			"**Source** [Technology Guide pg. 13](source/technology_guide)  ",
 			"A Numerian scavenger lives for the discovery of new technological wonders scraped from the depths of the strange ruins, metal caverns, and outlandish junkyards of Numeria. She is well-versed in all the ways that technology can be used to protect sites, as well as the ways in which it can malfunction.",
 			"",
 			"**Technic Training (Ex):** A Numerian scavenger adds 1/2 her rogue level to Perception skill checks to locate mechanical or high-tech traps and to Disable Device skill checks against these traps (minimum +1). She gains Technologist as a bonus feat. She cannot use Disable Device to disarm magical traps. This ability replaces trapfinding.",
@@ -1377,7 +1377,7 @@
 		"description": [
 			"## Okeno Liberator",
 			"",
-			"**Source** [Inner Sea Combat pg. 41](source:inner_sea_combat)  ",
+			"**Source** [Inner Sea Combat pg. 41](source/inner_sea_combat)  ",
 			"The sight of yellow sails on the Inner Sea signals the approach of a ship from Okeno, home port of the most ruthless and feared of all slaving operations. Most who see these sails flee in terror, but some freedom fighters actually endeavor to be captured, knowing that being taken to Stonespine Island in manacles is the easiest way to infiltrate the city, liberate other slaves, and lead them to freedom.",
 			"",
 			"**Bond Breaker (Ex):** An Okeno liberator adds 1/2 her class level to Escape Artist checks, and never takes a penalty on Disable Device checks when using improvised tools to open locks. This ability replaces trapfinding.",
@@ -1408,7 +1408,7 @@
 		"description": [
 			"## Phantom Thief",
 			"",
-			"**Source** [Ultimate Intrigue pg. 46](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 46](source/ultimate_intrigue)  ",
 			"Also known as gentleman thieves or lady thieves, phantom thieves don't know the desperation of a hard life like many rogues. Instead, they come from the ranks of the elite, having grown bored with their finery, and seek thrills from acts of daring, skill, and crime. Phantom thieves don't need the money, so they often perform acts such as breaking into a secure vault for the thrill, leaving a calling card rather than robbing the place.",
 			"",
 			"**Refined Education (Ex):** A phantom thief adds Handle Animal, Heal, Ride, Spellcraft, Survival, and all Knowledge skills to her list of class skills. Furthermore, she selects one of her rogue class skills and adds half her rogue level on all skill checks using that skill. At 3rd level and every 2 rogue levels thereafter, she selects an additional rogue class skill and adds half her rogue level on all skill checks using that skill as well. Starting at 4th level, if the phantom thief is an unchained rogue, she gains rogue's edge skill unlocks with each of these skills rather than selecting one skill every 5 levels, and she adds half her rogue level to her number of ranks to determine when she receives a skill unlock (so a 7th level rogue (phantom thief ) with 7 ranks in a chosen skill would count as having 10 ranks and receive the second skill unlock).",
@@ -1447,7 +1447,7 @@
 		"description": [
 			"## Pirate",
 			"",
-			"**Source** [Ultimate Combat pg. 73](source:ultimate_combat)  ",
+			"**Source** [Ultimate Combat pg. 73](source/ultimate_combat)  ",
 			"A pirate breaks from the confines of country and king to commit her crimes upon the high seas. She holds allegiance only to her ship and its captain (if even that much is true), and lives a lawless life upon the waves, plundering ships and shorelines as suits her whim.",
 			"",
 			"**Sea Legs (Ex):** At 1st level, a pirate becomes adept at moving on ships, boats, and similar vessels. She gains the Sea Legs feat as a bonus feat, even if she does not meet the prerequisites. This ability replaces trapfinding.",
@@ -1476,7 +1476,7 @@
 		"description": [
 			"## Planar Sneak",
 			"",
-			"**Source** [Planes of Power pg. 8](source:planes_of_power)  ",
+			"**Source** [Planes of Power pg. 8](source/planes_of_power)  ",
 			"A planar sneak finds creative ways to defy conventional limitations when trying to overcome extraplanar obstacles.",
 			"",
 			"**Planar Sense (Ex):** At 3rd level, a planar sneak gains a +1 bonus on saving throws against all effects with the air, chaos, earth, evil, fire, good, law, or water descriptors. This bonus increases by 1 for every 3 rogue levels thereafter (to a maximum of +6 at 18th level).",
@@ -1506,7 +1506,7 @@
 		"description": [
 			"## Poisoner",
 			"",
-			"**Source** [Advanced Player's Guide pg. 134](source:advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 134](source/advanced_player's_guide)  ",
 			"Some consider poisoning an evil act. The poisoner knows poison is just a tool toward an end, and is no different than any other weapon. Some poisoners see themselves as great equalizers, as they are able to craft weapons that the weakest of creatures can wield to devastating effect, but most have no lofty delusions about their work.",
 			"",
 			"**Poison Use (Ex):** At 1st level, a poisoner is trained in the use of poison and cannot accidentally poison herself when applying poison to a blade. This ability replaces trapfinding.",
@@ -1532,7 +1532,7 @@
 		"description": [
 			"## Rake",
 			"",
-			"**Source** [Advanced Player's Guide pg. 134](source:advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 134](source/advanced_player's_guide)  ",
 			"The rake is a rogue who is open about her skills and talents, often to the point of being boastful. Usually she has the protection of an important figure who finds her services useful, but sometimes her bravado is enough to keep enemies away. She is often used as a face for the group for diplomacy, gathering information, negotiations, or to gain the most lucrative contracts and quests from local authorities.",
 			"",
 			"**Bravado's Blade (Ex):** When a rake hits an opponent and deals sneak attack damage, she can forgo 1d6 points of that damage and make a free Intimidate check to demoralize the foe. For every additional 1d6 points of sneak attack damage she forgoes, she receives a +5 circumstance bonus on this check. This ability replaces trapfinding.",
@@ -1558,7 +1558,7 @@
 		"description": [
 			"## Relic Raider",
 			"",
-			"**Source** [Black Markets pg. 27](source:black_markets)  ",
+			"**Source** [Black Markets pg. 27](source/black_markets)  ",
 			"Relic raiders are rogues who specialize in recovering treasures from ruins and tombs, some in a quest for knowledge, others out of a desire for riches. In addition to natural dangers and mundane traps, these locations are often protected by ancient curses or the psychic imprints of former occupants. Though not versed in magic, relic raiders learn to unweave these maledictions as easily as they unlock ancient vaults.",
 			"",
 			"**Curse Sense (Ex):** At 4th level, a relic raider adds 1/2 her rogue level on Perception checks to notice haunts and on Spellcraft checks to identify cursed items (using detect magic or similar effects).",
@@ -1592,7 +1592,7 @@
 		"description": [
 			"## River Rat",
 			"",
-			"**Source** [Ultimate Wilderness pg. 76](source:ultimate_wilderness), [People of the River pg. 21](source:people_of_the_river)  ",
+			"**Source** [Ultimate Wilderness pg. 76](source/ultimate_wilderness), [People of the River pg. 21](source/people_of_the_river)  ",
 			"What highway robbers are to roads, river rats are to waterways. Skilled at hiding amid reeds and roots, these rogues strike the unwary from the shallows as others would from the shadows. Despite their strong association with banditry, river rats make excellent guides and hunters.",
 			"",
 			"**Class Skills:** A river rat gains Knowledge (nature) as a class skill instead of Knowledge (dungeoneering).",
@@ -1628,7 +1628,7 @@
 		"description": [
 			"## Roof Runner",
 			"",
-			"**Source** [Ultimate Combat pg. 74](source:ultimate_combat)  ",
+			"**Source** [Ultimate Combat pg. 74](source/ultimate_combat)  ",
 			"A specialized urban acrobat, the roof runner makes her home high atop the spires and gables of great cities. She is skilled at traveling these uneven surfaces at full speed, performing daring leaps and deftly balancing upon narrow and precarious ledges.",
 			"",
 			"**Roof Running (Ex):** At 1st level, a roof runner becomes entirely adept at moving across the tops of buildings, spires, and similar locations. Provided she is wearing light armor or no armor, the roof runner can move at full speed while traveling across the tops of buildings or similar structures, and takes no penalties on any Dexterity-based Skill checks or Reflex saves that might be incurred from moving about on a roof. This ability replaces trapfinding.",
@@ -1655,7 +1655,7 @@
 		"description": [
 			"## Rotdrinker",
 			"",
-			"**Source** [Potions and Poisons pg. 12](source:potions_and_poisons)  ",
+			"**Source** [Potions and Poisons pg. 12](source/potions_and_poisons)  ",
 			"Poisons are common tools in a rogue's trade, and some poison-using rogues are so frequently exposed to these toxins that they have developed resistances to particular poisons. Known as rotdrinkers, these rogues purposefully consume poisons to augment their minds and bodies, though they do so at the expense of traditional roguish nimbleness. This archetype is appropriate for rogues built using the Core Rulebook as well for unchained rogues.",
 			"",
 			"**Poison Resistance (Ex):** At 2nd level, a rotdrinker gains a +2 bonus on saving throws against all poisons. This bonus increases to +4 at 8th level.",
@@ -1687,7 +1687,7 @@
 		"description": [
 			"## Sanctified Rogue",
 			"",
-			"**Source** [Ultimate Combat pg. 74](source:ultimate_combat)  ",
+			"**Source** [Ultimate Combat pg. 74](source/ultimate_combat)  ",
 			"The sanctified rogue serves a higher purpose, acting as a representative of a church or cult, or following the tenets of a specific faith or deity. While most sanctified rogues share the beliefs or ideals of the religions they represent, not all of them are necessarily pious. A handful of disreputable holy thieves serve purely as mercenaries. At the other end of spectrum, however, more sanctified rogues adhere to the tenets of their faith with fanatical devotion. Regardless, all seem blessed with the ability to call upon divine favor to aid them in times of need.",
 			"",
 			"**Divine Purpose (Su):** At 4th level, the favor of a deity or religious institution grants a special blessing on a sanctified rogue, shoring up some of her weaknesses. She gains a +1 sacred bonus on Fortitude and Will saving throws. This ability replaces uncanny dodge.",
@@ -1714,7 +1714,7 @@
 		"description": [
 			"## Sapper",
 			"",
-			"**Source** [Dungeoneer's Handbook pg. 21](source:dungeoneer's_handbook)  ",
+			"**Source** [Dungeoneer's Handbook pg. 21](source/dungeoneer's_handbook)  ",
 			"The sapper is a trained siege engineer and can deal with traps and other obstacles given plenty of time.",
 			"",
 			"**Destructive Dismantle (Ex):** A sapper is able to quickly breach obstacles. Using a combination of engineering, explosives, alchemical reagents, and sheer bloodymindedness, she can deal up to 10 points of damage per sapper level upon an object once per day, ignoring the object's hardness. She might crack open a stone wall with an explosive charge, or collapse a ceiling by tunneling through its supports. This ability requires 1d4+1 hours of preparation, so it can be used only on immobile and unresisting objects. This ability replaces trapfinding.",
@@ -1738,7 +1738,7 @@
 		"description": [
 			"## Scout",
 			"",
-			"**Source** [Advanced Player's Guide pg. 134](source:advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 134](source/advanced_player's_guide)  ",
 			"Not all rogues live in the city. Scouts frequently roam the wilderness, often banding together as bandits, but sometimes serving as guides, as trailblazers, or as companions to a ranger or barbarian warrior. More comfortable with sneaking and hiding outdoors, the scout is still effective in the city and the dungeon.",
 			"",
 			"**Scout's Charge (Ex):** At 4th level, whenever a scout makes a charge, her attack deals sneak attack damage as if the target were flat-footed. Foes with uncanny dodge are immune to this ability. This ability replaces uncanny dodge.",
@@ -1767,7 +1767,7 @@
 		"description": [
 			"## Scroll Scoundrel",
 			"",
-			"**Source** [Pathfinder Society Field Guide pg. 27](source:pathfinder_society_field_guide)  ",
+			"**Source** [Pathfinder Society Field Guide pg. 27](source/pathfinder_society_field_guide)  ",
 			"The scroll scoundrel is a rogue archetype that relies on cunning and quick wits to stay alive. He excels in exploiting overconfidence and predictability, using knowledge he's gained from his extensive research and field experience combined with hearsay and recent observations to react to problems as soon as they arise with swift but unnaturally accurate guesswork. A scroll scoundrel is often called upon by the Pathfinders to undertake missions where killing a foe isn't nearly as important as humiliating them in public duels or similar conflicts. A scroll scoundrel has the following class features.",
 			"",
 			"**Fast Talker (Ex):** At 2nd level, a scroll scoundrel's penalty on Bluff checks that are unlikely, farfetched, or impossible to achieve is reduced by 5. When he makes a Diplomacy check to adjust a creature's starting attitude, he gains a +3 competence bonus on the skill check. This ability replaces the rogue's 2nd-level rogue talent.",
@@ -1798,7 +1798,7 @@
 		"description": [
 			"## Sczarni Swindler",
 			"",
-			"**Source** [The Harrow Handbook pg. 13](source:the_harrow_handbook)  ",
+			"**Source** [The Harrow Handbook pg. 13](source/the_harrow_handbook)  ",
 			"If life is a game, the Sczarni play to win. When skill and luck aren't enough, cheating is often the best option.",
 			"",
 			"**Let Fate Decide (Ex):** At 1st level, the Sczarni swindler can declare two different actions that rely on different types of rolls or checks, such as attacking a creature (an attack roll) or sneaking past the same creature (a Stealth check). As a standard action, the swindler then uses a random method to choose one of the declared activities, such as flipping a coin, rolling a die, or drawing a harrow card. The specific method doesn't matter as long as there is an equal chance of either activity being chosen. If the swindler then performs the chosen activity within the next round, she gains a luck bonus on the roll type required for that activity-attack rolls with a specific weapon, a specific skill check, a specific ability check, or a specific saving throw-equal to half her rogue level (minimum +1) for 1 minute. If the swindler performs any other action (whether declared or not) in the round after using this ability, she becomes shaken for 1 minute instead. The swindler can use this ability a number of times per day equal to 3 + her Charisma modifier. This ability replaces trapfinding.",
@@ -1831,7 +1831,7 @@
 		"description": [
 			"## Seeker of the Lost",
 			"",
-			"**Source** [Blood of the Sea pg. 5](source:blood_of_the_sea)  ",
+			"**Source** [Blood of the Sea pg. 5](source/blood_of_the_sea)  ",
 			"Aquatic elven adventurers descending into the ruins of sunken Azlant developed techniques to ease their explorations, and they now share these techniques among a loose group of acquaintances calling themselves the seekers of the lost. These aquatic elves eagerly explore trap-laden ruins of all types, using their skills to bypass traps and dispatch animated guardians put in place long ago by the lost cities' original founders. These seekers rarely travel far inland, though they may journey to larger landlocked bodies of water, such as Lake Encarthan, to explore submerged ruins there.",
 			"",
 			"**Arcana Breaker (Su):** Typically, only magical traps survive for long periods underwater, so a seeker of the lost specializes in noticing and disarming such traps. At 3rd level, a seeker of the lost gains a +1 competence bonus on Perception checks to notice magical traps and on Disable Device checks to disarm magical traps. This bonus increases by an additional +1 every 3 levels beyond 3rd (to a maximum of +6 at 18th level).",
@@ -1868,7 +1868,7 @@
 		"description": [
 			"## Shadow Scion",
 			"",
-			"**Source** [Legacy of the First World pg. 15](source:legacy_of_the_first_world)  ",
+			"**Source** [Legacy of the First World pg. 15](source/legacy_of_the_first_world)  ",
 			"Count Ranalc's worshipers congregate in the places between dark and light, searching for secrets that might one day free their patron from his mysterious exile. Shadow scions have learned some of these secrets and draw power from the shadows themselves. Many shadow scions are dedicated fetchling (Pathfinder RPG Bestiary 2 123) or wayang (Pathfinder RPG Bestiary 4 274) devotees of Count Ranalc.",
 			"",
 			"**Shadow Dweller (Ex):** A shadow scion gains darkvision with a range of 30 feet and a +1 competence bonus on Stealth checks in dim light and darkness. If she already has darkvision, the range of her darkvision increases by 10 feet. At 3rd level, and every 2 levels thereafter, the range of her darkvision increases by 10 feet and her bonus on Stealth checks increases by 1.",
@@ -1913,7 +1913,7 @@
 		"description": [
 			"## Shadow Walker",
 			"",
-			"**Source** [Blood of Shadows pg. 9](source:blood_of_shadows)  ",
+			"**Source** [Blood of Shadows pg. 9](source/blood_of_shadows)  ",
 			"Shadow walkers are comfortable in light, darkness, and the shadows in between. Fetchling rogues naturally gravitate toward becoming shadow walkers, but shadow walkers exist among other creatures both above and below the surface.",
 			"",
 			"**Expanded Sight (Su):** At 1st level, a shadow walker gains darkvision with a range of 30 feet. If she already has darkvision, the range of her darkvision increases by 10 feet. When the shadow walker reaches 3rd level, and every 2 rogue levels thereafter, the range of her darkvision increases by 10 feet. Also at 3rd level, the shadow walker loses the light sensitivity weakness, if she has it. If she has light blindness, she instead treats it as light sensitivity.",
@@ -1953,7 +1953,7 @@
 		"description": [
 			"## Sharper",
 			"",
-			"**Source** [Ultimate Intrigue pg. 47](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 47](source/ultimate_intrigue)  ",
 			"Sharpers use trickery and deception to part an owner from his valuables. Pathological risk-takers, they distinguish themselves from con artists and burglars by virtue of the simplicity and boldness of their schemes, which are usually impromptu, rather than carefully orchestrated. Many sharpers consider themselves romantic figures and foster the image of a resourceful, dashing rogue living by wits and luck while subverting authority at every turn.",
 			"",
 			"**Scam Artist (Ex):** A sharper gains a bonus equal to half her rogue level (minimum +1) on all Bluff and Sleight of Hand checks.",
@@ -1998,7 +1998,7 @@
 		"description": [
 			"## Skulking Slayer",
 			"",
-			"**Source** [Advanced Race Guide pg. 55](source:advanced_race_guide)  ",
+			"**Source** [Advanced Race Guide pg. 55](source/advanced_race_guide)  ",
 			"Pushed into a life of crime by the society around them, half-orcs gravitate toward criminal activities that suit them best. Half-orc rogues leave subtle tactics and finesse to halflings and elves, and rely on brute strength and thuggery when they go about making mischief. Skulking slayers have turned the use of raw strength and surprise into an art form. A skulking slayer has the following class features.",
 			"",
 			"**Weapon and Armor Proficiency:** The skulking slayer gains proficiency with greatclubs and whips, but loses proficiency with rapiers and hand crossbows.",
@@ -2040,7 +2040,7 @@
 		"description": [
 			"## Sly Saboteur",
 			"",
-			"**Source** [Ultimate Wilderness pg. 77](source:ultimate_wilderness)  ",
+			"**Source** [Ultimate Wilderness pg. 77](source/ultimate_wilderness)  ",
 			"Sly saboteurs are irregular soldiers who specialize in sabotage and surprise attacks. Though they often face enemies with greater numbers or resources (or both), sly saboteurs have the advantage of knowing the local people and terrain. They might be rebels fighting against a corrupt government, or they might be members of a militia opposing an invading force. Some are environmentalists who sabotage the tools of industry in order to protect unspoiled nature.",
 			"",
 			"**Class Skills:** A sly saboteur adds Survival to her list of class skills instead of Knowledge (dungeoneering).",
@@ -2081,7 +2081,7 @@
 		"description": [
 			"## Smuggler",
 			"",
-			"**Source** [Pirates of the Inner Sea pg. 23](source:pirates_of_the_inner_sea)  ",
+			"**Source** [Pirates of the Inner Sea pg. 23](source/pirates_of_the_inner_sea)  ",
 			"Smugglers specialize in moving contraband from one area to another while avoiding detection by authorities. Sometimes a smuggler's cargo is illegal goods, such as drugs or slaves. Other times, a smuggler hides legal goods to avoid paying duties or taxes, and some may even use their abilities to help smuggle escaped slaves to freedom. Smugglers may work on a ship that does nothing but smuggle goods from one port to another, or they may freelance, working on ships that require a smuggler's services for a short time.",
 			"",
 			"**Bribery:** An experienced smuggler knows how to smooth over interactions with customs officials. At 3rd level, when dealing with officials working at a checkpoint, conducting an inspection, or performing another such activity, a smuggler can make a Diplomacy check opposed by the presiding official's Sense Motive check to ensure her contraband makes it through. She gains a +1 bonus on this Diplomacy check. On a successful check, the smuggler pays a small bribe (5d4 gp) to guarantee her cargo remains undisturbed. This bonus rises to +2 when the smuggler reaches 6th level, +3 at 9th level, +4 at 12th level, +5 at 15th level, and +6 at 18th level. This ability replaces trap sense.",
@@ -2106,7 +2106,7 @@
 		"description": [
 			"## Snare Setter",
 			"",
-			"**Source** [Kobolds of Golarion pg. 23](source:kobolds_of_golarion)  ",
+			"**Source** [Kobolds of Golarion pg. 23](source/kobolds_of_golarion)  ",
 			"Deep in darkness, the snare setter constructs his deadly traps and brutal mechanisms to confound and destroy any who try to invade his domain.",
 			"",
 			"**Trapper (Ex):** At 1st level, a snare setter gains Learn Ranger Trap (see page 24) as a bonus feat. In addition to the trap granted by this feat, he learns how to construct the tripwire trap for free. For the purposes of this feat, he's considered a ranger of his snare setter level, and uses his Intelligence in place of Wisdom to determine uses per day and the DC of his ranger traps. Whenever the snare setter could learn a new rogue trick, he may instead learn a new ranger trap.",
@@ -2142,7 +2142,7 @@
 		"description": [
 			"## Sniper",
 			"",
-			"**Source** [Advanced Player's Guide pg. 134](source:advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 134](source/advanced_player's_guide)  ",
 			"Some say that the sniper is the worst kind of assassin: a killer who waits silently in the shadows and then strikes from a distance without remorse. Snipers, of course, understand that such protestations about \"cowardice\" and \"honor\" regarding their profession are in fact merely the bleatings of sheep fearing the slaughter and pay them no heed. Most snipers take pride in their formidable abilities, which allow them to take life quickly, quietly, and efficiently, then disappear into their surroundings without a trace.",
 			"",
 			"**Accuracy (Ex):** At 1st level, a sniper halves all range increment penalties when making ranged attacks with a bow or crossbow. This ability replaces trapfinding.",
@@ -2171,7 +2171,7 @@
 		"description": [
 			"## Snoop",
 			"",
-			"**Source** [Ultimate Intrigue pg. 47](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 47](source/ultimate_intrigue)  ",
 			"Snoops are the underworld's version of detectives. They often act as information peddlers, specializing in gathering secrets through investigation, subterfuge, and coercion, and selling or trading those secrets for personal gain.",
 			"",
 			"**Inspiration (Ex):** At 1st level, a snoop gains an ability similar to the investigator's inspiration class ability (Pathfinder RPG Advanced Class Guide 31). The snoop begins with an inspiration pool equal to half her rogue level plus her Intelligence modifier (minimum of 1). Unlike an investigator, a snoop can only use inspiration on skill checks, not on attack rolls or saving throws. This ability is otherwise identical to the investigator class ability of the same name.",
@@ -2207,7 +2207,7 @@
 		"description": [
 			"## Spy",
 			"",
-			"**Source** [Advanced Player's Guide pg. 135](source:advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 135](source/advanced_player's_guide)  ",
 			"The best spies are like chameleons, but not only can they change their appearances to fit the situation, they can also change their personalities, allegiances, and even loves if that's what it takes to achieve their clandestine goals. Spies are the ultimate manipulators, and even those who commission their services sometimes find that they've merely served the spies' own interests.",
 			"",
 			"**Skilled Liar (Ex):** Whenever a spy uses Bluff to attempt to deceive someone, she gains a bonus on the opposed roll equal to 1/2 her rogue level (minimum +1). This bonus does not apply to feint attempts or attempts to pass secret messages. This ability replaces trapfinding.",
@@ -2233,7 +2233,7 @@
 		"description": [
 			"## Survivalist",
 			"",
-			"**Source** [Ultimate Combat pg. 74](source:ultimate_combat)  ",
+			"**Source** [Ultimate Combat pg. 74](source/ultimate_combat)  ",
 			"The survivalist focuses her talents on surviving harsh and unforgiving conditions that would kill a lesser rogue. Whether in blazing deserts or frigid arctic wastes-or simply the cold, hard reality of the streets-the survivalist uses her training to both ensure her own success and provide for the safety of her allies.",
 			"",
 			"**Hardy (Ex):** At 1st level, a survivalist is already prepared to endure extreme hardships and environmental conditions. She can go twice the normal number of days without water and triple the normal number of days without food before feeling the effects of either thirst or starvation. This ability replaces trapfinding.",
@@ -2260,7 +2260,7 @@
 		"description": [
 			"## Swamp Poisoner",
 			"",
-			"**Source** [Potions and Poisons pg. 4](source:potions_and_poisons)  ",
+			"**Source** [Potions and Poisons pg. 4](source/potions_and_poisons)  ",
 			"Swamp poisoners use their own toxins to defend their homes and level the playing field. The swamp poisoner is an archetype available to grippli characters, and it is appropriate for rogues built using the rules from the Pathfinder RPG Core Rulebook as well as for unchained rogues.",
 			"",
 			"**Prerequisites:** A swamp poisoner must have selected the toxic skin grippli alternate racial trait.",
@@ -2294,7 +2294,7 @@
 		"description": [
 			"## Swashbuckler",
 			"",
-			"**Source** [Advanced Player's Guide pg. 135](source:advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 135](source/advanced_player's_guide)  ",
 			"A paragon of mobile swordplay, the swashbuckler is a rogue who focuses almost exclusively on honing her skill at arms and perfecting daring acrobatic moves and elaborate flourishes that border on performance.",
 			"",
 			"**Martial Training (Ex):** At 1st level, the swashbuckler may select one martial weapon to add to her list of weapon proficiencies. In addition, she may take the combat trick rogue talent up to two times. This ability replaces trapfinding.",
@@ -2320,7 +2320,7 @@
 		"description": [
 			"## Swordmaster",
 			"",
-			"**Source** [Advanced Race Guide pg. 164](source:advanced_race_guide)  ",
+			"**Source** [Advanced Race Guide pg. 164](source/advanced_race_guide)  ",
 			"A swordmaster meditates to strengthen her spiritual connection to her blade. She strives to perfect her skills by mastering six deadly trances. A swordmaster has the following class features.",
 			"",
 			"**Class Skills:** The swordmaster adds Knowledge (nature) and Survival to her list of class skills and removes Disguise and Knowledge (dungeoneering) from her list of class skills.",
@@ -2365,7 +2365,7 @@
 		"description": [
 			"## Sylvan Trickster",
 			"",
-			"**Source** [Ultimate Wilderness pg. 77](source:ultimate_wilderness)  ",
+			"**Source** [Ultimate Wilderness pg. 77](source/ultimate_wilderness)  ",
 			"Sylvan tricksters are rogues who model themselves after the mischievous fey of legend. Though not spellcasters, sylvan tricksters learn minor magical abilities reminiscent of those favored by fey creatures. The journey for many sylvan tricksters began in childhood, learning at an elder's knee the stories of the fey and the secrets of how to resist their tricks. Sylvan tricksters often live in areas where the boundary with the First World is thin, and a few have even been there- voluntarily or not.",
 			"",
 			"**Class Skills:** A sylvan trickster adds Knowledge (nature) to her list of class skills and learns Sylvan as a bonus language. She does not gain Knowledge (dungeoneering) as a class skill.",
@@ -2407,7 +2407,7 @@
 		"description": [
 			"## Thug",
 			"",
-			"**Source** [Advanced Player's Guide pg. 135](source:advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 135](source/advanced_player's_guide)  ",
 			"Some criminals steal with finesse, their victims only discovering the crime when the rogue is long gone and the coin already spent. A thug, on the other hand, cares nothing for finesse. Through both threat and violence, the thug gets what she wants by the promise of force, and has no problem making good on that promise as needed.",
 			"",
 			"**Frightening (Ex):** Whenever a thug successfully uses Intimidate to demoralize a creature, the duration of the shaken condition is increased by 1 round. In addition, if the target is shaken for 4 or more rounds, the thug can instead decide to make the target frightened for 1 round. This ability replaces trapfinding.",
@@ -2437,7 +2437,7 @@
 		"description": [
 			"## Tidal Trickster",
 			"",
-			"**Source** [Aquatic Adventures pg. 55](source:aquatic_adventures)  ",
+			"**Source** [Aquatic Adventures pg. 55](source/aquatic_adventures)  ",
 			"Tidal tricksters roam the seas, using their skillful mastery of the currents to move across aquatic battlefields and throw their enemies off-balance.",
 			"",
 			"**Wisdom of the Waves (Ex):** A tidal trickster gains a swim speed equal to her unmodified base land speed (or increases her swim speed by 10 feet, if she has a racial swim speed). Instead of the +8 bonus granted by a swim speed, she gains a racial bonus on Swim checks equal to 4 + half her rogue level (if she has a racial swim speed, she uses the better bonus). She gains a bonus on Bluff checks equal to half her rogue level. At 3rd level, she gains a +1 bonus on Will saves whenever she is underwater; this bonus increases by 1 at 6th level and every 3 levels thereafter.",
@@ -2470,7 +2470,7 @@
 		"description": [
 			"## Toxic Talon",
 			"",
-			"**Source** [Adventurer's Guide pg. 75](source:adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 75](source/adventurer's_guide)  ",
 			"Twilight Talons might pursue many tasks, from relatively passive information gathering to staging massive coups meant to depose tyrants. A toxic talon, however, is trained and deployed for one very specific purpose: to defeat foes with unusual and potent poisons. After adopting a profession to serve as a cover for his activities, a toxic talon spends resources and time combining easy-to-obtain materials into dangerous toxins to aid in the defense of Andoran. A toxic talon can use rare, complex, slow-release poisons to make a death look like it happened naturally, but sometimes the toxic talon will use specific poisons to cast suspicion on other organizations, stirring internal conflict that other Twilight Talons can use to their advantage.",
 			"",
 			"The use of poisons in the defense of a good nation is controversial, and other branches of the Eagle Knights generally disavow the existence of toxic talons among their organization. Many influential leaders among the Eagle Knights, particularly in the Steel Falcons, have pushed to have the practices of the toxic talons banned from use, but these efforts have only pushed the toxic talons into further obscurity. Their role is particularly protected by the Twilight Talons, who sometimes go as far as to outright lie to others in the Eagle Knights about the operations of a toxic talon. At other times, a toxic talon may choose to martyr his freedom by publicly accepting blame for a mission that has had unfortunate public repercussions. In such a case, the toxic talon is not abandoned by his kin-instead, he is placed on a fair and public trial whose purpose is as much to appease the masses as it is to determine whether any moral lines were crossed. In cases where such a toxic talon is found guilty, he is generally sentenced to hard labor or prison (in which case he often continues to run missions inside of prisons or other fortifications for the Eagle Knights as best suits his talents) or to exile (in which case his role in serving Andoran shifts to one of clandestine missions in other nations). A toxic talon who martyrs his freedom in this way and is then captured again understands that it's unlikely he'll be afforded the same level of support from the Eagle Knights, and that the organization may well disavow any official knowledge of his actions. To a toxic talon, this is all merely a deeper, more significant level of service to the well-being of the nation of Andoran. By serving as a sort of sineater for the rest of the Twilight Talons (and at times, for the other branches of the Eagle Knights), such selfless characters can ensure that the organization survives scandal and public outcry to carry on their good work. In such cases, while public recognition for their deeds may never manifest, their brothers and sisters never forget the toxic talon's sacrifice.",
@@ -2510,7 +2510,7 @@
 		"description": [
 			"## Trapsmith",
 			"",
-			"**Source** [Advanced Player's Guide pg. 135](source:advanced_player's_guide)  ",
+			"**Source** [Advanced Player's Guide pg. 135](source/advanced_player's_guide)  ",
 			"Some rogues are not content with just disabling traps-they love to build them, finding a captivating beauty in the turning of gears and the slither of ropes over pulleys. The trapsmith may have started out putting together traps in order to better understand how to disable them, but for most, it's long since gone beyond that-they now relish the challenge of creating the perfect combat machine.",
 			"",
 			"**Careful Disarm (Ex):** At 4th level, whenever a trapsmith attempts to disarm a trap using Disable Device, she does not spring the trap unless she fails by 10 or more. If she does set off a trap she was attempting to disarm, she adds double her trap sense bonus to avoid the trap. This ability replaces uncanny dodge.",
@@ -2537,7 +2537,7 @@
 		"description": [
 			"## Underground Chemist",
 			"",
-			"**Source** [Advanced Class Guide pg. 109](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 109](source/advanced_class_guide)  ",
 			"Underground chemists are part of the rotting, fetid underbelly of the alchemical world. While underground chemists can't hold a candle to dedicated alchemists, they're tricky and dangerous with alchemical substances and potions.",
 			"",
 			"**Chemical Weapons (Ex):** At 2nd level, an underground chemist is able to retrieve an alchemical item as if drawing a weapon. She adds her Intelligence modifier to damage dealt with splash weapons, including any splash damage. She adds 1/2 her level to Craft (alchemy) checks. This ability replaces evasion.",
@@ -2568,7 +2568,7 @@
 		"description": [
 			"## Vexing Dodger",
 			"",
-			"**Source** [Giant Hunter's Handbook pg. 21](source:giant_hunter's_handbook)  ",
+			"**Source** [Giant Hunter's Handbook pg. 21](source/giant_hunter's_handbook)  ",
 			"Vexing dodgers take advantage of their smaller size to outmaneuver larger foes such as giants. Vexing dodgers have the following class features.",
 			"",
 			"**Limb-Climber (Ex):** When adjacent to or in the space of a corporeal creature at least one size category larger than herself, a vexing dodger can climb that creature's body with a successful Climb check against a DC equal to the target creature's CMD. Although the vexing dodger is holding on to the creature, this action isn't a grapple; it doesn't provoke attacks of opportunity from the creature, and neither the vexing dodger nor the creature she climbs gains the grappled condition. While the vexing dodger is on the climbed creature, the creature takes a penalty on attack rolls against the vexing dodger equal to the number of sneak attack dice the dodger possesses. This ability replaces trapfinding.",
@@ -2601,7 +2601,7 @@
 		"description": [
 			"## Waylayer",
 			"",
-			"**Source** [Dirty Tactics Toolbox pg. 13](source:dirty_tactics_toolbox)  ",
+			"**Source** [Dirty Tactics Toolbox pg. 13](source/dirty_tactics_toolbox)  ",
 			"A clever rogue knows the easiest battle to win is the one that's over before your foe knows it has begun. Some rogues thus specialize in setting up ambushes to catch their opponents off guard.",
 			"",
 			"**Staggering Reflexes (Ex):** At 1st level, a waylayer gains a bonus on initiative checks equal to 1/2 her level (minimum +1) if she acts in a surprise round, and is never flat-footed at the start of combat (even if she fails to act during the surprise round). This ability replaces trapfinding.",

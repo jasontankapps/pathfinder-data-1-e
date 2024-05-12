@@ -12,7 +12,7 @@
 		"description": [
 			"## Absalom: Arcanamirium Crafter",
 			"",
-			"**Source** [Inner Sea Primer pg. 28](source:inner_sea_primer)  ",
+			"**Source** [Inner Sea Primer pg. 28](source/inner_sea_primer)  ",
 			"The most famous magical college of the Inner Sea region, the Arcanamirium of Absalom teaches a broad array of specialties, but its most intensive specialty is no specialization at all. It is one of the primary training academies of universalist magic on Golarion, and the wizards who graduate from the school become well respected, well paid, and highly soughtafter in their homelands. An Arcanamirium crafter is one of the builders of the arcane world, assembling magic items with facility, skill, and power. He is intimately familiar with the craft and practice of imbuing items with arcane power, and works with precision even early in his career to help create some of the most powerful magic items of Golarion.",
 			"",
 			"**Associated School:** Universalist.",
@@ -37,7 +37,7 @@
 		"description": [
 			"## Arcane Bomber",
 			"",
-			"**Source** [Ultimate Combat pg. 75](source:ultimate_combat)  ",
+			"**Source** [Ultimate Combat pg. 75](source/ultimate_combat)  ",
 			"To many wizards, the experimentation of the alchemist seems quaint, if not dangerous or frightening. A few wizards take up the secrets of the bomb, however, fusing alchemy with their already considerable magical power.",
 			"",
 			"**Bomb (Su):** At 1st level, the arcane bomber gains an ability nearly identical to the alchemist's bomb ability. Unlike the alchemist, at 1st level, the arcane bomber chooses one type of energy from the following list: acid, cold, fire, and electricity. He can throw bombs of that type, but cannot modify them with discoveries. This ability stacks with the alchemist bomb ability to determine the level of bomb damage, but an arcane bomber that becomes an alchemist does not gain that class's bomb ability, nor does an alchemist that becomes an arcane bomber gain this bomb ability. This ability replaces arcane bond.",
@@ -61,7 +61,7 @@
 		"description": [
 			"## Arcane Physician",
 			"",
-			"**Source** [Healer's Handbook pg. 6](source:healer's_handbook)  ",
+			"**Source** [Healer's Handbook pg. 6](source/healer's_handbook)  ",
 			"Arcane physicians use their scholarly knowledge and arcane mastery to achieve incredible feats of medicine. Most worship Qi Zhong, Nethys, or other patrons of disparate sorts of magic.",
 			"",
 			"**Medicinal Alchemy:** The arcane physician treats all spells of the healing subschool on the alchemist extract list as if they were on the wizard spell list for the purpose of activating magic items.",
@@ -93,7 +93,7 @@
 		"description": [
 			"## Arcane Warden",
 			"",
-			"**Source** [Blood of the Ancients pg. 12](source:blood_of_the_ancients)  ",
+			"**Source** [Blood of the Ancients pg. 12](source/blood_of_the_ancients)  ",
 			"In the aftermath of Earthfall, some elven wizards from Mierani chose to remain behind and provide aid to others. These elves were and still are highly honored by their kin, as they sacrificed the easy comfort and refuge of Castrovel to brave the wreckage of Earthfall in order to save what short-lived human lives they could. Although Golarion has long since recovered from Earthfall, the elven arcane warden traditions remain particularly useful for those who face long-term explorations of hostile environments-whether on Golarion or the planes beyond. The arcane wardens of today are wizards who specialize in the discovery or generation of places of safety and refuge.",
 			"",
 			"**Universal Magic:** An arcane warden values all schools of magic and recognizes that, faced with an unpredictable world, versatility is one of the greatest tools for survival. All arcane warden wizards must be universalists.",
@@ -133,7 +133,7 @@
 		"description": [
 			"## Bonded Wizard",
 			"",
-			"**Source** [Cohorts and Companions pg. 17](source:cohorts_and_companions)  ",
+			"**Source** [Cohorts and Companions pg. 17](source/cohorts_and_companions)  ",
 			"Many wizards form an arcane bond with an item, but for some this bond becomes a powerful mystic union.",
 			"",
 			"**Arcane Bond (Ex):** A bonded wizard must select an item as her arcane bond. The bonded object's hit point and hardness increase by +1 per level the bonded wizard possesses.",
@@ -169,7 +169,7 @@
 		"description": [
 			"## Cheliax: Egorian Academy Infernal Binder",
 			"",
-			"**Source** [Inner Sea Primer pg. 29](source:inner_sea_primer)  ",
+			"**Source** [Inner Sea Primer pg. 29](source/inner_sea_primer)  ",
 			"The prestigious Egorian Academy of the Magical Arts in Cheliax's capital city teaches a full spectrum of magic, both specialized and universalist, but the college is best known for its Infernal Binding program in the school of conjuration. An infernal binder learns the Names of Hell, and can use those powers to summon and bind devils to do her bidding. If she makes a single mistake in the binding, she opens herself to an eternity of torment. Egorian Academy wizards are recognized across Avistan as premier practitioners of the arcane arts. Many hold high positions in magical colleges across Golarion, but most seek to return one day to teach at their alma mater in Egorian.",
 			"",
 			"**Associated School:** Conjuration.",
@@ -239,7 +239,7 @@
 		"description": [
 			"## Clocksmith",
 			"",
-			"**Source** [Construct Handbook pg. 10](source:construct_handbook)  ",
+			"**Source** [Construct Handbook pg. 10](source/construct_handbook)  ",
 			"Clocksmiths are oddities among wizard communities, pursuing the study and creation of clockwork constructs to near obsession. These wizards favor mechanical experiments over other arcane pursuits.",
 			"",
 			"**Clockwork Bond (Ex):** A clocksmith forms a bond with one of his clockwork creations and begins play with a constructed familiar. He must select this familiar as his arcane bond. The constructed familiar functions as a typical familiar of its type except as noted here. The construct familiar is always a construct with the clockwork subtype. A construct familiar grants only half of its typical bonus (minimum +1 bonus) from its special familiar ability to its master.",
@@ -250,11 +250,11 @@
 			"",
 			"This replaces the school powers granted by the wizard's arcane school.",
 			"",
-			"**Craft Construct:** A clocksmith gains [Craft Construct](feat:craft_construct) as a bonus feat, even if he does not meet the prerequisites. He can create any construct, but he increases the cost required to create constructs without the clockwork subtype by 50%.",
+			"**Craft Construct:** A clocksmith gains [Craft Construct](feat/craft_construct) as a bonus feat, even if he does not meet the prerequisites. He can create any construct, but he increases the cost required to create constructs without the clockwork subtype by 50%.",
 			"",
 			"This replaces Scribe Scroll.",
 			"",
-			"**Familiar Tinkering (Ex):** At 5th level, a clocksmith learns to improve upon his clockwork familiar. A clocksmith can grant his familiar 1 evolution point worth of [eidolon evolutions](unknown:eidolon_evolutions) for every 5 wizard levels he has, though he can't select any evolutions that require a specific base form. Each time the clocksmith gains a level, he can change his familiar's evolutions. These evolutions stack with those from the [Evolved Familiar](feat:evolved_familiar) feat.",
+			"**Familiar Tinkering (Ex):** At 5th level, a clocksmith learns to improve upon his clockwork familiar. A clocksmith can grant his familiar 1 evolution point worth of [eidolon evolutions](unknown/eidolon_evolutions) for every 5 wizard levels he has, though he can't select any evolutions that require a specific base form. Each time the clocksmith gains a level, he can change his familiar's evolutions. These evolutions stack with those from the [Evolved Familiar](feat/evolved_familiar) feat.",
 			"",
 			"This replaces the bonus feats gained at 5th, 10th, 15th, and 20th levels."
 		],
@@ -276,7 +276,7 @@
 		"description": [
 			"## Cruoromancer",
 			"",
-			"**Source** [Advanced Race Guide pg. 98](source:advanced_race_guide)  ",
+			"**Source** [Advanced Race Guide pg. 98](source/advanced_race_guide)  ",
 			"To those who know how to manipulate it, the blood of a dhampir can be a powerful component to magic. A cruoromancer infuses his necromantic magic with the power of his unique mixture of living blood and undead ichor. As his power increases in this strange arcane art, a cruoromancer finds potent ways to infuse his unique blood with necromancy spells. A cruoromancer has the following class features.",
 			"",
 			"**Blood Infusion (Su):** When a cruoromancer casts a spell of the necromancy school, he can opt to infuse that spell with his undead-tainted blood as a swift action. As he increases in level, the power and effects of such infusions become more potent. Each time a cruoromancer uses blood infusion, he drains a portion of his own blood either by cutting himself with a blade or by opening a scab from a previous wound. When he does this, he takes an amount of damage equal to 1d4 + the level of the spell being infused. A cruoromancer can only affect a spell with a single type of blood infusion. At 1st level, he can infuse his necromancy spells in either of the following ways.",
@@ -321,7 +321,7 @@
 		"description": [
 			"## Elder Mythos Scholar",
 			"",
-			"**Source** [Horror Adventures pg. 74](source:horror_adventures)  ",
+			"**Source** [Horror Adventures pg. 74](source/horror_adventures)  ",
 			"Elder Mythos scholars risk their sanity to seek knowledge of alien and awful entities from beyond the stars.",
 			"",
 			"**Arcane Bond:** An Elder Mythos scholar must choose to bond with an object, inscribing that object with eldritch runes.",
@@ -361,7 +361,7 @@
 		"description": [
 			"## Exploiter Wizard",
 			"",
-			"**Source** [Advanced Class Guide pg. 133](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 133](source/advanced_class_guide)  ",
 			"Contrary to traditional wizardly study, an exploiter wizard forgoes the tried and true methods of arcane focus and arcane schools for the exploits favored by an arcanist. Some wizards regard this blatant exploitation of arcane magic as somehow \"cheating,\" but most exploiters believe this prejudice is close-minded and overly traditional.",
 			"",
 			"**Arcane Reservoir (Su):** At 1st level, the exploiter wizard gains the arcanist's arcane reservoir class feature. The exploiter wizard uses his wizard level as his arcanist level for determining how many arcane reservoir points he gains at each level. This ability replaces arcane bond.",
@@ -386,7 +386,7 @@
 		"description": [
 			"## Familiar Adept",
 			"",
-			"**Source** [Familiar Folio pg. 8](source:familiar_folio)  ",
+			"**Source** [Familiar Folio pg. 8](source/familiar_folio)  ",
 			"Many wizards employ familiars to assist them, but only a few have unlocked the true power of their school of magic through the familiar itself.",
 			"",
 			"**Diminished Expertise:** A familiar adept doesn't gain Scribe Scroll at 1st level or the wizard's bonus feats at 5th and 10th levels. He must also choose one additional opposition school, even if he is a universalist.",
@@ -415,16 +415,16 @@
 		"description": [
 			"## First World Caller",
 			"",
-			"**Source** [Heroes from the Fringe pg. 17](source:heroes_from_the_fringe)  ",
+			"**Source** [Heroes from the Fringe pg. 17](source/heroes_from_the_fringe)  ",
 			"Some wizards, typically First World gnomes, have mystical ties with the First World, the primordial home of the fey. This bond allows them to more easily conjure creatures and effects from the First World, giving them the nickname of First World callers.",
 			"",
 			"**Fey Familiar:** A First World caller must select a familiar as his arcane bond. This familiar is often the fey creature that was created when the First World caller's soul passed through the First World on the way to being born. The familiar counts as both an animal and a fey for the purposes of effects that depend on its type, rather than counting as a magical beast. It gains only half the normal natural armor bonus for a familiar based on the First World caller's level (rounded down, minimum 0), and it doesn't grant its special familiar ability to its master. Instead, the familiar gains the fey-touched creature template (see sidebar). At 10th level, the familiar grows a pair of delicate, gossamer wings, gaining a fly speed equal to its land speed and average maneuverability. If the familiar could already fly, its maneuverability improves by one step instead.",
 			"",
 			"This alters arcane bond.",
 			"",
-			"**Fey Summoner:** A First World caller is able to conjure fey creatures. He gains [Augment Summoning](feat:augment_summoning) as a bonus feat. He adds the following creatures to the [summon monster](spell:summon_monster_1) list of the same level, allowing him to summon them with the appropriate [summon monster](spell:summon_monster) spell: 1st-grimple (gremlin), mite, sprite; 2nd-atomie, fuath (gremlin), nixie; 3rd- leprechaun, nuglub (gremlin), pooka; 4th-kelpie, korred, twigjack; 5th-lampad, lurker in light, swan maiden; 6th-cold rider, oceanid, sangoi; 7th-alp, bogeyman, ijiraq; 8th-banelight, fastachee, rusalka; 9th-ankou, kamaitachi, wild hunt archer.",
+			"**Fey Summoner:** A First World caller is able to conjure fey creatures. He gains [Augment Summoning](feat/augment_summoning) as a bonus feat. He adds the following creatures to the [summon monster](spell/summon_monster_1) list of the same level, allowing him to summon them with the appropriate [summon monster](spell/summon_monster) spell: 1st-grimple (gremlin), mite, sprite; 2nd-atomie, fuath (gremlin), nixie; 3rd- leprechaun, nuglub (gremlin), pooka; 4th-kelpie, korred, twigjack; 5th-lampad, lurker in light, swan maiden; 6th-cold rider, oceanid, sangoi; 7th-alp, bogeyman, ijiraq; 8th-banelight, fastachee, rusalka; 9th-ankou, kamaitachi, wild hunt archer.",
 			"",
-			"This ability is a function of the First World caller himself, and it applies even if he uses a scroll, wand, or other magic item to cast a [summon monster](spell:summon_monster) spell. If he creates such an item and it is used by another character, the spell functions as an ordinary [summon monster](spell:summon_monster) spell.",
+			"This ability is a function of the First World caller himself, and it applies even if he uses a scroll, wand, or other magic item to cast a [summon monster](spell/summon_monster) spell. If he creates such an item and it is used by another character, the spell functions as an ordinary [summon monster](spell/summon_monster) spell.",
 			"",
 			"This replaces arcane school and Scribe Scroll.",
 			"",
@@ -453,7 +453,7 @@
 		"description": [
 			"## Hallowed Necromancer",
 			"",
-			"**Source** [Horror Adventures pg. 74](source:horror_adventures)  ",
+			"**Source** [Horror Adventures pg. 74](source/horror_adventures)  ",
 			"Many wizards study necromancy to create undead, but some study the same arts to purge the stain of undeath.",
 			"",
 			"**Arcane School:** A hallowed necromancer must specialize in the school of necromancy and swear never to create undead.",
@@ -498,7 +498,7 @@
 		"description": [
 			"## Instructor",
 			"",
-			"**Source** [Cohorts and Companions pg. 31](source:cohorts_and_companions)  ",
+			"**Source** [Cohorts and Companions pg. 31](source/cohorts_and_companions)  ",
 			"Whether serving as staff at a formal school of magic or simply acting as a wandering teacher, an instructor has an apprentice who trades service to the instructor for lessons in magic.",
 			"",
 			"**Apprentice (Ex):** At 1st level, an instructor acquires the services of a loyal apprentice. She functions similarly to a cohort, though your apprentice begins as a 1st-level commoner with Magical Aptitude as their 1st-level feat and NPC ability scores (13, 12, 11, 10, 9, 8 before racial modifiers). When the instructor reaches 3rd level, if his Leadership score is at least 2, the apprentice becomes a 1st-level wizard of the same school specialization as the instructor, and she gains heroic ability scores (15, 14, 13, 12, 10, 8 before racial modifiers). The apprentice never gains item creation feats, but otherwise follows the normal rules for a cohort.",
@@ -526,7 +526,7 @@
 		"description": [
 			"## Pact Wizard (FF)",
 			"",
-			"**Source** [Familiar Folio pg. 8](source:familiar_folio)  ",
+			"**Source** [Familiar Folio pg. 8](source/familiar_folio)  ",
 			"Some wizards make bargains with beings from other realms in order to gain arcane power. These pact wizards have unparalleled access to extraplanar allies, but these bonds never come without strings attached.",
 			"",
 			"**Familiar (Ex):** A pact wizard must select a familiar for his arcane bond. The familiar's loyalty ultimately lies with the pact wizard's patron, and it reports back to the patron on the wizard's activities. This ability alters arcane bond.",
@@ -560,7 +560,7 @@
 		"description": [
 			"## Pact Wizard (HHH)",
 			"",
-			"**Source** [Haunted Heroes Handbook pg. 20](source:haunted_heroes_handbook)  ",
+			"**Source** [Haunted Heroes Handbook pg. 20](source/haunted_heroes_handbook)  ",
 			"While the art of wizardry is usually a scholar's pursuit, there are those who seek mastery of arcane power without tedious study and monotonous research. Motivated by foolish ambition, such individuals turn to the greatest enigmas of the cosmos in the hopes of attaining greater power. Though few successfully attract the attention of these forces, those who do receive phenomenal arcane power for their efforts, but become the dutiful playthings and servants of the forces with which they consort.",
 			"",
 			"Effortless Magic (Ex)",
@@ -598,7 +598,7 @@
 		"description": [
 			"## Poleiheira Adherent",
 			"",
-			"**Source** [Blood of the Ancients pg. 16](source:blood_of_the_ancients)  ",
+			"**Source** [Blood of the Ancients pg. 16](source/blood_of_the_ancients)  ",
 			"Poleiheira adherents are wizards who wish to emulate the explorations and discoveries of Arustun and partake in great odysseys as they seek to imitate his achievements. These adherents bond to a book in tribute to Arustun and his extensive journals-known as the Poleiheira. This allows them to record their travels as well as any lost magic and lore they encounter.",
 			"",
 			"**Bonded Book (Sp):** A Poleiheira adherent forms a bond with a spellbook. This bonded book becomes intrinsically tied to a Poleiheira adherent's conscious and subconscious mind. The book always opens to the right page, and she can record any number of spells and other information in her bonded book-when she turns pages, more blank pages appear. Other wizards find it difficult to read the book, which displays information in a seemingly random order: the DC of all Spellcraft checks to copy or prepare spells from the book increases by 10.",
@@ -633,7 +633,7 @@
 		"description": [
 			"## Primalist",
 			"",
-			"**Source** [Inner Sea Magic pg. 37](source:inner_sea_magic)  ",
+			"**Source** [Inner Sea Magic pg. 37](source/inner_sea_magic)  ",
 			"A primalist is a wizard who has spent a considerable amount of time studying the chaos that is primal magic-she seeks order in chaos, and hopes to master the raw power of primal magic to bolster her own abilities. A primalist wizard has the following class features.",
 			"",
 			"**Primal Magic (Su):** At 1st level, a primalist may attempt to channel primal magic as a swift action to cast a prepared spell without losing that spell from its spell slot. Essentially, a primalist is forcing primal magic into the world and attempting to shape it into a specific spell effect. To use this ability, she casts the spell as she would normally, but as the spell's effects take place, she makes a concentration check (DC 20 + double the spell's level). If she fails this check, she expends the spell normally as if she had cast it, but its actual effects are replaced by a primal magic event with a CR equal to her caster level and she is staggered for 1 round per level of the spell she was attempting to cast. If she makes this check, she casts the spell normally and it is not expended from her prepared spell slot, allowing her to cast that spell again at a later point.",
@@ -659,7 +659,7 @@
 		"description": [
 			"## Qadira: Mage of the Veil",
 			"",
-			"**Source** [Inner Sea Primer pg. 29](source:inner_sea_primer)  ",
+			"**Source** [Inner Sea Primer pg. 29](source/inner_sea_primer)  ",
 			"The city of Katheer is home to a great number of arcane colleges in the Qadiran tradition. Magic has a proud history in this land; its many schools compete with one another to find the best route to understanding the secrets of power.",
 			"",
 			"Among these is the focused school of veil magic. Rather than controlling the elements or transforming the environment, mages of the veil focus on much more subtle magic-blending into their surroundings to watch, observe, and gather secrets, or fading from view completely for the sake of solitude. Most graduates of this college enter the service of the satrap as spies, scouts, or infiltrators.",
@@ -693,7 +693,7 @@
 		"description": [
 			"## Runesage",
 			"",
-			"**Source** [Adventurer's Guide pg. 58](source:adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 58](source/adventurer's_guide)  ",
 			"Runesages draw upon the mystic energies of ancient Thassilon. While they sometimes experiment with the same heinous techniques exploited by the runelords, runesages temper their explorations into classic Thassilonian mysteries with moderation and empathy, maintaining balance by using small gemstones as the foci for their spellcasting. Runesages are experts at identifying spell effects associated with Thassilonian magic. As most of Thassilon's mysteries remain buried, runesages remain ever curious and continue to seek out new locations that hide secrets caches of Thassilonian magic.",
 			"",
 			"**Runic Focus (Su):** A runesage can use her knowledge of runes to create a runic focus, a small, semiprecious stone engraved with Thassilonian runes that she manipulates to alter her spellcasting abilities. In function, a runic focus behaves like an ioun stone. To activate a runic focus, the runesage must meditate on it as she prepares her spells. Following spell preparation, she tosses the gemstone into the air, after which it orbits around her head. A runic focus remains in orbit until the next time the runesage prepares her spells. A runic focus automatically functions as a runesage's bonded object.",
@@ -722,7 +722,7 @@
 		"description": [
 			"## Scroll Scholar",
 			"",
-			"**Source** [Pathfinder Society Field Guide pg. 26](source:pathfinder_society_field_guide)  ",
+			"**Source** [Pathfinder Society Field Guide pg. 26](source/pathfinder_society_field_guide)  ",
 			"A scroll scholar values knowledge and learning as much as her other abilities, trading a portion of her potential in her chosen class for greater breadth of skill at deciphering old texts, piecing together strange fragments of esoteric lore, and deciphering the hidden qualities of strange and unusual magical items. The scroll scholar archetype can be taken by either clerics or wizards-they give up different class abilities for the new abilities granted by this archetype. A wizard must either be a universalist wizard or a diviner wizard in order to take this archetype-other types of school specializations are not suited to this archetype's focus. A scroll scholar has the following class features.",
 			"",
 			"**Diligent Student (Ex):** At 1st level, a scroll scholar chooses one Knowledge skill. This becomes a class skill if it is not already one. The scroll scholar adds half her class level to all Knowledge checks of this type (minimum 1). At 5th level and every five levels thereafter, a scroll scholar chooses 1 additional Knowledge skill to receive this bonus. For clerics, this ability replaces one of the 1st-level granted powers from her domains-the character gets to choose which of her two 1st-level granted powers it replaces. For wizards, this ability replaces diviner's fortune (if a diviner) or hand of the apprentice (if a universalist).",
@@ -746,7 +746,7 @@
 		"description": [
 			"## Scrollmaster",
 			"",
-			"**Source** [Ultimate Magic pg. 89](source:ultimate_magic)  ",
+			"**Source** [Ultimate Magic pg. 89](source/ultimate_magic)  ",
 			"To some wizards, a scroll is not just a written form of a spell, it is a physical weapon meant to be used in combat like a sword or a shield. These strange wizards enter battle armed with scrolls, often one in each in each hand, practicing combat techniques resembling some monk martial arts.",
 			"",
 			"**Scroll Blade (Su):** A scrollmaster can wield any paper, parchment, or cloth scroll as if it were a melee weapon. In the hands of the wizard, the scroll acts as a short sword with an enhancement bonus equal to 1/2 the level of the highest-level wizard spell on the scroll; a scroll with only a cantrip or 1st-level spell on it counts as a masterwork short sword. The scrollmaster is proficient in this weapon, and feats and abilities that affect short swords (such as Weapon Focus) apply to this weapon. A scrollmaster cannot wield two scrollblades at the same time.",
@@ -785,7 +785,7 @@
 		"description": [
 			"## Shadowcaster",
 			"",
-			"**Source** [Inner Sea Magic pg. 39](source:inner_sea_magic)  ",
+			"**Source** [Inner Sea Magic pg. 39](source/inner_sea_magic)  ",
 			"Trained in the dark mysteries of Nidal's Umbral Court and its Kuthonite dogma, your training allows you to harness the power of shadows to bolster your spellcasting. A shadowcaster has the following class features.",
 			"",
 			"**Shadow Spells (Su):** At 1st level, a shadowcaster uses his shadow to prepare additional spells. He must spend his entire period of spell preparation in dim illumination to use this ability. He may prepare a number of additional spell levels of spells equal to the level of the highestlevel wizard spell he can cast. For example, if he can cast 6th-level wizard spells, he could prepare six 1st-level spells, two 3rd level-spells, or any similar combination that adds up to a total of six spell levels. These spells are stored in his shadow. He can only cast these spells when he is in an area of normal light or dim light. He gains Shadowtongue as a bonus language. This ability replaces arcane bond.",
@@ -811,7 +811,7 @@
 		"description": [
 			"## Siege Mage",
 			"",
-			"**Source** [Ultimate Combat pg. 75](source:ultimate_combat)  ",
+			"**Source** [Ultimate Combat pg. 75](source/ultimate_combat)  ",
 			"The siege mage combines his arcane mastery with a supernatural link to siege engines.",
 			"",
 			"**Siege Engineer:** At 1st level, the siege mage gains Siege Engineer as a bonus feat, even though he does not meet the prerequisites for that feat. This ability replaces scribe scroll.",
@@ -837,7 +837,7 @@
 		"description": [
 			"## Spell Sage",
 			"",
-			"**Source** [Advanced Class Guide pg. 133](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 133](source/advanced_class_guide)  ",
 			"A spell sage has mastered spells of all types, and is able to increase the effectiveness of his own spells and eventually even cast spells from other classes' spell lists. While most wizards focus on a school, the spell sage looks at the particular aspects of individual spells and is not afraid to modify them with interesting bits of insight to gain deeper understandings of the formulae.",
 			"",
 			"**Focused Spells (Su):** At 1st level, once per day the spell sage's understanding of spells allows him to increase his caster level by 4 for a single spell cast. He can do this twice per day at 8th level, and three times per day at 16th level. This ability replaces arcane bond.",
@@ -860,7 +860,7 @@
 		"description": [
 			"## Spellbinder",
 			"",
-			"**Source** [Advanced Race Guide pg. 25](source:advanced_race_guide)  ",
+			"**Source** [Advanced Race Guide pg. 25](source/advanced_race_guide)  ",
 			"A spellbinder is an elven wizard who forges an arcane bond between himself and one or more wizard spells. These spells become so well understood by the spellbinder that he can prepare them in spell slots that already have other spells prepared in them.",
 			"",
 			"**Spell Bond (Su):** At 1st level, a spellbinder selects any one spell that he knows as a bonded spell. As a full-round action, the spellbinder may replace a spell of the same or higher level as his bonded spell with his bonded spell. For example, a spellbinder who selects magic missile as his bonded spell could spend a full-round action to exchange any 1st-level or higher spell that he has prepared with magic missile. At 3rd level, and every two levels thereafter, a spellbinder may select another spell he knows and add it to his list of bonded spells, to a maximum of nine bonded spells at 17th level.",
@@ -886,7 +886,7 @@
 		"description": [
 			"## Spellslinger",
 			"",
-			"**Source** [Ultimate Combat pg. 75](source:ultimate_combat)  ",
+			"**Source** [Ultimate Combat pg. 75](source/ultimate_combat)  ",
 			"While few contest the seductive allure of commanding arcane and occult powers, there are those wizards who become obsessed with the natural mysteries of black powder. Combining this emerging technology with their considerable arcane skills, they transform firearms into a powerful focus.",
 			"",
 			"**Arcane Gun (Su):** The spellslinger gains the Exotic Weapon Proficiency (firearms) feat, and one or two of his firearms can be arcane guns. Arcane guns are normal one-handed or two-handed firearms in the hands of others, as they were normal firearms before the spellslinger imbued them with magic. In a spellslinger's hands, they both fire projectiles (bullets and pellets) and cast magic. At 1st level, the spellslinger decides whether he wants to have one or two arcane guns at a time. If the spellslinger chooses to have only one arcane gun at a time, spells fired through the arcane gun that require an attack roll have a &times;3 critical hit multiplier.",
@@ -918,7 +918,7 @@
 		"description": [
 			"## Spirit Binder",
 			"",
-			"**Source** [Familiar Folio pg. 9](source:familiar_folio)  ",
+			"**Source** [Familiar Folio pg. 9](source/familiar_folio)  ",
 			"While most wizards learn their arts through gradual study, spirit binders have made a sudden arcane breakthrough due to the traumatic experience of losing a loved one.",
 			"",
 			"**Soulbound Familiar (Ex):** A spirit binder must select a familiar for his arcane bond. Unlike in a normal familiar-summoning ritual, a spirit binder created his special familiar through a dangerous ritual catalyzed by the death of a loved one. Before the loved one's spirit passed on to the Boneyard, the spirit binder was able to bind the spirit to an animal or vermin, which then became his familiar.",
@@ -947,7 +947,7 @@
 		"description": [
 			"## Spirit Whisperer",
 			"",
-			"**Source** [Advanced Class Guide pg. 133](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 133](source/advanced_class_guide)  ",
 			"Spirit whisperers are a breed apart among wizards, and are often mistaken for witches. While spirit whisperers do gain and store their spells by communing with familiars, the spirits they gain guidance from are somewhat closer to the world and more direct than the powers with which witches typically traffic. These wizards treat such spirits as mentors and friends, conversing with them rather than appeasing them in the effort to gain and use arcane knowledge.",
 			"",
 			"**Arcane Bond (Ex):** When a spirit whisperer chooses an arcane bond, he must choose the familiar arcane bond, and the familiar gains the spirit animal ability of his selected spirit (see spirit link, below). The spirit whisperer does not need a spellbook, but instead stores and prepares his spell by communing with the familiar as the witch's familiar class feature (Advanced Player's Guide 67). This ability alters arcane bond and replaces the spellbook class feature.",
@@ -973,7 +973,7 @@
 		"description": [
 			"## Sword Binder",
 			"",
-			"**Source** [Arcane Anthology pg. 11](source:arcane_anthology)  ",
+			"**Source** [Arcane Anthology pg. 11](source/arcane_anthology)  ",
 			"Sword binders follow a tradition of martial wizards who often worked with the Church of Aroden and the crowns of Taldor and then Cheliax. Once common in Absalom, Cheliax, and Taldor, where they were frequently battlefield commanders, historians, and expedition leaders, they have become much rarer over the past century.",
 			"",
 			"**Arcane Bond:** A sword binder must choose a sword as his bonded item. He gains proficiency with it. This alters arcane bond.",
@@ -1002,7 +1002,7 @@
 		"description": [
 			"## Thassilonian Specialist",
 			"",
-			"**Source** [Inner Sea Magic pg. 17](source:inner_sea_magic)  ",
+			"**Source** [Inner Sea Magic pg. 17](source/inner_sea_magic)  ",
 			"Only wizards can truly follow the ancient philosophies created by Thassilon's runelords, for only wizards have the capability to specialize in a school of magic.",
 			"",
 			"The choice to specialize in a Thassilonian school of magic must be made when a character first becomes a wizard. Once the choice to do so is made, it cannot be changed.",
@@ -1050,7 +1050,7 @@
 		"description": [
 			"## Undead Master",
 			"",
-			"**Source** [Horror Adventures pg. 75](source:horror_adventures)  ",
+			"**Source** [Horror Adventures pg. 75](source/horror_adventures)  ",
 			"Undead masters have great power over undeath.",
 			"",
 			"**Necromantic Focus:** An undead master must be of an evil alignment. If he becomes nonevil, he can still use his powers but can't progress any further as a wizard. Most undead masters specialize in the necromancy school, and an undead master can't have necromancy as an opposition school.",
@@ -1094,7 +1094,7 @@
 		"description": [
 			"## Wind Listener",
 			"",
-			"**Source** [Advanced Race Guide pg. 158](source:advanced_race_guide)  ",
+			"**Source** [Advanced Race Guide pg. 158](source/advanced_race_guide)  ",
 			"The wind listener takes a sylph's natural curiosity to the extreme, enhancing his natural skill at subterfuge and eavesdropping with potent arcane magic. A wind listener has the following class features.",
 			"",
 			"**Class Skills:** A wind listener adds Perception to his list of class skills.",
@@ -1128,7 +1128,7 @@
 		"description": [
 			"## Worldseeker",
 			"",
-			"**Source** [Planar Adventures pg. 21](source:planar_adventures)  ",
+			"**Source** [Planar Adventures pg. 21](source/planar_adventures)  ",
 			"Worldseekers are wizards who travel to all corners of the Great Beyond. While neophytes must content themselves with study and practice, the most powerful worldseekers are movers and shakers throughout the Great Beyond, power players of whom even demigods take note. Worldseekers are rare sights on Golarion, but among those few, more are trained in Kyonin and Nex than any other nation; those in Kyonin explore the potential of using elf gates to travel beyond this realm, while those in Nex emulate some of the dimensional exploits of Nex's legendary founder.",
 			"",
 			"Most worldseekers prefer not to specialize in a school of magic, for having a diverse array of available spells is a boon when exploring the countless wonders of the Great Beyond. Those who do specialize usually do so as conjurers. Conjuration is a poor choice of oppositional school for a worldseeker.",

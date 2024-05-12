@@ -3,7 +3,7 @@
 	"_description": [
 		"## Unique Patrons",
 		"",
-		"**Source** [Blood of the Coven pg. 15](source:blood_of_the_coven)  ",
+		"**Source** [Blood of the Coven pg. 15](source/blood_of_the_coven)  ",
 		"Witch patrons are enigmatic entities, sometimes fair minded and other times malevolent. Some are demigods or powerful spirits, such as those that grant shamans their spellcasting. Others are manifestations of cosmic forces, created by the certainty of mortals and the fundamental need for balance in much the same way aeons manifest. While kindly patrons are rare-attracting worshipers more readily than agents-the majority are high-minded and neutral figures. They dispense arcane power to those whose interests and mindsets align with their needs, and once a witch drifts from the cause or refuses to pay the price for such power, her patron divests the spellcaster of her powers and departs. Wicked patrons enjoy longer-lasting relationships, however, manipulating the witches' minds and punishing disobedience in a manner far more personal than an evil god. The familiar of a wicked patron becomes equal parts power source and prison guard, forever studying its charge for disobedience.",
 		"",
 		"The various published witch patron themes present a wide array of concepts and priorities to align with a large variety of supernatural beings. Some specific patrons, however, might offer variations within the spells they grant. Special patrons swap out the spells normally provided by a patron theme at specific levels, and grant a specific hex and drawback at 1st level. Once a specific patron has been selected, a witch cannot change her patron or raise a hand against that entity without losing her spellcasting, hexes, and familiar. These categories are limited in the patron themes they can provide; their witches must select from one of the four listed for each entry. These patrons are extraordinary examples of their kind, often invested with unique or mythic powers and pursuing long-term agendas measured in centuries or eons."
@@ -22,7 +22,7 @@
 			"",
 			"**Available Patron Themes:** Endurance, Healing, Light, Portents",
 			"",
-			"**Spell Changes:** 4th-[castigate](spell:castigate), 10th-[rebuke](spell:rebuke), 16th-[greater planar ally (good outsiders only)](spell:greater_planar_ally)."
+			"**Spell Changes:** 4th-[castigate](spell/castigate), 10th-[rebuke](spell/rebuke), 16th-[greater planar ally (good outsiders only)](spell/greater_planar_ally)."
 		]
 	},
 	"empath": {
@@ -36,7 +36,7 @@
 			"",
 			"**Available Patron Themes:** Ancestors, Mind, Spirits, Wisdom",
 			"",
-			"**Spell Changes:** 2nd-[burst of insight](spell:burst_of_insight), 6th-[analyze aura](spell:analyze_aura), 10th-[retrocognition](spell:retrocognition)."
+			"**Spell Changes:** 2nd-[burst of insight](spell/burst_of_insight), 6th-[analyze aura](spell/analyze_aura), 10th-[retrocognition](spell/retrocognition)."
 		]
 	},
 	"fey_gifts": {
@@ -50,7 +50,7 @@
 			"",
 			"**Available Patron Themes:** Agility, Enchantment, Trickery, Winter",
 			"",
-			"**Spell Changes:** 2nd-[disguise self](spell:disguise_self), 4th-[hideous laughter](spell:hideous_laughter), 16th-[irresistible dance](spell:irresistible_dance)."
+			"**Spell Changes:** 2nd-[disguise self](spell/disguise_self), 4th-[hideous laughter](spell/hideous_laughter), 16th-[irresistible dance](spell/irresistible_dance)."
 		]
 	},
 	"green_whispers": {
@@ -64,7 +64,7 @@
 			"",
 			"**Available Patron Themes:** Animals, Endurance, Moon, Transformation",
 			"",
-			"**Spell Changes:** 2nd-[entangle](spell:entangle), 6th-[plant growth](spell:plant_growth), 10th-[tree stride](spell:tree_stride)."
+			"**Spell Changes:** 2nd-[entangle](spell/entangle), 6th-[plant growth](spell/plant_growth), 10th-[tree stride](spell/tree_stride)."
 		]
 	},
 	"hag's_calling": {
@@ -78,7 +78,7 @@
 			"",
 			"**Available Patron Themes:** Moon, Plague, Shadow, Vengeance",
 			"",
-			"**Spell Changes:** 2nd-[disguise self](spell:disguise_self), 8th-[sending](spell:sending), 10th-[commune (hag/patron rather than deity)](spell:commune)."
+			"**Spell Changes:** 2nd-[disguise self](spell/disguise_self), 8th-[sending](spell/sending), 10th-[commune (hag/patron rather than deity)](spell/commune)."
 		]
 	},
 	"infernal_contract": {
@@ -92,7 +92,7 @@
 			"",
 			"**Available Patron Themes:** Enchantment, Strength, Trickery, Vengeance",
 			"",
-			"**Spell Changes:** 8th-[lesser planar ally](spell:lesser_planar_ally), 12th-[planar ally](spell:planar_ally), 16th-[greater planar ally (your bonus spells can be used to summon only the type of outsider your patron represents)](spell:greater_planar_ally)."
+			"**Spell Changes:** 8th-[lesser planar ally](spell/lesser_planar_ally), 12th-[planar ally](spell/planar_ally), 16th-[greater planar ally (your bonus spells can be used to summon only the type of outsider your patron represents)](spell/greater_planar_ally)."
 		]
 	},
 	"shadowbound": {
@@ -106,7 +106,7 @@
 			"",
 			"**Available Patron Themes:** Death, Deception, Ethereal, Shadow",
 			"",
-			"**Spell Changes:** 8th-[shadow conjuration](spell:shadow_conjuration), 12th-[shadow walk](spell:shadow_walk), 16th-[greater shadow evocation](spell:greater_shadow_evocation)."
+			"**Spell Changes:** 8th-[shadow conjuration](spell/shadow_conjuration), 12th-[shadow walk](spell/shadow_walk), 16th-[greater shadow evocation](spell/greater_shadow_evocation)."
 		]
 	},
 	"the_condition_of_all": {
@@ -120,7 +120,7 @@
 			"",
 			"**Available Patron Themes:** Elements, Time, Transformation, Wisdom",
 			"",
-			"**Spell Changes:** 2nd-[forbid action](spell:forbid_action), 8th-[dismissal](spell:dismissal), 12th-[geas/quest](spell:geas/quest)."
+			"**Spell Changes:** 2nd-[forbid action](spell/forbid_action), 8th-[dismissal](spell/dismissal), 12th-[geas/quest](spell/geas_quest)."
 		]
 	},
 	"touched_by_the_outer_gods": {
@@ -134,7 +134,7 @@
 			"",
 			"**Available Patron Themes:** Insanity, Occult, Stars, Transformation",
 			"",
-			"Spell Changes: 2nd-[lesser confusion](spell:lesser_confusion), 8th-[dreadscape](spell:dreadscape), 10th-[compelling rant](spell:compelling_rant)."
+			"Spell Changes: 2nd-[lesser confusion](spell/lesser_confusion), 8th-[dreadscape](spell/dreadscape), 10th-[compelling rant](spell/compelling_rant)."
 		]
 	}
 }

@@ -10,7 +10,7 @@
 		"searchable_name": "Assassinate",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Assassinate&ast; (Ex)** ([Ultimate Combat](source:ultimate_combat)) A ninja with this master trick can kill foes that are unable to defend themselves. To attempt to assassinate a target, the ninja must first study her target for 1 round as a standard action. On the following round, if the ninja makes a sneak attack against the target and the target is denied its Dexterity bonus to AC, the sneak attack has the additional effect of possibly killing the target. This attempt automatically fails if the target recognizes the ninja as an enemy. If the sneak attack is successful and the target of this attack fails a Fortitude save, it dies. The DC of this save is equal to 10 + 1/2 the ninja's level + the ninja's Charisma modifier. If the save is successful, the target still takes the sneak attack damage as normal, but it is immune to that ninja's assassinate ability for 1 day."
+			"**Assassinate&ast; (Ex)** ([Ultimate Combat](source/ultimate_combat)) A ninja with this master trick can kill foes that are unable to defend themselves. To attempt to assassinate a target, the ninja must first study her target for 1 round as a standard action. On the following round, if the ninja makes a sneak attack against the target and the target is denied its Dexterity bonus to AC, the sneak attack has the additional effect of possibly killing the target. This attempt automatically fails if the target recognizes the ninja as an enemy. If the sneak attack is successful and the target of this attack fails a Fortitude save, it dies. The DC of this save is equal to 10 + 1/2 the ninja's level + the ninja's Charisma modifier. If the save is successful, the target still takes the sneak attack damage as normal, but it is immune to that ninja's assassinate ability for 1 day."
 		]
 	},
 	"acceleration_of_form_su": {
@@ -18,7 +18,7 @@
 		"searchable_name": "Acceleration of Form",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
-			"**Acceleration of Form (Su)** ([Chronicle of Legends](source:chronicle_of_legends)) A ninja with this trick can spend 1 ki point as a standard action to gain the benefits of [displacement](spell:displacement) and [haste](spell:haste) for 1 round per 2 ninja levels."
+			"**Acceleration of Form (Su)** ([Chronicle of Legends](source/chronicle_of_legends)) A ninja with this trick can spend 1 ki point as a standard action to gain the benefits of [displacement](spell/displacement) and [haste](spell/haste) for 1 round per 2 ninja levels."
 		]
 	},
 	"advanced_talent": {
@@ -26,7 +26,7 @@
 		"typeless": true,
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Advanced Talent** ([Ultimate Combat](source:ultimate_combat)) The ninja can select a rogue talent from the list of Advanced Talents in place of a ninja trick. The ninja cannot select a rogue talent that has the same name as a ninja trick. The ninja cannot select improved evasion unless she has evasion (either as a class feature or as a ninja master trick)."
+			"**Advanced Talent** ([Ultimate Combat](source/ultimate_combat)) The ninja can select a rogue talent from the list of Advanced Talents in place of a ninja trick. The ninja cannot select a rogue talent that has the same name as a ninja trick. The ninja cannot select improved evasion unless she has evasion (either as a class feature or as a ninja master trick)."
 		]
 	},
 	"all_the_stars_in_the_sky_ex": {
@@ -34,7 +34,7 @@
 		"searchable_name": "All the Stars in the Sky",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
-			"**All the Stars in the Sky (Ex)** ([Chronicle of Legends](source:chronicle_of_legends)) Certain master ninjas possess a seemingly limitless supply of their trusted weapons. Whenever a ninja with this trick buys a set of 50 identical magic shuriken, she thereafter replenishes them at no cost and never runs out. This stock of magical shuriken can be upgraded as though it were a normal magic weapon, and shuriken upgraded this way likewise never run out."
+			"**All the Stars in the Sky (Ex)** ([Chronicle of Legends](source/chronicle_of_legends)) Certain master ninjas possess a seemingly limitless supply of their trusted weapons. Whenever a ninja with this trick buys a set of 50 identical magic shuriken, she thereafter replenishes them at no cost and never runs out. This stock of magical shuriken can be upgraded as though it were a normal magic weapon, and shuriken upgraded this way likewise never run out."
 		]
 	},
 	"blinding_bomb_ex": {
@@ -42,7 +42,7 @@
 		"searchable_name": "Blinding Bomb",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Blinding Bomb (Ex)** ([Ultimate Combat](source:ultimate_combat)) Whenever the ninja throws a smoke bomb, all living creatures in the cloud must make a Fortitude save or be blinded by the black smoke for 1d4 rounds. The DC of this saving throw is equal to 10 + 1/2 the ninja's level + the ninja's Charisma modifier. This trick cannot be combined with a choking bomb, but the ninja can combine a blinding bomb with a poison bomb. The ninja must have the choking bomb ninja trick before selecting this trick."
+			"**Blinding Bomb (Ex)** ([Ultimate Combat](source/ultimate_combat)) Whenever the ninja throws a smoke bomb, all living creatures in the cloud must make a Fortitude save or be blinded by the black smoke for 1d4 rounds. The DC of this saving throw is equal to 10 + 1/2 the ninja's level + the ninja's Charisma modifier. This trick cannot be combined with a choking bomb, but the ninja can combine a blinding bomb with a poison bomb. The ninja must have the choking bomb ninja trick before selecting this trick."
 		]
 	},
 	"deadly_shuriken_ex": {
@@ -50,7 +50,7 @@
 		"searchable_name": "Deadly Shuriken",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Deadly Shuriken (Ex)** ([Ultimate Combat](source:ultimate_combat)) As a full-round action, a ninja with this master trick can take careful aim and pool all of her attack potential into a single, deadly shuriken throw. When she does this, she throws a single shuriken at a single target, but makes as many attack rolls as she can, based on her base attack bonus. She makes the attack rolls in order from highest bonus to lowest, as if she were making a full attack. If any of the attack rolls hit the target, the attack hits. For each additional successful attack roll beyond the first, the ninja increases the damage by 1d6. Precision damage and extra damage from weapon special abilities (such as flaming) are added with damage modifiers and are not increased by this advanced talent. If one or more rolls are critical threats, she confirms the critical once using her highest base attack bonus -5. For each critical threat beyond the first, she reduces this penalty by 1 (to a maximum of 0)."
+			"**Deadly Shuriken (Ex)** ([Ultimate Combat](source/ultimate_combat)) As a full-round action, a ninja with this master trick can take careful aim and pool all of her attack potential into a single, deadly shuriken throw. When she does this, she throws a single shuriken at a single target, but makes as many attack rolls as she can, based on her base attack bonus. She makes the attack rolls in order from highest bonus to lowest, as if she were making a full attack. If any of the attack rolls hit the target, the attack hits. For each additional successful attack roll beyond the first, the ninja increases the damage by 1d6. Precision damage and extra damage from weapon special abilities (such as flaming) are added with damage modifiers and are not increased by this advanced talent. If one or more rolls are critical threats, she confirms the critical once using her highest base attack bonus -5. For each critical threat beyond the first, she reduces this penalty by 1 (to a maximum of 0)."
 		]
 	},
 	"deep_cover_ex": {
@@ -58,7 +58,7 @@
 		"searchable_name": "Deep Cover",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
-			"**Deep Cover (Ex)** ([Martial Arts Handbook](source:martial_arts_handbook)) A ninja with this trick gains the dual identity and seamless guise class feature as a [vigilante](class:vigilante), except that the ninja can spend 1 ki point to change identities as a move action. The ninja's identities are referred to as social and ninja, rather than social and vigilante."
+			"**Deep Cover (Ex)** ([Martial Arts Handbook](source/martial_arts_handbook)) A ninja with this trick gains the dual identity and seamless guise class feature as a [vigilante](class/vigilante), except that the ninja can spend 1 ki point to change identities as a move action. The ninja's identities are referred to as social and ninja, rather than social and vigilante."
 		]
 	},
 	"evasion_ex": {
@@ -66,7 +66,7 @@
 		"searchable_name": "Evasion",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Evasion (Ex)** ([Ultimate Combat](source:ultimate_combat)) A ninja can avoid even magical and unusual attacks with great agility. If she makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, she instead takes no damage. Evasion can be used only if the ninja is wearing light armor or no armor. A helpless ninja does not gain the benefit of evasion."
+			"**Evasion (Ex)** ([Ultimate Combat](source/ultimate_combat)) A ninja can avoid even magical and unusual attacks with great agility. If she makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, she instead takes no damage. Evasion can be used only if the ninja is wearing light armor or no armor. A helpless ninja does not gain the benefit of evasion."
 		]
 	},
 	"false_face_su": {
@@ -74,7 +74,7 @@
 		"searchable_name": "False Face",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
-			"**False Face (Su)** ([Chronicle of Legends](source:chronicle_of_legends)) Like [oni](monster/family:oni) who take mortal shapes to infiltrate society, some ninjas can mold their flesh to pass unsuspected. A ninja with this trick gains the [change shape](unknown:change_shape) (any Small or Medium humanoid, [alter self](spell:alter_self)) universal monster rule as long as she has at least 1 ki point."
+			"**False Face (Su)** ([Chronicle of Legends](source/chronicle_of_legends)) Like [oni](monster/family/oni) who take mortal shapes to infiltrate society, some ninjas can mold their flesh to pass unsuspected. A ninja with this trick gains the [change shape](unknown/change_shape) (any Small or Medium humanoid, [alter self](spell/alter_self)) universal monster rule as long as she has at least 1 ki point."
 		]
 	},
 	"feat": {
@@ -82,7 +82,7 @@
 		"typeless": true,
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Feat** ([Ultimate Combat](source:ultimate_combat)) A ninja may gain any feat that she qualifies for in place of a ninja trick."
+			"**Feat** ([Ultimate Combat](source/ultimate_combat)) A ninja may gain any feat that she qualifies for in place of a ninja trick."
 		]
 	},
 	"fractured_mirror_su": {
@@ -90,7 +90,7 @@
 		"searchable_name": "Fractured Mirror",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
-			"**Fractured Mirror (Su)** ([Chronicle of Legends](source:chronicle_of_legends)) By sending phantom selves across the battlefield, one may fight as many. When a ninja with this trick uses the shadow clone ninja trick, she gains an additional clone for every 3 ninja levels she has, to a maximum of eight clones. In addition, while she has shadow clones deployed, the ninja can cause any number of her clones to split from herself as part of a move action. The shadow clones move up to the ninja's speed at her will each time she uses a move action to move. Shadow clones separated in this way are not considered part of the shadow clone trick until they return to the ninja's square, though they can still be destroyed while separated. Shadow clones separated from the ninja have an AC equal to the ninja's AC - 5 and cannot take any actions, though they can provide flanking. Shadow clones do not occupy any space and a creature can freely enter a shadow clone's square. The ninja must have the shadow clone ninja trick to select this trick."
+			"**Fractured Mirror (Su)** ([Chronicle of Legends](source/chronicle_of_legends)) By sending phantom selves across the battlefield, one may fight as many. When a ninja with this trick uses the shadow clone ninja trick, she gains an additional clone for every 3 ninja levels she has, to a maximum of eight clones. In addition, while she has shadow clones deployed, the ninja can cause any number of her clones to split from herself as part of a move action. The shadow clones move up to the ninja's speed at her will each time she uses a move action to move. Shadow clones separated in this way are not considered part of the shadow clone trick until they return to the ninja's square, though they can still be destroyed while separated. Shadow clones separated from the ninja have an AC equal to the ninja's AC - 5 and cannot take any actions, though they can provide flanking. Shadow clones do not occupy any space and a creature can freely enter a shadow clone's square. The ninja must have the shadow clone ninja trick to select this trick."
 		]
 	},
 	"ghost_step_su": {
@@ -98,7 +98,7 @@
 		"searchable_name": "Ghost Step",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Ghost Step (Su)** ([Ultimate Combat](source:ultimate_combat)) As a swift action, a ninja with this trick can pass through walls as if she were a ghost. Until the end of her turn, she can pass through a wall or other surface that is up to 5 feet thick per level as if she were incorporeal. She must exit the solid material by the end of her turn. Each use of this ability uses up 1 ki point."
+			"**Ghost Step (Su)** ([Ultimate Combat](source/ultimate_combat)) As a swift action, a ninja with this trick can pass through walls as if she were a ghost. Until the end of her turn, she can pass through a wall or other surface that is up to 5 feet thick per level as if she were incorporeal. She must exit the solid material by the end of her turn. Each use of this ability uses up 1 ki point."
 		]
 	},
 	"greater_ki_venom_ex": {
@@ -106,7 +106,7 @@
 		"searchable_name": "Greater Ki Venom",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
-			"**Greater Ki Venom (Ex)** ([Martial Arts Handbook](source:martial_arts_handbook)) A ninja with this trick can further improve her ki venom. The ninja can spend 2 ki points to increase the damage die to a d8 or spend 2 ki points to change the ability damage dealt to Constitution damage. The ninja must have the ki venom ninja trick before selecting this trick."
+			"**Greater Ki Venom (Ex)** ([Martial Arts Handbook](source/martial_arts_handbook)) A ninja with this trick can further improve her ki venom. The ninja can spend 2 ki points to increase the damage die to a d8 or spend 2 ki points to change the ability damage dealt to Constitution damage. The ninja must have the ki venom ninja trick before selecting this trick."
 		]
 	},
 	"invisible_blade_su": {
@@ -114,7 +114,7 @@
 		"searchable_name": "Invisible Blade",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Invisible Blade (Su)** ([Ultimate Combat](source:ultimate_combat)) Whenever a ninja uses the vanishing trick ninja trick, she is treated as if she were under the effects of greater invisibility. The ninja must have the vanishing trick ninja trick before selecting this ninja trick."
+			"**Invisible Blade (Su)** ([Ultimate Combat](source/ultimate_combat)) Whenever a ninja uses the vanishing trick ninja trick, she is treated as if she were under the effects of greater invisibility. The ninja must have the vanishing trick ninja trick before selecting this ninja trick."
 		]
 	},
 	"kami_warden_su": {
@@ -122,7 +122,7 @@
 		"searchable_name": "Kami Warden",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
-			"**Kami Warden (Su)** ([Chronicle of Legends](source:chronicle_of_legends)) Ninjas can act as bodyguards as well as assassins or spies; some mystically emulate the relationship between [kami](monster/family:kami) and their wards when protecting their charges. A ninja with this trick gains [Bodyguard](feat:bodyguard) and [In Harm's Way](feat:in_harm's_way) as bonus feats, ignoring their prerequisites. When using In Harm's Way to intercept an attack, the ninja can spend 1 ki point to gains DR 10/cold iron and resistance 10 to acid, electricity, and fire for that attack."
+			"**Kami Warden (Su)** ([Chronicle of Legends](source/chronicle_of_legends)) Ninjas can act as bodyguards as well as assassins or spies; some mystically emulate the relationship between [kami](monster/family/kami) and their wards when protecting their charges. A ninja with this trick gains [Bodyguard](feat/bodyguard) and [In Harm's Way](feat/in_harm's_way) as bonus feats, ignoring their prerequisites. When using In Harm's Way to intercept an attack, the ninja can spend 1 ki point to gains DR 10/cold iron and resistance 10 to acid, electricity, and fire for that attack."
 		]
 	},
 	"kawarimi_su": {
@@ -130,7 +130,7 @@
 		"searchable_name": "Kawarimi",
 		"sources": [ "Champions of Balance" ],
 		"description": [
-			"**Kawarimi (Su)** ([Champions of Balance](source:champions_of_balance)) Once per day when a successful attack is made against a ninja with this ability, as an immediate action she can spend 1 ki point to attempt a Stealth check opposed by the attacker's Perception check. The ninja can attempt this check while being observed as long as she has cover or concealment (or an ability that allows her to attempt Stealth checks without cover or concealment). If she's successful, the opponent's attack hits an inanimate object that the attacker mistook for the ninja, and the ninja may move into an adjacent square and is hidden from the attacker."
+			"**Kawarimi (Su)** ([Champions of Balance](source/champions_of_balance)) Once per day when a successful attack is made against a ninja with this ability, as an immediate action she can spend 1 ki point to attempt a Stealth check opposed by the attacker's Perception check. The ninja can attempt this check while being observed as long as she has cover or concealment (or an ability that allows her to attempt Stealth checks without cover or concealment). If she's successful, the opponent's attack hits an inanimate object that the attacker mistook for the ninja, and the ninja may move into an adjacent square and is hidden from the attacker."
 		]
 	},
 	"many_guises_ex": {
@@ -138,7 +138,7 @@
 		"searchable_name": "Many Guises",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
-			"**Many Guises (Ex)** ([Martial Arts Handbook](source:martial_arts_handbook)) A ninja with this trick gains the [vigilante](class:vigilante) social talent of the same name. The ninja must have the deep cover ninja trick before selecting this trick."
+			"**Many Guises (Ex)** ([Martial Arts Handbook](source/martial_arts_handbook)) A ninja with this trick gains the [vigilante](class/vigilante) social talent of the same name. The ninja must have the deep cover ninja trick before selecting this trick."
 		]
 	},
 	"master_disguise_su": {
@@ -146,7 +146,7 @@
 		"searchable_name": "Master Disguise",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Master Disguise (Su)** ([Ultimate Combat](source:ultimate_combat)) A ninja with this trick can take on the appearance of other creatures and individuals. Whenever the ninja uses the sudden disguise ninja trick, the duration increases to 10 minutes per level. Alternatively, the ninja can use the sudden disguise ninja trick to take on the appearance of a specific individual that the ninja has seen before for 1 minute per level. Creatures that are familiar with the individual receive a Will saving throw to see through the illusion. The DC of this saving throw is 10 + 1/2 the ninja's level + the ninja's Charisma modifier. This illusion also changes the ninja's speech, if she has heard the individual talk and can speak his language. The ninja must have the sudden disguise ninja trick before selecting this trick."
+			"**Master Disguise (Su)** ([Ultimate Combat](source/ultimate_combat)) A ninja with this trick can take on the appearance of other creatures and individuals. Whenever the ninja uses the sudden disguise ninja trick, the duration increases to 10 minutes per level. Alternatively, the ninja can use the sudden disguise ninja trick to take on the appearance of a specific individual that the ninja has seen before for 1 minute per level. Creatures that are familiar with the individual receive a Will saving throw to see through the illusion. The DC of this saving throw is 10 + 1/2 the ninja's level + the ninja's Charisma modifier. This illusion also changes the ninja's speech, if she has heard the individual talk and can speak his language. The ninja must have the sudden disguise ninja trick before selecting this trick."
 		]
 	},
 	"occulted_soul_su": {
@@ -154,7 +154,7 @@
 		"searchable_name": "Occulted Soul",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
-			"**Occulted Soul (Su)** ([Martial Arts Handbook](source:martial_arts_handbook)) A ninja with this trick can still her mind to bypass magical detection. The ninja can spend 1 ki point to cast [nondetection](spell:nondetection) on herself as a spell-like ability, with a caster level equal to her ninja level."
+			"**Occulted Soul (Su)** ([Martial Arts Handbook](source/martial_arts_handbook)) A ninja with this trick can still her mind to bypass magical detection. The ninja can spend 1 ki point to cast [nondetection](spell/nondetection) on herself as a spell-like ability, with a caster level equal to her ninja level."
 		]
 	},
 	"see_the_unseen_su": {
@@ -162,7 +162,7 @@
 		"searchable_name": "See the Unseen",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**See the Unseen (Su)** ([Ultimate Combat](source:ultimate_combat)) A ninja with this trick learns how to see that which cannot be seen. As a swift action, the ninja can cast see invisibility, using her level as the caster level. Each use of this ability uses up 1 ki point."
+			"**See the Unseen (Su)** ([Ultimate Combat](source/ultimate_combat)) A ninja with this trick learns how to see that which cannot be seen. As a swift action, the ninja can cast see invisibility, using her level as the caster level. Each use of this ability uses up 1 ki point."
 		]
 	},
 	"shadow_split_su": {
@@ -170,7 +170,7 @@
 		"searchable_name": "Shadow Split",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Shadow Split (Su)** ([Ultimate Combat](source:ultimate_combat)) This trick allows the ninja to create an illusory double of herself that moves away from her, allowing the ninja to create a distraction. When she uses this ability, an illusory double appears and moves away from the ninja, heading in one direction. The double climbs walls, jumps pits, or simply passes through obstacles, moving at twice the ninja's speed in the direction indicated by the ninja when the ability is used. Its course cannot be changed. The double persists for 1 round per level of the ninja. Those who interact with the double receive a Will saving throw to recognize that it is fake. The DC of this save is 10 + 1/2 the ninja's level + the ninja's Charisma modifier. Each use of this ability uses up 1 ki point. The ninja must possess the shadow clone ninja trick before selecting this trick."
+			"**Shadow Split (Su)** ([Ultimate Combat](source/ultimate_combat)) This trick allows the ninja to create an illusory double of herself that moves away from her, allowing the ninja to create a distraction. When she uses this ability, an illusory double appears and moves away from the ninja, heading in one direction. The double climbs walls, jumps pits, or simply passes through obstacles, moving at twice the ninja's speed in the direction indicated by the ninja when the ability is used. Its course cannot be changed. The double persists for 1 round per level of the ninja. Those who interact with the double receive a Will saving throw to recognize that it is fake. The DC of this save is 10 + 1/2 the ninja's level + the ninja's Charisma modifier. Each use of this ability uses up 1 ki point. The ninja must possess the shadow clone ninja trick before selecting this trick."
 		]
 	},
 	"spiritual_companion_ex": {
@@ -178,7 +178,7 @@
 		"searchable_name": "Spiritual Companion",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
-			"**Spiritual Companion (Ex)** ([Chronicle of Legends](source:chronicle_of_legends)) While ninjas are accustomed to solitude, some form pacts with magical beings to seek aid and advice. A ninja with this trick gains an improved familiar, treating her ninja level as her wizard level. The ninja can select any of the following as her familiar: [calligraphy wyrm](monster:calligraphy_wyrm), [pipefox](monster:pipefox), [shikigami kami](monster:shikigami_kami), or [spirit oni](monster:spirit_oni). The ninja must have an alignment compatible with the chosen familiar."
+			"**Spiritual Companion (Ex)** ([Chronicle of Legends](source/chronicle_of_legends)) While ninjas are accustomed to solitude, some form pacts with magical beings to seek aid and advice. A ninja with this trick gains an improved familiar, treating her ninja level as her wizard level. The ninja can select any of the following as her familiar: [calligraphy wyrm](monster/calligraphy_wyrm), [pipefox](monster/pipefox), [shikigami kami](monster/shikigami_kami), or [spirit oni](monster/spirit_oni). The ninja must have an alignment compatible with the chosen familiar."
 		]
 	},
 	"unarmed_combat_mastery_ex": {
@@ -186,7 +186,7 @@
 		"searchable_name": "Unarmed Combat Mastery",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Unarmed Combat Mastery (Ex)** ([Ultimate Combat](source:ultimate_combat)) A ninja who selects this trick deals damage with her unarmed strikes as if she were a monk of her ninja level - 4. If the ninja has levels in monk, this ability stacks with monk levels to determine how much damage she can do with her unarmed strikes. A ninja must have the [Improved Unarmed Strike](feat:improved_unarmed_strike) feat before taking this trick."
+			"**Unarmed Combat Mastery (Ex)** ([Ultimate Combat](source/ultimate_combat)) A ninja who selects this trick deals damage with her unarmed strikes as if she were a monk of her ninja level - 4. If the ninja has levels in monk, this ability stacks with monk levels to determine how much damage she can do with her unarmed strikes. A ninja must have the [Improved Unarmed Strike](feat/improved_unarmed_strike) feat before taking this trick."
 		]
 	},
 	"unbound_steps_su": {
@@ -194,7 +194,7 @@
 		"searchable_name": "Unbound Steps",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Unbound Steps (Su)** ([Ultimate Combat](source:ultimate_combat)) This trick allows a ninja to use her ki to walk through the air. Whenever the ninja uses the light steps class feature, she can walk on air, rising or descending as she desires. She must end her move on a solid surface. Each use of this ability uses up 1 ki point."
+			"**Unbound Steps (Su)** ([Ultimate Combat](source/ultimate_combat)) This trick allows a ninja to use her ki to walk through the air. Whenever the ninja uses the light steps class feature, she can walk on air, rising or descending as she desires. She must end her move on a solid surface. Each use of this ability uses up 1 ki point."
 		]
 	}
 }

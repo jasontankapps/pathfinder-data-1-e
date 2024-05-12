@@ -16,7 +16,7 @@
 		"description": [
 			"## Antiquarian",
 			"",
-			"**Source** [Blood of the Ancients pg. 14](source:blood_of_the_ancients)  ",
+			"**Source** [Blood of the Ancients pg. 14](source/blood_of_the_ancients)  ",
 			"Antiquarians are collectors, explorers, and scholars who delve into ruined places in search of lost lore and artifacts.",
 			"",
 			"**Relic Magic (Su):** Antiquarians emulate Arustun, founder of the Jistka Imperium, by exploring and recording the remnants of lost civilizations. Rather than using extracts, an antiquarian carries a collection of holy and unholy symbols, charms, and trinkets. Though an antiquarian may never know who or what grants him his power, he can produce magical effects all the same. Relic magic functions as the alchemy class feature, except as noted below.",
@@ -57,7 +57,7 @@
 		"description": [
 			"## Bonded Investigator",
 			"",
-			"**Source** [Inner Sea Intrigue pg. 38](source:inner_sea_intrigue)  ",
+			"**Source** [Inner Sea Intrigue pg. 38](source/inner_sea_intrigue)  ",
 			"Bonded investigators use intelligent familiars to assist them in their investigations. They are common in the Inner Sea region's bustling cities, where a rat, cat, raven, or another small animal can go largely unnoticed.",
 			"",
 			"**Familiar (Ex):** At 2nd level, a bonded investigator gains a familiar to aid him. This familiar functions as the wizard arcane bond class feature, using the bonded investigator's class level to determine the familiar's special abilities. The bonded investigator's extracts are considered spells for the purposes of familiar abilities like share spell and deliver touch spells.",
@@ -95,7 +95,7 @@
 		"description": [
 			"## Cartographer",
 			"",
-			"**Source** [Ultimate Wilderness pg. 56](source:ultimate_wilderness)  ",
+			"**Source** [Ultimate Wilderness pg. 56](source/ultimate_wilderness)  ",
 			"Cartographers are eager trailblazers who explore uncharted terrain, study landmarks, and find new paths through the wilderness. They record this information meticulously so that those who follow in their footsteps can travel swiftly and safely within the studied area. Rather than studying poisons like many investigators do, cartographers use their alchemical expertise to create better inks that allow them to draw maps with incredible level of detail.",
 			"",
 			"**Studied Terrain (Ex):** At 2nd level, a cartographer can expend one use of inspiration to sketch a map and take notes of his surroundings. Drawing the map takes 10 minutes. While he is within the studied area, the cartographer can use inspiration on Acrobatics, Climb, Fly, Ride, Stealth, Survival, and Swim checks without expending a use of inspiration, provided he is trained in the skill. If he already has the ability to use inspiration on any of these skills without expending a use of inspiration, he gains an additional +1 bonus on checks with that skill while in the studied area.",
@@ -147,7 +147,7 @@
 		"description": [
 			"## Cipher",
 			"",
-			"**Source** [Ultimate Intrigue pg. 32](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 32](source/ultimate_intrigue)  ",
 			"A cipher is a student of nonexistence. He trains himself to remain undetected and ignored in order to conduct his investigations without opposition or bothersome questions. By staying unseen, a cipher can follow and observe his quarry; being overlooked in a crowd suits him just fine.",
 			"",
 			"**Unassuming (Ex):** A cipher relies on subtlety, rather than skills that would draw attention to him. A cipher removes Bluff, Diplomacy, Intimidate, and Perform from his list of class skills, and he can never use them with inspiration, regardless of any talents or other abilities he might have. A cipher can use his inspiration on any Disguise, Escape Artist, Knowledge (local), Sleight of Hand, and Stealth check without expending a use of inspiration, provided he is trained in the skill, instead of the normal investigator ability to use inspiration on any Knowledge, Linguistics, or Spellcraft check without expending a use of inspiration.",
@@ -203,7 +203,7 @@
 		"description": [
 			"## Conspirator",
 			"",
-			"**Source** [Ultimate Intrigue pg. 33](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 33](source/ultimate_intrigue)  ",
 			"A conspirator uses his knowledge of investigations to make sure he avoids any investigations that his rivals perform, carefully plotting acts of intrigue behind closed doors. Paranoid to a fault, a conspirator always seems to know when someone else is watching him, and he takes numerous precautions to prevent anyone from observing his most illict actions.",
 			"",
 			"**Underhanded (Ex):** Conspirators find their skill sets firmly aligned with the goals of the criminal underworld. At 1st level, a conspirator can use inspiration on any Bluff, Disable Device, Disguise, Intimidate, and Sleight of Hand check without expending a use of inspiration, provided he is trained in the skill, instead of on any Knowledge, Linguistics, and Spellcraft check. He can later choose to trade an investigator talent for the ability to use inspiration on any Knowledge, Linguistics, and Spellcraft check without expending a use of inspirtation, provided he is trained in the skill. A conspirator adds half his investigator level (minimum 1) on Bluff checks to appear innocent and on Disguise checks.",
@@ -233,7 +233,7 @@
 		"description": [
 			"## Cryptid Scholar",
 			"",
-			"**Source** [Magic Tactics Toolbox pg. 18](source:magic_tactics_toolbox)  ",
+			"**Source** [Magic Tactics Toolbox pg. 18](source/magic_tactics_toolbox)  ",
 			"Cryptid scholars research monsters that lurk secretly at the edge of civilization, developing a deep expertise regarding their anatomy, habits, and ecology. Most cryptid scholars are affiliated with the University of Lepidstadt, but spend more time away performing field work than they do consorting with their fellow scholars (many of whom find a cryptid scholar's peculiar specialty suspicious at best). Although competent as lone monster hunters, cryptid scholars excel when they have associates with whom to share their insights.",
 			"",
 			"**Intuitive Monster Lore (Ex):** A cryptid scholar adds his Wisdom modifier on Knowledge skill checks in addition to his Intelligence modifier when attempting skill checks to identify the abilities and weaknesses of creatures. At 5th level, a cryptid scholar can take 10 on such checks, even when threatened or distracted.",
@@ -273,7 +273,7 @@
 		"description": [
 			"## Cult Hunter",
 			"",
-			"**Source** [Horror Adventures pg. 54](source:horror_adventures)  ",
+			"**Source** [Horror Adventures pg. 54](source/horror_adventures)  ",
 			"Cult hunters seek out heretical secret societies, purging their ideological taint and banishing summoned servants.",
 			"",
 			"**Sense Madness (Ex):** A cult hunter adds a bonus equal to 1/2 his class level (minimum +1) on Sense Motive checks, or double that bonus to determine whether a creature suffers from natural or magical insanity.",
@@ -334,7 +334,7 @@
 		"description": [
 			"## Dread Investigator",
 			"",
-			"**Source** [Cohorts and Companions pg. 14](source:cohorts_and_companions)  ",
+			"**Source** [Cohorts and Companions pg. 14](source/cohorts_and_companions)  ",
 			"The dread investigator observes human behavior after the fact, honing their intuition by delving into the mysteries of death. They breach sealed tombs to recover research material rather than riches. Many join-or found-cults dedicated to Urgathoa, while others are simply researchers or Osirionologists who must become accustomed to undeath to pursue their work.",
 			"",
 			"**Delayed Inspiration:** A dread investigator gains inspiration at 4th level instead of 1st and gains studied combat and studied strike at 7th level instead of 4th. A dread investigator's studied strike deals 1d6 fewer points of damage than normal. This alters inspiration, studied combat, and studied strike.",
@@ -366,7 +366,7 @@
 		"description": [
 			"## Empiricist",
 			"",
-			"**Source** [Advanced Class Guide pg. 100](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 100](source/advanced_class_guide)  ",
 			"Champions of deductive reasoning and logical insight, empiricists put their faith in facts, data, confirmed observations, and consistently repeatable experiments-these things are their currency of truth.",
 			"",
 			"**Ceaseless Observation (Ex):** An empiricist's ability to notice the minutiae of almost everything that happens around him allows him to make shrewd and insightful calculations about people and even inanimate objects. At 2nd level, an empiricist uses his Intelligence modifier instead of the skill's typical ability for all Disable Device, Perception, Sense Motive, and Use Magic Device checks. He can also use his Intelligence modifier instead of Charisma on any Diplomacy checks made to gather information. This ability replaces poison lore and poison resistance.",
@@ -394,7 +394,7 @@
 		"description": [
 			"## Engineer",
 			"",
-			"**Source** [Construct Handbook pg. 13](source:construct_handbook)  ",
+			"**Source** [Construct Handbook pg. 13](source/construct_handbook)  ",
 			"A number of investigators use their vast knowledge to build machines that replicate the intricacies of the world. These investigators create devices to enhance the minds and bodies of their allies and themselves.",
 			"",
 			"**Custom Mechanism (Ex):** An engineer can create a mechanism, a small device that assists with the execution of an activity. Creating a mechanism requires 1 minute of time and expends 1 use from the engineer's inspiration pool. An engineer chooses a skill to associate with the mechanism when he creates it. As an immediate action, a mechanism can be activated to grant the engineer's inspiration die on a check of the associated skill. An engineer can create a mechanism that affects attack rolls or saving throws, but she expends 2 uses from her inspiration pool to do so. Any creature can use a mechanism, but a creature can have only 1 mechanism at a time, as multiple mechanisms interfere with each other while in close proximity. A mechanism remains active for a number of minutes equal to the engineer's Intelligence modifier (minimum 1). At 5th level, an engineer's mechanisms remain active for a number of minutes equal to the engineer's level. At 11th level, an engineer's mechanisms remain active for a number of hours equal to the engineer's level.",
@@ -423,7 +423,7 @@
 		"description": [
 			"## Forensic Physician",
 			"",
-			"**Source** [Ultimate Intrigue pg. 33](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 33](source/ultimate_intrigue)  ",
 			"A forensic physician specializes in analyzing medical details in order to solve crimes and uncover evidence. Whether it is a disease, blood work, a poison, or bones, the forensic physician's medical expertise allows him great insight into his cases, much to the chagrin of criminals who seek to cover up the nature of their crimes, even those with magical methods at their disposal.",
 			"",
 			"**Medical Expertise (Ex):** At 1st level, a forensic physician can use inspiration on any Heal checks without expending a use, if he is trained in the skill, but not on any Linguistics check. If he later takes the expanded inspiration investigator talent, he can use inspiration on Linguistic checks without expending a use, if he is trained in the skill. A forensic physician adds half his investigator level (minimum 1) on Heal checks. This bonus doubles on Heal checks to notice tampering with medical evidence, such as those used to defeat dress corpse",
@@ -462,7 +462,7 @@
 		"description": [
 			"## Gravedigger",
 			"",
-			"**Source** [Horror Adventures pg. 54](source:horror_adventures)  ",
+			"**Source** [Horror Adventures pg. 54](source/horror_adventures)  ",
 			"Gravediggers pursue long buried mysteries, figuratively and literally digging up the truth and finding answers to secrets only moldering corpses and dry bones can tell.",
 			"",
 			"**Weapon and Armor Proficiency:** A gravedigger is proficient with simple weapons and scythes, and can fight with gravediggers' tools such as a shovel or lantern as if she had the Catch Off-Guard feat. A gravedigger is proficient with light armor, but not with shields.",
@@ -517,7 +517,7 @@
 		"description": [
 			"## Guardian of Immortality",
 			"",
-			"**Source** [Inner Sea Intrigue pg. 41](source:inner_sea_intrigue)  ",
+			"**Source** [Inner Sea Intrigue pg. 41](source/inner_sea_intrigue)  ",
 			"Guardians of immortality are Thuvian investigators charged with hunting down those who would attempt to steal or learn for themselves the secret to creating the sun orchid elixir.",
 			"",
 			"**Guardian's Gaze (Ex):** At 2nd level, a guardian of immortality adds 1/2 his investigator level as a bonus on Sense Motive checks.",
@@ -568,7 +568,7 @@
 		"description": [
 			"## Hallucinist",
 			"",
-			"**Source** [Ultimate Intrigue pg. 34](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 34](source/ultimate_intrigue)  ",
 			"A hallucinist imbibes magical drugs to expand his mind into the psychedelic world, extending his awareness to things he could not normally perceive. While a hallucinist's body sways oddly under the effects of his hallucinogen, it grants him strange insights that reveal things to him that others can't see. Hallucinists know that others can't function with these expanded senses, and they use that fact to repurpose their hallucinations as distractions or assaults against their enemies.",
 			"",
 			"**Psychedelic Perception (Su):** In addition to magical extracts, a hallucinist learns to swiftly mix various psychoactive substances, using a fraction of his own power to create a magical hallucinogen that he can imbibe to grant himself powers of psychedelic perception. A hallucinogen follows all the normal rules and restrictions for an alchemist's mutagen as if they were the same substance, just as a cognatogen does.",
@@ -613,10 +613,10 @@
 		"description": [
 			"## Holomog Demolitionist",
 			"",
-			"**Source** [Heroes of Golarion pg. 18](source:heroes_of_golarion)  ",
+			"**Source** [Heroes of Golarion pg. 18](source/heroes_of_golarion)  ",
 			"Holomog is an ancient nation built on even more ancient ruins. Its renowned civil engineers develop skills that allow them to take full advantage of their environments.",
 			"",
-			"**Structural Knowledge (Ex):** At 2nd level, a Holomog demolitionist gains [Improved Sunder](feat:improved_sunder) as a bonus feat, even if he does not meet the prerequisites.",
+			"**Structural Knowledge (Ex):** At 2nd level, a Holomog demolitionist gains [Improved Sunder](feat/improved_sunder) as a bonus feat, even if he does not meet the prerequisites.",
 			"",
 			"This replaces poison lore.",
 			"",
@@ -692,7 +692,7 @@
 		"description": [
 			"## Jinyiwei",
 			"",
-			"**Source** [Blood of the Ancients pg. 19](source:blood_of_the_ancients)  ",
+			"**Source** [Blood of the Ancients pg. 19](source/blood_of_the_ancients)  ",
 			"Lung Wa's corruption and political decay led to its eventual collapse, but the empire did not spend its last decades in surrender. A special task force of secret police, known as the jinyiwei, was one of Lung Wa's last bulwarks against this decline. The jinyiwei were unable to save the empire; they failed in their mission to root out, expose, and counteract their government's existing wrongdoing, and the organization itself ultimately fell prey to the same political decline that rotted Lung Wa's bureaucracy. However, their legacy now inspires purists who seek out and eliminate corruption wherever they find it. Since the earthly government of Lung Wa has failed, these new jinyiwei claim they act under the celestial government's mandate.",
 			"",
 			"**Divine Inspiration:** A jinyiwei follows a mandate from Heaven to combat corruption in the mortal world. A jinyiwei adds her Wisdom modifier to her inspiration pool, rather than her Intelligence modifier. Additionally, rather than dabbling in the arcane arts of alchemy, a jinyiwei is empowered by the forces of celestial bureaucracy. She casts spells as an inquisitor of the same level.",
@@ -730,7 +730,7 @@
 		"description": [
 			"## Lamplighter",
 			"",
-			"**Source** [Heroes of the Streets pg. 17](source:heroes_of_the_streets)  ",
+			"**Source** [Heroes of the Streets pg. 17](source/heroes_of_the_streets)  ",
 			"Lamplighters are investigators tasked with keeping the night streets safe and lit, and securing darkened areas against whatever dangers lurk in the shadows. They also investigate those who seek to hide their crimes from the light of day.",
 			"",
 			"**Skills:** Perform and Profession are not class skills for a lamplighter. This ability alters the investigator's class skills.",
@@ -760,7 +760,7 @@
 		"description": [
 			"## Lepidstadt Inspector",
 			"",
-			"**Source** [Advanced Class Origins pg. 15](source:advanced_class_origins)  ",
+			"**Source** [Advanced Class Origins pg. 15](source/advanced_class_origins)  ",
 			"The ability of investigators trained at the University of Lepidstadt to get to the bottom of a mystery is legendary, and troubled settlements throughout the region often send petitions to the university requesting the aid of a formally trained inspector when some mystery threatens the community as a whole. These inspectors are tasked with assuming nothing and asking difficult and unpopular questions as necessary to get to the truth behind a problem. Inspectors are well-prepared to deal with mystical threats, but they are also mindful that what some claim are supernatural problems may well be just the result of more mundane threats such as bandits, wild beasts, or public hysteria.",
 			"",
 			"**Interrogation (Ex):** A Lepidstadt inspector is a master of harrying others until they cooperate with his investigations, and knows instinctively when the answers he receives are falsehoods. He adds 1/2 his class level (minimum 1) to Intimidate checks made to influence a creature's attitude and to Sense Motive checks. This ability replaces trapfinding.",
@@ -788,7 +788,7 @@
 		"description": [
 			"## Majordomo",
 			"",
-			"**Source** [Ultimate Intrigue pg. 35](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 35](source/ultimate_intrigue)  ",
 			"A majordomo is a skilled individual able to keep the complex operations of a noble's holdings running on a day-to-day basis. In a world of intrigue where the loyalties of staff can be bought and sold, sometimes it takes the skills of an investigator to follow the byzantine paper trails and prevent embezzling and espionage within the estates of the elite.",
 			"",
 			"**Paper Trail (Ex):** A majordomo is trained to uncover forgeries and trace down discrepancies in paperwork in order to ferret out intrigue. She adds half her investigator level (minimum 1) to Linguistics and Profession checks to spot a forgery, deal with paperwork, and notice discrepancies in paperwork.",
@@ -834,7 +834,7 @@
 		"description": [
 			"## Malice Binder",
 			"",
-			"**Source** [Blood of the Coven pg. 28](source:blood_of_the_coven)  ",
+			"**Source** [Blood of the Coven pg. 28](source/blood_of_the_coven)  ",
 			"A lock of hair, a bit of blood, even a footprint is enough to grant a wily witch hunter an edge. Malice binders often rise from the ranks of the common folk rather than from wealthy nobles or the church. Their magic is old and crude, but devastatingly effective against those they hunt.",
 			"",
 			"**Witch Lore (Ex):** Malice binders hunt and kill those who would plague the world with supernatural power. A malice binder can use inspiration on Knowledge (arcana), Spellcraft, Sleight of Hand, and Survival checks without expending a use of inspiration, provided he is trained in the skill, rather than on any Knowledge and Linguistics checks. He can later spend an investigator talent to gain the ability to use inspiration on any Knowledge and Linguistics checks.",
@@ -897,7 +897,7 @@
 		"description": [
 			"## Mastermind",
 			"",
-			"**Source** [Advanced Class Guide pg. 101](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 101](source/advanced_class_guide)  ",
 			"Although some investigators use their honed senses and cunning insight for personal gain, no one excels at such endeavors like the mastermind. Typically, these investigators dwell at the centers of complex networks of lies, minions, or simply precious information, from which they dispense commands, threats, and rumors, all carefully crafted to increase the power of their peculiar empires. While masterminds often act as the heads of illicit organizations like criminal families, thieves' guilds, or corruptionriddled bureaucracies, they aren't always evil.",
 			"",
 			"**Mastermind's Inspiration (Ex):** A mastermind can use inspiration on any Diplomacy and Intimidate checks without expending a use of inspiration, but can't do so for Linguistics or Spellcraft checks. This ability alters inspiration.",
@@ -934,7 +934,7 @@
 		"description": [
 			"## Natural Philosopher",
 			"",
-			"**Source** [Ultimate Wilderness pg. 56](source:ultimate_wilderness)  ",
+			"**Source** [Ultimate Wilderness pg. 56](source/ultimate_wilderness)  ",
 			"Natural philosophers are scholars, explorers, and survivalists who feel at home in nature, seldom longing for the comforts of the city. They eschew the fancy tools and weaponry of gentlefolk detectives and instead employ weapons that double as tools, materials available in nature, and methods better suited for untamed wilderness.",
 			"",
 			"**Weapon and Armor Proficiency:** A natural philosopher is proficient with simple weapons, plus the handaxe, kukri, shortbow, throwing axe, and whip. A natural philosopher is proficient with light armor but not with shields.",
@@ -975,7 +975,7 @@
 		"description": [
 			"## Portal Seeker",
 			"",
-			"**Source** [Planar Adventures pg. 18](source:planar_adventures)  ",
+			"**Source** [Planar Adventures pg. 18](source/planar_adventures)  ",
 			"While most investigators seek answers to mundane mysteries, portal seekers chase more unusual enigmas: portals to other planes. While in many cases, portal seekers are boons to their communities, performing public services such as discovering planar rifts and, as needed, closing unwanted ones, a portal seeker's goals are not necessarily benign.",
 			"",
 			"**Hunt Portal (Sp):** A portal seeker can try to locate an unseen magical portal within 60 feet by concentrating and attempting a DC 20 Knowledge (planes) check. If successful, the portal seeker becomes aware of the presence of all extradimensional portals (including those created by spells like rope trick or by magic items like bags of holding) in a 60-foot radius. If she concentrates for 3 rounds, she can pinpoint the locations of all portals in the area of effect. Some portals, at the GM's discretion, may be magically hidden and have a higher DC to detect.",
@@ -1020,7 +1020,7 @@
 		"description": [
 			"## Profiler",
 			"",
-			"**Source** [Horror Adventures pg. 55](source:horror_adventures)  ",
+			"**Source** [Horror Adventures pg. 55](source/horror_adventures)  ",
 			"Profilers understand the human psyche to an intense degree, allowing them to predict the criminals they hunt.",
 			"",
 			"**Expert Profiler (Ex):** A profiler gains a bonus equal to 1/2 his class level (minimum +1) on Sense Motive checks. At 2nd level, he can use inspiration on any Sense Motive check without expending a use of inspiration, provided he is trained in the skill.",
@@ -1033,7 +1033,7 @@
 			"",
 			"This ability replaces poison resistance and poison immunity.",
 			"",
-			"**Blood Sleuth (Sp):** At 4th level, a profiler can expend one use of his inspiration to use [discern next of kin](spell:discern_next_of_kin) as a spell-like ability. Alternatively, he can expend two uses of inspiration to use [blood biography](spell:blood_biography) as a spell-like ability.",
+			"**Blood Sleuth (Sp):** At 4th level, a profiler can expend one use of his inspiration to use [discern next of kin](spell/discern_next_of_kin) as a spell-like ability. Alternatively, he can expend two uses of inspiration to use [blood biography](spell/blood_biography) as a spell-like ability.",
 			"",
 			"This ability replaces swift alchemy.",
 			"",
@@ -1062,7 +1062,7 @@
 		"description": [
 			"## Psychic Detective",
 			"",
-			"**Source** [Occult Adventures pg. 119](source:occult_adventures)  ",
+			"**Source** [Occult Adventures pg. 119](source/occult_adventures)  ",
 			"A psychic detective supplements her keen insight with occult skill to unravel mysteries both ordinary and supernatural.",
 			"",
 			"**Class Skills:** The psychic detective does not receive Acrobatics, Climb, or Perform as class skills. This alters the investigator's class skills.",
@@ -1109,7 +1109,7 @@
 		"description": [
 			"## Questioner",
 			"",
-			"**Source** [Magic Tactics Toolbox pg. 26](source:magic_tactics_toolbox)  ",
+			"**Source** [Magic Tactics Toolbox pg. 26](source/magic_tactics_toolbox)  ",
 			"Dabblers in arcane magic and masters of stealth and guile, questioners are investigators who often find themselves mucking about in cases for less-than-savory clientele or that require an extra bit of subtlety. Although questioners are found in nearly every major city in the Inner Sea region, Ustalav has the highest concentration; many belong to the famed Sleepless Detectives, while others have trained to evade the notice of that acclaimed agency.",
 			"",
 			"**Inspiration for Subterfuge (Ex):** A questioner can use inspiration on any Knowledge, Linguistics, or Stealth checks he attempts without expending a use of inspiration, provided he's trained in that skill.",
@@ -1150,7 +1150,7 @@
 		"description": [
 			"## Reckless Epicurean",
 			"",
-			"**Source** [Potions and Poisons pg. 14](source:potions_and_poisons)  ",
+			"**Source** [Potions and Poisons pg. 14](source/potions_and_poisons)  ",
 			"Reckless epicureans are investigators who, for whatever reason, tend to test unknown concoctions on themselves. Whether an obsessive scientist, a healer determined to ensure the safety of her tinctures, or a seeker of new and interesting potions, a reckless epicurean's body is saturated with experimental chemicals and magic. She can prepare extracts without formulae by approximating the taste, and she can guzzle cursed concoctions without batting an eyelash.",
 			"",
 			"**A Familiar Taste (Ex):** At 2nd level, a reckless epicurean adds half her level as a bonus on Perception and Spellcraft checks to identify potions. The benefits she receives from poison resistance and poison immunity also apply against harmful potions and other ingested substances with negative effects, such as drugs.",
@@ -1187,7 +1187,7 @@
 		"description": [
 			"## Ruthless Agent",
 			"",
-			"**Source** [Antihero's Handbook pg. 27](source:antihero's_handbook)  ",
+			"**Source** [Antihero's Handbook pg. 27](source/antihero's_handbook)  ",
 			"Ruthless agents are often called upon for their skills at extracting information by any means necessary. Though some view their methods as extreme, ruthless agents prize getting the job done at all costs. Ruthless agents can be found in the employ of nearly any organization-even goodly groups whose leaders either don't know the extent of ruthless agents' zeal or are willing to look the other way to take advantage of these investigators' incredible efficiency.",
 			"",
 			"**Alignment:** Any nongood.",
@@ -1240,7 +1240,7 @@
 		"description": [
 			"## Scavenger",
 			"",
-			"**Source** [Blood of the Beast pg. 21](source:blood_of_the_beast)  ",
+			"**Source** [Blood of the Beast pg. 21](source/blood_of_the_beast)  ",
 			"**Scavengers are masters of systems:** how they fit together, why they work, and how to make the most of their parts. However, scavengers generally lack other investigative talents such as social skills or an understanding of history and lore. The ratfolk of Numeria excel at this art, but nearly every warren across Golarion boasts at least a few resourceful scavengers.",
 			"",
 			"**Gadgetry (Su):** A scavenger is a master of mechanical arts rather than alchemical ones, and he gains a competence bonus on Craft (clockwork) checks equal to his class level. He can use Knowledge (engineering) to identify wondrous items as if using detect magic and Spellcraft. A scavenger does not gain any bonuses to or special uses of the Craft (alchemy) skill.",
@@ -1278,7 +1278,7 @@
 		"description": [
 			"## Skeptic",
 			"",
-			"**Source** [Haunted Heroes Handbook pg. 11](source:haunted_heroes_handbook)  ",
+			"**Source** [Haunted Heroes Handbook pg. 11](source/haunted_heroes_handbook)  ",
 			"The skeptic accepts the existence of the occult world while challenging claims that the supernatural explains all of life's problems. Skeptics tirelessly strive to debunk the legends surrounding possessions and spiritual hauntings, but stand prepared on the off chance a legend turns out to be true. Though these strongwilled investigators master the art of identifying and overcoming haunts and possessions, they often revel in the thrill of revealing a more mundane truth.",
 			"",
 			"**Hauntfinding (Su):** At 1st level, a skeptic's knowledge of haunts allows her to notice them with ease, regardless of the methods by which the haunts make their presence known in the realm of the living. The skeptic adds 1/2 her level to all skill checks to notice haunts. If she notices a haunt, she adds this same bonus to any initiative check made as a result of that haunt activating. This bonus is an insight bonus.",
@@ -1312,7 +1312,7 @@
 		"description": [
 			"## Sleuth",
 			"",
-			"**Source** [Advanced Class Guide pg. 101](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 101](source/advanced_class_guide)  ",
 			"A sleuth is an investigator who relies on good fortune and guile rather than alchemy. Having no mystical energy intrinsic to her, she must forgo the more magical aspects of alchemy to solve her mysteries with wits, gumption, and the fickle consideration of luck.",
 			"",
 			"**Sleuth's Luck (Ex):** At 1st level, a sleuth gains a fluctuating pool of luck, measuring her ability to get out of scrapes. At the start of each day, a sleuth has a number of luck points equal to her Charisma modifier (minimum 1). Her luck goes up or down throughout the day, but usually cannot go higher than her Charisma modifier (minimum 1), though feats, magic items, and spells that grant either grit or panache points can also grant a sleuth luck points equal to the amount of grit or panache they grant. A sleuth spends luck to accomplish deeds (see below), and regains luck in the following ways.",
@@ -1366,7 +1366,7 @@
 		"description": [
 			"## Spiritualist",
 			"",
-			"**Source** [Advanced Class Guide pg. 102](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 102](source/advanced_class_guide)  ",
 			"While most investigators look to the physical world to gain their knowledge, there are those who seek out knowledge beyond the pale. Those who think that the dead tell no tales are quickly proven wrong by the spiritualist. Instead of toying with chemicals and reagents to find clues, he talks directly to the spirit world to uncover the ways and means of skullduggery and the desperate acts committed in the heat of dark passions.",
 			"",
 			"**Commune with Spirits (Sp):** Instead of relying on alchemical research to find clues, a spiritualist relies on communion with the world beyond death. At 1st level, a spiritualist gains the ability to use comprehend languages, detect secret doors, and identify, but each has a casting time of 1 minute, as the spiritualist needs to consult with the spirits of the dead that dwell in his area or that are somehow attached to him in some way. The spiritualist can use this ability a number of times per day equal to his investigator level + his Wisdom modifier.",
@@ -1405,7 +1405,7 @@
 		"description": [
 			"## Star Watcher",
 			"",
-			"**Source** [Ultimate Wilderness pg. 57](source:ultimate_wilderness)  ",
+			"**Source** [Ultimate Wilderness pg. 57](source/ultimate_wilderness)  ",
 			"Star watchers study the movements and positions of the sun, the moon, and the stars, searching for secrets written in the sky. They use a combination of scientific study and esoteric arts to measure, record, and predict astronomical cycles and their effects on nature, such as the moon's influence on tides and rivers. Some star watchers also use these observations to predict fate and significant events, such as natural disasters.",
 			"",
 			"**Weapon and Armor Proficiency:** A star watcher gains proficiency with the starknife, but not with the rapier.",
@@ -1452,7 +1452,7 @@
 		"description": [
 			"## Steel Hound",
 			"",
-			"**Source** [Advanced Class Guide pg. 103](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 103](source/advanced_class_guide)  ",
 			"Black powder and firearms are a natural extension of the alchemical experimentation that investigators use on a regular basis. Steel hounds are investigators who have taken to using firearms in place of the more mundane weapons their counterparts favor.",
 			"",
 			"**Weapon and Armor Proficiency:** Steel hounds are proficient with simple weapons, plus the rapier, the sap, and one type of firearm selected at 1st level. They are proficient in light armor, but not shields. This replaces the investigator's weapon and armor proficiencies.",
@@ -1484,7 +1484,7 @@
 		"description": [
 			"## Tekritanin Arbiter",
 			"",
-			"**Source** [Blood of the Ancients pg. 31](source:blood_of_the_ancients)  ",
+			"**Source** [Blood of the Ancients pg. 31](source/blood_of_the_ancients)  ",
 			"The Tekritanin League facilitated trade and settled disputes between a vast array of diverse cultures. The arbiters were the first line of diplomatic defense, solving problems before they could become disruptive.",
 			"",
 			"**Tekritanin (Ex):** A Tekritanin arbiter gains Tekritanin as a bonus language. Tekritanin is a fluid and evolving hybrid tongue which shares roots with many modern languages. When the arbiter speaks Tekritanin, any creature that speaks a common Inner Sea human language will understand him well enough to allow the arbiter to use the Diplomacy skill or affect the creature with language-dependent effects. At the GM's discretion, some human languages might be too divergent or unrelated to Tekritanin to use this ability immediately. In this case, the arbiter must interact with creatures speaking the language for at least 1 hour to permanently apply this ability to the foreign language. A Tekritanin arbiter adds 1/2 his level (minimum 1) to Linguistics checks.",
@@ -1521,7 +1521,7 @@
 		"description": [
 			"## Toxin Codexer",
 			"",
-			"**Source** [Potions and Poisons pg. 14](source:potions_and_poisons)  ",
+			"**Source** [Potions and Poisons pg. 14](source/potions_and_poisons)  ",
 			"While most investigators are well versed in the knowledge of poisons, the toxin codexer has made it a way of life. He meticulously seeks out new poisons and catalogs their effects, both those that are harmful and those that are potentially beneficial. A toxin codexer's detailed understanding of how his toxins work allows him to blend them with exact precision, creating even more deadly venoms or providing painful medicines for those in need.",
 			"",
 			"**Poison Lore (Ex):** A toxin codexer gains the poison lore ability at 1st level. This ability is otherwise identical to the investigator's poison lore class feature.",

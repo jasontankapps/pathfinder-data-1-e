@@ -17,7 +17,7 @@
 		"description": [
 			"## Arrow Champion",
 			"",
-			"**Source** [Ultimate Wilderness pg. 95](source:ultimate_wilderness)  ",
+			"**Source** [Ultimate Wilderness pg. 95](source/ultimate_wilderness)  ",
 			"While the swashbuckler's agile style of combat is equally suited to urban settings and wilderness, the bow and arrow is an indispensable asset in open areas and harsh terrain where fancy footwork isn't enough to close the distance or dodge the enemy's arrows.",
 			"",
 			"**Arrow Champion's Panache (Ex):** An arrow champion regains panache when she makes a killing blow with a light or one-handed piercing melee weapon or a bow (a longbow, shortbow, composite longbow, or composite shortbow).",
@@ -71,7 +71,7 @@
 		"description": [
 			"## Azatariel",
 			"",
-			"**Source** [Planar Adventures pg. 10](source:planar_adventures)  ",
+			"**Source** [Planar Adventures pg. 10](source/planar_adventures)  ",
 			"Azatariels are the champions of Elysium, dedicated to spreading its unpredictable whimsy and capricious goodness across the planes. Irrepressible and happy-golucky even in the face of the most tyrannical devil, azatariels take their name from the azatas that they emulate. In battle, azatariels exult in darting among their foes, heedless of danger. Mastery of combat's chaos allows azatariels to turn enemies' strikes against each other, while supernatural good fortune protects them from dire afflictions. When allies falter with fear or suffer the effects of dark magic, a compassionate gesture from an azatariel cures their ills and spurs them onward.",
 			"",
 			"**Alignment:** An azatariel must be chaotic good. If an azatariel changes alignment, she loses all abilities granted by this archetype until her alignment returns to chaotic good.",
@@ -124,7 +124,7 @@
 		"description": [
 			"## Courser",
 			"",
-			"**Source** [Blood of the Beast pg. 24](source:blood_of_the_beast)  ",
+			"**Source** [Blood of the Beast pg. 24](source/blood_of_the_beast)  ",
 			"Many tengus still hold some bitterness at their lack of wings, and while a small number cultivate enough magic in themselves to recall the gift of flight, those tengu denizens of Golarion's greatest cities have refined their own way to fly. Coursers move with grace and ease, racing across rooftops, dashing up walls, and clearing vast gaps between buildings. These daredevils clash for territory and rob vastly superior enemies, trusting in their incredible speed and mobility to keep them safe rather than resorting to swordplay.",
 			"",
 			"**Swift Target (Ex):** At 1st level, the courser gains Dodge as a bonus feat even if she does not meet the prerequisites. As long as she has at least 1 panache point and is wearing light armor or no armor, her base speed increases by 5 feet.",
@@ -169,7 +169,7 @@
 		"description": [
 			"## Daring Infiltrator",
 			"",
-			"**Source** [Advanced Class Guide pg. 124](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 124](source/advanced_class_guide)  ",
 			"Not known for their flashy entrances or for standing out in a crowd, a daring infiltrator uses stealth, disguise, and ruthless guile to pursue her goals. Some of these swashbucklers work to undermine evil organizations, while others are master thieves or mysterious assassins.",
 			"",
 			"**Class Skills:** A daring infiltrator gains Disguise and Stealth as class skills, but does not gain Diplomacy, Perform, and Profession as class skills. This alters the swashbuckler's class skill list.",
@@ -206,7 +206,7 @@
 		"description": [
 			"## Dashing Thief",
 			"",
-			"**Source** [Adventurer's Guide pg. 51](source:adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 51](source/adventurer's_guide)  ",
 			"The dashing thief relies on swift swordplay, dazzling charm, and spirited courage to commit audacious acts of thievery. Another thief might break into a noble's house by night, leaving none the wiser, but the dashing thief swings in through a window, charms the noble's servant into handing over the jewelry, and then duels her way out. Council of Thieves heists often involve at least one dashing thief, as their attention-grabbing antics can provide a distraction for subtler agents, and their combat skills can be vital in tight spots. The majority of the Council's dashing thieves are personally trained by Sabriune Misraria-between her renounced family's lust-fueled intrigues and their numerous enslaved succubi, the drow heretic has numerous sources for the tricks and stunts she teaches her agents.",
 			"",
 			"**Bold Thief (Ex):** A dashing thief fulfills the Council's larcenous goals with style. Her derring-do and swashbuckler's edge deeds apply to Disable Device and Sleight of Hand, but not to Fly and Ride. She adds Disable Device to her list of class skills, but does not have Fly or Ride as class skills.",
@@ -251,7 +251,7 @@
 		"description": [
 			"## Flying Blade",
 			"",
-			"**Source** [Advanced Class Guide pg. 124](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 124](source/advanced_class_guide)  ",
 			"While most swashbucklers prefer their battles up close, others prefer dealing death from a distance.",
 			"",
 			"**Panache:** Unlike other swashbucklers, a flying blade regains panache only when she confirms a critical hit or makes a killing blow with a dagger or starknife. This ability alters panache.",
@@ -294,7 +294,7 @@
 		"description": [
 			"## Guiding Blade",
 			"",
-			"**Source** [Ultimate Intrigue pg. 52](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 52](source/ultimate_intrigue)  ",
 			"While some swashbucklers are loners or glory hounds, always trying to take the credit for finishing off a foe with little regard for their allies, guiding blades focus their swordplay and panache on helping their allies. For a guiding blade, anything is possible when the right team comes together, and she learns how to protect and bolster her allies to ensure the team's victory. Instead of parrying attacks against her, a guiding blade redirects her enemies' ire away from her allies, interfering with enemies who attack her allies, whether that attack comes by blade or by spell.",
 			"",
 			"**Daring Teamwork (Ex):** A guiding blade uses her panache to inspire her allies to heights of teamwork they could never reach alone. At 1st level, a guiding blade gains a bonus teamwork feat. She gains an additional teamwork feat at 4th level and every 4 swashbuckler levels thereafter.",
@@ -339,7 +339,7 @@
 		"description": [
 			"## Inspired Blade",
 			"",
-			"**Source** [Advanced Class Guide pg. 125](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 125](source/advanced_class_guide)  ",
 			"An inspired blade is both a force of personality and a sage of swordplay dedicated to the perfection of combat with the rapier. They use the science and geometry with swordplay to beautiful and deadly effect.",
 			"",
 			"**Inspired Panache (Ex):** Each day, an inspired blade gains a number of panache points equal to her Charisma modifier (minimum 1) and Intelligence modifier (minimum 1), instead of just her Charisma modifier.",
@@ -373,7 +373,7 @@
 		"description": [
 			"## Mouser",
 			"",
-			"**Source** [Advanced Class Guide pg. 125](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 125](source/advanced_class_guide)  ",
 			"In the hands of a trained warrior, a well-sharpened blade is deadly regardless of size. A mouser moves in close, using her size and skill as an advantage.",
 			"",
 			"**Deeds:** The mouser gains the following deeds, each of which replaces an existing deed.",
@@ -404,7 +404,7 @@
 		"description": [
 			"## Musketeer",
 			"",
-			"**Source** [Advanced Class Guide pg. 126](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 126](source/advanced_class_guide)  ",
 			"A number of organizations and kingdoms search for warriors who are brave (or foolish) enough to wield firearms on the battlefield. The daring nature of swashbucklers often makes them ideal candidates for such service.",
 			"",
 			"**Weapon Proficiency:** A musketeer gains proficiency with all simple weapons and martial weapons, as well as onehanded and two-handed firearms. This ability replaces the swashbuckler's weapon proficiencies.",
@@ -435,7 +435,7 @@
 		"description": [
 			"## Mysterious Avenger",
 			"",
-			"**Source** [Advanced Class Guide pg. 126](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 126](source/advanced_class_guide)  ",
 			"While some swashbucklers fight for queen and country, and others for coin, glory, or just the enhancement of their own reputations, the mysterious avenger fights directly for a cause. Instead of gaining personal glory for her heroic deeds, she keeps her identity hidden in order to fight for those who cannot fight for themselves.",
 			"",
 			"**Alignment:** A mysterious avenger must be of a good alignment, and must be dedicated to the protection of the good and the powerless under her care. If she ceases to be good or betrays the trust of those she was sworn to protect, she loses her secret identity and greater charmed life class features. She can regain them if she atones for her violations by some means that the GM sees fit (possibly by way of the atonement spell if the mysterious avenger is especially religious).",
@@ -473,7 +473,7 @@
 		"description": [
 			"## Noble Fencer",
 			"",
-			"**Source** [Ultimate Intrigue pg. 52](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 52](source/ultimate_intrigue)  ",
 			"The noble fencer is an aristocrat or other upper-class socialite who trained in dueling from a young age. Noble fencers fight with their own style, with distinct differences from those of alley bravos or gladiatorial duelists. They use their quick wits and panache in both physical and social confrontations, and they rely on their training and discipline to emerge victorious, rather than merely trusting to luck.",
 			"",
 			"**Deeds:** A noble fencer gains the following deeds.",
@@ -517,14 +517,14 @@
 		"description": [
 			"## Okayo Corsair",
 			"",
-			"**Source** [Martial Arts Handbook pg. 11](source:martial_arts_handbook)  ",
+			"**Source** [Martial Arts Handbook pg. 11](source/martial_arts_handbook)  ",
 			"An Okayo corsair practices a unique acrobatic martial art that draws inspiration from both the mysticism of monastic combat traditions and the flair of a swashbuckler. This style originated among pirates of the Dragon Empires and has since spread and become popular in the Shackles.",
 			"",
 			"**Weapon and Armor Proficiency:** Okayo corsairs are proficient with simple weapons and all weapons from the monk weapon group, as well as light armor and bucklers.",
 			"",
 			"This replaces the swashbuckler's weapon and armor proficiency.",
 			"",
-			"**Okayo Finesse (Ex):** An Okayo corsair gains the benefits of the [Weapon Finesse](feat:weapon_finesse) feat with light or one-handed melee weapons from the monk weapon group, and she can use her Charisma score in place of Intelligence and Wisdom for the purpose of meeting prerequisites for combat feats. This ability counts as the [Weapon Finesse](feat:weapon_finesse) feat for the purpose of meeting feat prerequisites.",
+			"**Okayo Finesse (Ex):** An Okayo corsair gains the benefits of the [Weapon Finesse](feat/weapon_finesse) feat with light or one-handed melee weapons from the monk weapon group, and she can use her Charisma score in place of Intelligence and Wisdom for the purpose of meeting prerequisites for combat feats. This ability counts as the [Weapon Finesse](feat/weapon_finesse) feat for the purpose of meeting feat prerequisites.",
 			"",
 			"This replaces swashbuckler finesse.",
 			"",
@@ -538,7 +538,7 @@
 			"",
 			"This deed replaces menacing swordplay.",
 			"",
-			"**Slow Fall (Su):** At 7th level, the Okayo corsair can spend 1 panache point to slow her descent as per [feather fall](spell:feather_fall), treating her swashbuckler level as her caster level, provided that she is adjacent to a wall.",
+			"**Slow Fall (Su):** At 7th level, the Okayo corsair can spend 1 panache point to slow her descent as per [feather fall](spell/feather_fall), treating her swashbuckler level as her caster level, provided that she is adjacent to a wall.",
 			"",
 			"This deed replaces superior feint.",
 			"",
@@ -546,7 +546,7 @@
 			"",
 			"This deed replaces bleeding wound.",
 			"",
-			"**Abundant Step (Su):** At 15th level, an Okayo corsair can spend 2 panache points as a move action to move magically between spaces, as [dimension door](spell:dimension_door). Her caster level for this effect is equal to her swashbuckler level. She can't take other creatures with her when she uses this ability.",
+			"**Abundant Step (Su):** At 15th level, an Okayo corsair can spend 2 panache points as a move action to move magically between spaces, as [dimension door](spell/dimension_door). Her caster level for this effect is equal to her swashbuckler level. She can't take other creatures with her when she uses this ability.",
 			"",
 			"This deed replaces dizzying defense.",
 			"",
@@ -574,7 +574,7 @@
 		"description": [
 			"## Picaroon",
 			"",
-			"**Source** [Advanced Class Guide pg. 127](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 127](source/advanced_class_guide)  ",
 			"While some swashbucklers take pride in their ability to wear down an opponent with great skill at arms and clever positioning, there are those who use firearms to get in close and hit hard.",
 			"",
 			"**Weapon Proficiency:** A picaroon gains proficiency with all simple weapons and martial weapons, as well as one-handed firearms. This replaces the swashbuckler's weapon proficiency.",
@@ -609,7 +609,7 @@
 		"description": [
 			"## Rondelero Swashbuckler",
 			"",
-			"**Source** [Weapon Master's Handbook pg. 6](source:weapon_master's_handbook)  ",
+			"**Source** [Weapon Master's Handbook pg. 6](source/weapon_master's_handbook)  ",
 			"Rondelero swashbucklers are Taldan specialists in an aggressive, lightly armored fighting style that utilizes the falcata and buckler.",
 			"",
 			"**Falcata Emphasis (Ex):** At 1st level, a rondelero swashbuckler is proficient with falcatas and can treat a falcata as a one-handed piercing melee weapon for the purposes of the swashbuckler's finesse as well as all feats and class abilities that refer to such a weapon. This ability replaces the derring-do deed.",
@@ -647,7 +647,7 @@
 		"description": [
 			"## Rostland Bravo",
 			"",
-			"**Source** [Adventurer's Guide pg. 23](source:adventurer's_guide)  ",
+			"**Source** [Adventurer's Guide pg. 23](source/adventurer's_guide)  ",
 			"The Free City of Restov is host to numerous dueling schools, from the renowned Aldori Academy to tiny training grounds in blademasters' homes. Students of these schools are notoriously competitive, and street-corner duels at dawn and dusk are a constant of Restov life. In most cases, while these \"lesser schools\" do not teach official Aldori techniques, their methods mesh well with that signature style. Unsurprisingly, many students eventually train in the Aldori style, whether because they aspire to join the swordlords' ranks or simply for the challenge of mastering the legendary weapon. While some favor more technical approaches, others study flashier maneuvers, wielding the curved blade with artful flair. Disdainfully called \"bravos\" by classically trained rivals, students of this approach have claimed the label with pride. The Rostland bravos' most advanced techniques bear dragon-themed names as a snub to traditionalist Aldori swordlords, who have never forgotten their crushing defeat by Choral the Conqueror's dragons at the Valley of Fire.",
 			"",
 			"**Aldori Swashbuckler (Ex):** A Rostland bravo focuses on the Aldori dueling sword (see page 24), scorning the bucklers used by duelists of other styles. In addition, the relative safety and creature comforts allowed by life in the sprawling city of Restov reduces her need for athleticism. A Rostland bravo gains Exotic Weapon Proficiency (Aldori dueling sword) as a bonus feat. The Rostland bravo is not proficient with bucklers, and does not gain Climb or Swim as class skills.",
@@ -686,7 +686,7 @@
 		"description": [
 			"## Shackles Corsair",
 			"",
-			"**Source** [Advanced Class Origins pg. 22](source:advanced_class_origins)  ",
+			"**Source** [Advanced Class Origins pg. 22](source/advanced_class_origins)  ",
 			"While it doesn't take much more than a ship and a crew in the Shackles to become a pirate, Shackles corsairs are a finer breed of freebooter. A Shackles corsair's debonair charm and style make her a paradoxical celebrity even among the nations whose ships she plunders.",
 			"",
 			"**Swagger (Ex):** At 3rd level, a Shackles corsair's confident swagger unnerves her foes and inspires her crew. She gains a +1 bonus on Intimidate checks, and the DC of Intimidate checks made against her increases by 1. She and her allies gain a +1 morale bonus on Profession (sailor) checks. These bonuses and her Intimidate DC increase by 1 for every 4 levels beyond 3rd.",
@@ -717,7 +717,7 @@
 		"description": [
 			"## Veiled Blade",
 			"",
-			"**Source** [Ultimate Intrigue pg. 53](source:ultimate_intrigue)  ",
+			"**Source** [Ultimate Intrigue pg. 53](source/ultimate_intrigue)  ",
 			"Veiled blades specialize in subtlety, not through clandestine sneaking but simply by appearing to be someone harmless and unarmed. When a fight breaks out, a veiled blade doffs that facade and pulls out her hidden trump cards. Those who have mastered the art of the veiled blade can even hide their weapons on their own bodies as brands.",
 			"",
 			"**Class Skills:** A veiled blade adds Disguise to her list of class skills, instead of Intimidate.",
@@ -759,7 +759,7 @@
 		"description": [
 			"## Whirling Dervish",
 			"",
-			"**Source** [Advanced Class Origins pg. 23](source:advanced_class_origins)  ",
+			"**Source** [Advanced Class Origins pg. 23](source/advanced_class_origins)  ",
 			"In Qadira and throughout the Padishah Empire, Sarenrae's worshipers praise the Dawnflower through dance. Her more warlike followers adapted these dances into graceful martial forms, and their swashbuckling style is feared throughout the Inner Sea region and beyond for its ability to devastate foes with a scimitar through motion and agility regardless of strength of arms.",
 			"",
 			"**Dervish Finesse (Ex):** A whirling dervish can treat a scimitar as a one-handed piercing melee weapon for the purposes of the swashbuckler's finesse and all feats and class abilities that refer to such a weapon. She must not be carrying a weapon or shield in her off hand to gain this benefit. This ability alters swashbuckler finesse.",
@@ -795,7 +795,7 @@
 		"description": [
 			"## Wildstrider",
 			"",
-			"**Source** [Ultimate Wilderness pg. 96](source:ultimate_wilderness)  ",
+			"**Source** [Ultimate Wilderness pg. 96](source/ultimate_wilderness)  ",
 			"Most swashbucklers call cities their home, but some prefer deserts, marshlands, mountains, or woods, where the rough terrain grants them an advantage, and have little interest in the comforts of an urban lifestyle.",
 			"",
 			"**Class Skills:** A wildstrider gains Knowledge (nature), Stealth, and Survival as class skills, but does not gain Knowledge (nobility), Sense Motive, and Sleight of Hand as class skills.",

@@ -3,7 +3,7 @@
 	"_description": [
 		"## Traps",
 		"",
-		"Rangers are legendary for their ability to hunt down and capture their prey. Some rangers can create elaborate traps out of scraps, vines, and perhaps a little bit of specialized magic. Characters can learn how to set these traps by taking the [Learn Ranger Trap](feat:learn_ranger_trap) feat or by having the trapper ranger archetype.",
+		"Rangers are legendary for their ability to hunt down and capture their prey. Some rangers can create elaborate traps out of scraps, vines, and perhaps a little bit of specialized magic. Characters can learn how to set these traps by taking the [Learn Ranger Trap](feat/learn_ranger_trap) feat or by having the trapper ranger archetype.",
 		"",
 		"Setting a trap is a full-round action that provokes attacks of opportunity. A trap fills a single 5-foot square, and cannot be placed in the same area as another ranger trap or a magical trap such as a glyph of warding. The ranger only needs simple materials to create the trap, such as a piece of cloth, a small amount of metal (such as a dagger, iron spike, or a few nails), a foot of rope or vine, and so on. The DCs for Perception checks to notice the trap, Disable Device checks to disable it, and for saving throws to avoid it are equal to 10 + 1/2 the character's level + the character's Wisdom bonus. All ranger traps are Trigger: location, and Reset: none.",
 		"",
@@ -13,7 +13,7 @@
 		"",
 		"Certain traps add to or modify the effects of another trap; a ranger can add one of these trap types to any standard ranger trap (this costs 1 additional use of the trap ability).",
 		"",
-		"Some supernatural traps can be created by a character who isn't a ranger (but who has the [Learn Ranger Trap](feat:learn_ranger_trap) feat) through including an additional magical component. This component- usually a scroll, potion, or oil-is expended at the time of the trap's creation. Including it increases the time to lay the trap to 1 full minute."
+		"Some supernatural traps can be created by a character who isn't a ranger (but who has the [Learn Ranger Trap](feat/learn_ranger_trap) feat) through including an additional magical component. This component- usually a scroll, potion, or oil-is expended at the time of the trap's creation. Including it increases the time to lay the trap to 1 full minute."
 	],
 	"acid_trap_ex_or_su": {
 		"name": "Acid Trap (Ex or Su)",

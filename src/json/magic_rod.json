@@ -11,7 +11,7 @@
 		"description": [
 			"## Rod of the Thriceborn",
 			"",
-			"**Source** [Legacy of the First World pg. 25](source:legacy_of_the_first_world)  ",
+			"**Source** [Legacy of the First World pg. 25](source/legacy_of_the_first_world)  ",
 			"**Aura** moderate divination; **CL** 5th  ",
 			"**Slot** none; **Price** 2,500 gp (lesser), 6,500 gp (normal), 19,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -37,7 +37,7 @@
 		"description": [
 			"## Rod of Giant Summoning",
 			"",
-			"**Source** [Monster Summoner's Handbook pg. 20](source:monster_summoner's_handbook)  ",
+			"**Source** [Monster Summoner's Handbook pg. 20](source/monster_summoner's_handbook)  ",
 			"**Aura** strong conjuration; **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -62,7 +62,7 @@
 		"description": [
 			"## Aerialist's Rod",
 			"",
-			"**Source** [Villain Codex pg. 32](source:villain_codex)  ",
+			"**Source** [Villain Codex pg. 32](source/villain_codex)  ",
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 3,200 gp; **Weight** 5 lbs.",
 			"",
@@ -90,7 +90,7 @@
 		"description": [
 			"## Chastising Baton",
 			"",
-			"**Source** [Heroes of the High Court pg. 30](source:heroes_of_the_high_court)  ",
+			"**Source** [Heroes of the High Court pg. 30](source/heroes_of_the_high_court)  ",
 			"**Aura** moderate necromancy; **CL** 7th  ",
 			"**Slot** none; **Price** 5,000 gp; **Weight** 3 lbs.",
 			"",
@@ -115,7 +115,7 @@
 		"description": [
 			"## Immovable Rod",
 			"",
-			"**Source** [Ultimate Equipment pg. 178](source:ultimate_equipment), [PRPG Core Rulebook pg. 485](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 178](source/ultimate_equipment), [PRPG Core Rulebook pg. 485](source/prpg_core_rulebook)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** none; **Price** 5,000 gp; **Weight** 5 lbs.",
 			"",
@@ -137,7 +137,7 @@
 		"description": [
 			"## Refocusing Rod",
 			"",
-			"**Source** [Occult Adventures pg. 254](source:occult_adventures)  ",
+			"**Source** [Occult Adventures pg. 254](source/occult_adventures)  ",
 			"**Aura** moderate (no school); **CL** 10th  ",
 			"**Slot** none; **Price** 5,000 gp; **Weight** 1 lb.",
 			"",
@@ -163,7 +163,7 @@
 		"description": [
 			"## Utilitarian Rod",
 			"",
-			"**Source** [Faction Guide pg. 60](source:faction_guide)  ",
+			"**Source** [Faction Guide pg. 60](source/faction_guide)  ",
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** 5,000 gp; **Weight** 5 lbs.",
 			"",
@@ -206,7 +206,7 @@
 		"description": [
 			"## Recondite Rod",
 			"",
-			"**Source** [Psychic Anthology pg. 8](source:psychic_anthology)  ",
+			"**Source** [Psychic Anthology pg. 8](source/psychic_anthology)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 5,000 gp (lesser), 18,000 gp (normal), 40,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -231,7 +231,7 @@
 		"description": [
 			"## Rod of Thunderous Force",
 			"",
-			"**Source** [Ultimate Equipment pg. 185](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 185](source/ultimate_equipment)  ",
 			"**Aura** moderate evocation; **CL** 9th  ",
 			"**Slot** none; **Price** 5,400 gp; **Weight** 5 lbs.",
 			"",
@@ -266,7 +266,7 @@
 		"description": [
 			"## Backbiter's Focus",
 			"",
-			"**Source** [The Harrow Handbook pg. 30](source:the_harrow_handbook)  ",
+			"**Source** [The Harrow Handbook pg. 30](source/the_harrow_handbook)  ",
 			"**Aura** moderate evocation; **CL** 7th  ",
 			"**Slot** none; **Price** 7,800 gp; **Weight** 1 lb.",
 			"",
@@ -288,7 +288,7 @@
 		"description": [
 			"## Rod of Mortared Walls",
 			"",
-			"**Source** [Pathfinder #95: Anvil of Fire pg. 25](source:pathfinder_#95_anvil_of_fire)  ",
+			"**Source** [Pathfinder #95: Anvil of Fire pg. 25](source/pathfinder_#95_anvil_of_fire)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** none; **Price** 8,000 gp; **Weight** 5 lbs.",
 			"",
@@ -314,7 +314,7 @@
 		"description": [
 			"## Crypt Rod",
 			"",
-			"**Source** [Pathfinder #139: The Dead Road pg. 64](source:pathfinder_#139_the_dead_road)  ",
+			"**Source** [Pathfinder #139: The Dead Road pg. 64](source/pathfinder_#139_the_dead_road)  ",
 			"**Aura** moderate divination; **CL** 9th  ",
 			"**Slot** none; **Price** 8,500 gp; **Weight** 5 lbs.",
 			"",
@@ -322,7 +322,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Rod](unknown:craft_rod), [locate object](unknown:locate_object); **Cost** 4,250 gp"
+			"**Requirements** [Craft Rod](unknown/craft_rod), [locate object](unknown/locate_object); **Cost** 4,250 gp"
 		],
 		"display": "magic/rod"
 	},
@@ -336,7 +336,7 @@
 		"description": [
 			"## Rod of Ice",
 			"",
-			"**Source** [Ultimate Equipment pg. 182](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 182](source/ultimate_equipment)  ",
 			"**Aura** moderate evocation; **CL** 9th  ",
 			"**Slot** none; **Price** 8,500 gp; **Weight** 3 lbs.",
 			"",
@@ -358,7 +358,7 @@
 		"description": [
 			"## Inviolate Marker",
 			"",
-			"**Source** [People of the Sands pg. 29](source:people_of_the_sands)  ",
+			"**Source** [People of the Sands pg. 29](source/people_of_the_sands)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** none; **Price** 10,000 gp; **Weight** 5 lbs.",
 			"",
@@ -385,7 +385,7 @@
 		"description": [
 			"## Rod of Metal and Mineral Detection",
 			"",
-			"**Source** [Ultimate Equipment pg. 182](source:ultimate_equipment), [PRPG Core Rulebook pg. 485](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 182](source/ultimate_equipment), [PRPG Core Rulebook pg. 485](source/prpg_core_rulebook)  ",
 			"**Aura** moderate divination; **CL** 9th  ",
 			"**Slot** none; **Price** 10,500 gp; **Weight** 5 lbs.",
 			"",
@@ -410,7 +410,7 @@
 		"description": [
 			"## Rod of Cancellation",
 			"",
-			"**Source** [Ultimate Equipment pg. 181](source:ultimate_equipment), [PRPG Core Rulebook pg. 485](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 181](source/ultimate_equipment), [PRPG Core Rulebook pg. 485](source/prpg_core_rulebook)  ",
 			"**Aura** strong abjuration; **CL** 17th  ",
 			"**Slot** none; **Price** 11,000 gp; **Weight** 5 lbs.",
 			"",
@@ -432,7 +432,7 @@
 		"description": [
 			"## Rod of Grasping Hexes",
 			"",
-			"**Source** [Advanced Class Guide pg. 220](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 220](source/advanced_class_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 11,000 gp; **Weight** 5 lbs.",
 			"",
@@ -454,7 +454,7 @@
 		"description": [
 			"## Rod of Interminable Hexes",
 			"",
-			"**Source** [Advanced Class Guide pg. 220](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 220](source/advanced_class_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 11,000 gp; **Weight** 5 lbs.",
 			"",
@@ -489,7 +489,7 @@
 		"description": [
 			"## Rod of Burning Blood",
 			"",
-			"**Source** [Villain Codex pg. 93](source:villain_codex)  ",
+			"**Source** [Villain Codex pg. 93](source/villain_codex)  ",
 			"**Aura** moderate evocation; **CL** 10th  ",
 			"**Slot** none; **Price** 11,050 gp; **Weight** 4 lbs.",
 			"",
@@ -513,7 +513,7 @@
 		"description": [
 			"## Conduit Rod",
 			"",
-			"**Source** [Ultimate Equipment pg. 178](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 178](source/ultimate_equipment)  ",
 			"**Aura** moderate abjuration; **CL** 12th  ",
 			"**Slot** none; **Price** 12,000 gp; **Weight** 5 lbs.",
 			"",
@@ -537,7 +537,7 @@
 		"description": [
 			"## Grounding Rod",
 			"",
-			"**Source** [Ultimate Equipment pg. 178](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 178](source/ultimate_equipment)  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 12,000 gp; **Weight** 10 lbs.",
 			"",
@@ -561,7 +561,7 @@
 		"description": [
 			"## Rod of Spellsight",
 			"",
-			"**Source** [Magic Tactics Toolbox pg. 14](source:magic_tactics_toolbox)  ",
+			"**Source** [Magic Tactics Toolbox pg. 14](source/magic_tactics_toolbox)  ",
 			"**Aura** strong divination; **CL** 13th  ",
 			"**Slot** none; **Price** 12,000 gp; **Weight** 6 lbs.",
 			"",
@@ -583,7 +583,7 @@
 		"description": [
 			"## Rod of the Wayang",
 			"",
-			"**Source** [Ultimate Equipment pg. 185](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 185](source/ultimate_equipment)  ",
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Price** 12,000 gp; **Weight** 5 lbs.",
 			"",
@@ -608,7 +608,7 @@
 		"description": [
 			"## Rod of Wonder",
 			"",
-			"**Source** [Ultimate Equipment pg. 185](source:ultimate_equipment), [PRPG Core Rulebook pg. 485](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 185](source/ultimate_equipment), [PRPG Core Rulebook pg. 485](source/prpg_core_rulebook)  ",
 			"**Aura** moderate enchantment; **CL** 10th  ",
 			"**Slot** none; **Price** 12,000 gp; **Weight** 5 lbs.",
 			"",
@@ -655,7 +655,7 @@
 		"description": [
 			"## Rod of Animal Training",
 			"",
-			"**Source** [Animal Archive pg. 27](source:animal_archive)  ",
+			"**Source** [Animal Archive pg. 27](source/animal_archive)  ",
 			"**Aura** moderate enchantment; **CL** 9th  ",
 			"**Slot** none; **Price** 12,300 gp; **Weight** 5 lbs.",
 			"",
@@ -677,7 +677,7 @@
 		"description": [
 			"## Rod of Subtle Menace",
 			"",
-			"**Source** [Magic Tactics Toolbox pg. 18](source:magic_tactics_toolbox)  ",
+			"**Source** [Magic Tactics Toolbox pg. 18](source/magic_tactics_toolbox)  ",
 			"**Aura** faint enchantment and transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 12,305 gp; **Weight** 5 lbs.",
 			"",
@@ -702,7 +702,7 @@
 		"description": [
 			"## Rod of the Python",
 			"",
-			"**Source** [Ultimate Equipment pg. 184](source:ultimate_equipment), [PRPG Core Rulebook pg. 485](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 184](source/ultimate_equipment), [PRPG Core Rulebook pg. 485](source/prpg_core_rulebook)  ",
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** none; **Price** 13,000 gp; **Weight** 10 lbs.",
 			"",
@@ -725,7 +725,7 @@
 		"description": [
 			"## Trap-Stealer's Rod",
 			"",
-			"**Source** [Ultimate Equipment pg. 187](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 187](source/ultimate_equipment)  ",
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** none; **Price** 13,500 gp; **Weight** 5 lbs.",
 			"",
@@ -758,7 +758,7 @@
 		"description": [
 			"## Rod of the Uraeus",
 			"",
-			"**Source** [Pathfinder #81: Shifting Sands pg. 59](source:pathfinder_#81_shifting_sands), [Osirion, Land of the Pharaohs pg. 25](source:osirion,_land_of_the_pharaohs)  ",
+			"**Source** [Pathfinder #81: Shifting Sands pg. 59](source/pathfinder_#81_shifting_sands), [Osirion, Land of the Pharaohs pg. 25](source/osirion,_land_of_the_pharaohs)  ",
 			"**Aura** moderate necromancy; **CL** 8th  ",
 			"**Slot** rod; **Price** 14,400 gp; **Weight** 4 lbs.",
 			"",
@@ -782,7 +782,7 @@
 		"description": [
 			"## Rod of Balance",
 			"",
-			"**Source** [Ultimate Equipment pg. 180](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 180](source/ultimate_equipment)  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 15,000 gp; **Weight** 5 lbs.",
 			"",
@@ -806,7 +806,7 @@
 		"description": [
 			"## Rod of Escape",
 			"",
-			"**Source** [Ultimate Equipment pg. 181](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 181](source/ultimate_equipment)  ",
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** none; **Price** 15,000 gp; **Weight** 5 lbs.",
 			"",
@@ -833,7 +833,7 @@
 		"description": [
 			"## Rod of Flame Extinguishing",
 			"",
-			"**Source** [Ultimate Equipment pg. 181](source:ultimate_equipment), [PRPG Core Rulebook pg. 485](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 181](source/ultimate_equipment), [PRPG Core Rulebook pg. 485](source/prpg_core_rulebook)  ",
 			"**Aura** strong transmutation; **CL** 12th  ",
 			"**Slot** none; **Price** 15,000 gp; **Weight** 5 lbs.",
 			"",
@@ -864,7 +864,7 @@
 		"description": [
 			"## Rod of Gripping Smoke",
 			"",
-			"**Source** [Pathfinder #87: The Choking Tower pg. 61](source:pathfinder_#87_the_choking_tower)  ",
+			"**Source** [Pathfinder #87: The Choking Tower pg. 61](source/pathfinder_#87_the_choking_tower)  ",
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** neck; **Price** 15,000 gp; **Weight** 6 lbs.",
 			"",
@@ -888,7 +888,7 @@
 		"description": [
 			"## Rod of Ruin",
 			"",
-			"**Source** [Ultimate Equipment pg. 183](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 183](source/ultimate_equipment)  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** none; **Price** 16,000 gp; **Weight** 5 lbs.",
 			"",
@@ -910,7 +910,7 @@
 		"description": [
 			"## Sapling Rod",
 			"",
-			"**Source** [Ultimate Equipment pg. 186](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 186](source/ultimate_equipment)  ",
 			"**Aura** moderate conjuration and transmutation; **CL** 9th  ",
 			"**Slot** none; **Price** 16,650 gp; **Weight** 5 lbs.",
 			"",
@@ -934,7 +934,7 @@
 		"description": [
 			"## Scepter of Divine Providence",
 			"",
-			"**Source** [Pathfinder #94: Ice Tomb of the Giant Queen pg. 38](source:pathfinder_#94_ice_tomb_of_the_giant_queen)  ",
+			"**Source** [Pathfinder #94: Ice Tomb of the Giant Queen pg. 38](source/pathfinder_#94_ice_tomb_of_the_giant_queen)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 17,312 gp; **Weight** 5 lbs.",
 			"",
@@ -956,7 +956,7 @@
 		"description": [
 			"## Rod of Beguiling",
 			"",
-			"**Source** [Ultimate Equipment pg. 180](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 180](source/ultimate_equipment)  ",
 			"**Aura** faint abjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 18,000 gp; **Weight** 5 lbs.",
 			"",
@@ -980,7 +980,7 @@
 		"description": [
 			"## Rod of Nettles",
 			"",
-			"**Source** [Ultimate Equipment pg. 183](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 183](source/ultimate_equipment)  ",
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** none; **Price** 18,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1004,7 +1004,7 @@
 		"description": [
 			"## Rod of Tangling Ectoplasm",
 			"",
-			"**Source** [Magic Tactics Toolbox pg. 20](source:magic_tactics_toolbox)  ",
+			"**Source** [Magic Tactics Toolbox pg. 20](source/magic_tactics_toolbox)  ",
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** none; **Price** 18,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1039,7 +1039,7 @@
 		"description": [
 			"## Waterblight Scepter",
 			"",
-			"**Source** [Merchant's Manifest pg. 9](source:merchant's_manifest)  ",
+			"**Source** [Merchant's Manifest pg. 9](source/merchant's_manifest)  ",
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** none; **Price** 18,312 gp; **Weight** 8 lbs.",
 			"",
@@ -1066,7 +1066,7 @@
 		"description": [
 			"## Rod of the Viper",
 			"",
-			"**Source** [Ultimate Equipment pg. 184](source:ultimate_equipment), [PRPG Core Rulebook pg. 485](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 184](source/ultimate_equipment), [PRPG Core Rulebook pg. 485](source/prpg_core_rulebook)  ",
 			"**Aura** moderate necromancy; **CL** 10th  ",
 			"**Slot** none; **Price** 19,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1101,7 +1101,7 @@
 		"description": [
 			"## Rod of Minor Curses",
 			"",
-			"**Source** [Magic Tactics Toolbox pg. 20](source:magic_tactics_toolbox)  ",
+			"**Source** [Magic Tactics Toolbox pg. 20](source/magic_tactics_toolbox)  ",
 			"**Aura** faint necromancy; **CL** 5th  ",
 			"**Slot** none; **Price** 20,000 gp; **Weight** 4 lbs.",
 			"",
@@ -1126,7 +1126,7 @@
 		"description": [
 			"## Rod of the Devoured Dawn",
 			"",
-			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep pg. 63](source:pathfinder_#83_the_slave_trenches_of_hakotep)  ",
+			"**Source** [Pathfinder #83: The Slave Trenches of Hakotep pg. 63](source/pathfinder_#83_the_slave_trenches_of_hakotep)  ",
 			"**Aura** moderate illusion and transmutation; **CL** 10th  ",
 			"**Slot** rod; **Price** 20,000 gp; **Weight** 10 lbs.",
 			"",
@@ -1150,7 +1150,7 @@
 		"description": [
 			"## Suzerain Scepter",
 			"",
-			"**Source** [Ultimate Equipment pg. 186](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 186](source/ultimate_equipment)  ",
 			"**Aura** moderate enchantment; **CL** 7th  ",
 			"**Slot** none; **Price** 20,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1172,7 +1172,7 @@
 		"description": [
 			"## Fiery Nimbus Rod",
 			"",
-			"**Source** [Ultimate Equipment pg. 178](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 178](source/ultimate_equipment)  ",
 			"**Aura** moderate evocation; **CL** 6th  ",
 			"**Slot** none; **Price** 22,305 gp; **Weight** 3 lbs.",
 			"",
@@ -1199,7 +1199,7 @@
 		"description": [
 			"## Rod of Enemy Detection",
 			"",
-			"**Source** [Ultimate Equipment pg. 181](source:ultimate_equipment), [PRPG Core Rulebook pg. 485](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 181](source/ultimate_equipment), [PRPG Core Rulebook pg. 485](source/prpg_core_rulebook)  ",
 			"**Aura** moderate divination; **CL** 10th  ",
 			"**Slot** none; **Price** 23,500 gp; **Weight** 5 lbs.",
 			"",
@@ -1234,7 +1234,7 @@
 		"description": [
 			"## Overflowing Rod",
 			"",
-			"**Source** [Occult Adventures pg. 254](source:occult_adventures)  ",
+			"**Source** [Occult Adventures pg. 254](source/occult_adventures)  ",
 			"**Aura** moderate evocation; **CL** 10th  ",
 			"**Slot** none; **Price** 25,000 gp; **Weight** 1 lb.",
 			"",
@@ -1256,7 +1256,7 @@
 		"description": [
 			"## Rod of Perilous Pits",
 			"",
-			"**Source** [Magic Tactics Toolbox pg. 14](source:magic_tactics_toolbox)  ",
+			"**Source** [Magic Tactics Toolbox pg. 14](source/magic_tactics_toolbox)  ",
 			"**Aura** faint enchantment; **CL** 5th  ",
 			"**Slot** none; **Price** 25,000 gp; **Weight** 4 lbs.",
 			"",
@@ -1281,7 +1281,7 @@
 		"description": [
 			"## Rod of Splendor",
 			"",
-			"**Source** [Ultimate Equipment pg. 184](source:ultimate_equipment), [PRPG Core Rulebook pg. 485](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 184](source/ultimate_equipment), [PRPG Core Rulebook pg. 485](source/prpg_core_rulebook)  ",
 			"**Aura** strong conjuration and transmutation; **CL** 12th  ",
 			"**Slot** none; **Price** 25,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1309,7 +1309,7 @@
 		"description": [
 			"## Rod of the Alicorn",
 			"",
-			"**Source** [Inner Sea Intrigue pg. 55](source:inner_sea_intrigue)  ",
+			"**Source** [Inner Sea Intrigue pg. 55](source/inner_sea_intrigue)  ",
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 25,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1334,7 +1334,7 @@
 		"description": [
 			"## Rod of Withering",
 			"",
-			"**Source** [Ultimate Equipment pg. 185](source:ultimate_equipment), [PRPG Core Rulebook pg. 485](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 185](source/ultimate_equipment), [PRPG Core Rulebook pg. 485](source/prpg_core_rulebook)  ",
 			"**Aura** strong necromancy; **CL** 13th  ",
 			"**Slot** none; **Price** 25,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1356,7 +1356,7 @@
 		"description": [
 			"## Rod of Vicious Ghosts",
 			"",
-			"**Source** [Planar Adventures pg. 51](source:planar_adventures)  ",
+			"**Source** [Planar Adventures pg. 51](source/planar_adventures)  ",
 			"**Aura** strong evocation; **CL** 13th  ",
 			"**Slot** none; **Price** 26,000 gp; **Weight** 1 lb.",
 			"",
@@ -1378,7 +1378,7 @@
 		"description": [
 			"## Fossilizing Rod",
 			"",
-			"**Source** [Elemental Master's Handbook pg. 10](source:elemental_master's_handbook)  ",
+			"**Source** [Elemental Master's Handbook pg. 10](source/elemental_master's_handbook)  ",
 			"**Aura** moderate evocation and necromancy; **CL** 11th  ",
 			"**Slot** none; **Price** 26,400 gp; **Weight** 4 lbs.",
 			"",
@@ -1403,7 +1403,7 @@
 		"description": [
 			"## Earthbind Rod",
 			"",
-			"**Source** [Ultimate Equipment pg. 178](source:ultimate_equipment), [Advanced Race Guide pg. 148](source:advanced_race_guide)  ",
+			"**Source** [Ultimate Equipment pg. 178](source/ultimate_equipment), [Advanced Race Guide pg. 148](source/advanced_race_guide)  ",
 			"**Aura** moderate transmutation; **CL** 6th  ",
 			"**Slot** none; **Price** 26,500 gp; **Weight** 5 lbs.",
 			"",
@@ -1425,7 +1425,7 @@
 		"description": [
 			"## Pyroclastic Spike",
 			"",
-			"**Source** [Down the Blighted Path pg. 62](source:down_the_blighted_path)  ",
+			"**Source** [Down the Blighted Path pg. 62](source/down_the_blighted_path)  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** none; **Price** 28,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1451,7 +1451,7 @@
 		"description": [
 			"## Rod of the Aboleth",
 			"",
-			"**Source** [Ultimate Equipment pg. 184](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 184](source/ultimate_equipment)  ",
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** none; **Price** 29,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1477,7 +1477,7 @@
 		"description": [
 			"## Liberator's Rod",
 			"",
-			"**Source** [Ultimate Equipment pg. 179](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 179](source/ultimate_equipment)  ",
 			"**Aura** moderate abjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 30,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1501,7 +1501,7 @@
 		"description": [
 			"## Rod of Hindered Healing",
 			"",
-			"**Source** [Magic Tactics Toolbox pg. 14](source:magic_tactics_toolbox)  ",
+			"**Source** [Magic Tactics Toolbox pg. 14](source/magic_tactics_toolbox)  ",
 			"**Aura** moderate necromancy; **CL** 7th  ",
 			"**Slot** none; **Price** 30,000 gp; **Weight** 4 lbs.",
 			"",
@@ -1523,7 +1523,7 @@
 		"description": [
 			"## Witching Rod",
 			"",
-			"**Source** [Occult Adventures pg. 254](source:occult_adventures)  ",
+			"**Source** [Occult Adventures pg. 254](source/occult_adventures)  ",
 			"**Aura** moderate transmutation; **CL** 11th  ",
 			"**Slot** none; **Price** 31,000 gp; **Weight** 1 lb.",
 			"",
@@ -1547,7 +1547,7 @@
 		"description": [
 			"## Rod of Voracious Hexes",
 			"",
-			"**Source** [Advanced Class Guide pg. 221](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 221](source/advanced_class_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 32,500 gp; **Weight** 5 lbs.",
 			"",
@@ -1572,7 +1572,7 @@
 		"description": [
 			"## Rod of Thunder and Lightning",
 			"",
-			"**Source** [Ultimate Equipment pg. 185](source:ultimate_equipment), [PRPG Core Rulebook pg. 485](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 185](source/ultimate_equipment), [PRPG Core Rulebook pg. 485](source/prpg_core_rulebook)  ",
 			"**Aura** moderate evocation; **CL** 9th  ",
 			"**Slot** none; **Price** 33,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1600,7 +1600,7 @@
 		"description": [
 			"## Booming Scepter",
 			"",
-			"**Source** [Heroes of the High Court pg. 30](source:heroes_of_the_high_court)  ",
+			"**Source** [Heroes of the High Court pg. 30](source/heroes_of_the_high_court)  ",
 			"**Aura** moderate evocation; **CL** 7th  ",
 			"**Slot** none; **Price** 34,000 gp; **Weight** 4 lbs.",
 			"",
@@ -1622,7 +1622,7 @@
 		"description": [
 			"## Rod of Delumination",
 			"",
-			"**Source** [Blood of Shadows pg. 26](source:blood_of_shadows)  ",
+			"**Source** [Blood of Shadows pg. 26](source/blood_of_shadows)  ",
 			"**Aura** strong evocation; **CL** 17th  ",
 			"**Slot** none; **Price** 35,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1649,7 +1649,7 @@
 		"description": [
 			"## Rod of Negation",
 			"",
-			"**Source** [Ultimate Equipment pg. 183](source:ultimate_equipment), [PRPG Core Rulebook pg. 485](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 183](source/ultimate_equipment), [PRPG Core Rulebook pg. 485](source/prpg_core_rulebook)  ",
 			"**Aura** strong varies; **CL** 15th  ",
 			"**Slot** none; **Price** 37,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1674,7 +1674,7 @@
 		"description": [
 			"## Rod of Steadfast Resolve",
 			"",
-			"**Source** [Ultimate Equipment pg. 184](source:ultimate_equipment), [Advanced Race Guide pg. 78](source:advanced_race_guide)  ",
+			"**Source** [Ultimate Equipment pg. 184](source/ultimate_equipment), [Advanced Race Guide pg. 78](source/advanced_race_guide)  ",
 			"**Aura** moderate abjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 38,305 gp; **Weight** 5 lbs.",
 			"",
@@ -1698,7 +1698,7 @@
 		"description": [
 			"## Ivory Baton",
 			"",
-			"**Source** [Lost Kingdoms pg. 42](source:lost_kingdoms)  ",
+			"**Source** [Lost Kingdoms pg. 42](source/lost_kingdoms)  ",
 			"**Aura** strong enchantment; **CL** 18th  ",
 			"**Slot** none; **Price** 40,000 gp; **Weight** 6 lbs.",
 			"",
@@ -1733,7 +1733,7 @@
 		"description": [
 			"## Coldwarp Key",
 			"",
-			"**Source** [Magical Marketplace pg. 29](source:magical_marketplace)  ",
+			"**Source** [Magical Marketplace pg. 29](source/magical_marketplace)  ",
 			"**Aura** moderate conjuration and transmutation; **CL** 9th  ",
 			"**Slot** none; **Price** 45,700 gp; **Weight** 5 lbs.",
 			"",
@@ -1757,7 +1757,7 @@
 		"description": [
 			"## Fool's Scepter",
 			"",
-			"**Source** [Down the Blighted Path pg. 61](source:down_the_blighted_path)  ",
+			"**Source** [Down the Blighted Path pg. 61](source/down_the_blighted_path)  ",
 			"**Aura** strong divination and enchantment; **CL** 12th  ",
 			"**Slot** none; **Price** 50,000 gp; **Weight** 3 lbs.",
 			"",
@@ -1783,11 +1783,11 @@
 		"description": [
 			"## Forked Rod",
 			"",
-			"**Source** [Planar Adventures pg. 51](source:planar_adventures)  ",
+			"**Source** [Planar Adventures pg. 51](source/planar_adventures)  ",
 			"**Aura** moderate divination; **CL** 9th  ",
 			"**Slot** none; **Price** 50,000 gp; **Weight** 3 lbs.",
 			"",
-			"This bifurcated mithral rod resembles an oversized tuning fork. The forked rod acts as a focus for [plane shift](unknown:plane_shift), but the plane to which it is attuned to can be adjusted as a standard action-a forked rod can be attuned to any plane that a common tuning fork (see [plane shift](unknown:plane_shift)) can be attuned to. Once per day, a forked rod can be used to cast [plane shift](unknown:plane_shift) to the plane it is currently attuned to. Three times per day as a standard action, the user can attack a creature or object with a forked rod as if it were a +1 light mace. On a hit, the forked rod deals no damage, but affects the target with [dimensional anchor](unknown:dimensional_anchor) for 9 minutes. As long as a target is affected in this way, the forked rod is inert and cannot be used to cast [plane shift](unknown:plane_shift), as a focus for [plane shift](unknown:plane_shift), or to affect another target with [dimensional anchor](unknown:dimensional_anchor).",
+			"This bifurcated mithral rod resembles an oversized tuning fork. The forked rod acts as a focus for [plane shift](unknown/plane_shift), but the plane to which it is attuned to can be adjusted as a standard action-a forked rod can be attuned to any plane that a common tuning fork (see [plane shift](unknown/plane_shift)) can be attuned to. Once per day, a forked rod can be used to cast [plane shift](unknown/plane_shift) to the plane it is currently attuned to. Three times per day as a standard action, the user can attack a creature or object with a forked rod as if it were a +1 light mace. On a hit, the forked rod deals no damage, but affects the target with [dimensional anchor](unknown/dimensional_anchor) for 9 minutes. As long as a target is affected in this way, the forked rod is inert and cannot be used to cast [plane shift](unknown/plane_shift), as a focus for [plane shift](unknown/plane_shift), or to affect another target with [dimensional anchor](unknown/dimensional_anchor).",
 			"",
 			"### Construction",
 			"",
@@ -1808,7 +1808,7 @@
 		"description": [
 			"## Rod of Absorption",
 			"",
-			"**Source** [Ultimate Equipment pg. 179](source:ultimate_equipment), [PRPG Core Rulebook pg. 485](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 179](source/ultimate_equipment), [PRPG Core Rulebook pg. 485](source/prpg_core_rulebook)  ",
 			"**Aura** strong abjuration; **CL** 15th  ",
 			"**Slot** none; **Price** 50,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1839,7 +1839,7 @@
 		"description": [
 			"## Rod of Flailing",
 			"",
-			"**Source** [Ultimate Equipment pg. 181](source:ultimate_equipment), [PRPG Core Rulebook pg. 485](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 181](source/ultimate_equipment), [PRPG Core Rulebook pg. 485](source/prpg_core_rulebook)  ",
 			"**Aura** moderate enchantment; **CL** 9th  ",
 			"**Slot** none; **Price** 50,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1865,7 +1865,7 @@
 		"description": [
 			"## Rod of Potent Hexes",
 			"",
-			"**Source** [Advanced Class Guide pg. 220](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 220](source/advanced_class_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 54,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1887,7 +1887,7 @@
 		"description": [
 			"## Gravitic Force Rod",
 			"",
-			"**Source** [Magic Tactics Toolbox pg. 13](source:magic_tactics_toolbox)  ",
+			"**Source** [Magic Tactics Toolbox pg. 13](source/magic_tactics_toolbox)  ",
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** none; **Price** 60,000 gp; **Weight** 4 lbs.",
 			"",
@@ -1912,7 +1912,7 @@
 		"description": [
 			"## Rod of Rulership",
 			"",
-			"**Source** [Ultimate Equipment pg. 183](source:ultimate_equipment), [PRPG Core Rulebook pg. 485](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 183](source/ultimate_equipment), [PRPG Core Rulebook pg. 485](source/prpg_core_rulebook)  ",
 			"**Aura** strong enchantment; **CL** 20th  ",
 			"**Slot** none; **Price** 60,000 gp; **Weight** 8 lbs.",
 			"",
@@ -1937,7 +1937,7 @@
 		"description": [
 			"## Rod of Security",
 			"",
-			"**Source** [Ultimate Equipment pg. 183](source:ultimate_equipment), [PRPG Core Rulebook pg. 485](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 183](source/ultimate_equipment), [PRPG Core Rulebook pg. 485](source/prpg_core_rulebook)  ",
 			"**Aura** strong conjuration; **CL** 20th  ",
 			"**Slot** none; **Price** 61,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1962,7 +1962,7 @@
 		"description": [
 			"## Rod of Well-Deserved Rest",
 			"",
-			"**Source** [Pathfinder #39: The City of Seven Spears pg. 56](source:pathfinder_#39_the_city_of_seven_spears)  ",
+			"**Source** [Pathfinder #39: The City of Seven Spears pg. 56](source/pathfinder_#39_the_city_of_seven_spears)  ",
 			"**Aura** strong enchantment and evocation; **CL** 12th  ",
 			"**Slot** none; **Price** 62,000 gp; **Weight** 5 lbs.",
 			"",
@@ -1992,7 +1992,7 @@
 		"description": [
 			"## Rod of Shadows",
 			"",
-			"**Source** [Ultimate Equipment pg. 184](source:ultimate_equipment), [Advanced Race Guide pg. 106](source:advanced_race_guide)  ",
+			"**Source** [Ultimate Equipment pg. 184](source/ultimate_equipment), [Advanced Race Guide pg. 106](source/advanced_race_guide)  ",
 			"**Aura** moderate abjuration; **CL** 8th  ",
 			"**Slot** none; **Price** 64,305 gp; **Weight** 5 lbs.",
 			"",
@@ -2014,7 +2014,7 @@
 		"description": [
 			"## Rod of Razors",
 			"",
-			"**Source** [Pathfinder #35: War of the River Kings pg. 46](source:pathfinder_#35_war_of_the_river_kings)  ",
+			"**Source** [Pathfinder #35: War of the River Kings pg. 46](source/pathfinder_#35_war_of_the_river_kings)  ",
 			"**Aura** n/a (see source); **CL** 15th  ",
 			"**Price** 65,000 gp; **Weight** 10 lbs.",
 			"",
@@ -2036,7 +2036,7 @@
 		"description": [
 			"## Rod of Mind Mastery",
 			"",
-			"**Source** [Ultimate Equipment pg. 182](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 182](source/ultimate_equipment)  ",
 			"**Aura** moderate abjuration and divination; **CL** 7th  ",
 			"**Slot** none; **Price** 67,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2064,7 +2064,7 @@
 		"description": [
 			"## Rod of Lordly Might",
 			"",
-			"**Source** [Ultimate Equipment pg. 182](source:ultimate_equipment), [PRPG Core Rulebook pg. 485](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 182](source/ultimate_equipment), [PRPG Core Rulebook pg. 485](source/prpg_core_rulebook)  ",
 			"**Aura** strong varies; **CL** 19th  ",
 			"**Slot** none; **Price** 70,000 gp; **Weight** 10 lbs.",
 			"",
@@ -2105,7 +2105,7 @@
 		"description": [
 			"## Scepter of Heaven",
 			"",
-			"**Source** [Ultimate Equipment pg. 186](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 186](source/ultimate_equipment)  ",
 			"**Aura** moderate evocation; **CL** 10th  ",
 			"**Slot** none; **Price** 74,000 gp; **Weight** 3 lbs.",
 			"",
@@ -2135,7 +2135,7 @@
 		"description": [
 			"## Rod of Abrupt Hexes",
 			"",
-			"**Source** [Advanced Class Guide pg. 220](source:advanced_class_guide)  ",
+			"**Source** [Advanced Class Guide pg. 220](source/advanced_class_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 75,500 gp; **Weight** 5 lbs.",
 			"",
@@ -2157,7 +2157,7 @@
 		"description": [
 			"## Lava Rod",
 			"",
-			"**Source** [Pathfinder #95: Anvil of Fire pg. 32](source:pathfinder_#95_anvil_of_fire)  ",
+			"**Source** [Pathfinder #95: Anvil of Fire pg. 32](source/pathfinder_#95_anvil_of_fire)  ",
 			"**Aura** strong evocation [fire]; **CL** 13th  ",
 			"**Slot** none; **Price** 80,000 gp; **Weight** 8 lbs.",
 			"",
@@ -2179,7 +2179,7 @@
 		"description": [
 			"## Nightmare Rod",
 			"",
-			"**Source** [Pathfinder #65: Into the Nightmare Rift pg. 63](source:pathfinder_#65_into_the_nightmare_rift)  ",
+			"**Source** [Pathfinder #65: Into the Nightmare Rift pg. 63](source/pathfinder_#65_into_the_nightmare_rift)  ",
 			"**Aura** strong illusion; **CL** 13th  ",
 			"**Slot** none; **Price** 80,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2208,7 +2208,7 @@
 		"description": [
 			"## Rod of Dwarven Might",
 			"",
-			"**Source** [Ultimate Equipment pg. 181](source:ultimate_equipment), [Advanced Race Guide pg. 19](source:advanced_race_guide)  ",
+			"**Source** [Ultimate Equipment pg. 181](source/ultimate_equipment), [Advanced Race Guide pg. 19](source/advanced_race_guide)  ",
 			"**Aura** strong transmutation; **CL** 19th  ",
 			"**Slot** none; **Price** 80,000 gp; **Weight** 10 lbs.",
 			"",
@@ -2235,7 +2235,7 @@
 		"description": [
 			"## Rod of Revolution",
 			"",
-			"**Source** [Inner Sea Combat pg. 62](source:inner_sea_combat)  ",
+			"**Source** [Inner Sea Combat pg. 62](source/inner_sea_combat)  ",
 			"**Aura** strong enchantment; **CL** 20th  ",
 			"**Slot** none; **Price** 82,000 gp; **Weight** 8 lbs.",
 			"",
@@ -2260,7 +2260,7 @@
 		"description": [
 			"## Rod of Alertness",
 			"",
-			"**Source** [Ultimate Equipment pg. 180](source:ultimate_equipment), [PRPG Core Rulebook pg. 485](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 180](source/ultimate_equipment), [PRPG Core Rulebook pg. 485](source/prpg_core_rulebook)  ",
 			"**Aura** moderate varies; **CL** 11th  ",
 			"**Slot** none; **Price** 85,000 gp; **Weight** 4 lbs.",
 			"",
@@ -2284,7 +2284,7 @@
 		"description": [
 			"## Dolorous Rod",
 			"",
-			"**Source** [Mythic Adventures pg. 150](source:mythic_adventures)  ",
+			"**Source** [Mythic Adventures pg. 150](source/mythic_adventures)  ",
 			"**Aura** moderate enchantment and necromancy; **CL** 10th  ",
 			"**Slot** none; **Price** 120,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2306,7 +2306,7 @@
 		"description": [
 			"## Hollow Rod",
 			"",
-			"**Source** [Occult Adventures pg. 254](source:occult_adventures)  ",
+			"**Source** [Occult Adventures pg. 254](source/occult_adventures)  ",
 			"**Aura** strong (no school); **CL** 15th  ",
 			"**Slot** none; **Price** 121,500 gp; **Weight** 5 lbs.",
 			"",
@@ -2328,7 +2328,7 @@
 		"description": [
 			"## Caduceus Rod",
 			"",
-			"**Source** [Occult Adventures pg. 253](source:occult_adventures)  ",
+			"**Source** [Occult Adventures pg. 253](source/occult_adventures)  ",
 			"**Aura** strong conjuration and transmutation; **CL** 12th  ",
 			"**Slot** none; **Price** 142,000 gp; **Weight** 3 lbs.",
 			"",
@@ -2360,7 +2360,7 @@
 		"description": [
 			"## Scepter of the Arclords",
 			"",
-			"**Source** [Lost Treasures pg. 52](source:lost_treasures)  ",
+			"**Source** [Lost Treasures pg. 52](source/lost_treasures)  ",
 			"**Aura** strong universal; **CL** 20th  ",
 			"**Slot** none; **Price** 200,000 gp; **Weight** 5 lbs.",
 			"",
@@ -2394,7 +2394,7 @@
 		"description": [
 			"## Rod of Metamagic, Eclipsed",
 			"",
-			"**Source** [Blood of Shadows pg. 26](source:blood_of_shadows)  ",
+			"**Source** [Blood of Shadows pg. 26](source/blood_of_shadows)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2423,7 +2423,7 @@
 		"description": [
 			"## Rod of Metamagic, Merciful",
 			"",
-			"**Source** [Ultimate Equipment pg. 190](source:ultimate_equipment), [Advanced Player's Guide pg. 295](source:advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 190](source/ultimate_equipment), [Advanced Player's Guide pg. 295](source/advanced_player's_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2449,7 +2449,7 @@
 		"description": [
 			"## Rod of Metamagic, Murky",
 			"",
-			"**Source** [Aquatic Adventures pg. 63](source:aquatic_adventures)  ",
+			"**Source** [Aquatic Adventures pg. 63](source/aquatic_adventures)  ",
 			"**Aura** (no school); **CL** 5th  ",
 			"**Slot** none; **Price** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater); **Weight** -",
 			"",
@@ -2475,7 +2475,7 @@
 		"description": [
 			"## Rod of Metamagic, Steam",
 			"",
-			"**Source** [Aquatic Adventures pg. 63](source:aquatic_adventures)  ",
+			"**Source** [Aquatic Adventures pg. 63](source/aquatic_adventures)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater); **Weight** 1 lb.",
 			"",
@@ -2501,11 +2501,11 @@
 		"description": [
 			"## Rod of Metamagic, Apocalyptic",
 			"",
-			"**Source** [Planar Adventures pg. 50](source:planar_adventures)  ",
+			"**Source** [Planar Adventures pg. 50](source/planar_adventures)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
-			"The wielder of this metamagic rod can cast up to three spells per day that blast terrain as though using the [Apocalyptic Spell](unknown:apocalyptic_spell) feat.",
+			"The wielder of this metamagic rod can cast up to three spells per day that blast terrain as though using the [Apocalyptic Spell](unknown/apocalyptic_spell) feat.",
 			"",
 			"### Construction",
 			"",
@@ -2527,11 +2527,11 @@
 		"description": [
 			"## Rod of Metamagic, Authoritative",
 			"",
-			"**Source** [Planar Adventures pg. 50](source:planar_adventures)  ",
+			"**Source** [Planar Adventures pg. 50](source/planar_adventures)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
-			"The wielder of this metamagic rod can cast up to three spells per day that constrain the targets as though using the [Authoritative Spell](unknown:authoritative_spell) feat",
+			"The wielder of this metamagic rod can cast up to three spells per day that constrain the targets as though using the [Authoritative Spell](unknown/authoritative_spell) feat",
 			"",
 			"### Construction",
 			"",
@@ -2553,11 +2553,11 @@
 		"description": [
 			"## Rod of Metamagic, Blissful",
 			"",
-			"**Source** [Planar Adventures pg. 51](source:planar_adventures)  ",
+			"**Source** [Planar Adventures pg. 51](source/planar_adventures)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
-			"The wielder of this metamagic rod can cast up to three spells per day that enliven or pacify targets as though using the [Blissful Spell](unknown:blissful_spell) feat.",
+			"The wielder of this metamagic rod can cast up to three spells per day that enliven or pacify targets as though using the [Blissful Spell](unknown/blissful_spell) feat.",
 			"",
 			"### Construction",
 			"",
@@ -2582,7 +2582,7 @@
 		"description": [
 			"## Rod of Metamagic, Bouncing",
 			"",
-			"**Source** [Ultimate Equipment pg. 187](source:ultimate_equipment), [Advanced Player's Guide pg. 294](source:advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 187](source/ultimate_equipment), [Advanced Player's Guide pg. 294](source/advanced_player's_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2608,11 +2608,11 @@
 		"description": [
 			"## Rod of Metamagic, Crypt",
 			"",
-			"**Source** [Planar Adventures pg. 51](source:planar_adventures)  ",
+			"**Source** [Planar Adventures pg. 51](source/planar_adventures)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
-			"The wielder of this metamagic rod can cast up to three spells per day that condemn the targets as though using the [Crypt Spell](unknown:crypt_spell) feat.",
+			"The wielder of this metamagic rod can cast up to three spells per day that condemn the targets as though using the [Crypt Spell](unknown/crypt_spell) feat.",
 			"",
 			"### Construction",
 			"",
@@ -2637,7 +2637,7 @@
 		"description": [
 			"## Rod of Metamagic, Disruptive",
 			"",
-			"**Source** [Ultimate Equipment pg. 188](source:ultimate_equipment), [Advanced Player's Guide pg. 294](source:advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 188](source/ultimate_equipment), [Advanced Player's Guide pg. 294](source/advanced_player's_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2666,7 +2666,7 @@
 		"description": [
 			"## Rod of Metamagic, Ectoplasmic",
 			"",
-			"**Source** [Ultimate Equipment pg. 188](source:ultimate_equipment), [Advanced Player's Guide pg. 294](source:advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 188](source/ultimate_equipment), [Advanced Player's Guide pg. 294](source/advanced_player's_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2695,7 +2695,7 @@
 		"description": [
 			"## Rod of Metamagic, Elemental",
 			"",
-			"**Source** [Ultimate Equipment pg. 188](source:ultimate_equipment), [Advanced Player's Guide pg. 294](source:advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 188](source/ultimate_equipment), [Advanced Player's Guide pg. 294](source/advanced_player's_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2724,7 +2724,7 @@
 		"description": [
 			"## Rod of Metamagic, Enlarge",
 			"",
-			"**Source** [Ultimate Equipment pg. 189](source:ultimate_equipment), [PRPG Core Rulebook pg. 485](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 189](source/ultimate_equipment), [PRPG Core Rulebook pg. 485](source/prpg_core_rulebook)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2753,7 +2753,7 @@
 		"description": [
 			"## Rod of Metamagic, Extend",
 			"",
-			"**Source** [Ultimate Equipment pg. 189](source:ultimate_equipment), [PRPG Core Rulebook pg. 485](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 189](source/ultimate_equipment), [PRPG Core Rulebook pg. 485](source/prpg_core_rulebook)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2779,7 +2779,7 @@
 		"description": [
 			"## Rod of Metamagic, Flaring",
 			"",
-			"**Source** [Ultimate Equipment pg. 189](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 189](source/ultimate_equipment)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2808,7 +2808,7 @@
 		"description": [
 			"## Rod of Metamagic, Focused",
 			"",
-			"**Source** [Ultimate Equipment pg. 189](source:ultimate_equipment), [Advanced Player's Guide pg. 294](source:advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 189](source/ultimate_equipment), [Advanced Player's Guide pg. 294](source/advanced_player's_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2834,7 +2834,7 @@
 		"description": [
 			"## Rod of Metamagic, Furious",
 			"",
-			"**Source** [Occult Adventures pg. 253](source:occult_adventures)  ",
+			"**Source** [Occult Adventures pg. 253](source/occult_adventures)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 1 lb.",
 			"",
@@ -2863,7 +2863,7 @@
 		"description": [
 			"## Rod of Metamagic, Intensified",
 			"",
-			"**Source** [Ultimate Equipment pg. 189](source:ultimate_equipment), [Advanced Player's Guide pg. 294](source:advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 189](source/ultimate_equipment), [Advanced Player's Guide pg. 294](source/advanced_player's_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2892,7 +2892,7 @@
 		"description": [
 			"## Rod of Metamagic, Lingering",
 			"",
-			"**Source** [Ultimate Equipment pg. 189](source:ultimate_equipment), [Advanced Player's Guide pg. 295](source:advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 189](source/ultimate_equipment), [Advanced Player's Guide pg. 295](source/advanced_player's_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2918,7 +2918,7 @@
 		"description": [
 			"## Rod of Metamagic, Logical",
 			"",
-			"**Source** [Occult Adventures pg. 254](source:occult_adventures)  ",
+			"**Source** [Occult Adventures pg. 254](source/occult_adventures)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 1 lb.",
 			"",
@@ -2944,7 +2944,7 @@
 		"description": [
 			"## Rod of Metamagic, Piercing",
 			"",
-			"**Source** [Ultimate Equipment pg. 190](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 190](source/ultimate_equipment)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2973,7 +2973,7 @@
 		"description": [
 			"## Rod of Metamagic, Reach",
 			"",
-			"**Source** [Ultimate Equipment pg. 190](source:ultimate_equipment), [Advanced Player's Guide pg. 295](source:advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 190](source/ultimate_equipment), [Advanced Player's Guide pg. 295](source/advanced_player's_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -2999,7 +2999,7 @@
 		"description": [
 			"## Rod of Metamagic, Rime",
 			"",
-			"**Source** [Ultimate Equipment pg. 190](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 190](source/ultimate_equipment)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -3025,7 +3025,7 @@
 		"description": [
 			"## Rod of Metamagic, Scarring",
 			"",
-			"**Source** [Occult Adventures pg. 254](source:occult_adventures)  ",
+			"**Source** [Occult Adventures pg. 254](source/occult_adventures)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 1 lb.",
 			"",
@@ -3054,7 +3054,7 @@
 		"description": [
 			"## Rod of Metamagic, Selective",
 			"",
-			"**Source** [Ultimate Equipment pg. 190](source:ultimate_equipment), [Advanced Player's Guide pg. 296](source:advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 190](source/ultimate_equipment), [Advanced Player's Guide pg. 296](source/advanced_player's_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -3083,7 +3083,7 @@
 		"description": [
 			"## Rod of Metamagic, Silent",
 			"",
-			"**Source** [Ultimate Equipment pg. 191](source:ultimate_equipment), [PRPG Core Rulebook pg. 485](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 191](source/ultimate_equipment), [PRPG Core Rulebook pg. 485](source/prpg_core_rulebook)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -3109,7 +3109,7 @@
 		"description": [
 			"## Rod of Metamagic, Stable",
 			"",
-			"**Source** [Wardens of the Reborn Forge pg. 49](source:wardens_of_the_reborn_forge)  ",
+			"**Source** [Wardens of the Reborn Forge pg. 49](source/wardens_of_the_reborn_forge)  ",
 			"**Aura** strong universal; **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -3135,7 +3135,7 @@
 		"description": [
 			"## Rod of Metamagic, Toppling",
 			"",
-			"**Source** [Ultimate Equipment pg. 191](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 191](source/ultimate_equipment)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -3161,7 +3161,7 @@
 		"description": [
 			"## Rod of Metamagic, Tumultuous",
 			"",
-			"**Source** [Planar Adventures pg. 52](source:planar_adventures)  ",
+			"**Source** [Planar Adventures pg. 52](source/planar_adventures)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 3,000 gp (lesser), 11,000 gp (normal), 24,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -3242,7 +3242,7 @@
 		"description": [
 			"## Rod of Metamagic, Burning",
 			"",
-			"**Source** [Ultimate Equipment pg. 187](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 187](source/ultimate_equipment)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -3268,7 +3268,7 @@
 		"description": [
 			"## Rod of Metamagic, Concussive",
 			"",
-			"**Source** [Ultimate Equipment pg. 188](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 188](source/ultimate_equipment)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -3297,7 +3297,7 @@
 		"description": [
 			"## Rod of Metamagic, Empower",
 			"",
-			"**Source** [Ultimate Equipment pg. 188](source:ultimate_equipment), [PRPG Core Rulebook pg. 485](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 188](source/ultimate_equipment), [PRPG Core Rulebook pg. 485](source/prpg_core_rulebook)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -3323,7 +3323,7 @@
 		"description": [
 			"## Rod of Metamagic, Fearsome",
 			"",
-			"**Source** [Occult Adventures pg. 253](source:occult_adventures)  ",
+			"**Source** [Occult Adventures pg. 253](source/occult_adventures)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 1 lb.",
 			"",
@@ -3352,7 +3352,7 @@
 		"description": [
 			"## Rod of Metamagic, Persistent",
 			"",
-			"**Source** [Ultimate Equipment pg. 190](source:ultimate_equipment), [Advanced Player's Guide pg. 295](source:advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 190](source/ultimate_equipment), [Advanced Player's Guide pg. 295](source/advanced_player's_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -3381,7 +3381,7 @@
 		"description": [
 			"## Rod of Metamagic, Sickening",
 			"",
-			"**Source** [Ultimate Equipment pg. 191](source:ultimate_equipment), [Advanced Player's Guide pg. 296](source:advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 191](source/ultimate_equipment), [Advanced Player's Guide pg. 296](source/advanced_player's_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -3407,7 +3407,7 @@
 		"description": [
 			"## Rod of Metamagic, Snuffing",
 			"",
-			"**Source** [Blood of Shadows pg. 27](source:blood_of_shadows)  ",
+			"**Source** [Blood of Shadows pg. 27](source/blood_of_shadows)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -3433,7 +3433,7 @@
 		"description": [
 			"## Rod of Metamagic, Stygian",
 			"",
-			"**Source** [Planar Adventures pg. 51](source:planar_adventures)  ",
+			"**Source** [Planar Adventures pg. 51](source/planar_adventures)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -3459,7 +3459,7 @@
 		"description": [
 			"## Rod of Metamagic, Thanatopic",
 			"",
-			"**Source** [Ultimate Equipment pg. 191](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 191](source/ultimate_equipment)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -3485,7 +3485,7 @@
 		"description": [
 			"## Rod of Metamagic, Threnodic",
 			"",
-			"**Source** [Ultimate Equipment pg. 191](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 191](source/ultimate_equipment)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -3514,7 +3514,7 @@
 		"description": [
 			"## Rod of Metamagic, Thundering",
 			"",
-			"**Source** [Ultimate Equipment pg. 191](source:ultimate_equipment), [Advanced Player's Guide pg. 296](source:advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 191](source/ultimate_equipment), [Advanced Player's Guide pg. 296](source/advanced_player's_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -3540,7 +3540,7 @@
 		"description": [
 			"## Rod of Metamagic, Traumatic",
 			"",
-			"**Source** [Occult Adventures pg. 254](source:occult_adventures)  ",
+			"**Source** [Occult Adventures pg. 254](source/occult_adventures)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 9,000 gp (lesser), 32,500 gp (normal), 73,000 gp (greater); **Weight** 1 lb.",
 			"",
@@ -3985,7 +3985,7 @@
 		"description": [
 			"## Rod of Metamagic, Dazing",
 			"",
-			"**Source** [Ultimate Equipment pg. 188](source:ultimate_equipment), [Advanced Player's Guide pg. 294](source:advanced_player's_guide)  ",
+			"**Source** [Ultimate Equipment pg. 188](source/ultimate_equipment), [Advanced Player's Guide pg. 294](source/advanced_player's_guide)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 14,000 gp (lesser), 54,000 gp (normal), 121,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -4011,7 +4011,7 @@
 		"description": [
 			"## Rod of Metamagic, Echoing",
 			"",
-			"**Source** [Ultimate Equipment pg. 188](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 188](source/ultimate_equipment)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 14,000 gp (lesser), 54,000 gp (normal), 121,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -4037,7 +4037,7 @@
 		"description": [
 			"## Rod of Metamagic, Familiar",
 			"",
-			"**Source** [Animal Archive pg. 27](source:animal_archive)  ",
+			"**Source** [Animal Archive pg. 27](source/animal_archive)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 14,000 gp (lesser), 54,000 gp (normal), 121,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -4066,7 +4066,7 @@
 		"description": [
 			"## Rod of Metamagic, Maximize",
 			"",
-			"**Source** [Ultimate Equipment pg. 189](source:ultimate_equipment), [PRPG Core Rulebook pg. 485](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 189](source/ultimate_equipment), [PRPG Core Rulebook pg. 485](source/prpg_core_rulebook)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 14,000 gp (lesser), 54,000 gp (normal), 121,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -4092,7 +4092,7 @@
 		"description": [
 			"## Rod of Metamagic, Widen",
 			"",
-			"**Source** [Ultimate Equipment pg. 180](source:ultimate_equipment)  ",
+			"**Source** [Ultimate Equipment pg. 180](source/ultimate_equipment)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 14,000 gp (lesser), 54,000 gp (normal), 121,500 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -4650,7 +4650,7 @@
 		"description": [
 			"## Rod of Metamagic, Quicken",
 			"",
-			"**Source** [Ultimate Equipment pg. 190](source:ultimate_equipment), [PRPG Core Rulebook pg. 485](source:prpg_core_rulebook)  ",
+			"**Source** [Ultimate Equipment pg. 190](source/ultimate_equipment), [PRPG Core Rulebook pg. 485](source/prpg_core_rulebook)  ",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Price** 35,000 gp (lesser), 75,500 gp (normal), 170,000 gp (greater); **Weight** 5 lbs.",
 			"",
@@ -5023,7 +5023,7 @@
 			"Communication none (none)"
 		],
 		"description": [
-			"## Source [Ultimate Equipment pg. 359](source:ultimate_equipment)",
+			"## Source [Ultimate Equipment pg. 359](source/ultimate_equipment)",
 			"",
 			"**Aura** moderate abjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 12,000 gp; **Weight** 8 lbs.",
@@ -5059,7 +5059,7 @@
 			"Communication telepathy (Aklo)"
 		],
 		"description": [
-			"## Source [Ultimate Equipment pg. 359](source:ultimate_equipment)",
+			"## Source [Ultimate Equipment pg. 359](source/ultimate_equipment)",
 			"",
 			"**Aura** strong abjuration; **CL** 16th  ",
 			"**Slot** none; **Price** 40,000 gp; **Weight** 8 lbs.",
@@ -5094,7 +5094,7 @@
 			"Communication telepathy (Celestial; truespeech)"
 		],
 		"description": [
-			"## Source [Ultimate Equipment pg. 357](source:ultimate_equipment)",
+			"## Source [Ultimate Equipment pg. 357](source/ultimate_equipment)",
 			"",
 			"**Aura** moderate conjuration; **CL** 8th  ",
 			"**Price** 44,200 gp; **Weight** 5 lbs.",
@@ -5127,7 +5127,7 @@
 			"Communication telepathy (Common and eight other languages)"
 		],
 		"description": [
-			"## Source [Ultimate Equipment pg. 358](source:ultimate_equipment)",
+			"## Source [Ultimate Equipment pg. 358](source/ultimate_equipment)",
 			"",
 			"**Aura** strong divination; **CL** 18th  ",
 			"**Slot** none; **Price** 93,605 gp; **Weight** 5 lbs.",
@@ -5163,7 +5163,7 @@
 		"weight": 5,
 		"cursed": true,
 		"description": [
-			"## Source [Ultimate Equipment pg. 350](source:ultimate_equipment), [Advanced Player's Guide pg. 311](source:advanced_player's_guide)",
+			"## Source [Ultimate Equipment pg. 350](source/ultimate_equipment), [Advanced Player's Guide pg. 311](source/advanced_player's_guide)",
 			"",
 			"**Aura** strong evocation; **CL** 12th  ",
 			"**Slot** none; **Weight** 5 lbs.",
@@ -5186,7 +5186,7 @@
 		"weight": 5,
 		"cursed": true,
 		"description": [
-			"## Source [Ultimate Equipment pg. 350](source:ultimate_equipment)",
+			"## Source [Ultimate Equipment pg. 350](source/ultimate_equipment)",
 			"",
 			"**Aura** strong (no school); **CL** 17th  ",
 			"**Slot** none; **Weight** 5 lbs.",

@@ -8,7 +8,7 @@
 		"weight_adjustment": 0,
 		"description": [
 			"## Consecrated weapon",
-			"**Source** [Adventurer's Armory pg. 24](source:adventurer's_armory)  ",
+			"**Source** [Adventurer's Armory pg. 24](source/adventurer's_armory)  ",
 			"**Price** +150 gp; **Weight** 2 lbs.  ",
 			"**Category** Channel Foci  ",
 			"**Deity** Any",
@@ -28,7 +28,7 @@
 		"weight_adjustment": 0,
 		"description": [
 			"## Sawback sword",
-			"**Source** [Ultimate Equipment pg. 57](source:ultimate_equipment), [Adventurer's Armory pg. 19](source:adventurer's_armory)  ",
+			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
 			"**Price** +5 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -44,7 +44,7 @@
 		"weight_adjustment": 0,
 		"description": [
 			"## Undine weaponshaft",
-			"**Source** [Advanced Race Guide pg. 177](source:advanced_race_guide)  ",
+			"**Source** [Advanced Race Guide pg. 177](source/advanced_race_guide)  ",
 			"**Price** +300 gp; **Weight** -  ",
 			"**Category** Adventuring Gear",
 			"",
@@ -60,7 +60,7 @@
 		"weight_adjustment": 1,
 		"description": [
 			"## Brutally weighted",
-			"**Source** [Adventurer's Armory 2 pg. 10](source:adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 10](source/adventurer's_armory_2)  ",
 			"**Price** +1,500 gp **Weight** +1 lb.  ",
 			"**Category** Modification; **Proficiency** Modification",
 			"",
@@ -77,7 +77,7 @@
 		"weight_adjustment": 0,
 		"description": [
 			"## Dual-balanced",
-			"**Source** [Adventurer's Armory 2 pg. 10](source:adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 10](source/adventurer's_armory_2)  ",
 			"**Cost** +2,000 gp **Weight** -  ",
 			"**Category** Modification; **Proficiency** Modification",
 			"",
@@ -96,7 +96,7 @@
 		"weight_adjustment": 1,
 		"description": [
 			"## Jagged hooks",
-			"**Source** [Adventurer's Armory 2 pg. 10](source:adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 10](source/adventurer's_armory_2)  ",
 			"**Cost** +1,000 gp **Weight** +1 lb.  ",
 			"**Category** Modification; **Proficiency** Modification",
 			"",
@@ -113,7 +113,7 @@
 		"weight_adjustment": 0,
 		"description": [
 			"## Razor-sharp",
-			"**Source** [Adventurer's Armory 2 pg. 10](source:adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 10](source/adventurer's_armory_2)  ",
 			"**Cost** +1,000 gp **Weight** -  ",
 			"**Category** Modification; **Proficiency** Modification",
 			"",
@@ -132,7 +132,7 @@
 		"weight_adjustment": 0,
 		"description": [
 			"## Serrated edge",
-			"**Source** [Adventurer's Armory 2 pg. 10](source:adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 10](source/adventurer's_armory_2)  ",
 			"**Cost** +2,000 gp **Weight** -  ",
 			"**Category** Modification; **Proficiency** Modification",
 			"",
@@ -148,7 +148,7 @@
 		"weight_adjustment": 0,
 		"description": [
 			"## Tactically adapted",
-			"**Source** [Adventurer's Armory 2 pg. 10](source:adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 10](source/adventurer's_armory_2)  ",
 			"**Cost** +2,000 gp **Weight** -  ",
 			"**Category** Modification; **Proficiency** Modification",
 			"",
@@ -164,7 +164,7 @@
 		"weight_adjustment": 0,
 		"description": [
 			"## Versatile design",
-			"**Source** [Adventurer's Armory 2 pg. 10](source:adventurer's_armory_2)  ",
+			"**Source** [Adventurer's Armory 2 pg. 10](source/adventurer's_armory_2)  ",
 			"**Cost** +500 gp **Weight** -  ",
 			"**Category** Modification; **Proficiency** Modification",
 			"",

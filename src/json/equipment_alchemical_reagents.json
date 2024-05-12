@@ -12,7 +12,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"cost": 10,
 		"description": [
-			"## Source [Adventurer's Armory pg. 26](source:adventurer's_armory)",
+			"## Source [Adventurer's Armory pg. 26](source/adventurer's_armory)",
 			"",
 			"**Price** 10 gp; **Weight** 1 lb.",
 			"",
@@ -45,7 +45,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"cost": 5,
 		"description": [
-			"## Source [Adventurer's Armory pg. 26](source:adventurer's_armory)",
+			"## Source [Adventurer's Armory pg. 26](source/adventurer's_armory)",
 			"",
 			"**Price** 5 gp; **Weight** 1 lb.",
 			"",
@@ -72,7 +72,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"cost": 20,
 		"description": [
-			"## Source [Adventurer's Armory pg. 26](source:adventurer's_armory)",
+			"## Source [Adventurer's Armory pg. 26](source/adventurer's_armory)",
 			"",
 			"**Price** 20 gp; **Weight** 1 lb.",
 			"",
@@ -105,7 +105,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"cost": 50,
 		"description": [
-			"## Source [Adventurer's Armory pg. 26](source:adventurer's_armory)",
+			"## Source [Adventurer's Armory pg. 26](source/adventurer's_armory)",
 			"",
 			"**Price** 50 gp; **Weight** -",
 			"",
@@ -128,7 +128,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"cost": 50,
 		"description": [
-			"## Source [Adventurer's Armory pg. 26](source:adventurer's_armory)",
+			"## Source [Adventurer's Armory pg. 26](source/adventurer's_armory)",
 			"",
 			"**Price** 50 gp; **Weight** -",
 			"",
@@ -149,7 +149,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"cost": 10,
 		"description": [
-			"## Source [Alchemy Manual pg. 0](source:alchemy_manual)",
+			"## Source [Alchemy Manual pg. 0](source/alchemy_manual)",
 			"",
 			"**Price** 10 gp; **Weight** -",
 			"",
@@ -168,7 +168,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"cost": 40,
 		"description": [
-			"## Source [Adventurer's Armory pg. 27](source:adventurer's_armory)",
+			"## Source [Adventurer's Armory pg. 27](source/adventurer's_armory)",
 			"",
 			"**Price** 40 gp; **Weight** -",
 			"",
@@ -189,7 +189,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"cost": 0.5,
 		"description": [
-			"## Source [Alchemy Manual pg. 0](source:alchemy_manual)",
+			"## Source [Alchemy Manual pg. 0](source/alchemy_manual)",
 			"",
 			"**Price** 5 sp; **Weight** -",
 			"",
@@ -208,7 +208,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"cost": 1,
 		"description": [
-			"## Source [Alchemy Manual pg. 0](source:alchemy_manual)",
+			"## Source [Alchemy Manual pg. 0](source/alchemy_manual)",
 			"",
 			"**Price** 1 gp; **Weight** -",
 			"",
@@ -227,7 +227,7 @@
 		"sources": [ "Plane-Hopper's Handbook" ],
 		"cost": 300,
 		"description": [
-			"## Source [Plane-Hopper's Handbook pg. 10](source:plane-hopper's_handbook)",
+			"## Source [Plane-Hopper's Handbook pg. 10](source/plane-hopper's_handbook)",
 			"",
 			"**Price** 300 gp; **Weight** -",
 			"",
@@ -246,7 +246,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"cost": 5,
 		"description": [
-			"## Source [Alchemy Manual pg. 11](source:alchemy_manual)",
+			"## Source [Alchemy Manual pg. 11](source/alchemy_manual)",
 			"",
 			"**Price** 5 gp; **Weight** -",
 			"",
@@ -265,7 +265,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"cost": 2,
 		"description": [
-			"## Source [Alchemy Manual pg. 0](source:alchemy_manual)",
+			"## Source [Alchemy Manual pg. 0](source/alchemy_manual)",
 			"",
 			"**Price** 2 gp; **Weight** -",
 			"",
@@ -284,7 +284,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"cost": 4,
 		"description": [
-			"## Source [Alchemy Manual pg. 0](source:alchemy_manual)",
+			"## Source [Alchemy Manual pg. 0](source/alchemy_manual)",
 			"",
 			"**Price** 4 gp; **Weight** -",
 			"",
@@ -303,7 +303,7 @@
 		"sources": [ "Plane-Hopper's Handbook" ],
 		"cost": 350,
 		"description": [
-			"## Source [Plane-Hopper's Handbook pg. 10](source:plane-hopper's_handbook)",
+			"## Source [Plane-Hopper's Handbook pg. 10](source/plane-hopper's_handbook)",
 			"",
 			"**Price** 350 gp; **Weight** -",
 			"",
@@ -313,7 +313,7 @@
 			"",
 			"**Doses** 1 (350 gp); **Spells** fire spells",
 			"",
-			"**Effect** When you use a fire fragment as a material component or focus for a spell that deals fire damage, that spell is affected as per the [Flaring Spell](feat:flaring_spell) metamagic feat (though this does not increase the spell slot that the spell uses), and you treat your caster level as 1 higher for the purpose of determining the spell's damage."
+			"**Effect** When you use a fire fragment as a material component or focus for a spell that deals fire damage, that spell is affected as per the [Flaring Spell](feat/flaring_spell) metamagic feat (though this does not increase the spell slot that the spell uses), and you treat your caster level as 1 higher for the purpose of determining the spell's damage."
 		],
 		"display": "equipalch"
 	},
@@ -322,7 +322,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"cost": 50,
 		"description": [
-			"## Source [Adventurer's Armory pg. 27](source:adventurer's_armory)",
+			"## Source [Adventurer's Armory pg. 27](source/adventurer's_armory)",
 			"",
 			"**Price** 50 gp; **Weight** -",
 			"",
@@ -345,7 +345,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"cost": 0.5,
 		"description": [
-			"## Source [Alchemy Manual pg. 25](source:alchemy_manual)",
+			"## Source [Alchemy Manual pg. 25](source/alchemy_manual)",
 			"",
 			"**Price** 5 sp; **Weight** -",
 			"",
@@ -364,7 +364,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"cost": 5,
 		"description": [
-			"## Source [Alchemy Manual pg. 0](source:alchemy_manual)",
+			"## Source [Alchemy Manual pg. 0](source/alchemy_manual)",
 			"",
 			"**Price** 5 gp; **Weight** -",
 			"",
@@ -383,7 +383,7 @@
 		"sources": [ "Plane-Hopper's Handbook" ],
 		"cost": 250,
 		"description": [
-			"## Source [Plane-Hopper's Handbook pg. 11](source:plane-hopper's_handbook)",
+			"## Source [Plane-Hopper's Handbook pg. 11](source/plane-hopper's_handbook)",
 			"",
 			"**Price** 250 gp; **Weight** -",
 			"",
@@ -402,7 +402,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"cost": 60,
 		"description": [
-			"## Source [Adventurer's Armory pg. 27](source:adventurer's_armory)",
+			"## Source [Adventurer's Armory pg. 27](source/adventurer's_armory)",
 			"",
 			"**Price** 60 gp; **Weight** 2 lbs.",
 			"",
@@ -427,7 +427,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"cost": 40,
 		"description": [
-			"## Source [Adventurer's Armory pg. 27](source:adventurer's_armory)",
+			"## Source [Adventurer's Armory pg. 27](source/adventurer's_armory)",
 			"",
 			"**Price** 40 gp; **Weight** 2 lbs.",
 			"",
@@ -458,7 +458,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"cost": 1,
 		"description": [
-			"## Source [Alchemy Manual pg. 0](source:alchemy_manual)",
+			"## Source [Alchemy Manual pg. 0](source/alchemy_manual)",
 			"",
 			"**Price** 1 gp; **Weight** -",
 			"",
@@ -477,7 +477,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"cost": 2,
 		"description": [
-			"## Source [Alchemy Manual pg. 25](source:alchemy_manual)",
+			"## Source [Alchemy Manual pg. 25](source/alchemy_manual)",
 			"",
 			"**Price** 2 gp; **Weight** -",
 			"",
@@ -496,7 +496,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"cost": 0.5,
 		"description": [
-			"## Source [Alchemy Manual pg. 0](source:alchemy_manual)",
+			"## Source [Alchemy Manual pg. 0](source/alchemy_manual)",
 			"",
 			"**Price** 5 sp; **Weight** -",
 			"",
@@ -515,7 +515,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"cost": 15,
 		"description": [
-			"## Source [Alchemy Manual pg. 19](source:alchemy_manual)",
+			"## Source [Alchemy Manual pg. 19](source/alchemy_manual)",
 			"",
 			"**Price** 15 gp; **Weight** -",
 			"",
@@ -534,7 +534,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"cost": 0.2,
 		"description": [
-			"## Source [Alchemy Manual pg. 33](source:alchemy_manual)",
+			"## Source [Alchemy Manual pg. 33](source/alchemy_manual)",
 			"",
 			"**Price** 2 sp; **Weight** -",
 			"",
@@ -553,7 +553,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"cost": 1,
 		"description": [
-			"## Source [Alchemy Manual pg. 33](source:alchemy_manual)",
+			"## Source [Alchemy Manual pg. 33](source/alchemy_manual)",
 			"",
 			"**Price** 1 gp; **Weight** -",
 			"",
@@ -572,7 +572,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"cost": 3,
 		"description": [
-			"## Source [Alchemy Manual pg. 33](source:alchemy_manual)",
+			"## Source [Alchemy Manual pg. 33](source/alchemy_manual)",
 			"",
 			"**Price** 3 gp; **Weight** -",
 			"",
@@ -591,7 +591,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"cost": 0.5,
 		"description": [
-			"## Source [Alchemy Manual pg. 33](source:alchemy_manual)",
+			"## Source [Alchemy Manual pg. 33](source/alchemy_manual)",
 			"",
 			"**Price** 5 sp; **Weight** -",
 			"",
@@ -610,7 +610,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"cost": 3,
 		"description": [
-			"## Source [Alchemy Manual pg. 33](source:alchemy_manual)",
+			"## Source [Alchemy Manual pg. 33](source/alchemy_manual)",
 			"",
 			"**Price** 3 gp; **Weight** -",
 			"",
@@ -629,7 +629,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"cost": 1,
 		"description": [
-			"## Source [Alchemy Manual pg. 33](source:alchemy_manual)",
+			"## Source [Alchemy Manual pg. 33](source/alchemy_manual)",
 			"",
 			"**Price** 1 gp; **Weight** -",
 			"",
@@ -648,7 +648,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"cost": 20,
 		"description": [
-			"## Source [Adventurer's Armory pg. 27](source:adventurer's_armory)",
+			"## Source [Adventurer's Armory pg. 27](source/adventurer's_armory)",
 			"",
 			"**Price** 20 gp; **Weight** 1/2 lb.",
 			"",
@@ -673,7 +673,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"cost": 0.5,
 		"description": [
-			"## Source [Alchemy Manual pg. 33](source:alchemy_manual)",
+			"## Source [Alchemy Manual pg. 33](source/alchemy_manual)",
 			"",
 			"**Price** 5 sp; **Weight** -",
 			"",
@@ -692,7 +692,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"cost": 50,
 		"description": [
-			"## Source [Adventurer's Armory pg. 27](source:adventurer's_armory)",
+			"## Source [Adventurer's Armory pg. 27](source/adventurer's_armory)",
 			"",
 			"**Price** 50 gp; **Weight** 4 lbs.",
 			"",
@@ -717,7 +717,7 @@
 		"sources": [ "Adventurer's Armory" ],
 		"cost": 30,
 		"description": [
-			"## Source [Adventurer's Armory pg. 27](source:adventurer's_armory)",
+			"## Source [Adventurer's Armory pg. 27](source/adventurer's_armory)",
 			"",
 			"**Price** 30 gp; **Weight** 1 lb.",
 			"",
@@ -740,7 +740,7 @@
 		"sources": [ "Alchemy Manual" ],
 		"cost": 0.5,
 		"description": [
-			"## Source [Alchemy Manual pg. 33](source:alchemy_manual)",
+			"## Source [Alchemy Manual pg. 33](source/alchemy_manual)",
 			"",
 			"**Price** 5 sp; **Weight** -",
 			"",
@@ -759,7 +759,7 @@
 		"sources": [ "Plane-Hopper's Handbook" ],
 		"cost": 250,
 		"description": [
-			"## Source [Plane-Hopper's Handbook pg. 11](source:plane-hopper's_handbook)",
+			"## Source [Plane-Hopper's Handbook pg. 11](source/plane-hopper's_handbook)",
 			"",
 			"**Price** 250 gp; **Weight** -",
 			"",
@@ -778,7 +778,7 @@
 		"sources": [ "Plane-Hopper's Handbook" ],
 		"cost": 200,
 		"description": [
-			"## Source [Plane-Hopper's Handbook pg. 11](source:plane-hopper's_handbook)",
+			"## Source [Plane-Hopper's Handbook pg. 11](source/plane-hopper's_handbook)",
 			"",
 			"**Price** 200 gp; **Weight** -",
 			"",
@@ -794,10 +794,10 @@
 			"| --- | --- |",
 			"| 1 | The spell fails and you are dazzled for 1d4 rounds. |",
 			"| 2 | The spell resolves normally. |",
-			"| 3 | The spell is affected as per the [Enlarge Spell](feat:enlarge_spell) metamagic feat. |",
-			"| 4 | The spell is affected as per the [Extend Spell](feat:extend_spell) metamagic feat. |",
-			"| 5 | The spell is affected as per the [Widen Spell](feat:widen_spell) metamagic feat. |",
-			"| 6 | The spell is affected as per the [Heighten Spell](feat:heighten_spell) metamagic feat, increasing the spell's level by 1. |"
+			"| 3 | The spell is affected as per the [Enlarge Spell](feat/enlarge_spell) metamagic feat. |",
+			"| 4 | The spell is affected as per the [Extend Spell](feat/extend_spell) metamagic feat. |",
+			"| 5 | The spell is affected as per the [Widen Spell](feat/widen_spell) metamagic feat. |",
+			"| 6 | The spell is affected as per the [Heighten Spell](feat/heighten_spell) metamagic feat, increasing the spell's level by 1. |"
 		],
 		"display": "equipalch"
 	}

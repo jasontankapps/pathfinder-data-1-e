@@ -8,7 +8,7 @@
 	"_description": [
 		"## Wildblooded Sorcerers",
 		"",
-		"**Source** [Ultimate Magic](source:ultimate_magic)  ",
+		"**Source** [Ultimate Magic](source/ultimate_magic)  ",
 		"A wildblooded sorcerer has a mutated version of a more common bloodline, with one arcana and at least one bloodline power that are different from those of an unmutated bloodline. When creating a wildblooded sorcerer, select an existing bloodline, then select one of the following mutated bloodlines associated with that bloodline. Use the normal bloodline's class skill, bonus spells, and bonus feats, and the mutated bloodline's bloodline arcana. Use the normal bloodline's bloodline powers, except when the mutated bloodline replaces one of those powers."
 	],
 	"anarchic": {
@@ -20,7 +20,7 @@
 		"description": [
 			"### Anarchic",
 			"",
-			"**Source** [Ultimate Magic pg. 70](source:ultimate_magic)  ",
+			"**Source** [Ultimate Magic pg. 70](source/ultimate_magic)  ",
 			"Your magical power taps into pure anarchy.",
 			"",
 			"**Associated Bloodline:** Protean.",
@@ -41,7 +41,7 @@
 		"description": [
 			"### Arial",
 			"",
-			"**Source** [Ultimate Magic pg. 70](source:ultimate_magic)  ",
+			"**Source** [Ultimate Magic pg. 70](source/ultimate_magic)  ",
 			"Your magic is more focused on the power of air and rain than on lightning and thunder.",
 			"",
 			"**Associated Bloodline:** Stormborn.",
@@ -62,7 +62,7 @@
 		"description": [
 			"### Bedrock",
 			"",
-			"**Source** [Ultimate Magic pg. 70](source:ultimate_magic)  ",
+			"**Source** [Ultimate Magic pg. 70](source/ultimate_magic)  ",
 			"Your earth magic is more defensive than offensive.",
 			"",
 			"**Associated Bloodline:** Deep Earth.",
@@ -83,7 +83,7 @@
 		"description": [
 			"### Brutal",
 			"",
-			"**Source** [Ultimate Magic pg. 70](source:ultimate_magic)  ",
+			"**Source** [Ultimate Magic pg. 70](source/ultimate_magic)  ",
 			"The powers of the Abyss can vary radically, even for similar fiends.",
 			"",
 			"**Associated Bloodline:** Abyssal.",
@@ -104,7 +104,7 @@
 		"description": [
 			"### Dark Fey",
 			"",
-			"**Source** [People of the River pg. 11](source:people_of_the_river)  ",
+			"**Source** [People of the River pg. 11](source/people_of_the_river)  ",
 			"Your powers were born of malevolent trickery and shadowy First World magic.",
 			"",
 			"**Associated Bloodline:** Fey.",
@@ -125,7 +125,7 @@
 		"description": [
 			"### Empyreal",
 			"",
-			"**Source** [Ultimate Magic pg. 71](source:ultimate_magic)  ",
+			"**Source** [Ultimate Magic pg. 71](source/ultimate_magic)  ",
 			"Your heavenly power derives from insight rather than force of personality.",
 			"",
 			"**Associated Bloodline:** Celestial.",
@@ -146,7 +146,7 @@
 		"description": [
 			"### Envenomed",
 			"",
-			"**Source** [Ultimate Magic pg. 71](source:ultimate_magic)  ",
+			"**Source** [Ultimate Magic pg. 71](source/ultimate_magic)  ",
 			"The ophidian source of your bloodline has more to do with stealth and assassination than it does with leadership and alliances.",
 			"",
 			"**Associated Bloodline:** Serpentine.",
@@ -167,7 +167,7 @@
 		"description": [
 			"### Groveborn",
 			"",
-			"**Source** [Ultimate Magic pg. 71](source:ultimate_magic)  ",
+			"**Source** [Ultimate Magic pg. 71](source/ultimate_magic)  ",
 			"Some plant magic is more green, while some is more brown, like hardwood.",
 			"",
 			"**Associated Bloodline:** Verdant.",
@@ -188,7 +188,7 @@
 		"description": [
 			"### Karmic",
 			"",
-			"**Source** [Ultimate Magic pg. 71](source:ultimate_magic)  ",
+			"**Source** [Ultimate Magic pg. 71](source/ultimate_magic)  ",
 			"The universe punishes those who interfere with destiny.",
 			"",
 			"**Associated Bloodline:** Destined.",
@@ -209,7 +209,7 @@
 		"description": [
 			"### Lifewater",
 			"",
-			"**Source** [Blood of the Elements pg. 15](source:blood_of_the_elements)  ",
+			"**Source** [Blood of the Elements pg. 15](source/blood_of_the_elements)  ",
 			"Your soul is infused with the restorative and life-giving powers of elemental water.",
 			"",
 			"**Associated Bloodline:** Elemental (water).",
@@ -230,7 +230,7 @@
 		"description": [
 			"### Linnorm",
 			"",
-			"**Source** [Ultimate Magic pg. 71](source:ultimate_magic)  ",
+			"**Source** [Ultimate Magic pg. 71](source/ultimate_magic)  ",
 			"Your draconic heritage stems from a mighty, primordial linnorm rather than from the more common, somewhat civilized dragons.",
 			"",
 			"**Associated Bloodline:** Draconic.",
@@ -252,7 +252,7 @@
 		"description": [
 			"### Pit-Touched",
 			"",
-			"**Source** [Ultimate Magic pg. 71](source:ultimate_magic)  ",
+			"**Source** [Ultimate Magic pg. 71](source/ultimate_magic)  ",
 			"Your diabolic corruption is from a source in the deepest parts of Hell.",
 			"",
 			"**Associated Bloodline:** Infernal.",
@@ -273,7 +273,7 @@
 		"description": [
 			"### Primal",
 			"",
-			"**Source** [Ultimate Magic pg. 72](source:ultimate_magic)  ",
+			"**Source** [Ultimate Magic pg. 72](source/ultimate_magic)  ",
 			"Your powers are attuned to the concentrated core of the elemental plane.",
 			"",
 			"**Associated Bloodline:** Elemental.",
@@ -294,7 +294,7 @@
 		"description": [
 			"### Retribution",
 			"",
-			"**Source** [People of the River pg. 11](source:people_of_the_river)  ",
+			"**Source** [People of the River pg. 11](source/people_of_the_river)  ",
 			"One of your ancestors was unjustly executed, and your soul is infused with this forebear's vengeful spirit.",
 			"",
 			"**Associated Bloodline:** Martyred.",
@@ -316,7 +316,7 @@
 		"description": [
 			"### Rime-Blooded",
 			"",
-			"**Source** [Ultimate Magic pg. 72](source:ultimate_magic)  ",
+			"**Source** [Ultimate Magic pg. 72](source/ultimate_magic)  ",
 			"The wintry origin of your magic flows like ice water in your veins.",
 			"",
 			"**Associated Bloodline:** Boreal.",
@@ -337,7 +337,7 @@
 		"description": [
 			"### Sage",
 			"",
-			"**Source** [Ultimate Magic pg. 72](source:ultimate_magic)  ",
+			"**Source** [Ultimate Magic pg. 72](source/ultimate_magic)  ",
 			"Scholars of the arcane are always creating new means to use magic.",
 			"",
 			"**Associated Bloodline:** Arcane.",
@@ -358,7 +358,7 @@
 		"description": [
 			"### Sanguine",
 			"",
-			"**Source** [Ultimate Magic pg. 72](source:ultimate_magic)  ",
+			"**Source** [Ultimate Magic pg. 72](source/ultimate_magic)  ",
 			"The power of undeath can derive from cold blood as well as hard bone.",
 			"",
 			"**Associated Bloodline:** Undead.",
@@ -379,7 +379,7 @@
 		"description": [
 			"### Seaborn",
 			"",
-			"**Source** [Ultimate Magic pg. 72](source:ultimate_magic)  ",
+			"**Source** [Ultimate Magic pg. 72](source/ultimate_magic)  ",
 			"Your powers rise like the tides.",
 			"",
 			"**Associated Bloodline:** Aquatic.",
@@ -400,7 +400,7 @@
 		"description": [
 			"### Shahzada",
 			"",
-			"**Source** [Blood of the Elements pg. 15](source:blood_of_the_elements)  ",
+			"**Source** [Blood of the Elements pg. 15](source/blood_of_the_elements)  ",
 			"You are descended from the ranks of noble marids, making your blood royal as well as magical.",
 			"",
 			"**Associated Bloodline:** Marid.",
@@ -421,7 +421,7 @@
 		"description": [
 			"### Sylvan",
 			"",
-			"**Source** [Ultimate Magic pg. 72](source:ultimate_magic)  ",
+			"**Source** [Ultimate Magic pg. 72](source/ultimate_magic)  ",
 			"Your ties to nature have more to do with creatures than with capriciousness.",
 			"",
 			"**Associated Bloodline:** Fey.",
@@ -444,7 +444,7 @@
 		"description": [
 			"## Umbral",
 			"",
-			"**Source** [Ultimate Magic pg. 73](source:ultimate_magic)  ",
+			"**Source** [Ultimate Magic pg. 73](source/ultimate_magic)  ",
 			"Your nature is to gather the darkness into yourself.",
 			"",
 			"**Associated Bloodline:** Shadow.",
@@ -465,7 +465,7 @@
 		"description": [
 			"## Visionary",
 			"",
-			"**Source** [Ultimate Magic pg. 73](source:ultimate_magic)  ",
+			"**Source** [Ultimate Magic pg. 73](source/ultimate_magic)  ",
 			"Your dream-magic strongly influences the waking world.",
 			"",
 			"**Associated Bloodline:** Dreamspun.",
@@ -487,7 +487,7 @@
 		"description": [
 			"## Void-Touched",
 			"",
-			"**Source** [Ultimate Magic pg. 73](source:ultimate_magic)  ",
+			"**Source** [Ultimate Magic pg. 73](source/ultimate_magic)  ",
 			"The darkness between the stars calls to you.",
 			"",
 			"**Associated Bloodline:** Starsoul.",
@@ -510,7 +510,7 @@
 		"description": [
 			"## Warped",
 			"",
-			"**Source** [Ultimate Magic pg. 73](source:ultimate_magic)  ",
+			"**Source** [Ultimate Magic pg. 73](source/ultimate_magic)  ",
 			"The alien taint in your blood causes malformations and mutations in others.",
 			"",
 			"**Associated Bloodline:** Aberrant.",
