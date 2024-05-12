@@ -1003,9 +1003,10 @@
 			"**Cost** 100 gp **Weight** -  ",
 			"**Damage** -; **Critical** -; **Range** -; **Type** -  ",
 			"**Crew** 1; **Aim** 0; **Load** 0; **Speed** 0 ft.  ",
-			"**Category** Close Assault; **Proficiency** Siege Engine"
+			"**Category** Close Assault; **Proficiency** Siege Engine",
+			"",
+			"**Note:** Marked as 'Large' based on the description given."
 		],
-		"note": "Marked as 'Large' based on the description given.",
 		"display": "equipsiege"
 	},
 	"crushing_wheel": {

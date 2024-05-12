@@ -69,7 +69,7 @@
 			"",
 			"**Lightning Rod (Su):** As a swift action when you cast a spell with the electricity descriptor, you can designate one creature within line of sight. The spell's damage against that creature increases by 50%, as if affected by the Empower Spell feat. This additional damage results from divine power that is not subject to being reduced by electricity resistance, and you take an equal amount of electricity damage immediately after you cast the spell. The spell can deal this additional damage only once, even if it could affect the target multiple times. You can use this ability once per day at 8th level and one additional time per day for every 4 cleric levels you have beyond 8th.",
 			"",
-			"**Replacement Domain Spells:** 1st- shocking grasp, 2nd-[flame blade](spell/flame_blade) (deals electricity damage and gains the electricity descriptor instead of fire), 3rd-[ lightning bolt](spell/ lightning bolt).",
+			"**Replacement Domain Spells:** 1st- shocking grasp, 2nd-[flame blade](spell/flame_blade) (deals electricity damage and gains the electricity descriptor instead of fire), 3rd-[lightning bolt](spell/lightning_bolt).",
 			"",
 			"#### Wind Subdomain",
 			"",
@@ -206,7 +206,7 @@
 			"",
 			"**Divine Alchemy (Su):** You can perform a 1-minute ritual that infuses a flask of water with one of your prepared spells, creating an improvised potion that lasts until consumed or the next time you prepare spells. You can use this ability only with spells that target one or more creatures, and the maximum spell level you can infuse in this way is equal to 1 + 1 for every 4 cleric levels you have. These potions are treated as alchemist extracts for the purpose of your domain spells. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 2nd-[ touch injection](spell/ touch injection), 4th-[ amplify elixir](spell/ amplify elixir), 6th-[delayed consumptionAPG](spell/delayed_consumptionapg).",
+			"**Replacement Domain Spells:** 2nd-[touch injection](spell/touch_injection), 4th-[amplify elixir](spell/amplify_elixir), 6th-[delayed consumptionAPG](spell/delayed_consumptionapg).",
 			"",
 			"#### Construct Subdomain",
 			"",
@@ -353,7 +353,7 @@
 			"",
 			"**Hasten the End (Su):** At 8th level, as an immediate action upon successfully hitting an opponent with a melee attack, you reduce the remaining duration of all beneficial magical effects currently affecting the target by 1 round, minute, hour, or day-whichever measurement is used to determine the duration of each particular magical effect. You can use this ability once per day at 8th level, and an additional time per day for every 4 levels beyond 8th.",
 			"",
-			"**Replacement Domain Spells:** 1st-entropic shield, 3rd-[ dispel magic](spell/ dispel magic), 5th-[confusion](spell/confusion), 7th-[destruction](spell/destruction).",
+			"**Replacement Domain Spells:** 1st-entropic shield, 3rd-[dispel magic](spell/dispel_magic), 5th-[confusion](spell/confusion), 7th-[destruction](spell/destruction).",
 			"",
 			"#### Protean Subdomain",
 			"",
@@ -866,7 +866,7 @@
 			"",
 			"**Painful Smite (Su):** Prior to making a melee attack roll, you can choose to convert all damage from that strike into nonlethal damage, adding your Wisdom modifier to the damage. If your attack hits, as a free action you can attempt an Intimidate check to demoralize the target. You gain a bonus on this Intimidate check equal to the amount of nonlethal damage dealt by the painful smite. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 2nd-[pain strike](spell/pain_strike), 5th-[ symbol of pain](spell/ symbol of pain), 8th-[demand](spell/demand)."
+			"**Replacement Domain Spells:** 2nd-[pain strike](spell/pain_strike), 5th-[symbol of pain](spell/symbol_of_pain), 8th-[demand](spell/demand)."
 		]
 	},
 	"earth": {
@@ -1007,7 +1007,7 @@
 			"",
 			"**Consume the Enemy (Su):** As a full-round action that is considered an evil act and provokes attacks of opportunity, you can bite a helpless living or freshly killed creature, dealing 1d3 points of damage. By consuming the creature's flesh, you gain a +1 profane bonus on saving throw DCs for all spells, spell-like abilities, and supernatural abilities you use against creatures of the same type (and subtype, if humanoid or outsider) as the cannibalized creature. This effect lasts for a number of minutes equal to 1/2 your cleric level or until you use this ability against a different creature. At 5th, 10th, 15th, and 20th level, this bonus increases by 1 (+5 maximum). You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-magic fang, 2nd-[ enemy's heart](spell/ enemy's heart), 3rd-[greater magic fang](spell/greater_magic_fang).",
+			"**Replacement Domain Spells:** 1st-magic fang, 2nd-[enemy's heart](spell/enemy's_heart), 3rd-[greater magic fang](spell/greater_magic_fang).",
 			"",
 			"#### Corruption Subdomain",
 			"",
@@ -1085,7 +1085,7 @@
 			"",
 			"**Feed on Fear (Su):** At 8th level, as an immediate action upon successfully landing a melee attack on a creature that is already suffering from a fear effect, you deal 2d6 extra points of damage and gain an equal amount of temporary hit points. These temporary hit points last for 24 hours or until lost. You can use this ability once per day at 8th level, and an additional time per day for every 4 levels beyond 8th.",
 			"",
-			"**Replacement Domain Spells:** 1st-cause fear, 3rd-[ scare](spell/ scare), 4th-[fear](spell/fear).",
+			"**Replacement Domain Spells:** 1st-cause fear, 3rd-[scare](spell/scare), 4th-[fear](spell/fear).",
 			"",
 			"#### Kyton Subdomain",
 			"",
@@ -1124,7 +1124,7 @@
 			"",
 			"**Touch of Paranoia (Su):** You can imbue a target with great suspicion and doubt as a melee touch attack. A creature affected by your touch does not have allies and is not considered to be an ally to any other creature, including other creatures affected by this effect. The affected creature cannot move freely through its allies' spaces, flank creatures with them, cooperate with them using teamwork feats, or give or receive benefits from the aid another action or any spells or effect that affects only allies. This ability lasts for a number of rounds equal to 1/2 your cleric level (minimum 1). You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 2nd-[ [haunting mists](spell/haunting_mists), 4th-[[they know](spell/they_know), 6th-[ [phobia](spell/phobia)."
+			"**Replacement Domain Spells:** 2nd-[haunting mists](spell/haunting_mists), 4th-[[they know](spell/they_know), 6th-[phobia](spell/phobia)."
 		]
 	},
 	"fire": {
@@ -1295,7 +1295,7 @@
 			"",
 			"**Witness the Legend (Su):** At 8th level, as a move action, you can extol the virtues of yourself or an ally within 60 feet that you can see. This causes the target to shed light like a torch for 1 minute, and while the effect lasts, you can expend a daily use of your touch of glory domain ability as an immediate action to add 1d6 to an attack, saving throw, skill check, or ability check attempted by the target; for a roll to confirm a critical hit or save against a fear effect, you instead add 1d12. You can use this ability once per day at 8th level and one additional time per day for every 4 levels beyond 8th.",
 			"",
-			"**Replacement Domain Spells:** 2nd-[aid](spell/aid), 3rd-[contagious zeal](spell/contagious_zeal), 4th-[ righteous vigor](spell/ righteous vigor), 6th-[ unshakable zeal](spell/ unshakable zeal). If you are evil, replace the domain spells holy smite, holy sword, and holy aura with unholy blight, unholy sword, and unholy aura respectively."
+			"**Replacement Domain Spells:** 2nd-[aid](spell/aid), 3rd-[contagious zeal](spell/contagious_zeal), 4th-[righteous vigor](spell/righteous_vigor), 6th-[unshakable zeal](spell/unshakable_zeal). If you are evil, replace the domain spells holy smite, holy sword, and holy aura with unholy blight, unholy sword, and unholy aura respectively."
 		]
 	},
 	"good": {
@@ -1728,7 +1728,7 @@
 			"",
 			"**Master's Yoke (Su):** At 8th level, you can attempt to assert your dominance over any visible creature within 30 feet by declaring the target your property. The target can resist this effect with a successful Will save (DC = 10 + half your class level + your Wisdom modifier). If the target fails the save, it is affected as if by dominate monster for a number of rounds equal to half your class level. The target can choose to ignore any order you give and instead take 2 points of Constitution damage and become staggered for 1 round. You can use this ability once per day at 8th level, and an additional time per day for every 4 levels beyond 8th. This is a language-based mind-affecting effect.",
 			"",
-			"**Replacement Domain Spells:** 1st-charm person, 5th-[ dominate person](spell/ dominate person), 8th-[binding](spell/binding).",
+			"**Replacement Domain Spells:** 1st-charm person, 5th-[dominate person](spell/dominate_person), 8th-[binding](spell/binding).",
 			"",
 			"#### Sovereignty Subdomain",
 			"",
@@ -1754,7 +1754,7 @@
 			"",
 			"**Tyrannical Strike (Su):** At 8th level, as an immediate action upon successfully landing a melee attack on an opponent, you can choose to forgo the damage (but not any other effects of the attack) to instead affect the creature you hit as per a greater command spell, with a caster level equal to your class level. You can use this ability once per day at 8th level, and an additional time per day for every 4 levels beyond 8th.",
 			"",
-			"**Replacement Domain Spells:** 1st-command, 3rd-[ bestow curse](spell/ bestow curse), 7th-[symbol of persuasion](spell/symbol_of_persuasion)."
+			"**Replacement Domain Spells:** 1st-command, 3rd-[bestow curse](spell/bestow_curse), 7th-[symbol of persuasion](spell/symbol_of_persuasion)."
 		]
 	},
 	"liberation": {
@@ -2007,7 +2007,7 @@
 			"",
 			"**Divine Alchemy (Su):** You can perform a 1-minute ritual that infuses a flask of water with one of your prepared spells, creating an improvised potion that lasts until consumed or the next time you prepare spells. You can use this ability only with spells that target one or more creatures, and the maximum spell level you can infuse in this way is equal to 1 + 1 for every 4 cleric levels you have. These potions are treated as alchemist extracts for the purpose of your domain spells. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 2nd-[ touch injection](spell/ touch injection), 4th-[ amplify elixir](spell/ amplify elixir), 6th-[delayed consumptionAPG](spell/delayed_consumptionapg).",
+			"**Replacement Domain Spells:** 2nd-[touch injection](spell/touch_injection), 4th-[amplify elixir](spell/amplify_elixir), 6th-[delayed consumptionAPG](spell/delayed_consumptionapg).",
 			"",
 			"#### Arcane Subdomain",
 			"",
@@ -2240,7 +2240,7 @@
 			"",
 			"**Cruel Thicket (Su):** As a standard action, you can cause the ground in a 5-foot-radius burst centered on you to sprout twisting, thorny vines. Any creature moving through it must travel at half speed or take bleed damage equal to half your cleric level; if you activate this ability in an area with numerous plants (grass, weeds, trees, etc.), the area also becomes difficult terrain. These effects last for 1 minute, after which the vines crumble to dust. Creatures able to move through natural undergrowth unhindered ignore the effects of this ability. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-thorn javelin, 3rd-[ thorny entanglement](spell/ thorny entanglement), 4th-[thorn body](spell/thorn_body)."
+			"**Replacement Domain Spells:** 1st-thorn javelin, 3rd-[thorny entanglement](spell/thorny_entanglement), 4th-[thorn body](spell/thorn_body)."
 		]
 	},
 	"protection": {
@@ -2515,7 +2515,7 @@
 			"",
 			"**Serpent Companion (Ex):** At 4th level, you gain the service of an animal companion. Your effective druid level for this animal companion is equal to your cleric level -2. You may choose either a viper or a constrictor snake as your companion.",
 			"",
-			"**Domain Spells:** 1st-magic fang, 2nd-[animal trance](spell/animal_trance), 3rd-[greater magic fang](spell/greater_magic_fang), 4th-[poison](spell/poison), 5th-[animal growth*](spell/animal_growth*), 6th-[eyebite](spell/eyebite), 7th-[creeping doom](spell/creeping_doom) (takes the form of Diminutive-sized reptiles), 8th-[animal shapes*](spell/animal_shapes*), 9th-[shapechange](spell/shapechange).*Only reptiles.",
+			"**Domain Spells:** 1st-magic fang, 2nd-[animal trance](spell/animal_trance), 3rd-[greater magic fang](spell/greater_magic_fang), 4th-[poison](spell/poison), 5th-[animal growth&ast;](spell/animal_growth), 6th-[eyebite](spell/eyebite), 7th-[creeping doom](spell/creeping_doom) (takes the form of Diminutive-sized reptiles), 8th-[animal shapes&ast;](spell/animal_shapes), 9th-[shapechange](spell/shapechange). &ast; Only reptiles.",
 			"",
 			"#### Dragon Subdomain",
 			"",
@@ -3138,7 +3138,7 @@
 			"",
 			"**Sift (Su):** At 6th level, once per day you can reach into water as a standard action and pull out an object with a maximum gp value of up to 50 gp &times; your class level. This object always has the broken condition upon being withdrawn from the water. The water you reach into must be at least deep enough to fully immerse yourself in. At 12th level, the objects that you retrieve are not broken. At 20th level, you can retrieve objects worth up to 5,000 gp. If you're retrieving an object that would not normally float, assume it rests on top of or is entwined with debris that does float. Objects retrieved in this manner disappear after 24 hours if they're not already used up or otherwise destroyed before then.",
 			"",
-			"**Replacement Domain Spells:** 2nd-[make whole](spell/make_whole), 5th-[ major creation](spell/ major creation), 6th-[animate object](spell/animate_object).",
+			"**Replacement Domain Spells:** 2nd-[make whole](spell/make_whole), 5th-[major creation](spell/major_creation), 6th-[animate object](spell/animate_object).",
 			"",
 			"#### Flowing Subdomain",
 			"",

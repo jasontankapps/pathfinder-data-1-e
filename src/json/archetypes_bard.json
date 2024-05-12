@@ -121,7 +121,7 @@
 			"",
 			"**Uncanny Dodge (Ex):** At 2nd level, an archaeologist gains [uncanny dodge, as the rogue class feature of the same name](class/uncanny_dodge,_as_the_rogue_class_feature_of_the_same_name). This ability replaces well-versed.",
 			"",
-			"**Trap Sense (Ex):** At 3rd level, an archaeologist gains [trap sense +1, as the rogue class feature of the same name](class/trap_sense_+1,_as_the_rogue_class_feature_of_the_same_name). This bonus improves by +1 for every three levels gained after 3rd, to a maximum of +6 at 18th level.",
+			"**Trap Sense (Ex):** At 3rd level, an archaeologist gains [trap sense +1, as the rogue class feature of the same name](class/rogue). This bonus improves by +1 for every three levels gained after 3rd, to a maximum of +6 at 18th level.",
 			"",
 			"**Rogue Talents:** At 4th level, an archaeologist gains a [rogue talent](unknown/rogue_talent). He gains an additional rogue talent for every four levels of archaeologist gained after 4th level. Otherwise, this works as the rogue's rogue talent ability.",
 			"",
@@ -895,7 +895,7 @@
 		"description": [
 			"## Dragon Herald",
 			"",
-			"**Source** [Kobolds of Golarion pg. 22]_of Golarion)",
+			"**Source** [Kobolds of Golarion pg. 22]_of Golarion)  ",
 			"Dragon heralds are messengers and evangelists of true dragonkind. They carry the word of their dragon patrons far and wide, whether that's a message of peace or a declaration of war. A kobold whose scales already associate her with a revered dragon is often trained as her tribe's dragon herald.",
 			"",
 			"**Weapon and Armor Proficiency:** The dragon herald is proficient with simple weapons and light armor, but not with shields. Dragon heralds are messengers, not warriors. Like other bards, dragon heralds don't incur the normal arcane spell failure chance from wearing light armor.",
@@ -1076,7 +1076,7 @@
 		"description": [
 			"## Fey Courtier",
 			"",
-			"**Source** [Ultimate Wilderness pg. 11]_Wilderness)",
+			"**Source** [Ultimate Wilderness pg. 11]_Wilderness)  ",
 			"Fey who associate with courts often become bards skilled at navigating the inhuman societies of the trackless wilds.",
 			"",
 			"**Bardic Performance:** The fey courtier has access to the following bardic performances.",
@@ -1249,7 +1249,7 @@
 			"",
 			"This ability replaces dirge of doom.",
 			"",
-			"**Resist Nature's Lure (Ex):** At 2nd level, a First World minstrel gains the [resist nature's lure druid class feature.](class/resist_nature's_lure_druid_class_feature.)",
+			"**Resist Nature's Lure (Ex):** At 2nd level, a First World minstrel gains the [resist nature's lure druid class feature.](class/druid).",
 			"",
 			"This ability replaces well-versed."
 		],
@@ -1336,7 +1336,7 @@
 		"description": [
 			"## Fortune-Teller",
 			"",
-			"**Source** [Villain Codex pg. 32]_Codex)",
+			"**Source** [Villain Codex pg. 32]_Codex)  ",
 			"Instead of using song and dance, a fortune-teller influences people by divining their fate. Though he learns a great deal about the paths of destiny, his true skill is in making others think he knows more than he truly does.",
 			"",
 			"**Fortune-Teller's Divinations:** Add the following spells to the fortune-teller's bard spell list. He doesn't automatically gain them and must still select them as spells known if he wants to use them. 0-[guidance](spell/guidance); 1st-[object reading](spell/object_reading); 2nd-[augury](spell/augury); 3rd-[analyze aura](spell/analyze_aura); 4th-[divination](spell/divination); 5th-[retrocognition](spell/retrocognition); 6th-[true seeing](spell/true_seeing), [vision](spell/vision).",
@@ -2377,10 +2377,7 @@
 	"sound_striker": {
 		"name": "Sound Striker",
 		"file": "archetypedisplay4999.html",
-		"sources": [
-			"Ultimate Magic",
-			"Link"
-		],
+		"sources": [ "Ultimate Magic" ],
 		"replaces": "Inspire Competence; Suggestion",
 		"replace_array": [
 			"Inspire Competence",
@@ -2390,8 +2387,7 @@
 		"description": [
 			"## Sound Striker",
 			"",
-			"**Source** [Ultimate Magic pg. 27](source/ultimate_magic)  ",
-			"**Errata [Link](source/**link)",
+			"**Source** [Ultimate Magic pg. 27](source/ultimate_magic), [errata](https://paizo.com/paizo/faq/v5748nruor1fz#v5748eaic9t4f)",
 			"",
 			"They say that words can cut deeper than any blade, and the sound striker proves this true. Using music and words as a weapon, he can focus his performances into a deadly delivery.",
 			"",
@@ -2622,7 +2618,7 @@
 			"## Voice of Brigh",
 			"",
 			"**Source** [Construct Handbook pg. 14](source/construct_handbook)  ",
-			"**The [Whisper in Bronze](faith/**whisper_in_bronze) sometimes sends inspiration to her favorite followers in the form of music. These songs hold the notes of creation and unmaking that allow her followers to affect constructs. The bards who learn these songs take on the title of Voice of Brigh and typically play custom-made instruments that are themselves marvels of engineering and invention.",
+			"The [Whisper in Bronze](faith/whisper_in_bronze) sometimes sends inspiration to her favorite followers in the form of music. These songs hold the notes of creation and unmaking that allow her followers to affect constructs. The bards who learn these songs take on the title of Voice of Brigh and typically play custom-made instruments that are themselves marvels of engineering and invention.",
 			"",
 			"**Brigh's Knowledge (Ex):** A bard adds half his class level (minimum 1) as a bonus on Knowledge (arcana), Knowledge (dungeoneering), Knowledge (engineering), and Knowledge (religion) checks and can attempt these skill checks untrained. In addition, a Voice of Brigh can affect constructs with his bardic performance, even if they would normally be immune to or unaffected by his performance.",
 			"",

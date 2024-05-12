@@ -1162,10 +1162,7 @@
 	"titan_mauler": {
 		"name": "Titan Mauler",
 		"file": "archetypedisplay948d.html",
-		"sources": [
-			"Ultimate Combat",
-			"Link"
-		],
+		"sources": [ "Ultimate Combat" ],
 		"replaces": "Fast Movement; Uncanny Dodge; Trap Sense; Improved Uncanny Dodge; Indomitable Will",
 		"replace_array": [
 			"Fast Movement",
@@ -1178,8 +1175,7 @@
 		"description": [
 			"## Titan Mauler",
 			"",
-			"**Source** [Ultimate Combat pg. 30](source/ultimate_combat)  ",
-			"**Errata [Link](source/**link)",
+			"**Source** [Ultimate Combat pg. 30](source/ultimate_combat)",
 			"",
 			"In lands overrun by giants, dragons, and other hulking beasts, entire fellowships of barbarians hone tactics and traditions with one purpose-to bring low these massive foes. While her enemies' size makes the creatures strong, the titan mauler is even stronger, taking up weapons from her fallen foes that no lesser warrior can lift, and using them when she beseeches the spirits to grant her increased size and greater ferocity against her titanic foes.",
 			"",
@@ -1208,7 +1204,7 @@
 			"## Totem Warrior",
 			"",
 			"**Source** [Advanced Player's Guide pg. 79](source/advanced_player's_guide)  ",
-			"A barbarian often has a special totem that is the patron of her tribe. While individual totems vary, those in the tribe that call upon a totem receive similar abilities. Totem warrior barbarians can select from the following rage powers.",
+			"A barbarian often has a special totem that is the patron of her tribe. While individual totems vary, those in the tribe that call upon a totem receive similar abilities. Totem warrior barbarians can select from [totem rage powers](unknown/totam_rage_powers) that match their totem.",
 			"",
 			"**Rage Powers:** The totem warrior is based entirely upon his totem rage powers. In addition to the totem powers themselves, the following rage powers complement the totem warrior archtype (depending on the totem chosen): animal fury, low-light vision, night vision, raging climber, raging leaper, raging swimmer, and swift foot."
 		],

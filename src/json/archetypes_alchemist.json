@@ -346,7 +346,7 @@
 		"description": [
 			"## Bramble Brewer",
 			"",
-			"**Source** [Advanced Race Guide pg. 44]_Race Guide)",
+			"**Source** [Advanced Race Guide pg. 44]_Race Guide)  ",
 			"Some half-elven alchemists merge human curiosity with their elven link to nature. Such alchemists can manipulate the forces of alchemy to create bombs that reshape terrain and defoliate swaths of vegetation or to create mutagens that bestow the resilience of oak or the tenacity of bamboo. A bramble brewer has the following class features.",
 			"",
 			"**Briar Bombs (Su):** At 2nd level, a bramble brewer gains the tanglefoot bomb discovery, but the entanglement's duration persists for a number of rounds equal to the bramble brewer's Intelligence modifier (minimum 1 round). Additionally, when a bramble brewer throws a tanglefoot bomb, it transforms all squares in its splash radius into difficult terrain that persists for as long as the bomb's entangling effect. Although these bombs deal no damage, for every 1d6 points of damage the bramble brewer's regular bombs deal, the briar bomb's splash radius increases by 5 feet. This ability replaces the 2nd-level discovery class feature.",
@@ -436,7 +436,7 @@
 		"description": [
 			"## Concocter",
 			"",
-			"**Source** [Potions and Poisons pg. 8]_and Poisons)",
+			"**Source** [Potions and Poisons pg. 8]_and Poisons)  ",
 			"Experts at combining sets of chemicals to create unique effects, concocters specialize in blending extracts, mutagens, and potions to create concoctions that give them exhilarating powers. Concocters seem reckless to those who aren't familiar with their ways, but those who know them understand that these alchemists simply have unorthodox methods.",
 			"",
 			"**Mutagenic Mixology (Ex):** At 2nd level, whenever a concocter brews a potion, he can mix in some of the chemicals he uses to create his mutagen, adding some of his mutagen's effects to this concoction.",
@@ -1261,7 +1261,7 @@
 		"description": [
 			"## Horticulturist",
 			"",
-			"**Source** [Ultimate Wilderness pg. 35]_Wilderness), [Heroes of the Wild pg. 24](source/heroes_of_the_wild)",
+			"**Source** [Ultimate Wilderness pg. 35]_Wilderness), [Heroes of the Wild pg. 24](source/heroes_of_the_wild)  ",
 			"A horticulturist spends his time cultivating plants and plant creatures, allowing him to experiment with strange and wondrous herbal concoctions.",
 			"",
 			"**Seed Extract:** At 1st level, a horticulturist adds summon nature's ally I-VI as 1st- through 6th-level extracts, respectively, to his class extract list. For example, he automatically adds summon nature's ally I to his formula book at 1st level and adds the next higher-level spell to his formula book each time he gains the ability to use extracts of that level. The horticulturist uses these special extracts to plant a seed that grows into a creature, bypassing the restriction for single target or personal effects. Using these extracts takes 1 round (as the spell's normal casting time), and the creature summoned must be placed in a space adjacent to the horticulturist. The horticulturist can use these extracts to summon only animals and plants on the appropriate summon nature's ally list. Creatures the horticulturist summons with these extracts become creatures with the plant type (gaining low-light vision and immunity to mind-affecting, paralysis, poison, polymorph, sleep, and stunning effects) rather than their normal type, but their attack bonuses, Hit Dice, saving throws, and skills don't change.",
@@ -1444,15 +1444,15 @@
 			"",
 			"Alchemist Formulae from the Advanced Player's Guide",
 			"",
-			"**2nd-Level Alchemist Formulae-[aid](spell/**aid), [alchemical allocation](spell/alchemical_allocation), [alter self](spell/alter_self), [barkskin](spell/barkskin), [bear's endurance](spell/bear's_endurance), [blur](spell/blur), [bull's strength](spell/bull's_strength), [cat's grace](spell/cat's_grace), [cure moderate wounds](spell/cure_moderate_wounds), [darkvision](spell/darkvision), [delay poison](spell/delay_poison), [detect thoughts](spell/detect_thoughts), [eagle's splendor](spell/eagle's_splendor), [elemental touch](spell/elemental_touch), [false life](spell/false_life), [fire breath](spell/fire_breath), [fox's cunning](spell/fox's_cunning), [invisibility](spell/invisibility), [levitate](spell/levitate), [owl's wisdom](spell/owl's_wisdom), [perceive cues](spell/perceive_cues), [protection from arrows](spell/protection_from_arrows), [resist energy](spell/resist_energy), [restoration (lesser)](spell/restoration_lesser), [see invisibility](spell/see_invisibility), [spider climb](spell/spider_climb), [transmute potion to poison](spell/transmute_potion_to_poison), [undetectable alignment](spell/undetectable_alignment), [vomit swarm](spell/vomit_swarm).",
+			"**2nd-Level Alchemist Formulae**-[aid](spell/aid), [alchemical allocation](spell/alchemical_allocation), [alter self](spell/alter_self), [barkskin](spell/barkskin), [bear's endurance](spell/bear's_endurance), [blur](spell/blur), [bull's strength](spell/bull's_strength), [cat's grace](spell/cat's_grace), [cure moderate wounds](spell/cure_moderate_wounds), [darkvision](spell/darkvision), [delay poison](spell/delay_poison), [detect thoughts](spell/detect_thoughts), [eagle's splendor](spell/eagle's_splendor), [elemental touch](spell/elemental_touch), [false life](spell/false_life), [fire breath](spell/fire_breath), [fox's cunning](spell/fox's_cunning), [invisibility](spell/invisibility), [levitate](spell/levitate), [owl's wisdom](spell/owl's_wisdom), [perceive cues](spell/perceive_cues), [protection from arrows](spell/protection_from_arrows), [resist energy](spell/resist_energy), [restoration (lesser)](spell/restoration_lesser), [see invisibility](spell/see_invisibility), [spider climb](spell/spider_climb), [transmute potion to poison](spell/transmute_potion_to_poison), [undetectable alignment](spell/undetectable_alignment), [vomit swarm](spell/vomit_swarm).",
 			"",
-			"3rd-Level Alchemist Formulae-[absorbing touch](spell/absorbing_touch), [amplify elixir](spell/amplify_elixir), [arcane sight](spell/arcane_sight), [beast shape I](spell/beast_shape_1), [bloodhound](spell/bloodhound), [cure serious wounds](spell/cure_serious_wounds), [displacement](spell/displacement), [draconic reservoir](spell/draconic_reservoir), [elemental aura](spell/elemental_aura), [fly](spell/fly), [gaseous form](spell/gaseous_form), [haste](spell/haste), [heroism](spell/heroism), [nondetection](spell/nondetection), [protection from energy](spell/protection_from_energy), [rage](spell/rage), [remove blindness/deafness](spell/remove_blindness_deafness), [remove curse](spell/remove_curse), [remove disease](spell/remove_disease), [seek thoughts](spell/seek_thoughts), [thorn body](spell/thorn_body), [tongues](spell/tongues), [water breathing](spell/water_breathing).",
+			"**3rd-Level Alchemist Formulae**-[absorbing touch](spell/absorbing_touch), [amplify elixir](spell/amplify_elixir), [arcane sight](spell/arcane_sight), [beast shape I](spell/beast_shape_1), [bloodhound](spell/bloodhound), [cure serious wounds](spell/cure_serious_wounds), [displacement](spell/displacement), [draconic reservoir](spell/draconic_reservoir), [elemental aura](spell/elemental_aura), [fly](spell/fly), [gaseous form](spell/gaseous_form), [haste](spell/haste), [heroism](spell/heroism), [nondetection](spell/nondetection), [protection from energy](spell/protection_from_energy), [rage](spell/rage), [remove blindness/deafness](spell/remove_blindness_deafness), [remove curse](spell/remove_curse), [remove disease](spell/remove_disease), [seek thoughts](spell/seek_thoughts), [thorn body](spell/thorn_body), [tongues](spell/tongues), [water breathing](spell/water_breathing).",
 			"",
-			"**4th-Level Alchemist Formulae-[air walk](spell/**air_walk), [arcane eye](spell/arcane_eye), [beast shape II](spell/beast_shape_2), [cure critical wounds](spell/cure_critical_wounds), [death ward](spell/death_ward), [detonate](spell/detonate), [discern lies](spell/discern_lies), [dragon's breath](spell/dragon's_breath), [elemental body I](spell/elemental_body_1), [fire shield](spell/fire_shield), [fluid form](spell/fluid_form), [freedom of movement](spell/freedom_of_movement), [invisibility (greater)](spell/invisibility_greater), [neutralize poison](spell/neutralize_poison), [restoration](spell/restoration), [spell immunity](spell/spell_immunity), [stoneskin](spell/stoneskin), [universal formula](spell/universal_formula).",
+			"**4th-Level Alchemist Formulae**-[air walk](spell/air_walk), [arcane eye](spell/arcane_eye), [beast shape II](spell/beast_shape_2), [cure critical wounds](spell/cure_critical_wounds), [death ward](spell/death_ward), [detonate](spell/detonate), [discern lies](spell/discern_lies), [dragon's breath](spell/dragon's_breath), [elemental body I](spell/elemental_body_1), [fire shield](spell/fire_shield), [fluid form](spell/fluid_form), [freedom of movement](spell/freedom_of_movement), [invisibility (greater)](spell/invisibility_greater), [neutralize poison](spell/neutralize_poison), [restoration](spell/restoration), [spell immunity](spell/spell_immunity), [stoneskin](spell/stoneskin), [universal formula](spell/universal_formula).",
 			"",
-			"5th-Level Alchemist Formulae-[beast shape III](spell/beast_shape_3), [contact other plane](spell/contact_other_plane), [delayed consumption](spell/delayed_consumption), [dream](spell/dream), [elemental body II](spell/elemental_body_2), [elude time](spell/elude_time), [magic jar](spell/magic_jar), [nightmare](spell/nightmare), [overland flight](spell/overland_flight), [planar adaptation](spell/planar_adaptation), [plant shape I](spell/plant_shape_1), [polymorph](spell/polymorph), [resurgent transformation](spell/resurgent_transformation), [sending](spell/sending), [spell resistance](spell/spell_resistance).",
+			"**5th-Level Alchemist Formulae**-[beast shape III](spell/beast_shape_3), [contact other plane](spell/contact_other_plane), [delayed consumption](spell/delayed_consumption), [dream](spell/dream), [elemental body II](spell/elemental_body_2), [elude time](spell/elude_time), [magic jar](spell/magic_jar), [nightmare](spell/nightmare), [overland flight](spell/overland_flight), [planar adaptation](spell/planar_adaptation), [plant shape I](spell/plant_shape_1), [polymorph](spell/polymorph), [resurgent transformation](spell/resurgent_transformation), [sending](spell/sending), [spell resistance](spell/spell_resistance).",
 			"",
-			"6th-Level Alchemist Formulae-[analyze dweomer](spell/analyze_dweomer), [beast shape IV](spell/beast_shape_4), [elemental body III](spell/elemental_body_3), [eyebite](spell/eyebite), [form of the dragon I](spell/form_of_the_dragon_1), [giant form I](spell/giant_form_1), [heal](spell/heal), [mislead](spell/mislead), [plant shape II](spell/plant_shape_2), [shadow walk](spell/shadow_walk), [statue](spell/statue), [transformation](spell/transformation), [true seeing](spell/true_seeing), [twin form](spell/twin_form), [wind walk](spell/wind_walk)."
+			"**6th-Level Alchemist Formulae**-[analyze dweomer](spell/analyze_dweomer), [beast shape IV](spell/beast_shape_4), [elemental body III](spell/elemental_body_3), [eyebite](spell/eyebite), [form of the dragon I](spell/form_of_the_dragon_1), [giant form I](spell/giant_form_1), [heal](spell/heal), [mislead](spell/mislead), [plant shape II](spell/plant_shape_2), [shadow walk](spell/shadow_walk), [statue](spell/statue), [transformation](spell/transformation), [true seeing](spell/true_seeing), [twin form](spell/twin_form), [wind walk](spell/wind_walk)."
 		],
 		"display": "archetype/alchemist"
 	},
@@ -1586,7 +1586,7 @@
 			"",
 			"**Mental Ambix:** A mnemostiller's alchemy relies on force of personality, using his own mind as an alchemy lab to draw and purify the mnemos collected from others. A mnemostiller uses his Charisma score in place of his Intelligence score for the purpose of extracts and bonus extracts. A mnemostiller still uses his Intelligence score to learn new formulae.",
 			"",
-			"**The mnemostiller can cast [detect thoughts](spell/**detect_thoughts) as a spell-like ability a number of times per day equal to his Charisma modifier (minimum 1).",
+			"The mnemostiller can cast [detect thoughts](spell/detect_thoughts) as a spell-like ability a number of times per day equal to his Charisma modifier (minimum 1).",
 			"",
 			"This alters alchemy and replaces throw anything.",
 			"",
@@ -1804,7 +1804,7 @@
 		"description": [
 			"## Promethean Alchemist",
 			"",
-			"**Source** [Occult Adventures pg. 112]_Adventures)",
+			"**Source** [Occult Adventures pg. 112]_Adventures)  ",
 			"Obsessed with discovering the origins of life, promethean alchemists build constructs they gradually endow with life.",
 			"",
 			"**Craft Construct:** At 1st level, a promethean alchemist gains the promethean disciple discovery. This ability replaces Brew Potion and Throw Anything.",
@@ -1927,10 +1927,7 @@
 	"ragechemist": {
 		"name": "Ragechemist",
 		"file": "archetypedisplayb5eb.html",
-		"sources": [
-			"Ultimate Combat",
-			"Link"
-		],
+		"sources": [ "Ultimate Combat" ],
 		"replaces": "Poison Use; Swift Poisoning; Poison Immunity",
 		"replace_array": [
 			"Poison Use",
@@ -1941,8 +1938,7 @@
 		"description": [
 			"## Ragechemist",
 			"",
-			"**Source** [Ultimate Combat pg. 26](source/ultimate_combat)  ",
-			"**Errata [Link](source/**link)",
+			"**Source** [Ultimate Combat pg. 26](source/ultimate_combat)",
 			"",
 			"Some alchemists create mutagens that tap into a primal anger that fuels their physical transformation. These alchemists have little control over their altered selves.",
 			"",
@@ -2282,7 +2278,7 @@
 			"",
 			"**Torturous Transformation:** At 7th level, a vivisectionist adds [anthropomorphic animal](spell/anthropomorphic_animal) to his formula book as a 2nd-level extract. When he uses this extract, he injects it into an animal as part of a 2-hour surgical procedure. By using multiple doses of this extract as part of the surgery, he multiplies the duration by the number of extracts used.",
 			"",
-			"**At 9th level, a vivisectionist adds [awaken](spell/**awaken) and [baleful polymorph](spell/baleful_polymorph) to his formula book as 3rd-level extracts. When he uses the [awaken](spell/awaken) or [baleful polymorph](spell/baleful_polymorph) extract, he injects it into the target (not a plant) as part of a 24-hour surgical procedure. He can make [anthropomorphic animal](spell/anthropomorphic_animal) permanent on a creature by spending 7,500 gp.",
+			"At 9th level, a vivisectionist adds [awaken](spell/awaken) and [baleful polymorph](spell/baleful_polymorph) to his formula book as 3rd-level extracts. When he uses the [awaken](spell/awaken) or [baleful polymorph](spell/baleful_polymorph) extract, he injects it into the target (not a plant) as part of a 24-hour surgical procedure. He can make [anthropomorphic animal](spell/anthropomorphic_animal) permanent on a creature by spending 7,500 gp.",
 			"",
 			"At 15th level, a vivisectionist adds [regenerate](spell/regenerate) to his formula book as a 5th-level extract.",
 			"",

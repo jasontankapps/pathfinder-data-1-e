@@ -4093,7 +4093,7 @@
 			"This resplendent suit of +3 full plate shimmers and shifts between all the colors of the rainbow. A single color dominates the others at any given time. As a swift action, the wearer can change the dominant color. This color remains dominant until the wearer changes it again. When the wearer of prismatic plate is struck by a prismatic spray, or when he passes through a prismatic sphere or prismatic wall, he ignores the effect that matches the dominant armor color. He receives no special protection against the other colors of those spells. In addition to this benefit, each color provides a unique type of protection.",
 			"",
 			"| Color |",
-			"|---|",
+			"| --- |",
 			"| Red |",
 			"| Orange |",
 			"| Yellow |",
@@ -5550,6 +5550,7 @@
 			"10th Level: Once per day as an immediate action, the wearer can use [draconic reservoir](unknown/draconic_reservoir) as a spell-like ability.",
 			"",
 			"15th Level: Conqueror's breastplate acts as a +3 [determination](unknown/determination) mithral breastplate.",
+			"",
 			"**Goal:** At least 20 people whose CR is equal to or greater than the wearer's Hit Dice - 4 must swear fealty or pledge their loyalty to the wearer.  ",
 			"**Reward:** The wearer's grandiose bearing cows the weak willed. He gains the [frightful presence](unknown/frightful_presence) universal monster ability with a 30-foot-radius range and a Will save DC equal to 10 + his character level + his Charisma modifier. He can suppress or resume this ability as a free action."
 		],
@@ -5596,12 +5597,6 @@
 		"slot": "shield",
 		"intelligent": true,
 		"weight": 5,
-		"statistics": [
-			"Alignment neutral; Ego 6",
-			"Senses 30 ft.",
-			"Int 16, Wis 10, Cha 10",
-			"Communication telepathy (Common and six other languages)"
-		],
 		"description": [
 			"## Source [Ultimate Equipment pg. 359](source/ultimate_equipment)",
 			"",
@@ -5612,7 +5607,14 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Magic Arms and Armor, Scribe Scroll, creator must be an arcane spellcaster of at least 14th level; **Price** 7,250 gp"
+			"Craft Magic Arms and Armor, Scribe Scroll, creator must be an arcane spellcaster of at least 14th level; **Price** 7,250 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** neutral; **Ego** 6  ",
+			"**Senses** 30 ft.  ",
+			"**Int** 16, Wis 10, Cha 10  ",
+			"**Communication** telepathy (Common and six other languages)"
 		],
 		"display": "magic/armor"
 	},
@@ -5624,12 +5626,6 @@
 		"slot": "armor",
 		"intelligent": true,
 		"weight": 25,
-		"statistics": [
-			"Alignment chaotic neutral; Ego 7",
-			"Senses 120 ft.",
-			"Int 14, Wis 10, Cha 14",
-			"Communication speech (Auran, Celestial, Common)"
-		],
 		"description": [
 			"## Gossamer Shrouds of the Clairvoyant",
 			"",
@@ -5641,7 +5637,14 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Magic Arms and Armor, disguise self, obscuring mist, rainbow pattern; **Price** 10,075 gp"
+			"Craft Magic Arms and Armor, disguise self, obscuring mist, rainbow pattern; **Price** 10,075 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** chaotic neutral; **Ego** 7  ",
+			"**Senses** 120 ft.  ",
+			"**Int** 14, Wis 10, Cha 14  ",
+			"**Communication** speech (Auran, Celestial, Common)"
 		],
 		"display": "magic/armor"
 	},
@@ -5653,12 +5656,6 @@
 		"slot": "head",
 		"intelligent": true,
 		"weight": 3,
-		"statistics": [
-			"Alignment neutral good; Ego 14",
-			"Senses 30 ft.",
-			"Int 14, Wis 16, Cha 14",
-			"Communication speech (Common and four other languages)"
-		],
 		"description": [
 			"## Source [Ultimate Equipment pg. 357](source/ultimate_equipment)",
 			"",
@@ -5674,7 +5671,14 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Wondrous Item, the item's performance and teamwork feat, bless, eagle's splendor, prayer, scare, true strike; **Price** 31,000 gp"
+			"Craft Wondrous Item, the item's performance and teamwork feat, bless, eagle's splendor, prayer, scare, true strike; **Price** 31,000 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** neutral good; **Ego** 14  ",
+			"**Senses** 30 ft.  ",
+			"**Int** 14, Wis 16, Cha 14  ",
+			"**Communication** speech (Common and four other languages)"
 		],
 		"display": "magic/armor"
 	},
@@ -5686,12 +5690,6 @@
 		"slot": "armor",
 		"intelligent": true,
 		"weight": 15,
-		"statistics": [
-			"Alignment neutral; Ego 14",
-			"Senses 120 ft., darkvision",
-			"Int 14, Wis 16, Cha 14",
-			"Communication telepathy (Aklo, Common, and Elven)"
-		],
 		"description": [
 			"## Source [Ultimate Equipment pg. 356](source/ultimate_equipment)",
 			"",
@@ -5702,7 +5700,14 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Magic Arms and Armor, grease, invisibility, silence, creator must have the sneak attack class feature; **Price** 58,660 gp"
+			"Craft Magic Arms and Armor, grease, invisibility, silence, creator must have the sneak attack class feature; **Price** 58,660 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** neutral; **Ego** 14  ",
+			"**Senses** 120 ft., darkvision  ",
+			"**Int** 14, Wis 16, Cha 14  ",
+			"**Communication** telepathy (Aklo, Common, and Elven)"
 		],
 		"display": "magic/armor"
 	},

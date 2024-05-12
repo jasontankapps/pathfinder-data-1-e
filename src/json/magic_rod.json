@@ -615,7 +615,7 @@
 			"A rod of wonder is a strange and unpredictable device that randomly generates any number of weird effects each time it is used. Activating the rod is a standard action. Typical powers of the rod include the following.",
 			"",
 			"| d% | Wondrous Effect |",
-			"|---|---|",
+			"| --- | --- |",
 			"| 01-05 | Target affected by slow for 10 rounds (Will DC 15 negates). |",
 			"| 06-10 | Faerie fire surrounds the target. |",
 			"| 11-15 | Deludes the wielder for 1 round into believing the rod functions as indicated by a second die roll (no save). |",
@@ -753,7 +753,6 @@
 		],
 		"cost": 14400,
 		"slot": "none",
-		"maybe_slot": "rod",
 		"weight": 4,
 		"description": [
 			"## Rod of the Uraeus",
@@ -859,7 +858,6 @@
 		"sources": [ "Pathfinder #87: The Choking Tower" ],
 		"cost": 15000,
 		"slot": "none",
-		"maybe_slot": "neck",
 		"weight": 6,
 		"description": [
 			"## Rod of Gripping Smoke",
@@ -1121,7 +1119,6 @@
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 		"cost": 20000,
 		"slot": "none",
-		"maybe_slot": "rod",
 		"weight": 10,
 		"description": [
 			"## Rod of the Devoured Dawn",
@@ -2369,7 +2366,7 @@
 			"Additionally, once per week the wielder can command the item to create any magic effect he desires. Roll d% to determine the effect of this command.",
 			"",
 			"| d% | Effect |",
-			"|---|---|",
+			"| --- | --- |",
 			"| 01 | The wielder gains a major spellblight. The GM may determine the spellblight randomly, or may design a custom spellblight based on the magic effect the wielder commanded the scepter to create. The DC to remove this spellblight (using the normal rules for eliminating spellblights) is 35 (or 40, if the target still has the Scepter of the Arclords in his possession), and isn't reduced with the passage of time. |",
 			"| 02-05 | The Scepter creates a permanently magic-dead area with a radius of d% &times; 100 feet. |",
 			"| 06-10 | The Scepter creates a permanent area of primal magic with a radius of d% &times; 100 feet. |",
@@ -5016,12 +5013,6 @@
 		"slot": "none",
 		"intelligent": true,
 		"weight": 8,
-		"statistics": [
-			"Alignment chaotic evil; Ego 3",
-			"Senses 30 ft.",
-			"Int 5, Wis 10, Cha 8",
-			"Communication none (none)"
-		],
 		"description": [
 			"## Source [Ultimate Equipment pg. 359](source/ultimate_equipment)",
 			"",
@@ -5036,7 +5027,14 @@
 			"",
 			"### Construction",
 			"",
-			"summon monster III (Lesser), summon monster V (Greater); **Price** 6,000 gp (Lesser), 20,000 gp (Greater)"
+			"summon monster III (Lesser), summon monster V (Greater); **Price** 6,000 gp (Lesser), 20,000 gp (Greater)",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** chaotic evil; **Ego** 3  ",
+			"**Senses** 30 ft.  ",
+			"**Int** 5, Wis 10, Cha 8  ",
+			"**Communication** none (none)"
 		],
 		"display": "magic/rod"
 	},
@@ -5052,12 +5050,6 @@
 		"slot": "none",
 		"intelligent": true,
 		"weight": 8,
-		"statistics": [
-			"Alignment chaotic neutral; Ego 6",
-			"Senses 120 ft., darkvision",
-			"Int 10, Wis 10, Cha 8",
-			"Communication telepathy (Aklo)"
-		],
 		"description": [
 			"## Source [Ultimate Equipment pg. 359](source/ultimate_equipment)",
 			"",
@@ -5072,7 +5064,14 @@
 			"",
 			"### Construction",
 			"",
-			"summon monster III (Lesser), summon monster V (Greater); **Price** 6,000 gp (Lesser), 20,000 gp (Greater)"
+			"summon monster III (Lesser), summon monster V (Greater); **Price** 6,000 gp (Lesser), 20,000 gp (Greater)",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** chaotic neutral; **Ego** 6  ",
+			"**Senses** 120 ft., darkvision  ",
+			"**Int** 10, Wis 10, Cha 8  ",
+			"**Communication** telepathy (Aklo)"
 		],
 		"display": "magic/rod"
 	},
@@ -5087,12 +5086,6 @@
 		"slot": "none",
 		"intelligent": true,
 		"weight": 5,
-		"statistics": [
-			"Alignment lawful good; Ego 10",
-			"Senses 30 ft.",
-			"Int 10, Wis 13, Cha 12",
-			"Communication telepathy (Celestial; truespeech)"
-		],
 		"description": [
 			"## Source [Ultimate Equipment pg. 357](source/ultimate_equipment)",
 			"",
@@ -5108,7 +5101,14 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Rod, dimension door, knock, explosive runes, creator must be lawful good; **Price** 22,100 gp"
+			"Craft Rod, dimension door, knock, explosive runes, creator must be lawful good; **Price** 22,100 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** lawful good; **Ego** 10  ",
+			"**Senses** 30 ft.  ",
+			"**Int** 10, Wis 13, Cha 12  ",
+			"**Communication** telepathy (Celestial; truespeech)"
 		],
 		"display": "magic/rod"
 	},
@@ -5120,12 +5120,6 @@
 		"slot": "none",
 		"intelligent": true,
 		"weight": 5,
-		"statistics": [
-			"Alignment lawful neutral; Ego 20",
-			"Senses 120 ft.",
-			"Int 18, Wis 14, Cha 10",
-			"Communication telepathy (Common and eight other languages)"
-		],
 		"description": [
 			"## Source [Ultimate Equipment pg. 358](source/ultimate_equipment)",
 			"",
@@ -5148,7 +5142,14 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Rod, the four metamagic feats the rod is to know; **Price** 47,105 gp"
+			"Craft Rod, the four metamagic feats the rod is to know; **Price** 47,105 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** lawful neutral; **Ego** 20  ",
+			"**Senses** 120 ft.  ",
+			"**Int** 18, Wis 14, Cha 10  ",
+			"**Communication** telepathy (Common and eight other languages)"
 		],
 		"display": "magic/rod"
 	},

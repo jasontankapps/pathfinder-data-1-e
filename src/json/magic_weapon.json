@@ -988,7 +988,7 @@
 			"A greater slaying arrow functions just like a normal slaying arrow, but the DC to avoid the death effect is 23 and the arrow deals 100 points of damage if the saving throw is failed.",
 			"",
 			"| d% | Designated Type or Subtype |",
-			"|---|---|",
+			"| --- | --- |",
 			"| 01-05 | Aberrations |",
 			"| 06-09 | Animals |",
 			"| 10-16 | Constructs |",
@@ -4607,7 +4607,6 @@
 			"",
 			"**Requirements** Craft Magic Arms and Armor, aqueous orb, ray of frost, spark; **Price** 7,015 gp"
 		],
-		"note": "The original text lists this item as fitting into the armor slot.",
 		"display": "magic/weapon"
 	},
 	"shadde_quah_spirit_bolas": {
@@ -10383,6 +10382,7 @@
 			"15th Level: The scimitar of deliverance acts as a +4 keen adamantine scimitar.",
 			"",
 			"19th Level: Once per round when the wielder confirms a critical hit against a target with the scimitar of deliverance, the foe is targeted by a [greater dispel magic](unknown/greater_dispel_magic) spell, with a caster level equal to the wielder's character level.",
+			"",
 			"**Goal:** The bearer must free at least 50 creatures from captivity, slavery, or unlawful imprisonment.  ",
 			"**Reward:** As an immediate action a number of times per day equal to his character level, the wielder can use [liberating command](unknown/liberating_command) as a spell-like ability."
 		],
@@ -10396,12 +10396,6 @@
 		"slot": "none",
 		"intelligent": true,
 		"weight": 4,
-		"statistics": [
-			"Alignment neutral good; Ego 7",
-			"Senses 30 ft.",
-			"Int 10, Wis 12, Cha 14",
-			"Communication empathy"
-		],
 		"description": [
 			"## Clarity",
 			"",
@@ -10413,7 +10407,14 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Magic Arms and Armor, holy smite, remove fear; **Price** 10,665 gp"
+			"Craft Magic Arms and Armor, holy smite, remove fear; **Price** 10,665 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** neutral good; **Ego** 7  ",
+			"**Senses** 30 ft.  ",
+			"**Int** 10, Wis 12, Cha 14  ",
+			"**Communication** empathy"
 		],
 		"display": "magic/weapon"
 	},
@@ -10425,12 +10426,6 @@
 		"slot": "none",
 		"intelligent": true,
 		"weight": 6,
-		"statistics": [
-			"Alignment chatoic evil; Ego 10",
-			"Senses 30 ft. (darkvision)",
-			"Int 10, Wis 14, Cha 10",
-			"Communication speech (Common and Orc)"
-		],
 		"description": [
 			"## Ukwar",
 			"",
@@ -10448,7 +10443,14 @@
 			"",
 			"### Construction",
 			"",
-			"[Craft Magic Arms and Armor](unknown/craft_magic_arms_and_armor), [rage](unknown/rage), [spectral hand](unknown/spectral_hand), [summon monster I](unknown/summon_monster_1); **Price** 14,335 gp"
+			"[Craft Magic Arms and Armor](unknown/craft_magic_arms_and_armor), [rage](unknown/rage), [spectral hand](unknown/spectral_hand), [summon monster I](unknown/summon_monster_1); **Price** 14,335 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** chatoic evil; **Ego** 10  ",
+			"**Senses** 30 ft. (darkvision)  ",
+			"**Int** 10, Wis 14, Cha 10  ",
+			"**Communication** speech (Common and Orc)"
 		],
 		"display": "magic/weapon"
 	},
@@ -10463,12 +10465,6 @@
 		"slot": "none",
 		"intelligent": true,
 		"weight": 6,
-		"statistics": [
-			"Alignment lawful good; Ego 10",
-			"Senses 60 ft.",
-			"Int 10, Wis 14, Cha 12",
-			"Communication empathy"
-		],
 		"description": [
 			"## Fiendsplitter",
 			"",
@@ -10482,7 +10478,14 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Magic Arms and Armor, bless weapon, lesser restoration, summon monster I; **Price** 14,357 gp"
+			"Craft Magic Arms and Armor, bless weapon, lesser restoration, summon monster I; **Price** 14,357 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** lawful good; **Ego** 10  ",
+			"**Senses** 60 ft.  ",
+			"**Int** 10, Wis 14, Cha 12  ",
+			"**Communication** empathy"
 		],
 		"display": "magic/weapon"
 	},
@@ -10494,12 +10497,6 @@
 		"slot": "none",
 		"intelligent": true,
 		"weight": 10,
-		"statistics": [
-			"Alignment chaotic evil; Ego 14",
-			"Senses 60 ft. (vision and hearing)",
-			"Int 16, Wis 12, Cha 14",
-			"Communication speech (Abyssal, Common, Giant)"
-		],
 		"description": [
 			"## Soulshear",
 			"",
@@ -10513,7 +10510,14 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Magic Arms and Armor, major creation, planar binding; **Price** 22,908 gp"
+			"Craft Magic Arms and Armor, major creation, planar binding; **Price** 22,908 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** chaotic evil; **Ego** 14  ",
+			"**Senses** 60 ft. (vision and hearing)  ",
+			"**Int** 16, Wis 12, Cha 14  ",
+			"**Communication** speech (Abyssal, Common, Giant)"
 		],
 		"display": "magic/weapon"
 	},
@@ -10525,12 +10529,6 @@
 		"slot": "none",
 		"intelligent": true,
 		"weight": 6,
-		"statistics": [
-			"Alignment chaotic neutral; Ego 17",
-			"Senses 60 ft., darkvision, read magic",
-			"Int 20, Wis 13, Cha 14",
-			"Communication not listed (Aklo, Azlanti, Common, Draconic, Kelish, Vudrani)"
-		],
 		"description": [
 			"## Teralindar's Honor",
 			"",
@@ -10542,7 +10540,14 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Magic Arms and Armor, detect aberration, summon monster I; **Price** 24,435 gp"
+			"Craft Magic Arms and Armor, detect aberration, summon monster I; **Price** 24,435 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** chaotic neutral; **Ego** 17  ",
+			"**Senses** 60 ft., darkvision, read magic  ",
+			"**Int** 20, Wis 13, Cha 14  ",
+			"**Communication** not listed (Aklo, Azlanti, Common, Draconic, Kelish, Vudrani)"
 		],
 		"display": "magic/weapon"
 	},
@@ -10555,12 +10560,6 @@
 		"slot": "weapon",
 		"intelligent": true,
 		"weight": 5,
-		"statistics": [
-			"Alignment n/a; Ego 23",
-			"Senses 60 ft., blindsense",
-			"Int 11, Wis 16, Cha 12",
-			"Communication telepathy (Ancient Osiriani)"
-		],
 		"description": [
 			"## Abat-Ne, the Blackstone Mace",
 			"",
@@ -10576,7 +10575,14 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Magic Arms and Armor, Heroic Defiance, break enchantment, stabilize; **Price** 40,600 gp"
+			"Craft Magic Arms and Armor, Heroic Defiance, break enchantment, stabilize; **Price** 40,600 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** n/a; **Ego** 23  ",
+			"**Senses** 60 ft., blindsense  ",
+			"**Int** 11, Wis 16, Cha 12  ",
+			"**Communication** telepathy (Ancient Osiriani)"
 		],
 		"display": "magic/weapon"
 	},
@@ -10591,12 +10597,6 @@
 		"slot": "weapon",
 		"intelligent": true,
 		"weight": 5,
-		"statistics": [
-			"Alignment chaotic neutral; Ego 14",
-			"Senses 30 ft., darkvision",
-			"Int 10, Wis 16, Cha 14",
-			"Communication speech (Common)"
-		],
 		"description": [
 			"## Source [Ultimate Equipment pg. 357](source/ultimate_equipment)",
 			"",
@@ -10607,7 +10607,14 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Magic Arms and Armor; monster summoning IV; **Price** 27,262 gp"
+			"Craft Magic Arms and Armor; monster summoning IV; **Price** 27,262 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** chaotic neutral; **Ego** 14  ",
+			"**Senses** 30 ft., darkvision  ",
+			"**Int** 10, Wis 16, Cha 14  ",
+			"**Communication** speech (Common)"
 		],
 		"display": "magic/weapon"
 	},
@@ -10619,12 +10626,6 @@
 		"slot": "none",
 		"intelligent": true,
 		"weight": 3,
-		"statistics": [
-			"Alignment neutral; Ego 9",
-			"Senses 120 ft.",
-			"Int 6, Wis 11, Cha 11",
-			"Communication speech (Auran)"
-		],
 		"description": [
 			"## Source [Ultimate Equipment pg. 358](source/ultimate_equipment)",
 			"",
@@ -10639,7 +10640,14 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Magic Arms and Armor, call lightning, the willing service of one Huge lighting elemental for at least 100 years; **Price** 27,300 gp"
+			"Craft Magic Arms and Armor, call lightning, the willing service of one Huge lighting elemental for at least 100 years; **Price** 27,300 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** neutral; **Ego** 9  ",
+			"**Senses** 120 ft.  ",
+			"**Int** 6, Wis 11, Cha 11  ",
+			"**Communication** speech (Auran)"
 		],
 		"display": "magic/weapon"
 	},
@@ -10651,12 +10659,6 @@
 		"slot": "none",
 		"intelligent": true,
 		"weight": 5,
-		"statistics": [
-			"Alignment lawful neutral; Ego 14",
-			"Senses 120 ft.",
-			"Int 12, Wis 14, Cha 10",
-			"Communication empathy"
-		],
 		"description": [
 			"## Draddeth Edge",
 			"",
@@ -10674,7 +10676,14 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Magic Arms and Armor, magic aura, major creation, summon monster I, teleport, creator must have at least 10 ranks in Profession (soldier) and 5 ranks in Sense Motive; **Price** 25,562 gp"
+			"Craft Magic Arms and Armor, magic aura, major creation, summon monster I, teleport, creator must have at least 10 ranks in Profession (soldier) and 5 ranks in Sense Motive; **Price** 25,562 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** lawful neutral; **Ego** 14  ",
+			"**Senses** 120 ft.  ",
+			"**Int** 12, Wis 14, Cha 10  ",
+			"**Communication** empathy"
 		],
 		"display": "magic/weapon"
 	},
@@ -10686,14 +10695,6 @@
 		"slot": "weapon",
 		"intelligent": true,
 		"weight": 5,
-		"statistics": [
-			"Alignment lawful evil; Ego 13 (17 with restored wisdom)",
-			"Senses 60 ft., darkvision 60 ft.",
-			"Int 12, Wis 5 (originally 14), Cha 16",
-			"Communication speech (Dwarven, Undercommon)",
-			"Powers Knowledge (dungeoneering) +14 (10 ranks), dispel magic 1/day, invisibility purge 1/day",
-			"Special Purpose defeat dwarves (Norgir's Ruin can detect dwarves within 60 ft., and can cast earthquake once per day in any area that includes structures built by dwarves)"
-		],
 		"description": [
 			"## Norgir's Ruin",
 			"",
@@ -10705,7 +10706,16 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Magic Arms and Armor, dispel magic, earthquake, invisibility purge, summon monster I; **Price** 46,012 gp"
+			"Craft Magic Arms and Armor, dispel magic, earthquake, invisibility purge, summon monster I; **Price** 46,012 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** lawful evil; **Ego** 13 (17 with restored wisdom)  ",
+			"**Senses** 60 ft., darkvision 60 ft.  ",
+			"**Int** 12, **Wis** 5 (originally 14), **Cha** 16  ",
+			"**Communication** speech (Dwarven, Undercommon)  ",
+			"**Powers** Knowledge (dungeoneering) +14 (10 ranks), dispel magic 1/day, invisibility purge 1/day  ",
+			"**Special Purpose** defeat dwarves (Norgir's Ruin can detect dwarves within 60 ft., and can cast earthquake once per day in any area that includes structures built by dwarves)"
 		],
 		"display": "magic/weapon"
 	},
@@ -10717,12 +10727,6 @@
 		"slot": "none",
 		"intelligent": true,
 		"weight": 6,
-		"statistics": [
-			"Alignment neutral; Ego 13",
-			"Senses 60 ft., darkvision",
-			"Int 12, Wis 16, Cha 10",
-			"Communication speech (Common, Orc, Skald)"
-		],
 		"description": [
 			"## Skullduster",
 			"",
@@ -10734,7 +10738,14 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Magic Arms and Armor, death ward, heal, remove paralysis; **Price** 52,408 gp"
+			"Craft Magic Arms and Armor, death ward, heal, remove paralysis; **Price** 52,408 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** neutral; **Ego** 13  ",
+			"**Senses** 60 ft., darkvision  ",
+			"**Int** 12, Wis 16, Cha 10  ",
+			"**Communication** speech (Common, Orc, Skald)"
 		],
 		"display": "magic/weapon"
 	},
@@ -10746,12 +10757,6 @@
 		"slot": "none",
 		"intelligent": true,
 		"weight": 4,
-		"statistics": [
-			"Alignment chaotic good; Ego 17",
-			"Senses 30 ft.",
-			"Int 14, Wis 12, Cha 18",
-			"Communication speech (Common and four other languages)"
-		],
 		"description": [
 			"## Source [Ultimate Equipment pg. 359](source/ultimate_equipment)",
 			"",
@@ -10765,7 +10770,14 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Arms and Armor, keen edge, animate object, the soul of a willing bard of at least 8th level; **Price** 500 gp"
+			"Craft Arms and Armor, keen edge, animate object, the soul of a willing bard of at least 8th level; **Price** 500 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** chaotic good; **Ego** 17  ",
+			"**Senses** 30 ft.  ",
+			"**Int** 14, Wis 12, Cha 18  ",
+			"**Communication** speech (Common and four other languages)"
 		],
 		"display": "magic/weapon"
 	},

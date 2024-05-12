@@ -185,9 +185,10 @@
 			"This sharpened hollow tube looks like the narrow proboscis of some giant insect, but it actually comes from a carnivorous plant. A bleeding arrow deals normal damage when it hits a creature and deals 1 point of bleed damage. A critical hit does not multiply the bleed damage.",
 			"",
 			"**Recipe** (30 darkwood + 90 myrrh + 25 realgar)/exposure;  Craft 25  ",
-			"**Time** 1 hour;  **Tools** -;  **Type** alchemical weapon"
+			"**Time** 1 hour;  **Tools** -;  **Type** alchemical weapon",
+			"",
+			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
-		"note": "Weight is approximate, based on 20 arrows weighing half a pound.",
 		"display": "equipweap"
 	},
 	"arrow_durable": {
@@ -211,9 +212,10 @@
 			"These arrows are tightly wrapped in strands of alchemical glue. Durable arrows don't break with normal use, whether or not they hit their target; unless a durable arrow goes missing, an archer can retrieve and reuse it again and again. Durable arrows can be broken in other ways (such as deliberate snapping, hitting a fire elemental, and so on). A magical durable arrow with an enhancement bonus or magic weapon special ability applies these magical effects only the first time it is used-afterward, the durable arrow becomes nonmagical, and it can be reused or imbued with magic again.",
 			"",
 			"**Recipe** (1 cold iron + 1 myrrh)/exposure;  Craft 25  ",
-			"**Time** 1 hour;  **Tools** -;  **Type** alchemical weapon"
+			"**Time** 1 hour;  **Tools** -;  **Type** alchemical weapon",
+			"",
+			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
-		"note": "Weight is approximate, based on 20 arrows weighing half a pound.",
 		"display": "equipweap"
 	},
 	"arrow_dye": {
@@ -238,9 +240,10 @@
 			"This arrow ends in a crystalline bubble filled with a viscous alchemical dyeing agent. Firing a dye arrow is a ranged touch attack; a creature struck by a dye arrow takes no damage but is splashed with enough black, blue, green, or red marker dye to coat about 1 square foot. The stain caused by marker dye cannot be washed off except with magic for the first 72 hours, but fades completely after 2 weeks.",
 			"",
 			"**Recipe** (1 cold iron + 1 phosphorus)/earth;  Craft 25  ",
-			"**Time** 10 minutes;  **Tools** -;  **Type** alchemical weapon"
+			"**Time** 10 minutes;  **Tools** -;  **Type** alchemical weapon",
+			"",
+			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
-		"note": "Weight is approximate, based on 20 arrows weighing half a pound.",
 		"display": "equipweap"
 	},
 	"arrow_lodestone": {
@@ -265,9 +268,10 @@
 			"This heavy iron arrowhead is sealed with an alchemical resin. Pulling a small string (a move action) breaks the seal and triggers a reaction in the arrowhead, greatly increasing its magnetic properties. You gain a +4 circumstance bonus on attack rolls when firing a lodestone arrow at a target wearing metal armor or a target made of metal, but the magnetized arrow deals only half damage on a successful hit. The increased magnetism fades 1 round after you activate a lodestone arrow, after which it becomes a normal arrow.",
 			"",
 			"**Recipe** (8 myrrh + 6 salt + 4 silver)/exposure;  Craft 25  ",
-			"**Time** 1 hour;  **Tools** -;  **Type** alchemical weapon"
+			"**Time** 1 hour;  **Tools** -;  **Type** alchemical weapon",
+			"",
+			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
-		"note": "Weight is approximate, based on 20 regular arrows weighing half a pound.",
 		"display": "equipweap"
 	},
 	"arrow_pheromone": {
@@ -291,9 +295,10 @@
 			"The arrowhead of this arrow is coated with potent substances that react to blood and sweat, releasing a strong aroma that most predators recognize as the scent of tasty injured prey and other creatures perceive as merely unpleasant. Any creature with the scent ability gains a +2 circumstance bonus on attack and damage rolls against a target marked with a pheromone arrow. This effect lasts for 1 hour or until the target spends 1 minute washing it off.",
 			"",
 			"**Recipe** (10 myrrh + 10 salt + 14 urea)/congelation;  Craft 25  ",
-			"**Time** 10 minutes;  **Tools** alchemist's lab;  **Type** alchemical weapon"
+			"**Time** 10 minutes;  **Tools** alchemist's lab;  **Type** alchemical weapon",
+			"",
+			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
-		"note": "Weight is approximate, based on 20 arrows weighing half a pound.",
 		"display": "equipweap"
 	},
 	"arrow_raining": {
@@ -319,9 +324,10 @@
 			"",
 			"### Construction",
 			"",
-			"Craft (Alchemy) DC 25"
+			"Craft (Alchemy) DC 25",
+			"",
+			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
-		"note": "Weight is approximate, based on 20 regular arrows weighing half a pound.",
 		"display": "equipweap"
 	},
 	"arrow_slow_burn": {
@@ -347,9 +353,10 @@
 			"Behind the head of this arrow is a small receptacle of alchemical material that heats up when exposed to air and eventually combusts; barbs on the arrowhead pierce the pouch when it hits a target. IF you hit a target with a slow burn arrow, it deals damage as normal, but at the beginning of your next turn, the arrow bursts into flames and deals 1d6 points of fire damage to the target.",
 			"",
 			"**Recipe** (70 magnesium + 80 myrrh + 25 phosphorus)/congelation;  Craft 25  ",
-			"**Time** 10 minutes;  **Tools** alchemist's lab;  **Type** alchemical weapon"
+			"**Time** 10 minutes;  **Tools** alchemist's lab;  **Type** alchemical weapon",
+			"",
+			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
-		"note": "Weight is approximate, based on 20 arrows weighing half a pound.",
 		"display": "equipweap"
 	},
 	"arrow_splintercloud": {
@@ -374,9 +381,10 @@
 			"The shaft of this arrow is formed from numerous small bone fragments that have been painstakingly glued together. On a successful hit, a splintercloud arrow deals normal damage as it tears itself apart, creating a burst of razorsharp bone shards centered on the target. These shards deal 1d3 points of piercing damage to the target and any creatures adjacent to the target (Reflex DC 18 negates).",
 			"",
 			"**Recipe** (28 myrrh + 30 salt)/earth;  Craft 25  ",
-			"**Time** 10 minutes;  **Tools** -;  **Type** alchemical weapon"
+			"**Time** 10 minutes;  **Tools** -;  **Type** alchemical weapon",
+			"",
+			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
-		"note": "Weight is approximate, based on 20 arrows weighing half a pound.",
 		"display": "equipweap"
 	},
 	"arrow_tangleshot": {
@@ -400,9 +408,10 @@
 			"This arrow is tipped with a tiny vial of tanglefoot goo. Firing a tangleshot arrow is a ranged touch attack; the arrow deals no damage when it hits, but the target is splashed with the alchemical adhesive. This effect is similar to that of a tanglefoot bag, but with the following adjustments: Reflex DC 10, Strength DC 12 to break, 10 points of slashing damage to cut through, concentration DC 10 to cast spells. A tangleshot arrow imposes a -1 penalty on attack rolls because of its weight.",
 			"",
 			"**Recipe** (18 myrrh + 26 urea)/congelation;  Craft 25  ",
-			"**Time** 10 minutes;  **Tools** alchemist's lab;  **Type** alchemical weapon"
+			"**Time** 10 minutes;  **Tools** alchemist's lab;  **Type** alchemical weapon",
+			"",
+			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
-		"note": "Weight is approximate, based on 20 arrows weighing half a pound.",
 		"display": "equipweap"
 	},
 	"arrow_trip": {
@@ -426,9 +435,10 @@
 			"This squat arrow has a large, bulbous metal tip that expands and flattens in flight. If you hit a creature with a trip arrow, the arrow deals no damage but performs a trip combat maneuver against the target with a Combat Maneuver Bonus of +5. For the purpose of determining Combat Maneuver Bonuses or penalties based on size, the arrow is treated as if it were the size of the creature it was designed for.",
 			"",
 			"**Recipe** (20 cold iron + 15 magnesium + 20 myrrh)/earth;  Craft 25  ",
-			"**Time** 10 minutes;  **Tools** -;  **Type** alchemical weapon"
+			"**Time** 10 minutes;  **Tools** -;  **Type** alchemical weapon",
+			"",
+			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
-		"note": "Weight is approximate, based on 20 regular arrows weighing half a pound.",
 		"display": "equipweap"
 	},
 	"artokus's_fire": {
@@ -580,9 +590,10 @@
 			"",
 			"### Construction",
 			"",
-			"Craft (Alchemy) DC 25"
+			"Craft (Alchemy) DC 25",
+			"",
+			"**Note:** Weight is based on 10 normal crossbow bolts weighing one pound."
 		],
-		"note": "Weight is based on the weight of two crossbow bolts.",
 		"display": "equipweap"
 	},
 	"acid_bolt": {
@@ -609,9 +620,10 @@
 			"",
 			"### Construction",
 			"",
-			"Craft (Alchemy) DC 25"
+			"Craft (Alchemy) DC 25",
+			"",
+			"**Note:** Weight is based on 10 normal crossbow bolts weighing one pound."
 		],
-		"note": "Weight is based on crossbow bolts.",
 		"display": "equipweap"
 	},
 	"alchemical_fire_bolt": {
@@ -638,9 +650,10 @@
 			"",
 			"### Construction",
 			"",
-			"Craft (Alchemy) DC 25"
+			"Craft (Alchemy) DC 25",
+			"",
+			"**Note:** Weight is based on 10 normal crossbow bolts weighing one pound."
 		],
-		"note": "Weight is based on the weight of two crossbow bolts.",
 		"display": "equipweap"
 	},
 	"liquid_ice_bolt": {
@@ -666,9 +679,10 @@
 			"",
 			"### Construction",
 			"",
-			"Craft (Alchemy) DC 20"
+			"Craft (Alchemy) DC 20",
+			"",
+			"**Note:** Weight is based on 10 normal crossbow bolts weighing one pound."
 		],
-		"note": "Weight is based on the weight of two crossbow bolts.",
 		"display": "equipweap"
 	},
 	"poison_bolt": {
@@ -1012,9 +1026,10 @@
 			"",
 			"4 vials: Craft (Alchemy) DC 15  ",
 			"Gloves: Craft (Alchemy) DC 20  ",
-			"Diamond dust vial: Craft (Alchemy) DC 25"
+			"Diamond dust vial: Craft (Alchemy) DC 25",
+			"",
+			"**Note:** Stats are extrapolation from the original quantity of 4."
 		],
-		"note": "Stats are extrapolation from the original quantity of 4.",
 		"display": "equipweap"
 	},
 	"dust_knuckles_diamond_dust_vial": {
@@ -2829,9 +2844,10 @@
 			"Used tactically for long-range attacks on troops, these arrows are fitted with heavy iron heads. While these heads help them travel great distances, they make the arrows less effective at dealing damage. Iron-tipped distance arrows increase their bow's range increment by 10 feet but take a -1 penalty on damage dealt per range increment (minimum 1 point of damage). They are sold in leather quivers in quantities of 20.",
 			"",
 			"**Cost** 0.05 gp **Weight** 0.2 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
+			"**Category** Ammunition; **Proficiency** Ammunition",
+			"",
+			"**Note:** Stats are an extrapolation from the original quantity of 20."
 		],
-		"note": "Stats are an extrapolation from the original quantity of 20.",
 		"display": "equipweap"
 	},
 	"arrow_iron_tipped_distance": {
@@ -2854,9 +2870,10 @@
 			"An arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier &times;2). Arrows come in a leather quiver that holds 20 arrows.",
 			"",
 			"**Cost** 0.05 gp **Weight** 0.15 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
+			"**Category** Ammunition; **Proficiency** Ammunition",
+			"",
+			"**Note:** Stats are an extrapolation from the original quantity of 20."
 		],
-		"note": "Stats are an extrapolation from the original quantity of 20.",
 		"display": "equipweap"
 	},
 	"atlatl_dart": {
@@ -2894,9 +2911,10 @@
 			"These foot-long arrows are used as ammunition for arrow tubes. As an improvised melee weapon, they deal damage equivalent to that of a spiked gauntlet. They come in a bamboo tube that holds 10 shafts.",
 			"",
 			"**Cost** 0.1 gp **Weight** 0.05 lb.  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
+			"**Category** Ammunition; **Proficiency** Ammunition",
+			"",
+			"**Note:** Stats are an extrapolation from the original quantity of 10."
 		],
-		"note": "Stats are an extrapolation from the original quantity of 10.",
 		"display": "equipweap"
 	},
 	"barbed_arrow": {
@@ -2913,9 +2931,10 @@
 			"The head of a barbed arrow resembles that of a harpoon. When a barbed arrow is attached to a length of silk rope and fired from a bow, the arrow's range increment is reduced to 30 feet, but it gains the grapple special weapon quality. Barbed bolts exist for crossbows.",
 			"",
 			"**Cost** 0.1 gp **Weight** 0.15 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
+			"**Category** Ammunition; **Proficiency** Ammunition",
+			"",
+			"**Note:** Stats are an extrapolation from the original quantity of 20."
 		],
-		"note": "Stats are an extrapolation from the original quantity of 20.",
 		"display": "equipweap"
 	},
 	"blowgun_darts": {
@@ -2936,9 +2955,10 @@
 			"The thin, light darts used in a blowgun are usually made of hardwood with a stabilizing fletching of down or fur. A dart is usually loaded from the back end just before firing.",
 			"",
 			"**Cost** 0.05 gp **Weight** -  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
+			"**Category** Ammunition; **Proficiency** Ammunition",
+			"",
+			"**Note:** Stats are an extrapolation from the original quantity of 10."
 		],
-		"note": "Stats are an extrapolation from the original quantity of 10.",
 		"display": "equipweap"
 	},
 	"blunt_arrows": {
@@ -2958,9 +2978,10 @@
 			"These arrows have rounded wooden tips that deal bludgeoning damage rather than piercing. An archer can use a blunt arrow to deal nonlethal damage (at the normal -4 attack penalty for using a lethal weapon to deal nonlethal damage).",
 			"",
 			"**Cost** 0.1 gp **Weight** 0.15 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
+			"**Category** Ammunition; **Proficiency** Ammunition",
+			"",
+			"**Note:** Stats are an extrapolation from the original quantity of 20."
 		],
-		"note": "Stats are an extrapolation from the original quantity of 20.",
 		"display": "equipweap"
 	},
 	"bolas_bolts": {
@@ -3026,9 +3047,10 @@
 			"These sling bullets are honeycombed with overlapping perforations that cause them to emit an eerie moan audible within 500 feet of their flight path.",
 			"",
 			"**Cost** 0.2 gp **Weight** 0.5 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
+			"**Category** Ammunition; **Proficiency** Ammunition",
+			"",
+			"**Note:** Stats are an extrapolation from the original quantity of 20."
 		],
-		"note": "Stats are an extrapolation from the original quantity of 20.",
 		"display": "equipweap"
 	},
 	"bullets_groaning": {
@@ -3051,9 +3073,10 @@
 			"A crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier &times;2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are sometimes called \"quarrels.\"",
 			"",
 			"**Cost** 0.1 gp **Weight** 0.1 lb.  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
+			"**Category** Ammunition; **Proficiency** Ammunition",
+			"",
+			"**Note:** Stats are an extrapolation from the original quantity of 10."
 		],
-		"note": "Stats are an extrapolation from the original quantity of 10.",
 		"display": "equipweap"
 	},
 	"featherweight_dart": {
@@ -3091,9 +3114,10 @@
 			"These arrows have light shafts and special fletching to give them greater range. A flight arrow's range increment is 20 feet greater with longbows and 10 feet greater with shortbows. They deal damage as if one size category smaller.",
 			"",
 			"**Cost** 0.1 gp **Weight** 0.15 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
+			"**Category** Ammunition; **Proficiency** Ammunition",
+			"",
+			"**Note:** Stats are an extrapolation from the original quantity of 20."
 		],
-		"note": "Stats are an extrapolation from the original quantity of 20.",
 		"display": "equipweap"
 	},
 	"halfling_little_starstones": {
@@ -3114,9 +3138,10 @@
 			"Though they are technically sling ammunition, these thread- or cloth-wrapped pebbles are mainly used for signaling or celebration rather than battle, as they barely hit hard enough to sting. When soaked in oil or strong alcohol, they burn brightly for 1 round, illuminating an area like a candle and creating brief streaks of light as they fly through the air. They generally aren't hot enough and burn out too quickly to ignite combustibles.",
 			"",
 			"**Cost** 0.5 cp **Weight** 0.2 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
+			"**Category** Ammunition; **Proficiency** Ammunition",
+			"",
+			"**Note:** Stats are an extrapolation from the original quantity of 10."
 		],
-		"note": "Stats are an extrapolation from the original quantity of 10.",
 		"display": "equipweap"
 	},
 	"halfling_sharpstones": {
@@ -3138,9 +3163,10 @@
 			"A thin layer of baked clay covers the spikes and jagged ridges covering this specially designed bullet. A proficient user knows how to crack the clay (a free action) so that it peels off from either the spikes or ridges when fired, dealing either piercing or slashing damage.",
 			"",
 			"**Cost** 0.1 gp **Weight** 0.5 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
+			"**Category** Ammunition; **Proficiency** Ammunition",
+			"",
+			"**Note:** Stats are an extrapolation from the original quantity of 10."
 		],
-		"note": "Stats are an extrapolation from the original quantity of 10.",
 		"display": "equipweap"
 	},
 	"halfling_softstones": {
@@ -3159,9 +3185,10 @@
 			"These tight bundles of elastic fibers deal nonlethal damage when fired from a sling.",
 			"",
 			"**Cost** 0.01 gp **Weight** 0.4 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
+			"**Category** Ammunition; **Proficiency** Ammunition",
+			"",
+			"**Note:** Stats are an extrapolation from the original quantity of 10."
 		],
-		"note": "Stats are an extrapolation from the original quantity of 10.",
 		"display": "equipweap"
 	},
 	"halfling_spongestones": {
@@ -3179,9 +3206,10 @@
 			"These bullets are actually made from a porous stone or heavy wood that absorbs liquids and shatters on impact. Spongestones are often used to deliver poison or burning oil. A flask of oil completely saturates 10 spongestones. When ignited (a free action if fire is available), a burning, oil-soaked spongestone deals +1d2 fire damage and can ignite combustible materials (such as a thatched roof ). Allowing a spongestone to burn in a sling's cup for more than 1d3 rounds gives the sling the broken condition.",
 			"",
 			"**Cost** 1 gp **Weight** 0.2 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
+			"**Category** Ammunition; **Proficiency** Ammunition",
+			"",
+			"**Note:** Stats are an extrapolation from the original quantity of 10."
 		],
-		"note": "Stats are an extrapolation from the original quantity of 10.",
 		"display": "equipweap"
 	},
 	"incendiary_arrow": {
@@ -3198,9 +3226,10 @@
 			"A metal cage behind this arrow's point contains flammable material. You take a -1 penalty on attack rolls when firing incendiary arrows. You can light up to six incendiary arrows as a full-round action (a standard action if you use a tindertwig) that provokes attacks of opportunity. Once lit, the arrow burns for 2 rounds. A lit incendiary arrow deals an additional 1 point of fire damage. On a critical hit, the target must succeed at a DC 15 Reflex save or catch fire. Incendiary bolts exist for crossbows.",
 			"",
 			"**Cost** 0.5 gp **Weight** 0.15 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
+			"**Category** Ammunition; **Proficiency** Ammunition",
+			"",
+			"**Note:** Stats are an extrapolation from the original quantity of 20."
 		],
-		"note": "Stats are an extrapolation from the original quantity of 20.",
 		"display": "equipweap"
 	},
 	"kestros_dart": {
@@ -3217,9 +3246,10 @@
 			"This dart, meant to be thrown using a kestros, consists of a heavy metal point about 9 inches long attached to a shaft of wood about 12 inches long, fletched with feathers for stability. If used as a melee weapon, it is a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier &times;2). Kestros darts come in a quiver that holds 10 darts.",
 			"",
 			"**Cost** 0.5 gp **Weight** 0.5 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
+			"**Category** Ammunition; **Proficiency** Ammunition",
+			"",
+			"**Note:** Stats are an extrapolation from the original quantity of 10."
 		],
-		"note": "Stats are an extrapolation from the original quantity of 10.",
 		"display": "equipweap"
 	},
 	"pronged_arrow": {
@@ -3236,9 +3266,10 @@
 			"Rather than narrowing to a single point, a pronged arrow has a wide face with two points resembling a crescent or V-shape. Originally used for hunting game, a pronged arrow deals damage as if one size category smaller, but you gain a +1 bonus on attack rolls against creatures or objects one or more size categories smaller than you.",
 			"",
 			"**Cost** 0.1 gp **Weight** 0.15 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
+			"**Category** Ammunition; **Proficiency** Ammunition",
+			"",
+			"**Note:** Stats are an extrapolation from the original quantity of 20."
 		],
-		"note": "Stats are an extrapolation from the original quantity of 20.",
 		"display": "equipweap"
 	},
 	"repeating_crossbow_bolts": {
@@ -3258,9 +3289,10 @@
 			"Bolts for a repeating crossbow are designed to fit the bolt case of a repeating crossbow. They are slightly more expensive than regular crossbow bolts and sold in increments of 5 instead of 10 (to match the capacity of the bolt case).",
 			"",
 			"**Cost** 0.2 gp **Weight** 0.2 lb.  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
+			"**Category** Ammunition; **Proficiency** Ammunition",
+			"",
+			"**Note:** Stats are an extrapolation from the original quantity of 5."
 		],
-		"note": "Stats are an extrapolation from the original quantity of 5.",
 		"display": "equipweap"
 	},
 	"sling_bullets": {
@@ -3280,9 +3312,10 @@
 			"Sling bullets are shaped metal balls, designed to be used by a sling or halfling sling staff. Bullets come in a leather pouch that holds 10 bullets.",
 			"",
 			"**Cost** 0.01 gp **Weight** 0.5 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
+			"**Category** Ammunition; **Proficiency** Ammunition",
+			"",
+			"**Note:** Stats are an extrapolation from the original quantity of 10."
 		],
-		"note": "Stats are an extrapolation from the original quantity of 10.",
 		"display": "equipweap"
 	},
 	"smoke_arrow": {
@@ -3302,9 +3335,10 @@
 			"This arrow is actually a specially-shaped smokestick that can be fired from a bow. It trails smoke as it flies, and creates a 5-foot cube of smoke where it strikes. It otherwise functions like a normal arrow in terms of damage, range, and so on.",
 			"",
 			"**Cost** 10 gp **Weight** 0.15 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
+			"**Category** Ammunition; **Proficiency** Ammunition",
+			"",
+			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
-		"note": "Weight is based on the normal arrow.",
 		"display": "equipweap"
 	},
 	"thistle_arrow": {
@@ -3324,9 +3358,10 @@
 			"Crafted from the thistles of a poisonous plant, these barbed arrows deal damage as a bleed effect for 1d6 rounds after a hit.",
 			"",
 			"**Cost** 1 gp **Weight** 0.15 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
+			"**Category** Ammunition; **Proficiency** Ammunition",
+			"",
+			"**Note:** Weight is based on 20 normal arrows weighing three pounds."
 		],
-		"note": "Weight is based on the normal arrow.",
 		"display": "equipweap"
 	},
 	"throwing_arrow": {
@@ -3365,9 +3400,10 @@
 			"These arrows come with specially designed grooves and fletching that cause them to emit a loud keening sound audible within 500 feet of their flight path. They are sold in quantities of 20.",
 			"",
 			"**Cost** 0.1 gp **Weight** 0.15 lbs.  ",
-			"**Category** Ammunition; **Proficiency** Ammunition"
+			"**Category** Ammunition; **Proficiency** Ammunition",
+			"",
+			"**Note:** Stats are an extrapolation from the original quantity of 20."
 		],
-		"note": "Stats are an extrapolation from the original quantity of 20.",
 		"display": "equipweap"
 	},
 	"ballista_net": {
@@ -13713,9 +13749,10 @@
 			"The ammunition of most one-handed and two-handed firearms, firearm bullets typically take the form of small balls of lead or some other metal. Thirty bullets weigh half a pound.",
 			"",
 			"**Cost** 1 gp **Weight** -  ",
-			"**Category** Ammunition; **Proficiency** Exotic"
+			"**Category** Ammunition; **Proficiency** Exotic",
+			"",
+			"**Note:** Weight is approximate, based on 30 bullets weighing half a pound."
 		],
-		"note": "Weight is approximate, based on 30 bullets weighing half a pound.",
 		"display": "equipweap"
 	},
 	"firearm_bullet,_silver": {
@@ -13733,9 +13770,10 @@
 			"This ammunition is specifically crafted from silver, and though nonmagical, it is particularly detrimental to lycanthropes, automatically confirming any critical threats against such creatures. A firearm that is shooting a silver bullet takes a -1 penalty on damage rolls (with a minimum of 1 point of damage).",
 			"",
 			"**Cost** 25 gp **Weight** -  ",
-			"**Category** Ammunition; **Proficiency** Exotic"
+			"**Category** Ammunition; **Proficiency** Exotic",
+			"",
+			"**Note:** Weight is based on 30 regular bullets weighing half a pound."
 		],
-		"note": "Weight is based on the regular firearm bullets.",
 		"display": "equipweap"
 	},
 	"silver_firearm_bullet": {
@@ -13797,9 +13835,10 @@
 			"A handful of pellets, along with 1 dose of black powder, is commonly used as ammunition for one-handed and two-handed firearms with the scatter weapon quality, though rocks or other small bits of hard material can be used in the pellets' place. Using anything other than pellets or alchemical cartridges when firing off a cone attack with a scatter weapon increases the weapon's misfire range by 1 (though this increase can be removed by switching back to standard ammunition). Thirty handfuls of pellets weigh half a pound.",
 			"",
 			"**Cost** 1 gp **Weight** -  ",
-			"**Category** Ammunition; **Proficiency** Exotic"
+			"**Category** Ammunition; **Proficiency** Exotic",
+			"",
+			"**Note:** Weight is approximate, based on 30 handfuls weighing half a pound."
 		],
-		"note": "Weight is approximate, based on 30 handfuls weighing half a pound.",
 		"display": "equipweap"
 	},
 	"pitted_bullet": {

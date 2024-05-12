@@ -1177,23 +1177,6 @@
 		"mythic_members": [
 			"- [Mature Adult Black Dragon](monster/mature_adult_black_dragon)"
 		],
-		"special_abilities": [
-			"**Acid Pool (Su)** An ancient or older black dragon can use its breath weapon to create an acid pool as a standard action. This acid pool has a radius of 5 feet per age category of the dragon. When an acid pool is created, anyone inside its area takes an amount of damage equal to the dragon's breath weapon (Reflex half). Any creature that starts its turn touching this pool takes damage, but can make a Reflex save for half. Each round, the total damage dice of the pool is halved until the result would be less than 1d6. The acid pool floats on water, and deals damage to anything on the surface.",
-			"",
-			"**Acidic Bite (Su)** At old age, a black dragon's bite deals an additional 2d6 points of acid damage. An ancient dragon's damage increases to 4d6, and a great wrym's to 6d6.",
-			"",
-			"**Charm Reptiles (Sp)** A great wyrm black dragon can use this ability three times per day. It works as a mass charm monster spell that affects only reptilian animals. This ability is the equivalent of an 8th-level spell.",
-			"",
-			"**Corrupt Water (Sp)** Once per day an adult or older black dragon can stagnate 10 cubic feet of still water, making it foul and unable to support water-breathing life. The ability spoils liquids containing water. Liquid-based magic items (such as potions) and items in a creature's possession must succeed on a Will save (DC equal to the dragon's frightful presence) or become ruined. This ability is the equivalent of a 1st-level spell. Its range is equal to that of the dragon's frightful presence.",
-			"",
-			"**Speak with Reptiles (Sp)** A young or older black dragon gains the constant spell-like ability to speak with reptiles. This functions as speak with animals, but only with reptilian animals.",
-			"",
-			"**Spell-Like Abilities (Sp)** A black dragon gains the following spell-like abilities, usable at will upon reaching the listed age category. Juvenile-darkness (radius 10 feet per age category); Old-plant growth; Ancient-insect plague.",
-			"",
-			"**Swamp Stride (Ex)** A very young or older black dragon can move through bogs and quicksand without penalty at its normal speed.",
-			"",
-			"**Water Breathing (Ex)** A black dragon can breathe underwater indefinitely and can freely use its breath weapon, spells, and other abilities while submerged."
-		],
 		"description": [
 			"## Dragon (Black)",
 			"",
@@ -1212,7 +1195,25 @@
 			"| Wyrm | DR 20/magic | 13th |",
 			"| Great wyrm | Charm reptiles | 15th |",
 			"",
-			"**Family:** [True Dragon](monster/family/true_dragon)"
+			"**Family:** [True Dragon](monster/family/true_dragon)",
+			"",
+			"### Special Abilities",
+			"",
+			"**Acid Pool (Su)** An ancient or older black dragon can use its breath weapon to create an acid pool as a standard action. This acid pool has a radius of 5 feet per age category of the dragon. When an acid pool is created, anyone inside its area takes an amount of damage equal to the dragon's breath weapon (Reflex half). Any creature that starts its turn touching this pool takes damage, but can make a Reflex save for half. Each round, the total damage dice of the pool is halved until the result would be less than 1d6. The acid pool floats on water, and deals damage to anything on the surface.",
+			"",
+			"**Acidic Bite (Su)** At old age, a black dragon's bite deals an additional 2d6 points of acid damage. An ancient dragon's damage increases to 4d6, and a great wrym's to 6d6.",
+			"",
+			"**Charm Reptiles (Sp)** A great wyrm black dragon can use this ability three times per day. It works as a mass charm monster spell that affects only reptilian animals. This ability is the equivalent of an 8th-level spell.",
+			"",
+			"**Corrupt Water (Sp)** Once per day an adult or older black dragon can stagnate 10 cubic feet of still water, making it foul and unable to support water-breathing life. The ability spoils liquids containing water. Liquid-based magic items (such as potions) and items in a creature's possession must succeed on a Will save (DC equal to the dragon's frightful presence) or become ruined. This ability is the equivalent of a 1st-level spell. Its range is equal to that of the dragon's frightful presence.",
+			"",
+			"**Speak with Reptiles (Sp)** A young or older black dragon gains the constant spell-like ability to speak with reptiles. This functions as speak with animals, but only with reptilian animals.",
+			"",
+			"**Spell-Like Abilities (Sp)** A black dragon gains the following spell-like abilities, usable at will upon reaching the listed age category. Juvenile-darkness (radius 10 feet per age category); Old-plant growth; Ancient-insect plague.",
+			"",
+			"**Swamp Stride (Ex)** A very young or older black dragon can move through bogs and quicksand without penalty at its normal speed.",
+			"",
+			"**Water Breathing (Ex)** A black dragon can breathe underwater indefinitely and can freely use its breath weapon, spells, and other abilities while submerged."
 		],
 		"display": "monsterfamily"
 	},
@@ -1232,21 +1233,6 @@
 		"mythic_members": [
 			"- [Mature Adult Blue Dragon](monster/mature_adult_blue_dragon)"
 		],
-		"special_abilities": [
-			"**Desert Thirst (Su)** A blue dragon can cast create water at will (CL equals its HD). Alternatively, it can destroy an equal amount of liquid in a 10-foot burst. Unattended liquids are instantly reduced to sand. Liquid-based magic items (such as potions) and items in a creature's possession must succeed on a Will save or be destroyed. The save DC is Charisma-based.",
-			"",
-			"**Electricity Aura (Su)** An adult blue dragon is surrounded by an aura of electricity. Creatures within 5 feet take 1d6 points of electricity damage at the beginning of the dragon's turn. An old dragon's aura extends to 10 feet. An ancient dragon's damage increases to 2d6.",
-			"",
-			"**Mirage (Su)** An old or older blue dragon can make itself appear to be in two places at once as a free action for a number of rounds per day equal to its Hit Dice. This ability functions as project image but the dragon can use its breath weapon through the mirage.",
-			"",
-			"**Sandstorm (Su)** As a standard action, a great wyrm blue dragon can create a sandstorm centered on itself with a radius of 1,200 feet. Creatures other than the dragon inside the storm take 2d6 points of damage per round in addition to the normal sandstorm penalties. This sandstorm lasts for up to 1 hour, but can be dismissed by the dragon as a free action.",
-			"",
-			"**Sound Imitation (Ex)** A very young or older blue dragon can mimic any voice or sound it has heard by making a successful Bluff check against a listener's Sense Motive check.",
-			"",
-			"**Spell-Like Abilities (Sp)** A blue dragon gains the following spell-like abilities, usable at will upon reaching the listed age category. Young-ghost sound; Juvenile-minor image; Adult-ventriloquism; Old-hallucinatory terrain; Ancient-veil; Great wyrm-mirage arcana.",
-			"",
-			"**Storm Breath (Su)** An ancient or older blue dragon can use its breath weapon to create a storm of lightning. This functions as call lightning storm, but the damage is equal to the dragon's breath weapon. The dragon can call down 1 bolt per round as a free action for 1d6 rounds. The save DC is equal to the dragon's breath weapon DC. Additional uses of this ability extend the duration by an additional 1d6 rounds."
-		],
 		"description": [
 			"## Dragon (Blue)",
 			"",
@@ -1265,7 +1251,23 @@
 			"| Wyrm | DR 20/magic | 15th |",
 			"| Great wyrm | Sandstorm, mirage arcana | 17th |",
 			"",
-			"**Family:** [True Dragon](monster/family/true_dragon)"
+			"**Family:** [True Dragon](monster/family/true_dragon)",
+			"",
+			"### Special Abilities",
+			"",
+			"**Desert Thirst (Su)** A blue dragon can cast create water at will (CL equals its HD). Alternatively, it can destroy an equal amount of liquid in a 10-foot burst. Unattended liquids are instantly reduced to sand. Liquid-based magic items (such as potions) and items in a creature's possession must succeed on a Will save or be destroyed. The save DC is Charisma-based.",
+			"",
+			"**Electricity Aura (Su)** An adult blue dragon is surrounded by an aura of electricity. Creatures within 5 feet take 1d6 points of electricity damage at the beginning of the dragon's turn. An old dragon's aura extends to 10 feet. An ancient dragon's damage increases to 2d6.",
+			"",
+			"**Mirage (Su)** An old or older blue dragon can make itself appear to be in two places at once as a free action for a number of rounds per day equal to its Hit Dice. This ability functions as project image but the dragon can use its breath weapon through the mirage.",
+			"",
+			"**Sandstorm (Su)** As a standard action, a great wyrm blue dragon can create a sandstorm centered on itself with a radius of 1,200 feet. Creatures other than the dragon inside the storm take 2d6 points of damage per round in addition to the normal sandstorm penalties. This sandstorm lasts for up to 1 hour, but can be dismissed by the dragon as a free action.",
+			"",
+			"**Sound Imitation (Ex)** A very young or older blue dragon can mimic any voice or sound it has heard by making a successful Bluff check against a listener's Sense Motive check.",
+			"",
+			"**Spell-Like Abilities (Sp)** A blue dragon gains the following spell-like abilities, usable at will upon reaching the listed age category. Young-ghost sound; Juvenile-minor image; Adult-ventriloquism; Old-hallucinatory terrain; Ancient-veil; Great wyrm-mirage arcana.",
+			"",
+			"**Storm Breath (Su)** An ancient or older blue dragon can use its breath weapon to create a storm of lightning. This functions as call lightning storm, but the damage is equal to the dragon's breath weapon. The dragon can call down 1 bolt per round as a free action for 1d6 rounds. The save DC is equal to the dragon's breath weapon DC. Additional uses of this ability extend the duration by an additional 1d6 rounds."
 		],
 		"display": "monsterfamily"
 	},
@@ -1282,7 +1284,13 @@
 			"- [Ancient Brass Dragon](monster/ancient_brass_dragon)",
 			"- [Young Brass Dragon](monster/young_brass_dragon)"
 		],
-		"special_abilities": [
+		"description": [
+			"## Brass Dragon",
+			"",
+			"**Family:** [True Dragon](monster/family/true_dragon)",
+			"",
+			"### Special Abilities",
+			"",
 			"**Desert Wind (Su)** A juvenile or older brass dragon can call up the desert wind to serve him. This functions as gust of wind, but any creature in its path must make a Fortitude save or be blinded for 1d4 rounds by the sand. The save DC for this effect is equal to the dragon's breath weapon DC.",
 			"",
 			"**Fire Aura (Su)** An old or older brass dragon is surrounded by an aura of intense heat. All creatures within 5 feet of the dragon take 1d6 points of fire damage at the beginning of the dragon's turn. An ancient brass dragon's aura extends to 10 feet. A great wyrm's damage increases to 2d6. A brass dragon can suppress or activate this aura at will as a free action.",
@@ -1296,9 +1304,6 @@
 			"**Spell-Like Abilities (Sp)** A brass dragon gains the following spell-like abilities, usable at will upon reaching the listed age category. Very young-speak with animals; Juvenile-endure elements; Adult-suggestion; Old-control winds; Ancient-control weather; Great wyrm-whirlwind.",
 			"",
 			"**Summon Djinni (Sp)** This ability, usable by a great wyrm brass dragon once per day, works like a summon monster spell, except that it summons one noble djinni. This ability is the equivalent of a 9th-level spell."
-		],
-		"description": [
-			"**Family:** [True Dragon](monster/family/true_dragon)"
 		],
 		"display": "monsterfamily"
 	},
@@ -1315,7 +1320,13 @@
 			"- [Ancient Bronze Dragon](monster/ancient_bronze_dragon)",
 			"- [Young Bronze Dragon](monster/young_bronze_dragon)"
 		],
-		"special_abilities": [
+		"description": [
+			"## Bronze Dragon",
+			"",
+			"**Family:** [True Dragon](monster/family/true_dragon)",
+			"",
+			"### Special Abilities",
+			"",
 			"**Change Shape (Su)** A young or older bronze dragon can take any animal or humanoid form 3/day as if using polymorph.",
 			"",
 			"**Electricity Aura (Su)** An old or older bronze dragon has an aura of electricity. All creatures within 5 feet take 1d6 points of electricity damage at the start of the dragon's turn. An ancient dragon's aura is 10 feet. A great wyrm's damage increases to 2d6. A bronze dragon can suppress this aura at will.",
@@ -1331,9 +1342,7 @@
 			"**Water Breathing (Ex)** A bronze dragon breathes water and can use its breath weapon, spells, and abilities underwater.",
 			"",
 			"**Wave Mastery (Su)** For up to 10 minutes per age category per day, a juvenile bronze dragon, along with creatures or vessels within 50 feet, can move at twice its normal speed in water."
-		],
-		"description": [
-			"**Family:** [True Dragon](monster/family/true_dragon)"
+
 		],
 		"display": "monsterfamily"
 	},
@@ -1350,7 +1359,13 @@
 			"- [Ancient Copper Dragon](monster/ancient_copper_dragon)",
 			"- [Young Copper Dragon](monster/young_copper_dragon)"
 		],
-		"special_abilities": [
+		"description": [
+			"## Copper Dragon",
+			"",
+			"**Family:** [True Dragon](monster/family/true_dragon)",
+			"",
+			"### Special Abilities",
+			"",
 			"**Climb Stone (Ex)** A copper dragon can climb on stone surfaces as though using the spider climb spell.",
 			"",
 			"**Deadly Joke (Sp)** Once per day, as a standard action, a great wyrm copper dragon can tell a joke that kills. This affects one target, and functions as power word kill. This is a language-dependent sonic effect.",
@@ -1366,9 +1381,7 @@
 			"**Trap Master (Ex)** A juvenile or older copper dragon receives a +1 bonus per age categroy on Craft (traps) and Perception checks made to locate a trap. Upon becoming a mature adult, he can also use Disable Device to disarm magic traps as if he had the rogue's Trapfinding class feature.",
 			"",
 			"**Uncanny Dodge (Ex)** A young or older copper dragon is always looking out for an ambush. He can never be caught flat-footed. This ability functions like the rogue ability of the same name."
-		],
-		"description": [
-			"**Family:** [True Dragon](monster/family/true_dragon)"
+
 		],
 		"display": "monsterfamily"
 	},
@@ -1525,7 +1538,13 @@
 			"- [Ancient Gold Dragon](monster/ancient_gold_dragon)",
 			"- [Young Gold Dragon](monster/young_gold_dragon)"
 		],
-		"special_abilities": [
+		"description": [
+			"## Gold Dragon",
+			"",
+			"**Family:** [True Dragon](monster/family/true_dragon)",
+			"",
+			"### Special Abilities",
+			"",
 			"**Change Shape (Su)** A very young or older gold dragon can assume any animal or humanoid form three times per day as if using polymorph.",
 			"",
 			"**Detect Gems (Sp)** A young or older gold dragon can detect gems three times per day. This functions as locate object, but can only be used to locate gemstones.",
@@ -1541,9 +1560,7 @@
 			"**Spell-Like Abilities (Sp)** A gold dragon gains the following spell-like abilities upon reaching the listed age category. Its caster level for these effects is equal to its Hit Dice, and any save DCs are Charisma-based. A gold dragon can use these abilities at will. Very young-detect evil; Juvenile-bless; Adult-daylight; Old-geas/quest; Ancient-sunburst; Great wyrm-foresight.",
 			"",
 			"**Weakening Breath (Su)** Instead of a cone of fire, a gold dragon can breathe a cone of weakening gas. Creatures within the cone must succeed on a Fortitude save or take 1 point of Strength damage per age category (Will save half)."
-		],
-		"description": [
-			"**Family:** [True Dragon](monster/family/true_dragon)"
+
 		],
 		"display": "monsterfamily"
 	},
@@ -1563,7 +1580,13 @@
 		"mythic_members": [
 			"[Very Old Green Dragon](monster/very_old_green_dragon)"
 		],
-		"special_abilities": [
+		"description": [
+			"## Green Dragon",
+			"",
+			"**Family:** [True Dragon](monster/family/true_dragon)",
+			"",
+			"### Special Abilities",
+			"",
 			"**Awaken Treants (Su)** A great wyrm dragon can call on the forest itself to aid it, animating a number of trees to serve as treants to protect it. These treants can be called from any Huge or larger living tree. A green dragon can create a single treant as a standard action, up to a total of 4 treants per day. These treants remain animated for up to 1 hour, at which time they revert to being ordinary trees.",
 			"",
 			"**Camouflage (Ex)** An old or older green dragon can use Stealth to hide in any sort of natural terrain, even if the terrain does not grant cover or concealment.",
@@ -1577,9 +1600,7 @@
 			"**Water Breathing (Ex)** A green dragon can breathe underwater indefinitely and can freely use its breath weapon, spells, and other abilities while submerged.",
 			"",
 			"**Woodland Stride (Ex)** A very young or older green dragon can move through any sort of foliage at full speed without taking damage or suffering impairment. Areas of foliage that have been magically manipulated affect it normally."
-		],
-		"description": [
-			"**Family:** [True Dragon](monster/family/true_dragon)"
+
 		],
 		"display": "monsterfamily"
 	},
@@ -1615,9 +1636,10 @@
 			"- [Ancient Forest Dragon](monster/ancient_forest_dragon)",
 			"- [Young Forest Dragon](monster/young_forest_dragon)"
 		],
-		"monster_family_pre": "Imperial Dragon",
 		"description": [
 			"## Dragon (Imperial, Forest)",
+			"",
+			"**Family:** [Imperial Dragon](monster/family/imperial_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1632,9 +1654,10 @@
 			"| Very old | DR 10/adamantine | 13th |",
 			"| Ancient | Elemental breath, animate plants | 15th |",
 			"| Wyrm | DR 15/adamantine | 17th |",
-			"| Great wyrm | Stony death, earthquake | 19th |"
-		],
-		"special_abilities": [
+			"| Great wyrm | Stony death, earthquake | 19th |",
+			"",
+			"### Special Abilities",
+			"",
 			"**Change Shape (Su)** An adult or older forest dragon can assume any humanoid form three times per day as if using polymorph.",
 			"",
 			"**Destructive Crush (Su)** When an old or older forest dragon makes a crush attack, the impact kicks up debris in a 20-foot-radius burst for 1d6 rounds. The debris obscures the vision of creatures within the debris field and grants concealment to those creatures. The forest dragon can see normally within and through the debris field.",
@@ -1662,9 +1685,10 @@
 			"- [Ancient Sea Dragon](monster/ancient_sea_dragon)",
 			"- [Young Sea Dragon](monster/young_sea_dragon)"
 		],
-		"monster_family_pre": "Imperial Dragon",
 		"description": [
 			"## Dragon (Imperial, Sea)",
+			"",
+			"**Family:** [Imperial Dragon](monster/family/imperial_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1679,9 +1703,10 @@
 			"| Very old | DR 15/magic | 13th |",
 			"| Ancient | Water walk | 15th |",
 			"| Wyrm | DR 20/magic | 17th |",
-			"| Great wyrm | Tidal wave, vortex | 19th |"
-		],
-		"special_abilities": [
+			"| Great wyrm | Tidal wave, vortex | 19th |",
+			"",
+			"### Special Abilities",
+			"",
 			"**Change Shape (Su)** A young or older sea dragon can assume any humanoid form three times per day as if using polymorph.",
 			"",
 			"**Sea Strider (Su)** Three times per day as a standard action, an old or older sea dragon can move from one body of water to another as if using the teleport spell (self only).",
@@ -1707,9 +1732,10 @@
 			"- [Ancient Sky Dragon](monster/ancient_sky_dragon)",
 			"- [Young Sky Dragon](monster/young_sky_dragon)"
 		],
-		"monster_family_pre": "Imperial Dragon",
 		"description": [
 			"## Dragon (Imperial, Sky)",
+			"",
+			"**Family:** [Imperial Dragon](monster/family/imperial_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1724,9 +1750,10 @@
 			"| Very old | DR 15/magic | 13th |",
 			"| Ancient | Control winds, grounding breath | 15th |",
 			"| Wyrm | DR 20/magic | 17th |",
-			"| Great wyrm | Celestial emissary, stormbolts | 19th |"
-		],
-		"special_abilities": [
+			"| Great wyrm | Celestial emissary, stormbolts | 19th |",
+			"",
+			"### Special Abilities",
+			"",
 			"**Borne Aloft (Su)** Old or younger sky dragons fly with good maneuverability while all older sky dragons have perfect.",
 			"",
 			"**Celestial Emissary (Su)** Three times per day, a great wyrm sky dragon can imbue others with the celestial aspect of the oracle spell divine vessel, but it can only be cast on another willing creature of good alignment.",
@@ -1754,9 +1781,10 @@
 			"- [Ancient Sovereign Dragon](monster/ancient_sovereign_dragon)",
 			"- [Young Sovereign Dragon](monster/young_sovereign_dragon)"
 		],
-		"monster_family_pre": "Imperial Dragon",
 		"description": [
 			"## Dragon (Imperial, Sovereign)",
+			"",
+			"**Family:** [Imperial Dragon](monster/family/imperial_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1771,9 +1799,10 @@
 			"| Very old | DR 15/magic | 13th |",
 			"| Ancient | Prismatic spray | 15th |",
 			"| Wyrm | DR 20/magic | 17th |",
-			"| Great wyrm | Master counterspelling, moment of prescience | 19th |"
-		],
-		"special_abilities": [
+			"| Great wyrm | Master counterspelling, moment of prescience | 19th |",
+			"",
+			"### Special Abilities",
+			"",
 			"**Change Shape (Su)** A young or older sovereign dragon can assume any humanoid form three times per day as polymorph.",
 			"",
 			"**Dogmatic Discordance (Su)** Good or evil creatures take a -2 penalty when making saving throws against a sovereign dragon's spells, spell-like abilities, breath weapon, and aura.",
@@ -1799,9 +1828,10 @@
 			"- [Ancient Underworld Dragon](monster/ancient_underworld_dragon)",
 			"- [Young Underworld Dragon](monster/young_underworld_dragon)"
 		],
-		"monster_family_pre": "Imperial Dragon",
 		"description": [
 			"## Dragon (Imperial, Underworld)",
+			"",
+			"**Family:** [Imperial Dragon](monster/family/imperial_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1816,9 +1846,10 @@
 			"| Very old | DR 15/magic | 11th |",
 			"| Ancient | Repel metal or stone | 13th |",
 			"| Wyrm | DR 20/magic | 15th |",
-			"| Great wyrm | Clashing rocks, lava eruption | 17th |"
-		],
-		"special_abilities": [
+			"| Great wyrm | Clashing rocks, lava eruption | 17th |",
+			"",
+			"### Special Abilities",
+			"",
 			"**Adamantine Claws (Ex)** The claws of an underworld dragon are made of adamantine, and have the qualities of a weapon made from that material.",
 			"",
 			"**Change Shape (Su)** A young or older underworld dragon can assume any humanoid form three times per day as if using polymorph.",
@@ -1861,9 +1892,10 @@
 			"- [Ancient Lunar Dragon](monster/ancient_lunar_dragon)",
 			"- [Young Lunar Dragon](monster/young_lunar_dragon)"
 		],
-		"monster_family_pre": "Outer Dragon",
 		"description": [
 			"## Dragon (Outer, Lunar)",
+			"",
+			"**Family:** [Outer Dragon](monster/family/outer_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1878,9 +1910,10 @@
 			"| Very old | DR 15/magic | 13th |",
 			"| Ancient | Reflect rays | 15th |",
 			"| Wyrm | DR 20/magic | 17th |",
-			"| Great wyrm | Greater scrying, polar midnight | 19th |"
-		],
-		"special_abilities": [
+			"| Great wyrm | Greater scrying, polar midnight | 19th |",
+			"",
+			"### Special Abilities",
+			"",
 			"**Absolute Cold (Su)** An old or older lunar dragon's breath weapon can affect creatures immune to cold damage. A creature immune to cold damage still takes half damage from the breath weapon (no damage with a successful saving throw). Resistant creatures' cold resistance is treated as 10 less than normal.",
 			"",
 			"**Alien Presence (Su)** A lunar dragon's alien presence affects opponents that fail their saves as touch of idiocy (or as feeblemind for creatures with 4 or fewer Hit Dice) for 5d6 rounds. This is a mind-affecting compulsion effect.",
@@ -1908,9 +1941,10 @@
 			"- [Ancient Solar Dragon](monster/ancient_solar_dragon)",
 			"- [Young Solar Dragon](monster/young_solar_dragon)"
 		],
-		"monster_family_pre": "Outer Dragon",
 		"description": [
 			"## Dragon (Outer, Solar)",
+			"",
+			"**Family:** [Outer Dragon](monster/family/outer_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1925,9 +1959,10 @@
 			"| Very old | DR 15/magic | 13th |",
 			"| Ancient | Animate plants, major creation | 15th |",
 			"| Wyrm | DR 20/magic | 17th |",
-			"| Great wyrm | Beam of light, control plants | 19th |"
-		],
-		"special_abilities": [
+			"| Great wyrm | Beam of light, control plants | 19th |",
+			"",
+			"### Special Abilities",
+			"",
 			"**Alien Presence (Su)** A creature that fails its saving throw against a solar dragon's alien presence is blinded for 5d6 rounds (or permanently if it has 4 Hit Dice or fewer).",
 			"",
 			"**Beam of Light (Su)** A great wyrm solar dragon can transform itself into a beam of pure light and travel to any location it can see as a move action. This travel must be in a straight line, but otherwise the dragon can travel anywhere that light can enter.",
@@ -1953,9 +1988,10 @@
 			"- [Ancient Time Dragon](monster/ancient_time_dragon)",
 			"- [Young Time Dragon](monster/young_time_dragon)"
 		],
-		"monster_family_pre": "Outer Dragon",
 		"description": [
 			"## Dragon (Outer, Time)",
+			"",
+			"**Family:** [Outer Dragon](monster/family/outer_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -1970,9 +2006,10 @@
 			"| Very old | DR 15/magic | 13th |",
 			"| Ancient | Second chance, legend lore | 15th |",
 			"| Wyrm | DR 20/magic | 17th |",
-			"| Great wyrm | Time stop (3/day), time travel | 19th |"
-		],
-		"special_abilities": [
+			"| Great wyrm | Time stop (3/day), time travel | 19th |",
+			"",
+			"### Special Abilities",
+			"",
 			"**Immortal (Ex)** Time dragons age, but don't die from old age.",
 			"",
 			"**Read the Threads (Su)** A time dragon gains a racial bonus on initiative checks equal to its age category. In addition, a time dragon is immune to the staggered condition.",
@@ -2000,9 +2037,10 @@
 			"- [Ancient Void Dragon](monster/ancient_void_dragon)",
 			"- [Young Void Dragon](monster/young_void_dragon)"
 		],
-		"monster_family_pre": "Outer Dragon",
 		"description": [
 			"## Dragon (Outer, Void)",
+			"",
+			"**Family:** [Outer Dragon](monster/family/outer_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -2017,9 +2055,10 @@
 			"| Very old | DR 15/magic | 13th |",
 			"| Ancient | Nightmare (1/day) | 15th |",
 			"| Wyrm | DR 20/magic | 17th |",
-			"| Great wyrm | Gate (1/day), insanity | 19th |"
-		],
-		"special_abilities": [
+			"| Great wyrm | Gate (1/day), insanity | 19th |",
+			"",
+			"### Special Abilities",
+			"",
 			"**Agile (Ex)** Void dragons have good aerial maneuverability regardless of their age or size.",
 			"",
 			"**Alien Presence (Su)** A void dragon's alien presence causes an opponent that fails its save to be overcome with dizziness, becoming sickened (or nauseated if the target has 4 or fewer Hit Dice) for 5d6 rounds.",
@@ -2045,9 +2084,10 @@
 			"- [Ancient Vortex Dragon](monster/ancient_vortex_dragon)",
 			"- [Young Vortex Dragon](monster/young_vortex_dragon)"
 		],
-		"monster_family_pre": "Outer Dragon",
 		"description": [
 			"## Dragon (Outer, Vortex)",
+			"",
+			"**Family:** [Outer Dragon](monster/family/outer_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -2062,9 +2102,10 @@
 			"| Very old | DR 15/magic | 13th |",
 			"| Ancient | Collapsing breath, greater teleport | 15th |",
 			"| Wyrm | DR 20/magic | 17th |",
-			"| Great wyrm | Interplanetary teleport | 19th |"
-		],
-		"special_abilities": [
+			"| Great wyrm | Interplanetary teleport | 19th |",
+			"",
+			"### Special Abilities",
+			"",
 			"**Agile (Ex)** Vortex dragons have good maneuverability when flying regardless of their age or size.",
 			"",
 			"**Alien Presence (Su)** A vortex dragon's alien presence bends space. A creature that fails its saving throw treats all other creatures as if they were under the effects of blur (or displacement if the target has 4 or fewer Hit Dice) for 5d6 rounds.",
@@ -2117,9 +2158,10 @@
 			"",
 			"**Source** [Pathfinder #137: The City Outside of Time](source/pathfinder_#137_the_city_outside_of_time)",
 			"",
-			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes."
+			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
+			"",
+			"**Family:** [Planar Dragon](monster/family/planar_dragon)"
 		],
-		"monster_family": "Planar Dragon",
 		"display": "monsterfamily"
 	},
 	"apocalypse_dragon": {
@@ -2140,9 +2182,10 @@
 			"",
 			"**Source** [Pathfinder #137: The City Outside of Time](source/pathfinder_#137_the_city_outside_of_time)",
 			"",
-			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes."
+			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
+			"",
+			"**Family:** [Planar Dragon](monster/family/planar_dragon)"
 		],
-		"monster_family": "Planar Dragon",
 		"display": "monsterfamily"
 	},
 	"bliss_dragon": {
@@ -2163,9 +2206,10 @@
 			"",
 			"**Source** [Bestiary 6](source/bestiary_6)",
 			"",
-			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes."
+			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
+			"",
+			"**Family:** [Planar Dragon](monster/family/planar_dragon)"
 		],
-		"monster_family": "Planar Dragon",
 		"display": "monsterfamily"
 	},
 	"crypt_dragon": {
@@ -2303,9 +2347,10 @@
 			"",
 			"**Source** [Bestiary 6](source/bestiary_6)",
 			"",
-			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes."
+			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
+			"",
+			"**Family:** [Planar Dragon](monster/family/planar_dragon)"
 		],
-		"monster_family": "Planar Dragon",
 		"display": "monsterfamily"
 	},
 	"havoc_dragon": {
@@ -2326,9 +2371,10 @@
 			"",
 			"**Source** [Bestiary 6](source/bestiary_6)",
 			"",
-			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes."
+			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
+			"",
+			"**Family:** [Planar Dragon](monster/family/planar_dragon)"
 		],
-		"monster_family": "Planar Dragon",
 		"display": "monsterfamily"
 	},
 	"infernal_dragon": {
@@ -2349,9 +2395,10 @@
 			"",
 			"**Source** [Bestiary 6](source/bestiary_6)",
 			"",
-			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes."
+			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
+			"",
+			"**Family:** [Planar Dragon](monster/family/planar_dragon)"
 		],
-		"monster_family": "Planar Dragon",
 		"display": "monsterfamily"
 	},
 	"paradise_dragon": {
@@ -2372,9 +2419,10 @@
 			"",
 			"**Source** [Bestiary 6](source/bestiary_6)",
 			"",
-			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes."
+			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
+			"",
+			"**Family:** [Planar Dragon](monster/family/planar_dragon)"
 		],
-		"monster_family": "Planar Dragon",
 		"display": "monsterfamily"
 	},
 	"rift_dragon": {
@@ -2395,9 +2443,10 @@
 			"",
 			"**Source** [Pathfinder #138: Rise of New Thassilon](source/pathfinder_#138_rise_of_new_thassilon)",
 			"",
-			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes."
+			"Planar dragons originate in the outer Planes, but migrate via portals or other methods to the Material Plane. There, they reshape their lairs to reflect their home planes.",
+			"",
+			"**Family:** [Planar Dragon](monster/family/planar_dragon)"
 		],
-		"monster_family": "Planar Dragon",
 		"display": "monsterfamily"
 	},
 	"tumult_dragon": {
@@ -2432,9 +2481,10 @@
 			"- [Ancient Brine Dragon](monster/ancient_brine_dragon)",
 			"- [Young Brine Dragon](monster/young_brine_dragon)"
 		],
-		"monster_family_pre": "Primal Dragon",
 		"description": [
 			"## Dragon (Primal, Brine)",
+			"",
+			"**Family:** [Primal Dragon](monster/family/primal_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -2449,9 +2499,10 @@
 			"| Very old | DR 15/magic | 13th |",
 			"| Ancient | Desiccating bite, horrid wilting | 15th |",
 			"| Wyrm | DR 20/magic | 17th |",
-			"| Great wyrm | Painful strikes, tsunami | 19th |"
-		],
-		"special_abilities": [
+			"| Great wyrm | Painful strikes, tsunami | 19th |",
+			"",
+			"### Special Abilities",
+			"",
 			"**Capsize (Ex)** An old or older brine dragon can attempt to capsize a boat or ship by ramming it as a charge attack and making a CMB check. The DC of this check is 25 or the result of the boat captain's Profession (sailor) check, whichever is higher. For each size category larger the ship is than the brine dragon's size, the dragon takes a cumulative -10 penalty on the check.",
 			"",
 			"**Desiccating Bite (Su)** An ancient brine dragon's bite causes weakness, dealing 1d2 points of Strength drain in addition to its normal damage. A great wyrm's bite deals 1d4 points of Strength drain. A Fortitude save (DC equals the dragon's breath weapon save DC) negates the Strength drain.",
@@ -2475,9 +2526,10 @@
 			"- [Ancient Cloud Dragon](monster/ancient_cloud_dragon)",
 			"- [Young Cloud Dragon](monster/young_cloud_dragon)"
 		],
-		"monster_family_pre": "Primal Dragon",
 		"description": [
 			"## Dragon (Primal, Cloud)",
+			"",
+			"**Family:** [Primal Dragon](monster/family/primal_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -2492,9 +2544,10 @@
 			"| Very old | DR 15/magic | 11th |",
 			"| Ancient | Thundering bite, wind walk | 13th |",
 			"| Wyrm | DR 20/magic | 15th |",
-			"| Great wyrm | Cloud breath, storm of vengeance | 17th |"
-		],
-		"special_abilities": [
+			"| Great wyrm | Cloud breath, storm of vengeance | 17th |",
+			"",
+			"### Special Abilities",
+			"",
 			"**Cloud Form (Su)** An adult or older cloud dragon can change itself into a cloudy vapor as a swift action for a number of rounds per day equal to its Hit Dice. This ability functions as gaseous form but the dragon's fly speed is unchanged.",
 			"",
 			"**Cloud Breath (Su)** A great wyrm cloud dragon's breath weapon creates a cloud that persists in its cone shape for 1d4 rounds. Treat this cloud as a fog cloud that deals electricity damage equal to half the dragon's breath weapon damage to any creature that ends its turn still within the cloud (Reflex save halves the damage-DC equals the dragon's breath weapon save DC).",
@@ -2520,9 +2573,10 @@
 			"- [Ancient Crystal Dragon](monster/ancient_crystal_dragon)",
 			"- [Young Crystal Dragon](monster/young_crystal_dragon)"
 		],
-		"monster_family_pre": "Primal Dragon",
 		"description": [
 			"## Dragon (Primal, Crystal)",
+			"",
+			"**Family:** [Primal Dragon](monster/family/primal_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -2537,9 +2591,10 @@
 			"| Very old | DR 15/magic | 7th |",
 			"| Ancient | Ray reflection, prismatic spray | 9th |",
 			"| Wyrm | DR 20/magic | 11th |",
-			"| Great wyrm | Imprisonment, scintillating aura | 13th |"
-		],
-		"special_abilities": [
+			"| Great wyrm | Imprisonment, scintillating aura | 13th |",
+			"",
+			"### Special Abilities",
+			"",
 			"**Razor Sharp (Sp)** All of a crystal dragon's natural attacks deal slashing damage.",
 			"",
 			"**Ray Reflection (Ex)** An ancient crystal dragon's scales reflect ray spells back upon the ray's source if the ray fails to overcome the dragon's spell resistance.",
@@ -2565,9 +2620,10 @@
 			"- [Ancient Magma Dragon](monster/ancient_magma_dragon)",
 			"- [Young Magma Dragon](monster/young_magma_dragon)"
 		],
-		"monster_family_pre": "Primal Dragon",
 		"description": [
 			"## Dragon (Primal, Magma)",
+			"",
+			"**Family:** [Primal Dragon](monster/family/primal_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -2582,9 +2638,10 @@
 			"| Very old | DR 15/magic | 13th |",
 			"| Ancient | Magma breath, delayed blast fireball | 15th |",
 			"| Wyrm | DR 20/magic | 17th |",
-			"| Great wyrm | Magma tomb, wall of lava | 19th |"
-		],
-		"special_abilities": [
+			"| Great wyrm | Magma tomb, wall of lava | 19th |",
+			"",
+			"### Special Abilities",
+			"",
 			"**Magma Tomb (Su)** Once per day, a great wyrm magma dragon can spit lava onto a target within 120 feet, dealing damage normally for its breath weapon. This magma cools instantly-it does not continue doing damage at this point but does entrap the victim (see universal monster rules in appendix; DC equals the dragon's breath weapon save DC, 3d6 minutes, hardness 8, hp 45).",
 			"",
 			"**Magma Breath (Su)** Three times per day, an ancient or older magma dragon can breathe a cone of lava instead of fire. The damage is unchanged, but the magma clings to those it damages, dealing half damage each round thereafter for 1d3 rounds. After this magma cools, it crumbles to dust.",
@@ -2608,9 +2665,10 @@
 			"- [Ancient Umbral Dragon](monster/ancient_umbral_dragon)",
 			"- [Young Umbral Dragon](monster/young_umbral_dragon)"
 		],
-		"monster_family_pre": "Primal Dragon",
 		"description": [
 			"## Dragon (Primal, Umbral)",
+			"",
+			"**Family:** [Primal Dragon](monster/family/primal_dragon)",
 			"",
 			"| Age Category | Special Abilities | Caster Level |",
 			"| --- | --- | --- |",
@@ -2625,9 +2683,10 @@
 			"| Very old | DR 15/magic | 13th |",
 			"| Ancient | Create shadows, finger of death | 15th |",
 			"| Wyrm | DR 20/magic | 17th |",
-			"| Great wyrm | Energy drain, shades | 19th |"
-		],
-		"special_abilities": [
+			"| Great wyrm | Energy drain, shades | 19th |",
+			"",
+			"### Special Abilities",
+			"",
 			"**Breath Weapon (Su)** Although it deals negative energy damage, an umbral dragon's breath weapon does not heal undead creatures.",
 			"",
 			"**Create Shadows (Su)** Any creature slain by an ancient or older umbral dragon rises as a shadow (if 8 HD or less) or greater shadow (if above 8 HD) under the umbral dragon's control 1d4 rounds later.",
@@ -2661,7 +2720,13 @@
 			"- [Wyrm Red Dragon](monster/wyrm_red_dragon)",
 			"- [Young Red Dragon](monster/young_red_dragon)"
 		],
-		"special_abilities": [
+		"description": [
+			"## Red Dragon",
+			"",
+			"**Family:** [True Dragon](monster/family/true_dragon)",
+			"",
+			"### Special Abilities",
+			"",
 			"**Fire Aura (Su)** An adult red dragon is surrounded by an aura of intense heat. All creatures within 5 feet take 1d6 points of fire damage at the beginning of the dragon's turn. An old dragon's aura extends to 10 feet. An ancient dragon's damage increases to 2d6.",
 			"",
 			"**Incinerate (Su)** A great wyrm red dragon can incinerate creatures in its fiery breath. A creature reduced to fewer than 0 hit points by its breath weapon must make a Fortitude save (using the breath weapon's DC). Failure indicates that the creature is reduced to ash. Creatures destroyed in this way can only be restored to life through true resurrection or similar magic.",
@@ -2673,9 +2738,7 @@
 			"**Smoke Vision (Ex)** A very young red dragon can see perfectly in smoky conditions (such as those created by pyrotechnics).",
 			"",
 			"**Spell-Like Abilities (Sp)** A red dragon gains the following spell-like abilities, usable at will upon reaching the listed age category. Young-detect magic; Juvenile-pyrotechnics; Adult-suggestion; Old-wall of fire; Ancient-find the path; Great wyrm-discern location."
-		],
-		"description": [
-			"**Family:** [True Dragon](monster/family/true_dragon)"
+
 		],
 		"display": "monsterfamily"
 	},
@@ -2692,7 +2755,13 @@
 			"- [Ancient Silver Dragon](monster/ancient_silver_dragon)",
 			"- [Young Silver Dragon](monster/young_silver_dragon)"
 		],
-		"special_abilities": [
+		"description": [
+			"## Silver Dragon",
+			"",
+			"**Family:** [True Dragon](monster/family/true_dragon)",
+			"",
+			"### Special Abilities",
+			"",
 			"**Change Shape (Su)** A silver dragon can assume any animal or humanoid form three times per day as if using polymorph.",
 			"",
 			"**Cloudwalking (Su)** A very young or older silver dragon can tread on clouds or fog as though on solid ground.",
@@ -2710,9 +2779,7 @@
 			"**Spell-Like Abilities (Sp)** A silver dragon gains the following spell-like abilities, usable at will upon reaching the listed age category. Very young-detect evil; Juvenile-feather fall; Adult-fog cloud; Old-control winds; Ancient-control weather; Great wyrm-reverse gravity.",
 			"",
 			"**True Courage (Ex)** A great wyrm silver dragon can fight on through pain and death. When reduced to below 0 hit points, it remains conscious, automatically stabilizes, and can continue to act (although it is staggered). If it takes damage or is the target of a spell that causes its death, it remains alive for 1 round and can act normally (it is not staggered for this final round)."
-		],
-		"description": [
-			"**Family:** [True Dragon](monster/family/true_dragon)"
+
 		],
 		"display": "monsterfamily"
 	},
@@ -2732,7 +2799,13 @@
 		"mythic_members": [
 			"[Juvenile White Dragon](monster/juvenile_white_dragon)"
 		],
-		"special_abilities": [
+		"description": [
+			"## White Dragon",
+			"",
+			"**Family:** [True Dragon](monster/family/true_dragon)",
+			"",
+			"### Special Abilities",
+			"",
 			"**Blizzard (Su)** An ancient white dragon can use its breath weapon to create a blizzard in the area around it as a standard action. This creates heavy snow conditions in a 50-foot radius for 1 minute, centered on the dragon. This snow slows movement (4 squares of movement per square entered) and limits vision as fog does.",
 			"",
 			"**Cold Aura (Su)** An adult white dragon radiates an aura of cold. All creatures within 5 feet of the dragon take 1d6 points of cold damage at the beginning of the dragon's turn. An old dragon's aura extends to 10 feet. An ancient dragon's damage increases to 2d6.",
@@ -2748,9 +2821,7 @@
 			"**Snow Vision (Ex)** A very young white dragon learns to see perfectly well in snowy conditions. A white dragon does not suffer any penalties to Perception checks while in snow.",
 			"",
 			"**Spell-Like Abilities (Sp)** A white dragon gains the following spell-like abilities usable at will upon reaching the listed age category. Juvenile-fog cloud; Young adult-gust of wind; Ancient-wall of ice; Great wyrm-control weather."
-		],
-		"description": [
-			"**Family:** [True Dragon](monster/family/true_dragon)"
+
 		],
 		"display": "monsterfamily"
 	},
@@ -2823,9 +2894,10 @@
 			"- [Medium Aether Elemental](monster/medium_aether_elemental)",
 			"- [Small Aether Elemental](monster/small_aether_elemental)"
 		],
-		"monster_family_pre": "Elemental",
 		"description": [
 			"## Elemental (Aether)",
+			"",
+			"**Family:** [Elemental](monster/family/elemental)",
 			"",
 			"Aether elementals are made of living aether, the rare fifth element that arises on the Ethereal Plane near the borders of the Elemental Planes.",
 			"",
@@ -2868,9 +2940,10 @@
 		"mythic_members": [
 			"[Elder Air Elemental](monster/elder_air_elemental)"
 		],
-		"monster_family_pre": "Elemental",
 		"description": [
 			"## Elemental (Air)",
+			"",
+			"**Family:** [Elemental](monster/family/elemental)",
 			"",
 			"Air elementals are fast, flying creatures made of living air. Primitive and territorial, they resent being summoned or doing the bidding of mortals, and much prefer to spend their time on the Plane of Air, swooping and racing through the endless skies.",
 			"",
@@ -2914,9 +2987,10 @@
 		"mythic_members": [
 			"[Elder Earth Elemental](monster/elder_earth_elemental)"
 		],
-		"monster_family_pre": "Elemental",
 		"description": [
 			"## Elemental (Earth)",
+			"",
+			"**Family:** [Elemental](monster/family/elemental)",
 			"",
 			"Earth elementals are plodding, stubborn creatures made of living stone or earth. When utterly still, they resemble a heap of stone or a small hill.",
 			"",
@@ -2960,9 +3034,10 @@
 		"mythic_members": [
 			"[Elder Fire Elemental](monster/elder_fire_elemental)"
 		],
-		"monster_family_pre": "Elemental",
 		"description": [
 			"## Elemental (Fire)",
+			"",
+			"**Family:** [Elemental](monster/family/elemental)",
 			"",
 			"Fire elementals are quick, cruel creatures of living flame. They enjoy frightening beings weaker than themselves, and terrorizing any creature they can set on fire.",
 			"",
@@ -3005,9 +3080,10 @@
 			"- [Medium Ice Elemental](monster/medium_ice_elemental)",
 			"- [Small Ice Elemental](monster/small_ice_elemental)"
 		],
-		"monster_family_pre": "Elemental",
 		"description": [
 			"## Elemental (Ice)",
+			"",
+			"**Family:** [Elemental](monster/family/elemental)",
 			"",
 			"Ice elementals are creatures made of animated snow and ice. They form in especially cold parts of the Plane of Water and along its border with the Plane of Air, where giant icebergs careen off of world-high waterfalls into the open sky. Ice elementals vary in their exact appearance.",
 			"",
@@ -3041,9 +3117,10 @@
 			"- [Medium Lightning Elemental](monster/medium_lightning_elemental)",
 			"- [Small Lightning Elemental](monster/small_lightning_elemental)"
 		],
-		"monster_family_pre": "Elemental",
 		"description": [
 			"## Elemental (Lightning)",
+			"",
+			"**Family:** [Elemental](monster/family/elemental)",
 			"",
 			"Though most think of the Plane of Air as a vast expanse of clear sky, that plane also holds the power of the storm, including monstrous hurricanes larger than entire worlds and thunderstorms whose peals and claps can shatter stone. Whether lightning elementals are the by-product of common air elementals spending too much time near these electrically charged storms or are merely calved off like forgotten flurries, they are aggressive and almost suicidal in their willingness to leap into battle. They particularly enjoy attacking creatures that are made of metal and creatures that wear metal armor or wield metal weapons.",
 			"",
@@ -3075,9 +3152,10 @@
 			"- [Medium Magma Elemental](monster/medium_magma_elemental)",
 			"- [Small Magma Elemental](monster/small_magma_elemental)"
 		],
-		"monster_family_pre": "Elemental",
 		"description": [
 			"## Elemental (Magma)",
+			"",
+			"**Family:** [Elemental](monster/family/elemental)",
 			"",
 			"In the border areas between the Plane of Earth and Plane of Fire, volcanoes and continent-sized lava flows are commonplace. Elementals in this area tend to have aspects of both planes, and the typical sort is the magma elemental, an earth elemental with a core of liquid fire. Magma elementals generally have a somewhat feral or bestial appearance.",
 			"",
@@ -3109,9 +3187,10 @@
 			"- [Medium Mud Elemental](monster/medium_mud_elemental)",
 			"- [Small Mud Elemental](monster/small_mud_elemental)"
 		],
-		"monster_family_pre": "Elemental",
 		"description": [
 			"## Elemental (Mud)",
+			"",
+			"**Family:** [Elemental](monster/family/elemental)",
 			"",
 			"Where the Plane of Earth borders the Plane of Water, a mixing of the fundamental elements occurs-it is in this borderland that the mud elementals dwell. Scorned by earth and water elementals, mud elementals usually look like vaguely recognizable blobs of mud in the shape of a Material Plane creature, whether a humanoid, an animal, or even an immense insect. The exact density of their muddy bodies varies-some might be composed of silty water, while others are thick, like river clay. Large and powerful mud elementals tend to have worm-like, reptilian, or frog-like forms.",
 			"",
@@ -3144,9 +3223,10 @@
 		"mythic_members": [
 			"[Elder Water Elemental](monster/elder_water_elemental)"
 		],
-		"monster_family_pre": "Elemental",
 		"description": [
 			"## Elemental (Water)",
+			"",
+			"**Family:** [Elemental](monster/family/elemental)",
 			"",
 			"Water elementals are patient, relentless creatures made of living fresh or salt water. They prefer to hide or drag their opponents into the water to gain an advantage.",
 			"",

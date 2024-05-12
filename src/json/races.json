@@ -6209,7 +6209,7 @@
 			"**Normal Speed:** Munavris have a base speed of 30 feet.  ",
 			"**Darkvision:** Munavris have darkvision 120 feet.  ",
 			"**Light Blindness:** Munavris have the [light blindness](unknown/light_blindness) universal monster ability.  ",
-			"**Advanced Object Reading (Su) A munavri can instantly learn how to use almost any device. Once per day, she can select one weapon, suit of armor, or spell trigger item on which she has cast [object reading](spell/**_object_reading). For a number of minutes equal to her character level, she is considered proficient with that item or can make use of the spell trigger device as if she were a spellcaster of the appropriate class.  ",
+			"**Advanced Object Reading (Su)** A munavri can instantly learn how to use almost any device. Once per day, she can select one weapon, suit of armor, or spell trigger item on which she has cast [object reading](spell/object_reading). For a number of minutes equal to her character level, she is considered proficient with that item or can make use of the spell trigger device as if she were a spellcaster of the appropriate class.  ",
 			"**Spell Resistance:** A munavri has an amount of spell resistance equal to 8 + her total number of class levels.  ",
 			"**Spell-Like Ability:** A munavri can cast [object reading](spell/object_reading) at will (the caster level is equal to her character level).  ",
 			"**Telepathy (Su):** A munavri is able to mentally communicate with other munavris within 60 feet.  ",
@@ -6790,7 +6790,7 @@
 			"**Medium:** Rougarous are Medium creatures.  ",
 			"**Normal Speed:** Rougarous have a base speed of 30 feet.  ",
 			"**Senses:** Rougarous have low-light vision and the scent special ability.  ",
-			"**Change Shape (Su) A rougarou can change shape once per day into a wolf as a standard action, as [beast shape I](spell/**_beast_shape_1). A rougarou can revert to its true form as a swift action.  ",
+			"**Change Shape (Su)** A rougarou can change shape once per day into a wolf as a standard action, as [beast shape I](spell/beast_shape_1). A rougarou can revert to its true form as a swift action.  ",
 			"**Natural Weapon:** Rougarous have a bite attack that deals 1d4 points of damage. This is a secondary attack if a rougarou wields a manufactured weapon.  ",
 			"**Languages:** Rougarous speak Common and their own racial language of Rougarou. Rougarous with high Intelligence scores can choose from these bonus languages: Aklo, Elven, Gnoll, Gnome, Goblin, or Sylvan."
 		],

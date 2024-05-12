@@ -42236,9 +42236,9 @@
 			"",
 			"A ganji doll is a fetish tied so intimately to its intended victim that good or ill can be done to the target through the doll itself. During the item's creation, the creator must choose a humanoid creature to bind the doll to. This requires the creator to obtain and craft a bit of the intended target's body-typically hair, blood, or a tooth-into the fetish. Once this has been done, the ganji doll affects no other creature aside from the bound target. The target of the ganji doll can't be changed after crafting is complete.",
 			"",
-			"Once the doll has been created, three times per day, any bearer can employ the doll to create any one of the following effects. These effects target only the creature bound to the doll. The target takes a -2 penalty on all saving throws against these effects.",
-			"*Blind:* Covering the doll's head with a cloth blinds the target for 1 minute (Will DC 16 negates).",
-			"*Damage:* Stabbing the doll with a sharp instrument, waving it over an open flame, wrapping a cord around the doll's neck, or otherwise damaging the doll causes the target to take 3d6 points of damage (Fortitude DC 16 half). This damage ignores all resistances and immunities.",
+			"Once the doll has been created, three times per day, any bearer can employ the doll to create any one of the following effects. These effects target only the creature bound to the doll. The target takes a -2 penalty on all saving throws against these effects.  ",
+			"*Blind:* Covering the doll's head with a cloth blinds the target for 1 minute (Will DC 16 negates).  ",
+			"*Damage:* Stabbing the doll with a sharp instrument, waving it over an open flame, wrapping a cord around the doll's neck, or otherwise damaging the doll causes the target to take 3d6 points of damage (Fortitude DC 16 half). This damage ignores all resistances and immunities.  ",
 			"*Touch Spell:* The ganji doll functions as the bound target for the purpose of any spell with a range of touch. The target receives the effect of any spell cast upon the doll (up to the doll's limit of three effects per day) as if the caster had actually touched him. The target can attempt saving throws against such spells, if allowed, as normal, but takes the -2 penalty imposed by the doll. Beneficial spells, such as cure light wounds, can also be used in this manner.",
 			"",
 			"### Construction",
@@ -55147,6 +55147,7 @@
 			"15th Level The wearer gains a +4 insight bonus on saving throws against language-dependent spells and effects and on saving throws against magical glyphs, symbols, sigils, or similar written traps.",
 			"",
 			"18th Level Twice per day, the wearer can temporarily drain the magic of one of the bracers' embedded ioun stones to cast [plane shift](unknown/plane_shift). After powering this ability, the ioun stone becomes inert for 24 hours and impossible to remove from the bracer.",
+			"",
 			"**Goal:** Recover and identify 30 named texts or artifacts that were created more than 4,000 years before the present day. Recovering a major artifact counts as 3 artifacts toward the completion of this goal.  ",
 			"**Reward:** By handling a magic item for 1 minute, the wearer can identify its properties and command word as if she had successfully examined the item using [detect magic](unknown/detect_magic) and succeeded at a Spellcraft check. This ability does not reveal whether the item is cursed unless the wearer's character level is equal to or greater than the caster level of the item."
 		],
@@ -55179,6 +55180,7 @@
 			"13th Level: The DC and caster level of all spells with the earth descriptor that the wearer casts increase by 1.",
 			"",
 			"15th Level: The carved king's band acts as a headband of vast intelligence +6 (granting skill ranks in Knowledge [history], Sense Motive, and Spellcraft).",
+			"",
 			"**Goal:** Prepare and cast 50 unique spells, at least three of which must be 8th-level or higher.  ",
 			"**Reward:** The wearer can spontaneously cast any spell with the earth descriptor from his spellbook by sacrificing a prepared spell of equal or higher level. He can apply any metamagic feats he has to this spell when he casts it. This increases the minimum level of the prepared spell sacrificed in order to cast it but does not affect the casting time."
 		],
@@ -55209,6 +55211,7 @@
 			"14th Level: The wearer can use [guards and wards](unknown/guards_and_wards) once per day as a spell-like ability.",
 			"",
 			"17th Level: The wearer adds [binding](unknown/binding) to his class spell list and list of spells known. The wearer can use [binding](unknown/binding) once per day as a spell-like ability, but he must provide the expensive material component for the spell.",
+			"",
 			"**Goal:** The wearer must defeat an undead creature or evil outsider whose CR is at least 4 greater than his Hit Dice.  ",
 			"**Reward:** The wearer is constantly under the effect of [protection from evil](unknown/protection_from_evil) with a caster level equal to his character level. Should this effect be dispelled, he can resume it as a free action."
 		],
@@ -55237,6 +55240,7 @@
 			"11th Level: The totemic figurine can instead take the form of a [dire tiger](unknown/dire_tiger).",
 			"",
 			"15th Level: The totemic figurine can instead take the form of a [mastodon](unknown/mastodon).",
+			"",
 			"**Goal:** The bearer must successfully rear a dinosaur, dire tiger, mastodon, or other megafauna from infancy using the Handle Animal skill.  ",
 			"**Reward:** Dinosaurs, dire tigers, mastodons, and other megafauna will not willingly attack the bearer unless they are magically compelled to do so or the bearer attacks them first. In addition, the bearer can spend one use to cause the totemic figurine to take the form of two different creatures at once."
 		],
@@ -55267,6 +55271,7 @@
 			"12th Level: The wearer is constantly under the effect of [endure elements](unknown/endure_elements) and is automatically considered [acclimated to high altitudes](unknown/acclimated_to_high_altitudes). Should the [endure elements](unknown/endure_elements) effect be dispelled, he can resume it as a free action.",
 			"",
 			"16th Level: Once per day, the wearer can use [find the path](unknown/find_the_path) as a spell-like ability.",
+			"",
 			"**Goal:** The wearer must travel 1,000 miles by foot.  ",
 			"**Reward:** Each morning the wearer can designate one type of terrain from the [ranger's list of favored terrain](unknown/ranger's_list_of_favored_terrain) as his favored terrain for the day. While in that terrain, he gains a  bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival checks. If he already has the favored terrain class feature for the chosen type of terrain, he instead increases his favored terrain bonuses for that terrain by 2."
 		],
@@ -55299,6 +55304,7 @@
 			"The bearer can use [shadow walk](unknown/shadow_walk) once per day as a spell-like ability.",
 			"",
 			"16th Level: Once per day, the bearer of an ioun stone attuned to the wayfinder of cooperation can summon the wayfinder's bearer to her side as if she were activating an appropriately keyed charm from a [bracelet of friends](unknown/bracelet_of_friends).",
+			"",
 			"**Goal:** The bearer must successfully use the aid another action to increase an attack roll, a skill check, or a saving throw of at least 10 allies. To count toward this goal, the bearer's assistance must have made the difference between success and failure on the roll.  ",
 			"**Reward:** The wayfinder of cooperation can be simultaneously attuned to a number of additional ioun stones equal to half the bearer's character level, rather than a single ioun stone."
 		],
@@ -55312,12 +55318,6 @@
 		"slot": "belt",
 		"intelligent": true,
 		"weight": 3,
-		"statistics": [
-			"Alignment lawful good; Ego 6",
-			"Senses 60 ft.",
-			"Int 10, Wis 12, Cha 14",
-			"Communication speech (Common)"
-		],
 		"description": [
 			"## Crusader's Scabbard",
 			"",
@@ -55329,7 +55329,14 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Wondrous Item, bless weapon, greater magic weapon; **Price** 4,250 gp"
+			"Craft Wondrous Item, bless weapon, greater magic weapon; **Price** 4,250 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** lawful good; **Ego**6  ",
+			"**Senses** 60 ft.  ",
+			"**Int** 10, Wis 12, Cha 14  ",
+			"**Communication** speech (Common)"
 		],
 		"display": "magic/wondrous"
 	},
@@ -55341,12 +55348,6 @@
 		"slot": "none",
 		"intelligent": true,
 		"weight": 2,
-		"statistics": [
-			"Alignment neutral; Ego 10",
-			"Senses 60 ft., blindsense",
-			"Int 10, Wis 16, Cha 12",
-			"Communication empathy"
-		],
 		"description": [
 			"## Lady Ninahu's Doll",
 			"",
@@ -55360,7 +55361,14 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Wondrous Item, shield other, telekinesis; **Price** 14,250 gp"
+			"Craft Wondrous Item, shield other, telekinesis; **Price** 14,250 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** neutral; **Ego**10  ",
+			"**Senses** 60 ft., blindsense  ",
+			"**Int** 10, Wis 16, Cha 12  ",
+			"**Communication** empathy"
 		],
 		"display": "magic/wondrous"
 	},
@@ -55372,12 +55380,6 @@
 		"slot": "none",
 		"intelligent": true,
 		"weight": 0,
-		"statistics": [
-			"Alignment neutral good; Ego 10",
-			"Senses 120 ft.",
-			"Int 10, Wis 16, Cha 14",
-			"Communication speech (Common, Halfling)"
-		],
 		"description": [
 			"## Hollis's Lucky Rock",
 			"",
@@ -55389,7 +55391,14 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Wondrous Item, divine favor, good hope; **Price** 17,500 gp"
+			"Craft Wondrous Item, divine favor, good hope; **Price** 17,500 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** neutral good; **Ego**10  ",
+			"**Senses** 120 ft.  ",
+			"**Int** 10, Wis 16, Cha 14  ",
+			"**Communication** speech (Common, Halfling)"
 		],
 		"display": "magic/wondrous"
 	},
@@ -55401,12 +55410,6 @@
 		"slot": "none",
 		"intelligent": true,
 		"weight": 3,
-		"statistics": [
-			"Alignment chaotic neutral; Ego 14",
-			"Senses 120 ft., darkvision",
-			"Int 14, Wis 14, Cha 18",
-			"Communication telepathy (Common and four other languages)"
-		],
 		"description": [
 			"## Source [Ultimate Equipment pg. 358](source/ultimate_equipment)",
 			"",
@@ -55421,7 +55424,14 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Wondrous Item, distracting cacophony ( Ultimate Magic), echolocation (Ultimate Magic), murderous command (Ultimate Magic); **Price** 18,950 gp"
+			"Craft Wondrous Item, distracting cacophony ( Ultimate Magic), echolocation (Ultimate Magic), murderous command (Ultimate Magic); **Price** 18,950 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** chaotic neutral; **Ego** 14  ",
+			"**Senses** 120 ft., darkvision  ",
+			"**Int** 14, Wis 14, Cha 18  ",
+			"**Communication** telepathy (Common and four other languages)"
 		],
 		"display": "magic/wondrous"
 	},
@@ -55433,12 +55443,6 @@
 		"slot": "head",
 		"intelligent": true,
 		"weight": 1,
-		"statistics": [
-			"Alignment lawful evil; Ego 12",
-			"Senses 30 ft.",
-			"Int 12, Wis 15, Cha 10",
-			"Communication speech (Common, Infernal)"
-		],
 		"description": [
 			"## Bloody Mantis",
 			"",
@@ -55452,7 +55456,14 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Wondrous Item, darkvision, deathwatch, disguise self, geas/quest, see invisibility; **Price** 26,250 gp"
+			"Craft Wondrous Item, darkvision, deathwatch, disguise self, geas/quest, see invisibility; **Price** 26,250 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** lawful evil; **Ego**12  ",
+			"**Senses** 30 ft.  ",
+			"**Int** 12, Wis 15, Cha 10  ",
+			"**Communication** speech (Common, Infernal)"
 		],
 		"display": "magic/wondrous"
 	},
@@ -55464,12 +55475,6 @@
 		"slot": "headband",
 		"intelligent": true,
 		"weight": 1,
-		"statistics": [
-			"Alignment varies; Ego 20",
-			"Senses 30 ft.",
-			"Int 20, Wis 16, Cha 12",
-			"Communication telepathy (Common and 10 other languages)"
-		],
 		"description": [
 			"## Source [Ultimate Equipment pg. 357](source/ultimate_equipment)",
 			"",
@@ -55480,7 +55485,14 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Wondrous Item, comprehend languages, fox's cunning, legend and lore, read magic; **Price** 35,650 gp"
+			"Craft Wondrous Item, comprehend languages, fox's cunning, legend and lore, read magic; **Price** 35,650 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** varies; **Ego** 20  ",
+			"**Senses** 30 ft.  ",
+			"**Int** 20, Wis 16, Cha 12  ",
+			"**Communication** telepathy (Common and 10 other languages)"
 		],
 		"display": "magic/wondrous"
 	},
@@ -55492,12 +55504,6 @@
 		"slot": "none",
 		"intelligent": true,
 		"weight": 4,
-		"statistics": [
-			"Alignment n/a; Ego 13",
-			"Senses n/a",
-			"Int 12, Wis 14, Cha 10",
-			"Communication speech (Aklo, Common)"
-		],
 		"description": [
 			"## The Bloodwind",
 			"",
@@ -55511,7 +55517,14 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Wondrous Item, fabricate, gust of wind, overland flight, creator must have 5 ranks in the Craft (ships) skill; **Price** 63,450 gp"
+			"Craft Wondrous Item, fabricate, gust of wind, overland flight, creator must have 5 ranks in the Craft (ships) skill; **Price** 63,450 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** n/a; **Ego** 13  ",
+			"**Senses** n/a  ",
+			"**Int** 12, Wis 14, Cha 10  ",
+			"**Communication** speech (Aklo, Common)"
 		],
 		"display": "magic/wondrous"
 	},
@@ -55524,12 +55537,6 @@
 		"slot": "none",
 		"intelligent": true,
 		"weight": 0,
-		"statistics": [
-			"Alignment neutral; Ego 19",
-			"Senses 60 ft.",
-			"Int 16, Wis 14, Cha 14",
-			"Communication speech (Common, Necril, Osiriani)"
-		],
 		"description": [
 			"## Phylactery of Jadis-Vel",
 			"",
@@ -55543,7 +55550,14 @@
 			"",
 			"### Construction",
 			"",
-			"Craft Wondrous Item, creator must have at least 10 ranks in Knowledge (religion) and a caster level of 11th or higher; **Price** 127,500 gp"
+			"Craft Wondrous Item, creator must have at least 10 ranks in Knowledge (religion) and a caster level of 11th or higher; **Price** 127,500 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** neutral; **Ego**19  ",
+			"**Senses** 60 ft.  ",
+			"**Int** 16, Wis 14, Cha 14  ",
+			"**Communication** speech (Common, Necril, Osiriani)"
 		],
 		"display": "magic/wondrous"
 	},

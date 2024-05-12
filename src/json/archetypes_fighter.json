@@ -596,7 +596,7 @@
 		"description": [
 			"## Dragonheir Scion",
 			"",
-			"**Source** [Legacy of Dragons pg. 12]_of Dragons)",
+			"**Source** [Legacy of Dragons pg. 12]_of Dragons)  ",
 			"Dragonheir scions are the martially inclined humanoid descendants of those influenced by draconic power. Unlike their sorcerous brethren, dragonheir scions manifest their heritage in ways more suited to strength of arms and skill with steel than arcane energies. Those who follow this path are often the children of mighty dragon-blooded sorcerers and others who drew energy from their dragon blood, though they themselves might not exhibit spellcasting ability.",
 			"",
 			"Class Skills",
@@ -1442,7 +1442,7 @@
 		"description": [
 			"## Scrapper",
 			"",
-			"**Source** [Construct Handbook pg. 14]_Handbook)",
+			"**Source** [Construct Handbook pg. 14]_Handbook)  ",
 			"Scrappers are adept at collecting the leftovers from their enemy's armor and using these scraps to improve their own armor.",
 			"",
 			"**Scrap Armor (Ex):** At 3rd level, a scrapper learns to salvage scrap from constructs or other pieces of armor and attach them to his own armor. Salvaging scrap from a destroyed construct or from another creature's armor takes 1 minute. Scrap from a construct grants the scrapper a natural armor bonus to AC equal to one-quarter the construct's Hit Dice (minimum +1). If the scrap is salvaged from a piece of armor, it instead grants a natural armor bonus to AC equal to 1 + the armor's enhancement bonus (if any). The salvaged armor piece is flimsy and prone to breaking. Scrap is immediately destroyed by any sunder combat maneuver that targets the armor to which the scrap is attached. Otherwise, scrap crumbles and falls away after a number of days equal to the natural armor bonus that it grants. At 11th level, scrap salvaged from a construct also grants DR/adamantine equal to one-quarter of the construct's Hit Dice.",
@@ -1623,10 +1623,7 @@
 	"skirmisher": {
 		"name": "Skirmisher",
 		"file": "archetypedisplayf01f.html",
-		"sources": [
-			"Ultimate Wilderness",
-			"Link"
-		],
+		"sources": [ "Ultimate Wilderness" ],
 		"replaces": "Armor Proficiencies; Class Skills; Skill Ranks; 2nd-level Bonus Feat; Bravery; Armor Training; Armor Mastery",
 		"replace_array": [
 			"Armor Proficiency",
@@ -1641,8 +1638,7 @@
 		"description": [
 			"## Skirmisher",
 			"",
-			"**Source** [Ultimate Wilderness pg. 50](source/ultimate_wilderness)  ",
-			"**Errata [Link](source/**link)",
+			"**Source** [Ultimate Wilderness pg. 50](source/ultimate_wilderness), [errata](https://paizo.com/paizo/faq/v5748nruor1hj#v5748eaic9wc9)",
 			"",
 			"Not all battles are fought between armies; sometimes, a settlement or nation faces a threat too dire to fight in the open. In order to repel a much larger enemy force, some soldiers must abandon equipment and tactics designed for open-field warfare and instead rely on ambushes, hit-andrun tactics, and sabotage to whittle down their enemies' strength and morale. Skirmishers use harsh weather and unforgiving terrain to their advantage, attacking isolated groups of enemies that cannot flee or fight back effectively. Many tribal warriors also employ small-unit tactics because it is part of their warrior culture, because they cannot field a large army, or simply because they refuse to fight on the enemy's terms.",
 			"",
@@ -2284,7 +2280,7 @@
 		"description": [
 			"## Venomblade",
 			"",
-			"**Source** [Potions and Poisons pg. 5]_and Poisons)",
+			"**Source** [Potions and Poisons pg. 5]_and Poisons)  ",
 			"The venomblade has learned to take full advantage of his toxic spittle, blinding his targets and then rushing in to cut them down where they stand. The venomblade is an archetype of the fighter class that is available to nagaji characters.",
 			"",
 			"**Venom Projection (Ex):** The venomblade must take the Spit Venom nagaji racial feat as his 1st-level fighter bonus feat if he does not already have that ability. At 2nd level, he does not provoke an attack of opportunity for using the ability granted by the Spit Venom feat. At 4th level, he can use the ability granted by the Spit Venom feat as a standard action; at 8th level, he can use it as a move action; and at 12th level, he can use it as a swift action.",

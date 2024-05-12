@@ -4246,7 +4246,7 @@
 			"The first special function, ball lightning, releases one to four balls of lightning (ring wearer's choice). These glowing globes resemble dancing lights, and the wearer controls them similarly (see the dancing lights spell description). The spheres have a 120-foot range and a duration of 4 rounds. They can be moved at 120 feet per round. Each sphere is about 3 feet in diameter, and any creature who comes within 5 feet of one causes its charge to dissipate, taking electricity damage in the process according to the number of balls created.",
 			"",
 			"| Number of Balls | Damage per Ball |",
-			"|---|---|",
+			"| --- | --- |",
 			"| 1 lightning ball | 4d6 points of electricity damage |",
 			"| 2 lightning balls | 3d6 points of electricity damage |",
 			"| 3 lightning balls | 2d6 points of electricity damage |",
@@ -4685,7 +4685,7 @@
 			"The possessor of a ring of elemental command takes a saving throw penalty as follows.",
 			"",
 			"| Element | Saving Throw Penalty |",
-			"|---|---|",
+			"| --- | --- |",
 			"| Air | -2 against earth-based effects |",
 			"| Earth | -2 against air- or electricity-based effects |",
 			"| Fire | -2 against water- or cold-based effects |",
@@ -4775,12 +4775,6 @@
 		"slot": "ring",
 		"intelligent": true,
 		"weight": 0,
-		"statistics": [
-			"Alignment lawful good; Ego 7",
-			"Senses 60 ft.",
-			"Int 12, Wis 15, Cha 12",
-			"Communication empathy"
-		],
 		"description": [
 			"## Wary Ring",
 			"",
@@ -4792,7 +4786,14 @@
 			"",
 			"### Construction",
 			"",
-			"Forge Ring, nondetection, read magic, timely inspiration; **Price** 7,300 gp"
+			"Forge Ring, nondetection, read magic, timely inspiration; **Price** 7,300 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** lawful good; **Ego** 7  ",
+			"**Senses** 60 ft.  ",
+			"**Int** 12, Wis 15, Cha 12  ",
+			"**Communication** empathy"
 		],
 		"display": "magic/ring"
 	},
@@ -4804,12 +4805,6 @@
 		"slot": "ring",
 		"intelligent": true,
 		"weight": 0,
-		"statistics": [
-			"Alignment neutral; Ego 7",
-			"Senses 30 ft.",
-			"Int 12, Wis 10, Cha 11",
-			"Communication empathy"
-		],
 		"description": [
 			"## Ring of the Weary Sky",
 			"",
@@ -4823,7 +4818,14 @@
 			"",
 			"### Construction",
 			"",
-			"Forge Ring, charm monster, resist energy; **Price** 7,400 gp"
+			"Forge Ring, charm monster, resist energy; **Price** 7,400 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** neutral; **Ego** 7  ",
+			"**Senses** 30 ft.  ",
+			"**Int** 12, Wis 10, Cha 11  ",
+			"**Communication** empathy"
 		],
 		"display": "magic/ring"
 	},
@@ -4835,12 +4837,6 @@
 		"slot": "ring",
 		"intelligent": true,
 		"weight": 0,
-		"statistics": [
-			"Alignment varies; Ego 11",
-			"Senses 30 ft.",
-			"Int 17, Wis 10, Cha 13",
-			"Communication telepathy (Common and seven other languages)"
-		],
 		"description": [
 			"## Source [Ultimate Equipment pg. 359](source/ultimate_equipment)",
 			"",
@@ -4861,7 +4857,14 @@
 			"",
 			"### Construction",
 			"",
-			"Forge Ring, shield of faith, creator must be 15th level (or 9th level if the creator is a gnome); **Price** 58,250 gp"
+			"Forge Ring, shield of faith, creator must be 15th level (or 9th level if the creator is a gnome); **Price** 58,250 gp",
+			"",
+			"### Statistics",
+			"",
+			"**Alignment** varies; **Ego** 11  ",
+			"**Senses** 30 ft.  ",
+			"**Int** 17, Wis 10, Cha 13  ",
+			"**Communication** telepathy (Common and seven other languages)"
 		],
 		"display": "magic/ring"
 	},

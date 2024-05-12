@@ -835,9 +835,6 @@
 		"name": "Ancestor Totem, Lesser (Su)",
 		"searchable_name": "Lesser Ancestor Totem",
 		"sources": [ "Wilderness Origins" ],
-		"prerequisite_explanations": [
-			"You must not have any other \"Totem\" rage powers"
-		],
 		"description": [
 			"### Ancestor Totem, Lesser (Su)",
 			"",
@@ -848,9 +845,6 @@
 		"name": "Atavism Totem (Su)",
 		"searchable_name": "Atavism Totem",
 		"sources": [ "Villain Codex" ],
-		"prerequisite_explanations": [
-			"You must not have any other \"Totem\" rage powers"
-		],
 		"description": [
 			"### Atavism Totem (Su)",
 			"",
@@ -871,9 +865,6 @@
 		"name": "Atavism Totem, Lesser (Su)",
 		"searchable_name": "Lesser Atavism Totem",
 		"sources": [ "Villain Codex" ],
-		"prerequisite_explanations": [
-			"You must not have any other \"Totem\" rage powers"
-		],
 		"description": [
 			"### Atavism Totem, Lesser (Su)",
 			"",
@@ -904,9 +895,6 @@
 		"name": "Beast Totem, Lesser (Su)",
 		"searchable_name": "Lesser Beast Totem",
 		"sources": [ "Advanced Player's Guide" ],
-		"prerequisite_explanations": [
-			"You must not have any other \"Totem\" rage powers"
-		],
 		"description": [
 			"### Beast Totem, Lesser (Su)",
 			"",
@@ -937,9 +925,6 @@
 		"name": "Celestial Totem, Lesser (Su)",
 		"searchable_name": "Lesser Celestial Totem",
 		"sources": [ "Champions of Purity" ],
-		"prerequisite_explanations": [
-			"You must not have any other \"Totem\" rage powers"
-		],
 		"description": [
 			"### Celestial Totem, Lesser (Su)",
 			"",
@@ -970,9 +955,6 @@
 		"name": "Chaos Totem, Lesser (Su)",
 		"searchable_name": "Lesser Chaos Totem",
 		"sources": [ "Advanced Player's Guide" ],
-		"prerequisite_explanations": [
-			"You must not have any other \"Totem\" rage powers"
-		],
 		"description": [
 			"### Chaos Totem, Lesser (Su)",
 			"",
@@ -1003,9 +985,6 @@
 		"name": "Cult Totem, Lesser (Ex)",
 		"searchable_name": "Lesser Cult Totem",
 		"sources": [ "Horror Adventures" ],
-		"prerequisite_explanations": [
-			"You must not have any other \"Totem\" rage powers"
-		],
 		"description": [
 			"### Cult Totem, Lesser (Ex)",
 			"",
@@ -1036,9 +1015,6 @@
 		"name": "Daemon Totem, Lesser",
 		"searchable_name": "Lesser Daemon Totem",
 		"sources": [ "Horror Adventures" ],
-		"prerequisite_explanations": [
-			"You must not have any other \"Totem\" rage powers"
-		],
 		"description": [
 			"### Daemon Totem, Lesser",
 			"",
@@ -1049,9 +1025,6 @@
 		"name": "Dragon Totem (Su)",
 		"searchable_name": "Dragon Totem",
 		"sources": [ "Ultimate Combat" ],
-		"prerequisite_explanations": [
-			"You must not have any other \"Totem\" rage powers"
-		],
 		"description": [
 			"### Dragon Totem (Su)",
 			"",
@@ -1102,9 +1075,6 @@
 		"name": "Air Elemental Totem, Lesser (Su)",
 		"searchable_name": "Lesser Air Elemental Totem",
 		"sources": [ "Blood of the Elements" ],
-		"prerequisite_explanations": [
-			"You must not have any other \"Totem\" rage powers"
-		],
 		"description": [
 			"### Air Elemental Totem, Lesser (Su)",
 			"",
@@ -1115,9 +1085,6 @@
 		"name": "Earth Elemental Totem, Lesser (Su)",
 		"searchable_name": "Lesser Earth Elemental Totem",
 		"sources": [ "Blood of the Elements" ],
-		"prerequisite_explanations": [
-			"You must not have any other \"Totem\" rage powers"
-		],
 		"description": [
 			"### Earth Elemental Totem, Lesser (Su)",
 			"",
@@ -1128,9 +1095,6 @@
 		"name": "Fire Elemental Totem, Lesser (Su)",
 		"searchable_name": "Lesser Fire Elemental Totem",
 		"sources": [ "Blood of the Elements" ],
-		"prerequisite_explanations": [
-			"You must not have any other \"Totem\" rage powers"
-		],
 		"description": [
 			"### Fire Elemental Totem, Lesser (Su)",
 			"",
@@ -1141,9 +1105,6 @@
 		"name": "Water Elemental Totem, Lesser (Su)",
 		"searchable_name": "Lesser Water Elemental Totem",
 		"sources": [ "Blood of the Elements" ],
-		"prerequisite_explanations": [
-			"You must not have any other \"Totem\" rage powers"
-		],
 		"description": [
 			"### Water Elemental Totem, Lesser (Su)",
 			"",
@@ -1174,9 +1135,6 @@
 		"name": "Fiend Totem, Lesser (Su)",
 		"searchable_name": "Lesser Fiend Totem",
 		"sources": [ "Advanced Player's Guide" ],
-		"prerequisite_explanations": [
-			"You must not have any other \"Totem\" rage powers"
-		],
 		"description": [
 			"### Fiend Totem, Lesser (Su)",
 			"",
@@ -1207,9 +1165,6 @@
 		"name": "Hive Totem (Su)",
 		"searchable_name": "Hive Totem",
 		"sources": [ "Ultimate Combat" ],
-		"prerequisite_explanations": [
-			"You must not have any other \"Totem\" rage powers"
-		],
 		"description": [
 			"### Hive Totem (Su)",
 			"",
@@ -1260,9 +1215,6 @@
 		"name": "Moon Totem, Lesser (Su)",
 		"searchable_name": "Lesser Moon Totem",
 		"sources": [ "Wilderness Origins" ],
-		"prerequisite_explanations": [
-			"You must not have any other \"Totem\" rage powers"
-		],
 		"description": [
 			"### Moon Totem, Lesser (Su)",
 			"",
@@ -1292,9 +1244,6 @@
 		"name": "Psychopomp Totem, Lesser",
 		"searchable_name": "Lesser Psychopomp Totem",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
-		"prerequisite_explanations": [
-			"You must not have any other \"Totem\" rage powers"
-		],
 		"description": [
 			"### Psychopomp Totem, Lesser",
 			"",
@@ -1325,9 +1274,6 @@
 		"name": "Spire Totem, Lesser (Su)",
 		"searchable_name": "Lesser Spire Totem",
 		"sources": [ "Wilderness Origins" ],
-		"prerequisite_explanations": [
-			"You must not have any other \"Totem\" rage powers"
-		],
 		"description": [
 			"### Spire Totem, Lesser (Su)",
 			"",
@@ -1358,9 +1304,6 @@
 		"name": "Spirit Totem, Lesser (Su)",
 		"searchable_name": "Lesser Spirit Totem",
 		"sources": [ "Advanced Player's Guide" ],
-		"prerequisite_explanations": [
-			"You must not have any other \"Totem\" rage powers"
-		],
 		"description": [
 			"### Spirit Totem, Lesser (Su)",
 			"",
@@ -1391,9 +1334,6 @@
 		"name": "Sun Totem, Lesser (Su)",
 		"searchable_name": "Lesser Sun Totem",
 		"sources": [ "Qadira, Jewel of the East" ],
-		"prerequisite_explanations": [
-			"You must not have any other \"Totem\" rage powers"
-		],
 		"description": [
 			"### Sun Totem, Lesser (Su)",
 			"",
@@ -1424,9 +1364,6 @@
 		"name": "Tyrant Totem, Lesser (Ex)",
 		"searchable_name": "Lesser Tyrant Totem",
 		"sources": [ "Ultimate Wilderness" ],
-		"prerequisite_explanations": [
-			"You must not have any other \"Totem\" rage powers"
-		],
 		"description": [
 			"### Tyrant Totem, Lesser (Ex)",
 			"",
@@ -1467,9 +1404,6 @@
 		"name": "World Serpent Totem (Su)",
 		"searchable_name": "World Serpent Totem",
 		"sources": [ "Ultimate Combat" ],
-		"prerequisite_explanations": [
-			"You must not have any other \"Totem\" rage powers"
-		],
 		"description": [
 			"### World Serpent Totem (Su)",
 			"",
@@ -1796,9 +1730,6 @@
 		"name": "Abyssal Blood, Lesser (Su)",
 		"searchable_name": "Lesser Abyssal Blood",
 		"sources": [ "Advanced Class Guide" ],
-		"prerequisite_explanations": [
-			"You cannot have any other \"Blood\" rage powers"
-		],
 		"description": [
 			"### Abyssal Blood, Lesser (Su)",
 			"",
@@ -1829,9 +1760,6 @@
 		"name": "Celestial Blood, Lesser (Su)",
 		"searchable_name": "Lesser Celestial Blood",
 		"sources": [ "Advanced Class Guide" ],
-		"prerequisite_explanations": [
-			"You cannot have any other \"Blood\" rage powers"
-		],
 		"description": [
 			"### Celestial Blood, Lesser (Su)",
 			"",
@@ -1862,9 +1790,6 @@
 		"name": "Draconic Blood, Lesser (Su)",
 		"searchable_name": "Lesser Draconic Blood",
 		"sources": [ "Advanced Class Guide" ],
-		"prerequisite_explanations": [
-			"You cannot have any other \"Blood\" rage powers"
-		],
 		"description": [
 			"### Draconic Blood, Lesser (Su)",
 			"",
@@ -1895,9 +1820,6 @@
 		"name": "Elemental Blood, Lesser (Su)",
 		"searchable_name": "Lesser Elemental Blood",
 		"sources": [ "Advanced Class Guide" ],
-		"prerequisite_explanations": [
-			"You cannot have any other \"Blood\" rage powers"
-		],
 		"description": [
 			"### Elemental Blood, Lesser (Su)",
 			"",
@@ -1928,9 +1850,6 @@
 		"name": "Fey Blood, Lesser (Su)",
 		"searchable_name": "Lesser Fey Blood",
 		"sources": [ "Advanced Class Guide" ],
-		"prerequisite_explanations": [
-			"You cannot have any other \"Blood\" rage powers"
-		],
 		"description": [
 			"### Fey Blood, Lesser (Su)",
 			"",
@@ -1961,9 +1880,6 @@
 		"name": "Infernal Blood, Lesser (Su)",
 		"searchable_name": "Lesser Infernal Blood",
 		"sources": [ "Advanced Class Guide" ],
-		"prerequisite_explanations": [
-			"You cannot have any other \"Blood\" rage powers"
-		],
 		"description": [
 			"### Infernal Blood, Lesser (Su)",
 			"",
@@ -1994,9 +1910,6 @@
 		"name": "Undead Blood, Lesser (Su)",
 		"searchable_name": "Lesser Undead Blood",
 		"sources": [ "Advanced Class Guide" ],
-		"prerequisite_explanations": [
-			"You cannot have any other \"Blood\" rage powers"
-		],
 		"description": [
 			"### Undead Blood, Lesser (Su)",
 			"",
