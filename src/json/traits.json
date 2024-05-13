@@ -262,7 +262,7 @@
 			"",
 			"**[Portal](domain/portal):** [Abadar](faith/abadar), [Alseta](faith/alseta)&ast;, [Barbatos](faith/barbatos), [Yog-Sothoth](faith/yog-sothoth)",
 			"",
-			"**[Rites](domain/rites):** [Abraxas](faith/abraxas), [Asmodeus](faith/asmodeus), [Nalinivati](faith/nalinivati), [Nethys](faith/nethys), [Nyarlathotep](faith/nyarlathotep), [Sivanah](faith/sivanah)",
+			"**[Rites](domain/rites):** [Abraxas](faith/abraxas), [Asmodeus](faith/asmodeus), [Nalinivati](faith/nalinivati), [Nethys](faith/nethys), [Nyarlathotep](faith/nyarlathotep_black_pharaoh), [Sivanah](faith/sivanah)",
 			"",
 			"**[Self-Realization](domain/self-realization) ([Liberation](domain/liberation)/[Strength](domain/strength)):** [Arshea](faith/arshea), [Falayna](faith/falayna), [Haagenti](faith/haagenti), [Irori](faith/irori), [Kurgess](faith/kurgess), [Shei](faith/shei), [Urgathoa](faith/urgathoa)",
 			"",
@@ -4144,7 +4144,7 @@
 			"",
 			"With this trait, the assumption is that you belong to a minor noble family (and can make up your family name). In this case, your family keeps a small manor in Aroden's View or Senate's Hill. If you want to be a member of one of Oppara's major noble families, you must take the [Noble Scion](feat/noble_scion) feat at 1st level.",
 			"",
-			"You gain a +1 trait bonus on Appraise and Knowledge (nobility) checks, and one of these skills is always a class skill for you. The Noble Scion feat (see the sidebar) does not have a Charisma prerequisite for you. In addition, you start play with a [noble's outfit](equipment/noble's_outfit), a [signet ring](equipment/signet_ring), and a single additional nonmagical item worth no more than 200 gp."
+			"You gain a +1 trait bonus on Appraise and Knowledge (nobility) checks, and one of these skills is always a class skill for you. The Noble Scion feat (see the sidebar) does not have a Charisma prerequisite for you. In addition, you start play with a [noble's outfit](equipment/misc/noble's_outfit), a [signet ring](equipment/misc/signet_ring), and a single additional nonmagical item worth no more than 200 gp."
 		],
 		"type": "Campaign",
 		"sources": [ "War for the Crown Player's Guide" ],
@@ -6388,7 +6388,7 @@
 		"description": [
 			"## Diva in Training",
 			"",
-			"The opera is perhaps the most important and prestigious form of entertainment offered in Kintargo, and the Kintargo Opera House is among the most famous of its kind. You're hardly a superstar among the performers who-ve graced the stage there, but you have performed several times before in small parts. Just recently, you got your big break-you'd won a role in the infamous opera Huntress of Heroes, and had been studying for the role furiously before the onset of martial law dashed your plans to the dirt. Now that the Kintargo Opera House has been claimed by Barzillai Thrune, all shows have been canceled and your chance at success seems to have been lost. Yet you can't lose hope. You still practice your skills, and some day, perhaps the Kintargo Opera House will open its doors again, at which point you intend to be center stage!",
+			"The opera is perhaps the most important and prestigious form of entertainment offered in Kintargo, and the Kintargo Opera House is among the most famous of its kind. You're hardly a superstar among the performers who've graced the stage there, but you have performed several times before in small parts. Just recently, you got your big break-you'd won a role in the infamous opera Huntress of Heroes, and had been studying for the role furiously before the onset of martial law dashed your plans to the dirt. Now that the Kintargo Opera House has been claimed by Barzillai Thrune, all shows have been canceled and your chance at success seems to have been lost. Yet you can't lose hope. You still practice your skills, and some day, perhaps the Kintargo Opera House will open its doors again, at which point you intend to be center stage!",
 			"",
 			"Choose one type of Perform skill. You gain a +1 trait bonus in that specific Perform skill, and all Perform skills are class skills for you. You also increase the save DCs of all language-dependent spells and effects you create by 1."
 		],
@@ -9029,7 +9029,7 @@
 		"description": [
 			"## Fools for Friends",
 			"",
-			"You don't think of yourself as a gambler. In fact, you rather detest the whole thing. Unfortunately, one or more of your friends (pick one or more of the other players' characters) doesn't think so, and you've recently learned that friend-or friends-have decided to go to the Gold Goblin's \"Cheat the Devil and Take his Gold\" tournament. Which pretty much means you have to go as well, since if no one's there to watch out for them, they'll lose all their money and respect. Again. Sometimes it's hard being the responsible one. Your devotion to your friendships (even when said friends seem, at times, to be trying to test that devotion) is a point of pride to you. Whenever you take the Aid Another action to help an ally, or whenever an ally aids you in this manner, a successful check grants an additional +1 trait bonus to the check for which aid was being rendered. Additionally, as long as one of your friends is within 30 feet, you gain a +1 trait bonus on all saving throws against charm and compulsion effects."
+			"You don't think of yourself as a gambler. In fact, you rather detest the whole thing. Unfortunately, one or more of your friends (pick one or more of the other players' characters) doesn't think so, and you've recently learned that friend-or friends-have decided to go to the Gold Goblin's \"Cheat the Devil and Take his Gold\" tournament. Which pretty much means you have to go as well, since if no one's there to watch out for them, they'll lose all their money and respect. Again. Sometimes it's hard being the responsible one. Your devotion to your friendships (even when said friends seem, at times, to be trying to test that devotion) is a point of pride to you. Whenever you take the [Aid Another](rule/aid_another) action to help an ally, or whenever an ally [aids you](rule/aid_another_2) in this manner, a successful check grants an additional +1 trait bonus to the check for which aid was being rendered. Additionally, as long as one of your friends is within 30 feet, you gain a +1 trait bonus on all saving throws against charm and compulsion effects."
 		],
 		"type": "Campaign",
 		"sources": [ "Second Darkness Player's Guide" ],

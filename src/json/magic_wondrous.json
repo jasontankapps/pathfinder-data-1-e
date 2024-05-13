@@ -417,7 +417,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [create food and water](unknown/create_food_and_water), [touch of fatigue](unknown/touch_of_fatigue); **Cost** 2,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [create food and water](unknown/create_food_and_water), [touch of fatigue](unknown/touch_of_fatigue); **Cost** 2,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -1900,7 +1900,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [charm person](unknown/charm_person); **Cost** 1,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [charm person](unknown/charm_person); **Cost** 1,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -3645,7 +3645,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [mage armor](unknown/mage_armor), [protection from spells](unknown/protection_from_spells), [resist energy](unknown/resist_energy), [secret chest](unknown/secret_chest); **Cost** 82,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [mage armor](unknown/mage_armor), [protection from spells](unknown/protection_from_spells), [resist energy](unknown/resist_energy), [secret chest](unknown/secret_chest); **Cost** 82,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -3671,7 +3671,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [calm emotions](unknown/calm_emotions), [protection from spells](unknown/protection_from_spells), [shield](unknown/shield), [secret chest](unknown/secret_chest); **Cost** 99,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [calm emotions](unknown/calm_emotions), [protection from spells](unknown/protection_from_spells), [shield](unknown/shield), [secret chest](unknown/secret_chest); **Cost** 99,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -5995,7 +5995,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [arcane sight](unknown/arcane_sight), [true seeing](unknown/true_seeing); **Cost** 7,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [arcane sight](unknown/arcane_sight), [true seeing](unknown/true_seeing); **Cost** 7,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -6282,7 +6282,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [fox's cunning](unknown/fox's_cunning), [comprehend languages](unknown/comprehend_languages); **Cost** 16,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [fox's cunning](unknown/fox's_cunning), [comprehend languages](unknown/comprehend_languages); **Cost** 16,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -8599,7 +8599,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [ride the waves](unknown/ride_the_waves), [slipstream](unknown/slipstream); **Cost** 36,600 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [ride the waves](unknown/ride_the_waves), [slipstream](unknown/slipstream); **Cost** 36,600 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -8877,7 +8877,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [detect magic](unknown/detect_magic), [light](unknown/light); **Cost** 800 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [detect magic](unknown/detect_magic), [light](unknown/light); **Cost** 800 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -9466,7 +9466,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [freedom of movement](unknown/freedom_of_movement); **Cost** 2,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [freedom of movement](unknown/freedom_of_movement); **Cost** 2,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -10093,7 +10093,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [darkness](unknown/darkness), [invisibility](unknown/invisibility); **Cost** 4,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [darkness](unknown/darkness), [invisibility](unknown/invisibility); **Cost** 4,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -11315,7 +11315,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [misdirection](unknown/misdirection), [remove disease](unknown/remove_disease); **Cost** 1,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [misdirection](unknown/misdirection), [remove disease](unknown/remove_disease); **Cost** 1,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -11488,7 +11488,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [air bubble](unknown/air_bubble), [message](unknown/message); **Cost** 1,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [air bubble](unknown/air_bubble), [message](unknown/message); **Cost** 1,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -11820,7 +11820,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [greensight](unknown/greensight); **Cost** 1,850 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [greensight](unknown/greensight); **Cost** 1,850 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -12245,7 +12245,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [air bubble](unknown/air_bubble), [detect magic](unknown/detect_magic); **Cost** 3,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [air bubble](unknown/air_bubble), [detect magic](unknown/detect_magic); **Cost** 3,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -13521,7 +13521,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [daylight](unknown/daylight), [sunbeam](unknown/sunbeam); **Cost** 10,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [daylight](unknown/daylight), [sunbeam](unknown/sunbeam); **Cost** 10,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -14018,7 +14018,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [disguise self](unknown/disguise_self), [eagle's splendor](unknown/eagle's_splendor), [fox's cunning](unknown/fox's_cunning), [levitate](unknown/levitate), [feather fall](unknown/feather_fall); **Cost** 13,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [disguise self](unknown/disguise_self), [eagle's splendor](unknown/eagle's_splendor), [fox's cunning](unknown/fox's_cunning), [levitate](unknown/levitate), [feather fall](unknown/feather_fall); **Cost** 13,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -14471,7 +14471,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [Bestow Curse](unknown/bestow_curse), [ethereal jaunt](unknown/ethereal_jaunt); **Cost** 20,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Bestow Curse](unknown/bestow_curse), [ethereal jaunt](unknown/ethereal_jaunt); **Cost** 20,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -14553,7 +14553,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [calm emotions](unknown/calm_emotions); **Cost** 24,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [calm emotions](unknown/calm_emotions); **Cost** 24,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -15584,7 +15584,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [fox's cunning](unknown/fox's_cunning), creator must be an [aboleth](unknown/aboleth); **Cost** 4,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [fox's cunning](unknown/fox's_cunning), creator must be an [aboleth](unknown/aboleth); **Cost** 4,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -16443,7 +16443,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [dominate monster](unknown/dominate_monster), [possession](unknown/possession); **Cost** 94,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [dominate monster](unknown/dominate_monster), [possession](unknown/possession); **Cost** 94,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -19032,7 +19032,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [vomit swarm](unknown/vomit_swarm); **Cost** 4,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [vomit swarm](unknown/vomit_swarm); **Cost** 4,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -19123,7 +19123,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [eagle's splendor](unknown/eagle's_splendor), [vomit swarm](unknown/vomit_swarm); **Cost** 4,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [eagle's splendor](unknown/eagle's_splendor), [vomit swarm](unknown/vomit_swarm); **Cost** 4,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -20011,7 +20011,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [air breathing](unknown/air_breathing), [expeditious retreat](unknown/expeditious_retreat); **Cost** 5,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [air breathing](unknown/air_breathing), [expeditious retreat](unknown/expeditious_retreat); **Cost** 5,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -22154,7 +22154,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [invisibility](unknown/invisibility), [locate object](unknown/locate_object); **Cost** 66,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [invisibility](unknown/invisibility), [locate object](unknown/locate_object); **Cost** 66,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -22640,7 +22640,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [cure light wounds](unknown/cure_light_wounds); **Cost** 75 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [cure light wounds](unknown/cure_light_wounds); **Cost** 75 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -23303,7 +23303,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [plant growth](unknown/plant_growth); **Cost** 150 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [plant growth](unknown/plant_growth); **Cost** 150 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -24348,7 +24348,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [light](unknown/light); **Cost** 250 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [light](unknown/light); **Cost** 250 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -24452,7 +24452,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [solid fog](unknown/solid_fog); **Cost** 300 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [solid fog](unknown/solid_fog); **Cost** 300 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -24716,7 +24716,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [commune with nature](unknown/commune_with_nature), [secret page](unknown/secret_page); **Cost** 300 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [commune with nature](unknown/commune_with_nature), [secret page](unknown/secret_page); **Cost** 300 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -25248,7 +25248,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [disable construct](unknown/disable_construct); **Cost** 750 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [disable construct](unknown/disable_construct); **Cost** 750 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -25295,7 +25295,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [share memory](unknown/share_memory); **Cost** 375 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [share memory](unknown/share_memory); **Cost** 375 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -25789,11 +25789,11 @@
 			"**Aura** moderate (school varies); **CL** 7th  ",
 			"**Slot** none; **Price** 900 gp (Blue), 900 gp (Green), 900 gp (Orange), 900 gp (Red), 900 gp (Silver), 900 gp (Yellow), 1,800 gp (Black), 1,800 gp (White); **Weight** -;",
 			"",
-			"The Shoanti have developed numerous types of magical war paint, each providing a specific benefit to aid their hunters, warriors, and heroes in a variety of tasks. Shoanti war paint can be applied to any visible part of the body-typically the face, shoulders, legs, or arms. Applying a dose of war paint is a full-round action that provokes an attack of opportunity. Shoanti war paint does not take up a magic item slot, but you can benefit from only one color of Shoanti war paint at a time and applying a dose of a different color replaces the effects of the previous application. Once Shoanti war paint is applied, its effects last for 24 hours. Below are the eight most common colors and their effects. Black (1,800 gp): The wearer becomes cloaked in shadows and smoke, gaining the effects of a [blur](unknown/blur) spell. Blue (900 gp): The wearer gains a 30-foot enhancement bonus to her base move speed. Green (900 gp): When the wearer uses [bardic performance](unknown/bardic_performance) to inspire courage, the morale bonus she grants increases by 1. Orange (900 gp): The wearer gains damage reduction 1/-. This effect stacks with damage reduction gained via a character class, such as [barbarian](unknown/barbarian). Red (900 gp): The wearer gains fire resistance 10. Silver (900 gp): The wearer gains a +3 deflection bonus to her AC. White (1,800 gp): The wearer gains a +4 resistance bonus on all saving throws against energy drain and negative energy. As soon as the wearer takes a negative level from an energy drain attack, the white war paint absorbs the negative level and then fades away, ending the ongoing duration of the paint's effect immediately. Yellow (900 gp): The wearer gains a +5 competence bonus on Perception checks.",
+			"The Shoanti have developed numerous types of magical war paint, each providing a specific benefit to aid their hunters, warriors, and heroes in a variety of tasks. Shoanti war paint can be applied to any visible part of the body-typically the face, shoulders, legs, or arms. Applying a dose of war paint is a full-round action that provokes an attack of opportunity. Shoanti war paint does not take up a magic item slot, but you can benefit from only one color of Shoanti war paint at a time and applying a dose of a different color replaces the effects of the previous application. Once Shoanti war paint is applied, its effects last for 24 hours. Below are the eight most common colors and their effects. Black (1,800 gp): The wearer becomes cloaked in shadows and smoke, gaining the effects of a [blur](unknown/blur) spell. Blue (900 gp): The wearer gains a 30-foot enhancement bonus to her base move speed. Green (900 gp): When the wearer uses [bardic performance](unknown/bardic_performance) to inspire courage, the morale bonus she grants increases by 1. Orange (900 gp): The wearer gains damage reduction 1/-. This effect stacks with damage reduction gained via a character class, such as [barbarian](class/barbarian). Red (900 gp): The wearer gains fire resistance 10. Silver (900 gp): The wearer gains a +3 deflection bonus to her AC. White (1,800 gp): The wearer gains a +4 resistance bonus on all saving throws against energy drain and negative energy. As soon as the wearer takes a negative level from an energy drain attack, the white war paint absorbs the negative level and then fades away, ending the ongoing duration of the paint's effect immediately. Yellow (900 gp): The wearer gains a +5 competence bonus on Perception checks.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item); [blur](unknown/blur) (black), [clairaudience/clairvoyance](unknown/clairaudience_clairvoyance) (yellow), [death ward](unknown/death_ward) (white), [expeditious retreat](unknown/expeditious_retreat) (blue), [heroism](unknown/heroism) (green), [resist energy](unknown/resist_energy) (red), [shield of faith](unknown/shield_of_faith) (silver), [stoneskin](unknown/stoneskin) (orange); **Cost** 900 gp (black and white paint), 450 gp (all other paints)"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item); [blur](unknown/blur) (black), [clairaudience/clairvoyance](unknown/clairaudience_clairvoyance) (yellow), [death ward](unknown/death_ward) (white), [expeditious retreat](unknown/expeditious_retreat) (blue), [heroism](unknown/heroism) (green), [resist energy](unknown/resist_energy) (red), [shield of faith](unknown/shield_of_faith) (silver), [stoneskin](unknown/stoneskin) (orange); **Cost** 900 gp (black and white paint), 450 gp (all other paints)"
 		],
 		"display": "magic/wondrous"
 	},
@@ -25958,7 +25958,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [barkskin](unknown/barkskin); **Cost** 450 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [barkskin](unknown/barkskin); **Cost** 450 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -26424,7 +26424,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [contagion](unknown/contagion), [gentle repose](unknown/gentle_repose); **Cost** 500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [contagion](unknown/contagion), [gentle repose](unknown/gentle_repose); **Cost** 500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -27025,7 +27025,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [arcane concordance](unknown/arcane_concordance); **Cost** 650 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [arcane concordance](unknown/arcane_concordance); **Cost** 650 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -28060,7 +28060,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [modify memory](unknown/modify_memory); **Cost** 750 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [modify memory](unknown/modify_memory); **Cost** 750 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -28083,7 +28083,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [identify](unknown/identify), [open/close](unknown/open_close); **Cost** 750 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [identify](unknown/identify), [open/close](unknown/open_close); **Cost** 750 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -28199,7 +28199,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [confusion](unknown/confusion); **Cost** 750 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [confusion](unknown/confusion); **Cost** 750 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -28223,7 +28223,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [sending](unknown/sending), [status](unknown/status); **Cost** 750 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [sending](unknown/sending), [status](unknown/status); **Cost** 750 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -31547,7 +31547,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [haste](unknown/haste); **Cost** 1,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [haste](unknown/haste); **Cost** 1,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -31683,71 +31683,71 @@
 			"**Aura** varies; **CL** varies  ",
 			"**Slot** none; **Price** 3,000 gp (Junk), 4,000 gp (Wax), 5,000 gp (Ice), 6,000 gp (Wood), 8,000 gp (Flesh), 10,000 gp (Alchemical), 10,000 gp (Glass), 12,000 gp (Bone), 12,000 gp (Clay), 15,000 gp (Sand), 17,500 gp (Coral), 20,000 gp (Lead), 22,000 gp (Stone), 30,000 gp (Carrion), 35,000 gp (Clockwork), 35,000 gp (Iron), 37,500 gp (Fossil), 40,000 gp (Crystal), 40,000 gp (Obsidian), 44,000 gp (Stone Guardian), 55,000 gp (Brass), 60,000 gp (Cannon), 65,000 gp (Dragonhide), 65,000 gp (Gold), 70,000 gp (Blood), 75,000 gp (Viridium), 80,000 gp (Mithral), 90,000 gp (Inubrix), 125,000 gp (Adamantine), 150,000 gp (Quintessence); **Weight** 5 lbs.",
 			"",
-			"The wondrous items known as golem manuals contain all the information and magical power required to create a particular kind of golem. This effectively grants the [Craft Construct](unknown/craft_construct) feat to anyone using the manual to craft a golem of that type, and it provides an increase in caster level for the purpose of meeting the prerequisite to craft that specific type of golem. Further, the manual grants a +5 competence bonus on skill checks to craft the golem and contains all the necessary spells, which can be activated by anyone who has the relevant spells on their class's spell list (but only for the purpose of crafting the golem). When using a golem manual, you must still spend the normal amount of time to craft the golem and pay the cost of the golem's body (or provide it through other means), but you do not need to pay the rest of the normal cost to create the golem.",
+			"The wondrous items known as golem manuals contain all the information and magical power required to create a particular kind of golem. This effectively grants the [Craft Construct](feat/craft_construct) feat to anyone using the manual to craft a golem of that type, and it provides an increase in caster level for the purpose of meeting the prerequisite to craft that specific type of golem. Further, the manual grants a +5 competence bonus on skill checks to craft the golem and contains all the necessary spells, which can be activated by anyone who has the relevant spells on their class's spell list (but only for the purpose of crafting the golem). When using a golem manual, you must still spend the normal amount of time to craft the golem and pay the cost of the golem's body (or provide it through other means), but you do not need to pay the rest of the normal cost to create the golem.",
 			"",
 			"The spells included in a golem manual require a spell trigger activation and can be activated only to assist in the construction of a golem. The cost of the book does not include the cost of constructing the golem's body. Once the golem is finished, the writing in the manual fades and the book is consumed in flames. When the book's ashes are sprinkled upon the golem, it becomes fully animated.",
 			"",
 			"For example, with a clay golem manual, you would need to provide a body worth 1,500 gp (rather than the normal full cost of 21,500 gp), spend 42 days constructing the golem's body (1 for each 1,000 gp in the normal price of the golem), have a caster level of 9th or higher (as the manual provides a +2 bonus and the normal requirement is 11th level), have [animate objects](unknown/animate_objects), [bless](unknown/bless), [commune](unknown/commune), [prayer](unknown/prayer), and [resurrection](unknown/resurrection) on your class's spell list, and succeed at a DC 16 Craft (sculptures) or Craft (pottery) check (but the manual gives you a +5 bonus on the check.)",
 			"",
-			"Adamantine ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [crushing hand](unknown/crushing_hand), [geas/quest](unknown/geas_quest), [heal](unknown/heal), [stoneskin](unknown/stoneskin), and [wish](unknown/wish). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting an [adamantine golem](unknown/adamantine_golem).; **Aura** strong abjuration, conjuration, enchantment, and evocation; **CL** 20th; [Craft Construct](unknown/craft_construct), [crushing hand](unknown/crushing_hand), [geas/quest](unknown/geas_quest), [heal](unknown/heal), [stoneskin](unknown/stoneskin), [wish](unknown/wish), creator must be caster level 20th.",
+			"Adamantine ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [crushing hand](unknown/crushing_hand), [geas/quest](spell/geas_quest), [heal](unknown/heal), [stoneskin](unknown/stoneskin), and [wish](unknown/wish). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting an [adamantine golem](unknown/adamantine_golem).; **Aura** strong abjuration, conjuration, enchantment, and evocation; **CL** 20th; [Craft Construct](feat/craft_construct), [crushing hand](unknown/crushing_hand), [geas/quest](spell/geas_quest), [heal](unknown/heal), [stoneskin](unknown/stoneskin), [wish](unknown/wish), creator must be caster level 20th.",
 			"",
-			"Alchemical ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](unknown/geas_quest), [gentle repose](unknown/gentle_repose), [major creation](unknown/major_creation), [resist energy](unknown/resist_energy), and [telekinesis](unknown/telekinesis). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting an [alchemical golem](unknown/alchemical_golem).; **Aura** moderate abjuration, conjuration, enchantment, necromancy, and transmutation; **CL** 10th; [Craft Construct](unknown/craft_construct), [geas/quest](unknown/geas_quest), [major creation](unknown/major_creation), [resist energy](unknown/resist_energy), [telekinesis](unknown/telekinesis), creator must be caster level 10th.",
+			"Alchemical ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [gentle repose](unknown/gentle_repose), [major creation](unknown/major_creation), [resist energy](unknown/resist_energy), and [telekinesis](unknown/telekinesis). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting an [alchemical golem](unknown/alchemical_golem).; **Aura** moderate abjuration, conjuration, enchantment, necromancy, and transmutation; **CL** 10th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [major creation](unknown/major_creation), [resist energy](unknown/resist_energy), [telekinesis](unknown/telekinesis), creator must be caster level 10th.",
 			"",
-			"Blood ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate dead](unknown/animate_dead), [bleed](unknown/bleed), [cure critical wounds](unknown/cure_critical_wounds), and [geas/quest](unknown/geas_quest). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [blood golem](unknown/blood_golem).; **Aura** strong conjuration, enchantment, and necromancy [evil]; **CL** 12th; [Craft Construct](unknown/craft_construct), [animate dead](unknown/animate_dead), [bleed](unknown/bleed), [cure critical wounds](unknown/cure_critical_wounds), [geas/quest](unknown/geas_quest), creator must be caster level 12th.",
+			"Blood ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate dead](unknown/animate_dead), [bleed](unknown/bleed), [cure critical wounds](unknown/cure_critical_wounds), and [geas/quest](spell/geas_quest). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [blood golem](unknown/blood_golem).; **Aura** strong conjuration, enchantment, and necromancy [evil]; **CL** 12th; [Craft Construct](feat/craft_construct), [animate dead](unknown/animate_dead), [bleed](unknown/bleed), [cure critical wounds](unknown/cure_critical_wounds), [geas/quest](spell/geas_quest), creator must be caster level 12th.",
 			"",
-			"Bone ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate objects](unknown/animate_objects), [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), and [telekinesis](unknown/telekinesis). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [bone golem](unknown/bone_golem).; **Aura** moderate enchantment and transmutation; **CL** 9th; [Craft Construct](unknown/craft_construct), [animate objects](unknown/animate_objects), [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), [telekinesis](unknown/telekinesis), creator must be caster level 9th.",
+			"Bone ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate objects](unknown/animate_objects), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), and [telekinesis](unknown/telekinesis). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [bone golem](unknown/bone_golem).; **Aura** moderate enchantment and transmutation; **CL** 9th; [Craft Construct](feat/craft_construct), [animate objects](unknown/animate_objects), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), [telekinesis](unknown/telekinesis), creator must be caster level 9th.",
 			"",
-			"Brass ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](unknown/geas_quest), [incendiary cloud](unknown/incendiary_cloud), [limited wish](unknown/limited_wish), and [see invisibility](unknown/see_invisibility). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [brass golem](unknown/brass_golem).; **Aura** strong conjuration, divination, and enchantment; **CL** 17th; [Craft Construct](unknown/craft_construct), [geas/quest](unknown/geas_quest), [incendiary cloud](unknown/incendiary_cloud), [limited wish](unknown/limited_wish), [see invisibility](unknown/see_invisibility), creator must be caster level 17th.",
+			"Brass ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [incendiary cloud](unknown/incendiary_cloud), [limited wish](unknown/limited_wish), and [see invisibility](unknown/see_invisibility). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [brass golem](unknown/brass_golem).; **Aura** strong conjuration, divination, and enchantment; **CL** 17th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [incendiary cloud](unknown/incendiary_cloud), [limited wish](unknown/limited_wish), [see invisibility](unknown/see_invisibility), creator must be caster level 17th.",
 			"",
-			"Cannon ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), and [secret chest](unknown/secret_chest). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [cannon golem](unknown/cannon_golem).; **Aura** strong conjuration and enchantment; **CL** 17th; [Craft Construct](unknown/craft_construct), [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), [secret chest](unknown/secret_chest), creator must be caster level 17th.",
+			"Cannon ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), and [secret chest](unknown/secret_chest). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [cannon golem](unknown/cannon_golem).; **Aura** strong conjuration and enchantment; **CL** 17th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), [secret chest](unknown/secret_chest), creator must be caster level 17th.",
 			"",
-			"Carrion ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate dead](unknown/animate_dead), [contagion](unknown/contagion), [false life](unknown/false_life), [gentle repose](unknown/gentle_repose), and [lesser geas](unknown/lesser_geas). The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a [carrion golem](unknown/carrion_golem).; **Aura** moderate enchantment and necromancy [evil]; **CL** 7th; [Craft Construct](unknown/craft_construct), [animate dead](unknown/animate_dead), [contagion](unknown/contagion), [false life](unknown/false_life), [gentle repose](unknown/gentle_repose), [lesser geas](unknown/lesser_geas), creator must be caster level 7th.",
+			"Carrion ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate dead](unknown/animate_dead), [contagion](unknown/contagion), [false life](unknown/false_life), [gentle repose](unknown/gentle_repose), and [lesser geas](unknown/lesser_geas). The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a [carrion golem](unknown/carrion_golem).; **Aura** moderate enchantment and necromancy [evil]; **CL** 7th; [Craft Construct](feat/craft_construct), [animate dead](unknown/animate_dead), [contagion](unknown/contagion), [false life](unknown/false_life), [gentle repose](unknown/gentle_repose), [lesser geas](unknown/lesser_geas), creator must be caster level 7th.",
 			"",
 			"Clay ([Ultimate Equipment pg. 300](source/ultimate_equipment), [PRPG Core Rulebook pg. 1](source/prpg_core_rulebook)): The book contains animate objects, bless, commune, prayer, and resurrection. The reader may treat her caster level as two levels higher than normal for the purpose of crafting a clay golem.; **Aura** moderate conjuration; **CL** 11th; Craft Construct, animate objects, commune, prayer, resurrection, creator must be caster level 11th.",
 			"",
-			"Clockwork ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate objects](unknown/animate_objects), [blade barrier](unknown/blade_barrier), [geas/quest](unknown/geas_quest), [grease](unknown/grease), and [telekinesis](unknown/telekinesis). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a [clockwork golem](unknown/clockwork_golem).; **Aura** strong enchantment, evocation, and transmutation; **CL** 15th; [Craft Construct](unknown/craft_construct), [animate objects](unknown/animate_objects), [blade barrier](unknown/blade_barrier), [geas/quest](unknown/geas_quest), [grease](unknown/grease), [telekinesis](unknown/telekinesis), creator must be caster level 15th.",
+			"Clockwork ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate objects](unknown/animate_objects), [blade barrier](unknown/blade_barrier), [geas/quest](spell/geas_quest), [grease](unknown/grease), and [telekinesis](unknown/telekinesis). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a [clockwork golem](unknown/clockwork_golem).; **Aura** strong enchantment, evocation, and transmutation; **CL** 15th; [Craft Construct](feat/craft_construct), [animate objects](unknown/animate_objects), [blade barrier](unknown/blade_barrier), [geas/quest](spell/geas_quest), [grease](unknown/grease), [telekinesis](unknown/telekinesis), creator must be caster level 15th.",
 			"",
-			"Coral ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](unknown/geas_quest), [keen edge](unknown/keen_edge), [limited wish](unknown/limited_wish), and [water breathing](unknown/water_breathing). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [coral golem](unknown/coral_golem).; **Aura** moderate enchantment and transmutation; **CL** 11th; [Craft Construct](unknown/craft_construct), [geas/quest](unknown/geas_quest), [keen edge](unknown/keen_edge), [limited wish](unknown/limited_wish), [water breathing](unknown/water_breathing), creator must be caster level 11th.",
+			"Coral ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [keen edge](unknown/keen_edge), [limited wish](unknown/limited_wish), and [water breathing](unknown/water_breathing). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [coral golem](unknown/coral_golem).; **Aura** moderate enchantment and transmutation; **CL** 11th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [keen edge](unknown/keen_edge), [limited wish](unknown/limited_wish), [water breathing](unknown/water_breathing), creator must be caster level 11th.",
 			"",
-			"Crystal ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), [possession](unknown/possession), and [thoughtsense](unknown/thoughtsense). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a [crystal golem](unknown/crystal_golem).; **Aura** strong divination, enchantment, and necromancy; **CL** 15th; [Craft Construct](unknown/craft_construct), [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), [possession](unknown/possession), [thoughtsense](unknown/thoughtsense), creator must be caster level 15th.",
+			"Crystal ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), [possession](unknown/possession), and [thoughtsense](unknown/thoughtsense). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a [crystal golem](unknown/crystal_golem).; **Aura** strong divination, enchantment, and necromancy; **CL** 15th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), [possession](unknown/possession), [thoughtsense](unknown/thoughtsense), creator must be caster level 15th.",
 			"",
-			"Dragonhide ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [create greater undead](unknown/create_greater_undead), [form of the dragon I](unknown/form_of_the_dragon_1), [geas/quest](unknown/geas_quest), and [limited wish](unknown/limited_wish). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a [dragonhide golem](unknown/dragonhide_golem).; **Aura** strong enchantment, necromancy, and transmutation; **CL** 16th; [Craft Construct](unknown/craft_construct), [create greater undead](unknown/create_greater_undead), [form of the dragon I](unknown/form_of_the_dragon_1), [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), creator must be caster level 16th.",
+			"Dragonhide ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [create greater undead](unknown/create_greater_undead), [form of the dragon I](unknown/form_of_the_dragon_1), [geas/quest](spell/geas_quest), and [limited wish](unknown/limited_wish). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a [dragonhide golem](unknown/dragonhide_golem).; **Aura** strong enchantment, necromancy, and transmutation; **CL** 16th; [Craft Construct](feat/craft_construct), [create greater undead](unknown/create_greater_undead), [form of the dragon I](unknown/form_of_the_dragon_1), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), creator must be caster level 16th.",
 			"",
 			"Flesh ([Ultimate Equipment pg. 300](source/ultimate_equipment), [PRPG Core Rulebook pg. 1](source/prpg_core_rulebook)): The book contains animate dead, bull's strength, geas/quest, and limited wish. The reader may treat her caster level as one level higher than normal for the purpose of crafting a flesh golem.; **Aura** moderate enchantment, necromancy [evil], and transmutation; **CL** 8th; Craft Construct, animate objects, bull's strength, geas/quest, limited wish, creator must be caster level 8th.",
 			"",
-			"Fossil ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [flesh to stone](unknown/flesh_to_stone), [geas/quest](unknown/geas_quest), [limited wish,](unknown/limited_wish,) and [stone shape](unknown/stone_shape). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a [fossil golem](unknown/fossil_golem).; **Aura** strong enchantment and transmutation; **CL** 15th; [Craft Construct](unknown/craft_construct), [flesh to stone](unknown/flesh_to_stone), [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), [stone shape](unknown/stone_shape), creator must be caster level 15th.",
+			"Fossil ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [flesh to stone](unknown/flesh_to_stone), [geas/quest](spell/geas_quest), [limited wish,](unknown/limited_wish,) and [stone shape](unknown/stone_shape). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a [fossil golem](unknown/fossil_golem).; **Aura** strong enchantment and transmutation; **CL** 15th; [Craft Construct](feat/craft_construct), [flesh to stone](unknown/flesh_to_stone), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), [stone shape](unknown/stone_shape), creator must be caster level 15th.",
 			"",
-			"Glass ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate objects](unknown/animate_objects), [flame strike](unknown/flame_strike), [geas/quest](unknown/geas_quest), [spell turning](unknown/spell_turning). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [glass golem](unknown/glass_golem).; **Aura** moderate abjuration, enchantment, evocation, and transmutation; **CL** 10th; [Craft Construct](unknown/craft_construct), [animate objects](unknown/animate_objects), [flame strike](unknown/flame_strike), [geas/quest](unknown/geas_quest), [spell turning](unknown/spell_turning), creator must be caster level 10th.",
+			"Glass ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate objects](unknown/animate_objects), [flame strike](unknown/flame_strike), [geas/quest](spell/geas_quest), [spell turning](unknown/spell_turning). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [glass golem](unknown/glass_golem).; **Aura** moderate abjuration, enchantment, evocation, and transmutation; **CL** 10th; [Craft Construct](feat/craft_construct), [animate objects](unknown/animate_objects), [flame strike](unknown/flame_strike), [geas/quest](spell/geas_quest), [spell turning](unknown/spell_turning), creator must be caster level 10th.",
 			"",
-			"Gold ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), [polymorph any object](unknown/polymorph_any_object), and [prismatic spray](unknown/prismatic_spray). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [gold golem](unknown/gold_golem).; **Aura** strong enchantment, evocation, and transmutation; **CL** 18th; [Craft Construct](unknown/craft_construct), [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), [polymorph any object](unknown/polymorph_any_object), [prismatic spray](unknown/prismatic_spray), creator must be caster level 18th.",
+			"Gold ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), [polymorph any object](unknown/polymorph_any_object), and [prismatic spray](unknown/prismatic_spray). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [gold golem](unknown/gold_golem).; **Aura** strong enchantment, evocation, and transmutation; **CL** 18th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), [polymorph any object](unknown/polymorph_any_object), [prismatic spray](unknown/prismatic_spray), creator must be caster level 18th.",
 			"",
-			"Ice ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [chill touch](unknown/chill_touch), [cone of cold](unknown/cone_of_cold), [geas/quest](unknown/geas_quest), [ice storm](unknown/ice_storm), and [resist energy (cold)](unknown/resist_energy). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting an [ice golem](unknown/ice_golem).; **Aura** strong abjuration, enchantment, and evocation; **CL** 12th; [Craft Construct](unknown/craft_construct), [chill touch](unknown/chill_touch), [cone of cold](unknown/cone_of_cold), [geas/quest](unknown/geas_quest), [ice storm](unknown/ice_storm),, [resist energy (cold)](unknown/resist_energy), creator must be caster level 12th.",
+			"Ice ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [chill touch](unknown/chill_touch), [cone of cold](unknown/cone_of_cold), [geas/quest](spell/geas_quest), [ice storm](unknown/ice_storm), and [resist energy (cold)](unknown/resist_energy). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting an [ice golem](unknown/ice_golem).; **Aura** strong abjuration, enchantment, and evocation; **CL** 12th; [Craft Construct](feat/craft_construct), [chill touch](unknown/chill_touch), [cone of cold](unknown/cone_of_cold), [geas/quest](spell/geas_quest), [ice storm](unknown/ice_storm),, [resist energy (cold)](unknown/resist_energy), creator must be caster level 12th.",
 			"",
-			"Inubrix ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [air walk](unknown/air_walk), [enervation](unknown/enervation), [geas/quest](unknown/geas_quest), and [limited wish](unknown/limited_wish). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting an [inubrix golem](unknown/inubrix_golem).; **Aura** strong enchantment, necromancy, and transmutation; **CL** 16th; [Craft Construct](unknown/craft_construct), [air walk](unknown/air_walk), [enervation](unknown/enervation), [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), creator must be caster level 16th.",
+			"Inubrix ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [air walk](unknown/air_walk), [enervation](unknown/enervation), [geas/quest](spell/geas_quest), and [limited wish](unknown/limited_wish). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting an [inubrix golem](unknown/inubrix_golem).; **Aura** strong enchantment, necromancy, and transmutation; **CL** 16th; [Craft Construct](feat/craft_construct), [air walk](unknown/air_walk), [enervation](unknown/enervation), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), creator must be caster level 16th.",
 			"",
 			"Iron ([Ultimate Equipment pg. 300](source/ultimate_equipment), [PRPG Core Rulebook pg. 1](source/prpg_core_rulebook)): The book contains cloudkill, geas/quest, limited wish, and polymorph any object. The reader may treat her caster level as four levels higher than normal for the purpose of crafting an iron golem.; **Aura** strong conjuration, enchantment, and transmutation; **CL** 16th; Craft Construct, cloudkill, geas/quest, limited wish, polymorph any object, creator must be caster level 16th.",
 			"",
-			"Junk ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [false life](unknown/false_life), [lesser geas](unknown/lesser_geas), [minor creation](unknown/minor_creation), and [rusting grasp](unknown/rusting_grasp). The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a [junk golem](unknown/junk_golem).; **Aura** moderate conjuration, enchantment, necromancy, and transmutation; **CL** 7th; [Craft Construct](unknown/craft_construct), [false life](unknown/false_life), [lesser geas](unknown/lesser_geas), [minor creation](unknown/minor_creation), [rusting grasp](unknown/rusting_grasp), creator must be caster level 7th.",
+			"Junk ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [false life](unknown/false_life), [lesser geas](unknown/lesser_geas), [minor creation](unknown/minor_creation), and [rusting grasp](unknown/rusting_grasp). The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a [junk golem](unknown/junk_golem).; **Aura** moderate conjuration, enchantment, necromancy, and transmutation; **CL** 7th; [Craft Construct](feat/craft_construct), [false life](unknown/false_life), [lesser geas](unknown/lesser_geas), [minor creation](unknown/minor_creation), [rusting grasp](unknown/rusting_grasp), creator must be caster level 7th.",
 			"",
-			"Lead ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [cloudkill](unknown/cloudkill), [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), and [sequester](unknown/sequester). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [lead golem](unknown/lead_golem).; **Aura** strong abjuration, conjuration, and enchantment; **CL** 13th; [Craft Construct](unknown/craft_construct), [cloudkill](unknown/cloudkill), [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), [sequester](unknown/sequester), creator must be caster level 13th.",
+			"Lead ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [cloudkill](unknown/cloudkill), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), and [sequester](unknown/sequester). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [lead golem](unknown/lead_golem).; **Aura** strong abjuration, conjuration, and enchantment; **CL** 13th; [Craft Construct](feat/craft_construct), [cloudkill](unknown/cloudkill), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), [sequester](unknown/sequester), creator must be caster level 13th.",
 			"",
-			"Mithral ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [cloudkill](unknown/cloudkill), [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), and [polymorph any object](unknown/polymorph_any_object). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [mithral golem](unknown/mithral_golem).; **Aura** strong abjuration, enchantment, evocation, and transmutation; **CL** 16th; [Craft Construct](unknown/craft_construct), [cloudkill](unknown/cloudkill), [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), [polymorph any object](unknown/polymorph_any_object), creator must be caster level 16th.",
+			"Mithral ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [cloudkill](unknown/cloudkill), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), and [polymorph any object](unknown/polymorph_any_object). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [mithral golem](unknown/mithral_golem).; **Aura** strong abjuration, enchantment, evocation, and transmutation; **CL** 16th; [Craft Construct](feat/craft_construct), [cloudkill](unknown/cloudkill), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), [polymorph any object](unknown/polymorph_any_object), creator must be caster level 16th.",
 			"",
-			"Obsidian ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), and [volcanic storm](unknown/volcanic_storm). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting an [obsidian golem](unknown/obsidian_golem).; **Aura** strong enchantment and evocation; **CL** 15th; [Craft Construct](unknown/craft_construct), [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), and [volcanic storm](unknown/volcanic_storm), creator must be caster level 15th.",
+			"Obsidian ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), and [volcanic storm](unknown/volcanic_storm). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting an [obsidian golem](unknown/obsidian_golem).; **Aura** strong enchantment and evocation; **CL** 15th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), and [volcanic storm](unknown/volcanic_storm), creator must be caster level 15th.",
 			"",
-			"Quintessence ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [energy drain](unknown/energy_drain), [geas/quest](unknown/geas_quest), [trap the soul](unknown/trap_the_soul), and [wish](unknown/wish). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [quintessence golem](unknown/quintessence_golem).; **Aura** strong conjuration, enchantment, and necromancy; **CL** 20th; [Craft Construct](unknown/craft_construct), [energy drain](unknown/energy_drain), [geas/quest](unknown/geas_quest), [trap the soul](unknown/trap_the_soul), [wish](unknown/wish), creator must be caster level 20th.",
+			"Quintessence ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [energy drain](unknown/energy_drain), [geas/quest](spell/geas_quest), [trap the soul](unknown/trap_the_soul), and [wish](unknown/wish). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [quintessence golem](unknown/quintessence_golem).; **Aura** strong conjuration, enchantment, and necromancy; **CL** 20th; [Craft Construct](feat/craft_construct), [energy drain](unknown/energy_drain), [geas/quest](spell/geas_quest), [trap the soul](unknown/trap_the_soul), [wish](unknown/wish), creator must be caster level 20th.",
 			"",
-			"Sand ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), and [move earth](unknown/move_earth). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [sand golem](unknown/sand_golem).; **Aura** strong enchantment and transmutation; **CL** 12th; [Craft Construct](unknown/craft_construct), [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), [move earth](unknown/move_earth), creator must be caster level 12th.",
+			"Sand ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), and [move earth](unknown/move_earth). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [sand golem](unknown/sand_golem).; **Aura** strong enchantment and transmutation; **CL** 12th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), [move earth](unknown/move_earth), creator must be caster level 12th.",
 			"",
 			"Stone ([Ultimate Equipment pg. 300](source/ultimate_equipment), [PRPG Core Rulebook pg. 1](source/prpg_core_rulebook)): The book contains antimagic field, geas/quest, limited wish, and symbol of stunning. The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem.; **Aura** strong abjuration and enchantment; **CL** 14th; Craft Construct, antimagic field, geas/quest, limited wish, symbol of stunning, creator must be caster level 14th.",
 			"",
 			"Stone Guardian ([Ultimate Equipment pg. 300](source/ultimate_equipment), [PRPG Core Rulebook pg. 1](source/prpg_core_rulebook)): The book contains antimagic field, discern location, geas/quest, limited wish, shield other, and symbol of stunning. The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem guardian.; **Aura** strong abjuration and enchantment; **CL** 14th; Craft Construct, antimagic field discern location, geas/quest, limited wish, shield other, symbol of stunning, creator must be caster level 14th.",
 			"",
-			"Viridium ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [contagion](unknown/contagion), [geas/quest](unknown/geas_quest), [horrid wilting](unknown/horrid_wilting), [poison](unknown/poison), and [wish](unknown/wish). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [viridium golem](unknown/viridium_golem).; **Aura** strong enchantment and necromancy [evil]; **CL** 18th; [Craft Construct](unknown/craft_construct), [contagion](unknown/contagion), [geas/quest](unknown/geas_quest), [horrid wilting](unknown/horrid_wilting), [poison](unknown/poison), [wish](unknown/wish), creator must be caster level 18th.",
+			"Viridium ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [contagion](unknown/contagion), [geas/quest](spell/geas_quest), [horrid wilting](unknown/horrid_wilting), [poison](unknown/poison), and [wish](unknown/wish). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [viridium golem](unknown/viridium_golem).; **Aura** strong enchantment and necromancy [evil]; **CL** 18th; [Craft Construct](feat/craft_construct), [contagion](unknown/contagion), [geas/quest](spell/geas_quest), [horrid wilting](unknown/horrid_wilting), [poison](unknown/poison), [wish](unknown/wish), creator must be caster level 18th.",
 			"",
-			"Wax ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate objects](unknown/animate_objects), [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), and [silent image](unknown/silent_image). The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a [wax golem](unknown/wax_golem).; **Aura** moderate enchantment, illusion, and transmutation; **CL** 9th; [Craft Construct](unknown/craft_construct), [animate objects](unknown/animate_objects), [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), and [silent image](unknown/silent_image), creator must be caster level 9th.",
+			"Wax ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate objects](unknown/animate_objects), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), and [silent image](unknown/silent_image). The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a [wax golem](unknown/wax_golem).; **Aura** moderate enchantment, illusion, and transmutation; **CL** 9th; [Craft Construct](feat/craft_construct), [animate objects](unknown/animate_objects), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), and [silent image](unknown/silent_image), creator must be caster level 9th.",
 			"",
-			"Wood ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [alarm](unknown/alarm), [animate objects](unknown/animate_objects), [cat's grace](unknown/cat's_grace), [geas/quest](unknown/geas_quest), and [limited wish](unknown/limited_wish). The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a [wood golem](unknown/wood_golem).; **Aura** strong abjuration, enchantment, and transmutation; **CL** 12th; [Craft Construct](unknown/craft_construct), [alarm](unknown/alarm), [animate objects](unknown/animate_objects), [cat's grace](unknown/cat's_grace), [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), creator must be caster level 12th.",
+			"Wood ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [alarm](unknown/alarm), [animate objects](unknown/animate_objects), [cat's grace](unknown/cat's_grace), [geas/quest](spell/geas_quest), and [limited wish](unknown/limited_wish). The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a [wood golem](unknown/wood_golem).; **Aura** strong abjuration, enchantment, and transmutation; **CL** 12th; [Craft Construct](feat/craft_construct), [alarm](unknown/alarm), [animate objects](unknown/animate_objects), [cat's grace](unknown/cat's_grace), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), creator must be caster level 12th.",
 			"",
 			"### Construction",
 			"",
@@ -32797,7 +32797,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [speak with dead](unknown/speak_with_dead), [stone tell](unknown/stone_tell); **Cost** 1,800 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [speak with dead](unknown/speak_with_dead), [stone tell](unknown/stone_tell); **Cost** 1,800 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -32969,9 +32969,9 @@
 			"",
 			"Pearl Dolphin: This 2-inch-long pearl figurine turns into a dolphin on command (but it retains its composition, which gives it hardness 10). The dolphin follows the verbal commands of the creature who spoke the command word and will follow commands as a summoned creature. With a second command word, the dolphin will swim to an indicated location at double its swim speed, bearing a message just like a creature affected by an [animal messenger](unknown/animal_messenger) spell.",
 			"",
-			"The pearl dolphin can maintain its nonfigurine status for only 24 hours per week. The duration need not be continuous, but it must be used in 1-hour increments.; **CL** 11th; [Craft Wondrous Item](unknown/craft_wondrous_item), [animal messenger](unknown/animal_messenger), [animate objects](unknown/animate_objects).",
+			"The pearl dolphin can maintain its nonfigurine status for only 24 hours per week. The duration need not be continuous, but it must be used in 1-hour increments.; **CL** 11th; [Craft Wondrous Item](feat/craft_wondrous_item), [animal messenger](unknown/animal_messenger), [animate objects](unknown/animate_objects).",
 			"",
-			"Ruby Butterfly: Upon command, this figurine of wondrous power transforms into a hand-sized red butterfly (same statistics as a [bat](unknown/bat)). A spellcaster can use a ruby butterfly to deliver touch spells, as if the ruby butterfly were a [familiar](unknown/familiar) capable of this ability. A ruby butterfly can also be commanded to guard its owner while he sleeps. Creatures protected this way gain a +5 luck bonus on saving throws against any spell or effect that affects sleeping creatures' dreams (such as [nightmare](unknown/nightmare) or a [night hag's dream haunting](unknown/night_hag's_dream_haunting) ability). A ruby butterfly can be used three times per week for up to 8 hours at a time.; **CL** 9th; [Craft Wondrous Item](unknown/craft_wondrous_item), [animate object](unknown/animate_object), [dream](unknown/dream).",
+			"Ruby Butterfly: Upon command, this figurine of wondrous power transforms into a hand-sized red butterfly (same statistics as a [bat](unknown/bat)). A spellcaster can use a ruby butterfly to deliver touch spells, as if the ruby butterfly were a [familiar](unknown/familiar) capable of this ability. A ruby butterfly can also be commanded to guard its owner while he sleeps. Creatures protected this way gain a +5 luck bonus on saving throws against any spell or effect that affects sleeping creatures' dreams (such as [nightmare](unknown/nightmare) or a [night hag's dream haunting](unknown/night_hag's_dream_haunting) ability). A ruby butterfly can be used three times per week for up to 8 hours at a time.; **CL** 9th; [Craft Wondrous Item](feat/craft_wondrous_item), [animate object](unknown/animate_object), [dream](unknown/dream).",
 			"",
 			"Black Jade Raven: This fist-sized piece of black jade is exquisitely tooled into the shape of a raven with outstretched wings. Upon command, it transforms into a black raven (use the stats for an eagle) or a giant black raven (use the stats for a giant eagle). Both forms of the raven have Improved Steal as a bonus feat. The raven understands Common but cannot speak. It can answer questions related to its abilities or what it has seen by cawing once for \"yes\" and twice for \"no.\"",
 			"",
@@ -34583,7 +34583,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [arcane sight](unknown/arcane_sight), [resist energy](unknown/resist_energy); **Cost** 2,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [arcane sight](unknown/arcane_sight), [resist energy](unknown/resist_energy); **Cost** 2,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -34992,7 +34992,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [soul bind](unknown/soul_bind); **Cost** 2,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [soul bind](unknown/soul_bind); **Cost** 2,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -36457,7 +36457,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [awaken construct](unknown/awaken_construct); **Cost** 3,000 gp (Type I), 7,000 gp (Type II), 12,000 gp (Type III), 18,000 gp (Type IV)"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [awaken construct](unknown/awaken_construct); **Cost** 3,000 gp (Type I), 7,000 gp (Type II), 12,000 gp (Type III), 18,000 gp (Type IV)"
 		],
 		"display": "magic/wondrous"
 	},
@@ -36479,7 +36479,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [touch of the sea](unknown/touch_of_the_sea); **Cost** 3,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [touch of the sea](unknown/touch_of_the_sea); **Cost** 3,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -36709,7 +36709,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [glibness](unknown/glibness); **Cost** 3,200 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [glibness](unknown/glibness); **Cost** 3,200 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -37762,7 +37762,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [minor image](unknown/minor_image), [sound burst](unknown/sound_burst); **Cost** 3,750 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [minor image](unknown/minor_image), [sound burst](unknown/sound_burst); **Cost** 3,750 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -39315,7 +39315,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [animate objects](unknown/animate_objects), [fly](unknown/fly), [make whole](unknown/make_whole); **Cost** 4,900 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [animate objects](unknown/animate_objects), [fly](unknown/fly), [make whole](unknown/make_whole); **Cost** 4,900 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -40449,7 +40449,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [shield of fortification](unknown/shield_of_fortification); **Cost** 6,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [shield of fortification](unknown/shield_of_fortification); **Cost** 6,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -40874,7 +40874,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [sending](unknown/sending); **Cost** 6,100 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [sending](unknown/sending); **Cost** 6,100 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -41113,7 +41113,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [comprehend languages](unknown/comprehend_languages), [explosive runes](unknown/explosive_runes), creator must worship a demon lord; **Cost** 6,300 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [comprehend languages](unknown/comprehend_languages), [explosive runes](unknown/explosive_runes), creator must worship a demon lord; **Cost** 6,300 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -43700,11 +43700,11 @@
 			"",
 			"This telescope is adjustable as a full-round action, allowing magnifications anywhere from &times;2 to &times;250. The user gains a +5 competence bonus on Knowledge (geography) and Perception checks when using the device to study planets, stars, and other celestial bodies.",
 			"",
-			"As a full-round action, the user can press the two lenses together, compressing the device to a small assayer's lens small enough to occupy the eyes slot. In this form, the lens grants a +5 competence bonus on Appraise checks, Perception checks, and Survival checks to follow tracks. Once per week, after studying the possessions or tracks of a creature, the wearer may designate that creature as his quarry. This functions as the [ranger's quarry ability](unknown/ranger's_quarry_ability). If the wearer already has the quarry ability, the lens instead allows him to designate a creature as his quarry even if it is not one of his favored enemies.",
+			"As a full-round action, the user can press the two lenses together, compressing the device to a small assayer's lens small enough to occupy the eyes slot. In this form, the lens grants a +5 competence bonus on Appraise checks, Perception checks, and Survival checks to follow tracks. Once per week, after studying the possessions or tracks of a creature, the wearer may designate that creature as his quarry. This functions as the [ranger's quarry ability](class/ranger). If the wearer already has the quarry ability, the lens instead allows him to designate a creature as his quarry even if it is not one of his favored enemies.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [clairaudience/clairvoyance](unknown/clairaudience_clairvoyance), true; **Cost** 10,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [clairaudience/clairvoyance](unknown/clairaudience_clairvoyance), true; **Cost** 10,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -43760,7 +43760,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [clairvoyance/clairaudience](unknown/clairvoyance_clairaudience), access to obscure traditions and lore; **Cost** 10,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [clairvoyance/clairaudience](unknown/clairvoyance_clairaudience), access to obscure traditions and lore; **Cost** 10,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -45321,7 +45321,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [keen edge](unknown/keen_edge), [rage](unknown/rage); **Cost** 15,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [keen edge](unknown/keen_edge), [rage](unknown/rage); **Cost** 15,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -45580,7 +45580,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [magic jar](unknown/magic_jar), [permanency](unknown/permanency); **Cost** 16,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [magic jar](unknown/magic_jar), [permanency](unknown/permanency); **Cost** 16,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -47011,7 +47011,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [shadow walk](unknown/shadow_walk); **Cost** 24,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [shadow walk](unknown/shadow_walk); **Cost** 24,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -47482,7 +47482,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [deathwatch](unknown/deathwatch), [summon monster VIII](unknown/summon_monster_8); **Cost** 22,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [deathwatch](unknown/deathwatch), [summon monster VIII](unknown/summon_monster_8); **Cost** 22,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -48119,7 +48119,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [suggestion](unknown/suggestion); **Cost** 32,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [suggestion](unknown/suggestion); **Cost** 32,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -49102,7 +49102,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [disable construct](unknown/disable_construct), [lightning bolt](unknown/lightning_bolt); **Cost** 45,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [disable construct](unknown/disable_construct), [lightning bolt](unknown/lightning_bolt); **Cost** 45,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -49409,7 +49409,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [gate](unknown/gate), [haste](unknown/haste), [planar adaptation](unknown/planar_adaptation), creator must have at least 5 ranks in Knowledge (engineering); **Cost** 60,850 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [gate](unknown/gate), [haste](unknown/haste), [planar adaptation](unknown/planar_adaptation), creator must have at least 5 ranks in Knowledge (engineering); **Cost** 60,850 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -50908,7 +50908,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [expeditious retreat](unknown/expeditious_retreat); **Cost** 1,800 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [expeditious retreat](unknown/expeditious_retreat); **Cost** 1,800 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -51347,7 +51347,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [calm animals](unknown/calm_animals), [calm emotions](unknown/calm_emotions); **Cost** 3,250 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [calm animals](unknown/calm_animals), [calm emotions](unknown/calm_emotions); **Cost** 3,250 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -51498,7 +51498,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [speak with animals](unknown/speak_with_animals), [summon swarm](unknown/summon_swarm); **Cost** 4,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [speak with animals](unknown/speak_with_animals), [summon swarm](unknown/summon_swarm); **Cost** 4,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -51536,7 +51536,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [air walk](unknown/air_walk), [bull's strength](unknown/bull's_strength); **Cost** 4,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [air walk](unknown/air_walk), [bull's strength](unknown/bull's_strength); **Cost** 4,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -53457,7 +53457,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [status](unknown/status); **Cost** 375 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [status](unknown/status); **Cost** 375 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -53510,7 +53510,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [detect thoughts](unknown/detect_thoughts); **Cost** 500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [detect thoughts](unknown/detect_thoughts); **Cost** 500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -54261,7 +54261,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [death ward](unknown/death_ward); **Cost** 4,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [death ward](unknown/death_ward); **Cost** 4,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -55031,7 +55031,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](unknown/craft_wondrous_item), [haste](unknown/haste), [slow](unknown/slow), [time stop](unknown/time_stop); **Cost** 16,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [haste](unknown/haste), [slow](unknown/slow), [time stop](unknown/time_stop); **Cost** 16,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -55273,7 +55273,7 @@
 			"16th Level: Once per day, the wearer can use [find the path](unknown/find_the_path) as a spell-like ability.",
 			"",
 			"**Goal:** The wearer must travel 1,000 miles by foot.  ",
-			"**Reward:** Each morning the wearer can designate one type of terrain from the [ranger's list of favored terrain](unknown/ranger's_list_of_favored_terrain) as his favored terrain for the day. While in that terrain, he gains a  bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival checks. If he already has the favored terrain class feature for the chosen type of terrain, he instead increases his favored terrain bonuses for that terrain by 2."
+			"**Reward:** Each morning the wearer can designate one type of terrain from the [ranger's list of favored terrain](unknown/ranger_favored_terrain) as his favored terrain for the day. While in that terrain, he gains a  bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival checks. If he already has the favored terrain class feature for the chosen type of terrain, he instead increases his favored terrain bonuses for that terrain by 2."
 		],
 		"display": "magic/wondrous"
 	},
@@ -55801,7 +55801,7 @@
 			"Chomper has all of the magical abilities of a regular bag of devouring, along with the following additional powers. ",
 			"",
 			"- As a standard action, Chomper's possessor can swing the bag by its straps in an attempt to strike any single creature or unattended item within a 5-foot radius. Chomper (not the wielder) can then make a single bite attack against the target. This bite has a +14 attack bonus and deals 1d10+5 points of damage plus 2 points of bleed damage. This action does not provoke attacks of opportunity. Attacks made in this way are never modified by the wielder's abilities.",
-			"- When a non-demon is in possession of Chomper, the bag's cursed aura imparts a Ã¢â‚¬â€œ1 penalty on all of its wielder's attack rolls, saving throws, skill checks, and ability checks. If Chomper manages to gain dominance over a non-demon wielder through a personality conflict, it directs its bearer to seek out victims to feed to it.",
+			"- When a non-demon is in possession of Chomper, the bag's cursed aura imparts a -1 penalty on all of its wielder's attack rolls, saving throws, skill checks, and ability checks. If Chomper manages to gain dominance over a non-demon wielder through a personality conflict, it directs its bearer to seek out victims to feed to it.",
 			"",
 			"### Construction",
 			"",

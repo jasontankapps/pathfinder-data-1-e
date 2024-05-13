@@ -2407,7 +2407,7 @@
 			"",
 			"On Nirvana, other agathions respect bishops for their ability to think clearly, logically, and with the best interest of all parties in mind. Because of this, bishop agathions serve as Nirvana's trusted diplomatic liaisons. Bishops also have been known to carry vital messages between celestial beings and mortal heroes, who often see agathions through warped lenses. Far from being ashamed of their strange appearances, bishops consider their bodies to be among the most beautiful and versatile in all the planes-a fitting reward for a life well spent in meditation, martial mastery, and harmony with the seas. Anyone who suggests otherwise can count on incurring a bishop's ill will.",
 			"",
-			"Although primarily used as diplomats, messengers, and celestial ambassadors, bishops also excel in battle. With the power of Nirvana behind them, bishops' claws and nimble fighting style eliminate enemies who stand in the way of their missions. More martially inclined bishops often choose to wield quarterstaves, many of which are enchanted. Bishop agathions don't go looking for fights, but they intervene when they come across those imposing cruelty or evil on innocents. Bishops particularly abhor piracy and slavery. Legends speak of more than one unlucky pirate slave master who, ostensibly mad, spent his final days blubbering about the tentacle-beards that destroyed his ship and drowned his crew. No one takes these stories seriously except for the few who-ve become acquainted with bishops' complex ways.",
+			"Although primarily used as diplomats, messengers, and celestial ambassadors, bishops also excel in battle. With the power of Nirvana behind them, bishops' claws and nimble fighting style eliminate enemies who stand in the way of their missions. More martially inclined bishops often choose to wield quarterstaves, many of which are enchanted. Bishop agathions don't go looking for fights, but they intervene when they come across those imposing cruelty or evil on innocents. Bishops particularly abhor piracy and slavery. Legends speak of more than one unlucky pirate slave master who, ostensibly mad, spent his final days blubbering about the tentacle-beards that destroyed his ship and drowned his crew. No one takes these stories seriously except for the few who've become acquainted with bishops' complex ways.",
 			"",
 			"**Family:** Agathion(monster/family:agathion)",
 			"",
@@ -2772,7 +2772,7 @@
 			"",
 			"**Celestial Soldier (Sp)** A chelonidal's natural weapons, as well as any manufactured weapons it wields, are under the constant effects of [greater magic fang](unknown/greater_magic_fang) or [greater magic weapon](unknown/greater_magic_weapon) (as appropriate). The caster level of these effects is equal to the chelonidal's Hit Dice, including Hit Dice gained from class levels or other effects.",
 			"",
-			"**Lay on Hands (Su)** A chelonidal can use lay on hands as per a 9th-level [paladin](unknown/paladin). This ability cures fatigue and exhaustion in addition to damage, as though the chelonidal had the appropriate mercies.",
+			"**Lay on Hands (Su)** A chelonidal can use lay on hands as per a 9th-level [paladin](class/paladin). This ability cures fatigue and exhaustion in addition to damage, as though the chelonidal had the appropriate mercies.",
 			"",
 			"**None Shall Pass (Ex)** When making attacks of opportunity provoked by movement, a chelonidal adds its Charisma bonus to the attack roll. On a hit, the target immediately stops moving in its current square and can't move until the start of its next turn.",
 			"",
@@ -4097,7 +4097,7 @@
 			"",
 			"**CL** 15th; **Price** 160,000 gp",
 			"",
-			"**Requirements** [Craft Construct](unknown/craft_construct), [enervation](unknown/enervation), [magic jar](unknown/magic_jar), [unhallow](unknown/unhallow), willing or helpless humanoid sacrifice, creator must be caster level 15th; Skill Craft (armor) or Craft (sculpture) DC 24; **Cost** 87,500 gp"
+			"**Requirements** [Craft Construct](feat/craft_construct), [enervation](unknown/enervation), [magic jar](unknown/magic_jar), [unhallow](unknown/unhallow), willing or helpless humanoid sacrifice, creator must be caster level 15th; Skill Craft (armor) or Craft (sculpture) DC 24; **Cost** 87,500 gp"
 		],
 		"short_description": "This stony guardian has been sculpted in the shape of a grim, horned angel, and a crucified corpse has been affixed to its chest.",
 		"display": "monster"
@@ -11492,7 +11492,7 @@
 			"",
 			"**CL** 13th; **Price** 87,500 gp",
 			"",
-			"**Requirements** [Craft Construct](unknown/craft_construct), [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), [make whole](unknown/make_whole), [move earth](unknown/move_earth), creator must be caster level 13th; Skill Craft (armor) or Craft (weapons) DC 20; **Cost** 47,500 gp"
+			"**Requirements** [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), [make whole](unknown/make_whole), [move earth](unknown/move_earth), creator must be caster level 13th; Skill Craft (armor) or Craft (weapons) DC 20; **Cost** 47,500 gp"
 		],
 		"short_description": "This massive metallic biped stands on thick legs. A wide, serrated shovel serves as the brute's head, and iron pincers at the ends of its powerful arms snap open and shut.",
 		"display": "monster"
@@ -30270,7 +30270,7 @@
 			"",
 			"#### Description",
 			"",
-			"Cauldron blooms are immense, slow-moving subterranean plants that maintain their arcane metabolisms by consuming massive quantities of blood. They dwell in cold environs, typically along the migration routes of herd animals, and slowly teleport to new locations in search of food. Feeding cauldron blooms generally erupt from the ground in the midst of such herds. The animals- panicked cries are cut short when the terrified individuals wink out of existence, reappearing a moment later inside the cauldron bloom's otherworldly guts. Arcane winds within the cauldron bloom's stomach rapidly draw the blood from ingested prey, shred their bodies, and leave nothing behind. A particularly hungry cauldron bloom can systematically consume entire herds of animals, or sequester one individual-such as an unlucky giant or megafauna-inside its stomach. The prey's blood fuels the plant's magical physiology, casting flickering arcane light as it distributes throughout the cauldron bloom's body.",
+			"Cauldron blooms are immense, slow-moving subterranean plants that maintain their arcane metabolisms by consuming massive quantities of blood. They dwell in cold environs, typically along the migration routes of herd animals, and slowly teleport to new locations in search of food. Feeding cauldron blooms generally erupt from the ground in the midst of such herds. The animals' panicked cries are cut short when the terrified individuals wink out of existence, reappearing a moment later inside the cauldron bloom's otherworldly guts. Arcane winds within the cauldron bloom's stomach rapidly draw the blood from ingested prey, shred their bodies, and leave nothing behind. A particularly hungry cauldron bloom can systematically consume entire herds of animals, or sequester one individual-such as an unlucky giant or megafauna-inside its stomach. The prey's blood fuels the plant's magical physiology, casting flickering arcane light as it distributes throughout the cauldron bloom's body.",
 			"",
 			"Typically, cauldron blooms live for hundreds of years. Their bodies are around 15 feet in diameter and weigh upward of 80 tons.",
 			"",
@@ -32617,7 +32617,7 @@
 			"",
 			"Losing a Spirit Anchor: If a spirit anchor is destroyed or released, a chained spirit's benefits are reduced as appropriate: its AC is reduced by 2, its fast healing is reduced by 5, and it loses one of its chain attacks. If all of a chained spirit's spirit anchors are destroyed, it gains no profane bonus to AC, has no fast healing, has no chain attacks, can be harmed by positive energy, and loses its spectral sight. It does gain one benefit-when it has no spirit anchors, it is no longer restricted as much by its spectral bindings, and can move throughout the area in which it is bound (up to a radius of 1 mile) without being returned to its starting point at the end of a round. Each time a spirit anchor is destroyed or killed, the chained spirit loses its chain spirit ability for 24 hours.",
 			"",
-			"Spirit Anchor Effects: A creature that becomes a spirit anchor instantly regains any Charisma drained by the chained spirit to which it is tethered. It is also bound to the location it was at when it was reduced to 0 Charisma by the chained spirit. Spirit anchors typically cannot move farther than 100 feet from this spot, but in the cases of creatures that require wider mobility to fulfill their physical needs, a chained spirit can relax its grip, allowing them to range farther afield. However, the chained spirit can employ a compulsion similar to [geas/quest](unknown/geas_quest) at will, forcing such a spirit anchor to return to its anchor spot. A spirit anchor that ignores the compulsion takes 1d6 points of Charisma damage per day until it returns. The death of the spirit anchor, or the spells [dispel evil](unknown/dispel_evil), [dispel law](unknown/dispel_law), [freedom](unknown/freedom), [miracle](unknown/miracle), or [wish](unknown/wish), can release a spirit anchor. Beyond this restraint, a chained spirit holds no special control over its spirit anchors."
+			"Spirit Anchor Effects: A creature that becomes a spirit anchor instantly regains any Charisma drained by the chained spirit to which it is tethered. It is also bound to the location it was at when it was reduced to 0 Charisma by the chained spirit. Spirit anchors typically cannot move farther than 100 feet from this spot, but in the cases of creatures that require wider mobility to fulfill their physical needs, a chained spirit can relax its grip, allowing them to range farther afield. However, the chained spirit can employ a compulsion similar to [geas/quest](spell/geas_quest) at will, forcing such a spirit anchor to return to its anchor spot. A spirit anchor that ignores the compulsion takes 1d6 points of Charisma damage per day until it returns. The death of the spirit anchor, or the spells [dispel evil](unknown/dispel_evil), [dispel law](unknown/dispel_law), [freedom](unknown/freedom), [miracle](unknown/miracle), or [wish](unknown/wish), can release a spirit anchor. Beyond this restraint, a chained spirit holds no special control over its spirit anchors."
 		],
 		"short_description": "This humanoid figure's body fades into mist below the hips, while its upper, ghostly torso is bound in lengths of writhing chains.",
 		"display": "monster"
@@ -36411,7 +36411,7 @@
 			"",
 			"**CL** 12th; **Price** 9,250 gp",
 			"",
-			"**Requirements** [Craft Construct](unknown/craft_construct), [burning hands](unknown/burning_hands), [geas/quest](unknown/geas_quest), creator must be caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 5,000 gp"
+			"**Requirements** [Craft Construct](feat/craft_construct), [burning hands](unknown/burning_hands), [geas/quest](spell/geas_quest), creator must be caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 5,000 gp"
 		],
 		"short_description": "Haphazard in its creation, this mechanical creature has the shape of a goblin wielding a dogslicer.",
 		"display": "monster"
@@ -36678,7 +36678,7 @@
 			"",
 			"**CL** 12th; **Price** 40,250 gp",
 			"",
-			"**Requirements** [Craft Construct](unknown/craft_construct), [Exotic Weapon Proficiency (pistol)](unknown/exotic_weapon_proficiency), [haste](unknown/haste), [geas/quest](unknown/geas_quest), [slow](unknown/slow), creator must be caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 21,750 gp"
+			"**Requirements** [Craft Construct](feat/craft_construct), [Exotic Weapon Proficiency (pistol)](unknown/exotic_weapon_proficiency), [haste](unknown/haste), [geas/quest](spell/geas_quest), [slow](unknown/slow), creator must be caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 21,750 gp"
 		],
 		"short_description": "One of this slim construct's arms ends in a whirling clockwork pistol, and a crystalline hourglass fits snugly between its pectoral armor plates.",
 		"display": "monster"
@@ -37076,7 +37076,7 @@
 			"",
 			"**CL** 14th; **Price** 200,000 gp",
 			"",
-			"**Requirements** [Craft Construct](unknown/craft_construct), [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), [true seeing](unknown/true_seeing), creator must be at least caster level 12th; Skill Craft (clockwork) DC 25; **Cost** 109,000 gp"
+			"**Requirements** [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), [true seeing](unknown/true_seeing), creator must be at least caster level 12th; Skill Craft (clockwork) DC 25; **Cost** 109,000 gp"
 		],
 		"short_description": "Nestled in a massive spiraled armored shell, this clockwork creature has several dozen grasping tentacles surrounding its octopus-like beak.",
 		"display": "monster"
@@ -37174,7 +37174,7 @@
 			"",
 			"Clockwork overseers can compel even greater feats from their subordinates, though doing so requires direct contact between the constructs via the overseer's lash to convey an electrical charge. This electricity builds over time, accumulated by static energy discharges created by the movement of limbs and gears. Most clockwork creatures respond readily to this electrical goading, overriding their standard operating specifications based on the exact combination of current and voltage the overseer conveys. Clockwork overseers harness and exploit electricity in small amounts, but they're as vulnerable as other clockwork creatures to massive discharges-arguably more so, since such attacks can scramble an overseer's decision-making hardware and temporarily reduce it to a truly mindless state.",
 			"",
-			"Numerous cultures and machine schools have built clockwork overseers over the ages, emphasizing different martial techniques in the process. These variant clockwork overseers can grant a different combat feat-typically one for which they qualify-to their minions. What's more, these overseers sometimes represent the last record of otherwise extinct fighting styles; a creature with the [Craft Construct](unknown/craft_construct) feat or that succeeds at a DC 21 Craft (clockwork) or Knowledge (engineering) check can spend 8 hours deciphering an overseer's mechanical \"brain\" in order to decode the stored combat feat, using this new knowledge as the basis to learn the feat or teach it to others.",
+			"Numerous cultures and machine schools have built clockwork overseers over the ages, emphasizing different martial techniques in the process. These variant clockwork overseers can grant a different combat feat-typically one for which they qualify-to their minions. What's more, these overseers sometimes represent the last record of otherwise extinct fighting styles; a creature with the [Craft Construct](feat/craft_construct) feat or that succeeds at a DC 21 Craft (clockwork) or Knowledge (engineering) check can spend 8 hours deciphering an overseer's mechanical \"brain\" in order to decode the stored combat feat, using this new knowledge as the basis to learn the feat or teach it to others.",
 			"",
 			"### Habitat",
 			"",
@@ -37188,7 +37188,7 @@
 			"",
 			"**CL** 12th; **Price** 42,000 gp",
 			"",
-			"**Requirements** [Craft Construct](unknown/craft_construct), [geas/quest](unknown/geas_quest) and [haste](unknown/haste), creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 22,000 gp"
+			"**Requirements** [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest) and [haste](unknown/haste), creator must be at least caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 22,000 gp"
 		],
 		"short_description": "One arm of this six-limbed clockwork construct ends in a broad fist, and the other extends into an articulated metal lash.",
 		"display": "monster"
@@ -37278,7 +37278,7 @@
 			"",
 			"**CL** 12th; **Price** 95,000 gp",
 			"",
-			"**Requirements** [Craft Construct](unknown/craft_construct), [animate object](unknown/animate_object), [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), creator must be caster level 12th and be able to channel energy; Skill Craft (clockwork) DC 22; **Cost** 52,500 gp"
+			"**Requirements** [Craft Construct](feat/craft_construct), [animate object](unknown/animate_object), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), creator must be caster level 12th and be able to channel energy; Skill Craft (clockwork) DC 22; **Cost** 52,500 gp"
 		],
 		"short_description": "This four-armed clockwork construct has a glowing crystal globe as a head and a shining crystal set into its chest.",
 		"display": "monster"
@@ -37638,7 +37638,7 @@
 			"",
 			"**CL** 12th; **Price** 3,250 gp",
 			"",
-			"**Requirements** [Craft Construct](unknown/craft_construct), [geas/quest](unknown/geas_quest), [ghost sound](unknown/ghost_sound), [haste](unknown/haste), [heroism](unknown/heroism), [sleep](unknown/sleep), creator must be caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 1,750 gp"
+			"**Requirements** [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [ghost sound](unknown/ghost_sound), [haste](unknown/haste), [heroism](unknown/heroism), [sleep](unknown/sleep), creator must be caster level 12th; Skill Craft (clockwork) DC 20; **Cost** 1,750 gp"
 		],
 		"short_description": "This gilded mechanical bird produces melodious songs from its complex clockwork voice box.",
 		"display": "monster"
@@ -39235,7 +39235,7 @@
 			"",
 			"**Contagious Paralysis (Su)** A corbayrant's spines deliver a eldritch paralytic agent. A creature damaged by a corbayrant's spines or by its swallow whole attack must succeed at a DC 22 Fortitude save or be paralyzed for 1d4 minutes and sprout thorny barbs that can pass on the paralysis to others. A creature that touches a target paralyzed by a corbayrant's spines or strikes the paralyzed target with an unarmed strike or natural weapon takes 1d6+10 points of piercing damage and is also affected by the corbayrant's contagious paralysis (a DC 22 Fortitude save negates the contagious paralysis but not the damage). A creature affected by contagious paralysis can attempt a new saving throw each round at the end of its turn to end the effect. When the contagious paralysis ends, the barbs fall off harmlessly and dissolve into rotten splinters. The save DC is Charisma-based.",
 			"",
-			"**Plantlike (Ex)** Although they are magical beasts, corbayrants have many qualities common to plants. Corbayrants breathe and eat, but do not sleep. For the purposes of effects targeting creatures by type (such as a [ranger's favored enemy](unknown/ranger's_favored_enemy) and [bane](unknown/bane) weapons), corbayrants count as both magical beasts and plants.",
+			"**Plantlike (Ex)** Although they are magical beasts, corbayrants have many qualities common to plants. Corbayrants breathe and eat, but do not sleep. For the purposes of effects targeting creatures by type (such as a [ranger's favored enemy](class/ranger) and [bane](unknown/bane) weapons), corbayrants count as both magical beasts and plants.",
 			"",
 			"**Poison (Ex)** Sting-injury; save Fort DC 26; frequency 1/round for 6 rounds; effect 1d4 Con; cure 2 consecutive saves.",
 			"",
@@ -40085,7 +40085,7 @@
 			"",
 			"**Poison (Ex)** Injury-bite; save Fortitude DC 19; frequency 1/ minute for 10 minutes; effect 1d3 Wis damage; cure 1 save. The DC is Constitution-based.",
 			"",
-			"**Spells (Sp)** A mix couatl casts spells as a 7th-level [druid](unknown/druid). Druid spells are considered arcane spells for a mix couatl, meaning that it doesn't need a divine focus to cast them.",
+			"**Spells (Sp)** A mix couatl casts spells as a 7th-level [druid](class/druid). Druid spells are considered arcane spells for a mix couatl, meaning that it doesn't need a divine focus to cast them.",
 			"",
 			"**Star Child (Ex)** A mix couatl gains power from the night sky, granting it a +20 bonus on Stealth checks to hide against the darkness of the sky. In addition, its fly speed increases to 80 feet (perfect) at night.",
 			"",
@@ -40195,7 +40195,7 @@
 			"",
 			"**Poison (Ex)** Injury-bite; save Fort DC 25; frequency 1/minute for 10 minutes; effect 1d6 Str; cure 2 consecutive saves.",
 			"",
-			"**Spells (Sp)** A tletli casts spells as a 12th-level sorcerer, and can cast spells from the [inquisitor](unknown/inquisitor) and [paladin](unknown/paladin) spell lists as well as those normally available to a [sorcerer](unknown/sorcerer). These divine spells are considered arcane spells for the tletli, meaning that the creature does not need a divine focus to cast them.",
+			"**Spells (Sp)** A tletli casts spells as a 12th-level sorcerer, and can cast spells from the [inquisitor](unknown/inquisitor_spell_list) and [paladin](unknown/paladin_spell_list) spell lists as well as those normally available to a [sorcerer](unknown/sorcerer_spell_list). These divine spells are considered arcane spells for the tletli, meaning that the creature does not need a divine focus to cast them.",
 			"",
 			"**Stoke Flames (Ex)** Once per round when a tletli attacks with its wings, it can cause areas of active fire within 30 feet to spread as a free action. An affected 5-foot square of fire spreads to one adjacent square that is not on fire, possibly burning objects or creatures in that space. The tletli determines which adjacent squares are set on fire.",
 			"",

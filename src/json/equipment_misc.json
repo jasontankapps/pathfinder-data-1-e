@@ -9777,12 +9777,12 @@
 		"cost": 100,
 		"weight": 8,
 		"description": [
-			"## Esquire attachÃƒÂ© case",
+			"## Esquire attach&eacute; case",
 			"**Source** [Ultimate Intrigue pg. 233](source/ultimate_intrigue)  ",
 			"**Price** 100 gp; **Weight** 8 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
-			"An esquire attachÃƒÂ© case contains the materials and references for drafting agreements and treaties. Carried by ambassadors and diplomats, these kits hold masterwork writing implements, fine parchments, special inks, and references on the legal languages of specific nations or regions. When purchasing a kit, you must select a nation or region. An esquire attachÃƒÂ© case grants you a +2 circumstance bonus when used to draft diplomatic and legal documents in the chosen nation or region. These are typically Profession (barrister) checks, but may include other checks related to creating documents, such as Knowledge (local), Knowledge (nobility), or Linguistics."
+			"An esquire attach&eacute; case contains the materials and references for drafting agreements and treaties. Carried by ambassadors and diplomats, these kits hold masterwork writing implements, fine parchments, special inks, and references on the legal languages of specific nations or regions. When purchasing a kit, you must select a nation or region. An esquire attach&eacute; case grants you a +2 circumstance bonus when used to draft diplomatic and legal documents in the chosen nation or region. These are typically Profession (barrister) checks, but may include other checks related to creating documents, such as Knowledge (local), Knowledge (nobility), or Linguistics."
 		],
 		"display": "equipmisc"
 	},
@@ -19949,7 +19949,7 @@
 		"description": [
 			"## Owl",
 			"**Source** [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
-			"**Price** 20 gp (common), 20 gp (Verduran); **Weight** 1â€“3 lbs. (common), 3 lbs. (Verduran)",
+			"**Price** 20 gp (common), 20 gp (Verduran); **Weight** 1-3 lbs. (common), 3 lbs. (Verduran)",
 			"",
 			"These Tiny birds of prey are mainly nocturnal and are known for their keen eyes and near-silent flight. Owls eat small animals and insects, and can be found in nearly any environment. Some farmers create owl homes near fields and barns to control rodent populations. The smartest owls make excellent familiars. More information on owls can be found in the Bestiary."
 		],
@@ -29235,8 +29235,7 @@
 			"",
 			"Consisting of a small wooden frame with inward-pointing barbed spikes, this trap is placed in a shallow pit just deep enough for a Medium-sized character's lower leg. When someone steps in the square, the boot catches and holds her leg. The target takes damage if she tries to move or if a Disable Device attempt to free her fails by 5 or more.",
 			"",
-			"Trespasser -s Boot - CR 1/2",
-			"",
+			"**Trespasser's Boot - CR 1/2**  ",
 			"**Type** mechanical; Perception DC 20; Disable Device DC 20  ",
 			"**Trigger** location; Reset manual  ",
 			"**Effect** pit spikes (Atk +10 melee, 2d4); spikes hold the target in place; the trap can be escaped with a DC 20 Disable Device check, DC 20 Escape Artist check, or DC 24 Strength check"

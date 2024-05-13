@@ -2325,7 +2325,7 @@
 			"",
 			"**Spell Resistance (Ex):** As dragons grow older, they become more resistant to spells and spell-like abilities, as indicated in the dragon descriptions. A dragon's SR is equal to 11 + its CR.",
 			"",
-			"**Spells:** A planar dragon knows and casts spells as per an [oracle](unknown/oracle) of the level indicated in its specific description. Its caster level depends on its age, as given for each type."
+			"**Spells:** A planar dragon knows and casts spells as per an [oracle](class/oracle) of the level indicated in its specific description. Its caster level depends on its age, as given for each type."
 		],
 		"display": "monsterfamily"
 	},
@@ -4291,7 +4291,7 @@
 			"",
 			"**Source** [Bestiary 5](source/bestiary_5)",
 			"",
-			"For most creatures, the path to self-perfection ends as all mortal pursuits do: in death. For a few, however, the path to self-perfection ends with fiery rebirth in the heart of the Positive Energy Plane, where the souls of those not yet born fuse with the potential of those who-ve learned from lifetimes of reincarnation to form wholly new entities-the manasaputras. These outsiders continue their path to perfection by striving to achieve oneness with the universe, further evolving and discovering new cosmic truths, as well as guiding mortals on their paths to similar ends.",
+			"For most creatures, the path to self-perfection ends as all mortal pursuits do: in death. For a few, however, the path to self-perfection ends with fiery rebirth in the heart of the Positive Energy Plane, where the souls of those not yet born fuse with the potential of those who've learned from lifetimes of reincarnation to form wholly new entities-the manasaputras. These outsiders continue their path to perfection by striving to achieve oneness with the universe, further evolving and discovering new cosmic truths, as well as guiding mortals on their paths to similar ends.",
 			"",
 			"Manasaputras are benevolent and compassionate entities that follow strict practices of contemplation, introspection, and meditation. Others often view their directness and disciplined nature as inflexible, yet in truth, manasaputras are accepting when presented with new ideas and challenges-adapting to accommodate these changes can simply take hundreds or thousands of years as the manasaputras gradually evaluate and reevaluate the slightest adjustment to their personal beliefs or ideals. The patience of manasaputras is legendary, and can make action seem like inaction from a mortal's perspective of time.",
 			"",
@@ -5397,7 +5397,7 @@
 			"",
 			"**Living Battery (Ex)** As an immediate action, a wysp can kill itself to cause a creature benefiting from its resonance to heal 2 hit points for each of that creature's HD. If the wysp uses this ability, its death can't be prevented, and its life can't be restored by any effect less than [true resurrection](spell/true_resurrection), [miracle](unknown/miracle), or [wish](unknown/wish), even if such an effect can normally revive an outsider.",
 			"",
-			"**Resonance (Ex)** A wysp's natural resonance strengthens the power of its element. The wysp grants a +2 competence bonus on attack rolls and damage rolls to all creatures within 30 feet with an elemental subtype that matches the wysp's, and to the DCs of all racial spell-like, supernatural, and extraordinary abilities of such creatures (as usual, this does not include creatures assuming an elemental form). [Kineticists](unknown/kineticists) within 30 feet who share the wysp's element gain a +1 competence bonus on attack rolls and damage rolls. The wysp's statistics already include these bonuses.",
+			"**Resonance (Ex)** A wysp's natural resonance strengthens the power of its element. The wysp grants a +2 competence bonus on attack rolls and damage rolls to all creatures within 30 feet with an elemental subtype that matches the wysp's, and to the DCs of all racial spell-like, supernatural, and extraordinary abilities of such creatures (as usual, this does not include creatures assuming an elemental form). [Kineticists](class/kineticist) within 30 feet who share the wysp's element gain a +1 competence bonus on attack rolls and damage rolls. The wysp's statistics already include these bonuses.",
 			"",
 			"**Servitor (Ex)** A wysp is a natural servitor. When it uses the aid another action to assist a creature benefiting from its resonance, the wisp can grant that creature a +4 bonus instead of +2. No other effect can increase this bonus beyond +4."
 		],

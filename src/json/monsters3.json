@@ -421,7 +421,7 @@
 			"",
 			"#### Description",
 			"",
-			"\"Smarter than my own children,\" is the common refrain from those nobles who-ve pitted their hunting skills against the fading fox. Agile, alert, and clever, these handsome beasts find few traps or enclosures they can't escape-and few gardens or larders they can't enter. To aristocratic hunters, they represent the ultimate quarry to track, leaving no footprints, running confusing trails, and easily vanishing from sight, but to the common people of western Taldor, fading foxes have become a surprisingly common and persistent pests they have neither the ability nor the permission to trap."
+			"\"Smarter than my own children,\" is the common refrain from those nobles who've pitted their hunting skills against the fading fox. Agile, alert, and clever, these handsome beasts find few traps or enclosures they can't escape-and few gardens or larders they can't enter. To aristocratic hunters, they represent the ultimate quarry to track, leaving no footprints, running confusing trails, and easily vanishing from sight, but to the common people of western Taldor, fading foxes have become a surprisingly common and persistent pests they have neither the ability nor the permission to trap."
 		],
 		"short_description": "This regal fox's coat shifts subtly between silver, red, and dull brown as it walks.",
 		"display": "monster"
@@ -25352,7 +25352,7 @@
 			"",
 			"**CL** 16th; **Price** 209,000 gp",
 			"",
-			"**Requirements** [Craft Construct](unknown/craft_construct), [create greater undead](unknown/create_greater_undead), [form of the dragon I](unknown/form_of_the_dragon_1), [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), creator must be caster level 16th; Skill Craft (leather) or Heal DC 21; **Cost** 109,000 gp"
+			"**Requirements** [Craft Construct](feat/craft_construct), [create greater undead](unknown/create_greater_undead), [form of the dragon I](unknown/form_of_the_dragon_1), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), creator must be caster level 16th; Skill Craft (leather) or Heal DC 21; **Cost** 109,000 gp"
 		],
 		"short_description": "This massive, hunched monstrosity has a hide that appears to be a mix of reptilian scales of various colors.",
 		"display": "monster"
@@ -25993,7 +25993,7 @@
 			"",
 			"**CL** 16th; **Price** 300,000 gp",
 			"",
-			"**Requirements** [Craft Construct](unknown/craft_construct), [air walk](unknown/air_walk), [enervation](unknown/enervation), [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), creator must be caster level 16th; Skill Craft (armor) or Craft (weapons) DC 26; **Cost** 195,000 gp"
+			"**Requirements** [Craft Construct](feat/craft_construct), [air walk](unknown/air_walk), [enervation](unknown/enervation), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), creator must be caster level 16th; Skill Craft (armor) or Craft (weapons) DC 26; **Cost** 195,000 gp"
 		],
 		"short_description": "This hulking figure shines with a metallic luster as a heavy yellow gas flows from the creature's back.",
 		"display": "monster"
@@ -26097,7 +26097,7 @@
 			"",
 			"**CL** 18th; **Price** 220,000 gp",
 			"",
-			"**Requirements** [Craft Construct](unknown/craft_construct), [Craft Wondrous Item](unknown/craft_wondrous_item), [geas/ quest](unknown/geas__quest), [wish](unknown/wish), creator must be at least caster level 18th; Skill Craft (armor) DC 24, Craft (jewelry) DC 29; **Cost** 145,000 gp"
+			"**Requirements** [Craft Construct](feat/craft_construct), [Craft Wondrous Item](feat/craft_wondrous_item), [geas/quest](spell/geas_quest), [wish](unknown/wish), creator must be at least caster level 18th; Skill Craft (armor) DC 24, Craft (jewelry) DC 29; **Cost** 145,000 gp"
 		],
 		"short_description": "This four-armed metal construct has a roughly humanoid shape, with the obvious exception of a missing head. Veins of brass overlay a body of meshed platinum and silver, with intricate circular grooves visible above, below, and between its twin sets of arms.",
 		"display": "monster"
@@ -27420,7 +27420,7 @@
 			"",
 			"**CL** 12th; **Price** 53,500 gp",
 			"",
-			"**Requirements** [Craft Construct](unknown/craft_construct), [geas/quest](unknown/geas_quest), [limited wish](unknown/limited_wish), [move earth](unknown/move_earth), creator must be caster level 12th; Skill Craft (stonemasonry) DC 20; **Cost** 28,500 gp"
+			"**Requirements** [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), [move earth](unknown/move_earth), creator must be caster level 12th; Skill Craft (stonemasonry) DC 20; **Cost** 28,500 gp"
 		],
 		"short_description": "This towering creature appears to be made entirely of sand, with pockets of soft earth and rock reinforcing its tall, humanoid form.",
 		"display": "monster"
@@ -33648,7 +33648,7 @@
 			"",
 			"A heart thief follows its prey from afar, harassing its targets for days or even weeks at a time. Only once its quarry is exhausted from unprovoked animal attacks and waylaid by snares and traps will a heart thief make itself known, attacking with a company of feral beasts. Lone hunters slain by a heart thief often rise as [baykoks](unknown/baykoks) after enduring painful torments.",
 			"",
-			"Those who manage to flee are fortunate indeed, for those who remain are subjected to the heart thief -s curious and horrific practice of harvesting organs from sentient creatures. What heart thieves do with these macabre collections remains a mystery, but it's agreed that they are not used for consumption, for the most prolific heart thieves carry multiple sacks, each stuffed to bursting with rotting hearts."
+			"Those who manage to flee are fortunate indeed, for those who remain are subjected to the heart thief's curious and horrific practice of harvesting organs from sentient creatures. What heart thieves do with these macabre collections remains a mystery, but it's agreed that they are not used for consumption, for the most prolific heart thieves carry multiple sacks, each stuffed to bursting with rotting hearts."
 		],
 		"short_description": "Dozens of antlers crown this slender biped's masked head. Its wicked claws clutch a bloodstained sack.",
 		"display": "monster"

@@ -3067,15 +3067,15 @@
 			"",
 			"**Source**  [Armor Master's Handbook pg. 9](source/armor_master's_handbook)",
 			"",
-			"These armor tricks are most common among the various Hellknight orders, though their secrets have spread to other organizations and fighter schools. Such armor tricks utilize the mass and heft of heavy armor, and donâ€™t function when youâ€™re wearing heavy armor that uses magic or materials to be treated as medium armor for any purpose, unless the heavy armor trick says otherwise.",
+			"These armor tricks are most common among the various Hellknight orders, though their secrets have spread to other organizations and fighter schools. Such armor tricks utilize the mass and heft of heavy armor, and don't function when you're wearing heavy armor that uses magic or materials to be treated as medium armor for any purpose, unless the heavy armor trick says otherwise.",
 			"",
-			"*Blade among the Folds* (Sleight of Hand 3 ranks): You are adept at concealing small weapons in your armor. While wearing heavy armor, you gain a +2 bonus on Sleight of Hand checks to conceal a light melee weapon or an easily concealed ranged weapon, such as a dart, sling, or hand crossbow, within your armor. In addition, a searcher doesnâ€™t gain the usual +4 bonus on Perception checks to find the hidden weapon as long as you are wearing your armor, even if the searcher frisks you. This trick functions even in heavy armor that uses magic or materials to be treated as medium armor.",
+			"*Blade among the Folds* (Sleight of Hand 3 ranks): You are adept at concealing small weapons in your armor. While wearing heavy armor, you gain a +2 bonus on Sleight of Hand checks to conceal a light melee weapon or an easily concealed ranged weapon, such as a dart, sling, or hand crossbow, within your armor. In addition, a searcher doesn't gain the usual +4 bonus on Perception checks to find the hidden weapon as long as you are wearing your armor, even if the searcher frisks you. This trick functions even in heavy armor that uses magic or materials to be treated as medium armor.",
 			"",
 			"*Protected Limbs* (Combat Expertise): Whenever you attempt a disarm, grapple, sunder, or trip combat maneuver check, you gain a +4 bonus to your AC against any attack of opportunity you provoke as a result of attempting the combat maneuver check, and to your CMD against any combat maneuver your foe attempts against you before the beginning of your next turn.",
 			"",
 			"*Shrug It Off* (Great Fortitude): Once per day as an immediate action, when you are hit by a confirmed critical hit or sneak attack, you can direct the blow to the thickest section of your armor to lessen the damage dealt. This reduces the attack to dealing its minimum damage, though it remains a successful critical hit or sneak attack (the minimum damage calculated includes all additional dice for the critical hit or sneak attack, and any abilities that apply due to it being a critical hit or sneak attack function normally). You can use this ability a second time each day when your base attack bonus reaches +4, and an additional time per day for every 4 points of bonus you accrue thereafter.",
 			"",
-			"*Steel-Plated Smasher* (Power Attack): You gain a bonus equal to 1/4 of your armorâ€™s armor check penalty (not including any reduction to the armor check penalty from class features or feats) on Strength checks to break doors and objects with less hardness than your armor. When your base attack bonus reaches +8, this bonus increases to 1/2 your armorâ€™s armor check penalty. When your base attack bonus reaches +16, this bonus increases to equal your armorâ€™s full armor check penalty.",
+			"*Steel-Plated Smasher* (Power Attack): You gain a bonus equal to 1/4 of your armor's armor check penalty (not including any reduction to the armor check penalty from class features or feats) on Strength checks to break doors and objects with less hardness than your armor. When your base attack bonus reaches +8, this bonus increases to 1/2 your armor's armor check penalty. When your base attack bonus reaches +16, this bonus increases to equal your armor's full armor check penalty.",
 			"",
 			"**Light Armor Tricks**",
 			"",
@@ -3229,7 +3229,7 @@
 			"| 9 | You have heard of the fabled wardstones that quarantine the demonic incursion stemming from the Worldwound, and you seek to claim one of these magical menhirs for your own purposes (page 301). |",
 			"| 10 | The artifacts of ancient Azlant have long piqued your interest, and you are determined to find some of these relics for yourself, even if it means traveling to the sunken continent itself (page 12). |",
 			"| 11 | You know that the elves used the power of the socalled Sovyrian Stone to accomplish a mass exodus from Golarion to their homeland in Sovyrian, but you seek to find this mysterious artifact to realize its powers for yourself (page 94). |",
-			"| 12 | The elves of the Mordant Spire claim to be the true inheritors of the Azlanti legacy, including that peoples- famous artifacts-an assertion with which you are at odds (page 181). |"
+			"| 12 | The elves of the Mordant Spire claim to be the true inheritors of the Azlanti legacy, including that people's famous artifacts-an assertion with which you are at odds (page 181). |"
 		],
 		"short_description": "Coax more out of your magical items",
 		"display": "feat"
@@ -7611,7 +7611,7 @@
 			"When helping an ally grapple, you can damage the target.  ",
 			"**Prerequisites:** Half-orc or orc.  ",
 			"**Benefit:** When you and an ally with this feat have grappled the same creature, you may attempt to damage the opponent on your turn (whether you were the one who first initiated the grapple or were assisting your ally in doing so). You and the ally are treated as aiding each other in the grapple (+2 bonus on your grapple combat maneuver) as long as you both decide to maintain the grapple.  ",
-			"**Normal:** When multiple creatures grapple one target, the creature that first initiates the grapple is the only one that makes a check to damage a grappled opponent, with a +2 bonus for each creature that assists the grapple using the Aid Another action."
+			"**Normal:** When multiple creatures grapple one target, the creature that first initiates the grapple is the only one that makes a check to damage a grappled opponent, with a +2 bonus for each creature that assists the grapple using the [Aid Another](rule/aid_another_2) action."
 		],
 		"short_description": "Help an ally grapple a creature",
 		"display": "feat"
@@ -14184,7 +14184,7 @@
 			"",
 			"Your love forces you to endure the harshest of endeavors, despite the fact that most people would view your romance as madness.  ",
 			"**Prerequisites:** You must have a romantic interest who has fallen to some dark influence and rejects you out of shame or fear of newfound capabilities, or must have the Bad Romance or Temptation background.  ",
-			"**Benefit:** You are well versed in a dark society's way of thinking and in weathering abuse. Select a form of corruption that your lover fell to or willingly embraced: evil divine casters, evil arcane casters, undead creatures, or humanoid creatures with the shapeshifter subtype. You gain a +2 bonus on Diplomacy and Sense Motive checks when dealing with such creatures, and a +2 bonus on saving throws to resist any effects that would spread their corruption to you (such as a vampire's create spawn ability or a werewolf -s curse of lycanthropy). Once per day, when you would normally be reduced below 0 hit points by an attack from such a creature, you instead immediately gain a number of temporary hit points equal to half your character level.  ",
+			"**Benefit:** You are well versed in a dark society's way of thinking and in weathering abuse. Select a form of corruption that your lover fell to or willingly embraced: evil divine casters, evil arcane casters, undead creatures, or humanoid creatures with the shapeshifter subtype. You gain a +2 bonus on Diplomacy and Sense Motive checks when dealing with such creatures, and a +2 bonus on saving throws to resist any effects that would spread their corruption to you (such as a vampire's create spawn ability or a werewolf's curse of lycanthropy). Once per day, when you would normally be reduced below 0 hit points by an attack from such a creature, you instead immediately gain a number of temporary hit points equal to half your character level.  ",
 			"**Goal:** Find a way to be with your lover in a permanent fashion, either by persuading your lover to reject the influence of evil or by willingly embracing the same corruption.  ",
 			"**Completion Benefit:** You no longer suffer abuse from those with whom your lover associates, and instead command a measure of their respect. You gain a +2 bonus on Intimidate checks against members of your chosen form of corruption. If you have 10 or more ranks in Intimidate, this bonus increases to +4. When you would normally be reduced below 0 hit points by an attack from such a source, you instead immediately gain a number of temporary hit points equal to your character level."
 		],
@@ -22936,7 +22936,7 @@
 			"",
 			"You're always ready to lend your partner a hand.  ",
 			"**Prerequisites:** [Bonded Mind](feat/bonded_mind).  ",
-			"**Benefit:** When you successfully use the Aid Another action to assist an ally's skill check, and the ally also has this feat, the bonus is +4 instead of +2."
+			"**Benefit:** When you successfully use the [Aid Another](rule/aid_another) action to assist an ally's skill check, and the ally also has this feat, the bonus is +4 instead of +2."
 		],
 		"short_description": "Aid Another increases to +4",
 		"display": "feat"
@@ -26062,7 +26062,7 @@
 			"",
 			"Monkey: The animal companion's Climb bonus increases to +12.",
 			"",
-			"Mouse: The animal companion gains Improved Uncanny Dodge, as a [rogue](unknown/rogue) of its level.",
+			"Mouse: The animal companion gains Improved Uncanny Dodge, as a [rogue](class/rogue) of its level.",
 			"",
 			"Owl: The animal companion's Stealth bonus increases to +12.",
 			"",
@@ -41848,7 +41848,7 @@
 			"Your crafting skill and the secret knowledge of your people allows you to create new wyrwoods.  ",
 			"**Prerequisites:** [Craft Construct](feat/craft_construct), [Leadership](feat/leadership).",
 			"",
-			"By completing a unique ritual, you can create a wyrwood. While you can use any Small wooden construct to create the base of a wyrwood, infusing it with life and consciousness requires a specific process. The process requires a flawless ioun stone worth at least 10,000 gp. For the ritual to succeed, you must spend 1 month in complete isolation with the construct that will become a wyrwood. Each week, you must succeed at a DC 30 Craft (carpentry) or Craft (sculpture) check. Failure requires you to start again, although the materials can be reused. Over this time, the construct reshapes itself around the ioun stone until it finds the form it will take permanentlyâ€” thus even non-humanoid constructs become humanoid as they become wyrwoods. While wyrwoods are born as fully formed adults, they lack any skill or training, so they have only 1 level in the commoner class."
+			"By completing a unique ritual, you can create a wyrwood. While you can use any Small wooden construct to create the base of a wyrwood, infusing it with life and consciousness requires a specific process. The process requires a flawless ioun stone worth at least 10,000 gp. For the ritual to succeed, you must spend 1 month in complete isolation with the construct that will become a wyrwood. Each week, you must succeed at a DC 30 Craft (carpentry) or Craft (sculpture) check. Failure requires you to start again, although the materials can be reused. Over this time, the construct reshapes itself around the ioun stone until it finds the form it will take permanently&mdash; thus even non-humanoid constructs become humanoid as they become wyrwoods. While wyrwoods are born as fully formed adults, they lack any skill or training, so they have only 1 level in the commoner class."
 		],
 		"short_description": "Create a new wyrwood from an ioun stone",
 		"display": "feat"
@@ -43043,7 +43043,7 @@
 			"",
 			"*Defensive Disk* (Fly 3 ranks, Shield Proficiency): While riding atop your floating disk with at least one hand free, you can spend a move action to grip the disk by its edge, tilt it, and use it to deflect blows. Until the beginning of your next turn, your floating disk grants you the benefits of the spell shield. If you are already under the effects of the shield spell from another source, this effect instead increases the spell's shield bonus by 1 until the beginning of your next turn.",
 			"",
-			"*Disk Rider* (Fly 3 ranks): You can ride atop any floating disk you create, so long as it has the capacity to support your weight. This grants you a fly speed of 30 feet (average), but the disk cannot move itself or you more than 5 feet above the ground at any time. If you are on a location within the Astral Planeâ€”including Yulgamot itselfâ€”the disk can instead fly to any height, and your fly speed while standing on it increases to 40 feet (good). When you cast floating disk, you can step onto the disk in your space as part of the action required to cast the spell.",
+			"*Disk Rider* (Fly 3 ranks): You can ride atop any floating disk you create, so long as it has the capacity to support your weight. This grants you a fly speed of 30 feet (average), but the disk cannot move itself or you more than 5 feet above the ground at any time. If you are on a location within the Astral Plane&mdash;including Yulgamot itself&mdash;the disk can instead fly to any height, and your fly speed while standing on it increases to 40 feet (good). When you cast floating disk, you can step onto the disk in your space as part of the action required to cast the spell.",
 			"",
 			"*Drifting Defense* (Fly 6 ranks, Mobility, Shield Proficiency): Whenever you move at least 10 feet during your turn, you can activate the defensive disk trick as a free action.",
 			"",
@@ -47873,7 +47873,7 @@
 			"",
 			"Kastner: Your stalwart family defines itself by opposing your devil-worshiping Chelish cousins, a grudge that inspired some of Taldor's greatest healers, priests, and negotiators. You gain one additional use per day of channel energy, lay on hands, or mesmerist tricks, or 3 additional rounds of bardic music per day. You gain only one of these benefits, even if you later acquire a second class that provides one of the other class features listed.",
 			"",
-			"Lotheed: Your family ranks include the greatest wizards and arcane scholars in Taldor, and schooling in some of the most comprehensive arcane libraries in the Inner Sea was your birthright. If your Intelligence is 11 or higher, you gain the following spell-like abilities: 1/dayâ€”dancing lights, prestidigitation, read magic, unseen servant. The caster level for these effects is equal to one-half your class level.",
+			"Lotheed: Your family ranks include the greatest wizards and arcane scholars in Taldor, and schooling in some of the most comprehensive arcane libraries in the Inner Sea was your birthright. If your Intelligence is 11 or higher, you gain the following spell-like abilities: 1/day&mdash;dancing lights, prestidigitation, read magic, unseen servant. The caster level for these effects is equal to one-half your class level.",
 			"",
 			"Merosett: The cunning members of your large family, a longtime fixture in Oppara's bureaucracy, specialize in tracking lineages and sidestepping red tape. You gain a +5 bonus on Bluff checks to send secret messages and Sense Motive checks to discern secret messages. You halve the time required to search through archives, navigate government offices, review contracts, or otherwise work with the complex bureaucracies your family has mastered for generations.",
 			"",
@@ -49092,7 +49092,7 @@
 			"**Source**  [Heroes of Golarion pg. 9](source/heroes_of_golarion)",
 			"",
 			"Your painful stare overwhelms your foe's mind.  ",
-			"**Prerequisites:** [Mesmerist](unknown/mesmerist) level 11th, painful stare class feature.  ",
+			"**Prerequisites:** [Mesmerist](class/mesmerist) level 11th, painful stare class feature.  ",
 			"**Benefit:** Whenever you use your painful stare, the target must succeed at a Will saving throw (DC = 10 + half your mesmerist level + your Charisma modifier) or become confused for 1 round. Whether or not the save is successful, a creature cannot be affected by this ability again for 24 hours."
 		],
 		"short_description": "Your painful stare can confuse your target",
@@ -54282,7 +54282,7 @@
 			"**Source**  [Wilderness Origins pg. 9](source/wilderness_origins)",
 			"",
 			"Your claws cause bleeding wounds.  ",
-			"**Prerequisites:** Base attack bonus +8, [shifter](unknown/shifter), wild shape class feature.  ",
+			"**Prerequisites:** Base attack bonus +8, [shifter](class/shifter), wild shape class feature.  ",
 			"**Benefit:** Whenever you deal piercing or slashing damage with your primary natural weapons, your opponent takes 1d6 points of bleed damage at the start of his turn each round, in addition to the damage dealt by the attack. Bleed damage can be stopped with a successful DC 15 Heal skill check or any magical healing."
 		],
 		"short_description": "Inflict bleed damage with your claws",
@@ -66379,7 +66379,7 @@
 			"**Source**  [Ultimate Intrigue pg. 93](source/ultimate_intrigue)",
 			"",
 			"You use your knowledge about the target to bypass its resistances and damage reduction.  ",
-			"**Benefit:** When casting a studied spell, designate one target affected by the spell. Attempt an appropriate Knowledge check based on that target's creature type as you cast the spell. The DC for this check is equal to 20 + the creature's CR based on its race and not including any class levels or template (a creature that is defined by class levels has an effective CR of 0 for this ability). If you succeed, your studied spell ignores any energy resistance or damage reduction the target has because of its race as well as any bonuses on saving throws against the spell granted by the target's race (such as the bonus from a dwarf -s hardy ability or a halfling's halfling luck ability). Your studied spell doesn't ignore energy resistance, damage reduction, or saving throw bonuses granted by other spells and effects. If you fail the Knowledge check, the spell still has its normal effects. A studied spell uses up a spell slot 2 levels higher than the spell's actual level."
+			"**Benefit:** When casting a studied spell, designate one target affected by the spell. Attempt an appropriate Knowledge check based on that target's creature type as you cast the spell. The DC for this check is equal to 20 + the creature's CR based on its race and not including any class levels or template (a creature that is defined by class levels has an effective CR of 0 for this ability). If you succeed, your studied spell ignores any energy resistance or damage reduction the target has because of its race as well as any bonuses on saving throws against the spell granted by the target's race (such as the bonus from a dwarf's hardy ability or a halfling's halfling luck ability). Your studied spell doesn't ignore energy resistance, damage reduction, or saving throw bonuses granted by other spells and effects. If you fail the Knowledge check, the spell still has its normal effects. A studied spell uses up a spell slot 2 levels higher than the spell's actual level."
 		],
 		"short_description": "Spell uses Knowledge to bypass racial resistances",
 		"display": "feat"

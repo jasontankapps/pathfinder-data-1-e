@@ -58,7 +58,7 @@
 			"",
 			"**Order Abilities:** An order of the beast cavalier gains the following abilities as he increases in level.",
 			"",
-			"**Wild Empathy (Ex):** At 2nd level, the cavalier can improve the attitude of an animal. This ability functions as the [druid ability of the same name](class/druid_ability_of_the_same_name). The cavalier uses his level as his effective druid level when using this ability.",
+			"**Wild Empathy (Ex):** At 2nd level, the cavalier can improve the attitude of an animal. This ability functions as the [druid ability of the same name](class/druid). The cavalier uses his level as his effective druid level when using this ability.",
 			"",
 			"**Wild Mount Shape (Su):** At 8th level, an order of the of the beast cavalier gains the ability to turn his mount into a different Medium or Large animal and back again once per day. His options for new forms include all creatures with the animal type. This ability functions as [beast shape II](spell/beast_shape_2), except as noted here. The effect lasts for 1 hour per cavalier level, or until the cavalier chooses to change his mount back. Changing the mount's form (to a different animal or back to normal) requires the cavalier to touch his mount as a standard action that does not provoke an attack of opportunity. The form chosen must be that of an animal the cavalier is familiar with. The mount does not change size, but does receive the bonuses (not the penalty) presented in beast shape II for the Large animal. The cavalier can use this ability an additional time per day at 10th level and every 4 levels thereafter (to a maximum of four times per day at 18th level). At 15th level, the cavalier can use wild mount shape to change his mount into a Medium or Large dragon. When taking this form, the cavalier's wild mount shape now functions as [form of the dragon I](spell/form_of_the_dragon_1), except as above.",
 			"",
@@ -381,7 +381,7 @@
 			"",
 			"**Order Abilities:** A cavalier belonging to the order of the Green gains the following abilities.",
 			"",
-			"**Favored Terrain (Ex):** At 2nd level, an order of the Green cavalier chooses a favored terrain from the list of [ranger favored terrains](class/ranger_favored_terrains). He gains this as a favored terrain, as the ranger class feature of the same name. At 8th level and every 6 levels thereafter, he selects another favored terrain. In addition, at each such interval, the skill bonus in any one favored terrain (including the one just selected, if so desired) increases by 2.",
+			"**Favored Terrain (Ex):** At 2nd level, an order of the Green cavalier chooses a favored terrain from the list of [ranger favored terrains](unknown/ranger_favored_terrain). He gains this as a favored terrain, as the ranger class feature of the same name. At 8th level and every 6 levels thereafter, he selects another favored terrain. In addition, at each such interval, the skill bonus in any one favored terrain (including the one just selected, if so desired) increases by 2.",
 			"",
 			"**Cut the Corruption (Su):** At 8th level, an order of the Green cavalier can touch a weapon and enhance it as a free action once per day. For 1 minute, the weapon glows with a deep-green light and deals an additional 1d6 points of damage against aberrations and undead. This damage does not stack with the additional damage granted by the [bane](unknown/bane) weapon special ability. At 16th level, the cavalier can use this ability a second time each day.",
 			"",
@@ -407,7 +407,7 @@
 			"",
 			"**Order Abilities:** An order of the guard cavalier gains the following abilities as he increases in level.",
 			"",
-			"**Prepared for the Journey (Ex):** At 2nd level, the cavalier can prepare for the terrain through which he will be traveling with 48 hours of study and customization of his equipment. He can select any terrain type from the list available to a [ranger for his favored terrain class feature](class/ranger_for_his_favored_terrain_class_feature). While in the selected terrain, the cavalier gains a +2 bonus on initiative checks and on Knowledge (geography), Perception, Stealth, and Survival skill checks. At 8th level and every 6 levels thereafter, this bonus increases by 1. Additionally, when calculating overland movement speed in the selected terrain, the cavalier and his mount treat trackless terrain as though it contains a road or trail, and terrain with a road or trail as though it were a highway. If traveling along a highway, the cavalier and his mount can travel for 10 hours before needing to attempt Constitution checks for a forced march.",
+			"**Prepared for the Journey (Ex):** At 2nd level, the cavalier can prepare for the terrain through which he will be traveling with 48 hours of study and customization of his equipment. He can select any terrain type from the list available to a [ranger for his favored terrain class feature](unknown/ranger_favored_terrain). While in the selected terrain, the cavalier gains a +2 bonus on initiative checks and on Knowledge (geography), Perception, Stealth, and Survival skill checks. At 8th level and every 6 levels thereafter, this bonus increases by 1. Additionally, when calculating overland movement speed in the selected terrain, the cavalier and his mount treat trackless terrain as though it contains a road or trail, and terrain with a road or trail as though it were a highway. If traveling along a highway, the cavalier and his mount can travel for 10 hours before needing to attempt Constitution checks for a forced march.",
 			"",
 			"**Close at Hand (Ex):** At 8th level, when the cavalier is within 30 feet of his ward, he gains a +1 morale bonus on attack rolls, damage rolls, and saving throws. If his ward is captured, stolen, or otherwise in the possession or control of the cavalier's enemies, the cavalier loses these benefits. In their place, he gains the effects of a [locate object](spell/locate_object) or [status](spell/status) spell (depending on the nature of his ward) targeting his ward and lasting 24 hours. When moving toward his ward, the cavalier and his mount increase their speed by 10 feet. At 12th level and every 4 levels thereafter, the bonus on attack and damage rolls and on saving throws increases by 1 and the bonus to speed increases by 5 feet.",
 			"",
@@ -487,7 +487,7 @@
 			"",
 			"**Adaptive Strike (Ex):** At 2nd level, the cavalier receives [Catch Off-Guard](feat/catch_off-guard) as a bonus feat. As a swift action, he can cause an armed opponent to become flat-footed against any attacks he makes during that round with an improvised weapon. This ability can be used once per combat.",
 			"",
-			"**Terrain Training (Ex):** At 8th level, the cavalier may select a terrain type from the [ranger Favored Terrains table](class/ranger_favored_terrains_table). As a standard action, he can shout orders that grant all allies within 60 feet a competence bonus equal to his Charisma modifier on initiative checks and Knowledge (geography), Perception, and Survival checks while they are in this terrain for a number of rounds equal to 1/2 his cavalier level. At 12th level and every four levels thereafter, the cavalier may select a new terrain type that this ability can affect.",
+			"**Terrain Training (Ex):** At 8th level, the cavalier may select a terrain type from the [ranger Favored Terrains table](unknown/ranger_favored_terrain). As a standard action, he can shout orders that grant all allies within 60 feet a competence bonus equal to his Charisma modifier on initiative checks and Knowledge (geography), Perception, and Survival checks while they are in this terrain for a number of rounds equal to 1/2 his cavalier level. At 12th level and every four levels thereafter, the cavalier may select a new terrain type that this ability can affect.",
 			"",
 			"**Wild Charge (Ex):** At 15th level, the cavalier and his mount can ignore difficult terrain for the purpose of making a charge attack. In addition, if the charge attack is successful and both he and his opponent are occupying squares with difficult terrain, the cavalier gains a +2 competence bonus when using his mighty charge ability to make a bull rush, disarm, sunder, or trip combat maneuver."
 		]
@@ -985,7 +985,7 @@
 			"",
 			"**Eye for an Eye (Ex):** At 8th level, the cavalier gains [Critical Focus](feat/critical_focus) as a bonus feat. The cavalier can grant a [critical feat](unknown/critical_feat) (in place of a teamwork feat) to her allies using the tactician ability.",
 			"",
-			"**Retribution (Ex):** At 15th level, the cavalier gains [retribution, as the order of the star ability of the same name](unknown/retribution,_as_the_order_of_the_star_ability_of_the_same_name)."
+			"**Retribution (Ex):** At 15th level, the cavalier gains [retribution, as the order of the star ability of the same name](class/ability/order/order_of_the_star)."
 		]
 	},
 	"ronin": {

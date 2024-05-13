@@ -165,7 +165,7 @@
 			"",
 			"#### Monsters",
 			"",
-			"[Lawgiver (Herald)](class/archetype/herald/lawgiver), [Orsheval](monster/orsheval)",
+			"[Lawgiver (Herald)](monster/lawgiver), [Orsheval](monster/orsheval)",
 			"",
 			"#### Prestige Classes",
 			"",
@@ -2213,7 +2213,7 @@
 			"- When my purpose is unclear, I will walk the roads of the world to find a fresh focus. Every road leads to a new beginning.",
 			"- Nothing is worth sacrificing my life for, except protecting the lives of others. I will retreat when needed, and come back to vex my foes once again.",
 			"- Mercy is offered, but only once. Should I be betrayed in my moment of kindness, I will not stop until I have put my enemy down.",
-			"- It is not enough to slay evil and carry on. I will spend the time necessary to help those I-ve protected to fend for themselves.",
+			"- It is not enough to slay evil and carry on. I will spend the time necessary to help those I've protected to fend for themselves.",
 			"",
 			"### For Followers",
 			"",
@@ -3185,7 +3185,7 @@
 			"",
 			"#### Magic Items - Wondrous Items",
 			"",
-			"[Barbed Pentacle of Asmodeus](magic/wondrous/barbed_pentacle_of_asmodeus), [Circlet of Persuasion](magic/wondrous/circlet_of_persuasion), [Diabolical Masquerade Mask](magic/wondrous/diabolical_masquerade_mask), [Infernal Cord (Greater)](class/archetype/greater/infernal_cord), [Hamatulatsu Robe](magic/wondrous/hamatulatsu_robe), [Infernal Cord (Normal)](class/archetype/normal/infernal_cord), [Pentacle Token](magic/wondrous/pentacle_token)",
+			"[Barbed Pentacle of Asmodeus](magic/wondrous/barbed_pentacle_of_asmodeus), [Circlet of Persuasion](magic/wondrous/circlet_of_persuasion), [Diabolical Masquerade Mask](magic/wondrous/diabolical_masquerade_mask), [Infernal Cord (Greater)](magic/wondrous/infernal_cord), [Hamatulatsu Robe](magic/wondrous/hamatulatsu_robe), [Infernal Cord (Normal)](magic/wondrous/infernal_cord), [Pentacle Token](magic/wondrous/pentacle_token)",
 			"",
 			"#### Monsters",
 			"",
@@ -3217,6 +3217,9 @@
 			"- **[Summon Monster V](spell/summon_monster_5):** [Bearded Devil](monster/bearded_devil) - LE"
 		],
 		"display": "faith"
+	},
+	"atlach-nacha": {
+		"copyof": "atlach_nacha"
 	},
 	"atlach_nacha": {
 		"name": "Atlach-Nacha",
@@ -6868,6 +6871,9 @@
 		],
 		"display": "faith"
 	},
+	"cyth-v'sug": {
+		"copyof": "cyth_v'sug"
+	},
 	"cyth_v'sug": {
 		"name": "Cyth-V'sug",
 		"file": "deitydisplay6a73.html",
@@ -7025,6 +7031,9 @@
 			"3. mislead"
 		],
 		"display": "faith"
+	},
+	"daclau-sar": {
+		"copyof": "daclau_sar"
 	},
 	"daclau_sar": {
 		"name": "Daclau-Sar",
@@ -13321,47 +13330,47 @@
 			"",
 			"### For Followers",
 			"",
-			"#### **Archetypes**",
+			"#### Archetypes",
 			"",
 			"[Battle Scout (Ranger)](class/archetype/ranger/battle_scout), [Crusader (Cleric)](class/archetype/cleric/crusader), [Iomedaen Enforcer (Paladin)](class/archetype/paladin/iomedaen_enforcer), [Shining Knight (Paladin)](class/archetype/paladin/shining_knight), [Standard Bearer (Cavalier)](class/archetype/cavalier/standard_bearer)",
 			"",
-			"#### **Feats**",
+			"#### Feats",
 			"",
 			"[Disciple of the Sword](feat/disciple_of_the_sword), [Hands of Valor](feat/hands_of_valor), [Protective Channel](feat/protective_channel), [Strike True](feat/strike_true)",
 			"",
-			"#### **Magic Items - Altars**",
+			"#### Magic Items - Altars",
 			"",
 			"[Altar of Iomedae](magic/altar/altar_of_iomedae)",
 			"",
-			"#### **Magic Items - Armor**",
+			"#### Magic Items - Armor",
 			"",
 			"[Icon of Order](magic/armor/icon_of_order), [Inheritor's Breastplate](magic/armor/inheritor's_breastplate), [War Commander's Field Plate](magic/armor/war_commander's_field_plate)",
 			"",
-			"#### **Magic Items - Rings**",
+			"#### Magic Items - Rings",
 			"",
 			"[Knight-Inheritor's Ring](magic/ring/knight-inheritor's_ring)",
 			"",
-			"#### **Magic Items - Weapons**",
+			"#### Magic Items - Weapons",
 			"",
 			"[Crusader's Longsword](magic/weapon/crusader's_longsword), [Inheritor's Light](magic/weapon/inheritor's_light), [Iomedae's Needle](magic/weapon/iomedae's_needle)",
 			"",
-			"#### **Magic Items - Wondrous Items**",
+			"#### Magic Items - Wondrous Items",
 			"",
 			"[Knight's Pennon (Battle)](magic/wondrous/knight's_pennon_battle), [Cloak of the Crusader](magic/wondrous/cloak_of_the_crusader), [Lord's Banner (Crusades)](magic/wondrous/lord's_banner_crusades), [Glorious Tabard (Greater)](magic/wondrous/glorious_tabard_greater), [Knight's Pennon (Honor)](magic/wondrous/knight's_pennon_honor), [Inheritor's Gauntlet](magic/wondrous/inheritor's_gauntlet), [Glorious Tabard (Lesser)](magic/wondrous/glorious_tabard_lesser), [Medal of the Hero's Heart](magic/wondrous/medal_of_the_hero's_heart), [Knight's Pennon (Parley)](magic/wondrous/knight's_pennon_parley), [Lord's Banner (Swiftness)](magic/wondrous/lord's_banner_swiftness), [Lord's Banner (Terror)](magic/wondrous/lord's_banner_terror), [Lord's Banner (Victory)](magic/wondrous/lord's_banner_victory)",
 			"",
-			"#### **Monsters**",
+			"#### Monsters",
 			"",
 			"[Hand of the Inheritor (Herald)](monster/hand_of_the_inheritor_herald), [Iophanite](monster/iophanite)",
 			"",
-			"#### **Prestige Classes**",
+			"#### Prestige Classes",
 			"",
 			"[Heritor Knight](unknown/heritor_knight), [Inheritor's Crusader](unknown/inheritor's_crusader), [Knight of Ozem](unknown/knight_of_ozem)",
 			"",
-			"#### **Spells**",
+			"#### Spells",
 			"",
 			"[Bestow Grace of the Champion](spell/bestow_grace_of_the_champion), [Burst of Glory](spell/burst_of_glory), [Inheritor's Smite](spell/inheritor's_smite), [Light Prison](spell/light_prison), [Litany of Righteousness](spell/litany_of_righteousness), [Spear of Purity](spell/spear_of_purity), [Weapons Against Evil](spell/weapons_against_evil)",
 			"",
-			"#### **Traits**",
+			"#### Traits",
 			"",
 			"[A Shining Beacon](trait/a_shining_beacon), [Divine Warrior](trait/divine_warrior), [Inheritor's Immunity](trait/inheritor's_immunity), [Purity of Faith](trait/purity_of_faith), [Regal Presence](trait/regal_presence), [Searing Beacon](trait/searing_beacon)",
 			"",
@@ -13759,6 +13768,9 @@
 			"**Sacred Animal(s)** Kite"
 		],
 		"display": "faith"
+	},
+	"isph-aun-vuln": {
+		"copyof": "isph_aun_vuln"
 	},
 	"isph_aun_vuln": {
 		"name": "Isph-Aun-Vuln",
@@ -16441,6 +16453,9 @@
 		],
 		"display": "faith"
 	},
+	"lissala_pre-earthfall": {
+		"copyof": "lissala_pre_earthfall"
+	},
 	"lissala_pre_earthfall": {
 		"name": "Lissala (pre-Earthfall)",
 		"file": "deitydisplayb382.html",
@@ -17194,7 +17209,7 @@
 			"",
 			"#### Obedience",
 			"",
-			"Using a chisel and hammer, carve the rune for \"repose\" on a stone entryway or cave entrance. If no appropriate entryway is available, carve multiple runes on a stone surface, creating an arch of runes related to Magrim. These runes can be marked on a stone surface representative of some entryway or passage, such as the stone cover of a book of knowledge (representing the entrance to greater learning), or the first stone of a road leading to a new land. Once you have finished carving your runes, spend at least 10 minutes maintaining the tools you used for this obedience. Gain a +2 sacred or profane bonus on saving throws against necromancy spells and death effects. The type of bonus depends on your alignmentâ€”if you're neither good nor evil, you must choose either sacred or profane the first time you perform your obedience, and this choice can't be changed.",
+			"Using a chisel and hammer, carve the rune for \"repose\" on a stone entryway or cave entrance. If no appropriate entryway is available, carve multiple runes on a stone surface, creating an arch of runes related to Magrim. These runes can be marked on a stone surface representative of some entryway or passage, such as the stone cover of a book of knowledge (representing the entrance to greater learning), or the first stone of a road leading to a new land. Once you have finished carving your runes, spend at least 10 minutes maintaining the tools you used for this obedience. Gain a +2 sacred or profane bonus on saving throws against necromancy spells and death effects. The type of bonus depends on your alignment&mdash;if you're neither good nor evil, you must choose either sacred or profane the first time you perform your obedience, and this choice can't be changed.",
 			"",
 			"#### On Golarion",
 			"",
@@ -19432,7 +19447,7 @@
 			"**Source** [Concordance of Rivals pg. 14](source/concordance_of_rivals)",
 			"",
 			"1. **Ascended (Sp)** [anticipate peril](spell/anticipate_peril) 3/day, [detect thoughts](spell/detect_thoughts) 2/day, or [heroism](spell/heroism) 1/day",
-			"2. **Crownless Crown (Ex)** You gain a halo of illusory protean symbols around your head. Once per day, you can call upon it to invoke a [keketar's reshape reality ability](monster/keketar's_reshape_reality_ability), except it functions as a 7th-level spell rather than a 9th-level spell.",
+			"2. **Crownless Crown (Ex)** You gain a halo of illusory protean symbols around your head. Once per day, you can call upon it to invoke a [keketar's reshape reality ability](monster/keketar), except it functions as a 7th-level spell rather than a 9th-level spell.",
 			"3. **Mantle of Revelation (Sp)** You can cast [foresight](spell/foresight) once per day.",
 			"",
 			"### For Followers",
@@ -20645,7 +20660,11 @@
 			"",
 			"#### Traits",
 			"",
-			"[Unspeakable Bond](trait/unspeakable_bond)"
+			"[Unspeakable Bond](trait/unspeakable_bond)",
+			"",
+			"#### Special",
+			"",
+			"Nyarlathotep has thousands of forms, but the three most prominent are the Black Pharoah, the [Faceless Sphinx](faith/nyarlathotep_faceless_sphinx), and the [Haunter of the Dark](faith/nyarlathotep_haunter_of_the_dark)."
 		],
 		"display": "faith"
 	},
@@ -20686,7 +20705,11 @@
 			"",
 			"#### Traits",
 			"",
-			"[Unspeakable Bond](trait/unspeakable_bond)"
+			"[Unspeakable Bond](trait/unspeakable_bond)",
+			"",
+			"#### Special",
+			"",
+			"Nyarlathotep has thousands of forms, but the three most prominent are the [Black Pharoah](faith/nyarlathotep_black_pharaoh), the Faceless Sphinx, and the [Haunter of the Dark](faith/nyarlathotep_haunter_of_the_dark)."
 		],
 		"display": "faith"
 	},
@@ -20729,9 +20752,16 @@
 			"",
 			"#### Traits",
 			"",
-			"[Unspeakable Bond](trait/unspeakable_bond)"
+			"[Unspeakable Bond](trait/unspeakable_bond)",
+			"",
+			"#### Special",
+			"",
+			"Nyarlathotep has thousands of forms, but the three most prominent are the [Black Pharoah](faith/nyarlathotep_black_pharaoh), the [Faceless Sphinx](faith/nyarlathotep_faceless_sphinx), and the Haunter of the Dark."
 		],
 		"display": "faith"
+	},
+	"oaur-ooung": {
+		"copyof": "oaur_ooung"
 	},
 	"oaur_ooung": {
 		"name": "Oaur-Ooung",
@@ -20833,7 +20863,7 @@
 			"",
 			"#### Obedience",
 			"",
-			"Drop hot wax onto your brow and press the spot with a signet ringÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âeither your own or that of a legitimate authorityÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âto show your submission to deserved rulership. For that day, so long as your brow remains uncovered, you gain a +4 sacred bonus on saving throws against charm and compulsion effects.",
+			"Drop hot wax onto your brow and press the spot with a signet ring-either your own or that of a legitimate authority-to show your submission to deserved rulership. For that day, so long as your brow remains uncovered, you gain a +4 sacred bonus on saving throws against charm and compulsion effects.",
 			"",
 			"### Boons - Celestial Obedience",
 			"",
@@ -22074,8 +22104,8 @@
 		],
 		"display": "faith"
 	},
-	"pharmimia": {
-		"name": "Pharmimia",
+	"pharimia": {
+		"name": "Pharimia",
 		"file": "deitydisplaya6e3.html",
 		"sources": [ "Pathfinder #144: Midwives to Death" ],
 		"pantheons": [ "Iblydan Hero-Gods" ],
@@ -23122,6 +23152,9 @@
 			"[Empyreal Focus](trait/empyreal_focus)"
 		],
 		"display": "faith"
+	},
+	"rhan-tegoth": {
+		"copyof": "rhan_tegoth"
 	},
 	"rhan_tegoth": {
 		"name": "Rhan-Tegoth",
@@ -24714,6 +24747,9 @@
 		],
 		"display": "faith"
 	},
+	"shelyn_pre-earthfall": {
+		"copyof": "shelyn_pre_earthfall"
+	},
 	"shelyn_pre_earthfall": {
 		"name": "Shelyn (pre-Earthfall)",
 		"file": "deitydisplaye6ce.html",
@@ -25222,6 +25258,9 @@
 			"- [Sunbeam](spell/sunbeam) can be prepared as a 4th-level spell"
 		],
 		"display": "faith"
+	},
+	"shub-niggurath": {
+		"copyof": "shub_niggurath"
 	},
 	"shub_niggurath": {
 		"name": "Shub-Niggurath",
@@ -29957,6 +29996,9 @@
 		],
 		"display": "faith"
 	},
+	"xhamen-dor": {
+		"copyof": "xhamen_dor"
+	},
 	"xhamen_dor": {
 		"name": "Xhamen-Dor",
 		"file": "deitydisplay8f72.html",
@@ -30598,6 +30640,9 @@
 		],
 		"display": "faith"
 	},
+	"yan-gant-y-tan": {
+		"copyof": "yan_gant_y_tan"
+	},
 	"yan_gant_y_tan": {
 		"name": "Yan-gant-y-tan",
 		"file": "deitydisplay84c3.html",
@@ -31069,6 +31114,9 @@
 			"[Affinity for the Elements](trait/affinity_for_the_elements)"
 		],
 		"display": "faith"
+	},
+	"yog-sothoth": {
+		"copyof": "yog_sothoth"
 	},
 	"yog_sothoth": {
 		"name": "Yog-Sothoth",
@@ -31829,6 +31877,9 @@
 			"[Empyreal Focus](trait/empyreal_focus)"
 		],
 		"display": "faith"
+	},
+	"zon-kuthon": {
+		"copyof": "zon_kuthon"
 	},
 	"zon_kuthon": {
 		"name": "Zon-Kuthon",

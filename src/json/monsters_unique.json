@@ -87,7 +87,7 @@
 			"",
 			"#### Description",
 			"",
-			"Agmazar the Star Titan is a kaiju whose origins lie far from Golarion. It plummeted from the sky in 2456 by the Imperial Calendar (–44 ar) into the trackless green of the eastern Valashmai Jungles. Though many have searched for Agmazar's landing place, none have found it and survived with suff icient strength or sanity to report precisely where it is.",
+			"Agmazar the Star Titan is a kaiju whose origins lie far from Golarion. It plummeted from the sky in 2456 by the Imperial Calendar (-44 ar) into the trackless green of the eastern Valashmai Jungles. Though many have searched for Agmazar's landing place, none have found it and survived with sufficient strength or sanity to report precisely where it is.",
 			"",
 			"However, Agmazar's entrance into the world hardly went unnoticed. In fact, its meteoric advent drew the attention of the great kaiju King Mogaru, who claimed the jungles at that time. In a cataclysmic battle that wiped out every living creature for miles, King Mogaru slew the invader from the stars and left the body burned and broken, after which he returned to his deep lake lair for a long rest.",
 			"",
@@ -361,9 +361,7 @@
 		"alignment": "NE",
 		"size": "medium",
 		"creature_type": "undead",
-		"creature_subtypes": [
-			"human"
-		],
+		"creature_subtypes": [ "human" ],
 		"str": 24,
 		"dex": 22,
 		"con": null,
@@ -2002,9 +2000,9 @@
 			"",
 			"#### Description",
 			"",
-			"Bezilak enjoys toying with his enemies, perhaps more so than other glabrezus. The Silken Fang loves nothing more than meeting a foe in combat and taking every opportunity to humiliate him in battle, deliberately making fewer attacks than he can (as if to imply that the foe isn't worth the effort), or taking advantage of a stunned foe and removing his weapons and armor, leaving him naked when the stun effect wears off. Once Bezilak has a victim completely at his mercy, he is fond of stepping back and offering the defeated foe a wish in return for staying his rending pincers-the only catch is that the defeated foe must agree to Bezilak's “editorial adjustments” to the wish, allowing Bezilak maximum use of the magic to serve his own desires.",
+			"Bezilak enjoys toying with his enemies, perhaps more so than other glabrezus. The Silken Fang loves nothing more than meeting a foe in combat and taking every opportunity to humiliate him in battle, deliberately making fewer attacks than he can (as if to imply that the foe isn't worth the effort), or taking advantage of a stunned foe and removing his weapons and armor, leaving him naked when the stun effect wears off. Once Bezilak has a victim completely at his mercy, he is fond of stepping back and offering the defeated foe a wish in return for staying his rending pincers-the only catch is that the defeated foe must agree to Bezilak's \"editorial adjustments\" to the wish, allowing Bezilak maximum use of the magic to serve his own desires.",
 			"",
-			"These edited wishes serve the demon's long-term goals, for Bezilak is quite ambitious. The Silken Fang has served many powerful wizards in his lifetime, ranging from Gebbite necromancers to strange demonologists from buried cities under the Osirian sands. Unlike many demons, he enters such servitude willingly after actively seeking out powerful spellcasters and warlords who can aid him in his desires. There is only one catch-before Bezilak agrees to service, the mortal must make the following wish: “I wish to have the service of the Silken Fang for 1 month on the condition that at some point in the future, at the Silken Fang's whim, I am to be transported to his side to perform a service in kind to him.” Bezilak favors spellcasters whose arrogance makes them foolish-he knows they will make this wish on the mistaken assumption that they will be able to kill the glabrezu before his agreed-upon service is to end, and therefore escape repayment. What very, very few of these power-mad fools ever seem to realize is that the wording of Bezilak's wish does not compel him to wait until after his service is complete to demand payment. So when, invariably, a “master” turns on Bezilak and attempts to destroy him, the glabrezu merely invokes the latter half of his wish and commands the “master” to become his slave. The power of a glabrezu's wishcraft is great, and those who meet this fate are invariably taken away to the Silken Fang's Abyssal fortress of Virax (a vast castle hidden in an immense chamber deep within Andirif khu's Vault of Ten Thousand Deaths), where they are placed in temporal stasis in an ever-growing collection of the greatest and most despicable spellcasters and warmongers of a hundred worlds. What Bezilak intends to do with his growing army of powerful pets is unknown, for Bezilak knows more than most that to reveal your plans is to defeat them.",
+			"These edited wishes serve the demon's long-term goals, for Bezilak is quite ambitious. The Silken Fang has served many powerful wizards in his lifetime, ranging from Gebbite necromancers to strange demonologists from buried cities under the Osirian sands. Unlike many demons, he enters such servitude willingly after actively seeking out powerful spellcasters and warlords who can aid him in his desires. There is only one catch-before Bezilak agrees to service, the mortal must make the following wish: \"I wish to have the service of the Silken Fang for 1 month on the condition that at some point in the future, at the Silken Fang's whim, I am to be transported to his side to perform a service in kind to him.\" Bezilak favors spellcasters whose arrogance makes them foolish-he knows they will make this wish on the mistaken assumption that they will be able to kill the glabrezu before his agreed-upon service is to end, and therefore escape repayment. What very, very few of these power-mad fools ever seem to realize is that the wording of Bezilak's wish does not compel him to wait until after his service is complete to demand payment. So when, invariably, a \"master\" turns on Bezilak and attempts to destroy him, the glabrezu merely invokes the latter half of his wish and commands the \"master\" to become his slave. The power of a glabrezu's wishcraft is great, and those who meet this fate are invariably taken away to the Silken Fang's Abyssal fortress of Virax (a vast castle hidden in an immense chamber deep within Andirif khu's Vault of Ten Thousand Deaths), where they are placed in temporal stasis in an ever-growing collection of the greatest and most despicable spellcasters and warmongers of a hundred worlds. What Bezilak intends to do with his growing army of powerful pets is unknown, for Bezilak knows more than most that to reveal your plans is to defeat them.",
 			"",
 			"A spellcaster who manages to conjure the Silken Fang can sometimes avoid being tricked or forced into making the Silken Fang's trapped wish, especially if he provides as part of the conjuration an offering of no less than 13 names of powerful individuals (preferably spellcasters or the leaders of nations) to whom Bezilak can peddle his services. The demon is not above rewarding those conjurers who understand how to properly bribe him, after all. It's a DC 27 check to research the Silken Fang."
 		],
@@ -2126,9 +2124,7 @@
 		"alignment": "CG",
 		"size": "medium",
 		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"munavri"
-		],
+		"creature_subtypes": [ "munavri" ],
 		"str": 13,
 		"dex": 16,
 		"con": 16,
@@ -2400,7 +2396,7 @@
 			"",
 			"Over a century ago, Braismois turned his attention to the nation of Druma and its Kalistocracy. A member of the esteemed Petronax family had come to learn the truth of the Kalistocracy's promised afterlife and saw it as little more than delaying an inevitable judgment by [Pharasma](unknown/pharasma). This prophet betrayed the Kalistocracy and, using ancient Kellid rituals and profane tools uncovered in the Palakar Forest, communed with Braismois to share the discovery. Braismois fumed at the Kalistocracy's subversion of death, as any daemon would in their role as the wouldbe enders of all life. Having learned one of the greatest secrets on Golarion, Braismois has kept the information to himself, using the well-positioned Petronax family to weaken the Kalistocracy and pave the way for a daemonic incursion into the heart of the nation. It is through this culminating scheme that Braismois hopes to unearth the hidden tombs of Kalistrade's prophets and gorge on the untold number of souls removed from the cycle of death-an act that Braismois hopes will grant him enough power to challenge and supplant [Charon](unknown/charon) as the Horseman of Death.",
 			"",
-			"[Daemonic Harbinger](unknown/daemonic_harbinger)",
+			"**[Daemonic Harbinger](unknown/daemonic_harbinger)**",
 			"",
 			"This humanoid fiend has an overly long torso, black eyes, and a mouth full of razor-sharp teeth. It wears black robes that cover most of its rotting, frostbitten flesh."
 		],
@@ -3454,7 +3450,11 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"In the earliest days of the Age of Serpents, when the great serpentfolk empire was young, the serpentfolk were ruled by a single, powerful priest-king. When Ydersius took his rightful place as god of the serpentfolk, he exalted this priest-king above all others, raising the king up to become his foremost servant and herald. With his original name long lost to memory, the first king of the serpentfolk empire became known as the Emperor of Scales.",
+			"",
+			"With Ydersius's still-living head entombed beneath the earth and his mindless body endlessly wandering the Darklands, the Emperor of Scales is the snake-god's primary representative on Golarion. Unable to take direct action on his own, Ydersius relies upon his herald to enact his will on the Material Plane. The Emperor of Scales embodies the fall of the mighty serpentfolk empire from its previous heights, and personifies the rage of Ydersius himself, trapped and sundered into two lesser parts. But he also represents the god's immortality, for even in defeat Ydersius was not slain, and even without a body, the Emperor of Scales still serves.",
+			"",
+			"The Emperor of Scales does not speak, but it can communicate telepathically. Snakes and serpents of all kinds and sizes flock to the Emperor of Scales, who can enslave them to his will. The Emperor of Scales appears as a giant snake's head about 20 feet long, and weighs close to 5 tons. His serpentine tendrils extend another 15 feet behind and around his head."
 		],
 		"short_description": "The air fills with the sound of hissing snakes as a giant, severed snake's head floats into view, with a gaping mouth and twin fangs dripping virulent poison. Its eyes are milky and blind, but its forked tongue constantly tests the air for fresh scents. Below the head, where a body should be, numerous hissing serpents thrash like tendrils of torn flesh. Blood drips from the severed head, sizzling as it burns like acid through anything it touches.",
 		"is_unique": true,
@@ -3642,7 +3642,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Bardic Performance (Su)** Ashava has the bardic performance ability of a 20th-level [bard](unknown/bard), granting her access to the distraction, fascinate, inspire courage, inspire competence, suggestion, inspire greatness, soothing performance, inspire heroics, mass suggestion, and deadly performance aspects of bardic performance. Ashava's fascinate and inspire heroics bardic performances can affect any number of creatures that can see and hear her. There is no limit to the number of rounds Ashava can use her bardic performances each day.",
+			"**Bardic Performance (Su)** Ashava has the bardic performance ability of a 20th-level [bard](class/bard), granting her access to the distraction, fascinate, inspire courage, inspire competence, suggestion, inspire greatness, soothing performance, inspire heroics, mass suggestion, and deadly performance aspects of bardic performance. Ashava's fascinate and inspire heroics bardic performances can affect any number of creatures that can see and hear her. There is no limit to the number of rounds Ashava can use her bardic performances each day.",
 			"",
 			"**Hypnotize Undead (Su)** Ashava can affect undead creatures with her fascinate bardic performance, despite their immunity to enchantment or mind-affecting effects, and she can command any number of undead creatures fascinated in this way as a standard action, per [command undead](spell/command_undead) (Will DC 41 negates). The save DC is Charisma-based.",
 			"",
@@ -4319,7 +4319,15 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"The city of Vantian is one of the great wonders of the planes-a massive sprawl perched along a constantly crumbling cliffside above a turbulent ocean. Ruled by Sif kesh, the demon lord of suicide, Vantian is forever being rebuilt by its denizens as portions of the city tumble away into the surf. As a result, very few buildings in Vantian qualify as truly old, since a building constructed at the city's inland-creeping edge will generally tumble into the sea within a decade.",
+			"",
+			"Some of Vantian's inhabitants have found ways to secure homes of a more permanent type, even without access to Sifkesh's power to maintain her palace at the everchanging heart of the city while the rest of its streets and structures slowly \"flow\" around this one island of stability. One of the most iconic structures of the Abyssal city is the towering 20-story spire known as the Risen Light.",
+			"",
+			"This structure is something akin to a lighthouse in shape and function, save that the pale green light shining from its apex does not ward ships away from treacherous coastlines; rather, it warns Vantian's coastal citizens, through the pulsing and flaring of its radiances, of neighborhoods about to crumble into the ocean. The tower itself does not rest upon the ground, but rather floats in the air hundreds of feet above the waves. Rootlike tangles of iron extend from the tower's base, to which are attached immense chains anchored to huge piercings of cold iron that decorate the backs of a dozen retrievers that cling to the city's edge, crawling forward and towing the tower behind them as necessary to keep the Light attached to the city.",
+			"",
+			"This singular site is the lair of one of Vantian's most dangerous and knowledgeable denizens-a nalfeshnee crone named Erotundee. This ancient demon keeps track of Vantian's suicides in an endless scroll crafted from the flesh of countless virginal lovers who died of their own hand before consummating their desires. That Erotundee manages to keep this list accurate while studying her ever-growing library of heretical and apocryphal religious texts is a testament to her obsessive qualities. She does not suffer visitors to the Light, and any who would seek her advice must first brave the lower 20 floors of the tower and its frightening guardians before reaching her inner sanctum near the tower's peak-simply approaching the tower from the top is as sure an invitation for destruction as any in Vantian.",
+			"",
+			"Those who would seek to conjure Erotundee must use a gate spell to work such a mighty feat. She prefers offerings of heretical writings or rare religious texts, particularly those that hold secrets their faiths would rather see redacted. It's a DC 32 check to research the Keeper of the Risen Light."
 		],
 		"short_description": "This wretched demon combines the worst features of a deformed boar and a repellent hag, then somehow manages to make things worse by decorating the whole with an ugly patchwork of scars and a rancidly obese body.",
 		"is_unique": true,
@@ -4388,7 +4396,9 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"A devotee of the goddess Lamashtu, Eudranis found himself as a speaker for the Mother of Monsters following his tribe's encounter with a group of Pathfinder Society agents. These agents presented themselves as the morlocks' ancestors, effectively turning Eudranis's tribe into indentured slave labor for the Pathfinders' archaeological endeavors. Though he was initially honored to serve his revered ancestors, Eudranis became suspicious when they appeared to have only their own interests in mind, ignoring the well-being of their \"descendants.\" Following a vivid nightmare in which the Pathfinders abandoned the morlocks and absconded with the treasures of their ancestors, Eudranis spied on the resting agents. Overhearing the Pathfinders' mockery of the simple morlocks shattered Eudranis's faith in his ancestor worship. He began preaching against the Pathfinders in secret and gathered his tribe for a retributive strike.",
+			"",
+			"Following a night of bloodshed, the morlocks tortured and slew the Pathfinders, whose screams echoed through the ruins of the ancient Azlanti city they had come to plunder. The morlocks soon hailed Eudranis as a prophet of the tribe's new true goddess, Lamashtu. Guiding his tribe fully into Lamashtu's worship, Eudranis has vowed never to be tricked by humanity again. The morlocks of his tribe have embraced their monstrous physiques and abandoned the reverence their race traditionally holds for their human ancestors."
 		],
 		"short_description": "Garbed in tattered robes, this emaciated humanoid creature stares out with unblinking white eyes. In one hand, he clutches a great blade, while his other hand holds an idol of some fell power.",
 		"is_unique": true,
@@ -4455,7 +4465,7 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"A master of shadow magic, Fyndylsnitch delights in using his craft to warp reality. While it is suspected he holds great power, the Lord of Drearwood has never moved from his realm. For this reason, sages speculate he performs some sort of duty for a greater lord in First World."
 		],
 		"short_description": "Dressed entirely in gray worn robes, a tiny, otherworldly man stands cloaked in mysterious shadows, his head crowned by a mane of wild, fiery-orange hair and his green eyes gleaming with madness and delight.",
 		"is_unique": true,
@@ -4534,7 +4544,11 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Few balor lords have achieved the notoriety and power of Galundari, even though it has been centuries since the balor lord was lost to the Nemesis Well and longer still since he was imprisoned in the artifact that now bears his name. Indeed, it was this notoriety that compelled Nex to seek the balor's aid, over 56 centuries ago, in the creation of the [Lens of Galundari](unknown/lens_of_galundari)-a magical lens akin to others that powered the wizard's demon ships, but that would be much more potent than its lesser copies. Nex lured Galundari into the lens with lies and false promises, and the balor has remained trapped within the lens ever since.",
+			"",
+			"When Pathfinder Durvin Gest threw the Lens of Galundari into the Nemesis Well in 4332 ar, many believed that the time of the mighty balor lord had passed forever. Yet Galundari still lives, and even now the last few of his still-loyal minions toil in far corners of the Great Beyond and elsewhere in the universe, seeking the location of the far side of the Nemesis Well so that their master may be released. In his time, Galundari was even more powerful than the creature presented above, but over the centuries of imprisonment within the lens, he has lost all of his mythic power. What remains is still a formidable foe, and the Scourge of Heaven is one of the few of his kind to possess multiple unique balor lord powers. Galundari earned his appellation for his countless successful raids against the fortresses of Heaven itself. Some demonologists maintain that Nex was only able to deceive Galundari with the hidden aid of a vengeful solar, and that in trapping the Scourge of Heaven he pried strange and impossible favors from Heaven itself.",
+			"",
+			"Galundari requires the sacrifice of nothing less than a planetar (minimum CR of 18) when conjured-the murder of the planetar must be performed by the conjurer in Galundari's presence, and the angel must be conscious when the murder is performed. It's a DC 35 check to research Galundari, but as long as he remains imprisoned in the Lens of Galundari (itself still lost in the Nemesis Well), he cannot be conjured at all. Assuming the balor lord can be freed, his skill at creating magical armor, weapons, and wondrous items is as significant as his skill in combat."
 		],
 		"short_description": "This towering, burning demon wears black, spiky armor and carries two weapons-a jagged sword and a whip of flames.",
 		"is_unique": true,
@@ -4548,9 +4562,7 @@
 		"alignment": "NE",
 		"size": "medium",
 		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"reptilian"
-		],
+		"creature_subtypes": [ "reptilian" ],
 		"str": 14,
 		"dex": 14,
 		"con": 18,
@@ -4604,7 +4616,9 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Unlike most of her kind, Ghristah lives on Golarion's surface. She travels the Inner Sea region, never resting in one spot too long before moving on. A consummate hunter, she's forsaken the companionship of a pet to master her own bestial urges, and is able to take the form of beasts in dire circumstances. Ghristah believes this atavistic connection to be the blessing of the great power of Zevgavizeb, patron of all troglodytes. She prefers a covert hunt, wearing down her enemies with her natureinclined spells and swift strikes from javelins as well as the use of natural attacks. She always keeps a barbed net on her person, which she primarily uses to disable enemies prior to the deathblow or in the rare case that she needs to retreat from a superior foe.",
+			"",
+			"Ghristah enjoys teaching other troglodytes the basics of hunting and stalking prey. Because of her wandering nature, she rarely spends much time with a given tribe, but she has perfected working with other troglodytes, making optimal use of their unrefined tactics. When confronted by hostile intruders, Ghristah is not above recruiting local troglodytes and reptiles to work with her in overcoming these foes. She may stalk her prey for months at a time, striking at inopportune moments or using her magic at range to confound foes already caught up with other threats."
 		],
 		"short_description": "Wielding a net of woven moss and a stone javelin, this humanoid reptile wears armor of swamp reeds and bone and the skull of a larger reptile as a menacing mask.",
 		"is_unique": true,
@@ -5970,7 +5984,7 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"It's said the latent suffering in Varisia's Hollow Mountain-where Thassilonian slaves long ago carved out a labyrinth of intricate corridors-not only attracted Grendler Red-Chains but helped him grow to a size considered monstrous for a redcap. The height of a short man, Grendler Red-Chains stalks the mountain's tunnels with aplomb, terrorizing adventurers and the complex's denizens alike with his wicked scythe and spiked boots. Perhaps because of his larger size, he heals faster than most redcaps; he enjoys self-mutilation almost as much as he enjoys dipping his cap in his victims' blood. Over the years, Grendler Red-Chains has culled bits of chains and shackles from the corpses of long-dead slaves and embedded them into his own flesh, both to terrify his enemies and to fortify his defenses."
 		],
 		"short_description": "Shards of broken manacles, links of chain, and iron flails are imbedded in this hideous, human-sized man's ruddy flesh. Rivulets of congealing blood run from its soaked cap down its mangled face and neck, soaking its tangled white beard; in its arms looms a rusty but clearly sharp scythe.",
 		"is_unique": true,
@@ -7076,9 +7090,7 @@
 		"alignment": "CE",
 		"size": "colossal",
 		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"spawn of Rovagug [see page 275]"
-		],
+		"creature_subtypes": [ "spawn of Rovagug" ],
 		"str": 41,
 		"dex": 16,
 		"con": 34,
@@ -7097,7 +7109,7 @@
 			"",
 			"**Source** [Inner Sea Gods pg. 304](source/inner_sea_gods), [Pathfinder RPG Bestiary pg. 262](source/pathfinder_rpg_bestiary)  ",
 			"**XP** 1,638,400  ",
-			"CE Colossal magical beast (spawn of Rovagug [see page 275])  ",
+			"CE Colossal magical beast (spawn of Rovagug)  ",
 			"**Init** +7; **Senses** darkvision 60 ft., low-light vision, scent; Perception +43  ",
 			"**Aura** frightful presence (300 ft., DC 27)",
 			"",
@@ -8365,7 +8377,13 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Not all of Nocticula's favored servants are succubi. Ever since her slaughter of the demon lord Vyriavaxus, she has also been served by the invidiaks. Some of these demons, of course, turned away from the murderer of their patron and have gone on to serve other demon lords or even to strike out on their own, but those who became loyal to her found that their new mistress was every bit as dangerous as their old lord of shadows, and quite a bit more forthcoming at rewarding those who served her well.",
+			"",
+			"Ilzunae is the first of these shadow demons to have been awarded stewardship of one of the many Midnight Isles of Nocticula's Abyssal realm. Kovalarue is one of the realm's smaller islands, but in some ways is one of its most beautiful, consisting of rolling hills covered with wildflowers and idyllic streams and lakes. That those flowers drink blood and that those lakes can pull those who look into their waters below to drown them does not mar this beauty, and Ilzunae has proven more than a capable keeper of this land.",
+			"",
+			"The Gloom Widow earned her appellation as a result of her preferred method of preying upon mortals. When she finds herself on the Material Plane, she seeks out young couples who are too shy or hesitant to make the first steps toward forming a relationship, then possesses one of their friends. Using that friend as a proxy, she arranges for the couple to meet, fall in love, and eventually wed, retaining control of the friend the whole time. During the honeymoon, Ilzunae brings the friend to a distant city via teleportation, informs the friend of her plans before releasing him, then teleports back to the honeymooners, where she possesses one of them to enjoy their first night of wedded bliss. The nonpossessed spouse never survives until the dawn, and if they are lucky, Ilzunae waits until the final hour of the night to shift from sharing bliss to giving pain. She then abandons the possessed widow or widower with a message that all this was made possible through the jealousy of the friend, who has fled to a distant city. In most cases, the surviving spouse either commits suicide or seeks out the \"friend\" to murder them, and when she can, Ilzunae enjoys intercepting those sinful lost souls when they come to the Abyss so she can harvest and keep them in gilt bird cages in her palace as trophies.",
+			"",
+			"Ilzunae prefers promises of time left to her own devices on the Material Plane, but will accept the bodies of grieving widows or widowers as well. It's a DC 29 check to research the Gloom Widow."
 		],
 		"short_description": "This lithe, shadowy creature is obviously feminine, yet the talons and horns leave no doubt as to her fiendish nature.",
 		"is_unique": true,
@@ -9051,9 +9069,7 @@
 		"alignment": "NE",
 		"size": "large",
 		"creature_type": "fey",
-		"creature_subtypes": [
-			"aquatic"
-		],
+		"creature_subtypes": [ "aquatic" ],
 		"str": 21,
 		"dex": 20,
 		"con": 20,
@@ -9111,7 +9127,9 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"This nuckelavee is even more hideous than usual because its torso is that of a sea hag, whose skinless head somehow retains a mess of hairlike knotted seaweed that flails behind it as the creature gallops furiously across the land. The creature dwells in Kallas Lake at the southern tip of the River Kingdoms and terrorizes the nearby town of Riverton, where humans and half-elves survive by fishing and guiding travelers along the branches of the Sellen. It mighty hooves also pound along the riverbank as far west as Tymon and as far east as the Creeperwood, bringing plague and death to those who despoil the waters.",
+			"",
+			"The influence of its hag torso drives the beast to want to clothe itself in skin. Other nuckelavees keep trophies of their kills, but the Kallas Devil flays its quarry to create a patchwork cloak of flesh that it drapes over its upper body. The husk of skin tears easily, so the devil requires a steady supply of victims to maintain its appearance. Some villages that suffer under its vengeance try to appease it by staking out criminals and other undesirables for its pleasure. The fey terror takes these sacrifices but shows no favor to its supplicants."
 		],
 		"short_description": "Growing from the back of a horselike beast is the torso of a sea hag with grossly elongated arms and large, clawed hands. Its tangled web of stringy hair does not hide the disturbing fact that the hideous creature has no skin, and is built of gore and viscera.",
 		"is_unique": true,
@@ -9193,7 +9211,9 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Kaltestrua has been the thrall of the Whispering Tyrant for well over a thousand years, a servitude that has had a singular effect upon her appearance. While she is not herself undead (yet), she appears as if she were a bloodstarved vampire, with sallow flesh clinging tightly to her frame and a skeletal pattern of stripes along her otherwise night-black serpentine lower torso. Kaltestrua was key in the Whispering Tyrant's conquest of the college of Casnoriva, and while the lich has now been imprisoned deep under Gallowspire for nearly 9 centuries, rule of Casnoriva has remained in the marilith's control. In an ironic twist, her greatest enemies in maintaining this control are themselves undead-the spectral and ghostly spirits of the academy's previous professors and arcanists continue to fight against the demon and her servants for control of the site. Led by the ghostly wizard Mistress Qais, these undead have never managed to control a majority of Casnoriva, but neither has Kaltestrua ever been able to wholly defeat them. Today, the site remains a battleground, with the marilith eagerly awaiting the return of her master so that, with his support, she might finally seize full control of the academy.",
+			"",
+			"It requires a gate spell to conjure Kaltestrua, and even then the marilith is particularly ill-tempered at having been pulled away from her post in the academy. Every second she's gone is another second the ghosts have a chance to regain ground or, in a worst-case scenario, to take control of the building. As a result, if a conjurer has a relatively short-term task (taking less than a day) for the marilith, she is more likely to agree to perform the service than most of her kind, if only so she can get started (and thus finish) the task quickly and return home. A spellcaster who thinks to keep her from returning home had best be prepared for her increasing fury, for even bound, Kaltestrua has other minions who will come to aid her if she is gone for too long. Kaltestrua prefers offerings of magical flails-ghost touch weapons are her favorite, but as long as the flails possess enhancement bonuses of at least +2, they'll do. It's a DC 31 check to research Kaltestrua."
 		],
 		"short_description": "This serpent-bodied, six-armed woman is painfully thin, haggard, and gaunt. Bloody sores dot her flesh, and the skulladorned flails she wields drip black liquid.",
 		"is_unique": true,
@@ -9270,7 +9290,9 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Khalirai, the Ivory Queen, is one of the most powerful nymphs in the Mwangi Expanse. Protecting her exotic ward, known in local myths as the Ivory Boneyard, Khalirai is mysterious even by nymphs' standards. In mimicry of her surroundings, she has bone-white skin-a rarity among nymphs of the region-and she possesses long, lustrous black hair and deep green almond-shaped eyes. She has taken to wearing ivory jewelry that she crafts from the tusks of the fallen elephants that travel here at the ends of their lives to rejoin their ancestors in her ward. The Ivory Boneyard has had a great impact on her, and she is a dark, brooding soul, but with a soft spot for the sick and ill, and often heals those who are brave enough to come into her ward. While she protects the elephant graveyard from external threats, she holds it as her solemn duty to keep undead at bay, especially those arising from the ward itself.",
+			"",
+			"Many years ago, Khalirai fell in lust with a young Mwangi man, and has served as his muse ever since. It has been many years since then, and her love is old and frail; soon she will need to find a new bard to inspire."
 		],
 		"short_description": "This slender, seductive woman has bone-white skin and an otherworldly beauty.",
 		"is_unique": true,
@@ -9561,7 +9583,11 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Lorthact the Unraveler, also named the Dwimmerlaik, the Ur-Magius, and the Diabolus Mystere, was once a high-ranking duke of Hell. Atypically, he was not solely bound to the service of a single archdevil, instead serving openly at various times as a mystical advisor and consultant on magical matters under both Geryon and Mephistopheles. Some believed him to be secretly a favorite of Asmodeus himself; this supposed favor provided some measure of protection from his jealous rivals. His last mistress in Hell was Eiseth, Whore-Queen of the erinyes, but when Eiseth uncovered a plot to reverse their positions-Lorthact arrogating himself to lordship and reducing her to mere consort-her wrath was enormous and eternal. Lorthact's allies deserted him lest they taste the fury of the erinyes. Lorthact proclaimed his innocence, but he saw condemnation awaiting and fled, racing across the planes with the whips of the erinyes at his heels.",
+			"",
+			"After several planar refuges proved no shelter from his relentless pursuers, Lorthact sought solace in the mortal realms. Laying several false leads, he then doubled back to the diabolists of Cheliax, the first place his pursuers looked for him on Golarion. But after they had moved on, he slipped back into places they thought already thoroughly scoured. Adopting a succession of guises, he kept his presence hidden for years, but he never felt truly comfortable under the gaze of so many potentially unfriendly eyes. Seeking a more remote locale, he traveled to the farthest reaches of Chelish sovereignty: the Varisian city-state of Korvosa. There he found the perfect patsy in the vain and corrupt Lord Volshyenek Ornelos. Rebuffed by House Thrune in his quest to restore his youth and vigor, Volshyenek was easy prey for Lorthact's inveigling. The devil bound him in a web of lies and stole not only his soul but also his life. Impersonating Lord Ornelos for over 200 years, he became a dominant figure in Korvosa, shadow-master of the Acadamae and sire of a great house. Meanwhile, he sought ways to rebuild his diabolic power and his store of souls so one day he might buy his way back to ducal favor in Hell.",
+			"",
+			"In the end, Eiseth's diabolic assassins found him at long last, and he was forced to fake his own death. Yet he still dominates Korvosa from the shadows, controlling the Acadamae through his descendant Toff Ornelos. Little happens in the city without his knowledge, and he plays the part of the mage through shadow-magic, illusions, limited wishes, and the stolen magic of others. However, casters who delve too deeply into his or Korvosa's secrets find themselves at odds with the deadly duke, his powers honed by centuries of exile to undermine and destroy mages who might uncover his identity or unravel his schemes."
 		],
 		"short_description": "This devilish humanoid has five horns growing out of his forehead that resemble a crown. He stands on stout cloven hooves.",
 		"is_unique": true,
@@ -9575,9 +9601,7 @@
 		"alignment": "NE",
 		"size": "medium",
 		"creature_type": "fey",
-		"creature_subtypes": [
-			"aquatic"
-		],
+		"creature_subtypes": [ "aquatic" ],
 		"str": 24,
 		"dex": 28,
 		"con": 21,
@@ -9632,7 +9656,11 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Malsandra traveled farther from her mother's stream in the Lands of the Linnorm Kings than any of her sisters when looking for a body of water to call her own, just under a century ago. She followed the stream to the Rimeflow River and from there to the Steaming Sea, where the open water felt new and exciting to her. Once in the ocean, Malsandra swam south along the coastline for many months, never settling and continuing ever toward warmer waters. Nearly a year after setting out on her own, she finally found a marshy estuary where the godless land of Rahadoum meets the Sodden Lands, well within the immediate influence of the newly formed permanent hurricane known as the Eye of Abendego.",
+			"",
+			"There she inhabited a long-abandoned temple to a forgotten god-all holy symbols and iconography shorn from its walls after the Oath Wars drew to a close- submerged in the center of an ever-growing swamp. The Rahadoumi villagers of the nearby fishing settlement of Mekhum, still coping with drastic shifts in climate as a result of the Eye of Abendego's advent, believed her to be a drowned victim of the increasingly dangerous wetlands. Lacking clerics to exorcise the ghost from the abandoned temple, the people of Mekhum had little choice but to acquiesce to Malsandra's demands, and to this day, they pay her tribute each year on the anniversary of her arrival (a date they believe to have been when she died).",
+			"",
+			"Malsandra prefers to keep as pets a combination of wayward sailors who find their way into her marshy seaside realm and powerful swamp monsters, which have grown ever more prevalent since the Eye of Abendego has taken hold in the region. From time to time, locals even report seeing the temple ghost with a small black dragon, though these may be simple rumors."
 		],
 		"short_description": "Standing amid a roiling fog, this nude, humanoid woman's pale, wet skin glistens. Her long, dark hair moves about her head as though she were submerged underwater, and rapier in her hand crackles with arcane energy.",
 		"is_unique": true,
@@ -9646,9 +9674,7 @@
 		"alignment": "LE",
 		"size": "gargantuan",
 		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"giant"
-		],
+		"creature_subtypes": [ "giant" ],
 		"str": 43,
 		"dex": 14,
 		"con": 32,
@@ -9702,7 +9728,9 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Malziarax hails from a rune giant clan that dwells deep in the northeastern reaches of the Wall of Heaven mountains. The clan had relocated there in the past millennium in search of new lands and creatures to conquer, their original stomping grounds in northern Avistan having grown stale to the ancient tribe. In the past thousand years, the rune giants of Malziarax's people have managed to dominate many of the giants in this relatively new region- including the frost giants of the Tian side of the Crown of the World and several of the mysterious wood giants of the Forest of Spirits. In recent years, however, Malziarax found the icy and often barren realms of the Wall of Heaven not to her liking, and so she set out to reclaim the empires of her ancestors, leading a band of loyal followers back across the Crown of the World to northern Irrisen.",
+			"",
+			"Once there, Malziarax and her new clan trekked across the icy wilderness to the Kodar Mountains, in search of clues that might help them unearth ruins of ancient Thassilon, which would inevitably lead them to even greater powers. Though her ancestors gave up on the wild frontier of Varisia and its surrounding lands, Malziarax claims to see the land for its true potential, and knows that somewhere in these vast mountains lie great stores of treasure for the taking and giants for the enslaving."
 		],
 		"short_description": "This enormous, ebon-skinned giant is covered in glowing red runes and exotic plate armor.",
 		"is_unique": true,
@@ -9772,7 +9800,15 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Not all of Shax's favored babaus are those he counts as his sons. Mangvhune is not only one such example, but is also that rarest of demons-one who recalls the specifics of his previous life as a mortal. In that life, Mangvhune was a highly-respected scholar of Kintargo's illustrious Alabaster Academy, an erudite surgeon and accomplished scholar of humanoid physiology. He was as close as you could get among the Academy's professors to a celebrity. His lectures on anatomy in particular were always standing-room only events that drew far beyond the walls of the Academy itself for audience members. Charming, handsome, and as the Kintargo gossips were so fond of pointing out, quite available, Mangvhune maintained the public facade of the perfect gentleman scholar.",
+			"",
+			"In fact, this facade was nothing more than a construct, for the real Mangvhune was a remorseless and productive murderer. When Mangvhune was revealed to be the notorious Temple Hill Slasher, a brutal serial killer who tormented his victims for days before leaving their mutilated bodies in the vicinity of Temple Hill, the city was stunned. Despite a swift trial and even swifter execution by headsman's axe, the Alabaster Academy's reputation never fully recovered from the scandalous revelation. Mangvhune's murderous soul went swiftly to the Abyss after his death, where he transformed into a babau demon, mind and personality intact. Since then, Mangvhune's notoriety has only grown, and rumors that the Temple Hill Slasher now stalks the streets of dozens of cities throughout the Inner Sea region persist-particularly in Kintargo during the week surrounding the anniversary of his execution so many years ago.",
+			"",
+			"The Temple Hill Slasher prefers to face solitary foes, striking swiftly with a sneak attack if possible to set the victim to bleeding and then holding back, hiding in the cover of darkness and watching until the victim dies or recovers from the bleed damage, at which point he slips in again to start the process anew. The babau isn't afraid to teleport to a nearby hiding place if a foe seems to be particularly strong-he merely hides again and then bides his time for another strike when he can. Mangvhune prefers to use his death attack to paralyze foes rather than kill them outright, affording him a chance to torment the victim telepathically for several rounds before he delivers a coup de grace. The babau prefers to avoid fighting larger groups on his own, but when he must, he abandons his sneak attacks in favor of full-attack actions, focusing on healers first. He saves his angel of death ability for particularly hated foes. Mangvhune delights in gathering the dust remaining after such a kill, and keeps an ever-growing collection of painstakingly-labeled vials of these ashen mortal remains in his Abyssal lair.",
+			"",
+			"This den is called Razorspan, a bridge-like palace built from blades and knives that straddles a deep rift filled with bones near the realm of Shax itself, on a winding route that leads away from the realm of the demon lord of murder into the wilds of unclaimed Abyssal worlds. The ceilings, walls, and floors of Razorspan are riddled with cutting edges, blades that make exploration of the structure a constant battle against a thousand cuts. The blades themselves are incapable of penetrating Mangvhune's damage reduction (or that of most of his minions, for that matter), but are an impossible to ignore hazard for would-be explorers of the notorious structure.",
+			"",
+			"Mangvhune does not require any additional offering when conjured, but does require that any service he provides to a conjurer includes an equal amount of time allowed in the conjurer's region to stalk new victims of the babau assassin's choice. Wise conjurers take pains to protect themselves from Mangvhune's additional attentions once his services have been carried out. It's a DC 26 check to research the Temple Hill Slasher."
 		],
 		"short_description": "This leering, single-horned demon seems emaciated even clad in black dragonhide armor. A viscous layer of crimson slime glistens on its flesh, dripping over its armor in red rivulets.",
 		"is_unique": true,
@@ -9786,9 +9822,7 @@
 		"alignment": "NE",
 		"size": "large",
 		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"giant"
-		],
+		"creature_subtypes": [ "giant" ],
 		"str": 23,
 		"dex": 16,
 		"con": 21,
@@ -9838,7 +9872,11 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Mardatektor was born during a time of great conflict within his tribe. His father, Huratektor, was the ruling tyrant of their tribe, and had recently relocated the tribe to the Bandu Hills, where the mountainous landscape proved more easily defendable than their previous lair within the Kaava Lands. When Huratektor's most outspoken rival-a warrior of low status by the name of Nukamman-assassinated the tyrant, he sparked a civil conflict within the tribe that irreparably split its people into two groups, with Nukamman and his fellow dissenters fleeing further into the mountains, where he was crowned tyrant of his newly created splinter tribe. In the chaos of the conflict, Nukamman managed to abduct baby Mardatektor, renaming him Mardahamman and raising him as his own.",
+			"",
+			"In the decades that followed, the rift between the Huratektor's old tribe and Nukamman's traitors never healed, and skirmishes broke out frequently between the two tribes. When Mardahamman came of age and brandished a greatclub for the first time, his adoptive father brought the youth with him on the final raid against their rival tribe. When Mardahamman experienced the taste of battle for this first time, unknowingly laying waste to his own people, he knew something was amiss, a notion confirmed when he confronted Nukamman about it later.",
+			"",
+			"Shamed by his own actions and angry at the betrayal of the tyrant he had thought to be his father, Mardahamman fled from the hills and into the Kaava Lands, not knowing that his people originally hailed from there decades earlier. In that forest, he met a small conclave of cyclops warriors who had stayed behind when Huratektor took his tribe to the Bandu Hills. Feeling that these rebels would be the closest he'd ever have to a real family again, Mardahamman joined their conclave and trained to become an expert warrior, eventually coming to lead the cyclopes of the Kaava Lands as their tyrant, all in hopes of one day exacting revenge on his treacherous adoptive father, Nukamman."
 		],
 		"short_description": "Attired in various hides and with pauldrons made from the tusks of a mammoth, this towering, one-eyed humanoid wields an equally massive flat club.",
 		"is_unique": true,
@@ -9927,7 +9965,13 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Moxix, the Drinker of Human Hopes, is a unique demon bound to the mysterious isle called Yoha's Graveyard in the Shackles. Appearing as an eldritch four-armed statue of weathered gray stone, Moxix has a single emerald eye centered in his horrible face. A nest of twisted horns rests atop his head, and his fang-filled maw is perpetually stained with blood. Those courageous explorers traveling to his seemingly idyllic isle are driven mad by strange visions and dreams, or by inscrutable but disturbing carvings, idols, and glyphs that litter the island. Even if they withstand the island's maddening magic, adventurers in search of legendary lost riches may confront Moxix himself and be scourged of mind, body, and soul. Moxix's baleful presence and malevolent awareness leer from every crudely carved icon, relief, and idol bearing his likeness, bringing with them a tinge of insanity and a ravenous hunger for human flesh. Ghosts and pentagram-branded cannibals and lunatics are all that remain of ill-fated expeditions to Yoha's Graveyard.",
+			"",
+			"Moxix found his first worshipers among the terrible cyclopes of Ghol-Gan as their civilization fell into ruin. As the one-eyed giants slipped more and more into depravity and violence, they began worshiping foul, otherworldly creatures their brothers and sisters brought up from the vaults of the Darklands after their exposure to the serpentfolk's wicked ways. Among the dozens of fiendish icons was Moxix, who came into influence among the cyclopes as their practice of sacrifice and cannibalism increased. It was at this time Moxix became known as the Drinker of Human Hopes. The ancient Ghol-Gan cyclopes fed him hundreds of captured humans, most of whom were of Azlanti descent. In one instance early in his time among the Ghol-Gan cyclopes, Moxix's followers captured an entire Azlanti embassy and fed them to the strange demon one by one while their companions watched in horror. Some say the sacrifices' spirits still inhabit the region, their wailing cries drifting through the hills and jungles of the haunted island.",
+			"",
+			"As his reign of blood began to spread from its base in southern Ghol-Gan, a raging contingent of rival cyclopes from elsewhere in the failing empire raided the demon-worshiping clan dedicated to Moxix, bringing both brute strength and the magic of powerful shamans and oracles to bear against it. The battle raged for 2 days, and in the end an oracle sacrificed her life in a final ploy to destroy Moxix. However, the oracle only succeeded in binding him to the high mountain peak that would one day become the island known as Yoha's Graveyard.",
+			"",
+			"To this very day, Moxix remains trapped in his island domain, ever eager to draw creatures to the ziggurat he calls home. There he delights in turning people to cannibalism, destruction, and insanity. Obscuring and disease-laden mists swirl around the island, keeping its lands hidden and protected from trespassers. Once per year, however, on the first full moon after the rainy season, the mists part for a single night. Some explorers have mounted expeditions to Moxix's island during these events, but as of yet, no one has returned the same person she used to be; all bear the mark of insanity Moxix stamps on their being."
 		],
 		"short_description": "This strange, four-armed fiend appears to be constructed completely out of stone. Dried blood stains its body.",
 		"is_unique": true,
@@ -10016,7 +10060,7 @@
 			"- Nightripper's natural weapons, as well as any weapon he wields, are treated as chaotic, epic, and evil for the purpose of overcoming damage reduction.",
 			"- Nightripper can grant spells to his worshipers. He grants access to the domains of Chaos, Darkness, Evil, and Strength. His favored weapon is the bastard sword.",
 			"",
-			"Slowing Gaze (Su) Slowed (as the slow spell) for 1 round, 30 feet, Will DC 30 negates. The save DC is Charisma-based.",
+			"**Slowing Gaze (Su)** Slowed (as the slow spell) for 1 round, 30 feet, Will DC 30 negates. The save DC is Charisma-based.",
 			"",
 			"**Swift Cuts (Ex)** As long as he is attacking with a sword, Nightripper treats foes who are staggered, nauseated, or under the effects of a slow spell (or similar effects, such as his gaze) as if they were flat-footed.",
 			"",
@@ -10024,7 +10068,11 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Even today, centuries after his 13th and final execution, memories of Riktus Scroon continue to haunt the nightmares of those who live along the northern coastlines of the Inner Sea. During his reign of horror, the man who would come to be known as the Nightripper used his position in the now disbanded Graven Guard of Taldor to move along the shipping lanes with ease. His position among the mercenary company afforded him time in countless settlements from Golisfar to Corentyn, and in these unsuspecting towns he hunted. Scroon preferred young victims, that their vanishing would cause the most distress possible-his favorites were young adults freshly in love, although he seemed to have had no preference between man or woman. He abducted his victims with astonishing skill, tormenting them for hours with his blades before leaving them broken and bleeding to death at the bottom of a specially prepared pit far outside of town. The mass murderer was finally captured by Cesandra Dayne, an obsessed priest of Sarenrae who had lost her fiancee and her father to Scroon. Only by forsaking the teachings of her church was she able to trap the murderer in the slums of Almas, and although the resulting fight saw the death of a dozen innocent bystanders, in the end Cesandra had her man alive.",
+			"",
+			"After Scroon was turned over to the law in his hometown of Oppara, the authorities thought to prosecute him for the deaths of no fewer than 46 known victims. When Scroon gleefully bragged of having murdered nearly a thousand men, women, and children, the authorities were eager to write off his ravings, yet after Scroon provided exacting details to the sites of 953 victims, and one after the other his directions led to actual graves, the killer's sentencing was hastened-death by hanging. Yet Scroon survived. One after the other, attempts to execute the Nightripper failed-headsmen died of fright as they lifted the axe, guillotines malfunctioned, magic failed. Each botched execution left Scroon more disfigured, but his legend grew. The 13th and final execution put the man down once and for all-or so it was hoped.",
+			"",
+			"Scroon's soul went to the Boneyard, where something amazing happened-he passed through to the Abyss with his mind and memories intact. So remarkable was his retention of his identity that it drew the attention of Lamashtu herself, who pulled the killer's soul from the shuddersome bosom of the Abyss and made him her personal assassin, raising him from a broken shell of a soul to a nascent demon lord with greater power than he'd ever hoped for in life. His form had changed, transforming into a shape more befitting one of his horrific nature, yet his mind remained sharp and clear. Nightripper harbors a strong desire for revenge, but for now he serves dutifully as Lamashtu's favored torturer and assassin and as the lord of the dungeons below her palace in the Abyssal realm of Kurnugia. But it is said that someday, when he has repaid his debt to the Mother of Demons for his ascension and rescue from the dregs of the Abyss, the Nightripper will return to his old haunts. Only this time, it will not be individuals he breaks and bleeds and buries in his pits-it will be entire cities."
 		],
 		"short_description": "Twin talons attached to grotesque back-appendages drip blood from this hideously emaciated, jackal-legged albino demon.",
 		"is_unique": true,
@@ -10039,9 +10087,7 @@
 		"alignment": "NG",
 		"size": "medium",
 		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"human"
-		],
+		"creature_subtypes": [ "human" ],
 		"str": 14,
 		"dex": 16,
 		"con": 18,
@@ -10140,9 +10186,7 @@
 		"alignment": "N",
 		"size": "large",
 		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"aquatic"
-		],
+		"creature_subtypes": [ "aquatic" ],
 		"str": 17,
 		"dex": 20,
 		"con": 17,
@@ -10195,7 +10239,13 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Infamous among the unfortunates who live in the stormwracked Sodden Lands, the bunyip called Old Wulunga is an especially large and ferocious member of his species. He follows a route up and down the coast, seeking out new hunting grounds every few months and terrorizing the surrounding region before moving on.",
+			"",
+			"Most recently, Old Wulunga has moved to the river mouths and swamps between Kokutang and Jula, preying on bandits and opportunists raiding the abandoned settlements of old Yamasa, as well as on the Koboto tribespeople. Several Koboto hunting parties have gone in search of the creature; those that have returned have done so empty-handed, and the other expeditions have vanished altogether.",
+			"",
+			"No one is sure of Wulunga's true age-some legends claim he was born in the arcane disaster that created the terrible Eye of Abendego. Most people aren't quite so superstitious, and believe that Old Wulunga is just an especially large and successful bunyip. A few doomsayers claim he is a harbinger of death-an agent of destruction sent to totally obliterate any attempts at building a civilization in the wasted region.",
+			"",
+			"The son of the Koboto spirit-talker Harisha was supposedly slain by Old Wulunga while swimming in the Terwa River. Filled with anger, Harisha swore that she will see the creature dead, and promises to mount his thick, tusked skull on her son's grave. The old oracle has offered a rich reward to anyone who kills Wulunga and returns his body intact, but few trust that Harisha will keep her word."
 		],
 		"short_description": "This bloated, pinniped-like mammal is covered in salty grime, and its sturdy, blunt tusks promise an agonizing death.",
 		"is_unique": true,
@@ -10266,9 +10316,9 @@
 			"",
 			"**Guardian of Jandelay (Su)** The Oliphaunt was created to live in Jandelay, and attempting to remove it from the place is almost impossible. The Oliphaunt can prevent a gate or similar effect from opening inside Jandelay's borders unless the effect was created by an artifact or cast by a mythic character. If brought outside Jandelay, the Oliphaunt attempts a Will saving throw each day to return. The DC is equal to the DC of the spell that transported it, or the DC that spell would have if it allowed a saving throw. The return of the Oliphaunt triggers a magical punishment on those that stole it, laying waste to people and land. Centered on the point from which the Oliphaunt just departed, the ward triggers a mass hold monster spell targeting all creatures in a 5-mile radius. Then, that area is affected by an earthquake and storm of vengeance that last 1d12 months. While in Jandelay, the Oliphaunt's dimensional lock aura extends to protect the entire realm.",
 			"",
-			"**Massive (Ex)** The Oliphaunt is so enormous in scale that it gains the benefits of a kaiju's massive ability (see Pathfinder RPG Bestiary 4).",
+			"**Massive (Ex)** The Oliphaunt is so enormous in scale that it gains the benefits of a kaiju's massive ability.",
 			"",
-			"**Ruinous Tusks (Ex)** The Oliphaunt's gore attacks are treated as adamantine, and any creature hit by one is affected by a targeted greater dispel magic spell.",
+			"**Ruinous Tusks (Ex)** The Oliphaunt's gore attacks are treated as adamantine, and any creature hit by one is affected by a targeted [greater dispel magic](spell/greater_dispel_magic) spell.",
 			"",
 			"**Ward against Command (Su)** The Oliphaunt is immune to any mind-affecting spell or effect unless the Oliphaunt has line of sight to the caster. Even then, all mind-affecting spells and effects gain the language-dependent descriptor. Magical means of translation such as tongues do not bypass this restriction.",
 			"",
@@ -10278,7 +10328,22 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Only once did the Oliphaunt of Jandelay set foot on Golarion. A runelord of Thassilon, a precursor of Karzoug, had the knowledge to call the creature, and the ambition and ego to do so despite the risks. He erected the Spindlehorn, a slender tower of dark slate thousands of feet tall, in the Wyvern Mountains simply so he could look the Oliphaunt in the eye and attempt to control it. And control it he did.",
+			"",
+			"The Oliphaunt caused the carnage the runelord intended, destroying an invading army from Azlant. Black clouds sprang from a clear sky around the mountain of a creature, and lightning and hail shot down on the amassed troops. Every impact of the thing's foot shook the ground, and the thunder of the Oliphaunt's march through the armies drowned out even the screams of the dying thousands. A massive valley marked the path where the Oliphaunt trod, with entire cities lying buried underneath the earth by the crushing footfalls.",
+			"",
+			"But even a runelord couldn't control such power forever, and the wards protecting the Oliphaunt continued to draw it back to its home realm of Jandelay. The legion following the runelord's ally, Runelord Xanderghul, suffered the parting punishment when the Oliphaunt vanished, torn back to Jandelay. A quarter of Xanderghul's legion froze still in their tracks, then were ripped apart by chaotic, bloody storms and repeated earthquakes left in the Oliphaunt's wake.",
+			"",
+			"In spite of the repercussions of calling the Oliphaunt of Jandelay, spellcasters of great influence and arrogance still attempt to recreate the singular feat of calling it to Golarion. Desperation drives most who try, most notably the Runelord Alaznist, who was prepared to call the beast down upon Karzoug as he prepared to finally march on her territory. Only Earthfall cut Alaznist's plans short.",
+			"",
+			"Since the fall of the runelords and Thassilon, lore about the Oliphaunt and Jandelay has become much harder to come by-but it's far from forgotten. Ancient liches still work away in secluded laboratories to recreate the complicated means that once before called forth the great Oliphaunt, meticulously reconstructing what few scraps of ancient records they can find. Speculators collect all sorts of relics purported to be chunks of tusk that sloughed off the beast, vials of water collected from lakes formed by the Oliphaunt's tears, and all manner of other curiosities. Few eyewitness accounts remain, since most who saw the Oliphaunt died.",
+			"",
+			"Few alive on Golarion even know about the Oliphaunt, but even fewer understand what Jandelay itself is. Some believe it's the name of the person who first scribed a tale of the Oliphaunt, others think it's an even greater progenitor beast that spawned the creature. Those who've deeply researched to topic found only a few hints. The most compelling of these are within the epic poem Jandelay, as inscribed at the base of the Spindlehorn. The poem tells of the Oliphaunt's rampage and the other legendary acts of the runelord who summoned it (though lacking specific details of how the runelord pulled off this feat). However, within the poem is a cipher that when translated reveals these words:",
+			"",
+			"Jandelay, proof against the Maelstrom,  ",
+			"Jandelay, of green fields and faultless spires;  ",
+			"No sane soul born dares trespass fair Jandelay  ",
+			"For the Oliphaunt guards you always."
 		],
 		"short_description": "The elephantine creature is titanic in scale. Curving tusks frame its flexing, muscular trunk and its canyon of a mouth.",
 		"is_unique": true,
@@ -10292,9 +10357,7 @@
 		"alignment": "CE",
 		"size": "large",
 		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"giant"
-		],
+		"creature_subtypes": [ "giant" ],
 		"str": 25,
 		"dex": 19,
 		"con": 21,
@@ -10356,7 +10419,11 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"The grotesque marsh giant known as Oozlosh is the high priest of a large tribe in Varisia's Mushfens. His reputation has spread throughout the entire wetlands, and he regards himself as the unofficial ruler of all marsh giants in that wild region. He earned notoriety by bringing many goblins in southern Varisia under his heel and establishing relations with the swamp's boggards. Little occurs among the marsh giants of the Mushfens that the high priest does not command (or at least tolerate).",
+			"",
+			"The Mushfens are bordered on the south by Conqueror's Bay, forming a long coastline where the brutes practice their frightening rituals to Dagon. They are visited often by the demon lord's sea-spawn, resulting in many births of deformed brineborn. One of Dagon's horrific emissaries stays with Oozlosh's tribe occasionally, reveling in the giants' vulgar devotion. It has tasked Oozlosh with safeguarding the tribe's brineborn until they are called to fulfill a dark purpose, a secret the high priest guards with his life.",
+			"",
+			"Oozlosh's zealotry for Dagon knows no bounds. He debases himself physically to honor the demon lord and expects his followers to do the same. The high priest's swamp hovel is not grand, but in the muck around his shack, he secretly conceals prizes scavenged from the tribe's victims. Oozlosh also keeps a cage of shocker lizards outside his home, having become addicted to the jolts he receives when chewing the creatures."
 		],
 		"short_description": "This creature has the bulbous eyes of a fish, and his mottled green skin glistens with slime where it isn't bedecked in gaudy jewelry.",
 		"is_unique": true,
@@ -10370,9 +10437,7 @@
 		"alignment": "NE",
 		"size": "huge",
 		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"giant"
-		],
+		"creature_subtypes": [ "giant" ],
 		"str": 34,
 		"dex": 17,
 		"con": 23,
@@ -10472,7 +10537,7 @@
 			"",
 			"**Source** [Giants Revisited pg. 21](source/giants_revisited)  ",
 			"**XP** 204,800  ",
-			"Male fire giant [fighter](unknown/fighter) (polearm master) 9  ",
+			"Male fire giant [fighter](class/fighter) (polearm master) 9  ",
 			"LE Large humanoid (fire, giant)  ",
 			"**Init** +3; **Senses** low-light vision; Perception +29",
 			"",
@@ -10518,9 +10583,7 @@
 		"alignment": "LN",
 		"size": "medium",
 		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"sasquatch"
-		],
+		"creature_subtypes": [ "sasquatch" ],
 		"str": 22,
 		"dex": 19,
 		"con": 18,
@@ -10574,7 +10637,11 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Travelers passing by the Churlwood in Varisia might hear tales of a longlived sasquatch who has inhabited the woods for almost 50 years now. Trackers recognize the sasquatch's unique trail thanks to a birth defect that left the sasquatch with a distinctive gait. Locals in the area refer to the sasquatch by nicknames such as \"Old Limpy,\" but the Shoanti call the honored being Paakis-si.",
+			"",
+			"Many among the Shoanti claim that Paakis-si has lived for thousands of years. They poetically describe Paakis-si as more nature spirit than living creature, a guardian of the woods who protects the natural creatures and punishes those who would seek to despoil the sacred land. The scar that runs across his face and the soul-piercing gaze of his cerulean eyes lends evidence to the Shoanti's fables, and those who encounter the legendary sasquatch know he is no ordinary member of his elusive species. The magical tree branch he wields as a deadly club lends further evidence to such claims, and many believe the ancient being found his weapon at the same time he received his characteristic scar.",
+			"",
+			"Those who have caught a glimpse of Paakis-si report that the sasquatch appears extremely healthy and vital for a semicentennial, and whether he is actually a thousandyear- old nature spirit or just an unusually long-lived and wise sasquatch is left up to debate. Travelers passing near to or through the Churlwood often consider it a lucky omen to spot Paakis-si's signature footprints."
 		],
 		"short_description": "A wicked scar runs the length of this blue-eyed, apish humanoid's face, and he wields a dislodged tree trunk as a club.",
 		"is_unique": true,
@@ -10637,7 +10704,15 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Along the western border of the Mwangi Expanse, across Rechiend's Plains, rumors abound of an especially old chupacabra with wings that sprout from his back. Years have added swiftness and cunning to the beast the locals call \"Papa Chupar.\"",
+			"",
+			"Elders remember tales of Papa Chupar as far as 30 years back, an unusually long time for a chupacabra to live. Some tell a folk tale about a lazy, greedy youth who preferred begging off his neighbors rather than working for an honest living. One day, the youth reluctantly agreed to herd goats in exchange for food when no one would give him a meal for free. Rather than drive the goats to the pasture, the youth let them graze in a nearby graveyard. Outraged at this insolent act, the spirits of the buried ancestors cursed the youth. He took the form of a chupacabra, doomed to forever prey on animals for sustenance, shunned and feared by his former neighbors. The locals say that only death will free the boy's spirit, but Papa Chupar is far too quick and clever to be easily slain.",
+			"",
+			"Those who have spotted Papa Chupar describe a creature almost 7 feet from nose to tail, standing 5-1/2 feet tall. Gray-green hide thicker than an ordinary chupacabra's seems to draw shadows around it, and two leathery, scaled wings stretch out from the beast's spine. Papa Chupar's eyes glow crimson, and his talons and spines are a deep burgundy. The hilly terrain affords cover that Papa Chupar takes full advantage of.",
+			"",
+			"Unlike most chupacabras, Papa Chupar is willing to attack adult humanoids and often targets lone travelers, or even travelers in pairs. The chupacabra is particularly clever and vicious, and studies prey for at least an hour before striking. If possible, Papa Chupar prefers to sneak into camps at night and drain blood from sleeping victims. Though a victim's panicked screams wake the whole camp, Papa Chupar easily takes to the sky, invigorated, and flies off. If a watch is set, Papa Chupar has learned to flush small animals from their nests to create a distraction, hoping to lure the guard away and leave sleeping travelers vulnerable to his attack.",
+			"",
+			"Papa Chupar has a wide territory, and homesteads from Bloodcove to Nantambu take extra care guarding their herds at night."
 		],
 		"short_description": "Black spines run down the length of this lanky, reptilian creature's back, and short wings protrude from its hunched shoulders.",
 		"is_unique": true,
@@ -10704,7 +10779,19 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"The automated orrery atop the Prismatic Lantern takes no defensive actions against intruders except when attacked or if commanded to do so by the wielder of a crystal control rod.",
+			"",
+			"### Construction",
+			"",
+			"A prismatic orrery must be built around a demiplane, using rare metals and delicate optics worth a total of 50,000 gp.",
+			"",
+			"#### Prismatic Orrery",
+			"",
+			"**CL** 17th; **Price** 170,000 gp",
+			"",
+			"#### Construction",
+			"",
+			"**Requirements** Craft Construct, animate objects, permanency, prismatic sphere, true seeing, creator must be caster level 17th; **Skill** Craft (clockwork) DC 25; **Cost** 110,000 gp"
 		],
 		"short_description": "A series of metal rings rotates around a giant prismatic sphere.",
 		"is_unique": true,
@@ -10718,9 +10805,7 @@
 		"alignment": "NE",
 		"size": "gargantuan",
 		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"fire"
-		],
+		"creature_subtypes": [ "fire" ],
 		"str": 29,
 		"dex": 23,
 		"con": 24,
@@ -10801,9 +10886,7 @@
 		"alignment": "LN",
 		"size": "large",
 		"creature_type": "monstrous humanoid",
-		"creature_subtypes": [
-			"cold"
-		],
+		"creature_subtypes": [ "cold" ],
 		"str": 24,
 		"dex": 14,
 		"con": 17,
@@ -10859,7 +10942,11 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"High in the peaks of the World's Edge Mountains lies a remote monastery that is home to a most unusual order of monks-one in which all the brothers and sisters are yetis. The monks call themselves the Qaishan, which roughly translates to \"Warriors of the White\" or \"Snow Guard,\" and while most Taldans assume the yetis raided the monastery long ago and now act as poor imitations of its previous tenants, the local yetis tribes know the truth: that the Qaishan have inhabited such monasteries and carried out their sacred duty since times immemorial.",
+			"",
+			"The Qaishan are responsible for guarding their brethren and other residents of the mountain from the monsters that slip through the cracks in reality near the mountain peaks. Scholars would know to identify these creatures as scarlet walkers and denizens hailing from the nightmare realm of Leng; the yeti monks care not for such trivial distinctions' to them, these invaders are simply an unnatural evil force that requires swift and brutal extermination.",
+			"",
+			"Qaishan monks train their minds and bodies so they can protect the peaks as required by their sacred oaths. They use a unique combination of feral combat and hardened discipline to ward off interplanar invaders as well as foes who would seek to hinder or distract their order. Instead of landing successive strikes with their fists, they rely on their deadly claws to inflict horrendous gashes that blaze with pain thanks to the supernaturally cold energy that infuses their blows. Those seeking to learn the secret techniques of the Qaishan are politely ushered away, and those who press their luck experience the swift and brutal wrath of the normally staid yetis."
 		],
 		"short_description": "This furry hominid's orange eyes blaze not with fury but with wisdom, and the white hair around its face is streaked with gray.",
 		"is_unique": true,
@@ -11470,7 +11557,11 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"To accelerate its evolution, Quetzutrhul exposed itself to radiation and other mutating forces. This caused it to develop increased speed, rapid healing, and prehensile use of its proboscis, but at the cost of its ability to relate to others of its kind. Its ego swollen as a result of its advanced form, Quezutrhul led a half dozen other intellect devourers away from Ilvarandin in hopes of using its new abilities on Golarion's surface. They emerged from the Darklands along the Varisian Coast and onto a transport ship headed for the Ironbound Archipelago. Posing as simple passengers, the intellect devourers quickly learned the basics of navigation from the crew before switching hosts to replace them.",
+			"",
+			"Along the way, a pirate vessel off their bow provided an unanticipated opportunity. Not suspecting the intellect devourers' presence, the pirates boarded the ship to find the crew seemingly dead. With the raiders' guard down, Quetzutrhul and its allies overtook the pirates and claimed their ship, the Jade Adder, as their own.",
+			"",
+			"Now, Quetzutrhul plies the waters of the Arcadian Ocean, spreading its own version of piracy. The Jade Adder's captain and crew are never the same for longer than a few months at a time, and their unorthodox and rapidly evolving nautical tactics have made and putting an end to its piracy difficult."
 		],
 		"short_description": "This brainlike creature has two clawed legs emerging from its fore and rear and a serpentine proboscis clutching a dagger.",
 		"is_unique": true,
@@ -11484,9 +11575,7 @@
 		"alignment": "N",
 		"size": "large",
 		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"giant"
-		],
+		"creature_subtypes": [ "giant" ],
 		"str": 25,
 		"dex": 19,
 		"con": 22,
@@ -11549,7 +11638,9 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Rahstalshan was scarcely old enough to speak when her parents and clan were slain by a tribe of raiding Mammoth Lord Kellids. The raiders tried to take the young stone giant to raise as their own, but she narrowly escaped their clutches, fleeing deep into the Tusk Mountains, orphaned and alone. For the next 700 years, she wandered throughout the peaks of Avistan, staying briefly with each stone giant clan she met along the way. From the Tusks to the Mindspins she roamed, though she was inevitably drawn to leave each new tribe soon after she discovered them. During these journeys she claimed her giant name, Rahstalshan, \"the wanderer in stone.\"",
+			"",
+			"Despairing of ever finding a true home, Rahstalshan felt the pull of the towering Kodar Mountains. Choosing a peak at random, she climbed and climbed, heedless of the biting cold. Near the mountain's top she found an inviting cave overlooking the sprawling lands of the frozen north. Though she had no way of being sure, the ancient stone giant felt that these mountains were her true homeland. Settled in her cave, at peace, she waited for death to take her. Instead, for the first time in her long life, she heard the whispers in the stone, awakening within her the ancient earth magic of her people. She descended from the heights and soon came upon a fledgling tribe of stone giants, bereft of an elder and as lost as she had been. She has guided their path ever since."
 		],
 		"short_description": "This sagely stone giant wears loose furs and a long cloak, and wields a large stone club covered with crystals.",
 		"is_unique": true,
@@ -11564,9 +11655,7 @@
 		"alignment": "CE",
 		"size": "huge",
 		"creature_type": "dragon",
-		"creature_subtypes": [
-			"mythic"
-		],
+		"creature_subtypes": [ "mythic" ],
 		"str": 31,
 		"dex": 12,
 		"con": 23,
@@ -11664,9 +11753,7 @@
 		"alignment": "NE",
 		"size": "large",
 		"creature_type": "outsider",
-		"creature_subtypes": [
-			"native"
-		],
+		"creature_subtypes": [ "native" ],
 		"str": 22,
 		"dex": 17,
 		"con": 19,
@@ -11729,7 +11816,9 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"The legendary Sandpoint Devil has haunted the lands around its namesake town on the western Varisian coast for well over a decade. It most commonly appears on misty, moonless nights, sometimes leaving behind strange clues to its passing, such as brimstone-smelling hoofprints in odd places (such as along the eaves of a steep roof ).",
+			"",
+			"A thief of livestock, kidnapper of children, and bringer of woes-countless tales surround the beast. Some explain away the creature as an ancient, wizard-warped beast from a forgotten age. Others hold that the monster was borne by a cursed witch who broke an oath with a devil. Yet perhaps the most disturbing rumors point to the possibility that the creature is but one of many that dwell in the wilds."
 		],
 		"short_description": "This mangy horselike beast walks perversely upright. Wings, a dragon's tail, and a fanged mouth complete its vile appearance.",
 		"is_unique": true,
@@ -11743,9 +11832,7 @@
 		"alignment": "CG",
 		"size": "huge",
 		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"giant"
-		],
+		"creature_subtypes": [ "giant" ],
 		"str": 40,
 		"dex": 18,
 		"con": 25,
@@ -11809,7 +11896,7 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Scyld Hranni is a revered storm giant warrior, her family originally hailing from a small islet just west of the island of Thuryan in Cheliax. The Hranni family gave up their holdings not long after Cheliax bound their fate to the devils of Hell, and since their disbanding, Scyld has searched for purpose amid the vast waters of the Arcadian Ocean, traveling along the coast of southern Avistan and northern Garund. Other storm giants regard her violet hair as a sign of being blessed by the gods, a notion she encourages through her devoted worship of Aegirran. Clad in sleek mithral armor and a barnacle-encrusted shield of driftwood and jagged coral, Scyld trains the myriad sea creatures of the Arcadian Ocean to help her in her search for purpose and her ambitions of eliminating evil throughout the region."
 		],
 		"short_description": "This purple-haired giant has dark bronze skin and piercing eyes; she wields an electrified trident and a coral-encrusted shield.",
 		"is_unique": true,
@@ -11907,7 +11994,9 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Shamira, the Ardent Dream, is the nominal ruler of the isle of Alinythia, and by extension the city of Alushinyrra, but with the honor of ruling the largest of the Midnight Isles comes with an unwritten caveat-Nocticula's palace overlooks the city from its own isle. While this position is one that Shamira revels in, and one that has afforded her no small amount of influence (indeed, it's helped to propel her into the ranks of nascent demon lords), the Ardent Dream knows that her mistress watches over her always, and surely regards her not only as a valued lover, companion, and minion, but also as the closest thing Nocticula has to competition. Of course, Shamira does keep an eye out for any opportunity she has to erode some of Nocticula's power, for someday she hopes to wear Nocticula's crown.",
+			"",
+			"Shamira is unique in her appearance. Even before she became a nascent demon lord, her burning wings and flowing crimson hair marked her as a succubus of power. Close-lipped about her history, she appeared in Nocticula's palace one moonrise and seduced the Lady in Shadow, thus earning the position of Lady of Alinythia. (Nocticula banished Shamira's predecessor, an incubus named Ziforian, to the sewers below the city, where he may yet lurk.) None in the Abyss recall this majestic and unmistakable succubus in the city before her arrival in Nocticula's boudoir. Shamira does little to quell rumors that her previous home was a much loftier place than the Abyss, and her resemblance to the deity Sarenrae provides endless speculation."
 		],
 		"short_description": "This crimson-haired demonic woman has wings of fire. She carries a slender bow made of flames.",
 		"is_unique": true,
@@ -11988,7 +12077,11 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Even before he was recruited by Deskari to raze the Green Faith from Sarkoris, the vrolikai Shaorhaz had a long tradition of antipathy toward the druidic faith. When Shaorhaz first came to the Material Plane to grow, he had the misfortune of appearing in the small village of Rookhill in southeastern Ustalav. At first, Shaorhaz met little opposition from the villagers, and he fed with impunity. But then a cabal of druids came to Rookhill's aid, and Shaorhaz found his hunting grounds increasingly well guarded and dangerous. Stubborn to a fault, the nabasu refused to move on to easier hunting grounds elsewhere, and time and time again, he clashed with the druids. With each attempt to kill them, though, the druids grew more and more adept at fighting the nabasu, and with each dawn, it seemed that the very wilderness in which he had enjoyed hiding for so many months was turning against him. When the nabasu was nearly slain by the druids' treant ally, he made a desperate attempt to assassinate their leader. This foolish assault earned the nabasu nothing more than the loss of his accumulated growth, as the druid sacrificed his life to return the spiritual energies the demon had fed upon to the land. Only then did Shaorhaz flee Ustalav, teleporting to another wilderness to start over. It took the demon 10 times as long as he'd hoped to finally achieve apotheosis and transform to a vrolikai, and in that time, his hatred of the druidic faith only grew.",
+			"",
+			"Today, Shaorhaz rules over the ruins of the Forest of Stones in what was once northern Sarkoris. This region, known today as the Stonewilds, was once sacred to the Green Faith, but now the only druids who remain are the warped and twisted undead abominations known as siabraes, for when it became clear that Shaorhaz had won the battle, the last few druids turned again to sacrifice to defeat the demon. Yet this time, the tactic did not work. This time, Shaorhaz was prepared, and the vile energies he commanded reflected back upon the druids, turning them into the very things they detested most. Since then, Shaorhaz has spent the majority of his time within his palace, Greengrave, searching for a way to feed not on more mortal souls but upon the very soul of Golarion itself.",
+			"",
+			"Shaorhaz prefers offerings of druids, especially those of the Green Faith. He often promises to let these offerings live if they can reveal to him something of the druidic faith that he has not already confirmed for himself-those druids foolish enough to take the demon at his word get the deaths they deserve. It's a DC 33 check to research the Glutton of the Green."
 		],
 		"short_description": "This four-armed nightmare stands with an elegance that seems out of place, given its demonic visage. Huge black wings fan behind its back, and flickering black blades burn in its hands.",
 		"is_unique": true,
@@ -12346,7 +12439,17 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Talmandor is the celestial patron of Andoran and a great leader of the avoral agathions, surpassed among their kind only by the empyreal lord Ylimancha, the Harborwing. Talmandor abides in the aptly named Soaring Palace of Talmandor the Golden on the plane of Nirvana, yet travels frequently among the planes. In addition to looking in on the nation that has arisen under his wings, he wanders the Outer Sphere, often acting as an ambassador between mortal priesthoods and the immortal servants of Erastil, Iomedae, and Shelyn.",
+			"",
+			"Like most agathions, Talmandor takes an interest in influencing mortals and bringing them to a place of enlightenment. He is convinced that the greatest enlightenment for mortals can be achieved through social interaction. He has observed that mortals respond best to a full, robust engagement with their fellow citizens, and that it's important to have a voice in the decisionmaking process of one's society. Talmandor sees hereditary aristocracy and primogeniture as shackles slowing society's ascent into a place of justice and peace where all citizens work together for the common good. Talmandor does not want the rights and importance of individuals to be sacrificed for the greater good, and advocates a balance between collective needs and communitarian works on the one hand and the individual's personal responsibilities and liberties on the other.",
+			"",
+			"According to popular legend, Talmandor developed his democratic theories and shared them with the mortal poet Darl Jubannich, who transcribed them in his nowfamous treatise, On Government. However, while Talmandor favored overturning established structures of power where necessary, he never promoted anarchy and has long felt great sadness over how the core tenets of his political philosophy have been twisted beyond recognition in Galt. He strives to promote moderation and peaceful reconciliation within government, even in times of upheaval.",
+			"",
+			"In some parts of Andoran, the adulation Talmandor has earned goes beyond respect to outright worship. The agathion steadfastly refuses to seek godhood in his own right, as he believes he can be a better inspiration to the goals of democratic freedom as a powerful outsider who can aid the mortal citizens of Andoran in times of great need, rather than becoming a godlike creature they worship from afar. Talmandor typically assists only those he feels have earned the right to call upon any ally of Andoran, though he is pleased to give advice to anyone if asked in earnest. He often appears to speak when called upon by the People's Council, offering what guidance he can, but never insists that his suggestions be enacted. He has been known to appear at the meetings of smaller city and town councils as well, though as a guest he does not speak until the council asks him to. Only if Andoran faced some threat it found impossible to handle on its own without his aid would Talmandor take direct action to protect the nation, though his regular presence is certainly considered carefully by Andoran's enemies.",
+			"",
+			"Though Andoran celebrates a feast day in his honor on 4 Erastus, Talmandor insists the celebration is held to honor him in his capacity as one of many heroes of the nation, rather than as its divine protector. Despite his refusal of the mantle of divinity, a few in Andoran (including a small but growing number of oracles and paladins) revere him as a nascent demigod embodying the virtues of hope, liberty, and community, and his worship has begun to grow in small congregations across the country.",
+			"",
+			"Talmandor is closely associated with birds of prey and as a result is the patron of the Steel Falcons order of the Eagle Knights of Andoran, as well as a frequent advisor to leaders within the order. Talmandor inspires their work as ambassadors of liberty, and he sometimes even sends aid to those in the midst of dangerous political missions aimed at cultivating peace. Those who rise to greatness also receive Talmandor's direct blessing, which he sees as a rightful reward for good works and a tool that allows those blessed to achieve even greater things. If called to serve through powerful magic (such as gate), Talmandor generally answers but refuses to grant direct assistance except to those overwhelmingly outmatched by evil foes. Even then, he generally requires any aid he gives be paid for in massive donations to the poor and oppressed, though he also often offers a free alternative to his direct involvement, such as receiving his blessing (often crafted with miracle) or gaining some insight into the caller's foes."
 		],
 		"short_description": "This gloriously plumed anthropomorphic eagle has feathers tipped with shimmering gold, and claws with sharp black talons.",
 		"is_unique": true,
@@ -12360,9 +12463,7 @@
 		"alignment": "CN",
 		"size": "huge",
 		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"giant"
-		],
+		"creature_subtypes": [ "giant" ],
 		"str": 35,
 		"dex": 18,
 		"con": 26,
@@ -12420,7 +12521,7 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Tanaq Mammoth-Eater is a savage shaman among his clan of taiga giants, and his prowess in both the arctic cold and the towering heights of the Tusks proves the title was rightfully earned. A century ago, he led the tribe from their previous home in Red Rune Canyon in the Realm of the Mammoth Lords when their preferred mammoth-hunting grounds started to reek foully of demonic taint. He wields his father's bloodstone impaler, one of the first of its kind crafted by his people, and his hatred for the Kellid raiders who years ago slew his family still burns fiercely within him."
 		],
 		"short_description": "This towering, gray-skinned giant holds a massive spear, its crimson haft sporting a head of barbed and blackened stone.",
 		"is_unique": true,
@@ -12489,7 +12590,9 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"One of the scant handful of young neothelids on Golarion, Thath-Malal has seen only a millennia of life since emerging from its egg, and its power pales in comparison to that of older neothelids. Abstaining from the greater neothelid community's struggle against the intellect devourers of nearby Ilvarandin, Thath-Malal sought out new regions in which to establish itself as a force to be worshiped. It shared none of its progenitors' desires to see Shub- Niggurath's return to Golarion, and eventually left Denebrum entirely. Thath-Malal now resides in the lowest levels of Tian Xia's Darklands, having found its way there by the guidance of determined seugathi explorers and has had several centuries to formulate its strategy for convincing the other species in the area to pay it appropriate tribute.",
+			"",
+			"Nesting below Dtang Ma, Thath-Malal sends its clutches of seugathi children to entice the residents of the jungles above into worshiping it. Thus far, the young neothelid has enjoyed success among the rural jungle villages, its seugathi convincing the local populace that their master represents one of the nation's abandoned spirits-Yola-At, the Saint of the Pathways Below. Amused, Thath-Malal hopes to expand its influence into Nagajor and Po Li."
 		],
 		"short_description": "This immense, eyeless worm is covered in a midnight blue hide. Four barbed tongues wriggle out from its open, lily-shaped maw.",
 		"is_unique": true,
@@ -12509,9 +12612,7 @@
 		"alignment": "N",
 		"size": "large",
 		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"mythic"
-		],
+		"creature_subtypes": [ "mythic" ],
 		"str": 27,
 		"dex": 14,
 		"con": 24,
@@ -12579,9 +12680,7 @@
 		"alignment": "N",
 		"size": "huge",
 		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"aquatic"
-		],
+		"creature_subtypes": [ "aquatic" ],
 		"str": 26,
 		"dex": 18,
 		"con": 21,
@@ -12644,7 +12743,9 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"She has dwelled beneath the fen for centuries, an elemental thing of the choking, rotting lands she cradles like a newborn babe. The changeling witches who worship here gave the Mistress of the Fen her name, and ask her to teach them the secret whispered words of wild places, calling to her in the dark and drowning sacrifices in her name. Though they were born to the same despicable hag mother, the witches were raised by the orm. They are beautiful beyond compare, and they use their allure and wiles to draw travelers to their swampy home. Invariably, such victims end up in the waiting jaws of the Mistress of the Fen.",
+			"",
+			"Those who live on the edges of the fen avoid the place despite the lure of easy fishing and lost funeral barges said to be crammed with treasure. They know of the Mistress, her followers, and her sacrifices. Many suspect it was the changelings who gave the orm her powers over rot and fecundity, but the witches deny this, claiming that the Mistress has always possessed such gifts. Their chants can be heard at all times across the murky waters of the swamp, and on moonless nights, one can catch a glimpse of the changelings as they take turns kissing the fetid jaws of their revered mother and drinking in her pestilence."
 		],
 		"short_description": "This arching, reptilian creature has an elongated neck and short fins. Its jagged teeth hint at its primordial nature, and the abundant plant growth covering its body suggests both fertility and rot.",
 		"is_unique": true,
@@ -12658,9 +12759,7 @@
 		"alignment": "CE",
 		"size": "colossal",
 		"creature_type": "aberration",
-		"creature_subtypes": [
-			"aquatic"
-		],
+		"creature_subtypes": [ "aquatic" ],
 		"str": 44,
 		"dex": 16,
 		"con": 29,
@@ -12716,7 +12815,9 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"The oldest Darklands sages speak in hushed tones of a creature called the Mourning One-a thing created, they say, in the Land of Black Blood, one of Orv's vast and terrible Vaults. The Mourning One only recently escaped its Darklands prison, winding its way through the perilous tunnels of Orv up into Sekamina, and now dwells in Lake Nirthran-the Dying Sea.",
+			"",
+			"The ghouls of Nemret Noktoria have seen the Mourning One slide through the waters of Lake Nirthran, and avaricious necromancers among their kind occasionally undertake voyages to try to capture the beast for the valuable black blood that seeps from its pores. The skum of Cold Momugado, on the other hand, do not seek the creature for its strange properties-most merely wish the nuisance dead and gone, as it has proven a menace to skum scavengers and raiders since its first sighting. Still other inhabitants of the Darklands would like to see the Mourning One put to different uses-in Delvingulf, drow fleshwarpers view the monstrous sea serpent as a figure of great awe as well as potential. If it were to be captured, they could perhaps learn how to further utilize the strange substance known as black blood in subsequent experiments."
 		],
 		"short_description": "This colossal serpent's skin is like that of decayed, bruised corpses. Cancers rupture from its flesh, and a terrible sickening flow of black blood oozes from each break and sores.",
 		"is_unique": true,
@@ -12730,9 +12831,7 @@
 		"alignment": "CE",
 		"size": "medium",
 		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"elf"
-		],
+		"creature_subtypes": [ "elf" ],
 		"str": 10,
 		"dex": 16,
 		"con": 14,
@@ -12789,7 +12888,9 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Born Ilyxaria, daughter of a merchant in the drow trading outpost of Delvingulf, this daring drow grew to doubt her small family's worship of the demon lord Mestama, the mother of hags and witches. When the young drow began suffering vivid nightmares-thought by her mother to be demonic boons-rather than embrace them, she retreated across Lake Nirthran in fear. Eventually, her flight brought her to the surface world, in the barren deserts of Thuvia. Dying of thirst and sun exposure in the unfamiliar lands, Ilyxaria was saved by a coven of hags, who declared her salvation the will of Mestama.",
+			"",
+			"Almost a century later, a mysterious drow trader bringing slaves from the deserts of the surface world first appeared in Delvingulf. Selling her wares to both drow and ghouls alike, this drow proclaimed herself the Surface Caller, a servant of Mestama. Her trademark is to give away every third slave from her stock, taking no payment from the buyer, but removing one of the slave's eyes. What use the Surface Caller has for these eyes is anyone's guess, but she claims it serves Mestama."
 		],
 		"short_description": "This blue-skinned elf has milk-white eyes, a glowing punching dagger, and a shield embossed with a demonic face.",
 		"is_unique": true,
@@ -12900,9 +13001,7 @@
 		"alignment": "LE",
 		"size": "medium",
 		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"dwarf"
-		],
+		"creature_subtypes": [ "dwarf" ],
 		"str": 18,
 		"dex": 12,
 		"con": 16,
@@ -12959,7 +13058,9 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"The duergar clergy of Droskar generally avoid direct combat, preferring instead to command hordes of mercenary forces in battle on their behalf. Almara Kazaar is one of the few priests of the Dark Smith who prefers to wade into the thick of battle herself, meting out the dark fury of her god with the head of her warhammer. In combat, she is cold and calculating, and prefers to first use her numerous spells to improve her physical abilities and then unleash other debilitating effects at range. She wields her warhammer in close quarters, not hesitating to use her racial spell-like ability to increase her size and strike at as many foes as she can.",
+			"",
+			"The leader of Droskar's faithful in Mabbryn, Almara spends much of her time in the Forge Quencher- the massive fortress that protects Mabbryn's water supply. Much of Almara's daily life is fraught with political squabbles with Mabbryn's military leader, Margrave Daguda Urgadan. Nicknamed the \"Would-Be Queen\" by members of Droskar's faithful, Almara maintains a tense relationship with Daguda, but hopes to replace the other political leader of the city one day."
 		],
 		"short_description": "This gray-skinned dwarf wears iron plates over a set of purple and magenta robes and carries a warhammer.",
 		"is_unique": true,
@@ -13054,7 +13155,11 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Treerazer, the self-styled Lord of the Blasted Tarn, was once the favored minion and lieutenant (some even say child) of Cyth-V-sug, Demon Lord of Fungus and Parasites. After a failed attempt to wrest that crown away from Cyth-V-sug, Treerazer fled to the Material Plane. Cyth-V-sug was unable (or perhaps only unwilling) to pursue, but took steps to ensure that Treerazer would remain there by exiling him, transforming Treerazer into a native outsider and severing his bond to the Abyss-if the Lord of the Blasted Tarn is slain, his animus will not return to the Abyss and reform. Death, to Treerazer, is a permanent thing.",
+			"",
+			"Treerazer arrived on Golarion near the end of the Age of Darkness, and found the savaged planet much to his liking-so much so that the sting of exile was somewhat ameliorated. He spent many centuries wandering the remote corners of Golarion before finally coming upon the abandoned elven nation of Kyonin in 2497 ar. In the Sovyrian Stone, he found an artifact that he believed he could use to reinstate his Abyssal link and, perhaps, even uproot the entire nation and refocus the portal from Sovyrian to the Abyss, thereby reclaiming his position there and taking one more step toward revenge against Cyth-V-sug. Yet the elves sensed his tamperings and returned to confront the demon. A terrific battle resulted, and while the elves were able to drive Treerazer out of Iadara and into southern Kyonin, they were unable to slay him or force him out completely-they merely concentrated his power in a smaller region. Instead, the elves -walled off - this region, a perverted realm known today as the Tanglebriar. Treerazer lurks at the Tanglebriar's heart to this day, the greatest bogeyman in elven mythology and a very real and constant threat to the nation's security.",
+			"",
+			"Treerazer begins most combats by casting time stop and raising an antiplant shell to prevent plant creatures (including creatures under the effect of his aura of corruption) from approaching. If he has time, he also creates walls of thorns and summons demons (usually four nalfeshnees and 12 hezrous). In melee, Treerazer gleefully takes up Blackaxe and makes full attacks against the closest foe, or Greater Vital Strikes if he's forced to move or charge. During the first 3 rounds of combat, he targets obvious spell effects with quickened greater dispel magic. If Treerazer is reduced to fewer than 150 hit points, he teleports back to his fortress, Witchbole, to recover and plan his revenge."
 		],
 		"short_description": "The twenty-foot-tall winged saurian demon wields an acid-dripping axe. Two red eyes glow above a tooth-filled beak.",
 		"is_unique": true,
@@ -13068,9 +13173,7 @@
 		"alignment": "NE",
 		"size": "medium",
 		"creature_type": "outsider",
-		"creature_subtypes": [
-			"native"
-		],
+		"creature_subtypes": [ "native" ],
 		"str": 22,
 		"dex": 16,
 		"con": 21,
@@ -13127,7 +13230,9 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Triaza is the leader of a cult of urdefhans in Varisia's Kodar Mountains that emerged from the Darklands following a failed mission for her malefactor. She led her fellow cultists upward rather than face the repercussions of her failure. Now firmly entrenched in a network of surface caverns, Triaza and her cult prey on those passing to and from the nearest major settlement-the human city of Riddleport.",
+			"",
+			"Triaza indulges the dark appetites of her underlings, even allowing her few skaveling bat riders to make short flights to pick off stragglers on the nearby roads. She has few concerns about the adventurers and mercenaries of Riddleport who investigate the attacks, but worries significantly more about retaining power. Triaza keeps the members of her cult pacified by allowing them various means of venting their depraved and violent desires, yet still worries about her tenure as ruler, given that her cult is now cut off from the rest of urdefhan society. A time may come when her underlings decide she is not fit to lead, and instead plot to push her to pair with a daemon to continue the propagation of the cult. She has no solid arguments against the importance of increasing their numbers, but is loath to accede to a plan that would take her away from the bountiful death-dealing opportunities offered by the surface world, which are the only activities in which she finds any pleasure or fulfillment."
 		],
 		"short_description": "This humanoid figure is garbed only in leather straps wrapped around her translucent skin, as well as scattered pieces of armor. She wields a wicked two-pronged blade.",
 		"is_unique": true,
@@ -13219,7 +13324,19 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Golarion first heard the name Tychilarius thousands of years ago, when various Garundi tribes gathered in the nascent nation of Osirion and began to build the great empire that would one day arise there. Little information regarding Tychilarius from this bygone era survives to the current day, and what has resurfaced is contradictory and vague. What is known is that Tychilarius is a powerful leader in the Dominion of the Black, a starfaring association of creatures from the Dark Tapestry.",
+			"",
+			"While Tychilarius's relationship with the early Osirians seems to have been primarily antagonistic, there is evidence that a few cults formed around the being. Many scholarly texts claim that these early cultists gave Tychilarius the appellation \"The Drowned God.\" That title, however, is a misnomer, for while Tychilarius is aquatic and extremely powerful, it can't grant spells and is not a god. In truth, the appellation is a mistranslation made by a scholar-cultist who was less than savvy about the intricacies of the Dominion of the Black's use of language. Older texts suggest that the closest accurate approximation of this being's title is \"They Drown the Gods in Oblivion.\" Modernday scholars, theologians, and would-be worshipers simply use the name \"Tychilarius.\" The name by which the early Osirian cultists addressed the creature has been lost to history, and most extant records suggest that they referred to the focus of their worship primarily by epithets.",
+			"",
+			"Many academics suspect that Tychilarius originally hailed from the planet Aucturn, considering the being's connection to Osirion and the countdown clocks within that country mysteriously linked to Aucturn's movement. However, recently uncovered texts retrieved from a Night Herald cult suggest that this creature's origin lies across the vastness of space in some far-flung galaxy as yet unmapped by Golarion's astronomers.",
+			"",
+			"Tychilarius seems to be a singular creature that is made up of thousands of other individual creatures fused into one horrific organism with a united intelligence. It is said that Tychilarius was birthed from a black hole into which millions of foul creatures had been pulled. They were ripped apart into mere particles and reassembled into the terror incarnate that was somehow ejected from the oblivion within the black hole.",
+			"",
+			"Tychilarius is believed to be immortal, and has traveled throughout the cosmos. Well after its creation, it likely spent time on Aucturn before coming to Golarion. Currently-mercifully-it is locked away in some manner of prison. The nature of this confinement is uncertain, but what matters is that for the moment, Tychilarius cannot reach Golarion. Scholars posit that the creature was banished while it dwelled in Osirion, perhaps by ancient Osirian wizards or clerics, and that the door and key to this prison still rest somewhere in that ancient nation.",
+			"",
+			"Cultists such as the Night Heralds have performed hundreds of rituals over the years to call Tychilarius back to this world, but to date none have succeeded. Despite these failures, the Night Heralds remain unfazed and continue their dark work. In recent years, a cell of Night Herald cultists uncovered a supposed relic that would draw Tychilarius from its prison into the body and mind of another being. Though the ritual failed and most of the cultists were slain, rumors insist the attempt was almost a success. Admittedly, these tales mostly circulate among other cultists eager to succeed where their predecessors failed. True or not, these claims have spurred an increase in such activity by the Night Heralds. While none have yet managed to free Tychilarius, their attempts have summoned a host of lesser, but still dangerous, malevolent creatures.",
+			"",
+			"Many scholars study beings such as Tychilarius out of simple curiosity or-especially among theologians of goodly churches-with an eye toward protecting the world from the ravages of these creatures. Yet the most knowledge of Tychilarius rests in the hands of those who study the Dominion of the Black and among the members of the Night Heralds, who hope to attract the attention of the creatures in the Dark Tapestry and bring about the end of Golarion. In addition to delving into this forbidden knowledge themselves, such cultists do what they can to eliminate it from the libraries of those who might use it to keep Tychilarius sealed away, stealing and destroying documents and even murdering scholars. If they ever successfully open the door to Tychilarius's prison, Golarion will certainly fall under the glaring eye of the Dominion, and it would be only a matter of time before the Dominion of the Black's organic starships begin dropping to the planet's surface."
 		],
 		"short_description": "A host of tentacles-some tipped with eyes and others ending in mouths-flail around a massive spiraling maw ringed with thousands of teeth.",
 		"is_unique": true,
@@ -13280,7 +13397,13 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"For much of its life, Uchurah led a typical gug existence as a member of a sizable camp that made its home deep in the Midnight Mountains of Orv. Unlike many of their kind, the gugs of this camp revered not the Outer Gods, but one of the many umbral dragons that nests among the towering subterranean peaks. Uchurah was poised to apprentice with the camp's spiritual leader, hoping one day to take on that role, when it began waking unrested each night, remembering horrible dreams.",
+			"",
+			"These dreams depicted increasingly gruesome scenes of slaughters and feasts, including the gug gorging on the corpse of its umbral dragon \"god\". The gug's nightmares intensified night after night, until Uchurah could no longer stand them. Mustering all its strength and rage, Uchurah slew the dragon and claimed the camp for itself.",
+			"",
+			"While many of Uchurah's fellow gugs saw its actions as a sign of strength, some believed it the ultimate heresy and retaliated against Uchurah. The usurping gug was overwhelmed by its opponents' numbers, and fled, its own followers in tow, up into the realm of Sekamina.",
+			"",
+			"Guarding one of a few select entrances to the Midnight Mountains, the rage-filled gug now leads its camp on vicious raids against nearby enclaves of drow and skum. Each victory the camp secures supports Uchurah's claims of divinity, and its followers grow more and more devoted with each passing year. Though Uchurah can't cast any spells or heal its devotees, it nevertheless leads a thriving cult that could grow to be a powerful force in the Darklands."
 		],
 		"short_description": "Though mostly covered in grime-encrusted black fur, the muscles of this creature are still plainly visible along the four forearms that emerge from its split elbows. It wears a crude bone necklace that dangles under its vertically oriented mouth.",
 		"is_unique": true,
@@ -13348,7 +13471,11 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Undrella is something of an anomaly: a harpy who grew so used to living alongside the other monsters in the ruined town of Kelmarane that she remained when a group of heroes from the civilized races moved in and resettled the area. When the region was later plagued by a powerful efreeti named Jhavhul, she found herself thrust from her adopted home and community, and swore bloody vengeance with a fury that only a harpy can muster. Though those events are now in the past, she still wears the scars of the conflict-both physically and emotionally-and is now nearly as alien to her own kind as she is to all others.",
+			"",
+			"A crack shot with her longbow-enhanced with the powers of frost during her quest for vengeance against the efreeti-Undrella is a terror on the wing, both for her well-placed missiles and her dangerously enchanting song. When confronted in person, Undrella quickly displays the narcissism that defines her personality, and is tolerant of others only so long as they flatter her, while at the same time turning every phrase into a sexual innuendo. As far as she's concerned, she's irresistible to creatures of all species, and though she may not kill all of the creatures she mates with, any who dare refuse her are quick to learn that the only thing more dangerous than a harpy's affection is her wrath.",
+			"",
+			"For more information on Undrella, see the Legacy of Fire Adventure Path."
 		],
 		"short_description": "This fierce and feral-looking woman has huge wings and clawed hands and feet, and carries a wicked-looking longbow.",
 		"is_unique": true,
@@ -13362,9 +13489,7 @@
 		"alignment": "CE",
 		"size": "large",
 		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"giant"
-		],
+		"creature_subtypes": [ "giant" ],
 		"str": 29,
 		"dex": 12,
 		"con": 27,
@@ -13418,7 +13543,9 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Urburg Armbreaker was born into a tribe of hill giants residing in the Kodar Mountains near Southmoor in the Lands of the Linnorm Kings. Cursed with an unusually small stature, he was deemed a guff by his peers and tribal leaders. The true implications did not hit him until during a hunt his own people abandoned him, leaving the young hill giant to die in the wilds of the Grungir Forest.",
+			"",
+			"After nearly 20 years of fending for himself in the untamed wilderness, he reemerged from the woods and tracked down the tribe that had abandoned him so many years before. His people hardly recognized the battlescarred Urburg, but soon found themselves in a state of dread and admiration when the vengeful giant cleaved their current chieftain's head off with one swing of his mighty club, claiming the title for himself. Anger still burns within the betrayed hill giant, and his people know to fear Urburg's frequent bouts of violent, indiscriminate rage."
 		],
 		"short_description": "This heavily scarred, towering giant wears the hide of a black dragon, and wields a massive club studded with dragon's teeth.",
 		"is_unique": true,
@@ -13432,9 +13559,7 @@
 		"alignment": "CE",
 		"size": "huge",
 		"creature_type": "aberration",
-		"creature_subtypes": [
-			"aquatic"
-		],
+		"creature_subtypes": [ "aquatic" ],
 		"str": 35,
 		"dex": 38,
 		"con": 31,
@@ -13607,7 +13732,15 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"In the ancient past, long before the rise of Azlant, during the near-mythical era known to scholars as the Age of Creation, two powerful demons met for the first time and descended to a world in the Material Plane to enjoy a short-lived but violently ardent dalliance in the mortal realm. The planet itself heaved and buckled before their blasphemous passions, thrusting upward to create a rasp-like ridge. The result of this vile union quickened much more quickly than a normal pregnancy, and the spawn of the two demons was birthed even as they continued their frolic. When the demons left the world, they left behind a landscape scarred by their coupling, and a just-whelped fiend of tremendous power and potential that slithered into a deep cave in the ridge to hide and grow.",
+			"",
+			"Certain rare texts on demonology maintain that these two demons were none other than Lamashtu and Pazuzu, and that not long after their meeting their lusts turned to hatred. Today, there is no greater enmity in all the Abyss than the hostility between those two demon lords, and both of their cults deny vehemently that such an encounter as described above could ever have taken place.",
+			"",
+			"And yet, the spawn of that union lived and grew, and in the Age of Anguish it emerged to conquer the Varisians even as they were beginning to recover from their slavery under Thassilon's rule and the devastation of Earthfall. This fiend was Uvaglor, a vrock who possessed a singular third eye in his brow that could see brief glimpses into the future. Uvaglor ruled the Varisians for many years until the desperate indigenous people invoked Lamashtu's aid in defeating the demon. The Mother of Monsters seemed eager to comply with this request, but as the battle against Uvaglor went on, her minions turned on the Varisians and attempted to destroy them as well. Only the heroics of a priestess of the empyreal lord Ashava, a woman named Sazzleru, saved the people from annihilation and liberated them from Lamashtu's influence while banishing Uvaglor from the Rasp into a nameless prison adrift deep in the Maelstrom.",
+			"",
+			"Uvaglor lives on still, but only recently managed to escape from the nameless prison to return to the Abyss. After gathering his power, he has turned his attention once again to the site of his conception-the Lost Coast of Varisia, formed when the land west of the Rasp fell into the sea. Already he has installed several of his agents, including a mysterious mothman priest known as the Red Bishop, but his actions have attracted the attention of others who would rule this region, and this time, greater eyes than those of mortals look down upon this building conflict. Lamashtu and Pazuzu's interest in the region cannot be denied, and their unknown ultimate plans, as well as Uvaglor's recent secret arrival in the region, portend dark times indeed.",
+			"",
+			"Uvaglor prefers offerings of fine art depicting imagery of Ashava, or of clerics of that empyreal lord-works of art the vrock enjoys befouling and destroying in increasingly creative methods. It's a DC 30 check to research the Misbegotten Prince."
 		],
 		"short_description": "This vulture-headed demon has crimson wings and a baleful third eye in his forehead. He is clad in lengths of chain and metal plates, and carries a cruel-looking sword in one hand and a glowing sphere of violet crystal in the other.",
 		"is_unique": true,
@@ -13679,7 +13812,9 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"Born nearly a century past, Valonesse barely survived her first months of life. At the time of her birth, much of the Kodar Mountains was suffering under a blanket of winter that had long overstayed its welcome. As many frost giants are wont to do in times of famine, the young giantess's clan had resorted to cannibalism. Valonesse's own father, the last reigning jarl of Thryheim, demanded her sacrifice to sate his hunger, but before his blade could still her heart, Valonesse's mother smuggled the babe away to live in exile. Her mother died several years after their escape, leaving Valonesse to fend for herself for the vast majority of her childhood and adolescence. When she finally came of age as a seasoned warrior and wanderer, the brutal frost giant returned to Thryheim to find the fortress of her ancestors in ruins and the fierce clan that had borne her whittled down to fewer than a dozen cowardly warriors. Her howls shook the walls, so enraged was she to find that the fickle hand of fate had snuffed out her dreams of murderous vengeance.",
+			"",
+			"Over the past decades, Valonesse has channeled her unappeased anger into the reestablishment of her forefathers' domain, claiming the title of jarl for her own. She claims to be the consort of Thremyr himself, given a divine mandate to see all of Stormflood Vale bow to her majesty. Though few trust the veracity of such a claim, fewer are those who would speak such doubts openly. Jarl Valonesse rules from Thryheim, an ancient ice fortress that rests high upon a glacial peak rich with untouched supplies of mithral and other rare ores. Though some challenged her right to rule in the early years of her fledgling empire, the period for contesting her reign has long passed-the scars that span her imposing body memorialize her countless victories, both in battle and against challengers seeking to claim her throne."
 		],
 		"short_description": "Thick of limb and torso, this towering female frost giant possesses powerful blue muscles and wields a massive, ice-encrusted battleaxe.",
 		"is_unique": true,
@@ -13765,7 +13900,11 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"No physical tome, no matter how magical, could ever hope to contain every facet of the multiverse's endless capacity for evil. Even if it could, the moment of the work's completion would also be the moment it became outdated. Realizing this, Tabris employed an audacious solution. He sacrificed a vestige of himself and locked it in the library-cathedrals hidden within the book's pages. These shades of Heaven's scribe were the embodiments of all he had learned of chaos, evil, good, and law, so they were perfectly suited to judge and record new developments across the planes.",
+			"",
+			"Yet this act, while fulfilling Tabris's charge to record all there is to know in the multiverse, also ensured his exile from Heaven. The celestial choirs simply could not accept their brother's decision to corrupt a piece of himself to create the entity they dubbed the Voice of the Damned, which serves as the Book of the Damned's hidden caretaker. When the Book of the Damned vanished from Heaven's Great Library, many took it as proof that the Voice might be even more dangerous than they'd imagined. And in the eons since, the Voice's knowledge, obsession, and power have only grown.",
+			"",
+			"The Voice of the Damned is a unique entity bound to the Book of the Damned's demiplane. It can never bodily leave that demiplane (except via its malevolence ability), and it always knows the location of every piece of the Book of the Damned. It seeks to guard the book, its repository, and the Unspeakable Word at the demiplane's center. As long as the Unspeakable Word is active, the Voice of the Damned cannot be slain for long; it resurrects 24 hours later. It can be permanently killed only if the Book of the Damned itself is destroyed."
 		],
 		"short_description": "Blasphemous pages cloak this creature's gaunt, winged form. Within its depthless hood burns a vortex of otherworldly flame.",
 		"is_unique": true,
@@ -13837,7 +13976,9 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"The norn known as Yrldak and her sisters Surlda and Hilde have served as handmaidens for Magdh, prophetess and seer of the mysterious Eldest who have ruled the First World since the gods were young. Serving as their mistress's agents, these norns protect her long-term interests wherever possible, but especially on the Material Plane, where Magdh lacks direct influence. As one of the multiverse's most prescient beings, Magdh is capable of seeing farther down the long lines of probability and fate than the norns themselves, and the triumvirate often takes on dangerous and enigmatic missions on Magdh's behalf.",
+			"",
+			"It was on one such venture that Yrldak met her demise upon the Material Plane, when facing a particularly greedy white dragon who thought the norn trio's treasure would make a good addition to its hoard. As happens to all norns who die outside the First World, Yrldak was reborn on her native plane, and is quickly growing while traversing Golarion looking for her sisters. Exhibiting the dark features of a reborn norn, whose hair and eyes lighten as they age, Yrldak is distinctive among her kind, and though her ebon hair reveals her still undeveloped power, Yrldak is a force to be reckoned with if any stand in her way or tempt fate in her presence. Eager to rejoin her sisters, Yrldak might seek the aid of adventurers, to whom she may promise wealth, prophecy, and other boons if they assist her in her quest."
 		],
 		"short_description": "This breathtaking, giant-sized woman's raven hair falls to her ankles. Her skin is as pale as the glowing moon, and her ebon eyes deeply pensive.",
 		"is_unique": true,
@@ -14037,7 +14178,13 @@
 			"",
 			"#### Description",
 			"",
-			"*No description provided.*"
+			"The dread Zelishkar of the Bitter Flame is a figure much feared on the crumbling plains of Abaddon and across the multiverse. A monstrous feline in shape but seemingly sculpted of lurid crimson flame, Zelishkar is girded with a crest and cuirass of infernally strengthened obsidian, shaved to razor thinness yet losing none of its terrible strength. His eyes are jet-black pits that mirror his armor, though pinpoints of awful orange radiance gleam deep within. He is surrounded always by a heat shimmer that diffuses his blinding radiance. Zelishkar is reputed to sense the presence of his prey by the tiniest variations in temperature, tracking the movements of creatures both seen and unseen before he pounces. His own fires burn with a hellish uncleanness, tainting even those who thought themselves proofed against his flames and rapidly consuming their body and soul, leaving nothing behind but befouled ashes.",
+			"",
+			"Zelishkar is feared as much for his incisive tactical acumen as for his dreadful and terrifying powers in close combat. He has single-handedly withered and despoiled cities and farmlands when summoned in the name of his daemonic mistress-Szuriel, patron of war and suffering. She forged Zelishkar's form in the deepest pits of the Cinder Furnace as her terrifying harbinger, embodying the hopeless misery of funeral pyres that consume and cremate the dead in the wake of the war that she brings. He proved so adept that she judged him worthy to transcend his purpose, and he has come to embody all of the hateful and sadistic purposes that fire serves. His name is invoked now by torturers and inquisitors alike as they consign their hapless captives to the ultimate agonies of being burned alive, and even by arsonists both petty and grand. All twisted souls who love nothing more than to see the world burn offer up silent praises to Zelishkar in their hearts; even if they never speak his name, the hate that burns within them is a sweet savor in his nostrils.",
+			"",
+			"Zelishkar was summoned to Golarion in ancient times, during the height of Osirion's empire, and he led legions of flaming minions against the enemies of the Pharaoh of Forgotten Plagues, notably the Jistka Imperium. In a twist of supreme hubris, the Pharaoh of Forgotten Plagues turned against his summoned ally after several successful campaigns, and chose Zelishkar to be the test subject of his grandest experiment yet. The Osirian king had just finished construction of a grand labyrinth south of the Alamein Peninsula, and in a display of prideful foolishness ordered Zelishkar to be imprisoned within to prove the infallibility of his maze. It took the efforts of an entire army of summoned genies to lock the daemonic harbinger away beneath the desert's churning sands, but his imprisonment was absolute with the aid of an ancient efreeti and a legendary artifact known as the Bottle of the Bound.",
+			"",
+			"Through all the long millennia since, Zelishkar and the remnant of his host have remained imprisoned beneath the Labyrinth of Shiman-Sekh, the city founded by the Song Pharaoh upon her victory over the Pharaoh of Forgotten Plagues years after Zelishkar's detention. He has emerged from his prison but once, when Szuriel and the ironically named Incorruptible Pharaoh joined to loose his fiery fury upon one of the sky-cities of Shory. His destructive rampage could not be contained, however, and he devastated several cities and oases of western Osirion before he and his host were finally bound back within their prison. There he remains, plotting burning vengeance upon Osirion and all of Golarion for his ages of durance vile."
 		],
 		"short_description": "This fiendish figure appears to be shaped from pure flame with a feline face. Three wicked tongues dart from the creature's mouth.",
 		"is_unique": true,

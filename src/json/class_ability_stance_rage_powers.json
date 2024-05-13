@@ -38,7 +38,7 @@
 		"description": [
 			"### Elemental Stance (Su)",
 			"",
-			"When the barbarian adopts this stance, she chooses an energy type (acid, cold, electricity, or fire). Her melee attacks deal 1 additional point of damage of the chosen type. This damage increases to 1d6 points at 8th level. At 12th level, the barbarian's critical hits deal an additional 1d10 points of energy damage of the same type (2d10 if the weapon deals ÃƒÆ’Ã¢â‚¬â€3 damage on a critical hit, 3d10 if the weapon deals ÃƒÆ’Ã¢â‚¬â€4 damage on a critical hit). This is a stance rage power. A barbarian must be at least 4th level to select this rage power."
+			"When the barbarian adopts this stance, she chooses an energy type (acid, cold, electricity, or fire). Her melee attacks deal 1 additional point of damage of the chosen type. This damage increases to 1d6 points at 8th level. At 12th level, the barbarian's critical hits deal an additional 1d10 points of energy damage of the same type (2d10 if the weapon deals &times;3 damage on a critical hit, 3d10 if the weapon deals &times;4 damage on a critical hit). This is a stance rage power. A barbarian must be at least 4th level to select this rage power."
 		]
 	},
 	"guarded_stance_ex": {
@@ -78,7 +78,7 @@
 		"description": [
 			"### Reckless Stance (Ex)",
 			"",
-			"The barbarian can attack with abandon at the expense of her defense. She gains a +1 bonus on attack rolls, but takes a ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“1 penalty to AC. This bonus and penalty increase by 1 at 4th level and every 4 levels thereafter. This is a stance rage power."
+			"The barbarian can attack with abandon at the expense of her defense. She gains a +1 bonus on attack rolls, but takes a -1 penalty to AC. This bonus and penalty increase by 1 at 4th level and every 4 levels thereafter. This is a stance rage power."
 		]
 	},
 	"regenerative_stance_ex": {
