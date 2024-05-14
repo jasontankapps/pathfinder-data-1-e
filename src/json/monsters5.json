@@ -519,6 +519,7 @@
 		"short_description": "This lithe dancer would be beautiful were it not for her clawed hands, backward-facing head, and long, lolling tongue.",
 		"display": "monster"
 	},
+	"amanusya": { "copyof": "rakshasa,_amanusya" },
 	"rakshasa,_avatarana": {
 		"name": "Rakshasa, Avatarana",
 		"file": "monsterdisplay2d96.html",
@@ -607,6 +608,7 @@
 		"short_description": "Instead of legs, this bald, emaciated humanoid has a second set of long, muscular arms and a leathery flap covering its face.",
 		"display": "monster"
 	},
+	"avatarana": { "copyof": "rakshasa,_avatarana" },
 	"rakshasa,_dandasuka": {
 		"name": "Rakshasa, Dandasuka",
 		"file": "monsterdisplayaa5c.html",
@@ -695,6 +697,7 @@
 		"short_description": "This small creature looks like a well-dressed and jewelry-bedecked fiendish gnome, its face mostly mouth and fangs.",
 		"display": "monster"
 	},
+	"dandasuka": { "copyof": "rakshasa,_dandasuka" },
 	"rakshasa,_marai": {
 		"name": "Rakshasa, Marai",
 		"file": "monsterdisplay704a.html",
@@ -790,6 +793,7 @@
 		"short_description": "This finely robed and nimble fiend has six colorful vipers in place of arms, and a long, forked tongue in its fanged mouth.",
 		"display": "monster"
 	},
+	"marai": { "copyof": "rakshasa,_marai" },
 	"rakshasa,_orsatka": {
 		"name": "Rakshasa, Orsatka",
 		"file": "monsterdisplayad7d.html",
@@ -877,6 +881,7 @@
 		"short_description": "This hulking bear-headed fiend has a mouth full of fangs and clawed, six-fingered hands with too many knuckles.",
 		"display": "monster"
 	},
+	"orsatka": { "copyof": "rakshasa,_orsatka" },
 	"rakshasa,_rakshasa_maharaja": {
 		"name": "Rakshasa, Rakshasa Maharaja",
 		"file": "monsterdisplay55d1.html",
@@ -990,6 +995,7 @@
 		"short_description": "Impeccably dressed and bedecked in exotic jewelry, this fiend holds an ornate saber in its backward-facing hands.",
 		"display": "monster"
 	},
+	"rakshasa_maharaja": { "copyof": "rakshasa,_rakshasa_maharaja" },
 	"rakshasa,_raktavarna": {
 		"name": "Rakshasa, Raktavarna",
 		"file": "monsterdisplay23ac.html",
@@ -1080,6 +1086,7 @@
 		"short_description": "What at first appears to be a bejeweled blade shimmers and writhes, transforming into a hideous, red-eyed serpent.",
 		"display": "monster"
 	},
+	"raktavarna": { "copyof": "rakshasa,_raktavarna" },
 	"rakshasa,_tataka": {
 		"name": "Rakshasa, Tataka",
 		"file": "monsterdisplay4b42.html",
@@ -1172,6 +1179,7 @@
 		"short_description": "This towering, blue-skinned woman has backward-facing hands and a feral, animal-like visage with exaggerated features.",
 		"display": "monster"
 	},
+	"tataka": { "copyof": "rakshasa,_tataka" },
 	"rakshasa,_zalyakavat": {
 		"name": "Rakshasa, Zalyakavat",
 		"file": "monsterdisplay05af.html",
@@ -1237,7 +1245,7 @@
 			"**Feats** [Acrobatic Steps](feat/acrobatic_steps), [Combat Reflexes](feat/combat_reflexes), [Dodge](feat/dodge), [Improved Critical (urumi)](feat/improved_critical), [Improved Initiative](feat/improved_initiative), [Iron Will](feat/iron_will), [Nimble Moves](feat/nimble_moves), [Quick Draw](feat/quick_draw), [Weapon Focus (urumi)](feat/weapon_focus)  ",
 			"**Skills** Acrobatics +26 (+30 when jumping), Bluff +26, Disguise +30, Knowledge (arcana, local) +23, Perception +24, Sense Motive +24, Spellcraft +20, Stealth +26; **Racial Modifiers** +4 Bluff, +8 Disguise  ",
 			"**Languages** Common, Infernal, Undercommon  ",
-			"**SQ** change shape (any humanoid; [alter self](unknown/alter_self)), inconspicuous urumi, urumi affinity",
+			"**SQ** change shape (any humanoid; [alter self](spell/alter_self)), inconspicuous urumi, urumi affinity",
 			"",
 			"#### Ecology",
 			"",
@@ -1247,19 +1255,19 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Inconspicuous Urumi (Su)** A zalyakavat can wear an [urumi](unknown/urumi) in its belt slot and draw it as a free action. While wearing an urumi in its belt slot, the zalyakavat gains a bonus on Bluff and Disguise checks equal to the weapon's enhancement bonus, if any. If the urumi has an enhancement bonus of +2 or higher, the zalyakavat also gains the benefit of [nondetection](unknown/nondetection) with a caster level equal to the zalyakavat's caster level plus the weapon's enhancement bonus.",
+			"**Inconspicuous Urumi (Su)** A zalyakavat can wear an [urumi](equipment/weapon/urumi) in its belt slot and draw it as a free action. While wearing an urumi in its belt slot, the zalyakavat gains a bonus on Bluff and Disguise checks equal to the weapon's enhancement bonus, if any. If the urumi has an enhancement bonus of +2 or higher, the zalyakavat also gains the benefit of [nondetection](spell/nondetection) with a caster level equal to the zalyakavat's caster level plus the weapon's enhancement bonus.",
 			"",
 			"**Spells (Sp)** A zalyakavat casts spells as a 10th-level sorcerer.",
 			"",
 			"**Urumi Affinity (Su)** A zalyakavat doesn't drop its urumi when panicked or stunned, and it treats its reach with an urumi as 5 feet greater than normal.",
 			"",
-			"**Urumi Forms (Su)** When holding an urumi in one paw and carrying nothing in its other, a zalyakavat can expend unused spell slots to activate a variety of special abilities and weapon modifications known collectively as urumi forms. Activating an urumi form is a swift action, and the zalyakavat cannot cast spells during a round in which it activates one. Whenever the zalyakavat activates an urumi form, in addition to the other effects below, the zalyakavat gains the benefit of [freedom of movement](unknown/freedom_of_movement) until the start of its next turn. The zalyakavat can select from the following urumi forms, each of which last until the start of the zalyakavat's next turn.",
+			"**Urumi Forms (Su)** When holding an urumi in one paw and carrying nothing in its other, a zalyakavat can expend unused spell slots to activate a variety of special abilities and weapon modifications known collectively as urumi forms. Activating an urumi form is a swift action, and the zalyakavat cannot cast spells during a round in which it activates one. Whenever the zalyakavat activates an urumi form, in addition to the other effects below, the zalyakavat gains the benefit of [freedom of movement](spell/freedom_of_movement) until the start of its next turn. The zalyakavat can select from the following urumi forms, each of which last until the start of the zalyakavat's next turn.",
 			"",
-			"- Contingent Strikes: A zalyakavat can expend a spell slot of 1st level or higher to imbue an urumi it wields with a single magic weapon special ability. The special ability is added to any the weapon already has, but duplicate abilities do not stack. The zalyakavat can select from the following special abilities. 1st-level slot-[corrosive](unknown/corrosive), [flaming](unknown/flaming), [frost](unknown/frost), [ghost touch](unknown/ghost_touch), [shock](unknown/shock); 2nd-level slot- [axiomatic](unknown/axiomatic), [corrosive burst](unknown/corrosive_burst), [flaming burst](unknown/flaming_burst), [icy burst](unknown/icy_burst), [shocking burst](unknown/shocking_burst), [unholy](unknown/unholy), [wounding](unknown/wounding); 3rd-level slot-[speed](unknown/speed); 4th-level slot-[brilliant energy](unknown/brilliant_energy); 5th-level slot-[vorpal](unknown/vorpal). Imbued magic weapon special abilities do not function for any creature other than the zalyakavat.",
-			"- Deft Strikes: A zalyakavat can expend a spell slot of 2nd level or higher to gain [Improved Disarm](unknown/improved_disarm) and [Improved Trip](unknown/improved_trip) as bonus feats, as well as a competence bonus on disarm and trip attempts equal to the level of the spell slot expended.",
-			"- Dispelling Strikes: By expending a spell slot of 3rd level or higher, a zalyakavat can disrupt magic with an urumi it wields, causing any creature struck by the zalyakavat's urumi to be the subject of a targeted [dispel magic](unknown/dispel_magic) with a caster level equal to the zalyakavat's caster level plus the level of the spell slot expended. A creature can be the subject of only one such targeted dispel per use of this ability, but if the urumi strikes more than one creature, each creature struck is subject to the dispelling effect.",
+			"- Contingent Strikes: A zalyakavat can expend a spell slot of 1st level or higher to imbue an urumi it wields with a single magic weapon special ability. The special ability is added to any the weapon already has, but duplicate abilities do not stack. The zalyakavat can select from the following special abilities. 1st-level slot-[corrosive](magic/enhancement/corrosive), [flaming](magic/enhancement/flaming), [frost](unknown/frost), [ghost touch](magic/enhancement/ghost_touch), [shock](magic/enhancement/shock); 2nd-level slot- [axiomatic](magic/enhancement/axiomatic), [corrosive burst](magic/enhancement/corrosive_burst), [flaming burst](magic/enhancement/flaming_burst), [icy burst](magic/enhancement/icy_burst), [shocking burst](magic/enhancement/shocking_burst), [unholy](magic/enhancement/unholy), [wounding](magic/enhancement/wounding); 3rd-level slot-[speed](unknown/speed); 4th-level slot-[brilliant energy](magic/enhancement/brilliant_energy); 5th-level slot-[vorpal](magic/enhancement/vorpal). Imbued magic weapon special abilities do not function for any creature other than the zalyakavat.",
+			"- Deft Strikes: A zalyakavat can expend a spell slot of 2nd level or higher to gain [Improved Disarm](feat/improved_disarm) and [Improved Trip](feat/improved_trip) as bonus feats, as well as a competence bonus on disarm and trip attempts equal to the level of the spell slot expended.",
+			"- Dispelling Strikes: By expending a spell slot of 3rd level or higher, a zalyakavat can disrupt magic with an urumi it wields, causing any creature struck by the zalyakavat's urumi to be the subject of a targeted [dispel magic](spell/dispel_magic) with a caster level equal to the zalyakavat's caster level plus the level of the spell slot expended. A creature can be the subject of only one such targeted dispel per use of this ability, but if the urumi strikes more than one creature, each creature struck is subject to the dispelling effect.",
 			"- Garrote Whip: A zalyakavat can expend a spell slot of 4th level or higher to make an urumi it wields longer and more flexible. The zalyakavat's reach with the weapon increases by 5 feet, and the zalyakavat can attempt to strike and strangle a single target as a standard action. The zalyakavat makes a melee attack at its highest bonus. On a successful hit, the attack deals damage as normal, and the zalyakavat can attempt a combat maneuver check against the target's CMD as a free action. This combat maneuver does not provoke attacks of opportunity. If the maneuver succeeds, the target takes an additional 1d8 points of damage plus the zalyakavat's Strength modifier and must succeed at a DC 22 Fortitude save or fall unconscious for 1d4 rounds. This ability works only on creatures that breathe and have a discernible neck. The save DC is Strength-based.",
-			"- Whip of Many Blades: A zalyakavat can expend a 5th-level spell slot to cause extra blades to sprout from the hilt of an urumi it wields. When the zalyakavat makes a full attack with the weapon, it can make two extra attacks at its highest base attack bonus. This benefit is not cumulative with similar effects, such as [haste](unknown/haste).",
+			"- Whip of Many Blades: A zalyakavat can expend a 5th-level spell slot to cause extra blades to sprout from the hilt of an urumi it wields. When the zalyakavat makes a full attack with the weapon, it can make two extra attacks at its highest base attack bonus. This benefit is not cumulative with similar effects, such as [haste](spell/haste).",
 			"",
 			"#### Description",
 			"",
@@ -1282,6 +1290,7 @@
 		"short_description": "This sinewy humanoid with putrid green skin and a grotesque, shrew-like snout wears little more than a colorful silk sarong and a thin, flexible blade worn as a belt.",
 		"display": "monster"
 	},
+	"zalyakavat": { "copyof": "rakshasa,_zalyakavat" },
 	"ramidreju": {
 		"name": "Ramidreju",
 		"file": "monsterdisplaye3e5.html",
@@ -1579,6 +1588,7 @@
 		"short_description": "This filthy rat is the size of a small dog. It has a coat of coarse fur, a long and scabby tail, and two glittering eyes.",
 		"display": "monster"
 	},
+	"dire_rat": { "copyof": "rat,_dire_rat" },
 	"rat,_rat_swarm": {
 		"name": "Rat, Rat Swarm",
 		"file": "monsterdisplay9291.html",
@@ -1651,6 +1661,7 @@
 		"short_description": "A squirming, roiling mass of squeaking rats draws closer, teeth flashing and claws scratching everything in its path.",
 		"display": "monster"
 	},
+	"rat_swarm": { "copyof": "rat,_rat_swarm" },
 	"ratfolk": {
 		"name": "Ratfolk",
 		"file": "monsterdisplay344c.html",
@@ -1800,6 +1811,7 @@
 		"short_description": "This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail.",
 		"display": "monster"
 	},
+	"ratfolk_bravo": { "copyof": "ratfolk,_ratfolk_bravo" },
 	"ratfolk,_ratfolk_caravan_guard": {
 		"name": "Ratfolk, Ratfolk Caravan Guard",
 		"file": "monsterdisplay1fc5.html",
@@ -1867,6 +1879,7 @@
 		"short_description": "This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail.",
 		"display": "monster"
 	},
+	"ratfolk_caravan_guard": { "copyof": "ratfolk,_ratfolk_caravan_guard" },
 	"ratfolk,_ratfolk_chemist": {
 		"name": "Ratfolk, Ratfolk Chemist",
 		"file": "monsterdisplay3531.html",
@@ -1944,6 +1957,7 @@
 		"short_description": "This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail.",
 		"display": "monster"
 	},
+	"ratfolk_chemist": { "copyof": "ratfolk,_ratfolk_chemist" },
 	"ratfolk,_ratfolk_elder": {
 		"name": "Ratfolk, Ratfolk Elder",
 		"file": "monsterdisplayee27.html",
@@ -2028,6 +2042,7 @@
 		"short_description": "This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail.",
 		"display": "monster"
 	},
+	"ratfolk_elder": { "copyof": "ratfolk,_ratfolk_elder" },
 	"ratfolk,_ratfolk_expedition_leader": {
 		"name": "Ratfolk, Ratfolk Expedition Leader",
 		"file": "monsterdisplayc08a.html",
@@ -2095,6 +2110,7 @@
 		"short_description": "This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail.",
 		"display": "monster"
 	},
+	"ratfolk_expedition_leader": { "copyof": "ratfolk,_ratfolk_expedition_leader" },
 	"ratfolk,_ratfolk_sage": {
 		"name": "Ratfolk, Ratfolk Sage",
 		"file": "monsterdisplay4fe4.html",
@@ -2177,6 +2193,7 @@
 		"short_description": "This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail.",
 		"display": "monster"
 	},
+	"ratfolk_sage": { "copyof": "ratfolk,_ratfolk_sage" },
 	"ratfolk,_ratfolk_tinkerer": {
 		"name": "Ratfolk, Ratfolk Tinkerer",
 		"file": "monsterdisplayd99f.html",
@@ -2250,6 +2267,7 @@
 		"short_description": "This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail.",
 		"display": "monster"
 	},
+	"ratfolk_tinkerer": { "copyof": "ratfolk,_ratfolk_tinkerer" },
 	"ratfolk,_ratfolk_troubleshooter": {
 		"name": "Ratfolk, Ratfolk Troubleshooter",
 		"file": "monsterdisplay0a5e.html",
@@ -2322,6 +2340,7 @@
 		"short_description": "This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail.",
 		"display": "monster"
 	},
+	"ratfolk_troubleshooter": { "copyof": "ratfolk,_ratfolk_troubleshooter" },
 	"ratfolk,_ratfolk_warden": {
 		"name": "Ratfolk, Ratfolk Warden",
 		"file": "monsterdisplay8c3f.html",
@@ -2394,6 +2413,7 @@
 		"short_description": "This small, ratlike humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery tail.",
 		"display": "monster"
 	},
+	"ratfolk_warden": { "copyof": "ratfolk,_ratfolk_warden" },
 	"ratling": {
 		"name": "Ratling",
 		"file": "monsterdisplay760b.html",
@@ -2699,6 +2719,7 @@
 		"short_description": "Gliding gracefully through the water on wing-like fins, this large ray scoops up tiny morsels in its wide mouth.",
 		"display": "monster"
 	},
+	"manta_ray": { "copyof": "ray,_manta_ray" },
 	"ray,_stingray": {
 		"name": "Ray, Stingray",
 		"file": "monsterdisplayec65.html",
@@ -2768,6 +2789,7 @@
 		"short_description": "A long tail fitted with a barbed stinger trails from this flat, triangular fish's body.",
 		"display": "monster"
 	},
+	"stingray": { "copyof": "ray,_stingray" },
 	"razormouth": {
 		"name": "Razormouth",
 		"file": "monsterdisplay0209.html",
@@ -2914,7 +2936,7 @@
 			"",
 			"Known by many names throughout nearly all cultures, grim reapers are the personifications of death and all the pain and fear associated with that state. They are universally feared by the living as harbingers of destruction and masters of all that has already passed from life. These hooded beings travel through the planes with the sole intent of bringing about the end of life, slaying with a deliberateness inscrutable to all but themselves.",
 			"",
-			"While grim reapers are the most feared of their kind, they are not alone. The towering, ghostlike grim reapers are served by minor reapers, corporeal servitors that enact their master's dreadful will and meet out death's unrelenting touch. A grim reaper is 15 feet tall and, as an incorporeal creature, has no physical weight except for its equipment. Minor reapers stand 7 feet tall and weigh approximately 70 pounds.",
+			"While grim reapers are the most feared of their kind, they are not alone. The towering, ghostlike grim reapers are served by minor reapers, corporeal servitors that enact their master's dreadful will and meet out death's unrelenting touch. A grim reaper is 15 feet tall and, as an incorporeal creature, has no physical weight except for its equipment. [Minor reapers](monster/minor_reaper) stand 7 feet tall and weigh approximately 70 pounds.",
 			"",
 			"Grim reapers have no creator and are not born by any definition of the word-they simply exist, much as the multiverse itself does. Some philosophers argue that grim reapers were created along with the Negative Energy Plane, manifesting from this plane when mortalkind first realized death's terminal permanency. Others claim that multiple minor reapers meeting on the Negative Energy Plane or another area infused with overwhelming negative energy might join together to form a new grim reaper.",
 			"",
@@ -2928,7 +2950,9 @@
 			"",
 			"Grim reapers possess the ability to speak to any intelligent being, and the few who have survived encounters with a reaper or its minions claim that the bringer of death spoke to them in a deep, unearthly voice like nothing in the material realm.",
 			"",
-			"Minor reapers can be created by casters of 20th level or higher using the spell create greater undead."
+			"Minor reapers can be created by casters of 20th level or higher using the spell create greater undead.",
+			"",
+			"See also: [Grim Reaper](monster/grim_reaper)"
 		],
 		"short_description": "This tall, cloaked figure stares out from the black hood that covers its head. It wields an enormous scythe in its skeletal, bone-white hands, looking as though it is freezing the very air around it.",
 		"display": "monster"
@@ -3001,7 +3025,7 @@
 			"",
 			"This tall, cloaked figure stares out from the black hood that covers its head. It wields an enormous scythe in its skeletal, bone-white hands, looking as though it is freezing the very air around it.",
 			"",
-			"Known by many names throughout nearly all cultures, grim reapers are the personifications of death and all the pain and fear associated with that state. They are universally feared by the living as harbingers of destruction and masters of all that has already passed from life. These hooded beings travel through the planes with the sole intent of bringing about the end of life, slaying with a deliberateness inscrutable to all but themselves.",
+			"Known by many names throughout nearly all cultures, [grim reapers](monster/reaper,_grim_reaper) are the personifications of death and all the pain and fear associated with that state. They are universally feared by the living as harbingers of destruction and masters of all that has already passed from life. These hooded beings travel through the planes with the sole intent of bringing about the end of life, slaying with a deliberateness inscrutable to all but themselves.",
 			"",
 			"While grim reapers are the most feared of their kind, they are not alone. The towering, ghostlike grim reapers are served by minor reapers, corporeal servitors that enact their master's dreadful will and meet out death's unrelenting touch. A grim reaper is 15 feet tall and, as an incorporeal creature, has no physical weight except for its equipment. Minor reapers stand 7 feet tall and weigh approximately 70 pounds.",
 			"",
@@ -3019,10 +3043,13 @@
 			"",
 			"Grim reapers possess the ability to speak to any intelligent being, and the few who have survived encounters with a reaper or its minions claim that the bringer of death spoke to them in a deep, unearthly voice like nothing in the material realm.",
 			"",
-			"Minor reapers can be created by casters of 20th level or higher using the spell create greater undead."
+			"Minor reapers can be created by casters of 20th level or higher using the spell create greater undead.",
+			"",
+			"See also: [Lesser Death](monster/lesser_death)"
 		],
 		"display": "monster"
 	},
+	"minor_reaper": { "copyof": "reaper,_minor_reaper" },
 	"red_reaver": {
 		"name": "Red Reaver",
 		"file": "monsterdisplay7509.html",
@@ -3858,6 +3885,7 @@
 		"short_description": "This large rhinoceros has a shaggy pelt of long, brown fur and a row of immense horns on its snout and brow.",
 		"display": "monster"
 	},
+	"woolly_rhinoceros": { "copyof": "rhinoceros,_woolly_rhinoceros" },
 	"rhu-chalik": {
 		"name": "Rhu-chalik",
 		"file": "monsterdisplay6382.html",
@@ -3941,10 +3969,7 @@
 		"short_description": "Thin tendrils trail from this misshapen ovoid. Its underside holds a gray orb that resembles a bulging, lidless eye.",
 		"display": "monster"
 	},
-	"rhu_chalik": {
-		"copyof": "rhu-chalik",
-		"display": "monster"
-	},
+	"rhu_chalik": { "copyof": "rhu-chalik" },
 	"riftcreeper": {
 		"name": "Riftcreeper",
 		"file": "monsterdisplay7dac-2.html",
@@ -4175,6 +4200,7 @@
 		"short_description": "The tip of this towering, scorpion-like construct's tail thrums with otherworldly energy.",
 		"display": "monster"
 	},
+	"annihilator_robot": { "copyof": "robot,_annihilator_robot" },
 	"robot,_arachnid_robot": {
 		"name": "Robot, Arachnid Robot",
 		"file": "monsterdisplayceea.html",
@@ -4258,6 +4284,7 @@
 		"short_description": "This dog-sized, spiderlike robot has a plasma torch mounted on a stinger-like limb and gripping claws on its forelegs.",
 		"display": "monster"
 	},
+	"arachnid_robot": { "copyof": "robot,_arachnid_robot" },
 	"robot,_collector_robot": {
 		"name": "Robot, Collector Robot",
 		"file": "monsterdisplay0542.html",
@@ -4365,6 +4392,7 @@
 		"short_description": "A soft whirring noise accompanies this flying mechanical creature. Its arms and hands end in spindly, multi-jointed fingers, and four circular rotors hold the creature aloft.",
 		"display": "monster"
 	},
+	"collector_robot": { "copyof": "robot,_collector_robot" },
 	"robot,_director_robot": {
 		"name": "Robot, Director Robot",
 		"file": "monsterdisplayc2d4.html",
@@ -4477,6 +4505,7 @@
 		"short_description": "A humanoid torso and four spindly legs sprout from the top of this black-paneled orb. Buzzing mechanical tentacles churn and writhe below its bulk.",
 		"display": "monster"
 	},
+	"director_robot": { "copyof": "robot,_director_robot" },
 	"robot,_evaluator_robot": {
 		"name": "Robot, Evaluator Robot",
 		"file": "monsterdisplay36f4.html",
@@ -4584,6 +4613,7 @@
 		"short_description": "With wings and an unearthly glow, this mechanical being could easily be mistaken for an angel.",
 		"display": "monster"
 	},
+	"evaluator_robot": { "copyof": "robot,_evaluator_robot" },
 	"robot,_gearsman_robot": {
 		"name": "Robot, Gearsman Robot",
 		"file": "monsterdisplay9606.html",
@@ -4667,6 +4697,7 @@
 		"short_description": "Made of what appears to be burnished brass, this construct resembles a suit of armor with a glowing glass orb for an eye.",
 		"display": "monster"
 	},
+	"gearsman_robot": { "copyof": "robot,_gearsman_robot" },
 	"robot,_gladiator_robot": {
 		"name": "Robot, Gladiator Robot",
 		"file": "monsterdisplay2334.html",
@@ -4780,6 +4811,7 @@
 		"short_description": "One of this metallic humanoid's four arms ends in the barrel of a large-bore rifle, while another ends in a spinning circular blade. Its final two arms grasp a massive chainsaw.",
 		"display": "monster"
 	},
+	"gladiator_robot": { "copyof": "robot,_gladiator_robot" },
 	"robot,_juggernaut_robot": {
 		"name": "Robot, Juggernaut Robot",
 		"file": "monsterdisplaycdcb.html",
@@ -4891,6 +4923,7 @@
 		"short_description": "This towering mechanical humanoid stares down from a soulless violet eye. Its metallic fists crackle with electricity.",
 		"display": "monster"
 	},
+	"juggernaut_robot": { "copyof": "robot,_juggernaut_robot" },
 	"robot,_mannequin_robot": {
 		"name": "Robot, Mannequin Robot",
 		"file": "monsterdisplay53a7.html",
@@ -4984,6 +5017,7 @@
 		"short_description": "This impassive humanoid has shiny, pale skin and an eerily expressionless face.",
 		"display": "monster"
 	},
+	"mannequin_robot": { "copyof": "robot,_mannequin_robot" },
 	"robot,_myrmidon_robot": {
 		"name": "Robot, Myrmidon Robot",
 		"file": "monsterdisplay1e61.html",
@@ -5070,6 +5104,7 @@
 		"short_description": "This metallic creature has pincer-tipped arms, a single red eye, and an array of deadly armaments.",
 		"display": "monster"
 	},
+	"myrmidon_robot": { "copyof": "robot,_myrmidon_robot" },
 	"robot,_observer_robot": {
 		"name": "Robot, Observer Robot",
 		"file": "monsterdisplay057b.html",
@@ -5160,6 +5195,7 @@
 		"short_description": "This small robot is reminiscent of a beetle with a pair of pincers extending from the front of its body.",
 		"display": "monster"
 	},
+	"observer_robot": { "copyof": "robot,_observer_robot" },
 	"robot,_observer_robot_swarm": {
 		"name": "Robot, Observer Robot Swarm",
 		"file": "monsterdisplay3576.html",
@@ -5243,6 +5279,7 @@
 		],
 		"display": "monster"
 	},
+	"observer_robot_swarm": { "copyof": "robot,_observer_robot_swarm" },
 	"robot,_octopod_mechanic_drone": {
 		"name": "Robot, Octopod Mechanic Drone",
 		"file": "monsterdisplay5769.html",
@@ -5336,6 +5373,7 @@
 		"short_description": "This octopus-like robot has eight tentacles that it uses to repair multiple machines at a time.",
 		"display": "monster"
 	},
+	"octopod_mechanic_drone": { "copyof": "robot,_octopod_mechanic_drone" },
 	"robot,_reclamation_robot": {
 		"name": "Robot, Reclamation Robot",
 		"file": "monsterdisplay8683.html",
@@ -5452,6 +5490,7 @@
 		"short_description": "This complex-looking automaton's multiple arms end in gripping talons. It moves about on a set of four legs and has a strange bell-shaped head.",
 		"display": "monster"
 	},
+	"reclamation_robot": { "copyof": "robot,_reclamation_robot" },
 	"robot,_repair_robot": {
 		"name": "Robot, Repair Robot",
 		"file": "monsterdisplayb255.html",
@@ -5539,6 +5578,7 @@
 		"short_description": "This quadruped robot has glowing eyes and dexterous hands capable of examining and fixing machinery.",
 		"display": "monster"
 	},
+	"repair_robot": { "copyof": "robot,_repair_robot" },
 	"robot,_scrapyard_robot": {
 		"name": "Robot, Scrapyard Robot",
 		"file": "monsterdisplaye914.html",
@@ -5629,6 +5669,7 @@
 		"short_description": "Frayed wires and broken-off protrusions sprout from mechanical construct-, and one of its salvaged arms ends in a spinning blade.",
 		"display": "monster"
 	},
+	"scrapyard_robot": { "copyof": "robot,_scrapyard_robot" },
 	"robot,_surgeon_robot": {
 		"name": "Robot, Surgeon Robot",
 		"file": "monsterdisplayf180.html",
@@ -5738,6 +5779,7 @@
 		"short_description": "This robot has the general appearance of a skeletal preying mantis fashioned entirely from gleaming metal. An array of limbs fitted with laser scalpels, syringes, and other surgical devices spring from its body.",
 		"display": "monster"
 	},
+	"surgeon_robot": { "copyof": "robot,_surgeon_robot" },
 	"robot,_terraformer_robot": {
 		"name": "Robot, Terraformer Robot",
 		"file": "monsterdisplayabdd.html",
@@ -5822,6 +5864,7 @@
 		"short_description": "This large robot's arms end in an assortment of drills, torches, hammers, and vices.",
 		"display": "monster"
 	},
+	"terraformer_robot": { "copyof": "robot,_terraformer_robot" },
 	"robot,_thought_harvester_robot": {
 		"name": "Robot, Thought Harvester Robot",
 		"file": "monsterdisplaybb83.html",
@@ -5920,6 +5963,7 @@
 		"short_description": "Rows of crystal spheres line the back of this four-legged robot. A single glowing eye sits in the middle of its head.",
 		"display": "monster"
 	},
+	"thought_harvester_robot": { "copyof": "robot,_thought_harvester_robot" },
 	"robot,_torturer_robot": {
 		"name": "Robot, Torturer Robot",
 		"file": "monsterdisplayd930.html",
@@ -6006,6 +6050,7 @@
 		"short_description": "Spinning blades, long needles, and crystal-tipped rods stud the surface of this hovering metallic sphere.",
 		"display": "monster"
 	},
+	"torturer_robot": { "copyof": "robot,_torturer_robot" },
 	"robot,_warden_robot": {
 		"name": "Robot, Warden Robot",
 		"file": "monsterdisplayce95-2.html",
@@ -6120,6 +6165,7 @@
 		"short_description": "Crafted of a strange, dull metal, this bulky construct stomps forward on stout, multi-jointed legs.",
 		"display": "monster"
 	},
+	"warden_robot": { "copyof": "robot,_warden_robot" },
 	"roc": {
 		"name": "Roc",
 		"file": "monsterdisplayf13a.html",
@@ -6868,6 +6914,7 @@
 		"short_description": "This twitching, pale maggot is the size of a large dog. A circular mouth quivers and gasps at one end of its pulsating body.",
 		"display": "monster"
 	},
+	"giant_rot_grub": { "copyof": "rot_grub,_giant_rot_grub" },
 	"rot_grub,_rot_grub_swarm": {
 		"name": "Rot Grub, Rot Grub Swarm",
 		"file": "monsterdisplay195f.html",
@@ -6945,6 +6992,7 @@
 		"short_description": "This nauseating carpet of wriggling white grubs undulates outward in a pallid wave of hunger.",
 		"display": "monster"
 	},
+	"rot_grub_swarm": { "copyof": "rot_grub,_rot_grub_swarm" },
 	"rougarou": {
 		"name": "Rougarou",
 		"file": "monsterdisplay0039.html",
@@ -7151,6 +7199,7 @@
 		],
 		"display": "monster"
 	},
+	"juvenile_rukh": { "copyof": "rukh,_juvenile_rukh" },
 	"rune_guardian": {
 		"name": "Rune Guardian",
 		"file": "monsterdisplaya060.html",
@@ -7502,10 +7551,7 @@
 		"short_description": "Miscellaneous bits of rusted machinery are fused to the body of this shambling corpse.",
 		"display": "monster"
 	},
-	"rust_risen": {
-		"copyof": "rust-risen",
-		"display": "monster"
-	},
+	"rust_risen": { "copyof": "rust-risen" },
 	"sabosan": {
 		"name": "Sabosan",
 		"file": "monsterdisplay24ba.html",
@@ -7824,6 +7870,7 @@
 		"short_description": "This creature's stout canine torso tops a slimy mass resembling an earthworm. Disgusting veins dangle from its face.",
 		"display": "monster"
 	},
+	"esipil": { "copyof": "sahkil,_esipil" },
 	"sahkil,_ichkoh": {
 		"name": "Sahkil, Ichkoh",
 		"file": "monsterdisplay42dd.html",
@@ -7911,6 +7958,7 @@
 		"short_description": "This monstrosity looks like a massive cockroach made from putrid hair. A humanoid face leers in place of an insectile head.",
 		"display": "monster"
 	},
+	"ichkoh": { "copyof": "sahkil,_ichkoh" },
 	"sahkil,_kimenhul": {
 		"name": "Sahkil, Kimenhul",
 		"file": "monsterdisplaya8b5.html",
@@ -8012,6 +8060,7 @@
 		"short_description": "Three monstrous, misshapen skulls top a twisted trunk balanced on three leglike splinters of flesh and bone.",
 		"display": "monster"
 	},
+	"kimenhul": { "copyof": "sahkil,_kimenhul" },
 	"sahkil,_nucol": {
 		"name": "Sahkil, Nucol",
 		"file": "monsterdisplay7ef8.html",
@@ -8101,6 +8150,7 @@
 		"short_description": "This monstrous wild boar is infested with wriggling worms and accompanied by a buzzing cloud of flies.",
 		"display": "monster"
 	},
+	"nucol": { "copyof": "sahkil,_nucol" },
 	"sahkil,_pakalchi": {
 		"name": "Sahkil, Pakalchi",
 		"file": "monsterdisplay179a.html",
@@ -8192,6 +8242,7 @@
 		"short_description": "Thorny vines with tiny red flowers grow from this emaciated woman and flow like a train behind her.",
 		"display": "monster"
 	},
+	"pakalchi": { "copyof": "sahkil,_pakalchi" },
 	"sahkil,_qolok": {
 		"name": "Sahkil, Qolok",
 		"file": "monsterdisplay5cfe.html",
@@ -8277,6 +8328,7 @@
 		"short_description": "Terrible jaws ringed with clawed arms open atop this towering mass of flesh. A probing tongue flops from another orifice.",
 		"display": "monster"
 	},
+	"qolok": { "copyof": "sahkil,_qolok" },
 	"sahkil,_wihsaak": {
 		"name": "Sahkil, Wihsaak",
 		"file": "monsterdisplayb8f5.html",
@@ -8361,6 +8413,7 @@
 		"short_description": "Buzzing wings hold this gaunt creature just above the ground. A grasshopper serves as the creature's head.",
 		"display": "monster"
 	},
+	"wihsaak": { "copyof": "sahkil,_wihsaak" },
 	"sahkil,_ximtal": {
 		"name": "Sahkil, Ximtal",
 		"file": "monsterdisplay7c02.html",
@@ -8474,6 +8527,7 @@
 		"short_description": "A rat's head sprouts from the front of a crab-like body, and two tentacular tails ending in hands erupt from the towering bulk.",
 		"display": "monster"
 	},
+	"ximtal": { "copyof": "sahkil,_ximtal" },
 	"sahkil,_zohanil": {
 		"name": "Sahkil, Zohanil",
 		"file": "monsterdisplayf5ae.html",
@@ -8559,6 +8613,7 @@
 		"short_description": "This monster is vaguely humanoid, but stands on three legs. A foul liquid drips from the needlelike tips of its long, hooked arms.",
 		"display": "monster"
 	},
+	"zohanil": { "copyof": "sahkil,_zohanil" },
 	"sahuagin": {
 		"name": "Sahuagin",
 		"file": "monsterdisplay7b1b.html",
@@ -8751,10 +8806,8 @@
 		"short_description": "This burly humanoid has sharp scales and fins like some predatory fish. As if its maw full of serrated teeth were not intimidating enough, the monstrosity clenches deadly claws at the ends of four powerful arms.",
 		"display": "monster"
 	},
-	"sahuagin_mutant_four_armed_mutant": {
-		"copyof": "sahuagin_mutant,_four-armed_mutant",
-		"display": "monster"
-	},
+	"four-armed_mutant": { "copyof": "sahuagin_mutant,_four-armed_mutant" },
+	"sahuagin_mutant_four_armed_mutant": { "copyof": "sahuagin_mutant,_four-armed_mutant" },
 	"sahuagin_mutant,_malenti": {
 		"name": "Sahuagin Mutant, Malenti",
 		"file": "monsterdisplaye791.html",
@@ -8847,6 +8900,7 @@
 		"short_description": "A predatory gleam glints in the eyes of this stern-looking aquatic elf.",
 		"display": "monster"
 	},
+	"malenti": { "copyof": "sahuagin_mutant,_malenti" },
 	"sahuagin,_sahuagin_baron": {
 		"name": "Sahuagin, Sahuagin Baron",
 		"file": "monsterdisplayf303.html",
@@ -8921,6 +8975,7 @@
 		"short_description": "This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.",
 		"display": "monster"
 	},
+	"sahuagin_baron": { "copyof": "sahuagin,_sahuagin_baron" },
 	"sahuagin,_sahuagin_brute": {
 		"name": "Sahuagin, Sahuagin Brute",
 		"file": "monsterdisplayf172.html",
@@ -8989,6 +9044,7 @@
 		"short_description": "This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.",
 		"display": "monster"
 	},
+	"sahuagin_brute": { "copyof": "sahuagin,_sahuagin_brute" },
 	"sahuagin,_sahuagin_champion": {
 		"name": "Sahuagin, Sahuagin Champion",
 		"file": "monsterdisplay92f1.html",
@@ -9062,6 +9118,7 @@
 		"short_description": "This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.",
 		"display": "monster"
 	},
+	"sahuagin_champion": { "copyof": "sahuagin,_sahuagin_champion" },
 	"sahuagin,_sahuagin_deep_racer": {
 		"name": "Sahuagin, Sahuagin Deep Racer",
 		"file": "monsterdisplayca36.html",
@@ -9134,6 +9191,7 @@
 		"short_description": "This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.",
 		"display": "monster"
 	},
+	"sahuagin_deep_racer": { "copyof": "sahuagin,_sahuagin_deep_racer" },
 	"sahuagin,_sahuagin_high_priestess": {
 		"name": "Sahuagin, Sahuagin High Priestess",
 		"file": "monsterdisplay552f.html",
@@ -9209,6 +9267,7 @@
 		"short_description": "This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.",
 		"display": "monster"
 	},
+	"sahuagin_high_priestess": { "copyof": "sahuagin,_sahuagin_high_priestess" },
 	"sahuagin,_sahuagin_infiltrator": {
 		"name": "Sahuagin, Sahuagin Infiltrator",
 		"file": "monsterdisplay64db.html",
@@ -9282,6 +9341,7 @@
 		"short_description": "This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.",
 		"display": "monster"
 	},
+	"sahuagin_infiltrator": { "copyof": "sahuagin,_sahuagin_infiltrator" },
 	"sahuagin,_sahuagin_lieutenant": {
 		"name": "Sahuagin, Sahuagin Lieutenant",
 		"file": "monsterdisplay8f82.html",
@@ -9351,6 +9411,7 @@
 		"short_description": "This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.",
 		"display": "monster"
 	},
+	"sahuagin_lieutenant": { "copyof": "sahuagin,_sahuagin_lieutenant" },
 	"sahuagin,_sahuagin_prince": {
 		"name": "Sahuagin, Sahuagin Prince",
 		"file": "monsterdisplayae3e.html",
@@ -9444,6 +9505,7 @@
 		],
 		"display": "monster"
 	},
+	"sahuagin_prince": { "copyof": "sahuagin,_sahuagin_prince" },
 	"sahuagin,_sahuagin_scout": {
 		"name": "Sahuagin, Sahuagin Scout",
 		"file": "monsterdisplay372e.html",
@@ -9517,6 +9579,7 @@
 		"short_description": "This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.",
 		"display": "monster"
 	},
+	"sahuagin_scout": { "copyof": "sahuagin,_sahuagin_scout" },
 	"sahuagin,_sahuagin_shark_sentry": {
 		"name": "Sahuagin, Sahuagin Shark Sentry",
 		"file": "monsterdisplay4c76.html",
@@ -9592,6 +9655,7 @@
 		"short_description": "This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.",
 		"display": "monster"
 	},
+	"sahuagin_shark_sentry": { "copyof": "sahuagin,_sahuagin_shark_sentry" },
 	"sahuagin,_sahuagin_underpriestess": {
 		"name": "Sahuagin, Sahuagin Underpriestess",
 		"file": "monsterdisplay5905.html",
@@ -9666,6 +9730,7 @@
 		"short_description": "This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its piscine head features a toothy maw.",
 		"display": "monster"
 	},
+	"sahuagin_underpriestess": { "copyof": "sahuagin,_sahuagin_underpriestess" },
 	"salamander": {
 		"name": "Salamander",
 		"file": "monsterdisplayb6a2.html",
@@ -9910,6 +9975,7 @@
 		"short_description": "The pale-blue skin of this dark-haired humanoid seems to subtly change hue from moment to moment.",
 		"display": "monster"
 	},
+	"reborn_samsaran": { "copyof": "samsaran,_reborn_samsaran" },
 	"sandman": {
 		"name": "Sandman",
 		"file": "monsterdisplay1fa9.html",
@@ -10631,6 +10697,7 @@
 		"short_description": "No flavor text.",
 		"display": "monster"
 	},
+	"blackwood_satyr": { "copyof": "satyr,_blackwood_satyr" },
 	"saumen_kar": {
 		"name": "Saumen Kar",
 		"file": "monsterdisplaybabb.html",
@@ -11364,15 +11431,15 @@
 			"",
 			"Adventurers venturing into sceaduinar territory may encounter more skilled specimens in their ranks.",
 			"",
-			"Geotrophos (CR +1): Sceaduinar geometrist-midwives seek out the irregular crystalline angles likely to birth their race's young. They can reshape the solidified entropy around them in defense of these sites. A geotrophos is a sceaduinar with the [advanced simple template](unknown/advanced_simple_template), an Intelligence score of at least 17, and the ability to cast [stone call](unknown/stone_call) three times per day.",
+			"Geotrophos (CR +1): Sceaduinar geometrist-midwives seek out the irregular crystalline angles likely to birth their race's young. They can reshape the solidified entropy around them in defense of these sites. A geotrophos is a sceaduinar with the [advanced simple template](unknown/advanced_simple_template), an Intelligence score of at least 17, and the ability to cast [stone call](spell/stone_call) three times per day.",
 			"",
-			"Shardsinger (CR +1): These eerie entertainers seek out interesting sounds to fill the silence of the Void. Lacking the spark for original composition, they study the songs of void-ravaged harpies, wailing undead, and the cries of dying humanoids. A shardsinger is a sceaduinar with the [advanced simple template](unknown/advanced_simple_template), a Charisma score of at least 21, and the ability to cast [enthrall](unknown/enthrall) (DC 17) three times per day.",
+			"Shardsinger (CR +1): These eerie entertainers seek out interesting sounds to fill the silence of the Void. Lacking the spark for original composition, they study the songs of void-ravaged harpies, wailing undead, and the cries of dying humanoids. A shardsinger is a sceaduinar with the [advanced simple template](unknown/advanced_simple_template), a Charisma score of at least 21, and the ability to cast [enthrall](spell/enthrall) (DC 17) three times per day.",
 			"",
-			"Splinter Twin (CR +2) Some particularly gnarled and mathematically unlikely aggregations of crystals fail to shatter into discrete sceaduinar individuals. The conjoined monstrosities spawned sport second heads, extra limbs, and other strange combinations of features. A splinter twin is a sceaduinar with the [advanced](unknown/advanced) and [giant simple templates](unknown/giant_simple_templates), [Critical Focus](unknown/critical_focus) as a bonus feat, and the ability to make one extra bite attack per round.",
+			"Splinter Twin (CR +2) Some particularly gnarled and mathematically unlikely aggregations of crystals fail to shatter into discrete sceaduinar individuals. The conjoined monstrosities spawned sport second heads, extra limbs, and other strange combinations of features. A splinter twin is a sceaduinar with the [advanced](monster/template/advanced) and [giant simple templates](unknown/giant_simple_templates), [Critical Focus](feat/critical_focus) as a bonus feat, and the ability to make one extra bite attack per round.",
 			"",
 			"Void Hunter (CR +1): Implacable stalkers of undead, void hunters turn their talents against the living, too. A void hunter is a sceaduinar with the [advanced simple template](unknown/advanced_simple_template), a Dexterity score of at least 24, and a +4 [favored enemy bonus](unknown/favored_enemy_bonus) against either humanoids (humans) or undead.",
 			"",
-			"Wing Leader (CR +1): To survive in the Void, death squad captains must be canny tacticians and living whirlwinds in combat. A wing leader is a sceaduinar with the [advanced simple template](unknown/advanced_simple_template), a Strength score of at least 21, and [Combat Reflexes](unknown/combat_reflexes) and [Spring Attack](unknown/spring_attack) as bonus feats."
+			"Wing Leader (CR +1): To survive in the Void, death squad captains must be canny tacticians and living whirlwinds in combat. A wing leader is a sceaduinar with the [advanced simple template](unknown/advanced_simple_template), a Strength score of at least 21, and [Combat Reflexes](feat/combat_reflexes) and [Spring Attack](feat/spring_attack) as bonus feats."
 		],
 		"short_description": "This gargoyle-like creature has long spiky legs and a bat-like head-its body seems to be made of living, dark purple crystal.",
 		"display": "monster"
@@ -11613,6 +11680,7 @@
 		"short_description": "This towering scorpion's carapace is as black as coal, and its claws are each as long as a man's body.",
 		"display": "monster"
 	},
+	"black_scorpion": { "copyof": "scorpion,_black_scorpion" },
 	"scorpion,_cave_scorpion": {
 		"name": "Scorpion, Cave Scorpion",
 		"file": "monsterdisplay1e4d.html",
@@ -11678,6 +11746,7 @@
 		"short_description": "This man-sized, bulky scorpion has thick, unyielding armor that makes it almost seem to be made of stone.",
 		"display": "monster"
 	},
+	"cave_scorpion": { "copyof": "scorpion,_cave_scorpion" },
 	"scorpion,_deadfall_scorpion": {
 		"name": "Scorpion, Deadfall Scorpion",
 		"file": "monsterdisplay1b49.html",
@@ -11747,6 +11816,7 @@
 		"short_description": "Thick sheets of moss and other forest debris cling to the dark green carapace of this huge scorpion.",
 		"display": "monster"
 	},
+	"deadfall_scorpion": { "copyof": "scorpion,_deadfall_scorpion" },
 	"scorpion,_ghost_scorpion": {
 		"name": "Scorpion, Ghost Scorpion",
 		"file": "monsterdisplay6b4d.html",
@@ -11812,6 +11882,7 @@
 		"short_description": "This outsized scorpion has a translucent shell, allowing one to see through to the creature's internal organs.",
 		"display": "monster"
 	},
+	"ghost_scorpion": { "copyof": "scorpion,_ghost_scorpion" },
 	"scorpion,_giant_emperor_scorpion": {
 		"name": "Scorpion, Giant Emperor Scorpion",
 		"file": "monsterdisplaye3b9.html",
@@ -11880,6 +11951,7 @@
 		"short_description": "This massive scorpion erupts from the sand, its giant pincers snapping and its tail stinger swaying threateningly.",
 		"display": "monster"
 	},
+	"giant_emperor_scorpion": { "copyof": "scorpion,_giant_emperor_scorpion" },
 	"scorpion,_giant_scorpion": {
 		"name": "Scorpion, Giant Scorpion",
 		"file": "monsterdisplay576a.html",
@@ -11967,6 +12039,7 @@
 		"short_description": "The sixteen-foot-long scorpion scrabbles forward, ferocious claws raised in challenge, stingered tail arched over its back.",
 		"display": "monster"
 	},
+	"giant_scorpion": { "copyof": "scorpion,_giant_scorpion" },
 	"scorpion,_greensting_scorpion": {
 		"name": "Scorpion, Greensting Scorpion",
 		"file": "monsterdisplay0f6e.html",
@@ -12039,6 +12112,7 @@
 		"short_description": "Though its pincers seem too small to harm anything larger than an insect, this scorpion's stinger still appears dangerous.",
 		"display": "monster"
 	},
+	"greensting_scorpion": { "copyof": "scorpion,_greensting_scorpion" },
 	"scrapshell": {
 		"name": "Scrapshell",
 		"file": "monsterdisplay7aee.html",
@@ -12101,7 +12175,7 @@
 			"",
 			"**Ambush Strike (Ex)** During the surprise round, the scrapshell can use its razor-sharp tongue to gain a +2 bonus on attack rolls, threaten a critical hit on a natural roll of 15-20, and automatically confirm any critical hit against a flat-footed creature.",
 			"",
-			"**Sticky Shell (Ex)** A scrapshell exudes a sticky mucus that causes items that come into contact with its shell to become affixed. The items stuck to a scrapshell grant it a +4 armor bonus to AC. A weapon that strikes a scrapshell becomes stuck fast unless the wielder succeeds at a DC 17 Reflex save. A creature adjacent to the scrapshell can pry off a stuck weapon with a successful DC 17 Strength check, but doing so provokes attacks of opportunity. A creature that becomes stuck to a scrapshell via a natural attack gains the grappled condition, but the scrapshell does not. A successful critical hit on a scrapshell not only avoids this defensive mechanism (and thus the attacker has no chance of becoming stuck to the shell) but also bypasses its damage reduction. If a scrapshell takes more than 10 points of damage from a single fire attack, its sticky mucus is burned away. A dose of [universal solvent](unknown/universal_solvent) or similar fluid automatically removes a scrapshell's sticky shell ability. It takes a scrapshell 24 hours to secrete more sticky mucus, and during this time, it does not gain the advantages of this ability, and it loses its armor bonus to AC. The shell loses its sticky quality 1 hour after the scrapshell dies. The save DC is Constitution-based.",
+			"**Sticky Shell (Ex)** A scrapshell exudes a sticky mucus that causes items that come into contact with its shell to become affixed. The items stuck to a scrapshell grant it a +4 armor bonus to AC. A weapon that strikes a scrapshell becomes stuck fast unless the wielder succeeds at a DC 17 Reflex save. A creature adjacent to the scrapshell can pry off a stuck weapon with a successful DC 17 Strength check, but doing so provokes attacks of opportunity. A creature that becomes stuck to a scrapshell via a natural attack gains the grappled condition, but the scrapshell does not. A successful critical hit on a scrapshell not only avoids this defensive mechanism (and thus the attacker has no chance of becoming stuck to the shell) but also bypasses its damage reduction. If a scrapshell takes more than 10 points of damage from a single fire attack, its sticky mucus is burned away. A dose of [universal solvent](magic/wondrous/universal_solvent) or similar fluid automatically removes a scrapshell's sticky shell ability. It takes a scrapshell 24 hours to secrete more sticky mucus, and during this time, it does not gain the advantages of this ability, and it loses its armor bonus to AC. The shell loses its sticky quality 1 hour after the scrapshell dies. The save DC is Constitution-based.",
 			"",
 			"**Tongue (Ex)** A scrapshell attacks with a thin, elongated tongue tipped with a long, curved blade of shell, similar in size to a large falchion. This is a primary attack.",
 			"",
@@ -12920,6 +12994,7 @@
 		"short_description": "This great, writhing aquatic beast is pale blue with bright yellow stripes, and possesses a flipperlike tail to aid it as it swims.",
 		"display": "monster"
 	},
+	"giant_sea_snake": { "copyof": "sea_snake,_giant_sea_snake" },
 	"sea_urchin,_giant,_black_spot": {
 		"name": "Sea Urchin, Giant, Black Spot",
 		"file": "monsterdisplay4d9c.html",
@@ -13004,6 +13079,7 @@
 		"short_description": "The spines of this sizable sea urchin bristle, revealing a strange, multipart beak gnashing in their midst.",
 		"display": "monster"
 	},
+	"black_spot": { "copyof": "sea_urchin,_giant,_black_spot" },
 	"sea_urchin,_giant,_glass_urchin": {
 		"name": "Sea Urchin, Giant, Glass Urchin",
 		"file": "monsterdisplay451f.html",
@@ -13093,6 +13169,7 @@
 		],
 		"display": "monster"
 	},
+	"glass_urchin": { "copyof": "sea_urchin,_giant,_glass_urchin" },
 	"sea_urchin,_giant,_great_diadem_urchin": {
 		"name": "Sea Urchin, Giant, Great Diadem Urchin",
 		"file": "monsterdisplay2db9.html",
@@ -13166,6 +13243,7 @@
 		"short_description": "Thick spines like the flanges of a royal crown bristle all across the surface of this strangely large golden sea urchin.",
 		"display": "monster"
 	},
+	"great_diadem_urchin": { "copyof": "sea_urchin,_giant,_great_diadem_urchin" },
 	"sea_urchin,_giant,_hunter_urchin": {
 		"name": "Sea Urchin, Giant, Hunter Urchin",
 		"file": "monsterdisplay9422.html",
@@ -13259,6 +13337,7 @@
 		"short_description": "This strange-looking creature has a spherical body covered with hundreds or thousands of two-foot-long bright purple spines that darken to ominous black tips.",
 		"display": "monster"
 	},
+	"hunter_urchin": { "copyof": "sea_urchin,_giant,_hunter_urchin" },
 	"sea_urchin,_giant,_ravenous_urchin_swarm": {
 		"name": "Sea Urchin, Giant, Ravenous Urchin Swarm",
 		"file": "monsterdisplay48ff.html",
@@ -13351,6 +13430,7 @@
 		"short_description": "A wave of swift-moving spines rushes forward-a roiling tide of dangerously fast sea urchins.",
 		"display": "monster"
 	},
+	"ravenous_urchin_swarm": { "copyof": "sea_urchin,_giant,_ravenous_urchin_swarm" },
 	"sea_urchin,_giant,_spear_urchin": {
 		"name": "Sea Urchin, Giant, Spear Urchin",
 		"file": "monsterdisplay8624.html",
@@ -13444,6 +13524,7 @@
 		],
 		"display": "monster"
 	},
+	"spear_urchin": { "copyof": "sea_urchin,_giant,_spear_urchin" },
 	"sea_worm,_king_ragworm": {
 		"name": "Sea Worm, King Ragworm",
 		"file": "monsterdisplay1021.html",
@@ -13519,6 +13600,7 @@
 		"short_description": "This enormous segmented worm shimmers with iridescent colors, and large bristles run along its sides.",
 		"display": "monster"
 	},
+	"king_ragworm": { "copyof": "sea_worm,_king_ragworm" },
 	"seahorse,_giant_seahorse": {
 		"name": "Seahorse, Giant Seahorse",
 		"file": "monsterdisplay87c0.html",
@@ -13590,6 +13672,7 @@
 		"short_description": "This sea creature resembles a cross between fish and horse; it has small fins on its flanks and a gracefully curled tail.",
 		"display": "monster"
 	},
+	"giant_seahorse": { "copyof": "seahorse,_giant_seahorse" },
 	"seahorse,_killer_seahorse": {
 		"name": "Seahorse, Killer Seahorse",
 		"file": "monsterdisplay9d02.html",
@@ -13660,6 +13743,7 @@
 		"short_description": "This elephant-sized sea creature resembles a horse crossed with a fish, with crazed whirling eyes.",
 		"display": "monster"
 	},
+	"killer_seahorse": { "copyof": "seahorse,_killer_seahorse" },
 	"seaweed_siren": {
 		"name": "Seaweed Siren",
 		"file": "monsterdisplaydd67.html",
@@ -14137,6 +14221,7 @@
 		"short_description": "This venomous snake is heavily armored and has unusually large fangs.",
 		"display": "monster"
 	},
+	"juvenile_seps": { "copyof": "seps,_juvenile_seps" },
 	"serpentfolk": {
 		"name": "Serpentfolk",
 		"file": "monsterdisplay9c61.html",
@@ -14306,6 +14391,7 @@
 		],
 		"display": "monster"
 	},
+	"serpentfolk_bone_prophet": { "copyof": "serpentfolk,_serpentfolk_bone_prophet" },
 	"serpentfolk,_serpentfolk_high_priest": {
 		"name": "Serpentfolk, Serpentfolk High Priest",
 		"file": "monsterdisplay27c5.html",
@@ -14388,6 +14474,7 @@
 		],
 		"display": "monster"
 	},
+	"serpentfolk_high_priest": { "copyof": "serpentfolk,_serpentfolk_high_priest" },
 	"serpentfolk,_serpentfolk_hunter": {
 		"name": "Serpentfolk, Serpentfolk Hunter",
 		"file": "monsterdisplay7a4e.html",
@@ -14460,6 +14547,7 @@
 		],
 		"display": "monster"
 	},
+	"serpentfolk_hunter": { "copyof": "serpentfolk,_serpentfolk_hunter" },
 	"serpentfolk,_serpentfolk_illusionist": {
 		"name": "Serpentfolk, Serpentfolk Illusionist",
 		"file": "monsterdisplaybc9e.html",
@@ -14538,6 +14626,7 @@
 		],
 		"display": "monster"
 	},
+	"serpentfolk_illusionist": { "copyof": "serpentfolk,_serpentfolk_illusionist" },
 	"serpentfolk,_serpentfolk_reclaimer": {
 		"name": "Serpentfolk, Serpentfolk Reclaimer",
 		"file": "monsterdisplay78f2.html",
@@ -14618,6 +14707,7 @@
 		"short_description": "Ophidian imagery decorates the fine robes of this sinuous, fanged humanoid, and a narrow, forked tongue flicks from its serpentine head.",
 		"display": "monster"
 	},
+	"serpentfolk_reclaimer": { "copyof": "serpentfolk,_serpentfolk_reclaimer" },
 	"serpentfolk,_serpentfolk_spellblade": {
 		"name": "Serpentfolk, Serpentfolk Spellblade",
 		"file": "monsterdisplay4583.html",
@@ -14697,6 +14787,7 @@
 		],
 		"display": "monster"
 	},
+	"serpentfolk_spellblade": { "copyof": "serpentfolk,_serpentfolk_spellblade" },
 	"serpentfolk,_serpentfolk_spy": {
 		"name": "Serpentfolk, Serpentfolk Spy",
 		"file": "monsterdisplay153e.html",
@@ -14770,6 +14861,7 @@
 		],
 		"display": "monster"
 	},
+	"serpentfolk_spy": { "copyof": "serpentfolk,_serpentfolk_spy" },
 	"serpopard": {
 		"name": "Serpopard",
 		"file": "monsterdisplayc090.html",
@@ -15208,6 +15300,7 @@
 		"short_description": "Hundreds of legs support this hulking, bruise-colored worm.",
 		"display": "monster"
 	},
+	"seugathi_savant": { "copyof": "seugathi,_seugathi_savant" },
 	"sha": {
 		"name": "Sha",
 		"file": "monsterdisplayb8a9.html",
@@ -15456,19 +15549,19 @@
 			"",
 			"**Source** [Undead Revisited pg. 37](source/undead_revisited) While most shadows steal strength from their victims, rare variants may drain different aspects of a target's vitality. A variant shadow's chilling touch may induce paralysis and numbness (Dexterity damage) or a kind of slow decay of the flesh (Constitution damage). The mere touch of a shadow can cause idiocy (Intelligence damage), madness (Wisdom damage), or an unnerving deadening of the victim's personality (Charisma damage). Any or all of these could also be preludes to the shadow's true theft of Strength, further weakening a target and making it easy prey. Other variants include the following.",
 			"",
-			"Distorted Shadow (CR +1): Not bound by the limitations of physical creatures, some shadows can flicker and distort like their namesakes, stretching out to touch victims over much greater distances. These shadows possess the [Advanced](unknown/advanced) creature simple template, but instead of gaining a bonus to natural armor, increase their reach with their incorporeal touch by 10 feet.",
+			"Distorted Shadow (CR +1): Not bound by the limitations of physical creatures, some shadows can flicker and distort like their namesakes, stretching out to touch victims over much greater distances. These shadows possess the [Advanced](monster/template/advanced) creature simple template, but instead of gaining a bonus to natural armor, increase their reach with their incorporeal touch by 10 feet.",
 			"",
 			"Hidden One (CR +1): While all shadows are stealthy, some are especially effective at concealing themselves in areas of dim and shifting light. Rather than making Stealth skill checks, these shadows simply have partial or even total concealment among normal shadows, adding a 20% miss chance to their already formidable ability to shrug off many mundane sources of damage.",
 			"",
-			"Plague Shadow (CR +1): Plague shadows appear as Medium-sized shadows of animals associated with disease- typically rats or bats. Rather than simply draining a victim's Strength on a hit, plague shadows also inflict a dreaded curse known as shadow blight. Victims of this supernatural disease quickly weaken and die, at which point they spawn new plague shadows to further spread the contagion. A plague shadow has the [Advanced](unknown/advanced) creature simple template, but does not gain a natural armor bonus to its AC.",
+			"Plague Shadow (CR +1): Plague shadows appear as Medium-sized shadows of animals associated with disease- typically rats or bats. Rather than simply draining a victim's Strength on a hit, plague shadows also inflict a dreaded curse known as shadow blight. Victims of this supernatural disease quickly weaken and die, at which point they spawn new plague shadows to further spread the contagion. A plague shadow has the [Advanced](monster/template/advanced) creature simple template, but does not gain a natural armor bonus to its AC.",
 			"",
-			"Shadow blight: curse and disease; save Fortitude DC 16; onset 1 minute; frequency 1/day; effect 1d8 Strength damage, upon death, the victim becomes a plague shadow; cure successfully casting both [remove curse](unknown/remove_curse) and [remove disease](unknown/remove_disease) within 1 minute of each other.",
+			"Shadow blight: curse and disease; save Fortitude DC 16; onset 1 minute; frequency 1/day; effect 1d8 Strength damage, upon death, the victim becomes a plague shadow; cure successfully casting both [remove curse](spell/remove_curse) and [remove disease](spell/remove_disease) within 1 minute of each other.",
 			"",
 			"Shadetouch Shadow (CR +0): Shadetouch shadows are infused with partially real shadowstuff from the Shadow Plane. They treat the Shadow Plane as their home plane (and thus gain the \"extraplanar\" subtype on the Material Plane). A shadetouch shadow lacks the typical shadow's incorporeal touch-instead, it possesses two claw attacks that each deal 1d8 points of damage on a hit, in addition to the normal amount of Strength damage shadows inflict.",
 			"",
-			"Vanishing Shadow (CR +1): Shadows dwelling in a place of strong negative energy or with a connection to the Shadow Plane can develop the ability to shadow slip through the Shadow Plane, vanishing into the darkness and reappearing some distance away. These shadows have the [Advanced](unknown/advanced) creature simple template- while they do not gain the bonus to natural armor that this template typically imparts, vanishing shadows possess blink as a constant spell-like ability.",
+			"Vanishing Shadow (CR +1): Shadows dwelling in a place of strong negative energy or with a connection to the Shadow Plane can develop the ability to shadow slip through the Shadow Plane, vanishing into the darkness and reappearing some distance away. These shadows have the [Advanced](monster/template/advanced) creature simple template- while they do not gain the bonus to natural armor that this template typically imparts, vanishing shadows possess blink as a constant spell-like ability.",
 			"",
-			"Shadow Slip (Su) At will as a move action, the vanishing shadow may shadow slip-this functions identically to the spell [dimension door](unknown/dimension_door), save that the starting point and destination must lie in darkness or dim light."
+			"Shadow Slip (Su) At will as a move action, the vanishing shadow may shadow slip-this functions identically to the spell [dimension door](spell/dimension_door), save that the starting point and destination must lie in darkness or dim light."
 		],
 		"short_description": "Barely seen out of the corner of the eye, this wisp of shadow is vaguely humanoid in outline and writhes with unholy life.",
 		"display": "monster"
@@ -15630,6 +15723,7 @@
 		"short_description": "A tentacled horror that seems to shift in and out of the shadows, this bizarre beast is an amalgamation of darkness and menace.",
 		"display": "monster"
 	},
+	"shadow_roper": { "copyof": "shadow_creature,_shadow_roper" },
 	"shadow_fern": {
 		"name": "Shadow Fern",
 		"file": "monsterdisplayc229.html",
@@ -15851,6 +15945,7 @@
 		"short_description": "This shadowy figure sways and moves with an erratic grace, as if lit by an unseen fire.",
 		"display": "monster"
 	},
+	"greater_shadow": { "copyof": "shadow,_greater_shadow" },
 	"shadowgarm": {
 		"name": "Shadowgarm",
 		"file": "monsterdisplay8566.html",
@@ -16554,6 +16649,7 @@
 		"short_description": "This majestic beast glides through the water with murderous intent. Its thick-toothed maw is wide enough for a human to stand in, and its body stretches back more than 20 feet.",
 		"display": "monster"
 	},
+	"angustiden": { "copyof": "shark,_angustiden" },
 	"shark,_bull_shark": {
 		"name": "Shark, Bull Shark",
 		"file": "monsterdisplay1017.html",
@@ -16619,6 +16715,7 @@
 		"short_description": "This sleek, gray predator weaves back and forth through the water with savage grace.",
 		"display": "monster"
 	},
+	"bull_shark": { "copyof": "shark,_bull_shark" },
 	"shark,_dire_shark_megalodon": {
 		"name": "Shark, Dire Shark (Megalodon)",
 		"file": "monsterdisplay2ea8-2.html",
@@ -16684,10 +16781,8 @@
 		"short_description": "Large as a dragon, this shark's jaws open to reveal a cavernous, tooth-lined gullet capable of swallowing a horse whole.",
 		"display": "monster"
 	},
-	"dire_shark": {
-		"copyof": "shark,_dire_shark_megalodon",
-		"display": "monster"
-	},
+	"dire_shark_megalodon": { "copyof": "shark,_dire_shark_megalodon" },
+	"dire_shark": { "copyof": "shark,_dire_shark_megalodon" },
 	"shark,_great_white_shark": {
 		"name": "Shark, Great White Shark",
 		"file": "monsterdisplay004e.html",
@@ -16760,6 +16855,7 @@
 		"short_description": "This immense silvery beast is a majestic specimen, its gigantic jaws lined with rows of serrated teeth.",
 		"display": "monster"
 	},
+	"great_white_shark": { "copyof": "shark,_great_white_shark" },
 	"shark,_hammerhead_shark": {
 		"name": "Shark, Hammerhead Shark",
 		"file": "monsterdisplay8ce5.html",
@@ -16824,6 +16920,7 @@
 		"short_description": "Beneath this sleek gray shark's unusually shaped head, a disproportionately small mouth flashes with razor-sharp teeth.",
 		"display": "monster"
 	},
+	"hammerhead_shark": { "copyof": "shark,_hammerhead_shark" },
 	"shark,_helicoprion": {
 		"name": "Shark, Helicoprion",
 		"file": "monsterdisplayfff0.html",
@@ -16893,6 +16990,7 @@
 		"short_description": "This creature resembles an ordinary shark from tail to mouth, but the unusual shape of its lower jaw marks it as something else. A whorl of teeth spirals inward, tiny at the centre, but long and brutal farther out.",
 		"display": "monster"
 	},
+	"helicoprion": { "copyof": "shark,_helicoprion" },
 	"shark,_jigsaw_shark": {
 		"name": "Shark, Jigsaw Shark",
 		"file": "monsterdisplay1e68.html",
@@ -16957,6 +17055,7 @@
 		"short_description": "Jagged markings decorate the body of this human-sized shark. A multitude of stains on its large teeth tell of the frequency and ferocity with which it uses its bite.",
 		"display": "monster"
 	},
+	"jigsaw_shark": { "copyof": "shark,_jigsaw_shark" },
 	"shasalqu": {
 		"name": "Shasalqu",
 		"file": "monsterdisplayb618.html",
@@ -17649,6 +17748,7 @@
 		"short_description": "A fleet of miniature ships, each secure in a glass bottle, flies through the air. The ships move as one, coordinating their attacks.",
 		"display": "monster"
 	},
+	"bottled_armada": { "copyof": "ship_in_a_bottle,_bottled_armada" },
 	"ship_sentinel": {
 		"name": "Ship Sentinel",
 		"file": "monsterdisplay7623.html",
@@ -18446,7 +18546,7 @@
 			"#### Ecology",
 			"",
 			"**Environment** any  ",
-			"**Organization** solitary or hive (1 plus 3-12 [shriezyx](unknown/shriezyx))  ",
+			"**Organization** solitary or hive (1 plus 3-12 [shriezyx](monster/shriezyx))  ",
 			"**Treasure** standard",
 			"",
 			"#### Special Abilities",
@@ -18459,7 +18559,7 @@
 			"",
 			"#### Description",
 			"",
-			"When Runelord Alaznist first learned the art of fleshwarping from the qlippoth lord Yamasoth, she and her assistants created myriad abominations that have survived into the modern day. Among these wretched creations are the spider-like [shriezyx](unknown/shriezyx), which remain a constant threat to explorers venturing into the heart of Hollow Mountain, the ruins of Xin-Bakrakhan at the mountain's base, and the Irespan in the nearby city of Magnimar. While shriezyx made excellent soldiers and guardians, they made poor servants, in part because of their unnatural fear of fire (a particular problem for Alaznist's armies and devotees, who relied heavily on evocation magic). The same immunity to mental control that defended them against enchantments from the rival realm of Eurythnia also made them impossible to magically control by their own general. To solve this problem, Alaznist's skilled fleshwarpers created a superior version of the shriezyx-a queen that could serve as commander to lesser shriezyx and ensure complete loyalty among the verminous minions.",
+			"When Runelord Alaznist first learned the art of fleshwarping from the qlippoth lord Yamasoth, she and her assistants created myriad abominations that have survived into the modern day. Among these wretched creations are the spider-like [shriezyx](monster/shriezyx), which remain a constant threat to explorers venturing into the heart of Hollow Mountain, the ruins of Xin-Bakrakhan at the mountain's base, and the Irespan in the nearby city of Magnimar. While shriezyx made excellent soldiers and guardians, they made poor servants, in part because of their unnatural fear of fire (a particular problem for Alaznist's armies and devotees, who relied heavily on evocation magic). The same immunity to mental control that defended them against enchantments from the rival realm of Eurythnia also made them impossible to magically control by their own general. To solve this problem, Alaznist's skilled fleshwarpers created a superior version of the shriezyx-a queen that could serve as commander to lesser shriezyx and ensure complete loyalty among the verminous minions.",
 			"",
 			"A typical shriezyx queen is roughly 8 feet in length and weighs as much as 1,000 pounds.",
 			"",
@@ -18477,11 +18577,12 @@
 			"",
 			"Despite their influential role within hive society, shriezyx queens live solitary lives, forever unique among their kin. Two shriezyx queens rarely meet one another, each tasked by their design with managing disparate hives. Shriezyx queens limit contact with underlings, except to issue orders or to orchestrate attacks during times of open conflict with the hive's enemies. A queen spends her solitary hours stewing on her plots for returning her hive-or herself-to a position of prominence in the region, but she invariably produces convoluted, overwrought plans that she never finds the opportunity to act on.",
 			"",
-			"A queen that does interact with members of another species-whether they're allies of fallen Bakrakhan (normally demons, giants, or [sinspawn](unknown/sinspawn)) or members of modern societies now living in or near the shriezyx's ruined lair-is likely to be quite verbose. After centuries of loneliness, most queens are overwhelmed by the idea of conversing with an intellectual equal, and they see such opportunities as a rare chances to implement long-delayed plans. Humanoids often find such conversations off-putting, both because the shriezyx are such horrific works of arcane mutation and because few adventurers would ever expect to encounter chatty monstrosities when exploring millennia-old ruins."
+			"A queen that does interact with members of another species-whether they're allies of fallen Bakrakhan (normally demons, giants, or [sinspawn](monster/sinspawn)) or members of modern societies now living in or near the shriezyx's ruined lair-is likely to be quite verbose. After centuries of loneliness, most queens are overwhelmed by the idea of conversing with an intellectual equal, and they see such opportunities as a rare chances to implement long-delayed plans. Humanoids often find such conversations off-putting, both because the shriezyx are such horrific works of arcane mutation and because few adventurers would ever expect to encounter chatty monstrosities when exploring millennia-old ruins."
 		],
 		"short_description": "This bulbous, green-skinned spider is as large as a horse, its toothy maw smiling beneath three glowing eyes.",
 		"display": "monster"
 	},
+	"shriezyx_queen": { "copyof": "shriezyx,_shriezyx_queen" },
 	"shrike_worm": {
 		"name": "Shrike Worm",
 		"file": "monsterdisplay593e.html",
@@ -18791,7 +18892,7 @@
 			"",
 			"#### Offense",
 			"",
-			"**Speed** 40 ft.; [air walk](unknown/air_walk)  ",
+			"**Speed** 40 ft.; [air walk](spell/air_walk)  ",
 			"**Melee** 2 claws +21 (2d6+6/19-20 plus misery)  ",
 			"**Space** 10 ft., **Reach** 15 ft.  ",
 			"**Special Attacks** burst of uncanny speed, savage the suffering, sneak attack +4d6, telepathic wail  ",
@@ -18818,7 +18919,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Burst of Uncanny Speed (Su)** On the first round of combat, a misery siktempora moves as if it were affected by a [haste](unknown/haste) spell. It can use [Whirlwind Attack](unknown/whirlwind_attack) on this first round of combat as a standard action, making one melee attack at its highest base attack bonus against each opponent within reach.",
+			"**Burst of Uncanny Speed (Su)** On the first round of combat, a misery siktempora moves as if it were affected by a [haste](spell/haste) spell. It can use [Whirlwind Attack](feat/whirlwind_attack) on this first round of combat as a standard action, making one melee attack at its highest base attack bonus against each opponent within reach.",
 			"",
 			"**Miserable Source (Ex)** A misery siktempora created by a creature that has damaged the time stream is no more powerful than others of its kind, but its creator takes a -4 penalty on saving throws against that particular siktempora's misery and telepathic wail abilities.",
 			"",
@@ -18828,9 +18929,9 @@
 			"",
 			"**Telepathic Wail (Su)** Once per round as a swift action, a misery siktempora can fill the mind of a single living creature within 100 feet with the perception of a wail filled with horror and despair. A creature subjected to this telepathic wail must succeed at a DC 22 Will save or become confused for 1 round. This is a mind-affecting effect. The save DC is Charisma-based.",
 			"",
-			"**Temporal Jaunt (Sp)** As a standard action, a misery siktempora can vanish into the time stream, reappearing in another location. This ability functions as [dimension door](unknown/dimension_door) (so a typical misery siktempora can jaunt up to 880 feet), but the siktempora can take other actions that round after reappearing, and the destination must be in a location the siktempora could reach normally by walking. Temporal jaunts are not true teleportation-the misery siktempora simply travels to a later point in the time stream-so the ability can be used in areas that bar teleportation effects; however, in such areas a siktempora can travel only a distance equal to its speed.",
+			"**Temporal Jaunt (Sp)** As a standard action, a misery siktempora can vanish into the time stream, reappearing in another location. This ability functions as [dimension door](spell/dimension_door) (so a typical misery siktempora can jaunt up to 880 feet), but the siktempora can take other actions that round after reappearing, and the destination must be in a location the siktempora could reach normally by walking. Temporal jaunts are not true teleportation-the misery siktempora simply travels to a later point in the time stream-so the ability can be used in areas that bar teleportation effects; however, in such areas a siktempora can travel only a distance equal to its speed.",
 			"",
-			"**Temporal Sense (Ex)** A misery siktempora can sense all the possible futures of the coming seconds. This grants it an insight bonus on its Initiative checks and to its Armor Class equal to its Wisdom bonus (+5 for most misery siktemporas). A misery siktempora born from someone who damaged the time stream can use [discern location](unknown/discern_location) at will as a spell-like ability to pinpoint its progenitor's location.",
+			"**Temporal Sense (Ex)** A misery siktempora can sense all the possible futures of the coming seconds. This grants it an insight bonus on its Initiative checks and to its Armor Class equal to its Wisdom bonus (+5 for most misery siktemporas). A misery siktempora born from someone who damaged the time stream can use [discern location](spell/discern_location) at will as a spell-like ability to pinpoint its progenitor's location.",
 			"",
 			"#### Description",
 			"",
@@ -18857,6 +18958,7 @@
 		"short_description": "This armless creature has a woman's torso supported by six spidery legs. It lacks a mouth or nose, and its gaze conveys a furious misery.",
 		"display": "monster"
 	},
+	"misery_siktempora": { "copyof": "siktempora,_misery_siktempora" },
 	"simurgh": {
 		"name": "Simurgh",
 		"file": "monsterdisplayfbc6.html",
@@ -19135,7 +19237,7 @@
 			"",
 			"Pridespawn (+4 Int, -2 Wis, -2 Cha): The near-skeletal pridespawn are proud of their thick manes of hair, which they alone of any sinspawn can grow. They often become [Wizards](class/wizard), although pridespawn [magi](class/magus) and [psychics](class/psychic) are not unknown.",
 			"",
-			"Slothspawn (+2 Wis, -2 Dex): Slothspawn appear weighed down by cloaks of excess skin, yet they scuttle about on shrunken legs with alarming speed. They often become [clerics](class/cleric) or [warpriests](class/warpriest), venerating [Lamashtu](unknown/lamashtu), [Rovagug](unknown/rovagug), or whichever locally popular demon lord demands the least effort. Slothspawn [conjurers](class/wizard) and [Summoners](class/wizard) prefer to let their summoned creatures labor on their behalf.",
+			"Slothspawn (+2 Wis, -2 Dex): Slothspawn appear weighed down by cloaks of excess skin, yet they scuttle about on shrunken legs with alarming speed. They often become [clerics](class/cleric) or [warpriests](class/warpriest), venerating [Lamashtu](faith/lamashtu), [Rovagug](faith/rovagug), or whichever locally popular demon lord demands the least effort. Slothspawn [conjurers](class/wizard) and [Summoners](class/wizard) prefer to let their summoned creatures labor on their behalf.",
 			"",
 			"Wrathspawn: The original creations of Alaznist, the bloodthirsty wrathspawn are the most common variety of sinspawn. Many become [barbarians](class/barbarian), [brawlers](class/brawler), or [fighters](class/fighter). Exceptional wrathspawn tap into the essence of sin inside them and become [bloodragers](class/bloodrager) instead."
 		],
@@ -19449,7 +19551,7 @@
 			"",
 			"**Disorienting Gale (Su)** Once every 1d4 rounds, a sishkanset can create a 60-foot line of freezing, madness-laced winds. Creatures caught in the gale take 4d6 points of bludgeoning damage and 4d6 points of cold damage (Reflex DC 19 half). Creatures damaged by the gale must also succeed at a DC 19 Will saving throw or be confused for 1 round. The confusion is a sonic, mind-affecting, compulsion effect. The save DCs are Charisma-based.",
 			"",
-			"**Eavesdropper's Veil (Su)** A sishkanset can use its [detect thoughts](unknown/detect_thoughts) spell-like ability on any creature within 1 mile to which it has line of effect. Additionally, using [detect thoughts](unknown/detect_thoughts) or its whispering persecution ability does not end the sishkanset's invisibility.",
+			"**Eavesdropper's Veil (Su)** A sishkanset can use its [detect thoughts](spell/detect_thoughts) spell-like ability on any creature within 1 mile to which it has line of effect. Additionally, using [detect thoughts](spell/detect_thoughts) or its whispering persecution ability does not end the sishkanset's invisibility.",
 			"",
 			"**Insidious Winds (Su)** A sishkanset's presence suffuses local winds, causing natural light winds within 5 miles of the sishkanset to increase to moderate (11-20 mph). Moderate or greater wind forces are unaffected. If the sishkanset is destroyed, natural wind conditions return within 1 hour.",
 			"",
@@ -19739,6 +19841,7 @@
 		],
 		"display": "monster"
 	},
+	"armored_ogre_skeleton": { "copyof": "skeleton,_armored_ogre_skeleton" },
 	"skeleton,_four-armed_mudra_skeleton": {
 		"name": "Skeleton, Four-Armed Mudra Skeleton",
 		"file": "monsterdisplay4a73.html",
@@ -19797,10 +19900,8 @@
 		"short_description": "Bones rattle against cracked bones as this ancient, fleshless corpse clatters forth.",
 		"display": "monster"
 	},
-	"four_armed_mudra_skeleton": {
-		"copyof": "skeleton,_four-armed_mudra_skeleton",
-		"display": "monster"
-	},
+	"four-armed_mudra_skeleton": { "copyof": "skeleton,_four-armed_mudra_skeleton" },
+	"four_armed_mudra_skeleton": { "copyof": "skeleton,_four-armed_mudra_skeleton" },
 	"skeleton,_multiplying_t-rex_skeleton": {
 		"name": "Skeleton, Multiplying T-Rex Skeleton",
 		"file": "monsterdisplay3cf9.html",
@@ -19863,10 +19964,8 @@
 		],
 		"display": "monster"
 	},
-	"multiplying_trex_skeleton": {
-		"copyof": "skeleton,_multiplying_t-rex_skeleton",
-		"display": "monster"
-	},
+	"multiplying_t-rex_skeleton": { "copyof": "skeleton,_multiplying_t-rex_skeleton" },
+	"multiplying_trex_skeleton": { "copyof": "skeleton,_multiplying_t-rex_skeleton" },
 	"skeleton,_skeletal_mage": {
 		"name": "Skeleton, Skeletal Mage",
 		"file": "monsterdisplay5fa4.html",
@@ -19940,6 +20039,7 @@
 		],
 		"display": "monster"
 	},
+	"skeletal_mage": { "copyof": "skeleton,_skeletal_mage" },
 	"skeleton,_skeletal_mount": {
 		"name": "Skeleton, Skeletal Mount",
 		"file": "monsterdisplayc36d.html",
@@ -19997,6 +20097,7 @@
 		],
 		"display": "monster"
 	},
+	"skeletal_mount": { "copyof": "skeleton,_skeletal_mount" },
 	"skeltercat": {
 		"name": "Skeltercat",
 		"file": "monsterdisplayebe8.html",
@@ -20917,6 +21018,7 @@
 		"short_description": "Snarling and ferocious, this horse-sized skunk emits a frightening growl as it smashes through the undergrowth.",
 		"display": "monster"
 	},
+	"giant_skunk": { "copyof": "skunk,_giant_skunk" },
 	"skvader": {
 		"name": "Skvader",
 		"file": "monsterdisplay295b.html",
@@ -21506,7 +21608,7 @@
 			"**Source** [Pathfinder #122: Into the Shattered Continent pg. 88](source/pathfinder_#122_into_the_shattered_continent)  ",
 			"**XP** 6,400  ",
 			"N Huge construct  ",
-			"**Init** +9; **Senses** darkvision 60 ft., low-light vision, [see alignment](unknown/see_alignment); Perception +14",
+			"**Init** +9; **Senses** darkvision 60 ft., low-light vision, [see alignment](spell/see_alignment); Perception +14",
 			"",
 			"#### Defense",
 			"",
@@ -21533,7 +21635,7 @@
 			"**Feats** [Ability Focus (engulf)](feat/ability_focus), [Dodge](feat/dodge), [Improved Initiative](feat/improved_initiative), [Toughness](feat/toughness), [Weapon Finesse](feat/weapon_finesse)  ",
 			"**Skills** Fly +9, Perception +14, Stealth +6  ",
 			"**Languages** [tongues](unknown/tongues) (can't speak in natural form)  ",
-			"**SQ** change shape (Small or Medium humanoid, [alter self](unknown/alter_self)), tethered",
+			"**SQ** change shape (Small or Medium humanoid, [alter self](spell/alter_self)), tethered",
 			"",
 			"#### Ecology",
 			"",
@@ -21547,13 +21649,13 @@
 			"",
 			"**Gaseous (Ex)** A smoke sentinel can pass through small holes and even cracks without reducing its speed. It cannot enter water or other liquids. It has no Strength score and cannot manipulate objects. Its gaseous form renders the smoke sentinel immune to all nonmagical attack forms. Even when hit by spells or magic weapons, it takes only half damage. Spells and effects that do not deal damage have only a 50% chance of affecting a smoke sentinel. A smoke sentinel has no natural armor bonus, but it has a deflection bonus equal to its Charisma bonus.",
 			"",
-			"**Tethered (Su)** A smoke sentinel is tethered to a hollow physical object (usually a small box or totem) from which it can travel no farther than 1 mile. An intelligent creature who holds the construct's tether for at least 1 hour gains the ability to control the smoke sentinel as though it were the target of a [dominate monster](unknown/dominate_monster) spell. This control lasts until another intelligent creature holds the tether for an hour or more, whereupon that creature gains control of the construct. If its controller dies or otherwise ceases to command the smoke sentinel, the construct continues carrying out its most recent command. Should its last command be a finite task, the smoke sentinel reverts to the role of guardian when finished, keeping potential threats away from the site of its tether. A smoke sentinel can compress to fit within its tether as a fullround action. While in the tether, it recovers from damage at a rate of 1 hit point per hour.",
+			"**Tethered (Su)** A smoke sentinel is tethered to a hollow physical object (usually a small box or totem) from which it can travel no farther than 1 mile. An intelligent creature who holds the construct's tether for at least 1 hour gains the ability to control the smoke sentinel as though it were the target of a [dominate monster](spell/dominate_monster) spell. This control lasts until another intelligent creature holds the tether for an hour or more, whereupon that creature gains control of the construct. If its controller dies or otherwise ceases to command the smoke sentinel, the construct continues carrying out its most recent command. Should its last command be a finite task, the smoke sentinel reverts to the role of guardian when finished, keeping potential threats away from the site of its tether. A smoke sentinel can compress to fit within its tether as a fullround action. While in the tether, it recovers from damage at a rate of 1 hit point per hour.",
 			"",
 			"#### Description",
 			"",
 			"Smoke sentinels are clouds of sentient black smoke that protect isolated ruins throughout the shattered continent of Azlant. As amorphous clouds, smoke sentinels have no distinguishing features, but they often extend their bodies into long tendrils that slither along the ground like hungry vines. No matter how thin a smoke sentinel may make its form, its smoke remains thick and opaque, hiding everything within it from view. Though the strange electrical energy that courses through its body crackles and arcs, the resulting illumination provides no insight into what may lie at the cloud's heart.",
 			"",
-			"A smoke sentinel usually attempts to determine an intruder's intentions through use of its [see alignment](unknown/see_alignment) and [detect thoughts](unknown/detect_thoughts) spell-like abilities. It may take the form of a trusted associate or loved one in order to further interact with the trespasser and bring deeper thoughts and motivations to the creature's surface thoughts. Unless directly threatened or certain that the target of its investigation poses a threat to its master or other sworn charge, the smoke sentinel employs illusions and fear to confuse and frighten the interloper away. Only in extreme cases or when instructed to do so does the construct use its deadly physical attacks.",
+			"A smoke sentinel usually attempts to determine an intruder's intentions through use of its [see alignment](spell/see_alignment) and [detect thoughts](spell/detect_thoughts) spell-like abilities. It may take the form of a trusted associate or loved one in order to further interact with the trespasser and bring deeper thoughts and motivations to the creature's surface thoughts. Unless directly threatened or certain that the target of its investigation poses a threat to its master or other sworn charge, the smoke sentinel employs illusions and fear to confuse and frighten the interloper away. Only in extreme cases or when instructed to do so does the construct use its deadly physical attacks.",
 			"",
 			"While it can compress and condense its form to fit into incredibly small spaces, a smoke sentinel most often appears as a weightless cloud occupying approximately 3,500 cubic feet of space.",
 			"",
@@ -21798,6 +21900,7 @@
 		"short_description": "Venomous snakes slither and crawl over each other in a furious mass, their poison-dripping fangs glinting in the light.",
 		"display": "monster"
 	},
+	"venomous_snake_swarm": { "copyof": "snake_swarm,_venomous_snake_swarm" },
 	"snake,_asp": {
 		"name": "Snake, Asp",
 		"file": "monsterdisplay723d.html",
@@ -21863,6 +21966,7 @@
 		"short_description": "This long, muscular snake rears up and shows its hood and fangs when threatened.",
 		"display": "monster"
 	},
+	"asp": { "copyof": "snake,_asp" },
 	"snake,_constrictor_snake": {
 		"name": "Snake, Constrictor Snake",
 		"file": "monsterdisplay3f8d.html",
@@ -21926,6 +22030,7 @@
 		"short_description": "This large snake has a thick, muscular body and dull green scales decorated with dirty brown stripes.",
 		"display": "monster"
 	},
+	"constrictor_snake": { "copyof": "snake,_constrictor_snake" },
 	"snake,_emperor_cobra": {
 		"name": "Snake, Emperor Cobra",
 		"file": "monsterdisplayfcc3.html",
@@ -21991,6 +22096,7 @@
 		"short_description": "This massive green cobra rears its head upward aggressively, its brightly colored, scaly hood flaring in an unmistakable warning.",
 		"display": "monster"
 	},
+	"emperor_cobra": { "copyof": "snake,_emperor_cobra" },
 	"snake,_giant_anaconda": {
 		"name": "Snake, Giant Anaconda",
 		"file": "monsterdisplay16a5.html",
@@ -22053,6 +22159,7 @@
 		"short_description": "An enormous coil of muscle and scales, this giant snake flicks its arm-length tongue in the air as it scans the area for prey.",
 		"display": "monster"
 	},
+	"giant_anaconda": { "copyof": "snake,_giant_anaconda" },
 	"snake,_venomous_snake": {
 		"name": "Snake, Venomous Snake",
 		"file": "monsterdisplay94dd.html",
@@ -22119,6 +22226,7 @@
 		"short_description": "This brightly colored snake assumes an aggressive posture, its hissing mouth open to display its fangs.",
 		"display": "monster"
 	},
+	"venomous_snake": { "copyof": "snake,_venomous_snake" },
 	"snallygaster": {
 		"name": "Snallygaster",
 		"file": "monsterdisplay2f76.html",
@@ -22327,6 +22435,7 @@
 		"short_description": "This spider-like creature's front legs end in immense, grasping claws. Its mouth sports a pair of huge vertical mandibles.",
 		"display": "monster"
 	},
+	"albino_cave_solifugid": { "copyof": "solifugid,_albino_cave_solifugid" },
 	"solifugid,_giant_solifugid": {
 		"name": "Solifugid, Giant Solifugid",
 		"file": "monsterdisplaycadd.html",
@@ -22398,6 +22507,7 @@
 		"short_description": "This tan-colored creature looks like a ten-legged spider. Oversized jaws grind together slowly beneath beady eyes.",
 		"display": "monster"
 	},
+	"giant_solifugid": { "copyof": "solifugid,_giant_solifugid" },
 	"somalcygot": {
 		"name": "Somalcygot",
 		"file": "monsterdisplayd2ac.html",
@@ -23122,7 +23232,7 @@
 			"",
 			"**Site Bound (Ex)** A soulpierced cannot travel more than 100 feet from where it was created.",
 			"",
-			"**Soulpiercing Blade (Su)** A soulpierced's spirit is anchored in place by the blade through its heart. While this blade is in place, the soulpierced cannot be restored to life by any means other than direct intervention of a deity. This blade is also the source of the soulpierced's rejuvenation ability. Although a soulpierced is incorporeal, a corporeal creature can remove the blade as though it had the [ghost touch](unknown/ghost_touch) magic weapon special ability. Removing the blade requires a successful disarm or steal combat maneuver made as a full-round action. As a free action, a creature removing the blade must succeed at a DC 35 Knowledge (arcana) or Knowledge (religion) check to recite an appropriate prayer; otherwise, the blade isn't removed, even if the combat maneuver was successful. The blade disintegrates once removed, and the creature that removed it must succeed at a DC 29 Fortitude save or incur 2d4 negative levels. The save DC is Charisma-based.",
+			"**Soulpiercing Blade (Su)** A soulpierced's spirit is anchored in place by the blade through its heart. While this blade is in place, the soulpierced cannot be restored to life by any means other than direct intervention of a deity. This blade is also the source of the soulpierced's rejuvenation ability. Although a soulpierced is incorporeal, a corporeal creature can remove the blade as though it had the [ghost touch](magic/enhancement/ghost_touch) magic weapon special ability. Removing the blade requires a successful disarm or steal combat maneuver made as a full-round action. As a free action, a creature removing the blade must succeed at a DC 35 Knowledge (arcana) or Knowledge (religion) check to recite an appropriate prayer; otherwise, the blade isn't removed, even if the combat maneuver was successful. The blade disintegrates once removed, and the creature that removed it must succeed at a DC 29 Fortitude save or incur 2d4 negative levels. The save DC is Charisma-based.",
 			"",
 			"#### Description",
 			"",
@@ -23130,7 +23240,7 @@
 			"",
 			"Even those who destroy a soulpierced find their work incomplete, as the blade through the creature's heart causes it to rejuvenate in the same location within days. Only by removing the soulpiercing blade can anyone free the creature and permanently eliminate it as a threat. But the attempt itself poses grave danger, as close proximity to the soulpierced exposes the opponent to the creature's wrathful attack and the blade itself can harm those who remove it.",
 			"",
-			"No soulpierced is created by accident, nor could they be. The wicked spellcasters willing to perform the elaborate and expensive magical ritual to transform a victim into a soulpierced must do so deliberately and with the utmost care. The ritual is a closely guarded secret but incorporates powerful spells such as [create greater undead](unknown/create_greater_undead) and [soul bind](unknown/soul_bind). It destroys the victim's body, leaving only her heart, and places her under a permanent [nondetection](unknown/nondetection) spell that prevents allies or next of kin from locating her. The ritual to create a soulpierced is usually performed in some location where the perpetrator is confident the spirit won't be discovered, such as an isolated crypt, remote woods, or an abandoned ruin. Because of the complexity and expense of the ritual, the spellcaster must be extraordinarily invested, and thus nearly every soulpierced was once a person with powerful enemies, such as a monarch with influential contenders for the throne, a military leader capable of turning the tide of a war, or a government advisor with significant authority.",
+			"No soulpierced is created by accident, nor could they be. The wicked spellcasters willing to perform the elaborate and expensive magical ritual to transform a victim into a soulpierced must do so deliberately and with the utmost care. The ritual is a closely guarded secret but incorporates powerful spells such as [create greater undead](spell/create_greater_undead) and [soul bind](spell/soul_bind). It destroys the victim's body, leaving only her heart, and places her under a permanent [nondetection](spell/nondetection) spell that prevents allies or next of kin from locating her. The ritual to create a soulpierced is usually performed in some location where the perpetrator is confident the spirit won't be discovered, such as an isolated crypt, remote woods, or an abandoned ruin. Because of the complexity and expense of the ritual, the spellcaster must be extraordinarily invested, and thus nearly every soulpierced was once a person with powerful enemies, such as a monarch with influential contenders for the throne, a military leader capable of turning the tide of a war, or a government advisor with significant authority.",
 			"",
 			"The blade used in the ritual must have a personal connection to the victim, but need not be a conventional weapon; while one soulpierced's blade might be an heirloom dagger, another's might be a shard of mirror. The ritual can anchor any creature that has a soul, although non-humanoid victims are rare.",
 			"",
@@ -23461,10 +23571,7 @@
 		"short_description": "The shape of this creature gives the impression of a squirming mass accompanied by an indescribable monstrous stench.",
 		"display": "monster"
 	},
-	"spawn_of_yog_sothoth": {
-		"copyof": "spawn_of_yog-sothoth",
-		"display": "monster"
-	},
+	"spawn_of_yog_sothoth": { "copyof": "spawn_of_yog-sothoth" },
 	"spectre": {
 		"name": "Spectre",
 		"file": "monsterdisplay4d04.html",
@@ -23548,7 +23655,7 @@
 			"",
 			"**Source** [Undead Revisited pg. 55](source/undead_revisited)",
 			"",
-			"**Corpulent Spectre (+1 CR):** Ancient spectres that are able to satisfy their all-consuming rage by engaging in perpetual, gluttonous feasts upon the living undergo a startling transformation, growing in size and strength as their incorporeal bulk oozes and writhes around them in miasmal folds, appearing as an obese, ghostly humanoid. A corpulent spectre gains the [advanced](unknown/advanced) creature simple template, and while it doesn't gain the bonus to natural armor that template normally grants, its Large size grants it greater reach. Although its size category doesn't change, its reach with its melee attacks increases by 5 feet."
+			"**Corpulent Spectre (+1 CR):** Ancient spectres that are able to satisfy their all-consuming rage by engaging in perpetual, gluttonous feasts upon the living undergo a startling transformation, growing in size and strength as their incorporeal bulk oozes and writhes around them in miasmal folds, appearing as an obese, ghostly humanoid. A corpulent spectre gains the [advanced](monster/template/advanced) creature simple template, and while it doesn't gain the bonus to natural armor that template normally grants, its Large size grants it greater reach. Although its size category doesn't change, its reach with its melee attacks increases by 5 feet."
 		],
 		"short_description": "This translucent, ghostly figure fades into view from the damp mist, its face distorted by wrath into a hideous mask.",
 		"display": "monster"
@@ -23822,6 +23929,7 @@
 		"short_description": "This regal, bird-winged lion has a human's head, clad in the golden raiment of a powerful pharaoh.",
 		"display": "monster"
 	},
+	"androsphinx": { "copyof": "sphinx,_androsphinx" },
 	"sphinx,_criosphinx": {
 		"name": "Sphinx, Criosphinx",
 		"file": "monsterdisplayf2e6.html",
@@ -23899,6 +24007,7 @@
 		"short_description": "This creature has the wings of a bird, the body of a lion, and the head of a ram with sad, wise eyes.",
 		"display": "monster"
 	},
+	"criosphinx": { "copyof": "sphinx,_criosphinx" },
 	"sphinx,_cynosphinx": {
 		"name": "Sphinx, Cynosphinx",
 		"file": "monsterdisplaye7fb.html",
@@ -24000,6 +24109,7 @@
 		"short_description": "A jackal's head draped in a tattered headdress extends from a winged, leonine body.",
 		"display": "monster"
 	},
+	"cynosphinx": { "copyof": "sphinx,_cynosphinx" },
 	"sphinx,_elder_sphinx": {
 		"name": "Sphinx, Elder Sphinx",
 		"file": "monsterdisplaye51c.html",
@@ -24095,6 +24205,7 @@
 		"short_description": "The brooding face of this towering limestone statue of a gynosphinx reflects a harsh wisdom acquired through untold ages of experience.",
 		"display": "monster"
 	},
+	"elder_sphinx": { "copyof": "sphinx,_elder_sphinx" },
 	"sphinx,_gynosphinx": {
 		"name": "Sphinx, Gynosphinx",
 		"file": "monsterdisplay046a.html",
@@ -24172,6 +24283,7 @@
 		"short_description": "This creature has the body of a lion, the wings of a falcon, and the head and torso of a beautiful human woman.",
 		"display": "monster"
 	},
+	"gynosphinx": { "copyof": "sphinx,_gynosphinx" },
 	"sphinx,_hieracosphinx": {
 		"name": "Sphinx, Hieracosphinx",
 		"file": "monsterdisplay3f83.html",
@@ -24246,6 +24358,7 @@
 		"short_description": "A cold-eyed falcon's head and great wings adorn the body of this otherwise leonine creature.",
 		"display": "monster"
 	},
+	"hieracosphinx": { "copyof": "sphinx,_hieracosphinx" },
 	"spider_eater": {
 		"name": "Spider Eater",
 		"file": "monsterdisplay2172.html",
@@ -24396,6 +24509,7 @@
 		"short_description": "This brown spider's body is fist-sized, yet its long, spindly legs and oversized fangs make it appear quite fearsome.",
 		"display": "monster"
 	},
+	"drain_spider": { "copyof": "spider,_drain_spider" },
 	"spider,_dream_spider": {
 		"name": "Spider, Dream Spider",
 		"file": "monsterdisplay7d78.html",
@@ -24461,11 +24575,12 @@
 			"",
 			"#### Description",
 			"",
-			"Transplants from the Mwangi Expanse (where these spiders can grow to truly enormous proportions), dream spiders have become a significant but valuable infestation in Korvosa's Shingles, for the venom of one of these spiders can be distilled into the popular but dangerous drug known as [shiver](unknown/shiver)."
+			"Transplants from the Mwangi Expanse (where these spiders can grow to truly enormous proportions), dream spiders have become a significant but valuable infestation in Korvosa's Shingles, for the venom of one of these spiders can be distilled into the popular but dangerous drug known as [shiver](drug/shiver)."
 		],
 		"short_description": "The size of a human child, this shimmering spider has a blue-and- purple-striped belly.",
 		"display": "monster"
 	},
+	"dream_spider": { "copyof": "spider,_dream_spider" },
 	"spider,_giant_black_widow": {
 		"name": "Spider, Giant Black Widow",
 		"file": "monsterdisplayec48-2.html",
@@ -24535,6 +24650,7 @@
 		"short_description": "This long-legged spider has a huge, glossy black abdomen, marked on the underside with the shape of a crimson hourglass.",
 		"display": "monster"
 	},
+	"giant_black_widow": { "copyof": "spider,_giant_black_widow" },
 	"spider,_giant_crab_spider": {
 		"name": "Spider, Giant Crab Spider",
 		"file": "monsterdisplaya44a.html",
@@ -24599,6 +24715,7 @@
 		"short_description": "This pale yellow spider's legs protrude on either side, giving it a very distinctive stance. The thing is the size of a large dog.",
 		"display": "monster"
 	},
+	"giant_crab_spider": { "copyof": "spider,_giant_crab_spider" },
 	"spider,_giant_spider": {
 		"name": "Spider, Giant Spider",
 		"file": "monsterdisplay79a9.html",
@@ -24675,6 +24792,7 @@
 		"short_description": "A spider the size of a man crawls silently from the depths of its funnel-shaped web.",
 		"display": "monster"
 	},
+	"giant_spider": { "copyof": "spider,_giant_spider" },
 	"spider,_giant_tarantula": {
 		"name": "Spider, Giant Tarantula",
 		"file": "monsterdisplay28be.html",
@@ -24743,6 +24861,7 @@
 		"short_description": "A massive tarantula covered in bristly hairs strides forward with deliberate steps, its eight eyes scanning for prey.",
 		"display": "monster"
 	},
+	"giant_tarantula": { "copyof": "spider,_giant_tarantula" },
 	"spider,_goliath_spider": {
 		"name": "Spider, Goliath Spider",
 		"file": "monsterdisplayc625.html",
@@ -24811,6 +24930,7 @@
 		"short_description": "This massive brown-and-green tarantula is the size of a large house and has huge, razor-sharp fangs.",
 		"display": "monster"
 	},
+	"goliath_spider": { "copyof": "spider,_goliath_spider" },
 	"spider,_moon_spider": {
 		"name": "Spider, Moon Spider",
 		"file": "monsterdisplay95a7.html",
@@ -24891,6 +25011,7 @@
 		"short_description": "Pale and round-bodied, this giant spider is the size of a large dog. Its crimson eyes glitter with malign intelligence.",
 		"display": "monster"
 	},
+	"moon_spider": { "copyof": "spider,_moon_spider" },
 	"spider,_ogre_spider": {
 		"name": "Spider, Ogre Spider",
 		"file": "monsterdisplay4319.html",
@@ -24958,6 +25079,7 @@
 		"short_description": "This towering spider is the size of an elephant. Its legs have spiky joints and its face looks vaguely, but disturbingly, humanoid.",
 		"display": "monster"
 	},
+	"ogre_spider": { "copyof": "spider,_ogre_spider" },
 	"spider,_scarlet_spider": {
 		"name": "Spider, Scarlet Spider",
 		"file": "monsterdisplaycb06.html",
@@ -25027,6 +25149,7 @@
 		],
 		"display": "monster"
 	},
+	"scarlet_spider": { "copyof": "spider,_scarlet_spider" },
 	"spider,_spider_swarm": {
 		"name": "Spider, Spider Swarm",
 		"file": "monsterdisplay39eb.html",
@@ -25096,6 +25219,7 @@
 		"short_description": "An awful, scuttling mass of legs and mandibles scrambles forward out of the darkness.",
 		"display": "monster"
 	},
+	"spider_swarm": { "copyof": "spider,_spider_swarm" },
 	"spirit_of_adoration": {
 		"name": "Spirit of Adoration",
 		"file": "monsterdisplayae07.html",
@@ -25340,11 +25464,11 @@
 			"",
 			"**Paralytic Spores (Ex)** When a spore stalker is hit by a melee or ranged weapon, it can release a cloud of paralytic spores in a 5-foot radius around itself as an immediate action. Any creature within range when the cloud is released must succeed at a DC 19 Fortitude save or be paralyzed for 1d3 rounds. At the start of a creature's turn, it can attempt a new DC 19 Fortitude save as a standard action to end this paralysis effect early. This is a poison effect; the save DC is Constitution-based.",
 			"",
-			"**Reactive Escape (Su)** Whenever a spore stalker is hit by a melee or ranged weapon, it can teleport up to 30 feet in any direction as an immediate action. This ability otherwise functions as per [dimension door](unknown/dimension_door) (CL 7th).",
+			"**Reactive Escape (Su)** Whenever a spore stalker is hit by a melee or ranged weapon, it can teleport up to 30 feet in any direction as an immediate action. This ability otherwise functions as per [dimension door](spell/dimension_door) (CL 7th).",
 			"",
 			"#### Description",
 			"",
-			"Capable of spreading and colonizing with disturbing speed, a spore stalker and its kin can quickly overrun an area. Fortunately, a spore stalker's life span is relatively short; a typical spore stalker perishes of natural causes in only a few weeks. Spore stalkers are often used by [mi-go](unknown/mi-go) or agents of the Dominion of the Black as biological weapons against unsuspecting citizens of newly discovered planets."
+			"Capable of spreading and colonizing with disturbing speed, a spore stalker and its kin can quickly overrun an area. Fortunately, a spore stalker's life span is relatively short; a typical spore stalker perishes of natural causes in only a few weeks. Spore stalkers are often used by [mi-go](monster/mi-go) or agents of the Dominion of the Black as biological weapons against unsuspecting citizens of newly discovered planets."
 		],
 		"short_description": "This fungoid canine creature skitters forward on many segmented legs, a gurgling growl issuing from its fanged maw.",
 		"display": "monster"
@@ -25420,10 +25544,8 @@
 		],
 		"display": "monster"
 	},
-	"large_spriggan": {
-		"copyof": "spriggan,_spriggan_large_size",
-		"display": "monster"
-	},
+	"spriggan_large_size": { "copyof": "spriggan,_spriggan_large_size" },
+	"large_spriggan": { "copyof": "spriggan,_spriggan_large_size" },
 	"spriggan,_spriggan_normal_size": {
 		"name": "Spriggan, Spriggan (Normal Size)",
 		"file": "monsterdisplay3d1d.html",
@@ -25503,10 +25625,8 @@
 		"short_description": "Flecks of saliva drip from the corners of this filthy and ill-smelling humanoid, and his large pointed ears twitch at every sound.",
 		"display": "monster"
 	},
-	"normal_spriggan": {
-		"copyof": "spriggan,_spriggan_normal_size",
-		"display": "monster"
-	},
+	"spriggan_normal_size": { "copyof": "spriggan,_spriggan_normal_size" },
+	"normal_spriggan": { "copyof": "spriggan,_spriggan_normal_size" },
 	"spring-heeled_jack": {
 		"name": "Spring-Heeled Jack",
 		"file": "monsterdisplay2bb4.html",
@@ -25587,10 +25707,7 @@
 		"short_description": "With jet-black skin and a small but menacing pair of horns, this goateed, impish creature wields a bloody knife and a wicked grin.",
 		"display": "monster"
 	},
-	"spring_heeled_jack": {
-		"copyof": "spring-heeled_jack",
-		"display": "monster"
-	},
+	"spring_heeled_jack": { "copyof": "spring-heeled_jack" },
 	"sprite": {
 		"name": "Sprite",
 		"file": "monsterdisplay66b6.html",
@@ -25751,6 +25868,7 @@
 		"short_description": "Thousands of tiny, colorful winged humanoids crawl from every corner of the forest to form this buzzing, writhing swarm.",
 		"display": "monster"
 	},
+	"sprite_swarm": { "copyof": "sprite,_sprite_swarm" },
 	"squid": {
 		"name": "Squid",
 		"file": "monsterdisplayc59b.html",
@@ -25887,6 +26005,7 @@
 		"short_description": "Immense in size, this great squid's tentacles writhe and flash with almost nauseating speed. The beast's eyes are as big as shields.",
 		"display": "monster"
 	},
+	"giant_squid": { "copyof": "squid,_giant_squid" },
 	"star_monarch": {
 		"name": "Star Monarch",
 		"file": "monsterdisplay0aff.html",
@@ -26164,10 +26283,7 @@
 		"short_description": "A mountainous form, this hideous creature is humanoid in general shape, but its hateful face is a writhing mass of tentacles.",
 		"display": "monster"
 	},
-	"star_spawn_of_cthulhu": {
-		"copyof": "star-spawn_of_cthulhu",
-		"display": "monster"
-	},
+	"star_spawn_of_cthulhu": { "copyof": "star-spawn_of_cthulhu" },
 	"steam_hog": {
 		"name": "Steam Hog",
 		"file": "monsterdisplayebbf.html",
@@ -26723,6 +26839,7 @@
 		"short_description": "Armored in sun-bleached bones and smelling of stale blood, this scarred man with massive wings keeps his bow at the ready.",
 		"display": "monster"
 	},
+	"itaraak_champion": { "copyof": "strix,_itaraak_champion" },
 	"strix,_strix_infiltrator": {
 		"name": "Strix, Strix Infiltrator",
 		"file": "monsterdisplay7cc5.html",
@@ -26793,6 +26910,7 @@
 		"short_description": "Seemingly human at first glance, this feathered woman conceals wings beneath a heavy cloak.",
 		"display": "monster"
 	},
+	"strix_infiltrator": { "copyof": "strix,_strix_infiltrator" },
 	"strix,_strix_rokoa": {
 		"name": "Strix, Strix Rokoa",
 		"file": "monsterdisplay3024.html",
@@ -26872,6 +26990,7 @@
 		"short_description": "This proud avian woman stands tall and alert despite her years. Claws, bones, and feathers clatter on her crown and staff.",
 		"display": "monster"
 	},
+	"strix_rokoa": { "copyof": "strix,_strix_rokoa" },
 	"strix,_strix_voyager": {
 		"name": "Strix, Strix Voyager",
 		"file": "monsterdisplayf16d-2.html",
@@ -26943,6 +27062,7 @@
 		"short_description": "The attire of this winged man, whose wooden mask is carved into an eerie smile, is devoid of the stark-white bones commonly worn by his people.",
 		"display": "monster"
 	},
+	"strix_voyager": { "copyof": "strix,_strix_voyager" },
 	"sturzstromer": {
 		"name": "Sturzstromer",
 		"file": "monsterdisplay23d4-3.html",
@@ -27001,7 +27121,7 @@
 			"**Base Atk** +24; **CMB** -; **CMD** -  ",
 			"**Feats** [Blind-Fight](feat/blind-fight), [Dodge](feat/dodge), [Greater Blind-Fight](feat/greater_blind-fight), [Improved Blind-Fight](feat/improved_blind-fight), [Improved Iron Will](feat/improved_iron_will), [Improved Lightning Reflexes](feat/improved_lightning_reflexes), [Iron Will](feat/iron_will), [Lightning Reflexes](feat/lightning_reflexes), [Mobility](feat/mobility), [Quick Draw](feat/quick_draw), [Run](feat/run), [Weapon Focus (rock)](feat/weapon_focus)  ",
 			"**Skills** Appraise +27, Climb +31, Knowledge (geography) +27, Knowledge (planes) +27, Perception +33, Stealth +36  ",
-			"**Languages** Terran; [stone tell](unknown/stone_tell)  ",
+			"**Languages** Terran; [stone tell](spell/stone_tell)  ",
 			"**SQ** mountaineer",
 			"",
 			"#### Ecology",
@@ -27034,7 +27154,7 @@
 			"",
 			"Sturzstromers dwell in only the largest caverns of the Elemental Plane of Earth. Here they can spend decades, even centuries, raising mountains of earth and stone, only to bring them crashing to the ground in the blink of an eye. Although strurzstromers do not seek out companions, other [earth elementals](unknown/earth_elementals) are sometimes drawn to them, aiding the living landslide in its creative and destructive endeavors. Some monastic [oreads](race/oread) and [shaitans](unknown/shaitans) view the sturzstromer's efforts as a metaphor for sublimation and catharsis. Due to how long it takes for sturzstromers to build their mountains, their constructed landscapes often become inhabited, usually by creatures unaware of the inevitable catastrophe.",
 			"",
-			"A sturzstromer is unlikely to travel to the Material Plane intentionally or even by accident. Those that exist on Golarion were conjured in ages past by powerful ritual magic. Whether to cause mayhem or to accelerate entropy, cultists of [Ayrzul](unknown/ayrzul), [Groetus](unknown/groetus), and [Rovagug](unknown/rovagug) have called sturzstromers or attempted to magically dominate those previously conjured. Living landslides do not take well to being controlled, and this has been the downfall of many cults.",
+			"A sturzstromer is unlikely to travel to the Material Plane intentionally or even by accident. Those that exist on Golarion were conjured in ages past by powerful ritual magic. Whether to cause mayhem or to accelerate entropy, cultists of [Ayrzul](faith/ayrzul), [Groetus](faith/groetus), and [Rovagug](faith/rovagug) have called sturzstromers or attempted to magically dominate those previously conjured. Living landslides do not take well to being controlled, and this has been the downfall of many cults.",
 			"",
 			"Though others may see them as a destructive force of nature, sturzstromers view themselves as artists creating beauty in the rise and (especially) fall of mountains.",
 			"",
@@ -27042,7 +27162,7 @@
 			"",
 			"Sturzstromers can form from any sort of stone, from sedimentary to igneous. Some sturzstromers contain traces of cold iron or silver ore, allowing them to overcome the corresponding damage reduction. The following variants emerge from those regions where two Elemental Planes overlap.",
 			"",
-			"Glacial: Though similar in many ways to a true sturzstromer, a glacial sturzstromer is composed of chunks of ice and snow. Hailing from the border between the Elemental Planes of Air and Water, they are found only upon snowy peaks on the Material Plane. A glacial sturzstromer has the same statistics as a normal sturzstromer except as follows: It loses the earth subtype and gains the cold and water subtypes. It loses all energy resistance, but it gains immunity to cold and vulnerability to fire. A glacial sturzstromer can use its landslide ability after taking either fire or sonic damage, and its mountaineer ability applies to snow and ice instead of rocky terrain. It speaks Auran and Aquan instead of Terran, and can use its [stone tell](unknown/stone_tell) ability to speak with snow and ice instead of stone.",
+			"Glacial: Though similar in many ways to a true sturzstromer, a glacial sturzstromer is composed of chunks of ice and snow. Hailing from the border between the Elemental Planes of Air and Water, they are found only upon snowy peaks on the Material Plane. A glacial sturzstromer has the same statistics as a normal sturzstromer except as follows: It loses the earth subtype and gains the cold and water subtypes. It loses all energy resistance, but it gains immunity to cold and vulnerability to fire. A glacial sturzstromer can use its landslide ability after taking either fire or sonic damage, and its mountaineer ability applies to snow and ice instead of rocky terrain. It speaks Auran and Aquan instead of Terran, and can use its [stone tell](spell/stone_tell) ability to speak with snow and ice instead of stone.",
 			"",
 			"Pyroclastic: Dwelling near the border between the Elemental Planes of Earth and Fire, pyroclastic sturzstromers can only be called to the Material Plane from active volcanoes. Though other sturzstromers may consist of volcanic rock, pyroclastic sturzstromers retain molten heat. A pyroclastic sturzstromer has the same statistics as a normal sturzstromer except as follows: It gains the fire subtype in addition to the earth subtype. It loses all energy resistance but gains immunity to fire and vulnerability to cold. Its attacks, including avalanches it creates, deal 2d6 fewer points of bludgeoning damage, but deal an additional 2d6 fire damage plus burn (2d6, DC 30). A pyroclastic sturzstromer can use its landslide ability after taking either cold or sonic damage. It speaks Ignan in addition to Terran."
 		],
@@ -27217,6 +27337,7 @@
 		"short_description": "Every feather like a plate of shimmering armor and its beak the length and sharpness of a knight's lance, this towering, ibis-like bird looks to be sculpted from silver and brass. Standing upon long legs ending in powerful metallic talons, its beady eyes dart about voraciously.",
 		"display": "monster"
 	},
+	"giant_stymphalidies": { "copyof": "stymphalide,_giant_stymphalidies" },
 	"stymphalide,_stymphalides_swarm": {
 		"name": "Stymphalide, Stymphalides Swarm",
 		"file": "monsterdisplaybd26.html",
@@ -27292,6 +27413,7 @@
 		"short_description": "This cloud of long-necked birds rises into the air, screeching in a cacophony reminiscent of klaxons and clanging tools. As these avians flit among one another, their feathers glint with a metallic gleam, reflecting even the dimmest light back a hundredfold through a dim haze of blood.",
 		"display": "monster"
 	},
+	"stymphalides_swarm": { "copyof": "stymphalide,_stymphalides_swarm" },
 	"stymphalidies": {
 		"name": "Stymphalidies",
 		"file": "monsterdisplayab9b.html",
@@ -28245,6 +28367,7 @@
 		"short_description": "This large waterfowl has a wide wingspan, all-white feathers, a black bill, and a long, curving neck.",
 		"display": "monster"
 	},
+	"trumpeter_swan": { "copyof": "swan,_trumpeter_swan" },
 	"switchback_jackal": {
 		"name": "Switchback Jackal",
 		"file": "monsterdisplay200c.html",
@@ -29086,7 +29209,7 @@
 			"",
 			"**Create Spawn (Su)** A humanoid that dies while under the effects of isolate (see below) rises as a tatterlorn in 1d4 rounds.",
 			"",
-			"**Forsaken (Su)** Living creatures have difficulty noticing or even gazing directly at a tatterlorn. Against living observers, a tatterlorn gains a +8 racial bonus on Stealth checks and always has concealment (20% miss chance). A tatterlorn's attacks of opportunity against any creature affected by this defense always resolve as if the target were flat-footed. [True seeing](unknown/true_seeing) negates this ability. This is a mind-affecting effect.",
+			"**Forsaken (Su)** Living creatures have difficulty noticing or even gazing directly at a tatterlorn. Against living observers, a tatterlorn gains a +8 racial bonus on Stealth checks and always has concealment (20% miss chance). A tatterlorn's attacks of opportunity against any creature affected by this defense always resolve as if the target were flat-footed. [True seeing](spell/true_seeing) negates this ability. This is a mind-affecting effect.",
 			"",
 			"**Isolate (Su)** As a swift action, a tatterlorn can isolate a living creature from the world. The target must be within 10 feet of the tatterlorn, and can resist being isolated with a successful DC 20 Will save. Regardless of the saving throw, a single creature can only be targeted by this effect once every 24 hours. Isolation persists for 1 minute, during which time the isolated creature treats all other creatures as if they had the tatterlorn's forsaken ability, and all living creatures treat the isolated character in the same manner. An isolated creature cannot take the aid another action, nor can it benefit from this action. Worse, an isolated creature becomes nearly overwhelmed with sensations of loneliness and neglect, and becomes increasingly convinced it is without purpose in the world. This causes a creature to take a -4 penalty on all attack rolls, skill checks, ability checks, and Will saving throws. This effect of isolate is a mind-affecting effect, but all other effects are not. The save DC is Charisma-based.",
 			"",
@@ -30259,10 +30382,7 @@
 		"short_description": "This perfectly sculpted, finely detailed, life-sized clay figure has a look of fierce determination and a sword clenched in each hand.",
 		"display": "monster"
 	},
-	"terra_cotta_soldier": {
-		"copyof": "terra-cotta_soldier",
-		"display": "monster"
-	},
+	"terra_cotta_soldier": { "copyof": "terra-cotta_soldier" },
 	"tetrolimulus": {
 		"name": "Tetrolimulus",
 		"file": "monsterdisplay7a19.html",
@@ -30447,6 +30567,7 @@
 		"short_description": "Sculpted from bronze in the form of a large humanoid head, this creature perches on six mechanical legs, its eyes intermittently shining with an orange glow.",
 		"display": "monster"
 	},
+	"bronze_sentinel": { "copyof": "thassilonian_sentinel,_bronze_sentinel" },
 	"thassilonian_sentinel,_iron_sentinel": {
 		"name": "Thassilonian Sentinel, Iron Sentinel",
 		"file": "monsterdisplay4ea6.html",
@@ -30474,7 +30595,7 @@
 			"**Source** [Pathfinder #134: It Came from Hollow Mountain pg. 90](source/pathfinder_#134_it_came_from_hollow_mountain)  ",
 			"**XP** 1,600  ",
 			"N Small construct  ",
-			"**Init** +9; **Senses** darkvision 60 ft., [detect magic](unknown/detect_magic), low-light vision; Perception +5",
+			"**Init** +9; **Senses** darkvision 60 ft., [detect magic](spell/detect_magic), low-light vision; Perception +5",
 			"",
 			"#### Defense",
 			"",
@@ -30513,7 +30634,7 @@
 			"",
 			"**Head-Butt (Ex)** Once every 3 rounds, if an iron sentinel hits the same creature with both claw attacks, it can also attempt to head-butt that creature. If this attack is successful, in addition to the damage, the target is staggered for 1 round unless it succeeds at a DC 14 Fortitude save. The save DC is Constitution-based.",
 			"",
-			"**Icy Bolt (Su)** As a standard action, an iron sentinel can fire a bolt of ice as a ranged touch attack out to a maximum range of 30 feet. This bolt deals 1d6 points of cold damage. The target is also slowed (as per the spell [slow](unknown/slow)) for 1d6+1 rounds (a DC 14 Fortitude save negates this slow effect). The save DC is Constitution-based.",
+			"**Icy Bolt (Su)** As a standard action, an iron sentinel can fire a bolt of ice as a ranged touch attack out to a maximum range of 30 feet. This bolt deals 1d6 points of cold damage. The target is also slowed (as per the spell [slow](spell/slow)) for 1d6+1 rounds (a DC 14 Fortitude save negates this slow effect). The save DC is Constitution-based.",
 			"",
 			"**Immunity to Magic (Ex)** An iron sentinel is immune to spells or spell-like abilities that allow spell resistance, except for spells with the electricity descriptor.",
 			"",
@@ -30529,11 +30650,12 @@
 			"",
 			"**CL** 14th; **Price** 28,000 gp",
 			"",
-			"**Requirements** [Craft Construct](feat/craft_construct), [alarm](unknown/alarm), [cone of cold](unknown/cone_of_cold), [detect magic](unknown/detect_magic), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish); Skill Craft (sculpture) DC 22; **Cost** 14,000 gp"
+			"**Requirements** [Craft Construct](feat/craft_construct), [alarm](spell/alarm), [cone of cold](spell/cone_of_cold), [detect magic](spell/detect_magic), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish); Skill Craft (sculpture) DC 22; **Cost** 14,000 gp"
 		],
 		"short_description": "An apelike head with demonic features cast in black iron sits on six segmented mechanical legs.",
 		"display": "monster"
 	},
+	"iron_sentinel": { "copyof": "thassilonian_sentinel,_iron_sentinel" },
 	"thassilonian_sentinel,_ivory_sentinel": {
 		"name": "Thassilonian Sentinel, Ivory Sentinel",
 		"file": "monsterdisplay1e84.html",
@@ -30597,7 +30719,7 @@
 			"",
 			"**Alert (Su)** An ivory sentinel can take simple orders and identify intruders. This functions as the [iron sentinel's alert ability](monster/iron_sentinel)).",
 			"",
-			"**Disorienting Screech (Su)** Three times per day, an ivory sentinel can emit a disorienting screech as a standard action. All living creatures within a 30-foot spread must succeed at a DC 15 Will save or become confused (as per the spell [confusion](unknown/confusion)) for 1d4+1 rounds. A creature that succeeds at this saving throw is immune to further disorienting screeches from that ivory sentinel for 24 hours. This is a sonic, mind-affecting effect. The save is Constitution-based.",
+			"**Disorienting Screech (Su)** Three times per day, an ivory sentinel can emit a disorienting screech as a standard action. All living creatures within a 30-foot spread must succeed at a DC 15 Will save or become confused (as per the spell [confusion](spell/confusion)) for 1d4+1 rounds. A creature that succeeds at this saving throw is immune to further disorienting screeches from that ivory sentinel for 24 hours. This is a sonic, mind-affecting effect. The save is Constitution-based.",
 			"",
 			"**Immunity to Magic (Ex)** An ivory sentinel is immune to spells or spell-like abilities that allow spell resistance, except for spells with the sonic descriptor.",
 			"",
@@ -30617,11 +30739,12 @@
 			"",
 			"**CL** 16th; **Price** 36,000 gp",
 			"",
-			"**Requirements** [Craft Construct](feat/craft_construct), [alarm](unknown/alarm), [detect magic](unknown/detect_magic), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), [poison](unknown/poison), [shout](unknown/shout); Skill Craft (sculpture) DC 26; **Cost** 18,000 gp"
+			"**Requirements** [Craft Construct](feat/craft_construct), [alarm](spell/alarm), [detect magic](spell/detect_magic), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), [poison](unknown/poison), [shout](spell/shout); Skill Craft (sculpture) DC 26; **Cost** 18,000 gp"
 		],
 		"short_description": "Sculpted from ivory in the form of a large skull, this construct perches on six segmented legs of whitened bone.",
 		"display": "monster"
 	},
+	"ivory_sentinel": { "copyof": "thassilonian_sentinel,_ivory_sentinel" },
 	"thassilonian_sentinel,_marble_sentinel": {
 		"name": "Thassilonian Sentinel, Marble Sentinel",
 		"file": "monsterdisplaye430.html",
@@ -30707,6 +30830,7 @@
 		"short_description": "Crouched on six jointed metal legs, this large humanoid head crafted from polished marble gazes intently with its glowing green eyes.",
 		"display": "monster"
 	},
+	"marble_sentinel": { "copyof": "thassilonian_sentinel,_marble_sentinel" },
 	"thawn": {
 		"name": "Thawn",
 		"file": "monsterdisplay5784.html",
@@ -31444,6 +31568,7 @@
 		"short_description": "A droning hum surrounds this gargantuan half-bee, half-woman with insectile wings.",
 		"display": "monster"
 	},
+	"thriae_constructor": { "copyof": "thriae,_thriae_constructor" },
 	"thriae,_thriae_dancer": {
 		"name": "Thriae, Thriae Dancer",
 		"file": "monsterdisplay99ec.html",
@@ -31529,6 +31654,7 @@
 		"short_description": "This elegant half-woman, half-bee wields a glaive and is clad in flowing, gauzy garments. A veil covers most of her face.",
 		"display": "monster"
 	},
+	"thriae_dancer": { "copyof": "thriae,_thriae_dancer" },
 	"thriae,_thriae_queen": {
 		"name": "Thriae, Thriae Queen",
 		"file": "monsterdisplayd963.html",
@@ -31622,6 +31748,7 @@
 		"short_description": "This towering, shapely, purple-skinned woman has an insectile lower body, antennae on her brow, and the wings of a bee.",
 		"display": "monster"
 	},
+	"thriae_queen": { "copyof": "thriae,_thriae_queen" },
 	"thriae,_thriae_seer": {
 		"name": "Thriae, Thriae Seer",
 		"file": "monsterdisplay1f64.html",
@@ -31704,6 +31831,7 @@
 		"short_description": "Lithe and beautiful, this half-bee, half-woman creature wears elaborate makeup and wields an ornate staff.",
 		"display": "monster"
 	},
+	"thriae_seer": { "copyof": "thriae,_thriae_seer" },
 	"thriae,_thriae_soldier": {
 		"name": "Thriae, Thriae Soldier",
 		"file": "monsterdisplayf401.html",
@@ -31782,6 +31910,7 @@
 		"short_description": "This creature has the upper body of a woman and the lower body of a bee. She wields a longbow with uncanny skill.",
 		"display": "monster"
 	},
+	"thriae_soldier": { "copyof": "thriae,_thriae_soldier" },
 	"thrushmoor_angler": {
 		"name": "Thrushmoor Angler",
 		"file": "monsterdisplayb83b.html",
@@ -32091,6 +32220,7 @@
 		"short_description": "This odd creature is about the size of a dog, but it has the slender build of a cat, heavy whiskers, and dark stripes down its back. Its long tail flips about, smacking the ground as it scans the woods. It yips and bays in a complex pattern, offering warning to anything that may cross its path.",
 		"display": "monster"
 	},
+	"brush_thylacine": { "copyof": "thylacine,_brush_thylacine" },
 	"tiberolith": {
 		"name": "Tiberolith",
 		"file": "monsterdisplayc865.html",
@@ -32240,6 +32370,7 @@
 		"short_description": "This dog-sized tick has a grotesquely bulbous body and a thin head equipped with hooked mandibles.",
 		"display": "monster"
 	},
+	"giant_tick": { "copyof": "tick,_giant_tick" },
 	"tick,_tick_swarm": {
 		"name": "Tick, Tick Swarm",
 		"file": "monsterdisplaycb46.html",
@@ -32310,6 +32441,7 @@
 		"short_description": "The rasping legs of this hideous, shining carpet of fist-sized ticks rattle ominously as the swarm skitters forward.",
 		"display": "monster"
 	},
+	"tick_swarm": { "copyof": "tick,_tick_swarm" },
 	"tidewretch": {
 		"name": "Tidewretch",
 		"file": "monsterdisplay5f6d.html",
@@ -32615,10 +32747,8 @@
 		"short_description": "This large tiger grumbles a warning as it crouches. Two saber-like fangs jut downward from its powerful jaws.",
 		"display": "monster"
 	},
-	"dire_tiger": {
-		"copyof": "tiger,_dire_tiger_smilodon",
-		"display": "monster"
-	},
+	"dire_tiger_smilodon": { "copyof": "tiger,_dire_tiger_smilodon" },
+	"dire_tiger": { "copyof": "tiger,_dire_tiger_smilodon" },
 	"tikbalang": {
 		"name": "Tikbalang",
 		"file": "monsterdisplay5108.html",
@@ -32858,7 +32988,7 @@
 			"",
 			"**Temporal Dilation (Ex)** The area around a time dimensional slows the temporal passage of projectiles and spells. Creatures in this aura have concealment against ranged attacks. A time dimensional can dismiss or resume this aura as a free action.",
 			"",
-			"**Time Mastery (Ex)** As a living embodiment of time, a time dimensional is free from the typical constraints of time's flow. It is immune to [haste](unknown/haste), [slow](unknown/slow), and [temporal stasis](unknown/temporal_stasis) and can use any actions remaining on its turn after using [dimension door](unknown/dimension_door). Whenever a creature within 60 feet of a time dimensional casts [time stop](unknown/time_stop), the time dimensional can act normally as if it had cast [time stop](unknown/time_stop) itself for the same effective duration. As neither the time dimensional nor the caster is frozen in time with respect to the other, each can target and affect the other with attacks, spells, or other effects they create, though neither can affect frozen creatures for the duration of the [time stop](unknown/time_stop). This ability functions even if the time dimensional is flat-footed or unaware of its opponent.",
+			"**Time Mastery (Ex)** As a living embodiment of time, a time dimensional is free from the typical constraints of time's flow. It is immune to [haste](spell/haste), [slow](spell/slow), and [temporal stasis](spell/temporal_stasis) and can use any actions remaining on its turn after using [dimension door](spell/dimension_door). Whenever a creature within 60 feet of a time dimensional casts [time stop](spell/time_stop), the time dimensional can act normally as if it had cast [time stop](spell/time_stop) itself for the same effective duration. As neither the time dimensional nor the caster is frozen in time with respect to the other, each can target and affect the other with attacks, spells, or other effects they create, though neither can affect frozen creatures for the duration of the [time stop](spell/time_stop). This ability functions even if the time dimensional is flat-footed or unaware of its opponent.",
 			"",
 			"**Timestream Knowledge (Ex)** A time dimensional shares its own knowledge from all points in its personal timeline. This knowledge grants it a +5 insight bonus to AC and all-around vision. It treats all skills as class skills, gains a +10 insight bonus on all Knowledge checks, and can attempt any Knowledge check untrained.",
 			"",
@@ -32876,7 +33006,7 @@
 			"",
 			"A time dimensional has a nearly perfect knowledge of its own past and future, obtained by its constant connection to the Dimension of Time. Whether this connection means that a time dimensional is an extension of that demiplane, like the arm of a creature, or merely in constant mental communion with it, as if part of a hive mind, remains a subject of conjecture.",
 			"",
-			"Time dimensionals are too powerful for most mortal magic to conjure, and their true names were erased from mortal knowledge in some impossibly ancient time. A [gate](unknown/gate) spell could, in theory, beckon one of these creatures to serve, but even then the act of drawing a time dimensional out of the demiplane of Time might be enough to pull more of their kind to investigate- and likely punish-the conjurer. Those who persist in attempting to summon or bind time dimensionals often earn their ire, or else draw the attention of dangerous creatures such as [hounds of Tindalos](unknown/hounds_of_tindalos).",
+			"Time dimensionals are too powerful for most mortal magic to conjure, and their true names were erased from mortal knowledge in some impossibly ancient time. A [gate](spell/gate) spell could, in theory, beckon one of these creatures to serve, but even then the act of drawing a time dimensional out of the demiplane of Time might be enough to pull more of their kind to investigate- and likely punish-the conjurer. Those who persist in attempting to summon or bind time dimensionals often earn their ire, or else draw the attention of dangerous creatures such as [hounds of Tindalos](unknown/hounds_of_tindalos).",
 			"",
 			"### Habitat",
 			"",
@@ -32970,6 +33100,7 @@
 		"short_description": "This titanic humanoid wears gilt-edged armor of ancient make and carries an immense hammer made of gleaming metal.",
 		"display": "monster"
 	},
+	"elysian": { "copyof": "titan,_elysian" },
 	"titan,_hekatonkheires": {
 		"name": "Titan, Hekatonkheires",
 		"file": "monsterdisplaye8d9.html",
@@ -33073,6 +33204,7 @@
 		"short_description": "This behemoth looks like a towering humanoid with fifty heads and twice as many hands, each wielding a different weapon.",
 		"display": "monster"
 	},
+	"hekatonkheires": { "copyof": "titan,_hekatonkheires" },
 	"titan,_thanatotic": {
 		"name": "Titan, Thanatotic",
 		"file": "monsterdisplay7fa0.html",
@@ -33157,6 +33289,7 @@
 		"short_description": "This titanic, armored figure wields an immense axe. Its hands end in claws, and its voice thunders with ruinous power.",
 		"display": "monster"
 	},
+	"thanatotic": { "copyof": "titan,_thanatotic" },
 	"titanboar": {
 		"name": "Titanboar",
 		"file": "monsterdisplay5b33.html",
@@ -33536,6 +33669,7 @@
 		"short_description": "Stubby warts dot the skin of this horse-sized brown toad. Its throat bulges and ripples as though about to croak.",
 		"display": "monster"
 	},
+	"giant_toad": { "copyof": "toad,_giant_toad" },
 	"toad,_glacier_toad": {
 		"name": "Toad, Glacier Toad",
 		"file": "monsterdisplay0028.html",
@@ -33609,6 +33743,7 @@
 		"short_description": "This improbably large toad has pale blue flesh and a body covered with jagged, icy growths.",
 		"display": "monster"
 	},
+	"glacier_toad": { "copyof": "toad,_glacier_toad" },
 	"tobongo_mwangi_treant": {
 		"name": "Tobongo (Mwangi Treant)",
 		"file": "monsterdisplaybcd9.html",
@@ -33692,10 +33827,7 @@
 		"short_description": "Tearing its elephantine roots free from the soil, an enormous tree unfurls long, tangled branches into arms ending in massive claws.",
 		"display": "monster"
 	},
-	"tobongo": {
-		"copyof": "tobongo_mwangi_treant",
-		"display": "monster"
-	},
+	"tobongo": { "copyof": "tobongo_mwangi_treant" },
 	"tojanida": {
 		"name": "Tojanida",
 		"file": "monsterdisplayc64d.html",
@@ -33950,6 +34082,7 @@
 		"short_description": "Resembling a gaunt humanoid from the waist up and a fleshy insect from the waist down, this child-sized creature has enormous black eyes and a large jaw with a lolling tongue. It wears a crown made of humanoid teeth and clutches a tooth-studded scepter.",
 		"display": "monster"
 	},
+	"tooth_fairy_monarch": { "copyof": "tooth_fairy,_tooth_fairy_monarch" },
 	"tophet": {
 		"name": "Tophet",
 		"file": "monsterdisplayc4ee.html",
@@ -34186,6 +34319,7 @@
 		],
 		"display": "monster"
 	},
+	"torble_swarm": { "copyof": "torble,_torble_swarm" },
 	"tortoise,_giant_tortoise": {
 		"name": "Tortoise, Giant Tortoise",
 		"file": "monsterdisplay9dd4.html",
@@ -34257,6 +34391,7 @@
 		"short_description": "This tortoise is half the height of a human, and has a domed shell, leathery skin, and a long neck.",
 		"display": "monster"
 	},
+	"giant_tortoise": { "copyof": "tortoise,_giant_tortoise" },
 	"tortoise,_immense_tortoise": {
 		"name": "Tortoise, Immense Tortoise",
 		"file": "monsterdisplay4bc9.html",
@@ -34320,6 +34455,7 @@
 		"short_description": "Plants and even trees grow atop the shell of this massive tortoise, which gazes about with dull, placid eyes.",
 		"display": "monster"
 	},
+	"immense_tortoise": { "copyof": "tortoise,_immense_tortoise" },
 	"totenmaske": {
 		"name": "Totenmaske",
 		"file": "monsterdisplay96da.html",
@@ -34730,6 +34866,7 @@
 		],
 		"display": "monster"
 	},
+	"trench_zombie": { "copyof": "trench_mist,_trench_zombie" },
 	"triaxian": {
 		"name": "Triaxian",
 		"file": "monsterdisplay51e1.html",
@@ -35124,6 +35261,7 @@
 		"short_description": "This troggle wears filthy studded leather armor and a dog collar, and carries a powerful bow on its back.",
 		"display": "monster"
 	},
+	"troggle_raider": { "copyof": "troggle,_troggle_raider" },
 	"troglodyte": {
 		"name": "Troglodyte",
 		"file": "monsterdisplay29e5.html",
@@ -35304,10 +35442,8 @@
 		"short_description": "This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back.",
 		"display": "monster"
 	},
-	"troglodyte_beast_speaker": {
-		"copyof": "troglodyte,_troglodyte_beast-speaker",
-		"display": "monster"
-	},
+	"troglodyte_beast-speaker": { "copyof": "troglodyte,_troglodyte_beast-speaker" },
+	"troglodyte_beast_speaker": { "copyof": "troglodyte,_troglodyte_beast-speaker" },
 	"troglodyte,_troglodyte_champion": {
 		"name": "Troglodyte, Troglodyte Champion",
 		"file": "monsterdisplay0048.html",
@@ -35377,6 +35513,7 @@
 		"short_description": "This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back.",
 		"display": "monster"
 	},
+	"troglodyte_champion": { "copyof": "troglodyte,_troglodyte_champion" },
 	"troglodyte,_troglodyte_chieftain": {
 		"name": "Troglodyte, Troglodyte Chieftain",
 		"file": "monsterdisplaydc8d.html",
@@ -35458,6 +35595,7 @@
 		"short_description": "This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back.",
 		"display": "monster"
 	},
+	"troglodyte_chieftain": { "copyof": "troglodyte,_troglodyte_chieftain" },
 	"troglodyte,_troglodyte_priest": {
 		"name": "Troglodyte, Troglodyte Priest",
 		"file": "monsterdisplayac92.html",
@@ -35537,6 +35675,7 @@
 		"short_description": "This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back.",
 		"display": "monster"
 	},
+	"troglodyte_priest": { "copyof": "troglodyte,_troglodyte_priest" },
 	"troglodyte,_troglodyte_scale-rider": {
 		"name": "Troglodyte, Troglodyte Scale-Rider",
 		"file": "monsterdisplayfb97.html",
@@ -35605,10 +35744,8 @@
 		"short_description": "This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back.",
 		"display": "monster"
 	},
-	"troglodyte_scale_rider": {
-		"copyof": "troglodyte,_troglodyte_scale-rider",
-		"display": "monster"
-	},
+	"troglodyte_scale-rider": { "copyof": "troglodyte,_troglodyte_scale-rider" },
+	"troglodyte_scale_rider": { "copyof": "troglodyte,_troglodyte_scale-rider" },
 	"troglodyte,_troglodyte_skulker": {
 		"name": "Troglodyte, Troglodyte Skulker",
 		"file": "monsterdisplay4e43.html",
@@ -35678,6 +35815,7 @@
 		"short_description": "This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back.",
 		"display": "monster"
 	},
+	"troglodyte_skulker": { "copyof": "troglodyte,_troglodyte_skulker" },
 	"troglodyte,_troglodyte_sorcerer": {
 		"name": "Troglodyte, Troglodyte Sorcerer",
 		"file": "monsterdisplayb859.html",
@@ -35751,6 +35889,7 @@
 		"short_description": "This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back.",
 		"display": "monster"
 	},
+	"troglodyte_sorcerer": { "copyof": "troglodyte,_troglodyte_sorcerer" },
 	"troglodyte,_troglodyte_tyrant": {
 		"name": "Troglodyte, Troglodyte Tyrant",
 		"file": "monsterdisplay2b35.html",
@@ -35834,6 +35973,7 @@
 		"short_description": "This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back.",
 		"display": "monster"
 	},
+	"troglodyte_tyrant": { "copyof": "troglodyte,_troglodyte_tyrant" },
 	"troglodyte,_troglodyte_warren_guard": {
 		"name": "Troglodyte, Troglodyte Warren Guard",
 		"file": "monsterdisplay569e.html",
@@ -35909,6 +36049,7 @@
 		"short_description": "This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long tail and crests on its head and back.",
 		"display": "monster"
 	},
+	"troglodyte_warren_guard": { "copyof": "troglodyte,_troglodyte_warren_guard" },
 	"troll": {
 		"name": "Troll",
 		"file": "monsterdisplay358f.html",
@@ -36082,6 +36223,7 @@
 		"short_description": "Prominent tusks and unruly green fur mark this fearsome creature as a troll despite its small size. It hangs overhead, swinging between its oversized forearms and lashing, claw-tipped tail.",
 		"display": "monster"
 	},
+	"canopy_troll": { "copyof": "troll,_canopy_troll" },
 	"troll,_chimney_troll": {
 		"name": "Troll, Chimney Troll",
 		"file": "monsterdisplay918c.html",
@@ -36169,6 +36311,7 @@
 		"short_description": "Filth and soot cover this large, emaciated humanoid's pallid skin, and its beady black eyes glint with desperate hunger.",
 		"display": "monster"
 	},
+	"chimney_troll": { "copyof": "troll,_chimney_troll" },
 	"troll,_flood_troll": {
 		"name": "Troll, Flood Troll",
 		"file": "monsterdisplayf9ca.html",
@@ -36269,6 +36412,7 @@
 		"short_description": "This tall, gangly giant has a thick hide of mottled blue; protruding yellowed canines; narrow slits for eyes; and large, powerful hands that end in wicked claws.",
 		"display": "monster"
 	},
+	"flood_troll": { "copyof": "troll,_flood_troll" },
 	"troll,_ice_troll": {
 		"name": "Troll, Ice Troll",
 		"file": "monsterdisplayb917.html",
@@ -36351,6 +36495,7 @@
 		"short_description": "This large creature has light blue-green skin and cold, piercing eyes. Dressed in rough furs, its tusked jaw juts forth in a long underbite.",
 		"display": "monster"
 	},
+	"ice_troll": { "copyof": "troll,_ice_troll" },
 	"troll,_jotund_troll": {
 		"name": "Troll, Jotund Troll",
 		"file": "monsterdisplay2017.html",
@@ -36436,6 +36581,7 @@
 		"short_description": "This immense green-skinned brute wields a tree branch for a club and has nine heads, each filled with jutting teeth and tusks.",
 		"display": "monster"
 	},
+	"jotund_troll": { "copyof": "troll,_jotund_troll" },
 	"troll,_moss_troll": {
 		"name": "Troll, Moss Troll",
 		"file": "monsterdisplay73d4.html",
@@ -36523,6 +36669,7 @@
 		"short_description": "This large and lanky moss-colored humanoid has an elongated, toothy snout and appears to be covered in bits of foliage.",
 		"display": "monster"
 	},
+	"moss_troll": { "copyof": "troll,_moss_troll" },
 	"troll,_mountain_troll": {
 		"name": "Troll, Mountain Troll",
 		"file": "monsterdisplaybdf8.html",
@@ -36607,6 +36754,7 @@
 		"short_description": "This enormous, stooped creature has powerful limbs; a mane of gritty brown fur; and a ferocious, tusked underbite.",
 		"display": "monster"
 	},
+	"mountain_troll": { "copyof": "troll,_mountain_troll" },
 	"troll,_rock_troll": {
 		"name": "Troll, Rock Troll",
 		"file": "monsterdisplay738e.html",
@@ -36686,6 +36834,7 @@
 		"short_description": "This bulky creature has beady eyes, and rocky skin studded with small crystals. Its jutting underbite holds large, crystalline teeth.",
 		"display": "monster"
 	},
+	"rock_troll": { "copyof": "troll,_rock_troll" },
 	"troll,_sewer_troll": {
 		"name": "Troll, Sewer Troll",
 		"file": "monsterdisplayc556.html",
@@ -36769,6 +36918,7 @@
 		"short_description": "This creature looks like a lanky, underfed troll. Its oversized claws drag along the ground, and its large eyes glow with inner light.",
 		"display": "monster"
 	},
+	"sewer_troll": { "copyof": "troll,_sewer_troll" },
 	"troll,_troll_acolyte": {
 		"name": "Troll, Troll Acolyte",
 		"file": "monsterdisplay3485-2.html",
@@ -36848,6 +36998,7 @@
 		],
 		"display": "monster"
 	},
+	"troll_acolyte": { "copyof": "troll,_troll_acolyte" },
 	"troll,_troll_berserker": {
 		"name": "Troll, Troll Berserker",
 		"file": "monsterdisplaya038.html",
@@ -36922,6 +37073,7 @@
 		],
 		"display": "monster"
 	},
+	"troll_berserker": { "copyof": "troll,_troll_berserker" },
 	"troll,_troll_brute": {
 		"name": "Troll, Troll Brute",
 		"file": "monsterdisplay55b8.html",
@@ -36997,6 +37149,7 @@
 		],
 		"display": "monster"
 	},
+	"troll_brute": { "copyof": "troll,_troll_brute" },
 	"troll,_troll_elder_matron": {
 		"name": "Troll, Troll Elder Matron",
 		"file": "monsterdisplaycf27.html",
@@ -37077,6 +37230,7 @@
 		],
 		"display": "monster"
 	},
+	"troll_elder_matron": { "copyof": "troll,_troll_elder_matron" },
 	"troll,_troll_fury": {
 		"name": "Troll, Troll Fury",
 		"file": "monsterdisplay009c.html",
@@ -37158,6 +37312,7 @@
 		],
 		"display": "monster"
 	},
+	"troll_fury": { "copyof": "troll,_troll_fury" },
 	"troll,_troll_monarch": {
 		"name": "Troll, Troll Monarch",
 		"file": "monsterdisplay468c.html",
@@ -37237,6 +37392,7 @@
 		],
 		"display": "monster"
 	},
+	"troll_monarch": { "copyof": "troll,_troll_monarch" },
 	"troll,_troll_render": {
 		"name": "Troll, Troll Render",
 		"file": "monsterdisplay6e57.html",
@@ -37311,6 +37467,7 @@
 		],
 		"display": "monster"
 	},
+	"troll_render": { "copyof": "troll,_troll_render" },
 	"troll,_troll_ripper": {
 		"name": "Troll, Troll Ripper",
 		"file": "monsterdisplay90fd.html",
@@ -37381,6 +37538,7 @@
 		],
 		"display": "monster"
 	},
+	"troll_ripper": { "copyof": "troll,_troll_ripper" },
 	"troll,_troll_warden": {
 		"name": "Troll, Troll Warden",
 		"file": "monsterdisplay30c4.html",
@@ -37450,6 +37608,7 @@
 		],
 		"display": "monster"
 	},
+	"troll_warden": { "copyof": "troll,_troll_warden" },
 	"trollhound": {
 		"name": "Trollhound",
 		"file": "monsterdisplay0174.html",
@@ -37611,6 +37770,7 @@
 		"short_description": "This wretched collection of undead have tight leathery skin, sunken eyes, and emaciated frames.",
 		"display": "monster"
 	},
+	"barrier_breaker_troop": { "copyof": "troop,_barrier_breaker_troop" },
 	"troop,_cultist_troop": {
 		"name": "Troop, Cultist Troop",
 		"file": "monsterdisplay4cc4.html",
@@ -37696,6 +37856,7 @@
 		"short_description": "A band of violet-skinned elves raises their hands high as vile magic swirls in the air above them.",
 		"display": "monster"
 	},
+	"cultist_troop": { "copyof": "troop,_cultist_troop" },
 	"troop,_goblin_troop": {
 		"name": "Troop, Goblin Troop",
 		"file": "monsterdisplay0c6c.html",
@@ -37770,6 +37931,7 @@
 		"short_description": "The pint-sized humanoids who make up this chattering, shrieking mob hold jagged swords and bare jagged teeth.",
 		"display": "monster"
 	},
+	"goblin_troop": { "copyof": "troop,_goblin_troop" },
 	"troop,_outlaw_troop": {
 		"name": "Troop, Outlaw Troop",
 		"file": "monsterdisplay3162.html",
@@ -37844,6 +38006,7 @@
 		"short_description": "Over two dozen men and women clad in chain shirts and leather armor brandish their knives and swords menacingly.",
 		"display": "monster"
 	},
+	"outlaw_troop": { "copyof": "troop,_outlaw_troop" },
 	"troop,_sodden_drauger_troop": {
 		"name": "Troop, Sodden Drauger Troop",
 		"file": "monsterdisplayf777.html",
@@ -37930,6 +38093,7 @@
 		"short_description": "This mob of undead is draped in soggy seaweed.",
 		"display": "monster"
 	},
+	"sodden_drauger_troop": { "copyof": "troop,_sodden_drauger_troop" },
 	"troops,_dottari_troop": {
 		"name": "Troops, Dottari Troop",
 		"file": "monsterdisplay3ceb.html",
@@ -38001,6 +38165,7 @@
 		"short_description": "A column of soldiers clad in the black and red of House Thrune move together, their weapons at the ready in a coordinated front.",
 		"display": "monster"
 	},
+	"dottari_troop": { "copyof": "troops,_dottari_troop" },
 	"troops,_glorious_reclamation": {
 		"name": "Troops, Glorious Reclamation",
 		"file": "monsterdisplayde34.html",
@@ -38110,6 +38275,7 @@
 		"short_description": "The white-and-gold tabards of this tight formation of armored soldiers are spotless, and their swords and armor are polished to a mirror-bright sheen.",
 		"display": "monster"
 	},
+	"glorious_reclamation": { "copyof": "troops,_glorious_reclamation" },
 	"troops,_hobgoblin_phalanx_troop": {
 		"name": "Troops, Hobgoblin Phalanx Troop",
 		"file": "monsterdisplayddff.html",
@@ -38188,6 +38354,7 @@
 		],
 		"display": "monster"
 	},
+	"hobgoblin_phalanx_troop": { "copyof": "troops,_hobgoblin_phalanx_troop" },
 	"troops,_hound_archon_troop": {
 		"name": "Troops, Hound Archon Troop",
 		"file": "monsterdisplay4c84.html",
@@ -38266,6 +38433,7 @@
 		],
 		"display": "monster"
 	},
+	"hound_archon_troop": { "copyof": "troops,_hound_archon_troop" },
 	"troops,_inquisitor_troop": {
 		"name": "Troops, Inquisitor Troop",
 		"file": "monsterdisplay3ea6.html",
@@ -38340,6 +38508,7 @@
 		"short_description": "A column of soldiers clad in the black and red of House Thrune move together, their weapons at the ready in a coordinated front.",
 		"display": "monster"
 	},
+	"inquisitor_troop": { "copyof": "troops,_inquisitor_troop" },
 	"troops,_ironfang_magehunter_troop": {
 		"name": "Troops, Ironfang Magehunter Troop",
 		"file": "monsterdisplay1301.html",
@@ -38423,6 +38592,7 @@
 		"short_description": "This grim band of hobgoblin hunters is equipped with sturdy armor and well-used weapons.",
 		"display": "monster"
 	},
+	"ironfang_magehunter_troop": { "copyof": "troops,_ironfang_magehunter_troop" },
 	"troops,_ironfang_siege_alchemist_troop": {
 		"name": "Troops, Ironfang Siege Alchemist Troop",
 		"file": "monsterdisplay2c9f.html",
@@ -38505,6 +38675,7 @@
 		"short_description": "A wild-eyed band of hobgoblins cluster tightly around fortified carts containing hoses and reservoirs brimming with strange fluids.",
 		"display": "monster"
 	},
+	"ironfang_siege_alchemist_troop": { "copyof": "troops,_ironfang_siege_alchemist_troop" },
 	"troops,_ironfang_yzobu_rider_troop": {
 		"name": "Troops, Ironfang Yzobu Rider Troop",
 		"file": "monsterdisplay82a4.html",
@@ -38589,6 +38760,7 @@
 		"short_description": "These hobgoblin knights ride atop brutish stinking yaks that paw the ground angrily.",
 		"display": "monster"
 	},
+	"ironfang_yzobu_rider_troop": { "copyof": "troops,_ironfang_yzobu_rider_troop" },
 	"troops,_morlock_swarmer_troop": {
 		"name": "Troops, Morlock Swarmer Troop",
 		"file": "monsterdisplay55c4.html",
@@ -38668,6 +38840,7 @@
 		],
 		"display": "monster"
 	},
+	"morlock_swarmer_troop": { "copyof": "troops,_morlock_swarmer_troop" },
 	"troops,_warmaze_disciples_troop": {
 		"name": "Troops, Warmaze Disciples Troop",
 		"file": "monsterdisplaycf2f.html",
@@ -38747,6 +38920,7 @@
 		],
 		"display": "monster"
 	},
+	"warmaze_disciples_troop": { "copyof": "troops,_warmaze_disciples_troop" },
 	"trox": {
 		"name": "Trox",
 		"file": "monsterdisplay0db6.html",
@@ -39343,6 +39517,7 @@
 		"short_description": "This lumbering turtle is the size of a house; its head features powerful, razor-sharp beak.",
 		"display": "monster"
 	},
+	"giant_snapping_turtle": { "copyof": "turtle,_giant_snapping_turtle" },
 	"turtle,_snapping_turtle": {
 		"name": "Turtle, Snapping Turtle",
 		"file": "monsterdisplay38e6.html",
@@ -39409,6 +39584,7 @@
 		"short_description": "A thick shell encases this reptile's body, from which only its tail, its feet, and a head fitted with powerful jaws emerge.",
 		"display": "monster"
 	},
+	"snapping_turtle": { "copyof": "turtle,_snapping_turtle" },
 	"turul": {
 		"name": "Turul",
 		"file": "monsterdisplay6434.html",
@@ -39918,6 +40094,7 @@
 		],
 		"display": "monster"
 	},
+	"ubashki_lynx": { "copyof": "ubashki,_ubashki_lynx" },
 	"ubashki,_ubashki_swarm": {
 		"name": "Ubashki, Ubashki Swarm",
 		"file": "monsterdisplay2552.html",
@@ -39990,6 +40167,7 @@
 		"short_description": "No flavor text",
 		"display": "monster"
 	},
+	"ubashki_swarm": { "copyof": "ubashki,_ubashki_swarm" },
 	"ugash-iram": {
 		"name": "Ugash-Iram",
 		"file": "monsterdisplayb851.html",
@@ -40080,10 +40258,7 @@
 		"short_description": "This immense creature resembles a horrific, twelve-armed squid. Its emerald eyes burn with a terrifying malignance, and the thing has a fanged maw where its beak should be.",
 		"display": "monster"
 	},
-	"ugash_iram": {
-		"copyof": "ugash-iram",
-		"display": "monster"
-	},
+	"ugash_iram": { "copyof": "ugash-iram" },
 	"ugothokra": {
 		"name": "Ugothokra",
 		"file": "monsterdisplayb53e.html",
@@ -40476,6 +40651,7 @@
 		],
 		"display": "monster"
 	},
+	"draugr_captain": { "copyof": "undead_pirate,_draugr_captain" },
 	"undead_pirate,_draugr_pirate": {
 		"name": "Undead Pirate, Draugr Pirate",
 		"file": "monsterdisplay060a.html",
@@ -40560,6 +40736,7 @@
 		"short_description": "No flavor text.",
 		"display": "monster"
 	},
+	"draugr_pirate": { "copyof": "undead_pirate,_draugr_pirate" },
 	"undead_pirate,_ghost_captain": {
 		"name": "Undead Pirate, Ghost Captain",
 		"file": "monsterdisplay44b2.html",
@@ -40626,6 +40803,7 @@
 		],
 		"display": "monster"
 	},
+	"ghost_captain": { "copyof": "undead_pirate,_ghost_captain" },
 	"undigested": {
 		"name": "Undigested",
 		"file": "monsterdisplayd18f.html",
@@ -40763,6 +40941,7 @@
 		"short_description": "This brown-and-yellow sludge appears to be made of multiple smaller globules churning in a disgusting communal mass.",
 		"display": "monster"
 	},
+	"undigested_swarm": { "copyof": "undigested,_undigested_swarm" },
 	"undine": {
 		"name": "Undine",
 		"file": "monsterdisplay8d85.html",
@@ -41254,7 +41433,7 @@
 			"",
 			"**CL** 10th; **Price** 35,200 gp",
 			"",
-			"**Requirements** [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [keen edge](unknown/keen_edge), [limited wish](unknown/limited_wish), [planar binding](unknown/planar_binding); Skill Craft (sculptures) DC 19; **Cost** 17,700 gp"
+			"**Requirements** [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [keen edge](spell/keen_edge), [limited wish](spell/limited_wish), [planar binding](spell/planar_binding); Skill Craft (sculptures) DC 19; **Cost** 17,700 gp"
 		],
 		"short_description": "What at first appeared to be a sadistic spiked cage writhes into unholy life, extending bladed, articulated arms.",
 		"display": "monster"
@@ -41435,10 +41614,8 @@
 		"short_description": "The scent of death pours from this disheveled woman. Leather straps dotted with iron buckles bind her lean form.",
 		"display": "monster"
 	},
-	"half_fiend_scion": {
-		"copyof": "urdefhan,_half-fiend_scion",
-		"display": "monster"
-	},
+	"half-fiend_scion": { "copyof": "urdefhan,_half-fiend_scion" },
+	"half_fiend_scion": { "copyof": "urdefhan,_half-fiend_scion" },
 	"urdefhan,_orvian_necromancer": {
 		"name": "Urdefhan, Orvian Necromancer",
 		"file": "monsterdisplayc277.html",
@@ -41520,6 +41697,7 @@
 		"short_description": "An elegant leather gown, skull-shaped studs, and a silken veil conceal much of this humanoid's transparent flesh.",
 		"display": "monster"
 	},
+	"orvian_necromancer": { "copyof": "urdefhan,_orvian_necromancer" },
 	"urdefhan,_sightless_sea_sailor": {
 		"name": "Urdefhan, Sightless Sea Sailor",
 		"file": "monsterdisplayfb75.html",
@@ -41593,6 +41771,7 @@
 		"short_description": "The smell of brine mingles with the sickly stench of uncured leather that surrounds this ferocious buccaneer.",
 		"display": "monster"
 	},
+	"sightless_sea_sailor": { "copyof": "urdefhan,_sightless_sea_sailor" },
 	"urdefhan,_skaveling_rider": {
 		"name": "Urdefhan, Skaveling Rider",
 		"file": "monsterdisplay76ac.html",
@@ -41688,6 +41867,7 @@
 		"short_description": "Additional straps and hooks concealed beneath this muscular horror's cloak secure it to the saddle of the rotting, flapping undead monstrosity he rides.",
 		"display": "monster"
 	},
+	"skaveling_rider": { "copyof": "urdefhan,_skaveling_rider" },
 	"urhag": {
 		"name": "Urhag",
 		"file": "monsterdisplay7560.html",
@@ -41995,6 +42175,7 @@
 		],
 		"display": "monster"
 	},
+	"coffin_guard": { "copyof": "vampire_servant,_coffin_guard" },
 	"vampire_servant,_weird_butler": {
 		"name": "Vampire Servant, Weird Butler",
 		"file": "monsterdisplay5ab2.html",
@@ -42065,6 +42246,7 @@
 		],
 		"display": "monster"
 	},
+	"weird_butler": { "copyof": "vampire_servant,_weird_butler" },
 	"vampire,_enlightened_vampire": {
 		"name": "Vampire, Enlightened Vampire",
 		"file": "monsterdisplay9d48.html",
@@ -42135,6 +42317,7 @@
 		],
 		"display": "monster"
 	},
+	"enlightened_vampire": { "copyof": "vampire,_enlightened_vampire" },
 	"vampire,_vampire_lord": {
 		"name": "Vampire, Vampire Lord",
 		"file": "monsterdisplaya6d1.html",
@@ -42214,6 +42397,7 @@
 		],
 		"display": "monster"
 	},
+	"vampire_lord": { "copyof": "vampire,_vampire_lord" },
 	"vampire,_vampire_savage": {
 		"name": "Vampire, Vampire Savage",
 		"file": "monsterdisplay3dd1.html",
@@ -42293,6 +42477,7 @@
 		],
 		"display": "monster"
 	},
+	"vampire_savage": { "copyof": "vampire,_vampire_savage" },
 	"vampire,_vampire_seducer": {
 		"name": "Vampire, Vampire Seducer",
 		"file": "monsterdisplay4fe2.html",
@@ -42371,6 +42556,7 @@
 		],
 		"display": "monster"
 	},
+	"vampire_seducer": { "copyof": "vampire,_vampire_seducer" },
 	"vampire,_vampire_warrior": {
 		"name": "Vampire, Vampire Warrior",
 		"file": "monsterdisplay277e.html",
@@ -42453,6 +42639,7 @@
 		],
 		"display": "monster"
 	},
+	"vampire_warrior": { "copyof": "vampire,_vampire_warrior" },
 	"vampiric_mist": {
 		"name": "Vampiric Mist",
 		"file": "monsterdisplay81b3.html",
@@ -42851,6 +43038,7 @@
 		"short_description": "This lithe, androgynous humanoid has unusually colored skin and an otherworldly grace.",
 		"display": "monster"
 	},
+	"air_veela": { "copyof": "veela,_air_veela" },
 	"veela,_earth_veela": {
 		"name": "Veela, Earth Veela",
 		"file": "monsterdisplay73be-2.html",
@@ -42930,6 +43118,7 @@
 		"short_description": "This lithe, androgynous humanoid has unusually colored skin and an otherworldly grace.",
 		"display": "monster"
 	},
+	"earth_veela": { "copyof": "veela,_earth_veela" },
 	"veela,_fire_veela": {
 		"name": "Veela, Fire Veela",
 		"file": "monsterdisplayf91b.html",
@@ -43010,6 +43199,7 @@
 		"short_description": "This lithe, androgynous humanoid has unusually colored skin and an otherworldly grace.",
 		"display": "monster"
 	},
+	"fire_veela": { "copyof": "veela,_fire_veela" },
 	"veela,_water_veela": {
 		"name": "Veela, Water Veela",
 		"file": "monsterdisplay3db6.html",
@@ -43089,6 +43279,7 @@
 		"short_description": "This lithe, androgynous humanoid has unusually colored skin and an otherworldly grace.",
 		"display": "monster"
 	},
+	"water_veela": { "copyof": "veela,_water_veela" },
 	"vegepygmy": {
 		"name": "Vegepygmy",
 		"file": "monsterdisplay44c5.html",
@@ -43243,6 +43434,7 @@
 		"short_description": "This mass of plant matter has the general shape and build of an oversized dog. Lacking a head of any kind, its bulk is covered in jagged thorns protruding from its fungal surface.",
 		"display": "monster"
 	},
+	"thorny": { "copyof": "vegepygmy,_thorny" },
 	"veldenar": {
 		"name": "Veldenar",
 		"file": "monsterdisplaycb3f.html",
@@ -43704,6 +43896,7 @@
 		"short_description": "A pool of greenish muck, blossoming with weird vegetable-like growths and sap-seeping boils, twitches into unnatural motion as a pseudopod springs outward, dragging the entire grotesque mass forward with an ameboid life.",
 		"display": "monster"
 	},
+	"greater_verduous_ooze": { "copyof": "verdurous_ooze,_greater_verduous_ooze" },
 	"vescavor_queen": {
 		"name": "Vescavor Queen",
 		"file": "monsterdisplay230c.html",
@@ -45254,6 +45447,7 @@
 		"short_description": "A wickedly hooked beak and an immense bald head draw attention from this enormous scavenger's vast wingspan.",
 		"display": "monster"
 	},
+	"giant_vulture": { "copyof": "vulture,_giant_vulture" },
 	"vulture,_whisperfall_vulture": {
 		"name": "Vulture, Whisperfall Vulture",
 		"file": "monsterdisplay460f.html",
@@ -45318,6 +45512,7 @@
 		"short_description": "This dark-winged vulture has a wickedly hooked beak stained with bright red blood.",
 		"display": "monster"
 	},
+	"whisperfall_vulture": { "copyof": "vulture,_whisperfall_vulture" },
 	"vydrarch": {
 		"name": "Vydrarch",
 		"file": "monsterdisplayb32c.html",
@@ -45540,7 +45735,7 @@
 			"",
 			"#### Description",
 			"",
-			"Similar to the undead monstrosities known as [immured](unknown/immured), walcofindes are pitiful undead creatures that manifest when a living being is sealed within a structure and perishes there. These unquiet dead often rise after having been intentionally walled into a structure. This process is what many have attributed its name to, with some treatises on undead referring to them as \"wall-coffined.\" While both walcofindes and immured form from humanoids who were either sealed within a wall or victims of a collapse, their divergent abilities have led scholars of the undead to posit why the differences manifested as they have. Immured have the ability to displace life-giving oxygen, suggesting they perished through suffocation while trapped. Walcofindes, instead, ultimately succumbed to death by starvation while trapped. These latter transformed undead resemble the decayed appearance of zombies, albeit with vicious bony claws-the result of desperate escape attempts prior to the starvation that ultimately sealed their demise. It is rare for other creatures to ever see a walcofinde's true appearance, as these undead most often harry the living by possessing nearby walls.",
+			"Similar to the undead monstrosities known as [immured](monster/immured), walcofindes are pitiful undead creatures that manifest when a living being is sealed within a structure and perishes there. These unquiet dead often rise after having been intentionally walled into a structure. This process is what many have attributed its name to, with some treatises on undead referring to them as \"wall-coffined.\" While both walcofindes and immured form from humanoids who were either sealed within a wall or victims of a collapse, their divergent abilities have led scholars of the undead to posit why the differences manifested as they have. Immured have the ability to displace life-giving oxygen, suggesting they perished through suffocation while trapped. Walcofindes, instead, ultimately succumbed to death by starvation while trapped. These latter transformed undead resemble the decayed appearance of zombies, albeit with vicious bony claws-the result of desperate escape attempts prior to the starvation that ultimately sealed their demise. It is rare for other creatures to ever see a walcofinde's true appearance, as these undead most often harry the living by possessing nearby walls.",
 			"",
 			"### Ecology",
 			"",
@@ -45745,6 +45940,7 @@
 		"short_description": "Thick folds of skin protect this massive sea mammal like fleshy armor. Tusks as tall as humans jut from its whiskered face.",
 		"display": "monster"
 	},
+	"emperor_walrus": { "copyof": "walrus,_emperor_walrus" },
 	"walrus,_walrus_b4": {
 		"name": "Walrus, Walrus (B4)",
 		"file": "monsterdisplay36c9.html",
@@ -45811,10 +46007,7 @@
 		"short_description": "Two long tusks jut from the mouth of this bulky, bewhiskered creature. It walks clumsily on flippers instead of feet.",
 		"display": "monster"
 	},
-	"walrus_b4": {
-		"copyof": "walrus,_walrus_b4",
-		"display": "monster"
-	},
+	"walrus_b4": { "copyof": "walrus,_walrus_b4" },
 	"walrus,_walrus_ff": {
 		"name": "Walrus, Walrus (FF)",
 		"file": "monsterdisplay3c72.html",
@@ -45881,10 +46074,7 @@
 		"short_description": "This bulky, thick-skinned, flippered creature has on its face two enormous tusks and what looks like a coarse mustache.",
 		"display": "monster"
 	},
-	"walrus_ff": {
-		"copyof": "walrus,_walrus_ff",
-		"display": "monster"
-	},
+	"walrus_ff": { "copyof": "walrus,_walrus_ff" },
 	"wamp": {
 		"name": "Wamp",
 		"file": "monsterdisplayfa67.html",
@@ -46041,6 +46231,7 @@
 		"short_description": "This immense bovine has horns reminiscent of a stag, with daggerlike points spreading more than fifteen feet across.",
 		"display": "monster"
 	},
+	"bull_of_zagresh": { "copyof": "war_beast_of_belkzen,_bull_of_zagresh" },
 	"war_beast_of_belkzen,_warcat_of_rull": {
 		"name": "War Beast of Belkzen, Warcat of Rull",
 		"file": "monsterdisplayd0e6.html",
@@ -46103,6 +46294,7 @@
 		"short_description": "This massive catlike creature has the lithe grace of a feline despite a shell-like armor of segmented plates.",
 		"display": "monster"
 	},
+	"warcat_of_rull": { "copyof": "war_beast_of_belkzen,_warcat_of_rull" },
 	"warden_jack_swarm": {
 		"name": "Warden Jack Swarm",
 		"file": "monsterdisplaya0e3.html",
@@ -46164,7 +46356,7 @@
 			"",
 			"**Topple (Ex)** Any living creature damaged by a warden jack swarm when its spikes are retracted must make a successful DC 12 Reflex save or fall prone. The save is Constitution-based.",
 			"",
-			"**Tower Access (Sp)** This specific warden jack swarm can cast [open/close](unknown/open_close) as a move action on any door within area P. Circumstances that prevent [open/close](unknown/open_close) from functioning normally also prevent this ability from working. This ability is as much a feature of the building as it is the swarm; therefore, it does not function on containers or in any other building besides the tower.",
+			"**Tower Access (Sp)** This specific warden jack swarm can cast [open/close](spell/open_close) as a move action on any door within area P. Circumstances that prevent [open/close](spell/open_close) from functioning normally also prevent this ability from working. This ability is as much a feature of the building as it is the swarm; therefore, it does not function on containers or in any other building besides the tower.",
 			"",
 			"**Wounding Spikes (Ex)** Any living creature hit by a warden jack swarm when its spikes are extended also takes 1 point of bleed damage.",
 			"",
@@ -46513,7 +46705,7 @@
 			"",
 			"**Acidic (Su)** Any creature that touches a warpglass ooze or strikes it with a natural attack or unarmed strike takes 1d4 points of acid damage unless it succeeds at a DC 15 Reflex save. A creature that strikes a warpglass ooze with a melee weapon must succeed at a DC 15 Reflex save, or that weapon takes 1d4 points of acid damage. Ammunition that strikes a warpglass ooze is automatically destroyed after it inflicts its damage. The save DC is Constitution-based.",
 			"",
-			"**Buoyant (Ex)** A warpglass ooze can move on the surface of water-based liquids as if using [water walk](unknown/water_walk).",
+			"**Buoyant (Ex)** A warpglass ooze can move on the surface of water-based liquids as if using [water walk](spell/water_walk).",
 			"",
 			"**Compelling Reflection (Su)** A warpglass ooze displays supernaturally captivating images of nearby creatures. A creature within 30 feet of a warpglass ooze must succeed at a DC 13 Will save at the beginning of its turn or be compelled to move toward the ooze and take no other actions for 1 round, avoiding any other dangers along its path (including any movement that would provoke attacks of opportunity). A creature can avoid the need to make the saving throw by not looking at the warpglass ooze, as with a gaze attack. If an affected creature ends its turn adjacent to the ooze, it touches the ooze and takes a -1 penalty on all Wisdom- and Charisma-based checks from the harrowing images it sees. This penalty stacks, up to a total of -4. The penalty is a curse effect that slowly fades with time, reducing the penalty by 1 every 24 hours until it reaches 0. A creature that successfully saves against this effect can't be affected again by the same warpglass ooze's compelling reflection for 24 hours. Sightless creatures can't be affected by this ability, nor can creatures that cast no reflection (such as [vampires](unknown/vampires)). This is a mind-affecting compulsion effect. The save DC is Charisma-based.",
 			"",
@@ -46529,7 +46721,7 @@
 			"",
 			"Warpglass oozes reproduce asexually, splitting into two separate oozes after gaining sufficient mass through feeding (an ooze preparing to split might have the giant creature simple template). A pool of several warpglass oozes may form in particularly favorable areas where enough food allows them to frequently split.",
 			"",
-			"Sages disagree on the origins of these strange oozes. Varisians circulate an old parable of a young fortune-teller who fell victim to her own vanity. Unwaveringly certain of her abilities, she left her caravan to commune with nature spirits, ignoring repeated warning omens from [Desna](unknown/desna). When the fortune teller drowned in a flash flood, her essence mingled with the water to form the first warpglass ooze. Other folk tales posit that warpglass oozes are innocent victims of cruel fey creatures such as [bog nixies](unknown/bog_nixies) or [rusalkas](unknown/rusalkas) that murder charmed mortals by forcing them to stare at their own distorted image in a puddle until thirst or the elements take their inevitable toll. Academics point out that warpglass oozes are virtually unknown outside of Varisia and that Varisia's ancient history is filled with powerful wizards who mastered potent enchantments and fleshwarping magic. These scholars disagree as to whether these wizards created warpglass oozes as a weapon, as a punishment, or merely for callous amusement. Some attribute their creation specifically to Xanderghul, the runelord of pride, as every ooze's reflection is fundamentally self-centered.",
+			"Sages disagree on the origins of these strange oozes. Varisians circulate an old parable of a young fortune-teller who fell victim to her own vanity. Unwaveringly certain of her abilities, she left her caravan to commune with nature spirits, ignoring repeated warning omens from [Desna](faith/desna). When the fortune teller drowned in a flash flood, her essence mingled with the water to form the first warpglass ooze. Other folk tales posit that warpglass oozes are innocent victims of cruel fey creatures such as [bog nixies](unknown/bog_nixies) or [rusalkas](unknown/rusalkas) that murder charmed mortals by forcing them to stare at their own distorted image in a puddle until thirst or the elements take their inevitable toll. Academics point out that warpglass oozes are virtually unknown outside of Varisia and that Varisia's ancient history is filled with powerful wizards who mastered potent enchantments and fleshwarping magic. These scholars disagree as to whether these wizards created warpglass oozes as a weapon, as a punishment, or merely for callous amusement. Some attribute their creation specifically to Xanderghul, the runelord of pride, as every ooze's reflection is fundamentally self-centered.",
 			"",
 			"Most survivors who viewed their reflections in a warpglass ooze maintain that the images never came true. Furthermore, victims of multiple warpglass oozes report that the images seen in each ooze are different and sometimes mutually inconsistent (such as a victim seeing himself freezing to death in a cave and later envisioning himself being roasted alive). Sages therefore agree that warpglass oozes don't actually provide any genuine foresight, but the question remains of where the oozes obtain the substance of their alluring reflections. Reflections are always dramatic-featuring benevolent heroics or nightmarish tortures, for example- which bolsters a theory that warpglass oozes somehow show glimpses of the infinite variations a victim's life might have taken.",
 			"",
@@ -46539,7 +46731,7 @@
 			"",
 			"Warpglass oozes aren't intelligent enough to form true societies, although pools of oozes sometimes work together. These pools often position one or two warpglass oozes to draw in prey, while the others slowly slink around behind their victims to cut off escape.",
 			"",
-			"Few creatures have much use for the dangerous oozes except as near-mindless guardians. Nevertheless, some reclusive families of [cliff giants](unknown/cliff_giants) atop the Storval Plateau keep and breed warpglass oozes. Able to safely handle the oozes due to their careful, patient training and resistance to the oozes' acid, these giants believe they can divine a person's fate by interpreting the reflected images and matching them with omens in the natural world."
+			"Few creatures have much use for the dangerous oozes except as near-mindless guardians. Nevertheless, some reclusive families of [cliff giants](monster/cliff_giant) atop the Storval Plateau keep and breed warpglass oozes. Able to safely handle the oozes due to their careful, patient training and resistance to the oozes' acid, these giants believe they can divine a person's fate by interpreting the reflected images and matching them with omens in the natural world."
 		],
 		"short_description": "This watery puddle reflects a distorted image of its surroundings, as though it were a window to another reality.",
 		"display": "monster"
@@ -46693,6 +46885,7 @@
 		"short_description": "This horse-sized wasp is covered in yellow and black vertical stripes-its stinger is the size of a sword and drips with venom.",
 		"display": "monster"
 	},
+	"giant_wasp": { "copyof": "wasp,_giant_wasp" },
 	"wasp,_ground_wasp_swarm": {
 		"name": "Wasp, Ground Wasp Swarm",
 		"file": "monsterdisplay3bd5.html",
@@ -46764,6 +46957,7 @@
 		"short_description": "Thousands of yellow and black wasps form a thick cloud that swirls with savage bites and venomous stings.",
 		"display": "monster"
 	},
+	"ground_wasp_swarm": { "copyof": "wasp,_ground_wasp_swarm" },
 	"wasp,_wasp_swarm": {
 		"name": "Wasp, Wasp Swarm",
 		"file": "monsterdisplay2d74.html",
@@ -46836,6 +47030,7 @@
 		"short_description": "A low, ominous buzz announces the arrival of a mass of many thousands of angry, stinging wasps.",
 		"display": "monster"
 	},
+	"wasp_swarm": { "copyof": "wasp,_wasp_swarm" },
 	"watcher": {
 		"name": "Watcher",
 		"file": "monsterdisplaya4e7.html",
@@ -47226,6 +47421,7 @@
 		"short_description": "This bug has long, fuzzy legs that support it on the water's surface as if the creature stands on solid ground.",
 		"display": "monster"
 	},
+	"giant_water_strider": { "copyof": "water_strider,_giant_water_strider" },
 	"water_strider,_nymph_water_strider": {
 		"name": "Water Strider, Nymph Water Strider",
 		"file": "monsterdisplay2ecb-2.html",
@@ -47291,6 +47487,7 @@
 		"short_description": "These small, immature water insects are easily supported by the water's surface tension.",
 		"display": "monster"
 	},
+	"nymph_water_strider": { "copyof": "water_strider,_nymph_water_strider" },
 	"water_wraith": {
 		"name": "Water Wraith",
 		"file": "monsterdisplay040e.html",
@@ -47516,6 +47713,7 @@
 		"short_description": "This bear-sized predator is long and low-slung. Its soft fur and intelligent expression contrast with its glistening fangs.",
 		"display": "monster"
 	},
+	"dire_weasel": { "copyof": "weasel,_dire_weasel" },
 	"weasel,_giant_weasel": {
 		"name": "Weasel, Giant Weasel",
 		"file": "monsterdisplayefef.html",
@@ -47583,6 +47781,7 @@
 		"short_description": "The predatory nature of this wolf-sized creature is revealed by its long teeth, sleekly muscular body, and belligerent hiss.",
 		"display": "monster"
 	},
+	"giant_weasel": { "copyof": "weasel,_giant_weasel" },
 	"weaverworm": {
 		"name": "Weaverworm",
 		"file": "monsterdisplay67b8.html",
@@ -47959,6 +48158,7 @@
 		"short_description": "This immense whale has an enormous, box-shaped head over a massive, toothy maw. Its rough white hide is laced with scars.",
 		"display": "monster"
 	},
+	"great_white_whale": { "copyof": "whale,_great_white_whale" },
 	"whaler_jellyfish": {
 		"name": "Whaler Jellyfish",
 		"file": "monsterdisplay63c5.html",
@@ -48461,13 +48661,13 @@
 			"",
 			"Dust Wight (+1 CR): Just as wights that rise from the dead in frozen environments can become infused with the dangerous qualities of their harsh environs, dust wights carry in their desiccated, crumbling frames the scorching punishment of the searing desert. These wights are typically found in desert tombs or ruins, and have fiery orange eyes and very little flesh save for leathery scraps clinging to their bones. A dust wight gains DR 5/ bludgeoning, and when it hits a foe with its slam attack, causes the creature struck to become dehydrated if this victim fails a Fortitude save (same DC as the wight's energy drain attack). A dehydrated foe becomes fatigued (or exhausted if already fatigued).",
 			"",
-			"Mist Wight (+1 CR): A mist wight can exhale black breath at will as a standard action, creating a 10-foot cube of thick mist that acts as [obscuring mist](unknown/obscuring_mist). This tainted air causes living creatures to become fatigued as long as they remain within the mist and for 1 round thereafter. The cloud of mist remains in place for 1 round per HD possessed by the mist wight. Once per day, a mist wight can infuse its breath with the choking stench of the grave, creating an effect identical to a [stinking cloud](unknown/stinking_cloud) (Fortitude DC 14 negates; the save DC is Charisma-based). Mist wights can sense the subtle intake of breath in creatures around them, and they gain blindsense 60 feet against living creatures who aren't holding their breath.",
+			"Mist Wight (+1 CR): A mist wight can exhale black breath at will as a standard action, creating a 10-foot cube of thick mist that acts as [obscuring mist](spell/obscuring_mist). This tainted air causes living creatures to become fatigued as long as they remain within the mist and for 1 round thereafter. The cloud of mist remains in place for 1 round per HD possessed by the mist wight. Once per day, a mist wight can infuse its breath with the choking stench of the grave, creating an effect identical to a [stinking cloud](spell/stinking_cloud) (Fortitude DC 14 negates; the save DC is Charisma-based). Mist wights can sense the subtle intake of breath in creatures around them, and they gain blindsense 60 feet against living creatures who aren't holding their breath.",
 			"",
 			"Accursed Treasure",
 			"",
 			"**Source** [Undead Revisited pg. 55](source/undead_revisited) A wight's treasure can become infused with its dark spirit, creating a gnawing, obsessive greed that saps the spirit and life of any creature that claims it. A character that possesses accursed wight treasure gains a number of negative levels equal to the total gp value of the stolen treasure divided by 10,000 (minimum of one negative level). These negative levels remain as long as the creature retains ownership of the treasure (even if this treasure is not carried)-they disappear as soon as the stolen treasure is destroyed, stolen, freely given away, or returned to the wight's lair. If the treasure is merely sold, the negative levels become permanent negative levels that can then be removed via means like [restoration](unknown/restoration).",
 			"",
-			"A creature whose negative levels equal its Hit Dice perishes and rises as a wight. If the wight whose treasure it stole still exists, it becomes a wight spawn bound to that wight. If not, it becomes a free-willed wight. Removing these negative levels does not end the curse, but [remove curse](unknown/remove_curse) or [break enchantment](unknown/break_enchantment) does, with a caster level check against a DC equal to the wight's energy drain save DC. A wight's treasure does not confer negative levels while in the area of a [hallow](unknown/hallow) spel"
+			"A creature whose negative levels equal its Hit Dice perishes and rises as a wight. If the wight whose treasure it stole still exists, it becomes a wight spawn bound to that wight. If not, it becomes a free-willed wight. Removing these negative levels does not end the curse, but [remove curse](spell/remove_curse) or [break enchantment](spell/break_enchantment) does, with a caster level check against a DC equal to the wight's energy drain save DC. A wight's treasure does not confer negative levels while in the area of a [hallow](spell/hallow) spel"
 		],
 		"short_description": "The flesh of this walking corpse is rotting and putrid, its body skeletal in places and its eye sockets glowing with red light.",
 		"display": "monster"
@@ -48636,6 +48836,7 @@
 		"short_description": "This lithe, androgynous humanoid has pointed ears, glowing green eyes, and six fingers on each slender hand.",
 		"display": "monster"
 	},
+	"wild_hunt_archer": { "copyof": "wild_hunt,_wild_hunt_archer" },
 	"wild_hunt,_wild_hunt_horse": {
 		"name": "Wild Hunt, Wild Hunt Horse",
 		"file": "monsterdisplay1bdc.html",
@@ -48720,6 +48921,7 @@
 		"short_description": "This powerful steed stands upon wispy puffs of air, its grassy mane and tail swishing majestically in the wind.",
 		"display": "monster"
 	},
+	"wild_hunt_horse": { "copyof": "wild_hunt,_wild_hunt_horse" },
 	"wild_hunt,_wild_hunt_hound": {
 		"name": "Wild Hunt, Wild Hunt Hound",
 		"file": "monsterdisplay0c75-2.html",
@@ -48805,6 +49007,7 @@
 		"short_description": "Green smoke billows from the bared teeth and flared nostrils of this muscular, sharp-eared hound.",
 		"display": "monster"
 	},
+	"wild_hunt_hound": { "copyof": "wild_hunt,_wild_hunt_hound" },
 	"wild_hunt,_wild_hunt_monarch": {
 		"name": "Wild Hunt, Wild Hunt Monarch",
 		"file": "monsterdisplay5956.html",
@@ -48909,6 +49112,7 @@
 		"short_description": "This limber and regal humanoid has an elk's antlers, long pointed ears, flowing white hair, and luminescent green eyes.",
 		"display": "monster"
 	},
+	"wild_hunt_monarch": { "copyof": "wild_hunt,_wild_hunt_monarch" },
 	"wild_hunt,_wild_hunt_scout": {
 		"name": "Wild Hunt, Wild Hunt Scout",
 		"file": "monsterdisplaydb47.html",
@@ -48991,6 +49195,7 @@
 		"short_description": "This lithe humanoid has pointed ears, glowing green eyes, and a ram's horns.",
 		"display": "monster"
 	},
+	"wild_hunt_scout": { "copyof": "wild_hunt,_wild_hunt_scout" },
 	"will-o'-wisp": {
 		"name": "Will-o'-Wisp",
 		"file": "monsterdisplay2b3f.html",
@@ -49071,10 +49276,7 @@
 		"short_description": "This faintly glowing ball of light bobs gently in the air, the nebulous image of what might be a skull visible somewhere in its depths.",
 		"display": "monster"
 	},
-	"will_o'_wisp": {
-		"copyof": "will-o'-wisp",
-		"display": "monster"
-	},
+	"will_o'_wisp": { "copyof": "will-o'-wisp" },
 	"winterwight": {
 		"name": "Winterwight",
 		"file": "monsterdisplay2925.html",
@@ -49412,6 +49614,7 @@
 		],
 		"display": "monster"
 	},
+	"greater_witchcrow": { "copyof": "witchcrow,_greater_witchcrow" },
 	"witchfire": {
 		"name": "Witchfire",
 		"file": "monsterdisplay5925.html",
@@ -49781,6 +49984,7 @@
 		"short_description": "This immense black wolf is the size of a horse, its fangs as large and sharp as knives.",
 		"display": "monster"
 	},
+	"dire_wolf": { "copyof": "wolf,_dire_wolf" },
 	"wolf,_timber_wolf": {
 		"name": "Wolf, Timber Wolf",
 		"file": "monsterdisplay95c6.html",
@@ -49847,6 +50051,7 @@
 		"short_description": "A chilling chorus of howls echoes through the air as a massive, white-furred wolf emerges.",
 		"display": "monster"
 	},
+	"timber_wolf": { "copyof": "wolf,_timber_wolf" },
 	"wolf-in-sheep's-clothing": {
 		"name": "Wolf-in-Sheep's-Clothing",
 		"file": "monsterdisplayee93.html",
@@ -49925,10 +50130,7 @@
 		"short_description": "A small forest animal sits motionless atop a worn stump-and then the stump's face peels open into a maw of sharp teeth.",
 		"display": "monster"
 	},
-	"wolf_in_sheep's_clothing": {
-		"copyof": "wolf-in-sheep's-clothing",
-		"display": "monster"
-	},
+	"wolf_in_sheep's_clothing": { "copyof": "wolf-in-sheep's-clothing" },
 	"wolliped": {
 		"name": "Wolliped",
 		"file": "monsterdisplayc221.html",
@@ -50101,10 +50303,7 @@
 		"short_description": "This shaggy, multi-legged creature has a flattened face with wide nostrils and four eyes. Ivory tusks jut downward from its mouth.",
 		"display": "monster"
 	},
-	"wolliped_combat_trained": {
-		"copyof": "wolliped,_wolliped_combat_trained",
-		"display": "monster"
-	},
+	"wolliped_combat_trained": { "copyof": "wolliped,_wolliped_combat_trained" },
 	"wolliped,_wolliped_domesticated_or_wild": {
 		"name": "Wolliped, Wolliped (Domesticated or Wild)",
 		"file": "monsterdisplay2b5f.html",
@@ -50197,10 +50396,7 @@
 		],
 		"display": "monster"
 	},
-	"wolliped_domesticated_or_wild": {
-		"copyof": "wolliped,_wolliped_domesticated_or_wild",
-		"display": "monster"
-	},
+	"wolliped_domesticated_or_wild": { "copyof": "wolliped,_wolliped_domesticated_or_wild" },
 	"wolpertinger": {
 		"name": "Wolpertinger",
 		"file": "monsterdisplaybdf8-2.html",
@@ -50414,6 +50610,7 @@
 		"short_description": "This terrible wolverine is as large as a bear, its jaws and claws oversized and brutal, its eyes dark and filled with rage.",
 		"display": "monster"
 	},
+	"dire_wolverine": { "copyof": "wolverine,_dire_wolverine" },
 	"worg": {
 		"name": "Worg",
 		"file": "monsterdisplaycd53.html",
@@ -50547,6 +50744,7 @@
 		"short_description": "This bear-sized wolf has white fur and a rime of frost around its muzzle. Its eyes are pale blue, almost white in color.",
 		"display": "monster"
 	},
+	"winter_wolf": { "copyof": "worg,_winter_wolf" },
 	"worm_that_walks,_locust_variant": {
 		"name": "Worm That Walks, Locust Variant",
 		"file": "monsterdisplayfe85.html",
@@ -50626,6 +50824,7 @@
 		"short_description": "Hordes of swarming locusts coalesce to make up the form of a humanoid woman carrying a scythe, a demonic symbol emblazoned on her chest.",
 		"display": "monster"
 	},
+	"locust_variant": { "copyof": "worm_that_walks,_locust_variant" },
 	"woundwyrm": {
 		"name": "Woundwyrm",
 		"file": "monsterdisplaydaaa.html",
@@ -51350,6 +51549,7 @@
 		"short_description": "This sphere of elemental matter emits a strange hum that resonates with elemental power.",
 		"display": "monster"
 	},
+	"aether_wysp": { "copyof": "wysp,_aether_wysp" },
 	"wysp,_air_wysp": {
 		"name": "Wysp, Air Wysp",
 		"file": "monsterdisplay75f0-3.html",
@@ -51421,6 +51621,7 @@
 		"short_description": "This sphere of elemental matter emits a strange hum that resonates with elemental power.",
 		"display": "monster"
 	},
+	"air_wysp": { "copyof": "wysp,_air_wysp" },
 	"wysp,_earth_wysp": {
 		"name": "Wysp, Earth Wysp",
 		"file": "monsterdisplaycbac.html",
@@ -51492,6 +51693,7 @@
 		"short_description": "This sphere of elemental matter emits a strange hum that resonates with elemental power.",
 		"display": "monster"
 	},
+	"earth_wysp": { "copyof": "wysp,_earth_wysp" },
 	"wysp,_fire_wysp": {
 		"name": "Wysp, Fire Wysp",
 		"file": "monsterdisplaya5dd.html",
@@ -51565,6 +51767,7 @@
 		"short_description": "This sphere of elemental matter emits a strange hum that resonates with elemental power.",
 		"display": "monster"
 	},
+	"fire_wysp": { "copyof": "wysp,_fire_wysp" },
 	"wysp,_water_wysp": {
 		"name": "Wysp, Water Wysp",
 		"file": "monsterdisplay72e0.html",
@@ -51641,6 +51844,7 @@
 		"short_description": "This sphere of elemental matter emits a strange hum that resonates with elemental power.",
 		"display": "monster"
 	},
+	"water_wysp": { "copyof": "wysp,_water_wysp" },
 	"wyvaran": {
 		"name": "Wyvaran",
 		"file": "monsterdisplayb5ce.html",
@@ -52255,6 +52459,7 @@
 		"short_description": "This flame-red, four-armed creature has large mandibles and numerous hornlike projections spike from its head.",
 		"display": "monster"
 	},
+	"xill_matriarch": { "copyof": "xill,_xill_matriarch" },
 	"xiomorn,_vault_keeper": {
 		"name": "Xiomorn, Vault Keeper",
 		"file": "monsterdisplay60fe.html",
@@ -52826,10 +53031,7 @@
 		"short_description": "A writhing forest of tendrils extends from one end of this chitincovered creature's body, while from the other lashes a pincer-tipped tail. Six transparent blisters adorn its back, each containing a brain floating in thick green fluid.",
 		"display": "monster"
 	},
-	"yah_thelgaad": {
-		"copyof": "yah-thelgaad",
-		"display": "monster"
-	},
+	"yah_thelgaad": { "copyof": "yah-thelgaad" },
 	"yangethe": {
 		"name": "Yangethe",
 		"file": "monsterdisplayafb0.html",
@@ -53813,10 +54015,7 @@
 		"short_description": "This beautiful but sad-looking woman wears an ornate robe and is surrounded by a whirling mass of snow.",
 		"display": "monster"
 	},
-	"yuki_onna": {
-		"copyof": "yuki-onna",
-		"display": "monster"
-	},
+	"yuki_onna": { "copyof": "yuki-onna" },
 	"yurei": {
 		"name": "Yurei",
 		"file": "monsterdisplay47fa.html",

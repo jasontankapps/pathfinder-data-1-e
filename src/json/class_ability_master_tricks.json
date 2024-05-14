@@ -74,7 +74,7 @@
 		"searchable_name": "False Face",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
-			"**False Face (Su)** ([Chronicle of Legends](source/chronicle_of_legends)) Like [oni](monster/family/oni) who take mortal shapes to infiltrate society, some ninjas can mold their flesh to pass unsuspected. A ninja with this trick gains the [change shape](unknown/change_shape) (any Small or Medium humanoid, [alter self](spell/alter_self)) universal monster rule as long as she has at least 1 ki point."
+			"**False Face (Su)** ([Chronicle of Legends](source/chronicle_of_legends)) Like [oni](monster/family/oni) who take mortal shapes to infiltrate society, some ninjas can mold their flesh to pass unsuspected. A ninja with this trick gains the [change shape](umr/change_shape) (any Small or Medium humanoid, [alter self](spell/alter_self)) universal monster rule as long as she has at least 1 ki point."
 		]
 	},
 	"feat": {

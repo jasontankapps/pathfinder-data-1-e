@@ -251,7 +251,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](unknown/forge_ring), [resistance](unknown/resistance), creator's caster level must be at least three times the ring's bonus; **Cost** 750 gp (+1), 3,000 gp (+2), 6,750 gp (+3), 12,000 gp (+4), 17,750 gp (+5)"
+			"**Requirements** [Forge Ring](feat/forge_ring), [resistance](unknown/resistance), creator's caster level must be at least three times the ring's bonus; **Cost** 750 gp (+1), 3,000 gp (+2), 6,750 gp (+3), 12,000 gp (+4), 17,750 gp (+5)"
 		],
 		"display": "magic/ring"
 	},
@@ -758,7 +758,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](unknown/forge_ring), [detect poison](unknown/detect_poison); **Cost** 1,500 gp"
+			"**Requirements** [Forge Ring](feat/forge_ring), [detect poison](spell/detect_poison); **Cost** 1,500 gp"
 		],
 		"display": "magic/ring"
 	},
@@ -917,11 +917,11 @@
 			"",
 			"This mithral ring is engraved with a pattern of rolling waves that encircles the entire band. The saltspray ring is immune to rust, both from natural oxidation and rust caused by magical effects.",
 			"",
-			"Upon command, the ring causes a thick vapor to continuously surround its owner as per [obscuring mist](unknown/obscuring_mist), except the mist has a 10-foot radius from the wearer and the area of effect moves with the wearer. This mist is exceedingly wet and extinguishes all nonmagical fires within its area. Magical fires and creatures with the fire subtype are not dispelled or adversely affected by the mist, though such creatures find being in the fog to be an uncomfortable experience. The mist does not permit aquatic creatures without the amphibious special quality to breathe out of water, but creatures that must remain wet or suffer a negative effect or condition have that requirement satisfied by the ring's effect. This effect can be dismissed as a standard action. The ring has no effect whatsoever underwater.",
+			"Upon command, the ring causes a thick vapor to continuously surround its owner as per [obscuring mist](spell/obscuring_mist), except the mist has a 10-foot radius from the wearer and the area of effect moves with the wearer. This mist is exceedingly wet and extinguishes all nonmagical fires within its area. Magical fires and creatures with the fire subtype are not dispelled or adversely affected by the mist, though such creatures find being in the fog to be an uncomfortable experience. The mist does not permit aquatic creatures without the amphibious special quality to breathe out of water, but creatures that must remain wet or suffer a negative effect or condition have that requirement satisfied by the ring's effect. This effect can be dismissed as a standard action. The ring has no effect whatsoever underwater.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](unknown/forge_ring), [obscuring mist](unknown/obscuring_mist), [quench](unknown/quench); **Cost** 2,250 gp"
+			"**Requirements** [Forge Ring](feat/forge_ring), [obscuring mist](spell/obscuring_mist), [quench](spell/quench); **Cost** 2,250 gp"
 		],
 		"display": "magic/ring"
 	},
@@ -2523,7 +2523,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](unknown/forge_ring), [resistance](unknown/resistance), creator's caster level must be at least three times the ring's bonus; **Cost** 750 gp (+1), 3,000 gp (+2), 6,750 gp (+3), 12,000 gp (+4), 17,750 gp (+5)"
+			"**Requirements** [Forge Ring](feat/forge_ring), [resistance](unknown/resistance), creator's caster level must be at least three times the ring's bonus; **Cost** 750 gp (+1), 3,000 gp (+2), 6,750 gp (+3), 12,000 gp (+4), 17,750 gp (+5)"
 		],
 		"display": "magic/ring"
 	},
@@ -2566,11 +2566,11 @@
 			"**Aura** moderate evocation (fire); **CL** 10th  ",
 			"**Slot** ring; **Price** 12,000 gp; **Weight** -",
 			"",
-			"A ring of immolation is made of pumice and hardened ash but is as strong as metal. As a free action, the wearer can activate the ring to create a [fire shield](unknown/fire_shield) (warm) on himself. The wearer of a ring of immolation can activate a [fire shield](unknown/fire_shield) on himself for up to 10 rounds each day (these rounds need not be used consecutively). If the wearer would take magical cold damage and any rounds of duration remain, the ring automatically activates for 1 round and protects the wearer from the cold damage as per [fire shield](unknown/fire_shield).",
+			"A ring of immolation is made of pumice and hardened ash but is as strong as metal. As a free action, the wearer can activate the ring to create a [fire shield](spell/fire_shield) (warm) on himself. The wearer of a ring of immolation can activate a [fire shield](spell/fire_shield) on himself for up to 10 rounds each day (these rounds need not be used consecutively). If the wearer would take magical cold damage and any rounds of duration remain, the ring automatically activates for 1 round and protects the wearer from the cold damage as per [fire shield](spell/fire_shield).",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](unknown/forge_ring), [fire shield](unknown/fire_shield); **Cost** 6,000 gp"
+			"**Requirements** [Forge Ring](feat/forge_ring), [fire shield](spell/fire_shield); **Cost** 6,000 gp"
 		],
 		"display": "magic/ring"
 	},
@@ -4162,13 +4162,13 @@
 			"**Aura** strong enchantment and evocation; **CL** 13th  ",
 			"**Slot** ring; **Price** 50,000 gp; **Weight** -",
 			"",
-			"This white-gold ring bears the relief image of a roaring lion. Once per day on command, the wearer can point the ring and mentally designate one or more creatures or objects in a 60-foot cone as enemies, after which the ring roars triumphantly. Selected targets in the area are affected by [shout](unknown/shout) (Fortitude DC 20). All other objects in the area are unharmed, and all other creatures in the area receive the benefits of the [inspire courage bardic performance](unknown/inspire_courage_bardic_performance) as performed by a 7th-level bard for 3 rounds. When activating the ring, the wearer can expend 1 round of her bardic performance ability to use her own bard level to calculate the performance's effect.",
+			"This white-gold ring bears the relief image of a roaring lion. Once per day on command, the wearer can point the ring and mentally designate one or more creatures or objects in a 60-foot cone as enemies, after which the ring roars triumphantly. Selected targets in the area are affected by [shout](spell/shout) (Fortitude DC 20). All other objects in the area are unharmed, and all other creatures in the area receive the benefits of the [inspire courage bardic performance](unknown/inspire_courage_bardic_performance) as performed by a 7th-level bard for 3 rounds. When activating the ring, the wearer can expend 1 round of her bardic performance ability to use her own bard level to calculate the performance's effect.",
 			"",
 			"In addition, the ring grants the wearer a +4 enhancement bonus to Charisma; treat this as a temporary ability bonus for the first 24 hours the ring is worn.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](unknown/forge_ring), [eagle's splendor](unknown/eagle's_splendor), [good hope](unknown/good_hope), [shout](unknown/shout); **Cost** 25,000 gp"
+			"**Requirements** [Forge Ring](feat/forge_ring), [eagle's splendor](spell/eagle's_splendor), [good hope](spell/good_hope), [shout](spell/shout); **Cost** 25,000 gp"
 		],
 		"display": "magic/ring"
 	},
@@ -4594,7 +4594,7 @@
 			"**Aura** moderate illusion; **CL** 18th  ",
 			"**Slot** ring; **Price** 150,000 gp; **Weight** -",
 			"",
-			"The ring of the recalled soul allows the wearer to open a door into a nearby mindscape they are aware of as if using the spell [mindscape door](unknown/mindscape_door), but the targeted creature cannot resist this effect with a Will save. If the ring's wearer connects to the mindscape, he can designate up to 10 other creatures to be able to see and pass through the door as though it were a normal doorway. The ring grants no ability to detect mindscapes, so the wearer must already be aware of its existence via interactions, hearsay, or the [detect mindscape](unknown/detect_mindscape) spell.",
+			"The ring of the recalled soul allows the wearer to open a door into a nearby mindscape they are aware of as if using the spell [mindscape door](spell/mindscape_door), but the targeted creature cannot resist this effect with a Will save. If the ring's wearer connects to the mindscape, he can designate up to 10 other creatures to be able to see and pass through the door as though it were a normal doorway. The ring grants no ability to detect mindscapes, so the wearer must already be aware of its existence via interactions, hearsay, or the [detect mindscape](spell/detect_mindscape) spell.",
 			"",
 			"Once the ring's wearer has connected to the mindscape, he can open the door to that particular mindscape from anywhere on the same plane, so long as the mindscape still exists. Physical distance poses no barrier to the mindscape. Each time the ring's wearer opens the door to a mindscape he has previously visited, he can alter the designated creatures allowed to pass through the door as if he were opening the door for the first time.",
 			"",
@@ -4602,7 +4602,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](unknown/forge_ring), [mindscape door](unknown/mindscape_door); **Cost** 75,000 gp"
+			"**Requirements** [Forge Ring](feat/forge_ring), [mindscape door](spell/mindscape_door); **Cost** 75,000 gp"
 		],
 		"display": "magic/ring"
 	},
@@ -4653,7 +4653,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](unknown/forge_ring), [minor image](unknown/minor_image), [resistance](unknown/resistance), [shield](unknown/shield) or [shield of faith](unknown/shield_of_faith),; **Cost** 90,000 gp"
+			"**Requirements** [Forge Ring](feat/forge_ring), [minor image](spell/minor_image), [resistance](unknown/resistance), [shield](spell/shield) or [shield of faith](spell/shield_of_faith),; **Cost** 90,000 gp"
 		],
 		"display": "magic/ring"
 	},

@@ -2147,11 +2147,11 @@
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** armor; **Price** 18,165 gp; **Weight** 25 lbs.",
 			"",
-			"With the coming of the Eye of Abendego and the permanent change to the coastline's environs, its inhabitants have been forced to look to strange new places for resources. Hagfish hide may well be one of the most unusual replacement materials. This suit of +1 [slick](unknown/slick) hide armor appears to constantly drip a viscous ooze. When immersed in water, the wearer gains a swim speed of 20 feet and the ability to breathe underwater. The slime exuded by the armor is particularly unpleasant and foul-tasting-the first time a creature successfully bites a character wearing hide of the hagfish in a 24 hour period, that creature must succeed at a DC 14 Fortitude saving throw to avoid being nauseated by the slime for 1 round.",
+			"With the coming of the Eye of Abendego and the permanent change to the coastline's environs, its inhabitants have been forced to look to strange new places for resources. Hagfish hide may well be one of the most unusual replacement materials. This suit of +1 [slick](magic/enhancement/slick) hide armor appears to constantly drip a viscous ooze. When immersed in water, the wearer gains a swim speed of 20 feet and the ability to breathe underwater. The slime exuded by the armor is particularly unpleasant and foul-tasting-the first time a creature successfully bites a character wearing hide of the hagfish in a 24 hour period, that creature must succeed at a DC 14 Fortitude saving throw to avoid being nauseated by the slime for 1 round.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](unknown/craft_magic_arms_and_armor), [grease](unknown/grease), [water breathing](unknown/water_breathing); **Price** 9,165 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [grease](spell/grease), [water breathing](unknown/water_breathing); **Price** 9,165 gp"
 		],
 		"display": "magic/armor"
 	},
@@ -2820,13 +2820,13 @@
 			"**Aura** strong necromancy; **CL** 14th  ",
 			"**Slot** armor; **Price** 25,000 gp; **Weight** 50 lbs.",
 			"",
-			"Originating in ancient Minkai, the typical jade burial suit consists of several hundred jade plaques joined with gold wire, carefully inscribed with prayers to [Tsukiyo](unknown/tsukiyo), the Tian-Min god of the moon, spirits, and preservation. Jade is believed to have preservative properties, and many ancient Tian royals were buried in jade suits.",
+			"Originating in ancient Minkai, the typical jade burial suit consists of several hundred jade plaques joined with gold wire, carefully inscribed with prayers to [Tsukiyo](faith/tsukiyo), the Tian-Min god of the moon, spirits, and preservation. Jade is believed to have preservative properties, and many ancient Tian royals were buried in jade suits.",
 			"",
-			"By disassembling and inverting the plaques and replacing Tsukiyo's name with that of his brother [Fumeiyoshi](unknown/fumeiyoshi), god of graves, one clever ru-shi learned how to give the impression of death instead of life. A character wearing a suit of inverted jade gains a +3 profane bonus on saving throws against disease, mind-affecting effects, poison, sleep, and stunning. The wearer has the aura of an undead for the purposes of divination spells and effects, and unintelligent undead perceive the wearer as a fellow undead. The wearer, however, becomes vulnerable to effects that target or deal additional damage to undead (such as [searing light](unknown/searing_light)). A suit of inverted jade otherwise functions as +3 stone lamellar.",
+			"By disassembling and inverting the plaques and replacing Tsukiyo's name with that of his brother [Fumeiyoshi](faith/fumeiyoshi), god of graves, one clever ru-shi learned how to give the impression of death instead of life. A character wearing a suit of inverted jade gains a +3 profane bonus on saving throws against disease, mind-affecting effects, poison, sleep, and stunning. The wearer has the aura of an undead for the purposes of divination spells and effects, and unintelligent undead perceive the wearer as a fellow undead. The wearer, however, becomes vulnerable to effects that target or deal additional damage to undead (such as [searing light](spell/searing_light)). A suit of inverted jade otherwise functions as +3 stone lamellar.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](unknown/craft_magic_arms_and_armor), [undead anatomy II](unknown/undead_anatomy_2); **Price** 12,500 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [undead anatomy II](spell/undead_anatomy_2); **Price** 12,500 gp"
 		],
 		"display": "magic/armor"
 	},
@@ -4753,7 +4753,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](unknown/craft_magic_arms_and_armor), [light](unknown/light), [magic stone](unknown/magic_stone); **Price** 7,000 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [light](unknown/light), [magic stone](spell/magic_stone); **Price** 7,000 gp"
 		],
 		"display": "magic/armor"
 	},
@@ -5547,12 +5547,12 @@
 			"",
 			"5th Level: Conqueror's breastplate acts as a +2 mithral breastplate.",
 			"",
-			"10th Level: Once per day as an immediate action, the wearer can use [draconic reservoir](unknown/draconic_reservoir) as a spell-like ability.",
+			"10th Level: Once per day as an immediate action, the wearer can use [draconic reservoir](spell/draconic_reservoir) as a spell-like ability.",
 			"",
-			"15th Level: Conqueror's breastplate acts as a +3 [determination](unknown/determination) mithral breastplate.",
+			"15th Level: Conqueror's breastplate acts as a +3 [determination](magic/enhancement/determination) mithral breastplate.",
 			"",
 			"**Goal:** At least 20 people whose CR is equal to or greater than the wearer's Hit Dice - 4 must swear fealty or pledge their loyalty to the wearer.  ",
-			"**Reward:** The wearer's grandiose bearing cows the weak willed. He gains the [frightful presence](unknown/frightful_presence) universal monster ability with a 30-foot-radius range and a Will save DC equal to 10 + his character level + his Charisma modifier. He can suppress or resume this ability as a free action."
+			"**Reward:** The wearer's grandiose bearing cows the weak willed. He gains the [frightful presence](umr/frightful_presence) universal monster ability with a 30-foot-radius range and a Will save DC equal to 10 + his character level + his Charisma modifier. He can suppress or resume this ability as a free action."
 		],
 		"display": "magic/armor"
 	},
@@ -5576,11 +5576,11 @@
 			"",
 			"3rd Level: The wielder gains a +2 bonus to Reflex saves.",
 			"",
-			"7th Level: The unyielding aegis acts as a +2 [animated](unknown/animated) heavy steel shield. The wielder can still activate the shield's intercepting ability, even while it is animated.",
+			"7th Level: The unyielding aegis acts as a +2 [animated](magic/enhancement/animated) heavy steel shield. The wielder can still activate the shield's intercepting ability, even while it is animated.",
 			"",
 			"11th Level: The unyielding aegis reduces damage from attacks by 10, as if the target had DR 10/-. In addition, the wielder's bonus to Reflex saves increases to +4.",
 			"",
-			"15th Level: The unyielding aegis acts as a +3 animated [reflecting](unknown/reflecting) heavy steel shield.",
+			"15th Level: The unyielding aegis acts as a +3 animated [reflecting](magic/enhancement/reflecting) heavy steel shield.",
 			"",
 			"19th Level: The unyielding aegis reduces damage from attacks by 15, as if the target had DR 15/-.",
 			"",

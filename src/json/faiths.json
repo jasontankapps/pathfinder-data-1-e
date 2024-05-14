@@ -169,7 +169,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Balanced Scale of Abadar](unknown/balanced_scale_of_abadar), [Justicar](unknown/justicar)",
+			"[Balanced Scale of Abadar](class/prestige/balanced_scale_of_abadar), [Justicar](class/prestige/justicar)",
 			"",
 			"#### Spells",
 			"",
@@ -497,7 +497,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Death Slayer](unknown/death_slayer), [Red Mantis Assassin](unknown/red_mantis_assassin)",
+			"[Death Slayer](class/prestige/death_slayer), [Red Mantis Assassin](class/prestige/red_mantis_assassin)",
 			"",
 			"#### Traits",
 			"",
@@ -2946,7 +2946,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Ashavic Dancer](unknown/ashavic_dancer)",
+			"[Ashavic Dancer](class/prestige/ashavic_dancer)",
 			"",
 			"#### Spells",
 			"",
@@ -3320,7 +3320,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](unknown/mortal_usher), [Proctor](unknown/proctor)"
+			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
 		],
 		"display": "faith"
 	},
@@ -3932,7 +3932,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](unknown/mortal_usher), [Proctor](unknown/proctor)",
+			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)",
 			"",
 			"#### Spells",
 			"",
@@ -5546,7 +5546,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Brewkeeper](unknown/brewkeeper), [Chevalier](unknown/chevalier)",
+			"[Brewkeeper](class/prestige/brewkeeper), [Chevalier](class/prestige/chevalier)",
 			"",
 			"#### Spells",
 			"",
@@ -5684,7 +5684,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](unknown/mortal_usher), [Proctor](unknown/proctor)"
+			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
 		],
 		"display": "faith"
 	},
@@ -7555,7 +7555,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](unknown/mortal_usher), [Proctor](unknown/proctor)"
+			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
 		],
 		"display": "faith"
 	},
@@ -7845,7 +7845,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Sphere Singer](unknown/sphere_singer), [Spherewalker](unknown/spherewalker)",
+			"[Sphere Singer](class/prestige/sphere_singer), [Spherewalker](class/prestige/spherewalker)",
 			"",
 			"#### Spells",
 			"",
@@ -9073,7 +9073,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Hinterlander](unknown/hinterlander)",
+			"[Hinterlander](class/prestige/hinterlander)",
 			"",
 			"#### Spells",
 			"",
@@ -10897,7 +10897,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Storm Kindler](unknown/storm_kindler)",
+			"[Storm Kindler](class/prestige/storm_kindler)",
 			"",
 			"#### Spells",
 			"",
@@ -12888,13 +12888,13 @@
 			"",
 			"1. **Wanderer's Grace (Sp)** [true strike](spell/true_strike) 3/day, [daze monster](spell/daze_monster) 2/day, or [gaseous form](spell/gaseous_form) 1/day",
 			"2. **Wanderer's Bane (Su)** Once per day, you can cause a creature within 30 feet of you to become paralyzed for 1d4+2 rounds. A target that succeeds at a Will save (DC = 10 + half your HD + your Charisma modifier) is instead dazed for 1 round.",
-			"3. **Formlessness (Su)** Once per day for a number of rounds equal to your Hit Dice, you and your equipment take on a fluid consistency, glowing with an inner cerulean light. You gain DR 20/slashing, and your reach increases by 10 feet. In addition, you gain the [compression](unknown/compression) universal monster ability and a fly speed of 60 feet (perfect). Finally, for the duration of the effect, you also gain the benefits of a [cloak of chaos](spell/cloak_of_chaos).",
+			"3. **Formlessness (Su)** Once per day for a number of rounds equal to your Hit Dice, you and your equipment take on a fluid consistency, glowing with an inner cerulean light. You gain DR 20/slashing, and your reach increases by 10 feet. In addition, you gain the [compression](umr/compression) universal monster ability and a fly speed of 60 feet (perfect). Finally, for the duration of the effect, you also gain the benefits of a [cloak of chaos](spell/cloak_of_chaos).",
 			"",
 			"### For Followers",
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Proctor](unknown/proctor)"
+			"[Proctor](class/prestige/proctor)"
 		],
 		"display": "faith"
 	},
@@ -13081,7 +13081,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](unknown/mortal_usher), [Proctor](unknown/proctor)"
+			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
 		],
 		"display": "faith"
 	},
@@ -13364,7 +13364,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Heritor Knight](unknown/heritor_knight), [Inheritor's Crusader](unknown/inheritor's_crusader), [Knight of Ozem](unknown/knight_of_ozem)",
+			"[Heritor Knight](class/prestige/heritor_knight), [Inheritor's Crusader](class/prestige/inheritor's_crusader), [Knight of Ozem](class/prestige/knight_of_ozem)",
 			"",
 			"#### Spells",
 			"",
@@ -13681,7 +13681,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Champion of Irori](unknown/champion_of_irori)",
+			"[Champion of Irori](class/prestige/champion_of_irori)",
 			"",
 			"#### Spells",
 			"",
@@ -14240,7 +14240,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Proctor](unknown/proctor)"
+			"[Proctor](class/prestige/proctor)"
 		],
 		"display": "faith"
 	},
@@ -15132,7 +15132,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Proctor](unknown/proctor)"
+			"[Proctor](class/prestige/proctor)"
 		],
 		"display": "faith"
 	},
@@ -15875,7 +15875,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Darechaser](unknown/darechaser)",
+			"[Darechaser](class/prestige/darechaser)",
 			"",
 			"#### Traits",
 			"",
@@ -18301,7 +18301,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Rose Warden](unknown/rose_warden)",
+			"[Rose Warden](class/prestige/rose_warden)",
 			"",
 			"#### Spells",
 			"",
@@ -18650,7 +18650,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Proctor](unknown/proctor)"
+			"[Proctor](class/prestige/proctor)"
 		],
 		"display": "faith"
 	},
@@ -18805,7 +18805,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](unknown/mortal_usher), [Proctor](unknown/proctor)"
+			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
 		],
 		"display": "faith"
 	},
@@ -18857,7 +18857,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](unknown/mortal_usher), [Proctor](unknown/proctor)"
+			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
 		],
 		"display": "faith"
 	},
@@ -19396,13 +19396,13 @@
 			"",
 			"1. **Clarity in Pain (Sp)** [invigorate](spell/invigorate) 3/day, [delay pain](spell/delay_pain) 2/day, or [blood biography](spell/blood_biography) 1/day",
 			"2. **Stronger Tomorrow (Sp)** You can increase the damage inflicted by your obedience to 4d6 points. If you do so, you can cast one of the following spells three times per day as a spell-like ability: [bear's endurance](spell/bear's_endurance), [eagle's splendor](spell/eagle's_splendor), [fox's cunning](spell/fox's_cunning), or [owl's wisdom](spell/owl's_wisdom).",
-			"3. **Empathy (Su)** You can grant any weapon you wield the brilliant energy and [merciful](unknown/merciful) special abilities as a single move action. You can only grant these abilities together, not separately, and the weapon immediately loses both properties if it leaves your possession. The weapon maintains these properties for a number of rounds equal to your Hit Dice. This duration does not need to be consecutive.",
+			"3. **Empathy (Su)** You can grant any weapon you wield the brilliant energy and [merciful](magic/enhancement/merciful) special abilities as a single move action. You can only grant these abilities together, not separately, and the weapon immediately loses both properties if it leaves your possession. The weapon maintains these properties for a number of rounds equal to your Hit Dice. This duration does not need to be consecutive.",
 			"",
 			"### For Followers",
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](unknown/mortal_usher), [Proctor](unknown/proctor)"
+			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
 		],
 		"display": "faith"
 	},
@@ -19454,7 +19454,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Proctor](unknown/proctor)"
+			"[Proctor](class/prestige/proctor)"
 		],
 		"display": "faith"
 	},
@@ -20132,7 +20132,7 @@
 			"",
 			"1. **Gambler's Essentials (Sp)** [true strike](spell/true_strike) 3/day, [augury](spell/augury) 2/day, or [haste](spell/haste) 1/day",
 			"2. **Gambler's Egress (Sp)** Nivi Rhombodazzle fled from angry creditors long ago, and her worshipers are encouraged to learn from her wisdom. Three times per day as a swift action, you can cast [litany of escape](spell/litany_of_escape) as a spell-like ability, targeting yourself or an ally.",
-			"3. **Gambler's Prayer (Su)** Three times per day as a standard action, you can offer up a quick prayer to Nivi Rhombodazzle that also serves as a wager with the demigoddess. Using this ability is similar to activating a [rod of wonder](unknown/rod_of_wonder); choose a single target within 60 feet and then roll on the rod of wonder's Wondrous Effect table to learn the result of this ability. If you roll a result of 88-90, the gemstones that erupt are blessed by Nivi, dealing an additional amount of bludgeoning and piercing damage equal to your Charisma bonus on each successful strike.",
+			"3. **Gambler's Prayer (Su)** Three times per day as a standard action, you can offer up a quick prayer to Nivi Rhombodazzle that also serves as a wager with the demigoddess. Using this ability is similar to activating a [rod of wonder](magic/rod/rod_of_wonder); choose a single target within 60 feet and then roll on the rod of wonder's Wondrous Effect table to learn the result of this ability. If you roll a result of 88-90, the gemstones that erupt are blessed by Nivi, dealing an additional amount of bludgeoning and piercing damage equal to your Charisma bonus on each successful strike.",
 			"",
 			"#### Exalted",
 			"",
@@ -21606,14 +21606,14 @@
 			"**Source** [Concordance of Rivals pg. 14](source/concordance_of_rivals)",
 			"",
 			"1. **Discerning Mind (Sp)** [identify](spell/identify) 3/day, [investigative mind](spell/investigative_mind) 2/day, or [blink](spell/blink) 1/day",
-			"2. **Combat Calculus (Ex)** Three times per day as a move action, you can trace a series of mathematical calculations in the air. The next attack you make before the beginning of your next turn gains the benefits of [true strike](spell/true_strike), ignores an amount of hardness and damage reduction equal to your Hit Dice, and deals additional damage as though it the weapon had the [axiomatic](unknown/axiomatic) weapon special ability.",
+			"2. **Combat Calculus (Ex)** Three times per day as a move action, you can trace a series of mathematical calculations in the air. The next attack you make before the beginning of your next turn gains the benefits of [true strike](spell/true_strike), ignores an amount of hardness and damage reduction equal to your Hit Dice, and deals additional damage as though it the weapon had the [axiomatic](magic/enhancement/axiomatic) weapon special ability.",
 			"3. **Revise Reality (Sp)** You can cast [limited wish](spell/limited_wish) once per day. This ability is equivalent to a 9th-level spell.",
 			"",
 			"### For Followers",
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Proctor](unknown/proctor)"
+			"[Proctor](class/prestige/proctor)"
 		],
 		"display": "faith"
 	},
@@ -22024,7 +22024,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](unknown/mortal_usher)",
+			"[Mortal Usher](class/prestige/mortal_usher)",
 			"",
 			"#### Spells",
 			"",
@@ -22198,7 +22198,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](unknown/mortal_usher), [Proctor](unknown/proctor)"
+			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
 		],
 		"display": "faith"
 	},
@@ -22922,7 +22922,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Crimson Templar](unknown/crimson_templar)",
+			"[Crimson Templar](class/prestige/crimson_templar)",
 			"",
 			"#### Spells",
 			"",
@@ -23915,7 +23915,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](unknown/mortal_usher), [Proctor](unknown/proctor)"
+			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
 		],
 		"display": "faith"
 	},
@@ -24078,7 +24078,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Dawnflower Anchorite](unknown/dawnflower_anchorite), [Dawnflower Dissident](unknown/dawnflower_dissident)",
+			"[Dawnflower Anchorite](class/prestige/dawnflower_anchorite), [Dawnflower Dissident](class/prestige/dawnflower_dissident)",
 			"",
 			"#### Spells",
 			"",
@@ -24932,7 +24932,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Devoted Muse](unknown/devoted_muse)",
+			"[Devoted Muse](class/prestige/devoted_muse)",
 			"",
 			"#### Spells",
 			"",
@@ -26175,7 +26175,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Runeguard](unknown/runeguard)",
+			"[Runeguard](class/prestige/runeguard)",
 			"",
 			"#### Traits",
 			"",
@@ -26270,7 +26270,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Proctor](unknown/proctor)"
+			"[Proctor](class/prestige/proctor)"
 		],
 		"display": "faith"
 	},
@@ -26863,7 +26863,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](unknown/mortal_usher), [Proctor](unknown/proctor)"
+			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
 		],
 		"display": "faith"
 	},
@@ -26935,7 +26935,7 @@
 			"",
 			"1. **The Unbroken (Sp)** [chill touch](spell/chill_touch) 3/day, [cat's grace](spell/cat's_grace) 2/day, or [locate weakness](spell/locate_weakness) 1/day",
 			"2. **Dagger of Night (Su)** As a move action, you can conjure a blade of darkness into your hand. This blade of darkness functions as a dagger, but deals an amount of damage equal to 1d8 + 1 point per 3 character levels + your Strength modifier; half of this damage is piercing and the other half is cold damage. The blade is considered a magic weapon for the purpose of bypassing damage reduction. The blade lasts for a number of rounds equal to your character level, though the blade immediately vanishes if it leaves your hand. You can use this ability a number of times per day equal to 3 + your Charisma modifier (minimum 1); you can expend two uses of this ability with the same move action to conjure two daggers (wielding one in each hand) if you wish.",
-			"3. **Umbral Form (Su)** As a standard action, you can weave strands of shadow-stuff into your physical form. You gain DR 10/- and cold resistance 15. When you take damage from a critical hit or sneak attack, there is a 50% chance that the critical hit or sneak attack is negated and damage is instead rolled normally. This does not stack with similar abilities that negate critical hits and sneak attacks (such as [fortification](unknown/fortification) armor). You gain the see in darkness supernatural ability allowing you to see in areas of even magical darkness. In areas of dim light or darker, you can move as if affected by [air walk](spell/air_walk). You can return to your normal form as a free action. You can use this ability a number of rounds per day equal to your character level, and these rounds need not be consecutive.",
+			"3. **Umbral Form (Su)** As a standard action, you can weave strands of shadow-stuff into your physical form. You gain DR 10/- and cold resistance 15. When you take damage from a critical hit or sneak attack, there is a 50% chance that the critical hit or sneak attack is negated and damage is instead rolled normally. This does not stack with similar abilities that negate critical hits and sneak attacks (such as [fortification](magic/armor/moderate_fortification) armor). You gain the see in darkness supernatural ability allowing you to see in areas of even magical darkness. In areas of dim light or darker, you can move as if affected by [air walk](spell/air_walk). You can return to your normal form as a free action. You can use this ability a number of rounds per day equal to your character level, and these rounds need not be consecutive.",
 			"",
 			"### For Followers",
 			"",
@@ -27228,7 +27228,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](unknown/mortal_usher), [Proctor](unknown/proctor)"
+			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
 		],
 		"display": "faith"
 	},
@@ -27736,7 +27736,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Sacred Sentinel](unknown/sacred_sentinel)",
+			"[Sacred Sentinel](class/prestige/sacred_sentinel)",
 			"",
 			"#### Spells",
 			"",
@@ -28170,7 +28170,7 @@
 			"**Source** [Faiths of Golarion pg. 59](source/faiths_of_golarion)",
 			"",
 			"1. **Cleansing Jade (Sp)** [magic stone](spell/magic_stone) 3/day, [stone discus](spell/stone_discus) 2/day, or [searing light](spell/searing_light) 1/day",
-			"2. **Banishing Jade (Su)** You gain the ability to smite evil once per day as per a paladin of your character level. If you already have the smite evil class feature, this adds to the number of times per day that you can smite evil. When you use your smite evil class feature, you can transform either your weapon or your armor into enchanted jade for 1 minute or until the smite evil effect ends. Your transformed weapon gains the ghost touch special ability. Furthermore, if the target of smite evil is an undead creature, the bonus on damage rolls for the first hit with that weapon increases to 3 points of damage per paladin level you have (including any sentinel levels), and your first attack with that weapon also gains the [disruption](unknown/disruption) weapon special ability (DC = 13 + your Charisma modifier). Your transformed armor gains the ghost touch special ability, and if the target of smite evil is an undead creature, the armor grants you a +2 sacred bonus on saving throws against the creature's spells and effects as well as a +2 sacred bonus to AC against its attacks.",
+			"2. **Banishing Jade (Su)** You gain the ability to smite evil once per day as per a paladin of your character level. If you already have the smite evil class feature, this adds to the number of times per day that you can smite evil. When you use your smite evil class feature, you can transform either your weapon or your armor into enchanted jade for 1 minute or until the smite evil effect ends. Your transformed weapon gains the ghost touch special ability. Furthermore, if the target of smite evil is an undead creature, the bonus on damage rolls for the first hit with that weapon increases to 3 points of damage per paladin level you have (including any sentinel levels), and your first attack with that weapon also gains the [disruption](magic/enhancement/disruption) weapon special ability (DC = 13 + your Charisma modifier). Your transformed armor gains the ghost touch special ability, and if the target of smite evil is an undead creature, the armor grants you a +2 sacred bonus on saving throws against the creature's spells and effects as well as a +2 sacred bonus to AC against its attacks.",
 			"3. **Reincarnated Champion (Su)** You increase the time that you can remain dead before being revived by [breath of life](spell/breath_of_life) by a number of rounds equal to your Charisma modifier (minimum +1). Once per week as a swift action, you can cast [breath of life](spell/breath_of_life) (CL 20th) on yourself, even when you would be otherwise unable to take actions, such as when you are dead.",
 			"",
 			"### Paladin Code",
@@ -29044,7 +29044,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](unknown/mortal_usher), [Proctor](unknown/proctor)"
+			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
 		],
 		"display": "faith"
 	},
@@ -29096,7 +29096,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Proctor](unknown/proctor)"
+			"[Proctor](class/prestige/proctor)"
 		],
 		"display": "faith"
 	},
@@ -29257,7 +29257,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](unknown/mortal_usher), [Proctor](unknown/proctor)"
+			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
 		],
 		"display": "faith"
 	},
@@ -29625,7 +29625,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Scar Seeker](unknown/scar_seeker)",
+			"[Scar Seeker](class/prestige/scar_seeker)",
 			"",
 			"#### Traits",
 			"",
@@ -29745,7 +29745,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Mortal Usher](unknown/mortal_usher), [Proctor](unknown/proctor)"
+			"[Mortal Usher](class/prestige/mortal_usher), [Proctor](class/prestige/proctor)"
 		],
 		"display": "faith"
 	},
@@ -30755,7 +30755,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Proctor](unknown/proctor)"
+			"[Proctor](class/prestige/proctor)"
 		],
 		"display": "faith"
 	},
@@ -32025,7 +32025,7 @@
 			"",
 			"#### Prestige Classes",
 			"",
-			"[Pain Taster](unknown/pain_taster), [Umbral Court Agent](unknown/umbral_court_agent)",
+			"[Pain Taster](class/prestige/pain_taster), [Umbral Court Agent](class/prestige/umbral_court_agent)",
 			"",
 			"#### Spells",
 			"",

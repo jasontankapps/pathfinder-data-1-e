@@ -2306,7 +2306,7 @@
 			"**Source**  [Ultimate Combat pg. 89](source/ultimate_combat)",
 			"",
 			"You can twirl your sling in a way that maximizes its effectiveness.  ",
-			"**Prerequisites:** [Point-Blank Shot](unknown/point-blank_shot), proficient with sling or halfling sling staff.  ",
+			"**Prerequisites:** [Point-Blank Shot](feat/point-blank_shot), proficient with sling or halfling sling staff.  ",
 			"**Benefit:** When using a sling or sling staff, you reduce your penalty on ranged attack rolls due to range by 2. Point-Blank Shot's damage bonus applies within the first normal range increment of your sling (50 feet) or sling staff (80 feet).",
 			"",
 			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
@@ -3763,7 +3763,7 @@
 			"**Source**  [Heroes of the Darklands pg. 5](source/heroes_of_the_darklands)",
 			"",
 			"You are able to emulate the echolocation techniques of bats.  ",
-			"**Prerequisites:** [Blind-Fight](unknown/blind-fight), [Improved Blind-Fight](unknown/improved_blind-fight), Perception 10 ranks.  ",
+			"**Prerequisites:** [Blind-Fight](feat/blind-fight), [Improved Blind-Fight](feat/improved_blind-fight), Perception 10 ranks.  ",
 			"**Benefit:** By spending a move action to make a sound and listen for the echoes, you gain blindsense 30 feet until the end of your turn. Using this feat requires making audible sounds that impose a -4 penalty on your Stealth checks.  ",
 			"**Special:** This feat cannot be used if you are deafened or unable to make noise, and you cannot detect anything in areas that are magically silenced."
 		],
@@ -5747,7 +5747,7 @@
 			"**Source**  [Blood of Shadows pg. 24](source/blood_of_shadows)",
 			"",
 			"You hold no fear of blindness, as your other senses improve without the distractions of sight.  ",
-			"**Prerequisites:** [Blind-Fight](unknown/blind-fight), Perception 5 ranks.  ",
+			"**Prerequisites:** [Blind-Fight](feat/blind-fight), Perception 5 ranks.  ",
 			"**Benefit:** While you are using this style, you gain a number of benefits whenever you are blinded or unable to see (including when you wear a blindfold or close your eyes). Under such circumstances, you do not take any penalties on Strength- or Dexterity-based skill checks due to blindness. In addition, you gain a +4 bonus on hearing- and smell-based Perception checks and gain the scent special ability with a range of 10 feet; if you already have scent, the range of your scent ability increases by 10 feet instead. Having this feat counts as having 10 ranks in Perception for the purpose of satisfying the prerequisites of the Improved Blind-Fight feat, as well as any feat that lists Improved Blind-Fight as a prerequisite."
 		],
 		"short_description": "Gain unique benefits when unable to see",
@@ -5828,7 +5828,7 @@
 			"**Source**  [Mythic Adventures pg. 60](source/mythic_adventures)",
 			"",
 			"No creature can avoid your preternatural senses.  ",
-			"**Prerequisites:** [Blind-Fight](unknown/blind-fight).  ",
+			"**Prerequisites:** [Blind-Fight](feat/blind-fight).  ",
 			"**Benefit:** As a swift action, you can expend one use of mythic power to ignore all miss chances due to concealment or total concealment for a number of rounds equal to your tier."
 		],
 		"short_description": "Reroll miss chances for concealment",
@@ -6167,7 +6167,7 @@
 			"",
 			"When fighting alongside your allies, the sight of a bloodied foe inspires you to greatness, while a martyred comrade compels you to vengeance.  ",
 			"**Prerequisites:** Base attack bonus +4.  ",
-			"**Benefit:** You gain a +2 morale bonus on attack and damage rolls against a target that was damaged by an ally with this feat within the last round. When an ally with this feat dies within 30 feet of you, you gain the effects of [haste](unknown/haste) for 1 round."
+			"**Benefit:** You gain a +2 morale bonus on attack and damage rolls against a target that was damaged by an ally with this feat within the last round. When an ally with this feat dies within 30 feet of you, you gain the effects of [haste](spell/haste) for 1 round."
 		],
 		"short_description": "+2 attack and damage against creatures damage by your allies in the last round",
 		"display": "feat"
@@ -8613,7 +8613,7 @@
 			"**Source**  [Mythic Adventures pg. 60](source/mythic_adventures)",
 			"",
 			"In your hands, anything is a deadly weapon.  ",
-			"**Prerequisites:** [Catch Off-Guard](unknown/catch_off-guard).  ",
+			"**Prerequisites:** [Catch Off-Guard](feat/catch_off-guard).  ",
 			"**Benefit:** The damage dealt when you use improvised weapons increases by your tier. You also gain a bonus to CMD equal to your tier when an opponent attempts to sunder or disarm an improvised weapon you're wielding."
 		],
 		"short_description": "No penalties for improvised melee weapons",
@@ -9030,7 +9030,7 @@
 			"**Source**  [Champions of Corruption pg. 23](source/champions_of_corruption)",
 			"",
 			"You deal more damage by breaking nearby objects against your enemies.  ",
-			"**Prerequisites:** [Catch Off-Guard](unknown/catch_off-guard), base attack bonus +1.  ",
+			"**Prerequisites:** [Catch Off-Guard](feat/catch_off-guard), base attack bonus +1.  ",
 			"**Benefit:** When you attack a target with an improvised weapon, you can give that weapon the broken condition to deal 1d4 points of additional damage on that attack. Additionally, you gain a +4 bonus on the roll to confirm a critical hit with this attack. If you confirm the crit, the extra damage granted by this feat is also multiplied and the improvised weapon is destroyed."
 		],
 		"short_description": "Break improvised weapons to deal more damage",
@@ -9229,7 +9229,7 @@
 			"",
 			"It is your mission to do as much good as possible.  ",
 			"**Prerequisites:** 10 Hit Dice, neutral good alignment.  ",
-			"**Benefit:** You can store a number of [affirmations](unknown/affirmations) up to your Charisma bonus (minimum 1) to use at any time, not just within the next 24 hours. You can use an affirmation and touch a creature as a standard action to remove a single condition or harmful effect from the list of paladin [mercies](unknown/mercies) (using your Hit Dice as your paladin level to determine which mercies you can use and their effects). Lastly, you gain a +2 bonus on weapon and spell damage rolls against evil creatures. This is an alignment-based effect.  ",
+			"**Benefit:** You can store a number of [affirmations](unknown/affirmations) up to your Charisma bonus (minimum 1) to use at any time, not just within the next 24 hours. You can use an affirmation and touch a creature as a standard action to remove a single condition or harmful effect from the list of paladin [mercies](class/ability/mercies) (using your Hit Dice as your paladin level to determine which mercies you can use and their effects). Lastly, you gain a +2 bonus on weapon and spell damage rolls against evil creatures. This is an alignment-based effect.  ",
 			"**Residual:** If you have this feat but you are no longer neutral good, you continue to gain the +2 bonus on weapon and spell damage rolls against evil creatures."
 		],
 		"short_description": "It is your mission to do as much good as possible.",
@@ -9816,7 +9816,7 @@
 			"**Source**  [Ultimate Combat pg. 92](source/ultimate_combat)",
 			"",
 			"You know how to use your momentum to enhance your thrown weapon attacks.  ",
-			"**Prerequisites:** [Point-Blank Shot](unknown/point-blank_shot).  ",
+			"**Prerequisites:** [Point-Blank Shot](feat/point-blank_shot).  ",
 			"**Benefit:** You can use the charge rules to make a thrown weapon attack. All the parameters of a charge apply, except that you must only move closer to your opponent, and you must end your movement within 30 feet of that opponent. If you do, you can make a single thrown weapon attack against that opponent, gaining the +2 bonus on the attack roll and taking a -2 penalty to your AC until the start of your next turn.",
 			"",
 			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
@@ -11501,7 +11501,7 @@
 			"**Source**  [Inner Sea Races pg. 204](source/inner_sea_races)",
 			"",
 			"Your simultaneous ranged attacks punch through your foe's defenses with ease.  ",
-			"**Prerequisites:** [Point-Blank Shot](unknown/point-blank_shot), elf, weapon familiarity racial trait.  ",
+			"**Prerequisites:** [Point-Blank Shot](feat/point-blank_shot), elf, weapon familiarity racial trait.  ",
 			"**Benefit:** If you and a single ally who also has this feat both ready an action to each make a ranged attack against the same opponent and choose the same condition for the readied action, when you and the ally make those attacks, each of you can use the highest of the two attack rolls for your attack roll. Furthermore, if you and your ally both hit the target, you can total the damage for both attacks before applying the target's damage reduction or energy resistance."
 		],
 		"short_description": "When you and an ally with this feat both ready actions to make ranged attacks, use the highest attack roll for both attacks",
@@ -12240,7 +12240,7 @@
 			"**Source**  [Advanced Class Guide pg. 144](source/advanced_class_guide)",
 			"",
 			"Your ranged attacks against an opponent take advantage of your ally's positioning.  ",
-			"**Prerequisites:** [Point-Blank Shot](unknown/point-blank_shot).  ",
+			"**Prerequisites:** [Point-Blank Shot](feat/point-blank_shot).  ",
 			"**Benefit:** If your ally with this feat is threatening an opponent and is not providing cover to that opponent against your ranged attacks, you gain a +1 bonus on ranged attacks against that opponent. If your ally with this feat is flanking that opponent with another ally (even if that other ally doesn't have this feat), this bonus increases to +2.",
 			"",
 			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
@@ -12685,7 +12685,7 @@
 			"**Source**  [Ranged Tactics Toolbox pg. 10](source/ranged_tactics_toolbox)",
 			"",
 			"You distract your enemies with ranged attacks to protect your allies.  ",
-			"**Prerequisites:** [Point-Blank Shot](unknown/point-blank_shot).  ",
+			"**Prerequisites:** [Point-Blank Shot](feat/point-blank_shot).  ",
 			"**Benefit:** You can use the aid another action with a ranged attack against an opponent, regardless of whether the opponent threatens an ally. Range penalties apply to this attack roll. Choose one ally when making the attack. If the attack is successful, that ally gains a +2 bonus to AC against that opponent's next attack, as long as the attack comes before the beginning of your next turn. All allies with this feat also gain this bonus against that opponent."
 		],
 		"short_description": "Use aid another with ranged attacks against distant opponents",
@@ -15939,7 +15939,7 @@
 			"**Prerequisites:** Knowledge (religion) 3 ranks, must worship a deity.  ",
 			"**Benefit:** Each deity requires a different daily obedience, but all obediences take no more than 1 hour per day to perform. Once you've performed the obedience, you gain the benefit of a special ability or resistance as indicated in the Obedience entry for the god to whom you performed the obedience.",
 			"",
-			"If you have at least 12 Hit Dice, you also gain the first boon granted by your deity upon undertaking your obedience. If you have at least 16 Hit Dice, you also gain the second boon. If you have 20 Hit Dice or more, you also gain the third boon. Unless a specific duration or number of uses per day is listed, a boon's effects are constant. If you have levels in the [evangelist](unknown/evangelist), [exalted](unknown/exalted), or [sentinel](unknown/sentinel) prestige classes, you gain access to these boons at lower levels as a benefit of your prestige class. If you have no levels in one of these prestige classes, you gain the boons marked as exalted boons. If you later take levels in sentinel or evangelist, you lose access to the exalted boons and gain access to the new boons appropriate to your class.",
+			"If you have at least 12 Hit Dice, you also gain the first boon granted by your deity upon undertaking your obedience. If you have at least 16 Hit Dice, you also gain the second boon. If you have 20 Hit Dice or more, you also gain the third boon. Unless a specific duration or number of uses per day is listed, a boon's effects are constant. If you have levels in the [evangelist](unknown/evangelist), [exalted](class/prestige/exalted), or [sentinel](unknown/sentinel) prestige classes, you gain access to these boons at lower levels as a benefit of your prestige class. If you have no levels in one of these prestige classes, you gain the boons marked as exalted boons. If you later take levels in sentinel or evangelist, you lose access to the exalted boons and gain access to the new boons appropriate to your class.",
 			"",
 			"If you ever fail to perform a daily obedience, you lose all access to the benefits and boons granted by this feat until you next perform the obedience."
 		],
@@ -16301,7 +16301,7 @@
 			"**Source**  [Advanced Race Guide pg. 18](source/advanced_race_guide)",
 			"",
 			"Your helm protects you from hard hits.  ",
-			"**Prerequisites:** [Hard-Headed](unknown/hard-headed), base attack bonus +6, dwarf.  ",
+			"**Prerequisites:** [Hard-Headed](feat/hard-headed), base attack bonus +6, dwarf.  ",
 			"**Benefit:** When wearing a helmet, you add +1 to your AC against critical hit confirmation rolls. When a critical hit is confirmed against you, as an immediate action, you can apply half of the damage from the attack to your helmet rather than yourself, applying hardness as normal. If the damage destroys your helmet, any leftover damage is applied to you. After using this feat, you are staggered until the end of your next turn. You may not use this feat if your helmet has the broken condition or the attack ignores armor bonuses to AC.",
 			"",
 			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
@@ -17785,7 +17785,7 @@
 			"**Source**  [Advanced Player's Guide pg. 157](source/advanced_player's_guide)",
 			"",
 			"With a well-placed shot, you make it harder for a nearby opponent to cast spells.  ",
-			"**Prerequisites:** Dex 13, [Point-Blank Shot](unknown/point-blank_shot), fighter level 6th.  ",
+			"**Prerequisites:** Dex 13, [Point-Blank Shot](feat/point-blank_shot), fighter level 6th.  ",
 			"**Benefit:** If you ready an action to shoot an opponent casting a spell within 30 feet and successfully hit that opponent with a ranged attack, the concentration DC to successfully cast the spell is increased by +4.",
 			"",
 			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
@@ -23142,7 +23142,7 @@
 			"",
 			"Your magical arrows produce a wider range of powers.  ",
 			"**Prerequisites:** Enhance arrows class feature.  ",
-			"**Benefit:** You add [corrosive](unknown/corrosive) to the list of special properties you can grant your nonmagical arrows with your enhance arrows ability at 3rd level. At 5th level, you can add the ghost touch, [limning](unknown/limning), or [planar](unknown/planar) special ability instead of [distance](unknown/distance). At 7th level, you can add the corrosive burst special ability."
+			"**Benefit:** You add [corrosive](magic/enhancement/corrosive) to the list of special properties you can grant your nonmagical arrows with your enhance arrows ability at 3rd level. At 5th level, you can add the [ghost touch](magic/enhancement/ghost_touch), [limning](magic/enhancement/limning), or [planar](unknown/planar) special ability instead of [distance](magic/enhancement/distance). At 7th level, you can add the corrosive burst special ability."
 		],
 		"short_description": "Add additional magic weapon properties to your enhance arrows ability",
 		"display": "feat"
@@ -25381,7 +25381,7 @@
 			"**Source**  [Mythic Adventures pg. 65](source/mythic_adventures)",
 			"",
 			"Your illusions are astonishingly realistic.  ",
-			"**Prerequisites:** [Spell Focus (illusion)](unknown/spell_focus).  ",
+			"**Prerequisites:** [Spell Focus (illusion)](feat/spell_focus).  ",
 			"**Benefit:** Non-mythic creatures can't identify your illusion spells with Spellcraft, including checks attempted as part of arcane sight, detect magic, or similar effects. When mythic creatures attempt to identify your illusions, add your tier to the DC of those Spellcraft checks. Mythic creatures informed by their allies that one of your illusions isn't real gain only a +2 bonus on their Will saves to disbelieve. Non-mythic creatures gain no bonus to disbelieve."
 		],
 		"mythic_only": true,
@@ -27856,7 +27856,7 @@
 			"",
 			"You can create creatures through an abominable alchemical process.  ",
 			"**Prerequisites:** Craft (alchemy) 5 ranks, Heal 5 ranks, evil alignment.  ",
-			"**Benefit:** You can create fleshwarped creatures and [fleshcraft](unknown/fleshcraft) grafts (see [Fleshwarping](unknown/fleshwarping) for full details). A newly created fleshwarped creature has average hit points for its Hit Dice."
+			"**Benefit:** You can create fleshwarped creatures and [fleshcraft](unknown/fleshcraft) grafts (see [Fleshwarping](rule/fleshwarping) for full details). A newly created fleshwarped creature has average hit points for its Hit Dice."
 		],
 		"short_description": "Create fleshwarped creatures and items",
 		"display": "feat"
@@ -29167,7 +29167,7 @@
 			"",
 			"You become an expert of hiding in plain sight.  ",
 			"**Prerequisites:** Stealth 5 ranks, [wyrwood](unknown/wyrwood).  ",
-			"**Benefit:** You gain the [freeze](unknown/freeze) universal monster rule, allowing you to appear as an ordinary statue. If you attack a creature unaware of you while using this ability, you double your critical threat range. This effect doesn't stack with any other effect that expands the threat range of your attacks or weapons."
+			"**Benefit:** You gain the [freeze](umr/freeze) universal monster rule, allowing you to appear as an ordinary statue. If you attack a creature unaware of you while using this ability, you double your critical threat range. This effect doesn't stack with any other effect that expands the threat range of your attacks or weapons."
 		],
 		"short_description": "Gain the freeze universal monster ability",
 		"display": "feat"
@@ -30001,7 +30001,7 @@
 			"",
 			"Axiomatic energies flow from the golden dust you shed, harming chaotic beings on contact.  ",
 			"**Prerequisites:** Aphorite, crystalline dust racial trait, nonchaotic alignment.  ",
-			"**Benefit:** As a swift action, you can expend 1 round of your crystalline dust ability to coat up to two of your natural weapons or held manufactured weapons in a layer of crystalline dust. The weapons remain coated for 1 round and deal an additional 1d6 points of damage to creatures with the chaotic subtype. This extra damage does not stack with other features that add alignment-based damage to weapons, such as the [axiomatic](unknown/axiomatic) weapon special ability."
+			"**Benefit:** As a swift action, you can expend 1 round of your crystalline dust ability to coat up to two of your natural weapons or held manufactured weapons in a layer of crystalline dust. The weapons remain coated for 1 round and deal an additional 1d6 points of damage to creatures with the chaotic subtype. This extra damage does not stack with other features that add alignment-based damage to weapons, such as the [axiomatic](magic/enhancement/axiomatic) weapon special ability."
 		],
 		"short_description": "Expend uses of crystalline dust to deal extra damage to chaotic creatures",
 		"display": "feat"
@@ -30081,7 +30081,7 @@
 			"**Source**  [Advanced Race Guide pg. 111](source/advanced_race_guide)",
 			"",
 			"Few creatures are as accustomed to fighting in the shadows as you.  ",
-			"**Prerequisites:** [Blind-Fight](unknown/blind-fight), fetchling.  ",
+			"**Prerequisites:** [Blind-Fight](feat/blind-fight), fetchling.  ",
 			"**Benefit:** When you are within an area of dim light or darkness, you gain a +1 bonus on attack rolls against enemies that are also within dim light or darkness.",
 			"",
 			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
@@ -30127,8 +30127,8 @@
 			"",
 			"**Source**  [Heroes of Golarion pg. 9](source/heroes_of_golarion)",
 			"",
-			"The goddess [Sarenrae](unknown/sarenrae) welcomes all who seek good in the world into her fold, and some goblins are drawn to worship her, in part due to her incarnation as a giant ball of fire.  ",
-			"**Prerequisites:** [Goblin](unknown/goblin), worshiper of [Sarenrae](unknown/sarenrae).  ",
+			"The goddess [Sarenrae](faith/sarenrae) welcomes all who seek good in the world into her fold, and some goblins are drawn to worship her, in part due to her incarnation as a giant ball of fire.  ",
+			"**Prerequisites:** [Goblin](unknown/goblin), worshiper of [Sarenrae](faith/sarenrae).  ",
 			"**Benefit:** If the sun is visible, you can spend 1 round performing a wild dance in worship of the Dawnflower. Starting at the beginning of your next turn, allies who can see you gain a +1 morale bonus on attack rolls, skill checks, and saving throws. This effect lasts for a number of rounds equal to half your character level + your Wisdom modifier (minimum 1 round). At 9th level, this bonus increases to +2."
 		],
 		"short_description": "Preform a wild dance in honor of Sarenrae to aid your allies",
@@ -31137,7 +31137,7 @@
 			"**Source**  [Advanced Player's Guide pg. 161](source/advanced_player's_guide)",
 			"",
 			"Your enemies cannot hide from you.  ",
-			"**Prerequisites:** Perception 15 ranks, [Improved Blind-Fight](unknown/improved_blind-fight).  ",
+			"**Prerequisites:** Perception 15 ranks, [Improved Blind-Fight](feat/improved_blind-fight).  ",
 			"**Benefit:** Your melee attacks ignore the miss chance for less than total concealment, and you treat opponents with total concealment as if they had normal concealment (20% miss chance instead of 50%). You may still reroll a miss chance percentile roll as normal.",
 			"",
 			"If you successfully pinpoint an invisible or hidden attacker, that attacker gets no advantages related to hitting you with ranged attacks, regardless of the range. That is, you don't lose your Dexterity bonus to Armor Class, and the attacker doesn't get the usual +2 bonus for being invisible.  ",
@@ -32225,7 +32225,7 @@
 			"**Source**  [PRPG Core Rulebook pg. 126](source/prpg_core_rulebook)",
 			"",
 			"You are incredibly skilled at fighting with two weapons at the same time.  ",
-			"**Prerequisites:** Dex 19, [Improved Two-Weapon Fighting](unknown/improved_two-weapon_fighting), [Two-Weapon Fighting](unknown/two-weapon_fighting), base attack bonus +11.  ",
+			"**Prerequisites:** Dex 19, [Improved Two-Weapon Fighting](feat/improved_two-weapon_fighting), [Two-Weapon Fighting](unknown/two-weapon_fighting), base attack bonus +11.  ",
 			"**Benefit:** You get a third attack with your off-hand weapon, albeit at a -10 penalty.",
 			"",
 			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
@@ -33808,7 +33808,7 @@
 			"",
 			"You might be a different subspecies or simply a well-fed and well-grown beast, but either way you're built on a more massive scale than the rest of your kind.  ",
 			"**Prerequisites:** Animal companion or familiar.  ",
-			"**Benefit:** You treat your size as one category larger for the purposes of calculating CMB, CMD, carrying capacity, and any size-based special attacks you use or that are used against you (such as [grab](unknown/grab), swallow whole, and [trample](unknown/trample))."
+			"**Benefit:** You treat your size as one category larger for the purposes of calculating CMB, CMD, carrying capacity, and any size-based special attacks you use or that are used against you (such as [grab](umr/grab), [swallow whole](umr/swallow_whole), and [trample](umr/trample))."
 		],
 		"short_description": "You're treated as one size category larger for size-based abilities",
 		"display": "feat"
@@ -35003,7 +35003,7 @@
 			"**Source**  [Ultimate Combat pg. 104](source/ultimate_combat)",
 			"",
 			"With a series of ranged attacks, you bring your foes to their knees or force them to move.  ",
-			"**Prerequisites:** Dex 13, [Point-Blank Shot](unknown/point-blank_shot), base attack bonus +9.  ",
+			"**Prerequisites:** Dex 13, [Point-Blank Shot](feat/point-blank_shot), base attack bonus +9.  ",
 			"**Benefit:** Whenever you score a critical hit with a ranged attack, in addition to the normal damage your attack deals, if your confirmation roll exceeds your opponent's CMD, you can push your opponent back as if from the bull rush combat maneuver or knock that target prone as if from a trip combat maneuver. If you choose to bull rush, you cannot move with the target. Your maneuver does not provoke an attack of opportunity.  ",
 			"**Normal:** You must perform a bull rush combat maneuver to bull rush an opponent, and you must perform a trip combat maneuver to trip an opponent.",
 			"",
@@ -35386,7 +35386,7 @@
 			"**Source**  [Advanced Player's Guide pg. 162](source/advanced_player's_guide)",
 			"",
 			"Your keen senses guide your hand against hidden foes.  ",
-			"**Prerequisites:** Perception 10 ranks, [Blind-Fight](unknown/blind-fight).  ",
+			"**Prerequisites:** Perception 10 ranks, [Blind-Fight](feat/blind-fight).  ",
 			"**Benefit:** Your melee attacks ignore the miss chance for less than total concealment. You may still reroll your miss chance percentile roll for total concealment.",
 			"",
 			"If you successfully pinpoint an invisible or hidden attacker within 30 feet, that attacker gets no advantages related to hitting you with ranged attacks. That is, you don't lose your Dexterity bonus to Armor Class, and the attacker doesn't get the usual +2 bonus for being invisible.  ",
@@ -36277,7 +36277,7 @@
 			"",
 			"If you already possess the gaseous form special quality, you can instead choose to augment your gaseous form in one of the following ways. These effects apply only to creatures that enter your space while you are in gaseous form.",
 			"",
-			"Glitterdust (Su): Creatures must succeed at a Will save or be blinded and outlined in golden particles as though under the effects of [glitterdust](unknown/glitterdust).",
+			"Glitterdust (Su): Creatures must succeed at a Will save or be blinded and outlined in golden particles as though under the effects of [glitterdust](spell/glitterdust).",
 			"",
 			"Mind Fog (Su): Creatures must succeed at a Will save or take penalties as though under the effects of [mind fog](spell/mind_fog). This effect lasts as long as a creature shares your space and for 2d6 rounds after.  ",
 			"**Special:** You can gain this feat multiple times. Each time you take this feat, choose another swarm type."
@@ -39383,7 +39383,7 @@
 			"**Source**  [Pathfinder #30: The Twice-Damned Prince pg. 69](source/pathfinder_#30_the_twice-damned_prince)",
 			"",
 			"Spells cast using this feat pay the wages of Mammon and forgo their more mundane costs.  ",
-			"**Benefit:** You may satisfy the material requirement of any spell you cast with valuable coins, gems, or jewelry rather than the normal component. For spells with material components with no listed value, valuables worth 5 times the spell's level in gp may be expended instead of the usual components (5 gp for a 1st-level spell, 20 gp for a 4th-level spell, etc). In the case of spells with components that have a listed cost, you may expend valuables worth a number of gp equal to one and a half times this cost (thus, a spell like [commune](unknown/commune) with material components costing 500 gp could be cast using valuables worth 750 gp). Only coins, gems, jewelry, and other similar objects of obvious worth can be used to replace other material components using this feat. The value of these objects need not match the required cost exactly, but they cannot be less than the required costs. Should valuables of greater value than required be expended (likely when employing objects like gems or jewelry), the extraneous gp value is lost, consumed with the rest of the object. The only exception comes in the case of spells with material components that have a listed worth. When casting such spells you may expend double the components' gp worth in valuables to cast the spell as if your caster level were 1 level higher. This e!ect only applies to spells with components with a specific gp value. Any expenditure beyond double the gp value grants no additional benefit."
+			"**Benefit:** You may satisfy the material requirement of any spell you cast with valuable coins, gems, or jewelry rather than the normal component. For spells with material components with no listed value, valuables worth 5 times the spell's level in gp may be expended instead of the usual components (5 gp for a 1st-level spell, 20 gp for a 4th-level spell, etc). In the case of spells with components that have a listed cost, you may expend valuables worth a number of gp equal to one and a half times this cost (thus, a spell like [commune](spell/commune) with material components costing 500 gp could be cast using valuables worth 750 gp). Only coins, gems, jewelry, and other similar objects of obvious worth can be used to replace other material components using this feat. The value of these objects need not match the required cost exactly, but they cannot be less than the required costs. Should valuables of greater value than required be expended (likely when employing objects like gems or jewelry), the extraneous gp value is lost, consumed with the rest of the object. The only exception comes in the case of spells with material components that have a listed worth. When casting such spells you may expend double the components' gp worth in valuables to cast the spell as if your caster level were 1 level higher. This e!ect only applies to spells with components with a specific gp value. Any expenditure beyond double the gp value grants no additional benefit."
 		],
 		"short_description": "Use gold or gems instead of normal spell material components",
 		"display": "feat"
@@ -41093,7 +41093,7 @@
 			"**Source**  [Distant Realms pg. 33](source/distant_realms)",
 			"",
 			"Your thrown weapons shine with a divine light that dazzles their targets.  ",
-			"**Prerequisites:** [Point-Blank Shot](unknown/point-blank_shot), good or lawful alignment, caster level 1st or monk level 1st.  ",
+			"**Prerequisites:** [Point-Blank Shot](feat/point-blank_shot), good or lawful alignment, caster level 1st or monk level 1st.  ",
 			"**Benefit:** Your thrown weapons glow with holy light, illuminating a 20-foot-radius area where they fall for 1 round. A target damaged by one of these weapons becomes dazzled for 1 round."
 		],
 		"short_description": "Your thrown weapons shed light for one round",
@@ -41993,7 +41993,7 @@
 			"**Prerequisites:** Be a member of House Zespire, or have the Devoted, Exemplar, Marked by the Gods, or Righteous Mentor background.  ",
 			"**Benefit:** Once per day as a standard action, you can give all allies within 30 feet who can hear you a +1 bonus on attack rolls and on saving throws against mind-affecting effects for 1 minute.  ",
 			"**Goal:** Establish your religion in an existing settlement where it isn't present. You can do this by having a settlement gain the Holy Site or Pious quality for devotion to your deity, or change its government to a theocracy based on your religion.  ",
-			"**Completion Benefit:** You can spontaneously convert any 2nd-level or higher divine spell into [enthrall](unknown/enthrall) and can spontaneously convert any 3rd-level or higher divine spell into [suggestion](unknown/suggestion)."
+			"**Completion Benefit:** You can spontaneously convert any 2nd-level or higher divine spell into [enthrall](spell/enthrall) and can spontaneously convert any 3rd-level or higher divine spell into [suggestion](spell/suggestion)."
 		],
 		"short_description": "Once per day, grant your allies a +1 bonus on attack rolls and saving throws against mind-affecting effects",
 		"display": "feat"
@@ -42820,7 +42820,7 @@
 			"**Source**  [Mythic Adventures pg. 68](source/mythic_adventures)",
 			"",
 			"Your surges defy the odds.  ",
-			"**Prerequisites:** [Potent Surge](unknown/potent_surge), 3rd mythic tier.  ",
+			"**Prerequisites:** [Potent Surge](feat/potent_surge), 3rd mythic tier.  ",
 			"**Benefit:** Whenever you use your surge ability, you can roll your surge dice twice and take the higher result. If you can already roll your surge dice twice and take the higher result, you roll your surge dice three times and take the highest result."
 		],
 		"mythic_only": true,
@@ -46081,7 +46081,7 @@
 			"**Source**  [Elemental Master's Handbook pg. 19](source/elemental_master's_handbook)",
 			"",
 			"Your gaze cuts through vapors with ease.  ",
-			"**Prerequisites:** [Blind-Fight](unknown/blind-fight), Perception 5 ranks.  ",
+			"**Prerequisites:** [Blind-Fight](feat/blind-fight), Perception 5 ranks.  ",
 			"**Benefit:** You ignore concealment (but not total concealment) caused by fog, rain, smoke, wind, and other gases or weather effects (including magical effects like obscuring mist), and you ignore up to -4 in penalties on Perception checks from such effects. You treat total concealment resulting from any such gas or weather effects within 10 feet of you as concealment (20% miss chance)."
 		],
 		"short_description": "Overcome vision penalties due to gases and weather effects",
@@ -47175,7 +47175,7 @@
 			"**Source**  [Ultimate Wilderness pg. 116](source/ultimate_wilderness)",
 			"",
 			"You can make a weapon out of nearly anything that can be found in the wild.  ",
-			"**Prerequisites:** [Catch Off-Guard](unknown/catch_off-guard); base attack bonus +2; Knowledge (nature) or Survival 2 ranks.  ",
+			"**Prerequisites:** [Catch Off-Guard](feat/catch_off-guard); base attack bonus +2; Knowledge (nature) or Survival 2 ranks.  ",
 			"**Benefit:** You can turn nearly anything you might find in the wilderness into an improvised melee weapon. This improvised melee weapon is one-handed and deals 1d6 points of damage for Medium creatures and 1d4 for Small creatures. Depending on the weapon, it deals bludgeoning, piercing, or slashing damage (at the GM's discretion). Grabbing an object to use as a weapon is the same action as drawing a weapon. The weapon must be of a material that is naturally occurring in that terrain."
 		],
 		"short_description": "Wield improvised weapons you find in the wild so that they do more damage than normal",
@@ -48888,7 +48888,7 @@
 			"You can ignore privation and channel your emotions to prepare for a later bounty.  ",
 			"**Prerequisites:** Be a member of House Denzarni, or have the Bloodthirsty, Omen, Tree Tender, or Unsuspecting Master background.  ",
 			"**Benefit:** You add 1 day to the time you can go without food or water before making Constitution checks and you add +4 to Constitution checks to stave off the effects of starvation and thirst.  ",
-			"**Goal:** You must succumb to your emotions and be victorious. Thwart an appropriate number of foes while you are subject to an effect with the emotion descriptor, such as [rage](unknown/rage).  ",
+			"**Goal:** You must succumb to your emotions and be victorious. Thwart an appropriate number of foes while you are subject to an effect with the emotion descriptor, such as [rage](spell/rage).  ",
 			"**Completion Benefit:** Once per day, you can use [heroes' feast](spell/heroes'_feast) as a spell-like ability with a caster level equal to your character level, although your feast does not grant the effects of [neutralize poison](spell/neutralize_poison) or [remove disease](spell/remove_disease)."
 		],
 		"short_description": "You can go longer without food and water",
@@ -49112,7 +49112,7 @@
 			"",
 			"Your creator was a politician and administrator, and your memories are filled with the sound of clinking coins.  ",
 			"**Prerequisites:** [Shabti](unknown/shabti).  ",
-			"**Benefit:** You gain a second daily use of your [suggestion](unknown/suggestion) spell-like ability. You gain a third daily use at 8th level, a fourth at 13th level, and a fifth at 16th level."
+			"**Benefit:** You gain a second daily use of your [suggestion](spell/suggestion) spell-like ability. You gain a third daily use at 8th level, a fourth at 13th level, and a fifth at 16th level."
 		],
 		"short_description": "Gain additional uses of your suggestion suggestion spell-like ability",
 		"display": "feat"
@@ -49793,7 +49793,7 @@
 			"**Source**  [Advanced Player's Guide pg. 166](source/advanced_player's_guide)",
 			"",
 			"You can throw an enemy spell back at its caster.  ",
-			"**Prerequisites:** Spellcraft 15 ranks, [Improved Counterspell](unknown/improved_counterspell).  ",
+			"**Prerequisites:** Spellcraft 15 ranks, [Improved Counterspell](feat/improved_counterspell).  ",
 			"**Benefit:** Whenever you successfully counter a spell, it returns back to its caster. This works exactly like the spell turning spell."
 		],
 		"short_description": "Reflect a counterspelled spell back on its caster",
@@ -50815,7 +50815,7 @@
 			"",
 			"Often having one parent with a human lifespan and one with an elven lifespan, many half-elves have a skewed perception of time, and none more so than the Spireborn, who also study the subject of time academically.  ",
 			"**Prerequisites:** Character level 5th, Spireborn half-elf.  ",
-			"**Benefit:** Once per day, as a standard action, you can gain the benefits of [haste](unknown/haste) until the end of your next turn."
+			"**Benefit:** Once per day, as a standard action, you can gain the benefits of [haste](spell/haste) until the end of your next turn."
 		],
 		"short_description": "Gain the effects of haste for 1 round per day",
 		"display": "feat"
@@ -51671,7 +51671,7 @@
 			"**Source**  [Mythic Adventures pg. 71](source/mythic_adventures)",
 			"",
 			"Your accuracy with ranged attacks is unmatched at pointblank range.  ",
-			"**Prerequisites:** [Point-Blank Shot](unknown/point-blank_shot).  ",
+			"**Prerequisites:** [Point-Blank Shot](feat/point-blank_shot).  ",
 			"**Benefit:** The bonus on attack and damage rolls granted by Point-Blank Shot increases to +2. As a swift action, you can expend one use of mythic power to gain an additional bonus on these rolls equal to half your tier."
 		],
 		"short_description": "+1 attack and damage on targets within 30 feet",
@@ -51949,7 +51949,7 @@
 			"",
 			"A fiend that successfully possesses a target enters its space and merges with it. While possessing a creature or object, a fiend's body and abilities are unavailable. Once a fiend merges with its target it cannot be harmed until it leaves or is forcibly removed. While possessing a target, a fiend shares the senses of its host and can communicate with it telepathically. A fiend also gains a number of possession points per day equal to its total Hit Dice. These points can be spent to utilize special bodily possession actions detailed on the following pages. A fiend may expend these points as it pleases, with each possession action taking a full-round action.",
 			"",
-			"Each day, the victim of a possession is allowed a new Will save at the original DC to force the possessing fiend to leave its body-objects and areas do not receive daily saves. Should a victim make this save or be killed, the fiend is ejected, retakes its original form in an adjacent space, and is stunned for 1 round. A fiend may not possess a new target for 24 hours after being ejected from a victim. [Dispel evil](spell/dispel_evil) (or [dispel chaos](spell/dispel_chaos) or [dispel law](spell/dispel_law), depending on the fiend) can eject a fiend, but the caster must succeed at a caster level check with a DC equal to 10 + the HD of the possessing fiend + the fiend's Cha modifier. [Banishment](unknown/banishment) and [dismissal](unknown/dismissal) immediately eject a fiend from a target if it fails to save against the spell."
+			"Each day, the victim of a possession is allowed a new Will save at the original DC to force the possessing fiend to leave its body-objects and areas do not receive daily saves. Should a victim make this save or be killed, the fiend is ejected, retakes its original form in an adjacent space, and is stunned for 1 round. A fiend may not possess a new target for 24 hours after being ejected from a victim. [Dispel evil](spell/dispel_evil) (or [dispel chaos](spell/dispel_chaos) or [dispel law](spell/dispel_law), depending on the fiend) can eject a fiend, but the caster must succeed at a caster level check with a DC equal to 10 + the HD of the possessing fiend + the fiend's Cha modifier. [Banishment](unknown/banishment) and [dismissal](spell/dismissal) immediately eject a fiend from a target if it fails to save against the spell."
 		],
 		"short_description": "Powerful fiends have the ability to merge with creatures and spread their foul influence",
 		"display": "feat"
@@ -52343,7 +52343,7 @@
 			"**Source**  [PRPG Core Rulebook pg. 131](source/prpg_core_rulebook)",
 			"",
 			"You are adept at firing ranged attacks into melee.  ",
-			"**Prerequisites:** [Point-Blank Shot](unknown/point-blank_shot).  ",
+			"**Prerequisites:** [Point-Blank Shot](feat/point-blank_shot).  ",
 			"**Benefit:** You can shoot or throw ranged weapons at an opponent engaged in melee without taking the standard -4 penalty on your attack roll.",
 			"",
 			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
@@ -53433,7 +53433,7 @@
 			"**Source**  [Inner Sea Races pg. 208](source/inner_sea_races)",
 			"",
 			"Your bond with your totem spirit increases around others of the same quah.  ",
-			"**Prerequisites:** [Totem Spirit](unknown/totem_spirit), human (Shoanti).  ",
+			"**Prerequisites:** [Totem Spirit](feat/totem_spirit), human (Shoanti).  ",
 			"**Benefit:** If at least one Shoanti ally from the same quah who also has this feat is within 30 feet, double your benefits from the Totem Spirit feat."
 		],
 		"short_description": "Double benefits granted by your Totem Spirit feat when an ally from the same quah with this feat is within 30 feet",
@@ -54848,7 +54848,7 @@
 			"**Source**  [Inner Sea Taverns pg. 59](source/inner_sea_taverns)",
 			"",
 			"You can gain some insight into the mood of a crowd with just a look.  ",
-			"**Prerequisites:** [Drunken Sing-Along](unknown/drunken_sing-along), Diplomacy 1 rank, Performance (sing) 1 rank, Sense Motive 1 rank.  ",
+			"**Prerequisites:** [Drunken Sing-Along](feat/drunken_sing-along), Diplomacy 1 rank, Performance (sing) 1 rank, Sense Motive 1 rank.  ",
 			"**Benefit:** Before you use the Drunken Sing-Along feat, you can attempt a DC 20 Sense Motive check as a free action to pick the exact right song for that crowd. If you are successful, you gain a +4 circumstance bonus on your next Diplomacy check to gather information in that tavern."
 		],
 		"short_description": "Bonus on Diplomacy checks to gather information when using Drunken Sing-Along",
@@ -55455,7 +55455,7 @@
 			"**Source**  [Ranged Tactics Toolbox pg. 7](source/ranged_tactics_toolbox)",
 			"",
 			"You keep your aim steady on a downed foe.  ",
-			"**Prerequisites:** [Point-Blank Shot](unknown/point-blank_shot), base attack bonus +6.  ",
+			"**Prerequisites:** [Point-Blank Shot](feat/point-blank_shot), base attack bonus +6.  ",
 			"**Benefit:** When you successfully trip an opponent within 30 feet with a ranged attack, you threaten that opponent until your next turn. You can make attacks of opportunity against that opponent with ranged weapons. This effect ends if you attack another target or the opponent moves from its current square.  ",
 			"**Normal:** While wielding a ranged weapon, you threaten no squares and cannot make attacks of opportunity with that weapon."
 		],
@@ -56185,7 +56185,7 @@
 			"**Source**  [Ultimate Combat pg. 116](source/ultimate_combat)",
 			"",
 			"You can ricochet a firearm shot off the wall and still hit your target.  ",
-			"**Prerequisites:** Grit class feature or Amateur Gunslinger feat, [Blind-Fight](unknown/blind-fight).  ",
+			"**Prerequisites:** Grit class feature or Amateur Gunslinger feat, [Blind-Fight](feat/blind-fight).  ",
 			"**Benefit:** You can fire a shot at a wall or piece of solid terrain, and have it ricochet off. When you do, use the square immediately in front of the wall or piece of solid terrain to determine line of sight to a target, and this square is considered the new origin square of the attack. Use that square to determine the effects of cover, and your own square to determine the effects of concealment. You can make this shot as long as you have at least 1 grit point. When making this shot, you can spend 1 grit point to ignore the effects of all cover or concealment. You must choose to spend the grit point before you make the attack roll."
 		],
 		"short_description": "Ricochet your shots off of a wall or other solid terrain",
@@ -56860,7 +56860,7 @@
 			"",
 			"**Source**  [Heroes of Golarion pg. 10](source/heroes_of_golarion)",
 			"",
-			"Your faith in [Sarenrae](unknown/sarenrae) and the power of flame allows you to lace fire with holy power and burn things that normally can't be burned.  ",
+			"Your faith in [Sarenrae](faith/sarenrae) and the power of flame allows you to lace fire with holy power and burn things that normally can't be burned.  ",
 			"**Prerequisites:** [Goblin](unknown/goblin), worshiper of Sarenrae.  ",
 			"**Benefit:** Whenever you make an attack or cast a spell that deals fire damage, the fire damage applies to incorporeal creatures, regardless of whether the fire is magical. An incorporeal creature's 50% reduction in damage from corporeal sources does not apply to any fire damage that you deal."
 		],
@@ -57937,7 +57937,7 @@
 			"**Source**  [Heroes of the Darklands pg. 5](source/heroes_of_the_darklands)",
 			"",
 			"You harry your foes with the light and heat of your weapon.  ",
-			"**Prerequisites:** [Catch Off-Guard](unknown/catch_off-guard).  ",
+			"**Prerequisites:** [Catch Off-Guard](feat/catch_off-guard).  ",
 			"**Benefit:** When you make an attack using a light source such as a sunrod or torch as an improvised weapon, the target must succeed at a Fortitude save or be dazzled for 1 round. On a critical hit, the target is instead blinded for 1 round. The DC of the effect is 10 + half your character level + your Dexterity modifier. Blind targets are immune to this effect."
 		],
 		"short_description": "Blind and dazzle creatures with a torch",
@@ -58457,7 +58457,7 @@
 			"**Source**  [Mythic Adventures pg. 72](source/mythic_adventures)",
 			"",
 			"Independence comes naturally to you, and you have mastered taking care of yourself.  ",
-			"**Prerequisites:** [Self-Sufficient](unknown/self-sufficient).  ",
+			"**Prerequisites:** [Self-Sufficient](feat/self-sufficient).  ",
 			"**Benefit:** The bonus on Heal and Survival skill checks from Self-Sufficient increases by 2. In addition, you can expend one use of mythic power to treat a Heal or Survival check as if you had rolled a natural 20. You must decide to use this ability before making the roll."
 		],
 		"short_description": "+2 bonus on Heal and Survival checks",
@@ -59162,7 +59162,7 @@
 			"A familiar is more than just an animal. It's a spirit and an intelligence, and your familiar can choose to take more than one physical form.  ",
 			"**Prerequisites:** Familiar class feature, caster level 7th.  ",
 			"**Benefit:** Your familiar gains the [change shape](spell/change_shape) universal monster ability. This ability functions as [beast shape II](spell/beast_shape_2) and grants access to a single alternate form, which must be the same size as the familiar. Once chosen, this form cannot be changed.  ",
-			"**Special:** You can gain this feat multiple times. Each time you take this feat, your familiar gains an additional alternate form. If taken by a familiar that already has the change shape universal monster ability (like an [imp](unknown/imp)), this grants a single additional form."
+			"**Special:** You can gain this feat multiple times. Each time you take this feat, your familiar gains an additional alternate form. If taken by a familiar that already has the change shape universal monster ability (like an [imp](monster/imp)), this grants a single additional form."
 		],
 		"short_description": "Your familiar can change shape",
 		"display": "feat"
@@ -60354,7 +60354,7 @@
 			"**Source**  [Martial Arts Handbook pg. 9](source/martial_arts_handbook)",
 			"",
 			"Your unique understanding of improvised tools enables you to turn the intrinsic form of all manner of objects to your advantage in combat.  ",
-			"**Prerequisites:** [Catch Off-Guard](unknown/catch_off_guard) or [Throw Anything](feat/throw_anything), [Shikigami Style](feat/shikigami_style).  ",
+			"**Prerequisites:** [Catch Off-Guard](feat/catch_off_guard) or [Throw Anything](feat/throw_anything), [Shikigami Style](feat/shikigami_style).  ",
 			"**Benefit:** While in [Shikigami Style](feat/shikigami_style), you can take a -2 penalty on attack rolls to treat an improvised weapon as if it had one of the following weapon special qualities until the start of your next turn: blocking, brace, disarm, distracting, nonlethal, performance, or trip. If the weapon has the fragile special quality or broken condition, you can treat it as if it had the jagged special quality."
 		],
 		"short_description": "Add weapon properties to a wielded improvised weapon",
@@ -60374,7 +60374,7 @@
 			"**Source**  [Martial Arts Handbook pg. 9](source/martial_arts_handbook)",
 			"",
 			"Your skill with improvised weapons makes them more dangerous than they would otherwise be.  ",
-			"**Prerequisites:** [Catch Off-Guard](unknown/catch_off_guard) or [Throw Anything](feat/throw_anything).  ",
+			"**Prerequisites:** [Catch Off-Guard](feat/catch_off_guard) or [Throw Anything](feat/throw_anything).  ",
 			"**Benefit:** While in this style, you deal damage with improvised weapons as if they were one size category larger. For every style feat you have that lists Shikigami Style as a prerequisite, treat the improvised weapon as an additional size category larger, to a maximum of three sizes larger than its actual size."
 		],
 		"short_description": "Deal damage with improvised weapons as though they were larger",
@@ -65373,7 +65373,7 @@
 			"**Source**  [People of the Wastes pg. 11](source/people_of_the_wastes)",
 			"",
 			"Your melee strike leaves your target vulnerable to a merciless finishing shot.  ",
-			"**Prerequisites:** [Point-Blank Shot](unknown/point-blank_shot), [Stock-Striker Style](unknown/stock-striker_style), [Stock-Striker Sweep](unknown/stock-striker_sweep), base attack bonus +9, pistol-whip gunslinger deed.  ",
+			"**Prerequisites:** [Point-Blank Shot](feat/point-blank_shot), [Stock-Striker Style](feat/stock-striker_style), [Stock-Striker Sweep](feat/stock-striker_sweep), base attack bonus +9, pistol-whip gunslinger deed.  ",
 			"**Benefit:** After you knock a target prone with the pistol-whip deed while using Stock-Striker Style, you can fire one barrel of a loaded firearm you're wielding at the target as a move action; if your firearm has the scatter weapon quality, you can instead make a scattering shot so long as you include the target in the area of effect. For this attack, you take no attack penalty for making a ranged attack against a prone target, and the critical multiplier of your weapon increases by 1 (to a maximum of &times;5)."
 		],
 		"short_description": "Execute a creature you knock to the ground with the pistol-whip deed",
@@ -68796,7 +68796,7 @@
 			"**Source**  [Ultimate Combat pg. 122](source/ultimate_combat)",
 			"",
 			"You and your allies pelt your enemies with a deadly barrage of missiles.  ",
-			"**Prerequisites:** [Point-Blank Shot](unknown/point-blank_shot), base attack bonus +6.  ",
+			"**Prerequisites:** [Point-Blank Shot](feat/point-blank_shot), base attack bonus +6.  ",
 			"**Benefit:** When an ally who also has this feat makes a ranged attack and hits an opponent within 30 feet of you, you can spend an immediate action to make a single ranged attack against that opponent. Your ranged weapon must be in hand, loaded, and ready to be fired or thrown for you to make the ranged attack.",
 			"",
 			"*Combat Trick* (from the [Combat Stamina](feat/combat_stamina) feat)",
@@ -69094,7 +69094,7 @@
 			"**Source**  [Technology Guide pg. 7](source/technology_guide)",
 			"",
 			"You utilize high-tech firearms to maximum effect.  ",
-			"**Prerequisites:** Dex 13, [Exotic Weapon Proficiency (firearms)](feat/exotic_weapon_proficiency), [Point-Blank Shot](unknown/point-blank_shot)  ",
+			"**Prerequisites:** Dex 13, [Exotic Weapon Proficiency (firearms)](feat/exotic_weapon_proficiency), [Point-Blank Shot](feat/point-blank_shot)  ",
 			"**Benefit:** When you attack with a technological firearm that consumes charges, the save DC of any effect caused by that firearm increases by 1. If your bonuses from Point-Blank Shot apply, it increases by 2 instead."
 		],
 		"short_description": "Gain a bonus on save DCs to resist the effects of technological firearms",
@@ -71131,7 +71131,7 @@
 			"",
 			"You have learned some words of the mystic language treants use to call trees to their defense.  ",
 			"**Prerequisites:** Cha 17, ability to cast [speak with plants](spell/speak_with_plants), character level 13th, [gathlain](unknown/gathlain).  ",
-			"**Benefit:** You can cast [liveoak](unknown/liveoak) once per day as a spell-like ability, but its duration is only 10 minutes."
+			"**Benefit:** You can cast [liveoak](spell/liveoak) once per day as a spell-like ability, but its duration is only 10 minutes."
 		],
 		"short_description": "Gain liveoak as a spell-like ability",
 		"display": "feat"
@@ -71217,7 +71217,7 @@
 			"**Source**  [Inner Sea Races pg. 209](source/inner_sea_races)",
 			"",
 			"Your distrust of magic has forced you to develop tactics to fight witches, fey, and other supernatural foes. No matter how clever they think they are, they can't hide.  ",
-			"**Prerequisites:** [Blind-Fight](unknown/blind-fight), [Greater Blind-Fight](unknown/greater_blind-fight), [Improved Blind-Fight](unknown/improved_blind-fight), Perception 15 ranks, human (Kellid).  ",
+			"**Prerequisites:** [Blind-Fight](feat/blind-fight), [Greater Blind-Fight](feat/greater_blind-fight), [Improved Blind-Fight](feat/improved_blind-fight), Perception 15 ranks, human (Kellid).  ",
 			"**Benefit:** Whenever both you and an ally who also has this feat are within 30 feet of an invisible foe of whose presence you're aware, you automatically pinpoint the foe's location. Whenever both you and an ally who has this feat are within 30 feet of a creature and you miss that creature because of its concealment, you can reroll your miss chance percentile roll."
 		],
 		"short_description": "Automatically pinpoint invisible foes and reroll misses due to concealment when you and an ally who has this feat are within 30 feet",
@@ -72057,7 +72057,7 @@
 			"**Source**  [Mythic Adventures pg. 76](source/mythic_adventures)",
 			"",
 			"You can pound down drinks with amazing verve.  ",
-			"**Prerequisites:** [Quick Draw](unknown/quick_draw).  ",
+			"**Prerequisites:** [Quick Draw](feat/quick_draw).  ",
 			"**Benefit:** You can draw two potions or other beverages-mundane or magical-from a pouch, bandolier, or similar holder (but not from a backpack) as a move action. As a standard action, you can drink two potions or other beverages. You must have two free hands to use this feat."
 		],
 		"mythic_only": true,
@@ -72131,7 +72131,7 @@
 			"**Source**  [Mythic Adventures pg. 76](source/mythic_adventures)",
 			"",
 			"Your graceful flow between attack and defense makes you difficult to hit.  ",
-			"**Prerequisites:** [Two-Weapon Defense](unknown/two-weapon_defense).  ",
+			"**Prerequisites:** [Two-Weapon Defense](feat/two-weapon_defense).  ",
 			"**Benefit:** When using Two-Weapon Defense, you apply the highest enhancement bonus from your two weapons to the shield bonus granted by that feat."
 		],
 		"short_description": "Gain +1 shield bonus when fighting with two weapons",
@@ -72155,7 +72155,7 @@
 			"**Source**  [Paths of the Righteous pg. 7](source/paths_of_the_righteous)",
 			"",
 			"You effortlessly wield tankards in your off hand, and can use them to drink from and as deadly weapons in a battle with equal ease.  ",
-			"**Prerequisites:** [Catch Off-Guard](unknown/catch_off-guard), [Two-Weapon Fighting](unknown/two-weapon_fighting).  ",
+			"**Prerequisites:** [Catch Off-Guard](feat/catch_off-guard), [Two-Weapon Fighting](unknown/two-weapon_fighting).  ",
 			"**Benefit:** When you wield a tankard as an improvised weapon in your off hand, it functions as a light mace, including for the purpose of determining the effects of feats like Weapon Focus. If you worship Cayden Cailean, your off-hand tankard functions as a divine focus and does not interfere with somatic spell components.",
 			"",
 			"When you fight with two weapons and have the sickened condition, you do not apply the penalties from being sickened to attack rolls or weapon damage rolls.  ",
@@ -73650,7 +73650,7 @@
 			"**Source**  [Mythic Adventures pg. 76](source/mythic_adventures)",
 			"",
 			"Your mount can make heroic leaps.  ",
-			"**Prerequisites:** [Mounted Combat](unknown/mounted_combat), [Ride-By Attack](unknown/ride-by_attack), Ride 5 ranks.  ",
+			"**Prerequisites:** [Mounted Combat](unknown/mounted_combat), [Ride-By Attack](feat/ride-by_attack), Ride 5 ranks.  ",
 			"**Benefit:** Your mount is always considered to have a running start when using Acrobatics to jump. You can expend one use of mythic power to grant your mount a +10 bonus on an Acrobatics check, or a +20 bonus if the check is made to jump.",
 			"",
 			"When making a mounted charge, you can guide your mount to leap over a foe between your starting position and the target of your charge. You make a Ride check or your mount makes an Acrobatics check (whichever is lower) during the charge, using the rules for the leap task under the Ride skill. If the height you clear with that check exceeds the creature's height, you jump over it and continue your charge on the opposite side. This movement provokes attacks of opportunity. Alternatively, you can vault over your target while making a Ride-By Attack, allowing you to move over or through its space and continue moving on the opposite side of it. If your jump exceeds the target's height, you gain a +1 bonus on the attack roll for higher ground, and if any of your allies threatens the target, you treat the target as flanked for purposes of your Ride-By Attack."
@@ -74118,7 +74118,7 @@
 			"",
 			"You can travel between magic plants and plants with which you have an affinity.  ",
 			"**Prerequisites:** Con 13, character level 7th, plant type.  ",
-			"**Benefit:** Once per day, you can step into an adjacent plant with which you share affinity, then exit from a plant of the same kind. This functions as [tree stride](spell/tree_stride) with the following changes: the duration is 1 round; the transport range is 200 feet per character level; transporting yourself is a standard action; and a [ghoran](unknown/ghoran) using this ability can pass through any living tree, while a [vine leshy](monster/vine_leshy) can pass through any living vine. You can also enter any magically created or enhanced plants, such as those produced by [wall of thorns](spell/wall_of_thorns) or plants affected by [entangle](unknown/entangle), then exit from either another similar plant or a plant with which you have an affinity.  ",
+			"**Benefit:** Once per day, you can step into an adjacent plant with which you share affinity, then exit from a plant of the same kind. This functions as [tree stride](spell/tree_stride) with the following changes: the duration is 1 round; the transport range is 200 feet per character level; transporting yourself is a standard action; and a [ghoran](unknown/ghoran) using this ability can pass through any living tree, while a [vine leshy](monster/vine_leshy) can pass through any living vine. You can also enter any magically created or enhanced plants, such as those produced by [wall of thorns](spell/wall_of_thorns) or plants affected by [entangle](spell/entangle), then exit from either another similar plant or a plant with which you have an affinity.  ",
 			"**Special:** The GM determines plant affinity for non-ghoran and non-vine leshy plant creatures."
 		],
 		"short_description": "Gain a limited form of tree stride as a spell-like ability",
@@ -74759,7 +74759,7 @@
 			"**Source**  [Ranged Tactics Toolbox pg. 10](source/ranged_tactics_toolbox)",
 			"",
 			"You have trained to work in ranks of archers to rain arrows down upon your foes.  ",
-			"**Prerequisites:** [Point-Blank Shot](unknown/point-blank_shot).  ",
+			"**Prerequisites:** [Point-Blank Shot](feat/point-blank_shot).  ",
 			"**Benefit:** You gain a +1 bonus on ranged attack rolls for each ally with this feat who made a ranged attack since the end of your last turn against a target within 15 feet of your target, to a maximum of +4. These allies don't provide cover against your attacks."
 		],
 		"short_description": "+1 for each ally attacking the same target at range",
@@ -76209,7 +76209,7 @@
 			"**Source**  [Ultimate Wilderness pg. 120](source/ultimate_wilderness)",
 			"",
 			"Your wild-hearted drive and honed physique allow you to move with great swiftness.  ",
-			"**Prerequisites:** Con 13, [Wilding.](unknown/wilding)  ",
+			"**Prerequisites:** Con 13, [Wilding.](feat/wilding)  ",
 			"**Benefit:** Your base speed increases by 10 feet. This does not stack with the fast movement class feature or similar effects, unless that class feature or effect provides an enhancement bonus."
 		],
 		"short_description": "Base speed increases by 10 feet",

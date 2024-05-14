@@ -337,11 +337,11 @@
 			"**Aura** mild abjuration; **CL** 5th  ",
 			"**Slot** none; **Price** 250 gp ; **Weight** -",
 			"",
-			"This +1 firearm bullet deals no damage but instead dispels one magical effect on the target, as [dispel magic](unknown/dispel_magic) cast by a 5th-level wizard. If the target has multiple magical effects active, the lowest-level effect is targeted.",
+			"This +1 firearm bullet deals no damage but instead dispels one magical effect on the target, as [dispel magic](spell/dispel_magic) cast by a 5th-level wizard. If the target has multiple magical effects active, the lowest-level effect is targeted.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](unknown/craft_magic_arms_and_armor), [dispel magic](unknown/dispel_magic); **Price** 125 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [dispel magic](spell/dispel_magic); **Price** 125 gp"
 		],
 		"display": "magic/weapon"
 	},
@@ -1042,7 +1042,7 @@
 			"",
 			"This Large masterwork repeating heavy crossbow is powered by a system of clockwork gears and torsion springs. It functions like its normal counterpart above water, but it can also be used underwater, where it has a range increment of 50 feet. Pulling a lever on the crossbow as a move action extends and retracts the weapon's stock and opens and collapses its limbs for easy stowage, making it small enough for a Medium character to carry in a backpack. The crossbow can be enchanted with weapon abilities like any normal masterwork crossbow.",
 			"",
-			"When mounted on the pincers of an [apparatus of the crab](unknown/apparatus_of_the_crab) or another similar device (which takes a full-round action), a character operating the vehicle can aim and shoot the crossbow up to twice per round (attack bonus +12) by pulling the lever that normally snaps the pincers. While using the crossbow in this way, a character without [Exotic Weapon Proficiency (repeating heavy crossbow)](feat/exotic_weapon_proficiency) doesn't take a penalty for nonproficiency. While the crossbow is thus mounted, the apparatus can't make attacks with the pincers. If a character operates the lever that extends and retracts the pincers and feelers while the crossbow is mounted, the apparatus ejects the crossbow instead, enabling the vehicle to make pincer attacks again."
+			"When mounted on the pincers of an [apparatus of the crab](magic/wondrous/apparatus_of_the_crab) or another similar device (which takes a full-round action), a character operating the vehicle can aim and shoot the crossbow up to twice per round (attack bonus +12) by pulling the lever that normally snaps the pincers. While using the crossbow in this way, a character without [Exotic Weapon Proficiency (repeating heavy crossbow)](feat/exotic_weapon_proficiency) doesn't take a penalty for nonproficiency. While the crossbow is thus mounted, the apparatus can't make attacks with the pincers. If a character operates the lever that extends and retracts the pincers and feelers while the crossbow is mounted, the apparatus ejects the crossbow instead, enabling the vehicle to make pincer attacks again."
 		],
 		"display": "magic/weapon"
 	},
@@ -2513,11 +2513,11 @@
 			"",
 			"This brilliant mithral ballista bolt radiates a blinding sheen. Its fletching is made of white and gold feathers.",
 			"",
-			"This +1 light ballista bolt functions as a [greater undead slaying arrow](unknown/greater_undead_slaying_arrow), except its enchantment is so potent that it deals 50 points of damage even if the saving throw is successful. If the wielder utters the name of his target as the bolt is fired, he gains the benefits of [true strike](unknown/true_strike) on the attack roll.",
+			"This +1 light ballista bolt functions as a [greater undead slaying arrow](unknown/greater_undead_slaying_arrow), except its enchantment is so potent that it deals 50 points of damage even if the saving throw is successful. If the wielder utters the name of his target as the bolt is fired, he gains the benefits of [true strike](spell/true_strike) on the attack roll.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](unknown/craft_magic_arms_and_armor), [true strike](unknown/true_strike), [undeath to death](unknown/undeath_to_death); **Price** 4,016 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [true strike](spell/true_strike), [undeath to death](spell/undeath_to_death); **Price** 4,016 gp"
 		],
 		"display": "magic/weapon"
 	},
@@ -5664,7 +5664,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](unknown/craft_magic_arms_and_armor), [enervation](unknown/enervation); **Price** 9,918 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [enervation](spell/enervation); **Price** 9,918 gp"
 		],
 		"display": "magic/weapon"
 	},
@@ -6139,13 +6139,13 @@
 			"**Aura** faint evocation and necromancy; **CL** 5th  ",
 			"**Slot** none; **Price** 22,105 gp; **Weight** 16 lbs.",
 			"",
-			"This +2 [ominous](unknown/ominous) harpoon is carved from a bleached whale bone and bound with the spirit of an ancient beast that rumbles with a low, mournful call each time the barbed tip strikes. Holding the weapon fills the wielder with the nerve to face even the most imposing foes, granting her a +2 morale bonus on saving throws against the [frightful presence](unknown/frightful_presence) universal monster ability. She does not take the usual -4 penalty to use the Intimidate skill on a target larger than her as long as she carries the leviathan's terror on her person.",
+			"This +2 [ominous](magic/enhancement/ominous) harpoon is carved from a bleached whale bone and bound with the spirit of an ancient beast that rumbles with a low, mournful call each time the barbed tip strikes. Holding the weapon fills the wielder with the nerve to face even the most imposing foes, granting her a +2 morale bonus on saving throws against the [frightful presence](umr/frightful_presence) universal monster ability. She does not take the usual -4 penalty to use the Intimidate skill on a target larger than her as long as she carries the leviathan's terror on her person.",
 			"",
 			"Three times per day, the wielder of a leviathan's terror can call on the spirit in the weapon to enlarge her musculature, drain the color from her skin, and turn her exhalations to rolling fog for a 1-minute period. During this time, once as a standard action, she can attempt an Intimidate check to demoralize all enemies that are at least one size category larger than her within a 30-foot radius. During this period, the wielder also gains a +1 size bonus on combat maneuver checks and to CMD and is treated as one size category larger for the purposes of determining the effects of attacks and abilities that limit their use on larger creatures (such as tripping creatures of a larger size category or for determining what creatures can be targeted by the grab ability), although her actual size category does not change.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](unknown/craft_magic_arms_and_armor), [enlarge person](unknown/enlarge_person), [scare](unknown/scare); **Price** 11,705 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [enlarge person](spell/enlarge_person), [scare](spell/scare); **Price** 11,705 gp"
 		],
 		"display": "magic/weapon"
 	},
@@ -6790,11 +6790,11 @@
 			"",
 			"An artful rapier with a lotus petal guard, this magnificent weapon dedicated to Arazni's former incarnation is useful to warriors and artists alike.",
 			"",
-			"The tip of this narrow +3 rapier can be used as a mundane writing instrument, producing any color of ink the wielder desires. Once per day as a free action when the wielder confirms a critical hit against a creature with the Red Crusader's quill, she can inscribe an [arcane mark](unknown/arcane_mark) on the creature. Once per month, the wielder can instead inscribe a [mark of justice](unknown/mark_of_justice); this mark ends immediately if the wielder inscribes another [mark of justice](unknown/mark_of_justice) with the Red Crusader's quill.",
+			"The tip of this narrow +3 rapier can be used as a mundane writing instrument, producing any color of ink the wielder desires. Once per day as a free action when the wielder confirms a critical hit against a creature with the Red Crusader's quill, she can inscribe an [arcane mark](spell/arcane_mark) on the creature. Once per month, the wielder can instead inscribe a [mark of justice](spell/mark_of_justice); this mark ends immediately if the wielder inscribes another [mark of justice](spell/mark_of_justice) with the Red Crusader's quill.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](unknown/craft_magic_arms_and_armor), [arcane mark](unknown/arcane_mark), [mark of justice](unknown/mark_of_justice), creator must worship [Arazni](unknown/arazni); **Price** 12,820 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [arcane mark](spell/arcane_mark), [mark of justice](spell/mark_of_justice), creator must worship [Arazni](unknown/arazni); **Price** 12,820 gp"
 		],
 		"display": "magic/weapon"
 	},
@@ -7387,13 +7387,13 @@
 			"**Aura** strong transmutation; **CL** 15th  ",
 			"**Slot** none; **Price** 30,320 gp; **Weight** 10 lbs.",
 			"",
-			"The oni of Chu Ye grant these +3 tetsubos to loyal human servants, who use them to enforce the oni's will throughout the nation in spite of the Steel Dictate limiting their involvement. The wielder of a wandering punishment can, as a standard action, assume the appearance of an oni of her size as though under the effects of [alter self](unknown/alter_self). This transformation does not affect her ability scores and lasts as long as the weapon is held in one or both hands. Once per day, the wielder can also grow in stature as per [enlarge person](unknown/enlarge_person), taking on the form of a larger oni in the process. This growth lasts 10 minutes or until the wielder drops the wandering punishment.",
+			"The oni of Chu Ye grant these +3 tetsubos to loyal human servants, who use them to enforce the oni's will throughout the nation in spite of the Steel Dictate limiting their involvement. The wielder of a wandering punishment can, as a standard action, assume the appearance of an oni of her size as though under the effects of [alter self](spell/alter_self). This transformation does not affect her ability scores and lasts as long as the weapon is held in one or both hands. Once per day, the wielder can also grow in stature as per [enlarge person](spell/enlarge_person), taking on the form of a larger oni in the process. This growth lasts 10 minutes or until the wielder drops the wandering punishment.",
 			"",
 			"Once per day while enlarged, the wielder can deliver an awesome blow. As a standard action, the wielder can attempt a free bull rush combat maneuver check as part of a standard attack with a wandering punishment. She can't move with her target if this combat maneuver succeeds.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](unknown/craft_magic_arms_and_armor), [giant form I](unknown/giant_form_1); **Price** 15,160 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [giant form I](spell/giant_form_1); **Price** 15,160 gp"
 		],
 		"display": "magic/weapon"
 	},
@@ -7477,11 +7477,11 @@
 			"**Aura** strong evocation; **CL** 12th  ",
 			"**Slot** none; **Price** 32,310 gp; **Weight** 2 lbs.",
 			"",
-			"An unnaturally cold, razor-thin blade of magically-hardened ice juts from the pommel of this +1 [frost](unknown/frost) [keen](unknown/keen) short sword. On a confirmed critical hit, an ice shard breaks off into the wound and inflicts numbing cold. For the next 5 rounds, the victim takes 2 points of cold damage and is staggered for that round if he takes this damage. This is a bleed effect. The shard can be removed as a standard action with a successful DC 15 Heal check or with the application of any magical healing, and is destroyed instantly if the victim takes at least 5 points of fire damage from any attack. The shard lasts for only 1 round when inflicted on a creature with the fire subtype. A blade of the ice stalker can implant an ice shard once per minute.",
+			"An unnaturally cold, razor-thin blade of magically-hardened ice juts from the pommel of this +1 [frost](unknown/frost) [keen](magic/enhancement/keen) short sword. On a confirmed critical hit, an ice shard breaks off into the wound and inflicts numbing cold. For the next 5 rounds, the victim takes 2 points of cold damage and is staggered for that round if he takes this damage. This is a bleed effect. The shard can be removed as a standard action with a successful DC 15 Heal check or with the application of any magical healing, and is destroyed instantly if the victim takes at least 5 points of fire damage from any attack. The shard lasts for only 1 round when inflicted on a creature with the fire subtype. A blade of the ice stalker can implant an ice shard once per minute.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](unknown/craft_magic_arms_and_armor), [bleed](unknown/bleed), [chill metal](unknown/chill_metal), [keen edge](unknown/keen_edge); **Price** 16,310 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [bleed](unknown/bleed), [chill metal](spell/chill_metal), [keen edge](spell/keen_edge); **Price** 16,310 gp"
 		],
 		"display": "magic/weapon"
 	},
@@ -7748,13 +7748,13 @@
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** none; **Price** 34,335 gp; **Weight** 6 lbs.",
 			"",
-			"This +2 [huntsman](unknown/huntsman) bastard sword has a grip bound in leather and trimmed with fur. Once per round when the wielder strikes a target with the sword, he can allow an ally of his choice to perform a trip combat maneuver against the target as an immediate action, provided the ally is adjacent to the target struck. This trip attempt doesn't provoke attacks of opportunity. If the attempt fails, the wielder's ally is not tripped in return.",
+			"This +2 [huntsman](magic/enhancement/huntsman) bastard sword has a grip bound in leather and trimmed with fur. Once per round when the wielder strikes a target with the sword, he can allow an ally of his choice to perform a trip combat maneuver against the target as an immediate action, provided the ally is adjacent to the target struck. This trip attempt doesn't provoke attacks of opportunity. If the attempt fails, the wielder's ally is not tripped in return.",
 			"",
 			"As a standard action on command three times per day, the wielder can unleash a spine-chilling howl. When he does so, he attempts a single Intimidate check to demoralize all opponents within 30 feet that can hear the howl. Allies within 30 feet can join the howl as an immediate action to aid the wielder's Intimidate check, granting a +2 bonus to the wielder's check for each ally who succeeds at a DC 10 Intimidate check. Allies who howl can also immediately take a 5-foot step. This movement does not count against their ability to move or take a 5-foot step earlier or later in the round.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](unknown/craft_magic_arms_and_armor), [aspect of the wolf](unknown/aspect_of_the_wolf), [detect animals or plants](unknown/detect_animals_or_plants); **Price** 17,335 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [aspect of the wolf](spell/aspect_of_the_wolf), [detect animals or plants](spell/detect_animals_or_plants); **Price** 17,335 gp"
 		],
 		"display": "magic/weapon"
 	},
@@ -8329,9 +8329,9 @@
 			"**Aura** moderate conjuration; **CL** 7th  ",
 			"**Slot** none; **Price** 40,372 gp; **Weight** 2 lbs.",
 			"",
-			"This +1 mithral [bladed scarf](unknown/bladed_scarf) is unusually long and ornate, patched and expanded over several generations into a garish collection of colors and stitching in the shapes of Varisian names and stylized map icons. Because of its extra length and magically enhanced balance and accuracy, when the wielder makes a full attack with Trailwalker, he can strike foes with it as if the item had the reach quality and still attack opponents adjacent to the wielder. This doesn't expand the wielder's reach for any attacks beyond those made as part of the full attack (such as attacks of opportunity).",
+			"This +1 mithral [bladed scarf](equipment/weapon/bladed_scarf) is unusually long and ornate, patched and expanded over several generations into a garish collection of colors and stitching in the shapes of Varisian names and stylized map icons. Because of its extra length and magically enhanced balance and accuracy, when the wielder makes a full attack with Trailwalker, he can strike foes with it as if the item had the reach quality and still attack opponents adjacent to the wielder. This doesn't expand the wielder's reach for any attacks beyond those made as part of the full attack (such as attacks of opportunity).",
 			"",
-			"Once per day as a standard action, Trailwalker's wielder can whirl the scarf through the air and teleport as though using [dimension door](unknown/dimension_door). The wielder can't transport other creatures with this ability. If this ability is used to take the wielder from one spot on a road or trail to another spot on that or a connected road or trail (even if the connection is lengthy or indirect), this is a move action instead.",
+			"Once per day as a standard action, Trailwalker's wielder can whirl the scarf through the air and teleport as though using [dimension door](spell/dimension_door). The wielder can't transport other creatures with this ability. If this ability is used to take the wielder from one spot on a road or trail to another spot on that or a connected road or trail (even if the connection is lengthy or indirect), this is a move action instead.",
 			"",
 			"### Construction",
 			"",
@@ -8927,7 +8927,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](unknown/craft_magic_arms_and_armor), [dimension door](unknown/dimension_door); **Price** 27,551 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [dimension door](spell/dimension_door); **Price** 27,551 gp"
 		],
 		"display": "magic/weapon"
 	},
@@ -9475,15 +9475,15 @@
 			"",
 			"This elegant, short-hafted spear has a razor-sharp head carved from a single piece of ivory. A twisting ring of ivory and jade tentacles hovers and slowly rotates just beneath the spearhead. Along the walnut haft sparkle tiny chips of peridot, each the size of a pinhead. Seaspike is a [+3 aberration bane shortspear](unknown/+3_aberration_bane_shortspear) with three special properties.",
 			"",
-			"First, the wielder of Seaspike can cast [fire shield](unknown/fire_shield) (chill) on herself three times per day as a 7th-level sorcerer. The chill shield takes the appearance of luminous blue and green flames that swirl around the wielder as if underwater.",
+			"First, the wielder of Seaspike can cast [fire shield](spell/fire_shield) (chill) on herself three times per day as a 7th-level sorcerer. The chill shield takes the appearance of luminous blue and green flames that swirl around the wielder as if underwater.",
 			"",
 			"Second, Seaspike grants its wielder a swim speed of 30 feet when held. If the wielder already has a swim speed, Seaspike increases the swim speed by 10 feet.",
 			"",
-			"Third, Seaspike is treated as a light weapon for purposes of the [Weapon Finesse](unknown/weapon_finesse) feat and other similar abilities.",
+			"Third, Seaspike is treated as a light weapon for purposes of the [Weapon Finesse](feat/weapon_finesse) feat and other similar abilities.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Weapon, [fire shield](unknown/fire_shield), [magic weapon](unknown/magic_weapon), creator must have the [Weapon Finesse](unknown/weapon_finesse) feat, creator must have 5 ranks in Swim; **Price** 35,169 gp"
+			"**Requirements** Craft Weapon, [fire shield](spell/fire_shield), [magic weapon](spell/magic_weapon), creator must have the [Weapon Finesse](feat/weapon_finesse) feat, creator must have 5 ranks in Swim; **Price** 35,169 gp"
 		],
 		"display": "magic/weapon"
 	},
@@ -9739,7 +9739,7 @@
 			"**Aura** strong abjuration and conjuration; **CL** 15th  ",
 			"**Slot** none; **Price** 82,000 gp; **Weight** 8 lbs.",
 			"",
-			"This +3 [aberration-bane](unknown/aberration-bane) [conserving](unknown/conserving) heavy crossbow is crafted with a darkwood body and embedded with brass, gold, and silver inlays. A creature struck by a bolt from this crossbow is affected by [calm emotions](unknown/calm_emotions) (Will DC 16). On a confirmed critical hit, the save DC for this effect increases by 4.",
+			"This +3 [aberration-bane](unknown/aberration-bane) [conserving](magic/enhancement/conserving) heavy crossbow is crafted with a darkwood body and embedded with brass, gold, and silver inlays. A creature struck by a bolt from this crossbow is affected by [calm emotions](spell/calm_emotions) (Will DC 16). On a confirmed critical hit, the save DC for this effect increases by 4.",
 			"",
 			"Up to three times per day as a swift action, the wielder can modify a loaded bolt into a brain-boring shot. These shots are not replenished by the conserving property of the weapon and are destroyed on impact or miss.",
 			"",
@@ -9747,7 +9747,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Magic Arms and Armor](unknown/craft_magic_arms_and_armor), [break enchantment](unknown/break_enchantment), [calm emotions](unknown/calm_emotions), [mind fog](unknown/mind_fog); **Price** 41,175 gp"
+			"**Requirements** [Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [break enchantment](spell/break_enchantment), [calm emotions](spell/calm_emotions), [mind fog](spell/mind_fog); **Price** 41,175 gp"
 		],
 		"display": "magic/weapon"
 	},
@@ -10371,20 +10371,20 @@
 			"**Slot** none; **CL** 6th; **Weight** 1 lb.  ",
 			"**Aura** moderate transmutation",
 			"",
-			"The hilt of this +1 adamantine scimitar has a gritty texture, as if sprinkled with invisible grains of sand. A favorite weapon among the Templars of the Five Winds during their struggle against the genie binder Kinroth, in the hands of a mighty warrior this blade can cut through spell and shackle alike. After the Templars defeated the efreeti Jhavhul in 4300 ar, their [djinni](unknown/djinni) leader, Nefeshti, passed the blade to a group of worthy adventurers, though what happened to the blade afterward has been lost to history.",
+			"The hilt of this +1 adamantine scimitar has a gritty texture, as if sprinkled with invisible grains of sand. A favorite weapon among the Templars of the Five Winds during their struggle against the genie binder Kinroth, in the hands of a mighty warrior this blade can cut through spell and shackle alike. After the Templars defeated the efreeti Jhavhul in 4300 ar, their [djinni](monster/genie,_djinni) leader, Nefeshti, passed the blade to a group of worthy adventurers, though what happened to the blade afterward has been lost to history.",
 			"",
-			"When the wielder of the scimitar of deliverance hits a target with a melee attack, as a free action she can attempt to identify any abjuration spells currently effecting the target as if she had studied it for 3 rounds using [detect magic](unknown/detect_magic).",
+			"When the wielder of the scimitar of deliverance hits a target with a melee attack, as a free action she can attempt to identify any abjuration spells currently effecting the target as if she had studied it for 3 rounds using [detect magic](spell/detect_magic).",
 			"",
-			"7th Level: The scimitar of deliverance acts as a +2 [keen](unknown/keen) adamantine scimitar.",
+			"7th Level: The scimitar of deliverance acts as a +2 [keen](magic/enhancement/keen) adamantine scimitar.",
 			"",
 			"11th Level: As a full-round action, the wielder can flourish the scimitar of deliverance. All creatures within 60 feet who see the display can immediately attempt a new saving throw with a +4 morale bonus against any effect they are under that causes the confused, frightened, panicked, paralyzed, shaken, or staggered condition.",
 			"",
 			"15th Level: The scimitar of deliverance acts as a +4 keen adamantine scimitar.",
 			"",
-			"19th Level: Once per round when the wielder confirms a critical hit against a target with the scimitar of deliverance, the foe is targeted by a [greater dispel magic](unknown/greater_dispel_magic) spell, with a caster level equal to the wielder's character level.",
+			"19th Level: Once per round when the wielder confirms a critical hit against a target with the scimitar of deliverance, the foe is targeted by a [greater dispel magic](spell/greater_dispel_magic) spell, with a caster level equal to the wielder's character level.",
 			"",
 			"**Goal:** The bearer must free at least 50 creatures from captivity, slavery, or unlawful imprisonment.  ",
-			"**Reward:** As an immediate action a number of times per day equal to his character level, the wielder can use [liberating command](unknown/liberating_command) as a spell-like ability."
+			"**Reward:** As an immediate action a number of times per day equal to his character level, the wielder can use [liberating command](spell/liberating_command) as a spell-like ability."
 		],
 		"display": "magic/weapon"
 	},
@@ -10433,7 +10433,7 @@
 			"**Aura** moderate necromancy; **CL** 8th  ",
 			"**Slot** none; **Price** 23,335 gp; **Weight** 6 lbs.",
 			"",
-			"Ukwar is a +1 [conductive](magic/weapon/conductive) battleaxe infused with the angry spirit of a Deadwatcher orc leader named Ukwar. After perishing in Scarwall and rising soon thereafter as a [fext](unknown/fext), Ukwar spent decades longing to be free of her curse. When she is permanently slain, her spirit enters her axe. As long as the PCs continue to adventure in Scarwall, she doesn't attempt to exert influence over her wielder-she wants to see each and every one of Scarwall's denizens suffer. If her wielder spends more than 1 day outside of Scarwall (and the castle remains cursed), she attempts to take control and force her wielder to return and finish this job.",
+			"Ukwar is a +1 [conductive](magic/weapon/conductive) battleaxe infused with the angry spirit of a Deadwatcher orc leader named Ukwar. After perishing in Scarwall and rising soon thereafter as a [fext](monster/fext), Ukwar spent decades longing to be free of her curse. When she is permanently slain, her spirit enters her axe. As long as the PCs continue to adventure in Scarwall, she doesn't attempt to exert influence over her wielder-she wants to see each and every one of Scarwall's denizens suffer. If her wielder spends more than 1 day outside of Scarwall (and the castle remains cursed), she attempts to take control and force her wielder to return and finish this job.",
 			"",
 			"As long as Ukwar remains intelligent, the blade grants weapon proficiency with the battleaxe to her wielder. If the wielder is already proficient with battleaxes, he instead gains a +1 bonus on all attack rolls and damage rolls made with Ukwar. She imposes negative levels on nonchaotic evil wielders only when they are outside of Scarwall. She can cast [rage](spell/rage) once per day, and does so on her wielder the first time each day he attacks one of the spirit anchors or the chained spirit-she can be convinced to cast [rage](spell/rage) on her wielder at another time with a successful DC 20 Diplomacy or Intimidate check (a standard action).",
 			"",
@@ -10443,7 +10443,7 @@
 			"",
 			"### Construction",
 			"",
-			"[Craft Magic Arms and Armor](unknown/craft_magic_arms_and_armor), [rage](unknown/rage), [spectral hand](unknown/spectral_hand), [summon monster I](unknown/summon_monster_1); **Price** 14,335 gp",
+			"[Craft Magic Arms and Armor](feat/craft_magic_arms_and_armor), [rage](spell/rage), [spectral hand](spell/spectral_hand), [summon monster I](spell/summon_monster_1); **Price** 14,335 gp",
 			"",
 			"### Statistics",
 			"",

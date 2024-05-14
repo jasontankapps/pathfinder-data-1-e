@@ -103,7 +103,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"ahriman,_lord_of_all_divs": {
+	"ahriman": {
 		"name": "Ahriman, Lord of All Divs",
 		"file": "monsterdisplay5553.html",
 		"sources": [
@@ -215,7 +215,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"akilep,_lady_of_stone": {
+	"akilep": {
 		"name": "Akilep, Lady of Stone",
 		"file": "monsterdisplay41d0.html",
 		"sources": [ "Mythical Monsters Revisited" ],
@@ -554,6 +554,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"baalzebul": { "copyof": "archdevil,_baalzebul" },
 	"archdevil,_barbatos": {
 		"name": "Archdevil, Barbatos",
 		"file": "monsterdisplayec3a.html",
@@ -654,6 +655,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"barbatos": { "copyof": "archdevil,_barbatos" },
 	"archdevil,_belial": {
 		"name": "Archdevil, Belial",
 		"file": "monsterdisplay8aaf.html",
@@ -761,6 +763,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"belial": { "copyof": "archdevil,_belial" },
 	"archdevil,_dispater": {
 		"name": "Archdevil, Dispater",
 		"file": "monsterdisplayb286.html",
@@ -861,6 +864,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"dispater": { "copyof": "archdevil,_dispater" },
 	"archdevil,_geryon": {
 		"name": "Archdevil, Geryon",
 		"file": "monsterdisplaycf54.html",
@@ -967,6 +971,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"geryon": { "copyof": "archdevil,_geryon" },
 	"archdevil,_mammon": {
 		"name": "Archdevil, Mammon",
 		"file": "monsterdisplay57a1.html",
@@ -1066,6 +1071,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"mammon": { "copyof": "archdevil,_mammon" },
 	"archdevil,_mephistopheles": {
 		"name": "Archdevil, Mephistopheles",
 		"file": "monsterdisplayce09.html",
@@ -1165,6 +1171,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"mephistopheles": { "copyof": "archdevil,_mephistopheles" },
 	"archdevil,_moloch": {
 		"name": "Archdevil, Moloch",
 		"file": "monsterdisplay743d.html",
@@ -1270,7 +1277,8 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"aridus,_the_desert's_howl": {
+	"moloch": { "copyof": "archdevil,_moloch" },
+	"aridus": {
 		"name": "Aridus, the Desert's Howl",
 		"file": "monsterdisplay893f.html",
 		"sources": [ "Mythical Monsters Revisited" ],
@@ -1345,7 +1353,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"ayandamahla,_the_crimson_lotus": {
+	"ayandamahla": {
 		"name": "Ayandamahla, the Crimson Lotus",
 		"file": "monsterdisplaye9bf.html",
 		"sources": [ "Demons Revisited" ],
@@ -1603,6 +1611,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"black_rider": { "copyof": "baba_yaga's_rider,_black_rider" },
 	"baba_yaga's_rider,_red_rider": {
 		"name": "Baba Yaga's Rider, Red Rider",
 		"file": "monsterdisplayc039.html",
@@ -1684,6 +1693,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"red_rider": { "copyof": "baba_yaga's_rider,_red_rider" },
 	"baba_yaga's_rider,_white_rider": {
 		"name": "Baba Yaga's Rider, White Rider",
 		"file": "monsterdisplay37a1.html",
@@ -1767,7 +1777,8 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"balravnus,_lord_of_the_deep_pools": {
+	"white_rider": { "copyof": "baba_yaga's_rider,_white_rider" },
+	"balravnus": {
 		"name": "Balravnus, Lord of the Deep Pools",
 		"file": "monsterdisplay298e.html",
 		"sources": [ "Demons Revisited" ],
@@ -1928,12 +1939,8 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"bee_man_of_bellis": {
-		"copyof": "bee-man_of_bellis",
-		"is_unique": true,
-		"display": "monster"
-	},
-	"bezilak,_the_silken_fang": {
+	"bee_man_of_bellis": { "copyof": "bee-man_of_bellis" },
+	"bezilak": {
 		"name": "Bezilak, the Silken Fang",
 		"file": "monsterdisplay9449.html",
 		"sources": [ "Demons Revisited" ],
@@ -2374,7 +2381,7 @@
 			"- Resistance to cold 30, electricity 30, and fire 30.",
 			"- Telepathy 300 feet.",
 			"- The harbinger's natural weapons, as well as any weapon it wields, are treated as evil for the purpose of overcoming damage reduction.",
-			"- The harbinger can grant spells to its worshipers. Granting spells does not require any specific action on its behalf. Braismois grants access to the domains of [Evil](unknown/evil), [Knowledge](unknown/knowledge), [Rune](unknown/rune) and [Trickery](unknown/trickery). His favored weapon is the light mace.",
+			"- The harbinger can grant spells to its worshipers. Granting spells does not require any specific action on its behalf. Braismois grants access to the domains of [Evil](domain/evil), [Knowledge](domain/knowledge), [Rune](domain/rune) and [Trickery](domain/trickery). His favored weapon is the light mace.",
 			"",
 			"**Deft of Hand (Ex)** Braismois wields his quill as both an instrument of ensnarement and a deadly weapon. He always adds his Dexterity bonus to damage rolls with his toxic quill. In addition, Braismois can add his Dexterity bonus to any skill check related to writing. As a swift action, Braismois can attempt a Profession (barrister) check to write a full contract for any situation. The result of this check is the DC for creatures attempting a Linguistics or Profession (barrister) check to identify loopholes or flaws within the contract in Braismois's favor.",
 			"",
@@ -2388,13 +2395,13 @@
 			"",
 			"#### Description",
 			"",
-			"Braismois, the Silent Quill, sometimes referred to as the Toxic Quill by those misinterpreting his weapon as his title, is the daemonic harbinger of broken deals, fine print, and unfair bargains. A being of immense power, Braismois currently serves [Trelmarixian](unknown/trelmarixian), the Horseman of Famine, though only to fulfill an ongoing contract with the horseman. Braismois appears as a frostbitten human with weasel-like features, bedecked in ink-smeared clothing. His followers are generally administrators, barristers, clerks, or those highly placed in judicial or political environments. Braismois preys on mortals unable to fully grasp his contracts, though he enjoys a challenge and seeks out haughty nobles or intellectuals who believe themselves immune to such treachery. He frequently appears to powerful and influential mortals to seed contracts and deals across the Material Plane.",
+			"Braismois, the Silent Quill, sometimes referred to as the Toxic Quill by those misinterpreting his weapon as his title, is the daemonic harbinger of broken deals, fine print, and unfair bargains. A being of immense power, Braismois currently serves [Trelmarixian](faith/trelmarixian), the Horseman of Famine, though only to fulfill an ongoing contract with the horseman. Braismois appears as a frostbitten human with weasel-like features, bedecked in ink-smeared clothing. His followers are generally administrators, barristers, clerks, or those highly placed in judicial or political environments. Braismois preys on mortals unable to fully grasp his contracts, though he enjoys a challenge and seeks out haughty nobles or intellectuals who believe themselves immune to such treachery. He frequently appears to powerful and influential mortals to seed contracts and deals across the Material Plane.",
 			"",
-			"The harbinger of broken deals rules from the Silent Nation, an expansive set of tunnels dug into the bottom of a glacier in Abaddon. Deep within the glacier, Braismois maintains a vast library of all the contacts and documentation on his various schemes throughout the cosmos, with each plane and world tended to by its own unique [bibliodaemon](unknown/bibliodaemon) caretaker. Braismois also keeps the true versions of many historical records that he and his agents have altered or replaced over the years as vainglorious trophies within his archival sanctum.",
+			"The harbinger of broken deals rules from the Silent Nation, an expansive set of tunnels dug into the bottom of a glacier in Abaddon. Deep within the glacier, Braismois maintains a vast library of all the contacts and documentation on his various schemes throughout the cosmos, with each plane and world tended to by its own unique [bibliodaemon](monster/bibliodaemon) caretaker. Braismois also keeps the true versions of many historical records that he and his agents have altered or replaced over the years as vainglorious trophies within his archival sanctum.",
 			"",
 			"Those who serve Braismois in life end up as hunted petitioners doomed to roam the mazelike tunnels of the Silent Nation's lowest depths. Petitioners struggle eternally to decipher detailed but purposely inaccurate directions carved into the walls; those who fail to recognize the directions as falsehoods wander forever, those who recognize them as lies are quickly consumed by warden daemons, and those who put up misleading directions of their own to lead others into harm are elevated to the ranks of lesser daemonhood.",
 			"",
-			"Over a century ago, Braismois turned his attention to the nation of Druma and its Kalistocracy. A member of the esteemed Petronax family had come to learn the truth of the Kalistocracy's promised afterlife and saw it as little more than delaying an inevitable judgment by [Pharasma](unknown/pharasma). This prophet betrayed the Kalistocracy and, using ancient Kellid rituals and profane tools uncovered in the Palakar Forest, communed with Braismois to share the discovery. Braismois fumed at the Kalistocracy's subversion of death, as any daemon would in their role as the wouldbe enders of all life. Having learned one of the greatest secrets on Golarion, Braismois has kept the information to himself, using the well-positioned Petronax family to weaken the Kalistocracy and pave the way for a daemonic incursion into the heart of the nation. It is through this culminating scheme that Braismois hopes to unearth the hidden tombs of Kalistrade's prophets and gorge on the untold number of souls removed from the cycle of death-an act that Braismois hopes will grant him enough power to challenge and supplant [Charon](unknown/charon) as the Horseman of Death.",
+			"Over a century ago, Braismois turned his attention to the nation of Druma and its Kalistocracy. A member of the esteemed Petronax family had come to learn the truth of the Kalistocracy's promised afterlife and saw it as little more than delaying an inevitable judgment by [Pharasma](faith/pharasma). This prophet betrayed the Kalistocracy and, using ancient Kellid rituals and profane tools uncovered in the Palakar Forest, communed with Braismois to share the discovery. Braismois fumed at the Kalistocracy's subversion of death, as any daemon would in their role as the wouldbe enders of all life. Having learned one of the greatest secrets on Golarion, Braismois has kept the information to himself, using the well-positioned Petronax family to weaken the Kalistocracy and pave the way for a daemonic incursion into the heart of the nation. It is through this culminating scheme that Braismois hopes to unearth the hidden tombs of Kalistrade's prophets and gorge on the untold number of souls removed from the cycle of death-an act that Braismois hopes will grant him enough power to challenge and supplant [Charon](faith/charon) as the Horseman of Death.",
 			"",
 			"**[Daemonic Harbinger](unknown/daemonic_harbinger)**",
 			"",
@@ -2404,6 +2411,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"braismois": { "copyof": "daemonic_harbinger,_braismois" },
 	"demon_lord,_baphomet": {
 		"name": "Demon Lord, Baphomet",
 		"file": "monsterdisplayc6d7.html",
@@ -2513,6 +2521,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"baphomet": { "copyof": "demon_lord,_baphomet" },
 	"demon_lord,_dagon": {
 		"name": "Demon Lord, Dagon",
 		"file": "monsterdisplaya05d.html",
@@ -2615,6 +2624,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"dagon": { "copyof": "demon_lord,_dagon" },
 	"demon_lord,_deskari": {
 		"name": "Demon Lord, Deskari",
 		"file": "monsterdisplayb7b9-2.html",
@@ -2725,6 +2735,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"deskari": { "copyof": "demon_lord,_deskari" },
 	"demon_lord,_kostchtchie": {
 		"name": "Demon Lord, Kostchtchie",
 		"file": "monsterdisplaya2ba.html",
@@ -2833,6 +2844,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"kostchtchie": { "copyof": "demon_lord,_kostchtchie" },
 	"demon_lord,_nocticula": {
 		"name": "Demon Lord, Nocticula",
 		"file": "monsterdisplay12da.html",
@@ -2942,6 +2954,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"nocticula": { "copyof": "demon_lord,_nocticula" },
 	"demon_lord,_pazuzu": {
 		"name": "Demon Lord, Pazuzu",
 		"file": "monsterdisplay273a.html",
@@ -3048,6 +3061,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"pazuzu": { "copyof": "demon_lord,_pazuzu" },
 	"demon_lord,_shax": {
 		"name": "Demon Lord, Shax",
 		"file": "monsterdisplay629b.html",
@@ -3158,6 +3172,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"shax": { "copyof": "demon_lord,_shax" },
 	"demon_lord,_sifkesh": {
 		"name": "Demon Lord, Sifkesh",
 		"file": "monsterdisplay5802.html",
@@ -3267,6 +3282,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"sifkesh": { "copyof": "demon_lord,_sifkesh" },
 	"demon_lord,_xoveron": {
 		"name": "Demon Lord, Xoveron",
 		"file": "monsterdisplay7517.html",
@@ -3367,6 +3383,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"xoveron": { "copyof": "demon_lord,_xoveron" },
 	"emperor_of_scales": {
 		"name": "Emperor of Scales",
 		"file": "monsterdisplaye1f0.html",
@@ -3566,6 +3583,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"arshea": { "copyof": "empyreal_lord,_arshea" },
 	"empyreal_lord,_ashava": {
 		"name": "Empyreal Lord, Ashava",
 		"file": "monsterdisplayb117.html",
@@ -3650,7 +3668,7 @@
 			"",
 			"**Lyrical Grace (Ex)** Ashava gains a sacred bonus to her Armor Class and on initiative checks equal to her Charisma modifier. She can ignore any effect that would reduce her speed or prevent her from taking a 5-foot step.",
 			"",
-			"**Moonlight Javelin (Su)** As a free action, Ashava can conjure a +5 [holy](unknown/holy) javelin created out of solid moonlight into her hand. This weapon deals force damage, has a range increment of 100 feet, and dazzles any target it strikes for 1 month or until Ashava chooses to end a target's dazzled condition as a free action. Ashava adds her Charisma modifier to damage rolls with her moonlight javelins. A moonlight javelin vanishes once it leaves Ashava's hand (or, if thrown, it vanishes after striking or missing its target).",
+			"**Moonlight Javelin (Su)** As a free action, Ashava can conjure a +5 [holy](magic/enhancement/holy) javelin created out of solid moonlight into her hand. This weapon deals force damage, has a range increment of 100 feet, and dazzles any target it strikes for 1 month or until Ashava chooses to end a target's dazzled condition as a free action. Ashava adds her Charisma modifier to damage rolls with her moonlight javelins. A moonlight javelin vanishes once it leaves Ashava's hand (or, if thrown, it vanishes after striking or missing its target).",
 			"",
 			"**Primal Aura (Su)** Ashava constantly shines with the light of the moon. No effect can reduce the light level in her primal aura below dim light, unless she allows it or unless the effect is created by a more powerful deity. Weapons wielded in Ashava's primal aura are treated as chaotic-aligned, good-aligned, and silver for the purpose of overcoming damage reduction.",
 			"",
@@ -3676,6 +3694,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"ashava": { "copyof": "empyreal_lord,_ashava" },
 	"empyreal_lord,_black_butterfly": {
 		"name": "Empyreal Lord, Black Butterfly",
 		"file": "monsterdisplaya56f.html",
@@ -3787,6 +3806,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"black_butterfly": { "copyof": "empyreal_lord,_black_butterfly" },
 	"empyreal_lord,_cernunnos": {
 		"name": "Empyreal Lord, Cernunnos",
 		"file": "monsterdisplay588b.html",
@@ -3912,6 +3932,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"cernunnos": { "copyof": "empyreal_lord,_cernunnos" },
 	"empyreal_lord,_korada": {
 		"name": "Empyreal Lord, Korada",
 		"file": "monsterdisplayd072.html",
@@ -4022,6 +4043,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"korada": { "copyof": "empyreal_lord,_korada" },
 	"empyreal_lord,_ragathiel": {
 		"name": "Empyreal Lord, Ragathiel",
 		"file": "monsterdisplay013c.html",
@@ -4132,6 +4154,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"ragathiel": { "copyof": "empyreal_lord,_ragathiel" },
 	"empyreal_lord,_vildeis": {
 		"name": "Empyreal Lord, Vildeis",
 		"file": "monsterdisplay0f0d.html",
@@ -4242,7 +4265,8 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"erotundee,_keeper_of_the_risen_light": {
+	"vildeis": { "copyof": "empyreal_lord,_vildeis" },
+	"erotundee": {
 		"name": "Erotundee, Keeper of the Risen Light",
 		"file": "monsterdisplay8593.html",
 		"sources": [ "Demons Revisited" ],
@@ -4471,7 +4495,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"galundari,_the_scourge_of_heaven": {
+	"galundari": {
 		"name": "Galundari, the Scourge of Heaven",
 		"file": "monsterdisplay0c68.html",
 		"sources": [ "Demons Revisited" ],
@@ -4544,7 +4568,7 @@
 			"",
 			"#### Description",
 			"",
-			"Few balor lords have achieved the notoriety and power of Galundari, even though it has been centuries since the balor lord was lost to the Nemesis Well and longer still since he was imprisoned in the artifact that now bears his name. Indeed, it was this notoriety that compelled Nex to seek the balor's aid, over 56 centuries ago, in the creation of the [Lens of Galundari](unknown/lens_of_galundari)-a magical lens akin to others that powered the wizard's demon ships, but that would be much more potent than its lesser copies. Nex lured Galundari into the lens with lies and false promises, and the balor has remained trapped within the lens ever since.",
+			"Few balor lords have achieved the notoriety and power of Galundari, even though it has been centuries since the balor lord was lost to the Nemesis Well and longer still since he was imprisoned in the artifact that now bears his name. Indeed, it was this notoriety that compelled Nex to seek the balor's aid, over 56 centuries ago, in the creation of the [Lens of Galundari](magic/artifact/lens_of_galundari)-a magical lens akin to others that powered the wizard's demon ships, but that would be much more potent than its lesser copies. Nex lured Galundari into the lens with lies and false promises, and the balor has remained trapped within the lens ever since.",
 			"",
 			"When Pathfinder Durvin Gest threw the Lens of Galundari into the Nemesis Well in 4332 ar, many believed that the time of the mighty balor lord had passed forever. Yet Galundari still lives, and even now the last few of his still-loyal minions toil in far corners of the Great Beyond and elsewhere in the universe, seeking the location of the far side of the Nemesis Well so that their master may be released. In his time, Galundari was even more powerful than the creature presented above, but over the centuries of imprisonment within the lens, he has lost all of his mythic power. What remains is still a formidable foe, and the Scourge of Heaven is one of the few of his kind to possess multiple unique balor lord powers. Galundari earned his appellation for his countless successful raids against the fortresses of Heaven itself. Some demonologists maintain that Nex was only able to deceive Galundari with the hidden aid of a vengeful solar, and that in trapping the Scourge of Heaven he pried strange and impossible favors from Heaven itself.",
 			"",
@@ -4624,6 +4648,122 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"great_old_one,_atlach-nacha": {
+		"name": "Great Old One, Atlach-Nacha",
+		"file": "monsterdisplay8226.html",
+		"sources": [
+			"Pathfinder #112: The Whisper Out of Time",
+			"Bestiary 4"
+		],
+		"cr": 28,
+		"alignment": "NE",
+		"size": "huge",
+		"creature_type": "aberration",
+		"creature_subtypes": [
+			"evil",
+			"Great Old One"
+		],
+		"str": 44,
+		"dex": 36,
+		"con": 44,
+		"int": 29,
+		"wis": 33,
+		"cha": 28,
+		"base_attack_bonus": 24,
+		"cmb": 43,
+		"cmd": 77,
+		"description": [
+			"## Great Old One, Atlach-Nacha",
+			"",
+			"*The size of a bull elephant, this red-and-black arachnid has a bloated body and spindly legs, made all the more horrifying by the all-too-human appearance of its baleful visage.*",
+			"",
+			"### Atlach-Nacha, CR 28",
+			"",
+			"**Source** [Pathfinder #112: The Whisper Out of Time pg. 84](source/pathfinder_#112_the_whisper_out_of_time)  ",
+			"**XP** 4,915,200  ",
+			"NE Huge aberration (evil, Great Old One)  ",
+			"**Init** +23; **Senses** darkvision 60 ft., see in darkness, true seeing; Perception +46  ",
+			"**Aura** unspeakable presence (300 ft., DC 35)",
+			"",
+			"#### Defense",
+			"",
+			"**AC** 46, touch 32, flat-footed 32 (+13 Dex, +1 dodge, +10 insight, +14 natural, -2 size)  ",
+			"**hp** 688 (32d8+544); fast healing 25  ",
+			"**Fort** +27, **Ref** +23, **Will** +29  ",
+			"**Defensive Abilities** freedom of movement, immortality, insanity (DC 35); **DR** 15/epic and lawful; **Immune** ability damage, ability drain, aging, cold, death effects, disease, energy drain, mind-affecting effects, paralysis, petrification, poison; **Resist** fire 30, sonic 30; **SR** 39",
+			"",
+			"#### Offense",
+			"",
+			"**Speed** 80 ft., climb 80 ft.  ",
+			"**Melee** bite +39 touch (4d10+25/19-20 plus poison), 4 claws +39 (3d6+25/19-20)  ",
+			"**Ranged** web +35 touch (special/&times;3)  ",
+			"**Space** 15 ft., **Reach** 15 ft.  ",
+			"**Special Attacks** critical poisoning, dreams of futility, feed, mythic power (10/day, surge +1d12), penetrating bite, poison, powerful blows, webs (DC 43, 32 hp)  ",
+			"**Spell-Like Abilities** (CL 28th; concentration +37)  ",
+			"*Constant*-feather fall, freedom of movement, true seeing  ",
+			"*At will*-astral projection, dimension door, dream, greater dispel magic, insanity (DC 27), levitate, nightmare (DC 24), sending, telekinesis (DC 24)  ",
+			"*3/day*-creeping doom, demand (DC 27), quickened feeblemind (DC 24)  ",
+			"*1/day*-imprisonment (DC 28), symbol of insanity (DC 27), dominate monster (DC 28)",
+			"",
+			"#### Statistics",
+			"",
+			"**Str** 44, **Dex** 36, **Con**: 44, **Int** 29, **Wis** 33, **Cha**, 28  ",
+			"**Base Atk** +24; **CMB** +43 (+47 bull rush); **CMD** 77 (79 vs. bull rush)  ",
+			"**Feats** [Awesome Blow](feat/awesome_blow), [Combat Reflexes](feat/combat_reflexes), [Critical Focus](feat/critical_focus), [Dodge](feat/dodge), [Greater Bull Rush](feat/greater_bull_rush), [Greater Vital Strike](feat/greater_vital_strike), [Improved Bull Rush](feat/improved_bull_rush), [Improved Critical (bite)](feat/improved_critical), [Improved Critical (claw)](feat/improved_critical), [Improved Vital Strike](feat/improved_vital_strike), [Mobility](feat/mobility), [Power Attack](feat/power_attack), [Quicken Spell-Like Ability (feeblemind)](feat/quicken_spell-like_ability), [Spring Attack](feat/spring_attack), [Staggering Critical](feat/staggering_critical), [Vital Strike](feat/vital_strike)  ",
+			"**Skills** Acrobatics +48 (+88 when jumping), Climb +60, Intimidate +44, Knowledge (arcana, dungeoneering, history, religion) +41, Perception +46, Sense Motive +43, Spellcraft +44, Stealth +40, Survival +46, Use Magic Device +41; **Racial Modifiers** +40 Acrobatics when jumping  ",
+			"**Languages** Aklo, Undercommon; telepathy 100 ft.  ",
+			"**SQ** otherworldly leap, swift construction",
+			"",
+			"#### Ecology",
+			"",
+			"**Environment** any underground  ",
+			"**Organization** solitary (unique)  ",
+			"**Treasure** triple",
+			"",
+			"#### Special Abilities",
+			"",
+			"**Critical Poisoning (Su)** If Atlach-Nacha confirms a critical hit with its bite, it injects its foe with 3 doses of poison (this increases the save DC by 4). A foe that is normally immune to poison can be affected by Atlach-Nacha's poison in this way, but the victim treats the poisoning as if it had been injected with only 1 dose.",
+			"",
+			"**Dreams of Futility (Su)** Atlach-Nacha can impose its verminous dreams on any creature that has been rendered unconscious at any point in its life as a result of spider venom, that has come in contact with the Great Old One's webs, or upon whom Atlach-Nacha has fed. When Atlach-Nacha uses nightmare on such a target, the victim must also succeed at a DC 35 Will saving throw or become overwhelmed with futility. Whenever the victim attempts a skill check, or at the start of each round in combat, the victim has a 50% chance to act normally; otherwise, it takes no action. This effect persists for 24 hours but can be ended earlier via a successful break enchantment spell. This is a mind-affecting effect. The save DC is Charisma-based.",
+			"",
+			"**Feed (Ex)** As a standard action, Atlach-Nacha can feed upon a helpless or willing living creature by biting it. This deals no hit point damage, but it does cause 2d6 points of Strength drain and 2d6 points of Dexterity drain. If a creature's Strength and Dexterity are drained to 0, any drain that would normally affect those ability scores instead affects Constitution-thus, if Atlach-Nacha feeds on a creature with Strength and Dexterity scores of 0, the Great Old One drains 4d6 points of Constitution instead. A successful DC 43 Fortitude save reduces the drain to the minimum possible. The save DC is Constitution-based.",
+			"",
+			"**Great Old One Traits (Ex)** Rules for Atlach-Nacha's Great Old One traits, such as immortality, insanity, its mythic abilities, otherworldly insight, and the base rules for unspeakable presence, can be found on page 306 of Pathfinder RPG Bestiary 4.",
+			"",
+			"**Immortality (Ex)** If Atlach-Nacha is killed, its body splits open and unleashes a hideous mass of swarming spiders. Treat this swarm of spiders as a locust plague swarm save that it has a base speed of 60 feet, a climb speed of 60 feet, and no fly speed. If this swarm of spiders is allowed to reform after being dispersed by damage (or after 24 hours have passed), the spiders fall upon one another in a cannibalistic frenzy, with the last spider alive growing and growing until it becomes Atlach-Nacha reborn. If the swarm is truly destroyed as a result of devouring a good-aligned minor artifact or holy relic, Atlach-Nacha is instead reborn 1d100 months later from one of countless hidden eggs in deep underground caverns' but typically not on the same world upon which it was most recently defeated.",
+			"",
+			"**Otherworldly Leap (Ex)** Atlach-Nacha gains a +20 racial bonus on Acrobatics checks made to jump, and this stacks with its bonus to jumping from high speed. It treats all jumps as if it had a running start.",
+			"",
+			"**Penetrating Bite (Ex)** Atlach-Nacha's bite penetrates all forms of armor. It resolves its bite attacks as if they were touch attacks.",
+			"",
+			"**Poison (Ex)** Bite-injury; save Fort DC 43; frequency 1/round for 6 rounds; effect permanent paralysis plus 1d6 Strength drain; cure 3 consecutive saves. The save DC is Constitution-based.",
+			"",
+			"**Powerful Blows (Ex)** Atlach-Nacha always modifies the damage from its physical attacks with 1-1/2 times its Strength modifier.",
+			"",
+			"**Swift Construction (Ex)** Atlach-Nacha can create bridges or walls from its webs as a swift action. A web bridge is 15 feet wide and has a maximum length of 200 feet. A web wall functions as a wall of stone (CL 20th). Atlach-Nacha can use its climb speed to move on these webs, but other creatures treat it as sticky webbing (see the web universal monster rule on page 305 of Pathfinder RPG Bestiary) if they come in contact with it. Atlach-Nacha's web constructions collapse and melt into vapor after 1 day has passed, forcing the Great Old One to constantly toil to maintain its webs in a futile effort at permanence.",
+			"",
+			"**Unspeakable Presence (Su)** Failing a DC 35 Will saving throw against Atlach-Nacha's unspeakable presence causes victims to become convinced they are covered with swarming spiders and tangled, sticky webbing. This causes victims to become nauseated for as long as the Great Old One remains in the area plus an additional 1d6 rounds. This is a mind-affecting effect. The save DC is Charisma-based.",
+			"",
+			"**Webs (Ex)** Atlach-Nacha can make a ranged attack with its webs as a swift action. These webs have a range increment of 200 feet, and it can shoot up to 10 range increments.",
+			"",
+			"#### Description",
+			"",
+			"This strange arachnid Great Old One, known to some as the Void Weaver, is a dualistic entity in many respects. Its gender is fluid, being both and neither male and female. It constantly toils to build, yet its creations are fated to fail. It exists both in the waking world and the realm of dreams. It embodies the alien form of the spider and the recognizable visage of humanity. To Atlach-Nacha, duality exists only to contradict itself.",
+			"",
+			"Atlach-Nacha is an elephant-sized, red-and-black spider with a monstrously humanoid face, but at times it can appear as a woman with multiple long arms and a spider's lower torso.",
+			"",
+			"### Atlach-Nacha's Cult",
+			"",
+			"Atlach-Nacha's worshipers venerate the spider god in a oddly dualistic way-as both a god of construction and a god of futility. To the Void Weaver's faithful, the act of building is as sacred as the act of deliberately allowing something to fail. Whether this is to create more opportunities for building or more opportunities to fail is irrelevant to these lunatic worshipers, who vacillate daily between the urge to create and the compulsion to give in to entropy and disorder. Atlach-Nacha's temples are often caves or ancient crumbling buildings infested with spiders. The Great Old One grants access to the domains of Artifice, Evil, Madness, and Void and to the subdomains of Construct, Isolation, Nightmare, and Toil. Its favored weapon is the net.",
+			"",
+			"**Family:** [Great Old One](monster/family/great_old_one)"
+		],
+		"short_description": "The size of a bull elephant, this red-and-black arachnid has a bloated body and spindly legs, made all the more horrifying by the all-too-human appearance of its baleful visage.",
+		"is_unique": true,
+		"display": "monster"
+	},
+	"atlach-nacha": { "copyof": "great_old_one,_atlach-nacha" },
+	"atlach_nacha": { "copyof": "great_old_one,_atlach-nacha" },
 	"great_old_one,_bokrug": {
 		"name": "Great Old One, Bokrug",
 		"file": "monsterdisplay89cf.html",
@@ -4732,6 +4872,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"bokrug": { "copyof": "great_old_one,_bokrug" },
 	"great_old_one,_cthulhu": {
 		"name": "Great Old One, Cthulhu",
 		"file": "monsterdisplay73cd.html",
@@ -4835,6 +4976,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"cthulhu": { "copyof": "great_old_one,_cthulhu" },
 	"great_old_one,_ghatanothoa": {
 		"name": "Great Old One, Ghatanothoa",
 		"file": "monsterdisplay2615.html",
@@ -4937,6 +5079,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"ghatanothoa": { "copyof": "great_old_one,_ghatanothoa" },
 	"great_old_one,_hastur": {
 		"name": "Great Old One, Hastur",
 		"file": "monsterdisplay6c60.html",
@@ -5038,6 +5181,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"hastur": { "copyof": "great_old_one,_hastur" },
 	"great_old_one,_ithaqua": {
 		"name": "Great Old One, Ithaqua",
 		"file": "monsterdisplay5bed.html",
@@ -5156,6 +5300,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"ithaqua": { "copyof": "great_old_one,_ithaqua" },
 	"great_old_one,_mhar": {
 		"name": "Great Old One, Mhar",
 		"file": "monsterdisplayb5e7.html",
@@ -5235,7 +5380,7 @@
 			"",
 			"**Immortality (Ex)** If Mhar is slain, it explodes violently, spraying earth and lava in all directions. Creatures within 30 feet of Mhar take 30d6 points of bludgeoning damage and 30d6 points of fire damage. A creature can attempt a DC 40 Reflex save for half damage. Mhar manifests again 1 year later in the same area, restored to life via [true resurrection](spell/true_resurrection).",
 			"",
-			"**Massive (Ex)** Due to Mhar's tremendous size, it treats uneven ground and other terrain features that form difficult terrain as normal terrain, though areas of forest or significant settlements are still considered difficult terrain to Mhar. A Huge or smaller creature can move through any square occupied by Mhar, and vice versa. Mhar can make attacks of opportunity only against foes that are Huge or larger, and can be flanked only by Huge or larger foes. Mhar gains a bonus for being on higher ground only if its entire space is on higher ground than that of its target. It's possible for a Huge or smaller creature to climb Mhar-this generally requires a successful DC 30 Climb check, and unlike the normal rules regarding Mhar and attacks of opportunity, a Small or larger creature that climbs on its body provokes an attack of opportunity from Mhar. Any creature that climbs on Mhar is treated as if it is totally immersed in [lava](unknown/lava).",
+			"**Massive (Ex)** Due to Mhar's tremendous size, it treats uneven ground and other terrain features that form difficult terrain as normal terrain, though areas of forest or significant settlements are still considered difficult terrain to Mhar. A Huge or smaller creature can move through any square occupied by Mhar, and vice versa. Mhar can make attacks of opportunity only against foes that are Huge or larger, and can be flanked only by Huge or larger foes. Mhar gains a bonus for being on higher ground only if its entire space is on higher ground than that of its target. It's possible for a Huge or smaller creature to climb Mhar-this generally requires a successful DC 30 Climb check, and unlike the normal rules regarding Mhar and attacks of opportunity, a Small or larger creature that climbs on its body provokes an attack of opportunity from Mhar. Any creature that climbs on Mhar is treated as if it is totally immersed in [lava](rule/lava).",
 			"",
 			"**Taphophobic Dreams (Su)** When Mhar uses its [nightmare](unknown/nightmare) spell-like ability on a creature within 5 feet of earth or worked stone, it also afflicts that creature with terrifying dreams of an immense presence surging through the ground, ominously circling the target and threatening to pull it under. In addition to the effects of [nightmare](unknown/nightmare), the target must also succeed at a DC 35 Will save or be unwilling to approach within 5 feet of any amount of earth or stone and, if within such an area, compelled to leave it immediately. The creature is profoundly uncomfortable in such an area, reducing its Dexterity score to 1. This is a mind-affecting curse effect. The save DC is Charisma-based.",
 			"",
@@ -5259,6 +5404,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"mhar": { "copyof": "great_old_one,_mhar" },
 	"great_old_one,_mordiggian": {
 		"name": "Great Old One, Mordiggian",
 		"file": "monsterdisplay8027.html",
@@ -5368,6 +5514,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"mordiggian": { "copyof": "great_old_one,_mordiggian" },
 	"great_old_one,_rhan-tegoth": {
 		"name": "Great Old One, Rhan-Tegoth",
 		"file": "monsterdisplay1bc8.html",
@@ -5476,11 +5623,8 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"rhan_tegoth": {
-		"copyof": "great_old_one,_rhan-tegoth",
-		"is_unique": true,
-		"display": "monster"
-	},
+	"rhan-tegoth": { "copyof": "great_old_one,_rhan-tegoth" },
+	"rhan_tegoth": { "copyof": "great_old_one,_rhan-tegoth" },
 	"great_old_one,_tawil_at'umr": {
 		"name": "Great Old One, Tawil At'umr",
 		"file": "monsterdisplay4ca1.html",
@@ -5590,6 +5734,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"tawil_at'umr": { "copyof": "great_old_one,_tawil_at'umr" },
 	"great_old_one,_tsathoggua": {
 		"name": "Great Old One, Tsathoggua",
 		"file": "monsterdisplay33d7.html",
@@ -5711,6 +5856,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"tsathoggua": { "copyof": "great_old_one,_tsathoggua" },
 	"great_old_one,_xhamen-dor": {
 		"name": "Great Old One, Xhamen-Dor",
 		"file": "monsterdisplay8f72.html",
@@ -5819,11 +5965,8 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"xhamen_dor": {
-		"copyof": "great_old_one,_xhamen-dor",
-		"is_unique": true,
-		"display": "monster"
-	},
+	"xhamen-dor": { "copyof": "great_old_one,_xhamen-dor" },
+	"xhamen_dor": { "copyof": "great_old_one,_xhamen-dor" },
 	"great_old_one,_yig": {
 		"name": "Great Old One, Yig",
 		"file": "monsterdisplay8046.html",
@@ -5929,6 +6072,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"yig": { "copyof": "great_old_one,_yig" },
 	"grendler_red-chains": {
 		"name": "Grendler Red-Chains",
 		"file": "monsterdisplay0868.html",
@@ -5990,11 +6134,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"grendler_red_chains": {
-		"copyof": "grendler_red-chains",
-		"is_unique": true,
-		"display": "monster"
-	},
+	"grendler_red_chains": { "copyof": "grendler_red-chains" },
 	"herald,_arcanotheign": {
 		"name": "Herald, Arcanotheign",
 		"file": "monsterdisplay5b75.html",
@@ -6087,6 +6227,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"arcanotheign": { "copyof": "herald,_arcanotheign" },
 	"herald,_basileus": {
 		"name": "Herald, Basileus",
 		"file": "monsterdisplay13e0.html",
@@ -6177,6 +6318,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"basileus": { "copyof": "herald,_basileus" },
 	"herald,_end's_voice": {
 		"name": "Herald, End's Voice",
 		"file": "monsterdisplay2b54.html",
@@ -6281,6 +6423,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"end's_voice": { "copyof": "herald,_end's_voice" },
 	"herald,_gravedragger": {
 		"name": "Herald, Gravedragger",
 		"file": "monsterdisplaybbd5.html",
@@ -6388,6 +6531,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"gravedragger": { "copyof": "herald,_gravedragger" },
 	"herald,_great_elder_iuu": {
 		"name": "Herald, Great Elder Iuu",
 		"file": "monsterdisplaydbbe.html",
@@ -6504,6 +6648,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"great_elder_iuu": { "copyof": "herald,_great_elder_iuu" },
 	"herald,_hand_of_the_inheritor": {
 		"name": "Herald, Hand of the Inheritor",
 		"file": "monsterdisplay93f7.html",
@@ -6592,6 +6737,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"hand_of_the_inheritor": { "copyof": "herald,_hand_of_the_inheritor" },
 	"herald,_latten_mechanism": {
 		"name": "Herald, Latten Mechanism",
 		"file": "monsterdisplay1a0f.html",
@@ -6704,6 +6850,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"latten_mechanism": { "copyof": "herald,_latten_mechanism" },
 	"herald,_mother's_maw": {
 		"name": "Herald, Mother's Maw",
 		"file": "monsterdisplay7f06.html",
@@ -6801,6 +6948,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"mother's_maw": { "copyof": "herald,_mother's_maw" },
 	"herald,_personification_of_fury": {
 		"name": "Herald, Personification of Fury",
 		"file": "monsterdisplay91a1.html",
@@ -6898,6 +7046,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"personification_of_fury": { "copyof": "herald,_personification_of_fury" },
 	"herald,_steward_of_the_skein": {
 		"name": "Herald, Steward of the Skein",
 		"file": "monsterdisplaya710.html",
@@ -6987,6 +7136,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"steward_of_the_skein": { "copyof": "herald,_steward_of_the_skein" },
 	"herald,_sunlord_thalachos": {
 		"name": "Herald, Sunlord Thalachos",
 		"file": "monsterdisplaybf00.html",
@@ -7079,6 +7229,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"sunlord_thalachos": { "copyof": "herald,_sunlord_thalachos" },
 	"herald,_tarrasque": {
 		"name": "Herald, Tarrasque",
 		"file": "monsterdisplay0340.html",
@@ -7165,6 +7316,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"tarrasque": { "copyof": "herald,_tarrasque" },
 	"herald,_thais": {
 		"name": "Herald, Thais",
 		"file": "monsterdisplay3a7f.html",
@@ -7258,6 +7410,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"thais": { "copyof": "herald,_thais" },
 	"herald,_the_first_blade": {
 		"name": "Herald, The First Blade",
 		"file": "monsterdisplay36a6.html",
@@ -7355,6 +7508,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"the_first_blade": { "copyof": "herald,_the_first_blade" },
 	"herald,_the_grand_defender": {
 		"name": "Herald, The Grand Defender",
 		"file": "monsterdisplay0c08.html",
@@ -7440,6 +7594,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"the_grand_defender": { "copyof": "herald,_the_grand_defender" },
 	"herald,_the_grim_white_stag": {
 		"name": "Herald, The Grim White Stag",
 		"file": "monsterdisplay8cfb.html",
@@ -7531,6 +7686,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"the_grim_white_stag": { "copyof": "herald,_the_grim_white_stag" },
 	"herald,_the_menotherian": {
 		"name": "Herald, The Menotherian",
 		"file": "monsterdisplaye9d9.html",
@@ -7620,6 +7776,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"the_menotherian": { "copyof": "herald,_the_menotherian" },
 	"herald,_the_old_man": {
 		"name": "Herald, The Old Man",
 		"file": "monsterdisplay6914.html",
@@ -7707,6 +7864,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"the_old_man": { "copyof": "herald,_the_old_man" },
 	"herald,_the_spirit_of_adoration": {
 		"name": "Herald, The Spirit of Adoration",
 		"file": "monsterdisplaybb48.html",
@@ -7795,6 +7953,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"the_spirit_of_adoration": { "copyof": "herald,_the_spirit_of_adoration" },
 	"herald,_the_stabbing_beast": {
 		"name": "Herald, The Stabbing Beast",
 		"file": "monsterdisplay0805.html",
@@ -7888,6 +8047,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"the_stabbing_beast": { "copyof": "herald,_the_stabbing_beast" },
 	"horsemen_of_the_apocalypse,_apollyon": {
 		"name": "Horsemen of the Apocalypse, Apollyon",
 		"file": "monsterdisplayd84c.html",
@@ -7988,6 +8148,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"apollyon": { "copyof": "horsemen_of_the_apocalypse,_apollyon" },
 	"horsemen_of_the_apocalypse,_charon": {
 		"name": "Horsemen of the Apocalypse, Charon",
 		"file": "monsterdisplay2645.html",
@@ -8095,6 +8256,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"charon": { "copyof": "horsemen_of_the_apocalypse,_charon" },
 	"horsemen_of_the_apocalypse,_szuriel": {
 		"name": "Horsemen of the Apocalypse, Szuriel",
 		"file": "monsterdisplay54b2.html",
@@ -8194,6 +8356,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"szuriel": { "copyof": "horsemen_of_the_apocalypse,_szuriel" },
 	"horsemen_of_the_apocalypse,_trelmarixian": {
 		"name": "Horsemen of the Apocalypse, Trelmarixian",
 		"file": "monsterdisplay5244.html",
@@ -8295,7 +8458,8 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"ilzunae,_the_gloom_widow": {
+	"trelmarixian": { "copyof": "horsemen_of_the_apocalypse,_trelmarixian" },
+	"ilzunae": {
 		"name": "Ilzunae, the Gloom Widow",
 		"file": "monsterdisplayca32.html",
 		"sources": [ "Demons Revisited" ],
@@ -8576,6 +8740,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"agyra": { "copyof": "kaiju,_agyra" },
 	"kaiju,_bezravnis": {
 		"name": "Kaiju, Bezravnis",
 		"file": "monsterdisplay9e34.html",
@@ -8666,6 +8831,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"bezravnis": { "copyof": "kaiju,_bezravnis" },
 	"kaiju,_mogaru": {
 		"name": "Kaiju, Mogaru",
 		"file": "monsterdisplaybbfb.html",
@@ -8760,6 +8926,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"mogaru": { "copyof": "kaiju,_mogaru" },
 	"kaiju,_varklops": {
 		"name": "Kaiju, Varklops",
 		"file": "monsterdisplay6547.html",
@@ -8860,6 +9027,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"varklops": { "copyof": "kaiju,_varklops" },
 	"kaiju,_vorgozen": {
 		"name": "Kaiju, Vorgozen",
 		"file": "monsterdisplay79b1.html",
@@ -8962,6 +9130,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"vorgozen": { "copyof": "kaiju,_vorgozen" },
 	"kaiju,_yarthoon": {
 		"name": "Kaiju, Yarthoon",
 		"file": "monsterdisplayac41.html",
@@ -9061,6 +9230,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"yarthoon": { "copyof": "kaiju,_yarthoon" },
 	"kallas_devil": {
 		"name": "Kallas Devil",
 		"file": "monsterdisplay4d71.html",
@@ -9135,7 +9305,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"kaltestrua,_governess_of_casnoriva": {
+	"kaltestrua": {
 		"name": "Kaltestrua, Governess of Casnoriva",
 		"file": "monsterdisplay5813.html",
 		"sources": [ "Demons Revisited" ],
@@ -9219,7 +9389,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"khalirai,_the_ivory_queen": {
+	"khalirai": {
 		"name": "Khalirai, the Ivory Queen",
 		"file": "monsterdisplay999a.html",
 		"sources": [ "Fey Revisited" ],
@@ -9666,7 +9836,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"malziarax,_rune_giant_overlord": {
+	"malziarax": {
 		"name": "Malziarax, Rune Giant Overlord",
 		"file": "monsterdisplay9cdb.html",
 		"sources": [ "Giants Revisited" ],
@@ -9736,7 +9906,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"mangvhune,_the_temple_hill_slasher": {
+	"mangvhune": {
 		"name": "Mangvhune, the Temple Hill Slasher",
 		"file": "monsterdisplayf813.html",
 		"sources": [ "Demons Revisited" ],
@@ -9814,7 +9984,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"mardahamman,_cyclops_tyrant": {
+	"mardahamman": {
 		"name": "Mardahamman, Cyclops Tyrant",
 		"file": "monsterdisplay765c.html",
 		"sources": [ "Giants Revisited" ],
@@ -10173,11 +10343,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"old_mage_jatembe": {
-		"copyof": "old-mage_jatembe",
-		"is_unique": true,
-		"display": "monster"
-	},
+	"old_mage_jatembe": { "copyof": "old-mage_jatembe" },
 	"old_wulunga": {
 		"name": "Old Wulunga",
 		"file": "monsterdisplayed76.html",
@@ -10349,7 +10515,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"oozlosh,_marsh_giant_high_priest": {
+	"oozlosh": {
 		"name": "Oozlosh, Marsh Giant High Priest",
 		"file": "monsterdisplay9526.html",
 		"sources": [ "Giants Revisited" ],
@@ -10429,7 +10595,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"orania,_cloud_giant_oligarch": {
+	"orania": {
 		"name": "Orania, Cloud Giant Oligarch",
 		"file": "monsterdisplay9e7b.html",
 		"sources": [ "Giants Revisited" ],
@@ -10507,7 +10673,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"orynox_marchelin,_fire_giant_king": {
+	"orynox_marchelin": {
 		"name": "Orynox Marchelin, Fire Giant King",
 		"file": "monsterdisplay2614.html",
 		"sources": [ "Giants Revisited" ],
@@ -10647,11 +10813,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"paakis_si": {
-		"copyof": "paakis-si",
-		"is_unique": true,
-		"display": "monster"
-	},
+	"paakis_si": { "copyof": "paakis-si" },
 	"papa_chupar": {
 		"name": "Papa Chupar",
 		"file": "monsterdisplaye2fc.html",
@@ -10797,7 +10959,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"phoenix,_pyralisia,_the_rain_of_embers": {
+	"phoenix,_pyralisia": {
 		"name": "Phoenix, Pyralisia, the Rain of Embers",
 		"file": "monsterdisplay17a2.html",
 		"sources": [ "Mythical Monsters Revisited" ],
@@ -10873,11 +11035,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"pyralisia": {
-		"copyof": "phoenix,_pyralisia,_the_rain_of_embers",
-		"is_unique": true,
-		"display": "monster"
-	},
+	"pyralisia": { "copyof": "phoenix,_pyralisia" },
 	"qaishan_yeti": {
 		"name": "Qaishan Yeti",
 		"file": "monsterdisplay4cba.html",
@@ -11057,6 +11215,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"chavazvug": { "copyof": "qlippoth_lord,_chavazvug" },
 	"qlippoth_lord,_isph-aun-vuln": {
 		"name": "Qlippoth Lord, Isph-Aun-Vuln",
 		"file": "monsterdisplay605b-2.html",
@@ -11161,11 +11320,8 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"isph_aun_vuln": {
-		"copyof": "qlippoth_lord,_isph-aun-vuln",
-		"is_unique": true,
-		"display": "monster"
-	},
+	"isph-aun-vuln": { "copyof": "qlippoth_lord,_isph-aun-vuln" },
+	"isph_aun_vuln": { "copyof": "qlippoth_lord,_isph-aun-vuln" },
 	"qlippoth_lord,_oaur-ooung": {
 		"name": "Qlippoth Lord, Oaur-Ooung",
 		"file": "monsterdisplay1bf6.html",
@@ -11278,11 +11434,8 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"oaur_ooung": {
-		"copyof": "qlippoth_lord,_oaur-ooung",
-		"is_unique": true,
-		"display": "monster"
-	},
+	"oaur-ooung": { "copyof": "qlippoth_lord,_oaur-ooung" },
+	"oaur_ooung": { "copyof": "qlippoth_lord,_oaur-ooung" },
 	"qlippoth_lord,_thuskchoon": {
 		"name": "Qlippoth Lord, Thuskchoon",
 		"file": "monsterdisplay30d0.html",
@@ -11389,6 +11542,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"thuskchoon": { "copyof": "qlippoth_lord,_thuskchoon" },
 	"qlippoth_lord,_yamasoth": {
 		"name": "Qlippoth Lord, Yamasoth",
 		"file": "monsterdisplaye725.html",
@@ -11492,6 +11646,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"yamasoth": { "copyof": "qlippoth_lord,_yamasoth" },
 	"quetzutrhul": {
 		"name": "Quetzutrhul",
 		"file": "monsterdisplay7987.html",
@@ -11567,7 +11722,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"rahstalshan,_stone_giant_elder": {
+	"rahstalshan": {
 		"name": "Rahstalshan, Stone Giant Elder",
 		"file": "monsterdisplay99a7.html",
 		"sources": [ "Giants Revisited" ],
@@ -11646,7 +11801,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"raskineya,_the_dark_comet": {
+	"raskineya": {
 		"name": "Raskineya, the Dark Comet",
 		"file": "mythicmonsterdisplay50fe.html",
 		"sources": [ "Mythic Realms" ],
@@ -11737,11 +11892,6 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"raskineya_the_dark_comet": {
-		"copyof": "raskineya,_the_dark_comet",
-		"is_unique": true,
-		"display": "monster"
-	},
 	"sandpoint_devil": {
 		"name": "Sandpoint Devil",
 		"file": "monsterdisplay1c45.html",
@@ -11824,7 +11974,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"scyld_hranni,_storm_giant_matriarch": {
+	"scyld_hranni": {
 		"name": "Scyld Hranni, Storm Giant Matriarch",
 		"file": "monsterdisplay106c.html",
 		"sources": [ "Giants Revisited" ],
@@ -12002,7 +12152,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"shaorhaz,_glutton_of_the_green": {
+	"shaorhaz": {
 		"name": "Shaorhaz, Glutton of the Green",
 		"file": "monsterdisplay0cde.html",
 		"sources": [ "Demons Revisited" ],
@@ -12166,11 +12316,8 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"chemnosit": {
-		"copyof": "spawn_of_rovagug,_chemnosit_the_monarch_worm",
-		"is_unique": true,
-		"display": "monster"
-	},
+	"chemnosit_the_monarch_worm": { "copyof": "spawn_of_rovagug,_chemnosit_the_monarch_worm" },
+	"chemnosit": { "copyof": "spawn_of_rovagug,_chemnosit_the_monarch_worm" },
 	"spawn_of_rovagug,_festering_ulunat_the_unholy_first": {
 		"name": "Spawn of Rovagug, Festering Ulunat (The Unholy First)",
 		"file": "monsterdisplayc830.html",
@@ -12262,11 +12409,8 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"festering_ulunat": {
-		"copyof": "spawn_of_rovagug,_festering_ulunat_the_unholy_first",
-		"is_unique": true,
-		"display": "monster"
-	},
+	"festering_ulunat_the_unholy_first": { "copyof": "spawn_of_rovagug,_festering_ulunat_the_unholy_first" },
+	"festering_ulunat": { "copyof": "spawn_of_rovagug,_festering_ulunat_the_unholy_first" },
 	"spawn_of_rovagug,_volnagur_the_end-singer": {
 		"name": "Spawn of Rovagug, Volnagur (The End-Singer)",
 		"file": "monsterdisplayc36d-2.html",
@@ -12347,11 +12491,8 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"volnagur": {
-		"copyof": "spawn_of_rovagug,_volnagur_the_end-singer",
-		"is_unique": true,
-		"display": "monster"
-	},
+	"volnagur_the_end-singer": { "copyof": "spawn_of_rovagug,_volnagur_the_end-singer" },
+	"volnagur": { "copyof": "spawn_of_rovagug,_volnagur_the_end-singer" },
 	"talmandor": {
 		"name": "Talmandor",
 		"file": "monsterdisplay60cd.html",
@@ -12455,7 +12596,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"tanaq_mammoth-eater,_taiga_giant_shaman": {
+	"tanaq_mammoth-eater": {
 		"name": "Tanaq Mammoth-Eater, Taiga Giant Shaman",
 		"file": "monsterdisplaya205.html",
 		"sources": [ "Giants Revisited" ],
@@ -12527,12 +12668,8 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"tanaq_mammoth_eater": {
-		"copyof": "tanaq_mammoth-eater,_taiga_giant_shaman",
-		"is_unique": true,
-		"display": "monster"
-	},
-	"thath-malal,_the_eyeless_prince": {
+	"tanaq_mammoth_eater": { "copyof": "tanaq_mammoth-eater" },
+	"thath-malal": {
 		"name": "Thath-Malal, the Eyeless Prince",
 		"file": "monsterdisplay1816.html",
 		"sources": [ "Darklands Revisited" ],
@@ -12598,11 +12735,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"thath_malal": {
-		"copyof": "thath-malal,_the_eyeless_prince",
-		"is_unique": true,
-		"display": "monster"
-	},
+	"thath_malal": { "copyof": "thath-malal" },
 	"the_first_owlbear": {
 		"name": "The First Owlbear",
 		"file": "mythicmonsterdisplaya1d2.html",
@@ -12993,7 +13126,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"the_would-be_queen,_almara_kazaar": {
+	"almara_kazaar": {
 		"name": "The Would-Be Queen, Almara Kazaar",
 		"file": "monsterdisplay92de.html",
 		"sources": [ "Darklands Revisited" ],
@@ -13136,7 +13269,7 @@
 			"",
 			"**Environment** Tanglebriar  ",
 			"**Organization** solitary or group (Treerazor plus 1d4 nalfeshnees and 2d4 hezrous)  ",
-			"**Treasure** triple (plus [Blackaxe](unknown/blackaxe))",
+			"**Treasure** triple (plus [Blackaxe](magic/artifact/blackaxe))",
 			"",
 			"#### Special Abilities",
 			"",
@@ -13481,7 +13614,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"urburg_armbreaker,_hill_giant_chieftain": {
+	"urburg_armbreaker": {
 		"name": "Urburg Armbreaker, Hill Giant Chieftain",
 		"file": "monsterdisplay7e3a.html",
 		"sources": [ "Giants Revisited" ],
@@ -13551,7 +13684,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"urtleytlar,_the_tempest_queen": {
+	"urtleytlar": {
 		"name": "Urtleytlar, The Tempest Queen",
 		"file": "monsterdisplay3fc0.html",
 		"sources": [ "Pathfinder #60: From Hell's Heart" ],
@@ -13578,7 +13711,7 @@
 			"",
 			"**Source** [Pathfinder #60: From Hell's Heart pg. 68](source/pathfinder_#60_from_hell's_heart)  ",
 			"**XP** 307,200  ",
-			"Female [scylla](unknown/scylla) cleric of Rovagug 8  ",
+			"Female [scylla](monster/scylla) cleric of Rovagug 8  ",
 			"CE Huge aberration (aquatic)  ",
 			"**Init** +14; **Senses** all-around vision, blindsight 30 ft., darkvision 60 ft., low-light vision, see invisibility; Perception +34  ",
 			"**Aura** frightful presence (30 ft., DC 27)",
@@ -13650,7 +13783,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"uvaglor,_the_misbegotten_prince": {
+	"uvaglor": {
 		"name": "Uvaglor, the Misbegotten Prince",
 		"file": "monsterdisplayb508.html",
 		"sources": [ "Demons Revisited" ],
@@ -13746,7 +13879,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
-	"valonesse_hergrut,_frost_giant_jarl": {
+	"valonesse_hergrut": {
 		"name": "Valonesse Hergrut, Frost Giant Jarl",
 		"file": "monsterdisplay5783.html",
 		"sources": [ "Giants Revisited" ],
@@ -14087,6 +14220,7 @@
 		"is_unique": true,
 		"display": "monster"
 	},
+	"ymeri": { "copyof": "elemental_lord,_ymeri" },
 	"zelishkar_of_the_bitter_flame": {
 		"name": "Zelishkar of the Bitter Flame",
 		"file": "monsterdisplay9106.html",

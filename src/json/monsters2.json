@@ -78,10 +78,7 @@
 		"short_description": "This four-armed creature looks like a cross between a human and a black and ochre termite. Its body and arms display glowing runes.",
 		"display": "monster"
 	},
-	"d_ziriak": {
-		"copyof": "d'ziriak",
-		"display": "monster"
-	},
+	"d_ziriak": { "copyof": "d'ziriak" },
 	"daemon,_acrididaemon": {
 		"name": "Daemon, Acrididaemon",
 		"file": "monsterdisplay2211.html",
@@ -172,6 +169,7 @@
 		"short_description": "This wicked creature has the claws and mandibles of an enormous insect, and its lower body is made entirely of swarming locusts.",
 		"display": "monster"
 	},
+	"acrididaemon": { "copyof": "daemon,_acrididaemon" },
 	"daemon,_astradaemon": {
 		"name": "Daemon, Astradaemon",
 		"file": "monsterdisplay611d.html",
@@ -258,6 +256,7 @@
 		"short_description": "Vaguely humanoid in shape, this gaunt fiend has the face of a hideous fish and a body of lanky limbs and writhing tendrils.",
 		"display": "monster"
 	},
+	"astradaemon": { "copyof": "daemon,_astradaemon" },
 	"daemon,_bibliodaemon": {
 		"name": "Daemon, Bibliodaemon",
 		"file": "monsterdisplayb48e.html",
@@ -293,7 +292,7 @@
 			"**Source** [Druma, Profit and Prophecy pg. 57](source/druma,_profit_and_prophecy)  ",
 			"**XP** 4,800  ",
 			"NE Medium outsider (daemon, evil, extraplanar)  ",
-			"**Init** +3; **Senses** darkvision 60 ft., [detect thoughts](unknown/detect_thoughts); Perception +15",
+			"**Init** +3; **Senses** darkvision 60 ft., [detect thoughts](spell/detect_thoughts); Perception +15",
 			"",
 			"#### Defense",
 			"",
@@ -329,7 +328,7 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Final Verdict (Su)** When a bibliodaemon hits a creature with its light mace, the target must succeed at a DC 17 Will save or be cursed. A creature that succeeds at its save is immune to that bibliodaemon's curse for 24 hours. If the bibliodaemon confirms a critical hit with its light mace, the save DC increases by 4, and the curse can affect even creatures that have already succeeded at a prior save against this effect. A creature that fails this save interprets any contract as favorable to itself, even in cases when the contract is one-sided and potentially lethal. In addition, an affected creature takes a -4 penalty on saves against spells and effects reliant on spoken commands or verbal contracts, such as [geas](unknown/geas). A [remove curse](unknown/remove_curse) or more powerful spell can remove this curse. The save DC is Charisma-based.",
+			"**Final Verdict (Su)** When a bibliodaemon hits a creature with its light mace, the target must succeed at a DC 17 Will save or be cursed. A creature that succeeds at its save is immune to that bibliodaemon's curse for 24 hours. If the bibliodaemon confirms a critical hit with its light mace, the save DC increases by 4, and the curse can affect even creatures that have already succeeded at a prior save against this effect. A creature that fails this save interprets any contract as favorable to itself, even in cases when the contract is one-sided and potentially lethal. In addition, an affected creature takes a -4 penalty on saves against spells and effects reliant on spoken commands or verbal contracts, such as [geas](unknown/geas). A [remove curse](spell/remove_curse) or more powerful spell can remove this curse. The save DC is Charisma-based.",
 			"",
 			"#### Description",
 			"",
@@ -342,6 +341,7 @@
 		"short_description": "Flowing black robes hang all around this four-armed, weasel-faced humanoid. Feathers that resemble quills emerge from each knuckle of its clawed upper hands.",
 		"display": "monster"
 	},
+	"bibliodaemon": { "copyof": "daemon,_bibliodaemon" },
 	"daemon,_cacodaemon": {
 		"name": "Daemon, Cacodaemon",
 		"file": "monsterdisplay9570.html",
@@ -427,6 +427,7 @@
 		"short_description": "An ever-gnashing maw, filled with row after row of mismatched teeth, dominates this frightful creature's orb-like body.",
 		"display": "monster"
 	},
+	"cacodaemon": { "copyof": "daemon,_cacodaemon" },
 	"daemon,_ceustodaemon": {
 		"name": "Daemon, Ceustodaemon",
 		"file": "monsterdisplay8cd8.html",
@@ -514,6 +515,7 @@
 		"short_description": "This brown, shaggy-furred beast stands on slate grey hooves. Its head resembles that of a maniacal horned ape.",
 		"display": "monster"
 	},
+	"ceustodaemon": { "copyof": "daemon,_ceustodaemon" },
 	"daemon,_crucidaemon": {
 		"name": "Daemon, Crucidaemon",
 		"file": "monsterdisplaya47e.html",
@@ -601,6 +603,7 @@
 		"short_description": "Its body seemingly made of iron, this shapely feminine form has wrists pierced by chains that end in curved blades.",
 		"display": "monster"
 	},
+	"crucidaemon": { "copyof": "daemon,_crucidaemon" },
 	"daemon,_derghodaemon": {
 		"name": "Daemon, Derghodaemon",
 		"file": "monsterdisplayfbac.html",
@@ -687,6 +690,7 @@
 		"short_description": "A deadly and vicious bouquet of insectile claws sprouts from this horrid, three-legged, multi-eyed beast.",
 		"display": "monster"
 	},
+	"derghodaemon": { "copyof": "daemon,_derghodaemon" },
 	"daemon,_erodaemon": {
 		"name": "Daemon, Erodaemon",
 		"file": "monsterdisplay7efa.html",
@@ -775,6 +779,7 @@
 		"short_description": "This blue-skinned woman has ram's horns, a third eye in her forehead, and a long, scaled tail that ends in a hissing viper's head.",
 		"display": "monster"
 	},
+	"erodaemon": { "copyof": "daemon,_erodaemon" },
 	"daemon,_genthodaemon": {
 		"name": "Daemon, Genthodaemon",
 		"file": "monsterdisplayd8cc.html",
@@ -885,6 +890,7 @@
 		"short_description": "Jagged bits of metal, armor, and sharp pieces of wire embed the flesh of this towering fiend.",
 		"display": "monster"
 	},
+	"genthodaemon": { "copyof": "daemon,_genthodaemon" },
 	"daemon,_hydrodaemon": {
 		"name": "Daemon, Hydrodaemon",
 		"file": "monsterdisplay3c1e.html",
@@ -972,6 +978,7 @@
 		"short_description": "The skin on this frog-like fiend is clammy and its eyes look dead and milky; its wide face is split by a fanged maw.",
 		"display": "monster"
 	},
+	"hydrodaemon": { "copyof": "daemon,_hydrodaemon" },
 	"daemon,_lacridaemon": {
 		"name": "Daemon, Lacridaemon",
 		"file": "monsterdisplay77cd.html",
@@ -1063,6 +1070,7 @@
 		"short_description": "The face of this gray-skinned humanoid stretches in a manic grin, even though it weeps steaming tears. Frost crusts its flesh.",
 		"display": "monster"
 	},
+	"lacridaemon": { "copyof": "daemon,_lacridaemon" },
 	"daemon,_lapsudaemon": {
 		"name": "Daemon, Lapsudaemon",
 		"file": "monsterdisplay7990.html",
@@ -1172,6 +1180,7 @@
 		"short_description": "This grotesque and malevolent creature appears to be a crushed ball of broken humanoid body parts spraying blood.",
 		"display": "monster"
 	},
+	"lapsudaemon": { "copyof": "daemon,_lapsudaemon" },
 	"daemon,_leukodaemon": {
 		"name": "Daemon, Leukodaemon",
 		"file": "monsterdisplayc8ba.html",
@@ -1262,6 +1271,7 @@
 		"short_description": "This human-shaped beast has a horse's skull for a head. It walks on cracked hooves and bears the rotting wings of a carrion bird.",
 		"display": "monster"
 	},
+	"leukodaemon": { "copyof": "daemon,_leukodaemon" },
 	"daemon,_meladaemon": {
 		"name": "Daemon, Meladaemon",
 		"file": "monsterdisplay5f90.html",
@@ -1351,6 +1361,7 @@
 		"short_description": "This foul creature looks like an emaciated humanoid with the head of a jackal.",
 		"display": "monster"
 	},
+	"meladaemon": { "copyof": "daemon,_meladaemon" },
 	"daemon,_nixudaemon": {
 		"name": "Daemon, Nixudaemon",
 		"file": "monsterdisplaya2b7.html",
@@ -1455,6 +1466,7 @@
 		"short_description": "This four-armed fiend has blue-green skin covered in white scars. Its two upper arms end in long, barbed whips of calloused flesh.",
 		"display": "monster"
 	},
+	"nixudaemon": { "copyof": "daemon,_nixudaemon" },
 	"daemon,_obcisidaemon": {
 		"name": "Daemon, Obcisidaemon",
 		"file": "monsterdisplay279b.html",
@@ -1561,6 +1573,7 @@
 		"short_description": "This massive fiend has eagle wings, a tusked canine face, and a muscular frame. It wields an immense, cruel-looking halberd.",
 		"display": "monster"
 	},
+	"obcisidaemon": { "copyof": "daemon,_obcisidaemon" },
 	"daemon,_olethrodaemon": {
 		"name": "Daemon, Olethrodaemon",
 		"file": "monsterdisplay2b53.html",
@@ -1665,6 +1678,7 @@
 		"short_description": "Crowned with a wicked array of twisted horns, this wide-mouthed, spherical behemoth stands on four stout legs.",
 		"display": "monster"
 	},
+	"olethrodaemon": { "copyof": "daemon,_olethrodaemon" },
 	"daemon,_phasmadaemon": {
 		"name": "Daemon, Phasmadaemon",
 		"file": "monsterdisplay46e5.html",
@@ -1753,6 +1767,7 @@
 		"short_description": "This serpentine monstrosity has the long snout of a crocodile, ram's horns, and mantis claws projecting from its sinuous body.",
 		"display": "monster"
 	},
+	"phasmadaemon": { "copyof": "daemon,_phasmadaemon" },
 	"daemon,_piscodaemon": {
 		"name": "Daemon, Piscodaemon",
 		"file": "monsterdisplaya08b.html",
@@ -1840,6 +1855,7 @@
 		"short_description": "This hideous cross between a lobster, an octopus, and a human threatens enemies with powerful claws and writhing tentacles.",
 		"display": "monster"
 	},
+	"piscodaemon": { "copyof": "daemon,_piscodaemon" },
 	"daemon,_purrodaemon": {
 		"name": "Daemon, Purrodaemon",
 		"file": "monsterdisplayf7b3.html",
@@ -1921,6 +1937,7 @@
 		"short_description": "Dozens of weapons pierce this massive monster's body. Red eyes glow with wickedness in its vulture-like head.",
 		"display": "monster"
 	},
+	"purrodaemon": { "copyof": "daemon,_purrodaemon" },
 	"daemon,_sangudaemon": {
 		"name": "Daemon, Sangudaemon",
 		"file": "monsterdisplay8756.html",
@@ -2011,6 +2028,7 @@
 		"short_description": "This human-sized, serpent-headed spider seems to be made of clotted blood, its dragonfly-like wings dripping crimson streamers.",
 		"display": "monster"
 	},
+	"sangudaemon": { "copyof": "daemon,_sangudaemon" },
 	"daemon,_sepsidaemon": {
 		"name": "Daemon, Sepsidaemon",
 		"file": "monsterdisplay041b.html",
@@ -2096,6 +2114,7 @@
 		"short_description": "A long-beaked, crested head on a twisted neck rises from a formless, glowing mass of a body. Now and then, a grasping claw extends forth.",
 		"display": "monster"
 	},
+	"sepsidaemon": { "copyof": "daemon,_sepsidaemon" },
 	"daemon,_suspiridaemon": {
 		"name": "Daemon, Suspiridaemon",
 		"file": "monsterdisplayb638.html",
@@ -2189,6 +2208,7 @@
 		"short_description": "This tall, three-legged, vulture-headed fiend has a grotesquely long, suckered tongue and gangly arms that end in claws.",
 		"display": "monster"
 	},
+	"suspiridaemon": { "copyof": "daemon,_suspiridaemon" },
 	"daemon,_temerdaemon": {
 		"name": "Daemon, Temerdaemon",
 		"file": "monsterdisplay1039.html",
@@ -2280,6 +2300,7 @@
 		"short_description": "This humanoid creature's limbs-four arms and four legs-bend in awkward configurations. It wields a scythe in its largest arms.",
 		"display": "monster"
 	},
+	"temerdaemon": { "copyof": "daemon,_temerdaemon" },
 	"daemon,_thanadaemon": {
 		"name": "Daemon, Thanadaemon",
 		"file": "monsterdisplay00c4.html",
@@ -2363,6 +2384,7 @@
 		"short_description": "Rattling with each stride, this looming, horned, skeletal figure clutches a wicked staff. A seething glow burns in its eye sockets.",
 		"display": "monster"
 	},
+	"thanadaemon": { "copyof": "daemon,_thanadaemon" },
 	"daemon,_venedaemon": {
 		"name": "Daemon, Venedaemon",
 		"file": "monsterdisplay7e84.html",
@@ -2457,6 +2479,7 @@
 		"short_description": "Tentacles protrude from the robes of this floating hooded figure in place of arms and legs. Its face is a disturbing, toothless maw.",
 		"display": "monster"
 	},
+	"venedaemon": { "copyof": "daemon,_venedaemon" },
 	"daemon,_vulnudaemon": {
 		"name": "Daemon, Vulnudaemon",
 		"file": "monsterdisplay3a2e.html",
@@ -2545,6 +2568,7 @@
 		"short_description": "A bloody, tooth-filled mouth that looks almost like a horrific gash gasps in the neck of this pale, childlike horror.",
 		"display": "monster"
 	},
+	"vulnudaemon": { "copyof": "daemon,_vulnudaemon" },
 	"dahzagan": {
 		"name": "Dahzagan",
 		"file": "monsterdisplayc59f.html",
@@ -2921,13 +2945,13 @@
 			"",
 			"#### Special Abilities",
 			"",
-			"**Dance of Death (Su)** A danse macabre is constantly surrounded by a 40-foot aura known as the dance of death, an endless gala of dancing spectral figures. Any living creature that enters the area of the dance of death must attempt a DC 27 Will save. On a failed save, the victim joins the ghostly dancers, takes 1d4 points of Constitution drain, and is affected as per [irresistible dance](unknown/irresistible_dance) (CL 14th). A creature can attempt a new DC 27 Will save at the end of its turn to escape from the effects of a dance of death; otherwise, these effects persist for as long as the victim remains within the aura. The Constitution drain effect only occurs, however, after the initial failed saving throw. As victims cannot willingly move from the square in which they dance, the dance's effects end when the danse macabre moves to a point where the victim is no longer within its aura, the danse macabre is destroyed, or if the victim is physically removed from the area. A victim who succeeds at a save (whether from the original exposure or at a later point to successfully escape the effect) is immune to the dance of death of the same danse macabre for 24 hours. Dance of death is a visual, sonic, mind-affecting compulsion effect, and blindness or deafness can provide protection from the effect. The save DC is Charisma-based.",
+			"**Dance of Death (Su)** A danse macabre is constantly surrounded by a 40-foot aura known as the dance of death, an endless gala of dancing spectral figures. Any living creature that enters the area of the dance of death must attempt a DC 27 Will save. On a failed save, the victim joins the ghostly dancers, takes 1d4 points of Constitution drain, and is affected as per [irresistible dance](spell/irresistible_dance) (CL 14th). A creature can attempt a new DC 27 Will save at the end of its turn to escape from the effects of a dance of death; otherwise, these effects persist for as long as the victim remains within the aura. The Constitution drain effect only occurs, however, after the initial failed saving throw. As victims cannot willingly move from the square in which they dance, the dance's effects end when the danse macabre moves to a point where the victim is no longer within its aura, the danse macabre is destroyed, or if the victim is physically removed from the area. A victim who succeeds at a save (whether from the original exposure or at a later point to successfully escape the effect) is immune to the dance of death of the same danse macabre for 24 hours. Dance of death is a visual, sonic, mind-affecting compulsion effect, and blindness or deafness can provide protection from the effect. The save DC is Charisma-based.",
 			"",
 			"**Deathless (Su)** As a manifestation of death incarnate, a danse macabre is not itself subject to permanent destruction. If reduced to 0 hit points, it vanishes, only to rejuvenate at full hit points in 1d4 days. Only by destroying the creature and then casting hallow to consecrate the site it manifested upon prevents the undead monster's reappearance.",
 			"",
 			"**Incorporeal Scythe (Su)** A danse macabre wields an incorporeal scythe in combat that leaves deep and horrific wounds on any creature it strikes. Attacks made with this scythe are touch attacks and deal slashing damage, but are not modified by any of the monster's ability scores. A creature hit by a danse macabre's incorporeal scythe attack must succeed at a DC 23 Fortitude save or take 1d6 points of Constitution drain. Each time a danse macabre drains Constitution from a target, the danse macabre regains 5 hit points, regardless of the total number of Constitution points drained by the attack. The save DC is Charisma-based.",
 			"",
-			"**Lifesense (Su)** A danse macabre notices and locates living creatures within 60 feet, just as if it had the [blindsight](unknown/blindsight) ability. It also senses the strength of life forces automatically, as per [deathwatch](unknown/deathwatch).",
+			"**Lifesense (Su)** A danse macabre notices and locates living creatures within 60 feet, just as if it had the [blindsight](umr/blindsight) ability. It also senses the strength of life forces automatically, as per [deathwatch](spell/deathwatch).",
 			"",
 			"#### Description",
 			"",
@@ -3109,6 +3133,7 @@
 		"short_description": "Beneath ragged shreds, this lean figure's chalky skin darkens to charred hues at the extremities.",
 		"display": "monster"
 	},
+	"caligni": { "copyof": "dark_folk,_caligni" },
 	"dark_folk,_dark_caller": {
 		"name": "Dark Folk, Dark Caller",
 		"file": "monsterdisplay696a.html",
@@ -3198,6 +3223,7 @@
 		"short_description": "Wrapped in tatters of dark musty robes, this humanoid figure weaves malevolent magic.",
 		"display": "monster"
 	},
+	"dark_caller": { "copyof": "dark_folk,_dark_caller" },
 	"dark_folk,_dark_champion": {
 		"name": "Dark Folk, Dark Champion",
 		"file": "monsterdisplay2995.html",
@@ -3280,6 +3306,7 @@
 		"short_description": "This gaunt humanoid's body is entirely cased in black plate armor. Its open-faced helm reveals its pale skin and shallow, fleshy hollows where its eyes should be.",
 		"display": "monster"
 	},
+	"dark_champion": { "copyof": "dark_folk,_dark_champion" },
 	"dark_folk,_dark_creeper": {
 		"name": "Dark Folk, Dark Creeper",
 		"file": "monsterdisplay2dd9.html",
@@ -3365,6 +3392,7 @@
 		"short_description": "Filthy, reeking black rags wrap this small humanoid from head to toe, leaving only its hands and pale white nose visible.",
 		"display": "monster"
 	},
+	"dark_creeper": { "copyof": "dark_folk,_dark_creeper" },
 	"dark_folk,_dark_dancer": {
 		"name": "Dark Folk, Dark Dancer",
 		"file": "monsterdisplaydc9a.html",
@@ -3447,6 +3475,7 @@
 		"short_description": "Dancing in a wicked celebration, this slight humanoid is wrapped head to toe in dirty scraps of dark cloth.",
 		"display": "monster"
 	},
+	"dark_dancer": { "copyof": "dark_folk,_dark_dancer" },
 	"dark_folk,_dark_empath": {
 		"name": "Dark Folk, Dark Empath",
 		"file": "monsterdisplay5800.html",
@@ -3533,6 +3562,7 @@
 		"short_description": "This gaunt, hunched humanoid's unblinking eyes stare out from a pale face wrapped in dark cloth.",
 		"display": "monster"
 	},
+	"dark_empath": { "copyof": "dark_folk,_dark_empath" },
 	"dark_folk,_dark_slayer": {
 		"name": "Dark Folk, Dark Slayer",
 		"file": "monsterdisplay9332.html",
@@ -3621,6 +3651,7 @@
 		"short_description": "This small humanoid is clothed in tattered rags from head to foot. Only its sinister eyes and pale hands are visible.",
 		"display": "monster"
 	},
+	"dark_slayer": { "copyof": "dark_folk,_dark_slayer" },
 	"dark_folk,_dark_stalker": {
 		"name": "Dark Folk, Dark Stalker",
 		"file": "monsterdisplayb6b6.html",
@@ -3706,6 +3737,7 @@
 		"short_description": "This tall humanoid's pale brow and black, soulless eyes are all that can be seen above a black scarf wrapped around its face.",
 		"display": "monster"
 	},
+	"dark_stalker": { "copyof": "dark_folk,_dark_stalker" },
 	"dark_young_of_shub-niggurath": {
 		"name": "Dark Young of Shub-Niggurath",
 		"file": "monsterdisplay9c9f.html",
@@ -3781,10 +3813,7 @@
 		"short_description": "The lumbering bulk of a treelike monster lurches out of the mist, its branches tentacles, its roots ending in hooves, and its trunk decorated with numerous drooling maws.",
 		"display": "monster"
 	},
-	"dark_young_of_shub_niggurath": {
-		"copyof": "dark_young_of_shub-niggurath",
-		"display": "monster"
-	},
+	"dark_young_of_shub_niggurath": { "copyof": "dark_young_of_shub-niggurath" },
 	"darkmantle": {
 		"name": "Darkmantle",
 		"file": "monsterdisplay0c91.html",
@@ -4425,6 +4454,7 @@
 		"short_description": "This enormous worm has stony hide and acid-dripping jaws.",
 		"display": "monster"
 	},
+	"death_worm_leviathan": { "copyof": "death_worm,_death_worm_leviathan" },
 	"deathsnatcher": {
 		"name": "Deathsnatcher",
 		"file": "monsterdisplay48d9.html",
@@ -4985,6 +5015,7 @@
 		"short_description": "This elderly man's wide-mouthed, staring countenance and webbed hands suggest a sinister taint in his bloodline.",
 		"display": "monster"
 	},
+	"deep_one_hybrid": { "copyof": "deep_one,_deep_one_hybrid" },
 	"deep_one,_elder_deep_one": {
 		"name": "Deep One, Elder Deep One",
 		"file": "monsterdisplay1b48.html",
@@ -5017,7 +5048,7 @@
 			"**XP** 38,400  ",
 			"CE Gargantuan monstrous humanoid (aquatic, deep one)  ",
 			"**Init** +5; **Senses** darkvision 60 ft., low-light vision; Perception +24  ",
-			"**Aura** [cloak of chaos](unknown/cloak_of_chaos) (DC 22), staggering presence (180 ft., DC 21)",
+			"**Aura** [cloak of chaos](spell/cloak_of_chaos) (DC 22), staggering presence (180 ft., DC 21)",
 			"",
 			"#### Defense",
 			"",
@@ -5077,6 +5108,7 @@
 		"short_description": "The frame of this immense monstrosity is humanoid, but its ichthyic visage is that of a deep-sea predator.",
 		"display": "monster"
 	},
+	"elder_deep_one": { "copyof": "deep_one,_elder_deep_one" },
 	"deep_sea_serpent": {
 		"name": "Deep Sea Serpent",
 		"file": "monsterdisplay6695.html",
@@ -5559,6 +5591,7 @@
 		"short_description": "This obese humanoid has a wide mouth, batlike wings, and pale fluid seeping from rolls of black, greasy skin.",
 		"display": "monster"
 	},
+	"gristly_demodand": { "copyof": "demodand,_gristly_demodand" },
 	"demodand,_shaggy_demodand": {
 		"name": "Demodand, Shaggy Demodand",
 		"file": "monsterdisplayb85a.html",
@@ -5638,6 +5671,7 @@
 		"short_description": "This toad-faced humanoid is bloated and swollen, with folds of obsidian skin hanging down beneath two immense bat wings.",
 		"display": "monster"
 	},
+	"shaggy_demodand": { "copyof": "demodand,_shaggy_demodand" },
 	"demodand,_slimy_demodand": {
 		"name": "Demodand, Slimy Demodand",
 		"file": "monsterdisplaye8c0.html",
@@ -5724,6 +5758,7 @@
 		"short_description": "This muscular, frog-headed humanoid has tattered flesh hanging from its batlike wings and is covered in a viscous slime.",
 		"display": "monster"
 	},
+	"slimy_demodand": { "copyof": "demodand,_slimy_demodand" },
 	"demodand,_squamous_demodand": {
 		"name": "Demodand, Squamous Demodand",
 		"file": "monsterdisplaydbef.html",
@@ -5817,6 +5852,7 @@
 		"short_description": "This titanic mass of flesh is covered in razor-sharp scales and has bony wings, four taloned arms, and a toothy, toad-like head.",
 		"display": "monster"
 	},
+	"squamous_demodand": { "copyof": "demodand,_squamous_demodand" },
 	"demodand,_stringy_demodand": {
 		"name": "Demodand, Stringy Demodand",
 		"file": "monsterdisplayff74.html",
@@ -5906,6 +5942,7 @@
 		"short_description": "This lanky, winged humanoid is covered in layers of long, ropy skin growths.",
 		"display": "monster"
 	},
+	"stringy_demodand": { "copyof": "demodand,_stringy_demodand" },
 	"demodand,_tarry_demodand": {
 		"name": "Demodand, Tarry Demodand",
 		"file": "monsterdisplayd728.html",
@@ -5988,6 +6025,7 @@
 		"short_description": "This lithe, toothy creature's jet-black skin looks like living tar, and ooze drips from the claws that cap its long arms.",
 		"display": "monster"
 	},
+	"tarry_demodand": { "copyof": "demodand,_tarry_demodand" },
 	"demon,_abrikandilu": {
 		"name": "Demon, Abrikandilu",
 		"file": "monsterdisplay2d79.html",
@@ -6080,6 +6118,7 @@
 		"short_description": "This deformed, horned, hunchbacked humanoid has a forked, ratlike tail and two thumbs on each taloned hand.",
 		"display": "monster"
 	},
+	"abrikandilu": { "copyof": "demon,_abrikandilu" },
 	"demon,_andrazku": {
 		"name": "Demon, Andrazku",
 		"file": "monsterdisplay7c8b.html",
@@ -6192,6 +6231,7 @@
 		"short_description": "This burly, primitive-looking creature has an ape-like upper body, demonic horns, cloven hooves, and skin the color of a snow-buried corpse.",
 		"display": "monster"
 	},
+	"andrazku": { "copyof": "demon,_andrazku" },
 	"demon,_babau": {
 		"name": "Demon, Babau",
 		"file": "monsterdisplayac5d.html",
@@ -6276,6 +6316,7 @@
 		"short_description": "This emaciated figure looks like a horned human skeleton smothered within a bone-tight hide of slimy leather.",
 		"display": "monster"
 	},
+	"babau": { "copyof": "demon,_babau" },
 	"demon,_balor": {
 		"name": "Demon, Balor",
 		"file": "monsterdisplaya6e5.html",
@@ -6386,6 +6427,7 @@
 		"short_description": "This winged fiend's horned head and fanged visage present the perfection of the demonic form, fire spurting from its flesh.",
 		"display": "monster"
 	},
+	"balor": { "copyof": "demon,_balor" },
 	"demon,_brimorak": {
 		"name": "Demon, Brimorak",
 		"file": "monsterdisplayfbaf.html",
@@ -6477,6 +6519,7 @@
 		"short_description": "This muscular, red-eyed, goat-headed demon wields a burning sword. Fire licks up from its flaming hooves.",
 		"display": "monster"
 	},
+	"brimorak": { "copyof": "demon,_brimorak" },
 	"demon,_cambion": {
 		"name": "Demon, Cambion",
 		"file": "monsterdisplaycd01.html",
@@ -6572,6 +6615,7 @@
 		"short_description": "This red-skinned, demonic humanoid has a forked tongue, and a pair of black horns sprout from its brow.",
 		"display": "monster"
 	},
+	"cambion": { "copyof": "demon,_cambion" },
 	"demon,_coloxus": {
 		"name": "Demon, Coloxus",
 		"file": "monsterdisplayc928.html",
@@ -6663,6 +6707,7 @@
 		"short_description": "This figure would be the picture of elegance and refinement were it not for its grotesque fly head and shivering insectile wings.",
 		"display": "monster"
 	},
+	"coloxus": { "copyof": "demon,_coloxus" },
 	"demon,_derakni": {
 		"name": "Demon, Derakni",
 		"file": "monsterdisplay7dde.html",
@@ -6752,6 +6797,7 @@
 		"short_description": "The size of a horse, this demonic locust has a scorpion's stinger and an almost-human face. Its front legs end in clawed hands.",
 		"display": "monster"
 	},
+	"derakni": { "copyof": "demon,_derakni" },
 	"demon,_dretch": {
 		"name": "Demon, Dretch",
 		"file": "monsterdisplay780f.html",
@@ -6830,6 +6876,7 @@
 		"short_description": "This creature's bloated frame shudders with each heaving step, yet despite its shape, the thing moves with surprising quickness.",
 		"display": "monster"
 	},
+	"dretch": { "copyof": "demon,_dretch" },
 	"demon,_gallu": {
 		"name": "Demon, Gallu",
 		"file": "monsterdisplaybd2a.html",
@@ -6927,6 +6974,7 @@
 		"short_description": "This horned, winged, wolf-headed demon has bone-white flesh onto which have been riveted plates of spiky armor.",
 		"display": "monster"
 	},
+	"gallu": { "copyof": "demon,_gallu" },
 	"demon,_ghalzarokh": {
 		"name": "Demon, Ghalzarokh",
 		"file": "monsterdisplay2131.html",
@@ -7011,6 +7059,7 @@
 		"short_description": "This corpulent, four-armed fiend is covered in yellow-orange dragon scales, and draconic wings sprout from its back.",
 		"display": "monster"
 	},
+	"ghalzarokh": { "copyof": "demon,_ghalzarokh" },
 	"demon,_gibrileth": {
 		"name": "Demon, Gibrileth",
 		"file": "monsterdisplaye8b7.html",
@@ -7102,6 +7151,7 @@
 		"short_description": "This flying, bulbous, tumor-riddled mass has numerous arms, no legs, and a leering, three-eyed face.",
 		"display": "monster"
 	},
+	"gibrileth": { "copyof": "demon,_gibrileth" },
 	"demon,_glabrezu": {
 		"name": "Demon, Glabrezu",
 		"file": "monsterdisplaya512.html",
@@ -7181,6 +7231,7 @@
 		"short_description": "Four arms grace the torso of this towering monstrosity. The monster's eyes shine with a mix of intelligence and cruelty.",
 		"display": "monster"
 	},
+	"glabrezu": { "copyof": "demon,_glabrezu" },
 	"demon,_hala": {
 		"name": "Demon, Hala",
 		"file": "monsterdisplay1f62.html",
@@ -7288,6 +7339,7 @@
 		"short_description": "Skin the color of thunderheads and wings made for soaring through the most violent winds mark this lean, cyclopic being as a master of terrible storms. The sound of shrieking wind emanates from its mouth full of needle-sharp teeth.",
 		"display": "monster"
 	},
+	"hala": { "copyof": "demon,_hala" },
 	"demon,_hezrou": {
 		"name": "Demon, Hezrou",
 		"file": "monsterdisplay00e4-2.html",
@@ -7375,6 +7427,7 @@
 		"short_description": "This fiend's armored flesh is scaly and moist. Its large, toothy mouth gapes below a pair of hungry, reptilian eyes.",
 		"display": "monster"
 	},
+	"hezrou": { "copyof": "demon,_hezrou" },
 	"demon,_incubus": {
 		"name": "Demon, Incubus",
 		"file": "monsterdisplay9d4f.html",
@@ -7462,6 +7515,7 @@
 		"short_description": "This darkly handsome humanoid's batlike wings, curving horns, and bestial legs betray his demonic origin.",
 		"display": "monster"
 	},
+	"incubus": { "copyof": "demon,_incubus" },
 	"demon,_kalavakus": {
 		"name": "Demon, Kalavakus",
 		"file": "monsterdisplay75b4.html",
@@ -7548,6 +7602,7 @@
 		"short_description": "This muscular, violet demon walks upon elephantine feet. Large, razor-sharp horns cover its body.",
 		"display": "monster"
 	},
+	"kalavakus": { "copyof": "demon,_kalavakus" },
 	"demon,_katpaskir": {
 		"name": "Demon, Katpaskir",
 		"file": "monsterdisplaycd50.html",
@@ -7653,6 +7708,7 @@
 		"short_description": "Four clawed arms sprout from this fiend's chest like the limbs of a buried insect struggling to crawl free. Overlapping iridescent plates of chitin cascade down the monster's back, shrouding four membranous dragonfly wings.",
 		"display": "monster"
 	},
+	"katpaskir": { "copyof": "demon,_katpaskir" },
 	"demon,_kithangian": {
 		"name": "Demon, Kithangian",
 		"file": "monsterdisplayd8a7.html",
@@ -7744,6 +7800,7 @@
 		"short_description": "This creature combines the features of a scorpion and a horse-slavering humanoid faces peer from between its two pincers.",
 		"display": "monster"
 	},
+	"kithangian": { "copyof": "demon,_kithangian" },
 	"demon,_larva": {
 		"name": "Demon, Larva",
 		"file": "monsterdisplayea80.html",
@@ -7808,6 +7865,7 @@
 		],
 		"display": "monster"
 	},
+	"larva": { "copyof": "demon,_larva" },
 	"demon,_lilitu": {
 		"name": "Demon, Lilitu",
 		"file": "monsterdisplay21d7.html",
@@ -7921,6 +7979,7 @@
 		"short_description": "While this seductive woman has goat horns, goat hooves, and a serpentine tail, her eyeless face is her most disturbing feature.",
 		"display": "monster"
 	},
+	"lilitu": { "copyof": "demon,_lilitu" },
 	"demon,_marilith": {
 		"name": "Demon, Marilith",
 		"file": "monsterdisplay2dc8.html",
@@ -8009,6 +8068,7 @@
 		"short_description": "This snake-bodied fiend has a six-armed woman's torso, pointed ears, and glittering, otherworldly eyes.",
 		"display": "monster"
 	},
+	"marilith": { "copyof": "demon,_marilith" },
 	"demon,_nabasu": {
 		"name": "Demon, Nabasu",
 		"file": "monsterdisplay99b0.html",
@@ -8090,6 +8150,7 @@
 		"short_description": "This lanky fiend's mouth is filled with sharp fangs, while great bat-like wings stretch from its scaly hide.",
 		"display": "monster"
 	},
+	"nabasu": { "copyof": "demon,_nabasu" },
 	"demon,_nalfeshnee": {
 		"name": "Demon, Nalfeshnee",
 		"file": "monsterdisplayc64c.html",
@@ -8173,6 +8234,7 @@
 		"short_description": "A towering, corpulent beast, this fiend has the hideous head of a boar and arms ending in fatty, four-fingered hands.",
 		"display": "monster"
 	},
+	"nalfeshnee": { "copyof": "demon,_nalfeshnee" },
 	"demon,_omox": {
 		"name": "Demon, Omox",
 		"file": "monsterdisplayc83f.html",
@@ -8265,6 +8327,7 @@
 		"short_description": "This rancid-smelling mound of animated ooze has about its shifting countenance the hideous shape of a half-melted man.",
 		"display": "monster"
 	},
+	"omox": { "copyof": "demon,_omox" },
 	"demon,_oolioddroo": {
 		"name": "Demon, Oolioddroo",
 		"file": "monsterdisplaya6a1.html",
@@ -8367,6 +8430,7 @@
 		"short_description": "This skeletally thin woman has a mothlike face, flies upon dragonfly wings, and is wrapped in shadows.",
 		"display": "monster"
 	},
+	"oolioddroo": { "copyof": "demon,_oolioddroo" },
 	"demon,_painajai": {
 		"name": "Demon, Painajai",
 		"file": "monsterdisplayff4a.html",
@@ -8458,6 +8522,7 @@
 		"short_description": "The eight spider eyes of this pale, towering humanoid glisten hungrily, and its mouth contains dozens of sharp teeth. It carries a barbed spear with a long, clinking chain attached to its end.",
 		"display": "monster"
 	},
+	"painajai": { "copyof": "demon,_painajai" },
 	"demon,_quasit": {
 		"name": "Demon, Quasit",
 		"file": "monsterdisplaybb0b.html",
@@ -8544,6 +8609,7 @@
 		"short_description": "Ram horns curl back from the twisted head of this tiny winged demon, and its body is thin and wiry.",
 		"display": "monster"
 	},
+	"quasit": { "copyof": "demon,_quasit" },
 	"demon,_schir": {
 		"name": "Demon, Schir",
 		"file": "monsterdisplay4050.html",
@@ -8634,6 +8700,7 @@
 		"short_description": "This goat-headed humanoid is covered in a mangy gray hide that only partly covers its gaunt but muscled frame.",
 		"display": "monster"
 	},
+	"schir": { "copyof": "demon,_schir" },
 	"demon,_seraptis": {
 		"name": "Demon, Seraptis",
 		"file": "monsterdisplayd7f6.html",
@@ -8725,6 +8792,7 @@
 		"short_description": "This woman's flesh is pale and clammy, as if her body had been drained of blood from the fanged slashes on her four arms.",
 		"display": "monster"
 	},
+	"seraptis": { "copyof": "demon,_seraptis" },
 	"demon,_shachath": {
 		"name": "Demon, Shachath",
 		"file": "monsterdisplay2817.html",
@@ -8826,6 +8894,7 @@
 		"short_description": "This winged abomination is a horrid mix of demonic and angelic features, as if two bodies were carelessly fused into one. Its fanged, inhuman face is frozen in permanent contempt, while a beautiful visage with an expression of horror bulges from the back of its skull.",
 		"display": "monster"
 	},
+	"shachath": { "copyof": "demon,_shachath" },
 	"demon,_shadow_demon": {
 		"name": "Demon, Shadow Demon",
 		"file": "monsterdisplay8baa.html",
@@ -8913,6 +8982,7 @@
 		"short_description": "Only this shadowy bat-winged demon's teeth and claws have any sense of physicality to them-the rest is lost in darkness.",
 		"display": "monster"
 	},
+	"shadow_demon": { "copyof": "demon,_shadow_demon" },
 	"demon,_shemhazian": {
 		"name": "Demon, Shemhazian",
 		"file": "monsterdisplay47ba.html",
@@ -9002,6 +9072,7 @@
 		"short_description": "This enormous, bestial demon combines the worst aspects of a bear, a mantis, a wolf, and a reptilian humanoid.",
 		"display": "monster"
 	},
+	"shemhazian": { "copyof": "demon,_shemhazian" },
 	"demon,_succubus": {
 		"name": "Demon, Succubus",
 		"file": "monsterdisplay0753.html",
@@ -9084,6 +9155,7 @@
 		"short_description": "Tiny horns, bat-like wings, and a sinuous tail betray the demonic nature of this alluring woman.",
 		"display": "monster"
 	},
+	"succubus": { "copyof": "demon,_succubus" },
 	"demon,_swaithe": {
 		"name": "Demon, Swaithe",
 		"file": "monsterdisplay88da.html",
@@ -9180,6 +9252,7 @@
 		"short_description": "This creepy ash-gray goblin-like creature has empty eye sockets and scraggly, stained teeth.",
 		"display": "monster"
 	},
+	"swaithe": { "copyof": "demon,_swaithe" },
 	"demon,_thoxel_demon": {
 		"name": "Demon, Thoxel Demon",
 		"file": "monsterdisplay9f09.html",
@@ -9283,6 +9356,7 @@
 		"short_description": "Dead white scars and raw red flesh crisscross this creature's scorched and sallow skin as though it has been flogged and branded a thousand times.",
 		"display": "monster"
 	},
+	"thoxel_demon": { "copyof": "demon,_thoxel_demon" },
 	"demon,_ulkreth": {
 		"name": "Demon, Ulkreth",
 		"file": "monsterdisplay8cc3.html",
@@ -9389,6 +9463,7 @@
 		"short_description": "This towering monstrosity is clad in cracked boulders, jagged shards of rock, spars of crooked metal, and shredded steel. Four immense arms end in rocky fists, and bony wings protrude from its back.",
 		"display": "monster"
 	},
+	"ulkreth": { "copyof": "demon,_ulkreth" },
 	"demon,_vavakia": {
 		"name": "Demon, Vavakia",
 		"file": "monsterdisplay94a8.html",
@@ -9489,6 +9564,7 @@
 		"short_description": "This reptilian demon has a quadrupedal dinosaur's lower body, a vaguely humanoid upper torso, and a draconic saurian head.",
 		"display": "monster"
 	},
+	"vavakia": { "copyof": "demon,_vavakia" },
 	"demon,_vermlek": {
 		"name": "Demon, Vermlek",
 		"file": "monsterdisplay44ed.html",
@@ -9579,6 +9655,7 @@
 		"short_description": "A hideous, pale, wormlike head pushes violently up and out of a corpulent man's body.",
 		"display": "monster"
 	},
+	"vermlek": { "copyof": "demon,_vermlek" },
 	"demon,_vilsteth": {
 		"name": "Demon, Vilsteth",
 		"file": "monsterdisplay2886.html",
@@ -9681,6 +9758,7 @@
 		"short_description": "This fiend seems carved from weathered ivory, and runes and symbols of power cover its pale flesh. Its eyes glow an eerie yellow, and horns curl from its eerie, mouthless head.",
 		"display": "monster"
 	},
+	"vilsteth": { "copyof": "demon,_vilsteth" },
 	"demon,_vrock": {
 		"name": "Demon, Vrock",
 		"file": "monsterdisplay14b5.html",
@@ -9766,6 +9844,7 @@
 		"short_description": "A cloud of spores and a trail of feathers surrounds this twisted cross between a man and a gigantic vulture.",
 		"display": "monster"
 	},
+	"vrock": { "copyof": "demon,_vrock" },
 	"demon,_vrolikai": {
 		"name": "Demon, Vrolikai",
 		"file": "monsterdisplay999c.html",
@@ -9856,6 +9935,7 @@
 		"short_description": "This black-skinned, bat-winged demon has four arms; a long, thin tail; and a leering, fanged face with dead, white eyes.",
 		"display": "monster"
 	},
+	"vrolikai": { "copyof": "demon,_vrolikai" },
 	"demon,_yaenit": {
 		"name": "Demon, Yaenit",
 		"file": "monsterdisplay8b40.html",
@@ -9945,6 +10025,7 @@
 		"short_description": "Patches of fur adorn the sickly flesh of this gangly but muscular hyena-headed humanoid.",
 		"display": "monster"
 	},
+	"yaenit": { "copyof": "demon,_yaenit" },
 	"denizen_of_leng": {
 		"name": "Denizen of Leng",
 		"file": "monsterdisplay8098.html",
@@ -10277,6 +10358,7 @@
 		"short_description": "Wily and well groomed, this diminutive blue-tinged man exudes detached patience. A wicked-looking crossbow and blood-stained manacles enhance his aura of quiet menace.",
 		"display": "monster"
 	},
+	"derro_bodysnatcher": { "copyof": "derro,_derro_bodysnatcher" },
 	"derro,_derro_brainwasher": {
 		"name": "Derro, Derro Brainwasher",
 		"file": "monsterdisplay6f7d.html",
@@ -10354,6 +10436,7 @@
 		"short_description": "This pallid woman's clothing is adorned with leather straps, wicked barbs, and surgical tools. Her eyes twinkle with madness.",
 		"display": "monster"
 	},
+	"derro_brainwasher": { "copyof": "derro,_derro_brainwasher" },
 	"derro,_derro_magister": {
 		"name": "Derro, Derro Magister",
 		"file": "monsterdisplay611d-2.html",
@@ -10439,6 +10522,7 @@
 		"short_description": "This pale blue humanoid has bright white eyes and wild, white hair adorned with a spiked, gem-encrusted coronet.",
 		"display": "monster"
 	},
+	"derro_magister": { "copyof": "derro,_derro_magister" },
 	"derro,_urban_stalker": {
 		"name": "Derro, Urban Stalker",
 		"file": "monsterdisplayf190.html",
@@ -10513,6 +10597,7 @@
 		"short_description": "This furtive gray-skinned woman wears a tattered cloak and a spiky circlet. The barbed hook of her weapon glistens with poison.",
 		"display": "monster"
 	},
+	"urban_stalker": { "copyof": "derro,_urban_stalker" },
 	"derro,_white-eyed_torturer": {
 		"name": "Derro, White-Eyed Torturer",
 		"file": "monsterdisplaye175.html",
@@ -10590,10 +10675,8 @@
 		"short_description": "A scorpion's claw and twisted goat legs, all stitched into place with ragged black thread, replace three of this wild-haired man's limbs.",
 		"display": "monster"
 	},
-	"white_eyed_torturer": {
-		"copyof": "derro,_white-eyed_torturer",
-		"display": "monster"
-	},
+	"white-eyed_torturer": { "copyof": "derro,_white-eyed_torturer" },
+	"white_eyed_torturer": { "copyof": "derro,_white-eyed_torturer" },
 	"desert_vermin,_giant_ground_wasp": {
 		"name": "Desert Vermin, Giant Ground Wasp",
 		"file": "monsterdisplay36dc.html",
@@ -10661,6 +10744,7 @@
 		"short_description": "Black and yellow stripes cover this winged insect's bulbous abdomen, which ends in a dagger-sized stinger.",
 		"display": "monster"
 	},
+	"giant_ground_wasp": { "copyof": "desert_vermin,_giant_ground_wasp" },
 	"desert_vermin,_giant_walking_stick": {
 		"name": "Desert Vermin, Giant Walking Stick",
 		"file": "monsterdisplay33c2.html",
@@ -10729,6 +10813,7 @@
 		"short_description": "What at first appears to be a spindly, dead tree suddenly crawls from its camouflage, its wiry antenna twitching in the air.",
 		"display": "monster"
 	},
+	"giant_walking_stick": { "copyof": "desert_vermin,_giant_walking_stick" },
 	"despoiler": {
 		"name": "Despoiler",
 		"file": "monsterdisplayade3.html",
@@ -11035,10 +11120,8 @@
 		"short_description": "This robed figure appears human except for snakelike eyes, a pair of devilish horns, and the occasional dart of a forked tongue.",
 		"display": "monster"
 	},
-	"accomplice_devil": {
-		"copyof": "devil,_accomplice_devil_hesperian",
-		"display": "monster"
-	},
+	"hesperian": { "copyof": "devil,_accomplice_devil_hesperian" },
+	"accomplice_devil": { "copyof": "devil,_accomplice_devil_hesperian" },
 	"devil,_accuser_devil_zebub": {
 		"name": "Devil, Accuser Devil (Zebub)",
 		"file": "monsterdisplayd5b7.html",
@@ -11129,10 +11212,8 @@
 		"short_description": "This childlike blasphemy conjoins the features of a plump human infant and a gigantic, gore-fattened fly.",
 		"display": "monster"
 	},
-	"accuser_devil": {
-		"copyof": "devil,_accuser_devil_zebub",
-		"display": "monster"
-	},
+	"zebub": { "copyof": "devil,_accuser_devil_zebub" },
+	"accuser_devil": { "copyof": "devil,_accuser_devil_zebub" },
 	"devil,_advodaza": {
 		"name": "Devil, Advodaza",
 		"file": "monsterdisplayc7f9.html",
@@ -11230,6 +11311,7 @@
 		"short_description": "The rending, thunderous clangor of rushing claws heralds the charge of this fire-eyed ruin, a terror of flame-seared hide and saber-like spines shaped in a monstrously muscled centauric form. The true terrible ferocity of the thing lies hidden, restrained beneath armor and wings of crumbling stone carved with icons as ancient as they are undeniable and profane.",
 		"display": "monster"
 	},
+	"advodaza": { "copyof": "devil,_advodaza" },
 	"devil,_apostate_devil_deimavigga": {
 		"name": "Devil, Apostate Devil (Deimavigga)",
 		"file": "monsterdisplayf741.html",
@@ -11333,10 +11415,8 @@
 		"short_description": "A grim metal mask floats above ceremonial armor that shifts and writhes, and long blades form fingers on gauntleted hands.",
 		"display": "monster"
 	},
-	"apostate_devil": {
-		"copyof": "devil,_apostate_devil_deimavigga",
-		"display": "monster"
-	},
+	"deimavigga": { "copyof": "devil,_apostate_devil_deimavigga" },
+	"apostate_devil": { "copyof": "devil,_apostate_devil_deimavigga" },
 	"devil,_barbed_devil_hamatula": {
 		"name": "Devil, Barbed Devil (Hamatula)",
 		"file": "monsterdisplaye6e7.html",
@@ -11423,10 +11503,8 @@
 		"short_description": "From the tip of its lashing tail to the serrated features of its fang-filled visage, this fiery-eyed sentinel bristles with barbs.",
 		"display": "monster"
 	},
-	"barbed_devil": {
-		"copyof": "devil,_barbed_devil_hamatula",
-		"display": "monster"
-	},
+	"hamatula": { "copyof": "devil,_barbed_devil_hamatula" },
+	"barbed_devil": { "copyof": "devil,_barbed_devil_hamatula" },
 	"devil,_bearded_devil_barbazu": {
 		"name": "Devil, Bearded Devil (Barbazu)",
 		"file": "monsterdisplaybb00.html",
@@ -11512,10 +11590,8 @@
 		"short_description": "This seething devil deftly wields a vicious, saw-toothed glaive, while below its toothy maw writhes a hideous, twitching beard.",
 		"display": "monster"
 	},
-	"bearded_devil": {
-		"copyof": "devil,_bearded_devil_barbazu",
-		"display": "monster"
-	},
+	"barbazu": { "copyof": "devil,_bearded_devil_barbazu" },
+	"bearded_devil": { "copyof": "devil,_bearded_devil_barbazu" },
 	"devil,_belier_devil_bdellavritra": {
 		"name": "Devil, Belier Devil (Bdellavritra)",
 		"file": "monsterdisplay52a7.html",
@@ -11602,10 +11678,8 @@
 		"short_description": "This amphisbaenic monstrosity has the body of a slug with a leech's mouth at one end and a knot of three human heads at the other.",
 		"display": "monster"
 	},
-	"belier_devil": {
-		"copyof": "devil,_belier_devil_bdellavritra",
-		"display": "monster"
-	},
+	"bdellavritra": { "copyof": "devil,_belier_devil_bdellavritra" },
+	"belier_devil": { "copyof": "devil,_belier_devil_bdellavritra" },
 	"devil,_bone_devil_osyluth": {
 		"name": "Devil, Bone Devil (Osyluth)",
 		"file": "monsterdisplaydd98.html",
@@ -11691,10 +11765,8 @@
 		"short_description": "Merging the most horrifying features of carrion-fed insect and withered cadaver, this bony devil moves in unsettling lurches.",
 		"display": "monster"
 	},
-	"bone_devil": {
-		"copyof": "devil,_bone_devil_osyluth",
-		"display": "monster"
-	},
+	"osyluth": { "copyof": "devil,_bone_devil_osyluth" },
+	"bone_devil": { "copyof": "devil,_bone_devil_osyluth" },
 	"devil,_cabal_devil_uniila": {
 		"name": "Devil, Cabal Devil (Uniila)",
 		"file": "monsterdisplay3420.html",
@@ -11802,10 +11874,8 @@
 		"short_description": "The curves of a shapely maiden define the outline of a mysterious figure wrapped in mist and strips of ancient robes. From beneath the rune-embroidered tatters stretch four, corpse-pale arms, each bearing either a blade or some mysterious arcane device. Hidden within the cowl of its hood shimmer the faintest outlines of a veiled face and a pair of eyes flickering with barely restrained energy.",
 		"display": "monster"
 	},
-	"cabal_devil": {
-		"copyof": "devil,_cabal_devil_uniila",
-		"display": "monster"
-	},
+	"uniila": { "copyof": "devil,_cabal_devil_uniila" },
+	"cabal_devil": { "copyof": "devil,_cabal_devil_uniila" },
 	"devil,_chortov": {
 		"name": "Devil, Chortov",
 		"file": "monsterdisplaya337.html",
@@ -11895,6 +11965,7 @@
 		"short_description": "Quivering with heat and barely restrained might, this monstrous, pig-faced titan looms taller than a city wall. Girded in fiendishly etched armor too small for its incredible corpulence, rolls of densely muscled hide spill forth in a flamered avalanche. Gnashing its many-tusked teeth and clutching a wicked military fork, the terrible giant rumbles as if preparing to roar or scream.",
 		"display": "monster"
 	},
+	"chortov": { "copyof": "devil,_chortov" },
 	"devil,_contract_devil_phistophilus": {
 		"name": "Devil, Contract Devil (Phistophilus)",
 		"file": "monsterdisplay864a.html",
@@ -12005,10 +12076,8 @@
 		"short_description": "With rust-colored skin and a jutting crown of ridge-like horns, this muscular devil is draped in lengthy contracts.",
 		"display": "monster"
 	},
-	"contract_devil": {
-		"copyof": "devil,_contract_devil_phistophilus",
-		"display": "monster"
-	},
+	"phistophilus": { "copyof": "devil,_contract_devil_phistophilus" },
+	"contract_devil": { "copyof": "devil,_contract_devil_phistophilus" },
 	"devil,_curse_devil_phiam": {
 		"name": "Devil, Curse Devil (Phiam)",
 		"file": "monsterdisplay0416.html",
@@ -12100,10 +12169,8 @@
 		"short_description": "This short fiend has mottled pink skin, clawed fingers, and green eyes. It drags a tattered scroll behind its feminine frame.",
 		"display": "monster"
 	},
-	"curse_devil": {
-		"copyof": "devil,_curse_devil_phiam",
-		"display": "monster"
-	},
+	"phiam": { "copyof": "devil,_curse_devil_phiam" },
+	"curse_devil": { "copyof": "devil,_curse_devil_phiam" },
 	"devil,_drowning_devil_sarglagon": {
 		"name": "Devil, Drowning Devil (Sarglagon)",
 		"file": "monsterdisplay199f.html",
@@ -12194,10 +12261,8 @@
 		"short_description": "This serpentine creature has finlike wings, ram horns, four eyes, and arms that end in masses of tentacles.",
 		"display": "monster"
 	},
-	"drowning_devil": {
-		"copyof": "devil,_drowning_devil_sarglagon",
-		"display": "monster"
-	},
+	"sarglagon": { "copyof": "devil,_drowning_devil_sarglagon" },
+	"drowning_devil": { "copyof": "devil,_drowning_devil_sarglagon" },
 	"devil,_erinyes": {
 		"name": "Devil, Erinyes",
 		"file": "monsterdisplay8d62.html",
@@ -12281,6 +12346,7 @@
 		"short_description": "Some calamity has befallen this angelic warrior. Wings stained black shear the air as her merciless eyes search for a target.",
 		"display": "monster"
 	},
+	"erinyes": { "copyof": "devil,_erinyes" },
 	"devil,_executioner_devil_munagola": {
 		"name": "Devil, Executioner Devil (Munagola)",
 		"file": "monsterdisplay9969.html",
@@ -12362,10 +12428,8 @@
 		"short_description": "Corded muscles ripple under this massive devil's red skin as her black wings beat overhead and her black eyes smolder like coals.",
 		"display": "monster"
 	},
-	"executioner_devil": {
-		"copyof": "devil,_executioner_devil_munagola",
-		"display": "monster"
-	},
+	"munagola": { "copyof": "devil,_executioner_devil_munagola" },
+	"executioner_devil": { "copyof": "devil,_executioner_devil_munagola" },
 	"devil,_gambling_devil_magadaz": {
 		"name": "Devil, Gambling Devil (Magadaz)",
 		"file": "monsterdisplay8aa3.html",
@@ -12472,10 +12536,8 @@
 		"short_description": "This creature resembles a man crafted entirely of gold. Some of its features seem warped, as if the creature had been melted and then reformed.",
 		"display": "monster"
 	},
-	"gambling_devil": {
-		"copyof": "devil,_gambling_devil_magadaz",
-		"display": "monster"
-	},
+	"magadaz": { "copyof": "devil,_gambling_devil_magadaz" },
+	"gambling_devil": { "copyof": "devil,_gambling_devil_magadaz" },
 	"devil,_handmaiden_devil_gylou": {
 		"name": "Devil, Handmaiden Devil (Gylou)",
 		"file": "monsterdisplaya270.html",
@@ -12565,10 +12627,8 @@
 		"short_description": "Twin tentacles stretch from the crown of this feminine fiend's head, while her lower body blooms in a gown of writhing tendrils.",
 		"display": "monster"
 	},
-	"handmaiden_devil": {
-		"copyof": "devil,_handmaiden_devil_gylou",
-		"display": "monster"
-	},
+	"gylou": { "copyof": "devil,_handmaiden_devil_gylou" },
+	"handmaiden_devil": { "copyof": "devil,_handmaiden_devil_gylou" },
 	"devil,_heresy_devil_ayngavhaul": {
 		"name": "Devil, Heresy Devil (Ayngavhaul)",
 		"file": "monsterdisplaya289.html",
@@ -12661,10 +12721,8 @@
 		"short_description": "Seemingly fused with a monstrous iron throne, this impossibly corpulent being floats several feet off the ground.",
 		"display": "monster"
 	},
-	"heresy_devil": {
-		"copyof": "devil,_heresy_devil_ayngavhaul",
-		"display": "monster"
-	},
+	"ayngavhaul": { "copyof": "devil,_heresy_devil_ayngavhaul" },
+	"heresy_devil": { "copyof": "devil,_heresy_devil_ayngavhaul" },
 	"devil,_horned_devil_cornugon": {
 		"name": "Devil, Horned Devil (Cornugon)",
 		"file": "monsterdisplay00e3.html",
@@ -12749,10 +12807,8 @@
 		"short_description": "Bristling with terrible spines and a crown of deadly horns, this leering winged terror wields a whirling barbed chain.",
 		"display": "monster"
 	},
-	"horned_devil": {
-		"copyof": "devil,_horned_devil_cornugon",
-		"display": "monster"
-	},
+	"cornugon": { "copyof": "devil,_horned_devil_cornugon" },
+	"horned_devil": { "copyof": "devil,_horned_devil_cornugon" },
 	"devil,_host_devil,_greater_magaav": {
 		"name": "Devil, Host Devil, Greater (Magaav)",
 		"file": "monsterdisplay725d.html",
@@ -12843,10 +12899,8 @@
 		"short_description": "Twisted horns rise from the skinless head of this winged creature, and noxious fumes leak from between its yellowed fangs.",
 		"display": "monster"
 	},
-	"greater_host_devil": {
-		"copyof": "devil,_host_devil,_greater_magaav",
-		"display": "monster"
-	},
+	"host_devil,_greater_magaav": { "copyof": "devil,_host_devil,_greater_magaav" },
+	"greater_host_devil": { "copyof": "devil,_host_devil,_greater_magaav" },
 	"devil,_host_devil,_lesser_gaav": {
 		"name": "Devil, Host Devil, Lesser (Gaav)",
 		"file": "monsterdisplay8d48.html",
@@ -12938,10 +12992,8 @@
 		"short_description": "This tangle of scaly avian limbs furiously beats its double pair of vulture-like wings, keeping its fiendish, horned skull-head aloft. As fetid breath rises from its repulsive, fly-covered visage, clawed arms work together to slash the air with a vicious-looking spear.",
 		"display": "monster"
 	},
-	"lesser_host_devil": {
-		"copyof": "devil,_host_devil,_lesser_gaav",
-		"display": "monster"
-	},
+	"host_devil,_lesser_gaav": { "copyof": "devil,_host_devil,_lesser_gaav" },
+	"lesser_host_devil": { "copyof": "devil,_host_devil,_lesser_gaav" },
 	"devil,_ice_devil_gelugon": {
 		"name": "Devil, Ice Devil (Gelugon)",
 		"file": "monsterdisplay1909.html",
@@ -13026,10 +13078,8 @@
 		"short_description": "A pair of frozen, multifaceted eyes coldly judge all before this towering, insectile monstrosity.",
 		"display": "monster"
 	},
-	"ice_devil": {
-		"copyof": "devil,_ice_devil_gelugon",
-		"display": "monster"
-	},
+	"gelugon": { "copyof": "devil,_ice_devil_gelugon" },
+	"ice_devil": { "copyof": "devil,_ice_devil_gelugon" },
 	"devil,_immolation_devil_puragaus": {
 		"name": "Devil, Immolation Devil (Puragaus)",
 		"file": "monsterdisplay05e8.html",
@@ -13116,10 +13166,8 @@
 		"short_description": "Ash and embers encrust the smoldering humanoid frame of this imperious, dragon-winged devil.",
 		"display": "monster"
 	},
-	"immolation_devil": {
-		"copyof": "devil,_immolation_devil_puragaus",
-		"display": "monster"
-	},
+	"puragaus": { "copyof": "devil,_immolation_devil_puragaus" },
+	"immolation_devil": { "copyof": "devil,_immolation_devil_puragaus" },
 	"devil,_imp": {
 		"name": "Devil, Imp",
 		"file": "monsterdisplay4a88.html",
@@ -13207,6 +13255,7 @@
 		"short_description": "Fiendish wings and a whipping scorpion-like tail lash behind this diminutive, red-skinned nuisance.",
 		"display": "monster"
 	},
+	"imp": { "copyof": "devil,_imp" },
 	"devil,_lemure": {
 		"name": "Devil, Lemure",
 		"file": "monsterdisplay44fa.html",
@@ -13276,6 +13325,7 @@
 		"short_description": "A roiling wave of flesh gushes forward. Amid the fatty surge wriggle half-formed limbs and a dripping tumorous face.",
 		"display": "monster"
 	},
+	"lemure": { "copyof": "devil,_lemure" },
 	"devil,_mnemor": {
 		"name": "Devil, Mnemor",
 		"file": "monsterdisplay1fdc.html",
@@ -13367,6 +13417,7 @@
 		"short_description": "This ghoulish figure wears a tattered robe and stares with milky-white eyes, a proboscis-like tongue snaking out over its distended jaw.",
 		"display": "monster"
 	},
+	"mnemor": { "copyof": "devil,_mnemor" },
 	"devil,_nemesis_devil_advodaza": {
 		"name": "Devil, Nemesis Devil (Advodaza)",
 		"file": "monsterdisplay6629.html",
@@ -13472,10 +13523,7 @@
 		"short_description": "This ancient monstrosity has the torso of a massively muscled giant.",
 		"display": "monster"
 	},
-	"nemesis_devil": {
-		"copyof": "devil,_nemesis_devil_advodaza",
-		"display": "monster"
-	},
+	"nemesis_devil": { "copyof": "devil,_nemesis_devil_advodaza" },
 	"devil,_nupperibo": {
 		"name": "Devil, Nupperibo",
 		"file": "monsterdisplay89e0.html",
@@ -13547,6 +13595,7 @@
 		],
 		"display": "monster"
 	},
+	"nupperibo": { "copyof": "devil,_nupperibo" },
 	"devil,_pit_fiend": {
 		"name": "Devil, Pit Fiend",
 		"file": "monsterdisplayfa5c.html",
@@ -13647,6 +13696,7 @@
 		"short_description": "A pair of gigantic, flame-seared wings and eyes smoldering like embers give this towering devil a truly horrific appearance.",
 		"display": "monster"
 	},
+	"pit_fiend": { "copyof": "devil,_pit_fiend" },
 	"devil,_possession_devil,_greater_gidim": {
 		"name": "Devil, Possession Devil, Greater (Gidim)",
 		"file": "monsterdisplayc4b9.html",
@@ -13744,10 +13794,8 @@
 		],
 		"display": "monster"
 	},
-	"greater_possession_devil": {
-		"copyof": "devil,_possession_devil,_greater_gidim",
-		"display": "monster"
-	},
+	"greater_gidim": { "copyof": "devil,_possession_devil,_greater_gidim" },
+	"greater_possession_devil": { "copyof": "devil,_possession_devil,_greater_gidim" },
 	"devil,_possession_devil,_lesser_gidim": {
 		"name": "Devil, Possession Devil, Lesser (Gidim)",
 		"file": "monsterdisplayef50.html",
@@ -13849,10 +13897,8 @@
 		"short_description": "An impression of unmistakable malice pervades the area, the vague yet undeniable sensation of looming malevolence and faint foul breath.",
 		"display": "monster"
 	},
-	"lesser_possession_devil": {
-		"copyof": "devil,_possession_devil,_lesser_gidim",
-		"display": "monster"
-	},
+	"lesser_gidim": { "copyof": "devil,_possession_devil,_lesser_gidim" },
+	"lesser_possession_devil": { "copyof": "devil,_possession_devil,_lesser_gidim" },
 	"devil,_rust_devil_ferrugon": {
 		"name": "Devil, Rust Devil (Ferrugon)",
 		"file": "monsterdisplay7d67.html",
@@ -13973,10 +14019,8 @@
 		"short_description": "This creature has curling ram's horns, metallic flesh that bears coiling ribbons of rust, and wings covered with rusty metallic feathers, each resembling a weathered dagger.",
 		"display": "monster"
 	},
-	"rust_devil": {
-		"copyof": "devil,_rust_devil_ferrugon",
-		"display": "monster"
-	},
+	"ferrugon": { "copyof": "devil,_rust_devil_ferrugon" },
+	"rust_devil": { "copyof": "devil,_rust_devil_ferrugon" },
 	"devil,_salikotal": {
 		"name": "Devil, Salikotal",
 		"file": "monsterdisplay39ac.html",
@@ -14077,6 +14121,7 @@
 		"short_description": "On lean limbs the color of spilt blood creeps a being of sinister grace. Eyes like embers and a sneer full of needle-thin teeth gleam from an unmistakably fiendish visage. A pair of crimson wings sprout from the back of the hairless humanoid form, fluttering silently like an assassin's cloak, while in one hand it clutches the twisted, dagger-like horn of some infernal terror.",
 		"display": "monster"
 	},
+	"salikotal": { "copyof": "devil,_salikotal" },
 	"devil,_sire_devil_patraavex": {
 		"name": "Devil, Sire Devil (Patraavex)",
 		"file": "monsterdisplay7b4b.html",
@@ -14166,10 +14211,8 @@
 		"short_description": "This fiend is a horrendous amalgamation of snapping claws and writhing tendrils with a disgusting fanged mouth running vertically across its torso.",
 		"display": "monster"
 	},
-	"sire_devil": {
-		"copyof": "devil,_sire_devil_patraavex",
-		"display": "monster"
-	},
+	"patraavex": { "copyof": "devil,_sire_devil_patraavex" },
+	"sire_devil": { "copyof": "devil,_sire_devil_patraavex" },
 	"devil,_tinder_devil_ukobach": {
 		"name": "Devil, Tinder Devil (Ukobach)",
 		"file": "monsterdisplay0ea4.html",
@@ -14268,10 +14311,8 @@
 		"short_description": "The light of a flaming pitchfork illuminates a creepily malformed little man, his red skin scarred and raw like the victim of horrific burns. Although barely taller than a child, his features mock those of a terrible old man with an oversized head, knife-like nose, and crazed round eyes flickering with wild flames.",
 		"display": "monster"
 	},
-	"tinder_devil": {
-		"copyof": "devil,_tinder_devil_ukobach",
-		"display": "monster"
-	},
+	"ukobach": { "copyof": "devil,_tinder_devil_ukobach" },
+	"tinder_devil": { "copyof": "devil,_tinder_devil_ukobach" },
 	"devil,_warmonger_devil_levaloch": {
 		"name": "Devil, Warmonger Devil (Levaloch)",
 		"file": "monsterdisplay4969.html",
@@ -14326,8 +14367,8 @@
 			"**Space** 10 ft., **Reach** 10 ft.  ",
 			"**Special Attacks** merciless blow, Trample (1d8+7, DC 19)  ",
 			"**Spell-Like Abilities** (CL 12th; concentration +14)  ",
-			"*At will*-[greater teleport](unknown/greater_teleport) (self plus 50 lbs. of objects only)  ",
-			"*1/day*-summon (level 4, 1d4 [lemure](unknown/lemure) or 1 [bearded devil](unknown/bearded_devil) 40%)",
+			"*At will*-[greater teleport](spell/greater_teleport) (self plus 50 lbs. of objects only)  ",
+			"*1/day*-summon (level 4, 1d4 [lemure](monster/lemure) or 1 [bearded devil](monster/bearded_devil) 40%)",
 			"",
 			"#### Statistics",
 			"",
@@ -14365,10 +14406,8 @@
 		"short_description": "Armored like an infernal knight upon some monstrous steed, this fiend of iron and nails scuttles upon six bladed, beetle-like legs.",
 		"display": "monster"
 	},
-	"warmonger_devil": {
-		"copyof": "devil,_warmonger_devil_levaloch",
-		"display": "monster"
-	},
+	"levaloch": { "copyof": "devil,_warmonger_devil_levaloch" },
+	"warmonger_devil": { "copyof": "devil,_warmonger_devil_levaloch" },
 	"devilfish": {
 		"name": "Devilfish",
 		"file": "monsterdisplaycb2b.html",
@@ -14533,13 +14572,13 @@
 			"",
 			"**Source** [Undead Revisited pg. 13](source/undead_revisited) When a devourer manifests, it undergoes a dramatic transformation-one more invasive and overwhelming than those most undead transformations involve. The devourer's body and mind are reshaped and reformed by the alien influences that created it, and what remains of the source is often so fragmentary so as to constitute little more than a characteristic turn of phrase or a dreamlike memory of a life spent elsewhere.",
 			"",
-			"Sometimes, however, a devourer retains a bit more of its previous personality-when this occurs, the remnants often take the form of unusual spell-like abilities. This might be a single ability-a trade of [contagion](unknown/contagion) for [bestow curse](unknown/bestow_curse), for example-but if the original creature was a powerful devil, daemon, or demon, these variant spell- like abilities can be quite different.",
+			"Sometimes, however, a devourer retains a bit more of its previous personality-when this occurs, the remnants often take the form of unusual spell-like abilities. This might be a single ability-a trade of [contagion](spell/contagion) for [bestow curse](spell/bestow_curse), for example-but if the original creature was a powerful devil, daemon, or demon, these variant spell- like abilities can be quite different.",
 			"",
-			"Former Devils: A devourer formed from a powerful devil sometimes has a suite of spell-like abilities that focuses more on the deception and control of living creatures. These devourers are always lawful evil. Replace the standard devourer spell-like abilities with the following at-will spell-like abilities: [alter self](unknown/alter_self), [beast shape I](unknown/beast_shape_1), [charm monster](unknown/charm_monster), [charm person](unknown/charm_person), [detect thoughts](unknown/detect_thoughts), [invisibility](unknown/invisibility), [lesser geas](unknown/lesser_geas), [lesser planar ally](unknown/lesser_planar_ally), [mass suggestion](unknown/mass_suggestion), [scrying](unknown/scrying), [secret page](unknown/secret_page), [suggestion](unknown/suggestion), and [summon monster VII](unknown/summon_monster_7).",
+			"Former Devils: A devourer formed from a powerful devil sometimes has a suite of spell-like abilities that focuses more on the deception and control of living creatures. These devourers are always lawful evil. Replace the standard devourer spell-like abilities with the following at-will spell-like abilities: [alter self](spell/alter_self), [beast shape I](spell/beast_shape_1), [charm monster](spell/charm_monster), [charm person](spell/charm_person), [detect thoughts](spell/detect_thoughts), [invisibility](unknown/invisibility), [lesser geas](spell/lesser_geas), [lesser planar ally](spell/lesser_planar_ally), [mass suggestion](spell/mass_suggestion), [scrying](unknown/scrying), [secret page](spell/secret_page), [suggestion](spell/suggestion), and [summon monster VII](spell/summon_monster_7).",
 			"",
-			"Former Daemons: A devourer formed from a powerful daemon sometimes has a suite of spell-like abilities that focuses more on the destruction of living creatures and spreading fear and horror. These devourers are always neutral evil. Replace the standard devourer spell-like abilities with the following at-will spell-like abilities: [animate dead](unknown/animate_dead), [contagion](unknown/contagion), [crushing despair](unknown/crushing_despair), [death knell](unknown/death_knell), [desecrate](unknown/desecrate), [destruction](unknown/destruction), [doom](unknown/doom), [fear](unknown/fear), [harm](unknown/harm), [inflict serious wounds](unknown/inflict_serious_wounds), [phantasmal killer](unknown/phantasmal_killer), [spectral hand](unknown/spectral_hand), and [vampiric touch](unknown/vampiric_touch).",
+			"Former Daemons: A devourer formed from a powerful daemon sometimes has a suite of spell-like abilities that focuses more on the destruction of living creatures and spreading fear and horror. These devourers are always neutral evil. Replace the standard devourer spell-like abilities with the following at-will spell-like abilities: [animate dead](spell/animate_dead), [contagion](spell/contagion), [crushing despair](spell/crushing_despair), [death knell](spell/death_knell), [desecrate](spell/desecrate), [destruction](unknown/destruction), [doom](spell/doom), [fear](unknown/fear), [harm](spell/harm), [inflict serious wounds](spell/inflict_serious_wounds), [phantasmal killer](spell/phantasmal_killer), [spectral hand](spell/spectral_hand), and [vampiric touch](spell/vampiric_touch).",
 			"",
-			"Former Demons: A devourer formed from a powerful demon sometimes has a suite of spell-like abilities that focuses more on destruction and devastation. These devourers are always chaotic evil. Replace the standard devourer spell-like abilities with the following at-will spell-like abilities: [acid arrow](unknown/acid_arrow), [black tentacles](unknown/black_tentacles), [chaos hammer](unknown/chaos_hammer), [disintegrate](unknown/disintegrate), [earthquake](unknown/earthquake), [fireball](unknown/fireball), [ice storm](unknown/ice_storm), [lightning bolt](unknown/lightning_bolt), [magic missile](unknown/magic_missile), [phantasmal killer](unknown/phantasmal_killer), [scorching ray](unknown/scorching_ray), [shatter](unknown/shatter), and [vampiric touch](unknown/vampiric_touch)."
+			"Former Demons: A devourer formed from a powerful demon sometimes has a suite of spell-like abilities that focuses more on destruction and devastation. These devourers are always chaotic evil. Replace the standard devourer spell-like abilities with the following at-will spell-like abilities: [acid arrow](spell/acid_arrow), [black tentacles](spell/black_tentacles), [chaos hammer](spell/chaos_hammer), [disintegrate](spell/disintegrate), [earthquake](unknown/earthquake), [fireball](spell/fireball), [ice storm](spell/ice_storm), [lightning bolt](spell/lightning_bolt), [magic missile](spell/magic_missile), [phantasmal killer](spell/phantasmal_killer), [scorching ray](spell/scorching_ray), [shatter](spell/shatter), and [vampiric touch](spell/vampiric_touch)."
 		],
 		"short_description": "This dry, hovering corpse's chest is a prison of jagged ribs, within which is trapped a small tormented ghostly form.",
 		"display": "monster"
@@ -14853,6 +14892,7 @@
 		"short_description": "This bipedal dinosaur has a mouth filled with sharp teeth and short, powerful arms that end in sharp claws.",
 		"display": "monster"
 	},
+	"allosaurus": { "copyof": "dinosaur,_allosaurus" },
 	"dinosaur,_amargasaurus": {
 		"name": "Dinosaur, Amargasaurus",
 		"file": "monsterdisplaydc13.html",
@@ -14920,6 +14960,7 @@
 		"short_description": "This sauropod has an elongated neck and a long, tapering tail. Two spiny frills run along the back of the creature's neck.",
 		"display": "monster"
 	},
+	"amargasaurus": { "copyof": "dinosaur,_amargasaurus" },
 	"dinosaur,_ankylosaurus": {
 		"name": "Dinosaur, Ankylosaurus",
 		"file": "monsterdisplay9ac7.html",
@@ -14987,6 +15028,7 @@
 		"short_description": "Thick bony plates armor the domelike back of this quadrupedal dinosaur, its powerfully muscled tail ending in a bony club.",
 		"display": "monster"
 	},
+	"ankylosaurus": { "copyof": "dinosaur,_ankylosaurus" },
 	"dinosaur,_brachiosaurus": {
 		"name": "Dinosaur, Brachiosaurus",
 		"file": "monsterdisplay3f5f.html",
@@ -15051,6 +15093,7 @@
 		"short_description": "A long tail counterbalances this reptile's equally long neck, at the end of which a relatively small head pulls food from the treetop.",
 		"display": "monster"
 	},
+	"brachiosaurus": { "copyof": "dinosaur,_brachiosaurus" },
 	"dinosaur,_ceratosaurus": {
 		"name": "Dinosaur, Ceratosaurus",
 		"file": "monsterdisplaycacf.html",
@@ -15119,6 +15162,7 @@
 		"short_description": "Bladelike horns jut from the snout and eye ridges of this toothy, bipedal dinosaur.",
 		"display": "monster"
 	},
+	"ceratosaurus": { "copyof": "dinosaur,_ceratosaurus" },
 	"dinosaur,_compsognathus": {
 		"name": "Dinosaur, Compsognathus",
 		"file": "monsterdisplayace8.html",
@@ -15191,6 +15235,7 @@
 		"short_description": "This small reptile has a snake-like neck and head, a bird-like body with strong legs for running, and a whip-like tail.",
 		"display": "monster"
 	},
+	"compsognathus": { "copyof": "dinosaur,_compsognathus" },
 	"dinosaur,_deinonychus": {
 		"name": "Dinosaur, Deinonychus",
 		"file": "monsterdisplayde66.html",
@@ -15256,6 +15301,7 @@
 		"short_description": "This brightly colored dinosaur exudes a dangerous ferocity. Each foot is armed with a large, sickle-shaped claw.",
 		"display": "monster"
 	},
+	"deinonychus": { "copyof": "dinosaur,_deinonychus" },
 	"dinosaur,_dimetrodon": {
 		"name": "Dinosaur, Dimetrodon",
 		"file": "monsterdisplayf8de.html",
@@ -15329,6 +15375,7 @@
 		"short_description": "The massive sail on the back of this squat reptilian creature flexes and twitches as the beast stalks forward.",
 		"display": "monster"
 	},
+	"dimetrodon": { "copyof": "dinosaur,_dimetrodon" },
 	"dinosaur,_dimorphodon": {
 		"name": "Dinosaur, Dimorphodon",
 		"file": "monsterdisplaya089.html",
@@ -15404,6 +15451,7 @@
 		"short_description": "The head of this colorful red and purple flying reptile is overly large, and its jaws are lined with tiny sharp teeth.",
 		"display": "monster"
 	},
+	"dimorphodon": { "copyof": "dinosaur,_dimorphodon" },
 	"dinosaur,_diplodocus": {
 		"name": "Dinosaur, Diplodocus",
 		"file": "monsterdisplay27d6.html",
@@ -15475,6 +15523,7 @@
 		"short_description": "This enormous, long-necked quadruped moves with an uncanny grace, holding its lengthy, whiplike tail out level behind it.",
 		"display": "monster"
 	},
+	"diplodocus": { "copyof": "dinosaur,_diplodocus" },
 	"dinosaur,_elasmosaurus": {
 		"name": "Dinosaur, Elasmosaurus",
 		"file": "monsterdisplayfa38.html",
@@ -15538,6 +15587,7 @@
 		"short_description": "Long-necked and long-tailed, this large, predatory reptile glides through the water on four powerful flippers.",
 		"display": "monster"
 	},
+	"elasmosaurus": { "copyof": "dinosaur,_elasmosaurus" },
 	"dinosaur,_giganotosaurus": {
 		"name": "Dinosaur, Giganotosaurus",
 		"file": "monsterdisplay2462.html",
@@ -15605,6 +15655,7 @@
 		"short_description": "This bipedal dinosaur has a large head and cavernous jaws full of large, sharp teeth.",
 		"display": "monster"
 	},
+	"giganotosaurus": { "copyof": "dinosaur,_giganotosaurus" },
 	"dinosaur,_iguanodon": {
 		"name": "Dinosaur, Iguanodon",
 		"file": "monsterdisplay95d2.html",
@@ -15678,6 +15729,7 @@
 		"short_description": "This dinosaur seems comfortable on two legs or four. Its front limbs are each adorned with a cruel-looking, thumblike spike.",
 		"display": "monster"
 	},
+	"iguanodon": { "copyof": "dinosaur,_iguanodon" },
 	"dinosaur,_kentrosaurus": {
 		"name": "Dinosaur, Kentrosaurus",
 		"file": "monsterdisplaye9c7.html",
@@ -15752,6 +15804,7 @@
 		"short_description": "This quadrupedal dinosaur has two rows of dorsal spikes, a spiked tail, and two more spikes projecting from its shoulders.",
 		"display": "monster"
 	},
+	"kentrosaurus": { "copyof": "dinosaur,_kentrosaurus" },
 	"dinosaur,_pachycephalosaurus": {
 		"name": "Dinosaur, Pachycephalosaurus",
 		"file": "monsterdisplay7ac4.html",
@@ -15825,6 +15878,7 @@
 		"short_description": "This bipedal reptile has a rounded, dome-like head adorned with bony frills and ridges.",
 		"display": "monster"
 	},
+	"pachycephalosaurus": { "copyof": "dinosaur,_pachycephalosaurus" },
 	"dinosaur,_parasaurolophus": {
 		"name": "Dinosaur, Parasaurolophus",
 		"file": "monsterdisplay644e.html",
@@ -15891,6 +15945,7 @@
 		"short_description": "This thick-bodied dinosaur has a whip-like tail and a long neck, its head topped by the crest of a backward-curving horn.",
 		"display": "monster"
 	},
+	"parasaurolophus": { "copyof": "dinosaur,_parasaurolophus" },
 	"dinosaur,_plesiosaurus": {
 		"name": "Dinosaur, Plesiosaurus",
 		"file": "monsterdisplaya6fb.html",
@@ -15964,6 +16019,7 @@
 		"short_description": "This streamlined reptile has a long, serpentine neck, at the end of which glares a many-fanged head.",
 		"display": "monster"
 	},
+	"plesiosaurus": { "copyof": "dinosaur,_plesiosaurus" },
 	"dinosaur,_pteranodon": {
 		"name": "Dinosaur, Pteranodon",
 		"file": "monsterdisplayc7cb.html",
@@ -16029,6 +16085,7 @@
 		"short_description": "This flying reptile has two huge wings and a distinctive backward-sweeping crest decorating its head.",
 		"display": "monster"
 	},
+	"pteranodon": { "copyof": "dinosaur,_pteranodon" },
 	"dinosaur,_quetzalcoatlus": {
 		"name": "Dinosaur, Quetzalcoatlus",
 		"file": "monsterdisplay5c76.html",
@@ -16103,6 +16160,7 @@
 		"short_description": "This immense flying reptile has a staggering wingspan and a brightly colored head with a razor-sharp beak.",
 		"display": "monster"
 	},
+	"quetzalcoatlus": { "copyof": "dinosaur,_quetzalcoatlus" },
 	"dinosaur,_spinosaurus": {
 		"name": "Dinosaur, Spinosaurus",
 		"file": "monsterdisplay80aa.html",
@@ -16171,6 +16229,7 @@
 		"short_description": "This titanic saurian has a crocodilian snout, powerful front claws, and a colorful sail-like ridge that runs down its back.",
 		"display": "monster"
 	},
+	"spinosaurus": { "copyof": "dinosaur,_spinosaurus" },
 	"dinosaur,_stegosaurus": {
 		"name": "Dinosaur, Stegosaurus",
 		"file": "monsterdisplay969c.html",
@@ -16234,6 +16293,7 @@
 		"short_description": "This huge dinosaur has a small head, twin rows of sharp dorsal plates, and a muscular tail terminating in a set of bony spikes.",
 		"display": "monster"
 	},
+	"stegosaurus": { "copyof": "dinosaur,_stegosaurus" },
 	"dinosaur,_styracosaurus": {
 		"name": "Dinosaur, Styracosaurus",
 		"file": "monsterdisplay55f1.html",
@@ -16308,6 +16368,7 @@
 		"short_description": "This bulky, four-legged dinosaur has a long nasal horn and a crest studded with additional horns sweeping back from its skull.",
 		"display": "monster"
 	},
+	"styracosaurus": { "copyof": "dinosaur,_styracosaurus" },
 	"dinosaur,_therizinosaurus": {
 		"name": "Dinosaur, Therizinosaurus",
 		"file": "monsterdisplay507e.html",
@@ -16383,6 +16444,7 @@
 		"short_description": "This feathered bipedal saurian looks somewhat comical-save for its outlandish sword-sized claws.",
 		"display": "monster"
 	},
+	"therizinosaurus": { "copyof": "dinosaur,_therizinosaurus" },
 	"dinosaur,_triceratops": {
 		"name": "Dinosaur, Triceratops",
 		"file": "monsterdisplayee33.html",
@@ -16449,6 +16511,7 @@
 		"short_description": "This beast's armored head has three sharp horns decorating its face and a large round crest angling back over its neck from its skull.",
 		"display": "monster"
 	},
+	"triceratops": { "copyof": "dinosaur,_triceratops" },
 	"dinosaur,_troodon": {
 		"name": "Dinosaur, Troodon",
 		"file": "monsterdisplayd950.html",
@@ -16521,6 +16584,7 @@
 		"short_description": "This small, slender-necked dinosaur's bright, inquisitive eyes seem to miss nothing.",
 		"display": "monster"
 	},
+	"troodon": { "copyof": "dinosaur,_troodon" },
 	"dinosaur,_tylosaurus": {
 		"name": "Dinosaur, Tylosaurus",
 		"file": "monsterdisplay898c.html",
@@ -16588,6 +16652,7 @@
 		"short_description": "Surging out of the water, this massive lizard is shaped like a giant fish with a powerful, toothed maw.",
 		"display": "monster"
 	},
+	"tylosaurus": { "copyof": "dinosaur,_tylosaurus" },
 	"dinosaur,_tyrannosaurus": {
 		"name": "Dinosaur, Tyrannosaurus",
 		"file": "monsterdisplay8dde.html",
@@ -16657,6 +16722,7 @@
 		"short_description": "This bipedal dinosaur's front arms seem small compared to the rest of its bulk, but its enormous head is all teeth.",
 		"display": "monster"
 	},
+	"tyrannosaurus": { "copyof": "dinosaur,_tyrannosaurus" },
 	"dinosaur,_velociraptor": {
 		"name": "Dinosaur, Velociraptor",
 		"file": "monsterdisplay44f6-2.html",
@@ -16730,6 +16796,7 @@
 		"short_description": "This small, sleek dinosaur has vicious, snapping jaws and feet that end in large talons for gutting prey.",
 		"display": "monster"
 	},
+	"velociraptor": { "copyof": "dinosaur,_velociraptor" },
 	"dire_corby": {
 		"name": "Dire Corby",
 		"file": "monsterdisplay10d1.html",
@@ -16975,6 +17042,7 @@
 		"short_description": "Draped in rags and hunched over on goatlike legs, this creature possesses a featureless face, save for a large eye ringed by fangs.",
 		"display": "monster"
 	},
+	"aghash": { "copyof": "div,_aghash" },
 	"div,_akvan": {
 		"name": "Div, Akvan",
 		"file": "monsterdisplayf833.html",
@@ -17087,6 +17155,7 @@
 		"short_description": "Ornate armor covers this hulking creature, rocky protrusions jutting from its hide and fierce horns crowning its broad head.",
 		"display": "monster"
 	},
+	"akvan": { "copyof": "div,_akvan" },
 	"div,_bushyasta": {
 		"name": "Div, Bushyasta",
 		"file": "monsterdisplay66c3.html",
@@ -17178,6 +17247,7 @@
 		"short_description": "This gaunt figure has ashy yellow skin and a strange, feathered mask covering most of her face, save for her wide, fang-filled mouth.",
 		"display": "monster"
 	},
+	"bushyasta": { "copyof": "div,_bushyasta" },
 	"div,_doru": {
 		"name": "Div, Doru",
 		"file": "monsterdisplay8857.html",
@@ -17267,6 +17337,7 @@
 		"short_description": "This disembodied and bestial head covered in lashing hair and curling horns flies through the air.",
 		"display": "monster"
 	},
+	"doru": { "copyof": "div,_doru" },
 	"div,_druj_nasu": {
 		"name": "Div, Druj Nasu",
 		"file": "monsterdisplayda77.html",
@@ -17378,6 +17449,7 @@
 		"short_description": "A sickly smell of feral musk, rotting flesh, and acrid sweat surrounds this fly-like creature. Its wings fill the air with a dreadful drone even when the creature is still.",
 		"display": "monster"
 	},
+	"druj_nasu": { "copyof": "div,_druj_nasu" },
 	"div,_ghawwas": {
 		"name": "Div, Ghawwas",
 		"file": "monsterdisplay9c02.html",
@@ -17471,6 +17543,7 @@
 		"short_description": "Bristling with spiny ridges, coral horns, and needle-sharp teeth, this menacing biped seems to have emerged from some poisoned sea.",
 		"display": "monster"
 	},
+	"ghawwas": { "copyof": "div,_ghawwas" },
 	"div,_pairaka": {
 		"name": "Div, Pairaka",
 		"file": "monsterdisplay800f.html",
@@ -17563,6 +17636,7 @@
 		"short_description": "Blue-skinned and draped in revealing attire, this humanoid fiend has a sultry gaze suggesting all manner of debased pleasures.",
 		"display": "monster"
 	},
+	"pairaka": { "copyof": "div,_pairaka" },
 	"div,_sepid": {
 		"name": "Div, Sepid",
 		"file": "monsterdisplay70d6.html",
@@ -17652,6 +17726,7 @@
 		"short_description": "Twice the height of a human, this horned monstrous warrior wields a massive blade.",
 		"display": "monster"
 	},
+	"sepid": { "copyof": "div,_sepid" },
 	"div,_shira": {
 		"name": "Div, Shira",
 		"file": "monsterdisplay3446.html",
@@ -17743,6 +17818,7 @@
 		"short_description": "Moving with deadly grace, this brutal, thickly furred humanoid figure's head is that of a lioness with dead black eyes.",
 		"display": "monster"
 	},
+	"shira": { "copyof": "div,_shira" },
 	"dog": {
 		"name": "Dog",
 		"file": "monsterdisplay0af5.html",
@@ -17871,6 +17947,7 @@
 		"short_description": "This burly dog is fitted with a small saddle. A low, menacing growl rumbles up from its chest.",
 		"display": "monster"
 	},
+	"riding_dog": { "copyof": "dog,_riding_dog" },
 	"dolphin": {
 		"name": "Dolphin",
 		"file": "monsterdisplay18f4.html",
@@ -17998,6 +18075,7 @@
 		"short_description": "This sleek black whale has a distinctive white patch near each eye and a mouth filled with sharp teeth.",
 		"display": "monster"
 	},
+	"orca": { "copyof": "dolphin,_orca" },
 	"dolphin,_popoto": {
 		"name": "Dolphin, Popoto",
 		"file": "monsterdisplay920e.html",
@@ -18057,6 +18135,7 @@
 		"short_description": "This sleek mammal has a short snout and black, white, and gray markings along its body, with a rounded black dorsal fin.",
 		"display": "monster"
 	},
+	"popoto": { "copyof": "dolphin,_popoto" },
 	"doppeldrek": {
 		"name": "Doppeldrek",
 		"file": "monsterdisplayfd9d.html",
@@ -18440,6 +18519,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_black_dragon": { "copyof": "dragon_black,_adult_black_dragon" },
 	"dragon_black,_ancient_black_dragon": {
 		"name": "Dragon (Black), Ancient Black Dragon",
 		"file": "monsterdisplaye824.html",
@@ -18517,6 +18597,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_black_dragon": { "copyof": "dragon_black,_ancient_black_dragon" },
 	"dragon_black,_young_black_dragon": {
 		"name": "Dragon (Black), Young Black Dragon",
 		"file": "monsterdisplay4ed0.html",
@@ -18586,6 +18667,7 @@
 		"short_description": "Hissing green acid drips from the fanged maw of this black-scaled, horned dragon.",
 		"display": "monster"
 	},
+	"young_black_dragon": { "copyof": "dragon_black,_young_black_dragon" },
 	"dragon_blue,_adult_blue_dragon": {
 		"name": "Dragon (Blue), Adult Blue Dragon",
 		"file": "monsterdisplay0084.html",
@@ -18677,6 +18759,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_blue_dragon": { "copyof": "dragon_blue,_adult_blue_dragon" },
 	"dragon_blue,_ancient_blue_dragon": {
 		"name": "Dragon (Blue), Ancient Blue Dragon",
 		"file": "monsterdisplayd253.html",
@@ -18755,6 +18838,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_blue_dragon": { "copyof": "dragon_blue,_ancient_blue_dragon" },
 	"dragon_blue,_young_blue_dragon": {
 		"name": "Dragon (Blue), Young Blue Dragon",
 		"file": "monsterdisplay3a67.html",
@@ -18827,6 +18911,7 @@
 		"short_description": "With scales the color of the desert sky, this large, serpentine dragon moves with an unsettling grace.",
 		"display": "monster"
 	},
+	"young_blue_dragon": { "copyof": "dragon_blue,_young_blue_dragon" },
 	"dragon_brass,_adult_brass_dragon": {
 		"name": "Dragon (Brass), Adult Brass Dragon",
 		"file": "monsterdisplay8c76.html",
@@ -18902,6 +18987,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_brass_dragon": { "copyof": "dragon_brass,_adult_brass_dragon" },
 	"dragon_brass,_ancient_brass_dragon": {
 		"name": "Dragon (Brass), Ancient Brass Dragon",
 		"file": "monsterdisplay43e2.html",
@@ -18981,6 +19067,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_brass_dragon": { "copyof": "dragon_brass,_ancient_brass_dragon" },
 	"dragon_brass,_young_brass_dragon": {
 		"name": "Dragon (Brass), Young Brass Dragon",
 		"file": "monsterdisplay024e.html",
@@ -19057,6 +19144,7 @@
 		"short_description": "A crest of horns sweeps back from the head of this dragon, leading to a long neck and serpentine brass body.",
 		"display": "monster"
 	},
+	"young_brass_dragon": { "copyof": "dragon_brass,_young_brass_dragon" },
 	"dragon_bronze,_adult_bronze_dragon": {
 		"name": "Dragon (Bronze), Adult Bronze Dragon",
 		"file": "monsterdisplay8e3f.html",
@@ -19132,6 +19220,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_bronze_dragon": { "copyof": "dragon_bronze,_adult_bronze_dragon" },
 	"dragon_bronze,_ancient_bronze_dragon": {
 		"name": "Dragon (Bronze), Ancient Bronze Dragon",
 		"file": "monsterdisplay4c64.html",
@@ -19211,6 +19300,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_bronze_dragon": { "copyof": "dragon_bronze,_ancient_bronze_dragon" },
 	"dragon_bronze,_young_bronze_dragon": {
 		"name": "Dragon (Bronze), Young Bronze Dragon",
 		"file": "monsterdisplay2473.html",
@@ -19285,6 +19375,7 @@
 		"short_description": "This sleek dragon is covered in dull metallic scales that range in color from shining bronze to mottled blue.",
 		"display": "monster"
 	},
+	"young_bronze_dragon": { "copyof": "dragon_bronze,_young_bronze_dragon" },
 	"dragon_copper,_adult_copper_dragon": {
 		"name": "Dragon (Copper), Adult Copper Dragon",
 		"file": "monsterdisplayfbf4.html",
@@ -19360,6 +19451,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_copper_dragon": { "copyof": "dragon_copper,_adult_copper_dragon" },
 	"dragon_copper,_ancient_copper_dragon": {
 		"name": "Dragon (Copper), Ancient Copper Dragon",
 		"file": "monsterdisplay6114.html",
@@ -19439,6 +19531,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_copper_dragon": { "copyof": "dragon_copper,_ancient_copper_dragon" },
 	"dragon_copper,_young_copper_dragon": {
 		"name": "Dragon (Copper), Young Copper Dragon",
 		"file": "monsterdisplay1b22.html",
@@ -19513,6 +19606,7 @@
 		"short_description": "Bright, shining copper scales run from the horn-crowned head to the ridged tail of this long-winged dragon.",
 		"display": "monster"
 	},
+	"young_copper_dragon": { "copyof": "dragon_copper,_young_copper_dragon" },
 	"dragon_esoteric,_astral,_adult_astral_dragon": {
 		"name": "Dragon (Esoteric, Astral), Adult Astral Dragon",
 		"file": "monsterdisplayf351.html",
@@ -19583,6 +19677,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_astral_dragon": { "copyof": "dragon_esoteric,_astral,_adult_astral_dragon" },
 	"dragon_esoteric,_astral,_ancient_astral_dragon": {
 		"name": "Dragon (Esoteric, Astral), Ancient Astral Dragon",
 		"file": "monsterdisplaye752.html",
@@ -19653,6 +19748,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_astral_dragon": { "copyof": "dragon_esoteric,_astral,_ancient_astral_dragon" },
 	"dragon_esoteric,_astral,_young_astral_dragon": {
 		"name": "Dragon (Esoteric, Astral), Young Astral Dragon",
 		"file": "monsterdisplay974e.html",
@@ -19725,6 +19821,7 @@
 		"short_description": "This majestic dragon seems to shimmer as if surrounded by thousands of eddies of astral thought.",
 		"display": "monster"
 	},
+	"young_astral_dragon": { "copyof": "dragon_esoteric,_astral,_young_astral_dragon" },
 	"dragon_esoteric,_dream,_adult_dream_dragon": {
 		"name": "Dragon (Esoteric, Dream), Adult Dream Dragon",
 		"file": "monsterdisplaye7c8.html",
@@ -19795,6 +19892,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_dream_dragon": { "copyof": "dragon_esoteric,_dream,_adult_dream_dragon" },
 	"dragon_esoteric,_dream,_ancient_dream_dragon": {
 		"name": "Dragon (Esoteric, Dream), Ancient Dream Dragon",
 		"file": "monsterdisplay2417.html",
@@ -19865,6 +19963,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_dream_dragon": { "copyof": "dragon_esoteric,_dream,_ancient_dream_dragon" },
 	"dragon_esoteric,_dream,_young_dream_dragon": {
 		"name": "Dragon (Esoteric, Dream), Young Dream Dragon",
 		"file": "monsterdisplay9366.html",
@@ -19936,6 +20035,7 @@
 		"short_description": "Clouds trail from the edges of this graceful, nearly fanciful creature in hypnotizing patterns.",
 		"display": "monster"
 	},
+	"young_dream_dragon": { "copyof": "dragon_esoteric,_dream,_young_dream_dragon" },
 	"dragon_esoteric,_etheric,_adult_etheric_dragon": {
 		"name": "Dragon (Esoteric, Etheric), Adult Etheric Dragon",
 		"file": "monsterdisplay3c44.html",
@@ -20006,6 +20106,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_etheric_dragon": { "copyof": "dragon_esoteric,_etheric,_adult_etheric_dragon" },
 	"dragon_esoteric,_etheric,_ancient_etheric_dragon": {
 		"name": "Dragon (Esoteric, Etheric), Ancient Etheric Dragon",
 		"file": "monsterdisplayd958.html",
@@ -20076,6 +20177,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_etheric_dragon": { "copyof": "dragon_esoteric,_etheric,_ancient_etheric_dragon" },
 	"dragon_esoteric,_etheric,_young_etheric_dragon": {
 		"name": "Dragon (Esoteric, Etheric), Young Etheric Dragon",
 		"file": "monsterdisplay48e7.html",
@@ -20146,6 +20248,7 @@
 		"short_description": "This silent dragon seems to gather shadows and gloom around its tattered-appearing wings.",
 		"display": "monster"
 	},
+	"young_etheric_dragon": { "copyof": "dragon_esoteric,_etheric,_young_etheric_dragon" },
 	"dragon_esoteric,_nightmare,_adult_nightmare_dragon": {
 		"name": "Dragon (Esoteric, Nightmare), Adult Nightmare Dragon",
 		"file": "monsterdisplayb988.html",
@@ -20216,6 +20319,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_nightmare_dragon": { "copyof": "dragon_esoteric,_nightmare,_adult_nightmare_dragon" },
 	"dragon_esoteric,_nightmare,_ancient_nightmare_dragon": {
 		"name": "Dragon (Esoteric, Nightmare), Ancient Nightmare Dragon",
 		"file": "monsterdisplaya2f0.html",
@@ -20286,6 +20390,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_nightmare_dragon": { "copyof": "dragon_esoteric,_nightmare,_ancient_nightmare_dragon" },
 	"dragon_esoteric,_nightmare,_young_nightmare_dragon": {
 		"name": "Dragon (Esoteric, Nightmare), Young Nightmare Dragon",
 		"file": "monsterdisplayc569.html",
@@ -20355,6 +20460,7 @@
 		"short_description": "This ebony dragon with red frills appears terribly contorted and trails shadows.",
 		"display": "monster"
 	},
+	"young_nightmare_dragon": { "copyof": "dragon_esoteric,_nightmare,_young_nightmare_dragon" },
 	"dragon_esoteric,_occult,_adult_occult_dragon": {
 		"name": "Dragon (Esoteric, Occult), Adult Occult Dragon",
 		"file": "monsterdisplayc3c3.html",
@@ -20422,6 +20528,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_occult_dragon": { "copyof": "dragon_esoteric,_occult,_adult_occult_dragon" },
 	"dragon_esoteric,_occult,_ancient_occult_dragon": {
 		"name": "Dragon (Esoteric, Occult), Ancient Occult Dragon",
 		"file": "monsterdisplay9b48.html",
@@ -20489,6 +20596,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_occult_dragon": { "copyof": "dragon_esoteric,_occult,_ancient_occult_dragon" },
 	"dragon_esoteric,_occult,_young_occult_dragon": {
 		"name": "Dragon (Esoteric, Occult), Young Occult Dragon",
 		"file": "monsterdisplay8bbe.html",
@@ -20558,6 +20666,7 @@
 		"short_description": "Its parchment-colored scales rustling like dry leaves, this dragon seems unusually attentive, as if always on the lookout.",
 		"display": "monster"
 	},
+	"young_occult_dragon": { "copyof": "dragon_esoteric,_occult,_young_occult_dragon" },
 	"dragon_gold,_adult_gold_dragon": {
 		"name": "Dragon (Gold), Adult Gold Dragon",
 		"file": "monsterdisplayf39f.html",
@@ -20634,6 +20743,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_gold_dragon": { "copyof": "dragon_gold,_adult_gold_dragon" },
 	"dragon_gold,_ancient_gold_dragon": {
 		"name": "Dragon (Gold), Ancient Gold Dragon",
 		"file": "monsterdisplay528b.html",
@@ -20714,6 +20824,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_gold_dragon": { "copyof": "dragon_gold,_ancient_gold_dragon" },
 	"dragon_gold,_young_gold_dragon": {
 		"name": "Dragon (Gold), Young Gold Dragon",
 		"file": "monsterdisplayc44a.html",
@@ -20789,6 +20900,7 @@
 		"short_description": "Golden scales cover the body of this majestic dragon, and a regal crest of horns arches backward above wise and piercing eyes.",
 		"display": "monster"
 	},
+	"young_gold_dragon": { "copyof": "dragon_gold,_young_gold_dragon" },
 	"dragon_green,_adult_green_dragon": {
 		"name": "Dragon (Green), Adult Green Dragon",
 		"file": "monsterdisplay5929.html",
@@ -20863,6 +20975,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_green_dragon": { "copyof": "dragon_green,_adult_green_dragon" },
 	"dragon_green,_ancient_green_dragon": {
 		"name": "Dragon (Green), Ancient Green Dragon",
 		"file": "monsterdisplay4a01.html",
@@ -20941,6 +21054,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_green_dragon": { "copyof": "dragon_green,_ancient_green_dragon" },
 	"dragon_green,_young_green_dragon": {
 		"name": "Dragon (Green), Young Green Dragon",
 		"file": "monsterdisplayc8d4.html",
@@ -21013,6 +21127,7 @@
 		"short_description": "Scales the color of emeralds armor this ferocious dragon. A single sharp horn protrudes from the end of its toothy snout.",
 		"display": "monster"
 	},
+	"young_green_dragon": { "copyof": "dragon_green,_young_green_dragon" },
 	"dragon_imperial,_forest,_adult_forest_dragon": {
 		"name": "Dragon (Imperial, Forest), Adult Forest Dragon",
 		"file": "monsterdisplayb1cc.html",
@@ -21088,6 +21203,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_forest_dragon": { "copyof": "dragon_imperial,_forest,_adult_forest_dragon" },
 	"dragon_imperial,_forest,_ancient_forest_dragon": {
 		"name": "Dragon (Imperial, Forest), Ancient Forest Dragon",
 		"file": "monsterdisplayad41.html",
@@ -21167,6 +21283,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_forest_dragon": { "copyof": "dragon_imperial,_forest,_ancient_forest_dragon" },
 	"dragon_imperial,_forest,_young_forest_dragon": {
 		"name": "Dragon (Imperial, Forest), Young Forest Dragon",
 		"file": "monsterdisplayacfb.html",
@@ -21242,6 +21359,7 @@
 		"short_description": "This massive serpentine and wingless creature has jade scales and antlers, and sounds like grinding stones as it stalks forth.",
 		"display": "monster"
 	},
+	"young_forest_dragon": { "copyof": "dragon_imperial,_forest,_young_forest_dragon" },
 	"dragon_imperial,_sea,_adult_sea_dragon": {
 		"name": "Dragon (Imperial, Sea), Adult Sea Dragon",
 		"file": "monsterdisplayda34.html",
@@ -21317,6 +21435,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_sea_dragon": { "copyof": "dragon_imperial,_sea,_adult_sea_dragon" },
 	"dragon_imperial,_sea,_ancient_sea_dragon": {
 		"name": "Dragon (Imperial, Sea), Ancient Sea Dragon",
 		"file": "monsterdisplay9357.html",
@@ -21396,6 +21515,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_sea_dragon": { "copyof": "dragon_imperial,_sea,_ancient_sea_dragon" },
 	"dragon_imperial,_sea,_young_sea_dragon": {
 		"name": "Dragon (Imperial, Sea), Young Sea Dragon",
 		"file": "monsterdisplay8c19.html",
@@ -21471,6 +21591,7 @@
 		"short_description": "The long, undulating body of this serpentine dragon rolls and bends with scales the color of the ocean's waves.",
 		"display": "monster"
 	},
+	"young_sea_dragon": { "copyof": "dragon_imperial,_sea,_young_sea_dragon" },
 	"dragon_imperial,_sky,_adult_sky_dragon": {
 		"name": "Dragon (Imperial, Sky), Adult Sky Dragon",
 		"file": "monsterdisplay6891.html",
@@ -21546,6 +21667,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_sky_dragon": { "copyof": "dragon_imperial,_sky,_adult_sky_dragon" },
 	"dragon_imperial,_sky,_ancient_sky_dragon": {
 		"name": "Dragon (Imperial, Sky), Ancient Sky Dragon",
 		"file": "monsterdisplayb07c.html",
@@ -21624,6 +21746,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_sky_dragon": { "copyof": "dragon_imperial,_sky,_ancient_sky_dragon" },
 	"dragon_imperial,_sky,_young_sky_dragon": {
 		"name": "Dragon (Imperial, Sky), Young Sky Dragon",
 		"file": "monsterdisplayf847.html",
@@ -21699,6 +21822,7 @@
 		"short_description": "Although wingless, this dragon twists gracefully though the sky, its scales reflecting the shifting hues of the heavens.",
 		"display": "monster"
 	},
+	"young_sky_dragon": { "copyof": "dragon_imperial,_sky,_young_sky_dragon" },
 	"dragon_imperial,_sovereign,_adult_sovereign_dragon": {
 		"name": "Dragon (Imperial, Sovereign), Adult Sovereign Dragon",
 		"file": "monsterdisplay73ec.html",
@@ -21771,6 +21895,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_sovereign_dragon": { "copyof": "dragon_imperial,_sovereign,_adult_sovereign_dragon" },
 	"dragon_imperial,_sovereign,_ancient_sovereign_dragon": {
 		"name": "Dragon (Imperial, Sovereign), Ancient Sovereign Dragon",
 		"file": "monsterdisplaya7e2.html",
@@ -21847,6 +21972,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_sovereign_dragon": { "copyof": "dragon_imperial,_sovereign,_ancient_sovereign_dragon" },
 	"dragon_imperial,_sovereign,_young_sovereign_dragon": {
 		"name": "Dragon (Imperial, Sovereign), Young Sovereign Dragon",
 		"file": "monsterdisplay5b9d.html",
@@ -21919,6 +22045,7 @@
 		"short_description": "This magnificent dragon is covered in splendid gold scales, and horns jut from its head like a crown.",
 		"display": "monster"
 	},
+	"young_sovereign_dragon": { "copyof": "dragon_imperial,_sovereign,_young_sovereign_dragon" },
 	"dragon_imperial,_underworld,_adult_underworld_dragon": {
 		"name": "Dragon (Imperial, Underworld), Adult Underworld Dragon",
 		"file": "monsterdisplayc873.html",
@@ -21994,6 +22121,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_underworld_dragon": { "copyof": "dragon_imperial,_underworld,_adult_underworld_dragon" },
 	"dragon_imperial,_underworld,_ancient_underworld_dragon": {
 		"name": "Dragon (Imperial, Underworld), Ancient Underworld Dragon",
 		"file": "monsterdisplaydfed.html",
@@ -22073,6 +22201,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_underworld_dragon": { "copyof": "dragon_imperial,_underworld,_ancient_underworld_dragon" },
 	"dragon_imperial,_underworld,_young_underworld_dragon": {
 		"name": "Dragon (Imperial, Underworld), Young Underworld Dragon",
 		"file": "monsterdisplay2046.html",
@@ -22149,6 +22278,7 @@
 		"short_description": "This serpentine dragon has skin the color of deep volcanic rock, enormous claws, and jagged, stonelike horns and scales.",
 		"display": "monster"
 	},
+	"young_underworld_dragon": { "copyof": "dragon_imperial,_underworld,_young_underworld_dragon" },
 	"dragon_other,_faerie_dragon": {
 		"name": "Dragon (Other), Faerie Dragon",
 		"file": "monsterdisplayd468.html",
@@ -22233,6 +22363,7 @@
 		"short_description": "A pair of brightly colored butterfly wings sprouts from the back of this miniature dragon.",
 		"display": "monster"
 	},
+	"faerie_dragon": { "copyof": "dragon_other,_faerie_dragon" },
 	"dragon_other,_prism_dragon": {
 		"name": "Dragon (Other), Prism Dragon",
 		"file": "monsterdisplay28c7.html",
@@ -22328,6 +22459,7 @@
 		"short_description": "The facets of this crystalline dragon's body reflect fascinating and sparkling patterns.",
 		"display": "monster"
 	},
+	"prism_dragon": { "copyof": "dragon_other,_prism_dragon" },
 	"dragon_other,_spine_dragon": {
 		"name": "Dragon (Other), Spine Dragon",
 		"file": "monsterdisplay07da.html",
@@ -22411,6 +22543,7 @@
 		"short_description": "This dragon bears a forest of razor-sharp crystalline spines. Its wings are transparent and seem almost to be made of glass.",
 		"display": "monster"
 	},
+	"spine_dragon": { "copyof": "dragon_other,_spine_dragon" },
 	"dragon_other,_tidepool_dragon": {
 		"name": "Dragon (Other), Tidepool Dragon",
 		"file": "monsterdisplay1459.html",
@@ -22510,6 +22643,7 @@
 		"short_description": "This small draconic creature seems better suited for the waves than wind, its wings sweeping along its body like massive fins. Light from the water refracts off its resilient-looking cerulean hide as it snaps crustacean-like claws.",
 		"display": "monster"
 	},
+	"tidepool_dragon": { "copyof": "dragon_other,_tidepool_dragon" },
 	"dragon_outer,_lunar,_adult_lunar_dragon": {
 		"name": "Dragon (Outer, Lunar), Adult Lunar Dragon",
 		"file": "monsterdisplayb343.html",
@@ -22582,6 +22716,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_lunar_dragon": { "copyof": "dragon_outer,_lunar,_adult_lunar_dragon" },
 	"dragon_outer,_lunar,_ancient_lunar_dragon": {
 		"name": "Dragon (Outer, Lunar), Ancient Lunar Dragon",
 		"file": "monsterdisplayc26a.html",
@@ -22659,6 +22794,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_lunar_dragon": { "copyof": "dragon_outer,_lunar,_ancient_lunar_dragon" },
 	"dragon_outer,_lunar,_young_lunar_dragon": {
 		"name": "Dragon (Outer, Lunar), Young Lunar Dragon",
 		"file": "monsterdisplay553a.html",
@@ -22731,6 +22867,7 @@
 		"short_description": "A shimmering halo surrounds this regal dragon's spine-crowned head, and its vast wings ripple like milky gossamer lit by the moon.",
 		"display": "monster"
 	},
+	"young_lunar_dragon": { "copyof": "dragon_outer,_lunar,_young_lunar_dragon" },
 	"dragon_outer,_solar,_adult_solar_dragon": {
 		"name": "Dragon (Outer, Solar), Adult Solar Dragon",
 		"file": "monsterdisplayc512.html",
@@ -22806,6 +22943,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_solar_dragon": { "copyof": "dragon_outer,_solar,_adult_solar_dragon" },
 	"dragon_outer,_solar,_ancient_solar_dragon": {
 		"name": "Dragon (Outer, Solar), Ancient Solar Dragon",
 		"file": "monsterdisplay7eb3.html",
@@ -22885,6 +23023,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_solar_dragon": { "copyof": "dragon_outer,_solar,_ancient_solar_dragon" },
 	"dragon_outer,_solar,_young_solar_dragon": {
 		"name": "Dragon (Outer, Solar), Young Solar Dragon",
 		"file": "monsterdisplay6f52.html",
@@ -22960,6 +23099,7 @@
 		"short_description": "This regal dragon glows like the sun. Its burnished wings shimmer the color of flames, and a crown of horns decorates its head.",
 		"display": "monster"
 	},
+	"young_solar_dragon": { "copyof": "dragon_outer,_solar,_young_solar_dragon" },
 	"dragon_outer,_time,_adult_time_dragon": {
 		"name": "Dragon (Outer, Time), Adult Time Dragon",
 		"file": "monsterdisplayb97c.html",
@@ -23033,6 +23173,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_time_dragon": { "copyof": "dragon_outer,_time,_adult_time_dragon" },
 	"dragon_outer,_time,_ancient_time_dragon": {
 		"name": "Dragon (Outer, Time), Ancient Time Dragon",
 		"file": "monsterdisplay7c19.html",
@@ -23110,6 +23251,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_time_dragon": { "copyof": "dragon_outer,_time,_ancient_time_dragon" },
 	"dragon_outer,_time,_young_time_dragon": {
 		"name": "Dragon (Outer, Time), Young Time Dragon",
 		"file": "monsterdisplayb725.html",
@@ -23183,6 +23325,7 @@
 		"short_description": "This dragon's cracked scales creak with frightening, patient power. Some of its horns are ancient and brittle, others new and pristine.",
 		"display": "monster"
 	},
+	"young_time_dragon": { "copyof": "dragon_outer,_time,_young_time_dragon" },
 	"dragon_outer,_void,_adult_void_dragon": {
 		"name": "Dragon (Outer, Void), Adult Void Dragon",
 		"file": "monsterdisplay4ce7.html",
@@ -23255,6 +23398,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_void_dragon": { "copyof": "dragon_outer,_void,_adult_void_dragon" },
 	"dragon_outer,_void,_ancient_void_dragon": {
 		"name": "Dragon (Outer, Void), Ancient Void Dragon",
 		"file": "monsterdisplay3311.html",
@@ -23332,6 +23476,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_void_dragon": { "copyof": "dragon_outer,_void,_ancient_void_dragon" },
 	"dragon_outer,_void,_young_void_dragon": {
 		"name": "Dragon (Outer, Void), Young Void Dragon",
 		"file": "monsterdisplay48bd.html",
@@ -23404,6 +23549,7 @@
 		"short_description": "This dragon's ebony scales and horns are flecked with a substance that glows an eerie green. The folds of its wings reflect a starry sky.",
 		"display": "monster"
 	},
+	"young_void_dragon": { "copyof": "dragon_outer,_void,_young_void_dragon" },
 	"dragon_outer,_vortex,_adult_vortex_dragon": {
 		"name": "Dragon (Outer, Vortex), Adult Vortex Dragon",
 		"file": "monsterdisplay9729.html",
@@ -23480,6 +23626,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_vortex_dragon": { "copyof": "dragon_outer,_vortex,_adult_vortex_dragon" },
 	"dragon_outer,_vortex,_ancient_vortex_dragon": {
 		"name": "Dragon (Outer, Vortex), Ancient Vortex Dragon",
 		"file": "monsterdisplaycb99.html",
@@ -23560,6 +23707,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_vortex_dragon": { "copyof": "dragon_outer,_vortex,_ancient_vortex_dragon" },
 	"dragon_outer,_vortex,_young_vortex_dragon": {
 		"name": "Dragon (Outer, Vortex), Young Vortex Dragon",
 		"file": "monsterdisplaya276.html",
@@ -23636,6 +23784,7 @@
 		"short_description": "This dragon twists and whips with near untraceable speed. Its horns, crests along its neck, and wings emit a glow like starlight.",
 		"display": "monster"
 	},
+	"young_vortex_dragon": { "copyof": "dragon_outer,_vortex,_young_vortex_dragon" },
 	"dragon_planar,_apocalypse,_adult_apocalypse_dragon": {
 		"name": "Dragon (Planar, Apocalypse), Adult Apocalypse Dragon",
 		"file": "monsterdisplayc486.html",
@@ -23707,6 +23856,7 @@
 		"short_description": "Gangrenous wounds mar this dragon's twisted body.",
 		"display": "monster"
 	},
+	"adult_apocalypse_dragon": { "copyof": "dragon_planar,_apocalypse,_adult_apocalypse_dragon" },
 	"dragon_planar,_apocalypse,_ancient_apocalypse_dragon": {
 		"name": "Dragon (Planar, Apocalypse), Ancient Apocalypse Dragon",
 		"file": "monsterdisplay272a.html",
@@ -23782,6 +23932,7 @@
 		"short_description": "Gangrenous wounds mar this dragon's twisted body.",
 		"display": "monster"
 	},
+	"ancient_apocalypse_dragon": { "copyof": "dragon_planar,_apocalypse,_ancient_apocalypse_dragon" },
 	"dragon_planar,_apocalypse,_young_apocalypse_dragon": {
 		"name": "Dragon (Planar, Apocalypse), Young Apocalypse Dragon",
 		"file": "monsterdisplay3755.html",
@@ -23849,6 +24000,7 @@
 		"short_description": "Gangrenous wounds mar this dragon's twisted body.",
 		"display": "monster"
 	},
+	"young_apocalypse_dragon": { "copyof": "dragon_planar,_apocalypse,_young_apocalypse_dragon" },
 	"dragon_planar,_bliss,_adult_bliss_dragon": {
 		"name": "Dragon (Planar, Bliss), Adult Bliss Dragon",
 		"file": "monsterdisplay5f09.html",
@@ -23920,6 +24072,7 @@
 		"short_description": "This serene dragon's feathered form emits a comforting warmth.",
 		"display": "monster"
 	},
+	"adult_bliss_dragon": { "copyof": "dragon_planar,_bliss,_adult_bliss_dragon" },
 	"dragon_planar,_bliss,_ancient_bliss_dragon": {
 		"name": "Dragon (Planar, Bliss), Ancient Bliss Dragon",
 		"file": "monsterdisplay138b.html",
@@ -23995,6 +24148,7 @@
 		"short_description": "This serene dragon's feathered form emits a comforting warmth.",
 		"display": "monster"
 	},
+	"ancient_bliss_dragon": { "copyof": "dragon_planar,_bliss,_ancient_bliss_dragon" },
 	"dragon_planar,_bliss,_young_bliss_dragon": {
 		"name": "Dragon (Planar, Bliss), Young Bliss Dragon",
 		"file": "monsterdisplay7c34.html",
@@ -24063,6 +24217,7 @@
 		"short_description": "This serene dragon's feathered form emits a comforting warmth.",
 		"display": "monster"
 	},
+	"young_bliss_dragon": { "copyof": "dragon_planar,_bliss,_young_bliss_dragon" },
 	"dragon_planar,_crypt,_adult_crypt_dragon": {
 		"name": "Dragon (Planar, Crypt), Adult Crypt Dragon",
 		"file": "monsterdisplay18db.html",
@@ -24139,6 +24294,7 @@
 		"short_description": "This dragon's scales are the color of weathered bone, and its hide stretches tautly and painfully over its emaciated form.",
 		"display": "monster"
 	},
+	"adult_crypt_dragon": { "copyof": "dragon_planar,_crypt,_adult_crypt_dragon" },
 	"dragon_planar,_crypt,_ancient_crypt_dragon": {
 		"name": "Dragon (Planar, Crypt), Ancient Crypt Dragon",
 		"file": "monsterdisplayef4d.html",
@@ -24219,6 +24375,7 @@
 		"short_description": "This dragon's scales are the color of weathered bone, and its hide stretches tautly and painfully over its emaciated form.",
 		"display": "monster"
 	},
+	"ancient_crypt_dragon": { "copyof": "dragon_planar,_crypt,_ancient_crypt_dragon" },
 	"dragon_planar,_crypt,_young_crypt_dragon": {
 		"name": "Dragon (Planar, Crypt), Young Crypt Dragon",
 		"file": "monsterdisplay4e98.html",
@@ -24292,6 +24449,7 @@
 		"short_description": "This dragon's scales are the color of weathered bone, and its hide stretches tautly and painfully over its emaciated form.",
 		"display": "monster"
 	},
+	"young_crypt_dragon": { "copyof": "dragon_planar,_crypt,_young_crypt_dragon" },
 	"dragon_planar,_edict,_adult_edict_dragon": {
 		"name": "Dragon (Planar, Edict), Adult Edict Dragon",
 		"file": "monsterdisplaye560.html",
@@ -24366,6 +24524,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_edict_dragon": { "copyof": "dragon_planar,_edict,_adult_edict_dragon" },
 	"dragon_planar,_edict,_ancient_edict_dragon": {
 		"name": "Dragon (Planar, Edict), Ancient Edict Dragon",
 		"file": "monsterdisplay4fb2.html",
@@ -24444,6 +24603,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_edict_dragon": { "copyof": "dragon_planar,_edict,_ancient_edict_dragon" },
 	"dragon_planar,_edict,_young_edict_dragon": {
 		"name": "Dragon (Planar, Edict), Young Edict Dragon",
 		"file": "monsterdisplay8663.html",
@@ -24514,6 +24674,7 @@
 		],
 		"display": "monster"
 	},
+	"young_edict_dragon": { "copyof": "dragon_planar,_edict,_young_edict_dragon" },
 	"dragon_planar,_havoc,_adult_havoc_dragon": {
 		"name": "Dragon (Planar, Havoc), Adult Havoc Dragon",
 		"file": "monsterdisplay29b1.html",
@@ -24592,6 +24753,7 @@
 		"short_description": "This dragon's scales and insectile wings dance with color, while its whiplike tail waves as if stirred by an unseen breeze.",
 		"display": "monster"
 	},
+	"adult_havoc_dragon": { "copyof": "dragon_planar,_havoc,_adult_havoc_dragon" },
 	"dragon_planar,_havoc,_ancient_havoc_dragon": {
 		"name": "Dragon (Planar, Havoc), Ancient Havoc Dragon",
 		"file": "monsterdisplayff26.html",
@@ -24674,6 +24836,7 @@
 		"short_description": "This dragon's scales and insectile wings dance with color, while its whiplike tail waves as if stirred by an unseen breeze.",
 		"display": "monster"
 	},
+	"ancient_havoc_dragon": { "copyof": "dragon_planar,_havoc,_ancient_havoc_dragon" },
 	"dragon_planar,_havoc,_young_havoc_dragon": {
 		"name": "Dragon (Planar, Havoc), Young Havoc Dragon",
 		"file": "monsterdisplay5675.html",
@@ -24749,6 +24912,7 @@
 		"short_description": "This dragon's scales and insectile wings dance with color, while its whiplike tail waves as if stirred by an unseen breeze.",
 		"display": "monster"
 	},
+	"young_havoc_dragon": { "copyof": "dragon_planar,_havoc,_young_havoc_dragon" },
 	"dragon_planar,_infernal,_adult_infernal_dragon": {
 		"name": "Dragon (Planar, Infernal), Adult Infernal Dragon",
 		"file": "monsterdisplay45fd.html",
@@ -24827,6 +24991,7 @@
 		"short_description": "Cruel horns frame this dragon's head. Its body glows faintly with malicious heat.",
 		"display": "monster"
 	},
+	"adult_infernal_dragon": { "copyof": "dragon_planar,_infernal,_adult_infernal_dragon" },
 	"dragon_planar,_infernal,_ancient_infernal_dragon": {
 		"name": "Dragon (Planar, Infernal), Ancient Infernal Dragon",
 		"file": "monsterdisplaye2f4.html",
@@ -24911,6 +25076,7 @@
 		"short_description": "Cruel horns frame this dragon's head. Its body glows faintly with malicious heat.",
 		"display": "monster"
 	},
+	"ancient_infernal_dragon": { "copyof": "dragon_planar,_infernal,_ancient_infernal_dragon" },
 	"dragon_planar,_infernal,_young_infernal_dragon": {
 		"name": "Dragon (Planar, Infernal), Young Infernal Dragon",
 		"file": "monsterdisplay7f59.html",
@@ -24985,6 +25151,7 @@
 		"short_description": "Cruel horns frame this dragon's head. Its body glows faintly with malicious heat.",
 		"display": "monster"
 	},
+	"young_infernal_dragon": { "copyof": "dragon_planar,_infernal,_young_infernal_dragon" },
 	"dragon_planar,_paradise,_adult_paradise_dragon": {
 		"name": "Dragon (Planar, Paradise), Adult Paradise Dragon",
 		"file": "monsterdisplaycaf4.html",
@@ -25063,6 +25230,7 @@
 		"short_description": "This sleek dragon carries itself with regal dignity. Its eyes glow with heavenly light.",
 		"display": "monster"
 	},
+	"adult_paradise_dragon": { "copyof": "dragon_planar,_paradise,_adult_paradise_dragon" },
 	"dragon_planar,_paradise,_ancient_paradise_dragon": {
 		"name": "Dragon (Planar, Paradise), Ancient Paradise Dragon",
 		"file": "monsterdisplay7981.html",
@@ -25145,6 +25313,7 @@
 		"short_description": "This sleek dragon carries itself with regal dignity. Its eyes glow with heavenly light.",
 		"display": "monster"
 	},
+	"ancient_paradise_dragon": { "copyof": "dragon_planar,_paradise,_ancient_paradise_dragon" },
 	"dragon_planar,_paradise,_young_paradise_dragon": {
 		"name": "Dragon (Planar, Paradise), Young Paradise Dragon",
 		"file": "monsterdisplay1443.html",
@@ -25220,6 +25389,7 @@
 		"short_description": "This sleek dragon carries itself with regal dignity. Its eyes glow with heavenly light.",
 		"display": "monster"
 	},
+	"young_paradise_dragon": { "copyof": "dragon_planar,_paradise,_young_paradise_dragon" },
 	"dragon_planar,_rift,_adult_rift_dragon": {
 		"name": "Dragon (Planar, Rift), Adult Rift Dragon",
 		"file": "monsterdisplay6b51.html",
@@ -25298,6 +25468,7 @@
 		"short_description": "This dark-scaled dragon has massive claws, and foul-smelling acid drips from its saber teeth.",
 		"display": "monster"
 	},
+	"adult_rift_dragon": { "copyof": "dragon_planar,_rift,_adult_rift_dragon" },
 	"dragon_planar,_rift,_ancient_rift_dragon": {
 		"name": "Dragon (Planar, Rift), Ancient Rift Dragon",
 		"file": "monsterdisplay512b.html",
@@ -25380,6 +25551,7 @@
 		"short_description": "This dark-scaled dragon has massive claws, and foul-smelling acid drips from its saber teeth.",
 		"display": "monster"
 	},
+	"ancient_rift_dragon": { "copyof": "dragon_planar,_rift,_ancient_rift_dragon" },
 	"dragon_planar,_rift,_young_rift_dragon": {
 		"name": "Dragon (Planar, Rift), Young Rift Dragon",
 		"file": "monsterdisplayca28.html",
@@ -25454,6 +25626,7 @@
 		"short_description": "This dark-scaled dragon has massive claws, and foul-smelling acid drips from its saber teeth.",
 		"display": "monster"
 	},
+	"young_rift_dragon": { "copyof": "dragon_planar,_rift,_young_rift_dragon" },
 	"dragon_planar,_tumult,_adult_tumult_dragon": {
 		"name": "Dragon (Planar, Tumult), Adult Tumult Dragon",
 		"file": "monsterdisplay430a.html",
@@ -25525,6 +25698,7 @@
 		"short_description": "This dragon seems to be made of parts from different creatures.",
 		"display": "monster"
 	},
+	"adult_tumult_dragon": { "copyof": "dragon_planar,_tumult,_adult_tumult_dragon" },
 	"dragon_planar,_tumult,_ancient_tumult_dragon": {
 		"name": "Dragon (Planar, Tumult), Ancient Tumult Dragon",
 		"file": "monsterdisplayf1b5-2.html",
@@ -25600,6 +25774,7 @@
 		"short_description": "This dragon seems to be made of parts from different creatures.",
 		"display": "monster"
 	},
+	"ancient_tumult_dragon": { "copyof": "dragon_planar,_tumult,_ancient_tumult_dragon" },
 	"dragon_planar,_tumult,_young_tumult_dragon": {
 		"name": "Dragon (Planar, Tumult), Young Tumult Dragon",
 		"file": "monsterdisplayd748.html",
@@ -25667,6 +25842,7 @@
 		"short_description": "This dragon seems to be made of parts from different creatures.",
 		"display": "monster"
 	},
+	"young_tumult_dragon": { "copyof": "dragon_planar,_tumult,_young_tumult_dragon" },
 	"dragon_primal,_brine,_adult_brine_dragon": {
 		"name": "Dragon (Primal, Brine), Adult Brine Dragon",
 		"file": "monsterdisplay82de.html",
@@ -25743,6 +25919,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_brine_dragon": { "copyof": "dragon_primal,_brine,_adult_brine_dragon" },
 	"dragon_primal,_brine,_ancient_brine_dragon": {
 		"name": "Dragon (Primal, Brine), Ancient Brine Dragon",
 		"file": "monsterdisplay2caa.html",
@@ -25824,6 +26001,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_brine_dragon": { "copyof": "dragon_primal,_brine,_ancient_brine_dragon" },
 	"dragon_primal,_brine,_young_brine_dragon": {
 		"name": "Dragon (Primal, Brine), Young Brine Dragon",
 		"file": "monsterdisplayc8a5.html",
@@ -25899,6 +26077,7 @@
 		"short_description": "A blue-green neck frill sweeps back from the head of this dragon, leading to a body of shiny scales and fin-like crests.",
 		"display": "monster"
 	},
+	"young_brine_dragon": { "copyof": "dragon_primal,_brine,_young_brine_dragon" },
 	"dragon_primal,_cloud,_adult_cloud_dragon": {
 		"name": "Dragon (Primal, Cloud), Adult Cloud Dragon",
 		"file": "monsterdisplay9d72.html",
@@ -25974,6 +26153,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_cloud_dragon": { "copyof": "dragon_primal,_cloud,_adult_cloud_dragon" },
 	"dragon_primal,_cloud,_ancient_cloud_dragon": {
 		"name": "Dragon (Primal, Cloud), Ancient Cloud Dragon",
 		"file": "monsterdisplay9466.html",
@@ -26054,6 +26234,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_cloud_dragon": { "copyof": "dragon_primal,_cloud,_ancient_cloud_dragon" },
 	"dragon_primal,_cloud,_young_cloud_dragon": {
 		"name": "Dragon (Primal, Cloud), Young Cloud Dragon",
 		"file": "monsterdisplay8f30.html",
@@ -26125,6 +26306,7 @@
 		"short_description": "The blue-white scales of this four-horned dragon exude wisps of fog. The dragon's snout is short but filled with sharp teeth.",
 		"display": "monster"
 	},
+	"young_cloud_dragon": { "copyof": "dragon_primal,_cloud,_young_cloud_dragon" },
 	"dragon_primal,_crystal,_adult_crystal_dragon": {
 		"name": "Dragon (Primal, Crystal), Adult Crystal Dragon",
 		"file": "monsterdisplay3ce3.html",
@@ -26201,6 +26383,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_crystal_dragon": { "copyof": "dragon_primal,_crystal,_adult_crystal_dragon" },
 	"dragon_primal,_crystal,_ancient_crystal_dragon": {
 		"name": "Dragon (Primal, Crystal), Ancient Crystal Dragon",
 		"file": "monsterdisplay2f0e.html",
@@ -26281,6 +26464,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_crystal_dragon": { "copyof": "dragon_primal,_crystal,_ancient_crystal_dragon" },
 	"dragon_primal,_crystal,_young_crystal_dragon": {
 		"name": "Dragon (Primal, Crystal), Young Crystal Dragon",
 		"file": "monsterdisplay67db.html",
@@ -26356,6 +26540,7 @@
 		"short_description": "This brilliantly colored dragon has scales, teeth, and claws made of multicolored crystal, and its wings are sheets of flexible glass.",
 		"display": "monster"
 	},
+	"young_crystal_dragon": { "copyof": "dragon_primal,_crystal,_young_crystal_dragon" },
 	"dragon_primal,_magma,_adult_magma_dragon": {
 		"name": "Dragon (Primal, Magma), Adult Magma Dragon",
 		"file": "monsterdisplaye455.html",
@@ -26433,6 +26618,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_magma_dragon": { "copyof": "dragon_primal,_magma,_adult_magma_dragon" },
 	"dragon_primal,_magma,_ancient_magma_dragon": {
 		"name": "Dragon (Primal, Magma), Ancient Magma Dragon",
 		"file": "monsterdisplay4172.html",
@@ -26516,6 +26702,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_magma_dragon": { "copyof": "dragon_primal,_magma,_ancient_magma_dragon" },
 	"dragon_primal,_magma,_young_magma_dragon": {
 		"name": "Dragon (Primal, Magma), Young Magma Dragon",
 		"file": "monsterdisplay5d93.html",
@@ -26592,6 +26779,7 @@
 		"short_description": "Between this dragon's jet-black scales run glowing rivulets of lava, and veins aglow with heat shine in the membranes of its wings.",
 		"display": "monster"
 	},
+	"young_magma_dragon": { "copyof": "dragon_primal,_magma,_young_magma_dragon" },
 	"dragon_primal,_umbral,_adult_umbral_dragon": {
 		"name": "Dragon (Primal, Umbral), Adult Umbral Dragon",
 		"file": "monsterdisplay4ee3.html",
@@ -26667,6 +26855,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_umbral_dragon": { "copyof": "dragon_primal,_umbral,_adult_umbral_dragon" },
 	"dragon_primal,_umbral,_ancient_umbral_dragon": {
 		"name": "Dragon (Primal, Umbral), Ancient Umbral Dragon",
 		"file": "monsterdisplay8d93.html",
@@ -26747,6 +26936,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_umbral_dragon": { "copyof": "dragon_primal,_umbral,_ancient_umbral_dragon" },
 	"dragon_primal,_umbral,_young_umbral_dragon": {
 		"name": "Dragon (Primal, Umbral), Young Umbral Dragon",
 		"file": "monsterdisplay77a9.html",
@@ -26822,6 +27012,7 @@
 		"short_description": "This sleek, dark dragon moves with a disturbing, serpentine grace, its eyes glowing as if lit from within by crimson embers.",
 		"display": "monster"
 	},
+	"young_umbral_dragon": { "copyof": "dragon_primal,_umbral,_young_umbral_dragon" },
 	"dragon_red,_adult_red_dragon": {
 		"name": "Dragon (Red), Adult Red Dragon",
 		"file": "monsterdisplay8bc6.html",
@@ -26897,6 +27088,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_red_dragon": { "copyof": "dragon_red,_adult_red_dragon" },
 	"dragon_red,_ancient_red_dragon": {
 		"name": "Dragon (Red), Ancient Red Dragon",
 		"file": "monsterdisplay01bb.html",
@@ -26975,6 +27167,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_red_dragon": { "copyof": "dragon_red,_ancient_red_dragon" },
 	"dragon_red,_young_red_dragon": {
 		"name": "Dragon (Red), Young Red Dragon",
 		"file": "monsterdisplay7d96.html",
@@ -27050,6 +27243,7 @@
 		"short_description": "A crown of cruel horns surrounds the head of this mighty dragon. Thick scales the color of molten rock cover its long body.",
 		"display": "monster"
 	},
+	"young_red_dragon": { "copyof": "dragon_red,_young_red_dragon" },
 	"dragon_silver,_adult_silver_dragon": {
 		"name": "Dragon (Silver), Adult Silver Dragon",
 		"file": "monsterdisplay1104.html",
@@ -27126,6 +27320,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_silver_dragon": { "copyof": "dragon_silver,_adult_silver_dragon" },
 	"dragon_silver,_ancient_silver_dragon": {
 		"name": "Dragon (Silver), Ancient Silver Dragon",
 		"file": "monsterdisplay2c26.html",
@@ -27206,6 +27401,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_silver_dragon": { "copyof": "dragon_silver,_ancient_silver_dragon" },
 	"dragon_silver,_young_silver_dragon": {
 		"name": "Dragon (Silver), Young Silver Dragon",
 		"file": "monsterdisplayae46.html",
@@ -27282,6 +27478,7 @@
 		"short_description": "The scales of this tall, elegant dragon shine like polished silver, and its tail has a feathered appearance.",
 		"display": "monster"
 	},
+	"young_silver_dragon": { "copyof": "dragon_silver,_young_silver_dragon" },
 	"dragon_white,_adult_white_dragon": {
 		"name": "Dragon (White), Adult White Dragon",
 		"file": "monsterdisplay5801.html",
@@ -27356,6 +27553,7 @@
 		],
 		"display": "monster"
 	},
+	"adult_white_dragon": { "copyof": "dragon_white,_adult_white_dragon" },
 	"dragon_white,_ancient_white_dragon": {
 		"name": "Dragon (White), Ancient White Dragon",
 		"file": "monsterdisplay3018.html",
@@ -27433,6 +27631,7 @@
 		],
 		"display": "monster"
 	},
+	"ancient_white_dragon": { "copyof": "dragon_white,_ancient_white_dragon" },
 	"dragon_white,_young_white_dragon": {
 		"name": "Dragon (White), Young White Dragon",
 		"file": "monsterdisplayc74a.html",
@@ -27504,6 +27703,7 @@
 		"short_description": "This dragon's scales are a frosty white. Its head is crowned with slender horns, with a thin membrane stretched between them.",
 		"display": "monster"
 	},
+	"young_white_dragon": { "copyof": "dragon_white,_young_white_dragon" },
 	"dragon_horse": {
 		"name": "Dragon Horse",
 		"file": "monsterdisplay5bb2.html",
@@ -27905,6 +28105,7 @@
 		"short_description": "This sleek dragon has scales mottled in desert colors, lacks forelimbs, and sports massive wings on its lissome back.",
 		"display": "monster"
 	},
+	"desert_drake": { "copyof": "drake,_desert_drake" },
 	"drake,_ether_drake": {
 		"name": "Drake, Ether Drake",
 		"file": "monsterdisplayc137.html",
@@ -27990,6 +28191,7 @@
 		"short_description": "Bony plates cover the upper body of this dragon. Its lower frame has a glassy sheen, and bone wings protrude from its back.",
 		"display": "monster"
 	},
+	"ether_drake": { "copyof": "drake,_ether_drake" },
 	"drake,_flame_drake": {
 		"name": "Drake, Flame Drake",
 		"file": "monsterdisplaye1e7.html",
@@ -28073,6 +28275,7 @@
 		"short_description": "This ferocious creature looks like a red-and-yellow scaled dragon, but with only two legs.",
 		"display": "monster"
 	},
+	"flame_drake": { "copyof": "drake,_flame_drake" },
 	"drake,_forest_drake": {
 		"name": "Drake, Forest Drake",
 		"file": "monsterdisplay635f.html",
@@ -28160,6 +28363,7 @@
 		"short_description": "This green-scaled dragon has two powerful legs and a pair of long, leathery wings. A long spike adorns its thrashing tail.",
 		"display": "monster"
 	},
+	"forest_drake": { "copyof": "drake,_forest_drake" },
 	"drake,_frost_drake": {
 		"name": "Drake, Frost Drake",
 		"file": "monsterdisplay995d.html",
@@ -28243,6 +28447,7 @@
 		"short_description": "This two-legged dragon has dull blue scales tinged with bright blue ice. A freezing mist issues from between its powerful jaws.",
 		"display": "monster"
 	},
+	"frost_drake": { "copyof": "drake,_frost_drake" },
 	"drake,_jungle_drake": {
 		"name": "Drake, Jungle Drake",
 		"file": "monsterdisplayc1ff.html",
@@ -28330,6 +28535,7 @@
 		"short_description": "The skin of this rugged dragon is mottled in hues of blue and green. Its elongated tail hides a menacing stinger.",
 		"display": "monster"
 	},
+	"jungle_drake": { "copyof": "drake,_jungle_drake" },
 	"drake,_lava_drake": {
 		"name": "Drake, Lava Drake",
 		"file": "monsterdisplay1fab.html",
@@ -28414,6 +28620,7 @@
 		"short_description": "This muscular two-legged dragon is covered with scales of thick volcanic stone.",
 		"display": "monster"
 	},
+	"lava_drake": { "copyof": "drake,_lava_drake" },
 	"drake,_mist_drake": {
 		"name": "Drake, Mist Drake",
 		"file": "monsterdisplay6000.html",
@@ -28501,6 +28708,7 @@
 		"short_description": "This lanky dragon's dappled grayish scales and sprawling wings shift and fade in color, blending in with the mist.",
 		"display": "monster"
 	},
+	"mist_drake": { "copyof": "drake,_mist_drake" },
 	"drake,_rift_drake": {
 		"name": "Drake, Rift Drake",
 		"file": "monsterdisplaya00a.html",
@@ -28586,6 +28794,7 @@
 		"short_description": "Horns jut from this muscular dragon's beaked head, and spikes cover the dragon's hide even in places on its winged arms.",
 		"display": "monster"
 	},
+	"rift_drake": { "copyof": "drake,_rift_drake" },
 	"drake,_river_drake": {
 		"name": "Drake, River Drake",
 		"file": "monsterdisplayf3eb.html",
@@ -28673,6 +28882,7 @@
 		"short_description": "With graceful wings and wide fins, this sleek dragon looks equally well equipped to glide through sea and sky.",
 		"display": "monster"
 	},
+	"river_drake": { "copyof": "drake,_river_drake" },
 	"drake,_sea_drake": {
 		"name": "Drake, Sea Drake",
 		"file": "monsterdisplaybe93.html",
@@ -28755,6 +28965,7 @@
 		"short_description": "Not quite sea serpent or dragon, this vicious beast is covered with shiny blue-green scales. Its arms serve as both wings and flippers.",
 		"display": "monster"
 	},
+	"sea_drake": { "copyof": "drake,_sea_drake" },
 	"drake,_shadow_drake": {
 		"name": "Drake, Shadow Drake",
 		"file": "monsterdisplay1acf.html",
@@ -28841,6 +29052,7 @@
 		"short_description": "This tiny black dragonlike creature has charcoal-colored scales and shadowy wings.",
 		"display": "monster"
 	},
+	"shadow_drake": { "copyof": "drake,_shadow_drake" },
 	"drake,_spire_drake": {
 		"name": "Drake, Spire Drake",
 		"file": "monsterdisplay5c7e.html",
@@ -28925,6 +29137,7 @@
 		"short_description": "This reptilian creature's gaunt body, legs, and batlike face are covered in long spines. Two wings stretch out from its torso.",
 		"display": "monster"
 	},
+	"spire_drake": { "copyof": "drake,_spire_drake" },
 	"draugr": {
 		"name": "Draugr",
 		"file": "monsterdisplay9e1d.html",
@@ -29420,6 +29633,7 @@
 		"short_description": "This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless.",
 		"display": "monster"
 	},
+	"drow_demonic_champion": { "copyof": "drow,_drow_demonic_champion" },
 	"drow,_drow_house_captain": {
 		"name": "Drow, Drow House Captain",
 		"file": "monsterdisplay2d2d.html",
@@ -29491,6 +29705,7 @@
 		"short_description": "This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless.",
 		"display": "monster"
 	},
+	"drow_house_captain": { "copyof": "drow,_drow_house_captain" },
 	"drow,_drow_house_guard": {
 		"name": "Drow, Drow House Guard",
 		"file": "monsterdisplayed88.html",
@@ -29565,6 +29780,7 @@
 		"short_description": "This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless.",
 		"display": "monster"
 	},
+	"drow_house_guard": { "copyof": "drow,_drow_house_guard" },
 	"drow,_drow_master_scout": {
 		"name": "Drow, Drow Master Scout",
 		"file": "monsterdisplay2a89.html",
@@ -29640,6 +29856,7 @@
 		"short_description": "This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless.",
 		"display": "monster"
 	},
+	"drow_master_scout": { "copyof": "drow,_drow_master_scout" },
 	"drow,_drow_matron": {
 		"name": "Drow, Drow Matron",
 		"file": "monsterdisplay2858.html",
@@ -29726,6 +29943,7 @@
 		"short_description": "This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless.",
 		"display": "monster"
 	},
+	"drow_matron": { "copyof": "drow,_drow_matron" },
 	"drow,_drow_noble": {
 		"name": "Drow, Drow Noble",
 		"file": "monsterdisplay6b50.html",
@@ -29810,6 +30028,7 @@
 		"short_description": "This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless.",
 		"display": "monster"
 	},
+	"drow_noble": { "copyof": "drow,_drow_noble" },
 	"drow,_drow_poisoner": {
 		"name": "Drow, Drow Poisoner",
 		"file": "monsterdisplay2478.html",
@@ -29891,6 +30110,7 @@
 		"short_description": "This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless.",
 		"display": "monster"
 	},
+	"drow_poisoner": { "copyof": "drow,_drow_poisoner" },
 	"drow,_drow_priest": {
 		"name": "Drow, Drow Priest",
 		"file": "monsterdisplayb7cd.html",
@@ -29977,6 +30197,7 @@
 		"short_description": "This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless.",
 		"display": "monster"
 	},
+	"drow_priest": { "copyof": "drow,_drow_priest" },
 	"drow,_drow_scout": {
 		"name": "Drow, Drow Scout",
 		"file": "monsterdisplayd06b.html",
@@ -30048,6 +30269,7 @@
 		"short_description": "This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless.",
 		"display": "monster"
 	},
+	"drow_scout": { "copyof": "drow,_drow_scout" },
 	"dryad": {
 		"name": "Dryad",
 		"file": "monsterdisplayb6e2.html",
@@ -30271,6 +30493,7 @@
 		],
 		"display": "monster"
 	},
+	"duergar_anvil": { "copyof": "duergar,_duergar_anvil" },
 	"duergar,_duergar_bombardier": {
 		"name": "Duergar, Duergar Bombardier",
 		"file": "monsterdisplay5b0e.html",
@@ -30349,6 +30572,7 @@
 		],
 		"display": "monster"
 	},
+	"duergar_bombardier": { "copyof": "duergar,_duergar_bombardier" },
 	"duergar,_duergar_captain": {
 		"name": "Duergar, Duergar Captain",
 		"file": "monsterdisplay02f4.html",
@@ -30417,6 +30641,7 @@
 		],
 		"display": "monster"
 	},
+	"duergar_captain": { "copyof": "duergar,_duergar_captain" },
 	"duergar,_duergar_hammer": {
 		"name": "Duergar, Duergar Hammer",
 		"file": "monsterdisplayed25.html",
@@ -30485,6 +30710,7 @@
 		],
 		"display": "monster"
 	},
+	"duergar_hammer": { "copyof": "duergar,_duergar_hammer" },
 	"duergar,_duergar_high_priest": {
 		"name": "Duergar, Duergar High Priest",
 		"file": "monsterdisplay4d97.html",
@@ -30572,6 +30798,7 @@
 		],
 		"display": "monster"
 	},
+	"duergar_high_priest": { "copyof": "duergar,_duergar_high_priest" },
 	"duergar,_duergar_lieutenant": {
 		"name": "Duergar, Duergar Lieutenant",
 		"file": "monsterdisplay06e2-2.html",
@@ -30647,6 +30874,7 @@
 		],
 		"display": "monster"
 	},
+	"duergar_lieutenant": { "copyof": "duergar,_duergar_lieutenant" },
 	"duergar,_duergar_sergeant": {
 		"name": "Duergar, Duergar Sergeant",
 		"file": "monsterdisplay3358.html",
@@ -30714,6 +30942,7 @@
 		],
 		"display": "monster"
 	},
+	"duergar_sergeant": { "copyof": "duergar,_duergar_sergeant" },
 	"duergar,_duergar_sharpshooter": {
 		"name": "Duergar, Duergar Sharpshooter",
 		"file": "monsterdisplayc691.html",
@@ -30782,6 +31011,7 @@
 		],
 		"display": "monster"
 	},
+	"duergar_sharpshooter": { "copyof": "duergar,_duergar_sharpshooter" },
 	"duergar,_duergar_slaver": {
 		"name": "Duergar, Duergar Slaver",
 		"file": "monsterdisplay66a2.html",
@@ -30850,6 +31080,7 @@
 		],
 		"display": "monster"
 	},
+	"duergar_slaver": { "copyof": "duergar,_duergar_slaver" },
 	"duergar,_duergar_taskmaster": {
 		"name": "Duergar, Duergar Taskmaster",
 		"file": "monsterdisplaye722.html",
@@ -30921,6 +31152,7 @@
 		],
 		"display": "monster"
 	},
+	"duergar_taskmaster": { "copyof": "duergar,_duergar_taskmaster" },
 	"duergar,_duergar_tyrant": {
 		"name": "Duergar, Duergar Tyrant",
 		"file": "monsterdisplay087a.html",
@@ -31003,6 +31235,7 @@
 		"short_description": "The dull gray skin of this dwarf ripples with kinetic power.",
 		"display": "monster"
 	},
+	"duergar_tyrant": { "copyof": "duergar,_duergar_tyrant" },
 	"dullahan": {
 		"name": "Dullahan",
 		"file": "monsterdisplayac05.html",
@@ -31549,6 +31782,7 @@
 		"short_description": "Its coat shining vividly, this majestic tiger looks exotic and otherworldly. It gazes with piercing yellow eyes and stands calmly, as though fearless.",
 		"display": "monster"
 	},
+	"dweomercat_cub": { "copyof": "dweomercat,_dweomercat_cub" },
 	"dwiergeth": {
 		"name": "Dwiergeth",
 		"file": "monsterdisplayfe57.html",
@@ -31838,6 +32072,7 @@
 		"short_description": "This immense eagle's feathers are golden brown and shimmer in the light. Its sharp beak and curved talons are dark yellow.",
 		"display": "monster"
 	},
+	"giant_eagle": { "copyof": "eagle,_giant_eagle" },
 	"eaisge": {
 		"name": "Eaisge",
 		"file": "monsterdisplay6bd7.html",
@@ -32203,6 +32438,7 @@
 		"short_description": "This six-foot-long, snake-like fish moves slowly. A strange popping and snapping sound occasionally emits from the creature's body.",
 		"display": "monster"
 	},
+	"electric_eel": { "copyof": "eel,_electric_eel" },
 	"eel,_giant_moray_eel": {
 		"name": "Eel, Giant Moray Eel",
 		"file": "monsterdisplaya21a.html",
@@ -32272,6 +32508,7 @@
 		"short_description": "This sixteen-foot-long eel slithers through the water with uncanny grace, mouth open to display large teeth and a second set of jaws.",
 		"display": "monster"
 	},
+	"giant_moray_eel": { "copyof": "eel,_giant_moray_eel" },
 	"egophage": {
 		"name": "Egophage",
 		"file": "monsterdisplaya73e.html",
@@ -32539,10 +32776,7 @@
 		"short_description": "This bizarre amalgam of monstrous parts rampages forth, an eldritch rune seared upon its forehead.",
 		"display": "monster"
 	},
-	"unfettered_eidolon": {
-		"copyof": "eidolon,_unfettered",
-		"display": "monster"
-	},
+	"unfettered_eidolon": { "copyof": "eidolon,_unfettered" },
 	"einherji": {
 		"name": "Einherji",
 		"file": "monsterdisplay33c2-2.html",
@@ -32955,6 +33189,7 @@
 		],
 		"display": "monster"
 	},
+	"elder_aether_elemental": { "copyof": "elemental_aether,_elder_aether_elemental" },
 	"elemental_aether,_greater_aether_elemental": {
 		"name": "Elemental (Aether), Greater Aether Elemental",
 		"file": "monsterdisplayb446.html",
@@ -33023,6 +33258,7 @@
 		],
 		"display": "monster"
 	},
+	"greater_aether_elemental": { "copyof": "elemental_aether,_greater_aether_elemental" },
 	"elemental_aether,_huge_aether_elemental": {
 		"name": "Elemental (Aether), Huge Aether Elemental",
 		"file": "monsterdisplay57b9.html",
@@ -33091,6 +33327,7 @@
 		],
 		"display": "monster"
 	},
+	"huge_aether_elemental": { "copyof": "elemental_aether,_huge_aether_elemental" },
 	"elemental_aether,_large_aether_elemental": {
 		"name": "Elemental (Aether), Large Aether Elemental",
 		"file": "monsterdisplay6211.html",
@@ -33159,6 +33396,7 @@
 		],
 		"display": "monster"
 	},
+	"large_aether_elemental": { "copyof": "elemental_aether,_large_aether_elemental" },
 	"elemental_aether,_medium_aether_elemental": {
 		"name": "Elemental (Aether), Medium Aether Elemental",
 		"file": "monsterdisplayeb08.html",
@@ -33226,6 +33464,7 @@
 		],
 		"display": "monster"
 	},
+	"medium_aether_elemental": { "copyof": "elemental_aether,_medium_aether_elemental" },
 	"elemental_aether,_small_aether_elemental": {
 		"name": "Elemental (Aether), Small Aether Elemental",
 		"file": "monsterdisplay8e35.html",
@@ -33296,6 +33535,7 @@
 		"short_description": "This strange entity is formed from interwoven, translucent threads of an unusual multicolored material.",
 		"display": "monster"
 	},
+	"small_aether_elemental": { "copyof": "elemental_aether,_small_aether_elemental" },
 	"elemental_air,_elder_air_elemental": {
 		"name": "Elemental (Air), Elder Air Elemental",
 		"file": "monsterdisplay86fb.html",
@@ -33363,6 +33603,7 @@
 		],
 		"display": "monster"
 	},
+	"elder_air_elemental": { "copyof": "elemental_air,_elder_air_elemental" },
 	"elemental_air,_greater_air_elemental": {
 		"name": "Elemental (Air), Greater Air Elemental",
 		"file": "monsterdisplayce95.html",
@@ -33430,6 +33671,7 @@
 		],
 		"display": "monster"
 	},
+	"greater_air_elemental": { "copyof": "elemental_air,_greater_air_elemental" },
 	"elemental_air,_huge_air_elemental": {
 		"name": "Elemental (Air), Huge Air Elemental",
 		"file": "monsterdisplayadcc.html",
@@ -33497,6 +33739,7 @@
 		],
 		"display": "monster"
 	},
+	"huge_air_elemental": { "copyof": "elemental_air,_huge_air_elemental" },
 	"elemental_air,_large_air_elemental": {
 		"name": "Elemental (Air), Large Air Elemental",
 		"file": "monsterdisplay6a9c.html",
@@ -33564,6 +33807,7 @@
 		],
 		"display": "monster"
 	},
+	"large_air_elemental": { "copyof": "elemental_air,_large_air_elemental" },
 	"elemental_air,_medium_air_elemental": {
 		"name": "Elemental (Air), Medium Air Elemental",
 		"file": "monsterdisplay9e17.html",
@@ -33630,6 +33874,7 @@
 		],
 		"display": "monster"
 	},
+	"medium_air_elemental": { "copyof": "elemental_air,_medium_air_elemental" },
 	"elemental_air,_small_air_elemental": {
 		"name": "Elemental (Air), Small Air Elemental",
 		"file": "monsterdisplay4c8d.html",
@@ -33699,6 +33944,7 @@
 		"short_description": "This cloud-like creature has dark hollows reminiscent of eyes and a mouth, and a howling wind whips it into ominous shapes.",
 		"display": "monster"
 	},
+	"small_air_elemental": { "copyof": "elemental_air,_small_air_elemental" },
 	"elemental_earth,_elder_earth_elemental": {
 		"name": "Elemental (Earth), Elder Earth Elemental",
 		"file": "monsterdisplay6daf.html",
@@ -33766,6 +34012,7 @@
 		],
 		"display": "monster"
 	},
+	"elder_earth_elemental": { "copyof": "elemental_earth,_elder_earth_elemental" },
 	"elemental_earth,_greater_earth_elemental": {
 		"name": "Elemental (Earth), Greater Earth Elemental",
 		"file": "monsterdisplay0602.html",
@@ -33833,6 +34080,7 @@
 		],
 		"display": "monster"
 	},
+	"greater_earth_elemental": { "copyof": "elemental_earth,_greater_earth_elemental" },
 	"elemental_earth,_huge_earth_elemental": {
 		"name": "Elemental (Earth), Huge Earth Elemental",
 		"file": "monsterdisplayf0d4.html",
@@ -33900,6 +34148,7 @@
 		],
 		"display": "monster"
 	},
+	"huge_earth_elemental": { "copyof": "elemental_earth,_huge_earth_elemental" },
 	"elemental_earth,_large_earth_elemental": {
 		"name": "Elemental (Earth), Large Earth Elemental",
 		"file": "monsterdisplay0636.html",
@@ -33967,6 +34216,7 @@
 		],
 		"display": "monster"
 	},
+	"large_earth_elemental": { "copyof": "elemental_earth,_large_earth_elemental" },
 	"elemental_earth,_medium_earth_elemental": {
 		"name": "Elemental (Earth), Medium Earth Elemental",
 		"file": "monsterdisplay2489.html",
@@ -34033,6 +34283,7 @@
 		],
 		"display": "monster"
 	},
+	"medium_earth_elemental": { "copyof": "elemental_earth,_medium_earth_elemental" },
 	"elemental_earth,_small_earth_elemental": {
 		"name": "Elemental (Earth), Small Earth Elemental",
 		"file": "monsterdisplayc02c.html",
@@ -34102,6 +34353,7 @@
 		"short_description": "This hulking, roughly humanoid creature of dirt and stone explodes up from the earth, faceless save for two glowing gemstone eyes.",
 		"display": "monster"
 	},
+	"small_earth_elemental": { "copyof": "elemental_earth,_small_earth_elemental" },
 	"elemental_fire,_elder_fire_elemental": {
 		"name": "Elemental (Fire), Elder Fire Elemental",
 		"file": "monsterdisplay5068.html",
@@ -34170,6 +34422,7 @@
 		],
 		"display": "monster"
 	},
+	"elder_fire_elemental": { "copyof": "elemental_fire,_elder_fire_elemental" },
 	"elemental_fire,_greater_fire_elemental": {
 		"name": "Elemental (Fire), Greater Fire Elemental",
 		"file": "monsterdisplay6997.html",
@@ -34238,6 +34491,7 @@
 		],
 		"display": "monster"
 	},
+	"greater_fire_elemental": { "copyof": "elemental_fire,_greater_fire_elemental" },
 	"elemental_fire,_huge_fire_elemental": {
 		"name": "Elemental (Fire), Huge Fire Elemental",
 		"file": "monsterdisplayb23c.html",
@@ -34306,6 +34560,7 @@
 		],
 		"display": "monster"
 	},
+	"huge_fire_elemental": { "copyof": "elemental_fire,_huge_fire_elemental" },
 	"elemental_fire,_large_fire_elemental": {
 		"name": "Elemental (Fire), Large Fire Elemental",
 		"file": "monsterdisplay7cf7.html",
@@ -34374,6 +34629,7 @@
 		],
 		"display": "monster"
 	},
+	"large_fire_elemental": { "copyof": "elemental_fire,_large_fire_elemental" },
 	"elemental_fire,_medium_fire_elemental": {
 		"name": "Elemental (Fire), Medium Fire Elemental",
 		"file": "monsterdisplay07d7.html",
@@ -34441,6 +34697,7 @@
 		],
 		"display": "monster"
 	},
+	"medium_fire_elemental": { "copyof": "elemental_fire,_medium_fire_elemental" },
 	"elemental_fire,_small_fire_elemental": {
 		"name": "Elemental (Fire), Small Fire Elemental",
 		"file": "monsterdisplayd4bf.html",
@@ -34511,6 +34768,7 @@
 		"short_description": "This creature looks like a living, mobile bonfire, tongues of flame reaching out in search of things to burn.",
 		"display": "monster"
 	},
+	"small_fire_elemental": { "copyof": "elemental_fire,_small_fire_elemental" },
 	"elemental_ice,_elder_ice_elemental": {
 		"name": "Elemental (Ice), Elder Ice Elemental",
 		"file": "monsterdisplaya86b.html",
@@ -34582,6 +34840,7 @@
 		],
 		"display": "monster"
 	},
+	"elder_ice_elemental": { "copyof": "elemental_ice,_elder_ice_elemental" },
 	"elemental_ice,_greater_ice_elemental": {
 		"name": "Elemental (Ice), Greater Ice Elemental",
 		"file": "monsterdisplayf15a.html",
@@ -34653,6 +34912,7 @@
 		],
 		"display": "monster"
 	},
+	"greater_ice_elemental": { "copyof": "elemental_ice,_greater_ice_elemental" },
 	"elemental_ice,_huge_ice_elemental": {
 		"name": "Elemental (Ice), Huge Ice Elemental",
 		"file": "monsterdisplay384d.html",
@@ -34724,6 +34984,7 @@
 		],
 		"display": "monster"
 	},
+	"huge_ice_elemental": { "copyof": "elemental_ice,_huge_ice_elemental" },
 	"elemental_ice,_large_ice_elemental": {
 		"name": "Elemental (Ice), Large Ice Elemental",
 		"file": "monsterdisplay34ac.html",
@@ -34795,6 +35056,7 @@
 		],
 		"display": "monster"
 	},
+	"large_ice_elemental": { "copyof": "elemental_ice,_large_ice_elemental" },
 	"elemental_ice,_medium_ice_elemental": {
 		"name": "Elemental (Ice), Medium Ice Elemental",
 		"file": "monsterdisplay212e.html",
@@ -34865,6 +35127,7 @@
 		],
 		"display": "monster"
 	},
+	"medium_ice_elemental": { "copyof": "elemental_ice,_medium_ice_elemental" },
 	"elemental_ice,_small_ice_elemental": {
 		"name": "Elemental (Ice), Small Ice Elemental",
 		"file": "monsterdisplay4ceb.html",
@@ -34938,6 +35201,7 @@
 		"short_description": "From the waist up, this icy creature's features are humanoid, but below its body is a snake-like, slithering tail.",
 		"display": "monster"
 	},
+	"small_ice_elemental": { "copyof": "elemental_ice,_small_ice_elemental" },
 	"elemental_lightning,_elder_lightning_elemental": {
 		"name": "Elemental (Lightning), Elder Lightning Elemental",
 		"file": "monsterdisplay79f6.html",
@@ -35005,6 +35269,7 @@
 		],
 		"display": "monster"
 	},
+	"elder_lightning_elemental": { "copyof": "elemental_lightning,_elder_lightning_elemental" },
 	"elemental_lightning,_greater_lightning_elemental": {
 		"name": "Elemental (Lightning), Greater Lightning Elemental",
 		"file": "monsterdisplaybcba.html",
@@ -35072,6 +35337,7 @@
 		],
 		"display": "monster"
 	},
+	"greater_lightning_elemental": { "copyof": "elemental_lightning,_greater_lightning_elemental" },
 	"elemental_lightning,_huge_lightning_elemental": {
 		"name": "Elemental (Lightning), Huge Lightning Elemental",
 		"file": "monsterdisplayd73b.html",
@@ -35139,6 +35405,7 @@
 		],
 		"display": "monster"
 	},
+	"huge_lightning_elemental": { "copyof": "elemental_lightning,_huge_lightning_elemental" },
 	"elemental_lightning,_large_lightning_elemental": {
 		"name": "Elemental (Lightning), Large Lightning Elemental",
 		"file": "monsterdisplay0b7e.html",
@@ -35206,6 +35473,7 @@
 		],
 		"display": "monster"
 	},
+	"large_lightning_elemental": { "copyof": "elemental_lightning,_large_lightning_elemental" },
 	"elemental_lightning,_medium_lightning_elemental": {
 		"name": "Elemental (Lightning), Medium Lightning Elemental",
 		"file": "monsterdisplaye83c.html",
@@ -35272,6 +35540,7 @@
 		],
 		"display": "monster"
 	},
+	"medium_lightning_elemental": { "copyof": "elemental_lightning,_medium_lightning_elemental" },
 	"elemental_lightning,_small_lightning_elemental": {
 		"name": "Elemental (Lightning), Small Lightning Elemental",
 		"file": "monsterdisplay86dd.html",
@@ -35341,6 +35610,7 @@
 		"short_description": "This creature looks like a dark storm cloud, with sparks suggesting eyes and long sweeping arms charged with bolts of lightning.",
 		"display": "monster"
 	},
+	"small_lightning_elemental": { "copyof": "elemental_lightning,_small_lightning_elemental" },
 	"elemental_magma,_elder_magma_elemental": {
 		"name": "Elemental (Magma), Elder Magma Elemental",
 		"file": "monsterdisplay762b.html",
@@ -35411,6 +35681,7 @@
 		],
 		"display": "monster"
 	},
+	"elder_magma_elemental": { "copyof": "elemental_magma,_elder_magma_elemental" },
 	"elemental_magma,_greater_magma_elemental": {
 		"name": "Elemental (Magma), Greater Magma Elemental",
 		"file": "monsterdisplayf2e7.html",
@@ -35481,6 +35752,7 @@
 		],
 		"display": "monster"
 	},
+	"greater_magma_elemental": { "copyof": "elemental_magma,_greater_magma_elemental" },
 	"elemental_magma,_huge_magma_elemental": {
 		"name": "Elemental (Magma), Huge Magma Elemental",
 		"file": "monsterdisplay9e24.html",
@@ -35551,6 +35823,7 @@
 		],
 		"display": "monster"
 	},
+	"huge_magma_elemental": { "copyof": "elemental_magma,_huge_magma_elemental" },
 	"elemental_magma,_large_magma_elemental": {
 		"name": "Elemental (Magma), Large Magma Elemental",
 		"file": "monsterdisplay291e.html",
@@ -35621,6 +35894,7 @@
 		],
 		"display": "monster"
 	},
+	"large_magma_elemental": { "copyof": "elemental_magma,_large_magma_elemental" },
 	"elemental_magma,_medium_magma_elemental": {
 		"name": "Elemental (Magma), Medium Magma Elemental",
 		"file": "monsterdisplay23d3.html",
@@ -35690,6 +35964,7 @@
 		],
 		"display": "monster"
 	},
+	"medium_magma_elemental": { "copyof": "elemental_magma,_medium_magma_elemental" },
 	"elemental_magma,_small_magma_elemental": {
 		"name": "Elemental (Magma), Small Magma Elemental",
 		"file": "monsterdisplay035a.html",
@@ -35762,6 +36037,7 @@
 		"short_description": "This rocky monster glows with an internal heat. Red light spills from its eyes and mouth, as well as fractures in its outer surface.",
 		"display": "monster"
 	},
+	"small_magma_elemental": { "copyof": "elemental_magma,_small_magma_elemental" },
 	"elemental_mud,_elder_mud_elemental": {
 		"name": "Elemental (Mud), Elder Mud Elemental",
 		"file": "monsterdisplay731c.html",
@@ -35830,6 +36106,7 @@
 		],
 		"display": "monster"
 	},
+	"elder_mud_elemental": { "copyof": "elemental_mud,_elder_mud_elemental" },
 	"elemental_mud,_greater_mud_elemental": {
 		"name": "Elemental (Mud), Greater Mud Elemental",
 		"file": "monsterdisplayfced.html",
@@ -35898,6 +36175,7 @@
 		],
 		"display": "monster"
 	},
+	"greater_mud_elemental": { "copyof": "elemental_mud,_greater_mud_elemental" },
 	"elemental_mud,_huge_mud_elemental": {
 		"name": "Elemental (Mud), Huge Mud Elemental",
 		"file": "monsterdisplay0c9b.html",
@@ -35966,6 +36244,7 @@
 		],
 		"display": "monster"
 	},
+	"huge_mud_elemental": { "copyof": "elemental_mud,_huge_mud_elemental" },
 	"elemental_mud,_large_mud_elemental": {
 		"name": "Elemental (Mud), Large Mud Elemental",
 		"file": "monsterdisplay6144.html",
@@ -36034,6 +36313,7 @@
 		],
 		"display": "monster"
 	},
+	"large_mud_elemental": { "copyof": "elemental_mud,_large_mud_elemental" },
 	"elemental_mud,_medium_mud_elemental": {
 		"name": "Elemental (Mud), Medium Mud Elemental",
 		"file": "monsterdisplay8207.html",
@@ -36101,6 +36381,7 @@
 		],
 		"display": "monster"
 	},
+	"medium_mud_elemental": { "copyof": "elemental_mud,_medium_mud_elemental" },
 	"elemental_mud,_small_mud_elemental": {
 		"name": "Elemental (Mud), Small Mud Elemental",
 		"file": "monsterdisplay3a04.html",
@@ -36171,6 +36452,7 @@
 		"short_description": "This animate pile of mud seems barely able to maintain the semblance of a humanoid form made of dripping sludge.",
 		"display": "monster"
 	},
+	"small_mud_elemental": { "copyof": "elemental_mud,_small_mud_elemental" },
 	"elemental_water,_elder_water_elemental": {
 		"name": "Elemental (Water), Elder Water Elemental",
 		"file": "monsterdisplaya089-2.html",
@@ -36238,6 +36520,7 @@
 		],
 		"display": "monster"
 	},
+	"elder_water_elemental": { "copyof": "elemental_water,_elder_water_elemental" },
 	"elemental_water,_greater_water_elemental": {
 		"name": "Elemental (Water), Greater Water Elemental",
 		"file": "monsterdisplayf1a8.html",
@@ -36305,6 +36588,7 @@
 		],
 		"display": "monster"
 	},
+	"greater_water_elemental": { "copyof": "elemental_water,_greater_water_elemental" },
 	"elemental_water,_huge_water_elemental": {
 		"name": "Elemental (Water), Huge Water Elemental",
 		"file": "monsterdisplay1e71.html",
@@ -36372,6 +36656,7 @@
 		],
 		"display": "monster"
 	},
+	"huge_water_elemental": { "copyof": "elemental_water,_huge_water_elemental" },
 	"elemental_water,_large_water_elemental": {
 		"name": "Elemental (Water), Large Water Elemental",
 		"file": "monsterdisplay3cf7.html",
@@ -36439,6 +36724,7 @@
 		],
 		"display": "monster"
 	},
+	"large_water_elemental": { "copyof": "elemental_water,_large_water_elemental" },
 	"elemental_water,_medium_water_elemental": {
 		"name": "Elemental (Water), Medium Water Elemental",
 		"file": "monsterdisplay310c.html",
@@ -36505,6 +36791,7 @@
 		],
 		"display": "monster"
 	},
+	"medium_water_elemental": { "copyof": "elemental_water,_medium_water_elemental" },
 	"elemental_water,_small_water_elemental": {
 		"name": "Elemental (Water), Small Water Elemental",
 		"file": "monsterdisplay374f.html",
@@ -36574,6 +36861,7 @@
 		"short_description": "This translucent creature's shape shifts between a spinning column of water and a crashing wave.",
 		"display": "monster"
 	},
+	"small_water_elemental": { "copyof": "elemental_water,_small_water_elemental" },
 	"elephant": {
 		"name": "Elephant",
 		"file": "monsterdisplayfb24.html",
@@ -36698,6 +36986,7 @@
 		"short_description": "This creature is larger than a normal elephant, with enormous sweeping tusks and shaggy brown fur on its body.",
 		"display": "monster"
 	},
+	"mastodon": { "copyof": "elephant,_mastodon" },
 	"embalming_bear": {
 		"name": "Embalming Bear",
 		"file": "monsterdisplay1ccb.html",
@@ -36921,15 +37210,15 @@
 			"",
 			"**Emotional Attunement (Su)** Each emotion ooze is closely attuned to a single emotion. The type of emotion affects its physiology, altering its fundamental nature.",
 			"",
-			"- Anger: An emotion ooze attuned to anger glows bright red. Its Strength score increases by 4, it gains [Power Attack](unknown/power_attack) as a bonus feat, and it has fire resistance 10. A creature affected by an anger-attuned emotion ooze's compel emotion ability is compelled to take attacks of opportunity against its allies whenever those allies take actions that would provoke an attack of opportunity from a creature. These count against the number of attacks of opportunity the creature can take each round.",
-			"- Dedication: An emotion ooze attuned to dedication is a deep blue. Its Constitution score increases by 4, it gains [Great Fortitude](unknown/great_fortitude) and [Toughness](unknown/toughness) as bonus feats, and its natural armor bonus to AC increases by 2. A creature affected by a dedication-attuned emotion ooze's compel emotion ability is unable to move away from an adjacent opponent unless it succeeds at a DC 20 Will save at the start of its turn. Success allows the creature to move away that round, but does not end the effect.",
+			"- Anger: An emotion ooze attuned to anger glows bright red. Its Strength score increases by 4, it gains [Power Attack](feat/power_attack) as a bonus feat, and it has fire resistance 10. A creature affected by an anger-attuned emotion ooze's compel emotion ability is compelled to take attacks of opportunity against its allies whenever those allies take actions that would provoke an attack of opportunity from a creature. These count against the number of attacks of opportunity the creature can take each round.",
+			"- Dedication: An emotion ooze attuned to dedication is a deep blue. Its Constitution score increases by 4, it gains [Great Fortitude](feat/great_fortitude) and [Toughness](feat/toughness) as bonus feats, and its natural armor bonus to AC increases by 2. A creature affected by a dedication-attuned emotion ooze's compel emotion ability is unable to move away from an adjacent opponent unless it succeeds at a DC 20 Will save at the start of its turn. Success allows the creature to move away that round, but does not end the effect.",
 			"- Despair: An emotion ooze attuned to despair is a pale, listless gray. Its Constitution and Charisma scores increase by 2, and it has DR 10/magic and cold resistance 10. A creature affected by a despair-attuned emotion ooze's compel emotion ability takes a -4 morale penalty on attack rolls and damage rolls.",
-			"- Fear: An emotion ooze attuned to fear is light gray, flecked with darker gray motes swirling about its insides. Its Dexterity score increases by 4, it gains [Improved Initiative](unknown/improved_initiative) and [Lightning Reflexes](unknown/lightning_reflexes) as bonus feats, and it gains the evasion rogue class feature. A creature affected by a fearattuned emotion ooze's compel emotion ability gains the shaken condition.",
+			"- Fear: An emotion ooze attuned to fear is light gray, flecked with darker gray motes swirling about its insides. Its Dexterity score increases by 4, it gains [Improved Initiative](feat/improved_initiative) and [Lightning Reflexes](feat/lightning_reflexes) as bonus feats, and it gains the evasion rogue class feature. A creature affected by a fearattuned emotion ooze's compel emotion ability gains the shaken condition.",
 			"- Hatred: An emotion ooze attuned to hatred is a deep black color, which pulsates violently when it attacks. Its Strength, Dexterity, and Constitution scores increase by 2, it has acid resistance 10, and its emotional scarring ability deals an additional 4d6 points of damage (instead of 3d6). A creature affected by a hatred-attuned emotion ooze's compel emotion ability takes a -4 penalty to AC, but gains a +1 morale bonus on attack rolls and damage rolls.",
 			"- Jealousy: An emotion ooze attuned to jealousy is a swirl of oily green, orange, and brownish red. Its Strength and Dexterity scores increase by 2, and it has DR 5/silver and SR 17. A creature affected by a jealousy-attuned emotion ooze's compel emotion ability must attempt saving throws to resist all spells cast on it, including harmless and beneficial spells.",
 			"- Zeal: An emotion ooze attuned to zeal is a bright orange color, and grows brighter when the ooze is feeding or has recently fed. Its Strength, Constitution, and Wisdom scores increase by 2, and it has DR 5/magic and electricity resistance 10. A creature affected by a zeal-attuned emotion ooze's compel emotion ability must succeed at a DC 20 Will save each round or repeat the same actions it took on the previous round. If it is unable to do so (such as if it made a full attack against an opponent that has moved away, or cast a spell that has been expended), it must take actions that mimic those taken in the previous round as closely as possible. Succeeding at this Will save allows the creature to act normally for 1 round, but does not free it from the emotion effect.",
 			"",
-			"**Emotional Scarring (Ex)** An emotion ooze's slam attack deals an additional 3d6 points of damage, which is mental damage like that from [mind thrust I](unknown/mind_thrust_1). This is a mind-affecting emotion effect.",
+			"**Emotional Scarring (Ex)** An emotion ooze's slam attack deals an additional 3d6 points of damage, which is mental damage like that from [mind thrust I](spell/mind_thrust_1). This is a mind-affecting emotion effect.",
 			"",
 			"**Empathic Healing (Su)** An emotion ooze gains fast healing 5 as long as it is within 60 feet of a creature that is affected by its compel emotion ability (or that is otherwise experiencing the emotion to which the ooze is attuned). Though an emotion ooze is otherwise immune to mind-affecting effects, it is healed by emotion effects that match its emotion, regaining a number of hit points equal to the caster level of the effect (or to the ooze's Hit Dice for abilities with no caster level). The ooze takes an equal amount of damage if it fails a saving throw against an effect that specifically counters its corresponding emotion (for instance, remove fear for fear or good hope for despair).",
 			"",
@@ -37582,10 +37871,7 @@
 		"short_description": "As thick and tall as a towering palm tree, this mud-colored worm hisses through a fanged mouth. Atop its head, a small protuberance shines like a star.",
 		"display": "monster"
 	},
-	"estuarine_worm_ahket_form": {
-		"copyof": "estuarine_worm,_estuarine_worm_ahket_form",
-		"display": "monster"
-	},
+	"estuarine_worm_ahket_form": { "copyof": "estuarine_worm,_estuarine_worm_ahket_form" },
 	"estuarine_worm,_estuarine_worm_shemu_form": {
 		"name": "Estuarine Worm, Estuarine Worm (Shemu Form)",
 		"file": "monsterdisplay0130.html",
@@ -37676,10 +37962,7 @@
 		],
 		"display": "monster"
 	},
-	"estuarine_worm_shemu_form": {
-		"copyof": "estuarine_worm,_estuarine_worm_shemu_form",
-		"display": "monster"
-	},
+	"estuarine_worm_shemu_form": { "copyof": "estuarine_worm,_estuarine_worm_shemu_form" },
 	"etheroot": {
 		"name": "Etheroot",
 		"file": "monsterdisplay7a22.html",
@@ -37832,7 +38115,7 @@
 			"",
 			"An etiainen sometimes forges an involuntary connection with a creature that allows the spirit to perform actions in advance of the linked creature, leading to bizarre cases of deja vu for those nearby. For instance, a husband might hear the front door open and the sound of his wife's familiar footsteps walking toward him, only to discover that his wife has not yet returned home-But bafflingly, when she does come home, she carries out the same series of actions.",
 			"",
-			"Those who manage to successfully communicate with etiainens can sometimes compel the spirits to perform small tasks, though holding their attention requires great patience. For one who manages this difficult task, these spirits can sometimes act as intermediaries and messengers, or even spies. When acting in this fashion, an etiainen often appears as a strange, silent double of the creature it is serving. Etiainens can understand speech but cannot speak, and they rely on [mindlink](unknown/mindlink)to communicate. Because of the chaotic nature of these spirits, such fellowships are short lived, as the etiainen might at any time flit away on some strange flight of fancy."
+			"Those who manage to successfully communicate with etiainens can sometimes compel the spirits to perform small tasks, though holding their attention requires great patience. For one who manages this difficult task, these spirits can sometimes act as intermediaries and messengers, or even spies. When acting in this fashion, an etiainen often appears as a strange, silent double of the creature it is serving. Etiainens can understand speech but cannot speak, and they rely on [mindlink](spell/mindlink)to communicate. Because of the chaotic nature of these spirits, such fellowships are short lived, as the etiainen might at any time flit away on some strange flight of fancy."
 		],
 		"short_description": "This vaguely humanoid-shaped roil of mist appears to be improbably solid.",
 		"display": "monster"
@@ -38175,6 +38458,7 @@
 		],
 		"display": "monster"
 	},
+	"bluetip_eurypterid": { "copyof": "eurypterid,_bluetip_eurypterid" },
 	"eurypterid,_common_eurypterid": {
 		"name": "Eurypterid, Common Eurypterid",
 		"file": "monsterdisplayc783.html",
@@ -38245,6 +38529,8 @@
 		],
 		"display": "monster"
 	},
+	"common_eurypterid": { "copyof": "eurypterid,_common_eurypterid" },
+	"eurypterid": { "copyof": "eurypterid,_common_eurypterid" },
 	"eurypterid,_ochre_eurypterid": {
 		"name": "Eurypterid, Ochre Eurypterid",
 		"file": "monsterdisplay2878.html",
@@ -38315,6 +38601,7 @@
 		"short_description": "Two large pincers grasp at the air before this sleek creature, while a finned tail bristling with a long, thin stinger rises from behind.",
 		"display": "monster"
 	},
+	"ochre_eurypterid": { "copyof": "eurypterid,_ochre_eurypterid" },
 	"eurypterid,_spiny_eurypterid": {
 		"name": "Eurypterid, Spiny Eurypterid",
 		"file": "monsterdisplay025c.html",
@@ -38388,6 +38675,7 @@
 		],
 		"display": "monster"
 	},
+	"spiny_eurypterid": { "copyof": "eurypterid,_spiny_eurypterid" },
 	"eurypterid,_spitting_eurypterid": {
 		"name": "Eurypterid, Spitting Eurypterid",
 		"file": "monsterdisplayef98.html",
@@ -38458,6 +38746,7 @@
 		],
 		"display": "monster"
 	},
+	"spitting_eurypterid": { "copyof": "eurypterid,_spitting_eurypterid" },
 	"exiled_shade": {
 		"name": "Exiled Shade",
 		"file": "monsterdisplayed8c.html",
@@ -38640,8 +38929,5 @@
 		"short_description": "This goat-like creature has a thick, snowy-white woolen coat. Its eyes gleam with a metallic golden sheen. Its hooves have sharpened, serrated edges and are soaked in blood. A single strand of scarlet thread is tangled between its curled ram horns.",
 		"display": "monster"
 	},
-	"ez_azael": {
-		"copyof": "ez-azael",
-		"display": "monster"
-	}
+	"ez_azael": { "copyof": "ez-azael" }
 }

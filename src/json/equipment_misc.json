@@ -7687,7 +7687,7 @@
 			"**Price** 250 gp; **Weight** 1/2 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This pale salve is always cool to the touch, regardless of the surrounding temperature. When spread on your skin, it subtly alters your aura, making you more difficult for some creatures to detect. For 1 hour after applying the ointment to your skin, you can attempt a Stealth check to hide from any creature attempting to perceive you using [lifesense](unknown/lifesense) or spiritsense (see the [psychopomp](unknown/psychopomp) subtype), even if you are clearly in that creature's perceptual field. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
+			"This pale salve is always cool to the touch, regardless of the surrounding temperature. When spread on your skin, it subtly alters your aura, making you more difficult for some creatures to detect. For 1 hour after applying the ointment to your skin, you can attempt a Stealth check to hide from any creature attempting to perceive you using [lifesense](umr/lifesense) or spiritsense (see the [psychopomp](unknown/psychopomp) subtype), even if you are clearly in that creature's perceptual field. Crafting this item requires a successful DC 25 Craft (alchemy) check.",
 			"",
 			"*Construction*  ",
 			"Craft (Alchemy) DC 25"
@@ -20109,7 +20109,7 @@
 			"**Price** 324 gp; **Weight** -  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This small vial contains an alchemical suspension that preserves a sample of pallid gift. This functions like [plague powder](unknown/plague_powder) for [pallid gift](unknown/pallid_gift) (DC 20), allowing the user to apply pallid gift to a weapon (a standard action, or whatever action the character normally takes to apply poison to a weapon if that is better) and deliver it as with an injury poison. Just as for plague powder, the creation of a pallid suspension exposes the crafter to the disease on each day of crafting."
+			"This small vial contains an alchemical suspension that preserves a sample of pallid gift. This functions like [plague powder](equipment/weapon/plague_powder) for [pallid gift](unknown/pallid_gift) (DC 20), allowing the user to apply pallid gift to a weapon (a standard action, or whatever action the character normally takes to apply poison to a weapon if that is better) and deliver it as with an injury poison. Just as for plague powder, the creation of a pallid suspension exposes the crafter to the disease on each day of crafting."
 		],
 		"display": "equipmisc"
 	},

@@ -4624,7 +4624,7 @@
 			"**Element** earth; **Type** utility (Sp); **Level** 5; **Burn** 0  ",
 			"**Prerequisite** metal blast",
 			"",
-			"You shape metal into a clockwork creature, as [spark of life](class/ability/kinetic/spark_of_life) except you summon a clockwork earth elemental. The elemental's type is changed to construct (clockwork) and it gains construct traits and [clockwork traits](monster/subtype/clockwork) instead of elemental traits. The creature loses any spell-like abilities or supernatural abilities it normally has. If you have the [greater elemental whispers](class/ability/kinetic/greater_elemental_whispers) utility wild talent, you can take a [clockwork familiar](unknown/clockwork_familiar) as an improved familiar with that ability instead of an earth elemental."
+			"You shape metal into a clockwork creature, as [spark of life](class/ability/kinetic/spark_of_life) except you summon a clockwork earth elemental. The elemental's type is changed to construct (clockwork) and it gains construct traits and [clockwork traits](monster/subtype/clockwork) instead of elemental traits. The creature loses any spell-like abilities or supernatural abilities it normally has. If you have the [greater elemental whispers](class/ability/kinetic/greater_elemental_whispers) utility wild talent, you can take a [clockwork familiar](monster/clockwork_familiar) as an improved familiar with that ability instead of an earth elemental."
 		]
 	},
 	"spark_of_life_sp": {

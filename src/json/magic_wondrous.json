@@ -417,7 +417,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [create food and water](unknown/create_food_and_water), [touch of fatigue](unknown/touch_of_fatigue); **Cost** 2,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [create food and water](spell/create_food_and_water), [touch of fatigue](spell/touch_of_fatigue); **Cost** 2,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -1900,7 +1900,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [charm person](unknown/charm_person); **Cost** 1,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [charm person](spell/charm_person); **Cost** 1,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -3645,7 +3645,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [mage armor](unknown/mage_armor), [protection from spells](unknown/protection_from_spells), [resist energy](unknown/resist_energy), [secret chest](unknown/secret_chest); **Cost** 82,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [mage armor](spell/mage_armor), [protection from spells](spell/protection_from_spells), [resist energy](spell/resist_energy), [secret chest](spell/secret_chest); **Cost** 82,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -3667,11 +3667,11 @@
 			"**Aura** strong abjuration and conjuration; **CL** 16th  ",
 			"**Slot** body; **Price** 198,000 gp; **Weight** 1 lb.",
 			"",
-			"The traditional robes of the Runelord of Wrath are known as the robes of Xin-Bakrakhan. Woven of the finest of crimson silks and accented with precious gold, the robes are surprisingly light and easy to move in. The robes of Xin- Bakrakhan aid and accentuate their wearer's spellcasting ability. They grant a +5 shield bonus and spell resistance 24, and the wearer casts all spells at +1 caster level. Two of the robe's pockets function as [handy haversacks](unknown/handy_haversacks). The wearer of these robes is immune to the effects of [calm emotions](unknown/calm_emotions) and can use all skills and abilities that require patience or concentration when under the effects of a [rage](unknown/rage) spell or similar effect.",
+			"The traditional robes of the Runelord of Wrath are known as the robes of Xin-Bakrakhan. Woven of the finest of crimson silks and accented with precious gold, the robes are surprisingly light and easy to move in. The robes of Xin- Bakrakhan aid and accentuate their wearer's spellcasting ability. They grant a +5 shield bonus and spell resistance 24, and the wearer casts all spells at +1 caster level. Two of the robe's pockets function as [handy haversacks](unknown/handy_haversacks). The wearer of these robes is immune to the effects of [calm emotions](spell/calm_emotions) and can use all skills and abilities that require patience or concentration when under the effects of a [rage](spell/rage) spell or similar effect.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [calm emotions](unknown/calm_emotions), [protection from spells](unknown/protection_from_spells), [shield](unknown/shield), [secret chest](unknown/secret_chest); **Cost** 99,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [calm emotions](spell/calm_emotions), [protection from spells](spell/protection_from_spells), [shield](spell/shield), [secret chest](spell/secret_chest); **Cost** 99,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -5989,13 +5989,13 @@
 			"**Aura** strong divination; **CL** 15th  ",
 			"**Slot** eyes; **Price** 15,000 gp; **Weight** 1 lb.",
 			"",
-			"This set of goggles is engraved with geometric patterns and arcane runes. The wearer can immediately see and discern magical auras within 60 feet, as [arcane sight](unknown/arcane_sight). In addition, the wearer is more clearly able to see the animating forces of incorporeal creatures and can therefore harm incorporeal creatures with nonmagical attacks, though these attacks deal only half damage. If the wearer uses a magic weapon to attack an incorporeal creature, the attack deals full damage instead. The goggles have no effect on attacks made with [ghost touch](unknown/ghost_touch) weapons.",
+			"This set of goggles is engraved with geometric patterns and arcane runes. The wearer can immediately see and discern magical auras within 60 feet, as [arcane sight](spell/arcane_sight). In addition, the wearer is more clearly able to see the animating forces of incorporeal creatures and can therefore harm incorporeal creatures with nonmagical attacks, though these attacks deal only half damage. If the wearer uses a magic weapon to attack an incorporeal creature, the attack deals full damage instead. The goggles have no effect on attacks made with [ghost touch](magic/enhancement/ghost_touch) weapons.",
 			"",
 			"Once per day on command, the wearer can amplify the goggles' ability to sense animating forces for 1 hour. This amplification allows the wearer the ability to notice, locate, and distinguish between living and undead creatures within 30 feet, just as if she had a psychopomp's [spiritsense](unknown/spiritsense) ability . The goggles do not grant the wearer the ability to discern magical auras while amplified.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [arcane sight](unknown/arcane_sight), [true seeing](unknown/true_seeing); **Cost** 7,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [arcane sight](spell/arcane_sight), [true seeing](spell/true_seeing); **Cost** 7,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -6278,11 +6278,11 @@
 			"**Aura** moderate transmutation; **CL** 8th  ",
 			"**Slot** eyes; **Price** 32,000 gp; **Weight** -;",
 			"",
-			"Captured in a battle of wits with a brilliant cyclops by the goblin hero Gribbet, this handsome monocle grants a +4 enhancement bonus to Intelligence. The wearer also understands all written words read through the monocle, as [comprehend languages](unknown/comprehend_languages). He further gains a +2 insight bonus on Knowledge checks, and may make Knowledge checks even if untrained.",
+			"Captured in a battle of wits with a brilliant cyclops by the goblin hero Gribbet, this handsome monocle grants a +4 enhancement bonus to Intelligence. The wearer also understands all written words read through the monocle, as [comprehend languages](spell/comprehend_languages). He further gains a +2 insight bonus on Knowledge checks, and may make Knowledge checks even if untrained.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [fox's cunning](unknown/fox's_cunning), [comprehend languages](unknown/comprehend_languages); **Cost** 16,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [fox's cunning](spell/fox's_cunning), [comprehend languages](spell/comprehend_languages); **Cost** 16,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -8593,13 +8593,13 @@
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** feet; **Price** 67,200 gp; **Weight** 6 lbs.",
 			"",
-			"Created by a race of unknown undersea creatures only passingly familiar with humanoid physiology, these tall, uncomfortable boots are made of slimy skin that wriggles slightly. The boots function as [slippers of the triton](unknown/slippers_of_the_triton), allowing the wearer to breathe and swim underwater. The boots constantly murmur telepathically to the wearer, alternating between sycophantic praise of the wearer's prowess and smug assurance that the boots will ensure that the wearer comes to no harm while underwater. The unctuous waders urge the wearer to explore beneath the waves, hoping to find some clues as to their creators and purpose, which the boots have long ago forgotten. If the wearer goes for more than a week without submerging herself in the ocean, the unctuous waders become less obsequious and more demanding. The unctuous waders can remove the ability to allow the wielder to breathe underwater, which they might do as a threat to compel obedience, or out of mere petulance.",
+			"Created by a race of unknown undersea creatures only passingly familiar with humanoid physiology, these tall, uncomfortable boots are made of slimy skin that wriggles slightly. The boots function as [slippers of the triton](magic/wondrous/slippers_of_the_triton), allowing the wearer to breathe and swim underwater. The boots constantly murmur telepathically to the wearer, alternating between sycophantic praise of the wearer's prowess and smug assurance that the boots will ensure that the wearer comes to no harm while underwater. The unctuous waders urge the wearer to explore beneath the waves, hoping to find some clues as to their creators and purpose, which the boots have long ago forgotten. If the wearer goes for more than a week without submerging herself in the ocean, the unctuous waders become less obsequious and more demanding. The unctuous waders can remove the ability to allow the wielder to breathe underwater, which they might do as a threat to compel obedience, or out of mere petulance.",
 			"",
-			"Three times per day as a standard action, the unctuous waders can exude slimy water from the heels to propel the user, as the [slipstream](unknown/slipstream) spell.",
+			"Three times per day as a standard action, the unctuous waders can exude slimy water from the heels to propel the user, as the [slipstream](spell/slipstream) spell.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [ride the waves](unknown/ride_the_waves), [slipstream](unknown/slipstream); **Cost** 36,600 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [ride the waves](spell/ride_the_waves), [slipstream](spell/slipstream); **Cost** 36,600 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -8847,7 +8847,7 @@
 			"**Aura** faint divination and evocation; **CL** 5th  ",
 			"**Slot** hand; **Price** 1,600 gp; **Weight** 5 lbs.",
 			"",
-			"Much like [wayfinders](unknown/wayfinders), an ioun gauntlet grants enhanced or altogether new abilities depending on the type of [ioun stone](unknown/ioun_stone) inserted into its matrix. In its base form, an ioun gauntlet grants its wearer the ability to cast [detect magic](unknown/detect_magic) as a spell-like ability once per day. When the [detect magic](unknown/detect_magic) effect is active, the gauntlet also sheds illumination as [light](unknown/light) in the 60- foot cone of the [detect magic](unknown/detect_magic) effect.",
+			"Much like [wayfinders](unknown/wayfinders), an ioun gauntlet grants enhanced or altogether new abilities depending on the type of [ioun stone](unknown/ioun_stone) inserted into its matrix. In its base form, an ioun gauntlet grants its wearer the ability to cast [detect magic](spell/detect_magic) as a spell-like ability once per day. When the [detect magic](spell/detect_magic) effect is active, the gauntlet also sheds illumination as [light](unknown/light) in the 60- foot cone of the [detect magic](spell/detect_magic) effect.",
 			"",
 			"An ioun gauntlet features a single matrix in the back of the hand, suitable for one ioun stone. When an ioun stone is inserted into the matrix as a standard action, the wearer gains the associated bonus from the ioun stone as well an additional effect based on the shape of the ioun stone inserted, as listed below. While a creature can put on two ioun gauntlets, the wearer gains the additional benefit from only one inserted ioun stone.",
 			"",
@@ -8877,7 +8877,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [detect magic](unknown/detect_magic), [light](unknown/light); **Cost** 800 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [detect magic](spell/detect_magic), [light](unknown/light); **Cost** 800 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -9466,7 +9466,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [freedom of movement](unknown/freedom_of_movement); **Cost** 2,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [freedom of movement](spell/freedom_of_movement); **Cost** 2,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -11311,11 +11311,11 @@
 			"**Aura** faint conjuration; **CL** 5th  ",
 			"**Slot** head; **Price** 2,000 gp; **Weight** 2 lbs.",
 			"",
-			"Resembling the more common nonmagical doctor's mask, a plaguebringer's mask grants a +2 resistance bonus on saving throws against nauseating scents and immunity to one specific disease (the disease must be chosen at the time of the mask's creation-the ones in this adventure grant immunity to [blood veil](unknown/blood_veil)). The mask also veils the wearer's alignment, making her aura register as neutral to alignment-detecting effects.",
+			"Resembling the more common nonmagical doctor's mask, a plaguebringer's mask grants a +2 resistance bonus on saving throws against nauseating scents and immunity to one specific disease (the disease must be chosen at the time of the mask's creation-the ones in this adventure grant immunity to [blood veil](disease/blood_veil)). The mask also veils the wearer's alignment, making her aura register as neutral to alignment-detecting effects.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [misdirection](unknown/misdirection), [remove disease](unknown/remove_disease); **Cost** 1,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [misdirection](unknown/misdirection), [remove disease](spell/remove_disease); **Cost** 1,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -11488,7 +11488,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [air bubble](unknown/air_bubble), [message](unknown/message); **Cost** 1,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [air bubble](spell/air_bubble), [message](spell/message); **Cost** 1,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -12241,11 +12241,11 @@
 			"**Aura** faint conjuration; **CL** 3rd  ",
 			"**Slot** head; **Price** 6,000 gp; **Weight** 3 lbs.",
 			"",
-			"This striped pink conch shell has thin leathery straps to keep it attached to the wearer's face, with a clear mask attached to the top that the wearer can see through. Prized by shoreborn pirates for searching for underwater treasure, these diving masks are popular among many different sailors. The interior of the shell holds enough air to allow the wearer to breathe underwater for 10 minutes, but the mask must then be exposed to air for 20 minutes before it can be used again to breathe underwater. The wearer gains a +4 competence bonus on Perception checks while underwater, and she can detect and attempt to identify magical auras underwater as though she had cast [detect magic](unknown/detect_magic).",
+			"This striped pink conch shell has thin leathery straps to keep it attached to the wearer's face, with a clear mask attached to the top that the wearer can see through. Prized by shoreborn pirates for searching for underwater treasure, these diving masks are popular among many different sailors. The interior of the shell holds enough air to allow the wearer to breathe underwater for 10 minutes, but the mask must then be exposed to air for 20 minutes before it can be used again to breathe underwater. The wearer gains a +4 competence bonus on Perception checks while underwater, and she can detect and attempt to identify magical auras underwater as though she had cast [detect magic](spell/detect_magic).",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [air bubble](unknown/air_bubble), [detect magic](unknown/detect_magic); **Cost** 3,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [air bubble](spell/air_bubble), [detect magic](spell/detect_magic); **Cost** 3,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -13521,7 +13521,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [daylight](unknown/daylight), [sunbeam](unknown/sunbeam); **Cost** 10,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [daylight](spell/daylight), [sunbeam](spell/sunbeam); **Cost** 10,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -14014,11 +14014,11 @@
 			"**Aura** moderate illusion and transmutation; **CL** 9th  ",
 			"**Slot** head or neck; **Price** 27,000 gp; **Weight** -;",
 			"",
-			"This scarf is crafted from fine, almost transparent silk of a deep red hue. When worn about the head as a veil or the neck as a scarf, the dance of seven veils disguises the wearer in a different shape, as per [disguise self](unknown/disguise_self). The wearer can cast [levitate](unknown/levitate) at will, gains a +4 competence bonus on Bluff and Diplomacy checks, and gains a +2 enhancement bonus to Intelligence and Charisma.",
+			"This scarf is crafted from fine, almost transparent silk of a deep red hue. When worn about the head as a veil or the neck as a scarf, the dance of seven veils disguises the wearer in a different shape, as per [disguise self](spell/disguise_self). The wearer can cast [levitate](spell/levitate) at will, gains a +4 competence bonus on Bluff and Diplomacy checks, and gains a +2 enhancement bonus to Intelligence and Charisma.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [disguise self](unknown/disguise_self), [eagle's splendor](unknown/eagle's_splendor), [fox's cunning](unknown/fox's_cunning), [levitate](unknown/levitate), [feather fall](unknown/feather_fall); **Cost** 13,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [disguise self](spell/disguise_self), [eagle's splendor](spell/eagle's_splendor), [fox's cunning](spell/fox's_cunning), [levitate](spell/levitate), [feather fall](spell/feather_fall); **Cost** 13,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -14471,7 +14471,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Bestow Curse](unknown/bestow_curse), [ethereal jaunt](unknown/ethereal_jaunt); **Cost** 20,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [Bestow Curse](spell/bestow_curse), [ethereal jaunt](spell/ethereal_jaunt); **Cost** 20,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -14553,7 +14553,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [calm emotions](unknown/calm_emotions); **Cost** 24,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [calm emotions](spell/calm_emotions); **Cost** 24,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -15578,13 +15578,13 @@
 			"",
 			"This strange metal [headband of vast intellect +2](unknown/headband_of_vast_intellect_+2) is crafted in the shape of intertwined tentacles and adorned with runes in the Aboleth language. When a creature dons the headpiece, the tentacles seem almost alive, changing their size and shape to fit the contours of the wearer's head.",
 			"",
-			"The headband has two special indentations for [ioun stones](unknown/ioun_stones) similar to those found in a [wayfinder](unknown/wayfinder). When an ioun stone is inserted into one of the slots, the tentacles animate for a moment, adjusting themselves around the slot to accommodate the shape of the ioun stone. The wearer benefits from the ioun stone's effect as though the stone were orbiting her head.",
+			"The headband has two special indentations for [ioun stones](unknown/ioun_stones) similar to those found in a [wayfinder](magic/wondrous/wayfinder). When an ioun stone is inserted into one of the slots, the tentacles animate for a moment, adjusting themselves around the slot to accommodate the shape of the ioun stone. The wearer benefits from the ioun stone's effect as though the stone were orbiting her head.",
 			"",
 			"The headband uses a more refined version of the same technology that powers a wayfinder. First, it coaxes two ioun stones to manifest their resonant powers simultaneously. Furthermore, the slotted ioun stones do not suppress the headband's own magical abilities. However, if the wearer is also carrying, wearing, or wielding a wayfinder or any similar item into which ioun stones can be inserted, the two items suppress one another's abilities, but both return to normal when one is set aside.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [fox's cunning](unknown/fox's_cunning), creator must be an [aboleth](unknown/aboleth); **Cost** 4,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [fox's cunning](spell/fox's_cunning), creator must be an [aboleth](monster/aboleth); **Cost** 4,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -16443,7 +16443,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [dominate monster](unknown/dominate_monster), [possession](unknown/possession); **Cost** 94,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [dominate monster](spell/dominate_monster), [possession](unknown/possession); **Cost** 94,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -19032,7 +19032,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [vomit swarm](unknown/vomit_swarm); **Cost** 4,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [vomit swarm](spell/vomit_swarm); **Cost** 4,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -19123,7 +19123,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [eagle's splendor](unknown/eagle's_splendor), [vomit swarm](unknown/vomit_swarm); **Cost** 4,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [eagle's splendor](spell/eagle's_splendor), [vomit swarm](spell/vomit_swarm); **Cost** 4,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -19220,7 +19220,7 @@
 			"**Aura** faint varied; **CL** 5th  ",
 			"**Slot** neck; **Price** 8,000 gp; **Weight** 2 lbs.",
 			"",
-			"This mummified human hand hangs around a  character's neck by a leather cord (taking up  space as a magic necklace would). If a magic  ring is placed on one of the fingers of the hand,  the wearer benefits from the ring as if wearing  it herself, and it does not count against her two ring limit. The hand can wear only one ring at a  time. Even without a ring, the hand itself allows  its wearer to use [daylight](unknown/daylight) and [see invisibility](unknown/see_invisibility) each once per day.",
+			"This mummified human hand hangs around a  character's neck by a leather cord (taking up  space as a magic necklace would). If a magic  ring is placed on one of the fingers of the hand,  the wearer benefits from the ring as if wearing  it herself, and it does not count against her two ring limit. The hand can wear only one ring at a  time. Even without a ring, the hand itself allows  its wearer to use [daylight](spell/daylight) and [see invisibility](spell/see_invisibility) each once per day.",
 			"",
 			"### Construction",
 			"",
@@ -20011,7 +20011,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [air breathing](unknown/air_breathing), [expeditious retreat](unknown/expeditious_retreat); **Cost** 5,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [air breathing](spell/air_breathing), [expeditious retreat](spell/expeditious_retreat); **Cost** 5,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -22154,7 +22154,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [invisibility](unknown/invisibility), [locate object](unknown/locate_object); **Cost** 66,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [invisibility](unknown/invisibility), [locate object](spell/locate_object); **Cost** 66,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -22201,11 +22201,11 @@
 			"",
 			"A riffle scroll is similar to a standard scroll, but its methods of activation and shape are quite different. A riffle scroll is a wondrous item that holds the power of a single spell. Each riffle scroll is a thin booklet, similar in shape to a chapbook (but somewhat smaller), containing 25 to 50 pages of eldritch symbols. When held between thumb and forefinger and riffled through in a quick manner, the motion of the pages turning activates the magic within, simultaneously completing casting of the spell and erasing the booklet.",
 			"",
-			"A riffle scroll uses spell completion as its activation type, just as do normal scrolls. Characters who cannot cast the spell contained in a riffle scroll must rely on Use Magic Device to activate the magic held within. Riffle scrolls are treated exactly as scrolls for the purposes of deciphering the writing, activating the spell, and determining its effects (including the chances for mishaps), save for the fact that riffle scrolls do not require verbal components-they automatically function as if they were cast using the [Silent Spell](unknown/silent_spell) metamagic feat. Activating a riffle scroll provokes attacks of opportunity just like casting a spell. Magical silence does not interfere with using a riffle scroll. Activating a riffle scroll requires one free hand. A riffle scroll uses the normal casting time for the inscribed spell, even if the user or creator is of a class that has increased casting times when using metamagic effects.",
+			"A riffle scroll uses spell completion as its activation type, just as do normal scrolls. Characters who cannot cast the spell contained in a riffle scroll must rely on Use Magic Device to activate the magic held within. Riffle scrolls are treated exactly as scrolls for the purposes of deciphering the writing, activating the spell, and determining its effects (including the chances for mishaps), save for the fact that riffle scrolls do not require verbal components-they automatically function as if they were cast using the [Silent Spell](feat/silent_spell) metamagic feat. Activating a riffle scroll provokes attacks of opportunity just like casting a spell. Magical silence does not interfere with using a riffle scroll. Activating a riffle scroll requires one free hand. A riffle scroll uses the normal casting time for the inscribed spell, even if the user or creator is of a class that has increased casting times when using metamagic effects.",
 			"",
 			"Riffle scrolls are somewhat heavier than normal scrolls; a single riffle scroll weighs 1 pound. Each riffle scroll has an AC of 9, 5 hit points, hardness 0, and a break DC of 10. Riffle scrolls cannot be kept in standard scroll tubes; they are normally transported in flat leather cases or boxes similar to containers used to transport books.",
 			"",
-			"Riffle scrolls can be created by any spellcaster who has the [Scribe Scroll](unknown/scribe_scroll) and Silent Spell feats. Scribing a riffle scroll is more time-consuming and expensive than scribing normal scrolls because of the greater number of pages and more complex magic involved. A riffle scroll's market price is equal to the spell level &times; the caster's level &times; 25 gp-but note that only spells that have been modified by the Silent Spell metamagic feat can be crafted into riffle scrolls. This affects the spell's effective spell level for the purposes of determining the riffle scroll's price. Effectively, a riffle scroll costs about the same as a normal scroll of one spell level higher. This also means that 9th-level spells cannot be made into riffle scrolls, because there are no 10th-level spell slots. Abilities that reduce the level adjustment of the Silent Spell feat do not affect riffle scrolls.",
+			"Riffle scrolls can be created by any spellcaster who has the [Scribe Scroll](feat/scribe_scroll) and Silent Spell feats. Scribing a riffle scroll is more time-consuming and expensive than scribing normal scrolls because of the greater number of pages and more complex magic involved. A riffle scroll's market price is equal to the spell level &times; the caster's level &times; 25 gp-but note that only spells that have been modified by the Silent Spell metamagic feat can be crafted into riffle scrolls. This affects the spell's effective spell level for the purposes of determining the riffle scroll's price. Effectively, a riffle scroll costs about the same as a normal scroll of one spell level higher. This also means that 9th-level spells cannot be made into riffle scrolls, because there are no 10th-level spell slots. Abilities that reduce the level adjustment of the Silent Spell feat do not affect riffle scrolls.",
 			"",
 			"To scribe a riffle scroll, you must use up raw materials costing half of its market price. Scribing a riffle scroll takes 1 day for each 1,000 gp in its base price, with a minimum of 1 day of work. Although an individual riffle scroll might contain more than one spell, each spell must be scribed as a separate effort, meaning that no more than 1 spell can be scribed in a day.",
 			"",
@@ -22640,7 +22640,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [cure light wounds](unknown/cure_light_wounds); **Cost** 75 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [cure light wounds](spell/cure_light_wounds); **Cost** 75 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -23303,7 +23303,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [plant growth](unknown/plant_growth); **Cost** 150 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [plant growth](spell/plant_growth); **Cost** 150 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -24444,15 +24444,15 @@
 			"",
 			"The iridescent, hazy contents of this glass container eddy briefly into different shapes. A bottled cloud can be thrown as a splash weapon. When it strikes, it unleashes a bank of whitish-gray, semi-solid clouds in one of two configurations-a 20-foot-radius cloud or a 40-foot-radius sheet of mist that hovers a few inches above the ground. The user selects which version of the clouds she wishes to create as she throws the bottled cloud.",
 			"",
-			"If the bottled cloud forms a 20-foot-radius cloud, it functions as a [solid fog](unknown/solid_fog) spell.",
+			"If the bottled cloud forms a 20-foot-radius cloud, it functions as a [solid fog](spell/solid_fog) spell.",
 			"",
-			"If the bottled cloud is instead used to form a sheet, the layer of mist can be walked upon as if it were solid ground. While the bottled cloud must be thrown against solid ground in order to shatter the container and release the cloud, it can be deliberately poured out on a liquid surface to form a sheet as well. The cloud sheet extends over liquid surfaces, but pours into concavities and holes-one can use a bottled cloud to traverse water, but not a pit or chasm. The sheet of mist also allows safe movement over [caltrops](unknown/caltrops), difficult terrain that lies low to the ground (GM's discretion), and other low-lying hazards (such as a sheet of [green slime](unknown/green_slime)) and traps that are triggered via pressure plates.",
+			"If the bottled cloud is instead used to form a sheet, the layer of mist can be walked upon as if it were solid ground. While the bottled cloud must be thrown against solid ground in order to shatter the container and release the cloud, it can be deliberately poured out on a liquid surface to form a sheet as well. The cloud sheet extends over liquid surfaces, but pours into concavities and holes-one can use a bottled cloud to traverse water, but not a pit or chasm. The sheet of mist also allows safe movement over [caltrops](equipment/misc/caltrops), difficult terrain that lies low to the ground (GM's discretion), and other low-lying hazards (such as a sheet of [green slime](unknown/green_slime)) and traps that are triggered via pressure plates.",
 			"",
 			"Either use of a bottled cloud can be dispersed by a severe wind (31+ mph) in a single round, but otherwise the effect created lasts for 3 minutes.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [solid fog](unknown/solid_fog); **Cost** 300 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [solid fog](spell/solid_fog); **Cost** 300 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -24716,7 +24716,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [commune with nature](unknown/commune_with_nature), [secret page](unknown/secret_page); **Cost** 300 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [commune with nature](spell/commune_with_nature), [secret page](spell/secret_page); **Cost** 300 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -25244,11 +25244,11 @@
 			"**Aura** faint transmutation; **CL** 5th  ",
 			"**Slot** none; **Price** 750 gp; **Weight** 1/2 lb.",
 			"",
-			"This vial of shimmering violet unguent is an effective weapon against constructs crafted from metal. A creature can throw the vial at a construct as a ranged touch attack with a range of 20 feet. On a hit, the oil immediately penetrates the metal construct and wreaks havoc on its inner workings. The construct must succeed at a DC 15 Reflex save or become staggered for the next 5 rounds. If the construct fails the initial save, it must attempt an additional save at the beginning of its turn for the next 5 rounds, taking 2 points of Dexterity damage on each failure. A construct struck by machinebane oil immediately loses the benefits of [energizing salve](unknown/energizing_salve).",
+			"This vial of shimmering violet unguent is an effective weapon against constructs crafted from metal. A creature can throw the vial at a construct as a ranged touch attack with a range of 20 feet. On a hit, the oil immediately penetrates the metal construct and wreaks havoc on its inner workings. The construct must succeed at a DC 15 Reflex save or become staggered for the next 5 rounds. If the construct fails the initial save, it must attempt an additional save at the beginning of its turn for the next 5 rounds, taking 2 points of Dexterity damage on each failure. A construct struck by machinebane oil immediately loses the benefits of [energizing salve](magic/wondrous/energizing_salve).",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [disable construct](unknown/disable_construct); **Cost** 750 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [disable construct](spell/disable_construct); **Cost** 750 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -25291,11 +25291,11 @@
 			"**Aura** faint divination; **CL** 5th  ",
 			"**Slot** none; **Price** 750 gp; **Weight** -;",
 			"",
-			"Skill slugs are tiny, segmented parasites incubated primarily in the exposed brains of imprisoned [caulborn](unknown/caulborn). Long as a baby's finger and twice as plump, these quivering gastropods draw sustenance from the memory fragments extracted from the caulborn. A measure of those memories lives on within the slug. When consumed, the skill slug grants a +10 competence bonus on a single Intelligence-based skill for 1 hour. Each slug's associated skill is determined at the time of its creation, and cannot be changed. The swallower counts as trained in the skill even if he does not have ranks in it.",
+			"Skill slugs are tiny, segmented parasites incubated primarily in the exposed brains of imprisoned [caulborn](monster/caulborn). Long as a baby's finger and twice as plump, these quivering gastropods draw sustenance from the memory fragments extracted from the caulborn. A measure of those memories lives on within the slug. When consumed, the skill slug grants a +10 competence bonus on a single Intelligence-based skill for 1 hour. Each slug's associated skill is determined at the time of its creation, and cannot be changed. The swallower counts as trained in the skill even if he does not have ranks in it.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [share memory](unknown/share_memory); **Cost** 375 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [share memory](spell/share_memory); **Cost** 375 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -25789,11 +25789,11 @@
 			"**Aura** moderate (school varies); **CL** 7th  ",
 			"**Slot** none; **Price** 900 gp (Blue), 900 gp (Green), 900 gp (Orange), 900 gp (Red), 900 gp (Silver), 900 gp (Yellow), 1,800 gp (Black), 1,800 gp (White); **Weight** -;",
 			"",
-			"The Shoanti have developed numerous types of magical war paint, each providing a specific benefit to aid their hunters, warriors, and heroes in a variety of tasks. Shoanti war paint can be applied to any visible part of the body-typically the face, shoulders, legs, or arms. Applying a dose of war paint is a full-round action that provokes an attack of opportunity. Shoanti war paint does not take up a magic item slot, but you can benefit from only one color of Shoanti war paint at a time and applying a dose of a different color replaces the effects of the previous application. Once Shoanti war paint is applied, its effects last for 24 hours. Below are the eight most common colors and their effects. Black (1,800 gp): The wearer becomes cloaked in shadows and smoke, gaining the effects of a [blur](unknown/blur) spell. Blue (900 gp): The wearer gains a 30-foot enhancement bonus to her base move speed. Green (900 gp): When the wearer uses [bardic performance](unknown/bardic_performance) to inspire courage, the morale bonus she grants increases by 1. Orange (900 gp): The wearer gains damage reduction 1/-. This effect stacks with damage reduction gained via a character class, such as [barbarian](class/barbarian). Red (900 gp): The wearer gains fire resistance 10. Silver (900 gp): The wearer gains a +3 deflection bonus to her AC. White (1,800 gp): The wearer gains a +4 resistance bonus on all saving throws against energy drain and negative energy. As soon as the wearer takes a negative level from an energy drain attack, the white war paint absorbs the negative level and then fades away, ending the ongoing duration of the paint's effect immediately. Yellow (900 gp): The wearer gains a +5 competence bonus on Perception checks.",
+			"The Shoanti have developed numerous types of magical war paint, each providing a specific benefit to aid their hunters, warriors, and heroes in a variety of tasks. Shoanti war paint can be applied to any visible part of the body-typically the face, shoulders, legs, or arms. Applying a dose of war paint is a full-round action that provokes an attack of opportunity. Shoanti war paint does not take up a magic item slot, but you can benefit from only one color of Shoanti war paint at a time and applying a dose of a different color replaces the effects of the previous application. Once Shoanti war paint is applied, its effects last for 24 hours. Below are the eight most common colors and their effects. Black (1,800 gp): The wearer becomes cloaked in shadows and smoke, gaining the effects of a [blur](spell/blur) spell. Blue (900 gp): The wearer gains a 30-foot enhancement bonus to her base move speed. Green (900 gp): When the wearer uses [bardic performance](unknown/bardic_performance) to inspire courage, the morale bonus she grants increases by 1. Orange (900 gp): The wearer gains damage reduction 1/-. This effect stacks with damage reduction gained via a character class, such as [barbarian](class/barbarian). Red (900 gp): The wearer gains fire resistance 10. Silver (900 gp): The wearer gains a +3 deflection bonus to her AC. White (1,800 gp): The wearer gains a +4 resistance bonus on all saving throws against energy drain and negative energy. As soon as the wearer takes a negative level from an energy drain attack, the white war paint absorbs the negative level and then fades away, ending the ongoing duration of the paint's effect immediately. Yellow (900 gp): The wearer gains a +5 competence bonus on Perception checks.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item); [blur](unknown/blur) (black), [clairaudience/clairvoyance](unknown/clairaudience_clairvoyance) (yellow), [death ward](unknown/death_ward) (white), [expeditious retreat](unknown/expeditious_retreat) (blue), [heroism](unknown/heroism) (green), [resist energy](unknown/resist_energy) (red), [shield of faith](unknown/shield_of_faith) (silver), [stoneskin](unknown/stoneskin) (orange); **Cost** 900 gp (black and white paint), 450 gp (all other paints)"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item); [blur](spell/blur) (black), [clairaudience/clairvoyance](spell/clairaudience_clairvoyance) (yellow), [death ward](spell/death_ward) (white), [expeditious retreat](spell/expeditious_retreat) (blue), [heroism](spell/heroism) (green), [resist energy](spell/resist_energy) (red), [shield of faith](spell/shield_of_faith) (silver), [stoneskin](spell/stoneskin) (orange); **Cost** 900 gp (black and white paint), 450 gp (all other paints)"
 		],
 		"display": "magic/wondrous"
 	},
@@ -25958,7 +25958,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [barkskin](unknown/barkskin); **Cost** 450 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [barkskin](spell/barkskin); **Cost** 450 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -26418,13 +26418,13 @@
 			"",
 			"Typically engraved with numerous skulls, this small metal coffer allows the safe transport of infectious substances of up to Tiny size. Closing the lid seals in the contents and holds them in stasis, rendering them immune to aging or any damage. In addition, any infectious material-such as the body of a creature that died of disease-is preserved for as long as the coffer is closed. A death's head coffer's dimensions are approximately 4 inches by 4 inches by 6 inches, so it can potentially hold several Tiny items.",
 			"",
-			"A death's head coffer can spread infections between items. Any item placed into a coffer with a disease-ridden item (something capable of spreading a disease by contact) becomes infected with the same disease. For 1 week after being removed from the coffer, the newly infected item can spread the same affliction as the disease-ridden item to any creature that touches it. For example, if a coin is placed into a death's head coffer with a rat infected with the [shakes](unknown/shakes), any creature that touches the coin must succeed at a DC 13 Fortitude save or become infected with the shakes as well.",
+			"A death's head coffer can spread infections between items. Any item placed into a coffer with a disease-ridden item (something capable of spreading a disease by contact) becomes infected with the same disease. For 1 week after being removed from the coffer, the newly infected item can spread the same affliction as the disease-ridden item to any creature that touches it. For example, if a coin is placed into a death's head coffer with a rat infected with the [shakes](disease/shakes), any creature that touches the coin must succeed at a DC 13 Fortitude save or become infected with the shakes as well.",
 			"",
 			"After a death's head coffer is closed and then reopened, its magic dissipates, rendering the box completely mundane. Some death's head coffers feature complex locking mechanisms, which require successful Disable Device checks with a DC of 30 or higher to open.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [contagion](unknown/contagion), [gentle repose](unknown/gentle_repose); **Cost** 500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [contagion](spell/contagion), [gentle repose](spell/gentle_repose); **Cost** 500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -27021,11 +27021,11 @@
 			"**Aura** moderate evocation; **CL** 7th  ",
 			"**Slot** none; **Price** 1,100 gp; **Weight** -;",
 			"",
-			"This elixir is barely an ounce of blue-gold bubbling liquid. For 1 minute after drinking this elixir, a blue-gold aura surrounds the imbiber, shining light as per a candle. Each arcane spell cast by the imbiber during this time gains a +1 enhancement bonus to the DC of saving throws against the spell, and the spell can be cast as if one of the following metamagic feats were applied to it without increasing the spell level or casting time: [Enlarge Spell](unknown/enlarge_spell), [Extend Spell](unknown/extend_spell), [Silent Spell](unknown/silent_spell), or [Still Spell](unknown/still_spell). The imbiber can choose which metamagic feat to apply each time she casts a spell and can use different metamagic feats throughout the duration of the elixir's effects.",
+			"This elixir is barely an ounce of blue-gold bubbling liquid. For 1 minute after drinking this elixir, a blue-gold aura surrounds the imbiber, shining light as per a candle. Each arcane spell cast by the imbiber during this time gains a +1 enhancement bonus to the DC of saving throws against the spell, and the spell can be cast as if one of the following metamagic feats were applied to it without increasing the spell level or casting time: [Enlarge Spell](feat/enlarge_spell), [Extend Spell](feat/extend_spell), [Silent Spell](feat/silent_spell), or [Still Spell](feat/still_spell). The imbiber can choose which metamagic feat to apply each time she casts a spell and can use different metamagic feats throughout the duration of the elixir's effects.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [arcane concordance](unknown/arcane_concordance); **Cost** 650 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [arcane concordance](spell/arcane_concordance); **Cost** 650 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -28060,7 +28060,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [modify memory](unknown/modify_memory); **Cost** 750 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [modify memory](spell/modify_memory); **Cost** 750 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -28079,11 +28079,11 @@
 			"**Aura** faint transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 1,500 gp; **Weight** -;",
 			"",
-			"This small iron key has the number 9 and a right triangle engraved upon it. While the Nine-Eaves key is held, the bearer can use [open/close](unknown/open_close) at will, but only to open, not to close. Once per day as a standard action, the bearer can touch the Nine-Eaves key to a magic item. For the following 24 hours, all Use Magic Device skill checks to use or activate the touched magic item gain a +4 insight bonus.",
+			"This small iron key has the number 9 and a right triangle engraved upon it. While the Nine-Eaves key is held, the bearer can use [open/close](spell/open_close) at will, but only to open, not to close. Once per day as a standard action, the bearer can touch the Nine-Eaves key to a magic item. For the following 24 hours, all Use Magic Device skill checks to use or activate the touched magic item gain a +4 insight bonus.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [identify](unknown/identify), [open/close](unknown/open_close); **Cost** 750 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [identify](spell/identify), [open/close](spell/open_close); **Cost** 750 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -28199,7 +28199,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [confusion](unknown/confusion); **Cost** 750 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [confusion](spell/confusion); **Cost** 750 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -28219,11 +28219,11 @@
 			"",
 			"This brooch features the heraldry of a Taldan noble family, marking the wearer as an aide to the associated senator. All senate aide badges are part of a set, attuned to a single master senator badge during their creation. A creature wearing the pinned brooch can receive telepathic communications sent from the wearer of the master senator badge. Once the wearer of the senate aide badge receives a message, she has 1 minute to send a telepathic reply of up to 25 words. Sending a reply requires a full-round action of concentration. The wearer of the master senator badge can send up to 10 telepathic messages per day, targeting either a specific badge or broadcasting to all badge wearers, and knows the approximate direction and distance to all wearers of senate aid badges attuned to the master badge.",
 			"",
-			"Senate aide badges are often further enchanted with emergency effects that mimic the [contingency](unknown/contingency) spell, whisking endangered staff to safety or casting protective magic. The exact conditions and effects vary, and their cost is added the badge's construction cost.",
+			"Senate aide badges are often further enchanted with emergency effects that mimic the [contingency](spell/contingency) spell, whisking endangered staff to safety or casting protective magic. The exact conditions and effects vary, and their cost is added the badge's construction cost.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [sending](unknown/sending), [status](unknown/status); **Cost** 750 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [sending](spell/sending), [status](spell/status); **Cost** 750 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -31547,7 +31547,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [haste](unknown/haste); **Cost** 1,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [haste](spell/haste); **Cost** 1,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -31687,67 +31687,67 @@
 			"",
 			"The spells included in a golem manual require a spell trigger activation and can be activated only to assist in the construction of a golem. The cost of the book does not include the cost of constructing the golem's body. Once the golem is finished, the writing in the manual fades and the book is consumed in flames. When the book's ashes are sprinkled upon the golem, it becomes fully animated.",
 			"",
-			"For example, with a clay golem manual, you would need to provide a body worth 1,500 gp (rather than the normal full cost of 21,500 gp), spend 42 days constructing the golem's body (1 for each 1,000 gp in the normal price of the golem), have a caster level of 9th or higher (as the manual provides a +2 bonus and the normal requirement is 11th level), have [animate objects](unknown/animate_objects), [bless](unknown/bless), [commune](unknown/commune), [prayer](unknown/prayer), and [resurrection](unknown/resurrection) on your class's spell list, and succeed at a DC 16 Craft (sculptures) or Craft (pottery) check (but the manual gives you a +5 bonus on the check.)",
+			"For example, with a clay golem manual, you would need to provide a body worth 1,500 gp (rather than the normal full cost of 21,500 gp), spend 42 days constructing the golem's body (1 for each 1,000 gp in the normal price of the golem), have a caster level of 9th or higher (as the manual provides a +2 bonus and the normal requirement is 11th level), have [animate objects](spell/animate_objects), [bless](spell/bless), [commune](spell/commune), [prayer](spell/prayer), and [resurrection](spell/resurrection) on your class's spell list, and succeed at a DC 16 Craft (sculptures) or Craft (pottery) check (but the manual gives you a +5 bonus on the check.)",
 			"",
-			"Adamantine ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [crushing hand](unknown/crushing_hand), [geas/quest](spell/geas_quest), [heal](unknown/heal), [stoneskin](unknown/stoneskin), and [wish](unknown/wish). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting an [adamantine golem](unknown/adamantine_golem).; **Aura** strong abjuration, conjuration, enchantment, and evocation; **CL** 20th; [Craft Construct](feat/craft_construct), [crushing hand](unknown/crushing_hand), [geas/quest](spell/geas_quest), [heal](unknown/heal), [stoneskin](unknown/stoneskin), [wish](unknown/wish), creator must be caster level 20th.",
+			"Adamantine ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [crushing hand](spell/crushing_hand), [geas/quest](spell/geas_quest), [heal](unknown/heal), [stoneskin](spell/stoneskin), and [wish](spell/wish). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting an [adamantine golem](monster/adamantine_golem).; **Aura** strong abjuration, conjuration, enchantment, and evocation; **CL** 20th; [Craft Construct](feat/craft_construct), [crushing hand](spell/crushing_hand), [geas/quest](spell/geas_quest), [heal](unknown/heal), [stoneskin](spell/stoneskin), [wish](spell/wish), creator must be caster level 20th.",
 			"",
-			"Alchemical ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [gentle repose](unknown/gentle_repose), [major creation](unknown/major_creation), [resist energy](unknown/resist_energy), and [telekinesis](unknown/telekinesis). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting an [alchemical golem](unknown/alchemical_golem).; **Aura** moderate abjuration, conjuration, enchantment, necromancy, and transmutation; **CL** 10th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [major creation](unknown/major_creation), [resist energy](unknown/resist_energy), [telekinesis](unknown/telekinesis), creator must be caster level 10th.",
+			"Alchemical ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [gentle repose](spell/gentle_repose), [major creation](spell/major_creation), [resist energy](spell/resist_energy), and [telekinesis](spell/telekinesis). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting an [alchemical golem](monster/alchemical_golem).; **Aura** moderate abjuration, conjuration, enchantment, necromancy, and transmutation; **CL** 10th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [major creation](spell/major_creation), [resist energy](spell/resist_energy), [telekinesis](spell/telekinesis), creator must be caster level 10th.",
 			"",
-			"Blood ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate dead](unknown/animate_dead), [bleed](unknown/bleed), [cure critical wounds](unknown/cure_critical_wounds), and [geas/quest](spell/geas_quest). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [blood golem](unknown/blood_golem).; **Aura** strong conjuration, enchantment, and necromancy [evil]; **CL** 12th; [Craft Construct](feat/craft_construct), [animate dead](unknown/animate_dead), [bleed](unknown/bleed), [cure critical wounds](unknown/cure_critical_wounds), [geas/quest](spell/geas_quest), creator must be caster level 12th.",
+			"Blood ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate dead](spell/animate_dead), [bleed](unknown/bleed), [cure critical wounds](spell/cure_critical_wounds), and [geas/quest](spell/geas_quest). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [blood golem](monster/blood_golem).; **Aura** strong conjuration, enchantment, and necromancy [evil]; **CL** 12th; [Craft Construct](feat/craft_construct), [animate dead](spell/animate_dead), [bleed](unknown/bleed), [cure critical wounds](spell/cure_critical_wounds), [geas/quest](spell/geas_quest), creator must be caster level 12th.",
 			"",
-			"Bone ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate objects](unknown/animate_objects), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), and [telekinesis](unknown/telekinesis). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [bone golem](unknown/bone_golem).; **Aura** moderate enchantment and transmutation; **CL** 9th; [Craft Construct](feat/craft_construct), [animate objects](unknown/animate_objects), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), [telekinesis](unknown/telekinesis), creator must be caster level 9th.",
+			"Bone ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate objects](spell/animate_objects), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), and [telekinesis](spell/telekinesis). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [bone golem](monster/bone_golem).; **Aura** moderate enchantment and transmutation; **CL** 9th; [Craft Construct](feat/craft_construct), [animate objects](spell/animate_objects), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), [telekinesis](spell/telekinesis), creator must be caster level 9th.",
 			"",
-			"Brass ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [incendiary cloud](unknown/incendiary_cloud), [limited wish](unknown/limited_wish), and [see invisibility](unknown/see_invisibility). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [brass golem](unknown/brass_golem).; **Aura** strong conjuration, divination, and enchantment; **CL** 17th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [incendiary cloud](unknown/incendiary_cloud), [limited wish](unknown/limited_wish), [see invisibility](unknown/see_invisibility), creator must be caster level 17th.",
+			"Brass ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [incendiary cloud](spell/incendiary_cloud), [limited wish](spell/limited_wish), and [see invisibility](spell/see_invisibility). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [brass golem](monster/brass_golem).; **Aura** strong conjuration, divination, and enchantment; **CL** 17th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [incendiary cloud](spell/incendiary_cloud), [limited wish](spell/limited_wish), [see invisibility](spell/see_invisibility), creator must be caster level 17th.",
 			"",
-			"Cannon ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), and [secret chest](unknown/secret_chest). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [cannon golem](unknown/cannon_golem).; **Aura** strong conjuration and enchantment; **CL** 17th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), [secret chest](unknown/secret_chest), creator must be caster level 17th.",
+			"Cannon ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), and [secret chest](spell/secret_chest). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [cannon golem](monster/cannon_golem).; **Aura** strong conjuration and enchantment; **CL** 17th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), [secret chest](spell/secret_chest), creator must be caster level 17th.",
 			"",
-			"Carrion ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate dead](unknown/animate_dead), [contagion](unknown/contagion), [false life](unknown/false_life), [gentle repose](unknown/gentle_repose), and [lesser geas](unknown/lesser_geas). The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a [carrion golem](unknown/carrion_golem).; **Aura** moderate enchantment and necromancy [evil]; **CL** 7th; [Craft Construct](feat/craft_construct), [animate dead](unknown/animate_dead), [contagion](unknown/contagion), [false life](unknown/false_life), [gentle repose](unknown/gentle_repose), [lesser geas](unknown/lesser_geas), creator must be caster level 7th.",
+			"Carrion ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate dead](spell/animate_dead), [contagion](spell/contagion), [false life](spell/false_life), [gentle repose](spell/gentle_repose), and [lesser geas](spell/lesser_geas). The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a [carrion golem](monster/carrion_golem).; **Aura** moderate enchantment and necromancy [evil]; **CL** 7th; [Craft Construct](feat/craft_construct), [animate dead](spell/animate_dead), [contagion](spell/contagion), [false life](spell/false_life), [gentle repose](spell/gentle_repose), [lesser geas](spell/lesser_geas), creator must be caster level 7th.",
 			"",
 			"Clay ([Ultimate Equipment pg. 300](source/ultimate_equipment), [PRPG Core Rulebook pg. 1](source/prpg_core_rulebook)): The book contains animate objects, bless, commune, prayer, and resurrection. The reader may treat her caster level as two levels higher than normal for the purpose of crafting a clay golem.; **Aura** moderate conjuration; **CL** 11th; Craft Construct, animate objects, commune, prayer, resurrection, creator must be caster level 11th.",
 			"",
-			"Clockwork ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate objects](unknown/animate_objects), [blade barrier](unknown/blade_barrier), [geas/quest](spell/geas_quest), [grease](unknown/grease), and [telekinesis](unknown/telekinesis). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a [clockwork golem](unknown/clockwork_golem).; **Aura** strong enchantment, evocation, and transmutation; **CL** 15th; [Craft Construct](feat/craft_construct), [animate objects](unknown/animate_objects), [blade barrier](unknown/blade_barrier), [geas/quest](spell/geas_quest), [grease](unknown/grease), [telekinesis](unknown/telekinesis), creator must be caster level 15th.",
+			"Clockwork ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate objects](spell/animate_objects), [blade barrier](spell/blade_barrier), [geas/quest](spell/geas_quest), [grease](spell/grease), and [telekinesis](spell/telekinesis). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a [clockwork golem](monster/clockwork_golem).; **Aura** strong enchantment, evocation, and transmutation; **CL** 15th; [Craft Construct](feat/craft_construct), [animate objects](spell/animate_objects), [blade barrier](spell/blade_barrier), [geas/quest](spell/geas_quest), [grease](spell/grease), [telekinesis](spell/telekinesis), creator must be caster level 15th.",
 			"",
-			"Coral ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [keen edge](unknown/keen_edge), [limited wish](unknown/limited_wish), and [water breathing](unknown/water_breathing). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [coral golem](unknown/coral_golem).; **Aura** moderate enchantment and transmutation; **CL** 11th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [keen edge](unknown/keen_edge), [limited wish](unknown/limited_wish), [water breathing](unknown/water_breathing), creator must be caster level 11th.",
+			"Coral ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [keen edge](spell/keen_edge), [limited wish](spell/limited_wish), and [water breathing](unknown/water_breathing). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [coral golem](monster/coral_golem).; **Aura** moderate enchantment and transmutation; **CL** 11th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [keen edge](spell/keen_edge), [limited wish](spell/limited_wish), [water breathing](unknown/water_breathing), creator must be caster level 11th.",
 			"",
-			"Crystal ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), [possession](unknown/possession), and [thoughtsense](unknown/thoughtsense). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a [crystal golem](unknown/crystal_golem).; **Aura** strong divination, enchantment, and necromancy; **CL** 15th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), [possession](unknown/possession), [thoughtsense](unknown/thoughtsense), creator must be caster level 15th.",
+			"Crystal ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), [possession](unknown/possession), and [thoughtsense](unknown/thoughtsense). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a [crystal golem](monster/crystal_golem).; **Aura** strong divination, enchantment, and necromancy; **CL** 15th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), [possession](unknown/possession), [thoughtsense](unknown/thoughtsense), creator must be caster level 15th.",
 			"",
-			"Dragonhide ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [create greater undead](unknown/create_greater_undead), [form of the dragon I](unknown/form_of_the_dragon_1), [geas/quest](spell/geas_quest), and [limited wish](unknown/limited_wish). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a [dragonhide golem](unknown/dragonhide_golem).; **Aura** strong enchantment, necromancy, and transmutation; **CL** 16th; [Craft Construct](feat/craft_construct), [create greater undead](unknown/create_greater_undead), [form of the dragon I](unknown/form_of_the_dragon_1), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), creator must be caster level 16th.",
+			"Dragonhide ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [create greater undead](spell/create_greater_undead), [form of the dragon I](spell/form_of_the_dragon_1), [geas/quest](spell/geas_quest), and [limited wish](spell/limited_wish). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a [dragonhide golem](monster/dragonhide_golem).; **Aura** strong enchantment, necromancy, and transmutation; **CL** 16th; [Craft Construct](feat/craft_construct), [create greater undead](spell/create_greater_undead), [form of the dragon I](spell/form_of_the_dragon_1), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), creator must be caster level 16th.",
 			"",
 			"Flesh ([Ultimate Equipment pg. 300](source/ultimate_equipment), [PRPG Core Rulebook pg. 1](source/prpg_core_rulebook)): The book contains animate dead, bull's strength, geas/quest, and limited wish. The reader may treat her caster level as one level higher than normal for the purpose of crafting a flesh golem.; **Aura** moderate enchantment, necromancy [evil], and transmutation; **CL** 8th; Craft Construct, animate objects, bull's strength, geas/quest, limited wish, creator must be caster level 8th.",
 			"",
-			"Fossil ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [flesh to stone](unknown/flesh_to_stone), [geas/quest](spell/geas_quest), [limited wish,](unknown/limited_wish,) and [stone shape](unknown/stone_shape). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a [fossil golem](unknown/fossil_golem).; **Aura** strong enchantment and transmutation; **CL** 15th; [Craft Construct](feat/craft_construct), [flesh to stone](unknown/flesh_to_stone), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), [stone shape](unknown/stone_shape), creator must be caster level 15th.",
+			"Fossil ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [flesh to stone](spell/flesh_to_stone), [geas/quest](spell/geas_quest), [limited wish,](spell/limited_wish,) and [stone shape](spell/stone_shape). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a [fossil golem](monster/fossil_golem).; **Aura** strong enchantment and transmutation; **CL** 15th; [Craft Construct](feat/craft_construct), [flesh to stone](spell/flesh_to_stone), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), [stone shape](spell/stone_shape), creator must be caster level 15th.",
 			"",
-			"Glass ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate objects](unknown/animate_objects), [flame strike](unknown/flame_strike), [geas/quest](spell/geas_quest), [spell turning](unknown/spell_turning). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [glass golem](unknown/glass_golem).; **Aura** moderate abjuration, enchantment, evocation, and transmutation; **CL** 10th; [Craft Construct](feat/craft_construct), [animate objects](unknown/animate_objects), [flame strike](unknown/flame_strike), [geas/quest](spell/geas_quest), [spell turning](unknown/spell_turning), creator must be caster level 10th.",
+			"Glass ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate objects](spell/animate_objects), [flame strike](spell/flame_strike), [geas/quest](spell/geas_quest), [spell turning](spell/spell_turning). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [glass golem](monster/glass_golem).; **Aura** moderate abjuration, enchantment, evocation, and transmutation; **CL** 10th; [Craft Construct](feat/craft_construct), [animate objects](spell/animate_objects), [flame strike](spell/flame_strike), [geas/quest](spell/geas_quest), [spell turning](spell/spell_turning), creator must be caster level 10th.",
 			"",
-			"Gold ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), [polymorph any object](unknown/polymorph_any_object), and [prismatic spray](unknown/prismatic_spray). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [gold golem](unknown/gold_golem).; **Aura** strong enchantment, evocation, and transmutation; **CL** 18th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), [polymorph any object](unknown/polymorph_any_object), [prismatic spray](unknown/prismatic_spray), creator must be caster level 18th.",
+			"Gold ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), [polymorph any object](spell/polymorph_any_object), and [prismatic spray](spell/prismatic_spray). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [gold golem](monster/gold_golem).; **Aura** strong enchantment, evocation, and transmutation; **CL** 18th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), [polymorph any object](spell/polymorph_any_object), [prismatic spray](spell/prismatic_spray), creator must be caster level 18th.",
 			"",
-			"Ice ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [chill touch](unknown/chill_touch), [cone of cold](unknown/cone_of_cold), [geas/quest](spell/geas_quest), [ice storm](unknown/ice_storm), and [resist energy (cold)](unknown/resist_energy). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting an [ice golem](unknown/ice_golem).; **Aura** strong abjuration, enchantment, and evocation; **CL** 12th; [Craft Construct](feat/craft_construct), [chill touch](unknown/chill_touch), [cone of cold](unknown/cone_of_cold), [geas/quest](spell/geas_quest), [ice storm](unknown/ice_storm),, [resist energy (cold)](unknown/resist_energy), creator must be caster level 12th.",
+			"Ice ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [chill touch](spell/chill_touch), [cone of cold](spell/cone_of_cold), [geas/quest](spell/geas_quest), [ice storm](spell/ice_storm), and [resist energy (cold)](spell/resist_energy). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting an [ice golem](monster/ice_golem).; **Aura** strong abjuration, enchantment, and evocation; **CL** 12th; [Craft Construct](feat/craft_construct), [chill touch](spell/chill_touch), [cone of cold](spell/cone_of_cold), [geas/quest](spell/geas_quest), [ice storm](spell/ice_storm),, [resist energy (cold)](spell/resist_energy), creator must be caster level 12th.",
 			"",
-			"Inubrix ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [air walk](unknown/air_walk), [enervation](unknown/enervation), [geas/quest](spell/geas_quest), and [limited wish](unknown/limited_wish). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting an [inubrix golem](unknown/inubrix_golem).; **Aura** strong enchantment, necromancy, and transmutation; **CL** 16th; [Craft Construct](feat/craft_construct), [air walk](unknown/air_walk), [enervation](unknown/enervation), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), creator must be caster level 16th.",
+			"Inubrix ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [air walk](spell/air_walk), [enervation](spell/enervation), [geas/quest](spell/geas_quest), and [limited wish](spell/limited_wish). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting an [inubrix golem](monster/inubrix_golem).; **Aura** strong enchantment, necromancy, and transmutation; **CL** 16th; [Craft Construct](feat/craft_construct), [air walk](spell/air_walk), [enervation](spell/enervation), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), creator must be caster level 16th.",
 			"",
 			"Iron ([Ultimate Equipment pg. 300](source/ultimate_equipment), [PRPG Core Rulebook pg. 1](source/prpg_core_rulebook)): The book contains cloudkill, geas/quest, limited wish, and polymorph any object. The reader may treat her caster level as four levels higher than normal for the purpose of crafting an iron golem.; **Aura** strong conjuration, enchantment, and transmutation; **CL** 16th; Craft Construct, cloudkill, geas/quest, limited wish, polymorph any object, creator must be caster level 16th.",
 			"",
-			"Junk ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [false life](unknown/false_life), [lesser geas](unknown/lesser_geas), [minor creation](unknown/minor_creation), and [rusting grasp](unknown/rusting_grasp). The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a [junk golem](unknown/junk_golem).; **Aura** moderate conjuration, enchantment, necromancy, and transmutation; **CL** 7th; [Craft Construct](feat/craft_construct), [false life](unknown/false_life), [lesser geas](unknown/lesser_geas), [minor creation](unknown/minor_creation), [rusting grasp](unknown/rusting_grasp), creator must be caster level 7th.",
+			"Junk ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [false life](spell/false_life), [lesser geas](spell/lesser_geas), [minor creation](spell/minor_creation), and [rusting grasp](spell/rusting_grasp). The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a [junk golem](monster/junk_golem).; **Aura** moderate conjuration, enchantment, necromancy, and transmutation; **CL** 7th; [Craft Construct](feat/craft_construct), [false life](spell/false_life), [lesser geas](spell/lesser_geas), [minor creation](spell/minor_creation), [rusting grasp](spell/rusting_grasp), creator must be caster level 7th.",
 			"",
-			"Lead ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [cloudkill](unknown/cloudkill), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), and [sequester](unknown/sequester). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [lead golem](unknown/lead_golem).; **Aura** strong abjuration, conjuration, and enchantment; **CL** 13th; [Craft Construct](feat/craft_construct), [cloudkill](unknown/cloudkill), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), [sequester](unknown/sequester), creator must be caster level 13th.",
+			"Lead ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [cloudkill](spell/cloudkill), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), and [sequester](spell/sequester). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [lead golem](monster/lead_golem).; **Aura** strong abjuration, conjuration, and enchantment; **CL** 13th; [Craft Construct](feat/craft_construct), [cloudkill](spell/cloudkill), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), [sequester](spell/sequester), creator must be caster level 13th.",
 			"",
-			"Mithral ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [cloudkill](unknown/cloudkill), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), and [polymorph any object](unknown/polymorph_any_object). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [mithral golem](unknown/mithral_golem).; **Aura** strong abjuration, enchantment, evocation, and transmutation; **CL** 16th; [Craft Construct](feat/craft_construct), [cloudkill](unknown/cloudkill), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), [polymorph any object](unknown/polymorph_any_object), creator must be caster level 16th.",
+			"Mithral ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [cloudkill](spell/cloudkill), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), and [polymorph any object](spell/polymorph_any_object). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [mithral golem](monster/mithral_golem).; **Aura** strong abjuration, enchantment, evocation, and transmutation; **CL** 16th; [Craft Construct](feat/craft_construct), [cloudkill](spell/cloudkill), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), [polymorph any object](spell/polymorph_any_object), creator must be caster level 16th.",
 			"",
-			"Obsidian ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), and [volcanic storm](unknown/volcanic_storm). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting an [obsidian golem](unknown/obsidian_golem).; **Aura** strong enchantment and evocation; **CL** 15th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), and [volcanic storm](unknown/volcanic_storm), creator must be caster level 15th.",
+			"Obsidian ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), and [volcanic storm](spell/volcanic_storm). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting an [obsidian golem](monster/obsidian_golem).; **Aura** strong enchantment and evocation; **CL** 15th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), and [volcanic storm](spell/volcanic_storm), creator must be caster level 15th.",
 			"",
-			"Quintessence ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [energy drain](unknown/energy_drain), [geas/quest](spell/geas_quest), [trap the soul](unknown/trap_the_soul), and [wish](unknown/wish). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [quintessence golem](unknown/quintessence_golem).; **Aura** strong conjuration, enchantment, and necromancy; **CL** 20th; [Craft Construct](feat/craft_construct), [energy drain](unknown/energy_drain), [geas/quest](spell/geas_quest), [trap the soul](unknown/trap_the_soul), [wish](unknown/wish), creator must be caster level 20th.",
+			"Quintessence ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [energy drain](unknown/energy_drain), [geas/quest](spell/geas_quest), [trap the soul](spell/trap_the_soul), and [wish](spell/wish). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [quintessence golem](monster/quintessence_golem).; **Aura** strong conjuration, enchantment, and necromancy; **CL** 20th; [Craft Construct](feat/craft_construct), [energy drain](unknown/energy_drain), [geas/quest](spell/geas_quest), [trap the soul](spell/trap_the_soul), [wish](spell/wish), creator must be caster level 20th.",
 			"",
-			"Sand ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), and [move earth](unknown/move_earth). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [sand golem](unknown/sand_golem).; **Aura** strong enchantment and transmutation; **CL** 12th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), [move earth](unknown/move_earth), creator must be caster level 12th.",
+			"Sand ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), and [move earth](spell/move_earth). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [sand golem](monster/sand_golem).; **Aura** strong enchantment and transmutation; **CL** 12th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), [move earth](spell/move_earth), creator must be caster level 12th.",
 			"",
 			"Stone ([Ultimate Equipment pg. 300](source/ultimate_equipment), [PRPG Core Rulebook pg. 1](source/prpg_core_rulebook)): The book contains antimagic field, geas/quest, limited wish, and symbol of stunning. The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem.; **Aura** strong abjuration and enchantment; **CL** 14th; Craft Construct, antimagic field, geas/quest, limited wish, symbol of stunning, creator must be caster level 14th.",
 			"",
 			"Stone Guardian ([Ultimate Equipment pg. 300](source/ultimate_equipment), [PRPG Core Rulebook pg. 1](source/prpg_core_rulebook)): The book contains antimagic field, discern location, geas/quest, limited wish, shield other, and symbol of stunning. The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem guardian.; **Aura** strong abjuration and enchantment; **CL** 14th; Craft Construct, antimagic field discern location, geas/quest, limited wish, shield other, symbol of stunning, creator must be caster level 14th.",
 			"",
-			"Viridium ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [contagion](unknown/contagion), [geas/quest](spell/geas_quest), [horrid wilting](unknown/horrid_wilting), [poison](unknown/poison), and [wish](unknown/wish). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [viridium golem](unknown/viridium_golem).; **Aura** strong enchantment and necromancy [evil]; **CL** 18th; [Craft Construct](feat/craft_construct), [contagion](unknown/contagion), [geas/quest](spell/geas_quest), [horrid wilting](unknown/horrid_wilting), [poison](unknown/poison), [wish](unknown/wish), creator must be caster level 18th.",
+			"Viridium ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [contagion](spell/contagion), [geas/quest](spell/geas_quest), [horrid wilting](spell/horrid_wilting), [poison](unknown/poison), and [wish](spell/wish). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [viridium golem](monster/viridium_golem).; **Aura** strong enchantment and necromancy [evil]; **CL** 18th; [Craft Construct](feat/craft_construct), [contagion](spell/contagion), [geas/quest](spell/geas_quest), [horrid wilting](spell/horrid_wilting), [poison](unknown/poison), [wish](spell/wish), creator must be caster level 18th.",
 			"",
-			"Wax ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate objects](unknown/animate_objects), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), and [silent image](unknown/silent_image). The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a [wax golem](unknown/wax_golem).; **Aura** moderate enchantment, illusion, and transmutation; **CL** 9th; [Craft Construct](feat/craft_construct), [animate objects](unknown/animate_objects), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), and [silent image](unknown/silent_image), creator must be caster level 9th.",
+			"Wax ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate objects](spell/animate_objects), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), and [silent image](spell/silent_image). The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a [wax golem](monster/wax_golem).; **Aura** moderate enchantment, illusion, and transmutation; **CL** 9th; [Craft Construct](feat/craft_construct), [animate objects](spell/animate_objects), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), and [silent image](spell/silent_image), creator must be caster level 9th.",
 			"",
-			"Wood ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [alarm](unknown/alarm), [animate objects](unknown/animate_objects), [cat's grace](unknown/cat's_grace), [geas/quest](spell/geas_quest), and [limited wish](unknown/limited_wish). The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a [wood golem](unknown/wood_golem).; **Aura** strong abjuration, enchantment, and transmutation; **CL** 12th; [Craft Construct](feat/craft_construct), [alarm](unknown/alarm), [animate objects](unknown/animate_objects), [cat's grace](unknown/cat's_grace), [geas/quest](spell/geas_quest), [limited wish](unknown/limited_wish), creator must be caster level 12th.",
+			"Wood ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [alarm](spell/alarm), [animate objects](spell/animate_objects), [cat's grace](spell/cat's_grace), [geas/quest](spell/geas_quest), and [limited wish](spell/limited_wish). The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a [wood golem](monster/wood_golem).; **Aura** strong abjuration, enchantment, and transmutation; **CL** 12th; [Craft Construct](feat/craft_construct), [alarm](spell/alarm), [animate objects](spell/animate_objects), [cat's grace](spell/cat's_grace), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), creator must be caster level 12th.",
 			"",
 			"### Construction",
 			"",
@@ -32791,13 +32791,13 @@
 			"**Aura** strong divination and necromancy; **CL** 12th  ",
 			"**Slot** none; **Price** 3,600 gp; **Weight** 1/2 lb.",
 			"",
-			"After standing above the remains of a creature for many years, a headstone or grave marker often develops a psychic resonance for the spirit of the creature as it was in life. When this aromatic salve is applied to the surface of a gravestone or similar monument, the user can ask six questions of the monument and receive answers as if she had successfully cast [speak with dead](unknown/speak_with_dead) on the creature that was buried beneath. The user of the monument's truth need not have shared a language with the creature interred beneath the stone for the item to function, but the monument can speak only about what the creature knew in life. It cannot answer any questions that pertain to events that occurred after the creature's death.",
+			"After standing above the remains of a creature for many years, a headstone or grave marker often develops a psychic resonance for the spirit of the creature as it was in life. When this aromatic salve is applied to the surface of a gravestone or similar monument, the user can ask six questions of the monument and receive answers as if she had successfully cast [speak with dead](spell/speak_with_dead) on the creature that was buried beneath. The user of the monument's truth need not have shared a language with the creature interred beneath the stone for the item to function, but the monument can speak only about what the creature knew in life. It cannot answer any questions that pertain to events that occurred after the creature's death.",
 			"",
 			"A creature with an Intelligence score of at least 3 while it was alive must have been buried beneath the monument for at least 1 year for monument's truth to function. If more than one such creature is buried beneath the monument, the effect fails, the psychic impressions having become too tangled to transmit comprehensible information.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [speak with dead](unknown/speak_with_dead), [stone tell](unknown/stone_tell); **Cost** 1,800 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [speak with dead](spell/speak_with_dead), [stone tell](spell/stone_tell); **Cost** 1,800 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -32967,11 +32967,11 @@
 			"",
 			"Lapis Camel: This palm-sized camel figurine is sculpted of lapis lazuli. When you throw the lapis camel to the ground and speak the command word, it turns into a dromedary camel. The camel acts as a normal camel in all respects, except that it obeys your verbal commands to the best of its animal-level intelligence. At your command, the camel returns to its figurine form. The lapis camel can be used up to 3 times per week for up 8 hours each use.; **CL** 11th; Craft Wondrous Item, animate object.",
 			"",
-			"Pearl Dolphin: This 2-inch-long pearl figurine turns into a dolphin on command (but it retains its composition, which gives it hardness 10). The dolphin follows the verbal commands of the creature who spoke the command word and will follow commands as a summoned creature. With a second command word, the dolphin will swim to an indicated location at double its swim speed, bearing a message just like a creature affected by an [animal messenger](unknown/animal_messenger) spell.",
+			"Pearl Dolphin: This 2-inch-long pearl figurine turns into a dolphin on command (but it retains its composition, which gives it hardness 10). The dolphin follows the verbal commands of the creature who spoke the command word and will follow commands as a summoned creature. With a second command word, the dolphin will swim to an indicated location at double its swim speed, bearing a message just like a creature affected by an [animal messenger](spell/animal_messenger) spell.",
 			"",
-			"The pearl dolphin can maintain its nonfigurine status for only 24 hours per week. The duration need not be continuous, but it must be used in 1-hour increments.; **CL** 11th; [Craft Wondrous Item](feat/craft_wondrous_item), [animal messenger](unknown/animal_messenger), [animate objects](unknown/animate_objects).",
+			"The pearl dolphin can maintain its nonfigurine status for only 24 hours per week. The duration need not be continuous, but it must be used in 1-hour increments.; **CL** 11th; [Craft Wondrous Item](feat/craft_wondrous_item), [animal messenger](spell/animal_messenger), [animate objects](spell/animate_objects).",
 			"",
-			"Ruby Butterfly: Upon command, this figurine of wondrous power transforms into a hand-sized red butterfly (same statistics as a [bat](unknown/bat)). A spellcaster can use a ruby butterfly to deliver touch spells, as if the ruby butterfly were a [familiar](unknown/familiar) capable of this ability. A ruby butterfly can also be commanded to guard its owner while he sleeps. Creatures protected this way gain a +5 luck bonus on saving throws against any spell or effect that affects sleeping creatures' dreams (such as [nightmare](unknown/nightmare) or a [night hag's dream haunting](unknown/night_hag's_dream_haunting) ability). A ruby butterfly can be used three times per week for up to 8 hours at a time.; **CL** 9th; [Craft Wondrous Item](feat/craft_wondrous_item), [animate object](unknown/animate_object), [dream](unknown/dream).",
+			"Ruby Butterfly: Upon command, this figurine of wondrous power transforms into a hand-sized red butterfly (same statistics as a [bat](monster/bat)). A spellcaster can use a ruby butterfly to deliver touch spells, as if the ruby butterfly were a [familiar](unknown/familiar) capable of this ability. A ruby butterfly can also be commanded to guard its owner while he sleeps. Creatures protected this way gain a +5 luck bonus on saving throws against any spell or effect that affects sleeping creatures' dreams (such as [nightmare](unknown/nightmare) or a [night hag's dream haunting](unknown/night_hag's_dream_haunting) ability). A ruby butterfly can be used three times per week for up to 8 hours at a time.; **CL** 9th; [Craft Wondrous Item](feat/craft_wondrous_item), [animate object](unknown/animate_object), [dream](unknown/dream).",
 			"",
 			"Black Jade Raven: This fist-sized piece of black jade is exquisitely tooled into the shape of a raven with outstretched wings. Upon command, it transforms into a black raven (use the stats for an eagle) or a giant black raven (use the stats for a giant eagle). Both forms of the raven have Improved Steal as a bonus feat. The raven understands Common but cannot speak. It can answer questions related to its abilities or what it has seen by cawing once for \"yes\" and twice for \"no.\"",
 			"",
@@ -34583,7 +34583,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [arcane sight](unknown/arcane_sight), [resist energy](unknown/resist_energy); **Cost** 2,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [arcane sight](spell/arcane_sight), [resist energy](spell/resist_energy); **Cost** 2,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -34988,11 +34988,11 @@
 			"**Aura** strong necromancy; **CL** 15th  ",
 			"**Slot** none; **Price** 5,000 gp; **Weight** 2 lbs.",
 			"",
-			"An empty soul jar can be used to contain a soul that has been successfully trapped in a black sapphire via [soul bind](unknown/soul_bind). Holding the gemstone against the soul jar's lid for 1 full round transfers the soul in the gem to the soul jar (which can hold the soul of a creature of up to 20 Hit Dice), leaving the black sapphire unharmed 50% of the time. The rest of the time, transferring the soul from gem to jar shatters the black sapphire. A creature that can use [soul bind](unknown/soul_bind) as a spell-like ability (and thus does not use a focus) can automatically place a captured soul in a held soul jar as the spell-like ability is used. A soul in a soul jar cannot travel to the Boneyard to be judged, but can be restored to life via [resurrection](unknown/resurrection) or more powerful magic. A soul jar can contain only one soul at a time. Soul jars are fragile (hardness 1, hp 10); if a soul jar is broken, the soul held within immediately escapes to the Boneyard.",
+			"An empty soul jar can be used to contain a soul that has been successfully trapped in a black sapphire via [soul bind](spell/soul_bind). Holding the gemstone against the soul jar's lid for 1 full round transfers the soul in the gem to the soul jar (which can hold the soul of a creature of up to 20 Hit Dice), leaving the black sapphire unharmed 50% of the time. The rest of the time, transferring the soul from gem to jar shatters the black sapphire. A creature that can use [soul bind](spell/soul_bind) as a spell-like ability (and thus does not use a focus) can automatically place a captured soul in a held soul jar as the spell-like ability is used. A soul in a soul jar cannot travel to the Boneyard to be judged, but can be restored to life via [resurrection](spell/resurrection) or more powerful magic. A soul jar can contain only one soul at a time. Soul jars are fragile (hardness 1, hp 10); if a soul jar is broken, the soul held within immediately escapes to the Boneyard.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [soul bind](unknown/soul_bind); **Cost** 2,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [soul bind](spell/soul_bind); **Cost** 2,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -36445,7 +36445,7 @@
 			"**Aura** strong transmutation; **CL** 13th  ",
 			"**Slot** none; **Price** 6,000 gp (Type I), 14,000 gp (Type II), 24,000 gp (Type III), 36,000 gp (Type IV); **Weight** -;",
 			"",
-			"When this [ioun stone](unknown/ioun_stone) is embedded in a clockwork construct, it grants the recipient humanlike sentience, as per the [awaken construct](unknown/awaken_construct) spell. The transformation is not permanent, and regardless of the body a stone is embedded in, the creature in which it's embedded always gains the same alignment, Charisma score increase, Intelligence score, language, memories, personality, and skills. These statistics depend on the ioun memory node type, as noted in the table below.",
+			"When this [ioun stone](unknown/ioun_stone) is embedded in a clockwork construct, it grants the recipient humanlike sentience, as per the [awaken construct](spell/awaken_construct) spell. The transformation is not permanent, and regardless of the body a stone is embedded in, the creature in which it's embedded always gains the same alignment, Charisma score increase, Intelligence score, language, memories, personality, and skills. These statistics depend on the ioun memory node type, as noted in the table below.",
 			"",
 			"| Type | Int | Cha | Skills | Languages | Max HD |",
 			"|---|---|---|---|---|---|",
@@ -36453,11 +36453,11 @@
 			"| II | 10 | +5 | 2 | 1 | 8 |",
 			"| III | 12 | +7 | 3 | 2 | 12 |",
 			"| IV | 15 | +10 | 4 | 3 | 16 |",
-			"The skills, languages, and alignment are chosen when the node is created. The node grants a number of skill ranks in those skills equal to the clockwork's Hit Dice. Unlike [awaken construct](unknown/awaken_construct), an ioun memory node doesn't grant feats. A clockwork that is already intelligent can access the memories collected in the ioun memory node but is otherwise unaffected. A clockwork whose number of Hit Dice exceeds the maximum HD for that type of ioun memory node is unaffected.",
+			"The skills, languages, and alignment are chosen when the node is created. The node grants a number of skill ranks in those skills equal to the clockwork's Hit Dice. Unlike [awaken construct](spell/awaken_construct), an ioun memory node doesn't grant feats. A clockwork that is already intelligent can access the memories collected in the ioun memory node but is otherwise unaffected. A clockwork whose number of Hit Dice exceeds the maximum HD for that type of ioun memory node is unaffected.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [awaken construct](unknown/awaken_construct); **Cost** 3,000 gp (Type I), 7,000 gp (Type II), 12,000 gp (Type III), 18,000 gp (Type IV)"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [awaken construct](spell/awaken_construct); **Cost** 3,000 gp (Type I), 7,000 gp (Type II), 12,000 gp (Type III), 18,000 gp (Type IV)"
 		],
 		"display": "magic/wondrous"
 	},
@@ -36479,7 +36479,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [touch of the sea](unknown/touch_of_the_sea); **Cost** 3,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [touch of the sea](spell/touch_of_the_sea); **Cost** 3,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -36709,7 +36709,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [glibness](unknown/glibness); **Cost** 3,200 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [glibness](spell/glibness); **Cost** 3,200 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -37762,7 +37762,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [minor image](unknown/minor_image), [sound burst](unknown/sound_burst); **Cost** 3,750 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [minor image](spell/minor_image), [sound burst](spell/sound_burst); **Cost** 3,750 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -39315,7 +39315,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [animate objects](unknown/animate_objects), [fly](unknown/fly), [make whole](unknown/make_whole); **Cost** 4,900 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [animate objects](spell/animate_objects), [fly](unknown/fly), [make whole](spell/make_whole); **Cost** 4,900 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -40449,7 +40449,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [shield of fortification](unknown/shield_of_fortification); **Cost** 6,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [shield of fortification](spell/shield_of_fortification); **Cost** 6,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -40874,7 +40874,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [sending](unknown/sending); **Cost** 6,100 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [sending](spell/sending); **Cost** 6,100 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -41107,13 +41107,13 @@
 			"",
 			"This chunk of yellow crystal glows like a torch, shedding normal light in a 20-foot radius and increasing the light level for an additional 20 feet by one step, up to normal light. The crystal floats in the air 1 foot above any solid surface and can be moved with little effort.",
 			"",
-			"Any form of Abyssal writing (books, scrolls, etc.) read by the light of Dagon's eye can be understood by any creature that perceives it, as if under the effects of a [comprehend languages](unknown/comprehend_languages) spell.",
+			"Any form of Abyssal writing (books, scrolls, etc.) read by the light of Dagon's eye can be understood by any creature that perceives it, as if under the effects of a [comprehend languages](spell/comprehend_languages) spell.",
 			"",
 			"If any form of Celestial writing is placed in the light of Dagon's Eye, the words erupt into a searing fireball that deals 6d6 points of fire damage to all creatures within 20 feet of the writing. Creatures in the area take only half damage with a successful DC 14 Reflex save. This ability functions once every 10 minutes.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [comprehend languages](unknown/comprehend_languages), [explosive runes](unknown/explosive_runes), creator must worship a demon lord; **Cost** 6,300 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [comprehend languages](spell/comprehend_languages), [explosive runes](spell/explosive_runes), creator must worship a demon lord; **Cost** 6,300 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -43704,7 +43704,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [clairaudience/clairvoyance](unknown/clairaudience_clairvoyance), true; **Cost** 10,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [clairaudience/clairvoyance](spell/clairaudience_clairvoyance), true; **Cost** 10,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -43752,7 +43752,7 @@
 			"",
 			"As part of the process of crafting a third eye, the creator grafts an actual eye into the palm of the recipient's hand. Once an eye is grafted into a palm, it is undetectable while closed and doesn't hinder the user's manual dexterity in the slightest. When in use, the eye opens.",
 			"",
-			"The owner of a third eye can use it to see through the donor creature's remaining eye. The third eye can also be attuned to specially prepared bloodstones, allowing the user to observe things in each bloodstone's vicinity as if the bloodstone were an eye as well. Preparing a bloodstone in this manner requires soaking it in a potion of [clairvoyance/clairaudience](unknown/clairvoyance_clairaudience) for a week, at the end of which the owner drinks the potion and spits the bloodstone into the hand bearing the third eye. These bloodstones are often incorporated into magic items like phylacteries, rings, and amulets, allowing the user to gift such items to other creatures and thus gain a new viewpoint. This remote viewing ability functions at any range as long as the owner is on the same plane at the bloodstone. It also allows the owner to cast [clairaudience/clairvoyance](unknown/clairaudience_clairvoyance) up to three times per day.",
+			"The owner of a third eye can use it to see through the donor creature's remaining eye. The third eye can also be attuned to specially prepared bloodstones, allowing the user to observe things in each bloodstone's vicinity as if the bloodstone were an eye as well. Preparing a bloodstone in this manner requires soaking it in a potion of [clairvoyance/clairaudience](unknown/clairvoyance_clairaudience) for a week, at the end of which the owner drinks the potion and spits the bloodstone into the hand bearing the third eye. These bloodstones are often incorporated into magic items like phylacteries, rings, and amulets, allowing the user to gift such items to other creatures and thus gain a new viewpoint. This remote viewing ability functions at any range as long as the owner is on the same plane at the bloodstone. It also allows the owner to cast [clairaudience/clairvoyance](spell/clairaudience_clairvoyance) up to three times per day.",
 			"",
 			"As long as the third eye is open in a hand that isn't holding an object, the owner has all-round vision, gaining a +4 bonus on Perception checks and making it impossible to flank the owner. [Rakshasas](unknown/rakshasas), whose fingers bend backwards, can use the powers of their third eyes while holding objects since their third eyes effectively look out of the \"backs\" of their hands.",
 			"",
@@ -45321,7 +45321,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [keen edge](unknown/keen_edge), [rage](unknown/rage); **Cost** 15,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [keen edge](spell/keen_edge), [rage](spell/rage); **Cost** 15,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -45574,13 +45574,13 @@
 			"**Aura** moderate necromancy; **CL** 13th  ",
 			"**Slot** none; **Price** 32,000 gp; **Weight** -;",
 			"",
-			"A thrum of the hidden soul appears as a single, unbreakable crimson thread. To use the thrum, you tie the thread around any Fine or smaller nonmagical object and will your soul into the marked object. The thread disintegrates and your soul transfers into the marked object as if it were a [magic jar](unknown/magic_jar), leaving your body alive but catatonic. You cannot move your body or use its senses. You can remain within the [magic jar](unknown/magic_jar) for an unlimited amount of time, but cannot sense your surroundings or possess any other living creature. You may return to your original body at will. If your body is slain, you may only escape the [magic jar](unknown/magic_jar) if your body is resurrected or else a [wish](unknown/wish), [miracle](unknown/miracle), or similar effect is used to restore you.",
+			"A thrum of the hidden soul appears as a single, unbreakable crimson thread. To use the thrum, you tie the thread around any Fine or smaller nonmagical object and will your soul into the marked object. The thread disintegrates and your soul transfers into the marked object as if it were a [magic jar](spell/magic_jar), leaving your body alive but catatonic. You cannot move your body or use its senses. You can remain within the [magic jar](spell/magic_jar) for an unlimited amount of time, but cannot sense your surroundings or possess any other living creature. You may return to your original body at will. If your body is slain, you may only escape the [magic jar](spell/magic_jar) if your body is resurrected or else a [wish](spell/wish), [miracle](spell/miracle), or similar effect is used to restore you.",
 			"",
-			"While within the [magic jar](unknown/magic_jar), your soul is shielded from divination attempts. Spells such as [scrying](unknown/scrying) show the location of your corpse, and spells such as [divination](unknown/divination) return information consistent with your body's death. While your soul inhabits it, the [magic jar](unknown/magic_jar) appears non-magical to divination magic, including [detect magic](unknown/detect_magic), [identify](unknown/identify), and [legend lore](unknown/legend_lore).",
+			"While within the [magic jar](spell/magic_jar), your soul is shielded from divination attempts. Spells such as [scrying](unknown/scrying) show the location of your corpse, and spells such as [divination](unknown/divination) return information consistent with your body's death. While your soul inhabits it, the [magic jar](spell/magic_jar) appears non-magical to divination magic, including [detect magic](spell/detect_magic), [identify](spell/identify), and [legend lore](spell/legend_lore).",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [magic jar](unknown/magic_jar), [permanency](unknown/permanency); **Cost** 16,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [magic jar](spell/magic_jar), [permanency](spell/permanency); **Cost** 16,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -47005,13 +47005,13 @@
 			"**Aura** strong illusion; **CL** 12th  ",
 			"**Slot** none; **Price** 48,000 gp; **Weight** -;",
 			"",
-			"A shadow stylus can create a doorway between the Material Plane and the Shadow Plane. To do so, the user must prick a bit of skin with the stylus's pointed end, anointing it with a drop of blood from a living creature. The user must then use the shadowy chalk held in the stylus's other end to inscribe a doorway on a solid surface in an area of dim light. Doing so requires 1d4 rounds of work and, once completed, fashions a portal like that created by a [gate](unknown/gate) spell, linking the Material Plane and the Shadow Plane. The destinations on both planes must overlap-to create a portal to Shadow Absalom, for example, the user would have to create the doorway from the Material Plane in Absalom. The portal created closes 1 minute after it is created.",
+			"A shadow stylus can create a doorway between the Material Plane and the Shadow Plane. To do so, the user must prick a bit of skin with the stylus's pointed end, anointing it with a drop of blood from a living creature. The user must then use the shadowy chalk held in the stylus's other end to inscribe a doorway on a solid surface in an area of dim light. Doing so requires 1d4 rounds of work and, once completed, fashions a portal like that created by a [gate](spell/gate) spell, linking the Material Plane and the Shadow Plane. The destinations on both planes must overlap-to create a portal to Shadow Absalom, for example, the user would have to create the doorway from the Material Plane in Absalom. The portal created closes 1 minute after it is created.",
 			"",
 			"As long as a creature carries a shadow stylus on her person, she gains a +2 bonus on saving throws against spells of the shadow subschool and against all special attacks created by [kytons](unknown/kytons), [shadows](unknown/shadows), and other creatures native to the Shadow Plane. In addition, the character can see on the Shadow Plane as if that realm were brightly lit. A shadow stylus has 6 uses when it is created. Once it is used to create a sixth portal, the stylus loses its ability to craft new portals but retains its protective qualities.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [shadow walk](unknown/shadow_walk); **Cost** 24,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [shadow walk](spell/shadow_walk); **Cost** 24,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -47478,11 +47478,11 @@
 			"**Aura** strong conjuration; **CL** 15th  ",
 			"**Slot** none; **Price** 55,000 gp; **Weight** 2 lbs.",
 			"",
-			"The bell of this slightly curved horn resembles the head of a roaring lioness. The horn functions in many ways like a [horn of valhalla](unknown/horn_of_valhalla), but while held in one hand, the wielder gains the benefits of [deathwatch](unknown/deathwatch). Once per year when the wielder sounds the horn, she can summon one [sleipnir](unknown/sleipnir) with a saddle for 1 hour in place of summoning the barbarians. The sleipnir willingly serves as a mount or combatant.",
+			"The bell of this slightly curved horn resembles the head of a roaring lioness. The horn functions in many ways like a [horn of valhalla](magic/wondrous/horn_of_valhalla), but while held in one hand, the wielder gains the benefits of [deathwatch](spell/deathwatch). Once per year when the wielder sounds the horn, she can summon one [sleipnir](monster/sleipnir) with a saddle for 1 hour in place of summoning the barbarians. The sleipnir willingly serves as a mount or combatant.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [deathwatch](unknown/deathwatch), [summon monster VIII](unknown/summon_monster_8); **Cost** 22,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [deathwatch](spell/deathwatch), [summon monster VIII](spell/summon_monster_8); **Cost** 22,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -48119,7 +48119,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [suggestion](unknown/suggestion); **Cost** 32,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [suggestion](spell/suggestion); **Cost** 32,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -49102,7 +49102,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [disable construct](unknown/disable_construct), [lightning bolt](unknown/lightning_bolt); **Cost** 45,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [disable construct](spell/disable_construct), [lightning bolt](spell/lightning_bolt); **Cost** 45,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -49403,13 +49403,13 @@
 			"",
 			"Planar carriages are large metal-and-wood vehicles painted or styled to reflect the appearance of a certain plane. When not being used to travel to another plane, a planar carriage functions as a heavy wagon, except for the following changes: instead of muscle propulsion, a planar carriage has built-in magic propulsion that requires a driver to use Spellcraft or Use Magic Device for driving checks. A planar carriage has a maximum speed of 90 feet and an acceleration of 30 feet. Its driving device is a magic item (a 5-foot magical sphere) that occupies the forwardmost square, and its driving space consists of the squares adjacent to the device.",
 			"",
-			"Once per day, the driver of a planar carriage can attempt to transport the carriage and its occupants to a plane of her choosing other than the plane that the carriage is currently on. For the driver to do so, the vehicle must be moving at its maximum speed. While the carriage is moving at maximum speed, the driver can attempt a DC 20 Spellcraft or Use Magic Device check to open a gate in front of the planar carriage to the chosen plane, as per the [gate](unknown/gate) spell, and drive the carriage into the gate. If the driver designates a specific arrival point on the target plane, the carriage arrives at that exact location; otherwise, the carriage appears in a random location on the plane appropriate for the carriage's size.",
+			"Once per day, the driver of a planar carriage can attempt to transport the carriage and its occupants to a plane of her choosing other than the plane that the carriage is currently on. For the driver to do so, the vehicle must be moving at its maximum speed. While the carriage is moving at maximum speed, the driver can attempt a DC 20 Spellcraft or Use Magic Device check to open a gate in front of the planar carriage to the chosen plane, as per the [gate](spell/gate) spell, and drive the carriage into the gate. If the driver designates a specific arrival point on the target plane, the carriage arrives at that exact location; otherwise, the carriage appears in a random location on the plane appropriate for the carriage's size.",
 			"",
-			"When the carriage arrives on another plane, it grants its occupants the benefits of [planar adaptation](unknown/planar_adaptation) for that plane as long as the occupants remain within the carriage; the carriage itself also gains those benefits. A planar carriage can grant the benefits of [planar adaptation](unknown/planar_adaptation) for only one plane at a time, so when the carriage moves to a different plane, the benefits from [planar adaptation](unknown/planar_adaptation) change accordingly. Occupants who are native to the plane the planar carriage is on do not gain any benefits from [planar adaptation](unknown/planar_adaptation).",
+			"When the carriage arrives on another plane, it grants its occupants the benefits of [planar adaptation](spell/planar_adaptation) for that plane as long as the occupants remain within the carriage; the carriage itself also gains those benefits. A planar carriage can grant the benefits of [planar adaptation](spell/planar_adaptation) for only one plane at a time, so when the carriage moves to a different plane, the benefits from [planar adaptation](spell/planar_adaptation) change accordingly. Occupants who are native to the plane the planar carriage is on do not gain any benefits from [planar adaptation](spell/planar_adaptation).",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [gate](unknown/gate), [haste](unknown/haste), [planar adaptation](unknown/planar_adaptation), creator must have at least 5 ranks in Knowledge (engineering); **Cost** 60,850 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [gate](spell/gate), [haste](spell/haste), [planar adaptation](spell/planar_adaptation), creator must have at least 5 ranks in Knowledge (engineering); **Cost** 60,850 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -50904,11 +50904,11 @@
 			"**Aura** faint illusion and transmutation; **CL** 1st  ",
 			"**Slot** shoulders; **Price** 3,600 gp; **Weight** 1 lb.",
 			"",
-			"Song-o halflings often use these cloaks to evade larger creatures in the jungles of the Mwangi Expanse. The wearer of an elusion cloak gains a +5 competence bonus on Stealth checks against creatures of at least one size category larger than she is. In addition, once per day as a free action when the wearer fails a saving throw against a fear effect, she can gain the benefits of [expeditious retreat](unknown/expeditious_retreat) for 5 rounds or for as long as she is affected by the fear effect, whichever is shorter.",
+			"Song-o halflings often use these cloaks to evade larger creatures in the jungles of the Mwangi Expanse. The wearer of an elusion cloak gains a +5 competence bonus on Stealth checks against creatures of at least one size category larger than she is. In addition, once per day as a free action when the wearer fails a saving throw against a fear effect, she can gain the benefits of [expeditious retreat](spell/expeditious_retreat) for 5 rounds or for as long as she is affected by the fear effect, whichever is shorter.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [expeditious retreat](unknown/expeditious_retreat); **Cost** 1,800 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [expeditious retreat](spell/expeditious_retreat); **Cost** 1,800 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -51343,11 +51343,11 @@
 			"**Aura** faint enchantment; **CL** 3rd  ",
 			"**Slot** shoulders; **Price** 6,500 gp; **Weight** 2 lbs.",
 			"",
-			"Snowborn frequently fight off hostile enemies of both the intelligent and animalistic varieties. The smart half-elf knows that he can't lose a fight that never begins and makes every attempt to stave off combat. This white fur stole helps the wary snowborn, or anyone else, temporarily calm down opponents. While wearing this stole, the wearer gains a +2 competence bonus on Diplomacy checks to improve someone's attitude and on wild empathy checks to improve an animal's attitude. Three times per day on command, the wearer can activate the stole to gain a 20-foot radius aura of either [calm animals](unknown/calm_animals) or [calm emotions](unknown/calm_emotions) for 1 minute (Will DC 13 negates). The stole also functions as cold weather clothing.",
+			"Snowborn frequently fight off hostile enemies of both the intelligent and animalistic varieties. The smart half-elf knows that he can't lose a fight that never begins and makes every attempt to stave off combat. This white fur stole helps the wary snowborn, or anyone else, temporarily calm down opponents. While wearing this stole, the wearer gains a +2 competence bonus on Diplomacy checks to improve someone's attitude and on wild empathy checks to improve an animal's attitude. Three times per day on command, the wearer can activate the stole to gain a 20-foot radius aura of either [calm animals](spell/calm_animals) or [calm emotions](spell/calm_emotions) for 1 minute (Will DC 13 negates). The stole also functions as cold weather clothing.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [calm animals](unknown/calm_animals), [calm emotions](unknown/calm_emotions); **Cost** 3,250 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [calm animals](spell/calm_animals), [calm emotions](spell/calm_emotions); **Cost** 3,250 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -51492,13 +51492,13 @@
 			"**Aura** moderate transmutation; **CL** 7th  ",
 			"**Slot** shoulders; **Price** 8,000 gp; **Weight** 1 lb.",
 			"",
-			"This flowing, black silken cloak glitters with an iridescent sheen like the feathers of a crow's wing. When the wearer moves, the fabric seems to dance on the air, as though it longed to take flight. The wearer can speak with birds while wearing the cloak, as if under the effects of [speak with animals](unknown/speak_with_animals). Druids of northern Avistan have long favored these cloaks as a means of communicating with birds of the region, but they grew increasingly popular among several sects in Lirgen as well in the decades leading up to the Age of Lost Omens' despite the fact that crows themselves are not native to that particular land. Certainly, the exotic nature of the ebon feathers had an aesthetic appeal, for in a land where brightly colored songbirds were the norm, the concept of a midnight black avian couldn't help but to be somewhat intriguing to the residents.",
+			"This flowing, black silken cloak glitters with an iridescent sheen like the feathers of a crow's wing. When the wearer moves, the fabric seems to dance on the air, as though it longed to take flight. The wearer can speak with birds while wearing the cloak, as if under the effects of [speak with animals](spell/speak_with_animals). Druids of northern Avistan have long favored these cloaks as a means of communicating with birds of the region, but they grew increasingly popular among several sects in Lirgen as well in the decades leading up to the Age of Lost Omens' despite the fact that crows themselves are not native to that particular land. Certainly, the exotic nature of the ebon feathers had an aesthetic appeal, for in a land where brightly colored songbirds were the norm, the concept of a midnight black avian couldn't help but to be somewhat intriguing to the residents.",
 			"",
-			"As a move action, the wearer of a crow brother's cloak can command the item to dissolve into a swirling murder of crows, which faithfully surround the wearer for up to 13 rounds per day. These rounds need not be consecutive. The murder of crows functions as a [bat swarm](unknown/bat_swarm). The murder of crows deals no damage to the wearer and provides concealment as long as the wearer remains within it. As a free action, the wearer can recall the swarm into cloak form or issue it a simple command (such as to direct its movement or to instruct it to follow the wearer). If the swarm is reduced to 0 hit points, it returns to its cloak form immediately and cannot be transformed again for 24 hours.",
+			"As a move action, the wearer of a crow brother's cloak can command the item to dissolve into a swirling murder of crows, which faithfully surround the wearer for up to 13 rounds per day. These rounds need not be consecutive. The murder of crows functions as a [bat swarm](monster/bat_swarm). The murder of crows deals no damage to the wearer and provides concealment as long as the wearer remains within it. As a free action, the wearer can recall the swarm into cloak form or issue it a simple command (such as to direct its movement or to instruct it to follow the wearer). If the swarm is reduced to 0 hit points, it returns to its cloak form immediately and cannot be transformed again for 24 hours.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [speak with animals](unknown/speak_with_animals), [summon swarm](unknown/summon_swarm); **Cost** 4,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [speak with animals](spell/speak_with_animals), [summon swarm](spell/summon_swarm); **Cost** 4,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -51528,7 +51528,7 @@
 			"**Aura** moderate transmutation; **CL** 9th  ",
 			"**Slot** shoulders; **Price** 9,000 gp; **Weight** 8 lbs.",
 			"",
-			"Images of ballistae ornament this metallic cloak, which fits easily over armor and other bulky clothing. The wearer can activate this cloak as a swift action, causing the garment to splay outward for 1 round, its jagged hem protruding around the wearer in stiff, sharp points. While the cloak is active, the wearer counts as wearing masterwork armor spikes with which she is proficient, and she can walk on air (as though using the [air walk](unknown/air_walk) spell). If she's riding a mount, the [air walk](unknown/air_walk) effect instead affects the mount while the cloak is active, and the mount can move with the item's help even if it's not specially trained to move with the aid of [air walk](unknown/air_walk). If the wearer (or her mount) isn't standing on a solid surface by the end of the round, she immediately falls, taking any applicable falling damage.",
+			"Images of ballistae ornament this metallic cloak, which fits easily over armor and other bulky clothing. The wearer can activate this cloak as a swift action, causing the garment to splay outward for 1 round, its jagged hem protruding around the wearer in stiff, sharp points. While the cloak is active, the wearer counts as wearing masterwork armor spikes with which she is proficient, and she can walk on air (as though using the [air walk](spell/air_walk) spell). If she's riding a mount, the [air walk](spell/air_walk) effect instead affects the mount while the cloak is active, and the mount can move with the item's help even if it's not specially trained to move with the aid of [air walk](spell/air_walk). If the wearer (or her mount) isn't standing on a solid surface by the end of the round, she immediately falls, taking any applicable falling damage.",
 			"",
 			"In addition, on her first successful charge attack during the round the cloak is active, the wearer deals an additional 1d6 points of piercing damage (1d4 if she is Small), plus another 1d6 (or 1d4 if she is Small) for every 20 feet the wearer traveled in a straight line during the charge (maximum 3d6).",
 			"",
@@ -51536,7 +51536,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [air walk](unknown/air_walk), [bull's strength](unknown/bull's_strength); **Cost** 4,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [air walk](spell/air_walk), [bull's strength](spell/bull's_strength); **Cost** 4,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -53457,7 +53457,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [status](unknown/status); **Cost** 375 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [status](spell/status); **Cost** 375 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -53510,7 +53510,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [detect thoughts](unknown/detect_thoughts); **Cost** 500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [detect thoughts](spell/detect_thoughts); **Cost** 500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -54261,7 +54261,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [death ward](unknown/death_ward); **Cost** 4,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [death ward](spell/death_ward); **Cost** 4,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -55025,13 +55025,13 @@
 			"**Aura** strong transmutation; **CL** 17th  ",
 			"**Slot** wrists; **Price** 32,000 gp; **Weight** 1 lb.",
 			"",
-			"This rune-carved bracelet is made of thick, bright gold and allows the wearer to manipulate time through electricity magic. As a swift action, the wearer can activate the bracer, creating a nimbus of crackling blue energy that surrounds the hand wearing the electro-temporal bracer for up to 3 minutes each day. This duration need not be continuous, but it must be used in 1-minute increments. While the nimbus is active, spells with the electricity descriptor cast by the wearer have an additional effect, chosen by the wearer as each spell is cast: the spell dazzles all targets of the spell for 1 round, the spell staggers a single target of the spell for 1 round, or the spell provides a single target of the spell the benefits of [haste](unknown/haste) for 1 round. The staggered and [haste](unknown/haste) effects affect only one target selected by the caster as the spell is cast, even if the spell affects multiple targets. There is no saving throw for these additional effects, but a target that avoids the effects of the electricity spell entirely (such as by negating the effect with a successful save, or by having immunity to the spell's damage) is not subject to the additional effect. (A target of an additional effect that successfully saves against the electricity spell but still takes partial damage is still subject to the additional effect.)",
+			"This rune-carved bracelet is made of thick, bright gold and allows the wearer to manipulate time through electricity magic. As a swift action, the wearer can activate the bracer, creating a nimbus of crackling blue energy that surrounds the hand wearing the electro-temporal bracer for up to 3 minutes each day. This duration need not be continuous, but it must be used in 1-minute increments. While the nimbus is active, spells with the electricity descriptor cast by the wearer have an additional effect, chosen by the wearer as each spell is cast: the spell dazzles all targets of the spell for 1 round, the spell staggers a single target of the spell for 1 round, or the spell provides a single target of the spell the benefits of [haste](spell/haste) for 1 round. The staggered and [haste](spell/haste) effects affect only one target selected by the caster as the spell is cast, even if the spell affects multiple targets. There is no saving throw for these additional effects, but a target that avoids the effects of the electricity spell entirely (such as by negating the effect with a successful save, or by having immunity to the spell's damage) is not subject to the additional effect. (A target of an additional effect that successfully saves against the electricity spell but still takes partial damage is still subject to the additional effect.)",
 			"",
 			"If the wearer takes at least 50 points of electricity damage from a single source (such as a trap or a spell), the wearer immediately benefits from the effects of time stop, and the electro-temporal bracer ceases functioning for 1 month.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [haste](unknown/haste), [slow](unknown/slow), [time stop](unknown/time_stop); **Cost** 16,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [haste](spell/haste), [slow](spell/slow), [time stop](spell/time_stop); **Cost** 16,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -55136,20 +55136,20 @@
 			"",
 			"Despite the fact that they are millennia old, these polished metal armbands, inlaid with intricate patterns in gold and platinum, are in remarkable condition. Part of a cache of Azlanti artifacts discovered by Arustun in the Cave of Tiandra in approximately -4160 ar, the bracers became a treasured possession of the Jistka Imperium's founder and a valuable tool in his decadeslong quest to recover and interpret remnants of Azlanti and Thassilonian culture.",
 			"",
-			"Each of the bracers has one slot in which an ioun stone can be embedded. An [ioun stone](unknown/ioun_stone) embedded in this manner grants the bearer its normal benefits as if it were orbiting her head and resonates its powers as if it were slotted in a [wayfinder](unknown/wayfinder). Additionally, as long as at least one ioun stone is slotted into the bracers, the wearer can understand any written language, as per [comprehend languages](unknown/comprehend_languages).",
+			"Each of the bracers has one slot in which an ioun stone can be embedded. An [ioun stone](unknown/ioun_stone) embedded in this manner grants the bearer its normal benefits as if it were orbiting her head and resonates its powers as if it were slotted in a [wayfinder](magic/wondrous/wayfinder). Additionally, as long as at least one ioun stone is slotted into the bracers, the wearer can understand any written language, as per [comprehend languages](spell/comprehend_languages).",
 			"",
 			"6th Level The wearer gains a +2 competence bonus on Knowledge (arcana), Spellcraft, and Use Magic Device checks.",
 			"",
-			"9th Level The bracers act as [spell storing](unknown/spell_storing) [bracers of armor](unknown/bracers_of_armor).",
+			"9th Level The bracers act as [spell storing](magic/enhancement/spell_storing) [bracers of armor](unknown/bracers_of_armor).",
 			"",
 			"12th Level While at least one ioun stone is embedded in the bracers, the wearer can speak and understand any language, as per [tongues](unknown/tongues).",
 			"",
 			"15th Level The wearer gains a +4 insight bonus on saving throws against language-dependent spells and effects and on saving throws against magical glyphs, symbols, sigils, or similar written traps.",
 			"",
-			"18th Level Twice per day, the wearer can temporarily drain the magic of one of the bracers' embedded ioun stones to cast [plane shift](unknown/plane_shift). After powering this ability, the ioun stone becomes inert for 24 hours and impossible to remove from the bracer.",
+			"18th Level Twice per day, the wearer can temporarily drain the magic of one of the bracers' embedded ioun stones to cast [plane shift](spell/plane_shift). After powering this ability, the ioun stone becomes inert for 24 hours and impossible to remove from the bracer.",
 			"",
 			"**Goal:** Recover and identify 30 named texts or artifacts that were created more than 4,000 years before the present day. Recovering a major artifact counts as 3 artifacts toward the completion of this goal.  ",
-			"**Reward:** By handling a magic item for 1 minute, the wearer can identify its properties and command word as if she had successfully examined the item using [detect magic](unknown/detect_magic) and succeeded at a Spellcraft check. This ability does not reveal whether the item is cursed unless the wearer's character level is equal to or greater than the caster level of the item."
+			"**Reward:** By handling a magic item for 1 minute, the wearer can identify its properties and command word as if she had successfully examined the item using [detect magic](spell/detect_magic) and succeeded at a Spellcraft check. This ability does not reveal whether the item is cursed unless the wearer's character level is equal to or greater than the caster level of the item."
 		],
 		"display": "magic/wondrous"
 	},
@@ -55171,7 +55171,7 @@
 			"",
 			"A wizard who wears the headband gains two extra uses per day of a 1st-level arcane school power that is normally usable a number of times per day equal to 3 + the wizard's Intelligence modifier.",
 			"",
-			"4th Level: The carved king's band acts as a [headband of vast intelligence +2](unknown/headband_of_vast_intelligence_+2) (granting skill ranks in Perception).",
+			"4th Level: The carved king's band acts as a [headband of vast intelligence +2](magic/wondrous/headband_of_vast_intelligence_+2) (granting skill ranks in Perception).",
 			"",
 			"7th Level: Once per day when the wearer attempts a saving throw against a magical glyph, symbol, sigil, or similar written trap, as an immediate action, he can attempt a Spellcraft check against the same DC to dispel the effect.",
 			"",
@@ -55202,18 +55202,18 @@
 			"",
 			"According to records salvaged from abandoned temples of Aroden, the high priest Narthoc was wearing a ring of sealed souls when he trapped the [Whispering Tyrant](unknown/whispering_tyrant) under Gallowspire in 3827 ar.",
 			"",
-			"If the wearer of this braided ring is slain while wearing the ring, he cannot be raised as undead. Additionally, the wearer can be revived with [raise dead](unknown/raise_dead) or similar effects even if he was slain by a death effect.",
+			"If the wearer of this braided ring is slain while wearing the ring, he cannot be raised as undead. Additionally, the wearer can be revived with [raise dead](spell/raise_dead) or similar effects even if he was slain by a death effect.",
 			"",
-			"8th Level: The wearer can use [hold portal](unknown/hold_portal) at will as a spell-like ability, though he can have only one portal held by this ability at a time. Should he use the ability again while the spell is already active, the first casting is immediately dismissed.",
+			"8th Level: The wearer can use [hold portal](spell/hold_portal) at will as a spell-like ability, though he can have only one portal held by this ability at a time. Should he use the ability again while the spell is already active, the first casting is immediately dismissed.",
 			"",
-			"11th Level: Weapons wielded by the wearer gain the [ghost touch](unknown/ghost_touch) weapon property.",
+			"11th Level: Weapons wielded by the wearer gain the [ghost touch](magic/enhancement/ghost_touch) weapon property.",
 			"",
-			"14th Level: The wearer can use [guards and wards](unknown/guards_and_wards) once per day as a spell-like ability.",
+			"14th Level: The wearer can use [guards and wards](spell/guards_and_wards) once per day as a spell-like ability.",
 			"",
-			"17th Level: The wearer adds [binding](unknown/binding) to his class spell list and list of spells known. The wearer can use [binding](unknown/binding) once per day as a spell-like ability, but he must provide the expensive material component for the spell.",
+			"17th Level: The wearer adds [binding](spell/binding) to his class spell list and list of spells known. The wearer can use [binding](spell/binding) once per day as a spell-like ability, but he must provide the expensive material component for the spell.",
 			"",
 			"**Goal:** The wearer must defeat an undead creature or evil outsider whose CR is at least 4 greater than his Hit Dice.  ",
-			"**Reward:** The wearer is constantly under the effect of [protection from evil](unknown/protection_from_evil) with a caster level equal to his character level. Should this effect be dispelled, he can resume it as a free action."
+			"**Reward:** The wearer is constantly under the effect of [protection from evil](spell/protection_from_evil) with a caster level equal to his character level. Should this effect be dispelled, he can resume it as a free action."
 		],
 		"display": "magic/wondrous"
 	},
@@ -55231,15 +55231,15 @@
 			"**Slot** none; **CL** 13th; **Weight** 2 lbs.  ",
 			"**Aura** strong transmutation",
 			"",
-			"Unlike most [figurines of wondrous power](unknown/figurines_of_wondrous_power), this amber statuette depicts three creatures rather than one a dire tiger, a mastodon, and a megaloceros locked in an eternal battle. This powerful totem was created by orc shamans for the warlord Belkzen to aid in his conquest of the dwarven stronghold of Koldukar. To this day, many orcs are fascinated with the strength and ferocity of the megafauna that roam the edges of the Hold of Belkzen. While orcs might seek the massive creatures as prey or train them as powerful allies in battle, the totemic figurine magically harnesses the power of these megafauna.",
+			"Unlike most [figurines of wondrous power](magic/wondrous/figurine_of_wondrous_power), this amber statuette depicts three creatures rather than one a dire tiger, a mastodon, and a megaloceros locked in an eternal battle. This powerful totem was created by orc shamans for the warlord Belkzen to aid in his conquest of the dwarven stronghold of Koldukar. To this day, many orcs are fascinated with the strength and ferocity of the megafauna that roam the edges of the Hold of Belkzen. While orcs might seek the massive creatures as prey or train them as powerful allies in battle, the totemic figurine magically harnesses the power of these megafauna.",
 			"",
-			"The totemic figurine follows all the normal rules for figurines of wondrous power. When animated, the totemic figurine turns into a [megaloceros](unknown/megaloceros) that understands Common and is under the command of the figurine's bearer. The totemic figurine can be used up to 3 times per week for up to 1 hour with each use. Should the creature be slain while it is animated, it reverts to the form of a statuette and cannot be activated for 1 week.",
+			"The totemic figurine follows all the normal rules for figurines of wondrous power. When animated, the totemic figurine turns into a [megaloceros](monster/megaloceros) that understands Common and is under the command of the figurine's bearer. The totemic figurine can be used up to 3 times per week for up to 1 hour with each use. Should the creature be slain while it is animated, it reverts to the form of a statuette and cannot be activated for 1 week.",
 			"",
 			"7th Level: The bearer gains the [wild empathy](unknown/wild_empathy) class feature as a druid of her character level, but the ability is effective only with dinosaurs, dire tigers, mastodons, and other megafauna.",
 			"",
-			"11th Level: The totemic figurine can instead take the form of a [dire tiger](unknown/dire_tiger).",
+			"11th Level: The totemic figurine can instead take the form of a [dire tiger](monster/dire_tiger).",
 			"",
-			"15th Level: The totemic figurine can instead take the form of a [mastodon](unknown/mastodon).",
+			"15th Level: The totemic figurine can instead take the form of a [mastodon](monster/mastodon).",
 			"",
 			"**Goal:** The bearer must successfully rear a dinosaur, dire tiger, mastodon, or other megafauna from infancy using the Handle Animal skill.  ",
 			"**Reward:** Dinosaurs, dire tigers, mastodons, and other megafauna will not willingly attack the bearer unless they are magically compelled to do so or the bearer attacks them first. In addition, the bearer can spend one use to cause the totemic figurine to take the form of two different creatures at once."
@@ -55268,9 +55268,9 @@
 			"",
 			"8th Level: The wearer gains [woodland stride](unknown/woodland_stride), as the druid class ability.",
 			"",
-			"12th Level: The wearer is constantly under the effect of [endure elements](unknown/endure_elements) and is automatically considered [acclimated to high altitudes](unknown/acclimated_to_high_altitudes). Should the [endure elements](unknown/endure_elements) effect be dispelled, he can resume it as a free action.",
+			"12th Level: The wearer is constantly under the effect of [endure elements](spell/endure_elements) and is automatically considered [acclimated to high altitudes](unknown/acclimated_to_high_altitudes). Should the [endure elements](spell/endure_elements) effect be dispelled, he can resume it as a free action.",
 			"",
-			"16th Level: Once per day, the wearer can use [find the path](unknown/find_the_path) as a spell-like ability.",
+			"16th Level: Once per day, the wearer can use [find the path](spell/find_the_path) as a spell-like ability.",
 			"",
 			"**Goal:** The wearer must travel 1,000 miles by foot.  ",
 			"**Reward:** Each morning the wearer can designate one type of terrain from the [ranger's list of favored terrain](unknown/ranger_favored_terrain) as his favored terrain for the day. While in that terrain, he gains a  bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival checks. If he already has the favored terrain class feature for the chosen type of terrain, he instead increases his favored terrain bonuses for that terrain by 2."
@@ -55293,17 +55293,17 @@
 			"",
 			"Aspiring Pathfinder Society field agents are often entertained by dramatic stories featuring Ling Yayao, a near-mythic Pathfinder renowned for her ability to perform daring rescues. Though several early Pathfinder Chronicles make mention of the Tian heroine galloping to the aid of imperiled Pathfinders on her horse, Fallow Grain, some jaded agents thought Ling Yayao entirely legendary until the discovery of her intact wayfinder of cooperation in the vaults below the Grand Lodge.",
 			"",
-			"In addition to its ability to cast [light](unknown/light), as a typical [wayfinder](unknown/wayfinder), the wayfinder of cooperation can be attuned to an [ioun stone](unknown/ioun_stone) as a standard action by touching the stone to the wayfinder's sturdy rosewood casing. Once the wayfinder of cooperation is attuned, the bearer of the wayfinder of cooperation can concentrate as a standard action to sense the direction of and distance to the attuned ioun stone. This bond functions across any distance, a long as the bearer and the stone are on the same plane. The wayfinder can be attuned to only one ioun stone at a time, and the bearer can dismiss the attunement at any time as a free action.",
+			"In addition to its ability to cast [light](unknown/light), as a typical [wayfinder](magic/wondrous/wayfinder), the wayfinder of cooperation can be attuned to an [ioun stone](unknown/ioun_stone) as a standard action by touching the stone to the wayfinder's sturdy rosewood casing. Once the wayfinder of cooperation is attuned, the bearer of the wayfinder of cooperation can concentrate as a standard action to sense the direction of and distance to the attuned ioun stone. This bond functions across any distance, a long as the bearer and the stone are on the same plane. The wayfinder can be attuned to only one ioun stone at a time, and the bearer can dismiss the attunement at any time as a free action.",
 			"",
 			"6th Level: The bearer increases the bonus she grants from the aid another action by 1. This does not stack with the benefits of other feats or class features that improve the bonus she grants to an ally with aid another.",
 			"",
 			"8th Level: Once per day as a standard action, the bearer can use [inspire competence](unknown/inspire_competence) as if she were a bard with a level equal to her character level. The bonuses granted by this ability last until the ally completes the task he is attempting.",
 			"",
-			"11th Level: The bearer is constantly aware of the position and condition (as [status](unknown/status)) of anyone who has activated an ioun stone attuned to the wayfinder of cooperation.",
+			"11th Level: The bearer is constantly aware of the position and condition (as [status](spell/status)) of anyone who has activated an ioun stone attuned to the wayfinder of cooperation.",
 			"",
-			"The bearer can use [shadow walk](unknown/shadow_walk) once per day as a spell-like ability.",
+			"The bearer can use [shadow walk](spell/shadow_walk) once per day as a spell-like ability.",
 			"",
-			"16th Level: Once per day, the bearer of an ioun stone attuned to the wayfinder of cooperation can summon the wayfinder's bearer to her side as if she were activating an appropriately keyed charm from a [bracelet of friends](unknown/bracelet_of_friends).",
+			"16th Level: Once per day, the bearer of an ioun stone attuned to the wayfinder of cooperation can summon the wayfinder's bearer to her side as if she were activating an appropriately keyed charm from a [bracelet of friends](magic/wondrous/bracelet_of_friends).",
 			"",
 			"**Goal:** The bearer must successfully use the aid another action to increase an attack roll, a skill check, or a saving throw of at least 10 allies. To count toward this goal, the bearer's assistance must have made the difference between success and failure on the roll.  ",
 			"**Reward:** The wayfinder of cooperation can be simultaneously attuned to a number of additional ioun stones equal to half the bearer's character level, rather than a single ioun stone."

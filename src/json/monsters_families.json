@@ -202,7 +202,7 @@
 			"",
 			"Below the ranks of true archdevils are Hell's infernal dukes. These infernal nobles have the potential for power equal to some of the archdevils, but without a layer of Hell under their rule, they cannot truly be counted the equal of an archdevil. An infernal duke can rise in power by gaining class levels, advancing in Hit Dice, gaining mythic ranks, undertaking a vile ritual, amassing a sufficiently large and devoted following, or, rarely, at the leave of their blasphemous lords. However, until Asmodeus sees fit to award an infernal duke its own layer of Hell (to replace a fallen archdevil or one being punished via demotion to infernal duke), such a devil is not itself an archdevil. It should be noted that as scions of law, infernal dukes and archdevils remain loyal to Asmodeus and Hell, though they might resort to trickery and subterfuge to bolster their own resources and reputations. Those who are not loyal are quickly and inevitably revealed as traitors and punished accordingly by the Prince of Darkness. There can be any number of infernal dukes in Hell, but as Asmodeus himself rules the ninth layer of Hell, only eight archdevils can exist at any one time.",
 			"",
-			"An archdevil can be contacted via [commune](unknown/commune) or [contact other plane](spell/contact_other_plane), and can be conjured via a [gate](unknown/gate) spell, but when so called, an archdevil is under no compulsion to come through the gate. Typically, an archdevil requires an enormous and significant offering or sacrifice before it deigns to answer a gate spell."
+			"An archdevil can be contacted via [commune](spell/commune) or [contact other plane](spell/contact_other_plane), and can be conjured via a [gate](spell/gate) spell, but when so called, an archdevil is under no compulsion to come through the gate. Typically, an archdevil requires an enormous and significant offering or sacrifice before it deigns to answer a gate spell."
 		],
 		"display": "monsterfamily"
 	},
@@ -2321,7 +2321,7 @@
 			"",
 			"**Immunities (Ex):** Every dragon is immune to sleep and paralysis. In addition, a dragon is immune to one or two additional forms of attack no matter what its age, as given in its description.",
 			"",
-			"**Planar Infusion (Su):** a juvenile or older planar dragon can influence its surroundings as full-round action, causing an area with a radius of 30 feet &times; the dragon's age category number to be treated as an extension of its home plane. This imposes that plane's strong alignment traits and grants the plane's enhanced and impeded magic traits, affects whether a creature is treated as native or extraplanar for the purpose of spells like [dismissal](unknown/dismissal) and creates minor sensory effects evoking that plane. This effect is immobile and lasts for 10 days or until the dragon dies or uses this ability again.",
+			"**Planar Infusion (Su):** a juvenile or older planar dragon can influence its surroundings as full-round action, causing an area with a radius of 30 feet &times; the dragon's age category number to be treated as an extension of its home plane. This imposes that plane's strong alignment traits and grants the plane's enhanced and impeded magic traits, affects whether a creature is treated as native or extraplanar for the purpose of spells like [dismissal](spell/dismissal) and creates minor sensory effects evoking that plane. This effect is immobile and lasts for 10 days or until the dragon dies or uses this ability again.",
 			"",
 			"**Spell Resistance (Ex):** As dragons grow older, they become more resistant to spells and spell-like abilities, as indicated in the dragon descriptions. A dragon's SR is equal to 11 + its CR.",
 			"",
@@ -2917,7 +2917,7 @@
 			"",
 			"**Telekinetic Deflection (Su)** An aether elemental gains a deflection bonus to its AC equal to its Constitution modifier.",
 			"",
-			"**Telekinetic Maneuver (Su)** An aether elemental can attempt a ranged combat maneuver check, as per [telekinesis](unknown/telekinesis), with a CMB equal to its Hit Dice + its Dexterity modifier."
+			"**Telekinetic Maneuver (Su)** An aether elemental can attempt a ranged combat maneuver check, as per [telekinesis](spell/telekinesis), with a CMB equal to its Hit Dice + its Dexterity modifier."
 		],
 		"display": "monsterfamily"
 	},
@@ -3452,7 +3452,7 @@
 			"",
 			"**Source** [Bestiary 4](source/bestiary_4)",
 			"",
-			"The most fearsome drow aren't satisfied with the mere defeat and death of their foes, preferring to defile their enemies in horrific ways. The most gruesome form of transformation assaults their enemies' very essence through the complicated process of [fleshwarping](unknown/fleshwarping).",
+			"The most fearsome drow aren't satisfied with the mere defeat and death of their foes, preferring to defile their enemies in horrific ways. The most gruesome form of transformation assaults their enemies' very essence through the complicated process of [fleshwarping](rule/fleshwarping).",
 			"",
 			"Fleshwarping is the practice of altering a creature's physical form and mental state by way of a grisly mystical and alchemical process. It starts with submerging the subject in a vat filled with a magical and alchemical goo concocted of strange reagents, and infused with a multitude of living insects and other vermin. The goo dissolves and reshapes the flesh and bone of the subject while the vermin eat away at unwanted flesh, making way for the new, alchemically grown flesh to take hold. The process is torturous, and the subject is kept alive and conscious throughout it.",
 			"",
@@ -3464,7 +3464,7 @@
 			"",
 			"It's often said that the drow learned the gruesome art of fleshwarping as a reward for obscene pacts they made with some demon lord, but the identity of the demon lord who bestowed knowledge of the foul process changes with each telling of the tale.",
 			"",
-			"There are other cultures that also understand and use fleshwarping, but they tend to be either ancient or very secretive and xenophobic. [Sinspawn](unknown/sinspawn), [fleshdregs](unknown/fleshdregs), and the lamia-based [hungerer](unknown/hungerer) are just some examples of non-drow fleshwarps."
+			"There are other cultures that also understand and use fleshwarping, but they tend to be either ancient or very secretive and xenophobic. [Sinspawn](monster/sinspawn), [fleshdregs](unknown/fleshdregs), and the lamia-based [hungerer](monster/hungerer) are just some examples of non-drow fleshwarps."
 		],
 		"display": "monsterfamily"
 	},
@@ -3892,7 +3892,7 @@
 			"",
 			"Every Horseman was once a mortal whose soul transitioned into the form of a daemon at some point after death. This legacy stands at the center of their kind, gnawing at their pride and sanity moment by moment, as they understand that they began their lives as the very things they seek to exterminate. Equally incongruous is that the Horsemen each actively foster their own mortal cults, even granting spells to clerics pledged to their name. The Horsemen see their worshipers as useful idiots condemned to oblivion upon death, despite the aid such cultists provide in carrying out the Four's genocidal will.",
 			"",
-			"Any Horseman can be contacted through [commune](unknown/commune) and can be called by a [gate](unknown/gate) spell, though they are under no compulsion to come through the latter. Typically the Horsemen require an enormously valuable offering or a tremendous amount of bloodshed in their name before accepting such an invitation."
+			"Any Horseman can be contacted through [commune](spell/commune) and can be called by a [gate](spell/gate) spell, though they are under no compulsion to come through the latter. Typically the Horsemen require an enormously valuable offering or a tremendous amount of bloodshed in their name before accepting such an invitation."
 		],
 		"display": "monsterfamily"
 	},
@@ -4785,7 +4785,7 @@
 			"",
 			"The bulk of qlippoth lords range in strength from CR 21 to 25. More powerful creatures akin to the Horsemen or archdevils in stature may still exist in the deepest parts of the Abyss, but for now, these theoretical qlippoth demigods remain mysteries. Certainly, any active qlippoth lords are potent enough to threaten and endanger the bulk of mortal life when they choose to turn their attention to the Material Plane.",
 			"",
-			"Some qlippoth have chosen to abandon their roots and accept the demonic as the new order of the Abyss. Qlippoth lords who accept sin and allow themselves to be transformed often gain a significant boost in power that catapults them out of this lower tier directly into the ranks of demon lords, but only at the cost of forever losing any tenuous alliances they may have had with the first lords of the Abyss. These former qlippoth lords are seen as the worst kind of traitors by the qlippoth and their masters, but for these qlippoth, the trade-off is more than worth it, as the power they now wield as demon lords is formidable. Demon lords who began existence as qlippoth lords include primeval entities like [Dagon](unknown/dagon) and [Jubilex](unknown/jubilex), but are hardly limited to these alone.",
+			"Some qlippoth have chosen to abandon their roots and accept the demonic as the new order of the Abyss. Qlippoth lords who accept sin and allow themselves to be transformed often gain a significant boost in power that catapults them out of this lower tier directly into the ranks of demon lords, but only at the cost of forever losing any tenuous alliances they may have had with the first lords of the Abyss. These former qlippoth lords are seen as the worst kind of traitors by the qlippoth and their masters, but for these qlippoth, the trade-off is more than worth it, as the power they now wield as demon lords is formidable. Demon lords who began existence as qlippoth lords include primeval entities like [Dagon](faith/dagon) and [Jubilex](faith/jubilex), but are hardly limited to these alone.",
 			"",
 			"The four qlippoth lords presented on the following pages have interests in multiple Material Plane worlds. Others, such as the Polymorph Plague Yamasoth, the Warmonger Queen Shiggarreb, and the Enigma Clot Aonaurious, have focused their wrath on specific worlds or have yet to fully emerge from the deepest recesses of the Abyss to turn their attentions to the worlds beyond, and are not detailed in this book.",
 			"",
@@ -4996,7 +4996,7 @@
 			"",
 			"As sahkils viciously impede the multiverse's workings, these gluttons of fear are widely loathed. Nearly every celestial and lawful race opposes their selfish desires, hunting them as dangerous beasts and metaphysical brigands. Psychopomps most actively oppose sahkil interference with the progress of souls, yet rarely display racial malice against the traitors. Additionally, [manasaputras](unknown/manasaputras) violently resent sahkil schemes, as sahkil predation actively impedes the development of mortal souls. This often results in dutiful manasaputras or their agents defending vulnerable spirits or leading quests to liberate worthy souls before they're destroyed.",
 			"",
-			"The sahkil are not without allies, though. [Divs](unknown/divs), in their campaigns to spread misfortune and ruin among mortals, respect the motivations of sahkils and sometimes work with them to spread fear. Equally nihilistic, the end-seeking [daemons](unknown/daemons) delight in sahkil destruction of mortal souls and their hastening of the end times. [Kytons](unknown/kytons), too, have a distant admiration for the avant-garde masterpieces of insanity and terror that sahkils work upon mortal minds."
+			"The sahkil are not without allies, though. [Divs](unknown/divs), in their campaigns to spread misfortune and ruin among mortals, respect the motivations of sahkils and sometimes work with them to spread fear. Equally nihilistic, the end-seeking [daemons](monster/subtype/daemons) delight in sahkil destruction of mortal souls and their hastening of the end times. [Kytons](unknown/kytons), too, have a distant admiration for the avant-garde masterpieces of insanity and terror that sahkils work upon mortal minds."
 		],
 		"display": "monsterfamily"
 	},
@@ -5383,7 +5383,7 @@
 			"",
 			"Even in the harshest servitude, wysps retain their curious nature and intelligence. When free to act as they please, they are playful and carefree, with mild differences in personality between the elements. Aether wysps are shy and mysterious, air wisps are flighty and capricious, earth wysps are guarded and slow to trust, fire wysps are impetuous and full of bluster, and water wysps are gentle and nurturing.",
 			"",
-			"Wysps happily offer their services to kind allies, though generally only elementally attuned creatures, kineticists, and spellcasters who summon elementals can make much use of a wysp's assistance. A 7th-level spellcaster who has the [Improved Familiar](unknown/improved_familiar) feat can gain a wysp as a familiar.",
+			"Wysps happily offer their services to kind allies, though generally only elementally attuned creatures, kineticists, and spellcasters who summon elementals can make much use of a wysp's assistance. A 7th-level spellcaster who has the [Improved Familiar](feat/improved_familiar) feat can gain a wysp as a familiar.",
 			"",
 			"**All wysps have the following features.**",
 			"",
@@ -5395,7 +5395,7 @@
 			"",
 			"**Special Abilities**",
 			"",
-			"**Living Battery (Ex)** As an immediate action, a wysp can kill itself to cause a creature benefiting from its resonance to heal 2 hit points for each of that creature's HD. If the wysp uses this ability, its death can't be prevented, and its life can't be restored by any effect less than [true resurrection](spell/true_resurrection), [miracle](unknown/miracle), or [wish](unknown/wish), even if such an effect can normally revive an outsider.",
+			"**Living Battery (Ex)** As an immediate action, a wysp can kill itself to cause a creature benefiting from its resonance to heal 2 hit points for each of that creature's HD. If the wysp uses this ability, its death can't be prevented, and its life can't be restored by any effect less than [true resurrection](spell/true_resurrection), [miracle](spell/miracle), or [wish](spell/wish), even if such an effect can normally revive an outsider.",
 			"",
 			"**Resonance (Ex)** A wysp's natural resonance strengthens the power of its element. The wysp grants a +2 competence bonus on attack rolls and damage rolls to all creatures within 30 feet with an elemental subtype that matches the wysp's, and to the DCs of all racial spell-like, supernatural, and extraordinary abilities of such creatures (as usual, this does not include creatures assuming an elemental form). [Kineticists](class/kineticist) within 30 feet who share the wysp's element gain a +1 competence bonus on attack rolls and damage rolls. The wysp's statistics already include these bonuses.",
 			"",

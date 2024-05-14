@@ -5417,7 +5417,7 @@
 			"**Aura** moderate evocation; **CL** 8th  ",
 			"**Slot** none; **Price** +2 bonus; **Weight** -",
 			"",
-			"This special ability can be placed only on melee slashing weapons. When a culling weapon is used to make an attack using the [Cleave](unknown/cleave) or [Great Cleave](unknown/great_cleave) feat, it deals an additional 2d6 points of damage on both the initial attack and any additional attacks granted by Cleave or Great Cleave. The weapon also applies the bonus 2d6 points of damage to successful attacks granted by use of the [Cleaving Finish](unknown/cleaving_finish) and [Improved Cleaving Finish](unknown/improved_cleaving_finish) feats.",
+			"This special ability can be placed only on melee slashing weapons. When a culling weapon is used to make an attack using the [Cleave](feat/cleave) or [Great Cleave](feat/great_cleave) feat, it deals an additional 2d6 points of damage on both the initial attack and any additional attacks granted by Cleave or Great Cleave. The weapon also applies the bonus 2d6 points of damage to successful attacks granted by use of the [Cleaving Finish](feat/cleaving_finish) and [Improved Cleaving Finish](feat/improved_cleaving_finish) feats.",
 			"",
 			"### Construction",
 			"",

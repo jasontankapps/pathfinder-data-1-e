@@ -89,6 +89,7 @@
 			"**4th-Level Advancement:** Size Medium; Attack bite (1d6 plus grab), sting (1d4 plus poison); Ability Scores Str +4, Dex -2, Con +2; Special Attacks poison (frequency 1 round [4], effect 1 Str damage, cure 1 save, Con-based DC)."
 		]
 	},
+	"giant_ant": { "copyof": "ant,_giant" },
 	"antelope": {
 		"name": "Antelope",
 		"file": "druidcompanionsf593.html",
@@ -193,6 +194,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +1 natural armor; Attack bite (1d6 plus poison), 2 claws (1d4); Ability Scores Str +4, Dex -2, Con +2; Special Attacks poison (frequency 1 round [4]; effect 1d2 Dex; cure 2 saves; Con-based DC).."
 		]
 	},
+	"giant_assassin_bug": { "copyof": "assassin_bug,_giant" },
 	"aurochs": {
 		"name": "Aurochs",
 		"file": "druidcompanionsab4a.html",
@@ -277,7 +279,7 @@
 			"**4th-Level Advancement:** Ability Scores Str +2, Con +2; Special Attacks Aura: dazzling (10 ft.); Bonus Feat(s) Nimble Moves."
 		]
 	},
-	"badger_wolverine": {
+	"badger": {
 		"name": "Badger (Wolverine)",
 		"searchable_name": "Badger",
 		"file": "druidcompanionscbd7.html",
@@ -299,6 +301,7 @@
 			"**4th-Level Advancement:** Size Medium; Attack bite (1d6), 2 claws (1d4); Ability Scores Str +4, Dex -2, Con +2."
 		]
 	},
+	"wolverine": { "copyof": "badger" },
 	"bear": {
 		"name": "Bear",
 		"file": "druidcompanions5285.html",
@@ -340,7 +343,8 @@
 			"**4th-Level Advancement:** Size Medium; Attack bite (1d8); Ability Scores Str +4, Dex -2, Con +2; Special Attacks trample (1d4)."
 		]
 	},
-	"bird_eagle_hawk_owl": {
+	"giant_beetle": { "copyof": "beetle,_giant" },
+	"bird": {
 		"name": "Bird (Eagle/Hawk/Owl)",
 		"searchable_name": "Bird",
 		"file": "druidcompanions0451.html",
@@ -362,6 +366,9 @@
 			"**4th-Level Advancement:** Ability Scores Str +2, Con +2."
 		]
 	},
+	"eagle": { "copyof": "bird" },
+	"hawk": { "copyof": "bird" },
+	"owl": { "copyof": "bird" },
 	"blackwisp_egret": {
 		"name": "Blackwisp Egret",
 		"file": "druidcompanions10f6.html",
@@ -566,7 +573,7 @@
 			"**4th-Level Advancement:** Ability Scores Str +2, Con +2."
 		]
 	},
-	"cat,_big_lion,_tiger": {
+	"cat,_big": {
 		"name": "Cat, Big (Lion, Tiger)",
 		"searchable_name": "Big Cat",
 		"file": "druidcompanions3165.html",
@@ -588,6 +595,8 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8), 2 claws (1d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks grab, pounce, rake (1d6)."
 		]
 	},
+	"lion": { "copyof": "cat,_big" },
+	"tiger": { "copyof": "cat,_big" },
 	"cat,_small_cheetah,_leopard": {
 		"name": "Cat, Small (Cheetah, Leopard)",
 		"searchable_name": "Small Cat",
@@ -610,6 +619,8 @@
 			"**4th-Level Advancement:** Size Medium; Attack bite (1d6 plus trip), 2 claws (1d3); Ability Scores Str +4, Dex -2, Con +2; Special Qualities sprint."
 		]
 	},
+	"cheetah": { "copyof": "cat,_small" },
+	"leopard": { "copyof": "cat,_small" },
 	"caterpillar,_giant": {
 		"name": "Caterpillar, Giant",
 		"searchable_name": "Giant Caterpillar",
@@ -630,6 +641,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +1 natural armor; Attack bite (1d8), bristles (secondary natural attack, 1d6 piercing plus poison); Ability Scores Str +4, Dex -2, Con +2"
 		]
 	},
+	"giant_caterpillar": { "copyof": "caterpillar,_giant" },
 	"cattle": {
 		"name": "Cattle",
 		"file": "druidcompanions41c2.html",
@@ -694,6 +706,7 @@
 			"**4th-Level Advancement:** Size Medium; Attack bite (1d6 plus poison); Ability Scores Str +4, Dex -2, Con +2."
 		]
 	},
+	"giant_centipede": { "copyof": "centipede,_giant" },
 	"ceratosaurus": {
 		"name": "Ceratosaurus",
 		"file": "druidcompanionscacf.html",
@@ -773,6 +786,7 @@
 			"**4th-Level Advancement:** Speed 30 ft. climb 30 ft., fly 30 ft. (poor); AC +2 natural armor; Ability Scores Str +2, Dex +2, Con +2; Bonus Feat(s) Diehard."
 		]
 	},
+	"giant_cockroach": { "copyof": "cockroach,_giant" },
 	"corpse-eater_fungus": {
 		"name": "Corpse-Eater Fungus",
 		"searchable_name": "Corpse Eater Fungus",
@@ -815,6 +829,7 @@
 			"**4th-Level Advancement:** Size Medium; Attack 2 claws (1d4 plus grab); Ability Scores Str +2, Dex -2, Con +2; Special Attacks constrict (1d4)."
 		]
 	},
+	"giant_crab": { "copyof": "crab,_giant" },
 	"creeping_puffball": {
 		"name": "Creeping Puffball",
 		"file": "druidcompanions80ad.html",
@@ -834,7 +849,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +1 natural armor; Attack slam (1d6 plus poison); Ability Scores Str +4, Dex -2, Con +2."
 		]
 	},
-	"crocodile_alligator": {
+	"crocodile": {
 		"name": "Crocodile (Alligator)",
 		"searchable_name": "Crocodile",
 		"file": "druidcompanionsa3e2.html",
@@ -856,6 +871,7 @@
 			"**4th-Level Advancement:** Size Medium; Attack bite (1d8) or tail slap (1d12); Ability Scores Str +4, Dex -2, Con +2; Special Attacks death roll, grab, sprint."
 		]
 	},
+	"alligator": { "copyof": "crocodile" },
 	"dallo": {
 		"name": "Dallo",
 		"file": "druidcompanions2311.html",
@@ -1464,6 +1480,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +3 natural armor; Attack bite (2d6); Ability Scores Str +4, Dex -2, Con +4;; Bonus Feat(s) Flyby Attack."
 		]
 	},
+	"giant_dragonfly": { "copyof": "dragonfly,_giant" },
 	"dunkleosteus": {
 		"name": "Dunkleosteus",
 		"file": "druidcompanionsb290.html",
@@ -1547,6 +1564,8 @@
 			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack gore (2d6), slam (1d8); Ability Scores Str +8, Dex -2, Con +4; Special Attacks trample (2d6)."
 		]
 	},
+	"elephant": { "copyof": "elephant_mastodon" },
+	"mastodon": { "copyof": "elephant_mastodon" },
 	"elk": {
 		"name": "Elk",
 		"file": "druidcompanionse519.html",
@@ -1689,6 +1708,7 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8), tail (1d6); Ability Scores Str +8, Dex -2, Con +4."
 		]
 	},
+	"giant_frilled_lizard": { "copyof": "frilled_lizard,_giant" },
 	"frog_father": {
 		"name": "Frog Father",
 		"file": "druidcompanions3ccc.html",
@@ -1771,27 +1791,6 @@
 			"**Starting Statistics:** Size Medium; Speed swim 60 ft.; AC +1 natural armor; Attack bite (1d6); Ability Scores Str 14, Dex 14, Con 15, Int 1, Wis 13, Cha 2; Special Attacks grab; Special Qualities low-light vision",
 			"",
 			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack bite (1d8); Ability Scores Str +8, Dex -2, Con +4."
-		]
-	},
-	"giant_raven": {
-		"name": "Giant Raven",
-		"file": "druidcompanions0c14.html",
-		"sources": [ "Bestiary 6" ],
-		"companion_type": "animal",
-		"short_description": "This glossy, jet-black bird stands as tall as a dwarf. Its eerily intelligent black eyes are quick to take in everything around it.",
-		"description": [
-			"### Giant Raven",
-			"",
-			"**Source** [Bestiary 6 pg. 312](source/bestiary_6)  ",
-			"**Companion Type** Animal",
-			"",
-			"[Monster Entry](monster/giant_raven)",
-			"",
-			"This glossy, jet-black bird stands as tall as a dwarf. Its eerily intelligent black eyes are quick to take in everything around it.",
-			"",
-			"**Starting Statistics:** Size Small; Speed 20 ft., fly 50 ft.; Attack bite (1d4); Ability Scores Str 8, Dex 13, Con 10, Int 2, Wis 15, Cha 7; Special Qualities low-light vision, scavenger",
-			"",
-			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack bite (1d6); Ability Scores Str +4, Dex +2, Con +2."
 		]
 	},
 	"giganotosaurus": {
@@ -2246,6 +2245,7 @@
 			"**7th-Level Advancement:** Size Medium; Attack bite (1d6 plus attach); Ability Scores Str +2, Dex -2, Con +2; Special Attacks blood drain (1 Str and 1 Con damage); Special Qualities blindsight 30 ft.."
 		]
 	},
+	"giant_leech": { "copyof": "leech,_giant" },
 	"lizard_giant_chameleon": {
 		"name": "Lizard (Giant Chameleon)",
 		"searchable_name": "Lizard Giant Chameleon",
@@ -2268,6 +2268,8 @@
 			"**4th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8); Ability Scores Str +4, Dex -2, Con +2; Special Attacks pull (tongue, 5 ft.), tongue; Special Qualities speed increase (40 ft., climb 40 ft.)."
 		]
 	},
+	"giant_chameleon": { "copyof": "lizard_giant_chameleon" },
+	"giant_gecko": { "copyof": "lizard_giant_gecko" },
 	"lizard_giant_gecko": {
 		"name": "Lizard (Giant Gecko)",
 		"searchable_name": "Lizard Giant Gecko",
@@ -2312,6 +2314,7 @@
 			"**7th-Level Advancement:** Size Medium; AC +2 natural armor; Attack bite (1d8 plus grab and poison); Ability Scores Str +4, Dex -2, Con +4."
 		]
 	},
+	"monitor_lizard": { "copyof": "lizard_monitor_lizard" },
 	"llama": {
 		"name": "Llama",
 		"file": "druidcompanionsf9de.html",
@@ -2355,6 +2358,7 @@
 			"**4th-Level Advancement:** Size Medium; Speed 20 ft., climb 20 ft., fly 60 ft. (average); AC +2 natural armor; Attack bite (1d8); Ability Scores Str +4, Dex -2, Con +2; Special Attacks voracious (bite attack deals double damage to creatures with the plant subtype and to objects made of paper, wood, or other plant materials).."
 		]
 	},
+	"giant_locust": { "copyof": "locust,_giant" },
 	"manta_ray": {
 		"name": "Manta Ray",
 		"file": "druidcompanionsa02c.html",
@@ -2398,6 +2402,7 @@
 			"**7th-Level Advancement:** Size Medium; AC +2 natural armor; Attack 2 pincers (1d8); Ability Scores Str +6, Dex -2, Con +2; Special Attacks speedy pincers (can make iterative attacks with one of its pincer attacks); Special Qualities blindsight 10 ft., sonic resistance 10."
 		]
 	},
+	"giant_mantis_shrimp": { "copyof": "mantis_shrimp,_giant" },
 	"mantis,_giant": {
 		"name": "Mantis, Giant",
 		"searchable_name": "Giant Mantis",
@@ -2420,6 +2425,7 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack 2 claws (1d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks mandibles (1d6 secondary attack against a grabbed target), sudden strike (may take a full attack in the surprise round)."
 		]
 	},
+	"giant_mantis": { "copyof": "mantis,_giant" },
 	"marax": {
 		"name": "Marax",
 		"file": "druidcompanionsa33c.html",
@@ -2809,6 +2815,7 @@
 			"**4th-Level Advancement:** Size Medium; Speed burrow 20 ft.; AC +2 natural armor; Attack 2 claws (1d6); Ability Scores Str +2, Dex -2, Con +4; Special Attacks rend (2 claws, 1d6)."
 		]
 	},
+	"giant_mole": { "copyof": "mole,_giant" },
 	"mome_rath": {
 		"name": "Mome Rath",
 		"file": "druidcompanions7d7c.html",
@@ -2894,6 +2901,7 @@
 			"**7th-Level Advancement:** Size Medium; AC +1 natural armor; Attack bite (1d8 plus bleed and grab); Ability Scores Str +4, Dex -2, Con +2; Special Attacks bleed (2d4), blood drain (1d2 Constitution)."
 		]
 	},
+	"giant_mosquito": { "copyof": "mosquito,_giant" },
 	"narwhale": {
 		"name": "Narwhale",
 		"file": "druidcompanions552f.html",
@@ -3017,6 +3025,7 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack 2 talons (1d6); Ability Scores Str +8, Dex -2, Con +4; Racial Skill Modifiers +4 Stealth; Special Attacks rend (2 talons, 1d6)."
 		]
 	},
+	"giant_owl": { "copyof": "owl,_giant" },
 	"panda": {
 		"name": "Panda",
 		"file": "druidcompanions4088.html",
@@ -3142,6 +3151,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack tail slap (1d6); Ability Scores Str +2, Dex -2, Con +4; Special Attacks quills (as giant porcupine quills; Pathfinder RPG Bestiary 222)."
 		]
 	},
+	"giant_porcupine": { "copyof": "porcupine,_giant" },
 	"prionosuchus": {
 		"name": "Prionosuchus",
 		"file": "druidcompanions2780.html",
@@ -3287,13 +3297,16 @@
 		"name": "Raven, Giant",
 		"searchable_name": "Giant Raven",
 		"file": "druidcompanions37cf.html",
-		"sources": [ "Pathfinder #97: In Hell's Bright Shadow" ],
+		"sources": [
+			"Pathfinder #97: In Hell's Bright Shadow",
+			"Bestiary 6"
+		],
 		"companion_type": "animal",
 		"short_description": "This glossy, jet-black bird stands as tall as a dwarf. Its eerily intelligent black eyes are quick to take in everything around it.",
 		"description": [
 			"### Raven, Giant",
 			"",
-			"**Source** [Pathfinder #97: In Hell's Bright Shadow pg. 82](source/pathfinder_#97_in_hell's_bright_shadow)  ",
+			"**Source** [Pathfinder #97: In Hell's Bright Shadow pg. 82](source/pathfinder_#97_in_hell's_bright_shadow), [Bestiary 6 pg. 312](source/bestiary_6)  ",
 			"**Companion Type** Animal",
 			"",
 			"[Monster Entry](monster/giant_raven)",
@@ -3305,6 +3318,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +2 natural armor; Attack bite (1d6); Ability Scores Str +4, Dex +2, Con +2."
 		]
 	},
+	"giant_raven": { "copyof": "raven,_giant" },
 	"reef_snake": {
 		"name": "Reef Snake",
 		"file": "druidcompanions9a63.html",
@@ -3488,6 +3502,7 @@
 			"**4th-Level Advancement:** AC +2 natural armor; Ability Scores Str +2, Dex -2, Con +4; Racial Skill Modifiers +4 Stealth."
 		]
 	},
+	"giant_salamander": { "copyof": "salamander,_giant" },
 	"scorpion,_giant": {
 		"name": "Scorpion, Giant",
 		"searchable_name": "Giant Scorpion",
@@ -3510,6 +3525,7 @@
 			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack 2 claws (1d6 plus grab) and sting (1d6 plus poison); Ability Scores Str +8, Dex -2, Con +4; Special Attacks poison (frequency 1 round [6], effect 1d2 Str damage, cure 1 save, Con-based DC); Special Qualities tremorsense 60 ft.."
 		]
 	},
+	"giant_scorpion": { "copyof": "scorpion,_giant" },
 	"sea_crawler": {
 		"name": "Sea Crawler",
 		"file": "druidcompanions7071.html",
@@ -3553,6 +3569,7 @@
 			"**4th-Level Advancement:** Attack bite (1d6); Ability Scores Str +2, Con +2; Special Attacks anchor."
 		]
 	},
+	"giant_seahorse": { "copyof": "seahorse,_giant" },
 	"shark": {
 		"name": "Shark",
 		"file": "druidcompanionsfeed.html",
@@ -3638,6 +3655,7 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8), 2 claws (1d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks spray (usable 2/day); Special Qualities musk (Fort save or nauseated for 1d3 rounds)."
 		]
 	},
+	"giant_skunk": { "copyof": "skunk,_giant" },
 	"slithering_sundew": {
 		"name": "Slithering Sundew",
 		"file": "druidcompanionscb21.html",
@@ -3679,6 +3697,7 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack tongue (1d6 plus 1d2 acid); Ability Scores Str +2, Dex -2, Con +2; Special Attacks spit acid (ranged touch attack, 30-foot range, 1d8 acid damage); Special Qualities blindsight 30 ft.."
 		]
 	},
+	"giant_slug": { "copyof": "slug,_giant" },
 	"snake,_constrictor": {
 		"name": "Snake, Constrictor",
 		"searchable_name": "Constrictor Snake",
@@ -3701,6 +3720,7 @@
 			"**4th-Level Advancement:** Size Large; AC +1 natural armor; Attack bite (1d4); Ability Scores Str +8, Dex -2, Con +4; Special Attacks constrict 1d4."
 		]
 	},
+	"constrictor_snake": { "copyof": "snake,_constrictor" },
 	"snake,_viper": {
 		"name": "Snake, Viper",
 		"searchable_name": "Viper",
@@ -3723,6 +3743,7 @@
 			"**4th-Level Advancement:** Size Medium; Attack bite (1d4 plus poison); Ability Scores Str +4, Dex -2, Con +2."
 		]
 	},
+	"viper": { "copyof": "snake,_viper" },
 	"snapping_flytrap": {
 		"name": "Snapping Flytrap",
 		"file": "druidcompanions8ff8.html",
@@ -3783,6 +3804,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +3 natural armor; Attack bite (1d8), 2 claws (1d4); Ability Scores Str +4, Dex -2, Con +2; Special Attacks pounce, rend (2 claws; 1d4)."
 		]
 	},
+	"giant_solifugid": { "copyof": "solifugid,_giant" },
 	"sorico": {
 		"name": "Sorico",
 		"file": "druidcompanionsaffc.html",
@@ -3826,6 +3848,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +1 natural armor; Attack bite (1d6 plus poison); Ability Scores Str +4, Dex -2, Con +2."
 		]
 	},
+	"giant_spider": { "copyof": "spider,_giant" },
 	"spider,_web_tyrant": {
 		"name": "Spider, Web Tyrant",
 		"searchable_name": "Web Tyrant Spider",
@@ -3908,6 +3931,7 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8), tentacles (1d6 plus grab); Ability Scores Str +8, Dex -2, Con +4; Special Attacks constrict (1d6); Special Qualities ink cloud (20-ft. radius; Bestiary 259)."
 		]
 	},
+	"giant_squid": { "copyof": "squid,_giant" },
 	"stag": {
 		"name": "Stag",
 		"file": "druidcompanions0df8.html",
@@ -3972,6 +3996,7 @@
 			"**4th-Level Advancement:** Ability Scores Str +2, Con +2."
 		]
 	},
+	"trumpeter_swan": { "copyof": "swan,_trumpeter" },
 	"switchback_jackal": {
 		"name": "Switchback Jackal",
 		"file": "druidcompanions200c.html",
@@ -4015,6 +4040,7 @@
 			"**4th-Level Advancement:** Size Medium; AC +3 natural armor; Attack bite (1d8 plus 1d6 acid); Ability Scores Str +4, Dex -2, Con +2; Special Attacks gnaw (bite attack ignores hardness of 5 or less)."
 		]
 	},
+	"giant_termite": { "copyof": "termite,_giant" },
 	"therizinosaurus": {
 		"name": "Therizinosaurus",
 		"file": "druidcompanions507e.html",
@@ -4096,6 +4122,7 @@
 			"**7th-Level Advancement:** Size Large; AC +8 natural armor; Attack bite (1d6); Ability Scores Str +4, Dex -2, Con +2; Special Qualities Great Fortitude (Bonus Feat)."
 		]
 	},
+	"giant_tortoise": { "copyof": "tortoise,_giant" },
 	"troodon": {
 		"name": "Troodon",
 		"file": "druidcompanionsd950.html",
@@ -4178,6 +4205,7 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (2d6); Ability Scores Str +8, Dex -2, Con +4."
 		]
 	},
+	"giant_vulture": { "copyof": "vulture,_giant" },
 	"walrus": {
 		"name": "Walrus",
 		"file": "druidcompanions9889.html",
@@ -4240,6 +4268,7 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack sting (1d8 plus poison); Ability Scores Str +8, Dex -2, Con +4."
 		]
 	},
+	"giant_wasp": { "copyof": "wasp,_giant" },
 	"weasel,_giant": {
 		"name": "Weasel, Giant",
 		"searchable_name": "Giant Weasel",
@@ -4262,6 +4291,7 @@
 			"**4th-Level Advancement:** Size Medium; Attack bite (1d6); Ability Scores Str +4, Dex -2, Con +2."
 		]
 	},
+	"giant_weasel": { "copyof": "weasel,_giant" },
 	"whiptail_centipede,_giant": {
 		"name": "Whiptail Centipede, Giant",
 		"searchable_name": "Giant Whiptail Centipede",
@@ -4284,6 +4314,7 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8 plus poison), tail slap (1d2 nonlethal plus trip, no Strength bonus on damage); Ability Scores Str +8, Dex -2, Con +4."
 		]
 	},
+	"giant_whiptail_centipede": { "copyof": "whiptail_centipede,_giant" },
 	"whisperfall_vulture": {
 		"name": "Whisperfall Vulture",
 		"file": "druidcompanions460f.html",

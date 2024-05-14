@@ -799,10 +799,7 @@
 		"short_description": "This enormous monstrosity looks like a pile of fresh humanoid bodies shoved into a shambling humanoid shape.",
 		"display": "monster"
 	},
-	"flesh_colossus_mythic": {
-		"copyof": "colossus,_flesh_colossus_mythic",
-		"display": "monster"
-	},
+	"flesh_colossus_mythic": { "copyof": "colossus,_flesh_colossus_mythic" },
 	"colossus,_iron_colossus_mythic": {
 		"name": "Colossus, Iron Colossus",
 		"file": "mythicmonsterdisplay2573.html",
@@ -902,10 +899,7 @@
 		"short_description": "A siege engineer's nightmare, this giant machine emits noxious fumes from its grinding engine.",
 		"display": "monster"
 	},
-	"iron_colossus_mythic": {
-		"copyof": "colossus,_iron_colossus_mythic",
-		"display": "monster"
-	},
+	"iron_colossus_mythic": { "copyof": "colossus,_iron_colossus_mythic" },
 	"colossus,_sphinx_colossus_mythic": {
 		"name": "Colossus, Sphinx Colossus",
 		"file": "mythicmonsterdisplayf2fd.html",
@@ -1002,10 +996,7 @@
 		"short_description": "This stone edifice resembles a lion with a regal human face, garbed in royal clothing.",
 		"display": "monster"
 	},
-	"sphinx_colossus_mythic": {
-		"copyof": "colossus,_sphinx_colossus_mythic",
-		"display": "monster"
-	},
+	"sphinx_colossus_mythic": { "copyof": "colossus,_sphinx_colossus_mythic" },
 	"colossus,_stone_colossus_mythic": {
 		"name": "Colossus, Stone Colossus",
 		"file": "mythicmonsterdisplay9772.html",
@@ -1103,10 +1094,7 @@
 		"short_description": "This immense stone figure appears to be a keep that uprooted itself and went for a walk.",
 		"display": "monster"
 	},
-	"stone_colossus_mythic": {
-		"copyof": "colossus,_stone_colossus_mythic",
-		"display": "monster"
-	},
+	"stone_colossus_mythic": { "copyof": "colossus,_stone_colossus_mythic" },
 	"colossus,_wood_colossus_mythic": {
 		"name": "Colossus, Wood Colossus",
 		"file": "mythicmonsterdisplaybfdc.html",
@@ -1195,10 +1183,7 @@
 		"short_description": "This gigantic construct looks like a walking mansion, its body and limbs composed of various rooms.",
 		"display": "monster"
 	},
-	"wood_colossus_mythic": {
-		"copyof": "colossus,_wood_colossus_mythic",
-		"display": "monster"
-	},
+	"wood_colossus_mythic": { "copyof": "colossus,_wood_colossus_mythic" },
 	"cyclops,_great_cyclops_mythic": {
 		"name": "Cyclops, Great Cyclops",
 		"file": "mythicmonsterdisplay0cdb.html",
@@ -1281,10 +1266,7 @@
 		"short_description": "This enormous one-eyed humanoid has a horn protruding from its forehead and fists the size of tree trunks.",
 		"display": "monster"
 	},
-	"great_cyclops_mythic": {
-		"copyof": "cyclops,_great_cyclops_mythic",
-		"display": "monster"
-	},
+	"great_cyclops_mythic": { "copyof": "cyclops,_great_cyclops_mythic" },
 	"demon,_marilith_mythic": {
 		"name": "Demon, Marilith",
 		"file": "mythicmonsterdisplay2dc8.html",
@@ -1372,10 +1354,7 @@
 		"short_description": "This snake-bodied fiend has a six-armed woman's torso, pointed ears, and glittering, otherworldly eyes.",
 		"display": "monster"
 	},
-	"marilith_mythic": {
-		"copyof": "demon,_marilith_mythic",
-		"display": "monster"
-	},
+	"marilith_mythic": { "copyof": "demon,_marilith_mythic" },
 	"demon,_nalfeshnee_mythic": {
 		"name": "Demon, Nalfeshnee",
 		"file": "mythicmonsterdisplayc64c.html",
@@ -1462,10 +1441,7 @@
 		"short_description": "A towering, corpulent beast, this fiend has the hideous head of a boar and arms ending in fatty, four-fingered hands.",
 		"display": "monster"
 	},
-	"nalfeshnee_mythic": {
-		"copyof": "demon,_nalfeshnee_mythic",
-		"display": "monster"
-	},
+	"nalfeshnee_mythic": { "copyof": "demon,_nalfeshnee_mythic" },
 	"demon,_vrock_mythic": {
 		"name": "Demon, Vrock",
 		"file": "mythicmonsterdisplay14b5.html",
@@ -1549,10 +1525,7 @@
 		"short_description": "A cloud of spores and a trail of feathers surrounds this twisted cross between a man and a gigantic vulture.",
 		"display": "monster"
 	},
-	"vrock_mythic": {
-		"copyof": "demon,_vrock_mythic",
-		"display": "monster"
-	},
+	"vrock_mythic": { "copyof": "demon,_vrock_mythic" },
 	"devastator_mythic": {
 		"name": "Devastator",
 		"file": "mythicmonsterdisplayf864.html",
@@ -1722,10 +1695,7 @@
 		"short_description": "Merging the most horrifying features of carrion-fed insect and withered cadaver, this bony devil moves in unsettling lurches.",
 		"display": "monster"
 	},
-	"bone_devil_mythic": {
-		"copyof": "devil,_bone_devil_mythic",
-		"display": "monster"
-	},
+	"bone_devil_mythic": { "copyof": "devil,_bone_devil_mythic" },
 	"devil,_ice_devil_mythic": {
 		"name": "Devil, Ice Devil",
 		"file": "mythicmonsterdisplaye996.html",
@@ -1815,10 +1785,7 @@
 		"short_description": "A pair of frozen, multifaceted eyes coldly judge all before this towering, insectile monstrosity.",
 		"display": "monster"
 	},
-	"ice_devil_mythic": {
-		"copyof": "devil,_ice_devil_mythic",
-		"display": "monster"
-	},
+	"ice_devil_mythic": { "copyof": "devil,_ice_devil_mythic" },
 	"dragon_black,_mature_adult_black_dragon_mythic": {
 		"name": "Dragon (Black), Mature Adult Black Dragon",
 		"file": "mythicmonsterdisplayf3d8.html",
@@ -1898,10 +1865,7 @@
 		"short_description": "This sinuous and stinking dragon is covered in black scales, with massive horns curling up from its head.",
 		"display": "monster"
 	},
-	"mature_adult_black_dragon_mythic": {
-		"copyof": "dragon_black,_mature_adult_black_dragon_mythic",
-		"display": "monster"
-	},
+	"mature_adult_black_dragon_mythic": { "copyof": "dragon_black,_mature_adult_black_dragon_mythic" },
 	"dragon_blue,_mature_adult_blue_dragon_mythic": {
 		"name": "Dragon (Blue), Mature Adult Blue Dragon",
 		"file": "mythicmonsterdisplayd948.html",
@@ -1981,10 +1945,7 @@
 		"short_description": "Miniature bolts of electricity and a cloud of swirling sand surround this dragon's hulking, blue-scaled body.",
 		"display": "monster"
 	},
-	"mature_adult_blue_dragon_mythic": {
-		"copyof": "dragon_blue,_mature_adult_blue_dragon_mythic",
-		"display": "monster"
-	},
+	"mature_adult_blue_dragon_mythic": { "copyof": "dragon_blue,_mature_adult_blue_dragon_mythic" },
 	"dragon_green,_very_old_green_dragon_mythic": {
 		"name": "Dragon (Green), Very Old Green Dragon",
 		"file": "mythicmonsterdisplay6b8f.html",
@@ -2067,10 +2028,7 @@
 		"short_description": "Strange shapes dart about within the acrid fog surrounding this green-scaled dragon, and a large horn rises from its snout.",
 		"display": "monster"
 	},
-	"very_old_green_dragon_mythic": {
-		"copyof": "dragon_green,_very_old_green_dragon_mythic",
-		"display": "monster"
-	},
+	"very_old_green_dragon_mythic": { "copyof": "dragon_green,_very_old_green_dragon_mythic" },
 	"dragon_red,_wyrm_red_dragon_mythic": {
 		"name": "Dragon (Red), Wyrm Red Dragon",
 		"file": "mythicmonsterdisplay22f7.html",
@@ -2164,10 +2122,7 @@
 		"short_description": "A ruddy glow emanates from beneath this dragon's red, gem-encrusted scales, like lava visible between cracks of cooling stone.",
 		"display": "monster"
 	},
-	"wyrm_red_dragon_mythic": {
-		"copyof": "dragon_red,_wyrm_red_dragon_mythic",
-		"display": "monster"
-	},
+	"wyrm_red_dragon_mythic": { "copyof": "dragon_red,_wyrm_red_dragon_mythic" },
 	"dragon_red,_young_red_dragon_mythic": {
 		"name": "Dragon (Red), Young Red Dragon",
 		"file": "mythicmonsterdisplay7d96.html",
@@ -2251,10 +2206,7 @@
 		"short_description": "A ruddy glow emanates from beneath this dragon's red, gem-encrusted scales, like lava visible between cracks of cooling stone.",
 		"display": "monster"
 	},
-	"young_red_dragon_mythic": {
-		"copyof": "dragon_red,_young_red_dragon_mythic",
-		"display": "monster"
-	},
+	"young_red_dragon_mythic": { "copyof": "dragon_red,_young_red_dragon_mythic" },
 	"dragon_white,_juvenile_white_dragon_mythic": {
 		"name": "Dragon (White), Juvenile White Dragon",
 		"file": "mythicmonsterdisplayb509.html",
@@ -2330,10 +2282,7 @@
 		"short_description": "This dragon's white, ice-encrusted scales glitter like diamonds as it effortlessly makes its way across the snow.",
 		"display": "monster"
 	},
-	"juvenile_white_dragon_mythic": {
-		"copyof": "dragon_white,_juvenile_white_dragon_mythic",
-		"display": "monster"
-	},
+	"juvenile_white_dragon_mythic": { "copyof": "dragon_white,_juvenile_white_dragon_mythic" },
 	"drakainia_mythic": {
 		"name": "Drakainia",
 		"file": "mythicmonsterdisplay0f9b.html",
@@ -2530,10 +2479,7 @@
 		"short_description": "This living tornado draws in all the air that surrounds it, hurling unrestrained objects as it moves.",
 		"display": "monster"
 	},
-	"elder_air_elemental_mythic": {
-		"copyof": "elemental_air,_elder_air_elemental_mythic",
-		"display": "monster"
-	},
+	"elder_air_elemental_mythic": { "copyof": "elemental_air,_elder_air_elemental_mythic" },
 	"elemental_earth,_elder_earth_elemental_mythic": {
 		"name": "Elemental (Earth), Elder Earth Elemental",
 		"file": "mythicmonsterdisplay6daf.html",
@@ -2618,10 +2564,7 @@
 		"short_description": "This humanoid mountain of stone and earth strides forward on legs like pillars, a vast grove covering its back.",
 		"display": "monster"
 	},
-	"elder_earth_elemental_mythic": {
-		"copyof": "elemental_earth,_elder_earth_elemental_mythic",
-		"display": "monster"
-	},
+	"elder_earth_elemental_mythic": { "copyof": "elemental_earth,_elder_earth_elemental_mythic" },
 	"elemental_fire,_elder_fire_elemental_mythic": {
 		"name": "Elemental (Fire), Elder Fire Elemental",
 		"file": "mythicmonsterdisplay5068.html",
@@ -2708,10 +2651,7 @@
 		"short_description": "This blazing conflagration is vaguely humanoid in shape, its horned visage almost too bright to look upon.",
 		"display": "monster"
 	},
-	"elder_fire_elemental_mythic": {
-		"copyof": "elemental_fire,_elder_fire_elemental_mythic",
-		"display": "monster"
-	},
+	"elder_fire_elemental_mythic": { "copyof": "elemental_fire,_elder_fire_elemental_mythic" },
 	"elemental_water,_elder_water_elemental_mythic": {
 		"name": "Elemental (Water), Elder Water Elemental",
 		"file": "mythicmonsterdisplaya089.html",
@@ -2795,10 +2735,7 @@
 		"short_description": "Thousands of gallons of water rise up to become a tentacled face, a bulbous body, and four long tentacular appendages.",
 		"display": "monster"
 	},
-	"elder_water_elemental_mythic": {
-		"copyof": "elemental_water,_elder_water_elemental_mythic",
-		"display": "monster"
-	},
+	"elder_water_elemental_mythic": { "copyof": "elemental_water,_elder_water_elemental_mythic" },
 	"elohim_mythic": {
 		"name": "Elohim",
 		"file": "mythicmonsterdisplay1b55.html",
@@ -3134,10 +3071,7 @@
 		"short_description": "This giant's hair, beard, and skin are made of lava, and its armor and weapon glow with a dull heat.",
 		"display": "monster"
 	},
-	"fire_giant_mythic": {
-		"copyof": "giant,_fire_giant_mythic",
-		"display": "monster"
-	},
+	"fire_giant_mythic": { "copyof": "giant,_fire_giant_mythic" },
 	"giant,_hill_giant_mythic": {
 		"name": "Giant, Hill Giant",
 		"file": "mythicmonsterdisplayed04.html",
@@ -3217,10 +3151,7 @@
 		"short_description": "Like barnacles made of rock, stone growths encrust the feet of this thick-bodied giant.",
 		"display": "monster"
 	},
-	"hill_giant_mythic": {
-		"copyof": "giant,_hill_giant_mythic",
-		"display": "monster"
-	},
+	"hill_giant_mythic": { "copyof": "giant,_hill_giant_mythic" },
 	"glaistig_mythic": {
 		"name": "Glaistig",
 		"file": "mythicmonsterdisplay0846.html",
@@ -3400,10 +3331,7 @@
 		"short_description": "Electricity constantly arcs between the bolts and rivets that hold this amalgamated creature's flesh together.",
 		"display": "monster"
 	},
-	"flesh_golem_mythic": {
-		"copyof": "golem,_flesh_golem_mythic",
-		"display": "monster"
-	},
+	"flesh_golem_mythic": { "copyof": "golem,_flesh_golem_mythic" },
 	"graeae_mythic": {
 		"name": "Graeae",
 		"file": "mythicmonsterdisplay17ef.html",
@@ -4077,10 +4005,7 @@
 		"short_description": "This brawny hound is wreathed in flames, and its footsteps leave burning prints that sputter and smoke.",
 		"display": "monster"
 	},
-	"nessian_warhound_mythic": {
-		"copyof": "hell_hound,_nessian_warhound_mythic",
-		"display": "monster"
-	},
+	"nessian_warhound_mythic": { "copyof": "hell_hound,_nessian_warhound_mythic" },
 	"human_skeleton_mythic": {
 		"name": "Human Skeleton",
 		"file": "mythicmonsterdisplay4e20.html",
@@ -4815,10 +4740,8 @@
 		"short_description": "This massive, red-skinned creature surges with roiling waves of brilliant fire.",
 		"display": "monster"
 	},
-	"solar_pitri_mythic": {
-		"copyof": "manasaputra,_solar_pitri_agnishvatta_mythic",
-		"display": "monster"
-	},
+	"agnishvatta_mythic": { "copyof": "manasaputra,_solar_pitri_agnishvatta_mythic" },
+	"solar_pitri_mythic": { "copyof": "manasaputra,_solar_pitri_agnishvatta_mythic" },
 	"manticore_mythic": {
 		"name": "Manticore",
 		"file": "mythicmonsterdisplay1f53.html",
@@ -5612,10 +5535,7 @@
 		"short_description": "Sent down by vengeful deities to punish communities that have offended them, plague swarms scour crops, terrorize populations, and lay waste to civilized lands. Normal means of dealing with vermin and pestilence don't drive them off, for these vicious and intelligent mythic swarms carry the destructive blessings of their gods, and breed at an exceptional rate until their spawn consume entire cities. They are single-minded in their devotion to carrying out the furious will of their deities.",
 		"display": "monster"
 	},
-	"bat_plague_swarm_mythic": {
-		"copyof": "plague_swarm,_bat_plague_swarm_mythic",
-		"display": "monster"
-	},
+	"bat_plague_swarm_mythic": { "copyof": "plague_swarm,_bat_plague_swarm_mythic" },
 	"plague_swarm,_locust_plague_swarm_mythic": {
 		"name": "Plague Swarm, Locust Plague Swarm",
 		"file": "mythicmonsterdisplayaf8e.html",
@@ -5693,10 +5613,7 @@
 		"short_description": "Sent down by vengeful deities to punish communities that have offended them, plague swarms scour crops, terrorize populations, and lay waste to civilized lands. Normal means of dealing with vermin and pestilence don't drive them off, for these vicious and intelligent mythic swarms carry the destructive blessings of their gods, and breed at an exceptional rate until their spawn consume entire cities. They are single-minded in their devotion to carrying out the furious will of their deities.",
 		"display": "monster"
 	},
-	"locust_plague_swarm_mythic": {
-		"copyof": "plague_swarm,_locust_plague_swarm_mythic",
-		"display": "monster"
-	},
+	"locust_plague_swarm_mythic": { "copyof": "plague_swarm,_locust_plague_swarm_mythic" },
 	"plague_swarm,_rat_plague_swarm_mythic": {
 		"name": "Plague Swarm, Rat Plague Swarm",
 		"file": "mythicmonsterdisplay3d93.html",
@@ -5778,10 +5695,7 @@
 		"short_description": "Sent down by vengeful deities to punish communities that have offended them, plague swarms scour crops, terrorize populations, and lay waste to civilized lands. Normal means of dealing with vermin and pestilence don't drive them off, for these vicious and intelligent mythic swarms carry the destructive blessings of their gods, and breed at an exceptional rate until their spawn consume entire cities. They are single-minded in their devotion to carrying out the furious will of their deities.",
 		"display": "monster"
 	},
-	"rat_plague_swarm_mythic": {
-		"copyof": "plague_swarm,_rat_plague_swarm_mythic",
-		"display": "monster"
-	},
+	"rat_plague_swarm_mythic": { "copyof": "plague_swarm,_rat_plague_swarm_mythic" },
 	"portunus_mythic": {
 		"name": "Portunus",
 		"file": "mythicmonsterdisplaya246.html",
@@ -6264,10 +6178,7 @@
 		"short_description": "This godlike giant wears armor made of thick plates of blackened iron and wields a great bladed mace.",
 		"display": "monster"
 	},
-	"danava_mythic": {
-		"copyof": "titan,_danava_mythic",
-		"display": "monster"
-	},
+	"danava_mythic": { "copyof": "titan,_danava_mythic" },
 	"titan,_fomorian_titan_mythic": {
 		"name": "Titan, Fomorian Titan",
 		"file": "mythicmonsterdisplay25c5.html",
@@ -6351,10 +6262,7 @@
 		"short_description": "This godlike giant wears armor made of thick plates of blackened iron and wields a great bladed mace.",
 		"display": "monster"
 	},
-	"fomorian_titan_mythic": {
-		"copyof": "titan,_fomorian_titan_mythic",
-		"display": "monster"
-	},
+	"fomorian_titan_mythic": { "copyof": "titan,_fomorian_titan_mythic" },
 	"treant_mythic": {
 		"name": "Treant",
 		"file": "mythicmonsterdisplayb378.html",
@@ -7138,8 +7046,5 @@
 		"short_description": "This towering, spindly, four-armed entity appears to be made of stone and crystal, yet it moves with a fluid grace.",
 		"display": "monster"
 	},
-	"xiomorn_vault_builder_mythic": {
-		"copyof": "xiomorn,_vault_builder_mythic",
-		"display": "monster"
-	}
+	"xiomorn_vault_builder_mythic": { "copyof": "xiomorn,_vault_builder_mythic" }
 }

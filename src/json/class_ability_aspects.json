@@ -46,7 +46,7 @@
 			"",
 			"**Minor Form:** You gain [Diehard](feat/diehard) as a bonus feat. At 8th level, you add your Hit Dice to your Constitution when determining the negative number of hit points at which you die.",
 			"",
-			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of a [dire boar](monster/dire_boar) . While in this form, you gain low-light vision, the [scent](unknown/scent) ability, a gore attack (1d8), and a base speed of 40 feet. At 8th level you gain [Improved Natural Attack](feat/improved_natural_attack) with your gore attack, and you gain [powerful charge](unknown/powerful_charge) (+1d8 on your gore attack). At 15th level, you gain 1 additional hit point per Hit Die you have, and you gain [Awesome Blow](feat/awesome_blow) as a bonus feat.",
+			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of a [dire boar](monster/dire_boar) . While in this form, you gain low-light vision, the [scent](unknown/scent) ability, a gore attack (1d8), and a base speed of 40 feet. At 8th level you gain [Improved Natural Attack](feat/improved_natural_attack) with your gore attack, and you gain [powerful charge](umr/powerful_charge) (+1d8 on your gore attack). At 15th level, you gain 1 additional hit point per Hit Die you have, and you gain [Awesome Blow](feat/awesome_blow) as a bonus feat.",
 			"",
 			"**Alternate Natural Attacks:** Gore (P), hoof (B)"
 		]
@@ -80,7 +80,7 @@
 			"",
 			"**Minor Form:** You gain a +2 competence bonus on Swim checks and grapple combat maneuver checks. This bonus increases to +4 at 8th level and +6 at 15th level.",
 			"",
-			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of a [crocodile](monster/crocodile). While in this form, you gain a swim speed of 30 feet, low-light vision, a bite attack (1d8) with the [grab](unknown/grab) ability, and a tail slap attack (a secondary natural attack that deals 1d12 points of damage). At 8th level, once per minute as a free action, you can increase your land speed by 20 feet for 1 round. At 15th level, you gain [Improved Natural Attack](feat/improved_natural_attack) with your bite attack, and when you successfully grapple a foe, you can knock your grappled foe prone.",
+			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of a [crocodile](monster/crocodile). While in this form, you gain a swim speed of 30 feet, low-light vision, a bite attack (1d8) with the [grab](umr/grab) ability, and a tail slap attack (a secondary natural attack that deals 1d12 points of damage). At 8th level, once per minute as a free action, you can increase your land speed by 20 feet for 1 round. At 15th level, you gain [Improved Natural Attack](feat/improved_natural_attack) with your bite attack, and when you successfully grapple a foe, you can knock your grappled foe prone.",
 			"",
 			"**Alternate Natural Attacks:** Bite (B, P, S), tail slap (B)"
 		]
@@ -114,7 +114,7 @@
 			"",
 			"**Minor Form:** You gain a +4 competence bonus on Knowledge checks to identify creatures' abilities and weaknesses. This bonus increases to +6 at 8th level and +8 at 15th level.",
 			"",
-			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of a Large [dolphin](monster/dolphin), but your space is 10 feet instead of 5 feet. While in this form, you gain a swim speed of 60 feet, [blindsense](unknown/blindsense) with a range of 10 feet, low-light vision, a bite attack (1d8), and the ability to hold your breath for a number of minutes equal to 6 times your Constitution score before you risk drowning. At 8th level, the range of your blindsense increases to 20 feet. At 15th level, the range of your blindsense increases to 60 feet and your swim speed increases to 80 feet.",
+			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of a Large [dolphin](monster/dolphin), but your space is 10 feet instead of 5 feet. While in this form, you gain a swim speed of 60 feet, [blindsense](umr/blindsense) with a range of 10 feet, low-light vision, a bite attack (1d8), and the ability to hold your breath for a number of minutes equal to 6 times your Constitution score before you risk drowning. At 8th level, the range of your blindsense increases to 20 feet. At 15th level, the range of your blindsense increases to 60 feet and your swim speed increases to 80 feet.",
 			"",
 			"**Alternate Natural Attacks:** Bite (B, P, S), Slam (B)"
 		]
@@ -131,7 +131,7 @@
 			"",
 			"**Minor Form:** You gain an enhancement bonus of +10 feet to your base speed when charging. This bonus increases to +20 feet at 8th level and +30 feet at 15th level.",
 			"",
-			"**Major Form ([Vermin Shape II](spell/vermin_shape_2)):** Your shape changes to that of a [giant dragonfly](monster/giant_dragonfly). While in this form, you gain a fly speed of 60 feet (average), darkvision with a range of 60 feet, and a bite attack (2d6) with the [grab](unknown/grab) ability. At 8th level, you gain [Flyby Attack](feat/flyby_attack) as a bonus feat, and your fly speed improves to 60 feet (good). At 15th level, your fly speed increases to 80 feet (perfect), and if you charge while flying, you gain a +4 bonus on grapple combat maneuver checks for 1 round.",
+			"**Major Form ([Vermin Shape II](spell/vermin_shape_2)):** Your shape changes to that of a [giant dragonfly](monster/giant_dragonfly). While in this form, you gain a fly speed of 60 feet (average), darkvision with a range of 60 feet, and a bite attack (2d6) with the [grab](umr/grab) ability. At 8th level, you gain [Flyby Attack](feat/flyby_attack) as a bonus feat, and your fly speed improves to 60 feet (good). At 15th level, your fly speed increases to 80 feet (perfect), and if you charge while flying, you gain a +4 bonus on grapple combat maneuver checks for 1 round.",
 			"",
 			"**Alternate Natural Attacks:** Bite (B, P, S), wing (B)"
 		]
@@ -290,7 +290,7 @@
 			"",
 			"**Minor Form:** You gain [Lunge](spell/lunge) as a bonus feat. At 12th level, your reach increases by 5 feet.",
 			"",
-			"**Major Form ([Vermin Shape II](spell/vermin_shape_2)):** Your shape changes to that of a [giant mantis](monster/giant_mantis). While in this form, you gain darkvision with a range of 60 feet, a +2 racial bonus on initiative checks, and two primary claw attacks (1d6) with the [grab](unknown/grab) ability. At 8th level, you can always act in the surprise round, but if you fail to notice your foes, you act last, regardless of your initiative result (you act in the normal order in subsequent rounds). At 15th level, whenever you roll for initiative, you can roll three times and use any one of the results.",
+			"**Major Form ([Vermin Shape II](spell/vermin_shape_2)):** Your shape changes to that of a [giant mantis](monster/giant_mantis). While in this form, you gain darkvision with a range of 60 feet, a +2 racial bonus on initiative checks, and two primary claw attacks (1d6) with the [grab](umr/grab) ability. At 8th level, you can always act in the surprise round, but if you fail to notice your foes, you act last, regardless of your initiative result (you act in the normal order in subsequent rounds). At 15th level, whenever you roll for initiative, you can roll three times and use any one of the results.",
 			"",
 			"**Alternate Natural Attacks:** Bite (B, P, S)"
 		]
@@ -341,7 +341,7 @@
 			"",
 			"**Minor Form:** You gain a +4 competence bonus on Escape Artist checks. It increases to +6 at 8th level and +8 at 15th level.",
 			"",
-			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of an [octopus](monster/octopus). While in this form, you gain the [aquatic](monster/aquatic) subtype, a swim speed of 30 feet, low-light vision, a bite attack (1d3), a tentacles attack (no damage) with the [grab](unknown/grab) ability, and [Multiattack](feat/multiattack) as a bonus feat. At 8th level, you gain the [jet](unknown/jet) ability (200 feet). At 15th level, you gain the ability to produce an ink cloud (see below) and deal an amount of bludgeoning damage with your tentacles attack equal to the damage dealt by your shifter claws.",
+			"**Major Form ([Beast Shape II](spell/beast_shape_2)):** Your shape changes to that of an [octopus](monster/octopus). While in this form, you gain the [aquatic](monster/aquatic) subtype, a swim speed of 30 feet, low-light vision, a bite attack (1d3), a tentacles attack (no damage) with the [grab](umr/grab) ability, and [Multiattack](feat/multiattack) as a bonus feat. At 8th level, you gain the [jet](umr/jet) ability (200 feet). At 15th level, you gain the ability to produce an ink cloud (see below) and deal an amount of bludgeoning damage with your tentacles attack equal to the damage dealt by your shifter claws.",
 			"",
 			"*Ink Cloud (Ex):* While within water, you can emit a 10-foot-radius sphere of ink once per minute as a swift action. This ink provides total concealment and persists for 1 minute.",
 			"",
@@ -394,7 +394,7 @@
 			"",
 			"**Minor Form:** You gain a +2 competence bonus on Stealth checks and grapple combat maneuver checks. This bonus increases to +4 at 8th level and +6 at 15th level.",
 			"",
-			"**Major Form ([Vermin Shape II](spell/vermin_shape_2)):** Your shape changes to that of a [giant scorpion](monster/giant_scorpion). While in this form, you gain darkvision with a range of 60 feet, [tremorsense](unknown/tremorsense) with a range of 10 feet, two primary claw attacks (1d6) with the [grab](unknown/grab) ability, and a secondary sting attack (1d6). At 8th level, the range of your tremorsense increases to 20 feet, and you gain a +4 racial bonus on Climb and Perception checks. At 15th level, when you make an attack of opportunity with your sting attack or maintain a grapple and deal damage with your sting attack, that attack also applies the following poison.",
+			"**Major Form ([Vermin Shape II](spell/vermin_shape_2)):** Your shape changes to that of a [giant scorpion](monster/giant_scorpion). While in this form, you gain darkvision with a range of 60 feet, [tremorsense](umr/tremorsense) with a range of 10 feet, two primary claw attacks (1d6) with the [grab](umr/grab) ability, and a secondary sting attack (1d6). At 8th level, the range of your tremorsense increases to 20 feet, and you gain a +4 racial bonus on Climb and Perception checks. At 15th level, when you make an attack of opportunity with your sting attack or maintain a grapple and deal damage with your sting attack, that attack also applies the following poison.",
 			"",
 			"*Poison (Ex):* Sting-injury; *save* Fort DC = 10 + half your shifter level + your Constitution modifier; *frequency* 1/ round for 6 rounds; *effect* 1d3 Strength damage; *cure* 2 consecutive saves.",
 			"",
@@ -449,7 +449,7 @@
 			"",
 			"**Minor Form:** You gain a +2 competence bonus on Climb checks, Stealth checks, saving throws against web effects (magical or otherwise), and checks to break free of webs. This bonus increases to +4 at 8th level and +6 at 15th level.",
 			"",
-			"**Major Form ([Vermin Shape II](spell/vermin_shape_2)):** Your shape changes to that of a [giant spider](monster/giant_spider). While in this form, you gain darkvision with a range of 60 feet, [tremorsense](unknown/tremorsense) with a range of 10 feet, a climb speed of 30 feet, the [web](unknown/web) special attack, and a bite attack (1d6). At 8th level, you gain a +4 racial bonus on Perception checks, and the range of your tremorsense increases to 20 feet. At 15th level, you gain [Improved Natural Attack (bite)](feat/improved_natural_attack), and the range of your tremorsense increases to 30 feet.",
+			"**Major Form ([Vermin Shape II](spell/vermin_shape_2)):** Your shape changes to that of a [giant spider](monster/giant_spider). While in this form, you gain darkvision with a range of 60 feet, [tremorsense](umr/tremorsense) with a range of 10 feet, a climb speed of 30 feet, the [web](unknown/web) special attack, and a bite attack (1d6). At 8th level, you gain a +4 racial bonus on Perception checks, and the range of your tremorsense increases to 20 feet. At 15th level, you gain [Improved Natural Attack (bite)](feat/improved_natural_attack), and the range of your tremorsense increases to 30 feet.",
 			"",
 			"**Alternate Natural Attacks:** Bite (B, P, S)"
 		]
