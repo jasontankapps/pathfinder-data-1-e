@@ -5107,7 +5107,7 @@
 		"equipment_type": "adventuring gear",
 		"cost": 3,
 		"weight": 3,
-		"copyof": "hollow_cane_common",
+		"copyof": "cane,_hollow_common",
 		"display": "equipmisc"
 	},
 	"hollow_simple_cane": {
@@ -5121,7 +5121,7 @@
 		"equipment_type": "adventuring gear",
 		"cost": 26,
 		"weight": 4,
-		"copyof": "hollow_cane_common",
+		"copyof": "cane,_hollow_common",
 		"display": "equipmisc"
 	},
 	"hollow_elegant_cane": {
@@ -8783,6 +8783,8 @@
 		],
 		"display": "equipmisc"
 	},
+	"mule": { "copyof": "donkey_or_mule" },
+	"donkey": { "copyof": "donkey_or_mule" },
 	"donkey_rat": {
 		"name": "donkey rat",
 		"file": "equipmentmiscdisplay569f.html",
@@ -18932,7 +18934,13 @@
 		"display": "equipmisc"
 	},
 	"mug_or_tankard": {
-		"copyof": "mug/tankard"
+		"copyof": "mug_tankard"
+	},
+	"mug": {
+		"copyof": "mug_tankard"
+	},
+	"tankard": {
+		"copyof": "mug_tankard"
 	},
 	"muscle_grout": {
 		"name": "muscle grout",
@@ -20029,8 +20037,11 @@
 		"copyof": "pack_animal_ox",
 		"display": "equipmisc"
 	},
-	"pack_animal_donkey_or_mule": {
-		"copyof": "pack_animal_donkey/mule"
+	"pack_animal_donkey": {
+		"copyof": "pack_animal_donkey_mule"
+	},
+	"pack_animal_mule": {
+		"copyof": "pack_animal_donkey_mule"
 	},
 	"pack_animal_yak": {
 		"name": "pack animal (yak)",
@@ -20332,7 +20343,7 @@
 	},
 	"pathfinder_chronicles_-_volume_1": {
 		"name": "pathfinder chronicles - volume 1",
-		"searchable_name": "pathfinder chronicles   volume one",
+		"searchable_name": "pathfinder chronicles volume one",
 		"file": "equipmentmiscdisplay3f4d.html",
 		"sources": [ "Pathfinder Society Primer" ],
 		"equipment_type": "pathfinder chronicles",
@@ -20360,7 +20371,7 @@
 	},
 	"pathfinder_chronicles_-_volume_11": {
 		"name": "pathfinder chronicles - volume 11",
-		"searchable_name": "pathfinder chronicles   volume eleven",
+		"searchable_name": "pathfinder chronicles volume eleven",
 		"file": "equipmentmiscdisplay1db6.html",
 		"sources": [ "Pathfinder Society Primer" ],
 		"equipment_type": "pathfinder chronicles",
@@ -20386,7 +20397,7 @@
 	},
 	"pathfinder_chronicles_-_volume_14": {
 		"name": "pathfinder chronicles - volume 14",
-		"searchable_name": "pathfinder chronicles   volume fourteen",
+		"searchable_name": "pathfinder chronicles volume fourteen",
 		"file": "equipmentmiscdisplay0566.html",
 		"sources": [ "Pathfinder Society Primer" ],
 		"equipment_type": "pathfinder chronicles",
@@ -20413,7 +20424,7 @@
 	},
 	"pathfinder_chronicles_-_volume_2": {
 		"name": "pathfinder chronicles - volume 2",
-		"searchable_name": "pathfinder chronicles   volume two",
+		"searchable_name": "pathfinder chronicles volume two",
 		"file": "equipmentmiscdisplay6c44.html",
 		"sources": [ "Pathfinder Society Primer" ],
 		"equipment_type": "pathfinder chronicles",
@@ -20439,7 +20450,7 @@
 	},
 	"pathfinder_chronicles_-_volume_27": {
 		"name": "pathfinder chronicles - volume 27",
-		"searchable_name": "pathfinder chronicles   volume twenty seven",
+		"searchable_name": "pathfinder chronicles volume twenty seven",
 		"file": "equipmentmiscdisplayb961.html",
 		"sources": [ "Pathfinder Society Primer" ],
 		"equipment_type": "pathfinder chronicles",
@@ -20465,7 +20476,7 @@
 	},
 	"pathfinder_chronicles_-_volume_44": {
 		"name": "pathfinder chronicles - volume 44",
-		"searchable_name": "pathfinder chronicles   volume fourty four",
+		"searchable_name": "pathfinder chronicles volume fourty four",
 		"file": "equipmentmiscdisplay3da1.html",
 		"sources": [ "Pathfinder Society Primer" ],
 		"equipment_type": "pathfinder chronicles",
@@ -20714,8 +20725,11 @@
 		],
 		"display": "equipmisc"
 	},
-	"perfume_or_cologne": {
-		"copyof": "perfume/cologne"
+	"perfume": {
+		"copyof": "perfume_cologne"
+	},
+	"cologne": {
+		"copyof": "perfume_cologne"
 	},
 	"periscope": {
 		"name": "periscope",

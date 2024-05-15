@@ -2517,7 +2517,7 @@
 			"In addition, the robe has several other patches. Roll 4d4 for the number of other patches and then roll for each patch on the table below to determine its nature.",
 			"",
 			"| d% | Result |",
-			"|---|---|",
+			"| --- | --- |",
 			"| 01-08 | Bag of 100 gold pieces |",
 			"| 09-15 | Coffer, silver (6 in. by 6 in. by 1 ft.), 500 gp value |",
 			"| 16-22 | Door, iron (up to 10 ft. wide and 10 ft. high and barred on one side-must be placed upright, attaches and hinges itself) |",
@@ -8847,7 +8847,7 @@
 			"**Aura** faint divination and evocation; **CL** 5th  ",
 			"**Slot** hand; **Price** 1,600 gp; **Weight** 5 lbs.",
 			"",
-			"Much like [wayfinders](unknown/wayfinders), an ioun gauntlet grants enhanced or altogether new abilities depending on the type of [ioun stone](unknown/ioun_stone) inserted into its matrix. In its base form, an ioun gauntlet grants its wearer the ability to cast [detect magic](spell/detect_magic) as a spell-like ability once per day. When the [detect magic](spell/detect_magic) effect is active, the gauntlet also sheds illumination as [light](unknown/light) in the 60- foot cone of the [detect magic](spell/detect_magic) effect.",
+			"Much like [wayfinders](unknown/wayfinders), an ioun gauntlet grants enhanced or altogether new abilities depending on the type of [ioun stone](unknown/ioun_stone) inserted into its matrix. In its base form, an ioun gauntlet grants its wearer the ability to cast [detect magic](spell/detect_magic) as a spell-like ability once per day. When the [detect magic](spell/detect_magic) effect is active, the gauntlet also sheds illumination as [light](spell/light) in the 60- foot cone of the [detect magic](spell/detect_magic) effect.",
 			"",
 			"An ioun gauntlet features a single matrix in the back of the hand, suitable for one ioun stone. When an ioun stone is inserted into the matrix as a standard action, the wearer gains the associated bonus from the ioun stone as well an additional effect based on the shape of the ioun stone inserted, as listed below. While a creature can put on two ioun gauntlets, the wearer gains the additional benefit from only one inserted ioun stone.",
 			"",
@@ -8877,7 +8877,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [detect magic](spell/detect_magic), [light](unknown/light); **Cost** 800 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [detect magic](spell/detect_magic), [light](spell/light); **Cost** 800 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -10093,7 +10093,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [darkness](unknown/darkness), [invisibility](unknown/invisibility); **Cost** 4,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [darkness](spell/darkness), [invisibility](spell/invisibility); **Cost** 4,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -11816,11 +11816,11 @@
 			"**Aura** faint divination; **CL** 3rd  ",
 			"**Slot** head; **Price** 3,700 gp; **Weight** 1 lb.",
 			"",
-			"This colorful, beaded mask bears floral patterns and attunes the wearer's senses to flora of all varieties. The wearer gains a +3 competence bonus on Knowledge (nature) checks relating to plants, seasons, or weather. The wearer can use a command word to gain the effects of [greensight](unknown/greensight), except that the wearer can freely focus her vision to see through plant matter for any distance up to 60 feet (for example, to examine the inner core of a reed) during the effect's duration. The greensight ability can be used a total of 10 times; when these uses are expended, the mask loses its magic and becomes a normal beaded mask. Most Tlil masks are discovered with 1d10 uses of greensight remaining; reduce the price by 300 gp for each expended use.",
+			"This colorful, beaded mask bears floral patterns and attunes the wearer's senses to flora of all varieties. The wearer gains a +3 competence bonus on Knowledge (nature) checks relating to plants, seasons, or weather. The wearer can use a command word to gain the effects of [greensight](spell/greensight), except that the wearer can freely focus her vision to see through plant matter for any distance up to 60 feet (for example, to examine the inner core of a reed) during the effect's duration. The greensight ability can be used a total of 10 times; when these uses are expended, the mask loses its magic and becomes a normal beaded mask. Most Tlil masks are discovered with 1d10 uses of greensight remaining; reduce the price by 300 gp for each expended use.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [greensight](unknown/greensight); **Cost** 1,850 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [greensight](spell/greensight); **Cost** 1,850 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -13900,7 +13900,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, beast shape III, charm animal, detect animals or plants, endure elements, speak with animals, creator must have 5 ranks in Handle Animal and Ride; **Cost** 12,350  gp"
+			"**Requirements** Craft Wondrous Item, beast shape III, charm animal, detect animals or plants, endure elements, speak with animals, creator must have 5 ranks in Handle Animal and Ride; **Cost** 12,350 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -17037,7 +17037,7 @@
 			"Spheres come in different strengths, ranging from those that deal 2d6 points of fire damage to those that deal 10d6. The price of a sphere is 150 gp for each die of damage it deals.",
 			"",
 			"| Necklace | 10d6 | 9d6 | 8d6 | 7d6 | 6d6 | 5d6 | 4d6 | 3d6 | 2d6 | Price |",
-			"|---|---|---|---|---|---|---|---|---|---|---|",
+			"| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
 			"| Type I | - | - | - | - | - | 1 | - | 2 | - | 1,650 gp |",
 			"| Type II | - | - | - | - | 1 | - | 2 | - | 2 | 2,700 gp |",
 			"| Type III | - | - | - | 1 | - | 2 | - | 4 | - | 4,350 gp |",
@@ -18821,18 +18821,6 @@
 		],
 		"display": "magic/wondrous"
 	},
-	"fetish_of_natural_armor_+2": {
-		"name": "Fetish of Natural Armor (+2)",
-		"searchable_name": "Fetish of Natural Armor 2",
-		"file": "magicwondrousdisplaydb27.html",
-		"cost": 7000,
-		"slot": "neck",
-		"copyof": "fetish_of_natural_armor_+1",
-		"display": "magic/wondrous"
-	},
-	"fetish_of_natural_armor_2": {
-		"copyof": "fetish_of_natural_armor_+2"
-	},
 	"carcanet_of_detention": {
 		"name": "Carcanet of Detention",
 		"file": "magicwondrousdisplay135f.html",
@@ -19220,7 +19208,7 @@
 			"**Aura** faint varied; **CL** 5th  ",
 			"**Slot** neck; **Price** 8,000 gp; **Weight** 2 lbs.",
 			"",
-			"This mummified human hand hangs around a  character's neck by a leather cord (taking up  space as a magic necklace would). If a magic  ring is placed on one of the fingers of the hand,  the wearer benefits from the ring as if wearing  it herself, and it does not count against her two ring limit. The hand can wear only one ring at a  time. Even without a ring, the hand itself allows  its wearer to use [daylight](spell/daylight) and [see invisibility](spell/see_invisibility) each once per day.",
+			"This mummified human hand hangs around a character's neck by a leather cord (taking up space as a magic necklace would). If a magic ring is placed on one of the fingers of the hand, the wearer benefits from the ring as if wearing it herself, and it does not count against her two ring limit. The hand can wear only one ring at a time. Even without a ring, the hand itself allows its wearer to use [daylight](spell/daylight) and [see invisibility](spell/see_invisibility) each once per day.",
 			"",
 			"### Construction",
 			"",
@@ -19755,7 +19743,7 @@
 			"**Aura** moderate transmutation [air]; **CL** 9th  ",
 			"**Slot** neck; **Price** 10,000 gp; **Weight** -;",
 			"",
-			"This circular stone amulet is engraved with a fine, spiraling  line that winds inward toward the center, creating the impression of a powerful vortex. The amulet surrounds the wearer with a reactive field that counters the negative effects of natural or magically controlled winds. The wearer treats all such effects as though she is under the infuence of freedom of movement.",
+			"This circular stone amulet is engraved with a fine, spiraling line that winds inward toward the center, creating the impression of a powerful vortex. The amulet surrounds the wearer with a reactive field that counters the negative effects of natural or magically controlled winds. The wearer treats all such effects as though she is under the infuence of freedom of movement.",
 			"",
 			"### Construction",
 			"",
@@ -19818,7 +19806,7 @@
 			"Draconic: This amulet comes in a variety of minerals depending on its powers, as shown in the table below, and is formed into the shape of a dragon's scale. The wearer gains resistance 5 against the energy type shown in the table, as well as a +1 natural armor bonus to AC. Once per day as a standard action, the wearer can produce a breath weapon. This breath weapon deals 4d6 points of damage of the energy type and shape listed (Reflex DC 13 half). Moderate abjuration and evocation; **CL** 9th; Craft Wondrous Item, fire breath, resist energy.",
 			"",
 			"| d% | Material | Energy Type | Breath Shape |",
-			"|---|---|---|---|",
+			"| --- | --- | --- | --- |",
 			"| 01-25 | Malachite | Acid | 60-foot line |",
 			"| 26-50 | Azurite | Electricity | 60-foot line |",
 			"| 51-75 | Red Agate | Fire | 30-foot cone |",
@@ -19826,7 +19814,7 @@
 			"Elemental: This amulet comes in a variety of minerals depending on its powers, as shown in the table below. The wearer gains resistance 5 against the energy type shown in the table. Once per day as a standard action, the wearer can unleash a blast of elemental power. This 20-foot-radius burst deals 4d6 points of damage (Reflex DC 14 half) of the energy type listed. Creatures that fail their saves gain vulnerability to the energy type until the end of the wearer's next turn. Moderate evocation; **CL** 9th; Craft Wondrous Item, elemental aura, resist energy.",
 			"",
 			"| d% | Material | Energy Type |",
-			"|---|---|---|",
+			"| --- | --- | --- |",
 			"| 01-25 | Anhydrite | Electricity |",
 			"| 26-50 | Hematite | Acid |",
 			"| 51-75 | Beryl | Fire |",
@@ -20758,7 +20746,7 @@
 			"**Aura** moderate enchantment; **CL** 9th  ",
 			"**Slot** neck; **Price** 16,000 gp; **Weight** -;",
 			"",
-			"This simple leather cord is tightly knotted at even intervals and  gives its wearer a sense of inner calmness and connection with  the larger world. The wearer gains a +4 bonus to his effective  level when determining the size of his ki pool and the level-based effects of his ki pool ability (such as bypassing damage  reduction).",
+			"This simple leather cord is tightly knotted at even intervals and gives its wearer a sense of inner calmness and connection with the larger world. The wearer gains a +4 bonus to his effective level when determining the size of his ki pool and the level-based effects of his ki pool ability (such as bypassing damage reduction).",
 			"",
 			"### Construction",
 			"",
@@ -20811,18 +20799,6 @@
 			"**Requirements** Craft Wondrous Item, geas/quest, suffocation; **Cost** 8,000 gp"
 		],
 		"display": "magic/wondrous"
-	},
-	"fetish_of_natural_armor_+3": {
-		"name": "Fetish of Natural Armor (+3)",
-		"searchable_name": "Fetish of Natural Armor 3",
-		"file": "magicwondrousdisplay5a0d.html",
-		"cost": 16500,
-		"slot": "neck",
-		"copyof": "fetish_of_natural_armor_+1",
-		"display": "magic/wondrous"
-	},
-	"fetish_of_natural_armor_3": {
-		"copyof": "fetish_of_natural_armor_+3"
 	},
 	"eye_of_brokerage": {
 		"name": "Eye of Brokerage",
@@ -22154,7 +22130,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [invisibility](unknown/invisibility), [locate object](spell/locate_object); **Cost** 66,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [invisibility](spell/invisibility), [locate object](spell/locate_object); **Cost** 66,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -22509,7 +22485,7 @@
 			"**Aura** faint illusion; **CL** 1st  ",
 			"**Slot** none; **Price** 120 gp; **Weight** 1/2 lb.",
 			"",
-			"Though actually made of cheap tin and colored glass, this adornment appears to be a beautiful and expensive piece of jewelry worth 1,000 gp. A glittering trinket can come in the form of a necklace (using the neck item slot), a bracelet (taking up the wrists slot), a belt buckle (taking the waist slot), or a ring (taking up one ring slot). The trinket's inflated price affects only people's opinion of the wearer. It uses its actual  price and cost for any abilities or effects that depend on the item having a certain value. Anyone who physically interacts with a glittering trinket can attempt a DC 11 Will save to disbelieve the illusion, and a successful DC 20 Appraise check identifies it as false. Because of these factors, selling the trinket-especially to a merchant-rarely fetches the inflated price.",
+			"Though actually made of cheap tin and colored glass, this adornment appears to be a beautiful and expensive piece of jewelry worth 1,000 gp. A glittering trinket can come in the form of a necklace (using the neck item slot), a bracelet (taking up the wrists slot), a belt buckle (taking the waist slot), or a ring (taking up one ring slot). The trinket's inflated price affects only people's opinion of the wearer. It uses its actual price and cost for any abilities or effects that depend on the item having a certain value. Anyone who physically interacts with a glittering trinket can attempt a DC 11 Will save to disbelieve the illusion, and a successful DC 20 Appraise check identifies it as false. Because of these factors, selling the trinket-especially to a merchant-rarely fetches the inflated price.",
 			"",
 			"### Construction",
 			"",
@@ -23887,7 +23863,7 @@
 			"A bilious bottle appears to be a tightly stoppered container of water. It can be thrown as a splash weapon. When a bilious bottle is opened or shatters, the foul fluid inside immediately expands into a 30-foot-radius cloud of noxious vapors. These vapors are invisible, but any creature within the area of effect of the cloud must succeed at a DC 14 Fortitude saving throw at the start of its turn or suffer one of the following random effects. The vapors created by a bilious bottle dissipate after 1 minute, or automatically if exposed to anything more than a moderate wind. The vapors created by a bilious bottle are a poison effect.",
 			"",
 			"| d8 | Result |",
-			"|---|---|",
+			"| --- | --- |",
 			"| 1 | The subject takes 1d6 points of acid damage. |",
 			"| 2 | The subject's eyes glow red for 2 hours, during which time it gains darkvision out to 30 feet. |",
 			"| 3 | The subject takes 1d6 points of fire damage. |",
@@ -24344,11 +24320,11 @@
 			"**Aura** faint evocation; **CL** 5th  ",
 			"**Slot** none; **Price** 500 gp; **Weight** 1 lb.",
 			"",
-			"A small magical device patterned on the design of ancient Azlanti relics, a wayfinder is a compact compass typically made from silver and bearing gold accents. While it serves as a badge of office for agents of the Pathfinder Society, a wayfinder is as much a handy tool as a status symbol. With a command word, you can cause a wayfinder to shine (as the [light](unknown/light) spell). A wayfinder also acts as a nonmagical (magnetic) compass, granting you a +2 circumstance bonus on Survival checks to avoid becoming lost. All wayfinders feature a small indentation designed to hold a single [ioun stone](unknown/ioun_stone). An ioun stone slotted in this manner grants you its normal benefits as if it were orbiting your head; some ioun stones can grant additional powers once they are fitted into a wayfinder, at the GM's discretion.",
+			"A small magical device patterned on the design of ancient Azlanti relics, a wayfinder is a compact compass typically made from silver and bearing gold accents. While it serves as a badge of office for agents of the Pathfinder Society, a wayfinder is as much a handy tool as a status symbol. With a command word, you can cause a wayfinder to shine (as the [light](spell/light) spell). A wayfinder also acts as a nonmagical (magnetic) compass, granting you a +2 circumstance bonus on Survival checks to avoid becoming lost. All wayfinders feature a small indentation designed to hold a single [ioun stone](unknown/ioun_stone). An ioun stone slotted in this manner grants you its normal benefits as if it were orbiting your head; some ioun stones can grant additional powers once they are fitted into a wayfinder, at the GM's discretion.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [light](unknown/light); **Cost** 250 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [light](spell/light); **Cost** 250 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -25101,7 +25077,7 @@
 			"**Aura** faint conjuration and transmutation; **CL** 3rd  ",
 			"**Slot** none; **Price** 750 gp; **Weight** -",
 			"",
-			"These small grenades are made from hollowed eggshells filled with assorted powders and reagents and inscribed with magical glyphs. When broken, a fugitive's grenade creates a 10-foot-radius cloud that lasts for 2 rounds. This cloud is otherwise identical to a fog cloud. A single smoke tendril in the center of the cloud forms a solid-feeling rope, 20 feet long, that functions as a rope trick spell. When the smoke  cloud dissipates, so does the smoke rope, though the rope trick's extradimensional space remains for its full duration. Once the smoke rope disperses, any creatures inside the extradimensional space must jump or climb out by other means. A fugitive's grenade may be thrown as a ranged touch attack with a range increment of 10 feet.",
+			"These small grenades are made from hollowed eggshells filled with assorted powders and reagents and inscribed with magical glyphs. When broken, a fugitive's grenade creates a 10-foot-radius cloud that lasts for 2 rounds. This cloud is otherwise identical to a fog cloud. A single smoke tendril in the center of the cloud forms a solid-feeling rope, 20 feet long, that functions as a rope trick spell. When the smoke cloud dissipates, so does the smoke rope, though the rope trick's extradimensional space remains for its full duration. Once the smoke rope disperses, any creatures inside the extradimensional space must jump or climb out by other means. A fugitive's grenade may be thrown as a ranged touch attack with a range increment of 10 feet.",
 			"",
 			"### Construction",
 			"",
@@ -25932,7 +25908,7 @@
 			"**Aura** faint conjuration; **CL** 3rd  ",
 			"**Slot** none; **Price** 900 gp; **Weight** 1 lb.",
 			"",
-			"In areas where divine magic is readily available, speak with dead has captured many a murderer; this serum was invented by assassins to silence their victims. Murderer's silence prevents a corpse from communicating via speak with dead by dissolving the victim's vocal organs. To use this item, the thick black liquid must be slowly poured down the throat of the corpse (a full-round action that provokes attacks of opportunity). The following round, the corpse's tongue, vocal cords, and lips deteriorate and the corpse becomes incapable of responding to speak with dead. Other means of interrogating the spirit of the departed still function normally. Magic that restores the flesh to a corpse doesn't restore any parts rotted away by murderer's silence. This item has no effect on parts of the body other than those listed. The  listed is for a single dose.",
+			"In areas where divine magic is readily available, speak with dead has captured many a murderer; this serum was invented by assassins to silence their victims. Murderer's silence prevents a corpse from communicating via speak with dead by dissolving the victim's vocal organs. To use this item, the thick black liquid must be slowly poured down the throat of the corpse (a full-round action that provokes attacks of opportunity). The following round, the corpse's tongue, vocal cords, and lips deteriorate and the corpse becomes incapable of responding to speak with dead. Other means of interrogating the spirit of the departed still function normally. Magic that restores the flesh to a corpse doesn't restore any parts rotted away by murderer's silence. This item has no effect on parts of the body other than those listed. The listed is for a single dose.",
 			"",
 			"### Construction",
 			"",
@@ -28906,7 +28882,7 @@
 			"Once per day, as part of the action of drawing forth the weapon held by a scabbard of vigor, the wearer can order it to endow the weapon with an enhancement bonus on attack and damage rolls. The duration of the effect depends on the desired enhancement bonus for the weapon.",
 			"",
 			"| Bonus | Duration |",
-			"|---|---|",
+			"| --- | --- |",
 			"| +4 | 1 round |",
 			"| +3 | 3 rounds |",
 			"| +2 | 5 rounds |",
@@ -28996,7 +28972,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, secret page  ; **Cost** 975 gp"
+			"**Requirements** Craft Wondrous Item, secret page ; **Cost** 975 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -29756,7 +29732,7 @@
 			"**Aura** moderate conjuration; **CL** 9th  ",
 			"**Slot** none; **Price** 2,000 gp; **Weight** 1 lb.",
 			"",
-			"This time-weathered wayfinder lacks any notable features.  Despite its routine appearance, a smuggler's wayfinder has  an additional ability generally known only to the person using  it. When a command word is spoken, the compass's interior is  replaced with a small extradimensional space that can hold up  to 10 pounds of material occupying no more than 1 cubic foot  of space. This material must be able to fit through the 3-inch-diameter  opening in the compass's face (such as a thin glass  vial, coins, small jewelry, or a rolled-up piece of paper). While  the extradimensional space is accessible, all other properties of  the wayfinder cease to function, including any resonant ioun  stone powers. While the extradimensional space is hidden, the  smuggler's wayfinder emits an aura of faint evocation, as a  standard wayfinder.",
+			"This time-weathered wayfinder lacks any notable features. Despite its routine appearance, a smuggler's wayfinder has an additional ability generally known only to the person using it. When a command word is spoken, the compass's interior is replaced with a small extradimensional space that can hold up to 10 pounds of material occupying no more than 1 cubic foot of space. This material must be able to fit through the 3-inch-diameter opening in the compass's face (such as a thin glass vial, coins, small jewelry, or a rolled-up piece of paper). While the extradimensional space is accessible, all other properties of the wayfinder cease to function, including any resonant ioun stone powers. While the extradimensional space is hidden, the smuggler's wayfinder emits an aura of faint evocation, as a standard wayfinder.",
 			"",
 			"### Construction",
 			"",
@@ -29837,7 +29813,7 @@
 			"This item appears to be an unremarkable mesh bag with many small openings, but it is stuffed to overflowing with hay. It can be hung from a line, post, or tree limb and used to feed horses and ponies. It produces enough fresh feed for a number of horses or other similar mounts each day, as shown in the table below.",
 			"",
 			"| Satchel Type | Satchel Weight | Mounts Fed/Day | Market Price |",
-			"|---|---|---|---|",
+			"| --- | --- | --- | --- |",
 			"| I | 15 lbs. | 4 | 2,000 gp |",
 			"| II | 20 lbs. | 10 | 4,000 gp |",
 			"| III | 25 lbs. | 25 | 7,500 gp |",
@@ -30977,7 +30953,7 @@
 			"This appears to be a common cloth sack about 2 feet by 4 feet in size. The bag of holding opens into a nondimensional space: its inside is larger than its outside dimensions. Regardless of what is put into the bag, it weighs a fixed amount. This weight, and the limits in weight and volume of the bag's contents, depend on the bag's type, as shown on the table below.",
 			"",
 			"| Bag | Bag Weight | Contents Limit | Contents Volume Limit | Price |",
-			"|---|---|---|---|---|",
+			"| --- | --- | --- | --- | --- |",
 			"| Type I | 15 lbs. | 250 lbs. | 30 cubic ft. | 2,500 gp |",
 			"| Type II | 25 lbs. | 500 lbs. | 70 cubic ft. | 5,000 gp |",
 			"| Type III | 35 lbs. | 1,000 lbs. | 150 cubic ft. | 7,400 gp |",
@@ -31235,7 +31211,7 @@
 			"When a humanoid imbibes this foul-tasting green fluid, its ears grow to 10 times their size, and its head separates from its body. This effect is similar to beast shape II, shifting the drinker's consciousness into a Tiny form cosmetically similar to that of a chon chon, with the same powers of flight, constant detect magic sight, and +4 racial bonus on Perception checks made to listen, but lacking the creature's acid spit or jabber abilities. The duration of this transformation proves highly unpredictable, though. The GM should roll on the following chart to determine how long the effect lasts.",
 			"",
 			"| d% | Duration of Transformation |",
-			"|---|---|",
+			"| --- | --- |",
 			"| 1 | 1 minute |",
 			"| 2-25 | 1d10 minutes |",
 			"| 26-50 | 6d10 minutes |",
@@ -31689,11 +31665,11 @@
 			"",
 			"For example, with a clay golem manual, you would need to provide a body worth 1,500 gp (rather than the normal full cost of 21,500 gp), spend 42 days constructing the golem's body (1 for each 1,000 gp in the normal price of the golem), have a caster level of 9th or higher (as the manual provides a +2 bonus and the normal requirement is 11th level), have [animate objects](spell/animate_objects), [bless](spell/bless), [commune](spell/commune), [prayer](spell/prayer), and [resurrection](spell/resurrection) on your class's spell list, and succeed at a DC 16 Craft (sculptures) or Craft (pottery) check (but the manual gives you a +5 bonus on the check.)",
 			"",
-			"Adamantine ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [crushing hand](spell/crushing_hand), [geas/quest](spell/geas_quest), [heal](unknown/heal), [stoneskin](spell/stoneskin), and [wish](spell/wish). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting an [adamantine golem](monster/adamantine_golem).; **Aura** strong abjuration, conjuration, enchantment, and evocation; **CL** 20th; [Craft Construct](feat/craft_construct), [crushing hand](spell/crushing_hand), [geas/quest](spell/geas_quest), [heal](unknown/heal), [stoneskin](spell/stoneskin), [wish](spell/wish), creator must be caster level 20th.",
+			"Adamantine ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [crushing hand](spell/crushing_hand), [geas/quest](spell/geas_quest), [heal](spell/heal), [stoneskin](spell/stoneskin), and [wish](spell/wish). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting an [adamantine golem](monster/adamantine_golem).; **Aura** strong abjuration, conjuration, enchantment, and evocation; **CL** 20th; [Craft Construct](feat/craft_construct), [crushing hand](spell/crushing_hand), [geas/quest](spell/geas_quest), [heal](spell/heal), [stoneskin](spell/stoneskin), [wish](spell/wish), creator must be caster level 20th.",
 			"",
 			"Alchemical ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [gentle repose](spell/gentle_repose), [major creation](spell/major_creation), [resist energy](spell/resist_energy), and [telekinesis](spell/telekinesis). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting an [alchemical golem](monster/alchemical_golem).; **Aura** moderate abjuration, conjuration, enchantment, necromancy, and transmutation; **CL** 10th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [major creation](spell/major_creation), [resist energy](spell/resist_energy), [telekinesis](spell/telekinesis), creator must be caster level 10th.",
 			"",
-			"Blood ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate dead](spell/animate_dead), [bleed](unknown/bleed), [cure critical wounds](spell/cure_critical_wounds), and [geas/quest](spell/geas_quest). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [blood golem](monster/blood_golem).; **Aura** strong conjuration, enchantment, and necromancy [evil]; **CL** 12th; [Craft Construct](feat/craft_construct), [animate dead](spell/animate_dead), [bleed](unknown/bleed), [cure critical wounds](spell/cure_critical_wounds), [geas/quest](spell/geas_quest), creator must be caster level 12th.",
+			"Blood ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate dead](spell/animate_dead), [bleed](spell/bleed), [cure critical wounds](spell/cure_critical_wounds), and [geas/quest](spell/geas_quest). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [blood golem](monster/blood_golem).; **Aura** strong conjuration, enchantment, and necromancy [evil]; **CL** 12th; [Craft Construct](feat/craft_construct), [animate dead](spell/animate_dead), [bleed](spell/bleed), [cure critical wounds](spell/cure_critical_wounds), [geas/quest](spell/geas_quest), creator must be caster level 12th.",
 			"",
 			"Bone ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate objects](spell/animate_objects), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), and [telekinesis](spell/telekinesis). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [bone golem](monster/bone_golem).; **Aura** moderate enchantment and transmutation; **CL** 9th; [Craft Construct](feat/craft_construct), [animate objects](spell/animate_objects), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), [telekinesis](spell/telekinesis), creator must be caster level 9th.",
 			"",
@@ -31735,7 +31711,7 @@
 			"",
 			"Obsidian ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), and [volcanic storm](spell/volcanic_storm). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting an [obsidian golem](monster/obsidian_golem).; **Aura** strong enchantment and evocation; **CL** 15th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), and [volcanic storm](spell/volcanic_storm), creator must be caster level 15th.",
 			"",
-			"Quintessence ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [energy drain](unknown/energy_drain), [geas/quest](spell/geas_quest), [trap the soul](spell/trap_the_soul), and [wish](spell/wish). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [quintessence golem](monster/quintessence_golem).; **Aura** strong conjuration, enchantment, and necromancy; **CL** 20th; [Craft Construct](feat/craft_construct), [energy drain](unknown/energy_drain), [geas/quest](spell/geas_quest), [trap the soul](spell/trap_the_soul), [wish](spell/wish), creator must be caster level 20th.",
+			"Quintessence ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [energy drain](spell/energy_drain), [geas/quest](spell/geas_quest), [trap the soul](spell/trap_the_soul), and [wish](spell/wish). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [quintessence golem](monster/quintessence_golem).; **Aura** strong conjuration, enchantment, and necromancy; **CL** 20th; [Craft Construct](feat/craft_construct), [energy drain](spell/energy_drain), [geas/quest](spell/geas_quest), [trap the soul](spell/trap_the_soul), [wish](spell/wish), creator must be caster level 20th.",
 			"",
 			"Sand ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), and [move earth](spell/move_earth). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [sand golem](monster/sand_golem).; **Aura** strong enchantment and transmutation; **CL** 12th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), [move earth](spell/move_earth), creator must be caster level 12th.",
 			"",
@@ -32467,14 +32443,13 @@
 			"",
 			"This small sack appears empty. Anyone reaching into the bag feels a small, fuzzy ball. If the ball is removed and tossed up to 20 feet away, it turns into an animal. The animal serves the character who drew it from the bag for 10 minutes (or until slain or ordered back into the bag), at which point it disappears. It can follow any of the commands described in the Handle Animal skill. Each of the three kinds of bags of tricks produces a different set of animals. Use the following tables to determine what animals can be drawn out of each.",
 			"",
-			"|  | Gray |  | Rust |  | Tan |  | Aquamarine |",
-			"|---|---|---|---|---|---|---|---|",
-			"| d% | Animal | d% | Animal | d% | Animal | d% | Animal |",
+			"| d% | Animal (Grey) | d% | Animal (Rust) | d% | Animal (Tan) | d% | Animal (Aquamarine) |",
+			"| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |",
 			"| 01-30 | Bat | 01-30 | Wolverine | 01-30 | Grizzly bear | 1-30 | King crab |",
 			"| 31-60 | Rat | 31-60 | Wolf | 31-60 | Lion | 31-60 | Seal |",
 			"| 61-75 | Cat | 61-85 | Boar | 61-80 | Heavy horse | 61-80 | Dolphin |",
-			"| 76-90 | Weasel | 86-100 | Leopard | 81-90 | Tiger | 81-90 | Octopus (Bestiary 219 |",
-			"| 91-100 | Riding dog | - | 91-100 | Rhinoceros | 91-100 |",
+			"| 76-90 | Weasel | 86-100 | Leopard | 81-90 | Tiger | 81-90 | Octopus |",
+			"| 91-100 | Riding dog | - | - | 91-100 | Rhinoceros | 91-100 | Squid |",
 			"The heavy horse appears with harness and tack and accepts the character who drew it from the bag as a rider.",
 			"",
 			"Animals produced are always random, and only one may exist at a time. Up to 10 animals can be drawn from the bag each week, but no more than two per day.",
@@ -32971,7 +32946,7 @@
 			"",
 			"The pearl dolphin can maintain its nonfigurine status for only 24 hours per week. The duration need not be continuous, but it must be used in 1-hour increments.; **CL** 11th; [Craft Wondrous Item](feat/craft_wondrous_item), [animal messenger](spell/animal_messenger), [animate objects](spell/animate_objects).",
 			"",
-			"Ruby Butterfly: Upon command, this figurine of wondrous power transforms into a hand-sized red butterfly (same statistics as a [bat](monster/bat)). A spellcaster can use a ruby butterfly to deliver touch spells, as if the ruby butterfly were a [familiar](unknown/familiar) capable of this ability. A ruby butterfly can also be commanded to guard its owner while he sleeps. Creatures protected this way gain a +5 luck bonus on saving throws against any spell or effect that affects sleeping creatures' dreams (such as [nightmare](unknown/nightmare) or a [night hag's dream haunting](unknown/night_hag's_dream_haunting) ability). A ruby butterfly can be used three times per week for up to 8 hours at a time.; **CL** 9th; [Craft Wondrous Item](feat/craft_wondrous_item), [animate object](unknown/animate_object), [dream](unknown/dream).",
+			"Ruby Butterfly: Upon command, this figurine of wondrous power transforms into a hand-sized red butterfly (same statistics as a [bat](monster/bat)). A spellcaster can use a ruby butterfly to deliver touch spells, as if the ruby butterfly were a [familiar](class/wizard) capable of this ability. A ruby butterfly can also be commanded to guard its owner while he sleeps. Creatures protected this way gain a +5 luck bonus on saving throws against any spell or effect that affects sleeping creatures' dreams (such as [nightmare](spell/nightmare) or a [night hag's dream haunting](unknown/night_hag's_dream_haunting) ability). A ruby butterfly can be used three times per week for up to 8 hours at a time.; **CL** 9th; [Craft Wondrous Item](feat/craft_wondrous_item), [animate object](spell/animate_object), [dream](spell/dream).",
 			"",
 			"Black Jade Raven: This fist-sized piece of black jade is exquisitely tooled into the shape of a raven with outstretched wings. Upon command, it transforms into a black raven (use the stats for an eagle) or a giant black raven (use the stats for a giant eagle). Both forms of the raven have Improved Steal as a bonus feat. The raven understands Common but cannot speak. It can answer questions related to its abilities or what it has seen by cawing once for \"yes\" and twice for \"no.\"",
 			"",
@@ -33182,7 +33157,7 @@
 			"Communication with spirits can be a dangerous task, for many spirits are jealous or hateful of the living. Every time a spirit planchette is used, the user must succeed on a Will save to avoid being temporarily possessed and harmed by the angry spirits. In some areas where the spirits are particularly violent or hateful (such as in Harrowstone), this Will save takes a -2 penalty. The DC of this save depends on the type of spirit planchette being used. Anyone who fails the Will save becomes confused for a number of rounds (depending on the type of planchette being used), and no answer is received. The spirits in the area are not omniscient-the GM should decide whether or not the spirits would actually know the answer to the question asked, and if they do not, the answer granted is automatically \"maybe.\" If the GM determines that the spirits are knowledgeable about the answer, roll d% to determine whether the spirits speak truthfully or whether they lie.",
 			"",
 			"| Planchette Type | Questions per Use | Will Save DC | Confusion Duration | True Answer | Lie |",
-			"|---|---|---|---|---|---|",
+			"| --- | --- | --- | --- | --- | --- |",
 			"| Brass | 1 | 11 | 1 round | 01-60 | 61-100 |",
 			"| Cold Iron | 3 | 15 | 2 rounds | 01-75 | 76-100 |",
 			"| Silver | 5 | 19 | 3 rounds | 01-90 | 91-100 |",
@@ -33333,7 +33308,7 @@
 			"This simple ceramic flask looks like any other normal container for serving sake, or rice wine. If the flask's silver stopper is removed and the command word spoken, up to 1 gallon of sake can be poured from the flask per round. In addition, once per day, a character can drink directly from the flask to gain the effects of a potion, determined randomly. Roll 1d6 on the following table to determine the type of potion.",
 			"",
 			"| d6 | Roll Potion type |",
-			"|---|---|",
+			"| --- | --- |",
 			"| 1 | heroism |",
 			"| 2 | cure moderate wounds |",
 			"| 3 | enlarge person |",
@@ -34286,7 +34261,7 @@
 			"If the floating sail is bearing any weight when commanded to fold up, it collapses and takes the form of a normal silk sail; depending on whether the sail was placed on water, over a gap, or in a similarly perilous location, any creatures standing on it may become entangled in the sail, fall to their doom, or worse (at the GM's discretion, those who succeed at a Reflex save may avoid disaster). Similarly, a floating sail immediately collapses if its weight capacity is exceeded. A collapsed floating sail must be picked up and refolded by hand before it can be activated again.",
 			"",
 			"| Size | Weight | Capacity |",
-			"|---|---|---|",
+			"| --- | --- | --- |",
 			"| 10-ft.-by-15-ft. | 20 lbs. | 800 lbs. |",
 			"| 15-ft.-by-30-ft. | 25 lbs. | 1,000 lbs. |",
 			"| 15-ft.-by-40-ft. | 40 lbs. | 1,250 lbs. |",
@@ -36448,7 +36423,7 @@
 			"When this [ioun stone](unknown/ioun_stone) is embedded in a clockwork construct, it grants the recipient humanlike sentience, as per the [awaken construct](spell/awaken_construct) spell. The transformation is not permanent, and regardless of the body a stone is embedded in, the creature in which it's embedded always gains the same alignment, Charisma score increase, Intelligence score, language, memories, personality, and skills. These statistics depend on the ioun memory node type, as noted in the table below.",
 			"",
 			"| Type | Int | Cha | Skills | Languages | Max HD |",
-			"|---|---|---|---|---|---|",
+			"| --- | --- | --- | --- | --- | --- |",
 			"| I | 7 | +2 | 1 | 1 | 4 |",
 			"| II | 10 | +5 | 2 | 1 | 8 |",
 			"| III | 12 | +7 | 3 | 2 | 12 |",
@@ -38558,7 +38533,7 @@
 			"This set of parchment cards is usually found in an ivory, leather, or wooden box. A full deck consists of 34 cards. When a card is drawn at random and thrown to the ground, a major image of a creature is formed. The figment lasts until dispelled. The illusory creature cannot move more than 30 feet away from where the card landed, but otherwise moves and acts as if it were real. At all times it obeys the desires of the character who drew the card. When the illusion is dispelled, the card becomes blank and cannot be used again. If the card is picked up, the illusion is automatically and instantly dispelled. The cards in a deck and the illusions they bring forth are summarized on the following table. (Use one of the first two columns to simulate the contents of a full deck using either ordinary playing cards or tarot cards.)",
 			"",
 			"| Playing Card | Tarot Card | Creature |",
-			"|---|---|---|",
+			"| --- | --- | --- |",
 			"| Ace of hearts | IV. The Emperor | Red dragon |",
 			"| King of hearts | Knight of swords | Male human fighter and four guards |",
 			"| Queen of hearts | Queen of staves | Female human wizard |",
@@ -39275,7 +39250,7 @@
 			"This item appears to be nothing more than a string of prayer beads until the owner casts a divine spell while the beads are carried. Once that occurs, the owner instantly knows the powers of the prayer beads and understands how to activate the strand's special magical beads. Each strand includes two or more special beads, each with a different magic power selected from the following list.",
 			"",
 			"| Special Bead Type | Special Bead Ability |",
-			"|---|---|",
+			"| --- | --- |",
 			"| Bead of blessing (CL 1st) | Wearer can cast bless. |",
 			"| Bead of healing (CL 5th) | Wearer can cast his choice of cure serious wounds, remove blindness/deafness, or remove disease. |",
 			"| Bead of karma (CL 9th) | Wearer casts his spells at +4 caster level. Effect lasts 10 minutes. |",
@@ -39315,7 +39290,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [animate objects](spell/animate_objects), [fly](unknown/fly), [make whole](spell/make_whole); **Cost** 4,900 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [animate objects](spell/animate_objects), [fly](spell/fly), [make whole](spell/make_whole); **Cost** 4,900 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -41053,7 +41028,7 @@
 			"This appears to be a rugged leather sack about 4 feet by 6 feet in size. It functions exactly the same as other types of bags of holding, but weighs more and has greater weight and volume limits, as shown on the table below.",
 			"",
 			"| Bag | Bag Weight | Contents Limit | Contents Volume Limit | Market Price |",
-			"|---|---|---|---|---|",
+			"| --- | --- | --- | --- | --- |",
 			"| Type V | 100 lbs. | 2,500 lbs. | 450 cubic ft. | 12,500 gp |",
 			"| Type VI | 150 lbs. | 4,000 lbs. | 800 cubic ft. | 15,000 gp |",
 			"Because of the larger volume of a giant-sized bag of holding, retrieving a specific item from it is always a full-round action.",
@@ -43365,7 +43340,7 @@
 			"This rug is able to fly through the air as if affected by an overland flight spell of unlimited duration. The size, carrying capacity, and speed of the different carpets of flying are shown on the table below. Beautifully and intricately made, each carpet has its own command word to activate it-if the device is within voice range, the command word activates it, whether the speaker is on the rug or not. The carpet is then controlled by spoken directions.",
 			"",
 			"| Size | Capacity | Speed | Weight | Price |",
-			"|---|---|---|---|---|",
+			"| --- | --- | --- | --- | --- |",
 			"| 5-ft.-by-5-ft. | 200 lbs. | 40 ft. | 8 lbs. | 20,000 gp |",
 			"| 5-ft.-by-10-ft. | 400 lbs. | 40 ft. | 10 lbs. | 35,000 gp |",
 			"| 10-ft.-by-10-ft. | 800 lbs. | 40 ft. | 15 lbs. | 60,000 gp |",
@@ -43397,7 +43372,7 @@
 			"An inactive apparatus of the octopus appears to be a large, sealed iron barrel big enough to hold two Medium creatures. Closer examination (and a successful DC 20 Perception check) reveals a secret catch that opens a hatch at one end. Anyone who crawls inside finds 10 unlabeled levers and seating for two Medium or Small occupants. These levers allow those inside to activate and control the apparatus's movements and actions.",
 			"",
 			"| Lever (1d10) | Lever Function |",
-			"|---|---|",
+			"| --- | --- |",
 			"| 1 | Extend/retract legs and tail |",
 			"| 2 | Uncover/cover forward porthole |",
 			"| 3 | Uncover/cover side portholes |",
@@ -45217,7 +45192,7 @@
 			"Each time the chest is sent back to its mercane master, there's a chance the mercane decides to buy any new magic item in the chest. If the mercane buys the item, it may pay slightly less than, equal to, or more than the standard market value (normally 50% of its total value). The mercane's interest and payment is determined by the table below. If the mercane does buy an item, the payment is always in gold pieces that take the item's place in the chest of the mercane.",
 			"",
 			"| d% | Mercane's Trade |",
-			"|---|---|",
+			"| --- | --- |",
 			"| 01-10 | 40% of the item's total value |",
 			"| 11-50 | Item is not purchased |",
 			"| 51-90 | 50% of the item's total value |",
@@ -45576,7 +45551,7 @@
 			"",
 			"A thrum of the hidden soul appears as a single, unbreakable crimson thread. To use the thrum, you tie the thread around any Fine or smaller nonmagical object and will your soul into the marked object. The thread disintegrates and your soul transfers into the marked object as if it were a [magic jar](spell/magic_jar), leaving your body alive but catatonic. You cannot move your body or use its senses. You can remain within the [magic jar](spell/magic_jar) for an unlimited amount of time, but cannot sense your surroundings or possess any other living creature. You may return to your original body at will. If your body is slain, you may only escape the [magic jar](spell/magic_jar) if your body is resurrected or else a [wish](spell/wish), [miracle](spell/miracle), or similar effect is used to restore you.",
 			"",
-			"While within the [magic jar](spell/magic_jar), your soul is shielded from divination attempts. Spells such as [scrying](unknown/scrying) show the location of your corpse, and spells such as [divination](unknown/divination) return information consistent with your body's death. While your soul inhabits it, the [magic jar](spell/magic_jar) appears non-magical to divination magic, including [detect magic](spell/detect_magic), [identify](spell/identify), and [legend lore](spell/legend_lore).",
+			"While within the [magic jar](spell/magic_jar), your soul is shielded from divination attempts. Spells such as [scrying](spell/scrying) show the location of your corpse, and spells such as [divination](spell/divination) return information consistent with your body's death. While your soul inhabits it, the [magic jar](spell/magic_jar) appears non-magical to divination magic, including [detect magic](spell/detect_magic), [identify](spell/identify), and [legend lore](spell/legend_lore).",
 			"",
 			"### Construction",
 			"",
@@ -46610,7 +46585,7 @@
 			"This is the most common form of scrying device, a crystal sphere about 6 inches in diameter. So well-known are these items that many so-called oracles or fortune-tellers use similar appearing (but completely nonmagical) replicas of these items to ply their trades. A character can use a magical crystal ball to see over virtually any distance or into other planes of existence, as with the spell scrying (Will DC 16 negates). A crystal ball can be used multiple times per day, but the DC to resist its power decreases by 1 for each additional use. Certain crystal balls have additional powers that can be used through the crystal ball on the target viewed.",
 			"",
 			"| Crystal Ball Type | Price |",
-			"|---|---|",
+			"| --- | --- |",
 			"| Crystal ball | 42,000 gp |",
 			"| Crystal ball with see invisibility | 50,000 gp |",
 			"| Crystal ball with detect thoughts (Will DC 13 negates) | 51,000 gp |",
@@ -47167,7 +47142,7 @@
 			"Summoned barbarians are constructs, not actual people (though they seem to be); they arrive with the starting equipment for barbarians. They attack anyone the possessor of the horn commands them to fight until they or their opponents are slain or until 1 hour has elapsed, whichever comes first.",
 			"",
 			"| d% | Type of Horn | Barbarians Summoned | Prerequisite |",
-			"|---|---|---|---|",
+			"| --- | --- | --- | --- |",
 			"| 01-40 | Silver | 2d4+2, 2nd-level | None |",
 			"| 41-75 | Brass | 2d4+1, 3rd-level | Spellcaster level 1st |",
 			"| 76-90 | Bronze | 2d4, 4th-level | Proficiency with all martial weapons or bardic performance ability |",
@@ -47615,7 +47590,7 @@
 			"Once per day on command, a Wayfinder of Many Paths with an implanted ioun stone can be used to create a 5-to-20-foot-diameter gateway, similar to the spell gate. The exact destination depends on the type of ioun stone slotted into the wayfinder; ioun stones of the same type always lead to the same location. The gateway remains open for up to 18 rounds, but the user can drain the socketed ioun stone, rendering it dull gray and powerless, to keep the gateway open for up to 18 additional rounds. If fitted with an ioun stone while in that stone's attuned location, a Wayfinder of Many Paths can open a gateway back to the location in which it was last used, allowing its user to make a return trip after 24 hours.",
 			"",
 			"| Known Ioun Stones | Destinations |",
-			"|---|---|",
+			"| --- | --- |",
 			"| Clear spindle | A long-since-despoiled tomb in the Alabastrine Peaks in the Crown of the World |",
 			"| Dark blue rhomboid | The basement of a flooded museum in Hyrantam |",
 			"| Deep red sphere | A third-floor room in an inn in the City of Brass's Common Quarter |",
@@ -47920,7 +47895,7 @@
 			"When the cube of force is active, attacks dealing more than 30 points of damage to a wall drain 1 charge for every 10 points of damage beyond 30 that they deal. The charge cost to maintain each of the cube's six walls is summarized below.",
 			"",
 			"| Cube Face | Charge Cost Per Minute | Max. Speed | Effect |",
-			"|---|---|---|---|",
+			"| --- | --- | --- | --- |",
 			"| 1 | 1 | 30 ft. | Keeps out gases, wind, etc. |",
 			"| 2 | 2 | 20 ft. | Keeps out nonliving matter |",
 			"| 3 | 3 | 15 ft. | Keeps out living matter |",
@@ -47930,7 +47905,7 @@
 			"Spells that affect the integrity of the screen also drain extra charges. These spells cannot be cast into or out of the cube.",
 			"",
 			"| Attack Form | Extra Charges |",
-			"|---|---|",
+			"| --- | --- |",
 			"| Disintegrate | 6 |",
 			"| Horn of blasting | 6 |",
 			"| Passwall | 3 |",
@@ -48873,7 +48848,7 @@
 			"An apparatus of the crab is a metallic magical vehicle. When unoccupied, it appears to be a large, sealed iron barrel big enough to hold two Medium creatures. Close examination, and a DC 20 Perception check, reveals a secret catch that opens a hatch at one end. Anyone who crawls inside finds 10 (unlabeled) levers and seating for two Medium or Small occupants. These levers allow those inside to activate and control the apparatus's movements and actions.",
 			"",
 			"| Lever (1d10) | Lever Function |",
-			"|---|---|",
+			"| --- | --- |",
 			"| 1 | Extend/retract legs and tail |",
 			"| 2 | Uncover/cover forward porthole |",
 			"| 3 | Uncover/cover side portholes |",
@@ -48987,7 +48962,7 @@
 			"Close examination and a successful DC 25 Perception check reveal a secret catch that opens a hatch in the statue's back. Anyone who crawls inside finds seating for one Medium or Small occupant and eight unlabeled levers and pedals. These controls allow a character inside to activate and control the sentinel's movements and actions. Operating a lever is normally a move action, but operating the lever to extend or retract the sentinel's arms (such as to attack) is a standard action. No lever can be operated more than once per round.",
 			"",
 			"| Lever (d8) | Lever Function |",
-			"|---|---|",
+			"| --- | --- |",
 			"| 1 | Uncover/cover forward porthole |",
 			"| 2 | Uncover/cover side portholes |",
 			"| 3 | Extend/retract arms |",
@@ -49686,7 +49661,7 @@
 			"The Bell of Obedience is a 4-foot-tall bell cast from high-tin bronze that's capable of transmitting a powerful compulsion to those who hear it. To function, the bell must be suspended from a yoke and sounded either with a mallet or a clapper. All creatures within 1,000 feet of the bell other than the user must succeed at a DC 20 Will save or be affected by a compulsion effect (determined by the yoke's composition) for 1 hour.",
 			"",
 			"| Material | Effect |",
-			"|---|---|",
+			"| --- | --- |",
 			"| Bronze | Good hope |",
 			"| Iron | Rage |",
 			"| Oak | Calm emotions |",
@@ -49822,7 +49797,7 @@
 			"If the individual freeing the captured creature speaks the command word, the creature can be forced to serve for 1 hour. If freed without the command word, the creature acts according to its natural inclinations. (It usually attacks the user, unless it perceives a good reason not to.) Any attempt to force the same creature into the flask a second time provides it a +2 bonus on its saving throw and makes it hostile. A purchased bottle is empty, but a newly discovered bottle might contain any of the following:",
 			"",
 			"| d% | Contents |",
-			"|---|---|",
+			"| --- | --- |",
 			"| 01-50 | Empty |",
 			"| 51-54 | Large air elemental |",
 			"| 55-58 | Invisible stalker |",
@@ -50277,7 +50252,7 @@
 		"display": "magic/wondrous"
 	},
 	"pauldrons_of_unflinching_fortitude_1_or_2_fortitude": {
-		"copyof": "pauldrons_of_unflinching_fortitude_+1/+2_fortitude"
+		"copyof": "pauldrons_of_unflinching_fortitude_+1_+2_fortitude"
 	},
 	"cloak_of_quick_reflexes_+1_+2_reflex": {
 		"name": "Cloak of Quick Reflexes (+1/+2 Reflex)",
@@ -50303,7 +50278,7 @@
 		"display": "magic/wondrous"
 	},
 	"cloak_of_quick_reflexes_1_or_2_reflex": {
-		"copyof": "cloak_of_quick_reflexes_+1/+2_reflex"
+		"copyof": "cloak_of_quick_reflexes_+1_+2_reflex"
 	},
 	"cape_of_free_will_+1_+2_will": {
 		"name": "Cape of Free Will (+1/+2 Will)",
@@ -50329,7 +50304,7 @@
 		"display": "magic/wondrous"
 	},
 	"cape_of_free_will_1_or_2_will": {
-		"copyof": "cape_of_free_will_+1/+2_will"
+		"copyof": "cape_of_free_will_+1_+2_will"
 	},
 	"quickchange_cloak": {
 		"name": "Quickchange Cloak",
@@ -50830,7 +50805,7 @@
 			"The cloak summons creatures only when laid down outdoors on naturally occurring ground (not, for example, on a wooden deck or stone pathway). The cloak can be used to summon animals up to three times per day.",
 			"",
 			"| d% | Animal |",
-			"|---|---|",
+			"| --- | --- |",
 			"| 01-30 | 1 owl |",
 			"| 31-60 | 1d3 rats |",
 			"| 61-75 | 1 weasel |",
@@ -51135,11 +51110,11 @@
 		"file": "magicwondrousdisplay9925.html",
 		"cost": 6000,
 		"slot": "shoulders",
-		"copyof": "pauldrons_of_unflinching_fortitude_+1/+2_fortitude",
+		"copyof": "pauldrons_of_unflinching_fortitude_+1_+2_fortitude",
 		"display": "magic/wondrous"
 	},
 	"pauldrons_of_unflinching_fortitude_2_or_3_fortitude": {
-		"copyof": "pauldrons_of_unflinching_fortitude_+2/+3_fortitude"
+		"copyof": "pauldrons_of_unflinching_fortitude_+2_+3_fortitude"
 	},
 	"cloak_of_quick_reflexes_+2_+3_reflex": {
 		"name": "Cloak of Quick Reflexes (+2/+3 Reflex)",
@@ -51147,11 +51122,11 @@
 		"file": "magicwondrousdisplay3af5.html",
 		"cost": 6000,
 		"slot": "shoulders",
-		"copyof": "cloak_of_quick_reflexes_+1/+2_reflex",
+		"copyof": "cloak_of_quick_reflexes_+1_+2_reflex",
 		"display": "magic/wondrous"
 	},
 	"cloak_of_quick_reflexes_2_or_3_reflex": {
-		"copyof": "cloak_of_quick_reflexes_+2/+3_reflex"
+		"copyof": "cloak_of_quick_reflexes_+2_+3_reflex"
 	},
 	"cape_of_free_will_+2_+3_will": {
 		"name": "Cape of Free Will (+2/+3 Will)",
@@ -51159,11 +51134,11 @@
 		"file": "magicwondrousdisplay8bfd.html",
 		"cost": 6000,
 		"slot": "shoulders",
-		"copyof": "cape_of_free_will_+1/+2_will",
+		"copyof": "cape_of_free_will_+1_+2_will",
 		"display": "magic/wondrous"
 	},
 	"cape_of_free_will_2_or_3_will": {
-		"copyof": "cape_of_free_will_+2/+3_will"
+		"copyof": "cape_of_free_will_+2_+3_will"
 	},
 	"cloak_of_heavenly_fire": {
 		"name": "Cloak of Heavenly Fire",
@@ -51937,11 +51912,11 @@
 		"file": "magicwondrousdisplay70f9.html",
 		"cost": 13500,
 		"slot": "shoulders",
-		"copyof": "pauldrons_of_unflinching_fortitude_+1/+2_fortitude",
+		"copyof": "pauldrons_of_unflinching_fortitude_+1_+2_fortitude",
 		"display": "magic/wondrous"
 	},
 	"pauldrons_of_unflinching_fortitude_3_or_4_fortitude": {
-		"copyof": "pauldrons_of_unflinching_fortitude_+3/+4_fortitude"
+		"copyof": "pauldrons_of_unflinching_fortitude_+3_+4_fortitude"
 	},
 	"cloak_of_quick_reflexes_+3_+4_reflex": {
 		"name": "Cloak of Quick Reflexes (+3/+4 Reflex)",
@@ -51949,11 +51924,11 @@
 		"file": "magicwondrousdisplay7999.html",
 		"cost": 13500,
 		"slot": "shoulders",
-		"copyof": "cloak_of_quick_reflexes_+1/+2_reflex",
+		"copyof": "cloak_of_quick_reflexes_+1_+2_reflex",
 		"display": "magic/wondrous"
 	},
 	"cloak_of_quick_reflexes_3_or_4_reflex": {
-		"copyof": "cloak_of_quick_reflexes_+3/+4_reflex"
+		"copyof": "cloak_of_quick_reflexes_+3_+4_reflex"
 	},
 	"cape_of_free_will_+3_+4_will": {
 		"name": "Cape of Free Will (+3/+4 Will)",
@@ -51961,11 +51936,11 @@
 		"file": "magicwondrousdisplay643a.html",
 		"cost": 13500,
 		"slot": "shoulders",
-		"copyof": "cape_of_free_will_+1/+2_will",
+		"copyof": "cape_of_free_will_+1_+2_will",
 		"display": "magic/wondrous"
 	},
 	"cape_of_free_will_3_or_4_will": {
-		"copyof": "cape_of_free_will_+3/+4_will"
+		"copyof": "cape_of_free_will_+3_+4_will"
 	},
 	"cloak_of_the_saga_keeper": {
 		"name": "Cloak of the Saga Keeper",
@@ -52694,11 +52669,11 @@
 		"file": "magicwondrousdisplay816b.html",
 		"cost": 24000,
 		"slot": "shoulders",
-		"copyof": "pauldrons_of_unflinching_fortitude_+1/+2_fortitude",
+		"copyof": "pauldrons_of_unflinching_fortitude_+1_+2_fortitude",
 		"display": "magic/wondrous"
 	},
 	"pauldrons_of_unflinching_fortitude_4_or_5_fortitude": {
-		"copyof": "pauldrons_of_unflinching_fortitude_+4/+5_fortitude"
+		"copyof": "pauldrons_of_unflinching_fortitude_+4_+5_fortitude"
 	},
 	"cloak_of_quick_reflexes_+4_+5_reflex": {
 		"name": "Cloak of Quick Reflexes (+4/+5 Reflex)",
@@ -52706,11 +52681,11 @@
 		"file": "magicwondrousdisplay6e8c.html",
 		"cost": 24000,
 		"slot": "shoulders",
-		"copyof": "cloak_of_quick_reflexes_+1/+2_reflex",
+		"copyof": "cloak_of_quick_reflexes_+1_+2_reflex",
 		"display": "magic/wondrous"
 	},
 	"cloak_of_quick_reflexes_4_or_5_reflex": {
-		"copyof": "cloak_of_quick_reflexes_+4/+5_reflex"
+		"copyof": "cloak_of_quick_reflexes_+4_+5_reflex"
 	},
 	"cape_of_free_will_+4_+5_will": {
 		"name": "Cape of Free Will (+4/+5 Will)",
@@ -52718,11 +52693,11 @@
 		"file": "magicwondrousdisplay4b47.html",
 		"cost": 24000,
 		"slot": "shoulders",
-		"copyof": "cape_of_free_will_+1/+2_will",
+		"copyof": "cape_of_free_will_+1_+2_will",
 		"display": "magic/wondrous"
 	},
 	"cape_of_free_will_4_or_5_will": {
-		"copyof": "cape_of_free_will_+4/+5_will"
+		"copyof": "cape_of_free_will_+4_+5_will"
 	},
 	"lycanthrope_skin_skinwalker_boar,_rat,_wolf": {
 		"name": "Lycanthrope Skin (Skinwalker) (boar, rat, wolf)",
@@ -52988,11 +52963,11 @@
 		"file": "magicwondrousdisplay885a.html",
 		"cost": 37500,
 		"slot": "shoulders",
-		"copyof": "pauldrons_of_unflinching_fortitude_+1/+2_fortitude",
+		"copyof": "pauldrons_of_unflinching_fortitude_+1_+2_fortitude",
 		"display": "magic/wondrous"
 	},
 	"pauldrons_of_unflinching_fortitude_5_or_6_fortitude": {
-		"copyof": "pauldrons_of_unflinching_fortitude_+5/+6_fortitude"
+		"copyof": "pauldrons_of_unflinching_fortitude_+5_+6_fortitude"
 	},
 	"cloak_of_quick_reflexes_+5_+6_reflex": {
 		"name": "Cloak of Quick Reflexes (+5/+6 Reflex)",
@@ -53000,11 +52975,11 @@
 		"file": "magicwondrousdisplay52ef.html",
 		"cost": 37500,
 		"slot": "shoulders",
-		"copyof": "cloak_of_quick_reflexes_+1/+2_reflex",
+		"copyof": "cloak_of_quick_reflexes_+1_+2_reflex",
 		"display": "magic/wondrous"
 	},
 	"cloak_of_quick_reflexes_5_or_6_reflex": {
-		"copyof": "cloak_of_quick_reflexes_+5/+6_reflex"
+		"copyof": "cloak_of_quick_reflexes_+5_+6_reflex"
 	},
 	"cape_of_free_will_+5_+6_will": {
 		"name": "Cape of Free Will (+5/+6 Will)",
@@ -53012,11 +52987,11 @@
 		"file": "magicwondrousdisplay4e4e.html",
 		"cost": 37500,
 		"slot": "shoulders",
-		"copyof": "cape_of_free_will_+1/+2_will",
+		"copyof": "cape_of_free_will_+1_+2_will",
 		"display": "magic/wondrous"
 	},
 	"cape_of_free_will_5_or_6_will": {
-		"copyof": "cape_of_free_will_+5/+6_will"
+		"copyof": "cape_of_free_will_+5_+6_will"
 	},
 	"plumed_mantle": {
 		"name": "Plumed Mantle",
@@ -55273,7 +55248,7 @@
 			"16th Level: Once per day, the wearer can use [find the path](spell/find_the_path) as a spell-like ability.",
 			"",
 			"**Goal:** The wearer must travel 1,000 miles by foot.  ",
-			"**Reward:** Each morning the wearer can designate one type of terrain from the [ranger's list of favored terrain](unknown/ranger_favored_terrain) as his favored terrain for the day. While in that terrain, he gains a  bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival checks. If he already has the favored terrain class feature for the chosen type of terrain, he instead increases his favored terrain bonuses for that terrain by 2."
+			"**Reward:** Each morning the wearer can designate one type of terrain from the [ranger's list of favored terrain](class/ranger) as his favored terrain for the day. While in that terrain, he gains a bonus on initiative checks and Knowledge (geography), Perception, Stealth, and Survival checks. If he already has the favored terrain class feature for the chosen type of terrain, he instead increases his favored terrain bonuses for that terrain by 2."
 		],
 		"display": "magic/wondrous"
 	},
@@ -55293,7 +55268,7 @@
 			"",
 			"Aspiring Pathfinder Society field agents are often entertained by dramatic stories featuring Ling Yayao, a near-mythic Pathfinder renowned for her ability to perform daring rescues. Though several early Pathfinder Chronicles make mention of the Tian heroine galloping to the aid of imperiled Pathfinders on her horse, Fallow Grain, some jaded agents thought Ling Yayao entirely legendary until the discovery of her intact wayfinder of cooperation in the vaults below the Grand Lodge.",
 			"",
-			"In addition to its ability to cast [light](unknown/light), as a typical [wayfinder](magic/wondrous/wayfinder), the wayfinder of cooperation can be attuned to an [ioun stone](unknown/ioun_stone) as a standard action by touching the stone to the wayfinder's sturdy rosewood casing. Once the wayfinder of cooperation is attuned, the bearer of the wayfinder of cooperation can concentrate as a standard action to sense the direction of and distance to the attuned ioun stone. This bond functions across any distance, a long as the bearer and the stone are on the same plane. The wayfinder can be attuned to only one ioun stone at a time, and the bearer can dismiss the attunement at any time as a free action.",
+			"In addition to its ability to cast [light](spell/light), as a typical [wayfinder](magic/wondrous/wayfinder), the wayfinder of cooperation can be attuned to an [ioun stone](unknown/ioun_stone) as a standard action by touching the stone to the wayfinder's sturdy rosewood casing. Once the wayfinder of cooperation is attuned, the bearer of the wayfinder of cooperation can concentrate as a standard action to sense the direction of and distance to the attuned ioun stone. This bond functions across any distance, a long as the bearer and the stone are on the same plane. The wayfinder can be attuned to only one ioun stone at a time, and the bearer can dismiss the attunement at any time as a free action.",
 			"",
 			"6th Level: The bearer increases the bonus she grants from the aid another action by 1. This does not stack with the benefits of other feats or class features that improve the bonus she grants to an ally with aid another.",
 			"",

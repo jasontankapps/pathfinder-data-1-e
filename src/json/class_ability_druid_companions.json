@@ -619,8 +619,8 @@
 			"**4th-Level Advancement:** Size Medium; Attack bite (1d6 plus trip), 2 claws (1d3); Ability Scores Str +4, Dex -2, Con +2; Special Qualities sprint."
 		]
 	},
-	"cheetah": { "copyof": "cat,_small" },
-	"leopard": { "copyof": "cat,_small" },
+	"cheetah": { "copyof": "cat,_small_cheetah,_leopard" },
+	"leopard": { "copyof": "cat,_small_cheetah,_leopard" },
 	"caterpillar,_giant": {
 		"name": "Caterpillar, Giant",
 		"searchable_name": "Giant Caterpillar",
@@ -4164,6 +4164,7 @@
 			"**7th-Level Advancement:** Size Large; AC +2 natural armor; Attack bite (1d8); Ability Scores Str +8, Dex -2, Con +4; Special Attacks grab."
 		]
 	},
+	"giant_snapping_turtle": { "copyof": "turtle,_giant_snapping" },
 	"uintatherium": {
 		"name": "Uintatherium",
 		"file": "druidcompanionsbe05.html",

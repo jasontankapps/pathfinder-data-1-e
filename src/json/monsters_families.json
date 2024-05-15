@@ -4652,7 +4652,7 @@
 			"| 17 | Target is affected by a heal spell (CL = protean's CR). |",
 			"| 18 | Target is turned to stone. |",
 			"| 19 | Target is affected by baleful polymorph (CL = protean's CR). |",
-			"| 20 | Portions of target's body burst with energy of a random type  (choose between acid, cold, electricity, or fire), dealing 4d6 points of damage of the appropriate type to the target. |"
+			"| 20 | Portions of target's body burst with energy of a random type (choose between acid, cold, electricity, or fire), dealing 4d6 points of damage of the appropriate type to the target. |"
 		],
 		"display": "monsterfamily"
 	},

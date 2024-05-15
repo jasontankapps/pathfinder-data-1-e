@@ -150,7 +150,7 @@
 			"",
 			"**Bloodline Powers:** The insidious magic of black blood grants you profane powers and hideous resistances.",
 			"",
-			"**Black Blood (Su):** At 1st level, your blood runs black with the blood of Orv. You are immune to the effects (both beneficial and destructive) of black blood. You have this benefit constantly, even while not bloodraging. When you take damage from a slashing or piercing attack while bloodraging, as an immediate action you can grant your melee attacks the [frost](unknown/frost) weapon special ability for 2 rounds. You can use this ability three times per day.",
+			"**Black Blood (Su):** At 1st level, your blood runs black with the blood of Orv. You are immune to the effects (both beneficial and destructive) of black blood. You have this benefit constantly, even while not bloodraging. When you take damage from a slashing or piercing attack while bloodraging, as an immediate action you can grant your melee attacks the [frost](magic/enhancement/frost) weapon special ability for 2 rounds. You can use this ability three times per day.",
 			"",
 			"**Abnormal Reach (Su):** At 4th level, the black blood pumping within you twists and elongates your limbs. Your reach increases by 5 feet.",
 			"",
@@ -416,7 +416,7 @@
 			"",
 			"**One with Nature (Su):** At 16th level, creatures of the animal or plant types don't attack you unless compelled to do so by magic or you attack them first. Three times per day, you can transport yourself from one tree to another tree, as [tree stride](spell/tree_stride) with half the transport range. Moving from one tree to another in this manner is a move action. You gain these abilities even while not bloodraging.",
 			"",
-			"**Fury of the Fey (Su):** At 20th level, when entering a bloodrage you can choose one type of creature (and subtype for humanoids or outsiders) that can be affected by the [bane](unknown/bane) weapon special ability. All of your melee attacks are considered to have [bane](unknown/bane) against that type. This ability doesn't stack with other forms of [bane](unknown/bane)."
+			"**Fury of the Fey (Su):** At 20th level, when entering a bloodrage you can choose one type of creature (and subtype for humanoids or outsiders) that can be affected by the [bane](magic/enhancement/bane) weapon special ability. All of your melee attacks are considered to have [bane](magic/enhancement/bane) against that type. This ability doesn't stack with other forms of [bane](magic/enhancement/bane)."
 		],
 		"short_description": "One of your ancestors was fey, or the fey realm somehow intermixed with your bloodline. It affects your bloodrage in tricky and surprising ways."
 	},
