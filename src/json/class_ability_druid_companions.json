@@ -4,7 +4,7 @@
 		"## Animal Companions",
 		"",
 		"**Source** [PRPG Core Rulebook](source/prpg_core_rulebook)  ",
-		"Each animal companion has different starting sizes, speed, attacks, ability scores, and special qualities. All animal attacks are made using the creature's full base attack bonus unless otherwise noted. Animal attacks add the animal's Strength modifier to the damage roll, unless it is its only attack, in which case it adds 1-1/2 its Strength modifier.Some have special abilities, such as [scent](unknown/scent). As you gain levels, your animal companion improves as well, usually at 4th or 7th level, in addition to the standard bonuses noted on Table: Animal Companion Base Statistics.Instead of taking the listed benefit at 4th or 7th level, you can instead choose to increase the companion's Dexterity and Constitution by 2.",
+		"Each animal companion has different starting sizes, speed, attacks, ability scores, and special qualities. All animal attacks are made using the creature's full base attack bonus unless otherwise noted. Animal attacks add the animal's Strength modifier to the damage roll, unless it is its only attack, in which case it adds 1-1/2 its Strength modifier.Some have special abilities, such as [scent](umr/scent). As you gain levels, your animal companion improves as well, usually at 4th or 7th level, in addition to the standard bonuses noted on Table: Animal Companion Base Statistics.Instead of taking the listed benefit at 4th or 7th level, you can instead choose to increase the companion's Dexterity and Constitution by 2.",
 		"",
 		"## Monstrous Companions",
 		"",
@@ -2902,14 +2902,14 @@
 		]
 	},
 	"giant_mosquito": { "copyof": "mosquito,_giant" },
-	"narwhale": {
-		"name": "Narwhale",
+	"narwhal": {
+		"name": "Narwhal",
 		"file": "druidcompanions552f.html",
 		"sources": [ "Bestiary 5" ],
 		"companion_type": "animal",
 		"short_description": "This small whale lacks a dorsal fin and has pale, mottled skin, but its most notable feature is the single tusk protruding from its nose, easily as long as a human.",
 		"description": [
-			"### Narwhale",
+			"### Narwhal",
 			"",
 			"**Source** [Bestiary 5 pg. 313](source/bestiary_5)  ",
 			"**Companion Type** Animal",

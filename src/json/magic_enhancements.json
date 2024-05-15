@@ -1620,7 +1620,7 @@
 	"moderate_fortification": {
 		"copyof": "fortification_moderate"
 	},
-	"ghost_touch": {
+	"ghost_touch_armor": {
 		"name": "ghost touch",
 		"file": "magicarmordisplay58b9.html",
 		"sources": [
@@ -1644,6 +1644,7 @@
 		],
 		"display": "magic/enhancements"
 	},
+	"ghost_touch": { "copyof": "ghost_touch_armor" },
 	"invulnerability": {
 		"name": "invulnerability",
 		"file": "magicarmordisplaya65a.html",

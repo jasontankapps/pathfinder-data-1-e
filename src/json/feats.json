@@ -11763,7 +11763,7 @@
 			"**Source** [Heroes of Golarion pg. 6](source/heroes_of_golarion)",
 			"",
 			"You can absorb magic items to gain a boost in power.  ",
-			"**Prerequisites:** Spellcraft 3 ranks, [wyrwood](unknown/wyrwood).  ",
+			"**Prerequisites:** Spellcraft 3 ranks, [wyrwood](race/wyrwood).  ",
 			"**Benefit:** Once per day as a full-round action, you can consume a single magical item in your possession. The item is destroyed upon consumption, but you regain 1d6 hit points + 1 additional hit point per caster level of the item. You also gain a +1 bonus on attack and damage rolls for a number of rounds equal to the caster level of the item."
 		],
 		"short_description": "You can destroy one of your magic items to regain hp",
@@ -23142,7 +23142,7 @@
 			"",
 			"Your magical arrows produce a wider range of powers.  ",
 			"**Prerequisites:** Enhance arrows class feature.  ",
-			"**Benefit:** You add [corrosive](magic/enhancement/corrosive) to the list of special properties you can grant your nonmagical arrows with your enhance arrows ability at 3rd level. At 5th level, you can add the [ghost touch](magic/enhancement/ghost_touch), [limning](magic/enhancement/limning), or [planar](unknown/planar) special ability instead of [distance](magic/enhancement/distance). At 7th level, you can add the corrosive burst special ability."
+			"**Benefit:** You add [corrosive](magic/enhancement/corrosive) to the list of special properties you can grant your nonmagical arrows with your enhance arrows ability at 3rd level. At 5th level, you can add the [ghost touch](magic/enhancement/ghost_touch_weapon), [limning](magic/enhancement/limning), or [planar](magic/enhancement/planar) special ability instead of [distance](magic/enhancement/distance). At 7th level, you can add the corrosive burst special ability."
 		],
 		"short_description": "Add additional magic weapon properties to your enhance arrows ability",
 		"display": "feat"
@@ -23806,7 +23806,7 @@
 			"**Source** [Heroes of Golarion pg. 6](source/heroes_of_golarion)",
 			"",
 			"Other races have difficulty reading your wooden features.  ",
-			"**Prerequisites:** [Wyrwood](unknown/wyrwood).  ",
+			"**Prerequisites:** [Wyrwood](race/wyrwood).  ",
 			"**Benefit:** Your lack of emotion make it difficult for non-wyrwoods to relate to you. When dealing with any race other than your own, you gain a +2 bonus on Bluff checks. In addition, creatures of other races take a -2 penalty on Diplomacy and Sense Motive checks attempted against you."
 		],
 		"short_description": "Gain a +2 bonus on Bluff checks against non wyrwood",
@@ -29166,7 +29166,7 @@
 			"**Source** [Heroes of Golarion pg. 6](source/heroes_of_golarion)",
 			"",
 			"You become an expert of hiding in plain sight.  ",
-			"**Prerequisites:** Stealth 5 ranks, [wyrwood](unknown/wyrwood).  ",
+			"**Prerequisites:** Stealth 5 ranks, [wyrwood](race/wyrwood).  ",
 			"**Benefit:** You gain the [freeze](umr/freeze) universal monster rule, allowing you to appear as an ordinary statue. If you attack a creature unaware of you while using this ability, you double your critical threat range. This effect doesn't stack with any other effect that expands the threat range of your attacks or weapons."
 		],
 		"short_description": "Gain the freeze universal monster ability",
@@ -39440,7 +39440,7 @@
 			"**Source** [Heroes of Golarion pg. 7](source/heroes_of_golarion)",
 			"",
 			"You can create a magic link between your ioun heart and an ioun stone in your possession.  ",
-			"**Prerequisites:** [Wyrwood](unknown/wyrwood).  ",
+			"**Prerequisites:** [Wyrwood](race/wyrwood).  ",
 			"**Benefit:** As a standard action, you can create a link between your ioun core and an active [ioun stone](magic/wondrous/ioun_stone) you hold or carry. For as long as you gain the benefits of the linked stone, any numerical bonuses and penalties granted by the stone are increased by 1. You can maintain a link with only one ioun stone at a time. Creating a link to a new stone ends any previous links."
 		],
 		"short_description": "Increase the bonus gained from an ioun stone in your possession",
@@ -47950,7 +47950,7 @@
 			"**Source** [Pathfinder #139: The Dead Road pg. 71](source/pathfinder_#139_the_dead_road)",
 			"",
 			"Even the lowliest psychopomp can sniff out the undead. A whippoorwill in a papier-mache' mask taught you how to do it.  ",
-			"**Prerequisites:** [Duskwalker](unknoracewn/duskwalker).  ",
+			"**Prerequisites:** [Duskwalker](race/duskwalker).  ",
 			"**Benefit:** You can cast [detect undead](spell/detect_undead) as a spell-like ability at will. Your caster level for the purpose of this effect is equal to your character level."
 		],
 		"short_description": "Gain detect undead as an at-will spell-like ability",
@@ -48122,7 +48122,7 @@
 			"**Source** [Heroes of Golarion pg. 7](source/heroes_of_golarion)",
 			"",
 			"You can use your body as an implement to focus spells.  ",
-			"**Prerequisites:** Caster level 5th, implements class feature, mental focus class feature, [wyrwood](unknown/wyrwood).  ",
+			"**Prerequisites:** Caster level 5th, implements class feature, mental focus class feature, [wyrwood](race/wyrwood).  ",
 			"**Benefit:** You can invest mental focus in your body rather than an implement. When you invest mental focus this way, you treat your body as an implement of any implement school you know. You do not gain the resonant power for the chosen school, but you treat your occultist level as 1 higher for the purposes of that school's focus powers. You can change which implement school is tied to your body when you invest your chosen implements for the day."
 		],
 		"short_description": "Gain the ability to invest mental focus in your body instead of an implement",
@@ -59421,7 +59421,7 @@
 			"**Source** [Inner Sea Races pg. 209](source/inner_sea_races)",
 			"",
 			"The concept of ownership is rather flexible among you and your friends.  ",
-			"**Prerequisites:** [Well-Prepared](unknown/well-prepared), Sleight of Hand 1 rank, halfling.  ",
+			"**Prerequisites:** [Well-Prepared](feat/well-prepared), Sleight of Hand 1 rank, halfling.  ",
 			"**Benefit:** Whenever you're within 30 feet of a halfling ally who also has this feat, as a move action you can draw an item in that ally's possession as if it were on your person. This is not a magical effect-you just conveniently happen to remember that you had borrowed that item earlier. The item must be something that easily fits in a pocket or sleeve, such as a dagger, potion, wand, or scroll. When you or an ally draw an item (whether or not you do so using Shared Ownership) or otherwise definitively establish who is holding the item, you can't use Shared Ownership to draw the item in this manner until you have had at least 1 hour to mingle with your companions."
 		],
 		"short_description": "You can draw an item in an ally's possession as a move action as long as the ally is within 30 feet and has this feat",
@@ -73650,7 +73650,7 @@
 			"**Source** [Mythic Adventures pg. 76](source/mythic_adventures)",
 			"",
 			"Your mount can make heroic leaps.  ",
-			"**Prerequisites:** [Mounted Combat](unknown/mounted_combat), [Ride-By Attack](feat/ride-by_attack), Ride 5 ranks.  ",
+			"**Prerequisites:** [Mounted Combat](feat/mounted_combat), [Ride-By Attack](feat/ride-by_attack), Ride 5 ranks.  ",
 			"**Benefit:** Your mount is always considered to have a running start when using Acrobatics to jump. You can expend one use of mythic power to grant your mount a +10 bonus on an Acrobatics check, or a +20 bonus if the check is made to jump.",
 			"",
 			"When making a mounted charge, you can guide your mount to leap over a foe between your starting position and the target of your charge. You make a Ride check or your mount makes an Acrobatics check (whichever is lower) during the charge, using the rules for the leap task under the Ride skill. If the height you clear with that check exceeds the creature's height, you jump over it and continue your charge on the opposite side. This movement provokes attacks of opportunity. Alternatively, you can vault over your target while making a Ride-By Attack, allowing you to move over or through its space and continue moving on the opposite side of it. If your jump exceeds the target's height, you gain a +1 bonus on the attack roll for higher ground, and if any of your allies threatens the target, you treat the target as flanked for purposes of your Ride-By Attack."

@@ -5989,7 +5989,7 @@
 			"**Aura** strong divination; **CL** 15th  ",
 			"**Slot** eyes; **Price** 15,000 gp; **Weight** 1 lb.",
 			"",
-			"This set of goggles is engraved with geometric patterns and arcane runes. The wearer can immediately see and discern magical auras within 60 feet, as [arcane sight](spell/arcane_sight). In addition, the wearer is more clearly able to see the animating forces of incorporeal creatures and can therefore harm incorporeal creatures with nonmagical attacks, though these attacks deal only half damage. If the wearer uses a magic weapon to attack an incorporeal creature, the attack deals full damage instead. The goggles have no effect on attacks made with [ghost touch](magic/enhancement/ghost_touch) weapons.",
+			"This set of goggles is engraved with geometric patterns and arcane runes. The wearer can immediately see and discern magical auras within 60 feet, as [arcane sight](spell/arcane_sight). In addition, the wearer is more clearly able to see the animating forces of incorporeal creatures and can therefore harm incorporeal creatures with nonmagical attacks, though these attacks deal only half damage. If the wearer uses a magic weapon to attack an incorporeal creature, the attack deals full damage instead. The goggles have no effect on attacks made with [ghost touch](magic/enhancement/ghost_touch_weapon) weapons.",
 			"",
 			"Once per day on command, the wearer can amplify the goggles' ability to sense animating forces for 1 hour. This amplification allows the wearer the ability to notice, locate, and distinguish between living and undead creatures within 30 feet, just as if she had a psychopomp's [spiritsense](unknown/spiritsense) ability . The goggles do not grant the wearer the ability to discern magical auras while amplified.",
 			"",
@@ -11315,7 +11315,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [misdirection](unknown/misdirection), [remove disease](spell/remove_disease); **Cost** 1,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [misdirection](spell/misdirection), [remove disease](spell/remove_disease); **Cost** 1,000 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -16439,11 +16439,11 @@
 			"**Aura** strong enchantment; **CL** 15th  ",
 			"**Slot** headband; **Price** 189,000 gp; **Weight** -;",
 			"",
-			"This elegant headband has an intricately carved crystal located in its center. The crystal shimmers with arcane energy. The wearer can remove or replace this crystal as a swift action. As a standard action, the wearer can attempt to force the gem onto a construct's body with a touch attack that provokes an attack of opportunity. Once the crystal is attached to a construct, the construct must succeed at a DC 23 Will save or become dominated by the crystal and follow the orders of whomever is wearing the headband. The wearer of the headband can assume direct control of the construct as a full-round action, controlling all of the construct's actions as [possession](unknown/possession). The wearer can end this control at any time as a free action. The wearer can remove the crystal from a construct as a standard action, allowing the wearer to use the crystal on a different construct and returning control of the construct to its original master. If the construct is destroyed while the crystal is attached, there is a 10% chance that the crystal is destroyed along with the construct.",
+			"This elegant headband has an intricately carved crystal located in its center. The crystal shimmers with arcane energy. The wearer can remove or replace this crystal as a swift action. As a standard action, the wearer can attempt to force the gem onto a construct's body with a touch attack that provokes an attack of opportunity. Once the crystal is attached to a construct, the construct must succeed at a DC 23 Will save or become dominated by the crystal and follow the orders of whomever is wearing the headband. The wearer of the headband can assume direct control of the construct as a full-round action, controlling all of the construct's actions as [possession](spell/possession). The wearer can end this control at any time as a free action. The wearer can remove the crystal from a construct as a standard action, allowing the wearer to use the crystal on a different construct and returning control of the construct to its original master. If the construct is destroyed while the crystal is attached, there is a 10% chance that the crystal is destroyed along with the construct.",
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [dominate monster](spell/dominate_monster), [possession](unknown/possession); **Cost** 94,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [dominate monster](spell/dominate_monster), [possession](spell/possession); **Cost** 94,500 gp"
 		],
 		"display": "magic/wondrous"
 	},
@@ -31685,7 +31685,7 @@
 			"",
 			"Coral ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [keen edge](spell/keen_edge), [limited wish](spell/limited_wish), and [water breathing](unknown/water_breathing). The reader can treat her caster level as 2 levels higher than normal for the purpose of crafting a [coral golem](monster/coral_golem).; **Aura** moderate enchantment and transmutation; **CL** 11th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [keen edge](spell/keen_edge), [limited wish](spell/limited_wish), [water breathing](unknown/water_breathing), creator must be caster level 11th.",
 			"",
-			"Crystal ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), [possession](unknown/possession), and [thoughtsense](unknown/thoughtsense). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a [crystal golem](monster/crystal_golem).; **Aura** strong divination, enchantment, and necromancy; **CL** 15th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), [possession](unknown/possession), [thoughtsense](unknown/thoughtsense), creator must be caster level 15th.",
+			"Crystal ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), [possession](spell/possession), and [thoughtsense](unknown/thoughtsense). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a [crystal golem](monster/crystal_golem).; **Aura** strong divination, enchantment, and necromancy; **CL** 15th; [Craft Construct](feat/craft_construct), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), [possession](spell/possession), [thoughtsense](unknown/thoughtsense), creator must be caster level 15th.",
 			"",
 			"Dragonhide ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [create greater undead](spell/create_greater_undead), [form of the dragon I](spell/form_of_the_dragon_1), [geas/quest](spell/geas_quest), and [limited wish](spell/limited_wish). The reader can treat her caster level as 3 levels higher than normal for the purpose of crafting a [dragonhide golem](monster/dragonhide_golem).; **Aura** strong enchantment, necromancy, and transmutation; **CL** 16th; [Craft Construct](feat/craft_construct), [create greater undead](spell/create_greater_undead), [form of the dragon I](spell/form_of_the_dragon_1), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), creator must be caster level 16th.",
 			"",
@@ -31719,7 +31719,7 @@
 			"",
 			"Stone Guardian ([Ultimate Equipment pg. 300](source/ultimate_equipment), [PRPG Core Rulebook pg. 1](source/prpg_core_rulebook)): The book contains antimagic field, discern location, geas/quest, limited wish, shield other, and symbol of stunning. The reader may treat her caster level as three levels higher than normal for the purpose of crafting a stone golem guardian.; **Aura** strong abjuration and enchantment; **CL** 14th; Craft Construct, antimagic field discern location, geas/quest, limited wish, shield other, symbol of stunning, creator must be caster level 14th.",
 			"",
-			"Viridium ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [contagion](spell/contagion), [geas/quest](spell/geas_quest), [horrid wilting](spell/horrid_wilting), [poison](unknown/poison), and [wish](spell/wish). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [viridium golem](monster/viridium_golem).; **Aura** strong enchantment and necromancy [evil]; **CL** 18th; [Craft Construct](feat/craft_construct), [contagion](spell/contagion), [geas/quest](spell/geas_quest), [horrid wilting](spell/horrid_wilting), [poison](unknown/poison), [wish](spell/wish), creator must be caster level 18th.",
+			"Viridium ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [contagion](spell/contagion), [geas/quest](spell/geas_quest), [horrid wilting](spell/horrid_wilting), [poison](spell/poison), and [wish](spell/wish). The reader can treat her caster level as 4 levels higher than normal for the purpose of crafting a [viridium golem](monster/viridium_golem).; **Aura** strong enchantment and necromancy [evil]; **CL** 18th; [Craft Construct](feat/craft_construct), [contagion](spell/contagion), [geas/quest](spell/geas_quest), [horrid wilting](spell/horrid_wilting), [poison](spell/poison), [wish](spell/wish), creator must be caster level 18th.",
 			"",
 			"Wax ([Construct Handbook pg. 17](source/construct_handbook)): The book contains [animate objects](spell/animate_objects), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), and [silent image](spell/silent_image). The reader can treat her caster level as 1 level higher than normal for the purpose of crafting a [wax golem](monster/wax_golem).; **Aura** moderate enchantment, illusion, and transmutation; **CL** 9th; [Craft Construct](feat/craft_construct), [animate objects](spell/animate_objects), [geas/quest](spell/geas_quest), [limited wish](spell/limited_wish), and [silent image](spell/silent_image), creator must be caster level 9th.",
 			"",
@@ -43729,7 +43729,7 @@
 			"",
 			"The owner of a third eye can use it to see through the donor creature's remaining eye. The third eye can also be attuned to specially prepared bloodstones, allowing the user to observe things in each bloodstone's vicinity as if the bloodstone were an eye as well. Preparing a bloodstone in this manner requires soaking it in a potion of [clairvoyance/clairaudience](unknown/clairvoyance_clairaudience) for a week, at the end of which the owner drinks the potion and spits the bloodstone into the hand bearing the third eye. These bloodstones are often incorporated into magic items like phylacteries, rings, and amulets, allowing the user to gift such items to other creatures and thus gain a new viewpoint. This remote viewing ability functions at any range as long as the owner is on the same plane at the bloodstone. It also allows the owner to cast [clairaudience/clairvoyance](spell/clairaudience_clairvoyance) up to three times per day.",
 			"",
-			"As long as the third eye is open in a hand that isn't holding an object, the owner has all-round vision, gaining a +4 bonus on Perception checks and making it impossible to flank the owner. [Rakshasas](unknown/rakshasas), whose fingers bend backwards, can use the powers of their third eyes while holding objects since their third eyes effectively look out of the \"backs\" of their hands.",
+			"As long as the third eye is open in a hand that isn't holding an object, the owner has all-round vision, gaining a +4 bonus on Perception checks and making it impossible to flank the owner. [Rakshasas](monster/rakshasa), whose fingers bend backwards, can use the powers of their third eyes while holding objects since their third eyes effectively look out of the \"backs\" of their hands.",
 			"",
 			"A third eye cannot be transferred between creatures-if removed from the owner's body, a third eye is destroyed. A third eye that remains in the owner's palm but is damaged or otherwise permanently blinded becomes useless until a [remove blindness](unknown/remove_blindness) spell is cast upon it.",
 			"",
@@ -55373,7 +55373,7 @@
 			"",
 			"8th Level: The wearer can use [hold portal](spell/hold_portal) at will as a spell-like ability, though he can have only one portal held by this ability at a time. Should he use the ability again while the spell is already active, the first casting is immediately dismissed.",
 			"",
-			"11th Level: Weapons wielded by the wearer gain the [ghost touch](magic/enhancement/ghost_touch) weapon property.",
+			"11th Level: Weapons wielded by the wearer gain the [ghost touch](magic/enhancement/ghost_touch_weapon) weapon property.",
 			"",
 			"14th Level: The wearer can use [guards and wards](spell/guards_and_wards) once per day as a spell-like ability.",
 			"",
