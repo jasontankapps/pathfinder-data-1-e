@@ -237,7 +237,7 @@
 			"",
 			"### Destruction",
 			"",
-			"This unique [ioun stone](unknown/ioun_stone) is infused with powerful positive energy. In order to destroy it, the stone must be cast into the Negative Energy Plane, where it can be shattered after floating through the entropy for at least 1 week."
+			"This unique [ioun stone](magic/wondrous/ioun_stone) is infused with powerful positive energy. In order to destroy it, the stone must be cast into the Negative Energy Plane, where it can be shattered after floating through the entropy for at least 1 week."
 		],
 		"display": "magic/artifact"
 	},
@@ -1767,7 +1767,7 @@
 			"**Aura** strong abjuration; **CL** 16th  ",
 			"**Slot** none; **Price** -; **Weight** -",
 			"",
-			"In addition to serving as a vessel for Auberon's soul, the jaundiced skull ioun stone is a potent artifact with two protections against detection. First, when active, the [ioun stone](unknown/ioun_stone) is invisible as it orbits the bearer's head. Secondly, the jaundiced skull ioun stone is immune to divination effects.",
+			"In addition to serving as a vessel for Auberon's soul, the jaundiced skull ioun stone is a potent artifact with two protections against detection. First, when active, the [ioun stone](magic/wondrous/ioun_stone) is invisible as it orbits the bearer's head. Secondly, the jaundiced skull ioun stone is immune to divination effects.",
 			"",
 			"If a [lich](monster/template/lich) activates this ioun stone, it can use its paralyzing touch as a ranged touch attack to a distance of 60 feet. In addition, if the lich whose soul is stored within the jaundiced skull ioun stone is slain and someone else takes possession of the artifact, the rate at which the lich rejuvenates is accelerated, as the ioun stone begins sapping the life force from its current bearer. The stone's bearer quickly rots, taking 1 point of Constitution drain initially and every hour thereafter while it is activated unless the bearer succeeds at a DC 25 Fortitude save. The creature bearing the ioun stone receives a new saving throw each time it would be subjected to Constitution drain. As long as the ioun stone has dealt at least 1 point of Constitution drain, the deterioration assists in the reformation of the lich's body, reducing the time required for rejuvenation to 1d10 hours instead of the normal 1d10 days.",
 			"",
@@ -2749,7 +2749,7 @@
 			"",
 			"### Destruction",
 			"",
-			"This stone can be destroyed like any other [ioun stone](unknown/ioun_stone), except it has AC 26, 50 hit points, and hardness 10."
+			"This stone can be destroyed like any other [ioun stone](magic/wondrous/ioun_stone), except it has AC 26, 50 hit points, and hardness 10."
 		],
 		"display": "magic/artifact"
 	},
@@ -3353,7 +3353,7 @@
 			"",
 			"### Destruction",
 			"",
-			"This stone can be destroyed like any other [ioun stone](unknown/ioun_stone), except it has AC 26, 50 hit points, and hardness 10."
+			"This stone can be destroyed like any other [ioun stone](magic/wondrous/ioun_stone), except it has AC 26, 50 hit points, and hardness 10."
 		],
 		"display": "magic/artifact"
 	},
@@ -4421,7 +4421,7 @@
 			"",
 			"### Destruction",
 			"",
-			"This stone can be destroyed like any other [ioun stone](unknown/ioun_stone), except it has AC 26, 50 hit points, and hardness 10."
+			"This stone can be destroyed like any other [ioun stone](magic/wondrous/ioun_stone), except it has AC 26, 50 hit points, and hardness 10."
 		],
 		"display": "magic/artifact"
 	},
