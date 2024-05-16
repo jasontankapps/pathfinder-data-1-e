@@ -1,40 +1,8 @@
 {
-	"_prefix": "class_abilities-druid_companion",
-	"_description": [
-		"## Animal Companions",
-		"",
-		"**Source** [PRPG Core Rulebook](source/prpg_core_rulebook)  ",
-		"Each animal companion has different starting sizes, speed, attacks, ability scores, and special qualities. All animal attacks are made using the creature's full base attack bonus unless otherwise noted. Animal attacks add the animal's Strength modifier to the damage roll, unless it is its only attack, in which case it adds 1-1/2 its Strength modifier.Some have special abilities, such as [scent](umr/scent). As you gain levels, your animal companion improves as well, usually at 4th or 7th level, in addition to the standard bonuses noted on Table: Animal Companion Base Statistics.Instead of taking the listed benefit at 4th or 7th level, you can instead choose to increase the companion's Dexterity and Constitution by 2.",
-		"",
-		"## Monstrous Companions",
-		"",
-		"**Source** [Inner Sea Combat](source/inner_sea_combat)  ",
-		"Fantastical mounts are not uncommon in the Inner Sea region, rife as it is with magic and the extraordinary. The Monstrous Mount Choices section below details monsters that are ridden primarily by cavaliers, rangers, and paladins. Taking on a monstrous mount requires [a feat](feat/monstrous_mount), but otherwise uses the rules for the animal companion class feature. Unlocking the most useful abilities and powerful attacks of a monstrous mount requires [a second feat](feat/monstrous_mount_mastery).",
-		"",
-		"## Plant Companions",
-		"",
-		"**Source** ([Ultimate Wilderness](source/ultimate_wilderness))  ",
-		"Plant companions have a variety of different starting sizes, speed, attacks, ability scores, and special qualities. All plant companion attacks are made using the creature's full base attack bonus unless otherwise noted. Plant companion attacks add the plant's Strength modifier on the damage roll, unless it has only one attack, in which case it adds 1-1/2 times its Strength modifier. Some plant companions have special abilities, such as scent. Plant companions can't gain armor or weapon proficiency feats even as they advance in Hit Dice, and they can't use manufactured weapons at all unless their description says otherwise.",
-		"",
-		"Plant companions are typically suitable only for specific archetypes, such as the treesinger druid archetype, but with the GM's permission, any druid could select a plant companion.",
-		"",
-		"**Trip:** Because many plant companions have several rootlike legs, they are very difficult to trip. As a result, a CMD entry has been included for each, indicating the bonus to CMD such plants receive against trip attacks.",
-		"",
-		"## Vermin Companions",
-		"",
-		"**Source** [Ultimate Magic](source/ultimate_magic)  ",
-		"Vermin companions follow the same rules as animal companions, advancing their Hit Dice and other abilities per the animal companion base statistics table. Vermin companions can be trained as if they were animals using the Handle Animal skill.",
-		"",
-		"**Mindless:** Vermin companions have no Intelligence score and possess the mindless trait. In spite of this, vermin companions may learn one trick, plus additional bonus tricks. If a vermin animal companion gains an ability score increase (at 4 Hit Dice, 8 Hit Dice, and so on), the druid can apply this increase to the companion's Intelligence, changing it from - to 1, at which point the companion loses the mindless quality and is able to know up to 3 tricks per point of Intelligence, plus the additional bonus tricks. Vermin companions have no skill points or feats as long as they have the mindless quality.",
-		"",
-		"**Trip:** Because many vermin have multiple limbs, they are very difficult to trip. As a result, a CMD entry has been included for each, indicating the bonus to CMD such vermin receive against trip attacks."
-	],
 	"amargasaurus": {
 		"name": "Amargasaurus",
 		"file": "druidcompanionsdc13.html",
 		"sources": [ "Bestiary 6" ],
-		"companion_type": "animal",
-		"short_description": "This sauropod has an elongated neck and a long, tapering tail.",
 		"description": [
 			"### Amargasaurus",
 			"",
@@ -52,8 +20,6 @@
 		"name": "Anglerfish",
 		"file": "druidcompanions7d1e.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "The anglerfish is a fish that uses a bioluminescent lure at the tip of a stalk protruding from its head to attract prey.",
 		"description": [
 			"### Anglerfish",
 			"",
@@ -72,8 +38,6 @@
 		"searchable_name": "Giant Ant",
 		"file": "druidcompanionsaa24.html",
 		"sources": [ "Ultimate Magic" ],
-		"companion_type": "vermin",
-		"short_description": "A thin, six-legged ant the size of a pony stands at the ready, its mandibles chittering and its stinger dripping with venom.",
 		"description": [
 			"### Ant, Giant",
 			"",
@@ -94,8 +58,6 @@
 		"name": "Antelope",
 		"file": "druidcompanionsf593.html",
 		"sources": [ "Bestiary 3" ],
-		"companion_type": "animal",
-		"short_description": "This graceful animal has long slender legs and a pair of sharp, sturdy horns arching back from its head.",
 		"description": [
 			"### Antelope",
 			"",
@@ -115,8 +77,6 @@
 		"name": "Ape",
 		"file": "druidcompanions41ce.html",
 		"sources": [ "PRPG Core Rulebook" ],
-		"companion_type": "animal",
-		"short_description": "Large, deep-set eyes peer from beneath this great ape's thick brow as it lumbers forward on its legs and knuckles.",
 		"description": [
 			"### Ape",
 			"",
@@ -136,8 +96,6 @@
 		"name": "Archaeopyeryx",
 		"file": "druidcompanions2266.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "This primeval toothed bird has bright plumage, but it is a relatively poor flyer.",
 		"description": [
 			"### Archaeopyeryx",
 			"",
@@ -157,8 +115,6 @@
 		"name": "Armorfish",
 		"file": "druidcompanionsc43d.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "The armorfish is a primeval aquatic creature that has exceptionally thick armored scales along its head and back.",
 		"description": [
 			"### Armorfish",
 			"",
@@ -177,8 +133,6 @@
 		"searchable_name": "Giant Assassin Bug",
 		"file": "druidcompanionsd6b0.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "vermin",
-		"short_description": "This long-legged, beetle-like insect can spew a stream of poison at its foes from a distance.",
 		"description": [
 			"### Assassin Bug, Giant",
 			"",
@@ -199,8 +153,6 @@
 		"name": "Aurochs",
 		"file": "druidcompanionsab4a.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"companion_type": "animal",
-		"short_description": "This large, horned bull has a dirty black hide and an aggressive temper. Its horns are wide and sharp.",
 		"description": [
 			"### Aurochs",
 			"",
@@ -213,15 +165,16 @@
 			"",
 			"**Starting Statistics:** Size Medium; Speed 40 ft.; AC +1 natural armor; Attack gore (1d6); Ability Scores Str 14, Dex 12, Con 12, Int 2, Wis 11, Cha 4; Special Qualities low-light vision, scent",
 			"",
-			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack gore (1d8); Ability Scores Str +8, Dex -2, Con +4; Special Attacks stampede, trample."
+			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack gore (1d8); Ability Scores Str +8, Dex -2, Con +4; Special Attacks stampede, trample.",
+			"",
+			"Bison companions are identical to aurochs animal companions."
 		]
 	},
+	"auroch": { "copyof": "aurochs" },
 	"axe_beak": {
 		"name": "Axe Beak",
 		"file": "druidcompanions6014.html",
 		"sources": [ "Bestiary 3" ],
-		"companion_type": "animal",
-		"short_description": "This stout bird stands upon two long, muscular legs, each ending in a large, curved talon. A pair of undersized wings sprouts from amid its broad body feathers, as does a powerful neck ending in an avian head armed with a grisly serrated beak.",
 		"description": [
 			"### Axe Beak",
 			"",
@@ -241,8 +194,6 @@
 		"name": "Baboon",
 		"file": "druidcompanions0794.html",
 		"sources": [ "Bestiary 2" ],
-		"companion_type": "animal",
-		"short_description": "A hairy, stout animal with opposable thumbs, this creature has a pronounced muzzle and bright red buttocks.",
 		"description": [
 			"### Baboon",
 			"",
@@ -262,8 +213,6 @@
 		"name": "Bacallia",
 		"file": "druidcompanionsb8e4.html",
 		"sources": [ "Druma, Profit and Prophecy" ],
-		"companion_type": "animal",
-		"short_description": "This animal resembles an alpaca with voluminous, shiny wool.",
 		"description": [
 			"### Bacallia",
 			"",
@@ -284,8 +233,6 @@
 		"searchable_name": "Badger",
 		"file": "druidcompanionscbd7.html",
 		"sources": [ "PRPG Core Rulebook" ],
-		"companion_type": "animal",
-		"short_description": "This stocky, muscular mammal is the size of a badger, its snarling lips revealing a mouth full of yellow teeth.",
 		"description": [
 			"### Badger (Wolverine)",
 			"",
@@ -306,8 +253,6 @@
 		"name": "Bear",
 		"file": "druidcompanions5285.html",
 		"sources": [ "PRPG Core Rulebook" ],
-		"companion_type": "animal",
-		"short_description": "Broad, powerful muscles move beneath this massive bear's brown fur, promising both speed and lethal force.",
 		"description": [
 			"### Bear",
 			"",
@@ -328,8 +273,6 @@
 		"searchable_name": "Giant Beetle",
 		"file": "druidcompanions1e74.html",
 		"sources": [ "Ultimate Magic" ],
-		"companion_type": "vermin",
-		"short_description": "With a sleek body and huge mandibles raised in a threatening pose, this large beetle stands firm in defense of its territory.",
 		"description": [
 			"### Beetle, Giant",
 			"",
@@ -349,8 +292,6 @@
 		"searchable_name": "Bird",
 		"file": "druidcompanions0451.html",
 		"sources": [ "PRPG Core Rulebook" ],
-		"companion_type": "animal",
-		"short_description": "This magnificent bird of prey has dark feathers save for those on its head, which are pure white.",
 		"description": [
 			"### Bird (Eagle/Hawk/Owl)",
 			"",
@@ -373,8 +314,6 @@
 		"name": "Blackwisp Egret",
 		"file": "druidcompanions10f6.html",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
-		"companion_type": "animal",
-		"short_description": "This jet-black bird has a long, hooked beak. Its piercing orange eyes reflect any light that hits them, making them appear to glow ominously.",
 		"description": [
 			"### Blackwisp Egret",
 			"",
@@ -394,8 +333,6 @@
 		"name": "Blue Whale",
 		"file": "druidcompanionsb831.html",
 		"sources": [ "Bestiary 5" ],
-		"companion_type": "animal",
-		"short_description": "This massive aquatic mammal has bluish-gray coloration, a wide fluke tail, and a wide mouth filled with layers of baleen.",
 		"description": [
 			"### Blue Whale",
 			"",
@@ -415,8 +352,6 @@
 		"name": "Boar",
 		"file": "druidcompanionsea21.html",
 		"sources": [ "PRPG Core Rulebook" ],
-		"companion_type": "animal",
-		"short_description": "This ill-tempered beast's tiny, bloodshot eyes glare angrily above a mouth filled with sharp tusks.",
 		"description": [
 			"### Boar",
 			"",
@@ -436,8 +371,6 @@
 		"name": "Bristle Boar",
 		"file": "druidcompanionsf533.html",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
-		"companion_type": "animal",
-		"short_description": "The vicious spines surrounding this boar's head are almost as unnerving as the wild look in its eyes.",
 		"description": [
 			"### Bristle Boar",
 			"",
@@ -457,8 +390,6 @@
 		"name": "Brontotherium",
 		"file": "druidcompanionsb4b4.html",
 		"sources": [ "Bestiary 6" ],
-		"companion_type": "animal",
-		"short_description": "This stocky quadruped's lowered head puts its intimidating Y-shaped horn on full display.",
 		"description": [
 			"### Brontotherium",
 			"",
@@ -476,8 +407,6 @@
 		"name": "Bull of Zagresh",
 		"file": "druidcompanionse93d.html",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
-		"companion_type": "animal",
-		"short_description": "This immense bovine has horns reminiscent of a stag, with daggerlike points spreading more than fifteen feet across.",
 		"description": [
 			"### Bull of Zagresh",
 			"",
@@ -497,8 +426,6 @@
 		"name": "Bustard",
 		"file": "druidcompanionse899.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "The bustard is a sizable bird with long legs. Bustards can fly, but they do so relatively poorly and prefer to walk or run.",
 		"description": [
 			"### Bustard",
 			"",
@@ -516,8 +443,6 @@
 		"name": "Camel",
 		"file": "druidcompanions5a78.html",
 		"sources": [ "PRPG Core Rulebook" ],
-		"companion_type": "animal",
-		"short_description": "This somewhat irritated-looking, one-humped camel has been outfitted with a bridle and saddle.",
 		"description": [
 			"### Camel",
 			"",
@@ -537,8 +462,6 @@
 		"name": "Cameroceras",
 		"file": "druidcompanionsa97d.html",
 		"sources": [ "Bestiary 5" ],
-		"companion_type": "animal",
-		"short_description": "Emerging from the open end of a long, conical shell, this huge creature's unblinking eyes peer from above a mass of tentacles.",
 		"description": [
 			"### Cameroceras",
 			"",
@@ -558,8 +481,6 @@
 		"name": "Capybara",
 		"file": "druidcompanions4805.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "This large, brown-furred rodent is equally at home on land or in the water, and is often found near lakes and rivers.",
 		"description": [
 			"### Capybara",
 			"",
@@ -578,8 +499,6 @@
 		"searchable_name": "Big Cat",
 		"file": "druidcompanions3165.html",
 		"sources": [ "PRPG Core Rulebook" ],
-		"companion_type": "animal",
-		"short_description": "This great cat's muscles flex visibly under its skin as it bares its fangs and shakes its thick mane of hair.",
 		"description": [
 			"### Cat, Big (Lion, Tiger)",
 			"",
@@ -602,8 +521,6 @@
 		"searchable_name": "Small Cat",
 		"file": "druidcompanions6e6b.html",
 		"sources": [ "PRPG Core Rulebook" ],
-		"companion_type": "animal",
-		"short_description": "This large, sleek feline has a golden coat spotted with black. Its long and powerful legs are obviously capable of great speed.",
 		"description": [
 			"### Cat, Small (Cheetah, Leopard)",
 			"",
@@ -626,8 +543,6 @@
 		"searchable_name": "Giant Caterpillar",
 		"file": "druidcompanionsd7de.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "vermin",
-		"short_description": "This many-legged wormlike creature is a larval form of a moth or butterfly, but as long as it remains a vermin companion, it will not go through this metamorphosis.",
 		"description": [
 			"### Caterpillar, Giant",
 			"",
@@ -646,8 +561,6 @@
 		"name": "Cattle",
 		"file": "druidcompanions41c2.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "Commonly seen as a docile farm animal, an ill-tempered bull or cow can be an effective animal companion as well.",
 		"description": [
 			"### Cattle",
 			"",
@@ -667,8 +580,6 @@
 		"name": "Cave Salamander",
 		"file": "druidcompanions4d5d.html",
 		"sources": [ "Monster Codex" ],
-		"companion_type": "animal",
-		"short_description": "This immense lizard moves with a slow but relentless gait. Its feet end in large talons, and ropes of drool hang from its toothy maw.",
 		"description": [
 			"### Cave Salamander",
 			"",
@@ -689,8 +600,6 @@
 		"searchable_name": "Giant Centipede",
 		"file": "druidcompanionse84d.html",
 		"sources": [ "Ultimate Magic" ],
-		"companion_type": "vermin",
-		"short_description": "This lengthy, segmented horror writhes and twists, pulsing its venomous mandibles in search of prey.",
 		"description": [
 			"### Centipede, Giant",
 			"",
@@ -711,8 +620,6 @@
 		"name": "Ceratosaurus",
 		"file": "druidcompanionscacf.html",
 		"sources": [ "Bestiary 5" ],
-		"companion_type": "animal",
-		"short_description": "Bladelike horns jut from the snout and eye ridges of this toothy, bipedal dinosaur.",
 		"description": [
 			"### Ceratosaurus",
 			"",
@@ -730,8 +637,6 @@
 		"name": "Chalicotherium",
 		"file": "druidcompanions3795.html",
 		"sources": [ "Bestiary 5" ],
-		"companion_type": "animal",
-		"short_description": "This huge, rather slow-moving and slothlike creature has long, clawed forelimbs and short rear legs.",
 		"description": [
 			"### Chalicotherium",
 			"",
@@ -749,8 +654,6 @@
 		"name": "Chimpanzee",
 		"file": "druidcompanionsa27f.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "This small primate is more dangerous than its size suggests.",
 		"description": [
 			"### Chimpanzee",
 			"",
@@ -769,8 +672,6 @@
 		"searchable_name": "Giant Cockroach",
 		"file": "druidcompanionsb307.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "vermin",
-		"short_description": "Swift and unsettling, the giant cockroach is notoriously difficult to slay. These creatures prefer dark places and seem to have no opposition to crawling through filth.",
 		"description": [
 			"### Cockroach, Giant",
 			"",
@@ -792,8 +693,6 @@
 		"searchable_name": "Corpse Eater Fungus",
 		"file": "druidcompanions3ad9.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "plant",
-		"short_description": "This pale mass of fungal matter looks something like a spider with a thorny, acidic mouth in place of a body.",
 		"description": [
 			"### Corpse-Eater Fungus",
 			"",
@@ -812,8 +711,6 @@
 		"searchable_name": "Giant Crab",
 		"file": "druidcompanions98a7.html",
 		"sources": [ "Ultimate Magic" ],
-		"companion_type": "vermin",
-		"short_description": "This lumbering hard-shelled crab stands as tall as a dwarf, its massive pincers waving menacingly.",
 		"description": [
 			"### Crab, Giant",
 			"",
@@ -834,8 +731,6 @@
 		"name": "Creeping Puffball",
 		"file": "druidcompanions80ad.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "plant",
-		"short_description": "This surprisingly mobile, multicolored ball of fungus crawls around on a nest of dozens of little filament-like \"legs.\" Its poisonous spores cause those affected to endure bright, dazzling spots of color.",
 		"description": [
 			"### Creeping Puffball",
 			"",
@@ -854,8 +749,6 @@
 		"searchable_name": "Crocodile",
 		"file": "druidcompanionsa3e2.html",
 		"sources": [ "PRPG Core Rulebook" ],
-		"companion_type": "animal",
-		"short_description": "This reptile lunges out of the placid water with shocking speed. Its jaw gapes open in a roar, its powerful tail lashing behind.",
 		"description": [
 			"### Crocodile (Alligator)",
 			"",
@@ -876,8 +769,6 @@
 		"name": "Dallo",
 		"file": "druidcompanions2311.html",
 		"sources": [ "Pathfinder #118: Siege of Stone" ],
-		"companion_type": "animal",
-		"short_description": "This squat, grunting creature stinks of musk and earth. Leathery plates and black horns protect its woolly underside.",
 		"description": [
 			"### Dallo",
 			"",
@@ -897,8 +788,6 @@
 		"name": "Deinotherium",
 		"file": "druidcompanions9aa6.html",
 		"sources": [ "Bestiary 6" ],
-		"companion_type": "animal",
-		"short_description": "This creature resembles an elephant, though it has a shorter, thicker trunk and sharp, downward-curving tusks.",
 		"description": [
 			"### Deinotherium",
 			"",
@@ -916,8 +805,6 @@
 		"name": "Devil Monkey",
 		"file": "druidcompanions529e.html",
 		"sources": [ "Bestiary 6" ],
-		"companion_type": "animal",
-		"short_description": "This towering baboon has fiery orange fur, with two tufts of hair curling up like horns on its head.",
 		"description": [
 			"### Devil Monkey",
 			"",
@@ -937,8 +824,6 @@
 		"name": "Digmaul",
 		"file": "druidcompanionsaeb6.html",
 		"sources": [ "Bestiary 5" ],
-		"companion_type": "animal",
-		"short_description": "This muscular, cougarlike cat has fearsome teeth and a thick tail ending in a spiked ball.",
 		"description": [
 			"### Digmaul",
 			"",
@@ -958,8 +843,6 @@
 		"name": "Allosaurus",
 		"file": "druidcompanions55f9.html",
 		"sources": [ "Bestiary 2" ],
-		"companion_type": "animal",
-		"short_description": "This bipedal dinosaur has a mouth filled with sharp teeth and short, powerful arms that end in sharp claws.",
 		"description": [
 			"### Dinosaur (Allosaurus)",
 			"",
@@ -979,8 +862,6 @@
 		"name": "Ankylosaurus",
 		"file": "druidcompanionsfe59.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"companion_type": "animal",
-		"short_description": "Thick bony plates armor the domelike back of this quadrupedal dinosaur, its powerfully muscled tail ending in a bony club.",
 		"description": [
 			"### Dinosaur (Ankylosaurus)",
 			"",
@@ -1000,8 +881,6 @@
 		"name": "Brachiosaurus",
 		"file": "druidcompanions5832.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"companion_type": "animal",
-		"short_description": "A long tail counterbalances this reptile's equally long neck, at the end of which a relatively small head pulls food from the treetop.",
 		"description": [
 			"### Dinosaur (Brachiosaurus)",
 			"",
@@ -1021,8 +900,6 @@
 		"name": "Deinonychus",
 		"file": "druidcompanions32df.html",
 		"sources": [ "PRPG Core Rulebook" ],
-		"companion_type": "animal",
-		"short_description": "This brightly colored dinosaur exudes a dangerous ferocity. Each foot is armed with a large, sickle-shaped claw.",
 		"description": [
 			"### Dinosaur (Deinonychus)",
 			"",
@@ -1042,8 +919,6 @@
 		"name": "Dimetrodon",
 		"file": "druidcompanions38ab.html",
 		"sources": [ "Bestiary 3" ],
-		"companion_type": "animal",
-		"short_description": "The massive sail on the back of this squat reptilian creature flexes and twitches as the beast stalks forward.",
 		"description": [
 			"### Dinosaur (Dimetrodon)",
 			"",
@@ -1063,8 +938,6 @@
 		"name": "Dimorphodon",
 		"file": "druidcompanionsd282.html",
 		"sources": [ "Bestiary 4" ],
-		"companion_type": "animal",
-		"short_description": "The head of this colorful red and purple flying reptile is overly large, and its jaws are lined with tiny sharp teeth.",
 		"description": [
 			"### Dinosaur (Dimorphodon)",
 			"",
@@ -1084,8 +957,6 @@
 		"name": "Diplodocus",
 		"file": "druidcompanionsebc7.html",
 		"sources": [ "Bestiary 4" ],
-		"companion_type": "animal",
-		"short_description": "This enormous, long-necked quadruped moves with an uncanny grace, holding its lengthy, whiplike tail out level behind it.",
 		"description": [
 			"### Dinosaur (Diplodocus)",
 			"",
@@ -1105,8 +976,6 @@
 		"name": "Elasmosaurus",
 		"file": "druidcompanionse838.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"companion_type": "animal",
-		"short_description": "Long-necked and long-tailed, this large, predatory reptile glides through the water on four powerful flippers.",
 		"description": [
 			"### Dinosaur (Elasmosaurus)",
 			"",
@@ -1126,8 +995,6 @@
 		"name": "Iguanodon",
 		"file": "druidcompanionsd3f4.html",
 		"sources": [ "Bestiary 3" ],
-		"companion_type": "animal",
-		"short_description": "This dinosaur seems comfortable on two legs or four. Its front limbs are each adorned with a cruel-looking, thumblike spike.",
 		"description": [
 			"### Dinosaur (Iguanodon)",
 			"",
@@ -1147,8 +1014,6 @@
 		"name": "Pachycephalosaurus",
 		"file": "druidcompanions8997.html",
 		"sources": [ "Bestiary 3" ],
-		"companion_type": "animal",
-		"short_description": "This bipedal reptile has a rounded, dome-like head adorned with bony frills and ridges.",
 		"description": [
 			"### Dinosaur (Pachycephalosaurus)",
 			"",
@@ -1168,8 +1033,6 @@
 		"name": "Parasaurolophus",
 		"file": "druidcompanions37dc.html",
 		"sources": [ "Bestiary 2" ],
-		"companion_type": "animal",
-		"short_description": "This thick-bodied dinosaur has a whip-like tail and a long neck, its head topped by the crest of a backward-curving horn.",
 		"description": [
 			"### Dinosaur (Parasaurolophus)",
 			"",
@@ -1189,8 +1052,6 @@
 		"name": "Pteranodon",
 		"file": "druidcompanions7a29.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"companion_type": "animal",
-		"short_description": "This flying reptile has two huge wings and a distinctive backward-sweeping crest decorating its head.",
 		"description": [
 			"### Dinosaur (Pteranodon)",
 			"",
@@ -1210,8 +1071,6 @@
 		"name": "Spinosaurus",
 		"file": "druidcompanionse024.html",
 		"sources": [ "Bestiary 3" ],
-		"companion_type": "animal",
-		"short_description": "This titanic saurian has a crocodilian snout, powerful front claws, and a colorful sail-like ridge that runs down its back.",
 		"description": [
 			"### Dinosaur (Spinosaurus)",
 			"",
@@ -1231,8 +1090,6 @@
 		"name": "Stegosaurus",
 		"file": "druidcompanions2814.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"companion_type": "animal",
-		"short_description": "This huge dinosaur has a small head, twin rows of sharp dorsal plates, and a muscular tail terminating in a set of bony spikes.",
 		"description": [
 			"### Dinosaur (Stegosaurus)",
 			"",
@@ -1252,8 +1109,6 @@
 		"name": "Styracosaurus",
 		"file": "druidcompanionsc75d.html",
 		"sources": [ "Bestiary 4" ],
-		"companion_type": "animal",
-		"short_description": "This bulky, four-legged dinosaur has a long nasal horn and a crest studded with additional horns sweeping back from its skull.",
 		"description": [
 			"### Dinosaur (Styracosaurus)",
 			"",
@@ -1273,8 +1128,6 @@
 		"name": "Triceratops",
 		"file": "druidcompanions2aa1.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"companion_type": "animal",
-		"short_description": "This beast's armored head has three sharp horns decorating its face and a large round crest angling back over its neck from its skull.",
 		"description": [
 			"### Dinosaur (Triceratops)",
 			"",
@@ -1294,8 +1147,6 @@
 		"name": "Tylosaurus",
 		"file": "druidcompanionsfd93.html",
 		"sources": [ "Bestiary 2" ],
-		"companion_type": "animal",
-		"short_description": "Surging out of the water, this massive lizard is shaped like a giant fish with a powerful, toothed maw.",
 		"description": [
 			"### Dinosaur (Tylosaurus)",
 			"",
@@ -1315,8 +1166,6 @@
 		"name": "Tyrannosaurus",
 		"file": "druidcompanionscae9.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"companion_type": "animal",
-		"short_description": "This bipedal dinosaur's front arms seem small compared to the rest of its bulk, but its enormous head is all teeth.",
 		"description": [
 			"### Dinosaur (Tyrannosaurus)",
 			"",
@@ -1336,8 +1185,6 @@
 		"name": "Velociraptor",
 		"file": "druidcompanionsc124.html",
 		"sources": [ "Bestiary 4" ],
-		"companion_type": "animal",
-		"short_description": "This small, sleek dinosaur has vicious, snapping jaws and feet that end in large talons for gutting prey.",
 		"description": [
 			"### Dinosaur (Velociraptor)",
 			"",
@@ -1357,8 +1204,6 @@
 		"name": "Dire Bat",
 		"file": "druidcompanions50de.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"companion_type": "animal",
-		"short_description": "This giant, furry bat is nearly the size of an ox, with dark leathery wings that open wider than two men with arms outstretched.",
 		"description": [
 			"### Dire Bat",
 			"",
@@ -1378,8 +1223,6 @@
 		"name": "Dire Polar Bear",
 		"file": "druidcompanions4bb8.html",
 		"sources": [ "Bestiary 5" ],
-		"companion_type": "animal",
-		"short_description": "Fearsome bony growths protrude from several spots in this massive animal's snowy fur.",
 		"description": [
 			"### Dire Polar Bear",
 			"",
@@ -1399,8 +1242,6 @@
 		"name": "Dire Rat",
 		"file": "druidcompanionsb84a.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"companion_type": "animal",
-		"short_description": "This filthy rat is the size of a small dog. It has a coat of coarse fur, a long and scabby tail, and two glittering eyes.",
 		"description": [
 			"### Dire Rat",
 			"",
@@ -1420,8 +1261,6 @@
 		"name": "Dog",
 		"file": "druidcompanions0af5.html",
 		"sources": [ "PRPG Core Rulebook" ],
-		"companion_type": "animal",
-		"short_description": "This small dog has a rough coat and a hungry look in its dark brown eyes.",
 		"description": [
 			"### Dog",
 			"",
@@ -1441,8 +1280,6 @@
 		"name": "Dolphin",
 		"file": "druidcompanions18f4.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"companion_type": "animal",
-		"short_description": "This streamlined, fish-like mammal has sparkling eyes over a smiling mouth filled with hundreds of teeth.",
 		"description": [
 			"### Dolphin",
 			"",
@@ -1463,8 +1300,6 @@
 		"searchable_name": "Giant Dragonfly",
 		"file": "druidcompanions2392.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "vermin",
-		"short_description": "These long-winged insects have dazzlingly colorful bodies.",
 		"description": [
 			"### Dragonfly, Giant",
 			"",
@@ -1485,8 +1320,6 @@
 		"name": "Dunkleosteus",
 		"file": "druidcompanionsb290.html",
 		"sources": [ "Bestiary 6" ],
-		"companion_type": "animal",
-		"short_description": "A gigantic, prehistoric fish cuts through the water, its head like a snapping turtle, complete with sharp, toothlike plates.",
 		"description": [
 			"### Dunkleosteus",
 			"",
@@ -1506,8 +1339,6 @@
 		"name": "Elasmotherium",
 		"file": "druidcompanions1258.html",
 		"sources": [ "Bestiary 6" ],
-		"companion_type": "animal",
-		"short_description": "This lumbering, four-legged, rhino-like beast has thick hide and a single immense horn protruding from the top of its head.",
 		"description": [
 			"### Elasmotherium",
 			"",
@@ -1525,8 +1356,6 @@
 		"name": "Electric Eel",
 		"file": "druidcompanionsb17f.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"companion_type": "animal",
-		"short_description": "This six-foot-long, snake-like fish moves slowly. A strange popping and snapping sound occasionally emits from the creature's body.",
 		"description": [
 			"### Electric Eel",
 			"",
@@ -1547,8 +1376,6 @@
 		"searchable_name": "Elephant or Mastodon",
 		"file": "druidcompanionsc89a.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"companion_type": "animal",
-		"short_description": "These thick-skinned animals bear large ivory tusks flanking a long, prehensile snout.",
 		"description": [
 			"### Elephant/Mastodon",
 			"",
@@ -1570,8 +1397,6 @@
 		"name": "Elk",
 		"file": "druidcompanionse519.html",
 		"sources": [ "Bestiary 3" ],
-		"companion_type": "animal",
-		"short_description": "This majestic beast stands the height of a man at its shoulders, a many-tipped rack of proud antlers crowning its head.",
 		"description": [
 			"### Elk",
 			"",
@@ -1591,8 +1416,6 @@
 		"name": "Enchanter Heron",
 		"file": "druidcompanionsfaf7.html",
 		"sources": [ "Pathfinder #121: The Lost Outpost" ],
-		"companion_type": "animal",
-		"short_description": "This large bird has gray-and-white feathers, a long beak, and a bulbous sac on its throat that glows with a pale, sapphire light.",
 		"description": [
 			"### Enchanter Heron",
 			"",
@@ -1612,8 +1435,6 @@
 		"name": "Eohippus",
 		"file": "druidcompanions8cfe.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "The eohippus is a small, primeval ancestor of the modern horse. It has three-toed feet rather than hooves.",
 		"description": [
 			"### Eohippus",
 			"",
@@ -1631,8 +1452,6 @@
 		"name": "Eurypterid",
 		"file": "druidcompanions5110.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "vermin",
-		"short_description": "Also known as sea scorpions, these aquatic insects have pincers and a long stinger.",
 		"description": [
 			"### Eurypterid",
 			"",
@@ -1650,8 +1469,6 @@
 		"name": "Faerie Mount",
 		"file": "druidcompanions4f9c.html",
 		"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
-		"companion_type": "animal",
-		"short_description": "Short legs and overlarge ears make this broad-chested canine seem almost comical.",
 		"description": [
 			"### Faerie Mount",
 			"",
@@ -1671,8 +1488,6 @@
 		"name": "Falcon",
 		"file": "druidcompanions19a9.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "This swift raptor has amazing eyesight and sharp talons.",
 		"description": [
 			"### Falcon",
 			"",
@@ -1691,8 +1506,6 @@
 		"searchable_name": "Giant Frilled Lizard",
 		"file": "druidcompanionsd83e.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "This large lizard can display a frightening frill on its neck when it charges.",
 		"description": [
 			"### Frilled Lizard, Giant",
 			"",
@@ -1713,8 +1526,6 @@
 		"name": "Frog Father",
 		"file": "druidcompanions3ccc.html",
 		"sources": [ "Bestiary 5" ],
-		"companion_type": "animal",
-		"short_description": "This elephantine amphibian has a grotesquely long tongue and beady eyes.",
 		"description": [
 			"### Frog Father",
 			"",
@@ -1734,8 +1545,6 @@
 		"name": "Frog",
 		"file": "druidcompanions85ed.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"companion_type": "animal",
-		"short_description": "This creature looks like a normal frog, with moist, mottled, blackish-green skin, but grown to truly monstrous size.",
 		"description": [
 			"### Frog",
 			"",
@@ -1755,8 +1564,6 @@
 		"name": "Gallerok",
 		"file": "druidcompanions1347.html",
 		"sources": [ "Pathfinder #118: Siege of Stone" ],
-		"companion_type": "animal",
-		"short_description": "This stout, serpentine creature's body ripples with muscle. Jagged fangs line its broad, powerful jaws.",
 		"description": [
 			"### Gallerok",
 			"",
@@ -1776,8 +1583,6 @@
 		"name": "Gar",
 		"file": "druidcompanions03ca.html",
 		"sources": [ "Bestiary 2" ],
-		"companion_type": "animal",
-		"short_description": "This long, lean fish has a muscular body and a head with long jaws filled with sharp teeth.",
 		"description": [
 			"### Gar",
 			"",
@@ -1797,8 +1602,6 @@
 		"name": "Giganotosaurus",
 		"file": "druidcompanions2462.html",
 		"sources": [ "Bestiary 6" ],
-		"companion_type": "animal",
-		"short_description": "This bipedal dinosaur has a large head and cavernous jaws full of large, sharp teeth.",
 		"description": [
 			"### Giganotosaurus",
 			"",
@@ -1816,8 +1619,6 @@
 		"name": "Giraffe",
 		"file": "druidcompanions650a.html",
 		"sources": [ "Bestiary 4" ],
-		"companion_type": "animal",
-		"short_description": "This animal, covered in a spotted pattern, has a disproportionately long neck that allows it to tower over other animals.",
 		"description": [
 			"### Giraffe",
 			"",
@@ -1837,8 +1638,6 @@
 		"name": "Gliding Turtle",
 		"file": "druidcompanionsa97b.html",
 		"sources": [ "Pathfinder #121: The Lost Outpost" ],
-		"companion_type": "animal",
-		"short_description": "This giant turtle has a large, thin membrane of scaly skin extending from its shell to its legs.",
 		"description": [
 			"### Gliding Turtle",
 			"",
@@ -1856,8 +1655,6 @@
 		"name": "Goblin Dog",
 		"file": "druidcompanions4336.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"companion_type": "animal",
-		"short_description": "This mangy dog's face has the flat nose, beady eyes, and protruding teeth of a rat grown grotesquely large.",
 		"description": [
 			"### Goblin Dog",
 			"",
@@ -1877,8 +1674,6 @@
 		"name": "Goliath Frog",
 		"file": "druidcompanionseab2.html",
 		"sources": [ "Bestiary 5" ],
-		"companion_type": "animal",
-		"short_description": "This massive, mottled amphibian glistens with slime, and its tongue drips with saliva.",
 		"description": [
 			"### Goliath Frog",
 			"",
@@ -1898,8 +1693,6 @@
 		"name": "Gorthek",
 		"file": "druidcompanions950f.html",
 		"sources": [ "Monster Codex" ],
-		"companion_type": "animal",
-		"short_description": "This massive quadruped has a thick, wrinkled hide, curving horns, and shaggy hair that frames its leonine face.",
 		"description": [
 			"### Gorthek",
 			"",
@@ -1919,8 +1712,6 @@
 		"name": "Griffon",
 		"file": "druidcompanionsf1ab.html",
 		"sources": [ "Inner Sea Combat" ],
-		"companion_type": "monstrous",
-		"short_description": "This majestic beast has the body of a lion, the head and forelegs of a great eagle, and a massive pair of feathered wings.",
 		"languages": "Common (cannot speak)",
 		"description": [
 			"### Griffon",
@@ -1943,8 +1734,6 @@
 		"name": "Grizzly Bear",
 		"file": "druidcompanionsf8c3.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "The infamous grizzly bear is a lumbering and quite impressive companion, particularly when it rises up on its hind feet to loom large. Grizzly bears strike fear into the hearts of most who encounter them.",
 		"description": [
 			"### Grizzly Bear",
 			"",
@@ -1964,8 +1753,6 @@
 		"name": "Gulper Plant",
 		"file": "druidcompanionsbd3f.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "plant",
-		"short_description": "This bulbous green plant can climb or crawl via a network of vines. Its central reservoir can gulp down foes to digest them in an internal well of acid, holding them tight while they struggle.",
 		"description": [
 			"### Gulper Plant",
 			"",
@@ -1983,8 +1770,6 @@
 		"name": "Hammerhead Shark",
 		"file": "druidcompanions8ce5.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "This unusual shark is named for its blocky, rectangular head. The creature's eyes are on each side of its head.",
 		"description": [
 			"### Hammerhead Shark",
 			"",
@@ -2004,8 +1789,6 @@
 		"name": "Hippocampus",
 		"file": "druidcompanions8b54.html",
 		"sources": [ "Inner Sea Combat" ],
-		"companion_type": "monstrous",
-		"short_description": "This creature has the foreparts of a horse and the hindquarters of a fish. Its forelegs end in splayed fins rather than hooves.",
 		"description": [
 			"### Hippocampus",
 			"",
@@ -2025,8 +1808,6 @@
 		"name": "Hippogriff",
 		"file": "druidcompanionsc82e.html",
 		"sources": [ "Inner Sea Combat" ],
-		"companion_type": "monstrous",
-		"short_description": "This large, brown, horse-like creature has a hawk's wings, talons, and hooked beak.",
 		"description": [
 			"### Hippogriff",
 			"",
@@ -2046,8 +1827,6 @@
 		"name": "Hippopotamus",
 		"file": "druidcompanionsf013.html",
 		"sources": [ "Bestiary 2" ],
-		"companion_type": "animal",
-		"short_description": "This fleshy behemoth wallows forward on four stumpy legs. Its jaws spread wide in a roar of challenge, exposing massive, tusk-like teeth.",
 		"description": [
 			"### Hippopotamus",
 			"",
@@ -2067,8 +1846,6 @@
 		"name": "Hobbe Hound",
 		"file": "druidcompanionsecdb.html",
 		"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
-		"companion_type": "animal",
-		"short_description": "Hobgoblin druids, hunters, and rangers who can take an animal companion can choose a hobbe hound.",
 		"description": [
 			"### Hobbe Hound",
 			"",
@@ -2088,8 +1865,6 @@
 		"name": "Horse",
 		"file": "druidcompanions9d65.html",
 		"sources": [ "PRPG Core Rulebook" ],
-		"companion_type": "animal",
-		"short_description": "This proud horse thunders across the grassy plain with fluid grace, wind tugging at its loose-fitting barding.",
 		"description": [
 			"### Horse",
 			"",
@@ -2109,8 +1884,6 @@
 		"name": "Hunting Cactus",
 		"file": "druidcompanionsd7fa.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "plant",
-		"short_description": "Able to crawl swiftly on five rootlike legs, the hunting cactus has long arms it can slam foes with-arms covered with hundreds of thin, sharp needles.",
 		"description": [
 			"### Hunting Cactus",
 			"",
@@ -2128,8 +1901,6 @@
 		"name": "Hyena",
 		"file": "druidcompanions52fb.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"companion_type": "animal",
-		"short_description": "This hyena is covered in shaggy, tan-colored fur with black and brown stripes.",
 		"description": [
 			"### Hyena",
 			"",
@@ -2147,8 +1918,6 @@
 		"name": "Impaler Shrike",
 		"file": "druidcompanions6570.html",
 		"sources": [ "Pathfinder #97: In Hell's Bright Shadow" ],
-		"companion_type": "animal",
-		"short_description": "This large bird has brown and gray feathers and a vicious hooked beak.",
 		"description": [
 			"### Impaler Shrike",
 			"",
@@ -2168,8 +1937,6 @@
 		"name": "Kangaroo",
 		"file": "druidcompanions789f.html",
 		"sources": [ "Bestiary 3" ],
-		"companion_type": "animal",
-		"short_description": "As tall as a grown human, this mouse-faced creature stands on powerful hind legs and has a stout tail trailing behind.",
 		"description": [
 			"### Kangaroo",
 			"",
@@ -2189,8 +1956,6 @@
 		"name": "Kaprosuchus",
 		"file": "druidcompanionscbe1.html",
 		"sources": [ "Bestiary 5" ],
-		"companion_type": "animal",
-		"short_description": "This massive, squat crocodilian has forward facing eyes, jutting teeth, and a pronounced snout.",
 		"description": [
 			"### Kaprosuchus",
 			"",
@@ -2208,8 +1973,6 @@
 		"name": "Kentrosaurus",
 		"file": "druidcompanionse9c7.html",
 		"sources": [ "Bestiary 6" ],
-		"companion_type": "animal",
-		"short_description": "This quadrupedal dinosaur has two rows of dorsal spikes, a spiked tail, and two more spikes projecting from its shoulders.",
 		"description": [
 			"### Kentrosaurus",
 			"",
@@ -2228,8 +1991,6 @@
 		"searchable_name": "Giant Leech",
 		"file": "druidcompanions839a.html",
 		"sources": [ "Ultimate Magic" ],
-		"companion_type": "vermin",
-		"short_description": "A parasite ballooned to monstrous proportions undulates in the muck, its circular maw a spiral of teeth.",
 		"description": [
 			"### Leech, Giant",
 			"",
@@ -2251,8 +2012,6 @@
 		"searchable_name": "Lizard Giant Chameleon",
 		"file": "druidcompanions0526.html",
 		"sources": [ "Bestiary 3" ],
-		"companion_type": "animal",
-		"short_description": "Nearly invisible in its surroundings, this scaly lizard's eyes dart about independently of each other.",
 		"description": [
 			"### Lizard (Giant Chameleon)",
 			"",
@@ -2275,8 +2034,6 @@
 		"searchable_name": "Lizard Giant Gecko",
 		"file": "druidcompanions5167.html",
 		"sources": [ "Bestiary 3" ],
-		"companion_type": "animal",
-		"short_description": "An oversized lizard the size of a horse scans the area, its bulging eyes darting this way and that, completely independent of one another. Every few moments a long pink tongue snaps from its wide mouth, either to snatch up some unseen insect or moisten an eye.",
 		"description": [
 			"### Lizard (Giant Gecko)",
 			"",
@@ -2297,8 +2054,6 @@
 		"searchable_name": "Lizard Monitor Lizard",
 		"file": "druidcompanionsc868.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"companion_type": "animal",
-		"short_description": "This immense lizard moves with a slow but relentless gait. Its feet end in large talons, and ropes of drool hang from its toothy maw.",
 		"description": [
 			"### Lizard (Monitor Lizard)",
 			"",
@@ -2319,8 +2074,6 @@
 		"name": "Llama",
 		"file": "druidcompanionsf9de.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "While some value it for its hair, the llama makes a fine animal companion as well, and it has traditionally been used as a beast of burden in mountainous regions.",
 		"description": [
 			"### Llama",
 			"",
@@ -2341,8 +2094,6 @@
 		"searchable_name": "Giant Locust",
 		"file": "druidcompanions0df2.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "vermin",
-		"short_description": "The giant locust has long limber legs and the ability to spit a caustic glob of noxious goo.",
 		"description": [
 			"### Locust, Giant",
 			"",
@@ -2363,8 +2114,6 @@
 		"name": "Manta Ray",
 		"file": "druidcompanionsa02c.html",
 		"sources": [ "Bestiary 2" ],
-		"companion_type": "animal",
-		"short_description": "Gliding gracefully through the water on wing-like fins, this large ray scoops up tiny morsels in its wide mouth.",
 		"description": [
 			"### Manta Ray",
 			"",
@@ -2385,8 +2134,6 @@
 		"searchable_name": "Giant Mantis Shrimp",
 		"file": "druidcompanions3a2e.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "vermin",
-		"short_description": "This colorful aquatic vermin has powerful claws capable of striking with blinding speed.",
 		"description": [
 			"### Mantis Shrimp, Giant",
 			"",
@@ -2408,8 +2155,6 @@
 		"searchable_name": "Giant Mantis",
 		"file": "druidcompanions1d5b.html",
 		"sources": [ "Ultimate Magic" ],
-		"companion_type": "vermin",
-		"short_description": "This towering insect walks on its back four legs. Its head is triangular and its front legs sport razor-sharp edges and claws.",
 		"description": [
 			"### Mantis, Giant",
 			"",
@@ -2430,8 +2175,6 @@
 		"name": "Marax",
 		"file": "druidcompanionsa33c.html",
 		"sources": [ "Pathfinder #90: The Divinity Drive" ],
-		"companion_type": "animal",
-		"short_description": "Dense, bony growths line the back of this bipedal predator. Between its gnashing, toothy underbite, scythe-like claws, and spiked tail, no part of this beast offers mercy.",
 		"description": [
 			"### Marax",
 			"",
@@ -2451,8 +2194,6 @@
 		"name": "Marsupial Devil",
 		"file": "druidcompanions94b2.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "This toothy marsupial has a perhaps undeserved reputation for ferocity.",
 		"description": [
 			"### Marsupial Devil",
 			"",
@@ -2470,8 +2211,6 @@
 		"name": "Marsupial Lion",
 		"file": "druidcompanions4903.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "Somewhat slimmer than the standard lion, the marsupial lion is no less dangerous in battle.",
 		"description": [
 			"### Marsupial Lion",
 			"",
@@ -2489,8 +2228,6 @@
 		"name": "Archelon",
 		"file": "druidcompanions440a.html",
 		"sources": [ "Bestiary 3" ],
-		"companion_type": "animal",
-		"short_description": "The shell of this immense sea turtle easily spans 12 feet in length. Its narrow head ends in a hooked beak.",
 		"description": [
 			"### Megafauna (Archelon)",
 			"",
@@ -2510,8 +2247,6 @@
 		"name": "Arsinoitherium",
 		"file": "druidcompanions44f8.html",
 		"sources": [ "Bestiary 2" ],
-		"companion_type": "animal",
-		"short_description": "This creature is much like a rhino, some six feet tall and ten feet long, with a pair of massive, knife-like horns curving up from its nose.",
 		"description": [
 			"### Megafauna (Arsinoitherium)",
 			"",
@@ -2531,8 +2266,6 @@
 		"name": "Baluchitherium",
 		"file": "druidcompanions475c.html",
 		"sources": [ "Bestiary 3" ],
-		"companion_type": "animal",
-		"short_description": "This towering armored herbivore resembles a hornless rhinoceros, but with longer legs and a longer neck.",
 		"description": [
 			"### Megafauna (Baluchitherium)",
 			"",
@@ -2552,8 +2285,6 @@
 		"name": "Basilosaurus",
 		"file": "druidcompanions85a5.html",
 		"sources": [ "Bestiary 3" ],
-		"companion_type": "animal",
-		"short_description": "This immense primeval whale has a sleek body that looks more serpentine than mammal, and jaws filled with sharp teeth.",
 		"description": [
 			"### Megafauna (Basilosaurus)",
 			"",
@@ -2573,8 +2304,6 @@
 		"name": "Chalicotherium",
 		"file": "druidcompanionsc919.html",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
-		"companion_type": "animal",
-		"short_description": "This huge, slothlike creature has long, clawed forelimbs and short rear legs.",
 		"description": [
 			"### Megafauna (Chalicotherium)",
 			"",
@@ -2594,8 +2323,6 @@
 		"name": "Deinotherium",
 		"file": "druidcompanions3679.html",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
-		"companion_type": "animal",
-		"short_description": "This creature resembles an elephant, though it has a shorter, thicker trunk and sharp, downward-curving tusks.",
 		"description": [
 			"### Megafauna (Deinotherium)",
 			"",
@@ -2615,8 +2342,6 @@
 		"name": "Embolotherium",
 		"file": "druidcompanions0a5f.html",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
-		"companion_type": "animal",
-		"short_description": "This creature is reminiscent of a rhinoceros, but instead of pointed horns on its nose, this creature possesses a blunt, bony protrusion.",
 		"description": [
 			"### Megafauna (Embolotherium)",
 			"",
@@ -2636,8 +2361,6 @@
 		"name": "Glyptodon",
 		"file": "druidcompanionse2b7.html",
 		"sources": [ "Bestiary 2" ],
-		"companion_type": "animal",
-		"short_description": "This armored creature has a bony, turtle-like shell from which protrude short limbs, a blunt head, and a short spiky tail.",
 		"description": [
 			"### Megafauna (Glyptodon)",
 			"",
@@ -2655,8 +2378,6 @@
 		"name": "Megalania",
 		"file": "druidcompanions3dbd.html",
 		"sources": [ "Bestiary 3" ],
-		"companion_type": "animal",
-		"short_description": "This gigantic lizard has short but powerful limbs, a muscular tail, and a spiny crest that runs the length of its body.",
 		"description": [
 			"### Megafauna (Megalania)",
 			"",
@@ -2676,8 +2397,6 @@
 		"name": "Megaloceros",
 		"file": "druidcompanionsa13e.html",
 		"sources": [ "Bestiary 2" ],
-		"companion_type": "animal",
-		"short_description": "The massive and majestic elk stands fully the height of a human at its shoulder, and its antlers stretch over ten feet across.",
 		"description": [
 			"### Megafauna (Megaloceros)",
 			"",
@@ -2697,8 +2416,6 @@
 		"name": "Megatherium",
 		"file": "druidcompanions2978.html",
 		"sources": [ "Bestiary 2" ],
-		"companion_type": "animal",
-		"short_description": "The great sloth, standing on its hind legs, can reach the treetops with its agile tongue to grab at foliage.",
 		"description": [
 			"### Megafauna (Megatherium)",
 			"",
@@ -2718,8 +2435,6 @@
 		"name": "Megaprimatus",
 		"file": "druidcompanionse159.html",
 		"sources": [ "Bestiary 5" ],
-		"companion_type": "animal",
-		"short_description": "This titanic ape has great patches of coarse gray and brown fur, and its skin is thick and leathery.",
 		"description": [
 			"### Megaprimatus",
 			"",
@@ -2737,8 +2452,6 @@
 		"name": "Mindspin Ram",
 		"file": "druidcompanions7604.html",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
-		"companion_type": "animal",
-		"short_description": "This stark white ram's curved horns appear to have sharp thorns studding every inch of their surface.",
 		"description": [
 			"### Mindspin Ram",
 			"",
@@ -2758,8 +2471,6 @@
 		"name": "Moa",
 		"file": "druidcompanions2a6b.html",
 		"sources": [ "Bestiary 5" ],
-		"companion_type": "animal",
-		"short_description": "Standing on muscular legs that end in enormous talons, this flightless bird is almost twice the height of a man.",
 		"description": [
 			"### Moa",
 			"",
@@ -2778,8 +2489,6 @@
 		"searchable_name": "Mokele Mbembe",
 		"file": "druidcompanionsbbe2.html",
 		"sources": [ "Bestiary 6" ],
-		"companion_type": "animal",
-		"short_description": "A triangular reptilian head with a mouth full of curved teeth, attached to a long snaking neck, rises from the surface of the water. Long spines run down its neck, back, and whip-like tail, which uncurls to snap the air with a loud report.",
 		"description": [
 			"### Mokele-Mbembe",
 			"",
@@ -2800,8 +2509,6 @@
 		"searchable_name": "Giant Mole",
 		"file": "druidcompanions3457.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "This large-clawed burrowing mammal is slow but can burrow through loose earth and soil with ease to surprise its foes.",
 		"description": [
 			"### Mole, Giant",
 			"",
@@ -2820,8 +2527,6 @@
 		"name": "Mome Rath",
 		"file": "druidcompanions7d7c.html",
 		"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
-		"companion_type": "animal",
-		"short_description": "Moss and lichen grow from the shaggy back of this boar-like animal. Its curving claws and prehensile tail hold it in the trees.",
 		"description": [
 			"### Mome Rath",
 			"",
@@ -2841,8 +2546,6 @@
 		"name": "Moose",
 		"file": "druidcompanions7717.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "Powerful and often ill tempered, the moose is an intimidating choice for an animal companion.",
 		"description": [
 			"### Moose",
 			"",
@@ -2862,8 +2565,6 @@
 		"name": "Moray Eel",
 		"file": "druidcompanionsd567.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"companion_type": "animal",
-		"short_description": "This sixteen-foot-long eel slithers through the water with uncanny grace, mouth open to display large teeth and a second set of jaws.",
 		"description": [
 			"### Moray Eel",
 			"",
@@ -2879,13 +2580,12 @@
 			"**7th-Level Advancement:** Size Large; AC +3 natural armor; Attack bite (2d6); Ability Scores Str +8, Dex -2, Con +4; Special Attacks gnaw."
 		]
 	},
+	"giant_moray_eel": { "copyof": "moray_eel" },
 	"mosquito,_giant": {
 		"name": "Mosquito, Giant",
 		"searchable_name": "Giant Mosquito",
 		"file": "druidcompanionsd242.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "vermin",
-		"short_description": "Between its bloodthirsty nature and the annoying drone of its wings, the giant mosquito is a much-loathed creature. Unlike its smaller cousins, a giant mosquito can easily kill larger creatures by draining them of their blood.",
 		"description": [
 			"### Mosquito, Giant",
 			"",
@@ -2906,8 +2606,6 @@
 		"name": "Narwhal",
 		"file": "druidcompanions552f.html",
 		"sources": [ "Bestiary 5" ],
-		"companion_type": "animal",
-		"short_description": "This small whale lacks a dorsal fin and has pale, mottled skin, but its most notable feature is the single tusk protruding from its nose, easily as long as a human.",
 		"description": [
 			"### Narwhal",
 			"",
@@ -2927,8 +2625,6 @@
 		"name": "Octopus",
 		"file": "druidcompanionsd7f0.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"companion_type": "animal",
-		"short_description": "Eight tentacles, each adorned with rows of countless suckers, unfurl from the barrel-shaped body of this large-eyed creature.",
 		"description": [
 			"### Octopus",
 			"",
@@ -2948,8 +2644,6 @@
 		"name": "Orca",
 		"file": "druidcompanionsa77d.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"companion_type": "animal",
-		"short_description": "This sleek black whale has a distinctive white patch near each eye and a mouth filled with sharp teeth.",
 		"description": [
 			"### Orca",
 			"",
@@ -2967,8 +2661,6 @@
 		"name": "Ornithomimosaur",
 		"file": "druidcompanions85d4.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "This bipedal dinosaur has long legs built for speed and a long neck that gives it an ostrichlike profile.",
 		"description": [
 			"### Ornithomimosaur",
 			"",
@@ -2986,8 +2678,6 @@
 		"name": "Ostrich",
 		"file": "druidcompanionsffba.html",
 		"sources": [ "Osirion, Legacy of the Pharaohs" ],
-		"companion_type": "animal",
-		"short_description": "This human-sized bird has a long neck and legs sprouting from a round body covered in fluffy gray feathers.",
 		"description": [
 			"### Ostrich",
 			"",
@@ -3008,8 +2698,6 @@
 		"searchable_name": "Giant Owl",
 		"file": "druidcompanionsbce2.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "Unlike the magical beast of the same name, this owl is a mundane but unusually large specimen of its kind, with powerful wings and deadly talons.",
 		"description": [
 			"### Owl, Giant",
 			"",
@@ -3030,8 +2718,6 @@
 		"name": "Panda",
 		"file": "druidcompanions4088.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "Normally slow moving and docile, pandas are capable of surprising bursts of activity when needed.",
 		"description": [
 			"### Panda",
 			"",
@@ -3051,8 +2737,6 @@
 		"name": "Pilo",
 		"file": "druidcompanions8e8f.html",
 		"sources": [ "Pathfinder #85: Fires of Creation" ],
-		"companion_type": "animal",
-		"short_description": "Sharp quills cover this bright yellow, six-legged animal, and its long, twitching snout probes the air around it.",
 		"description": [
 			"### Pilo",
 			"",
@@ -3072,8 +2756,6 @@
 		"name": "Pleiosaurus",
 		"file": "druidcompanions8a9a.html",
 		"sources": [ "Bestiary 5" ],
-		"companion_type": "animal",
-		"short_description": "This streamlined reptile has a long, serpentine neck, at the end of which glares a many-fanged head.",
 		"description": [
 			"### Pleiosaurus",
 			"",
@@ -3091,8 +2773,6 @@
 		"name": "Polar Bear",
 		"file": "druidcompanions9f63.html",
 		"sources": [ "Bestiary 5" ],
-		"companion_type": "animal",
-		"short_description": "Red gore stains this bear's muzzle, creating a striking contrast against its white fur.",
 		"description": [
 			"### Polar Bear",
 			"",
@@ -3112,8 +2792,6 @@
 		"name": "Pony",
 		"file": "druidcompanions59b4.html",
 		"sources": [ "PRPG Core Rulebook" ],
-		"companion_type": "animal",
-		"short_description": "This squat equine plods forward with large, curious eyes. As it nears, it extends its muzzle, clearly expecting a treat.",
 		"description": [
 			"### Pony",
 			"",
@@ -3134,8 +2812,6 @@
 		"searchable_name": "Giant Porcupine",
 		"file": "druidcompanions5072.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "This lumbering forest creature is adorned with an array of long, sharp quills that protrude from its coarse pelt.",
 		"description": [
 			"### Porcupine, Giant",
 			"",
@@ -3156,8 +2832,6 @@
 		"name": "Prionosuchus",
 		"file": "druidcompanions2780.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "This primeval crocodile is equally effective in the water and on land. Its jaws are capable of crushing things with great force.",
 		"description": [
 			"### Prionosuchus",
 			"",
@@ -3175,8 +2849,6 @@
 		"name": "Dimorphodon",
 		"file": "druidcompanions3fcb.html",
 		"sources": [ "Pathfinder #37: Souls for Smuggler's Shiv" ],
-		"companion_type": "animal",
-		"short_description": "The head of this colorful red and purple flying reptile is overly large, and its jaws are lined with tiny sharp teeth.",
 		"description": [
 			"### Pterosaur (Dimorphodon)",
 			"",
@@ -3196,8 +2868,6 @@
 		"name": "Quetzalcoatlus",
 		"file": "druidcompanionsf1b0.html",
 		"sources": [ "Pathfinder #37: Souls for Smuggler's Shiv" ],
-		"companion_type": "animal",
-		"short_description": "This immense flying reptile has a staggering wingspan and a brightly colored head with a razor-sharp beak.",
 		"description": [
 			"### Pterosaur (Quetzalcoatlus)",
 			"",
@@ -3217,8 +2887,6 @@
 		"name": "Pygmy Hippopotamus",
 		"file": "druidcompanionsfe43.html",
 		"sources": [ "Heart of the Jungle" ],
-		"companion_type": "animal",
-		"short_description": "This fleshy behemoth wallows forward on four stumpy legs. Its jaws spread wide in a roar of challenge, exposing massive, tusk-like teeth.",
 		"description": [
 			"### Pygmy Hippopotamus",
 			"",
@@ -3238,8 +2906,6 @@
 		"name": "Quetzalcoatlus",
 		"file": "druidcompanions5c76.html",
 		"sources": [ "Bestiary 6" ],
-		"companion_type": "animal",
-		"short_description": "This immense flying reptile has a staggering wingspan and a brightly colored head with a razor-sharp beak.",
 		"description": [
 			"### Quetzalcoatlus",
 			"",
@@ -3257,8 +2923,6 @@
 		"name": "Ram",
 		"file": "druidcompanions0901.html",
 		"sources": [ "Bestiary 2" ],
-		"companion_type": "animal",
-		"short_description": "A formidable pair of heavy horns curls from the forehead of this sturdy, brown-and-white-furred ram.",
 		"description": [
 			"### Ram",
 			"",
@@ -3278,8 +2942,6 @@
 		"name": "Rash Creeper",
 		"file": "druidcompanions5204.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "plant",
-		"short_description": "This mass of creeping vines and leaves slithers almost like a snake. Contact with this predatory plant causes a sickening and sometimes debilitating rash.",
 		"description": [
 			"### Rash Creeper",
 			"",
@@ -3301,8 +2963,6 @@
 			"Pathfinder #97: In Hell's Bright Shadow",
 			"Bestiary 6"
 		],
-		"companion_type": "animal",
-		"short_description": "This glossy, jet-black bird stands as tall as a dwarf. Its eerily intelligent black eyes are quick to take in everything around it.",
 		"description": [
 			"### Raven, Giant",
 			"",
@@ -3323,8 +2983,6 @@
 		"name": "Reef Snake",
 		"file": "druidcompanions9a63.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "Highly venomous and an excellent swimmer, the brightly colored reef snake is at home in tidal waters but can slither about on land if needed.",
 		"description": [
 			"### Reef Snake",
 			"",
@@ -3342,8 +3000,6 @@
 		"name": "Reindeer",
 		"file": "druidcompanions2bc5.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "A denizen of the frozen tundra, the reindeer is a sure-footed companion in icy terrain, and it can used for transportation as well as defense.",
 		"description": [
 			"### Reindeer",
 			"",
@@ -3361,8 +3017,6 @@
 		"name": "Rhinoceros",
 		"file": "druidcompanionsa955.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"companion_type": "animal",
-		"short_description": "This rhinoceros has a low-slung head with twisted ears that lie back along its neck.",
 		"description": [
 			"### Rhinoceros",
 			"",
@@ -3382,8 +3036,6 @@
 		"name": "Riding Python",
 		"file": "druidcompanionsc4be.html",
 		"sources": [ "Monster Codex" ],
-		"companion_type": "animal",
-		"short_description": "This brightly colored snake assumes an aggressive posture, its hissing mouth open to display its fangs.",
 		"description": [
 			"### Riding Python",
 			"",
@@ -3403,8 +3055,6 @@
 		"name": "Riding Rat",
 		"file": "druidcompanions9a59.html",
 		"sources": [ "Monster Codex" ],
-		"companion_type": "animal",
-		"short_description": "This filthy rat is the size of a small dog. It has a coat of coarse fur, a long and scabby tail, and two glittering eyes.",
 		"description": [
 			"### Riding Rat",
 			"",
@@ -3424,8 +3074,6 @@
 		"name": "Ringhorn",
 		"file": "druidcompanionsf2a5.html",
 		"sources": [ "Pathfinder #115: Trail of the Hunted" ],
-		"companion_type": "animal",
-		"short_description": "The horns of this goatlike deer grow up and curve around into a pair of massive, spiraling rings atop its head.",
 		"description": [
 			"### Ringhorn",
 			"",
@@ -3445,8 +3093,6 @@
 		"name": "Roc",
 		"file": "druidcompanionsf13a.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"companion_type": "animal",
-		"short_description": "This immense raptor unleashes a shrill cry as it bares its talons, each large enough to carry off a horse.",
 		"description": [
 			"### Roc",
 			"",
@@ -3467,8 +3113,6 @@
 		"searchable_name": "Saber Toothed Cat",
 		"file": "druidcompanionse0fb.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "Somewhat smaller than the more ferocious saber-toothed tiger, the saber-toothed cat is nonetheless an impressive predatory creature.",
 		"description": [
 			"### Saber-Toothed Cat",
 			"",
@@ -3487,8 +3131,6 @@
 		"searchable_name": "Giant Salamander",
 		"file": "druidcompanions9f00.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "This oversized amphibian has a mouth full of tiny but rather sharp teeth.",
 		"description": [
 			"### Salamander, Giant",
 			"",
@@ -3508,8 +3150,6 @@
 		"searchable_name": "Giant Scorpion",
 		"file": "druidcompanionsaed1.html",
 		"sources": [ "Ultimate Magic" ],
-		"companion_type": "vermin",
-		"short_description": "The sixteen-foot-long scorpion scrabbles forward, ferocious claws raised in challenge, stingered tail arched over its back.",
 		"description": [
 			"### Scorpion, Giant",
 			"",
@@ -3530,8 +3170,6 @@
 		"name": "Sea Crawler",
 		"file": "druidcompanions7071.html",
 		"sources": [ "Pathfinder #121: The Lost Outpost" ],
-		"companion_type": "animal",
-		"short_description": "This furred creature has long tentacles that are covered in ridges and suction discs in place of arms, legs, and a tail.",
 		"description": [
 			"### Sea Crawler",
 			"",
@@ -3552,8 +3190,6 @@
 		"searchable_name": "Giant Seahorse",
 		"file": "druidcompanionsfdfa.html",
 		"sources": [ "Bestiary 4" ],
-		"companion_type": "animal",
-		"short_description": "This sea creature resembles a cross between fish and horse; it has small fins on its flanks and a gracefully curled tail.",
 		"description": [
 			"### Seahorse, Giant",
 			"",
@@ -3574,8 +3210,6 @@
 		"name": "Shark",
 		"file": "druidcompanionsfeed.html",
 		"sources": [ "PRPG Core Rulebook" ],
-		"companion_type": "animal",
-		"short_description": "This blue shark's fins slice through the water, its black eyes rolling and its gaping jaws showing countless teeth.",
 		"description": [
 			"### Shark",
 			"",
@@ -3595,8 +3229,6 @@
 		"name": "Shissah",
 		"file": "druidcompanions5eb9.html",
 		"sources": [ "Qadira, Jewel of the East" ],
-		"companion_type": "animal",
-		"short_description": "This sleek equine is slightly smaller than an average horse, but its eyes contain a gleam of higher intelligence.",
 		"description": [
 			"### Shissah",
 			"",
@@ -3616,8 +3248,6 @@
 		"name": "Skittergoat",
 		"file": "druidcompanionsb78a.html",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
-		"companion_type": "animal",
-		"short_description": "This small goat has sharp horns that wrap around its head to point forward, making it resemble a tiny bull.",
 		"description": [
 			"### Skittergoat",
 			"",
@@ -3638,8 +3268,6 @@
 		"searchable_name": "Giant Skunk",
 		"file": "druidcompanions4cb7.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "Its unmistakable black-and-white-striped coloration gives a clear warning sign to any who've experienced this foul-smelling creature's ire.",
 		"description": [
 			"### Skunk, Giant",
 			"",
@@ -3660,8 +3288,6 @@
 		"name": "Slithering Sundew",
 		"file": "druidcompanionscb21.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "plant",
-		"short_description": "Looking something like a two-headed serpent, this slithering plant strikes with two sticky, constricting slams.",
 		"description": [
 			"### Slithering Sundew",
 			"",
@@ -3680,8 +3306,6 @@
 		"searchable_name": "Giant Slug",
 		"file": "druidcompanionsccb0.html",
 		"sources": [ "Ultimate Magic" ],
-		"companion_type": "vermin",
-		"short_description": "This massive, gray-brown slug leaves a viscous trail of slime in its wake as a long rasping tongue tastes the air for prey.",
 		"description": [
 			"### Slug, Giant",
 			"",
@@ -3703,8 +3327,6 @@
 		"searchable_name": "Constrictor Snake",
 		"file": "druidcompanions9f03.html",
 		"sources": [ "PRPG Core Rulebook" ],
-		"companion_type": "animal",
-		"short_description": "This large snake has a thick, muscular body and dull green scales decorated with dirty brown stripes.",
 		"description": [
 			"### Snake, Constrictor",
 			"",
@@ -3726,8 +3348,6 @@
 		"searchable_name": "Viper",
 		"file": "druidcompanions0ccf.html",
 		"sources": [ "PRPG Core Rulebook" ],
-		"companion_type": "animal",
-		"short_description": "This brightly colored snake assumes an aggressive posture, its hissing mouth open to display its fangs.",
 		"description": [
 			"### Snake, Viper",
 			"",
@@ -3748,8 +3368,6 @@
 		"name": "Snapping Flytrap",
 		"file": "druidcompanions8ff8.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "plant",
-		"short_description": "This mobile flytrap features two spiky jaws and scuttles about on a tangle of roots.",
 		"description": [
 			"### Snapping Flytrap",
 			"",
@@ -3767,8 +3385,6 @@
 		"name": "Sniper Cactus",
 		"file": "druidcompanions0e50.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "plant",
-		"short_description": "This single-stalked cactus sports dozens of long, thin needles. Capable of crawling on three stalklike roots, the sniper cactus can fire its thorns with deadly accuracy.",
 		"description": [
 			"### Sniper Cactus",
 			"",
@@ -3787,8 +3403,6 @@
 		"searchable_name": "Giant Solifugid",
 		"file": "druidcompanionsece4.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "vermin",
-		"short_description": "This vermin's double set of vertical mandibles make this giant solifugid a particularly ferocious-looking companion. Its speed allows it to strike at its enemies from cover without them knowing what happened.",
 		"description": [
 			"### Solifugid, Giant",
 			"",
@@ -3809,8 +3423,6 @@
 		"name": "Sorico",
 		"file": "druidcompanionsaffc.html",
 		"sources": [ "Pathfinder #85: Fires of Creation" ],
-		"companion_type": "animal",
-		"short_description": "This large, tawny rodent has powerful forelimbs ending in spade-like claws. Sand and mud cakes the creature's fur.",
 		"description": [
 			"### Sorico",
 			"",
@@ -3831,8 +3443,6 @@
 		"searchable_name": "Giant Spider",
 		"file": "druidcompanionsb01b.html",
 		"sources": [ "Ultimate Magic" ],
-		"companion_type": "vermin",
-		"short_description": "A spider the size of a man crawls silently from the depths of its funnel-shaped web.",
 		"description": [
 			"### Spider, Giant",
 			"",
@@ -3854,8 +3464,6 @@
 		"searchable_name": "Web Tyrant Spider",
 		"file": "druidcompanionsdd1f.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "vermin",
-		"short_description": "The web tyrant spider's bright coloration and long legs make for a stunning but unnerving companion.",
 		"description": [
 			"### Spider, Web Tyrant",
 			"",
@@ -3873,8 +3481,6 @@
 		"name": "Spitting Cobra",
 		"file": "druidcompanions1400.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "This brightly colored snake can spit its venom, giving it a dangerous ranged attack.",
 		"description": [
 			"### Spitting Cobra",
 			"",
@@ -3892,8 +3498,6 @@
 		"name": "Squid",
 		"file": "druidcompanionsc59b.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"companion_type": "animal",
-		"short_description": "This slender red squid darts through the water with alacrity. Two large eyes stare from above the creature's tentacles.",
 		"description": [
 			"### Squid",
 			"",
@@ -3914,8 +3518,6 @@
 		"searchable_name": "Giant Squid",
 		"file": "druidcompanionse1cf.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "Although this creature isn't nearly the size of a true giant squid, it remains large enough to do serious damage to foes with its many tentacles.",
 		"description": [
 			"### Squid, Giant",
 			"",
@@ -3936,8 +3538,6 @@
 		"name": "Stag",
 		"file": "druidcompanions0df8.html",
 		"sources": [ "Bestiary 4" ],
-		"companion_type": "animal",
-		"short_description": "Majestic and graceful, this powerful animal has branching antlers atop it head.",
 		"description": [
 			"### Stag",
 			"",
@@ -3957,8 +3557,6 @@
 		"name": "Stingray",
 		"file": "druidcompanionsec65.html",
 		"sources": [ "Bestiary 2" ],
-		"companion_type": "animal",
-		"short_description": "A long tail fitted with a barbed stinger trails from this flat, triangular fish's body.",
 		"description": [
 			"### Stingray",
 			"",
@@ -3979,8 +3577,6 @@
 		"searchable_name": "Trumpeter Swan",
 		"file": "druidcompanionsc233.html",
 		"sources": [ "Bestiary 4" ],
-		"companion_type": "animal",
-		"short_description": "This large waterfowl has a wide wingspan, all-white feathers, a black bill, and a long, curving neck.",
 		"description": [
 			"### Swan, Trumpeter",
 			"",
@@ -4001,8 +3597,6 @@
 		"name": "Switchback Jackal",
 		"file": "druidcompanions200c.html",
 		"sources": [ "Pathfinder #115: Trail of the Hunted" ],
-		"companion_type": "animal",
-		"short_description": "Resembling a small, half-starved wolf, this canine stares with deep intensity and undeniable hunger.",
 		"description": [
 			"### Switchback Jackal",
 			"",
@@ -4023,8 +3617,6 @@
 		"searchable_name": "Giant Termite",
 		"file": "druidcompanions28fe.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "vermin",
-		"short_description": "The giant termite has a set of large powerful mandibles, and it is particularly effective when fighting alongside other termite companions.",
 		"description": [
 			"### Termite, Giant",
 			"",
@@ -4045,8 +3637,6 @@
 		"name": "Therizinosaurus",
 		"file": "druidcompanions507e.html",
 		"sources": [ "Bestiary 5" ],
-		"companion_type": "animal",
-		"short_description": "This feathered bipedal saurian looks somewhat comical-save for its outlandish sword-sized claws.",
 		"description": [
 			"### Therizinosaurus",
 			"",
@@ -4064,8 +3654,6 @@
 		"name": "Thylacine",
 		"file": "druidcompanionsf73c.html",
 		"sources": [ "Bestiary 3" ],
-		"companion_type": "animal",
-		"short_description": "This odd creature is about the size of a dog, but it has the slender build of a cat, heavy whiskers, and dark stripes down its back. Its long tail flips about, smacking the ground as it scans the woods. It yips and bays in a complex pattern, offering warning to anything that may cross its path.",
 		"description": [
 			"### Thylacine",
 			"",
@@ -4085,8 +3673,6 @@
 		"name": "Titanoboa",
 		"file": "druidcompanions75ff.html",
 		"sources": [ "Bestiary 6" ],
-		"companion_type": "animal",
-		"short_description": "This immense serpent moves in deliberate, slithering undulations, its forked tongue tasting the air eagerly for the scent of prey.",
 		"description": [
 			"### Titanoboa",
 			"",
@@ -4105,8 +3691,6 @@
 		"searchable_name": "Giant Tortoise",
 		"file": "druidcompanions8e00.html",
 		"sources": [ "Bestiary 4" ],
-		"companion_type": "animal",
-		"short_description": "This tortoise is half the height of a human, and has a domed shell, leathery skin, and a long neck.",
 		"description": [
 			"### Tortoise, Giant",
 			"",
@@ -4127,8 +3711,6 @@
 		"name": "Troodon",
 		"file": "druidcompanionsd950.html",
 		"sources": [ "Bestiary 5" ],
-		"companion_type": "animal",
-		"short_description": "This small, slender-necked dinosaur's bright, inquisitive eyes seem to miss nothing.",
 		"description": [
 			"### Troodon",
 			"",
@@ -4147,8 +3729,6 @@
 		"searchable_name": "Giant Snapping Turtle",
 		"file": "druidcompanions88b1.html",
 		"sources": [ "Bestiary 2" ],
-		"companion_type": "animal",
-		"short_description": "This lumbering turtle is the size of a house; its head features powerful, razor-sharp beak.",
 		"description": [
 			"### Turtle, Giant Snapping",
 			"",
@@ -4169,8 +3749,6 @@
 		"name": "Uintatherium",
 		"file": "druidcompanionsbe05.html",
 		"sources": [ "Bestiary 5" ],
-		"companion_type": "animal",
-		"short_description": "This large creature is built like a rhinoceros, but with fangs like a saber-toothed tiger and smaller hornlike ridges.",
 		"description": [
 			"### Uintatherium",
 			"",
@@ -4189,8 +3767,6 @@
 		"searchable_name": "Giant Vulture",
 		"file": "druidcompanions6a2b.html",
 		"sources": [ "Bestiary 3" ],
-		"companion_type": "animal",
-		"short_description": "A wickedly hooked beak and an immense bald head draw attention from this enormous scavenger's vast wingspan.",
 		"description": [
 			"### Vulture, Giant",
 			"",
@@ -4211,8 +3787,6 @@
 		"name": "Walrus",
 		"file": "druidcompanions9889.html",
 		"sources": [ "Bestiary 4" ],
-		"companion_type": "animal",
-		"short_description": "This bulky, thick-skinned, flippered creature has on its face two enormous tusks and what looks like a coarse mustache.",
 		"description": [
 			"### Walrus",
 			"",
@@ -4230,8 +3804,6 @@
 		"name": "Warcat of Rull",
 		"file": "druidcompanionsd0e6.html",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
-		"companion_type": "animal",
-		"short_description": "This massive catlike creature has the lithe grace of a feline despite a shell-like armor of segmented plates.",
 		"description": [
 			"### Warcat of Rull",
 			"",
@@ -4252,8 +3824,6 @@
 		"searchable_name": "Giant Wasp",
 		"file": "druidcompanionsa68f.html",
 		"sources": [ "Ultimate Magic" ],
-		"companion_type": "vermin",
-		"short_description": "This horse-sized wasp is covered in yellow and black vertical stripes-its stinger is the size of a sword and drips with venom.",
 		"description": [
 			"### Wasp, Giant",
 			"",
@@ -4275,8 +3845,6 @@
 		"searchable_name": "Giant Weasel",
 		"file": "druidcompanionsc12b.html",
 		"sources": [ "Bestiary 4" ],
-		"companion_type": "animal",
-		"short_description": "This massive weasel moves smoothly across the ground, almost slithering like a snake, before pouncing with teeth bared.",
 		"description": [
 			"### Weasel, Giant",
 			"",
@@ -4298,8 +3866,6 @@
 		"searchable_name": "Giant Whiptail Centipede",
 		"file": "druidcompanions819e.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "vermin",
-		"short_description": "The long thin tendrils that lash out from this centipede's tail can trip foes with surprising ease.",
 		"description": [
 			"### Whiptail Centipede, Giant",
 			"",
@@ -4320,8 +3886,6 @@
 		"name": "Whisperfall Vulture",
 		"file": "druidcompanions460f.html",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
-		"companion_type": "animal",
-		"short_description": "This dark-winged vulture has a wickedly hooked beak stained with bright red blood.",
 		"description": [
 			"### Whisperfall Vulture",
 			"",
@@ -4341,8 +3905,6 @@
 		"name": "Wolf",
 		"file": "druidcompanions53e5.html",
 		"sources": [ "PRPG Core Rulebook" ],
-		"companion_type": "animal",
-		"short_description": "This powerful canine watches its prey with piercing yellow eyes, darting its tongue across sharp white teeth.",
 		"description": [
 			"### Wolf",
 			"",
@@ -4362,8 +3924,6 @@
 		"name": "Wolfdog",
 		"file": "druidcompanions39a6.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "This creature is a dependable hybrid of wolf and dog.",
 		"description": [
 			"### Wolfdog",
 			"",
@@ -4381,8 +3941,6 @@
 		"name": "Wolliped",
 		"file": "druidcompanionsc221.html",
 		"sources": [ "Bestiary 5" ],
-		"companion_type": "animal",
-		"short_description": "This shaggy, multi-legged creature has a flattened face with wide nostrils and four eyes. Ivory tusks jut downward, flanking its mouth.",
 		"description": [
 			"### Wolliped",
 			"",
@@ -4402,8 +3960,6 @@
 		"name": "Worg",
 		"file": "druidcompanionscd53.html",
 		"sources": [ "Inner Sea Combat" ],
-		"companion_type": "monstrous",
-		"short_description": "This unusually large wolf has an evil, almost intelligent light shining in its deep red eyes.",
 		"languages": "Common, Goblin",
 		"description": [
 			"### Worg",
@@ -4426,8 +3982,6 @@
 		"name": "Yak",
 		"file": "druidcompanionsd2b6.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "Stout and stubborn, the yak is sure footed and dependable in rough terrain.",
 		"description": [
 			"### Yak",
 			"",
@@ -4445,8 +3999,6 @@
 		"name": "Yolubilis Heron",
 		"file": "druidcompanions5d1c.html",
 		"sources": [ "Pathfinder #97: In Hell's Bright Shadow" ],
-		"companion_type": "animal",
-		"short_description": "As tall as a tree, this dark gray bird stands on long legs. Its curved neck supports a sleek head with a slim but wicked beak.",
 		"description": [
 			"### Yolubilis Heron",
 			"",
@@ -4466,8 +4018,6 @@
 		"name": "Yzobu",
 		"file": "druidcompanions8a84.html",
 		"sources": [ "Monster Codex" ],
-		"companion_type": "animal",
-		"short_description": "This four-legged animal with a long-horned, bovine head looks like a cross between a horse and a long-haired yak.",
 		"description": [
 			"### Yzobu",
 			"",
@@ -4487,8 +4037,6 @@
 		"name": "Zebra",
 		"file": "druidcompanions2c59.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"companion_type": "animal",
-		"short_description": "The iconic black and white stripes of the zebra make it instantly recognizable.",
 		"description": [
 			"### Zebra",
 			"",

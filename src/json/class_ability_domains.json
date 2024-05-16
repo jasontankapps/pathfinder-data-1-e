@@ -15,6 +15,15 @@
 		"",
 		"If a subdomain ability calls for a saving throw, the DC of the save is equal to 10 + 1/2 the character's cleric level + her Wisdom modifier."
 	],
+	"_props": [
+		["Domain", "name"],
+		["Subdomains", "subdomains", "array"],
+		["Deities", "deities", "array"]
+	],
+	"_alternate": [
+		["Deities", "deities"],
+		["Domain", "name"]
+	],
 	"air": {
 		"name": "Air",
 		"file": "domaindisplaybfc6.html",
@@ -28,6 +37,7 @@
 			"Lightning",
 			"Wind"
 		],
+		"deities": [ "Apollyon", "Areshkagal", "Baalzebul", "Chupurvagasti", "Eligos", "Findeladlara", "Geon", "Ghlaunder", "Gozreh", "Green Faith", "Hathor", "Hei Feng", "Horus", "Hshurha", "Isph-Aun-Vuln", "Ithaqua", "Libicocco", "Llamolaek", "Nyarlathotep (Faceless Sphinx)", "Onos", "Pazuzu", "Pulura", "Rull", "Seramaydiel", "Shelyn", "Shelyn (pre-Earthfall)", "Sugroz", "Tjasse", "Uaransaph", "Xiquiripat", "Ylimancha" ],
 		"description": [
 			"### Air",
 			"",
@@ -41,7 +51,7 @@
 			"",
 			"**Electricity Resistance (Ex):** At 6th level, you gain resist electricity 10. This resistance increases to 20 at 12th level. At 20th level, you gain immunity to electricity.",
 			"",
-			"**Domain Spells:** 1st-obscuring mist, 2nd-[wind wall](spell/wind_wall), 3rd-[gaseous form](spell/gaseous_form), 4th-[air walk](spell/air_walk), 5th-[control winds](spell/control_winds), 6th-[chain lightning](spell/chain_lightning), 7th-[elemental body IV](spell/elemental_body_4) (air only), 8th-[whirlwind](spell/whirlwind), 9th-[elemental swarm](spell/elemental_swarm) (air spell only).",
+			"**Domain Spells:** 1st-[obscuring mist](spell/obscuring_mist), 2nd-[wind wall](spell/wind_wall), 3rd-[gaseous form](spell/gaseous_form), 4th-[air walk](spell/air_walk), 5th-[control winds](spell/control_winds), 6th-[chain lightning](spell/chain_lightning), 7th-[elemental body IV](spell/elemental_body_4) (air only), 8th-[whirlwind](spell/whirlwind), 9th-[elemental swarm](spell/elemental_swarm) (air spell only).",
 			"",
 			"#### Cloud Subdomain",
 			"",
@@ -69,7 +79,7 @@
 			"",
 			"**Lightning Rod (Su):** As a swift action when you cast a spell with the electricity descriptor, you can designate one creature within line of sight. The spell's damage against that creature increases by 50%, as if affected by the Empower Spell feat. This additional damage results from divine power that is not subject to being reduced by electricity resistance, and you take an equal amount of electricity damage immediately after you cast the spell. The spell can deal this additional damage only once, even if it could affect the target multiple times. You can use this ability once per day at 8th level and one additional time per day for every 4 cleric levels you have beyond 8th.",
 			"",
-			"**Replacement Domain Spells:** 1st- shocking grasp, 2nd-[flame blade](spell/flame_blade) (deals electricity damage and gains the electricity descriptor instead of fire), 3rd-[lightning bolt](spell/lightning_bolt).",
+			"**Replacement Domain Spells:** 1st-[shocking grasp](spell/shocking_grasp), 2nd-[flame blade](spell/flame_blade) (deals electricity damage and gains the electricity descriptor instead of fire), 3rd-[lightning bolt](spell/lightning_bolt).",
 			"",
 			"#### Wind Subdomain",
 			"",
@@ -82,7 +92,7 @@
 			"",
 			"**Wind Blast (Su):** As a standard action, you can unleash a blast of air in a 30-foot line. Make a combat maneuver check against each creature in the line, using your caster level as your base attack bonus and your Wisdom modifier in place of your Strength modifier. Treat the results as a bull rush attempt. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-whispering wind, 6th-[wind walk](spell/wind_walk), 9th-[winds of vengeance](spell/winds_of_vengeance)."
+			"**Replacement Domain Spells:** 1st-[whispering wind](spell/whispering_wind), 6th-[wind walk](spell/wind_walk), 9th-[winds of vengeance](spell/winds_of_vengeance)."
 		]
 	},
 	"animal": {
@@ -98,6 +108,7 @@
 			"Fur",
 			"Insect"
 		],
+		"deities": [ "Aksha", "Aldinach", "Alocer", "Ananshea", "Angazhan", "Anogetz", "Baphomet", "Barbariccia", "Bastet", "Bundha", "Caera", "Camazotz", "Cernunnos", "Daclau-Sar", "Daikitsu", "Diceid", "Dradjit", "Drokalion", "Ealdeez", "Easivra", "Erastil", "Ghlaunder", "Gozreh", "Graffiacane", "Green Faith", "Horus", "Hudima", "Il'surrish", "Jaidi", "Jezelda", "Jyotah", "Kalma", "Ketephys", "Kitumu", "Kunkarna", "Lao Shu Po", "Losarkur", "Mazmezz", "Morrobahn", "Mother Vulture", "Murnath", "Mursha", "Neith", "Otikaya", "Ovonovo", "Prihasta", "Rasvocel", "Ravana", "Rowdrosh", "Shub-Niggurath", "Sicva", "Sun Wukong", "Surpa", "Tanagaar", "Tjasse", "Tresmalvos", "Urazra", "Uskyeria", "Vibhishah", "Xsistaid", "Ylimancha", "Zabha", "Zarongel", "Zelishkar", "Zevgavizeb" ],
 		"description": [
 			"### Animal",
 			"",
@@ -111,7 +122,7 @@
 			"",
 			"**Animal Companion (Ex):** At 4th level, you gain the service of an animal companion. Your effective druid level for this animal companion is equal to your cleric level - 3. (Druids who take this ability through their nature bond class feature use their druid level - 3 to determine the abilities of their animal companions).",
 			"",
-			"**Domain Spells:** 1st-calm animals, 2nd-[hold animal](spell/hold_animal), 3rd-[dominate animal](spell/dominate_animal), 4th-[summon nature's ally IV](spell/summon_nature's_ally_4) (animals only), 5th-[beast shape III](spell/beast_shape_3) (animals only), 6th-[antilife shell](spell/antilife_shell), 7th-[animal shapes](spell/animal_shapes), 8th-[summon nature's ally VIII](spell/summon_nature's_ally_8) (animals only), 9th-[shapechange](spell/shapechange).",
+			"**Domain Spells:** 1st-[calm animals](spell/calm_animals), 2nd-[hold animal](spell/hold_animal), 3rd-[dominate animal](spell/dominate_animal), 4th-[summon nature's ally IV](spell/summon_nature's_ally_4) (animals only), 5th-[beast shape III](spell/beast_shape_3) (animals only), 6th-[antilife shell](spell/antilife_shell), 7th-[animal shapes](spell/animal_shapes), 8th-[summon nature's ally VIII](spell/summon_nature's_ally_8) (animals only), 9th-[shapechange](spell/shapechange).",
 			"",
 			"#### Feather Subdomain",
 			"",
@@ -139,7 +150,7 @@
 			"",
 			"**Predator's Grace (Su):** You can, as a swift action, grant yourself a +10-foot bonus to your base speed for 1 round. This bonus increases by 5 feet for every 5 cleric levels you possess. In addition, you gain low-light vision for 1 round. If you already possess low-light vision, the range of your sight becomes three times that of a human in dim light for 1 round. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-magic fang, 3rd-[beast shape I](spell/beast_shape_1) (animals only).",
+			"**Replacement Domain Spells:** 1st-[magic fang](spell/magic_fang), 3rd-[beast shape I](spell/beast_shape_1) (animals only).",
 			"",
 			"#### Insect Subdomain",
 			"",
@@ -176,6 +187,7 @@
 			"Toil",
 			"Trap"
 		],
+		"deities": [ "Aerekostes", "Aesocar", "Amaznen", "Apsu", "Atlach-Nacha", "Bharnarol", "Bifrons", "Brigh", "Chimon", "Cixyron", "Daikitsu", "Droskar", "Eldas", "Findeladlara", "Haagenti", "Il'surrish", "Khepri", "Malthus", "Mammon", "Mazludeh", "Minderhal", "Monad", "Nameless", "Neith", "Nocticula (Redeemed)", "Omrataji", "Ose", "Otolmens", "Phlegyas", "Ptah", "Sabnach", "Soralyon", "Speakers of the Depths", "Stygidvod", "Torag", "Yaezhing", "Yamasoth", "Yuelral" ],
 		"description": [
 			"### Artifice",
 			"",
@@ -191,7 +203,7 @@
 			"",
 			"Alternately, you can choose to learn an [annointing](class/ability/annointings) instead of gaining the dancing weapons ability at 8th level.",
 			"",
-			"**Domain Spells:** 1st-animate rope, 2nd-[wood shape](spell/wood_shape), 3rd-[stone shape](spell/stone_shape), 4th-[minor creation](spell/minor_creation), 5th-[fabricate](spell/fabricate), 6th-[major creation](spell/major_creation), 7th-[wall of iron](spell/wall_of_iron), 8th-[instant summons](spell/instant_summons), 9th-[prismatic sphere](spell/prismatic_sphere).",
+			"**Domain Spells:** 1st-[animate rope](spell/animate_rope), 2nd-[wood shape](spell/wood_shape), 3rd-[stone shape](spell/stone_shape), 4th-[minor creation](spell/minor_creation), 5th-[fabricate](spell/fabricate), 6th-[major creation](spell/major_creation), 7th-[wall of iron](spell/wall_of_iron), 8th-[instant summons](spell/instant_summons), 9th-[prismatic sphere](spell/prismatic_sphere).",
 			"",
 			"#### Alchemy Subdomain",
 			"",
@@ -232,7 +244,7 @@
 			"",
 			"**Aura of Efficiency (Su):** At 8th level, you can emit a 30-foot-radius aura that grants your allies a +4 bonus on all saving throws against effects that inflict the fatigued or exhausted condition. Any equipment wielded by your allies within this area gets a bonus to hardness equal to 1/2 your cleric level, and your allies' attacks against targets within this area ignore an equal amount of hardness. You can use this aura for a number of rounds per day equal to your cleric level. These rounds do not need to be consecutive.",
 			"",
-			"**Replacement Domain Spells:** 1st-crafter's fortune, 7th-[mage's magnificent mansion](spell/mage's_magnificent_mansion), 9th-[wooden phalanx](spell/wooden_phalanx).",
+			"**Replacement Domain Spells:** 1st-[crafter's fortune](spell/crafter's fortune), 7th-[mage's magnificent mansion](spell/mage's_magnificent_mansion), 9th-[wooden phalanx](spell/wooden_phalanx).",
 			"",
 			"#### Toil Subdomain",
 			"",
@@ -245,7 +257,7 @@
 			"",
 			"**Aura of Repetition (Su):** At 8th level, you can emit a 30-foot aura of repetition for a number of rounds per day equal to your cleric level. All enemies within this aura must make a Will save each round or repeat their action from the previous round (if possible). Creatures that attacked on the previous round attack again on the following round, although they may change their target. Creatures that moved the previous round must take the same move action again, although they may change their route. Creatures that drank a potion must do so again, even they can only drink from an empty bottle. Actions that cannot be repeated are wasted. These rounds do not need to be consecutive.",
 			"",
-			"**Replacement Domain Spells:** 1st-command, 5th-[waves of fatigue](spell/waves_of_fatigue), 7th-[waves of exhaustion](spell/waves_of_exhaustion).",
+			"**Replacement Domain Spells:** 1st-[command](spell/command), 5th-[waves of fatigue](spell/waves_of_fatigue), 7th-[waves of exhaustion](spell/waves_of_exhaustion).",
 			"",
 			"#### Trap Subdomain",
 			"",
@@ -288,6 +300,7 @@
 			"Riot",
 			"Whimsy"
 		],
+		"deities": [ "Abhoth", "Abraxas", "Acavna", "Aldinach", "Andirifkhu", "Angazhan", "Apep", "Areshkagal", "Ashava", "Ashukharma", "Azathoth", "Baphomet", "Bastet", "Bergelmir", "Besmara", "Black Butterfly", "Bokrug", "Calistria", "Camazotz", "Cayden Cailean", "Cernunnos", "Chadali", "Chaugnar Faugn", "Chavazvug", "Chucaro", "Count Ranalc", "Cthulhu", "Cyth-V'sug", "Daclau-Sar", "Dagon", "Dahak", "Deskari", "Desna", "Dretha", "Elion", "Findeladlara", "Flauros", "Ghlaunder", "Gogunta", "Gorum", "Groetus", "Guyuku", "Gyronna", "Haagenti", "Haggakal", "Hanspur", "Hastur", "Hathor", "Hei Feng", "Hembad", "Il'surrish", "Immonhiel", "Isph-Aun-Vuln", "Ithaqua", "Izyagna", "Jalaijatali", "Jezelda", "Jubilex", "Kabriri", "Keltheald", "Ketephys", "Kitumu", "Kofusachi", "Kostchtchie", "Kro'akoth", "Lady Nanbyo", "Lalaci", "Lamashtu", "Lanishra", "Marishi", "Mazmezz", "Menxyr", "Mestama", "Mhar", "Milani", "Mordiggian", "Murnath", "Narriseminek", "Nephthys", "Nhimbaloth", "Nightripper", "Nocticula", "Nocticula (Redeemed)", "Nulgreth", "Nurgal", "Nyarlathotep (Black Pharaoh)", "Nyarlathotep (Faceless Sphinx)", "Nyarlathotep (Haunter of the Dark)", "Oaur-Ooung", "Ongalte", "Onmyuza", "Orcus", "Orgesh", "Ovonovo", "Pazuzu", "Picoperi", "Pulura", "Ragadahn", "Reymenda", "Rhan-Tegoth", "Rovagug", "Rull", "Sekhmet", "Selket", "Sezelrian", "Shamira", "Shax", "Shiggarreb", "Shivaska", "Shub-Niggurath", "Sifkesh", "Sinashakti", "Sithhud", "Skode", "Skrymir", "Sobek", "Socothbenoth", "Speakers of the Depths", "Ssila'meshnik", "Sun Wukong", "Thamir Gixx", "The Lantern King", "Thisamet", "Thremyr", "Thuskchoon", "Tjasse", "Tolc", "Treerazer", "Tsathoggua", "Urazra", "Urxehl", "Ushitora", "Valani", "Varg", "Verex", "Xoveron", "Yamasoth", "Ydajisk", "Ydersius", "Yhidothrus", "Yig", "Yog-Sothoth", "Zagresh", "Zevgavizeb", "Zogmugot", "Zura" ],
 		"description": [
 			"### Chaos",
 			"",
@@ -301,7 +314,7 @@
 			"",
 			"**Chaos Blade (Su):** At 8th level, you can give a weapon touched the anarchic special weapon quality for a number of rounds equal to 1/2 your cleric level. You can use this ability once per day at 8th level, and an additional time per day for every four levels beyond 8th.",
 			"",
-			"**Domain Spells:** 1st-protection from law, 2nd-[align weapon](spell/align_weapon) (chaos only), 3rd-[magic circle against law](spell/magic_circle_against_law), 4th-[chaos hammer](spell/chaos_hammer), 5th-[dispel law](spell/dispel_law), 6th-[animate objects](spell/animate_objects), 7th-[word of chaos](spell/word_of_chaos), 8th-[cloak of chaos](spell/cloak_of_chaos), 9th-[summon monster IX](spell/summon_monster_9) (chaos spell only).",
+			"**Domain Spells:** 1st-[protection from law](spell/protection_from_law), 2nd-[align weapon](spell/align_weapon) (chaos only), 3rd-[magic circle against law](spell/magic_circle_against_law), 4th-[chaos hammer](spell/chaos_hammer), 5th-[dispel law](spell/dispel_law), 6th-[animate objects](spell/animate_objects), 7th-[word of chaos](spell/word_of_chaos), 8th-[cloak of chaos](spell/cloak_of_chaos), 9th-[summon monster IX](spell/summon_monster_9) (chaos spell only).",
 			"",
 			"#### Azata Subdomain",
 			"",
@@ -314,7 +327,7 @@
 			"",
 			"**Elysium's Call (Su):** With a touch, you can imbue creatures with the spirit of Elysium, lifting their spirits and freeing them from bonds. The creatures touched can immediately reroll any failed saving throws against spells and spell-like abilities of the enchantment (charm) and enchantment (compulsion) subschools. In addition, targets receive a +2 sacred bonus on such saving throws and a +2 sacred bonus on CMB checks to escape a grapple. Finally, targets can ignore up to 5 feet of difficult terrain each round, as if they had the Nimble Moves feat. These bonuses last for a number of rounds equal to 1/2 your cleric level (minimum 1), although the saving throw reroll only applies when the creature is touched. You can use this ability for a number of rounds per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-expeditious retreat, 3rd-[fly](spell/fly), 6th-[planar ally](spell/planar_ally) (azata only).",
+			"**Replacement Domain Spells:** 1st-[expeditious retreat](spell/expeditious_retreat), 3rd-[fly](spell/fly), 6th-[planar ally](spell/planar_ally) (azata only).",
 			"",
 			"#### Demodand Subdomain",
 			"",
@@ -340,7 +353,7 @@
 			"",
 			"**Fury of the Abyss (Su):** As a swift action, you can give yourself an enhancement bonus equal to 1/2 your cleric level (minimum +1) on melee attacks, melee damage rolls, and combat maneuver checks. This bonus lasts for 1 round. During this round, you take a -2 penalty to AC. You can use this ability for a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-doom, 3rd-[rage](spell/rage), 6th-[planar binding](spell/planar_binding) (demons only).",
+			"**Replacement Domain Spells:** 1st-[doom](spell/doom), 3rd-[rage](spell/rage), 6th-[planar binding](spell/planar_binding) (demons only).",
 			"",
 			"#### Entropy Subdomain",
 			"",
@@ -353,7 +366,7 @@
 			"",
 			"**Hasten the End (Su):** At 8th level, as an immediate action upon successfully hitting an opponent with a melee attack, you reduce the remaining duration of all beneficial magical effects currently affecting the target by 1 round, minute, hour, or day-whichever measurement is used to determine the duration of each particular magical effect. You can use this ability once per day at 8th level, and an additional time per day for every 4 levels beyond 8th.",
 			"",
-			"**Replacement Domain Spells:** 1st-entropic shield, 3rd-[dispel magic](spell/dispel_magic), 5th-[confusion](spell/confusion), 7th-[destruction](spell/destruction).",
+			"**Replacement Domain Spells:** 1st-[entropic shield](spell/entropic_shield), 3rd-[dispel magic](spell/dispel_magic), 5th-[confusion](spell/confusion), 7th-[destruction](spell/destruction).",
 			"",
 			"#### Protean Subdomain",
 			"",
@@ -366,7 +379,7 @@
 			"",
 			"**Aura of Chaos (Su):** At 8th level, you can surround yourself with a field wild energies. Thee energies manifest as a 30-foot aura of chaos for a number of rounds per day equal to your cleric level. All enemies within this aura must declare one type of action at the start of their turn (attack, cast a spell, move, use an item, or activate a special ability) and make a Will save. Creatures that fail the Will save must take an action other than their declared action. If they succeed, they must take the declared action. Creatures cannot select actions that they cannot perform.",
 			"",
-			"**Replacement Domain Spells:** 1st-lesser confusion, 3rd-[displacement](spell/displacement), 6th-[planar binding](spell/planar_binding) (proteans only).",
+			"**Replacement Domain Spells:** 1st-[lesser confusion](spell/lesser_confusion), 3rd-[displacement](spell/displacement), 6th-[planar binding](spell/planar_binding) (proteans only).",
 			"",
 			"#### Revelry Subdomain",
 			"",
@@ -405,7 +418,7 @@
 			"",
 			"**Unexpected Whimsy (Su):** As a standard action, you dance, act like a buffoon, or commit some other act of whimsy. When you do, enemies within 30 feet of you that can see and hear you must succeed a Will saving throw (DC = 10 + 1/2 your cleric level + half your Wisdom modifier) or they collapse into gales of manic laughter, falling prone. Those who fail their saving throws can take no actions other than laughing for 1 round, but are not considered helpless. You can use this ability once per day at 8th level and one additional time for every 4 levels you possess beyond 8th.",
 			"",
-			"**Replacement Domain Spells:** 1st-hideous laughter, 4th-[confusion](spell/confusion), 6th-[cloak of dreams](spell/cloak_of_dreams).",
+			"**Replacement Domain Spells:** 1st-[hideous laughter](spell/hideous_laughter), 4th-[confusion](spell/confusion), 6th-[cloak of dreams](spell/cloak_of_dreams).",
 			"",
 			"**Variant Domain Powers**",
 			"",
@@ -438,6 +451,7 @@
 			"Love",
 			"Lust"
 		],
+		"deities": [ "Ardad Lili", "Arshea", "Bastet", "Belial", "Bolka", "Calistria", "Cayden Cailean", "Dachzerul", "Droskar", "Eritrice", "Folca", "Grandmother Spider", "Hathor", "Hembad", "Isis", "Kofusachi", "Laivatiniel", "Mestama", "Mrtyu", "Naderi", "Nalinivati", "Nephthys", "Nocticula", "Norgorber", "Onamahli", "Onmyuza", "Picoperi", "Scarmiglione", "Seramaydiel", "Shamira", "Shelyn", "Shelyn (pre-Earthfall)", "Socothbenoth", "The Green Mother", "The Lantern King", "Ulon", "Upion and Warrik", "Velgaas", "Verex", "Vermilion Mother", "Xsistaid", "Zaigasnar", "Zepar" ],
 		"description": [
 			"### Charm",
 			"",
@@ -451,7 +465,7 @@
 			"",
 			"**Charming Smile (Sp):** At 8th level, you can cast charm person as a swift action, with a DC of 10 + 1/2 your cleric level + your Wisdom modifier. You can only have one creature charmed in this way at a time. The total number of rounds of this effect per day is equal to your cleric level. The rounds do not need to be consecutive, and you can dismiss the charm at any time as a free action. Each attempt to use this ability consumes 1 round of its duration, whether or not the creature succeeds on its save to resist the effect.",
 			"",
-			"**Domain Spells:** 1st-charm person, 2nd-[calm emotions](spell/calm_emotions), 3rd-[suggestion](spell/suggestion), 4th-[heroism](spell/heroism), 5th-[charm monster](spell/charm_monster), 6th-[geas/quest](spell/geas_quest), 7th-[insanity](spell/insanity), 8th-[demand](spell/demand), 9th-[dominate monster](spell/dominate_monster).",
+			"**Domain Spells:** 1st-[charm person](spell/charm_person), 2nd-[calm emotions](spell/calm_emotions), 3rd-[suggestion](spell/suggestion), 4th-[heroism](spell/heroism), 5th-[charm monster](spell/charm_monster), 6th-[geas/quest](spell/geas_quest), 7th-[insanity](spell/insanity), 8th-[demand](spell/demand), 9th-[dominate monster](spell/dominate_monster).",
 			"",
 			"#### Captivation Subdomain",
 			"",
@@ -466,7 +480,7 @@
 			"",
 			"**Entrancing Aura (Su):** At 8th level, you can emit an imperceptible 30-foot aura of distraction as a standard action for a number of rounds equal to your cleric level. These rounds need not be consecutive. Enemies within this aura take a -5 penalty on Perception checks and are treated as though they had 2 fewer Hit Dice (minimum 1 Hit Die) for the purpose of your effects that would give them the fascinated condition. At 16th level, they are instead treated as if they had 3 fewer Hit Dice for such effects.",
 			"",
-			"**Replacement Domain Spells:** 1st-hypnotism, 2nd-[hypnotic pattern](spell/hypnotic_pattern), 4th-[rainbow pattern](spell/rainbow_pattern).",
+			"**Replacement Domain Spells:** 1st-[hypnotism](spell/hypnotism), 2nd-[hypnotic pattern](spell/hypnotic_pattern), 4th-[rainbow pattern](spell/rainbow_pattern).",
 			"",
 			"#### Love Subdomain",
 			"",
@@ -511,6 +525,7 @@
 			"Family",
 			"Home"
 		],
+		"deities": [ "Alseta", "Arlachramas", "Aroden", "Bergelmir", "Bes", "Bharnarol", "Bolka", "Ceyannan", "Daikitsu", "Dretha", "Elion", "Erastil", "Fandarra", "Findeladlara", "Folgrit", "Gavidya", "Ghenshau", "Grandmother Spider", "Grundinnar", "Iapholi", "Imbrex", "Inma", "Isis", "Jiraviddain", "Kaikyton", "Kazutal", "Kurgess", "Lorris", "Lymnieris", "Lythertida", "Matravash", "Mazludeh", "Nephthys", "Nivi Rhombodazzle", "Shei", "Svarozic", "Thisamet", "Ulon", "Vale", "Yig" ],
 		"description": [
 			"### Community",
 			"",
@@ -524,7 +539,7 @@
 			"",
 			"**Unity (Su):** At 8th level, whenever a spell or effect targets you and one or more allies within 30 feet, you can use this ability to allow your allies to use your saving throw against the effect in place of their own. Each ally must decide individually before the rolls are made. Using this ability is an immediate action. You can use this ability once per day at 8th level, and one additional time per day for every four cleric levels beyond 8th.",
 			"",
-			"**Domain Spells:** 1st-bless, 2nd-[shield other](spell/shield_other), 3rd-[prayer](spell/prayer), 4th-[imbue with spell ability](spell/imbue_with_spell_ability), 5th-[telepathic bond](spell/telepathic_bond), 6th-[heroes' feast](spell/heroes'_feast), 7th-[refuge](spell/refuge), 8th-[mass cure critical wounds](spell/mass_cure_critical_wounds), 9th-[miracle](spell/miracle).",
+			"**Domain Spells:** 1st-[bless](spell/bless), 2nd-[shield other](spell/shield_other), 3rd-[prayer](spell/prayer), 4th-[imbue with spell ability](spell/imbue_with_spell_ability), 5th-[telepathic bond](spell/telepathic_bond), 6th-[heroes' feast](spell/heroes'_feast), 7th-[refuge](spell/refuge), 8th-[mass cure critical wounds](spell/mass_cure_critical_wounds), 9th-[miracle](spell/miracle).",
 			"",
 			"#### Cooperation Subdomain",
 			"",
@@ -537,7 +552,7 @@
 			"",
 			"**Synergistic Touch (Sp):** You can touch a creature as a standard action to confer upon it the benefits of any one Teamwork feat that you possess. This effect persists for a number of rounds equal to 1/2 your cleric level (minimum 1). You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-borrow skill, 2nd-[share language](spell/share_language), 3rd-[coordinated effort](spell/coordinated_effort).",
+			"**Replacement Domain Spells:** 1st-[borrow skill](spell/borrow_skill), 2nd-[share language](spell/share_language), 3rd-[coordinated effort](spell/coordinated_effort).",
 			"",
 			"#### Education Subdomain",
 			"",
@@ -550,7 +565,7 @@
 			"",
 			"**Teaching Moment (Su):** At 8th level, when you or an ally within 30 feet rolls a natural 1 or a natural 20 on an attack roll, an ability check, a skill check, or a saving throw, as an immediate action you can grant all allies within 30 feet special insights that help them overcome similar challenges. Once during the next minute, each affected creature can choose to roll twice and take the better result before attempting an attack roll, ability check, skill check, or saving throw. You can use this ability once per day at 8th level, and one additional time per day for every 4 cleric levels beyond 8th.",
 			"",
-			"**Replacement Domain Spells:** 1st-know the enemy, 2nd-[fox's cunning](spell/fox's_cunning), 6th-[battlemind link](spell/battlemind_link), 8th-[circle of clarity](spell/circle_of_clarity).",
+			"**Replacement Domain Spells:** 1st-[know the enemy](spell/know_the_enemy), 2nd-[fox's cunning](spell/fox's_cunning), 6th-[battlemind link](spell/battlemind_link), 8th-[circle of clarity](spell/circle_of_clarity).",
 			"",
 			"#### Family Subdomain",
 			"",
@@ -576,7 +591,7 @@
 			"",
 			"**Guarded Hearth (Su):** At 8th level, you can create a ward that protects a specified area. Creating this ward takes 10 minutes of uninterrupted work. This ward has a maximum radius of 5 feet per 2 cleric levels you possess. When the ward is completed, you designate any number of creatures inside its area. Should any other creature enter the warded area, all of the selected creatures are immediately alerted (and awoken if they were asleep). The designated creatures also receive a sacred bonus equal to your Wisdom modifier on all saving throws and attack rolls while inside the warded area. This ward immediately ends if you leave the area. The ward lasts for 1 hour per cleric level. You can use this ability once per day.",
 			"",
-			"**Replacement Domain Spells:** 1st-alarm, 3rd-[glyph of warding](spell/glyph_of_warding), 7th-[guards and wards](spell/guards_and_wards)."
+			"**Replacement Domain Spells:** 1st-[alarm](spell/alarm), 3rd-[glyph of warding](spell/glyph_of_warding), 7th-[guards and wards](spell/guards_and_wards)."
 		]
 	},
 	"darkness": {
@@ -597,6 +612,7 @@
 			"Night",
 			"Shadow"
 		],
+		"deities": [ "Abhoth", "Acavna", "Ah Pook", "Ahriman", "Alazhra", "Apep", "Apollyon", "Ashava", "Atropos", "Benorus", "Camazotz", "Count Ranalc", "Deumus", "Droskar", "Grandmother Spider", "Groetus", "Iggeret", "Kelinahat", "Kerkamoth", "Lao Shu Po", "Maeha", "Monad", "Mordiggian", "Muronna", "Nalmungder", "Nephthys", "Nightripper", "Nocticula", "Nocticula (Redeemed)", "Nyarlathotep (Haunter of the Dark)", "Rahu", "Set", "Shawnari", "Shivaska", "Slandrais", "Tanagaar", "Thoth", "Tresmalvos", "Tsukiyo", "Vavaalrav", "Yan-gant-y-tan", "Yog-Sothoth", "Zon-Kuthon" ],
 		"description": [
 			"### Darkness",
 			"",
@@ -610,7 +626,7 @@
 			"",
 			"**Eyes of Darkness (Su):** At 8th level, your vision is not impaired by lighting conditions, even in absolute darkness and magic darkness. You can use this ability for a number of rounds per day equal to 1/2 your cleric level. These rounds do not need to be consecutive.",
 			"",
-			"**Domain Spells:** 1st-obscuring mist, 2nd-[blindness/deafness](spell/blindness_deafness) (only to cause blindness), 3rd-[deeper darkness](spell/deeper_darkness), 4th-[shadow conjuration](spell/shadow_conjuration), 5th-[summon monster V](spell/summon_monster_5) (summons 1d3 shadows), 6th-[shadow walk](spell/shadow_walk), 7th-[power word blind](spell/power_word_blind), 8th-[greater shadow evocation](spell/greater_shadow_evocation), 9th-[shades](spell/shades).",
+			"**Domain Spells:** 1st-[obscuring mist](spell/obscuring_mist), 2nd-[blindness/deafness](spell/blindness_deafness) (only to cause blindness), 3rd-[deeper darkness](spell/deeper_darkness), 4th-[shadow conjuration](spell/shadow_conjuration), 5th-[summon monster V](spell/summon_monster_5) (summons 1d3 shadows), 6th-[shadow walk](spell/shadow_walk), 7th-[power word blind](spell/power_word_blind), 8th-[greater shadow evocation](spell/greater_shadow_evocation), 9th-[shades](spell/shades).",
 			"",
 			"#### Loss Subdomain",
 			"",
@@ -636,7 +652,7 @@
 			"",
 			"**Moonfire (Su):** At 8th level, as a standard action, you can shoot a blast of divine moonlight from your eyes as a ranged touch attack against a single target within 30 feet. Moonfire deals 1d8 points of damage per 2 class levels you have, and the target is dazzled for 1 round per class level you have. Moonfire deals 1d10 points of damage per class level you have against lycanthropes. You can use this ability once per day at 8th level, and one additional time per day for every 4 levels beyond 8th.",
 			"",
-			"**Replacement Domain Spells:** 1st-faerie fire, 4th-[moonstruck](spell/moonstruck), 6th-[dream](spell/dream).",
+			"**Replacement Domain Spells:** 1st-[faerie fire](spell/faerie_fire), 4th-[moonstruck](spell/moonstruck), 6th-[dream](spell/dream).",
 			"",
 			"#### Night Subdomain",
 			"",
@@ -649,7 +665,7 @@
 			"",
 			"**Night Hunter (Su):** As a standard action, you can blend into the shadows of the night, becoming nearly invisible. As long as you are in an area of dim light or darkness, you are invisible (as per invisibility) to creatures without darkvision. This ability lasts for a number of rounds equal to 1/2 your cleric level (minimum 1). You can use this ability for a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-sleep, 6th-[nightmare](spell/nightmare).",
+			"**Replacement Domain Spells:** 1st-[sleep](spell/sleep), 6th-[nightmare](spell/nightmare).",
 			"",
 			"#### Shadow Subdomain",
 			"",
@@ -662,7 +678,7 @@
 			"",
 			"**Whispering Shadows (Su):** You can darken the shadows around you and cause them to hiss, confounding and distracting your enemies. As an immediate action, you can force a target within 30 feet to reroll a miss chance due to concealment or a saving throw against an illusion or necromancy spell. The target of this ability must keep the result of the second roll, even if it is worse than the original roll. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-ray of enfeeblement, 4th-[phantasmal killer](spell/phantasmal_killer), 8th-orb of the void"
+			"**Replacement Domain Spells:** 1st-[ray of enfeeblement](spell/ray_of_enfeeblement), 4th-[phantasmal killer](spell/phantasmal_killer), 8th-orb of the void"
 		]
 	},
 	"death": {
@@ -684,6 +700,7 @@
 			"Shadow",
 			"Undead"
 		],
+		"deities": [ "Achaekek", "Aesdurath", "Ah Pook", "Ahriman", "Ajids", "Andak", "Anubis", "Arlachramas", "Atropos", "Baalzebul", "Barravoclair", "Cagnazzo", "Chamiaholom", "Charon", "Chaugnar Faugn", "Chugarra", "Circiatto", "Corosbel", "Damerrich", "Deumus", "Fandarra", "Farfarello", "Fumeiyoshi", "Gogunta", "Hanspur", "Ioramvol", "Jacarkas", "Kabriri", "Kalma", "Lythertida", "Mahathallah", "Menxyr", "Mneoc", "Mordiggian", "Mrtyu", "Narakaas", "Nergal", "Nhimbaloth", "Norgorber", "Ongalte", "Orcus", "Pavnuri", "Pharasma", "Rahu", "Ruzel", "Set", "Shyka", "Sithhud", "The Pale Horse", "Urgathoa", "Uzumae", "Venkelvore", "Xhamen-Dor", "Yaezhing", "Yhidothrus", "Zagresh", "Zon-Kuthon", "Zura", "Zyphus" ],
 		"description": [
 			"### Death",
 			"",
@@ -801,6 +818,7 @@
 			"Rage",
 			"Torture"
 		],
+		"deities": [ "Ah Pook", "Ahriman", "Ananshea", "Andak", "Anogetz", "Apep", "Apollyon", "Ayrzul", "Azathoth", "Belial", "Bokrug", "Charg", "Daclau-Sar", "Dagon", "Dahak", "Deskari", "Dhalavei", "Doloras", "Draghignazzo", "Ealdeez", "Eiseth", "Feronia", "Fumeiyoshi", "Ghatanothoa", "Ghlaunder", "Gorum", "Groetus", "Gyronna", "Hastrikhal", "Hei Feng", "Hshurha", "Iaozrael", "Jacarkas", "Jubilex", "Kelizandri", "Kerkamoth", "Lady Nanbyo", "Libicocco", "Mazmezz", "Mhar", "Mother Vulture", "Nataka", "Nethys", "Ozranvial", "Ragathiel", "Reymenda", "Rovagug", "Scal", "Sekhmet", "Shax", "Shyka", "Speakers of the Depths", "Tamede", "Thuskchoon", "Tjasse", "Treerazer", "Ushitora", "Venkelvore", "Vevelor", "Vildeis", "Xiquiripat", "Xsistaid", "Yabu", "Ymeri", "Zaebos", "Zagresh", "Zaigasnar", "Zon-Kuthon", "Zurapadyn", "Zyphus" ],
 		"description": [
 			"### Destruction",
 			"",
@@ -814,7 +832,7 @@
 			"",
 			"**Destructive Aura (Su):** At 8th level, you can emit a 30-foot aura of destruction for a number of rounds per day equal to your cleric level. All attacks made against targets in this aura (including you) gain a morale bonus on damage equal to 1/2 your cleric level and all critical threats are automatically confirmed. These rounds do not need to be consecutive.",
 			"",
-			"**Domain Spells:** 1st-true strike, 2nd-[shatter](spell/shatter), 3rd-[rage](spell/rage), 4th-[inflict critical wounds](spell/inflict_critical_wounds), 5th-[shout](spell/shout), 6th-[harm](spell/harm), 7th-[disintegrate](spell/disintegrate), 8th-[earthquake](spell/earthquake), 9th-[implosion](spell/implosion).",
+			"**Domain Spells:** 1st-[true strike](spell/true_strike), 2nd-[shatter](spell/shatter), 3rd-[rage](spell/rage), 4th-[inflict critical wounds](spell/inflict_critical_wounds), 5th-[shout](spell/shout), 6th-[harm](spell/harm), 7th-[disintegrate](spell/disintegrate), 8th-[earthquake](spell/earthquake), 9th-[implosion](spell/implosion).",
 			"",
 			"#### Catastrophe Subdomain",
 			"",
@@ -840,7 +858,7 @@
 			"",
 			"**Hateful Aura (Su):** At 8th level, you can emit a 30-foot aura of hatred for a number of rounds per day equal to your cleric level. These rounds need not be consecutive. Enemies within this aura must attempt a Will save (DC = 10 + 1/2 your cleric level + your Wisdom modifier). Characters who fail their save are filled with hatred, and cannot consider other characters allies for the purpose of any actions or use any teamwork feats. The effect ends immediately if the creature leaves the aura, you end the aura as a free action, or you expend all rounds of this ability.",
 			"",
-			"**Replacement Domain Spells:** 1st-murderous command, 2nd-[wrathful mantle](spell/wrathful_mantle).",
+			"**Replacement Domain Spells:** 1st-[murderous command](spell/murderous_command), 2nd-[wrathful mantle](spell/wrathful_mantle).",
 			"",
 			"#### Rage Subdomain",
 			"",
@@ -884,6 +902,7 @@
 			"Petrification",
 			"Radiation"
 		],
+		"deities": [ "Abadar", "Abhoth", "Anubis", "Ashukharma", "Ayrzul", "Benorus", "Bes", "Brigh", "Cixyron", "Cyth-V'sug", "Draghignazzo", "Eldas", "Fandarra", "Green Faith", "Imbrex", "Ioramvol", "Jerishall", "Kaikyton", "Magrim", "Mammon", "Mhar", "Minderhal", "Murnath", "Nalmungder", "Nivi Rhombodazzle", "Omrataji", "Onos", "Orgesh", "Phlegyas", "Ptah", "Quindiovatos", "Scal", "Soralyon", "The Green Mother", "Torag", "Trelmarixian", "Ushitora", "Valani", "Varg", "Vavaalrav", "Venkelvore", "Wylgart", "Xoveron", "Yamasoth", "Yamatsumi", "Yuelral", "Zipacna" ],
 		"description": [
 			"### Earth",
 			"",
@@ -897,7 +916,7 @@
 			"",
 			"**Acid Resistance (Ex):** At 6th level, you gain resist acid 10. This resistance increases to 20 at 12th level. At 20th level, you gain immunity to acid.",
 			"",
-			"**Domain Spells:** 1st-magic stone, 2nd-[soften earth and stone](spell/soften_earth_and_stone), 3rd-[stone shape](spell/stone_shape), 4th-[spike stones](spell/spike_stones), 5th-[wall of stone](spell/wall_of_stone), 6th-[stoneskin](spell/stoneskin), 7th-[elemental body IV](spell/elemental_body_4) (earth only), 8th-[earthquake](spell/earthquake), 9th-[elemental swarm](spell/elemental_swarm) (earth spell only).",
+			"**Domain Spells:** 1st-[magic stone](spell/magic_stone), 2nd-[soften earth and stone](spell/soften_earth_and_stone), 3rd-[stone shape](spell/stone_shape), 4th-[spike stones](spell/spike_stones), 5th-[wall of stone](spell/wall_of_stone), 6th-[stoneskin](spell/stoneskin), 7th-[elemental body IV](spell/elemental_body_4) (earth only), 8th-[earthquake](spell/earthquake), 9th-[elemental swarm](spell/elemental_swarm) (earth spell only).",
 			"",
 			"#### Caves Subdomain",
 			"",
@@ -981,6 +1000,7 @@
 			"Plague",
 			"Sahkil"
 		],
+		"deities": [ "Abraxas", "Achaekek", "Aesdurath", "Ah Pook", "Ahriman", "Ajids", "Aksha", "Akuma", "Alazhra", "Aldinach", "Alichino", "Alocer", "Ananshea", "Andak", "Andirifkhu", "Angazhan", "Anogetz", "Apep", "Apollyon", "Arazni", "Ardad Lili", "Areshkagal", "Arlachramas", "Aroggus", "Asmodeus", "Atlach-Nacha", "Ayrzul", "Baalzebul", "Baphomet", "Barbariccia", "Barbatos", "Barravoclair", "Belial", "Bifrons", "Bohga", "Braismois", "Bundha", "Caera", "Cagnazzo", "Calcabrina", "Camazotz", "Chamiaholom", "Charg", "Charon", "Chaugnar Faugn", "Chavazvug", "Chimon", "Chinostes (Evil Aspect)", "Chugarra", "Chupurvagasti", "Circiatto", "Cixyron", "Corosbel", "Crocell", "Cthulhu", "Cyth-V'sug", "Dachzerul", "Daclau-Sar", "Dagon", "Dahak", "Deskari", "Deumus", "Dhalavei", "Diceid", "Dispater", "Doloras", "Dradjit", "Draghignazzo", "Dretha", "Droskar", "Ealdeez", "Eaqueo", "Eiseth", "Eligos", "Farfarello", "Fharaas", "Flauros", "Folca", "Fumeiyoshi", "Furcas", "Gaap", "Gavidya", "General Susumu", "Geon", "Geryon", "Ghatanothoa", "Ghlaunder", "Gogunta", "Graffiacane", "Guyuku", "Gyronna", "Haagenti", "Haborym", "Hadregash", "Haggakal", "Hastrikhal", "Hastur", "Hataam", "Hshurha", "Hudima", "Hydim", "Iaozrael", "Iggeret", "Inkariax", "Inma", "Ioramvol", "Isph-Aun-Vuln", "Ithaqua", "Izyagna", "Jacarkas", "Jezelda", "Jiraviddain", "Jubilex", "Jyotah", "Kabriri", "Kaikyton", "Kalma", "Kelizandri", "Kitumu", "Kostchtchie", "Kro'akoth", "Kunkarna", "Lady Nanbyo", "Laivatiniel", "Lamashtu", "Lanishra", "Lao Shu Po", "Libicocco", "Lissala", "Llamolaek", "Lorcan", "Lorthact", "Losarkur", "Maeha", "Mahathallah", "Malacoda", "Malthus", "Mammon", "Mazmezz", "Menxyr", "Mephistopheles", "Mestama", "Minderhal", "Mneoc", "Moloch", "Mordiggian", "Morrobahn", "Murnath", "Muronna", "Mursha", "Nalmungder", "Nameless", "Nataka", "Nergal", "Nhimbaloth", "Nightripper", "Nocticula", "Norgorber", "Nulgreth", "Nurgal", "Nyarlathotep (Black Pharaoh)", "Nyarlathotep (Faceless Sphinx)", "Nyarlathotep (Haunter of the Dark)", "Oaur-Ooung", "Onamahli", "Ongalte", "Onmyuza", "Orcus", "Orgesh", "Ose", "Osolmyr", "Otikaya", "Ovonovo", "Ozranvial", "Pavnuri", "Pazuzu", "Pirias", "Prihasta", "Quindiovatos", "Raetorgash", "Ragadahn", "Rahu", "Rasvocel", "Ravana", "Rhan-Tegoth", "Roqorolos", "Rovagug", "Ruapceras", "Rubicante", "Rull", "Ruzel", "Rytara", "Sabnach", "Scal", "Scarmiglione", "Set", "Sezelrian", "Shamira", "Shawnari", "Shax", "Shiggarreb", "Shivaska", "Shub-Niggurath", "Sicva", "Sifkesh", "Sithhud", "Slandrais", "Socothbenoth", "Stygidvod", "Sugroz", "Surpa", "Szuriel", "Tamede", "Taraksun", "Thamir Gixx", "The Green Mother", "Thremyr", "Thuskchoon", "Titivilus", "Treerazer", "Trelmarixian", "Tresmalvos", "Tsathoggua", "Uaransaph", "Ulon", "Urazra", "Urgathoa", "Uruskreil", "Urxehl", "Ushitora", "Uzumae", "Vapula", "Varg", "Velgaas", "Venkelvore", "Verex", "Vermilion Mother", "Vevelor", "Vibhishah", "Vois", "Vorasha", "Wylgart", "Xhamen-Dor", "Xhasnaphar", "Xiquiripat", "Xoveron", "Xsistaid", "Yabu", "Yaezhing", "Yamasoth", "Yan-gant-y-tan", "Ydersius", "Yhidothrus", "Ymeri", "Zabha", "Zaebos", "Zagresh", "Zaigasnar", "Zarongel", "Zelishkar", "Zepar", "Zevgavizeb", "Zipacna", "Zogmugot", "Zon-Kuthon", "Zura", "Zurapadyn", "Zursvaater", "Zyphus" ],
 		"description": [
 			"### Evil",
 			"",
@@ -994,7 +1014,7 @@
 			"",
 			"**Scythe of Evil (Su):** At 8th level, you can give a weapon touched the unholy special weapon quality for a number of rounds equal to 1/2 your cleric level. You can use this ability once per day at 8th level, and an additional time per day for every four levels beyond 8th.",
 			"",
-			"**Domain Spells:** 1st-protection from good, 2nd-[align weapon](spell/align_weapon) (evil only), 3rd-[magic circle against good](spell/magic_circle_against_good), 4th-[unholy blight](spell/unholy_blight), 5th-[dispel good](spell/dispel_good), 6th-[create undead](spell/create_undead), 7th-[blasphemy](spell/blasphemy), 8th-[unholy aura](spell/unholy_aura), 9th-[summon monster IX](spell/summon_monster_9) (evil spell only).",
+			"**Domain Spells:** 1st-[protection from good](spell/protection_from_good), 2nd-[align weapon](spell/align_weapon) (evil only), 3rd-[magic circle against good](spell/magic_circle_against_good), 4th-[unholy blight](spell/unholy_blight), 5th-[dispel good](spell/dispel_good), 6th-[create undead](spell/create_undead), 7th-[blasphemy](spell/blasphemy), 8th-[unholy aura](spell/unholy_aura), 9th-[summon monster IX](spell/summon_monster_9) (evil spell only).",
 			"",
 			"#### Cannibalism Subdomain",
 			"",
@@ -1007,7 +1027,7 @@
 			"",
 			"**Consume the Enemy (Su):** As a full-round action that is considered an evil act and provokes attacks of opportunity, you can bite a helpless living or freshly killed creature, dealing 1d3 points of damage. By consuming the creature's flesh, you gain a +1 profane bonus on saving throw DCs for all spells, spell-like abilities, and supernatural abilities you use against creatures of the same type (and subtype, if humanoid or outsider) as the cannibalized creature. This effect lasts for a number of minutes equal to 1/2 your cleric level or until you use this ability against a different creature. At 5th, 10th, 15th, and 20th level, this bonus increases by 1 (+5 maximum). You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-magic fang, 2nd-[enemy's heart](spell/enemy's_heart), 3rd-[greater magic fang](spell/greater_magic_fang).",
+			"**Replacement Domain Spells:** 1st-[magic fang](spell/magic_fang), 2nd-[enemy's heart](spell/enemy's_heart), 3rd-[greater magic fang](spell/greater_magic_fang).",
 			"",
 			"#### Corruption Subdomain",
 			"",
@@ -1033,7 +1053,7 @@
 			"",
 			"**Whispering Evil (Su):** At 8th level, as a standard action, you can whisper a hypnotizing litany of empty promises. Each enemy within a 30-foot emanation that can hear you must succeed on a Will saving throw or become fascinated for as long as you continue the litany. You can use this power a number of rounds per day equal to your cleric level, but these rounds do not need to be consecutive. This is a mind-affecting effect.",
 			"",
-			"**Replacement Domain Spells:** 1st-cause fear, 3rd-[vampiric touch](spell/vampiric_touch), 6th-[planar binding](spell/planar_binding) (daemons only).",
+			"**Replacement Domain Spells:** 1st-[cause fear](spell/cause_fear), 3rd-[vampiric touch](spell/vampiric_touch), 6th-[planar binding](spell/planar_binding) (daemons only).",
 			"",
 			"#### Demodand Subdomain",
 			"",
@@ -1059,7 +1079,7 @@
 			"",
 			"**Fury of the Abyss (Su):** As a swift action, you can give yourself an enhancement bonus equal to 1/2 your cleric level (minimum +1) on melee attacks, melee damage rolls, and combat maneuver checks. This bonus lasts for 1 round. During this round, you take a -2 penalty to AC. You can use this ability for a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-doom, 3rd-[rage](spell/rage), 6th-[planar binding](spell/planar_binding) (demons only).",
+			"**Replacement Domain Spells:** 1st-[doom](spell/doom), 3rd-[rage](spell/rage), 6th-[planar binding](spell/planar_binding) (demons only).",
 			"",
 			"#### Devil Subdomain",
 			"",
@@ -1072,7 +1092,7 @@
 			"",
 			"**Hell's Corruption (Su):** You can cause a creature to become more susceptible to corruption as a melee touch attack. Creatures touched take a -2 penalty on all saving throws and must roll all opposed skill checks twice, taking the worse result. This effect lasts for a number of rounds equal to 1/2 your cleric level (minimum 1). You can use this ability for a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-command, 3rd-[suggestion](spell/suggestion), 6th-[planar binding](spell/planar_binding) (devils only).",
+			"**Replacement Domain Spells:** 1st-[command](spell/command), 3rd-[suggestion](spell/suggestion), 6th-[planar binding](spell/planar_binding) (devils only).",
 			"",
 			"#### Fear Subdomain",
 			"",
@@ -1085,7 +1105,7 @@
 			"",
 			"**Feed on Fear (Su):** At 8th level, as an immediate action upon successfully landing a melee attack on a creature that is already suffering from a fear effect, you deal 2d6 extra points of damage and gain an equal amount of temporary hit points. These temporary hit points last for 24 hours or until lost. You can use this ability once per day at 8th level, and an additional time per day for every 4 levels beyond 8th.",
 			"",
-			"**Replacement Domain Spells:** 1st-cause fear, 3rd-[scare](spell/scare), 4th-[fear](spell/fear).",
+			"**Replacement Domain Spells:** 1st-[cause fear](spell/cause_fear), 3rd-[scare](spell/scare), 4th-[fear](spell/fear).",
 			"",
 			"#### Kyton Subdomain",
 			"",
@@ -1098,7 +1118,7 @@
 			"",
 			"**Pain Is Power (Su):** At 8th level, after taking damage from any source, you may attempt a DC 25 concentration check as an immediate action. If you succeed, you gain the benefits of a blessing of fervor spell for a number of rounds equal to 1/2 your cleric level. If you fail, this ability is expended with no effect. You can use this ability once at 8th level, plus an additional time for every 4 levels you are beyond 8th.",
 			"",
-			"**Replacement Domain Spells:** 1st-delay pain, 2nd-[instrument of agony](spell/instrument_of_agony), 3rd-[agonize](spell/agonize), 5th-[symbol of pain](spell/symbol_of_pain).",
+			"**Replacement Domain Spells:** 1st-[delay pain](spell/delay_pain), 2nd-[instrument of agony](spell/instrument_of_agony), 3rd-[agonize](spell/agonize), 5th-[symbol of pain](spell/symbol_of_pain).",
 			"",
 			"#### Plague Subdomain",
 			"",
@@ -1111,7 +1131,7 @@
 			"",
 			"**Touch of Virulence (Su):** As a standard action, you can touch a diseased creature and exacerbate its condition. If it fails a Fortitude save (DC = 10 + 1/2 your cleric level + your Wisdom modifier), the creature takes damage as though it had failed its Fortitude save against the disease and any remaining onset time for the disease ends. You can use this ability once per day at 8th level, plus one additional time per day at 14th level and 20th level.",
 			"",
-			"**Replacement Domain Spells:** 1st-ray of sickening, 3rd-[contagion](spell/contagion), 6th-[plague storm](spell/plague_storm), 8th-[horrid wilting](spell/horrid_wilting).",
+			"**Replacement Domain Spells:** 1st-[ray of sickening](spell/ray_of_sickening), 3rd-[contagion](spell/contagion), 6th-[plague storm](spell/plague_storm), 8th-[horrid wilting](spell/horrid_wilting).",
 			"",
 			"#### Sahkil Subdomain",
 			"",
@@ -1142,6 +1162,7 @@
 			"Ash",
 			"Smoke"
 		],
+		"deities": [ "Angradd", "Asmodeus", "Brigh", "Chavazvug", "Feronia", "Flauros", "Furcas", "Geon", "Green Faith", "Haborym", "Hastrikhal", "Izyagna", "Kro'akoth", "Lady Nanbyo", "Mhar", "Moloch", "Nataka", "Nurgal", "Onos", "Otolmens", "Pharimia", "Ptah", "Ra", "Rubicante", "Sarenrae", "Sekhmet", "Sezelrian", "Svarozic", "Szuriel", "Thisamet", "Urxehl", "Vonymos", "Yabu", "Yamatsumi", "Ymeri", "Zarongel", "Zelishkar", "Zipacna", "Zurapadyn", "Zursvaater" ],
 		"description": [
 			"### Fire",
 			"",
@@ -1155,7 +1176,7 @@
 			"",
 			"**Fire Resistance (Ex):** At 6th level, you gain resist fire 10. This resistance increases to 20 at 12th level. At 20th level, you gain immunity to fire.",
 			"",
-			"**Domain Spells:** 1st-burning hands, 2nd-[produce flame](spell/produce_flame), 3rd-[fireball](spell/fireball), 4th-[wall of fire](spell/wall_of_fire), 5th-[fire shield](spell/fire_shield), 6th-[fire seeds](spell/fire_seeds), 7th-[elemental body IV](spell/elemental_body_4) (fire only), 8th-[incendiary cloud](spell/incendiary_cloud), 9th-[elemental swarm](spell/elemental_swarm) (fire spell only).",
+			"**Domain Spells:** 1st-[burning hands](spell/burning_hands), 2nd-[produce flame](spell/produce_flame), 3rd-[fireball](spell/fireball), 4th-[wall of fire](spell/wall_of_fire), 5th-[fire shield](spell/fire_shield), 6th-[fire seeds](spell/fire_seeds), 7th-[elemental body IV](spell/elemental_body_4) (fire only), 8th-[incendiary cloud](spell/incendiary_cloud), 9th-[elemental swarm](spell/elemental_swarm) (fire spell only).",
 			"",
 			"#### Arson Subdomain",
 			"",
@@ -1213,6 +1234,7 @@
 			"Hubris",
 			"Legend"
 		],
+		"deities": [ "Akuma", "Aroden", "Damerrich", "Drokalion", "General Susumu", "Gorum", "Iapholi", "Iomedae", "Jaidi", "Jaidz", "Kols", "Myr", "Osolmyr", "Quindiovatos", "Ra", "Rubicante", "Sarenrae", "Shizuru", "Skode", "Uruskreil", "Vonymos" ],
 		"description": [
 			"### Glory",
 			"",
@@ -1226,7 +1248,7 @@
 			"",
 			"**Divine Presence (Su):** At 8th level, you can emit a 30-foot aura of divine presence for a number of rounds per day equal to your cleric level. All allies within this aura are treated as if under the effects of a sanctuary spell with a DC equal to 10 + 1/2 your cleric level + your Wisdom modifier. These rounds do not need to be consecutive. Activating this ability is a standard action. If an ally leaves the area or makes an attack, the effect ends for that ally. If you make an attack, the effect ends for you and your allies.",
 			"",
-			"**Domain Spells:** 1st-shield of faith, 2nd-[bless weapon](spell/bless_weapon), 3rd-[searing light](spell/searing_light), 4th-[holy smite](spell/holy_smite), 5th-[righteous might](spell/righteous_might), 6th-[undeath to death](spell/undeath_to_death), 7th-[holy sword](spell/holy_sword), 8th-[holy aura](spell/holy_aura), 9th-[gate](spell/gate).",
+			"**Domain Spells:** 1st-[shield of faith](spell/shield_of_faith), 2nd-[bless weapon](spell/bless_weapon), 3rd-[searing light](spell/searing_light), 4th-[holy smite](spell/holy_smite), 5th-[righteous might](spell/righteous_might), 6th-[undeath to death](spell/undeath_to_death), 7th-[holy sword](spell/holy_sword), 8th-[holy aura](spell/holy_aura), 9th-[gate](spell/gate).",
 			"",
 			"#### Chivalry Subdomain",
 			"",
@@ -1239,7 +1261,7 @@
 			"",
 			"**Bolstering Touch (Sp):** You can touch a willing creature as a standard action, bracing it against frightening situations and allowing it to remain calm. The first fear effect that would affect the subject within the next hour is suppressed for the first 1d4 rounds of its effect. If you touch a creature currently suffering from an ongoing fear effect, this ability instead suppresses the ongoing fear effect for 1 round. The rounds during which the subject ignores the triggering fear effect still count against the effect's duration. If the fear effect is suppressed for longer than it lasts, the subject isn't affected by the fear effect at all. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-remove fear, 3rd-[heroism](spell/heroism), 6th-[greater heroism](spell/greater_heroism).",
+			"**Replacement Domain Spells:** 1st-[remove fear](spell/remove_fear), 3rd-[heroism](spell/heroism), 6th-[greater heroism](spell/greater_heroism).",
 			"",
 			"#### Heroism Subdomain",
 			"",
@@ -1315,6 +1337,7 @@
 			"Friendship",
 			"Redemption"
 		],
+		"deities": [ "Aegirran", "Aesocar", "Andoletta", "Angradd", "Apsu", "Arqueros", "Arshea", "Ashava", "Benorus", "Bergelmir", "Bes", "Bharnarol", "Black Butterfly", "Bolka", "Cayden Cailean", "Cernunnos", "Chadali", "Chaldira", "Chinostes (Good Aspect)", "Chucaro", "Cihua Couatl", "Dalenydra", "Damerrich", "Desna", "Easivra", "Eldas", "Elion", "Erastil", "Eritrice", "Falayna", "Findeladlara", "Folgrit", "Ghenshau", "Gruhastha", "Grundinnar", "Halcamora", "Hathor", "Hembad", "Immonhiel", "Iomedae", "Irez", "Isis", "Jaidi", "Jaidz", "Jalaijatali", "Kazutal", "Kelinahat", "Kelksiomides", "Keltheald", "Ketephys", "Khepri", "Kofusachi", "Korada", "Kroina", "Kurgess", "Lalaci", "Lorris", "Lymnieris", "Lythertida", "Marishi", "Mazludeh", "Milani", "Myr", "Neith", "Neshen", "Olheon", "Omrataji", "Ondisso", "Osiris", "Picoperi", "Pulura", "Qi Zhong", "Ragathiel", "Reymenda", "Rowdrosh", "Sarenrae", "Selket", "Seramaydiel", "Shei", "Shelyn", "Shelyn (pre-Earthfall)", "Shizuru", "Sinashakti", "Skode", "Skrymir", "Smiad", "Soralyon", "Svarozic", "Tanagaar", "Thisamet", "Tolc", "Torag", "Trudd", "Tsukiyo", "Upion and Warrik", "Uskyeria", "Valani", "Vildeis", "Wadjet", "Winlas", "Ylimancha", "Yuelral", "Zohls" ],
 		"description": [
 			"### Good",
 			"",
@@ -1328,7 +1351,7 @@
 			"",
 			"**Holy Lance (Su):** At 8th level, you can give a weapon you touch the holy special weapon quality for a number of rounds equal to 1/2 your cleric level. You can use this ability once per day at 8th level, and an additional time per day for every four levels beyond 8th.",
 			"",
-			"**Domain Spells:** 1st-protection from evil, 2nd-[align weapon](spell/align_weapon) (good only), 3rd-[magic circle against evil](spell/magic_circle_against_evil), 4th-[holy smite](spell/holy_smite), 5th-[dispel evil](spell/dispel_evil), 6th-[blade barrier](spell/blade_barrier), 7th-[holy word](spell/holy_word), 8th-[holy aura](spell/holy_aura), 9th-[summon monster IX](spell/summon_monster_9) (good spell only).",
+			"**Domain Spells:** 1st-[protection from evil](spell/protection_from_evil), 2nd-[align weapon](spell/align_weapon) (good only), 3rd-[magic circle against evil](spell/magic_circle_against_evil), 4th-[holy smite](spell/holy_smite), 5th-[dispel evil](spell/dispel_evil), 6th-[blade barrier](spell/blade_barrier), 7th-[holy word](spell/holy_word), 8th-[holy aura](spell/holy_aura), 9th-[summon monster IX](spell/summon_monster_9) (good spell only).",
 			"",
 			"#### Agathion Subdomain",
 			"",
@@ -1341,7 +1364,7 @@
 			"",
 			"**Protective Aura (Su):** At 8th level, you can emit a 30-foot protective aura as a standard action. Allies in this aura receive a +2 deflection bonus to AC and a +2 resistance bonus on all saving throws. In addition, allies in the area gain the benefits of protection from evil (although the AC bonus and saving throw bonus do not stack with those granted by this effect). You can use this ability for a number of rounds per day equal to your cleric level. These rounds do not have to be consecutive.",
 			"",
-			"**Replacement Domain Spells:** 1st-shield of faith, 3rd-[tongues](spell/tongues), 6th-[planar ally](spell/planar_ally) (agathions only).",
+			"**Replacement Domain Spells:** 1st-[shield of faith](spell/shield_of_faith), 3rd-[tongues](spell/tongues), 6th-[planar ally](spell/planar_ally) (agathions only).",
 			"",
 			"#### Archon Subdomain",
 			"",
@@ -1354,7 +1377,7 @@
 			"",
 			"**Aura of Menace (Su):** At 8th level, you can emit a 30-foot aura of menace as a standard action. Enemies in this aura take a -2 penalty to AC and on attacks and saves as long as they remain inside the aura. You can use this ability for a number of rounds per day equal to your cleric level. These rounds do not need to be consecutive.",
 			"",
-			"**Replacement Domain Spells:** 1st-divine favor, 3rd-[prayer](spell/prayer), 6th-[planar ally](spell/planar_ally) (archon only).",
+			"**Replacement Domain Spells:** 1st-[divine favor](spell/divine_favor), 3rd-[prayer](spell/prayer), 6th-[planar ally](spell/planar_ally) (archon only).",
 			"",
 			"#### Azata Subdomain",
 			"",
@@ -1367,7 +1390,7 @@
 			"",
 			"**Elysium's Call (Su):** With a touch, you can imbue creatures with the spirit of Elysium, lifting their spirits and freeing them from bonds. The creatures touched can immediately reroll any failed saving throws against spells and spell-like abilities of the enchantment (charm) and enchantment (compulsion) subschools. In addition, targets receive a +2 sacred bonus on such saving throws and a +2 sacred bonus on CMB checks to escape a grapple. Finally, targets can ignore up to 5 feet of difficult terrain each round, as if they had the Nimble Moves feat. These bonuses last for a number of rounds equal to 1/2 your cleric level (minimum 1), although the saving throw reroll only applies when the creature is touched. You can use this ability for a number of rounds per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-expeditious retreat, 3rd-[fly](spell/fly), 6th-[planar ally](spell/planar_ally) (azata only).",
+			"**Replacement Domain Spells:** 1st-[expeditious retreat](spell/expeditious_retreat), 3rd-[fly](spell/fly), 6th-[planar ally](spell/planar_ally) (azata only).",
 			"",
 			"#### Friendship Subdomain",
 			"",
@@ -1410,6 +1433,7 @@
 			"Restoration",
 			"Resurrection"
 		],
+		"deities": [ "Aerekostes", "Aesocar", "Barravoclair", "Bolka", "Cihua Couatl", "Dalenydra", "Dammar", "Immonhiel", "Irori", "Isis", "Jiraviddain", "Korada", "Lorcan", "Lythertida", "Marishi", "Milani", "Mother Vulture", "Osiris", "Osolmyr", "Pharasma", "Qi Zhong", "Raetorgash", "Reymenda", "Sarenrae", "Sekhmet", "Selket", "Shei", "Teshallas", "Vildeis" ],
 		"description": [
 			"### Healing",
 			"",
@@ -1423,7 +1447,7 @@
 			"",
 			"**Healer's Blessing (Su):** At 6th level, all of your cure spells are treated as if they were empowered, increasing the amount of damage healed by half (+50%). This does not apply to damage dealt to undead with a cure spell. This does not stack with the Empower Spell metamagic feat.",
 			"",
-			"**Domain Spells:** 1st-cure light wounds, 2nd-[cure moderate wounds](spell/cure_moderate_wounds), 3rd-[cure serious wounds](spell/cure_serious_wounds), 4th-[cure critical wounds](spell/cure_critical_wounds), 5th-[breath of life](spell/breath_of_life), 6th-[heal](spell/heal), 7th-[regenerate](spell/regenerate), 8th-[mass cure critical wounds](spell/mass_cure_critical_wounds), 9th-[mass heal](spell/mass_heal).",
+			"**Domain Spells:** 1st-[cure light wounds](spell/cure_light_wounds), 2nd-[cure moderate wounds](spell/cure_moderate_wounds), 3rd-[cure serious wounds](spell/cure_serious_wounds), 4th-[cure critical wounds](spell/cure_critical_wounds), 5th-[breath of life](spell/breath_of_life), 6th-[heal](spell/heal), 7th-[regenerate](spell/regenerate), 8th-[mass cure critical wounds](spell/mass_cure_critical_wounds), 9th-[mass heal](spell/mass_heal).",
 			"",
 			"#### Medicine Subdomain",
 			"",
@@ -1438,7 +1462,7 @@
 			"",
 			"**Blessed Surgery (Su):** Your divine patron guides your healing hands, allowing you to perform minor miracles with mundane cures. You can use this ability as a free action when using the Heal skill in order to roll the check twice and take the higher result. When you're using this ability, any use of the Heal skill requiring 1 hour instead takes at most 1 minute. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-diagnose disease, 2nd-[placebo effect](spell/placebo_effect).",
+			"**Replacement Domain Spells:** 1st-[diagnose disease](spell/diagnose_disease), 2nd-[placebo effect](spell/placebo_effect).",
 			"",
 			"#### Restoration Subdomain",
 			"",
@@ -1500,6 +1524,7 @@
 			"Memory",
 			"Thought"
 		],
+		"deities": [ "Abraxas", "Aerekostes", "Amaznen", "Andoletta", "Aroden", "Barzahk", "Bergelmir", "Bharnarol", "Braismois", "Brigh", "Calcabrina", "Calistria", "Charon", "Cixyron", "Crocell", "Dhalavei", "Dranngvit", "Erecura", "Eritrice", "Fandarra", "Farfarello", "Fharaas", "Gruhastha", "Hydim", "Irori", "Jerishall", "Kabriri", "Kelinahat", "Kroina", "Lissala", "Lissala (pre-Earthfall)", "Maat", "Magdh", "Malthus", "Mazludeh", "Mephistopheles", "Monad", "Narriseminek", "Nethys", "Ng", "Norgorber", "Nyarlathotep (Black Pharaoh)", "Nyarlathotep (Faceless Sphinx)", "Nyarlathotep (Haunter of the Dark)", "Otolmens", "Pavnuri", "Pharasma", "Phlegyas", "Ptah", "Qi Zhong", "Rytara", "Saloc", "Shawnari", "Sivanah", "Slandrais", "Ssila'meshnik", "Stygidvod", "The Lost Prince", "Thoth", "Thuskchoon", "Titivilus", "Tsathoggua", "Ulon", "Vale", "Vapula", "Velgaas", "Winlas", "Ydajisk", "Yog-Sothoth", "Yuelral", "Zohls" ],
 		"description": [
 			"### Knowledge",
 			"",
@@ -1513,7 +1538,7 @@
 			"",
 			"**Remote Viewing (Sp):** Starting at 6th level, you can use clairvoyance/clairaudience at will as a spell-like ability using your cleric level as the caster level. You can use this ability for a number of rounds per day equal to your cleric level. These rounds do not need to be consecutive.",
 			"",
-			"**Domain Spells:** 1st-comprehend languages, 2nd-[detect thoughts](spell/detect_thoughts), 3rd-[speak with dead](spell/speak_with_dead), 4th-[divination](spell/divination), 5th-[true seeing](spell/true_seeing), 6th-[find the path](spell/find_the_path), 7th-[legend lore](spell/legend_lore), 8th-[discern location](spell/discern_location), 9th-[foresight](spell/foresight).",
+			"**Domain Spells:** 1st-[comprehend languages](spell/comprehend_languages), 2nd-[detect thoughts](spell/detect_thoughts), 3rd-[speak with dead](spell/speak_with_dead), 4th-[divination](spell/divination), 5th-[true seeing](spell/true_seeing), 6th-[find the path](spell/find_the_path), 7th-[legend lore](spell/legend_lore), 8th-[discern location](spell/discern_location), 9th-[foresight](spell/foresight).",
 			"",
 			"#### Aeon Subdomain",
 			"",
@@ -1526,7 +1551,7 @@
 			"",
 			"**Void Form (Su):** At 6th level, you can become semi-tangible as a standard action. While in this form, you are immune to critical hits and gain a +1 deflection bonus to AC. This bonus increases by 1 at 8th level and every 4 levels thereafter. You can use this power a number of rounds per day equal to your cleric level. These rounds need not be consecutive.",
 			"",
-			"**Replacement Domain Spells:** 1st-sanctuary, 5th-[telepathic bond](spell/telepathic_bond), 6th-[planar binding](spell/planar_binding) (aeons only).",
+			"**Replacement Domain Spells:** 1st-[sanctuary](spell/sanctuary), 5th-[telepathic bond](spell/telepathic_bond), 6th-[planar binding](spell/planar_binding) (aeons only).",
 			"",
 			"#### Education Subdomain",
 			"",
@@ -1539,7 +1564,7 @@
 			"",
 			"**Teaching Moment (Su):** At 8th level, when you or an ally within 30 feet rolls a natural 1 or a natural 20 on an attack roll, an ability check, a skill check, or a saving throw, as an immediate action you can grant all allies within 30 feet special insights that help them overcome similar challenges. Once during the next minute, each affected creature can choose to roll twice and take the better result before attempting an attack roll, ability check, skill check, or saving throw. You can use this ability once per day at 8th level, and one additional time per day for every 4 cleric levels beyond 8th.",
 			"",
-			"**Replacement Domain Spells:** 1st-know the enemy, 2nd-[fox's cunning](spell/fox's_cunning), 6th-[battlemind link](spell/battlemind_link), 8th-[circle of clarity](spell/circle_of_clarity).",
+			"**Replacement Domain Spells:** 1st-[know the enemy](spell/know_the_enemy), 2nd-[fox's cunning](spell/fox's_cunning), 6th-[battlemind link](spell/battlemind_link), 8th-[circle of clarity](spell/circle_of_clarity).",
 			"",
 			"#### Espionage Subdomain",
 			"",
@@ -1609,6 +1634,7 @@
 			"Sovereignty",
 			"Tyranny"
 		],
+		"deities": [ "Abadar", "Achaekek", "Aesocar", "Aksha", "Akuma", "Alichino", "Alocer", "Alseta", "Amaznen", "Andak", "Andoletta", "Angradd", "Anubis", "Apsu", "Ardad Lili", "Aroden", "Aroggus", "Arqueros", "Asmodeus", "Baalzebul", "Barbariccia", "Barbatos", "Barravoclair", "Belial", "Bifrons", "Bohga", "Bundha", "Caera", "Cagnazzo", "Calcabrina", "Chugarra", "Chupurvagasti", "Circiatto", "Crocell", "Damerrich", "Deumus", "Dhalavei", "Dispater", "Doloras", "Dradjit", "Draghignazzo", "Dranngvit", "Eaqueo", "Easivra", "Eiseth", "Eldas", "Eligos", "Erastil", "Erecura", "Falayna", "Farfarello", "Fharaas", "Folgrit", "Furcas", "Gaap", "Gavidya", "General Susumu", "Geryon", "Ghenshau", "Graffiacane", "Gruhastha", "Grundinnar", "Haborym", "Hadregash", "Horus", "Hudima", "Hydim", "Iaozrael", "Imbrex", "Inkariax", "Inma", "Iomedae", "Ioramvol", "Irori", "Jerishall", "Jiraviddain", "Jyotah", "Kaikyton", "Kalma", "Kelinahat", "Kerkamoth", "Kols", "Kroina", "Kunkarna", "Libicocco", "Lissala", "Lissala (pre-Earthfall)", "Lorcan", "Lorthact", "Losarkur", "Lymnieris", "Maat", "Maeha", "Magdh", "Magrim", "Mahathallah", "Malacoda", "Malthus", "Mammon", "Matravash", "Mephistopheles", "Minderhal", "Moloch", "Morrobahn", "Mursha", "Myr", "Nergal", "Neshen", "Olheon", "Onamahli", "Ose", "Osiris", "Otikaya", "Otolmens", "Pirias", "Prihasta", "Psomeira", "Quindiovatos", "Ra", "Raetorgash", "Ragathiel", "Rahu", "Rasvocel", "Ravana", "Rubicante", "Ruzel", "Rytara", "Sabnach", "Scarmiglione", "Shizuru", "Sicva", "Smiad", "Sugroz", "Surpa", "Svarozic", "Tanagaar", "Taraksun", "Thoth", "Titivilus", "Torag", "Tsukiyo", "Uruskreil", "Uzumae", "Valmallos", "Vapula", "Vevelor", "Vibhishah", "Vildeis", "Vois", "Wadjet", "Winlas", "Wylgart", "Xhasnaphar", "Yaezhing", "Yan-gant-y-tan", "Zabha", "Zaebos", "Zepar", "Zohls", "Zon-Kuthon", "Zurapadyn", "Zursvaater" ],
 		"description": [
 			"### Law",
 			"",
@@ -1622,7 +1648,7 @@
 			"",
 			"**Staff of Order (Su):** At 8th level, you can give a weapon touched the axiomatic special weapon quality for a number of rounds equal to 1/2 your cleric level. You can use this ability once per day at 8th level, and an additional time per day for every four levels beyond 8th.",
 			"",
-			"**Domain Spells:** 1st-protection from chaos, 2nd-[align weapon](spell/align_weapon) (law only), 3rd-[magic circle against chaos](spell/magic_circle_against_chaos), 4th-[order's wrath](spell/order's_wrath), 5th-[dispel chaos](spell/dispel_chaos), 6th-[hold monster](spell/hold_monster), 7th-[dictum](spell/dictum), 8th-[shield of law](spell/shield_of_law), 9th-[summon monster IX](spell/summon_monster_9) (law spell only).",
+			"**Domain Spells:** 1st-[protection from chaos](spell/protection_from_chaos), 2nd-[align weapon](spell/align_weapon) (law only), 3rd-[magic circle against chaos](spell/magic_circle_against_chaos), 4th-[order's wrath](spell/order's_wrath), 5th-[dispel chaos](spell/dispel_chaos), 6th-[hold monster](spell/hold_monster), 7th-[dictum](spell/dictum), 8th-[shield of law](spell/shield_of_law), 9th-[summon monster IX](spell/summon_monster_9) (law spell only).",
 			"",
 			"#### Archon Subdomain",
 			"",
@@ -1635,7 +1661,7 @@
 			"",
 			"**Aura of Menace (Su):** At 8th level, you can emit a 30-foot aura of menace as a standard action. Enemies in this aura take a -2 penalty to AC and on attacks and saves as long as they remain inside the aura. You can use this ability for a number of rounds per day equal to your cleric level. These rounds do not need to be consecutive.",
 			"",
-			"**Replacement Domain Spells:** 1st-divine favor, 3rd-[prayer](spell/prayer), 6th-[planar ally](spell/planar_ally) (archon only).",
+			"**Replacement Domain Spells:** 1st-[divine favor](spell/divine_favor), 3rd-[prayer](spell/prayer), 6th-[planar ally](spell/planar_ally) (archon only).",
 			"",
 			"#### Devil Subdomain",
 			"",
@@ -1648,7 +1674,7 @@
 			"",
 			"**Hell's Corruption (Su):** You can cause a creature to become more susceptible to corruption as a melee touch attack. Creatures touched take a -2 penalty on all saving throws and must roll all opposed skill checks twice, taking the worse result. This effect lasts for a number of rounds equal to 1/2 your cleric level (minimum 1). You can use this ability for a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-command, 3rd-[suggestion](spell/suggestion), 6th-[planar binding](spell/planar_binding) (devils only).",
+			"**Replacement Domain Spells:** 1st-[command](spell/command), 3rd-[suggestion](spell/suggestion), 6th-[planar binding](spell/planar_binding) (devils only).",
 			"",
 			"#### Inevitable Subdomain",
 			"",
@@ -1687,7 +1713,7 @@
 			"",
 			"**Pain Is Power (Su):** At 8th level, after taking damage from any source, you may attempt a DC 25 concentration check as an immediate action. If you succeed, you gain the benefits of a blessing of fervor spell for a number of rounds equal to 1/2 your cleric level. If you fail, this ability is expended with no effect. You can use this ability once at 8th level, plus an additional time for every 4 levels you are beyond 8th.",
 			"",
-			"**Replacement Domain Spells:** 1st-delay pain, 2nd-[instrument of agony](spell/instrument_of_agony), 3rd-[agonize](spell/agonize), 5th-[symbol of pain](spell/symbol_of_pain).",
+			"**Replacement Domain Spells:** 1st-[delay pain](spell/delay_pain), 2nd-[instrument of agony](spell/instrument_of_agony), 3rd-[agonize](spell/agonize), 5th-[symbol of pain](spell/symbol_of_pain).",
 			"",
 			"#### Legislation Subdomain",
 			"",
@@ -1702,7 +1728,7 @@
 			"",
 			"If you have the spell rune domain power, you can attach a spell effect to the prohibition as if it were the spell rune domain ability; the spell takes effect if the creature performs the named action. This spell must be of at least 1 level lower than the highest-level cleric spell you can cast, and it must target one or more creatures. Regardless of the number of targets the spell can normally affect, it affects only the creature that triggers the rune. Attaching a spell in this way extends the duration of the prohibition by a number of rounds equal to the spell's level, or until it is discharged.",
 			"",
-			"**Replacement Domain Spells:** 1st-forbid action, 5th-[greater forbid action](spell/greater_forbid_action), 9th-[mass hold monster](spell/mass_hold_monster).",
+			"**Replacement Domain Spells:** 1st-[forbid action](spell/forbid_action), 5th-[greater forbid action](spell/greater_forbid_action), 9th-[mass hold monster](spell/mass_hold_monster).",
 			"",
 			"#### Loyalty Subdomain",
 			"",
@@ -1715,7 +1741,7 @@
 			"",
 			"**Touch of Loyalty (Su):** As a standard action, you can touch a willing creature, granting it a +4 sacred bonus on saving throws to resist charm, compulsion, and fear effects for 1 hour. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-remove fear, 5th-[greater command](spell/greater_command).",
+			"**Replacement Domain Spells:** 1st-[remove fear](spell/remove_fear), 5th-[greater command](spell/greater_command).",
 			"",
 			"#### Slavery Subdomain",
 			"",
@@ -1728,7 +1754,7 @@
 			"",
 			"**Master's Yoke (Su):** At 8th level, you can attempt to assert your dominance over any visible creature within 30 feet by declaring the target your property. The target can resist this effect with a successful Will save (DC = 10 + half your class level + your Wisdom modifier). If the target fails the save, it is affected as if by dominate monster for a number of rounds equal to half your class level. The target can choose to ignore any order you give and instead take 2 points of Constitution damage and become staggered for 1 round. You can use this ability once per day at 8th level, and an additional time per day for every 4 levels beyond 8th. This is a language-based mind-affecting effect.",
 			"",
-			"**Replacement Domain Spells:** 1st-charm person, 5th-[dominate person](spell/dominate_person), 8th-[binding](spell/binding).",
+			"**Replacement Domain Spells:** 1st-[charm person](spell/charm_person), 5th-[dominate person](spell/dominate_person), 8th-[binding](spell/binding).",
 			"",
 			"#### Sovereignty Subdomain",
 			"",
@@ -1754,7 +1780,7 @@
 			"",
 			"**Tyrannical Strike (Su):** At 8th level, as an immediate action upon successfully landing a melee attack on an opponent, you can choose to forgo the damage (but not any other effects of the attack) to instead affect the creature you hit as per a greater command spell, with a caster level equal to your class level. You can use this ability once per day at 8th level, and an additional time per day for every 4 levels beyond 8th.",
 			"",
-			"**Replacement Domain Spells:** 1st-command, 3rd-[bestow curse](spell/bestow_curse), 7th-[symbol of persuasion](spell/symbol_of_persuasion)."
+			"**Replacement Domain Spells:** 1st-[command](spell/command), 3rd-[bestow curse](spell/bestow_curse), 7th-[symbol of persuasion](spell/symbol_of_persuasion)."
 		]
 	},
 	"liberation": {
@@ -1770,6 +1796,7 @@
 			"Revolution",
 			"Self-Realization"
 		],
+		"deities": [ "Anogetz", "Arshea", "Black Butterfly", "Desna", "Eaqueo", "Falayna", "Feronia", "Kazutal", "Khepri", "Llamolaek", "Lorris", "Milani", "Mneoc", "Narriseminek", "Neshen", "Ondisso", "Saloc", "Scal", "Shei", "Ssila'meshnik", "Sun Wukong", "Taraksun", "Vapula", "Vevelor", "Xhasnaphar", "Zaigasnar" ],
 		"description": [
 			"### Liberation",
 			"",
@@ -1783,7 +1810,7 @@
 			"",
 			"**Freedom's Call (Su):** At 8th level, you can emit a 30-foot aura of freedom for a number of rounds per day equal to your cleric level. Allies within this aura are not affected by the confused, grappled, frightened, panicked, paralyzed, pinned, or shaken conditions. This aura only suppresses these effects, and they return once a creature leaves the aura or when the aura ends, if applicable. These rounds do not need to be consecutive.",
 			"",
-			"**Domain Spells:** 1st-remove fear, 2nd-[remove paralysis](spell/remove_paralysis), 3rd-[remove curse](spell/remove_curse), 4th-[freedom of movement](spell/freedom_of_movement), 5th-[break enchantment](spell/break_enchantment), 6th-[greater dispel magic](spell/greater_dispel_magic), 7th-[refuge](spell/refuge), 8th-[mind blank](spell/mind_blank), 9th-[freedom](spell/freedom).",
+			"**Domain Spells:** 1st-[remove fear](spell/remove_fear), 2nd-[remove paralysis](spell/remove_paralysis), 3rd-[remove curse](spell/remove_curse), 4th-[freedom of movement](spell/freedom_of_movement), 5th-[break enchantment](spell/break_enchantment), 6th-[greater dispel magic](spell/greater_dispel_magic), 7th-[refuge](spell/refuge), 8th-[mind blank](spell/mind_blank), 9th-[freedom](spell/freedom).",
 			"",
 			"#### Freedom Subdomain",
 			"",
@@ -1796,7 +1823,7 @@
 			"",
 			"**Liberty's Blessing (Sp):** You touch a willing creature as a standard action, granting it a boon. A creature with this boon can, as a swift action, make a saving throw against a single spell or effect it is suffering from that grants a save. The DC of the saving throw is equal to the original DC of the spell or effect. If the saving throw is successful, the effect ends. This boon lasts for 1 minute or until successfully used to remove a spell or effect, whichever duration is shorter. You can use this ability for a number of times equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-sanctuary, 5th-[plane shift](spell/plane_shift).",
+			"**Replacement Domain Spells:** 1st-[sanctuary](spell/sanctuary), 5th-[plane shift](spell/plane_shift).",
 			"",
 			"#### Revolution Subdomain",
 			"",
@@ -1840,6 +1867,7 @@
 			"Fate",
 			"Imagination"
 		],
+		"deities": [ "Andirifkhu", "Atropos", "Bes", "Calistria", "Chadali", "Chaldira", "Chinostes (Evil Aspect)", "Chinostes (Good Aspect)", "Dachzerul", "Dammar", "Desna", "Graffiacane", "Grandmother Spider", "Halcamora", "Hembad", "Imot", "Irez", "Kofusachi", "Kurgess", "Lalaci", "Lao Shu Po", "Magdh", "Nivi Rhombodazzle", "Raetorgash", "Shelyn", "Shelyn (pre-Earthfall)", "Sinashakti", "Uaransaph", "Yabu" ],
 		"description": [
 			"### Luck",
 			"",
@@ -1853,7 +1881,7 @@
 			"",
 			"**Good Fortune (Ex):** At 6th level, as an immediate action, you can reroll any one d20 roll that you have just made before the results of the roll are revealed. You must take the result of the reroll, even if it's worse than the original roll. You can use this ability once per day at 6th level, and one additional time per day for every six cleric levels beyond 6th.",
 			"",
-			"**Domain Spells:** 1st-true strike, 2nd-[aid](spell/aid), 3rd-[protection from energy](spell/protection_from_energy), 4th-[freedom of movement](spell/freedom_of_movement), 5th-[break enchantment](spell/break_enchantment), 6th-[mislead](spell/mislead), 7th-[spell turning](spell/spell_turning), 8th-[moment of prescience](spell/moment_of_prescience), 9th-[miracle](spell/miracle).",
+			"**Domain Spells:** 1st-[true strike](spell/true_strike), 2nd-[aid](spell/aid), 3rd-[protection from energy](spell/protection_from_energy), 4th-[freedom of movement](spell/freedom_of_movement), 5th-[break enchantment](spell/break_enchantment), 6th-[mislead](spell/mislead), 7th-[spell turning](spell/spell_turning), 8th-[moment of prescience](spell/moment_of_prescience), 9th-[miracle](spell/miracle).",
 			"",
 			"#### Curse Subdomain",
 			"",
@@ -1866,7 +1894,7 @@
 			"",
 			"**Malign Eye (Su):** As a standard action, you can afflict one target within 30 feet with your malign eye, causing it to take a -2 penalty on all saving throws against your spells. The effect lasts for 1 minute or until the target hits you with an attack. You can use this ability for a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-bane, 3rd-[bestow curse](spell/bestow_curse), 6th-[eyebite](spell/eyebite).",
+			"**Replacement Domain Spells:** 1st-[bane](spell/bane), 3rd-[bestow curse](spell/bestow_curse), 6th-[eyebite](spell/eyebite).",
 			"",
 			"#### Fate Subdomain",
 			"",
@@ -1892,7 +1920,7 @@
 			"",
 			"**Haze of Daydreams (Su):** At 6th level, you can emit a 15-foot-radius haze of daydreams for a number of rounds per day equal to your cleric level. These rounds do not need to be consecutive. Creatures within the haze gain the fascinated condition unless they succeed at a Will save (DC equal to 10 + 1/2 your cleric level + your Wisdom modifier). You may designate a number of creatures equal to your cleric level that are not affected by the haze. The fascinated condition ends immediately when the creatures leave the area or the aura expires.",
 			"",
-			"**Replacement Domain Spells:** 1st-silent image, 2nd-[minor image](spell/minor_image), 3rd-[major image](spell/major_image), 5th-dream"
+			"**Replacement Domain Spells:** 1st-[silent image](spell/silent_image), 2nd-[minor image](spell/minor_image), 3rd-[major image](spell/major_image), 5th-dream"
 		]
 	},
 	"madness": {
@@ -1908,6 +1936,7 @@
 			"Nightmare",
 			"Truth"
 		],
+		"deities": [ "Abhoth", "Ajids", "Alichino", "Atlach-Nacha", "Azathoth", "Calcabrina", "Charg", "Chucaro", "Cthulhu", "Eaqueo", "Ghatanothoa", "Groetus", "Gyronna", "Haggakal", "Hastrikhal", "Hydim", "Laivatiniel", "Lamashtu", "Narriseminek", "Onamahli", "Ose", "Osolmyr", "Ozranvial", "Pirias", "Set", "Shivaska", "Shyka", "Sifkesh", "Sivanah", "Speakers of the Depths", "Taraksun", "The Lantern King", "The Lost Prince", "Trelmarixian", "Tsukiyo", "Zura" ],
 		"description": [
 			"### Madness",
 			"",
@@ -1921,7 +1950,7 @@
 			"",
 			"**Aura of Madness (Su):** At 8th level, you can emit a 30-foot aura of madness for a number of rounds per day equal to your cleric level. Enemies within this aura are affected by confusion unless they make a Will save with a DC equal to 10 + 1/2 your cleric level + your Wisdom modifier. The confusion effect ends immediately when the creature leaves the area or the aura expires. Creatures that succeed on their saving throw are immune to this aura for 24 hours. These rounds do not need to be consecutive.",
 			"",
-			"**Domain Spells:** 1st-lesser confusion, 2nd-[touch of idiocy](spell/touch_of_idiocy), 3rd-[rage](spell/rage), 4th-[confusion](spell/confusion), 5th-[nightmare](spell/nightmare), 6th-[phantasmal killer](spell/phantasmal_killer), 7th-[insanity](spell/insanity), 8th-[scintillating pattern](spell/scintillating_pattern), 9th-[weird](spell/weird).",
+			"**Domain Spells:** 1st-[lesser confusion](spell/lesser_confusion), 2nd-[touch of idiocy](spell/touch_of_idiocy), 3rd-[rage](spell/rage), 4th-[confusion](spell/confusion), 5th-[nightmare](spell/nightmare), 6th-[phantasmal killer](spell/phantasmal_killer), 7th-[insanity](spell/insanity), 8th-[scintillating pattern](spell/scintillating_pattern), 9th-[weird](spell/weird).",
 			"",
 			"#### Insanity Subdomain",
 			"",
@@ -1979,6 +2008,7 @@
 			"Divine",
 			"Rites"
 		],
+		"deities": [ "Abraxas", "Aerekostes", "Aesdurath", "Alseta", "Amaznen", "Asmodeus", "Barbatos", "Chamiaholom", "Chucaro", "Circiatto", "Irez", "Isis", "Korada", "Kroina", "Lorthact", "Nalinivati", "Narakaas", "Nethys", "Ng", "Nyarlathotep (Black Pharaoh)", "Nyarlathotep (Faceless Sphinx)", "Nyarlathotep (Haunter of the Dark)", "Orcus", "Qi Zhong", "Sezelrian", "Shiggarreb", "Shyka", "Sivanah", "Skrymir", "Slandrais", "Teshallas", "Thoth", "Tsathoggua", "Urgathoa", "Valmallos", "Vorasha", "Yuelral" ],
 		"description": [
 			"### Magic",
 			"",
@@ -1992,7 +2022,7 @@
 			"",
 			"**Dispelling Touch (Sp):** At 8th level, you can use a targeted dispel magic effect as a melee touch attack. You can use this ability once per day at 8th level and one additional time per day for every four cleric levels beyond 8th.",
 			"",
-			"**Domain Spells:** 1st-identify, 2nd-[magic mouth](spell/magic_mouth), 3rd-[dispel magic](spell/dispel_magic), 4th-[imbue with spell ability](spell/imbue_with_spell_ability), 5th-[spell resistance](spell/spell_resistance), 6th-[antimagic field](spell/antimagic_field), 7th-[spell turning](spell/spell_turning), 8th-[protection from spells](spell/protection_from_spells), 9th-[mage's disjunction](spell/mage's_disjunction).",
+			"**Domain Spells:** 1st-[identify](spell/identify), 2nd-[magic mouth](spell/magic_mouth), 3rd-[dispel magic](spell/dispel_magic), 4th-[imbue with spell ability](spell/imbue_with_spell_ability), 5th-[spell resistance](spell/spell_resistance), 6th-[antimagic field](spell/antimagic_field), 7th-[spell turning](spell/spell_turning), 8th-[protection from spells](spell/protection_from_spells), 9th-[mage's disjunction](spell/mage's_disjunction).",
 			"",
 			"#### Alchemy Subdomain",
 			"",
@@ -2020,7 +2050,7 @@
 			"",
 			"**Arcane Beacon (Su):** As a standard action you can become a beacon of arcane energy until the end of your next turn. The aura emanates 15 feet from you. All arcane spells cast within the aura either gain a +1 bonus to their caster level or increase their saving throw DC by +1. The caster chooses the benefit when she casts the spell. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-magic aura, 4th-[arcane eye](spell/arcane_eye), 6th-[analyze dweomer](spell/analyze_dweomer).",
+			"**Replacement Domain Spells:** 1st-[magic aura](spell/magic_aura), 4th-[arcane eye](spell/arcane_eye), 6th-[analyze dweomer](spell/analyze_dweomer).",
 			"",
 			"#### Divine Subdomain",
 			"",
@@ -2048,7 +2078,7 @@
 			"",
 			"**Enduring Ritual (Su):** As a swift action when you cast a spell with a duration of at least 1 minute per caster level, you can increase the spell's effective caster level by 1 for the purpose of determining its duration and preventing attempts to dispel it. The effective caster level increases by an additional 1 for every 10 cleric levels you have (maximum +3). You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-sanctify corpse, 5th-[permanency](spell/permanency), 8th-[binding](spell/binding)."
+			"**Replacement Domain Spells:** 1st-[sanctify corpse](spell/sanctify_corpse), 5th-[permanency](spell/permanency), 8th-[binding](spell/binding)."
 		]
 	},
 	"nobility": {
@@ -2067,6 +2097,7 @@
 			"Leadership",
 			"Martyr"
 		],
+		"deities": [ "Abadar", "Arazni", "Chinostes (Evil Aspect)", "Chinostes (Good Aspect)", "Count Ranalc", "Dispater", "Erecura", "Eritrice", "Folgrit", "General Susumu", "Horus", "Inma", "Jacarkas", "Kols", "Lanishra", "Lissala", "Lissala (pre-Earthfall)", "Losarkur", "Myr", "Naderi", "Nalinivati", "Nameless", "Olheon", "Omrataji", "Ragathiel", "Ruapceras", "Seramaydiel", "Shamira", "Shax", "Sicva", "Smiad", "Sugroz", "Thamir Gixx", "The Lost Prince", "Trudd", "Vale", "Ydersius", "Zaebos" ],
 		"description": [
 			"### Nobility",
 			"",
@@ -2080,7 +2111,7 @@
 			"",
 			"**Leadership (Ex):** At 8th level, you receive Leadership as a bonus feat. In addition, you gain a +2 bonus on your leadership score as long as you uphold the tenets of your deity (or divine concept if you do not venerate a deity).",
 			"",
-			"**Domain Spells:** 1st-divine favor, 2nd-[enthrall](spell/enthrall), 3rd-[magic vestment](spell/magic_vestment), 4th-[discern lies](spell/discern_lies), 5th-[greater command](spell/greater_command), 6th-[geas/quest](spell/geas_quest), 7th-[repulsion](spell/repulsion), 8th-[demand](spell/demand), 9th-[storm of vengeance](spell/storm_of_vengeance).",
+			"**Domain Spells:** 1st-[divine favor](spell/divine_favor), 2nd-[enthrall](spell/enthrall), 3rd-[magic vestment](spell/magic_vestment), 4th-[discern lies](spell/discern_lies), 5th-[greater command](spell/greater_command), 6th-[geas/quest](spell/geas_quest), 7th-[repulsion](spell/repulsion), 8th-[demand](spell/demand), 9th-[storm of vengeance](spell/storm_of_vengeance).",
 			"",
 			"#### Aristocracy Subdomain",
 			"",
@@ -2123,7 +2154,7 @@
 			"",
 			"**Inspiring Command (Su):** As a standard action, you can issue an inspiring command to your allies. The inspiring command affects one ally plus one additional ally for every three cleric levels you possess, who must all be within 30 feet of you. Affected allies gain a +2 insight bonus on attack rolls, AC, combat maneuver defense, and skill checks for 1 round. This is a language-dependant mind-affecting effect.",
 			"",
-			"**Replacement Domain Spells:** 1st-bless, 3rd-[prayer](spell/prayer), 6th-[brilliant inspiration](spell/brilliant_inspiration).",
+			"**Replacement Domain Spells:** 1st-[bless](spell/bless), 3rd-[prayer](spell/prayer), 6th-[brilliant inspiration](spell/brilliant_inspiration).",
 			"",
 			"#### Martyr Subdomain",
 			"",
@@ -2171,6 +2202,7 @@
 			"Leshy",
 			"Thorns"
 		],
+		"deities": [ "Angazhan", "Barbariccia", "Cernunnos", "Cyth-V'sug", "Daikitsu", "Diceid", "Erastil", "Fandarra", "Furcas", "Gozreh", "Green Faith", "Halcamora", "Il'surrish", "Immonhiel", "Jaidi", "Kelksiomides", "Ketephys", "Lady Nanbyo", "Nhimbaloth", "Oaur-Ooung", "Osiris", "Pirias", "Shub-Niggurath", "Tamede", "The Green Mother", "Treerazer", "Vermilion Mother", "Xhamen-Dor", "Zyphus" ],
 		"description": [
 			"### Plant",
 			"",
@@ -2184,7 +2216,7 @@
 			"",
 			"**Bramble Armor (Su):** At 6th level, you can cause a host of wooden thorns to burst from your skin as a free action. While bramble armor is in effect, any foe striking you with an unarmed strike or a melee weapon without reach takes 1d6 points of piercing damage + 1 point per two cleric levels you possess. You can use this ability for a number of rounds per day equal to your cleric level. These rounds do not need to be consecutive.",
 			"",
-			"**Domain Spells:** 1st-entangle, 2nd-[barkskin](spell/barkskin), 3rd-[plant growth](spell/plant_growth), 4th-[command plants](spell/command_plants), 5th-[wall of thorns](spell/wall_of_thorns), 6th-[repel wood](spell/repel_wood), 7th-[animate plants](spell/animate_plants), 8th-[control plants](spell/control_plants), 9th-[shambler](spell/shambler).",
+			"**Domain Spells:** 1st-[entangle](spell/entangle), 2nd-[barkskin](spell/barkskin), 3rd-[plant growth](spell/plant_growth), 4th-[command plants](spell/command_plants), 5th-[wall of thorns](spell/wall_of_thorns), 6th-[repel wood](spell/repel_wood), 7th-[animate plants](spell/animate_plants), 8th-[control plants](spell/control_plants), 9th-[shambler](spell/shambler).",
 			"",
 			"#### Decay Subdomain",
 			"",
@@ -2210,7 +2242,7 @@
 			"",
 			"**Enlarge (Su):** As a swift action you can enlarge yourself for 1 round, as if you were the target of the enlarge person spell. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-enlarge person, 5th-[righteous might](spell/righteous_might).",
+			"**Replacement Domain Spells:** 1st-[enlarge person](spell/enlarge_person), 5th-[righteous might](spell/righteous_might).",
 			"",
 			"#### Leshy Subdomain",
 			"",
@@ -2225,7 +2257,7 @@
 			"",
 			"As a standard action, you can grant a single leshy within 30 feet a +4 sacred bonus on its next attack roll before the start of your next turn. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-tree shape, 5th-[commune with nature](spell/commune_with_nature).",
+			"**Replacement Domain Spells:** 1st-[tree shape](spell/tree_shape), 5th-[commune with nature](spell/commune_with_nature).",
 			"",
 			"#### Thorns Subdomain",
 			"",
@@ -2240,7 +2272,7 @@
 			"",
 			"**Cruel Thicket (Su):** As a standard action, you can cause the ground in a 5-foot-radius burst centered on you to sprout twisting, thorny vines. Any creature moving through it must travel at half speed or take bleed damage equal to half your cleric level; if you activate this ability in an area with numerous plants (grass, weeds, trees, etc.), the area also becomes difficult terrain. These effects last for 1 minute, after which the vines crumble to dust. Creatures able to move through natural undergrowth unhindered ignore the effects of this ability. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-thorn javelin, 3rd-[thorny entanglement](spell/thorny_entanglement), 4th-[thorn body](spell/thorn_body)."
+			"**Replacement Domain Spells:** 1st-[thorn javelin](spell/thorn_javelin), 3rd-[thorny entanglement](spell/thorny_entanglement), 4th-[thorn body](spell/thorn_body)."
 		]
 	},
 	"protection": {
@@ -2258,6 +2290,7 @@
 			"Purity",
 			"Solitude"
 		],
+		"deities": [ "Abadar", "Acavna", "Aesocar", "Alseta", "Amaznen", "Andoletta", "Anubis", "Arazni", "Aroden", "Aroggus", "Arqueros", "Ashukharma", "Barzahk", "Bastet", "Bes", "Bohga", "Ceyannan", "Chadali", "Cihua Couatl", "Dalenydra", "Dammar", "Dretha", "Feronia", "Grundinnar", "Haborym", "Iggeret", "Jaidz", "Kazutal", "Korada", "Lorris", "Lymnieris", "Maat", "Milani", "Nephthys", "Nethys", "Olheon", "Ondisso", "Qi Zhong", "Rowdrosh", "Selket", "Shelyn", "Shelyn (pre-Earthfall)", "Soralyon", "Torag", "Trudd", "Upion and Warrik", "Vavaalrav", "Wadjet", "Winlas", "Wylgart", "Xhasnaphar", "Yamatsumi", "Yig" ],
 		"description": [
 			"### Protection",
 			"",
@@ -2271,7 +2304,7 @@
 			"",
 			"**Aura of Protection (Su):** At 8th level, you can emit a 30-foot aura of protection for a number of rounds per day equal to your cleric level. You and your allies within this aura gain a +1 deflection bonus to AC and resistance 5 against all elements (acid, cold, electricity, fire, and sonic). The deflection bonus increases by +1 for every four cleric levels you possess beyond 8th. At 14th level, the resistance against all elements increases to 10. These rounds do not need to be consecutive.",
 			"",
-			"**Domain Spells:** 1st-sanctuary, 2nd-[shield other](spell/shield_other), 3rd-[protection from energy](spell/protection_from_energy), 4th-[spell immunity](spell/spell_immunity), 5th-[spell resistance](spell/spell_resistance), 6th-[antimagic field](spell/antimagic_field), 7th-[repulsion](spell/repulsion), 8th-[mind blank](spell/mind_blank), 9th-[prismatic sphere](spell/prismatic_sphere).",
+			"**Domain Spells:** 1st-[sanctuary](spell/sanctuary), 2nd-[shield other](spell/shield_other), 3rd-[protection from energy](spell/protection_from_energy), 4th-[spell immunity](spell/spell_immunity), 5th-[spell resistance](spell/spell_resistance), 6th-[antimagic field](spell/antimagic_field), 7th-[repulsion](spell/repulsion), 8th-[mind blank](spell/mind_blank), 9th-[prismatic sphere](spell/prismatic_sphere).",
 			"",
 			"#### Defense Subdomain",
 			"",
@@ -2284,7 +2317,7 @@
 			"",
 			"**Deflection Aura (Su):** Once each day, you can emit a 20-foot aura for a number of rounds equal to your cleric level. Allies within the aura gain a +2 deflection bonus to AC and combat maneuver defense.",
 			"",
-			"**Replacement Domain Spells:** 1st-shield, 2nd-[barkskin](spell/barkskin), 7th-[deflection](spell/deflection).",
+			"**Replacement Domain Spells:** 1st-[shield](spell/shield), 2nd-[barkskin](spell/barkskin), 7th-[deflection](spell/deflection).",
 			"",
 			"#### Fortifications Subdomain",
 			"",
@@ -2297,7 +2330,7 @@
 			"",
 			"**Sheltering Walls (Sp):** As a standard action, you can touch an ally to summon a floating blockade of stone, granting the ally the benefits of partial cover for 1 round plus 1 round for every 6 cleric levels you possess. This ability does not grant the ally enough cover to attempt a Stealth check or avoid provoking attacks of opportunity. If the ally benefits from any other form of cover against an attack, the bonuses to AC and on Reflex saving throws increase by 1. You can use this power a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-hold portal, 5th-[wall of stone](spell/wall_of_stone), 9th-[prismatic wall](spell/prismatic_wall).",
+			"**Replacement Domain Spells:** 1st-[hold portal](spell/hold_portal), 5th-[wall of stone](spell/wall_of_stone), 9th-[prismatic wall](spell/prismatic_wall).",
 			"",
 			"#### Purity Subdomain",
 			"",
@@ -2310,7 +2343,7 @@
 			"",
 			"**Purifying Touch (Su):** At 8th level, you can touch a willing creature with divine power, giving it a saving throw against each effect currently affecting it, using the original saving throw DC of the effect. Each successful saving throw ends the related effect. The creature can choose not to make a save against an effect. You can use this ability once per day at 8th level, plus one additional time per day at 14th and 20th level.",
 			"",
-			"**Replacement Domain Spells:** 1st-protection from chaos/evil/good/law, 3rd-[remove blindness/deafness](spell/remove_blindness_deafness), 5th-[atonement](spell/atonement).",
+			"**Replacement Domain Spells:** 1st-[protection from chaos/evil/good/law](spell/protection_from_chaos/evil/good/law), 3rd-[remove blindness/deafness](spell/remove_blindness_deafness), 5th-[atonement](spell/atonement).",
 			"",
 			"#### Solitude Subdomain",
 			"",
@@ -2341,6 +2374,7 @@
 			"Psychopomp (Repose)",
 			"Souls"
 		],
+		"deities": [ "Acavna", "Alazhra", "Anubis", "Ashava", "Atropos", "Barzahk", "Ceyannan", "Chamiaholom", "Chavazvug", "Corosbel", "Dalenydra", "Dammar", "Doloras", "Fharaas", "Fumeiyoshi", "Ghenshau", "Imot", "Lorcan", "Magrim", "Mother Vulture", "Mrtyu", "Naderi", "Narakaas", "Osiris", "Ozranvial", "Pharasma", "Phlegyas", "Rhan-Tegoth", "Saloc", "Selket", "Shizuru", "Teshallas", "The Lost Prince", "The Pale Horse", "Tsukiyo", "Uskyeria", "Vale", "Vavaalrav", "Vonymos", "Yhidothrus" ],
 		"description": [
 			"### Repose",
 			"",
@@ -2354,7 +2388,7 @@
 			"",
 			"**Ward Against Death (Su):** At 8th level, you can emit a 30-foot aura that wards against death for a number of rounds per day equal to your cleric level. Living creatures in this area are immune to all death effects, energy drain, and effects that cause negative levels. This ward does not remove negative levels that a creature has already gained, but the negative levels have no effect while the creature is inside the warded area. These rounds do not need to be consecutive.",
 			"",
-			"**Domain Spells:** 1st-deathwatch, 2nd-[gentle repose](spell/gentle_repose), 3rd-[speak with dead](spell/speak_with_dead), 4th-[death ward](spell/death_ward), 5th-[slay living](spell/slay_living), 6th-[undeath to death](spell/undeath_to_death), 7th-[destruction](spell/destruction), 8th-[waves of exhaustion](spell/waves_of_exhaustion), 9th-[wail of the banshee](spell/wail_of_the_banshee).",
+			"**Domain Spells:** 1st-[deathwatch](spell/deathwatch), 2nd-[gentle repose](spell/gentle_repose), 3rd-[speak with dead](spell/speak_with_dead), 4th-[death ward](spell/death_ward), 5th-[slay living](spell/slay_living), 6th-[undeath to death](spell/undeath_to_death), 7th-[destruction](spell/destruction), 8th-[waves of exhaustion](spell/waves_of_exhaustion), 9th-[wail of the banshee](spell/wail_of_the_banshee).",
 			"",
 			"#### Ancestors Subdomain",
 			"",
@@ -2428,6 +2462,7 @@
 			"Legislation",
 			"Wards"
 		],
+		"deities": [ "Benorus", "Bifrons", "Braismois", "Gaap", "Hastur", "Imot", "Irez", "Irori", "Lissala", "Lissala (pre-Earthfall)", "Magdh", "Magrim", "Mephistopheles", "Mneoc", "Nalinivati", "Narakaas", "Nethys", "Onmyuza", "Sivanah", "Stygidvod", "Thoth", "Valmallos", "Ydajisk" ],
 		"description": [
 			"### Rune",
 			"",
@@ -2441,7 +2476,7 @@
 			"",
 			"**Spell Rune (Sp):** At 8th level, you can attach another spell that you cast to one of your blast runes, causing that spell to affect the creature that triggers the rune, in addition to the damage. This spell must be of at least one level lower than the highest-level cleric spell you can cast and it must target one or more creatures. Regardless of the number of targets the spell can normally affect, it only affects the creature that triggers the rune.",
 			"",
-			"**Domain Spells:** 1st-erase, 2nd-[secret page](spell/secret_page), 3rd-[glyph of warding](spell/glyph_of_warding), 4th-[explosive runes](spell/explosive_runes), 5th-[lesser planar binding](spell/lesser_planar_binding), 6th-[greater glyph of warding](spell/greater_glyph_of_warding), 7th-[instant summons](spell/instant_summons), 8th-[symbol of death](spell/symbol_of_death), 9th-[teleportation circle](spell/teleportation_circle).",
+			"**Domain Spells:** 1st-[erase](spell/erase), 2nd-[secret page](spell/secret_page), 3rd-[glyph of warding](spell/glyph_of_warding), 4th-[explosive runes](spell/explosive_runes), 5th-[lesser planar binding](spell/lesser_planar_binding), 6th-[greater glyph of warding](spell/greater_glyph_of_warding), 7th-[instant summons](spell/instant_summons), 8th-[symbol of death](spell/symbol_of_death), 9th-[teleportation circle](spell/teleportation_circle).",
 			"",
 			"#### Language Subdomain",
 			"",
@@ -2454,7 +2489,7 @@
 			"",
 			"**Rune Shift (Su):** At 6th level, as a swift action, you can change the location of one of your blast runes. The rune must be within 30 feet. You can place the blast rune in any square adjacent to you, including one occupied by another creature.",
 			"",
-			"**Replacement Domain Spells:** 1st-comprehend languages, 2nd-[share language](spell/share_language), 3rd-[tongues](spell/tongues), 5th-[telepathic bond](spell/telepathic_bond).",
+			"**Replacement Domain Spells:** 1st-[comprehend languages](spell/comprehend_languages), 2nd-[share language](spell/share_language), 3rd-[tongues](spell/tongues), 5th-[telepathic bond](spell/telepathic_bond).",
 			"",
 			"#### Legislation Subdomain",
 			"",
@@ -2469,7 +2504,7 @@
 			"",
 			"If you have the spell rune domain power, you can attach a spell effect to the prohibition as if it were the spell rune domain ability; the spell takes effect if the creature performs the named action. This spell must be of at least 1 level lower than the highest-level cleric spell you can cast, and it must target one or more creatures. Regardless of the number of targets the spell can normally affect, it affects only the creature that triggers the rune. Attaching a spell in this way extends the duration of the prohibition by a number of rounds equal to the spell's level, or until it is discharged.",
 			"",
-			"**Replacement Domain Spells:** 1st-forbid action, 5th-[greater forbid action](spell/greater_forbid_action), 9th-[mass hold monster](spell/mass_hold_monster).",
+			"**Replacement Domain Spells:** 1st-[forbid action](spell/forbid_action), 5th-[greater forbid action](spell/greater_forbid_action), 9th-[mass hold monster](spell/mass_hold_monster).",
 			"",
 			"#### Wards Subdomain",
 			"",
@@ -2482,7 +2517,7 @@
 			"",
 			"**Warding Rune (Su):** At 6th level, when a creature is damaged by your blast rune, it cannot attack you for a number of rounds equal to 1/2 your cleric level unless it succeeds at a Will save, as per the spell sanctuary. Using this ability is an immediate action when a creature triggers one of your blast runes. The ability does not prevent you from being attacked or affected by area of effect spells or abilities. You can use this ability once per day at 8th level, plus one additional time per day at 14th level and 20th level.",
 			"",
-			"**Replacement Domain Spells:** 1st-arcane lock, 4th-[dimensional anchor](spell/dimensional_anchor), 6th-[guards and wards](spell/guards_and_wards)."
+			"**Replacement Domain Spells:** 1st-[arcane lock](spell/arcane_lock), 4th-[dimensional anchor](spell/dimensional_anchor), 6th-[guards and wards](spell/guards_and_wards)."
 		]
 	},
 	"scalykind": {
@@ -2502,6 +2537,7 @@
 			"Saurian",
 			"Venom"
 		],
+		"deities": [ "Apep", "Apsu", "Ardad Lili", "Dahak", "Jalaijatali", "Nalinivati", "Ragadahn", "Rytara", "Sobek", "Teshallas", "Vois", "Vorasha", "Ydersius", "Yig" ],
 		"description": [
 			"### Scalykind",
 			"",
@@ -2515,7 +2551,7 @@
 			"",
 			"**Serpent Companion (Ex):** At 4th level, you gain the service of an animal companion. Your effective druid level for this animal companion is equal to your cleric level -2. You may choose either a viper or a constrictor snake as your companion.",
 			"",
-			"**Domain Spells:** 1st-magic fang, 2nd-[animal trance](spell/animal_trance), 3rd-[greater magic fang](spell/greater_magic_fang), 4th-[poison](spell/poison), 5th-[animal growth&ast;](spell/animal_growth), 6th-[eyebite](spell/eyebite), 7th-[creeping doom](spell/creeping_doom) (takes the form of Diminutive-sized reptiles), 8th-[animal shapes&ast;](spell/animal_shapes), 9th-[shapechange](spell/shapechange). &ast; Only reptiles.",
+			"**Domain Spells:** 1st-[magic fang](spell/magic_fang), 2nd-[animal trance](spell/animal_trance), 3rd-[greater magic fang](spell/greater_magic_fang), 4th-[poison](spell/poison), 5th-[animal growth&ast;](spell/animal_growth), 6th-[eyebite](spell/eyebite), 7th-[creeping doom](spell/creeping_doom) (takes the form of Diminutive-sized reptiles), 8th-[animal shapes&ast;](spell/animal_shapes), 9th-[shapechange](spell/shapechange). &ast; Only reptiles.",
 			"",
 			"#### Dragon Subdomain",
 			"",
@@ -2574,6 +2610,7 @@
 			"Resolve",
 			"Self-Realization"
 		],
+		"deities": [ "Abhoth", "Alocer", "Ananshea", "Arlachramas", "Arshea", "Ashukharma", "Ayrzul", "Baphomet", "Bohga", "Cayden Cailean", "Ceyannan", "Charg", "Cihua Couatl", "Dranngvit", "Ealdeez", "Falayna", "Geryon", "Gorum", "Guyuku", "Haagenti", "Hadregash", "Haggakal", "Iapholi", "Imbrex", "Irori", "Kazutal", "Kols", "Kostchtchie", "Kurgess", "Lamashtu", "Lanishra", "Llamolaek", "Malacoda", "Marishi", "Minderhal", "Myr", "Nameless", "Neshen", "Nightripper", "Nulgreth", "Ondisso", "Ruapceras", "Sabnach", "Saloc", "Sicva", "Sobek", "Szuriel", "Trudd", "Urazra", "Urgathoa", "Uruskreil", "Uskyeria", "Xoveron", "Yamatsumi", "Zevgavizeb", "Zipacna" ],
 		"description": [
 			"### Strength",
 			"",
@@ -2587,7 +2624,7 @@
 			"",
 			"**Might of the Gods (Su):** At 8th level, you can add your cleric level as an enhancement bonus to your Strength score for a number of rounds per day equal to your cleric level. This bonus only applies on Strength checks and Strength-based skill checks. These rounds do not need to be consecutive.",
 			"",
-			"**Domain Spells:** 1st-enlarge person, 2nd-[bull's strength](spell/bull's_strength), 3rd-[magic vestment](spell/magic_vestment), 4th-[spell immunity](spell/spell_immunity), 5th-[righteous might](spell/righteous_might), 6th-[stoneskin](spell/stoneskin), 7th-[grasping hand](spell/grasping_hand), 8th-[clenched fist](spell/clenched_fist), 9th-[crushing hand](spell/crushing_hand).",
+			"**Domain Spells:** 1st-[enlarge person](spell/enlarge_person), 2nd-[bull's strength](spell/bull's_strength), 3rd-[magic vestment](spell/magic_vestment), 4th-[spell immunity](spell/spell_immunity), 5th-[righteous might](spell/righteous_might), 6th-[stoneskin](spell/stoneskin), 7th-[grasping hand](spell/grasping_hand), 8th-[clenched fist](spell/clenched_fist), 9th-[crushing hand](spell/crushing_hand).",
 			"",
 			"#### Competition Subdomain",
 			"",
@@ -2600,7 +2637,7 @@
 			"",
 			"**Athletic Exploit (Su):** As a swift action, you gain the ability to overcome physical obstacles with ease. Until the beginning of your next turn, you halve your armor check penalty when attempting Acrobatics, Climb, Escape Artist, and Swim skill checks, and you gain a bonus equal to 1/2 your cleric level (minimum +1) on such skill checks.",
 			"",
-			"**Replacement Domain Spells:** 1st-jump, 3rd-[greater animal aspect](spell/greater_animal_aspect), 6th-[greater heroism](spell/greater_heroism).",
+			"**Replacement Domain Spells:** 1st-[jump](spell/jump), 3rd-[greater animal aspect](spell/greater_animal_aspect), 6th-[greater heroism](spell/greater_heroism).",
 			"",
 			"#### Ferocity Subdomain",
 			"",
@@ -2626,7 +2663,7 @@
 			"",
 			"**Wooden Fist (Su):** This ability acts as the Plant domain power of the same name.",
 			"",
-			"**Replacement Domain Spells:** 1st-true strike, 3rd-[greater magic fang](spell/greater_magic_fang), 4th-[force punch](spell/force_punch).",
+			"**Replacement Domain Spells:** 1st-[true strike](spell/true_strike), 3rd-[greater magic fang](spell/greater_magic_fang), 4th-[force punch](spell/force_punch).",
 			"",
 			"#### Resolve Subdomain",
 			"",
@@ -2639,7 +2676,7 @@
 			"",
 			"**Bestow Resolve (Su):** At 8th level, you can bless creatures with the boldness of your deity. You can bestow a number of temporary hit points equal to your level + your Wisdom modifier to all allies within 20 feet. The temporary hit points remain for 1 minute. You can use this ability once per day at 8th level, plus one additional time per day for every 4 levels you possess beyond 8th.",
 			"",
-			"**Replacement Domain Spells:** 1st-bless, 6th-[heroes' feast](spell/heroes'_feast).",
+			"**Replacement Domain Spells:** 1st-[bless](spell/bless), 6th-[heroes' feast](spell/heroes'_feast).",
 			"",
 			"#### Self-Realization Subdomain",
 			"",
@@ -2672,6 +2709,7 @@
 			"Revelation",
 			"Thirst"
 		],
+		"deities": [ "Aldinach", "Azathoth", "Easivra", "Horus", "Iaozrael", "Iomedae", "Jaidi", "Jerishall", "Keltheald", "Khepri", "Lalaci", "Muronna", "Nurgal", "Pharimia", "Ra", "Sarenrae", "Shizuru", "Skode" ],
 		"description": [
 			"### Sun",
 			"",
@@ -2685,7 +2723,7 @@
 			"",
 			"**Nimbus of Light (Su):** At 8th level, you can emit a 30-foot nimbus of light for a number of rounds per day equal to your cleric level. This acts as a daylight spell. In addition, undead within this radius take an amount of damage equal to your cleric level each round that they remain inside the nimbus. Spells and spell-like abilities with the darkness descriptor are automatically dispelled if brought inside this nimbus. These rounds do not need to be consecutive.",
 			"",
-			"**Domain Spells:** 1st-endure elements, 2nd-[heat metal](spell/heat_metal), 3rd-[searing light](spell/searing_light), 4th-[fire shield](spell/fire_shield), 5th-[flame strike](spell/flame_strike), 6th-[fire seeds](spell/fire_seeds), 7th-[sunbeam](spell/sunbeam), 8th-[sunburst](spell/sunburst), 9th-[prismatic sphere](spell/prismatic_sphere).",
+			"**Domain Spells:** 1st-[endure elements](spell/endure_elements), 2nd-[heat metal](spell/heat_metal), 3rd-[searing light](spell/searing_light), 4th-[fire shield](spell/fire_shield), 5th-[flame strike](spell/flame_strike), 6th-[fire seeds](spell/fire_seeds), 7th-[sunbeam](spell/sunbeam), 8th-[sunburst](spell/sunburst), 9th-[prismatic sphere](spell/prismatic_sphere).",
 			"",
 			"#### Day Subdomain",
 			"",
@@ -2711,7 +2749,7 @@
 			"",
 			"**Blinding Flash (Su):** As a standard action, you can emit a flash of light from your holy symbol or divine focus. The most powerful light emanates out 20 feet from you. Creatures with fewer Hit Dice than your cleric level within this area are blinded for 1d4 rounds unless they succeed at a Fortitude save. All creatures in this area are dazzled for a number of rounds equal to 1/2 your cleric level (minimum 1). You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-faerie fire, 3rd-[daylight](spell/daylight).",
+			"**Replacement Domain Spells:** 1st-[faerie fire](spell/faerie_fire), 3rd-[daylight](spell/daylight).",
 			"",
 			"#### Revelation Subdomain",
 			"",
@@ -2724,7 +2762,7 @@
 			"",
 			"**Guided Eyes (Su):** Perception is always a class skill for you. In addition, whenever you make a skill check to see through a disguise or find something that is hidden or concealed, you gain a +4 sacred bonus on the check.",
 			"",
-			"**Replacement Domain Spells:** 1st-detect secret doors, 2nd-[see invisibility](spell/see_invisibility), 3rd-[banish seeming](spell/banish_seeming), 5th-true seeing",
+			"**Replacement Domain Spells:** 1st-[detect secret doors](spell/detect_secret_doors), 2nd-[see invisibility](spell/see_invisibility), 3rd-[banish seeming](spell/banish_seeming), 5th-true seeing",
 			"",
 			"#### Thirst Subdomain",
 			"",
@@ -2757,6 +2795,7 @@
 			"Portal",
 			"Trade"
 		],
+		"deities": [ "Abadar", "Aegirran", "Alazhra", "Apsu", "Barbatos", "Barzahk", "Cagnazzo", "Cayden Cailean", "Chimon", "Count Ranalc", "Desna", "Dranngvit", "Eligos", "Elion", "Folca", "Geon", "Gruhastha", "Hanspur", "Hataam", "Hathor", "Jaidz", "Kelizandri", "Keltheald", "Kofusachi", "Kurgess", "Matravash", "Morrobahn", "Ng", "Nocticula (Redeemed)", "Onos", "Pavnuri", "Pharimia", "Ptah", "Roqorolos", "Rowdrosh", "Sinashakti", "Socothbenoth", "Sun Wukong", "The Pale Horse", "Tolc", "Wadjet", "Yog-Sothoth", "Zarongel", "Zohls" ],
 		"description": [
 			"### Travel",
 			"",
@@ -2770,7 +2809,7 @@
 			"",
 			"**Dimensional Hop (Sp):** At 8th level, you can teleport up to 10 feet per cleric level per day as a move action. This teleportation must be used in 5-foot increments and such movement does not provoke attacks of opportunity. You must have line of sight to your destination to use this ability. You can bring other willing creatures with you, but you must expend an equal amount of distance for each creature brought.",
 			"",
-			"**Domain Spells:** 1st-longstrider, 2nd-[locate object](spell/locate_object), 3rd-[fly](spell/fly), 4th-[dimension door](spell/dimension_door), 5th-[teleport](spell/teleport), 6th-[find the path](spell/find_the_path), 7th-[greater teleport](spell/greater_teleport), 8th-[phase door](spell/phase_door), 9th-[astral projection](spell/astral_projection).",
+			"**Domain Spells:** 1st-[longstrider](spell/longstrider), 2nd-[locate object](spell/locate_object), 3rd-[fly](spell/fly), 4th-[dimension door](spell/dimension_door), 5th-[teleport](spell/teleport), 6th-[find the path](spell/find_the_path), 7th-[greater teleport](spell/greater_teleport), 8th-[phase door](spell/phase_door), 9th-[astral projection](spell/astral_projection).",
 			"",
 			"#### Exploration Subdomain",
 			"",
@@ -2783,7 +2822,7 @@
 			"",
 			"**Door Sight (Su):** You can lay your hand upon any surface and see what is on the other side, as if using clairvoyance. Using this power takes 1 minute, during which time you must be touching the surface you want to see through. You can keep looking for as long as 10 minutes with each use of this power, but must touch the surface and take no other action the entire time. The surface cannot be thicker than 6 inches plus 1 inch per cleric level you possess. You can use this power a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-expeditious retreat, 4th-[locate creature](spell/locate_creature), 9th-[world wave](spell/world_wave).",
+			"**Replacement Domain Spells:** 1st-[expeditious retreat](spell/expeditious_retreat), 4th-[locate creature](spell/locate_creature), 9th-[world wave](spell/world_wave).",
 			"",
 			"#### Portal Subdomain",
 			"",
@@ -2800,7 +2839,7 @@
 			"",
 			"**Travel as One (Su):** When you cast a spell with the teleportation descriptor, treat your caster level as 3 higher for the purpose of determining how many additional creatures you can bring with you. In addition, you and any creatures you teleport gain a number of temporary hit points equal to your level that disappear after you reach your destination; these offset any damage you might take from teleportation mishaps or attempting to teleport into a solid body.",
 			"",
-			"**Replacement Domain Spells:** 1st-open and shut, 2nd-[knock](spell/knock), 3rd-[urban step](spell/urban_step), 9th-[teleportation circle](spell/teleportation_circle).",
+			"**Replacement Domain Spells:** 1st-[open and shut](spell/open_and_shut), 2nd-[knock](spell/knock), 3rd-[urban step](spell/urban_step), 9th-[teleportation circle](spell/teleportation_circle).",
 			"",
 			"#### Trade Subdomain",
 			"",
@@ -2813,7 +2852,7 @@
 			"",
 			"**Silver-Tongued Haggler (Su):** Whenever you make a Bluff, Diplomacy, or Sense Motive check, you can, as a free action, grant yourself a bonus on the roll equal to 1/2 your cleric level (minimum +1). You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-floating disk, 5th-[overland flight](spell/overland_flight), 9th-[gate](spell/gate)."
+			"**Replacement Domain Spells:** 1st-[floating disk](spell/floating_disk), 5th-[overland flight](spell/overland_flight), 9th-[gate](spell/gate)."
 		]
 	},
 	"trickery": {
@@ -2836,6 +2875,7 @@
 			"Innuendo",
 			"Thievery"
 		],
+		"deities": [ "Achaekek", "Aesdurath", "Aksha", "Alichino", "Andirifkhu", "Areshkagal", "Aroggus", "Asmodeus", "Bastet", "Besmara", "Braismois", "Bundha", "Caera", "Calistria", "Camazotz", "Chaldira", "Chimon", "Chupurvagasti", "Corosbel", "Dachzerul", "Dahak", "Dhalavei", "Dispater", "Dradjit", "Droskar", "Erecura", "Folca", "Gavidya", "Grandmother Spider", "Hudima", "Isph-Aun-Vuln", "Jezelda", "Jyotah", "Khepri", "Kro'akoth", "Kunkarna", "Laivatiniel", "Lamashtu", "Lao Shu Po", "Lorthact", "Mahathallah", "Menxyr", "Mestama", "Muronna", "Mursha", "Nalmungder", "Nivi Rhombodazzle", "Norgorber", "Nyarlathotep (Black Pharaoh)", "Otikaya", "Pazuzu", "Picoperi", "Prihasta", "Ravana", "Ruzel", "Sifkesh", "Sivanah", "Skrymir", "Ssila'meshnik", "Sun Wukong", "Surpa", "Thamir Gixx", "The Lantern King", "Titivilus", "Ulon", "Verex", "Vibhishah", "Xhamen-Dor", "Yaezhing", "Ydajisk", "Zabha", "Zepar", "Zogmugot", "Zursvaater" ],
 		"description": [
 			"### Trickery",
 			"",
@@ -2849,7 +2889,7 @@
 			"",
 			"**Master's Illusion (Sp):** At 8th level, you can create an illusion that hides the appearance of yourself and any number of allies within 30 feet for 1 round per cleric level. This ability otherwise functions like the spell veil. The save DC to disbelive this effect is equal to 10 + 1/2 your cleric level + your Wisdom modifier. The rounds do not need to be consecutive.",
 			"",
-			"**Domain Spells:** 1st-disguise self, 2nd-[invisibility](spell/invisibility), 3rd-[nondetection](spell/nondetection), 4th-[confusion](spell/confusion), 5th-[false vision](spell/false_vision), 6th-[mislead](spell/mislead), 7th-[screen](spell/screen), 8th-[mass invisibility](spell/mass_invisibility), 9th-[time stop](spell/time_stop).",
+			"**Domain Spells:** 1st-[disguise self](spell/disguise_self), 2nd-[invisibility](spell/invisibility), 3rd-[nondetection](spell/nondetection), 4th-[confusion](spell/confusion), 5th-[false vision](spell/false_vision), 6th-[mislead](spell/mislead), 7th-[screen](spell/screen), 8th-[mass invisibility](spell/mass_invisibility), 9th-[time stop](spell/time_stop).",
 			"",
 			"#### Ambush Subdomain",
 			"",
@@ -2864,7 +2904,7 @@
 			"",
 			"**Chameleon Aspect (Su):** As a swift action, you can subtly alter the color of your scales, blending them with the surrounding environment. While under the effect of this power, you gain concealment from creatures more than 10 feet away (attacks have a 20% miss chance), and total concealment from creatures more than 40 feet away (attacks have a 50% miss chance). You can use this ability a number of rounds per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-alarm, 5th-[illusory wall](spell/illusory_wall), 6th-[veil](spell/veil).",
+			"**Replacement Domain Spells:** 1st-[alarm](spell/alarm), 5th-[illusory wall](spell/illusory_wall), 6th-[veil](spell/veil).",
 			"",
 			"#### Deception Subdomain",
 			"",
@@ -2916,7 +2956,7 @@
 			"",
 			"**Fool's Privilege (Su):** You can use this power as a swift action when you fail a Bluff, Diplomacy, or Intimidate check outside of combat. You suffer no negative effects due to the failed check, and the next round you can attempt the check again without the usual penalty for a failed attempt. You can use this ability once per day, and one additional time per day for every 4 levels beyond 1st.",
 			"",
-			"**Replacement Domain Spells:** 1st-sow thought, 3rd-[suggestion](spell/suggestion), 6th-[mass suggestion](spell/mass_suggestion).",
+			"**Replacement Domain Spells:** 1st-[sow thought](spell/sow_thought), 3rd-[suggestion](spell/suggestion), 6th-[mass suggestion](spell/mass_suggestion).",
 			"",
 			"#### Thievery Subdomain",
 			"",
@@ -2968,6 +3008,7 @@
 			"Isolation",
 			"Stars"
 		],
+		"deities": [ "Ah Pook", "Atlach-Nacha", "Azathoth", "Black Butterfly", "Cthulhu", "Groetus", "Hastur", "Iggeret", "Inkariax", "Kerkamoth", "Maat", "Maeha", "Monad", "Nhimbaloth", "Nocticula (Redeemed)", "Rhan-Tegoth", "Scal", "Shawnari", "Shub-Niggurath", "Uaransaph", "Velgaas", "Yog-Sothoth" ],
 		"description": [
 			"### Void",
 			"",
@@ -2983,7 +3024,7 @@
 			"",
 			"The victim must succeed at a new saving throw each round to end the effect- these additional saving throws apply only to the additional confusion effect and not to the original spell effect. Part the veil is a mind-affecting effect. You can use this ability a number of times per day equal to 1/2 your class level.",
 			"",
-			"**Domain Spells:** 1st-feather fall, 2nd-[levitate](spell/levitate), 3rd-[fly](spell/fly), 4th-[lesser planar binding](spell/lesser_planar_binding), 5th-[overland flight](spell/overland_flight), 6th-[planar binding](spell/planar_binding), 7th-[reverse gravity](spell/reverse_gravity), 8th-[greater planar binding](spell/greater_planar_binding), 9th-[interplanetary teleport](spell/interplanetary_teleport).",
+			"**Domain Spells:** 1st-[feather fall](spell/feather_fall), 2nd-[levitate](spell/levitate), 3rd-[fly](spell/fly), 4th-[lesser planar binding](spell/lesser_planar_binding), 5th-[overland flight](spell/overland_flight), 6th-[planar binding](spell/planar_binding), 7th-[reverse gravity](spell/reverse_gravity), 8th-[greater planar binding](spell/greater_planar_binding), 9th-[interplanetary teleport](spell/interplanetary_teleport).",
 			"",
 			"#### Dark Tapestry Subdomain",
 			"",
@@ -3038,6 +3079,7 @@
 			"Duels",
 			"Tactics"
 		],
+		"deities": [ "Acavna", "Achaekek", "Ajids", "Akuma", "Angradd", "Arqueros", "Besmara", "Chaldira", "Chaugnar Faugn", "Chugarra", "Cihua Couatl", "Deskari", "Eiseth", "Flauros", "Fumeiyoshi", "General Susumu", "Gorum", "Hadregash", "Iomedae", "Izyagna", "Kitumu", "Kostchtchie", "Malacoda", "Moloch", "Mrtyu", "Neith", "Nergal", "Nulgreth", "Psomeira", "Rovagug", "Ruapceras", "Sekhmet", "Shiggarreb", "Smiad", "Sobek", "Szuriel", "Tamede", "Thremyr", "Urazra", "Urgathoa", "Varg", "Xiquiripat", "Ydersius", "Ymeri", "Zelishkar", "Zursvaater", "Zyphus" ],
 		"description": [
 			"### War",
 			"",
@@ -3051,7 +3093,7 @@
 			"",
 			"**Weapon Master (Su):** At 8th level, as a swift action, you gain the use of one combat feat for a number of rounds per day equal to your cleric level. These rounds do not need to be consecutive and you can change the feat chosen each time you use this ability. You must meet the prerequisites to use this feat.",
 			"",
-			"**Domain Spells:** 1st-magic weapon, 2nd-[spiritual weapon](spell/spiritual_weapon), 3rd-[magic vestment](spell/magic_vestment), 4th-[divine power](spell/divine_power), 5th-[flame strike](spell/flame_strike), 6th-[blade barrier](spell/blade_barrier), 7th-[power word blind](spell/power_word_blind), 8th-[power word stun](spell/power_word_stun), 9th-[power word kill](spell/power_word_kill).",
+			"**Domain Spells:** 1st-[magic weapon](spell/magic_weapon), 2nd-[spiritual weapon](spell/spiritual_weapon), 3rd-[magic vestment](spell/magic_vestment), 4th-[divine power](spell/divine_power), 5th-[flame strike](spell/flame_strike), 6th-[blade barrier](spell/blade_barrier), 7th-[power word blind](spell/power_word_blind), 8th-[power word stun](spell/power_word_stun), 9th-[power word kill](spell/power_word_kill).",
 			"",
 			"#### Blood Subdomain",
 			"",
@@ -3112,6 +3154,7 @@
 			"Oceans",
 			"Rivers"
 		],
+		"deities": [ "Aegirran", "Besmara", "Bokrug", "Charon", "Crocell", "Dagon", "Gaap", "Geryon", "Ghatanothoa", "Gogunta", "Gozreh", "Guyuku", "Hanspur", "Hataam", "Hei Feng", "Inkariax", "Jalaijatali", "Jubilex", "Kelizandri", "Matravash", "Naderi", "Neith", "Oaur-Ooung", "Onos", "Orgesh", "Ovonovo", "Pharasma", "Pharimia", "Ragadahn", "Roqorolos", "Scarmiglione", "Sobek", "Speakers of the Depths", "The Pale Horse", "Thremyr", "Tolc", "Tresmalvos", "Uzumae", "Valmallos", "Vorasha", "Wadjet", "Yamatsumi", "Ylimancha", "Zogmugot" ],
 		"description": [
 			"### Water",
 			"",
@@ -3125,7 +3168,7 @@
 			"",
 			"**Cold Resistance (Ex):** At 6th level, you gain resist cold 10. This resistance increases to 20 at 12th level. At 20th level, you gain immunity to cold.",
 			"",
-			"**Domain Spells:** 1st-obscuring mist, 2nd-[fog cloud](spell/fog_cloud), 3rd-[water breathing](spell/water_breathing), 4th-[control water](spell/control_water), 5th-[ice storm](spell/ice_storm), 6th-[cone of cold](spell/cone_of_cold), 7th-[elemental body IV](spell/elemental_body_4) (water only), 8th-[horrid wilting](spell/horrid_wilting), 9th-[elemental swarm](spell/elemental_swarm) (water spell only).",
+			"**Domain Spells:** 1st-[obscuring mist](spell/obscuring_mist), 2nd-[fog cloud](spell/fog_cloud), 3rd-[water breathing](spell/water_breathing), 4th-[control water](spell/control_water), 5th-[ice storm](spell/ice_storm), 6th-[cone of cold](spell/cone_of_cold), 7th-[elemental body IV](spell/elemental_body_4) (water only), 8th-[horrid wilting](spell/horrid_wilting), 9th-[elemental swarm](spell/elemental_swarm) (water spell only).",
 			"",
 			"#### Flotsam Subdomain",
 			"",
@@ -3190,7 +3233,7 @@
 			"",
 			"**Current Flow (Su):** As a free action, you can increase either your base speed or your swim speed by 10 feet. While swimming, you gain a bonus on Swim checks equal to half your class level (minimum 1). These effects last for a number of rounds equal to your Wisdom modifier (minimum 1). You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-hydraulic push, 2nd-[slipstream](spell/slipstream), 5th-[elemental body II](spell/elemental_body_2), 6th-[fluid form](spell/fluid_form)."
+			"**Replacement Domain Spells:** 1st-[hydraulic push](spell/hydraulic_push), 2nd-[slipstream](spell/slipstream), 5th-[elemental body II](spell/elemental_body_2), 6th-[fluid form](spell/fluid_form)."
 		]
 	},
 	"weather": {
@@ -3206,6 +3249,7 @@
 			"Seasons",
 			"Storms"
 		],
+		"deities": [ "Aegirran", "Besmara", "Bokrug", "Daikitsu", "Diceid", "Elion", "Gozreh", "Halcamora", "Hataam", "Hei Feng", "Hshurha", "Imot", "Ithaqua", "Ketephys", "Maat", "Nataka", "Ng", "Psomeira", "Pulura", "Rasvocel", "Roqorolos", "Rovagug", "Rull", "Set", "Sithhud", "Trelmarixian", "Urxehl", "Valani", "Vermilion Mother", "Vois", "Vonymos", "Yan-gant-y-tan" ],
 		"description": [
 			"### Weather",
 			"",
@@ -3219,7 +3263,7 @@
 			"",
 			"**Lightning Lord (Sp):** At 8th level, you can call down a number of bolts of lightning per day equal to your cleric level. You can call down as many bolts as you want with a single standard action, but no creature can be the target of more than one bolt and no two targets can be more than 30 feet apart. This ability otherwise functions as call lightning.",
 			"",
-			"**Domain Spells:** 1st-obscuring mist, 2nd-[fog cloud](spell/fog_cloud), 3rd-[call lightning](spell/call_lightning), 4th-[sleet storm](spell/sleet_storm), 5th-[ice storm](spell/ice_storm), 6th-[control winds](spell/control_winds), 7th-[control weather](spell/control_weather), 8th-[whirlwind](spell/whirlwind), 9th-[storm of vengeance](spell/storm_of_vengeance).",
+			"**Domain Spells:** 1st-[obscuring mist](spell/obscuring_mist), 2nd-[fog cloud](spell/fog_cloud), 3rd-[call lightning](spell/call_lightning), 4th-[sleet storm](spell/sleet_storm), 5th-[ice storm](spell/ice_storm), 6th-[control winds](spell/control_winds), 7th-[control weather](spell/control_weather), 8th-[whirlwind](spell/whirlwind), 9th-[storm of vengeance](spell/storm_of_vengeance).",
 			"",
 			"#### Monsoon Subdomain",
 			"",
@@ -3247,7 +3291,7 @@
 			"",
 			"**Untouched by the Seasons (Su):** By touching a creature, you can grant it the benefits of endure elements, which last for 1 hour per cleric level. You can use this ability a number of times per day equal to 3 + your Wisdom modifier.",
 			"",
-			"**Replacement Domain Spells:** 1st-goodberry, 4th-[blight](spell/blight), 8th-[sunburst](spell/sunburst).",
+			"**Replacement Domain Spells:** 1st-[goodberry](spell/goodberry), 4th-[blight](spell/blight), 8th-[sunburst](spell/sunburst).",
 			"",
 			"#### Storms Subdomain",
 			"",

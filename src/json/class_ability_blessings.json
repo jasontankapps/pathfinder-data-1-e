@@ -1,29 +1,9 @@
 {
 	"_prefix": "class_abilities-blessing",
-	"_description": [
-		"## Warpriest Blessings",
-		"",
-		"**Source:** [Advanced Class Guide](source/advanced_class_guide)  ",
-		"A warpriest can select any two blessings granted by his deity. Deities grant blessings of the same name as the domains they grant. Unless otherwise noted, using a blessing is a standard action. A warpriest without a deity can select any two blessings (subject to GM approval). If a blessing's power duplicates a spell effect, the warpriest's caster level for that power is equal to his warpriest level.",
-		"",
-		"Blessings that affect weapons and armor benefit anyone who wields or wears those items, not just the warpriest.",
-		"",
-		"### Focused Blessings",
-		"",
-		"**Source:** [Healer's Handbook](source/healer's_handbook)  ",
-		"Presented below are new rules for focused blessings&mdash;more specific blessings bestowed upon a warpriest by his deity that allow players greater flexibility for customization. Focused blessings are to blessings what subdomains are to domains; each focused blessing corresponds to a specific subdomain, and a warpriest can select a focused blessing only if his deity could grant the corresponding subdomain (and associated domain) to a cleric. For instance, a warpriest can select the Resurrection focused blessing only if his deity's list of subdomains includes the Resurrection subdomain.",
-		"",
-		"Each focused blessing grants either a minor blessing or a major blessing that replaces the associated blessing's respective minor blessing or major blessing. If a warpriest selects a focused blessing, he cannot select its associated blessing as his other blessing choice (in effect, the focused blessing replaces its associated blessing). A focused blessing is treated as equivalent to its associated blessing for any effect or prerequisite based on blessings. A focused blessing can be selected by a character of any class that grants the warpriest's blessing class feature, provided his deity allows the focused blessing (subject to the GM's discretion).",
-		"",
-		"If a warpriest with a focused blessing or blessings also has levels in a class that grants cleric domains, the associated blessing or blessings must match the domain selected by that class. Subject to the GM's discretion, the warpriest can change his previously selected associated blessings or domains to make all of them conform.",
-		"",
-		"If a focused blessing ability calls for a saving throw, the DC of the save is equal to 10 + 1/2 the character's warpriest level + his Wisdom modifier."
-	],
 	"air": {
 		"name": "Air",
 		"file": "warpriestblessingdisplaybfc6.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Gozreh, Shelyn",
 		"description": [
 			"## Air",
 			"",
@@ -39,7 +19,6 @@
 		"name": "Animal",
 		"file": "warpriestblessingdisplay59e5.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Erastil, Gozreh",
 		"description": [
 			"## Animal",
 			"",
@@ -55,7 +34,6 @@
 		"name": "Artifice",
 		"file": "warpriestblessingdisplayc9f7.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Torag",
 		"description": [
 			"## Artifice",
 			"",
@@ -71,7 +49,6 @@
 		"name": "Chaos",
 		"file": "warpriestblessingdisplay62a5.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Calistria, Cayden Cailean, Desna, Gorum, Lamashtu, Rovagug",
 		"description": [
 			"## Chaos",
 			"",
@@ -87,7 +64,6 @@
 		"name": "Charm",
 		"file": "warpriestblessingdisplay7b1f.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Calistria, Cayden Cailean, Norgorber, Shelyn",
 		"description": [
 			"## Charm",
 			"",
@@ -106,7 +82,6 @@
 			"Advanced Class Guide",
 			"Healer's Handbook"
 		],
-		"deities": "Erastil",
 		"focused_blessings": "Cooperation",
 		"description": [
 			"## Community",
@@ -131,7 +106,6 @@
 		"name": "Curse",
 		"file": "warpriestblessingdisplay00ce.html",
 		"sources": [ "Magic Tactics Toolbox" ],
-		"deities": "Andirifkhu, Calistria, Desna, Graffiacane, Magdh",
 		"description": [
 			"## Curse",
 			"",
@@ -147,7 +121,6 @@
 		"name": "Darkness",
 		"file": "warpriestblessingdisplay95e4.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Zon-Kuthon",
 		"description": [
 			"## Darkness",
 			"",
@@ -163,7 +136,6 @@
 		"name": "Death",
 		"file": "warpriestblessingdisplay1db1.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Norgorber, Pharasma, Urgathoa, Zon-Kuthon",
 		"description": [
 			"## Death",
 			"",
@@ -179,7 +151,6 @@
 		"name": "Destruction",
 		"file": "warpriestblessingdisplay4d6f.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Gorum, Nethys, Rovagug, Zon-Kuthon",
 		"description": [
 			"## Destruction",
 			"",
@@ -195,7 +166,6 @@
 		"name": "Earth",
 		"file": "warpriestblessingdisplaydbe1.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Abadar, Torag",
 		"description": [
 			"## Earth",
 			"",
@@ -211,7 +181,6 @@
 		"name": "Earthquake",
 		"file": "warpriestblessingdisplay1f03.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"deities": "Evil deities that offer the Earth blessing or nonevil deities with disasters in their portfolios",
 		"description": [
 			"## Earthquake",
 			"",
@@ -227,7 +196,6 @@
 		"name": "Evil",
 		"file": "warpriestblessingdisplay4f4d.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Asmodeus, Lamashtu, Norgorber, Rovagug, Urgathoa, Zon-Kuthon",
 		"description": [
 			"## Evil",
 			"",
@@ -243,7 +211,6 @@
 		"name": "Fire",
 		"file": "warpriestblessingdisplayb4ee.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Asmodeus, Sarenrae",
 		"description": [
 			"## Fire",
 			"",
@@ -259,7 +226,6 @@
 		"name": "Flood",
 		"file": "warpriestblessingdisplay4be3.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"deities": "Evil deities that offer the Water blessing or nonevil deities with disasters in their portfolios",
 		"description": [
 			"## Flood",
 			"",
@@ -275,7 +241,6 @@
 		"name": "Glory",
 		"file": "warpriestblessingdisplay7908.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Gorum, Iomedae, Sarenrae",
 		"description": [
 			"## Glory",
 			"",
@@ -291,7 +256,6 @@
 		"name": "Godclaw",
 		"file": "warpriestblessingdisplay7ee6.html",
 		"sources": [ "Disciple's Doctrine" ],
-		"deities": "Abadar, Asmodeus, Iomedae, Irori, Torag",
 		"description": [
 			"## Godclaw",
 			"",
@@ -307,7 +271,6 @@
 		"name": "Good",
 		"file": "warpriestblessingdisplay8701.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Cayden Cailean, Desna, Erastil, Iomedae, Sarenrae, Shelyn, Torag",
 		"description": [
 			"## Good",
 			"",
@@ -326,7 +289,6 @@
 			"Advanced Class Guide",
 			"Healer's Handbook"
 		],
-		"deities": "Irori, Pharasma, Sarenrae",
 		"focused_blessings": "Restoration, Resurrection",
 		"description": [
 			"## Healing",
@@ -359,7 +321,6 @@
 		"name": "Knowledge",
 		"file": "warpriestblessingdisplayf339.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Calistria, Irori, Nethys, Norgorber, Pharasma",
 		"description": [
 			"## Knowledge",
 			"",
@@ -375,7 +336,6 @@
 		"name": "Law",
 		"file": "warpriestblessingdisplay4ce9.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Abadar, Asmodeus, Erastil, Iomedae, Irori, Torag, Zon-Kuthon",
 		"description": [
 			"## Law",
 			"",
@@ -394,7 +354,6 @@
 			"Advanced Class Guide",
 			"Healer's Handbook"
 		],
-		"deities": "Desna",
 		"focused_blessings": "Freedom",
 		"description": [
 			"## Liberation",
@@ -419,7 +378,6 @@
 		"name": "Luck",
 		"file": "warpriestblessingdisplaye325.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Calistria, Desna, Shelyn",
 		"description": [
 			"## Luck",
 			"",
@@ -435,7 +393,6 @@
 		"name": "Madness",
 		"file": "warpriestblessingdisplay5f1e.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Lamashtu",
 		"description": [
 			"## Madness",
 			"",
@@ -451,7 +408,6 @@
 		"name": "Magic",
 		"file": "warpriestblessingdisplay61f2.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Asmodeus, Nethys, Urgathoa",
 		"description": [
 			"## Magic",
 			"",
@@ -470,7 +426,6 @@
 			"Advanced Class Guide",
 			"Healer's Handbook"
 		],
-		"deities": "Abadar",
 		"focused_blessings": "Martyr",
 		"description": [
 			"## Nobility",
@@ -495,7 +450,6 @@
 		"name": "Plant",
 		"file": "warpriestblessingdisplay918f.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Erastil, Gozreh",
 		"description": [
 			"## Plant",
 			"",
@@ -511,7 +465,6 @@
 		"name": "Protection",
 		"file": "warpriestblessingdisplayee20.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Abadar, Nethys, Shelyn, Torag",
 		"description": [
 			"## Protection",
 			"",
@@ -527,7 +480,6 @@
 		"name": "Repose",
 		"file": "warpriestblessingdisplay2df8.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Pharasma",
 		"description": [
 			"## Repose",
 			"",
@@ -543,7 +495,6 @@
 		"name": "Rune",
 		"file": "warpriestblessingdisplay45fc.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Irori, Nethys",
 		"description": [
 			"## Rune",
 			"",
@@ -559,7 +510,6 @@
 		"name": "Scalykind",
 		"file": "warpriestblessingdisplay5cf6.html",
 		"sources": [ "Advanced Class Origins" ],
-		"deities": "Apsu, Dahak, Ragadahn, Ydersius",
 		"description": [
 			"## Scalykind",
 			"",
@@ -575,7 +525,6 @@
 		"name": "Shadow",
 		"file": "warpriestblessingdisplay372c.html",
 		"sources": [ "Blood of Shadows" ],
-		"deities": "Nocticula, Norgorber, Zon-Kuthon",
 		"description": [
 			"## Shadow",
 			"",
@@ -591,7 +540,6 @@
 		"name": "Strength",
 		"file": "warpriestblessingdisplay4234.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Cayden Cailean, Gorum, Irori, Lamashtu, Urgathoa",
 		"description": [
 			"## Strength",
 			"",
@@ -607,7 +555,6 @@
 		"name": "Sun",
 		"file": "warpriestblessingdisplay57b3.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Iomedae, Sarenrae",
 		"description": [
 			"## Sun",
 			"",
@@ -623,7 +570,6 @@
 		"name": "Tornado",
 		"file": "warpriestblessingdisplayff6a.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"deities": "Evil deities that offer the Air blessing or nonevil deities with disasters in their portfolios",
 		"description": [
 			"## Tornado",
 			"",
@@ -639,7 +585,6 @@
 		"name": "Travel",
 		"file": "warpriestblessingdisplayba15.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Abadar, Cayden Cailean, Desna",
 		"description": [
 			"## Travel",
 			"",
@@ -655,7 +600,6 @@
 		"name": "Trickery",
 		"file": "warpriestblessingdisplay3da5.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Asmodeus, Calistria, Lamashtu, Norgorber",
 		"description": [
 			"## Trickery",
 			"",
@@ -671,7 +615,6 @@
 		"name": "Void",
 		"file": "warpriestblessingdisplay2c1e.html",
 		"sources": [ "Advanced Class Origins" ],
-		"deities": "Great Old Ones, Groetus",
 		"description": [
 			"## Void",
 			"",
@@ -687,7 +630,6 @@
 		"name": "War",
 		"file": "warpriestblessingdisplayf936.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Gorum, Iomedae, Rovagug, Urgathoa",
 		"description": [
 			"## War",
 			"",
@@ -703,7 +645,6 @@
 		"name": "Water",
 		"file": "warpriestblessingdisplayc28e.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Gozreh, Pharasma",
 		"description": [
 			"## Water",
 			"",
@@ -719,7 +660,6 @@
 		"name": "Weather",
 		"file": "warpriestblessingdisplay2941.html",
 		"sources": [ "Advanced Class Guide" ],
-		"deities": "Gozreh, Rovagug",
 		"description": [
 			"## Weather",
 			"",
@@ -735,7 +675,6 @@
 		"name": "Wildfire",
 		"file": "warpriestblessingdisplay463a.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"deities": "Evil deities that offer the Fire blessing or nonevil deities with disasters in their portfolios",
 		"description": [
 			"## Wildfire",
 			"",

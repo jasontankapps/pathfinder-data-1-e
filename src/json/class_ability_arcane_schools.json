@@ -1,33 +1,5 @@
 {
 	"_prefix": "class_abilities-arcane_school",
-	"_sources": [
-		"Advanced Player's Guide",
-		"Adventurer's Guide",
-		"Black Markets",
-		"Disciple's Doctrine",
-		"Dragon Empires Primer",
-		"Elemental Master's Handbook",
-		"Inner Sea Primer",
-		"PRPG Core Rulebook",
-		"Ultimate Magic"
-	],
-	"_description": [
-		"## Arcane Schools",
-		"",
-		"The following descriptions detail each arcane school and its corresponding powers.",
-		"",
-		"**Focused Arcane Schools**",
-		"",
-		"Wizards that specialize in one of the schools of magic can instead chose to focus their studies still further. Wizards who choose a focused arcane school retain the bonus spells from their school and must select two prohibited schools as normal, but the focused school changes one or more of the powers granted by their arcane school. A wizard must take all of the replacement powers associated with his focused arcane school. Once a focused arcane school is chosen, it cannot be changed.",
-		"",
-		"**Elemental Arcane Schools**",
-		"",
-		"Instead of specializing in one of the standard eight schools of magic, a wizard can choose to specialize in one of the four elemental schools of magic. Like a normal arcane school, an elemental school grants a number of school powers and one bonus spell slot of each level the wizard can cast, from 1st on up. This bonus spell slot must be used to prepare a spell from the elemental school's spell list (see Chapter 5). Unlike a normal arcane school, each elemental school requires the wizard to select his opposed element as his opposition school (air opposes earth, fire opposes water). He does not need to select a second opposition school. He must expend two spell slots to prepare a spell from his opposed elemental school as normal.",
-		"",
-		"**Five Elements Variant**",
-		"",
-		"In some lands, scholars of magic insist that material things consist of five elements, not four: fire, earth, metal, water, and wood. Rather than directly opposing each other, these five elements counter and generate each other in a wheel-like formation: wood overcomes earth, earth overcomes water, water overcomes fire, fire overcomes metal, and metal overcomes wood. Similar to the four types of elemental wizard schools, some wizards specialize in the schools of magic based on metal or wood. Like a normal arcane school, an elemental school grants a number of school powers and one bonus spell slot of each level the wizard can cast, from 1st on up. This bonus spell slot must be used to prepare a spell from the elemental school's spell list (see below). Unlike a normal arcane school, each elemental school requires the wizard to select his opposed element as his opposition school-in the case of the five-element system, he must choose the element that overcomes his element as his opposition element (so a metal elementalist must select fire as his opposition school because fire overcomes metal). He does not need to select a second opposition school. He must expend two spell slots to prepare a spell from his opposed elemental school as normal."
-	],
 	"abjuration": {
 		"name": "Abjuration",
 		"file": "schooldisplay358b.html",
@@ -35,7 +7,6 @@
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide"
 		],
-		"focused_schools": "Banishment, Counterspell",
 		"description": [
 			"## Abjuration",
 			"",
@@ -80,7 +51,6 @@
 			"Inner Sea Primer",
 			"PRPG Core Rulebook"
 		],
-		"focused_schools": "Cheliax: Egorian Academy Infernal Binder, Creation, Extradimension, Teleportation",
 		"description": [
 			"## Conjuration",
 			"",
@@ -151,7 +121,6 @@
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide"
 		],
-		"focused_schools": "Foresight, Prophecy, Scryer",
 		"description": [
 			"## Divination",
 			"",
@@ -205,7 +174,6 @@
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide"
 		],
-		"focused_schools": "Controller, Manipulator",
 		"description": [
 			"## Enchantment",
 			"",
@@ -248,7 +216,6 @@
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide"
 		],
-		"focused_schools": "Admixture, Generation",
 		"description": [
 			"## Evocation",
 			"",
@@ -293,7 +260,6 @@
 			"Inner Sea Primer",
 			"Advanced Player's Guide"
 		],
-		"focused_schools": "Deception, Phantasm, Qadira: Mage of the Veil, Shadow",
 		"description": [
 			"## Illusion",
 			"",
@@ -368,7 +334,6 @@
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide"
 		],
-		"focused_schools": "Life, Undead",
 		"description": [
 			"## Necromancy",
 			"",
@@ -409,7 +374,6 @@
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide"
 		],
-		"focused_schools": "Enhancement, Shapechange",
 		"description": [
 			"## Transmutation",
 			"",
@@ -450,7 +414,6 @@
 			"PRPG Core Rulebook",
 			"Inner Sea Primer"
 		],
-		"focused_schools": "Absalom: Arcanamirium Crafter",
 		"description": [
 			"## Universalist",
 			"",
@@ -477,7 +440,6 @@
 		"name": "Aether",
 		"file": "schooldisplayd3d1.html",
 		"sources": [ "Elemental Master's Handbook" ],
-		"focused_schools": "",
 		"description": [
 			"## Aether",
 			"",
@@ -502,7 +464,6 @@
 			"Advanced Player's Guide",
 			"Elemental Master's Handbook"
 		],
-		"focused_schools": "Ice, Smoke",
 		"description": [
 			"## Air",
 			"",
@@ -545,7 +506,6 @@
 			"Advanced Player's Guide",
 			"Elemental Master's Handbook"
 		],
-		"focused_schools": "Magma, Mud",
 		"description": [
 			"## Earth",
 			"",
@@ -588,7 +548,6 @@
 			"Advanced Player's Guide",
 			"Elemental Master's Handbook"
 		],
-		"focused_schools": "Magma, Smoke",
 		"description": [
 			"## Fire",
 			"",
@@ -628,7 +587,6 @@
 		"name": "Metal",
 		"file": "schooldisplay508a.html",
 		"sources": [ "Ultimate Magic" ],
-		"focused_schools": "",
 		"description": [
 			"## Metal",
 			"",
@@ -650,7 +608,6 @@
 		"name": "Void",
 		"file": "schooldisplay2c1e.html",
 		"sources": [ "Dragon Empires Primer" ],
-		"focused_schools": "",
 		"description": [
 			"## Void",
 			"",
@@ -675,7 +632,6 @@
 			"Advanced Player's Guide",
 			"Elemental Master's Handbook"
 		],
-		"focused_schools": "Ice, Mud",
 		"description": [
 			"## Water",
 			"",
@@ -715,7 +671,6 @@
 		"name": "Wood",
 		"file": "schooldisplay696e.html",
 		"sources": [ "Ultimate Magic" ],
-		"focused_schools": "",
 		"description": [
 			"## Wood",
 			"",

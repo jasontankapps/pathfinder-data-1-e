@@ -1,12 +1,5 @@
 {
 	"_prefix": "class_abilities-bloodrager_bloodline",
-	"_description": [
-		"## Bloodrager Bloodlines",
-		"",
-		"**Source** [Advanced Class Guide](source/advanced_class_guide)",
-		"",
-		"When a bloodrager enters a bloodrage, he often takes on a physical transformation influenced by his bloodline and powered by the magic that roils within him. Unless otherwise specified, he gains the effects of his bloodline powers only while in a bloodrage; once the bloodrage ends, all powers from his bloodline immediately cease, and any physical changes the bloodrager underwent revert, restoring him to normal."
-	],
 	"aberrant": {
 		"name": "Aberrant",
 		"file": "bloodragerbloodlinedisplay20be.html",
@@ -35,8 +28,7 @@
 			"**Aberrant Resistance (Su):** At 16th level, you are immune to disease, exhaustion, fatigue, and poison, and to the staggered condition.",
 			"",
 			"**Aberrant Form (Su):** At 20th level, your body becomes truly unnatural. You are immune to critical hits and sneak attacks. In addition, you gain blindsight with a range of 60 feet and your bloodrager damage reduction increases by 1. You have these benefits constantly, even while not bloodraging."
-		],
-		"short_description": "There is a taint in your blood that is both alien and bizarre. When you bloodrage, this manifests in peculiar and terrifying ways."
+		]
 	},
 	"abyssal": {
 		"name": "Abyssal",
@@ -66,8 +58,7 @@
 			"**Demonic Aura (Su):** At 16th level, when entering a bloodrage you can choose to exude an aura of fire. The aura is a 5-foot burst centered on you, and deals 2d6 + your Constitution modifier points of fire damage to creatures that end their turns within it.",
 			"",
 			"**Demonic Immunities (Su):** At 20th level, you're immune to electricity and poison. You have this benefit constantly, even while not bloodraging."
-		],
-		"short_description": "Generations ago, a demon spread its filth into the essence of your bloodline. While it doesn't manifest in all of your kin, in those moments when you're bloodraging, you embody its terrifying presence."
+		]
 	},
 	"aquatic": {
 		"name": "Aquatic",
@@ -99,8 +90,7 @@
 			"**Currentcaller (Su):** At 16th level, as a swift action up to three times per day when underwater, at the start of your turn you can call up a current with a speed up to 20 feet in the direction of your choice in your space (moving with you) that lasts until the end of your turn.",
 			"",
 			"**Deep Fury (Su):** At 20th level, you gain tremorsense 120 feet in water, as well as evasion and immunity to cold and pressure damage. You have these benefits constantly, even when not in bloodrage."
-		],
-		"short_description": "The anger in your blood rises from the ocean depths, seeded by descent from undersea empires, creeping ichthyic infiltrators into remote seaside villages, or something deeper still."
+		]
 	},
 	"arcane": {
 		"name": "Arcane",
@@ -130,8 +120,7 @@
 			"**True Arcane Bloodrage (Sp):** At 16th level, when entering a bloodrage you can choose one of the following spells and apply its effects to yourself: [beast shape IV](spell/beast_shape_4) (choose a creature your size or larger only), [form of the dragon I](spell/form_of_the_dragon_1), or [transformation](spell/transformation). This is in addition to arcane bloodrage and greater arcane bloodrage, and otherwise works as those abilities.",
 			"",
 			"**Caster's Bane (Ex):** At 20th level, spellcasters with a caster level lower than your bloodrager level always provoke attacks of opportunity within your threatened area, even when casting defensively. You have this ability constantly, even while not bloodraging."
-		],
-		"short_description": "While others of your kin may be powerful wizards and sorcerers, the eldritch nature of the blood coursing through your veins transforms you into a spell-breaking terror."
+		]
 	},
 	"black_blood": {
 		"name": "Black Blood",
@@ -167,8 +156,7 @@
 			"Black blood wells from the walls of a singular vault deep in Orv, a region known quite aptly as the Land of Black Blood. This noxious fluid repulses and freezes all natural life, although certain creatures like aberrations, undead, and [black-blooded oracles](unknown/black-blooded_oracles) possess an uncanny immunity to its effects. Any other creature that comes into contact with black blood takes 1d6 points of cold damage-10d6 points of cold damage per round if fully immersed.",
 			"",
 			"Although black blood isn't itself inherently evil, a pint of black blood can be used as unholy water. A spellcaster who consumes a dose of black blood casts all necromantic spells at +1 caster level for the next 10 minutes, but takes 3d6 points of cold damage and 1 point of Constitution damage by drinking the stuff. Normally, a dose of black blood becomes inert an hour after being harvested from the source in the Land of Black Blood, losing all mystical properties. [Gentle repose](spell/gentle_repose) can preserve up to 1 gallon of black blood's magical properties for increased lengths of time, but no other method of stabilizing the stuff has yet been developed. The blood of a black-blooded oracle is diluted and does not have the properties of full-strength black blood."
-		],
-		"short_description": "Contact with the black blood of Orv-by you or one of your ancestors-transformed your bloodline. This necromantic taint in your blood mutates you into something peculiar."
+		]
 	},
 	"celestial": {
 		"name": "Celestial",
@@ -198,8 +186,7 @@
 			"**Angelic Protection (Su):** At 16th level, you gain a +4 deflection bonus to AC and a +4 resistance bonus on saving throws against attacks made or effects created by evil creatures. In addition, you are affected as if subject to a [protection from evil](spell/protection_from_evil) spell. This effect cannot be dispelled.",
 			"",
 			"**Ascension (Su):** At 20th level, you become infused with the power of the heavens. You gain immunity to acid, cold, and petrification. You also gain resistance 10 to electricity and fire, as well as a +4 racial bonus on saving throws against poison. You have these benefits constantly, even while not bloodraging."
-		],
-		"short_description": "By way of a celestial ancestor or divine intervention, the blood of angels fills your body with a holy potency, granting you a majestic visage and angelic powers when you enter your bloodrage."
+		]
 	},
 	"destined": {
 		"name": "Destined",
@@ -229,8 +216,7 @@
 			"**Unstoppable (Su):** At 16th level, any critical threats you score are automatically confirmed. Any critical threats made against you confirm only if the second roll results in a natural 20 (or is automatically confirmed).",
 			"",
 			"**Victory or Death (Su):** At 20th level, you are immune to paralysis and petrification, as well as to the stunned, dazed, and staggered conditions. You have these benefits constantly, even while not bloodraging."
-		],
-		"short_description": "Your bloodline is destined for great things. When you bloodrage, you exude a greatness that makes all but the most legendary creatures seem lesser."
+		]
 	},
 	"draconic": {
 		"name": "Draconic",
@@ -344,8 +330,7 @@
 			"| Crystal | Piercing | 30-foot cone |",
 			"| Magma | Fire | 30-foot cone |",
 			"| Umbral | Cold | 30-foot cone |"
-		],
-		"short_description": "At some point in your family's history, a dragon interbred with your bloodline. Now, the sublime monster's ancient power fuels your bloodrage."
+		]
 	},
 	"elemental": {
 		"name": "Elemental",
@@ -386,8 +371,7 @@
 			"**Elemental Form (Su):** At 16th level, once per day when entering a bloodrage you can take an elemental form as [elemental body IV](spell/elemental_body_4).",
 			"",
 			"**Elemental Body (Su):** At 20th level, elemental power surges through your body. You gain immunity to sneak attacks, critical hits, and damage from your energy type. You have this benefit constantly, even while not bloodraging."
-		],
-		"short_description": "The power of the elements resides in you, and at times you can hardly control its fury. This influence comes either from an elemental outsider in your family history or from a moment when you or your ancestors were exposed to a powerful elemental force or cataclysm."
+		]
 	},
 	"fey": {
 		"name": "Fey",
@@ -417,8 +401,7 @@
 			"**One with Nature (Su):** At 16th level, creatures of the animal or plant types don't attack you unless compelled to do so by magic or you attack them first. Three times per day, you can transport yourself from one tree to another tree, as [tree stride](spell/tree_stride) with half the transport range. Moving from one tree to another in this manner is a move action. You gain these abilities even while not bloodraging.",
 			"",
 			"**Fury of the Fey (Su):** At 20th level, when entering a bloodrage you can choose one type of creature (and subtype for humanoids or outsiders) that can be affected by the [bane](magic/enhancement/bane) weapon special ability. All of your melee attacks are considered to have [bane](magic/enhancement/bane) against that type. This ability doesn't stack with other forms of [bane](magic/enhancement/bane)."
-		],
-		"short_description": "One of your ancestors was fey, or the fey realm somehow intermixed with your bloodline. It affects your bloodrage in tricky and surprising ways."
+		]
 	},
 	"hag": {
 		"name": "Hag",
@@ -446,8 +429,7 @@
 			"**Covenguard (Su):** At 16th level, you can cast [bestow curse](spell/bestow_curse) three times per day as a spell-like ability. You count as a hag for the purposes of joining a coven; the coven must contain at least one hag.",
 			"",
 			"**Curse Conduit (Su):** At 20th level, you gain immunity to negative energy damage and all spells with the curse descriptor. Whenever you confirm a critical hit with a melee weapon, you can immediately target your opponent with a [bestow curse](spell/bestow_curse) spell or spell-like ability as a free action."
-		],
-		"short_description": "Hags interbreed with other races frequently, and those children who escape their grasp may pass their heritage on to later generations before it reemerges. The potent humors that accompany hag blood are better suited to a bloodrager's ferocity than to traditional spellcasting."
+		]
 	},
 	"infernal": {
 		"name": "Infernal",
@@ -477,8 +459,7 @@
 			"**Hellfire Charge (Su):** At 16th level, when you charge the attack you make at the end of the charge gains the benefit of your hellfire strike without expending a use of it. If you already have hellfire strike active, the fire damage ignores fire resistance of 10 or lower.",
 			"",
 			"**Fiend of the Pit (Su):** At 20th level, you gain immunity to fire and poison. You also gain resistance 10 to acid and cold, and gain the see in darkness ability. You have these benefits constantly, even while not bloodraging."
-		],
-		"short_description": "The Pit lives in your blood. Maybe one of your ancestors was seduced by the powers of Hell or made a deal with a devil. Either way, its corruption seethes within your lineage."
+		]
 	},
 	"kyton": {
 		"name": "Kyton",
@@ -508,8 +489,7 @@
 			"**Unnerving Gaze (Su):** At 16th level, your foes begin to see flashes of the faces of dead loved ones when they look at your face. You gain a gaze attack with a range of 30 feet. All foes who fail a Will save (DC = 10 + 1/2 your bloodrager level + your Charisma modifier) become shaken for 1d3 rounds.",
 			"",
 			"**Kyton Immunities (Su):** At 20th level, you gain immunity to cold and DR 10/good and silver. You have this benefit constantly, even when not bloodraging."
-		],
-		"short_description": "In the shadowy land of Nidal, the influence of Zon-Kuthon and the Midnight Lord's favored servants-the kytons' taints the land and its inhabitants. Just as an eclipse drives animals wild, so too does the darkness unleash a madness from deep within you."
+		]
 	},
 	"martyred": {
 		"name": "Martyred",
@@ -539,8 +519,7 @@
 			"**Sacrificial Exchange (Su):** At 16th level, as a swift action once per day while you are bloodraging, you can take a -2 penalty to Armor Class to grant one ally within 30 feet a +4 morale bonus to one ability score. (This penalty to your AC stacks with the penalty from your bloodrage.) The penalty and bonus last for the duration of your bloodrage. At 20th level, the penalty this ability imposes changes to -4, and the ally's bonus increases to +6.",
 			"",
 			"**Eternal Martyr (Su):** Your ancestor's sacrifice transcends time and space, keeping you alive when you otherwise shouldn't be and sanctifying your form. At 20th level, your ancestor's act of martyrdom infuses your spirit. You become immune to death effects. Material components for spells and effects to bring you back to life (such as [raise dead](spell/raise_dead) or [resurrection](spell/resurrection)) cost half as much as normal. Your body cannot be turned into an undead creature, as though you were affected by a permanent [hallow](spell/hallow) effect (caster level = your bloodrager level). You have these benefits constantly, even while not bloodraging."
-		],
-		"short_description": "One of your ancestors paid the ultimate price for her beliefs. This distant relative martyred herself out of a devout dedication to some specific cause, and that sacrifice has infused you with power that you can use for good-or for ill. When you bloodrage, an inspiring fury conjures echoes of your forebear's incredible determination and selfless dedication, both offering you protection and amplifying your ability to punish any who dare incur your wrath."
+		]
 	},
 	"medusa": {
 		"name": "Medusa",
@@ -570,8 +549,7 @@
 			"**Stone Resistance (Su):** At 16th level, you gain acid resistance 10 and are immune to disease, poison, and the sickened and staggered conditions. You also cannot be flanked.",
 			"",
 			"**True Petrification (Su):** At 20th level, you can use your gaze bloodline ability to permanently turn a creature to stone, as [flesh to stone](spell/flesh_to_stone). You can still use the less powerful versions of your gaze if you do not wish to turn the target to stone, but you must declare this at the time of the attack."
-		],
-		"short_description": "No magical creature is more iconic in Iblydan lore than the [medusa](monster/medusa). Perhaps your lineage traces back to a medusa, or an ancestor survived a medusa's petrifying gaze and was forever changed by the experience. However the medusa's influence entered your bloodline, when you bloodrage, you gain fearsome and ancient powers."
+		]
 	},
 	"naga": {
 		"name": "Naga",
@@ -601,8 +579,7 @@
 			"**Naga Form (Sp):** At 16th level, when entering a bloodrage, you can assume the form of a naga (as per [naga shape III](spell/naga_shape_3)).",
 			"",
 			"**Naga Thoughts (Sp, Su):** At 20th level, when entering a bloodrage, you become immune to charm effects and all forms of mind reading, you gain a +2 bonus on saving throws against other mind-affecting effects, you gain the effects of the spell [see invisibility](spell/see_invisibility), and you can use [detect thoughts](spell/detect_thoughts) at will."
-		],
-		"short_description": "The blood of the powerful, serpentine aberrations known as nagas runs through your veins, fueling your bloodrage."
+		]
 	},
 	"phoenix": {
 		"name": "Phoenix",
@@ -632,8 +609,7 @@
 			"**Self-Resurrection (Su):** From the ashes of your body springs forth new life. At 16th level, once per day when you are reduced below 0 hit points while you are bloodraging, you can call upon the power in your blood to pull yourself back from death. This functions as a [breath of life](spell/breath_of_life) spell cast upon yourself. At 20th level, this instead functions as a [heal](spell/heal) spell, except that the healing can return you to life as per [breath of life](spell/breath_of_life), using your bloodrager level as your caster level. Using this ability does not take an action. This ability does not function if your body is completely destroyed by an effect such as [disintegrate](spell/disintegrate).",
 			"",
 			"**Phoenix Fire (Su):** The power of the phoenix brings righteous destruction to any who oppose it. At 20th level, while bloodraging, you gain the following effects: your melee attacks deal an additional 2d6 points of fire damage, any enemies within 20 feet of you must succeed at a Reflex save (DC = 10 + 1/2 your bloodrager level + your Constitution modifier) or take 4d6 points of fire damage at the start of their turn, and any creature that attacks you with a natural or non-reach weapon takes 1d6 points of fire damage (no save) with each successful hit."
-		],
-		"short_description": "The flames of the phoenix burn brightly within your soul, filling you with an inextinguishable vitality that can withstand the most harrowing of assaults."
+		]
 	},
 	"salamander": {
 		"name": "Salamander",
@@ -663,8 +639,7 @@
 			"**Master Bloodsmith (Su):** At 16th level, you can affect up to two items simultaneously with your bloodsmith bloodline power. At 20th level, you can affect up to three items.",
 			"",
 			"**Essence of Fire (Ex):** At 20th level, you become immune to fire damage. In addition, your bloodrager damage reduction increases by 5. If you don't have bloodrager damage reduction, you gain DR 10/magic instead. You have these benefits constantly, even while you are not bloodraging."
-		],
-		"short_description": "Salamanders are fierce warriors and master smiths, and you wield their might and mastery of metal by birthright."
+		]
 	},
 	"shadow": {
 		"name": "Shadow",
@@ -694,8 +669,7 @@
 			"**Shadow Door (Su):** At 16th level, you can take any part of your movement through shadows, teleporting to another location within 60 feet. This ability functions as [dimension door](spell/dimension_door), except you can't use shadow door in brightly lit areas. You can teleport in this manner a total of 10 feet per class level each day.",
 			"",
 			"**Shadow Warrior (Su):** At 20th level, you become shadow and fury personified. You see perfectly in natural and magical darkness. Whenever you deal hit point damage with a spell or attack, you also deal 2 points of Strength damage to each creature that took damage."
-		],
-		"short_description": "Because of your heritage, you can move and see through shadows as if you are part of them. Your fury absorbs light, warmth, and strength."
+		]
 	},
 	"shapechanger": {
 		"name": "Shapechanger",
@@ -725,8 +699,7 @@
 			"**Shed Skin (Su):** At 16th level, when your bloodrage ends, you can choose one spell or spell-like ability affecting you and attempt to shake it off as an immediate action. Attempt a dispel check (1d20 + your bloodrager level) as if you were casting [dispel magic](spell/dispel_magic). If you succeed, the effect is dispelled.",
 			"",
 			"**True Shapechanger (Su):** At 20th level, you are immune to all transmutation spells and effects unless you are a willing target. You can also use [greater polymorph](spell/greater_polymorph) at will as a spell-like ability with a caster level equal to your bloodrager level targeting only yourself. These effects function even while you're not bloodraging."
-		],
-		"short_description": "The blood of doppelgangers, faceless stalkers, lycanthropes, or other shapechangers courses through your veins."
+		]
 	},
 	"sphinx": {
 		"name": "Sphinx",
@@ -756,8 +729,7 @@
 			"**Master of Mysteries (Su):** At 16th level, you can cast either [maze](spell/maze) or [symbol of insanity](spell/symbol_of_insanity) once per day as a spell-like ability, with a caster level equal to your character level. You also gain spell resistance equal to 11 + your level.",
 			"",
 			"**Final Riddle (Su):** At 20th level, you gain immunity to fire and electricity and ignore environmental penalties due to temperature. Your competence bonus on saving throws against arcane spells increases to +6. You have these benefits constantly, even while not raging."
-		],
-		"short_description": "Those who successfully traded riddles with sphinxes sometimes find themselves or their descendants exhibiting both arcane power and violent fury. These bloodragers find being outwitted or outmaneuvered especially infuriating; though they are usually scholarly and erudite, their fits of frenzied rage are all the more terrifying in comparison."
+		]
 	},
 	"undead": {
 		"name": "Undead",
@@ -787,8 +759,7 @@
 			"**Incorporeal Bloodrager (Su):** At 16th level, once per day you can choose to become incorporeal. You take only half damage from magic corporeal sources, and you take no damage from non-magic weapons and objects. Your attacks deal damage as normal due to your ghost strike bloodrage power.",
 			"",
 			"**One Foot in the Grave (Ex):** At 20th level, you gain immunity to cold, nonlethal damage, paralysis, and sleep. The DR from your damage reduction ability increases to 8. Unintelligent undead don't notice you unless you attack them. You gain a +4 morale bonus on saving throws made against spells and spell-like abilities cast by undead. You have these benefits constantly, even while not bloodraging."
-		],
-		"short_description": "The foul corruption of undeath is a part of you. Somewhere in the past, death became infused with your lineage. Your connection to the attributes of the undead bestows frightening power when your bloodrage."
+		]
 	},
 	"verdant": {
 		"name": "Verdant",
@@ -818,8 +789,7 @@
 			"**Nature's Thorns (Su):** At 16th level, creatures that hit you in melee (other than those using manufactured reach weapons) take 4d6 points of piercing damage. A creature takes this damage only on its first successful attack against you in a combat round, and not on subsequent attacks in that round.",
 			"",
 			"**Verdant Apotheosis (Su):** At 20th level, verdant power surges throughout your being. While bloodraging, you gain tremorsense out to 30 feet. In addition, you gain immunity to paralysis, poison, sleep, and stunning effects, even while you are not bloodraging."
-		],
-		"short_description": "Your body is suffused with raw plant life. When you bloodrage, your plantlike characteristics bolster your durability and grant you some control over vegetation."
+		]
 	},
 	"vestige": {
 		"name": "Vestige",
@@ -849,7 +819,6 @@
 			"**Legacy Conduit (Su):** At 16th level, when using the legacy style bloodline power, you can expend a spell slot as a swift action to share the benefits of the selected style feat with all allies within 30 feet. The benefits last for 1 round per level of the spell slot expended. Allies must still enter the style's stance as a swift action.",
 			"",
 			"**Call to Arms (Su):** At 20th level, you can summon a ghostly army from a fallen civilization once per day. This functions as [spiritual ally](spell/spiritual_ally) with a caster level equal to your level, except that it summons a number of allies equal to your Constitution modifier, and the allies use your Strength modifier for attack rolls. You can direct all of these allies with a single swift action. Each ally can attack a different target or the same target, as you direct. The allies remain until the spell's duration ends or your bloodrage ends, whichever comes first."
-		],
-		"short_description": "You are the descendant of great heroes from a lost civilization."
+		]
 	}
 }

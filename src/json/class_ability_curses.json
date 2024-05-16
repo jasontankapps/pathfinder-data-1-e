@@ -1,27 +1,5 @@
 {
 	"_prefix": "class_abilities-curse",
-	"_description": [
-		"## Curses",
-		"",
-		"Each oracle is cursed, but this curse comes with a benefit as well as a hindrance. This choice is made at 1st level, and once made, it cannot be changed. The oracle's curse cannot be removed or dispelled without the aid of a deity. An oracle's curse is based on her oracle level plus one for every two levels or Hit Dice other than oracle. Each oracle must choose one of the following curses."
-	],
-	"_sources": [
-		"Horror Realms",
-		"Blood of Angels",
-		"Monster Codex",
-		"Advanced Player's Guide",
-		"Blood of Fiends",
-		"Legacy of Dragons",
-		"Elemental Master's Handbook",
-		"Heroes of Golarion",
-		"Inner Sea Monster Codex",
-		"Legacy of the First World",
-		"Wilderness Origins",
-		"Blood of the Sea",
-		"Villain Codex",
-		"Pathfinder #88: Valley of the Brain Collectors",
-		"Dirty Tactics Toolbox"
-	],
 	"aboleth": {
 		"name": "Aboleth",
 		"sources": [ "Horror Realms" ],
@@ -185,7 +163,7 @@
 		"name": "Lich",
 		"sources": [ "Horror Realms" ],
 		"description": [
-			"**Lich** ([Horror Realms](source/horror_realms)): Every living spellcaster hides a secret in their flesh-a unique, personalized set of conditions that, when all are fulfilled in the correct order, can trigger the transformation into a lich. Normally, one must expend years and tens of thousands of gold pieces to research this deeply personalized method of attaining immortality. Yet, in a rare few cases, chance and ill fortune can conspire against an unsuspecting spellcaster. You have unknowingly) fulfilled most (but not all) of the ritualistic components to achieve lichdom. You have yet to turn into an undead creature, but you are close. You take damage from positive energy and heal from negative energy as if you were undead. At 5th level, add [control undead](spell/control_undead) to your list of 2nd-level oracle spells known. At 10th level, add [undead anatomy I](spell/undead_anatomy_1) to your list of 3rd-level oracle spells known and [undead anatomy II](spell/undead_anatomy_2) to your list of 5th-level oracle spells known. At 15th level, you are immune to death effects."
+			"**Lich** ([Horror Realms](source/horror_realms)): Every living spellcaster hides a secret in their flesh-a unique, personalized set of conditions that, when all are fulfilled in the correct order, can trigger the transformation into a lich. Normally, one must expend years and tens of thousands of gold pieces to research this deeply personalized method of attaining immortality. Yet, in a rare few cases, chance and ill fortune can conspire against an unsuspecting spellcaster. You have (unknowingly) fulfilled most (but not all) of the ritualistic components to achieve lichdom. You have yet to turn into an undead creature, but you are close. You take damage from positive energy and heal from negative energy as if you were undead. At 5th level, add [control undead](spell/control_undead) to your list of 2nd-level oracle spells known. At 10th level, add [undead anatomy I](spell/undead_anatomy_1) to your list of 3rd-level oracle spells known and [undead anatomy II](spell/undead_anatomy_2) to your list of 5th-level oracle spells known. At 15th level, you are immune to death effects."
 		]
 	},
 	"lycanthropy": {
