@@ -251,7 +251,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), [resistance](unknown/resistance), creator's caster level must be at least three times the ring's bonus; **Cost** 750 gp (+1), 3,000 gp (+2), 6,750 gp (+3), 12,000 gp (+4), 17,750 gp (+5)"
+			"**Requirements** [Forge Ring](feat/forge_ring), [resistance](spell/resistance), creator's caster level must be at least three times the ring's bonus; **Cost** 750 gp (+1), 3,000 gp (+2), 6,750 gp (+3), 12,000 gp (+4), 17,750 gp (+5)"
 		],
 		"display": "magic/ring"
 	},
@@ -2523,7 +2523,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), [resistance](unknown/resistance), creator's caster level must be at least three times the ring's bonus; **Cost** 750 gp (+1), 3,000 gp (+2), 6,750 gp (+3), 12,000 gp (+4), 17,750 gp (+5)"
+			"**Requirements** [Forge Ring](feat/forge_ring), [resistance](spell/resistance), creator's caster level must be at least three times the ring's bonus; **Cost** 750 gp (+1), 3,000 gp (+2), 6,750 gp (+3), 12,000 gp (+4), 17,750 gp (+5)"
 		],
 		"display": "magic/ring"
 	},
@@ -4653,7 +4653,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** [Forge Ring](feat/forge_ring), [minor image](spell/minor_image), [resistance](unknown/resistance), [shield](spell/shield) or [shield of faith](spell/shield_of_faith),; **Cost** 90,000 gp"
+			"**Requirements** [Forge Ring](feat/forge_ring), [minor image](spell/minor_image), [resistance](spell/resistance), [shield](spell/shield) or [shield of faith](spell/shield_of_faith),; **Cost** 90,000 gp"
 		],
 		"display": "magic/ring"
 	},

@@ -1019,7 +1019,7 @@
 				"description": [
 					"## Stormwalker (Su)",
 					"",
-					"The shaman can move through nonmagical fog, rain, mist, snow, and other [environmental effects](unknown/weather) without penalty. She is never slowed by such effects, and she doesn't need to attempt Acrobatics skill checks to move across such surfaces. She can also move through magical environmental effects that she created. At 10th level, the shaman can see twice as far as normal through environmental effects, whether or not they are magical in nature."
+					"The shaman can move through nonmagical fog, rain, mist, snow, and other [environmental effects](rule/weather) without penalty. She is never slowed by such effects, and she doesn't need to attempt Acrobatics skill checks to move across such surfaces. She can also move through magical environmental effects that she created. At 10th level, the shaman can see twice as far as normal through environmental effects, whether or not they are magical in nature."
 				]
 			}
 		],
@@ -1041,7 +1041,7 @@
 			"",
 			"*Speak with Animals (Ex):* Choose a specific kind of animal: eagle, fox, dog, and so on. The shaman gains the ability to converse with that type of animal as if she were under the effects of speak with animal. The shaman gains the ability to communicate with an additional kind of animal for every 3 shaman levels she possesses (two animals at 3rd level, three at 6th, up to a maximum of seven at 18th level).",
 			"",
-			"*Stormwalker (Su):* The shaman can move through nonmagical fog, rain, mist, snow, and other [environmental effects](unknown/weather) without penalty. She is never slowed by such effects, and she doesn't need to attempt Acrobatics skill checks to move across such surfaces. She can also move through magical environmental effects that she created. At 10th level, the shaman can see twice as far as normal through environmental effects, whether or not they are magical in nature.",
+			"*Stormwalker (Su):* The shaman can move through nonmagical fog, rain, mist, snow, and other [environmental effects](rule/weather) without penalty. She is never slowed by such effects, and she doesn't need to attempt Acrobatics skill checks to move across such surfaces. She can also move through magical environmental effects that she created. At 10th level, the shaman can see twice as far as normal through environmental effects, whether or not they are magical in nature.",
 			"",
 			"**Spirit Animal:** The shaman's spirit animal looks feral, and appears to be in peak physical form. The animal can move through any sort of undergrowth or natural difficult terrain at its normal speed without taking damage or suffering any other impairment. If the animal has a fly speed, it can ignore the penalty on [Fly](skill/fly) skill checks for winds up to windstorm strength.",
 			"",
