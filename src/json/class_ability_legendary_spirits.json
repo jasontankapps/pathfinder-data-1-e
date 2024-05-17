@@ -1,13 +1,5 @@
 {
 	"_prefix": "class_abilities-spirit_legendary",
-	"_description": [
-		"## Legendary Spirits",
-		"",
-		"**Source:** [Occult Realms](source/occult_realms)  ",
-		"The spirits a medium can channel draw their power both from the tales told about them and from their own souls, which echo with the remarkable deeds they performed in life. All spirits have stories-and some arise from people whose deeds shook the world and whose testaments have endured throughout the ages. These beings are legendary spirits, and they possess great power they can share with mediums who gain their favor.",
-		"",
-		"Attaining the ability to channel a legendary spirit involves traveling to a certain location or performing a certain deed, swearing an oath, performing a ritual, and succeeding at an ability check. The type of check depends on the spirit, but the DC is always equal to 10 + 1/2 the medium's level. If the medium breaks the oath, the spirit will no longer answer when he calls. If the medium attempts to call another spirit of the legendary spirit's legend, the legendary spirit similarly departs forever."
-	],
 	"abrogail_thrune_i": {
 		"name": "Abrogail Thrune I",
 		"description": [

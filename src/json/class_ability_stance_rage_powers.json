@@ -12,7 +12,7 @@
 	"_sources": [
 		"Pathfinder Unchained"
 	],
-	"accurate_stance_ex": {
+	"accurate_stance": {
 		"name": "Accurate Stance (Ex)",
 		"searchable_name": "Accurate Stance",
 		"description": [
@@ -21,7 +21,7 @@
 			"The barbarian can focus her strikes. She gains a +1 competence bonus on melee attack rolls and thrown weapon attack rolls. This bonus increases by 1 for every 4 levels the barbarian has. This is a stance rage power."
 		]
 	},
-	"calm_stance_ex": {
+	"calm_stance": {
 		"name": "Calm Stance (Ex)",
 		"searchable_name": "Calm Stance",
 		"sources": [ "Pathfinder Unchained" ],
@@ -31,7 +31,7 @@
 			"The barbarian can enter a state of calm. While in this stance, the barbarian doesn't gain any benefits from rage other than the temporary hit points, but she doesn't take any of the penalties from rage (including the penalty to AC and the restriction on actions she can take). Rounds spent in a calm stance still count against her total number of rounds of rage per day. This is a stance rage power."
 		]
 	},
-	"elemental_stance_su": {
+	"elemental_stance": {
 		"name": "Elemental Stance (Su)",
 		"searchable_name": "Elemental Stance",
 		"sources": [ "Pathfinder Unchained" ],
@@ -41,7 +41,7 @@
 			"When the barbarian adopts this stance, she chooses an energy type (acid, cold, electricity, or fire). Her melee attacks deal 1 additional point of damage of the chosen type. This damage increases to 1d6 points at 8th level. At 12th level, the barbarian's critical hits deal an additional 1d10 points of energy damage of the same type (2d10 if the weapon deals &times;3 damage on a critical hit, 3d10 if the weapon deals &times;4 damage on a critical hit). This is a stance rage power. A barbarian must be at least 4th level to select this rage power."
 		]
 	},
-	"guarded_stance_ex": {
+	"guarded_stance": {
 		"name": "Guarded Stance (Ex)",
 		"searchable_name": "Guarded Stance",
 		"sources": [ "Pathfinder Unchained" ],
@@ -51,7 +51,7 @@
 			"The barbarian can take on a more defensive posture. This grants her a +1 dodge bonus to her Armor Class for the duration of her current rage. This bonus increases by 1 for every 4 levels the barbarian has. This is a stance rage power."
 		]
 	},
-	"knockdown_stance_ex": {
+	"knockdown_stance": {
 		"name": "Knockdown Stance (Ex)",
 		"searchable_name": "Knockdown Stance",
 		"sources": [ "Pathfinder Unchained" ],
@@ -61,7 +61,7 @@
 			"The barbarian can focus on toppling her foes. Once per round, she can make a trip attack against one target in place of a melee attack. If she succeeds, the target is knocked prone. This trip attempt doesn't provoke an attack of opportunity. This is a stance rage power."
 		]
 	},
-	"powerful_stance_ex": {
+	"powerful_stance": {
 		"name": "Powerful Stance (Ex)",
 		"searchable_name": "Powerful Stance",
 		"sources": [ "Pathfinder Unchained" ],
@@ -71,7 +71,7 @@
 			"The barbarian can focus her ferocity. She gains a +1 bonus on melee damage rolls and thrown weapon damage rolls. This bonus increases by 1 for every 4 levels the barbarian has. This is a stance rage power."
 		]
 	},
-	"reckless_stance_ex": {
+	"reckless_stance": {
 		"name": "Reckless Stance (Ex)",
 		"searchable_name": "Reckless Stance",
 		"sources": [ "Pathfinder Unchained" ],
@@ -81,7 +81,7 @@
 			"The barbarian can attack with abandon at the expense of her defense. She gains a +1 bonus on attack rolls, but takes a -1 penalty to AC. This bonus and penalty increase by 1 at 4th level and every 4 levels thereafter. This is a stance rage power."
 		]
 	},
-	"regenerative_stance_ex": {
+	"regenerative_stance": {
 		"name": "Regenerative Stance (Ex)",
 		"searchable_name": "Regenerative Stance",
 		"sources": [ "Pathfinder Unchained" ],
@@ -91,7 +91,7 @@
 			"The barbarian can continually replenish her health. At the start of her turn, she regains 1 temporary hit point for every 4 levels she has (up to 5 hit points per round), but this cannot give her more than her maximum temporary hit points from rage. This is a stance rage power. A barbarian must be at least 4th level to select this rage power."
 		]
 	},
-	"strength_stance_ex": {
+	"strength_stance": {
 		"name": "Strength Stance (Ex)",
 		"searchable_name": "Strength Stance",
 		"sources": [ "Pathfinder Unchained" ],
@@ -101,7 +101,7 @@
 			"The barbarian can summon mighty strength. She gains a +1 competence bonus on combat maneuvers and to her CMD. These bonuses increase by 1 for every 4 levels the barbarian has. In addition, she gains a +8 competence bonus on Strength checks to lift, push, bend, or break objects (this does not apply to combat maneuvers). This is a stance rage power."
 		]
 	},
-	"taunting_stance_ex": {
+	"taunting_stance": {
 		"name": "Taunting Stance (Ex)",
 		"searchable_name": "Taunting Stance",
 		"sources": [ "Pathfinder Unchained" ],

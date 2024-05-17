@@ -1,37 +1,10 @@
 {
 	"_prefix": "class_abilities-implement",
-	"_sources": [
-		"Occult Adventures",
-		"Occult Origins",
-		"Psychic Anthology"
-	],
-	"_description": [
-		"## Implements",
-		"",
-		"**Source** [Occult Adventures](source/occult_adventures)  ",
-		"Occultists can chose from the following *implement schools*, each representing a school of magic. An occultist can select an implement school more than once, as noted in the implements class feature.",
-		"",
-		"## Panoplies",
-		"",
-		"**Sources:** [Psychic Anthology](source/psychic_anthology)  ",
-		"While many occultists focus on the inherent psychic properties of certain types of objects, some specialists take their studies a step further, exploring the ways specific types of implements interact with one another. While not all implements psychically resonate with all other kinds of implements, such *panoplies* unlock even greater magical potential when used to complement one another.",
-		"",
-		"An occultist can select a panoply anytime he selects a new implement school. To do so, he must already have learned to use the implement school of each implement within the panoply at least once. As with any other implement school, when an occultist learns to use a panoply, he gains access to the resonant power and base focus power, and he becomes able to learn the panoply's other focus powers. He also adds one spell of each spell level to his spell list, and these spells can be taken from any of the implement schools associated with the panoply. To use a panoply's resonant power or any of its focus powers, the occultist must select and invest mental focus into the associated implements that day. A single bearer must hold all the panoply's associated implements to gain the panoply's resonant power, and the occultist counts the total number of points of mental focus invested among all of the associated implements to determine the resonant power's effect. The occultist can expend points of mental focus from any of the associated implements to use the panoply's focus powers. Unlike for other implement schools, an occultist cannot select a panoply more than once.",
-		"",
-		"## Sacred Implements",
-		"",
-		"**Source** [Occult Origins pg. 15](source/occult_origins)  ",
-		"Outsiders and divine servants leave especially lasting impressions when they interact with the Material Plane, and many occultists seek out the resulting sacred implements to augment their existing powers. A sacred implement is always a specific kind of object, though not necessarily unique.",
-		"",
-		"An occultist can adopt a sacred implement whenever he gains access to an implement school. Once chosen, the sacred implement is permanent and grants the occultist access to a bonus focus power for that implement school, but causes the occultist to take a -1 penalty to his caster level when using the spells and associated implement powers of a school of magic opposed to that deity's portfolio. An occultist can use a sacred implement even if he doesn't worship the associated god."
-	],
 	"abjuration": {
 		"name": "Abjuration",
 		"file": "occultistimplementsdisplay358b.html",
-		"short_description": "Abjuration implements are objects associated with protection and wards.",
-		"has_sacred_implement": true,
 		"description": [
-			"### Abjuration",
+			"## Abjuration",
 			"",
 			"Abjuration implements are objects associated with protection and wards.",
 			"",
@@ -59,7 +32,7 @@
 			"",
 			"*Unraveling (Sp):* As a standard action, you can expend 1 point of mental focus to unravel a magical effect. This functions as a targeted dispel magic spell, but you must be adjacent to the effect to unravel it. If the effect is created by psychic magic, you receive a +5 bonus on your caster level check to unravel it. If the effect targets an object in your possession, you automatically succeed at the check. You must be at least 5th level to select this focus power.",
 			"",
-			"#### Sacred Implement",
+			"### Sacred Implement",
 			"",
 			"**Source** [Occult Origins pg. 15](source/occult_origins)",
 			"",
@@ -71,10 +44,8 @@
 	"conjuration": {
 		"name": "Conjuration",
 		"file": "occultistimplementsdisplay27e8.html",
-		"short_description": "Implements used in conjuration allow the occultist to perform magic that transports or calls creatures.",
-		"has_sacred_implement": true,
 		"description": [
-			"### Conjuration",
+			"## Conjuration",
 			"",
 			"Implements used in conjuration allow the occultist to perform magic that transports or calls creatures.",
 			"",
@@ -102,7 +73,7 @@
 			"",
 			"*Side Step (Sp):* You can create a temporary fissure in space by expending 1 point of mental focus. You can use this ability as part of a move action taken to move. The fissure begins in any square you designate and allows you to teleport to any other square you can see within 10 feet per occultist level. Stepping between these locations requires you to expend 5 feet of movement, and the movement through the rift does not provoke attacks of opportunity. This otherwise functions as teleport. You must be at least 7th level to select this focus power.",
 			"",
-			"#### Sacred Implement",
+			"### Sacred Implement",
 			"",
 			"**Source** [Occult Origins pg. 15](source/occult_origins)",
 			"",
@@ -114,9 +85,8 @@
 	"divination": {
 		"name": "Divination",
 		"file": "occultistimplementsdisplay3f63.html",
-		"short_description": "Implements of the divination school grant powers related to foresight and remote viewing.",
 		"description": [
-			"### Divination",
+			"## Divination",
 			"",
 			"Implements of the divination school grant powers related to foresight and remote viewing.",
 			"",
@@ -148,10 +118,8 @@
 	"enchantment": {
 		"name": "Enchantment",
 		"file": "occultistimplementsdisplay21b2.html",
-		"short_description": "Enchantment implements allow the occultist to befuddle the mind and charm his foes.",
-		"has_sacred_implement": true,
 		"description": [
-			"### Enchantment",
+			"## Enchantment",
 			"",
 			"Enchantment implements allow the occultist to befuddle the mind and charm his foes.",
 			"",
@@ -179,7 +147,7 @@
 			"",
 			"*Obey (Sp):* As a standard action, you can issue a command to one living creature by expending 1 point of mental focus. This functions as command. The target must be within 30 feet and capable of understanding your order. The target can attempt a Will save to negate this effect. If the creature is the same creature type as you, it takes a -2 penalty on this saving throw.",
 			"",
-			"#### Sacred Implement",
+			"### Sacred Implement",
 			"",
 			"**Source** [Occult Origins pg. 15](source/occult_origins)",
 			"",
@@ -191,10 +159,8 @@
 	"evocation": {
 		"name": "Evocation",
 		"file": "occultistimplementsdisplayb0e9.html",
-		"short_description": "Implements focused on evocation grant the ability to create and direct energy to protect and to destroy.",
-		"has_sacred_implement": true,
 		"description": [
-			"### Evocation",
+			"## Evocation",
 			"",
 			"Implements focused on evocation grant the ability to create and direct energy to protect and to destroy.",
 			"",
@@ -222,7 +188,7 @@
 			"",
 			"*Wall of Power (Sp):* By expending 1 point of mental focus as a standard action, you can create a wall of pure energy with a length of up to 5 feet per occultist level you possess. This wall is 10 feet high and 1 foot thick. It doesn't block passage, line of sight, or line of effect, but does deal damage to anyone passing through it. The wall deals 2d6 points of energy damage + 1 point of energy damage per occultist level you possess. You must select acid, cold, electricity, or fire when you create the wall to determine the type of damage it deals. The wall must be straight, and can't pass through a creature's space when created. The wall lasts for 1 round per occultist level you possess. You must be at least 9th level to select this focus power.",
 			"",
-			"#### Sacred Implement",
+			"### Sacred Implement",
 			"",
 			"**Source** [Occult Origins pg. 15](source/occult_origins)",
 			"",
@@ -234,10 +200,8 @@
 	"illusion": {
 		"name": "Illusion",
 		"file": "occultistimplementsdisplay2703.html",
-		"short_description": "Illusion implements allow the occultist to distort the senses and cloak creatures from sight.",
-		"has_sacred_implement": true,
 		"description": [
-			"### Illusion",
+			"## Illusion",
 			"",
 			"Illusion implements allow the occultist to distort the senses and cloak creatures from sight.",
 			"",
@@ -265,7 +229,7 @@
 			"",
 			"*Unseen (Sp):* As a standard action, you can expend 1 point of mental focus to become invisible, as invisibility. This effect lasts for 1 minute per occultist level you possess. You can expend 2 points of mental focus instead of 1 to use this power on a willing adjacent creature instead of yourself. You can still see creatures you make invisible with this power. If the invisible creature makes an attack or otherwise takes an action that would cause the invisibility to end, you can immediately expend 1 additional point of mental focus to allow the creature to remain invisible if the creature is within 30 feet of you. You must be at least 3rd level to select this focus power.",
 			"",
-			"#### Sacred Implement",
+			"### Sacred Implement",
 			"",
 			"**Source** [Occult Origins pg. 15](source/occult_origins)",
 			"",
@@ -277,10 +241,8 @@
 	"necromancy": {
 		"name": "Necromancy",
 		"file": "occultistimplementsdisplay685a.html",
-		"short_description": "Implements that draw power from necromancy can control undead and harm the living.",
-		"has_sacred_implement": true,
 		"description": [
-			"### Necromancy",
+			"## Necromancy",
 			"",
 			"Implements that draw power from necromancy can control undead and harm the living.",
 			"",
@@ -308,7 +270,7 @@
 			"",
 			"*Spirit Shroud (Su):* As a standard action, you can expend 1 point of mental focus to surround yourself with a shroud of spirit energy. You gain a number of temporary hit points equal to 1d6 + your occultist level. This shroud lasts for 1 minute per occultist level or until the temporary hit points are expended, whichever comes first. These temporary hit points stack with those from other sources, but not with those gained through multiple uses of this ability. At 4th level, as long as the shroud remains, you also gain a resistance bonus on all saving throws against death effects, fear effects, and any spells or effects that bestow negative levels or deal negative energy damage (if the spells or effects allow a save). This bonus is equal to 1 + 1 for every 4 occultist levels you possess beyond 4th. You must be at least 3rd level to select this focus power.",
 			"",
-			"#### Sacred Implement",
+			"### Sacred Implement",
 			"",
 			"**Source** [Occult Origins pg. 15](source/occult_origins)",
 			"",
@@ -320,9 +282,8 @@
 	"transmutation": {
 		"name": "Transmutation",
 		"file": "occultistimplementsdisplayfc8f.html",
-		"short_description": "Transmutation implements can alter the properties of both objects and creatures.",
 		"description": [
-			"### Transmutation",
+			"## Transmutation",
 			"",
 			"Transmutation implements can alter the properties of both objects and creatures.",
 			"",
@@ -350,7 +311,7 @@
 			"",
 			"*Telekinetic Mastery (Sp):* As a standard action, you can expend 1 point of mental focus to grant yourself telekinetic power. This functions as telekinesis, except you don't need to concentrate on the effect to maintain it, and using any one of its effects is a standard action. This effect lasts for 1 round per occultist level you possess. You must be at least 9th level to select this focus power.",
 			"",
-			"#### Sacred Implement",
+			"### Sacred Implement",
 			"",
 			"**Source** [Occult Origins pg. 15](source/occult_origins)",
 			"",
@@ -362,9 +323,8 @@
 	"mage's_paraphernalia_panoply": {
 		"name": "Mage's Paraphernalia (Panoply)",
 		"file": "occultistimplementsdisplay60e6.html",
-		"short_description": "This panoply is associated with the arcane arts and the masters of manipulating magic.",
 		"description": [
-			"### Mage's Paraphernalia",
+			"## Mage's Paraphernalia",
 			"",
 			"This panoply is associated with the arcane arts and the masters of manipulating magic.",
 			"",
@@ -390,9 +350,8 @@
 	"performer's_accoutrements_panoply": {
 		"name": "Performer's Accoutrements (Panoply)",
 		"file": "occultistimplementsdisplaya3d6.html",
-		"short_description": "This panoply is associated with those who deceive as well as those who entertain.",
 		"description": [
-			"### Performer's Accoutrements",
+			"## Performer's Accoutrements",
 			"",
 			"This panoply is associated with those who deceive as well as those who entertain.",
 			"",
@@ -418,9 +377,8 @@
 	"saint's_holy_regalia_panoply": {
 		"name": "Saint's Holy Regalia (Panoply)",
 		"file": "occultistimplementsdisplay6025.html",
-		"short_description": "This panoply is associated with devoted members of a good-aligned faith and the power of belief.",
 		"description": [
-			"### Saint's Holy Regalia",
+			"## Saint's Holy Regalia",
 			"",
 			"This panoply is associated with devoted members of a good-aligned faith and the power of belief.",
 			"",
@@ -446,9 +404,8 @@
 	"trappings_of_the_warrior_panoply": {
 		"name": "Trappings of the Warrior (Panoply)",
 		"file": "occultistimplementsdisplay9440.html",
-		"short_description": "This panoply is associated with brave and stalwart warriors, martial skill, and the defense of one's allies.",
 		"description": [
-			"### Trappings of the Warrior",
+			"## Trappings of the Warrior",
 			"",
 			"This panoply is associated with brave and stalwart warriors, martial skill, and the defense of one's allies.",
 			"",

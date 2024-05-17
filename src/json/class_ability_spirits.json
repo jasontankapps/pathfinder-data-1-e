@@ -1,13 +1,5 @@
 {
 	"_prefix": "class_abilities-spirit",
-	"_description": [
-		"## Medium Spirits",
-		"",
-		"A medium's spirits are entities from the Astral Plane-the clinging echoes of heroes and villains from the distant past, sustained throughout time by myths and legends. The number of spirits is countless, and each has its own idiosyncrasies that make it distinct. Nonetheless, all spirits arise from one of the following six legends: archmage, champion, guardian, hierophant, marshal, or trickster."
-	],
-	"_sources": [
-		"Occult Adventures"
-	],
 	"archmage": {
 		"name": "Archmage",
 		"sources": [ "Occult Adventures" ],

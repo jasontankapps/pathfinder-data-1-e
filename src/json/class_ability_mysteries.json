@@ -1,35 +1,5 @@
 {
 	"_prefix": "class_abilities-mystery",
-	"_description": [
-		"## Mysteries",
-		"",
-		"**Source** [Advanced Player's Guide](source/advanced_player's_guide)  ",
-		"Each oracle must choose from among the following mysteries. Unless otherwise noted, the DC to save against these revelations is equal to 10 + 1/2 the oracle's level + the oracle's Charisma modifier."
-	],
-	"_sources": [
-		"Advanced Player's Guide",
-		"Blood of Shadows",
-		"Blood of the Moon",
-		"Elemental Master's Handbook",
-		"Faiths and Philosophies",
-		"Healer's Handbook",
-		"Heroes of the Streets",
-		"Inner Sea Magic",
-		"Legacy of Dragons",
-		"Legacy of the First World",
-		"Monster Codex",
-		"Occult Mysteries",
-		"Path of the Hellknight",
-		"Pathfinder #139: The Dead Road",
-		"Pathfinder #39: The City of Seven Spears",
-		"Pathfinder #71: Rasputin Must Die!",
-		"Pathfinder #95: Anvil of Fire",
-		"People of the North",
-		"The Harrow Handbook",
-		"Ultimate Intrigue",
-		"Ultimate Magic",
-		"Villain Codex"
-	],
 	"ancestor": {
 		"name": "Ancestor",
 		"file": "mysterydisplay1854.html",

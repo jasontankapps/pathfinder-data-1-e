@@ -1,12 +1,5 @@
 {
 	"_prefix": "class_abilities-spirit_outsider",
-	"_description": [
-		"## Outsider Spirits",
-		"",
-		"**Source** [Psychic Anthology](source/psychic_anthology)  ",
-		"An outer channeler can invoke creatures from the following outsider subtypes. The outsiders associated with each spirit provide no mechanical benefit and are merely suggestions based on the themes and interests of each creature. At the GM's discretion, he can swap which outsiders are associated with each spirit and can even use outsiders of the indicated subtype that aren't listed, though outsiders capable of serving as an improved familiar and outsiders of CR 20 or higher typically do not answer an outer channeler's calls."
-	],
-	"_sources": [ "Psychic Anthology" ],
 	"aeon": {
 		"name": "Aeon",
 		"description": [

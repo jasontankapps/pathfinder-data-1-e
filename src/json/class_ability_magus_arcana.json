@@ -1,26 +1,5 @@
 {
 	"_prefix": "class_abilities-magus_arcana",
-	"_description": [
-		"## Magus Arcana",
-		"",
-		"**Source** [Ultimate Magic](source/ultimate_magic)  ",
-		"As he gains levels, a magus learns arcane secrets tailored to his specific way of blending martial puissance and magical skill. Starting at 3rd level, a magus gains one magus arcana. He gains an additional magus arcana for every three levels of magus attained after 3rd level. Unless specifically noted in a magus arcana's description, a magus cannot select a particular magus arcana more than once. Magus arcana that affect spells can only be used to modify spells from the magus spell list unless otherwise noted."
-	],
-	"_sources": [
-		"Ultimate Magic",
-		"Ultimate Combat",
-		"Blood of the Moon",
-		"The Harrow Handbook",
-		"Advanced Class Guide",
-		"Disciple's Doctrine",
-		"Ranged Tactics",
-		"Bastards of Golarion",
-		"Heroes of the Streets",
-		"Magical Marketplace",
-		"Monster Summoner's Handbook",
-		"Ranged Tactics Toolbox",
-		"Agents of Evil"
-	],
 	"accurate_strike": {
 		"name": "Accurate Strike",
 		"sources": [ "Ultimate Combat" ],
@@ -53,7 +32,7 @@
 		"name": "Arcane Dealer",
 		"sources": [ "The Harrow Handbook" ],
 		"description": [
-			"**Arcane Dealer (Su)** ([The Harrow Handbook pg. 24](source/the_harrow_handbook)): The magus gains the Deadly Dealer feat (see page 15), even if he does not meet the prerequisites. He can use his arcane pool to grant a deck of cards an enhancement bonus as though it were a ranged weapon with 54 pieces of ammunition. The magus must use either Arcane Strike or his arcane pool to enhance the cards in order to use them as weapons. The magus must be at least 6th level before selecting this arcana."
+			"**Arcane Dealer (Su)** ([The Harrow Handbook pg. 24](source/the_harrow_handbook)): The magus gains the [Deadly Dealer](feat/deadly_dealer) feat, even if he does not meet the prerequisites. He can use his arcane pool to grant a deck of cards an enhancement bonus as though it were a ranged weapon with 54 pieces of ammunition. The magus must use either Arcane Strike or his arcane pool to enhance the cards in order to use them as weapons. The magus must be at least 6th level before selecting this arcana."
 		]
 	},
 	"arcane_deed": {
@@ -168,7 +147,7 @@
 		"name": "Disruptive",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
-			"**Disruptive (Ex)** ([Ultimate Combat pg. 54](source/ultimate_combat)): The magus gains Disruptive as a bonus feat. The magus must be at least 6th level before selecting this arcana."
+			"**Disruptive (Ex)** ([Ultimate Combat pg. 54](source/ultimate_combat)): The magus gains [Disruptive](feat/disruptive) as a bonus feat. The magus must be at least 6th level before selecting this arcana."
 		]
 	},
 	"distant_spellstrike": {
@@ -273,14 +252,14 @@
 		"name": "Planar Hunter",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
-			"**Planar Hunter (Su)** ([Monster Summoner's Handbook pg. 9](source/monster_summoner's_handbook)): Whenever the magus enhances his weapon using his arcane pool, he can spend 1 additional point from his arcane pool to add the planarUE special ability to his weapon, or 2 additional points to add the phase lockingUE special ability. The magus must be at least 9th level before selecting this arcana."
+			"**Planar Hunter (Su)** ([Monster Summoner's Handbook pg. 9](source/monster_summoner's_handbook)): Whenever the magus enhances his weapon using his arcane pool, he can spend 1 additional point from his arcane pool to add the planar special ability to his weapon, or 2 additional points to add the phase locking special ability. The magus must be at least 9th level before selecting this arcana."
 		]
 	},
 	"pool_ray": {
 		"name": "Pool Ray",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
-			"**Pool Ray** ([Ranged Tactics Toolbox pg. 13](source/ranged_tactics_toolbox)): The magus can expend 1 point from his arcane pool as a standard action to infuse a ranged weapon with elemental power. As a free action while making an attack roll with the infused ranged weapon, after the attack roll has been made but before the results are revealed by the GM, the magus can release the charge and cause his attack to deal 1d6 points of energy damage (acid, cold, electricity, or fire, chosen when he spends the arcane pool point to activate this ability). If he misses with this attack, the charge is lost and the effect is wasted. If the magus has the ranged spellstrike class feature (such as through the myrmidarch archetype), he can use this ability with ranged spellstrike to treat it as its own ranged touch attack. At 6th level and every 3 levels thereafter, the amount of damage dealt by this attack increases by 1d6."
+			"**Pool Ray** ([Ranged Tactics Toolbox pg. 13](source/ranged_tactics_toolbox)): The magus can expend 1 point from his arcane pool as a standard action to infuse a ranged weapon with elemental power. As a free action while making an attack roll with the infused ranged weapon, after the attack roll has been made but before the results are revealed by the GM, the magus can release the charge and cause his attack to deal 1d6 points of energy damage (acid, cold, electricity, or fire, chosen when he spends the arcane pool point to activate this ability). If he misses with this attack, the charge is lost and the effect is wasted. If the magus has the ranged spellstrike class feature (such as through the [myrmidarch](class/archetype/magus/myrmidarch) archetype), he can use this ability with ranged spellstrike to treat it as its own ranged touch attack. At 6th level and every 3 levels thereafter, the amount of damage dealt by this attack increases by 1d6."
 		]
 	},
 	"pool_strike": {
@@ -336,21 +315,21 @@
 		"name": "Rakshasa's Fortune",
 		"sources": [ "The Harrow Handbook" ],
 		"description": [
-			"**Rakshasa's Fortune (Su)** ([The Harrow Handbook pg. 25](source/the_harrow_handbook)): Whenever the magus casts a spell of the polymorph subschool on himself, he can draw a card from a complete harrow deck he owns as a free action. If the card's alignment and the magus's alignment are a true match, the spell's duration is doubled and the magus can select two additional monster abilities granted by the polymorph spell (such as scent or grab for beast shape II), even if the form assumed by the magus doesn't normally grant that ability. On a partial match, the magus can select an additional ability granted by the polymorph spell, even if the form assumed by the magus doesn't normally grant that ability. On an opposite match, the duration of the spell is halved and the magus must forgo one of the abilities granted by his form. The magus must be at least 9th level before selecting this arcana."
+			"**Rakshasa's Fortune (Su)** ([The Harrow Handbook pg. 25](source/the_harrow_handbook)): Whenever the magus casts a spell of the polymorph subschool on himself, he can draw a card from a complete harrow deck he owns as a free action. If the card's alignment and the magus's alignment are a true match, the spell's duration is doubled and the magus can select two additional monster abilities granted by the polymorph spell (such as scent or grab for [beast shape II](spell/beast_shape_2)), even if the form assumed by the magus doesn't normally grant that ability. On a partial match, the magus can select an additional ability granted by the polymorph spell, even if the form assumed by the magus doesn't normally grant that ability. On an opposite match, the duration of the spell is halved and the magus must forgo one of the abilities granted by his form. The magus must be at least 9th level before selecting this arcana."
 		]
 	},
 	"ranger_trap": {
 		"name": "Ranger Trap",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
-			"**Ranger Trap** ([Ranged Tactics Toolbox pg. 13](source/ranged_tactics_toolbox)): The magus learns a ranger trap (Pathfinder RPG Ultimate Magic 64). Additional ranger traps can be found on page 15. The magus must be at least 10th level before selecting this arcana."
+			"**Ranger Trap** ([Ranged Tactics Toolbox pg. 13](source/ranged_tactics_toolbox)): The magus learns a [ranger trap](class/ability/traps). The magus must be at least 10th level before selecting this arcana."
 		]
 	},
 	"reach_magic": {
 		"name": "Reach Magic",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
-			"**Reach Magic** ([Ranged Tactics Toolbox pg. 13](source/ranged_tactics_toolbox)): The magus can cast one spell per day as if it were modified by the Reach SpellAPG feat. This doesn't increase the spell's casting time or level."
+			"**Reach Magic** ([Ranged Tactics Toolbox pg. 13](source/ranged_tactics_toolbox)): The magus can cast one spell per day as if it were modified by the Reach Spell feat. This doesn't increase the spell's casting time or level."
 		]
 	},
 	"reach_spellstrike": {
@@ -427,7 +406,7 @@
 		"name": "Spell-Scars",
 		"sources": [ "Blood of the Moon" ],
 		"description": [
-			"**Spell-Scars (Ex)** ([Blood of the Moon pg. 21](source/blood_of_the_moon)): The magus can use special scar-based tattoos called spell-scars on his skin to cast or prepare spells, much like scrolls. He can cast a spell from a spell-scar exactly like casting from a scroll; the ink and scars vanish when the spell is cast. The magus can also prepare spells from his spell-scars without expending them, similar to a wizard using the Spell Mastery feat. The magus does not need to be able to see his spell-scar to use it. A magus has room on his skin for 18 total spell levels of spell-scars, which he can create using the rules for scribing scrolls (although they do not require the Scribe Scroll feat)."
+			"**Spell-Scars (Ex)** ([Blood of the Moon pg. 21](source/blood_of_the_moon)): The magus can use special scar-based tattoos called spell-scars on his skin to cast or prepare spells, much like scrolls. He can cast a spell from a spell-scar exactly like casting from a scroll; the ink and scars vanish when the spell is cast. The magus can also prepare spells from his spell-scars without expending them, similar to a wizard using the [Spell Mastery](feat/spell_mastery) feat. The magus does not need to be able to see his spell-scar to use it. A magus has room on his skin for 18 total spell levels of spell-scars, which he can create using the rules for scribing scrolls (although they do not require the Scribe Scroll feat)."
 		]
 	},
 	"still_magic": {

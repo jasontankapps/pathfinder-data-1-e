@@ -1,16 +1,36 @@
 {
 	"_prefix": "class_abilities-hellknight_order",
-	"_description": [
+	"sources": [
+		"Path of the Hellknight",
+		"Pathfinder #98: Turn of the Torrent"
+	],
+	"description": [
 		"## Hellknight Orders",
 		"",
 		"**Source:** [Inner Sea World Guide](source/inner_sea_world_guide)  ",
-		"A character must choose one Hellknight order to join. The choice of order determines what disciplines the character gains access to."
+		"A character must choose one Hellknight order to join. The choice of order determines what disciplines the character gains access to.",
+		"",
+		"| Order | Description |",
+		"| :---: | --- |",
+		"| [Order of the Chain](class/ability/hellknightorder/order_of_the_chain) | These Hellknights serve as wardens and trackers devoted to hunting down the enemies of society and locking away dangerous criminals. |",
+		"| [Order of the Gate](class/ability/hellknightorder/order_of_the_gate) | Dominated by spellcasting signifers who employ magic in surveillance, manipulation, and execution, this order is known for predicting crimes and creating magical innovations. |",
+		"| [Order of the Godclaw](class/ability/hellknightorder/order_of_the_godclaw) | Crusaders in the service of a pantheon of five lawful deities, these Hellknights bring order wherever it is needed, usually by force. Their unusual faith is understood by few. |",
+		"| [Order of the Nail](class/ability/hellknightorder/order_of_the_nail) | These knights at the vanguard of civilization bring order to frontier settlements and stamp out those who impede society's march. |",
+		"| [Order of the Pyre](class/ability/hellknightorder/order_of_the_pyre) | With spell and blade, this order seeks out superstition and witchcraft and destroys any chaotic cults that threaten the minds and souls of law-abiding citizens. |",
+		"| [Order of the Rack](class/ability/hellknightorder/order_of_the_rack) | These Hellknights root out and quell subversive knowledge and destructive ideas they believe capable of impeding order's march. |",
+		"| [Order of the Scourge](class/ability/hellknightorder/order_of_the_scourge) | Using their vast wealth and resources, these armored sleuths work- sometimes under cover-to take down corrupt politicians, thieves' guilds, and bastions of organized crime. |",
+		"| [Order of the Coil (Minor Order)](class/ability/hellknightorder/order_of_the_coil_minor_order) | A small order of Hellknights that seeks to wipe out the native inhabitants of Sargava in the name of civilization |",
+		"| [Order of the Crux (Minor Order)](class/ability/hellknightorder/order_of_the_crux_minor_order) | A remnant of the Chelish civil war, these butchers were destroyed by the Order of the Scourge, but have risen again in unlife |",
+		"| [Order of the Glyph (Minor Order)](class/ability/hellknightorder/order_of_the_glyph_minor_order) | An unofficial band of Hellknights, charged with protecting the true history of Cheliax |",
+		"| [Order of the Pike (Minor Order)](class/ability/hellknightorder/order_of_the_pike_minor_order) | Monster-slayers and heroes, this order dedicates itself to wiping out dangerous creatures. |",
+		"| [Order of the Scar (Minor Order)](class/ability/hellknightorder/order_of_the_scar_minor_order) | Mercenary assassin-hunters, this order protects its charges and oppsess the Daggermark Guild and the followers of Achaekek. |",
+		"| [Order of the Torrent (Minor Order)](class/ability/hellknightorder/order_of_the_torrent_minor_order) | A good order of Hellknights that focus their efforts on rescuing hostages and kidnapping victims. |",
+		"| [Order of the Wall (Minor Order)](class/ability/hellknightorder/order_of_the_wall_minor_order) | These hellknights serve as guardians and watchmen against the forces that would intrude on the borders of civilization |"
 	],
 	"order_of_the_chain": {
 		"name": "Order of the Chain",
 		"file": "hellknightordersdisplay2372.html",
 		"sources": [ "Path of the Hellknight" ],
-		"short_description": "These Hellknights serve as wardens and trackers devoted to hunting down the enemies of society and locking away dangerous criminals.",
 		"description": [
 			"### Order of the Chain",
 			"",
@@ -44,7 +64,6 @@
 		"name": "Order of the Gate",
 		"file": "hellknightordersdisplaye5e0.html",
 		"sources": [ "Path of the Hellknight" ],
-		"short_description": "Dominated by spellcasting signifers who employ magic in surveillance, manipulation, and execution, this order is known for predicting crimes and creating magical innovations.",
 		"description": [
 			"### Order of the Gate",
 			"",
@@ -78,7 +97,6 @@
 		"name": "Order of the Godclaw",
 		"file": "hellknightordersdisplay15c0.html",
 		"sources": [ "Path of the Hellknight" ],
-		"short_description": "Crusaders in the service of a pantheon of five lawful deities, these Hellknights bring order wherever it is needed, usually by force. Their unusual faith is understood by few.",
 		"description": [
 			"### Order of the Godclaw",
 			"",
@@ -112,7 +130,6 @@
 		"name": "Order of the Nail",
 		"file": "hellknightordersdisplaye565.html",
 		"sources": [ "Path of the Hellknight" ],
-		"short_description": "These knights at the vanguard of civilization bring order to frontier settlements and stamp out those who impede society's march.",
 		"description": [
 			"### Order of the Nail",
 			"",
@@ -146,7 +163,6 @@
 		"name": "Order of the Pyre",
 		"file": "hellknightordersdisplayb4de.html",
 		"sources": [ "Path of the Hellknight" ],
-		"short_description": "With spell and blade, this order seeks out superstition and witchcraft and destroys any chaotic cults that threaten the minds and souls of law-abiding citizens.",
 		"description": [
 			"### Order of the Pyre",
 			"",
@@ -181,7 +197,6 @@
 		"name": "Order of the Rack",
 		"file": "hellknightordersdisplayd6db.html",
 		"sources": [ "Path of the Hellknight" ],
-		"short_description": "These Hellknights root out and quell subversive knowledge and destructive ideas they believe capable of impeding order's march.",
 		"description": [
 			"### Order of the Rack",
 			"",
@@ -216,7 +231,6 @@
 		"name": "Order of the Scourge",
 		"file": "hellknightordersdisplay66a2.html",
 		"sources": [ "Path of the Hellknight" ],
-		"short_description": "Using their vast wealth and resources, these armored sleuths work- sometimes under cover-to take down corrupt politicians, thieves' guilds, and bastions of organized crime.",
 		"description": [
 			"### Order of the Scourge",
 			"",
@@ -251,7 +265,6 @@
 		"name": "Order of the Coil (Minor Order)",
 		"file": "hellknightordersdisplay50d2.html",
 		"sources": [ "Path of the Hellknight" ],
-		"short_description": "A small order of Hellknights that seeks to wipe out the native inhabitants of Sargava in the name of civilization",
 		"description": [
 			"### Order of the Coil (Minor Order)",
 			"",
@@ -287,7 +300,6 @@
 		"name": "Order of the Crux (Minor Order)",
 		"file": "hellknightordersdisplayb6aa.html",
 		"sources": [ "Path of the Hellknight" ],
-		"short_description": "A remnant of the Chelish civil war, these butchers were destroyed by the Order of the Scourge, but have risen again in unlife",
 		"description": [
 			"### Order of the Crux (Minor Order)",
 			"",
@@ -315,7 +327,6 @@
 		"name": "Order of the Glyph (Minor Order)",
 		"file": "hellknightordersdisplayb64a.html",
 		"sources": [ "Path of the Hellknight" ],
-		"short_description": "An unofficial band of Hellknights, charged with protecting the true history of Cheliax",
 		"description": [
 			"### Order of the Glyph (Minor Order)",
 			"",
@@ -352,7 +363,6 @@
 		"name": "Order of the Pike (Minor Order)",
 		"file": "hellknightordersdisplaye377.html",
 		"sources": [ "Path of the Hellknight" ],
-		"short_description": "Monster-slayers and heroes, this order dedicates itself to wiping out dangerous creatures.",
 		"description": [
 			"### Order of the Pike (Minor Order)",
 			"",
@@ -389,7 +399,6 @@
 		"name": "Order of the Scar (Minor Order)",
 		"file": "hellknightordersdisplay65f9.html",
 		"sources": [ "Path of the Hellknight" ],
-		"short_description": "Mercenary assassin-hunters, this order protects its charges and oppsess the Daggermark Guild and the followers of Achaekek.",
 		"description": [
 			"### Order of the Scar (Minor Order)",
 			"",
@@ -428,7 +437,6 @@
 			"Path of the Hellknight",
 			"Pathfinder #98: Turn of the Torrent"
 		],
-		"short_description": "A good order of Hellknights that focus their efforts on rescuing hostages and kidnapping victims.",
 		"description": [
 			"### Order of the Torrent (Minor Order)",
 			"",
@@ -465,7 +473,6 @@
 		"name": "Order of the Wall (Minor Order)",
 		"file": "hellknightordersdisplaycb0d.html",
 		"sources": [ "Path of the Hellknight" ],
-		"short_description": "These hellknights serve as guardians and watchmen against the forces that would intrude on the borders of civilization",
 		"description": [
 			"### Order of the Wall (Minor Order)",
 			"",

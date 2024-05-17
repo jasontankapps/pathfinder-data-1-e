@@ -1,25 +1,5 @@
 {
 	"_prefix": "class_abilities-inquisition",
-	"_description": [
-		"## Inquisitions",
-		"",
-		"While inquisitors often take on the domains permitted to the clerics of the faith, they are privy to special lore not open to priests and other agents of their religion. These divine pursuits, called inquisitions, grant inquisitors the tools necessary for the fight against enemies of the faith. An inquisitor may select an inquisition in place of a domain.",
-		"",
-		"If an inquisition's granted power calls for a saving throw, the DC of the save is equal to 10 + 1/2 the character's inquisitor level + her Wisdom modifier. Unless otherwise stated, the caster level for granted power spell-like abilities is equal to the inquisitor's class level.",
-		"",
-		"Inquisitions are intended for inquisitors, not for other classes that give access to domains. While a cleric or other domain-using class can select an inquisition in place of a domain (if appropriate to the character's deity), inquisitions do not grant domain spell slots or domain spells, and therefore are much weaker choices for those classes. These other classes use the appropriate class level as their inquisitor level for the purpose of inquisition granted powers (clerics use their cleric level as their inquisitor level, and so on)."
-	],
-	"_sources": [
-		"Utimate Magic",
-		"Ultimate Combat",
-		"Blood of Angels",
-		"Magical Marketplace",
-		"Inner Sea Intrigue",
-		"Ultimate Intrigue",
-		"Blood of Fiends",
-		"Faiths and Philosophies",
-		"Champions of Purity"
-	],
 	"anger": {
 		"name": "Anger",
 		"sources": [ "Ultimate Magic" ],
@@ -149,7 +129,6 @@
 	"excommunication": {
 		"name": "Excommunication",
 		"sources": [ "Faiths and Philosophies" ],
-		"deities": [],
 		"description": [
 			"### Excommunication",
 			"",
@@ -396,7 +375,6 @@
 	"redemption": {
 		"name": "Redemption",
 		"sources": [ "Faiths and Philosophies" ],
-		"deities": [],
 		"description": [
 			"### Redemption",
 			"",
@@ -417,7 +395,6 @@
 	"reformation": {
 		"name": "Reformation",
 		"sources": [ "Faiths and Philosophies" ],
-		"deities": [],
 		"description": [
 			"### Reformation",
 			"",
