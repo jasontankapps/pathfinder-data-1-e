@@ -28,7 +28,7 @@
 			"",
 			"**Improved Armored Swiftness (Ex):** At 5th level, an armored hulk's land speed is faster than the norm for her race by +10 feet. This benefit applies when she is wearing any armor, including heavy armor, but not while carrying a heavy load. Apply this bonus before modifying the armored hulk's speed because of any load carried or armor worn. This bonus stacks with any other bonuses to the barbarian's land speed. This ability replaces improved uncanny dodge.",
 			"",
-			"**Rage Powers:** The following rage powers complement the armored hulk archetype: boasting taunt, greater guarded life, guarded life, guarded stance, increased damage reduction, no escape, overbearing advance, overbearing onslaught, reflexive dodge, rolling dodge, and unexpected strike."
+			"**Rage Powers:** The following rage powers complement the armored hulk archetype: [boasting taunt](class/ability/ragepower/boasting_taunt), [greater guarded life](class/ability/ragepower/greater_guarded_life), [guarded life](class/ability/ragepower/guarded_life), [guarded stance](class/ability/ragepower/guarded_stance), [increased damage reduction](class/ability/ragepower/increased_damage_reduction), [no escape](class/ability/ragepower/no_escape), [overbearing advance](class/ability/ragepower/overbearing_advance), [overbearing onslaught](class/ability/ragepower/overbearing_onslaught), [reflexive dodge](class/ability/ragepower/reflexive_dodge), [rolling dodge](class/ability/ragepower/rolling_dodge), [unexpected strike](class/ability/ragepower/unexpected_strike)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -86,7 +86,7 @@
 			"",
 			"**Battle Scavenger (Ex):** At 3rd level, the breaker barbarian suffers no penalty on attack rolls when using an improvised weapon or a weapon with the broken condition. In addition, she gains a +1 bonus on damage rolls with improvised or broken weapons for every three levels beyond 3rd. This ability replaces trap sense.",
 			"",
-			"**Rage Powers:** The following rage powers complement the breaker archetype: ground breaker, smasher, and strength surge*."
+			"**Rage Powers:** The following rage powers complement the breaker archetype: [ground breaker](class/ability/ragepower/ground_breaker), [smasher](class/ability/ragepower/smasher), [strength surge](class/ability/ragepower/strength_surge)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -113,7 +113,7 @@
 			"",
 			"**Improved Savage Grapple (Ex):** At 5th level, the brutal pugilist takes no penalties to Dexterity, attack rolls, and combat maneuver checks when she has the grappled condition. She also is treated as one size larger than her actual size when determining whether she can be grappled using the grab ability or swallowed by another creature. This ability replaces improved uncanny dodge.",
 			"",
-			"**Rage Powers:** The following rage powers complement the brutal pugilist archetype: animal fury*, brawler, greater brawler, knockback*, knockdown, overbearing advance, overbearing onslaught, and strength surge*."
+			"**Rage Powers:** The following rage powers complement the brutal pugilist archetype: [animal fury](class/ability/ragepower/animal_fury), [brawler](class/ability/ragepower/brawler), [greater brawler](class/ability/ragepower/greater_brawler), [knockback](class/ability/ragepower/knockback), [knockdown](class/ability/ragepower/knockdown), [overbearing advance](class/ability/ragepower/overbearing_advance), [overbearing onslaught](class/ability/ragepower/overbearing_onslaught), [strength surge](class/ability/ragepower/strength_surge)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -157,7 +157,7 @@
 			"",
 			"This replaces the rage power normally gained at 6th level.",
 			"",
-			"**Rage Powers:** The following rage powers complement the brutish swamper archetype: brawler, greater brawler, greater tyrant totem, lesser tyrant totem, lizard stride, low-light vision, superstition, and tyrant totem."
+			"**Rage Powers:** The following rage powers complement the brutish swamper archetype: [brawler](class/ability/ragepower/brawler), [greater brawler](class/ability/ragepower/greater_brawler), [greater tyrant totem](class/ability/ragepower/greater_tyrant_totem), [lesser tyrant totem](class/ability/ragepower/lesser_tyrant_totem), [lizard stride](class/ability/ragepower/lizard_stride), [low-light vision](class/ability/ragepower/low-light_vision), [superstition](class/ability/ragepower/superstition), [tyrant totem](class/ability/ragepower/tyrant_totem)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -195,7 +195,7 @@
 			"",
 			"This replaces damage reduction.",
 			"",
-			"**Rage Powers:** The following rage powers complement the cave dweller archetype: animal fury, bestial climber, eclipsing rage, greater eclipsing rage, greater ground breaker, ground breaker, night vision, raging climber, primal scent, and sprint."
+			"**Rage Powers:** The following rage powers complement the cave dweller archetype: [animal fury](class/ability/ragepower/animal_fury), [bestial climber](class/ability/ragepower/bestial_climber), [eclipsing rage](class/ability/ragepower/eclipsing_rage), [greater eclipsing rage](class/ability/ragepower/greater_eclipsing_rage), [greater ground breaker](class/ability/ragepower/greater_ground_breaker), [ground breaker](class/ability/ragepower/ground_breaker), [night vision](class/ability/ragepower/night_vision), [raging climber](class/ability/ragepower/raging_climber), [primal scent](class/ability/ragepower/primal_scent), [sprint](class/ability/ragepower/sprint)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -238,7 +238,7 @@
 			"",
 			"This ability replaces tireless rage.",
 			"",
-			"**Rage Powers:** The following rage powers complement the deepwater rager archetype: battle roar, bestial swimmer, brawler, intimidating glare, raging swimmer, rolling dodge, and terrifying howl."
+			"**Rage Powers:** The following rage powers complement the deepwater rager archetype: [battle roar](class/ability/ragepower/battle_roar), [bestial swimmer](class/ability/ragepower/bestial_swimmer), [brawler](class/ability/ragepower/brawler), [intimidating glare](class/ability/ragepower/intimidating_glare), [raging swimmer](class/ability/ragepower/raging_swimmer), [rolling dodge](class/ability/ragepower/rolling_dodge), [terrifying howl](class/ability/ragepower/terrifying_howl)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -295,7 +295,7 @@
 			"",
 			"**Raging Drunk (Ex):** While raging, the drunken brute can drink a potion, or a tankard of ale or similar quantity of alcohol, as a move action that does not provoke attacks of opportunity. A potion has its normal effect, while an alcoholic drink allows the barbarian to maintain her rage that round without expending a round of rage for the day (instead of the alcohol's normal effects). For each alcoholic drink consumed while raging, the barbarian is nauseated for 1 round when her rage expires, in addition to the normal fatigue that follows a rage. Tireless rage does not negate this nauseated condition but the internal fortitude rage power does. This ability replaces fast movement.",
 			"",
-			"**Rage Powers:** The following rage powers complement the drunken brute archetype: boasting taunt, good for what ails you, internal fortitude*, liquid courage, moment of clarity*, roaring drunk, and staggering drunk."
+			"**Rage Powers:** The following rage powers complement the drunken brute archetype: [boasting taunt](class/ability/ragepower/boasting_taunt), [good for what ails you](class/ability/ragepower/good_for_what_ails_you), [internal fortitude](class/ability/ragepower/internal_fortitude), [liquid courage](class/ability/ragepower/liquid_courage), [moment of clarity](class/ability/ragepower/moment_of_clarity), [roaring drunk](class/ability/ragepower/roaring_drunk), [staggering drunk](class/ability/ragepower/staggering_drunk)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -349,7 +349,7 @@
 			"",
 			"**Elemental Fury (Ex):** At 3rd level, whenever the elemental kin takes an amount of energy damage equal to or greater than her barbarian level while raging, she adds 1 to the total number of rounds that she can rage that day. At 6th level, and every three levels thereafter, the number of extra rounds per energy attack increases by +1, to a maximum of +6 rounds per energy attack at at 18th level. This ability replaces trap sense.",
 			"",
-			"**Rage Powers:** The following rage powers complement the elemental kin archetype: elemental rage, energy absorption, energy eruption, energy resistance, greater elemental rage, greater energy resistance, and lesser elemental rage."
+			"**Rage Powers:** The following rage powers complement the elemental kin archetype: [elemental rage](class/ability/ragepower/elemental_rage), [energy absorption](class/ability/ragepower/energy_absorption), [energy eruption](class/ability/ragepower/energy_eruption), [energy resistance](class/ability/ragepower/energy_resistance), [greater elemental rage](class/ability/ragepower/greater_elemental_rage), [greater energy resistance](class/ability/ragepower/greater_energy_resistance), [lesser elemental rage](class/ability/ragepower/lesser_elemental_rage)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -428,7 +428,7 @@
 			"",
 			"**Wicked Improvisation (Ex):** At 12th level, a feral gnasher becomes more capable with improvised weapons and natural attacks. The feral gnasher gains a +1 competence bonus on damage rolls when using natural attacks or improvised weapons while raging. At 14th level and every two levels thereafter, the damage bonus increases by +1. This increase is not precision damage and is thus multiplied on a critical hit. This ability replaces trap sense +4.",
 			"",
-			"**Rage Powers:** The following rage powers complement the feral gnasher archetype: increased damage reduction, scent, superstition ; beast totem, beast totem (greater), beast totem (lesser) eater of magic, ghost rager."
+			"**Rage Powers:** The following rage powers complement the feral gnasher archetype: [increased damage reduction](class/ability/ragepower/increased_damage_reduction), [scent](class/ability/ragepower/scent), [superstition](class/ability/ragepower/superstition), [beast totem](class/ability/ragepower/beast_totem), [greater beast totem](class/ability/ragepower/greater_beast_totem), [lesser beast totem](class/ability/ragepower/lesser_beast_totem), [eater of magic](class/ability/ragepower/eater_of_magic), [ghost rager](class/ability/ragepower/ghost_rager)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -462,7 +462,7 @@
 			"",
 			"**Unbound Form (Su):** At 20th level, a flesheater can use her one flesh ability to assume the shape of a valid consumed creature. This ability functions as [alter self](spell/alter_self), [beast shape IV](spell/beast_shape_4), [form of the dragon III](spell/form_of_the_dragon_3), or [giant form II](spell/giant_form_2), as appropriate. This is a polymorph effect. This ability replaces mighty rage.",
 			"",
-			"**Rage Powers:** The following rage powers complement the flesheater archetype: animal fury, beast totem (any), inspire ferocity, internal fortitude, and terrifying howl."
+			"**Rage Powers:** The following rage powers complement the flesheater archetype: [animal fury](class/ability/ragepower/animal_fury), [beast totem](class/ability/ragepower/beast_totem), [inspire ferocity](class/ability/ragepower/inspire_ferocity), [internal fortitude](class/ability/ragepower/internal_fortitude), and [terrifying howl](class/ability/ragepower/terrifying_howl)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -585,7 +585,7 @@
 			"",
 			"**Amplified by Hate (Ex):** At 9th level, a hateful rager adds half her favored enemy bonus to the DC of any rage power she uses against a favored enemy. This ability replaces trap sense +3.",
 			"",
-			"**Rage Powers:** The following rage powers complement the hateful rager archetype: intimidating glare, roused anger, terrifying howl; come and get me, inspire ferocity, overbearing advance, reckless abandon ."
+			"**Rage Powers:** The following rage powers complement the hateful rager archetype: [intimidating glare](class/ability/ragepower/intimidating_glare), [roused anger](class/ability/ragepower/roused_anger), [terrifying howl](class/ability/ragepower/terrifying_howl), [come and get me](class/ability/ragepower/come_and_get_me), [inspire ferocity](class/ability/ragepower/inspire_ferocity), [overbearing advance](class/ability/ragepower/overbearing_advance), [reckless abandon](class/ability/ragepower/reckless_abandon)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -606,7 +606,7 @@
 			"",
 			"**Skilled Thrower (Ex):** The hurler is skilled at throwing objects in combat. Increase the range increment of any thrown weapon or object by 10 feet. This ability replaces fast movement.",
 			"",
-			"**Rage Powers:** The following rage powers complement the hurler archetype: hurling, greater hurling, hurling charge, lesser hurling, strength surge*, and surprise accuracy*."
+			"**Rage Powers:** The following rage powers complement the hurler archetype: [hurling](class/ability/ragepower/hurling), [greater hurling](class/ability/ragepower/greater_hurling), [hurling charge](class/ability/ragepower/hurling_charge), [lesser hurling](class/ability/ragepower/lesser_hurling), [strength surge](class/ability/ragepower/strength_surge), [surprise accuracy](class/ability/ragepower/surprise_accuracy)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -632,7 +632,7 @@
 			"",
 			"**Extreme Endurance (Ex):** At 3rd level, the invulnerable rager is inured to either hot or cold climate effects (choose one) as if using [endure elements](spell/endure_elements). In addition, the barbarian gains 1 point of fire or cold resistance for every three levels beyond 3rd. This ability replaces trap sense.",
 			"",
-			"**Rage Powers:** The following rage powers complement the invulnerable rager archetype: come and get me, guarded life, increased damage reduction*, inspire ferocity, reckless abandon, and renewed vigor*."
+			"**Rage Powers:** The following rage powers complement the invulnerable rager archetype: [come and get me](class/ability/ragepower/come_and_get_me), [guarded life](class/ability/ragepower/guarded_life), [increased damage reduction](class/ability/ragepower/increased_damage_reduction), [inspire ferocity](class/ability/ragepower/inspire_ferocity), [reckless abandon](class/ability/ragepower/reckless_abandon), [renewed vigor](class/ability/ragepower/renewed_vigor)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -662,7 +662,7 @@
 			"",
 			"**Damage Reduction (Ex):** A jungle rager gains this ability at 8th level, except her effective barbarian level for the ability is equal to her barbarian level - 1. In addition, this damage reduction is doubled against damage dealt by creatures with the swarm subtype. This ability otherwise functions as the barbarian ability of the same name.",
 			"",
-			"**Rage Powers:** The following rage powers complement the jungle rager archetype: animal fury, bestial climber, hive totem, internal fortitude, low-light vision, night vision, raging climber, scent, sharpened accuracy, and surprise accuracy."
+			"**Rage Powers:** The following rage powers complement the jungle rager archetype: [animal fury](class/ability/ragepower/animal_fury), [bestial climber](class/ability/ragepower/bestial_climber), [hive totem](class/ability/ragepower/hive_totem), [internal fortitude](class/ability/ragepower/internal_fortitude), [low-light vision](class/ability/ragepower/low-light_vision), [night vision](class/ability/ragepower/night_vision), [raging climber](class/ability/ragepower/raging_climber), [scent](class/ability/ragepower/scent), [sharpened accuracy](class/ability/ragepower/sharpened_accuracy), [surprise accuracy](class/ability/ragepower/surprise_accuracy)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -702,11 +702,7 @@
 			"",
 			"**Throat Cutter (Ex):** At 14th level, whenever her war beast succeeds at a bull rush, drag, grapple, overrun, or trip combat maneuver against an opponent threatened by the mad dog, a mad dog can take an attack of opportunity against that opponent. This ability replaces indomitable will.",
 			"",
-			"**Rage Powers:** The following rage powers complement the mad dog archetype: animal fury, beast totem, bestial leaper, primal scent, raging leaper, reckless abandon, scent, sprint, swift foot, and terrifying howl. The following new rage powers also complement this archetype:",
-			"",
-			"**Ferocious Beast (Ex):** While the barbarian is raging, her animal companion also gains the benefits of rage (including greater rage, mighty rage, and tireless rage), though the barbarian must spend 1 additional round of rage per round if her companion begins or ends its turn adjacent to her, and 2 additional rounds of rage per round if not.",
-			"",
-			"**Ferocious Beast, Greater (Ex):** While the barbarian is raging, her animal companion shares the benefits of the barbarian's rage powers that are constant in effect. It gains no benefit from rage powers that require actions to activate, even if they are free actions. A barbarian must have the ferocious beast rage power and be at least 8th level to select this rage power."
+			"**Rage Powers:** The following rage powers complement the mad dog archetype: [animal fury](class/ability/ragepower/animal_fury), [beast totem](class/ability/ragepower/beast_totem), [bestial leaper](class/ability/ragepower/bestial_leaper), [ferocious beast](class/ability/ragepower/ferocious_beast), [greater ferocious beast](class/ability/ragepower/greater_ferocious_beast), [primal scent](class/ability/ragepower/primal_scent), [raging leaper](class/ability/ragepower/raging_leaper), [reckless abandon](class/ability/ragepower/reckless_abandon), [scent](class/ability/ragepower/scent), [sprint](class/ability/ragepower/sprint), [swift foot](class/ability/ragepower/swift_foot), [terrifying howl](class/ability/ragepower/terrifying_howl)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -769,7 +765,7 @@
 			"",
 			"**Bestial Mount (Ex):** At 5th level, the mounted fury gains the service of a feral mount. This ability functions as a [druid's animal companion](class/druid), using the barbarian's level -4 as her effective druid level. This companion must be one that she is capable of riding and is suitable as a mount. A Medium barbarian can select a camel or a horse. A Small barbarian can select a pony or a wolf, but can also select a boar or a dog if she is at least 8th level. Whenever a barbarian is raging while mounted on her bestial mount, the mount gains a +2 morale bonus to its Strength. This ability replaces uncanny dodge and improved uncanny dodge.",
 			"",
-			"**Rage Powers:** The following rage powers complement the mounted fury archetype: ferocious mount, ferocious trample, greater ferocious mount, greater ferocious trample, and spirit steed."
+			"**Rage Powers:** The following rage powers complement the mounted fury archetype: [ferocious mount](class/ability/ragepower/ferocious_mount), [ferocious trample](class/ability/ragepower/ferocious_trample), [greater ferocious mount](class/ability/ragepower/greater_ferocious_mount), [greater ferocious trample](class/ability/ragepower/greater_ferocious_trample), [spirit steed](class/ability/ragepower/spirit_steed)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -799,7 +795,7 @@
 			"",
 			"**Hide from Constructs (Su):** At 14th level, a Numerian liberator can control her movement, breathing, body temperature, and other physiological signs to confuse the artificial visions of constructs. At will, the barbarian can make herself undetectable to constructs as if she were affected by a [hide from undead](spell/hide_from_undead) spell that instead hides the subject from constructs. Intelligent constructs receive a Will save (DC 10 + 1/2 the barbarian's level + the barbarian's Constitution modifier) to see through this effect. The barbarian must expend 1 round of rage for each round she uses this ability. This ability replaces indomitable will.",
 			"",
-			"**Rage Powers:** The following rage powers complement the Numerian liberator archetype: deadly accuracy, energy absorption (fire), energy resistance (fire), greater energy resistance (fire), gearbreaker, guarded stance, lethal accuracy, lowlight vision, night vision, rolling dodge, reflexive dodge, surprise accuracy."
+			"**Rage Powers:** The following rage powers complement the Numerian liberator archetype: [deadly accuracy](class/ability/ragepower/deadly_accuracy), [energy absorption (fire)](class/ability/ragepower/energy_absorption), [energy resistance (fire)](class/ability/ragepower/energy_resistance), [greater energy resistance (fire)](class/ability/ragepower/greater_energy_resistance), [gearbreaker](class/ability/ragepower/gearbreaker), [guarded stance](class/ability/ragepower/guarded_stance), [lethal accuracy](class/ability/ragepower/lethal_accuracy), [lowlight vision](class/ability/ragepower/lowlight_vision), [night vision](class/ability/ragepower/night_vision), [rolling dodge](class/ability/ragepower/rolling_dodge), [reflexive dodge](class/ability/ragepower/reflexive_dodge), [surprise accuracy](class/ability/ragepower/surprise_accuracy)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -832,7 +828,7 @@
 			"",
 			"This replaces the rage power normally gained at 6th level.",
 			"",
-			"**Rage Powers:** The following rage powers complement the pack hunter archetype: contagious rage, increased damage reduction, no escape, pack rage, quick reflexes, and unexpected strike."
+			"**Rage Powers:** The following rage powers complement the pack hunter archetype: [contagious rage](class/ability/ragepower/contagious_rage), [increased damage reduction](class/ability/ragepower/increased_damage_reduction), [no escape](class/ability/ragepower/no_escape), [pack rage](class/ability/ragepower/pack_rage), [quick reflexes](class/ability/ragepower/quick_reflexes), [unexpected strike](class/ability/ragepower/unexpected_strike)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -890,7 +886,7 @@
 			"",
 			"**Focused Rage (Ex):** While raging, a primal hunter gains a +2 bonus on attack rolls with ranged weapons. This bonus increases to +3 at 11th level and to +4 at 20th level. While raging, a primal hunter can attempt Stealth checks but doesn't gain a morale bonus on Will saves. This ability alters rage.",
 			"",
-			"**Rage Powers:** The following rage powers complement the primal hunter archetype: deadly accuracy, lethal accuracy, reflexive dodge, rolling dodge, sharpened accuracy, surprise accuracy."
+			"**Rage Powers:** The following rage powers complement the primal hunter archetype: [deadly accuracy](class/ability/ragepower/deadly_accuracy), [lethal accuracy](class/ability/ragepower/lethal_accuracy), [reflexive dodge](class/ability/ragepower/reflexive_dodge), [rolling dodge](class/ability/ragepower/rolling_dodge), [sharpened accuracy](class/ability/ragepower/sharpened_accuracy), [surprise accuracy](class/ability/ragepower/surprise_accuracy)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -936,7 +932,7 @@
 			"",
 			"This replaces damage reduction.",
 			"",
-			"**Rage Powers:** The following rage powers complement the raging cannibal archetype: internal fortitude, intimidating glare, primal scent, scent, and terrifying howl."
+			"**Rage Powers:** The following rage powers complement the raging cannibal archetype: [internal fortitude](class/ability/ragepower/internal_fortitude), [intimidating glare](class/ability/ragepower/intimidating_glare), [primal scent](class/ability/ragepower/primal_scent), [scent](class/ability/ragepower/scent), [terrifying howl](class/ability/ragepower/terrifying_howl)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -960,7 +956,7 @@
 			"",
 			"**Natural Toughness (Ex):** At 7th level, the savage barbarian gains a +1 natural armor bonus to AC when wearing no armor (shields are allowed). This bonus increases by +1 for every three levels beyond 7th. This ability replaces damage reduction.",
 			"",
-			"**Rage Powers:** The following rage powers complement the savage barbarian archetype: flesh wound, guarded stance, increased damage reduction, intimidating glare, rolling dodge, superstition, and terrifying howl."
+			"**Rage Powers:** The following rage powers complement the savage barbarian archetype: [flesh wound](class/ability/ragepower/flesh_wound), [guarded stance](class/ability/ragepower/guarded_stance), [increased damage reduction](class/ability/ragepower/increased_damage_reduction), [intimidating glare](class/ability/ragepower/intimidating_glare), [rolling dodge](class/ability/ragepower/rolling_dodge), [superstition](class/ability/ragepower/superstition), [terrifying howl](class/ability/ragepower/terrifying_howl)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -1023,7 +1019,7 @@
 			"",
 			"**Improved Tolerance (Ex):** At 5th level, a scarred rager's tolerance ability also applies to effects that would cause her to become dazed, frightened, shaken, or stunned. This replaces improved uncanny dodge.",
 			"",
-			"**Rage Powers:** The following rage powers complement the scarred rager archetype: auspicious mark, body bludgeon, come and get me, increased damage reduction, inspire ferocity, internal fortitude, intimidating glare, reckless abandon, regenerative vigor, renewed life, renewed vigor, renewed vitality, roused anger, and terrifying howl."
+			"**Rage Powers:** The following rage powers complement the scarred rager archetype: [auspicious mark](class/ability/ragepower/auspicious_mark), [body bludgeon](class/ability/ragepower/body_bludgeon), [come and get me](class/ability/ragepower/come_and_get_me), [increased damage reduction](class/ability/ragepower/increased_damage_reduction), [inspire ferocity](class/ability/ragepower/inspire_ferocity), [internal fortitude](class/ability/ragepower/internal_fortitude), [intimidating glare](class/ability/ragepower/intimidating_glare), [reckless abandon](class/ability/ragepower/reckless_abandon), [regenerative vigor](class/ability/ragepower/regenerative_vigor), [renewed life](class/ability/ragepower/renewed_life), [renewed vigor](class/ability/ragepower/renewed_vigor), [renewed vitality](class/ability/ragepower/renewed_vitality), [roused anger](class/ability/ragepower/roused_anger), [terrifying howl](class/ability/ragepower/terrifying_howl)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -1055,7 +1051,7 @@
 			"",
 			"**Sure-Footed (Ex):** At 5th level, a sea reaver takes no penalties when moving across slick surfaces, whether natural or magical (e.g., [grease](spell/grease), [ice storm](spell/ice_storm), and [sleet storm](spell/sleet_storm)). She is not at risk of falling, is not denied her Dexterity bonus when moving across such areas, and does not treat them as difficult terrain. This ability replaces improved uncanny dodge.",
 			"",
-			"**Rage Powers:** The following rage powers complement the sea reaver archetype: bestial leaper, bestial swimmer, come and get me, hurling charge, raging leaper, raging swimmer, rolling dodge, and smasher."
+			"**Rage Powers:** The following rage powers complement the sea reaver archetype: [bestial leaper](class/ability/ragepower/bestial_leaper), [bestial swimmer](class/ability/ragepower/bestial_swimmer), [come and get me](class/ability/ragepower/come_and_get_me), [hurling charge](class/ability/ragepower/hurling_charge), [raging leaper](class/ability/ragepower/raging_leaper), [raging swimmer](class/ability/ragepower/raging_swimmer), [rolling dodge](class/ability/ragepower/rolling_dodge), [smasher](class/ability/ragepower/smasher)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -1095,7 +1091,7 @@
 			"",
 			"This replaces the rage powers normally gained at 6th and 12th levels.",
 			"",
-			"**Rage Powers:** The following rage powers complement the sharptooth archetype: animal fury, bleeding blow, contagious rage, pack rage, powerful blow, primal scent, raging swimmer, and scent."
+			"**Rage Powers:** The following rage powers complement the sharptooth archetype: [animal fury](class/ability/ragepower/animal_fury), [bleeding blow](class/ability/ragepower/bleeding_blow), [contagious rage](class/ability/ragepower/contagious_rage), [pack rage](class/ability/ragepower/pack_rage), [powerful blow](class/ability/ragepower/powerful_blow), [primal scent](class/ability/ragepower/primal_scent), [raging swimmer](class/ability/ragepower/raging_swimmer), [scent](class/ability/ragepower/scent)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -1131,7 +1127,7 @@
 			"",
 			"**Give Me Fire (Ex):** At 5th level, if a Shoanti burn rider takes fire damage while raging, she regains 1 round of rage. The burn rider regains the round of rage only if the fire damage bypasses or exceeds any energy resistance or other protections in effect. The burn rider can only regain 1 round of rage per round. This ability replaces improved uncanny dodge.",
 			"",
-			"**Rage Powers:** The following rage powers complement the Shoanti burn rider archetype: elemental rage, energy resistance, ferocious mount, ferocious trample, increased damage reduction, low-light vision, night vision, renewed vigor, scent, spirit steed, sprint, and swift foot."
+			"**Rage Powers:** The following rage powers complement the Shoanti burn rider archetype: [elemental rage](class/ability/ragepower/elemental_rage), [energy resistance](class/ability/ragepower/energy_resistance), [ferocious mount](class/ability/ragepower/ferocious_mount), [ferocious trample](class/ability/ragepower/ferocious_trample), [increased damage reduction](class/ability/ragepower/increased_damage_reduction), [low-light vision](class/ability/ragepower/low-light_vision), [night vision](class/ability/ragepower/night_vision), [renewed vigor](class/ability/ragepower/renewed_vigor), [scent](class/ability/ragepower/scent), [spirit steed](class/ability/ragepower/spirit_steed), [sprint](class/ability/ragepower/sprint), [swift foot](class/ability/ragepower/swift_foot)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -1155,7 +1151,7 @@
 			"",
 			"**Keen Senses (Ex):** At 7th level, the superstitious barbarian gains low-light vision (triple normal vision range in dim light if she already has low-light vision). At 10th level, she gains darkvision 60 feet (or adds 60 feet to the range of any darkvision already possessed). At 13th level, she gains scent. At 16th level, she gains blindsense 30 feet. At 19th level, she gains blindsight 30 feet. This ability replaces damage reduction.",
 			"",
-			"**Rage Powers:** The following rage powers complement the superstitious archetype: clear mind, disruptive, roused anger, spellbreaker, superstition, and witch hunter."
+			"**Rage Powers:** The following rage powers complement the superstitious archetype: [clear mind](class/ability/ragepower/clear_mind), [disruptive](class/ability/ragepower/disruptive), [roused anger](class/ability/ragepower/roused_anger), [spellbreaker](class/ability/ragepower/spellbreaker), [superstition](class/ability/ragepower/superstition), [witch hunter](class/ability/ragepower/witch_hunter)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -1189,7 +1185,7 @@
 			"",
 			"**Titanic Rage (Su):** At 14th level, a titan mauler may choose to gain the benefits of enlarge person when she enters a rage. While using titanic rage, she must spend 2 rounds of rage per round, and she becomes exhausted rather than fatigued when the rage ends. This ability replaces indomitable will.",
 			"",
-			"**Rage Powers:** The following rage powers complement the titan mauler archetype: body bludgeon, greater ground breaker, ground breaker, knockback, mighty swing, powerful blow, smasher, and strength surge."
+			"**Rage Powers:** The following rage powers complement the titan mauler archetype: [body bludgeon](class/ability/ragepower/body_bludgeon), [greater ground breaker](class/ability/ragepower/greater_ground_breaker), [ground breaker](class/ability/ragepower/ground_breaker), [knockback](class/ability/ragepower/knockback), [mighty swing](class/ability/ragepower/mighty_swing), [powerful blow](class/ability/ragepower/powerful_blow), [smasher](class/ability/ragepower/smasher), [strength surge](class/ability/ragepower/strength_surge)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -1204,9 +1200,9 @@
 			"## Totem Warrior",
 			"",
 			"**Source** [Advanced Player's Guide pg. 79](source/advanced_player's_guide)  ",
-			"A barbarian often has a special totem that is the patron of her tribe. While individual totems vary, those in the tribe that call upon a totem receive similar abilities. Totem warrior barbarians can select from [totem rage powers](unknown/totam_rage_powers) that match their totem.",
+			"A barbarian often has a special totem that is the patron of her tribe. While individual totems vary, those in the tribe that call upon a totem receive similar abilities. Totem warrior barbarians can select from totem [rage powers](unknown/rage_powers) that match their totem.",
 			"",
-			"**Rage Powers:** The totem warrior is based entirely upon his totem rage powers. In addition to the totem powers themselves, the following rage powers complement the totem warrior archtype (depending on the totem chosen): animal fury, low-light vision, night vision, raging climber, raging leaper, raging swimmer, and swift foot."
+			"**Rage Powers:** The totem warrior is based entirely upon his totem rage powers. In addition to the totem powers themselves, the following rage powers complement the totem warrior archtype (depending on the totem chosen): [animal fury](class/ability/ragepower/animal_fury), [low-light vision](class/ability/ragepower/low-light_vision), [night vision](class/ability/ragepower/night_vision), [raging climber](class/ability/ragepower/raging_climber), [raging leaper](class/ability/ragepower/raging_leaper), [raging swimmer](class/ability/ragepower/raging_swimmer), and [swift foot](class/ability/ragepower/swift_foot)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -1234,7 +1230,7 @@
 			"",
 			"**Trophy Fetish (Ex):** A true primitive collects teeth, bones, hair, and other trophies from vanquished enemies, representing their power and strength. At 3rd level, a true primitive can attach a trophy fetish to one of the traditional true primitive weapons listed above. When wielding that weapon, the true primitive gains a +1 morale bonus on damage rolls. Furthermore, if that weapon has the fragile property, once per day, the true primitive can ignore the effects of a single natural 1 roll. A trophy fetish can also be attached to a suit of hide or bone armor, granting the true primitive a +1 morale bonus on saving throws. Furthermore, if that armor has the fragile property, once per day, the true primitive can chose not to have the armor break on the confirmation of a critical hit made against her. Every five levels beyond 3rd, a true primitive can use an additional trophy fetish. Multiple trophy fetishes can be attached to the same armor or weapon; their effects stack. A trophy fetish can be sundered (hardness 5, 1 hit point) but is not damaged by area attacks or attacks that do not specifically target it. It has no effect if attached to other types of weapons or armor. This ability replaces trap sense.",
 			"",
-			"**Rage Powers:** The following rage powers complement the true primitive archetype: animal fury, eater of magic, ghost rager, low-light vision, night vision, primal scent, scent, spell sunder, sunder enchantment, superstition, and witch hunter."
+			"**Rage Powers:** The following rage powers complement the true primitive archetype: [animal fury](class/ability/ragepower/animal_fury), [eater of magic](class/ability/ragepower/eater_of_magic), [ghost rager](class/ability/ragepower/ghost_rager), [low-light vision](class/ability/ragepower/low-light_vision), [night vision](class/ability/ragepower/night_vision), [primal scent](class/ability/ragepower/primal_scent), [scent](class/ability/ragepower/scent), [spell sunder](class/ability/ragepower/spell_sunder), [sunder enchantment](class/ability/ragepower/sunder_enchantment), [superstition](class/ability/ragepower/superstition), [witch hunter](class/ability/ragepower/witch_hunter)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -1292,7 +1288,7 @@
 			"",
 			"This ability alters rage.",
 			"",
-			"**Rage Powers:** The following rage powers complement the urban barbarian archetype: boasting taunt, clear mind, deadly accuracy, guarded stance, intimidating glare, lethal accuracy, no escape, quick reflexes, perfect clarity, sharpened accuracy, surprise accuracy, and unexpected strike."
+			"**Rage Powers:** The following rage powers complement the urban barbarian archetype: [boasting taunt](class/ability/ragepower/boasting_taunt), [clear mind](class/ability/ragepower/clear_mind), [deadly accuracy](class/ability/ragepower/deadly_accuracy), [guarded stance](class/ability/ragepower/guarded_stance), [intimidating glare](class/ability/ragepower/intimidating_glare), [lethal accuracy](class/ability/ragepower/lethal_accuracy), [no escape](class/ability/ragepower/no_escape), [quick reflexes](class/ability/ragepower/quick_reflexes), [perfect clarity](class/ability/ragepower/perfect_clarity), [sharpened accuracy](class/ability/ragepower/sharpened_accuracy), [surprise accuracy](class/ability/ragepower/surprise_accuracy), [unexpected strike](class/ability/ragepower/unexpected_strike)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -1319,7 +1315,7 @@
 			"",
 			"**Rage Conversion (Ex):** At 5th level, a wild rager who fails a saving throw against any mind-affecting effect can attempt a new saving throw at the beginning of her next turn. If the save succeeds, that effect ends and she instead rages and becomes confused as noted above. This ability replaces improved uncanny dodge.",
 			"",
-			"**Rage Powers:** The following rage powers complement the wild rager archetype: animal fury, bloody blow, body bludgeon, brawler, crippling blow, greater brawler, intimidating glare, mighty swing, no escape, powerful blow, and quick reflexes."
+			"**Rage Powers:** The following rage powers complement the wild rager archetype: [animal fury](class/ability/ragepower/animal_fury), [bloody blow](class/ability/ragepower/bloody_blow), [body bludgeon](class/ability/ragepower/body_bludgeon), [brawler](class/ability/ragepower/brawler), [crippling blow](class/ability/ragepower/crippling_blow), [greater brawler](class/ability/ragepower/greater_brawler), [intimidating glare](class/ability/ragepower/intimidating_glare), [mighty swing](class/ability/ragepower/mighty_swing), [no escape](class/ability/ragepower/no_escape), [powerful blow](class/ability/ragepower/powerful_blow), [quick reflexes](class/ability/ragepower/quick_reflexes)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -1359,7 +1355,7 @@
 			"",
 			"This alters damage reduction.",
 			"",
-			"**Rage Powers:** The following rage powers complement the wildborn archetype: animal fury, beast totem, bestial climber, bestial swimmer, greater beast totem, lesser beast totem, low-light vision, raging climber, raging leaper, raging swimmer, and swift foot."
+			"**Rage Powers:** The following rage powers complement the wildborn archetype: [animal fury](class/ability/ragepower/animal_fury), [beast totem](class/ability/ragepower/beast_totem), [bestial climber](class/ability/ragepower/bestial_climber), [bestial swimmer](class/ability/ragepower/bestial_swimmer), [greater beast totem](class/ability/ragepower/greater_beast_totem), [lesser beast totem](class/ability/ragepower/lesser_beast_totem), [low-light vision](class/ability/ragepower/low-light_vision), [raging climber](class/ability/ragepower/raging_climber), [raging leaper](class/ability/ragepower/raging_leaper), [raging swimmer](class/ability/ragepower/raging_swimmer), [swift foot](class/ability/ragepower/swift_foot)."
 		],
 		"display": "archetype/barbarian"
 	}
