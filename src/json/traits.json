@@ -1538,7 +1538,7 @@
 		"description": [
 			"## Aspect of the Quah",
 			"",
-			"You call upon your quah's totem to grant you power. You gain a unique totem aspect that replaces one of the animal aspects granted to you by the animal focus feature. You must be a hunter or have access to the animal aspect class feature to select this trait, and you must choose the Shoanti quah to which you belong. You gain access to the totem aspect listed for that clan, and you lose access to the animal aspect listed. Once made, this choice cannot be changed. Cliff (Shadde-Quah, Frog): The creature gains a +4 competence bonus on Acrobatics checks to avoid falling and on Constitution checks to avoid drowning. This bonus increases to +4 at 8th level and +6 at 15th level. Emberstorm (Sklar-Quah, Bear): The creature gains fire resistance 5. This increases to fire resistance 10 at 8th level and fire resistance 15 at 15th level. Horse (Shriikirri-Quah, Owl): The creature gains a +4 competence bonus on Ride checks. This bonus increases to +6 at 8th level and +8 at 15th level. Star (Lyrune-Quah, Falcon): The creature gains low-light vision and a +2 competence bonus on Perception checks. This bonus increases to +4 at 8th level and +6 at 15th level. Storm (Tamiir-Quah, Snake): The creature gains a +4 bonus on saving throws against cold dangers, disease, heat dangers, starvation, and thirst. This bonus increases to +6 at 8th level and +8 at 15th level. Storm Roc (Shundar-Quah, Mouse): The creature gains a +2 enhancement bonus to Charisma. This bonus increases to +4 at 8th level and +6 at 15th level. Will-o--Wisp (Skoan-Quah, Wolf ): The creature gains +2 bonus on saving throws against fear effects and mindaffecting effects. This bonus increases to +4 at 8th level and +6 at 15th level."
+			"You call upon your quah's totem to grant you power. You gain a unique totem aspect that replaces one of the animal aspects granted to you by the animal focus feature. You must be a hunter or have access to the animal aspect class feature to select this trait, and you must choose the Shoanti quah to which you belong. You gain access to the totem aspect listed for that clan, and you lose access to the animal aspect listed. Once made, this choice cannot be changed. Cliff (Shadde-Quah, Frog): The creature gains a +4 competence bonus on Acrobatics checks to avoid falling and on Constitution checks to avoid drowning. This bonus increases to +4 at 8th level and +6 at 15th level. Emberstorm (Sklar-Quah, Bear): The creature gains fire resistance 5. This increases to fire resistance 10 at 8th level and fire resistance 15 at 15th level. Horse (Shriikirri-Quah, Owl): The creature gains a +4 competence bonus on Ride checks. This bonus increases to +6 at 8th level and +8 at 15th level. Star (Lyrune-Quah, Falcon): The creature gains low-light vision and a +2 competence bonus on Perception checks. This bonus increases to +4 at 8th level and +6 at 15th level. Storm (Tamiir-Quah, Snake): The creature gains a +4 bonus on saving throws against cold dangers, disease, heat dangers, starvation, and thirst. This bonus increases to +6 at 8th level and +8 at 15th level. Storm Roc (Shundar-Quah, Mouse): The creature gains a +2 enhancement bonus to Charisma. This bonus increases to +4 at 8th level and +6 at 15th level. Will-o--Wisp (Skoan-Quah, Wolf ): The creature gains +2 bonus on saving throws against fear effects and mind-affecting effects. This bonus increases to +4 at 8th level and +6 at 15th level."
 		],
 		"type": "Faith",
 		"sources": [ "Disciple's Doctrine" ],
@@ -3087,7 +3087,7 @@
 		"description": [
 			"## Bound by Honor",
 			"",
-			"Your code of honor, obligations, and taboos stem from the shame of a misspent youth. Now, a personal code reminds you how to live, and you have an impressive ability to resist temptation. Once per day, if a mindaffecting effect would compel you to take an action that would cause you to lose Honor Points (see page 8), you may make a new saving throw against the original DC to end the effect."
+			"Your code of honor, obligations, and taboos stem from the shame of a misspent youth. Now, a personal code reminds you how to live, and you have an impressive ability to resist temptation. Once per day, if a mind-affecting effect would compel you to take an action that would cause you to lose Honor Points (see page 8), you may make a new saving throw against the original DC to end the effect."
 		],
 		"type": "Faith",
 		"sources": [ "Faiths and Philosophies" ],
@@ -5846,7 +5846,7 @@
 		"description": [
 			"## Demon-Proof Mind",
 			"",
-			"You are used to the maddening energy fluctuations emanating from the Worldwound, and have steeled your mind against their influence. You gain a +2 trait bonus on saving throws against the mindaffecting effects of evil outsiders."
+			"You are used to the maddening energy fluctuations emanating from the Worldwound, and have steeled your mind against their influence. You gain a +2 trait bonus on saving throws against the mind-affecting effects of evil outsiders."
 		],
 		"type": "Regional",
 		"sources": [ "Demon Hunter's Handbook" ],
@@ -6181,7 +6181,7 @@
 		"description": [
 			"## Diabolist Raised",
 			"",
-			"All your life you've lived within the grip of devil-possessed Cheliax. You care little for the religion of your country, but that is the way of life in the most magnificent empire in the world, and who are you to question the faith of the empire's rulers? Certainly not a fool like some of your more idealistic acquaintances, possessed of bizarre ideals about personal freedoms and egalitarian rulership-who can say whatever happened to them? You know of Hell and the rigidity of its grim rulers, you've seen devils and how they might be employed to the betterment of those with the might to control them, and you know of the dark faith of your country. You might not be a devil worshiper yourself, but there are realities to living in Cheliax, and it's always good to know what's really going on behind the scenes. Your knowledge of diabolism grants you a +1 bonus on Bluff, Diplomacy, Intimidate, and Sense Motive checks made against Westcrown's nobility, and a +1 bonus on all saving throws made against mindaffecting attacks from devils."
+			"All your life you've lived within the grip of devil-possessed Cheliax. You care little for the religion of your country, but that is the way of life in the most magnificent empire in the world, and who are you to question the faith of the empire's rulers? Certainly not a fool like some of your more idealistic acquaintances, possessed of bizarre ideals about personal freedoms and egalitarian rulership-who can say whatever happened to them? You know of Hell and the rigidity of its grim rulers, you've seen devils and how they might be employed to the betterment of those with the might to control them, and you know of the dark faith of your country. You might not be a devil worshiper yourself, but there are realities to living in Cheliax, and it's always good to know what's really going on behind the scenes. Your knowledge of diabolism grants you a +1 bonus on Bluff, Diplomacy, Intimidate, and Sense Motive checks made against Westcrown's nobility, and a +1 bonus on all saving throws made against mind-affecting attacks from devils."
 		],
 		"type": "Campaign",
 		"sources": [ "Council of Thieves Player's Guide" ],
@@ -9180,7 +9180,7 @@
 		"description": [
 			"## Fortified Drinker",
 			"",
-			"Cayden Cailean's holy brews invigorate your mind, making you less susceptible to mental attacks. Whenever you imbibe any alcoholic beverage, you gain a +2 trait bonus on saves against mindaffecting effects for 1 hour."
+			"Cayden Cailean's holy brews invigorate your mind, making you less susceptible to mental attacks. Whenever you imbibe any alcoholic beverage, you gain a +2 trait bonus on saves against mind-affecting effects for 1 hour."
 		],
 		"type": "Religion",
 		"sources": [
@@ -12854,7 +12854,7 @@
 		"description": [
 			"## Latent Psion",
 			"",
-			"The power to affect the world with the mind is very much a reality in your distant homeland. Although you may not even have been born in Vudra, this power remains potent in your mind as well and protects you from mental assault. You gain a +2 trait bonus on saves against mindaffecting effects."
+			"The power to affect the world with the mind is very much a reality in your distant homeland. Although you may not even have been born in Vudra, this power remains potent in your mind as well and protects you from mental assault. You gain a +2 trait bonus on saves against mind-affecting effects."
 		],
 		"type": "Race",
 		"sources": [ "Legacy of Fire Player's Guide" ],

@@ -4683,7 +4683,7 @@
 			"",
 			"**Basilisk**",
 			"",
-			"Starting Statistics: Size Medium; Speed 20 ft.; AC +4 natural armor; Attack bite (1d4); Ability Scores Str 16, Dex 10, Con 15, Int 2, Wis 13, Cha 11; Special Qualities darkvision 60 ft., lowlight vision, gaze (one target within 30 ft., paralysis 1d4 rounds, Fortitude negates, once per day).",
+			"Starting Statistics: Size Medium; Speed 20 ft.; AC +4 natural armor; Attack bite (1d4); Ability Scores Str 16, Dex 10, Con 15, Int 2, Wis 13, Cha 11; Special Qualities darkvision 60 ft., low-light vision, gaze (one target within 30 ft., paralysis 1d4 rounds, Fortitude negates, once per day).",
 			"",
 			"9th-Level Advancement: AC +2 natural armor; Ability Scores Dex +4, Con +4; Attack bite (1d6); Special Qualities gaze (three times per day).",
 			"",
@@ -6057,7 +6057,7 @@
 			"",
 			"- Heart: The target can't recover hit points from any source for 1 minute. This prevents hit point recovery from fast healing and regeneration but doesn't deactivate regeneration altogether, so it does not allow a creature with regeneration to be killed through hit point damage. On a successful save, the target recovers only half as many hit points for 1 round.",
 			"- Throat: The target can't speak or cast spells with a thought component for 1 round, and for 1 minute, actions that require speaking or thought components have a 20% chance to fail. On a successful save, actions that require speaking or thought components have a 50% chance to fail for 1 round.",
-			"- Brow: The target is blinded for 1 minute. On a successful save, the target loses all special forms of vision (such as lowlight vision, see in darkness, and true seeing) for 1 round; this doesn't affect nonvisual senses like blindsight and blindsense.",
+			"- Brow: The target is blinded for 1 minute. On a successful save, the target loses all special forms of vision (such as low-light vision, see in darkness, and true seeing) for 1 round; this doesn't affect nonvisual senses like blindsight and blindsense.",
 			"- Crown: The target must roll twice and take the lower result on all d20 rolls for 1 round and on its first attack roll or caster level check each round for 1 minute. On a successful save, the target must roll twice and take the lower result on its next d20 roll."
 		],
 		"short_description": "Block a creature's upper chakra with an unarmed strike",
@@ -19079,7 +19079,7 @@
 			"",
 			"Those with the power of esoteric dragons take aloofness to an extreme and are prone to long nights of sleep and vivid, enrapturing dreams. They are often deeply empathetic and emotional individuals, feeling the needs and wants of others intimately and, in some cases, more intensely than they can handle.",
 			"",
-			"Draconic Heritage: As a standard action, you can project a psychic barrage at a creature within 15 feet to which you have line of sight. A creature targeted by your psychic barrage must succeed at a Will save or be dazed for 1 round. You can attempt a psychic barrage once per day for every 4 characters levels you have (minimum 1). This is a mindaffecting effect.  ",
+			"Draconic Heritage: As a standard action, you can project a psychic barrage at a creature within 15 feet to which you have line of sight. A creature targeted by your psychic barrage must succeed at a Will save or be dazed for 1 round. You can attempt a psychic barrage once per day for every 4 characters levels you have (minimum 1). This is a mind-affecting effect.  ",
 			"**Special:** If you have 1 or more levels in a class that casts psychic spells, you can attempt a psychic barrage a number of times per day equal to 1/2 your level in that class (minimum 1), plus one more time per day for every 4 levels you have in other classes.",
 			"",
 			"Imperial",
@@ -22028,7 +22028,7 @@
 			"",
 			"The repulsive horror of your smothering attack nearly incapacitates most foes.  ",
 			"**Prerequisites:** [Engulf Revulsion](feat/engulf_revulsion); engulf or smother universal monster ability.  ",
-			"**Benefit:** When you successfully engulf or smother an opponent, successfully maintain a grapple combat maneuver on a smothered opponent, the opponent must succeed at a Will save (DC = 10 + 1/2 your Hit Dice + your Strength modifier) or become staggered for 1 round. This is a mindaffecting fear effect."
+			"**Benefit:** When you successfully engulf or smother an opponent, successfully maintain a grapple combat maneuver on a smothered opponent, the opponent must succeed at a Will save (DC = 10 + 1/2 your Hit Dice + your Strength modifier) or become staggered for 1 round. This is a mind-affecting fear effect."
 		],
 		"short_description": "Engulfed or smothered foes are staggered",
 		"display": "feat"
@@ -58620,7 +58620,7 @@
 			"**Benefit:** For 24 hours after you meditate, you gain low-light vision and scent, as per the universal monster abilities. If you already have low-light vision, you gain the ability to see three times as far as a human in conditions of dim light for 24 hours. If you already have scent, the range at which you detect smells using scent doubles for 24 hours (60 feet normally, 30 feet upwind, and 120 feet downwind).  ",
 			"**Special:** A monk with this feat can select Improved Blind-Fight as a bonus feat beginning at 6th level, and Greater Blind-Fight as a bonus feat beginning at 10th level. He doesn't need to meet the prerequisites of those feats."
 		],
-		"short_description": "Gain lowlight vision and scent",
+		"short_description": "Gain low-light vision and scent",
 		"display": "feat"
 	},
 	"serpent_lash": {

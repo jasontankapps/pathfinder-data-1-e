@@ -9801,7 +9801,7 @@
 			"**Price** 80 gp; **Weight** -  ",
 			"**Category** Alchemical Remedies",
 			"",
-			"When ingested, this thin serum awakens your potential for independent action. If you are under the influence of a mindaffecting effect, you receive a new saving throw with a +4 alchemical bonus to break the effect (you can gain this benefit only once per day). If the serum is ingested by a bonded creature such as a familiar, animal companion, bonded mount, or homunculus, the creature ceases to be bound to its master's will for 10 minutes. It gains a +2 morale bonus on attack rolls, saving throws, skill checks, and ability checks, and becomes interested in finding its own way of doing things. Its attitude toward its master might change drastically during this time, depending on how the master has treated it in the past. As soon as the duration of this effect ends, the creature becomes bound to its master's will again.",
+			"When ingested, this thin serum awakens your potential for independent action. If you are under the influence of a mind-affecting effect, you receive a new saving throw with a +4 alchemical bonus to break the effect (you can gain this benefit only once per day). If the serum is ingested by a bonded creature such as a familiar, animal companion, bonded mount, or homunculus, the creature ceases to be bound to its master's will for 10 minutes. It gains a +2 morale bonus on attack rolls, saving throws, skill checks, and ability checks, and becomes interested in finding its own way of doing things. Its attitude toward its master might change drastically during this time, depending on how the master has treated it in the past. As soon as the duration of this effect ends, the creature becomes bound to its master's will again.",
 			"",
 			"**Recipe** (8 dew of lunary + 10 gold + 22 spirit of wine)/sublimation; Craft 25  ",
 			"**Time** 1 day; **Tools** retort; **Type** alchemical remedy"
@@ -15580,7 +15580,7 @@
 			"**Price** 2 gp; **Weight** 1 lb.  ",
 			"**Category** Mounts/Pets",
 			"",
-			"This tiny jellyfish has a crown roughly 4 inches in diameter, and it glows with bioluminescence as brightly as a candle, typically in a blue or green color, but various species allow an array of possible colors (though generally this commands greater prices). When trapped in a container with small holes to allow in the plankton the creature eats, these creatures can serve as living lanterns, especially for creatures with lowlight vision. In some places, like Talasantri, they drift freely as mobile light sources. A luminous jellyfish lives up to 1 year in this stage of its life cycle before dying."
+			"This tiny jellyfish has a crown roughly 4 inches in diameter, and it glows with bioluminescence as brightly as a candle, typically in a blue or green color, but various species allow an array of possible colors (though generally this commands greater prices). When trapped in a container with small holes to allow in the plankton the creature eats, these creatures can serve as living lanterns, especially for creatures with low-light vision. In some places, like Talasantri, they drift freely as mobile light sources. A luminous jellyfish lives up to 1 year in this stage of its life cycle before dying."
 		],
 		"display": "equipmisc"
 	},
@@ -22899,7 +22899,7 @@
 			"**Price** 20 gp; **Weight** 1 lb.  ",
 			"**Category** Alchemical Tools",
 			"",
-			"This otherwise normal-looking torch is encrusted with lithium salts and burns with a dark red flame. It sheds only dim light in a 10-foot radius, and the light it casts is undetectable outside this radius by normal vision, darkvision, or lowlight vision. This torch burns for 1 hour."
+			"This otherwise normal-looking torch is encrusted with lithium salts and burns with a dark red flame. It sheds only dim light in a 10-foot radius, and the light it casts is undetectable outside this radius by normal vision, darkvision, or low-light vision. This torch burns for 1 hour."
 		],
 		"display": "equipmisc"
 	},
