@@ -1,40 +1,5 @@
 {
 	"_prefix": "class_abilities-kinetic",
-	"_simple_kinetic_blasts": {
-		"description": [
-			"## Simple Kinetic Blasts",
-			"",
-			"A kineticist gains a simple blast from her primary element at 1st level. Some elements offer more than one option. When a kineticist gains a new element via the expanded element class feature, she gains a simple blast from that element as well. Each simple blast is either a physical blast or an energy blast. Physical blasts are ranged attacks that deal an amount of damage equal to 1d6+1 + the kineticist's Constitution modifier, increasing by 1d6+1 for every 2 kineticist levels beyond 1st. Spell resistance doesn't apply against physical blasts. Energy blasts are ranged touch attacks that deal an amount of damage equal to 1d6 + 1/2 the kineticist's Constitution modifier, increasing by 1d6 for every 2 kineticist levels beyond 1st."
-		]
-	},
-	"_composite_kinetic_blasts": {
-		"description": [
-			"## Composite Kinetic Blasts",
-			"",
-			"Composite blasts combine elements to form a new blast. When a kineticist gains a new element through expanded element, she gains access to all composite blasts for which she qualifies. Most composite blasts are either physical or energy blasts, like simple blasts. Physical composite blasts deal an amount of damage equal to 2d6+2 + the kineticist's Constitution modifier, increasing by 2d6+2 for every 2 kineticist levels beyond 1st; energy composite blasts deal an amount of damage equal to 2d6 + 1/2 the kineticist's Constitution modifier, increasing by 2d6 for every 2 kineticist levels beyond 1st."
-		]
-	},
-	"_defense_wild_talents": {
-		"description": [
-			"## Defense Wild Talents",
-			"",
-			"A kineticist gains the defense wild talent from her primary element at 2nd level."
-		]
-	},
-	"_infusion_wild_talents": {
-		"description": [
-			"## Infusion Wild Talents",
-			"",
-			"Infusion wild talents change the way kineticists use their kinetic blasts."
-		]
-	},
-	"_utility_wild_talents": {
-		"description": [
-			"## Utility Wild Talents",
-			"",
-			"A kineticist can select one of the following wild talents at each even level, provided she meets the prerequisites."
-		]
-	},
 	"air_blast": {
 		"name": "Air Blast (Sp)",
 		"searchable_name": "Air Blast",

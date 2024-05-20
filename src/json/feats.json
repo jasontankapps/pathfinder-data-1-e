@@ -36591,7 +36591,7 @@
 			"",
 			"Your skill with traps is extensive.  ",
 			"**Prerequisites:** [Learn Ranger Trap](feat/learn_ranger_trap), Survival 8 ranks.  ",
-			"**Benefit:** You learn one additional [ranger trap](class/ability/traps) and can now use both extraordinary and supernatural versions of any ranger traps you know."
+			"**Benefit:** You learn one additional [ranger trap](class/ability/rangertraps) and can now use both extraordinary and supernatural versions of any ranger traps you know."
 		],
 		"short_description": "Learn a new ranger trap and the ability to use both Ex and Su versions of traps you know",
 		"display": "feat"
@@ -41468,7 +41468,7 @@
 			"",
 			"**Special:** A ranger can use ranger traps a number of times per day equal to 1/2 his ranger level + his Wisdom bonus.",
 			"",
-			"See the description of [ranger traps](class/ability/traps) for durations."
+			"See the description of [ranger traps](class/ability/rangertraps) for durations."
 		],
 		"short_description": "Learn how to create a ranger trap",
 		"display": "feat"
@@ -53764,7 +53764,7 @@
 			"",
 			"Your trap-making proficiency improves greatly.  ",
 			"**Prerequisites:** [Learn Ranger Trap](feat/learn_ranger_trap) or trap class feature, Survival 5 ranks.  ",
-			"**Benefit:** When setting a [ranger trap](class/ability/traps), you can do so as a standard action rather than a full-round action. If you do so, the trap DC is reduced by 5."
+			"**Benefit:** When setting a [ranger trap](class/ability/rangertraps), you can do so as a standard action rather than a full-round action. If you do so, the trap DC is reduced by 5."
 		],
 		"short_description": "Reduce the DC to set traps by 5 and learn to do so as a standard action",
 		"display": "feat"

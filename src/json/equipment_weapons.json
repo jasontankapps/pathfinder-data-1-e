@@ -1741,7 +1741,7 @@
 			"",
 			"A direct hit by a flask of holy water deals 2d4 points of damage to an undead creature or an evil outsider. Each such creature within 5 feet of the point where the flask hits takes 1 point of damage from the splash.",
 			"",
-			"Temples to good deities sell holy water at cost (making no profit). Holy water is made using the bless water spell."
+			"Temples to good deities sell holy water at cost (making no profit). Holy water is made using the [bless water](spell/bless_water) spell."
 		],
 		"display": "equipweap"
 	},
@@ -3506,7 +3506,7 @@
 			"**Cost** 5 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** see text  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Hammers"
+			"**[Weapon Group](class/ability/weapongroups)** Hammers"
 		],
 		"display": "equipweap"
 	},
@@ -3569,7 +3569,7 @@
 			"**Cost** 1 gp **Weight** 1 lb.  ",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** monk, see text  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close; Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Close; Monk"
 		],
 		"display": "equipweap"
 	},
@@ -3603,7 +3603,7 @@
 			"**Cost** 5 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** B or P; **Special** monk, see text  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close; Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Close; Monk"
 		],
 		"display": "equipweap"
 	},
@@ -3636,7 +3636,7 @@
 			"**Cost** 2 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 10 ft.; **Type** P or S; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light; Thrown; Tribal"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light; Thrown; Tribal"
 		],
 		"display": "equipweap"
 	},
@@ -3665,7 +3665,7 @@
 			"**Cost** 2 gp **Weight** 1 lb.  ",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close"
+			"**[Weapon Group](class/ability/weapongroups)** Close"
 		],
 		"display": "equipweap"
 	},
@@ -3692,7 +3692,7 @@
 			"**Cost** 1 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** monk, trip  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Monk"
 		],
 		"display": "equipweap"
 	},
@@ -3801,7 +3801,7 @@
 			"**Cost** 5 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Hammers"
+			"**[Weapon Group](class/ability/weapongroups)** Hammers"
 		],
 		"display": "equipweap"
 	},
@@ -3830,7 +3830,7 @@
 			"**Cost** 2 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close"
+			"**[Weapon Group](class/ability/weapongroups)** Close"
 		],
 		"display": "equipweap"
 	},
@@ -3858,7 +3858,7 @@
 			"**Cost** 2 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close"
+			"**[Weapon Group](class/ability/weapongroups)** Close"
 		],
 		"display": "equipweap"
 	},
@@ -3888,7 +3888,7 @@
 			"**Cost** 6 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** trip  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light"
 		],
 		"display": "equipweap"
 	},
@@ -3947,7 +3947,7 @@
 			"**Cost** 5 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close"
+			"**[Weapon Group](class/ability/weapongroups)** Close"
 		],
 		"display": "equipweap"
 	},
@@ -4002,7 +4002,7 @@
 			"**Cost** 5 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** Monk, see text  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Monk"
 		],
 		"display": "equipweap"
 	},
@@ -4034,7 +4034,7 @@
 			"**Cost** - **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close"
+			"**[Weapon Group](class/ability/weapongroups)** Close"
 		],
 		"display": "equipweap"
 	},
@@ -4090,7 +4090,7 @@
 			"**Cost** - **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Hammers; Thrown; Tribal"
+			"**[Weapon Group](class/ability/weapongroups)** Hammers; Thrown; Tribal"
 		],
 		"display": "equipweap"
 	},
@@ -4119,7 +4119,7 @@
 			"**Cost** 12 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Hammers"
+			"**[Weapon Group](class/ability/weapongroups)** Hammers"
 		],
 		"display": "equipweap"
 	},
@@ -4151,7 +4151,7 @@
 			"**Cost** 2 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B or P; **Special** fragile  ",
 			"**Category** One-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close; Hammers"
+			"**[Weapon Group](class/ability/weapongroups)** Close; Hammers"
 		],
 		"display": "equipweap"
 	},
@@ -4182,7 +4182,7 @@
 			"**Cost** 8 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B and P; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Flails"
+			"**[Weapon Group](class/ability/weapongroups)** Flails"
 		],
 		"display": "equipweap"
 	},
@@ -4212,7 +4212,7 @@
 			"**Cost** 1 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Spears; Thrown; Tribal"
+			"**[Weapon Group](class/ability/weapongroups)** Spears; Thrown; Tribal"
 		],
 		"display": "equipweap"
 	},
@@ -4244,7 +4244,7 @@
 			"**Cost** 5 gp **Weight** 1 lb.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light; Close"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light; Close"
 		],
 		"display": "equipweap"
 	},
@@ -4274,7 +4274,7 @@
 			"**Cost** 5 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** brace, see text  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Spears"
+			"**[Weapon Group](class/ability/weapongroups)** Spears"
 		],
 		"display": "equipweap"
 	},
@@ -4330,7 +4330,7 @@
 			"**Cost** 5 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** grapple  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Axes"
+			"**[Weapon Group](class/ability/weapongroups)** Axes"
 		],
 		"display": "equipweap"
 	},
@@ -4358,7 +4358,7 @@
 			"**Cost** 10 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** grapple  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Axes"
+			"**[Weapon Group](class/ability/weapongroups)** Axes"
 		],
 		"display": "equipweap"
 	},
@@ -4388,7 +4388,7 @@
 			"**Cost** 15 gp **Weight** 9 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** B; **Special** see text  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Hammers"
+			"**[Weapon Group](class/ability/weapongroups)** Hammers"
 		],
 		"display": "equipweap"
 	},
@@ -4418,7 +4418,7 @@
 			"**Cost** 5 gp **Weight** 9 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** brace, reach  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Spears"
+			"**[Weapon Group](class/ability/weapongroups)** Spears"
 		],
 		"display": "equipweap"
 	},
@@ -4448,7 +4448,7 @@
 			"**Cost** - **Weight** 4 lbs.  ",
 			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** double, monk  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Double; Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Double; Monk"
 		],
 		"display": "equipweap"
 	},
@@ -4479,7 +4479,7 @@
 			"**Cost** 2 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** brace  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Spears; Thrown; Tribal"
+			"**[Weapon Group](class/ability/weapongroups)** Spears; Thrown; Tribal"
 		],
 		"display": "equipweap"
 	},
@@ -4508,7 +4508,7 @@
 			"**Cost** 10 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d6/1d4 (small), 1d8/1d6 (medium); **Critical** &times;3/&times;2; **Range** -; **Type** B or P; **Special** brace, double  ",
 			"**Category** Two-Handed; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Double; Spears"
+			"**[Weapon Group](class/ability/weapongroups)** Double; Spears"
 		],
 		"display": "equipweap"
 	},
@@ -4540,7 +4540,7 @@
 			"**Cost** 2 gp **Weight** 1 lb.  ",
 			"**Damage** 1 (small), 1d2 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -4571,7 +4571,7 @@
 			"**Cost** 0.5 gp **Weight** 0.5 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -4605,7 +4605,7 @@
 			"**Cost** 50 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** 120 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Crossbows"
+			"**[Weapon Group](class/ability/weapongroups)** Crossbows"
 		],
 		"display": "equipweap"
 	},
@@ -4637,7 +4637,7 @@
 			"**Cost** 1 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 30 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Spears; Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Spears; Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -4671,7 +4671,7 @@
 			"**Cost** 35 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** 80 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Crossbows"
+			"**[Weapon Group](class/ability/weapongroups)** Crossbows"
 		],
 		"display": "equipweap"
 	},
@@ -4704,7 +4704,7 @@
 			"**Cost** - **Weight** -  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** B; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -4793,7 +4793,7 @@
 			"**Cost** 100 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** 120 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Crossbows"
+			"**[Weapon Group](class/ability/weapongroups)** Crossbows"
 		],
 		"display": "equipweap"
 	},
@@ -4825,7 +4825,7 @@
 			"**Cost** 70 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** 80 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Simple  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Crossbows"
+			"**[Weapon Group](class/ability/weapongroups)** Crossbows"
 		],
 		"display": "equipweap"
 	},
@@ -4883,7 +4883,7 @@
 			"**Cost** 6 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Axes"
+			"**[Weapon Group](class/ability/weapongroups)** Axes"
 		],
 		"display": "equipweap"
 	},
@@ -4914,7 +4914,7 @@
 			"**Cost** 20 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** monk  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light; Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light; Monk"
 		],
 		"display": "equipweap"
 	},
@@ -4946,7 +4946,7 @@
 			"**Cost** 1 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm, nonlethal  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Flails"
+			"**[Weapon Group](class/ability/weapongroups)** Flails"
 		],
 		"display": "equipweap"
 	},
@@ -4984,7 +4984,7 @@
 			"**Cost** 8 gp **Weight** 1 lb.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** fragile  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light"
 		],
 		"display": "equipweap"
 	},
@@ -5015,7 +5015,7 @@
 			"**Cost** 12 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 10 ft.; **Type** P or S; **Special** see text  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light; Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light; Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -5048,7 +5048,7 @@
 			"**Cost** 15 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P or S; **Special** performance  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light"
 		],
 		"display": "equipweap"
 	},
@@ -5077,7 +5077,7 @@
 			"**Cost** 6 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Axes; Tribal"
+			"**[Weapon Group](class/ability/weapongroups)** Axes; Tribal"
 		],
 		"display": "equipweap"
 	},
@@ -5107,7 +5107,7 @@
 			"**Cost** 2 gp **Weight** -  ",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close"
+			"**[Weapon Group](class/ability/weapongroups)** Close"
 		],
 		"display": "equipweap"
 	},
@@ -5137,7 +5137,7 @@
 			"**Cost** 8 gp **Weight** 1 lb.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, monk  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Monk"
 		],
 		"display": "equipweap"
 	},
@@ -5168,7 +5168,7 @@
 			"**Cost** 6 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;4; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close"
+			"**[Weapon Group](class/ability/weapongroups)** Close"
 		],
 		"display": "equipweap"
 	},
@@ -5200,7 +5200,7 @@
 			"**Cost** 2 gp **Weight** -  ",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light"
 		],
 		"display": "equipweap"
 	},
@@ -5230,7 +5230,7 @@
 			"**Cost** 8 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light"
 		],
 		"display": "equipweap"
 	},
@@ -5260,7 +5260,7 @@
 			"**Cost** 1 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Hammers; Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Hammers; Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -5289,7 +5289,7 @@
 			"**Cost** 4 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;4; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Axes"
+			"**[Weapon Group](class/ability/weapongroups)** Axes"
 		],
 		"display": "equipweap"
 	},
@@ -5348,7 +5348,7 @@
 			"**Cost** 10 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light"
 		],
 		"display": "equipweap"
 	},
@@ -5378,7 +5378,7 @@
 			"**Cost** 1 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** nonlethal  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close"
+			"**[Weapon Group](class/ability/weapongroups)** Close"
 		],
 		"display": "equipweap"
 	},
@@ -5438,7 +5438,7 @@
 			"**Cost** 6 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm or trip, monk  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Monk"
 		],
 		"display": "equipweap"
 	},
@@ -5468,7 +5468,7 @@
 			"**Cost** 10 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light"
 		],
 		"display": "equipweap"
 	},
@@ -5502,7 +5502,7 @@
 			"**Cost** 24 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light; Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light; Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -5588,7 +5588,7 @@
 			"**Cost** 8 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Axes; Thrown; Tribal"
+			"**[Weapon Group](class/ability/weapongroups)** Axes; Thrown; Tribal"
 		],
 		"display": "equipweap"
 	},
@@ -5618,7 +5618,7 @@
 			"**Cost** 1 gp **Weight** 1 lb.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** blocking, monk  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close; Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Close; Monk"
 		],
 		"display": "equipweap"
 	},
@@ -5651,7 +5651,7 @@
 			"**Cost** 8 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light"
 		],
 		"display": "equipweap"
 	},
@@ -5682,7 +5682,7 @@
 			"**Cost** 0.2 gp **Weight** -  ",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** monk  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close; Monk; Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Close; Monk; Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -5709,7 +5709,7 @@
 			"**Cost** 8 gp **Weight** 5 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** disarm, trip  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy"
 		],
 		"display": "equipweap"
 	},
@@ -5738,7 +5738,7 @@
 			"**Cost** 10 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Axes"
+			"**[Weapon Group](class/ability/weapongroups)** Axes"
 		],
 		"display": "equipweap"
 	},
@@ -5826,7 +5826,7 @@
 			"**Cost** 15 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy"
 		],
 		"display": "equipweap"
 	},
@@ -5857,7 +5857,7 @@
 			"**Cost** 12 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** disarm, monk  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy; Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy; Monk"
 		],
 		"display": "equipweap"
 	},
@@ -5883,7 +5883,7 @@
 			"**Cost** 15 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Axes"
+			"**[Weapon Group](class/ability/weapongroups)** Axes"
 		],
 		"display": "equipweap"
 	},
@@ -5912,7 +5912,7 @@
 			"**Cost** 8 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;4; **Range** -; **Type** P; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Axes"
+			"**[Weapon Group](class/ability/weapongroups)** Axes"
 		],
 		"display": "equipweap"
 	},
@@ -5942,7 +5942,7 @@
 			"**Cost** 8 gp **Weight** 5 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, trip  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Flails"
+			"**[Weapon Group](class/ability/weapongroups)** Flails"
 		],
 		"display": "equipweap"
 	},
@@ -5972,7 +5972,7 @@
 			"**Cost** 15 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy"
 		],
 		"display": "equipweap"
 	},
@@ -6001,7 +6001,7 @@
 			"**Cost** 17 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** P or S; **Special** blocking, disarm  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light"
 		],
 		"display": "equipweap"
 	},
@@ -6032,7 +6032,7 @@
 			"**Cost** 15 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** monk  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy; Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy; Monk"
 		],
 		"display": "equipweap"
 	},
@@ -6065,7 +6065,7 @@
 			"**Cost** 20 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light"
 		],
 		"display": "equipweap"
 	},
@@ -6095,7 +6095,7 @@
 			"**Cost** 15 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy"
 		],
 		"display": "equipweap"
 	},
@@ -6126,7 +6126,7 @@
 			"**Cost** 20 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** performance  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light; Close"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light; Close"
 		],
 		"display": "equipweap"
 	},
@@ -6160,7 +6160,7 @@
 			"**Cost** 2 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** P or S; **Special** grapple  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Spears; Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Spears; Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -6189,7 +6189,7 @@
 			"**Cost** 45 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light"
 		],
 		"display": "equipweap"
 	},
@@ -6220,7 +6220,7 @@
 			"**Cost** 5 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** fragile  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy"
 		],
 		"display": "equipweap"
 	},
@@ -6281,7 +6281,7 @@
 			"**Cost** 15 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** P; **Special** brace  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Spears; Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Spears; Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -6310,7 +6310,7 @@
 			"**Cost** 12 gp **Weight** 5 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** B; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Hammers"
+			"**[Weapon Group](class/ability/weapongroups)** Hammers"
 		],
 		"display": "equipweap"
 	},
@@ -6342,7 +6342,7 @@
 			"**Cost** 13 gp **Weight** 14 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** brace, reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Axes; Polearms"
+			"**[Weapon Group](class/ability/weapongroups)** Axes; Polearms"
 		],
 		"display": "equipweap"
 	},
@@ -6375,7 +6375,7 @@
 			"**Cost** 15 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** B or P; **Special** brace, reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Polearms"
+			"**[Weapon Group](class/ability/weapongroups)** Polearms"
 		],
 		"display": "equipweap"
 	},
@@ -6406,7 +6406,7 @@
 			"**Cost** 11 gp **Weight** 11 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** brace, disarm, reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Polearms"
+			"**[Weapon Group](class/ability/weapongroups)** Polearms"
 		],
 		"display": "equipweap"
 	},
@@ -6440,7 +6440,7 @@
 			"**Cost** 40 gp **Weight** 14 lbs.  ",
 			"**Damage** 1d10 (small), 2d6 (medium); **Critical** &times;3; **Range** -; **Type** B; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Hammers"
+			"**[Weapon Group](class/ability/weapongroups)** Hammers"
 		],
 		"display": "equipweap"
 	},
@@ -6470,7 +6470,7 @@
 			"**Cost** 75 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy"
 		],
 		"display": "equipweap"
 	},
@@ -6500,7 +6500,7 @@
 			"**Cost** 8 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** reach  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Polearms"
+			"**[Weapon Group](class/ability/weapongroups)** Polearms"
 		],
 		"display": "equipweap"
 	},
@@ -6532,7 +6532,7 @@
 			"**Cost** 12 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** brace, reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Polearms"
+			"**[Weapon Group](class/ability/weapongroups)** Polearms"
 		],
 		"display": "equipweap"
 	},
@@ -6564,7 +6564,7 @@
 			"**Cost** 20 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Axes"
+			"**[Weapon Group](class/ability/weapongroups)** Axes"
 		],
 		"display": "equipweap"
 	},
@@ -6593,7 +6593,7 @@
 			"**Cost** 5 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Hammers; Tribal"
+			"**[Weapon Group](class/ability/weapongroups)** Hammers; Tribal"
 		],
 		"display": "equipweap"
 	},
@@ -6623,7 +6623,7 @@
 			"**Cost** 50 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d10 (small), 2d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy"
 		],
 		"display": "equipweap"
 	},
@@ -6653,7 +6653,7 @@
 			"**Cost** 9 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Polearms"
+			"**[Weapon Group](class/ability/weapongroups)** Polearms"
 		],
 		"display": "equipweap"
 	},
@@ -6685,7 +6685,7 @@
 			"**Cost** 10 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** brace, trip  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Polearms"
+			"**[Weapon Group](class/ability/weapongroups)** Polearms"
 		],
 		"display": "equipweap"
 	},
@@ -6716,7 +6716,7 @@
 			"**Cost** 15 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** B; **Special** disarm, trip  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Flails"
+			"**[Weapon Group](class/ability/weapongroups)** Flails"
 		],
 		"display": "equipweap"
 	},
@@ -6746,7 +6746,7 @@
 			"**Cost** 3 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** -; **Type** P; **Special** reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Polearms"
+			"**[Weapon Group](class/ability/weapongroups)** Polearms"
 		],
 		"display": "equipweap"
 	},
@@ -6781,7 +6781,7 @@
 			"**Cost** 10 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Polearms"
+			"**[Weapon Group](class/ability/weapongroups)** Polearms"
 		],
 		"display": "equipweap"
 	},
@@ -6811,7 +6811,7 @@
 			"**Cost** 10 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** reach  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Spears"
+			"**[Weapon Group](class/ability/weapongroups)** Spears"
 		],
 		"display": "equipweap"
 	},
@@ -6844,7 +6844,7 @@
 			"**Cost** 15 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;2; **Range** -; **Type** B or P; **Special** brace, reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Polearms"
+			"**[Weapon Group](class/ability/weapongroups)** Polearms"
 		],
 		"display": "equipweap"
 	},
@@ -6871,7 +6871,7 @@
 			"**Cost** 12 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;4; **Range** -; **Type** P; **Special** fragile  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Axes"
+			"**[Weapon Group](class/ability/weapongroups)** Axes"
 		],
 		"display": "equipweap"
 	},
@@ -6904,7 +6904,7 @@
 			"**Cost** 20 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** B or P or S; **Special** double, monk  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Double; Monk; Polearms"
+			"**[Weapon Group](class/ability/weapongroups)** Double; Monk; Polearms"
 		],
 		"display": "equipweap"
 	},
@@ -6934,7 +6934,7 @@
 			"**Cost** 35 gp **Weight** 9 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;4; **Range** -; **Type** S; **Special** reach  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Polearms"
+			"**[Weapon Group](class/ability/weapongroups)** Polearms"
 		],
 		"display": "equipweap"
 	},
@@ -6967,7 +6967,7 @@
 			"**Cost** 60 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S or P; **Special** brace  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy; Polearms"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy; Polearms"
 		],
 		"display": "equipweap"
 	},
@@ -7000,7 +7000,7 @@
 			"**Cost** 24 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** trip  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Polearms"
+			"**[Weapon Group](class/ability/weapongroups)** Polearms"
 		],
 		"display": "equipweap"
 	},
@@ -7029,7 +7029,7 @@
 			"**Cost** 10 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;2; **Range** -; **Type** B or P; **Special** brace  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Hammers; Spears"
+			"**[Weapon Group](class/ability/weapongroups)** Hammers; Spears"
 		],
 		"display": "equipweap"
 	},
@@ -7059,7 +7059,7 @@
 			"**Cost** 10 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** disarm, reach  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Polearms"
+			"**[Weapon Group](class/ability/weapongroups)** Polearms"
 		],
 		"display": "equipweap"
 	},
@@ -7118,7 +7118,7 @@
 			"**Cost** 8 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** B; **Special** blocking, disarm, monk  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Flails; Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Flails; Monk"
 		],
 		"display": "equipweap"
 	},
@@ -7176,7 +7176,7 @@
 			"**Cost** 18 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;4; **Range** -; **Type** P or S; **Special** trip  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy"
 		],
 		"display": "equipweap"
 	},
@@ -7262,7 +7262,7 @@
 			"**Cost** 5 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** brace, monk  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Monk; Polearms; Spears"
+			"**[Weapon Group](class/ability/weapongroups)** Monk; Polearms; Spears"
 		],
 		"display": "equipweap"
 	},
@@ -7293,7 +7293,7 @@
 			"**Cost** 12 gp **Weight** 14 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** reach  ",
 			"**Category** Two-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Monk"
 		],
 		"display": "equipweap"
 	},
@@ -7328,7 +7328,7 @@
 			"**Cost** - **Weight** 1 lb.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** P; **Special** performance  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Spears; Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Spears; Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -7358,7 +7358,7 @@
 			"**Cost** 2 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -7390,7 +7390,7 @@
 			"**Cost** 1 gp **Weight** 1 lb.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** 30 ft.; **Type** S; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy; Blades, Light; Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy; Blades, Light; Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -7423,7 +7423,7 @@
 			"**Cost** 100 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 110 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Bows"
+			"**[Weapon Group](class/ability/weapongroups)** Bows"
 		],
 		"display": "equipweap"
 	},
@@ -7456,7 +7456,7 @@
 			"**Cost** 75 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 70 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Bows"
+			"**[Weapon Group](class/ability/weapongroups)** Bows"
 		],
 		"display": "equipweap"
 	},
@@ -7514,7 +7514,7 @@
 			"**Cost** 4 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 15 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light; Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light; Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -7600,7 +7600,7 @@
 			"**Cost** 75 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 100 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Bows"
+			"**[Weapon Group](class/ability/weapongroups)** Bows"
 		],
 		"display": "equipweap"
 	},
@@ -7659,7 +7659,7 @@
 			"**Cost** 5 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Spears; Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Spears; Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -7688,7 +7688,7 @@
 			"**Cost** 1 gp **Weight** 1 lb.  ",
 			"**Damage** special (small), special (medium); **Critical** -; **Range** -; **Type** -; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -7746,7 +7746,7 @@
 			"**Cost** 30 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** 60 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Bows"
+			"**[Weapon Group](class/ability/weapongroups)** Bows"
 		],
 		"display": "equipweap"
 	},
@@ -7836,7 +7836,7 @@
 			"**Cost** 3 gp **Weight** 0.5 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 40 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Crossbows"
+			"**[Weapon Group](class/ability/weapongroups)** Crossbows"
 		],
 		"display": "equipweap"
 	},
@@ -7869,7 +7869,7 @@
 			"**Cost** 5 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B; **Special** performance, trip  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Hammers; Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Hammers; Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -7897,7 +7897,7 @@
 			"**Cost** 16 gp **Weight** 5 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** blocking, disarm  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Axes; Close"
+			"**[Weapon Group](class/ability/weapongroups)** Axes; Close"
 		],
 		"display": "equipweap"
 	},
@@ -7928,7 +7928,7 @@
 			"**Cost** 21 gp **Weight** 5 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** blocking, disarm  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Axes; Close"
+			"**[Weapon Group](class/ability/weapongroups)** Axes; Close"
 		],
 		"display": "equipweap"
 	},
@@ -7987,7 +7987,7 @@
 			"**Cost** 5 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 fire (small), 1d4 fire (medium); **Critical** &times;2; **Range** -; **Type** fire; **Special** -  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Flails"
+			"**[Weapon Group](class/ability/weapongroups)** Flails"
 		],
 		"display": "equipweap"
 	},
@@ -8016,7 +8016,7 @@
 			"**Cost** 5 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P or S; **Special** -  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light"
 		],
 		"display": "equipweap"
 	},
@@ -8048,7 +8048,7 @@
 			"**Cost** 0.1 gp **Weight** -  ",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** 19-20/&times;2; **Range** 10 ft.; **Type** B; **Special** blocking, monk, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close; Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Close; Monk"
 		],
 		"display": "equipweap"
 	},
@@ -8076,7 +8076,7 @@
 			"**Cost** 10 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** P; **Special** blocking, monk  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light; Monk; Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light; Monk; Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -8167,7 +8167,7 @@
 			"**Cost** 3 gp **Weight** -  ",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P; **Special** see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close; Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Close; Monk"
 		],
 		"display": "equipweap"
 	},
@@ -8197,7 +8197,7 @@
 			"**Cost** 5 gp **Weight** -  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** distracting, monk  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close; Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Close; Monk"
 		],
 		"display": "equipweap"
 	},
@@ -8226,7 +8226,7 @@
 			"**Cost** 15 gp **Weight** 5 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** P or S; **Special** disarm, reach, trip, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Flails"
+			"**[Weapon Group](class/ability/weapongroups)** Flails"
 		],
 		"display": "equipweap"
 	},
@@ -8253,7 +8253,7 @@
 			"**Cost** 10 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Flails"
+			"**[Weapon Group](class/ability/weapongroups)** Flails"
 		],
 		"display": "equipweap"
 	},
@@ -8281,7 +8281,7 @@
 			"**Cost** 1 gp **Weight** 1 lb.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Flails"
+			"**[Weapon Group](class/ability/weapongroups)** Flails"
 		],
 		"display": "equipweap"
 	},
@@ -8344,7 +8344,7 @@
 			"**Cost** 2 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** monk, trip  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light; Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light; Monk"
 		],
 		"display": "equipweap"
 	},
@@ -8402,7 +8402,7 @@
 			"**Cost** 9 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** monk, performance  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Axes"
+			"**[Weapon Group](class/ability/weapongroups)** Axes"
 		],
 		"display": "equipweap"
 	},
@@ -8432,7 +8432,7 @@
 			"**Cost** 2 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, monk  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Flails; Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Flails; Monk"
 		],
 		"display": "equipweap"
 	},
@@ -8465,7 +8465,7 @@
 			"**Cost** 14 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** performance  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Axes; Blades, Light"
+			"**[Weapon Group](class/ability/weapongroups)** Axes; Blades, Light"
 		],
 		"display": "equipweap"
 	},
@@ -8496,7 +8496,7 @@
 			"**Cost** 8 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P; **Special** performance  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light"
 		],
 		"display": "equipweap"
 	},
@@ -8525,7 +8525,7 @@
 			"**Cost** 25 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light"
 		],
 		"display": "equipweap"
 	},
@@ -8559,7 +8559,7 @@
 			"**Cost** 0.2 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B (or S); **Special** -  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close"
+			"**[Weapon Group](class/ability/weapongroups)** Close"
 		],
 		"display": "equipweap"
 	},
@@ -8589,7 +8589,7 @@
 			"**Cost** 1 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, monk  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Monk"
 		],
 		"display": "equipweap"
 	},
@@ -8619,7 +8619,7 @@
 			"**Cost** 60 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P or S; **Special** monk, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light; Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light; Monk"
 		],
 		"display": "equipweap"
 	},
@@ -8651,7 +8651,7 @@
 			"**Cost** 5 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** performance  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Flails"
+			"**[Weapon Group](class/ability/weapongroups)** Flails"
 		],
 		"display": "equipweap"
 	},
@@ -8681,7 +8681,7 @@
 			"**Cost** 3 gp **Weight** 1 lb.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** monk  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Monk"
 		],
 		"display": "equipweap"
 	},
@@ -8712,7 +8712,7 @@
 			"**Cost** 10 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** performance  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light"
 		],
 		"display": "equipweap"
 	},
@@ -8743,7 +8743,7 @@
 			"**Cost** 10 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light"
 		],
 		"display": "equipweap"
 	},
@@ -8774,7 +8774,7 @@
 			"**Cost** 2 gp **Weight** -  ",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** disarm, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close"
+			"**[Weapon Group](class/ability/weapongroups)** Close"
 		],
 		"display": "equipweap"
 	},
@@ -8810,7 +8810,7 @@
 			"**Cost** 35 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P or S; **Special** deadly  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light"
 		],
 		"display": "equipweap"
 	},
@@ -8840,7 +8840,7 @@
 			"**Cost** 5 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P or S; **Special** monk, see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close"
+			"**[Weapon Group](class/ability/weapongroups)** Close"
 		],
 		"display": "equipweap"
 	},
@@ -8872,7 +8872,7 @@
 			"**Cost** 20 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy"
 		],
 		"display": "equipweap"
 	},
@@ -8902,7 +8902,7 @@
 			"**Cost** 35 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy"
 		],
 		"display": "equipweap"
 	},
@@ -8933,7 +8933,7 @@
 			"**Cost** 40 gp **Weight** 4 lbs  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** P & S; **Special** See text  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light"
 		],
 		"display": "equipweap"
 	},
@@ -9018,7 +9018,7 @@
 			"**Cost** 30 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Axes"
+			"**[Weapon Group](class/ability/weapongroups)** Axes"
 		],
 		"display": "equipweap"
 	},
@@ -9074,7 +9074,7 @@
 			"**Cost** 50 gp **Weight** 4 lbs.  ",
 			"**Damage** 2d3 (small), 2d4 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy"
 		],
 		"display": "equipweap"
 	},
@@ -9106,7 +9106,7 @@
 			"**Cost** 18 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;3; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy"
 		],
 		"display": "equipweap"
 	},
@@ -9193,7 +9193,7 @@
 			"**Cost** 12 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** fragile  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy"
 		],
 		"display": "equipweap"
 	},
@@ -9223,7 +9223,7 @@
 			"**Cost** 20 gp **Weight** 7 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** disarm, performance, trip  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Axes"
+			"**[Weapon Group](class/ability/weapongroups)** Axes"
 		],
 		"display": "equipweap"
 	},
@@ -9254,7 +9254,7 @@
 			"**Cost** 50 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** deadly  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy"
 		],
 		"display": "equipweap"
 	},
@@ -9287,7 +9287,7 @@
 			"**Cost** 20 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** trip  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy"
 		],
 		"display": "equipweap"
 	},
@@ -9346,7 +9346,7 @@
 			"**Cost** 8 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** B; **Special** blocking, distracting, monk, trip  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Flails; Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Flails; Monk"
 		],
 		"display": "equipweap"
 	},
@@ -9377,7 +9377,7 @@
 			"**Cost** 25 gp **Weight** 5 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** B; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Hammers; Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Hammers; Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -9411,7 +9411,7 @@
 			"**Cost** 25 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy"
 		],
 		"display": "equipweap"
 	},
@@ -9446,7 +9446,7 @@
 			"**Cost** 35 gp **Weight** 2 lb.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy; Blades, Light"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy; Blades, Light"
 		],
 		"display": "equipweap"
 	},
@@ -9477,7 +9477,7 @@
 			"**Cost** 30 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** performance  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy"
 		],
 		"display": "equipweap"
 	},
@@ -9506,7 +9506,7 @@
 			"**Cost** 20 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** distracting, see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy"
 		],
 		"display": "equipweap"
 	},
@@ -9537,7 +9537,7 @@
 			"**Cost** 80 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** P; **Special** blocking, disarm, see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light"
 		],
 		"display": "equipweap"
 	},
@@ -9565,7 +9565,7 @@
 			"**Cost** 200 gp **Weight** 8 lbs  ",
 			"**Damage** 1d10 (small), 2d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** Disarm, trip, see text  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy"
 		],
 		"display": "equipweap"
 	},
@@ -9597,7 +9597,7 @@
 			"**Cost** 10 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d8/1d4 (small), 1d10/1d6 (medium); **Critical** &times;2/&times;3; **Range** -; **Type** B or P; **Special** double  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Double; Hammers"
+			"**[Weapon Group](class/ability/weapongroups)** Double; Hammers"
 		],
 		"display": "equipweap"
 	},
@@ -9631,7 +9631,7 @@
 			"**Cost** 30 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** monk, trip  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy; Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy; Monk"
 		],
 		"display": "equipweap"
 	},
@@ -9658,7 +9658,7 @@
 			"**Cost** 18 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;3; **Range** -; **Type** P; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Axes"
+			"**[Weapon Group](class/ability/weapongroups)** Axes"
 		],
 		"display": "equipweap"
 	},
@@ -9693,7 +9693,7 @@
 			"**Cost** 30 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** distracting  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Flails; Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Flails; Monk"
 		],
 		"display": "equipweap"
 	},
@@ -9721,7 +9721,7 @@
 			"**Cost** 3 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B; **Special** disarm  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Hammers"
+			"**[Weapon Group](class/ability/weapongroups)** Hammers"
 		],
 		"display": "equipweap"
 	},
@@ -9755,7 +9755,7 @@
 			"**Cost** 1 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm, nonlethal, reach, trip  ",
 			"**Category** One-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Flails"
+			"**[Weapon Group](class/ability/weapongroups)** Flails"
 		],
 		"display": "equipweap"
 	},
@@ -9812,7 +9812,7 @@
 			"**Cost** 20 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** double, trip, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Double"
+			"**[Weapon Group](class/ability/weapongroups)** Double"
 		],
 		"display": "equipweap"
 	},
@@ -9849,7 +9849,7 @@
 			"**Cost** 12 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** disarm, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Flails"
+			"**[Weapon Group](class/ability/weapongroups)** Flails"
 		],
 		"display": "equipweap"
 	},
@@ -9879,7 +9879,7 @@
 			"**Cost** 1 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** blocking, double, monk  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Double; Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Double; Monk"
 		],
 		"display": "equipweap"
 	},
@@ -9911,7 +9911,7 @@
 			"**Cost** 8 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** P or S; **Special** double, reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Double; Polearms"
+			"**[Weapon Group](class/ability/weapongroups)** Double; Polearms"
 		],
 		"display": "equipweap"
 	},
@@ -9938,7 +9938,7 @@
 			"**Cost** 65 gp **Weight** 25 lbs.  ",
 			"**Damage** 1d12 (small), 3d6 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Axes"
+			"**[Weapon Group](class/ability/weapongroups)** Axes"
 		],
 		"display": "equipweap"
 	},
@@ -9974,7 +9974,7 @@
 			"**Cost** 15 gp **Weight** 13 lbs.  ",
 			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** P and S; **Special** double, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Double; Flails; Spears"
+			"**[Weapon Group](class/ability/weapongroups)** Double; Flails; Spears"
 		],
 		"display": "equipweap"
 	},
@@ -10003,7 +10003,7 @@
 			"**Cost** 34 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** B; **Special** double, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Double; Hammers; Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Double; Hammers; Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -10033,7 +10033,7 @@
 			"**Cost** 1 gp **Weight** 5 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Polearms"
+			"**[Weapon Group](class/ability/weapongroups)** Polearms"
 		],
 		"display": "equipweap"
 	},
@@ -10063,7 +10063,7 @@
 			"**Cost** 90 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** disarm, double, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Double; Flails"
+			"**[Weapon Group](class/ability/weapongroups)** Double; Flails"
 		],
 		"display": "equipweap"
 	},
@@ -10094,7 +10094,7 @@
 			"**Cost** 50 gp **Weight** 15 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Flails"
+			"**[Weapon Group](class/ability/weapongroups)** Flails"
 		],
 		"display": "equipweap"
 	},
@@ -10124,7 +10124,7 @@
 			"**Cost** 25 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** Double  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Spears"
+			"**[Weapon Group](class/ability/weapongroups)** Spears"
 		],
 		"display": "equipweap"
 	},
@@ -10155,7 +10155,7 @@
 			"**Cost** 8 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** double, monk, reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Double"
+			"**[Weapon Group](class/ability/weapongroups)** Double"
 		],
 		"display": "equipweap"
 	},
@@ -10190,7 +10190,7 @@
 			"**Cost** 50 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d6/1d4 (small), 1d8/1d6 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** brace, double  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Double"
+			"**[Weapon Group](class/ability/weapongroups)** Double"
 		],
 		"display": "equipweap"
 	},
@@ -10217,7 +10217,7 @@
 			"**Cost** 20 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** -; **Type** P; **Special** brace, reach  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Spears"
+			"**[Weapon Group](class/ability/weapongroups)** Spears"
 		],
 		"display": "equipweap"
 	},
@@ -10250,7 +10250,7 @@
 			"**Cost** 80 gp **Weight** 7 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy"
 		],
 		"display": "equipweap"
 	},
@@ -10281,7 +10281,7 @@
 			"**Cost** 14 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 18-20/&times;2; **Range** -; **Type** S; **Special** reach,trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Polearms"
+			"**[Weapon Group](class/ability/weapongroups)** Polearms"
 		],
 		"display": "equipweap"
 	},
@@ -10335,7 +10335,7 @@
 			"**Cost** 50 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** sunder  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy"
 		],
 		"display": "equipweap"
 	},
@@ -10392,7 +10392,7 @@
 			"**Cost** 40 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d10 (small), 1d12 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** performance, reach  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Flails"
+			"**[Weapon Group](class/ability/weapongroups)** Flails"
 		],
 		"display": "equipweap"
 	},
@@ -10450,7 +10450,7 @@
 			"**Cost** 25 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d8 (small), 2d6 (medium); **Critical** &times;3; **Range** -; **Type** P or S; **Special** brace, reach  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Polearms"
+			"**[Weapon Group](class/ability/weapongroups)** Polearms"
 		],
 		"display": "equipweap"
 	},
@@ -10485,7 +10485,7 @@
 			"**Cost** 20 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d6/1d4 (small), 1d8/1d6 (medium); **Critical** &times;3/&times;4; **Range** -; **Type** B or P; **Special** double, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Double"
+			"**[Weapon Group](class/ability/weapongroups)** Double"
 		],
 		"display": "equipweap"
 	},
@@ -10517,7 +10517,7 @@
 			"**Cost** 5 gp **Weight** 16 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 10 ft.; **Type** P; **Special** grapple, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Spears; Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Spears; Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -10576,7 +10576,7 @@
 			"**Cost** 50 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Double"
+			"**[Weapon Group](class/ability/weapongroups)** Double"
 		],
 		"display": "equipweap"
 	},
@@ -10611,7 +10611,7 @@
 			"**Cost** 12 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d2/1d4 (small), 1d3/1d6 (medium); **Critical** &times;2; **Range** -; **Type** S or B; **Special** double, grapple, monk, reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Double; Flails; Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Double; Flails; Monk"
 		],
 		"display": "equipweap"
 	},
@@ -10644,7 +10644,7 @@
 			"**Cost** 6 gp **Weight** 1 lb.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** S or P; **Special** disarm, grapple, monk, reach  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Flails; Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Flails; Monk"
 		],
 		"display": "equipweap"
 	},
@@ -10734,7 +10734,7 @@
 			"**Cost** 15 gp **Weight** 10 lbs.  ",
 			"**Damage** 1 (small), 1d2 (medium); **Critical** -; **Range** -; **Type** P; **Special** reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Polearms"
+			"**[Weapon Group](class/ability/weapongroups)** Polearms"
 		],
 		"display": "equipweap"
 	},
@@ -10766,7 +10766,7 @@
 			"**Cost** 10 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** reach, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Flails"
+			"**[Weapon Group](class/ability/weapongroups)** Flails"
 		],
 		"display": "equipweap"
 	},
@@ -10796,7 +10796,7 @@
 			"**Cost** 60 gp **Weight** 15 lbs.  ",
 			"**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** double  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Axes; Double"
+			"**[Weapon Group](class/ability/weapongroups)** Axes; Double"
 		],
 		"display": "equipweap"
 	},
@@ -10823,7 +10823,7 @@
 			"**Cost** 15 gp **Weight** 20 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** B; **Special** reach  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Spears"
+			"**[Weapon Group](class/ability/weapongroups)** Spears"
 		],
 		"display": "equipweap"
 	},
@@ -10854,7 +10854,7 @@
 			"**Cost** 70 gp **Weight** 15 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Hammers"
+			"**[Weapon Group](class/ability/weapongroups)** Hammers"
 		],
 		"display": "equipweap"
 	},
@@ -10888,7 +10888,7 @@
 			"**Cost** 30 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** reach, see text  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Polearms"
+			"**[Weapon Group](class/ability/weapongroups)** Polearms"
 		],
 		"display": "equipweap"
 	},
@@ -10922,7 +10922,7 @@
 			"**Cost** 50 gp **Weight** 7 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** -; **Type** S; **Special** disarm, monk  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy; Monk"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy; Monk"
 		],
 		"display": "equipweap"
 	},
@@ -10953,7 +10953,7 @@
 			"**Cost** 45 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;3; **Range** 20 ft.; **Type** B; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Hammers; Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Hammers; Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -10986,7 +10986,7 @@
 			"**Cost** 25 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** disarm, trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Flails"
+			"**[Weapon Group](class/ability/weapongroups)** Flails"
 		],
 		"display": "equipweap"
 	},
@@ -11015,7 +11015,7 @@
 			"**Cost** 18 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6 (small), 2d4 (medium); **Critical** &times;4; **Range** -; **Type** P or S; **Special** trip  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy"
 		],
 		"display": "equipweap"
 	},
@@ -11044,7 +11044,7 @@
 			"**Cost** 20 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** &times;4; **Range** -; **Type** B; **Special** -  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Hammers"
+			"**[Weapon Group](class/ability/weapongroups)** Hammers"
 		],
 		"display": "equipweap"
 	},
@@ -11107,7 +11107,7 @@
 			"**Cost** 100 gp **Weight** 10 lbs.  ",
 			"**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** 19-20/&times;2; **Range** -; **Type** S; **Special** double  ",
 			"**Category** Two-Handed; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy; Double"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy; Double"
 		],
 		"display": "equipweap"
 	},
@@ -11142,7 +11142,7 @@
 			"**Cost** 5 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B; **Special** nonlethal, trip  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -11175,7 +11175,7 @@
 			"**Cost** 3 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 30 ft.; **Type** B; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -11264,7 +11264,7 @@
 			"**Cost** 300 gp **Weight** 18 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** 80 ft.; **Type** P; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Crossbows"
+			"**[Weapon Group](class/ability/weapongroups)** Crossbows"
 		],
 		"display": "equipweap"
 	},
@@ -11291,7 +11291,7 @@
 			"**Cost** 25 gp **Weight** 4 lbs.  ",
 			"**Damage** - (small), - (medium); **Critical** -; **Range** 20 ft.; **Type** -; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -11391,7 +11391,7 @@
 			"**Cost** 20 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 80 ft.; **Type** B; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -11451,7 +11451,7 @@
 			"**Cost** 100 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 30 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Crossbows"
+			"**[Weapon Group](class/ability/weapongroups)** Crossbows"
 		],
 		"display": "equipweap"
 	},
@@ -11561,7 +11561,7 @@
 			"**Cost** 130 gp **Weight** 7 lbs.  ",
 			"**Damage** 1d8 (small), 2d6 (medium); **Critical** &times;3; **Range** 80 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Bows"
+			"**[Weapon Group](class/ability/weapongroups)** Bows"
 		],
 		"display": "equipweap"
 	},
@@ -11620,7 +11620,7 @@
 			"**Cost** 1 gp **Weight** 1 lb.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** &times;3; **Range** 50 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -11648,7 +11648,7 @@
 			"**Cost** 0.1 gp **Weight** 5 lbs.  ",
 			"**Damage** - (small), - (medium); **Critical** -; **Range** -; **Type** -; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -11671,7 +11671,7 @@
 			"**Cost** 75 gp **Weight** 8 lbs.  ",
 			"**Damage** - (small), - (medium); **Critical** -; **Range** 30 ft.; **Type** -; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Crossbows"
+			"**[Weapon Group](class/ability/weapongroups)** Crossbows"
 		],
 		"display": "equipweap"
 	},
@@ -11758,7 +11758,7 @@
 			"**Cost** 20 gp **Weight** 6 lbs.  ",
 			"**Damage** - (small), - (medium); **Critical** -; **Range** 10 ft.; **Type** -; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -11789,7 +11789,7 @@
 			"**Cost** 75 gp **Weight** 8 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/&times;3; **Range** 60 ft.; **Type** B; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Crossbows"
+			"**[Weapon Group](class/ability/weapongroups)** Crossbows"
 		],
 		"display": "equipweap"
 	},
@@ -11823,7 +11823,7 @@
 			"**Cost** 50 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;3; **Range** 40 ft.; **Type** B; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Crossbows"
+			"**[Weapon Group](class/ability/weapongroups)** Crossbows"
 		],
 		"display": "equipweap"
 	},
@@ -11857,7 +11857,7 @@
 			"**Cost** 800 gp **Weight** 4 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/&times;2; **Range** 30 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Crossbows"
+			"**[Weapon Group](class/ability/weapongroups)** Crossbows"
 		],
 		"display": "equipweap"
 	},
@@ -11891,7 +11891,7 @@
 			"**Cost** 400 gp **Weight** 12 lbs.  ",
 			"**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/&times;2; **Range** 120 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Crossbows"
+			"**[Weapon Group](class/ability/weapongroups)** Crossbows"
 		],
 		"display": "equipweap"
 	},
@@ -11923,7 +11923,7 @@
 			"**Cost** 250 gp **Weight** 6 lbs.  ",
 			"**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/&times;2; **Range** 80 ft.; **Type** P; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Crossbows"
+			"**[Weapon Group](class/ability/weapongroups)** Crossbows"
 		],
 		"display": "equipweap"
 	},
@@ -11955,7 +11955,7 @@
 			"**Cost** 1 gp **Weight** -  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 20 ft.; **Type** P; **Special** blocking, distracting, monk  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Monk; Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Monk; Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -11991,7 +11991,7 @@
 			"**Cost** 15 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 10 ft.; **Type** B and P; **Special** trip  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -12079,7 +12079,7 @@
 			"**Cost** 5 gp **Weight** 2 lbs.  ",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** 50 ft.; **Type** B; **Special** -  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -12108,7 +12108,7 @@
 			"**Cost** 30 gp **Weight** 10 lbs.  ",
 			"**Damage** - (small), - (medium); **Critical** -; **Range** 10 ft.; **Type** P; **Special** trip, see text  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Thrown"
 		],
 		"display": "equipweap"
 	},
@@ -12136,7 +12136,7 @@
 			"**Cost** 35 gp **Weight** 3 lbs.  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** 30 ft.; **Type** P; **Special** see text  ",
 			"**Category** Ranged; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Spears; Thrown"
+			"**[Weapon Group](class/ability/weapongroups)** Spears; Thrown"
 		],
 		"display": "equipweap"
 	},

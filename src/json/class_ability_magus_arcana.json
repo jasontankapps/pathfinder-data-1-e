@@ -322,7 +322,7 @@
 		"name": "Ranger Trap",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
-			"**Ranger Trap** ([Ranged Tactics Toolbox pg. 13](source/ranged_tactics_toolbox)): The magus learns a [ranger trap](class/ability/traps). The magus must be at least 10th level before selecting this arcana."
+			"**Ranger Trap** ([Ranged Tactics Toolbox pg. 13](source/ranged_tactics_toolbox)): The magus learns a [ranger trap](class/ability/rangertraps). The magus must be at least 10th level before selecting this arcana."
 		]
 	},
 	"reach_magic": {

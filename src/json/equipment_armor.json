@@ -1421,7 +1421,7 @@
 			"",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** S; **Special** see text  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Heavy; Close",
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Heavy; Close",
 			"",
 			"The traditional form of this tribal weapon is a short blade bound to the skull of a large horned lizard, but a skilled smith can craft one entirely out of metal. A traditional klar counts as a light wooden shield with armor spikes; a metal klar counts as a light steel shield with armor spikes."
 		],
@@ -1456,7 +1456,7 @@
 			"",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close; Tribal"
+			"**[Weapon Group](class/ability/weapongroups)** Close; Tribal"
 		],
 		"display": "equiparmor"
 	},
@@ -1489,7 +1489,7 @@
 			"",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close; Tribal"
+			"**[Weapon Group](class/ability/weapongroups)** Close; Tribal"
 		],
 		"display": "equiparmor"
 	},
@@ -1522,7 +1522,7 @@
 			"",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close; Tribal"
+			"**[Weapon Group](class/ability/weapongroups)** Close; Tribal"
 		],
 		"display": "equiparmor"
 	},
@@ -1555,7 +1555,7 @@
 			"",
 			"**Damage** 1d2 (small), 1d3 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
 			"**Category** Light; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close; Tribal"
+			"**[Weapon Group](class/ability/weapongroups)** Close; Tribal"
 		],
 		"display": "equiparmor"
 	},
@@ -1589,7 +1589,7 @@
 			"",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** performance  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light; Close"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light; Close"
 		],
 		"display": "equiparmor"
 	},
@@ -1623,7 +1623,7 @@
 			"",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** P; **Special** performance  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Blades, Light; Close"
+			"**[Weapon Group](class/ability/weapongroups)** Blades, Light; Close"
 		],
 		"display": "equiparmor"
 	},
@@ -1676,7 +1676,7 @@
 			"*Shield bash*  ",
 			"**Damage** 1d4 (small), 1d6 (medium); **Critical** &times;2; **Range** -; **Type** P or S; **Special** see text  ",
 			"**Category** Light; **Proficiency** Exotic  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close"
+			"**[Weapon Group](class/ability/weapongroups)** Close"
 		],
 		"display": "equiparmor"
 	},
@@ -1712,7 +1712,7 @@
 			"",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close; Tribal"
+			"**[Weapon Group](class/ability/weapongroups)** Close; Tribal"
 		],
 		"display": "equiparmor"
 	},
@@ -1745,7 +1745,7 @@
 			"",
 			"**Damage** 1d3 (small), 1d4 (medium); **Critical** &times;2; **Range** -; **Type** B; **Special** -  ",
 			"**Category** One-Handed; **Proficiency** Martial  ",
-			"**[Weapon Group](unknown/classabilities_weapongroups)** Close; Tribal"
+			"**[Weapon Group](class/ability/weapongroups)** Close; Tribal"
 		],
 		"display": "equiparmor"
 	},
