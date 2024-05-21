@@ -4,14 +4,6 @@
 		"name": "Aberrant Companion",
 		"file": "archetypedisplay75e3.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Share Spells; Devotion; Multiattack; Natural Armor Progression",
-		"replace_array": [
-			"Share Spells",
-			"Devotion",
-			"Multiattack",
-			"Natural Armor Progression"
-		],
-		"short_description": "There's something oddly wrong about aberrant companions. Though they're touched by eldritch magic or mutated by strange influences, they are still loyal, if unnatural, allies.",
 		"description": [
 			"## Aberrant Companion",
 			"",
@@ -40,11 +32,6 @@
 		"name": "Accursed Companion",
 		"file": "archetypedisplay34c4.html",
 		"sources": [ "Horror Realms" ],
-		"replaces": "See text",
-		"replace_array": [
-			"See text"
-		],
-		"short_description": "When a character loses an animal companion to a disturbingly gruesome death, the soul of the slain animal companion sometimes remains bound to the character. In such cases, this scarred soul infests the next companion the character takes.",
 		"description": [
 			"## Accursed Companion",
 			"",
@@ -87,15 +74,6 @@
 		"name": "Ambusher",
 		"file": "archetypedisplay3446.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Share Spells; Improved Evasion; Evasion; Devotion; Multiattack",
-		"replace_array": [
-			"Share Spells",
-			"Improved Evasion",
-			"Evasion",
-			"Devotion",
-			"Multiattack"
-		],
-		"short_description": "Ambushers sneak up on unsuspecting prey, pouncing on targets when they least expect it.",
 		"description": [
 			"## Ambusher",
 			"",
@@ -116,15 +94,6 @@
 		"name": "Apex Species",
 		"file": "archetypedisplay582b.html",
 		"sources": [ "Wilderness Origins" ],
-		"replaces": "Share Spells; Evasion; Devotion; Improved Evasion; Multiattack",
-		"replace_array": [
-			"Share Spells",
-			"Evasion",
-			"Devotion",
-			"Improved Evasion",
-			"Multiattack"
-		],
-		"short_description": "Some animals have no serious competitors and no real predators.",
 		"description": [
 			"## Apex Species",
 			"",
@@ -179,12 +148,6 @@
 		"name": "Augmented Companion",
 		"file": "archetypedisplay140f.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Share Spells; Devotion",
-		"replace_array": [
-			"Share Spells",
-			"Devotion"
-		],
-		"short_description": "Augmented companions have suffered an injury, such as the loss of a wing, and parts of their bodies have been replaced by a master construct crafter. This procedure grants them unusual abilities.",
 		"description": [
 			"## Augmented Companion",
 			"",
@@ -209,13 +172,6 @@
 		"name": "Auspice",
 		"file": "archetypedisplay5e60.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Share Spells; Evasion; Improved Evasion",
-		"replace_array": [
-			"Share Spells",
-			"Evasion",
-			"Improved Evasion"
-		],
-		"short_description": "Auspices were born with a birthmark or other feature that seems to be in the shape of their master's deity's holy symbol; they are usually animal sacred to that deity's religion.",
 		"description": [
 			"## Auspice",
 			"",
@@ -241,14 +197,6 @@
 			"Ultimate Wilderness",
 			"Animal Archive"
 		],
-		"replaces": "Share Spells; Evasion; Multiattack; Improved Evasion",
-		"replace_array": [
-			"Share Spells",
-			"Evasion",
-			"Multiattack",
-			"Improved Evasion"
-		],
-		"short_description": "Some companions live lives of faithful devotion and steady vigilance, standing watch through long hours and always ready to leap into action to protect their masters.",
 		"description": [
 			"## Bodyguard",
 			"",
@@ -279,12 +227,6 @@
 		"name": "Bully",
 		"file": "archetypedisplay3701.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Share Spells; Multiattack",
-		"replace_array": [
-			"Share Spells",
-			"Multiattack"
-		],
-		"short_description": "Bigger than others of its kind, a bully is used to winning fights and displays of dominance for its choice of mates, territory, or other privileges.",
 		"description": [
 			"## Bully",
 			"",
@@ -305,14 +247,6 @@
 		"name": "Charger",
 		"file": "archetypedisplaye0df.html",
 		"sources": [ "Animal Archive" ],
-		"replaces": "Share Spells; Multiattack; Devotion; Improved Evasion",
-		"replace_array": [
-			"Share Spells",
-			"Multiattack",
-			"Devotion",
-			"Improved Evasion"
-		],
-		"short_description": "The mighty charger is a boon to heavily armored and armed champions, bearing them and their ironmongery into battle without hesitation.",
 		"description": [
 			"## Charger",
 			"",
@@ -337,13 +271,6 @@
 		"name": "Daredevil",
 		"file": "archetypedisplay11f2.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Share Spells; Devotion; Multiattack",
-		"replace_array": [
-			"Share Spells",
-			"Devotion",
-			"Multiattack"
-		],
-		"short_description": "Daredevil companions join the fray with graceful leaps or swooping dives, heedless of the danger.",
 		"description": [
 			"## Daredevil",
 			"",
@@ -368,12 +295,6 @@
 		"name": "Deathtouched Companion",
 		"file": "archetypedisplay8cda.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Share Spells; Devotion",
-		"replace_array": [
-			"Share Spells",
-			"Devotion"
-		],
-		"short_description": "Whether the result of a partially successful attempt at revival, a strange blight, or repeated exposure to undead, deathtouched companions are living animals with a trace of the undead, somewhat like dhampirs.",
 		"description": [
 			"## Deathtouched Companion",
 			"",
@@ -400,15 +321,6 @@
 		"name": "Draconic Companion",
 		"file": "archetypedisplay18ab.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Share Spells; Evasion; Devotion; Multiattack; Improved Evasion",
-		"replace_array": [
-			"Share Spells",
-			"Evasion",
-			"Devotion",
-			"Multiattack",
-			"Improved Evasion"
-		],
-		"short_description": "Draconic companions bear a faint trace of dragon blood that grants them special abilities.",
 		"description": [
 			"## Draconic Companion",
 			"",
@@ -441,13 +353,6 @@
 		"name": "Elemental Companion",
 		"file": "archetypedisplay2a4e.html",
 		"sources": [ "Plane-Hopper's Handbook" ],
-		"replaces": "Evasion; Improved Evasion; Multiattack",
-		"replace_array": [
-			"Evasion",
-			"Improved Evasion",
-			"Multiattack"
-		],
-		"short_description": "The heart of this companion beats with primal energy.",
 		"description": [
 			"## Elemental Companion",
 			"",
@@ -470,16 +375,6 @@
 		"name": "Feytouched Companion",
 		"file": "archetypedisplay2452.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "4th or 7th-level Advancement; Share Spells; Multiattack; Evasion; Devotion; Improved Evasion",
-		"replace_array": [
-			"4th or 7th-level Advancement",
-			"Share Spells",
-			"Multiattack",
-			"Evasion",
-			"Devotion",
-			"Improved Evasion"
-		],
-		"short_description": "(Must be size Small) Feytouched companions are strangely colored fauna native to the First World, the primal realm of the fey. They gain strange abilities tied to the fey.",
 		"description": [
 			"## Feytouched Companion",
 			"",
@@ -508,13 +403,6 @@
 		"name": "Precocious Companion",
 		"file": "archetypedisplay0b9b.html",
 		"sources": [],
-		"replaces": "Evasion; Improved Evasion; 4th or 7th-level Advancement",
-		"replace_array": [
-			"Evasion",
-			"Improved Evasion",
-			"4th or 7th-level Advancement"
-		],
-		"short_description": "Precocious companions are able to learn far more tricks than other companions; this ability to learn allows their masters to use them for a wider variety of tasks.",
 		"description": [
 			"## Precocious Companion",
 			"",
@@ -538,12 +426,6 @@
 			"Ultimate Wilderness",
 			"Animal Archive"
 		],
-		"replaces": "Share Spells; Devotion",
-		"replace_array": [
-			"Share Spells",
-			"Devotion"
-		],
-		"short_description": "Some companions have uncanny speed, providing their masters with swift transport.",
 		"description": [
 			"## Racer",
 			"",
@@ -569,14 +451,6 @@
 			"Ultimate Wilderness",
 			"Animal Archive"
 		],
-		"replaces": "Evasion; Devotion; Multiattack; Improved Evasion",
-		"replace_array": [
-			"Evasion",
-			"Devotion",
-			"Multiattack",
-			"Improved Evasion"
-		],
-		"short_description": "Totem guides embody the wisdom and spirituality of the natural world, providing guidance as well as aid in combat.",
 		"description": [
 			"## Totem Guide",
 			"",
@@ -605,12 +479,6 @@
 		"name": "Tracker",
 		"file": "archetypedisplayfc2a.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Share Spells; Devotion",
-		"replace_array": [
-			"Share Spells",
-			"Devotion"
-		],
-		"short_description": "(Must have scent) Some companions are expert trackers, able to use their scent ability to follow any trail.",
 		"description": [
 			"## Tracker",
 			"",
@@ -631,11 +499,6 @@
 		"name": "Unexpected Intellectual",
 		"file": "archetypedisplay8125.html",
 		"sources": [ "Wilderness Origins" ],
-		"replaces": "Share Spells",
-		"replace_array": [
-			"Share Spells"
-		],
-		"short_description": "Sometimes, when an insect or other vermin is chosen to be an animal companion, it proves cleverer than expected. On occasion, it proves much cleverer.",
 		"description": [
 			"## Unexpected Intellectual",
 			"",
@@ -654,14 +517,6 @@
 		"name": "Verdant Companion",
 		"file": "archetypedisplayf3fa.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Share Spells; Evasion; Devotion; Improved Evasion",
-		"replace_array": [
-			"Share Spells",
-			"Evasion",
-			"Devotion",
-			"Improved Evasion"
-		],
-		"short_description": "Favorites of druids who balance their responsibilities between flora and fauna, verdant companions are animals with some of the abilities and physical aspects of plants.",
 		"description": [
 			"## Verdant Companion",
 			"",
@@ -682,12 +537,6 @@
 		"name": "Wrecker",
 		"file": "archetypedisplay8eb3.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Share Spells; Multiattack",
-		"replace_array": [
-			"Share Spells",
-			"Multiattack"
-		],
-		"short_description": "Like unruly pets, some companions have a tendency to destroy nearby objects while unsupervised, and their masters can channel these destructive impulses into an advantage in battle.",
 		"description": [
 			"## Wrecker",
 			"",

@@ -4,16 +4,6 @@
 		"name": "Battle Dancer",
 		"file": "archetypedisplay1efd.html",
 		"sources": [ "Martial Arts Handbook" ],
-		"replaces": "Class Skills; Armor Proficiencies; Brawler's Cunning; Brawler's Flurry; AC Bonus; Knockout",
-		"replace_array": [
-			"Class Skills",
-			"Armor Proficiency",
-			"Brawler's Cunning",
-			"Brawler's Flurry",
-			"AC Bonus",
-			"Knockout"
-		],
-		"short_description": "Battle dancers practice a martial art that emphasizes constant motion",
 		"description": [
 			"## Battle Dancer",
 			"",
@@ -50,13 +40,6 @@
 		"name": "Bouncer",
 		"file": "archetypedisplayca53.html",
 		"sources": [ "Inner Sea Taverns" ],
-		"replaces": "Martial Flexibility; 2nd-level Bonus Feat; Close Weapon Mastery",
-		"replace_array": [
-			"Martial Flexibility",
-			"2nd-level Bonus Feat",
-			"Close Weapon Mastery"
-		],
-		"short_description": "Some taverns employ bouncers to keep out undesirables or for when their customers get too rowdy.",
 		"description": [
 			"## Bouncer",
 			"",
@@ -85,13 +68,6 @@
 		"name": "Constructed Pugilist",
 		"file": "archetypedisplay6df4.html",
 		"sources": [ "People of the Wastes" ],
-		"replaces": "Class Skills; Martial Flexibility; Bonus Combat Feats",
-		"replace_array": [
-			"Class Skills",
-			"Martial Flexibility",
-			"Bonus Feats"
-		],
-		"short_description": "Brawlers that develop combat skills that use their prostheses so they always have a weapon at hand",
 		"description": [
 			"## Constructed Pugilist",
 			"",
@@ -134,15 +110,6 @@
 		"name": "Exemplar",
 		"file": "archetypedisplay786d.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Unarmed Strike; Close Weapon Mastery; Maneuver Training; AC Bonus; Brawler's Strike",
-		"replace_array": [
-			"Unarmed Strike",
-			"Close Weapon Mastery",
-			"Maneuver Training",
-			"AC Bonus",
-			"Brawler's Strike"
-		],
-		"short_description": "A versatile soldier who inspires her companions with her fighting prowess, an exemplar is at home on the front lines of battles anywhere.",
 		"description": [
 			"## Exemplar",
 			"",
@@ -161,11 +128,6 @@
 		"name": "Feral Striker",
 		"file": "archetypedisplaye7a6.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Martial Flexibility",
-		"replace_array": [
-			"Martial Flexibility"
-		],
-		"short_description": "A feral striker taps into a reservoir of druidic power hidden inside herself, allowing her to take animalistic characteristics.",
 		"description": [
 			"## Feral Striker",
 			"",
@@ -190,14 +152,6 @@
 		"name": "Hinyasi",
 		"file": "archetypedisplay44e1-2.html",
 		"sources": [ "Blood of the Ancients" ],
-		"replaces": "Armor Proficiencies; 2nd-level Bonus Feat; Knockout; Close Weapon Mastery",
-		"replace_array": [
-			"Armor Proficiency",
-			"2nd-level Bonus Feat",
-			"Knockout",
-			"Close Weapon Mastery"
-		],
-		"short_description": "The hinyasi's martial traditions are centered on the use of farming tools and on other improvised weapons.",
 		"description": [
 			"## Hinyasi",
 			"",
@@ -228,16 +182,6 @@
 		"name": "Living Avalanche",
 		"file": "archetypedisplay250e.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "2nd and 5th-level Bonus Feats; Maneuver Training; AC Bonus; Awesome Blow; Improved Awesome Blow",
-		"replace_array": [
-			"2nd-level Bonus Feat",
-			"5th-level Bonus Feat",
-			"Maneuver Training",
-			"AC Bonus",
-			"Awesome Blow",
-			"Improved Awesome Blow"
-		],
-		"short_description": "When a living avalanche is on the move, no one can stand in her way.",
 		"description": [
 			"## Living Avalanche",
 			"",
@@ -276,12 +220,6 @@
 		"name": "Mutagenic Mauler",
 		"file": "archetypedisplay32e4.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Martial Flexibility; AC Bonus",
-		"replace_array": [
-			"Martial Flexibility",
-			"AC Bonus"
-		],
-		"short_description": "Not content with perfecting her body with natural methods, a mutagenic mauler resorts to alchemy to unlock the primal beast within.",
 		"description": [
 			"## Mutagenic Mauler",
 			"",
@@ -302,13 +240,6 @@
 		"name": "Shield Champion",
 		"file": "archetypedisplay1137.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Weapon/Armor Proficiencies; Maneuver Training; Brawler's Strike",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Maneuver Training",
-			"Brawler's Strike"
-		],
-		"short_description": "Stalwart in battle, a shield champion has perfected an entire martial discipline relying on only her hand-to-hand fighting skills and her ever-present shield.",
 		"description": [
 			"## Shield Champion",
 			"",
@@ -337,16 +268,6 @@
 		"name": "Snakebite Striker",
 		"file": "archetypedisplay9f82.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Class Skills; Martial Flexibility; 3rd, 7th, 11th, and 19th-level Maneuver Training",
-		"replace_array": [
-			"Class Skills",
-			"Martial Flexibility",
-			"3rd-level Maneuver Training",
-			"7th-level Maneuver Training",
-			"11th-level Maneuver Training",
-			"19th-level Maneuver Training"
-		],
-		"short_description": "With her lightning quickness and guile, a snakebite striker keeps her foes' attention focused on her, because any one of her feints might be an actual attack.",
 		"description": [
 			"## Snakebite Striker",
 			"",
@@ -367,13 +288,6 @@
 		"name": "Steel-Breaker",
 		"file": "archetypedisplayda84.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Class Skills; Brawler's Strike; Maneuver Training",
-		"replace_array": [
-			"Class Skills",
-			"Brawler's Strike",
-			"Maneuver Training"
-		],
-		"short_description": "The steel-breaker studies destruction and practices it as an art form.",
 		"description": [
 			"## Steel-Breaker",
 			"",
@@ -394,16 +308,6 @@
 		"name": "Strangler",
 		"file": "archetypedisplay4f90.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Class Skills; Brawler's Flurry; AC Bonus; Knockout; Awesome Blow; Improved Awesome Blow",
-		"replace_array": [
-			"Class Skills",
-			"Brawler's Flurry",
-			"AC Bonus",
-			"Knockout",
-			"Awesome Blow",
-			"Improved Awesome Blow"
-		],
-		"short_description": "A strangler is trained to choke the life out of her victims with her vise-like grip.",
 		"description": [
 			"## Strangler",
 			"",
@@ -426,13 +330,6 @@
 		"name": "Strong-Side Boxer",
 		"file": "archetypedisplay70a0.html",
 		"sources": [ "Martial Arts Handbook" ],
-		"replaces": "AC Bonus; Maneuver Training; Close Weapon Mastery",
-		"replace_array": [
-			"AC Bonus",
-			"Maneuver Training",
-			"Close Weapon Mastery"
-		],
-		"short_description": "A strong-side boxer employs a unique fighting style that incorporates a rope or cord wound around her hand.",
 		"description": [
 			"## Strong-Side Boxer",
 			"",
@@ -457,12 +354,6 @@
 		"name": "Turfer",
 		"file": "archetypedisplayac2f.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Maneuver Training; Knockout",
-		"replace_array": [
-			"Maneuver Training",
-			"Knockout"
-		],
-		"short_description": "A turfer has a mastery over particular types of terrain.",
 		"description": [
 			"## Turfer",
 			"",
@@ -485,12 +376,6 @@
 		"name": "Ulfen Beast-Wrestler",
 		"file": "archetypedisplay8c66.html",
 		"sources": [ "Advanced Class Origins" ],
-		"replaces": "Maneuver Training; AC Bonus",
-		"replace_array": [
-			"Maneuver Training",
-			"AC Bonus"
-		],
-		"short_description": "For these mighty grapplers, wrestling normal opponents has lost its challenge-they seek greater targets for glory.",
 		"description": [
 			"## Ulfen Beast-Wrestler",
 			"",
@@ -509,13 +394,6 @@
 		"name": "Venomfist",
 		"file": "archetypedisplay85df.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Unarmed Strike; Knockout; Close Weapon Mastery",
-		"replace_array": [
-			"Unarmed Strike",
-			"Knockout",
-			"Close Weapon Mastery"
-		],
-		"short_description": "Thanks to alchemical experiments and rigorous study of venomous creatures, a venomfist has toxic unarmed strikes.",
 		"description": [
 			"## Venomfist",
 			"",
@@ -542,14 +420,6 @@
 		"name": "Verdant Grappler",
 		"file": "archetypedisplay1f58.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "2nd and 11th-level Bonus Feats; Maneuver Training; Close Weapon Mastery",
-		"replace_array": [
-			"2nd-level Bonus Feat",
-			"11th-level Bonus Feat",
-			"Maneuver Training",
-			"Close Weapon Mastery"
-		],
-		"short_description": "By accepting spirits of nature into her soul, a verdant grappler can entangle her foes with tangled undergrowth.",
 		"description": [
 			"## Verdant Grappler",
 			"",
@@ -574,14 +444,6 @@
 		"name": "Wild Child",
 		"file": "archetypedisplayb8a8.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Class Skills; Bonus Combat Feats; Close Weapon Mastery; Maneuver Training",
-		"replace_array": [
-			"Class Skills",
-			"Bonus Feats",
-			"Close Weapon Mastery",
-			"Maneuver Training"
-		],
-		"short_description": "The wild child works with his sworn animal friend to conquer the challenges that lay before them.",
 		"description": [
 			"## Wild Child",
 			"",
@@ -604,14 +466,6 @@
 		"name": "Winding Path Renegade",
 		"file": "archetypedisplay4c82.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "2nd, 8th, 14th-level Bonus Feat; AC Bonus",
-		"replace_array": [
-			"2nd-level Bonus Feat",
-			"8th-level Bonus Feat",
-			"14th-level Bonus Feat",
-			"AC Bonus"
-		],
-		"short_description": "Winding path renegades studied at the Houses of Perfection in Jalmeray, but while they grasped the mechanical aspects of the forms, they lacked the mental discipline required by the masters of the school.",
 		"description": [
 			"## Winding Path Renegade",
 			"",

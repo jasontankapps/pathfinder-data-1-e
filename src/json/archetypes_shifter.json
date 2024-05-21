@@ -4,20 +4,6 @@
 		"name": "Adaptive Shifter",
 		"file": "archetypedisplayaafb.html",
 		"sources": [ "Distant Realms" ],
-		"replaces": "Shifter Claws; Shifter Aspect; Chimeric Aspect; Greater Chimeric Aspect; Final Aspect; Wild Empathy; Track; Woodland Stride; Trackless Step; Wild Shape",
-		"replace_array": [
-			"Shifter Claws",
-			"Shifter Aspect",
-			"Chimeric Aspect",
-			"Greater Chimeric Aspect",
-			"Final Aspect",
-			"Wild Empathy",
-			"Track",
-			"Woodland Stride",
-			"Trackless Step",
-			"Wild Shape"
-		],
-		"short_description": "Rather than emulate other animals entirely, some shifters learn to reshape their forms on the fly in response to a range of stimuli",
 		"description": [
 			"## Adaptive Shifter",
 			"",
@@ -82,15 +68,6 @@
 		"name": "Dragonblood Shifter",
 		"file": "archetypedisplay2999.html",
 		"sources": [],
-		"replaces": "Shifter Aspect; Wild Shape; Chimeric Aspect; Greater Chimeric Aspect; Final Aspect",
-		"replace_array": [
-			"Shifter Aspect",
-			"Wild Shape",
-			"Chimeric Aspect",
-			"Greater Chimeric Aspect",
-			"Final Aspect"
-		],
-		"short_description": "Dragonblood shifters draw upon the inherent strength and majesty of the true dragons, gaining a measure of their powers from their association.",
 		"description": [
 			"## Dragonblood Shifter",
 			"",
@@ -144,17 +121,6 @@
 		"name": "Elementalist Shifter",
 		"file": "archetypedisplay33b5.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Languages; Shifter Aspect; Wild Empathy; Shifter Claws; Wild Shape; Chimeric Aspect; Greater Chimeric Aspect",
-		"replace_array": [
-			"Languages",
-			"Shifter Aspect",
-			"Wild Empathy",
-			"Shifter Claws",
-			"Wild Shape",
-			"Chimeric Aspect",
-			"Greater Chimeric Aspect"
-		],
-		"short_description": "Rather than drawing power from bestial aspects, elementalist shifters channel power from the Inner Sphere and can take on powerful elemental forms at the cost of the greater diversity available to traditional shifters.",
 		"description": [
 			"## Elementalist Shifter",
 			"",
@@ -241,15 +207,6 @@
 		"name": "Feyform Shifter",
 		"file": "archetypedisplay65bd.html",
 		"sources": [ "Wilderness Origins" ],
-		"replaces": "Shifter Aspect; Wild Shape; Chimeric Aspect; Greater Chimeric Aspect; Final Aspect",
-		"replace_array": [
-			"Shifter Aspect",
-			"Wild Shape",
-			"Chimeric Aspect",
-			"Greater Chimeric Aspect",
-			"Final Aspect"
-		],
-		"short_description": "Feyform shifters are intimately linked to the First World, and can draw from it to gain otherworldly powers.",
 		"description": [
 			"## Feyform Shifter",
 			"",
@@ -296,17 +253,6 @@
 		"name": "Fiendflesh Shifter",
 		"file": "archetypedisplaye81b.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Alignment; Shifter Claws; Wild Shape; Shifter Aspect; Defensive Instinct; Chimeric Aspect; Greater Chimeric Instinct",
-		"replace_array": [
-			"Alignment",
-			"Shifter Claws",
-			"Wild Shape",
-			"Shifter Aspect",
-			"Defensive Instinct",
-			"Chimeric Aspect",
-			"Greater Chimeric Instinct"
-		],
-		"short_description": "By forging dark pacts with extraplanar forces, fiendflesh shifters invoke sinister powers to assume the strengths of daemons, demons, or devils.",
 		"description": [
 			"## Fiendflesh Shifter",
 			"",
@@ -363,16 +309,6 @@
 		"name": "Holy Beast",
 		"file": "archetypedisplayadab.html",
 		"sources": [ "Heroes of Golarion" ],
-		"replaces": "Deity; Shifter Claws; Wild Empathy; Track; Woodland Stride; Trackless Step",
-		"replace_array": [
-			"Deity",
-			"Shifter Claws",
-			"Wild Empathy",
-			"Track",
-			"Woodland Stride",
-			"Trackless Step"
-		],
-		"short_description": "Holy beast shifters pledge to hunt down their deity's enemies to earn that deity's blessing.",
 		"description": [
 			"## Holy Beast",
 			"",
@@ -395,12 +331,6 @@
 		"name": "Leafshifter",
 		"file": "archetypedisplayb401.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Shifter Claws; Shifter Aspect",
-		"replace_array": [
-			"Shifter Claws",
-			"Shifter Aspect"
-		],
-		"short_description": "(Ghoran only) Rather than assume aspects taken from the traits of natural animals, a leafshifter transforms into plant-animal hybrids that resemble living topiaries.",
 		"description": [
 			"## Leafshifter",
 			"",
@@ -444,19 +374,6 @@
 			"Ultimate Wilderness",
 			"Official Paizo FAQ"
 		],
-		"replaces": "Weapon and Armor Proficiencies; Chimeric Aspect; Greater Chimeric Aspect; Wild Shape; Shifter Aspect; Shifter Claws; Wild Empathy; Defensive Instinct; Woodland Stride",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Chimeric Aspect",
-			"Greater Chimeric Aspect",
-			"Wild Shape",
-			"Shifter Aspect",
-			"Shifter Claws",
-			"Wild Empathy",
-			"Defensive Instinct",
-			"Woodland Stride"
-		],
-		"short_description": "While most shifters are trained in druidic traditions that allow them to tap into animalistic powers, others look instead to the simplest forms of life for inspiration. Known as oozemorphs, these shifters focus on the ooze-a form of life as simple in construction as it is dangerous in combat.",
 		"description": [
 			"## Oozemorph",
 			"",
@@ -515,19 +432,6 @@
 		"name": "Rageshaper",
 		"file": "archetypedisplaya1a2.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Alignment; Wild Shape; Shifter Aspect; Shifter Claws; Defensive Instinct; Chimeric Aspect; Greater Chimeric Aspect; Woodland Stride; Trackless Step",
-		"replace_array": [
-			"Alignment",
-			"Wild Shape",
-			"Shifter Aspect",
-			"Shifter Claws",
-			"Defensive Instinct",
-			"Chimeric Aspect",
-			"Greater Chimeric Aspect",
-			"Woodland Stride",
-			"Trackless Step"
-		],
-		"short_description": "The rageshaper is a destructive force of nature brought to bear-a wild and uncontrollable engine of annihilation fueled by wrath.",
 		"description": [
 			"## Rageshaper",
 			"",
@@ -574,16 +478,6 @@
 		"name": "Style Shifter",
 		"file": "archetypedisplay8cc2.html",
 		"sources": [ "Martial Arts Handbook" ],
-		"replaces": "Armor Proficiencies; Shifter Aspect; Chimeric Aspect; Greater Chimeric Aspect; Final Aspect; Wild Shape",
-		"replace_array": [
-			"Armor Proficiency",
-			"Shifter Aspect",
-			"Chimeric Aspect",
-			"Greater Chimeric Aspect",
-			"Final Aspect",
-			"Wild Shape"
-		],
-		"short_description": "Style shifters have been able to perfect their combat techniques to the point where they can augment a combat style by partially transforming into the creature that inspired it.",
 		"description": [
 			"## Style Shifter",
 			"",
@@ -632,15 +526,6 @@
 		"name": "Swarm Shifter",
 		"file": "archetypedisplaya860.html",
 		"sources": [ "Wilderness Origins" ],
-		"replaces": "Wild Shape; Shifter Aspect; Chimeric Aspect; Greater Chimeric Aspect; Final Aspect",
-		"replace_array": [
-			"Wild Shape",
-			"Shifter Aspect",
-			"Chimeric Aspect",
-			"Greater Chimeric Aspect",
-			"Final Aspect"
-		],
-		"short_description": "Swarm shifters channel the essence of the basest and most overlooked animals, vermin.",
 		"description": [
 			"## Swarm Shifter",
 			"",
@@ -699,16 +584,6 @@
 		"name": "Verdant Shifter",
 		"file": "archetypedisplayacde.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Wild Empathy; Shifter Aspect; Defensive Instinct; Wild Shape; Chimeric Aspect; Greater Chimeric Aspect",
-		"replace_array": [
-			"Wild Empathy",
-			"Shifter Aspect",
-			"Defensive Instinct",
-			"Wild Shape",
-			"Chimeric Aspect",
-			"Greater Chimeric Aspect"
-		],
-		"short_description": "Verdant shifters have an affinity for plants rather than animals and gain a plantlike form that grows in power as they do.",
 		"description": [
 			"## Verdant Shifter",
 			"",
@@ -739,13 +614,6 @@
 		"name": "Weretouched",
 		"file": "archetypedisplaydf97.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Shifter Aspect; Wild Empathy; Wild Shape",
-		"replace_array": [
-			"Shifter Aspect",
-			"Wild Empathy",
-			"Wild Shape"
-		],
-		"short_description": "Weretouched shifters are scions of lycanthropic forces, whether hereditary or supernaturally imposed. They can assume both animal and hybrid forms, as a lycanthrope does.",
 		"description": [
 			"## Weretouched",
 			"",
@@ -772,15 +640,6 @@
 		"name": "Wild Effigy",
 		"file": "archetypedisplay940b.html",
 		"sources": [ "Construct Handbook" ],
-		"replaces": "Wild Empathy; Track; Woodland Stride; Trackless Step; Defensive Instinct",
-		"replace_array": [
-			"Wild Empathy",
-			"Track",
-			"Woodland Stride",
-			"Trackless Step",
-			"Defensive Instinct"
-		],
-		"short_description": "A wild effigy still takes on the shapes of natural animals, but rather than transforming her body into flesh and muscle, she transforms into constructed effigies of her chosen aspects.",
 		"description": [
 			"## Wild Effigy",
 			"",

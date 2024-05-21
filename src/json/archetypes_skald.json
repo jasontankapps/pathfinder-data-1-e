@@ -4,13 +4,6 @@
 		"name": "Augur",
 		"file": "archetypedisplaya9f0.html",
 		"sources": [ "Arcane Anthology" ],
-		"replaces": "Well-Versed; Versatile Performance; Spell Kenning",
-		"replace_array": [
-			"Well-Versed",
-			"Versatile Performance",
-			"Spell Kenning"
-		],
-		"short_description": "Tales of Merivesta Olinchi are surprisingly common among the Bekyar of the Mwangi Expanse, who claim she spent some time studying their traditions and history.",
 		"description": [
 			"## Augur",
 			"",
@@ -29,14 +22,6 @@
 		"name": "Bacchanal",
 		"file": "archetypedisplay0844.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Scribe Scroll; Versatile Performance; Song of Marching; Dirge of Doom",
-		"replace_array": [
-			"Scribe Scroll",
-			"Versatile Performance",
-			"Song of Marching",
-			"Dirge of Doom"
-		],
-		"short_description": "Bacchanals are skalds who use ecstatic dancing and ribald songs to influence the primal instincts of listeners.",
 		"description": [
 			"## Bacchanal",
 			"",
@@ -71,14 +56,6 @@
 		"name": "Battle Scion",
 		"file": "archetypedisplay2d25.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Bardic Knowledge; Dirge of Doom; Song of the Fallen; Master Skald",
-		"replace_array": [
-			"Bardic Knowledge",
-			"Dirge of Doom",
-			"Song of the Fallen",
-			"Master Skald"
-		],
-		"short_description": "The battle scion possesses a unique mixture of courtly grace alongside martial and magical prowess.",
 		"description": [
 			"## Battle Scion",
 			"",
@@ -109,15 +86,6 @@
 		"name": "Bekyar Demon Dancer",
 		"file": "archetypedisplayad46.html",
 		"sources": [ "Advanced Class Origins" ],
-		"replaces": "Skills; Versatile Performance; 3rd, 6th, and 9th-level Rage Powers",
-		"replace_array": [
-			"Class Skills",
-			"Versatile Performance",
-			"3rd-level Rage Power",
-			"6th-level Rage Power",
-			"9th-level Rage Power"
-		],
-		"short_description": "While the twisted power of the demon-worshiping Bekyar's skalds is great, it comes at a terrible price.",
 		"description": [
 			"## Bekyar Demon Dancer",
 			"",
@@ -140,15 +108,6 @@
 		"name": "Belkzen War Drummer",
 		"file": "archetypedisplayf00d.html",
 		"sources": [ "Advanced Class Origins" ],
-		"replaces": "Weapon Proficiencies; Bardic Knowledge; Scribe Scroll; Lore Master; 7th-level Versatile Performance",
-		"replace_array": [
-			"Weapon Proficiency",
-			"Bardic Knowledge",
-			"Scribe Scroll",
-			"Lore Master",
-			"7th-level Versatile Performance"
-		],
-		"short_description": "These fierce drummers are equally adept at tapping out a driving rhythm and rapping enemies upside the head with the same massive clubs they use to beat the crude hidecovered drums they carry into battle.",
 		"description": [
 			"## Belkzen War Drummer",
 			"",
@@ -173,17 +132,6 @@
 		"name": "Boaster",
 		"file": "archetypedisplay2e34.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Scribe Scroll; Uncanny Dodge; Song of Marching; Lore Master; Song of the Fallen; Rage Powers; 6th-level Rage Power",
-		"replace_array": [
-			"Scribe Scroll",
-			"Uncanny Dodge",
-			"Song of Marching",
-			"Lore Master",
-			"Song of the Fallen",
-			"Rage Powers",
-			"6th-level Rage Power"
-		],
-		"short_description": "Boasters use incredible tales and claims to challenge themselves and their allies to accomplish remarkable feats.",
 		"description": [
 			"## Boaster",
 			"",
@@ -224,16 +172,6 @@
 		"name": "Bold Schemer",
 		"file": "archetypedisplaycd50.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Bardic Knowledge; Uncanny Dodge; Improved Uncanny Dodge; Damage Reduction; Dirge of Doom",
-		"replace_array": [
-			"Class Skills",
-			"Bardic Knowledge",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge",
-			"Damage Reduction",
-			"Dirge of Doom"
-		],
-		"short_description": "The bold schemer combines wrath, wits, and daring to win battles and wars in unconventional ways, often through infiltration and deception.",
 		"description": [
 			"## Bold Schemer",
 			"",
@@ -262,13 +200,6 @@
 		"name": "Court Poet",
 		"file": "archetypedisplayb8c2.html",
 		"sources": [ "Heroes of the High Court" ],
-		"replaces": "Inspired Rage; Song of Strength; Well-Versed",
-		"replace_array": [
-			"Inspired Rage",
-			"Song of Strength",
-			"Well-Versed"
-		],
-		"short_description": "Court poets elevate the skald's love of history and poetry to an aristocratic ideal, captivating courts with complicated poetic traditions and inspiring others with their craft.",
 		"description": [
 			"## Court Poet",
 			"",
@@ -293,14 +224,6 @@
 		"name": "Dragon Skald",
 		"file": "archetypedisplayedad.html",
 		"sources": [ "Advanced Class Origins" ],
-		"replaces": "Scribe Scroll; Bardic Knowledge; Well-Versed; Song of Marching",
-		"replace_array": [
-			"Scribe Scroll",
-			"Bardic Knowledge",
-			"Well-Versed",
-			"Song of Marching"
-		],
-		"short_description": "The Ulfen prize skalds on sea raids and linnorm hunts. Dragon skald performances involve song, whistling, or blowing mighty horns, and viking sailors often talk about having a skald along to whistle up a wind or sing away the mists on the morning of a momentous raid.",
 		"description": [
 			"## Dragon Skald",
 			"",
@@ -323,14 +246,6 @@
 		"name": "Elegist",
 		"file": "archetypedisplay4107-2.html",
 		"sources": [ "Pathfinder: Spiral of Bones #4" ],
-		"replaces": "Raging Song; Rage Powers; Well-Versed; Damage Reduction",
-		"replace_array": [
-			"Raging Song",
-			"Rage Powers",
-			"Well-Versed",
-			"Damage Reduction"
-		],
-		"short_description": "Some skalds internalize the saddest and must mournful of stories, so much that they are able to manifest the emotions caused by these tales in physical form.",
 		"description": [
 			"## Elegist",
 			"",
@@ -359,14 +274,6 @@
 		"name": "Fated Champion",
 		"file": "archetypedisplaya1a2-2.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Well-Versed; Spell Kenning; Dirge of Doom; Master Skald",
-		"replace_array": [
-			"Well-Versed",
-			"Spell Kenning",
-			"Dirge of Doom",
-			"Master Skald"
-		],
-		"short_description": "Among cultures where skalds are the keepers of lore and wisdom, there are those who learn to read the winds of fate and take up the mantle of the fated champion, knowing and embracing their destined paths with strength borne of conviction.",
 		"description": [
 			"## Fated Champion",
 			"",
@@ -389,13 +296,6 @@
 		"name": "Herald of the Horn",
 		"file": "archetypedisplay899e.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Scribe Scroll; 5th, 11th, and 17th-level Spell Kenning; Lore Master",
-		"replace_array": [
-			"Scribe Scroll",
-			"Spell Kenning",
-			"Lore Master"
-		],
-		"short_description": "Whether with the polished metal trumpet of a standing army or the crude curved animal horn of savage raiders, a herald of the horn sounds his raging song with thunderous blasts, which can bolster allies or shatter castle walls.",
 		"description": [
 			"## Herald of the Horn",
 			"",
@@ -418,16 +318,6 @@
 		"name": "Hunt Caller",
 		"file": "archetypedisplay9728.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Well-Versed; Song of Strength; Song of the Fallen; 6th, 18th-level Rage Power; Spell Kenning",
-		"replace_array": [
-			"Well-Versed",
-			"Song of Strength",
-			"Song of the Fallen",
-			"6th-level Rage Power",
-			"18th-level Rage Power",
-			"Spell Kenning"
-		],
-		"short_description": "Hunt callers are skalds whose songs draw their allies into the animal world.",
 		"description": [
 			"## Hunt Caller",
 			"",
@@ -462,13 +352,6 @@
 		"name": "Instigator",
 		"file": "archetypedisplayb3ee.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Spell Kenning; Dirge of Doom; Lore Master",
-		"replace_array": [
-			"Spell Kenning",
-			"Dirge of Doom",
-			"Lore Master"
-		],
-		"short_description": "he instigator influences the will of the people, turning them toward his own purposes.",
 		"description": [
 			"## Instigator",
 			"",
@@ -497,14 +380,6 @@
 		"name": "Red Tongue",
 		"file": "archetypedisplay68b9.html",
 		"sources": [ "Blood of the Beast" ],
-		"replaces": "Bardic Knowledge; 7th, 12th, 17th-level Versatile Performance",
-		"replace_array": [
-			"Bardic Knowledge",
-			"7th-level Versatile Performance",
-			"12th-level Versatile Performance",
-			"17th-level Versatile Performance"
-		],
-		"short_description": "The tengu tendency toward dramatic flourishes and rhetoric creates an environment in which political clubs led by hot-blooded firebrands-referred to as red tongues in polite company-dominate the political scene by swaying emotions in the moment and wielding magic in the shadows.",
 		"description": [
 			"## Red Tongue",
 			"",
@@ -533,12 +408,6 @@
 		"name": "Serpent Herald",
 		"file": "archetypedisplayded9.html",
 		"sources": [ "Legacy of the First World" ],
-		"replaces": "3rd-level Rage Power; Spell Kenning",
-		"replace_array": [
-			"3rd-level Rage Power",
-			"Spell Kenning"
-		],
-		"short_description": "Warrior bands devoted to Ragadahn are often led by a serpent herald, whose deep roars shake the earth itself.",
 		"description": [
 			"## Serpent Herald",
 			"",
@@ -565,15 +434,6 @@
 		"name": "Spell Warrior",
 		"file": "archetypedisplayf2cd.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Scribe Scroll; Inspired Rage; Spell Kenning; Dirge of Doom; Master Skald",
-		"replace_array": [
-			"Scribe Scroll",
-			"Inspired Rage",
-			"Spell Kenning",
-			"Dirge of Doom",
-			"Master Skald"
-		],
-		"short_description": "The spell warrior uses his arcane knowledge rather than his rage to turn the tide of battle in favor of himself and his allies.",
 		"description": [
 			"## Spell Warrior",
 			"",
@@ -610,13 +470,6 @@
 		"name": "Sunsinger",
 		"file": "archetypedisplay63ef.html",
 		"sources": [ "Qadira, Jewel of the East" ],
-		"replaces": "Alignment; Song of Marching; Spell Kenning",
-		"replace_array": [
-			"Alignment",
-			"Song of Marching",
-			"Spell Kenning"
-		],
-		"short_description": "Qadiran sunsingers are particularly religious skalds of Sarenrae who call down their goddess's glory to fill soldiers with fire.",
 		"description": [
 			"## Sunsinger",
 			"",
@@ -641,14 +494,6 @@
 		"name": "Totem Channeler",
 		"file": "archetypedisplaye4d1.html",
 		"sources": [ "Disciple's Doctrine" ],
-		"replaces": "Bardic Knowledge; Rage Powers; Spell Kenning; Damage Reduction",
-		"replace_array": [
-			"Bardic Knowledge",
-			"Rage Powers",
-			"Spell Kenning",
-			"Damage Reduction"
-		],
-		"short_description": "Some Shoanti skalds discover deeper truths in their tribes' totems. These skalds, known as totem channelers, learn how to share the totems' gifts with their allies in the heat of battle.",
 		"description": [
 			"## Totem Channeler",
 			"",
@@ -673,14 +518,6 @@
 		"name": "Totemic Skald",
 		"file": "archetypedisplay4fe5.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "3rd-level Rage Power; Uncanny Dodge; Improved Uncanny Dodge; Spell Kenning",
-		"replace_array": [
-			"3rd-level Rage Power",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge",
-			"Spell Kenning"
-		],
-		"short_description": "The totemic skald forms a close connection to an animal totem. Through the power of this mystical ally, the skald can change shapes, assuming its form as his own.",
 		"description": [
 			"## Totemic Skald",
 			"",
@@ -709,20 +546,6 @@
 		"name": "Twilight Speaker",
 		"file": "archetypedisplay1aa1.html",
 		"sources": [ "Heroes from the Fringe" ],
-		"replaces": "Alignment; Deity; Bardic Knowledge; Inspired Rage; Song of Strength; Dirge of Doom; Versatile Performance; Well-Versed; Lore Master; Master Skald",
-		"replace_array": [
-			"Alignment",
-			"Deity",
-			"Bardic Knowledge",
-			"Inspired Rage",
-			"Song of Strength",
-			"Dirge of Doom",
-			"Versatile Performance",
-			"Well-Versed",
-			"Lore Master",
-			"Master Skald"
-		],
-		"short_description": "(Elf Only) Twilight speakers are elven skalds of Findeladlara who consider it a sacred duty to seek out and befriend non-elven communities",
 		"description": [
 			"## Twilight Speaker",
 			"",
@@ -765,16 +588,6 @@
 		"name": "Undying Word",
 		"file": "archetypedisplaye624.html",
 		"sources": [ "People of the Wastes" ],
-		"replaces": "Scribe Scroll; Lore Master; Inspired Rage; Song of Strength; Dirge of Doom; Spell Kenning",
-		"replace_array": [
-			"Scribe Scroll",
-			"Lore Master",
-			"Inspired Rage",
-			"Song of Strength",
-			"Dirge of Doom",
-			"Spell Kenning"
-		],
-		"short_description": "Some who have survived the Mana Wastes cannot accept defeat, and those who have learned to speak the undying word can lend others the strength to endure",
 		"description": [
 			"## Undying Word",
 			"",
@@ -809,15 +622,6 @@
 		"name": "Urban Skald",
 		"file": "archetypedisplay8d73-2.html",
 		"sources": [ "Heroes of the Streets" ],
-		"replaces": "Weapon/Armor Proficiencies; Inspired Rage; Song of Marching; Damage Reduction; Dirge of Doom",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Inspired Rage",
-			"Song of Marching",
-			"Damage Reduction",
-			"Dirge of Doom"
-		],
-		"short_description": "The urban skald finds that challenging and mocking foes is sometimes more effective than inspiring uncontrolled rage in a city.",
 		"description": [
 			"## Urban Skald",
 			"",
@@ -846,13 +650,6 @@
 		"name": "War Painter",
 		"file": "archetypedisplaye897.html",
 		"sources": [ "Blood of the Beast" ],
-		"replaces": "Raging Song; Spell Kenning; Lore Master",
-		"replace_array": [
-			"Raging Song",
-			"Spell Kenning",
-			"Lore Master"
-		],
-		"short_description": "The gripplis of the Valashmai Jungle exhibit savage strength for their size-attributed in part to the frightful magical pigments applied to their skin by the tribes' mystical lore keepers.",
 		"description": [
 			"## War Painter",
 			"",
@@ -881,15 +678,6 @@
 		"name": "Warlord",
 		"file": "archetypedisplayf7de.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Scribe Scroll; Well-Versed; Spell Kenning; Lore Master; Improved Uncanny Dodge",
-		"replace_array": [
-			"Scribe Scroll",
-			"Well-Versed",
-			"Spell Kenning",
-			"Lore Master",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "The warlord wields his force of personality like a weapon, intimidating his allies and ensuring that his followers heed his commands.",
 		"description": [
 			"## Warlord",
 			"",
@@ -924,13 +712,6 @@
 		"name": "Wyrm Singer",
 		"file": "archetypedisplaycdcb.html",
 		"sources": [ "Legacy of Dragons" ],
-		"replaces": "Inspired Rage; Song of the Fallen; 12th-level rage power",
-		"replace_array": [
-			"Inspired Rage",
-			"Song of the Fallen",
-			"12th-level Rage Power"
-		],
-		"short_description": "Wyrm singers spin fragments of the story of the ongoing struggle between noble Apsu and wicked Dahak.",
 		"description": [
 			"## Wyrm Singer",
 			"",

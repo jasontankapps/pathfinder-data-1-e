@@ -4,14 +4,6 @@
 		"name": "Ankou's Shadow",
 		"file": "archetypedisplay5e27.html",
 		"sources": [ "Legacy of the First World" ],
-		"replaces": "Studied Target; Stalker; Quarry; Improved Quarry",
-		"replace_array": [
-			"Studied Target",
-			"Stalker",
-			"Quarry",
-			"Improved Quarry"
-		],
-		"short_description": "Ankou's shadow practice the deadliest skills of the First World's most feared enforcers: terrifying, winged fey assassins dispatched by the greatest lords of the First World to eliminate their rivals",
 		"description": [
 			"## Ankou's Shadow",
 			"",
@@ -48,17 +40,6 @@
 		"name": "Avalancher",
 		"file": "archetypedisplay25ff.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Studied Target; Track; Swift Tracker; Stalker; Quarry; Improved Quarry; Master Slayer",
-		"replace_array": [
-			"Studied Target",
-			"Track",
-			"Swift Tracker",
-			"Stalker",
-			"Quarry",
-			"Improved Quarry",
-			"Master Slayer"
-		],
-		"short_description": "Avalanchers attack from overhead cliffs and mesas like a landslide of arrows and blades.",
 		"description": [
 			"## Avalancher",
 			"",
@@ -93,20 +74,6 @@
 		"name": "Bloody Jake",
 		"file": "archetypedisplay8c64.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Alignment; Weapon and Armor Proficiency; Studied Target; 4th, 6th, 8th, 12th, 16th-level Slayer Talents; Swift Tracker; Slayer's Advance",
-		"replace_array": [
-			"Alignment",
-			"Weapon/Armor Proficiency",
-			"Studied Target",
-			"4th-level Slayer Talent",
-			"6th-level Slayer Talent",
-			"8th-level Slayer Talent",
-			"12th-level Slayer Talent",
-			"16th-level Slayer Talent",
-			"Swift Tracker",
-			"Slayer's Advance"
-		],
-		"short_description": "Bloody jakes are cruel backwoods folk who prey upon their country cousins while terrorizing civilized people who venture into their rural range.",
 		"description": [
 			"## Bloody Jake",
 			"",
@@ -153,14 +120,6 @@
 		"name": "Bounty Hunter",
 		"file": "archetypedisplay4d73-2.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Weapon/Armor Proficiencies; 2nd, 6th, and 10th-level Slayer Talents",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"2nd-level Slayer Talent",
-			"6th-level Slayer Talent",
-			"10th-level Slayer Talent"
-		],
-		"short_description": "Whether tasked with bringing in wanted criminals or paid to drag debtors back to their loan sharks, bounty hunters are valued for their ability to capture targets alive.",
 		"description": [
 			"## Bounty Hunter",
 			"",
@@ -185,17 +144,6 @@
 		"name": "Butterfly Blade",
 		"file": "archetypedisplay95e5.html",
 		"sources": [ "Heroes of the High Court" ],
-		"replaces": "Studied Target; Track; Sneak Attack; Stalker; Swift Tracker; Quarry; Improved Quarry",
-		"replace_array": [
-			"Studied Target",
-			"Track",
-			"Sneak Attack",
-			"Stalker",
-			"Swift Tracker",
-			"Quarry",
-			"Improved Quarry"
-		],
-		"short_description": "Butterfly blades work in the shadows, eliminating threats with their namesake weapons and intimidating troublesome nobles.",
 		"description": [
 			"## Butterfly Blade",
 			"",
@@ -230,13 +178,6 @@
 		"name": "Cleaner",
 		"file": "archetypedisplay8ac3.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Track; 4th-level Slayer Talent; Stalker",
-		"replace_array": [
-			"Track",
-			"4th-level Slayer Talent",
-			"Stalker"
-		],
-		"short_description": "A cleaner is responsible for destroying or removing incriminating evidence from a crime scene, disposing of corpses and eliminating witnesses to make a crime look like an accident or a mere disappearance.",
 		"description": [
 			"## Cleaner",
 			"",
@@ -259,14 +200,6 @@
 		"name": "Covenbane",
 		"file": "archetypedisplay4e4b.html",
 		"sources": [ "Blood of the Coven" ],
-		"replaces": "Track; 2nd-level Slayer Talent; Stalker; Swift Tracker",
-		"replace_array": [
-			"Track",
-			"2nd-level Slayer Talent",
-			"Stalker",
-			"Swift Tracker"
-		],
-		"short_description": "Covenbane slayers are scarred by arcane magic at a young age, and that resonance gives them supernatural insight into the psychic bonds between others.",
 		"description": [
 			"## Covenbane",
 			"",
@@ -295,14 +228,6 @@
 		"name": "Cutthroat",
 		"file": "archetypedisplay2b9b.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Class Skills; Track; 2nd and 6th-level Slayer Talents",
-		"replace_array": [
-			"Class Skills",
-			"Track",
-			"2nd-level Slayer Talent",
-			"6th-level Slayer Talent"
-		],
-		"short_description": "Street-smart and extremely resourceful, cutthroats stalk city streets and alleyways, preying on those unfortunate enough to catch their eye.",
 		"description": [
 			"## Cutthroat",
 			"",
@@ -327,14 +252,6 @@
 		"name": "Deliverer",
 		"file": "archetypedisplay94c3.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Weapon/Armor Proficiencies; 2nd, 6th, and 10th-level Slayer Talents",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"2nd-level Slayer Talent",
-			"6th-level Slayer Talent",
-			"10th-level Slayer Talent"
-		],
-		"short_description": "Also known as a divine assassin, god's blade, or wrath-bringer, a deliverer is a weapon chosen by a god to punish those who have committed an affront to that deity.",
 		"description": [
 			"## Deliverer",
 			"",
@@ -361,17 +278,6 @@
 		"name": "Dune Rider",
 		"file": "archetypedisplay80e0.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Track; Swift Tracker; Studied Target; Stalker; 4th, 8th-level Slayer Talent; Master Slayer",
-		"replace_array": [
-			"Track",
-			"Swift Tracker",
-			"Studied Target",
-			"Stalker",
-			"4th-level Slayer Talent",
-			"8th-level Slayer Talent",
-			"Master Slayer"
-		],
-		"short_description": "Mounted harriers, saboteurs, and skirmishers, dune riders can disrupt even the most organized opposition.",
 		"description": [
 			"## Dune Rider",
 			"",
@@ -404,14 +310,6 @@
 		"name": "Family Hunter",
 		"file": "archetypedisplayc3af.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "2nd, 6th-level Slayer Talent; Sneak Attack; Studied Target",
-		"replace_array": [
-			"2nd-level Slayer Talent",
-			"6th-level Slayer Talent",
-			"Sneak Attack",
-			"Studied Target"
-		],
-		"short_description": "Most slayers focus their efforts on single targets, but family hunters try to root out every branch of a tainted tree of life.",
 		"description": [
 			"## Family Hunter",
 			"",
@@ -440,13 +338,6 @@
 		"name": "Grave Warden",
 		"file": "archetypedisplay1f60.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "2nd and 10th-level Slayer Talents; Stalker;",
-		"replace_array": [
-			"2nd-level Slayer Talent",
-			"10th-level Slayer Talent",
-			"Stalker"
-		],
-		"short_description": "While paladins and inquisitors use their connection with the divine to fight undead hordes and other horrors of the night, a grave warden relies on knowledge, skill with weapons, and tenacity to put an end to these night-born terrors.",
 		"description": [
 			"## Grave Warden",
 			"",
@@ -469,15 +360,6 @@
 		"name": "Guerrilla",
 		"file": "archetypedisplay0d5d.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Track; Swift Tracker; 6th-level Slayer Talent; Quarry; Improved Quarry",
-		"replace_array": [
-			"Track",
-			"Swift Tracker",
-			"6th-level Slayer Talent",
-			"Quarry",
-			"Improved Quarry"
-		],
-		"short_description": "Slayers characterized by cunning and patience, guerrillas specialize in ambush and harassment of enemies.",
 		"description": [
 			"## Guerrilla",
 			"",
@@ -502,15 +384,6 @@
 		"name": "Pureblade",
 		"file": "archetypedisplay9f45.html",
 		"sources": [ "Advanced Class Origins" ],
-		"replaces": "Track; 2nd and 8th-level Slayer Talents; Stalker; Master Slayer",
-		"replace_array": [
-			"Track",
-			"2nd-level Slayer Talent",
-			"8th-level Slayer Talent",
-			"Stalker",
-			"Master Slayer"
-		],
-		"short_description": "In Numeria, Pureblades are skilled at slaying naturally arising aberrations and any creatures that have been mutated by exposure to the bizarre alien technology that pervades the land. Pureblades from Alkenstar and Nex lead forays into the magic-starved Mana Wastes to eliminate aberrations before the creatures can threaten their lands.",
 		"description": [
 			"## Pureblade",
 			"",
@@ -533,16 +406,6 @@
 		"name": "Sczarni Executioner",
 		"file": "archetypedisplayb06f.html",
 		"sources": [ "Advanced Class Origins" ],
-		"replaces": "Class Skills; Studied Target; 4th-level Slayer Talent; Swift Tracker; Quarry; Improved Quarry",
-		"replace_array": [
-			"Class Skills",
-			"Studied Target",
-			"4th-level Slayer Talent",
-			"Swift Tracker",
-			"Quarry",
-			"Improved Quarry"
-		],
-		"short_description": "These professional killers are trained and used almost exclusively by the various Sczarni crime families.",
 		"description": [
 			"## Sczarni Executioner",
 			"",
@@ -569,11 +432,6 @@
 		"name": "Sniper",
 		"file": "archetypedisplay3b1a.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Track",
-		"replace_array": [
-			"Track"
-		],
-		"short_description": "Whether it's with a bullet from a sling, a quarrel from a crossbow, or even an expertly thrown dagger, the sniper ensures that a single shot disables his targets.",
 		"description": [
 			"## Sniper",
 			"",
@@ -594,13 +452,6 @@
 		"name": "Spawn Slayer",
 		"file": "archetypedisplay98b7.html",
 		"sources": [ "Blood of the Ancients" ],
-		"replaces": "Studied Target; Stalker; Master Slayer",
-		"replace_array": [
-			"Studied Target",
-			"Stalker",
-			"Master Slayer"
-		],
-		"short_description": "Generations of Ninshaburian warriors fought the Spawn of Rovagug, holding the line against impossible odds. Some of their ancient techniques persist to this day.",
 		"description": [
 			"## Spawn Slayer",
 			"",
@@ -625,17 +476,6 @@
 		"name": "Spire Diver",
 		"file": "archetypedisplay8dc9.html",
 		"sources": [ "Pathfinder #124: City in the Deep" ],
-		"replaces": "Studied Target; Stalker; Track; Swift Tracker; Slayer's Advance; Quarry; Improved Quarry",
-		"replace_array": [
-			"Studied Target",
-			"Stalker",
-			"Track",
-			"Swift Tracker",
-			"Slayer's Advance",
-			"Quarry",
-			"Improved Quarry"
-		],
-		"short_description": "Peerless divers, assassins, and scouts, spire divers operate in and out of water using the same weapons and equipment.",
 		"description": [
 			"## Spire Diver",
 			"",
@@ -672,12 +512,6 @@
 		"name": "Spiritslayer",
 		"file": "archetypedisplay7528.html",
 		"sources": [ "Haunted Heroes Handbook" ],
-		"replaces": "2nd level Slayer Talent; Stalker",
-		"replace_array": [
-			"2nd-level Slayer Talent",
-			"Stalker"
-		],
-		"short_description": "Slayers that focus in culling ghosts, shadow demons, and other incorporeal creatures.",
 		"description": [
 			"## Spiritslayer",
 			"",
@@ -714,14 +548,6 @@
 		"name": "Stygian Slayer",
 		"file": "archetypedisplay17a9.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Armor Proficiencies; 4th and 10th-level Slayer Talents; Stalker",
-		"replace_array": [
-			"Armor Proficiency",
-			"4th-level Slayer Talent",
-			"10th-level Slayer Talent",
-			"Stalker"
-		],
-		"short_description": "A stygian slayer crawls out of the darkest shadows to strike fear into the hearts of civilized folk.",
 		"description": [
 			"## Stygian Slayer",
 			"",
@@ -746,14 +572,6 @@
 		"name": "Toxic Sniper",
 		"file": "archetypedisplaye0f0.html",
 		"sources": [ "People of the Wastes" ],
-		"replaces": "Weapon and Armor Proficiencies; Track; Studied Target; Slayer Talents",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Track",
-			"Studied Target",
-			"Slayer Talents"
-		],
-		"short_description": "Followers of the daemonic harbinger Cixyron hide throughout the Mana Wastes, scavenging for guns. With significant firepower in hand, the Furious Thunder's snipers bring poisonous death to the wastes.",
 		"description": [
 			"## Toxic Sniper",
 			"",
@@ -792,14 +610,6 @@
 		"name": "Turncoat",
 		"file": "archetypedisplay4156.html",
 		"sources": [ "Heroes of the Darklands" ],
-		"replaces": "Track; Stalker; Quarry; Improved Quarry",
-		"replace_array": [
-			"Track",
-			"Stalker",
-			"Quarry",
-			"Improved Quarry"
-		],
-		"short_description": "The turncoat's natural talents for deception and treachery are fitting when negotiating with the untrustworthy individuals and his ability to adapt allows him to preempt opponents' schemes.",
 		"description": [
 			"## Turncoat",
 			"",
@@ -826,14 +636,6 @@
 		"name": "Vanguard",
 		"file": "archetypedisplayd0b3.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Track; 2nd and 4th-level Slayer Talents; Stalker",
-		"replace_array": [
-			"Track",
-			"2nd-level Slayer Talent",
-			"4th-level Slayer Talent",
-			"Stalker"
-		],
-		"short_description": "Vanguards are battlefield commanders who focus on the brutality of combat and lead their allies to bloody victory.",
 		"description": [
 			"## Vanguard",
 			"",
@@ -858,15 +660,6 @@
 		"name": "Velvet Blade",
 		"file": "archetypedisplay44c4.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Armor Proficiency; Studied Target; Track; Swift Tracker",
-		"replace_array": [
-			"Class Skills",
-			"Armor Proficiency",
-			"Studied Target",
-			"Track",
-			"Swift Tracker"
-		],
-		"short_description": "Velvet blades specialize in infiltrating the upper echelons of society, mingling with nobles and courtiers, and killing them.",
 		"description": [
 			"## Velvet Blade",
 			"",
@@ -901,14 +694,6 @@
 		"name": "Witch Killer",
 		"file": "archetypedisplay7c98.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Class Skills; Studied Target; 4th, 10th-level Slayer Talent",
-		"replace_array": [
-			"Class Skills",
-			"Studied Target",
-			"4th-level Slayer Talent",
-			"10th-level Slayer Talent"
-		],
-		"short_description": "Born into cultures where magic users are hated and feared, witch killers devote their lives to purge the arcane taint from the world.",
 		"description": [
 			"## Witch Killer",
 			"",
@@ -941,15 +726,6 @@
 		"name": "Woodland Sniper",
 		"file": "archetypedisplay895c.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Track; Sneak Attack; Stalker; Swift Tracker; Slayer's Advance",
-		"replace_array": [
-			"Track",
-			"Sneak Attack",
-			"Stalker",
-			"Swift Tracker",
-			"Slayer's Advance"
-		],
-		"short_description": "Woodland snipers are guardians of forest and grove, keeping vigil on their borders and hunting bounties and trespassers from the shelter of sturdy branches.",
 		"description": [
 			"## Woodland Sniper",
 			"",

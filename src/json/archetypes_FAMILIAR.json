@@ -4,12 +4,6 @@
 		"name": "Ambassador",
 		"file": "archetypedisplayd52f.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Alertness; Intelligence Score Progression",
-		"replace_array": [
-			"Alertness",
-			"Intelligence Score Progression"
-		],
-		"short_description": "An ambassador speaks on its master's behalf and sometimes on behalf of its master's patron or other extraplanar contacts.",
 		"description": [
 			"## Ambassador",
 			"",
@@ -34,14 +28,6 @@
 		"name": "Animal Exemplar",
 		"file": "archetypedisplay879b.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Speak with Animals of its Kind; Deliver Touch Spells; Spell Resistance; Scry on Familiar",
-		"replace_array": [
-			"Speak with Animals of its Kind",
-			"Deliver Touch Spells",
-			"Spell Resistance",
-			"Scry on Familiar"
-		],
-		"short_description": "An animal exemplar is a paragon of its species, able to command the loyalty of others of its kind.",
 		"description": [
 			"## Animal Exemplar",
 			"",
@@ -62,15 +48,6 @@
 		"name": "Arcane Amplifier",
 		"file": "archetypedisplay34fc.html",
 		"sources": [ "Wilderness Origins" ],
-		"replaces": "Alertness; Improved Evasion; Speak with Animals of its Kind; Spell Resistance; Scry on Familiar",
-		"replace_array": [
-			"Alertness",
-			"Improved Evasion",
-			"Speak with Animals of its Kind",
-			"Spell Resistance",
-			"Scry on Familiar"
-		],
-		"short_description": "The secret of the arcane amplifier familiar was first discovered in Irrisen, where the winter witches used white-furred foxes or hares to strengthen their spells.",
 		"description": [
 			"## Arcane Amplifier",
 			"",
@@ -97,15 +74,6 @@
 		"name": "Decoy",
 		"file": "archetypedisplay5946.html",
 		"sources": [ "Familiar Folio" ],
-		"replaces": "Class Skills; Alertness; Speak with Master; Speak with Animals of its Kind; Spell Resistance",
-		"replace_array": [
-			"Class Skills",
-			"Alertness",
-			"Speak with Master",
-			"Speak with Animals of its Kind",
-			"Spell Resistance"
-		],
-		"short_description": "A decoy misdirects its master's enemies, allowing the master to strike by surprise.",
 		"description": [
 			"## Decoy",
 			"",
@@ -126,15 +94,6 @@
 		"name": "Egotist",
 		"file": "archetypedisplayeaad.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Alertness; Variable Familiar Bonus; Speak with Master; Deliver Touch Spells; Scry on Familiar",
-		"replace_array": [
-			"Alertness",
-			"Variable Familiar Bonus",
-			"Speak with Master",
-			"Deliver Touch Spells",
-			"Scry on Familiar"
-		],
-		"short_description": "An egotist believes itself to be the real master in the relationship-the power behind the throne. It often attempts to communicate \"orders\" for its master as best it can, interfering in matters ranging from spell choices and tactical combat decisions to its master's love life.",
 		"description": [
 			"## Egotist",
 			"",
@@ -165,12 +124,6 @@
 		"name": "Elemental Familiar",
 		"file": "archetypedisplay98ba.html",
 		"sources": [ "Plane-Hopper's Handbook" ],
-		"replaces": "Improved Evasion; Speak with Animals of its Kind",
-		"replace_array": [
-			"Improved Evasion",
-			"Speak with Animals of its Kind"
-		],
-		"short_description": "The raw power of an elemental plane suffuses the body of an elemental familiar.",
 		"description": [
 			"## Elemental Familiar",
 			"",
@@ -196,13 +149,6 @@
 			"Ultimate Wilderness",
 			"Familiar Folio"
 		],
-		"replaces": "Alertness; Share Spells; Deliver Touch Spells",
-		"replace_array": [
-			"Alertness",
-			"Share Spells",
-			"Deliver Touch Spells"
-		],
-		"short_description": "The emissary is touched by the divine, serving as a font of wisdom and a moral compass for its master.",
 		"description": [
 			"## Emissary",
 			"",
@@ -234,14 +180,6 @@
 			"Ultimate Wilderness",
 			"Familiar Folio"
 		],
-		"replaces": "Improved Evasion; Deliver Touch Spells; Speak with Animals of its Kind; Scry on Familiar",
-		"replace_array": [
-			"Improved Evasion",
-			"Deliver Touch Spells",
-			"Speak with Animals of its Kind",
-			"Scry on Familiar"
-		],
-		"short_description": "Figments are born from their masters' imaginations rather than being ordinary creatures that are awakened.",
 		"description": [
 			"## Figment",
 			"",
@@ -265,15 +203,6 @@
 			"Ultimate Wilderness",
 			"Animal Archive"
 		],
-		"replaces": "Alertness; Share Spells; Improved Evasion; Speak with Animals of its Kind; Spell Resistance",
-		"replace_array": [
-			"Alertness",
-			"Share Spells",
-			"Improved Evasion",
-			"Speak with Animals of its Kind",
-			"Spell Resistance"
-		],
-		"short_description": "Familiars can be skilled spies, and infiltrators are the very best of their kind at the subtle art of espionage.",
 		"description": [
 			"## Infiltrator",
 			"",
@@ -311,19 +240,6 @@
 			"Ultimate Wilderness",
 			"Familiar Folio"
 		],
-		"replaces": "Alertness; Empathic Link; Improved Evasion; Share Spells; Deliver Touch Spells; Speak with Master; Speak with Animals of its Kind; Spell Resistance; Scry on Familiar",
-		"replace_array": [
-			"Alertness",
-			"Empathic Link",
-			"Improved Evasion",
-			"Share Spells",
-			"Deliver Touch Spells",
-			"Speak with Master",
-			"Speak with Animals of its Kind",
-			"Spell Resistance",
-			"Scry on Familiar"
-		],
-		"short_description": "A familiar sometimes serves as the centerpiece of an adventuring party. Known as a mascot, this type of familiar eventually treats the entire party as its master.",
 		"description": [
 			"## Mascot",
 			"",
@@ -365,15 +281,6 @@
 			"Ultimate Wilderness",
 			"Familiar Folio"
 		],
-		"replaces": "Speak with Master; Speak with Animals of its Kind; Intelligence Score Progression; Deliver Touch Spells; Spell Resistance",
-		"replace_array": [
-			"Speak with Master",
-			"Speak with Animals of its Kind",
-			"Intelligence Score Progression",
-			"Deliver Touch Spells",
-			"Spell Resistance"
-		],
-		"short_description": "While most familiars are scouts and assistants, the mauler familiar cares only for the thrill of battle. A mauler often serves a bloodthirsty or martial-minded master.",
 		"description": [
 			"## Mauler",
 			"",
@@ -406,12 +313,6 @@
 		"name": "Occult Messenger",
 		"file": "archetypedisplaycc51.html",
 		"sources": [ "Wilderness Origins" ],
-		"replaces": "Alertness; Deliver Touch Spells",
-		"replace_array": [
-			"Alertness",
-			"Deliver Touch Spells"
-		],
-		"short_description": "Some familiars are messengers of greater powers than themselves.",
 		"description": [
 			"## Occult Messenger",
 			"",
@@ -432,16 +333,6 @@
 		"name": "Parasite",
 		"file": "archetypedisplayd146-2.html",
 		"sources": [ "Wilderness Origins" ],
-		"replaces": "Evasion; Share Spells; Deliver Touch Spells; Speak with Animals of its Kind; Spell Resistance; Scry on Familiar",
-		"replace_array": [
-			"Evasion",
-			"Share Spells",
-			"Deliver Touch Spells",
-			"Speak with Animals of its Kind",
-			"Spell Resistance",
-			"Scry on Familiar"
-		],
-		"short_description": "Most familiars are still something akin to normal animals, conduits for power rather than powers themselves. The parasite is one of the more disturbing exceptions.",
 		"description": [
 			"## Parasite",
 			"",
@@ -469,13 +360,6 @@
 			"Ultimate Wilderness",
 			"Animal Archive"
 		],
-		"replaces": "Improved Evasion; Deliver Touch Spells; Speak with Animals of its Kind",
-		"replace_array": [
-			"Improved Evasion",
-			"Deliver Touch Spells",
-			"Speak with Animals of its Kind"
-		],
-		"short_description": "Some familiars are stealthy pilferers that perform tricks of thievery or simple spying on their master's behalf.",
 		"description": [
 			"## Pilferer",
 			"",
@@ -506,17 +390,6 @@
 		"name": "Prankster",
 		"file": "archetypedisplay66b0.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Empathic Link; Alertness; Improved Evasion; Share Spells; Deliver Touch Spells; Spell Resistance; Scry on Familiar",
-		"replace_array": [
-			"Empathic Link",
-			"Alertness",
-			"Improved Evasion",
-			"Share Spells",
-			"Deliver Touch Spells",
-			"Spell Resistance",
-			"Scry on Familiar"
-		],
-		"short_description": "Some familiars love to perform pranks on their unsuspecting masters, as well as on those around their masters-allies and enemies alike. While good-aligned pranksters' tricks are usually good natured except against foes, evil pranksters play tricks that are mean spirited or even downright cruel.",
 		"description": [
 			"## Prankster",
 			"",
@@ -558,15 +431,6 @@
 			"Ultimate Wilderness",
 			"Familiar Folio"
 		],
-		"replaces": "Alertness; Improved Evasion; Deliver Touch Spells; Speak with Animals of its Kind; Spell Resistance",
-		"replace_array": [
-			"Alertness",
-			"Improved Evasion",
-			"Deliver Touch Spells",
-			"Speak with Animals of its Kind",
-			"Spell Resistance"
-		],
-		"short_description": "Protector familiars are so devoted that they would give their lives for their masters. A tumor familiar can't be a protector.",
 		"description": [
 			"## Protector",
 			"",
@@ -594,14 +458,6 @@
 			"Ultimate Wilderness",
 			"Familiar Folio"
 		],
-		"replaces": "Intelligence Score Progression; Natural Armor Progression; Alertness; Skill Ranks",
-		"replace_array": [
-			"Intelligence Score Progression",
-			"Natural Armor Progression",
-			"Alertness",
-			"Skill Ranks"
-		],
-		"short_description": "Sages are masters of useful facts, able to recall them for their masters' benefit, though this leads many to become haughty and proud.",
 		"description": [
 			"## Sage",
 			"",
@@ -624,13 +480,6 @@
 		"name": "School Familiar",
 		"file": "archetypedisplaya819.html",
 		"sources": [ "Familiar Folio" ],
-		"replaces": "Share Spells; Deliver Touch Spells; Cannot combine with any other Archetype",
-		"replace_array": [
-			"Share Spells",
-			"Deliver Touch Spells",
-			"Cannot combine with any other Archetype"
-		],
-		"short_description": "(Requires [School Familiar](feat/school_familiar) Feat) School familiars are tightly bound to the power of their master's chosen school of magic.",
 		"description": [
 			"## School Familiar",
 			"",
@@ -717,13 +566,6 @@
 		"name": "Soulbound Familiar",
 		"file": "archetypedisplaycaf3.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Alertness; Speak with Animals of its Kind; Scry on Familiar",
-		"replace_array": [
-			"Alertness",
-			"Speak with Animals of its Kind",
-			"Scry on Familiar"
-		],
-		"short_description": "Soulbound familiars are born when a master uses the magical principles behind soulbound dolls to bind a soul fragment to an animal.",
 		"description": [
 			"## Soulbound Familiar",
 			"",
@@ -747,16 +589,6 @@
 			"Ultimate Wilderness",
 			"Animal Archive"
 		],
-		"replaces": "Alertness; Share Spells; Improved Evasion; Deliver Touch Spells; Speak with Animals of its Kind; Scry on Familiar",
-		"replace_array": [
-			"Alertness",
-			"Share Spells",
-			"Improved Evasion",
-			"Deliver Touch Spells",
-			"Speak with Animals of its Kind",
-			"Scry on Familiar"
-		],
-		"short_description": "A valet is a consummate personal servant, able to fetch, deliver, and perform for its master's every need.",
 		"description": [
 			"## Valet",
 			"",

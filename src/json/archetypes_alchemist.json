@@ -4,16 +4,6 @@
 		"name": "Aerochemist",
 		"file": "archetypedisplay2be5.html",
 		"sources": [ "Blood of the Ancients" ],
-		"replaces": "Mutagen; Swift Poisoning; Persistent Mutagen; Poison Use; Swift Alchemy; Poison Resistance",
-		"replace_array": [
-			"Mutagen",
-			"Swift Poisoning",
-			"Persistent Mutagen",
-			"Poison Use",
-			"Swift Alchemy",
-			"Poison Resistance"
-		],
-		"short_description": "Aerochemists use scraps of Shory's magic in their concoctions to gain personal powers of flight.",
 		"description": [
 			"## Aerochemist",
 			"",
@@ -42,17 +32,6 @@
 		"name": "Alchemical Sapper",
 		"file": "archetypedisplay0413.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Bomb; Mutagen; Poison Resistance; Swift Alchemy; 6th-level Discovery; Poison Immunity",
-		"replace_array": [
-			"Class Skills",
-			"Bombs",
-			"Mutagen",
-			"Poison Resistance",
-			"Swift Alchemy",
-			"6th-level Discovery",
-			"Poison Immunity"
-		],
-		"short_description": "Alchemical sappers are trained to create explosives.",
 		"description": [
 			"## Alchemical Sapper",
 			"",
@@ -97,12 +76,6 @@
 		"name": "Alchemical Trapper",
 		"file": "archetypedisplay2619.html",
 		"sources": [ "Monster Codex" ],
-		"replaces": "2nd and 4th-level Discoveries",
-		"replace_array": [
-			"2nd-level Discovery",
-			"4th-level Discovery"
-		],
-		"short_description": "(Kobold Only) Because kobolds rely on traps to soften up enemies, kobold alchemists learn to turn bombs into traps.",
 		"description": [
 			"## Alchemical Trapper",
 			"",
@@ -119,13 +92,6 @@
 		"name": "Aquachymist",
 		"file": "archetypedisplay1388.html",
 		"sources": [ "Aquatic Adventures" ],
-		"replaces": "Class Skills; Bombs; 2nd-level Discovery",
-		"replace_array": [
-			"Class Skills",
-			"Bombs",
-			"2nd-level Discovery"
-		],
-		"short_description": "Aquachymists are those rare few alchemists of land-dwelling and aquatic races alike who strive to unlock new and fantastic secrets of alchemy that can be discovered only in the water's depths.",
 		"description": [
 			"## Aquachymist",
 			"",
@@ -152,14 +118,6 @@
 		"name": "Beastmorph",
 		"file": "archetypedisplayaa81.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Swift Alchemy; Swift Poisoning; Poison Immunity; Persistent Mutagen",
-		"replace_array": [
-			"Swift Alchemy",
-			"Swift Poisoning",
-			"Poison Immunity",
-			"Persistent Mutagen"
-		],
-		"short_description": "Beastmorphs study the anatomy of monsters, learning how they achieve their strange powers.",
 		"description": [
 			"## Beastmorph",
 			"",
@@ -182,13 +140,6 @@
 		"name": "Blazing Torchbearer",
 		"file": "archetypedisplayc0c8.html",
 		"sources": [ "Dungeoneer's Handbook" ],
-		"replaces": "Brew Potion; Poison Use; 4th-level Discovery",
-		"replace_array": [
-			"Brew Potion",
-			"Poison Use",
-			"4th-level Discovery"
-		],
-		"short_description": "The blazing torchbearer is especially adept at manipulating flames of all kinds.",
 		"description": [
 			"## Blazing Torchbearer",
 			"",
@@ -207,15 +158,6 @@
 		"name": "Blightseeker",
 		"file": "archetypedisplayd7bb.html",
 		"sources": [ "Heroes of the Darklands" ],
-		"replaces": "Bombs; 6th, 12th, 18th-level Discovery; Persistent Mutagen",
-		"replace_array": [
-			"Bombs",
-			"6th-level Discovery",
-			"12th-level Discovery",
-			"18th-level Discovery",
-			"Persistent Mutagen"
-		],
-		"short_description": "Blightseekers are alchemists devoted to the study of fungi native to the Darklands.",
 		"description": [
 			"## Blightseeker",
 			"",
@@ -272,13 +214,6 @@
 		"name": "Blood Alchemist",
 		"file": "archetypedisplayc07e.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Alignment; Mutagen; Bombs",
-		"replace_array": [
-			"Alignment",
-			"Mutagen",
-			"Bombs"
-		],
-		"short_description": "Most alchemists can transform matter and energy into other forms, but some wicked specialists realize that life itself is an energy that can greatly fuel their alchemy.",
 		"description": [
 			"## Blood Alchemist",
 			"",
@@ -309,12 +244,6 @@
 		"name": "Bogborn Alchemist",
 		"file": "archetypedisplayf2f9.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Class Skills; Throw Anything",
-		"replace_array": [
-			"Class Skills",
-			"Throw Anything"
-		],
-		"short_description": "(Grippli Only) Some grippli alchemists are particularly attuned to the swamps and the dangerous creatures that inhabit them; these serve as their laboratories and research subjects, respectively.",
 		"description": [
 			"## Bogborn Alchemist",
 			"",
@@ -335,14 +264,6 @@
 		"name": "Bramble Brewer",
 		"file": "archetypedisplay0b7b.html",
 		"sources": [],
-		"replaces": "2nd-level Discovery; Mutagen; Greater Mutagen; Grand Mutagen",
-		"replace_array": [
-			"2nd-level Discovery",
-			"Mutagen",
-			"Greater Mutagen",
-			"Grand Mutagen"
-		],
-		"short_description": "(Half-Elf Only) Some half-elven alchemists merge human curiosity with their elven link to nature.",
 		"description": [
 			"## Bramble Brewer",
 			"",
@@ -367,13 +288,6 @@
 		"name": "Chirurgeon",
 		"file": "archetypedisplayb962.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Poison Use; Poison Resistance +4; Poison Immunity",
-		"replace_array": [
-			"Poison Use",
-			"Poison Resistance +4",
-			"Poison Immunity"
-		],
-		"short_description": "An alchemist who studies anatomy and uses this knowledge to heal is a chirurgeon.",
 		"description": [
 			"## Chirurgeon",
 			"",
@@ -394,13 +308,6 @@
 		"name": "Clone Master",
 		"file": "archetypedisplay96c1.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Bomb; Poison Resistance +6; Poison Immunity",
-		"replace_array": [
-			"Bombs",
-			"Poison Resistance +6",
-			"Poison Immunity"
-		],
-		"short_description": "Clone masters practice duplicating existing creatures in order to better understand how to create new life.",
 		"description": [
 			"## Clone Master",
 			"",
@@ -425,14 +332,6 @@
 		"name": "Concocter",
 		"file": "archetypedisplay87a6.html",
 		"sources": [],
-		"replaces": "2nd, 4th, 6th-level Discovery; Swift Poisoning",
-		"replace_array": [
-			"2nd-level Discovery",
-			"4th-level Discovery",
-			"6th-level Discovery",
-			"Swift Poisoning"
-		],
-		"short_description": "Concocters are experts at combining sets of chemicals to create unique effects.",
 		"description": [
 			"## Concocter",
 			"",
@@ -470,15 +369,6 @@
 		"name": "Construct Rider",
 		"file": "archetypedisplayb7f7.html",
 		"sources": [ "Cohorts and Companions" ],
-		"replaces": "Class Skills; Brew Potion; Mutagen; 4th-level Discovery; Extracts",
-		"replace_array": [
-			"Class Skills",
-			"Brew Potion",
-			"Mutagen",
-			"4th-level Discovery",
-			"Extracts"
-		],
-		"short_description": "A construct rider creates arcane devices to emulate and surpass weak flesh.",
 		"description": [
 			"## Construct Rider",
 			"",
@@ -511,11 +401,6 @@
 		"name": "Crimson Chymist",
 		"file": "archetypedisplay2b62.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Mutagen",
-		"replace_array": [
-			"Mutagen"
-		],
-		"short_description": "Crimson chymists turn to the alchemical arts, infusing their bodies with the mutagenic essence of the Mantis God.",
 		"description": [
 			"## Crimson Chymist",
 			"",
@@ -544,16 +429,6 @@
 		"name": "Cruorchymist",
 		"file": "archetypedisplay2b9e.html",
 		"sources": [ "Construct Handbook" ],
-		"replaces": "Poison Use; Poison Resistance; Poison Immunity; Swift Poisoning; Mutagen; Brew Potion",
-		"replace_array": [
-			"Poison Use",
-			"Poison Resistance",
-			"Poison Immunity",
-			"Swift Poisoning",
-			"Mutagen",
-			"Brew Potion"
-		],
-		"short_description": "Cruorchymists see their blood as just another tool for their experiments",
 		"description": [
 			"## Cruorchymist",
 			"",
@@ -576,14 +451,6 @@
 		"name": "Crypt Breaker",
 		"file": "archetypedisplayb87b.html",
 		"sources": [ "Inner Sea Magic" ],
-		"replaces": "Alchemist Bomb, Mutagen, Brew Potion, Persistent Mutagen",
-		"replace_array": [
-			"Bombs",
-			"Mutagen",
-			"Brew Potion",
-			"Persistent Mutagen"
-		],
-		"short_description": "Crypt breakers use their powers of perception and alchemical adaptation to safely investigate the mysteries of the past.",
 		"description": [
 			"## Crypt Breaker",
 			"",
@@ -606,14 +473,6 @@
 		"name": "Deep Bomber",
 		"file": "archetypedisplay2014.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Poison Use; Swift Alchemy; Instant Alchemy; Swift Poisoning",
-		"replace_array": [
-			"Poison Use",
-			"Swift Alchemy",
-			"Instant Alchemy",
-			"Swift Poisoning"
-		],
-		"short_description": "(Svirfneblin Only) Consumed with keeping hidden from the horrors below the surface, svirfneblin use their racial proclivity for alchemy and their inherent talent for obfuscation to strike their enemies from the darkness and retreat unseen.",
 		"description": [
 			"## Deep Bomber",
 			"",
@@ -634,11 +493,6 @@
 		"name": "Dimensional Excavator",
 		"file": "archetypedisplay6661.html",
 		"sources": [ "Magic Tactics Toolbox" ],
-		"replaces": "4th-level Discovery",
-		"replace_array": [
-			"4th-level Discovery"
-		],
-		"short_description": "Dimensional excavators have discovered and recorded ways to cause their bombs to create minor tears in the fabric of reality, forming extradimensional pits to vex their foes.",
 		"description": [
 			"## Dimensional Excavator",
 			"",
@@ -659,18 +513,6 @@
 		"name": "Dragonblood Chymist",
 		"file": "archetypedisplay4db4.html",
 		"sources": [ "Legacy of Dragons" ],
-		"replaces": "Mutagen; 2nd, 12th, 16th-level discovery; Throw Anything; Poison Resistance; Poison Use; Swift Poisoning",
-		"replace_array": [
-			"Mutagen",
-			"2nd-level Discovery",
-			"12th-level Discovery",
-			"16th-level Discovery",
-			"Throw Anything",
-			"Poison Resistance",
-			"Poison Use",
-			"Swift Poisoning"
-		],
-		"short_description": "The dragonblood chymist specializes in the reckless distillation of extracts and elixirs that allow them to experience the might of a dragon, however dangerous it might be.",
 		"description": [
 			"## Dragonblood Chymist",
 			"",
@@ -697,17 +539,6 @@
 		"name": "Ectochymist",
 		"file": "archetypedisplayee8f.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Class Skills; Bombs; Poison Resistance; Poison Use; Swift Poisoning; 8th-level Discovery; Poison Immunity",
-		"replace_array": [
-			"Class Skills",
-			"Bombs",
-			"Poison Resistance",
-			"Poison Use",
-			"Swift Poisoning",
-			"8th-level Discovery",
-			"Poison Immunity"
-		],
-		"short_description": "Ectochymists study the effects of alchemy on soul and spirit, focusing on fighting ghosts and other incorporeal creatures.",
 		"description": [
 			"## Ectochymist",
 			"",
@@ -736,11 +567,6 @@
 		"name": "Ectoplasm Master",
 		"file": "archetypedisplaye428.html",
 		"sources": [ "Haunted Heroes Handbook" ],
-		"replaces": "Brew Potion",
-		"replace_array": [
-			"Brew Potion"
-		],
-		"short_description": "Alchemists capable of distilling spectral horrors into alchemical reagents.",
 		"description": [
 			"## Ectoplasm Master",
 			"",
@@ -765,15 +591,6 @@
 		"name": "Eldritch Poisoner",
 		"file": "archetypedisplayabc1.html",
 		"sources": [ "Black Markets" ],
-		"replaces": "Bomb; Throw Anything; Mutagen; Persistent Mutagen; 4th-level Discovery",
-		"replace_array": [
-			"Bombs",
-			"Throw Anything",
-			"Mutagen",
-			"Persistent Mutagen",
-			"4th-level Discovery"
-		],
-		"short_description": "Eldritch poisoners are masters of the toxic arts, synthesizing lethal and incapacitating poisons with uncanny speed and expertise.",
 		"description": [
 			"## Eldritch Poisoner",
 			"",
@@ -838,17 +655,6 @@
 		"name": "Energist",
 		"file": "archetypedisplay58bf.html",
 		"sources": [ "Planar Adventures" ],
-		"replaces": "Extracts; Bombs; Poison Immunity; Throw Anything; 2nd-level Discovery; Swift Poisoning; Poison Resistance",
-		"replace_array": [
-			"Extracts",
-			"Bombs",
-			"Poison Immunity",
-			"Throw Anything",
-			"2nd-level Discovery",
-			"Swift Poisoning",
-			"Poison Resistance"
-		],
-		"short_description": "While most alchemists experiment mainly with chemicals and physical materials to create disparate effects, energists tap into the energy of life or death: positive energy or negative energy.",
 		"description": [
 			"## Energist",
 			"",
@@ -879,16 +685,6 @@
 		"name": "Energy Scientist",
 		"file": "archetypedisplay29ef.html",
 		"sources": [ "Elemental Master's Handbook" ],
-		"replaces": "Class Skills; Alchemy; Poison Resistance; Poison Immunity; Poison Use; Swift Poisoning",
-		"replace_array": [
-			"Class Skills",
-			"Alchemy",
-			"Poison Resistance",
-			"Poison Immunity",
-			"Poison Use",
-			"Swift Poisoning"
-		],
-		"short_description": "Energy scientists fervently prepare themselves to overcome exposure to specific elemental hazards so that they can traverse the Elemental Planes in search of novel discoveries and reagents.",
 		"description": [
 			"## Energy Scientist",
 			"",
@@ -923,14 +719,6 @@
 		"name": "Fermenter",
 		"file": "archetypedisplayc0aa.html",
 		"sources": [ "Potions and Poisons" ],
-		"replaces": "Poison Resistance; 10th-level Discovery; Poison Use; Swift Poisoning",
-		"replace_array": [
-			"Poison Resistance",
-			"10th-level Discovery",
-			"Poison Use",
-			"Swift Poisoning"
-		],
-		"short_description": "Little more than moonshiners to some, fermenters focus their efforts on imbibing substances, learning from the resulting effects on their bodies, and infusing this knowledge into their skill sets.",
 		"description": [
 			"## Fermenter",
 			"",
@@ -955,17 +743,6 @@
 		"name": "Fire Bomber",
 		"file": "archetypedisplay19ae.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Weapon/Armor Proficiency; Bomb; Throw Anything; 4th-level Discovery; Poison Resistance +6; Poison Immunity; Persistent Mutagen",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Bombs",
-			"Throw Anything",
-			"4th-level Discovery",
-			"Poison Resistance +6",
-			"Poison Immunity",
-			"Persistent Mutagen"
-		],
-		"short_description": "(Goblin Only) Fire bombers are exceptionally good at using bombs to burn creatures and blow things up, but are not quite as good at creating other types of bombs or extracts.",
 		"description": [
 			"## Fire Bomber",
 			"",
@@ -994,16 +771,6 @@
 		"name": "First World Innovator",
 		"file": "archetypedisplayd2f6.html",
 		"sources": [ "Legacy of the First World" ],
-		"replaces": "Brew Potion; Poison Use; Swift Poisoning; Poison Immunity; Bombs; Poison Resistance",
-		"replace_array": [
-			"Brew Potion",
-			"Poison Use",
-			"Swift Poisoning",
-			"Poison Immunity",
-			"Bombs",
-			"Poison Resistance"
-		],
-		"short_description": "Those who can harness primal reagents-mundane reagents infused with the power of the First World-walk a fine line between genius and catastrophe.",
 		"description": [
 			"## First World Innovator",
 			"",
@@ -1038,14 +805,6 @@
 		"name": "Gloom Chymist",
 		"file": "archetypedisplay4eac.html",
 		"sources": [ "Blood of Shadows" ],
-		"replaces": "Bomb; Poison Resistance; Poison Use; Swift Poisoning",
-		"replace_array": [
-			"Bombs",
-			"Poison Resistance",
-			"Poison Use",
-			"Swift Poisoning"
-		],
-		"short_description": "A breakthrough in Nidalese alchemy led to the creation of glooms, magical fields of darkness from the Shadow Plane that can be momentarily animated with the use of strange compounds.",
 		"description": [
 			"## Gloom Chymist",
 			"",
@@ -1066,15 +825,6 @@
 		"name": "Grenadier",
 		"file": "archetypedisplayc03a.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
-		"replaces": "Brew Potion, Poison Resistance, Poison Use, Swift Poisoning, Poison Immunity",
-		"replace_array": [
-			"Brew Potion",
-			"Poison Resistance",
-			"Poison Use",
-			"Swift Poisoning",
-			"Poison Immunity"
-		],
-		"short_description": "Grenadiers sacrifice their skill with poisons in order to become more adept at using alchemical bombs.",
 		"description": [
 			"## Grenadier",
 			"",
@@ -1097,15 +847,6 @@
 		"name": "Grenadier [MC]",
 		"file": "archetypedisplayf406.html",
 		"sources": [ "Monster Codex" ],
-		"replaces": "Brew Potion; Poison Resistance; Poison Use; Swift Poisoning; Poison Immunity",
-		"replace_array": [
-			"Brew Potion",
-			"Poison Resistance",
-			"Poison Use",
-			"Swift Poisoning",
-			"Poison Immunity"
-		],
-		"short_description": "Grenadiers train to exercise their talents in the thick of battle, even when not under the influence of their mutagens. They learn methods of combining weapon attacks with their alchemical magic, and sacrifice skill with poisons in order to become more adept at using alchemical bombs or using alchemical items in conjunction with their martial skills.",
 		"description": [
 			"## Grenadier [MC]",
 			"",
@@ -1128,16 +869,6 @@
 		"name": "Gun Chemist",
 		"file": "archetypedisplay8ccd.html",
 		"sources": [ "People of the Wastes" ],
-		"replaces": "Weapon and Armor Proficiencies; Bombs; Brew Potion; Throw Anything; Poison Resistance; Swift Poisoning",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Bombs",
-			"Brew Potion",
-			"Throw Anything",
-			"Poison Resistance",
-			"Swift Poisoning"
-		],
-		"short_description": "Simple alchemists may dabble in explosives, but for the rare gun chemist, a firearm's barrel is his crucible",
 		"description": [
 			"## Gun Chemist",
 			"",
@@ -1184,17 +915,6 @@
 		"name": "Herbalist",
 		"file": "archetypedisplay074d.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Alchemy; Key Ability Score; Throw Anything; Bombs; Poison Use; Poison Resistance; Poison Immunity",
-		"replace_array": [
-			"Alchemy",
-			"Key Ability Score",
-			"Throw Anything",
-			"Bombs",
-			"Poison Use",
-			"Poison Resistance",
-			"Poison Immunity"
-		],
-		"short_description": "(Vine Leshy only) Vine leshys who study the physical and spiritual composition of their own bodies have discovered a strange herbal alchemy all their own.",
 		"description": [
 			"## Herbalist",
 			"",
@@ -1219,15 +939,6 @@
 		"name": "Homunculist",
 		"file": "archetypedisplayd4ee.html",
 		"sources": [ "Familiar Folio" ],
-		"replaces": "Poison Use; Poison Resistance; Poison Immunity; Swift Poisoning; Mutagen",
-		"replace_array": [
-			"Poison Use",
-			"Poison Resistance",
-			"Poison Immunity",
-			"Swift Poisoning",
-			"Mutagen"
-		],
-		"short_description": "One of the grand goals of alchemy is the ability to create new life. A homunculist has made this dream a reality, growing and modifying a familiar in his own laboratory.",
 		"description": [
 			"## Homunculist",
 			"",
@@ -1246,18 +957,6 @@
 		"name": "Horticulturist",
 		"file": "archetypedisplay0b61.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Mutagen; 2nd and 4th-level Discoveries; Bomb; Poison Resistance; Poison Use; Poison Immunity; Persistent Mutagen",
-		"replace_array": [
-			"Mutagen",
-			"2nd-level Discovery",
-			"4th-level Discovery",
-			"Bombs",
-			"Poison Resistance",
-			"Poison Use",
-			"Poison Immunity",
-			"Persistent Mutagen"
-		],
-		"short_description": "A horticulturist spends his time cultivating plants and plant creatures, allowing him to experiment with strange and wondrous herbal concoctions.",
 		"description": [
 			"## Horticulturist",
 			"",
@@ -1290,14 +989,6 @@
 		"name": "Ice Chemist",
 		"file": "archetypedisplayf10e.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Bomb; Poison Resistance; Poison Immunity; 2nd-level Discovery",
-		"replace_array": [
-			"Bombs",
-			"Poison Resistance",
-			"Poison Immunity",
-			"2nd-level Discovery"
-		],
-		"short_description": "Reclusive alchemists who dwell in the highest mountains or on the frozen tundra devote their skills to mastering the cold.",
 		"description": [
 			"## Ice Chemist",
 			"",
@@ -1318,11 +1009,6 @@
 		"name": "Inspired Chemist",
 		"file": "archetypedisplay8033.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Mutagen",
-		"replace_array": [
-			"Mutagen"
-		],
-		"short_description": "Akin to a mindchemist, inspired chemists use a type of cognatogen that instead of increasing their mental ability scores grants them inspiration like an investigator.",
 		"description": [
 			"## Inspired Chemist",
 			"",
@@ -1345,13 +1031,6 @@
 		"name": "Internal Alchemist",
 		"file": "archetypedisplay66fe.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Throw Anything; Swift Alchemy; Swift Poisoning",
-		"replace_array": [
-			"Throw Anything",
-			"Swift Alchemy",
-			"Swift Poisoning"
-		],
-		"short_description": "An internal alchemist studies medicine, diet, and the living body to purify the self in the hope of gaining immortality.",
 		"description": [
 			"## Internal Alchemist",
 			"",
@@ -1374,14 +1053,6 @@
 		"name": "Interrogator",
 		"file": "archetypedisplayd500.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Bomb; Mutagen; Persistent Mutagen",
-		"replace_array": [
-			"Class Skills",
-			"Bombs",
-			"Mutagen",
-			"Persistent Mutagen"
-		],
-		"short_description": "An interrogator extracts vital information from reluctant individuals using alchemical and traditional methods.",
 		"description": [
 			"## Interrogator",
 			"",
@@ -1420,14 +1091,6 @@
 		"name": "Mad Scientist",
 		"file": "archetypedisplay4b5d.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Alchemy, 2nd, 4th-level Discovery; Mutagen",
-		"replace_array": [
-			"Alchemy",
-			"2nd-level Discovery",
-			"4th-level Discovery",
-			"Mutagen"
-		],
-		"short_description": "The mad scientist's colleagues laughed at her insights, mocked her theories, and hounded her from the halls of academia, simply because they were too weak and frightened to understand her work.",
 		"description": [
 			"## Mad Scientist",
 			"",
@@ -1460,17 +1123,6 @@
 		"name": "Metamorph",
 		"file": "archetypedisplay28d8.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Bomb; Extracts; Throw Anything; Swift Alchemy; Swift Poisoning; Instant Alchemy",
-		"replace_array": [
-			"Class Skills",
-			"Bombs",
-			"Extracts",
-			"Throw Anything",
-			"Swift Alchemy",
-			"Swift Poisoning",
-			"Instant Alchemy"
-		],
-		"short_description": "Metamorphs eschew traditional alchemy, focusing on internal chemistry and the transfiguration of living forms.",
 		"description": [
 			"## Metamorph",
 			"",
@@ -1501,12 +1153,6 @@
 		"name": "Mindchemist",
 		"file": "archetypedisplayd493.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Mutagen; Poison Use",
-		"replace_array": [
-			"Mutagen",
-			"Poison Use"
-		],
-		"short_description": "A mindchemist can reach incredible levels of mental acuity, but suffers lingering debilitating effects to his physique.",
 		"description": [
 			"## Mindchemist",
 			"",
@@ -1529,16 +1175,6 @@
 		"name": "Mixologist",
 		"file": "archetypedisplay24de.html",
 		"sources": [ "Inner Sea Taverns" ],
-		"replaces": "Alchemy; Brew Potion; Mutagen; 2nd-level Discovery; Poison Resistance; Persistent Mutagen",
-		"replace_array": [
-			"Alchemy",
-			"Brew Potion",
-			"Mutagen",
-			"2nd-level Discovery",
-			"Poison Resistance",
-			"Persistent Mutagen"
-		],
-		"short_description": "Mixologists focus on mastering the chemical reactions between alcohol and the physical body.",
 		"description": [
 			"## Mixologist",
 			"",
@@ -1567,17 +1203,6 @@
 		"name": "Mnemostiller",
 		"file": "archetypedisplayc8d4.html",
 		"sources": [ "Distant Realms" ],
-		"replaces": "Key Ability Score; Alchemy; Throw Anything; Mutagen; Bombs; Poison Resistance; Poison Use",
-		"replace_array": [
-			"Key Ability Score",
-			"Alchemy",
-			"Throw Anything",
-			"Mutagen",
-			"Bombs",
-			"Poison Resistance",
-			"Poison Use"
-		],
-		"short_description": "Mnemostillers extract memories; hey can return memories as easily as administering a potion, and experienced mnemostillers create a variety of effects through the careful administration of past traumas or victories",
 		"description": [
 			"## Mnemostiller",
 			"",
@@ -1622,12 +1247,6 @@
 		"name": "Oenopion Researcher",
 		"file": "archetypedisplay8e65.html",
 		"sources": [ "Inner Sea Magic" ],
-		"replaces": "Poison Use, Swift Alchemy",
-		"replace_array": [
-			"Poison Use",
-			"Swift Alchemy"
-		],
-		"short_description": "The alchemist of Oenopion is incredibly skilled at making potions, elixirs, and other materials crucial to the country's economy and its monster-creating fleshforges.",
 		"description": [
 			"## Oenopion Researcher",
 			"",
@@ -1646,15 +1265,6 @@
 		"name": "Oozemaster",
 		"file": "archetypedisplayf6a8.html",
 		"sources": [ "Monster Hunter's Handbook" ],
-		"replaces": "Class Skills; Bomb; Brew Potion; Poison Resistance; Poison Immunity",
-		"replace_array": [
-			"Class Skills",
-			"Bombs",
-			"Brew Potion",
-			"Poison Resistance",
-			"Poison Immunity"
-		],
-		"short_description": "The oozemaster is a specialized alchemist who fights and ensnares oozes.",
 		"description": [
 			"## Oozemaster",
 			"",
@@ -1687,15 +1297,6 @@
 		"name": "Perfumer",
 		"file": "archetypedisplay648c.html",
 		"sources": [ "Wilderness Origins" ],
-		"replaces": "Extracts; Brew Potion; Bomb; Mutagen; Persistent Mutagen",
-		"replace_array": [
-			"Extracts",
-			"Brew Potion",
-			"Bombs",
-			"Mutagen",
-			"Persistent Mutagen"
-		],
-		"short_description": "A perfumer alchemist refines extracts to their most pure and rarefied forms to spread on the wind",
 		"description": [
 			"## Perfumer",
 			"",
@@ -1724,13 +1325,6 @@
 		"name": "Plague Bringer",
 		"file": "archetypedisplayb03f.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Mutagen; Poison Resistance; Poison Immunity",
-		"replace_array": [
-			"Mutagen",
-			"Poison Resistance",
-			"Poison Immunity"
-		],
-		"short_description": "(Ratfolk Only) The plague bringer sees disease as the ultimate weapon, and has worked tirelessly to master new diseases and disease-delivery systems.",
 		"description": [
 			"## Plague Bringer",
 			"",
@@ -1757,16 +1351,6 @@
 		"name": "Preservationist",
 		"file": "archetypedisplay75f8.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Poison Use; Poison Resistance +4; Poison Resistance +6; Poison Immunity; Persistent Mutagen; 18th-level Discovery",
-		"replace_array": [
-			"Poison Use",
-			"Poison Resistance +4",
-			"Poison Resistance +6",
-			"Poison Immunity",
-			"Persistent Mutagen",
-			"18th-level Discovery"
-		],
-		"short_description": "Some alchemists are obsessed with collecting and preserving exotic creatures.",
 		"description": [
 			"## Preservationist",
 			"",
@@ -1793,14 +1377,6 @@
 		"name": "Promethean Alchemist",
 		"file": "archetypedisplay9929.html",
 		"sources": [],
-		"replaces": "Brew Potion; Throw Anything; Bombs; Mutagen",
-		"replace_array": [
-			"Brew Potion",
-			"Throw Anything",
-			"Bombs",
-			"Mutagen"
-		],
-		"short_description": "Obsessed with discovering the origins of life, promethean alchemists build constructs they gradually endow with life.",
 		"description": [
 			"## Promethean Alchemist",
 			"",
@@ -1892,16 +1468,6 @@
 		"name": "Psychonaut",
 		"file": "archetypedisplay8320.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Bomb; Poison Resistance +4; Poison Resistance +6; Poison Immunity; 15th-level Bomb Damage Increase; 17th-level Bomb Damage Increase",
-		"replace_array": [
-			"Bombs",
-			"Poison Resistance +4",
-			"Poison Resistance +6",
-			"Poison Immunity",
-			"15th-level Bomb Damage Increase",
-			"17th-level Bomb Damage Increase"
-		],
-		"short_description": "A psychonaut uses his knowledge to explore altered states of consciousness and even other planes of existence.",
 		"description": [
 			"## Psychonaut",
 			"",
@@ -1928,13 +1494,6 @@
 		"name": "Ragechemist",
 		"file": "archetypedisplayb5eb.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Poison Use; Swift Poisoning; Poison Immunity",
-		"replace_array": [
-			"Poison Use",
-			"Swift Poisoning",
-			"Poison Immunity"
-		],
-		"short_description": "Some alchemists create mutagens that tap into a primal anger that fuels their physical transformation.",
 		"description": [
 			"## Ragechemist",
 			"",
@@ -1956,14 +1515,6 @@
 		"name": "Reanimator",
 		"file": "archetypedisplay9476.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Bomb; 7th-level Bomb Damage Increase; 13th-level Bomb Damage Increase; 15th-level Bomb Damage Increase",
-		"replace_array": [
-			"Bombs",
-			"7th-level Bomb Damage Increase",
-			"13th-level Bomb Damage Increase",
-			"15th-level Bomb Damage Increase"
-		],
-		"short_description": "A reanimator is an alchemist who has discovered how to infuse a corpse with a semblance of life.",
 		"description": [
 			"## Reanimator",
 			"",
@@ -1986,13 +1537,6 @@
 		"name": "Royal Alchemist",
 		"file": "archetypedisplay2d14.html",
 		"sources": [ "Heroes of the High Court" ],
-		"replaces": "Class Skills; Poison Use; Swift Poisoning",
-		"replace_array": [
-			"Class Skills",
-			"Poison Use",
-			"Swift Poisoning"
-		],
-		"short_description": "Many rulers often hire specialized alchemists capable of concocting protections from both poisons and diseases for the nobles and their guests.",
 		"description": [
 			"## Royal Alchemist",
 			"",
@@ -2019,11 +1563,6 @@
 		"name": "Saboteur",
 		"file": "archetypedisplayf9bb.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Mutagen",
-		"replace_array": [
-			"Mutagen"
-		],
-		"short_description": "(Gnome Only) The saboteur is an alchemist who specializes in destroying the plans, materials, and allies of his enemies.",
 		"description": [
 			"## Saboteur",
 			"",
@@ -2058,13 +1597,6 @@
 		"name": "Sacrament Alchemist",
 		"file": "archetypedisplayfdf9.html",
 		"sources": [ "Healer's Handbook" ],
-		"replaces": "Deity; Mutagen; Swift Alchemy",
-		"replace_array": [
-			"Deity",
-			"Mutagen",
-			"Swift Alchemy"
-		],
-		"short_description": "Sacrament alchemists serve in a great variety of priestly roles for their deities.",
 		"description": [
 			"## Sacrament Alchemist",
 			"",
@@ -2093,16 +1625,6 @@
 		"name": "Tinkerer",
 		"file": "archetypedisplay0250.html",
 		"sources": [ "Inner Sea Intrigue" ],
-		"replaces": "Mutagen; Poison Resistance; Poison Use; Swift Poisoning; Poison Immunity; Persistent Mutagen",
-		"replace_array": [
-			"Mutagen",
-			"Poison Resistance",
-			"Poison Use",
-			"Swift Poisoning",
-			"Poison Immunity",
-			"Persistent Mutagen"
-		],
-		"short_description": "Tinkerers constantly dabble in clockworking, creating special familiars that they regularly upgrade and with which they form bizarre bonds.",
 		"description": [
 			"## Tinkerer",
 			"",
@@ -2165,12 +1687,6 @@
 		"name": "Toxicant",
 		"file": "archetypedisplay0190.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
-		"replaces": "Mutagen; Persistent Mutagen",
-		"replace_array": [
-			"Mutagen",
-			"Persistent Mutagen"
-		],
-		"short_description": "In lands such as Daggermark and Katapesh where poisons are legal and may be openly studied and sold, some alchemists obsess over the myriad ways that poisons and venoms can be applied and delivered.",
 		"description": [
 			"## Toxicant",
 			"",
@@ -2193,16 +1709,6 @@
 		"name": "Trap Breaker",
 		"file": "archetypedisplayf5b9.html",
 		"sources": [ "Dungeoneer's Handbook" ],
-		"replaces": "Poison Use; Poison Resistance +2, +4, +6; Swift Poisoning; Poison Immunity",
-		"replace_array": [
-			"Poison Use",
-			"Poison Resistance +2",
-			"Poison Resistance +4",
-			"Poison Resistance +6",
-			"Swift Poisoning",
-			"Poison Immunity"
-		],
-		"short_description": "Trap breakers forgo the study of poison to instead master the construction and deployment of traps, using their nimble fingers to disable dangerous devices and their alchemical knowledge to create devastating land mines.",
 		"description": [
 			"## Trap Breaker",
 			"",
@@ -2223,14 +1729,6 @@
 		"name": "Vaultbreaker",
 		"file": "archetypedisplay688c.html",
 		"sources": [ "Villain Codex" ],
-		"replaces": "Brew Potion; Bombs; Throw Anything; Poison Use",
-		"replace_array": [
-			"Brew Potion",
-			"Bombs",
-			"Throw Anything",
-			"Poison Use"
-		],
-		"short_description": "The vaultbreaker combines stealth with his bomb-making talents to construct special focused charges that can disable or destroy hinges, locks, and similar mechanisms.",
 		"description": [
 			"## Vaultbreaker",
 			"",
@@ -2259,11 +1757,6 @@
 		"name": "Vivisectionist",
 		"file": "archetypedisplay6b50.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Bombs",
-		"replace_array": [
-			"Bombs"
-		],
-		"short_description": "A vivisectionist studies bodies to better understand their function.",
 		"description": [
 			"## Vivisectionist",
 			"",
@@ -2294,14 +1787,6 @@
 		"name": "Wasteland Blightbreaker",
 		"file": "archetypedisplayb191.html",
 		"sources": [ "Healer's Handbook" ],
-		"replaces": "Poison Resistance +2, +6; Swift Poisoning; 8th-level Discovery",
-		"replace_array": [
-			"Poison Resistance +2",
-			"Poison Resistance +6",
-			"Swift Poisoning",
-			"8th-level Discovery"
-		],
-		"short_description": "The deleterious effects of the weird hazards of the Mana Wastes require special skill to remedy.",
 		"description": [
 			"## Wasteland Blightbreaker",
 			"",
@@ -2328,13 +1813,6 @@
 		"name": "Winged Marauder",
 		"file": "archetypedisplaye34a.html",
 		"sources": [ "Monster Codex" ],
-		"replaces": "Class Skills; Mutagen; Persistent Mutagen",
-		"replace_array": [
-			"Class Skills",
-			"Mutagen",
-			"Persistent Mutagen"
-		],
-		"short_description": "(Goblin Only) Goblin alchemists have created a mixture of pheromones that they use to manipulate and entice giant vultures or dire bats to do their bidding.",
 		"description": [
 			"## Winged Marauder",
 			"",

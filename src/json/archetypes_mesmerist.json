@@ -4,16 +4,6 @@
 		"name": "Aromaphile",
 		"file": "archetypedisplay853a.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Hypnotic Stare; Painful Stare; Towering Ego; Bold Stare; Touch Treatment; Mental Potency",
-		"replace_array": [
-			"Hypnotic Stare",
-			"Painful Stare",
-			"Towering Ego",
-			"Bold Stare",
-			"Touch Treatment",
-			"Mental Potency"
-		],
-		"short_description": "(Ghoran only) Rather than employ the baleful glares of the typical mesmerist, aromaphiles hypnotize others using an array of sickeningly sweet scents developed from their unique ghoran physiology.",
 		"description": [
 			"## Aromaphile",
 			"",
@@ -40,12 +30,6 @@
 		"name": "Autohypnotist",
 		"file": "archetypedisplay07e1.html",
 		"sources": [ "Psychic Anthology" ],
-		"replaces": "Hypnotic Stare; Mental Potency",
-		"replace_array": [
-			"Hypnotic Stare",
-			"Mental Potency"
-		],
-		"short_description": "An autohypnotist has incredibly powerful psychic abilities that he can't entirely control.",
 		"description": [
 			"## Autohypnotist",
 			"",
@@ -68,14 +52,6 @@
 		"name": "Chart Caster",
 		"file": "archetypedisplaycd9c.html",
 		"sources": [ "Blood of the Ancients" ],
-		"replaces": "Class Skills; Mesmerist Tricks; Manifold Tricks; Touch Treatment",
-		"replace_array": [
-			"Class Skills",
-			"Mesmerist Tricks",
-			"Manifold Tricks",
-			"Touch Treatment"
-		],
-		"short_description": "Lirgeni astrologists would divine their futures by consulting star charts, but some had no talent for astrology and simply faked their results. When prophecy died with Aroden, a few Lirgeni survivors continued with this \"reliable\" method.",
 		"description": [
 			"## Chart Caster",
 			"",
@@ -104,19 +80,6 @@
 		"name": "Cult Master",
 		"file": "archetypedisplay34b3.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Consummate Liar; Painful Stare; Mesmerist Tricks; 3rd, 6th, and 14th-level Touch Treatments; 7th-level Bold Stare; Masterful Tricks; Rule Minds",
-		"replace_array": [
-			"Consummate Liar",
-			"Painful Stare",
-			"Mesmerist Tricks",
-			"3rd-level Touch Treatment",
-			"6th-level Touch Treatment",
-			"14th-level Touch Treatment",
-			"7th-level Bold Stare",
-			"Masterful Tricks",
-			"Rule Minds"
-		],
-		"short_description": "The leaders of some cults are simply charlatans, bathing in the adulation of their followers. Others believe themselves to be truly in touch with an unknown power, bringing their unique messages to those willing to follow and obey them.",
 		"description": [
 			"## Cult Master",
 			"",
@@ -157,16 +120,6 @@
 		"name": "Dreamstalker",
 		"file": "archetypedisplayd6ef.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Painful Stare; 1st-level Mesmerist Trick; Towering Ego; Touch Treatment; Manifold Tricks; Glib Lie",
-		"replace_array": [
-			"Painful Stare",
-			"1st-level Mesmerist Trick",
-			"Towering Ego",
-			"Touch Treatment",
-			"Manifold Tricks",
-			"Glib Lie"
-		],
-		"short_description": "Many mesmerists concentrate their studies on conscious, rational thought, but dreamstalkers instead delve into the unleashed unconscious mind that wanders free in dreams.",
 		"description": [
 			"## Dreamstalker",
 			"",
@@ -203,17 +156,6 @@
 		"name": "Enigma",
 		"file": "archetypedisplayefa6.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Hypnotic Stare; Consummate Liar; Painful Stare; Touch Treatment; Manifold Tricks; Glib Lie; Rule Minds",
-		"replace_array": [
-			"Hypnotic Stare",
-			"Consummate Liar",
-			"Painful Stare",
-			"Touch Treatment",
-			"Manifold Tricks",
-			"Glib Lie",
-			"Rule Minds"
-		],
-		"short_description": "An enigma spends his life dedicated to developing psychic abilities that allow him to operate unnoticed.",
 		"description": [
 			"## Enigma",
 			"",
@@ -254,15 +196,6 @@
 		"name": "Eyebiter",
 		"file": "archetypedisplay3f09.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Consummate Liar; 1st-level Mesmerist Trick; Touch Treatment; Mental Potency; Glib Lie",
-		"replace_array": [
-			"Consummate Liar",
-			"1st-level Mesmerist Trick",
-			"Touch Treatment",
-			"Mental Potency",
-			"Glib Lie"
-		],
-		"short_description": "An eyebiter's eyes become so infused with psychic might that they can leave the eyebiter's body and move about on their own.",
 		"description": [
 			"## Eyebiter",
 			"",
@@ -301,15 +234,6 @@
 		"name": "Fey Trickster",
 		"file": "archetypedisplayf973.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Spellcasting; Towering Ego; Touch Treatment; Rule Minds",
-		"replace_array": [
-			"Class Skills",
-			"Spellcasting",
-			"Towering Ego",
-			"Touch Treatment",
-			"Rule Minds"
-		],
-		"short_description": "Most mesmerists draw psychic power from the Astral Plane, but a few gain their powers in an unusual way: from a brush with the fey.",
 		"description": [
 			"## Fey Trickster",
 			"",
@@ -354,14 +278,6 @@
 		"name": "Gaslighter",
 		"file": "archetypedisplayfda3.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Alignment; Consummate Liar; Touch Treatment; Painful Stare",
-		"replace_array": [
-			"Alignment",
-			"Consummate Liar",
-			"Touch Treatment",
-			"Painful Stare"
-		],
-		"short_description": "A gaslighter takes joy in others' suffering, delighting in driving them to madness.",
 		"description": [
 			"## Gaslighter",
 			"",
@@ -396,17 +312,6 @@
 		"name": "Hate-Monger",
 		"file": "archetypedisplay3da8.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Alignment; Consummate Liar; Touch Treatment; Mental Potency; Manifold Tricks; 7th-level Bold Stare; Glib Lie",
-		"replace_array": [
-			"Alignment",
-			"Consummate Liar",
-			"Touch Treatment",
-			"Mental Potency",
-			"Manifold Tricks",
-			"7th-level Bold Stare",
-			"Glib Lie"
-		],
-		"short_description": "Hate-mongers are xenophobic and judgmental rabblerousers who whip up mobs against enemies real or imagined.",
 		"description": [
 			"## Hate-Monger",
 			"",
@@ -441,16 +346,6 @@
 		"name": "Material Manipulator",
 		"file": "archetypedisplayde9e.html",
 		"sources": [ "Psychic Anthology" ],
-		"replaces": "Spellcasting; Consummate Liar; 2nd-level Mesmerist Trick; Manifold Tricks; Touch Treatment; Rule Minds",
-		"replace_array": [
-			"Spellcasting",
-			"Consummate Liar",
-			"2nd-level Mesmerist Trick",
-			"Manifold Tricks",
-			"Touch Treatment",
-			"Rule Minds"
-		],
-		"short_description": "Rather than waste time limiting himself to ruling minds, a material manipulator forces his whims upon reality and uses his magic to ensure that those around him comply with his demands.",
 		"description": [
 			"## Material Manipulator",
 			"",
@@ -477,12 +372,6 @@
 		"name": "Mindwyrm Mesmer",
 		"file": "archetypedisplay838f.html",
 		"sources": [ "Legacy of Dragons" ],
-		"replaces": "Consummate Liar; Painful Stare",
-		"replace_array": [
-			"Consummate Liar",
-			"Painful Stare"
-		],
-		"short_description": "Mindwyrm mesmers emulate the confidence, swagger, and fear inspired by dragons to bully and browbeat others into obedience.",
 		"description": [
 			"## Mindwyrm Mesmer",
 			"",
@@ -513,13 +402,6 @@
 		"name": "Projectionist",
 		"file": "archetypedisplaybc59.html",
 		"sources": [ "Psychic Anthology" ],
-		"replaces": "Spellcasting; 4th-level Mesmerist Trick; Mental Potency",
-		"replace_array": [
-			"Spellcasting",
-			"4th-level Mesmerist Trick",
-			"Mental Potency"
-		],
-		"short_description": "Not content to simply command others from afar, a projectionist is able to use his mesmerizing powers to utterly dominate other creatures and objects by projecting his spirit from his body.",
 		"description": [
 			"## Projectionist",
 			"",
@@ -546,18 +428,6 @@
 		"name": "Spirit Walker",
 		"file": "archetypedisplayb963.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Spells; Consummate Liar; Mental Potency; 3rd, 6th, 10th, and 14th-level Touch Treatments; Rule Minds",
-		"replace_array": [
-			"Add Spells",
-			"Consummate Liar",
-			"Mental Potency",
-			"3rd-level Touch Treatment",
-			"6th-level Touch Treatment",
-			"10th-level Touch Treatment",
-			"14th-level Touch Treatment",
-			"Rule Minds"
-		],
-		"short_description": "Some mesmerists specialize in dominating and controlling undead rather than the living.",
 		"description": [
 			"## Spirit Walker",
 			"",
@@ -580,14 +450,6 @@
 		"name": "Thought Eater",
 		"file": "archetypedisplay38ae.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Consummate Liar; Towering Ego; Touch Treatment; Rule Minds",
-		"replace_array": [
-			"Consummate Liar",
-			"Towering Ego",
-			"Touch Treatment",
-			"Rule Minds"
-		],
-		"short_description": "Mesmerists that learn to pierce deep into the minds of their victims are known as thought eaters, dangerous individuals capable of devouring thoughts and assuming the knowledge those notions represent for themselves.",
 		"description": [
 			"## Thought Eater",
 			"",
@@ -616,16 +478,6 @@
 		"name": "Toxitician",
 		"file": "archetypedisplayec05.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Consummate Liar; Hypnotic Stare; Painful Stare; Bold Stare; Touch Treatment; Glib Lie",
-		"replace_array": [
-			"Consummate Liar",
-			"Hypnotic Stare",
-			"Painful Stare",
-			"Bold Stare",
-			"Touch Treatment",
-			"Glib Lie"
-		],
-		"short_description": "Toxiticians forgo the mesmerist's stare, instead combining their psychic power with their alchemical knowledge to craft injections that torment their foes and bolster themselves and their allies.",
 		"description": [
 			"## Toxitician",
 			"",
@@ -672,19 +524,6 @@
 		"name": "Umbral Mesmerist",
 		"file": "archetypedisplay069c.html",
 		"sources": [ "Occult Realms" ],
-		"replaces": "Spellcasting; 1st, 4th, 8th, 12th, 16th, and 20th-level Mesmerist Tricks; Towering Ego; Mental Potency",
-		"replace_array": [
-			"Spellcasting",
-			"1st-level Mesmerist Trick",
-			"4th-level Mesmerist Trick",
-			"8th-level Mesmerist Trick",
-			"12th-level Mesmerist Trick",
-			"16th-level Mesmerist Trick",
-			"20th-level Mesmerist Trick",
-			"Towering Ego",
-			"Mental Potency"
-		],
-		"short_description": "Trained in secret, umbral mesmerists are clandestine weapons who spend years learning how to shape terrifying creatures from the inky darkness in which they revel.",
 		"description": [
 			"## Umbral Mesmerist",
 			"",
@@ -709,15 +548,6 @@
 		"name": "Vexing Daredevil",
 		"file": "archetypedisplay9927.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Class Skills; 1st-level Mesmerist Trick; Touch Treatment; Bold Stare; Glib Lie",
-		"replace_array": [
-			"Class Skills",
-			"1st-level Mesmerist Trick",
-			"Touch Treatment",
-			"Bold Stare",
-			"Glib Lie"
-		],
-		"short_description": "Vexing daredevils train their psychic powers for combat, specializing in momentarily blinding and confusing their foes with sudden feints and tricks.",
 		"description": [
 			"## Vexing Daredevil",
 			"",
@@ -756,12 +586,6 @@
 		"name": "Vexing Trickster",
 		"file": "archetypedisplay0d69.html",
 		"sources": [ "Psychic Anthology" ],
-		"replaces": "Consummate Liar, Touch Treatment",
-		"replace_array": [
-			"Consummate Liar",
-			"Touch Treatment"
-		],
-		"short_description": "Vexing tricksters indulge in the various hijinks their power enables.",
 		"description": [
 			"## Vexing Trickster",
 			"",
@@ -790,14 +614,6 @@
 		"name": "Vizier",
 		"file": "archetypedisplay213b.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Consummate Liar; 3rd-level Bold Stare; Towering Ego; Mental Potency",
-		"replace_array": [
-			"Consummate Liar",
-			"3rd-level Bold Stare",
-			"Towering Ego",
-			"Mental Potency"
-		],
-		"short_description": "While many mesmerists focus on beguiling their foes or taking overt control of others with their mental powers, viziers carve out a subtler niche for themselves as advisors.",
 		"description": [
 			"## Vizier",
 			"",
@@ -822,15 +638,6 @@
 		"name": "Vox",
 		"file": "archetypedisplay4187.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Spellcasting; Towering Ego; 10th-level Mesmerist Trick; Touch Treatment; Hypnotic Stare",
-		"replace_array": [
-			"Spellcasting",
-			"Towering Ego",
-			"10th-level Mesmerist Trick",
-			"Touch Treatment",
-			"Hypnotic Stare"
-		],
-		"short_description": "Most mesmerists practice their mental manipulation through their entrancing gaze, but others have learned to practice their skill through the lilt and intonation of their voice.",
 		"description": [
 			"## Vox",
 			"",

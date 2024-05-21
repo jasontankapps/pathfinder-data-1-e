@@ -4,15 +4,6 @@
 		"name": "Calamity Caller",
 		"file": "archetypedisplay4afb.html",
 		"sources": [ "Heroes from the Fringe" ],
-		"replaces": "Blessings; Focus Weapon; Sacred Weapon; Bonus Feats; Aspect of War",
-		"replace_array": [
-			"Blessings",
-			"Focus Weapon",
-			"Sacred Weapon",
-			"Bonus Feats",
-			"Aspect of War"
-		],
-		"short_description": "(Elf Only) While all elves feel a deep connection to nature, some elven priests take this bond further, using their link to call down the wrath of nature upon their enemies",
 		"description": [
 			"## Calamity Caller",
 			"",
@@ -57,13 +48,6 @@
 		"name": "Champion of the Faith",
 		"file": "archetypedisplay4d09.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Sacred Weapon; 3rd-level Bonus Feat; Channel Energy",
-		"replace_array": [
-			"Sacred Weapon",
-			"3rd-level Bonus Feat",
-			"Channel Energy"
-		],
-		"short_description": "Champions of the faith are crusaders who use the power of their divine patron to annihilate the faith's enemies.",
 		"description": [
 			"## Champion of the Faith",
 			"",
@@ -92,19 +76,6 @@
 		"name": "Cult Leader",
 		"file": "archetypedisplay5b99.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Class Skills; Skill Ranks; Weapon/Armor Proficiencies; Focus Weapon; 3rd, 9th, 12th, and 15th-level Bonus Feats; Channel Energy",
-		"replace_array": [
-			"Class Skills",
-			"Skill Ranks",
-			"Weapon/Armor Proficiency",
-			"Focus Weapon",
-			"3rd-level Bonus Feat",
-			"9th-level Bonus Feat",
-			"12th-level Bonus Feat",
-			"15th-level Bonus Feat",
-			"Channel Energy"
-		],
-		"short_description": "Referred to as fanatics, lunatics, or obsessives, cultists see themselves as genuine devotees of their deity.",
 		"description": [
 			"## Cult Leader",
 			"",
@@ -131,13 +102,6 @@
 		"name": "Disenchanter",
 		"file": "archetypedisplayad7b.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Bonus Feats; Channel Energy; 6th-level Bonus Feat",
-		"replace_array": [
-			"Bonus Feats",
-			"Channel Energy",
-			"6th-level Bonus Feat"
-		],
-		"short_description": "While many warpriests focus on threats to the body, the disenchanter focuses on dangers to the mind and the soul.",
 		"description": [
 			"## Disenchanter",
 			"",
@@ -156,15 +120,6 @@
 		"name": "Divine Champion",
 		"file": "archetypedisplay72f9.html",
 		"sources": [ "Divine Anthology" ],
-		"replaces": "3rd, 6th, 9th, 12th, 18th-level Bonus Feat",
-		"replace_array": [
-			"3rd-level Bonus Feat",
-			"6th-level Bonus Feat",
-			"9th-level Bonus Feat",
-			"12th-level Bonus Feat",
-			"18th-level Bonus Feat"
-		],
-		"short_description": "Divine champions are unswervingly devoted to their causes, and specialize in bringing battle to the enemies of their faiths.",
 		"description": [
 			"## Divine Champion",
 			"",
@@ -193,15 +148,6 @@
 		"name": "Divine Commander",
 		"file": "archetypedisplay4217.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Blessings; 3rd, 6th, 12th, and 15th-level Bonus Feats",
-		"replace_array": [
-			"Blessings",
-			"3rd-level Bonus Feat",
-			"6th-level Bonus Feat",
-			"12th-level Bonus Feat",
-			"15th-level Bonus Feat"
-		],
-		"short_description": "Some warpriests are called to lead great armies and face legions of foes. These divine commanders live for war and fight for glory.",
 		"description": [
 			"## Divine Commander",
 			"",
@@ -230,13 +176,6 @@
 		"name": "Feral Champion",
 		"file": "archetypedisplay8895.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Blessings; Sacred Weapon; Sacred Armor",
-		"replace_array": [
-			"Blessings",
-			"Sacred Weapon",
-			"Sacred Armor"
-		],
-		"short_description": "When a warpriest devotes himself to a god of the natural world, he is sometimes blessed with supernatural powers that allow him to evoke animalistic power and fury.",
 		"description": [
 			"## Feral Champion",
 			"",
@@ -261,17 +200,6 @@
 		"name": "Fist of the Godclaw",
 		"file": "archetypedisplay4bc9.html",
 		"sources": [ "Disciple's Doctrine" ],
-		"replaces": "Alignment; Deity; Blessings; 3rd, 6th, 12th-level Bonus Feat; Aspect of War",
-		"replace_array": [
-			"Alignment",
-			"Deity",
-			"Blessings",
-			"3rd-level Bonus Feat",
-			"6th-level Bonus Feat",
-			"12th-level Bonus Feat",
-			"Aspect of War"
-		],
-		"short_description": "Devoted to the divine control of law above all else, these zealots seek to establish absolute order.",
 		"description": [
 			"## Fist of the Godclaw",
 			"",
@@ -306,16 +234,6 @@
 		"name": "Forgepriest",
 		"file": "archetypedisplay502c.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Blessings; Spells; Bonus Feats; 3rd and 6th-level Bonus Feats; Channel Energy",
-		"replace_array": [
-			"Blessings",
-			"Adds Spells",
-			"Bonus Feats",
-			"3rd-level Bonus Feat",
-			"6th-level Bonus Feat",
-			"Channel Energy"
-		],
-		"short_description": "Armorers of exquisite skill, forgepriests take inspiration from their deity to produce the most perfect weapons and armor they can, the better to equip the armies of the faithful.",
 		"description": [
 			"## Forgepriest",
 			"",
@@ -342,15 +260,6 @@
 		"name": "Jistkan Magistrate",
 		"file": "archetypedisplay771d.html",
 		"sources": [],
-		"replaces": "Class Skills; Blessings; Spontaneous Casting; Bonus Languages; Channel Energy",
-		"replace_array": [
-			"Class Skills",
-			"Blessings",
-			"Spontaneous Casting",
-			"Bonus Languages",
-			"Channel Energy"
-		],
-		"short_description": "Some warpriests study the ancient magic that the Jistkan magistrates used to bind elementals and make pacts with genies.",
 		"description": [
 			"## Jistkan Magistrate",
 			"",
@@ -392,14 +301,6 @@
 		"name": "Liberty's Blade",
 		"file": "archetypedisplay85b4.html",
 		"sources": [ "Advanced Class Origins" ],
-		"replaces": "Blessings; Sacred Weapon; Channel Energy; Sacred Armor",
-		"replace_array": [
-			"Blessings",
-			"Sacred Weapon",
-			"Channel Energy",
-			"Sacred Armor"
-		],
-		"short_description": "There are some who find in the call to freedom something primal and spiritual, even more so than other Andorens.",
 		"description": [
 			"## Liberty's Blade",
 			"",
@@ -423,16 +324,6 @@
 			"Adventurer's Guide",
 			"Advanced Class Origins"
 		],
-		"replaces": "Deity; Alignment; Weapon and Armor Proficiencies; Sacred Weapon; Sacred Armor; Aspect of War",
-		"replace_array": [
-			"Deity",
-			"Alignment",
-			"Weapon/Armor Proficiency",
-			"Sacred Weapon",
-			"Sacred Armor",
-			"Aspect of War"
-		],
-		"short_description": "Among the Red Mantis worshipers of Achaekek, some hold such strong faith in their assassin god that they gain divine power.",
 		"description": [
 			"## Mantis Zealot",
 			"",
@@ -463,14 +354,6 @@
 		"name": "Molthuni Arsenal Chaplain",
 		"file": "archetypedisplay2980.html",
 		"sources": [ "Weapon Master's Handbook" ],
-		"replaces": "Blessing; Sacred Armor; Sacred Weapon; Channel Energy",
-		"replace_array": [
-			"Blessings",
-			"Sacred Armor",
-			"Sacred Weapon",
-			"Channel Energy"
-		],
-		"short_description": "Molthuni arsenal chaplains are warpriests trained in the Arsenal District in Korholm. They bolster their nation's military by focusing on the militant aspects of their gods.",
 		"description": [
 			"## Molthuni Arsenal Chaplain",
 			"",
@@ -499,16 +382,6 @@
 		"name": "Proclaimer",
 		"file": "archetypedisplay1b7a.html",
 		"sources": [ "People of the Wastes" ],
-		"replaces": "Alignment; Deity; Spellcasting; Fervor; Sacred Armor; Channel Energy",
-		"replace_array": [
-			"Alignment",
-			"Deity",
-			"Spontaneous Casting",
-			"Fervor",
-			"Sacred Armor",
-			"Channel Energy"
-		],
-		"short_description": "A proclaimer rushes into Abyss-twisted wastes with nothing but his weapon in his hand and his faith in his heart, shouting his deity's name to the skies",
 		"description": [
 			"## Proclaimer",
 			"",
@@ -533,16 +406,6 @@
 		"name": "Proselytizer",
 		"file": "archetypedisplay5b55.html",
 		"sources": [],
-		"replaces": "Weapon/Armor Proficiencies; Sacred Armor; 3rd-level Bonus Feat; Sacred Weapon; Blessings; Blessings (Major)",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Sacred Armor",
-			"3rd-level Bonus Feat",
-			"Sacred Weapon",
-			"Blessings",
-			"Blessings (Major)"
-		],
-		"short_description": "The proselytizer is the perfect militant missionary. He seeks to win the hearts and lay claim to the souls of those he meets, and-failing that-spreads the word of his deity at the edge of the sword.",
 		"description": [
 			"## Proselytizer",
 			"",
@@ -606,20 +469,6 @@
 		"name": "Sacred Fist",
 		"file": "archetypedisplayd8de.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Class Skills; Weapon/Armor Proficiencies; Sacred Weapon; Focus Weapon; 3rd, 6th, 9th, 12th, and 18th-level Bonus Feats; Sacred Armor",
-		"replace_array": [
-			"Class Skills",
-			"Weapon/Armor Proficiency",
-			"Sacred Weapon",
-			"Focus Weapon",
-			"3rd-level Bonus Feat",
-			"6th-level Bonus Feat",
-			"9th-level Bonus Feat",
-			"12th-level Bonus Feat",
-			"18th-level Bonus Feat",
-			"Sacred Armor"
-		],
-		"short_description": "Unlike many warpriests, sacred fists leave behind armor and shield and instead rely on their fists and whatever protection their deity bestows on them.",
 		"description": [
 			"## Sacred Fist",
 			"",
@@ -652,13 +501,6 @@
 		"name": "Shieldbearer",
 		"file": "archetypedisplayb718.html",
 		"sources": [ "Armor Master's Handbook" ],
-		"replaces": "Focus Weapon; Sacred Weapon; Sacred Armor;",
-		"replace_array": [
-			"Focus Weapon",
-			"Sacred Weapon",
-			"Sacred Armor"
-		],
-		"short_description": "Shieldbearers are divine warriors who stand on the front lines of battle, shoulder to shoulder with the soldiers of their people.",
 		"description": [
 			"## Shieldbearer",
 			"",
@@ -683,17 +525,6 @@
 		"name": "Sixth Wing Bulwark",
 		"file": "archetypedisplayd7ca.html",
 		"sources": [ "Distant Realms" ],
-		"replaces": "Armor Proficiencies; Focus Weapon; Sacred Weapon; Sacred Armor; 6-th, 12th-, 18th-level Bonus Feats",
-		"replace_array": [
-			"Armor Proficiency",
-			"Focus Weapon",
-			"Sacred Weapon",
-			"Sacred Armor",
-			"6th-level Bonus Feat",
-			"12th-level Bonus Feat",
-			"18th-level Bonus Feat"
-		],
-		"short_description": "The Sixth Wing bulwark are followers of Ragathiel that train to hold the line and defend against the incursion of evil forces, fortifying herself and her allies to stand strong in the face of any opposition, no matter how dire.",
 		"description": [
 			"## Sixth Wing Bulwark",
 			"",

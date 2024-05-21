@@ -4,12 +4,6 @@
 		"name": "Beast Rider",
 		"file": "archetypedisplay314f.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Mount; Expert Trainer",
-		"replace_array": [
-			"Mount",
-			"Expert Trainer"
-		],
-		"short_description": "Where some cavaliers are simply skilled with horses or well-trained knights, the beast rider spends his life in constant pursuit of the most perfect mount, forming bonds with greater, more powerful, and more exotic creatures.",
 		"description": [
 			"## Beast Rider",
 			"",
@@ -40,16 +34,6 @@
 		"name": "Castellan",
 		"file": "archetypedisplaye95d.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"replaces": "Mount; Cavalier's Charge; Expert Trainer; Mighty Charge; Demanding Challenge; Supreme Charge",
-		"replace_array": [
-			"Mount",
-			"Cavalier's Charge",
-			"Expert Trainer",
-			"Mighty Charge",
-			"Demanding Challenge",
-			"Supreme Charge"
-		],
-		"short_description": "A castellan is a cavalier who dedicates himself to the defense of a castle or walled city.",
 		"description": [
 			"## Castellan",
 			"",
@@ -74,16 +58,6 @@
 		"name": "Charger",
 		"file": "archetypedisplay8d73.html",
 		"sources": [ "Inner Sea Monster Codex" ],
-		"replaces": "Class Skills; Weapon/Armor Proficiencies; Mount; Cavalier's Charge; Expert Trainer; Mighty Charge",
-		"replace_array": [
-			"Class Skills",
-			"Weapon/Armor Proficiency",
-			"Mount",
-			"Cavalier's Charge",
-			"Expert Trainer",
-			"Mighty Charge"
-		],
-		"short_description": "(Centaur Only) No warrior better epitomizes the centaur's devastating martial power than the charger.",
 		"description": [
 			"## Charger",
 			"",
@@ -110,15 +84,6 @@
 		"name": "Circuit Judge",
 		"file": "archetypedisplay7ba0.html",
 		"sources": [ "Path of the Hellknight" ],
-		"replaces": "Tactician; Greater Tactician; Master Tactician; Challenge; Demanding Challenge",
-		"replace_array": [
-			"Tactician",
-			"Greater Tactician",
-			"Master Tactician",
-			"Challenge",
-			"Demanding Challenge"
-		],
-		"short_description": "A circuit judge claims a specific region, becoming an expert in the local laws and, perhaps, becoming a fearsome executioner.",
 		"description": [
 			"## Circuit Judge",
 			"",
@@ -151,18 +116,6 @@
 		"name": "Constable",
 		"file": "archetypedisplay9a77.html",
 		"sources": [ "Heroes of the Streets" ],
-		"replaces": "Class Skills; Mount; Cavalier's Charge; Expert Trainer; Banner; Mighty Charge; Supreme Charge; Greater Banner",
-		"replace_array": [
-			"Class Skills",
-			"Mount",
-			"Cavalier's Charge",
-			"Expert Trainer",
-			"Banner",
-			"Mighty Charge",
-			"Supreme Charge",
-			"Greater Banner"
-		],
-		"short_description": "Constables keep order in the narrow streets and dark alleys of settlements.",
 		"description": [
 			"## Constable",
 			"",
@@ -189,13 +142,6 @@
 		"name": "Courtly Knight",
 		"file": "archetypedisplay7122.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Tactician; Greater Tactician; Master Tactician",
-		"replace_array": [
-			"Tactician",
-			"Greater Tactician",
-			"Master Tactician"
-		],
-		"short_description": "These courtly knights are equally at home in a duel with words or swords.",
 		"description": [
 			"## Courtly Knight",
 			"",
@@ -220,16 +166,6 @@
 		"name": "Daring Champion",
 		"file": "archetypedisplayda1d.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Weapon/Armor Proficiencies; Mount; Cavalier's Charge; Expert Trainer; Mighty Charge; Supreme Charge",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Mount",
-			"Cavalier's Charge",
-			"Expert Trainer",
-			"Mighty Charge",
-			"Supreme Charge"
-		],
-		"short_description": "While many cavaliers are the champions of old fighting forms, some younger, more daring cavaliers mix a martial style influenced by the lighter armored and more flamboyant swashbuckler forms with the dedication of cavalier orders.",
 		"description": [
 			"## Daring Champion",
 			"",
@@ -254,13 +190,6 @@
 		"name": "Daring General",
 		"file": "archetypedisplay3a4f.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Bonus Feats; Demanding Challenge; Supreme Charge",
-		"replace_array": [
-			"Bonus Feats",
-			"Demanding Challenge",
-			"Supreme Charge"
-		],
-		"short_description": "Those cavaliers most gifted at command often become daring generals.",
 		"description": [
 			"## Daring General",
 			"",
@@ -299,17 +228,6 @@
 		"name": "Disciple of the Pike",
 		"file": "archetypedisplayc83c.html",
 		"sources": [ "Monster Hunter's Handbook" ],
-		"replaces": "Mount; Cavalier's Charge; Expert Trainer; Banner; Greater Banner; Mighty Charge; Supreme Charge",
-		"replace_array": [
-			"Mount",
-			"Cavalier's Charge",
-			"Expert Trainer",
-			"Banner",
-			"Greater Banner",
-			"Mighty Charge",
-			"Supreme Charge"
-		],
-		"short_description": "The Hellknight Order of the Pike are renowned monster hunters, taking on large game using ancient weapon arts combined with modern equipment.",
 		"description": [
 			"## Disciple of the Pike",
 			"",
@@ -346,17 +264,6 @@
 		"name": "Drakerider",
 		"file": "archetypedisplaya383.html",
 		"sources": [ "Legacy of Dragons" ],
-		"replaces": "Mount; Tactician; Expert Trainer; Banner; Greater Tactician; Greater Banner; Master Tactician",
-		"replace_array": [
-			"Mount",
-			"Tactician",
-			"Expert Trainer",
-			"Banner",
-			"Greater Tactician",
-			"Greater Banner",
-			"Master Tactician"
-		],
-		"short_description": "While many cavaliers dream of riding a dragon into battle, drakeriders come to learn that the reality involves far more effort than they had expected.",
 		"description": [
 			"## Drakerider",
 			"",
@@ -375,15 +282,6 @@
 		"name": "Emissary",
 		"file": "archetypedisplay8414.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Tactician; Banner; Greater Tactician; Greater Banner; Supreme Charge",
-		"replace_array": [
-			"Tactician",
-			"Banner",
-			"Greater Tactician",
-			"Greater Banner",
-			"Supreme Charge"
-		],
-		"short_description": "Some cavaliers focus more on speed and mobility than they do on the raw power of the mounted charge.",
 		"description": [
 			"## Emissary",
 			"",
@@ -410,16 +308,6 @@
 		"name": "Esquire",
 		"file": "archetypedisplay8e20.html",
 		"sources": [ "Cohorts and Companions" ],
-		"replaces": "Mount; Cavalier's Charge; Expert Trainer; Banner; Mighty Charge; Supreme Charge",
-		"replace_array": [
-			"Mount",
-			"Cavalier's Charge",
-			"Expert Trainer",
-			"Banner",
-			"Mighty Charge",
-			"Supreme Charge"
-		],
-		"short_description": "The esquire is a roving knight who acquires the services of a faithful follower-an aide-de-camp-who serves as the esquire's assistant, spear carrier, and guard.",
 		"description": [
 			"## Esquire",
 			"",
@@ -450,17 +338,6 @@
 		"name": "Fell Rider",
 		"file": "archetypedisplay7a5d.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Mount; Cavalier's Charge; Expert Trainer; Banner; Mighty Charge; Greater Banner; Supreme Charge",
-		"replace_array": [
-			"Mount",
-			"Cavalier's Charge",
-			"Expert Trainer",
-			"Banner",
-			"Mighty Charge",
-			"Greater Banner",
-			"Supreme Charge"
-		],
-		"short_description": "(Hobgoblin Only) The fell rider rides a bestial steed, a mount mastered by him alone. He tramples his enemies down, leaving twisted bodies in his wake, and fear rides with him.",
 		"description": [
 			"## Fell Rider",
 			"",
@@ -487,14 +364,6 @@
 		"name": "First Mother's Fang",
 		"file": "archetypedisplay2798.html",
 		"sources": [ "Blood of the Beast" ],
-		"replaces": "Class Skills; Weapon Proficiencies; Mount; Order",
-		"replace_array": [
-			"Class Skills",
-			"Weapon Proficiency",
-			"Mount",
-			"Order"
-		],
-		"short_description": "A first mother's fang acts as a servant of his nation, a skilled general and tactician in times of war and a noble governor during times of peace.",
 		"description": [
 			"## First Mother's Fang",
 			"",
@@ -525,13 +394,6 @@
 		"name": "Gallant",
 		"file": "archetypedisplay93c7.html",
 		"sources": [ "Heroes of the High Court" ],
-		"replaces": "Order; Banner; Greater Banner",
-		"replace_array": [
-			"Order",
-			"Banner",
-			"Greater Banner"
-		],
-		"short_description": "Gallants embody the virtues of honor, generosity, and civility. Their personal symbol serves as an inspiration to others in a courtly setting as much as on a battlefield.",
 		"description": [
 			"## Gallant",
 			"",
@@ -556,14 +418,6 @@
 		"name": "Gendarme",
 		"file": "archetypedisplayba09.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Tactician; Greater Tactician; Master Tactician; Supreme Charge",
-		"replace_array": [
-			"Tactician",
-			"Greater Tactician",
-			"Master Tactician",
-			"Supreme Charge"
-		],
-		"short_description": "The gendarme cares less for the finer points of tactical precision than he does for the exhilaration of the charge: the rush of wind through the visor of his helmet, the feel of his couched lance, the satisfying shriek of armor giving way before his weapon's force as the point drives past metal into his foes.",
 		"description": [
 			"## Gendarme",
 			"",
@@ -580,19 +434,6 @@
 		"name": "Ghost Rider",
 		"file": "archetypedisplay4235.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Mount; Tactician; Greater Tactician; Master Tactician; Cavalier's Charge; Expert Trainer; Banner; Mighty Charge; Greater Banner",
-		"replace_array": [
-			"Mount",
-			"Tactician",
-			"Greater Tactician",
-			"Master Tactician",
-			"Cavalier's Charge",
-			"Expert Trainer",
-			"Banner",
-			"Mighty Charge",
-			"Greater Banner"
-		],
-		"short_description": "Ghost riders are conflicted warriors who use the powers of the phantasmal dead even while seeking out and banishing the corruption of undeath from plagued communities.",
 		"description": [
 			"## Ghost Rider",
 			"",
@@ -625,21 +466,6 @@
 		"name": "Green Knight",
 		"file": "archetypedisplayd986.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Tactician; Mount; Order; Cavalier's Charge; Expert Trainer; Banner; Greater Tactician; Mighty Charge; Greater Banner; Master Tactician; Supreme Charge",
-		"replace_array": [
-			"Tactician",
-			"Mount",
-			"Order",
-			"Cavalier's Charge",
-			"Expert Trainer",
-			"Banner",
-			"Greater Tactician",
-			"Mighty Charge",
-			"Greater Banner",
-			"Master Tactician",
-			"Supreme Charge"
-		],
-		"short_description": "Some knights serve nature itself and can be found protecting unspoiled natural places or serving fey beings.",
 		"description": [
 			"## Green Knight",
 			"",
@@ -688,13 +514,6 @@
 		"name": "Herald Squire",
 		"file": "archetypedisplay5258.html",
 		"sources": [ "Knights of the Inner Sea" ],
-		"replaces": "Tactician; 2nd-level Order Ability; Cavalier's Charge",
-		"replace_array": [
-			"Tactician",
-			"2nd-level Order Ability",
-			"Cavalier's Charge"
-		],
-		"short_description": "The herald squire is the eyes and ears of a traveling knight.",
 		"description": [
 			"## Herald Squire",
 			"",
@@ -713,14 +532,6 @@
 		"name": "Honor Guard",
 		"file": "archetypedisplay74fd.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Challenge; Cavalier's Charge; Mighty Charge; Demanding Challenge",
-		"replace_array": [
-			"Challenge",
-			"Cavalier's Charge",
-			"Mighty Charge",
-			"Demanding Challenge"
-		],
-		"short_description": "Certain cavaliers are trained not as advance combatants, but as loyal guards, standing as firm defenders in the face of threats to their chosen charge.",
 		"description": [
 			"## Honor Guard",
 			"",
@@ -741,15 +552,6 @@
 		"name": "Hooded Knight",
 		"file": "archetypedisplay8ea2.html",
 		"sources": [ "Legacy of the First World" ],
-		"replaces": "Class Skills; Mount; Tactician; Greater Tactician; Master Tactician",
-		"replace_array": [
-			"Class Skills",
-			"Mount",
-			"Tactician",
-			"Greater Tactician",
-			"Master Tactician"
-		],
-		"short_description": "Some cavaliers wander the lonely roads of the world-any world, including the First World-protecting travelers and acting as their honor guard.",
 		"description": [
 			"## Hooded Knight",
 			"",
@@ -784,23 +586,6 @@
 		"name": "Huntmaster",
 		"file": "archetypedisplay54d0.html",
 		"sources": [ "Animal Archive" ],
-		"replaces": "Weapon/Armor Proficiency; Challenge; Mount; Tactician; Greater Tactician; Master Tactician; Cavalier's Charge; Expert Trainer; Banner; Bonus Feats; Mighty Charge; Greater Banner; Supreme Charge",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Challenge",
-			"Mount",
-			"Tactician",
-			"Greater Tactician",
-			"Master Tactician",
-			"Cavalier's Charge",
-			"Expert Trainer",
-			"Banner",
-			"Bonus Feats",
-			"Mighty Charge",
-			"Greater Banner",
-			"Supreme Charge"
-		],
-		"short_description": "Huntmasters train the beasts favored by lordly castes into swift and deadly trackers.",
 		"description": [
 			"## Huntmaster",
 			"",
@@ -841,18 +626,6 @@
 		"name": "Hussar",
 		"file": "archetypedisplay0b08.html",
 		"sources": [],
-		"replaces": "Armor Proficiencies; Class Skills; Tactician; Banner; Greater Banner; Bonus Feats; Greater Tactician; Master Tactician",
-		"replace_array": [
-			"Armor Proficiency",
-			"Class Skills",
-			"Tactician",
-			"Banner",
-			"Greater Banner",
-			"Bonus Feats",
-			"Greater Tactician",
-			"Master Tactician"
-		],
-		"short_description": "Agile and maneuverable cavalry, hussars make up for their relatively light armor with their speed and cunning.",
 		"description": [
 			"## Hussar",
 			"",
@@ -887,16 +660,6 @@
 		"name": "Knight of Arnisant",
 		"file": "archetypedisplaya3d4.html",
 		"sources": [ "Armor Master's Handbook" ],
-		"replaces": "Tactician; Expert Trainer; Banner; Greater Tactician; Demanding Challenge; Greater Tactician",
-		"replace_array": [
-			"Tactician",
-			"Expert Trainer",
-			"Banner",
-			"Greater Tactician",
-			"Demanding Challenge",
-			"Greater Tactician"
-		],
-		"short_description": "The cavaliers known as knights of Arnisant revere the famous general who was crucial in the defeat of the Whispering Tyrant, the powerful wizard-king. Knights of Arnisant call upon Arnisant to grant them protection from evil magic, just as the Shield of Aroden protected him.",
 		"description": [
 			"## Knight of Arnisant",
 			"",
@@ -933,15 +696,6 @@
 		"name": "Luring Cavalier",
 		"file": "archetypedisplay0d3e.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Challenge; Cavalier's Charge; Mighty Charge; Demanding Challenge; Supreme Charge",
-		"replace_array": [
-			"Challenge",
-			"Cavalier's Charge",
-			"Mighty Charge",
-			"Demanding Challenge",
-			"Supreme Charge"
-		],
-		"short_description": "Those who study the perfection of strategy and tactics know that picking the battlefield can grant advantages that only overwhelming numbers of allies can eclipse.",
 		"description": [
 			"## Luring Cavalier",
 			"",
@@ -970,12 +724,6 @@
 		"name": "Musketeer",
 		"file": "archetypedisplay2893.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Mount; Expert Trainer",
-		"replace_array": [
-			"Mount",
-			"Expert Trainer"
-		],
-		"short_description": "Some cavaliers are entrusted by their masters with the care and use of expensive and powerful oddities-firearms.",
 		"description": [
 			"## Musketeer",
 			"",
@@ -1002,13 +750,6 @@
 		"name": "Oceanrider",
 		"file": "archetypedisplay9cab.html",
 		"sources": [ "Aquatic Adventures" ],
-		"replaces": "Armor Proficiency; Mount; Expert Trainer",
-		"replace_array": [
-			"Armor Proficiency",
-			"Mount",
-			"Expert Trainer"
-		],
-		"short_description": "Oceanriders are underwater cavaliers who ride dolphins, orcas, or seahorses.",
 		"description": [
 			"## Oceanrider",
 			"",
@@ -1029,16 +770,6 @@
 		"name": "Qabarat Outrider",
 		"file": "archetypedisplaye409.html",
 		"sources": [ "People of the Stars" ],
-		"replaces": "Armor Proficiency; Tactician; Greater Tactician; Master Tactician; Banner; Greater Banner",
-		"replace_array": [
-			"Armor Proficiency",
-			"Tactician",
-			"Greater Tactician",
-			"Master Tactician",
-			"Banner",
-			"Greater Banner"
-		],
-		"short_description": "(Lashunta Only) The war colleges of the Castrovelian city-state of Qabarat produce a distinctive breed of cavalier known as the Qabarat outrider. In defense of the lashunta city-states, outriders lead small units of regular troops, the members of which can link minds with one another to form bonds in battle few can match.",
 		"description": [
 			"## Qabarat Outrider",
 			"",
@@ -1072,17 +803,6 @@
 			"Adventurer's Guide",
 			"Inner Sea Combat"
 		],
-		"replaces": "Weapon and Armor Proficiency; Mount; Tactician; Cavalier's Charge; 6th-level Bonus Feat; Greater Tactician; Master Tactician",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Mount",
-			"Tactician",
-			"Cavalier's Charge",
-			"6th-level Bonus Feat",
-			"Greater Tactician",
-			"Master Tactician"
-		],
-		"short_description": "Much like the breed of horses they ride, Qadiran horselords pride themselves on their mobility and endurance.",
 		"description": [
 			"## Qadiran Horselord",
 			"",
@@ -1123,20 +843,6 @@
 		"name": "Saurian Champion",
 		"file": "archetypedisplayef03.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Class Skills; Weapon/Armor Proficiencies; Challenge; Order; Mount; Tactician; Greater Tactician; Master Tactician; Banner; Greater Banner",
-		"replace_array": [
-			"Class Skills",
-			"Weapon/Armor Proficiency",
-			"Challenge",
-			"Order",
-			"Mount",
-			"Tactician",
-			"Greater Tactician",
-			"Master Tactician",
-			"Banner",
-			"Greater Banner"
-		],
-		"short_description": "These primeval cavaliers idolize dinosaurs as apex predators and value them as powerful, oversized mounts.",
 		"description": [
 			"## Saurian Champion",
 			"",
@@ -1185,17 +891,6 @@
 		"name": "Sister-in-Arms",
 		"file": "archetypedisplay6181.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Challenge; Order; Mount; Cavalier's Charge; Expert Trainer; Mighty Charge; Supreme Charge",
-		"replace_array": [
-			"Challenge",
-			"Order",
-			"Mount",
-			"Cavalier's Charge",
-			"Expert Trainer",
-			"Mighty Charge",
-			"Supreme Charge"
-		],
-		"short_description": "Some of the most charismatic Gray Maidens combine their devotion to their sisters with the intense tactical training they received, learning to perfectly direct their companions and inspiring them to survive and emerge victorious.",
 		"description": [
 			"## Sister-in-Arms",
 			"",
@@ -1234,20 +929,6 @@
 		"name": "Spellscar Drifter",
 		"file": "archetypedisplay260c.html",
 		"sources": [ "Inner Sea Combat" ],
-		"replaces": "Weapon/Armor Proficiency; Tactician; Cavalier's Charge; Banner; Bonus Feats; Greater Tactician; Mighty Charge; Demanding Challenge; Master Tactician; Supreme Charge",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Tactician",
-			"Cavalier's Charge",
-			"Banner",
-			"Bonus Feats",
-			"Greater Tactician",
-			"Mighty Charge",
-			"Demanding Challenge",
-			"Master Tactician",
-			"Supreme Charge"
-		],
-		"short_description": "Spellscar drifters are self-reliant and always keep their firearms loaded-in the Spellscar Desert, a rider with a slow draw doesn't live long.",
 		"description": [
 			"## Spellscar Drifter",
 			"",
@@ -1282,14 +963,6 @@
 		"name": "Standard Bearer",
 		"file": "archetypedisplaydcc5.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Mount; Banner; Mighty Charge; Supreme Charge",
-		"replace_array": [
-			"Mount",
-			"Banner",
-			"Mighty Charge",
-			"Supreme Charge"
-		],
-		"short_description": "Some cavaliers prefer to stand away from the fray, their banners a beacon shining brightly over the battlefield, rallying their troops to victory.",
 		"description": [
 			"## Standard Bearer",
 			"",
@@ -1310,13 +983,6 @@
 		"name": "Strategist",
 		"file": "archetypedisplay5141.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Expert Trainer; Greater Banner; 18th-level Bonus Feat",
-		"replace_array": [
-			"Expert Trainer",
-			"Greater Banner",
-			"18th-level Bonus Feat"
-		],
-		"short_description": "Some cavaliers make a lifelong mission out of their exceptional ability to direct troops on the battlefield, combining tactical insight with a preternatural skill at improving the teamwork of their allies in order to win the day.",
 		"description": [
 			"## Strategist",
 			"",
@@ -1337,18 +1003,6 @@
 		"name": "Verdivant",
 		"file": "archetypedisplayf59c.html",
 		"sources": [ "Wilderness Origins" ],
-		"replaces": "Expert Trainer; Tactician; Banner; Greater Tactician; Greater Banner; Master Tactician; Bonus Feats; Cavalier's Charge",
-		"replace_array": [
-			"Expert Trainer",
-			"Tactician",
-			"Banner",
-			"Greater Tactician",
-			"Greater Banner",
-			"Master Tactician",
-			"Bonus Feats",
-			"Cavalier's Charge"
-		],
-		"short_description": "Some vine leshys' spirits are vibrant enough to project this animus beyond their own bodies",
 		"description": [
 			"## Verdivant",
 			"",
@@ -1403,13 +1057,6 @@
 		"name": "Vermin Tamer",
 		"file": "archetypedisplay1c49.html",
 		"sources": [ "Heroes of the Darklands" ],
-		"replaces": "Mount; Expert Trainer; Demanding Challenge",
-		"replace_array": [
-			"Mount",
-			"Expert Trainer",
-			"Demanding Challenge"
-		],
-		"short_description": "Due to the strange terrain, the lack of sunlight, and numerous other hazards, keeping a traditional mount in the Darklands can prove difficult. Cavaliers native to or traveling the region may choose to tame local creatures instead.",
 		"description": [
 			"## Vermin Tamer",
 			"",
@@ -1436,12 +1083,6 @@
 		"name": "Wave Rider",
 		"file": "archetypedisplay96a6.html",
 		"sources": [ "Inner Sea Combat" ],
-		"replaces": "Weapon/Armor Proficiency; Mount",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Mount"
-		],
-		"short_description": "Throughout the Inner Sea region, wave riders patrol harbors, keeping them safe from dangerous sea creatures and watching for smugglers. The most famous of these is the hippocampus-riding Sea Cavalry of Absalom.",
 		"description": [
 			"## Wave Rider",
 			"",

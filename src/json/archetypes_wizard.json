@@ -4,11 +4,6 @@
 		"name": "Absalom: Arcanamirium Crafter",
 		"file": "archetypedisplaya2b5.html",
 		"sources": [ "Inner Sea Primer" ],
-		"replaces": "Hand of the Apprentice",
-		"replace_array": [
-			"Hand of the Apprentice"
-		],
-		"short_description": "One trained by the Arcanamirium, a college specializing in the universalist school of magic and the art of crafting magical items.",
 		"description": [
 			"## Absalom: Arcanamirium Crafter",
 			"",
@@ -27,13 +22,6 @@
 		"name": "Arcane Bomber",
 		"file": "archetypedisplay117c.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Arcane Bond; Cantrips; Arcane School",
-		"replace_array": [
-			"Arcane Bond",
-			"Cantrips",
-			"Arcane School"
-		],
-		"short_description": "To many wizards, the experimentation of the alchemist seems quaint, if not dangerous or frightening. A few wizards take up the secrets of the bomb, however, fusing alchemy with their already considerable magical power.",
 		"description": [
 			"## Arcane Bomber",
 			"",
@@ -52,12 +40,6 @@
 		"name": "Arcane Physician",
 		"file": "archetypedisplayca00.html",
 		"sources": [ "Healer's Handbook" ],
-		"replaces": "Arcane School; Scribe Scroll",
-		"replace_array": [
-			"Arcane School",
-			"Scribe Scroll"
-		],
-		"short_description": "Arcane physicians use their scholarly knowledge and arcane mastery to achieve incredible feats of medicine.",
 		"description": [
 			"## Arcane Physician",
 			"",
@@ -80,16 +62,6 @@
 		"name": "Arcane Warden",
 		"file": "archetypedisplayd580.html",
 		"sources": [ "Blood of the Ancients" ],
-		"replaces": "Arcane School; Class Skills; Scribe Scroll; Bonus Feats; Hand of the Apprentice; Metamagic Mastery",
-		"replace_array": [
-			"Arcane School",
-			"Class Skills",
-			"Scribe Scroll",
-			"Bonus Feats",
-			"Hand of the Apprentice",
-			"Metamagic Mastery"
-		],
-		"short_description": "Arcane wardens are wizards who specialize in the discovery or generation of places of safety and refuge.",
 		"description": [
 			"## Arcane Warden",
 			"",
@@ -122,14 +94,6 @@
 		"name": "Bonded Wizard",
 		"file": "archetypedisplayc2ce.html",
 		"sources": [ "Cohorts and Companions" ],
-		"replaces": "Scribe Scroll; 5th, 10th, and 15th-level Bonus Feats",
-		"replace_array": [
-			"Scribe Scroll",
-			"5th-level Bonus Feat",
-			"10th-level Bonus Feat",
-			"15th-level Bonus Feat"
-		],
-		"short_description": "Many wizards form an arcane bond with an item, but for some this bond becomes a powerful mystic union.",
 		"description": [
 			"## Bonded Wizard",
 			"",
@@ -160,12 +124,6 @@
 		"name": "Cheliax: Egorian Academy Infernal Binder",
 		"file": "archetypedisplayeb81.html",
 		"sources": [ "Inner Sea Primer" ],
-		"replaces": "Acid Dart, Dimensional Steps",
-		"replace_array": [
-			"Acid Dart",
-			"Dimensional Steps"
-		],
-		"short_description": "A wizard trained by the prestigious Egorian Academy, best known for its Infernal Binding program in the school of conjuration.",
 		"description": [
 			"## Cheliax: Egorian Academy Infernal Binder",
 			"",
@@ -194,14 +152,6 @@
 		"name": "Chronomancer",
 		"file": "archetypedisplay0b5b.html",
 		"sources": [],
-		"replaces": "Arcane Bond; 10th, 15th, 20th-level Bonus Feats",
-		"replace_array": [
-			"Arcane Bond",
-			"10th-level Bonus Feat",
-			"15th-level Bonus Feat",
-			"20th-level Bonus Feat"
-		],
-		"short_description": "Rare arcane scholars known as chronomancers demonstrate the ability to shift themselves in short bursts between the past, future, and alternate presents.",
 		"description": [
 			"## Chronomancer",
 			"",
@@ -228,14 +178,6 @@
 		"name": "Clocksmith",
 		"file": "archetypedisplay9744.html",
 		"sources": [ "Construct Handbook" ],
-		"replaces": "Arcane Bond; Arcane School; Scribe Scroll; Bonus Feats",
-		"replace_array": [
-			"Arcane Bond",
-			"Arcane School",
-			"Scribe Scroll",
-			"Bonus Feats"
-		],
-		"short_description": "Clocksmiths are oddities among wizard communities, pursuing the study and creation of clockwork constructs to near obsession",
 		"description": [
 			"## Clocksmith",
 			"",
@@ -264,15 +206,6 @@
 		"name": "Cruoromancer",
 		"file": "archetypedisplay176b.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Arcane Bond; 5th, 10th, 15th, 20th-level Bonus Feat",
-		"replace_array": [
-			"Arcane Bond",
-			"5th-level Bonus Feat",
-			"10th-level Bonus Feat",
-			"15th-level Bonus Feat",
-			"20th-level Bonus Feat"
-		],
-		"short_description": "(Dhampir Only) A cruoromancer infuses his necromantic magic with the power of his unique mixture of living blood and undead ichor.",
 		"description": [
 			"## Cruoromancer",
 			"",
@@ -307,17 +240,6 @@
 		"name": "Elder Mythos Scholar",
 		"file": "archetypedisplay2b14.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Arcane Bond; 1st, 8th-level Arcane School Ability; Spellbook; Scribe Scroll; 5th, 10th-level Bonus feats",
-		"replace_array": [
-			"Arcane Bond",
-			"1st-level Arcane School Ability",
-			"8th-level Arcane School Ability",
-			"Spellbook",
-			"Scribe Scroll",
-			"5th-level Bonus Feat",
-			"10th-level Bonus Feat"
-		],
-		"short_description": "Elder Mythos scholars risk their sanity to seek knowledge of alien and awful entities from beyond the stars.",
 		"description": [
 			"## Elder Mythos Scholar",
 			"",
@@ -352,12 +274,6 @@
 		"name": "Exploiter Wizard",
 		"file": "archetypedisplay075a-2.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Arcane Bond; Arcane School",
-		"replace_array": [
-			"Arcane Bond",
-			"Arcane School"
-		],
-		"short_description": "Contrary to traditional wizardly study, an exploiter wizard forgoes the tried and true methods of arcane focus and arcane schools for the exploits favored by an arcanist.",
 		"description": [
 			"## Exploiter Wizard",
 			"",
@@ -374,15 +290,6 @@
 		"name": "Familiar Adept",
 		"file": "archetypedisplay0242.html",
 		"sources": [ "Familiar Folio" ],
-		"replaces": "Scribe Scroll; 5th and 10th-level Bonus Feats; Arcane Bond; Spellbook",
-		"replace_array": [
-			"Scribe Scroll",
-			"5th-level Bonus Feat",
-			"10th-level Bonus Feat",
-			"Arcane Bond",
-			"Spellbook"
-		],
-		"short_description": "Many wizards employ familiars to assist them, but only a few have unlocked the true power of their school of magic through the familiar itself.",
 		"description": [
 			"## Familiar Adept",
 			"",
@@ -403,15 +310,6 @@
 		"name": "First World Caller",
 		"file": "archetypedisplay4a9e.html",
 		"sources": [ "Heroes from the Fringe" ],
-		"replaces": "Arcane Bond; Arcane School; Scribe Scroll; 10th, 15th-level Bonus Feats",
-		"replace_array": [
-			"Arcane Bond",
-			"Arcane School",
-			"Scribe Scroll",
-			"10th-level Bonus Feat",
-			"15th-level Bonus Feat"
-		],
-		"short_description": "Some wizards, typically First World gnomes, have mystical ties with the First World, the primordial home of the fey",
 		"description": [
 			"## First World Caller",
 			"",
@@ -438,18 +336,6 @@
 		"name": "Hallowed Necromancer",
 		"file": "archetypedisplayd66c.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Arcane School; Spells; Power Over Undead; Grave Touch; Scribe Scroll; 5th, 10th, 15th-level Bonus Feat",
-		"replace_array": [
-			"Arcane School",
-			"Spellcasting",
-			"Power Over Undead",
-			"Grave Touch",
-			"Scribe Scroll",
-			"5th-level Bonus Feat",
-			"10th-level Bonus Feat",
-			"15th-level Bonus Feat"
-		],
-		"short_description": "Many wizards study necromancy to create undead, but some study the same arts to purge the stain of undeath.",
 		"description": [
 			"## Hallowed Necromancer",
 			"",
@@ -486,15 +372,6 @@
 		"name": "Instructor",
 		"file": "archetypedisplaye6f7.html",
 		"sources": [ "Cohorts and Companions" ],
-		"replaces": "Arcane Bond; 5th, 10th, 15th, and 20th-level Bonus Feats",
-		"replace_array": [
-			"Arcane Bond",
-			"5th-level Bonus Feat",
-			"10th-level Bonus Feat",
-			"15th-level Bonus Feat",
-			"20th-level Bonus Feat"
-		],
-		"short_description": "Whether serving as staff at a formal school of magic or simply acting as a wandering teacher, an instructor has an apprentice who trades service to the instructor for lessons in magic.",
 		"description": [
 			"## Instructor",
 			"",
@@ -517,12 +394,6 @@
 		"name": "Pact Wizard (FF)",
 		"file": "archetypedisplaya4d4.html",
 		"sources": [ "Familiar Folio" ],
-		"replaces": "Arcane Bond; Arcane School",
-		"replace_array": [
-			"Arcane Bond",
-			"Arcane School"
-		],
-		"short_description": "Some wizards make bargains with beings from other realms in order to gain arcane power. These pact wizards have unparalleled access to extraplanar allies, but these bonds never come without strings attached.",
 		"description": [
 			"## Pact Wizard (FF)",
 			"",
@@ -547,16 +418,6 @@
 		"name": "Pact Wizard (HHH)",
 		"file": "archetypedisplay82a7.html",
 		"sources": [ "Haunted Heroes Handbook" ],
-		"replaces": "Spellcasting; Scribe Scroll; 5th, 10th, 15th, and 20th level Bonus Feats",
-		"replace_array": [
-			"Spellcasting",
-			"Scribe Scroll",
-			"5th-level Bonus Feat",
-			"10th-level Bonus Feat",
-			"15th-level Bonus Feat",
-			"20th-level Bonus Feat"
-		],
-		"short_description": "Wizards who seek mastery of arcane power without tedious study and monotonous research.",
 		"description": [
 			"## Pact Wizard (HHH)",
 			"",
@@ -589,12 +450,6 @@
 		"name": "Poleiheira Adherent",
 		"file": "archetypedisplay68e9.html",
 		"sources": [ "Blood of the Ancients" ],
-		"replaces": "Arcane Bond; Arcane School",
-		"replace_array": [
-			"Arcane Bond",
-			"Arcane School"
-		],
-		"short_description": "Poleiheira adherents are wizards who wish to emulate the explorations and discoveries of Arustun and partake in great odysseys as they seek to imitate his achievements.",
 		"description": [
 			"## Poleiheira Adherent",
 			"",
@@ -623,13 +478,6 @@
 		"name": "Primalist",
 		"file": "archetypedisplaye4f9.html",
 		"sources": [ "Inner Sea Magic" ],
-		"replaces": "Arcane Bond, 5th-level Bonus Feat, 10th-level Bonus Feat",
-		"replace_array": [
-			"Arcane Bond",
-			"5th-level Bonus Feat",
-			"10th-level Bonus Feat"
-		],
-		"short_description": "A primalist is a wizard who has spent a considerable amount of time studying the chaos that is primal magic.",
 		"description": [
 			"## Primalist",
 			"",
@@ -650,12 +498,6 @@
 		"name": "Qadira: Mage of the Veil",
 		"file": "archetypedisplay5fe5.html",
 		"sources": [ "Inner Sea Primer" ],
-		"replaces": "Blinding Ray, Invisibility Field",
-		"replace_array": [
-			"Blinding Ray",
-			"Invisibility Field"
-		],
-		"short_description": "Rather than controlling the elements or transforming the environment, mages of the veil focus on much more subtle magic.",
 		"description": [
 			"## Qadira: Mage of the Veil",
 			"",
@@ -684,12 +526,6 @@
 		"name": "Runesage",
 		"file": "archetypedisplayf486.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Arcane Bond; Arcane School",
-		"replace_array": [
-			"Arcane Bond",
-			"Arcane School"
-		],
-		"short_description": "Runesages draw upon the mystic energies of ancient Thassilon.",
 		"description": [
 			"## Runesage",
 			"",
@@ -712,13 +548,6 @@
 		"name": "Scroll Scholar",
 		"file": "archetypedisplay9329.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
-		"replaces": "Diviner's Fortune (diviner) or Hand of the Apprentice (universalist), 5th-level Bonus Feat, 4th-level spell slot",
-		"replace_array": [
-			"Diviner's Fortune (diviner) or Hand of the Apprentice (universalist)",
-			"5th-level Bonus Feat",
-			"Spellcasting"
-		],
-		"short_description": "Those who trade some of their potential to better understand ancient texts and scrolls can become learned scroll scholars.",
 		"description": [
 			"## Scroll Scholar",
 			"",
@@ -737,12 +566,6 @@
 		"name": "Scrollmaster",
 		"file": "archetypedisplay2fcd.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Arcane Bond; 10th-level Bonus Feat",
-		"replace_array": [
-			"Arcane Bond",
-			"10th-level Bonus Feat"
-		],
-		"short_description": "To some wizards, a scroll is not just a written form of a spell, it is a physical weapon meant to be used in combat like a sword or a shield.",
 		"description": [
 			"## Scrollmaster",
 			"",
@@ -775,13 +598,6 @@
 		"name": "Shadowcaster",
 		"file": "archetypedisplay96f4.html",
 		"sources": [ "Inner Sea Magic" ],
-		"replaces": "Arcane Bond; 5th-level Bonus Feat; 10th-level Bonus Feat",
-		"replace_array": [
-			"Arcane Bond",
-			"5th-level Bonus Feat",
-			"10th-level Bonus Feat"
-		],
-		"short_description": "Trained in the dark mysteries of Nidal's Umbral Court, the shadowcaster harnesses the power of shadows to bolster their spellcasting.",
 		"description": [
 			"## Shadowcaster",
 			"",
@@ -800,14 +616,6 @@
 		"name": "Siege Mage",
 		"file": "archetypedisplay55de.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Scribe Scroll; Arcane Bond; Cantrips; Arcane School",
-		"replace_array": [
-			"Scribe Scroll",
-			"Arcane Bond",
-			"Cantrips",
-			"Arcane School"
-		],
-		"short_description": "The siege mage combines his arcane mastery with a supernatural link to siege engines.",
 		"description": [
 			"## Siege Mage",
 			"",
@@ -828,12 +636,6 @@
 		"name": "Spell Sage",
 		"file": "archetypedisplay08e6.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Arcane Bond; Arcane School",
-		"replace_array": [
-			"Arcane Bond",
-			"Arcane School"
-		],
-		"short_description": "A spell sage has mastered spells of all types, and is able to increase the effectiveness of his own spells and eventually even cast spells from other classes' spell lists.",
 		"description": [
 			"## Spell Sage",
 			"",
@@ -852,11 +654,6 @@
 		"name": "Spellbinder",
 		"file": "archetypedisplayf7e6.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Arcane Bond",
-		"replace_array": [
-			"Arcane Bond"
-		],
-		"short_description": "(Elf Only) A spellbinder is an elven wizard who forges an arcane bond between himself and one or more wizard spells.",
 		"description": [
 			"## Spellbinder",
 			"",
@@ -875,14 +672,6 @@
 		"name": "Spellslinger",
 		"file": "archetypedisplay719e.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Arcane Bond; Scribe Scroll; Cantrips; Arcane School",
-		"replace_array": [
-			"Arcane Bond",
-			"Scribe Scroll",
-			"Cantrips",
-			"Arcane School"
-		],
-		"short_description": "While few contest the seductive allure of commanding arcane and occult powers, there are those wizards who become obsessed with the natural mysteries of black powder.",
 		"description": [
 			"## Spellslinger",
 			"",
@@ -907,14 +696,6 @@
 		"name": "Spirit Binder",
 		"file": "archetypedisplay1810.html",
 		"sources": [ "Familiar Folio" ],
-		"replaces": "Arcane Bond; Arcane School; Scribe Scroll; Bonus Feats",
-		"replace_array": [
-			"Arcane Bond",
-			"Arcane School",
-			"Scribe Scroll",
-			"Bonus Feats"
-		],
-		"short_description": "While most wizards learn their arts through gradual study, spirit binders have made a sudden arcane breakthrough due to the traumatic experience of losing a loved one.",
 		"description": [
 			"## Spirit Binder",
 			"",
@@ -935,15 +716,6 @@
 		"name": "Spirit Whisperer",
 		"file": "archetypedisplay7b40.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Arcane Bond; Spellbook; Arcane School; Bonus Feats; 20th-level Bonus Feat",
-		"replace_array": [
-			"Arcane Bond",
-			"Spellbook",
-			"Arcane School",
-			"Bonus Feats",
-			"20th-level Bonus Feat"
-		],
-		"short_description": "Spirit whisperers are a breed apart among wizards, and are often mistaken for witches.",
 		"description": [
 			"## Spirit Whisperer",
 			"",
@@ -962,14 +734,6 @@
 		"name": "Sword Binder",
 		"file": "archetypedisplaybe31.html",
 		"sources": [ "Arcane Anthology" ],
-		"replaces": "Arcane Bond; Arcane School; Bonus School Spell Slots; 10th-level Bonus Feat",
-		"replace_array": [
-			"Arcane Bond",
-			"Arcane School",
-			"Bonus School Spell Slots",
-			"10th-level Bonus Feat"
-		],
-		"short_description": "Sword binders follow a tradition of martial wizards who often worked with the Church of Aroden and the crowns of Taldor and then Cheliax.",
 		"description": [
 			"## Sword Binder",
 			"",
@@ -994,11 +758,6 @@
 		"name": "Thassilonian Specialist",
 		"file": "archetypedisplay1009.html",
 		"sources": [ "Inner Sea Magic" ],
-		"replaces": "Lose access to two schools of magic",
-		"replace_array": [
-			"Spell Schools"
-		],
-		"short_description": "Specialist in a Thassilonian school of magic, this specialist sacrifices his connection with two schools in order to greatly strengthen his chosen specialty.",
 		"description": [
 			"## Thassilonian Specialist",
 			"",
@@ -1035,18 +794,6 @@
 		"name": "Undead Master",
 		"file": "archetypedisplay2bc6.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Alignment; Arcane School; Arcane Bond; Scribe Scroll; 5th, 10th, 15th, 20th-level Bonus Feats",
-		"replace_array": [
-			"Alignment",
-			"Arcane School",
-			"Arcane Bond",
-			"Scribe Scroll",
-			"5th-level Bonus Feat",
-			"10th-level Bonus Feat",
-			"15th-level Bonus Feat",
-			"20th-level Bonus Feat"
-		],
-		"short_description": "Undead masters have great power over undeath.",
 		"description": [
 			"## Undead Master",
 			"",
@@ -1081,16 +828,6 @@
 		"name": "Wind Listener",
 		"file": "archetypedisplay957d.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Class Skills; Arcane School; Arcane Bond; 5th, 10th, 15th-level Bonus Feat",
-		"replace_array": [
-			"Class Skills",
-			"Arcane School",
-			"Arcane Bond",
-			"5th-level Bonus Feat",
-			"10th-level Bonus Feat",
-			"15th-level Bonus Feat"
-		],
-		"short_description": "(Sylph Only) The wind listener takes a sylph's natural curiosity to the extreme, enhancing his natural skill at subterfuge and eavesdropping with potent arcane magic.",
 		"description": [
 			"## Wind Listener",
 			"",
@@ -1115,16 +852,6 @@
 		"name": "Worldseeker",
 		"file": "archetypedisplay0c6d.html",
 		"sources": [ "Planar Adventures" ],
-		"replaces": "Scribe Scroll; 6th/8th-level School Ability; Arcane Bond; 5th, 15th-level Bonus Feat",
-		"replace_array": [
-			"Scribe Scroll",
-			"6th-level Arcane School Ability",
-			"8th-level Arcane School Ability",
-			"Arcane Bond",
-			"5th-level Bonus Feat",
-			"15th-level Bonus Feat"
-		],
-		"short_description": "Worldseekers are wizards who travel to all corners of the Great Beyond.",
 		"description": [
 			"## Worldseeker",
 			"",

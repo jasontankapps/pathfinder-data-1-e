@@ -4,14 +4,6 @@
 		"name": "Agathiel",
 		"file": "archetypedisplayf26d.html",
 		"sources": [ "Spymaster's Handbook" ],
-		"replaces": "Dual Identity; Vigilante Specialization; 1st-level Social Talent; 6th-level Vigilante Talent",
-		"replace_array": [
-			"Dual Identity",
-			"Vigilante Specialization",
-			"1st-level Social Talent",
-			"6th-level Vigilante Talent"
-		],
-		"short_description": "Agathiels surrender a portion of their immortal souls to Nirvana in exchange for a measure of animalistic might to aid them in their righteous crusades.",
 		"description": [
 			"## Agathiel",
 			"",
@@ -38,12 +30,6 @@
 		"name": "Anaphexia Thought-Killer",
 		"file": "archetypedisplaybf45.html",
 		"sources": [ "Inner Sea Intrigue" ],
-		"replaces": "2nd, 6th-level Social Talent; 7th, 15th-level Vigilante Talent",
-		"replace_array": [
-			"Social Talents",
-			"Vigilante Talents"
-		],
-		"short_description": "Anaphexia thought-killers cut out their own tongues to gain magical protection from exposure and hunt down secrets to steal before they can be spread",
 		"description": [
 			"## Anaphexia Thought-Killer",
 			"",
@@ -76,22 +62,6 @@
 		"name": "Avenging Beast",
 		"file": "archetypedisplaye8ea.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Class Skills; Skill Ranks; Dual Identity; 4th, 8th, 10th, 14th, 16th-level Vigilante Talents; Vigilante Specialization; Startling Appearance; Frightening Appearance; Stunning Appearance",
-		"replace_array": [
-			"Class Skills",
-			"Skill Ranks",
-			"Dual Identity",
-			"4th-level Vigilante Talent",
-			"8th-level Vigilante Talent",
-			"10th-level Vigilante Talent",
-			"14th-level Vigilante Talent",
-			"16th-level Vigilante Talent",
-			"Vigilante Specialization",
-			"Startling Appearance",
-			"Frightening Appearance",
-			"Stunning Appearance"
-		],
-		"short_description": "Some vigilantes turn to natural traditions and supernatural forces to transform into beasts, unleashing a primal fury on their foes before returning to an ordinary guise.",
 		"description": [
 			"## Avenging Beast",
 			"",
@@ -131,14 +101,6 @@
 			"Adventurer's Guide",
 			"Spymaster's Handbook"
 		],
-		"replaces": "Dual Identity; Vigilante Specialization; 1st-level Social Talent; 2nd-level Vigilante Talent",
-		"replace_array": [
-			"Dual Identity",
-			"Vigilante Specialization",
-			"1st-level Social Talent",
-			"2nd-level Vigilante Talent"
-		],
-		"short_description": "Bellflower harvesters are the front-line operatives of the secretive Bellflower Network",
 		"description": [
 			"## Bellflower Harvester",
 			"",
@@ -171,15 +133,6 @@
 		"name": "Brute",
 		"file": "archetypedisplayc409.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Alignment; Base Saving Throws; Weapon and Armor Proficiency; Vigilante Specialization; Vengeance Strike",
-		"replace_array": [
-			"Alignment",
-			"Base Saving Throws",
-			"Weapon/Armor Proficiency",
-			"Vigilante Specialization",
-			"Vengeance Strike"
-		],
-		"short_description": "Some vigilantes can transform into brutish versions of themselves, becoming larger, more terrifying in appearance, and far more formidable in combat-though at a price.",
 		"description": [
 			"## Brute",
 			"",
@@ -234,22 +187,6 @@
 		"name": "Cabalist",
 		"file": "archetypedisplay858b.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Skill Ranks; Weapon and Armor Proficiency; 4th, 8th, 10th, 14th, 16th-level Vigilante Talent; Vigilante Specialization; Startling Appearance; Frightening Appearance; Stunning Appearance",
-		"replace_array": [
-			"Class Skills",
-			"Skill Ranks",
-			"Weapon/Armor Proficiency",
-			"4th-level Vigilante Talent",
-			"8th-level Vigilante Talent",
-			"10th-level Vigilante Talent",
-			"14th-level Vigilante Talent",
-			"16th-level Vigilante Talent",
-			"Vigilante Specialization",
-			"Startling Appearance",
-			"Frightening Appearance",
-			"Stunning Appearance"
-		],
-		"short_description": "Practice with blood sacrifices, necromancy, and shadow magic gives a cabalist a reputation as a sinister and dangerous vigilante.",
 		"description": [
 			"## Cabalist",
 			"",
@@ -312,17 +249,6 @@
 		"name": "Chu Ye Enforcer",
 		"file": "archetypedisplay3505.html",
 		"sources": [ "Martial Arts Handbook" ],
-		"replaces": "Dual Identity; 1st-level Social Talent; 4th, 6th, 12th, 14th, 18th-level Vigilante Talent",
-		"replace_array": [
-			"Dual Identity",
-			"1st-level Social Talent",
-			"4th-level Vigilante Talent",
-			"6th-level Vigilante Talent",
-			"12th-level Vigilante Talent",
-			"14th-level Vigilante Talent",
-			"18th-level Vigilante Talent"
-		],
-		"short_description": "Donning terrifying masks, these vigilantes forsake their humanity to become more like the evil oni they mimic.",
 		"description": [
 			"## Chu Ye Enforcer",
 			"",
@@ -357,13 +283,6 @@
 		"name": "Darklantern",
 		"file": "archetypedisplaya621.html",
 		"sources": [ "Heroes of the Darklands" ],
-		"replaces": "Dual Identity; 1st-level Social Talent; 4th-level Vigilante Talent",
-		"replace_array": [
-			"Dual Identity",
-			"1st-level Social Talent",
-			"4th-level Vigilante Talent"
-		],
-		"short_description": "Select members of the Lantern Bearers undergo a horrific ritual allowing them to temporarily experience the dark transformation into a drow, but at the cost of their sanity.",
 		"description": [
 			"## Darklantern",
 			"",
@@ -392,15 +311,6 @@
 		"name": "Dragonscale Loyalist",
 		"file": "archetypedisplay30c8.html",
 		"sources": [ "Heroes of the High Court" ],
-		"replaces": "1st-level Social Talent; Unshakable; Startling Appearance; Frightening Appearance; Stunning Appearance",
-		"replace_array": [
-			"1st-level Social Talent",
-			"Unshakable",
-			"Startling Appearance",
-			"Frightening Appearance",
-			"Stunning Appearance"
-		],
-		"short_description": "Dragonscale loyalists serve the throne of Brevoy. When not acting as courtiers, these agents don fearsome draconic masks, becoming anonymous protectors of the king-regent's rule.",
 		"description": [
 			"## Dragonscale Loyalist",
 			"",
@@ -447,17 +357,6 @@
 		"name": "Experimenter",
 		"file": "archetypedisplay2ae2.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Alignment; Vigilante Specialization; 1st-level Social Talent; Unshakable; Startling Appearance; Frightening Appearance; Stunning Appearance",
-		"replace_array": [
-			"Alignment",
-			"Vigilante Specialization",
-			"1st-level Social Talent",
-			"Unshakable",
-			"Startling Appearance",
-			"Frightening Appearance",
-			"Stunning Appearance"
-		],
-		"short_description": "Some vigilantes adopt lives of secrecy to hide their strange experiments from public view.",
 		"description": [
 			"## Experimenter",
 			"",
@@ -502,17 +401,6 @@
 		"name": "Faceless Enforcer",
 		"file": "archetypedisplay9694.html",
 		"sources": [ "Path of the Hellknight" ],
-		"replaces": "Weapon and Armor Proficiencies; Dual Identity; 2nd, 6th-level Vigilante Talent; 5th, 11th, 17th-level Social Talent",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Dual Identity",
-			"2nd-level Vigilante Talent",
-			"6th-level Vigilante Talent",
-			"5th-level Social Talent",
-			"11th-level Social Talent",
-			"17th-level Social Talent"
-		],
-		"short_description": "Unyielding warriors, faceless enforcers lock their identities behind implacable helms.",
 		"description": [
 			"## Faceless Enforcer",
 			"",
@@ -553,14 +441,6 @@
 		"name": "Ferocious Hunter",
 		"file": "archetypedisplay0f43.html",
 		"sources": [ "Heroes from the Fringe" ],
-		"replaces": "Dual Identity; 2nd, 8th-level Vigilante Talent; Unshakable",
-		"replace_array": [
-			"Dual Identity",
-			"2nd-level Vigilante Talent",
-			"8th-level Vigilante Talent",
-			"Unshakable"
-		],
-		"short_description": "Some half-orcs have such distant orc ancestry that they have the ability to move through the world without experiencing the same discrimination many of their kin, yet many of these half-orcs still take great pride in their heritage and have a powerful desire to show the world that half-orcs are deserving of respect",
 		"description": [
 			"## Ferocious Hunter",
 			"",
@@ -589,13 +469,6 @@
 		"name": "Gunmaster",
 		"file": "archetypedisplay0142.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Weapon and Armor Proficiency; Vigilante Specialization; Unshakable",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Vigilante Specialization",
-			"Unshakable"
-		],
-		"short_description": "Gunmasters brandish firearms like extensions of their will, taking down their foes with deadly accuracy and skill.",
 		"description": [
 			"## Gunmaster",
 			"",
@@ -634,11 +507,6 @@
 		"name": "Half-Elf Double Scion",
 		"file": "archetypedisplay9869.html",
 		"sources": [ "Heroes from the Fringe" ],
-		"replaces": "Dual Identity",
-		"replace_array": [
-			"Dual Identity"
-		],
-		"short_description": "The deception of hiding their true heritage can take a toll on some half-elves, and some form alternate identities to let the suppressed side of their heritage be known.",
 		"description": [
 			"## Half-Elf Double Scion",
 			"",
@@ -663,18 +531,6 @@
 		"name": "Hangman",
 		"file": "archetypedisplay6d15.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Weapon and Armor Proficiencies; Vigilante Specialization; 2nd, 4th-level Vigilante Talent; Unshakable; Startling Appearance; Frightening Appearance; Stunning Appearance",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Vigilante Specialization",
-			"2nd-level Vigilante Talent",
-			"4th-level Vigilante Talent",
-			"Unshakable",
-			"Startling Appearance",
-			"Frightening Appearance",
-			"Stunning Appearance"
-		],
-		"short_description": "Wherever the guilty walk free, the hangman brings judgment.",
 		"description": [
 			"## Hangman",
 			"",
@@ -719,13 +575,6 @@
 		"name": "Hidden Current",
 		"file": "archetypedisplay8e59.html",
 		"sources": [ "Blood of the Sea" ],
-		"replaces": "1st-level Social Talent; 2nd-level Vigilante Talent; Frightening Appearance",
-		"replace_array": [
-			"1st-level Social Talent",
-			"2nd-level Vigilante Talent",
-			"Frightening Appearance"
-		],
-		"short_description": "The hidden current operates above and below the sea.",
 		"description": [
 			"## Hidden Current",
 			"",
@@ -750,13 +599,6 @@
 		"name": "Imperial Agent",
 		"file": "archetypedisplay14cf.html",
 		"sources": [ "Blood of the Ancients" ],
-		"replaces": "1st, 5th-level Social Talent; Unshakable",
-		"replace_array": [
-			"1st-level Social Talent",
-			"5th-level Social Talent",
-			"Unshakable"
-		],
-		"short_description": "Imperial agents are often the descendants of nobility and generals from Lung Wa, devoted to reuniting the empire by conquering Lung Wa's successor states",
 		"description": [
 			"## Imperial Agent",
 			"",
@@ -781,18 +623,6 @@
 		"name": "Magical Child",
 		"file": "archetypedisplay27fd.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Skill Ranks; Weapon and Armor Proficiency; 4th, 8th, 14th, 16th-level Vigilante Talents; Vigilante Specialization",
-		"replace_array": [
-			"Class Skills",
-			"Skill Ranks",
-			"Weapon/Armor Proficiency",
-			"4th-level Vigilante Talent",
-			"8th-level Vigilante Talent",
-			"14th-level Vigilante Talent",
-			"16th-level Vigilante Talent",
-			"Vigilante Specialization"
-		],
-		"short_description": "Some vigilantes, no matter their age, carry a spark of capricious whimsy under which flows a powerful current of magic and wonder.",
 		"description": [
 			"## Magical Child",
 			"",
@@ -835,18 +665,6 @@
 		"name": "Masked Maiden",
 		"file": "archetypedisplay7684.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Weapon and Armor Proficiencies; Dual Identity; Seamless Guise; 3rd, 7th, 11th, 15th, 19th-level Social Talents",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Dual Identity",
-			"Seamless Guise",
-			"3rd-level Social Talent",
-			"7th-level Social Talent",
-			"11th-level Social Talent",
-			"15th-level Social Talent",
-			"19th-level Social Talent"
-		],
-		"short_description": "Masked maidens find themselves leading a double life: ordinary (albeit troubled) citizen by day, faceless warrior by night. In the most tragic cases, the identities entirely disassociate, with the maiden experiencing unexplained exhaustion and injuries upon awakening.",
 		"description": [
 			"## Masked Maiden",
 			"",
@@ -879,15 +697,6 @@
 		"name": "Mounted Fury",
 		"file": "archetypedisplay30af.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Vigilante Specialization; 6th, 12th-level Vigilante Talent; Vengeance Strike",
-		"replace_array": [
-			"Class Skills",
-			"Vigilante Specialization",
-			"6th-level Vigilante Talent",
-			"12th-level Vigilante Talent",
-			"Vengeance Strike"
-		],
-		"short_description": "Some vigilantes form special bonds with the creatures they use as steeds, considering these loyal and trusted mounts just as much heroes or antiheroes as they might be.",
 		"description": [
 			"## Mounted Fury",
 			"",
@@ -930,12 +739,6 @@
 		"name": "Mutated Defender",
 		"file": "archetypedisplaycace.html",
 		"sources": [ "People of the Wastes" ],
-		"replaces": "Vigilante Specialization; Vigilante Talents",
-		"replace_array": [
-			"Vigilante Specialization",
-			"Vigilante Talents"
-		],
-		"short_description": "Occasionally a mutation takes hold of the body of a vigilante, but he learns to hide his maladies, usually through alchemical concoctions or magical concealment",
 		"description": [
 			"## Mutated Defender",
 			"",
@@ -962,17 +765,6 @@
 		"name": "Psychometrist",
 		"file": "archetypedisplaye9e9.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; 1st-level Social Talent; 2nd, 6th, 12th, 18th-level Vigilante Talent; Unshakable",
-		"replace_array": [
-			"Class Skills",
-			"1st-level Social Talent",
-			"2nd-level Vigilante Talent",
-			"6th-level Vigilante Talent",
-			"12th-level Vigilante Talent",
-			"18th-level Vigilante Talent",
-			"Unshakable"
-		],
-		"short_description": "Psychometrists aren't spellcasters; instead, they collect strange items or create their own uncanny gadgets that seem to only work for them.",
 		"description": [
 			"## Psychometrist",
 			"",
@@ -1009,23 +801,6 @@
 		"name": "Serial Killer",
 		"file": "archetypedisplay6080.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Alignment; Vigilante Specialization; Unshakable; 4th, 6th, 12th, 14th-level Vigilante Talent; 7th, 9th, 19th-level Social Talent; Startling Appearance; Frightening Appearance; Stunning Appearance",
-		"replace_array": [
-			"Alignment",
-			"Vigilante Specialization",
-			"Unshakable",
-			"4th-level Vigilante Talent",
-			"6th-level Vigilante Talent",
-			"12th-level Vigilante Talent",
-			"14th-level Vigilante Talent",
-			"7th-level Social Talent",
-			"9th-level Social Talent",
-			"19th-level Social Talent",
-			"Startling Appearance",
-			"Frightening Appearance",
-			"Stunning Appearance"
-		],
-		"short_description": "Some vigilantes adopt an innocent guise to cloak their acts of brutal murder.",
 		"description": [
 			"## Serial Killer",
 			"",
@@ -1076,17 +851,6 @@
 		"name": "Splintersoul",
 		"file": "archetypedisplay146d.html",
 		"sources": [ "Antihero's Handbook" ],
-		"replaces": "Dual Identity; Unshakable; 3rd, 7th-level Social Talents; Startling Appearance; Frightening Appearance; Stunning Appearance",
-		"replace_array": [
-			"Dual Identity",
-			"Unshakable",
-			"3rd-level Social Talent",
-			"7th-level Social Talent",
-			"Startling Appearance",
-			"Frightening Appearance",
-			"Stunning Appearance"
-		],
-		"short_description": "A splintersoul pushes the boundaries of what it means to have two separate identities.",
 		"description": [
 			"## Splintersoul",
 			"",
@@ -1117,14 +881,6 @@
 		"name": "Teisatsu",
 		"file": "archetypedisplay13b9.html",
 		"sources": [ "Spymaster's Handbook" ],
-		"replaces": "Weapon and Armor Proficiency; Vigilante Specialization; 2nd-level Vigilante Talents; Vigilante Talents",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Vigilante Specialization",
-			"2nd-level Vigilante Talent",
-			"Vigilante Talents"
-		],
-		"short_description": "Teisatsu are specialized vigilantes who focus on infiltrating social scenes and high-society gatherings on behalf of the feuding lords of Minkai.",
 		"description": [
 			"## Teisatsu",
 			"",
@@ -1157,20 +913,6 @@
 		"name": "Warlock",
 		"file": "archetypedisplay97ff.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Skill Ranks; Armor Proficiency; 4th, 8th, 10th, 14th, 16th-level Vigilante Talent; Vigilante Specialization; Unshakable",
-		"replace_array": [
-			"Class Skills",
-			"Skill Ranks",
-			"Armor Proficiency",
-			"4th-level Vigilante Talent",
-			"8th-level Vigilante Talent",
-			"10th-level Vigilante Talent",
-			"14th-level Vigilante Talent",
-			"16th-level Vigilante Talent",
-			"Vigilante Specialization",
-			"Unshakable"
-		],
-		"short_description": "Practicing magic in secret, the warlock obscures her arcane scholarship from public view.",
 		"description": [
 			"## Warlock",
 			"",
@@ -1230,15 +972,6 @@
 			"Ultimate Intrigue",
 			"(Pathfinder Player Companion: Blood of the Beast pg. 7)"
 		],
-		"replaces": "Vigilante Specialization; 2nd, 6th, 12th, 18th-level Vigilante Talent",
-		"replace_array": [
-			"Vigilante Specialization",
-			"2nd-level Vigilante Talent",
-			"6th-level Vigilante Talent",
-			"12th-level Vigilante Talent",
-			"18th-level Vigilante Talent"
-		],
-		"short_description": "Within some vigilantes are incredible innate abilities that, although normally the domain of natural beasts, inexplicably aid them in fighting their enemies.",
 		"description": [
 			"## Wildsoul",
 			"",
@@ -1295,20 +1028,6 @@
 		"name": "Zealot",
 		"file": "archetypedisplay227d.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Skill Ranks; Weapon Proficieny; 4th, 8th, 10th, 14th, 16th-level Vigilante Talent; Alignment; Vigilante Specialization",
-		"replace_array": [
-			"Class Skills",
-			"Skill Ranks",
-			"Weapon Proficieny",
-			"4th-level Vigilante Talent",
-			"8th-level Vigilante Talent",
-			"10th-level Vigilante Talent",
-			"14th-level Vigilante Talent",
-			"16th-level Vigilante Talent",
-			"Alignment",
-			"Vigilante Specialization"
-		],
-		"short_description": "Dedicated to a single deity, the zealot hunts the enemies of his faith in secret, often because his religion is outlawed or persecuted in the region.",
 		"description": [
 			"## Zealot",
 			"",

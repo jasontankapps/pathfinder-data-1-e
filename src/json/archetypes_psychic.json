@@ -4,11 +4,6 @@
 		"name": "Amnesiac",
 		"file": "archetypedisplayc5ad.html",
 		"sources": [],
-		"replaces": "Spellcasting",
-		"replace_array": [
-			"Spellcasting"
-		],
-		"short_description": "The amnesiac once possessed great psychic power, but mental blocks-resulting from either a traumatic event or intentional implantation-have caused her to forget what she knew before",
 		"description": [
 			"## Amnesiac",
 			"",
@@ -38,14 +33,6 @@
 		"name": "Esoteric Starseeker",
 		"file": "archetypedisplay476f.html",
 		"sources": [ "Wilderness Origins" ],
-		"replaces": "Discipline Spells; 1st, 11th-level Phrenic Amplifications; Major Amplifications",
-		"replace_array": [
-			"Discipline Spells",
-			"1st-level Phrenic Amplification",
-			"11th-level Phrenic Amplification",
-			"Major Amplifications"
-		],
-		"short_description": "An esoteric starseeker is a psychic who focuses her studies on uncovering the secrets of the sky and the constellations of the Cosmic Caravan.",
 		"description": [
 			"## Esoteric Starseeker",
 			"",
@@ -90,17 +77,6 @@
 		"name": "Formless Adept",
 		"file": "archetypedisplay6792.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Phrenic Pool; Psychic Discipline; Discipline Powers; 1st and 15th-level Phrenic Amplification; Discipline Spells; Remade Self",
-		"replace_array": [
-			"Phrenic Pool",
-			"Psychic Discipline",
-			"Discipline Powers",
-			"1st-level Phrenic Amplification",
-			"15th-level Phrenic Amplification",
-			"Discipline Spells",
-			"Remade Self"
-		],
-		"short_description": "Formless adepts master their psychic powers to unshackle themselves from the confines of the flesh and empower their spellcasting.",
 		"description": [
 			"## Formless Adept",
 			"",
@@ -133,15 +109,6 @@
 		"name": "Magaambyan Telepath",
 		"file": "archetypedisplay0e67.html",
 		"sources": [ "Wilderness Origins" ],
-		"replaces": "Discipline Spells; 1st, 11th-level Phrenic Amplifications; Telepathic Bond; Telepathy",
-		"replace_array": [
-			"Discipline Spells",
-			"1st-level Phrenic Amplification",
-			"11th-level Phrenic Amplification",
-			"Telepathic Bond",
-			"Telepathy"
-		],
-		"short_description": "Followers of Old-Mage Jatembe's more esoteric wisdom instead focus on the occult connection between all living creatures and the resonance between the natural and supernatural world.",
 		"description": [
 			"## Magaambyan Telepath",
 			"",
@@ -172,13 +139,6 @@
 		"name": "Mutation Mind",
 		"file": "archetypedisplay6375.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "1st-level Phrenic Amplification; Phrenic Amplifications; Major Amplifications",
-		"replace_array": [
-			"1st-level Phrenic Amplification",
-			"Phrenic Amplifications",
-			"Major Amplifications"
-		],
-		"short_description": "Exposure to unintended spell effects, curses, or sources of radiation cause some to manifest psychic powers. When a mutation mind uses her psychic abilities, her physical body changes under the stress, and she risks losing control if she pushes too far.",
 		"description": [
 			"## Mutation Mind",
 			"",
@@ -235,15 +195,6 @@
 		"name": "Psychic Duelist",
 		"file": "archetypedisplayf6e7.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "4th-level Discipline Spell; 7th-level Phrenic Amplification; Phrenic Amplifications; Telepathic Bond; Telepathy",
-		"replace_array": [
-			"4th-level Discipline Spell",
-			"7th-level Phrenic Amplification",
-			"Phrenic Amplifications",
-			"Telepathic Bond",
-			"Telepathy"
-		],
-		"short_description": "Psychic duelists hone their mental powers for combat, much as warriors do with their blades.",
 		"description": [
 			"## Psychic Duelist",
 			"",
@@ -274,17 +225,6 @@
 		"name": "Psychic Marauder",
 		"file": "archetypedisplay3f97.html",
 		"sources": [ "Heroes of the Darklands" ],
-		"replaces": "Alignment; Detect Thoughts; 3rd, 11th, 19th-level Phrenic Amplification; Telepathic Bond; Remade Self",
-		"replace_array": [
-			"Alignment",
-			"Detect Thoughts",
-			"3rd-level Phrenic Amplification",
-			"11th-level Phrenic Amplification",
-			"19th-level Phrenic Amplification",
-			"Telepathic Bond",
-			"Remade Self"
-		],
-		"short_description": "The psychic marauder's powers come hand in hand with madness, either from exposure to alien psyches or from terrifying glimpses into the cosmos that the psychic can't suppress.",
 		"description": [
 			"## Psychic Marauder",
 			"",
@@ -321,15 +261,6 @@
 		"name": "Terror Weaver",
 		"file": "archetypedisplay2305.html",
 		"sources": [ "Heroes from the Fringe" ],
-		"replaces": "Detect Thoughts; Telepathic Bond; 11th, 15th, 19th-level Phrenic Amplifications",
-		"replace_array": [
-			"Detect Thoughts",
-			"Telepathic Bond",
-			"11th-level Phrenic Amplification",
-			"15th-level Phrenic Amplification",
-			"19th-level Phrenic Amplification"
-		],
-		"short_description": "A number of exceptional Darklands half-orcs have developed potent psychic abilities, unlocked by generations of exposure to a specific combination of mind-altering fungi and radiation",
 		"description": [
 			"## Terror Weaver",
 			"",

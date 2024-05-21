@@ -4,14 +4,6 @@
 		"name": "Abolisher",
 		"file": "archetypedisplay9d18.html",
 		"sources": [ "Monster Hunter's Handbook" ],
-		"replaces": "Domains; Stern Gaze; Detect Alignment; Discern Lies",
-		"replace_array": [
-			"Domain",
-			"Stern Gaze",
-			"Detect Alignment",
-			"Discern Lies"
-		],
-		"short_description": "Abolishers are incorruptible inquisitors who weed out creatures of alien, unnatural origins, finding and exposing aberrations for what they are.",
 		"description": [
 			"## Abolisher",
 			"",
@@ -40,16 +32,6 @@
 		"name": "Cloaked Wolf",
 		"file": "archetypedisplayccc3.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Stern Gaze; Cunning Initiative; Monster Lore; Solo Tactics; Teamwork Feats",
-		"replace_array": [
-			"Class Skills",
-			"Stern Gaze",
-			"Cunning Initiative",
-			"Monster Lore",
-			"Solo Tactics",
-			"Teamwork Feats"
-		],
-		"short_description": "Some inquisitors are adept at appearing harmless until they throw off their unassuming facades and take their enemies by surprise.",
 		"description": [
 			"## Cloaked Wolf",
 			"",
@@ -80,13 +62,6 @@
 		"name": "Cold Iron Warden",
 		"file": "archetypedisplayaca8.html",
 		"sources": [ "Demon Hunter's Handbook" ],
-		"replaces": "Teamwork Feats; Bane; Discern Lies",
-		"replace_array": [
-			"Teamwork Feats",
-			"Bane",
-			"Discern Lies"
-		],
-		"short_description": "The natural enemies of demoniacs and other cultists of fiendish forces, cold iron wardens are inquisitors who dedicate their lives to eradicating the taint of demonkind from Golarion.",
 		"description": [
 			"## Cold Iron Warden",
 			"",
@@ -113,16 +88,6 @@
 		"name": "Exarch",
 		"file": "archetypedisplay85aa.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Monster Lore; Detect Alignment; Bane; Second Judgment; Greater Bane; Third Judgment",
-		"replace_array": [
-			"Monster Lore",
-			"Detect Alignment",
-			"Bane",
-			"Second Judgment",
-			"Greater Bane",
-			"Third Judgment"
-		],
-		"short_description": "(Dwarf Only) The gruff traditionalism of most dwarves finds its apex in those who adhere to a strict orthodoxy rooted in ancient principles and practices and who are not amenable whatsoever to change or innovation.",
 		"description": [
 			"## Exarch",
 			"",
@@ -149,14 +114,6 @@
 		"name": "Exorcist",
 		"file": "archetypedisplay4214.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Second Judgment; Third Judgment; Slayer; True Judgment",
-		"replace_array": [
-			"Second Judgment",
-			"Third Judgment",
-			"Slayer",
-			"True Judgment"
-		],
-		"short_description": "Some inquisitors, as they learn more about the threat of possession and the machinations of the planes, task themselves to expel possessing spirits and conniving outsiders from the world whenever possible.",
 		"description": [
 			"## Exorcist",
 			"",
@@ -177,13 +134,6 @@
 		"name": "Expulsionist",
 		"file": "archetypedisplayd09b.html",
 		"sources": [ "Haunted Heroes Handbook" ],
-		"replaces": "Domain; Monster Lore; Discern Lies",
-		"replace_array": [
-			"Domain",
-			"Monster Lore",
-			"Discern Lies"
-		],
-		"short_description": "Expulsionists are inquisitors who seek to rid the material world of the corrupting influences of wicked spirits that twist mortals to their own ends.",
 		"description": [
 			"## Expulsionist",
 			"",
@@ -214,14 +164,6 @@
 		"name": "Faith Hunter",
 		"file": "archetypedisplay3ec8.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Domain; Justice, Destruction Judgment; Detect Alignment",
-		"replace_array": [
-			"Domain",
-			"Justice Judgment",
-			"Destruction Judgment",
-			"Detect Alignment"
-		],
-		"short_description": "Certain relentless inquisitors burn with special hatred for an enemy of specific convictions, and they stop at nothing when obsessively hunting these foes down.",
 		"description": [
 			"## Faith Hunter",
 			"",
@@ -253,15 +195,6 @@
 			"Ultimate Wilderness",
 			"Heroes of the Wild"
 		],
-		"replaces": "Domain; Stern Gaze; Monster Lore; Discern Lies; Stalwart",
-		"replace_array": [
-			"Domain",
-			"Stern Gaze",
-			"Monster Lore",
-			"Discern Lies",
-			"Stalwart"
-		],
-		"short_description": "The Green Faith marshal serves as a literal force of nature, hunting down and punishing those who have committed sins against nature through enslavement and mistreatment of animals or destruction of wild places.",
 		"description": [
 			"## Green Faith Marshal",
 			"",
@@ -290,11 +223,6 @@
 		"name": "Heretic",
 		"file": "archetypedisplay248c.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Monster Lore",
-		"replace_array": [
-			"Monster Lore"
-		],
-		"short_description": "While all inquisitors hunt the enemies of the faith, sometimes, either through political maneuvering by her enemies or an unyielding tenacity that breaks her faith's basic tenets, an inquisitor can find herself a heretic.",
 		"description": [
 			"## Heretic",
 			"",
@@ -319,17 +247,6 @@
 		"name": "Hexenhammer",
 		"file": "archetypedisplay21f7.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Monster Lore; Stern Gaze; Domain; Cunning Initiative; Teamwork Feats; Solo Tactics; Spellcasting",
-		"replace_array": [
-			"Monster Lore",
-			"Stern Gaze",
-			"Domain",
-			"Cunning Initiative",
-			"Teamwork Feats",
-			"Solo Tactics",
-			"Spellcasting"
-		],
-		"short_description": "Hexenhammers learn to use the hexes and some spells of witches, but must pay the price for dealing with supernatural powers, as they slip ever closer to the evil they seek to destroy.",
 		"description": [
 			"## Hexenhammer",
 			"",
@@ -368,15 +285,6 @@
 		"name": "Iconoclast",
 		"file": "archetypedisplay1b94.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Monster Lore; Detect Alignment; Discern Lies; Exploit Weakness; True Judgment",
-		"replace_array": [
-			"Monster Lore",
-			"Detect Alignment",
-			"Discern Lies",
-			"Exploit Weakness",
-			"True Judgment"
-		],
-		"short_description": "Some magic items are heretical by nature, enabling the unfaithful to spread wickedness. Iconoclasts seek out and remove such crutches, cleansing the taint these items exude.",
 		"description": [
 			"## Iconoclast",
 			"",
@@ -399,14 +307,6 @@
 		"name": "Immolator",
 		"file": "archetypedisplay7068.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Smiting Judgment; Bane; Greater Bane; True Judgment",
-		"replace_array": [
-			"Smiting Judgment",
-			"Bane",
-			"Greater Bane",
-			"True Judgment"
-		],
-		"short_description": "(Ifrit Only) The immolator puts her pyromaniacal urges to work in the service of a deity. She brings burning retribution down upon the enemies of her faith, consigning their souls to the sacrificial flames.",
 		"description": [
 			"## Immolator",
 			"",
@@ -429,14 +329,6 @@
 		"name": "Infiltrator",
 		"file": "archetypedisplay95db.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Stern Gaze; Monster Lore; Track; Discern Lies",
-		"replace_array": [
-			"Stern Gaze",
-			"Monster Lore",
-			"Track",
-			"Discern Lies"
-		],
-		"short_description": "This inquisitor uses guile and deception to blend in among the enemies of the faith rather than confronting them head-on.",
 		"description": [
 			"## Infiltrator",
 			"",
@@ -457,14 +349,6 @@
 		"name": "Keeper of Construct",
 		"file": "archetypedisplay8faf.html",
 		"sources": [ "People of the Wastes" ],
-		"replaces": "Domain; Stern Gaze; Monster Lore; Exploit Weakness",
-		"replace_array": [
-			"Domain",
-			"Stern Gaze",
-			"Monster Lore",
-			"Exploit Weakness"
-		],
-		"short_description": "Some of Brigh's inquisitors, and occasionally those who follow Torag, track down malicious construct crafters and fight renegade constructs with unrivaled expertise.",
 		"description": [
 			"## Keeper of Construct",
 			"",
@@ -495,13 +379,6 @@
 		"name": "Keeper of the Current",
 		"file": "archetypedisplay48bc.html",
 		"sources": [ "Blood of the Sea" ],
-		"replaces": "Track; Spellcasting; Discern Lies",
-		"replace_array": [
-			"Track",
-			"Spellcasting",
-			"Discern Lies"
-		],
-		"short_description": "Water-related deities all have organized churches beneath the waves that engage zealous followers to hunt down apostates and enemies. Regardless of their faith, these undersea zealots are known as keepers of the current.",
 		"description": [
 			"## Keeper of the Current",
 			"",
@@ -526,13 +403,6 @@
 		"name": "Kinslayer",
 		"file": "archetypedisplay7d96.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Destruction Judgment; Teamwork Feats; Detect Alignment",
-		"replace_array": [
-			"Destruction Judgment",
-			"Teamwork Feats",
-			"Detect Alignment"
-		],
-		"short_description": "(Dhampir Only) Appalled and guilt-ridden by the horrific circumstances of her birth, a kinslayer dedicates herself to eradicating the very creatures whose blood flows within her veins.",
 		"description": [
 			"## Kinslayer",
 			"",
@@ -571,20 +441,6 @@
 		"name": "Living Grimoire",
 		"file": "archetypedisplay6fe2.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Monster Lore; Spellcasting; Cunning Initiative; Orisons; Judgment; Bane; Greater Bane; Second Judgment; Third Judgment; True Judgment",
-		"replace_array": [
-			"Monster Lore",
-			"Spellcasting",
-			"Cunning Initiative",
-			"Orisons",
-			"Judgment",
-			"Bane",
-			"Greater Bane",
-			"Second Judgment",
-			"Third Judgment",
-			"True Judgment"
-		],
-		"short_description": "The living grimoire literally wields the sacred word of his deity, using his holy tome to smite the foes of his god with divine might.",
 		"description": [
 			"## Living Grimoire",
 			"",
@@ -627,16 +483,6 @@
 		"name": "Monster Tactician",
 		"file": "archetypedisplayf7c6.html",
 		"sources": [ "Monster Summoner's Handbook" ],
-		"replaces": "Judgment; Discern Lies; Second Judgment; Third Judgment; Slayer; True Judgment",
-		"replace_array": [
-			"Judgment",
-			"Discern Lies",
-			"Second Judgment",
-			"Third Judgment",
-			"Slayer",
-			"True Judgment"
-		],
-		"short_description": "While most inquisitors have learned to take advantage of the movements of their opponents and allies in combat, some instead summon creatures as a means of claiming strategic advantage, exploiting the mystic connection between themselves and their summoned creatures to impart a bit of their own tactical knowledge.",
 		"description": [
 			"## Monster Tactician",
 			"",
@@ -657,14 +503,6 @@
 		"name": "Oathkeeper",
 		"file": "archetypedisplay4261.html",
 		"sources": [ "Merchant's Manifest" ],
-		"replaces": "Alignment; Class Skills; Monster Lore; Track",
-		"replace_array": [
-			"Alignment",
-			"Class Skills",
-			"Monster Lore",
-			"Track"
-		],
-		"short_description": "Oathkeepers formally oversee the creation of bargains and personally hunt down those who dare to violate them.",
 		"description": [
 			"## Oathkeeper",
 			"",
@@ -695,11 +533,6 @@
 		"name": "Preacher",
 		"file": "archetypedisplay107a.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Solo Tactics",
-		"replace_array": [
-			"Solo Tactics"
-		],
-		"short_description": "Some inquisitors wander the land to spread the true word of their faith.",
 		"description": [
 			"## Preacher",
 			"",
@@ -722,14 +555,6 @@
 		"name": "Ravener Hunter",
 		"file": "archetypedisplayfd1e.html",
 		"sources": [ "Blood of the Beast" ],
-		"replaces": "Alignment; Domain; Spells; 3rd-level Teamwork Feat",
-		"replace_array": [
-			"Alignment",
-			"Domain",
-			"Add Spells",
-			"3rd-level Teamwork Feat"
-		],
-		"short_description": "For generations, the catfolk of Murraseth have viewed the cults of Angazhan with loathing and hatred, and they believe it is their sacred duty to hunt down the followers of the Ravener King and expel them from the Material Plane",
 		"description": [
 			"## Ravener Hunter",
 			"",
@@ -758,13 +583,6 @@
 		"name": "Reaper of Secrets",
 		"file": "archetypedisplayc11c.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
-		"replaces": "Monster Lore; Stern Gaze; Solo Tactics",
-		"replace_array": [
-			"Monster Lore",
-			"Stern Gaze",
-			"Solo Tactics"
-		],
-		"short_description": "Masters of mind tricks and deception, these divine assassins track down and kill anyone who has forbidden knowledge about their faiths.",
 		"description": [
 			"## Reaper of Secrets",
 			"",
@@ -789,17 +607,6 @@
 		"name": "Relic Hunter",
 		"file": "archetypedisplay1621.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Spellcasting; Judgment; Domain; Bane; Greater Bane; Second Judgment; Third Judgment",
-		"replace_array": [
-			"Spellcasting",
-			"Judgment",
-			"Domain",
-			"Bane",
-			"Greater Bane",
-			"Second Judgment",
-			"Third Judgment"
-		],
-		"short_description": "Some inquisitors specialize in the use and recovery of long-lost relics of their faiths, drawing forth divine might from the recovered items in order to restore their sanctity and wield these artifacts against the enemies of their gods.",
 		"description": [
 			"## Relic Hunter",
 			"",
@@ -828,15 +635,6 @@
 		"name": "Royal Accuser",
 		"file": "archetypedisplay379b.html",
 		"sources": [ "Inner Sea Intrigue" ],
-		"replaces": "Class Skills; Stern Gaze; Detect Alignment; Solo Tactics; Teamwork Bonus Feats",
-		"replace_array": [
-			"Class Skills",
-			"Stern Gaze",
-			"Detect Alignment",
-			"Solo Tactics",
-			"Teamwork Feats"
-		],
-		"short_description": "Royal accusers serve the prince of Ustalav, cutting through the nation's baroque politics and quietly facing its many threats.",
 		"description": [
 			"## Royal Accuser",
 			"",
@@ -881,16 +679,6 @@
 		"name": "Sacred Huntsmaster",
 		"file": "archetypedisplaye3ab.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Judgment; Solo Tactics; Second Judgment; Third Judgment; Slayer; True Judgment",
-		"replace_array": [
-			"Judgment",
-			"Solo Tactics",
-			"Second Judgment",
-			"Third Judgment",
-			"Slayer",
-			"True Judgment"
-		],
-		"short_description": "Some inquisitors create a strong bond with an animal companion, and they hunt and punish threats to the faith as an awe-inspiring duo.",
 		"description": [
 			"## Sacred Huntsmaster",
 			"",
@@ -917,15 +705,6 @@
 		"name": "Sanctified Slayer",
 		"file": "archetypedisplayd484.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Judgment; Second Judgment; Third Judgment; Slayer; True Judgment",
-		"replace_array": [
-			"Judgment",
-			"Second Judgment",
-			"Third Judgment",
-			"Slayer",
-			"True Judgment"
-		],
-		"short_description": "While all inquisitors root out enemies of the faith, in many orders and churches there's a select group of these religious hunters devoted to one goal, and one goal alone-to terminate the enemies of the faith wherever they can be found.",
 		"description": [
 			"## Sanctified Slayer",
 			"",
@@ -948,14 +727,6 @@
 		"name": "Secret Seeker",
 		"file": "archetypedisplayea77.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Monster Lore; Bane; Greater Bane; Exploit Weakness",
-		"replace_array": [
-			"Monster Lore",
-			"Bane",
-			"Greater Bane",
-			"Exploit Weakness"
-		],
-		"short_description": "Recognizing that torture is a poor method of securing truthful intelligence, secret seekers instead prefer magical means of inquiry.",
 		"description": [
 			"## Secret Seeker",
 			"",
@@ -982,13 +753,6 @@
 		"name": "Sin Eater",
 		"file": "archetypedisplay53d3.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Domain; 6th-level Teamwork Feat; Exploit Weakness",
-		"replace_array": [
-			"Domain",
-			"6th-level Teamwork Feat",
-			"Exploit Weakness"
-		],
-		"short_description": "There is a sect of inquisitors in some religions that believes it is not enough to hunt the enemies of the church-one must also devour those enemies' sins.",
 		"description": [
 			"## Sin Eater",
 			"",
@@ -1017,14 +781,6 @@
 		"name": "Spellbreaker",
 		"file": "archetypedisplayee93.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Monster Lore; Bonus Teamwork Feats; Solo Tactics; Final Judgment",
-		"replace_array": [
-			"Monster Lore",
-			"Bonus Teamwork Feats",
-			"Solo Tactics",
-			"Final Judgment"
-		],
-		"short_description": "The world is full of dangerous magic, and many recoil in the face of such power. The spellbreaker, by contrast, learns to recognize and resist certain types of magic, wading through waves of magic to reach her foes.",
 		"description": [
 			"## Spellbreaker",
 			"",
@@ -1045,17 +801,6 @@
 		"name": "Suit Seeker",
 		"file": "archetypedisplay37b1.html",
 		"sources": [],
-		"replaces": "Class Skills; Domain; Judgment; Second Judgment; Third Judgment; Detect Alignment; True Judgment",
-		"replace_array": [
-			"Class Skills",
-			"Domain",
-			"Judgment",
-			"Second Judgment",
-			"Third Judgment",
-			"Detect Alignment",
-			"True Judgment"
-		],
-		"short_description": "Though surrounded by meaning and tradition revered by most harrowers, the harrow is a tool that could be abused. Those inquisitors known as suit seekers take grave offense at the misuse of this ancient power, and dedicate their considerable skills to hunting and eliminating any who would abuse the harrow's magic and the heritage it represents.",
 		"description": [
 			"## Suit Seeker",
 			"",
@@ -1106,16 +851,6 @@
 		"name": "Sworn of the Eldest",
 		"file": "archetypedisplay0485.html",
 		"sources": [ "Wilderness Origins" ],
-		"replaces": "Deity; Domain; Monster Lore; Stern Gaze; Solo Tactics; Teamwork Feats",
-		"replace_array": [
-			"Deity",
-			"Domain",
-			"Monster Lore",
-			"Stern Gaze",
-			"Solo Tactics",
-			"Teamwork Feats"
-		],
-		"short_description": "Although the Eldest rarely have adherents as other deities do, they still occasionally require mortal agents to advance their aims.",
 		"description": [
 			"## Sworn of the Eldest",
 			"",
@@ -1150,14 +885,6 @@
 		"name": "Tactical Leader",
 		"file": "archetypedisplay3a39.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Stern Gaze; Solo Tactics; Teamwork Feats; Exploit Weakness",
-		"replace_array": [
-			"Stern Gaze",
-			"Solo Tactics",
-			"Teamwork Feats",
-			"Exploit Weakness"
-		],
-		"short_description": "Rather than pursuing their holy missions alone, some inquisitors see the inherent value of working with like-minded allies to accomplish mutual goals.",
 		"description": [
 			"## Tactical Leader",
 			"",
@@ -1186,15 +913,6 @@
 		"name": "Traceless Operative",
 		"file": "archetypedisplaydfff.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Monster Lore; Stern Gaze; Track; Bane; Greater Bane",
-		"replace_array": [
-			"Monster Lore",
-			"Stern Gaze",
-			"Track",
-			"Bane",
-			"Greater Bane"
-		],
-		"short_description": "Traceless operatives practice subterfuge and careful preparation in order to accomplish their divine mandates.",
 		"description": [
 			"## Traceless Operative",
 			"",
@@ -1223,13 +941,6 @@
 		"name": "Umbral Stalker",
 		"file": "archetypedisplayafc4.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Domain; Justice Judgment",
-		"replace_array": [
-			"Class Skills",
-			"Domain",
-			"Justice Judgment"
-		],
-		"short_description": "As a consummate lurker in the shadows, an umbral stalker observes the enemies of her faith and strikes before the unfortunate victims even know she is skulking nearby.",
 		"description": [
 			"## Umbral Stalker",
 			"",
@@ -1266,13 +977,6 @@
 		"name": "Urban Infiltrator",
 		"file": "archetypedisplay4fd0.html",
 		"sources": [ "Magic Tactics Toolbox" ],
-		"replaces": "Class Skills; Monster Lore; Stalwart",
-		"replace_array": [
-			"Class Skills",
-			"Monster Lore",
-			"Stalwart"
-		],
-		"short_description": "Masters of secretly gathering information to further their faith's ends, urban infiltrators excel at operating within an unfriendly society or infiltrating an enemy cult.",
 		"description": [
 			"## Urban Infiltrator",
 			"",
@@ -1297,14 +1001,6 @@
 		"name": "Vampire Hunter",
 		"file": "archetypedisplayb748.html",
 		"sources": [ "Inner Sea Magic" ],
-		"replaces": "Altered Judgments (Purity, Smiting); Detect Alignment; Altered Bane",
-		"replace_array": [
-			"Purity Judgment",
-			"Smiting Judgment",
-			"Detect Alignment",
-			"Bane"
-		],
-		"short_description": "The vampire hunter believes that the worst of undead are the ones with unnatural appetities for flesh and blood.",
 		"description": [
 			"## Vampire Hunter",
 			"",
@@ -1331,14 +1027,6 @@
 		"name": "Vigilant Defender",
 		"file": "archetypedisplay2d89.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Judgment; Stern Gaze; Exploit Weakness; True Judgment",
-		"replace_array": [
-			"Judgment",
-			"Stern Gaze",
-			"Exploit Weakness",
-			"True Judgment"
-		],
-		"short_description": "Some inquisitors focus more on protecting those who share their faiths and their ideals than on actively hunting their enemies.",
 		"description": [
 			"## Vigilant Defender",
 			"",
@@ -1369,16 +1057,6 @@
 		"name": "Witch Hunter",
 		"file": "archetypedisplayc534.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Monster Lore; Detect Alignment; Discern Lies; True Judgment; Track; Exploit Weakness",
-		"replace_array": [
-			"Monster Lore",
-			"Detect Alignment",
-			"Discern Lies",
-			"True Judgment",
-			"Track",
-			"Exploit Weakness"
-		],
-		"short_description": "When pursuing justice for their faith, inquisitors sometimes hunt sorcerers, witches, wizards, and other practitioners of arcane magic-but especially witches, since their devotion to a patron is often seen as suspect by many religions.",
 		"description": [
 			"## Witch Hunter",
 			"",

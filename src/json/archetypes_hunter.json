@@ -4,13 +4,6 @@
 		"name": "Aquatic Beastmaster",
 		"file": "archetypedisplay683d.html",
 		"sources": [ "Blood of the Sea" ],
-		"replaces": "Animal Focus; Wild Empathy; Improved Empathic Link",
-		"replace_array": [
-			"Animal Focus",
-			"Wild Empathy",
-			"Improved Empathic Link"
-		],
-		"short_description": "Hunters beneath the sea are just as committed as their surface-dwelling counterparts to working alongside their animal companions to eradicate threats.",
 		"description": [
 			"## Aquatic Beastmaster",
 			"",
@@ -51,18 +44,6 @@
 		"name": "Chameleon Adept",
 		"file": "archetypedisplayd3b2.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Class Skills; Teamwork Feats; Hunter Tactics; Wild Empathy; Precise Companion; Woodland Stride; Raise Animal Companion; One with the Wild",
-		"replace_array": [
-			"Class Skills",
-			"Teamwork Feats",
-			"Hunter Tactics",
-			"Wild Empathy",
-			"Precise Companion",
-			"Woodland Stride",
-			"Raise Animal Companion",
-			"One with the Wild"
-		],
-		"short_description": "Some hunters are masters of blending into every situation, even making their companions appear humanoid for brief periods of time.",
 		"description": [
 			"## Chameleon Adept",
 			"",
@@ -103,13 +84,6 @@
 		"name": "Colluding Scoundrel",
 		"file": "archetypedisplay6a48.html",
 		"sources": [ "Antihero's Handbook" ],
-		"replaces": "Animal Focus; Second Animal Focus; Master Hunter",
-		"replace_array": [
-			"Animal Focus",
-			"Second Animal Focus",
-			"Master Hunter"
-		],
-		"short_description": "The colluding scoundrel is a canny and conniving skirmisher, manipulating her enemies and leveraging her allies for her own benefit.",
 		"description": [
 			"## Colluding Scoundrel",
 			"",
@@ -138,17 +112,6 @@
 		"name": "Courtly Hunter",
 		"file": "archetypedisplayfa61.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Animal Companion; Animal Focus; Precise Companion; Hunter Tactics; Teamwork Feats; Bonus Tricks",
-		"replace_array": [
-			"Class Skills",
-			"Animal Companion",
-			"Animal Focus",
-			"Precise Companion",
-			"Hunter Tactics",
-			"Teamwork Feats",
-			"Bonus Tricks"
-		],
-		"short_description": "While most hunters find themselves at ease in the wildest parts of the world, courtly hunters instead make their homes in cultured urban environments.",
 		"description": [
 			"## Courtly Hunter",
 			"",
@@ -201,14 +164,6 @@
 		"name": "Divine Hunter",
 		"file": "archetypedisplay37ae.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Alignment; Class Skills; Teamwork Feats; Hunter Tactics",
-		"replace_array": [
-			"Alignment",
-			"Class Skills",
-			"Teamwork Feats",
-			"Hunter Tactics"
-		],
-		"short_description": "While most hunters heed the call of nature and fight to protect its bounty, some are inspired to serve a higher power.",
 		"description": [
 			"## Divine Hunter",
 			"",
@@ -235,25 +190,6 @@
 		"name": "Feral Hunter",
 		"file": "archetypedisplay5665.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Animal Companion; Animal Focus; Hunter Tactics; Speak with Master; Precise Companion; Bonus Tricks; Improved Empathic Link; Greater Empathic Link; Master of the Wild; Raise Animal Companion; 6th, 9th, 12th, 15th, and 18th-level Teamwork Feats",
-		"replace_array": [
-			"Animal Companion",
-			"Animal Focus",
-			"Hunter Tactics",
-			"Speak with Master",
-			"Precise Companion",
-			"Bonus Tricks",
-			"Improved Empathic Link",
-			"Greater Empathic Link",
-			"Master of the Wild",
-			"Raise Animal Companion",
-			"6th-level Teamwork Feat",
-			"9th-level Teamwork Feat",
-			"12th-level Teamwork Feat",
-			"15th-level Teamwork Feat",
-			"18th-level Teamwork Feat"
-		],
-		"short_description": "A feral hunter has forged a bond with nature that's so strong that she doesn't merely channel the aspects of animals' she actually becomes an animal herself.",
 		"description": [
 			"## Feral Hunter",
 			"",
@@ -280,15 +216,6 @@
 		"name": "Feykiller",
 		"file": "archetypedisplay3767.html",
 		"sources": [ "Legacy of the First World" ],
-		"replaces": "Animal Focus; Wild Empathy; Speak with Master; Improved Empathic Link; One with the Wild",
-		"replace_array": [
-			"Animal Focus",
-			"Wild Empathy",
-			"Speak with Master",
-			"Improved Empathic Link",
-			"One with the Wild"
-		],
-		"short_description": "Some hunters in fey-plagued regions are dedicated to tracking down and eradicating these threats.",
 		"description": [
 			"## Feykiller",
 			"",
@@ -327,14 +254,6 @@
 		"name": "Flood Flourisher",
 		"file": "archetypedisplaye953.html",
 		"sources": [ "People of the Wastes" ],
-		"replaces": "Hunter Tactics; Woodland Stride; Teamwork Feats; Swift Tracker",
-		"replace_array": [
-			"Hunter Tactics",
-			"Woodland Stride",
-			"Teamwork Feats",
-			"Swift Tracker"
-		],
-		"short_description": "Well adapted to their drenched surroundings, flood flourishers coordinate deadly ambushes with their loyal animal companions by capitalizing on their mastery of the soggy terrain.",
 		"description": [
 			"## Flood Flourisher",
 			"",
@@ -383,19 +302,6 @@
 		"name": "Forester",
 		"file": "archetypedisplayd2bc.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Animal Focus; Animal Companion; Precise Companion; Hunter Tactics; Improved Empathic Link; Bonus Tricks; Raise Animal Companion; Speak with Master; Greater Empathic Link",
-		"replace_array": [
-			"Animal Focus",
-			"Animal Companion",
-			"Precise Companion",
-			"Hunter Tactics",
-			"Improved Empathic Link",
-			"Bonus Tricks",
-			"Raise Animal Companion",
-			"Speak with Master",
-			"Greater Empathic Link"
-		],
-		"short_description": "While all hunters have a bond with the natural world, a forester has a stronger tie to her environment than to the animals within it.",
 		"description": [
 			"## Forester",
 			"",
@@ -444,15 +350,6 @@
 		"name": "Packmaster",
 		"file": "archetypedisplayd1aa.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Animal Companion; Animal Focus; Teamwork Feats; Second Animal Focus; Master Hunter",
-		"replace_array": [
-			"Animal Companion",
-			"Animal Focus",
-			"Teamwork Feats",
-			"Second Animal Focus",
-			"Master Hunter"
-		],
-		"short_description": "Some hunters form bonds with packs of well-trained creatures. Whether such a hunter is a northern berserker running with a pack of timber wolves or a savage warrior dashing through the jungle alongside her herd of dimetrodons, the packmaster revels in the thrill of the hunt and the glory of the kill.",
 		"description": [
 			"## Packmaster",
 			"",
@@ -482,16 +379,6 @@
 			"Ultimate Wilderness",
 			"Magic Tactics Toolbox"
 		],
-		"replaces": "Class Skills; Nature Training; Wild Empathy; Hunter Tactics; Teamwork Feats; Raise Animal Companion",
-		"replace_array": [
-			"Class Skills",
-			"Nature Training",
-			"Wild Empathy",
-			"Hunter Tactics",
-			"Teamwork Feats",
-			"Raise Animal Companion"
-		],
-		"short_description": "Wandering the wilds, some hunters eschew the bond of innate teamwork with their animal companions. Instead, these hunters master the creation and deployment of intricate ranger traps, often using themselves or their animal companions to lure foes into their snares.",
 		"description": [
 			"## Patient Ambusher",
 			"",
@@ -524,13 +411,6 @@
 		"name": "Pelagic Hunter",
 		"file": "archetypedisplay5881.html",
 		"sources": [ "Aquatic Adventures" ],
-		"replaces": "Animal Companion; Animal Focus; Woodland Stride",
-		"replace_array": [
-			"Animal Companion",
-			"Animal Focus",
-			"Woodland Stride"
-		],
-		"short_description": "Pelagic hunters form strong bonds that extend deep beneath the sea.",
 		"description": [
 			"## Pelagic Hunter",
 			"",
@@ -579,15 +459,6 @@
 		"name": "Plant Master",
 		"file": "archetypedisplay8c82.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Animal Companion; Animal Focus; Wild Empathy; One with the Wild; Master Hunter",
-		"replace_array": [
-			"Animal Companion",
-			"Animal Focus",
-			"Wild Empathy",
-			"One with the Wild",
-			"Master Hunter"
-		],
-		"short_description": "Some hunters form a bond with plant life instead of an animal and take on those aspects instead.",
 		"description": [
 			"## Plant Master",
 			"",
@@ -642,13 +513,6 @@
 		"name": "Primal Companion Hunter",
 		"file": "archetypedisplayd51c.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Animal Focus; Second Animal Focus; Master Hunter",
-		"replace_array": [
-			"Animal Focus",
-			"Second Animal Focus",
-			"Master Hunter"
-		],
-		"short_description": "Most hunters are skilled at awakening the primal beasts inside themselves. However, some can instead activate the primal essence within their animal companion.",
 		"description": [
 			"## Primal Companion Hunter",
 			"",
@@ -675,16 +539,6 @@
 		"name": "Roof Runner",
 		"file": "archetypedisplaybd42.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Armor Proficieny; Track; Woodland Stride; Swift Tracker; Master Hunter",
-		"replace_array": [
-			"Class Skills",
-			"Armor Proficieny",
-			"Track",
-			"Woodland Stride",
-			"Swift Tracker",
-			"Master Hunter"
-		],
-		"short_description": "Roof runners are skilled ambushers, skirmishers, and spies who eschew heavier types of armor in order to remain light on their feet.",
 		"description": [
 			"## Roof Runner",
 			"",
@@ -720,12 +574,6 @@
 			"Ultimate Wilderness",
 			"Advanced Class Origins"
 		],
-		"replaces": "Animal Focus; Woodland Stride",
-		"replace_array": [
-			"Animal Focus",
-			"Woodland Stride"
-		],
-		"short_description": "The forgotten ruins in the desert sands have given rise to a breed of hunters who call upon the powers of the pyramids to protect and explore the ancient sites of their people.",
 		"description": [
 			"## Scarab Stalker",
 			"",
@@ -774,12 +622,6 @@
 		"name": "Totem-Bonded",
 		"file": "archetypedisplayad80.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Animal Companion; Animal Focus",
-		"replace_array": [
-			"Animal Companion",
-			"Animal Focus"
-		],
-		"short_description": "Totem-bonded are hunters who are able to form a true spiritual bond with the powerful fauna that dominate the wildlands.",
 		"description": [
 			"## Totem-Bonded",
 			"",
@@ -808,15 +650,6 @@
 		"name": "Treestrider",
 		"file": "archetypedisplaya923.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Animal Companion; Animal Focus; Second Animal Focus; Precise Companion; Raise Animal Companion",
-		"replace_array": [
-			"Animal Companion",
-			"Animal Focus",
-			"Second Animal Focus",
-			"Precise Companion",
-			"Raise Animal Companion"
-		],
-		"short_description": "Some hunters are masters of the wild. Whether raised by apes or having some other link with simian creatures, these hunters glide through the wilderness with ease.",
 		"description": [
 			"## Treestrider",
 			"",
@@ -845,15 +678,6 @@
 		"name": "Uprooter Scout",
 		"file": "archetypedisplay075a.html",
 		"sources": [ "Advanced Class Origins" ],
-		"replaces": "Improved Empathic Link; Speak with Master; Greater Empathic Link; Raise Animal Companion; One with the Wild",
-		"replace_array": [
-			"Improved Empathic Link",
-			"Speak with Master",
-			"Greater Empathic Link",
-			"Raise Animal Companion",
-			"One with the Wild"
-		],
-		"short_description": "The Uprooters are an elite band of Kyonin elves skilled and brave enough to foray into the Tanglebriar and take the offensive in the fight against Treerazer.",
 		"description": [
 			"## Uprooter Scout",
 			"",
@@ -872,16 +696,6 @@
 		"name": "Urban Hunter",
 		"file": "archetypedisplay74d2.html",
 		"sources": [ "Heroes of the Streets" ],
-		"replaces": "Class Skills; Animal Companion; Hunter Tactics; Teamwork Feat; Woodland Stride; One with the Wild",
-		"replace_array": [
-			"Class Skills",
-			"Animal Companion",
-			"Hunter Tactics",
-			"Teamwork Feats",
-			"Woodland Stride",
-			"One with the Wild"
-		],
-		"short_description": "Urban hunters help guards track down and apprehend criminals or spies, find lost children and disaster victims, and protect animals from abuse in the city.",
 		"description": [
 			"## Urban Hunter",
 			"",
@@ -906,14 +720,6 @@
 		"name": "Verminous Hunter",
 		"file": "archetypedisplayb01b.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Animal Companion; Wild Empathy; Animal Focus; Woodland Stride",
-		"replace_array": [
-			"Animal Companion",
-			"Wild Empathy",
-			"Animal Focus",
-			"Woodland Stride"
-		],
-		"short_description": "A verminous hunter calls on the ceaseless, single-minded dedication of vermin to hunt and overwhelm her prey.",
 		"description": [
 			"## Verminous Hunter",
 			"",

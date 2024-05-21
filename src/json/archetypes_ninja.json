@@ -4,14 +4,6 @@
 		"name": "Frozen Shadow",
 		"file": "archetypedisplay3964.html",
 		"sources": [ "Inner Sea Intrigue" ],
-		"replaces": "Class Skills; Ki Pool; Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Class Skills",
-			"Ki Pool",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Frozen shadows belong to a rare ninja clan operating in Avistan and they work as thieves, power brokers, and spies loosely guided by secretive masters with unknown agendas.",
 		"description": [
 			"## Frozen Shadow",
 			"",
@@ -44,14 +36,6 @@
 		"name": "Gunpowder Bombardier",
 		"file": "archetypedisplay0d8c.html",
 		"sources": [ "Heroes from the Fringe" ],
-		"replaces": "Ki Pool; 2nd-level Ninja Trick; Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Ki Pool",
-			"2nd-level Ninja Trick",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Ratfolk assassins and other ninjas with an affinity for gunpowder demonstrate masterful control of bombs, using the explosives to inflict major damage or impair their foes",
 		"description": [
 			"## Gunpowder Bombardier",
 			"",
@@ -76,17 +60,6 @@
 		"name": "Hunting Serpent",
 		"file": "archetypedisplay8fb0.html",
 		"sources": [ "Villain Codex" ],
-		"replaces": "Class Skills; No Trace; Uncanny Dodge; Improved Uncanny Dodge; 10th, 12th, 16th-level Ninja Trick",
-		"replace_array": [
-			"Class Skills",
-			"No Trace",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge",
-			"10th-level Ninja Trick",
-			"12th-level Ninja Trick",
-			"16th-level Ninja Trick"
-		],
-		"short_description": "Hunting serpents are specially trained killers to that hunt relentlessly and fight from the shadows.",
 		"description": [
 			"## Hunting Serpent",
 			"",
@@ -115,14 +88,6 @@
 		"name": "Mask of the Living God",
 		"file": "archetypedisplayff53.html",
 		"sources": [ "Disciple's Doctrine" ],
-		"replaces": "Weapon and Armor Proficiency; Poison Use; Ki Pool; No Trace",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Poison Use",
-			"Ki Pool",
-			"No Trace"
-		],
-		"short_description": "When the Living God needs to silence the voices of those heretics who question too loudly, these enforcers are the tools he employs.",
 		"description": [
 			"## Mask of the Living God",
 			"",
@@ -157,16 +122,6 @@
 		"name": "Petal Ninja",
 		"file": "archetypedisplay3296.html",
 		"sources": [ "Wilderness Origins" ],
-		"replaces": "Class Skills; 2nd-level Ninja Trick; No Trace; Uncanny Dodge; Improved Uncanny Dodge; Light Steps",
-		"replace_array": [
-			"Class Skills",
-			"2nd-level Ninja Trick",
-			"No Trace",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge",
-			"Light Steps"
-		],
-		"short_description": "(Ghoran Only) Petal ninjas are a secretive clan of ghoran infiltrators, in touch with their plantlike nature to the point where they can change their forms, allowing them access into places that were previously impossible to reach.",
 		"description": [
 			"## Petal Ninja",
 			"",

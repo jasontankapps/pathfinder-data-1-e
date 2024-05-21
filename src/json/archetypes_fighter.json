@@ -4,16 +4,6 @@
 		"name": "Aerial Assaulter",
 		"file": "archetypedisplay4d73.html",
 		"sources": [ "Blood of the Ancients" ],
-		"replaces": "Class Skills; Bravery; 2nd, 12th-level Bonus Feat; Armor Mastery; Weapon Mastery",
-		"replace_array": [
-			"Class Skills",
-			"Bravery",
-			"2nd-level Bonus Feat",
-			"12th-level Bonus Feat",
-			"Armor Mastery",
-			"Weapon Mastery"
-		],
-		"short_description": "Aerial assaulters leap to great heights and create higher ground where there is none.",
 		"description": [
 			"## Aerial Assaulter",
 			"",
@@ -46,14 +36,6 @@
 		"name": "Airborne Ambusher",
 		"file": "archetypedisplay4642.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Weapon/Armor Proficiency; Class Skills; Bravery; Weapon Training 1-4",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Class Skills",
-			"Bravery",
-			"Weapon Training"
-		],
-		"short_description": "(Strix Only) Driven by suspicion and hatred, strix doggedly guard their territories, making deadly use of their flight.",
 		"description": [
 			"## Airborne Ambusher",
 			"",
@@ -81,14 +63,6 @@
 			"Adventurer's Guide",
 			"Inner Sea Primer"
 		],
-		"replaces": "Armor Training; 6th, 8th, 10th-level Bonus Feat",
-		"replace_array": [
-			"Armor Training",
-			"6th-level Bonus Feat",
-			"8th-level Bonus Feat",
-			"10th-level Bonus Feat"
-		],
-		"short_description": "Trained warrior in the art of the Aldori dueling sword.",
 		"description": [
 			"## Aldori Defender",
 			"",
@@ -121,15 +95,6 @@
 		"name": "Aquanaut",
 		"file": "archetypedisplay736a.html",
 		"sources": [ "Aquatic Adventures" ],
-		"replaces": "Armor Proficiency; Bravery; Armor Training 1-4; Armor Mastery; Weapon Training 1-4",
-		"replace_array": [
-			"Armor Proficiency",
-			"Bravery",
-			"Armor Training",
-			"Armor Mastery",
-			"Weapon Training"
-		],
-		"short_description": "Aquanaut fighters master the movement of water, using its flow to their advantage in combat.",
 		"description": [
 			"## Aquanaut",
 			"",
@@ -162,14 +127,6 @@
 		"name": "Archer",
 		"file": "archetypedisplayc33a.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Bravery; Armor Training 1-4; Weapon Training 1-4; Armor Mastery",
-		"replace_array": [
-			"Bravery",
-			"Armor Training",
-			"Weapon Training",
-			"Armor Mastery"
-		],
-		"short_description": "The archer is dedicated to the careful mastery of the bow, perfecting his skills with years of practice.",
 		"description": [
 			"## Archer",
 			"",
@@ -200,15 +157,6 @@
 		"name": "Armiger",
 		"file": "archetypedisplayaf5c.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Class Skills; Skill Points; 1st, 10th-level Bonus Feats; Bravery",
-		"replace_array": [
-			"Class Skills",
-			"Skill Ranks",
-			"1st-level Bonus Feat",
-			"10th-level Bonus Feat",
-			"Bravery"
-		],
-		"short_description": "Fighters who focus their training to become Hellknights.",
 		"description": [
 			"## Armiger",
 			"",
@@ -239,14 +187,6 @@
 		"name": "Armor Master",
 		"file": "archetypedisplayd57f.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Bravery; Weapon Training 1-4; Armor Mastery; Weapon Mastery",
-		"replace_array": [
-			"Bravery",
-			"Weapon Training",
-			"Armor Mastery",
-			"Weapon Mastery"
-		],
-		"short_description": "While many fighters hone their weapon skills to a point of inescapable grace and lethality, there are those who live under the maxim that a good offense can be accomplished though an impenetrable defense.",
 		"description": [
 			"## Armor Master",
 			"",
@@ -267,14 +207,6 @@
 		"name": "Brawler",
 		"file": "archetypedisplayd6ee.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Armor Training 1-4; Weapon Training 1-4; Armor Mastery, Weapon Mastery",
-		"replace_array": [
-			"Armor Training",
-			"Weapon Training",
-			"Armor Mastery",
-			"Weapon Mastery"
-		],
-		"short_description": "All melee is up close and personal, but some warriors bring it as close as they can get.",
 		"description": [
 			"## Brawler",
 			"",
@@ -299,15 +231,6 @@
 		"name": "Cad",
 		"file": "archetypedisplay2946.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Weapon/Armor Proficiency; Bravery; Armor Training 1-4; Weapon Training 1-4; Weapon Mastery",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Bravery",
-			"Armor Training",
-			"Weapon Training",
-			"Weapon Mastery"
-		],
-		"short_description": "In combat, most fighters have some sort of code of honor. Some believe that one should not kick enemies when they are down, or should limit use of other such dirty tricks to the most dire of circumstances. The cad places no such limitations on himself.",
 		"description": [
 			"## Cad",
 			"",
@@ -344,15 +267,6 @@
 		"name": "Calistrian Hunter",
 		"file": "archetypedisplaye1a7.html",
 		"sources": [ "Inner Sea Combat" ],
-		"replaces": "Weapon/Armor Proficiency; Class Skills; Bravery; Weapon Training 1-4; Weapon Mastery",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Class Skills",
-			"Bravery",
-			"Weapon Training",
-			"Weapon Mastery"
-		],
-		"short_description": "Like a bounty hunter following his own rules, a Calistrian hunter tracks down elusive prey using his wits and delivers long-overdue retribution while easily ignoring his own injuries thanks to the joy he receives from a job well done.",
 		"description": [
 			"## Calistrian Hunter",
 			"",
@@ -381,16 +295,6 @@
 		"name": "Cavern Sniper",
 		"file": "archetypedisplay3f12.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Class Skills; 1st, 4th-level Fighter Bonus Feats; Bravery; Weapon Training 1-4; Weapon Mastery",
-		"replace_array": [
-			"Class Skills",
-			"1st-level Bonus Feat",
-			"4th-level Bonus Feat",
-			"Bravery",
-			"Weapon Training",
-			"Weapon Mastery"
-		],
-		"short_description": "(Drow Only) Perfectly at home in the darkness, the cavern sniper capitalizes on stealth and ranged attacks imbued with his spell-like abilities to harass his opponents.",
 		"description": [
 			"## Cavern Sniper",
 			"",
@@ -417,20 +321,6 @@
 		"name": "Child of Acavna and Amaznen",
 		"file": "archetypedisplay3e00.html",
 		"sources": [ "Arcane Anthology" ],
-		"replaces": "Weapon/Armor Proficiency; Skills; 1st, 2nd, 8th, 12th, 16th, and 20th-level Combat Feats; Armor Training; Weapon Training",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Class Skills",
-			"1st-level Bonus Feat",
-			"2nd-level Bonus Feat",
-			"8th-level Bonus Feat",
-			"12th-level Bonus Feat",
-			"16th-level Bonus Feat",
-			"20th-level Bonus Feat",
-			"Armor Training",
-			"Weapon Training"
-		],
-		"short_description": "The child of Acavna and Amaznen has trained in the nearly forgotten arts of Azlant passed down by Aroden, which combine martial prowess with elementary wizardry. Inspired by the deities Aroden once worshiped long ago, children of Acavna and Amaznen strive to understand the dangers of the world and overcome them with knowledge and strength of arms.",
 		"description": [
 			"## Child of Acavna and Amaznen",
 			"",
@@ -463,13 +353,6 @@
 		"name": "Corsair",
 		"file": "archetypedisplayf690.html",
 		"sources": [ "Pirates of the Inner Sea" ],
-		"replaces": "2nd-level Bonus Feat; Armor Training; 6th-level Bonus Feat",
-		"replace_array": [
-			"2nd-level Bonus Feat",
-			"Armor Training",
-			"6th-level Bonus Feat"
-		],
-		"short_description": "A corsair is a pirate who focuses on shipboard combat, relying on his strength of arms over his agility.",
 		"description": [
 			"## Corsair",
 			"",
@@ -490,13 +373,6 @@
 		"name": "Crossbowman",
 		"file": "archetypedisplay8349.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Armor Training 1-4; Weapon Training 1-4; Armor Mastery",
-		"replace_array": [
-			"Armor Training",
-			"Weapon Training",
-			"Armor Mastery"
-		],
-		"short_description": "The crossbowman has perfected the deadly use of the crossbow, a simple but cruelly efficient weapon, as a craftsman mastering a lethal tool.",
 		"description": [
 			"## Crossbowman",
 			"",
@@ -529,14 +405,6 @@
 		"name": "Cyber-Soldier",
 		"file": "archetypedisplaya115.html",
 		"sources": [ "Technology Guide" ],
-		"replaces": "Weapon Training 1; Armor Training 2 and 4; Armor Mastery",
-		"replace_array": [
-			"Weapon Training 1",
-			"Armor Training 2",
-			"Armor Training 4",
-			"Armor Mastery"
-		],
-		"short_description": "Cyber-soldiers replace fallible flesh with precisioncrafted machinery.",
 		"description": [
 			"## Cyber-Soldier",
 			"",
@@ -555,12 +423,6 @@
 		"name": "Dirty Fighter",
 		"file": "archetypedisplaye61c.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Bravery; Weapon Training 1-4",
-		"replace_array": [
-			"Bravery",
-			"Weapon Training"
-		],
-		"short_description": "(Orc Only) The dirty fighter laughs at concepts like honor and fair play. He cares only for victory, no matter how he achieves it, and spends as much time mastering sneaky combat maneuvers as he does drilling with weapons or learning how to wear armor.",
 		"description": [
 			"## Dirty Fighter",
 			"",
@@ -581,18 +443,6 @@
 		"name": "Dragonheir Scion",
 		"file": "archetypedisplay3bc9.html",
 		"sources": [],
-		"replaces": "Class Skills; 1st, 3rd, 5th-level Bonus Feats; Bravery; Armor Training; Armor Mastery; Weapon Mastery",
-		"replace_array": [
-			"Class Skills",
-			"1st-level Bonus Feat",
-			"3rd-level Bonus Feat",
-			"5th-level Bonus Feat",
-			"Bravery",
-			"Armor Training",
-			"Armor Mastery",
-			"Weapon Mastery"
-		],
-		"short_description": "Dragonheir scions are the martially inclined humanoid descendants of those influenced by draconic power.",
 		"description": [
 			"## Dragonheir Scion",
 			"",
@@ -648,17 +498,6 @@
 		"name": "Dragoon",
 		"file": "archetypedisplayc896.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Weapon/Armor Proficiency; 1st-level Bonus Feat; Weapon Training 1-4; Armor Training 2-4; Weapon Mastery",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"1st-level Bonus Feat",
-			"Weapon Training",
-			"Armor Training 2",
-			"Armor Training 3",
-			"Armor Training 4",
-			"Weapon Mastery"
-		],
-		"short_description": "These gallant lancers serve in the vanguard of many armies or as knights-errant.",
 		"description": [
 			"## Dragoon",
 			"",
@@ -687,12 +526,6 @@
 		"name": "Drill Sergeant",
 		"file": "archetypedisplay012b.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"replaces": "Bravery; Weapon Training 1-4",
-		"replace_array": [
-			"Bravery",
-			"Weapon Training"
-		],
-		"short_description": "Drill sergeants excel at training other combatants in fighting techniques.",
 		"description": [
 			"## Drill Sergeant",
 			"",
@@ -715,15 +548,6 @@
 		"name": "Druman Blackjacket",
 		"file": "archetypedisplay954d.html",
 		"sources": [ "Inner Sea Combat" ],
-		"replaces": "Bravery; 4th, 8th, 12th, 16th-level Bonus Feats",
-		"replace_array": [
-			"Bravery",
-			"4th-level Bonus Feat",
-			"8th-level Bonus Feat",
-			"12th-level Bonus Feat",
-			"16th-level Bonus Feat"
-		],
-		"short_description": "Known as the Blackjackets, the elite soldiers of Druma are and always have been mercenaries rather than a standing army.",
 		"description": [
 			"## Druman Blackjacket",
 			"",
@@ -748,14 +572,6 @@
 		"name": "Eldritch Guardian",
 		"file": "archetypedisplayf3a0.html",
 		"sources": [ "Familiar Folio" ],
-		"replaces": "Class Skills; 1st and 2nd-level Bonus Feats; Bravery",
-		"replace_array": [
-			"Class Skills",
-			"1st-level Bonus Feat",
-			"2nd-level Bonus Feat",
-			"Bravery"
-		],
-		"short_description": "Eldritch guardians are trained to detect and give warning about magic threats to the people and places they protect.",
 		"description": [
 			"## Eldritch Guardian",
 			"",
@@ -776,16 +592,6 @@
 		"name": "Foehammer",
 		"file": "archetypedisplaya141.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Armor Training 1-4; Weapon Training 2-4; Armor Mastery; Weapon Mastery",
-		"replace_array": [
-			"Armor Training",
-			"Weapon Training 2",
-			"Weapon Training 3",
-			"Weapon Training 4",
-			"Armor Mastery",
-			"Weapon Mastery"
-		],
-		"short_description": "(Dwarf Only) While the axe is the most famous dwarven weapon, the hammer is at the heart of dwarves' heritage as forgemasters and warriors alike.",
 		"description": [
 			"## Foehammer",
 			"",
@@ -818,14 +624,6 @@
 		"name": "Free Hand Fighter",
 		"file": "archetypedisplayb10d.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Bravery; Armor Training 1-4; Weapon Training 1-4; Armor Mastery",
-		"replace_array": [
-			"Bravery",
-			"Armor Training",
-			"Weapon Training",
-			"Armor Mastery"
-		],
-		"short_description": "The free hand fighter specializes in the delicate art of handling a single weapon in one hand while using his free hand to balance, block, tip, and distract his opponents.",
 		"description": [
 			"## Free Hand Fighter",
 			"",
@@ -850,12 +648,6 @@
 		"name": "Gladiator",
 		"file": "archetypedisplay4208.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Weapon/Armor Proficiency; Bravery",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Bravery"
-		],
-		"short_description": "The gladiator is both a cunning warrior and a consummate performer, knowing life and death are balanced not only on a sword's edge, but also on the cheers or jeers of the crowd.",
 		"description": [
 			"## Gladiator",
 			"",
@@ -876,14 +668,6 @@
 		"name": "Gloomblade",
 		"file": "archetypedisplayd8ec.html",
 		"sources": [ "Planar Adventures" ],
-		"replaces": "Class Skills; Armor Proficiencies; Armor Training; Weapon Training",
-		"replace_array": [
-			"Class Skills",
-			"Armor Proficiency",
-			"Armor Training",
-			"Weapon Training"
-		],
-		"short_description": "The Shadow Plane's substance is legendary for its versatility. In shadow-shrouded lands, secretive martial practitioners long ago learned to shape supernatural weapons from ribbons of pure darkness.",
 		"description": [
 			"## Gloomblade",
 			"",
@@ -923,15 +707,6 @@
 		"name": "High Guardian",
 		"file": "archetypedisplay0ceb.html",
 		"sources": [ "Heroes of the High Court" ],
-		"replaces": "Class Skills; 1st, 2nd, 4th-level Bonus Feats; Bravery",
-		"replace_array": [
-			"Class Skills",
-			"1st-level Bonus Feat",
-			"2nd-level Bonus Feat",
-			"4th-level Bonus Feat",
-			"Bravery"
-		],
-		"short_description": "High guardians epitomize personal devotion, serving as the shield that protects his lord from the myriad dangers around every corner.",
 		"description": [
 			"## High Guardian",
 			"",
@@ -966,15 +741,6 @@
 		"name": "Lore Warden",
 		"file": "archetypedisplay9cdd.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Armor Proficiencies; Bravery; 2nd-level Bonus Feat; Armor Training; Armor Mastery",
-		"replace_array": [
-			"Armor Proficiency",
-			"Bravery",
-			"2nd-level Bonus Feat",
-			"Armor Training",
-			"Armor Mastery"
-		],
-		"short_description": "Lore wardens are fighters who benefit from learning to outsmart and outmaneuver their foes rather than just overpower them.",
 		"description": [
 			"## Lore Warden",
 			"",
@@ -1009,14 +775,6 @@
 		"name": "Lore Warden (PFS Field Guide)",
 		"file": "archetypedisplay5ba5.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
-		"replaces": "Medium Armor, Heavy Armor, and Shield Proficiency; Bravery 1; Armor Training 1-4; Armor Mastery",
-		"replace_array": [
-			"Armor Proficiency",
-			"Bravery 1",
-			"Armor Training",
-			"Armor Mastery"
-		],
-		"short_description": "Lore wardens are fighters who benefit from learning to outsmart and outmaneuver their foes rather than just overpower them.",
 		"description": [
 			"## Lore Warden (PFS Field Guide)",
 			"",
@@ -1043,12 +801,6 @@
 		"name": "Martial Master",
 		"file": "archetypedisplay6b07.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Weapon Training; Weapon Mastery",
-		"replace_array": [
-			"Weapon Training",
-			"Weapon Mastery"
-		],
-		"short_description": "There are those who learn the fighting arts though countless hours of repetition and training, while others seem to pick up new stances and forms as if they were born to them.",
 		"description": [
 			"## Martial Master",
 			"",
@@ -1075,15 +827,6 @@
 		"name": "Mobile Fighter",
 		"file": "archetypedisplay3312.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Bravery; Weapon Training 1-4; Armor Training 3-4; Weapon Mastery",
-		"replace_array": [
-			"Bravery",
-			"Weapon Training",
-			"Armor Training 3",
-			"Armor Training 4",
-			"Weapon Mastery"
-		],
-		"short_description": "Where some fighters focus on strength and raw power, the mobile fighter relies on swiftness and mobility, gliding across the battlefield like a steel whirlwind and leaving destruction in his wake.",
 		"description": [
 			"## Mobile Fighter",
 			"",
@@ -1106,11 +849,6 @@
 		"name": "Molthuni Defender",
 		"file": "archetypedisplayec89.html",
 		"sources": [ "Armor Master's Handbook" ],
-		"replaces": "Armor Training",
-		"replace_array": [
-			"Armor Training"
-		],
-		"short_description": "Taking advantage of their weighty armor, Molthuni defenders can hold back an onslaught of enemies intent on breaking through their line.",
 		"description": [
 			"## Molthuni Defender",
 			"",
@@ -1129,12 +867,6 @@
 		"name": "Mutation Warrior",
 		"file": "archetypedisplay2b6f.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Armor Training 1-4; Armor Mastery",
-		"replace_array": [
-			"Armor Training",
-			"Armor Mastery"
-		],
-		"short_description": "While most fighters rely on physical fitness and rigorous training to achieve martial superiority, a few prefer to create and imbibe dangerous concoctions that mutate them into fearsome creatures.",
 		"description": [
 			"## Mutation Warrior",
 			"",
@@ -1151,19 +883,6 @@
 		"name": "Opportunist",
 		"file": "archetypedisplayfebc.html",
 		"sources": [ "Blood of the Beast" ],
-		"replaces": "Class Skills; Bravery; 1st, 4th, 8th, 12th, 16th, 20th-level Bonus Feat; Weapon Training 1",
-		"replace_array": [
-			"Class Skills",
-			"Bravery",
-			"1st-level Bonus Feat",
-			"4th-level Bonus Feat",
-			"8th-level Bonus Feat",
-			"12th-level Bonus Feat",
-			"16th-level Bonus Feat",
-			"20th-level Bonus Feat",
-			"Weapon Training 1"
-		],
-		"short_description": "Opportunists believe every battle is one of wits rather than arms.",
 		"description": [
 			"## Opportunist",
 			"",
@@ -1204,15 +923,6 @@
 		"name": "Pack Mule",
 		"file": "archetypedisplayc337.html",
 		"sources": [ "Black Markets" ],
-		"replaces": "Skill Ranks; 1st-level Bonus Feat; Bravery; Armor Training 1-4; Armor Mastery",
-		"replace_array": [
-			"Skill Ranks",
-			"1st-level Bonus Feat",
-			"Bravery",
-			"Armor Training",
-			"Armor Mastery"
-		],
-		"short_description": "Pack mules carry heavy loads with ease and small packages with discretion.",
 		"description": [
 			"## Pack Mule",
 			"",
@@ -1237,14 +947,6 @@
 		"name": "Phalanx Soldier",
 		"file": "archetypedisplay16fc.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Bravery; Armor Training 1-4; Weapon Training 1-4; Weapon Mastery",
-		"replace_array": [
-			"Bravery",
-			"Armor Training",
-			"Weapon Training",
-			"Weapon Mastery"
-		],
-		"short_description": "The phalanx soldier specializes in defensive tactics, using his shield to guard himself and his allies and forming a shield wall like an unbreakable anvil against which his enemies break.",
 		"description": [
 			"## Phalanx Soldier",
 			"",
@@ -1275,14 +977,6 @@
 		"name": "Polearm Master",
 		"file": "archetypedisplay1349.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Bravery; Armor Training 1-4; Weapon Training 1-4; Armor Mastery",
-		"replace_array": [
-			"Bravery",
-			"Armor Training",
-			"Weapon Training",
-			"Armor Mastery"
-		],
-		"short_description": "The polearm master is schooled in the ancient wisdom that enemies are best faced at the end of long striking pole.",
 		"description": [
 			"## Polearm Master",
 			"",
@@ -1311,11 +1005,6 @@
 		"name": "Qadira: Dawnflower Dervish",
 		"file": "archetypedisplayf013.html",
 		"sources": [ "Inner Sea Primer" ],
-		"replaces": "Armor Training 1-4",
-		"replace_array": [
-			"Armor Training"
-		],
-		"short_description": "Spinning warrior dervish of Sarenrae, wielding a scimitar with devastating consequences.",
 		"description": [
 			"## Qadira: Dawnflower Dervish",
 			"",
@@ -1338,14 +1027,6 @@
 		"name": "Relic Master",
 		"file": "archetypedisplaya59b.html",
 		"sources": [ "Weapon Master's Handbook" ],
-		"replaces": "Class Skills; Armor Training; Weapon Training; Armor Mastery",
-		"replace_array": [
-			"Class Skills",
-			"Armor Training",
-			"Weapon Training",
-			"Armor Mastery"
-		],
-		"short_description": "Commonly trained in the well-funded temples of Osirion or Qadira, the relic master is skilled in magic item mastery.",
 		"description": [
 			"## Relic Master",
 			"",
@@ -1366,14 +1047,6 @@
 		"name": "Roughrider",
 		"file": "archetypedisplay0858.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Bravery; Armor Training 1-4; Weapon Training 1-4; Armor Mastery",
-		"replace_array": [
-			"Bravery",
-			"Armor Training",
-			"Weapon Training",
-			"Armor Mastery"
-		],
-		"short_description": "Roughriders study and practice the fine points of mounted combat, drilling endlessly with warbeasts-from noble thoroughbreds to trained monsters-to form a perfect synergy between rider and steed.",
 		"description": [
 			"## Roughrider",
 			"",
@@ -1402,13 +1075,6 @@
 		"name": "Savage Warrior",
 		"file": "archetypedisplay0043.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Bravery; Weapon Training 1-4; Weapon Mastery",
-		"replace_array": [
-			"Bravery",
-			"Weapon Training",
-			"Weapon Mastery"
-		],
-		"short_description": "Warriors' might is not measured only by their skill with steel, but also by their ability to inflict death with fang and claw, horn and hoof, and every exotic appendage the natural and unnatural world has to offer.",
 		"description": [
 			"## Savage Warrior",
 			"",
@@ -1433,12 +1099,6 @@
 		"name": "Scrapper",
 		"file": "archetypedisplay0bae.html",
 		"sources": [],
-		"replaces": "Armor Training; Weapon Training 1",
-		"replace_array": [
-			"Armor Training",
-			"Weapon Training 1"
-		],
-		"short_description": "Scrappers are adept at collecting the leftovers from their enemy's armor and using these scraps to improve their own armor.",
 		"description": [
 			"## Scrapper",
 			"",
@@ -1459,18 +1119,6 @@
 		"name": "Seasoned Commander",
 		"file": "archetypedisplayd589.html",
 		"sources": [ "Villain Codex" ],
-		"replaces": "Armor Proficiencies; Skill Ranks per Level; Class Skills; 1st-level Bonus Feat; Armor Training 1, 3, 4; Weapon Training",
-		"replace_array": [
-			"Armor Proficiency",
-			"Skill Ranks",
-			"Class Skills",
-			"1st-level Bonus Feat",
-			"Armor Training 1",
-			"Armor Training 3",
-			"Armor Training 4",
-			"Weapon Training"
-		],
-		"short_description": "The seasoned commander excels at leading troops through inspiration and the use of unit tactics.",
 		"description": [
 			"## Seasoned Commander",
 			"",
@@ -1511,19 +1159,6 @@
 		"name": "Sensate",
 		"file": "archetypedisplayf71b.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Class Skills; Weapon/Armor Proficiencies; Bravery; Armor Training 1-4; Weapon Training 2-4; Armor Mastery; Weapon Mastery",
-		"replace_array": [
-			"Class Skills",
-			"Weapon/Armor Proficiency",
-			"Bravery",
-			"Armor Training",
-			"Weapon Training 2",
-			"Weapon Training 3",
-			"Weapon Training 4",
-			"Armor Mastery",
-			"Weapon Mastery"
-		],
-		"short_description": "A sensate perceives battle through senses beyond mortal ken, anticipating his opponents' movements before they even begin to act.",
 		"description": [
 			"## Sensate",
 			"",
@@ -1556,14 +1191,6 @@
 		"name": "Shielded Fighter",
 		"file": "archetypedisplay6664.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Armor Training 1-4; Weapon Training 1-4; Armor Mastery; Weapon Mastery",
-		"replace_array": [
-			"Armor Training",
-			"Weapon Training",
-			"Armor Mastery",
-			"Weapon Mastery"
-		],
-		"short_description": "A shielded fighter focuses on both offense and defense, blending weapon and shield in perfect balance to impede his enemies while delivering deadly blows, and even turning the shield itself into a formidable weapon.",
 		"description": [
 			"## Shielded Fighter",
 			"",
@@ -1590,16 +1217,6 @@
 		"name": "Siegebreaker",
 		"file": "archetypedisplay3c45.html",
 		"sources": [ "Heroes of the Streets" ],
-		"replaces": "1st, 2nd, 4th, and 8th-level Bonus Feats; Bravery; Weapon Mastery",
-		"replace_array": [
-			"1st-level Bonus Feat",
-			"2nd-level Bonus Feat",
-			"4th-level Bonus Feat",
-			"8th-level Bonus Feat",
-			"Bravery",
-			"Weapon Mastery"
-		],
-		"short_description": "The siegebreaker is trained to break through lines of enemy soldiers.",
 		"description": [
 			"## Siegebreaker",
 			"",
@@ -1624,17 +1241,6 @@
 		"name": "Skirmisher",
 		"file": "archetypedisplayf01f.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Armor Proficiencies; Class Skills; Skill Ranks; 2nd-level Bonus Feat; Bravery; Armor Training; Armor Mastery",
-		"replace_array": [
-			"Armor Proficiency",
-			"Class Skills",
-			"Skill Ranks",
-			"2nd-level Bonus Feat",
-			"Bravery",
-			"Armor Training",
-			"Armor Mastery"
-		],
-		"short_description": "Not all battles are fought between armies; sometimes, a settlement or nation faces a threat too dire to fight in the open. In order to repel a much larger enemy force, some soldiers must abandon equipment and tactics designed for open-field warfare and instead rely on ambushes, hit-andrun tactics, and sabotage to whittle down their enemies' strength and morale.",
 		"description": [
 			"## Skirmisher",
 			"",
@@ -1682,17 +1288,6 @@
 		"name": "Spear Fighter",
 		"file": "archetypedisplay3c27.html",
 		"sources": [ "Martial Arts Handbook" ],
-		"replaces": "Class Skills; Armor Proficiencies; Bravery; Armor Training; Armor Mastery; Weapon Training; Weapon Mastery",
-		"replace_array": [
-			"Class Skills",
-			"Armor Proficiency",
-			"Bravery",
-			"Armor Training",
-			"Armor Mastery",
-			"Weapon Training",
-			"Weapon Mastery"
-		],
-		"short_description": "One of the oldest spear-fighting styles originates in Vudra, where many martial arts traditions consider the spear to be the ultimate weapon.",
 		"description": [
 			"## Spear Fighter",
 			"",
@@ -1725,12 +1320,6 @@
 		"name": "Steelbound Fighter",
 		"file": "archetypedisplaydb47.html",
 		"sources": [ "Haunted Heroes Handbook" ],
-		"replaces": "1st level Bonus Feat; Weapon Training 1-4",
-		"replace_array": [
-			"1st-level Bonus Feat",
-			"Weapon Training"
-		],
-		"short_description": "A fighter who has impressive martial resolve and technique with a specific weapon as the result of a powerful relationship a similar weapon had with one of his ancestors.",
 		"description": [
 			"## Steelbound Fighter",
 			"",
@@ -1765,20 +1354,6 @@
 		"name": "Swarm Fighter",
 		"file": "archetypedisplay866a.html",
 		"sources": [ "Kobolds of Golarion" ],
-		"replaces": "Weapon/Armor Proficiency; 1st, 2nd, 6th, 10th, 14th, 18th-level Bonus Feats; Bravery; Weapon Training 1-4; Weapon Mastery",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"1st-level Bonus Feat",
-			"2nd-level Bonus Feat",
-			"6th-level Bonus Feat",
-			"10th-level Bonus Feat",
-			"14th-level Bonus Feat",
-			"18th-level Bonus Feat",
-			"Bravery",
-			"Weapon Training",
-			"Weapon Mastery"
-		],
-		"short_description": "(Kobold Only) Scuttling between the legs of friend and foe alike, the swarm fighter is an unshakable combatant.",
 		"description": [
 			"## Swarm Fighter",
 			"",
@@ -1823,16 +1398,6 @@
 		"name": "Tactician",
 		"file": "archetypedisplaye9c0.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Weapon/Armor Proficiency; 1st-level Bonus Feat; Bravery; Weapon Training 1; Armor Training 3, 4",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"1st-level Bonus Feat",
-			"Bravery",
-			"Weapon Training 1",
-			"Armor Training 3",
-			"Armor Training 4"
-		],
-		"short_description": "While many fighters focus on the fundamentals of melee and ranged combat, there are those who are trained to view the bigger picture on the battlefield.",
 		"description": [
 			"## Tactician",
 			"",
@@ -1859,15 +1424,6 @@
 		"name": "Taldor: Rondelero Duelist",
 		"file": "archetypedisplayd7ad.html",
 		"sources": [ "Inner Sea Primer" ],
-		"replaces": "Armor Training 1-3, Bravery, Weapon Training 1",
-		"replace_array": [
-			"Armor Training 1",
-			"Armor Training 2",
-			"Armor Training 3",
-			"Bravery",
-			"Weapon Training 1"
-		],
-		"short_description": "One who has perfected the art of rondelero, fighting with falcata and buckler.",
 		"description": [
 			"## Taldor: Rondelero Duelist",
 			"",
@@ -1892,14 +1448,6 @@
 		"name": "Thunderstriker",
 		"file": "archetypedisplay917f.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Armor Training 1-4; Weapon Training 3-4; Armor Mastery",
-		"replace_array": [
-			"Armor Training",
-			"Weapon Training 3",
-			"Weapon Training 4",
-			"Armor Mastery"
-		],
-		"short_description": "The thunderstriker adopts an unusual fighting style, gripping a heavy weapon with both hands and switching to a defensive posture with weapon and buckler, lashing out with the shield with surprising speed and power.",
 		"description": [
 			"## Thunderstriker",
 			"",
@@ -1926,13 +1474,6 @@
 		"name": "Titan Fighter",
 		"file": "archetypedisplay9597.html",
 		"sources": [ "Giant Hunter's Handbook" ],
-		"replaces": "1st-level Bonus Feat; Armor Training; Weapon Training",
-		"replace_array": [
-			"1st-level Bonus Feat",
-			"Armor Training",
-			"Weapon Training"
-		],
-		"short_description": "Titan fighters make use of enormous weapons others can barely lift.",
 		"description": [
 			"## Titan Fighter",
 			"",
@@ -1951,13 +1492,6 @@
 		"name": "Tower Shield Specialist",
 		"file": "archetypedisplayc3e6.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Bravery; Weapon Training 1-4; Weapon Mastery",
-		"replace_array": [
-			"Bravery",
-			"Weapon Training",
-			"Weapon Mastery"
-		],
-		"short_description": "Many fighters believe the tower shield is a tool suitable only for troops on the battlefield, claiming it is too large and bulky to use in skirmishes or within dungeon corridors.",
 		"description": [
 			"## Tower Shield Specialist",
 			"",
@@ -1982,11 +1516,6 @@
 		"name": "Trench Fighter",
 		"file": "archetypedisplayf33e.html",
 		"sources": [ "Pathfinder #71: Rasputin Must Die!" ],
-		"replaces": "Armor Training 1-4",
-		"replace_array": [
-			"Armor Training"
-		],
-		"short_description": "Advances in technology have made archaic armors obsolete by the twentieth century, and modern soldiers concentrate training on firearms and swift feet.",
 		"description": [
 			"## Trench Fighter",
 			"",
@@ -2020,12 +1549,6 @@
 		"name": "Tribal Fighter",
 		"file": "archetypedisplayf03e.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "1st-level Bonus Feat; Weapon Training",
-		"replace_array": [
-			"1st-level Bonus Feat",
-			"Weapon Training"
-		],
-		"short_description": "A tribal fighter knows that it is not the weapon that matters but the hand that wields it. Instead of encasing himself in metal armor like the soldiers fighting and dying for the socalled civilized lands do, he prefers to wear something he or his ancestors have killed.",
 		"description": [
 			"## Tribal Fighter",
 			"",
@@ -2048,13 +1571,6 @@
 		"name": "Two-Handed Fighter",
 		"file": "archetypedisplaya742.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Bravery; Armor Training 1-4; Armor Mastery",
-		"replace_array": [
-			"Bravery",
-			"Armor Training",
-			"Armor Mastery"
-		],
-		"short_description": "Some fighters focus their efforts on finding the biggest, heaviest, most imposing weapon they can find and training to manage and harness the weight of their massive weapons for maximum impact.",
 		"description": [
 			"## Two-Handed Fighter",
 			"",
@@ -2081,13 +1597,6 @@
 		"name": "Two-Weapon Warrior",
 		"file": "archetypedisplay60b4.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Armor Training 1-4; Weapon Training 1-4; Armor Mastery",
-		"replace_array": [
-			"Armor Training",
-			"Weapon Training",
-			"Armor Mastery"
-		],
-		"short_description": "Trained under great masters who preached the simple truth that two are better than one when it comes to weapons, the two-weapon warrior is a terror when his hands are full.",
 		"description": [
 			"## Two-Weapon Warrior",
 			"",
@@ -2116,19 +1625,6 @@
 		"name": "Unarmed Fighter",
 		"file": "archetypedisplay61dc.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Weapon/Armor Proficiency; 1st-level Bonus Feat; Bravery; Armor Training 1-4; Weapon Training 1-4; 8th, 12th-level Bonus Feat; Armor Mastery; Weapon Mastery",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"1st-level Bonus Feat",
-			"Bravery",
-			"Armor Training",
-			"Weapon Training",
-			"8th-level Bonus Feat",
-			"12th-level Bonus Feat",
-			"Armor Mastery",
-			"Weapon Mastery"
-		],
-		"short_description": "The unarmed fighter picks up a weapon only rarely, and when he does, he prefers the weapons of the monk.",
 		"description": [
 			"## Unarmed Fighter",
 			"",
@@ -2165,17 +1661,6 @@
 		"name": "Unbreakable",
 		"file": "archetypedisplayb627.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Weapon/Armor Proficiency; 1st-level Bonus Feat; Bravery; Weapon Training 1-4; Armor Training 3-4; Weapon Mastery",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"1st-level Bonus Feat",
-			"Bravery",
-			"Weapon Training",
-			"Armor Training 3",
-			"Armor Training 4",
-			"Weapon Mastery"
-		],
-		"short_description": "The unbreakable is a warrior of indomitable will, unstoppable and implacable once he has set his mind upon a course of action.",
 		"description": [
 			"## Unbreakable",
 			"",
@@ -2208,13 +1693,6 @@
 		"name": "Ustalavic Duelist",
 		"file": "archetypedisplay4680.html",
 		"sources": [ "Inner Sea Combat" ],
-		"replaces": "Weapon/Armor Proficiency; 1st-level Bonus Feat; Weapon Training 1-4",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"1st-level Bonus Feat",
-			"Weapon Training"
-		],
-		"short_description": "The University of Lepidstadt has developed a reputation for churning out fearsome duelists. At the end of each academic year, the students all gather together and duel one another with light blades. Each student duels one opponent after another until he is marked on the cheek by an adversary's blade. These \"Lepidstadt scars\" are recognized throughout the Inner Sea region and beyond as marks of their prowess. The Lepidstadt Style is one of fluid motion and precise thrusts.",
 		"description": [
 			"## Ustalavic Duelist",
 			"",
@@ -2239,18 +1717,6 @@
 		"name": "Varisian Free-Style Fighter",
 		"file": "archetypedisplay53c7.html",
 		"sources": [ "Weapon Master's Handbook" ],
-		"replaces": "Class Skills; 1st, 6th, 10th, and 12th-level Bonus Feats; Weapon Training; Weapon Mastery; Armor Training",
-		"replace_array": [
-			"Class Skills",
-			"1st-level Bonus Feat",
-			"6th-level Bonus Feat",
-			"10th-level Bonus Feat",
-			"12th-level Bonus Feat",
-			"Weapon Training",
-			"Weapon Mastery",
-			"Armor Training"
-		],
-		"short_description": "Free-style fighters are most common in Varisia, where their training-students' traveling study with multiple teachers, or perhaps instruction in the anything-goes mentality of the Price of Freedom school in Kaer Maga-allows them to blend fighting styles into a greater whole.",
 		"description": [
 			"## Varisian Free-Style Fighter",
 			"",
@@ -2269,14 +1735,6 @@
 		"name": "Venomblade",
 		"file": "archetypedisplay0a14.html",
 		"sources": [],
-		"replaces": "1st, 6th, 12th-level Bonus Feat; Bravery",
-		"replace_array": [
-			"1st-level Bonus Feat",
-			"6th-level Bonus Feat",
-			"12th-level Bonus Feat",
-			"Bravery"
-		],
-		"short_description": "(Nagaji) The venomblade has learned to take full advantage of his toxic spittle, blinding his targets and then rushing in to cut them down where they stand.",
 		"description": [
 			"## Venomblade",
 			"",
@@ -2304,15 +1762,6 @@
 			"Ultimate Wilderness",
 			"People of the North"
 		],
-		"replaces": "Weapon/Armor Proficiencies; Bravery; Armor Training; Weapon Training; Bonus Feats",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Bravery",
-			"Armor Training",
-			"Weapon Training",
-			"Bonus Feats"
-		],
-		"short_description": "Vikings seek to raid \"softer societies\" and return with their longships filled with plunder. A viking strikes fear into the heart of her foes, and in battle she can fly into a terrible rage.",
 		"description": [
 			"## Viking",
 			"",
@@ -2345,14 +1794,6 @@
 		"name": "Warlord",
 		"file": "archetypedisplay2fb2.html",
 		"sources": [ "Pathfinder: Worldscape #3" ],
-		"replaces": "Class Skills; Weapon and Armor Proficiency; Armor Training; Armor Mastery",
-		"replace_array": [
-			"Class Skills",
-			"Weapon/Armor Proficiency",
-			"Armor Training",
-			"Armor Mastery"
-		],
-		"short_description": "Honorable, fearless experts in gun and blade, warlords eschew armor as impractical to their harsh and often desert-like environment",
 		"description": [
 			"## Warlord",
 			"",
@@ -2391,13 +1832,6 @@
 		"name": "Weapon Bearer Squire",
 		"file": "archetypedisplay3b08.html",
 		"sources": [ "Knights of the Inner Sea" ],
-		"replaces": "1st-level Bonus Feat; 2nd-level Bonus Feat; Armor Training 1",
-		"replace_array": [
-			"1st-level Bonus Feat",
-			"2nd-level Bonus Feat",
-			"Armor Training 1"
-		],
-		"short_description": "The weapon bearer squire ensures her knight is equipped for any task.",
 		"description": [
 			"## Weapon Bearer Squire",
 			"",
@@ -2416,14 +1850,6 @@
 		"name": "Weapon Master",
 		"file": "archetypedisplay8d76.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Bravery; Armor Training 1-4; Weapon Training 1-4; Armor Mastery",
-		"replace_array": [
-			"Bravery",
-			"Armor Training",
-			"Weapon Training",
-			"Armor Mastery"
-		],
-		"short_description": "Devoted to the perfection of a single weapon, the weapon master's meditations upon his favored weapon border on the obsessive, but none can deny his consummate skill.",
 		"description": [
 			"## Weapon Master",
 			"",

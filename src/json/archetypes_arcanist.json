@@ -4,13 +4,6 @@
 		"name": "Aeromancer",
 		"file": "archetypedisplay0a5a.html",
 		"sources": [],
-		"replaces": "1st, 5th, 11th-level Arcanist Exploit",
-		"replace_array": [
-			"1st-level Arcanist Exploit",
-			"5th-level Arcanist Exploit",
-			"11th-level Arcanist Exploit"
-		],
-		"short_description": "While the practice of aeromancy is rare, some arcanists today are able to rival the aerial mastery of the ancient Shory aeromancers.",
 		"description": [
 			"## Aeromancer",
 			"",
@@ -37,13 +30,6 @@
 		"name": "Arcane Tinkerer",
 		"file": "archetypedisplayaf79.html",
 		"sources": [ "Construct Handbook" ],
-		"replaces": "1st, 5th, 11th-level Arcanist Exploit",
-		"replace_array": [
-			"1st-level Arcanist Exploit",
-			"5th-level Arcanist Exploit",
-			"11th-level Arcanist Exploit"
-		],
-		"short_description": "Arcane tinkerers use their knowledge and understanding of magic to disrupt or even destroy constructs",
 		"description": [
 			"## Arcane Tinkerer",
 			"",
@@ -64,13 +50,6 @@
 		"name": "Blade Adept",
 		"file": "archetypedisplay7315.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "1st, 3rd, and 9th-level Arcanist Exploits",
-		"replace_array": [
-			"1st-level Arcanist Exploit",
-			"3rd-level Arcanist Exploit",
-			"9th-level Arcanist Exploit"
-		],
-		"short_description": "A small number of arcanists learn to use blades as part of their spellcasting and in combat.",
 		"description": [
 			"## Blade Adept",
 			"",
@@ -99,15 +78,6 @@
 		"name": "Blood Arcanist",
 		"file": "archetypedisplaydee6.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "1st, 3rd, 9th, and 15th-level Arcanist Exploits; Magical Supremacy",
-		"replace_array": [
-			"1st-level Arcanist Exploit",
-			"3rd-level Arcanist Exploit",
-			"9th-level Arcanist Exploit",
-			"15th-level Arcanist Exploit",
-			"Magical Supremacy"
-		],
-		"short_description": "Though most arcanists possess only a rudimentary innate arcane gift, the blood arcanist has the full power of a bloodline to draw upon.",
 		"description": [
 			"## Blood Arcanist",
 			"",
@@ -126,13 +96,6 @@
 		"name": "Brown-Fur Transmuter",
 		"file": "archetypedisplaydd87.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "3rd and 9th-level Arcanist Exploits; Magical Supremacy",
-		"replace_array": [
-			"3rd-level Arcanist Exploit",
-			"9th-level Arcanist Exploit",
-			"Magical Supremacy"
-		],
-		"short_description": "Frequently called \"brown-furs,\" these transmutation-focused arcanists are known for transforming themselves into animals.",
 		"description": [
 			"## Brown-Fur Transmuter",
 			"",
@@ -151,14 +114,6 @@
 		"name": "Eldritch Font",
 		"file": "archetypedisplayede3.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "3rd, 7th, and 13th-level Arcanist Exploits; Magical Supremacy",
-		"replace_array": [
-			"3rd-level Arcanist Exploit",
-			"7th-level Arcanist Exploit",
-			"13th-level Arcanist Exploit",
-			"Magical Supremacy"
-		],
-		"short_description": "For some arcanists, the power bubbling up from within is nearly too much to contain.",
 		"description": [
 			"## Eldritch Font",
 			"",
@@ -181,15 +136,6 @@
 		"name": "Elemental Master",
 		"file": "archetypedisplayfbad.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "1st, 3rd, 9th, 11th, and 15th-level Arcanist Exploits",
-		"replace_array": [
-			"1st-level Arcanist Exploit",
-			"3rd-level Arcanist Exploit",
-			"9th-level Arcanist Exploit",
-			"11th-level Arcanist Exploit",
-			"15th-level Arcanist Exploit"
-		],
-		"short_description": "Arcanists with an affinity for elemental forces sometimes focus on one and display its power in everything they do.",
 		"description": [
 			"## Elemental Master",
 			"",
@@ -212,13 +158,6 @@
 		"name": "Harrowed Society Student",
 		"file": "archetypedisplayb24b.html",
 		"sources": [ "Occult Origins" ],
-		"replaces": "1st and 9th-level Arcanist Exploits; Consume Spells",
-		"replace_array": [
-			"1st-level Arcanist Exploit",
-			"9th-level Arcanist Exploit",
-			"Consume Spells"
-		],
-		"short_description": "Based out of Varisia's Twilight Academy, the secretive Harrowed Society focuses its efforts on the intellectual study of the region's supernatural quirks and hidden history, and embraces the use of the harrow deck to examine the world's occult mysteries.",
 		"description": [
 			"## Harrowed Society Student",
 			"",
@@ -256,15 +195,6 @@
 			"Adventurer's Guide",
 			"Arcane Anthology"
 		],
-		"replaces": "Alignment; 1st, 5th, 9th, 17th-level Arcanist Exploit",
-		"replace_array": [
-			"Alignment",
-			"1st-level Arcanist Exploit",
-			"5th-level Arcanist Exploit",
-			"9th-level Arcanist Exploit",
-			"17th-level Arcanist Exploit"
-		],
-		"short_description": "Aspiring students of the Magaambya often spend decades researching arcane magic while learning to follow in the footsteps of the academy's founder, Old-Mage Jatembe.",
 		"description": [
 			"## Magaambyan Initiate",
 			"",
@@ -297,13 +227,6 @@
 		"name": "Occultist",
 		"file": "archetypedisplay3727.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "1st and 7th-level Arcanist Exploits; Magical Supremacy",
-		"replace_array": [
-			"1st-level Arcanist Exploit",
-			"7th-level Arcanist Exploit",
-			"Magical Supremacy"
-		],
-		"short_description": "Not all arcanists peer inward to discern the deepest secrets of magic. Some look outward, connecting with extraplanar creatures and bartering for secrets, power, and favor.",
 		"description": [
 			"## Occultist",
 			"",
@@ -324,13 +247,6 @@
 		"name": "School Savant",
 		"file": "archetypedisplay3dcd.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "1st, 3rd, and 7th-level Arcanist Exploits",
-		"replace_array": [
-			"1st-level Arcanist Exploit",
-			"3rd-level Arcanist Exploit",
-			"7th-level Arcanist Exploit"
-		],
-		"short_description": "Some arcanists specialize in a school of magic and trade flexibility for focus.",
 		"description": [
 			"## School Savant",
 			"",
@@ -347,14 +263,6 @@
 		"name": "Spell Specialist",
 		"file": "archetypedisplayda3e.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "1st, 7th, 13th, and 19th-level Arcanist Exploits",
-		"replace_array": [
-			"1st-level Arcanist Exploit",
-			"7th-level Arcanist Exploit",
-			"13th-level Arcanist Exploit",
-			"19th-level Arcanist Exploit"
-		],
-		"short_description": "Where most arcanists are broad in their study of magic, a spell specialist has her power focused in a few spells.",
 		"description": [
 			"## Spell Specialist",
 			"",
@@ -379,15 +287,6 @@
 		"name": "Twilight Sage",
 		"file": "archetypedisplay52aa.html",
 		"sources": [ "Advanced Class Origins" ],
-		"replaces": "Consume Spells; Spells; 1st and 11th-level Arcanist Exploits; Magical Supremacy",
-		"replace_array": [
-			"Consume Spells",
-			"Spellcasting",
-			"1st-level Arcanist Exploit",
-			"11th-level Arcanist Exploit",
-			"Magical Supremacy"
-		],
-		"short_description": "The twilight sages of Geb carry out experiments to solve the ultimate puzzle and unlock the secrets of life and death. While the twilight sages generally aren't actively malicious, most are willing to perform human experimentation in pursuit of knowledge with little regard for the casualties.",
 		"description": [
 			"## Twilight Sage",
 			"",
@@ -410,12 +309,6 @@
 		"name": "Unlettered Arcanist",
 		"file": "archetypedisplayfe51.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Spellbooks; Spells",
-		"replace_array": [
-			"Spellbooks",
-			"Spellcasting"
-		],
-		"short_description": "Some arcanists store their spells as whispered secrets within familiars instead of on paper.",
 		"description": [
 			"## Unlettered Arcanist",
 			"",
@@ -432,12 +325,6 @@
 		"name": "White Mage",
 		"file": "archetypedisplay689f.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "1st and 9th-level Arcanist Exploits",
-		"replace_array": [
-			"1st-level Arcanist Exploit",
-			"9th-level Arcanist Exploit"
-		],
-		"short_description": "A white mage is an arcanist touched by a divine power and gifted with the ability to heal others.",
 		"description": [
 			"## White Mage",
 			"",

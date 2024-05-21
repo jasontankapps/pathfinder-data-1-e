@@ -4,16 +4,6 @@
 		"name": "Arrow Champion",
 		"file": "archetypedisplayb81a.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Panache; Opportune Parry and Riposte; Precise Strike; Swashbuckler Initiative; Swashbuckler Weapon Training; Swashbuckler Weapon Mastery",
-		"replace_array": [
-			"Panache",
-			"Opportune Parry and Riposte",
-			"Precise Strike",
-			"Swashbuckler Initiative",
-			"Swashbuckler Weapon Training",
-			"Swashbuckler Weapon Mastery"
-		],
-		"short_description": "Arrow champions combine a swashbuckler's agile style of combat with mastery over the bow",
 		"description": [
 			"## Arrow Champion",
 			"",
@@ -56,18 +46,6 @@
 		"name": "Azatariel",
 		"file": "archetypedisplayc536.html",
 		"sources": [ "Planar Adventures" ],
-		"replaces": "Alignment; Menacing Swordplay; Precise Strike; Targeted Strike; Bleeding Wound; Charmed Life; Nimble; Bonus Feats",
-		"replace_array": [
-			"Alignment",
-			"Menacing Swordplay",
-			"Precise Strike",
-			"Targeted Strike",
-			"Bleeding Wound",
-			"Charmed Life",
-			"Nimble",
-			"Bonus Feats"
-		],
-		"short_description": "Azatariels are the champions of Elysium, dedicated to spreading its unpredictable whimsy and capricious goodness across the planes.",
 		"description": [
 			"## Azatariel",
 			"",
@@ -112,15 +90,6 @@
 		"name": "Courser",
 		"file": "archetypedisplay0014.html",
 		"sources": [ "Blood of the Beast" ],
-		"replaces": "Opportune Parry and Riposte; Nimble; Menacing Swordplay; Superior Feint; Bleeding Wound",
-		"replace_array": [
-			"Opportune Parry and Riposte",
-			"Nimble",
-			"Menacing Swordplay",
-			"Superior Feint",
-			"Bleeding Wound"
-		],
-		"short_description": "Coursers move with grace and ease, racing across rooftops, dashing up walls, and clearing vast gaps between buildings.",
 		"description": [
 			"## Courser",
 			"",
@@ -157,15 +126,6 @@
 		"name": "Daring Infiltrator",
 		"file": "archetypedisplaybefb.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Class Skills; Bonus Feat; Swashbuckler Initiative; Menacing Swordplay; Bleeding Wound",
-		"replace_array": [
-			"Class Skills",
-			"Bonus Feats",
-			"Swashbuckler Initiative",
-			"Menacing Swordplay",
-			"Bleeding Wound"
-		],
-		"short_description": "Not known for their flashy entrances or for standing out in a crowd, a daring infiltrator uses stealth, disguise, and ruthless guile to pursue her goals.",
 		"description": [
 			"## Daring Infiltrator",
 			"",
@@ -192,17 +152,6 @@
 		"name": "Dashing Thief",
 		"file": "archetypedisplay4e3c.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Class Skills; Derring-Do; Swashbuckler's Edge; Panache; Bonus Feats; Menacing Swordplay; Dizzying Defense",
-		"replace_array": [
-			"Class Skills",
-			"Derring-Do",
-			"Swashbuckler's Edge",
-			"Panache",
-			"Bonus Feats",
-			"Menacing Swordplay",
-			"Dizzying Defense"
-		],
-		"short_description": "The dashing thief relies on swift swordplay, dazzling charm, and spirited courage to commit audacious acts of thievery.",
 		"description": [
 			"## Dashing Thief",
 			"",
@@ -235,19 +184,6 @@
 		"name": "Flying Blade",
 		"file": "archetypedisplay18e2.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Panache; Dodging Panache; Kip-Up; Menacing Swordplay; Targeted Strike; Bleeding Wound; Perfect Thrust; Swashbuckler Weapon Training; Swashbuckler Weapon Mastery",
-		"replace_array": [
-			"Panache",
-			"Dodging Panache",
-			"Kip-Up",
-			"Menacing Swordplay",
-			"Targeted Strike",
-			"Bleeding Wound",
-			"Perfect Thrust",
-			"Swashbuckler Weapon Training",
-			"Swashbuckler Weapon Mastery"
-		],
-		"short_description": "While most swashbucklers prefer their battles up close, others prefer dealing death from a distance.",
 		"description": [
 			"## Flying Blade",
 			"",
@@ -282,15 +218,6 @@
 		"name": "Guiding Blade",
 		"file": "archetypedisplayac4a.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Bonus Feats; 1st, 7th, 15th-level Deeds; Charmed Life; Nimble; Kip-up",
-		"replace_array": [
-			"Bonus Feats",
-			"1st, 7th, 15th-level Deeds",
-			"Charmed Life",
-			"Nimble",
-			"Kip-Up"
-		],
-		"short_description": "Instead of parrying attacks against her, a guiding blade redirects her enemies' ire away from her allies, interfering with enemies who attack her allies, whether that attack comes by blade or by spell.",
 		"description": [
 			"## Guiding Blade",
 			"",
@@ -327,15 +254,6 @@
 		"name": "Inspired Blade",
 		"file": "archetypedisplay9c30.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Panache; Swashbuckler Finesse; Bleeding Wound; Swashbuckler Weapon Training; Swashbuckler Weapon Mastery",
-		"replace_array": [
-			"Panache",
-			"Swashbuckler Finesse",
-			"Bleeding Wound",
-			"Swashbuckler Weapon Training",
-			"Swashbuckler Weapon Mastery"
-		],
-		"short_description": "An inspired blade is both a force of personality and a sage of swordplay dedicated to the perfection of combat with the rapier.",
 		"description": [
 			"## Inspired Blade",
 			"",
@@ -362,14 +280,6 @@
 		"name": "Mouser",
 		"file": "archetypedisplaya491.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Opportune Parry and Riposte; Menacing Swordplay; Targeted Strike; Bleeding Wound",
-		"replace_array": [
-			"Opportune Parry and Riposte",
-			"Menacing Swordplay",
-			"Targeted Strike",
-			"Bleeding Wound"
-		],
-		"short_description": "In the hands of a trained warrior, a well-sharpened blade is deadly regardless of size. A mouser moves in close, using her size and skill as an advantage.",
 		"description": [
 			"## Mouser",
 			"",
@@ -394,13 +304,6 @@
 		"name": "Musketeer",
 		"file": "archetypedisplay63a9.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Weapon Proficiencies; Swashbuckler Finesse; Dodging Panache",
-		"replace_array": [
-			"Weapon Proficiency",
-			"Swashbuckler Finesse",
-			"Dodging Panache"
-		],
-		"short_description": "A number of organizations and kingdoms search for warriors who are brave (or foolish) enough to wield firearms on the battlefield.",
 		"description": [
 			"## Musketeer",
 			"",
@@ -421,17 +324,6 @@
 		"name": "Mysterious Avenger",
 		"file": "archetypedisplay61bc.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Alignment; Class Skills; Weapon/Armor Proficiencies; Swashbuckler Finesse; Nimble; 4th-level Bonus Feat; Swashbuckler Weapon Training",
-		"replace_array": [
-			"Alignment",
-			"Class Skills",
-			"Weapon/Armor Proficiency",
-			"Swashbuckler Finesse",
-			"Nimble",
-			"4th-level Bonus Feat",
-			"Swashbuckler Weapon Training"
-		],
-		"short_description": "While some swashbucklers fight for queen and country, and others for coin, glory, or just the enhancement of their own reputations, the mysterious avenger fights directly for a cause.",
 		"description": [
 			"## Mysterious Avenger",
 			"",
@@ -462,14 +354,6 @@
 		"name": "Noble Fencer",
 		"file": "archetypedisplay5a91.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Dodging Panache; Superior Feint; Subtle Blade; Charmed Life",
-		"replace_array": [
-			"Dodging Panache",
-			"Superior Feint",
-			"Subtle Blade",
-			"Charmed Life"
-		],
-		"short_description": "Noble fencers use their quick wits and panache in both physical and social confrontations, and they rely on their training and discipline to emerge victorious, rather than merely trusting to luck.",
 		"description": [
 			"## Noble Fencer",
 			"",
@@ -502,18 +386,6 @@
 		"name": "Okayo Corsair",
 		"file": "archetypedisplay2cf9.html",
 		"sources": [ "Martial Arts Handbook" ],
-		"replaces": "Weapon and Armor Proficiency; Swashbuckler Finesse; Panache; Menacing Swordplay; Superior Feint; Bleeding Wound; Dizzying Defense; Bonus Feats",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Swashbuckler Finesse",
-			"Panache",
-			"Menacing Swordplay",
-			"Superior Feint",
-			"Bleeding Wound",
-			"Dizzying Defense",
-			"Bonus Feats"
-		],
-		"short_description": "An Okayo corsair practices a unique acrobatic martial art that draws inspiration from both the mysticism of monastic combat traditions and the flair of a swashbuckler.",
 		"description": [
 			"## Okayo Corsair",
 			"",
@@ -560,17 +432,6 @@
 		"name": "Picaroon",
 		"file": "archetypedisplaye7e4.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Weapon Proficiencies; Panache; Opportune Parry and Riposte; Kip-Up; Superior Feint; Bleeding Wound; Swashbuckler Finesse",
-		"replace_array": [
-			"Weapon Proficiency",
-			"Panache",
-			"Opportune Parry and Riposte",
-			"Kip-Up",
-			"Superior Feint",
-			"Bleeding Wound",
-			"Swashbuckler Finesse"
-		],
-		"short_description": "While some swashbucklers take pride in their ability to wear down an opponent with great skill at arms and clever positioning, there are those who use firearms to get in close and hit hard.",
 		"description": [
 			"## Picaroon",
 			"",
@@ -597,15 +458,6 @@
 		"name": "Rondelero Swashbuckler",
 		"file": "archetypedisplay4514.html",
 		"sources": [ "Weapon Master's Handbook" ],
-		"replaces": "Derring-Do; Kip-Up; Bleeding Wound; Perfect Thrust; Charmed Life",
-		"replace_array": [
-			"Derring-Do",
-			"Kip-Up",
-			"Bleeding Wound",
-			"Perfect Thrust",
-			"Charmed Life"
-		],
-		"short_description": "Rondelero swashbucklers are Taldan specialists in an aggressive, lightly armored fighting style that utilizes the falcata and buckler.",
 		"description": [
 			"## Rondelero Swashbuckler",
 			"",
@@ -634,16 +486,6 @@
 		"name": "Rostland Bravo",
 		"file": "archetypedisplay4613.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Class Skills; Armor Proficiency; Menacing Swordplay; Superior Feint; Bleeding Wound; Swashbuckler's Edge",
-		"replace_array": [
-			"Class Skills",
-			"Armor Proficiency",
-			"Menacing Swordplay",
-			"Superior Feint",
-			"Bleeding Wound",
-			"Swashbuckler's Edge"
-		],
-		"short_description": "While some duelists favor more technical approaches, others study flashier maneuvers, wielding the curved blade with artful flair. Disdainfully called \"bravos\" by classically trained rivals, students of this approach have claimed the label with pride.",
 		"description": [
 			"## Rostland Bravo",
 			"",
@@ -676,13 +518,6 @@
 		"name": "Shackles Corsair",
 		"file": "archetypedisplay2f7b.html",
 		"sources": [ "Advanced Class Origins" ],
-		"replaces": "Nimble; Swashbuckler Initiative; Targeted Strike",
-		"replace_array": [
-			"Nimble",
-			"Swashbuckler Initiative",
-			"Targeted Strike"
-		],
-		"short_description": "A Shackles corsair's debonair charm and style make her a paradoxical celebrity even among the nations whose ships she plunders.",
 		"description": [
 			"## Shackles Corsair",
 			"",
@@ -705,15 +540,6 @@
 		"name": "Veiled Blade",
 		"file": "archetypedisplay24dc.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Opportune Parry and Riposte; Menacing Swordplay; Swashbuckler's Grace; Swashbuckler's Edge",
-		"replace_array": [
-			"Class Skills",
-			"Opportune Parry and Riposte",
-			"Menacing Swordplay",
-			"Swashbuckler's Grace",
-			"Swashbuckler's Edge"
-		],
-		"short_description": "Veiled blades specialize in subtlety, not through clandestine sneaking but simply by appearing to be someone harmless and unarmed.",
 		"description": [
 			"## Veiled Blade",
 			"",
@@ -746,16 +572,6 @@
 		"name": "Whirling Dervish",
 		"file": "archetypedisplayabb7.html",
 		"sources": [ "Advanced Class Origins" ],
-		"replaces": "Swashbuckler Finesse; Panache; Superior Feint; Targeted Strike; Bleeding Wound; Deadly Stab",
-		"replace_array": [
-			"Swashbuckler Finesse",
-			"Panache",
-			"Superior Feint",
-			"Targeted Strike",
-			"Bleeding Wound",
-			"Deadly Stab"
-		],
-		"short_description": "In Qadira and throughout the Padishah Empire, Sarenrae's worshipers praise the Dawnflower through dance. Her more warlike followers adapted these dances into graceful martial forms, and their swashbuckling style is feared throughout the Inner Sea region and beyond for its ability to devastate foes with a scimitar through motion and agility regardless of strength of arms.",
 		"description": [
 			"## Whirling Dervish",
 			"",
@@ -782,16 +598,6 @@
 		"name": "Wildstrider",
 		"file": "archetypedisplaya1cc.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Class Skills; Dodging Panache; Derring-Do; Swashbuckler's Edge; Kip-Up; Subtle Blade",
-		"replace_array": [
-			"Class Skills",
-			"Dodging Panache",
-			"Derring-Do",
-			"Swashbuckler's Edge",
-			"Kip-Up",
-			"Subtle Blade"
-		],
-		"short_description": "Most swashbucklers call cities their home, but some prefer deserts, marshlands, mountains, or woods, where the rough terrain grants them an advantage, and have little interest in the comforts of an urban lifestyle.",
 		"description": [
 			"## Wildstrider",
 			"",

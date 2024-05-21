@@ -4,15 +4,6 @@
 		"name": "Black Powder Vaulter",
 		"file": "archetypedisplay351c.html",
 		"sources": [ "Martial Arts Handbook" ],
-		"replaces": "Deadeye; Gunslinger's Dodge; Gunslinger Initiative; Startling Shot; Expert Loading",
-		"replace_array": [
-			"Deadeye Deed",
-			"Gunslinger's Dodge Deed",
-			"Gunslinger Initiative",
-			"Startling Shot Deed",
-			"Expert Loading"
-		],
-		"short_description": "Black powder vaulters like to get into the thick of the battle, maneuvering among the fray to find the most advantageous positions from which to kill their enemies.",
 		"description": [
 			"## Black Powder Vaulter",
 			"",
@@ -47,15 +38,6 @@
 		"name": "Blatherskite",
 		"file": "archetypedisplay8e46.html",
 		"sources": [ "Antihero's Handbook" ],
-		"replaces": "Class Skills; Gunslinger's Dodge; Gunslinger Initiative; Pistol-Whip; Startling Shot",
-		"replace_array": [
-			"Class Skills",
-			"Gunslinger's Dodge Deed",
-			"Gunslinger Initiative",
-			"Pistol Whip Deed",
-			"Startling Shot Deed"
-		],
-		"short_description": "The blatherskate has an extraordinary talent for retreating from harm's way and fooling his enemies into thinking he is weaker than he is.",
 		"description": [
 			"## Blatherskite",
 			"",
@@ -94,21 +76,6 @@
 		"name": "Bolt Ace",
 		"file": "archetypedisplay9002.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Weapon Proficiencies; Gunsmith; Grit; Deadeye; Quick Clear; Utility Shot; Startling Shot; Expert Loading; Lightning Reload; Menacing Shot; Gun Training",
-		"replace_array": [
-			"Weapon Proficiency",
-			"Gunsmith",
-			"Grit",
-			"Deadeye Deed",
-			"Quick Clear Deed",
-			"Utility Shot Deed",
-			"Startling Shot Deed",
-			"Expert Loading",
-			"Lightning Reload Deed",
-			"Menacing Shot Deed",
-			"Gun Training"
-		],
-		"short_description": "While gunslingers are full of sound and fury, there is a class of gunslingers that never soil their hands with powder or feel the sting of gun smoke.",
 		"description": [
 			"## Bolt Ace",
 			"",
@@ -145,19 +112,6 @@
 		"name": "Buccaneer",
 		"file": "archetypedisplay700b.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Quick Clear Deed; Pistol Whip Deed; Dead Shot Deed; Lightning Reload Deed; Grit; Nimble; Gun Training 1, 2, and 4",
-		"replace_array": [
-			"Quick Clear Deed",
-			"Pistol Whip Deed",
-			"Dead Shot Deed",
-			"Lightning Reload Deed",
-			"Grit",
-			"Nimble",
-			"Gun Training 1",
-			"Gun Training 2",
-			"Gun Training 4"
-		],
-		"short_description": "(Human Only) Freebooters who cling to the convoluted codes that rule independent ships, the buccaneer is a gunslinger of the high seas.",
 		"description": [
 			"## Buccaneer",
 			"",
@@ -194,18 +148,6 @@
 		"name": "Bushwhacker",
 		"file": "archetypedisplay1d7a.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Grit; Utility Shot Deed; Targeting Deed; 4th, 8th, 12th, 16th, 20th-level Bonus Feat",
-		"replace_array": [
-			"Grit",
-			"Utility Shot Deed",
-			"Targeting Deed",
-			"4th-level Bonus Feat",
-			"8th-level Bonus Feat",
-			"12th-level Bonus Feat",
-			"16th-level Bonus Feat",
-			"20th-level Bonus Feat"
-		],
-		"short_description": "(Kobold Only) The bushwhacker specializes in the art of the ambush. For her, gunplay works best when it comes from a concealed position and is directed against a target that falls with the very first volley and is dead before the smoke clears.",
 		"description": [
 			"## Bushwhacker",
 			"",
@@ -228,17 +170,6 @@
 		"name": "Commando",
 		"file": "archetypedisplay1aac.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Class Skills; Utility Shot; Expert Loading; Lightning Reload; Slinger's Luck; 4th-level Bonus Feat; Gun Training",
-		"replace_array": [
-			"Class Skills",
-			"Utility Shot Deed",
-			"Expert Loading",
-			"Lightning Reload Deed",
-			"Slinger's Luck",
-			"4th-level Bonus Feat",
-			"Gun Training"
-		],
-		"short_description": "Commandos are those rough and ready gunslingers who excel at hit-and-run tactics and leveraging their expertise in the wild against their enemies.",
 		"description": [
 			"## Commando",
 			"",
@@ -283,12 +214,6 @@
 		"name": "Experimental Gunsmith",
 		"file": "archetypedisplay256c.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Gunsmith; Gunsmithing; Gun Training",
-		"replace_array": [
-			"Gunsmith",
-			"Gun Training"
-		],
-		"short_description": "(Gnome Only) The experimental gunsmith is obsessed with creating the ultimate firearm, and is willing to take risks to work the kinks out of her design.",
 		"description": [
 			"## Experimental Gunsmith",
 			"",
@@ -317,16 +242,6 @@
 		"name": "Firebrand",
 		"file": "archetypedisplay8932.html",
 		"sources": [ "Elemental Master's Handbook" ],
-		"replaces": "Gunsmith; Grit; Deadeye; Dead Shot; Bonus Feats; Gun Training",
-		"replace_array": [
-			"Gunsmith",
-			"Grit",
-			"Deadeye Deed",
-			"Dead Shot Deed",
-			"Bonus Feats",
-			"Gun Training"
-		],
-		"short_description": "Where other gunslingers rely on precision shooting, the firebrand instead masters explosive ordnance.",
 		"description": [
 			"## Firebrand",
 			"",
@@ -363,15 +278,6 @@
 		"name": "Graveslinger",
 		"file": "archetypedisplay98bb.html",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
-		"replaces": "Deadeye; Startling Shot; Bleeding Wound; Menacing Shot; 4th-level Bonus Feat",
-		"replace_array": [
-			"Deadeye Deed",
-			"Startling Shot Deed",
-			"Bleeding Wound",
-			"Menacing Shot Deed",
-			"4th-level Bonus Feat"
-		],
-		"short_description": "Graveslingers craft signature bullets to hunt down wandering undead. With this infused ammunition, they can take on the most resilient spectral foes with ease.",
 		"description": [
 			"## Graveslinger",
 			"",
@@ -408,18 +314,6 @@
 		"name": "Gulch Gunner",
 		"file": "archetypedisplay0b2e.html",
 		"sources": [],
-		"replaces": "Class Skills; Grit; Deadeye Deed; Pistol Whip Deed; Menacing Shot Deed; 9th, 13th, 17th-level Gun Training",
-		"replace_array": [
-			"Class Skills",
-			"Grit",
-			"Deadeye Deed",
-			"Pistol Whip Deed",
-			"Menacing Shot Deed",
-			"Gun Training 2",
-			"Gun Training 3",
-			"Gun Training 4"
-		],
-		"short_description": "(Ratfolk Only) These gulch gunners often specialize in proficiency with a single pistol (easily handled in tight spaces) and wander from warren to warren selling their tunnel-shooting skills to the highest bidder.",
 		"description": [
 			"## Gulch Gunner",
 			"",
@@ -448,14 +342,6 @@
 		"name": "Gun Scavenger",
 		"file": "archetypedisplay23bc.html",
 		"sources": [ "Inner Sea Combat" ],
-		"replaces": "Gunsmith; Quick Clear Deed; Targeting Deed; Nimble",
-		"replace_array": [
-			"Gunsmith",
-			"Quick Clear Deed",
-			"Targeting Deed",
-			"Nimble"
-		],
-		"short_description": "A gun scavenger collects scraps, spare parts, and other components that might-if modified properly-give her firearm an extra edge.",
 		"description": [
 			"## Gun Scavenger",
 			"",
@@ -480,15 +366,6 @@
 		"name": "Gun Tank",
 		"file": "archetypedisplay7828.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Armor Proficiency; Gunslinger's Dodge Deed; Evasive Deed; Nimble; Bonus Feats (4th level and every 4 levels after)",
-		"replace_array": [
-			"Armor Proficiency",
-			"Gunslinger's Dodge Deed",
-			"Evasive Deed",
-			"Nimble",
-			"Bonus Feats"
-		],
-		"short_description": "Gunslingers usually don't use heavy armor, but there are a few who use and modify their armor to protect themselves from both traditional weapons and gunfire.",
 		"description": [
 			"## Gun Tank",
 			"",
@@ -513,13 +390,6 @@
 		"name": "Gunner Squire",
 		"file": "archetypedisplayf99a.html",
 		"sources": [ "Knights of the Inner Sea" ],
-		"replaces": "Gunslinger's Dodge; Gunslinger Initiative; Nimble +1",
-		"replace_array": [
-			"Gunslinger's Dodge Deed",
-			"Gunslinger Initiative",
-			"Nimble +1"
-		],
-		"short_description": "The gunner squire is prepared to reload or repair her lord's firearms at a moment's notice.",
 		"description": [
 			"## Gunner Squire",
 			"",
@@ -540,13 +410,6 @@
 		"name": "Maverick",
 		"file": "archetypedisplayd1e9.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Dodge; Pistol Whip; Gunslinger Initiative",
-		"replace_array": [
-			"Gunslinger's Dodge Deed",
-			"Pistol Whip Deed",
-			"Gunslinger Initiative"
-		],
-		"short_description": "Quick with her gun and no stranger to barroom brawls, a maverick can hold her own when bullets and punches start flying.",
 		"description": [
 			"## Maverick",
 			"",
@@ -573,15 +436,6 @@
 		"name": "Musket Master",
 		"file": "archetypedisplay20d6.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Weapon Proficiency; Gunsmith; Gunslinger's Dodge Deed; Utility Shot Deed; Gun Training 1-4",
-		"replace_array": [
-			"Weapon Proficiency",
-			"Gunsmith",
-			"Gunslinger's Dodge Deed",
-			"Utility Shot Deed",
-			"Gun Training"
-		],
-		"short_description": "Some gunslingers want a little more firepower and range. These are the musket masters; the best of these gunslingers can reload a musket with dazzling speed, potentially putting even their pistol-wielding brethren to shame.",
 		"description": [
 			"## Musket Master",
 			"",
@@ -608,14 +462,6 @@
 		"name": "Mysterious Stranger",
 		"file": "archetypedisplay6dba.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Grit; Quick Clear Deed; Nimble; Gun Training 1",
-		"replace_array": [
-			"Grit",
-			"Quick Clear Deed",
-			"Nimble",
-			"Gun Training 1"
-		],
-		"short_description": "A few rare gunslingers seem to accomplish their chosen tasks purely through willpower and an unwillingness to ever give up.",
 		"description": [
 			"## Mysterious Stranger",
 			"",
@@ -640,16 +486,6 @@
 		"name": "Pistolero",
 		"file": "archetypedisplay7e24.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Weapon Proficiency; Gunsmith; Deadeye Deed; Startling Shot Deed; Menacing Shot Deed; Gun Training 1-4",
-		"replace_array": [
-			"Weapon Proficiency",
-			"Gunsmith",
-			"Deadeye Deed",
-			"Startling Shot Deed",
-			"Menacing Shot Deed",
-			"Gun Training"
-		],
-		"short_description": "While most gunslingers have favorite firearms, there are those rare ones who choose to specialize in one-handed firearms exclusively.",
 		"description": [
 			"## Pistolero",
 			"",
@@ -677,17 +513,6 @@
 		"name": "Planar Rifter",
 		"file": "archetypedisplayd668.html",
 		"sources": [ "Plane-Hopper's Handbook" ],
-		"replaces": "Grit; Deadeye; Dead Shot; Menacing Shot; Death's Shot; Nimble; Gun Training",
-		"replace_array": [
-			"Grit",
-			"Deadeye Deed",
-			"Dead Shot Deed",
-			"Menacing Shot Deed",
-			"Death's Shot",
-			"Nimble",
-			"Gun Training"
-		],
-		"short_description": "Planar rifters harvest pieces of the Outer Planes, absorbing some of the energy into themselves and condensing other portions of it into bullets they can fire from their guns",
 		"description": [
 			"## Planar Rifter",
 			"",
@@ -730,15 +555,6 @@
 		"name": "Scatter Gunner",
 		"file": "archetypedisplay55f2.html",
 		"sources": [ "People of the Wastes" ],
-		"replaces": "Gunsmith; Deadeye; Utility Shot; Dead Shot; Targeting",
-		"replace_array": [
-			"Gunsmith",
-			"Deadeye Deed",
-			"Utility Shot Deed",
-			"Dead Shot Deed",
-			"Targeting Deed"
-		],
-		"short_description": "Punishing firearms such as the blunderbuss and dragon pistol can lay waste to invaders in tight corridors, and the dwarves of Dongun Hold have pioneered masterful methods for making the most of these indiscriminate weapons",
 		"description": [
 			"## Scatter Gunner",
 			"",
@@ -775,15 +591,6 @@
 		"name": "Siege Gunner",
 		"file": "archetypedisplay1964.html",
 		"sources": [ "Inner Sea Combat" ],
-		"replaces": "Grit; Nimble; Deadeye; Gunslinger Initiative; Bonus Feats",
-		"replace_array": [
-			"Grit",
-			"Nimble",
-			"Deadeye Deed",
-			"Gunslinger Initiative",
-			"Bonus Feats"
-		],
-		"short_description": "The Grand Duchy of Alkenstar has spawned all manner of firearm specialists, wielding small and large firearms alike. Siege gunners specialize in the very largest- cannons, bombards, and firedrakes.",
 		"description": [
 			"## Siege Gunner",
 			"",
@@ -808,14 +615,6 @@
 		"name": "Techslinger",
 		"file": "archetypedisplay94de.html",
 		"sources": [ "Technology Guide" ],
-		"replaces": "Deadeye; Quick Clear; Expert Loading; Gun Training",
-		"replace_array": [
-			"Deadeye Deed",
-			"Quick Clear Deed",
-			"Expert Loading",
-			"Gun Training"
-		],
-		"short_description": "Techslingers spurn unreliable gunpowder weapons in favor of high-tech armaments.",
 		"description": [
 			"## Techslinger",
 			"",
@@ -844,15 +643,6 @@
 		"name": "Thronewarden",
 		"file": "archetypedisplay7ca2.html",
 		"sources": [ "Heroes of the High Court" ],
-		"replaces": "Class Skills; Nimble; 4th-level Bonus Feat; Startling Shot; Bleeding Wound",
-		"replace_array": [
-			"Class Skills",
-			"Nimble",
-			"4th-level Bonus Feat",
-			"Startling Shot Deed",
-			"Bleeding Wound"
-		],
-		"short_description": "As vigilant sentinels, thronewardens identify and head off trouble.",
 		"description": [
 			"## Thronewarden",
 			"",
@@ -887,14 +677,6 @@
 		"name": "Wyrm Sniper",
 		"file": "archetypedisplay5029.html",
 		"sources": [ "Dragonslayer's Handbook" ],
-		"replaces": "Class Skills; Starling Shot Deed; Lightning Reload Deed; Menacing Shot Deed",
-		"replace_array": [
-			"Class Skills",
-			"Startling Shot Deed",
-			"Lightning Reload Deed",
-			"Menacing Shot Deed"
-		],
-		"short_description": "These long-shot artists are masters at taking down dragons with sharp shooting and light siege weaponry.",
 		"description": [
 			"## Wyrm Sniper",
 			"",

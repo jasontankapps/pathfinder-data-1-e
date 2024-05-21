@@ -4,17 +4,6 @@
 		"name": "Abendego Diver",
 		"file": "archetypedisplay31d7.html",
 		"sources": [ "Elemental Master's Handbook" ],
-		"replaces": "Weapon and Armor Proficiencies; Track; Wild Empathy; Favored Terrain; Woodland Stride; Swift Tracker; Master Hunter",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Track",
-			"Wild Empathy",
-			"Favored Terrain",
-			"Woodland Stride",
-			"Swift Tracker",
-			"Master Hunter"
-		],
-		"short_description": "Named for the vicious and unending storm in the southern Arcadian Ocean, Abendego divers have pushed their bodies to their limits, holding their breath to expand their lung capacity and swimming until ocean travel is second nature to them.",
 		"description": [
 			"## Abendego Diver",
 			"",
@@ -55,15 +44,6 @@
 		"name": "Battle Scout",
 		"file": "archetypedisplay7a91.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Hunter's Bond; 2nd, 3rd, 4th Favored Enemies; Master Hunter",
-		"replace_array": [
-			"Hunter's Bond",
-			"5th-Level Favored Enemy",
-			"10th-Level Favored Enemy",
-			"15th-Level Favored Enemy",
-			"Master Hunter"
-		],
-		"short_description": "Though regular outdoorsmen might suffice in many cases, some large forces look to battle scouts to keep the body of their troops safe and prepared for the terrain and whatever dangers that terrain hides.",
 		"description": [
 			"## Battle Scout",
 			"",
@@ -92,13 +72,6 @@
 		"name": "Beast Master",
 		"file": "archetypedisplayea64.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Hunter's Bond; 6th-level Combat Style Feat; Camouflage",
-		"replace_array": [
-			"Hunter's Bond",
-			"6th-level Combat Style Feat",
-			"Camouflage"
-		],
-		"short_description": "Some rangers, particularly those in primitive lands or who were raised by animals, have unusually strong bonds with animals.",
 		"description": [
 			"## Beast Master",
 			"",
@@ -121,14 +94,6 @@
 		"name": "Blightwarden",
 		"file": "archetypedisplay9e79.html",
 		"sources": [ "People of the Wastes" ],
-		"replaces": "Favored Enemy; Wild Empathy; 1st Favored Terrain; Endurance;",
-		"replace_array": [
-			"Favored Enemy",
-			"Wild Empathy",
-			"3rd-Level Favored Terrain",
-			"Endurance"
-		],
-		"short_description": "Some rangers feel so closely connected to their homelands that they stand as guardians against pervasive corruptions that pervert those lands beyond the point of recognition.",
 		"description": [
 			"## Blightwarden",
 			"",
@@ -163,17 +128,6 @@
 		"name": "Bow Nomad",
 		"file": "archetypedisplay89eb.html",
 		"sources": [ "People of the Stars" ],
-		"replaces": "Wild Empathy; Combat Style; Endurance; Favored Terrain; 6th-level Combat Feat; Camouflage; Hide in Plain Sight",
-		"replace_array": [
-			"Wild Empathy",
-			"Combat Style Feats",
-			"Endurance",
-			"Favored Terrain",
-			"6th-level Combat Style Feat",
-			"Camouflage",
-			"Hide in Plain Sight"
-		],
-		"short_description": "(Kasatha Only) Thanks to their four arms, kasathas can master a combat form native to their home world and rarely witnessed on Golarion-wielding two bows at once.",
 		"description": [
 			"## Bow Nomad",
 			"",
@@ -208,14 +162,6 @@
 		"name": "Cinderwalker",
 		"file": "archetypedisplay7dd9.html",
 		"sources": [ "Pathfinder #95: Anvil of Fire" ],
-		"replaces": "1st Favored Terrain; Wild Empathy; Hunter's Bond; Woodland Stride",
-		"replace_array": [
-			"3rd-Level Favored Terrain",
-			"Wild Empathy",
-			"Hunter's Bond",
-			"Woodland Stride"
-		],
-		"short_description": "Cinderwalkers traverse burning wastelands and restless mountains, thriving in lands most creatures avoid.",
 		"description": [
 			"## Cinderwalker",
 			"",
@@ -234,13 +180,6 @@
 		"name": "Code Runner",
 		"file": "archetypedisplayb8f5.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Wild Empathy; Hunter's Bond",
-		"replace_array": [
-			"Class Skills",
-			"Wild Empathy",
-			"Hunter's Bond"
-		],
-		"short_description": "A code runner specializes in the subtle and speedy transfer of secret messages.",
 		"description": [
 			"## Code Runner",
 			"",
@@ -267,15 +206,6 @@
 		"name": "Corpse Hunter",
 		"file": "archetypedisplayfa20-2.html",
 		"sources": [ "Undead Slayer's Handbook" ],
-		"replaces": "Class Skills; Spells; Favored Enemies; Woodland Stride; Swift Tracker",
-		"replace_array": [
-			"Class Skills",
-			"Adds Spells",
-			"Favored Enemy",
-			"Woodland Stride",
-			"Swift Tracker"
-		],
-		"short_description": "Many rangers count the undead among their favored enemies, but some make a full-time job out of hunting down and destroying these walking corpses.",
 		"description": [
 			"## Corpse Hunter",
 			"",
@@ -300,17 +230,6 @@
 		"name": "Dandy",
 		"file": "archetypedisplay08e5.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Favored Enemy; Wild Empathy; Favored Terrain; Hunter's Bond; Spellcasting; Woodland Stride",
-		"replace_array": [
-			"Class Skills",
-			"Favored Enemy",
-			"Wild Empathy",
-			"Favored Terrain",
-			"Hunter's Bond",
-			"Spellcasting",
-			"Woodland Stride"
-		],
-		"short_description": "The antithesis of the gruff and wild woodsmen, a dandy takes effort to master the subtle etiquette of noble courts, the whispers of dark rumors, and the customs of the cultured world.",
 		"description": [
 			"## Dandy",
 			"",
@@ -359,16 +278,6 @@
 		"name": "Darklands Sailor",
 		"file": "archetypedisplaycef0.html",
 		"sources": [ "Heroes of the Darklands" ],
-		"replaces": "Track; Favored Terrain; Woodland Stride; Swift Tracker; Camouflage; Hide in Plain Sight",
-		"replace_array": [
-			"Track",
-			"Favored Terrain",
-			"Woodland Stride",
-			"Swift Tracker",
-			"Camouflage",
-			"Hide in Plain Sight"
-		],
-		"short_description": "Those plying the lightless waters of the Darklands learn to use sound to augment their compromised vision, providing insight into the hazards lurking below the surface.",
 		"description": [
 			"## Darklands Sailor",
 			"",
@@ -401,14 +310,6 @@
 		"name": "Deep Walker",
 		"file": "archetypedisplayc341.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Favored Terrain; Woodland Stride; Camouflage; Hide in Plain Sight",
-		"replace_array": [
-			"Favored Terrain",
-			"Woodland Stride",
-			"Camouflage",
-			"Hide in Plain Sight"
-		],
-		"short_description": "Some rangers devote their lives to the woods, becoming hunters, protectors, and wilderness guides among its diverse terrain types.",
 		"description": [
 			"## Deep Walker",
 			"",
@@ -429,13 +330,6 @@
 		"name": "Divine Tracker",
 		"file": "archetypedisplay3070.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Alignment; Wild Empathy; Hunter's Bond",
-		"replace_array": [
-			"Alignment",
-			"Wild Empathy",
-			"Hunter's Bond"
-		],
-		"short_description": "Blessed by his deity, a divine tracker hunts down those he deems deserving of his retribution.",
 		"description": [
 			"## Divine Tracker",
 			"",
@@ -454,16 +348,6 @@
 		"name": "Dragon Hunter",
 		"file": "archetypedisplay76c5.html",
 		"sources": [ "Dragonslayer's Handbook" ],
-		"replaces": "Class Skills; Track; 5th, 10th, 15th, 20th-level Favored Enemies",
-		"replace_array": [
-			"Class Skills",
-			"Track",
-			"5th-Level Favored Enemy",
-			"10th-Level Favored Enemy",
-			"15th-Level Favored Enemy",
-			"20th-Level Favored Enemy"
-		],
-		"short_description": "The quintessential dragonslayers, dragon hunters are experts at forging through the wilds in search of great wyrms.",
 		"description": [
 			"## Dragon Hunter",
 			"",
@@ -490,13 +374,6 @@
 		"name": "Drake Warden",
 		"file": "archetypedisplay4f10.html",
 		"sources": [ "Legacy of Dragons" ],
-		"replaces": "Hunter's Bond; 2nd Favored Enemy; Swift Tracker",
-		"replace_array": [
-			"Hunter's Bond",
-			"5th-Level Favored Enemy",
-			"Swift Tracker"
-		],
-		"short_description": "Some rangers specialize in dealing with rambunctious younger drakes and thanks to their methods, their drakes are both fiercely loyal and extremely useful for scouting and stealth missions.",
 		"description": [
 			"## Drake Warden",
 			"",
@@ -513,16 +390,6 @@
 		"name": "Dungeon Rover",
 		"file": "archetypedisplay5300.html",
 		"sources": [ "Dungeoneer's Handbook" ],
-		"replaces": "Class Skills; Track; Wild Empathy; Hunter's Bond; Woodland Stride; Swift Tracker",
-		"replace_array": [
-			"Class Skills",
-			"Track",
-			"Wild Empathy",
-			"Hunter's Bond",
-			"Woodland Stride",
-			"Swift Tracker"
-		],
-		"short_description": "These rangers specialize in surviving hostile subterranean environs. They are well equipped to avoid traps, spot secret passages, and deal with inimical dungeon tenants.",
 		"description": [
 			"## Dungeon Rover",
 			"",
@@ -547,14 +414,6 @@
 		"name": "Dusk Stalker",
 		"file": "archetypedisplay0f2e.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Class Skills; Favored Terrain; Hunter's Bond; Camouflage",
-		"replace_array": [
-			"Class Skills",
-			"Favored Terrain",
-			"Hunter's Bond",
-			"Camouflage"
-		],
-		"short_description": "(Fetchling Only) Hunters and guides through the Shadow Plane, dusk stalkers are rangers that thrive in shadow.",
 		"description": [
 			"## Dusk Stalker",
 			"",
@@ -575,12 +434,6 @@
 		"name": "Elemental Envoy",
 		"file": "archetypedisplay4bea.html",
 		"sources": [ "Disciple's Doctrine" ],
-		"replaces": "Combat Style; Favored Terrain",
-		"replace_array": [
-			"Combat Style Feats",
-			"Favored Terrain"
-		],
-		"short_description": "An elemental envoy travels the Elemental Planes. He has learned to protect himself from their many dangers, and he models his fighting style after their teachings.",
 		"description": [
 			"## Elemental Envoy",
 			"",
@@ -601,13 +454,6 @@
 		"name": "Falconer",
 		"file": "archetypedisplay88a2.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Wild Empathy; Hunter's Bond; 6th-level Combat Style Feat",
-		"replace_array": [
-			"Wild Empathy",
-			"Hunter's Bond",
-			"6th-level Combat Style Feat"
-		],
-		"short_description": "Rangers have always enjoyed a special bond with a specific animal, but the falconer takes this bond to a deeper level.",
 		"description": [
 			"## Falconer",
 			"",
@@ -634,16 +480,6 @@
 		"name": "Flamewarden",
 		"file": "archetypedisplaybe86.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Hunter's Bond; Spells; Evasion; Camouflage; Improved Evasion; Master Hunter",
-		"replace_array": [
-			"Hunter's Bond",
-			"Adds Spells",
-			"Evasion",
-			"Camouflage",
-			"Improved Evasion",
-			"Master Hunter"
-		],
-		"short_description": "Emulating the blazing phoenix, flamewardens sweep through the world like a selective forest fire, burning away corruption, evil, and those who cling to decay.",
 		"description": [
 			"## Flamewarden",
 			"",
@@ -682,16 +518,6 @@
 		"name": "Fortune-Finder",
 		"file": "archetypedisplayb8b2.html",
 		"sources": [ "Blood of the Beast" ],
-		"replaces": "Track; Hunter's Bond; Woodland Stride; Quarry; Improved Quarry; Master Hunter",
-		"replace_array": [
-			"Track",
-			"Hunter's Bond",
-			"Woodland Stride",
-			"Quarry",
-			"Improved Quarry",
-			"Master Hunter"
-		],
-		"short_description": "Vanaras often leave home to seek fortune and sate their curiosity regarding the mysterious lands that lie beyond their native territories. The most skilled of these thrillseekers are called ba-sadhaks, or fortune-finders.",
 		"description": [
 			"## Fortune-Finder",
 			"",
@@ -726,13 +552,6 @@
 		"name": "Freebooter",
 		"file": "archetypedisplay8db6.html",
 		"sources": [ "Pirates of the Inner Sea" ],
-		"replaces": "Favored Enemy; Hunter's Bond; Woodland Stride",
-		"replace_array": [
-			"Favored Enemy",
-			"Hunter's Bond",
-			"Woodland Stride"
-		],
-		"short_description": "A freebooter is a natural leader, a pirate who works well with a variety of people and in a variety of roles.",
 		"description": [
 			"## Freebooter",
 			"",
@@ -753,18 +572,6 @@
 		"name": "Galvanic Saboteur",
 		"file": "archetypedisplay955d.html",
 		"sources": [ "People of the River" ],
-		"replaces": "Class Skills; Favored Enemy; Wild Empathy; Favored Terrain; Woodland Stride; Swift Tracker; Camouflage; Hide in Plain Sight",
-		"replace_array": [
-			"Class Skills",
-			"Favored Enemy",
-			"Wild Empathy",
-			"Favored Terrain",
-			"Woodland Stride",
-			"Swift Tracker",
-			"Camouflage",
-			"Hide in Plain Sight"
-		],
-		"short_description": "Many Kellid locals blame Kevoth-Kul's change on the influence of the Technic League and view both the League and their mechanical minions with a mix of fear and distrust. Some Kellid rangers have since developed skills to defeat the League's robotic enforcers and devious arcanists.",
 		"description": [
 			"## Galvanic Saboteur",
 			"",
@@ -803,13 +610,6 @@
 		"name": "Groom",
 		"file": "archetypedisplay3ebc.html",
 		"sources": [ "Dungeoneer's Handbook" ],
-		"replaces": "Track; Endurance; 1st Favored Terrain",
-		"replace_array": [
-			"Track",
-			"Endurance",
-			"3rd-Level Favored Terrain"
-		],
-		"short_description": "The groom attends to the needs of the party's mounts and beasts of burden during their adventures, and guards these animals while the party goes underground.",
 		"description": [
 			"## Groom",
 			"",
@@ -828,16 +628,6 @@
 		"name": "Guide",
 		"file": "archetypedisplaye032.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Favored Enemy; Hunter's Bond; Evasion; Quarry; Improved Quarry; Improved Evasion",
-		"replace_array": [
-			"Favored Enemy",
-			"Hunter's Bond",
-			"Evasion",
-			"Quarry",
-			"Improved Quarry",
-			"Improved Evasion"
-		],
-		"short_description": "Many rangers are loners, but some choose to use their familiarity with the land to guide others safely through the wilderness.",
 		"description": [
 			"## Guide",
 			"",
@@ -862,15 +652,6 @@
 		"name": "Guildbreaker",
 		"file": "archetypedisplay53e8.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Favored Enemy; Wild Empathy; Hunter's Bond; Woodland Stride",
-		"replace_array": [
-			"Class Skills",
-			"Favored Enemy",
-			"Wild Empathy",
-			"Hunter's Bond",
-			"Woodland Stride"
-		],
-		"short_description": "Guildbreakers stoke their enmity for their foes, and they train to track the movements of rival organizations, and even to infiltrate these groups to gather secret intelligence.",
 		"description": [
 			"## Guildbreaker",
 			"",
@@ -907,16 +688,6 @@
 		"name": "Hooded Champion",
 		"file": "archetypedisplay6120.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "1st-level Favored Enemy; Combat Style; Wild Empathy; Endurance; Evasion; Improved Evasion",
-		"replace_array": [
-			"1st-Level Favored Enemy",
-			"Combat Style Feats",
-			"Wild Empathy",
-			"Endurance",
-			"Evasion",
-			"Improved Evasion"
-		],
-		"short_description": "The hooded champion lives on the periphery of civilized lands, and is often at odds with the forces of law and order.",
 		"description": [
 			"## Hooded Champion",
 			"",
@@ -941,14 +712,6 @@
 		"name": "Horse Lord",
 		"file": "archetypedisplay470d.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Hunter's Bond; Camouflage; Hide in Plain Sight",
-		"replace_array": [
-			"Hunter's Bond",
-			"Camouflage",
-			"Hide in Plain Sight",
-			"Combat Style Feats"
-		],
-		"short_description": "Rangers of the plains use horses or other riding beasts to hunt their lands, forging a near-mystical relationship with their mounts.",
 		"description": [
 			"## Horse Lord",
 			"",
@@ -969,17 +732,6 @@
 		"name": "Ilsurian Archer",
 		"file": "archetypedisplay0b29.html",
 		"sources": [],
-		"replaces": "Track; Wild Empathy; Combat Style; Spellcasting; Swift Tracker; Quarry; Improved Quarry",
-		"replace_array": [
-			"Track",
-			"Wild Empathy",
-			"Combat Style Feats",
-			"Spellcasting",
-			"Swift Tracker",
-			"Quarry",
-			"Improved Quarry"
-		],
-		"short_description": "Ilsurian archers maintain the strong tradition of archery first developed by soldiers in the service of Ilsur, who raised a small army with which he intended to overthrow the monarch of Korvosa after the fall of the Chelish Empire.",
 		"description": [
 			"## Ilsurian Archer",
 			"",
@@ -1004,11 +756,6 @@
 		"name": "Infiltrator",
 		"file": "archetypedisplaye51a.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Favored Terrain",
-		"replace_array": [
-			"Favored Terrain"
-		],
-		"short_description": "Some rangers study their favored enemies and learn their ways, applying this knowledge to their own abilities and using their foes' strengths against them.",
 		"description": [
 			"## Infiltrator",
 			"",
@@ -1071,20 +818,6 @@
 		"name": "Jungle Lord",
 		"file": "archetypedisplaycc85.html",
 		"sources": [ "Pathfinder: Worldscape #4" ],
-		"replaces": "Class Skills; Weapon and Armor Proficiency; Favored Enemy; Favored Terrain; Hunter's Bond; Spells; 5th, 10th, 15th, 18th-level Favored Terrain; Quarry; Improved Quarry; Camouflage; Master Hunter",
-		"replace_array": [
-			"Class Skills",
-			"Weapon/Armor Proficiency",
-			"Favored Enemy",
-			"Favored Terrain",
-			"Hunter's Bond",
-			"Spellcasting",
-			"Quarry",
-			"Improved Quarry",
-			"Camouflage",
-			"Master Hunter"
-		],
-		"short_description": "Jungle lords are tempered by their harsh and unforgiving environments into something more than ordinary men and women.",
 		"description": [
 			"## Jungle Lord",
 			"",
@@ -1142,16 +875,6 @@
 			"Adventurer's Guide",
 			"Inner Sea Intrigue"
 		],
-		"replaces": "Wild Empathy; Endurance; Favored Terrain; Woodland Stride; Camouflage; Hide in Plain Sight",
-		"replace_array": [
-			"Wild Empathy",
-			"Endurance",
-			"Favored Terrain",
-			"Woodland Stride",
-			"Camouflage",
-			"Hide in Plain Sight"
-		],
-		"short_description": "Lantern lighters were originally entrusted with secretly eliminating the drow and quarantining any knowledge of their existence, but in the new Lantern Bearer era, the lantern lighters have refocused their efforts on helping to rescue those imprisoned by the drow, or even to help individual drow who seek to escape the cruelties of their society for a chance at redemption on the surface.",
 		"description": [
 			"## Lantern Lighter",
 			"",
@@ -1206,14 +929,6 @@
 		"name": "Nirmathi Irregular",
 		"file": "archetypedisplay8b12.html",
 		"sources": [ "Inner Sea Magic" ],
-		"replaces": "Normal Weapon/Armor Proficiencies; Favored Enemy; Favored Terrain; Altered Spell List",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Favored Enemy",
-			"Favored Terrain",
-			"Spellcasting"
-		],
-		"short_description": "An irregular troop from Nirmathas, this ranger chooses to focus on the magic of stealth.",
 		"description": [
 			"## Nirmathi Irregular",
 			"",
@@ -1238,16 +953,6 @@
 		"name": "Planar Scout",
 		"file": "archetypedisplaydaed.html",
 		"sources": [ "Planar Adventures" ],
-		"replaces": "Class Skills; Wild Empathy; Favored Terrain; Hunter's Bond; Evasion; Improved Evasion",
-		"replace_array": [
-			"Class Skills",
-			"Wild Empathy",
-			"Favored Terrain",
-			"Hunter's Bond",
-			"Evasion",
-			"Improved Evasion"
-		],
-		"short_description": "Planar scouts are rangers specializing in traversing the planes-and surviving their journeys.",
 		"description": [
 			"## Planar Scout",
 			"",
@@ -1304,15 +1009,6 @@
 		"name": "Poison Darter",
 		"file": "archetypedisplaya4be.html",
 		"sources": [ "Blood of the Beast" ],
-		"replaces": "Favored Enemy; Wild Empathy; Combat Style; Hunter's Bond; Master Hunter",
-		"replace_array": [
-			"Favored Enemy",
-			"Wild Empathy",
-			"Combat Style Feats",
-			"Hunter's Bond",
-			"Master Hunter"
-		],
-		"short_description": "In dense jungles, foliage and tight spaces hinder all but the most deceptively humble weapons: blowguns and poison.",
 		"description": [
 			"## Poison Darter",
 			"",
@@ -1345,17 +1041,6 @@
 		"name": "Raven Master",
 		"file": "archetypedisplayccd1.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Class Skills; Wild Empathy; Hunter's Bond; Woodland Stride; Swift Tracker; Camouflage; Spellcasting",
-		"replace_array": [
-			"Class Skills",
-			"Wild Empathy",
-			"Hunter's Bond",
-			"Woodland Stride",
-			"Swift Tracker",
-			"Camouflage",
-			"Spellcasting"
-		],
-		"short_description": "Raven masters serve as messengers and spies for the Silver Ravens, eschewing a ranger's usual connection to the natural world to form a mystic bond with their birds and to grant both animal and master a number of specialized abilities",
 		"description": [
 			"## Raven Master",
 			"",
@@ -1400,15 +1085,6 @@
 		"name": "Realm Wanderer",
 		"file": "archetypedisplayec21.html",
 		"sources": [ "Distant Realms" ],
-		"replaces": "Class Skills; Track; Hunter's Bond; Swift Tracker; Master Hunter",
-		"replace_array": [
-			"Class Skills",
-			"Track",
-			"Hunter's Bond",
-			"Swift Tracker",
-			"Master Hunter"
-		],
-		"short_description": "These rangers take to heart the lessons they've learned from their vastly contrasting experiences and know that creatively embracing this wisdom is sometimes the difference between life and death.",
 		"description": [
 			"## Realm Wanderer",
 			"",
@@ -1448,11 +1124,6 @@
 			"Inner Sea Combat",
 			"Paizo Blog - Sable Company Marine"
 		],
-		"replaces": "Hunter's Bond",
-		"replace_array": [
-			"Hunter's Bond"
-		],
-		"short_description": "Sable Company marines receive their training at the elite Endrin Military Academy in Korvosa. A large portion of their education is the handling and riding of hippogriffs, the iconic mounts of members of the company.",
 		"description": [
 			"## Sable Company Marine",
 			"",
@@ -1469,16 +1140,6 @@
 		"name": "Sentinel",
 		"file": "archetypedisplaybc69.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Wild Empathy; Hunter's Bond; Woodland Stride; 6th-level Combat Style Feat; Quarry; Improved Quarry",
-		"replace_array": [
-			"Wild Empathy",
-			"Hunter's Bond",
-			"Woodland Stride",
-			"6th-level Combat Style Feat",
-			"Quarry",
-			"Improved Quarry"
-		],
-		"short_description": "A sentinel specializes in heightening all of her senses to expose spies and those who work for opposing factions, rooting out all who attempt to slip past her evervigilant watch.",
 		"description": [
 			"## Sentinel",
 			"",
@@ -1513,13 +1174,6 @@
 		"name": "Shapeshifter",
 		"file": "archetypedisplaya53e.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Favored Terrain; Camouflage; Master Hunter",
-		"replace_array": [
-			"Favored Terrain",
-			"Camouflage",
-			"Master Hunter"
-		],
-		"short_description": "Most rangers venture into the wilderness, but there are some who let the wilderness seep into them.",
 		"description": [
 			"## Shapeshifter",
 			"",
@@ -1568,11 +1222,6 @@
 		"name": "Skirmisher",
 		"file": "archetypedisplay9fd1.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Spells",
-		"replace_array": [
-			"Spellcasting"
-		],
-		"short_description": "Many rangers rely on spells, but there are some who eschew aid from divine powers for their own reasons.",
 		"description": [
 			"## Skirmisher",
 			"",
@@ -1641,12 +1290,6 @@
 		"name": "Spirit Ranger",
 		"file": "archetypedisplay73dc.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Hunter's Bond; Camouflage",
-		"replace_array": [
-			"Hunter's Bond",
-			"Camouflage"
-		],
-		"short_description": "Some rangers nurture a connection with the spirits that reside in all things.",
 		"description": [
 			"## Spirit Ranger",
 			"",
@@ -1663,16 +1306,6 @@
 		"name": "Stormwalker",
 		"file": "archetypedisplay8256.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Combat Style; Hunter's Bond; Swift Tracker; Quarry; Improved Evasion; Improved Quarry",
-		"replace_array": [
-			"Combat Style Feats",
-			"Hunter's Bond",
-			"Swift Tracker",
-			"Quarry",
-			"Improved Evasion",
-			"Improved Quarry"
-		],
-		"short_description": "Rangers who walk in the tempest unafraid draw the power of the storm into themselves and become stormwalkers.",
 		"description": [
 			"## Stormwalker",
 			"",
@@ -1709,14 +1342,6 @@
 		"name": "Summit Sentinel",
 		"file": "archetypedisplay80b3.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Combat Style; Favored Terrain; Swift Tracker; Hide in Plain Sight",
-		"replace_array": [
-			"Combat Style Feats",
-			"Favored Terrain",
-			"Swift Tracker",
-			"Hide in Plain Sight"
-		],
-		"short_description": "Some rangers eschew the path of the swift skirmisher and embrace the implacable strength of the mountain.",
 		"description": [
 			"## Summit Sentinel",
 			"",
@@ -1755,18 +1380,6 @@
 		"name": "Sword-Devil",
 		"file": "archetypedisplayab67.html",
 		"sources": [ "Pathfinder: Worldscape #1" ],
-		"replaces": "Class Skills; Favored Enemy; Favored Terrain; Hunter's Bond; Spells; Quarry; Improved Quarry; Master Hunter",
-		"replace_array": [
-			"Class Skills",
-			"Favored Enemy",
-			"Favored Terrain",
-			"Hunter's Bond",
-			"Spellcasting",
-			"Quarry",
-			"Improved Quarry",
-			"Master Hunter"
-		],
-		"short_description": "Agile, vengeful, and deadly, a sword-devil fights with precision and grace, channeling the difficult lessons of a star-crossed life into unparalleled battle prowess.",
 		"description": [
 			"## Sword-Devil",
 			"",
@@ -1809,16 +1422,6 @@
 		"name": "Tanglebriar Demonslayer",
 		"file": "archetypedisplayd3b0.html",
 		"sources": [ "Inner Sea Combat" ],
-		"replaces": "Class Skills; Favored Enemy; Endurance; Spells; Quarry; Improved Quarry",
-		"replace_array": [
-			"Class Skills",
-			"Favored Enemy",
-			"Endurance",
-			"Adds Spells",
-			"Quarry",
-			"Improved Quarry"
-		],
-		"short_description": "Though they are sworn foes of Treerazer and his kin, Tanglebriar demonslayers are known to venture forth from Kyonin to broaden their expertise in the destruction of demons.",
 		"description": [
 			"## Tanglebriar Demonslayer",
 			"",
@@ -1843,17 +1446,6 @@
 		"name": "Tidal Hunter",
 		"file": "archetypedisplayee0f.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Wild Empathy; 6th-level Combat Style Feat; Track; Camouflage; Favored Terrain; Woodland Stride; Improved Evasion",
-		"replace_array": [
-			"Wild Empathy",
-			"6th-level Combat Style Feat",
-			"Track",
-			"Camouflage",
-			"Favored Terrain",
-			"Woodland Stride",
-			"Improved Evasion"
-		],
-		"short_description": "The tidal hunter draws strength from the fish and other wildlife of the deep.",
 		"description": [
 			"## Tidal Hunter",
 			"",
@@ -1886,16 +1478,6 @@
 		"name": "Toxic Herbalist",
 		"file": "archetypedisplayedd8.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Wild Empathy; Endurance; Hunter's Bond; Swift Tracker; Quarry; Improved Quarry",
-		"replace_array": [
-			"Wild Empathy",
-			"Endurance",
-			"Hunter's Bond",
-			"Swift Tracker",
-			"Quarry",
-			"Improved Quarry"
-		],
-		"short_description": "Saviors and destroyers in equal measure, toxic herbalists use nature's bounty to craft remedies and poisons.",
 		"description": [
 			"## Toxic Herbalist",
 			"",
@@ -1938,15 +1520,6 @@
 		"name": "Toxophilite",
 		"file": "archetypedisplay3ab8.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"replaces": "Wild Empathy; Combat Style; Endurance; Quarry; Improved Quarry",
-		"replace_array": [
-			"Wild Empathy",
-			"Combat Style Feats",
-			"Endurance",
-			"Quarry",
-			"Improved Quarry"
-		],
-		"short_description": "The toxophilite emulates the sharpshooting rangers of legend, who could pin a fly to the wall with a single shot or split one arrow with another.",
 		"description": [
 			"## Toxophilite",
 			"",
@@ -1969,14 +1542,6 @@
 		"name": "Transporter",
 		"file": "archetypedisplay9df2.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Wild Empathy; Favored Terrain; Hunter's Bond; Woodland Stride",
-		"replace_array": [
-			"Wild Empathy",
-			"Favored Terrain",
-			"Hunter's Bond",
-			"Woodland Stride"
-		],
-		"short_description": "Transporters specialize in smuggling people as efficiently as possible through harsh and difficult environments.",
 		"description": [
 			"## Transporter",
 			"",
@@ -2011,11 +1576,6 @@
 		"name": "Trapper",
 		"file": "archetypedisplay0a1c.html",
 		"sources": [],
-		"replaces": "Spells",
-		"replace_array": [
-			"Spellcasting"
-		],
-		"short_description": "A trapper is a ranger who focuses exclusively on traps, rather than learning conventional magic.",
 		"description": [
 			"## Trapper",
 			"",
@@ -2036,13 +1596,6 @@
 		"name": "Trophy Hunter",
 		"file": "archetypedisplayb7b7.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Wild Empathy; Combat Feat Style; Hunter's Bond",
-		"replace_array": [
-			"Wild Empathy",
-			"Combat Style Feats",
-			"Hunter's Bond"
-		],
-		"short_description": "Some rangers have taken up the mysteries of black powder in order to become big game hunters.",
 		"description": [
 			"## Trophy Hunter",
 			"",
@@ -2061,15 +1614,6 @@
 		"name": "Urban Ranger",
 		"file": "archetypedisplay36ef.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Favored Terrain; Endurance; Woodland Stride; Camouflage; Hide in Plain Sight",
-		"replace_array": [
-			"Favored Terrain",
-			"Endurance",
-			"Woodland Stride",
-			"Camouflage",
-			"Hide in Plain Sight"
-		],
-		"short_description": "For the urban ranger, the streets and sewers of the city are just as dangerous as the barren wastelands or the deep forests.",
 		"description": [
 			"## Urban Ranger",
 			"",
@@ -2098,14 +1642,6 @@
 		"name": "Warden",
 		"file": "archetypedisplay6e35.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Favored Enemy; Combat Style Feats; Hunter's Bond; Master Hunter",
-		"replace_array": [
-			"Favored Enemy",
-			"Combat Style Feats",
-			"Hunter's Bond",
-			"Master Hunter"
-		],
-		"short_description": "All rangers have a bond with the wilderness, but the warden may have the strongest. This protector sits guard in the middle of the wilderness, keeping a lookout for any dangers that might spill from the deeper wilderness beyond, and protecting civilization from the savagery of nature-and vice versa.",
 		"description": [
 			"## Warden",
 			"",
@@ -2128,15 +1664,6 @@
 		"name": "Wave Warden",
 		"file": "archetypedisplay6b65.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Track; Combat Style; Favored Terrain; Woodland Stride; Swift Tracker",
-		"replace_array": [
-			"Track",
-			"Combat Style Feats",
-			"Favored Terrain",
-			"Woodland Stride",
-			"Swift Tracker"
-		],
-		"short_description": "(Merfolk Only) The wave warden patrols beneath the sea, preserving the safety and secrets of merfolk communities.",
 		"description": [
 			"## Wave Warden",
 			"",
@@ -2159,13 +1686,6 @@
 		"name": "Wild Hunter",
 		"file": "archetypedisplay167a.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Favored Enemy; Woodland Stride; Swift Tracker",
-		"replace_array": [
-			"Favored Enemy",
-			"Woodland Stride",
-			"Swift Tracker"
-		],
-		"short_description": "A wild hunter seeks to emulate the animals around him to keep him safe while he tracks his prey.",
 		"description": [
 			"## Wild Hunter",
 			"",
@@ -2182,18 +1702,6 @@
 		"name": "Wild Shadow",
 		"file": "archetypedisplay026a.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Track; Wild Empathy; Favored Terrain; Hunter's Bond; Woodland Stride; Quarry; Camouflage; Improved Quarry",
-		"replace_array": [
-			"Track",
-			"Wild Empathy",
-			"Favored Terrain",
-			"Hunter's Bond",
-			"Woodland Stride",
-			"Quarry",
-			"Camouflage",
-			"Improved Quarry"
-		],
-		"short_description": "(Half-Elf Only) The isolation that some half-elves feel leads them to live a life of isolation amid the wild places of the world.",
 		"description": [
 			"## Wild Shadow",
 			"",
@@ -2220,16 +1728,6 @@
 		"name": "Wild Soul",
 		"file": "archetypedisplay68a7.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Code of Conduct; Favored Enemy; Swift Tracker; Quarry; Improved Quarry; Master Hunter",
-		"replace_array": [
-			"Code of Conduct",
-			"Favored Enemy",
-			"Swift Tracker",
-			"Quarry",
-			"Improved Quarry",
-			"Master Hunter"
-		],
-		"short_description": "Wild souls hail from primitive roots in the wild and venture to more civilized lands and learn their ways.",
 		"description": [
 			"## Wild Soul",
 			"",
@@ -2266,13 +1764,6 @@
 		"name": "Wild Stalker",
 		"file": "archetypedisplay07d7.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Favored Enemy; 2nd-level Combat Style Feat; Hunter's Bond",
-		"replace_array": [
-			"Favored Enemy",
-			"2nd-level Combat Style Feat",
-			"Hunter's Bond"
-		],
-		"short_description": "The wild stalker forsakes the bonds of community and lives in the trackless wilds far from others of his kind, or perhaps grew up there, never knowing of civilization as anything more than his enemy.",
 		"description": [
 			"## Wild Stalker",
 			"",
@@ -2295,17 +1786,6 @@
 		"name": "Wilderness Explorer",
 		"file": "archetypedisplayc8da.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Class Skills; Wild Empathy; Hunter's Bond; Swift Tracker; Favored Terrain; Quarry; Improved Quarry",
-		"replace_array": [
-			"Class Skills",
-			"Wild Empathy",
-			"Hunter's Bond",
-			"Swift Tracker",
-			"Favored Terrain",
-			"Quarry",
-			"Improved Quarry"
-		],
-		"short_description": "Wilderness explorers are adept at making peaceful contact with remote societies.",
 		"description": [
 			"## Wilderness Explorer",
 			"",
@@ -2344,15 +1824,6 @@
 		"name": "Wilderness Medic",
 		"file": "archetypedisplayf256.html",
 		"sources": [ "Healer's Handbook" ],
-		"replaces": "Wild Empathy; Endurance; Evasion; Hunter's Bond; Improved Evasion",
-		"replace_array": [
-			"Wild Empathy",
-			"Endurance",
-			"Evasion",
-			"Hunter's Bond",
-			"Improved Evasion"
-		],
-		"short_description": "Wilderness medics know a variety of ways they can supply and preserve a rebellion or similar movement without requiring any resources that might make them easier to track down.",
 		"description": [
 			"## Wilderness Medic",
 			"",
@@ -2383,15 +1854,6 @@
 		"name": "Witchguard",
 		"file": "archetypedisplay5a6a.html",
 		"sources": [ "People of the North" ],
-		"replaces": "Class Skills; Hunter's Bond; Endurance; Spells; Woodland Stride",
-		"replace_array": [
-			"Class Skills",
-			"Hunter's Bond",
-			"Endurance",
-			"Spellcasting",
-			"Woodland Stride"
-		],
-		"short_description": "Witchguards are the sworn defenders of the White Witches of Irrisen.",
 		"description": [
 			"## Witchguard",
 			"",
@@ -2416,13 +1878,6 @@
 		"name": "Yokai Hunter",
 		"file": "archetypedisplay4213.html",
 		"sources": [ "Dragon Empires Primer" ],
-		"replaces": "Favored Enemy; Woodland Stride; Camouflage",
-		"replace_array": [
-			"Favored Enemy",
-			"Woodland Stride",
-			"Camouflage"
-		],
-		"short_description": "Yokai hunters possess a supernatural tether to the spirit worlds that shroud mortal existence.",
 		"description": [
 			"## Yokai Hunter",
 			"",

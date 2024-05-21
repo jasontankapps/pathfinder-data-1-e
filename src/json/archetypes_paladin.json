@@ -4,12 +4,6 @@
 		"name": "Banishing Warden",
 		"file": "archetypedisplay71b7.html",
 		"sources": [ "Monster Hunter's Handbook" ],
-		"replaces": "Class Skills; 3rd-level Mercy",
-		"replace_array": [
-			"Class Skills",
-			"3rd-level Mercy"
-		],
-		"short_description": "The banishing warden is an expert at fighting all types of evil outsiders and sending them back to their native planes.",
 		"description": [
 			"## Banishing Warden",
 			"",
@@ -36,15 +30,6 @@
 		"name": "Champion of the Cascade",
 		"file": "archetypedisplay7c00.html",
 		"sources": [ "Wilderness Origins" ],
-		"replaces": "Armor Proficiency; Class Skills; Divine Health; Mercy; Divine Bond",
-		"replace_array": [
-			"Armor Proficiency",
-			"Class Skills",
-			"Divine Health",
-			"Mercy",
-			"Divine Bond"
-		],
-		"short_description": "Champions of the cascade are paladins who defend the freedom and purity of waterways, protecting the very existence of the civilizations they belong to.",
 		"description": [
 			"## Champion of the Cascade",
 			"",
@@ -79,13 +64,6 @@
 		"name": "Chaos Knight",
 		"file": "archetypedisplaya101.html",
 		"sources": [],
-		"replaces": "Lay on Hands; Mercy; Aura of Faith",
-		"replace_array": [
-			"Lay on Hands",
-			"Mercy",
-			"Aura of Faith"
-		],
-		"short_description": "(Ganzi only) Despite the entropic forces inherent in ganzis, some forgo a life of chaos, instead harnessing their heritage to enforce the power of law",
 		"description": [
 			"## Chaos Knight",
 			"",
@@ -119,16 +97,6 @@
 		"name": "Chosen One",
 		"file": "archetypedisplay8f08.html",
 		"sources": [ "Familiar Folio" ],
-		"replaces": "Divine Bond; Class Skills; Divine Grace; Smite Evil; Lay on Hands; Channel Positive Energy",
-		"replace_array": [
-			"Divine Bond",
-			"Class Skills",
-			"Divine Grace",
-			"Smite Evil",
-			"Lay on Hands",
-			"Channel Positive Energy"
-		],
-		"short_description": "Most paladins train for years at a temple to attain a holy status, but rarely, an emissary of the divine appears to one of humble origins and calls her directly to the charge.",
 		"description": [
 			"## Chosen One",
 			"",
@@ -155,13 +123,6 @@
 		"name": "Combat Healer Squire",
 		"file": "archetypedisplay106f.html",
 		"sources": [ "Knights of the Inner Sea" ],
-		"replaces": "Detect Evil; Divine Grace; Divine Health",
-		"replace_array": [
-			"Detect Evil",
-			"Divine Grace",
-			"Divine Health"
-		],
-		"short_description": "The combat healer squire is always ready with bandages and potions.",
 		"description": [
 			"## Combat Healer Squire",
 			"",
@@ -180,12 +141,6 @@
 		"name": "Divine Defender",
 		"file": "archetypedisplayca12.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Mercy; Divine Bond",
-		"replace_array": [
-			"Mercy",
-			"Divine Bond"
-		],
-		"short_description": "Some paladins see themselves as the last line of defense between the teeming hordes of evil and the innocent folk trying to make a living in a harsh, unforgiving world.",
 		"description": [
 			"## Divine Defender",
 			"",
@@ -204,14 +159,6 @@
 		"name": "Divine Guardian",
 		"file": "archetypedisplay360b.html",
 		"sources": [ "Cohorts and Companions" ],
-		"replaces": "Spellcasting; Detect Evil; Lay on Hands; Aura of Courage",
-		"replace_array": [
-			"Spellcasting",
-			"Detect Evil",
-			"Lay on Hands",
-			"Aura of Courage"
-		],
-		"short_description": "The divine guardian devotes herself to the protection and guardianship of one creature at a time, be that her liege lord, an allied cleric, or an innocent facing overwhelming danger at the hands of evil.",
 		"description": [
 			"## Divine Guardian",
 			"",
@@ -234,17 +181,6 @@
 		"name": "Divine Hunter",
 		"file": "archetypedisplay37d9.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Heavy Armor Proficiency; Aura of Courage; Divine Bond; 6th-level Mercy; Aura of Resolve; Aura of Justice; Aura of Righteousness",
-		"replace_array": [
-			"Heavy Armor Proficiency",
-			"Aura of Courage",
-			"Divine Bond",
-			"6th-level Mercy",
-			"Aura of Resolve",
-			"Aura of Justice",
-			"Aura of Righteousness"
-		],
-		"short_description": "The divine hunter prefers to engage evil from afar, striking down her foes before they can threaten her allies.",
 		"description": [
 			"## Divine Hunter",
 			"",
@@ -273,16 +209,6 @@
 		"name": "Dusk Knight",
 		"file": "archetypedisplay573f.html",
 		"sources": [ "Blood of Shadows" ],
-		"replaces": "Class Skills; Smite Evil; Channel Positive Energy; Divine Bond; Aura of Resolve; Aura of Justice",
-		"replace_array": [
-			"Class Skills",
-			"Smite Evil",
-			"Channel Positive Energy",
-			"Divine Bond",
-			"Aura of Resolve",
-			"Aura of Justice"
-		],
-		"short_description": "Some paladins focus their training to combat the shadows and use darkness to their advantage.",
 		"description": [
 			"## Dusk Knight",
 			"",
@@ -319,16 +245,6 @@
 		"name": "Empyreal Knight",
 		"file": "archetypedisplaydd0f.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Divine Grace; Mercy; Lay on Hands; Channel Positive Energy; Divine Bond; Holy Champion",
-		"replace_array": [
-			"Divine Grace",
-			"Mercy",
-			"Lay on Hands",
-			"Channel Positive Energy",
-			"Divine Bond",
-			"Holy Champion"
-		],
-		"short_description": "The empyreal knight dedicates her life to serving the celestial beings that guide mortals in their struggle toward the light.",
 		"description": [
 			"## Empyreal Knight",
 			"",
@@ -355,21 +271,6 @@
 		"name": "Faithful Wanderer",
 		"file": "archetypedisplay8512.html",
 		"sources": [ "People of the Wastes" ],
-		"replaces": "Class Skills; Detect Evil; Aura of Good; Aura of Justice; Aura of Courage; Aura of Resolve; Aura of Faith; Aura of Righteousness; Smite Evil; Divine Bond; Holy Champion",
-		"replace_array": [
-			"Class Skills",
-			"Detect Evil",
-			"Aura of Good",
-			"Aura of Justice",
-			"Aura of Courage",
-			"Aura of Resolve",
-			"Aura of Faith",
-			"Aura of Righteousness",
-			"Smite Evil",
-			"Divine Bond",
-			"Holy Champion"
-		],
-		"short_description": "A faithful wanderer is self-sufficient and unobtrusive and learns to pick her battles carefully, lest her mission end abruptly in a blaze of glory",
 		"description": [
 			"## Faithful Wanderer",
 			"",
@@ -398,17 +299,6 @@
 		"name": "Forest Preserver",
 		"file": "archetypedisplay8153.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Class Skills; Aura of Courage; Divine Health; Channel Positive Energy; Aura of Resolve; Aura of Justice; Aura of Faith",
-		"replace_array": [
-			"Class Skills",
-			"Aura of Courage",
-			"Divine Health",
-			"Channel Positive Energy",
-			"Aura of Resolve",
-			"Aura of Justice",
-			"Aura of Faith"
-		],
-		"short_description": "Forest preservers are sacred defenders of the woodlands and of the wild creatures and natural beauty within them.",
 		"description": [
 			"## Forest Preserver",
 			"",
@@ -451,16 +341,6 @@
 		"name": "Forgefather's Seeker",
 		"file": "archetypedisplayadc1.html",
 		"sources": [ "Construct Handbook" ],
-		"replaces": "Deity; Detect Evil; Smite Evil; Aura of Justice; Aura of Faith; Holy Champion",
-		"replace_array": [
-			"Deity",
-			"Detect Evil",
-			"Smite Evil",
-			"Aura of Justice",
-			"Aura of Faith",
-			"Holy Champion"
-		],
-		"short_description": "Torag sends his seekers to locate constructs that are used for evil or that become uncontrollable",
 		"description": [
 			"## Forgefather's Seeker",
 			"",
@@ -495,13 +375,6 @@
 		"name": "Ghost Hunter",
 		"file": "archetypedisplaycefd.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Smite Evil; 6th and 9th-level Mercy",
-		"replace_array": [
-			"Smite Evil",
-			"6th-level Mercy",
-			"9th-level Mercy"
-		],
-		"short_description": "Ghost hunters devote their lives to eliminating malevolent spirits and putting them to rest.",
 		"description": [
 			"## Ghost Hunter",
 			"",
@@ -520,22 +393,6 @@
 		"name": "Gray Paladin",
 		"file": "archetypedisplay4e66.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Alignment Restriction; Code of Conduct; Aura of Good; Class Skills; Smite Evil; Divine Grace; Aura of Courage; Aura of Resolve; Aura of Righteousness; Divine Health; Channel Positive Energy; Aura of Justice",
-		"replace_array": [
-			"Alignment Restriction",
-			"Code of Conduct",
-			"Aura of Good",
-			"Class Skills",
-			"Smite Evil",
-			"Divine Grace",
-			"Aura of Courage",
-			"Aura of Resolve",
-			"Aura of Righteousness",
-			"Divine Health",
-			"Channel Positive Energy",
-			"Aura of Justice"
-		],
-		"short_description": "Gray paladins have discovered that in a world of intrigue, a strict code of honor hinders their options",
 		"description": [
 			"## Gray Paladin",
 			"",
@@ -576,13 +433,6 @@
 		"name": "Holy Guide",
 		"file": "archetypedisplay8ce8.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Class Skills; 3rd and 6th-level Mercies",
-		"replace_array": [
-			"Class Skills",
-			"3rd-level Mercy",
-			"6th-level Mercy"
-		],
-		"short_description": "A holy guide believes that it's his sacred calling to clear the roads of bandits between towns as well as to escort travelers to safety.",
 		"description": [
 			"## Holy Guide",
 			"",
@@ -601,14 +451,6 @@
 		"name": "Holy Gun",
 		"file": "archetypedisplay8749.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Weapon/Armor Proficiency; Detect Evil; Smite Evil; Divine Bond",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Detect Evil",
-			"Smite Evil",
-			"Divine Bond"
-		],
-		"short_description": "Not all paladins are knights in shining armor. Holy guns roam the world searching for evil. And where they find it, they put it down.",
 		"description": [
 			"## Holy Gun",
 			"",
@@ -635,17 +477,6 @@
 		"name": "Holy Tactician",
 		"file": "archetypedisplayaf57.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Smite Evil; Divine Health; Divine Bond; Aura of Courage; Aura of Resolve; Aura of Justice; Holy Champion",
-		"replace_array": [
-			"Smite Evil",
-			"Divine Health",
-			"Divine Bond",
-			"Aura of Courage",
-			"Aura of Resolve",
-			"Aura of Justice",
-			"Holy Champion"
-		],
-		"short_description": "The holy tactician inspires her allies on the field of battle.",
 		"description": [
 			"## Holy Tactician",
 			"",
@@ -674,13 +505,6 @@
 		"name": "Hospitaler",
 		"file": "archetypedisplay8d5a.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Smite Evil; Channel Positive Energy; Aura of Justice",
-		"replace_array": [
-			"Smite Evil",
-			"Channel Positive Energy",
-			"Aura of Justice"
-		],
-		"short_description": "Paladins are known for their charity and for tending to the sick. The hospitaler takes to this calling above all others, spending much of her time healing the poor, and giving aid and succor to those in need.",
 		"description": [
 			"## Hospitaler",
 			"",
@@ -699,16 +523,6 @@
 		"name": "Hunting Paladin",
 		"file": "archetypedisplay0dce.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Class Skills; Armor Proficiencies; Smite Evil; Detect Evil; Spells; Aura of Resolve",
-		"replace_array": [
-			"Class Skills",
-			"Armor Proficiency",
-			"Smite Evil",
-			"Detect Evil",
-			"Spellcasting",
-			"Aura of Resolve"
-		],
-		"short_description": "Hunting paladins are tenacious trackers and stealthy stalkers in pursuit of evildoers.",
 		"description": [
 			"## Hunting Paladin",
 			"",
@@ -751,13 +565,6 @@
 		"name": "Invigorator",
 		"file": "archetypedisplayc64a.html",
 		"sources": [ "Healer's Handbook" ],
-		"replaces": "Smite Evil; Aura of Justice; Holy Champion",
-		"replace_array": [
-			"Smite Evil",
-			"Aura of Justice",
-			"Holy Champion"
-		],
-		"short_description": "Invigorators devote themselves to keeping their allies bodily whole by bolstering their health and spirits.",
 		"description": [
 			"## Invigorator",
 			"",
@@ -788,16 +595,6 @@
 		"name": "Iomedaen Enforcer",
 		"file": "archetypedisplayccd8.html",
 		"sources": [ "Divine Anthology" ],
-		"replaces": "Class Skills; Detect Evil; Smite Evil; Aura of Faith; Aura of Righteousness; Holy Champion",
-		"replace_array": [
-			"Class Skills",
-			"Detect Evil",
-			"Smite Evil",
-			"Aura of Faith",
-			"Aura of Righteousness",
-			"Holy Champion"
-		],
-		"short_description": "Iomedaean enforcers have altered abilities that allow them to stand against the forces of chaos.",
 		"description": [
 			"## Iomedaen Enforcer",
 			"",
@@ -830,19 +627,6 @@
 		"name": "Iroran Paladin",
 		"file": "archetypedisplay6a62.html",
 		"sources": [ "Inner Sea Combat" ],
-		"replaces": "Class Skills; Weapon/Armor Proficiency; Aura of Good; Detect Evil; Smite Evil; Aura of Courage; Channel Positive Energy; Divine Bond; Aura of Justice",
-		"replace_array": [
-			"Class Skills",
-			"Weapon/Armor Proficiency",
-			"Aura of Good",
-			"Detect Evil",
-			"Smite Evil",
-			"Aura of Courage",
-			"Channel Positive Energy",
-			"Divine Bond",
-			"Aura of Justice"
-		],
-		"short_description": "Iroran paladins meditate on self-perfection and train relentlessly, knowing that their example can inspire others to excel.",
 		"description": [
 			"## Iroran Paladin",
 			"",
@@ -875,16 +659,6 @@
 		"name": "Knight of Coins",
 		"file": "archetypedisplay86e1.html",
 		"sources": [ "Merchant's Manifest" ],
-		"replaces": "Class Skills; Skill Ranks; Detect Evil; 3rd, 9th, 15th-level Mercy",
-		"replace_array": [
-			"Class Skills",
-			"Skill Ranks",
-			"Detect Evil",
-			"3rd-level Mercy",
-			"9th-level Mercy",
-			"15th-level Mercy"
-		],
-		"short_description": "Knights of coins promote fair trade and stable commerce between cities and between nations.",
 		"description": [
 			"## Knight of Coins",
 			"",
@@ -923,14 +697,6 @@
 		"name": "Kraken Slayer",
 		"file": "archetypedisplay4a4e.html",
 		"sources": [ "Blood of the Sea" ],
-		"replaces": "Smite Evil; Divine Health; Divine Bond; Aura of Faith",
-		"replace_array": [
-			"Smite Evil",
-			"Divine Health",
-			"Divine Bond",
-			"Aura of Faith"
-		],
-		"short_description": "Triton kraken slayers oppose all underwater threats, but they especially target the tentacled monstrosities called krakens.",
 		"description": [
 			"## Kraken Slayer",
 			"",
@@ -959,11 +725,6 @@
 		"name": "Legate",
 		"file": "archetypedisplay0f88.html",
 		"sources": [ "Armor Master's Handbook" ],
-		"replaces": "Mercy",
-		"replace_array": [
-			"Mercy"
-		],
-		"short_description": "Though they hold to the same strict paladin code, legates present themselves not as armed crusaders, but as peaceful envoys and advisors, bringing wisdom garnered from the long, stable history of their nation.",
 		"description": [
 			"## Legate",
 			"",
@@ -980,18 +741,6 @@
 		"name": "Martyr",
 		"file": "archetypedisplay4edd.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Smite Evil; Divine Grace; Aura of Courage; Aura of Resolve; Aura of Righteousness; Divine Health; Lay on Hands; Mercy",
-		"replace_array": [
-			"Smite Evil",
-			"Divine Grace",
-			"Aura of Courage",
-			"Aura of Resolve",
-			"Aura of Righteousness",
-			"Divine Health",
-			"Lay on Hands",
-			"Mercy"
-		],
-		"short_description": "Martyrs shoulder the blackest suffering of the world onto themselves in order to help others and inspiring their allies to achieve heights of valor rather than seeking the glory for themselves.",
 		"description": [
 			"## Martyr",
 			"",
@@ -1024,13 +773,6 @@
 		"name": "Mind Sword",
 		"file": "archetypedisplayf5cd.html",
 		"sources": [ "Occult Origins" ],
-		"replaces": "Lay on Hands; Mercy; Channel Positive Energy",
-		"replace_array": [
-			"Lay on Hands",
-			"Mercy",
-			"Channel Positive Energy"
-		],
-		"short_description": "Veterans of mystical battles against demons of the Worldwound, mind swords merge psychic and divine power, probing and cleansing minds while their telekinetic blades cleave demonic flesh.",
 		"description": [
 			"## Mind Sword",
 			"",
@@ -1049,18 +791,6 @@
 		"name": "Pearl Seeker",
 		"file": "archetypedisplay1d6b.html",
 		"sources": [ "Aquatic Adventures" ],
-		"replaces": "Armor Proficiency; Class Skills; Detect Evil; Aura of Courage; Aura of Resolve; Spells; Divine Bond; Channel Energy",
-		"replace_array": [
-			"Armor Proficiency",
-			"Class Skills",
-			"Detect Evil",
-			"Aura of Courage",
-			"Aura of Resolve",
-			"Spellcasting",
-			"Divine Bond",
-			"Channel Positive Energy"
-		],
-		"short_description": "Some paladins are called to their faith by strange empathic visions and dreams that beckon them to the oceans and beyond.",
 		"description": [
 			"## Pearl Seeker",
 			"",
@@ -1095,14 +825,6 @@
 		"name": "Redeemer",
 		"file": "archetypedisplay4d1a.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Smite Evil; Detect Evil; Aura of Resolve; Aura of Justice",
-		"replace_array": [
-			"Smite Evil",
-			"Detect Evil",
-			"Aura of Resolve",
-			"Aura of Justice"
-		],
-		"short_description": "(Half-Orc Only) As most half-orcs are outcasts, a half-orc paladin recognizes that often those who are monstrous are not necessarily evil and that sometimes even those who are evil became that way because of circumstances and misfortune.",
 		"description": [
 			"## Redeemer",
 			"",
@@ -1125,13 +847,6 @@
 		"name": "Sacred Servant",
 		"file": "archetypedisplay6fe6.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Smite Evil; Divine Bond; Aura of Resolve",
-		"replace_array": [
-			"Smite Evil",
-			"Divine Bond",
-			"Aura of Resolve"
-		],
-		"short_description": "Paladins as a general rule, venerate the gods of good and purity, but some take this a step further, dedicating themselves to a specific deity and furthering the cause of the faith.",
 		"description": [
 			"## Sacred Servant",
 			"",
@@ -1154,15 +869,6 @@
 		"name": "Sacred Shield",
 		"file": "archetypedisplay7976.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Smite Evil; Channel Positive Energy; Divine Bond; Aura of Justice; Holy Champion",
-		"replace_array": [
-			"Smite Evil",
-			"Channel Positive Energy",
-			"Divine Bond",
-			"Aura of Justice",
-			"Holy Champion"
-		],
-		"short_description": "When faced by evil, the sacred shield reaches first not for a weapon, but for her trusty shield. With her faith, she can ward others from harm.",
 		"description": [
 			"## Sacred Shield",
 			"",
@@ -1187,15 +893,6 @@
 		"name": "Scion of Talmandor",
 		"file": "archetypedisplay4abf.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Class Skills; Divine Grace; Divine Bond; Aura of Resolve; Aura of Justice",
-		"replace_array": [
-			"Class Skills",
-			"Divine Grace",
-			"Divine Bond",
-			"Aura of Resolve",
-			"Aura of Justice"
-		],
-		"short_description": "A scion of Talmandor serve by offering assistance to the oppressed and facilitating the peaceful transfer of power from the few to the many.",
 		"description": [
 			"## Scion of Talmandor",
 			"",
@@ -1230,12 +927,6 @@
 		"name": "Shining Knight",
 		"file": "archetypedisplay3d2b.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Divine Health; Aura of Justice",
-		"replace_array": [
-			"Divine Health",
-			"Aura of Justice"
-		],
-		"short_description": "While paladins often are seen mounted atop a loyal steed, the shining knight is the true symbol of mounted bravery.",
 		"description": [
 			"## Shining Knight",
 			"",
@@ -1254,15 +945,6 @@
 		"name": "Silver Champion",
 		"file": "archetypedisplay1358.html",
 		"sources": [ "Legacy of Dragons" ],
-		"replaces": "Divine Bond; Channel Energy; Aura of Justice; Aura of Righteousness; Spells",
-		"replace_array": [
-			"Divine Bond",
-			"Channel Positive Energy",
-			"Aura of Justice",
-			"Aura of Righteousness",
-			"Spellcasting"
-		],
-		"short_description": "Drake-riding paladins who serve as priests of Apsu.",
 		"description": [
 			"## Silver Champion",
 			"",
@@ -1291,13 +973,6 @@
 		"name": "Soul Sentinel",
 		"file": "archetypedisplayc9dc.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "6th, 12th-level Mercy; Aura of Justice",
-		"replace_array": [
-			"6th-level Mercy",
-			"12th-level Mercy",
-			"Aura of Justice"
-		],
-		"short_description": "Soul sentinels use the strength of their resolve to stem the tide of corruption and insanity, as they believe that the greatest tragedy is a soul lost to evil when it was within their power to save it.",
 		"description": [
 			"## Soul Sentinel",
 			"",
@@ -1322,22 +997,6 @@
 		"name": "Stonelord",
 		"file": "archetypedisplay99e0.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Smite Evil; Divine Grace; 3rd, 9th, 12th, 15th, 18th-level Mercies; Spells; Channel Positive Energy; Divine Bond; Aura of Justice; Holy Champion",
-		"replace_array": [
-			"Smite Evil",
-			"Divine Grace",
-			"3rd-level Mercy",
-			"9th-level Mercy",
-			"12th-level Mercy",
-			"15th-level Mercy",
-			"18th-level Mercy",
-			"Spellcasting",
-			"Channel Positive Energy",
-			"Divine Bond",
-			"Aura of Justice",
-			"Holy Champion"
-		],
-		"short_description": "(Dwarf Only) A stonelord is a devoted sentinel of dwarven enclaves, drawing the power of the earth and ancient stone to protect her people.",
 		"description": [
 			"## Stonelord",
 			"",
@@ -1370,13 +1029,6 @@
 		"name": "Sword of Valor",
 		"file": "archetypedisplay41c9.html",
 		"sources": [ "Inner Sea Magic" ],
-		"replaces": "Divine Grace; 6th-level Mercy; Aura of Justice",
-		"replace_array": [
-			"Divine Grace",
-			"6th-level Mercy",
-			"Aura of Justice"
-		],
-		"short_description": "A paladin who chooses to follow in Iomedae's footsteps can become a sword of valor.",
 		"description": [
 			"## Sword of Valor",
 			"",
@@ -1397,11 +1049,6 @@
 		"name": "Tempered Champion",
 		"file": "archetypedisplayc81c.html",
 		"sources": [ "Weapon Master's Handbook" ],
-		"replaces": "Spellcasting",
-		"replace_array": [
-			"Spellcasting"
-		],
-		"short_description": "Tempered champions are trained in the Tempering Hall in Absalom to master their deities' favored weapons.",
 		"description": [
 			"## Tempered Champion",
 			"",
@@ -1420,13 +1067,6 @@
 		"name": "Temple Champion",
 		"file": "archetypedisplay7833.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Spells; Divine Bond; Aura of Justice",
-		"replace_array": [
-			"Spellcasting",
-			"Divine Bond",
-			"Aura of Justice"
-		],
-		"short_description": "A temple champion is a powerful warrior dedicated to a good or lawful deity. She thinks of herself primarily as a servant of her deity and secondarily as an agent of her deity's church.",
 		"description": [
 			"## Temple Champion",
 			"",
@@ -1445,25 +1085,6 @@
 		"name": "Tortured Crusader",
 		"file": "archetypedisplay59e3.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Key Ability Score; Skills; Detect Evil; Divine Grace; Smite Evil; Lay on Hands; Channel Energy; Divine Bond; Aura of Courage; Aura of Resolve; Aura of Faith; Aura of Righteousness; Aura of Justice ; Lay on Hands",
-		"replace_array": [
-			"Key Ability Score",
-			"Class Skills",
-			"Skill Ranks",
-			"Detect Evil",
-			"Divine Grace",
-			"Smite Evil",
-			"Lay on Hands",
-			"Channel Positive Energy",
-			"Divine Bond",
-			"Aura of Courage",
-			"Aura of Resolve",
-			"Aura of Faith",
-			"Aura of Righteousness",
-			"Aura of Justice",
-			"Lay on Hands"
-		],
-		"short_description": "Though tortured crusaders may be beaten and battered, body, mind, and soul, they still somehow continue through torment and hardship. Despite setbacks and impossible odds, they shine like candles even in the darkest times",
 		"description": [
 			"## Tortured Crusader",
 			"",
@@ -1500,16 +1121,6 @@
 		"name": "Tranquil Guardian",
 		"file": "archetypedisplay3cd3.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Smite Evil; Aura of Courage; Divine Bond; Aura of Resolve; Aura of Justice; Holy Champion",
-		"replace_array": [
-			"Smite Evil",
-			"Aura of Courage",
-			"Divine Bond",
-			"Aura of Resolve",
-			"Aura of Justice",
-			"Holy Champion"
-		],
-		"short_description": "(Aasimar Only) A tranquil guardian is a missionary of peace and tranquility, a soothing voice of succor in a violent and dangerous world.",
 		"description": [
 			"## Tranquil Guardian",
 			"",
@@ -1536,12 +1147,6 @@
 		"name": "Undead Scourge",
 		"file": "archetypedisplay8c78.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Aura of Resolve; Aura of Justice",
-		"replace_array": [
-			"Aura of Resolve",
-			"Aura of Justice"
-		],
-		"short_description": "Undead are an abomination in the eyes of the just and righteous. It is no surprise then that there are some paladins that dedicate themselves to wiping these unholy terrors from the world.",
 		"description": [
 			"## Undead Scourge",
 			"",
@@ -1560,23 +1165,6 @@
 		"name": "Vindictive Bastard",
 		"file": "archetypedisplay9d9d.html",
 		"sources": [ "Antihero's Handbook" ],
-		"replaces": "Aura; Detect Evil; Smite Evil; Divine Grace; Lay on Hands; Divine Health; Mercy; Channel Energy; Divine Bond; Aura of Justice; Aura of Faith; Aura of Righteousness; Holy Champion",
-		"replace_array": [
-			"Aura of Good",
-			"Detect Evil",
-			"Smite Evil",
-			"Divine Grace",
-			"Lay on Hands",
-			"Divine Health",
-			"Mercy",
-			"Channel Positive Energy",
-			"Divine Bond",
-			"Aura of Justice",
-			"Aura of Faith",
-			"Aura of Righteousness",
-			"Holy Champion"
-		],
-		"short_description": "{Ex-paladin archetype) A vindictive bastard is a paladin that strikes out for retribution and revenge, far more interested in tearing down those who have harmed her or her companions than furthering a distant deity's cause.",
 		"description": [
 			"## Vindictive Bastard",
 			"",
@@ -1643,14 +1231,6 @@
 		"name": "Virtuous Bravo",
 		"file": "archetypedisplay33b8.html",
 		"sources": [ "Heroes of the High Court" ],
-		"replaces": "Armor Proficiency; Smite Evil; Mercy; Spellcasting",
-		"replace_array": [
-			"Armor Proficiency",
-			"Smite Evil",
-			"Mercy",
-			"Spellcasting"
-		],
-		"short_description": "Virtuous bravos rely on their wit and grace rather than might and strong armor.",
 		"description": [
 			"## Virtuous Bravo",
 			"",
@@ -1689,12 +1269,6 @@
 		"name": "Warrior of the Holy Light",
 		"file": "archetypedisplayb4df.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Spellcasting; Aura of Faith",
-		"replace_array": [
-			"Spellcasting",
-			"Aura of Faith"
-		],
-		"short_description": "Some paladins use their gifts to focus on the holy light that shines within their souls.",
 		"description": [
 			"## Warrior of the Holy Light",
 			"",
@@ -1721,20 +1295,6 @@
 		"name": "Wilderness Warden",
 		"file": "archetypedisplay44e1.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Class Skills; Divine Grace; Smite Evil; Aura of Courage; 3rd, 9th, 15th-level Mercy; Spells; Aura of Resolve; Aura of Justice",
-		"replace_array": [
-			"Class Skills",
-			"Divine Grace",
-			"Smite Evil",
-			"Aura of Courage",
-			"3rd-level Mercy",
-			"9th-level Mercy",
-			"15th-level Mercy",
-			"Spellcasting",
-			"Aura of Resolve",
-			"Aura of Justice"
-		],
-		"short_description": "Wilderness wardens are vigilant guardians of natural places of all kinds, from mountain peaks to tangled thickets.",
 		"description": [
 			"## Wilderness Warden",
 			"",

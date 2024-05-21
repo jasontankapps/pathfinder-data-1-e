@@ -4,13 +4,6 @@
 		"name": "Alley Witch",
 		"file": "archetypedisplay20d3.html",
 		"sources": [ "Heroes of the Streets" ],
-		"replaces": "Familiar; 1st and 6th-level Hexes",
-		"replace_array": [
-			"Familiar",
-			"1st-level Hex",
-			"6th-level Hex"
-		],
-		"short_description": "Some witches find their spark of magic in the long, dark shadows and forgotten places within the city.",
 		"description": [
 			"## Alley Witch",
 			"",
@@ -35,13 +28,6 @@
 		"name": "Ashiftah",
 		"file": "archetypedisplaye99a.html",
 		"sources": [ "Qadira, Jewel of the East" ],
-		"replaces": "Familiar; 2nd, 6th-level Hex",
-		"replace_array": [
-			"Familiar",
-			"2nd-level Hex",
-			"6th-level Hex"
-		],
-		"short_description": "Known in Taldane as a \"battle witch,\" an ashiftah drifts like a phantom among the enemy armies, calling down disaster upon their heads and weakening their resolve.",
 		"description": [
 			"## Ashiftah",
 			"",
@@ -68,13 +54,6 @@
 		"name": "Beast-Bonded",
 		"file": "archetypedisplay40dc.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "4th-level Hex; 8th-level Hex; 10th-level Major Hex",
-		"replace_array": [
-			"4th-level Hex",
-			"8th-level Hex",
-			"10th-level Hex"
-		],
-		"short_description": "While all witches are intimately tied to their familiars, a beast-bonded witch's craft focuses specifically on her familiar bond and developing the relationship with her patron through her familiar.",
 		"description": [
 			"## Beast-Bonded",
 			"",
@@ -101,11 +80,6 @@
 		"name": "Bonded Witch",
 		"file": "archetypedisplay9788.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Familiar",
-		"replace_array": [
-			"Familiar"
-		],
-		"short_description": "(Half-Elf Only) While all witches commune with the unknown, the blend of human ingenuity and adept learning mixed with elven blood gives some half-elves a unique conduit to channel the powers of the arcane.",
 		"description": [
 			"## Bonded Witch",
 			"",
@@ -136,14 +110,6 @@
 		"name": "Bouda",
 		"file": "archetypedisplay8401.html",
 		"sources": [ "Monster Codex" ],
-		"replaces": "Alignment; Familiar; 1st-level Hex; 10-level Major Hex",
-		"replace_array": [
-			"Alignment",
-			"Familiar",
-			"1st-level Hex",
-			"10th-level Hex"
-		],
-		"short_description": "These strange and often solitary witches have a strong connection to curses, the evil eye, and hyenas.",
 		"description": [
 			"## Bouda",
 			"",
@@ -174,12 +140,6 @@
 		"name": "Cartomancer",
 		"file": "archetypedisplay0944.html",
 		"sources": [ "The Harrow Handbook" ],
-		"replaces": "Familiar; 2nd-level Hex",
-		"replace_array": [
-			"Familiar",
-			"2nd-level Hex"
-		],
-		"short_description": "A witch who serves the spirits of the harrow in exchange for mystical power is known as a cartomancer.",
 		"description": [
 			"## Cartomancer",
 			"",
@@ -206,13 +166,6 @@
 		"name": "Coral Witch",
 		"file": "archetypedisplay4478.html",
 		"sources": [ "Blood of the Sea" ],
-		"replaces": "Patron; Familiar; 8th-level Hex",
-		"replace_array": [
-			"Patron",
-			"Familiar",
-			"8th-level Hex"
-		],
-		"short_description": "Coral witches use their magic to fashion familiars from living coral and emulate the unyielding tenacity of these durable marine organisms.",
 		"description": [
 			"## Coral Witch",
 			"",
@@ -245,12 +198,6 @@
 		"name": "Demon-Sworn",
 		"file": "archetypedisplay949c.html",
 		"sources": [ "Heroes of the Darklands" ],
-		"replaces": "Patron Spells; 6th-level Hex",
-		"replace_array": [
-			"Patron Spells",
-			"6th-level Hex"
-		],
-		"short_description": "In the depths of the Darklands, as well as similarly inhospitable locales on Golarion, many seek the succor of demons as a means of survival.",
 		"description": [
 			"## Demon-Sworn",
 			"",
@@ -279,13 +226,6 @@
 		"name": "Dimensional Occultist",
 		"file": "archetypedisplay843f.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
-		"replaces": "2nd-level Hex, 8th-level Hex, 12th-level Hex",
-		"replace_array": [
-			"2nd-level Hex",
-			"8th-level Hex",
-			"12th-level Hex"
-		],
-		"short_description": "The dimensional occultist sacrifices some of her mastery over hexes in return for much increased planar lore.",
 		"description": [
 			"## Dimensional Occultist",
 			"",
@@ -306,15 +246,6 @@
 		"name": "Dreamweaver",
 		"file": "archetypedisplayb621.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Class Skills; Patron Spells; 2nd, 6th, 10th-level Hexes",
-		"replace_array": [
-			"Class Skills",
-			"Patron Spells",
-			"2nd-level Hex",
-			"6th-level Hex",
-			"10th-level Hex"
-		],
-		"short_description": "(Changeling Only) A changeling dreamweaver draws upon her hag heritage to ply the dream realms in order to touch mortal minds and souls, for good or ill.",
 		"description": [
 			"## Dreamweaver",
 			"",
@@ -345,19 +276,6 @@
 		"name": "Flood Walker",
 		"file": "archetypedisplay5ef5.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Alignment; Class Skills; 4th, 10th, 16th, 18th-level Patron Spells; 1st, 6th, 10th-level Hex",
-		"replace_array": [
-			"Alignment",
-			"Class Skills",
-			"4th-level Patron Spell",
-			"10th-level Patron Spell",
-			"16th-level Patron Spell",
-			"18th-level Patron Spell",
-			"1st-level Hex",
-			"6th-level Hex",
-			"10th-level Hex"
-		],
-		"short_description": "Witches who dwell in floodplains or along the banks of predictably dangerous rivers can tap into the underlying potential of surging waters in order to enhance their eerie powers.",
 		"description": [
 			"## Flood Walker",
 			"",
@@ -398,17 +316,6 @@
 		"name": "Gingerbread Witch",
 		"file": "archetypedisplay35c0.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Familiar; 1st, 4th, 8th, 10th, 12th, 16th-level Hex",
-		"replace_array": [
-			"Familiar",
-			"1st-level Hex",
-			"4th-level Hex",
-			"8th-level Hex",
-			"10th-level Hex",
-			"12th-level Hex",
-			"16th-level Hex"
-		],
-		"short_description": "A sweet tooth lures the gingerbread witch's victims to doom.",
 		"description": [
 			"## Gingerbread Witch",
 			"",
@@ -449,15 +356,6 @@
 		"name": "Gravewalker",
 		"file": "archetypedisplay0a40.html",
 		"sources": [],
-		"replaces": "Patron Spells; Familiar; 1st-level Hex; 4th-level Hex; 8th-level Hex",
-		"replace_array": [
-			"Patron Spells",
-			"Familiar",
-			"1st-level Hex",
-			"4th-level Hex",
-			"8th-level Hex"
-		],
-		"short_description": "Having much in common with necromancers, the gravewalker is obsessed with the occult manipulations of the dead, particularly mindless undead such as zombies.",
 		"description": [
 			"## Gravewalker",
 			"",
@@ -488,15 +386,6 @@
 		"name": "Hag of Gyronna",
 		"file": "archetypedisplayad6f.html",
 		"sources": [ "People of the River" ],
-		"replaces": "Patron; Spells; 2nd, 8th, 12th-level Hexes",
-		"replace_array": [
-			"Patron",
-			"Patron Spells",
-			"2nd-level Hex",
-			"8th-level Hex",
-			"12th-level Hex"
-		],
-		"short_description": "Only female witches dare dedicate themselves to the Angry Hag, and those who do so are feared for their ability to bend minds and sow discord.",
 		"description": [
 			"## Hag of Gyronna",
 			"",
@@ -519,18 +408,6 @@
 		"name": "Hagbound",
 		"file": "archetypedisplay2cfd.html",
 		"sources": [ "Blood of the Coven" ],
-		"replaces": "1st, 2nd, 4th, 8th, 10th, 12th, 14th, and 20th-level Hexes",
-		"replace_array": [
-			"1st-level Hex",
-			"2nd-level Hex",
-			"4th-level Hex",
-			"8th-level Hex",
-			"10th-level Hex",
-			"12th-level Hex",
-			"14th-level Hex",
-			"20th-level Hex"
-		],
-		"short_description": "Whether a changeling in the process of succumbing to her mother's call, a witch cursed by a hag to become her instrument of torment, a vain and petty witch overeager for power, or some other unfortunate soul, a hagbound witch finds its soul has been infected by a hag's spite and powerful, corrupt arcane magic.",
 		"description": [
 			"## Hagbound",
 			"",
@@ -565,11 +442,6 @@
 		"name": "Havocker",
 		"file": "archetypedisplay948d-2.html",
 		"sources": [ "Magic Tactics Toolbox" ],
-		"replaces": "Hexes",
-		"replace_array": [
-			"Hexes"
-		],
-		"short_description": "Although most witches are guided to subtle curses and debilitating hexes by their mysterious patrons, some are instead taught the secrets of harnessing raw, destructive elemental power.",
 		"description": [
 			"## Havocker",
 			"",
@@ -592,12 +464,6 @@
 		"name": "Hedge Witch",
 		"file": "archetypedisplay8a35.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "4th-level Hex; 8th-level Hex",
-		"replace_array": [
-			"4th-level Hex",
-			"8th-level Hex"
-		],
-		"short_description": "Among witches, there are those who devote themselves to the care of others and restrict their practices to the healing arts.",
 		"description": [
 			"## Hedge Witch",
 			"",
@@ -625,14 +491,6 @@
 			"Ultimate Wilderness",
 			"Heroes of the Wild"
 		],
-		"replaces": "Patron; 1st, 2nd, 10th-level Hex",
-		"replace_array": [
-			"Patron",
-			"1st-level Hex",
-			"2nd-level Hex",
-			"10th-level Hex"
-		],
-		"short_description": "Herb witches brew foul-tasting medicines, sweet poisons, and other concoctions from the untamed plants of the wild.",
 		"description": [
 			"## Herb Witch",
 			"",
@@ -667,11 +525,6 @@
 		"name": "Hex Channeler",
 		"file": "archetypedisplayb4c7.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "2nd-level Hex",
-		"replace_array": [
-			"2nd-level Hex"
-		],
-		"short_description": "A hex channeler is a witch who devotes herself to either life-healing the wounded and destroying the undead-or death, slaying the living and aiding undead.",
 		"description": [
 			"## Hex Channeler",
 			"",
@@ -696,14 +549,6 @@
 		"name": "Invoker",
 		"file": "archetypedisplay8939.html",
 		"sources": [ "Haunted Heroes Handbook" ],
-		"replaces": "1st, 8th, 10th, and 16th level Hex",
-		"replace_array": [
-			"1st-level Hex",
-			"8th-level Hex",
-			"10th-level Hex",
-			"16th-level Hex"
-		],
-		"short_description": "The invoker uses her familiar to summon facets of her mysterious patron directly into her body, enhancing her skills and granting her powerful abilities.",
 		"description": [
 			"## Invoker",
 			"",
@@ -744,14 +589,6 @@
 		"name": "Jinx Witch",
 		"file": "archetypedisplay507c.html",
 		"sources": [ "Blood of the Beast" ],
-		"replaces": "Class Skills; 2nd, 6th, 10th-level Hex",
-		"replace_array": [
-			"Class Skills",
-			"2nd-level Hex",
-			"6th-level Hex",
-			"10th-level Hex"
-		],
-		"short_description": " Jinx witches specialize in calling down subtle misfortunes and deceiving enemies and allies alike. While they lack any ability to truly eliminate bad luck, they are uniquely gifted at making others believe otherwise.",
 		"description": [
 			"## Jinx Witch",
 			"",
@@ -788,14 +625,6 @@
 		"name": "Ley Line Guardian",
 		"file": "archetypedisplayb64f.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Spellcasting; Familiar; 1st and 8th-level Hexes",
-		"replace_array": [
-			"Spellcasting",
-			"Familiar",
-			"1st-level Hex",
-			"8th-level Hex"
-		],
-		"short_description": "Some witches tap into the power of their patrons not through a special connection with a familiar, but rather directly through the vast network of ley lines that crosses the planes.",
 		"description": [
 			"## Ley Line Guardian",
 			"",
@@ -814,14 +643,6 @@
 		"name": "Medium",
 		"file": "archetypedisplayd60c.html",
 		"sources": [ "Undead Slayer's Handbook" ],
-		"replaces": "Patron; 2nd, 6th, 20th-level Hexes",
-		"replace_array": [
-			"Patron",
-			"2nd-level Hex",
-			"6th-level Hex",
-			"20th-level Hex"
-		],
-		"short_description": "Mediums tap into the spiritual power of those who have yet to find their final rest. Their ability to interact with these souls allows mediums to learn about the physical world through the experiences of those who came before them.",
 		"description": [
 			"## Medium",
 			"",
@@ -848,11 +669,6 @@
 		"name": "Mirror Witch",
 		"file": "archetypedisplay8419.html",
 		"sources": [],
-		"replaces": "Familiar",
-		"replace_array": [
-			"Familiar"
-		],
-		"short_description": "Mirror witches eschew animal familiars and isntead talk to their patrons via mirror magic",
 		"description": [
 			"## Mirror Witch",
 			"",
@@ -913,13 +729,6 @@
 		"name": "Mountain Witch",
 		"file": "archetypedisplay4b93.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Spells; Hex; 2nd-level Hex",
-		"replace_array": [
-			"Patron Spells",
-			"Add Hexes",
-			"2nd-level Hex"
-		],
-		"short_description": "Mountains can be sanctuaries for witches hunted by society. Here they form bonds with the spirits of the lofty reaches.",
 		"description": [
 			"## Mountain Witch",
 			"",
@@ -944,12 +753,6 @@
 		"name": "Nexian Spellspy",
 		"file": "archetypedisplay622b.html",
 		"sources": [ "Inner Sea Intrigue" ],
-		"replaces": "Deliver Touch Spells; 4th-level Hex",
-		"replace_array": [
-			"Deliver Touch Spells",
-			"4th-level Hex"
-		],
-		"short_description": "Nexian spellspies are witches who use their familiars and divining talents to spy on their rivals and protect themselves from similar intrusions.",
 		"description": [
 			"## Nexian Spellspy",
 			"",
@@ -982,14 +785,6 @@
 		"name": "Pact Witch",
 		"file": "archetypedisplayef49.html",
 		"sources": [],
-		"replaces": "Alignment; Patron; Familiar; 6th-level Hex",
-		"replace_array": [
-			"Alignment",
-			"Patron",
-			"Familiar",
-			"6th-level Hex"
-		],
-		"short_description": "Though all witches forge bonds with mysterious powers known as patrons, a pact witch takes this bond to an extreme by forging an inexorable pact with the Outer Planes.",
 		"description": [
 			"## Pact Witch",
 			"",
@@ -1043,12 +838,6 @@
 		"name": "Patron Familiars",
 		"file": "archetypedisplayc3c2.html",
 		"sources": [ "Familiar Folio" ],
-		"replaces": "(N/A; not technically an archetype, affects the familiar's owner) Spells",
-		"replace_array": [
-			"Familiar",
-			"Patron Spells"
-		],
-		"short_description": "Witches' familiars are often tied to their patrons, enhancing and reinforcing the spellcasters' connections to the sources of their magical might.",
 		"description": [
 			"## Patron Familiars",
 			"",
@@ -1085,18 +874,6 @@
 		"name": "Putrefactor",
 		"file": "archetypedisplay09ed.html",
 		"sources": [ "Blood of the Coven" ],
-		"replaces": "Familiar; Patron; 1st, 2nd, 4th, 6th, 10th, and 16th-level Hexes",
-		"replace_array": [
-			"Familiar",
-			"Patron",
-			"1st-level Hex",
-			"2nd-level Hex",
-			"4th-level Hex",
-			"6th-level Hex",
-			"10th-level Hex",
-			"16th-level Hex"
-		],
-		"short_description": "Some witches find their patrons while in the throes of despair and grief, when all they desire is to see the veneer of civilization peel back to reveal the filth and rot that underlies all things.",
 		"description": [
 			"## Putrefactor",
 			"",
@@ -1129,12 +906,6 @@
 		"name": "Rhetorician",
 		"file": "archetypedisplaya964.html",
 		"sources": [ "Arcane Anthology" ],
-		"replaces": "1st-level Hex; Spells",
-		"replace_array": [
-			"1st-level Hex",
-			"Patron Spells"
-		],
-		"short_description": "Rhetoricians feel driven to engage in debate, learn as much as they can about their potential foes, and seek ways to use information and quick talking to handle problems before resorting to raw violence.",
 		"description": [
 			"## Rhetorician",
 			"",
@@ -1153,14 +924,6 @@
 		"name": "Scarred Witch Doctor",
 		"file": "archetypedisplay31b3.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Spellcasting; Hexes; Familiar; 1st-level Hex",
-		"replace_array": [
-			"Spellcasting",
-			"Hexes",
-			"Familiar",
-			"1st-level Hex"
-		],
-		"short_description": "(Orc Only) The scarred witch doctor draws power from her ability to endure pain and suffering.",
 		"description": [
 			"## Scarred Witch Doctor",
 			"",
@@ -1193,12 +956,6 @@
 		"name": "Sea Witch",
 		"file": "archetypedisplaycbe1.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Patron Spells; 1st-level Hex",
-		"replace_array": [
-			"Patron Spells",
-			"1st-level Hex"
-		],
-		"short_description": "A sea witch's affinities are tied to the vast oceans and the rolling waves.",
 		"description": [
 			"## Sea Witch",
 			"",
@@ -1225,12 +982,6 @@
 		"name": "Season Witch",
 		"file": "archetypedisplayb6d0.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Patron; 1st-level Hex",
-		"replace_array": [
-			"Patron",
-			"1st-level Hex"
-		],
-		"short_description": "Season witches gain their power from the cyclical and mystical exchange of energy passed from one season of nature to another.",
 		"description": [
 			"## Season Witch",
 			"",
@@ -1263,15 +1014,6 @@
 		"name": "Seducer",
 		"file": "archetypedisplay6e29.html",
 		"sources": [ "Legacy of the First World" ],
-		"replaces": "Patron; Key Ability Score; 1st, 6th, 8th-level Hex",
-		"replace_array": [
-			"Patron",
-			"Key Ability Score",
-			"1st-level Hex",
-			"6th-level Hex",
-			"8th-level Hex"
-		],
-		"short_description": "These charismatic witches, often devotees of the Green Mother, rely on their otherworldly charms to achieve their aims.",
 		"description": [
 			"## Seducer",
 			"",
@@ -1300,13 +1042,6 @@
 		"name": "Synergist",
 		"file": "archetypedisplay0e0b.html",
 		"sources": [ "Familiar Folio" ],
-		"replaces": "1st, 8th, and 14th-level Hexes",
-		"replace_array": [
-			"1st-level Hex",
-			"8th-level Hex",
-			"14th-level Hex"
-		],
-		"short_description": "Synergists gain the ability to combine their forms with their familiars' in order to create something more powerful than either alone.",
 		"description": [
 			"## Synergist",
 			"",
@@ -1335,17 +1070,6 @@
 		"name": "Tatterdemalion",
 		"file": "archetypedisplaye0de.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Weapon Proficiencies; Cantrips; 1st, 4th, 8th, 12th, 16th-level Hex",
-		"replace_array": [
-			"Weapon Proficiency",
-			"Cantrips",
-			"1st-level Hex",
-			"4th-level Hex",
-			"8th-level Hex",
-			"12th-level Hex",
-			"16th-level Hex"
-		],
-		"short_description": "Some witches can bend the warp and weft of fabric and thread.",
 		"description": [
 			"## Tatterdemalion",
 			"",
@@ -1382,14 +1106,6 @@
 		"name": "Vellemancer",
 		"file": "archetypedisplayd4b5.html",
 		"sources": [ "Blood of the Coven" ],
-		"replaces": "Class Skills; 2nd, 6th, and 8th-level Hexes",
-		"replace_array": [
-			"Class Skills",
-			"2nd-level Hex",
-			"6th-level Hex",
-			"8th-level Hex"
-		],
-		"short_description": "While the popular stereotype envisions witches as wicked spellcasters sowing misery, many people turn to the arcane to heal others and better the world. The vellemancer is a guide, using her witchcraft to empower and teach others.",
 		"description": [
 			"## Vellemancer",
 			"",
@@ -1418,12 +1134,6 @@
 		"name": "Veneficus Witch",
 		"file": "archetypedisplay2174.html",
 		"sources": [ "People of the River" ],
-		"replaces": "2nd and 10th-level Hexes",
-		"replace_array": [
-			"2nd-level Hex",
-			"10th-level Hex"
-		],
-		"short_description": "Veneficus witches specialize in poisons-brewing both magical and traditional concoctions, and applying them to weapons, traps or even her potent hexes.",
 		"description": [
 			"## Veneficus Witch",
 			"",
@@ -1454,14 +1164,6 @@
 		"name": "Venom Siphoner",
 		"file": "archetypedisplay743e.html",
 		"sources": [ "Potions and Poisons" ],
-		"replaces": "1st, 2nd, 6th-level Hex; Alertness",
-		"replace_array": [
-			"1st-level Hex",
-			"2nd-level Hex",
-			"6th-level Hex",
-			"Alertness"
-		],
-		"short_description": "Witches are no strangers to poisons, using them alongside their various brews, curses, spells, and other tools of the trade.",
 		"description": [
 			"## Venom Siphoner",
 			"",
@@ -1484,13 +1186,6 @@
 		"name": "White-Haired Witch",
 		"file": "archetypedisplaybd48.html",
 		"sources": [ "Dragon Empires Primer" ],
-		"replaces": "Hex; Major Hex; Grand Hex",
-		"replace_array": [
-			"Hexes",
-			"Major Hex",
-			"Grand Hex"
-		],
-		"short_description": "A white-haired witch concentrates her mysterious powers on improving her prowess in melee, using feats of agility and her prehensile hair to deal extreme damage.",
 		"description": [
 			"## White-Haired Witch",
 			"",
@@ -1524,13 +1219,6 @@
 			"Reign of Winter Player's Guide",
 			"Inner Sea Magic"
 		],
-		"replaces": "Familiar; Patron; 4th-level Hex",
-		"replace_array": [
-			"Familiar",
-			"Patron",
-			"4th-level Hex"
-		],
-		"short_description": "The descendents of Baba Yaga rule the frozen realm of Irrisen, and possess a unique power stemming from their otherworldly origin and their ties to cold magic.",
 		"description": [
 			"## Winter Witch",
 			"",
@@ -1561,11 +1249,6 @@
 		"name": "Witch-Watcher",
 		"file": "archetypedisplayf681.html",
 		"sources": [ "Heroes of the High Court" ],
-		"replaces": "Spells per Day",
-		"replace_array": [
-			"Spellcasting"
-		],
-		"short_description": "For reasons known only to them, witch-watchers offer protection to nobles across Golarion.",
 		"description": [
 			"## Witch-Watcher",
 			"",
@@ -1592,12 +1275,6 @@
 		"name": "Wyrm Witch",
 		"file": "archetypedisplay1cfc.html",
 		"sources": [ "Legacy of Dragons" ],
-		"replaces": "Patron; Familiar",
-		"replace_array": [
-			"Patron",
-			"Familiar"
-		],
-		"short_description": "Some witch covens have learned to use treasure to access other draconic powers.",
 		"description": [
 			"## Wyrm Witch",
 			"",

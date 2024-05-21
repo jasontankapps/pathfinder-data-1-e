@@ -4,17 +4,6 @@
 		"name": "Animist",
 		"file": "archetypedisplaycde4.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Spirit Magic Spells; 2nd, 8th, 10th, 12th, and 18th-level Hexes; Manifestation",
-		"replace_array": [
-			"Spirit Magic",
-			"2nd-level Hex",
-			"8th-level Hex",
-			"10th-level Hex",
-			"12th-level Hex",
-			"18th-level Hex",
-			"Manifestation"
-		],
-		"short_description": "Even among mystical practitioners, the animist has a strange perspective and even stranger magic. The animist perceives that all things have a spirit, including objects, constructs, illnesses, buildings, and the environment.",
 		"description": [
 			"## Animist",
 			"",
@@ -57,12 +46,6 @@
 		"name": "Benefactor",
 		"file": "archetypedisplay0e3a.html",
 		"sources": [ "Healer's Handbook" ],
-		"replaces": "Spellcasting; Hexes;",
-		"replace_array": [
-			"Spellcasting",
-			"Hexes"
-		],
-		"short_description": "A benefactor seeks to improve the lives of others by primarily offering powerful supportive abilities and magic to her allies and others she deems worthy.",
 		"description": [
 			"## Benefactor",
 			"",
@@ -89,14 +72,6 @@
 		"name": "Crystal Tender",
 		"file": "archetypedisplay9b2b.html",
 		"sources": [ "Heroes of the Darklands" ],
-		"replaces": "Spirit Animal; Wandering Spirit; 8th-level Shaman Hex; Manifestation",
-		"replace_array": [
-			"Spirit Animal",
-			"Wandering Spirit",
-			"8th-level Hex",
-			"Manifestation"
-		],
-		"short_description": "A crystal tender focuses on the spirits of metal and stone, using crystals as a means to focus the power of the spirits she venerates.",
 		"description": [
 			"## Crystal Tender",
 			"",
@@ -127,14 +102,6 @@
 		"name": "Deep Shaman",
 		"file": "archetypedisplay5d4b.html",
 		"sources": [ "Aquatic Adventures" ],
-		"replaces": "Spirit; Spirit Animal; Class Skills; Spirit Abilities",
-		"replace_array": [
-			"Spirit",
-			"Spirit Animal",
-			"Class Skills",
-			"Greater Spirit"
-		],
-		"short_description": "Deep shamans are tied to spirits from the depths.",
 		"description": [
 			"## Deep Shaman",
 			"",
@@ -167,15 +134,6 @@
 		"name": "Draconic Shaman",
 		"file": "archetypedisplay5ab9.html",
 		"sources": [ "Legacy of Dragons" ],
-		"replaces": "Spirit; Spirit Animal; 4th, 10th-level Hexes; Spirit Magic",
-		"replace_array": [
-			"Spirit",
-			"Spirit Animal",
-			"4th-level Hex",
-			"10th-level Hex",
-			"Spirit Magic"
-		],
-		"short_description": "Some shamans draw their powers from the might of dragons. These shamans each gain a powerful drake as an ally, and view caring for that drake as a sacred duty",
 		"description": [
 			"## Draconic Shaman",
 			"",
@@ -192,14 +150,6 @@
 		"name": "Grasping Vine",
 		"file": "archetypedisplayef4a.html",
 		"sources": [ "Legacy of the First World" ],
-		"replaces": "Spirit Animal; Spirit Magic; 2nd, 8th-level Hex",
-		"replace_array": [
-			"Spirit Animal",
-			"Spirit Magic",
-			"2nd-level Hex",
-			"8th-level Hex"
-		],
-		"short_description": "Grasping vine shamans are typically adherents of one of several scattered sects dedicated to the Green Mother. They revere plant life in all its forms, with a special fondness for poisonous or carnivorous plants.",
 		"description": [
 			"## Grasping Vine",
 			"",
@@ -230,15 +180,6 @@
 		"name": "Name-Keeper",
 		"file": "archetypedisplay4b9b.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Class Skills; Spirit Animal; Spirit Magic; Wandering Spirit; Wandering Hex",
-		"replace_array": [
-			"Class Skills",
-			"Spirit Animal",
-			"Spirit Magic",
-			"Wandering Spirit",
-			"Wandering Hex"
-		],
-		"short_description": "Name-keepers have delved into the storied histories etched into the Wall of Names and communed with the departed spirits of those whose names are memorialized on the monument.",
 		"description": [
 			"## Name-Keeper",
 			"",
@@ -279,12 +220,6 @@
 		"name": "Overseer",
 		"file": "archetypedisplayc551.html",
 		"sources": [ "Magic Tactics Toolbox" ],
-		"replaces": "Spirit Magic; Deliver Touch Spells",
-		"replace_array": [
-			"Spirit Magic",
-			"Deliver Touch Spells"
-		],
-		"short_description": "While all shamans use their connection to the spirits of the world to draw upon otherworldly magic powers, the shamans of the Lands of the Linnorm Kings have a unique tradition in which they use the power of patron spirits to directly control their enemies.",
 		"description": [
 			"## Overseer",
 			"",
@@ -305,13 +240,6 @@
 		"name": "Possessed Shaman",
 		"file": "archetypedisplaybf21.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Spirit Magic; 2nd and 6th-level Hexes",
-		"replace_array": [
-			"Spirit Magic",
-			"2nd-level Hex",
-			"6th-level Hex"
-		],
-		"short_description": "For a possessed shaman, merely communing with the spirit world is insufficient. Instead, she invites the spirits to share her body, granting them the chance to experience corporeal existence.",
 		"description": [
 			"## Possessed Shaman",
 			"",
@@ -330,15 +258,6 @@
 		"name": "Primal Warden",
 		"file": "archetypedisplayc48d.html",
 		"sources": [ "People of the Wastes" ],
-		"replaces": "Spirit Animal; Spirit Magic; 4th, 8th, 12th-level Hex",
-		"replace_array": [
-			"Spirit Animal",
-			"Spirit Magic",
-			"4th-level Hex",
-			"8th-level Hex",
-			"12th-level Hex"
-		],
-		"short_description": "A shaman who communes with spirits that linger in areas where primal magic reigns, learning to stabilize these erratic energies and draw upon them to her benefit.",
 		"description": [
 			"## Primal Warden",
 			"",
@@ -371,11 +290,6 @@
 		"name": "Serendipity Shaman",
 		"file": "archetypedisplay2df5.html",
 		"sources": [ "Blood of the Beast" ],
-		"replaces": "Spirit Magic spells",
-		"replace_array": [
-			"Spirit Magic"
-		],
-		"short_description": "The serendipitous, shamanistic rites associated with the traditional catfolk worship of the so-called \"spirits of creation\" focus upon attracting good fortune and banishing ill fortune in the name of these spirits.",
 		"description": [
 			"## Serendipity Shaman",
 			"",
@@ -406,13 +320,6 @@
 		"name": "Speaker for the Past",
 		"file": "archetypedisplay060a.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Spirit Animal; Wandering Spirit; Wandering Hex",
-		"replace_array": [
-			"Spirit Animal",
-			"Wandering Spirit",
-			"Wandering Hex"
-		],
-		"short_description": "A speaker for the past is a shaman who specifically serves as the voice for spirits from her people's history.",
 		"description": [
 			"## Speaker for the Past",
 			"",
@@ -431,14 +338,6 @@
 		"name": "Spirit Warden",
 		"file": "archetypedisplayedb5.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Class Skills; Spirit Magic Spells; 2nd and 10th-level Hexes",
-		"replace_array": [
-			"Class Skills",
-			"Spirit Magic",
-			"2nd-level Hex",
-			"10th-level Hex"
-		],
-		"short_description": "Not all spirits deserve reverence and respect. Some are twisted and despicable. It's a spirit warden's duty to end these spirits' existence.",
 		"description": [
 			"## Spirit Warden",
 			"",
@@ -459,15 +358,6 @@
 		"name": "True Silvered Throne",
 		"file": "archetypedisplayb7b8.html",
 		"sources": [ "Occult Origins" ],
-		"replaces": "Class Skills; Spirit Animal; Wandering Spirit; Wandering Hex; 8th-level Hex",
-		"replace_array": [
-			"Class Skills",
-			"Spirit Animal",
-			"Wandering Spirit",
-			"Wandering Hex",
-			"8th-level Hex"
-		],
-		"short_description": "Members in good standing who have risen to a prestigious rank within the Esoteric Order of the Palatine Eye, true silvered thrones have managed to discover rituals and occult secrets within the lore of their order.",
 		"description": [
 			"## True Silvered Throne",
 			"",
@@ -492,16 +382,6 @@
 		"name": "Unsworn Shaman",
 		"file": "archetypedisplay3040.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Spirit; Hex; Spirit Animal; Wandering Spirit; Wandering Hex; Spirit Magic",
-		"replace_array": [
-			"Spirit",
-			"Hexes",
-			"Spirit Animal",
-			"Wandering Spirit",
-			"Wandering Hex",
-			"Spirit Magic"
-		],
-		"short_description": "An unsworn shaman never binds herself to one specific spirit, always making new deals as she deems necessary for the circumstances that she finds herself in.",
 		"description": [
 			"## Unsworn Shaman",
 			"",
@@ -526,15 +406,6 @@
 		"name": "Visionary",
 		"file": "archetypedisplaye5ae.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Wandering Spirit; Spirit Magic Spells; Wandering Hex; Greater Wandering Spirit; True Wandering Spirit",
-		"replace_array": [
-			"Wandering Spirit",
-			"Spirit Magic",
-			"Wandering Hex",
-			"Greater Wandering Spirit",
-			"True Wandering Spirit"
-		],
-		"short_description": "The visionary is a master at divination, drawing upon her intimate relationship with the spirit world to ferret out all manner of secrets and insights about the world around her and beyond.",
 		"description": [
 			"## Visionary",
 			"",
@@ -561,15 +432,6 @@
 		"name": "Witch Doctor",
 		"file": "archetypedisplay52d1.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Alignment; 4th, 8th, 10th, and 12th-level Hexes",
-		"replace_array": [
-			"Alignment",
-			"4th-level Hex",
-			"8th-level Hex",
-			"10th-level Hex",
-			"12th-level Hex"
-		],
-		"short_description": "The witch doctor is a healer who specializes in afflictions of the soul.",
 		"description": [
 			"## Witch Doctor",
 			"",

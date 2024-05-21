@@ -4,15 +4,6 @@
 		"name": "Ancestral Harbinger",
 		"file": "archetypedisplay5989.html",
 		"sources": [ "Monster Summoner's Handbook" ],
-		"replaces": "Uncanny Dodge; Improved Uncanny Dodge; 6th, 12th, and 18th-level Bloodline Feats",
-		"replace_array": [
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge",
-			"6th-level Bloodline Feat",
-			"12th-level Bloodline Feat",
-			"18th-level Bloodline Feat"
-		],
-		"short_description": "While all bloodragers tap into their bloodlines to fuel the arcane energies they use in battle, some have the ability to call directly to the spirits of their ancestors to aid them, summoning spirits to fight for them or inspire their allies.",
 		"description": [
 			"## Ancestral Harbinger",
 			"",
@@ -31,15 +22,6 @@
 		"name": "Blood Conduit",
 		"file": "archetypedisplay21a5.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Fast Movement; Bloodline Feats; Uncanny Dodge; Improved Uncanny Dodge; Indomitable Will",
-		"replace_array": [
-			"Fast Movement",
-			"Bloodline Feats",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge",
-			"Indomitable Will"
-		],
-		"short_description": "Blood conduits learn to channel their arcane might directly through their flesh, without the need for mystical words or gestures.",
 		"description": [
 			"## Blood Conduit",
 			"",
@@ -58,14 +40,6 @@
 		"name": "Bloodrider",
 		"file": "archetypedisplay6ee1.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Fast Movement; Uncanny Dodge; Improved Uncanny Dodge; 9th-level Bloodline Feat",
-		"replace_array": [
-			"Fast Movement",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge",
-			"9th-level Bloodline Feat"
-		],
-		"short_description": "In the world's wild lands, a mount is an advantage in both everyday life and the dealing of death",
 		"description": [
 			"## Bloodrider",
 			"",
@@ -84,15 +58,6 @@
 		"name": "Bloody-Knuckled Rowdy",
 		"file": "archetypedisplaya4c8.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"replaces": "Damage Reduction; Spellcasting; Fast Movement; Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Damage Reduction",
-			"Spellcasting",
-			"Fast Movement",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "The bloody-knuckled rowdy focuses on tricks and maneuvers that are quick and effective, duplicating combat styles from professional brawlers, street thugs, and even trapped animals.",
 		"description": [
 			"## Bloody-Knuckled Rowdy",
 			"",
@@ -115,14 +80,6 @@
 		"name": "Crossblooded Rager",
 		"file": "archetypedisplay2da6.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Bonus Feats; Bonus Spells; Bloodline Powers; Saving Throws",
-		"replace_array": [
-			"Bonus Feats",
-			"Bonus Spells",
-			"Bloodline Powers",
-			"Saving Throws"
-		],
-		"short_description": "While most bloodragers manifest only one bloodline, there are some that, through some quirk of heredity or the conjunction of other powers, manifest two.",
 		"description": [
 			"## Crossblooded Rager",
 			"",
@@ -150,18 +107,6 @@
 			"Adventurer's Guide",
 			"Arcane Anthology"
 		],
-		"replaces": "Spellcasting; 1st, 4th-level Bloodline Power; Bloodrage; Bonus Spells; 7th, 13th, 19th-level Damage Reduction",
-		"replace_array": [
-			"Spellcasting",
-			"1st-level Bloodline Power",
-			"4th-level Bloodline Power",
-			"Bloodrage",
-			"Bonus Spells",
-			"7th-level Damage Reduction",
-			"13th-level Damage Reduction",
-			"19th-level Damage Reduction"
-		],
-		"short_description": "Troubled by overwhelming rage and mystic forces beyond their comprehension, bloodragers have been traveling to the Magaambya for generations, seeking the peace and enlightenment promised by students of Old-Mage Jatembe.",
 		"description": [
 			"## Enlightened Bloodrager",
 			"",
@@ -196,13 +141,6 @@
 		"name": "Greenrager",
 		"file": "archetypedisplay8434.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Blood Sanctuary; 6th and 9th-level Bloodline Feats",
-		"replace_array": [
-			"Blood Sanctuary",
-			"6th-level Bloodline Feat",
-			"9th-level Bloodline Feat"
-		],
-		"short_description": "Typically, nature finds its greatest harmony with divine magic, but sometimes a connection with the natural world manifest itself through the arcane current in the veins of the bloodragers called greenragers.",
 		"description": [
 			"## Greenrager",
 			"",
@@ -221,15 +159,6 @@
 		"name": "Hag-Riven",
 		"file": "archetypedisplay56d9.html",
 		"sources": [ "Blood of the Coven" ],
-		"replaces": "Weapon/Armor Proficiencies; Fast Movement; Uncanny Dodge; Improved Uncanny Dodge; Damage Reduction",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Fast Movement",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge",
-			"Damage Reduction"
-		],
-		"short_description": "All changelings have the potential to transform into hags, but the process is a slow one, requiring several nights to complete. When left incomplete-by virtue of a wily changeling's escape or her mother's death-the creature is scarred and saturated in arcane power.",
 		"description": [
 			"## Hag-Riven",
 			"",
@@ -266,16 +195,6 @@
 		"name": "Id Rager",
 		"file": "archetypedisplay308f.html",
 		"sources": [ "Occult Origins" ],
-		"replaces": "Bloodline; Bloodline Spells; Bloodline Powers; Spellcasting; Eschew Materials; Bloodline Feats",
-		"replace_array": [
-			"Bloodline",
-			"Bloodline Spells",
-			"Bloodline Powers",
-			"Spellcasting",
-			"Eschew Materials",
-			"Bloodline Feats"
-		],
-		"short_description": "An id rager lacks a supernatural taint to his blood, instead drawing power from pure emotion.",
 		"description": [
 			"## Id Rager",
 			"",
@@ -320,11 +239,6 @@
 		"name": "Metamagic Rager",
 		"file": "archetypedisplay4fe1.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Improved Uncanny Dodge",
-		"replace_array": [
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "While metamagic is difficult for many bloodragers to utilize, a talented few are able to channel their bloodrage in ways that push their spells to impressive ends.",
 		"description": [
 			"## Metamagic Rager",
 			"",
@@ -339,11 +253,6 @@
 		"name": "Primalist",
 		"file": "archetypedisplaya0fc.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Bloodline",
-		"replace_array": [
-			"Bloodline"
-		],
-		"short_description": "While bloodrage powers come from the very essence of a bloodrager's being and are often strict and immutable, some bloodragers tap into ancient traditions and primitive wisdom to enhance their rages with something more primal.",
 		"description": [
 			"## Primalist",
 			"",
@@ -358,16 +267,6 @@
 		"name": "Prowler at World's End",
 		"file": "archetypedisplay682a.html",
 		"sources": [ "Blood of the Beast" ],
-		"replaces": "Bloodline Powers; 9th, 12th, 15th-level Bloodline Feats; Greater Bloodrage; Mighty Bloodrage",
-		"replace_array": [
-			"Bloodline Powers",
-			"9th-level Bloodline Feat",
-			"12th-level Bloodline Feat",
-			"15th-level Bloodline Feat",
-			"Greater Bloodrage",
-			"Mighty Bloodrage"
-		],
-		"short_description": "Many catfolk bloodragers capable of communing with the ancient spirits of creation take on the burden of protecting the world from the sinister forces that exist at the world's fringes.",
 		"description": [
 			"## Prowler at World's End",
 			"",
@@ -400,12 +299,6 @@
 		"name": "Rageshaper",
 		"file": "archetypedisplay1401.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Blood Sanctuary; Improved Uncanny Dodge",
-		"replace_array": [
-			"Blood Sanctuary",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "All bloodragers blend the unpredictable surge of arcane power with the savage fury of battle lust. For most, their rage is a conduit for the eldritch power locked in their heritage, but for a rageshaper, the latent magical energies in his blood bring about physical transformations and facilitate the blending of arcana and aggression into a deadly synthesis that few other barbarians (or even other bloodragers) can match.",
 		"description": [
 			"## Rageshaper",
 			"",
@@ -422,13 +315,6 @@
 		"name": "Spelleater",
 		"file": "archetypedisplay3991.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Uncanny Dodge; Improved Uncanny Dodge; Damage Reduction",
-		"replace_array": [
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge",
-			"Damage Reduction"
-		],
-		"short_description": "Where other bloodragers learn to avoid or shrug off minor damage of all sorts, spelleaters tap into the power of their bloodline in order to heal damage as it comes, and can even cannibalize their own magical energy to heal more damage and continue taking the fight to the enemy.",
 		"description": [
 			"## Spelleater",
 			"",
@@ -445,15 +331,6 @@
 		"name": "Steelblood",
 		"file": "archetypedisplay9b87.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Armor Proficiency; Fast Movement; Uncanny Dodge; Improved Uncanny Dodge; Damage Reduction",
-		"replace_array": [
-			"Armor Proficiency",
-			"Fast Movement",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge",
-			"Damage Reduction"
-		],
-		"short_description": "Most bloodragers prefer light armor, but some learn the secret of using heavy armors.",
 		"description": [
 			"## Steelblood",
 			"",
@@ -476,16 +353,6 @@
 		"name": "Symbol Striker",
 		"file": "archetypedisplay2fee.html",
 		"sources": [ "Heroes from the Fringe" ],
-		"replaces": "Class Skills; Fast Movement; 6th, 9th, 12th, 18th-level Bloodline Feats;",
-		"replace_array": [
-			"Class Skills",
-			"Fast Movement",
-			"6th-level Bloodline Feat",
-			"9th-level Bloodline Feat",
-			"12th-level Bloodline Feat",
-			"18th-level Bloodline Feat"
-		],
-		"short_description": "Symbol strikers are unique form of rune-wielding berserker spellcasters whose tradition originates from Dongun Hold, a Sky Citadel in Alkenstar",
 		"description": [
 			"## Symbol Striker",
 			"",
@@ -516,14 +383,6 @@
 		"name": "Untouchable Rager",
 		"file": "archetypedisplayf9aa.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Spells; Blood Casting; Eschew Materials; Bloodline Spells",
-		"replace_array": [
-			"Spellcasting",
-			"Blood Casting",
-			"Eschew Materials",
-			"Bloodline Spells"
-		],
-		"short_description": "While most bloodragers are known for their inexplicable ability to focus their bloodline into a horrifying mix of martial terror and spellcasting fury, from time to time a bloodrager's bloodline acts differently.",
 		"description": [
 			"## Untouchable Rager",
 			"",
@@ -540,15 +399,6 @@
 		"name": "Urban Bloodrager",
 		"file": "archetypedisplaye219.html",
 		"sources": [ "Heroes of the Streets" ],
-		"replaces": "Class Skills; Weapon/Armor Proficiencies; Bloodrage; Blood Sanctuary; Damage Reduction",
-		"replace_array": [
-			"Class Skills",
-			"Weapon/Armor Proficiency",
-			"Bloodrage",
-			"Blood Sanctuary",
-			"Damage Reduction"
-		],
-		"short_description": "Like the urban barbarian, the urban bloodrager has learned to control her rage in so-called polite society.",
 		"description": [
 			"## Urban Bloodrager",
 			"",

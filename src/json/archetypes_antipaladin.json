@@ -4,16 +4,6 @@
 		"name": "Blighted Myrmidon",
 		"file": "archetypedisplayfb0e.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Smite Good; Fiendish Boon; 10th-level Smite Good use; Aura of Vengeance; 15th-level Cruelty; Unholy Champion",
-		"replace_array": [
-			"Smite Good",
-			"Fiendish Boon",
-			"10th-level Smite Good use",
-			"Aura of Vengeance",
-			"15th-level Cruelty",
-			"Unholy Champion"
-		],
-		"short_description": "Blighted myrmidons carry the seed of rot in their black hearts and sap life from the natural world.",
 		"description": [
 			"## Blighted Myrmidon",
 			"",
@@ -50,12 +40,6 @@
 		"name": "Dread Vanguard",
 		"file": "archetypedisplay654f.html",
 		"sources": [ "Champions of Corruption" ],
-		"replaces": "Spells; Aura of Sin",
-		"replace_array": [
-			"Spellcasting",
-			"Aura of Sin"
-		],
-		"short_description": "Some antipaladins serve or ally themselves with villains who are bent on earthly conquest.",
 		"description": [
 			"## Dread Vanguard",
 			"",
@@ -90,12 +74,6 @@
 		"name": "Fearmonger",
 		"file": "archetypedisplay8856.html",
 		"sources": [ "Monster Codex" ],
-		"replaces": "Touch of Corruption; Cruelty",
-		"replace_array": [
-			"Touch of Corruption",
-			"Cruelty"
-		],
-		"short_description": "The fearmonger wants to do more than cause pain, misery, and confusion. He wishes to spread fear among his foes and infect entire populations with it.",
 		"description": [
 			"## Fearmonger",
 			"",
@@ -118,26 +96,6 @@
 		"name": "Insinuator",
 		"file": "archetypedisplay0e8c.html",
 		"sources": [ "Agents of Evil" ],
-		"replaces": "Code of Conduct; Aura of Evil; Detect Good; Smite Good; Touch of Corruption; Aura of Cowardice; Plague Bringer; Cruelty; Channel Negative Energy; Spells; Fiendish Boon; Aura of Despair; Aura of Vengeance; Aura of Sin; Aura of Depravity; Unholy Champion",
-		"replace_array": [
-			"Code of Conduct",
-			"Aura of Evil",
-			"Detect Good",
-			"Smite Good",
-			"Touch of Corruption",
-			"Aura of Cowardice",
-			"Plague Bringer",
-			"Cruelty",
-			"Channel Negative Energy",
-			"Spellcasting",
-			"Fiendish Boon",
-			"Aura of Despair",
-			"Aura of Vengeance",
-			"Aura of Sin",
-			"Aura of Depravity",
-			"Unholy Champion"
-		],
-		"short_description": "Between the selfless nobility of paladins and the chaotic menace of antipaladins, there exists a path of dedicated self-interest.",
 		"description": [
 			"## Insinuator",
 			"",
@@ -196,14 +154,6 @@
 		"name": "Iron Tyrant",
 		"file": "archetypedisplayed58.html",
 		"sources": [ "Armor Master's Handbook" ],
-		"replaces": "Touch of Corruption; Cruelty; Channel Negative Energy; Fiendish Boon",
-		"replace_array": [
-			"Touch of Corruption",
-			"Cruelty",
-			"Channel Negative Energy",
-			"Fiendish Boon"
-		],
-		"short_description": "Iron tyrants seek the strength to rule over domains as unfettered despots, and depend on their armor as protection against those they have not yet cowed.",
 		"description": [
 			"## Iron Tyrant",
 			"",
@@ -236,18 +186,6 @@
 		"name": "Knight of the Sepulcher",
 		"file": "archetypedisplay5c54.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Fiendish Boon; Aura of Despair; 10th-level Smite Good use; Aura of Vengeance; Aura of Sin; Cruelty; Aura of Depravity; Unholy Champion",
-		"replace_array": [
-			"Fiendish Boon",
-			"Aura of Despair",
-			"10th-level Smite Good use",
-			"Aura of Vengeance",
-			"Aura of Sin",
-			"Cruelty",
-			"Aura of Depravity",
-			"Unholy Champion"
-		],
-		"short_description": "Not content with the antipaladin's mere corruption of the soul, the knight of the sepulcher sacrifices mortality along with morality.",
 		"description": [
 			"## Knight of the Sepulcher",
 			"",
@@ -278,13 +216,6 @@
 		"name": "Rough Rampager",
 		"file": "archetypedisplay5e4d.html",
 		"sources": [ "Inner Sea Combat" ],
-		"replaces": "Aura of Cowardice; Aura of Despair; Aura of Sin",
-		"replace_array": [
-			"Aura of Cowardice",
-			"Aura of Despair",
-			"Aura of Sin"
-		],
-		"short_description": "Rough rampagers venerate Rovagug, reveling in the destruction the dark god represents.",
 		"description": [
 			"## Rough Rampager",
 			"",
@@ -303,14 +234,6 @@
 		"name": "Seal-Breaker",
 		"file": "archetypedisplay025d.html",
 		"sources": [ "Inner Sea Combat" ],
-		"replaces": "Aura of Cowardice; Fiendish Boon; Aura of Despair; Aura of Vengeance",
-		"replace_array": [
-			"Aura of Cowardice",
-			"Fiendish Boon",
-			"Aura of Despair",
-			"Aura of Vengeance"
-		],
-		"short_description": "Seal-breakers are dedicated to the Whispering Tyrant and have tasked themselves with finding and destroying the seals that bind him within Gallowspire.",
 		"description": [
 			"## Seal-Breaker",
 			"",
@@ -337,13 +260,6 @@
 		"name": "Tyrant",
 		"file": "archetypedisplay3334.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Code of Conduct; Class Skills; Fiendish Boon",
-		"replace_array": [
-			"Code of Conduct",
-			"Class Skills",
-			"Fiendish Boon"
-		],
-		"short_description": "Tyrants are manipulative and lawful antipaladins, chess masters who arrange things behind the scenes to ensure that whatever happens, evil always wins, and the tyrant along with it.",
 		"description": [
 			"## Tyrant",
 			"",

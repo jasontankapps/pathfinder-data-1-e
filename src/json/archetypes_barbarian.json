@@ -4,14 +4,6 @@
 		"name": "Armored Hulk",
 		"file": "archetypedisplay2faa.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Fast Movement; Uncanny Dodge; Trap Sense; Improved Uncanny Dodge",
-		"replace_array": [
-			"Fast Movement",
-			"Uncanny Dodge",
-			"Trap Sense",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Some barbarians disdain the hides and leather used as armor by most of their kin. Instead they master the heaviest of armors, even those created by more civilized people, to gain greater protection and stability in battle.",
 		"description": [
 			"## Armored Hulk",
 			"",
@@ -36,14 +28,6 @@
 		"name": "Beastkin Berserker",
 		"file": "archetypedisplay578f.html",
 		"sources": [ "Heroes of the Darklands" ],
-		"replaces": "Fast Movement; 4th, 8th, 12th-level Rage Power",
-		"replace_array": [
-			"Fast Movement",
-			"4th-level Rage Power",
-			"8th-level Rage Power",
-			"12th-level Rage Power"
-		],
-		"short_description": "While some barbarians take on bestial aspects in their rages, the beastkin berserker descends so deeply into primal fury that she actually transforms into an animal.",
 		"description": [
 			"## Beastkin Berserker",
 			"",
@@ -70,12 +54,6 @@
 		"name": "Breaker",
 		"file": "archetypedisplay8251.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Fast Movement; Trap Sense",
-		"replace_array": [
-			"Fast Movement",
-			"Trap Sense"
-		],
-		"short_description": "Breakers find the need to destroy their surroundings.",
 		"description": [
 			"## Breaker",
 			"",
@@ -94,13 +72,6 @@
 		"name": "Brutal Pugilist",
 		"file": "archetypedisplay89de.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Uncanny Dodge; Trap Sense; Improved Uncanny Dodge",
-		"replace_array": [
-			"Uncanny Dodge",
-			"Trap Sense",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Some barbarians focus on using their bare hands to tear their opponents limb from limb.",
 		"description": [
 			"## Brutal Pugilist",
 			"",
@@ -121,16 +92,6 @@
 		"name": "Brutish Swamper",
 		"file": "archetypedisplaybb43.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Skills; Fast Movement; Uncanny Dodge; Improved Uncanny Dodge; Trap Sense; 6th-level Rage Power",
-		"replace_array": [
-			"Class Skills",
-			"Fast Movement",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge",
-			"Trap Sense",
-			"6th-level Rage Power"
-		],
-		"short_description": "The hardy and insular denizens of the swamp produce warriors of narrow focus and great strength.",
 		"description": [
 			"## Brutish Swamper",
 			"",
@@ -165,14 +126,6 @@
 		"name": "Cave Dweller",
 		"file": "archetypedisplay8ef2.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Skills; Fast Movement; Trap Sense; Damage Reduction",
-		"replace_array": [
-			"Class Skills",
-			"Fast Movement",
-			"Trap Sense",
-			"Damage Reduction"
-		],
-		"short_description": "Unused to the light of the sun, cave dwellers use their subterranean expertise to protect their clans from the manifold dangers of deep caverns and tunnels.",
 		"description": [
 			"## Cave Dweller",
 			"",
@@ -203,15 +156,6 @@
 		"name": "Deepwater Rager",
 		"file": "archetypedisplay4ff1.html",
 		"sources": [ "Legacy of the First World" ],
-		"replaces": "Fast Movement; Uncanny Dodge; Improved Uncanny Dodge; Indomitable Will; Tireless Rage",
-		"replace_array": [
-			"Fast Movement",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge",
-			"Indomitable Will",
-			"Tireless Rage"
-		],
-		"short_description": "Deepwater ragers bellow ferociously as they charge their enemies, tackling them into the raging seas.",
 		"description": [
 			"## Deepwater Rager",
 			"",
@@ -246,14 +190,6 @@
 		"name": "Dreadnought",
 		"file": "archetypedisplay1885.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Rage; Fast Movement; Indomitable Will; Tireless Rage",
-		"replace_array": [
-			"Rage",
-			"Fast Movement",
-			"Indomitable Will",
-			"Tireless Rage"
-		],
-		"short_description": "Unstoppable and fearless, the dreadnought turns the terror of her enemies into violent physical power.",
 		"description": [
 			"## Dreadnought",
 			"",
@@ -282,11 +218,6 @@
 		"name": "Drunken Brute",
 		"file": "archetypedisplay783f.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Fast Movement",
-		"replace_array": [
-			"Fast Movement"
-		],
-		"short_description": "Drunken brutes use potent liquor to fuel their rage and grant them additional powers.",
 		"description": [
 			"## Drunken Brute",
 			"",
@@ -303,15 +234,6 @@
 		"name": "Drunken Rager",
 		"file": "archetypedisplay5268.html",
 		"sources": [ "Alchemy Manual" ],
-		"replaces": "Fast Movement; Uncanny Dodge; Trap Sense; Improved Uncanny Dodge; 12th-level Rage Power",
-		"replace_array": [
-			"Fast Movement",
-			"Uncanny Dodge",
-			"Trap Sense",
-			"Improved Uncanny Dodge",
-			"12th-level Rage Power"
-		],
-		"short_description": "These hotheaded, hard-drinking ruffians and brawlers are as dangerous in the midst of combat as they are in a tavern, and they wouldn't be caught dead without a libation for either occasion.",
 		"description": [
 			"## Drunken Rager",
 			"",
@@ -336,11 +258,6 @@
 		"name": "Elemental Kin",
 		"file": "archetypedisplayb90f.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Trap Sense",
-		"replace_array": [
-			"Trap Sense"
-		],
-		"short_description": "Some barbarian tribes have strong ties to the elemental forces of nature.",
 		"description": [
 			"## Elemental Kin",
 			"",
@@ -357,14 +274,6 @@
 		"name": "Fearsome Defender",
 		"file": "archetypedisplay7308.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Fast Movement; Uncanny Dodge; Trap Sense; Improved Uncanny Dodge",
-		"replace_array": [
-			"Fast Movement",
-			"Uncanny Dodge",
-			"Trap Sense",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "These savage slaves feel little pain and exist only to rain terror down on the enemies of their pitiless masters.",
 		"description": [
 			"## Fearsome Defender",
 			"",
@@ -393,19 +302,6 @@
 		"name": "Feral Gnasher",
 		"file": "archetypedisplay87c7.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Weapon/Armor Proficiency; Fast Movement; 2nd-level Rage Power; Trap Sense 1-5; Improved Uncanny Dodge",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Fast Movement",
-			"2nd-level Rage Power",
-			"Trap Sense +1",
-			"Trap Sense +2",
-			"Trap Sense +3",
-			"Trap Sense +4",
-			"Trap Sense +5",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "(Goblin Only) Feral gnashers grow up in the wild, either raised by animals or scraping by on their own, and soon learn to fend for themselves.",
 		"description": [
 			"## Feral Gnasher",
 			"",
@@ -436,16 +332,6 @@
 		"name": "Flesheater",
 		"file": "archetypedisplaye68b.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Rage; 2nd, 8th, and 14th-level Rage Powers; Greater Rage; Mighty Rage",
-		"replace_array": [
-			"Rage",
-			"2nd-level Rage Power",
-			"8th-level Rage Power",
-			"14th-level Rage Power",
-			"Greater Rage",
-			"Mighty Rage"
-		],
-		"short_description": "A flesheater eats flesh to create a spiritual bond between herself and the consumed creature, allowing her to take on aspects of the creature that served as the meal.",
 		"description": [
 			"## Flesheater",
 			"",
@@ -470,17 +356,6 @@
 		"name": "Geminate Invoker",
 		"file": "archetypedisplayfe42.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Alignment; Class Skills; Rage; Trap Sense; 4th, 8th, 12th-level Rage Powers",
-		"replace_array": [
-			"Alignment",
-			"Class Skills",
-			"Rage",
-			"Trap Sense",
-			"4th-level Rage Power",
-			"8th-level Rage Power",
-			"12th-level Rage Power"
-		],
-		"short_description": "Geminate invokers are barbarians who use Rivethun traditions to invite spirits into their bodies.",
 		"description": [
 			"## Geminate Invoker",
 			"",
@@ -511,13 +386,6 @@
 		"name": "Giant Stalker",
 		"file": "archetypedisplay867f.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Rage; Uncanny Dodge; Trap Sense",
-		"replace_array": [
-			"Rage",
-			"Uncanny Dodge",
-			"Trap Sense"
-		],
-		"short_description": "Giant stalkers are followers of the Mammoth Lords who have trained since childhood to spot and track giants.",
 		"description": [
 			"## Giant Stalker",
 			"",
@@ -556,17 +424,6 @@
 		"name": "Hateful Rager",
 		"file": "archetypedisplay881e.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Rage; 2nd, 8th, 14th, 20th-level Rage Powers; Uncanny Dodge; Trap Sense +3",
-		"replace_array": [
-			"Rage",
-			"2nd-level Rage Power",
-			"8th-level Rage Power",
-			"14th-level Rage Power",
-			"20th-level Rage Power",
-			"Uncanny Dodge",
-			"Trap Sense +3"
-		],
-		"short_description": "(Half-Orc Only) From a young age, many half-orcs are treated cruelly, bullied, ridiculed, and made outcasts. While some hide their shame, others foster a deep, burning hatred that they channel into a raw fury and unleash against their enemies.",
 		"description": [
 			"## Hateful Rager",
 			"",
@@ -593,11 +450,6 @@
 		"name": "Hurler",
 		"file": "archetypedisplayb67f.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Fast Movement",
-		"replace_array": [
-			"Fast Movement"
-		],
-		"short_description": "The hurler becomes skilled at throwing objects at their foes before closing in for the kill.",
 		"description": [
 			"## Hurler",
 			"",
@@ -614,14 +466,6 @@
 		"name": "Invulnerable Rager",
 		"file": "archetypedisplay7b4d.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Uncanny Dodge; Improved Uncanny Dodge; Damage Reduction; Trap Sense",
-		"replace_array": [
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge",
-			"Damage Reduction",
-			"Trap Sense"
-		],
-		"short_description": "Some barbarians learn to take whatever comes their way, shrugging off mortal wounds with ease.",
 		"description": [
 			"## Invulnerable Rager",
 			"",
@@ -640,14 +484,6 @@
 		"name": "Jungle Rager",
 		"file": "archetypedisplay8a5d.html",
 		"sources": [ "Inner Sea Combat" ],
-		"replaces": "Uncanny Dodge; Trap Sense; Improved Uncanny Dodge; Damage Reduction",
-		"replace_array": [
-			"Uncanny Dodge",
-			"Trap Sense",
-			"Improved Uncanny Dodge",
-			"Damage Reduction"
-		],
-		"short_description": "A jungle rager can disappear from sight, strike from hiding, and use the environment to shield herself from harm.",
 		"description": [
 			"## Jungle Rager",
 			"",
@@ -670,20 +506,6 @@
 		"name": "Mad Dog",
 		"file": "archetypedisplay04b1.html",
 		"sources": [ "Animal Archive" ],
-		"replaces": "2nd, 6th, 10th, 14th, 18th-level Rage Powers; Rage; Uncanny Dodge; Improved Uncanny Dodge; Damage Reduction; Indomitable Will",
-		"replace_array": [
-			"2nd-level Rage Power",
-			"6th-level Rage Power",
-			"10th-level Rage Power",
-			"14th-level Rage Power",
-			"18th-level Rage Power",
-			"Rage",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge",
-			"Damage Reduction",
-			"Indomitable Will"
-		],
-		"short_description": "Though named for the wild savages who fight alongside rabid dogs, mad dogs employ all manner of beasts as their battle brethren.",
 		"description": [
 			"## Mad Dog",
 			"",
@@ -710,14 +532,6 @@
 		"name": "Mooncursed",
 		"file": "archetypedisplaye5a2.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Rage; Improved Uncanny Dodge; Greater Rage; Mighty Rage",
-		"replace_array": [
-			"Rage",
-			"Improved Uncanny Dodge",
-			"Greater Rage",
-			"Mighty Rage"
-		],
-		"short_description": "Some barbarians exhibit an unusual form of lycanthropy powered by their fury. Such a character transforms willfully but can maintain her animal or hybrid forms only while raging.",
 		"description": [
 			"## Mooncursed",
 			"",
@@ -748,13 +562,6 @@
 		"name": "Mounted Fury",
 		"file": "archetypedisplay4bca.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Fast Movement; Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Fast Movement",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Many barbarian tribes are masters of the horse, teaching their members how to ride from a young age.",
 		"description": [
 			"## Mounted Fury",
 			"",
@@ -773,14 +580,6 @@
 		"name": "Numerian Liberator",
 		"file": "archetypedisplay19ca.html",
 		"sources": [ "People of the River" ],
-		"replaces": "Class Skills; Uncanny Dodge; Improved Uncanny Dodge; Indomitable Will",
-		"replace_array": [
-			"Class Skills",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge",
-			"Indomitable Will"
-		],
-		"short_description": "While many native Kellids oppose the Technic League and its espousal of foul alien artifacts, the most stalwart and staunchly dedicated of these technophobic traditionalists refer to themselves as Numerian liberators.",
 		"description": [
 			"## Numerian Liberator",
 			"",
@@ -803,13 +602,6 @@
 		"name": "Pack Hunter",
 		"file": "archetypedisplaye70f.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Rage Powers; Trap Sense; 6th-level Rage Power",
-		"replace_array": [
-			"Rage Powers",
-			"Trap Sense",
-			"6th-level Rage Power"
-		],
-		"short_description": "Pack hunter barbarians team up to hunt dangerous prey to feed, to protect their camps, and as a rite of passage.",
 		"description": [
 			"## Pack Hunter",
 			"",
@@ -836,16 +628,6 @@
 		"name": "Pack Rager",
 		"file": "archetypedisplay2555.html",
 		"sources": [ "Monster Codex" ],
-		"replaces": "2nd, 6th, 10th, 14th, and 18th-level Rage Powers; Damage Reduction",
-		"replace_array": [
-			"2nd-level Rage Power",
-			"6th-level Rage Power",
-			"10th-level Rage Power",
-			"14th-level Rage Power",
-			"18th-level Rage Power",
-			"Damage Reduction"
-		],
-		"short_description": "Barbarian rages can be a thing of savage beauty, exhibiting a lethal grace. While such uncontrolled displays of carnage often disregard group tactics, there are those barbarians whose rages inspire and spur on their allies during the ferocious dance of death.",
 		"description": [
 			"## Pack Rager",
 			"",
@@ -870,12 +652,6 @@
 		"name": "Primal Hunter",
 		"file": "archetypedisplay2584.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"replaces": "Fast Movement; Rage",
-		"replace_array": [
-			"Fast Movement",
-			"Rage"
-		],
-		"short_description": "Rather than exploding with anger, primal hunters focus their rage to strike distant targets.",
 		"description": [
 			"## Primal Hunter",
 			"",
@@ -897,15 +673,6 @@
 			"Ultimate Wilderness",
 			"Champions of Corruption"
 		],
-		"replaces": "2nd-level Rage Power; Uncanny Dodge; Trap Sense; Improved Uncanny Dodge; Damage Reduction",
-		"replace_array": [
-			"2nd-level Rage Power",
-			"Uncanny Dodge",
-			"Trap Sense",
-			"Improved Uncanny Dodge",
-			"Damage Reduction"
-		],
-		"short_description": "While savagery is not inherently evil, some barbaric cultures thrive on depravity and welcome the act of feeding on their own kind.",
 		"description": [
 			"## Raging Cannibal",
 			"",
@@ -940,12 +707,6 @@
 		"name": "Savage Barbarian",
 		"file": "archetypedisplay69de.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Trap Sense; Damage Reduction",
-		"replace_array": [
-			"Trap Sense",
-			"Damage Reduction"
-		],
-		"short_description": "The savage barbarian learns to avoid blows and toughen up their skin.",
 		"description": [
 			"## Savage Barbarian",
 			"",
@@ -964,15 +725,6 @@
 		"name": "Savage Technologist",
 		"file": "archetypedisplaybe0d.html",
 		"sources": [ "Technology Guide" ],
-		"replaces": "Class Skills; Weapon/Armor Proficiency; Rage; Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Class Skills",
-			"Weapon/Armor Proficiency",
-			"Rage",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Savage technologists exhort Kellids to rise up against the depredations of the Technic League. But rather than rejecting technology, they wield the League's own weapons against it.",
 		"description": [
 			"## Savage Technologist",
 			"",
@@ -997,14 +749,6 @@
 		"name": "Scarred Rager",
 		"file": "archetypedisplay1f34.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Fast Movement; Uncanny Dodge; Trap Sense; Improved Uncanny Dodge",
-		"replace_array": [
-			"Fast Movement",
-			"Uncanny Dodge",
-			"Trap Sense",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "The scarred rager believes each wound tells the tales of her prowess and bravery.",
 		"description": [
 			"## Scarred Rager",
 			"",
@@ -1027,14 +771,6 @@
 		"name": "Sea Reaver",
 		"file": "archetypedisplaydac3.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Fast Movement; Uncanny Dodge; Trap Sense; Improved Uncanny Dodge",
-		"replace_array": [
-			"Fast Movement",
-			"Uncanny Dodge",
-			"Trap Sense",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Some sea reavers are no more than hunters of the open sea, while others are raiders striking fear into coastal settlements within reach of the sea reavers' longships.",
 		"description": [
 			"## Sea Reaver",
 			"",
@@ -1059,16 +795,6 @@
 		"name": "Sharptooth",
 		"file": "archetypedisplay21d2.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Fast Movement; Uncanny Dodge; Improved Uncanny Dodge; Trap Sense; 6th and 12th-level Rage Powers",
-		"replace_array": [
-			"Fast Movement",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge",
-			"Trap Sense",
-			"6th-level Rage Power",
-			"12th-level Rage Power"
-		],
-		"short_description": "Coastal hunters and agents of the ocean's rage, sharptooth barbarians emulate the greatest predators of the sea.",
 		"description": [
 			"## Sharptooth",
 			"",
@@ -1099,18 +825,6 @@
 		"name": "Shoanti Burn Rider",
 		"file": "archetypedisplay2dda.html",
 		"sources": [ "Inner Sea Combat" ],
-		"replaces": "Fast Movement; Uncanny Dodge; Trap Sense; 4th, 8th, 12th, 16th-level Rage Powers; Improved Uncanny Dodge",
-		"replace_array": [
-			"Fast Movement",
-			"Uncanny Dodge",
-			"Trap Sense",
-			"4th-level Rage Power",
-			"8th-level Rage Power",
-			"12th-level Rage Power",
-			"16th-level Rage Power",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "The Shoanti tribes who live in the Cinderlands have turned the deadly emberstorms that plague the region into a rite of passage. A few who survive the experience begin to embrace the adrenaline and surge of joy that comes from dancing along the edge of a whirling firestorm. These thrill-seekers are known as burn riders, and their exploits are celebrated by all Shoanti.",
 		"description": [
 			"## Shoanti Burn Rider",
 			"",
@@ -1135,12 +849,6 @@
 		"name": "Superstitious",
 		"file": "archetypedisplay3c8f.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Trap Sense; Damage Reduction",
-		"replace_array": [
-			"Trap Sense",
-			"Damage Reduction"
-		],
-		"short_description": "The superstitious barbarian is naturally distrusting, developing keen senses to protect themselves from harm.",
 		"description": [
 			"## Superstitious",
 			"",
@@ -1159,15 +867,6 @@
 		"name": "Titan Mauler",
 		"file": "archetypedisplay948d.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Fast Movement; Uncanny Dodge; Trap Sense; Improved Uncanny Dodge; Indomitable Will",
-		"replace_array": [
-			"Fast Movement",
-			"Uncanny Dodge",
-			"Trap Sense",
-			"Improved Uncanny Dodge",
-			"Indomitable Will"
-		],
-		"short_description": "In lands overrun by giants, dragons, and other hulking beasts, entire fellowships of barbarians hone tactics and traditions with one purpose-to bring low these massive foes.",
 		"description": [
 			"## Titan Mauler",
 			"",
@@ -1193,9 +892,7 @@
 		"name": "Totem Warrior",
 		"file": "archetypedisplayfb30.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "None",
 		"replace_array": [],
-		"short_description": "The totem warrior has a special totem that is the patron of her tribe.",
 		"description": [
 			"## Totem Warrior",
 			"",
@@ -1210,12 +907,6 @@
 		"name": "True Primitive",
 		"file": "archetypedisplaycf83.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Fast Movement; Trap Sense",
-		"replace_array": [
-			"Fast Movement",
-			"Trap Sense"
-		],
-		"short_description": "Isolated and xenophobic tribes that dwell in areas untouched by civilization often see anything from cities and organized settlements as strange, dangerous, and decadent.",
 		"description": [
 			"## True Primitive",
 			"",
@@ -1238,14 +929,6 @@
 		"name": "Untamed Rager",
 		"file": "archetypedisplay6a1e.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
-		"replaces": "Uncanny Dodge; Trap Sense; Improved Uncanny Dodge; Damage Reduction",
-		"replace_array": [
-			"Uncanny Dodge",
-			"Trap Sense",
-			"Improved Uncanny Dodge",
-			"Damage Reduction"
-		],
-		"short_description": "There are no rules in the wild. Some barbarians enter combat with only victory in mind and do anything in their power to achieve it.",
 		"description": [
 			"## Untamed Rager",
 			"",
@@ -1266,12 +949,6 @@
 		"name": "Urban Barbarian",
 		"file": "archetypedisplay8dd7.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Fast Movement; Rage",
-		"replace_array": [
-			"Fast Movement",
-			"Rage"
-		],
-		"short_description": "Every barbarian knows that city life can soften the spirit and the body, but some barbarians take on the trappings and ways of their adoptive homes and bend their savage powers to its challenges.",
 		"description": [
 			"## Urban Barbarian",
 			"",
@@ -1296,13 +973,6 @@
 		"name": "Wild Rager",
 		"file": "archetypedisplay9104.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Rage; Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Rage",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Rages are barely controlled, but there are those who wholly give in to their more savage side, letting their rages take them to a confusing and uncontrolled place of terrible savagery.",
 		"description": [
 			"## Wild Rager",
 			"",
@@ -1323,14 +993,6 @@
 		"name": "Wildborn",
 		"file": "archetypedisplayfa20.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Weapon/Armor Proficiency; Trap Sense; Rage Powers; Damage Reduction",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Trap Sense",
-			"Rage Powers",
-			"Damage Reduction"
-		],
-		"short_description": "Some barbarians are born or bred outside the reach of civilization. These wildborn fight and survive without ever seeing a forge or worked stone, and only dare a trip into the city when no other option is available.",
 		"description": [
 			"## Wildborn",
 			"",

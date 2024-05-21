@@ -4,12 +4,6 @@
 		"name": "Black Asp",
 		"file": "archetypedisplayd2ba.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Stunning Fist; Still Mind",
-		"replace_array": [
-			"Stunning Fist",
-			"Still Mind"
-		],
-		"short_description": "The black asps are a sinister order of monks who train as assassins and infiltrators with no need for weapons to achieve their goals.",
 		"description": [
 			"## Black Asp",
 			"",
@@ -38,16 +32,6 @@
 		"name": "Brazen Disciple",
 		"file": "archetypedisplayab73.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Class Skills; 1st, 6th-level Bonus Feats; Still Mind; Abundant Step; Perfect Self",
-		"replace_array": [
-			"Class Skills",
-			"1st-level Bonus Feat",
-			"6th-level Bonus Feat",
-			"Still Mind",
-			"Abundant Step",
-			"Perfect Self"
-		],
-		"short_description": "Brazen disciples use deception in their fighting style, and many go a step further, incorporating fire and smoke both mundane and magical.",
 		"description": [
 			"## Brazen Disciple",
 			"",
@@ -86,14 +70,6 @@
 		"name": "Disciple of Wholeness",
 		"file": "archetypedisplay392e.html",
 		"sources": [ "Healer's Handbook" ],
-		"replaces": "Ki Pool; Purity of Body; Diamond Body; Diamond Soul",
-		"replace_array": [
-			"Ki Pool",
-			"Purity of Body",
-			"Diamond Body",
-			"Diamond Soul"
-		],
-		"short_description": "Disciples of wholeness train to bring themselves and others closer to physical and spiritual perfection.",
 		"description": [
 			"## Disciple of Wholeness",
 			"",
@@ -122,15 +98,6 @@
 		"name": "Drunken Master",
 		"file": "archetypedisplay607c.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Still Mind; Purity of Body; Diamond Body; Diamond Soul; Empty Body",
-		"replace_array": [
-			"Still Mind",
-			"Purity of Body",
-			"Diamond Body",
-			"Diamond Soul",
-			"Empty Body"
-		],
-		"short_description": "The drunken master finds perfection through excess.",
 		"description": [
 			"## Drunken Master",
 			"",
@@ -153,17 +120,6 @@
 		"name": "Elemental Monk",
 		"file": "archetypedisplaya5e8.html",
 		"sources": [ "Disciple's Doctrine" ],
-		"replaces": "Alignment; Stunning Fist; Bonus Feats; Evasion; Purity of Body; Diamond Body; Ki Pool",
-		"replace_array": [
-			"Alignment",
-			"Stunning Fist",
-			"Bonus Feats",
-			"Evasion",
-			"Purity of Body",
-			"Diamond Body",
-			"Ki Pool"
-		],
-		"short_description": "Elemental monks draw inspiration from genies to create their fighting style. Their adaptability and versatility make them capable of serving as emissaries of elemental balance.",
 		"description": [
 			"## Elemental Monk",
 			"",
@@ -200,17 +156,6 @@
 		"name": "Far Strike Monk",
 		"file": "archetypedisplay546d.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"replaces": "Weapon/Armor Proficiencies; Flurry of Blows; Bonus Feats; Stunning Fist; Still Mind; Purity of Body; Diamond Body",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Flurry of Blows",
-			"Bonus Feats",
-			"Stunning Fist",
-			"Still Mind",
-			"Purity of Body",
-			"Diamond Body"
-		],
-		"short_description": "Far strike monks are masters of thrown weapons, from shuriken to throwing axes to spears.",
 		"description": [
 			"## Far Strike Monk",
 			"",
@@ -241,16 +186,6 @@
 		"name": "Flowing Monk",
 		"file": "archetypedisplay90aa.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Stunning Fist; 2nd-level Bonus Feat; Fast Movement; Purity of Body; Diamond Body; Quivering Palm",
-		"replace_array": [
-			"Stunning Fist",
-			"2nd-level Bonus Feat",
-			"Fast Movement",
-			"Purity of Body",
-			"Diamond Body",
-			"Quivering Palm"
-		],
-		"short_description": "The flowing monk is the wind and the river. He knows how the world flows, and forces his enemies to flow with it.",
 		"description": [
 			"## Flowing Monk",
 			"",
@@ -277,19 +212,6 @@
 		"name": "Gray Disciple",
 		"file": "archetypedisplayf6b2.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Slow Fall; Still Mind; High Jump; 6th-level Bonus Feat; Wholeness of Body; Abundant Step; Quivering Palm; Tongue of the Sun and Moon; Empty Body",
-		"replace_array": [
-			"Slow Fall",
-			"Still Mind",
-			"High Jump",
-			"6th-level Bonus Feat",
-			"Wholeness of Body",
-			"Abundant Step",
-			"Quivering Palm",
-			"Tongue of the Sun and Moon",
-			"Empty Body"
-		],
-		"short_description": "(Duergar Only) The gray disciple contemplates the inner voice of duergar magic and the silent eternity of stone, mastering these dual mysteries and combining them to deadly effect.",
 		"description": [
 			"## Gray Disciple",
 			"",
@@ -314,14 +236,6 @@
 		"name": "Hamatulatsu Master",
 		"file": "archetypedisplay95e9.html",
 		"sources": [ "Inner Sea Combat" ],
-		"replaces": "Bonus Feats; Stunning Fist; Ki Pool; Purity of Body",
-		"replace_array": [
-			"Bonus Feats",
-			"Stunning Fist",
-			"Ki Pool",
-			"Purity of Body"
-		],
-		"short_description": "Once part of the Sisterhood of Eiseth, the Sisterhood of the Golden Erinyes is an order of female monks dedicated to emulating the painful strikes of the barbed devil, leaving targets alive but permanently scarred and broken by pain-a method called hamatulatsu.",
 		"description": [
 			"## Hamatulatsu Master",
 			"",
@@ -344,15 +258,6 @@
 		"name": "Harrow Warden",
 		"file": "archetypedisplay3f8e.html",
 		"sources": [ "The Harrow Handbook" ],
-		"replaces": "Weapon/Armor Proficiencies; Stunning Fist; Improved Evasion; Diamond Body; Quivering Palm",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Stunning Fist",
-			"Improved Evasion",
-			"Diamond Body",
-			"Quivering Palm"
-		],
-		"short_description": "Some who study the mysteries of the harrow do so to restore lost knowledge and pride to the Varisian people. The harrow warden fulfills this role as she seeks to bring her mind and body into alignment, and she protects her people by invoking the folklore that has guided them for so long. In mastering her own place in fate, a harrow warden learns how to misalign the destinies of others.",
 		"description": [
 			"## Harrow Warden",
 			"",
@@ -377,24 +282,6 @@
 		"name": "Hellcat",
 		"file": "archetypedisplay4610.html",
 		"sources": [ "Villain Codex" ],
-		"replaces": "Alignment; Class Skills; Weapon Proficiencies; Bonus Feats; Stunning Fist; Fast Movement; Evasion; Purity of Body; Improved Evasion; Slow Fall; Still Mind; Ki Pool; Wholeness of Body; Diamond Body",
-		"replace_array": [
-			"Alignment",
-			"Class Skills",
-			"Weapon Proficiency",
-			"Bonus Feats",
-			"Stunning Fist",
-			"Fast Movement",
-			"Evasion",
-			"Purity of Body",
-			"Improved Evasion",
-			"Slow Fall",
-			"Still Mind",
-			"Ki Pool",
-			"Wholeness of Body",
-			"Diamond Body"
-		],
-		"short_description": "Monks of the hellcat sect follow the teachings of Asmodeus or another infernal power.",
 		"description": [
 			"## Hellcat",
 			"",
@@ -443,15 +330,6 @@
 		"name": "Hungry Ghost Monk",
 		"file": "archetypedisplay0e1b.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Stunning Fist; Purity of Body; Wholeness of Body; Diamond Body; Diamond Soul",
-		"replace_array": [
-			"Stunning Fist",
-			"Purity of Body",
-			"Wholeness of Body",
-			"Diamond Body",
-			"Diamond Soul"
-		],
-		"short_description": "The hungry ghost monk looks to spirits that prey upon the living as models of perfection.",
 		"description": [
 			"## Hungry Ghost Monk",
 			"",
@@ -474,11 +352,6 @@
 		"name": "Invested Regent",
 		"file": "archetypedisplay5742.html",
 		"sources": [ "Heroes of the High Court" ],
-		"replaces": "1st-level Bonus Feat",
-		"replace_array": [
-			"1st-level Bonus Feat"
-		],
-		"short_description": "The invested regent can harness a divine spark to perform superhuman stunts, influence others, and escape injury.",
 		"description": [
 			"## Invested Regent",
 			"",
@@ -576,20 +449,6 @@
 		"name": "Ironskin Monk",
 		"file": "archetypedisplay3eda.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Monk's AC; Bonus Feats; Evasion; Ki Speed Increase; High Jump; Fast Movement; Slow Fall; Improved Evasion; Tongue of the Sun and Moon; Perfect Self",
-		"replace_array": [
-			"Monk's AC",
-			"Bonus Feats",
-			"Evasion",
-			"Ki Speed Increase",
-			"High Jump",
-			"Fast Movement",
-			"Slow Fall",
-			"Improved Evasion",
-			"Tongue of the Sun and Moon",
-			"Perfect Self"
-		],
-		"short_description": "(Hobgoblin Only) Through discipline and training, an ironskin monk hardens his body to withstand punishing blows.",
 		"description": [
 			"## Ironskin Monk",
 			"",
@@ -620,19 +479,6 @@
 		"name": "Karmic Monk",
 		"file": "archetypedisplay1b48.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Alignment; Class Skills; Stunning Fist; Still Mind; 7th and 10th-level Ki Pool Abilities; Improved Evasion; Slow Fall; Perfect Self",
-		"replace_array": [
-			"Alignment",
-			"Class Skills",
-			"Stunning Fist",
-			"Still Mind",
-			"7th-level Ki Pool Ability",
-			"10th-level Ki Pool Ability",
-			"Improved Evasion",
-			"Slow Fall",
-			"Perfect Self"
-		],
-		"short_description": "A karmic monk contemplates the myriad harmonies that guide existence. He learns to use the disharmony in others against them, and to alter his own inner harmonies to exploit weaknesses in his opponents' defenses.",
 		"description": [
 			"## Karmic Monk",
 			"",
@@ -663,15 +509,6 @@
 		"name": "Kata Master",
 		"file": "archetypedisplay9e92.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Stunning Fist; Still Mind; Ki Pool; Wholeness of Body; Quivering Palm",
-		"replace_array": [
-			"Stunning Fist",
-			"Still Mind",
-			"Ki Pool",
-			"Wholeness of Body",
-			"Quivering Palm"
-		],
-		"short_description": "The kata master takes the visual aspect of his martial art to its logical extreme, harnessing her flowing movements and skilled maneuvers as a psychological weapon against her enemies.",
 		"description": [
 			"## Kata Master",
 			"",
@@ -694,15 +531,6 @@
 		"name": "Ki Mystic",
 		"file": "archetypedisplay6dd7.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Still Mind; Purity of Body; Diamond Body; Diamond Soul; Empty Body",
-		"replace_array": [
-			"Still Mind",
-			"Purity of Body",
-			"Diamond Body",
-			"Diamond Soul",
-			"Empty Body"
-		],
-		"short_description": "The ki mystic believes that violence is sometimes necessary, but knowing and understanding is the true root of perfection.",
 		"description": [
 			"## Ki Mystic",
 			"",
@@ -725,13 +553,6 @@
 		"name": "Lifting Hand",
 		"file": "archetypedisplay9403.html",
 		"sources": [ "Martial Arts Handbook" ],
-		"replaces": "Stunning Fist; Bonus Feats; Abundant Step",
-		"replace_array": [
-			"Stunning Fist",
-			"Bonus Feats",
-			"Abundant Step"
-		],
-		"short_description": "When facing a master of the lifting hand, an enemy is likely to find itself sailing through the air or locked in a tortuous compliance hold.",
 		"description": [
 			"## Lifting Hand",
 			"",
@@ -764,16 +585,6 @@
 		"name": "Maneuver Master",
 		"file": "archetypedisplay26a3.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Flurry of Blows; Still Mind; Slow Fall; Purity of Body; Diamond Body; Quivering Palm",
-		"replace_array": [
-			"Flurry of Blows",
-			"Still Mind",
-			"Slow Fall",
-			"Purity of Body",
-			"Diamond Body",
-			"Quivering Palm"
-		],
-		"short_description": "The maneuver master specializes in more complicated moves than simple damage-dealing strikes.",
 		"description": [
 			"## Maneuver Master",
 			"",
@@ -800,22 +611,6 @@
 		"name": "Martial Artist",
 		"file": "archetypedisplayb1cd.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Still Mind; Slow Fall; Ki Pool; Purity of Body; Diamond Body; Perfect Self; Wholeness of Body; Timeless Body; Tongue of Sun and Moon; Abundant Step; Diamond Soul; Empty Body",
-		"replace_array": [
-			"Still Mind",
-			"Slow Fall",
-			"Ki Pool",
-			"Purity of Body",
-			"Diamond Body",
-			"Perfect Self",
-			"Wholeness of Body",
-			"Timeless Body",
-			"Tongue of the Sun and Moon",
-			"Abundant Step",
-			"Diamond Soul",
-			"Empty Body"
-		],
-		"short_description": "The martial artist pursues a mastery of pure martial arts without the monastic traditions. He is a master of form, but lacks the ability to harness his ki.",
 		"description": [
 			"## Martial Artist",
 			"",
@@ -852,13 +647,6 @@
 		"name": "Master of Many Styles",
 		"file": "archetypedisplayc923.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Bonus Feats; Flurry of Blows; Perfect Self",
-		"replace_array": [
-			"Bonus Feats",
-			"Flurry of Blows",
-			"Perfect Self"
-		],
-		"short_description": "The master of many styles is a collector. For every move, he seeks a counter. For every style, he has a riposte.",
 		"description": [
 			"## Master of Many Styles",
 			"",
@@ -883,18 +671,6 @@
 		"name": "Menhir Guardian",
 		"file": "archetypedisplay6b78.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Alignment; Weapon/Armor Proficiencies; Unarmed Strike; Ki Pool; Flurry of Blows; Stunning Fist; High Jump; Quivering Palm",
-		"replace_array": [
-			"Alignment",
-			"Weapon/Armor Proficiency",
-			"Unarmed Strike",
-			"Ki Pool",
-			"Flurry of Blows",
-			"Stunning Fist",
-			"High Jump",
-			"Quivering Palm"
-		],
-		"short_description": "Menhir guardians are ascetic protectors of sacred druidic sites, less concerned with structure and maintaining internal order than they are with preserving the natural balance of the world.",
 		"description": [
 			"## Menhir Guardian",
 			"",
@@ -933,14 +709,6 @@
 		"name": "Monk of the Empty Hand",
 		"file": "archetypedisplaya7dc.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Monk Weapon Proficiencies; Still Mind; Purity of Body; Diamond Body",
-		"replace_array": [
-			"Weapon Proficiency",
-			"Still Mind",
-			"Purity of Body",
-			"Diamond Body"
-		],
-		"short_description": "The monk of the empty hand eschews normal weapons in favor of whatever is lying around-rocks, chair legs, flagons of ale, even a simple quill pen all become deadly weapons in the hands of such a monk.",
 		"description": [
 			"## Monk of the Empty Hand",
 			"",
@@ -965,14 +733,6 @@
 		"name": "Monk of the Four Winds",
 		"file": "archetypedisplayd232.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Stunning Fist; Abundant Step; Timeless Body; Perfect Self",
-		"replace_array": [
-			"Stunning Fist",
-			"Abundant Step",
-			"Timeless Body",
-			"Perfect Self"
-		],
-		"short_description": "The monk of the four winds is connected to the natural world in a way few other creatures-even other monks-can hope to match.",
 		"description": [
 			"## Monk of the Four Winds",
 			"",
@@ -1005,14 +765,6 @@
 		"name": "Monk of the Healing Hand",
 		"file": "archetypedisplay6eca.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Wholeness of Body; Diamond Body; Quivering Palm; Perfect Self",
-		"replace_array": [
-			"Wholeness of Body",
-			"Diamond Body",
-			"Quivering Palm",
-			"Perfect Self"
-		],
-		"short_description": "Monks of the healing hand seek perfection through helping others.",
 		"description": [
 			"## Monk of the Healing Hand",
 			"",
@@ -1031,14 +783,6 @@
 		"name": "Monk of the Lotus",
 		"file": "archetypedisplay2b76.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Stunning Fist; Abundant Step; Quivering Palm; Tongue of the Sun and the Moon",
-		"replace_array": [
-			"Stunning Fist",
-			"Abundant Step",
-			"Quivering Palm",
-			"Tongue of the Sun and Moon"
-		],
-		"short_description": "While a monk of the lotus realizes that combat cannot always be avoided-and is more than capable in a fight-he understands that all creatures are connected, and to harm another is to harm the self.",
 		"description": [
 			"## Monk of the Lotus",
 			"",
@@ -1059,19 +803,6 @@
 		"name": "Monk of the Mantis",
 		"file": "archetypedisplay271e.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
-		"replaces": "2nd, 6th, 10th, 14th, and 18th-level Bonus Feats; Wholeness of Body; Diamond Body; Diamond Soul; Quivering Palm",
-		"replace_array": [
-			"2nd-level Bonus Feat",
-			"6th-level Bonus Feat",
-			"10th-level Bonus Feat",
-			"14th-level Bonus Feat",
-			"18th-level Bonus Feat",
-			"Wholeness of Body",
-			"Diamond Body",
-			"Diamond Soul",
-			"Quivering Palm"
-		],
-		"short_description": "A body contains many points where the flesh, mind, and spirit coincide. A monk of the mantis is skilled at manipulating these points.",
 		"description": [
 			"## Monk of the Mantis",
 			"",
@@ -1090,15 +821,6 @@
 		"name": "Monk of the Sacred Mountain",
 		"file": "archetypedisplay0e60.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Evasion; Slow Fall; High Jump; Improved Evasion; Tongue of the Sun and the Moon",
-		"replace_array": [
-			"Evasion",
-			"Slow Fall",
-			"High Jump",
-			"Improved Evasion",
-			"Tongue of the Sun and Moon"
-		],
-		"short_description": "The monk of the sacred mountain finds strength and power in the earth beneath his feet.",
 		"description": [
 			"## Monk of the Sacred Mountain",
 			"",
@@ -1121,15 +843,6 @@
 		"name": "Monk of the Seven Forms",
 		"file": "archetypedisplay5d1a.html",
 		"sources": [ "Inner Sea Combat" ],
-		"replaces": "Bonus Feats; Stunning Fist; Maneuver Training; Abundant Step; Quivering Palm",
-		"replace_array": [
-			"Bonus Feats",
-			"Stunning Fist",
-			"Maneuver Training",
-			"Abundant Step",
-			"Quivering Palm"
-		],
-		"short_description": "In their place, the monks of the isolated sanctuary now teach a style featuring lightning-fast strikes that mimic both dervish dances and the searing winds of the arid desert, favoring mobility and endurance.",
 		"description": [
 			"## Monk of the Seven Forms",
 			"",
@@ -1154,15 +867,6 @@
 		"name": "Nimble Guardian",
 		"file": "archetypedisplayd8f6.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Evasion; Still Mind; Purity of Body; Wholeness of Body; Improved Evasion",
-		"replace_array": [
-			"Evasion",
-			"Still Mind",
-			"Purity of Body",
-			"Wholeness of Body",
-			"Improved Evasion"
-		],
-		"short_description": "(Catfolk Only) Some catfolk monks dedicate their graceful prowess to the defense of others, especially those dedicated to a similar ethos or who prove themselves as stalwart allies of the monk's cause.",
 		"description": [
 			"## Nimble Guardian",
 			"",
@@ -1185,19 +889,6 @@
 		"name": "Nornkith",
 		"file": "archetypedisplayfe35.html",
 		"sources": [ "Legacy of the First World" ],
-		"replaces": "Key Ability Score; Stunning Fist; 1st-, 10th-level Bonus Feat; Purity of Body; Diamond Soul; Quivering Palm; Empty Body; Perfect Self",
-		"replace_array": [
-			"Key Ability Score",
-			"Stunning Fist",
-			"1st-level Bonus Feat",
-			"10th-level Bonus Feat",
-			"Purity of Body",
-			"Diamond Soul",
-			"Quivering Palm",
-			"Empty Body",
-			"Perfect Self"
-		],
-		"short_description": "Nornkith hone their bodies and minds to follow the branching threefold paths of fate.",
 		"description": [
 			"## Nornkith",
 			"",
@@ -1240,12 +931,6 @@
 		"name": "Ouat",
 		"file": "archetypedisplayaaf0.html",
 		"sources": [ "Inner Sea Combat" ],
-		"replaces": "Greed, Hatred, Defensive Training, Stonecunning, Weapon Familiarity (Dwarven Racial Traits); Stunning Fist; Wholeness of Body",
-		"replace_array": [
-			"Stunning Fist",
-			"Wholeness of Body"
-		],
-		"short_description": "(Dwarf Only) The ascetic, desert-dwelling dwarves known as the Ouat have eschewed dwarven traditions, whose unchanging rigidity, they believe, shackles their people to the past and inhibits self-improvement.",
 		"description": [
 			"## Ouat",
 			"",
@@ -1268,15 +953,6 @@
 		"name": "Perfect Scholar",
 		"file": "archetypedisplayb023.html",
 		"sources": [ "Inner Sea Intrigue" ],
-		"replaces": "Class Skills; Still Mind; Slow Fall; Tongue of the Sun and Moon; Perfect Self",
-		"replace_array": [
-			"Class Skills",
-			"Still Mind",
-			"Slow Fall",
-			"Tongue of the Sun and Moon",
-			"Perfect Self"
-		],
-		"short_description": "Perfect scholars, often worshipers of Irori, hone their minds and bodies through the accumulation of knowledge",
 		"description": [
 			"## Perfect Scholar",
 			"",
@@ -1309,21 +985,6 @@
 		"name": "Qinggong Monk",
 		"file": "archetypedisplayf639.html",
 		"sources": [],
-		"replaces": "Slow Fall; High Jump; Wholeness of Body; Diamond Body; Abundant Step; Diamond Soul; Quivering Palm; Timeless Body; Tongue of the Sun and Moon; Empty Body; Perfect Self",
-		"replace_array": [
-			"Slow Fall",
-			"High Jump",
-			"Wholeness of Body",
-			"Diamond Body",
-			"Abundant Step",
-			"Diamond Soul",
-			"Quivering Palm",
-			"Timeless Body",
-			"Tongue of the Sun and Moon",
-			"Empty Body",
-			"Perfect Self"
-		],
-		"short_description": "The qinggong monk is a master of her ki, using it to perform superhuman stunts or even blast opponents with supernatural energy.",
 		"description": [
 			"## Qinggong Monk",
 			"",
@@ -1624,17 +1285,6 @@
 		"name": "Sage Counselor",
 		"file": "archetypedisplaydff3.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; 1st, 2nd, 6th, 10th-level Bonus Feat; Ki Pool abilities",
-		"replace_array": [
-			"Class Skills",
-			"1st-level Bonus Feat",
-			"2nd-level Bonus Feat",
-			"6th-level Bonus Feat",
-			"10th-level Bonus Feat",
-			"Ki Speed Increase",
-			"Ki Extra Flurry"
-		],
-		"short_description": "Sage counselors are ascetics and mystics who leave the confines of the monastery walls to advise secular people about spiritual truths and to seek knowledge of the outside world.",
 		"description": [
 			"## Sage Counselor",
 			"",
@@ -1663,14 +1313,6 @@
 		"name": "Scaled Fist",
 		"file": "archetypedisplay5673.html",
 		"sources": [ "Legacy of Dragons" ],
-		"replaces": "Bonus Feats; Still Mind; Maneuver Training; Quivering Palm",
-		"replace_array": [
-			"Bonus Feats",
-			"Still Mind",
-			"Maneuver Training",
-			"Quivering Palm"
-		],
-		"short_description": "Scaled fists eschew passive introspection in favor of unshakable confidence. Steeped in traditions that trace their origins to the warrior-monks who trained under the tutelage of draconic masters in Tian Xia, scaled fists eschew passive introspection in favor of unshakable confidence. Scaled fists learn to combine brutal intimidation with the brazen ferocity of an ancient wyrm to devastate their foes.",
 		"description": [
 			"## Scaled Fist",
 			"",
@@ -1709,15 +1351,6 @@
 		"name": "Scarred Monk",
 		"file": "archetypedisplay0e60-2.html",
 		"sources": [ "Horror Realms" ],
-		"replaces": "Ki Pool; High Jump; Wholeness of Body; Abundant Step; Empty Body",
-		"replace_array": [
-			"Ki Pool",
-			"High Jump",
-			"Wholeness of Body",
-			"Abundant Step",
-			"Empty Body"
-		],
-		"short_description": "For monks who seek the truth hidden in pain, the practice of mortifications of the flesh helps to achieve enlightenment and acquire disturbing powers.",
 		"description": [
 			"## Scarred Monk",
 			"",
@@ -1762,18 +1395,6 @@
 		"name": "Sensei",
 		"file": "archetypedisplay77b2.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Flurry of Blows; Fast Movement; Improved Evasion; Evasion; 2nd, 6th, 12th, 18th-level Bonus Feats",
-		"replace_array": [
-			"Flurry of Blows",
-			"Fast Movement",
-			"Improved Evasion",
-			"Evasion",
-			"2nd-level Bonus Feat",
-			"6th-level Bonus Feat",
-			"12th-level Bonus Feat",
-			"18th-level Bonus Feat"
-		],
-		"short_description": "The sensei is a revered teacher who imparts lessons on the oneness of mind, body, and spirit, along with occasional correction that is subtle and swift.",
 		"description": [
 			"## Sensei",
 			"",
@@ -1796,21 +1417,6 @@
 		"name": "Serpent-Fire Adept",
 		"file": "archetypedisplaya183.html",
 		"sources": [ "Occult Origins" ],
-		"replaces": "Class Skills; Stunning Fist; 1st, 2nd, 6th, 10th, 14th, and 18th-level Bonus Feats; Slow Fall; High Jump; Wholeness of Body",
-		"replace_array": [
-			"Class Skills",
-			"Stunning Fist",
-			"1st-level Bonus Feat",
-			"2nd-level Bonus Feat",
-			"6th-level Bonus Feat",
-			"10th-level Bonus Feat",
-			"14th-level Bonus Feat",
-			"18th-level Bonus Feat",
-			"Slow Fall",
-			"High Jump",
-			"Wholeness of Body"
-		],
-		"short_description": "A serpent-fire adept embraces the secrets of her chakras and mastery of their energetic flow.",
 		"description": [
 			"## Serpent-Fire Adept",
 			"",
@@ -1837,16 +1443,6 @@
 		"name": "Sin Monk",
 		"file": "archetypedisplay420a.html",
 		"sources": [ "Antihero's Handbook" ],
-		"replaces": "Ki Pool; High Jump; Wholeness of Body; Abundant Step; Empty Body; Perfect Self",
-		"replace_array": [
-			"Ki Pool",
-			"High Jump",
-			"Wholeness of Body",
-			"Abundant Step",
-			"Empty Body",
-			"Perfect Self"
-		],
-		"short_description": "{Ex-monk archetype) Martial experts who have allowed such passions to lead them astray may find themselves gaining powers drawn from their newly embraced sins.",
 		"description": [
 			"## Sin Monk",
 			"",
@@ -1901,17 +1497,6 @@
 		"name": "Softstrike Monk",
 		"file": "archetypedisplay2e31.html",
 		"sources": [ "Martial Arts Handbook" ],
-		"replaces": "Weapon Proficiency; Unarmed Strike; 6th, 10th-level Bonus Feats; Wholeness of Body; Quivering Palm; Empty Body",
-		"replace_array": [
-			"Weapon Proficiency",
-			"Unarmed Strike",
-			"6th-level Bonus Feat",
-			"10th-level Bonus Feat",
-			"Wholeness of Body",
-			"Quivering Palm",
-			"Empty Body"
-		],
-		"short_description": "Softstrike monks employ a nonlethal but effective form of combat.",
 		"description": [
 			"## Softstrike Monk",
 			"",
@@ -1952,21 +1537,6 @@
 		"name": "Sohei",
 		"file": "archetypedisplayd30b.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Weapon/Armor Proficiency; Stunning Fist; Fast Movement; Increased Unarmed Damage; Slow Fall; Abundant Step; Purity of Body; Diamond Body; Quivering Palm; Timeless Body; Tongue of Sun and Moon",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Stunning Fist",
-			"Fast Movement",
-			"Increased Unarmed Damage",
-			"Slow Fall",
-			"Abundant Step",
-			"Purity of Body",
-			"Diamond Body",
-			"Quivering Palm",
-			"Timeless Body",
-			"Tongue of the Sun and Moon"
-		],
-		"short_description": "The sohei are masters of the horse and the hunt.",
 		"description": [
 			"## Sohei",
 			"",
@@ -1995,15 +1565,6 @@
 		"name": "Soul Shepherd",
 		"file": "archetypedisplay23cf.html",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
-		"replaces": "Stunning Fist; Evasion; Improved Evasion; Abundant Step; Quivering Palm",
-		"replace_array": [
-			"Stunning Fist",
-			"Evasion",
-			"Improved Evasion",
-			"Abundant Step",
-			"Quivering Palm"
-		],
-		"short_description": "Whether studying at the feet of psychopomps or merely imitating the creatures' philosophy and methods, soul shepherds believe in safeguarding the Cycle of Souls.",
 		"description": [
 			"## Soul Shepherd",
 			"",
@@ -2034,17 +1595,6 @@
 		"name": "Spirit Master",
 		"file": "archetypedisplay2bf1.html",
 		"sources": [ "Undead Slayer's Handbook" ],
-		"replaces": "Still Mind; Maneuver Training; Purity of Body; Wholeness of Body; Quivering Palm; Empty Body; Perfect Self",
-		"replace_array": [
-			"Still Mind",
-			"Maneuver Training",
-			"Purity of Body",
-			"Wholeness of Body",
-			"Quivering Palm",
-			"Empty Body",
-			"Perfect Self"
-		],
-		"short_description": "Spirit masters are monks who specialize in combating the undead, laying their corpses to rest, and sending their souls to final judgment.",
 		"description": [
 			"## Spirit Master",
 			"",
@@ -2071,16 +1621,6 @@
 		"name": "Student of Stone",
 		"file": "archetypedisplay02ef.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Evasion; Fast Movement; Bonus Feat; High Jump; Improved Evasion; Abundant Step",
-		"replace_array": [
-			"Evasion",
-			"Fast Movement",
-			"Bonus Feats",
-			"High Jump",
-			"Improved Evasion",
-			"Abundant Step"
-		],
-		"short_description": "(Oread Only) By following the path of the stone, students of stone give up much of monks' mobility in favor of sheer resilience.",
 		"description": [
 			"## Student of Stone",
 			"",
@@ -2107,17 +1647,6 @@
 		"name": "Terra-Cotta Monk",
 		"file": "archetypedisplay6260.html",
 		"sources": [ "Dungeoneer's Handbook" ],
-		"replaces": "Class Skills; Evasion; High Jump; Improved Evasion; Abundant Step; Quivering Palm; Empty Body",
-		"replace_array": [
-			"Class Skills",
-			"Evasion",
-			"High Jump",
-			"Improved Evasion",
-			"Abundant Step",
-			"Quivering Palm",
-			"Empty Body"
-		],
-		"short_description": "Possessing a natural affinity for all things earthen, terracotta monks are experts at turning the stone around them against their enemies.",
 		"description": [
 			"## Terra-Cotta Monk",
 			"",
@@ -2147,20 +1676,6 @@
 			"Ultimate Combat",
 			"Link"
 		],
-		"replaces": "Bonus Feats; Flurry of Blows; Slow Fall; High Jump; Abundant Step; Improved Evasion; Timeless Body; Tongue of Sun and Moon; Diamond Soul; Empty Body",
-		"replace_array": [
-			"Bonus Feats",
-			"Flurry of Blows",
-			"Slow Fall",
-			"High Jump",
-			"Abundant Step",
-			"Improved Evasion",
-			"Timeless Body",
-			"Tongue of the Sun and Moon",
-			"Diamond Soul",
-			"Empty Body"
-		],
-		"short_description": "The style of the tetori is that of the majestic wrestler-a warrior with a dizzying array of grabs, holds, and locks with which to bewilder and incapacitate his foes.",
 		"description": [
 			"## Tetori",
 			"",
@@ -2189,13 +1704,6 @@
 		"name": "Treetop Monk",
 		"file": "archetypedisplaye595.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Still Mind; Purity of Body; Abundant Step",
-		"replace_array": [
-			"Still Mind",
-			"Purity of Body",
-			"Abundant Step"
-		],
-		"short_description": "(Vanara Only) While many vanaras follow traditional monastic training and traditions, others learn to blend exotic combat and the mysterious forces of ki with the natural world, allowing them to move through trees and overgrowth to deliver devastating attacks.",
 		"description": [
 			"## Treetop Monk",
 			"",
@@ -2214,13 +1722,6 @@
 		"name": "Underfoot Adept",
 		"file": "archetypedisplay58fd.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "1st-level Bonus Feat; Stunning Fist; High Jump",
-		"replace_array": [
-			"1st-level Bonus Feat",
-			"Stunning Fist",
-			"High Jump"
-		],
-		"short_description": "(Halfling Only) An underfoot adept turns his diminutive stature and unorthodox footwork into a powerful weapon.",
 		"description": [
 			"## Underfoot Adept",
 			"",
@@ -2239,18 +1740,6 @@
 		"name": "Wanderer",
 		"file": "archetypedisplayab13.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Class Skills; 1st-level Bonus Feat; Still Mind; Slow Fall; High Jump; Wholeness of Body; Abundant Step; Diamond Soul",
-		"replace_array": [
-			"Class Skills",
-			"1st-level Bonus Feat",
-			"Still Mind",
-			"Slow Fall",
-			"High Jump",
-			"Wholeness of Body",
-			"Abundant Step",
-			"Diamond Soul"
-		],
-		"short_description": "(Human Only) Some monks wander the world in humility to learn and to share wisdom and philosophy from their teachers with those they meet, often aiding those who are in need.",
 		"description": [
 			"## Wanderer",
 			"",
@@ -2279,15 +1768,6 @@
 		"name": "Wasteland Meditant",
 		"file": "archetypedisplaybbe5.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Stunning Fist; Evasion; Slow Fall; Improved Evasion; Quivering Palm",
-		"replace_array": [
-			"Stunning Fist",
-			"Evasion",
-			"Slow Fall",
-			"Improved Evasion",
-			"Quivering Palm"
-		],
-		"short_description": "Some monks journey to remote and isolated corners of the world to find serenity and a heightened sense of awareness.",
 		"description": [
 			"## Wasteland Meditant",
 			"",
@@ -2324,24 +1804,6 @@
 		"name": "Water Dancer",
 		"file": "archetypedisplayc729.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Flurry of Blows; Stunning Fist; Quivering Palm; 1st, 2nd, 6th, 10th, 14th, and 18th-level Bonus Feats; Unarmed Strike; Evasion; Slow Fall; Improved Evasion; Abundant Step",
-		"replace_array": [
-			"Flurry of Blows",
-			"Stunning Fist",
-			"Quivering Palm",
-			"1st-level Bonus Feat",
-			"2nd-level Bonus Feat",
-			"6th-level Bonus Feat",
-			"10th-level Bonus Feat",
-			"14th-level Bonus Feat",
-			"18th-level Bonus Feat",
-			"Unarmed Strike",
-			"Evasion",
-			"Slow Fall",
-			"Improved Evasion",
-			"Abundant Step"
-		],
-		"short_description": "Water dancers derive their martial training from ancient nereid traditions jealously guarded by these enigmatic fey.",
 		"description": [
 			"## Water Dancer",
 			"",
@@ -2386,15 +1848,6 @@
 		"name": "Weapon Adept",
 		"file": "archetypedisplay4828.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Stunning Fist; Evasion; Improved Evasion; Timeless Body; Perfect Self",
-		"replace_array": [
-			"Stunning Fist",
-			"Evasion",
-			"Improved Evasion",
-			"Timeless Body",
-			"Perfect Self"
-		],
-		"short_description": "While all monks train in both unarmed combat and with weapons, the weapon adept seeks to become one with his weapons, transforming them into perfect extensions of his own body.",
 		"description": [
 			"## Weapon Adept",
 			"",
@@ -2417,18 +1870,6 @@
 		"name": "Wildcat",
 		"file": "archetypedisplay3cee.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Still Mind; Ki Pool; High Jump; Slow Fall; Improved Evasion; Abundant Step; Diamond Soul; Empty Body",
-		"replace_array": [
-			"Still Mind",
-			"Ki Pool",
-			"High Jump",
-			"Slow Fall",
-			"Improved Evasion",
-			"Abundant Step",
-			"Diamond Soul",
-			"Empty Body"
-		],
-		"short_description": "A wildcat is a student of the school of hard knocks, who dedicates himself to learning how to take down foes by any means necessary.",
 		"description": [
 			"## Wildcat",
 			"",
@@ -2459,13 +1900,6 @@
 		"name": "Windstep Master",
 		"file": "archetypedisplaya941.html",
 		"sources": [ "Elemental Master's Handbook" ],
-		"replaces": "Stunning Fist; Slow Fall; Ki Pool",
-		"replace_array": [
-			"Stunning Fist",
-			"Slow Fall",
-			"Ki Pool"
-		],
-		"short_description": "Most monks are agile and fleet of foot, but few can rival a windstep master's lightness of step.",
 		"description": [
 			"## Windstep Master",
 			"",
@@ -2494,18 +1928,6 @@
 		"name": "Zen Archer",
 		"file": "archetypedisplay9a49.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Stunning Fist; Evasion; Maneuver Training; Still Mind; Purity of Body; Improved Evasion; Diamond Body; Tongue of the Sun and the Moon",
-		"replace_array": [
-			"Stunning Fist",
-			"Evasion",
-			"Maneuver Training",
-			"Still Mind",
-			"Purity of Body",
-			"Improved Evasion",
-			"Diamond Body",
-			"Tongue of the Sun and Moon"
-		],
-		"short_description": "The zen archer takes a weapon most other monks eschew and seeks perfection in the pull of a taut bowstring, the flex of a bow's limbs, and the flight of an arrow fired true.",
 		"description": [
 			"## Zen Archer",
 			"",

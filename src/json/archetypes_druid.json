@@ -4,17 +4,6 @@
 		"name": "Aerie Protector",
 		"file": "archetypedisplay710a.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Weapon/Armor Proficiencies; Nature Bond; Wild Empathy; Woodland Stride; Resist Nature's Lure; Wild Shape; Venom Immunity",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Nature Bond",
-			"Wild Empathy",
-			"Woodland Stride",
-			"Resist Nature's Lure",
-			"Wild Shape",
-			"Venom Immunity"
-		],
-		"short_description": "The aerie protector guards nature's nests and lairs in the highest mountains, and she is only ever truly at ease when under vast expanses of open sky.",
 		"description": [
 			"## Aerie Protector",
 			"",
@@ -55,18 +44,6 @@
 		"name": "Ancient Guardian",
 		"file": "archetypedisplay235f.html",
 		"sources": [ "Monster Codex" ],
-		"replaces": "Weapon Proficiencies; Nature Bond; Wild Empathy; Trackless Step; Woodland Stride; Spontaneous Casting; Resist Nature's Lure; A Thousand Faces",
-		"replace_array": [
-			"Weapon Proficiency",
-			"Nature Bond",
-			"Wild Empathy",
-			"Trackless Step",
-			"Woodland Stride",
-			"Spontaneous Casting",
-			"Resist Nature's Lure",
-			"A Thousand Faces"
-		],
-		"short_description": "Ancient guardians revere nature and draw power from its divine energies, but also protect the customs, histories, and lore of their tribe and race.",
 		"description": [
 			"## Ancient Guardian",
 			"",
@@ -93,12 +70,6 @@
 		"name": "Ape Shaman",
 		"file": "archetypedisplayd6fc.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "A Thousand Faces; Venom Immunity",
-		"replace_array": [
-			"A Thousand Faces",
-			"Venom Immunity"
-		],
-		"short_description": "A shaman with this totem calls upon the mighty ape, a peaceful but powerful simian whose strength is beyond compare.",
 		"description": [
 			"## Ape Shaman",
 			"",
@@ -127,15 +98,6 @@
 		"name": "Aquatic Druid",
 		"file": "archetypedisplay3139.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Woodland Stride; Trackless Step; Resist Nature's Lure; Venom Immunity; A Thousand Faces",
-		"replace_array": [
-			"Woodland Stride",
-			"Trackless Step",
-			"Resist Nature's Lure",
-			"Venom Immunity",
-			"A Thousand Faces"
-		],
-		"short_description": "Shepherds of the lakes and seas, aquatic druids guard ecosystems ranging from shallows streams to deep ocean trenches, ministering to their residents and communing with the tides.",
 		"description": [
 			"## Aquatic Druid",
 			"",
@@ -162,15 +124,6 @@
 		"name": "Arctic Druid",
 		"file": "archetypedisplay44cd.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Woodland Stride; Trackless Step; Resist Nature's Lure; Venom Immunity; A Thousand Faces",
-		"replace_array": [
-			"Woodland Stride",
-			"Trackless Step",
-			"Resist Nature's Lure",
-			"Venom Immunity",
-			"A Thousand Faces"
-		],
-		"short_description": "An arctic druid watches over the stark landscape of the far frozen reaches of the world.",
 		"description": [
 			"## Arctic Druid",
 			"",
@@ -195,13 +148,6 @@
 		"name": "Ashvawg Tamer",
 		"file": "archetypedisplaye56d.html",
 		"sources": [ "Pathfinder #5: Sins of the Saviors" ],
-		"replaces": "Resist Nature's Lure, one less Wild Shape/day, Venom Immunity",
-		"replace_array": [
-			"Resist Nature's Lure",
-			"Wild Shape",
-			"Venom Immunity"
-		],
-		"short_description": "Ashvawg Tamers are druids who have chosen to bond with a strange and monstrous creature.",
 		"description": [
 			"## Ashvawg Tamer",
 			"",
@@ -246,12 +192,6 @@
 		"name": "Bat Shaman",
 		"file": "archetypedisplay1157.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "A Thousand Faces; Venom Immunity",
-		"replace_array": [
-			"A Thousand Faces",
-			"Venom Immunity"
-		],
-		"short_description": "The bat shaman's totem is the agile bat, flitting and turning with incredible speed through even the most convoluted mazes.",
 		"description": [
 			"## Bat Shaman",
 			"",
@@ -280,12 +220,6 @@
 		"name": "Bear Shaman",
 		"file": "archetypedisplay9190.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "A Thousand Faces; Venom Immunity",
-		"replace_array": [
-			"A Thousand Faces",
-			"Venom Immunity"
-		],
-		"short_description": "A shaman with this focus calls upon the mighty bear, titan of the woodlands and mountains, a paragon of strength and ferocity, and yet also a quiet protector rich in wisdom.",
 		"description": [
 			"## Bear Shaman",
 			"",
@@ -310,15 +244,6 @@
 		"name": "Blight Druid",
 		"file": "archetypedisplay331e.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Wild Empathy; Trackless Step; Resist Nature's Lure; Venom Immunity; A Thousand Faces",
-		"replace_array": [
-			"Wild Empathy",
-			"Trackless Step",
-			"Resist Nature's Lure",
-			"Venom Immunity",
-			"A Thousand Faces"
-		],
-		"short_description": "The devoted servants of nature corrupted, ruined, and destroyed, blight druids are the caretakers of lands ravaged by natural disaster.",
 		"description": [
 			"## Blight Druid",
 			"",
@@ -341,12 +266,6 @@
 		"name": "Boar Shaman",
 		"file": "archetypedisplay3841.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "A Thousand Faces; Venom Immunity",
-		"replace_array": [
-			"A Thousand Faces",
-			"Venom Immunity"
-		],
-		"short_description": "A boar shaman chooses the stolid and ferocious boar as her totem.",
 		"description": [
 			"## Boar Shaman",
 			"",
@@ -373,14 +292,6 @@
 		"name": "Cave Druid",
 		"file": "archetypedisplay0356.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Nature Sense; Woodland Stride; Trackless Step; Resist Nature's Lure",
-		"replace_array": [
-			"Nature Sense",
-			"Woodland Stride",
-			"Trackless Step",
-			"Resist Nature's Lure"
-		],
-		"short_description": "A few druids seek to preserve the hidden underdark and purge it of the fell horrors that creep up from below.",
 		"description": [
 			"## Cave Druid",
 			"",
@@ -407,14 +318,6 @@
 		"name": "Death Druid",
 		"file": "archetypedisplayca2e.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Nature Bond; Wild Shape; Resist Nature's Lure; Venom Immunity",
-		"replace_array": [
-			"Nature Bond",
-			"Wild Shape",
-			"Resist Nature's Lure",
-			"Venom Immunity"
-		],
-		"short_description": "Some druids believe that birth and death are the most important parts of the natural cycle.",
 		"description": [
 			"## Death Druid",
 			"",
@@ -443,16 +346,6 @@
 		"name": "Defender of the True World",
 		"file": "archetypedisplay1161.html",
 		"sources": [ "Monster Hunter's Handbook" ],
-		"replaces": "Class Skills; Wild Empathy; Trackless Step; Resist Nature's Lure; Venom Immunity; A Thousand Faces",
-		"replace_array": [
-			"Class Skills",
-			"Wild Empathy",
-			"Trackless Step",
-			"Resist Nature's Lure",
-			"Venom Immunity",
-			"A Thousand Faces"
-		],
-		"short_description": "Some druids specialize in protecting Golarion from the threat of First World inhabitants.",
 		"description": [
 			"## Defender of the True World",
 			"",
@@ -495,15 +388,6 @@
 		"name": "Desert Druid",
 		"file": "archetypedisplay5044.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Woodland Stride; Trackless Step; Resist Nature's Lure; Venom Immunity; A Thousand Faces",
-		"replace_array": [
-			"Woodland Stride",
-			"Trackless Step",
-			"Resist Nature's Lure",
-			"Venom Immunity",
-			"A Thousand Faces"
-		],
-		"short_description": "Desert druids come to the desert to pay homage, protect and maintain the few habitable locales, and witness nature's majesty in all its burning, merciless glory.",
 		"description": [
 			"## Desert Druid",
 			"",
@@ -528,13 +412,6 @@
 		"name": "Devolutionist",
 		"file": "archetypedisplayab53.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Nature Bond; Resist Nature's Lure; Venom Immunity",
-		"replace_array": [
-			"Nature Bond",
-			"Resist Nature's Lure",
-			"Venom Immunity"
-		],
-		"short_description": "Devolutionists believe that the world would be better off without any sentient life at all.",
 		"description": [
 			"## Devolutionist",
 			"",
@@ -561,14 +438,6 @@
 		"name": "Dinosaur Druid",
 		"file": "archetypedisplaybfe5.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Spontaneous Casting; Nature's Bond; Wild Shape; Resist Nature's Lure",
-		"replace_array": [
-			"Spontaneous Casting",
-			"Nature Bond",
-			"Wild Shape",
-			"Resist Nature's Lure"
-		],
-		"short_description": "A dinosaur druid speaks for the spirit of prehistoric nature, even taking the form of great beasts of legend.",
 		"description": [
 			"## Dinosaur Druid",
 			"",
@@ -615,18 +484,6 @@
 		"name": "Draconic Druid",
 		"file": "archetypedisplay498d.html",
 		"sources": [ "Legacy of Dragons" ],
-		"replaces": "Nature Bond; Wild Empathy; Woodland Stride; Venom Immunity; A Thousand Faces; Timeless Body; Nature Sense; Resist Nature's Lure",
-		"replace_array": [
-			"Nature Bond",
-			"Wild Empathy",
-			"Woodland Stride",
-			"Venom Immunity",
-			"A Thousand Faces",
-			"Timeless Body",
-			"Nature Sense",
-			"Resist Nature's Lure"
-		],
-		"short_description": "Some druids believe that dragons are the ultimate expression of nature and eventually transform into draconic forms.",
 		"description": [
 			"## Draconic Druid",
 			"",
@@ -655,13 +512,6 @@
 		"name": "Dragon Shaman",
 		"file": "archetypedisplay5def.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "A Thousand Faces; 8th-level Wild Shape; Venom Immunity",
-		"replace_array": [
-			"A Thousand Faces",
-			"8th-level Wild Shape",
-			"Venom Immunity"
-		],
-		"short_description": "Your totem is the legendary dragon, fearsome and deadly yet cunning and wise, a creature born of pure magic and raw elemental fury, bound within a shell of fangs, claws, and scales that few dare to challenge.",
 		"description": [
 			"## Dragon Shaman",
 			"",
@@ -688,12 +538,6 @@
 		"name": "Drovier",
 		"file": "archetypedisplay6ade.html",
 		"sources": [ "Magic Tactics Toolbox" ],
-		"replaces": "Nature Bond; Wild Shape",
-		"replace_array": [
-			"Nature Bond",
-			"Wild Shape"
-		],
-		"short_description": "Droviers view their allies and adventuring companions as a herd or pack to be protected and directed.",
 		"description": [
 			"## Drovier",
 			"",
@@ -716,12 +560,6 @@
 		"name": "Eagle Shaman",
 		"file": "archetypedisplay14ca.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "A Thousand Faces; Venom Immunity",
-		"replace_array": [
-			"A Thousand Faces",
-			"Venom Immunity"
-		],
-		"short_description": "A shaman with this totem calls upon the noble eagle, stern and proud, soaring high above the world with keen and pitiless eyes that miss nothing.",
 		"description": [
 			"## Eagle Shaman",
 			"",
@@ -746,14 +584,6 @@
 		"name": "Elemental Ally",
 		"file": "archetypedisplay71ce.html",
 		"sources": [ "Monster Summoner's Handbook" ],
-		"replaces": "Nature Bond; Wild Shape; Wild Empathy; Resist Nature's Lure",
-		"replace_array": [
-			"Nature Bond",
-			"Wild Shape",
-			"Wild Empathy",
-			"Resist Nature's Lure"
-		],
-		"short_description": "An elemental ally is a druid who has crafted powerful bonds of trust and friendship with one ally from each of the four primary elemental planes.",
 		"description": [
 			"## Elemental Ally",
 			"",
@@ -786,19 +616,6 @@
 		"name": "Feral Child",
 		"file": "archetypedisplay51fe.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Weapon/Armor Proficiency; Class Skills; Nature Bond; Trackless Step; A Thousand Faces; Wild Shape; Resist Nature's Lure; Venom Immunity; Timeless Body",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Class Skills",
-			"Nature Bond",
-			"Trackless Step",
-			"A Thousand Faces",
-			"Wild Shape",
-			"Resist Nature's Lure",
-			"Venom Immunity",
-			"Timeless Body"
-		],
-		"short_description": "(Human Only) Some youths, abandoned in the wilderness and then raised by animals, are so connected with their adoptive home and family that they become feral.",
 		"description": [
 			"## Feral Child",
 			"",
@@ -835,14 +652,6 @@
 		"name": "Feral Shifter",
 		"file": "archetypedisplay5e49.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Nature Bond; Venom Immunity; A Thousand Faces; Timeless Body",
-		"replace_array": [
-			"Nature Bond",
-			"Venom Immunity",
-			"A Thousand Faces",
-			"Timeless Body"
-		],
-		"short_description": "A feral shifter internalizes her communion with and mastery over animals. Instead of forming a bond with an animal companion or an aspect of nature, she alters her own essence or being as homage to the noble creatures of the wild.",
 		"description": [
 			"## Feral Shifter",
 			"",
@@ -859,17 +668,6 @@
 		"name": "Feyspeaker",
 		"file": "archetypedisplay43a3.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Spontaneous Casting; Wild Shape; Nature Sense; Base Attack Bonus; Class Skills; Skill Ranks; Armor Proficiency",
-		"replace_array": [
-			"Spontaneous Casting",
-			"Wild Shape",
-			"Nature Sense",
-			"Base Attack Bonus",
-			"Class Skills",
-			"Skill Ranks",
-			"Armor Proficiency"
-		],
-		"short_description": "Some druids hear the whispers of the natural world like fey creatures do, and learn to mimic those tantalizing murmurs in order to influence the minds of both wild beasts and civilized people.",
 		"description": [
 			"## Feyspeaker",
 			"",
@@ -896,13 +694,6 @@
 		"name": "Fungal Pilgrim",
 		"file": "archetypedisplay784f.html",
 		"sources": [ "Heroes of the Darklands" ],
-		"replaces": "Nature Bond; Wild Shape; Timeless Body",
-		"replace_array": [
-			"Nature Bond",
-			"Wild Shape",
-			"Timeless Body"
-		],
-		"short_description": "Fungal pilgrims are druids seeking transformation into a more plantlike existence.",
 		"description": [
 			"## Fungal Pilgrim",
 			"",
@@ -935,18 +726,6 @@
 		"name": "Goliath Druid",
 		"file": "archetypedisplay59d7.html",
 		"sources": [ "Giant Hunter's Handbook" ],
-		"replaces": "Class Skills; Nature Sense; Nature Bond; Wild Empathy; Resist Nature's Lure; Wild Shape; Venom Immunity; A Thousand Faces",
-		"replace_array": [
-			"Class Skills",
-			"Nature Sense",
-			"Nature Bond",
-			"Wild Empathy",
-			"Resist Nature's Lure",
-			"Wild Shape",
-			"Venom Immunity",
-			"A Thousand Faces"
-		],
-		"short_description": "Goliath druids hone their spiritual and magical connections to nature's largest creatures, especially dinosaurs, giants, and megafauna, revering these massive creatures as living relics of a primeval time when all creatures were more in harmony with nature.",
 		"description": [
 			"## Goliath Druid",
 			"",
@@ -1012,15 +791,6 @@
 			"Ultimate Wilderness",
 			"Faiths and Philosophies"
 		],
-		"replaces": "Trackless Step; 6th, 10th-level Wild Shape; Venom Immunity; A Thousand Faces",
-		"replace_array": [
-			"Trackless Step",
-			"6th-level Wild Shape",
-			"10th-level Wild Shape",
-			"Venom Immunity",
-			"A Thousand Faces"
-		],
-		"short_description": "Druids who are initiated into the magic of nature as strict students of the Green Faith's traditions sometimes demonstrate abilities unique to their organization.",
 		"description": [
 			"## Green Faith Initiate",
 			"",
@@ -1053,14 +823,6 @@
 		"name": "Green Scourge",
 		"file": "archetypedisplay7226.html",
 		"sources": [ "Monster Hunter's Handbook" ],
-		"replaces": "Spontaneous Casting; Nature Sense; Trackless Step; Resist Nature's Lure",
-		"replace_array": [
-			"Spontaneous Casting",
-			"Nature Sense",
-			"Trackless Step",
-			"Resist Nature's Lure"
-		],
-		"short_description": "Green scourges are militant druids sworn to restore natural order.",
 		"description": [
 			"## Green Scourge",
 			"",
@@ -1091,18 +853,6 @@
 		"name": "Halcyon Druid",
 		"file": "archetypedisplaye73a.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Nature Bond; Nature Sense; Class Skills; Wild Empathy; Spontaneous Casting; Wild Shape; Resist Nature's Lure; A Thousand Faces",
-		"replace_array": [
-			"Nature Bond",
-			"Nature Sense",
-			"Class Skills",
-			"Wild Empathy",
-			"Spontaneous Casting",
-			"Wild Shape",
-			"Resist Nature's Lure",
-			"A Thousand Faces"
-		],
-		"short_description": "Though they revere the natural world, halcyon druids are less focused on emulating its inhabitants. Instead, like Old-Mage Jatembe, they treat with beings from the Outer Sphere.",
 		"description": [
 			"## Halcyon Druid",
 			"",
@@ -1147,14 +897,6 @@
 		"name": "Jungle Druid",
 		"file": "archetypedisplay26fd.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Woodland Stride; Trackless Step; Resist Nature's Lure; A Thousand Faces",
-		"replace_array": [
-			"Woodland Stride",
-			"Trackless Step",
-			"Resist Nature's Lure",
-			"A Thousand Faces"
-		],
-		"short_description": "The jungle druid waches over the fecund jungles of the equatorial regions, rich in life and ancient tradition.",
 		"description": [
 			"## Jungle Druid",
 			"",
@@ -1177,16 +919,6 @@
 		"name": "Kraken Caller",
 		"file": "archetypedisplayffae.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
-		"replaces": "Bonus Languages; Woodland Stride; Trackless Step; Resist Nature's Lure; Wild Shape; A Thousand Faces",
-		"replace_array": [
-			"Bonus Languages",
-			"Woodland Stride",
-			"Trackless Step",
-			"Resist Nature's Lure",
-			"Wild Shape",
-			"A Thousand Faces"
-		],
-		"short_description": "Some druids draw upon power irreverently stolen from one of the most dangerous creatures of the depths: the kraken.",
 		"description": [
 			"## Kraken Caller",
 			"",
@@ -1222,16 +954,6 @@
 			"Ultimate Wilderness",
 			"Familiar Folio"
 		],
-		"replaces": "Nature Bond; Wild Empathy; Spontaneous Casting; Resist Nature's Lure; Wild Shape; A Thousand Faces",
-		"replace_array": [
-			"Nature Bond",
-			"Wild Empathy",
-			"Spontaneous Casting",
-			"Resist Nature's Lure",
-			"Wild Shape",
-			"A Thousand Faces"
-		],
-		"short_description": "The natural world is full of bodiless nature spirits connected to the forces of glades, springs, and individual plants. Some druids hear their call keenly and are able to effortlessly incarnate them as the miniature creatures known as leshys.",
 		"description": [
 			"## Leshy Warden",
 			"",
@@ -1268,14 +990,6 @@
 		"name": "Life Channeler",
 		"file": "archetypedisplay36df.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Alignment; Nature Bond; Wild Shape; Venom Immunity",
-		"replace_array": [
-			"Alignment",
-			"Nature Bond",
-			"Wild Shape",
-			"Venom Immunity"
-		],
-		"short_description": "By sacrificing the life of a sentient creature, life channelers can generate energy that guarantees fertility and prosperity for lower creatures like plants and animals.",
 		"description": [
 			"## Life Channeler",
 			"",
@@ -1308,12 +1022,6 @@
 		"name": "Lion Shaman",
 		"file": "archetypedisplay309f.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "A Thousand Faces; Venom Immunity",
-		"replace_array": [
-			"A Thousand Faces",
-			"Venom Immunity"
-		],
-		"short_description": "A shaman with this totem calls upon the proud lion, imposing and majestic, the mighty leader of deadly hunters.",
 		"description": [
 			"## Lion Shaman",
 			"",
@@ -1338,13 +1046,6 @@
 		"name": "Mantella",
 		"file": "archetypedisplaya7d7.html",
 		"sources": [ "Potions and Poisons" ],
-		"replaces": "Wild Shape; Venom Immunity; Spontaneous Casting",
-		"replace_array": [
-			"Wild Shape",
-			"Venom Immunity",
-			"Spontaneous Casting"
-		],
-		"short_description": "(Grippli) A mantella focuses on exploring her poisonous heritage, whether or not it has manifested in her own personal biology.",
 		"description": [
 			"## Mantella",
 			"",
@@ -1365,15 +1066,6 @@
 		"name": "Menhir Savant",
 		"file": "archetypedisplaye912.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Nature Sense; Wild Empathy; Woodland Stride; Trackless Step; A Thousand Faces",
-		"replace_array": [
-			"Nature Sense",
-			"Wild Empathy",
-			"Woodland Stride",
-			"Trackless Step",
-			"A Thousand Faces"
-		],
-		"short_description": "Some druids study the paths of nature's power through the nodes and ley lines that connect standing stones and megalithic circles, learning to tap into their energies.",
 		"description": [
 			"## Menhir Savant",
 			"",
@@ -1394,14 +1086,6 @@
 		"name": "Mooncaller",
 		"file": "archetypedisplayad08.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Woodland Stride; Resist Nature's Lure; Venom Immunity; A Thousand Faces",
-		"replace_array": [
-			"Woodland Stride",
-			"Resist Nature's Lure",
-			"Venom Immunity",
-			"A Thousand Faces"
-		],
-		"short_description": "A mooncaller is bound to the subtle influences of the ever-changing moon and its endless cycles from light to dark and back again.",
 		"description": [
 			"## Mooncaller",
 			"",
@@ -1422,15 +1106,6 @@
 		"name": "Mountain Druid",
 		"file": "archetypedisplay082a.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Woodland Stride; Trackless Step; Resist Nature's Lure; Venom Immunity; A Thousand Faces",
-		"replace_array": [
-			"Woodland Stride",
-			"Trackless Step",
-			"Resist Nature's Lure",
-			"Venom Immunity",
-			"A Thousand Faces"
-		],
-		"short_description": "As more and more of the soft, easy lands become cultivated and civilized, many druids look for refuge and solitude among the eternal peaks of the highest mountains.",
 		"description": [
 			"## Mountain Druid",
 			"",
@@ -1455,16 +1130,6 @@
 		"name": "Naga Aspirant",
 		"file": "archetypedisplayb6f0.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Spontaneous Casting; Resist Nature's Lure; Wild Shape; Venom Immunity; A Thousand Faces; Timeless Body",
-		"replace_array": [
-			"Spontaneous Casting",
-			"Resist Nature's Lure",
-			"Wild Shape",
-			"Venom Immunity",
-			"A Thousand Faces",
-			"Timeless Body"
-		],
-		"short_description": "(Nagaji Only) The naga aspirant follows the ancient beliefs and engages in the rituals of a druidic sect dedicated to the transcendence of her nagaji form through absolute devotion to nagas and naga gods.",
 		"description": [
 			"## Naga Aspirant",
 			"",
@@ -1513,16 +1178,6 @@
 		"name": "Nature Fang",
 		"file": "archetypedisplay883c.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Nature Sense; Wild Empathy; Woodland Stride; Wild Shape; Resist Nature's Lure; Venom Immunity",
-		"replace_array": [
-			"Nature Sense",
-			"Wild Empathy",
-			"Woodland Stride",
-			"Wild Shape",
-			"Resist Nature's Lure",
-			"Venom Immunity"
-		],
-		"short_description": "A nature fang is a druid who stalks and slays those who despoil nature, kill scarce animals, or introduce diseases to unprotected habitats.",
 		"description": [
 			"## Nature Fang",
 			"",
@@ -1547,17 +1202,6 @@
 		"name": "Nature Priest",
 		"file": "archetypedisplay32e2.html",
 		"sources": [ "Healer's Handbook" ],
-		"replaces": "Deity; Class Skills; Weapon Proficiencies; Nature Sense; Nature Bond; Resist Nature's Lure; Venom Immunity",
-		"replace_array": [
-			"Deity",
-			"Class Skills",
-			"Weapon Proficiency",
-			"Nature Sense",
-			"Nature Bond",
-			"Resist Nature's Lure",
-			"Venom Immunity"
-		],
-		"short_description": "Nature priests serve two masters: their deities and nature itself, and can call upon the power of both to fuel their divine abilities.",
 		"description": [
 			"## Nature Priest",
 			"",
@@ -1596,14 +1240,6 @@
 		"name": "Nithveil Adept",
 		"file": "archetypedisplayb314.html",
 		"sources": [ "Inner Sea Intrigue" ],
-		"replaces": "Nature Sense; Nature Bond; Spontaneous Casting; Resist Nature's Lure",
-		"replace_array": [
-			"Nature Sense",
-			"Nature Bond",
-			"Spontaneous Casting",
-			"Resist Nature's Lure"
-		],
-		"short_description": "Nithveil adepts learn the secret magic of the First World fey in the moving, reality-phasing city of Nithveil",
 		"description": [
 			"## Nithveil Adept",
 			"",
@@ -1634,12 +1270,6 @@
 		"name": "Pack Lord",
 		"file": "archetypedisplayddb3.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Nature Bond; 6th-level Wild Shape",
-		"replace_array": [
-			"Nature Bond",
-			"6th-level Wild Shape"
-		],
-		"short_description": "Some druids bond with many animal companions rather than just one, achieving a level of communion rare even in druidic circles and leading their pack brothers and pack sisters with total authority.",
 		"description": [
 			"## Pack Lord",
 			"",
@@ -1658,15 +1288,6 @@
 		"name": "Plains Druid",
 		"file": "archetypedisplayabd8.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Woodland Stride; Trackless Step; Resist Nature's Lure; Venom Immunity; A Thousand Faces",
-		"replace_array": [
-			"Woodland Stride",
-			"Trackless Step",
-			"Resist Nature's Lure",
-			"Venom Immunity",
-			"A Thousand Faces"
-		],
-		"short_description": "Out upon the wide and rolling prairies and savannahs, plains druids stand guard over the grasslands.",
 		"description": [
 			"## Plains Druid",
 			"",
@@ -1691,16 +1312,6 @@
 		"name": "Planar Extremist",
 		"file": "archetypedisplay4cc9.html",
 		"sources": [ "Antihero's Handbook" ],
-		"replaces": "Alignment; Spells; Nature's Bond; Spontaneous Casting; Resist Nature's Lure; Wild Shape",
-		"replace_array": [
-			"Alignment",
-			"Spellcasting",
-			"Nature Bond",
-			"Spontaneous Casting",
-			"Resist Nature's Lure",
-			"Wild Shape"
-		],
-		"short_description": "(Ex-druid archetype) Planar extremists are those druids that have lost their neutral stance and find themselves gravitating toward one of the four most extreme alignments",
 		"description": [
 			"## Planar Extremist",
 			"",
@@ -1745,13 +1356,6 @@
 		"name": "Progenitor",
 		"file": "archetypedisplay9409.html",
 		"sources": [ "Planar Adventures" ],
-		"replaces": "Spontaneous Casting; Nature Bond; Wild Shape",
-		"replace_array": [
-			"Spontaneous Casting",
-			"Nature Bond",
-			"Wild Shape"
-		],
-		"short_description": "Progenitors are druids who tap into the vibrant power of the First World to propagate natural and supernatural wonders.",
 		"description": [
 			"## Progenitor",
 			"",
@@ -1788,14 +1392,6 @@
 		"name": "Reincarnated Druid",
 		"file": "archetypedisplay3ab7.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Woodland Stride; Resist Nature's Lure; Venom Immunity; Timeless Body",
-		"replace_array": [
-			"Woodland Stride",
-			"Resist Nature's Lure",
-			"Venom Immunity",
-			"Timeless Body"
-		],
-		"short_description": "Spun off into the endless circle of life, an incarnate druid is an embodiment of nature's eternal renewal.",
 		"description": [
 			"## Reincarnated Druid",
 			"",
@@ -1820,14 +1416,6 @@
 		"name": "Restorer",
 		"file": "archetypedisplay5eb1.html",
 		"sources": [ "Healer's Handbook" ],
-		"replaces": "Nature Sense; Spontaneous Casting; Resist Nature's Lure; A Thousand Faces",
-		"replace_array": [
-			"Nature Sense",
-			"Spontaneous Casting",
-			"Resist Nature's Lure",
-			"A Thousand Faces"
-		],
-		"short_description": "Restorers carefully tend to the health of both the environment and creatures in it.",
 		"description": [
 			"## Restorer",
 			"",
@@ -1859,17 +1447,6 @@
 			"Ultimate Wilderness",
 			"People of the River"
 		],
-		"replaces": "Class Skills; Nature Sense; Woodland Stride; Trackless Step; Resist Nature's Lure; Wild Shape; Timeless Body",
-		"replace_array": [
-			"Class Skills",
-			"Nature Sense",
-			"Woodland Stride",
-			"Trackless Step",
-			"Resist Nature's Lure",
-			"Wild Shape",
-			"Timeless Body"
-		],
-		"short_description": "These druids are the guardians of rivers and the creatures that depend on them.",
 		"description": [
 			"## River Druid",
 			"",
@@ -1906,16 +1483,6 @@
 		"name": "Road Keeper",
 		"file": "archetypedisplaybf0a.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Spontaneous Casting; Nature Bond; Wild Empathy; Woodland Stride; Resist Nature's Lure; Wild Shape",
-		"replace_array": [
-			"Spontaneous Casting",
-			"Nature Bond",
-			"Wild Empathy",
-			"Woodland Stride",
-			"Resist Nature's Lure",
-			"Wild Shape"
-		],
-		"short_description": "Guardians of the lonely paths between cities, road keepers protect the wild from travelers, and travelers from the wild.",
 		"description": [
 			"## Road Keeper",
 			"",
@@ -1950,17 +1517,6 @@
 		"name": "Rot Warden",
 		"file": "archetypedisplaybc89.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Spontaneous Casting; Nature Bond; Wild Empathy; Trackless Step; Venom Immunity; Resist Nature's Lure; Wild Shape",
-		"replace_array": [
-			"Spontaneous Casting",
-			"Nature Bond",
-			"Wild Empathy",
-			"Trackless Step",
-			"Venom Immunity",
-			"Resist Nature's Lure",
-			"Wild Shape"
-		],
-		"short_description": "Harbingers of decay, rot wardens live in damp lands where insects and rot break down the dead to feed the living.",
 		"description": [
 			"## Rot Warden",
 			"",
@@ -1999,11 +1555,6 @@
 		"name": "Saurian Shaman",
 		"file": "archetypedisplay37d2.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Venom Immunity",
-		"replace_array": [
-			"Venom Immunity"
-		],
-		"short_description": "A shaman with this focus calls upon the primeval dinosaur, the archaic terror that lingers as a hungering, atavistic stranger at the fringes of the ecosystem, a destroyer and despoiler whose coming other animals dread.",
 		"description": [
 			"## Saurian Shaman",
 			"",
@@ -2028,15 +1579,6 @@
 		"name": "Season Keeper",
 		"file": "archetypedisplayfd3e.html",
 		"sources": [ "People of the Stars" ],
-		"replaces": "Nature Bond; Trackless Step; Venom Immunity; Timeless Body; Wild Shape",
-		"replace_array": [
-			"Nature Bond",
-			"Trackless Step",
-			"Venom Immunity",
-			"Timeless Body",
-			"Wild Shape"
-		],
-		"short_description": "(Triaxian Only) Imbued with the primeval potency of their planet's seasons, those druids known as season keepers guide Triaxian communities through the stark transition from summer to winter (and vice versa).",
 		"description": [
 			"## Season Keeper",
 			"",
@@ -2061,11 +1603,6 @@
 		"name": "Season Sage",
 		"file": "archetypedisplayb49b.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Wild Shape",
-		"replace_array": [
-			"Wild Shape"
-		],
-		"short_description": "(Gathlain) Season sages wander as the seasons change, turning the leaves and transforming nature as they pass and taking pleasure in the transition between seasons.",
 		"description": [
 			"## Season Sage",
 			"",
@@ -2104,12 +1641,6 @@
 		"name": "Serpent Shaman",
 		"file": "archetypedisplaycddb.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "A Thousand Faces; Venom Immunity",
-		"replace_array": [
-			"A Thousand Faces",
-			"Venom Immunity"
-		],
-		"short_description": "A shaman with this totem calls upon the cunning serpent, the stealthy deceiver who draws the weak minded in and strikes while they are unaware.",
 		"description": [
 			"## Serpent Shaman",
 			"",
@@ -2134,12 +1665,6 @@
 		"name": "Shark Shaman",
 		"file": "archetypedisplaya5a4.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "A Thousand Faces; Venom Immunity",
-		"replace_array": [
-			"A Thousand Faces",
-			"Venom Immunity"
-		],
-		"short_description": "Some druids emulate the deadly shark, a remorseless hunter that marine dwellers dread.",
 		"description": [
 			"## Shark Shaman",
 			"",
@@ -2164,13 +1689,6 @@
 		"name": "Skinshaper",
 		"file": "archetypedisplay9c34.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Wild Shape; A Thousand Faces",
-		"replace_array": [
-			"Class Skills",
-			"Wild Shape",
-			"A Thousand Faces"
-		],
-		"short_description": "Using the same primal energy with which other druids assume animal forms, skinshapers can imitate some of the most dangerous beasts of all: humans and other humanoids.",
 		"description": [
 			"## Skinshaper",
 			"",
@@ -2203,18 +1721,6 @@
 		"name": "Sky Druid",
 		"file": "archetypedisplayc918.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Weapon/Armor Proficiency; Nature Bond; Woodland Stride; Resist Nature's Lure; Trackless Step; Wild Shape; Venom Immunity; A Thousand Faces",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Nature Bond",
-			"Woodland Stride",
-			"Resist Nature's Lure",
-			"Trackless Step",
-			"Wild Shape",
-			"Venom Immunity",
-			"A Thousand Faces"
-		],
-		"short_description": "(Sylph Only) Some druids develop ties not to a particular landscape, but instead to the endless blue expanse of the skies.",
 		"description": [
 			"## Sky Druid",
 			"",
@@ -2243,16 +1749,6 @@
 		"name": "Storm Druid",
 		"file": "archetypedisplayf8ed.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Spontaneous Casting; Woodland Stride; Trackless Step; Resist Nature's Lure; Venom Immunity; A Thousand Faces",
-		"replace_array": [
-			"Spontaneous Casting",
-			"Woodland Stride",
-			"Trackless Step",
-			"Resist Nature's Lure",
-			"Venom Immunity",
-			"A Thousand Faces"
-		],
-		"short_description": "While most druids focus their attention upon the rich earth and the bounty of nature that springs forth from it, the storm druid's eyes have ever been cast to the skies and the endless expanse of blue, channeling the most raw and untamed aspects of nature.",
 		"description": [
 			"## Storm Druid",
 			"",
@@ -2279,17 +1775,6 @@
 		"name": "Sunrider",
 		"file": "archetypedisplay878b.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Class Skills; Weapon and Armor Proficiencies; Nature Bond; Woodland Stride; Trackless Step; Resist Nature's Lure; Wild Shape",
-		"replace_array": [
-			"Class Skills",
-			"Weapon/Armor Proficiency",
-			"Nature Bond",
-			"Woodland Stride",
-			"Trackless Step",
-			"Resist Nature's Lure",
-			"Wild Shape"
-		],
-		"short_description": "Sunriders help their allies, be they fellow tribe members or fellow adventurers, to survive in harsh desert terrain, while simultaneously making it even harsher for their foes.",
 		"description": [
 			"## Sunrider",
 			"",
@@ -2330,17 +1815,6 @@
 		"name": "Supernaturalist",
 		"file": "archetypedisplaydd18.html",
 		"sources": [ "Occult Origins" ],
-		"replaces": "Weapon/Armor Proficiencies; Nature Bond; Wild Empathy; Nature Sense; Trackless Step; Resist Nature's Lure; Wild Shape",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Nature Bond",
-			"Wild Empathy",
-			"Nature Sense",
-			"Trackless Step",
-			"Resist Nature's Lure",
-			"Wild Shape"
-		],
-		"short_description": "Supernaturalists wholly embrace paranormal phenomena as extensions of nature.",
 		"description": [
 			"## Supernaturalist",
 			"",
@@ -2379,17 +1853,6 @@
 		"name": "Survivor",
 		"file": "archetypedisplay2d93.html",
 		"sources": [ "Champions of Balance" ],
-		"replaces": "Class Skills; Weapon/Armor Proficiencies; Spellcasting; Nature Bond; Resist Nature's Lure; Wild Shape; Venom Immunity",
-		"replace_array": [
-			"Class Skills",
-			"Weapon/Armor Proficiency",
-			"Spellcasting",
-			"Nature Bond",
-			"Resist Nature's Lure",
-			"Wild Shape",
-			"Venom Immunity"
-		],
-		"short_description": "The survivor embodies the neutral aspect of the natural world and eschews druidic magic in favor of more pragmatic and worldly survival methods.",
 		"description": [
 			"## Survivor",
 			"",
@@ -2416,14 +1879,6 @@
 		"name": "Swamp Druid",
 		"file": "archetypedisplayd2e9.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Woodland Stride; Trackless Step; Resist Nature's Lure; A Thousand Faces",
-		"replace_array": [
-			"Woodland Stride",
-			"Trackless Step",
-			"Resist Nature's Lure",
-			"A Thousand Faces"
-		],
-		"short_description": "Some druids eschew pleasant glades and groves and instead seek out dank marshes, misty bogs and heaths, and trackless swamps as the place they call home and watch over with care, finding beauty and life in abundance in places few others would willingly enter.",
 		"description": [
 			"## Swamp Druid",
 			"",
@@ -2446,15 +1901,6 @@
 		"name": "Swarm Monger",
 		"file": "archetypedisplaya739.html",
 		"sources": [ "Blood of the Beast" ],
-		"replaces": "Nature Bond; Woodland Stride; Nature Sense; Resist Nature's Lure; 12th-level Wild Shape options",
-		"replace_array": [
-			"Nature Bond",
-			"Woodland Stride",
-			"Nature Sense",
-			"Resist Nature's Lure",
-			"12th-level Wild Shape"
-		],
-		"short_description": "Whereas other druids commune with nature or even the spirit of a city, swarm mongers find beauty and strength in decay, and they draw their power from fungus, disease, and their own singular will to survive.",
 		"description": [
 			"## Swarm Monger",
 			"",
@@ -2496,17 +1942,6 @@
 			"Adventurer's Guide",
 			"Inner Sea Magic"
 		],
-		"replaces": "Alignment; Weapon and Armor Proficiencies; Nature Bond; Nature Sense; Trackless Step; Resist Nature's Lure; Venom Immunity",
-		"replace_array": [
-			"Alignment",
-			"Weapon/Armor Proficiency",
-			"Nature Bond",
-			"Nature Sense",
-			"Trackless Step",
-			"Resist Nature's Lure",
-			"Venom Immunity"
-		],
-		"short_description": "Some druids have come to worship the Eye of Abendego as an aspect of pure elemental fury, channeling its mysteries into their own magic",
 		"description": [
 			"## Tempest Druid",
 			"",
@@ -2553,13 +1988,6 @@
 		"name": "Tempest Tamer",
 		"file": "archetypedisplaya22d.html",
 		"sources": [ "Blood of the Sea" ],
-		"replaces": "Bonus Languages; Resist Nature's Lure; Wild Shape",
-		"replace_array": [
-			"Bonus Languages",
-			"Resist Nature's Lure",
-			"Wild Shape"
-		],
-		"short_description": "Druids draw upon the fiercest powers of nature, and tsunamis, typhoons, and whirlpools are among the most powerful forces in the ocean.",
 		"description": [
 			"## Tempest Tamer",
 			"",
@@ -2588,16 +2016,6 @@
 		"name": "Toxicologist",
 		"file": "archetypedisplayfb5f.html",
 		"sources": [ "Magic Tactics Toolbox" ],
-		"replaces": "Spontaneous Casting; Wild Empathy; Woodland Stride; Trackless Step; Resist Nature's Lure; Wild Shape",
-		"replace_array": [
-			"Spontaneous Casting",
-			"Wild Empathy",
-			"Woodland Stride",
-			"Trackless Step",
-			"Resist Nature's Lure",
-			"Wild Shape"
-		],
-		"short_description": "Toxicologists specialize in the stealthy application of insidious poisons to their targets, believing word of their foes' horrifying deaths will deter others from attempting similar desecrations of the natural world.",
 		"description": [
 			"## Toxicologist",
 			"",
@@ -2626,13 +2044,6 @@
 		"name": "Treesinger",
 		"file": "archetypedisplayccd8-2.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Nature Bond; Wild Empathy; Wild Shape",
-		"replace_array": [
-			"Nature Bond",
-			"Wild Empathy",
-			"Wild Shape"
-		],
-		"short_description": "(Elf and Vine Leshy Only) Some elves turn to the timeless growth of nature for solace, finding allies among the great trees themselves, and even leading the forest's plants into combat.",
 		"description": [
 			"## Treesinger",
 			"",
@@ -2691,13 +2102,6 @@
 		"name": "Troll Fury",
 		"file": "archetypedisplay20d9.html",
 		"sources": [ "Monster Codex" ],
-		"replaces": "Wild Empathy; Resist Nature's Lure; Venom Immunity",
-		"replace_array": [
-			"Wild Empathy",
-			"Resist Nature's Lure",
-			"Venom Immunity"
-		],
-		"short_description": "(Troll Only) Troll furies combine a druid's love of natural balance with a single-minded devotion to the welfare of the troll tribe.",
 		"description": [
 			"## Troll Fury",
 			"",
@@ -2718,16 +2122,6 @@
 		"name": "Undine Adept",
 		"file": "archetypedisplay1fd2.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Domains; Woodland Stride; Trackless Step; Resist Nature's Lure; Wild Shape; Venom Immunity",
-		"replace_array": [
-			"Domains",
-			"Woodland Stride",
-			"Trackless Step",
-			"Resist Nature's Lure",
-			"Wild Shape",
-			"Venom Immunity"
-		],
-		"short_description": "(Undine Only) An undine adept dedicates herself to preserving the knowledge of the first undines and ensuring her people's ancient connections to the natural world remain undisturbed.",
 		"description": [
 			"## Undine Adept",
 			"",
@@ -2752,15 +2146,6 @@
 		"name": "Urban Druid",
 		"file": "archetypedisplay6730.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Spontaneous Casting; Woodland Stride; Trackless Step; Resist Nature's Lure; Venom Immunity",
-		"replace_array": [
-			"Spontaneous Casting",
-			"Woodland Stride",
-			"Trackless Step",
-			"Resist Nature's Lure",
-			"Venom Immunity"
-		],
-		"short_description": "While many druids keep to the wilderness, some make their way within settlements, communing with the animals and vermin who live there and speaking for the nature that runs rampant in civilization's very cradle.",
 		"description": [
 			"## Urban Druid",
 			"",
@@ -2787,12 +2172,6 @@
 		"name": "Urushiol",
 		"file": "archetypedisplay5310.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Nature Bond; Resist Nature's Lure",
-		"replace_array": [
-			"Nature Bond",
-			"Resist Nature's Lure"
-		],
-		"short_description": "When an urushiol druid forms a bond with nature, it takes a vastly different form than for most druids. His body becomes increasingly toxic, allowing him to secrete a deadly poison through his pores.",
 		"description": [
 			"## Urushiol",
 			"",
@@ -2825,14 +2204,6 @@
 		"name": "Wild Whisperer",
 		"file": "archetypedisplay55da.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Woodland Stride; Trackless Step; Resist Nature's Lure; Wild Shape",
-		"replace_array": [
-			"Woodland Stride",
-			"Trackless Step",
-			"Resist Nature's Lure",
-			"Wild Shape"
-		],
-		"short_description": "A wild whisperer is an expert at studying, predicting, and explaining animal behavior.",
 		"description": [
 			"## Wild Whisperer",
 			"",
@@ -2855,12 +2226,6 @@
 		"name": "Wolf Shaman",
 		"file": "archetypedisplayfe7b.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "A Thousand Faces; Venom Immunity",
-		"replace_array": [
-			"A Thousand Faces",
-			"Venom Immunity"
-		],
-		"short_description": "A shaman with this totem calls upon the clever wolf, capable of roaming alone yet wise enough to run with a pack when facing dangers too great for one alone.",
 		"description": [
 			"## Wolf Shaman",
 			"",
@@ -2885,14 +2250,6 @@
 		"name": "World Walker",
 		"file": "archetypedisplay7e71.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Trackless Step; Resist Nature's Lure; Venom Immunity; Timeless Body",
-		"replace_array": [
-			"Trackless Step",
-			"Resist Nature's Lure",
-			"Venom Immunity",
-			"Timeless Body"
-		],
-		"short_description": "While all druids traverse the wilderness with ease, the world walkers take it upon themselves to travel the entire world.",
 		"description": [
 			"## World Walker",
 			"",

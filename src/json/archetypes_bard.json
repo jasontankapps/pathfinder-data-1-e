@@ -4,15 +4,6 @@
 		"name": "Animal Speaker",
 		"file": "archetypedisplay659d.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Fascinate; Well-Versed; Inspire Competence; Suggestion; Mass Suggestion",
-		"replace_array": [
-			"Fascinate",
-			"Well-Versed",
-			"Inspire Competence",
-			"Suggestion",
-			"Mass Suggestion"
-		],
-		"short_description": "An animal speaker focuses not on the ears and minds of humans, but on the creatures of the wild and those in the underbellies of cities.",
 		"description": [
 			"## Animal Speaker",
 			"",
@@ -39,17 +30,6 @@
 		"name": "Arcane Duelist",
 		"file": "archetypedisplay88c4.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Countersong; Suggestion; Mass Suggestion; Versatile Performance; Well-Versed; Lore Master; Jack-of-All-Trades",
-		"replace_array": [
-			"Countersong",
-			"Suggestion",
-			"Mass Suggestion",
-			"Versatile Performance",
-			"Well-Versed",
-			"Lore Master",
-			"Jack-of-All-Trades"
-		],
-		"short_description": "A master of the martial applications of steel and spell, the arcane duelist blends both into a lethal combination.",
 		"description": [
 			"## Arcane Duelist",
 			"",
@@ -78,12 +58,6 @@
 		"name": "Arcane Healer",
 		"file": "archetypedisplayb895.html",
 		"sources": [ "Faiths and Philosophies" ],
-		"replaces": "Versatile Performance; Lore Master",
-		"replace_array": [
-			"Versatile Performance",
-			"Lore Master"
-		],
-		"short_description": "Though bards may have different reasons for wanting to heal the sick and injured, both out of pure altruism and in order to keep adventuring companions safe, the ability to heal also makes it much easier for a bard to pose as a cleric or other divine healer, opening the door for a wide array of swindles and scams.",
 		"description": [
 			"## Arcane Healer",
 			"",
@@ -100,13 +74,6 @@
 		"name": "Archaeologist",
 		"file": "archetypedisplayfa78.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Bardic Performance; Versatile Performance; Well-Versed",
-		"replace_array": [
-			"Bardic Performance",
-			"Versatile Performance",
-			"Well-Versed"
-		],
-		"short_description": "No stodgy researcher, this archaeologist meets his research head-on in the field.",
 		"description": [
 			"## Archaeologist",
 			"",
@@ -135,17 +102,6 @@
 		"name": "Archivist",
 		"file": "archetypedisplayb1fd.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Inspire Courage; Suggestion; Mass Suggestion; Versatile Performance; Well-Versed; Lore Master; Jack-of-All-Trades",
-		"replace_array": [
-			"Inspire Courage",
-			"Suggestion",
-			"Mass Suggestion",
-			"Versatile Performance",
-			"Well-Versed",
-			"Lore Master",
-			"Jack-of-All-Trades"
-		],
-		"short_description": "Some bards greatly prefer academic pursuits to the drama (and sometimes melodrama) of their artistic brethren.",
 		"description": [
 			"## Archivist",
 			"",
@@ -174,14 +130,6 @@
 		"name": "Argent Voice",
 		"file": "archetypedisplay04b2.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Fascinate; Dirge of Doom; Frightening Tune; Versatile Performance",
-		"replace_array": [
-			"Fascinate",
-			"Dirge of Doom",
-			"Frightening Tune",
-			"Versatile Performance"
-		],
-		"short_description": "Argent voices are agents of the Silver Ravens that dedicate themselves to the study of the magical performance are known as the \"Song of Silver\".",
 		"description": [
 			"## Argent Voice",
 			"",
@@ -216,19 +164,6 @@
 		"name": "Arrowsong Minstrel",
 		"file": "archetypedisplay20a0.html",
 		"sources": [ "Arcane Anthology" ],
-		"replaces": "Weapon Proficiency; Spellcasting; Bardic Knowledge; Dirge of Doom; Distraction; Fascinate; Inspire Competence; Lore Master; Soothing Performance",
-		"replace_array": [
-			"Weapon Proficiency",
-			"Spellcasting",
-			"Bardic Knowledge",
-			"Dirge of Doom",
-			"Distraction",
-			"Fascinate",
-			"Inspire Competence",
-			"Lore Master",
-			"Soothing Performance"
-		],
-		"short_description": "Arrowsong minstrels combine the elven traditions of archery, song, and spellcasting into a seamless harmony of dazzling magical effects.",
 		"description": [
 			"## Arrowsong Minstrel",
 			"",
@@ -259,14 +194,6 @@
 		"name": "Averaka Arbiter",
 		"file": "archetypedisplay0f41.html",
 		"sources": [ "Bastards of Golarion" ],
-		"replaces": "Inspire Competence; Dirge of Doom; Versatile Performance; Well-Versed",
-		"replace_array": [
-			"Inspire Competence",
-			"Dirge of Doom",
-			"Versatile Performance",
-			"Well-Versed"
-		],
-		"short_description": "Some Averakan bards make it their mission to unify their fellow half-orcs, and are equally skilled at helping allies defeat common enemies and at building a new civilization that reflects their unique identity.",
 		"description": [
 			"## Averaka Arbiter",
 			"",
@@ -287,16 +214,6 @@
 		"name": "Brazen Deceiver",
 		"file": "archetypedisplaye3d8.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Countersong; Distraction; Bardic Knowledge; Well-Versed; Versatile Performance; Lore Master",
-		"replace_array": [
-			"Countersong",
-			"Distraction",
-			"Bardic Knowledge",
-			"Well-Versed",
-			"Versatile Performance",
-			"Lore Master"
-		],
-		"short_description": "Where other thieves use stealth or intimidation to achieve their goals, the brazen deceiver depends on lies backed by powerful shadow magic.",
 		"description": [
 			"## Brazen Deceiver",
 			"",
@@ -329,14 +246,6 @@
 		"name": "Buccaneer",
 		"file": "archetypedisplay34f2.html",
 		"sources": [ "Pirates of the Inner Sea" ],
-		"replaces": "Bardic Knowledge; Suggestion; Lore Master; Mass Suggestion",
-		"replace_array": [
-			"Bardic Knowledge",
-			"Suggestion",
-			"Lore Master",
-			"Mass Suggestion"
-		],
-		"short_description": "A buccaneer is a pirate who specializes in raiding ships and port towns, but who leaves his victims alive whenever possible.",
 		"description": [
 			"## Buccaneer",
 			"",
@@ -359,11 +268,6 @@
 		"name": "Busker",
 		"file": "archetypedisplayefb2.html",
 		"sources": [ "Heroes of the Streets" ],
-		"replaces": "Bardic Performance",
-		"replace_array": [
-			"Bardic Performance"
-		],
-		"short_description": "A busker uses his dazzling physical stunts to get by on his own in the city streets.",
 		"description": [
 			"## Busker",
 			"",
@@ -396,13 +300,6 @@
 		"name": "Celebrity",
 		"file": "archetypedisplay2d4d.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Inspire Courage; Lore Master; Dirge of Doom",
-		"replace_array": [
-			"Inspire Courage",
-			"Lore Master",
-			"Dirge of Doom"
-		],
-		"short_description": "Known for being known, a celebrity bard is a master of performance who captures the imagination and attention of his audience.",
 		"description": [
 			"## Celebrity",
 			"",
@@ -427,15 +324,6 @@
 		"name": "Chelish Diva",
 		"file": "archetypedisplay4ed3.html",
 		"sources": [ "Inner Sea Magic" ],
-		"replaces": "Bardic Knowledge, Well-Versed, Lore Master, Inspire Competence, Dirge of Doom",
-		"replace_array": [
-			"Bardic Knowledge",
-			"Well-Versed",
-			"Lore Master",
-			"Inspire Competence",
-			"Dirge of Doom"
-		],
-		"short_description": "In their pursuit of glory, a Chelish diva seeks to prove themselves better than any upstart actor, dancer, or chorus member through magic and discipline.",
 		"description": [
 			"## Chelish Diva",
 			"",
@@ -466,17 +354,6 @@
 		"name": "Chronicler of Worlds",
 		"file": "archetypedisplay817a.html",
 		"sources": [ "Planar Adventures" ],
-		"replaces": "Key Ability Score; Alignment; Bardic Knowledge; Inspire Greatness; Inspire Heroics; Well-Versed; Versatile Performance",
-		"replace_array": [
-			"Key Ability Score",
-			"Alignment",
-			"Bardic Knowledge",
-			"Inspire Greatness",
-			"Inspire Heroics",
-			"Well-Versed",
-			"Versatile Performance"
-		],
-		"short_description": "A chronicler of worlds forsakes morality in service of understanding; she is both warrior and mystic, scholar and soldier.",
 		"description": [
 			"## Chronicler of Worlds",
 			"",
@@ -515,17 +392,6 @@
 		"name": "Court Bard",
 		"file": "archetypedisplaye7df.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Inspire Courage; Inspire Competence; Dirge of Doom; Frightening Tune; Bardic Knowledge; Lore Master; Jack-of-All-Trades",
-		"replace_array": [
-			"Inspire Courage",
-			"Inspire Competence",
-			"Dirge of Doom",
-			"Frightening Tune",
-			"Bardic Knowledge",
-			"Lore Master",
-			"Jack-of-All-Trades"
-		],
-		"short_description": "The court bard takes up the role of resplendent proclaimer and artist-in-residence at the hand of nobility, royalty, and the well-moneyed elite who aspire to join their ranks.",
 		"description": [
 			"## Court Bard",
 			"",
@@ -552,14 +418,6 @@
 		"name": "Court Fool",
 		"file": "archetypedisplay14a7.html",
 		"sources": [ "Heroes of the High Court" ],
-		"replaces": "Bardic Knowledge; Countersong; Inspire Competence; Lore Master",
-		"replace_array": [
-			"Bardic Knowledge",
-			"Countersong",
-			"Inspire Competence",
-			"Lore Master"
-		],
-		"short_description": "The court fool holds up an unflattering mirror to those in charge or speaks truths, however veiled, that no one else can safely utter.",
 		"description": [
 			"## Court Fool",
 			"",
@@ -590,16 +448,6 @@
 		"name": "Cultivator",
 		"file": "archetypedisplayfa0b.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Class Skills; Spells; Bardic Knowledge; Countersong; Well-Versed; Lore Master",
-		"replace_array": [
-			"Class Skills",
-			"Adds Spells",
-			"Bardic Knowledge",
-			"Countersong",
-			"Well-Versed",
-			"Lore Master"
-		],
-		"short_description": "Cultivators use music to promote plant growth and influence the behavior of plants both naturally and supernaturally.",
 		"description": [
 			"## Cultivator",
 			"",
@@ -634,15 +482,6 @@
 		"name": "Daredevil",
 		"file": "archetypedisplay766f.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Bardic Knowledge; Inspire Courage; Versatile Performance; Well-Versed; Lore Master",
-		"replace_array": [
-			"Bardic Knowledge",
-			"Inspire Courage",
-			"Versatile Performance",
-			"Well-Versed",
-			"Lore Master"
-		],
-		"short_description": "As quick at wordplay as at swordplay, daredevils are dashing heroes, inspiring their allies to match their clever repartee and acrobatic feats.",
 		"description": [
 			"## Daredevil",
 			"",
@@ -667,14 +506,6 @@
 		"name": "Dawnflower Dervish",
 		"file": "archetypedisplay3883.html",
 		"sources": [ "Inner Sea Magic" ],
-		"replaces": "Bardic Performance, Bardic Knowledge, Lore Master, Dirge of Doom",
-		"replace_array": [
-			"Bardic Performance",
-			"Bardic Knowledge",
-			"Lore Master",
-			"Dirge of Doom"
-		],
-		"short_description": "Many bards of Sarenrae's faith hone their skills with dance and scimitar to become dervish dancers.",
 		"description": [
 			"## Dawnflower Dervish",
 			"",
@@ -703,14 +534,6 @@
 		"name": "Demagogue",
 		"file": "archetypedisplay7bd6.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Inspire Courage +1; Lore Master; Suggestion; Mass Suggestion",
-		"replace_array": [
-			"Inspire Courage +1",
-			"Lore Master",
-			"Suggestion",
-			"Mass Suggestion"
-		],
-		"short_description": "Not content with providing amusing and occasionally instructive performances, the demagogue seeks to inflame and ignite his audience.",
 		"description": [
 			"## Demagogue",
 			"",
@@ -733,19 +556,6 @@
 		"name": "Dervish Dancer",
 		"file": "archetypedisplay0061.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Suggestion; Mass Suggestion; Dirge of Doom; Frightening Tune; Bardic Knowledge; Lore Master; Versatile Performance; Soothing Performance; Deadly Performance",
-		"replace_array": [
-			"Suggestion",
-			"Mass Suggestion",
-			"Dirge of Doom",
-			"Frightening Tune",
-			"Bardic Knowledge",
-			"Lore Master",
-			"Versatile Performance",
-			"Soothing Performance",
-			"Deadly Performance"
-		],
-		"short_description": "Not all bards inspire others with their performances. Dervish dancers enter a near-mystical trance that allows them to push their bodies beyond normal limits.",
 		"description": [
 			"## Dervish Dancer",
 			"",
@@ -780,16 +590,6 @@
 		"name": "Detective",
 		"file": "archetypedisplaya484.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Inspire Courage; Inspire Greatness; Inspire Heroics; Bardic Knowledge; Well-Versed; Versatile Performance",
-		"replace_array": [
-			"Inspire Courage",
-			"Inspire Greatness",
-			"Inspire Heroics",
-			"Bardic Knowledge",
-			"Well-Versed",
-			"Versatile Performance"
-		],
-		"short_description": "Piecing together clues and catching the guilty with sheer cleverness, the detective is skilled at divining the truth.",
 		"description": [
 			"## Detective",
 			"",
@@ -816,14 +616,6 @@
 		"name": "Dirge Bard",
 		"file": "archetypedisplayb175.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Jack-of-All-Trades; Well-Versed; Versatile Performance; Lore Master",
-		"replace_array": [
-			"Jack-of-All-Trades",
-			"Well-Versed",
-			"Versatile Performance",
-			"Lore Master"
-		],
-		"short_description": "A composer of sonorous laments for the dead and elaborate requiems for those lost yet long remembered, dirge bards master musical tools and tropes that must appeal to the ears and hearts of both the living and the dead.",
 		"description": [
 			"## Dirge Bard",
 			"",
@@ -846,13 +638,6 @@
 		"name": "Disciple of the Forked Tongue",
 		"file": "archetypedisplay9062.html",
 		"sources": [ "Potions and Poisons" ],
-		"replaces": "Inspire Courage; Inspire Greatness; Versatile Performance",
-		"replace_array": [
-			"Inspire Courage",
-			"Inspire Greatness",
-			"Versatile Performance"
-		],
-		"short_description": "(Vishkanya) Studied in venomous words as well as venomous blood, a disciple of the forked tongue knows just the right phrase to slowly poison the soul.",
 		"description": [
 			"## Disciple of the Forked Tongue",
 			"",
@@ -879,19 +664,6 @@
 		"name": "Dragon Herald",
 		"file": "archetypedisplay0b76.html",
 		"sources": [],
-		"replaces": "Weapon/Armor Proficiency; Bardic Knowledge; Countersong; Fascinate; Inspire Competence; Soothing Performance; Inspire Heroics; Lore Master; Jack-of-All-Trades",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Bardic Knowledge",
-			"Countersong",
-			"Fascinate",
-			"Inspire Competence",
-			"Soothing Performance",
-			"Inspire Heroics",
-			"Lore Master",
-			"Jack-of-All-Trades"
-		],
-		"short_description": "(Kobold Only) Dragon heralds are messengers and evangelists of true dragonkind. They carry the word of their dragon patrons far and wide, whether that's a message of peace or a declaration of war.",
 		"description": [
 			"## Dragon Herald",
 			"",
@@ -940,13 +712,6 @@
 		"name": "Dragon Yapper",
 		"file": "archetypedisplay4e1d.html",
 		"sources": [ "Monster Codex" ],
-		"replaces": "Fascinate; Dirge of Doom; Versatile Performance",
-		"replace_array": [
-			"Fascinate",
-			"Dirge of Doom",
-			"Versatile Performance"
-		],
-		"short_description": "(Kobold Only) Kobolds' yammering songs distract opponents in combat, hindering their ability to attack.",
 		"description": [
 			"## Dragon Yapper",
 			"",
@@ -967,17 +732,6 @@
 		"name": "Duettist",
 		"file": "archetypedisplaydd31.html",
 		"sources": [ "Familiar Folio" ],
-		"replaces": "Well-Versed; Jack-of-All-Trades; Bardic Knowledge; Versatile Performance; Lore Master; Dirge of Doom; Frightening Tune",
-		"replace_array": [
-			"Well-Versed",
-			"Jack-of-All-Trades",
-			"Bardic Knowledge",
-			"Versatile Performance",
-			"Lore Master",
-			"Dirge of Doom",
-			"Frightening Tune"
-		],
-		"short_description": "Whether singing a delicate duo with a nightingale or slipping coins from purses while a trained monkey distracts the crowd, the duettist blends his bond to his familiar with his natural talent for performance to create amazing effects.",
 		"description": [
 			"## Duettist",
 			"",
@@ -1002,15 +756,6 @@
 		"name": "Dwarven Scholar",
 		"file": "archetypedisplay4d74.html",
 		"sources": [ "Blood of the Ancients" ],
-		"replaces": "Key Ability Score; Weapon and Armor Proficiencies; Versatile Performance; Inspire Courage; Suggestion",
-		"replace_array": [
-			"Key Ability Score",
-			"Weapon/Armor Proficiency",
-			"Versatile Performance",
-			"Inspire Courage",
-			"Suggestion"
-		],
-		"short_description": "A dwarven scholar researches the lineage of the kings of the old dwarven empires and learns their ancient tactics.",
 		"description": [
 			"## Dwarven Scholar",
 			"",
@@ -1041,11 +786,6 @@
 		"name": "Faith Singer",
 		"file": "archetypedisplay8e17.html",
 		"sources": [ "Healer's Handbook" ],
-		"replaces": "Deity; Versatile Performance",
-		"replace_array": [
-			"Versatile Performance"
-		],
-		"short_description": "Faith singers show their faith in their deity with songs or other appropriate performances.",
 		"description": [
 			"## Faith Singer",
 			"",
@@ -1064,15 +804,6 @@
 		"name": "Fey Courtier",
 		"file": "archetypedisplayce18.html",
 		"sources": [],
-		"replaces": "Dirge of Doom; Frightening Tune; Inspire Heroics; Versatile Performance; Inspire Competence",
-		"replace_array": [
-			"Dirge of Doom",
-			"Frightening Tune",
-			"Inspire Heroics",
-			"Inspire Competence",
-			"Versatile Performance"
-		],
-		"short_description": "(Gathlain) Fey who associate with courts often become bards skilled at navigating the inhuman societies of the trackless wilds.",
 		"description": [
 			"## Fey Courtier",
 			"",
@@ -1111,16 +842,6 @@
 		"name": "Fey Prankster",
 		"file": "archetypedisplaybfa6.html",
 		"sources": [ "Legacy of the First World" ],
-		"replaces": "Bardic Knowledge; Countersong; Inspire Courage; Dirge of Doom; Well-Versed; Lore Master",
-		"replace_array": [
-			"Bardic Knowledge",
-			"Countersong",
-			"Inspire Courage",
-			"Dirge of Doom",
-			"Well-Versed",
-			"Lore Master"
-		],
-		"short_description": "Sly and mischievous like the Lantern King himself, fey pranksters learn supernatural tricks that can cause their victims to suffer mishaps and accidents.",
 		"description": [
 			"## Fey Prankster",
 			"",
@@ -1159,17 +880,6 @@
 		"name": "Filidh",
 		"file": "archetypedisplay13d2.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Weapon/Armor Proficiencies; Spellcasting; Inspire Courage; Suggestion; Dirge of Doom; Inspire Heroics; Deadly Performance",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Spellcasting",
-			"Inspire Courage",
-			"Suggestion",
-			"Dirge of Doom",
-			"Inspire Heroics",
-			"Deadly Performance"
-		],
-		"short_description": "By tapping into the world's natural music, specialized bards known as filidhs are able to see not only the tapestry of life but divine portents of the future from the rhythm of all life's song.",
 		"description": [
 			"## Filidh",
 			"",
@@ -1216,15 +926,6 @@
 		"name": "First World Minstrel",
 		"file": "archetypedisplay4070.html",
 		"sources": [ "Legacy of the First World" ],
-		"replaces": "Spell List; Bardic Knowledge; Inspire Courage; Dirge of Doom; Well-Versed",
-		"replace_array": [
-			"Adds Spells",
-			"Bardic Knowledge",
-			"Inspire Courage",
-			"Dirge of Doom",
-			"Well-Versed"
-		],
-		"short_description": "The First World minstrel's performances channel the mysterious powers of the First World.",
 		"description": [
 			"## First World Minstrel",
 			"",
@@ -1259,14 +960,6 @@
 		"name": "Flame Dancer",
 		"file": "archetypedisplay5b51.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Countersong; Inspire Competence; Suggestion; Dirge of Doom",
-		"replace_array": [
-			"Countersong",
-			"Inspire Competence",
-			"Suggestion",
-			"Dirge of Doom"
-		],
-		"short_description": "A flame dancer studies the movements of fire, adding its grace to his repertoire.",
 		"description": [
 			"## Flame Dancer",
 			"",
@@ -1289,14 +982,6 @@
 		"name": "Flamesinger",
 		"file": "archetypedisplaydaa4.html",
 		"sources": [ "Elemental Master's Handbook" ],
-		"replaces": "Bardic Knowledge; Lore Master; Inspire Courage; Versatile Performance",
-		"replace_array": [
-			"Bardic Knowledge",
-			"Lore Master",
-			"Inspire Courage",
-			"Versatile Performance"
-		],
-		"short_description": "The flamesinger finds inspiration in the mesmerizing beauty of fire.",
 		"description": [
 			"## Flamesinger",
 			"",
@@ -1323,16 +1008,6 @@
 		"name": "Fortune-Teller",
 		"file": "archetypedisplay0d84.html",
 		"sources": [],
-		"replaces": "Spell List; Bardic Performance; Countersong; Distraction; Well-Versed; Dirge of Doom",
-		"replace_array": [
-			"Adds Spells",
-			"Bardic Performance",
-			"Countersong",
-			"Distraction",
-			"Well-Versed",
-			"Dirge of Doom"
-		],
-		"short_description": "Instead of using song and dance, a fortune-teller influences people by divining their fate.",
 		"description": [
 			"## Fortune-Teller",
 			"",
@@ -1375,12 +1050,6 @@
 		"name": "Geisha",
 		"file": "archetypedisplaycfc0.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Weapon/Armor Proficiencies; Bardic Knowledge",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Bardic Knowledge"
-		],
-		"short_description": "Specially trained entertainers called geisha are praised for their appearance and skill at conversation, music, dancing, singing, poetry, and calligraphy.",
 		"description": [
 			"## Geisha",
 			"",
@@ -1401,13 +1070,6 @@
 		"name": "Hatharat Agent",
 		"file": "archetypedisplaydffb.html",
 		"sources": [ "Qadira, Jewel of the East" ],
-		"replaces": "Bardic Knowledge; Well-Versed; Dirge of Doom",
-		"replace_array": [
-			"Bardic Knowledge",
-			"Well-Versed",
-			"Dirge of Doom"
-		],
-		"short_description": "Although the Hatharat employs all manner of specialists, bards who take up the role of agent are among its most infamous and widespread.",
 		"description": [
 			"## Hatharat Agent",
 			"",
@@ -1438,20 +1100,6 @@
 		"name": "Hoaxer",
 		"file": "archetypedisplayf33f.html",
 		"sources": [ "Black Markets" ],
-		"replaces": "Bardic Knowledge; Inspire Courage; Inspire Competence; Inspire Greatness; Countersong; Distraction; Inspire Greatness; Versatile Performance; Well-Versed; Lore Master",
-		"replace_array": [
-			"Bardic Knowledge",
-			"Inspire Courage",
-			"Inspire Competence",
-			"Inspire Greatness",
-			"Countersong",
-			"Distraction",
-			"Inspire Greatness",
-			"Versatile Performance",
-			"Well-Versed",
-			"Lore Master"
-		],
-		"short_description": "Hoaxers specialize in creating valuable-looking counterfeits and infusing these false treasures with dangerous magic to make their marks more vulnerable to future swindles.",
 		"description": [
 			"## Hoaxer",
 			"",
@@ -1486,17 +1134,6 @@
 		"name": "Impervious Messenger",
 		"file": "archetypedisplay4b10.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Fascinate; Suggestion; Mass Suggestion; Dirge of Doom; Frightening Tune; Bardic Knowledge; Well-Versed",
-		"replace_array": [
-			"Fascinate",
-			"Suggestion",
-			"Mass Suggestion",
-			"Dirge of Doom",
-			"Frightening Tune",
-			"Bardic Knowledge",
-			"Well-Versed"
-		],
-		"short_description": "The impervious messenger is capable of harnessing the unique qualities of bardic magic to keep, transport, and communicate the most precious of secrets and messages.",
 		"description": [
 			"## Impervious Messenger",
 			"",
@@ -1527,16 +1164,6 @@
 		"name": "Juggler",
 		"file": "archetypedisplay4362.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"replaces": "Weapon/Armor Proficiencies; Bardic Knowledge; Lore Master; Versatile Performance; Well-Versed; Soothing Performance",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Bardic Knowledge",
-			"Lore Master",
-			"Versatile Performance",
-			"Well-Versed",
-			"Soothing Performance"
-		],
-		"short_description": "Jugglers are masters of manipulating objects, most famously by keeping multiple objects in the air simultaneously.",
 		"description": [
 			"## Juggler",
 			"",
@@ -1559,14 +1186,6 @@
 		"name": "Lotus Geisha",
 		"file": "archetypedisplaybf58.html",
 		"sources": [ "Dragon Empires Primer" ],
-		"replaces": "Different Weapon Proficiencies; Well-Versed; Bardic Knowledge; Lore Master",
-		"replace_array": [
-			"Weapon Proficiency",
-			"Well-Versed",
-			"Bardic Knowledge",
-			"Lore Master"
-		],
-		"short_description": "The lotus geisha of Minkai are renowned for their powers of seduction.",
 		"description": [
 			"## Lotus Geisha",
 			"",
@@ -1591,15 +1210,6 @@
 		"name": "Luring Piper",
 		"file": "archetypedisplay252c.html",
 		"sources": [ "Monster Hunter's Handbook" ],
-		"replaces": "Class Skills; Bardic Knowledge; Dirge of Doom; Soothing Performance; Well-Versed",
-		"replace_array": [
-			"Class Skills",
-			"Bardic Knowledge",
-			"Dirge of Doom",
-			"Soothing Performance",
-			"Well-Versed"
-		],
-		"short_description": "Some bards have an exceptional ability to use their musical performances to entrance the world's wilder creatures.",
 		"description": [
 			"## Luring Piper",
 			"",
@@ -1642,19 +1252,6 @@
 		"name": "Magician",
 		"file": "archetypedisplay551c.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Inspire Courage; Dirge of Doom; Frightening Tune; Bardic Knowledge; Countersong; Well-Versed; Versatile Performance; Lore Master; Jack-of-All-Trades",
-		"replace_array": [
-			"Inspire Courage",
-			"Dirge of Doom",
-			"Frightening Tune",
-			"Bardic Knowledge",
-			"Countersong",
-			"Well-Versed",
-			"Versatile Performance",
-			"Lore Master",
-			"Jack-of-All-Trades"
-		],
-		"short_description": "A magician dabbles in performance, but sees it as a means to tap into universal energies and channel them.",
 		"description": [
 			"## Magician",
 			"",
@@ -1687,17 +1284,6 @@
 		"name": "Masked Performer",
 		"file": "archetypedisplayb548.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Bardic Knowledge; Countersong; Inspire Competence; Suggestion; Mass Suggestion; Versatile Performance; Lore Master",
-		"replace_array": [
-			"Bardic Knowledge",
-			"Countersong",
-			"Inspire Competence",
-			"Suggestion",
-			"Mass Suggestion",
-			"Versatile Performance",
-			"Lore Master"
-		],
-		"short_description": "The masked performer takes on the persona represented by the likeness she wears.",
 		"description": [
 			"## Masked Performer",
 			"",
@@ -1742,18 +1328,6 @@
 		"name": "Mute Musician",
 		"file": "archetypedisplaye424.html",
 		"sources": [ "Horror Realms" ],
-		"replaces": "Bardic Knowledge; Inspire Competence; Frightening Tune; Inspire Heroics; Mass Suggestion; Versatile Performance; Well-Versed; Jack-of-All-Trades",
-		"replace_array": [
-			"Bardic Knowledge",
-			"Inspire Competence",
-			"Frightening Tune",
-			"Inspire Heroics",
-			"Mass Suggestion",
-			"Versatile Performance",
-			"Well-Versed",
-			"Jack-of-All-Trades"
-		],
-		"short_description": "A mute musician forswears speech for the unnatural songs and thunderous silences of the depths of space.",
 		"description": [
 			"## Mute Musician",
 			"",
@@ -1804,14 +1378,6 @@
 		"name": "Negotiator",
 		"file": "archetypedisplay724b.html",
 		"sources": [ "Champions of Balance" ],
-		"replaces": "Bardic Knowledge; Bardic Performance; Versatile Performance; Lore Master",
-		"replace_array": [
-			"Bardic Knowledge",
-			"Bardic Performance",
-			"Versatile Performance",
-			"Lore Master"
-		],
-		"short_description": "Negotiators are those bards who take the skills of a performer and apply them to the realms of business and law.",
 		"description": [
 			"## Negotiator",
 			"",
@@ -1840,16 +1406,6 @@
 		"name": "Phrenologist",
 		"file": "archetypedisplayb272.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Bardic Knowledge; Well-Versed; Jack-of-All-Trades; Inspire Courage; Inspire Competence; Fascinate",
-		"replace_array": [
-			"Bardic Knowledge",
-			"Well-Versed",
-			"Jack-of-All-Trades",
-			"Inspire Courage",
-			"Inspire Competence",
-			"Fascinate"
-		],
-		"short_description": "The phrenologist is an expert at reading creatures' skulls, and he learns to use this knowledge to his benefit.",
 		"description": [
 			"## Phrenologist",
 			"",
@@ -1876,11 +1432,6 @@
 		"name": "Pitax: Academy of Grand Arts",
 		"file": "archetypedisplaydafc.html",
 		"sources": [ "Guide to the River Kingdoms" ],
-		"replaces": "Versatile Performance",
-		"replace_array": [
-			"Versatile Performance"
-		],
-		"short_description": "Those who have successfully mastered the strict curriculum of the Academy of Grand Arts.",
 		"description": [
 			"## Pitax: Academy of Grand Arts",
 			"",
@@ -1895,14 +1446,6 @@
 		"name": "Plant Speaker",
 		"file": "archetypedisplay1052.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Inspire Greatness; Bardic Knowledge; Well-Versed; Lore Master",
-		"replace_array": [
-			"Inspire Greatness",
-			"Bardic Knowledge",
-			"Well-Versed",
-			"Lore Master"
-		],
-		"short_description": "(Vine Leshy only) Plant speakers build upon their racial plantspeech ability and their storytelling tendencies to create an art form full of deep metaphors and allegory rather than specific details and facts.",
 		"description": [
 			"## Plant Speaker",
 			"",
@@ -1929,14 +1472,6 @@
 		"name": "Prankster",
 		"file": "archetypedisplaya5d0.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Fascinate; Suggestion; Mass Suggestion; Lore Master",
-		"replace_array": [
-			"Fascinate",
-			"Suggestion",
-			"Mass Suggestion",
-			"Lore Master"
-		],
-		"short_description": "(Gnome Only) The prankster sees humor as the highest form or art, and pranks as the highest form of humor.",
 		"description": [
 			"## Prankster",
 			"",
@@ -1965,14 +1500,6 @@
 		"name": "Provocateur",
 		"file": "archetypedisplay29ab.html",
 		"sources": [ "Inner Sea Intrigue" ],
-		"replaces": "Bardic Knowledge; 2nd-level Versatile Performance; Suggestion, Mass Suggestion",
-		"replace_array": [
-			"Bardic Knowledge",
-			"2nd-level Versatile Performance",
-			"Suggestion",
-			"Mass Suggestion"
-		],
-		"short_description": "Provocateurs are bards who use their art to make controversial political statements, undermine enemies' reputations, and upset the status quo on a large scale.",
 		"description": [
 			"## Provocateur",
 			"",
@@ -1999,16 +1526,6 @@
 		"name": "Ringleader (AG)",
 		"file": "archetypedisplayb0f4.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Bardic Performance; Well-Versed; Versatile Performance; Suggestion; Mass Suggestion; Soothing Performance",
-		"replace_array": [
-			"Bardic Performance",
-			"Well-Versed",
-			"Versatile Performance",
-			"Suggestion",
-			"Mass Suggestion",
-			"Soothing Performance"
-		],
-		"short_description": "Ringleaders are specialists who oversee large operations in which trouble could strike at any moment and any place.",
 		"description": [
 			"## Ringleader (AG)",
 			"",
@@ -2039,16 +1556,6 @@
 		"name": "Ringleader (UI)",
 		"file": "archetypedisplay1ed6.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Inspire Competence; Dirge of Doom; Frightening Tune; Versatile Performance; Well-Versed; Lore Master",
-		"replace_array": [
-			"Inspire Competence",
-			"Dirge of Doom",
-			"Frightening Tune",
-			"Versatile Performance",
-			"Well-Versed",
-			"Lore Master"
-		],
-		"short_description": "Ringleaders are adept in getting the most out of their allies, and they excel at planning for unexpected complications in advance.",
 		"description": [
 			"## Ringleader (UI)",
 			"",
@@ -2087,20 +1594,6 @@
 		"name": "Sandman",
 		"file": "archetypedisplay2ef8.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Inspire Courage; Suggestion; Inspire Greatness; Inspire Heroics; Mass Suggestion; Deadly Performance; Bardic Knowledge; Versatile Performance; Inspire Competence; Lore Master",
-		"replace_array": [
-			"Inspire Courage",
-			"Suggestion",
-			"Inspire Greatness",
-			"Inspire Heroics",
-			"Mass Suggestion",
-			"Deadly Performance",
-			"Bardic Knowledge",
-			"Versatile Performance",
-			"Inspire Competence",
-			"Lore Master"
-		],
-		"short_description": "Combining performance with stealth, trickery, and guile, the sandman uses cleverness to keep others off-balance.",
 		"description": [
 			"## Sandman",
 			"",
@@ -2135,15 +1628,6 @@
 		"name": "Savage Skald",
 		"file": "archetypedisplay8f2a.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Fascinate; Suggestion; Jack-of-All-Trades; Soothing Performance; Mass Suggestion",
-		"replace_array": [
-			"Fascinate",
-			"Suggestion",
-			"Jack-of-All-Trades",
-			"Soothing Performance",
-			"Mass Suggestion"
-		],
-		"short_description": "Far from civilization, furious tribes have their own war-singers, work-chanters, and lore-keepers, savaging enemies with song and sword alike.",
 		"description": [
 			"## Savage Skald",
 			"",
@@ -2168,17 +1652,6 @@
 		"name": "Sea Singer",
 		"file": "archetypedisplay4107.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Countersong; Inspire Competence; Suggestion; Mass Suggestion; Bardic Knowledge; Versatile Performance; Well-Versed",
-		"replace_array": [
-			"Countersong",
-			"Inspire Competence",
-			"Suggestion",
-			"Mass Suggestion",
-			"Bardic Knowledge",
-			"Versatile Performance",
-			"Well-Versed"
-		],
-		"short_description": "The sea singer calls the blue waters his home, and is much in demand among sea captains wishing good fortune for their crew and hull as they ply the tradewinds far and wide.",
 		"description": [
 			"## Sea Singer",
 			"",
@@ -2207,12 +1680,6 @@
 		"name": "Shadow Puppeteer",
 		"file": "archetypedisplay928c.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Inspire Courage; Inspire Competence",
-		"replace_array": [
-			"Inspire Courage",
-			"Inspire Competence"
-		],
-		"short_description": "(Wayang Only) A shadow puppeteer invokes amazing and terrifying shadow puppet shows, producing supernatural effects by creating and manipulating shadow.",
 		"description": [
 			"## Shadow Puppeteer",
 			"",
@@ -2231,16 +1698,6 @@
 		"name": "Silver Balladeer",
 		"file": "archetypedisplay593c.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Alignment; Suggestion; Inspire Greatness; Mass Suggestion; Well-Versed; 2nd-level Versatile Performance",
-		"replace_array": [
-			"Alignment",
-			"Suggestion",
-			"Inspire Greatness",
-			"Mass Suggestion",
-			"Well-Versed",
-			"2nd-level Versatile Performance"
-		],
-		"short_description": "The bright purity of silver makes beautiful music, and its vibrations are also anathema to unnatural creatures. Some bards use a mixture of silver-stringed instruments and esoteric knowledge to battle the dark forces of the world.",
 		"description": [
 			"## Silver Balladeer",
 			"",
@@ -2267,16 +1724,6 @@
 		"name": "Solacer",
 		"file": "archetypedisplay97d4.html",
 		"sources": [ "Healer's Handbook" ],
-		"replaces": "Class Skills; Bardic Knowledge; Lore Master; Countersong; Versatile Performance; Jack-of-All-Trades",
-		"replace_array": [
-			"Class Skills",
-			"Bardic Knowledge",
-			"Lore Master",
-			"Countersong",
-			"Versatile Performance",
-			"Jack-of-All-Trades"
-		],
-		"short_description": "Solacers are experts in the healing arts as well as creators of performances that console the distraught, rally the stricken, raise spirits, and vanquish sorrow.",
 		"description": [
 			"## Solacer",
 			"",
@@ -2313,13 +1760,6 @@
 		"name": "Songhealer",
 		"file": "archetypedisplayb3b0.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Versatile Performance; Frightening Tune; Deadly Performance",
-		"replace_array": [
-			"Versatile Performance",
-			"Frightening Tune",
-			"Deadly Performance"
-		],
-		"short_description": "The songhealer brings peace and surcease of pain, calming wild emotions and providing a balm for the wounded body.",
 		"description": [
 			"## Songhealer",
 			"",
@@ -2340,14 +1780,6 @@
 		"name": "Sorrowsoul",
 		"file": "archetypedisplay28d0.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Soothing Performance; Versatile Performance; Well-Versed; Lore Master",
-		"replace_array": [
-			"Soothing Performance",
-			"Versatile Performance",
-			"Well-Versed",
-			"Lore Master"
-		],
-		"short_description": "While most bards, on occasion, sing mournful tunes or craft elegies that depict the deepest sadness or the most profound suffering, the sorrowsoul has known tragedy and loss on a level so intimate, he has bound it to his soul.",
 		"description": [
 			"## Sorrowsoul",
 			"",
@@ -2378,12 +1810,6 @@
 		"name": "Sound Striker",
 		"file": "archetypedisplay4999.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Inspire Competence; Suggestion",
-		"replace_array": [
-			"Inspire Competence",
-			"Suggestion"
-		],
-		"short_description": "They say that words can cut deeper than any blade, and the sound striker proves this true.",
 		"description": [
 			"## Sound Striker",
 			"",
@@ -2403,14 +1829,6 @@
 		"name": "Speaker of the Palatine Eye",
 		"file": "archetypedisplayb4fc.html",
 		"sources": [ "Heroes of Golarion" ],
-		"replaces": "Class Skills; Spells; Countersong; Jack-of-All-Trades",
-		"replace_array": [
-			"Class Skills",
-			"Spellcasting",
-			"Countersong",
-			"Jack-of-All-Trades"
-		],
-		"short_description": " speaker of the Palatine Eye influences others using his occult knowledge rather than the boisterous enthusiasm of most bards.",
 		"description": [
 			"## Speaker of the Palatine Eye",
 			"",
@@ -2441,15 +1859,6 @@
 		"name": "Stonesinger",
 		"file": "archetypedisplay088b.html",
 		"sources": [ "Heroes of the Darklands" ],
-		"replaces": "Spellcasting; Bardic Performance; Countersong; Dirge of Doom",
-		"replace_array": [
-			"Spellcasting",
-			"Adds Spells",
-			"Bardic Performance",
-			"Countersong",
-			"Dirge of Doom"
-		],
-		"short_description": "Stonesingers are rare bards capable of vocalizing their bardic performances through subsonic harmonies, allowing their performances to carry as subtle vibrations through stone, rather than through the air.",
 		"description": [
 			"## Stonesinger",
 			"",
@@ -2478,17 +1887,6 @@
 		"name": "Street Performer",
 		"file": "archetypedisplayc9ec.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Inspire Courage; Inspire Competence; Inspire Greatness; Inspire Heroics; Countersong; Bardic Knowledge; Lore Master",
-		"replace_array": [
-			"Inspire Courage",
-			"Inspire Competence",
-			"Inspire Greatness",
-			"Inspire Heroics",
-			"Countersong",
-			"Bardic Knowledge",
-			"Lore Master"
-		],
-		"short_description": "Whether acrobat, troubadour, or thespian, the street performer mixes with the masses, singing for his supper.",
 		"description": [
 			"## Street Performer",
 			"",
@@ -2517,16 +1915,6 @@
 		"name": "Studious Librarian",
 		"file": "archetypedisplay97e6.html",
 		"sources": [ "Inner Sea Intrigue" ],
-		"replaces": "Distraction; Suggestion; Jack-of-All-Trades; Dirge of Doom; Mass Suggestion; Deadly Performance",
-		"replace_array": [
-			"Distraction",
-			"Suggestion",
-			"Jack-of-All-Trades",
-			"Dirge of Doom",
-			"Mass Suggestion",
-			"Deadly Performance"
-		],
-		"short_description": "Studious librarians are bards that have studied long in great libraries of the Inner Sea region.",
 		"description": [
 			"## Studious Librarian",
 			"",
@@ -2562,16 +1950,6 @@
 			"Ultimate Wilderness",
 			"Varisia, Birthplace of Legends"
 		],
-		"replaces": "Bardic Knowledge; Inspire Competence; Suggestion; Mass Suggestion; Dirge of Doom; Frightening Tune",
-		"replace_array": [
-			"Bardic Knowledge",
-			"Inspire Competence",
-			"Suggestion",
-			"Mass Suggestion",
-			"Dirge of Doom",
-			"Frightening Tune"
-		],
-		"short_description": "Thundercallers bear the knowledge of the ancients, wielding it like a weapon to protect the land for which they care so deeply.",
 		"description": [
 			"## Thundercaller",
 			"",
@@ -2606,14 +1984,6 @@
 		"name": "Voice of Brigh",
 		"file": "archetypedisplay620a.html",
 		"sources": [ "Construct Handbook" ],
-		"replaces": "Fascinate; Dirge of Doom; Soothing Performance; Frightening Tune",
-		"replace_array": [
-			"Fascinate",
-			"Dirge of Doom",
-			"Soothing Performance",
-			"Frightening Tune"
-		],
-		"short_description": "The Whisper in Bronze sometimes sends inspiration to her favorite followers in the form of music",
 		"description": [
 			"## Voice of Brigh",
 			"",
@@ -2646,17 +2016,6 @@
 		"name": "Voice of the Wild",
 		"file": "archetypedisplayae27.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Bardic Knowledge; Countersong; Versatile Performance; Jack-of-All-Trades; Inspire Competence; Dirge of Doom; Inspire Heroics",
-		"replace_array": [
-			"Bardic Knowledge",
-			"Countersong",
-			"Versatile Performance",
-			"Jack-of-All-Trades",
-			"Inspire Competence",
-			"Dirge of Doom",
-			"Inspire Heroics"
-		],
-		"short_description": "Most bards are inspired by the art of civilization, yet the voice of the wild's muse is the grandeur and beauty of nature.",
 		"description": [
 			"## Voice of the Wild",
 			"",
@@ -2677,12 +2036,6 @@
 		"name": "Wasteland Chronicler",
 		"file": "archetypedisplayd949.html",
 		"sources": [ "People of the Wastes" ],
-		"replaces": "Bardic Knowledge; Inspire Competence",
-		"replace_array": [
-			"Bardic Knowledge",
-			"Inspire Competence"
-		],
-		"short_description": "Wasteland chroniclers explore the farthest reaches of desolate wastelands, seeking to unlock the mysteries found there and meet the inhabitants of such regions",
 		"description": [
 			"## Wasteland Chronicler",
 			"",
@@ -2705,15 +2058,6 @@
 		"name": "Watersinger",
 		"file": "archetypedisplayc2ae.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Fascinate, Suggestion, Mass Suggestion, Inspire Competence, 5th-level Lore Master",
-		"replace_array": [
-			"Fascinate",
-			"Suggestion",
-			"Mass Suggestion",
-			"Inspire Competence",
-			"5th-level Lore Master"
-		],
-		"short_description": "(Undine Only) The watersinger's song reaches from the depths of his soul into the elemental waters from which life first sprang.",
 		"description": [
 			"## Watersinger",
 			"",
@@ -2736,17 +2080,6 @@
 		"name": "Wit",
 		"file": "archetypedisplay5424.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Bardic Knowledge; Inspire Competence; Dirge of Doom; Frightening Tune; Versatile Performance; Lore Master; Jack-of-All-Trades",
-		"replace_array": [
-			"Bardic Knowledge",
-			"Inspire Competence",
-			"Dirge of Doom",
-			"Frightening Tune",
-			"Versatile Performance",
-			"Lore Master",
-			"Jack-of-All-Trades"
-		],
-		"short_description": "The wit is a master of clever repartee and verbal dueling, moving through noble courts like a fish through water.",
 		"description": [
 			"## Wit",
 			"",

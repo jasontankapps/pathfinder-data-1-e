@@ -4,11 +4,6 @@
 		"name": "Blood God Disciple",
 		"file": "archetypedisplaye8fe.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Summon Monster",
-		"replace_array": [
-			"Summon Monster"
-		],
-		"short_description": "(Half-Orc) A half-orc summoner who devotes himself to one of the bloody orc gods may believe his eidolon is an avatar of that god rather than a mere supernatural creature.",
 		"description": [
 			"## Blood God Disciple",
 			"",
@@ -33,15 +28,6 @@
 		"name": "Blood Summoner",
 		"file": "archetypedisplayba24.html",
 		"sources": [ "Champions of Corruption" ],
-		"replaces": "Class Skills; Shield Ally; Transposition; Greater Shield Ally; Merge Forms",
-		"replace_array": [
-			"Class Skills",
-			"Shield Ally",
-			"Transposition",
-			"Greater Shield Ally",
-			"Merge Forms"
-		],
-		"short_description": "A blood summoner conjures an eidolon born from violence and blood.",
 		"description": [
 			"## Blood Summoner",
 			"",
@@ -64,14 +50,6 @@
 		"name": "Broodmaster",
 		"file": "archetypedisplaydae5.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Eidolon; Life Link; Life Bond; Merge Forms",
-		"replace_array": [
-			"Eidolon",
-			"Life Link",
-			"Life Bond",
-			"Merge Forms"
-		],
-		"short_description": "Most summoners bond with one eidolon for their entire lives, but the broodmaster forges a link with multiple smaller eidolons that make up his brood.",
 		"description": [
 			"## Broodmaster",
 			"",
@@ -116,14 +94,6 @@
 		"name": "Counter-Summoner",
 		"file": "archetypedisplay17a9-2.html",
 		"sources": [ "Monster Summoner's Handbook" ],
-		"replaces": "Summon Monster; Bond Senses; Aspect; Greater Aspect",
-		"replace_array": [
-			"Summon Monster",
-			"Bond Senses",
-			"Aspect",
-			"Greater Aspect"
-		],
-		"short_description": "While most summoners excel at conjuring monsters, there are those who focus instead on disrupting the conjurations of opponents.",
 		"description": [
 			"## Counter-Summoner",
 			"",
@@ -144,13 +114,6 @@
 		"name": "Evolutionist",
 		"file": "archetypedisplaydb92.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Maker's Call; Transposition; Greater Shield Ally",
-		"replace_array": [
-			"Maker's Call",
-			"Transposition",
-			"Greater Shield Ally"
-		],
-		"short_description": "An evolutionist possesses greater power over his eidolon's form, and is able to evolve his eidolon and its abilities to meet any challenge or face any threat as it comes up, seemingly on a whim.",
 		"description": [
 			"## Evolutionist",
 			"",
@@ -169,12 +132,6 @@
 		"name": "First Worlder",
 		"file": "archetypedisplay29d5.html",
 		"sources": [ "Inner Sea Magic" ],
-		"replaces": "Summon Monster; Eidolon",
-		"replace_array": [
-			"Summon Monster",
-			"Eidolon"
-		],
-		"short_description": "A first worlder summoner has a more primal connection to nature, their power being tied to the First World.",
 		"description": [
 			"## First Worlder",
 			"",
@@ -215,16 +172,6 @@
 		"name": "God Caller",
 		"file": "archetypedisplay985b.html",
 		"sources": [ "Inner Sea Intrigue" ],
-		"replaces": "Class Skills; Life Link; Transposition; Aspect; Greater Aspect; Twin Eidolon",
-		"replace_array": [
-			"Class Skills",
-			"Life Link",
-			"Transposition",
-			"Aspect",
-			"Greater Aspect",
-			"Twin Eidolon"
-		],
-		"short_description": "God callers follow a fractured tradition that originated in the now-lost nation of Sarkoris. They speak to an assortment of ancient divine powers to lead their communities and sometimes stir up reformations in faiths with ideals similar to their personal convictions.",
 		"description": [
 			"## God Caller",
 			"",
@@ -261,12 +208,6 @@
 		"name": "Leshy Caller",
 		"file": "archetypedisplay2e6c.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Eidolon; Summon Monster",
-		"replace_array": [
-			"Eidolon",
-			"Summon Monster"
-		],
-		"short_description": "A leshy caller summons creatures from the First World and forges a bond with a leshy eidolon.",
 		"description": [
 			"## Leshy Caller",
 			"",
@@ -303,13 +244,6 @@
 		"name": "Master Summoner",
 		"file": "archetypedisplay5af8.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Summon Monster I; Shield Ally; Bond Senses",
-		"replace_array": [
-			"Summon Monster",
-			"Shield Ally",
-			"Bond Senses"
-		],
-		"short_description": "The master summoner sacrifices the power of his eidolon in favor of summoning a plethora of otherworldly creatures to aid him.",
 		"description": [
 			"## Master Summoner",
 			"",
@@ -332,13 +266,6 @@
 		"name": "Morphic Savant",
 		"file": "archetypedisplay5b09.html",
 		"sources": [ "Monster Summoner's Handbook" ],
-		"replaces": "Eidolon; Summon Monster; Spells",
-		"replace_array": [
-			"Eidolon",
-			"Summon Monster",
-			"Adds Spells"
-		],
-		"short_description": "A morphic savant is an agent of change who draws power from the Abyss, Elysium, or the Maelstrom to fulfill whatever goals strike his fancy.",
 		"description": [
 			"## Morphic Savant",
 			"",
@@ -365,16 +292,6 @@
 		"name": "Naturalist",
 		"file": "archetypedisplay180a.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Summon Monster; Shield Ally; Greater Shield Ally; Aspect; Life Bond; Greater Aspect",
-		"replace_array": [
-			"Summon Monster",
-			"Shield Ally",
-			"Greater Shield Ally",
-			"Aspect",
-			"Life Bond",
-			"Greater Aspect"
-		],
-		"short_description": "A naturalist is a summoner who is in tune with the natural world, using his magic like a lens to focus various animal aspects onto his eidolon.",
 		"description": [
 			"## Naturalist",
 			"",
@@ -401,14 +318,6 @@
 		"name": "Pyroclast",
 		"file": "archetypedisplayf1ca.html",
 		"sources": [ "Pathfinder #95: Anvil of Fire" ],
-		"replaces": "Spellcasting; Eidolon; Maker's Call; Transposition",
-		"replace_array": [
-			"Spellcasting",
-			"Eidolon",
-			"Maker's Call",
-			"Transposition"
-		],
-		"short_description": "Pyroclasts harness the primal elemental energy of magma. Their eidolons often resemble elemental beings.",
 		"description": [
 			"## Pyroclast",
 			"",
@@ -429,13 +338,6 @@
 		"name": "Shadow Caller",
 		"file": "archetypedisplay9c42.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Class Skills; Summon Monster; Eidolon",
-		"replace_array": [
-			"Class Skills",
-			"Summon Monster",
-			"Eidolon"
-		],
-		"short_description": "(Fetchling Only) While most summoners can call any manner of creature from across the planes to serve them in combat, supplementing the skills of their eidolon with a diverse range of creatures, others eschew this broad utility and instead concentrate upon calling forth entities from the Shadow Plane.",
 		"description": [
 			"## Shadow Caller",
 			"",
@@ -476,16 +378,6 @@
 		"name": "Shaitan Binder",
 		"file": "archetypedisplay09c6.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Share Spells; Shield Ally; Greater Shield Ally; Aspect; Greater Aspect; Twin Eidolon",
-		"replace_array": [
-			"Share Spells",
-			"Shield Ally",
-			"Greater Shield Ally",
-			"Aspect",
-			"Greater Aspect",
-			"Twin Eidolon"
-		],
-		"short_description": "(Oread Only) Shaitan binders call upon a reflection of their genie ancestors to serve as their eidolons.",
 		"description": [
 			"## Shaitan Binder",
 			"",
@@ -514,16 +406,6 @@
 		"name": "Spirit Summoner",
 		"file": "archetypedisplay8ec0.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Summon Monster; Eidolon; Aspect; Maker's Call; Merge Forms; Transposition",
-		"replace_array": [
-			"Summon Monster",
-			"Eidolon",
-			"Aspect",
-			"Maker's Call",
-			"Merge Forms",
-			"Transposition"
-		],
-		"short_description": "A spirit summoner is an arcane spellcaster whose eidolon is a manifestation of a shamanic spirit.",
 		"description": [
 			"## Spirit Summoner",
 			"",
@@ -552,16 +434,6 @@
 		"name": "Storm Caller",
 		"file": "archetypedisplay9bba.html",
 		"sources": [ "Elemental Master's Handbook" ],
-		"replaces": "Eidolon; Summon Monster; Shield Ally; Greater Shield Ally; Maker's Call; Transposition",
-		"replace_array": [
-			"Eidolon",
-			"Summon Monster",
-			"Shield Ally",
-			"Greater Shield Ally",
-			"Maker's Call",
-			"Transposition"
-		],
-		"short_description": "Many summoners beckon monsters from the Elemental Planes, but few are as specialized as storm callers, who channel the elemental energies of the Plane of Air.",
 		"description": [
 			"## Storm Caller",
 			"",
@@ -602,13 +474,6 @@
 		"name": "Story Summoner",
 		"file": "archetypedisplay946b.html",
 		"sources": [ "The Harrow Handbook" ],
-		"replaces": "Eidolon; Bond Senses; Transposition",
-		"replace_array": [
-			"Eidolon",
-			"Bond Senses",
-			"Transposition"
-		],
-		"short_description": "Story summoners rely on the harrow to weave the paths they walk, turning their tales into reality. They channel magic through their harrow decks to influence the strange extraplanar beings they summon, bringing familiar and fateful characters to life.",
 		"description": [
 			"## Story Summoner",
 			"",
@@ -627,17 +492,6 @@
 		"name": "Synthesist",
 		"file": "archetypedisplayf829.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Eidolon; Life Link; Shield Ally; Maker's Call; Transposition; Greater Shield Ally; Merge Forms",
-		"replace_array": [
-			"Eidolon",
-			"Life Link",
-			"Shield Ally",
-			"Maker's Call",
-			"Transposition",
-			"Greater Shield Ally",
-			"Merge Forms"
-		],
-		"short_description": "Rather than summon an eidolon to serve by his side, the synthesist fuses his eidolon's essence to his own.",
 		"description": [
 			"## Synthesist",
 			"",
@@ -670,15 +524,6 @@
 		"name": "Twinned Summoner",
 		"file": "archetypedisplay6ebd.html",
 		"sources": [ "Legacy of the First World" ],
-		"replaces": "Shield Ally; Greater Shield Ally; Maker's Call; Transposition; Merge Forms",
-		"replace_array": [
-			"Shield Ally",
-			"Greater Shield Ally",
-			"Maker's Call",
-			"Transposition",
-			"Merge Forms"
-		],
-		"short_description": "Reflecting the connected nature of Imbrex, a twinned summoner and his eidolon appear identical save for any obvious differences, such as evolutions or equipment.",
 		"description": [
 			"## Twinned Summoner",
 			"",
@@ -705,13 +550,6 @@
 		"name": "Unwavering Conduit",
 		"file": "archetypedisplay87bf.html",
 		"sources": [ "Monster Summoner's Handbook" ],
-		"replaces": "Eidolon; Summon Monster; Spells",
-		"replace_array": [
-			"Eidolon",
-			"Summon Monster",
-			"Spellcasting"
-		],
-		"short_description": "Unwavering conduits work to keep everything ordered and regimented, drawing on power from the Eternal City of Axis, Heaven, or Hell to enforce whichever laws the summoner finds paramount.",
 		"description": [
 			"## Unwavering Conduit",
 			"",
@@ -738,12 +576,6 @@
 		"name": "Wild Caller (ARG)",
 		"file": "archetypedisplay7fe8.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Summon Monster; Eidolon",
-		"replace_array": [
-			"Summon Monster",
-			"Eidolon"
-		],
-		"short_description": "(Half-Elf Only) The wild caller calls eidolons that take more natural and savage forms and summons from nature rather than the Great Beyond.",
 		"description": [
 			"## Wild Caller (ARG)",
 			"",
@@ -766,14 +598,6 @@
 		"name": "Wild Caller (HotW)",
 		"file": "archetypedisplay7c6c.html",
 		"sources": [ "Heroes of the Wild" ],
-		"replaces": "Eidolon; Summon Monster; Aspect; Greater Aspect",
-		"replace_array": [
-			"Eidolon",
-			"Summon Monster",
-			"Aspect",
-			"Greater Aspect"
-		],
-		"short_description": "A wild caller summons creatures from the First World and forges a bond with an eidolon with a plant body.",
 		"description": [
 			"## Wild Caller (HotW)",
 			"",

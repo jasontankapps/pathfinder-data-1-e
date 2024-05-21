@@ -4,14 +4,6 @@
 		"name": "Ancestral Aspirant",
 		"file": "archetypedisplayc67f.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Implements; Object Reading; Outside Contact",
-		"replace_array": [
-			"Class Skills",
-			"Implements",
-			"Object Reading",
-			"Outside Contact"
-		],
-		"short_description": "It is common for a noble to possess a deep pride for his family's past, but when such self-importance gives way to obsession, an ancestral aspirant is born.",
 		"description": [
 			"## Ancestral Aspirant",
 			"",
@@ -40,24 +32,6 @@
 		"name": "Battle Host",
 		"file": "archetypedisplay61f7.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Class Skills; Weapon/Armor Proficiency; Implements; Mental Focus; Spellcasting; Implement Mastery; Magic Item Skill; Object Reading; Shift Focus; Magic Circles; Binding Circles; Fast Circles; Aura Sight; Outside Contact",
-		"replace_array": [
-			"Class Skills",
-			"Weapon/Armor Proficiency",
-			"Implements",
-			"Mental Focus",
-			"Spellcasting",
-			"Implement Mastery",
-			"Magic Item Skill",
-			"Object Reading",
-			"Shift Focus",
-			"Magic Circles",
-			"Binding Circles",
-			"Fast Circles",
-			"Aura Sight",
-			"Outside Contact"
-		],
-		"short_description": "Well versed in military history, battlefield lore, and the occult, a battle host forms a supernatural bond with a chosen weapon, suit of armor, or shield, from which he can channel psychic energy to cast spells, conjure the spirit of the object's former owner, increase his own physical might, and produce a number of other remarkable abilities.",
 		"description": [
 			"## Battle Host",
 			"",
@@ -86,17 +60,6 @@
 		"name": "Construct Collector",
 		"file": "archetypedisplayafe8.html",
 		"sources": [ "Construct Handbook" ],
-		"replaces": "3rd, 9th, 15th-level Focus Power; Magic Circles; Outside Contact; Binding Circles; Fast Circles",
-		"replace_array": [
-			"3rd-level Focus Power",
-			"9th-level Focus Power",
-			"15th-level Focus Power",
-			"Magic Circles",
-			"Outside Contact",
-			"Binding Circles",
-			"Fast Circles"
-		],
-		"short_description": "Construct collectors draw out a construct's spiritual presence and use it to gain unlikely power in the battlefield.",
 		"description": [
 			"## Construct Collector",
 			"",
@@ -117,17 +80,6 @@
 		"name": "Curator",
 		"file": "archetypedisplay07d1.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Implements; 3rd-level Focus Power; Shift Focus; Outside Contact; Magic Circles; Binding Circles; Fast Circles",
-		"replace_array": [
-			"Implements",
-			"3rd-level Focus Power",
-			"Shift Focus",
-			"Outside Contact",
-			"Magic Circles",
-			"Binding Circles",
-			"Fast Circles"
-		],
-		"short_description": "Most occultists acquire and study antiques at a steady pace, learning new techniques one at a time. A lucky few join wealthy organizations replete with relics or inherit undocumented vaults full of historical treasures, and dabble in a wide variety of implements while mastering few",
 		"description": [
 			"## Curator",
 			"",
@@ -164,14 +116,6 @@
 		"name": "Esoteric Initiate",
 		"file": "archetypedisplay809d.html",
 		"sources": [ "Disciple's Doctrine" ],
-		"replaces": "Mental Focus; Implements; Shift Focus; Aura Sight",
-		"replace_array": [
-			"Mental Focus",
-			"Implements",
-			"Shift Focus",
-			"Aura Sight"
-		],
-		"short_description": "While most occultists learn to draw power from a variety of implements and objects, esoteric initiates have focused their study entirely on items of antiquity connected to the teachings of the Esoteric Order of the Palatine Eye, believing such items to be more powerful than mundane items.",
 		"description": [
 			"## Esoteric Initiate",
 			"",
@@ -196,17 +140,6 @@
 		"name": "Extemporaneous Channeler",
 		"file": "archetypedisplayeddd.html",
 		"sources": [ "Martial Arts Handbook" ],
-		"replaces": "Weapon Proficiencies; Mental Focus; Shift Focus; Magic Circles; Outside Contact; Binding Circles; Fast Circles",
-		"replace_array": [
-			"Weapon Proficiency",
-			"Mental Focus",
-			"Shift Focus",
-			"Magic Circles",
-			"Outside Contact",
-			"Binding Circles",
-			"Fast Circles"
-		],
-		"short_description": "Extemporaneous channelers study the power of transformation and use items in unintended ways to awaken their potential.",
 		"description": [
 			"## Extemporaneous Channeler",
 			"",
@@ -239,17 +172,6 @@
 		"name": "Geomancer",
 		"file": "archetypedisplayf566.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Class Skills; Mental Focus; Implements; Magic Item Skill; Aura Sight; 7th and 13th-level Focus Powers",
-		"replace_array": [
-			"Class Skills",
-			"Mental Focus",
-			"Implements",
-			"Magic Item Skill",
-			"Aura Sight",
-			"7th-level Focus Power",
-			"13th-level Focus Power"
-		],
-		"short_description": "A geomancer studies every type of land, deriving power from the differences between types of terrain.",
 		"description": [
 			"## Geomancer",
 			"",
@@ -312,16 +234,6 @@
 		"name": "Haunt Collector",
 		"file": "archetypedisplayacf9.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Implements; Aura Sight; Outside Contact; Magic Circles; Binding Circles; Fast Circles",
-		"replace_array": [
-			"Implements",
-			"Aura Sight",
-			"Outside Contact",
-			"Magic Circles",
-			"Binding Circles",
-			"Fast Circles"
-		],
-		"short_description": "Haunt collectors use items haunted by their former owners to create ghostly presences imbued with psychic power.",
 		"description": [
 			"## Haunt Collector",
 			"",
@@ -358,16 +270,6 @@
 		"name": "Naturalist",
 		"file": "archetypedisplayb5f8.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Class Skills; Mental Focus; Magic Circles; Fast Circles; Outside Contact; Binding Circles",
-		"replace_array": [
-			"Class Skills",
-			"Mental Focus",
-			"Magic Circles",
-			"Fast Circles",
-			"Outside Contact",
-			"Binding Circles"
-		],
-		"short_description": "A naturalist eschews the contact with outsiders that other occultists use as the core of their work. Instead, he attunes his mind to the natural spirits that exist everywhere, just out of sight for the unawakened mind.",
 		"description": [
 			"## Naturalist",
 			"",
@@ -400,15 +302,6 @@
 		"name": "Necroccultist",
 		"file": "archetypedisplay428c.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Implements; Implement Mastery; Object Reading; Aura Sight; Outside Contact",
-		"replace_array": [
-			"Implements",
-			"Implement Mastery",
-			"Object Reading",
-			"Aura Sight",
-			"Outside Contact"
-		],
-		"short_description": "Necroccultists' fascination with death and the undead drives them to explore the forbidden necromantic arts as they search for secrets they can use to manipulate the natural cycle of life and death.",
 		"description": [
 			"## Necroccultist",
 			"",
@@ -429,16 +322,6 @@
 		"name": "Occult Historian",
 		"file": "archetypedisplay7778.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Object Reading; Aura Sight; 3rd-level Focus Power; Outside Contact 2, 3, and 4",
-		"replace_array": [
-			"Object Reading",
-			"Aura Sight",
-			"3rd-level Focus Power",
-			"Outside Contact 2",
-			"Outside Contact 3",
-			"Outside Contact 4"
-		],
-		"short_description": "Many wilderness areas contain the remnants of ancient civilizations, with some waiting to be discovered and some held by fierce monsters or devious cults. An occult historian seeks these ruins not only for their esoteric artifacts but also to learn the structures' secrets.",
 		"description": [
 			"## Occult Historian",
 			"",
@@ -465,15 +348,6 @@
 		"name": "Panoply Savant",
 		"file": "archetypedisplaycf1b.html",
 		"sources": [ "Psychic Anthology" ],
-		"replaces": "Shift Focus; Outside Contact; Magic Circles; Binding Circles; Fast Circles",
-		"replace_array": [
-			"Shift Focus",
-			"Outside Contact",
-			"Magic Circles",
-			"Binding Circles",
-			"Fast Circles"
-		],
-		"short_description": "Some occultists specialize in a particular panoply, fully dedicating themselves to mastering the secrets of the psychic resonance of each of its component implements, as well as the way they interact with one another.",
 		"description": [
 			"## Panoply Savant",
 			"",
@@ -508,18 +382,6 @@
 		"name": "Planar Harmonizer",
 		"file": "archetypedisplay1fb4.html",
 		"sources": [ "Plane-Hopper's Handbook" ],
-		"replaces": "Implements; Implement Mastery; Magic Item Skill; Shift Focus; 5th, 7th-level Focus Power; Magic Circles; Aura Sight",
-		"replace_array": [
-			"Implements",
-			"Implement Mastery",
-			"Magic Item Skill",
-			"Shift Focus",
-			"5th-level Focus Power",
-			"7th-level Focus Power",
-			"Magic Circles",
-			"Aura Sight"
-		],
-		"short_description": "Planar harmonizers are masters of the planar symphony, forging bonds with tuning forks to unlock the true potential of these instruments",
 		"description": [
 			"## Planar Harmonizer",
 			"",
@@ -548,18 +410,6 @@
 		"name": "Psychodermist",
 		"file": "archetypedisplaydcff.html",
 		"sources": [ "Monster Hunter's Handbook" ],
-		"replaces": "Class Skills; Implements; Magic Item Skill; Object Reading; Aura Sight; Outside Contact; Binding Circles; Fast Circles",
-		"replace_array": [
-			"Class Skills",
-			"Implements",
-			"Magic Item Skill",
-			"Object Reading",
-			"Aura Sight",
-			"Outside Contact",
-			"Binding Circles",
-			"Fast Circles"
-		],
-		"short_description": "Rather than tapping the psychic energy residing within esoteric items, psychodermists form supernatural bonds with trophies taken from creatures they have slain. Through these mementos, these occultists manifest not only their own magic, but also the unique powers of their fallen foes.",
 		"description": [
 			"## Psychodermist",
 			"",
@@ -624,16 +474,6 @@
 		"name": "Reliquarian",
 		"file": "archetypedisplay7c90.html",
 		"sources": [ "Occult Origins" ],
-		"replaces": "Weapon Proficiencies; Spells; Focus Powers; Implements; Knacks; Mental Focus",
-		"replace_array": [
-			"Weapon Proficiency",
-			"Spellcasting",
-			"Focus Powers",
-			"Implements",
-			"Knacks",
-			"Mental Focus"
-		],
-		"short_description": "Not all occultists derive their power from psychic impressions left on objects. Some find faith first, and draw out the divine potential in religious relics.",
 		"description": [
 			"## Reliquarian",
 			"",
@@ -660,18 +500,6 @@
 		"name": "Secret Broker",
 		"file": "archetypedisplay773c.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Implements; Implement Mastery; Magic Item Skill; Shift Focus; Magic Circles; Binding Circles; Fast Circles",
-		"replace_array": [
-			"Class Skills",
-			"Implements",
-			"Implement Mastery",
-			"Magic Item Skill",
-			"Shift Focus",
-			"Magic Circles",
-			"Binding Circles",
-			"Fast Circles"
-		],
-		"short_description": "Whether as spymasters, extortionists, political fixers, or puppet masters, secret brokers use their talents with objects to gain information, then leverage that information for their own purposes.",
 		"description": [
 			"## Secret Broker",
 			"",
@@ -714,18 +542,6 @@
 		"name": "Sha'ir",
 		"file": "archetypedisplayb7d8.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Implements; Mental Focus; Spellcasting; Implement Mastery; Magic Item Skill; Object Reading; Aura Sight; Outside Contact",
-		"replace_array": [
-			"Implements",
-			"Mental Focus",
-			"Spellcasting",
-			"Implement Mastery",
-			"Magic Item Skill",
-			"Object Reading",
-			"Aura Sight",
-			"Outside Contact"
-		],
-		"short_description": "Sha-irs delve into the occult not through power over objects but instead via their connection with minor servitor genies from the elemental planes.",
 		"description": [
 			"## Sha'ir",
 			"",
@@ -756,20 +572,6 @@
 		"name": "Silksworn",
 		"file": "archetypedisplay9169.html",
 		"sources": [ "Heroes of the High Court" ],
-		"replaces": "Spellcasting; Class Skills; Knacks; Implements; Weapon and Armor Proficiency; Outside Contact; Magic Circles; Binding Circles; Fast Circles; Implement Mastery",
-		"replace_array": [
-			"Spellcasting",
-			"Class Skills",
-			"Knacks",
-			"Implements",
-			"Weapon/Armor Proficiency",
-			"Outside Contact",
-			"Magic Circles",
-			"Binding Circles",
-			"Fast Circles",
-			"Implement Mastery"
-		],
-		"short_description": "Silksworn draw their power from wearing luxurious garments and can be found in many noble courts throughout Golarion",
 		"description": [
 			"## Silksworn",
 			"",
@@ -822,17 +624,6 @@
 		"name": "Talisman Crafter",
 		"file": "archetypedisplay0081.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Implements; Magic Item Skill; Object Reading; Shift Focus; Aura Sight; 5th, 17th-level Focus Powers",
-		"replace_array": [
-			"Implements",
-			"Magic Item Skill",
-			"Object Reading",
-			"Shift Focus",
-			"Aura Sight",
-			"5th-level Focus Power",
-			"17th-level Focus Power"
-		],
-		"short_description": "Talisman crafters specialize- in the creation of seals, constructing master talismans to use as implements and inscribing wards with esoteric geometry.",
 		"description": [
 			"## Talisman Crafter",
 			"",
@@ -863,21 +654,6 @@
 		"name": "Tome Eater",
 		"file": "archetypedisplay3890.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Implements; Mental Focus; Spellcasting; Implement Mastery; Shift Focus; 6th-level Implement; Magic Circles; Outside Contact; Binding Circles; Fast Circles; Aura Sight",
-		"replace_array": [
-			"Implements",
-			"Mental Focus",
-			"Spellcasting",
-			"Implement Mastery",
-			"Shift Focus",
-			"6th-level Implement",
-			"Magic Circles",
-			"Outside Contact",
-			"Binding Circles",
-			"Fast Circles",
-			"Aura Sight"
-		],
-		"short_description": "Tome eaters have learned how to tap into the latent psychic energy of the written word by physically devouring books and scrolls to create magical effects and gain mystical insights.",
 		"description": [
 			"## Tome Eater",
 			"",

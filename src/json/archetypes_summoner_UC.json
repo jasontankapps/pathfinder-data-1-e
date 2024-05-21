@@ -4,12 +4,6 @@
 		"name": "Construct Caller",
 		"file": "archetypedisplay48c1.html",
 		"sources": [ "Construct Handbook" ],
-		"replaces": "Subtype; Summon Monster",
-		"replace_array": [
-			"Eidolon",
-			"Summon Monster"
-		],
-		"short_description": "Construct callers use their mechanical and planar understandings to work planar energies as a tinkerer works parts",
 		"description": [
 			"## Construct Caller",
 			"",
@@ -30,20 +24,6 @@
 		"name": "Devil Binder",
 		"file": "archetypedisplayf823.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Alignment; Summon Monster I; Bond Senses; Shield Ally; Maker's Call; Transposition; Greater Shield Ally; Merge Forms; Twin Eidolon; Devotion",
-		"replace_array": [
-			"Alignment",
-			"Summon Monster",
-			"Bond Senses",
-			"Shield Ally",
-			"Maker's Call",
-			"Transposition",
-			"Greater Shield Ally",
-			"Merge Forms",
-			"Twin Eidolon",
-			"Devotion"
-		],
-		"short_description": "A devil binder borrows extraplanar quintessence from her eidolon, gaining strange abilities for herself and evolving her eidolon's magical powers.",
 		"description": [
 			"## Devil Binder",
 			"",
@@ -76,17 +56,6 @@
 		"name": "Devil Impostor",
 		"file": "archetypedisplay77b5.html",
 		"sources": [ "Agents of Evil" ],
-		"replaces": "Class Skills; Bond Senses; Eidolon; Summon Monster; Shield Ally; Greater Shield Ally; Transposition",
-		"replace_array": [
-			"Class Skills",
-			"Bond Senses",
-			"Eidolon",
-			"Summon Monster",
-			"Shield Ally",
-			"Greater Shield Ally",
-			"Transposition"
-		],
-		"short_description": "Some summoners can't abide the cruelty of devils, or simply can't outwit them, but must appear to do so to get by in Cheliax, the Outer Planes, or similar areas of infernal influence. Rather than risk binding true devils, they reshape their eidolons into deceptive forms.",
 		"description": [
 			"## Devil Impostor",
 			"",
@@ -113,13 +82,6 @@
 		"name": "Fey Caller",
 		"file": "archetypedisplayb8be.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Summon Monster; Eidolon Subtype",
-		"replace_array": [
-			"Class Skills",
-			"Summon Monster",
-			"Eidolon"
-		],
-		"short_description": "Fey callers are summoners whose voices reach out into those strange faerie realms and call forth the fey who dwell there.",
 		"description": [
 			"## Fey Caller",
 			"",
@@ -164,16 +126,6 @@
 		"name": "God Caller",
 		"file": "archetypedisplay8ec9.html",
 		"sources": [ "Inner Sea Intrigue" ],
-		"replaces": "Class Skills; Life Link; Transposition; Aspect; Greater Aspect; Twin Eidolon",
-		"replace_array": [
-			"Class Skills",
-			"Life Link",
-			"Transposition",
-			"Aspect",
-			"Greater Aspect",
-			"Twin Eidolon"
-		],
-		"short_description": "God callers follow a fractured tradition that originated in the now-lost nation of Sarkoris. They speak to an assortment of ancient divine powers to lead their communities and sometimes stir up reformations in faiths with ideals similar to their personal convictions.",
 		"description": [
 			"## God Caller",
 			"",
@@ -210,12 +162,6 @@
 		"name": "Leshy Caller",
 		"file": "archetypedisplay19d6.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Eidolon; Summon Monster",
-		"replace_array": [
-			"Eidolon",
-			"Summon Monster"
-		],
-		"short_description": "A leshy caller summons creatures from the First World and forges a bond with a leshy eidolon.",
 		"description": [
 			"## Leshy Caller",
 			"",
@@ -252,13 +198,6 @@
 		"name": "Soulbound Summoner",
 		"file": "archetypedisplaycbb0.html",
 		"sources": [ "Pathfinder #144: Midwives to Death" ],
-		"replaces": "Eidolon; Life Link; Summon Monster",
-		"replace_array": [
-			"Eidolon",
-			"Life Link",
-			"Summon Monster"
-		],
-		"short_description": "Soulbound summoners, as a rule, never set out to bind their soul to a dangerous and enigmatic power. Rather, they have found themselves unintentional masters of eidolons through incredible circumstances.",
 		"description": [
 			"## Soulbound Summoner",
 			"",
@@ -287,16 +226,6 @@
 		"name": "Storm Caller",
 		"file": "archetypedisplay336c.html",
 		"sources": [ "Elemental Master's Handbook" ],
-		"replaces": "Eidolon; Summon Monster; Shield Ally; Greater Shield Ally; Maker's Call; Transposition",
-		"replace_array": [
-			"Eidolon",
-			"Summon Monster",
-			"Shield Ally",
-			"Greater Shield Ally",
-			"Maker's Call",
-			"Transposition"
-		],
-		"short_description": "Many summoners beckon monsters from the Elemental Planes, but few are as specialized as storm callers, who channel the elemental energies of the Plane of Air.",
 		"description": [
 			"## Storm Caller",
 			"",
@@ -337,15 +266,6 @@
 		"name": "Twinned Summoner",
 		"file": "archetypedisplay4a96.html",
 		"sources": [ "Legacy of the First World" ],
-		"replaces": "Shield Ally; Greater Shield Ally; Maker's Call; Transposition; Merge Forms",
-		"replace_array": [
-			"Shield Ally",
-			"Greater Shield Ally",
-			"Maker's Call",
-			"Transposition",
-			"Merge Forms"
-		],
-		"short_description": "Reflecting the connected nature of Imbrex, a twinned summoner and his eidolon appear identical save for any obvious differences, such as evolutions or equipment.",
 		"description": [
 			"## Twinned Summoner",
 			"",

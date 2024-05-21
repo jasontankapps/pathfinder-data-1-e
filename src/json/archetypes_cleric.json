@@ -4,14 +4,6 @@
 		"name": "Angelfire Apostle",
 		"file": "archetypedisplay778a.html",
 		"sources": [ "Healer's Handbook" ],
-		"replaces": "Armor Proficiency; Spellcasting; Alignment; Channel Energy",
-		"replace_array": [
-			"Armor Proficiency",
-			"Spellcasting",
-			"Alignment",
-			"Channel Energy"
-		],
-		"short_description": "Angelfire apostles use the powers of good to avoid violence when possible and cleanse both maladies and evil creatures with blinding flames.",
 		"description": [
 			"## Angelfire Apostle",
 			"",
@@ -42,15 +34,6 @@
 		"name": "Appeaser",
 		"file": "archetypedisplay18ec.html",
 		"sources": [ "Agents of Evil" ],
-		"replaces": "Aura; Channel Energy; Alignment; Spells; Domains",
-		"replace_array": [
-			"Aura",
-			"Channel Energy",
-			"Alignment",
-			"Spellcasting",
-			"Domains"
-		],
-		"short_description": "A rare few seek the power of dark forces for brighter ends by focusing on the utilitarian aspects of a god's portfolio, appeasing their deities through high praise and glorifying their chosen gods' unaligned aspects.",
 		"description": [
 			"## Appeaser",
 			"",
@@ -75,11 +58,6 @@
 		"name": "Asmodean Advocate",
 		"file": "archetypedisplaya2e9.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
-		"replaces": "Domains",
-		"replace_array": [
-			"Domains"
-		],
-		"short_description": "For the faithful of Asmodeus, the words used in a negotiation or contract matter more than their intent.",
 		"description": [
 			"## Asmodean Advocate",
 			"",
@@ -100,14 +78,6 @@
 		"name": "Blossoming Light",
 		"file": "archetypedisplay1f50.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Armor Proficiency; Alignment; Channel Energy; Domains",
-		"replace_array": [
-			"Armor Proficiency",
-			"Alignment",
-			"Channel Energy",
-			"Domains"
-		],
-		"short_description": "Blossoming lights are clerics who take their pursuit of purity and light to extremes.",
 		"description": [
 			"## Blossoming Light",
 			"",
@@ -144,16 +114,6 @@
 		"name": "Cardinal",
 		"file": "archetypedisplayd146.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Armor Proficiency; Spontaneous Casting; Domain; Class Skills; Skill Ranks; Base Attack Bonus",
-		"replace_array": [
-			"Armor Proficiency",
-			"Spontaneous Casting",
-			"Domains",
-			"Class Skills",
-			"Skill Ranks",
-			"Base Attack Bonus"
-		],
-		"short_description": "Cardinals wield significant political power, engaging in the game of intrigue on behalf of their churches",
 		"description": [
 			"## Cardinal",
 			"",
@@ -174,16 +134,6 @@
 		"name": "Channeler of the Unknown",
 		"file": "archetypedisplay1fa2.html",
 		"sources": [ "Antihero's Handbook" ],
-		"replaces": "Weapon and Armor Proficiency; Spells; Aura; Channel Energy; Domains; Spontaneous Casting",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Spellcasting",
-			"Aura",
-			"Channel Energy",
-			"Domains",
-			"Spontaneous Casting"
-		],
-		"short_description": "(Ex-cleric archetype) Channelers of the unknown are those faithless clerics who channel the power of an unknown entity or force of the universe",
 		"description": [
 			"## Channeler of the Unknown",
 			"",
@@ -224,13 +174,6 @@
 		"name": "Cloistered Cleric",
 		"file": "archetypedisplayb8a7.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Weapon/Armor Proficiencies; Domains; Spells",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Domains",
-			"Spellcasting"
-		],
-		"short_description": "Cloistered clerics typically live in a temple and rarely interact with the outside world. They are bookish and well learned in the lore of the faith, paying less attention to its magical and martial aspects.",
 		"description": [
 			"## Cloistered Cleric",
 			"",
@@ -259,14 +202,6 @@
 		"name": "Crashing Wave",
 		"file": "archetypedisplay1106.html",
 		"sources": [],
-		"replaces": "Deity; Bonus Languages; Channel Energy; Spontaneous Casting",
-		"replace_array": [
-			"Deity",
-			"Bonus Languages",
-			"Channel Energy",
-			"Spontaneous Casting"
-		],
-		"short_description": "Clerics who live in or near the sea sometimes embrace the watery aspect of Gozreh over the deity's other dimensions and take the title of crashing wave; such clerics understand the tempestuousness and cruelty of the sea, but also its generosity and bounty",
 		"description": [
 			"## Crashing Wave",
 			"",
@@ -311,12 +246,6 @@
 		"name": "Crusader",
 		"file": "archetypedisplay0380.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Domains; Spells",
-		"replace_array": [
-			"Domains",
-			"Spellcasting"
-		],
-		"short_description": "Crusaders serve the militant arm of a church, ready to stand guard over the religion's holy places and to be its swift, avenging arm against those who resist its truth.",
 		"description": [
 			"## Crusader",
 			"",
@@ -335,12 +264,6 @@
 		"name": "Demonic Apostle",
 		"file": "archetypedisplayf9cb.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Domains; Channel Energy",
-		"replace_array": [
-			"Domains",
-			"Channel Energy"
-		],
-		"short_description": "(Drow Only) Demon worship is common among the drow, and so are ranks of demonic apostles, who gain magical insight from their dark lords and crush their chaotic masters' enemies by channeling demonic energy.",
 		"description": [
 			"## Demonic Apostle",
 			"",
@@ -361,12 +284,6 @@
 		"name": "Divine Paragon",
 		"file": "archetypedisplaybecb.html",
 		"sources": [ "Divine Anthology" ],
-		"replaces": "Domain; Aura",
-		"replace_array": [
-			"Domains",
-			"Aura"
-		],
-		"short_description": "Divine paragons strive to emulate their god's ideals as closely as possible.",
 		"description": [
 			"## Divine Paragon",
 			"",
@@ -391,12 +308,6 @@
 		"name": "Divine Scourge",
 		"file": "archetypedisplay3326.html",
 		"sources": [ "Magic Tactics Toolbox" ],
-		"replaces": "Domains; Channel Energy",
-		"replace_array": [
-			"Domains",
-			"Channel Energy"
-		],
-		"short_description": "Divine scourges take on the role of dealing out unique punishments on behalf of their deities, taking pleasure in carrying out their sacrosanct duties.",
 		"description": [
 			"## Divine Scourge",
 			"",
@@ -421,12 +332,6 @@
 		"name": "Divine Strategist",
 		"file": "archetypedisplaya449.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Domains; Channel Energy",
-		"replace_array": [
-			"Domains",
-			"Channel Energy"
-		],
-		"short_description": "The divine strategist leads the armies of the faithful, not from the front lines but through her clever strategy and tactical acumen.",
 		"description": [
 			"## Divine Strategist",
 			"",
@@ -447,13 +352,6 @@
 		"name": "Ecclesitheurge",
 		"file": "archetypedisplay6a5f.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Weapon/Armor Proficiencies; Domain; Channel Energy",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Domains",
-			"Channel Energy"
-		],
-		"short_description": "Eschewing physical armor for protection via the strength of his faith, an ecclesitheurge focuses on the miracles his deity bestows and the breadth of that deity's dominion.",
 		"description": [
 			"## Ecclesitheurge",
 			"",
@@ -484,17 +382,6 @@
 		"name": "Elder Mythos Cultist",
 		"file": "archetypedisplaye855.html",
 		"sources": [ "Horror Adventures" ],
-		"replaces": "Alignment; Domains; Channel Energy; Spontaneous Casting; 5th, 11th, and 19th-level Channel Energy increase",
-		"replace_array": [
-			"Alignment",
-			"Domains",
-			"Channel Energy",
-			"Spontaneous Casting",
-			"5th-level Channel Energy increase",
-			"11th-level Channel Energy increase",
-			"19th-level Channel Energy increase"
-		],
-		"short_description": "Typically grasping, secretive, and thoroughly mad, Elder Mythos cultists open their bodies and minds to horrifying realities not meant for the sane as they strive to prepare the world for the eventual return of their alien masters.",
 		"description": [
 			"## Elder Mythos Cultist",
 			"",
@@ -533,13 +420,6 @@
 		"name": "Evangelist",
 		"file": "archetypedisplayf6f2.html",
 		"sources": [],
-		"replaces": "Domains; Channel Energy; Spontaneous Casting",
-		"replace_array": [
-			"Domains",
-			"Channel Energy",
-			"Spontaneous Casting"
-		],
-		"short_description": "The evangelist is the voice of her religion in the world.",
 		"description": [
 			"## Evangelist",
 			"",
@@ -572,12 +452,6 @@
 		"name": "Fiendish Vessel",
 		"file": "archetypedisplayae29.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Domains; Channel Energy",
-		"replace_array": [
-			"Domains",
-			"Channel Energy"
-		],
-		"short_description": "(Tiefling Only) Fiendish vessels, through their fiendish heritage, share an innate connection with their patron, and that connection grants them understanding and power.",
 		"description": [
 			"## Fiendish Vessel",
 			"",
@@ -616,12 +490,6 @@
 		"name": "Forgemaster",
 		"file": "archetypedisplay71d1.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Domains; Channel Energy",
-		"replace_array": [
-			"Domains",
-			"Channel Energy"
-		],
-		"short_description": "(Dwarf Only) Forgemasters are priestly dwarves who are ritual casters and expert enchanters, able to produce their rune-graven armaments with astonishing speed.",
 		"description": [
 			"## Forgemaster",
 			"",
@@ -676,11 +544,6 @@
 		"name": "Foundation of Faith",
 		"file": "archetypedisplay2979.html",
 		"sources": [ "Elemental Master's Handbook" ],
-		"replaces": "Channel Energy",
-		"replace_array": [
-			"Channel Energy"
-		],
-		"short_description": "Whether aiding the faithful or defending against the depredations of unbelievers, a foundation of faith is unshakable in her convictions.",
 		"description": [
 			"## Foundation of Faith",
 			"",
@@ -705,13 +568,6 @@
 		"name": "Herald Caller",
 		"file": "archetypedisplay375a.html",
 		"sources": [ "Monster Summoner's Handbook" ],
-		"replaces": "Class Skills; Domains; Armor Proficiencies;",
-		"replace_array": [
-			"Class Skills",
-			"Domains",
-			"Armor Proficiency"
-		],
-		"short_description": "Unlike warpriests or paladins, who charge headlong into battle in the name of their patron deities, herald callers are adept at calling powerful outsiders to aid their brethren in battle.",
 		"description": [
 			"## Herald Caller",
 			"",
@@ -736,12 +592,6 @@
 		"name": "Hidden Priest",
 		"file": "archetypedisplay9387.html",
 		"sources": [ "Inner Sea Magic" ],
-		"replaces": "1st-level Domain Power, 8th-level Domain Power",
-		"replace_array": [
-			"1st-level Domain Power",
-			"8th-level Domain Power"
-		],
-		"short_description": "When practicing their religion is outlawed, the hidden priest learns to hide their true nature and practice magic in secret.",
 		"description": [
 			"## Hidden Priest",
 			"",
@@ -766,12 +616,6 @@
 		"name": "Idealist",
 		"file": "archetypedisplay9a4f.html",
 		"sources": [ "Planar Adventures" ],
-		"replaces": "Spontaneous Casting; Channel Energy",
-		"replace_array": [
-			"Spontaneous Casting",
-			"Channel Energy"
-		],
-		"short_description": "Idealist clerics are personifications of belief, each embracing the purest ideal of his deity's realm.",
 		"description": [
 			"## Idealist",
 			"",
@@ -836,13 +680,6 @@
 		"name": "Iron Priest",
 		"file": "archetypedisplay0f48.html",
 		"sources": [ "Technology Guide" ],
-		"replaces": "Class Skills; Channel Energy; Spellcasting",
-		"replace_array": [
-			"Class Skills",
-			"Channel Energy",
-			"Spellcasting"
-		],
-		"short_description": "Iron priests preach of the messengers from beyond the stars, envoys of the divine brought to Golarion in a falling star.",
 		"description": [
 			"## Iron Priest",
 			"",
@@ -861,12 +698,6 @@
 		"name": "Lawspeaker",
 		"file": "archetypedisplay21d4.html",
 		"sources": [ "Blood of the Ancients" ],
-		"replaces": "Alignment; Domains",
-		"replace_array": [
-			"Alignment",
-			"Domains"
-		],
-		"short_description": "Lawspeakers spread their philosophy of certain and unwavering justice throughout the Inner Sea region.",
 		"description": [
 			"## Lawspeaker",
 			"",
@@ -905,11 +736,6 @@
 		"name": "Mendevian Priest",
 		"file": "archetypedisplay8318.html",
 		"sources": [ "Inner Sea Magic" ],
-		"replaces": "Domains",
-		"replace_array": [
-			"Domains"
-		],
-		"short_description": "Crusade-minded clerics of Iomedae, Gorum, and other churches come to Mendev to learn battlefield tactics and the weaknesses of demons.",
 		"description": [
 			"## Mendevian Priest",
 			"",
@@ -930,12 +756,6 @@
 		"name": "Merciful Healer",
 		"file": "archetypedisplay9852.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Domains; Channel Energy",
-		"replace_array": [
-			"Domains",
-			"Channel Energy"
-		],
-		"short_description": "The merciful healer is a master of battlefield revivification, sustaining and restoring allies to keep them in the fight.",
 		"description": [
 			"## Merciful Healer",
 			"",
@@ -958,14 +778,6 @@
 		"name": "Roaming Exorcist",
 		"file": "archetypedisplayd63b.html",
 		"sources": [ "Undead Slayer's Handbook" ],
-		"replaces": "Skill Ranks; Weapon/Armor Proficiencies; Domains; Channel Energy",
-		"replace_array": [
-			"Skill Ranks",
-			"Weapon/Armor Proficiency",
-			"Domains",
-			"Channel Energy"
-		],
-		"short_description": "The roaming exorcist travels far and wide to root out possessions, hauntings, and hidden evils. The roaming exorcist extracts unruly spirits from not only victims of possession, but also haunted sites and accursed items.",
 		"description": [
 			"## Roaming Exorcist",
 			"",
@@ -992,13 +804,6 @@
 		"name": "Sacred Attendant",
 		"file": "archetypedisplay9696.html",
 		"sources": [ "Healer's Handbook" ],
-		"replaces": "Armor Proficiency; Channel Energy; Domains",
-		"replace_array": [
-			"Armor Proficiency",
-			"Channel Energy",
-			"Domains"
-		],
-		"short_description": "Sacred attendants bring out the varied beauty in everyone they help, and they typically worship deities of beauty, love, and sex.",
 		"description": [
 			"## Sacred Attendant",
 			"",
@@ -1027,13 +832,6 @@
 		"name": "Scroll Scholar",
 		"file": "archetypedisplayfe11.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
-		"replaces": "1st Level Domain Power, Channel Energy 5th level increase, 4th-level spell slot",
-		"replace_array": [
-			"1st-level Domain Power",
-			"5th-level Channel Energy increase",
-			"4th-level spell slot"
-		],
-		"short_description": "Those who trade some of their potential to better understand ancient texts and scrolls can become learned scroll scholars.",
 		"description": [
 			"## Scroll Scholar",
 			"",
@@ -1052,11 +850,6 @@
 		"name": "Separatist",
 		"file": "archetypedisplay97c1.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Domains",
-		"replace_array": [
-			"Domains"
-		],
-		"short_description": "A radical cleric, unsatisfied with the orthodoxy of her deity's teachings, forges her own path of defiant divine expression.",
 		"description": [
 			"## Separatist",
 			"",
@@ -1077,12 +870,6 @@
 		"name": "Stoic Caregiver",
 		"file": "archetypedisplay6718.html",
 		"sources": [ "Healer's Handbook" ],
-		"replaces": "Channel Energy; Domains;",
-		"replace_array": [
-			"Channel Energy",
-			"Domains"
-		],
-		"short_description": "Stoic caregivers are champions of life in defiance of untimely death as well as undeath.",
 		"description": [
 			"## Stoic Caregiver",
 			"",
@@ -1111,11 +898,6 @@
 		"name": "Theologian",
 		"file": "archetypedisplayc5ff.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Domains",
-		"replace_array": [
-			"Domains"
-		],
-		"short_description": "A theologian is an expert on one particular area of her religion",
 		"description": [
 			"## Theologian",
 			"",
@@ -1134,11 +916,6 @@
 		"name": "Triadic Priest",
 		"file": "archetypedisplaya185.html",
 		"sources": [ "Blood of the Coven" ],
-		"replaces": "Domains",
-		"replace_array": [
-			"Domains"
-		],
-		"short_description": "Power comes not just from communion with one's deity, but also from the formation of divine triumvirates. At the head of these groups are triadic priests.",
 		"description": [
 			"## Triadic Priest",
 			"",
@@ -1169,11 +946,6 @@
 		"name": "Undead Lord",
 		"file": "archetypedisplay07c4.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Domains",
-		"replace_array": [
-			"Domains"
-		],
-		"short_description": "An undead lord is a cleric focused on using necromancy to control undead.",
 		"description": [
 			"## Undead Lord",
 			"",
@@ -1196,13 +968,6 @@
 		"name": "Varisian Pilgrim",
 		"file": "archetypedisplayad00.html",
 		"sources": [ "Inner Sea Magic" ],
-		"replaces": "Altered Domain Abilities; Medium Armor/Shield Proficiency; 8th-level Domain Power",
-		"replace_array": [
-			"Domains",
-			"Armor Proficiency",
-			"8th-level Domain Power"
-		],
-		"short_description": "While most clerics are associated with a particular temple, adventuring clerics spend much of their time away from their favored place of worship, and there are those who worship primarily on the road and during the journey.",
 		"description": [
 			"## Varisian Pilgrim",
 			"",

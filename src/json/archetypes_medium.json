@@ -4,16 +4,6 @@
 		"name": "Fiend Keeper",
 		"file": "archetypedisplay39e9.html",
 		"sources": [ "Blood of the Beast" ],
-		"replaces": "Alignment; Spirit; Haunt Channeler; Location Channel; Connection Channel; Ask the Spirits",
-		"replace_array": [
-			"Alignment",
-			"Spirit",
-			"Haunt Channeler",
-			"Location Channel",
-			"Connection Channel",
-			"Ask the Spirits"
-		],
-		"short_description": "Fiend keepers serve as a vessel to contain one of the world's evil spirits so that it cannot inflict further harm.",
 		"description": [
 			"## Fiend Keeper",
 			"",
@@ -48,18 +38,6 @@
 		"name": "Kami Medium",
 		"file": "archetypedisplay26c3.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Spirit; Taboo; Spellcasting; Haunt Channeler; Location Channel; Connection Channel; Ask the Spirits; Astral Journey",
-		"replace_array": [
-			"Spirit",
-			"Taboo",
-			"Spellcasting",
-			"Haunt Channeler",
-			"Location Channel",
-			"Connection Channel",
-			"Ask the Spirits",
-			"Astral Journey"
-		],
-		"short_description": "Some mediums channel the power of nature spirits called kami rather than the spirits of legend.",
 		"description": [
 			"## Kami Medium",
 			"",
@@ -90,19 +68,6 @@
 		"name": "Medium of the Master",
 		"file": "archetypedisplayac7b.html",
 		"sources": [ "Martial Arts Handbook" ],
-		"replaces": "Class Skills; Armor Proficiency; Spirit; Spirit Surge; Spirit Power (Lesser); Shared Seance; Spirit Power (Intermediate); Trance of Three; Spirit Power (Supreme)",
-		"replace_array": [
-			"Class Skills",
-			"Armor Proficiency",
-			"Spirit",
-			"Spirit Surge",
-			"Spirit Power (Lesser)",
-			"Shared Seance",
-			"Spirit Power (Intermediate)",
-			"Trance of Three",
-			"Spirit Power (Supreme)"
-		],
-		"short_description": "A medium of the master forgoes a connection with most spirits to form a bond with the spirits of great martial artists.",
 		"description": [
 			"## Medium of the Master",
 			"",
@@ -155,23 +120,6 @@
 		"name": "Nexian Channeler",
 		"file": "archetypedisplayd68a.html",
 		"sources": [ "Occult Origins" ],
-		"replaces": "Spirit; Knacks; Taboo; Haunt Channeler; Location Channel; Connection Channel; Propitiation; Ask the Spirits; Astral Journey; Trance of Three; Spacious Soul; Spirit Mastery; Astral Beacon",
-		"replace_array": [
-			"Spirit",
-			"Knacks",
-			"Taboo",
-			"Haunt Channeler",
-			"Location Channel",
-			"Connection Channel",
-			"Propitiation",
-			"Ask the Spirits",
-			"Astral Journey",
-			"Trance of Three",
-			"Spacious Soul",
-			"Spirit Mastery",
-			"Astral Beacon"
-		],
-		"short_description": "The archmage Nex long ago created an astral reflection of himself from which he can draw additional power. This echo now serves as an appropriate spirit for well-trained mediums to channel.",
 		"description": [
 			"## Nexian Channeler",
 			"",
@@ -194,17 +142,6 @@
 		"name": "Outer Channeler",
 		"file": "archetypedisplay618c.html",
 		"sources": [ "Psychic Anthology" ],
-		"replaces": "Spirit; Taboo; Haunt Channeler; Connection Channel; Location Channel; Ask the Spirits; Astral Journey",
-		"replace_array": [
-			"Spirit",
-			"Taboo",
-			"Haunt Channeler",
-			"Connection Channel",
-			"Location Channel",
-			"Ask the Spirits",
-			"Astral Journey"
-		],
-		"short_description": "Outer channelers invite extraplanar entities to inhabit them, allowing the likes of angels and demons to use them as vessels in exchange for power.",
 		"description": [
 			"## Outer Channeler",
 			"",
@@ -247,17 +184,6 @@
 		"name": "Reanimated Medium",
 		"file": "archetypedisplay7609.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Spirit; Taboo; Haunt Channeler; Location Channel; Connection Channel; Spacious Soul; Astral Beacon",
-		"replace_array": [
-			"Spirit",
-			"Taboo",
-			"Haunt Channeler",
-			"Location Channel",
-			"Connection Channel",
-			"Spacious Soul",
-			"Astral Beacon"
-		],
-		"short_description": "Sometimes a departed soul destined for legend gains a second chance at life by possessing his own revived body.",
 		"description": [
 			"## Reanimated Medium",
 			"",
@@ -286,14 +212,6 @@
 		"name": "Relic Channeler",
 		"file": "archetypedisplay50e6.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Spirit; Haunt Channeler; Location Channel; Connection Channel",
-		"replace_array": [
-			"Spirit",
-			"Haunt Channeler",
-			"Location Channel",
-			"Connection Channel"
-		],
-		"short_description": "A relic channeler carries relics of legend around with her.",
 		"description": [
 			"## Relic Channeler",
 			"",
@@ -316,16 +234,6 @@
 		"name": "Rivethun Spirit Channeler",
 		"file": "archetypedisplay0313.html",
 		"sources": [ "Haunted Heroes Handbook" ],
-		"replaces": "Spellcasting; Spirit; Spirit Bonus; Spirit Surge; Taboo; Connection Channel",
-		"replace_array": [
-			"Spellcasting",
-			"Spirit",
-			"Spirit Bonus",
-			"Spirit Surge",
-			"Taboo",
-			"Connection Channel"
-		],
-		"short_description": "Rivethun spirit channelers are mediums who practice the ancient dwarven philosophy of the rivethun, which teaches that power lies in the connection between physical bodies and immaterial souls.",
 		"description": [
 			"## Rivethun Spirit Channeler",
 			"",
@@ -358,18 +266,6 @@
 		"name": "Spirit Dancer",
 		"file": "archetypedisplay8082.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Spirit; Spirit Bonus; Spirit Surge; Taboo; Shared Seance; Trance of Three; Spacious Soul; Astral Beacon",
-		"replace_array": [
-			"Spirit",
-			"Spirit Bonus",
-			"Spirit Surge",
-			"Taboo",
-			"Shared Seance",
-			"Trance of Three",
-			"Spacious Soul",
-			"Astral Beacon"
-		],
-		"short_description": "A spirit dancer enacts an exuberant dance to the spirits, accepting many roles in the shifting dance and changing dance partners quickly.",
 		"description": [
 			"## Spirit Dancer",
 			"",
@@ -404,13 +300,6 @@
 		"name": "Spirit Eater",
 		"file": "archetypedisplaycddd.html",
 		"sources": [ "Heroes of Golarion" ],
-		"replaces": "Haunt Channeler; Location Channel; Connection Channel",
-		"replace_array": [
-			"Haunt Channeler",
-			"Location Channel",
-			"Connection Channel"
-		],
-		"short_description": "Guardians of their communities, spirit eaters absorb the dead to channel their power and serve as a line of defense against all manner of incorporeal yokai.",
 		"description": [
 			"## Spirit Eater",
 			"",
@@ -433,14 +322,6 @@
 		"name": "Storm Dreamer",
 		"file": "archetypedisplay7412.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Spirit Surge; Haunt Channeler; Location Channel; Connection Channel",
-		"replace_array": [
-			"Spirit Surge",
-			"Haunt Channeler",
-			"Location Channel",
-			"Connection Channel"
-		],
-		"short_description": "Storm dreamers serve the Storm Kindlers by communing with their mystical predecessors. They serve as spiritual advisors for the organization, and are valued for the lore and wisdom they gain during their trances.",
 		"description": [
 			"## Storm Dreamer",
 			"",
@@ -473,21 +354,6 @@
 		"name": "Storyteller",
 		"file": "archetypedisplayb77b.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Spirit; Spirit Bonus; Spirit Surge; Shared Seance; Taboo; Haunt Channeler; Propitiation; Trance of Three; Connection Channel; Spirit Mastery; Astral Beacon",
-		"replace_array": [
-			"Spirit",
-			"Spirit Bonus",
-			"Spirit Surge",
-			"Shared Seance",
-			"Taboo",
-			"Haunt Channeler",
-			"Propitiation",
-			"Trance of Three",
-			"Connection Channel",
-			"Spirit Mastery",
-			"Astral Beacon"
-		],
-		"short_description": "While all mediums connect to legendary spirits, storyteller mediums take their obsession with legends to the extreme, suffusing their lives with epic tales at the cost of some of their spiritual power.",
 		"description": [
 			"## Storyteller",
 			"",
@@ -522,16 +388,6 @@
 		"name": "Uda Wendo",
 		"file": "archetypedisplayf375.html",
 		"sources": [ "Haunted Heroes Handbook" ],
-		"replaces": "Class Skills; Spirit; Shared Seance; Haunt Channeler; Location Channel; Connection Channel",
-		"replace_array": [
-			"Class Skills",
-			"Spirit",
-			"Shared Seance",
-			"Haunt Channeler",
-			"Location Channel",
-			"Connection Channel"
-		],
-		"short_description": "Uda wendo are powerful mediums who are sensitive to the presence and desires of the wendo, powerful and mysterious entities that walk Golarion while shaping fate and guiding destiny.",
 		"description": [
 			"## Uda Wendo",
 			"",
@@ -570,14 +426,6 @@
 		"name": "Vessel of the Failed",
 		"file": "archetypedisplaya643.html",
 		"sources": [ "Disciple's Doctrine" ],
-		"replaces": "Spirit; Spirit Mastery; Spirit Surge; Taboo",
-		"replace_array": [
-			"Spirit",
-			"Spirit Mastery",
-			"Spirit Surge",
-			"Taboo"
-		],
-		"short_description": "A vessel of the failed channels the spirits of those who attempted the Test of the Starstone but failed; these spirits grant the medium abilities wrought from the spirits' ultimate shortcomings.",
 		"description": [
 			"## Vessel of the Failed",
 			"",
@@ -630,13 +478,6 @@
 		"name": "Voice of the Void",
 		"file": "archetypedisplay9362.html",
 		"sources": [ "Villain Codex" ],
-		"replaces": "Spirit; Taboo; Haunt Channeler",
-		"replace_array": [
-			"Spirit",
-			"Taboo",
-			"Haunt Channeler"
-		],
-		"short_description": "Some mediums delve deeply into the spirit world and make contact with entities that exist outside the boundaries of the sane multiverse.",
 		"description": [
 			"## Voice of the Void",
 			"",

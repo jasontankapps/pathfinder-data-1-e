@@ -4,16 +4,6 @@
 		"name": "Armored Battlemage",
 		"file": "archetypedisplayb7dd.html",
 		"sources": [ "Armor Master's Handbook" ],
-		"replaces": "Spell Combat; Arcane Pool; 3rd, 18th-level Magus Arcana; Improved Spell Combat; Greater Spell Combat",
-		"replace_array": [
-			"Spell Combat",
-			"Arcane Pool",
-			"3rd-level Magus Arcana",
-			"18th-level Magus Arcana",
-			"Improved Spell Combat",
-			"Greater Spell Combat"
-		],
-		"short_description": "Armored battlemages learn to move and cast spells in even the most restrictive armors, and have developed new methods to magically enhance their armor.",
 		"description": [
 			"## Armored Battlemage",
 			"",
@@ -50,14 +40,6 @@
 		"name": "Beastblade",
 		"file": "archetypedisplay9632.html",
 		"sources": [ "Familiar Folio" ],
-		"replaces": "3rd-level Magus Arcana; Spell Recall; Knowledge Pool; Improved Spell Recall",
-		"replace_array": [
-			"3rd-level Magus Arcana",
-			"Spell Recall",
-			"Knowledge Pool",
-			"Improved Spell Recall"
-		],
-		"short_description": "Beastblade magi work in tandem with their familiars, using spell, steel, and claw to clear the battlefield of foes.",
 		"description": [
 			"## Beastblade",
 			"",
@@ -78,12 +60,6 @@
 		"name": "Bladebound",
 		"file": "archetypedisplayff04.html",
 		"sources": [],
-		"replaces": "Arcane Pool; 3rd-level Magus Arcana",
-		"replace_array": [
-			"Arcane Pool",
-			"3rd-level Magus Arcana"
-		],
-		"short_description": "A select group of magi are called to carry a black blade-a sentient weapon of often unknown and possibly unknowable purpose.",
 		"description": [
 			"## Bladebound",
 			"",
@@ -151,13 +127,6 @@
 		"name": "Card Caster",
 		"file": "archetypedisplay2c61.html",
 		"sources": [ "The Harrow Handbook" ],
-		"replaces": "Arcane Pool; Spellstrike; 3rd-level Arcana",
-		"replace_array": [
-			"Arcane Pool",
-			"Spellstrike",
-			"3rd-level Magus Arcana"
-		],
-		"short_description": "The card caster is an ancient, martial offshoot of the traditional harrower, learning to not only draw power from the harrow, but also to invest each card with deadly power.",
 		"description": [
 			"## Card Caster",
 			"",
@@ -178,18 +147,6 @@
 		"name": "Deep Marshal",
 		"file": "archetypedisplay9dc1.html",
 		"sources": [ "Arcane Anthology" ],
-		"replaces": "Armor Proficiencies; Medium Armor; Heavy Armor; Spellcasting; Arcane Pool; Spell Combat; Spellstrike; 3rd-level Magus Arcana",
-		"replace_array": [
-			"Armor Proficiency",
-			"Medium Armor",
-			"Heavy Armor",
-			"Spellcasting",
-			"Arcane Pool",
-			"Spell Combat",
-			"Spellstrike",
-			"3rd-level Magus Arcana"
-		],
-		"short_description": "Largely unseen by visitors, the deep marshals have survived into the modern era as keepers, protectors, and repairers of the myriad of stony passages that travel around, through, and under the Five Kings Mountains.",
 		"description": [
 			"## Deep Marshal",
 			"",
@@ -214,15 +171,6 @@
 		"name": "Eldritch Archer",
 		"file": "archetypedisplay0b87.html",
 		"sources": [],
-		"replaces": "Class Skills; Arcane Pool; Spell Combat; Spellstrike; Counterstrike",
-		"replace_array": [
-			"Class Skills",
-			"Arcane Pool",
-			"Spell Combat",
-			"Spellstrike",
-			"Counterstrike"
-		],
-		"short_description": "The eldritch archer rains magical attacks down on her foes from the city walls.",
 		"description": [
 			"## Eldritch Archer",
 			"",
@@ -249,17 +197,6 @@
 		"name": "Eldritch Scion",
 		"file": "archetypedisplay52c5.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Spells; Spell Recall; Arcane Pool; Spell Combat; Knowledge Pool; Improved Spell Combat; Greater Spell Combat",
-		"replace_array": [
-			"Spellcasting",
-			"Spell Recall",
-			"Arcane Pool",
-			"Spell Combat",
-			"Knowledge Pool",
-			"Improved Spell Combat",
-			"Greater Spell Combat"
-		],
-		"short_description": "Unlike typical magi, eldritch scions do not study tomes of magic or spend time learning to combine martial and magical skills. Rather, eldritch scions find that their spells and abilities come to them instinctively.",
 		"description": [
 			"## Eldritch Scion",
 			"",
@@ -294,11 +231,6 @@
 		"name": "Elemental Knight",
 		"file": "archetypedisplayc025.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Spell Recall",
-		"replace_array": [
-			"Spell Recall"
-		],
-		"short_description": "(Suli Only) Elemental knights are born with elemental energies surging through their blood and discover the secret of reconciling and focusing this primal power into the arcane.",
 		"description": [
 			"## Elemental Knight",
 			"",
@@ -323,19 +255,6 @@
 		"name": "Esoteric",
 		"file": "archetypedisplay752d.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Weapon/Armor Proficiency; Spellcasting; Arcane Pool; Spellstrike; Spell Recall; Bonus Feats; Medium Armor; Heavy Armor; Improved Spell Recall",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Spellcasting",
-			"Arcane Pool",
-			"Spellstrike",
-			"Spell Recall",
-			"Bonus Feats",
-			"Medium Armor",
-			"Heavy Armor",
-			"Improved Spell Recall"
-		],
-		"short_description": "Esoterics are drawn to the mysticism of the occult and spend their lives delving into forgotten texts and forbidden tomes.",
 		"description": [
 			"## Esoteric",
 			"",
@@ -368,9 +287,7 @@
 		"name": "Fiend Flayer",
 		"file": "archetypedisplay83a0.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "None",
 		"replace_array": [],
-		"short_description": "(Tiefling Only) Some tiefling magi can tap the dark energy of their fiendish blood to enhance their arcane and combat talents.",
 		"description": [
 			"## Fiend Flayer",
 			"",
@@ -397,13 +314,6 @@
 		"name": "Greensting Slayer",
 		"file": "archetypedisplay3757.html",
 		"sources": [ "Bastards of Golarion" ],
-		"replaces": "Arcane Pool; Medium Armor; Heavy Armor",
-		"replace_array": [
-			"Arcane Pool",
-			"Medium Armor",
-			"Heavy Armor"
-		],
-		"short_description": "The blending of martial prowess with elven magic has long been a staple of the Blackash Training Grounds in Erages. More than a few who study at Erages Academy follow this path because of the promises of wealth that the city's criminal element makes toward practiced brawlers and smugglers.",
 		"description": [
 			"## Greensting Slayer",
 			"",
@@ -428,12 +338,6 @@
 		"name": "Hexbreaker",
 		"file": "archetypedisplay79ea.html",
 		"sources": [ "Blood of the Coven" ],
-		"replaces": "Spell Recall; Improved Spell Recall",
-		"replace_array": [
-			"Spell Recall",
-			"Improved Spell Recall"
-		],
-		"short_description": "Hexbreakers-sometimes called witch-hammers for their proclivity toward warhammers-have borne witness to the damage of unrestrained arcane power and hone their own arcane arts to battle such abuse.",
 		"description": [
 			"## Hexbreaker",
 			"",
@@ -464,11 +368,6 @@
 		"name": "Hexcrafter",
 		"file": "archetypedisplaybc2f.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Spell Recall",
-		"replace_array": [
-			"Spell Recall"
-		],
-		"short_description": "A hexcrafter magus has uncovered the secret of using his arcane pool to recreate witch hexes.",
 		"description": [
 			"## Hexcrafter",
 			"",
@@ -491,18 +390,6 @@
 		"name": "Iron-Ring Striker",
 		"file": "archetypedisplayccff.html",
 		"sources": [ "Martial Arts Handbook" ],
-		"replaces": "Weapon Proficiency; Arcane Pool; Spellstrike; 5th-level Bonus Feat; Medium Armor; Heavy Armor; Knowledge Pool; Counterstrike",
-		"replace_array": [
-			"Weapon Proficiency",
-			"Arcane Pool",
-			"Spellstrike",
-			"5th-level Bonus Feat",
-			"Medium Armor",
-			"Heavy Armor",
-			"Knowledge Pool",
-			"Counterstrike"
-		],
-		"short_description": "Practitioners of this martial art, powered by arcane magic, wear an iron ring on the finger of one hand.",
 		"description": [
 			"## Iron-Ring Striker",
 			"",
@@ -549,15 +436,6 @@
 		"name": "Jistkan Artificer",
 		"file": "archetypedisplay6cb3.html",
 		"sources": [ "Blood of the Ancients" ],
-		"replaces": "Spells; Arcane Pool; Cantrips; 3rd-level Magus Arcana; Spellstrike",
-		"replace_array": [
-			"Spellcasting",
-			"Arcane Pool",
-			"Cantrips",
-			"3rd-level Magus Arcana",
-			"Spellstrike"
-		],
-		"short_description": "As part of studying the secret methods the original Jistkan artificers used to build golems, these magi graft construct parts onto their own arms.",
 		"description": [
 			"## Jistkan Artificer",
 			"",
@@ -602,12 +480,6 @@
 		"name": "Kapenia Dancer",
 		"file": "archetypedisplay9d53.html",
 		"sources": [ "Varisia, Birthplace of Legends" ],
-		"replaces": "Weapon/Armor Proficiencies; Diminished Spellcasting",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Spellcasting"
-		],
-		"short_description": "The kapenia dancer laces their deadly scarves with powerful magic.",
 		"description": [
 			"## Kapenia Dancer",
 			"",
@@ -640,19 +512,6 @@
 		"name": "Kensai",
 		"file": "archetypedisplay3b87.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Weapon/Armor Proficiency; Spells; Spell Recall; Knowledge Pool; Medium Armor; 9th-level Arcana; Improved Spell Recall; Heavy Armor; True Magus",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Spellcasting",
-			"Spell Recall",
-			"Knowledge Pool",
-			"Medium Armor",
-			"9th-level Magus Arcana",
-			"Improved Spell Recall",
-			"Heavy Armor",
-			"True Magus"
-		],
-		"short_description": "A kensai spends his life focusing his training and meditation into a rapturous perfection of the use of a single weapon, which is usually but not always a sword, channeling his arcane might through it in a dizzying and deadly dance beyond the abilities of even the greatest of mundane warriors.",
 		"description": [
 			"## Kensai",
 			"",
@@ -696,15 +555,6 @@
 			"Adventurer's Guide",
 			"Inner Sea Intrigue"
 		],
-		"replaces": "Class Skills; 3rd-level Magus Arcana; Improved Spell Combat; Greater Spell Combat; Greater Spell Access",
-		"replace_array": [
-			"Class Skills",
-			"3rd-level Magus Arcana",
-			"Improved Spell Combat",
-			"Greater Spell Combat",
-			"Greater Spell Access"
-		],
-		"short_description": "Trained in a tradition stretching back to Old-Mage Jatembe's Ten Magic Warriors, magic warriors renounce their identities to master magical might and serve as champions of culture and learning across the Mwangi Expanse and beyond.",
 		"description": [
 			"## Magic Warrior",
 			"",
@@ -739,20 +589,6 @@
 		"name": "Mindblade",
 		"file": "archetypedisplay47dc.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Spellcasting; Arcane Pool; Spell Recall; Knowledge Pool; Improved Spell Recall; Greater Spell Combat; Greater Spell Access; Medium Armor; Improved Spell Combat; Heavy Armor",
-		"replace_array": [
-			"Spellcasting",
-			"Arcane Pool",
-			"Spell Recall",
-			"Knowledge Pool",
-			"Improved Spell Recall",
-			"Greater Spell Combat",
-			"Greater Spell Access",
-			"Medium Armor",
-			"Improved Spell Combat",
-			"Heavy Armor"
-		],
-		"short_description": "A mindblade blends psychic talent and martial skill to lethal effect. By forming weapons with her mind, she always has the right tool for any situation.",
 		"description": [
 			"## Mindblade",
 			"",
@@ -791,20 +627,6 @@
 		"name": "Myrmidarch",
 		"file": "archetypedisplay874b.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Spells; Spell Recall; Improved Spell Recall; 6th, 12th, 18th-level Magus Arcana; Knowledge Pool; Improved Spell Combat; Greater Spell Combat; True Magus",
-		"replace_array": [
-			"Spellcasting",
-			"Spell Recall",
-			"Improved Spell Recall",
-			"6th-level Magus Arcana",
-			"12th-level Magus Arcana",
-			"18th-level Magus Arcana",
-			"Knowledge Pool",
-			"Improved Spell Combat",
-			"Greater Spell Combat",
-			"True Magus"
-		],
-		"short_description": "The myrmidarch is a skilled specialist, using magic to supplement and augment his martial mastery.",
 		"description": [
 			"## Myrmidarch",
 			"",
@@ -833,14 +655,6 @@
 		"name": "Nature-Bonded Magus",
 		"file": "archetypedisplayff2e.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Arcane Pool; Spell Recall; Knowledge Pool; Improved Spell Recall",
-		"replace_array": [
-			"Arcane Pool",
-			"Spell Recall",
-			"Knowledge Pool",
-			"Improved Spell Recall"
-		],
-		"short_description": "A nature-bonded magus synergizes arcane magic and the divine magic traditions of druids into a deadly synthesis.",
 		"description": [
 			"## Nature-Bonded Magus",
 			"",
@@ -871,23 +685,6 @@
 		"name": "Puppetmaster",
 		"file": "archetypedisplay6306.html",
 		"sources": [ "Arcane Anthology" ],
-		"replaces": "Skills; Knowledge Pool; Greater Spell Access; Arcane Pool; Spell Combat; Improved Spell Combat; Greater Spell Combat; Spellstrike; Fighter Training; Counterstrike; Medium Armor; Heavy Armor; True Magus",
-		"replace_array": [
-			"Skills",
-			"Knowledge Pool",
-			"Greater Spell Access",
-			"Arcane Pool",
-			"Spell Combat",
-			"Improved Spell Combat",
-			"Greater Spell Combat",
-			"Spellstrike",
-			"Fighter Training",
-			"Counterstrike",
-			"Medium Armor",
-			"Heavy Armor",
-			"True Magus"
-		],
-		"short_description": "Puppetmasters focus on using charm and illusion spells to control the senses of those for whom they perform.",
 		"description": [
 			"## Puppetmaster",
 			"",
@@ -914,13 +711,6 @@
 		"name": "Sigilus",
 		"file": "archetypedisplay1039.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Spellstrike; Medium Armor; Heavy Armor",
-		"replace_array": [
-			"Spellstrike",
-			"Medium Armor",
-			"Heavy Armor"
-		],
-		"short_description": "A sigilus manipulates the discoveries of wizards and other more sagacious Cyphermages, using those findings to create special sigils that allow her to transfer spell effects into different objects for later use.",
 		"description": [
 			"## Sigilus",
 			"",
@@ -953,18 +743,6 @@
 		"name": "Skirnir",
 		"file": "archetypedisplaya98a.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Spells; Spell Combat; Spell Recall; Knowledge Pool; Improved Spell Combat; Greater Spell Combat; Greater Spell Access; Counterstrike",
-		"replace_array": [
-			"Spellcasting",
-			"Spell Combat",
-			"Spell Recall",
-			"Knowledge Pool",
-			"Improved Spell Combat",
-			"Greater Spell Combat",
-			"Greater Spell Access",
-			"Counterstrike"
-		],
-		"short_description": "Sometimes called a shield-vassal or shieldmaiden, the skirnir has learned to infuse his power into his shield.",
 		"description": [
 			"## Skirnir",
 			"",
@@ -999,13 +777,6 @@
 		"name": "Sorrowblade",
 		"file": "archetypedisplay61f7-2.html",
 		"sources": [ "Pathfinder: Spiral of Bones #4" ],
-		"replaces": "3rd, 12th-level Magus Arcana; Speed Weapon Property",
-		"replace_array": [
-			"3rd-level Magus Arcana",
-			"12th-level Magus Arcana",
-			"Speed Weapon Property"
-		],
-		"short_description": "A magus who has suffered greatly over the course ofher life can learn to channel that misery into her weapon and inflict it on others.",
 		"description": [
 			"## Sorrowblade",
 			"",
@@ -1028,16 +799,6 @@
 		"name": "Soul Forger",
 		"file": "archetypedisplay4d1f.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Spells; Knowledge Pool; Spell Recall; Improved Spell Recall; Counterstrike; Greater Spell Access",
-		"replace_array": [
-			"Spellcasting",
-			"Knowledge Pool",
-			"Spell Recall",
-			"Improved Spell Recall",
-			"Counterstrike",
-			"Greater Spell Access"
-		],
-		"short_description": "The soul forger has learned the skill of infusing the raw magical essence of his soul into armaments of surpassing power, combining the mystic arts with the arts of war in a unity of steely perfection.",
 		"description": [
 			"## Soul Forger",
 			"",
@@ -1074,14 +835,6 @@
 		"name": "Spell Dancer",
 		"file": "archetypedisplay6ae4.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Arcane Pool; 5th-level Bonus Feat; Medium Armor; Heavy Armor",
-		"replace_array": [
-			"Arcane Pool",
-			"5th-level Bonus Feat",
-			"Medium Armor",
-			"Heavy Armor"
-		],
-		"short_description": "(Elf Only) Many elven magi do not consider themselves masters of a blend of martial and magical talents, but rather a sub-category of wizards who study the effect of physical movement and techniques upon spellcasting ability.",
 		"description": [
 			"## Spell Dancer",
 			"",
@@ -1110,13 +863,6 @@
 		"name": "Spell Trapper",
 		"file": "archetypedisplaya3d8.html",
 		"sources": [ "Magic Tactics Toolbox" ],
-		"replaces": "Class Skills; Spell Recall; Fighter Training",
-		"replace_array": [
-			"Class Skills",
-			"Spell Recall",
-			"Fighter Training"
-		],
-		"short_description": "Spell trappers forsake much of their arcane skill and martial knowledge in exchange for the ability to conjure magical traps to hinder their foes.",
 		"description": [
 			"## Spell Trapper",
 			"",
@@ -1147,11 +893,6 @@
 		"name": "Spellblade",
 		"file": "archetypedisplayda2c.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Spellstrike",
-		"replace_array": [
-			"Spellstrike"
-		],
-		"short_description": "A spellblade magus can manifest a ghostly blade of force that can be used as an off-hand weapon.",
 		"description": [
 			"## Spellblade",
 			"",
@@ -1176,12 +917,6 @@
 		"name": "Spire Defender",
 		"file": "archetypedisplay0ae4.html",
 		"sources": [],
-		"replaces": "Weapon/Armor Proficiencies; Spell Recall",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Spell Recall"
-		],
-		"short_description": "Magi who train themselves to accompany sages and archaeologists venturing into the Mordant Spire become spire defenders.",
 		"description": [
 			"## Spire Defender",
 			"",
@@ -1200,14 +935,6 @@
 		"name": "Staff Magus",
 		"file": "archetypedisplay9d69.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Weapon/Armor Proficiencies; Medium Armor; Heavy Armor; Fighter Training",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Medium Armor",
-			"Heavy Armor",
-			"Fighter Training"
-		],
-		"short_description": "While most magi use a one-handed weapon as their melee implement of choice, one group of magi uses the quarterstaff instead.",
 		"description": [
 			"## Staff Magus",
 			"",

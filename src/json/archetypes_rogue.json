@@ -4,12 +4,6 @@
 		"name": "Acrobat",
 		"file": "archetypedisplayf0e3.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Trapfinding; Trap Sense",
-		"replace_array": [
-			"Trapfinding",
-			"Trap Sense"
-		],
-		"short_description": "Whether they are daring thieves, infiltrating assassins, or intrepid spies, proper training in acrobatics is a valuable boon for rogues.",
 		"description": [
 			"## Acrobat",
 			"",
@@ -30,11 +24,6 @@
 		"name": "Bandit",
 		"file": "archetypedisplay11ce.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Uncanny Dodge",
-		"replace_array": [
-			"Uncanny Dodge"
-		],
-		"short_description": "Bandits tend to have a variety of skills; sometimes these skills are similar to a ranger's, but a bandit's tactics always deal with surprise followed by intimidation, with the clear threat of naked force if intimidation does not do the trick.",
 		"description": [
 			"## Bandit",
 			"",
@@ -55,12 +44,6 @@
 		"name": "Bekyar Kidnapper",
 		"file": "archetypedisplay0c6c.html",
 		"sources": [ "Inner Sea Combat" ],
-		"replaces": "Trapfinding; Trap Sense",
-		"replace_array": [
-			"Trapfinding",
-			"Trap Sense"
-		],
-		"short_description": "A Bekyar kidnapper is not only adept at hiding herself in thick jungles and quickly subduing her prey, but also at spreading rumors of hidden ruins, buried treasure, and other such valuables that might lure an unwary foreigner into her traps.",
 		"description": [
 			"## Bekyar Kidnapper",
 			"",
@@ -81,14 +64,6 @@
 		"name": "Bellflower Irrigator",
 		"file": "archetypedisplayabc2.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Trapfinding; 4th-level Rogue Talent; Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Trapfinding",
-			"4th-level Rogue Talent",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Rather than focusing on saving slaves, Bellflower irrigators seek to defeat slavery by aiming to eliminate the source.",
 		"description": [
 			"## Bellflower Irrigator",
 			"",
@@ -117,12 +92,6 @@
 		"name": "Burglar",
 		"file": "archetypedisplay1fdf.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Adept at infiltration, trap removal, and lock picking, burglars prey on the homes of the wealthy and forgotten tombs alike.",
 		"description": [
 			"## Burglar",
 			"",
@@ -143,15 +112,6 @@
 		"name": "Carnivalist",
 		"file": "archetypedisplay8d5b.html",
 		"sources": [ "Animal Archive" ],
-		"replaces": "2nd, 4th, 6th-level Rogue Talents; Sneak Attack; Trap Sense",
-		"replace_array": [
-			"2nd-level Rogue Talent",
-			"4th-level Rogue Talent",
-			"6th-level Rogue Talent",
-			"Sneak Attack",
-			"Trap Sense"
-		],
-		"short_description": "Carnivalists train their miniature minions to perform acts of larceny and often hide their true talents behind theatrical sideshows.",
 		"description": [
 			"## Carnivalist",
 			"",
@@ -178,12 +138,6 @@
 		"name": "Cat Burglar",
 		"file": "archetypedisplaydf0c.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "(Catfolk Only) Cat burglars are masters of breaking and entering, using their feline grace to make it seem as though no crime was ever committed in the first place.",
 		"description": [
 			"## Cat Burglar",
 			"",
@@ -204,12 +158,6 @@
 		"name": "Chameleon",
 		"file": "archetypedisplayb7d0.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Trapfinding; Trap Sense",
-		"replace_array": [
-			"Trapfinding",
-			"Trap Sense"
-		],
-		"short_description": "An absolute master of disguise, a chameleon effortlessly blends into any environment.",
 		"description": [
 			"## Chameleon",
 			"",
@@ -230,12 +178,6 @@
 		"name": "Charlatan",
 		"file": "archetypedisplay1fcf.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Trapfinding; Trap Sense",
-		"replace_array": [
-			"Trapfinding",
-			"Trap Sense"
-		],
-		"short_description": "A charlatan is a master of lies and deception.",
 		"description": [
 			"## Charlatan",
 			"",
@@ -256,17 +198,6 @@
 		"name": "Consigliere",
 		"file": "archetypedisplayc920.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Trapfinding; Evasion; Uncanny Dodge; Improved Uncanny Dodge; Trap Sense; 10th-level Rogue Talent",
-		"replace_array": [
-			"Class Skills",
-			"Trapfinding",
-			"Evasion",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge",
-			"Trap Sense",
-			"10th-level Rogue Talent"
-		],
-		"short_description": "Consiglieres act as trusted mediators and administrators for crime families and various criminal organizations, and many serve as the right hand to the leaders of such groups.",
 		"description": [
 			"## Consigliere",
 			"",
@@ -303,14 +234,6 @@
 		"name": "Construct Saboteur",
 		"file": "archetypedisplay169a.html",
 		"sources": [ "Construct Handbook" ],
-		"replaces": "Class Skills; Trapfinding; 2nd-level Rogue Talent; Trap Sense",
-		"replace_array": [
-			"Class Skills",
-			"Trapfinding",
-			"2nd-level Rogue Talent",
-			"Trap Sense"
-		],
-		"short_description": "The construct saboteur harnesses arcane energy to combat the golems and eldritch guardians that prowl the depths of ancient ruins and forgotten tombs.",
 		"description": [
 			"## Construct Saboteur",
 			"",
@@ -347,12 +270,6 @@
 		"name": "Counterfeit Mage",
 		"file": "archetypedisplay9952.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Trapfinding; 4th-level Rogue Talent",
-		"replace_array": [
-			"Trapfinding",
-			"4th-level Rogue Talent"
-		],
-		"short_description": "Charlatans and stage magicians use slight of hand to fake magic. A counterfeit mage goes a step further, parroting the motions and activation phrases used by arcane casters to activate wands or other magical accoutrements.",
 		"description": [
 			"## Counterfeit Mage",
 			"",
@@ -375,12 +292,6 @@
 		"name": "Cutpurse",
 		"file": "archetypedisplay016b.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Trapfinding; Trap Sense",
-		"replace_array": [
-			"Trapfinding",
-			"Trap Sense"
-		],
-		"short_description": "Cutpurses are often trained by guilds to collect the guild's tax from local businesses on a daily basis, whether through intimidation or pickpocketing. Some find themselves taking up the mantle of adventurer, and their talents are generally appreciated in this role, but the cutpurse is still the first person her companions look to when an item goes missing.",
 		"description": [
 			"## Cutpurse",
 			"",
@@ -401,15 +312,6 @@
 		"name": "Dark Lurker",
 		"file": "archetypedisplay253c.html",
 		"sources": [ "Heroes of the Streets" ],
-		"replaces": "Evasion; 2nd, 8th, 14th, and 20th-level Rogue Talents",
-		"replace_array": [
-			"Evasion",
-			"2nd-level Rogue Talent",
-			"8th-level Rogue Talent",
-			"14th-level Rogue Talent",
-			"20th-level Rogue Talent"
-		],
-		"short_description": "Dark lurkers use darkness as an ally.",
 		"description": [
 			"## Dark Lurker",
 			"",
@@ -436,14 +338,6 @@
 		"name": "Deadly Courtesan",
 		"file": "archetypedisplay56e8.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Class Skills; 2nd-level Rogue Talent; Trap Sense; Improved Uncanny Dodge",
-		"replace_array": [
-			"Class Skills",
-			"2nd-level Rogue Talent",
-			"Trap Sense",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "(Vishkanya Only) Skilled at manipulation and diversion, the deadly courtesan builds up those around her and periodically takes them down.",
 		"description": [
 			"## Deadly Courtesan",
 			"",
@@ -468,13 +362,6 @@
 		"name": "Desert Raider",
 		"file": "archetypedisplay792a.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Class Skills; Trapfinding; Trap Sense",
-		"replace_array": [
-			"Class Skills",
-			"Trapfinding",
-			"Trap Sense"
-		],
-		"short_description": "Desert raider learn the secrets of the deserts and become inured to their dangers.",
 		"description": [
 			"## Desert Raider",
 			"",
@@ -505,17 +392,6 @@
 		"name": "Discretion Specialist",
 		"file": "archetypedisplay1322.html",
 		"sources": [ "Antihero's Handbook" ],
-		"replaces": "Trapfinding; Trap Sense/Danger Sense; 4th, 12th-level Rogue Talents; Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Trapfinding",
-			"Trap Sense",
-			"Danger Sense",
-			"4th-level Rogue Talent",
-			"12th-level Rogue Talent",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Discretion specialists deal with bodies, inconvenient witnesses, and other loose ends.",
 		"description": [
 			"## Discretion Specialist",
 			"",
@@ -556,17 +432,6 @@
 		"name": "Dreamthief",
 		"file": "archetypedisplayfa5f.html",
 		"sources": [ "Planar Adventures" ],
-		"replaces": "Class Skills; Sneak Attack; Master Strike; Trap Sense; Uncanny Dodge; Improved Uncanny Dodge; 12th-level Rogue Talent",
-		"replace_array": [
-			"Class Skills",
-			"Sneak Attack",
-			"Master Strike",
-			"Trap Sense",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge",
-			"12th-level Rogue Talent"
-		],
-		"short_description": "Each dreamthief bears a focused fragment of emotion, known as a dreamshard, within her soul. This metaphysical crystal grants a dreamthief supernatural powers, which she supplements with skill and grace.",
 		"description": [
 			"## Dreamthief",
 			"",
@@ -605,12 +470,6 @@
 		"name": "Driver",
 		"file": "archetypedisplay1b07.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Trapfinding; Trap Sense",
-		"replace_array": [
-			"Trapfinding",
-			"Trap Sense"
-		],
-		"short_description": "A driver makes her living driving vehicles in the service of those who can pay for her considerable talents.",
 		"description": [
 			"## Driver",
 			"",
@@ -631,16 +490,6 @@
 		"name": "Earthshadow",
 		"file": "archetypedisplaye9ae.html",
 		"sources": [ "Elemental Master's Handbook" ],
-		"replaces": "Trapfinding; Evasion; 4th, 8th, 12th, 16th-level Rogue Talents",
-		"replace_array": [
-			"Trapfinding",
-			"Evasion",
-			"4th-level Rogue Talent",
-			"8th-level Rogue Talent",
-			"12th-level Rogue Talent",
-			"16th-level Rogue Talent"
-		],
-		"short_description": "In the centuries since the Quest for the Sky, the mystic lore the dwarves call earthcraft has been passed down through the generations, and its practitioners are called earthshadows.",
 		"description": [
 			"## Earthshadow",
 			"",
@@ -673,14 +522,6 @@
 		"name": "Eldritch Raider",
 		"file": "archetypedisplaye83e.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Class Skills; Skill Ranks; 2nd-level Rogue Talent; Trap Sense",
-		"replace_array": [
-			"Class Skills",
-			"Skill Ranks",
-			"2nd-level Rogue Talent",
-			"Trap Sense"
-		],
-		"short_description": "(Gillman Only) An eldritch raider is a rogue who seeks to unravel the mysteries of the destruction of the gillmen's homeland.",
 		"description": [
 			"## Eldritch Raider",
 			"",
@@ -711,19 +552,6 @@
 		"name": "Eldritch Scoundrel",
 		"file": "archetypedisplay9aaa.html",
 		"sources": [ "Arcane Anthology" ],
-		"replaces": "Armor Proficiency; Skills; Trap Sense; Sneak Attack; Rogue Talents; Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Armor Proficiency",
-			"Class Skills",
-			"Skill Ranks",
-			"Trap Sense",
-			"Sneak Attack",
-			"Rogue Talents",
-			"Advanced Talents",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Students of arcane magic, legerdemain, and stealth, eldritch scoundrels are a rare breed of adventurer most commonly found seeking lost and valuable arcane writings in the ruins of fallen empires, such as Thassilon or the Jistka Imperium.",
 		"description": [
 			"## Eldritch Scoundrel",
 			"",
@@ -752,13 +580,6 @@
 		"name": "Escapologist",
 		"file": "archetypedisplay5d69.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Trapfinding; Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Trapfinding",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "The escapologist excels at escaping any confinement, whether physical, magical, or mental. Few restraints can hold an escapologist for long.",
 		"description": [
 			"## Escapologist",
 			"",
@@ -777,13 +598,6 @@
 		"name": "False Medium",
 		"file": "archetypedisplay18ac.html",
 		"sources": [ "Occult Adventures" ],
-		"replaces": "Trapfinding; 2nd-level Rogue Talent; Trap Sense",
-		"replace_array": [
-			"Trapfinding",
-			"2nd-level Rogue Talent",
-			"Trap Sense"
-		],
-		"short_description": "The false medium is a master of pretending to have occult powers in order to manipulate the emotions and atmosphere of the people and places around him, often reaping a healthy reward from the bereaved, who find solace in his comforting lies.",
 		"description": [
 			"## False Medium",
 			"",
@@ -808,17 +622,6 @@
 		"name": "Fey Prankster",
 		"file": "archetypedisplayeba5.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Trapfinding; 2nd, 6th, 8th, and 12th-level Rogue Talents; Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Trapfinding",
-			"2nd-level Rogue Talent",
-			"6th-level Rogue Talent",
-			"8th-level Rogue Talent",
-			"12th-level Rogue Talent",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "(Gathlain) Fey pranksters specialize in tricking others to teach a lesson or for their own entertainment.",
 		"description": [
 			"## Fey Prankster",
 			"",
@@ -857,14 +660,6 @@
 		"name": "Filcher",
 		"file": "archetypedisplay0b94.html",
 		"sources": [],
-		"replaces": "Evasion; Trap Sense 1-6; Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Evasion",
-			"Trap Sense",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "(Halfling Only) Whether cutting purses in the midst of combat or replacing prized items with fakes under the noses of their owners, the filcher is the master of the quick and quiet steal.",
 		"description": [
 			"## Filcher",
 			"",
@@ -891,15 +686,6 @@
 		"name": "Galtan Agitator",
 		"file": "archetypedisplaybe56.html",
 		"sources": [ "Inner Sea Intrigue" ],
-		"replaces": "Trapfinding; Trap Sense; 4th, 8th, 12th-level Rogue Talent",
-		"replace_array": [
-			"Trapfinding",
-			"Trap Sense",
-			"4th-level Rogue Talent",
-			"8th-level Rogue Talent",
-			"12th-level Rogue Talent"
-		],
-		"short_description": "Galtan agitators fight mightily to cast down the enemies of their ideals within the shambles of the tumultuous nation of Galt.",
 		"description": [
 			"## Galtan Agitator",
 			"",
@@ -936,15 +722,6 @@
 		"name": "Guerrilla",
 		"file": "archetypedisplaya0e0.html",
 		"sources": [ "Inner Sea Intrigue" ],
-		"replaces": "Trapfinding; Evasion; Trap Sense; Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Trapfinding",
-			"Evasion",
-			"Trap Sense",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Guerrillas fight against oppressive leadership and governments including Chelish colonization in Sargava and the power structures in Cheliax proper, Nidal, and Razmiran",
 		"description": [
 			"## Guerrilla",
 			"",
@@ -981,14 +758,6 @@
 		"name": "Guild Agent",
 		"file": "archetypedisplay275a.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Evasion; Uncanny Dodge; Improved Evasion; Master Strike",
-		"replace_array": [
-			"Evasion",
-			"Uncanny Dodge",
-			"Improved Evasion",
-			"Master Strike"
-		],
-		"short_description": "Guild agents are members of a thieves' guild or other shadowy organization. What they lose in independence, they more than make up for in benefits gained due to their association's infrastructure.",
 		"description": [
 			"## Guild Agent",
 			"",
@@ -1021,17 +790,6 @@
 		"name": "Gun Smuggler",
 		"file": "archetypedisplayd419.html",
 		"sources": [ "People of the Wastes" ],
-		"replaces": "Weapon Proficiencies; Trapfinding; Sneak Attack; Trap Finding; 6th-level Rogue Talent; Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Weapon Proficiency",
-			"Trapfinding",
-			"Sneak Attack",
-			"Trap Sense",
-			"6th-level Rogue Talent",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Gun smugglers are adept at procuring firearms and concealing their secret weapons",
 		"description": [
 			"## Gun Smuggler",
 			"",
@@ -1068,15 +826,6 @@
 		"name": "Heister",
 		"file": "archetypedisplay4237.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "2nd, 4th, 8th-level Rogue Talent; Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"2nd-level Rogue Talent",
-			"4th-level Rogue Talent",
-			"8th-level Rogue Talent",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Notorious for their stealth, imagination, and elaborately planned thefts and capers, heisters specialize in breaking into secure locations, stealing items of value, and escaping undetected.",
 		"description": [
 			"## Heister",
 			"",
@@ -1105,11 +854,6 @@
 		"name": "Investigator",
 		"file": "archetypedisplay4c44.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Trapfinding",
-		"replace_array": [
-			"Trapfinding"
-		],
-		"short_description": "Not all rogues work against the law. Investigators use their skills to serve the law, often in the employ of nobles or in the pursuit of noble causes.",
 		"description": [
 			"## Investigator",
 			"",
@@ -1128,12 +872,6 @@
 		"name": "Kintargo Rebel",
 		"file": "archetypedisplayf5c1.html",
 		"sources": [ "Inner Sea Combat" ],
-		"replaces": "Trap Sense; Uncanny Dodge",
-		"replace_array": [
-			"Trap Sense",
-			"Uncanny Dodge"
-		],
-		"short_description": "Whenever the Chelish navy sails into the port, these rebels are quick to appear agreeably subservient in order to conceal their noncompliance and avoid retribution.",
 		"description": [
 			"## Kintargo Rebel",
 			"",
@@ -1154,12 +892,6 @@
 		"name": "Kitsune Trickster",
 		"file": "archetypedisplayaede.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Trapfinding; Trap Sense",
-		"replace_array": [
-			"Trapfinding",
-			"Trap Sense"
-		],
-		"short_description": "(Kitsune Only) The kitsune trickster combines her sharpened wit with minor arcane powers of charm and persuasion.",
 		"description": [
 			"## Kitsune Trickster",
 			"",
@@ -1180,13 +912,6 @@
 		"name": "Knife Master",
 		"file": "archetypedisplaya605.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Trapfinding; Sneak Attack; Trap Sense",
-		"replace_array": [
-			"Trapfinding",
-			"Sneak Attack",
-			"Trap Sense"
-		],
-		"short_description": "The knife master is a trained killer who specializes in close-up combat and the wave and weave of knife fighting.",
 		"description": [
 			"## Knife Master",
 			"",
@@ -1209,14 +934,6 @@
 		"name": "Makeshift Scrapper",
 		"file": "archetypedisplaya0d2.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"replaces": "Weapon Proficiencies; Trapfinding; Trap Sense; 12th-level Rogue Talent",
-		"replace_array": [
-			"Weapon Proficiency",
-			"Trapfinding",
-			"Trap Sense",
-			"12th-level Rogue Talent"
-		],
-		"short_description": "Some combatants specialize in the study of certain weapons, but those without formal training often learn to survive a fight by making brilliant use of whatever is lying around.",
 		"description": [
 			"## Makeshift Scrapper",
 			"",
@@ -1241,13 +958,6 @@
 		"name": "Master of Disguise",
 		"file": "archetypedisplay6146.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Trapfinding; 2nd, 10th-level Rogue Talent",
-		"replace_array": [
-			"Trapfinding",
-			"2nd-level Rogue Talent",
-			"10th-level Rogue Talent"
-		],
-		"short_description": "A master of disguise believes that never letting her adversaries know her true identity protects her from bad luck or missteps on a job.",
 		"description": [
 			"## Master of Disguise",
 			"",
@@ -1272,18 +982,6 @@
 		"name": "Nameless Shadow",
 		"file": "archetypedisplay3f11.html",
 		"sources": [ "Merchant's Manifest" ],
-		"replaces": "Trapfinding; 2nd, 4th, 6th, 8th, 10th, 14th, 18th-level Rogue Talents",
-		"replace_array": [
-			"Trapfinding",
-			"2nd-level Rogue Talent",
-			"4th-level Rogue Talent",
-			"6th-level Rogue Talent",
-			"8th-level Rogue Talent",
-			"10th-level Rogue Talent",
-			"14th-level Rogue Talent",
-			"18th-level Rogue Talent"
-		],
-		"short_description": "Where bandits and tyrants prey on merchants and caravans, the nameless shadow preys on bandits and tyrants.",
 		"description": [
 			"## Nameless Shadow",
 			"",
@@ -1306,14 +1004,6 @@
 		"name": "Needler",
 		"file": "archetypedisplay1251.html",
 		"sources": [ "Potions and Poisons" ],
-		"replaces": "Evasion; Uncanny Dodge; 6th-level Rogue Talent; Improved Uncanny Dodge",
-		"replace_array": [
-			"Evasion",
-			"Uncanny Dodge",
-			"6th-level Rogue Talent",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Needlers use subtlety and misdirection to deliver deadly poisons to unsuspecting victims in creative and unorthodox ways.",
 		"description": [
 			"## Needler",
 			"",
@@ -1342,13 +1032,6 @@
 		"name": "Numerian Scavenger",
 		"file": "archetypedisplay593e.html",
 		"sources": [ "Technology Guide" ],
-		"replaces": "Trapfinding; Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Trapfinding",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "A Numerian scavenger lives for the discovery of new technological wonders scraped from the depths of the strange ruins, metal caverns, and outlandish junkyards of Numeria.",
 		"description": [
 			"## Numerian Scavenger",
 			"",
@@ -1367,13 +1050,6 @@
 		"name": "Okeno Liberator",
 		"file": "archetypedisplay86b6.html",
 		"sources": [ "Inner Sea Combat" ],
-		"replaces": "Trapfinding; Trap Sense; Uncanny Dodge",
-		"replace_array": [
-			"Trapfinding",
-			"Trap Sense",
-			"Uncanny Dodge"
-		],
-		"short_description": "The sight of yellow sails on the Inner Sea signals the approach of a ship from Okeno, home port of the most ruthless and feared of all slaving operations. Most who see these sails flee in terror, but some freedom fighters actually endeavor to be captured, knowing that being taken to Stonespine Island in manacles is the easiest way to infiltrate the city, liberate other slaves, and lead them to freedom.",
 		"description": [
 			"## Okeno Liberator",
 			"",
@@ -1396,15 +1072,6 @@
 		"name": "Phantom Thief",
 		"file": "archetypedisplay6a1d.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Class Skills; Sneak Attack; Trapfinding; Trap Sense; Master Strike",
-		"replace_array": [
-			"Class Skills",
-			"Sneak Attack",
-			"Trapfinding",
-			"Trap Sense",
-			"Master Strike"
-		],
-		"short_description": "Phantom thieves come from the ranks of the elite, having grown bored with their finery, and seek thrills from acts of daring, skill, and crime.",
 		"description": [
 			"## Phantom Thief",
 			"",
@@ -1437,13 +1104,6 @@
 		"name": "Pirate",
 		"file": "archetypedisplayc902.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Trapfinding; 2nd-level Rogue Talent; Trapfinding",
-		"replace_array": [
-			"Trapfinding",
-			"2nd-level Rogue Talent",
-			"Trapfinding"
-		],
-		"short_description": "A pirate breaks from the confines of country and king to commit her crimes upon the high seas.",
 		"description": [
 			"## Pirate",
 			"",
@@ -1466,13 +1126,6 @@
 		"name": "Planar Sneak",
 		"file": "archetypedisplay2b39.html",
 		"sources": [ "Planes of Power" ],
-		"replaces": "Trap Sense; Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Trap Sense",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "A planar sneak finds creative ways to defy conventional limitations when trying to overcome extraplanar obstacles.",
 		"description": [
 			"## Planar Sneak",
 			"",
@@ -1497,12 +1150,6 @@
 		"name": "Poisoner",
 		"file": "archetypedisplay61b5.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Trapfinding; Trap Sense",
-		"replace_array": [
-			"Trapfinding",
-			"Trap Sense"
-		],
-		"short_description": "The poisoner knows poison is just a tool toward an end, and is no different than any other weapon.",
 		"description": [
 			"## Poisoner",
 			"",
@@ -1523,12 +1170,6 @@
 		"name": "Rake",
 		"file": "archetypedisplaye09d.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Trapfinding; Trap Sense",
-		"replace_array": [
-			"Trapfinding",
-			"Trap Sense"
-		],
-		"short_description": "The rake is a rogue who is open about her skills and talents, often to the point of being boastful.",
 		"description": [
 			"## Rake",
 			"",
@@ -1549,12 +1190,6 @@
 		"name": "Relic Raider",
 		"file": "archetypedisplay7516.html",
 		"sources": [ "Black Markets" ],
-		"replaces": "Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Relic raiders are rogues who specialize in recovering treasures from ruins and tombs, some in a quest for knowledge, others out of a desire for riches.",
 		"description": [
 			"## Relic Raider",
 			"",
@@ -1582,13 +1217,6 @@
 			"Ultimate Wilderness",
 			"People of the River"
 		],
-		"replaces": "Class Skills; Trapfinding; Trap Sense",
-		"replace_array": [
-			"Class Skills",
-			"Trapfinding",
-			"Trap Sense"
-		],
-		"short_description": "River rats are skilled at hiding amid reeds and roots, striking the unwary from the shallows as others would from the shadows.",
 		"description": [
 			"## River Rat",
 			"",
@@ -1619,12 +1247,6 @@
 		"name": "Roof Runner",
 		"file": "archetypedisplay9da6.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Trapfinding; Trap Sense",
-		"replace_array": [
-			"Trapfinding",
-			"Trap Sense"
-		],
-		"short_description": "A specialized urban acrobat, the roof runner makes her home high atop the spires and gables of great cities.",
 		"description": [
 			"## Roof Runner",
 			"",
@@ -1645,13 +1267,6 @@
 		"name": "Rotdrinker",
 		"file": "archetypedisplaye772.html",
 		"sources": [ "Potions and Poisons" ],
-		"replaces": "Evasion; Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Evasion",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Poisons are common tools in a rogue's trade, and some poison-using rogues are so frequently exposed to these toxins that they have developed resistances to particular poisons.",
 		"description": [
 			"## Rotdrinker",
 			"",
@@ -1678,12 +1293,6 @@
 		"name": "Sanctified Rogue",
 		"file": "archetypedisplayac5e.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "The sanctified rogue serves a higher purpose, acting as a representative of a church or cult, or following the tenets of a specific faith or deity.",
 		"description": [
 			"## Sanctified Rogue",
 			"",
@@ -1704,13 +1313,6 @@
 		"name": "Sapper",
 		"file": "archetypedisplay573b.html",
 		"sources": [ "Dungeoneer's Handbook" ],
-		"replaces": "Trapfinding; 2nd and 4th-level Rogue Talents",
-		"replace_array": [
-			"Trapfinding",
-			"2nd-level Rogue Talent",
-			"4th-level Rogue Talent"
-		],
-		"short_description": "The sapper is a trained siege engineer and can deal with traps and other obstacles given plenty of time.",
 		"description": [
 			"## Sapper",
 			"",
@@ -1729,12 +1331,6 @@
 		"name": "Scout",
 		"file": "archetypedisplaycba6.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Scouts frequently roam the wilderness, often banding together as bandits, but sometimes serving as guides, as trailblazers, or as companions to a ranger or barbarian warrior.",
 		"description": [
 			"## Scout",
 			"",
@@ -1755,15 +1351,6 @@
 		"name": "Scroll Scoundrel",
 		"file": "archetypedisplay6212.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
-		"replaces": "2nd-level Rogue Talent, Trap Sense, Uncanny Dodge, Improved Uncanny Dodge, 10th-level Rogue Talent",
-		"replace_array": [
-			"2nd-level Rogue Talent",
-			"Trap Sense",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge",
-			"10th-level Rogue Talent"
-		],
-		"short_description": "Using knowledge from extensive research, the scroll scoundrel exploits overconfidence and predictability to better stay alive.",
 		"description": [
 			"## Scroll Scoundrel",
 			"",
@@ -1786,15 +1373,6 @@
 		"name": "Sczarni Swindler",
 		"file": "archetypedisplay3375.html",
 		"sources": [ "The Harrow Handbook" ],
-		"replaces": "Trapfinding; Evasion; Trap Sense; Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Trapfinding",
-			"Evasion",
-			"Trap Sense",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "If life is a game, the Sczarni play to win. When skill and luck aren't enough, cheating is often the best option.",
 		"description": [
 			"## Sczarni Swindler",
 			"",
@@ -1821,13 +1399,6 @@
 		"name": "Seeker of the Lost",
 		"file": "archetypedisplaycf60.html",
 		"sources": [ "Blood of the Sea" ],
-		"replaces": "2nd-level Rogue Talent; Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"2nd-level Rogue Talent",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Aquatic elven adventurers descending into the ruins of sunken Azlant developed techniques to ease their explorations, and they now share these techniques among a loose group of acquaintances calling themselves the seekers of the lost.",
 		"description": [
 			"## Seeker of the Lost",
 			"",
@@ -1856,15 +1427,6 @@
 		"name": "Shadow Scion",
 		"file": "archetypedisplaye495.html",
 		"sources": [ "Legacy of the First World" ],
-		"replaces": "Trapfinding; 2nd, 8th, 14th-level Rogue Talent; Master Strike",
-		"replace_array": [
-			"Trapfinding",
-			"2nd-level Rogue Talent",
-			"8th-level Rogue Talent",
-			"14th-level Rogue Talent",
-			"Master Strike"
-		],
-		"short_description": "Shadow scions have learned the secrets of light and dark and draw power from the shadows themselves.",
 		"description": [
 			"## Shadow Scion",
 			"",
@@ -1901,15 +1463,6 @@
 		"name": "Shadow Walker",
 		"file": "archetypedisplay08b8.html",
 		"sources": [ "Blood of Shadows" ],
-		"replaces": "Trapfinding; 2nd-level Rogue Talent; Trap Sense; Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Trapfinding",
-			"2nd-level Rogue Talent",
-			"Trap Sense",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Shadow walkers are comfortable in light, darkness, and the shadows in between.",
 		"description": [
 			"## Shadow Walker",
 			"",
@@ -1938,18 +1491,6 @@
 		"name": "Sharper",
 		"file": "archetypedisplay6dc8.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Trapfinding; 2nd, 4th, 6th, 8th, 10th, 16th-level Rogue Talent; Trap Sense;",
-		"replace_array": [
-			"Trapfinding",
-			"2nd-level Rogue Talent",
-			"4th-level Rogue Talent",
-			"6th-level Rogue Talent",
-			"8th-level Rogue Talent",
-			"10th-level Rogue Talent",
-			"16th-level Rogue Talent",
-			"Trap Sense"
-		],
-		"short_description": "Sharpers use trickery and deception to part an owner from his valuables.",
 		"description": [
 			"## Sharper",
 			"",
@@ -1982,19 +1523,6 @@
 		"name": "Skulking Slayer",
 		"file": "archetypedisplay6e20.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Weapon/Armor Proficiency; Class Skills; Trapfinding; Rogue Talent; Advanced Rogue Talent; Trap Sense 1-4",
-		"replace_array": [
-			"Weapon/Armor Proficiency",
-			"Class Skills",
-			"Trapfinding",
-			"Rogue Talents",
-			"Advanced Talents",
-			"Trap Sense 1",
-			"Trap Sense 2",
-			"Trap Sense 3",
-			"Trap Sense 4"
-		],
-		"short_description": "(Half-Orc Only) Pushed into a life of crime by the society around them, half-orcs gravitate toward criminal activities that suit them best.",
 		"description": [
 			"## Skulking Slayer",
 			"",
@@ -2029,14 +1557,6 @@
 		"name": "Sly Saboteur",
 		"file": "archetypedisplay7d2b.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Class Skills; Trap Sense; Uncanny Dodge; Improved Uncanny Dodge;",
-		"replace_array": [
-			"Class Skills",
-			"Trap Sense",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Sly saboteurs are irregular soldiers who specialize in sabotage and surprise attacks.",
 		"description": [
 			"## Sly Saboteur",
 			"",
@@ -2071,13 +1591,6 @@
 		"name": "Smuggler",
 		"file": "archetypedisplay9d47.html",
 		"sources": [ "Pirates of the Inner Sea" ],
-		"replaces": "Trap Sense; Trapfinding; Evasion",
-		"replace_array": [
-			"Trap Sense",
-			"Trapfinding",
-			"Evasion"
-		],
-		"short_description": "Smugglers specialize in moving contraband from one area to another while avoiding detection by authorities.",
 		"description": [
 			"## Smuggler",
 			"",
@@ -2096,13 +1609,6 @@
 		"name": "Snare Setter",
 		"file": "archetypedisplay89e0.html",
 		"sources": [ "Kobolds of Golarion" ],
-		"replaces": "Sneak Attack; Trapfinding; Master Strike",
-		"replace_array": [
-			"Sneak Attack",
-			"Trapfinding",
-			"Master Strike"
-		],
-		"short_description": "(Kobold Only) Deep in darkness, the snare setter constructs his deadly traps and brutal mechanisms to confound and destroy any who try to invade his domain.",
 		"description": [
 			"## Snare Setter",
 			"",
@@ -2133,12 +1639,6 @@
 		"name": "Sniper",
 		"file": "archetypedisplayc87d.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Trapfinding; Trap Sense",
-		"replace_array": [
-			"Trapfinding",
-			"Trap Sense"
-		],
-		"short_description": "Some say that the sniper is the worst kind of assassin: a killer who waits silently in the shadows and then strikes from a distance without remorse.",
 		"description": [
 			"## Sniper",
 			"",
@@ -2159,15 +1659,6 @@
 		"name": "Snoop",
 		"file": "archetypedisplay94bc.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"replaces": "Trapfinding; Evasion; Uncanny Dodge; Improved Uncanny Dodge; 8th-level Rogue Talent",
-		"replace_array": [
-			"Trapfinding",
-			"Evasion",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge",
-			"8th-level Rogue Talent"
-		],
-		"short_description": "Snoops act as information peddlers, specializing in gathering secrets through investigation, subterfuge, and coercion, and selling or trading those secrets for personal gain.",
 		"description": [
 			"## Snoop",
 			"",
@@ -2198,12 +1689,6 @@
 		"name": "Spy",
 		"file": "archetypedisplay305f.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Trapfinding; Trap Sense",
-		"replace_array": [
-			"Trapfinding",
-			"Trap Sense"
-		],
-		"short_description": "The best spies are like chameleons, but not only can they change their appearances to fit the situation, they can also change their personalities, allegiances, and even loves if that's what it takes to achieve their clandestine goals.",
 		"description": [
 			"## Spy",
 			"",
@@ -2224,12 +1709,6 @@
 		"name": "Survivalist",
 		"file": "archetypedisplay8793.html",
 		"sources": [ "Ultimate Combat" ],
-		"replaces": "Trapfinding; Trap Sense",
-		"replace_array": [
-			"Trapfinding",
-			"Trap Sense"
-		],
-		"short_description": "The survivalist focuses her talents on surviving harsh and unforgiving conditions that would kill a lesser rogue.",
 		"description": [
 			"## Survivalist",
 			"",
@@ -2250,13 +1729,6 @@
 		"name": "Swamp Poisoner",
 		"file": "archetypedisplaya646.html",
 		"sources": [ "Potions and Poisons" ],
-		"replaces": "Racial Traits; Trapfinding; 2nd-level Rogue Talent; Trap Sense",
-		"replace_array": [
-			"Trapfinding",
-			"2nd-level Rogue Talent",
-			"Trap Sense"
-		],
-		"short_description": "(Grippli) Swamp poisoners use their own toxins to defend their homes and level the playing field",
 		"description": [
 			"## Swamp Poisoner",
 			"",
@@ -2285,12 +1757,6 @@
 		"name": "Swashbuckler",
 		"file": "archetypedisplay88b5.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Trapfinding; Trap Sense",
-		"replace_array": [
-			"Trapfinding",
-			"Trap Sense"
-		],
-		"short_description": "A paragon of mobile swordplay, the swashbuckler is a rogue who focuses almost exclusively on honing her skill at arms and perfecting daring acrobatic moves and elaborate flourishes that border on performance.",
 		"description": [
 			"## Swashbuckler",
 			"",
@@ -2311,12 +1777,6 @@
 		"name": "Swordmaster",
 		"file": "archetypedisplay6b0f.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Class Skills; Trap Sense",
-		"replace_array": [
-			"Class Skills",
-			"Trap Sense"
-		],
-		"short_description": "(Tengu Only) A swordmaster meditates to strengthen her spiritual connection to her blade. She strives to perfect her skills by mastering six deadly trances.",
 		"description": [
 			"## Swordmaster",
 			"",
@@ -2353,15 +1813,6 @@
 		"name": "Sylvan Trickster",
 		"file": "archetypedisplayca33.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"replaces": "Class Skills; Trapfinding; Rogue Talents; Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Class Skills",
-			"Trapfinding",
-			"Rogue Talents",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Sylvan tricksters are rogues who model themselves after the mischievous fey of legend.",
 		"description": [
 			"## Sylvan Trickster",
 			"",
@@ -2398,12 +1849,6 @@
 		"name": "Thug",
 		"file": "archetypedisplayed6d.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Trapfinding; Trap Sense",
-		"replace_array": [
-			"Trapfinding",
-			"Trap Sense"
-		],
-		"short_description": "Some criminals steal with finesse, their victims only discovering the crime when the rogue is long gone and the coin already spent. A thug, on the other hand, cares nothing for finesse.",
 		"description": [
 			"## Thug",
 			"",
@@ -2424,16 +1869,6 @@
 		"name": "Tidal Trickster",
 		"file": "archetypedisplay9819.html",
 		"sources": [ "Aquatic Adventures" ],
-		"replaces": "Trapfinding; Trap Sense; Uncanny Dodge; Improved Uncanny Dodge; 4th, 8th-level Rogue Talent",
-		"replace_array": [
-			"Trapfinding",
-			"Trap Sense",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge",
-			"4th-level Rogue Talent",
-			"8th-level Rogue Talent"
-		],
-		"short_description": "Tidal tricksters roam the seas, using their skillful mastery of the currents to move across aquatic battlefields and throw their enemies off-balance.",
 		"description": [
 			"## Tidal Trickster",
 			"",
@@ -2458,15 +1893,6 @@
 		"name": "Toxic Talon",
 		"file": "archetypedisplayed0d.html",
 		"sources": [ "Adventurer's Guide" ],
-		"replaces": "Weapon Proficiencies; Trapfinding; Trap Sense; Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Weapon Proficiency",
-			"Trapfinding",
-			"Trap Sense",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "A toxic talon spends resources and time combining easy-to-obtain materials into dangerous toxins to aid in the defense of Andoran.",
 		"description": [
 			"## Toxic Talon",
 			"",
@@ -2501,12 +1927,6 @@
 		"name": "Trapsmith",
 		"file": "archetypedisplaye642.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"replaces": "Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Some rogues are not content with just disabling traps-they love to build them, finding a captivating beauty in the turning of gears and the slither of ropes over pulleys.",
 		"description": [
 			"## Trapsmith",
 			"",
@@ -2527,13 +1947,6 @@
 		"name": "Underground Chemist",
 		"file": "archetypedisplayc057.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Evasion; 4th-level Rogue Talent; Advanced Talents",
-		"replace_array": [
-			"Evasion",
-			"4th-level Rogue Talent",
-			"Advanced Talents"
-		],
-		"short_description": "Underground chemists are part of the rotting, fetid underbelly of the alchemical world.",
 		"description": [
 			"## Underground Chemist",
 			"",
@@ -2556,15 +1969,6 @@
 		"name": "Vexing Dodger",
 		"file": "archetypedisplayaa11.html",
 		"sources": [ "Giant Hunter's Handbook" ],
-		"replaces": "Trapfinding; 2nd-level Rogue Talent; Trap Sense; Uncanny Dodge; Improved Uncanny Dodge",
-		"replace_array": [
-			"Trapfinding",
-			"2nd-level Rogue Talent",
-			"Trap Sense",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge"
-		],
-		"short_description": "Vexing dodgers take advantage of their smaller size to outmaneuver larger foes such as giants.",
 		"description": [
 			"## Vexing Dodger",
 			"",
@@ -2589,15 +1993,6 @@
 		"name": "Waylayer",
 		"file": "archetypedisplay5247.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
-		"replaces": "Trapfinding; Uncanny Dodge; Improved Uncanny Dodge; 12th and 20th-level Rogue Talents",
-		"replace_array": [
-			"Trapfinding",
-			"Uncanny Dodge",
-			"Improved Uncanny Dodge",
-			"12th-level Rogue Talent",
-			"20th-level Rogue Talent"
-		],
-		"short_description": "A clever rogue knows the easiest battle to win is the one that's over before your foe knows it has begun.",
 		"description": [
 			"## Waylayer",
 			"",

@@ -4,13 +4,6 @@
 		"name": "Bloodline Familiars",
 		"file": "archetypedisplayd788.html",
 		"sources": [ "Familiar Folio" ],
-		"replaces": "(N/A; not technically an archetype, affects the familiar's owner) 1st-level Bloodline power; Spells",
-		"replace_array": [
-			"1st-level Bloodline Power",
-			"Bloodline Spells",
-			"Familiar"
-		],
-		"short_description": "Those with an inherent connection to magic often attract creatures who feel a similar instinctive pull toward magical forces.",
 		"description": [
 			"## Bloodline Familiars",
 			"",
@@ -47,11 +40,6 @@
 		"name": "Crossblooded",
 		"file": "archetypedisplay002f.html",
 		"sources": [ "Ultimate Magic" ],
-		"replaces": "Spells Known",
-		"replace_array": [
-			"Spellcasting"
-		],
-		"short_description": "A crossblooded bloodline combines the powers of two distinct heritages.",
 		"description": [
 			"## Crossblooded",
 			"",
@@ -80,16 +68,6 @@
 		"name": "Dragon Drinker",
 		"file": "archetypedisplay16c6.html",
 		"sources": [ "Dragonslayer's Handbook" ],
-		"replaces": "Bloodline Arcana; Claws Bloodline Power; 7th, 13th, and 19th-level Bloodline Feats",
-		"replace_array": [
-			"Bloodline",
-			"Bloodline Arcana",
-			"Claws Bloodline Power",
-			"7th-level Bloodline Feat",
-			"13th-level Bloodline Feat",
-			"19th-level Bloodline Feat"
-		],
-		"short_description": "(Requires Draconic Bloodline) The blood of dragons not only flows through a dragon drinker's veins, but also empowers her spells and magical abilities when consumed.",
 		"description": [
 			"## Dragon Drinker",
 			"",
@@ -116,13 +94,6 @@
 		"name": "Eldritch Scrapper",
 		"file": "archetypedisplay3d26.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "1st, 9th, and 15th-level Bloodline Powers",
-		"replace_array": [
-			"1st-level Bloodline Power",
-			"9th-level Bloodline Power",
-			"15th-level Bloodline Power"
-		],
-		"short_description": "An eldritch scrapper is usually spoiling for a fight, looking to prove that she's just as tough as a martial character.",
 		"description": [
 			"## Eldritch Scrapper",
 			"",
@@ -145,16 +116,6 @@
 		"name": "Mongrel Mage",
 		"file": "archetypedisplayeb22.html",
 		"sources": [ "Advanced Class Guide" ],
-		"replaces": "Bloodline; Bloodline Powers; Bloodline Spells; 7th, 13th, and 19th-level Bloodline Feats",
-		"replace_array": [
-			"Bloodline",
-			"Bloodline Powers",
-			"Bloodline Spells",
-			"7th-level Bloodline Feat",
-			"13th-level Bloodline Feat",
-			"19th-level Bloodline Feat"
-		],
-		"short_description": "A mongrel mage is a sorcerer whose bloodline is so weak, or mixed with so many others, that her power isn't clearly associated with any bloodline source.",
 		"description": [
 			"## Mongrel Mage",
 			"",
@@ -189,11 +150,6 @@
 		"name": "Nine-Tailed Heir",
 		"file": "archetypedisplaycf03.html",
 		"sources": [ "Blood of the Beast" ],
-		"replaces": "Bloodline Spells",
-		"replace_array": [
-			"Bloodline Spells"
-		],
-		"short_description": "(Kitsune only) Tian stories often tell of kitsune with multiple tails who have a magical quirk in their blood or have been blessed by their race's deific matron, Daikitsu",
 		"description": [
 			"## Nine-Tailed Heir",
 			"",
@@ -212,14 +168,6 @@
 		"name": "Razmiran Priest",
 		"file": "archetypedisplay0849.html",
 		"sources": [ "Inner Sea Magic" ],
-		"replaces": "Eschew Materials; 3rd-level Bloodline Spell; 5th-level Bloodline Spell; 9th-level Bloodline Power",
-		"replace_array": [
-			"Eschew Materials",
-			"3rd-level Bloodline Spell",
-			"5th-level Bloodline Spell",
-			"9th-level Bloodline Power"
-		],
-		"short_description": "The Razmiran priest is a magical charlatan, missionary servant of the Living God.",
 		"description": [
 			"## Razmiran Priest",
 			"",
@@ -238,13 +186,6 @@
 		"name": "Seeker",
 		"file": "archetypedisplay2d6a.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
-		"replaces": "Eschew Materials, 3rd-level Bloodline Power, 15th-level Bloodline Power",
-		"replace_array": [
-			"Eschew Materials",
-			"3rd-level Bloodline Power",
-			"15th-level Bloodline Power"
-		],
-		"short_description": "The seeker is obsessed with learning about their heritage and history, researching ancient texts and obscure ruins for clues.",
 		"description": [
 			"## Seeker",
 			"",
@@ -263,13 +204,6 @@
 		"name": "Sorcerer of Sleep",
 		"file": "archetypedisplay6d21.html",
 		"sources": [ "Black Markets" ],
-		"replaces": "Bloodline Arcana; Eschew Materials; 1st-level Bloodline Power",
-		"replace_array": [
-			"Bloodline Arcana",
-			"Eschew Materials",
-			"1st-level Bloodline Power"
-		],
-		"short_description": "Some sorcerers have trouble accessing their innate gifts and must find another way to unlock them. For a sorcerer of sleep, the mind-altering drug pesh is the key.",
 		"description": [
 			"## Sorcerer of Sleep",
 			"",
@@ -288,13 +222,6 @@
 		"name": "Stone Warder",
 		"file": "archetypedisplaydcc4.html",
 		"sources": [ "Arcane Anthology" ],
-		"replaces": "Eschew Materials; 3rd-level Bloodline Spell; 7th-level Bloodline Feat",
-		"replace_array": [
-			"Eschew Materials",
-			"3rd-level Bloodline Spell",
-			"7th-level Bloodline Feat"
-		],
-		"short_description": "Stone warders have an innate ability to create runes that allow them to ward areas with magic traps built from their spells. These sorcerers are most common among dwarves, but have been known to appear among other races who have strong ties to earth, rock, stone, mountains, and the Darklands.",
 		"description": [
 			"## Stone Warder",
 			"",
@@ -317,14 +244,6 @@
 		"name": "Tattooed Sorcerer",
 		"file": "archetypedisplay9207.html",
 		"sources": [ "Inner Sea Magic" ],
-		"replaces": "1st-level Bloodline Power; Eschew Materials; 7th-level Bloodline Feat; 9th-level Bloodline Power",
-		"replace_array": [
-			"1st-level Bloodline Power",
-			"Eschew Materials",
-			"7th-level Bloodline Feat",
-			"9th-level Bloodline Power"
-		],
-		"short_description": "The tattooed sorcerer has embraced the ancient traditions of Varisian spellcasting, and uses colorful and intricate tattoos to enhance her magical powers.",
 		"description": [
 			"## Tattooed Sorcerer",
 			"",
@@ -349,15 +268,6 @@
 		"name": "Umbral Scion",
 		"file": "archetypedisplay575a.html",
 		"sources": [ "Blood of Shadows" ],
-		"replaces": "Bloodline (Shadow Only); Spellcasting; Shadowstrike Bloodline Power; 7th and 13th-level Bloodline Feats",
-		"replace_array": [
-			"Bloodline",
-			"Spellcasting",
-			"Shadowstrike Bloodline Power",
-			"7th-level Bloodline Feat",
-			"13th-level Bloodline Feat"
-		],
-		"short_description": "Umbral scions are sorcerers who are able to expertly control their especially potent shadow heritage. The majority of umbral sorcerers hail from the Darklands.",
 		"description": [
 			"## Umbral Scion",
 			"",
@@ -390,15 +300,6 @@
 		"name": "Wishcrafter",
 		"file": "archetypedisplay3ddd.html",
 		"sources": [ "Advanced Race Guide" ],
-		"replaces": "Bloodline Arcana; Bloodline Bonus Spells; 7th, 13th, 19th-level Bloodline Feats",
-		"replace_array": [
-			"Bloodline Arcana",
-			"Bloodline Spells",
-			"7th-level Bloodline Feat",
-			"13th-level Bloodline Feat",
-			"19th-level Bloodline Feat"
-		],
-		"short_description": "(Ifrit Only) Wishcrafters are born with a talent for manipulating reality inherited from their efreeti ancestors.",
 		"description": [
 			"## Wishcrafter",
 			"",
