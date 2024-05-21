@@ -171,6 +171,7 @@
 		]
 	},
 	"auroch": { "copyof": "aurochs" },
+	"bison": { "copyof": "aurochs" },
 	"axe_beak": {
 		"name": "Axe Beak",
 		"file": "druidcompanions6014.html",

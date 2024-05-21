@@ -690,7 +690,7 @@
 			"**Source** [Animal Archive pg. 7](source/animal_archive)  ",
 			"Though named for the wild savages who fight alongside rabid dogs, mad dogs employ all manner of beasts as their battle brethren.",
 			"",
-			"**War Beast (Ex):** At 1st level, a mad dog gains the service of an [animal companion](class/animal_companion), using the barbarian's level as her effective druid level. This ability replaces the rage powers gained at 2nd, 6th, 10th, 14th, and 18th level.",
+			"**War Beast (Ex):** At 1st level, a mad dog gains the service of an [animal companion](class/ability/druid_companions), using the barbarian's level as her effective druid level. This ability replaces the rage powers gained at 2nd, 6th, 10th, 14th, and 18th level.",
 			"",
 			"**Pack Tactics (Ex):** At 2nd level, a mad dog and her war beast gain a +4 bonus on attack rolls while flanking the same opponent (instead of the normal +2 bonus). This ability replaces uncanny dodge.",
 			"",
@@ -795,7 +795,7 @@
 			"",
 			"**Hide from Constructs (Su):** At 14th level, a Numerian liberator can control her movement, breathing, body temperature, and other physiological signs to confuse the artificial visions of constructs. At will, the barbarian can make herself undetectable to constructs as if she were affected by a [hide from undead](spell/hide_from_undead) spell that instead hides the subject from constructs. Intelligent constructs receive a Will save (DC 10 + 1/2 the barbarian's level + the barbarian's Constitution modifier) to see through this effect. The barbarian must expend 1 round of rage for each round she uses this ability. This ability replaces indomitable will.",
 			"",
-			"**Rage Powers:** The following rage powers complement the Numerian liberator archetype: [deadly accuracy](class/ability/ragepower/deadly_accuracy), [energy absorption (fire)](class/ability/ragepower/energy_absorption), [energy resistance (fire)](class/ability/ragepower/energy_resistance), [greater energy resistance (fire)](class/ability/ragepower/greater_energy_resistance), [gearbreaker](class/ability/ragepower/gearbreaker), [guarded stance](class/ability/ragepower/guarded_stance), [lethal accuracy](class/ability/ragepower/lethal_accuracy), [low-light vision](class/ability/ragepower/lowlight_vision), [night vision](class/ability/ragepower/night_vision), [rolling dodge](class/ability/ragepower/rolling_dodge), [reflexive dodge](class/ability/ragepower/reflexive_dodge), [surprise accuracy](class/ability/ragepower/surprise_accuracy)."
+			"**Rage Powers:** The following rage powers complement the Numerian liberator archetype: [deadly accuracy](class/ability/ragepower/deadly_accuracy), [energy absorption (fire)](class/ability/ragepower/energy_absorption), [energy resistance (fire)](class/ability/ragepower/energy_resistance), [greater energy resistance (fire)](class/ability/ragepower/greater_energy_resistance), [gearbreaker](class/ability/ragepower/gearbreaker), [guarded stance](class/ability/ragepower/guarded_stance), [lethal accuracy](class/ability/ragepower/lethal_accuracy), [low-light vision](class/ability/ragepower/low-light_vision), [night vision](class/ability/ragepower/night_vision), [rolling dodge](class/ability/ragepower/rolling_dodge), [reflexive dodge](class/ability/ragepower/reflexive_dodge), [surprise accuracy](class/ability/ragepower/surprise_accuracy)."
 		],
 		"display": "archetype/barbarian"
 	},
@@ -1315,7 +1315,7 @@
 			"",
 			"**Rage Conversion (Ex):** At 5th level, a wild rager who fails a saving throw against any mind-affecting effect can attempt a new saving throw at the beginning of her next turn. If the save succeeds, that effect ends and she instead rages and becomes confused as noted above. This ability replaces improved uncanny dodge.",
 			"",
-			"**Rage Powers:** The following rage powers complement the wild rager archetype: [animal fury](class/ability/ragepower/animal_fury), [bloody blow](class/ability/ragepower/bloody_blow), [body bludgeon](class/ability/ragepower/body_bludgeon), [brawler](class/ability/ragepower/brawler), [crippling blow](class/ability/ragepower/crippling_blow), [greater brawler](class/ability/ragepower/greater_brawler), [intimidating glare](class/ability/ragepower/intimidating_glare), [mighty swing](class/ability/ragepower/mighty_swing), [no escape](class/ability/ragepower/no_escape), [powerful blow](class/ability/ragepower/powerful_blow), [quick reflexes](class/ability/ragepower/quick_reflexes)."
+			"**Rage Powers:** The following rage powers complement the wild rager archetype: [animal fury](class/ability/ragepower/animal_fury), [bleeding blow](class/ability/ragepower/bleeding_blow), [body bludgeon](class/ability/ragepower/body_bludgeon), [brawler](class/ability/ragepower/brawler), [crippling blow](class/ability/ragepower/crippling_blow), [greater brawler](class/ability/ragepower/greater_brawler), [intimidating glare](class/ability/ragepower/intimidating_glare), [mighty swing](class/ability/ragepower/mighty_swing), [no escape](class/ability/ragepower/no_escape), [powerful blow](class/ability/ragepower/powerful_blow), [quick reflexes](class/ability/ragepower/quick_reflexes)."
 		],
 		"display": "archetype/barbarian"
 	},

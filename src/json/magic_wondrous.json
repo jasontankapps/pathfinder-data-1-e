@@ -11140,7 +11140,7 @@
 		],
 		"display": "magic/wondrous"
 	},
-	"circlet_of_spell-eating_type_i": {
+	"circlet_of_spell-eating_type_1": {
 		"name": "Circlet of Spell-Eating (Type I)",
 		"searchable_name": "Circlet of Spell Eating Type I",
 		"file": "magicwondrousdisplay900a.html",
@@ -11165,8 +11165,8 @@
 		],
 		"display": "magic/wondrous"
 	},
-	"circlet_of_spell_eating_type_i": {
-		"copyof": "circlet_of_spell-eating_type_i"
+	"circlet_of_spell_eating_type_1": {
+		"copyof": "circlet_of_spell-eating_type_1"
 	},
 	"bridle_of_tricks_4_tricks": {
 		"name": "Bridle of Tricks (4 tricks)",
@@ -12249,17 +12249,17 @@
 		],
 		"display": "magic/wondrous"
 	},
-	"circlet_of_spell-eating_type_ii": {
+	"circlet_of_spell-eating_type_2": {
 		"name": "Circlet of Spell-Eating (Type II)",
 		"searchable_name": "Circlet of Spell Eating Type II",
 		"file": "magicwondrousdisplay56b0.html",
 		"cost": 6000,
 		"slot": "head",
-		"copyof": "circlet_of_spell-eating_type_i",
+		"copyof": "circlet_of_spell-eating_type_1",
 		"display": "magic/wondrous"
 	},
-	"circlet_of_spell_eating_type_ii": {
-		"copyof": "circlet_of_spell-eating_type_ii"
+	"circlet_of_spell_eating_type_2": {
+		"copyof": "circlet_of_spell-eating_type_2"
 	},
 	"beautiful_war_paint": {
 		"name": "Beautiful War Paint",
@@ -13131,17 +13131,17 @@
 		],
 		"display": "magic/wondrous"
 	},
-	"circlet_of_spell-eating_type_iii": {
+	"circlet_of_spell-eating_type_3": {
 		"name": "Circlet of Spell-Eating (Type III)",
 		"searchable_name": "Circlet of Spell Eating Type III",
 		"file": "magicwondrousdisplay6f82.html",
 		"cost": 13500,
 		"slot": "head",
-		"copyof": "circlet_of_spell-eating_type_i",
+		"copyof": "circlet_of_spell-eating_type_1",
 		"display": "magic/wondrous"
 	},
-	"circlet_of_spell_eating_type_iii": {
-		"copyof": "circlet_of_spell-eating_type_iii"
+	"circlet_of_spell_eating_type_3": {
+		"copyof": "circlet_of_spell-eating_type_3"
 	},
 	"bitter_widow's_veil": {
 		"name": "Bitter Widow's Veil",
@@ -13841,17 +13841,17 @@
 	"superior_commander's_helm": {
 		"copyof": "commander's_helm_dwarf_superior"
 	},
-	"circlet_of_spell-eating_type_iv": {
+	"circlet_of_spell-eating_type_4": {
 		"name": "Circlet of Spell-Eating (Type IV)",
 		"searchable_name": "Circlet of Spell Eating Type IV",
 		"file": "magicwondrousdisplay89b9.html",
 		"cost": 24000,
 		"slot": "head",
-		"copyof": "circlet_of_spell-eating_type_i",
+		"copyof": "circlet_of_spell-eating_type_1",
 		"display": "magic/wondrous"
 	},
-	"circlet_of_spell_eating_type_iv": {
-		"copyof": "circlet_of_spell-eating_type_iv"
+	"circlet_of_spell_eating_type_4": {
+		"copyof": "circlet_of_spell-eating_type_4"
 	},
 	"crown_of_conquest": {
 		"name": "Crown of Conquest",
@@ -15576,7 +15576,7 @@
 			"**Aura** moderate transmutation; **CL** 10th  ",
 			"**Slot** headband; **Price** 8,000 gp; **Weight** 1 lb.",
 			"",
-			"This strange metal [headband of vast intellect +2](unknown/headband_of_vast_intellect_+2) is crafted in the shape of intertwined tentacles and adorned with runes in the Aboleth language. When a creature dons the headpiece, the tentacles seem almost alive, changing their size and shape to fit the contours of the wearer's head.",
+			"This strange metal [headband of vast intelligence +2](magic/wondrous/headband_of_vast_intelligence_+2) is crafted in the shape of intertwined tentacles and adorned with runes in the Aboleth language. When a creature dons the headpiece, the tentacles seem almost alive, changing their size and shape to fit the contours of the wearer's head.",
 			"",
 			"The headband has two special indentations for [ioun stones](magic/wondrous/ioun_stone) similar to those found in a [wayfinder](magic/wondrous/wayfinder). When an ioun stone is inserted into one of the slots, the tentacles animate for a moment, adjusting themselves around the slot to accommodate the shape of the ioun stone. The wearer benefits from the ioun stone's effect as though the stone were orbiting her head.",
 			"",
@@ -17015,7 +17015,7 @@
 		],
 		"display": "magic/wondrous"
 	},
-	"necklace_of_fireballs_type_i": {
+	"necklace_of_fireballs_type_1": {
 		"name": "Necklace of Fireballs (Type I)",
 		"file": "magicwondrousdisplay6da6.html",
 		"sources": [
@@ -17402,12 +17402,12 @@
 		],
 		"display": "magic/wondrous"
 	},
-	"necklace_of_fireballs_type_ii": {
+	"necklace_of_fireballs_type_2": {
 		"name": "Necklace of Fireballs (Type II)",
 		"file": "magicwondrousdisplay4101.html",
 		"cost": 2700,
 		"slot": "neck",
-		"copyof": "necklace_of_fireballs_type_i",
+		"copyof": "necklace_of_fireballs_type_1",
 		"display": "magic/wondrous"
 	},
 	"hero's_release_pendant": {
@@ -18129,12 +18129,12 @@
 		],
 		"display": "magic/wondrous"
 	},
-	"necklace_of_fireballs_type_iii": {
+	"necklace_of_fireballs_type_3": {
 		"name": "Necklace of Fireballs (Type III)",
 		"file": "magicwondrousdisplayd32f.html",
 		"cost": 4350,
 		"slot": "neck",
-		"copyof": "necklace_of_fireballs_type_i",
+		"copyof": "necklace_of_fireballs_type_1",
 		"display": "magic/wondrous"
 	},
 	"talisman_greater_akoben": {
@@ -18504,20 +18504,20 @@
 	"talisman_of_soul_eating": {
 		"copyof": "talisman_of_soul-eating"
 	},
-	"necklace_of_fireballs_type_iv": {
+	"necklace_of_fireballs_type_4": {
 		"name": "Necklace of Fireballs (Type IV)",
 		"file": "magicwondrousdisplaye0af.html",
 		"cost": 5400,
 		"slot": "neck",
-		"copyof": "necklace_of_fireballs_type_i",
+		"copyof": "necklace_of_fireballs_type_1",
 		"display": "magic/wondrous"
 	},
-	"necklace_of_fireballs_type_v": {
+	"necklace_of_fireballs_type_5": {
 		"name": "Necklace of Fireballs (Type V)",
 		"file": "magicwondrousdisplay56f1.html",
 		"cost": 5850,
 		"slot": "neck",
-		"copyof": "necklace_of_fireballs_type_i",
+		"copyof": "necklace_of_fireballs_type_1",
 		"display": "magic/wondrous"
 	},
 	"amulet_of_bullet_protection_+2": {
@@ -19393,20 +19393,20 @@
 		"copyof": "amulet_of_the_spirits_heavens",
 		"display": "magic/wondrous"
 	},
-	"necklace_of_fireballs_type_vi": {
+	"necklace_of_fireballs_type_6": {
 		"name": "Necklace of Fireballs (Type VI)",
 		"file": "magicwondrousdisplay9e61.html",
 		"cost": 8100,
 		"slot": "neck",
-		"copyof": "necklace_of_fireballs_type_i",
+		"copyof": "necklace_of_fireballs_type_1",
 		"display": "magic/wondrous"
 	},
-	"necklace_of_fireballs_type_vii": {
+	"necklace_of_fireballs_type_7": {
 		"name": "Necklace of Fireballs (Type VII)",
 		"file": "magicwondrousdisplayb052.html",
 		"cost": 8700,
 		"slot": "neck",
-		"copyof": "necklace_of_fireballs_type_i",
+		"copyof": "necklace_of_fireballs_type_1",
 		"display": "magic/wondrous"
 	},
 	"amulet_of_hidden_light": {
@@ -29796,7 +29796,7 @@
 		],
 		"display": "magic/wondrous"
 	},
-	"satchel_of_plentiful_feed_type_i": {
+	"satchel_of_plentiful_feed_type_1": {
 		"name": "Satchel of Plentiful Feed (Type I)",
 		"file": "magicwondrousdisplayffa6.html",
 		"sources": [ "Villain Codex" ],
@@ -30933,7 +30933,7 @@
 		],
 		"display": "magic/wondrous"
 	},
-	"bag_of_holding_type_i": {
+	"bag_of_holding_type_1": {
 		"name": "Bag of Holding (Type I)",
 		"file": "magicwondrousdisplay8887.html",
 		"sources": [
@@ -33678,13 +33678,13 @@
 		],
 		"display": "magic/wondrous"
 	},
-	"satchel_of_plentiful_feed_type_ii": {
+	"satchel_of_plentiful_feed_type_2": {
 		"name": "Satchel of Plentiful Feed (Type II)",
 		"file": "magicwondrousdisplaye250.html",
 		"cost": 4000,
 		"slot": "none",
 		"weight": 20,
-		"copyof": "satchel_of_plentiful_feed_type_i",
+		"copyof": "satchel_of_plentiful_feed_type_1",
 		"display": "magic/wondrous"
 	},
 	"golem_manual_wax": {
@@ -35135,7 +35135,7 @@
 		],
 		"display": "magic/wondrous"
 	},
-	"bag_of_concealment_type_i": {
+	"bag_of_concealment_type_1": {
 		"name": "Bag of Concealment (Type I)",
 		"file": "magicwondrousdisplay7589.html",
 		"sources": [ "Classic Treasures Revisited" ],
@@ -35159,13 +35159,13 @@
 		],
 		"display": "magic/wondrous"
 	},
-	"bag_of_holding_type_ii": {
+	"bag_of_holding_type_2": {
 		"name": "Bag of Holding (Type II)",
 		"file": "magicwondrousdisplaye521.html",
 		"cost": 5000,
 		"slot": "none",
 		"weight": 25,
-		"copyof": "bag_of_holding_type_i",
+		"copyof": "bag_of_holding_type_1",
 		"display": "magic/wondrous"
 	},
 	"vial_of_reckless_courage": {
@@ -36406,7 +36406,7 @@
 	"greater_time_bomb": {
 		"copyof": "time_bomb,_greater"
 	},
-	"ioun_memory_node_type_i": {
+	"ioun_memory_node_type_1": {
 		"name": "Ioun Memory Node (Type I)",
 		"file": "magicwondrousdisplayf951.html",
 		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
@@ -37440,13 +37440,13 @@
 		],
 		"display": "magic/wondrous"
 	},
-	"bag_of_holding_type_iii": {
+	"bag_of_holding_type_3": {
 		"name": "Bag of Holding (Type III)",
 		"file": "magicwondrousdisplay093a.html",
 		"cost": 7400,
 		"slot": "none",
 		"weight": 35,
-		"copyof": "bag_of_holding_type_i",
+		"copyof": "bag_of_holding_type_1",
 		"display": "magic/wondrous"
 	},
 	"balm_of_impish_grace": {
@@ -37706,13 +37706,13 @@
 	"one_way_window": {
 		"copyof": "one-way_window"
 	},
-	"satchel_of_plentiful_feed_type_iii": {
+	"satchel_of_plentiful_feed_type_3": {
 		"name": "Satchel of Plentiful Feed (Type III)",
 		"file": "magicwondrousdisplay66cd.html",
 		"cost": 7500,
 		"slot": "none",
 		"weight": 25,
-		"copyof": "satchel_of_plentiful_feed_type_i",
+		"copyof": "satchel_of_plentiful_feed_type_1",
 		"display": "magic/wondrous"
 	},
 	"wave_harp": {
@@ -40084,22 +40084,22 @@
 		],
 		"display": "magic/wondrous"
 	},
-	"bag_of_concealment_type_ii": {
+	"bag_of_concealment_type_2": {
 		"name": "Bag of Concealment (Type II)",
 		"file": "magicwondrousdisplay01a5.html",
 		"cost": 10000,
 		"slot": "none",
 		"weight": 25,
-		"copyof": "bag_of_concealment_type_i",
+		"copyof": "bag_of_concealment_type_1",
 		"display": "magic/wondrous"
 	},
-	"bag_of_holding_type_iv": {
+	"bag_of_holding_type_4": {
 		"name": "Bag of Holding (Type IV)",
 		"file": "magicwondrousdisplayc327.html",
 		"cost": 10000,
 		"slot": "none",
 		"weight": 60,
-		"copyof": "bag_of_holding_type_i",
+		"copyof": "bag_of_holding_type_1",
 		"display": "magic/wondrous"
 	},
 	"conquering_brand_lesser_geas": {
@@ -41010,7 +41010,7 @@
 	"portal_finding_gloves": {
 		"copyof": "portal-finding_gloves"
 	},
-	"bag_of_holding_giant_type_v": {
+	"bag_of_holding_giant_type_5": {
 		"name": "Bag of Holding (Giant) (Type V)",
 		"searchable_name": "Giant Bag of Holding Type V",
 		"file": "magicwondrousdisplay0759.html",
@@ -41041,8 +41041,8 @@
 		],
 		"display": "magic/wondrous"
 	},
-	"giant_bag_of_holding_type_v": {
-		"copyof": "bag_of_holding_giant_type_v"
+	"giant_bag_of_holding_type_5": {
+		"copyof": "bag_of_holding_giant_type_5"
 	},
 	"waters_of_transfiguration": {
 		"name": "Waters of Transfiguration",
@@ -41390,12 +41390,12 @@
 		],
 		"display": "magic/wondrous"
 	},
-	"ioun_memory_node_type_ii": {
+	"ioun_memory_node_type_2": {
 		"name": "Ioun Memory Node (Type II)",
 		"file": "magicwondrousdisplaydf65.html",
 		"cost": 14000,
 		"slot": "none",
-		"copyof": "ioun_memory_node_type_i",
+		"copyof": "ioun_memory_node_type_1",
 		"display": "magic/wondrous"
 	},
 	"void_pennant": {
@@ -41480,13 +41480,13 @@
 		"copyof": "stone_horse_courser",
 		"display": "magic/wondrous"
 	},
-	"bag_of_concealment_type_iii": {
+	"bag_of_concealment_type_3": {
 		"name": "Bag of Concealment (Type III)",
 		"file": "magicwondrousdisplayb9f1.html",
 		"cost": 14800,
 		"slot": "none",
 		"weight": 35,
-		"copyof": "bag_of_concealment_type_i",
+		"copyof": "bag_of_concealment_type_1",
 		"display": "magic/wondrous"
 	},
 	"floating_sail_15-ft.-by-30-ft.": {
@@ -41869,27 +41869,27 @@
 		],
 		"display": "magic/wondrous"
 	},
-	"satchel_of_plentiful_feed_type_iv": {
+	"satchel_of_plentiful_feed_type_4": {
 		"name": "Satchel of Plentiful Feed (Type IV)",
 		"file": "magicwondrousdisplay5dc2-2.html",
 		"cost": 15000,
 		"slot": "none",
 		"weight": 30,
-		"copyof": "satchel_of_plentiful_feed_type_i",
+		"copyof": "satchel_of_plentiful_feed_type_1",
 		"display": "magic/wondrous"
 	},
-	"bag_of_holding_giant_type_vi": {
+	"bag_of_holding_giant_type_6": {
 		"name": "Bag of Holding (Giant) (Type VI)",
 		"searchable_name": "Giant Bag of Holding Type VI",
 		"file": "magicwondrousdisplay7cb1.html",
 		"cost": 15000,
 		"slot": "none",
 		"weight": 150,
-		"copyof": "bag_of_holding_giant_type_v",
+		"copyof": "bag_of_holding_giant_type_5",
 		"display": "magic/wondrous"
 	},
-	"giant_bag_of_holding_type_vi": {
-		"copyof": "bag_of_holding_giant_type_vi"
+	"giant_bag_of_holding_type_6": {
+		"copyof": "bag_of_holding_giant_type_6"
 	},
 	"wayfinder_of_zephyrs": {
 		"name": "Wayfinder of Zephyrs",
@@ -43761,13 +43761,13 @@
 		],
 		"display": "magic/wondrous"
 	},
-	"bag_of_concealment_type_iv": {
+	"bag_of_concealment_type_4": {
 		"name": "Bag of Concealment (Type IV)",
 		"file": "magicwondrousdisplay5f14.html",
 		"cost": 20000,
 		"slot": "none",
 		"weight": 60,
-		"copyof": "bag_of_concealment_type_i",
+		"copyof": "bag_of_concealment_type_1",
 		"display": "magic/wondrous"
 	},
 	"music_box_trap": {
@@ -44300,12 +44300,12 @@
 	"eye_stealing_locket": {
 		"copyof": "eye-stealing_locket"
 	},
-	"ioun_memory_node_type_iii": {
+	"ioun_memory_node_type_3": {
 		"name": "Ioun Memory Node (Type III)",
 		"file": "magicwondrousdisplay88ec.html",
 		"cost": 24000,
 		"slot": "none",
-		"copyof": "ioun_memory_node_type_i",
+		"copyof": "ioun_memory_node_type_1",
 		"display": "magic/wondrous"
 	},
 	"spectral_searchlight": {
@@ -46293,12 +46293,12 @@
 		],
 		"display": "magic/wondrous"
 	},
-	"ioun_memory_node_type_iv": {
+	"ioun_memory_node_type_4": {
 		"name": "Ioun Memory Node (Type IV)",
 		"file": "magicwondrousdisplay7228.html",
 		"cost": 36000,
 		"slot": "none",
-		"copyof": "ioun_memory_node_type_i",
+		"copyof": "ioun_memory_node_type_1",
 		"display": "magic/wondrous"
 	},
 	"atavistic_splinter": {

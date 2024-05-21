@@ -81,7 +81,7 @@
 			"",
 			"**First Triumph:** Dignity's Barb is a +1 darkwood light crossbow and reduces miss chances from concealment by 10%. In addition, once per day when the weapon threatens a critical hit, the wielder can roll twice to confirm the critical and take the better result.",
 			"",
-			"**Second Triumph:** Dignity's Barb is a +1 [seeking](magic/weapon/seeking) darkwood light crossbow.",
+			"**Second Triumph:** Dignity's Barb is a +1 [seeking](magic/enhancement/seeking) darkwood light crossbow.",
 			"",
 			"**Third Triumph:** Dignity's Barb is a +2 seeking darkwood light crossbow. The wielder can use its ability to roll twice to confirm a critical hit twice per day (though he can use it only once on a given critical threat). In addition, the wielder can attempt a lucky shot to foil a ranged attack. Once per day when a ranged weapon attack targets a creature within 30 feet of the wielder, the wielder can shoot Dignity's Barb at the projectile as an immediate action. He rolls a ranged attack, and if the result exceeds the attacker's roll, that attack is negated. This ability can be used only if Dignity's Barb is loaded or if the wielder can use Rapid Reload or a similar ability.",
 			"",
@@ -172,7 +172,7 @@
 			"",
 			"**Task** To be worthy of this relic, you must free at least a dozen enslaved or unjustly imprisoned innocents. For the purpose of this task, an innocent is any creature who was imprisoned without due process or whom you have proven innocent of any crime. You are not worthy of this relic if you complete this task by orchestrating events that lead to this situation, as determined by the GM.",
 			"",
-			"**Benefit** The weapon gains the [holy](magic/weapon/holy) weapon special ability. Three times per day, the wielder can reshape Jalnesin's Broken Bonds into a piece of ammunition, functioning as a [handy grapnel](spell/handy_grapnel) spell (CL 5th). While embedded into an object in this manner, Jalnesin's Broken Bonds extends into a 75-foot length of chain that can extend and retract as described for handy grapnel. Jalnesin's Broken Bonds transforms back into a weapon if it takes more than 25 hit points of damage or is removed from the embedded surface by its wielder as a standard action."
+			"**Benefit** The weapon gains the [holy](magic/enhancement/holy) weapon special ability. Three times per day, the wielder can reshape Jalnesin's Broken Bonds into a piece of ammunition, functioning as a [handy grapnel](spell/handy_grapnel) spell (CL 5th). While embedded into an object in this manner, Jalnesin's Broken Bonds extends into a 75-foot length of chain that can extend and retract as described for handy grapnel. Jalnesin's Broken Bonds transforms back into a weapon if it takes more than 25 hit points of damage or is removed from the embedded surface by its wielder as a standard action."
 		],
 		"display": "magic/relics"
 	},
@@ -193,7 +193,7 @@
 			"",
 			"When the brave knight-commander Koriana of Zimar fell within the ranks of the Fifth Army of Exploration, her remains were returned home-along with her sundered steel shield. Her brother Tadric, distraught, focused only on creating a fitting legacy for Koriana's daughter. Devoting himself to the study of metalcraft and magical crafting, he eventually turned a shard of his sister's shield into a protective longsword. Though records indicate that Tadric's niece took up the sword and joined the military, her full tale and the blade's fate were lost to history. Rumors that she went into clandestine service for the royal family still circulate.",
 			"",
-			"Koriana's Blade is a +2 [defending](magic/weapon/defending) longsword. It's strangely curved, betraying its origins, and has five gemstones in its pommel. Four are broken, but the white gem in the center is intact. Once per day, the wielder can trigger this gemstone as an immediate action to absorb and negate all darts targeting her from a [magic missile](spell/magic_missile) spell.",
+			"Koriana's Blade is a +2 [defending](magic/enhancement/defending) longsword. It's strangely curved, betraying its origins, and has five gemstones in its pommel. Four are broken, but the white gem in the center is intact. Once per day, the wielder can trigger this gemstone as an immediate action to absorb and negate all darts targeting her from a [magic missile](spell/magic_missile) spell.",
 			"",
 			"When the wielder transfers at least 1 point of the weapon's enhancement bonus to her AC using the defending special ability, she also chooses one creature other than herself within 10 feet to gain a +1 bonus to AC until the wielder's next turn. This bonus is always +1, regardless of how much of the weapon's bonus the wielder transfers to her AC.",
 			"",
@@ -224,7 +224,7 @@
 			"",
 			"The haft of this stout, ornate metal lance has an intricate pommel resembling a starburst. Affixed to its handle is a decorative counterweight engraved with the image of a Taldan knight kneeling in prayer.",
 			"",
-			"This +2 [glorious](magic/weapon/glorious) lance bears intricate decoration identifying it as the weapon of Taldan royalty-specifically Grand Prince Cyricas, the Leaping Lion. A wielder who is proficient in both lances and longspears can wield the Lance of the Leaping Lion as either weapon; shifting between these uses is a swift action. In addition, whenever the wielder attempts an Acrobatics check to jump, she is always treated as having a running start.",
+			"This +2 [glorious](magic/enhancement/glorious) lance bears intricate decoration identifying it as the weapon of Taldan royalty-specifically Grand Prince Cyricas, the Leaping Lion. A wielder who is proficient in both lances and longspears can wield the Lance of the Leaping Lion as either weapon; shifting between these uses is a swift action. In addition, whenever the wielder attempts an Acrobatics check to jump, she is always treated as having a running start.",
 			"",
 			"### Worthiness",
 			"",

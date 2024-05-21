@@ -280,7 +280,7 @@
 		],
 		"display": "magic/ring"
 	},
-	"ring_of_spell_knowledge_type_i": {
+	"ring_of_spell_knowledge_type_1": {
 		"name": "Ring of Spell Knowledge (type I)",
 		"file": "magicringsdisplayd764.html",
 		"sources": [ "Ultimate Equipment" ],
@@ -1240,13 +1240,13 @@
 		],
 		"display": "magic/ring"
 	},
-	"ring_of_spell_knowledge_type_ii": {
+	"ring_of_spell_knowledge_type_2": {
 		"name": "Ring of Spell Knowledge (type II)",
 		"file": "magicringsdisplay8e73.html",
 		"sources": [ "Ultimate Equipment" ],
 		"cost": 6000,
 		"slot": "ring",
-		"copyof": "ring_of_spell_knowledge_type_i",
+		"copyof": "ring_of_spell_knowledge_type_1",
 		"display": "magic/ring"
 	},
 	"ring_of_unquenchable_passions": {
@@ -2726,13 +2726,13 @@
 	"ring_of_resistance_3": {
 		"copyof": "ring_of_resistance_+3"
 	},
-	"ring_of_spell_knowledge_type_iii": {
+	"ring_of_spell_knowledge_type_3": {
 		"name": "Ring of Spell Knowledge (type III)",
 		"file": "magicringsdisplay27cf.html",
 		"sources": [ "Ultimate Equipment" ],
 		"cost": 135000,
 		"slot": "ring",
-		"copyof": "ring_of_spell_knowledge_type_i",
+		"copyof": "ring_of_spell_knowledge_type_1",
 		"display": "magic/ring"
 	},
 	"ring_of_rulership": {
@@ -3426,7 +3426,7 @@
 		],
 		"display": "magic/ring"
 	},
-	"ring_of_wizardry_type_i": {
+	"ring_of_wizardry_type_1": {
 		"name": "Ring of Wizardry (type I)",
 		"file": "magicringsdisplayc7e7.html",
 		"sources": [
@@ -3451,7 +3451,7 @@
 		],
 		"display": "magic/ring"
 	},
-	"ring_of_mysticism_type_i": {
+	"ring_of_mysticism_type_1": {
 		"name": "Ring of Mysticism (Type I)",
 		"file": "magicringsdisplay19e8.html",
 		"sources": [ "Psychic Anthology" ],
@@ -3498,13 +3498,13 @@
 		"copyof": "ring_of_revelation_lesser",
 		"display": "magic/ring"
 	},
-	"ring_of_spell_knowledge_type_iv": {
+	"ring_of_spell_knowledge_type_4": {
 		"name": "Ring of Spell Knowledge (type IV)",
 		"file": "magicringsdisplay381e.html",
 		"sources": [ "Ultimate Equipment" ],
 		"cost": 24000,
 		"slot": "ring",
-		"copyof": "ring_of_spell_knowledge_type_i",
+		"copyof": "ring_of_spell_knowledge_type_1",
 		"display": "magic/ring"
 	},
 	"ring_of_delayed_doom_5_stones": {
@@ -3989,16 +3989,16 @@
 		],
 		"display": "magic/ring"
 	},
-	"ring_of_mysticism_type_ii": {
+	"ring_of_mysticism_type_2": {
 		"name": "Ring of Mysticism (Type II)",
 		"file": "magicringsdisplay5a10.html",
 		"sources": [ "Psychic Anthology" ],
 		"cost": 40000,
 		"slot": "ring",
-		"copyof": "ring_of_mysticism_type_i",
+		"copyof": "ring_of_mysticism_type_1",
 		"display": "magic/ring"
 	},
-	"ring_of_wizardry_type_ii": {
+	"ring_of_wizardry_type_2": {
 		"name": "Ring of Wizardry (type II)",
 		"file": "magicringsdisplay9aef.html",
 		"sources": [
@@ -4007,7 +4007,7 @@
 		],
 		"cost": 40000,
 		"slot": "ring",
-		"copyof": "ring_of_wizardry_type_i",
+		"copyof": "ring_of_wizardry_type_1",
 		"display": "magic/ring"
 	},
 	"ring_of_inner_fortitude_major": {
@@ -4385,7 +4385,7 @@
 		],
 		"display": "magic/ring"
 	},
-	"ring_of_wizardry_type_iii": {
+	"ring_of_wizardry_type_3": {
 		"name": "Ring of Wizardry (type III)",
 		"file": "magicringsdisplay7e34.html",
 		"sources": [
@@ -4394,16 +4394,16 @@
 		],
 		"cost": 70000,
 		"slot": "ring",
-		"copyof": "ring_of_wizardry_type_i",
+		"copyof": "ring_of_wizardry_type_1",
 		"display": "magic/ring"
 	},
-	"ring_of_mysticism_type_iii": {
+	"ring_of_mysticism_type_3": {
 		"name": "Ring of Mysticism (Type III)",
 		"file": "magicringsdisplay4975.html",
 		"sources": [ "Psychic Anthology" ],
 		"cost": 70000,
 		"slot": "ring",
-		"copyof": "ring_of_mysticism_type_i",
+		"copyof": "ring_of_mysticism_type_1",
 		"display": "magic/ring"
 	},
 	"ring_of_telekinesis": {
@@ -4481,16 +4481,16 @@
 		],
 		"display": "magic/ring"
 	},
-	"ring_of_mysticism_type_iv": {
+	"ring_of_mysticism_type_4": {
 		"name": "Ring of Mysticism (Type IV)",
 		"file": "magicringsdisplayf062.html",
 		"sources": [ "Psychic Anthology" ],
 		"cost": 100000,
 		"slot": "ring",
-		"copyof": "ring_of_mysticism_type_i",
+		"copyof": "ring_of_mysticism_type_1",
 		"display": "magic/ring"
 	},
-	"ring_of_wizardry_type_iv": {
+	"ring_of_wizardry_type_4": {
 		"name": "Ring of Wizardry (type IV)",
 		"file": "magicringsdisplay4839.html",
 		"sources": [
@@ -4499,7 +4499,7 @@
 		],
 		"cost": 100000,
 		"slot": "ring",
-		"copyof": "ring_of_wizardry_type_i",
+		"copyof": "ring_of_wizardry_type_1",
 		"display": "magic/ring"
 	},
 	"ring_of_the_shadow_victim": {

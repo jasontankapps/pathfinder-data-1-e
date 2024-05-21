@@ -1640,7 +1640,9 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Magic Arms and Armor, etherealness; **Price** +3 bonus"
+			"**Requirements** Craft Magic Arms and Armor, etherealness; **Price** +3 bonus",
+			"",
+			"See also: [ghost touch weapon enhancement](magic/enhancement/ghost_touch_weapon)"
 		],
 		"display": "magic/enhancements"
 	},
@@ -3914,7 +3916,9 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Magic Arms and Armor, plane shift; **Price** -"
+			"**Requirements** Craft Magic Arms and Armor, plane shift; **Price** -",
+			"",
+			"See also: [ghost touch armor enhancement](magic/enhancement/ghost_touch_armor)"
 		],
 		"display": "magic/enhancements"
 	},

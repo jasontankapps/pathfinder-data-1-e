@@ -245,7 +245,7 @@
 			"",
 			"**Spirit Ability:** A shaman who chooses the Frost spirit as her spirit or wandering spirit gains the following ability.",
 			"",
-			"*Ice Splinter (Su):* As a standard action, the shaman can shoot razor-sharp icicles at an enemy within 30 feet as a ranged touch attack. This barrage deals 1d6 points of piercing damage + 1 point for every 2 shaman levels she has. The shaman can use this ability a number of times per day equal to 3 + her Charisma modifier. At 11th level, any weapon she wields is treated as a [frost](magic/weapon/frost) weapon.",
+			"*Ice Splinter (Su):* As a standard action, the shaman can shoot razor-sharp icicles at an enemy within 30 feet as a ranged touch attack. This barrage deals 1d6 points of piercing damage + 1 point for every 2 shaman levels she has. The shaman can use this ability a number of times per day equal to 3 + her Charisma modifier. At 11th level, any weapon she wields is treated as a [frost](magic/enhancement/frost) weapon.",
 			"",
 			"**Greater Spirit Ability:** A shaman who chooses the Frost spirit as her spirit or wandering spirit gains the following ability upon having access to the greater version of that spirit.",
 			"",
@@ -419,7 +419,7 @@
 			"",
 			"**True Spirit Ability:** A shaman who chooses the Mammoth spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.",
 			"",
-			"*Megafauna Companion (Su):* The shaman's spirit animal transforms into a megafauna [animal companion](class/ability/druidcompanions), using the shaman's shaman level as her effective druid level. The shaman must choose an arsinoitherium, baluchitherium, brontotherium, chalicotherium, deinotherium, elasmotherium, glyptodon, mastodon, megaloceros, megatherium, uintatherium, or another mammalian megafauna (including most dire animals) that has animal companion statistics. It retains its Intelligence score and the special abilities it gains from the spirit animal class feature, but it also has the statistics and abilities of an animal companion. If the animal companion is dismissed, lost, or dies, it can be replaced in the same way as a normal spirit animal.",
+			"*Megafauna Companion (Su):* The shaman's spirit animal transforms into a megafauna [animal companion](class/ability/druid_companions), using the shaman's shaman level as her effective druid level. The shaman must choose an arsinoitherium, baluchitherium, brontotherium, chalicotherium, deinotherium, elasmotherium, glyptodon, mastodon, megaloceros, megatherium, uintatherium, or another mammalian megafauna (including most dire animals) that has animal companion statistics. It retains its Intelligence score and the special abilities it gains from the spirit animal class feature, but it also has the statistics and abilities of an animal companion. If the animal companion is dismissed, lost, or dies, it can be replaced in the same way as a normal spirit animal.",
 			"",
 			"**Manifestation:** At 20th level, the shaman can transform into any animal listed under the megafauna or elephant heading. This ability works as per [beast shape IV](feat/beast_shape_4), but the shaman can activate and dismiss the ability as often as she likes and the duration is permanent."
 		]
@@ -460,7 +460,7 @@
 			"",
 			"**True Spirit Ability:** A shaman who chooses the Nature spirit as her spirit or wandering spirit gains the following ability upon having access to the true version of that spirit.",
 			"",
-			"*Companion Animal (Su):* The shaman's spirit animal takes the form of an [animal companion](class/ability/druidcompanion) of her choice, using her shaman level as her effective druid level. The animal retains all the special abilities and the Intelligence score of the spirit animal, but also has the statistics and abilities of an animal companion. If the animal is dismissed, is lost, or dies, it can be replaced in the same way as a normal spirit animal.",
+			"*Companion Animal (Su):* The shaman's spirit animal takes the form of an [animal companion](sclass/ability/druidcompanions) of her choice, using her shaman level as her effective druid level. The animal retains all the special abilities and the Intelligence score of the spirit animal, but also has the statistics and abilities of an animal companion. If the animal is dismissed, is lost, or dies, it can be replaced in the same way as a normal spirit animal.",
 			"",
 			"**Manifestation:** Upon reaching 20th level, the shaman becomes a spirit of nature. Once per day, she can surround herself with an organic cocoon of silk as a full-round action. While enclosed in the cocoon, she's considered helpless. Eight hours later, she emerges, having changed her type to plant, animal, or humanoid, and having gained superficial physical characteristics of the chosen type as appropriate. She must choose a type that is different from her current type. This effect change doesn't alter her Hit Dice, hit points, saving throws, skill ranks, class skills, or proficiencies. The effect is permanent, until the shaman chooses to transform again. Each time the transformation is made, the shaman is cleansed of all poisons or diseases, restored to full hit points, and healed of all ability damage."
 		]
