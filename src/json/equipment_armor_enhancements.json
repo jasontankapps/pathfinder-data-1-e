@@ -1,11 +1,35 @@
 {
 	"_prefix": "equipment-armor_enhance",
+	"_description": [
+		"| Name | Cost Adjustment | Weight Adjustment |",
+		"| :---: | --- | --- |",
+		"| [sanctified shield](equipment/armorenhance/sanctified_shield) | $$100 | &&0 |",
+		"| [shield boss (breakaway)](equipment/armorenhance/shield_boss_breakaway) | $$120 | &&10 |",
+		"| [shield boss (hooked)](equipment/armorenhance/shield_boss_hooked) | $$80 | &&10 |",
+		"| [shield boss (illuminating)](equipment/armorenhance/shield_boss_illuminating) | $$35 | &&10 |",
+		"| [shield boss (reinforcing boss)](equipment/armorenhance/shield_boss_reinforcing_boss) | $$30 | &&10 |",
+		"| [shield boss (breakaway, masterwork)](equipment/armorenhance/shield_boss_breakaway_masterwork) | $$170 | &&10 |",
+		"| [shield boss (hooked, masterwork)](equipment/armorenhance/shield_boss_hooked_masterwork) | $$130 | &&10 |",
+		"| [shield boss (illuminating, masterwork)](equipment/armorenhance/shield_boss_illuminating_masterwork) | $$85 | &&10 |",
+		"| [shield boss (reinforcing boss, masterwork)](equipment/armorenhance/shield_boss_reinforcing_boss_masterwork) | $$80 | &&10 |",
+		"| [armor vents](equipment/armorenhance/armor_vents) | $$100 | &&-5 |",
+		"| [armor spikes](equipment/armorenhance/armor_spikes) | $$50 | &&10 |",
+		"| [locked gauntlet](equipment/armorenhance/locked_gauntlet) | $$8 | &&5 |",
+		"| [shield spikes](equipment/armorenhance/shield_spikes) | $$10 | &&5 |",
+		"| [burnished](equipment/armorenhance/burnished) | $$500 | &&5 |",
+		"| [deflecting](equipment/armorenhance/deflecting) | $$1000 | &&10 |",
+		"| [double-plated](equipment/armorenhance/double_plated) | $$1000 | &&20 |",
+		"| [jarring](equipment/armorenhance/jarring) | $$1000 | &&20 |",
+		"| [nimble](equipment/armorenhance/nimble) | $$1000 | &&5 |",
+		"| [razored](equipment/armorenhance/razored) | $$1350 | &&10 |",
+		"| [slumbering](equipment/armorenhance/slumbering) | $$500 | &&5 |",
+		"| [throwing shield](equipment/armorenhance/throwing_shield) | $$50 | &&0 |",
+		"| [vitalguard](equipment/armorenhance/vitalguard) | $$500 | &&15 |"
+	],
 	"sanctified_shield": {
 		"name": "sanctified shield",
 		"file": "equipmentmiscdisplay8fd2.html",
 		"sources": [ "Adventurer's Armory" ],
-		"cost_adjustment": 100,
-		"weight_adjustment": 0,
 		"description": [
 			"## Sanctified shield",
 			"**Source** [Adventurer's Armory pg. 25](source/adventurer's_armory)  ",
@@ -21,8 +45,6 @@
 		"name": "shield boss (breakaway)",
 		"file": "equipmentmiscdisplay90d0.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"cost_adjustment": 120,
-		"weight_adjustment": 10,
 		"description": [
 			"## Shield boss",
 			"**Source** [Melee Tactics Toolbox pg. 21](source/melee_tactics_toolbox)  ",
@@ -46,8 +68,6 @@
 		"name": "shield boss (hooked)",
 		"file": "equipmentmiscdisplayea63.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"cost_adjustment": 80,
-		"weight_adjustment": 10,
 		"copyof": "shield_boss_breakaway",
 		"display": "equiparmorenhance"
 	},
@@ -55,8 +75,6 @@
 		"name": "shield boss (illuminating)",
 		"file": "equipmentmiscdisplay6dec.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"cost_adjustment": 35,
-		"weight_adjustment": 10,
 		"copyof": "shield_boss_breakaway",
 		"display": "equiparmorenhance"
 	},
@@ -64,8 +82,6 @@
 		"name": "shield boss (reinforcing boss)",
 		"file": "equipmentmiscdisplay159e.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"cost_adjustment": 30,
-		"weight_adjustment": 10,
 		"copyof": "shield_boss_breakaway",
 		"display": "equiparmorenhance"
 	},
@@ -74,8 +90,6 @@
 		"searchable_name": "shield boss breakaway masterwork",
 		"file": "equipmentmiscdisplayea63.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"cost_adjustment": 170,
-		"weight_adjustment": 10,
 		"copyof": "shield_boss_breakaway",
 		"display": "equiparmorenhance"
 	},
@@ -87,8 +101,6 @@
 		"searchable_name": "shield boss hooked masterwork",
 		"file": "equipmentmiscdisplayea63.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"cost_adjustment": 130,
-		"weight_adjustment": 10,
 		"copyof": "shield_boss_breakaway",
 		"display": "equiparmorenhance"
 	},
@@ -100,8 +112,6 @@
 		"searchable_name": "shield boss illuminating masterwork",
 		"file": "equipmentmiscdisplay6dec.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"cost_adjustment": 85,
-		"weight_adjustment": 10,
 		"copyof": "shield_boss_breakaway",
 		"display": "equiparmorenhance"
 	},
@@ -113,8 +123,6 @@
 		"searchable_name": "shield boss reinforcing boss masterwork",
 		"file": "equipmentmiscdisplay159e.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"cost_adjustment": 80,
-		"weight_adjustment": 10,
 		"copyof": "shield_boss_breakaway",
 		"display": "equiparmorenhance"
 	},
@@ -125,12 +133,10 @@
 		"name": "armor vents",
 		"file": "equipmentmiscdisplaye668.html",
 		"sources": [ "People of the Sands" ],
-		"cost_adjustment": 100,
-		"weight_adjustment": -5,
 		"description": [
 			"## Armor vents",
 			"**Source** [People of the Sands pg. 28](source/people_of_the_sands)  ",
-			"**Price** 100 gp; **Weight** -5 lbs.  ",
+			"**Price** +100 gp; **Weight** -5 lbs.  ",
 			"**Category** Adventuring Gear",
 			"",
 			"Armor vents can be built into a suit of medium or heavy armor to allow for better ventilation and reduce the wearer's fatigue in hot environs. The vents can be slid open at the discretion of the user to ensure proper air flow during the day and then closed up at night to better preserve heat. A suit of armor with armor vents imposes only a -2 penalty (instead of -4) on Fortitude saves to avoid taking nonlethal damage from heat exposure, but also has 10 fewer hit points than normal because of its more intricate construction."
@@ -144,8 +150,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost_adjustment": 50,
-		"weight_adjustment": 10,
 		"description": [
 			"## Armor spikes",
 			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [PRPG Core Rulebook pg. 151](source/prpg_core_rulebook)  ",
@@ -165,8 +169,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost_adjustment": 8,
-		"weight_adjustment": 5,
 		"description": [
 			"## Locked gauntlet",
 			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [PRPG Core Rulebook pg. 151](source/prpg_core_rulebook)  ",
@@ -189,8 +191,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost_adjustment": 10,
-		"weight_adjustment": 5,
 		"description": [
 			"## Shield spikes",
 			"**Source** [Ultimate Equipment pg. 9](source/ultimate_equipment), [PRPG Core Rulebook pg. 151](source/prpg_core_rulebook)  ",
@@ -215,8 +215,6 @@
 		"name": "burnished",
 		"file": "equipmentarmordisplay6043.html",
 		"sources": [ "Adventurer's Armory 2" ],
-		"cost_adjustment": 500,
-		"weight_adjustment": 5,
 		"description": [
 			"## Burnished",
 			"**Source** [Adventurer's Armory 2 pg. 7](source/adventurer's_armory_2)  ",
@@ -236,8 +234,6 @@
 			"Adventurer's Armory 2",
 			"Faction Guide"
 		],
-		"cost_adjustment": 1000,
-		"weight_adjustment": 10,
 		"description": [
 			"## Deflecting",
 			"**Source** [Adventurer's Armory 2 pg. 7](source/adventurer's_armory_2), [Faction Guide pg. 55](source/faction_guide)  ",
@@ -255,8 +251,6 @@
 		"searchable_name": "double plated",
 		"file": "equipmentarmordisplayfbd9.html",
 		"sources": [ "Adventurer's Armory 2" ],
-		"cost_adjustment": 1000,
-		"weight_adjustment": 20,
 		"description": [
 			"## Double-plated",
 			"**Source** [Adventurer's Armory 2 pg. 7](source/adventurer's_armory_2)  ",
@@ -279,8 +273,6 @@
 			"Adventurer's Armory 2",
 			"Faction Guide"
 		],
-		"cost_adjustment": 1000,
-		"weight_adjustment": 20,
 		"description": [
 			"## Jarring",
 			"**Source** [Adventurer's Armory 2 pg. 7](source/adventurer's_armory_2), [Faction Guide pg. 55](source/faction_guide)  ",
@@ -297,8 +289,6 @@
 		"name": "nimble",
 		"file": "equipmentarmordisplay9bde.html",
 		"sources": [ "Adventurer's Armory 2" ],
-		"cost_adjustment": 1000,
-		"weight_adjustment": 5,
 		"description": [
 			"## Nimble",
 			"**Source** [Adventurer's Armory 2 pg. 7](source/adventurer's_armory_2)  ",
@@ -315,8 +305,6 @@
 		"name": "razored",
 		"file": "equipmentarmordisplayff9b.html",
 		"sources": [ "Adventurer's Armory 2" ],
-		"cost_adjustment": 1350,
-		"weight_adjustment": 10,
 		"description": [
 			"## Razored",
 			"**Source** [Adventurer's Armory 2 pg. 7](source/adventurer's_armory_2)  ",
@@ -333,8 +321,6 @@
 		"name": "slumbering",
 		"file": "equipmentarmordisplay80c1.html",
 		"sources": [ "Adventurer's Armory 2" ],
-		"cost_adjustment": 500,
-		"weight_adjustment": 5,
 		"description": [
 			"## Slumbering",
 			"**Source** [Adventurer's Armory 2 pg. 7](source/adventurer's_armory_2)  ",
@@ -351,8 +337,6 @@
 		"name": "throwing shield",
 		"file": "equipmentarmordisplay8862.html",
 		"sources": [ "Adventurer's Armory" ],
-		"cost_adjustment": 50,
-		"weight_adjustment": 0,
 		"description": [
 			"## Throwing shield",
 			"**Source** [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
@@ -372,8 +356,6 @@
 			"Adventurer's Armory 2",
 			"Faction Guide"
 		],
-		"cost_adjustment": 500,
-		"weight_adjustment": 15,
 		"description": [
 			"## Vitalguard",
 			"**Source** [Adventurer's Armory 2 pg. 7](source/adventurer's_armory_2), [Faction Guide pg. 55](source/faction_guide)  ",

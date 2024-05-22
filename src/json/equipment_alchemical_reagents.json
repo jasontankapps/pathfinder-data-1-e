@@ -5,12 +5,51 @@
 		"",
 		"The following reagents are purified through long processes from their raw states for use in alchemical recipes. Each alchemical reagent may also be used as an alchemical power component, augmenting the effects of certain spells when used as an additional material component. Alchemical power components were first introduced in Pathfinder Player Companion: Adventurer's Armory. Using a reagent as an alchemical power component requires a number of doses of the reagent, affects only spells that meet the listed criteria, and augments only an effect the spell already produces (for example, you can use black powder as an alchemical power component only for a spell that deals energy damage). Reagents do not stack with either themselves or one another, and are expended after use.",
 		"",
-		"An alchemical power component is an alchemical item used as a material component or focus for a spell in order to alter or augment the spell's normal effects. What follows is a sample of these effects; your GM may allow other combinations. Spells followed by an (M) expend the alchemical item as a material component; those followed by an (F) use the item as a focus and do not expend it. In both cases, the alchemical item does not have its normal effect and does not affect any other parameters of the spell. You cannot use the same item as both a focus and a material component at the same time."
+		"An alchemical power component is an alchemical item used as a material component or focus for a spell in order to alter or augment the spell's normal effects. What follows is a sample of these effects; your GM may allow other combinations. Spells followed by an (M) expend the alchemical item as a material component; those followed by an (F) use the item as a focus and do not expend it. In both cases, the alchemical item does not have its normal effect and does not affect any other parameters of the spell. You cannot use the same item as both a focus and a material component at the same time.",
+		"",
+		"| Item | Cost |",
+		"| :---: | --- |",
+		"| [Acid](equipment/reagent/acid) | $$10 |",
+		"| [Alchemical Grease](equipment/reagent/alchemical_grease) | $$5 |",
+		"| [Alchemist's Fire](equipment/reagent/alchemist's fire) | $$20 |",
+		"| [Antiplague](equipment/reagent/antiplague) | $$50 |",
+		"| [Antitoxin](equipment/reagent/antitoxin) | $$50 |",
+		"| [Black Powder](equipment/reagent/black_powder) | $$10 |",
+		"| [Bladeguard](equipment/reagent/bladeguard) | $$40 |",
+		"| [Brimstone](equipment/reagent/brimstone) | $$0.5 |",
+		"| [Cold Iron](equipment/reagent/cold_iron) | $$1 |",
+		"| [Cooperation Crystals](equipment/reagent/cooperation_crystals) | $$300 |",
+		"| [Cytillesh Spores](equipment/reagent/cytillesh_spores) | $$5 |",
+		"| [Darkwood](equipment/reagent/darkwood) | $$2 |",
+		"| [Dew of Lunary](equipment/reagent/dew_of_lunary) | $$4 |",
+		"| [Fire Fragment](equipment/reagent/fire_fragment) | $$350 |",
+		"| [Flash Powder](equipment/reagent/flash_powder) | $$50 |",
+		"| [Ginger Extract](equipment/reagent/ginger_extract) | $$0.5 |",
+		"| [Gold](equipment/reagent/gold) | $$5 |",
+		"| [Heavenly Quartz](equipment/reagent/heavenly_quartz) | $$250 |",
+		"| [Itching Powder](equipment/reagent/itching_powder) | $$60 |",
+		"| [Liquid Ice](equipment/reagent/liquid_ice) | $$40 |",
+		"| [Magnesium](equipment/reagent/magnesium) | $$1 |",
+		"| [Mugwort Extract](equipment/reagent/mugwort_extract) | $$2 |",
+		"| [Myrrh](equipment/reagent/myrrh) | $$0.5 |",
+		"| [Pesh](equipment/reagent/pesh) | $$15 |",
+		"| [Phosphorus](equipment/reagent/phosphorus) | $$0.2 |",
+		"| [Quicksilver](equipment/reagent/quicksilver) | $$1 |",
+		"| [Realgar](equipment/reagent/realgar) | $$3 |",
+		"| [Salt](equipment/reagent/salt) | $$0.5 |",
+		"| [Saltpeter](equipment/reagent/saltpeter) | $$3 |",
+		"| [Silver](equipment/reagent/silver) | $$1 |",
+		"| [Smokestick](equipment/reagent/smokestick) | $$20 |",
+		"| [Spirit of Wine](equipment/reagent/spirit_of_wine) | $$0.5 |",
+		"| [Tanglefoot Bag](equipment/reagent/tanglefoot_bag) | $$50 |",
+		"| [Thunderstone](equipment/reagent/thunderstone) | $$30 |",
+		"| [Urea](equipment/reagent/urea) | $$0.5 |",
+		"| [Void Shard](equipment/reagent/void_shard) | $$250 |",
+		"| [Whimsy Star](equipment/reagent/whimsy_star) | $$200 |"
 	],
 	"acid": {
 		"name": "Acid",
 		"sources": [ "Adventurer's Armory" ],
-		"cost": 10,
 		"description": [
 			"## Source [Adventurer's Armory pg. 26](source/adventurer's_armory)",
 			"",
@@ -43,7 +82,6 @@
 	"alchemical_grease": {
 		"name": "Alchemical Grease",
 		"sources": [ "Adventurer's Armory" ],
-		"cost": 5,
 		"description": [
 			"## Source [Adventurer's Armory pg. 26](source/adventurer's_armory)",
 			"",
@@ -70,7 +108,6 @@
 	"alchemist's_fire": {
 		"name": "Alchemist's Fire",
 		"sources": [ "Adventurer's Armory" ],
-		"cost": 20,
 		"description": [
 			"## Source [Adventurer's Armory pg. 26](source/adventurer's_armory)",
 			"",
@@ -103,7 +140,6 @@
 	"antiplague": {
 		"name": "Antiplague",
 		"sources": [ "Adventurer's Armory" ],
-		"cost": 50,
 		"description": [
 			"## Source [Adventurer's Armory pg. 26](source/adventurer's_armory)",
 			"",
@@ -126,7 +162,6 @@
 	"antitoxin": {
 		"name": "Antitoxin",
 		"sources": [ "Adventurer's Armory" ],
-		"cost": 50,
 		"description": [
 			"## Source [Adventurer's Armory pg. 26](source/adventurer's_armory)",
 			"",
@@ -147,7 +182,6 @@
 	"black_powder": {
 		"name": "Black Powder",
 		"sources": [ "Alchemy Manual" ],
-		"cost": 10,
 		"description": [
 			"## Source [Alchemy Manual pg. 0](source/alchemy_manual)",
 			"",
@@ -166,7 +200,6 @@
 	"bladeguard": {
 		"name": "Bladeguard",
 		"sources": [ "Adventurer's Armory" ],
-		"cost": 40,
 		"description": [
 			"## Source [Adventurer's Armory pg. 27](source/adventurer's_armory)",
 			"",
@@ -187,7 +220,6 @@
 	"brimstone": {
 		"name": "Brimstone",
 		"sources": [ "Alchemy Manual" ],
-		"cost": 0.5,
 		"description": [
 			"## Source [Alchemy Manual pg. 0](source/alchemy_manual)",
 			"",
@@ -206,7 +238,6 @@
 	"cold_iron": {
 		"name": "Cold Iron",
 		"sources": [ "Alchemy Manual" ],
-		"cost": 1,
 		"description": [
 			"## Source [Alchemy Manual pg. 0](source/alchemy_manual)",
 			"",
@@ -225,7 +256,6 @@
 	"cooperation_crystals": {
 		"name": "Cooperation Crystals",
 		"sources": [ "Plane-Hopper's Handbook" ],
-		"cost": 300,
 		"description": [
 			"## Source [Plane-Hopper's Handbook pg. 10](source/plane-hopper's_handbook)",
 			"",
@@ -244,7 +274,6 @@
 	"cytillesh_spores": {
 		"name": "Cytillesh Spores",
 		"sources": [ "Alchemy Manual" ],
-		"cost": 5,
 		"description": [
 			"## Source [Alchemy Manual pg. 11](source/alchemy_manual)",
 			"",
@@ -263,7 +292,6 @@
 	"darkwood": {
 		"name": "Darkwood",
 		"sources": [ "Alchemy Manual" ],
-		"cost": 2,
 		"description": [
 			"## Source [Alchemy Manual pg. 0](source/alchemy_manual)",
 			"",
@@ -282,7 +310,6 @@
 	"dew_of_lunary": {
 		"name": "Dew of Lunary",
 		"sources": [ "Alchemy Manual" ],
-		"cost": 4,
 		"description": [
 			"## Source [Alchemy Manual pg. 0](source/alchemy_manual)",
 			"",
@@ -301,7 +328,6 @@
 	"fire_fragment": {
 		"name": "Fire Fragment",
 		"sources": [ "Plane-Hopper's Handbook" ],
-		"cost": 350,
 		"description": [
 			"## Source [Plane-Hopper's Handbook pg. 10](source/plane-hopper's_handbook)",
 			"",
@@ -320,7 +346,6 @@
 	"flash_powder": {
 		"name": "Flash Powder",
 		"sources": [ "Adventurer's Armory" ],
-		"cost": 50,
 		"description": [
 			"## Source [Adventurer's Armory pg. 27](source/adventurer's_armory)",
 			"",
@@ -343,7 +368,6 @@
 	"ginger_extract": {
 		"name": "Ginger Extract",
 		"sources": [ "Alchemy Manual" ],
-		"cost": 0.5,
 		"description": [
 			"## Source [Alchemy Manual pg. 25](source/alchemy_manual)",
 			"",
@@ -362,7 +386,6 @@
 	"gold": {
 		"name": "Gold",
 		"sources": [ "Alchemy Manual" ],
-		"cost": 5,
 		"description": [
 			"## Source [Alchemy Manual pg. 0](source/alchemy_manual)",
 			"",
@@ -381,7 +404,6 @@
 	"heavenly_quartz": {
 		"name": "Heavenly Quartz",
 		"sources": [ "Plane-Hopper's Handbook" ],
-		"cost": 250,
 		"description": [
 			"## Source [Plane-Hopper's Handbook pg. 11](source/plane-hopper's_handbook)",
 			"",
@@ -400,7 +422,6 @@
 	"itching_powder": {
 		"name": "Itching Powder",
 		"sources": [ "Adventurer's Armory" ],
-		"cost": 60,
 		"description": [
 			"## Source [Adventurer's Armory pg. 27](source/adventurer's_armory)",
 			"",
@@ -425,7 +446,6 @@
 	"liquid_ice": {
 		"name": "Liquid Ice",
 		"sources": [ "Adventurer's Armory" ],
-		"cost": 40,
 		"description": [
 			"## Source [Adventurer's Armory pg. 27](source/adventurer's_armory)",
 			"",
@@ -456,7 +476,6 @@
 	"magnesium": {
 		"name": "Magnesium",
 		"sources": [ "Alchemy Manual" ],
-		"cost": 1,
 		"description": [
 			"## Source [Alchemy Manual pg. 0](source/alchemy_manual)",
 			"",
@@ -475,7 +494,6 @@
 	"mugwort_extract": {
 		"name": "Mugwort Extract",
 		"sources": [ "Alchemy Manual" ],
-		"cost": 2,
 		"description": [
 			"## Source [Alchemy Manual pg. 25](source/alchemy_manual)",
 			"",
@@ -494,7 +512,6 @@
 	"myrrh": {
 		"name": "Myrrh",
 		"sources": [ "Alchemy Manual" ],
-		"cost": 0.5,
 		"description": [
 			"## Source [Alchemy Manual pg. 0](source/alchemy_manual)",
 			"",
@@ -513,7 +530,6 @@
 	"pesh": {
 		"name": "Pesh",
 		"sources": [ "Alchemy Manual" ],
-		"cost": 15,
 		"description": [
 			"## Source [Alchemy Manual pg. 19](source/alchemy_manual)",
 			"",
@@ -532,7 +548,6 @@
 	"phosphorus": {
 		"name": "Phosphorus",
 		"sources": [ "Alchemy Manual" ],
-		"cost": 0.2,
 		"description": [
 			"## Source [Alchemy Manual pg. 33](source/alchemy_manual)",
 			"",
@@ -551,7 +566,6 @@
 	"quicksilver": {
 		"name": "Quicksilver",
 		"sources": [ "Alchemy Manual" ],
-		"cost": 1,
 		"description": [
 			"## Source [Alchemy Manual pg. 33](source/alchemy_manual)",
 			"",
@@ -570,7 +584,6 @@
 	"realgar": {
 		"name": "Realgar",
 		"sources": [ "Alchemy Manual" ],
-		"cost": 3,
 		"description": [
 			"## Source [Alchemy Manual pg. 33](source/alchemy_manual)",
 			"",
@@ -589,7 +602,6 @@
 	"salt": {
 		"name": "Salt",
 		"sources": [ "Alchemy Manual" ],
-		"cost": 0.5,
 		"description": [
 			"## Source [Alchemy Manual pg. 33](source/alchemy_manual)",
 			"",
@@ -608,7 +620,6 @@
 	"saltpeter": {
 		"name": "Saltpeter",
 		"sources": [ "Alchemy Manual" ],
-		"cost": 3,
 		"description": [
 			"## Source [Alchemy Manual pg. 33](source/alchemy_manual)",
 			"",
@@ -627,7 +638,6 @@
 	"silver": {
 		"name": "Silver",
 		"sources": [ "Alchemy Manual" ],
-		"cost": 1,
 		"description": [
 			"## Source [Alchemy Manual pg. 33](source/alchemy_manual)",
 			"",
@@ -646,7 +656,6 @@
 	"smokestick": {
 		"name": "Smokestick",
 		"sources": [ "Adventurer's Armory" ],
-		"cost": 20,
 		"description": [
 			"## Source [Adventurer's Armory pg. 27](source/adventurer's_armory)",
 			"",
@@ -671,7 +680,6 @@
 	"spirit_of_wine": {
 		"name": "Spirit of Wine",
 		"sources": [ "Alchemy Manual" ],
-		"cost": 0.5,
 		"description": [
 			"## Source [Alchemy Manual pg. 33](source/alchemy_manual)",
 			"",
@@ -690,7 +698,6 @@
 	"tanglefoot_bag": {
 		"name": "Tanglefoot Bag",
 		"sources": [ "Adventurer's Armory" ],
-		"cost": 50,
 		"description": [
 			"## Source [Adventurer's Armory pg. 27](source/adventurer's_armory)",
 			"",
@@ -715,7 +722,6 @@
 	"thunderstone": {
 		"name": "Thunderstone",
 		"sources": [ "Adventurer's Armory" ],
-		"cost": 30,
 		"description": [
 			"## Source [Adventurer's Armory pg. 27](source/adventurer's_armory)",
 			"",
@@ -738,7 +744,6 @@
 	"urea": {
 		"name": "Urea",
 		"sources": [ "Alchemy Manual" ],
-		"cost": 0.5,
 		"description": [
 			"## Source [Alchemy Manual pg. 33](source/alchemy_manual)",
 			"",
@@ -757,7 +762,6 @@
 	"void_shard": {
 		"name": "Void Shard",
 		"sources": [ "Plane-Hopper's Handbook" ],
-		"cost": 250,
 		"description": [
 			"## Source [Plane-Hopper's Handbook pg. 11](source/plane-hopper's_handbook)",
 			"",
@@ -776,7 +780,6 @@
 	"whimsy_star": {
 		"name": "Whimsy Star",
 		"sources": [ "Plane-Hopper's Handbook" ],
-		"cost": 200,
 		"description": [
 			"## Source [Plane-Hopper's Handbook pg. 11](source/plane-hopper's_handbook)",
 			"",
