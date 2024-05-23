@@ -11,13 +11,31 @@
 		"",
 		"**Craft:** This is the Craft DC required to create the pharmaceutical. It is also the Knowledge (engineering) or Heal DC to correctly identify the pharmaceutical.",
 		"",
-		"**Cost:** This is the cost in gold pieces to create the pharmaceutical. Generally this cost is equal to half the price of the pharmaceutical."
+		"**Cost:** This is the cost in gold pieces to create the pharmaceutical. Generally this cost is equal to half the price of the pharmaceutical.",
+		"",
+		"| Name | Cost |",
+		"| :---: | --- |",
+		"| [azonite pellets](equipment/tech/phamaceutical/azonite_pellets) | $$100 |",
+		"| [baseline](equipment/tech/phamaceutical/baseline) | $$2250 |",
+		"| [cardioamp](equipment/tech/phamaceutical/cardioamp) | $$4550 |",
+		"| [cureall](equipment/tech/phamaceutical/cureall) | $$1400 |",
+		"| [hemochem (grade I)](equipment/tech/phamaceutical/hemochem_grade_i) | $$250 |",
+		"| [hemochem (grade II)](equipment/tech/phamaceutical/hemochem_grade_ii) | $$500 |",
+		"| [hemochem (grade III)](equipment/tech/phamaceutical/hemochem_grade_iii) | $$750 |",
+		"| [hemochem (grade IV)](equipment/tech/phamaceutical/hemochem_grade_iv) | $$1000 |",
+		"| [hemochem (grave V)](equipment/tech/phamaceutical/hemochem_grave_v) | $$1250 |",
+		"| [hype](equipment/tech/phamaceutical/hype) | $$250 |",
+		"| [soothe](equipment/tech/phamaceutical/soothe) | $$200 |",
+		"| [torpinal](equipment/tech/phamaceutical/torpinal) | $$300 |",
+		"| [universal serum](equipment/tech/phamaceutical/universal_serum) | $$400 |",
+		"| [vitality serum](equipment/tech/phamaceutical/vitality_serum) | $$500 |",
+		"| [vive](equipment/tech/phamaceutical/vive) | $$200 |",
+		"| [zortaphen](equipment/tech/phamaceutical/zortaphen) | $$2250 |"
 	],
 	"azonite_pellets": {
 		"name": "azonite pellets",
 		"file": "equipmenttechpharmaceuticalsdisplayc9be.html",
 		"sources": [ "Pathfinder #89: Palace of Fallen Stars" ],
-		"cost": 100,
 		"description": [
 			"## Azonite Pellets",
 			"",
@@ -37,7 +55,6 @@
 		"name": "baseline",
 		"file": "equipmenttechpharmaceuticalsdisplay16e4.html",
 		"sources": [ "Technology Guide" ],
-		"cost": 2250,
 		"description": [
 			"## Baseline",
 			"",
@@ -57,7 +74,6 @@
 		"name": "cardioamp",
 		"file": "equipmenttechpharmaceuticalsdisplay4485.html",
 		"sources": [ "Technology Guide" ],
-		"cost": 4550,
 		"description": [
 			"## Cardioamp",
 			"",
@@ -79,7 +95,6 @@
 		"name": "cureall",
 		"file": "equipmenttechpharmaceuticalsdisplay8f4d.html",
 		"sources": [ "Technology Guide" ],
-		"cost": 1400,
 		"description": [
 			"## Cureall",
 			"",
@@ -101,7 +116,6 @@
 		"name": "hemochem (grade I)",
 		"file": "equipmenttechpharmaceuticalsdisplaya51c.html",
 		"sources": [ "Technology Guide" ],
-		"cost": 250,
 		"description": [
 			"## Hemochem (Grade I)",
 			"",
@@ -129,7 +143,6 @@
 		"name": "hemochem (grade II)",
 		"file": "equipmenttechpharmaceuticalsdisplayb00f.html",
 		"sources": [ "Technology Guide" ],
-		"cost": 500,
 		"description": [
 			"## Hemochem (Grade II)",
 			"",
@@ -143,7 +156,6 @@
 		"name": "hemochem (grade III)",
 		"file": "equipmenttechpharmaceuticalsdisplay0bcc.html",
 		"sources": [ "Technology Guide" ],
-		"cost": 750,
 		"description": [
 			"## Hemochem (Grade III)",
 			"",
@@ -157,7 +169,6 @@
 		"name": "hemochem (grade IV)",
 		"file": "equipmenttechpharmaceuticalsdisplay07a4.html",
 		"sources": [ "Technology Guide" ],
-		"cost": 1000,
 		"description": [
 			"## Hemochem (Grade IV)",
 			"",
@@ -171,7 +182,6 @@
 		"name": "hemochem (grave V)",
 		"file": "equipmenttechpharmaceuticalsdisplay39ef.html",
 		"sources": [ "Technology Guide" ],
-		"cost": 1250,
 		"description": [
 			"## Hemochem (Grave V)",
 			"",
@@ -185,7 +195,6 @@
 		"name": "hype",
 		"file": "equipmenttechpharmaceuticalsdisplay7b89.html",
 		"sources": [ "Technology Guide" ],
-		"cost": 250,
 		"description": [
 			"## Hype",
 			"",
@@ -205,7 +214,6 @@
 		"name": "soothe",
 		"file": "equipmenttechpharmaceuticalsdisplayb24b.html",
 		"sources": [ "Pathfinder #86: Lords of Rust" ],
-		"cost": 200,
 		"description": [
 			"## Soothe",
 			"",
@@ -225,7 +233,6 @@
 		"name": "torpinal",
 		"file": "equipmenttechpharmaceuticalsdisplay5de3.html",
 		"sources": [ "Technology Guide" ],
-		"cost": 300,
 		"description": [
 			"## Torpinal",
 			"",
@@ -247,7 +254,6 @@
 		"name": "universal serum",
 		"file": "equipmenttechpharmaceuticalsdisplay6761.html",
 		"sources": [ "Pathfinder #85: Fires of Creation" ],
-		"cost": 400,
 		"description": [
 			"## Universal Serum",
 			"",
@@ -267,7 +273,6 @@
 		"name": "vitality serum",
 		"file": "equipmenttechpharmaceuticalsdisplay3750.html",
 		"sources": [ "Pathfinder #85: Fires of Creation" ],
-		"cost": 500,
 		"description": [
 			"## Vitality Serum",
 			"",
@@ -287,7 +292,6 @@
 		"name": "vive",
 		"file": "equipmenttechpharmaceuticalsdisplay523c.html",
 		"sources": [ "Technology Guide" ],
-		"cost": 200,
 		"description": [
 			"## Vive",
 			"",
@@ -307,7 +311,6 @@
 		"name": "zortaphen",
 		"file": "equipmenttechpharmaceuticalsdisplay6bab.html",
 		"sources": [ "Technology Guide" ],
-		"cost": 2250,
 		"description": [
 			"## Zortaphen",
 			"",
