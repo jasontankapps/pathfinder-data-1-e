@@ -1,11 +1,30 @@
 {
 	"_prefix": "equipment-weapon-enhance",
+	"_description": [
+		"## Weapon Modifications",
+		"",
+		"**Description Source** [Adventurer's Armory 2](source/adventurer's_armory_2)  ",
+		"Some smiths or inventive adventurers are unsatisfied with traditional weapon designs, adding custom improvements to the weapons they craft. These modifications are added to mundane weapons after creation at the listed cost, but modifying magical weapons increases the cost of modifications by 50%. As with enchanting, modifications are applied to ammunition in sets of 50. A weapon can normally only bear one modification at a time.",
+		"",
+		"After being modified, a weapon's category (simple, martial, or exotic) increases by one step. While a character proficient with all martial weapons can use a modified simple weapon without additional training, modified martial weapons require the [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency) feat to use without taking penalties. An exotic weapon that receives modifications cannot be wielded without the [Modified Weapon Proficiency](feat/modified_weapon_proficiency) or [Weapon Adept](feat/weapon_adept) feat. A character proficient with a specific weapon (such as a cleric's proficiency with her deity's favored weapon) is not automatically proficient with a modified weapon of that type.",
+		"",
+		"| Name | Cost | Weight |",
+		"| :---: | ---| --- |",
+		"| [consecrated weapon](equipment/weaponenhancement/consecrated_weapon) | $$+150 | ^^0^&mdash; |",
+		"| [sawback sword](equipment/weaponenhancement/sawback_sword) | $$+5 | ^^0^&mdash; |",
+		"| [undine weaponshaft](equipment/weaponenhancement/undine_weaponshaft) | $$+300 | ^^0^&mdash; |",
+		"| [brutally weighted](equipment/weaponenhancement/brutally_weighted) | $$+1500 | &&+1 |",
+		"| [dual-balanced](equipment/weaponenhancement/dual-balanced) | $$+2000 | ^^0^&mdash; |",
+		"| [jagged hooks](equipment/weaponenhancement/jagged_hooks) | $$+1000 | &&+1 |",
+		"| [razor-sharp](equipment/weaponenhancement/razor-sharp) | $$+1000 | ^^0^&mdash; |",
+		"| [serrated edge](equipment/weaponenhancement/serrated_edge) | $$+2000 | ^^0^&mdash; |",
+		"| [tactically adapted](equipment/weaponenhancement/tactically_adapted) | $$+2000 | ^^0^&mdash; |",
+		"| [versatile design](equipment/weaponenhancement/versatile_design) | $$+500 | ^^0^&mdash; |"
+	],
 	"consecrated_weapon": {
 		"name": "consecrated weapon",
 		"file": "equipmentmiscdisplay0b21.html",
 		"sources": [ "Adventurer's Armory" ],
-		"cost_adjustment": 150,
-		"weight_adjustment": 0,
 		"description": [
 			"## Consecrated weapon",
 			"**Source** [Adventurer's Armory pg. 24](source/adventurer's_armory)  ",
@@ -13,7 +32,7 @@
 			"**Category** Channel Foci  ",
 			"**Deity** Any",
 			"",
-			"Consecrated weapons may be of any type-swords, axes, masterwork, mithral, and even magical-and function appropriately. When activated, the cleric charges the weapon with positive or negative energy (as appropriate) so it deals extra damage when it hits a target. This functions like the Channel Smite feat, except the additional damage is equal to half the cleric's channel energy damage (the target makes a Will save as normal, based on the cleric's channel energy DC). The weapon remains charged with this energy until it successfully strikes a creature or 24 hours pass, whichever comes first. Creatures other than the cleric are able to use the charged weapon and this ability."
+			"Consecrated weapons may be of any type-swords, axes, masterwork, mithral, and even magical-and function appropriately. When activated, the cleric charges the weapon with positive or negative energy (as appropriate) so it deals extra damage when it hits a target. This functions like the [Channel Smite](feat/channel_smite) feat, except the additional damage is equal to half the cleric's channel energy damage (the target makes a Will save as normal, based on the cleric's channel energy DC). The weapon remains charged with this energy until it successfully strikes a creature or 24 hours pass, whichever comes first. Creatures other than the cleric are able to use the charged weapon and this ability."
 		],
 		"display": "equipweapenhance"
 	},
@@ -24,8 +43,6 @@
 			"Ultimate Equipment",
 			"Adventurer's Armory"
 		],
-		"cost_adjustment": 5,
-		"weight_adjustment": 0,
 		"description": [
 			"## Sawback sword",
 			"**Source** [Ultimate Equipment pg. 57](source/ultimate_equipment), [Adventurer's Armory pg. 19](source/adventurer's_armory)  ",
@@ -40,8 +57,6 @@
 		"name": "undine weaponshaft",
 		"file": "equipmentmiscdisplayb290.html",
 		"sources": [ "Advanced Race Guide" ],
-		"cost_adjustment": 300,
-		"weight_adjustment": 0,
 		"description": [
 			"## Undine weaponshaft",
 			"**Source** [Advanced Race Guide pg. 177](source/advanced_race_guide)  ",
@@ -56,8 +71,6 @@
 		"name": "brutally weighted",
 		"file": "equipmentweaponsdisplay3ffc.html",
 		"sources": [ "Adventurer's Armory 2" ],
-		"cost_adjustment": 1500,
-		"weight_adjustment": 1,
 		"description": [
 			"## Brutally weighted",
 			"**Source** [Adventurer's Armory 2 pg. 10](source/adventurer's_armory_2)  ",
@@ -73,8 +86,6 @@
 		"searchable_name": "dual balanced",
 		"file": "equipmentweaponsdisplay3f30.html",
 		"sources": [ "Adventurer's Armory 2" ],
-		"cost_adjustment": 2000,
-		"weight_adjustment": 0,
 		"description": [
 			"## Dual-balanced",
 			"**Source** [Adventurer's Armory 2 pg. 10](source/adventurer's_armory_2)  ",
@@ -92,8 +103,6 @@
 		"name": "jagged hooks",
 		"file": "equipmentweaponsdisplay8808.html",
 		"sources": [ "Adventurer's Armory 2" ],
-		"cost_adjustment": 1000,
-		"weight_adjustment": 1,
 		"description": [
 			"## Jagged hooks",
 			"**Source** [Adventurer's Armory 2 pg. 10](source/adventurer's_armory_2)  ",
@@ -109,8 +118,6 @@
 		"searchable_name": "razor sharp",
 		"file": "equipmentweaponsdisplay1a76.html",
 		"sources": [ "Adventurer's Armory 2" ],
-		"cost_adjustment": 1000,
-		"weight_adjustment": 0,
 		"description": [
 			"## Razor-sharp",
 			"**Source** [Adventurer's Armory 2 pg. 10](source/adventurer's_armory_2)  ",
@@ -128,8 +135,6 @@
 		"name": "serrated edge",
 		"file": "equipmentweaponsdisplay2675.html",
 		"sources": [ "Adventurer's Armory 2" ],
-		"cost_adjustment": 2000,
-		"weight_adjustment": 0,
 		"description": [
 			"## Serrated edge",
 			"**Source** [Adventurer's Armory 2 pg. 10](source/adventurer's_armory_2)  ",
@@ -144,8 +149,6 @@
 		"name": "tactically adapted",
 		"file": "equipmentweaponsdisplay15a7.html",
 		"sources": [ "Adventurer's Armory 2" ],
-		"cost_adjustment": 2000,
-		"weight_adjustment": 0,
 		"description": [
 			"## Tactically adapted",
 			"**Source** [Adventurer's Armory 2 pg. 10](source/adventurer's_armory_2)  ",
@@ -160,8 +163,6 @@
 		"name": "versatile design",
 		"file": "equipmentweaponsdisplay527a.html",
 		"sources": [ "Adventurer's Armory 2" ],
-		"cost_adjustment": 500,
-		"weight_adjustment": 0,
 		"description": [
 			"## Versatile design",
 			"**Source** [Adventurer's Armory 2 pg. 10](source/adventurer's_armory_2)  ",
