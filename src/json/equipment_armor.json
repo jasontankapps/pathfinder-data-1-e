@@ -3,7 +3,7 @@
 	"_description": [
 		"## Armor",
 		"",
-		"| Name | Type | Cost | Armor Bonus | Max Dex Bonus | Armor Check Penalty | Arcane Spell Failure Chance | Speed (30 ft.) | Speed (20 ft.) | Weight |",
+		"| Name | Type | Cost | Armor/Shield Bonus | Max Dex Bonus | Armor Check Penalty | Arcane Spell Failure Chance | Speed (30 ft.) | Speed (20 ft.) | Weight |",
 		"| :---: | --- | --- | --- | --- | --- | --- | --- | --- | --- |",
 		"| [armored kilt](equipment/armor/armored_kilt) | light | $$20 | !!+1 | !!+6 | !!0 | 0% | 30 ft. | 20 ft. | &&10 |",
 		"| [haramaki](equipment/armor/haramaki) | light | $$3 | !!+1 | !!&mdash; | !!0 | 0% | 30 ft. | 20 ft. | &&1 |",

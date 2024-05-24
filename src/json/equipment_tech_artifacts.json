@@ -5,6 +5,22 @@
 		"",
 		"In the case of technological items, artifact status refers to an item that is beyond the means of anyone on Golarion to create or replicate, as well as beyond conventional measures of value. Unlike magical artifacts, technological artifacts can be destroyed just as other items could, and indeed may be quite fragile.",
 		"",
+		"### Power Generators",
+		"",
+		"Power generators are a specific type of technological artifact capable of providing large amounts of sustained energy, and that can supply charges to entire compounds. Every robot has a dedicated power generator within it that provides enough energy to run that robot and nothing more. Generators that are free-standing devices or built into complexes can be used to charge technological items capable of being recharged. A device hooked directly to a functioning power generator uses the generator's energy rather than its own stored energy.",
+		"",
+		"Generators are large, cumbersome devices that are difficult, if not impossible, to move. They must be built on site or into vehicles large enough to transport their heavy bulks. Most of the generators have long since fallen into disrepair, and those few that still function are jealously defended. Some wonder if portable generators exist, but no one has found evidence of any.",
+		"",
+		"The total amount of energy a generator can provide is known as it's yield-the number of charges it generates per hour. A portion of this yield may be dedicated to devices directly wired into it, such as keeping infrastructure running in a complex-this is referred to as dedicated yield. Dedicated yield isn't available for other purposes while it's providing power to those devices. A generator's available yield is what's left over, and can be used to power or recharge devices that can be removed.",
+		"",
+		"Two items can be used to draw power from a generator-a power cable and a power receiver. A generator's integrated power transmitter can broadcast power to a receiver within 1,000 feet unless otherwise noted. This distance is halved for every 5 feet of metal or 20 feet of solid stone between the generator and the receiver.",
+		"",
+		"An item that uses a set number of charges per hour reduces a generator's available yield by that amount, making the yield dedicated while the item is attached, as if the item is hard-wired into the generator. An item that uses 1 or more charges each time it's activated (such as most weapons) reduces the generator's yield by that amount each time it is activated. For example, a laser pistol would consume 1 charge from the yield each time it's fired. A nuclear resonator, on the other hand, consumes 5 charges each time it's fired-thus, when attached to a generator, it consumes 5 charges from the generator's yield each time it's used.",
+		"",
+		"A generator can be forced to exceed its yield, but this can result in disaster. Whenever charges are drawn from a generator in excess of its yield, the generator must attempt a Fortitude saving throw (DC = 10 + 1 per charge over that hour's yield + 5 per incidence of exceeded yield in the past hour). Success indicates that the generator outputs the additional charges (with a 5% chance that the item glitches as though it were timeworn). Failure indicates that the generator doesn't deliver the additional charges and the item doesn't activate. If it fails by 5 or more, the generator shuts down, cutting off all power to all items using it, and cannot be restarted for 1 hour. (Restarting a generator that's shut down in this way requires a successful DC 25 Disable Device check, but other actions may be necessary as well at the GM's discretion.) If a generator fails this Fortitude save by 10 or more, it explodes-the details of this explosion vary by generator type. (Other circumstances may cause a generator to explode, with the DC at the GM's discretion.)",
+		"",
+		"All generators have hardness and hit points. An active generator that is reduced to 0 hit points must succeed at a DC 20 Fortitude saving throw or explode. All generators are Colossal objects, and thus have an AC of -5. Most generators emit a lot of noise, steam, and other distracting elements, penalizing Perception checks attempted to perceive anything within 60 feet (other than the generator) by the indicated amount.",
+		"",
 		"| Name | Type | Weight |",
 		"| :---: | --- | --- |",
 		"| [Arms of the Iron God](equipment/tech/artifact/arms_of_the_iron_god) | cybertech | &&28 |",
@@ -21,7 +37,12 @@
 		"| [Powered armor](equipment/tech/artifact/powered_armor) | armor | &&50 |",
 		"| [Psychic imprinter](equipment/tech/artifact/psychic_imprinter) | misc | &&10 |",
 		"| [Rebirthing chamber](equipment/tech/artifact/rebirthing_chamber) | misc | &&1200 |",
-		"| [Temporal accelerator](equipment/tech/artifact/temporal_accelerator) | misc | &&1 |"
+		"| [Temporal accelerator](equipment/tech/artifact/temporal_accelerator) | misc | &&1 |",
+		"| [Fission reactor](equipment/tech/artifact/fission_reactor) | generator | &mdash; |",
+		"| [Fusion reactor](equipment/tech/artifact/fusion_reactor) | generator | &mdash; |",
+		"| [Geothermal generator](equipment/tech/artifact/geothermal_generator) | generator | &mdash; |",
+		"| [Graviton reactor](equipment/tech/artifact/graviton_reactor) | generator | &mdash; |",
+		"| [Solar generator](equipment/tech/artifact/solar_generator) | generator | &mdash; |"
 	],
 	"arms_of_the_iron_god": {
 		"name": "Arms of the Iron God",
@@ -191,7 +212,7 @@
 			"**Slot** none; **Weight** &mdash;  ",
 			"**Capacity** -; **Usage** -",
 			"",
-			"A memory facet is a length of crystal about the size of a human thumb that's adorned at one end by a metal cap fitted with prongs and plugs. The crystal's interior contains sparkling veins of glittering light. A memory facet is a high-capacity storage device capable of containing a staggering amount of programming-these devices were rare and difficult to craft, and at the time Divinity began its mission, they were primarily used for one purpose: storing and transporting the staggeringly complex code required to program and enhance artificial intelligences. To use a memory facet, one needs simply to insert the crystal's connectors into an appropriate slot in an AI's core processor or a robot under the AI's control. A core processor or robot can hold as many memory facets as it has available slots, but at any one time, an AI can benefit from a maximum number of memory facets equal to its CR divided by 4 (minimum 1). The AI can gain the benefits of memory facets installed in any of the robots and processors it controls-where a memory facet is installed makes little difference, but most AIs prefer to keep their memory facets installed in their most secure locations.",
+			"A memory facet is a length of crystal about the size of a human thumb that's adorned at one end by a metal cap fitted with prongs and plugs. The crystal's interior contains sparkling veins of glittering light. A memory facet is a high-capacity storage device capable of containing a staggering amount of programming-these devices were rare and difficult to craft, and at the time Divinity began its mission, they were primarily used for one purpose: storing and transporting the staggeringly complex code required to program and enhance [artificial intelligences](rule/artificial_intelligence). To use a memory facet, one needs simply to insert the crystal's connectors into an appropriate slot in an AI's core processor or a robot under the AI's control. A core processor or robot can hold as many memory facets as it has available slots, but at any one time, an AI can benefit from a maximum number of memory facets equal to its CR divided by 4 (minimum 1). The AI can gain the benefits of memory facets installed in any of the robots and processors it controls-where a memory facet is installed makes little difference, but most AIs prefer to keep their memory facets installed in their most secure locations.",
 			"",
 			"Each memory facet contains a unique combination of emotions, knowledge, traits, and personality quirks designed to enhance and bolster an artificial intelligence's capabilities. In rare cases, destructive memory facets were created-items intended to disable or damage an artificial intelligence in case of emergencies. An AI immediately gains all of the advantages (and any disadvantages) associated with a particular memory facet as soon as it is installed (this is a full-round action). Memory facets can change an AI's personality or even its alignment. An AI can try to resist having a memory facet added to its code by attempting a DC 20 Will save. If the AI is successful, the memory facet ceases functioning for 1d4 rounds, and must be extracted and reinstalled to make a second attempt to changing the AI's code. Once installed, a memory facet is difficult to remove; removing one requires either a successful DC 25 Strength check to wrench free or a successful DC 30 Disable Device check. Both attempts are full-round actions.",
 			"",
@@ -404,5 +425,70 @@
 			"A temporal accelerator can be disarmed or sundered with a disarm or sunder combat maneuver. It has hardness 10 and 5 hit points. Destroying or ripping away an attached temporal accelerator causes 1d8 points of Intelligence damage to the wearer, in additional to ending the effects of the device if active at the time."
 		],
 		"display": "equiptechartif"
+	},
+	"fission_reactor": {
+		"name": "Fission Reactor",
+		"file": null,
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"## Fission Reactor",
+			"",
+			"**Source** [Technology Guide pg. 63](source/technology_guide)  ",
+			"**Yield** 1,000; **Fort** +2; **Hardness** 10; **HP** 1,500; **Explosion** 20d10 bludgeoning and 20d10 fire plus severe radiation (250-ft. radius; Reflex DC 20 half); **Perception Penalty** -10",
+			"",
+			"A fission reactor harnesses power from nuclear energy gathered by processing and consuming radioactive fuel. Once activated, a fission reactor can function for many years before its radioactive fuel must be replaced. The core of a fission reactor is constantly irradiated at a high level of radioactivity; the bulk of the reactor actually consists of shielding meant to protect those nearby from radiation poisoning. If a fission generator explodes, it inundates its blast radius with severe radiation. These generators are relatively rare—while they produce the highest yield of all generators, the incredible damage they can do if they do explode often means that safety-minded operators find them suitable only for remote, unmanned operations."
+		]
+	},
+	"fusion_reactor": {
+		"name": "Fusion Reactor",
+		"file": null,
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"## Fusion Reactor",
+			"",
+			"**Source** [Technology Guide pg. 63](source/technology_guide)  ",
+			"**Yield** 500; **Fort** +10; **Hardness** 10; **HP** 1,800; **Explosion** 10d6 bludgeoning and 10d6 fire and 10d6 electricity (100-ft. radius; Reflex DC 20 half); **Perception Penalty** -10",
+			"",
+			"Although fusion reactors are superficially similar to fission reactors, the fact that their source of fuel is little more than seawater makes them much safer to operate."
+		]
+	},
+	"geothermal_generator": {
+		"name": "Geothermal Generator",
+		"file": null,
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"## Geothermal Generator",
+			"",
+			"**Source** [Technology Guide pg. 63](source/technology_guide)  ",
+			"**Yield** 200; **Fort** +4; **Hardness** 10; **HP** 1,000; **Explosion** 10d6 bludgeoning and 10d6 fire (60-ft. radius; Reflex DC 15 half); **Perception Penalty** -5",
+			"",
+			"A geothermal generator doesn't take up much room on the surface, but its components reach far into the earth and tap upon superheated water, steam, and even magma to generate power. Once activated, a geothermal generator can continue to function indefinitely. Geothermal generators tend to run hot; physical contact with one causes 1d6 points of fire damage per round."
+		]
+	},
+	"graviton_reactor": {
+		"name": "Graviton Reactor",
+		"file": null,
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"## Graviton Reactor",
+			"",
+			"**Source** [Technology Guide pg. 63](source/technology_guide)  ",
+			"**Yield** 800; **Fort** +14; **Hardness** 20; **HP** 2,500; **Explosion** 10d6 bludgeoning,10d6 electricity, and 20d6 force (50-ft. radius; Reflex DC 20 half; see text); **Perception Penalty** -2",
+			"",
+			"A graviton reactor produce tremendous amounts of energy. It's fairly quiet while running, generating little more than a low-frequency hum. Damage caused by a graviton reactor explosion consists of an implosion rather than a classic explosion. On the round following this implosion, all objects and creatures in the blast radius suffer the explosion damage again as they are then hurled back outward. No radiation is generated by a graviton reactor, and creatures and objects outside the blast radius can escape relatively unharmed (apart from possible damage resulting from objects that are hurled beyond the blast radius)."
+		]
+	},
+	"solar_generator": {
+		"name": "Solar Generator",
+		"file": null,
+		"sources": [ "Technology Guide" ],
+		"description": [
+			"## Solar Generator",
+			"",
+			"**Source** [Technology Guide pg. 63](source/technology_guide)  ",
+			"**Yield** 50; **Fort** +5; **Hardness** 2; **HP** 100; **Explosion** none; **Perception Penalty** +0",
+			"",
+			"A solar generator consists of a fairly small converter attached to a set of huge reflective panels. It produces full yield while receiving direct sunlight. Its yield halves during overcast conditions. At night or when densely overcast, its yield drops to 0. A solar generator runs silently. A solar generator cannot be forced to exceed its yield."
+		]
 	}
 }
