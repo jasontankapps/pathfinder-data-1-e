@@ -565,3 +565,7 @@ The following text is the property of Wizards of the Coast, Inc. and is Copyrigh
 **Pathfinder Player Companion: Chronicle of Legends** &copy; 2019, Paizo Inc.; Authors: Calder CaDavid, Vanessa Hoskins, Mike Kimmel, Isabelle Lee, Matt Morris, Mikhail Rekun, and Michael Sayre.  
 **Pathfinder Player Companion: Heroes of Golarion** &copy; 2019, Paizo Inc.; Authors: Saif Ansari, Alexander Augunas, Mara Lynn Butler, Michelle Jones, Avi Kool, and Alex Riggs.  
 **Pathfinder Player Companion: Wilderness Origins** &copy; 2019, Paizo Inc.; Authors: Kim Frandsen, Sasha Hall, Violet Hargrave, Andrew Mullen, Jessica Redekop, Mikhail Rekun, Sean K. Reynolds, and Rodney Sloan.
+
+## Product Identity
+
+**Paizo Inc.:** The following items are hereby identified as Product Identity, as defined in the Open Game License version 1.0a, Section 1(e), and are not Open Content: All trademarks, registered trademarks, proper names (characters, deities, etc.), dialogue, plots, storylines, locations, characters, artwork, and trade dress. (Elements that have previously been designated as Open Game Content or are in the public domain are not included in this declaration.)
