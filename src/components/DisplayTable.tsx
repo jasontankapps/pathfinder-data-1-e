@@ -1,12 +1,13 @@
 import { FC, PropsWithChildren, useCallback, useMemo, useState } from 'react';
 import { IonIcon } from '@ionic/react';
 import { caretDown, caretUp } from 'ionicons/icons';
+import Markdown from 'react-markdown';
 
-type Datum = string | number | [ number, string ];
+type Datum = string | number | [ number, string ] | [ string, string ];
 
 type RawDatum = null | Datum;
 
-type Types = "gp" | "lbs" | "gp+" | "lbs+" | null;
+type Types = "gp" | "lbs" | "gp+" | "lbs+" | "bonus" | "num" | null;
 
 type TriggerSortFunc = (index: number, descending: boolean) => void;
 
@@ -14,6 +15,8 @@ interface ThProps {
 	index: number
 	sorter: TriggerSortFunc
 	initialSort?: boolean
+	active: boolean
+	children: string
 }
 
 interface TdProps {
@@ -57,31 +60,31 @@ const translateGp = (gp: number, adjustment: boolean = false): string => {
 const FIRST_CHAR = String.fromCodePoint(0x0001);
 const FINAL_CHAR = String.fromCodePoint(0x10FFFF);
 const getCheckableValue = (item: RawDatum, nullish: string): string => {
-	if(item === null) {
+	if(item === null || item === "~~") {
 		return nullish;
 	} else if (Array.isArray(item)) {
-		return String (item[0]);
+		return getCheckableValue(item[0], nullish);
 	}
 	return typeof(item) === "number" ? String(item) : item;
 };
 const descendingSort = (a: RawDatum, b: RawDatum) => {
-	return getCheckableValue(a, FINAL_CHAR).localeCompare(getCheckableValue(b, FINAL_CHAR))
+	return getCheckableValue(a, FINAL_CHAR).localeCompare(getCheckableValue(b, FINAL_CHAR), 'en', { numeric: true })
 };
 const ascendingSort = (a: RawDatum, b: RawDatum) => {
-	return getCheckableValue(b, FIRST_CHAR).localeCompare(getCheckableValue(a, FIRST_CHAR))
+	return getCheckableValue(b, FIRST_CHAR).localeCompare(getCheckableValue(a, FIRST_CHAR), 'en', { numeric: true })
 };
 
 const DirectionIcon: FC<{down:boolean}> = ({down}) => {
 	return <IonIcon className="sortArrow" icon={down ? caretDown : caretUp} />;
 };
 
-const Th: FC<PropsWithChildren<ThProps>> = ({index, sorter, initialSort = false, children}) => {
+const Th: FC<ThProps> = ({index, sorter, initialSort = false, children, active}) => {
 	const [ descending, setDescending ] = useState(initialSort);
 	const onClick = useCallback(() => {
 		sorter(index, !descending);
 		setDescending(!descending);
 	}, [index, sorter]);
-	return <th onClick={onClick} className="sortable">{children} <DirectionIcon down={descending} /></th>;
+	return <th onClick={onClick} className="sortable"><Markdown>{children}</Markdown> {active ? <DirectionIcon down={descending} /> : <></>}</th>;
 };
 
 const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type }) => {
@@ -89,17 +92,17 @@ const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type }) => {
 	const [ test, output ] = Array.isArray(datum) ? datum : [ datum, datum ];
 	switch(type) {
 		case "gp":
-			// RawDatum is an integer
+			// RawDatum is an number
 			if(typeof test !== "number") {
-				text = `Invalid integer [${test}]`;
+				text = `Invalid GP number [${test}]`;
 			} else {
 				text = typeof output === "number" ? translateGp(output) : output;
 			}
 			break;
 		case "gp+":
-			// RawDatum is an integer
+			// RawDatum is an number
 			if(typeof test !== "number") {
-				text = `Invalid integer [${test}]`;
+				text = `Invalid GP+ number [${test}]`;
 			} else {
 				text = typeof output === "number" ? translateGp(output, true) : output;
 			}
@@ -107,7 +110,7 @@ const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type }) => {
 		case "lbs":
 			// RawDatum is a number
 			if(typeof test !== "number") {
-				text = `Invalid number [${test}]`;
+				text = `Invalid LB number [${test}]`;
 			} else {
 				text = typeof output === "number"
 					? `${output.toLocaleString()} lb${output > 1 || output < -1 ? "s": ""}.`
@@ -117,31 +120,59 @@ const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type }) => {
 		case "lbs+":
 			// RawDatum is a number
 			if(typeof test !== "number") {
-				text = `Invalid number [${test}]`;
+				text = `Invalid LB+ number [${test}]`;
 			} else {
 				text = typeof output === "number"
 					? `${output >= 0 ? "+" : ""}${output.toLocaleString()} lb${output > 1 || output < -1 ? "s": ""}.`
 					: output;
 			}
 			break;
+		case "bonus":
+			// RawDatum is an interger
+			if(typeof test !== "number") {
+				text = `Invalid BONUS number [${test}]`;
+			} else {
+				text = typeof output === "number"
+					? `${output >= 0 ? "+" : ""}${output.toLocaleString()}`
+					: output;
+			}
+			break;
+		case "num":
+			// RawDatum is a number
+			if(typeof test !== "number") {
+				text = `Invalid NUM number [${test}]`;
+			} else {
+				text = typeof output === "number"
+					? output.toLocaleString()
+					: output;
+			}
+			break;
 		default:
-			text = typeof datum === "string" ? datum : String(datum);
+			text = typeof output === "string" ? output : String(output);
 	}
-	return <td>{text}</td>;
+	return <td><Markdown>{text}</Markdown></td>;
 };
 
 const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	const { id, headers, types, data, initialColumn, className, nullValue = "&mdash;" } = table;
 	const [rows, setRows] = useState(data);
+	const [active, setActive] = useState(initialColumn);
 	const sorter: TriggerSortFunc = useCallback((index, descending) => {
 		const newRows = [...rows];
 		const sortfunc = descending ? descendingSort : ascendingSort;
 		newRows.sort((a, b) => sortfunc(a[index], b[index]));
+		setActive(index);
 		setRows(newRows);
-	}, [rows, setRows]);
+	}, [rows, setRows, setActive]);
 	const headerItems = useMemo(() => headers.map((th, i) => {
-		return <Th key={`table/${id}/header/${i}`} index={i} initialSort={i === initialColumn} sorter={sorter}>{th}</Th>;
-	}), [headers, id, initialColumn, sorter]);
+		return <Th
+			key={`table/${id}/header/${i}`}
+			index={i}
+			initialSort={i === initialColumn}
+			active={i === active}
+			sorter={sorter}
+		>{th}</Th>;
+	}), [headers, id, initialColumn, sorter, active]);
 	const rowItems = useMemo(() => rows.map((row, i) => {
 		const cells = row.map((cell, j) => {
 			return <Td type={types[j]} datum={cell === null ? nullValue : cell} key={`table/${id}/row/${i}/cell/${j}`} />

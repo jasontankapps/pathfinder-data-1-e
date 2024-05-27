@@ -13,24 +13,34 @@
 		"",
 		"**Cost:** This is the cost in gold pieces to create the pharmaceutical. Generally this cost is equal to half the price of the pharmaceutical.",
 		"",
-		"| Name | Cost |",
-		"| :---: | --- |",
-		"| [azonite pellets](equipment/tech/phamaceutical/azonite_pellets) | $$100 |",
-		"| [baseline](equipment/tech/phamaceutical/baseline) | $$2250 |",
-		"| [cardioamp](equipment/tech/phamaceutical/cardioamp) | $$4550 |",
-		"| [cureall](equipment/tech/phamaceutical/cureall) | $$1400 |",
-		"| [hemochem (grade I)](equipment/tech/phamaceutical/hemochem_grade_i) | $$250 |",
-		"| [hemochem (grade II)](equipment/tech/phamaceutical/hemochem_grade_ii) | $$500 |",
-		"| [hemochem (grade III)](equipment/tech/phamaceutical/hemochem_grade_iii) | $$750 |",
-		"| [hemochem (grade IV)](equipment/tech/phamaceutical/hemochem_grade_iv) | $$1000 |",
-		"| [hemochem (grave V)](equipment/tech/phamaceutical/hemochem_grave_v) | $$1250 |",
-		"| [hype](equipment/tech/phamaceutical/hype) | $$250 |",
-		"| [soothe](equipment/tech/phamaceutical/soothe) | $$200 |",
-		"| [torpinal](equipment/tech/phamaceutical/torpinal) | $$300 |",
-		"| [universal serum](equipment/tech/phamaceutical/universal_serum) | $$400 |",
-		"| [vitality serum](equipment/tech/phamaceutical/vitality_serum) | $$500 |",
-		"| [vive](equipment/tech/phamaceutical/vive) | $$200 |",
-		"| [zortaphen](equipment/tech/phamaceutical/zortaphen) | $$2250 |"
+		"`table0`"
+	],
+	"_tables": [
+		{
+			"id": "tech pharmaceuticals",
+			"headers": [ "Name", "Cost" ],
+			"types": [ null, "gp" ],
+			"data": [
+				[ "[azonite pellets](equipment/tech/phamaceutical/azonite_pellets)", 100 ],
+				[ "[baseline](equipment/tech/phamaceutical/baseline)", 2250 ],
+				[ "[cardioamp](equipment/tech/phamaceutical/cardioamp)", 4550 ],
+				[ "[cureall](equipment/tech/phamaceutical/cureall)", 1400 ],
+				[ "[hemochem (grade I)](equipment/tech/phamaceutical/hemochem_grade_i)", 250 ],
+				[ "[hemochem (grade II)](equipment/tech/phamaceutical/hemochem_grade_ii)", 500 ],
+				[ "[hemochem (grade III)](equipment/tech/phamaceutical/hemochem_grade_iii)", 750 ],
+				[ "[hemochem (grade IV)](equipment/tech/phamaceutical/hemochem_grade_iv)", 1000 ],
+				[ "[hemochem (grave V)](equipment/tech/phamaceutical/hemochem_grave_v)", 1250 ],
+				[ "[hype](equipment/tech/phamaceutical/hype)", 250 ],
+				[ "[soothe](equipment/tech/phamaceutical/soothe)", 200 ],
+				[ "[torpinal](equipment/tech/phamaceutical/torpinal)", 300 ],
+				[ "[universal serum](equipment/tech/phamaceutical/universal_serum)", 400 ],
+				[ "[vitality serum](equipment/tech/phamaceutical/vitality_serum)", 500 ],
+				[ "[vive](equipment/tech/phamaceutical/vive)", 200 ],
+				[ "[zortaphen](equipment/tech/phamaceutical/zortaphen)", 2250 ]
+			],
+			"initialColumn": 0,
+			"className": "simple"
+		}
 	],
 	"azonite_pellets": {
 		"name": "azonite pellets",
