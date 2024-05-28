@@ -2,11 +2,11 @@ import { FC, useMemo, ClassAttributes, AnchorHTMLAttributes, HTMLAttributes } fr
 import { Link } from 'react-router-dom';
 import Markdown, { ExtraProps } from 'react-markdown';
 import remarkGfm from 'remark-gfm'
-import DisplayTable, { Table } from './DisplayTable';
+import DisplayTable from './DisplayTable';
+import { Table } from '../types';
 
 type MDaProps = ClassAttributes<HTMLAnchorElement> & AnchorHTMLAttributes<HTMLAnchorElement> & ExtraProps;
 type MDcodeProps = ClassAttributes<HTMLElement> & HTMLAttributes<HTMLElement> & ExtraProps;
-
 
 interface ContainerProps {
 	markdown: string | string[]

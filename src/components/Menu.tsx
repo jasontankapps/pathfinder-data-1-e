@@ -11,56 +11,71 @@ import {
 } from '@ionic/react';
 
 import { useLocation } from 'react-router-dom';
-import { archiveOutline, archiveSharp, bookmarkOutline, heartOutline, heartSharp, mailOutline, mailSharp, paperPlaneOutline, paperPlaneSharp, trashOutline, trashSharp, warningOutline, warningSharp } from 'ionicons/icons';
 import './Menu.css';
 
 interface AppPage {
 	url: string;
-	iosIcon: string;
-	mdIcon: string;
 	title: string;
+	icon: string;
 }
 
 const appPages: AppPage[] = [
 	{
-		title: 'Inbox',
-		url: '/folder/Inbox',
-		iosIcon: mailOutline,
-		mdIcon: mailSharp
+		title: "General Rules",
+		url: "/rules",
+		icon: "../icons/read.svg"
 	},
 	{
-		title: 'Outbox',
-		url: '/folder/Outbox',
-		iosIcon: paperPlaneOutline,
-		mdIcon: paperPlaneSharp
+		title: "Races",
+		url: "/races",
+		icon: "../icons/person.svg"
 	},
 	{
-		title: 'Favorites',
-		url: '/folder/Favorites',
-		iosIcon: heartOutline,
-		mdIcon: heartSharp
+		title: "Classes",
+		url: "/classes",
+		icon: "../icons/robe.svg"
 	},
 	{
-		title: 'Archived',
-		url: '/folder/Archived',
-		iosIcon: archiveOutline,
-		mdIcon: archiveSharp
+		title: "Skills",
+		url: "/skills",
+		icon: "../icons/skills.svg"
 	},
 	{
-		title: 'Trash',
-		url: '/folder/Trash',
-		iosIcon: trashOutline,
-		mdIcon: trashSharp
+		title: "Feats",
+		url: "/feats",
+		icon: "../icons/mighty-force.svg"
 	},
 	{
-		title: 'Spam',
-		url: '/folder/Spam',
-		iosIcon: warningOutline,
-		mdIcon: warningSharp
+		title: "Traits",
+		url: "/traits",
+		icon: "../icons/spikes-half.svg"
+	},
+	{
+		title: "Equipment",
+		url: "/equipment",
+		icon: "../icons/battle-gear.svg"
+	},
+	{
+		title: "Magic Items",
+		url: "/magic",
+		icon: "../icons/orb-wand.svg"
+	},
+	{
+		title: "Spells",
+		url: "/spells",
+		icon: "../icons/sparkles.svg"
+	},
+	{
+		title: "Deities/Faiths",
+		url: "/faiths",
+		icon: "../icons/bolt-eye.svg"
+	},
+	{
+		title: "Monsters and NPCs",
+		url: "/monstersnpcs",
+		icon: "../icons/croc-jaws.svg"
 	}
 ];
-
-const labels = ['Family', 'Friends', 'Notes', 'Work', 'Travel', 'Reminders'];
 
 const Menu: React.FC = () => {
 	const location = useLocation();
@@ -69,28 +84,18 @@ const Menu: React.FC = () => {
 		<IonMenu contentId="main" type="overlay">
 			<IonContent>
 				<IonList id="inbox-list">
-					<IonListHeader>Inbox</IonListHeader>
-					<IonNote>hi@ionicframework.com</IonNote>
+					<IonListHeader>Pathfinder Data 1e</IonListHeader>
 					{appPages.map((appPage, index) => {
+						const { url, icon, title } = appPage;
 						return (
 							<IonMenuToggle key={index} autoHide={false}>
-								<IonItem className={location.pathname === appPage.url ? 'selected' : ''} routerLink={appPage.url} routerDirection="none" lines="none" detail={false}>
-									<IonIcon aria-hidden="true" slot="start" ios={appPage.iosIcon} md={appPage.mdIcon} />
-									<IonLabel>{appPage.title}</IonLabel>
+								<IonItem className={location.pathname === url ? 'selected' : ''} routerLink={url} routerDirection="none" lines="none" detail={false}>
+									<IonIcon aria-hidden="true" slot="start" src={icon} />
+									<IonLabel>{title}</IonLabel>
 								</IonItem>
 							</IonMenuToggle>
 						);
 					})}
-				</IonList>
-
-				<IonList id="labels-list">
-					<IonListHeader>Labels</IonListHeader>
-					{labels.map((label, index) => (
-						<IonItem lines="none" key={index}>
-							<IonIcon aria-hidden="true" slot="start" icon={bookmarkOutline} />
-							<IonLabel>{label}</IonLabel>
-						</IonItem>
-					))}
 				</IonList>
 			</IonContent>
 		</IonMenu>

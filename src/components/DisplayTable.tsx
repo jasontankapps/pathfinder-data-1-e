@@ -2,12 +2,7 @@ import { FC, PropsWithChildren, useCallback, useMemo, useState } from 'react';
 import { IonIcon } from '@ionic/react';
 import { caretDown, caretUp } from 'ionicons/icons';
 import Markdown from 'react-markdown';
-
-type Datum = string | number | [ number, string ] | [ string, string ];
-
-type RawDatum = null | Datum;
-
-type Types = "gp" | "lbs" | "gp+" | "lbs+" | "bonus" | "num" | null;
+import { Datum, RawDatum, Table, Types } from '../types';
 
 type TriggerSortFunc = (index: number, descending: boolean) => void;
 
@@ -22,23 +17,6 @@ interface ThProps {
 interface TdProps {
 	datum: Datum
 	type: Types
-}
-
-export interface Table {
-	// unique identifier
-	id: string
-	// headers
-	headers: string[]
-	// declares what type of data each column has
-	types: Types[]
-	// the rows that will form a table
-	data: RawDatum[][]
-	// the index of the column that is initially sorted
-	initialColumn: number
-	// what to print if a cell is `null` (defaults to &mdash;)
-	nullValue?: string
-	// the CSS class to assign to the table
-	className: string
 }
 
 const translateGp = (gp: number, adjustment: boolean = false): string => {
@@ -68,10 +46,10 @@ const getCheckableValue = (item: RawDatum, nullish: string): string => {
 	return typeof(item) === "number" ? String(item) : item;
 };
 const descendingSort = (a: RawDatum, b: RawDatum) => {
-	return getCheckableValue(a, FINAL_CHAR).localeCompare(getCheckableValue(b, FINAL_CHAR), 'en', { numeric: true })
+	return getCheckableValue(a, FINAL_CHAR).localeCompare(getCheckableValue(b, FINAL_CHAR), 'en', { numeric: true });
 };
 const ascendingSort = (a: RawDatum, b: RawDatum) => {
-	return getCheckableValue(b, FIRST_CHAR).localeCompare(getCheckableValue(a, FIRST_CHAR), 'en', { numeric: true })
+	return getCheckableValue(b, FIRST_CHAR).localeCompare(getCheckableValue(a, FIRST_CHAR), 'en', { numeric: true });
 };
 
 const DirectionIcon: FC<{down:boolean}> = ({down}) => {
@@ -84,7 +62,11 @@ const Th: FC<ThProps> = ({index, sorter, initialSort = false, children, active})
 		sorter(index, !descending);
 		setDescending(!descending);
 	}, [index, sorter]);
-	return <th onClick={onClick} className="sortable"><Markdown>{children}</Markdown> {active ? <DirectionIcon down={descending} /> : <></>}</th>;
+	return (
+		<th onClick={onClick} className="sortable">
+			<Markdown>{children}</Markdown> {active ? <DirectionIcon down={descending} /> : <></>}
+		</th>
+	);
 };
 
 const Td: FC<PropsWithChildren<TdProps>> = ({ datum, type }) => {
@@ -175,7 +157,11 @@ const DisplayTable: FC<{ table: Table }> = ({ table }) => {
 	}), [headers, id, initialColumn, sorter, active]);
 	const rowItems = useMemo(() => rows.map((row, i) => {
 		const cells = row.map((cell, j) => {
-			return <Td type={types[j]} datum={cell === null ? nullValue : cell} key={`table/${id}/row/${i}/cell/${j}`} />
+			return <Td
+				type={types[j]}
+				datum={cell === null ? nullValue : cell}
+				key={`table/${id}/row/${i}/cell/${j}`}
+			/>;
 		});
 		return <tr key={`table/${id}/row/${i}`}>{cells}</tr>;
 	}), [rows, types, nullValue, id]);
