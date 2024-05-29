@@ -10,7 +10,7 @@ const appPages: any[] = [
 	"/races",
 	"/classes",//
 	"/skills",//
-	"/feats",
+	"/feats",//
 	"/traits",
 	"/equipment",
 	"/magic",
@@ -23,7 +23,7 @@ const MainPage: React.FC = () => {
 
 	const { mainpage = "main" } = useParams<{ mainpage?: keyof typeof main; }>();
 
-	const info = main[mainpage] as ItemProps;
+	const info = (main[mainpage] || main.main) as ItemProps;
 
 	return (
 		<IonPage>
