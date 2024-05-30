@@ -7,11 +7,11 @@ import './Page.css';
 
 const appPages: any[] = [
 	"/rules",
-	"/races",
+	"/races",//
 	"/classes",//
 	"/skills",//
 	"/feats",//
-	"/traits",
+	"/traits",//
 	"/equipment",
 	"/magic",
 	"/spells",

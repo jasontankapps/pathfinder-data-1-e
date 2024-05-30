@@ -9,7 +9,6 @@
 			"Advanced Race Guide",
 			"Blood of Angels"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Aasimar",
 			"",
@@ -410,14 +409,12 @@
 			"**Sorcerer** ([Advanced Race Guide pg. 85](source/advanced_race_guide)): Add +1/4 to the sorcerer's caster level when casting spells with the good descriptor.  ",
 			"**Summoner** ([Advanced Race Guide pg. 86](source/advanced_race_guide)): Add DR 1/evil to the summoner's eidolon. Each additional time the summoner selects this benefit, the DR/evil increases by +1/2 (maximum DR 10/evil)."
 		],
-		"short_description": "Creatures blessed with a celestial bloodline, aasimars seem human except for some exotic quality that betrays their otherworldly origin. While aasimars are nearly always beautiful, something simultaneously a part of and apart from humanity, not all of them are good, though very few are evil.",
 		"display": "race"
 	},
 	"adaro": {
 		"name": "Adaro",
 		"file": "racesdisplaye288.html",
 		"sources": [ "Blood of the Sea" ],
-		"has_monster_entry": true,
 		"description": [
 			"## Adaro",
 			"",
@@ -447,7 +444,6 @@
 			"**Speak with Sharks:** Adaros can communicate telepathically with sharks to a distance of 100 feet. This communication is limited to simple concepts, such as \"attack,\" \"come,\" and \"attack,\"",
 			"**Languages:** Adaros begin play speaking Aquan and Common. Adaros with high Intelligence scores can choose from the following: Abyssal, Aklo, Draconic, Giant, Infernal, and Undercommon."
 		],
-		"short_description": "Terrifying amalgamations of shark and humanoid, adaros are nomadic hunters who live in tropical waters",
 		"display": "race"
 	},
 	"android": {
@@ -460,7 +456,6 @@
 			"People of the Stars",
 			"Inner Sea Bestiary"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Android",
 			"",
@@ -492,7 +487,6 @@
 			"**Source** [Inner Sea Races pg. 214](source/inner_sea_races)  ",
 			"Some androids cannot prompt their nanites to aid them in any endeavor, but instead find that their nanites stitch their wounds together. The first time each day that such an android has taken an amount of damage greater than or equal to twice her Hit Dice, the nanites automatically activate, without an action. Her circuitry-tattoos glow with light equivalent to that of a torch for 1 round and she heals a number of hit points equal to twice her Hit Dice. This racial trait replaces nanite surge."
 		],
-		"short_description": "The artificially constructed humanoids known as androids are as much a miracle of technological achievement as they are an example of the sheer will of the multiverse.",
 		"display": "race"
 	},
 	"aphorite": {
@@ -502,7 +496,6 @@
 			"Planar Adventures",
 			"Plane-Hopper's Handbook"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Aphorite",
 			"",
@@ -578,14 +571,12 @@
 			"**Witch** ([Plane-Hopper's Handbook pg. 15](source/plane-hopper's_handbook)): The witch gains 1/6 of a new witch hex.  ",
 			"**Wizard** ([Plane-Hopper's Handbook pg. 15](source/plane-hopper's_handbook)): Add 1/3 to the wizard's caster level when casting spells with the lawful descriptor or spells that create magical glyphs, runes, or symbols."
 		],
-		"short_description": "Aphorites were created to serve as diplomats, translators, and envoys between the axiomites and the myriad cultures of the countless Material Plane worlds.",
 		"display": "race"
 	},
 	"astomoi": {
 		"name": "Astomoi",
 		"file": "racesdisplaya353.html",
 		"sources": [ "Bestiary 5" ],
-		"has_monster_entry": true,
 		"description": [
 			"## Astomoi",
 			"",
@@ -605,7 +596,6 @@
 			"**Mouthless:** Astomoi don't need to eat or drink to survive. Instead, they absorb the essence of food and drink; this consumes the nutrients of the meal as though it had been eaten, rendering the food useless to others. Astomoi consume potions and other ingested materials in the same fashion. Since they never actually ingest anything, they can't normally be exposed to ingested poisons.  ",
 			"**Languages:** Astomoi begin play knowing Common, but as they have no mouths, they cannot speak. They have telepathy with a range of 100 feet. Astomoi with high Intelligence scores can choose any of the following languages: Abyssal, Aklo, Celestial, Elven, Gnome, Infernal, and Sylvan."
 		],
-		"short_description": "These mysterious humanoids require no food-indeed, they have no mouths-and they have no eyes with which to survey their environment. Instead, they rely on their powerful minds to sense the world around them, and subsist on nutrients absorbed from the air. This can turn against them, however, as powerful smells and inhaled poisons can render an astomoi helpless. Predisposed to asceticism, astomoi rarely wear more than rags, if they wear anything at all.",
 		"display": "race"
 	},
 	"being_of_ib": {
@@ -631,14 +621,12 @@
 			"**Voiceless:** Voiceless (Ex) An Ib shade has no voice and cannot speak or take any verbal action as a result. An Ib shade that gains a level in a spellcasting class automatically replaces any verbal components required by its spells with thought components.  ",
 			"**Languages:** A being of Ib cannot speak, but is entirely capable of learning and understanding languages. The creatures' language, Ib, is a combination of hand gestures and facial expressions."
 		],
-		"short_description": "Living examples of this time-forgotten race may yet exist on distant worlds, or they could be resurrected by curious spellcasters. A living being of Ib is not a very dangerous creature, but those who gain levels in spellcasting classes can become quite formidable; they overwhelmingly prefer divine spellcasting classes and typically venerate Bokrug.",
 		"display": "race"
 	},
 	"caligni": {
 		"name": "Caligni",
 		"file": "racesdisplay30d2.html",
 		"sources": [ "Bestiary 5" ],
-		"has_monster_entry": true,
 		"description": [
 			"## Caligni",
 			"",
@@ -659,7 +647,6 @@
 			"**Light Sensitivity:** Caligni are dazzled in areas of bright light.  ",
 			"**Death Throes:** When a caligni is slain, its body combusts in a flash of searing light. All creatures within a 5-foot burst must succeed at a Fortitude save (DC = 10 + 1/2 the caligni's Hit Dice + the caligni's Constitution bonus) or be dazzled for 1d4 rounds. The corpse left behind is a third of the caligni's size, withered and unrecognizable as the individual. Raise dead and similar spells cast upon these remains restore a caligni as normal."
 		],
-		"short_description": "The name \"caligni\" is an ancient term for the races now collectively known as dark folk, sometimes still used by dark folk communities to refer to themselves.",
 		"display": "race"
 	},
 	"catfolk": {
@@ -672,7 +659,6 @@
 			"Wilderness Origins",
 			"Bestiary 3"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Catfolk",
 			"",
@@ -769,14 +755,12 @@
 			"**Slayer** ([Blood of the Beast pg. 4](source/blood_of_the_beast)): Add 1/3 to the result of any sneak attack damage that the slayer deals after all sneak attack damage dice have been totaled.  ",
 			"**Sorcerer** ([Advanced Race Guide pg. 92](source/advanced_race_guide)): Select one bloodline power at 1st level that is normally usable a number of times equal to 3 + the sorcerer's Charisma modifier. The sorcerer adds + 1/2 to the number of uses per day of that bloodline power."
 		],
-		"short_description": "A race of graceful explorers, catfolk are both clannish and curious by nature. They tend to get along with races that treat them well and respect their boundaries. They love exploration, both physical and intellectual, and tend to be natural adventurers.",
 		"display": "race"
 	},
 	"cecaelia": {
 		"name": "Cecaelia",
 		"file": "racesdisplaya513.html",
 		"sources": [ "Blood of the Sea" ],
-		"has_monster_entry": true,
 		"description": [
 			"## Cecaelia",
 			"",
@@ -832,7 +816,6 @@
 			"**Source** [Blood of the Sea pg. 7](source/blood_of_the_sea)  ",
 			"Cecaelias born with rubbery, resilient tentacles can't use them to detect movement in the water but can use them to attack other creatures more easily. Cecaelias with this racial trait receive a +4 racial bonus on combat maneuver checks to trip an opponent. This racial trait replaces tentacle sense."
 		],
-		"short_description": "Short-lived humanoids with octopus tentacles in place of legs, cecaelis are a curious and social race",
 		"display": "race"
 	},
 	"changeling": {
@@ -847,7 +830,6 @@
 			"Bestiary 4",
 			"Pathfinder #43: Haunting of Harrowstone"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Changeling",
 			"",
@@ -1050,14 +1032,12 @@
 			"**Witch** ([Advanced Race Guide pg. 184](source/advanced_race_guide)): Add one spell from the witch spell list to the witch's familiar. This spell must be at least one level below the highest spell level she can cast. If the witch ever replaces her familiar, the new familiar knows these bonus spells.",
 			""
 		],
-		"short_description": "Women of strange powers, changelings are the unaware offspring of hags, living with mysterious gifts and unknowingly awaiting a call to become a hag themselves.",
 		"display": "race"
 	},
 	"deep_one_hybrid": {
 		"name": "Deep One Hybrid",
 		"file": "racesdisplay2c5b.html",
 		"sources": [ "Bestiary 5" ],
-		"has_monster_entry": true,
 		"description": [
 			"## Deep One Hybrid",
 			"",
@@ -1077,7 +1057,6 @@
 			"**Take to the Water (Ex):** A deep one hybrid can hold its breath 10 times longer than a human can, and gains a +2 bonus on Initiative checks and Reflex saving throws while swimming. A deep one hybrid has a swim speed of 30 feet, and gains a +8 racial bonus on all Swim checks.  ",
 			"**Languages:** Deep one hybrids begin play speaking Aklo and Common. Hybrids with high Intelligence scores can choose from the following languages: Abyssal, Aquan, Dwarven, Elven, Giant, Gnome, Goblin, Half ling, Orc, and Undercommon."
 		],
-		"short_description": "Deep one hybrids are the spawn of humans and deep ones.",
 		"display": "race"
 	},
 	"dhampir": {
@@ -1090,7 +1069,6 @@
 			"Blood of the Night",
 			"Wilderness Origins"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Dhampir",
 			"",
@@ -1217,14 +1195,12 @@
 			"**Shifter** ([Wilderness Origins pg. 8](source/wilderness_origins)): Add a +1 bonus on wild empathy checks to improve the attitude of bats, rats, and wolves.  ",
 			"**Wizard** ([Advanced Race Guide pg. 98](source/advanced_race_guide)): Add +1/4 to the wizard's caster level when casting spells of the necromancy school."
 		],
-		"short_description": "The accursed spawn of vampires, dhampirs are living creatures tainted with the curse of undeath, which causes them to take damage from positive energy and gain healing from negative energy. While many members of this race embrace their dark sides, others are powerfully driven to rebel against their taint and hunt down and destroy vampires and their ilk.",
 		"display": "race"
 	},
 	"drow_noble": {
 		"name": "Drow Noble",
 		"file": "racesdisplay6b50.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
-		"has_monster_entry": true,
 		"description": [
 			"## Drow Noble",
 			"",
@@ -1239,7 +1215,6 @@
 			"**Spell Resistance:** Drow nobles have spell resistance equal to 11 + their character level.  ",
 			"**Spell-Like Abilities:** Drow nobles can cast dancing lights, deeper darkness, faerie fire, feather fall, and levitate each at will, and have detect magic as a constant spell-like ability. A drow noble can also cast divine favor, dispel magic, and suggestion once per day each. In some cases, a drow noble's spell-like abilities might vary, although the level of a particular spell-like ability does not. A drow noble's caster level for her spell-like abilities is equal to her character level."
 		],
-		"short_description": "About one out of every 20 drow is gifted with special powers from birth-the overwhelming majority of these exceptional drow are female, and as a result, drow society tends to be matriarchal in nature.",
 		"display": "race"
 	},
 	"drow": {
@@ -1253,7 +1228,6 @@
 			"Agents of Evil",
 			"Wilderness Origins"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Drow",
 			"",
@@ -1414,7 +1388,6 @@
 			"**Warpriest** ([Blood of Shadows pg. 15](source/blood_of_shadows)): Add 1/2 point to the amount of damage dealt or healed by the warpriest's fervor ability.  ",
 			"**Wizard** ([Advanced Race Guide pg. 104](source/advanced_race_guide)): Select one arcane school power at 1st level that is normally usable a number of times per day equal to 3 + the wizard's Intelligence modifier. The wizard adds +1/2 to the number of uses per day of that arcane school power."
 		],
-		"short_description": "Dark reflections of surface elves, drow are shadowy hunters who strive to snuff out the world's light. Drow are powerful magical creatures who typically serve demons, and only their chaotic nature stops them from becoming an even greater menace. A select few forsake their race's depraved and nihilistic society to walk a heroic path.",
 		"display": "race"
 	},
 	"duergar": {
@@ -1427,7 +1400,6 @@
 			"Monster Codex",
 			"Darklands Revisited"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Duergar",
 			"",
@@ -1499,7 +1471,6 @@
 			"**Kineticist** ([Darklands Revisited pg. 13](source/darklands_revisited)): Add 1/5 of an Extra Wild Talent feat that must be spent on an earth element wild talent.  ",
 			"**Psychic** ([Darklands Revisited pg. 13](source/darklands_revisited)): The psychic treats her Wisdom bonus as 1/3 point higher for the purpose of determining the number of uses or rounds per day of her discipline powers."
 		],
-		"short_description": "Gray skinned, deep-dwelling dwarves who hate their lighter skinned cousins, duergar view life as constant toil ending only in death. Though these dwarves are typically evil, honor and keeping one's word means everything to them, and a rare few make loyal adventuring companions.",
 		"display": "race"
 	},
 	"duskwalker": {
@@ -1509,7 +1480,6 @@
 			"Planar Adventures",
 			"Plane-Hopper's Handbook"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Duskwalker",
 			"",
@@ -1587,7 +1557,6 @@
 			"**Witch** ([Plane-Hopper's Handbook pg. 17](source/plane-hopper's_handbook)): Add 1/4 to the witch's caster level when casting spells of the necromancy school.  ",
 			"**Wizard** ([Plane-Hopper's Handbook pg. 17](source/plane-hopper's_handbook)): Add 1/4 to the wizard's caster level when casting spells of the necromancy school."
 		],
-		"short_description": "Duskwalkers are tall, bipedal, gray-skinned beings with a connection to Pharasma's Boneyard.",
 		"display": "race"
 	},
 	"dwarf": {
@@ -2014,7 +1983,6 @@
 			"**Wizard** ([Advanced Race Guide pg. 13](source/advanced_race_guide)): Select one item creation feat known by the wizard. Whenever he crafts an item using that feat, the amount of progress he makes in an 8-hour period increases by 200 gp (50 gp if crafting while adventuring). This does not reduce the cost of the item; it just increases the rate at which the item is crafted.  ",
 			"**Wizard** ([Horror Adventures pg. 38](source/horror_adventures)): Add 1/3 to the effective caster level of wizard abjuration spells, but only to determine duration."
 		],
-		"short_description": "These short and stocky defenders of mountain fortresses are often seen as stern and humorless. Known for mining the earth's treasures and crafting magnificent items from ore and gemstones, they have an unrivaled affinity for the bounties of the deep earth. Dwarves also have a tendency toward traditionalism and isolation that sometimes manifests as xenophobia.",
 		"display": "race"
 	},
 	"elf": {
@@ -2448,7 +2416,6 @@
 			"**Witch** ([Horror Adventures pg. 39](source/horror_adventures)): Add a +1/2 bonus on Spellcraft checks to identify cursed items and on Sense Motive checks to notice enchantment or possession.  ",
 			"**Wizard** ([Advanced Race Guide pg. 23](source/advanced_race_guide), [Advanced Player's Guide pg. 13](source/advanced_player's_guide)): Select one arcane school power at 1st level that is normally usable a number of times per day equal to 3 + the wizard's Intelligence modifier. The wizard adds +1/2 to the number of uses per day of that arcane school power."
 		],
-		"short_description": "Tall, noble, and often haughty, elves are long-lived and subtle masters of the wilderness. Elves excel in the arcane arts. Often they use their intrinsic link to nature to forge new spells and create wondrous items that, like their creators, seem nearly impervious to the ravages of time. A private and often introverted race, elves can give the impression they are indifferent to the plights of others.",
 		"display": "race"
 	},
 	"aquatic_elf": {
@@ -2526,7 +2493,6 @@
 			"**Witch** ([Blood of the Sea pg. 5](source/blood_of_the_sea)): When casting a witch spell underwater, add 1/3 to the effective caster level of the spell for the purpose of determining the spell's duration.  ",
 			"**Wizard** ([Blood of the Sea pg. 5](source/blood_of_the_sea)): Add 1 to the wizard's caster level check when attempting to cast a spell with the fire descriptor underwater."
 		],
-		"short_description": "Aquatic elves resemble their surface cousins, but they have several adaptations that allow them to live comfortably beneath the seas, including webbed hands",
 		"display": "race"
 	},
 	"fetchling": {
@@ -2539,7 +2505,6 @@
 			"Blood of Shadows",
 			"Agents of Evil"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Fetchling",
 			"",
@@ -2667,7 +2632,6 @@
 			"**Summoner** ([Advanced Race Guide pg. 109](source/advanced_race_guide)): The summoner's eidolon gains resistance 1 against either cold or electricity. Each time the summoner selects this reward, he increases his eidolon's resistance to one of those energy types by 1 (maximum 10 for any one energy type).  ",
 			"**Wizard** ([Advanced Race Guide pg. 109](source/advanced_race_guide)): Add one spell from the wizard spell list to wizard's spellbook. The spell must be at or below the highest level he can cast and be of the illusion (shadow) subschool or have the darkness descriptor."
 		],
-		"short_description": "Long ago, fetchlings were humans exiled to the Shadow Plane, but that plane's persistent umbra has transformed them into a race apart. These creatures have developed an ability to meld into the shadows and have a natural affinity for shadow magic. Fetchlings-who call themselves kayal-often serve as emissaries between the inhabitants of the Shadow Plane and the Material Plane.",
 		"display": "race"
 	},
 	"ganzi": {
@@ -2678,7 +2642,6 @@
 			"Distant Shores",
 			"Plane-Hopper's Handbook"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Ganzi",
 			"",
@@ -2746,7 +2709,6 @@
 			"**Sorcerer** ([Plane-Hopper's Handbook pg. 19](source/plane-hopper's_handbook)): Choose a bloodline power from the abyssal or protean bloodlines that the sorcerer can use. The sorcerer treats her class level as though it were 1/2 higher (to a maximum of +4) when determining the effects of that power.  ",
 			"**Wizard** ([Plane-Hopper's Handbook pg. 19](source/plane-hopper's_handbook)): Add 1/3 to the wizard's effective caster level when casting a spell with the chaotic descriptor."
 		],
-		"short_description": "Ganzis are the end result of planar chaos touching living creatures.",
 		"display": "race"
 	},
 	"gathlain": {
@@ -2759,7 +2721,6 @@
 			"Legacy of the First World",
 			"Wilderness Origins"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Gathlain",
 			"",
@@ -2905,7 +2866,6 @@
 			"**Summoner** ([Ultimate Wilderness pg. 10](source/ultimate_wilderness)): Add 1/4 evolution point to the eidolon's evolution pool. These bonus evolution points must be spent on evolutions that grant spell-like abilities or protect the eidolon from spells.  ",
 			"**Witch** ([Ultimate Wilderness pg. 10](source/ultimate_wilderness)): Add one spell from the druid spell list to the witch's familiar. This spell must be at least one level below the highest spell level the witch can cast. If the familiar is ever replaced, the new familiar knows these bonus spells."
 		],
-		"short_description": "According to some fey ballads, gathlains were one of the first peoples awakened in the First World, the primal realm of the fey. Gathlains grow from the seeds of an enormous magical tree-seeds that often drift for hundreds of miles before developing into adolescent gathlains, with the tree's mistletoe grown into their flesh to form their strange wings. Despite being born with a basic understanding of their world, gathlains are inquisitive to a fault. They are known to be invaluable guides and knowledgeable explorers, if one can put up with their numerous questions and strange japes.",
 		"display": "race"
 	},
 	"ghoran": {
@@ -2918,7 +2878,6 @@
 			"Inner Sea Bestiary",
 			"Wilderness Origins"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Ghoran",
 			"",
@@ -3026,7 +2985,6 @@
 			"**Sorcerer** ([Ultimate Wilderness pg. 17](source/ultimate_wilderness)): When casting sorcerer/wizard spells that are also on the druid spell list, add 1/3 to the effective class level, but only for the purpose of determining durations.  ",
 			"**Witch** ([Ultimate Wilderness pg. 17](source/ultimate_wilderness)): Add 1/4 to the witch's caster level when attempting dispel checks using dispel magic, break enchantment, and similar effects."
 		],
-		"short_description": "The first ghorans came into being thousands of years ago during a great war between two nations ruled by rival archmages. When mighty necromantic curses blighted the lands of one nation, leaving its inhabitants on the brink of starvation, their canny leader cut a deal with the renegade druid Ghorus, bidding him to put his forbidden talents to use in saving the realm. The druid's solution was the creation of a race of hardy and fast-adapting plants that could thrive even upon the curse-blighted ground. These plants, which the druid named \"ghorans\" after himself, swiftly developed the ability to move on their own, searching out the most nourishing soil and continuously adapting themselves to survive in more and more dangerous environments. As they grew in intelligence, ghorans evolved humanlike forms as a defense mechanism to induce sympathy and prevent further butchery.",
 		"display": "race"
 	},
 	"gillman": {
@@ -3039,7 +2997,6 @@
 			"Pathfinder Campaign Setting",
 			"Inner Sea Races"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Gillman",
 			"",
@@ -3122,7 +3079,6 @@
 			"**Sorcerer** ([Advanced Race Guide pg. 188](source/advanced_race_guide)): Add one spell known from the sorcerer spell list. This spell must be at least one level below the highest spell level the sorcerer can cast.  ",
 			"**Wizard** ([Advanced Race Guide pg. 188](source/advanced_race_guide)): Add one spell from the wizard spell list to the wizard's spellbook. This spell must be at least one level below the highest spell level he can cast."
 		],
-		"short_description": "Survivors of a land-dwelling culture whose homeland was destroyed, gillmen were saved and transformed into an amphibious race by the aboleths. Though in many ways they appear nearly human, gillmen's bright purple eyes and gills set them apart from humanity. Reclusive and suspicious, gillmen know that one day the aboleths will call in the debt owed to them.",
 		"display": "race"
 	},
 	"gnome": {
@@ -3520,7 +3476,6 @@
 			"**Witch** ([Advanced Race Guide pg. 34](source/advanced_race_guide)): The witch gains 1/6 of a new witch hex.  ",
 			"**Wizard** ([Advanced Race Guide pg. 34](source/advanced_race_guide), [Advanced Player's Guide pg. 15](source/advanced_player's_guide)): Select one arcane school power at 1st level that is normally usable a number of times per day equal to 3 + the wizard's Intelligence modifier. The wizard adds +1/2 to the number of uses per day of that arcane school power."
 		],
-		"short_description": "Expatriates of the strange land of fey, these small folk have a reputation for flighty and eccentric behavior. Many gnomes are whimsical artisans and tinkers, creating strange devices powered by magic, alchemy, and their quirky imagination. Gnomes have an insatiable need for new experiences that often gets them in trouble.",
 		"display": "race"
 	},
 	"goblin": {
@@ -3533,7 +3488,6 @@
 			"Monster Codex",
 			"Goblins of Golarion"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Goblin",
 			"",
@@ -3636,7 +3590,6 @@
 			"**Summoner** ([Advanced Race Guide pg. 116](source/advanced_race_guide)): Add +1/4 evolution point to the eidolon's evolution pool. These bonus evolution points must be spent on evolutions that deal fire damage or protect the eidolon from fire (for example, resistance, energy attacks, immunity, breath weapon, and so on).  ",
 			"**Witch** ([Advanced Race Guide pg. 116](source/advanced_race_guide), [Goblins of Golarion pg. 31](source/goblins_of_golarion)): Add +1 spell from the witch spell list to the witch's familiar. This spell must be at least one level below the highest spell level she can cast. If the witch ever replaces her familiar, the new familiar knows these bonus spells."
 		],
-		"short_description": "Crazy pyromaniacs with a tendency to commit unspeakable violence, goblins are the smallest of the goblinoid races. While they are a fun-loving race, their humor is often cruel and hurtful. Adventuring goblins constantly wrestle with their darkly mischievous side in order to get along with others. Few are truly successful.",
 		"display": "race"
 	},
 	"green_martian": {
@@ -3676,14 +3629,12 @@
 			"**Skill Training:** Ride and Survival are always considered class skills for green Martians.  ",
 			"**Languages:** Green Martians begin play speaking Common. Green Martians with high Intelligence scores can choose any languages they want (except secret languages, such as Druidic)."
 		],
-		"short_description": "Among the hardiest and longest-lived of Barsoom's savage races, the green men of Mars rove the planet's wastelands in brutal tribes of thousands of warriors, seeking their fortunes as nomads amid the crumbling ruins of ancient cities and the vast barren wildlands between them.",
 		"display": "race"
 	},
 	"grindylow": {
 		"name": "Grindylow",
 		"file": "racesdisplay4020.html",
 		"sources": [ "Blood of the Sea" ],
-		"has_monster_entry": true,
 		"description": [
 			"## Grindylow",
 			"",
@@ -3710,7 +3661,6 @@
 			"**Sneaky:** Grindylows have a +4 racial bonus on Stealth checks.  ",
 			"**Languages:** Grindylows begin play speaking Aquan. Grindylows with high Intelligence scores can choose from the following: Aklo, Common, and Goblin."
 		],
-		"short_description": "Grindylow resemble a mixture of goblin and octopus, and they have very similar personalities to their surface cousins",
 		"display": "race"
 	},
 	"grippli": {
@@ -3723,7 +3673,6 @@
 			"Blood of the Beast",
 			"Wilderness Origins"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Grippli",
 			"",
@@ -3797,7 +3746,6 @@
 			"**Swashbuckler** ([Blood of the Beast pg. 8](source/blood_of_the_beast)): Add 1/2 to the swashbuckler's Acrobatics, Climb, Escape Artist, Fly, Ride, and Swim checks when using the derring-do deed.  ",
 			"**Witch** ([Blood of the Beast pg. 8](source/blood_of_the_beast)): Add 1/3 to the saving throw DC to resist the poison of the witch's familiar."
 		],
-		"short_description": "Furtive frogfolk with the ability to camouflage themselves among fens and swamps, gripplis typically keep to their wetland homes, only rarely interacting with the outside world. Their chief motivation for leaving their marshy environs is to trade in metal and gems.",
 		"display": "race"
 	},
 	"half-elf": {
@@ -4209,7 +4157,6 @@
 			"**Witch** ([Advanced Race Guide pg. 43](source/advanced_race_guide), [Advanced Player's Guide pg. 17](source/advanced_player's_guide)): Add one spell from the witch spell list to the witch's familiar. This spell must be at least one level below the highest spell level she can cast. If the witch ever replaces her familiar, the new familiar knows these bonus spells.  ",
 			"**Wizard** ([Advanced Race Guide pg. 43](source/advanced_race_guide)): When casting wizard enchantment spells, add +1/3 to the effective caster level of the spell, but only to determine the spell's duration."
 		],
-		"short_description": "Often caught between the worlds of their progenitor races, half-elves are a race of both grace and contradiction. Their dual heritage and natural gifts often create brilliant diplomats and peacemakers, but half-elves are often susceptible to an intense and even melancholic isolation, realizing that they are never truly part of elven or human society.",
 		"display": "race"
 	},
 	"half_elf": {
@@ -4640,7 +4587,6 @@
 			"**Witch** ([Advanced Race Guide pg. 53](source/advanced_race_guide), [Advanced Player's Guide pg. 19](source/advanced_player's_guide)): Add +1 skill rank to the witch's familiar. If the half-orc ever replaces her familiar, the new familiar gains these bonus skill ranks.  ",
 			"**Wizard** ([Advanced Race Guide pg. 53](source/advanced_race_guide)): Add a +1 bonus on concentration checks made due to taking damage while casting wizard spells."
 		],
-		"short_description": "Often fierce and savage, sometimes noble and resolute, half-orcs can manifest the best and worst qualities of their parent races. Many half-orcs struggle to keep their more bestial natures in check in order to epitomize the most heroic values of humanity. Unfortunately, many outsiders see half-orcs as hopeless abominations devoid of civility, if not monsters unworthy of pity or parley.",
 		"display": "race"
 	},
 	"half_orc": {
@@ -5012,7 +4958,6 @@
 			"**Witch** ([Advanced Race Guide pg. 63](source/advanced_race_guide)): Add +1/4 to the witch's caster level when determining the effects of the spells granted to her by her patron.  ",
 			"**Wizard** ([Advanced Race Guide pg. 63](source/advanced_race_guide)): Add +1/2 to the wizard's effective class level for the purposes of determining his familiar's natural armor adjustment, Intelligence, and special abilities."
 		],
-		"short_description": "Members of this diminutive race find strength in family, community, and their own innate and seemingly inexhaustible luck. While their fierce curiosity is sometimes at odds with their intrinsic common sense, halflings are eternal optimists and cunning opportunists with an incredible knack for getting out the worst situations.",
 		"display": "race"
 	},
 	"hobgoblin": {
@@ -5023,7 +4968,6 @@
 			"Pathfinder RPG Bestiary",
 			"Advanced Race Guide"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Hobgoblin",
 			"",
@@ -5118,7 +5062,6 @@
 			"**Ranger** ([Advanced Race Guide pg. 122](source/advanced_race_guide)): Add +1/4 to a single existing favored enemy bonus (maximum bonus +1 per favored enemy).  ",
 			"**Rogue** ([Advanced Race Guide pg. 122](source/advanced_race_guide)): Reduce the penalty for not being proficient with one weapon by 1. When the nonproficiency penalty for a weapon becomes 0 because of this ability, the rogue is treated as having the appropriate Martial or Exotic Weapon Proficiency feat for that weapon."
 		],
-		"short_description": "These creatures are the most disciplined and militaristic of the goblinoid races. Tall, tough as nails, and strongly built, hobgoblins would be a boon to any adventuring group, were it not for the fact that they tend to be cruel and malicious, and often keep slaves.",
 		"display": "race"
 	},
 	"human": {
@@ -5455,7 +5398,6 @@
 			"**Witch** ([Advanced Race Guide pg. 73](source/advanced_race_guide), [Advanced Player's Guide pg. 23](source/advanced_player's_guide)): Add one spell from the witch spell list to the witch's familiar. This spell must be at least one level below the highest spell level she can cast. If the witch ever replaces her familiar, the new familiar knows these bonus spells.  ",
 			"**Wizard** ([Advanced Race Guide pg. 73](source/advanced_race_guide), [Advanced Player's Guide pg. 23](source/advanced_player's_guide)): Add one spell from the wizard spell list to the wizard's spellbook. This spell must be at least one level below the highest spell level the wizard can cast."
 		],
-		"short_description": "Ambitious, sometimes heroic, and always confident, humans have an ability to work together toward common goals that makes them a force to be reckoned with. Though short-lived compared to other races, their boundless energy and drive allow them to accomplish much in their brief lifetimes.",
 		"display": "race"
 	},
 	"primitive_human": {
@@ -5493,7 +5435,6 @@
 			"**Savage Surge:** Once per day, a primitive human can call upon a well of inner savagery. This grants a +2 bonus to any one Strength-based skill check, Strength check, or weapon damage roll. Using this ability is a free action, but it must be used before the check or attack roll is made.  ",
 			"**Languages:** Primitive humans begin play speaking Common. Those with high Intelligence scores can choose any languages they want (except secret languages, such as Druidic)."
 		],
-		"short_description": "Early humans were far more primitive than their modern descendants.",
 		"display": "race"
 	},
 	"ifrit": {
@@ -5505,7 +5446,6 @@
 			"Advanced Race Guide",
 			"Plane-Hopper's Handbook"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Ifrit",
 			"",
@@ -5635,7 +5575,6 @@
 			"**Rogue** ([Advanced Race Guide pg. 127](source/advanced_race_guide)): Add a +1/2 bonus on Acrobatics checks to jump and a +1/2 bonus on Intimidate checks to demoralize enemies.  ",
 			"**Sorcerer** ([Advanced Race Guide pg. 127](source/advanced_race_guide)): Choose a bloodline power from the elemental (fire) bloodline or the efreeti bloodline that the sorcerer can use. The sorcerer treats her class level as though it were +1/6 higher (to a maximum of +2) when determining the effects of that power."
 		],
-		"short_description": "Ifrits are a race descended from mortals and the strange inhabitants of the Plane of Fire. Their physical traits and personalities often betray their fiery origins, and they tend to be restless, independent, and imperious. Frequently driven from cities for their ability to manipulate flame, ifrits make powerful fire sorcerers and warriors who can wield flame like no other race.",
 		"display": "race"
 	},
 	"kasatha": {
@@ -5646,7 +5585,6 @@
 			"Bestiary 4",
 			"People of the Stars"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Kasatha",
 			"",
@@ -5677,7 +5615,6 @@
 			"**Source** [Inner Sea Races pg. 215](source/inner_sea_races)  ",
 			"Kasatha living on Golarion must often take great pains to hide their existence from others. Such kasathas gain a +2 racial bonus on Stealth checks. Stealth is always a class skill for them. This racial trait replaces jumper and stalker."
 		],
-		"short_description": "Kasathas are a nomadic humanoid race from a desert world that orbits a red sun far beyond Golarion's own solar system.",
 		"display": "race"
 	},
 	"kitsune": {
@@ -5692,7 +5629,6 @@
 			"Blood of the Beast",
 			"Wilderness Origins"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Kitsune",
 			"",
@@ -5776,7 +5712,6 @@
 			"**Swashbuckler** ([Blood of the Beast pg. 12](source/blood_of_the_beast)): Increase the total number of points in the swashbuckler's panache pool by 1/4.  ",
 			"**Vigilante** ([Blood of the Beast pg. 12](source/blood_of_the_beast)): Add 1/2 to the Disguise bonus provided by seamless guise."
 		],
-		"short_description": "These shapeshifting, foxlike folk share a love of mischief, art, and the finer things in life. They can appear as a single human as well as their true form, that of a foxlike humanoid. Kitsune are quick-witted, nimble, and gregarious, and because of this, a fair number of them become adventurers.",
 		"display": "race"
 	},
 	"kobold": {
@@ -5789,7 +5724,6 @@
 			"Kobolds of Golarion",
 			"Wilderness Origins"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Kobold",
 			"",
@@ -5911,14 +5845,12 @@
 			"**Witch** ([Advanced Race Guide pg. 134](source/advanced_race_guide)): Add +5 feet to the distance at which her familiar grants the Alertness feat (maximum +20 feet).  ",
 			"**Wizard** ([Kobolds of Golarion pg. 15](source/kobolds_of_golarion)): Add 1/2 to your familiar's Will saves against enchantment effects, or increase the hit points of your bonded item by 1."
 		],
-		"short_description": "Considering themselves the scions of dragons, kobolds have diminutive statures but massive egos. A select few can take on more draconic traits than their kin, and many are powerful sorcerers, canny alchemists, and cunning rogues.",
 		"display": "race"
 	},
 	"kuru": {
 		"name": "Kuru",
 		"file": "racesdisplay2be5.html",
 		"sources": [ "Isles of the Shackles" ],
-		"has_monster_entry": true,
 		"description": [
 			"## Kuru",
 			"",
@@ -5937,7 +5869,6 @@
 			"**Natural Weapon:** Kuru possess a natural bite attack that deals 1d6 points of damage.  ",
 			"**Languages:** Kuru begin play speaking Kuru. Kuru with high Intelligence scores can choose bonus languages from the following: Abyssal, Common, Polyglot, Undercommon."
 		],
-		"short_description": "Kuru are savage natives of the Shackles, dreadfully transformed by their loathsome \"goddess\", the Blood Queen.",
 		"display": "race"
 	},
 	"lashunta": {
@@ -5948,7 +5879,6 @@
 			"People of the Stars",
 			"Inner Sea Bestiary"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Lashunta",
 			"",
@@ -5976,14 +5906,12 @@
 			"**Source** [Inner Sea Races pg. 216](source/inner_sea_races)  ",
 			"Some lashunta have a knack for manipulating the minds of those they communicate with telepathically. They gain a +1 racial bonus on Charisma-based skill checks to influence any creature with whom they are telepathically communicating. If a lashunta telepathically issues a command to a charmed or dominated creature, she gains a +1 racial bonus on Charisma checks to compel the creature to follow that order. This racial trait replaces lashunta magic."
 		],
-		"short_description": "The lashunta are race of humanoids native to Castrovel that exhibit a curious sexual dimorphism.",
 		"display": "race"
 	},
 	"locathah": {
 		"name": "Locathah",
 		"file": "racesdisplay8eea.html",
 		"sources": [ "Blood of the Sea" ],
-		"has_monster_entry": true,
 		"description": [
 			"## Locathah",
 			"",
@@ -6058,7 +5986,6 @@
 			"**Rogue** ([Blood of the Sea pg. 11](source/blood_of_the_sea)): Choose a piercing melee weapon. Add a +1/2 bonus on critical hit confirmation rolls with that weapon (maximum bonus +4). This bonus does not stack with Critical Focus.  ",
 			"**Slayer** ([Blood of the Sea pg. 11](source/blood_of_the_sea)): Gain 1/6 of a new slayer talent."
 		],
-		"short_description": "Picine humanoids, Locathah are very friendly and inquisitive, though surface dwelling races are often disturbed by their unsettling appearance and powerful scent",
 		"display": "race"
 	},
 	"merfolk": {
@@ -6071,7 +5998,6 @@
 			"Pathfinder RPG Bestiary",
 			"Heroes from the Fringe"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Merfolk",
 			"",
@@ -6149,7 +6075,6 @@
 			"**Sorcerer** ([Advanced Race Guide pg. 194](source/advanced_race_guide)): Add +1/2 to the sorcerer's caster level when determining the range of any spells with the water descriptor.  ",
 			"**Witch** ([Blood of the Sea pg. 13](source/blood_of_the_sea)): Add 1 to the witch's caster level for one of her patron spells (to a maximum of +3 caster level to any one spell)."
 		],
-		"short_description": "From the waist up, merfolk bear the torsos of well-built humans and delicate features reminiscent of elves and other humanoids tied to the natural world.",
 		"display": "race"
 	},
 	"monkey_goblin": {
@@ -6160,7 +6085,6 @@
 			"Inner Sea Bestiary",
 			"Inner Sea Races"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Monkey Goblin",
 			"",
@@ -6182,7 +6106,6 @@
 			"**Prehensile Tail (Ex):** All monkey goblins have long, flexible tails that they can use to carry objects. They cannot wield weapons with their tails, but the tails do allow them to retrieve small objects stowed on their persons as a swift action.  ",
 			"**Languages:** Monkey goblins begin play speaking Goblin. Monkey goblins with high Intelligence scores can choose from the following: Common, Draconic, Dwarven, Gnoll, Gnome, Halfling, Orc."
 		],
-		"short_description": "Monkey goblins are an offshoot of the goblin race adapted for life in the high leafy canopies of Golarion's tropical forests.",
 		"display": "race"
 	},
 	"munavri": {
@@ -6193,7 +6116,6 @@
 			"Occult Bestiary",
 			"Darklands Revisited"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Munavri",
 			"",
@@ -6215,7 +6137,6 @@
 			"**Telepathy (Su):** A munavri is able to mentally communicate with other munavris within 60 feet.  ",
 			"**Languages:** Munavris begin play speaking Munavri. Munavris with high Intelligence scores can choose from the following: Aklo, Aboleth, Aquan, Dark Folk, Draconic, Terran, and Undercommon."
 		],
-		"short_description": "Munavris are a shining example of how the forces of good can thrive, even in the darkest regions of the world. The descendants of humans devastated by Earthfall, munavris dwell amid jade cities in the deepest oceans of the Darklands.",
 		"display": "race"
 	},
 	"nagaji": {
@@ -6229,7 +6150,6 @@
 			"Advanced Race Guide",
 			"Blood of the Beast"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Nagaji",
 			"",
@@ -6281,14 +6201,12 @@
 			"**Summoner** ([Advanced Race Guide pg. 196](source/advanced_race_guide)): Add +1 hit point to the summoner's eidolon.  ",
 			"**Warpriest** ([Blood of the Beast pg. 16](source/blood_of_the_beast)): Add 1/2 to the number of times per day the warpriest can use blessings, although he can use these additional blessings only for Charm, Magic, Nobility, Rune, or Scalykind blessings."
 		],
-		"short_description": "It is believed that nagas created the nagaji as a race of servants and that the nagaji worship their creators as living gods. Due to their reptilian nature and strange mannerisms, these strange, scaly folk inspire fear and wonder in others not of their kind. They are resistant to both poison and mind-affecting magic.",
 		"display": "race"
 	},
 	"naiad": {
 		"name": "Naiad",
 		"file": "racesdisplay2ea8.html",
 		"sources": [ "Bestiary 6" ],
-		"has_monster_entry": true,
 		"description": [
 			"## Naiad",
 			"",
@@ -6306,7 +6224,6 @@
 			"**Water Bond (Su):** A naiad gains strength from a pond, lake, river, or other body of fresh water by bonding with it. While within 300 yards of her bonded body of water, she gains a +1 insight bonus to Armor Class and a +1 racial bonus on saving throws (these bonuses are not included in the stats above). Once per day as a full-round action that provokes attacks of opportunity, a naiad can forge a bond with a body of fresh water.  ",
 			"**Languages:** Naiads begin play speaking Common and Sylvan. Naiads that have high Intelligence scores are able to choose from any of the following bonus languages: Aklo, Aquan, Dwarven, Elven, Giant, Gnome, Goblin, Halfling, Sylvan, and any regional human tongue."
 		],
-		"short_description": "Naiads are protectors of freshwater areas such as lakes, ponds, and particularly rivers.",
 		"display": "race"
 	},
 	"orang-pendak": {
@@ -6314,7 +6231,6 @@
 		"searchable_name": "Orang Pendak",
 		"file": "racesdisplay9294.html",
 		"sources": [ "Bestiary 5" ],
-		"has_monster_entry": true,
 		"description": [
 			"## Orang-Pendak",
 			"",
@@ -6333,7 +6249,6 @@
 			"**Tear Apart:** Orang-pendaks have powerful upper bodies and gain a +2 racial bonus on Strength checks to break or burst an object. This bonus also applies on combat maneuver checks to sunder with their unarmed attacks.  ",
 			"**Languages:** Orang-pendaks begin play speaking Sasquatch. Orang-pendaks who have high Intelligence scores can choose from the following: Aklo, Common, Draconic, Goblin, Grippli, Sylvan, Vanaran, and Vishkanya."
 		],
-		"short_description": "Orang-pendaks are sasquatch-like humanoids who have an affinity towards apes and monkeys",
 		"display": "race"
 	},
 	"orang_pendak": {
@@ -6348,7 +6263,6 @@
 			"Advanced Race Guide",
 			"Wilderness Origins"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Orc",
 			"",
@@ -6430,7 +6344,6 @@
 			"**Shifter** ([Wilderness Origins pg. 8](source/wilderness_origins)): Add 1/5 to the damage dealt when using the shifter claws ability.  ",
 			"**Witch** ([Advanced Race Guide pg. 139](source/advanced_race_guide)): Add one spell from the witch spell list to the witch's familiar. This spell must be at least one level below the highest spell level she can cast. If the witch ever replaces her familiar, the new familiar knows these bonus spells."
 		],
-		"short_description": "Savage, brutish, and hard to kill, orcs are often the scourge of far-flung wildernesses and cavern deeps. Many orcs become fearsome barbarians, as they are muscular and prone to bloody rages. Those few who can control their bloodlust make excellent adventurers.",
 		"display": "race"
 	},
 	"oread": {
@@ -6443,7 +6356,6 @@
 			"Plane-Hopper's Handbook",
 			"Blood of the Elements"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Oread",
 			"",
@@ -6613,7 +6525,6 @@
 			"**Ranger** ([Advanced Race Guide pg. 145](source/advanced_race_guide)): Add +1/4 to the natural armor bonus of the ranger's animal companion. If the ranger ever replaces his animal companion, the new animal companion gains this bonus.  ",
 			"**Summoner** ([Advanced Race Guide pg. 145](source/advanced_race_guide)): Add a +1/4 natural armor bonus to the AC of the summoner's eidolon."
 		],
-		"short_description": "Creatures of human ancestry mixed with the blood of creatures from the Plane of Earth, oreads are as strong and solid as stone. Often stubborn and steadfast, their unyielding nature makes it hard for them to get along with most races other than dwarves. Oreads make excellent warriors and sorcerers who can manipulate the raw power of stone and earth.",
 		"display": "race"
 	},
 	"ratfolk": {
@@ -6627,7 +6538,6 @@
 			"Wilderness Origins",
 			"Bestiary 3"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Ratfolk",
 			"",
@@ -6736,14 +6646,12 @@
 			"**Swashbuckler** ([Blood of the Beast pg. 20](source/blood_of_the_beast)): Add 1/4 to the AC bonus provided by cover or improved cover.  ",
 			"**Witch** ([Advanced Race Guide pg. 151](source/advanced_race_guide)): Add +5 feet to the range of one hex with a range other than \"touch.\""
 		],
-		"short_description": "These small, ratlike humanoids are clannish and nomadic masters of trade. Often tinkers and traders, they are more concerned with accumulating interesting trinkets than amassing wealth. Ratfolk often adventure to find new and interesting curiosities rather than coin.",
 		"display": "race"
 	},
 	"reptoid": {
 		"name": "Reptoid",
 		"file": "racesdisplayb107.html",
 		"sources": [ "Bestiary 5" ],
-		"has_monster_entry": true,
 		"description": [
 			"## Reptoid",
 			"",
@@ -6764,14 +6672,12 @@
 			"**Mental Potency (Ex):** A reptoid's mental effects can affect more powerful creatures or a greater number of creatures than normal. Both the Hit Die limit and the total number of Hit Dice affected by each enchantment or illusion spell it casts increase by 1. For enchantment and illusion spells it casts that target a number of creatures greater than one, the number of creatures affected also increases by one (so a spell that targets one creature per level would be affected, but a spell that targets only one creature would not be). This ability stacks with the [mesmerist's](class/mesmerist) ability of the same name.  ",
 			"**Languages:** All reptoids begin play speaking Common and Reptoid. Reptoids with high Intelligence scores can choose any languages they want (except for secret languages, such as Druidic)."
 		],
-		"short_description": "Reptoids are bipedal, shapeshifting reptiles from another planet",
 		"display": "race"
 	},
 	"rougarou": {
 		"name": "Rougarou",
 		"file": "racesdisplay0039.html",
 		"sources": [ "Bestiary 6" ],
-		"has_monster_entry": true,
 		"description": [
 			"## Rougarou",
 			"",
@@ -6794,7 +6700,6 @@
 			"**Natural Weapon:** Rougarous have a bite attack that deals 1d4 points of damage. This is a secondary attack if a rougarou wields a manufactured weapon.  ",
 			"**Languages:** Rougarous speak Common and their own racial language of Rougarou. Rougarous with high Intelligence scores can choose from these bonus languages: Aklo, Elven, Gnoll, Gnome, Goblin, or Sylvan."
 		],
-		"short_description": "Rougarous are wolf-headed humanoids who can transform into wolves",
 		"display": "race"
 	},
 	"sahuagin": {
@@ -6804,7 +6709,6 @@
 			"Blood of the Sea",
 			"Heroes from the Fringe"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Sahuagin",
 			"",
@@ -6853,7 +6757,6 @@
 			"**Source** [Heroes from the Fringe pg. 31](source/heroes_from_the_fringe)  ",
 			"While Outsear sahuagin typically don't have a history of music, over the years the merfolk of the city have shared their love of song with them. Sahuagin with this racial trait gain a +2 racial bonus on Perform (sing) checks and a +1 racial bonus on saves against language-dependent effects. This replaces speak with sharks."
 		],
-		"short_description": "The scourge of the ocean, Sahuagin form powerful tribes that constantly strike out at their neighbors",
 		"display": "race"
 	},
 	"samsaran": {
@@ -6866,7 +6769,6 @@
 			"Dragon Empires Gazetteer",
 			"Dragon Empires Primer"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Samsaran",
 			"",
@@ -6912,14 +6814,12 @@
 			"**Rogue** ([Advanced Race Guide pg. 198](source/advanced_race_guide)): The rogue gains 1/6 of a new rogue talent.  ",
 			"**Wizard** ([Advanced Race Guide pg. 198](source/advanced_race_guide)): Add one spell from the wizard spell list to the wizard's spellbook. This spell must be at least one level below the highest spell level the wizard can cast."
 		],
-		"short_description": "Ghostly servants of karma, samsarans are creatures reincarnated hundreds if not thousands of times in the hope of reaching true enlightenment. Unlike humans and other races, these humanoids remember much of their past lives.",
 		"display": "race"
 	},
 	"reborn_samsaran": {
 		"name": "Reborn Samsaran",
 		"file": "racesdisplayebc9.html",
 		"sources": [ "Occult Bestiary" ],
-		"has_monster_entry": true,
 		"description": [
 			"## Reborn Samsaran",
 			"",
@@ -6941,7 +6841,6 @@
 			"**Psychic Learning:** When a reborn samsaran expends psychic energy to cast psychic reading to identify a humanoid's class, he temporarily treats two of the target's class skills as if they were class skills for him. He can use these skills untrained and gains a +2 insight bonus on such checks. These benefits last for 24 hours or until the reborn samsaran spends psychic energy to cast psychic reading again.  ",
 			"**Languages:** Reborn samsarans begin play speaking Common and Samsaran. Those reborn samsarans with high Intelligence scores can choose from the following: any human language, Abyssal, Aquan, Auran, Celestial, Draconic, Giant, Ignan, Infernal, and Terran."
 		],
-		"short_description": "Sometimes a samsaran perishes under especially dramatic emotional circumstances, causing its soul to wander the Ethereal Plane before finally reincarnating. This spirit journey frays the samsaran's connection to his past lives but strengthens his ability to read others' pasts and present.",
 		"display": "race"
 	},
 	"shabti": {
@@ -6952,7 +6851,6 @@
 			"Pathfinder #84: Pyramid of the Sky Pharaoh",
 			"Plane-Hopper's Handbook"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Shabti",
 			"",
@@ -7029,7 +6927,6 @@
 			"**Skald** ([Plane-Hopper's Handbook pg. 23](source/plane-hopper's_handbook)): Add 1/2 to the skald's bardic knowledge bonus.  ",
 			"**Spiritualist** ([Plane-Hopper's Handbook pg. 23](source/plane-hopper's_handbook)): Add 1 foot to the limit of etheric tether. This includes how far the spiritualist's phantom can be before needing to concentrate and before the tether is broken."
 		],
-		"short_description": "Death is more terrifying for those who have the best of life. Many rulers obsess over their mortality, the most brazen turning to the mystical arts, pouring their fears into splendid vessels, fashioning simulacra of themselves to bear the scourge of Pharasma's judgment. In the mortal world, these icons are nothing but gold with a ruler's face and name, but in death, they are shabti.",
 		"display": "race"
 	},
 	"skinwalker": {
@@ -7041,7 +6938,6 @@
 			"Blood of the Moon",
 			"Pathfinder #115: Trail of the Hunted"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Skinwalker",
 			"",
@@ -7228,7 +7124,6 @@
 			"**Source** [Inner Sea Races pg. 216](source/inner_sea_races)  ",
 			"Some skinwalkers' ability to communicate with animals is stronger than their ability to transform. Such skinwalkers can only use their change shape ability once per day for 1 minute per level, but they can use their speak with animals spell-like ability at will. This racial trait alters the change shape and spell-like ability racial traits."
 		],
-		"short_description": "These distant progeny of monstrous werewolves and other creatures of the night have special talents unlike those of most civilized peoples, and they arise randomly among remote humanoid populations as well as within their own secretive sects.",
 		"display": "race"
 	},
 	"strix": {
@@ -7241,7 +7136,6 @@
 			"Pathfinder #25: The Bastards of Erebus",
 			"Pathfinder #101: The Kintargo Contract"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Strix",
 			"",
@@ -7314,7 +7208,6 @@
 			"**Slayer** ([Pathfinder #101: The Kintargo Contract pg. 73](source/pathfinder_#101_the_kintargo_contract)): Increase the studied target bonus on Perception and Survival checks by 1/4. When the slayer gains the stalker class feature, the slayer also gains this increase to the studied target bonus on Stealth checks.  ",
 			"**Witch** ([Pathfinder #101: The Kintargo Contract pg. 73](source/pathfinder_#101_the_kintargo_contract)): Add one spell from the witch spell list to the witch's familiar. This spell must be at least 1 level below the highest spell level the witch can cast. If the witch ever replaces this familiar, the new familiar knows these bonus spells."
 		],
-		"short_description": "Hunted to dwindling numbers by humans, who see them as winged devils, strix are black-skinned masters of the nighttime sky. Their territorial conflicts have fueled their hatred for humans. This longstanding feud means that these nocturnal creatures often attack humans on sight.",
 		"display": "race"
 	},
 	"suli": {
@@ -7326,7 +7219,6 @@
 			"Qadira, Gateway to the East",
 			"Advanced Race Guide"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Suli",
 			"",
@@ -7385,7 +7277,6 @@
 			"**Monk** ([Advanced Race Guide pg. 203](source/advanced_race_guide)): Add +1/2 point of damage to elemental assault.  ",
 			"**Ranger** ([Advanced Race Guide pg. 203](source/advanced_race_guide)): Add +1 to acid resistance, cold resistance, electricity resistance, or fire resistance."
 		],
-		"short_description": "Also called suli-jann, these humanoids are the descendants of mortals and jann. These strong and charismatic individuals manifest mastery over elemental power in their adolescence, giving them the ability to manipulate earth, fire, ice, or electricity. This elemental power tends to be reflected in the suli's personality as well.",
 		"display": "race"
 	},
 	"svirfneblin": {
@@ -7396,7 +7287,6 @@
 			"Advanced Race Guide",
 			"Pathfinder RPG Bestiary"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Svirfneblin",
 			"",
@@ -7449,7 +7339,6 @@
 			"**Oracle** ([Advanced Race Guide pg. 204](source/advanced_race_guide)): Add one spell known from the oracle spell list. This spell must be at least one level below the highest spell level the oracle can cast.  ",
 			"**Ranger** ([Advanced Race Guide pg. 204](source/advanced_race_guide)): Add DR 1/magic to the ranger's animal companion. Each additional time the ranger selects this benefit, the DR/magic increases +1/2 (maximum DR 10/magic). If the ranger ever replaces his animal companion, the new companion gains this DR."
 		],
-		"short_description": "Gnomes who guard their hidden enclaves within dark tunnels and caverns deep under the earth, svirfneblin are as serious as their surface cousins are whimsical. They are resistant to the magic of the foul creatures that share their subterranean environs, and wield powerful protective magic. Svirfneblin are distrustful of outsiders and often hide at their approach.",
 		"display": "race"
 	},
 	"sylph": {
@@ -7589,7 +7478,6 @@
 			"**Witch** ([Advanced Race Guide pg. 157](source/advanced_race_guide)): Add a +1/2 bonus on Stealth checks and Perception checks made by the witch's familiar. If the sylph ever replaces her familiar, the new familiar gains these bonus skill ranks.  ",
 			"**Wizard** ([Advanced Race Guide pg. 157](source/advanced_race_guide)): Select one arcane school power from the air or wood elemental schools that the wizard can currently use. The wizard treats her class level as though it were +1/6 higher (to a maximum of +2) when determining the effects of that power."
 		],
-		"short_description": "Ethereal folk of elemental air, sylphs are the result of human blood mixed with that of airy elemental folk. Like ifrits, oreads, and undines, they can become powerful elemental sorcerers with command over their particular elemental dominion. They tend to be beautiful and lithe, and have a knack for eavesdropping.",
 		"display": "race"
 	},
 	"syrinx": {
@@ -7599,7 +7487,6 @@
 			"Inner Sea Races",
 			"Inner Sea Bestiary"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Syrinx",
 			"",
@@ -7626,7 +7513,6 @@
 			"**Source** [Inner Sea Races pg. 216](source/inner_sea_races)  ",
 			"Syrinxes often have a natural talent for sensing how to unsettle and oppress other creatures. As a swift action, a syrinx can attempt a Sense Motive check against a DC of 10 + a creature's Hit Dice + its Charisma modifier or a DC of 10 + the creature's Bluff modifier, whichever is higher. On a success, syrinx gains a +4 racial bonus on Intimidate checks against that target and a +1 racial bonus to the DC of any fear effects she uses against that target. This racial trait replaces nocturnal and pride."
 		],
-		"short_description": "From lofty monastery-cities entrenched in soaring cliff sides and high mountain valleys, the syrinx seek to bring peace to all lands that fall within sight of their marbled spires.",
 		"display": "race"
 	},
 	"tengu": {
@@ -7640,7 +7526,6 @@
 			"Pathfinder RPG Bestiary",
 			"Blood of the Beast"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Tengu",
 			"",
@@ -7716,7 +7601,6 @@
 			"**Swashbuckler** ([Blood of the Beast pg. 24](source/blood_of_the_beast)): Add 1/2 to the swashbuckler's Acrobatics, Climb, Escape Artist, Fly, Ride, and Swim checks when using the derring-do deed.  ",
 			"**Witch** ([Advanced Race Guide pg. 167](source/advanced_race_guide)): Add one spell from the witch spell list to the witch's familiar. This spell must be at least one level below the highest spell level she can cast. If the witch ever replaces her familiar, the new familiar knows these bonus spells."
 		],
-		"short_description": "Long oppressed as a poor underclass within human nations and viewed as thieves and dishonorable scoundrels, many raven-headed tengus yearn to break free of these casterestrictions and stereotypes.",
 		"display": "race"
 	},
 	"tiefling": {
@@ -7731,7 +7615,6 @@
 			"Blood of Shadows",
 			"Wilderness Origins"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Tiefling",
 			"",
@@ -8188,7 +8071,6 @@
 			"**Witch** ([Advanced Race Guide pg. 170](source/advanced_race_guide)): The witch's familiar gains resistance 1 against cold, electricity, or fire. Each time the witch selects this reward, increase the familiar's resistance to one of these energy types by 1 (maximum 5 for any one type). If the witch ever replaces her familiar, the new familiar has these resistances.  ",
 			"**Wizard** ([Advanced Race Guide pg. 170](source/advanced_race_guide)): Select one arcane school power at 1st level that is normally usable a number of times per day equal to 3 + the wizard's Intelligence modifier. The wizard adds +1/2 to the number of uses per day of that arcane school power."
 		],
-		"short_description": "Diverse and often despised by humanoid society, tieflings are mortals stained with the blood of fiends. Other races rarely trust them, and this lack of empathy usually causes tieflings to embrace the evil, depravity, and rage that seethe within their corrupt blood. A select few see the struggle to smother such dark desires as motivation for grand heroism.",
 		"display": "race"
 	},
 	"triaxian": {
@@ -8199,7 +8081,6 @@
 			"Pathfinder #70: The Frozen Stars",
 			"People of the Stars"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Triaxian",
 			"",
@@ -8227,14 +8108,12 @@
 			"**Source** [Inner Sea Races pg. 217](source/inner_sea_races)  ",
 			"Transitional Triaxians are often instilled from a young age with the lore they need to prepare for the next winter or summer; they gain a +1 racial bonus on Knowledge (nature) and Survival checks. This racial trait replaces seasoned."
 		],
-		"short_description": "Triaxians, the race of humanoids native to Triaxus, have developed an amazing physiological adaptation to their planet's centuries-long seasons.",
 		"display": "race"
 	},
 	"triton": {
 		"name": "Triton",
 		"file": "racesdisplay81ca.html",
 		"sources": [ "Blood of the Sea" ],
-		"has_monster_entry": true,
 		"description": [
 			"## Triton",
 			"",
@@ -8270,7 +8149,6 @@
 			"**Spell-Like Ability:** Tritons can cast summon nature's ally II once per day to summon either a Small water elemental or 1d3 dolphins only.  ",
 			"**Languages:** Tritons begin play speaking Aquan and Common. Tritons with a high Intelligence score can choose from the following: Aboleth, Aklo, Celestial, Draconic, Elven, Gnome, and Sylvan."
 		],
-		"short_description": "Tritons are scaly, finned humanoids who serve as the sentinals against the evil forces of the oceans",
 		"display": "race"
 	},
 	"trox": {
@@ -8280,7 +8158,6 @@
 			"Inner Sea Races",
 			"Bestiary 4"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Trox",
 			"",
@@ -8307,7 +8184,6 @@
 			"**Source** [Inner Sea Races pg. 217](source/inner_sea_races)  ",
 			"Some trox have developed a closeness to the earth that helps them thwart the invisibility of their duergar enemies. They gain tremorsense to a range of 30 feet. This racial trait replaces frenzy and burrow."
 		],
-		"short_description": "Trox were once members of a much smaller and more docile race of subterranean burrowers, but were long ago enslaved by the duergar and bred into useful brutes.",
 		"display": "race"
 	},
 	"undine": {
@@ -8320,7 +8196,6 @@
 			"Plane-Hopper's Handbook",
 			"Wilderness Origins"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Undine",
 			"",
@@ -8462,7 +8337,6 @@
 			"**Summoner** ([Advanced Race Guide pg. 176](source/advanced_race_guide)): If the summoner's eidolon has an aquatic base form , add +5 feet to the range of the summoner's life link ability.  ",
 			"**Wizard** ([Advanced Race Guide pg. 176](source/advanced_race_guide)): Add one spell from the cleric, druid, or wizard spell list with the water descriptor to the wizard's spellbook. This spell must be at least one level below the highest spell level he can cast. This spell is treated as one level higher unless it also appears on the wizard spell list."
 		],
-		"short_description": "Like their cousins, the ifrits, oreads, and sylphs, undines are humans touched by planar elements. They are the scions of elemental water, equally graceful both on land and in water. Undines are adaptable and resistant to cold, and have an affinity for water magic.",
 		"display": "race"
 	},
 	"vanara": {
@@ -8475,7 +8349,6 @@
 			"Blood of the Beast",
 			"Wilderness Origins"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Vanara",
 			"",
@@ -8547,7 +8420,6 @@
 			"**Witch** ([Blood of the Beast pg. 28](source/blood_of_the_beast)): Add 1/4 to the witch's caster level when determining the effects of spells granted to her by her patron (to a maximum of +2).  ",
 			"**Wizard** ([Blood of the Beast pg. 28](source/blood_of_the_beast)): 1/6 of a bonus feat. This feat must be an item creation feat, a metamagic feat, or Spell Mastery."
 		],
-		"short_description": "These mischievous, monkeylike humanoids dwell in jungles and warm forests. Covered in soft fur and sporting prehensile tails and handlike feet, vanaras are strong climbers. These creatures are at home both on the ground and among the treetops.",
 		"display": "race"
 	},
 	"vine_leshy": {
@@ -8676,7 +8548,6 @@
 			"**Shaman** ([Ultimate Wilderness pg. 22](source/ultimate_wilderness)): Shamans with the nature or wood spirit add one spell from the druid's spell list that isn't on the shaman spell list to the shaman's spell list; she still must select this spell as one of her spells known in order to cast it. This spell must be at least 1 level lower than the highest spell level the shaman can cast.  ",
 			"**Shifter** ([Wilderness Origins pg. 8](source/wilderness_origins)): Add a +1 bonus on Knowledge (nature) checks relating to plants."
 		],
-		"short_description": "Vine leshys are born by ritual, called forth when a druid channels a nature spirit into a plant's form. The nature spirit that answers the call for a vine leshy creation ritual is always one that has keenly felt the influence of mortal beings. Compared to other leshys, vine leshys have an easier time relating to non-plant creatures and a deeper sense of curiosity about the wonders of the natural world beyond those plants closely related to them, as well as a fascination with the societies of humans and other creatures.",
 		"display": "race"
 	},
 	"vishkanya": {
@@ -8687,7 +8558,6 @@
 			"Advanced Race Guide",
 			"Bestiary 3"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Vishkanya",
 			"",
@@ -8740,7 +8610,6 @@
 			"**Rogue** ([Advanced Race Guide pg. 208](source/advanced_race_guide)): Add +1 to the rogue's CMD when resisting a grapple or reposition attempt.  ",
 			"**Sorcerer** ([Advanced Race Guide pg. 208](source/advanced_race_guide)): Select one bloodline power at 1st level that is normally usable a number of times per day equal to 3 + the sorcerer's Charisma modifier. The sorcerer adds +1/2 to the number of uses per day of that bloodline power."
 		],
-		"short_description": "Strangely beautiful on the outside and poisonous on the inside, vishkanyas see the world through slitted serpent eyes. Vishkanyas possess a serpent's grace and ability to writhe out of their enemies' grasp with ease. Vishkanyas have a reputation for being both seductive and manipulative. They can use their saliva or blood to poison their weapons.",
 		"display": "race"
 	},
 	"wayang": {
@@ -8754,7 +8623,6 @@
 			"Bestiary 4",
 			"Blood of Shadows"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Wayang",
 			"",
@@ -8838,7 +8706,6 @@
 			"**Witch** ([Blood of Shadows pg. 11](source/blood_of_shadows)): Add one spell from the sorcerer/wizard spell list that isn't on the witch spell list to the list of spells the witch knows. This spell must be at least 1 level below the highest spell level the witch can cast and be of the illusion (shadow) subschool or have the darkness descriptor.  ",
 			"**Wizard** ([Blood of Shadows pg. 11](source/blood_of_shadows)): Add one spell from the wizard spell list to the wizard's spellbook. The spell must be an illusion spell of the shadow subschool or have the darkness descriptor."
 		],
-		"short_description": "The small wayangs are creatures of the Plane of Shadow. They are so attuned to shadow that it even shapes their philosophy, believing that upon death they merely merge back into darkness. The mysteries of their shadowy existence grant them the ability to gain healing from negative energy as well as positive energy.",
 		"display": "race"
 	},
 	"wyrwood": {
@@ -8849,7 +8716,6 @@
 			"Bestiary 4",
 			"Heroes of Golarion"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Wyrwood",
 			"",
@@ -8915,7 +8781,6 @@
 			"**Slayer** ([Heroes of Golarion pg. 6](source/heroes_of_golarion)): The slayer gains 1/6 of a slayer talent.  ",
 			"**Wizard** ([Heroes of Golarion pg. 6](source/heroes_of_golarion)): The wizard gains 1/6 of a bonus item creation, metamagic, or spell mastery feat."
 		],
-		"short_description": "This relatively young race was created by a cabal of wizards who needed nimble and skilled construct servants to do their dirty work.",
 		"display": "race"
 	},
 	"wyvaran": {
@@ -8926,7 +8791,6 @@
 			"Bestiary 4",
 			"Legacy of Dragons"
 		],
-		"has_monster_entry": true,
 		"description": [
 			"## Wyvaran",
 			"",
@@ -8994,14 +8858,12 @@
 			"",
 			"**Sorcerer** ([Legacy of Dragons pg. 18](source/legacy_of_dragons)): Add a +1/2 bonus to the damage of spells or spell-like abilities that deal damage of the same energy type as the sorcerer's draconic bloodline breath weapon."
 		],
-		"short_description": "These creatures are the result of magical draconic experiments at crossbreeding wyverns and kobolds.",
 		"display": "race"
 	},
 	"yaddithian": {
 		"name": "Yaddithian",
 		"file": "racesdisplay32db.html",
 		"sources": [ "Bestiary 6" ],
-		"has_monster_entry": true,
 		"description": [
 			"## Yaddithian",
 			"",
@@ -9020,7 +8882,6 @@
 			"**Long-Lived (Ex):** Yaddithians live for thousands of years; they gain no benefit or penalty from aging and are immune to magical aging effects.  ",
 			"**Languages:** Yaddithians begin play speaking Yaddithian. Those with high Intelligence scores can choose any language as a bonus language."
 		],
-		"short_description": "Yaddithians are an ancient race of scholarly starfarers",
 		"display": "race"
 	}
 }
