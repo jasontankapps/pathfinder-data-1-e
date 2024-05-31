@@ -1,36 +1,5 @@
 {
 	"_prefix": "equipment-weapon-enhance",
-	"_description": [
-		"## Weapon Modifications",
-		"",
-		"**Description Source** [Adventurer's Armory 2](source/adventurer's_armory_2)  ",
-		"Some smiths or inventive adventurers are unsatisfied with traditional weapon designs, adding custom improvements to the weapons they craft. These modifications are added to mundane weapons after creation at the listed cost, but modifying magical weapons increases the cost of modifications by 50%. As with enchanting, modifications are applied to ammunition in sets of 50. A weapon can normally only bear one modification at a time.",
-		"",
-		"After being modified, a weapon's category (simple, martial, or exotic) increases by one step. While a character proficient with all martial weapons can use a modified simple weapon without additional training, modified martial weapons require the [Exotic Weapon Proficiency](feat/exotic_weapon_proficiency) feat to use without taking penalties. An exotic weapon that receives modifications cannot be wielded without the [Modified Weapon Proficiency](feat/modified_weapon_proficiency) or [Weapon Adept](feat/weapon_adept) feat. A character proficient with a specific weapon (such as a cleric's proficiency with her deity's favored weapon) is not automatically proficient with a modified weapon of that type.",
-		"",
-		"`table0`"
-	],
-	"_tables": [
-		{
-			"id": "weapon modifications",
-			"headers": [ "Name", "Cost Adjustment", "Weight Adjustment" ],
-			"types": [ null, "gp+", "lbs+" ],
-			"data": [
-				[ "[sawback sword](equipment/weaponenhancement/sawback_sword)", 5, [ 0, "&mdash;" ] ],
-				[ "[consecrated weapon](equipment/weaponenhancement/consecrated_weapon)", 150, [ 0, "&mdash;" ] ],
-				[ "[undine weaponshaft](equipment/weaponenhancement/undine_weaponshaft)", 300, [ 0, "&mdash;" ] ],
-				[ "[versatile design](equipment/weaponenhancement/versatile_design)", 500, [ 0, "&mdash;" ] ],
-				[ "[jagged hooks](equipment/weaponenhancement/jagged_hooks)", 1000, 1 ],
-				[ "[razor-sharp](equipment/weaponenhancement/razor-sharp)", 1000, [ 0, "&mdash;" ] ],
-				[ "[brutally weighted](equipment/weaponenhancement/brutally_weighted)", 1500, 1 ],
-				[ "[dual-balanced](equipment/weaponenhancement/dual-balanced)", 2000, [ 0, "&mdash;" ] ],
-				[ "[serrated edge](equipment/weaponenhancement/serrated_edge)", 2000, [ 0, "&mdash;" ] ],
-				[ "[tactically adapted](equipment/weaponenhancement/tactically_adapted)", 2000, [ 0, "&mdash;" ] ]
-			],
-			"initialColumn": 1,
-			"className": "simple"
-		}
-	],
 	"consecrated_weapon": {
 		"name": "consecrated weapon",
 		"file": "equipmentmiscdisplay0b21.html",

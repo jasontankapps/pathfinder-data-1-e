@@ -12,7 +12,7 @@ const appPages: any[] = [
 	"/skills",//
 	"/feats",//
 	"/traits",//
-	"/equipment",
+	"/equipment",//
 	"/magic",
 	"/spells",
 	"/faiths",//
