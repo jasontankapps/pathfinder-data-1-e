@@ -6,7 +6,7 @@ import { ItemProps } from '../types';
 import './Page.css';
 
 const appPages: any[] = [
-	"/rules",
+	"/rules",//
 	"/races",//
 	"/classes",//
 	"/skills",//
@@ -15,7 +15,7 @@ const appPages: any[] = [
 	"/equipment",
 	"/magic",
 	"/spells",
-	"/faiths",
+	"/faiths",//
 	"/monstersnpcs",
 ];
 
