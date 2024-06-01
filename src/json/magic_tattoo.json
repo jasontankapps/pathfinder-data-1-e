@@ -4,9 +4,6 @@
 		"name": "Spell Tattoo",
 		"file": "magictattoodisplay0aaf.html",
 		"sources": [ "Inner Sea Magic" ],
-		"cost": 0,
-		"slot": "none",
-		"weight": 0,
 		"description": [
 			"## Spell Tattoo",
 			"",
@@ -26,9 +23,6 @@
 		"name": "Hypnotic Tattoo",
 		"file": "magictattoodisplaye0f7.html",
 		"sources": [ "Magical Marketplace" ],
-		"cost": 900,
-		"slot": "none",
-		"weight": 0,
 		"description": [
 			"## Hypnotic Tattoo",
 			"",
@@ -50,9 +44,6 @@
 		"name": "Runeward Tattoo",
 		"file": "magictattoodisplaya6f9.html",
 		"sources": [ "Magical Marketplace" ],
-		"cost": 1000,
-		"slot": "none",
-		"weight": 0,
 		"description": [
 			"## Runeward Tattoo",
 			"",
@@ -72,9 +63,6 @@
 		"name": "Radiant Tattoo",
 		"file": "magictattoodisplayf595.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
-		"cost": 1500,
-		"slot": "none",
-		"weight": 0,
 		"description": [
 			"## Radiant Tattoo",
 			"",
@@ -97,9 +85,6 @@
 			"Pathfinder #91: Battle of Bloodmarch Hills",
 			"Bastards of Golarion"
 		],
-		"cost": 1600,
-		"slot": "none",
-		"weight": 0,
 		"description": [
 			"## Kin's Face Tattoo",
 			"",
@@ -121,9 +106,6 @@
 		"name": "Serpentine Tattoo",
 		"file": "magictattoodisplay4878.html",
 		"sources": [ "Magical Marketplace" ],
-		"cost": 2000,
-		"slot": "none",
-		"weight": 0,
 		"description": [
 			"## Serpentine Tattoo",
 			"",
@@ -141,12 +123,8 @@
 	},
 	"caster's_tattoo_lesser": {
 		"name": "Caster's Tattoo (Lesser)",
-		"searchable_name": "Lesser Caster's Tattoo",
 		"file": "magictattoodisplay1fdc.html",
 		"sources": [ "Inner Sea Magic" ],
-		"cost": 6000,
-		"slot": "none",
-		"weight": 0,
 		"description": [
 			"## Caster's Tattoo",
 			"",
@@ -171,9 +149,6 @@
 		"name": "Watchtower Tattoo",
 		"file": "magictattoodisplayf6a6.html",
 		"sources": [ "Feast of Dust" ],
-		"cost": 9500,
-		"slot": "none",
-		"weight": 0,
 		"description": [
 			"## Watchtower Tattoo",
 			"",
@@ -195,9 +170,6 @@
 		"name": "Reservoir Tattoo",
 		"file": "magictattoodisplay5a26.html",
 		"sources": [ "Inner Sea Magic" ],
-		"cost": 10000,
-		"slot": "none",
-		"weight": 0,
 		"description": [
 			"## Reservoir Tattoo",
 			"",
@@ -217,9 +189,6 @@
 		"name": "Weapon Tattoo",
 		"file": "magictattoodisplay96eb.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
-		"cost": 10000,
-		"slot": "none",
-		"weight": 0,
 		"description": [
 			"## Weapon Tattoo",
 			"",
@@ -239,9 +208,6 @@
 		"name": "Mesmerizing Tattoo",
 		"file": "magictattoodisplaycbc5.html",
 		"sources": [ "Blood of Shadows" ],
-		"cost": 10800,
-		"slot": "none",
-		"weight": 0,
 		"description": [
 			"## Mesmerizing Tattoo",
 			"",
@@ -263,9 +229,6 @@
 		"name": "Animal Totem Tattoo",
 		"file": "magictattoodisplay8b58.html",
 		"sources": [ "Magical Marketplace" ],
-		"cost": 12000,
-		"slot": "none",
-		"weight": 0,
 		"description": [
 			"## Animal Totem Tattoo",
 			"",
@@ -285,9 +248,6 @@
 		"name": "Swirling Smoke Tattoo",
 		"file": "magictattoodisplay354f.html",
 		"sources": [ "Blood of Shadows" ],
-		"cost": 12500,
-		"slot": "none",
-		"weight": 0,
 		"description": [
 			"## Swirling Smoke Tattoo",
 			"",
@@ -307,9 +267,6 @@
 		"name": "Viper Tattoo",
 		"file": "magictattoodisplay3480.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
-		"cost": 18000,
-		"slot": "none",
-		"weight": 0,
 		"description": [
 			"## Viper Tattoo",
 			"",
@@ -333,11 +290,8 @@
 	},
 	"caster's_tattoo_normal": {
 		"name": "Caster's Tattoo (Normal)",
-		"searchable_name": "Normal Caster's Tattoo",
 		"file": "magictattoodisplay0214.html",
 		"sources": [ "Inner Sea Magic" ],
-		"cost": 21000,
-		"slot": "none",
 		"copyof": "caster's_tattoo_lesser",
 		"display": "magic/tattoo"
 	},
@@ -348,9 +302,6 @@
 		"name": "Penumbra Tattoo",
 		"file": "magictattoodisplay3eb7.html",
 		"sources": [ "Blood of Shadows" ],
-		"cost": 24000,
-		"slot": "none",
-		"weight": 0,
 		"description": [
 			"## Penumbra Tattoo",
 			"",
@@ -368,11 +319,8 @@
 	},
 	"caster's_tattoo_greater": {
 		"name": "Caster's Tattoo (Greater)",
-		"searchable_name": "Greater Caster's Tattoo",
 		"file": "magictattoodisplay0908.html",
 		"sources": [ "Inner Sea Magic" ],
-		"cost": 48000,
-		"slot": "none",
 		"copyof": "caster's_tattoo_lesser",
 		"display": "magic/tattoo"
 	},

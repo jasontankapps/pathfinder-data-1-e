@@ -20873,5 +20873,825 @@
 				"className": "simple"
 			}
 		]	
+	},
+	"magic_misc": {
+		"title": "Miscellaneous Magic Items",
+		"sources": [
+			"Black Markets",
+			"Book of the Damned - Volume 1: Princes of Darkness",
+			"Book of the Damned - Volume 2: Lords of Chaos",
+			"Champions of Corruption",
+			"Elemental Master's Handbook",
+			"Heroes of the High Court",
+			"Horror Adventures",
+			"Inner Sea Gods",
+			"Pathfinder #39: The City of Seven Spears",
+			"Ultimate Wilderness"
+		],
+		"description": [
+			"## Calming Oils (Gozreh)",
+			"",
+			"**Source** [Faiths of Balance pg. 26](source/faiths_of_balance)  ",
+			"**Aura** faint abjuration; **CL** 5th  ",
+			"**Slot** none; **Price** 1,000 gp; **Weight** -",
+			"",
+			"A vial of calming oils help to lessen the rip and fury of great storms, reducing the winds (and the dangerous swells they create) in a 50-foot radius [by one step](rule/weather). This radius is measured from the person or ship's deck onto which it is poured, and travels with the oiled creature or surface if it is in motion (such as a ship under sail). If a spell that affects the wind, like [control weather](spell/control_weather) or [whirlwind](spell/whirlwind), would affect an area under the effect of calming oils, the spell's caster must make an opposed caster level check against the potion's caster level or the spell immediately ends. The oil's effect lasts for 1 hour, after which time the weather returns to normal. If Gozreh is your patron, you may drink the oil to give you [water breathing](spell/water_breathing) for 1 hour.",
+			"",
+			"### Construction",
+			"",
+			"**Requirements** [Brew Potion](feat/brew_potion), [water breathing](spell/water_breathing), [wind wall](spell/wind_wall); **Cost** 500 gp",
+			"",
+			"---",
+			"",
+			"## Altars",
+			"",
+			"**Description Source:** [Inner Sea Gods](source/inner_sea_gods)  ",
+			"An altar is a stationary magic item used to focus the power of a particular deity into the world at a fixed point such as a temple, a monastery, a shrine, or the site of a miracle. An altar is normally about 10 feet by 5 feet by 5 feet at its widest points and is very heavy, usually weighing at least 150 pounds. It is often the central focus of an entire chamber, small sanctum, underground grotto, or forest grove. An altar is always fixed in place; it cannot be moved without losing its magical abilities. Most altars are secured to the floor, and a successful DC 25 Strength check is required to uproot or move them (or a higher DC, depending on their size and weight).",
+			"",
+			"An altar has an alignment aura identical to that of its associated deity, and is the center of a magic circle effect or effects appropriate to that alignment (magic circle against evil for a good altar, both magic circle against evil and magic circle against law for a chaotic good altar, and so on). As a permanent religious fixture, it is a suitable target for effects such as consecrate or desecrate.",
+			"",
+			"A worshiper of an altar's deity may stand, sit, kneel, or lie prostrate within 10 feet of the altar and speak a prayer to gain a temporary blessing from the altar (treat this as speaking a command word to activate a magic item). The effect of this blessing is described in the individual altar entries. Unless otherwise specified, this blessing ends after 24 hours (or earlier, if dispelled or ended by the actions of the worshiper). The altar can provide its blessing only once per creature per day. Usually, this blessing is something suitable for making life easier for members of the altar's associated faith (such as a skill bonus) and isn't always something an adventurer would consider useful, though martially oriented faiths and temples in dangerous lands may have altars that provide protective blessings for their worshipers. Because an altar can affect many dozens of worshipers in a day, it is possible or even likely that all worshipers in a community may have that blessing each day; likewise, all members of a secret cult or evil monster lair may have a useful blessing.",
+			"",
+			"Depending on the motivations of the deity and the altar's creators, some altars may grant their blessings to non-worshipers who pray to the altar's deity so long as the creature's alignment is compatible with the deity's alignment. Conversely, an altar of an evil deity might allow anyone to gain its blessing, as drawing power from evil can corrupt good and neutral folk. Accepting the blessing of an evil altar is an evil act, and likewise for blessings from altars with other alignment auras.",
+			"",
+			"An altar is otherwise like any other permanent magic item and can be crafted with additional abilities, be intelligent, and so on.",
+			"",
+			"`table0`",
+			"",
+			"---",
+			"",
+			"## Demonic Implants",
+			"",
+			"**Description Source:** [Book of the Damned - Volume 2: Lords of Chaos](source/book_of_the_damned_-_volume_2_lords_of_chaos)  ",
+			"A less invasive, but perhaps more painful, method of becoming a demon is the piecemeal transplanting of demonic elements into a mortal's body. By extracting a portion of a demon's body and then preparing it by utilizing various occult techniques or strange methods of preservation, one can reap a portion of the demon's power and transfer it into a sentient being. Demonic implants can either be temporary (and often addictive) drug-like magical elixirs, or they can be actual body parts that must be grafted onto or into a living mortal before they work. All are treated as wondrous items for the purposes of construction and use. The three examples listed below merely scratch the surface of this reckless category of magic item.",
+			"",
+			"All demonic implants require a willing host to attach them to-attempts to attach a demonic implant to an unwilling host automatically fail. Successfully attached demonic implants impart a negative level to a lawful or good user-the number of negative levels imparted stacks with each new implant. These negative levels remain as long as the implant remains attached or (in the case of demon blood) until the effects wear off. They never result in actual level loss, but cannot be overcome in any way while the implant is in effect.",
+			"",
+			"Implants must be physically excised to be removed. Removal inflicts 1d6 points of Constitution damage, and could have other effects as well (such as deafness or blindness) as determined by the GM.",
+			"",
+			"`table1`",
+			"",
+			"---",
+			"",
+			"## Devil Talismans",
+			"",
+			"**Description Source:** [Book of the Damned - Volume 1: Princes of Darkness](source/book_of_the_damned_-_volume_1_princes_of_darkness)  ",
+			"The denizens of Hell claim the crafting of devil talismans as one of their most closely guarded secrets. But in truth, knowledge of such methods is withheld only to whet mortal desires, a feint to hasten a diabolist's willing damnation. Ultimately, any spellcaster can create a devil talisman through the use of the [Craft Wondrous Item](feat/craft_wondrous_item) feat and planar binding. As an additional prerequisite to the creation of any type of devil talisman, the creator must summon a devil and bargain with it to be bound within the talisman. Most devils prove resistant to the idea of being trapped within a magic item, but might acquiesce to a particularly convincing summoner. A devil summoned via planar binding and coerced into being bound within a devil talisman gains a +10 bonus on its opposed Charisma check. Once convinced, the devil infuses the already prepared devil talisman, completing the profane item.",
+			"",
+			"The various types of devil talismans each possess unique powers and thus require different methods of creation or specific types of bound devils to activate them.",
+			"",
+			"| Talisman | Slot | Price |",
+			"| --- | --- | --- |",
+			"| [Bilious Talisman (Minor Artifact)](magic/talisman/bilious_talisman_minor_artifact) | neck | null |",
+			"| [Melancholic Talisman](magic/talisman/melancholic_talisman) | neck | 50000 |",
+			"| [Sanguine Talisman](magic/talisman/sanguine_talisman) | neck | null |",
+			"",
+			"---",
+			"## Elemental Augmentation",
+			"",
+			"**Description Source** [Elemental Master's Handbook](source/elemental_master's_handbook)  ",
+			"Some intentionally infuse their own bodies with elemental energy, permanently imbuing parts of themselves with primordial forces. Once a commonplace devotion to elemental forces, elemental augmentations are now a rare art known to only a few specialists. Elementalists in Quantium command high prices to augment eager recipients with elemental energy, but not all have the requisite expertise-accidents are distressingly common.",
+			"",
+			"Elemental augmentations affect a specific portion of the recipient's body, aligning it with the designated element. These augmentations grant the recipient powerful abilities, but they often come with side effects as the recipient's body becomes elementally unbalanced. The alteration is permanent; once a body part has been elementally augmented, the granted effect can be removed only by removing the augmented body part. Removal deals 1d6 points of Constitution damage and could have other effects as well, such as blindness or lameness, as determined by the GM. A body part that has been elementally augmented cannot receive another elemental augmentation, even of the same type.",
+			"",
+			"An elemental augmentation must be crafted or purchased just like any other magic item, but it is inert until used to augment a willing recipient. Elementally augmenting a body part requires 1 hour, and the recipient must succeed at a DC 18 Fortitude save or the elemental energies fail to integrate with his body. Whether he succeeds or fails, the recipient takes 2 points of Constitution damage from the augmentation attempt.",
+			"",
+			"| Augmentation | Price |",
+			"| --- | --- |",
+			"| [Blazing Eyes](magic/augmentation/blazing_eyes) | 42000 |",
+			"| [Blazing Hand](magic/augmentation/blazing_hand) | 16000 |",
+			"| [Hoarfrost Bones](magic/augmentation/hoarfrost_bones) | 85000 |",
+			"| [Quicksilver Blood](magic/augmentation/quicksilver_blood) | 62000 |",
+			"| [Smoldering Blood](magic/augmentation/smoldering_blood) | 8000 |",
+			"| [Vaporous Lungs](magic/augmentation/vaporous_lungs) | 10800 |",
+			"| [Whirlpool Maw](magic/augmentation/whirlpool_maw) | 19000 |",
+			"",
+			"---",
+			"",
+			"## Favors",
+			"",
+			"**Description Source:** [Heroes of the High Court](source/heroes_of_the_high_court)  ",
+			"Favors are a category of single-use magic items that are activated when given by one creature (called the presenter) to another (the recipient). The presenter must intentionally give the favor to the recipient, and the recipient must intentionally accept it and don it within 1 minute for the favor to activate. Giving a favor to a recipient is a standard action that doesn't provoke attacks of opportunity; receiving and donning a favor requires as much time as it takes to don an item of the favor's type (usually a standard action). Once donned, the favor provides the indicated effect for the listed duration. In addition, while the favor is active, the presenter can take a standard action to sense whether the recipient is alive (with 4 or more hit points), badly wounded (at 3 or fewer hit points), dead, undead, or neither alive nor dead (as a construct). This effect functions regardless of distance, as long as the presenter and recipient are on the same plane of existence.",
+			"",
+			"The favor's effects end immediately if the favor is removed or otherwise leaves the recipient's possession, or if the recipient fails a saving throw against a fear effect. For this latter reason, favors are preferred by creatures immune or resistant to fear, such as paladins and halflings. A creature can be the recipient of only one favor at a time; if the recipient voluntarily accepts a new favor, the effects of any existing favor immediately end. Once a favor's duration expires or its effects end, the presenter is immediately aware that the favor has lost its magic.",
+			"",
+			"| Favor | Slot | Price |",
+			"| --- | --- | --- |",
+			"| [Kerchief of Remembrance](magic/favor/kerchief_of_remembrance) | arm or wrist | 600 |",
+			"| [Paper Flower](magic/favor/paper_flower) | headband | 800 |",
+			"| [Lucky Button](magic/favor/lucky_button) | none | 1200 |",
+			"| [Laurel of the Champion](magic/favor/laurel_of_the_champion) | head | 2000 |",
+			"| [Token of Gallantry](magic/favor/token_of_gallantry) | none | 2400 |",
+			"",
+			"---",
+			"",
+			"## Fleshcrafting",
+			"",
+			"**Description Source:** [Horror Adventures](source/horror_adventures)  ",
+			"Fleshcrafting involves the same processes and applications as true fleshwarping, but is used to modify only a single portion of a living creature. Fleshcrafts are living pieces of tissue that can be attached to any corporeal, living creature via a graft or grown by a consumed elixir. Once attached, a fleshcraft immediately begins functioning and grants its listed abilities to the grafted creature. While a fleshcraft is partially magical in genesis, it doesn't radiate magic or have a caster level, regardless of whether it has been grafted to the subject or supplied via an elixir.",
+			"",
+			"**Fleshcraft Grafts:** Creating a fleshcraft graft requires the [Fleshwarper](feat/fleshwarper) feat and an alchemy lab worth at least 1,000 gp as well as 1 pound of living tissue per 1,000 gp value of the graft to be created. Creating a fleshcraft graft is like creating a magic item and requires 1 day of crafting time per 1,000 gp of the graft's value.",
+			"",
+			"Applying a fleshcraft graft to a target requires a 1-hour surgical procedure, during which time the subject must be either willing or helpless. At the end of the hour, the surgeon must attempt a Heal check against the graft's listed DC. Failure indicates the patient's body rejects the graft and the graft dies. Regardless of the surgery's success, the subject takes 1d4 points of Constitution damage and 1d4 points of Wisdom damage (or 1d8 points of sanity damage, if employing the sanity system on page 12). Although fleshcraft grafts are not magical, some occupy a magic item slot on the body, preventing that slot from being used for any magic item or other graft.",
+			"",
+			"A fleshcraft graft can be removed with another hour-long surgery and a successful Heal check against the original DC. On a failure, either the graft remains or the surgeon removes the graft, destroying it and killing the subject (surgeon's choice). Alternatively, the surgeon can remove the graft more delicately and use healing magic to save the subject, attempting a DC 15 Heal check and applying a heal or regenerate spell immediately afterward. Failing this Heal check always results in the destruction of both graft and subject. A successful surgery removes and destroys the graft. Regardless of the method used and the surgery's success, the subject takes 1d4 points of Constitution damage and 1d4 points of Wisdom damage (or 1d8 points of sanity damage, if using the sanity system).",
+			"",
+			"**Fleshcraft Elixirs:** A creature with the [Fleshwarper](feat/fleshwarper) feat can also create fleshcraft elixirs. Doing so requires an alchemy lab worth at least 1,000 gp as well as 1 pound of living tissue per 1,000 gp value of the elixir, just like creating a graft, but the components are distilled into the elixir. Creating a fleshcraft elixir is like creating a magic item and requires 1 day of crafting time per 1,000 gp of the graft's value. These potionlike concoctions can bestow the effect of an individual fleshcraft graft (a creature can't benefit from more than one at a time), but for a limited period of time. Imbibing a fleshcraft elixir works similarly to imbibing other potions or elixirs, except that it's slow acting, taking effect the round after it is imbibed (as if the imbiber were casting a 1-round casting time spell). Fleshcraft elixirs are foul and potentially dangerous. A fleshcraft elixir is keyed to a specific type of fleshcraft, and each elixir provides a Fortitude save that the imbiber must succeed at in order to gain that graft's effect for the limited duration. On a failed saving throw, the imbiber gains only the graft's penalty for its duration, and if the imbiber fails the saving throw by 5 or more, the imbiber also takes 1d6 points of Constitution damage. While not strictly magical (and not applicable for reuse with alchemical allocation), they count as both transmutation and poison effects that affect only living creatures for the purposes of saving throws and resistances.",
+			"",
+			"### Sample Fleshcrafts",
+			"",
+			"Below are some examples of fleshcrafts. In addition to the name, slot, and effect, each fleshcraft presents information for both the elixir and the graft versions. Each category of information is explained below.",
+			"",
+			"**Temporary Duration:** This is the length of time the fleshcraft lasts if the recipient is merely imbibing a fleshcraft elixir for its limited effects. This does not apply to a permanent fleshcraft such as a graft. If the graft has a limited number of uses per day, a creature affected by its corresponding elixir can use the ability the same number of times during the elixir's duration.",
+			"",
+			"**Saving Throw:** This is the DC of the Fortitude saving throw the imbiber must succeed at to gain the benefits rather than just the penalties of the fleshcraft when imbibing a fleshcraft elixir. A creature imbibing a corresponding elixir that fails this saving throw by 5 or more also takes 1d6 points of Constitution damage.",
+			"",
+			"**Penalty:** This is the penalty that a creature takes while benefiting from a fleshcraft graft or elixir, or takes if it fails the saving throw after imbibing a fleshcraft elixir.",
+			"",
+			"`table2`",
+			"",
+			"---",
+			"",
+			"## Juju Fetishes",
+			"",
+			"**Description Source:** [Pathfinder #39: The City of Seven Spears](source/pathfinder_#39_the_city_of_seven_spears)  ",
+			"Juju fetishes are charms with finite lifespans, created for the purpose of aiding or harming the possessor. Many fetishes take the form of ensorcelled pouches about half the size of a human hand, made of skin or leather and containing bones, vegetable matter, stones, spices, broken pottery, hair, blood, grave dirt, and other such ingredients. The exterior may be dyed, or strange scratches may be worked into the surface. On occasion, some other item may be sewn onto the surface, such as the severed foot of a chicken tied with colored ribbon, or a frog's leg bone etched with strange patterns. However, a cursory examination of a pouch or its contents cannot reveal the fetish's purpose or nature, as each fetish is unique.",
+			"",
+			"Juju fetishes are created in much the same way as any other kind of wondrous item. They differ in duration and durability, however, as all juju fetishes last for 1 week plus a number of days equal to the creator's caster level. Once this time has passed, the fetish loses all of its magical properties and often falls apart, as they are generally constructed of crude or deteriorating elements. This limited duration is reflected in the price and creation cost of each of the following fetishes.",
+			"",
+			"In addition to their limited life spans, juju fetishes are so delicate that identify or similar spells meant to divine a fetish's properties have a 50% chance (minus 5% times the caster's CL) of destroying the item's magic, rendering it useless. Nonmagical attempts to reveal a juju fetish's properties function as normal.",
+			"",
+			"| Fetish | Slot | Price |",
+			"| --- | --- | --- |",
+			"| [Black Blessing](magic/fetish/black_blessing) | neck | 500 |",
+			"| [Ganji Doll](magic/fetish/ganji_doll) | none | 16000 |",
+			"| [Ganji Doll, Greater](magic/fetish/ganji_doll,_greater) | none | 36000 |",
+			"| [Laubo Powder](magic/fetish/laubo_powder) | none | 2800 |",
+			"| [Spirit Tear](magic/fetish/spirit_tear) | neck | 1800 |",
+			"",
+			"---",
+			"",
+			"## Infused Poisons",
+			"",
+			"**Description Source:** [Pathfinder #39: The City of Seven Spears](source/pathfinder_#39_the_city_of_seven_spears)  ",
+			"By combining the skill of potioncraft with a poisoner's art, cunning assassins and herbalists can craft vile supernatural threats. An infused poison combines the effects of an ingested poison and a potion. A creature drinking an infused poison is affected by the poison (and its initial effects or damage) first, after which the infused spell effect triggers and the imbiber must attempt a second saving throw (often of a different type or DC) against its magical effects. Spell resistance applies normally to an infused poison's magical effects, but offers no protection against the poison, and poison resistance offers no protection against the magical effects of an infused poison. Poison immunity renders a creature immune to an infused poison's magical effects.",
+			"",
+			"A poison can be infused with a spell of up to 3rd level that has a casting time of less than 1 minute and targets one or more creatures. As with a potion, you cannot create an infused poison without meeting its spell prerequisite. The base price of the infusion is equal to the level of the spell &times; the creator's caster level &times; 25 gp. The cost of the poison to be infused is paid separately. If the spell has a material component cost, it is added to the poison's base price and cost of creation.",
+			"",
+			"Infused poisons function like spells cast on the imbiber. A poison's creator makes all decisions regarding the spell's effects when it is created-the creature consuming the infused poison has no control over its effects. Unlike with a potion, the imbiber is not considered the caster of the effect. If the spell has an effect related to the caster (as does charm person), the subject treats the first sentient creature it encounters after consuming the poison as the poison's creator.",
+			"",
+			"A character who attempts to identify an infused poison with a Perception check (as if it were a potion) has a 5% chance of poisoning herself, unless she has the poison use ability. This process doesn't consume the infused poison.",
+			"",
+			"| Poison | Price |",
+			"| --- | --- |",
+			"| [Abyssal Arsenic](magic/fetish/abyssal_arsenic) |  420 |",
+			"| [Burning Heart](magic/fetish/burning_heart) |  150 |",
+			"| [Dust of Eox](magic/fetish/dust_of_eox) |  1150 |",
+			"| [Liquid Influence](magic/fetish/liquid_influence) |  900 |",
+			"",
+			"---",
+			"",
+			"## Necrografts",
+			"",
+			"**Description Source:** [Black Markets](source/black_markets)  ",
+			"Grafting undead components to a living creature is illegal outside of Geb, but black markets across the Inner Sea region still trade in these undead body parts. Most prospective necrograft hosts seek out these macabre additions to replace a sick or missing body part, although some see necrografts as an extreme form of body modification, excising perfectly healthy body parts to make room for undead flesh. Not all necrograft hosts are willing recipients-some are forced to endure the surgical process as part of mad experiments.",
+			"",
+			"A skilled necrograft surgeon (often a necromancer) is required to install a necrograft. Necrografts can be attached only to humanoids and only to replace a part-a necrograft arm can't be added in addition a human's two healthy arms, for example, but could replace a lost arm. When a necrograft is attached (a process requiring 1 hour), the recipient must succeed at a DC 18 Fortitude save or the necrograft fails to integrate with his body. Either way, the recipient takes 2 points of Constitution damage from the surgery.",
+			"",
+			"A raise dead or resurrection spell cast on a living creature instantly destroys any necrograft implants unless the target succeeds at a separate Will save against the spell for each necrograft implant. If the target of the spell is dead, the target is restored to life but any implants are destroyed.",
+			"",
+			"| Necrograft | Price |",
+			"| --- | --- |",
+			"| [Ghoulgut](magic/necrograft/ghoulgut) | 16000 |",
+			"| [Gravespawn Gland](magic/necrograft/gravespawn_gland) | 6200 |",
+			"| [Necrograft Arm](magic/necrograft/necrograft_arm) | 12000 |",
+			"| [Necrograft Leg](magic/necrograft/necrograft_leg) | 6400 |",
+			"| [Sallowflesh](magic/necrograft/sallowflesh) | 20000 |",
+			"| [Strangler's Tongue](magic/necrograft/strangler's_tongue) | 36000 |",
+			"",
+			"---",
+			"",
+			"## Necrotoxins",
+			"",
+			"**Description Source:** [Black Markets](source/black_markets)  ",
+			"Hailing from the undead nation of Geb but illegal even there, necrotoxins fuse alchemy and necromancy to attack not just the body or the mind, but the very soul of the victim. Only alchemists in Geb and the poison-loving city of Daggermark have mastered the creation of these rare and reviled toxins.",
+			"",
+			"Charging necrotoxins with necrotic power requires special rituals, reagents from undead creatures, and the channeling of negative energy during the brewing process. The DCs of Craft (alchemy) check to brew a necrotoxin is 5 higher than the poison's Fortitude DC due to the temperamental process of its creation.",
+			"",
+			"| Necrotoxin | Price |",
+			"| --- | --- |",
+			"| [Entropic Dust](magic/necrotoxin/entropic_dust) | 1500 |",
+			"| [Ghost Syrup](magic/necrotoxin/ghost_syrup) | 6000 |",
+			"| [Lazurite Flakes](magic/necrotoxin/lazurite_flakes) | 5400 |",
+			"| [Memento Mori](magic/necrotoxin/memento_mori) | 3700 |",
+			"| [Quick Rot](magic/necrotoxin/quick_rot) | 450 |",
+			"| [Xensh Spores](magic/necrotoxin/xensh_spores) | 1200 |",
+			"",
+			"---",
+			"",
+			"## Magical Plants",
+			"",
+			"**Description Source:** [Ultimate Wilderness](source/ultimate_wilderness)  ",
+			"Magic plants are a new type of magic item that are cultivated rather than constructed. Cultivating one requires the [Cultivate Magic Plants](feat/cultivate_magic_plants) item creation feat.",
+			"",
+			"To cultivate a magic plant, you need a place to plant it. This usually requires a 30-foot-radius area of nutrient-rich soil and a constant supply of water and light for larger magic plants, and it requires a 10-foot-radius area and similar soil, water, and light requirements for smaller plants. Most magic plants bear fruit, seeds, or sprouts that, once mature, replicate the effects of a spell when eaten, thrown, or used in some other way. A magic plant's price depends on the spell effect it replicates. The cultivation cost of a magic plant is half the plant's price.",
+			"",
+			"**Price = spell level &times; caster level &times; 2,000 &times; yield per day &times; growing season multiplier.**",
+			"",
+			"The yield per day is the number of fruit, seeds, or effects the plant generates per day during its growing season. For instance, a goodberry bush yields six berries per day. The growing season multiplier is equal to the number of growing seasons the plant has in a single year. Growing seasons are continuous 13-week-long periods confined to one of the four seasons (spring, summer, fall, and winter). If a season is longer than 13 weeks, the growing season needs not be continuous. Magic plants cannot be in a growing season for longer than 52 weeks, and a plant that has four consecutive growing seasons produces fruit, seeds, or effects year round. A magic plant generates its effects only during a growing season. Outside of a growing season, some plants will still grow but remain barren (such as a fruit tree), while others may wither and regrow in the following year (such as vines).",
+			"",
+			"The initial planting and care of a magic plant requires 1 week per 1,000 gp of the plant's cultivation cost. At the end of this period, the plant reaches maturity and its benefits are fully realized, assuming that the maturity culminates within the growing season. Once picked, the product of a magical plant stays potent for 24 hours. If not picked within 1 week, fruit or any other product of the plant rots into a useless (and often smelly) sludge, though rare fruits may have longer periods of potency. Harvested fruit can't be kept magically potent for longer than 1 day, even by effects that preserve foodstuffs.",
+			"",
+			"Typically, a creature must consume fruit produced by a magic plant to gain its effect. In these cases, the fruit's eater is both the caster and the target of its spell effect. Other fruits must be thrown to generate their effects, or they might have some other activity involved in their use.",
+			"",
+			"In addition to paying the costs to cultivate a magic plant, the cultivator must have sufficient ranks in Knowledge (nature). For most magic plants, the number of ranks required is tied directly to the strength of the plant's aura: 1 rank for a plant with a faint aura, 3 ranks for a plant with a moderate aura, and 6 ranks for a plant with a strong aura.",
+			"",
+			"Magic plants can be destroyed like other magic items. A tree has a hardness of 5 and 120 hit points, while bushes and vines have hardness 3 and 50 hit points. When a magical plant is destroyed, any fruit (or similar consumables) it has produced remain active for 1 week before rotting. A character that succeeds at a DC 20 Knowledge (nature) check can harvest one-tenth of the plant's value in useful materials from a destroyed magic plant.",
+			"",
+			"A magic plant can be uprooted and moved, but it dies within a day unless it is magically treated with an effect such as gentle repose or temporal stasis. Uprooting a magic plant requires Strength sufficient to move it, 4 hours of work, and a successful DC 20 Knowledge (nature) check. An average magic tree weighs 500 pounds, while smaller plants, such as bushes or vines, average 50 pounds.",
+			"",
+			"`table3`",
+			"",
+			"---",
+			"",
+			"## Shadow Piercings",
+			"",
+			"**Description Source:** [Champions of Corruption](source/champions_of_corruption)",
+			"",
+			"True Nidalese savor pain, and they proudly wear this delight in the torturous piercing of their bodies. Shadow piercers are some of the most skilled pain artisans in Nidal's depraved culture. They create magical pieces of jewelry, formed partially of shadowstuff, and use them in all manner of surface piercings for their discerning clients. Some shadow piercings are more than just single pieces of jewelry-instead they are created in sets that form specific designs across an expanse of the wearer's skin.",
+			"",
+			"| Piercing | Slot | Price |",
+			"| --- | --- | --- |",
+			"| [Body Piercings (Minor)](magic/piercing/body_piercings_minor) | body | 1800 |",
+			"| [Chest Piercings (Minor)](magic/piercing/chest_piercings_minor) | body | 2200 |",
+			"| [Body Piercings (Major)](magic/piercing/body_piercings_major) | body | 2400 |",
+			"| [Body Piercings (Greater)](magic/piercing/body_piercings_greater) | body | 3200 |",
+			"| [Chest Piercings (Major)](magic/piercing/chest_piercings_major) | body | 3750 |",
+			"| [Head Piercings (Minor)](magic/piercing/head_piercings_minor) | head | 3750 |",
+			"| [Chest Piercings (Greater)](magic/piercing/chest_piercings_greater) | body | 5750 |",
+			"| [Head Piercings (Major)](magic/piercing/head_piercings_major) | head | 6000 |",
+			"| [Eye Piercings (Minor)](magic/piercing/eye_piercings_minor) | eyes | 6000 |",
+			"| [Suspension Piercings (Minor)](magic/piercing/suspension_piercings_minor) | belt or shoulder | 6000 |",
+			"| [Suspension Piercings (Major)](magic/piercing/suspension_piercings_major) | belt or shoulder | 7200 |",
+			"| [Suspension Piercings (Greater)](magic/piercing/suspension_piercings_greater) | belt or shoulder | 11200 |",
+			"| [Eye Piercings (Major)](magic/piercing/eye_piercings_major) | eyes | 18000 |",
+			"| [Eye Piercings (Greater)](magic/piercing/eye_piercings_greater) | eyes | 32000 |",
+			"| [Head Piercings (Greater)](magic/piercing/head_piercings_greater) | head | 33600 |",
+			"",
+			"---",
+			"",
+			"## Magical Tattoos",
+			"",
+			"**Description Source:** [Inner Sea Magic](source/inner_sea_magic)  ",
+			"Though known to almost any culture that practices ritual tattooing, tattoo magic is most often employed by Varisian spellcasters. Their tattooed sorcerers bind magic into intricate patterns upon their flesh, and even awaken tattoos into sentient art (details on the tattooed sorcerer archetype can be found on page 40). Yet the wonders of tattoo magic are not limited to sorcerers: any spellcaster can craft magical tattoos, given the proper training.",
+			"",
+			"`table4`",
+			"",
+			"---",
+			"",
+			"## Thrones",
+			"",
+			"**Description Source:**[Heroes of the High Court](source/heroes_of_the_high_court)  ",
+			"A ruler's physical seat is as much a symbol of authority as a scepter or crown. Many courts enforce stiff penalties - including execution - for unlawfully sitting upon or even touching the throne of a rightful ruler. Some thrones are invested with magical power to match their reputations.",
+			"",
+			"A magical throne is a stationary magic item used to focus the power of a ruler at a fixed point. A throne is normally 5 feet wide, 5 feet long, and 10 feet high, although specific dimensions vary considerably. Thrones are heavy and always fixed in place; a successful DC 25 Strength check is required to uproot or move them (though this could be a higher DC, depending upon a throne's size and weight). Moving a throne purges its magical abilities, although the throne's magic can be restored with a lengthy and expensive rededication ritual (generally taking several weeks and costing half the market price of the throne).",
+			"",
+			"All magic thrones are designed with a magical connection to a specific kingdom, nation, or tribe. Most magic thrones grant a heroism effect to the current ruler of the kingdom for as long as the ruler is seated upon the throne. Regardless of the throne's size, only one creature can receive this effect at a time. While a ruler is seated on a magic throne, another creature within 20 feet of the throne can kneel, bow, or otherwise make an obeisance to gain a temporary blessing from the throne (treat this as speaking a command word to activate a magic item). The creature need not feel genuine allegiance to the ruler to gain this blessing; the physical act of loyalty is sufficient to receive the throne's blessing. The effect of this blessing is described in the individual throne entries. Unless otherwise specified, this blessing ends after 24 hours. The throne can provide its blessing only once per creature per day. Because a throne can affect many dozens of courtiers in a single day, it is possible that all courtiers in a court with a magic throne have that blessing each day.",
+			"",
+			"A magical throne is otherwise like any other permanent magic item and can be crafted with additional abilities, be intelligent, and so on.",
+			"",
+			"| Throne | Cost | Weight |",
+			"| --- | --- | --- |",
+			"| [Throne of Pleasing Mien](magic/throne/throne_of_pleasing_mien) | 8000 | 350 |",
+			"| [Throne of Fetters](magic/throne/throne_of_fetters) | 16000 | 500 |",
+			"| [Throne of the Ardent Defense](magic/throne/throne_of_the_ardent_defense) | 16000 | 350 |"
+		],
+		"tables": [
+			{
+				"id": "magic altars table",
+				"headers": [
+					"Altar",
+					"Price",
+					"Weight"
+				],
+				"types": [
+					null,
+					"gp",
+					"lbs"
+				],
+				"data": [
+					[
+						"[Altar of Abadar](magic/altar/altar_of_abadar)",
+						10000,
+						1000
+					],
+					[
+						"[Altar of Asmodeus](magic/altar/altar_of_asmodeus)",
+						16000,
+						750
+					],
+					[
+						"[Altar of Calistria](magic/altar/altar_of_calistria)",
+						16000,
+						500
+					],
+					[
+						"[Altar of Cayden Cailean](magic/altar/altar_of_cayden_cailean)",
+						8000,
+						150
+					],
+					[
+						"[Altar of Desna](magic/altar/altar_of_desna)",
+						10000,
+						1000
+					],
+					[
+						"[Altar of Erastil](magic/altar/altar_of_erastil)",
+						10000,
+						1000
+					],
+					[
+						"[Altar of Gorum](magic/altar/altar_of_gorum)",
+						8000,
+						750
+					],
+					[
+						"[Altar of Gozreh](magic/altar/altar_of_gozreh)",
+						8000,
+						1000
+					],
+					[
+						"[Altar of Iomedae](magic/altar/altar_of_iomedae)",
+						8000,
+						1000
+					],
+					[
+						"[Altar of Irori](magic/altar/altar_of_irori)",
+						8000,
+						150
+					],
+					[
+						"[Altar of Lamashtu](magic/altar/altar_of_lamashtu)",
+						10000,
+						500
+					],
+					[
+						"[Altar of Nethys](magic/altar/altar_of_nethys)",
+						8000,
+						500
+					],
+					[
+						"[Altar of Norgorber](magic/altar/altar_of_norgorber)",
+						10000,
+						250
+					],
+					[
+						"[Altar of Pharasma](magic/altar/altar_of_pharasma)",
+						5380,
+						1000
+					],
+					[
+						"[Altar of Rovagug](magic/altar/altar_of_rovagug)",
+						10000,
+						150
+					],
+					[
+						"[Altar of Sarenrae](magic/altar/altar_of_sarenrae)",
+						8000,
+						750
+					],
+					[
+						"[Altar of Shelyn](magic/altar/altar_of_shelyn)",
+						8000,
+						150
+					],
+					[
+						"[Altar of the Dawnflower](magic/altar/altar_of_the_dawnflower)",
+						10000,
+						250
+					],
+					[
+						"[Altar of Torag](magic/altar/altar_of_torag)",
+						10000,
+						500
+					],
+					[
+						"[Altar of Urgathoa](magic/altar/altar_of_urgathoa)",
+						8000,
+						500
+					],
+					[
+						"[Altar of Zon-Kuthon](magic/altar/altar_of_zon-kuthon)",
+						8000,
+						150
+					],
+					[
+						"[Altar of Zursvaater](magic/altar/altar_of_zursvaater)",
+						10000,
+						1000
+					]
+				],
+				"initialColumn": 0,
+				"className": "simple"
+			},
+			{
+				"id": "demonic implants table",
+				"headers": [
+					"Implant",
+					"Price",
+					"Weight"
+				],
+				"types": [
+					null,
+					"gp",
+					"lbs"
+				],
+				"data": [
+					[
+						"[Baleful Eye](magic/implant/baleful_eye)",
+						7000,
+						1
+					],
+					[
+						"[Brazen Hooves](magic/implant/brazen_hooves)",
+						15000,
+						4
+					],
+					[
+						"[Crown of Horns](magic/implant/crown_of_horns)",
+						20000,
+						5
+					],
+					[
+						"[Demon Blood](magic/implant/demon_blood)",
+						800,
+						1
+					],
+					[
+						"[Demon Heart](magic/implant/demon_heart)",
+						6000,
+						1
+					],
+					[
+						"[Demon Senses](magic/implant/demon_senses)",
+						20000,
+						1
+					],
+					[
+						"[Demon Talon](magic/implant/demon_talon)",
+						20000,
+						3
+					],
+					[
+						"[Demon Tongue](magic/implant/demon_tongue)",
+						10000,
+						null
+					],
+					[
+						"[Demonhide](magic/implant/demonhide)",
+						20000,
+						10
+					],
+					[
+						"[Splintered Mind](magic/implant/splintered_mind)",
+						16000,
+						3
+					],
+					[
+						"[Wicked Wings](magic/implant/wicked_wings)",
+						55000,
+						3
+					]
+				],
+				"initialColumn": 0,
+				"className": "simple"
+			},
+			{
+				"id": "fleshcraftings table",
+				"headers": [
+					"Favor",
+					"Slot",
+					"Price",
+					"Elixir Price"
+				],
+				"types": [
+					null,
+					null,
+					"gp",
+					"gp"
+				],
+				"data": [
+					[
+						"[Adhesive Slime](magic/fleshcrafting/adhesive_slime)",
+						"none",
+						null,
+						500
+					],
+					[
+						"[Antennae](magic/fleshcrafting/antennae)",
+						"eyes",
+						70000,
+						1250
+					],
+					[
+						"[Blinding Spittle Glands](magic/fleshcrafting/blinding_spittle_glands)",
+						"head",
+						2000,
+						600
+					],
+					[
+						"[Burrowing Claws](magic/fleshcrafting/burrowing_claws)",
+						"hands",
+						22500,
+						500
+					],
+					[
+						"[Camouflage Flesh](magic/fleshcrafting/camouflage_flesh)",
+						"body",
+						30000,
+						1000
+					],
+					[
+						"[Carapace](magic/fleshcrafting/carapace)",
+						"body",
+						18000,
+						600
+					],
+					[
+						"[Cerebral Husk](magic/fleshcrafting/cerebral_husk)",
+						"headband",
+						6000,
+						500
+					],
+					[
+						"[Claw Gauntlet](magic/fleshcrafting/claw_gauntlet)",
+						"hand",
+						32000,
+						1600
+					],
+					[
+						"[Darksight Eyes](magic/fleshcrafting/darksight_eyes)",
+						"eyes",
+						6000,
+						300
+					],
+					[
+						"[Grasping Tendril](magic/fleshcrafting/grasping_tendril)",
+						"varies",
+						22500,
+						500
+					],
+					[
+						"[Poison Fangs](magic/fleshcrafting/poison_fangs)",
+						"head",
+						12000,
+						800
+					],
+					[
+						"[Retractable Spines](magic/fleshcrafting/retractable_spines)",
+						"wrists",
+						24000,
+						650
+					],
+					[
+						"[Ring of Eyes](magic/fleshcrafting/ring_of_eyes)",
+						"none",
+						null,
+						1400
+					],
+					[
+						"[Shark Gills](magic/fleshcrafting/shark_gills)",
+						"neck",
+						9000,
+						500
+					],
+					[
+						"[Stinging Tail](magic/fleshcrafting/stinging_tail)",
+						"belt",
+						12000,
+						800
+					],
+					[
+						"[Webbed Appendages](magic/fleshcrafting/webbed_appendages)",
+						"none",
+						null,
+						300
+					],
+					[
+						"[Wings of Darkness](magic/fleshcrafting/wings_of_darkness)",
+						"shoulders",
+						36000,
+						600
+					]
+				],
+				"initialColumn": 0,
+				"className": "simple"
+			},
+			{
+				"id": "magical plants table",
+				"headers": [
+					"Plant",
+					"Price",
+					"Weight"
+				],
+				"types": [
+					null,
+					"gp",
+					"lbs"
+				],
+				"data": [
+					[
+						"[Acidic Lemon Tree](magic/plant/acidic_lemon_tree)",
+						"none",
+						12000
+					],
+					[
+						"[Altitude Fern](magic/plant/altitude_fern)",
+						"none",
+						12000
+					],
+					[
+						"[Ambrosial Lotus](magic/plant/ambrosial_lotus)",
+						"none",
+						25000
+					],
+					[
+						"[Breezeblown Dandelion](magic/plant/breezeblown_dandelion)",
+						"none",
+						10000
+					],
+					[
+						"[Cleanthistle](magic/plant/cleanthistle)",
+						"none",
+						7200
+					],
+					[
+						"[Fireapple Tree](magic/plant/fireapple_tree)",
+						"none",
+						5000
+					],
+					[
+						"[Fishweed](magic/plant/fishweed)",
+						"none",
+						30000
+					],
+					[
+						"[Ghostblossom](magic/plant/ghostblossom)",
+						"none",
+						10500
+					],
+					[
+						"[Goodberry Bush](magic/plant/goodberry_bush)",
+						"none",
+						8000
+					],
+					[
+						"[Grabbing Vines](magic/plant/grabbing_vines)",
+						"none",
+						2000
+					],
+					[
+						"[Gravebane Petals](magic/plant/gravebane_petals)",
+						"none",
+						16000
+					],
+					[
+						"[Helping Hands Vine](magic/plant/helping_hands_vine)",
+						"none",
+						12000
+					],
+					[
+						"[Palm of Decadent Feasts](magic/plant/palm_of_decadent_feasts)",
+						"none",
+						9600
+					],
+					[
+						"[Poison Siphon Tree](magic/plant/poison_siphon_tree)",
+						"none",
+						56000
+					],
+					[
+						"[Portal Oak](magic/plant/portal_oak)",
+						"none",
+						45000
+					],
+					[
+						"[Restful Birch](magic/plant/restful_birch)",
+						"none",
+						4000
+					],
+					[
+						"[Salvation Cactus](magic/plant/salvation_cactus)",
+						"none",
+						8000
+					],
+					[
+						"[Sheltershrub](magic/plant/sheltershrub)",
+						"none",
+						12000
+					],
+					[
+						"[Tree of Knowledge](magic/plant/tree_of_knowledge)",
+						"none",
+						3000
+					],
+					[
+						"[Tree of Woe](magic/plant/tree_of_woe)",
+						"none",
+						20000
+					],
+					[
+						"[Waterwalk Reeds](magic/plant/waterwalk_reeds)",
+						"none",
+						30000
+					]
+				],
+				"initialColumn": 1,
+				"className": "simple"
+			},
+			{
+				"id": "magic tattoos table",
+				"headers": [
+					"Tattoo",
+					"Cost"
+				],
+				"types": [
+					null,
+					"gp"
+				],
+				"data": [
+					[
+						"[Animal Totem Tattoo](magic/tattoo/animal_totem_tattoo)",
+						12000
+					],
+					[
+						"[Caster's Tattoo (Greater)](magic/tattoo/caster's_tattoo_greater)",
+						48000
+					],
+					[
+						"[Caster's Tattoo (Lesser)](magic/tattoo/caster's_tattoo_lesser)",
+						6000
+					],
+					[
+						"[Caster's Tattoo (Normal)](magic/tattoo/caster's_tattoo_normal)",
+						21000
+					],
+					[
+						"[Hypnotic Tattoo](magic/tattoo/hypnotic_tattoo)",
+						900
+					],
+					[
+						"[Kin's Face Tattoo](magic/tattoo/kin's_face_tattoo)",
+						1600
+					],
+					[
+						"[Mesmerizing Tattoo](magic/tattoo/mesmerizing_tattoo)",
+						10800
+					],
+					[
+						"[Penumbra Tattoo](magic/tattoo/penumbra_tattoo)",
+						24000
+					],
+					[
+						"[Radiant Tattoo](magic/tattoo/radiant_tattoo)",
+						1500
+					],
+					[
+						"[Reservoir Tattoo](magic/tattoo/reservoir_tattoo)",
+						10000
+					],
+					[
+						"[Runeward Tattoo](magic/tattoo/runeward_tattoo)",
+						1000
+					],
+					[
+						"[Serpentine Tattoo](magic/tattoo/serpentine_tattoo)",
+						2000
+					],
+					[
+						"[Spell Tattoo](magic/tattoo/spell_tattoo)",
+						0
+					],
+					[
+						"[Swirling Smoke Tattoo](magic/tattoo/swirling_smoke_tattoo)",
+						12500
+					],
+					[
+						"[Viper Tattoo](magic/tattoo/viper_tattoo)",
+						18000
+					],
+					[
+						"[Watchtower Tattoo](magic/tattoo/watchtower_tattoo)",
+						9500
+					],
+					[
+						"[Weapon Tattoo](magic/tattoo/weapon_tattoo)",
+						10000
+					]
+				],
+				"initialColumn": 0,
+				"className": "simple"
+			}
+		]
 	}
 }

@@ -1,22 +1,8 @@
 {
 	"_prefix": "magic-necrograft",
-	"_description": [
-		"# Necrografts",
-		"",
-		"**Description Source:** [Black Markets](source/black_markets)",
-		"",
-		"Grafting undead components to a living creature is illegal outside of Geb, but black markets across the Inner Sea region still trade in these undead body parts. Most prospective necrograft hosts seek out these macabre additions to replace a sick or missing body part, although some see necrografts as an extreme form of body modification, excising perfectly healthy body parts to make room for undead flesh. Not all necrograft hosts are willing recipients-some are forced to endure the surgical process as part of mad experiments.",
-		"",
-		"A skilled necrograft surgeon (often a necromancer) is required to install a necrograft. Necrografts can be attached only to humanoids and only to replace a part-a necrograft arm can't be added in addition a human's two healthy arms, for example, but could replace a lost arm. When a necrograft is attached (a process requiring 1 hour), the recipient must succeed at a DC 18 Fortitude save or the necrograft fails to integrate with his body. Either way, the recipient takes 2 points of Constitution damage from the surgery.",
-		"",
-		"A raise dead or resurrection spell cast on a living creature instantly destroys any necrograft implants unless the target succeeds at a separate Will save against the spell for each necrograft implant. If the target of the spell is dead, the target is restored to life but any implants are destroyed."
-	],
 	"ghoulgut": {
 		"name": "Ghoulgut",
 		"sources": [ "Black Markets" ],
-		"cost": 16000,
-		"type": "necrograft",
-		"slot": "none",
 		"description": [
 			"## Ghoulgut",
 			"",
@@ -35,9 +21,6 @@
 	"gravespawn_gland": {
 		"name": "Gravespawn Gland",
 		"sources": [ "Black Markets" ],
-		"cost": 6200,
-		"type": "necrograft",
-		"slot": "none",
 		"description": [
 			"## Gravespawn Gland",
 			"",
@@ -58,9 +41,6 @@
 	"necrograft_arm": {
 		"name": "Necrograft Arm",
 		"sources": [ "Black Markets" ],
-		"cost": 12000,
-		"type": "necrograft",
-		"slot": "none",
 		"description": [
 			"## Necrograft Arm",
 			"",
@@ -79,9 +59,6 @@
 	"necrograft_leg": {
 		"name": "Necrograft Leg",
 		"sources": [ "Black Markets" ],
-		"cost": 6400,
-		"type": "necrograft",
-		"slot": "none",
 		"description": [
 			"## Necrograft Leg",
 			"",
@@ -100,9 +77,6 @@
 	"sallowflesh": {
 		"name": "Sallowflesh",
 		"sources": [ "Black Markets" ],
-		"cost": 20000,
-		"type": "necrograft",
-		"slot": "none",
 		"description": [
 			"## Sallowflesh",
 			"",
@@ -121,9 +95,6 @@
 	"strangler's_tongue": {
 		"name": "Strangler's Tongue",
 		"sources": [ "Black Markets" ],
-		"cost": 36000,
-		"type": "necrograft",
-		"slot": "none",
 		"description": [
 			"## Strangler's Tongue",
 			"",

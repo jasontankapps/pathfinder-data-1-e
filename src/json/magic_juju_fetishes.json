@@ -1,27 +1,11 @@
 {
 	"_prefix": "magic-fetish",
-	"_description": [
-		"## Juju Fetishes",
-		"",
-		"**Description Source:** [Pathfinder #39: The City of Seven Spears](source/pathfinder_#39_the_city_of_seven_spears)  ",
-		"Juju fetishes are charms with finite lifespans, created for the purpose of aiding or harming the possessor. Many fetishes take the form of ensorcelled pouches about half the size of a human hand, made of skin or leather and containing bones, vegetable matter, stones, spices, broken pottery, hair, blood, grave dirt, and other such ingredients. The exterior may be dyed, or strange scratches may be worked into the surface. On occasion, some other item may be sewn onto the surface, such as the severed foot of a chicken tied with colored ribbon, or a frog's leg bone etched with strange patterns. However, a cursory examination of a pouch or its contents cannot reveal the fetish's purpose or nature, as each fetish is unique.",
-		"",
-		"Juju fetishes are created in much the same way as any other kind of wondrous item. They differ in duration and durability, however, as all juju fetishes last for 1 week plus a number of days equal to the creator's caster level. Once this time has passed, the fetish loses all of its magical properties and often falls apart, as they are generally constructed of crude or deteriorating elements. This limited duration is reflected in the price and creation cost of each of the following fetishes.",
-		"",
-		"In addition to their limited life spans, juju fetishes are so delicate that identify or similar spells meant to divine a fetish's properties have a 50% chance (minus 5% times the caster's CL) of destroying the item's magic, rendering it useless. Nonmagical attempts to reveal a juju fetish's properties function as normal."
-	],
-	"_sources": [
-		"Pathfinder #39: The City of Seven Spears"
-	],
 	"black_blessing": {
 		"name": "Black Blessing",
 		"file": "_magicjujufetishes.html",
 		"sources": [ "Pathfinder #39: The City of Seven Spears" ],
-		"cost": 500,
-		"slot": "neck",
-		"weight": null,
 		"description": [
-			"### Black Blessing",
+			"## Black Blessing",
 			"",
 			"**Source** [Pathfinder #39: The City of Seven Spears pg. 71](source/pathfinder_#39_the_city_of_seven_spears)  ",
 			"**Aura** faint abjuration; **CL** 3rd  ",
@@ -31,7 +15,7 @@
 			"",
 			"This small black pouch typically bears a symbol of a heart, bird's head, or fish scribed in blood. It grants the wearer a +1 resistance bonus on Fortitude and Reflex saving throws. However, the wearer also takes a -2 penalty on all Will saves against spells cast by the item's creator.",
 			"",
-			"#### Construction",
+			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), resistance, bane; **Cost** 250 gp"
 		],
@@ -41,11 +25,8 @@
 		"name": "Ganji Doll",
 		"file": "_magicjujufetishes.html",
 		"sources": [ "Pathfinder #39: The City of Seven Spears" ],
-		"cost": 16000,
-		"slot": "none",
-		"weight": null,
 		"description": [
-			"### Ganji Doll",
+			"## Ganji Doll",
 			"",
 			"**Source** [Pathfinder #39: The City of Seven Spears pg. 71](source/pathfinder_#39_the_city_of_seven_spears)  ",
 			"**Aura** moderate necromancy; **CL** 6th  ",
@@ -63,7 +44,7 @@
 			"",
 			"**Target:** The ganji doll functions as the bound target itself for the purpose of any spell with a range of touch. The target receives the effect of any spell cast upon the doll (up to the doll's limit of 3 effects per day) as if the caster had actually touched him. The target may make saving throws against such spells, if allowed, as normal, but takes the -2 penalty imposed by the doll. Beneficial spells, such as cure light wounds, can also be used in this manner.",
 			"",
-			"#### Construction",
+			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bestow curse, and a piece of the body of the humanoid to be affected; **Cost** 8,000 gp"
 		],
@@ -71,14 +52,10 @@
 	},
 	"ganji_doll,_greater": {
 		"name": "Ganji Doll, Greater",
-		"searchable_name": "Greater Ganji Doll",
 		"file": "_magicjujufetishes.html",
 		"sources": [ "Pathfinder #39: The City of Seven Spears" ],
-		"cost": 36000,
-		"slot": "none",
-		"weight": null,
 		"description": [
-			"### Greater Ganji Doll",
+			"## Greater Ganji Doll",
 			"",
 			"**Source** [Pathfinder #39: The City of Seven Spears pg. 71](source/pathfinder_#39_the_city_of_seven_spears)  ",
 			"**Aura** moderate necromancy; **CL** 12th  ",
@@ -96,7 +73,7 @@
 			"",
 			"**Suggestion:** The user whispers in the doll's ear, creating the effect of a suggestion spell. The target must make a DC 16 Will save to resist the effect. Unlike the spell, the target need not comprehend the user's language.",
 			"",
-			"#### Construction",
+			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bestow curse, suggestion, and a piece of the body of the humanoid to be affected; **Cost** 18,000 gp"
 		],
@@ -109,11 +86,8 @@
 		"name": "Laubo Powder",
 		"file": "_magicjujufetishes.html",
 		"sources": [ "Pathfinder #39: The City of Seven Spears" ],
-		"cost": 2800,
-		"slot": "none",
-		"weight": null,
 		"description": [
-			"### Laubo Powder",
+			"## Laubo Powder",
 			"",
 			"**Source** [Pathfinder #39: The City of Seven Spears pg. 71](source/pathfinder_#39_the_city_of_seven_spears)  ",
 			"**Aura** moderate enchantment; **CL** 10th  ",
@@ -125,7 +99,7 @@
 			"",
 			"Creating a batch of laubo powder provides enough for 3 uses.",
 			"",
-			"#### Construction",
+			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), dominate person, disguise self; **Cost** 1,400 gp"
 		],
@@ -135,11 +109,8 @@
 		"name": "Spirit Tear",
 		"file": "_magicjujufetishes.html",
 		"sources": [ "Pathfinder #39: The City of Seven Spears" ],
-		"cost": 1800,
-		"slot": "neck",
-		"weight": null,
 		"description": [
-			"### Spirit Tear",
+			"## Spirit Tear",
 			"",
 			"**Source** [Pathfinder #39: The City of Seven Spears pg. 71](source/pathfinder_#39_the_city_of_seven_spears)  ",
 			"**Aura** faint divination; **CL** 5th  ",
@@ -149,7 +120,7 @@
 			"",
 			"This small glass ornament is usually molded into the shape of an eye or drop. Once per day the wearer can activate the tear, gaining the ability to see invisibility with a range of 10 feet for 5 minutes.",
 			"",
-			"#### Construction",
+			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), see invisibility; **Cost** 900 gp"
 		],

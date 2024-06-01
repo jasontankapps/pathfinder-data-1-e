@@ -1,14 +1,8 @@
 {
 	"_prefix": "magic-necrotoxin",
-	"_description": [
-		"# Necrotoxins",
-		"",
-		"Hailing from the undead nation of Geb but illegal even there, necrotoxins fuse alchemy and necromancy to attack not just the body or the mind, but the very soul of the victim. Only alchemists in Geb and the poison-loving city of Daggermark have mastered the creation of these rare and reviled toxins. // Charging necrotoxins with necrotic power requires special rituals, reagents from undead creatures, and the channeling of negative energy during the brewing process. The DCs of Craft (alchemy) check to brew a necrotoxin is 5 higher than the poison's Fortitude DC due to the temperamental process of its creation."
-	],
 	"entropic_dust": {
 		"name": "Entropic Dust",
 		"sources": [ "Black Markets" ],
-		"cost": 1500,
 		"description": [
 			"## Entropic Dust",
 			"",
@@ -31,7 +25,6 @@
 	"ghost_syrup": {
 		"name": "Ghost Syrup",
 		"sources": [ "Agents of Evil" ],
-		"cost": 6000,
 		"description": [
 			"## Ghost Syrup",
 			"",
@@ -54,7 +47,6 @@
 	"lazurite_flakes": {
 		"name": "Lazurite Flakes",
 		"sources": [ "Black Markets" ],
-		"cost": 5400,
 		"description": [
 			"## Lazurite Flakes",
 			"",
@@ -77,7 +69,6 @@
 	"memento_mori": {
 		"name": "Memento Mori",
 		"sources": [ "Agents of Evil" ],
-		"cost": 3700,
 		"description": [
 			"## Memento Mori",
 			"",
@@ -100,7 +91,6 @@
 	"quick_rot": {
 		"name": "Quick Rot",
 		"sources": [ "Black Markets" ],
-		"cost": 450,
 		"description": [
 			"## Quick Rot",
 			"",
@@ -123,7 +113,6 @@
 	"xensh_spores": {
 		"name": "Xensh Spores",
 		"sources": [ "Black Markets" ],
-		"cost": 1200,
 		"description": [
 			"## Xensh Spores",
 			"",

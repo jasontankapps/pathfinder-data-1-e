@@ -1,19 +1,36 @@
 {
+	"_table": {
+		"id": "devil talismans table",
+		"headers": [
+			"Augmentation",
+			"Slot",
+			"Price",
+			"Weight"
+		],
+		"types": [
+			null,
+			null,
+			"gp",
+			"lbs"
+		],
+		"data": [
+			"| Augmentation | Price |",
+			"| --- | --- |",
+			"| [Blazing Eyes](magic/augmentation/blazing_eyes) | 42000 |",
+			"| [Blazing Hand](magic/augmentation/blazing_hand) | 16000 |",
+			"| [Hoarfrost Bones](magic/augmentation/hoarfrost_bones) | 85000 |",
+			"| [Quicksilver Blood](magic/augmentation/quicksilver_blood) | 62000 |",
+			"| [Smoldering Blood](magic/augmentation/smoldering_blood) | 8000 |",
+			"| [Vaporous Lungs](magic/augmentation/vaporous_lungs) | 10800 |",
+			"| [Whirlpool Maw](magic/augmentation/whirlpool_maw) | 19000 |"
+		],
+		"initialColumn": 0,
+		"className": "simple"
+	},
 	"_prefix": "magic-elemental",
-	"_description": [
-		"# Elemental Augmentation",
-		"",
-		"Some intentionally infuse their own bodies with elemental energy, permanently imbuing parts of themselves with primordial forces. Once a commonplace devotion to elemental forces, elemental augmentations are now a rare art known to only a few specialists. Elementalists in Quantium command high prices to augment eager recipients with elemental energy, but not all have the requisite expertise-accidents are distressingly common.",
-		"",
-		"Elemental augmentations affect a specific portion of the recipient's body, aligning it with the designated element. These augmentations grant the recipient powerful abilities, but they often come with side effects as the recipient's body becomes elementally unbalanced. The alteration is permanent; once a body part has been elementally augmented, the granted effect can be removed only by removing the augmented body part. Removal deals 1d6 points of Constitution damage and could have other effects as well, such as blindness or lameness, as determined by the GM. A body part that has been elementally augmented cannot receive another elemental augmentation, even of the same type.",
-		"",
-		"An elemental augmentation must be crafted or purchased just like any other magic item, but it is inert until used to augment a willing recipient. Elementally augmenting a body part requires 1 hour, and the recipient must succeed at a DC 18 Fortitude save or the elemental energies fail to integrate with his body. Whether he succeeds or fails, the recipient takes 2 points of Constitution damage from the augmentation attempt."
-	],
 	"blazing_eyes": {
 		"name": "Blazing Eyes",
 		"sources": [ "Elemental Master's Handbook" ],
-		"cost": 42000,
-		"slot": "none",
 		"description": [
 			"## Blazing Eyes",
 			"",
@@ -35,8 +52,6 @@
 	"blazing_hand": {
 		"name": "Blazing Hand",
 		"sources": [ "Elemental Master's Handbook" ],
-		"cost": 16000,
-		"slot": "none",
 		"description": [
 			"## Blazing Hand",
 			"",
@@ -58,8 +73,6 @@
 	"hoarfrost_bones": {
 		"name": "Hoarfrost Bones",
 		"sources": [ "Elemental Master's Handbook" ],
-		"cost": 85000,
-		"slot": "none",
 		"description": [
 			"## Hoarfrost Bones",
 			"",
@@ -83,8 +96,6 @@
 	"quicksilver_blood": {
 		"name": "Quicksilver Blood",
 		"sources": [ "Elemental Master's Handbook" ],
-		"cost": 62000,
-		"slot": "none",
 		"description": [
 			"## Quicksilver Blood",
 			"",
@@ -106,8 +117,6 @@
 	"smoldering_blood": {
 		"name": "Smoldering Blood",
 		"sources": [ "Elemental Master's Handbook" ],
-		"cost": 8000,
-		"slot": "none",
 		"description": [
 			"## Smoldering Blood",
 			"",
@@ -129,8 +138,6 @@
 	"vaporous_lungs": {
 		"name": "Vaporous Lungs",
 		"sources": [ "Elemental Master's Handbook" ],
-		"cost": 10800,
-		"slot": "none",
 		"description": [
 			"## Vaporous Lungs",
 			"",
@@ -154,8 +161,6 @@
 	"whirlpool_maw": {
 		"name": "Whirlpool Maw",
 		"sources": [ "Elemental Master's Handbook" ],
-		"cost": 19000,
-		"slot": "none",
 		"description": [
 			"## Whirlpool Maw",
 			"",

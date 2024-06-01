@@ -4,9 +4,6 @@
 		"name": "Grabbing Vines",
 		"file": "magicplantsdisplay4f4b.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"cost": 2000,
-		"slot": "none",
-		"weight": 50,
 		"description": [
 			"## Grabbing Vines",
 			"",
@@ -28,9 +25,6 @@
 		"name": "Tree of Knowledge",
 		"file": "magicplantsdisplay5475.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"cost": 3000,
-		"slot": "none",
-		"weight": 500,
 		"description": [
 			"## Tree of Knowledge",
 			"",
@@ -52,9 +46,6 @@
 		"name": "Restful Birch",
 		"file": "magicplantsdisplay9961.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"cost": 4000,
-		"slot": "none",
-		"weight": 500,
 		"description": [
 			"## Restful Birch",
 			"",
@@ -78,9 +69,6 @@
 		"name": "Fireapple Tree",
 		"file": "magicplantsdisplay433e.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"cost": 5000,
-		"slot": "none",
-		"weight": 500,
 		"description": [
 			"## Fireapple Tree",
 			"",
@@ -102,9 +90,6 @@
 		"name": "Cleanthistle",
 		"file": "magicplantsdisplayd182.html",
 		"sources": [ "Wilderness Origins" ],
-		"cost": 7200,
-		"slot": "none",
-		"weight": 50,
 		"description": [
 			"## Cleanthistle",
 			"",
@@ -126,9 +111,6 @@
 		"name": "Goodberry Bush",
 		"file": "magicplantsdisplay739b.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"cost": 8000,
-		"slot": "none",
-		"weight": 50,
 		"description": [
 			"## Goodberry Bush",
 			"",
@@ -150,9 +132,6 @@
 		"name": "Salvation Cactus",
 		"file": "magicplantsdisplay5e01.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"cost": 8000,
-		"slot": "none",
-		"weight": 50,
 		"description": [
 			"## Salvation Cactus",
 			"",
@@ -174,9 +153,6 @@
 		"name": "Palm of Decadent Feasts",
 		"file": "magicplantsdisplayce1e.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"cost": 9600,
-		"slot": "none",
-		"weight": 500,
 		"description": [
 			"## Palm of Decadent Feasts",
 			"",
@@ -198,9 +174,6 @@
 		"name": "Breezeblown Dandelion",
 		"file": "magicplantsdisplay0ce3.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"cost": 10000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Breezeblown Dandelion",
 			"",
@@ -222,9 +195,6 @@
 		"name": "Ghostblossom",
 		"file": "magicplantsdisplayfc9f.html",
 		"sources": [ "Wilderness Origins" ],
-		"cost": 10500,
-		"slot": "none",
-		"weight": 50,
 		"description": [
 			"## Ghostblossom",
 			"",
@@ -246,9 +216,6 @@
 		"name": "Acidic Lemon Tree",
 		"file": "magicplantsdisplaya7dd.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"cost": 12000,
-		"slot": "none",
-		"weight": 500,
 		"description": [
 			"## Acidic Lemon Tree",
 			"",
@@ -270,9 +237,6 @@
 		"name": "Altitude Fern",
 		"file": "magicplantsdisplaybffd.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"cost": 12000,
-		"slot": "none",
-		"weight": 50,
 		"description": [
 			"## Altitude Fern",
 			"",
@@ -294,9 +258,6 @@
 		"name": "Helping Hands Vine",
 		"file": "magicplantsdisplay6645.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"cost": 12000,
-		"slot": "none",
-		"weight": 50,
 		"description": [
 			"## Helping Hands Vine",
 			"",
@@ -318,9 +279,6 @@
 		"name": "Sheltershrub",
 		"file": "magicplantsdisplay6b83.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"cost": 12000,
-		"slot": "none",
-		"weight": 50,
 		"description": [
 			"## Sheltershrub",
 			"",
@@ -342,9 +300,6 @@
 		"name": "Gravebane Petals",
 		"file": "magicplantsdisplaya823.html",
 		"sources": [ "Wilderness Origins" ],
-		"cost": 16000,
-		"slot": "none",
-		"weight": 50,
 		"description": [
 			"## Gravebane Petals",
 			"",
@@ -366,9 +321,6 @@
 		"name": "Tree of Woe",
 		"file": "magicplantsdisplay6460.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"cost": 20000,
-		"slot": "none",
-		"weight": 500,
 		"description": [
 			"## Tree of Woe",
 			"",
@@ -390,9 +342,6 @@
 		"name": "Ambrosial Lotus",
 		"file": "magicplantsdisplayf99f.html",
 		"sources": [ "Wilderness Origins" ],
-		"cost": 25000,
-		"slot": "none",
-		"weight": 50,
 		"description": [
 			"## Ambrosial Lotus",
 			"",
@@ -414,9 +363,6 @@
 		"name": "Fishweed",
 		"file": "magicplantsdisplay0aae.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"cost": 30000,
-		"slot": "none",
-		"weight": 50,
 		"description": [
 			"## Fishweed",
 			"",
@@ -438,9 +384,6 @@
 		"name": "Waterwalk Reeds",
 		"file": "magicplantsdisplay6dfc.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"cost": 30000,
-		"slot": "none",
-		"weight": 50,
 		"description": [
 			"## Waterwalk Reeds",
 			"",
@@ -462,9 +405,6 @@
 		"name": "Portal Oak",
 		"file": "magicplantsdisplay42c7.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"cost": 45000,
-		"slot": "none",
-		"weight": 500,
 		"description": [
 			"## Portal Oak",
 			"",
@@ -486,9 +426,6 @@
 		"name": "Poison Siphon Tree",
 		"file": "magicplantsdisplayc1c3.html",
 		"sources": [ "Ultimate Wilderness" ],
-		"cost": 56000,
-		"slot": "none",
-		"weight": 500,
 		"description": [
 			"## Poison Siphon Tree",
 			"",

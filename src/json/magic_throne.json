@@ -4,8 +4,6 @@
 		"name": "Throne of Pleasing Mien",
 		"file": "magicthronesdisplay2a1e.html",
 		"sources": [ "Heroes of the High Court" ],
-		"cost": 8000,
-		"weight": 350,
 		"description": [
 			"## Throne of Pleasing Mien",
 			"",
@@ -25,8 +23,6 @@
 		"name": "Throne of Fetters",
 		"file": "magicthronesdisplayaf8a.html",
 		"sources": [ "Heroes of the High Court" ],
-		"cost": 16000,
-		"weight": 500,
 		"description": [
 			"## Throne of Fetters",
 			"",
@@ -46,8 +42,6 @@
 		"name": "Throne of the Ardent Defense",
 		"file": "magicthronesdisplay1d19.html",
 		"sources": [ "Heroes of the High Court" ],
-		"cost": 16000,
-		"weight": 350,
 		"description": [
 			"## Throne of the Ardent Defense",
 			"",

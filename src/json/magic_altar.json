@@ -4,9 +4,6 @@
 		"name": "Altar of Pharasma",
 		"file": "magicaltarsdisplaycae8.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 5380,
-		"slot": "altar",
-		"weight": 1000,
 		"description": [
 			"## Altar of Pharasma",
 			"",
@@ -26,9 +23,6 @@
 		"name": "Altar of Cayden Cailean",
 		"file": "magicaltarsdisplay6960.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 8000,
-		"slot": "altar",
-		"weight": 150,
 		"description": [
 			"## Altar of Cayden Cailean",
 			"",
@@ -48,9 +42,6 @@
 		"name": "Altar of Gorum",
 		"file": "magicaltarsdisplay22f7.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 8000,
-		"slot": "altar",
-		"weight": 750,
 		"description": [
 			"## Altar of Gorum",
 			"",
@@ -70,9 +61,6 @@
 		"name": "Altar of Gozreh",
 		"file": "magicaltarsdisplay8ae1.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 8000,
-		"slot": "altar",
-		"weight": 1000,
 		"description": [
 			"## Altar of Gozreh",
 			"",
@@ -92,9 +80,6 @@
 		"name": "Altar of Iomedae",
 		"file": "magicaltarsdisplay7a38.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 8000,
-		"slot": "altar",
-		"weight": 1000,
 		"description": [
 			"## Altar of Iomedae",
 			"",
@@ -114,9 +99,6 @@
 		"name": "Altar of Irori",
 		"file": "magicaltarsdisplay9ec9.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 8000,
-		"slot": "altar",
-		"weight": 150,
 		"description": [
 			"## Altar of Irori",
 			"",
@@ -136,9 +118,6 @@
 		"name": "Altar of Nethys",
 		"file": "magicaltarsdisplay63c7.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 8000,
-		"slot": "altar",
-		"weight": 500,
 		"description": [
 			"## Altar of Nethys",
 			"",
@@ -158,9 +137,6 @@
 		"name": "Altar of Sarenrae",
 		"file": "magicaltarsdisplayf43a.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 8000,
-		"slot": "altar",
-		"weight": 750,
 		"description": [
 			"## Altar of Sarenrae",
 			"",
@@ -180,9 +156,6 @@
 		"name": "Altar of Shelyn",
 		"file": "magicaltarsdisplay6b7d.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 8000,
-		"slot": "altar",
-		"weight": 150,
 		"description": [
 			"## Altar of Shelyn",
 			"",
@@ -202,9 +175,6 @@
 		"name": "Altar of Urgathoa",
 		"file": "magicaltarsdisplayd9b8.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 8000,
-		"slot": "altar",
-		"weight": 500,
 		"description": [
 			"## Altar of Urgathoa",
 			"",
@@ -222,12 +192,8 @@
 	},
 	"altar_of_zon-kuthon": {
 		"name": "Altar of Zon-Kuthon",
-		"searchable_name": "Altar of Zon Kuthon",
 		"file": "magicaltarsdisplayfb67.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 8000,
-		"slot": "altar",
-		"weight": 150,
 		"description": [
 			"## Altar of Zon-Kuthon",
 			"",
@@ -250,9 +216,6 @@
 		"name": "Altar of Abadar",
 		"file": "magicaltarsdisplay1c40.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 10000,
-		"slot": "altar",
-		"weight": 1000,
 		"description": [
 			"## Altar of Abadar",
 			"",
@@ -272,9 +235,6 @@
 		"name": "Altar of Desna",
 		"file": "magicaltarsdisplay157e.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 10000,
-		"slot": "altar",
-		"weight": 1000,
 		"description": [
 			"## Altar of Desna",
 			"",
@@ -294,9 +254,6 @@
 		"name": "Altar of Erastil",
 		"file": "magicaltarsdisplay03c9.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 10000,
-		"slot": "altar",
-		"weight": 1000,
 		"description": [
 			"## Altar of Erastil",
 			"",
@@ -316,9 +273,6 @@
 		"name": "Altar of Lamashtu",
 		"file": "magicaltarsdisplay1ca3.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 10000,
-		"slot": "altar",
-		"weight": 500,
 		"description": [
 			"## Altar of Lamashtu",
 			"",
@@ -338,9 +292,6 @@
 		"name": "Altar of Norgorber",
 		"file": "magicaltarsdisplay8651.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 10000,
-		"slot": "altar",
-		"weight": 250,
 		"description": [
 			"## Altar of Norgorber",
 			"",
@@ -360,9 +311,6 @@
 		"name": "Altar of Rovagug",
 		"file": "magicaltarsdisplayad2b.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 10000,
-		"slot": "altar",
-		"weight": 150,
 		"description": [
 			"## Altar of Rovagug",
 			"",
@@ -382,9 +330,6 @@
 		"name": "Altar of the Dawnflower",
 		"file": "magicaltarsdisplaye5e1.html",
 		"sources": [ "Inner Sea Temples" ],
-		"cost": 10000,
-		"slot": "altar",
-		"weight": 250,
 		"description": [
 			"## Altar of the Dawnflower",
 			"",
@@ -406,9 +351,6 @@
 		"name": "Altar of Torag",
 		"file": "magicaltarsdisplay6ea9.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 10000,
-		"slot": "altar",
-		"weight": 500,
 		"description": [
 			"## Altar of Torag",
 			"",
@@ -428,9 +370,6 @@
 		"name": "Altar of Zursvaater",
 		"file": "magicaltarsdisplay13b3.html",
 		"sources": [ "Pathfinder #95: Anvil of Fire" ],
-		"cost": 10000,
-		"slot": "altar",
-		"weight": 1000,
 		"description": [
 			"## Altar of Zursvaater",
 			"",
@@ -450,9 +389,6 @@
 		"name": "Altar of Asmodeus",
 		"file": "magicaltarsdisplay5ff3.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 16000,
-		"slot": "altar",
-		"weight": 750,
 		"description": [
 			"## Altar of Asmodeus",
 			"",
@@ -472,9 +408,6 @@
 		"name": "Altar of Calistria",
 		"file": "magicaltarsdisplay6d53.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 16000,
-		"slot": "altar",
-		"weight": 500,
 		"description": [
 			"## Altar of Calistria",
 			"",

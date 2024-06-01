@@ -4,9 +4,6 @@
 		"name": "Kerchief of Remembrance",
 		"file": "magicfavorsdisplay8eb5.html",
 		"sources": [ "Heroes of the High Court" ],
-		"cost": 600,
-		"slot": "arm or wrist",
-		"weight": 0,
 		"description": [
 			"## Kerchief of Remembrance",
 			"",
@@ -26,9 +23,6 @@
 		"name": "Paper Flower",
 		"file": "magicfavorsdisplay714f.html",
 		"sources": [ "Heroes of the High Court" ],
-		"cost": 800,
-		"slot": "headband",
-		"weight": 0,
 		"description": [
 			"## Paper Flower",
 			"",
@@ -48,9 +42,6 @@
 		"name": "Lucky Button",
 		"file": "magicfavorsdisplaya4a3.html",
 		"sources": [ "Heroes of the High Court" ],
-		"cost": 1200,
-		"slot": "none",
-		"weight": 0,
 		"description": [
 			"## Lucky Button",
 			"",
@@ -70,9 +61,6 @@
 		"name": "Laurel of the Champion",
 		"file": "magicfavorsdisplaya72d.html",
 		"sources": [ "Heroes of the High Court" ],
-		"cost": 2000,
-		"slot": "head",
-		"weight": 0,
 		"description": [
 			"## Laurel of the Champion",
 			"",
@@ -92,9 +80,6 @@
 		"name": "Token of Gallantry",
 		"file": "magicfavorsdisplay585d.html",
 		"sources": [ "Heroes of the High Court" ],
-		"cost": 2400,
-		"slot": "none",
-		"weight": 0,
 		"description": [
 			"## Token of Gallantry",
 			"",

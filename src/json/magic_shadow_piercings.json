@@ -1,15 +1,9 @@
 {
 	"_prefix": "magic-piercing",
-	"_description": [
-		"**Description Source:** [Champions of Corruption](source/champions_of_corruption)",
-		"",
-		"True Nidalese savor pain, and they proudly wear this delight in the torturous piercing of their bodies. Shadow piercers are some of the most skilled pain artisans in Nidal's depraved culture. They create magical pieces of jewelry, formed partially of shadowstuff, and use them in all manner of surface piercings for their discerning clients. Some shadow piercings are more than just single pieces of jewelry-instead they are created in sets that form specific designs across an expanse of the wearer's skin."
-	],
 	"body_piercings_minor": {
 		"name": "Body Piercings (Minor)",
-		"sources": [ "Champions of Corruption" ],
 		"file": "shadowpiercingsdisplay3e55.html",
-		"cost": 1800,
+		"sources": [ "Champions of Corruption" ],
 		"description": [
 			"## Body Piercings",
 			"",
@@ -34,9 +28,8 @@
 	},
 	"chest_piercings_minor": {
 		"name": "Chest Piercings (Minor)",
-		"sources": [ "Champions of Corruption" ],
 		"file": "shadowpiercingsdisplay7475.html",
-		"cost": 2200,
+		"sources": [ "Champions of Corruption" ],
 		"description": [
 			"## Chest Piercings",
 			"",
@@ -61,33 +54,29 @@
 	},
 	"body_piercings_major": {
 		"name": "Body Piercings (Major)",
-		"sources": [ "Champions of Corruption" ],
 		"file": "shadowpiercingsdisplaya3a3.html",
-		"cost": 2400,
+		"sources": [ "Champions of Corruption" ],
 		"copyof": "body_piercings_minor",
 		"display": "magic/shadow_piercings"
 	},
 	"body_piercings_greater": {
 		"name": "Body Piercings (Greater)",
-		"sources": [ "Champions of Corruption" ],
 		"file": "shadowpiercingsdisplayce07.html",
-		"cost": 3200,
+		"sources": [ "Champions of Corruption" ],
 		"copyof": "body_piercings_minor",
 		"display": "magic/shadow_piercings"
 	},
 	"chest_piercings_major": {
 		"name": "Chest Piercings (Major)",
-		"sources": [ "Champions of Corruption" ],
 		"file": "shadowpiercingsdisplay4b45.html",
-		"cost": 3750,
+		"sources": [ "Champions of Corruption" ],
 		"copyof": "chest_piercings_minor",
 		"display": "magic/shadow_piercings"
 	},
 	"head_piercings_minor": {
 		"name": "Head Piercings (Minor)",
-		"sources": [ "Champions of Corruption" ],
 		"file": "shadowpiercingsdisplay6380.html",
-		"cost": 3750,
+		"sources": [ "Champions of Corruption" ],
 		"description": [
 			"## Head Piercings",
 			"",
@@ -112,9 +101,8 @@
 	},
 	"chest_piercings_greater": {
 		"name": "Chest Piercings (Greater)",
-		"sources": [ "Champions of Corruption" ],
 		"file": "shadowpiercingsdisplaycf3e.html",
-		"cost": 5750,
+		"sources": [ "Champions of Corruption" ],
 		"copyof": "chest_piercings_minor",
 		"display": "magic/shadow_piercings"
 	},
@@ -122,15 +110,13 @@
 		"name": "Head Piercings (Major)",
 		"file": "shadowpiercingsdisplay10bc.html",
 		"sources": [ "Champions of Corruption" ],
-		"cost": 6000,
 		"copyof": "head_piercings_minor",
 		"display": "magic/shadow_piercings"
 	},
 	"eye_piercings_minor": {
 		"name": "Eye Piercings (Minor)",
-		"sources": [ "Champions of Corruption" ],
 		"file": "shadowpiercingsdisplayc46e.html",
-		"cost": 6000,
+		"sources": [ "Champions of Corruption" ],
 		"description": [
 			"## Eye Piercings",
 			"",
@@ -155,9 +141,8 @@
 	},
 	"suspension_piercings_minor": {
 		"name": "Suspension Piercings (Minor)",
-		"sources": [ "Champions of Corruption" ],
 		"file": "shadowpiercingsdisplay7971.html",
-		"cost": 6000,
+		"sources": [ "Champions of Corruption" ],
 		"description": [
 			"## Suspension Piercings",
 			"",
@@ -182,41 +167,36 @@
 	},
 	"suspension_piercings_major": {
 		"name": "Suspension Piercings (Major)",
-		"sources": [ "Champions of Corruption" ],
 		"file": "shadowpiercingsdisplayd8dc.html",
-		"cost": 7200,
+		"sources": [ "Champions of Corruption" ],
 		"copyof": "suspension_piercings_minor",
 		"display": "magic/shadow_piercings"
 	},
 	"suspension_piercings_greater": {
 		"name": "Suspension Piercings (Greater)",
-		"sources": [ "Champions of Corruption" ],
 		"file": "shadowpiercingsdisplay0477.html",
-		"cost": 11200,
+		"sources": [ "Champions of Corruption" ],
 		"copyof": "suspension_piercings_minor",
 		"display": "magic/shadow_piercings"
 	},
 	"eye_piercings_major": {
 		"name": "Eye Piercings (Major)",
-		"sources": [ "Champions of Corruption" ],
 		"file": "shadowpiercingsdisplaycf58.html",
-		"cost": 18000,
+		"sources": [ "Champions of Corruption" ],
 		"copyof": "eye_piercings_minor",
 		"display": "magic/shadow_piercings"
 	},
 	"eye_piercings_greater": {
 		"name": "Eye Piercings (Greater)",
-		"sources": [ "Champions of Corruption" ],
 		"file": "shadowpiercingsdisplay8e0b.html",
-		"cost": 32000,
+		"sources": [ "Champions of Corruption" ],
 		"copyof": "eye_piercings_minor",
 		"display": "magic/shadow_piercings"
 	},
 	"head_piercings_greater": {
 		"name": "Head Piercings (Greater)",
-		"sources": [ "Champions of Corruption" ],
 		"file": "shadowpiercingsdisplay21c0.html",
-		"cost": 33600,
+		"sources": [ "Champions of Corruption" ],
 		"copyof": "head_piercings_minor",
 		"display": "magic/shadow_piercings"
 	}

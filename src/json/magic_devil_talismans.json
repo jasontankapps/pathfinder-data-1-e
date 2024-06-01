@@ -1,13 +1,5 @@
 {
 	"_prefix": "magic-talisman",
-	"_description": [
-		"## Devil Talismans",
-		"",
-		"**Description Source:** [Book of the Damned - Volume 1: Princes of Darkness](source/book_of_the_damned_-_volume_1_princes_of_darkness)  ",
-		"The denizens of Hell claim the crafting of devil talismans as one of their most closely guarded secrets. But in truth, knowledge of such methods is withheld only to whet mortal desires, a feint to hasten a diabolist's willing damnation. Ultimately, any spellcaster can create a devil talisman through the use of the [Craft Wondrous Item](feat/craft_wondrous_item) feat and planar binding. As an additional prerequisite to the creation of any type of devil talisman, the creator must summon a devil and bargain with it to be bound within the talisman. Most devils prove resistant to the idea of being trapped within a magic item, but might acquiesce to a particularly convincing summoner. A devil summoned via planar binding and coerced into being bound within a devil talisman gains a +10 bonus on its opposed Charisma check. Once convinced, the devil infuses the already prepared devil talisman, completing the profane item.",
-		"",
-		"The various types of devil talismans each possess unique powers and thus require different methods of creation or specific types of bound devils to activate them."
-	],
 	"bilious_talisman_minor_artifact": {
 		"name": "Bilious Talisman (Minor Artifact)",
 		"file": "_magicdeviltalismans.html",
@@ -15,11 +7,8 @@
 			"Book of the Damned",
 			"Book of the Damned - Volume 1: Princes of Darkness"
 		],
-		"cost": null,
-		"slot": "neck",
-		"weight": null,
 		"description": [
-			"### Bilious Talisman (Minor Artifact)",
+			"## Bilious Talisman (Minor Artifact)",
 			"",
 			"**Source** [Book of the Damned pg. 194](source/book_of_the_damned), [Book of the Damned - Volume 1: Princes of Darkness pg. 41](source/book_of_the_damned_-_volume_1_princes_of_darkness)  ",
 			"**Aura** overwhelming conjuration; **CL** 21st  ",
@@ -37,7 +26,7 @@
 			"",
 			"Each bilious talisman has a unique devil bound within. For example, a bilious talisman could contain a powerful pit fiend named Aasdravox who speaks with a voice like grinding stones and tells the wearers of his talisman that they are destined to become great heroes and champions, beloved by whole nations. Optimally, he seeks to release his power at the culmination of a festival or ceremony held in his talisman wearer's honor.",
 			"",
-			"#### Destruction",
+			"### Destruction",
 			"",
 			"To destroy a bilious talisman, it must first be immersed in holy water for 1 week in an area under the effects of hallow and then smashed with a +3 holy warhammer (or a bludgeoning weapon of similar or greater power). While this destroys the talisman, it also frees the potent infernal noble bound within."
 		],
@@ -50,11 +39,8 @@
 			"Book of the Damned",
 			"Book of the Damned - Volume 1: Princes of Darkness"
 		],
-		"cost": 50000,
-		"slot": "neck",
-		"weight": null,
 		"description": [
-			"### Melancholic Talisman",
+			"## Melancholic Talisman",
 			"",
 			"**Source** [Book of the Damned pg. 194](source/book_of_the_damned), [Book of the Damned - Volume 1: Princes of Darkness pg. 41](source/book_of_the_damned_-_volume_1_princes_of_darkness)  ",
 			"**Aura** strong conjuration; **CL** 18th  ",
@@ -70,7 +56,7 @@
 			"",
 			"For example, a specific melancholic talisman could be linked to a hellmouth known as Alksomasic, each of whose two portal-heads appears as a massive snake with three gigantic compound eyes. The hellmouth's maws connect to a shadowy alley in the city of Dis known as the Walk of Wayward Skins and to an outlying bolgia of Malebolge, where monstrous worms slither through a waist-deep sea of ash. Once per day, the wearer of this talisman can open a 10- foot portal to either of these layers. This portal remains open for 10 minutes (or until dismissed) and functions as per gate.",
 			"",
-			"#### Construction",
+			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), gate; **Cost** 25,000 gp"
 		],
@@ -83,11 +69,8 @@
 			"Book of the Damned",
 			"Book of the Damned - Volume 1: Princes of Darkness"
 		],
-		"cost": null,
-		"slot": "neck",
-		"weight": null,
 		"description": [
-			"### Sanguine Talisman",
+			"## Sanguine Talisman",
 			"",
 			"**Source** [Book of the Damned pg. 194](source/book_of_the_damned), [Book of the Damned - Volume 1: Princes of Darkness pg. 41](source/book_of_the_damned_-_volume_1_princes_of_darkness)  ",
 			"**Aura** strong conjuration; **CL** 13th  ",
@@ -103,7 +86,7 @@
 			"",
 			"For example, consider a sanguine talisman that binds a bearded devil. Wearing the talisman grants a +2 profane bonus to Armor Class and grants a telepathic bond with the devil bound within. Once per day, the wearer can attempt a Charisma check opposed by the devil's Charisma check (its Charisma modifier is +0) to summon it forth for 5 rounds, as per summon monster. The particular bearded devil bound within this sanguine talisman is known as Kalvaddas the Strangler. He is a blunt sadist with a love of hand-to-hand brawls and throttling elves. He knows much of liars and might use his Sense Motive skill to aid a master he favors.",
 			"",
-			"#### Construction",
+			"### Construction",
 			"",
 			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), greater planar binding, lesser planar binding, or planar binding; **Cost** varies"
 		],

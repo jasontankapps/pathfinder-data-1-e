@@ -1,8 +1,5 @@
 {
 	"_prefix": "magic-posion",
-	"_sources": [
-		"Black Markets"
-	],
 	"_description": [
 		"By combining the skill of potioncraft with a poisoner's art, cunning assassins and herbalists can craft vile supernatural threats. An infused poison combines the effects of an ingested poison and a potion. A creature drinking an infused poison is affected by the poison (and its initial effects or damage) first, after which the infused spell effect triggers and the imbiber must attempt a second saving throw (often of a different type or DC) against its magical effects. Spell resistance applies normally to an infused poison's magical effects, but offers no protection against the poison, and poison resistance offers no protection against the magical effects of an infused poison. Poison immunity renders a creature immune to an infused poison's magical effects.",
 		"",
@@ -15,7 +12,6 @@
 	"abyssal_arsenic": {
 		"name": "Abyssal Arsenic",
 		"sources": [ "Black Markets" ],
-		"cost": 420,
 		"description": [
 			"## Abyssal Arsenic",
 			"",
@@ -37,7 +33,6 @@
 	"burning_heart": {
 		"name": "Burning Heart",
 		"sources": [ "Black Markets" ],
-		"cost": 150,
 		"description": [
 			"## Burning Heart",
 			"",
@@ -59,7 +54,6 @@
 	"dust_of_eox": {
 		"name": "Dust of Eox",
 		"sources": [ "Black Markets" ],
-		"cost": 1150,
 		"description": [
 			"## Dust of Eox",
 			"",
@@ -81,7 +75,6 @@
 	"liquid_influence": {
 		"name": "Liquid Influence",
 		"sources": [ "Black Markets" ],
-		"cost": 900,
 		"description": [
 			"## Liquid Influence",
 			"",
