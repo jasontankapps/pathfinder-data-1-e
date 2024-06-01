@@ -28,7 +28,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, Silent Spell, Still Spell, faerie fire or scorching ray, creator must have 13 ranks in Knowledge (planes); **Cost** 21,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), Silent Spell, Still Spell, faerie fire or scorching ray, creator must have 13 ranks in Knowledge (planes); **Cost** 21,000 gp"
 		],
 		"display": "magic/elemental_augmentations"
 	},
@@ -51,7 +51,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, fireball or flame strike, creator must have 10 ranks in Knowledge (planes); **Cost** 8,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), fireball or flame strike, creator must have 10 ranks in Knowledge (planes); **Cost** 8,000 gp"
 		],
 		"display": "magic/elemental_augmentations"
 	},
@@ -76,7 +76,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, ice body, simulacrum, creator must have 13 ranks in Knowledge (planes); **Cost** 42,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), ice body, simulacrum, creator must have 13 ranks in Knowledge (planes); **Cost** 42,500 gp"
 		],
 		"display": "magic/elemental_augmentations"
 	},
@@ -99,7 +99,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, adhesive blood, lesser restoration, creator must have 9 ranks in Knowledge (planes); **Cost** 31,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), adhesive blood, lesser restoration, creator must have 9 ranks in Knowledge (planes); **Cost** 31,000 gp"
 		],
 		"display": "magic/elemental_augmentations"
 	},
@@ -122,7 +122,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, endure elements, fire shield, creator must have 7 ranks in Knowledge (planes); **Cost** 4,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), endure elements, fire shield, creator must have 7 ranks in Knowledge (planes); **Cost** 4,000 gp"
 		],
 		"display": "magic/elemental_augmentations"
 	},
@@ -147,7 +147,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, gust of wind, creator must have 7 ranks in Knowledge (planes); **Cost** 5,400 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), gust of wind, creator must have 7 ranks in Knowledge (planes); **Cost** 5,400 gp"
 		],
 		"display": "magic/elemental_augmentations"
 	},
@@ -170,7 +170,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, aqueous orb, shrink item, creator must have 7 ranks in Knowledge (planes); **Cost** 9,500 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), aqueous orb, shrink item, creator must have 7 ranks in Knowledge (planes); **Cost** 9,500 gp"
 		],
 		"display": "magic/elemental_augmentations"
 	}

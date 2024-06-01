@@ -24,7 +24,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, desecrate; **Cost** 750 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), desecrate; **Cost** 750 gp"
 		],
 		"display": "magic/necrotoxins"
 	},
@@ -47,7 +47,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, ethereal jaunt, creator must have 13 ranks in Craft (alchemy); **Cost** 3,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), ethereal jaunt, creator must have 13 ranks in Craft (alchemy); **Cost** 3,000 gp"
 		],
 		"display": "magic/necrotoxins"
 	},
@@ -70,7 +70,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, create undead; **Cost** 2,700 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), create undead; **Cost** 2,700 gp"
 		],
 		"display": "magic/necrotoxins"
 	},
@@ -93,7 +93,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, unhallow, creator must have 10 ranks in Craft (alchemy); **Cost** 1,850 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), unhallow, creator must have 10 ranks in Craft (alchemy); **Cost** 1,850 gp"
 		],
 		"display": "magic/necrotoxins"
 	},
@@ -116,7 +116,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, ghoul touch; **Cost** 225 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), ghoul touch; **Cost** 225 gp"
 		],
 		"display": "magic/necrotoxins"
 	},
@@ -139,7 +139,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, undead anatomy I; **Cost** 225 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), [undead anatomy I](spell/undead anatomy_1); **Cost** 225 gp"
 		],
 		"display": "magic/necrotoxins"
 	}

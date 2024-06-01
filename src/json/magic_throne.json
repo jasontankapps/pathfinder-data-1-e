@@ -17,7 +17,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, eagle's splendor, heroism, resistance; **Cost** 4,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), eagle's splendor, heroism, resistance; **Cost** 4,000 gp"
 		],
 		"display": "magic/throne"
 	},
@@ -38,7 +38,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, bear's endurance, freedom of movement, heroism; **Cost** 8,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), bear's endurance, freedom of movement, heroism; **Cost** 8,000 gp"
 		],
 		"display": "magic/throne"
 	},
@@ -59,7 +59,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, heroism, shield other; **Cost** 8,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), heroism, shield other; **Cost** 8,000 gp"
 		],
 		"display": "magic/throne"
 	}

@@ -28,7 +28,7 @@
 			"",
 			"**Construction**",
 			"",
-			"**Requirements** Craft Shadow Piercing, Improved Grapple, magic weapon; **Cost** 900 gp (Minor), 1,200 gp (Major), 1,600 gp (Greater)"
+			"**Requirements** [Craft Shadow Piercing](feat/craft_shadow_piercing), [Improved Grapple](feat/improved_grapple), magic weapon; **Cost** 900 gp (Minor), 1,200 gp (Major), 1,600 gp (Greater)"
 		],
 		"display": "magic/shadow_piercings"
 	},
@@ -55,7 +55,7 @@
 			"",
 			"**Construction**",
 			"",
-			"**Requirements** Craft Shadow Piercing, bear's endurance (minor and greater), fox's cunning (major); **Cost** 1,100 gp (Minor), 1,875 gp (Major), 2,875 gp (Greater)"
+			"**Requirements** [Craft Shadow Piercing](feat/craft_shadow_piercing), bear's endurance (minor and greater), fox's cunning (major); **Cost** 1,100 gp (Minor), 1,875 gp (Major), 2,875 gp (Greater)"
 		],
 		"display": "magic/shadow_piercings"
 	},
@@ -106,7 +106,7 @@
 			"",
 			"**Construction**",
 			"",
-			"**Requirements** Craft Shadow Piercing, fear (minor and greater), owl's wisdom (major); **Cost** 1,875 gp (Minor), 3,000 gp (Major), 16,800 gp (Greater)"
+			"**Requirements** [Craft Shadow Piercing](feat/craft_shadow_piercing), fear (minor and greater), owl's wisdom (major); **Cost** 1,875 gp (Minor), 3,000 gp (Major), 16,800 gp (Greater)"
 		],
 		"display": "magic/shadow_piercings"
 	},
@@ -149,7 +149,7 @@
 			"",
 			"**Construction**",
 			"",
-			"**Requirements** Craft Shadow Piercing, keen senses (minor), darkvision (major and greater); **Cost** 3,000 gp (Minor), 9,000 gp (Major), 16,000 gp (Greater)"
+			"**Requirements** [Craft Shadow Piercing](feat/craft_shadow_piercing), keen senses (minor), darkvision (major and greater); **Cost** 3,000 gp (Minor), 9,000 gp (Major), 16,000 gp (Greater)"
 		],
 		"display": "magic/shadow_piercings"
 	},
@@ -176,7 +176,7 @@
 			"",
 			"**Construction**",
 			"",
-			"**Requirements** Craft Shadow Piercing, feather fall (minor), levitate (major), air walk (greater); **Cost** 3,000 gp (Minor), 3,600 gp (Major), 5,600 gp (Greater)"
+			"**Requirements** [Craft Shadow Piercing](feat/craft_shadow_piercing), feather fall (minor), levitate (major), air walk (greater); **Cost** 3,000 gp (Minor), 3,600 gp (Major), 5,600 gp (Greater)"
 		],
 		"display": "magic/shadow_piercings"
 	},

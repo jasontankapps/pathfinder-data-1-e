@@ -20,7 +20,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Cultivate Magic Plant, entangle, cultivator must have 1 rank in Knowledge (nature); **Cost** 1,000 gp"
+			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), entangle, cultivator must have 1 rank in Knowledge (nature); **Cost** 1,000 gp"
 		],
 		"display": "magic/plant"
 	},
@@ -44,7 +44,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Cultivate Magic Plant, augury, cultivator must have 1 rank in Knowledge (nature); **Cost** 1,500 gp"
+			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), augury, cultivator must have 1 rank in Knowledge (nature); **Cost** 1,500 gp"
 		],
 		"display": "magic/plant"
 	},
@@ -70,7 +70,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Cultivate Magic Plant, sleep, cultivator must have 1 rank in Knowledge (nature); **Cost** 2,000 gp"
+			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), sleep, cultivator must have 1 rank in Knowledge (nature); **Cost** 2,000 gp"
 		],
 		"display": "magic/plant"
 	},
@@ -94,7 +94,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Cultivate Magic Plant, fireball, cultivator must have 1 rank in Knowledge (nature); **Cost** 2,500 gp"
+			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), fireball, cultivator must have 1 rank in Knowledge (nature); **Cost** 2,500 gp"
 		],
 		"display": "magic/plant"
 	},
@@ -142,7 +142,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Cultivate Magic Plant, goodberry, cultivator must have 1 rank in Knowledge (nature); **Cost** 4,000 gp"
+			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), goodberry, cultivator must have 1 rank in Knowledge (nature); **Cost** 4,000 gp"
 		],
 		"display": "magic/plant"
 	},
@@ -166,7 +166,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Cultivate Magic Plant, cure light wounds, lesser restoration, cultivator must have 1 rank in Knowledge (nature); **Cost** 4,000 gp"
+			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), cure light wounds, lesser restoration, cultivator must have 1 rank in Knowledge (nature); **Cost** 4,000 gp"
 		],
 		"display": "magic/plant"
 	},
@@ -190,7 +190,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Cultivate Magic Plant, heroes' feast, cultivator must have 6 ranks in Knowledge (nature); **Cost** 4,800 gp"
+			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), heroes' feast, cultivator must have 6 ranks in Knowledge (nature); **Cost** 4,800 gp"
 		],
 		"display": "magic/plant"
 	},
@@ -214,7 +214,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Cultivate Magic Plants, glide; **Cost** 5,000 gp"
+			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant)s, glide; **Cost** 5,000 gp"
 		],
 		"display": "magic/plant"
 	},
@@ -262,7 +262,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Cultivate Magic Plant, acid arrow, cultivator must have 1 rank in Knowledge (nature); **Cost** 6,000 gp"
+			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), acid arrow, cultivator must have 1 rank in Knowledge (nature); **Cost** 6,000 gp"
 		],
 		"display": "magic/plant"
 	},
@@ -286,7 +286,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Cultivate Magic Plant, endure elements, cultivator must have 3 ranks in Knowledge (nature); **Cost** 6,000 gp"
+			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), endure elements, cultivator must have 3 ranks in Knowledge (nature); **Cost** 6,000 gp"
 		],
 		"display": "magic/plant"
 	},
@@ -310,7 +310,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Cultivate Magic Plant, feather fall, spider climb, cultivator must have 1 rank in Knowledge (nature); **Cost** 6,000 gp"
+			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), feather fall, spider climb, cultivator must have 1 rank in Knowledge (nature); **Cost** 6,000 gp"
 		],
 		"display": "magic/plant"
 	},
@@ -334,7 +334,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Cultivate Magic Plant, endure elements, cultivator must have 1 rank in Knowledge (nature); **Cost** 6,000 gp"
+			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), endure elements, cultivator must have 1 rank in Knowledge (nature); **Cost** 6,000 gp"
 		],
 		"display": "magic/plant"
 	},
@@ -382,7 +382,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Cultivate Magic Plant, charm monster, zone of truth, cultivator must have 6 ranks in Knowledge (nature); **Cost** 10,000 gp"
+			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), charm monster, zone of truth, cultivator must have 6 ranks in Knowledge (nature); **Cost** 10,000 gp"
 		],
 		"display": "magic/plant"
 	},
@@ -430,7 +430,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Cultivate Magic Plant, water breathing, cultivator must have 1 rank in Knowledge (nature); **Cost** 15,000 gp"
+			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), water breathing, cultivator must have 1 rank in Knowledge (nature); **Cost** 15,000 gp"
 		],
 		"display": "magic/plant"
 	},
@@ -454,7 +454,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Cultivate Magic Plant, water walk, cultivator must have 1 rank in Knowledge (nature); **Cost** 15,000 gp"
+			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), water walk, cultivator must have 1 rank in Knowledge (nature); **Cost** 15,000 gp"
 		],
 		"display": "magic/plant"
 	},
@@ -478,7 +478,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Cultivate Magic Plant, tree stride, cultivator must have 3 ranks in Knowledge (nature); **Cost** 22,500 gp"
+			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), tree stride, cultivator must have 3 ranks in Knowledge (nature); **Cost** 22,500 gp"
 		],
 		"display": "magic/plant"
 	},
@@ -502,7 +502,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Cultivate Magic Plant, neutralize poison, cultivator must have 3 ranks in Knowledge (nature); **Cost** 28,000 gp"
+			"**Requirements** [Cultivate Magic Plant](feat/cultivate_magic_plant), neutralize poison, cultivator must have 3 ranks in Knowledge (nature); **Cost** 28,000 gp"
 		],
 		"display": "magic/plant"
 	}

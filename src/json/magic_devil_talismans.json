@@ -4,7 +4,7 @@
 		"## Devil Talismans",
 		"",
 		"**Description Source:** [Book of the Damned - Volume 1: Princes of Darkness](source/book_of_the_damned_-_volume_1_princes_of_darkness)  ",
-		"The denizens of Hell claim the crafting of devil talismans as one of their most closely guarded secrets. But in truth, knowledge of such methods is withheld only to whet mortal desires, a feint to hasten a diabolist's willing damnation. Ultimately, any spellcaster can create a devil talisman through the use of the Craft Wondrous Item feat and planar binding. As an additional prerequisite to the creation of any type of devil talisman, the creator must summon a devil and bargain with it to be bound within the talisman. Most devils prove resistant to the idea of being trapped within a magic item, but might acquiesce to a particularly convincing summoner. A devil summoned via planar binding and coerced into being bound within a devil talisman gains a +10 bonus on its opposed Charisma check. Once convinced, the devil infuses the already prepared devil talisman, completing the profane item.",
+		"The denizens of Hell claim the crafting of devil talismans as one of their most closely guarded secrets. But in truth, knowledge of such methods is withheld only to whet mortal desires, a feint to hasten a diabolist's willing damnation. Ultimately, any spellcaster can create a devil talisman through the use of the [Craft Wondrous Item](feat/craft_wondrous_item) feat and planar binding. As an additional prerequisite to the creation of any type of devil talisman, the creator must summon a devil and bargain with it to be bound within the talisman. Most devils prove resistant to the idea of being trapped within a magic item, but might acquiesce to a particularly convincing summoner. A devil summoned via planar binding and coerced into being bound within a devil talisman gains a +10 bonus on its opposed Charisma check. Once convinced, the devil infuses the already prepared devil talisman, completing the profane item.",
 		"",
 		"The various types of devil talismans each possess unique powers and thus require different methods of creation or specific types of bound devils to activate them."
 	],
@@ -72,7 +72,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, gate; **Cost** 25,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), gate; **Cost** 25,000 gp"
 		],
 		"display": "magic/devil_talismans"
 	},
@@ -105,7 +105,7 @@
 			"",
 			"#### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, greater planar binding, lesser planar binding, or planar binding; **Cost** varies"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), greater planar binding, lesser planar binding, or planar binding; **Cost** varies"
 		],
 		"display": "magic/devil_talismans"
 	}

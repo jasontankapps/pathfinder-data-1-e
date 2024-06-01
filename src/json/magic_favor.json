@@ -18,7 +18,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, eagle's splendor, status; **Cost** 300 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), eagle's splendor, status; **Cost** 300 gp"
 		],
 		"display": "magic/favor"
 	},
@@ -40,7 +40,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, sanctuary, status; **Cost** 400 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), sanctuary, status; **Cost** 400 gp"
 		],
 		"display": "magic/favor"
 	},
@@ -62,7 +62,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, guidance, status; **Cost** 600 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), guidance, status; **Cost** 600 gp"
 		],
 		"display": "magic/favor"
 	},
@@ -84,7 +84,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, eagle's splendor, status; **Cost** 1,000 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), eagle's splendor, status; **Cost** 1,000 gp"
 		],
 		"display": "magic/favor"
 	},
@@ -106,7 +106,7 @@
 			"",
 			"### Construction",
 			"",
-			"**Requirements** Craft Wondrous Item, align weapon, status; **Cost** 1,200 gp"
+			"**Requirements** [Craft Wondrous Item](feat/craft_wondrous_item), align weapon, status; **Cost** 1,200 gp"
 		],
 		"display": "magic/favor"
 	}
