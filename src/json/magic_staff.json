@@ -4,9 +4,6 @@
 		"name": "Staff of Blessed Relief",
 		"file": "magicstavesdisplay6c32.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 7200,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Blessed Relief",
 			"",
@@ -30,9 +27,6 @@
 		"name": "Staff of Minor Arcana",
 		"file": "magicstavesdisplaye74f.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 8000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Minor Arcana",
 			"",
@@ -55,9 +49,6 @@
 		"name": "Staff of Tricks",
 		"file": "magicstavesdisplayedad.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 8800,
-		"slot": "none",
-		"weight": 3,
 		"description": [
 			"## Staff of Tricks",
 			"",
@@ -82,9 +73,6 @@
 		"name": "Staff of the Scout",
 		"file": "magicstavesdisplay1941.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 9600,
-		"slot": "none",
-		"weight": 4,
 		"description": [
 			"## Staff of the Scout",
 			"",
@@ -108,9 +96,6 @@
 		"name": "Monstrification Staff",
 		"file": "magicstavesdisplay5fbe.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 12000,
-		"slot": "none",
-		"weight": 4,
 		"description": [
 			"## Monstrification Staff",
 			"",
@@ -133,9 +118,6 @@
 		"name": "Gravedigger's Spade",
 		"file": "magicstavesdisplayc7b6.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 12150,
-		"slot": "none",
-		"weight": 4,
 		"description": [
 			"## Gravedigger's Spade",
 			"",
@@ -159,9 +141,6 @@
 		"name": "Spark Staff",
 		"file": "magicstavesdisplay58d7.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 12650,
-		"slot": "none",
-		"weight": 2,
 		"description": [
 			"## Spark Staff",
 			"",
@@ -185,9 +164,6 @@
 		"name": "Ember Staff",
 		"file": "magicstavesdisplayeade.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 13100,
-		"slot": "none",
-		"weight": 3,
 		"description": [
 			"## Ember Staff",
 			"",
@@ -213,9 +189,6 @@
 		"name": "Staff of Eidolons",
 		"file": "magicstavesdisplaycf7f.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 14400,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Eidolons",
 			"",
@@ -242,9 +215,6 @@
 			"Ultimate Equipment",
 			"Pathfinder Society Field Guide"
 		],
-		"cost": 14400,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Understanding",
 			"",
@@ -268,9 +238,6 @@
 		"name": "Staff of Accompaniment",
 		"file": "magicstavesdisplaya313.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 14800,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Accompaniment",
 			"",
@@ -294,9 +261,6 @@
 		"name": "Crook of Cildhureen",
 		"file": "magicstavesdisplay0e8c.html",
 		"sources": [ "Realm of the Fellnight Queen" ],
-		"cost": 16800,
-		"slot": "none",
-		"weight": 4,
 		"description": [
 			"## Crook of Cildhureen",
 			"",
@@ -325,9 +289,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 17600,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Charming",
 			"",
@@ -353,9 +314,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 18950,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Fire",
 			"",
@@ -379,9 +337,6 @@
 		"name": "Staff of Belittling",
 		"file": "magicstavesdisplaya100.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 20000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Belittling",
 			"",
@@ -409,9 +364,6 @@
 			"Ultimate Equipment",
 			"Pathfinder Society Field Guide"
 		],
-		"cost": 20800,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Courage",
 			"",
@@ -436,9 +388,6 @@
 		"name": "Staff of Feast and Famine",
 		"file": "magicstavesdisplay893f.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 20800,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Feast and Famine",
 			"",
@@ -464,9 +413,6 @@
 		"name": "Staff of Internal Assault",
 		"file": "magicstavesdisplaydc35.html",
 		"sources": [ "Dragonslayer's Handbook" ],
-		"cost": 20800,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Source [Dragonslayer's Handbook pg. 31](source/dragonslayer's_handbook)",
 			"",
@@ -492,9 +438,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 20800,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Rigor",
 			"",
@@ -520,9 +463,6 @@
 		"name": "Shory Acolyte's Staff",
 		"file": "magicstavesdisplay65f2.html",
 		"sources": [ "Advanced Class Origins" ],
-		"cost": 21600,
-		"slot": "none",
-		"weight": 1,
 		"description": [
 			"## Shory Acolyte's Staff",
 			"",
@@ -546,9 +486,6 @@
 		"name": "Cephalopod Staff",
 		"file": "magicstavesdisplayf9d7.html",
 		"sources": [ "Horror Adventures" ],
-		"cost": 22800,
-		"slot": "none",
-		"weight": 4,
 		"description": [
 			"## Cephalopod Staff",
 			"",
@@ -577,9 +514,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 22800,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Swarming Insects",
 			"",
@@ -602,9 +536,6 @@
 		"name": "Staff of Authority",
 		"file": "magicstavesdisplaycd72.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 23000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Authority",
 			"",
@@ -631,9 +562,6 @@
 			"Ultimate Equipment",
 			"Pathfinder Society Field Guide"
 		],
-		"cost": 23200,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Radiance",
 			"",
@@ -657,9 +585,6 @@
 		"name": "Zenj Totem Staff",
 		"file": "magicstavesdisplay650f.html",
 		"sources": [ "Advanced Class Origins" ],
-		"cost": 24800,
-		"slot": "none",
-		"weight": 2,
 		"description": [
 			"## Zenj Totem Staff",
 			"",
@@ -691,9 +616,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 26150,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Size Alteration",
 			"",
@@ -719,9 +641,6 @@
 		"name": "Staff of Curchanus",
 		"file": "magicstavesdisplaye703.html",
 		"sources": [ "Pathfinder #122: Into the Shattered Continent" ],
-		"cost": 26600,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Curchanus",
 			"",
@@ -752,9 +671,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 27200,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Journeys",
 			"",
@@ -780,9 +696,6 @@
 		"name": "Staff of Acid",
 		"file": "magicstavesdisplay9e4d.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 28600,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Acid",
 			"",
@@ -806,9 +719,6 @@
 		"name": "Chaotic Staff",
 		"file": "magicstavesdisplayeb13.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 29600,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Chaotic Staff",
 			"",
@@ -833,9 +743,6 @@
 		"name": "Holy Staff",
 		"file": "magicstavesdisplay9491.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 29600,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Holy Staff",
 			"",
@@ -860,9 +767,6 @@
 		"name": "Lawful Staff",
 		"file": "magicstavesdisplayde78.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 29600,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Lawful Staff",
 			"",
@@ -890,9 +794,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 29600,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Healing",
 			"",
@@ -917,9 +818,6 @@
 		"name": "Unholy Staff",
 		"file": "magicstavesdisplayf0c8.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 29600,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Unholy Staff",
 			"",
@@ -944,9 +842,6 @@
 		"name": "Hungering Staff",
 		"file": "magicstavesdisplaycff6.html",
 		"sources": [ "Horror Adventures" ],
-		"cost": 30000,
-		"slot": "none",
-		"weight": 4,
 		"description": [
 			"## Hungering Staff",
 			"",
@@ -974,9 +869,6 @@
 		"name": "Staff of the Master",
 		"file": "magicstavesdisplaye0f8.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 30000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of the Master",
 			"",
@@ -1002,9 +894,6 @@
 		"name": "Staff of Spiders",
 		"file": "magicstavesdisplay41fa-2.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 30200,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Spiders",
 			"",
@@ -1028,9 +917,6 @@
 		"name": "Oaken Staff",
 		"file": "magicstavesdisplay5458.html",
 		"sources": [ "Heroes of the Wild" ],
-		"cost": 31800,
-		"slot": "none",
-		"weight": 4,
 		"description": [
 			"## Oaken Staff",
 			"",
@@ -1056,9 +942,6 @@
 		"name": "Staff of Electricity",
 		"file": "magicstavesdisplayae71.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 31900,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Electricity",
 			"",
@@ -1082,9 +965,6 @@
 		"name": "Heretic's Bane",
 		"file": "magicstavesdisplayce92.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 32000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Heretic's Bane",
 			"",
@@ -1107,12 +987,8 @@
 	},
 	"many-eyed_staff": {
 		"name": "Many-Eyed Staff",
-		"searchable_name": "Many Eyed Staff",
 		"file": "magicstavesdisplay91d0.html",
 		"sources": [ "Horror Adventures" ],
-		"cost": 32000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Many-Eyed Staff",
 			"",
@@ -1141,9 +1017,6 @@
 		"name": "Musical Staff",
 		"file": "magicstavesdisplaya5b5.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 32000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Musical Staff",
 			"",
@@ -1173,9 +1046,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 32800,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Souls",
 			"",
@@ -1204,9 +1074,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 34200,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Toxins",
 			"",
@@ -1232,9 +1099,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 36000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Shrieking",
 			"",
@@ -1258,9 +1122,6 @@
 		"name": "Staff of the Avenger",
 		"file": "magicstavesdisplay9018.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 37310,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of the Avenger",
 			"",
@@ -1285,9 +1146,6 @@
 		"name": "Staff of Aspects",
 		"file": "magicstavesdisplay9055.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 37600,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Aspects",
 			"",
@@ -1312,9 +1170,6 @@
 		"name": "Staff of the Prime Mover",
 		"file": "magicstavesdisplay3155.html",
 		"sources": [ "Down the Blighted Path" ],
-		"cost": 38300,
-		"slot": "none",
-		"weight": 2,
 		"description": [
 			"## Staff of the Prime Mover",
 			"",
@@ -1344,12 +1199,8 @@
 	},
 	"staff_of_spirit-talking": {
 		"name": "Staff of Spirit-Talking",
-		"searchable_name": "Staff of Spirit Talking",
 		"file": "magicstavesdisplay76ef.html",
 		"sources": [ "Sargava, the Lost Colony" ],
-		"cost": 39050,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Spirit-Talking",
 			"",
@@ -1381,9 +1232,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 39300,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Stealth",
 			"",
@@ -1411,9 +1259,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 41400,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Frost",
 			"",
@@ -1440,9 +1285,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 41600,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Bolstering",
 			"",
@@ -1467,9 +1309,6 @@
 		"name": "Spherewalker's Staff",
 		"file": "magicstavesdisplayb1ea.html",
 		"sources": [ "Pathfinder #75: Demon's Heresy" ],
-		"cost": 43400,
-		"slot": "none",
-		"weight": 3,
 		"description": [
 			"## Spherewalker's Staff",
 			"",
@@ -1498,9 +1337,6 @@
 		"name": "Staff of Curses",
 		"file": "magicstavesdisplayd170.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 43500,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Curses",
 			"",
@@ -1527,9 +1363,6 @@
 		"name": "Staff of the Dark Tapestry",
 		"file": "magicstavesdisplaye7d1.html",
 		"sources": [ "Pathfinder #88: Valley of the Brain Collectors" ],
-		"cost": 43500,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of the Dark Tapestry",
 			"",
@@ -1557,9 +1390,6 @@
 		"name": "Staff of Fortune",
 		"file": "magicstavesdisplay242d.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"cost": 44400,
-		"slot": "none",
-		"weight": 3,
 		"description": [
 			"## Staff of Fortune",
 			"",
@@ -1582,9 +1412,6 @@
 		"name": "Staff of Dark Flame",
 		"file": "magicstavesdisplay1784.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 47000,
-		"slot": "none",
-		"weight": 4,
 		"description": [
 			"## Staff of Dark Flame",
 			"",
@@ -1613,9 +1440,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 48800,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Performance",
 			"",
@@ -1643,9 +1467,6 @@
 		"name": "Animate Staff",
 		"file": "magicstavesdisplayd0fb.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 49800,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Animate Staff",
 			"",
@@ -1671,9 +1492,6 @@
 		"name": "Staff of Hunting",
 		"file": "magicstavesdisplayd572.html",
 		"sources": [ "Dragonslayer's Handbook" ],
-		"cost": 51000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Source [Dragonslayer's Handbook pg. 31](source/dragonslayer's_handbook)",
 			"",
@@ -1700,9 +1518,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 51008,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Revelations",
 			"",
@@ -1730,9 +1545,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 51500,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Illumination",
 			"",
@@ -1757,9 +1569,6 @@
 		"name": "Staff of the Freed Man",
 		"file": "magicstavesdisplaydd80.html",
 		"sources": [ "Champions of Purity" ],
-		"cost": 51688,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Source [Champions of Purity pg. 31](source/champions_of_purity)",
 			"",
@@ -1783,9 +1592,6 @@
 		"name": "Doomsday Staff",
 		"file": "magicstavesdisplay17e1.html",
 		"sources": [ "Pathfinder #64: Beyond the Doomsday Door" ],
-		"cost": 52000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Doomsday Staff",
 			"",
@@ -1814,9 +1620,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 52850,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Obstacles",
 			"",
@@ -1847,9 +1650,6 @@
 			"Pathfinder #4: Fortress of the Stone Giants",
 			"Rise of the Runelords Anniversary Edition"
 		],
-		"cost": 54000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Heaven and Earth",
 			"",
@@ -1875,9 +1675,6 @@
 		"name": "Staff of Travel",
 		"file": "magicstavesdisplay7f80.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 54400,
-		"slot": "none",
-		"weight": 3,
 		"description": [
 			"## Staff of Travel",
 			"",
@@ -1906,9 +1703,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 55866,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Hoarding",
 			"",
@@ -1934,9 +1728,6 @@
 		"name": "Crook of Unseen Forces",
 		"file": "magicstavesdisplayc1d5.html",
 		"sources": [ "Down the Blighted Path" ],
-		"cost": 56300,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Crook of Unseen Forces",
 			"",
@@ -1967,9 +1758,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 56700,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Cackling Wrath",
 			"",
@@ -2000,9 +1788,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 56925,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Traps",
 			"",
@@ -2032,9 +1817,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 57200,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Many Rays",
 			"",
@@ -2060,9 +1842,6 @@
 		"name": "Staff of Speaking",
 		"file": "magicstavesdisplayec1e.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 57200,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Speaking",
 			"",
@@ -2092,9 +1871,6 @@
 			"Pathfinder #5: Sins of the Saviors",
 			"Rise of the Runelords Anniversary Edition"
 		],
-		"cost": 58000,
-		"slot": "none",
-		"weight": 7,
 		"description": [
 			"## Staff of Mithral Might",
 			"",
@@ -2119,9 +1895,6 @@
 		"name": "Staff of Wings",
 		"file": "magicstavesdisplay56f4.html",
 		"sources": [ "Chronicle of the Righteous" ],
-		"cost": 59400,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Source [Chronicle of the Righteous pg. 53](source/chronicle_of_the_righteous)",
 			"",
@@ -2147,9 +1920,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 62000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Defense",
 			"",
@@ -2174,9 +1944,6 @@
 		"name": "Staff of Stoneweaving",
 		"file": "magicstavesdisplayaf99.html",
 		"sources": [ "Pathfinder #34: Blood for Blood" ],
-		"cost": 63180,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Stoneweaving",
 			"",
@@ -2204,9 +1971,6 @@
 		"name": "Staff of the Planes",
 		"file": "magicstavesdisplayccc1.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 63960,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of the Planes",
 			"",
@@ -2236,9 +2000,6 @@
 			"Pathfinder #5: Sins of the Saviors",
 			"Rise of the Runelords Anniversary Edition"
 		],
-		"cost": 69300,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Hungry Shadows",
 			"",
@@ -2265,9 +2026,6 @@
 		"name": "Quiema's Branch",
 		"file": "magicstavesdisplay3434.html",
 		"sources": [ "Pathfinder #34: Blood for Blood" ],
-		"cost": 72750,
-		"slot": "none",
-		"weight": 2,
 		"description": [
 			"## Quiema's Branch",
 			"",
@@ -2293,9 +2051,6 @@
 		"name": "Dragon Staff",
 		"file": "magicstavesdisplay3218.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 81000,
-		"slot": "none",
-		"weight": 7,
 		"description": [
 			"## Dragon Staff",
 			"",
@@ -2325,9 +2080,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 81766,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Slumber",
 			"",
@@ -2357,9 +2109,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 82000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Abjuration",
 			"",
@@ -2389,9 +2138,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 82000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Conjuration",
 			"",
@@ -2421,9 +2167,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 82000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Divination",
 			"",
@@ -2453,9 +2196,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 82000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Enchantment",
 			"",
@@ -2485,9 +2225,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 82000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Evocation",
 			"",
@@ -2517,9 +2254,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 82000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Illusion",
 			"",
@@ -2549,9 +2283,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 82000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Necromancy",
 			"",
@@ -2581,9 +2312,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 82000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Transmutation",
 			"",
@@ -2613,9 +2341,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 84066,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Weather",
 			"",
@@ -2645,9 +2370,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 85800,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Earth and Stone",
 			"",
@@ -2673,9 +2395,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 86666,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Vision",
 			"",
@@ -2702,9 +2421,6 @@
 		"name": "Staff of Waves",
 		"file": "magicstavesdisplay3eaa.html",
 		"sources": [ "Aquatic Adventures" ],
-		"cost": 90300,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Waves",
 			"",
@@ -2733,9 +2449,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 100400,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of the Woodlands",
 			"",
@@ -2767,9 +2480,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 109400,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Life",
 			"",
@@ -2792,9 +2502,6 @@
 		"name": "Staff of Nethys",
 		"file": "magicstavesdisplayf31b.html",
 		"sources": [ "Divine Anthology" ],
-		"cost": 131550,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Nethys",
 			"",
@@ -2823,9 +2530,6 @@
 		"name": "Staff of One Hundred Hands",
 		"file": "magicstavesdisplay6683.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 180200,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of One Hundred Hands",
 			"",
@@ -2853,9 +2557,6 @@
 		"name": "Vril Staff",
 		"file": "magicstavesdisplayf266.html",
 		"sources": [ "Occult Adventures" ],
-		"cost": 200000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Vril Staff",
 			"",
@@ -2890,9 +2591,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 206900,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Passage",
 			"",
@@ -2918,9 +2616,6 @@
 		"name": "Staff of the Hierophant",
 		"file": "magicstavesdisplay7f3e.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 220000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of the Hierophant",
 			"",
@@ -2955,9 +2650,6 @@
 		"name": "Winter's Reach",
 		"file": "magicstavesdisplay24b1.html",
 		"sources": [ "Pathfinder #72: The Witch Queen's Revenge" ],
-		"cost": 228000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Source [Pathfinder #72: The Witch Queen's Revenge pg. 63](source/pathfinder_#72_the_witch_queen's_revenge)",
 			"",
@@ -2989,9 +2681,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 235000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Staff of Power",
 			"",
@@ -3028,9 +2717,6 @@
 		"name": "Lasirro's Staff",
 		"file": "magicstavesdisplay6c67.html",
 		"sources": [ "Lost Treasures" ],
-		"cost": 240000,
-		"slot": "none",
-		"weight": 5,
 		"description": [
 			"## Lasirro's Staff",
 			"",
@@ -3065,9 +2751,6 @@
 		"name": "Staff of Magical Decline",
 		"file": "magiccurseddisplaye9e8.html",
 		"sources": [ "Horror Adventures" ],
-		"slot": "none",
-		"weight": 5,
-		"cursed": true,
 		"description": [
 			"## Staff of Magical Decline",
 			"",
@@ -3089,9 +2772,6 @@
 		"name": "Staff of Occasional Wonder",
 		"file": "magiccurseddisplay4341.html",
 		"sources": [ "Ultimate Equipment" ],
-		"slot": "none",
-		"weight": 4,
-		"cursed": true,
 		"description": [
 			"## Source [Ultimate Equipment pg. 351](source/ultimate_equipment)",
 			"",

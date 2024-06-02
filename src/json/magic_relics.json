@@ -1,17 +1,9 @@
 {
 	"_prefix": "magic-relic",
-	"_description": [
-		"## Relics",
-		"",
-		"**Source** [Pathfinder #128: Songbird, Scion, Saboteur pg. 77](source/pathfinder_#128_songbird,_scion,_saboteur)  ",
-		"Throughout the War for the Crown Adventure Path, PCs can find the following relics, organized below by the volume of the AP in which they appear. To use these relics in other campaigns, consult the information on PC level in parentheses. A relic's stat block details its base abilities followed by the powers the relic gains when it attains one or more triumphs. [Click here for the full rules on Relics.](rule/relics)"
-	],
 	"band_of_the_crusader's_alliance": {
 		"name": "Band of the Crusader's Alliance",
 		"file": "relics85c9.html",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
-		"slot": "ring",
-		"caster_level": "11th",
 		"description": [
 			"## Band of the Crusader's Alliance",
 			"",
@@ -37,8 +29,6 @@
 		"name": "Belt of the Last Wall",
 		"file": "relicsb03e.html",
 		"sources": [ "Pathfinder #141: Last Watch" ],
-		"slot": "belt",
-		"caster_level": "13th",
 		"description": [
 			"## Belt of the Last Wall",
 			"",
@@ -64,8 +54,6 @@
 		"name": "Dignity's Barb",
 		"file": "relics7278.html",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
-		"slot": "none",
-		"caster_level": "12th",
 		"description": [
 			"## Dignity's Barb",
 			"",
@@ -95,8 +83,6 @@
 		"name": "Envoy Ring",
 		"file": "relicsd537.html",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
-		"slot": "ring",
-		"caster_level": "11th",
 		"description": [
 			"## Envoy Ring",
 			"",
@@ -126,8 +112,6 @@
 		"name": "Grace of the Last Azlanti",
 		"file": "relics2f44.html",
 		"sources": [ "Pathfinder #141: Last Watch" ],
-		"slot": "neck",
-		"caster_level": "13th",
 		"description": [
 			"## Grace of the Last Azlanti",
 			"",
@@ -153,8 +137,6 @@
 		"name": "Jalnesin's Broken Bonds",
 		"file": "relicsfb30.html",
 		"sources": [ "Pathfinder #141: Last Watch" ],
-		"slot": "none",
-		"caster_level": "5th",
 		"description": [
 			"## Jalnesin's Broken Bonds",
 			"",
@@ -180,8 +162,6 @@
 		"name": "Koriana's Blade",
 		"file": "relicsc5b5.html",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
-		"slot": "none",
-		"caster_level": "17th",
 		"description": [
 			"## Koriana's Blade",
 			"",
@@ -211,8 +191,6 @@
 		"name": "Lance of the Leaping Lion",
 		"file": "relics8e81.html",
 		"sources": [ "Pathfinder #141: Last Watch" ],
-		"slot": "none",
-		"caster_level": "15th",
 		"description": [
 			"## Lance of the Leaping Lion",
 			"",
@@ -238,8 +216,6 @@
 		"name": "Ovetrian's Plate",
 		"file": "relics1241.html",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
-		"slot": "armor",
-		"caster_level": "15th",
 		"description": [
 			"## Ovetrian's Plate",
 			"",
@@ -263,8 +239,6 @@
 		"name": "Scion's Dagger",
 		"file": "relics846f.html",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
-		"slot": "none",
-		"caster_level": "17th",
 		"description": [
 			"## Scion's Dagger",
 			"",
@@ -292,8 +266,6 @@
 		"name": "Standard of Conquest",
 		"file": "relicsab5a.html",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
-		"slot": "none",
-		"caster_level": "15th",
 		"description": [
 			"## Standard of Conquest",
 			"",
@@ -321,8 +293,6 @@
 		"name": "Subtle Mask",
 		"file": "relics1f0e.html",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
-		"slot": "head",
-		"caster_level": "11th",
 		"description": [
 			"## Subtle Mask",
 			"",
@@ -350,8 +320,6 @@
 		"name": "Taldaris's Bequeathal",
 		"file": "relicsfd55.html",
 		"sources": [ "Pathfinder #141: Last Watch" ],
-		"slot": "armor",
-		"caster_level": "9th",
 		"description": [
 			"## Taldaris's Bequeathal",
 			"",

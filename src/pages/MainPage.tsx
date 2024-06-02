@@ -13,7 +13,7 @@ const appPages: any[] = [
 	"/feats",//
 	"/traits",//
 	"/equipment",//
-	"/magic",
+	"/magic",//
 	"/spells",
 	"/faiths",//
 	"/monstersnpcs",

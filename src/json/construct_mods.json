@@ -1,17 +1,9 @@
 {
 	"_prefix": "construct",
-	"_description": [
-		"Standard constructs can be modified to enhance their base abilities, alter their appearance or function, or perform a variety of tasks beyond the intentions of their basic designs. Performing a modification provides a construct's creator with a simple way to create a unique construct. A modification can only be performed while the construct is inanimate or nonfunctioning.",
-		"",
-		"Performing modifications on one's own construct requires the Craft Construct feat, and the creator must pay any additional crafting requirements and/or costs associated with the modification. Completing a modification requires 1 day per 1,000 gp of the modification's base price (minimum 1 day)."
-	],
-	"_note": "null cost = \"See Text\"",
 	"armor_modification": {
 		"name": "Armor Modification",
 		"file": "constructmods2268.html",
 		"sources": [ "Ultimate Magic" ],
-		"type": "Basic",
-		"cost": null,
 		"description": [
 			"## Armor Modification",
 			"",
@@ -30,8 +22,6 @@
 		"name": "Hit Dice Modification",
 		"file": "constructmods08de.html",
 		"sources": [ "Ultimate Magic" ],
-		"type": "Basic",
-		"cost": null,
 		"description": [
 			"## Hit Dice Modification",
 			"",
@@ -42,7 +32,7 @@
 			"",
 			"**Description**",
 			"",
-			"Hit Dice represent the overall strength and power of a construct. They affect a number of subsequent abilities, including hit points, saving throws, and base attacks. Determine the effects of a Hit Dice modification using the rules for adding creature Hit Dice on pages 290-291 of the Bestiary. Because a construct's size is limited, a Hit Dice modification cannot increase its size. Therefore Hit Dice modification can never increase the base construct's Hit Dice beyond 50% of its total HD. Some constructs have a defined cost for increasing Hit Dice. To calculate the cost per Hit Die of other constructs, divide the construct's construction cost by its existing Hit Dice."
+			"Hit Dice represent the overall strength and power of a construct. They affect a number of subsequent abilities, including hit points, saving throws, and base attacks. Determine the effects of a Hit Dice modification using the rules for [adding creature Hit Dice](rule/step_3_hit_dice). Because a construct's size is limited, a Hit Dice modification cannot increase its size. Therefore Hit Dice modification can never increase the base construct's Hit Dice beyond 50% of its total HD. Some constructs have a defined cost for increasing Hit Dice. To calculate the cost per Hit Die of other constructs, divide the construct's construction cost by its existing Hit Dice."
 		],
 		"display": "constructmod"
 	},
@@ -50,8 +40,6 @@
 		"name": "Movement Modification",
 		"file": "constructmods712a.html",
 		"sources": [ "Construct Handbook" ],
-		"type": "Basic",
-		"cost": null,
 		"description": [
 			"## Movement Modification",
 			"",
@@ -72,8 +60,6 @@
 		"name": "Resistances",
 		"file": "constructmods90d1.html",
 		"sources": [ "Construct Handbook" ],
-		"type": "Basic",
-		"cost": null,
 		"description": [
 			"## Resistances",
 			"",
@@ -92,8 +78,6 @@
 		"name": "Sense Modifications",
 		"file": "constructmodsb338.html",
 		"sources": [ "Construct Handbook" ],
-		"type": "Basic",
-		"cost": null,
 		"description": [
 			"## Sense Modifications",
 			"",
@@ -112,8 +96,6 @@
 		"name": "Spell-Like Ability Modification",
 		"file": "constructmods971a.html",
 		"sources": [ "Construct Handbook" ],
-		"type": "Basic",
-		"cost": null,
 		"description": [
 			"## Spell-Like Ability Modification",
 			"",
@@ -132,8 +114,6 @@
 		"name": "Weapon Modification",
 		"file": "constructmods1e35.html",
 		"sources": [ "Ultimate Magic" ],
-		"type": "Basic",
-		"cost": null,
 		"description": [
 			"## Weapon Modification",
 			"",
@@ -152,8 +132,6 @@
 		"name": "Ability Score Increase",
 		"file": "constructmodsdf7f.html",
 		"sources": [ "Ultimate Magic" ],
-		"type": "Basic",
-		"cost": 5000,
 		"description": [
 			"## Ability Score Increase",
 			"",
@@ -172,8 +150,6 @@
 		"name": "Alarm Link",
 		"file": "constructmodsef1e.html",
 		"sources": [ "Construct Handbook" ],
-		"type": "Complex",
-		"cost": 250,
 		"description": [
 			"## Alarm Link",
 			"",
@@ -192,8 +168,6 @@
 		"name": "Frost Mist Stash (Shatter Stash)",
 		"file": "constructmods73ca.html",
 		"sources": [ "Ultimate Magic" ],
-		"type": "Complex",
-		"cost": 1000,
 		"description": [
 			"## Shatter Stash",
 			"",
@@ -253,24 +227,18 @@
 	"corrosive_jet_stash_shatter_stash": {
 		"name": "Corrosive Jet Stash (Shatter Stash)",
 		"file": "constructmods11b9.html",
-		"type": "Complex",
-		"cost": 1200,
 		"copyof": "frost_mist_stash_shatter_stash",
 		"display": "constructmod"
 	},
 	"firebomb_stash_shatter_stash": {
 		"name": "Firebomb Stash (Shatter Stash)",
 		"file": "constructmods171d.html",
-		"type": "Complex",
-		"cost": 1200,
 		"copyof": "frost_mist_stash_shatter_stash",
 		"display": "constructmod"
 	},
 	"lightning_lash_stash_shatter_stash": {
 		"name": "Lightning Lash Stash (Shatter Stash)",
 		"file": "constructmods51e9.html",
-		"type": "Complex",
-		"cost": 1200,
 		"copyof": "frost_mist_stash_shatter_stash",
 		"display": "constructmod"
 	},
@@ -278,8 +246,6 @@
 		"name": "Rune of Shielding (Rune Carved)",
 		"file": "constructmods0067.html",
 		"sources": [ "Ultimate Magic" ],
-		"type": "Complex",
-		"cost": 1200,
 		"description": [
 			"## Rune Carved",
 			"",
@@ -364,8 +330,6 @@
 		"name": "Self-Repair",
 		"file": "constructmods6490.html",
 		"sources": [ "Construct Handbook" ],
-		"type": "Complex",
-		"cost": 1500,
 		"description": [
 			"## Self-Repair",
 			"",
@@ -383,16 +347,12 @@
 	"rune_of_lightning_rune_carved": {
 		"name": "Rune of Lightning (Rune Carved)",
 		"file": "constructmodsd6e6.html",
-		"type": "Complex",
-		"cost": 2000,
 		"copyof": "rune_of_shielding_rune_carved",
 		"display": "constructmod"
 	},
 	"willsap_gas_stash_shatter_stash": {
 		"name": "Willsap Gas Stash (Shatter Stash)",
 		"file": "constructmods33eb.html",
-		"type": "Complex",
-		"cost": 2000,
 		"copyof": "frost_mist_stash_shatter_stash",
 		"display": "constructmod"
 	},
@@ -400,8 +360,6 @@
 		"name": "Self-Destruct",
 		"file": "constructmods74e4.html",
 		"sources": [ "Construct Handbook" ],
-		"type": "Complex",
-		"cost": 3570,
 		"description": [
 			"## Self-Destruct",
 			"",
@@ -420,8 +378,6 @@
 		"name": "Crafter's Eyes",
 		"file": "constructmods6602.html",
 		"sources": [ "Ultimate Magic" ],
-		"type": "Complex",
-		"cost": 8000,
 		"description": [
 			"## Crafter's Eyes",
 			"",
@@ -441,8 +397,6 @@
 	"rune_of_terror_rune_carved": {
 		"name": "Rune of Terror (Rune Carved)",
 		"file": "constructmodsdc8a.html",
-		"type": "Complex",
-		"cost": 11200,
 		"copyof": "rune_of_shielding_rune_carved",
 		"display": "constructmod"
 	},
@@ -450,8 +404,6 @@
 		"name": "Construct Shelter",
 		"file": "constructmodsfa01.html",
 		"sources": [ "Construct Handbook" ],
-		"type": "Complex",
-		"cost": 11250,
 		"description": [
 			"## Construct Shelter",
 			"",
@@ -472,8 +424,6 @@
 		"name": "Construct Storage",
 		"file": "constructmodsc6cc.html",
 		"sources": [ "Construct Handbook" ],
-		"type": "Complex",
-		"cost": 11250,
 		"description": [
 			"## Construct Storage",
 			"",
@@ -492,8 +442,6 @@
 		"name": "Mind Link",
 		"file": "constructmods440b.html",
 		"sources": [ "Construct Handbook" ],
-		"type": "Complex",
-		"cost": 16500,
 		"description": [
 			"## Mind Link",
 			"",
@@ -511,8 +459,6 @@
 	"rune_of_agony_rune_carved": {
 		"name": "Rune of Agony (Rune Carved)",
 		"file": "constructmodsbf89.html",
-		"type": "Complex",
-		"cost": 18000,
 		"copyof": "rune_of_shielding_rune_carved",
 		"display": "constructmod"
 	},
@@ -520,8 +466,6 @@
 		"name": "Bioconstruct Modification",
 		"file": "constructmods5579.html",
 		"sources": [ "Ultimate Magic" ],
-		"type": "Complex",
-		"cost": 22750,
 		"description": [
 			"## Bioconstruct Modification",
 			"",
@@ -546,8 +490,6 @@
 		"name": "Construct Limb",
 		"file": "constructmodsee7c.html",
 		"sources": [ "Ultimate Magic" ],
-		"type": "Complex",
-		"cost": 27000,
 		"description": [
 			"## Construct Limb",
 			"",
@@ -570,8 +512,6 @@
 		"name": "Construct Armor",
 		"file": "constructmods312f.html",
 		"sources": [ "Ultimate Magic" ],
-		"type": "Complex",
-		"cost": 35000,
 		"description": [
 			"## Construct Armor",
 			"",
@@ -591,8 +531,6 @@
 	"rune_of_imprisonment_rune_carved": {
 		"name": "Rune of Imprisonment (Rune Carved)",
 		"file": "constructmods29a9.html",
-		"type": "Complex",
-		"cost": 57600,
 		"copyof": "rune_of_shielding_rune_carved",
 		"display": "constructmod"
 	}

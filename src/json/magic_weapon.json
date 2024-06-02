@@ -4,8 +4,6 @@
 		"name": "Darkness Arrow",
 		"file": "magicweaponsdisplayea73.html",
 		"sources": [ "Villain Codex" ],
-		"cost": 80,
-		"weight": 0,
 		"description": [
 			"## Darkness Arrow",
 			"",
@@ -25,8 +23,6 @@
 		"name": "Vine Arrow",
 		"file": "magicweaponsdisplay7322.html",
 		"sources": [ "Villain Codex" ],
-		"cost": 80,
-		"weight": 0,
 		"description": [
 			"## Vine Arrow",
 			"",
@@ -49,8 +45,6 @@
 			"Ultimate Equipment",
 			"Ultimate Combat"
 		],
-		"cost": 100,
-		"weight": 0,
 		"description": [
 			"## Tracer Bullet",
 			"",
@@ -73,8 +67,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 132,
-		"weight": 0.1,
 		"description": [
 			"## Sleep Arrow",
 			"",
@@ -94,8 +86,6 @@
 		"name": "Dwindling Bullet",
 		"file": "magicweaponsdisplay9871.html",
 		"sources": [ "Kobolds of Golarion" ],
-		"cost": 166,
-		"weight": 0,
 		"description": [
 			"## Dwindling Bullet",
 			"",
@@ -115,9 +105,6 @@
 		"name": "Blade of Life's Defense",
 		"file": "magicweaponsdisplay8284.html",
 		"sources": [ "Merchant's Manifest" ],
-		"cost": 170,
-		"slot": "weapon",
-		"weight": 6,
 		"description": [
 			"## Blade of Life's Defense",
 			"",
@@ -133,8 +120,6 @@
 		"name": "Mage Shot (Acid)",
 		"file": "magicweaponsdisplay2c52.html",
 		"sources": [ "Villain Codex" ],
-		"cost": 178,
-		"weight": 0,
 		"description": [
 			"## Mage Shot (Acid)",
 			"",
@@ -154,8 +139,6 @@
 		"name": "Mage Shot (Cold)",
 		"file": "magicweaponsdisplay868d.html",
 		"sources": [ "Villain Codex" ],
-		"cost": 178,
-		"weight": 0,
 		"description": [
 			"## Mage Shot (Cold)",
 			"",
@@ -175,8 +158,6 @@
 		"name": "Mage Shot (Electricity)",
 		"file": "magicweaponsdisplay016a.html",
 		"sources": [ "Villain Codex" ],
-		"cost": 178,
-		"weight": 0,
 		"description": [
 			"## Mage Shot (Electricity)",
 			"",
@@ -196,8 +177,6 @@
 		"name": "Mage Shot (Fire)",
 		"file": "magicweaponsdisplaye8a6-2.html",
 		"sources": [ "Villain Codex" ],
-		"cost": 178,
-		"weight": 0,
 		"description": [
 			"## Mage Shot (Fire)",
 			"",
@@ -220,8 +199,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 196,
-		"weight": 0.5,
 		"description": [
 			"## Dustburst Bullet",
 			"",
@@ -239,12 +216,8 @@
 	},
 	"mephit-head_arrow": {
 		"name": "Mephit-Head Arrow",
-		"searchable_name": "Mephit Head Arrow",
 		"file": "magicweaponsdisplayc88b.html",
 		"sources": [ "Planar Adventures" ],
-		"cost": 200,
-		"slot": "weapon",
-		"weight": 4,
 		"description": [
 			"## Mephit-Head Arrow",
 			"",
@@ -283,8 +256,6 @@
 		"name": "Dart of Recovery",
 		"file": "magicweaponsdisplay9ef7.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"cost": 206,
-		"weight": 0,
 		"description": [
 			"## Dart of Recovery",
 			"",
@@ -307,8 +278,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 226,
-		"weight": 0,
 		"description": [
 			"## Tangle Bolt",
 			"",
@@ -328,8 +297,6 @@
 		"name": "Dispelling Bullet",
 		"file": "magicweaponsdisplay422f.html",
 		"sources": [ "Heroes of Golarion" ],
-		"cost": 250,
-		"weight": 0,
 		"description": [
 			"## Dispelling Bullet",
 			"",
@@ -349,8 +316,6 @@
 		"name": "Unerring Grenade",
 		"file": "magicweaponsdisplay96a7.html",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
-		"cost": 266,
-		"weight": 1,
 		"description": [
 			"## Unerring Grenade",
 			"",
@@ -373,8 +338,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 267,
-		"weight": 0.1,
 		"description": [
 			"## Screaming Bolt",
 			"",
@@ -394,8 +357,6 @@
 		"name": "Snakebiter Arrow",
 		"file": "magicweaponsdisplayc313.html",
 		"sources": [ "Monster Codex" ],
-		"cost": 306,
-		"weight": 0,
 		"description": [
 			"## Snakebiter Arrow",
 			"",
@@ -415,8 +376,6 @@
 		"name": "Grave Marker Arrow",
 		"file": "magicweaponsdisplayea53.html",
 		"sources": [ "Agents of Evil" ],
-		"cost": 307,
-		"weight": 0.1,
 		"description": [
 			"## Grave Marker Arrow",
 			"",
@@ -439,8 +398,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 322,
-		"weight": 1,
 		"description": [
 			"## Masterwork Silver Dagger",
 			"",
@@ -456,8 +413,6 @@
 		"name": "Alchemist's Bullet",
 		"file": "magicweaponsdisplay3224.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 330,
-		"weight": 0.5,
 		"description": [
 			"## Alchemist's Bullet",
 			"",
@@ -480,8 +435,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 330,
-		"weight": 4,
 		"description": [
 			"## Cold Iron Masterwork Longsword",
 			"",
@@ -497,8 +450,6 @@
 		"name": "Splitting Bolt",
 		"file": "magicweaponsdisplay4c95.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"cost": 346,
-		"weight": 0,
 		"description": [
 			"## Splitting Bolt",
 			"",
@@ -518,8 +469,6 @@
 		"name": "Earthfire Shuriken",
 		"file": "magicweaponsdisplay9e9b.html",
 		"sources": [ "Pathfinder #50: Night of Frozen Shadows" ],
-		"cost": 400,
-		"weight": 0.5,
 		"description": [
 			"## Earthfire Shuriken",
 			"",
@@ -539,8 +488,6 @@
 		"name": "Dizzying Bullet",
 		"file": "magicweaponsdisplay03b5.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"cost": 496,
-		"weight": 0.5,
 		"description": [
 			"## Dizzying Bullet",
 			"",
@@ -560,8 +507,6 @@
 		"name": "Vulnerability Bolt",
 		"file": "magicweaponsdisplayb0ea.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"cost": 496,
-		"weight": 0.1,
 		"description": [
 			"## Vulnerability Bolt",
 			"",
@@ -581,8 +526,6 @@
 		"name": "Secure Sheath",
 		"file": "magicweaponsdisplay8912.html",
 		"sources": [ "Martial Arts Handbook" ],
-		"cost": 500,
-		"weight": 1,
 		"description": [
 			"## Secure Sheath",
 			"",
@@ -602,8 +545,6 @@
 		"name": "Hushing Arrow (normal)",
 		"file": "magicweaponsdisplayf450.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 547,
-		"weight": 0.05,
 		"description": [
 			"## Hushing Arrow",
 			"",
@@ -625,8 +566,6 @@
 		"name": "Mute Dart",
 		"file": "magicweaponsdisplayd274.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"cost": 566,
-		"weight": 0,
 		"description": [
 			"## Mute Dart",
 			"",
@@ -646,8 +585,6 @@
 		"name": "Reporting Cartridge",
 		"file": "magicweaponsdisplay7656.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"cost": 566,
-		"weight": 0,
 		"description": [
 			"## Reporting Cartridge",
 			"",
@@ -667,8 +604,6 @@
 		"name": "Scouting Cartridge",
 		"file": "magicweaponsdisplayb0f5.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"cost": 566,
-		"weight": 0,
 		"description": [
 			"## Scouting Cartridge",
 			"",
@@ -688,8 +623,6 @@
 		"name": "Prying Star",
 		"file": "magicweaponsdisplay7639.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"cost": 646,
-		"weight": 0.1,
 		"description": [
 			"## Prying Star",
 			"",
@@ -709,11 +642,8 @@
 	},
 	"boulder_bullet_lesser": {
 		"name": "Boulder Bullet (lesser)",
-		"searchable_name": "lesser Boulder Bullet",
 		"file": "magicweaponsdisplay21f5-2.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"cost": 806,
-		"weight": 0.5,
 		"description": [
 			"## Boulder Bullet",
 			"",
@@ -742,8 +672,6 @@
 		"name": "Phase Arrow",
 		"file": "magicweaponsdisplay49e6.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"cost": 916,
-		"weight": 0.05,
 		"description": [
 			"## Phase Arrow",
 			"",
@@ -761,10 +689,8 @@
 	},
 	"hushing_arrow_greater": {
 		"name": "Hushing Arrow (greater)",
-		"searchable_name": "greater Hushing Arrow",
 		"file": "magicweaponsdisplayd50d.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 1047,
 		"copyof": "hushing_arrow_normal",
 		"display": "magic/weapon"
 	},
@@ -775,8 +701,6 @@
 		"name": "Dimensional Grenade",
 		"file": "magicweaponsdisplayb0df.html",
 		"sources": [ "Pathfinder #71: Rasputin Must Die!" ],
-		"cost": 1450,
-		"weight": 1,
 		"description": [
 			"## Dimensional Grenade",
 			"",
@@ -796,8 +720,6 @@
 		"name": "Venomous Whisper Dart",
 		"file": "magicweaponsdisplay9590.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"cost": 1466,
-		"weight": 0,
 		"description": [
 			"## Venomous Whisper Dart",
 			"",
@@ -820,8 +742,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 1500,
-		"weight": 2,
 		"description": [
 			"## Javelin of Lightning",
 			"",
@@ -844,8 +764,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 1516,
-		"weight": 0,
 		"description": [
 			"## Searing Arrow",
 			"",
@@ -868,8 +786,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 1516,
-		"weight": 0,
 		"description": [
 			"## Sizzling Arrow",
 			"",
@@ -887,14 +803,11 @@
 	},
 	"burrowing_bullet_lesser": {
 		"name": "Burrowing Bullet (lesser)",
-		"searchable_name": "lesser Burrowing Bullet",
 		"file": "magicweaponsdisplay6645.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
 		],
-		"cost": 1722,
-		"weight": 0,
 		"description": [
 			"## Burrowing Bullet",
 			"",
@@ -917,8 +830,6 @@
 		"name": "Dust Bolt",
 		"file": "magicweaponsdisplay6a73.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 1730,
-		"weight": 0.1,
 		"description": [
 			"## Dust Bolt",
 			"",
@@ -938,7 +849,6 @@
 		"name": "Boulder Bullet (normal)",
 		"file": "magicweaponsdisplay4f5a.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"cost": 1966,
 		"copyof": "boulder_bullet_lesser",
 		"display": "magic/weapon"
 	},
@@ -946,8 +856,6 @@
 		"name": "Detecting Dart",
 		"file": "magicweaponsdisplay80e4.html",
 		"sources": [ "Monster Hunter's Handbook" ],
-		"cost": 2000,
-		"weight": 0,
 		"description": [
 			"## Detecting Dart",
 			"",
@@ -974,8 +882,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 2282,
-		"weight": 0.1,
 		"description": [
 			"## Slaying Arrow",
 			"",
@@ -1030,9 +936,6 @@
 		"name": "Crossbow of the Crab",
 		"file": "magicweaponsdisplay513a.html",
 		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
-		"cost": 2500,
-		"slot": "weapon",
-		"weight": 24,
 		"description": [
 			"## Crossbow of the Crab",
 			"",
@@ -1050,8 +953,6 @@
 		"name": "Effortless Lace",
 		"file": "magicweaponsdisplay40b9.html",
 		"sources": [ "Giant Hunter's Handbook" ],
-		"cost": 2500,
-		"weight": 0,
 		"description": [
 			"## Effortless Lace",
 			"",
@@ -1073,8 +974,6 @@
 		"name": "Alchemist's Aspergillum",
 		"file": "magicweaponsdisplay4686.html",
 		"sources": [ "Potions and Poisons" ],
-		"cost": 2805,
-		"weight": 4,
 		"description": [
 			"## Alchemist's Aspergillum",
 			"",
@@ -1094,8 +993,6 @@
 		"name": "Arrow of Charming",
 		"file": "magicweaponsdisplayb080.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"cost": 2886,
-		"weight": 0.05,
 		"description": [
 			"## Arrow of Charming",
 			"",
@@ -1115,8 +1012,6 @@
 		"name": "Blightburn Arrow",
 		"file": "magicweaponsdisplay02c2.html",
 		"sources": [ "Heroes of the Darklands" ],
-		"cost": 3000,
-		"weight": 0.1,
 		"description": [
 			"## Blightburn Arrow",
 			"",
@@ -1136,8 +1031,6 @@
 		"name": "Everbloom's Rose",
 		"file": "magicweaponsdisplay433d.html",
 		"sources": [ "Pathfinder #68: The Shackled Hut" ],
-		"cost": 3000,
-		"weight": 6,
 		"description": [
 			"## Everbloom's Rose",
 			"",
@@ -1160,8 +1053,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 3002,
-		"weight": 1,
 		"description": [
 			"## Adamantine Dagger",
 			"",
@@ -1180,8 +1071,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 3010,
-		"weight": 6,
 		"description": [
 			"## Adamantine Battleaxe",
 			"",
@@ -1197,8 +1086,6 @@
 		"name": "Carouser's Retort",
 		"file": "magicweaponsdisplaybc56.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 3060,
-		"weight": 2,
 		"description": [
 			"## Carouser's Retort",
 			"",
@@ -1218,8 +1105,6 @@
 		"name": "Fate Blade",
 		"file": "magicweaponsdisplay85d3.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 3072,
-		"weight": 1,
 		"description": [
 			"## Fate Blade",
 			"",
@@ -1239,8 +1124,6 @@
 		"name": "Conflagration Pike",
 		"file": "magicweaponsdisplay5aa7.html",
 		"sources": [ "Pathfinder: Hollow Mountain #1" ],
-		"cost": 3110,
-		"weight": 12,
 		"description": [
 			"## Conflagration Pike",
 			"",
@@ -1260,8 +1143,6 @@
 		"name": "Fiend's Relief",
 		"file": "magicweaponsdisplayfdc3.html",
 		"sources": [ "Agents of Evil" ],
-		"cost": 3305,
-		"weight": 9,
 		"description": [
 			"## Fiend's Relief",
 			"",
@@ -1281,8 +1162,6 @@
 		"name": "Tidewater Cutlass",
 		"file": "magicweaponsdisplay80b0.html",
 		"sources": [ "Pathfinder #55: The Wormwood Mutiny" ],
-		"cost": 3395,
-		"weight": 4,
 		"description": [
 			"## Tidewater Cutlass",
 			"",
@@ -1302,13 +1181,11 @@
 	},
 	"burrowing_bullet_greater": {
 		"name": "Burrowing Bullet (greater)",
-		"searchable_name": "greater Burrowing Bullet",
 		"file": "magicweaponsdisplaye8a6.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
 		],
-		"cost": 3447,
 		"copyof": "burrowing_bullet_lesser",
 		"display": "magic/weapon"
 	},
@@ -1319,8 +1196,6 @@
 		"name": "Stake of the Righteous",
 		"file": "magicweaponsdisplayd42c.html",
 		"sources": [ "Blood of the Night" ],
-		"cost": 3520,
-		"weight": 2,
 		"description": [
 			"## Stake of the Righteous",
 			"",
@@ -1342,8 +1217,6 @@
 		"name": "Grasping Bolas",
 		"file": "magicweaponsdisplaya0ce.html",
 		"sources": [ "Giant Hunter's Handbook" ],
-		"cost": 3805,
-		"weight": 2,
 		"description": [
 			"## Grasping Bolas",
 			"",
@@ -1365,8 +1238,6 @@
 		"name": "Enduring Bloom",
 		"file": "magicweaponsdisplay6a8d.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 3848,
-		"weight": 6,
 		"description": [
 			"## Enduring Bloom",
 			"",
@@ -1386,8 +1257,6 @@
 		"name": "Kinbonded Bow",
 		"file": "magicweaponsdisplaye4b3.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 3875,
-		"weight": 3,
 		"description": [
 			"## Kinbonded Bow",
 			"",
@@ -1407,8 +1276,6 @@
 		"name": "Spear of Manhunting",
 		"file": "magicweaponsdisplay1d12.html",
 		"sources": [ "Pathfinder #67: The Snows of Summer" ],
-		"cost": 3925,
-		"weight": 8,
 		"description": [
 			"## Spear of Manhunting",
 			"",
@@ -1428,8 +1295,6 @@
 		"name": "Bloodlight",
 		"file": "magicweaponsdisplayea7f.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 3970,
-		"weight": 8,
 		"description": [
 			"## Bloodlight",
 			"",
@@ -1447,10 +1312,8 @@
 	},
 	"boulder_bullet_greater": {
 		"name": "Boulder Bullet (greater)",
-		"searchable_name": "greater Boulder Bullet",
 		"file": "magicweaponsdisplay589e.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"cost": 4006,
 		"copyof": "boulder_bullet_lesser",
 		"display": "magic/weapon"
 	},
@@ -1459,13 +1322,11 @@
 	},
 	"slaying_arrow_greater": {
 		"name": "Slaying Arrow (greater)",
-		"searchable_name": "greater Slaying Arrow",
 		"file": "magicweaponsdisplay5759.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 4057,
 		"copyof": "slaying_arrow_normal",
 		"display": "magic/weapon"
 	},
@@ -1476,8 +1337,6 @@
 		"name": "Lashing Aklys",
 		"file": "magicweaponsdisplay7470.html",
 		"sources": [ "Pathfinder #64: Beyond the Doomsday Door" ],
-		"cost": 4305,
-		"weight": 2,
 		"description": [
 			"## Lashing Aklys",
 			"",
@@ -1497,8 +1356,6 @@
 		"name": "Boarding Pike of Repelling",
 		"file": "magicweaponsdisplay8868.html",
 		"sources": [ "Pathfinder #55: The Wormwood Mutiny" ],
-		"cost": 4308,
-		"weight": 9,
 		"description": [
 			"## Boarding Pike of Repelling",
 			"",
@@ -1521,8 +1378,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 4310,
-		"weight": 10,
 		"description": [
 			"## Lance of Jousting",
 			"",
@@ -1542,8 +1397,6 @@
 		"name": "Ranseur of the Gargoyle",
 		"file": "magicweaponsdisplay4337.html",
 		"sources": [ "Pathfinder #73: The Worldwound Incursion" ],
-		"cost": 4310,
-		"weight": 12,
 		"description": [
 			"## Ranseur of the Gargoyle",
 			"",
@@ -1563,8 +1416,6 @@
 		"name": "Wizard Hook",
 		"file": "magicweaponsdisplay6e99.html",
 		"sources": [ "Pathfinder #59: The Price of Infamy" ],
-		"cost": 4310,
-		"weight": 1,
 		"description": [
 			"## Wizard Hook",
 			"",
@@ -1584,8 +1435,6 @@
 		"name": "Forgefather's Sledge",
 		"file": "magicweaponsdisplayc4b9.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 4312,
-		"weight": 5,
 		"description": [
 			"## Forgefather's Sledge",
 			"",
@@ -1608,8 +1457,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 4315,
-		"weight": 4,
 		"description": [
 			"## Shatterspike",
 			"",
@@ -1629,8 +1476,6 @@
 		"name": "Grafting Blade",
 		"file": "magicweaponsdisplaycd92.html",
 		"sources": [ "Spymaster's Handbook" ],
-		"cost": 4370,
-		"weight": 1,
 		"description": [
 			"## Grafting Blade",
 			"",
@@ -1652,8 +1497,6 @@
 		"name": "Secret Crossbow",
 		"file": "magicweaponsdisplaya3ff.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"cost": 4400,
-		"weight": 2,
 		"description": [
 			"## Secret Crossbow",
 			"",
@@ -1673,8 +1516,6 @@
 		"name": "Black Alibi",
 		"file": "magicweaponsdisplay19bb.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 4410,
-		"weight": 1,
 		"description": [
 			"## Black Alibi",
 			"",
@@ -1694,8 +1535,6 @@
 		"name": "Perfectionist Shavtoosh",
 		"file": "magicweaponsdisplay5abe.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 4461,
-		"weight": 2,
 		"description": [
 			"## Perfectionist Shavtoosh",
 			"",
@@ -1715,8 +1554,6 @@
 		"name": "Stirge Dart",
 		"file": "magicweaponsdisplayec89.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
-		"cost": 4501,
-		"weight": 0.5,
 		"description": [
 			"## Stirge Dart",
 			"",
@@ -1736,8 +1573,6 @@
 		"name": "Obliviating Flail",
 		"file": "magicweaponsdisplay644f.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 4815,
-		"weight": 10,
 		"description": [
 			"## Obliviating Flail",
 			"",
@@ -1757,8 +1592,6 @@
 		"name": "Biting Bracelet",
 		"file": "magicweaponsdisplay95a0.html",
 		"sources": [ "Spymaster's Handbook" ],
-		"cost": 5000,
-		"weight": 2,
 		"description": [
 			"## Biting Bracelet",
 			"",
@@ -1778,8 +1611,6 @@
 		"name": "Nimble Whip",
 		"file": "magicweaponsdisplay1589.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
-		"cost": 5005,
-		"weight": 2,
 		"description": [
 			"## Nimble Whip",
 			"",
@@ -1799,8 +1630,6 @@
 		"name": "Quarterstaff of Entwined Serpents",
 		"file": "magicweaponsdisplay4b0c.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 5050,
-		"weight": 4,
 		"description": [
 			"## Quarterstaff of Entwined Serpents",
 			"",
@@ -1820,8 +1649,6 @@
 		"name": "Brinya's Love",
 		"file": "magicweaponsdisplay1c6c.html",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
-		"cost": 5052,
-		"weight": 1,
 		"description": [
 			"## Brinya's Love",
 			"",
@@ -1841,8 +1668,6 @@
 		"name": "Judicial Hammer",
 		"file": "magicweaponsdisplay312e.html",
 		"sources": [ "Champions of Balance" ],
-		"cost": 5220,
-		"weight": 14,
 		"description": [
 			"## Judicial Hammer",
 			"",
@@ -1862,8 +1687,6 @@
 		"name": "Blade of Three Fancies",
 		"file": "magicweaponsdisplay4029.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 5248,
-		"weight": 10,
 		"description": [
 			"## Blade of Three Fancies",
 			"",
@@ -1883,8 +1706,6 @@
 		"name": "Smuggler's Sling",
 		"file": "magicweaponsdisplay607f.html",
 		"sources": [ "Giant Hunter's Handbook" ],
-		"cost": 5300,
-		"weight": 0,
 		"description": [
 			"## Smuggler's Sling",
 			"",
@@ -1904,9 +1725,6 @@
 		"name": "Cestus of Security",
 		"file": "magicweaponsdisplaycc05.html",
 		"sources": [ "Villain Codex" ],
-		"cost": 5305,
-		"slot": "hands",
-		"weight": 2,
 		"description": [
 			"## Cestus of Security",
 			"",
@@ -1928,8 +1746,6 @@
 		"name": "Axe of the Imperative",
 		"file": "magicweaponsdisplay86e5-2.html",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
-		"cost": 5310,
-		"weight": 6,
 		"description": [
 			"## Axe of the Imperative",
 			"",
@@ -1952,8 +1768,6 @@
 			"Rise of the Runelords Anniversary Edition",
 			"Pathfinder #4: Fortress of the Stone Giants"
 		],
-		"cost": 5312,
-		"weight": 6,
 		"description": [
 			"## Runechill Hatchet",
 			"",
@@ -1973,8 +1787,6 @@
 		"name": "Dawnfire",
 		"file": "magicweaponsdisplay7dbf.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 5315,
-		"weight": 4,
 		"description": [
 			"## Dawnfire",
 			"",
@@ -1994,8 +1806,6 @@
 		"name": "Irradiating Tail",
 		"file": "magicweaponsdisplay5460.html",
 		"sources": [ "Kobolds of Golarion" ],
-		"cost": 5315,
-		"weight": 1,
 		"description": [
 			"## Irradiating Tail",
 			"",
@@ -2015,8 +1825,6 @@
 		"name": "Nail of the Princess",
 		"file": "magicweaponsdisplay56be.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 5318,
-		"weight": 10,
 		"description": [
 			"## Nail of the Princess",
 			"",
@@ -2036,8 +1844,6 @@
 		"name": "Machete of Clearing (normal)",
 		"file": "magicweaponsdisplay8c25.html",
 		"sources": [ "Sargava, the Lost Colony" ],
-		"cost": 5550,
-		"weight": 2,
 		"description": [
 			"## Machete of Clearing",
 			"",
@@ -2059,8 +1865,6 @@
 		"name": "Bloatstrike Tail",
 		"file": "magicweaponsdisplay7803.html",
 		"sources": [ "Kobolds of Golarion" ],
-		"cost": 5901,
-		"weight": 4,
 		"description": [
 			"## Bloatstrike Tail",
 			"",
@@ -2082,8 +1886,6 @@
 		"name": "Whispering Shrike",
 		"file": "magicweaponsdisplayc857.html",
 		"sources": [ "Pathfinder #49: The Brinewall Legacy" ],
-		"cost": 5940,
-		"weight": 2,
 		"description": [
 			"## Whispering Shrike",
 			"",
@@ -2103,8 +1905,6 @@
 		"name": "Bonespur Dagger",
 		"file": "magicweaponsdisplay003d.html",
 		"sources": [ "Pathfinder Comics #12" ],
-		"cost": 6302,
-		"weight": 2,
 		"description": [
 			"## Bonespur Dagger",
 			"",
@@ -2126,8 +1926,6 @@
 		"name": "Bloodletting Kukri",
 		"file": "magicweaponsdisplayed36.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 6308,
-		"weight": 2,
 		"description": [
 			"## Bloodletting Kukri",
 			"",
@@ -2147,8 +1945,6 @@
 		"name": "Everbloom Thorn",
 		"file": "magicweaponsdisplay81c2.html",
 		"sources": [ "Paths of the Righteous" ],
-		"cost": 6320,
-		"weight": 2,
 		"description": [
 			"## Everbloom Thorn",
 			"",
@@ -2170,8 +1966,6 @@
 		"name": "Inheritor's Light",
 		"file": "magicweaponsdisplay6fc4.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 6555,
-		"weight": 4,
 		"description": [
 			"## Inheritor's Light",
 			"",
@@ -2194,8 +1988,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 6812,
-		"weight": 8,
 		"description": [
 			"## Boulderhead Mace",
 			"",
@@ -2215,8 +2007,6 @@
 		"name": "Traitorous Blaster",
 		"file": "magicweaponsdisplay3c5f.html",
 		"sources": [ "Champions of Balance" ],
-		"cost": 7050,
-		"weight": 5,
 		"description": [
 			"## Traitorous Blaster",
 			"",
@@ -2236,9 +2026,6 @@
 		"name": "Natron Fang",
 		"file": "magicweaponsdisplayfefd.html",
 		"sources": [ "Pathfinder #80: Empty Graves" ],
-		"cost": 7280,
-		"slot": "weapon",
-		"weight": 8,
 		"description": [
 			"## Natron Fang",
 			"",
@@ -2261,8 +2048,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 7300,
-		"weight": 3,
 		"description": [
 			"## Beaststrike Club",
 			"",
@@ -2282,8 +2067,6 @@
 		"name": "Sacrificial Dagger",
 		"file": "magicweaponsdisplay3e62.html",
 		"sources": [ "Horror Adventures" ],
-		"cost": 7302,
-		"weight": 1,
 		"description": [
 			"## Sacrificial Dagger",
 			"",
@@ -2305,8 +2088,6 @@
 		"name": "Sharpshooter's Blade",
 		"file": "magicweaponsdisplaye049.html",
 		"sources": [ "Pathfinder #57: Tempest Rising" ],
-		"cost": 7305,
-		"weight": 1,
 		"description": [
 			"## Sharpshooter's Blade",
 			"",
@@ -2328,8 +2109,6 @@
 		"name": "Fighter's Fork",
 		"file": "magicweaponsdisplay66b9.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 7315,
-		"weight": 4,
 		"description": [
 			"## Fighter's Fork",
 			"",
@@ -2349,8 +2128,6 @@
 		"name": "Swashbuckler's Rapier",
 		"file": "magicweaponsdisplayd10f.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 7320,
-		"weight": 2,
 		"description": [
 			"## Swashbuckler's Rapier",
 			"",
@@ -2370,8 +2147,6 @@
 		"name": "Shooting Starknife",
 		"file": "magicweaponsdisplay345a.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 7724,
-		"weight": 3,
 		"description": [
 			"## Shooting Starknife",
 			"",
@@ -2391,8 +2166,6 @@
 		"name": "Everflowing Aspergillum",
 		"file": "magicweaponsdisplayc8ee.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 7805,
-		"weight": 4,
 		"description": [
 			"## Everflowing Aspergillum",
 			"",
@@ -2412,8 +2185,6 @@
 		"name": "Midsummer Sickle",
 		"file": "magicweaponsdisplayc75d.html",
 		"sources": [ "Faction Guide" ],
-		"cost": 7806,
-		"weight": 1,
 		"description": [
 			"## Midsummer Sickle",
 			"",
@@ -2433,8 +2204,6 @@
 		"name": "Wanderer's Scarf",
 		"file": "magicweaponsdisplay5cd3.html",
 		"sources": [ "Inner Sea Combat" ],
-		"cost": 7812,
-		"weight": 2,
 		"description": [
 			"## Wanderer's Scarf",
 			"",
@@ -2458,8 +2227,6 @@
 		"name": "Hurricane Quarterstaff",
 		"file": "magicweaponsdisplay0eb2.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 7840,
-		"weight": 4,
 		"description": [
 			"## Hurricane Quarterstaff",
 			"",
@@ -2479,9 +2246,6 @@
 		"name": "Gauntlets of Rending",
 		"file": "magicweaponsdisplayddc5.html",
 		"sources": [ "Monster Codex" ],
-		"cost": 8000,
-		"slot": "hands",
-		"weight": 4,
 		"description": [
 			"## Gauntlets of Rending",
 			"",
@@ -2501,9 +2265,6 @@
 		"name": "Iomedae's Needle",
 		"file": "magicweaponsdisplay20cd.html",
 		"sources": [ "Pathfinder #141: Last Watch" ],
-		"cost": 8016,
-		"slot": "hands",
-		"weight": 10,
 		"description": [
 			"## Iomedae's Needle",
 			"",
@@ -2528,8 +2289,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 8302,
-		"weight": 1,
 		"description": [
 			"## Dagger of Venom",
 			"",
@@ -2549,8 +2308,6 @@
 		"name": "Daggermark Blade",
 		"file": "magicweaponsdisplayad2b.html",
 		"sources": [ "Advanced Class Origins" ],
-		"cost": 8302,
-		"weight": 2,
 		"description": [
 			"## Daggermark Blade",
 			"",
@@ -2570,8 +2327,6 @@
 		"name": "Buoyant Harpoon",
 		"file": "magicweaponsdisplay05ac.html",
 		"sources": [ "People of the North" ],
-		"cost": 8305,
-		"weight": 16,
 		"description": [
 			"## Buoyant Harpoon",
 			"",
@@ -2591,8 +2346,6 @@
 		"name": "Cave Dweller's Greataxe",
 		"file": "magicweaponsdisplay5b62.html",
 		"sources": [ "Monster Codex" ],
-		"cost": 8305,
-		"weight": 9,
 		"description": [
 			"## Cave Dweller's Greataxe",
 			"",
@@ -2610,11 +2363,8 @@
 	},
 	"shadow_cleaver_elf": {
 		"name": "Shadow Cleaver (Elf)",
-		"searchable_name": "Shadow Cleaver",
 		"file": "magicweaponsdisplayb1ae.html",
 		"sources": [ "Inner Sea Races" ],
-		"cost": 8310,
-		"weight": 2,
 		"description": [
 			"## Shadow Cleaver (Elf)",
 			"",
@@ -2639,8 +2389,6 @@
 		"name": "Akitonian Blade",
 		"file": "magicweaponsdisplay64a6.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"cost": 8311,
-		"weight": 2,
 		"description": [
 			"## Akitonian Blade",
 			"",
@@ -2658,11 +2406,8 @@
 	},
 	"leng_flail_lesser": {
 		"name": "Leng Flail (lesser)",
-		"searchable_name": "lesser Leng Flail",
 		"file": "magicweaponsdisplay037e.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"cost": 8315,
-		"weight": 10,
 		"description": [
 			"## Leng Flail",
 			"",
@@ -2687,8 +2432,6 @@
 		"name": "Rusting Teeth of the Rough Beast",
 		"file": "magicweaponsdisplay2e56.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 8320,
-		"weight": 12,
 		"description": [
 			"## Rusting Teeth of the Rough Beast",
 			"",
@@ -2708,8 +2451,6 @@
 		"name": "Shearing Sword",
 		"file": "magicweaponsdisplayc10c.html",
 		"sources": [ "Inner Sea Combat" ],
-		"cost": 8350,
-		"weight": 8,
 		"description": [
 			"## Shearing Sword",
 			"",
@@ -2729,9 +2470,6 @@
 		"name": "Spear of the Watchful Guardian",
 		"file": "magicweaponsdisplayede9.html",
 		"sources": [ "Pathfinder #79: The Half-Dead City" ],
-		"cost": 8462,
-		"slot": "weapon",
-		"weight": 6,
 		"description": [
 			"## Spear of the Watchful Guardian",
 			"",
@@ -2755,8 +2493,6 @@
 		"name": "Stirge Lance",
 		"file": "magicweaponsdisplay5236.html",
 		"sources": [ "Spymaster's Handbook" ],
-		"cost": 8500,
-		"weight": 0,
 		"description": [
 			"## Stirge Lance",
 			"",
@@ -2781,8 +2517,6 @@
 			"Ultimate Equipment",
 			"Advanced Race Guide"
 		],
-		"cost": 8810,
-		"weight": 2,
 		"description": [
 			"## Gloom Blade",
 			"",
@@ -2802,8 +2536,6 @@
 		"name": "Umbral Chain",
 		"file": "magicweaponsdisplaycb8b.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 8825,
-		"weight": 10,
 		"description": [
 			"## Umbral Chain",
 			"",
@@ -2823,8 +2555,6 @@
 		"name": "Dagger of Repose",
 		"file": "magicweaponsdisplaya203.html",
 		"sources": [ "Feast of Dust" ],
-		"cost": 8902,
-		"weight": 1,
 		"description": [
 			"## Dagger of Repose",
 			"",
@@ -2847,8 +2577,6 @@
 			"Rise of the Runelords Anniversary Edition",
 			"Pathfinder #2: The Skinsaw Murders"
 		],
-		"cost": 9000,
-		"weight": 9,
 		"description": [
 			"## Impaler of Thorns",
 			"",
@@ -2870,8 +2598,6 @@
 		"name": "Fist of the Pit",
 		"file": "magicweaponsdisplay7c47.html",
 		"sources": [ "Inner Sea Temples" ],
-		"cost": 9305,
-		"weight": 1,
 		"description": [
 			"## Fist of the Pit",
 			"",
@@ -2891,8 +2617,6 @@
 		"name": "Final Word",
 		"file": "magicweaponsdisplayd2ff.html",
 		"sources": [ "Inner Sea Combat" ],
-		"cost": 9308,
-		"weight": 1,
 		"description": [
 			"## Final Word",
 			"",
@@ -2916,8 +2640,6 @@
 		"name": "Battlepot Cauldron",
 		"file": "magicweaponsdisplayf752.html",
 		"sources": [ "Blood of the Coven" ],
-		"cost": 9312,
-		"weight": 8,
 		"description": [
 			"## Battlepot Cauldron",
 			"",
@@ -2937,8 +2659,6 @@
 		"name": "Stormstrike",
 		"file": "magicweaponsdisplay4917.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 9315,
-		"weight": 4,
 		"description": [
 			"## Stormstrike",
 			"",
@@ -2958,8 +2678,6 @@
 		"name": "Silverfang",
 		"file": "magicweaponsdisplaye2bd.html",
 		"sources": [ "Pathfinder #62: Curse of the Lady's Light" ],
-		"cost": 9320,
-		"weight": 2,
 		"description": [
 			"## Silverfang",
 			"",
@@ -2981,8 +2699,6 @@
 		"name": "Diplomat's Traveling Stick",
 		"file": "magicweaponsdisplaybdf5.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"cost": 9345,
-		"weight": 4,
 		"description": [
 			"## Diplomat's Traveling Stick",
 			"",
@@ -3002,8 +2718,6 @@
 		"name": "Frostbite Sling",
 		"file": "magicweaponsdisplay4a36.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 9380,
-		"weight": 0,
 		"description": [
 			"## Frostbite Sling",
 			"",
@@ -3023,8 +2737,6 @@
 		"name": "Fang of Erebus",
 		"file": "magicweaponsdisplay1317.html",
 		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
-		"cost": 9501,
-		"weight": 2,
 		"description": [
 			"## Fang of Erebus",
 			"",
@@ -3044,11 +2756,8 @@
 	},
 	"glaive-guisarme_of_the_vanguard": {
 		"name": "Glaive-Guisarme of the Vanguard",
-		"searchable_name": "Glaive Guisarme of the Vanguard",
 		"file": "magicweaponsdisplay7c44.html",
 		"sources": [ "Knights of the Inner Sea" ],
-		"cost": 9512,
-		"weight": 10,
 		"description": [
 			"## Glaive-Guisarme of the Vanguard",
 			"",
@@ -3071,8 +2780,6 @@
 		"name": "Reaper's Lantern",
 		"file": "magicweaponsdisplay31cc.html",
 		"sources": [ "Villain Codex" ],
-		"cost": 9515,
-		"weight": 10,
 		"description": [
 			"## Reaper's Lantern",
 			"",
@@ -3096,8 +2803,6 @@
 		"name": "Cutlass of Waves",
 		"file": "magicweaponsdisplay7e89.html",
 		"sources": [ "Villain Codex" ],
-		"cost": 9615,
-		"weight": 1,
 		"description": [
 			"## Cutlass of Waves",
 			"",
@@ -3117,8 +2822,6 @@
 		"name": "Snakebite Dagger",
 		"file": "magicweaponsdisplaydd42.html",
 		"sources": [ "The Harrow Handbook" ],
-		"cost": 9760,
-		"weight": 1,
 		"description": [
 			"## Snakebite Dagger",
 			"",
@@ -3138,8 +2841,6 @@
 		"name": "Shrivelblade",
 		"file": "magicweaponsdisplay3d67.html",
 		"sources": [ "Giant Hunter's Handbook" ],
-		"cost": 9810,
-		"weight": 3,
 		"description": [
 			"## Shrivelblade",
 			"",
@@ -3162,8 +2863,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 9815,
-		"weight": 4,
 		"description": [
 			"## Trident of Stability",
 			"",
@@ -3183,8 +2882,6 @@
 		"name": "Redlust's Daughter",
 		"file": "magicweaponsdisplay55ab.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 9875,
-		"weight": 8,
 		"description": [
 			"## Redlust's Daughter",
 			"",
@@ -3204,8 +2901,6 @@
 		"name": "Pirate's Arm",
 		"file": "magicweaponsdisplay01f1.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"cost": 9905,
-		"weight": 25,
 		"description": [
 			"## Pirate's Arm",
 			"",
@@ -3225,11 +2920,8 @@
 	},
 	"junkblade_goblin": {
 		"name": "Junkblade (Goblin)",
-		"searchable_name": "Junkblade",
 		"file": "magicweaponsdisplay50c1.html",
 		"sources": [ "Inner Sea Races" ],
-		"cost": 9928,
-		"weight": 0.5,
 		"description": [
 			"## Junkblade (Goblin)",
 			"",
@@ -3254,8 +2946,6 @@
 		"name": "Master's Woe Stiletto",
 		"file": "magicweaponsdisplayc33a.html",
 		"sources": [ "Undead Slayer's Handbook" ],
-		"cost": 10002,
-		"weight": 1,
 		"description": [
 			"## Master's Woe Stiletto",
 			"",
@@ -3280,8 +2970,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 10115,
-		"weight": 4,
 		"description": [
 			"## Trident of Warning",
 			"",
@@ -3301,8 +2989,6 @@
 		"name": "Balor's Lash",
 		"file": "magicweaponsdisplay1ef6.html",
 		"sources": [ "Villain Codex" ],
-		"cost": 10301,
-		"weight": 2,
 		"description": [
 			"## Balor's Lash",
 			"",
@@ -3322,8 +3008,6 @@
 		"name": "Cailean Fighting Tankard",
 		"file": "magicweaponsdisplay67e7.html",
 		"sources": [ "Weapon Master's Handbook" ],
-		"cost": 10301,
-		"weight": 2,
 		"description": [
 			"## Cailean Fighting Tankard",
 			"",
@@ -3346,8 +3030,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 10302,
-		"weight": 1,
 		"description": [
 			"## Assassin's Dagger",
 			"",
@@ -3367,8 +3049,6 @@
 		"name": "Dagger of Doubling",
 		"file": "magicweaponsdisplay8817.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 10302,
-		"weight": 1,
 		"description": [
 			"## Dagger of Doubling",
 			"",
@@ -3390,8 +3070,6 @@
 		"name": "Deadly Kiss",
 		"file": "magicweaponsdisplayd280.html",
 		"sources": [ "Pathfinder #50: Night of Frozen Shadows" ],
-		"cost": 10302,
-		"weight": 1,
 		"description": [
 			"## Deadly Kiss",
 			"",
@@ -3411,8 +3089,6 @@
 		"name": "Lacerating Rapier",
 		"file": "magicweaponsdisplaye662.html",
 		"sources": [ "Magical Marketplace" ],
-		"cost": 10302,
-		"weight": 4,
 		"description": [
 			"## Lacerating Rapier",
 			"",
@@ -3434,8 +3110,6 @@
 		"name": "Serpent's Fang",
 		"file": "magicweaponsdisplayc629.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"cost": 10302,
-		"weight": 1,
 		"description": [
 			"## Serpent's Fang",
 			"",
@@ -3459,8 +3133,6 @@
 		"name": "Courtesan's Ire",
 		"file": "magicweaponsdisplay3c0a.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"cost": 10305,
-		"weight": 0,
 		"description": [
 			"## Courtesan's Ire",
 			"",
@@ -3482,8 +3154,6 @@
 		"name": "Hammertail",
 		"file": "magicweaponsdisplayf25d.html",
 		"sources": [ "Pathfinder #39: The City of Seven Spears" ],
-		"cost": 10305,
-		"weight": 2,
 		"description": [
 			"## Hammertail",
 			"",
@@ -3503,8 +3173,6 @@
 		"name": "Hell's Eye",
 		"file": "magicweaponsdisplaycfdb.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 10305,
-		"weight": 4,
 		"description": [
 			"## Hell's Eye",
 			"",
@@ -3524,8 +3192,6 @@
 		"name": "Rending Claw Blade",
 		"file": "magicweaponsdisplaydaff.html",
 		"sources": [ "Advanced Race Guide" ],
-		"cost": 10305,
-		"weight": 1,
 		"description": [
 			"## Rending Claw Blade",
 			"",
@@ -3548,8 +3214,6 @@
 			"Adventurer's Guide",
 			"Advanced Class Origins"
 		],
-		"cost": 10305,
-		"weight": 2,
 		"description": [
 			"## Signifer's Fist",
 			"",
@@ -3569,8 +3233,6 @@
 		"name": "Vindictive Harpoon",
 		"file": "magicweaponsdisplay1085.html",
 		"sources": [ "Pathfinder #55: The Wormwood Mutiny" ],
-		"cost": 10305,
-		"weight": 16,
 		"description": [
 			"## Vindictive Harpoon",
 			"",
@@ -3590,8 +3252,6 @@
 		"name": "Clicking Blade",
 		"file": "magicweaponsdisplay36fa.html",
 		"sources": [ "Merchant's Manifest" ],
-		"cost": 10310,
-		"weight": 3,
 		"description": [
 			"## Clicking Blade",
 			"",
@@ -3611,8 +3271,6 @@
 		"name": "Heartspit",
 		"file": "magicweaponsdisplay5f93.html",
 		"sources": [ "Pathfinder #93: Forge of the Giant God" ],
-		"cost": 10310,
-		"weight": 18,
 		"description": [
 			"## Heartspit",
 			"",
@@ -3632,8 +3290,6 @@
 		"name": "War Lance",
 		"file": "magicweaponsdisplaycadd.html",
 		"sources": [ "Knights of the Inner Sea" ],
-		"cost": 10310,
-		"weight": 10,
 		"description": [
 			"## War Lance",
 			"",
@@ -3653,8 +3309,6 @@
 		"name": "Brine's Sting",
 		"file": "magicweaponsdisplay5346.html",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
-		"cost": 10320,
-		"weight": 2,
 		"description": [
 			"## Brine's Sting",
 			"",
@@ -3674,8 +3328,6 @@
 		"name": "Force Net",
 		"file": "magicweaponsdisplay2ca3.html",
 		"sources": [ "Blood of the Night" ],
-		"cost": 10320,
-		"weight": 6,
 		"description": [
 			"## Force Net",
 			"",
@@ -3695,9 +3347,6 @@
 		"name": "Grudge Blade",
 		"file": "magicweaponsdisplayf22b.html",
 		"sources": [ "Cheliax, Empire of Devils" ],
-		"cost": 10320,
-		"slot": "weapon",
-		"weight": 2,
 		"description": [
 			"## Grudge Blade",
 			"",
@@ -3719,8 +3368,6 @@
 		"name": "Wavecutter",
 		"file": "magicweaponsdisplay5806.html",
 		"sources": [ "Pathfinder #39: The City of Seven Spears" ],
-		"cost": 10320,
-		"weight": 4,
 		"description": [
 			"## Wavecutter",
 			"",
@@ -3740,8 +3387,6 @@
 		"name": "Cavalryman's Bow",
 		"file": "magicweaponsdisplayc531.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"cost": 10330,
-		"weight": 2,
 		"description": [
 			"## Cavalryman's Bow",
 			"",
@@ -3761,8 +3406,6 @@
 		"name": "Skyrocket Crossbow",
 		"file": "magicweaponsdisplaye77b.html",
 		"sources": [ "Pathfinder #59: The Price of Infamy" ],
-		"cost": 10400,
-		"weight": 2,
 		"description": [
 			"## Skyrocket Crossbow",
 			"",
@@ -3786,8 +3429,6 @@
 		"name": "Wendifisa Spear",
 		"file": "magicweaponsdisplaya064.html",
 		"sources": [ "Inner Sea Combat" ],
-		"cost": 10453,
-		"weight": 3,
 		"description": [
 			"## Wendifisa Spear",
 			"",
@@ -3811,8 +3452,6 @@
 		"name": "Loudshot Pistol",
 		"file": "magicweaponsdisplayc986.html",
 		"sources": [ "Magical Marketplace" ],
-		"cost": 10530,
-		"weight": 4,
 		"description": [
 			"## Loudshot Pistol",
 			"",
@@ -3832,8 +3471,6 @@
 		"name": "Launcher of Distrarction",
 		"file": "magicweaponsdisplaye77a.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"cost": 10550,
-		"weight": 2,
 		"description": [
 			"## Launcher of Distrarction",
 			"",
@@ -3853,8 +3490,6 @@
 		"name": "Fuming Blood Sabre",
 		"file": "magicweaponsdisplayd7c2.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 11035,
-		"weight": 2,
 		"description": [
 			"## Fuming Blood Sabre",
 			"",
@@ -3874,8 +3509,6 @@
 		"name": "Swarmbow",
 		"file": "magicweaponsdisplay5265.html",
 		"sources": [ "Pathfinder #81: Shifting Sands" ],
-		"cost": 11275,
-		"weight": 2,
 		"description": [
 			"## Swarmbow",
 			"",
@@ -3895,8 +3528,6 @@
 		"name": "Pick of Stonecleaving",
 		"file": "magicweaponsdisplay55a5.html",
 		"sources": [ "Mythic Adventures" ],
-		"cost": 11308,
-		"weight": 6,
 		"description": [
 			"## Pick of Stonecleaving",
 			"",
@@ -3916,8 +3547,6 @@
 		"name": "Earthenflail",
 		"file": "magicweaponsdisplayaa73.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 11315,
-		"weight": 10,
 		"description": [
 			"## Earthenflail",
 			"",
@@ -3940,8 +3569,6 @@
 			"Ultimate Equipment",
 			"Advanced Race Guide"
 		],
-		"cost": 11320,
-		"weight": 12,
 		"description": [
 			"## Swift Obsidian Greataxe",
 			"",
@@ -3961,8 +3588,6 @@
 		"name": "Axe of Felling",
 		"file": "magicweaponsdisplay6007.html",
 		"sources": [ "Giant Hunter's Handbook" ],
-		"cost": 11330,
-		"weight": 8,
 		"description": [
 			"## Axe of Felling",
 			"",
@@ -3982,8 +3607,6 @@
 		"name": "Bow of Ashes",
 		"file": "magicweaponsdisplay174e.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"cost": 11400,
-		"weight": 3,
 		"description": [
 			"## Bow of Ashes",
 			"",
@@ -4003,8 +3626,6 @@
 		"name": "Trailblazor's Spade",
 		"file": "magicweaponsdisplay694e.html",
 		"sources": [ "Magical Marketplace" ],
-		"cost": 11400,
-		"weight": 3,
 		"description": [
 			"## Trailblazor's Spade",
 			"",
@@ -4024,8 +3645,6 @@
 		"name": "Vengeful Kiss",
 		"file": "magicweaponsdisplay9e74.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 11501,
-		"weight": 2,
 		"description": [
 			"## Vengeful Kiss",
 			"",
@@ -4045,8 +3664,6 @@
 		"name": "Goad of Obedience",
 		"file": "magicweaponsdisplay8fc6.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"cost": 11508,
-		"weight": 5,
 		"description": [
 			"## Goad of Obedience",
 			"",
@@ -4066,8 +3683,6 @@
 		"name": "Machete of Clearing (animal or plant bane)",
 		"file": "magicweaponsdisplay7f15.html",
 		"sources": [ "Sargava, the Lost Colony" ],
-		"cost": 11550,
-		"weight": 2,
 		"copyof": "machete_of_clearing_normal",
 		"display": "magic/weapon"
 	},
@@ -4075,8 +3690,6 @@
 		"name": "Peacekeeping Pistol",
 		"file": "magicweaponsdisplayad77.html",
 		"sources": [ "Inner Sea Combat" ],
-		"cost": 11700,
-		"weight": 4,
 		"description": [
 			"## Peacekeeping Pistol",
 			"",
@@ -4094,11 +3707,8 @@
 	},
 	"triple-stinging_blade_calistria": {
 		"name": "Triple-Stinging Blade (Calistria)",
-		"searchable_name": "Triple Stinging Blade",
 		"file": "magicweaponsdisplay6549.html",
 		"sources": [ "Faiths of Balance" ],
-		"cost": 11702,
-		"weight": 1,
 		"description": [
 			"## Triple-Stinging Blade (Calistria)",
 			"",
@@ -4123,8 +3733,6 @@
 		"name": "Tamer's Whip",
 		"file": "magicweaponsdisplayeca7.html",
 		"sources": [ "Animal Archive" ],
-		"cost": 11901,
-		"weight": 2,
 		"description": [
 			"## Tamer's Whip",
 			"",
@@ -4144,8 +3752,6 @@
 		"name": "Icicle Wand",
 		"file": "magicweaponsdisplayc80f.html",
 		"sources": [ "Pathfinder #67: The Snows of Summer" ],
-		"cost": 12250,
-		"weight": 1,
 		"description": [
 			"## Icicle Wand",
 			"",
@@ -4165,8 +3771,6 @@
 		"name": "Constrictor's Gauntlets",
 		"file": "magicweaponsdisplayf063.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
-		"cost": 12302,
-		"weight": 1,
 		"description": [
 			"## Constrictor's Gauntlets",
 			"",
@@ -4188,8 +3792,6 @@
 		"name": "Scorpion Tail Whip",
 		"file": "magicweaponsdisplayb28e.html",
 		"sources": [ "Pathfinder #82: Secrets of the Sphinx" ],
-		"cost": 12305,
-		"weight": 3,
 		"description": [
 			"## Scorpion Tail Whip",
 			"",
@@ -4209,8 +3811,6 @@
 		"name": "Polarity Hammer",
 		"file": "magicweaponsdisplaya13a.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 12310,
-		"weight": 10,
 		"description": [
 			"## Polarity Hammer",
 			"",
@@ -4232,8 +3832,6 @@
 		"name": "Sinderbos",
 		"file": "magicweaponsdisplay78e5.html",
 		"sources": [ "Pathfinder #104: Wrath of Thrune" ],
-		"cost": 12312,
-		"weight": 5,
 		"description": [
 			"## Sinderbos",
 			"",
@@ -4258,8 +3856,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 12350,
-		"weight": 8,
 		"description": [
 			"## Blade of Binding",
 			"",
@@ -4281,8 +3877,6 @@
 		"name": "Gorum's Thorn",
 		"file": "magicweaponsdisplayfa8d-2.html",
 		"sources": [ "Pathfinder #92: The Hill Giant's Pledge" ],
-		"cost": 12350,
-		"weight": 8,
 		"description": [
 			"## Gorum's Thorn",
 			"",
@@ -4302,8 +3896,6 @@
 		"name": "Dancing Wasp",
 		"file": "magicweaponsdisplay3a05.html",
 		"sources": [ "Pathfinder #49: The Brinewall Legacy" ],
-		"cost": 12392,
-		"weight": 3,
 		"description": [
 			"## Dancing Wasp",
 			"",
@@ -4323,8 +3915,6 @@
 		"name": "Shadowcraft Weapon",
 		"file": "magicweaponsdisplay0b5f.html",
 		"sources": [ "Blood of Shadows" ],
-		"cost": 12500,
-		"weight": 0,
 		"description": [
 			"## Shadowcraft Weapon",
 			"",
@@ -4350,8 +3940,6 @@
 		"name": "Fugitive Finder",
 		"file": "magicweaponsdisplay584a.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 12655,
-		"weight": 4,
 		"description": [
 			"## Fugitive Finder",
 			"",
@@ -4371,9 +3959,6 @@
 		"name": "Nightpiercer",
 		"file": "magicweaponsdisplay68b6.html",
 		"sources": [ "Inner Sea Temples" ],
-		"cost": 12700,
-		"slot": "wrists",
-		"weight": 12,
 		"description": [
 			"## Nightpiercer",
 			"",
@@ -4396,8 +3981,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 12780,
-		"weight": 10,
 		"description": [
 			"## Shifter's Sorrow",
 			"",
@@ -4417,8 +4000,6 @@
 		"name": "Emberchill",
 		"file": "magicweaponsdisplay2f45.html",
 		"sources": [ "Pathfinder #68: The Shackled Hut" ],
-		"cost": 12806,
-		"weight": 2,
 		"description": [
 			"## Emberchill",
 			"",
@@ -4438,8 +4019,6 @@
 		"name": "Deck of Slivering Fate",
 		"file": "magicweaponsdisplay7072.html",
 		"sources": [ "The Harrow Handbook" ],
-		"cost": 13000,
-		"weight": 0,
 		"description": [
 			"## Deck of Slivering Fate",
 			"",
@@ -4459,8 +4038,6 @@
 		"name": "Focused Shadowcraft Weapon",
 		"file": "magicweaponsdisplay6a5e.html",
 		"sources": [ "Blood of Shadows" ],
-		"cost": 13000,
-		"weight": 0,
 		"description": [
 			"## Focused Shadowcraft Weapon",
 			"",
@@ -4480,8 +4057,6 @@
 		"name": "Dragoncatch Guisarme",
 		"file": "magicweaponsdisplaycaa2.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 13308,
-		"weight": 5,
 		"description": [
 			"## Dragoncatch Guisarme",
 			"",
@@ -4501,8 +4076,6 @@
 		"name": "Spine Flail",
 		"file": "magicweaponsdisplayf8ce.html",
 		"sources": [ "Pathfinder #63: The Asylum Stone" ],
-		"cost": 13308,
-		"weight": 10,
 		"description": [
 			"## Spine Flail",
 			"",
@@ -4524,9 +4097,6 @@
 		"name": "Andoren Emancipation Hammer",
 		"file": "magicweaponsdisplayc33e.html",
 		"sources": [ "Merchant's Manifest" ],
-		"cost": 13312,
-		"slot": "weapon",
-		"weight": 5,
 		"description": [
 			"## Andoren Emancipation Hammer",
 			"",
@@ -4546,8 +4116,6 @@
 		"name": "Korrigan Club",
 		"file": "magicweaponsdisplay3135.html",
 		"sources": [ "Pathfinder #116: Fangs of War" ],
-		"cost": 13400,
-		"weight": 3,
 		"description": [
 			"## Korrigan Club",
 			"",
@@ -4567,8 +4135,6 @@
 		"name": "Infested Bandages",
 		"file": "magicweaponsdisplay09f3.html",
 		"sources": [ "Martial Arts Handbook" ],
-		"cost": 13500,
-		"weight": 0,
 		"description": [
 			"## Infested Bandages",
 			"",
@@ -4586,12 +4152,8 @@
 	},
 	"shadde-quah_spirit_bolas": {
 		"name": "Shadde-Quah Spirit Bolas",
-		"searchable_name": "Shadde Quah Spirit Bolas",
 		"file": "magicweaponsdisplay9b90.html",
 		"sources": [ "Inner Sea Combat" ],
-		"cost": 13715,
-		"slot": "weapon",
-		"weight": 2,
 		"description": [
 			"## Shadde-Quah Spirit Bolas",
 			"",
@@ -4616,8 +4178,6 @@
 		"name": "Greenblood Scourge",
 		"file": "magicweaponsdisplay75d3.html",
 		"sources": [ "Inner Sea Combat" ],
-		"cost": 13801,
-		"weight": 2,
 		"description": [
 			"## Greenblood Scourge",
 			"",
@@ -4639,8 +4199,6 @@
 		"name": "Headsman's Blade",
 		"file": "magicweaponsdisplayf83c.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 13850,
-		"weight": 8,
 		"description": [
 			"## Headsman's Blade",
 			"",
@@ -4660,9 +4218,6 @@
 		"name": "Channeler's Scarf",
 		"file": "magicweaponsdisplay30b4.html",
 		"sources": [ "Merchant's Manifest" ],
-		"cost": 14012,
-		"slot": "weapon",
-		"weight": 2,
 		"description": [
 			"## Channeler's Scarf",
 			"",
@@ -4686,8 +4241,6 @@
 		"name": "Censuring Placard",
 		"file": "magicweaponsdisplay3826.html",
 		"sources": [ "Inner Sea Temples" ],
-		"cost": 14300,
-		"weight": 2,
 		"description": [
 			"## Censuring Placard",
 			"",
@@ -4705,11 +4258,8 @@
 	},
 	"ten-ring_sword": {
 		"name": "Ten-Ring Sword",
-		"searchable_name": "Ten Ring Sword",
 		"file": "magicweaponsdisplayf286.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 14315,
-		"weight": 4,
 		"description": [
 			"## Ten-Ring Sword",
 			"",
@@ -4734,8 +4284,6 @@
 		"name": "Death Bill",
 		"file": "magicweaponsdisplay95cb.html",
 		"sources": [ "Pathfinder #64: Beyond the Doomsday Door" ],
-		"cost": 14318,
-		"weight": 10,
 		"description": [
 			"## Death Bill",
 			"",
@@ -4755,8 +4303,6 @@
 		"name": "Black Eagle's Blade",
 		"file": "magicweaponsdisplay9b75.html",
 		"sources": [ "People of the River" ],
-		"cost": 14350,
-		"weight": 8,
 		"description": [
 			"## Black Eagle's Blade",
 			"",
@@ -4776,8 +4322,6 @@
 		"name": "Lashing Shadowcraft Weapon",
 		"file": "magicweaponsdisplay10ff.html",
 		"sources": [ "Blood of Shadows" ],
-		"cost": 14500,
-		"weight": 0,
 		"description": [
 			"## Lashing Shadowcraft Weapon",
 			"",
@@ -4797,8 +4341,6 @@
 		"name": "Dagger of Repossession",
 		"file": "magicweaponsdisplayb4d7.html",
 		"sources": [ "Demon Hunter's Handbook" ],
-		"cost": 14702,
-		"weight": 1,
 		"description": [
 			"## Dagger of Repossession",
 			"",
@@ -4820,8 +4362,6 @@
 		"name": "Triton's Trident",
 		"file": "magicweaponsdisplayfc85.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 15065,
-		"weight": 4,
 		"description": [
 			"## Triton's Trident",
 			"",
@@ -4841,8 +4381,6 @@
 		"name": "Spear of the Honored Ancestors",
 		"file": "magicweaponsdisplayad59.html",
 		"sources": [ "Weapon Master's Handbook" ],
-		"cost": 15302,
-		"weight": 6,
 		"description": [
 			"## Spear of the Honored Ancestors",
 			"",
@@ -4862,8 +4400,6 @@
 		"name": "Closing Offer",
 		"file": "magicweaponsdisplay24ab.html",
 		"sources": [ "Agents of Evil" ],
-		"cost": 15310,
-		"weight": 2,
 		"description": [
 			"## Closing Offer",
 			"",
@@ -4883,8 +4419,6 @@
 		"name": "Riddling Khopesh",
 		"file": "magicweaponsdisplay49ed.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"cost": 15320,
-		"weight": 8,
 		"description": [
 			"## Riddling Khopesh",
 			"",
@@ -4904,8 +4438,6 @@
 		"name": "Serpentseeker Bow",
 		"file": "magicweaponsdisplay2835.html",
 		"sources": [ "Mystery Monsters Revisited" ],
-		"cost": 15330,
-		"weight": 2,
 		"description": [
 			"## Serpentseeker Bow",
 			"",
@@ -4925,8 +4457,6 @@
 		"name": "Lizardmarked Blade",
 		"file": "magicweaponsdisplayd1a6.html",
 		"sources": [ "Magical Marketplace" ],
-		"cost": 15715,
-		"weight": 3,
 		"description": [
 			"## Lizardmarked Blade",
 			"",
@@ -4946,14 +4476,11 @@
 	},
 	"mace_of_smiting_lesser": {
 		"name": "Mace of Smiting (lesser)",
-		"searchable_name": "lesser Mace of Smiting",
 		"file": "magicweaponsdisplay4573.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 16012,
-		"weight": 8,
 		"description": [
 			"## Mace of Smiting",
 			"",
@@ -4976,11 +4503,8 @@
 	},
 	"tsuruhashi,_the_silent_crane": {
 		"name": "Tsuruhashi, the Silent Crane",
-		"searchable_name": "Tsuruhashi the Silent Crane",
 		"file": "magicweaponsdisplay3dfb.html",
 		"sources": [ "Pathfinder #54: The Empty Throne" ],
-		"cost": 16101,
-		"weight": 1,
 		"description": [
 			"## Tsuruhashi, the Silent Crane",
 			"",
@@ -5003,8 +4527,6 @@
 		"name": "Dagger of Black Sands",
 		"file": "magicweaponsdisplaybf3b.html",
 		"sources": [ "Merchant's Manifest" ],
-		"cost": 16302,
-		"weight": 1,
 		"description": [
 			"## Dagger of Black Sands",
 			"",
@@ -5024,9 +4546,6 @@
 		"name": "Shard of Cocytus",
 		"file": "magicweaponsdisplay6d31.html",
 		"sources": [ "Planar Adventures" ],
-		"cost": 16302,
-		"slot": "weapon",
-		"weight": 1,
 		"description": [
 			"## Shard of Cocytus",
 			"",
@@ -5046,8 +4565,6 @@
 		"name": "Rimeblade",
 		"file": "magicweaponsdisplaye5db.html",
 		"sources": [ "Pathfinder #70: The Frozen Stars" ],
-		"cost": 16955,
-		"weight": 4,
 		"description": [
 			"## Rimeblade",
 			"",
@@ -5071,8 +4588,6 @@
 		"name": "Grasp of Torment",
 		"file": "magicweaponsdisplay77a0.html",
 		"sources": [ "Book of the Damned" ],
-		"cost": 17025,
-		"weight": 10,
 		"description": [
 			"## Grasp of Torment",
 			"",
@@ -5092,8 +4607,6 @@
 		"name": "Hero's Blade",
 		"file": "magicweaponsdisplay310e.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"cost": 17315,
-		"weight": 4,
 		"description": [
 			"## Hero's Blade",
 			"",
@@ -5113,8 +4626,6 @@
 		"name": "Disarming Blade",
 		"file": "magicweaponsdisplayb7a8.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 17820,
-		"weight": 2,
 		"description": [
 			"## Disarming Blade",
 			"",
@@ -5134,8 +4645,6 @@
 		"name": "Sacrificial Sword",
 		"file": "magicweaponsdisplay2de5.html",
 		"sources": [ "Magical Marketplace" ],
-		"cost": 18235,
-		"weight": 4,
 		"description": [
 			"## Sacrificial Sword",
 			"",
@@ -5155,8 +4664,6 @@
 		"name": "Hangman's Noose",
 		"file": "magicweaponsdisplayd568.html",
 		"sources": [ "Horror Adventures" ],
-		"cost": 18301,
-		"weight": 2,
 		"description": [
 			"## Hangman's Noose",
 			"",
@@ -5180,8 +4687,6 @@
 		"name": "Arachnid's Fang",
 		"file": "magicweaponsdisplayc41b.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
-		"cost": 18302,
-		"weight": 1,
 		"description": [
 			"## Arachnid's Fang",
 			"",
@@ -5201,8 +4706,6 @@
 		"name": "Lash of the Howler",
 		"file": "magicweaponsdisplayf5e4.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 18305,
-		"weight": 3,
 		"description": [
 			"## Lash of the Howler",
 			"",
@@ -5222,8 +4725,6 @@
 		"name": "Tigress's Strand",
 		"file": "magicweaponsdisplay59b9.html",
 		"sources": [ "Lost Treasures" ],
-		"cost": 18305,
-		"weight": 3,
 		"description": [
 			"## Tigress's Strand",
 			"",
@@ -5243,8 +4744,6 @@
 		"name": "Doppelganger's Sword",
 		"file": "magicweaponsdisplayd5c8.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
-		"cost": 18310,
-		"weight": 2,
 		"description": [
 			"## Doppelganger's Sword",
 			"",
@@ -5267,8 +4766,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 18310,
-		"weight": 10,
 		"description": [
 			"## Shieldsplitter Lance",
 			"",
@@ -5288,8 +4785,6 @@
 		"name": "Mage's Crossbow",
 		"file": "magicweaponsdisplay5a71.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"cost": 18335,
-		"weight": 4,
 		"description": [
 			"## Mage's Crossbow",
 			"",
@@ -5309,8 +4804,6 @@
 		"name": "Zul",
 		"file": "magicweaponsdisplay405e.html",
 		"sources": [ "Pathfinder #56: Raiders of the Fever Sea" ],
-		"cost": 18395,
-		"weight": 4,
 		"description": [
 			"## Zul",
 			"",
@@ -5332,8 +4825,6 @@
 		"name": "Fleshwarped Scorpion's Tail",
 		"file": "magicweaponsdisplay29ae.html",
 		"sources": [ "Magical Marketplace" ],
-		"cost": 18505,
-		"weight": 3,
 		"description": [
 			"## Fleshwarped Scorpion's Tail",
 			"",
@@ -5355,8 +4846,6 @@
 		"name": "Golem Gauntlet",
 		"file": "magicweaponsdisplay5516.html",
 		"sources": [ "Blood of the Ancients" ],
-		"cost": 18505,
-		"weight": 5,
 		"description": [
 			"## Golem Gauntlet",
 			"",
@@ -5376,8 +4865,6 @@
 		"name": "Oathtaker",
 		"file": "magicweaponsdisplay8efb.html",
 		"sources": [ "Pathfinder #50: Night of Frozen Shadows" ],
-		"cost": 18540,
-		"weight": 20,
 		"description": [
 			"## Oathtaker",
 			"",
@@ -5397,8 +4884,6 @@
 		"name": "Guns of the Twin Drakes",
 		"file": "magicweaponsdisplay53ee.html",
 		"sources": [ "Antihero's Handbook" ],
-		"cost": 18600,
-		"weight": 8,
 		"description": [
 			"## Guns of the Twin Drakes",
 			"",
@@ -5423,8 +4908,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 18650,
-		"weight": 4,
 		"description": [
 			"## Trident of Fish Command",
 			"",
@@ -5442,11 +4925,8 @@
 	},
 	"treekeeper's_staff_elf": {
 		"name": "Treekeeper's Staff (Elf)",
-		"searchable_name": "Treekeeper's Staff",
 		"file": "magicweaponsdisplayb24e.html",
 		"sources": [ "Inner Sea Races" ],
-		"cost": 18700,
-		"weight": 4,
 		"description": [
 			"## Treekeeper's Staff (Elf)",
 			"",
@@ -5473,8 +4953,6 @@
 		"name": "Steadfast Urumi",
 		"file": "magicweaponsdisplayd79c-2.html",
 		"sources": [ "Inner Sea Combat" ],
-		"cost": 18830,
-		"weight": 6,
 		"description": [
 			"## Steadfast Urumi",
 			"",
@@ -5494,8 +4972,6 @@
 		"name": "Quarterstaff of Vaulting",
 		"file": "magicweaponsdisplay2816.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 19100,
-		"weight": 4,
 		"description": [
 			"## Quarterstaff of Vaulting",
 			"",
@@ -5517,8 +4993,6 @@
 		"name": "Husk Dart",
 		"file": "magicweaponsdisplay8be3.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"cost": 19301,
-		"weight": 0.5,
 		"description": [
 			"## Husk Dart",
 			"",
@@ -5536,11 +5010,8 @@
 	},
 	"dinosaur-killer": {
 		"name": "Dinosaur-Killer",
-		"searchable_name": "Dinosaur Killer",
 		"file": "magicweaponsdisplay7521.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"cost": 19305,
-		"weight": 8,
 		"description": [
 			"## Dinosaur-Killer",
 			"",
@@ -5563,8 +5034,6 @@
 		"name": "Purging Falcata",
 		"file": "magicweaponsdisplay542e.html",
 		"sources": [ "Inner Sea Combat" ],
-		"cost": 19318,
-		"weight": 4,
 		"description": [
 			"## Purging Falcata",
 			"",
@@ -5588,8 +5057,6 @@
 		"name": "Bow of Erastil",
 		"file": "magicweaponsdisplayea21.html",
 		"sources": [ "Mythic Adventures" ],
-		"cost": 19500,
-		"weight": 5,
 		"description": [
 			"## Bow of Erastil",
 			"",
@@ -5609,8 +5076,6 @@
 		"name": "Skirmishing Spear",
 		"file": "magicweaponsdisplay58d1.html",
 		"sources": [ "Mythic Adventures" ],
-		"cost": 19502,
-		"weight": 6,
 		"description": [
 			"## Skirmishing Spear",
 			"",
@@ -5630,8 +5095,6 @@
 		"name": "Talon Sword (normal)",
 		"file": "magicweaponsdisplaycf2f.html",
 		"sources": [ "Andoran, Spirit of Liberty" ],
-		"cost": 19515,
-		"weight": 6,
 		"description": [
 			"## Talon Sword",
 			"",
@@ -5651,8 +5114,6 @@
 		"name": "Harbinger's Scythe",
 		"file": "magicweaponsdisplay6d53.html",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
-		"cost": 19518,
-		"weight": 10,
 		"description": [
 			"## Harbinger's Scythe",
 			"",
@@ -5672,8 +5133,6 @@
 		"name": "Shadowbound Chains",
 		"file": "magicweaponsdisplaye235.html",
 		"sources": [ "Inner Sea Combat" ],
-		"cost": 19725,
-		"weight": 10,
 		"description": [
 			"## Shadowbound Chains",
 			"",
@@ -5695,8 +5154,6 @@
 		"name": "Shieldmarshal's Pistol",
 		"file": "magicweaponsdisplay6b34.html",
 		"sources": [ "Weapon Master's Handbook" ],
-		"cost": 20050,
-		"weight": 5,
 		"description": [
 			"## Shieldmarshal's Pistol",
 			"",
@@ -5716,8 +5173,6 @@
 		"name": "Doubleshot Pepperbox",
 		"file": "magicweaponsdisplay5597.html",
 		"sources": [ "Pathfinder #60: From Hell's Heart" ],
-		"cost": 20300,
-		"weight": 5,
 		"description": [
 			"## Doubleshot Pepperbox",
 			"",
@@ -5737,8 +5192,6 @@
 		"name": "Firedrake Pistol",
 		"file": "magicweaponsdisplay80a4.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 20300,
-		"weight": 4,
 		"description": [
 			"## Firedrake Pistol",
 			"",
@@ -5761,8 +5214,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 20301,
-		"weight": 2,
 		"description": [
 			"## Ricochet Hammer",
 			"",
@@ -5780,11 +5231,8 @@
 	},
 	"shields'_bane_ulfen": {
 		"name": "Shields' Bane (Ulfen)",
-		"searchable_name": "Shields' Bane",
 		"file": "magicweaponsdisplay0c59.html",
 		"sources": [ "Inner Sea Races" ],
-		"cost": 20310,
-		"weight": 6,
 		"description": [
 			"## Shields' Bane (Ulfen)",
 			"",
@@ -5809,8 +5257,6 @@
 		"name": "Valorous Blade",
 		"file": "magicweaponsdisplayba8f.html",
 		"sources": [ "Weapon Master's Handbook" ],
-		"cost": 20315,
-		"weight": 5,
 		"description": [
 			"## Valorous Blade",
 			"",
@@ -5830,8 +5276,6 @@
 		"name": "Crystalline Starknife",
 		"file": "magicweaponsdisplay5800.html",
 		"sources": [ "Pathfinder #64: Beyond the Doomsday Door" ],
-		"cost": 20324,
-		"weight": 2,
 		"description": [
 			"## Crystalline Starknife",
 			"",
@@ -5851,8 +5295,6 @@
 		"name": "Earthcracker",
 		"file": "magicweaponsdisplay3784.html",
 		"sources": [ "Down the Blighted Path" ],
-		"cost": 20340,
-		"weight": 18,
 		"description": [
 			"## Earthcracker",
 			"",
@@ -5870,11 +5312,8 @@
 	},
 	"dueling_bokken_tengu": {
 		"name": "Dueling Bokken (Tengu)",
-		"searchable_name": "Dueling Bokken",
 		"file": "magicweaponsdisplay5940.html",
 		"sources": [ "Inner Sea Races" ],
-		"cost": 20350,
-		"weight": 3,
 		"description": [
 			"## Dueling Bokken (Tengu)",
 			"",
@@ -5899,9 +5338,6 @@
 		"name": "Hellcaller's Edge",
 		"file": "magicweaponsdisplaye053.html",
 		"sources": [ "Cheliax, Empire of Devils" ],
-		"cost": 20350,
-		"slot": "weapon",
-		"weight": 8,
 		"description": [
 			"## Hellcaller's Edge",
 			"",
@@ -5926,8 +5362,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 20715,
-		"weight": 4,
 		"description": [
 			"## Flame Tongue",
 			"",
@@ -5947,8 +5381,6 @@
 		"name": "Scoundrel's Sword Cane",
 		"file": "magicweaponsdisplayb3e3.html",
 		"sources": [ "Pathfinder #58: Island of Empty Eyes" ],
-		"cost": 20925,
-		"weight": 4,
 		"description": [
 			"## Scoundrel's Sword Cane",
 			"",
@@ -5970,8 +5402,6 @@
 		"name": "Arrow Slicer",
 		"file": "magicweaponsdisplay0bfe.html",
 		"sources": [ "Antihero's Handbook" ],
-		"cost": 21310,
-		"weight": 2,
 		"description": [
 			"## Arrow Slicer",
 			"",
@@ -5996,8 +5426,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 21324,
-		"weight": 3,
 		"description": [
 			"## Sparkwake Starknife",
 			"",
@@ -6017,8 +5445,6 @@
 		"name": "Starknife of the Void",
 		"file": "magicweaponsdisplaybe9b.html",
 		"sources": [ "Chronicle of the Righteous" ],
-		"cost": 21324,
-		"weight": 3,
 		"description": [
 			"## Starknife of the Void",
 			"",
@@ -6040,8 +5466,6 @@
 		"name": "Cornerstone Crossbow",
 		"file": "magicweaponsdisplay7083.html",
 		"sources": [ "Heroes of the Streets" ],
-		"cost": 21335,
-		"weight": 9,
 		"description": [
 			"## Cornerstone Crossbow",
 			"",
@@ -6061,8 +5485,6 @@
 		"name": "Bone Bearer's Cutter",
 		"file": "magicweaponsdisplay43b7.html",
 		"sources": [ "Monster Hunter's Handbook" ],
-		"cost": 21802,
-		"weight": 1,
 		"description": [
 			"## Bone Bearer's Cutter",
 			"",
@@ -6085,8 +5507,6 @@
 			"Adventurer's Guide",
 			"Inner Sea Combat"
 		],
-		"cost": 21820,
-		"weight": 3,
 		"description": [
 			"## Rostland Edge",
 			"",
@@ -6109,8 +5529,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 22060,
-		"weight": 2,
 		"description": [
 			"## Luck Blade",
 			"",
@@ -6130,8 +5548,6 @@
 		"name": "Leviathan's Terror",
 		"file": "magicweaponsdisplay99de.html",
 		"sources": [ "Seers of the Drowned City" ],
-		"cost": 22105,
-		"weight": 16,
 		"description": [
 			"## Leviathan's Terror",
 			"",
@@ -6156,8 +5572,6 @@
 			"Rise of the Runelords Anniversary Edition",
 			"Magic of Thassilon"
 		],
-		"cost": 22301,
-		"weight": 1,
 		"description": [
 			"## Sadist's Lash",
 			"",
@@ -6177,8 +5591,6 @@
 		"name": "Rabbit's Blade",
 		"file": "magicweaponsdisplayeba5.html",
 		"sources": [ "The Harrow Handbook" ],
-		"cost": 22307,
-		"weight": 1,
 		"description": [
 			"## Rabbit's Blade",
 			"",
@@ -6201,8 +5613,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 22310,
-		"weight": 2,
 		"description": [
 			"## Sword of Subtlety",
 			"",
@@ -6222,9 +5632,6 @@
 		"name": "Erratic Blade",
 		"file": "magicweaponsdisplay0738.html",
 		"sources": [ "Planar Adventures" ],
-		"cost": 22315,
-		"slot": "weapon",
-		"weight": 4,
 		"description": [
 			"## Erratic Blade",
 			"",
@@ -6247,8 +5654,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 22315,
-		"weight": 4,
 		"description": [
 			"## Sword of the Planes",
 			"",
@@ -6268,8 +5673,6 @@
 		"name": "Hooked Massacre",
 		"file": "magicweaponsdisplayb854.html",
 		"sources": [ "Horror Adventures" ],
-		"cost": 22325,
-		"weight": 10,
 		"description": [
 			"## Hooked Massacre",
 			"",
@@ -6294,8 +5697,6 @@
 			"Rise of the Runelords Anniversary Edition",
 			"Pathfinder #5: Sins of the Saviors"
 		],
-		"cost": 22375,
-		"weight": 8,
 		"description": [
 			"## Fanged Falchion",
 			"",
@@ -6317,8 +5718,6 @@
 		"name": "Felhart",
 		"file": "magicweaponsdisplayff57.html",
 		"sources": [ "Pathfinder #27: What Lies in Dust" ],
-		"cost": 22375,
-		"weight": 4,
 		"description": [
 			"## Felhart",
 			"",
@@ -6338,11 +5737,8 @@
 	},
 	"knight-captain's_lance": {
 		"name": "Knight-Captain's Lance",
-		"searchable_name": "Knight Captain's Lance",
 		"file": "magicweaponsdisplay7e14.html",
 		"sources": [ "Knights of the Inner Sea" ],
-		"cost": 22710,
-		"weight": 13,
 		"description": [
 			"## Knight-Captain's Lance",
 			"",
@@ -6365,8 +5761,6 @@
 		"name": "Keyhole Stiletto",
 		"file": "magicweaponsdisplay148d.html",
 		"sources": [ "Down the Blighted Path" ],
-		"cost": 23002,
-		"weight": 1,
 		"description": [
 			"## Keyhole Stiletto",
 			"",
@@ -6389,8 +5783,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 23057,
-		"weight": 4,
 		"description": [
 			"## Nine Lives Stealer",
 			"",
@@ -6410,8 +5802,6 @@
 		"name": "Bloodstone Impaler",
 		"file": "magicweaponsdisplay1aab.html",
 		"sources": [ "Giants Revisited" ],
-		"cost": 23302,
-		"weight": 9,
 		"description": [
 			"## Bloodstone Impaler",
 			"",
@@ -6431,9 +5821,6 @@
 		"name": "Goreclaw of Thercerrod",
 		"file": "magicweaponsdisplaybcf0.html",
 		"sources": [ "Pathfinder #34: Blood for Blood" ],
-		"cost": 23305,
-		"slot": "hands",
-		"weight": 1,
 		"description": [
 			"## Goreclaw of Thercerrod",
 			"",
@@ -6458,8 +5845,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 23310,
-		"weight": 6,
 		"description": [
 			"## Undercutting Axe",
 			"",
@@ -6479,8 +5864,6 @@
 		"name": "Sword of Tempests",
 		"file": "magicweaponsdisplayb8d3.html",
 		"sources": [ "Monster Summoner's Handbook" ],
-		"cost": 23315,
-		"weight": 6,
 		"description": [
 			"## Sword of Tempests",
 			"",
@@ -6500,8 +5883,6 @@
 		"name": "Risen Blade",
 		"file": "magicweaponsdisplayed78.html",
 		"sources": [ "Inner Sea Combat" ],
-		"cost": 23320,
-		"weight": 8,
 		"description": [
 			"## Risen Blade",
 			"",
@@ -6528,8 +5909,6 @@
 			"Adventurer's Guide",
 			"Inner Sea Combat"
 		],
-		"cost": 23530,
-		"weight": 3,
 		"description": [
 			"## Monastic Warden",
 			"",
@@ -6551,8 +5930,6 @@
 		"name": "Chupar Pick",
 		"file": "magicweaponsdisplayc408.html",
 		"sources": [ "Mystery Monsters Revisited" ],
-		"cost": 24304,
-		"weight": 3,
 		"description": [
 			"## Chupar Pick",
 			"",
@@ -6572,8 +5949,6 @@
 		"name": "Flaying Halberd",
 		"file": "magicweaponsdisplayed6e.html",
 		"sources": [ "Pathfinder #64: Beyond the Doomsday Door" ],
-		"cost": 24310,
-		"weight": 12,
 		"description": [
 			"## Flaying Halberd",
 			"",
@@ -6591,11 +5966,8 @@
 	},
 	"emerald-eyed_blade": {
 		"name": "Emerald-Eyed Blade",
-		"searchable_name": "Emerald Eyed Blade",
 		"file": "magicweaponsdisplay9a09.html",
 		"sources": [ "Merchant's Manifest" ],
-		"cost": 24315,
-		"weight": 4,
 		"description": [
 			"## Emerald-Eyed Blade",
 			"",
@@ -6618,8 +5990,6 @@
 		"name": "Dagger of a Thousand Bites",
 		"file": "magicweaponsdisplay37f8.html",
 		"sources": [ "Mythic Adventures" ],
-		"cost": 24502,
-		"weight": 0.5,
 		"description": [
 			"## Dagger of a Thousand Bites",
 			"",
@@ -6639,11 +6009,8 @@
 	},
 	"frost-thunder_hammer": {
 		"name": "Frost-Thunder Hammer",
-		"searchable_name": "Frost Thunder Hammer",
 		"file": "magicweaponsdisplay1eb6.html",
 		"sources": [ "Pathfinder #69: Maiden, Mother, Crone" ],
-		"cost": 24524,
-		"weight": 10,
 		"description": [
 			"## Frost-Thunder Hammer",
 			"",
@@ -6668,8 +6035,6 @@
 		"name": "Lady's Spiral",
 		"file": "magicweaponsdisplayde43.html",
 		"sources": [ "Undead Slayer's Handbook" ],
-		"cost": 24621,
-		"weight": 3,
 		"description": [
 			"## Lady's Spiral",
 			"",
@@ -6691,8 +6056,6 @@
 		"name": "Spirit Caller",
 		"file": "magicweaponsdisplay01cf.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 25302,
-		"weight": 2,
 		"description": [
 			"## Spirit Caller",
 			"",
@@ -6712,8 +6075,6 @@
 		"name": "Slaver's Cane",
 		"file": "magicweaponsdisplay3df4.html",
 		"sources": [ "Champions of Balance" ],
-		"cost": 25305,
-		"weight": 4,
 		"description": [
 			"## Slaver's Cane",
 			"",
@@ -6733,8 +6094,6 @@
 		"name": "Dwarfbond Hammer",
 		"file": "magicweaponsdisplay06bc.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 25312,
-		"weight": 5,
 		"description": [
 			"## Dwarfbond Hammer",
 			"",
@@ -6754,8 +6113,6 @@
 		"name": "Screaming Blade",
 		"file": "magicweaponsdisplay794c.html",
 		"sources": [ "Horror Adventures" ],
-		"cost": 25315,
-		"weight": 4,
 		"description": [
 			"## Screaming Blade",
 			"",
@@ -6779,8 +6136,6 @@
 		"name": "Red Crusader's Quill",
 		"file": "magicweaponsdisplayf9bd.html",
 		"sources": [ "Pathfinder #141: Last Watch" ],
-		"cost": 25320,
-		"weight": 2,
 		"description": [
 			"## Red Crusader's Quill",
 			"",
@@ -6805,8 +6160,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 25600,
-		"weight": 3,
 		"description": [
 			"## Oathbow",
 			"",
@@ -6828,8 +6181,6 @@
 		"name": "Frozen Crossbow",
 		"file": "magicweaponsdisplay6183.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"cost": 25700,
-		"weight": 8,
 		"description": [
 			"## Frozen Crossbow",
 			"",
@@ -6852,8 +6203,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 25715,
-		"weight": 4,
 		"description": [
 			"## Sword of Life Stealing",
 			"",
@@ -6873,8 +6222,6 @@
 		"name": "Daikyu of Commanding Presence",
 		"file": "magicweaponsdisplayf075.html",
 		"sources": [ "Pathfinder #53: Tide of Honor" ],
-		"cost": 26000,
-		"weight": 3,
 		"description": [
 			"## Daikyu of Commanding Presence",
 			"",
@@ -6896,8 +6243,6 @@
 		"name": "Shard of Winter",
 		"file": "magicweaponsdisplay2a4f.html",
 		"sources": [ "People of the North" ],
-		"cost": 26302,
-		"weight": 1,
 		"description": [
 			"## Shard of Winter",
 			"",
@@ -6917,8 +6262,6 @@
 		"name": "Density Hammer",
 		"file": "magicweaponsdisplaye4bb.html",
 		"sources": [ "Elemental Master's Handbook" ],
-		"cost": 26340,
-		"weight": 15,
 		"description": [
 			"## Density Hammer",
 			"",
@@ -6938,8 +6281,6 @@
 		"name": "Calistrian Kiss",
 		"file": "magicweaponsdisplayb8f4.html",
 		"sources": [ "Inner Sea Combat" ],
-		"cost": 26380,
-		"weight": 7,
 		"description": [
 			"## Calistrian Kiss",
 			"",
@@ -6961,8 +6302,6 @@
 		"name": "Dakak's Tusks",
 		"file": "magicweaponsdisplay4587.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"cost": 26616,
-		"weight": 13,
 		"description": [
 			"## Dakak's Tusks",
 			"",
@@ -6984,8 +6323,6 @@
 		"name": "Shatterstone Hammer",
 		"file": "magicweaponsdisplay1115.html",
 		"sources": [ "Heroes of the Wild" ],
-		"cost": 26712,
-		"weight": 15,
 		"description": [
 			"## Shatterstone Hammer",
 			"",
@@ -7005,8 +6342,6 @@
 		"name": "Angelfall Bow",
 		"file": "magicweaponsdisplay999a.html",
 		"sources": [ "Daughters of Fury" ],
-		"cost": 26900,
-		"weight": 3,
 		"description": [
 			"## Angelfall Bow",
 			"",
@@ -7030,8 +6365,6 @@
 		"name": "Scimitar of the Striking Wing",
 		"file": "magicweaponsdisplay2f43.html",
 		"sources": [ "Pathfinder #82: Secrets of the Sphinx" ],
-		"cost": 27000,
-		"weight": 4,
 		"description": [
 			"## Scimitar of the Striking Wing",
 			"",
@@ -7049,11 +6382,8 @@
 	},
 	"mount-splitting_pick_dwarf": {
 		"name": "Mount-Splitting Pick (Dwarf)",
-		"searchable_name": "Mount Splitting Pick",
 		"file": "magicweaponsdisplayebef.html",
 		"sources": [ "Inner Sea Races" ],
-		"cost": 28008,
-		"weight": 6,
 		"description": [
 			"## Mount-Splitting Pick (Dwarf)",
 			"",
@@ -7078,8 +6408,6 @@
 		"name": "Rose Knight's Blade",
 		"file": "magicweaponsdisplayda18.html",
 		"sources": [ "Adventurer's Guide" ],
-		"cost": 28015,
-		"weight": 2,
 		"description": [
 			"## Rose Knight's Blade",
 			"",
@@ -7103,8 +6431,6 @@
 		"name": "Marrowcracker",
 		"file": "magicweaponsdisplayd335.html",
 		"sources": [ "Magical Marketplace" ],
-		"cost": 28312,
-		"weight": 5,
 		"description": [
 			"## Marrowcracker",
 			"",
@@ -7124,8 +6450,6 @@
 		"name": "The Thundering Blade of the House of Sugimatu",
 		"file": "magicweaponsdisplay726e.html",
 		"sources": [ "Pathfinder #52: Forest of Spirits" ],
-		"cost": 28415,
-		"weight": 9,
 		"description": [
 			"## The Thundering Blade of the House of Sugimatu",
 			"",
@@ -7149,8 +6473,6 @@
 		"name": "Vaultbow",
 		"file": "magicweaponsdisplay9626.html",
 		"sources": [ "Inner Sea Temples" ],
-		"cost": 28550,
-		"weight": 4,
 		"description": [
 			"## Vaultbow",
 			"",
@@ -7170,11 +6492,8 @@
 	},
 	"nine-fold_spirit_sword": {
 		"name": "Nine-Fold Spirit Sword",
-		"searchable_name": "Nine Fold Spirit Sword",
 		"file": "magicweaponsdisplayc664.html",
 		"sources": [ "Pathfinder #51: The Hungry Storm" ],
-		"cost": 28800,
-		"weight": 4,
 		"description": [
 			"## Nine-Fold Spirit Sword",
 			"",
@@ -7207,8 +6526,6 @@
 		"name": "Net of Snaring",
 		"file": "magicweaponsdisplayed9c.html",
 		"sources": [ "Dragonslayer's Handbook" ],
-		"cost": 28940,
-		"weight": 6,
 		"description": [
 			"## Net of Snaring",
 			"",
@@ -7228,8 +6545,6 @@
 		"name": "Tenacious Atlatl Dart",
 		"file": "magicweaponsdisplayc489.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"cost": 29101,
-		"weight": 2,
 		"description": [
 			"## Tenacious Atlatl Dart",
 			"",
@@ -7249,8 +6564,6 @@
 		"name": "Crowcaller",
 		"file": "magicweaponsdisplay1c9f.html",
 		"sources": [ "Faction Guide" ],
-		"cost": 29110,
-		"weight": 10,
 		"description": [
 			"## Crowcaller",
 			"",
@@ -7270,8 +6583,6 @@
 		"name": "Dragonmaw Nunchaku",
 		"file": "magicweaponsdisplaye176.html",
 		"sources": [ "Pathfinder #53: Tide of Honor" ],
-		"cost": 29902,
-		"weight": 2,
 		"description": [
 			"## Dragonmaw Nunchaku",
 			"",
@@ -7293,8 +6604,6 @@
 		"name": "Hearthhammer",
 		"file": "magicweaponsdisplay96da.html",
 		"sources": [ "Tombs of Golarion" ],
-		"cost": 30000,
-		"weight": 10,
 		"description": [
 			"## Hearthhammer",
 			"",
@@ -7314,9 +6623,6 @@
 		"name": "Gauntlets of Skill at Arms",
 		"file": "magicweaponsdisplay4fe1.html",
 		"sources": [ "Advanced Race Guide" ],
-		"cost": 30302,
-		"slot": "hands",
-		"weight": 1,
 		"description": [
 			"## Gauntlets of Skill at Arms",
 			"",
@@ -7336,8 +6642,6 @@
 		"name": "Devil Catcher",
 		"file": "magicweaponsdisplaybf16.html",
 		"sources": [ "Adventurer's Guide" ],
-		"cost": 30320,
-		"weight": 6,
 		"description": [
 			"## Devil Catcher",
 			"",
@@ -7357,8 +6661,6 @@
 		"name": "Rapier of Battlefield Movement",
 		"file": "magicweaponsdisplay74ad.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 30320,
-		"weight": 2,
 		"description": [
 			"## Rapier of Battlefield Movement",
 			"",
@@ -7378,8 +6680,6 @@
 		"name": "Wandering Punishment",
 		"file": "magicweaponsdisplay83ee.html",
 		"sources": [ "Martial Arts Handbook" ],
-		"cost": 30320,
-		"weight": 10,
 		"description": [
 			"## Wandering Punishment",
 			"",
@@ -7401,8 +6701,6 @@
 		"name": "Starbow",
 		"file": "magicweaponsdisplay3d65.html",
 		"sources": [ "Pathfinder #75: Demon's Heresy" ],
-		"cost": 30400,
-		"weight": 3,
 		"description": [
 			"## Starbow",
 			"",
@@ -7422,8 +6720,6 @@
 		"name": "Pale Maiden (0 wishes)",
 		"file": "magicweaponsdisplayb7fb.html",
 		"sources": [ "Lost Treasures" ],
-		"cost": 32065,
-		"weight": 4,
 		"description": [
 			"## Pale Maiden",
 			"",
@@ -7441,11 +6737,8 @@
 	},
 	"mokele-mbembe_tail_whip": {
 		"name": "Mokele-Mbembe Tail Whip",
-		"searchable_name": "Mokele Mbembe Tail Whip",
 		"file": "magicweaponsdisplay8017.html",
 		"sources": [ "Mystery Monsters Revisited" ],
-		"cost": 32301,
-		"weight": 2,
 		"description": [
 			"## Mokele-Mbembe Tail Whip",
 			"",
@@ -7468,8 +6761,6 @@
 		"name": "Blade of the Ice Stalker",
 		"file": "magicweaponsdisplay1014.html",
 		"sources": [ "Seers of the Drowned City" ],
-		"cost": 32310,
-		"weight": 2,
 		"description": [
 			"## Blade of the Ice Stalker",
 			"",
@@ -7489,8 +6780,6 @@
 		"name": "Dragon's Tail",
 		"file": "magicweaponsdisplay9ef6.html",
 		"sources": [ "Dragonslayer's Handbook" ],
-		"cost": 32310,
-		"weight": 12,
 		"description": [
 			"## Dragon's Tail",
 			"",
@@ -7513,8 +6802,6 @@
 			"Adventurer's Guide",
 			"People of the North"
 		],
-		"cost": 32310,
-		"weight": 10,
 		"description": [
 			"## Mammoth Lance",
 			"",
@@ -7534,11 +6821,8 @@
 	},
 	"serpent-necked_flail": {
 		"name": "Serpent-Necked Flail",
-		"searchable_name": "Serpent Necked Flail",
 		"file": "magicweaponsdisplay1a73.html",
 		"sources": [ "Monster Codex" ],
-		"cost": 32315,
-		"weight": 10,
 		"description": [
 			"## Serpent-Necked Flail",
 			"",
@@ -7559,11 +6843,8 @@
 	},
 	"gentleman's_foil_taldan": {
 		"name": "Gentleman's Foil (Taldan)",
-		"searchable_name": "Gentleman's Foil",
 		"file": "magicweaponsdisplay77fd.html",
 		"sources": [ "Inner Sea Races" ],
-		"cost": 32320,
-		"weight": 2,
 		"description": [
 			"## Gentleman's Foil (Taldan)",
 			"",
@@ -7588,8 +6869,6 @@
 		"name": "Sword of Vengeance",
 		"file": "magicweaponsdisplay3890.html",
 		"sources": [ "Chronicle of the Righteous" ],
-		"cost": 32350,
-		"weight": 8,
 		"description": [
 			"## Sword of Vengeance",
 			"",
@@ -7609,8 +6888,6 @@
 		"name": "Crossbow of Retribution",
 		"file": "magicweaponsdisplay3a73.html",
 		"sources": [ "Pathfinder #60: From Hell's Heart" ],
-		"cost": 32700,
-		"weight": 12,
 		"description": [
 			"## Crossbow of Retribution",
 			"",
@@ -7630,8 +6907,6 @@
 		"name": "Murderer's Machete",
 		"file": "magicweaponsdisplayac21.html",
 		"sources": [ "Horror Adventures" ],
-		"cost": 32870,
-		"weight": 3,
 		"description": [
 			"## Murderer's Machete",
 			"",
@@ -7653,8 +6928,6 @@
 		"name": "Fire Goddess's Blade",
 		"file": "magicweaponsdisplaycddf.html",
 		"sources": [ "Mythic Adventures" ],
-		"cost": 33315,
-		"weight": 4,
 		"description": [
 			"## Fire Goddess's Blade",
 			"",
@@ -7676,8 +6949,6 @@
 		"name": "Maxim of Suppressive Fire",
 		"file": "magicweaponsdisplay1e59.html",
 		"sources": [ "Pathfinder #71: Rasputin Must Die!" ],
-		"cost": 33800,
-		"weight": 140,
 		"description": [
 			"## Maxim of Suppressive Fire",
 			"",
@@ -7697,8 +6968,6 @@
 		"name": "Talonstrike Sword",
 		"file": "magicweaponsdisplay8893.html",
 		"sources": [ "Adventurer's Guide" ],
-		"cost": 33835,
-		"weight": 3,
 		"description": [
 			"## Talonstrike Sword",
 			"",
@@ -7718,8 +6987,6 @@
 		"name": "Cutthroat's Apprentice",
 		"file": "magicweaponsdisplayddd4.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 33910,
-		"weight": 2,
 		"description": [
 			"## Cutthroat's Apprentice",
 			"",
@@ -7739,8 +7006,6 @@
 		"name": "Wolflord's Fang",
 		"file": "magicweaponsdisplayf536.html",
 		"sources": [ "Seers of the Drowned City" ],
-		"cost": 34335,
-		"weight": 6,
 		"description": [
 			"## Wolflord's Fang",
 			"",
@@ -7762,8 +7027,6 @@
 		"name": "Quarterstaff of Contemplation",
 		"file": "magicweaponsdisplay5a89.html",
 		"sources": [ "Inner Sea Combat" ],
-		"cost": 34800,
-		"weight": 4,
 		"description": [
 			"## Quarterstaff of Contemplation",
 			"",
@@ -7785,8 +7048,6 @@
 		"name": "Withershot",
 		"file": "magicweaponsdisplay0d08.html",
 		"sources": [ "Agents of Evil" ],
-		"cost": 34800,
-		"weight": 9,
 		"description": [
 			"## Withershot",
 			"",
@@ -7804,11 +7065,8 @@
 	},
 	"errani_kamaki_gillmen": {
 		"name": "Errani Kamaki (Gillmen)",
-		"searchable_name": "Errani Kamaki",
 		"file": "magicweaponsdisplayd3ce.html",
 		"sources": [ "Inner Sea Races" ],
-		"cost": 35005,
-		"weight": 16,
 		"description": [
 			"## Errani Kamaki (Gillmen)",
 			"",
@@ -7831,11 +7089,8 @@
 	},
 	"hunter's_mambele_mwangi": {
 		"name": "Hunter's Mambele (Mwangi)",
-		"searchable_name": "Hunter's Mambele",
 		"file": "magicweaponsdisplaye6ae.html",
 		"sources": [ "Inner Sea Races" ],
-		"cost": 35304,
-		"weight": 3,
 		"description": [
 			"## Hunter's Mambele (Mwangi)",
 			"",
@@ -7860,8 +7115,6 @@
 		"name": "Ghoul's Lament",
 		"file": "magicweaponsdisplay0188.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 35312,
-		"weight": 5,
 		"description": [
 			"## Ghoul's Lament",
 			"",
@@ -7879,11 +7132,8 @@
 	},
 	"scalerazor_azlanti": {
 		"name": "Scalerazor (Azlanti)",
-		"searchable_name": "Scalerazor",
 		"file": "magicweaponsdisplayf4ac.html",
 		"sources": [ "Inner Sea Races" ],
-		"cost": 35315,
-		"weight": 4,
 		"description": [
 			"## Scalerazor (Azlanti)",
 			"",
@@ -7908,8 +7158,6 @@
 		"name": "Duelist's Comate",
 		"file": "magicweaponsdisplay0b52.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 35320,
-		"weight": 2,
 		"description": [
 			"## Duelist's Comate",
 			"",
@@ -7929,8 +7177,6 @@
 		"name": "Enervative Shadowcraft Weapon",
 		"file": "magicweaponsdisplay002d.html",
 		"sources": [ "Blood of Shadows" ],
-		"cost": 36000,
-		"weight": 0,
 		"description": [
 			"## Enervative Shadowcraft Weapon",
 			"",
@@ -7950,8 +7196,6 @@
 		"name": "Mind's Eye Blade",
 		"file": "magicweaponsdisplay74d6.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"cost": 36302,
-		"weight": 1,
 		"description": [
 			"## Mind's Eye Blade",
 			"",
@@ -7973,8 +7217,6 @@
 		"name": "Channeler's Aspergillum",
 		"file": "magicweaponsdisplayd55c.html",
 		"sources": [ "Magical Marketplace" ],
-		"cost": 36305,
-		"weight": 4,
 		"description": [
 			"## Channeler's Aspergillum",
 			"",
@@ -7998,8 +7240,6 @@
 		"name": "Avalanche Sling Staff",
 		"file": "magicweaponsdisplay317c.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"cost": 36320,
-		"weight": 3,
 		"description": [
 			"## Avalanche Sling Staff",
 			"",
@@ -8019,8 +7259,6 @@
 		"name": "Hunter's Starknife",
 		"file": "magicweaponsdisplay6289-2.html",
 		"sources": [ "Inner Sea Combat" ],
-		"cost": 36324,
-		"weight": 3,
 		"description": [
 			"## Hunter's Starknife",
 			"",
@@ -8040,8 +7278,6 @@
 		"name": "Seraphic Pistol",
 		"file": "magicweaponsdisplayb9dd.html",
 		"sources": [ "Champions of Purity" ],
-		"cost": 37550,
-		"weight": 5,
 		"description": [
 			"## Seraphic Pistol",
 			"",
@@ -8061,8 +7297,6 @@
 		"name": "Brutal Axe",
 		"file": "magicweaponsdisplay91bf.html",
 		"sources": [ "Mythic Adventures" ],
-		"cost": 38000,
-		"weight": 12,
 		"description": [
 			"## Brutal Axe",
 			"",
@@ -8084,8 +7318,6 @@
 		"name": "Savage Sting",
 		"file": "magicweaponsdisplay9777.html",
 		"sources": [ "Pathfinder #39: The City of Seven Spears" ],
-		"cost": 38302,
-		"weight": 1,
 		"description": [
 			"## Savage Sting",
 			"",
@@ -8105,8 +7337,6 @@
 		"name": "Chaos Hammer",
 		"file": "magicweaponsdisplay6f86.html",
 		"sources": [ "Mythic Adventures" ],
-		"cost": 38312,
-		"weight": 10,
 		"description": [
 			"## Chaos Hammer",
 			"",
@@ -8126,8 +7356,6 @@
 		"name": "Silent Sentry Crossbow",
 		"file": "magicweaponsdisplay8143.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"cost": 38335,
-		"weight": 2,
 		"description": [
 			"## Silent Sentry Crossbow",
 			"",
@@ -8149,8 +7377,6 @@
 		"name": "Banshee's Howl",
 		"file": "magicweaponsdisplay7dd4.html",
 		"sources": [ "Adventurer's Guide" ],
-		"cost": 38480,
-		"weight": 2,
 		"description": [
 			"## Banshee's Howl",
 			"",
@@ -8177,8 +7403,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 38552,
-		"weight": 8,
 		"description": [
 			"## Mace of Terror",
 			"",
@@ -8198,7 +7422,6 @@
 		"name": "Talon Sword (talonstrike)",
 		"file": "magicweaponsdisplaybcff.html",
 		"sources": [ "Andoran, Spirit of Liberty" ],
-		"cost": 38715,
 		"copyof": "talon_sword_normal",
 		"display": "magic/weapon"
 	},
@@ -8206,8 +7429,6 @@
 		"name": "Hellscourge",
 		"file": "magicweaponsdisplayed1b.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 39305,
-		"weight": 3,
 		"description": [
 			"## Hellscourge",
 			"",
@@ -8229,8 +7450,6 @@
 		"name": "Ice Fang",
 		"file": "magicweaponsdisplayf6f2.html",
 		"sources": [ "Down the Blighted Path" ],
-		"cost": 39515,
-		"weight": 2,
 		"description": [
 			"## Ice Fang",
 			"",
@@ -8252,8 +7471,6 @@
 		"name": "Dragon's Doom",
 		"file": "magicweaponsdisplayef8d.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 40310,
-		"weight": 12,
 		"description": [
 			"## Dragon's Doom",
 			"",
@@ -8273,8 +7490,6 @@
 		"name": "Frostblood Axe",
 		"file": "magicweaponsdisplay36a5.html",
 		"sources": [ "Monster Codex" ],
-		"cost": 40310,
-		"weight": 6,
 		"description": [
 			"## Frostblood Axe",
 			"",
@@ -8297,8 +7512,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 40320,
-		"weight": 12,
 		"description": [
 			"## Life Drinker",
 			"",
@@ -8320,8 +7533,6 @@
 		"name": "Trailwalker",
 		"file": "magicweaponsdisplay3fd1.html",
 		"sources": [ "Lost Treasures" ],
-		"cost": 40372,
-		"weight": 2,
 		"description": [
 			"## Trailwalker",
 			"",
@@ -8343,8 +7554,6 @@
 		"name": "Valor's Minion",
 		"file": "magicweaponsdisplay5022.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 41335,
-		"weight": 6,
 		"description": [
 			"## Valor's Minion",
 			"",
@@ -8364,8 +7573,6 @@
 		"name": "Shade Bow",
 		"file": "magicweaponsdisplayfa4c.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
-		"cost": 41535,
-		"weight": 4,
 		"description": [
 			"## Shade Bow",
 			"",
@@ -8385,8 +7592,6 @@
 		"name": "Infecting Spike",
 		"file": "magicweaponsdisplay6bee.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"cost": 42350,
-		"weight": 2,
 		"description": [
 			"## Infecting Spike",
 			"",
@@ -8410,8 +7615,6 @@
 		"name": "Staff of the Hooded Cobra",
 		"file": "magicweaponsdisplay879f.html",
 		"sources": [ "Pathfinder #84: Pyramid of the Sky Pharaoh" ],
-		"cost": 42400,
-		"weight": 2,
 		"description": [
 			"## Staff of the Hooded Cobra",
 			"",
@@ -8431,8 +7634,6 @@
 		"name": "Summoner's Sorrow",
 		"file": "magicweaponsdisplay5a58.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 42816,
-		"weight": 10,
 		"description": [
 			"## Summoner's Sorrow",
 			"",
@@ -8454,8 +7655,6 @@
 		"name": "Jackal's Blade",
 		"file": "magicweaponsdisplay7caa.html",
 		"sources": [ "Pathfinder Comics #12" ],
-		"cost": 43375,
-		"weight": 7,
 		"description": [
 			"## Jackal's Blade",
 			"",
@@ -8475,8 +7674,6 @@
 		"name": "Feast of Rats",
 		"file": "magicweaponsdisplayec39.html",
 		"sources": [ "Blood of Shadows" ],
-		"cost": 45125,
-		"weight": 0,
 		"description": [
 			"## Feast of Rats",
 			"",
@@ -8498,8 +7695,6 @@
 		"name": "Axe of Forced Life",
 		"file": "magicweaponsdisplayff74.html",
 		"sources": [ "Undead Slayer's Handbook" ],
-		"cost": 45310,
-		"weight": 6,
 		"description": [
 			"## Axe of Forced Life",
 			"",
@@ -8521,8 +7716,6 @@
 		"name": "Crusader's Longsword",
 		"file": "magicweaponsdisplayacc9.html",
 		"sources": [ "Weapon Master's Handbook" ],
-		"cost": 47315,
-		"weight": 4,
 		"description": [
 			"## Crusader's Longsword",
 			"",
@@ -8545,8 +7738,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 47315,
-		"weight": 4,
 		"description": [
 			"## Sylvan Scimitar",
 			"",
@@ -8569,8 +7760,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 48502,
-		"weight": 1,
 		"description": [
 			"## Spirit Blade",
 			"",
@@ -8590,8 +7779,6 @@
 		"name": "Chada's Harpoon",
 		"file": "magicweaponsdisplay0a5d.html",
 		"sources": [ "Pathfinder #34: Blood for Blood" ],
-		"cost": 50302,
-		"weight": 2,
 		"description": [
 			"## Chada's Harpoon",
 			"",
@@ -8613,8 +7800,6 @@
 		"name": "Heartswood Spear",
 		"file": "magicweaponsdisplay8ed7.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 50302,
-		"weight": 6,
 		"description": [
 			"## Heartswood Spear",
 			"",
@@ -8637,8 +7822,6 @@
 			"Dirty Tactics Toolbox",
 			"Lost Treasures"
 		],
-		"cost": 50302,
-		"weight": 1,
 		"description": [
 			"## Traitor's Blade",
 			"",
@@ -8658,8 +7841,6 @@
 		"name": "Mace of Keys",
 		"file": "magicweaponsdisplay555c.html",
 		"sources": [ "Inner Sea Temples" ],
-		"cost": 50312,
-		"weight": 8,
 		"description": [
 			"## Mace of Keys",
 			"",
@@ -8679,10 +7860,8 @@
 	},
 	"leng_flail_greater": {
 		"name": "Leng Flail (greater)",
-		"searchable_name": "greater Leng Flail",
 		"file": "magicweaponsdisplay4b1d.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"cost": 50315,
 		"copyof": "leng_flail_lesser",
 		"display": "magic/weapon"
 	},
@@ -8696,8 +7875,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 50320,
-		"weight": 2,
 		"description": [
 			"## Rapier of Puncturing",
 			"",
@@ -8720,8 +7897,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 50335,
-		"weight": 2,
 		"description": [
 			"## Sun Blade",
 			"",
@@ -8743,11 +7918,8 @@
 	},
 	"storval's_thunder_shoanti": {
 		"name": "Storval's Thunder (Shoanti)",
-		"searchable_name": "Storval's Thunder",
 		"file": "magicweaponsdisplayf6e3.html",
 		"sources": [ "Inner Sea Races" ],
-		"cost": 50340,
-		"weight": 14,
 		"description": [
 			"## Storval's Thunder (Shoanti)",
 			"",
@@ -8770,11 +7942,8 @@
 	},
 	"true_warrior's_blade_kellid": {
 		"name": "True Warrior's Blade (Kellid)",
-		"searchable_name": "True Warrior's Blade",
 		"file": "magicweaponsdisplay47be.html",
 		"sources": [ "Inner Sea Races" ],
-		"cost": 50350,
-		"weight": 8,
 		"description": [
 			"## True Warrior's Blade (Kellid)",
 			"",
@@ -8799,8 +7968,6 @@
 		"name": "Dragonbreath Bow",
 		"file": "magicweaponsdisplaya10a.html",
 		"sources": [ "Mythic Adventures" ],
-		"cost": 50375,
-		"weight": 3,
 		"description": [
 			"## Dragonbreath Bow",
 			"",
@@ -8820,8 +7987,6 @@
 		"name": "Enervating Pistol",
 		"file": "magicweaponsdisplay6d47.html",
 		"sources": [ "Pathfinder #60: From Hell's Heart" ],
-		"cost": 51300,
-		"weight": 4,
 		"description": [
 			"## Enervating Pistol",
 			"",
@@ -8841,8 +8006,6 @@
 		"name": "Blade of the Rising Sun",
 		"file": "magicweaponsdisplay3c8f.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 51850,
-		"weight": 6,
 		"description": [
 			"## Blade of the Rising Sun",
 			"",
@@ -8866,8 +8029,6 @@
 		"name": "Rotcarver",
 		"file": "magicweaponsdisplay63b5.html",
 		"sources": [ "Lost Kingdoms" ],
-		"cost": 52118,
-		"weight": 10,
 		"description": [
 			"## Rotcarver",
 			"",
@@ -8885,11 +8046,8 @@
 	},
 	"rythius,_the_kyton_scourge": {
 		"name": "Rythius, the Kyton Scourge",
-		"searchable_name": "Rythius the Kyton Scourge",
 		"file": "magicweaponsdisplaya524.html",
 		"sources": [ "Champions of Purity" ],
-		"cost": 53000,
-		"weight": 2,
 		"description": [
 			"## Rythius, the Kyton Scourge",
 			"",
@@ -8914,8 +8072,6 @@
 		"name": "Farspear",
 		"file": "magicweaponsdisplay272f.html",
 		"sources": [ "Heroes from the Fringe" ],
-		"cost": 53801,
-		"weight": 3,
 		"description": [
 			"## Farspear",
 			"",
@@ -8935,8 +8091,6 @@
 		"name": "Windreader's Bow",
 		"file": "magicweaponsdisplay7071.html",
 		"sources": [ "Weapon Master's Handbook" ],
-		"cost": 54400,
-		"weight": 3,
 		"description": [
 			"## Windreader's Bow",
 			"",
@@ -8959,8 +8113,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 54475,
-		"weight": 8,
 		"description": [
 			"## Frost Brand",
 			"",
@@ -8982,8 +8134,6 @@
 		"name": "Stalker's Crossbow",
 		"file": "magicweaponsdisplayd029.html",
 		"sources": [ "Pathfinder #76: The Midnight Isles" ],
-		"cost": 54735,
-		"weight": 4,
 		"description": [
 			"## Stalker's Crossbow",
 			"",
@@ -9003,8 +8153,6 @@
 		"name": "Pactseeker's Blade",
 		"file": "magicweaponsdisplay3466.html",
 		"sources": [ "Blood of the Coven" ],
-		"cost": 55330,
-		"weight": 4,
 		"description": [
 			"## Pactseeker's Blade",
 			"",
@@ -9024,8 +8172,6 @@
 		"name": "Snakebite",
 		"file": "magicweaponsdisplayd4bc.html",
 		"sources": [ "Agents of Evil" ],
-		"cost": 57320,
-		"weight": 2,
 		"description": [
 			"## Snakebite",
 			"",
@@ -9045,8 +8191,6 @@
 		"name": "Talmandor Blade",
 		"file": "magicweaponsdisplayb3bf.html",
 		"sources": [ "Lost Treasures" ],
-		"cost": 58615,
-		"weight": 2,
 		"description": [
 			"## Talmandor Blade",
 			"",
@@ -9066,8 +8210,6 @@
 		"name": "Depth Charger",
 		"file": "magicweaponsdisplay0153.html",
 		"sources": [ "Down the Blighted Path" ],
-		"cost": 58800,
-		"weight": 3,
 		"description": [
 			"## Depth Charger",
 			"",
@@ -9089,8 +8231,6 @@
 		"name": "Thorn Bow",
 		"file": "magicweaponsdisplay545a.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"cost": 59700,
-		"weight": 8,
 		"description": [
 			"## Thorn Bow",
 			"",
@@ -9110,8 +8250,6 @@
 		"name": "Torment of the Midnight Lord",
 		"file": "magicweaponsdisplay73d0.html",
 		"sources": [ "Blood of Shadows" ],
-		"cost": 60000,
-		"weight": 0,
 		"description": [
 			"## Torment of the Midnight Lord",
 			"",
@@ -9133,8 +8271,6 @@
 		"name": "Hateful Sting",
 		"file": "magicweaponsdisplaydeb0.html",
 		"sources": [ "Inner Sea Temples" ],
-		"cost": 60302,
-		"weight": 1,
 		"description": [
 			"## Hateful Sting",
 			"",
@@ -9157,8 +8293,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 60312,
-		"weight": 5,
 		"description": [
 			"## Dwarven Thrower",
 			"",
@@ -9176,11 +8310,8 @@
 	},
 	"clever_sling_staff_halfling": {
 		"name": "Clever Sling Staff (Halfling)",
-		"searchable_name": "Clever Sling Staff",
 		"file": "magicweaponsdisplay2595.html",
 		"sources": [ "Inner Sea Races" ],
-		"cost": 60320,
-		"weight": 3,
 		"description": [
 			"## Clever Sling Staff (Halfling)",
 			"",
@@ -9205,8 +8336,6 @@
 		"name": "Bloodthirst Dagger",
 		"file": "magicweaponsdisplay413e.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 60802,
-		"weight": 1,
 		"description": [
 			"## Bloodthirst Dagger",
 			"",
@@ -9228,8 +8357,6 @@
 		"name": "Earth Breaker of Righted Injustice",
 		"file": "magicweaponsdisplay61d3.html",
 		"sources": [ "Inner Sea Combat" ],
-		"cost": 61340,
-		"weight": 14,
 		"description": [
 			"## Earth Breaker of Righted Injustice",
 			"",
@@ -9249,8 +8376,6 @@
 		"name": "Warbringer",
 		"file": "magicweaponsdisplayb524.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 61375,
-		"weight": 8,
 		"description": [
 			"## Warbringer",
 			"",
@@ -9270,8 +8395,6 @@
 		"name": "Skulking Sniper's Blowgun",
 		"file": "magicweaponsdisplay6a5b.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"cost": 62302,
-		"weight": 1,
 		"description": [
 			"## Skulking Sniper's Blowgun",
 			"",
@@ -9294,7 +8417,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 62360,
 		"copyof": "luck_blade_0_wishes",
 		"display": "magic/weapon"
 	},
@@ -9302,8 +8424,6 @@
 		"name": "Hourglass Quarterstaff",
 		"file": "magicweaponsdisplayf99a.html",
 		"sources": [ "Melee Tactics Toolbox" ],
-		"cost": 63300,
-		"weight": 4,
 		"description": [
 			"## Hourglass Quarterstaff",
 			"",
@@ -9323,8 +8443,6 @@
 		"name": "Blancher",
 		"file": "magicweaponsdisplayc1d5.html",
 		"sources": [ "Pathfinder #76: The Midnight Isles" ],
-		"cost": 63312,
-		"weight": 25,
 		"description": [
 			"## Blancher",
 			"",
@@ -9344,8 +8462,6 @@
 		"name": "Molvenn",
 		"file": "magicweaponsdisplay4b64.html",
 		"sources": [ "Pathfinder #34: Blood for Blood" ],
-		"cost": 63312,
-		"weight": 5,
 		"description": [
 			"## Molv&euml;nn",
 			"",
@@ -9370,8 +8486,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 65310,
-		"weight": 2,
 		"description": [
 			"## Guarding Blade",
 			"",
@@ -9394,8 +8508,6 @@
 			"Adventurer's Guide",
 			"Inner Sea Combat"
 		],
-		"cost": 65575,
-		"weight": 2,
 		"description": [
 			"## Crimson Bluff",
 			"",
@@ -9417,8 +8529,6 @@
 		"name": "Devil's Key",
 		"file": "magicweaponsdisplay8755.html",
 		"sources": [ "Champions of Purity" ],
-		"cost": 66750,
-		"weight": 5,
 		"description": [
 			"## Devil's Key",
 			"",
@@ -9436,11 +8546,8 @@
 	},
 	"karusetsu,_the_cutting_light": {
 		"name": "Karusetsu, the Cutting Light",
-		"searchable_name": "Karusetsu the Cutting Light",
 		"file": "magicweaponsdisplay2a87-2.html",
 		"sources": [ "Pathfinder #54: The Empty Throne" ],
-		"cost": 67500,
-		"weight": 8,
 		"description": [
 			"## Karusetsu, the Cutting Light",
 			"",
@@ -9463,9 +8570,6 @@
 		"name": "Seaspike",
 		"file": "magicweaponsdisplaydd37.html",
 		"sources": [ "Pathfinder #124: City in the Deep" ],
-		"cost": 70338,
-		"slot": "weapon",
-		"weight": 3,
 		"description": [
 			"## Seaspike",
 			"",
@@ -9491,8 +8595,6 @@
 		"name": "Spellbreaker",
 		"file": "magicweaponsdisplay7d96.html",
 		"sources": [ "Mythic Adventures" ],
-		"cost": 71600,
-		"weight": 4,
 		"description": [
 			"## Spellbreaker",
 			"",
@@ -9512,7 +8614,6 @@
 		"name": "Pale Maiden (1 wish)",
 		"file": "magicweaponsdisplayabfa.html",
 		"sources": [ "Lost Treasures" ],
-		"cost": 72365,
 		"copyof": "pale_maiden_0_wishes",
 		"display": "magic/weapon"
 	},
@@ -9520,8 +8621,6 @@
 		"name": "Pistol of the Infinite Sky",
 		"file": "magicweaponsdisplayf0c0.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 73300,
-		"weight": 4,
 		"description": [
 			"## Pistol of the Infinite Sky",
 			"",
@@ -9541,8 +8640,6 @@
 		"name": "Executioner's Hand",
 		"file": "magicweaponsdisplayaf51.html",
 		"sources": [ "Classic Treasures Revisited" ],
-		"cost": 75000,
-		"weight": 8,
 		"description": [
 			"## Executioner's Hand",
 			"",
@@ -9565,7 +8662,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 75312,
 		"copyof": "mace_of_smiting_lesser",
 		"display": "magic/weapon"
 	},
@@ -9573,8 +8669,6 @@
 		"name": "Spiteful Scimitar",
 		"file": "magicweaponsdisplaydebd.html",
 		"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
-		"cost": 75315,
-		"weight": 4,
 		"description": [
 			"## Spiteful Scimitar",
 			"",
@@ -9592,11 +8686,8 @@
 	},
 	"blade_of_the_sword-saint": {
 		"name": "Blade of the Sword-Saint",
-		"searchable_name": "Blade of the Sword Saint",
 		"file": "magicweaponsdisplay435d.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 75350,
-		"weight": 6,
 		"description": [
 			"## Blade of the Sword-Saint",
 			"",
@@ -9621,8 +8712,6 @@
 		"name": "Scimitar of the Spellthief",
 		"file": "magicweaponsdisplay56f5.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 75815,
-		"weight": 4,
 		"description": [
 			"## Scimitar of the Spellthief",
 			"",
@@ -9640,11 +8729,8 @@
 	},
 	"murderer's_machete,_greater": {
 		"name": "Murderer's Machete, Greater",
-		"searchable_name": "Greater Murderer's Machete",
 		"file": "magicweaponsdisplay2a6e.html",
 		"sources": [ "Horror Adventures" ],
-		"cost": 78310,
-		"weight": 3,
 		"description": [
 			"## Murderer's Machete, Greater",
 			"",
@@ -9667,8 +8753,6 @@
 		"name": "Spider's Fang",
 		"file": "magicweaponsdisplay31b8.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 79102,
-		"weight": 1,
 		"description": [
 			"## Spider's Fang",
 			"",
@@ -9688,8 +8772,6 @@
 		"name": "Hammer of Seismic Assault",
 		"file": "magicweaponsdisplaya607.html",
 		"sources": [ "Pathfinder #120: Vault of the Onyx Citadel" ],
-		"cost": 80000,
-		"weight": 5,
 		"description": [
 			"## Hammer of Seismic Assault",
 			"",
@@ -9709,8 +8791,6 @@
 		"name": "Reaver's Scythe",
 		"file": "magicweaponsdisplaydecb.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"cost": 80318,
-		"weight": 10,
 		"description": [
 			"## Reaver's Scythe",
 			"",
@@ -9730,8 +8810,6 @@
 		"name": "Cerebrum Drill",
 		"file": "magicweaponsdisplay7635.html",
 		"sources": [ "Pathfinder #126: Beyond the Veiled Past" ],
-		"cost": 82000,
-		"weight": 8,
 		"description": [
 			"## Cerebrum Drill",
 			"",
@@ -9755,8 +8833,6 @@
 		"name": "Shockwave Blunderbuss",
 		"file": "magicweaponsdisplay28b4.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"cost": 87300,
-		"weight": 8,
 		"description": [
 			"## Shockwave Blunderbuss",
 			"",
@@ -9779,8 +8855,6 @@
 			"Undead Unleashed",
 			"Lands of the Linnorm Kings"
 		],
-		"cost": 90000,
-		"weight": 8,
 		"description": [
 			"## Rixbrand",
 			"",
@@ -9802,11 +8876,8 @@
 	},
 	"ikarikurusai,_the_raging_cyclone": {
 		"name": "Ikarikurusai, the Raging Cyclone",
-		"searchable_name": "Ikarikurusai the Raging Cyclone",
 		"file": "magicweaponsdisplaydda0.html",
 		"sources": [ "Pathfinder #54: The Empty Throne" ],
-		"cost": 90308,
-		"weight": 3,
 		"description": [
 			"## Ikarikurusai, the Raging Cyclone",
 			"",
@@ -9829,8 +8900,6 @@
 		"name": "Boneshaking Cleaver",
 		"file": "magicweaponsdisplayeea2.html",
 		"sources": [ "Horror Adventures" ],
-		"cost": 90320,
-		"weight": 12,
 		"description": [
 			"## Boneshaking Cleaver",
 			"",
@@ -9850,8 +8919,6 @@
 		"name": "Iron Lash",
 		"file": "magicweaponsdisplay80dc.html",
 		"sources": [ "The Moonscar" ],
-		"cost": 90335,
-		"weight": 6,
 		"description": [
 			"## Iron Lash",
 			"",
@@ -9873,8 +8940,6 @@
 		"name": "Demonsorrow Curve Blade",
 		"file": "magicweaponsdisplay1f8f.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 90469,
-		"weight": 7,
 		"description": [
 			"## Demonsorrow Curve Blade",
 			"",
@@ -9894,8 +8959,6 @@
 		"name": "Void Scythe",
 		"file": "magicweaponsdisplay7fa7.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 95318,
-		"weight": 10,
 		"description": [
 			"## Void Scythe",
 			"",
@@ -9917,8 +8980,6 @@
 		"name": "Shadow Spike",
 		"file": "magicweaponsdisplayefd5.html",
 		"sources": [ "Mythic Adventures" ],
-		"cost": 96600,
-		"weight": 4,
 		"description": [
 			"## Shadow Spike",
 			"",
@@ -9940,8 +9001,6 @@
 		"name": "Gun with No Name",
 		"file": "magicweaponsdisplay4047.html",
 		"sources": [ "Mythic Adventures" ],
-		"cost": 98300,
-		"weight": 5,
 		"description": [
 			"## Gun with No Name",
 			"",
@@ -9961,8 +9020,6 @@
 		"name": "Stormcaller",
 		"file": "magicweaponsdisplay4eba.html",
 		"sources": [ "Mythic Adventures" ],
-		"cost": 98302,
-		"weight": 6,
 		"description": [
 			"## Stormcaller",
 			"",
@@ -9984,8 +9041,6 @@
 		"name": "Labrys of the Stone Idol",
 		"file": "magicweaponsdisplay5381.html",
 		"sources": [ "Pathfinder #72: The Witch Queen's Revenge" ],
-		"cost": 98320,
-		"weight": 36,
 		"description": [
 			"## Labrys of the Stone Idol",
 			"",
@@ -10008,7 +9063,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 102660,
 		"copyof": "luck_blade_0_wishes",
 		"display": "magic/weapon"
 	},
@@ -10016,8 +9070,6 @@
 		"name": "Shadow's Touch",
 		"file": "magicweaponsdisplay012f.html",
 		"sources": [ "Mythic Adventures" ],
-		"cost": 102962,
-		"weight": 0.5,
 		"description": [
 			"## Shadow's Touch",
 			"",
@@ -10039,8 +9091,6 @@
 		"name": "Trident of the Storm Captain",
 		"file": "magicweaponsdisplayb132.html",
 		"sources": [ "Blood of the Moon" ],
-		"cost": 109665,
-		"weight": 4,
 		"description": [
 			"## Trident of the Storm Captain",
 			"",
@@ -10062,7 +9112,6 @@
 		"name": "Pale Maiden (2 wishes)",
 		"file": "magicweaponsdisplaya223.html",
 		"sources": [ "Lost Treasures" ],
-		"cost": 112665,
 		"copyof": "pale_maiden_0_wishes",
 		"display": "magic/weapon"
 	},
@@ -10070,9 +9119,6 @@
 		"name": "Master's Lash",
 		"file": "magicweaponsdisplay3766.html",
 		"sources": [ "Pathfinder #78: City of Locusts" ],
-		"cost": 120302,
-		"slot": "weapon",
-		"weight": 4,
 		"description": [
 			"## Master's Lash",
 			"",
@@ -10095,8 +9141,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 120630,
-		"weight": 4,
 		"description": [
 			"## Holy Avenger",
 			"",
@@ -10118,8 +9162,6 @@
 		"name": "Bastard's Sting",
 		"file": "magicweaponsdisplayf5d4.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 123035,
-		"weight": 6,
 		"description": [
 			"## Bastard's Sting",
 			"",
@@ -10141,8 +9183,6 @@
 		"name": "Frostkiss Whip",
 		"file": "magicweaponsdisplay6e57.html",
 		"sources": [ "Classic Treasures Revisited" ],
-		"cost": 128300,
-		"weight": 2,
 		"description": [
 			"## Frostkiss Whip",
 			"",
@@ -10165,7 +9205,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 142960,
 		"copyof": "luck_blade_0_wishes",
 		"display": "magic/weapon"
 	},
@@ -10173,9 +9212,6 @@
 		"name": "Blade of the Willing Martyr",
 		"file": "magicweaponsdisplay5b96.html",
 		"sources": [ "Seekers of Secrets" ],
-		"cost": 150000,
-		"slot": "chest",
-		"weight": 1,
 		"description": [
 			"## Blade of the Willing Martyr",
 			"",
@@ -10199,8 +9235,6 @@
 		"name": "Jorngarl's Harm",
 		"file": "magicweaponsdisplay222a.html",
 		"sources": [ "Classic Treasures Revisited" ],
-		"cost": 150320,
-		"weight": 24,
 		"description": [
 			"## Jorngarl's Harm",
 			"",
@@ -10220,8 +9254,6 @@
 		"name": "Sword of Inner Fire",
 		"file": "magicweaponsdisplayb97a.html",
 		"sources": [ "Mythic Adventures" ],
-		"cost": 151315,
-		"weight": 4,
 		"description": [
 			"## Sword of Inner Fire",
 			"",
@@ -10243,7 +9275,6 @@
 		"name": "Pale Maiden (3 wishes)",
 		"file": "magicweaponsdisplay5e11.html",
 		"sources": [ "Lost Treasures" ],
-		"cost": 152965,
 		"copyof": "pale_maiden_0_wishes",
 		"display": "magic/weapon"
 	},
@@ -10251,8 +9282,6 @@
 		"name": "Ghost Iron Scimitar",
 		"file": "magicweaponsdisplayfb0c.html",
 		"sources": [ "Pathfinder #66: The Dead Heart of Xin" ],
-		"cost": 162315,
-		"weight": 8,
 		"description": [
 			"## Ghost Iron Scimitar",
 			"",
@@ -10274,8 +9303,6 @@
 		"name": "Arrow Splitter",
 		"file": "magicweaponsdisplay936a.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"cost": 180375,
-		"weight": 3,
 		"description": [
 			"## Arrow Splitter",
 			"",
@@ -10295,9 +9322,6 @@
 		"name": "Mournful Razor",
 		"file": "magicweaponsdisplayb575.html",
 		"sources": [ "Pathfinder #78: City of Locusts" ],
-		"cost": 182308,
-		"slot": "weapon",
-		"weight": 1,
 		"description": [
 			"## Mournful Razor",
 			"",
@@ -10317,8 +9341,6 @@
 		"name": "Sirocco Cannon",
 		"file": "magicweaponsdisplaye8ed.html",
 		"sources": [ "Pathfinder #60: From Hell's Heart" ],
-		"cost": 184500,
-		"weight": 0,
 		"description": [
 			"## Sirocco Cannon",
 			"",
@@ -10338,8 +9360,6 @@
 		"name": "Sacred Avenger",
 		"file": "magicweaponsdisplay5bea.html",
 		"sources": [ "Mythic Adventures" ],
-		"cost": 202630,
-		"weight": 4,
 		"description": [
 			"## Sacred Avenger",
 			"",
@@ -10361,9 +9381,6 @@
 		"name": "Scimitar of Deliverance",
 		"file": "magicscalingbd5c.html",
 		"sources": [ "Chronicle of Legends" ],
-		"slot": "none",
-		"scaling": true,
-		"weight": 1,
 		"description": [
 			"## Scimitar of Deliverance",
 			"",
@@ -10392,10 +9409,6 @@
 		"name": "Clarity",
 		"file": "magicintelligentdisplay69b2.html",
 		"sources": [ "Tears at Bitter Manor" ],
-		"cost": 21015,
-		"slot": "none",
-		"intelligent": true,
-		"weight": 4,
 		"description": [
 			"## Clarity",
 			"",
@@ -10422,10 +9435,6 @@
 		"name": "Ukwar",
 		"file": "magicintelligentdisplayf394.html",
 		"sources": [ "Curse of the Crimson Throne" ],
-		"cost": 23335,
-		"slot": "none",
-		"intelligent": true,
-		"weight": 6,
 		"description": [
 			"## Ukwar",
 			"",
@@ -10461,10 +9470,6 @@
 			"Lost Treasures",
 			"Pathfinder #74: Sword of Valor"
 		],
-		"cost": 28715,
-		"slot": "none",
-		"intelligent": true,
-		"weight": 6,
 		"description": [
 			"## Fiendsplitter",
 			"",
@@ -10493,10 +9498,6 @@
 		"name": "Soulshear",
 		"file": "magicintelligentdisplay4116.html",
 		"sources": [ "Pathfinder #74: Sword of Valor" ],
-		"cost": 45508,
-		"slot": "none",
-		"intelligent": true,
-		"weight": 10,
 		"description": [
 			"## Soulshear",
 			"",
@@ -10525,10 +9526,6 @@
 		"name": "Teralindar's Honor",
 		"file": "magicintelligentdisplay5b7d.html",
 		"sources": [ "Pathfinder #113: What Grows Within" ],
-		"cost": 48535,
-		"slot": "none",
-		"intelligent": true,
-		"weight": 6,
 		"description": [
 			"## Teralindar's Honor",
 			"",
@@ -10553,13 +9550,8 @@
 	},
 	"abat-ne,_the_blackstone_mace": {
 		"name": "Abat-Ne, the Blackstone Mace",
-		"searchable_name": "Abat Ne the Blackstone Mace",
 		"file": "magicintelligentdisplay698a.html",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
-		"cost": 51005,
-		"slot": "weapon",
-		"intelligent": true,
-		"weight": 5,
 		"description": [
 			"## Abat-Ne, the Blackstone Mace",
 			"",
@@ -10593,10 +9585,6 @@
 		"name": "Hammer of Enemies",
 		"file": "magicintelligentdisplayf84f.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 54212,
-		"slot": "weapon",
-		"intelligent": true,
-		"weight": 5,
 		"description": [
 			"## Source [Ultimate Equipment pg. 357](source/ultimate_equipment)",
 			"",
@@ -10622,10 +9610,6 @@
 		"name": "Lightning Bow",
 		"file": "magicintelligentdisplayaf39.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 54300,
-		"slot": "none",
-		"intelligent": true,
-		"weight": 3,
 		"description": [
 			"## Source [Ultimate Equipment pg. 358](source/ultimate_equipment)",
 			"",
@@ -10655,10 +9639,6 @@
 		"name": "Draddeth Edge",
 		"file": "magicintelligentdisplay33f5.html",
 		"sources": [ "Lost Treasures" ],
-		"cost": 58312,
-		"slot": "none",
-		"intelligent": true,
-		"weight": 5,
 		"description": [
 			"## Draddeth Edge",
 			"",
@@ -10691,10 +9671,6 @@
 		"name": "Norgir's Ruin",
 		"file": "magicintelligentdisplay6f92.html",
 		"sources": [ "Dungeons of Golarion" ],
-		"cost": 91712,
-		"slot": "weapon",
-		"intelligent": true,
-		"weight": 5,
 		"description": [
 			"## Norgir's Ruin",
 			"",
@@ -10723,10 +9699,6 @@
 		"name": "Skullduster",
 		"file": "magicintelligentdisplay416a.html",
 		"sources": [ "Magical Marketplace" ],
-		"cost": 104508,
-		"slot": "none",
-		"intelligent": true,
-		"weight": 6,
 		"description": [
 			"## Skullduster",
 			"",
@@ -10753,10 +9725,6 @@
 		"name": "Singing Sword",
 		"file": "magicintelligentdisplay46f7.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 165315,
-		"slot": "none",
-		"intelligent": true,
-		"weight": 4,
 		"description": [
 			"## Source [Ultimate Equipment pg. 359](source/ultimate_equipment)",
 			"",
@@ -10783,15 +9751,11 @@
 	},
 	"-2_cursed_sword": {
 		"name": "-2 Cursed Sword",
-		"searchable_name": "Cursed Sword",
 		"file": "magiccurseddisplaya3f6.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"slot": "none",
-		"weight": 4,
-		"cursed": true,
 		"description": [
 			"## Source [Ultimate Equipment pg. 342](source/ultimate_equipment), [PRPG Core Rulebook pg. 543](source/prpg_core_rulebook)",
 			"",
@@ -10815,9 +9779,6 @@
 		"name": "Arrowbreak Bow",
 		"file": "magiccurseddisplayf05d.html",
 		"sources": [ "Ultimate Equipment" ],
-		"slot": "none",
-		"weight": 2,
-		"cursed": true,
 		"description": [
 			"## Source [Ultimate Equipment pg. 342](source/ultimate_equipment)",
 			"",
@@ -10839,9 +9800,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"slot": "none",
-		"weight": 8,
-		"cursed": true,
 		"description": [
 			"## Source [Ultimate Equipment pg. 343](source/ultimate_equipment), [PRPG Core Rulebook pg. 543](source/prpg_core_rulebook)",
 			"",
@@ -10860,9 +9818,6 @@
 		"name": "Biting Battleaxe",
 		"file": "magiccurseddisplay9061.html",
 		"sources": [ "Ultimate Equipment" ],
-		"slot": "none",
-		"weight": 6,
-		"cursed": true,
 		"description": [
 			"## Source [Ultimate Equipment pg. 343](source/ultimate_equipment)",
 			"",
@@ -10881,9 +9836,6 @@
 		"name": "Bloodbite",
 		"file": "magiccurseddisplay5181.html",
 		"sources": [ "Antihero's Handbook" ],
-		"slot": "none",
-		"weight": 8,
-		"cursed": true,
 		"description": [
 			"## Bloodbite",
 			"",
@@ -10906,9 +9858,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"slot": "none",
-		"weight": 2,
-		"cursed": true,
 		"description": [
 			"## Source [Ultimate Equipment pg. 344](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_player's_guide)",
 			"",
@@ -10930,9 +9879,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"slot": "none",
-		"weight": 3,
-		"cursed": true,
 		"description": [
 			"## Source [Ultimate Equipment pg. 345](source/ultimate_equipment), [PRPG Core Rulebook pg. 542](source/prpg_core_rulebook)",
 			"",
@@ -10951,9 +9897,6 @@
 		"name": "Deadflesh Waraxe",
 		"file": "magiccurseddisplayb0b2.html",
 		"sources": [ "Dungeons of Golarion" ],
-		"slot": "none",
-		"weight": 8,
-		"cursed": true,
 		"description": [
 			"## Deadflesh Waraxe",
 			"",
@@ -10973,9 +9916,6 @@
 		"name": "Deadly Returns Throwing Axe",
 		"file": "magiccurseddisplay3208.html",
 		"sources": [ "Ultimate Equipment" ],
-		"slot": "none",
-		"weight": 2,
-		"cursed": true,
 		"description": [
 			"## Source [Ultimate Equipment pg. 345](source/ultimate_equipment)",
 			"",
@@ -10994,9 +9934,6 @@
 		"name": "Heavy Hammer",
 		"file": "magiccurseddisplaydf06.html",
 		"sources": [ "Ultimate Equipment" ],
-		"slot": "none",
-		"weight": 20,
-		"cursed": true,
 		"description": [
 			"## Heavy Hammer",
 			"",
@@ -11019,9 +9956,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"slot": "none",
-		"weight": 8,
-		"cursed": true,
 		"description": [
 			"## Source [Ultimate Equipment pg. 347](source/ultimate_equipment), [PRPG Core Rulebook pg. 541](source/prpg_core_rulebook)",
 			"",
@@ -11040,9 +9974,6 @@
 		"name": "Nearfiring Bow",
 		"file": "magiccurseddisplayd572.html",
 		"sources": [ "Ultimate Equipment" ],
-		"slot": "none",
-		"weight": 2,
-		"cursed": true,
 		"description": [
 			"## Source [Ultimate Equipment pg. 347](source/ultimate_equipment)",
 			"",
@@ -11064,9 +9995,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"slot": "none",
-		"weight": 1,
-		"cursed": true,
 		"description": [
 			"## Net of Snaring",
 			"",
@@ -11086,9 +10014,6 @@
 		"name": "Ornery Pistol",
 		"file": "magiccurseddisplaya2af.html",
 		"sources": [ "Ultimate Equipment" ],
-		"slot": "none",
-		"weight": 4,
-		"cursed": true,
 		"description": [
 			"## Source [Ultimate Equipment pg. 348](source/ultimate_equipment)",
 			"",
@@ -11107,9 +10032,6 @@
 		"name": "Unstable Musket",
 		"file": "magiccurseddisplayc99a.html",
 		"sources": [ "Ultimate Equipment" ],
-		"slot": "none",
-		"weight": 9,
-		"cursed": true,
 		"description": [
 			"## Source [Ultimate Equipment pg. 351](source/ultimate_equipment)",
 			"",
@@ -11128,9 +10050,6 @@
 		"name": "Unwieldy Glaive",
 		"file": "magiccurseddisplay828d.html",
 		"sources": [ "Ultimate Equipment" ],
-		"slot": "none",
-		"weight": 10,
-		"cursed": true,
 		"description": [
 			"## Source [Ultimate Equipment pg. 351](source/ultimate_equipment)",
 			"",

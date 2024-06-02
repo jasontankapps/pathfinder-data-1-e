@@ -1,15 +1,9 @@
 {
 	"_prefix": "magic-set",
-	"_description": [
-		"The following section details some unique items in the world of Golarion that can have specific additional benefits when worn or wielded together. These item sets are collections of thematically aligned equipment whose magical properties can resonate with each other to make the set greater than the sum of its parts. Set bonuses are cumulative; for example, a character who wears four pieces of a set gains the listed benefits for having two, three, and four of the items. If a set modifies a class feature or ability, the wearer must have this class feature or ability to gain this benefit; for example, a character wearing at least three pieces of the Archmage's Vestments must be able to cast 3rd-level spells to gain the additional 3rd-level spell slot.",
-		"",
-		"While some GMs may introduce these set bonuses as a unique reward for players in their campaigns, any character can take the [Collector's Boon](feat/collector's_boon) and [Improved Collector's Boon](feat/improved_collector's_boon) feats to access the benefits of these equipment sets. GMs can also increase the rarity of these items by waiving the requirement of having the Collector's Boon and Improved Collector's Boon feats and instead requiring the set to consist of specific pieces of equipment rather than any item of that type; for example, instead of any greater caster's shield forming a piece of the Archmage's Vestments, perhaps only Old Mage Jatembe's shield, a greater caster's shield crafted and used by the legendary Old Mage Jatembe himself, can be used to complete the set."
-	],
 	"archmage's_vestments": {
 		"name": "Archmage's Vestments",
 		"file": "magicsetsd485.html",
 		"sources": [ "Chronicle of Legends" ],
-		"slot": "multiple",
 		"description": [
 			"## Source [Chronicle of Legends pg. 24](source/chronicle_of_legends)",
 			"",
@@ -39,7 +33,6 @@
 		"name": "Aroden's Array",
 		"file": "magicsetsfa0a.html",
 		"sources": [ "Chronicle of Legends" ],
-		"slot": "multiple",
 		"description": [
 			"## Source [Chronicle of Legends pg. 25](source/chronicle_of_legends)",
 			"",
@@ -69,7 +62,6 @@
 		"name": "Beastmaster's Will",
 		"file": "magicsetsfbc0.html",
 		"sources": [ "Chronicle of Legends" ],
-		"slot": "multiple",
 		"description": [
 			"## Source [Chronicle of Legends pg. 25](source/chronicle_of_legends)",
 			"",
@@ -95,7 +87,6 @@
 		"name": "Besmara's Bounty",
 		"file": "magicsets9ccf.html",
 		"sources": [ "Chronicle of Legends" ],
-		"slot": "multiple",
 		"description": [
 			"## Source [Chronicle of Legends pg. 26](source/chronicle_of_legends)",
 			"",
@@ -125,7 +116,6 @@
 		"name": "Dread Demonic Armor",
 		"file": "magicsets1d71.html",
 		"sources": [ "Chronicle of Legends" ],
-		"slot": "multiple",
 		"description": [
 			"## Source [Chronicle of Legends pg. 26](source/chronicle_of_legends)",
 			"",
@@ -155,7 +145,6 @@
 		"name": "Irori's Meditation",
 		"file": "magicsetse471.html",
 		"sources": [ "Chronicle of Legends" ],
-		"slot": "multiple",
 		"description": [
 			"## Source [Chronicle of Legends pg. 27](source/chronicle_of_legends)",
 			"",
@@ -177,7 +166,6 @@
 		"name": "Pharasma's Command",
 		"file": "magicsets5fd0.html",
 		"sources": [ "Chronicle of Legends" ],
-		"slot": "multiple",
 		"description": [
 			"## Source [Chronicle of Legends pg. 27](source/chronicle_of_legends)",
 			"",
@@ -207,7 +195,6 @@
 		"name": "Urgathoa's Gluttony",
 		"file": "magicsets915d.html",
 		"sources": [ "Chronicle of Legends" ],
-		"slot": "multiple",
 		"description": [
 			"## Source [Chronicle of Legends pg. 27](source/chronicle_of_legends)",
 			"",

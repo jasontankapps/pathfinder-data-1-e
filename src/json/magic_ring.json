@@ -1,4 +1,2021 @@
 {
+	"_table": {
+		"id": "magic rings table",
+		"headers": [
+			"Ring",
+			"Cost",
+			"Weight",
+			"Cursed?"
+		],
+		"types": [
+			null,
+			"gp",
+			"lbs",
+			null
+		],
+		"data": [
+			[
+				"[Dungeon Ring (prisoner's)](magic/ring/dungeon_ring_prisoner's)",
+				250,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ironbound Ring (Minion)](magic/ring/ironbound_ring_minion)",
+				500,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Fool's Malady](magic/ring/fool's_malady)",
+				900,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Kyton Ring](magic/ring/kyton_ring)",
+				1000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Arcane Signets](magic/ring/ring_of_arcane_signets)",
+				1000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Inurement](magic/ring/ring_of_inurement)",
+				1000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of the Faithful Dead](magic/ring/ring_of_the_faithful_dead)",
+				1000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Riverclub Ring](magic/ring/riverclub_ring)",
+				1000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Serene Contortions](magic/ring/ring_of_serene_contortions)",
+				1200,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Dark Life Ring](magic/ring/dark_life_ring)",
+				1250,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Resistance (+1)](magic/ring/ring_of_resistance_+1)",
+				1500,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Deadeye's Spotter Ring](magic/ring/deadeye's_spotter_ring)",
+				1500,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Spell Knowledge (type I)](magic/ring/ring_of_spell_knowledge_type_1)",
+				1500,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Balanced Grip](magic/ring/ring_of_balanced_grip)",
+				1600,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Starlight](magic/ring/ring_of_starlight)",
+				1600,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Protection (+1)](magic/ring/ring_of_protection_+1)",
+				2000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Bloodletting Thimble](magic/ring/bloodletting_thimble)",
+				2000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Lingering Blood Magic](magic/ring/ring_of_lingering_blood_magic)",
+				2000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of the Grasping Grave](magic/ring/ring_of_the_grasping_grave)",
+				2000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Feather Falling](magic/ring/ring_of_feather_falling)",
+				2200,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Climbing](magic/ring/ring_of_climbing)",
+				2500,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Jumping](magic/ring/ring_of_jumping)",
+				2500,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Sustenance](magic/ring/ring_of_sustenance)",
+				2500,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Swimming](magic/ring/ring_of_swimming)",
+				2500,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Droskar's Guiding Ring](magic/ring/droskar's_guiding_ring)",
+				2600,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Natural Attunement (Leshy)](magic/ring/ring_of_natural_attunement_leshy)",
+				2800,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Knight-Inheritor's Ring](magic/ring/knight-inheritor's_ring)",
+				3000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Profane Seal Signet](magic/ring/profane_seal_signet)",
+				3000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Austere Majesty](magic/ring/ring_of_austere_majesty)",
+				3000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Ferocious Action](magic/ring/ring_of_ferocious_action)",
+				3000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Powerful Blood Magic](magic/ring/ring_of_powerful_blood_magic)",
+				3000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Tyrant's Friend](magic/ring/tyrant's_friend)",
+				3000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Eloquence](magic/ring/ring_of_eloquence)",
+				3500,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Stairs and Stars](magic/ring/ring_of_stairs_and_stars)",
+				3820,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Ancestral Blood Magic](magic/ring/ring_of_ancestral_blood_magic)",
+				4000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Counterspells](magic/ring/ring_of_counterspells)",
+				4000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Planar Focus](magic/ring/ring_of_planar_focus)",
+				4000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Seven Lovely Colors](magic/ring/ring_of_seven_lovely_colors)",
+				4000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Saltspray Ring](magic/ring/saltspray_ring)",
+				4500,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Red Hound Ring](magic/ring/red_hound_ring)",
+				4700,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Delayed Doom (1 stone)](magic/ring/ring_of_delayed_doom_1_stone)",
+				5000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Gluttonous Feasting Ring](magic/ring/gluttonous_feasting_ring)",
+				5000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Maniacal Devices](magic/ring/ring_of_maniacal_devices)",
+				5000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Rat Fangs](magic/ring/ring_of_rat_fangs)",
+				5000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Glorious Flame Ring](magic/ring/glorious_flame_ring)",
+				5400,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Vengeful Blood Magic](magic/ring/ring_of_vengeful_blood_magic)",
+				5400,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Resistance (+2)](magic/ring/ring_of_resistance_+2)",
+				6000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Communique Rings](magic/ring/communique_rings)",
+				6000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Far Strike](magic/ring/ring_of_far_strike)",
+				6000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Return](magic/ring/ring_of_return)",
+				6000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Sacred Mistletoe](magic/ring/ring_of_sacred_mistletoe)",
+				6000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Sundering Metals](magic/ring/ring_of_sundering_metals)",
+				6000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Swarming Stabs](magic/ring/ring_of_swarming_stabs)",
+				6000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Spell Knowledge (type II)](magic/ring/ring_of_spell_knowledge_type_2)",
+				6000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Unquenchable Passions](magic/ring/ring_of_unquenchable_passions)",
+				6500,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Grit Mastery](magic/ring/ring_of_grit_mastery)",
+				6840,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Summoning Affinity (Archon)](magic/ring/ring_of_summoning_affinity_archon)",
+				7000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Summoning Affinity (Angel)](magic/ring/ring_of_summoning_affinity_angel)",
+				7200,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Summoning Affinity (Protean)](magic/ring/ring_of_summoning_affinity_protean)",
+				7200,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Summoning Affinity (Kyton)](magic/ring/ring_of_summoning_affinity_kyton)",
+				7300,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Summoning Affinity (Asura)](magic/ring/ring_of_summoning_affinity_asura)",
+				7600,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Summoning Affinity (Psychopomp)](magic/ring/ring_of_summoning_affinity_psychopomp)",
+				7600,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Summoning Affinity (Agathion)](magic/ring/ring_of_summoning_affinity_agathion)",
+				7700,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Culturemeld](magic/ring/ring_of_culturemeld)",
+				7800,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Natural Attunement (Kami)](magic/ring/ring_of_natural_attunement_kami)",
+				7800,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Summoning Affinity (Aeon)](magic/ring/ring_of_summoning_affinity_aeon)",
+				7800,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of the Godless (+1)](magic/ring/ring_of_the_godless_+1)",
+				8000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Protection (+2)](magic/ring/ring_of_protection_+2)",
+				8000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Maintenance Overseer's Ring](magic/ring/maintenance_overseer's_ring)",
+				8000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ironbound Ring (Master)](magic/ring/ironbound_ring_master)",
+				8000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Forcefangs](magic/ring/ring_of_forcefangs)",
+				8000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Heroes](magic/ring/ring_of_heroes)",
+				8000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Mind Shielding](magic/ring/ring_of_mind_shielding)",
+				8000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Strength Sapping](magic/ring/ring_of_strength_sapping)",
+				8000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of the Beast](magic/ring/ring_of_the_beast)",
+				8000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Society Ring](magic/ring/society_ring)",
+				8000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Soultether Ring](magic/ring/soultether_ring)",
+				8000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Summoning Affinity (Inevitable)](magic/ring/ring_of_summoning_affinity_inevitable)",
+				8100,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Band of Toxic Nullification](magic/ring/band_of_toxic_nullification)",
+				8500,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Contract Rings](magic/ring/contract_rings)",
+				8500,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Force Shield](magic/ring/ring_of_force_shield)",
+				8500,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Summoning Affinity (Qlippoth)](magic/ring/ring_of_summoning_affinity_qlippoth)",
+				8600,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of the Ram](magic/ring/ring_of_the_ram)",
+				8600,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Scholar's Ring](magic/ring/scholar's_ring)",
+				8700,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Protected Life](magic/ring/ring_of_protected_life)",
+				9000,
+				1,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Rings of Friend-Finding](magic/ring/rings_of_friend-finding)",
+				9000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Summoning Affinity (Div)](magic/ring/ring_of_summoning_affinity_div)",
+				9100,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Band of Efficacious Death](magic/ring/band_of_efficacious_death)",
+				9250,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Splendorous Ring](magic/ring/splendorous_ring)",
+				9900,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Delayed Doom (2 stones)](magic/ring/ring_of_delayed_doom_2_stones)",
+				10000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Revelation (lesser)](magic/ring/ring_of_revelation_lesser)",
+				10000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Climbing (improved)](magic/ring/ring_of_climbing_improved)",
+				10000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Curing](magic/ring/ring_of_curing)",
+				10000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Foe Focus](magic/ring/ring_of_foe_focus)",
+				10000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Jumping (improved)](magic/ring/ring_of_jumping_improved)",
+				10000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Ki Mastery](magic/ring/ring_of_ki_mastery)",
+				10000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Seven Virtues](magic/ring/ring_of_seven_virtues)",
+				10000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Swimming (improved)](magic/ring/ring_of_swimming_improved)",
+				10000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Summoning Affinity (Daemon)](magic/ring/ring_of_summoning_affinity_daemon)",
+				10600,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Animal Friendship](magic/ring/ring_of_animal_friendship)",
+				10800,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of the Iron Skull](magic/ring/ring_of_the_iron_skull)",
+				10800,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Transposition](magic/ring/ring_of_transposition)",
+				10800,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Holdout Ring](magic/ring/holdout_ring)",
+				11000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Tactical Precision](magic/ring/ring_of_tactical_precision)",
+				11000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of the Sophisticate](magic/ring/ring_of_the_sophisticate)",
+				11000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Decoy Ring](magic/ring/decoy_ring)",
+				12000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Energy Resistance (minor)](magic/ring/ring_of_energy_resistance_minor)",
+				12000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Blood Calling](magic/ring/ring_of_blood_calling)",
+				12000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Craft Magic](magic/ring/ring_of_craft_magic)",
+				1500,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Ectoplasmic Invigoration](magic/ring/ring_of_ectoplasmic_invigoration)",
+				12000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Immolation](magic/ring/ring_of_immolation)",
+				12000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Retreat](magic/ring/ring_of_retreat)",
+				12000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of the Troglodyte](magic/ring/ring_of_the_troglodyte)",
+				12000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Steelhand Circle](magic/ring/steelhand_circle)",
+				12000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Chameleon Power](magic/ring/ring_of_chameleon_power)",
+				12700,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Natural Attunement (Drake)](magic/ring/ring_of_natural_attunement_drake)",
+				12880,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ghost Battling Ring](magic/ring/ghost_battling_ring)",
+				13000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Resistance (+3)](magic/ring/ring_of_resistance_+3)",
+				13500,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Spell Knowledge (type III)](magic/ring/ring_of_spell_knowledge_type_3)",
+				135000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Rulership](magic/ring/ring_of_rulership)",
+				14000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of the Sea Strider](magic/ring/ring_of_the_sea_strider)",
+				14000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Duxotar's Signet](magic/ring/duxotar's_signet)",
+				14500,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Delayed Doom (3 stones)](magic/ring/ring_of_delayed_doom_3_stones)",
+				15000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ophidian Coil](magic/ring/ophidian_coil)",
+				15000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Adept Maneuvers](magic/ring/ring_of_adept_maneuvers)",
+				15000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Resilience](magic/ring/ring_of_resilience)",
+				15000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Retribution](magic/ring/ring_of_retribution)",
+				15000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of the Cacodaemon](magic/ring/ring_of_the_cacodaemon)",
+				15000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Water Walking](magic/ring/ring_of_water_walking)",
+				15000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Scavenger's Ring](magic/ring/scavenger's_ring)",
+				15000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Revelation (greater)](magic/ring/ring_of_revelation_greater)",
+				16000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Heavenly Aegis Ring](magic/ring/heavenly_aegis_ring)",
+				16000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Dungeon Ring (jailer's)](magic/ring/dungeon_ring_jailer's)",
+				16000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Perfect Sizing](magic/ring/ring_of_perfect_sizing)",
+				16000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Sigil of Kraggodan](magic/ring/sigil_of_kraggodan)",
+				16000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Entropy and Order](magic/ring/ring_of_entropy_and_order)",
+				16200,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of the Godless (+2)](magic/ring/ring_of_the_godless_+2)",
+				17000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Protection (+3)](magic/ring/ring_of_protection_+3)",
+				18000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Inner Fortitude (minor)](magic/ring/ring_of_inner_fortitude_minor)",
+				18000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Spell Storing (minor)](magic/ring/ring_of_spell_storing_minor)",
+				18000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Stony Flesh](magic/ring/ring_of_stony_flesh)",
+				18000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Rings of Bondage](magic/ring/rings_of_bondage)",
+				18200,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Energy Shroud](magic/ring/ring_of_energy_shroud)",
+				19500,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Delayed Doom (4 stones)](magic/ring/ring_of_delayed_doom_4_stones)",
+				20000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Nethysian Ring of Minor Spell Storing](magic/ring/nethysian_ring_of_minor_spell_storing)",
+				20000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Arcane Mastery](magic/ring/ring_of_arcane_mastery)",
+				20000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Invisibility](magic/ring/ring_of_invisibility)",
+				20000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Phrenic Prowess](magic/ring/ring_of_phrenic_prowess)",
+				20000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Plagues](magic/ring/ring_of_plagues)",
+				20000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Terrible Cost](magic/ring/ring_of_terrible_cost)",
+				20000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Wizardry (type I)](magic/ring/ring_of_wizardry_type_1)",
+				20000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Mysticism (Type I)](magic/ring/ring_of_mysticism_type_1)",
+				20000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Resistance (+4)](magic/ring/ring_of_resistance_+4)",
+				24000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Revelation (superior)](magic/ring/ring_of_revelation_superior)",
+				24000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Spell Knowledge (type IV)](magic/ring/ring_of_spell_knowledge_type_4)",
+				24000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Delayed Doom (5 stones)](magic/ring/ring_of_delayed_doom_5_stones)",
+				25000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Evasion](magic/ring/ring_of_evasion)",
+				25000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of X-Ray Vision](magic/ring/ring_of_x-ray_vision)",
+				25000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Witness Hunter's Ring](magic/ring/witness_hunter's_ring)",
+				25200,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Swarmwalker's Ring](magic/ring/swarmwalker's_ring)",
+				26000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of the Godless (+3)](magic/ring/ring_of_the_godless_+3)",
+				27000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Blinking](magic/ring/ring_of_blinking)",
+				27000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Energy Resistance (major)](magic/ring/ring_of_energy_resistance_major)",
+				28000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of the Ecclesiarch](magic/ring/ring_of_the_ecclesiarch)",
+				28500,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Delayed Doom (6 stones)](magic/ring/ring_of_delayed_doom_6_stones)",
+				30000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Elemental Ring](magic/ring/elemental_ring)",
+				30000,
+				1,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Planefarer's Band](magic/ring/planefarer's_band)",
+				30000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Transcendent Spells](magic/ring/ring_of_transcendent_spells)",
+				30000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Rings of Alien Geometries](magic/ring/rings_of_alien_geometries)",
+				30000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Resumption](magic/ring/ring_of_resumption)",
+				30800,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Energy Dampening](magic/ring/ring_of_energy_dampening)",
+				31500,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Protection (+4)](magic/ring/ring_of_protection_+4)",
+				32000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Refusal](magic/ring/ring_of_refusal)",
+				32500,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Delayed Doom (7 stones)](magic/ring/ring_of_delayed_doom_7_stones)",
+				35000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Sihedron Ring](magic/ring/sihedron_ring)",
+				35000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Resistance (+5)](magic/ring/ring_of_resistance_+5)",
+				375000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of the Godless (+4)](magic/ring/ring_of_the_godless_+4)",
+				38000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Delayed Doom (8 stones)](magic/ring/ring_of_delayed_doom_8_stones)",
+				40000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Freedom of Movement](magic/ring/ring_of_freedom_of_movement)",
+				40000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Mysticism (Type II)](magic/ring/ring_of_mysticism_type_2)",
+				40000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Wizardry (type II)](magic/ring/ring_of_wizardry_type_2)",
+				40000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Inner Fortitude (major)](magic/ring/ring_of_inner_fortitude_major)",
+				42000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Rings of Bondage, Greater](magic/ring/rings_of_bondage,_greater)",
+				42000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Energy Resistance (greater)](magic/ring/ring_of_energy_resistance_greater)",
+				44000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Delayed Doom (9 stones)](magic/ring/ring_of_delayed_doom_9_stones)",
+				45000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Delayed Doom](magic/ring/ring_of_delayed_doom)",
+				45000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Fear Reflection](magic/ring/ring_of_fear_reflection)",
+				48000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Protection (+5)](magic/ring/ring_of_protection_+5)",
+				50000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of the Godless (+5)](magic/ring/ring_of_the_godless_+5)",
+				50000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Band of Triumph](magic/ring/band_of_triumph)",
+				50000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Friend Shield](magic/ring/ring_of_friend_shield)",
+				50000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Psychic Mastery](magic/ring/ring_of_psychic_mastery)",
+				50000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Shooting Stars](magic/ring/ring_of_shooting_stars)",
+				50000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Spell Storing](magic/ring/ring_of_spell_storing)",
+				50000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Continuation](magic/ring/ring_of_continuation)",
+				56000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Survivor's Ring](magic/ring/survivor's_ring)",
+				56160,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Inner Fortitude (greater)](magic/ring/ring_of_inner_fortitude_greater)",
+				66000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Spiritualist Rings](magic/ring/spiritualist_rings)",
+				70000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Wizardry (type III)](magic/ring/ring_of_wizardry_type_3)",
+				70000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Mysticism (Type III)](magic/ring/ring_of_mysticism_type_3)",
+				70000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Telekinesis](magic/ring/ring_of_telekinesis)",
+				75000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Regeneration](magic/ring/ring_of_regeneration)",
+				90000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Spell Turning](magic/ring/ring_of_spell_turning)",
+				100000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Mysticism (Type IV)](magic/ring/ring_of_mysticism_type_4)",
+				100000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Wizardry (type IV)](magic/ring/ring_of_wizardry_type_4)",
+				100000,
+				null,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of the Shadow Victim](magic/ring/ring_of_the_shadow_victim)",
+				101000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Three Wishes](magic/ring/ring_of_three_wishes)",
+				120000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Djinni Calling](magic/ring/ring_of_djinni_calling)",
+				125000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of the Recalled Soul](magic/ring/ring_of_the_recalled_soul)",
+				150000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of the Hidden Psyche](magic/ring/ring_of_the_hidden_psyche)",
+				160000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Splendid Security](magic/ring/ring_of_splendid_security)",
+				180000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Elemental Command](magic/ring/ring_of_elemental_command)",
+				200000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of Spell Storing (major)](magic/ring/ring_of_spell_storing_major)",
+				200000,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Wary Ring](magic/ring/wary_ring)",
+				14600,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Ring of the Weary Sky](magic/ring/ring_of_the_weary_sky)",
+				14800,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Obsession Ring](magic/ring/obsession_ring)",
+				116500,
+				0,
+				[
+					1,
+					"No"
+				]
+			],
+			[
+				"[Cannibal Ring](magic/ring/cannibal_ring)",
+				null,
+				0,
+				[
+					0,
+					"Yes"
+				]
+			],
+			[
+				"[Chatter Ring](magic/ring/chatter_ring)",
+				null,
+				0,
+				[
+					0,
+					"Yes"
+				]
+			],
+			[
+				"[Ring of Clumsiness](magic/ring/ring_of_clumsiness)",
+				null,
+				0,
+				[
+					0,
+					"Yes"
+				]
+			],
+			[
+				"[Ring of Lifebleed](magic/ring/ring_of_lifebleed)",
+				null,
+				0,
+				[
+					0,
+					"Yes"
+				]
+			],
+			[
+				"[Ring of Spell Devouring](magic/ring/ring_of_spell_devouring)",
+				null,
+				0,
+				[
+					0,
+					"Yes"
+				]
+			],
+			[
+				"[Ring of Truth](magic/ring/ring_of_truth)",
+				null,
+				0,
+				[
+					0,
+					"Yes"
+				]
+			]
+		],
+		"initialColumn": 1,
+		"className": "simple"
+	},
 	"_prefix": "magic-ring",
 	"dungeon_ring_prisoner's": {
 		"name": "Dungeon Ring (prisoner's)",
@@ -7,9 +2024,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 250,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Dungeon Ring",
 			"",
@@ -31,9 +2045,6 @@
 		"name": "Ironbound Ring (Minion)",
 		"file": "magicringsdisplay5d43.html",
 		"sources": [ "Adventurer's Guide" ],
-		"cost": 500,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ironbound Ring",
 			"",
@@ -53,9 +2064,6 @@
 		"name": "Fool's Malady",
 		"file": "magicringsdisplay776a.html",
 		"sources": [ "Villain Codex" ],
-		"cost": 900,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Fool's Malady",
 			"",
@@ -77,9 +2085,6 @@
 		"name": "Kyton Ring",
 		"file": "magicringsdisplay99e3.html",
 		"sources": [ "Horror Adventures" ],
-		"cost": 1000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Kyton Ring",
 			"",
@@ -102,9 +2107,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 1000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Arcane Signets",
 			"",
@@ -124,9 +2126,6 @@
 		"name": "Ring of Inurement",
 		"file": "magicringsdisplay1aef.html",
 		"sources": [ "Ire of the Storm" ],
-		"cost": 1000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Inurement",
 			"",
@@ -146,9 +2145,6 @@
 		"name": "Ring of the Faithful Dead",
 		"file": "magicringsdisplay16ad.html",
 		"sources": [ "Inner Sea Temples" ],
-		"cost": 1000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of the Faithful Dead",
 			"",
@@ -168,9 +2164,6 @@
 		"name": "Riverclub Ring",
 		"file": "magicringsdisplaycb5e.html",
 		"sources": [ "People of the River" ],
-		"cost": 1000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Riverclub Ring",
 			"",
@@ -190,9 +2183,6 @@
 		"name": "Ring of Serene Contortions",
 		"file": "magicringsdisplay8ef3.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 1200,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Serene Contortions",
 			"",
@@ -212,9 +2202,6 @@
 		"name": "Dark Life Ring",
 		"file": "magicringsdisplayd162.html",
 		"sources": [ "Champions of Corruption" ],
-		"cost": 1250,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Dark Life Ring",
 			"",
@@ -234,12 +2221,8 @@
 	},
 	"ring_of_resistance_+1": {
 		"name": "Ring of Resistance (+1)",
-		"searchable_name": "Ring of Resistance 1",
 		"file": "magicringsdisplayf881.html",
 		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
-		"cost": 1500,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Resistance",
 			"",
@@ -262,9 +2245,6 @@
 		"name": "Deadeye's Spotter Ring",
 		"file": "magicringsdisplayfe7e.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 1500,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Deadeye's Spotter Ring",
 			"",
@@ -284,9 +2264,6 @@
 		"name": "Ring of Spell Knowledge (type I)",
 		"file": "magicringsdisplayd764.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 1500,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Spell Knowledge",
 			"",
@@ -310,9 +2287,6 @@
 		"name": "Ring of Balanced Grip",
 		"file": "magicringsdisplayfd5d.html",
 		"sources": [ "Adventurer's Armory 2" ],
-		"cost": 1600,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Balanced Grip",
 			"",
@@ -332,9 +2306,6 @@
 		"name": "Ring of Starlight",
 		"file": "magicringsdisplay4d4d.html",
 		"sources": [ "Merchant's Manifest" ],
-		"cost": 1600,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Starlight",
 			"",
@@ -352,15 +2323,11 @@
 	},
 	"ring_of_protection_+1": {
 		"name": "Ring of Protection (+1)",
-		"searchable_name": "Ring of Protection 1",
 		"file": "magicringsdisplayc981.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 2000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Protection",
 			"",
@@ -386,9 +2353,6 @@
 			"Monster Codex",
 			"Blood of the Night"
 		],
-		"cost": 2000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Bloodletting Thimble",
 			"",
@@ -408,9 +2372,6 @@
 		"name": "Ring of Lingering Blood Magic",
 		"file": "magicringsdisplay3500.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 2000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Lingering Blood Magic",
 			"",
@@ -430,9 +2391,6 @@
 		"name": "Ring of the Grasping Grave",
 		"file": "magicringsdisplay3a3f.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 2000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of the Grasping Grave",
 			"",
@@ -455,9 +2413,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 2200,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Feather Falling",
 			"",
@@ -480,9 +2435,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 2500,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Climbing",
 			"",
@@ -505,9 +2457,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 2500,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Jumping",
 			"",
@@ -530,9 +2479,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 2500,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Sustenance",
 			"",
@@ -555,9 +2501,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 2500,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Swimming",
 			"",
@@ -580,9 +2523,6 @@
 			"Inner Sea Gods",
 			"Gods and Magic"
 		],
-		"cost": 2600,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Droskar's Guiding Ring",
 			"",
@@ -602,9 +2542,6 @@
 		"name": "Ring of Natural Attunement (Leshy)",
 		"file": "magicringsdisplaye2e6.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 2800,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Natural Attunement (Leshy)",
 			"",
@@ -622,15 +2559,11 @@
 	},
 	"knight-inheritor's_ring": {
 		"name": "Knight-Inheritor's Ring",
-		"searchable_name": "Knight Inheritor's Ring",
 		"file": "magicringsdisplay3595.html",
 		"sources": [
 			"Pathfinder #103: The Hellfire Compact",
 			"Inner Sea Gods"
 		],
-		"cost": 3000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Knight-Inheritor's Ring",
 			"",
@@ -653,9 +2586,6 @@
 		"name": "Profane Seal Signet",
 		"file": "magicringsdisplayd6cd.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 3000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Profane Seal Signet",
 			"",
@@ -675,9 +2605,6 @@
 		"name": "Ring of Austere Majesty",
 		"file": "magicringsdisplay558f.html",
 		"sources": [ "Merchant's Manifest" ],
-		"cost": 3000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Austere Majesty",
 			"",
@@ -700,9 +2627,6 @@
 			"Ultimate Equipment",
 			"Advanced Race Guide"
 		],
-		"cost": 3000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Ferocious Action",
 			"",
@@ -722,9 +2646,6 @@
 		"name": "Ring of Powerful Blood Magic",
 		"file": "magicringsdisplaydc45.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 3000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Powerful Blood Magic",
 			"",
@@ -744,9 +2665,6 @@
 		"name": "Tyrant's Friend",
 		"file": "magicringsdisplay3433.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
-		"cost": 3000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Tyrant's Friend",
 			"",
@@ -766,9 +2684,6 @@
 		"name": "Ring of Eloquence",
 		"file": "magicringsdisplay7563.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 3500,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Eloquence",
 			"",
@@ -790,9 +2705,6 @@
 		"name": "Ring of Stairs and Stars",
 		"file": "magicringsdisplay886f.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 3820,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Stairs and Stars",
 			"",
@@ -812,9 +2724,6 @@
 		"name": "Ring of Ancestral Blood Magic",
 		"file": "magicringsdisplay77ad.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 4000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Ancestral Blood Magic",
 			"",
@@ -837,9 +2746,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 4000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Counterspells",
 			"",
@@ -859,9 +2765,6 @@
 		"name": "Ring of Planar Focus",
 		"file": "magicringsdisplaycc22.html",
 		"sources": [ "Planar Adventures" ],
-		"cost": 4000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Planar Focus",
 			"",
@@ -883,9 +2786,6 @@
 		"name": "Ring of Seven Lovely Colors",
 		"file": "magicringsdisplay56fc.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 4000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Seven Lovely Colors",
 			"",
@@ -905,9 +2805,6 @@
 		"name": "Saltspray Ring",
 		"file": "magicringsdisplay1c06.html",
 		"sources": [ "Pathfinder #121: The Lost Outpost" ],
-		"cost": 4500,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Saltspray Ring",
 			"",
@@ -929,9 +2826,6 @@
 		"name": "Red Hound Ring",
 		"file": "magicringsdisplayc2f6.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 4700,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Red Hound Ring",
 			"",
@@ -951,9 +2845,6 @@
 		"name": "Ring of Delayed Doom (1 stone)",
 		"file": "magicringsdisplayb3cf.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"cost": 5000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Delayed Doom",
 			"",
@@ -973,9 +2864,6 @@
 		"name": "Gluttonous Feasting Ring",
 		"file": "magicringsdisplayd565.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 5000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Gluttonous Feasting Ring",
 			"",
@@ -998,9 +2886,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 5000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Maniacal Devices",
 			"",
@@ -1023,9 +2908,6 @@
 			"Ultimate Equipment",
 			"Advanced Race Guide"
 		],
-		"cost": 5000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Rat Fangs",
 			"",
@@ -1045,9 +2927,6 @@
 		"name": "Glorious Flame Ring",
 		"file": "magicringsdisplay4a2a.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 5400,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Glorious Flame Ring",
 			"",
@@ -1069,9 +2948,6 @@
 		"name": "Ring of Vengeful Blood Magic",
 		"file": "magicringsdisplayd8c7.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 5400,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Vengeful Blood Magic",
 			"",
@@ -1089,11 +2965,8 @@
 	},
 	"ring_of_resistance_+2": {
 		"name": "Ring of Resistance (+2)",
-		"searchable_name": "Ring of Resistance 2",
 		"file": "magicringsdisplaya975.html",
 		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
-		"cost": 6000,
-		"slot": "ring",
 		"copyof": "ring_of_resistance_+1",
 		"display": "magic/ring"
 	},
@@ -1104,9 +2977,6 @@
 		"name": "Communique Rings",
 		"file": "magicringsdisplay6ce2.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"cost": 6000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Communique Rings",
 			"",
@@ -1126,9 +2996,6 @@
 		"name": "Ring of Far Strike",
 		"file": "magicringsdisplay4df4.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
-		"cost": 6000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Far Strike",
 			"",
@@ -1151,9 +3018,6 @@
 			"Qadira, Jewel of the East",
 			"Ultimate Equipment"
 		],
-		"cost": 6000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Return",
 			"",
@@ -1173,9 +3037,6 @@
 		"name": "Ring of Sacred Mistletoe",
 		"file": "magicringsdisplay879d.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 6000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Sacred Mistletoe",
 			"",
@@ -1197,9 +3058,6 @@
 		"name": "Ring of Sundering Metals",
 		"file": "magicringsdisplay4f35.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 6000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Sundering Metals",
 			"",
@@ -1222,9 +3080,6 @@
 			"Ultimate Equipment",
 			"Advanced Race Guide"
 		],
-		"cost": 6000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Swarming Stabs",
 			"",
@@ -1244,8 +3099,6 @@
 		"name": "Ring of Spell Knowledge (type II)",
 		"file": "magicringsdisplay8e73.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 6000,
-		"slot": "ring",
 		"copyof": "ring_of_spell_knowledge_type_1",
 		"display": "magic/ring"
 	},
@@ -1253,9 +3106,6 @@
 		"name": "Ring of Unquenchable Passions",
 		"file": "magicringsdisplay2c08.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 6500,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Unquenchable Passions",
 			"",
@@ -1275,9 +3125,6 @@
 		"name": "Ring of Grit Mastery",
 		"file": "magicringsdisplay2f63.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 6840,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Grit Mastery",
 			"",
@@ -1303,9 +3150,6 @@
 		"name": "Ring of Summoning Affinity (Archon)",
 		"file": "magicringsdisplaya682.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 7000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Summoning Affinity (Archon)",
 			"",
@@ -1325,9 +3169,6 @@
 		"name": "Ring of Summoning Affinity (Angel)",
 		"file": "magicringsdisplayc1ed.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 7200,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Summoning Affinity (Angel)",
 			"",
@@ -1347,9 +3188,6 @@
 		"name": "Ring of Summoning Affinity (Protean)",
 		"file": "magicringsdisplayc0b6.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 7200,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Summoning Affinity (Protean)",
 			"",
@@ -1369,9 +3207,6 @@
 		"name": "Ring of Summoning Affinity (Kyton)",
 		"file": "magicringsdisplay7b78.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 7300,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Summoning Affinity (Kyton)",
 			"",
@@ -1391,9 +3226,6 @@
 		"name": "Ring of Summoning Affinity (Asura)",
 		"file": "magicringsdisplay6336.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 7600,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Summoning Affinity (Asura)",
 			"",
@@ -1413,9 +3245,6 @@
 		"name": "Ring of Summoning Affinity (Psychopomp)",
 		"file": "magicringsdisplay5e6f.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 7600,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Summoning Affinity (Psychopomp)",
 			"",
@@ -1435,9 +3264,6 @@
 		"name": "Ring of Summoning Affinity (Agathion)",
 		"file": "magicringsdisplay75f6.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 7700,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Summoning Affinity (Agathion)",
 			"",
@@ -1457,9 +3283,6 @@
 		"name": "Ring of Culturemeld",
 		"file": "magicringsdisplay0a6e.html",
 		"sources": [ "Bastards of Golarion" ],
-		"cost": 7800,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Culturemeld",
 			"",
@@ -1481,9 +3304,6 @@
 		"name": "Ring of Natural Attunement (Kami)",
 		"file": "magicringsdisplay7e84.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 7800,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Natural Attunement (Kami)",
 			"",
@@ -1503,9 +3323,6 @@
 		"name": "Ring of Summoning Affinity (Aeon)",
 		"file": "magicringsdisplayc246.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 7800,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Summoning Affinity (Aeon)",
 			"",
@@ -1523,12 +3340,8 @@
 	},
 	"ring_of_the_godless_+1": {
 		"name": "Ring of the Godless (+1)",
-		"searchable_name": "Ring of the Godless 1",
 		"file": "magicringsdisplayc564.html",
 		"sources": [ "People of the Sands" ],
-		"cost": 8000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of the Godless",
 			"",
@@ -1551,14 +3364,11 @@
 	},
 	"ring_of_protection_+2": {
 		"name": "Ring of Protection (+2)",
-		"searchable_name": "Ring of Protection 2",
 		"file": "magicringsdisplay7f13.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 8000,
-		"slot": "ring",
 		"copyof": "ring_of_protection_+1",
 		"display": "magic/ring"
 	},
@@ -1569,9 +3379,6 @@
 		"name": "Maintenance Overseer's Ring",
 		"file": "magicringsdisplayea83.html",
 		"sources": [ "Heroes of the Streets" ],
-		"cost": 8000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Maintenance Overseer's Ring",
 			"",
@@ -1593,8 +3400,6 @@
 		"name": "Ironbound Ring (Master)",
 		"file": "magicringsdisplayde76.html",
 		"sources": [ "Adventurer's Guide" ],
-		"cost": 8000,
-		"slot": "ring",
 		"copyof": "ironbound_ring_minion",
 		"display": "magic/ring"
 	},
@@ -1605,9 +3410,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 8000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Forcefangs",
 			"",
@@ -1627,9 +3429,6 @@
 		"name": "Ring of Heroes",
 		"file": "magicringsdisplayee59.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"cost": 8000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Heroes",
 			"",
@@ -1652,9 +3451,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 8000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Mind Shielding",
 			"",
@@ -1674,9 +3470,6 @@
 		"name": "Ring of Strength Sapping",
 		"file": "magicringsdisplay1c22.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 8000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Strength Sapping",
 			"",
@@ -1696,9 +3489,6 @@
 		"name": "Ring of the Beast",
 		"file": "magicringsdisplay5b51.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
-		"cost": 8000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of the Beast",
 			"",
@@ -1718,9 +3508,6 @@
 		"name": "Society Ring",
 		"file": "magicringsdisplaye99c.html",
 		"sources": [ "Villain Codex" ],
-		"cost": 8000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Society Ring",
 			"",
@@ -1744,9 +3531,6 @@
 		"name": "Soultether Ring",
 		"file": "magicringsdisplay3c06.html",
 		"sources": [ "Planar Adventures" ],
-		"cost": 8000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Soultether Ring",
 			"",
@@ -1766,9 +3550,6 @@
 		"name": "Ring of Summoning Affinity (Inevitable)",
 		"file": "magicringsdisplaycacb.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 8100,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Summoning Affinity (Inevitable)",
 			"",
@@ -1788,9 +3569,6 @@
 		"name": "Band of Toxic Nullification",
 		"file": "magicringsdisplay8627.html",
 		"sources": [ "Potions and Poisons" ],
-		"cost": 8500,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Band of Toxic Nullification",
 			"",
@@ -1810,9 +3588,6 @@
 		"name": "Contract Rings",
 		"file": "magicringsdisplay90d0.html",
 		"sources": [ "Cohorts and Companions" ],
-		"cost": 8500,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Contract Rings",
 			"",
@@ -1837,9 +3612,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 8500,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Force Shield",
 			"",
@@ -1859,9 +3631,6 @@
 		"name": "Ring of Summoning Affinity (Qlippoth)",
 		"file": "magicringsdisplay89c2.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 8600,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Summoning Affinity (Qlippoth)",
 			"",
@@ -1884,9 +3653,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 8600,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of the Ram",
 			"",
@@ -1910,9 +3676,6 @@
 		"name": "Scholar's Ring",
 		"file": "magicringsdisplaya380.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 8700,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Scholar's Ring",
 			"",
@@ -1934,9 +3697,6 @@
 		"name": "Ring of Protected Life",
 		"file": "magicringsdisplayb613.html",
 		"sources": [ "Undead Slayer's Handbook" ],
-		"cost": 9000,
-		"slot": "ring",
-		"weight": 1,
 		"description": [
 			"## Ring of Protected Life",
 			"",
@@ -1954,12 +3714,8 @@
 	},
 	"rings_of_friend-finding": {
 		"name": "Rings of Friend-Finding",
-		"searchable_name": "Rings of Friend Finding",
 		"file": "magicringsdisplay089d.html",
 		"sources": [ "Cohorts and Companions" ],
-		"cost": 9000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Rings of Friend-Finding",
 			"",
@@ -1982,9 +3738,6 @@
 		"name": "Ring of Summoning Affinity (Div)",
 		"file": "magicringsdisplayb748.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 9100,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Summoning Affinity (Div)",
 			"",
@@ -2004,9 +3757,6 @@
 		"name": "Band of Efficacious Death",
 		"file": "magicringsdisplayf5bd.html",
 		"sources": [ "Potions and Poisons" ],
-		"cost": 9250,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Band of Efficacious Death",
 			"",
@@ -2026,9 +3776,6 @@
 		"name": "Splendorous Ring",
 		"file": "magicringsdisplay12b5.html",
 		"sources": [ "Chronicle of the Righteous" ],
-		"cost": 9900,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Source [Chronicle of the Righteous pg. 53](source/chronicle_of_the_righteous)",
 			"",
@@ -2049,22 +3796,16 @@
 		"name": "Ring of Delayed Doom (2 stones)",
 		"file": "magicringsdisplayab05.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"cost": 10000,
-		"slot": "ring",
 		"copyof": "ring_of_delayed_doom_1_stone",
 		"display": "magic/ring"
 	},
 	"ring_of_revelation_lesser": {
 		"name": "Ring of Revelation (lesser)",
-		"searchable_name": "Lesser Ring of Revelation",
 		"file": "magicringsdisplayd713.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 10000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Revelation",
 			"",
@@ -2087,15 +3828,11 @@
 	},
 	"ring_of_climbing_improved": {
 		"name": "Ring of Climbing (improved)",
-		"searchable_name": "Improved Ring of Climbing",
 		"file": "magicringsdisplayae45.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 10000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Climbing (improved)",
 			"",
@@ -2118,9 +3855,6 @@
 		"name": "Ring of Curing",
 		"file": "magicringsdisplay90f0.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 10000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Curing",
 			"",
@@ -2140,9 +3874,6 @@
 		"name": "Ring of Foe Focus",
 		"file": "magicringsdisplay1202.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 10000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Foe Focus",
 			"",
@@ -2160,15 +3891,11 @@
 	},
 	"ring_of_jumping_improved": {
 		"name": "Ring of Jumping (improved)",
-		"searchable_name": "Improved Ring of Jumping",
 		"file": "magicringsdisplay74e6.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 10000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Jumping (improved)",
 			"",
@@ -2191,9 +3918,6 @@
 		"name": "Ring of Ki Mastery",
 		"file": "magicringsdisplay9a6e.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 10000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Ki Mastery",
 			"",
@@ -2217,9 +3941,6 @@
 		"name": "Ring of Seven Virtues",
 		"file": "magicringsdisplayda81.html",
 		"sources": [ "Pathfinder #39: The City of Seven Spears" ],
-		"cost": 10000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Seven Virtues",
 			"",
@@ -2237,15 +3958,11 @@
 	},
 	"ring_of_swimming_improved": {
 		"name": "Ring of Swimming (improved)",
-		"searchable_name": "Improved Ring of Swimming",
 		"file": "magicringsdisplay1426.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 10000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Swimming (improved)",
 			"",
@@ -2268,9 +3985,6 @@
 		"name": "Ring of Summoning Affinity (Daemon)",
 		"file": "magicringsdisplayde1f.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 10600,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Summoning Affinity (Daemon)",
 			"",
@@ -2293,9 +4007,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 10800,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Animal Friendship",
 			"",
@@ -2315,9 +4026,6 @@
 		"name": "Ring of the Iron Skull",
 		"file": "magicringsdisplayd8ae.html",
 		"sources": [ "Pathfinder #57: Tempest Rising" ],
-		"cost": 10800,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of the Iron Skull",
 			"",
@@ -2337,9 +4045,6 @@
 		"name": "Ring of Transposition",
 		"file": "magicringsdisplay4f2d.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 10800,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Transposition",
 			"",
@@ -2359,9 +4064,6 @@
 		"name": "Holdout Ring",
 		"file": "magicringsdisplayce34.html",
 		"sources": [ "Inner Sea Combat" ],
-		"cost": 11000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Holdout Ring",
 			"",
@@ -2383,9 +4085,6 @@
 		"name": "Ring of Tactical Precision",
 		"file": "magicringsdisplay6ecb.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 11000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Tactical Precision",
 			"",
@@ -2408,9 +4107,6 @@
 			"Ultimate Equipment",
 			"Advanced Race Guide"
 		],
-		"cost": 11000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of the Sophisticate",
 			"",
@@ -2430,9 +4126,6 @@
 		"name": "Decoy Ring",
 		"file": "magicringsdisplaybc78.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 12000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Decoy Ring",
 			"",
@@ -2450,15 +4143,11 @@
 	},
 	"ring_of_energy_resistance_minor": {
 		"name": "Ring of Energy Resistance (minor)",
-		"searchable_name": "Minor Ring of Energy Resistance",
 		"file": "magicringsdisplaye95e.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 12000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Energy Resistance",
 			"",
@@ -2483,9 +4172,6 @@
 		"name": "Ring of Blood Calling",
 		"file": "magicringsdisplay9180.html",
 		"sources": [ "Pathfinder #106: For Queen and Empire" ],
-		"cost": 12000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Blood Calling",
 			"",
@@ -2509,9 +4195,6 @@
 		"name": "Ring of Craft Magic",
 		"file": "magicringsdisplayf881.html",
 		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
-		"cost": 1500,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Resistance",
 			"",
@@ -2531,9 +4214,6 @@
 		"name": "Ring of Ectoplasmic Invigoration",
 		"file": "magicringsdisplay219f.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 12000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Ectoplasmic Invigoration",
 			"",
@@ -2556,9 +4236,6 @@
 			"Curse of the Crimson Throne",
 			"Pathfinder #11: Skeletons of Scarwall"
 		],
-		"cost": 12000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Immolation",
 			"",
@@ -2578,9 +4255,6 @@
 		"name": "Ring of Retreat",
 		"file": "magicringsdisplay26b3.html",
 		"sources": [ "Adventurer's Guide" ],
-		"cost": 12000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Retreat",
 			"",
@@ -2600,9 +4274,6 @@
 		"name": "Ring of the Troglodyte",
 		"file": "magicringsdisplay92f3.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 12000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of the Troglodyte",
 			"",
@@ -2624,9 +4295,6 @@
 		"name": "Steelhand Circle",
 		"file": "magicringsdisplaye6a8.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 12000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Steelhand Circle",
 			"",
@@ -2651,9 +4319,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 12700,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Chameleon Power",
 			"",
@@ -2673,9 +4338,6 @@
 		"name": "Ring of Natural Attunement (Drake)",
 		"file": "magicringsdisplay2a0b.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 12880,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Natural Attunement (Drake)",
 			"",
@@ -2695,9 +4357,6 @@
 		"name": "Ghost Battling Ring",
 		"file": "magicringsdisplay17f1.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 13000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ghost Battling Ring",
 			"",
@@ -2715,11 +4374,8 @@
 	},
 	"ring_of_resistance_+3": {
 		"name": "Ring of Resistance (+3)",
-		"searchable_name": "Ring of Resistance 3",
 		"file": "magicringsdisplay84f0.html",
 		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
-		"cost": 13500,
-		"slot": "ring",
 		"copyof": "ring_of_resistance_+1",
 		"display": "magic/ring"
 	},
@@ -2730,8 +4386,6 @@
 		"name": "Ring of Spell Knowledge (type III)",
 		"file": "magicringsdisplay27cf.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 135000,
-		"slot": "ring",
 		"copyof": "ring_of_spell_knowledge_type_1",
 		"display": "magic/ring"
 	},
@@ -2739,9 +4393,6 @@
 		"name": "Ring of Rulership",
 		"file": "magicringsdisplayff42.html",
 		"sources": [ "Villain Codex" ],
-		"cost": 14000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Rulership",
 			"",
@@ -2765,9 +4416,6 @@
 		"name": "Ring of the Sea Strider",
 		"file": "magicringsdisplay1bf0.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 14000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of the Sea Strider",
 			"",
@@ -2787,9 +4435,6 @@
 		"name": "Duxotar's Signet",
 		"file": "magicringsdisplay5150.html",
 		"sources": [ "Pathfinder #108: Hell Comes to Westcrown" ],
-		"cost": 14500,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Duxotar's Signet",
 			"",
@@ -2809,8 +4454,6 @@
 		"name": "Ring of Delayed Doom (3 stones)",
 		"file": "magicringsdisplayab55.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"cost": 15000,
-		"slot": "ring",
 		"copyof": "ring_of_delayed_doom_1_stone",
 		"display": "magic/ring"
 	},
@@ -2818,9 +4461,6 @@
 		"name": "Ophidian Coil",
 		"file": "magicringsdisplaya0a2.html",
 		"sources": [ "Down the Blighted Path" ],
-		"cost": 15000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ophidian Coil",
 			"",
@@ -2846,9 +4486,6 @@
 		"name": "Ring of Adept Maneuvers",
 		"file": "magicringsdisplaya5dc.html",
 		"sources": [ "Inner Sea Combat" ],
-		"cost": 15000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Adept Maneuvers",
 			"",
@@ -2872,9 +4509,6 @@
 		"name": "Ring of Resilience",
 		"file": "magicringsdisplay76c3.html",
 		"sources": [ "Advanced Class Guide" ],
-		"cost": 15000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Resilience",
 			"",
@@ -2897,9 +4531,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 15000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Retribution",
 			"",
@@ -2919,9 +4550,6 @@
 		"name": "Ring of the Cacodaemon",
 		"file": "magicringsdisplay2236.html",
 		"sources": [ "Book of the Damned" ],
-		"cost": 15000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of the Cacodaemon",
 			"",
@@ -2944,9 +4572,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 15000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Water Walking",
 			"",
@@ -2966,9 +4591,6 @@
 		"name": "Scavenger's Ring",
 		"file": "magicringsdisplay8663.html",
 		"sources": [ "Magical Marketplace" ],
-		"cost": 15000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Scavenger's Ring",
 			"",
@@ -2986,14 +4608,11 @@
 	},
 	"ring_of_revelation_greater": {
 		"name": "Ring of Revelation (greater)",
-		"searchable_name": "Greater Ring of Revelation",
 		"file": "magicringsdisplay48cf.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 16000,
-		"slot": "ring",
 		"copyof": "ring_of_revelation_lesser",
 		"display": "magic/ring"
 	},
@@ -3004,9 +4623,6 @@
 		"name": "Heavenly Aegis Ring",
 		"file": "magicringsdisplay72c7.html",
 		"sources": [ "Horror Adventures" ],
-		"cost": 16000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Heavenly Aegis Ring",
 			"",
@@ -3033,8 +4649,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 16000,
-		"slot": "ring",
 		"copyof": "dungeon_ring_prisoner's",
 		"display": "magic/ring"
 	},
@@ -3042,9 +4656,6 @@
 		"name": "Ring of Perfect Sizing",
 		"file": "magicringsdisplayed1a.html",
 		"sources": [ "Giant Hunter's Handbook" ],
-		"cost": 16000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Perfect Sizing",
 			"",
@@ -3064,9 +4675,6 @@
 		"name": "Sigil of Kraggodan",
 		"file": "magicringsdisplay89f5.html",
 		"sources": [ "Pathfinder #118: Siege of Stone" ],
-		"cost": 16000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Sigil of Kraggodan",
 			"",
@@ -3086,9 +4694,6 @@
 		"name": "Ring of Entropy and Order",
 		"file": "magicringsdisplayb922.html",
 		"sources": [ "Planar Adventures" ],
-		"cost": 16200,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Entropy and Order",
 			"",
@@ -3106,11 +4711,8 @@
 	},
 	"ring_of_the_godless_+2": {
 		"name": "Ring of the Godless (+2)",
-		"searchable_name": "Ring of the Godless 2",
 		"file": "magicringsdisplayc76c.html",
 		"sources": [ "People of the Sands" ],
-		"cost": 17000,
-		"slot": "ring",
 		"copyof": "ring_of_the_godless_+1",
 		"display": "magic/ring"
 	},
@@ -3119,14 +4721,11 @@
 	},
 	"ring_of_protection_+3": {
 		"name": "Ring of Protection (+3)",
-		"searchable_name": "Ring of Protection 3",
 		"file": "magicringsdisplay4bc3.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 18000,
-		"slot": "ring",
 		"copyof": "ring_of_protection_+1",
 		"display": "magic/ring"
 	},
@@ -3135,12 +4734,8 @@
 	},
 	"ring_of_inner_fortitude_minor": {
 		"name": "Ring of Inner Fortitude (minor)",
-		"searchable_name": "Minor Ring of Inner Fortitude",
 		"file": "magicringsdisplaydae6.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 18000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Inner Fortitude",
 			"",
@@ -3167,15 +4762,11 @@
 	},
 	"ring_of_spell_storing_minor": {
 		"name": "Ring of Spell Storing (minor)",
-		"searchable_name": "Minor Ring of Spell Storing",
 		"file": "magicringsdisplay59ea.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 18000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Spell Storing (minor)",
 			"",
@@ -3198,9 +4789,6 @@
 		"name": "Ring of Stony Flesh",
 		"file": "magicringsdisplay2d60.html",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
-		"cost": 18000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Stony Flesh",
 			"",
@@ -3220,9 +4808,6 @@
 		"name": "Rings of Bondage",
 		"file": "magicringsdisplayc730.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"cost": 18200,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Rings of Bondage",
 			"",
@@ -3248,9 +4833,6 @@
 		"name": "Ring of Energy Shroud",
 		"file": "magicringsdisplay3d65.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 19500,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Energy Shroud",
 			"",
@@ -3270,8 +4852,6 @@
 		"name": "Ring of Delayed Doom (4 stones)",
 		"file": "magicringsdisplayfda3.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"cost": 20000,
-		"slot": "ring",
 		"copyof": "ring_of_delayed_doom_1_stone",
 		"display": "magic/ring"
 	},
@@ -3279,9 +4859,6 @@
 		"name": "Nethysian Ring of Minor Spell Storing",
 		"file": "magicringsdisplay84a7.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cost": 20000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Nethysian Ring of Minor Spell Storing",
 			"",
@@ -3301,9 +4878,6 @@
 		"name": "Ring of Arcane Mastery",
 		"file": "magicringsdisplay0301.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 20000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Arcane Mastery",
 			"",
@@ -3330,9 +4904,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 20000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Invisibility",
 			"",
@@ -3352,9 +4923,6 @@
 		"name": "Ring of Phrenic Prowess",
 		"file": "magicringsdisplay444f.html",
 		"sources": [ "Psychic Anthology" ],
-		"cost": 20000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Phrenic Prowess",
 			"",
@@ -3378,9 +4946,6 @@
 		"name": "Ring of Plagues",
 		"file": "magicringsdisplayb602.html",
 		"sources": [ "Champions of Corruption" ],
-		"cost": 20000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Plagues",
 			"",
@@ -3402,9 +4967,6 @@
 		"name": "Ring of Terrible Cost",
 		"file": "magicringsdisplayf521.html",
 		"sources": [ "Cheliax, Empire of Devils" ],
-		"cost": 20000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Terrible Cost",
 			"",
@@ -3433,9 +4995,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 20000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Wizardry",
 			"",
@@ -3455,9 +5014,6 @@
 		"name": "Ring of Mysticism (Type I)",
 		"file": "magicringsdisplay19e8.html",
 		"sources": [ "Psychic Anthology" ],
-		"cost": 20000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Mysticism",
 			"",
@@ -3475,11 +5031,8 @@
 	},
 	"ring_of_resistance_+4": {
 		"name": "Ring of Resistance (+4)",
-		"searchable_name": "Ring of Resistance 4",
 		"file": "magicringsdisplay88e2.html",
 		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
-		"cost": 24000,
-		"slot": "ring",
 		"copyof": "ring_of_resistance_+1",
 		"display": "magic/ring"
 	},
@@ -3493,8 +5046,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"cost": 24000,
-		"slot": "ring",
 		"copyof": "ring_of_revelation_lesser",
 		"display": "magic/ring"
 	},
@@ -3502,8 +5053,6 @@
 		"name": "Ring of Spell Knowledge (type IV)",
 		"file": "magicringsdisplay381e.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 24000,
-		"slot": "ring",
 		"copyof": "ring_of_spell_knowledge_type_1",
 		"display": "magic/ring"
 	},
@@ -3511,8 +5060,6 @@
 		"name": "Ring of Delayed Doom (5 stones)",
 		"file": "magicringsdisplayc1fe.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"cost": 25000,
-		"slot": "ring",
 		"copyof": "ring_of_delayed_doom_1_stone",
 		"display": "magic/ring"
 	},
@@ -3523,9 +5070,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 25000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Evasion",
 			"",
@@ -3543,15 +5087,11 @@
 	},
 	"ring_of_x-ray_vision": {
 		"name": "Ring of X-Ray Vision",
-		"searchable_name": "Ring of X Ray Vision",
 		"file": "magicringsdisplay59c5.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 25000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of X-Ray Vision",
 			"",
@@ -3576,9 +5116,6 @@
 		"name": "Witness Hunter's Ring",
 		"file": "magicringsdisplay3b8c.html",
 		"sources": [ "Inner Sea Intrigue" ],
-		"cost": 25200,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Witness Hunter's Ring",
 			"",
@@ -3598,9 +5135,6 @@
 		"name": "Swarmwalker's Ring",
 		"file": "magicringsdisplay4142.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"cost": 26000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Swarmwalker's Ring",
 			"",
@@ -3622,11 +5156,8 @@
 	},
 	"ring_of_the_godless_+3": {
 		"name": "Ring of the Godless (+3)",
-		"searchable_name": "Ring of the Godless 3",
 		"file": "magicringsdisplaydaaa.html",
 		"sources": [ "People of the Sands" ],
-		"cost": 27000,
-		"slot": "ring",
 		"copyof": "ring_of_the_godless_+1",
 		"display": "magic/ring"
 	},
@@ -3640,9 +5171,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 27000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Blinking",
 			"",
@@ -3665,8 +5193,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 28000,
-		"slot": "ring",
 		"copyof": "ring_of_energy_resistance_minor",
 		"display": "magic/ring"
 	},
@@ -3674,9 +5200,6 @@
 		"name": "Ring of the Ecclesiarch",
 		"file": "magicringsdisplayaedb.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 28500,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of the Ecclesiarch",
 			"",
@@ -3698,8 +5221,6 @@
 		"name": "Ring of Delayed Doom (6 stones)",
 		"file": "magicringsdisplay29bb.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"cost": 30000,
-		"slot": "ring",
 		"copyof": "ring_of_delayed_doom_1_stone",
 		"display": "magic/ring"
 	},
@@ -3707,9 +5228,6 @@
 		"name": "Elemental Ring",
 		"file": "magicringsdisplaydc98.html",
 		"sources": [ "Cohorts and Companions" ],
-		"cost": 30000,
-		"slot": "ring",
-		"weight": 1,
 		"description": [
 			"## Elemental Ring",
 			"",
@@ -3731,9 +5249,6 @@
 		"name": "Planefarer's Band",
 		"file": "magicringsdisplayeb51.html",
 		"sources": [ "Planes of Power" ],
-		"cost": 30000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Planefarer's Band",
 			"",
@@ -3761,9 +5276,6 @@
 		"name": "Ring of Transcendent Spells",
 		"file": "magicringsdisplay756f.html",
 		"sources": [ "Mythic Adventures" ],
-		"cost": 30000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Transcendent Spells",
 			"",
@@ -3787,9 +5299,6 @@
 		"name": "Rings of Alien Geometries",
 		"file": "magicringsdisplay854a.html",
 		"sources": [ "Horror Adventures" ],
-		"cost": 30000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Rings of Alien Geometries",
 			"",
@@ -3811,9 +5320,6 @@
 		"name": "Ring of Resumption",
 		"file": "magicringsdisplaya660.html",
 		"sources": [ "Healer's Handbook" ],
-		"cost": 30800,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Resumption",
 			"",
@@ -3835,9 +5341,6 @@
 		"name": "Ring of Energy Dampening",
 		"file": "magicringsdisplay5d09.html",
 		"sources": [ "Mythic Adventures" ],
-		"cost": 31500,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Energy Dampening",
 			"",
@@ -3855,14 +5358,11 @@
 	},
 	"ring_of_protection_+4": {
 		"name": "Ring of Protection (+4)",
-		"searchable_name": "Ring of Protection 4",
 		"file": "magicringsdisplay855e.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 32000,
-		"slot": "ring",
 		"copyof": "ring_of_protection_+1",
 		"display": "magic/ring"
 	},
@@ -3873,9 +5373,6 @@
 		"name": "Ring of Refusal",
 		"file": "magicringsdisplay2fd2.html",
 		"sources": [ "Inner Sea Monster Codex" ],
-		"cost": 32500,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Refusal",
 			"",
@@ -3897,8 +5394,6 @@
 		"name": "Ring of Delayed Doom (7 stones)",
 		"file": "magicringsdisplay344f.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"cost": 35000,
-		"slot": "ring",
 		"copyof": "ring_of_delayed_doom_1_stone",
 		"display": "magic/ring"
 	},
@@ -3909,9 +5404,6 @@
 			"Rise of the Runelords Anniversary Edition",
 			"Pathfinder #6: Spires of Xin-Shalast"
 		],
-		"cost": 35000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Sihedron Ring",
 			"",
@@ -3931,11 +5423,8 @@
 	},
 	"ring_of_resistance_+5": {
 		"name": "Ring of Resistance (+5)",
-		"searchable_name": "Ring of Resistance 5",
 		"file": "magicringsdisplaye74b.html",
 		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
-		"cost": 375000,
-		"slot": "ring",
 		"copyof": "ring_of_resistance_+1",
 		"display": "magic/ring"
 	},
@@ -3944,11 +5433,8 @@
 	},
 	"ring_of_the_godless_+4": {
 		"name": "Ring of the Godless (+4)",
-		"searchable_name": "Ring of the Godless 4",
 		"file": "magicringsdisplay2e44.html",
 		"sources": [ "People of the Sands" ],
-		"cost": 38000,
-		"slot": "ring",
 		"copyof": "ring_of_the_godless_+1",
 		"display": "magic/ring"
 	},
@@ -3959,8 +5445,6 @@
 		"name": "Ring of Delayed Doom (8 stones)",
 		"file": "magicringsdisplay3597.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"cost": 40000,
-		"slot": "ring",
 		"copyof": "ring_of_delayed_doom_1_stone",
 		"display": "magic/ring"
 	},
@@ -3971,9 +5455,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 40000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Freedom of Movement",
 			"",
@@ -3993,8 +5474,6 @@
 		"name": "Ring of Mysticism (Type II)",
 		"file": "magicringsdisplay5a10.html",
 		"sources": [ "Psychic Anthology" ],
-		"cost": 40000,
-		"slot": "ring",
 		"copyof": "ring_of_mysticism_type_1",
 		"display": "magic/ring"
 	},
@@ -4005,8 +5484,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 40000,
-		"slot": "ring",
 		"copyof": "ring_of_wizardry_type_1",
 		"display": "magic/ring"
 	},
@@ -4014,19 +5491,13 @@
 		"name": "Ring of Inner Fortitude (major)",
 		"file": "magicringsdisplay9eab.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 42000,
-		"slot": "ring",
 		"copyof": "ring_of_inner_fortitude_minor",
 		"display": "magic/ring"
 	},
 	"rings_of_bondage,_greater": {
 		"name": "Rings of Bondage, Greater",
-		"searchable_name": "Greater Rings of Bondage",
 		"file": "magicringsdisplay5759.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"cost": 42000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Rings of Bondage, Greater",
 			"",
@@ -4049,14 +5520,11 @@
 	},
 	"ring_of_energy_resistance_greater": {
 		"name": "Ring of Energy Resistance (greater)",
-		"searchable_name": "Greater Ring of Energy Resistance",
 		"file": "magicringsdisplaybd53.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 44000,
-		"slot": "ring",
 		"copyof": "ring_of_energy_resistance_minor",
 		"display": "magic/ring"
 	},
@@ -4067,8 +5535,6 @@
 		"name": "Ring of Delayed Doom (9 stones)",
 		"file": "magicringsdisplay1dd5.html",
 		"sources": [ "Advanced Player's Guide" ],
-		"cost": 45000,
-		"slot": "ring",
 		"copyof": "ring_of_delayed_doom_1_stone",
 		"display": "magic/ring"
 	},
@@ -4076,9 +5542,6 @@
 		"name": "Ring of Delayed Doom",
 		"file": "magicringsdisplay5a0a.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 45000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Delayed Doom",
 			"",
@@ -4098,9 +5561,6 @@
 		"name": "Ring of Fear Reflection",
 		"file": "magicringsdisplaydb46.html",
 		"sources": [ "Dragonslayer's Handbook" ],
-		"cost": 48000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Source [Dragonslayer's Handbook pg. 31](source/dragonslayer's_handbook)",
 			"",
@@ -4121,14 +5581,11 @@
 	},
 	"ring_of_protection_+5": {
 		"name": "Ring of Protection (+5)",
-		"searchable_name": "Ring of Protection 5",
 		"file": "magicringsdisplay6f42.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 50000,
-		"slot": "ring",
 		"copyof": "ring_of_protection_+1",
 		"display": "magic/ring"
 	},
@@ -4137,11 +5594,8 @@
 	},
 	"ring_of_the_godless_+5": {
 		"name": "Ring of the Godless (+5)",
-		"searchable_name": "Ring of the Godless 5",
 		"file": "magicringsdisplay9dbb.html",
 		"sources": [ "People of the Sands" ],
-		"cost": 50000,
-		"slot": "ring",
 		"copyof": "ring_of_the_godless_+1",
 		"display": "magic/ring"
 	},
@@ -4152,9 +5606,6 @@
 		"name": "Band of Triumph",
 		"file": "magicringsdisplay5cb2.html",
 		"sources": [ "Pathfinder #131: The Reaper's Right Hand" ],
-		"cost": 50000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Band of Triumph",
 			"",
@@ -4179,9 +5630,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 50000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Friend Shield",
 			"",
@@ -4201,9 +5649,6 @@
 		"name": "Ring of Psychic Mastery",
 		"file": "magicringsdisplayae3a.html",
 		"sources": [ "Occult Adventures" ],
-		"cost": 50000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Psychic Mastery",
 			"",
@@ -4226,9 +5671,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 50000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Shooting Stars",
 			"",
@@ -4277,9 +5719,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 50000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Spell Storing",
 			"",
@@ -4305,9 +5744,6 @@
 		"name": "Ring of Continuation",
 		"file": "magicringsdisplay82d7.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 56000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Continuation",
 			"",
@@ -4327,9 +5763,6 @@
 		"name": "Survivor's Ring",
 		"file": "magicringsdisplay1bfd.html",
 		"sources": [ "Inner Sea Intrigue" ],
-		"cost": 56160,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Survivor's Ring",
 			"",
@@ -4347,11 +5780,8 @@
 	},
 	"ring_of_inner_fortitude_greater": {
 		"name": "Ring of Inner Fortitude (greater)",
-		"searchable_name": "Greater Ring of Inner Fortitude",
 		"file": "magicringsdisplay0291.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 66000,
-		"slot": "ring",
 		"copyof": "ring_of_inner_fortitude_minor",
 		"display": "magic/ring"
 	},
@@ -4362,9 +5792,6 @@
 		"name": "Spiritualist Rings",
 		"file": "magicringsdisplay9eda.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 70000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Spiritualist Rings",
 			"",
@@ -4392,8 +5819,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 70000,
-		"slot": "ring",
 		"copyof": "ring_of_wizardry_type_1",
 		"display": "magic/ring"
 	},
@@ -4401,8 +5826,6 @@
 		"name": "Ring of Mysticism (Type III)",
 		"file": "magicringsdisplay4975.html",
 		"sources": [ "Psychic Anthology" ],
-		"cost": 70000,
-		"slot": "ring",
 		"copyof": "ring_of_mysticism_type_1",
 		"display": "magic/ring"
 	},
@@ -4413,9 +5836,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 75000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Telekinesis",
 			"",
@@ -4438,9 +5858,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 90000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Regeneration",
 			"",
@@ -4463,9 +5880,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 100000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Spell Turning",
 			"",
@@ -4485,8 +5899,6 @@
 		"name": "Ring of Mysticism (Type IV)",
 		"file": "magicringsdisplayf062.html",
 		"sources": [ "Psychic Anthology" ],
-		"cost": 100000,
-		"slot": "ring",
 		"copyof": "ring_of_mysticism_type_1",
 		"display": "magic/ring"
 	},
@@ -4497,8 +5909,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 100000,
-		"slot": "ring",
 		"copyof": "ring_of_wizardry_type_1",
 		"display": "magic/ring"
 	},
@@ -4506,9 +5916,6 @@
 		"name": "Ring of the Shadow Victim",
 		"file": "magicringsdisplay0187.html",
 		"sources": [ "Ultimate Intrigue" ],
-		"cost": 101000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of the Shadow Victim",
 			"",
@@ -4537,9 +5944,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 120000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Three Wishes",
 			"",
@@ -4562,9 +5966,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 125000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Djinni Calling",
 			"",
@@ -4584,9 +5985,6 @@
 		"name": "Ring of the Recalled Soul",
 		"file": "magicringsdisplay7aa0.html",
 		"sources": [ "Pathfinder #132: The Six-Legend Soul" ],
-		"cost": 150000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of the Recalled Soul",
 			"",
@@ -4610,9 +6008,6 @@
 		"name": "Ring of the Hidden Psyche",
 		"file": "magicringsdisplaybf5d.html",
 		"sources": [ "Occult Adventures" ],
-		"cost": 160000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of the Hidden Psyche",
 			"",
@@ -4639,9 +6034,6 @@
 			"Curse of the Crimson Throne",
 			"Pathfinder #12: Crown of Fangs"
 		],
-		"cost": 180000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Splendid Security",
 			"",
@@ -4664,9 +6056,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 200000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Elemental Command",
 			"",
@@ -4749,9 +6138,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"cost": 200000,
-		"slot": "ring",
-		"weight": 0,
 		"description": [
 			"## Ring of Spell Storing (major)",
 			"",
@@ -4771,10 +6157,6 @@
 		"name": "Wary Ring",
 		"file": "magicintelligentdisplay2663.html",
 		"sources": [ "Magical Marketplace" ],
-		"cost": 14600,
-		"slot": "ring",
-		"intelligent": true,
-		"weight": 0,
 		"description": [
 			"## Wary Ring",
 			"",
@@ -4801,10 +6183,6 @@
 		"name": "Ring of the Weary Sky",
 		"file": "magicintelligentdisplay5eec.html",
 		"sources": [ "Lost Treasures" ],
-		"cost": 14800,
-		"slot": "ring",
-		"intelligent": true,
-		"weight": 0,
 		"description": [
 			"## Ring of the Weary Sky",
 			"",
@@ -4833,10 +6211,6 @@
 		"name": "Obsession Ring",
 		"file": "magicintelligentdisplayd29f.html",
 		"sources": [ "Ultimate Equipment" ],
-		"cost": 116500,
-		"slot": "ring",
-		"intelligent": true,
-		"weight": 0,
 		"description": [
 			"## Source [Ultimate Equipment pg. 359](source/ultimate_equipment)",
 			"",
@@ -4875,9 +6249,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"slot": "ring",
-		"weight": 0,
-		"cursed": true,
 		"description": [
 			"## Source [Ultimate Equipment pg. 344](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_player's_guide)",
 			"",
@@ -4898,9 +6269,6 @@
 		"name": "Chatter Ring",
 		"file": "magiccurseddisplay30f0.html",
 		"sources": [ "Antihero's Handbook" ],
-		"slot": "ring",
-		"weight": 0,
-		"cursed": true,
 		"description": [
 			"## Chatter Ring",
 			"",
@@ -4923,9 +6291,6 @@
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
 		],
-		"slot": "ring",
-		"weight": 0,
-		"cursed": true,
 		"description": [
 			"## Source [Ultimate Equipment pg. 349](source/ultimate_equipment), [PRPG Core Rulebook pg. 542](source/prpg_core_rulebook)",
 			"",
@@ -4944,9 +6309,6 @@
 		"name": "Ring of Lifebleed",
 		"file": "magiccurseddisplayf773.html",
 		"sources": [ "Ultimate Equipment" ],
-		"slot": "ring",
-		"weight": 0,
-		"cursed": true,
 		"description": [
 			"## Source [Ultimate Equipment pg. 349](source/ultimate_equipment)",
 			"",
@@ -4965,9 +6327,6 @@
 		"name": "Ring of Spell Devouring",
 		"file": "magiccurseddisplay4200.html",
 		"sources": [ "Ultimate Equipment" ],
-		"slot": "ring",
-		"weight": 0,
-		"cursed": true,
 		"description": [
 			"## Source [Ultimate Equipment pg. 349](source/ultimate_equipment)",
 			"",
@@ -4989,9 +6348,6 @@
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
 		],
-		"slot": "ring",
-		"weight": 0,
-		"cursed": true,
 		"description": [
 			"## Source [Ultimate Equipment pg. 349](source/ultimate_equipment), [Advanced Player's Guide pg. 310](source/advanced_player's_guide)",
 			"",
