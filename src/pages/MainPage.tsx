@@ -1,7 +1,8 @@
 import { IonButtons, IonContent, IonHeader, IonMenuButton, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 import { useParams } from 'react-router';
 import DisplayItem from '../components/DisplayItem';
-import main from '../json/main.json';
+import main1 from '../json/main.json';
+import main2 from '../json/main2.json';
 import { ItemProps } from '../types';
 import './Page.css';
 
@@ -14,10 +15,11 @@ const appPages: any[] = [
 	"/traits",//
 	"/equipment",//
 	"/magic",//
-	"/spells",
+	"/spells",//
 	"/faiths",//
 	"/monstersnpcs",
 ];
+const main = {...main1, ...main2};
 
 const MainPage: React.FC = () => {
 

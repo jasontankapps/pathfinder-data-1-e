@@ -82,7 +82,7 @@
 			{
 				"id": "skills table",
 				"headers": [ "Skill", "Stat", "Trained Only?", "Armor Check Penalty?", "Background Skill?", "Unchained?", "Description" ],
-				"types": [ null, null, null, null, null, null, null ],
+				"types": [ null, null, null, null, null, null, 0 ],
 				"data": [
 					[ "[Acrobatics](skill/acrobatics)", "DEX", null, "X", null, null, "You can keep your balance while traversing narrow or treacherous surfaces. You can also dive, flip, jump, and roll to avoid attacks and overcome obstacles." ],
 					[ "[Appraise](skill/appraise)", "INT", null, null, "X", null, "You can evaluate the monetary value of an object." ],
@@ -150,7 +150,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null, null ],
+				"types": [ null, null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -3579,7 +3579,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -5209,7 +5209,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -6554,7 +6554,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -6757,7 +6757,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -6777,7 +6777,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -6817,7 +6817,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -6847,7 +6847,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -6909,7 +6909,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -7013,7 +7013,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -7179,7 +7179,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -7277,7 +7277,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -7338,7 +7338,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -7373,7 +7373,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -7410,7 +7410,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -7479,7 +7479,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -7510,7 +7510,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -7535,7 +7535,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -7563,7 +7563,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -7624,7 +7624,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -7866,7 +7866,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -7908,7 +7908,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -7930,7 +7930,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -7948,7 +7948,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -7971,7 +7971,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -7993,7 +7993,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -8009,7 +8009,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -8027,7 +8027,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -8048,7 +8048,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -8085,7 +8085,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -8108,7 +8108,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -8137,7 +8137,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -8154,7 +8154,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -8185,7 +8185,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -8203,7 +8203,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -8220,7 +8220,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -8243,7 +8243,7 @@
 					"Prerequisites",
 					"Description"
 				],
-				"types": [ null, null, null ],
+				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
 				"className": "plain",
@@ -16054,7 +16054,7 @@
 			{
 				"id": "all races table",
 				"headers": [ "Race", "Rarity", "Monster Link?", "Description" ],
-				"types": [null, null, null, null],
+				"types": [null, null, null, 0],
 				"data": [
 					["Dwarf",[0,"Common"],"No","These short and stocky defenders of mountain fortresses are often seen as stern and humorless. Known for mining the earth's treasures and crafting magnificent items from ore and gemstones, they have an unrivaled affinity for the bounties of the deep earth. Dwarves also have a tendency toward traditionalism and isolation that sometimes manifests as xenophobia."],
 					["Elf",[0,"Common"],"No","Tall, noble, and often haughty, elves are long-lived and subtle masters of the wilderness. Elves excel in the arcane arts. Often they use their intrinsic link to nature to forge new spells and create wondrous items that, like their creators, seem nearly impervious to the ravages of time. A private and often introverted race, elves can give the impression they are indifferent to the plights of others."],

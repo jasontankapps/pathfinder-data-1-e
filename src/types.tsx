@@ -3,7 +3,15 @@ export type Datum = string | number | [ number, string ] | [ string, string ];
 
 export type RawDatum = null | Datum;
 
-export type Types = "gp" | "lbs" | "gp+" | "lbs+" | "bonus" | "num" | null;
+export type Types = "gp" | "lbs" | "gp+" | "lbs+" | "bonus" | "num" | null | 0;
+// gp = gold pieces
+// gp+ = gold piece adjustment
+// lbs = weight
+// lbs = weight adjustment
+// bonus = +1/-1/etc
+// num = any number
+// null = text
+// 0 = DO NOT SORT ON THIS COLUMN (text)
 
 export interface Table {
 	// unique identifier
