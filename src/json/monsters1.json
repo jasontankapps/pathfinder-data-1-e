@@ -27719,7 +27719,8 @@
 		"size": "medium",
 		"creature_type": "outsider",
 		"creature_subtypes": [
-			"cold or fire",
+			"cold",
+			"fire",
 			"extraplanar"
 		],
 		"str": 11,
