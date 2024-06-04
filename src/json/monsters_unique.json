@@ -4,23 +4,6 @@
 		"name": "Agmazar the Star Titan",
 		"file": "monsterdisplaye180.html",
 		"sources": [ "Mythic Realms" ],
-		"cr": 26,
-		"alignment": "NE",
-		"size": "colossal",
-		"creature_type": "undead",
-		"creature_subtypes": [
-			"cold",
-			"kaiju"
-		],
-		"str": 47,
-		"dex": 21,
-		"con": null,
-		"int": 6,
-		"wis": 31,
-		"cha": 40,
-		"base_attack_bonus": 22,
-		"cmb": 48,
-		"cmd": 86,
 		"description": [
 			"## Agmazar the Star Titan",
 			"",
@@ -99,8 +82,6 @@
 			"",
 			"Agmazar now lies in wait most of the time, but lashes out even at the living if they disturb its watchful reverie. If a great necromantic power arises anywhere near Agmazar, it senses the threat and departs immediately to destroy it, treading a path of devastation as it seeks to fulfill the purpose it was given so long ago."
 		],
-		"short_description": "Stony segments cover this towering colossus like armor plates. Though it looks lifeless, its four arms move with supple grace.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"ahriman": {
@@ -110,24 +91,6 @@
 			"Mythic Realms",
 			"Pathfinder #24: The Final Wish"
 		],
-		"cr": 26,
-		"alignment": "NE",
-		"size": "huge",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"div",
-			"evil",
-			"extraplanar"
-		],
-		"str": 43,
-		"dex": 26,
-		"con": 36,
-		"int": 19,
-		"wis": 24,
-		"cha": 35,
-		"base_attack_bonus": 33,
-		"cmb": 51,
-		"cmd": 74,
 		"description": [
 			"## Ahriman, Lord of All Divs",
 			"",
@@ -211,27 +174,12 @@
 			"",
 			"Ahriman sprang from the darkest shadows of the elements at the birth of the genie races. Though he towers nearly 20 feet tall and weighs 7,000 pounds, Ahriman moves with uncanny swiftness. Ahriman's rampages leave legions of undead in his wake that, alongside nihilistic Usij cultists, tear down life, culture, and civilization. To the Lord of All Divs, suffering and pain are meat and drink, corruption and murder useful tools, and the end of all things the only worthwhile goal."
 		],
-		"short_description": "This humanoid creature has the head of a ravening, horned lion. A chorus of anguished screams echoes from his gaping maw.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"akilep": {
 		"name": "Akilep, Lady of Stone",
 		"file": "monsterdisplay41d0.html",
 		"sources": [ "Mythical Monsters Revisited" ],
-		"cr": 13,
-		"alignment": "N",
-		"size": "gargantuan",
-		"creature_type": "magical beast",
-		"str": 34,
-		"dex": 8,
-		"con": 22,
-		"int": 27,
-		"wis": 21,
-		"cha": 21,
-		"base_attack_bonus": 18,
-		"cmb": 34,
-		"cmd": 43,
 		"description": [
 			"## Akilep, Lady of Stone",
 			"",
@@ -277,27 +225,12 @@
 			"",
 			"Obsessed with the unearthing information about Aucturn-the mysterious thirteenth planet in Golarion's solar system, whose very existence may be the greatest riddle of them all-the elder gynosphinx known as Akilep, Lady of Stone, was legendary even among the sphinxes. And then one day, more than 300 years ago, Akilep came across a hidden tomb in the stony wastes of southeastern Thuvia. Markings on the tomb's surface suggested that she had just stumbled upon the final resting place of a heretofore unknown pharaoh from the height of Ancient Osirion, and furthermore that this pharaoh was believed to have made contact with beings from the stars. At last, Akilep had found the mother lode-and yet the tomb was warded with magic more powerful than anything at her disposal, the lock an inhumanly complex affair of twisted levers and strange, sealed cylinders that even her chime of opening couldn't budge. For decades, Akilep worked studiously at the mechanism, quietly seeking out those who might be able to assist her. At last, with no other recourse, Akilep settled down in front of the tomb to await a time when circumstances might change, sleeping away the years as a statue. Of late, however, rumors of the tomb's existence have surfaced in caravan waystations across the desert, and it may be that Akilep's centuries of solitude are drawing to a close."
 		],
-		"short_description": "This beautiful female sphinx appears both wise and thoughtful.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"amalya": {
 		"name": "Amalya",
 		"file": "monsterdisplay21f5.html",
 		"sources": [ "Fey Revisited" ],
-		"cr": 6,
-		"alignment": "CG",
-		"size": "medium",
-		"creature_type": "fey",
-		"str": 10,
-		"dex": 21,
-		"con": 17,
-		"int": 12,
-		"wis": 19,
-		"cha": 20,
-		"base_attack_bonus": 5,
-		"cmb": 5,
-		"cmd": 21,
 		"description": [
 			"## Amalya",
 			"",
@@ -348,30 +281,12 @@
 			"",
 			"A still untainted fey in the northern stretch of the Shudderwood, Amalya is a bastion of nature among a perverse land, where denizens are beginning to succumb to the Worldwound's demonic hordes. To survive, she has formed a particularly close bond with her natural surroundings. She's studied the earth's struggle to survive against the Worldwound's onslaught; this scholarly curiosity has granted her powerful spells that she uses to protect herself, her tree, and the forest's remaining natural creatures. Given the danger she faces daily, Amalya is better at hiding than most dryads-however, the prevalence of half-fiends and other unspeakably abhorrent creatures also makes her a pragmatist of the highest order. She allies with like-minded adventurers who can stave off these threats more readily than others do of her kind."
 		],
-		"short_description": "This lithe, otherworldly woman has with deep brown eyes and dark green hair that cascades past her waist. She's adorned in trinkets made from a great white pine's needles and cones.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"arazni": {
 		"name": "Arazni",
 		"file": "mythicmonsterdisplayea52.html",
 		"sources": [ "Mythic Realms" ],
-		"cr": 26,
-		"mr": 8,
-		"alignment": "NE",
-		"size": "medium",
-		"creature_type": "undead",
-		"creature_subtypes": [ "human" ],
-		"str": 24,
-		"dex": 22,
-		"con": null,
-		"int": 39,
-		"wis": 18,
-		"cha": 31,
-		"base_attack_bonus": 10,
-		"cmb": 17,
-		"cmd": 39,
-		"mythic": true,
 		"description": [
 			"## Arazni",
 			"",
@@ -445,33 +360,12 @@
 			"",
 			"The blade has two abilities only Arazni can use. If she hurls Harlot's Kiss using the hand of the apprentice ability, it can perform a full attack against a single target rather than a single attack, instantly returning to Arazni at the end of her turn. However, she can't use hand of the apprentice on the rapier while it's dancing. If Arazni expends one use of mythic power when commanding the weapon to dance, the weapon's attacks use her caster level as the base attack bonus (effectively gaining a +10 bonus on attack rolls) for as long as it dances."
 		],
-		"short_description": "This gray-skinned woman wears a royal gown that exposes the top of a jagged incision down the middle of her chest.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"archdevil,_baalzebul": {
 		"name": "Archdevil, Baalzebul",
 		"file": "monsterdisplay93ee.html",
 		"sources": [ "Bestiary 6" ],
-		"cr": 30,
-		"alignment": "LE",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"devil",
-			"evil",
-			"extraplanar",
-			"lawful"
-		],
-		"str": 36,
-		"dex": 30,
-		"con": 41,
-		"int": 35,
-		"wis": 32,
-		"cha": 35,
-		"base_attack_bonus": 35,
-		"cmb": 49,
-		"cmd": 90,
 		"description": [
 			"## Archdevil, Baalzebul",
 			"",
@@ -550,8 +444,6 @@
 			"",
 			"**Family:** [Archdevil](monster/family/archdevil)"
 		],
-		"short_description": "This swarm of droning black flies teems in the semblance of a winged angel with glowing red eyes.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"baalzebul": { "copyof": "archdevil,_baalzebul" },
@@ -559,25 +451,6 @@
 		"name": "Archdevil, Barbatos",
 		"file": "monsterdisplayec3a.html",
 		"sources": [ "Bestiary 6" ],
-		"cr": 26,
-		"alignment": "LE",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"evil",
-			"extraplanar",
-			"lawful",
-			"shapechanger"
-		],
-		"str": 30,
-		"dex": 29,
-		"con": 38,
-		"int": 29,
-		"wis": 30,
-		"cha": 31,
-		"base_attack_bonus": 31,
-		"cmb": 41,
-		"cmd": 77,
 		"description": [
 			"## Archdevil, Barbatos",
 			"",
@@ -651,8 +524,6 @@
 			"",
 			"**Family:** [Archdevil](monster/family/archdevil)"
 		],
-		"short_description": "This humanoid wears a shabby hooded cloak. Within the darkness of its hood, eerie eyes glow and strange shapes twitch.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"barbatos": { "copyof": "archdevil,_barbatos" },
@@ -660,26 +531,6 @@
 		"name": "Archdevil, Belial",
 		"file": "monsterdisplay8aaf.html",
 		"sources": [ "Bestiary 6" ],
-		"cr": 28,
-		"alignment": "LE",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"devil",
-			"evil",
-			"extraplanar",
-			"lawful",
-			"shapechanger"
-		],
-		"str": 34,
-		"dex": 26,
-		"con": 41,
-		"int": 31,
-		"wis": 28,
-		"cha": 37,
-		"base_attack_bonus": 33,
-		"cmb": 45,
-		"cmd": 80,
 		"description": [
 			"## Archdevil, Belial",
 			"",
@@ -759,8 +610,6 @@
 			"",
 			"**Family:** [Archdevil](monster/family/archdevil)"
 		],
-		"short_description": "One half of this figure's body is gleaming and beautiful with an angelic wing, while the other is scaled, scarred, and blackened.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"belial": { "copyof": "archdevil,_belial" },
@@ -768,26 +617,6 @@
 		"name": "Archdevil, Dispater",
 		"file": "monsterdisplayb286.html",
 		"sources": [ "Bestiary 6" ],
-		"cr": 27,
-		"alignment": "LE",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"devil",
-			"evil",
-			"extraplanar",
-			"lawful",
-			"shapechanger"
-		],
-		"str": 34,
-		"dex": 29,
-		"con": 38,
-		"int": 33,
-		"wis": 30,
-		"cha": 33,
-		"base_attack_bonus": 33,
-		"cmb": 46,
-		"cmd": 82,
 		"description": [
 			"## Archdevil, Dispater",
 			"",
@@ -860,8 +689,6 @@
 			"",
 			"**Family:** [Archdevil](monster/family/archdevil)"
 		],
-		"short_description": "This diabolic figure is draped in a kingly robe and crowned with iron horns. He bears a long, heavy mace of black metal.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"dispater": { "copyof": "archdevil,_dispater" },
@@ -869,26 +696,6 @@
 		"name": "Archdevil, Geryon",
 		"file": "monsterdisplaycf54.html",
 		"sources": [ "Bestiary 6" ],
-		"cr": 29,
-		"alignment": "LE",
-		"size": "huge",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"aquatic",
-			"devil",
-			"evil",
-			"extraplanar",
-			"lawful"
-		],
-		"str": 38,
-		"dex": 21,
-		"con": 42,
-		"int": 33,
-		"wis": 30,
-		"cha": 33,
-		"base_attack_bonus": 34,
-		"cmb": 50,
-		"cmd": 84,
 		"description": [
 			"## Archdevil, Geryon",
 			"",
@@ -967,8 +774,6 @@
 			"",
 			"**Family:** [Archdevil](monster/family/archdevil)"
 		],
-		"short_description": "This tripartite being has three humanoid bodies engulfed from the waist down by a tangle of three immense serpents.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"geryon": { "copyof": "archdevil,_geryon" },
@@ -976,25 +781,6 @@
 		"name": "Archdevil, Mammon",
 		"file": "monsterdisplay57a1.html",
 		"sources": [ "Bestiary 6" ],
-		"cr": 28,
-		"alignment": "LE",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"devil",
-			"evil",
-			"extraplanar",
-			"lawful"
-		],
-		"str": 38,
-		"dex": 35,
-		"con": 40,
-		"int": 31,
-		"wis": 30,
-		"cha": 33,
-		"base_attack_bonus": 33,
-		"cmb": 47,
-		"cmd": 86,
 		"description": [
 			"## Archdevil, Mammon",
 			"",
@@ -1067,8 +853,6 @@
 			"",
 			"**Family:** [Archdevil](monster/family/archdevil)"
 		],
-		"short_description": "This shining being is humanoid, but its four arms, multiple legs, and horned head reveal its diabolic nature.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"mammon": { "copyof": "archdevil,_mammon" },
@@ -1076,25 +860,6 @@
 		"name": "Archdevil, Mephistopheles",
 		"file": "monsterdisplayce09.html",
 		"sources": [ "Bestiary 6" ],
-		"cr": 30,
-		"alignment": "LE",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"devil",
-			"evil",
-			"extraplanar",
-			"lawful"
-		],
-		"str": 42,
-		"dex": 30,
-		"con": 43,
-		"int": 35,
-		"wis": 34,
-		"cha": 39,
-		"base_attack_bonus": 35,
-		"cmb": 52,
-		"cmd": 93,
 		"description": [
 			"## Archdevil, Mephistopheles",
 			"",
@@ -1167,8 +932,6 @@
 			"",
 			"**Family:** [Archdevil](monster/family/archdevil)"
 		],
-		"short_description": "This red-skinned devil has three sets of curving horns atop his brow and three mismatched pairs of wings.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"mephistopheles": { "copyof": "archdevil,_mephistopheles" },
@@ -1176,25 +939,6 @@
 		"name": "Archdevil, Moloch",
 		"file": "monsterdisplay743d.html",
 		"sources": [ "Bestiary 6" ],
-		"cr": 29,
-		"alignment": "LE",
-		"size": "huge",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"devil",
-			"evil",
-			"extraplanar",
-			"lawful"
-		],
-		"str": 40,
-		"dex": 25,
-		"con": 42,
-		"int": 25,
-		"wis": 34,
-		"cha": 33,
-		"base_attack_bonus": 34,
-		"cmb": 51,
-		"cmd": 87,
 		"description": [
 			"## Archdevil, Moloch",
 			"",
@@ -1273,8 +1017,6 @@
 			"",
 			"**Family:** [Archdevil](monster/family/archdevil)"
 		],
-		"short_description": "This immense figure appears to be a suit of blackened, diabolic armor filled with shrieking blasts of blistering fire.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"moloch": { "copyof": "archdevil,_moloch" },
@@ -1282,24 +1024,6 @@
 		"name": "Aridus, the Desert's Howl",
 		"file": "monsterdisplay893f.html",
 		"sources": [ "Mythical Monsters Revisited" ],
-		"cr": 19,
-		"alignment": "CE",
-		"size": "huge",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"air",
-			"fire",
-			"native"
-		],
-		"str": 33,
-		"dex": 27,
-		"con": 35,
-		"int": 24,
-		"wis": 22,
-		"cha": 26,
-		"base_attack_bonus": 20,
-		"cmb": 33,
-		"cmd": 52,
 		"description": [
 			"## Aridus, the Desert's Howl",
 			"",
@@ -1349,33 +1073,12 @@
 			"",
 			"Now, certain isolated Thuvian tribes raise goat-headed totems to the beast that stalks the nearby sandstone cliffs and massive dunes. Its forlorn howl echoes on the evening winds, and villagers disappear only to turn up later as withered, half-eaten husks when they fail to maintain their monthly sacrifices on lonely, windswept altars."
 		],
-		"short_description": "This hunched-over, vaguely humanoid creature has gauntly muscled biceps beneath a sandy hide and coarse fur. Its head is that of a jagged-toothed antelope, the face spotted with rot and sand slowly sifting out from between the fibers of its hair, and its legs end at the shin in stumps of charred flesh.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"ayandamahla": {
 		"name": "Ayandamahla, the Crimson Lotus",
 		"file": "monsterdisplaye9bf.html",
 		"sources": [ "Demons Revisited" ],
-		"cr": 24,
-		"alignment": "CE",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"demon",
-			"evil",
-			"extraplanar"
-		],
-		"str": 20,
-		"dex": 20,
-		"con": 32,
-		"int": 20,
-		"wis": 12,
-		"cha": 38,
-		"base_attack_bonus": 23,
-		"cmb": 28,
-		"cmd": 49,
 		"description": [
 			"## Ayandamahla, the Crimson Lotus",
 			"",
@@ -1432,33 +1135,12 @@
 			"",
 			"In the 10,000 years since her service to Sorshen ended in betrayal, Ayandamahla never again forged as prosperous an alliance as that with the runelord. Instead, she has used mortals increasingly as her own tools, attended to duties for her own mistress, Zura, as needed, and has worked to perfect her skills at seduction, subversion, and slaughter the entire time. Throughout it all, the deadly creature has kept one eye on Varisia, watching patiently for any signs of Sorshen's return to the region. Even today, more powerful than ever before, Ayandamahla doubts she could match the runelord in power-but if Sorshen rises once again, the succubus plans to be there to have her revenge."
 		],
-		"short_description": "This pale woman is as beautiful as she is menacing-her smile promises endless bliss, yet her weapons and fangs drip with blood.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"baba_yaga": {
 		"name": "Baba Yaga",
 		"file": "mythicmonsterdisplay6ace.html",
 		"sources": [ "Pathfinder #72: The Witch Queen's Revenge" ],
-		"cr": 30,
-		"mr": 10,
-		"alignment": "NE",
-		"size": "medium",
-		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"human",
-			"mythic"
-		],
-		"str": 17,
-		"dex": 20,
-		"con": 26,
-		"int": 46,
-		"wis": 24,
-		"cha": 32,
-		"base_attack_bonus": 10,
-		"cmb": 13,
-		"cmd": 36,
-		"mythic": true,
 		"description": [
 			"## Baba Yaga",
 			"",
@@ -1526,26 +1208,12 @@
 			"",
 			"Around campfires and in front of hearths on cold winter nights, wise grandmothers and favored uncles recite countless tales of a stern and powerful woman. Some know her as the Old Crone, others as Old Knobby Legs. She's often called the Queen of the Witches, but those who are wise call her Dear Grandmother. She is Baba Yaga, and on Golarion, she has an oppressive and violent legacy. But, on other worlds, the foolhardy and the brave seek her for wisdom and magic."
 		],
-		"is_unique": true,
 		"display": "monster"
 	},
 	"baba_yaga's_rider,_black_rider": {
 		"name": "Baba Yaga's Rider, Black Rider",
 		"file": "monsterdisplaye8ce.html",
 		"sources": [ "Irrisen - Land of Eternal Winter" ],
-		"cr": 13,
-		"alignment": "LN",
-		"size": "medium",
-		"creature_type": "fey",
-		"str": 23,
-		"dex": 20,
-		"con": 22,
-		"int": 17,
-		"wis": 18,
-		"cha": 21,
-		"base_attack_bonus": 9,
-		"cmb": 15,
-		"cmd": 25,
 		"description": [
 			"## Baba Yaga's Rider, Black Rider",
 			"",
@@ -1607,8 +1275,6 @@
 			"",
 			"**Family:** [Baba Yaga's Rider](monster/family/baba_yaga's_rider)"
 		],
-		"short_description": "A man with curling ram's horns sits astride a snorting, stamping black warhorse, gripping a dark, battle-worn spear.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"black_rider": { "copyof": "baba_yaga's_rider,_black_rider" },
@@ -1616,19 +1282,6 @@
 		"name": "Baba Yaga's Rider, Red Rider",
 		"file": "monsterdisplayc039.html",
 		"sources": [ "Irrisen - Land of Eternal Winter" ],
-		"cr": 12,
-		"alignment": "LN",
-		"size": "medium",
-		"creature_type": "fey",
-		"str": 24,
-		"dex": 21,
-		"con": 22,
-		"int": 17,
-		"wis": 18,
-		"cha": 21,
-		"base_attack_bonus": 8,
-		"cmb": 15,
-		"cmd": 25,
 		"description": [
 			"## Baba Yaga's Rider, Red Rider",
 			"",
@@ -1689,8 +1342,6 @@
 			"",
 			"**Family:** [Baba Yaga's Rider](monster/family/baba_yaga's_rider)"
 		],
-		"short_description": "A man with fiery red hair and antlers rides a red-gold stallion. His robes expose the hairy legs of a goat, ending in cloven hooves.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"red_rider": { "copyof": "baba_yaga's_rider,_red_rider" },
@@ -1698,19 +1349,6 @@
 		"name": "Baba Yaga's Rider, White Rider",
 		"file": "monsterdisplay37a1.html",
 		"sources": [ "Irrisen - Land of Eternal Winter" ],
-		"cr": 11,
-		"alignment": "LN",
-		"size": "medium",
-		"creature_type": "fey",
-		"str": 20,
-		"dex": 25,
-		"con": 20,
-		"int": 18,
-		"wis": 21,
-		"cha": 21,
-		"base_attack_bonus": 8,
-		"cmb": 13,
-		"cmd": 23,
 		"description": [
 			"## Baba Yaga's Rider, White Rider",
 			"",
@@ -1773,8 +1411,6 @@
 			"",
 			"**Family:** [Baba Yaga's Rider](monster/family/baba_yaga's_rider)"
 		],
-		"short_description": "A tall, handsome woman sits astride a white horse. She grips an elegant longbow made of raw birch.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"white_rider": { "copyof": "baba_yaga's_rider,_white_rider" },
@@ -1782,26 +1418,6 @@
 		"name": "Balravnus, Lord of the Deep Pools",
 		"file": "monsterdisplay298e.html",
 		"sources": [ "Demons Revisited" ],
-		"cr": 18,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"aquatic",
-			"chaotic",
-			"demon",
-			"evil",
-			"extraplanar"
-		],
-		"str": 33,
-		"dex": 15,
-		"con": 32,
-		"int": 14,
-		"wis": 16,
-		"cha": 22,
-		"base_attack_bonus": 17,
-		"cmb": 29,
-		"cmd": 39,
 		"description": [
 			"## Balravnus, Lord of the Deep Pools",
 			"",
@@ -1856,27 +1472,12 @@
 			"",
 			"When conjured, Balravnus prefers offerings of magical elixirs, particularly unique ones he has never sampled before. The hezrou is also partial to potent doses of various drugs. It's a DC 28 check to research Balravnus."
 		],
-		"short_description": "This lumbering toadlike demon wields a blood-soaked halberd in its powerful hands-one of those hands is clad in a rusting jagged gauntlet, while on the beast's misshapen head perches a leering helm made of greasy green metal.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"bee-man_of_bellis": {
 		"name": "Bee-Man of Bellis",
 		"file": "monsterdisplay9120.html",
 		"sources": [ "Andoran, Birthplace of Freedom" ],
-		"cr": 9,
-		"alignment": "NE",
-		"size": "medium",
-		"creature_type": "aberration",
-		"str": 10,
-		"dex": 23,
-		"con": 18,
-		"int": 13,
-		"wis": 15,
-		"cha": 17,
-		"base_attack_bonus": 9,
-		"cmb": 9,
-		"cmd": 26,
 		"description": [
 			"## Bee-Man of Bellis",
 			"",
@@ -1935,8 +1536,6 @@
 			"",
 			"Vernon Vestha was a forest oracle obsessed with bees, reading the future in the patterns of their flight. Driven mad by a desire to internalize the bees' powers of divination, he became one with his beloved bees in some honeyed rite. Now a living swarm in the rough semblance of a man, Vernon still roams the forests near Bellis, and some still seek out the ex-druid's wisdom by calling his name (Knowledge [local] DC 20 to know). He often appears when he is called, though he seldom grants favors without exacting a terrible price."
 		],
-		"short_description": "This shabby-cloaked figure is surrounded by hundreds of bees.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"bee_man_of_bellis": { "copyof": "bee-man_of_bellis" },
@@ -1944,25 +1543,6 @@
 		"name": "Bezilak, the Silken Fang",
 		"file": "monsterdisplay9449.html",
 		"sources": [ "Demons Revisited" ],
-		"cr": 17,
-		"alignment": "CE",
-		"size": "huge",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"demon",
-			"evil",
-			"extraplanar"
-		],
-		"str": 33,
-		"dex": 16,
-		"con": 30,
-		"int": 18,
-		"wis": 16,
-		"cha": 24,
-		"base_attack_bonus": 18,
-		"cmb": 31,
-		"cmd": 45,
 		"description": [
 			"## Bezilak, the Silken Fang",
 			"",
@@ -2013,8 +1593,6 @@
 			"",
 			"A spellcaster who manages to conjure the Silken Fang can sometimes avoid being tricked or forced into making the Silken Fang's trapped wish, especially if he provides as part of the conjuration an offering of no less than 13 names of powerful individuals (preferably spellcasters or the leaders of nations) to whom Bezilak can peddle his services. The demon is not above rewarding those conjurers who understand how to properly bribe him, after all. It's a DC 27 check to research the Silken Fang."
 		],
-		"short_description": "This towering four-armed demon carries an evil-looking scepter in one of its two human hands-the other arms end in pincers.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"black_magga": {
@@ -2024,23 +1602,6 @@
 			"Rise of the Runelords Anniversary Edition",
 			"Pathfinder #3: The Hook Mountain Massacre"
 		],
-		"cr": 15,
-		"alignment": "CE",
-		"size": "gargantuan",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"aquatic",
-			"native"
-		],
-		"str": 37,
-		"dex": 10,
-		"con": 31,
-		"int": 25,
-		"wis": 18,
-		"cha": 20,
-		"base_attack_bonus": 15,
-		"cmb": 32,
-		"cmd": 42,
 		"description": [
 			"## Black Magga",
 			"",
@@ -2119,28 +1680,12 @@
 			"",
 			"Mothers of Oblivion slink in the darkest, deepest reaches of the world, shunning the light of day as well as the gaze of insectlike mortals, who would gawk and abandon their pathetic minds at the merest glimpse of such unknowable horrors. The deepest reaches of oceans and the oldest lakes serve as redoubts for these forsaken queens of madness. From these depths, they sate themselves on sea creatures, the offerings of their servants, and the occasional unwary victim dragged screaming from the surface. They are careful to keep their presence secret from those of the world above. From the depths, Mothers of Oblivion form intricate hierarchies of servants and go-betweens, reaching their black tentacles through the societies of amphibious intermediaries into the demesnes of greater monstrosities and larger cities and civilizations alike."
 		],
-		"short_description": "This enormous creature's serpentine neck supports a leering reptilian head-its body is a wriggling mass of tentacles.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"captain_ignisco": {
 		"name": "Captain Ignisco",
 		"file": "monsterdisplayedaa.html",
 		"sources": [ "Darklands Revisited" ],
-		"cr": 6,
-		"alignment": "CG",
-		"size": "medium",
-		"creature_type": "humanoid",
-		"creature_subtypes": [ "munavri" ],
-		"str": 13,
-		"dex": 16,
-		"con": 16,
-		"int": 12,
-		"wis": 10,
-		"cha": 16,
-		"base_attack_bonus": 5,
-		"cmb": 6,
-		"cmd": 21,
 		"description": [
 			"## Captain Ignisco",
 			"",
@@ -2191,32 +1736,12 @@
 			"",
 			"Ignisco now sails the Sightless Sea, keeping a keen eye over the Braid-the colossal waterspout leading up to the aboleth-held territory known as the Inverted Sea. When he came across the Pathfinder Koriah Azmeren during his travels, he saved her from a band of urdefhan raiders. Ignisco brought her back to Beryl Isle, where she learned much from his stories of sailing darkened seas. In return for saving Azmeren and ensuring her Darklands discoveries reached the Grand Lodge, the Decemvirate expunged all records of the munavris from the annals of her published chronicle; only Azmeren, the Decemvirate, and the most trusted of Pathfinders know of the unpublished apocrypha that details the munavris' society."
 		],
-		"short_description": "This alabaster-skinned man holds a rapier made of intricately carved crystal and wears armor made of the same material.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"courage_heart": {
 		"name": "Courage Heart",
 		"file": "monsterdisplay0bf4.html",
 		"sources": [ "Pathfinder #68: The Shackled Hut" ],
-		"cr": 15,
-		"alignment": "CG",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"extraplanar",
-			"good"
-		],
-		"str": 23,
-		"dex": 23,
-		"con": 22,
-		"int": 22,
-		"wis": 21,
-		"cha": 24,
-		"base_attack_bonus": 17,
-		"cmb": 23,
-		"cmd": 39,
 		"description": [
 			"## Courage Heart",
 			"",
@@ -2301,32 +1826,12 @@
 			"",
 			"Among the other celestial servitors of Milani, Courage Heart is beloved as a comrade and leader. She often gathers teams of like-minded celestials to ambush and slay devils, undead, and minions of Zon-Kuthon, then retires with these comrades to Milani's realm in Elysium to tell stories of each other's bravery and virtue."
 		],
-		"short_description": "This woman with vaguely half-elven features wears a wooden breastplate and wields a wooden morningstar in one hand. In her other hand she holds a thorny red rose; blood from that hand trickles down her arm.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"daemonic_harbinger,_braismois": {
 		"name": "Daemonic Harbinger, Braismois",
 		"file": "monsterdisplay1fc0.html",
 		"sources": [ "Druma, Profit and Prophecy" ],
-		"cr": 22,
-		"alignment": "NE",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"daemon",
-			"evil",
-			"extraplanar"
-		],
-		"str": 21,
-		"dex": 30,
-		"con": 28,
-		"int": 25,
-		"wis": 28,
-		"cha": 29,
-		"base_attack_bonus": 26,
-		"cmb": 31,
-		"cmd": 59,
 		"description": [
 			"## Daemonic Harbinger, Braismois",
 			"",
@@ -2407,8 +1912,6 @@
 			"",
 			"This humanoid fiend has an overly long torso, black eyes, and a mouth full of razor-sharp teeth. It wears black robes that cover most of its rotting, frostbitten flesh."
 		],
-		"short_description": "This humanoid fiend has an overly long torso, black eyes, and a mouth full of razor-sharp teeth. It wears black robes that cover most of its rotting, frostbitten flesh.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"braismois": { "copyof": "daemonic_harbinger,_braismois" },
@@ -2419,25 +1922,6 @@
 			"Pathfinder #77: Herald of the Ivory Labyrinth",
 			"Bestiary 4"
 		],
-		"cr": 27,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"demon",
-			"evil",
-			"extraplanar"
-		],
-		"str": 36,
-		"dex": 32,
-		"con": 38,
-		"int": 37,
-		"wis": 29,
-		"cha": 35,
-		"base_attack_bonus": 33,
-		"cmb": 47,
-		"cmd": 82,
 		"description": [
 			"## Demon Lord, Baphomet",
 			"",
@@ -2517,8 +2001,6 @@
 			"",
 			"**Family:** [Demon Lord](monster/family/demon_lord)"
 		],
-		"short_description": "Fire burns on the central horn and in the rheumy eyes of this bestial winged demon, who stands more than twice a human's height.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"baphomet": { "copyof": "demon_lord,_baphomet" },
@@ -2526,26 +2008,6 @@
 		"name": "Demon Lord, Dagon",
 		"file": "monsterdisplaya05d.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 28,
-		"alignment": "CE",
-		"size": "huge",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"demon",
-			"evil",
-			"extraplanar",
-			"water"
-		],
-		"str": 44,
-		"dex": 25,
-		"con": 40,
-		"int": 29,
-		"wis": 32,
-		"cha": 31,
-		"base_attack_bonus": 33,
-		"cmb": 52,
-		"cmd": 87,
 		"description": [
 			"## Demon Lord, Dagon",
 			"",
@@ -2620,8 +2082,6 @@
 			"",
 			"**Family:** [Demon Lord](monster/family/demon_lord)"
 		],
-		"short_description": "This demon's body is a nightmare of writhing tentacles and slippery coils below the leering maw of a deep sea predator.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"dagon": { "copyof": "demon_lord,_dagon" },
@@ -2632,26 +2092,6 @@
 			"Pathfinder #78: City of Locusts",
 			"Bestiary 4"
 		],
-		"cr": 29,
-		"alignment": "CE",
-		"size": "gargantuan",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"demon",
-			"earth",
-			"evil",
-			"extraplanar"
-		],
-		"str": 44,
-		"dex": 30,
-		"con": 42,
-		"int": 29,
-		"wis": 31,
-		"cha": 31,
-		"base_attack_bonus": 33,
-		"cmb": 54,
-		"cmd": 92,
 		"description": [
 			"## Demon Lord, Deskari",
 			"",
@@ -2731,8 +2171,6 @@
 			"",
 			"**Family:** [Demon Lord](monster/family/demon_lord)"
 		],
-		"short_description": "Larger than an elephant, this towering insectile nightmare wields a scythe made of bone. Its wings are swarms of biting flies, and its inhuman eyes glitter with cruel intelligence.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"deskari": { "copyof": "demon_lord,_deskari" },
@@ -2740,26 +2178,6 @@
 		"name": "Demon Lord, Kostchtchie",
 		"file": "monsterdisplaya2ba.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 26,
-		"alignment": "CE",
-		"size": "huge",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"cold",
-			"demon",
-			"evil",
-			"extraplanar"
-		],
-		"str": 48,
-		"dex": 23,
-		"con": 38,
-		"int": 25,
-		"wis": 30,
-		"cha": 27,
-		"base_attack_bonus": 31,
-		"cmb": 52,
-		"cmd": 86,
 		"description": [
 			"## Demon Lord, Kostchtchie",
 			"",
@@ -2840,8 +2258,6 @@
 			"",
 			"**Family:** [Demon Lord](monster/family/demon_lord)"
 		],
-		"short_description": "This towering giant with twisted legs has human skulls woven into his beard and holds an immense warhammer.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"kostchtchie": { "copyof": "demon_lord,_kostchtchie" },
@@ -2852,25 +2268,6 @@
 			"Pathfinder #76: The Midnight Isles",
 			"Bestiary 4"
 		],
-		"cr": 30,
-		"alignment": "CE",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"demon",
-			"evil",
-			"extraplanar"
-		],
-		"str": 34,
-		"dex": 36,
-		"con": 42,
-		"int": 35,
-		"wis": 32,
-		"cha": 40,
-		"base_attack_bonus": 36,
-		"cmb": 48,
-		"cmd": 89,
 		"description": [
 			"## Demon Lord, Nocticula",
 			"",
@@ -2950,8 +2347,6 @@
 			"",
 			"**Family:** [Demon Lord](monster/family/demon_lord)"
 		],
-		"short_description": "This frighteningly majestic creature spreads wide her runeadorned wings. Molten iron weeps from her hooves, and her three tails are studded with barbs.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"nocticula": { "copyof": "demon_lord,_nocticula" },
@@ -2959,26 +2354,6 @@
 		"name": "Demon Lord, Pazuzu",
 		"file": "monsterdisplay273a.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 30,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"air",
-			"chaotic",
-			"demon",
-			"evil",
-			"extraplanar"
-		],
-		"str": 40,
-		"dex": 28,
-		"con": 42,
-		"int": 33,
-		"wis": 34,
-		"cha": 36,
-		"base_attack_bonus": 35,
-		"cmb": 51,
-		"cmd": 92,
 		"description": [
 			"## Demon Lord, Pazuzu",
 			"",
@@ -3057,8 +2432,6 @@
 			"",
 			"**Family:** [Demon Lord](monster/family/demon_lord)"
 		],
-		"short_description": "Held aloft by four great feathered wings, this hawk-faced fiend has a scorpion's tail and carries a black metal scepter.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"pazuzu": { "copyof": "demon_lord,_pazuzu" },
@@ -3069,25 +2442,6 @@
 			"Pathfinder #74: Sword of Valor",
 			"Bestiary 4"
 		],
-		"cr": 28,
-		"alignment": "CE",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"demon",
-			"evil",
-			"extraplanar"
-		],
-		"str": 30,
-		"dex": 39,
-		"con": 40,
-		"int": 30,
-		"wis": 31,
-		"cha": 31,
-		"base_attack_bonus": 33,
-		"cmb": 43,
-		"cmd": 81,
 		"description": [
 			"## Demon Lord, Shax",
 			"",
@@ -3168,8 +2522,6 @@
 			"",
 			"**Family:** [Demon Lord](monster/family/demon_lord)"
 		],
-		"short_description": "This stork-headed, winged humanoid is spattered with blood and wields a pair of gory, razor-sharp daggers in his dripping hands.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"shax": { "copyof": "demon_lord,_shax" },
@@ -3180,25 +2532,6 @@
 			"Pathfinder #75: Demon's Heresy",
 			"Bestiary 4"
 		],
-		"cr": 28,
-		"alignment": "CE",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"demon",
-			"evil",
-			"extraplanar"
-		],
-		"str": 32,
-		"dex": 35,
-		"con": 42,
-		"int": 33,
-		"wis": 29,
-		"cha": 36,
-		"base_attack_bonus": 31,
-		"cmb": 42,
-		"cmd": 85,
 		"description": [
 			"## Demon Lord, Sifkesh",
 			"",
@@ -3278,8 +2611,6 @@
 			"",
 			"**Family:** [Demon Lord](monster/family/demon_lord)"
 		],
-		"short_description": "This gaunt woman has blood-soaked hair, eyes and lips stitched shut with wire, and severed limbs that float nearby as if they were still attached.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"sifkesh": { "copyof": "demon_lord,_sifkesh" },
@@ -3290,19 +2621,6 @@
 			"Pathfinder #73: The Worldwound Incursion",
 			"Bestiary 4"
 		],
-		"cr": 27,
-		"alignment": "CE",
-		"size": "huge",
-		"creature_type": "outsider",
-		"str": 44,
-		"dex": 23,
-		"con": 38,
-		"int": 24,
-		"wis": 32,
-		"cha": 28,
-		"base_attack_bonus": 33,
-		"cmb": 52,
-		"cmd": 86,
 		"description": [
 			"## Demon Lord, Xoveron",
 			"",
@@ -3379,8 +2697,6 @@
 			"",
 			"**Family:** [Demon Lord](monster/family/demon_lord)"
 		],
-		"short_description": "This hulking, four-armed, four-headed, sting-tailed gargoyle stands as tall as a house.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"xoveron": { "copyof": "demon_lord,_xoveron" },
@@ -3388,24 +2704,6 @@
 		"name": "Emperor of Scales",
 		"file": "monsterdisplaye1f0.html",
 		"sources": [ "Pathfinder #42: Sanctum of the Serpent God" ],
-		"cr": 15,
-		"alignment": "CE",
-		"size": "huge",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"evil",
-			"native"
-		],
-		"str": 26,
-		"dex": 24,
-		"con": 23,
-		"int": 13,
-		"wis": 19,
-		"cha": 22,
-		"base_attack_bonus": 18,
-		"cmb": 28,
-		"cmd": 45,
 		"description": [
 			"## Emperor of Scales",
 			"",
@@ -3473,8 +2771,6 @@
 			"",
 			"The Emperor of Scales does not speak, but it can communicate telepathically. Snakes and serpents of all kinds and sizes flock to the Emperor of Scales, who can enslave them to his will. The Emperor of Scales appears as a giant snake's head about 20 feet long, and weighs close to 5 tons. His serpentine tendrils extend another 15 feet behind and around his head."
 		],
-		"short_description": "The air fills with the sound of hissing snakes as a giant, severed snake's head floats into view, with a gaping mouth and twin fangs dripping virulent poison. Its eyes are milky and blind, but its forked tongue constantly tests the air for fresh scents. Below the head, where a body should be, numerous hissing serpents thrash like tendrils of torn flesh. Blood drips from the severed head, sizzling as it burns like acid through anything it touches.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"empyreal_lord,_arshea": {
@@ -3484,24 +2780,6 @@
 			"Bestiary 6",
 			"Bestiary 4"
 		],
-		"cr": 29,
-		"alignment": "NG",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"angel",
-			"extraplanar",
-			"good"
-		],
-		"str": 40,
-		"dex": 34,
-		"con": 41,
-		"int": 31,
-		"wis": 34,
-		"cha": 37,
-		"base_attack_bonus": 34,
-		"cmb": 49,
-		"cmd": 97,
 		"description": [
 			"## Empyreal Lord, Arshea",
 			"",
@@ -3579,8 +2857,6 @@
 			"",
 			"**Family:** [Empyreal Lord](monster/family/empyreal_lord)"
 		],
-		"short_description": "Blue-gray wings extend over the jeweled bangles and gossamer veils of this androgynous angel.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"arshea": { "copyof": "empyreal_lord,_arshea" },
@@ -3591,25 +2867,6 @@
 			"Pathfinder #134: It Came from Hollow Mountain",
 			"Bestiary 4"
 		],
-		"cr": 28,
-		"alignment": "CG",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"azata",
-			"chaotic",
-			"extraplanar",
-			"good"
-		],
-		"str": 27,
-		"dex": 41,
-		"con": 40,
-		"int": 28,
-		"wis": 31,
-		"cha": 40,
-		"base_attack_bonus": 33,
-		"cmb": 48,
-		"cmd": 82,
 		"description": [
 			"## Empyreal Lord, Ashava",
 			"",
@@ -3690,8 +2947,6 @@
 			"",
 			"**Family:** [Empyreal Lord](monster/family/empyreal_lord)"
 		],
-		"short_description": "This graceful humanoid woman wears a flowing gown of sparkling starlight and a circlet of moss.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"ashava": { "copyof": "empyreal_lord,_ashava" },
@@ -3702,25 +2957,6 @@
 			"Bestiary 6",
 			"Bestiary 4"
 		],
-		"cr": 28,
-		"alignment": "CG",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"azata",
-			"chaotic",
-			"extraplanar",
-			"good"
-		],
-		"str": 28,
-		"dex": 40,
-		"con": 40,
-		"int": 27,
-		"wis": 30,
-		"cha": 33,
-		"base_attack_bonus": 33,
-		"cmb": 43,
-		"cmd": 78,
 		"description": [
 			"## Empyreal Lord, Black Butterfly",
 			"",
@@ -3802,8 +3038,6 @@
 			"",
 			"**Family:** [Empyreal Lord](monster/family/empyreal_lord)"
 		],
-		"short_description": "This living silhouette of a graceful woman has white hair and eyes. Her butterfly wings shimmer with twinkling stars.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"black_butterfly": { "copyof": "empyreal_lord,_black_butterfly" },
@@ -3811,25 +3045,6 @@
 		"name": "Empyreal Lord, Cernunnos",
 		"file": "monsterdisplay588b.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 30,
-		"alignment": "CG",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"azata",
-			"chaotic",
-			"extraplanar",
-			"good"
-		],
-		"str": 29,
-		"dex": 35,
-		"con": 39,
-		"int": 18,
-		"wis": 22,
-		"cha": 21,
-		"base_attack_bonus": 34,
-		"cmb": 44,
-		"cmd": 67,
 		"description": [
 			"## Empyreal Lord, Cernunnos",
 			"",
@@ -3928,8 +3143,6 @@
 			"",
 			"**Family:** [Empyreal Lord](monster/family/empyreal_lord)"
 		],
-		"short_description": "This tall, graceful person has elven features, the horns of a majestic stag and a piercing, ageless stare.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"cernunnos": { "copyof": "empyreal_lord,_cernunnos" },
@@ -3937,24 +3150,6 @@
 		"name": "Empyreal Lord, Korada",
 		"file": "monsterdisplayd072.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 26,
-		"alignment": "NG",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"agathion",
-			"extraplanar",
-			"good"
-		],
-		"str": 26,
-		"dex": 30,
-		"con": 33,
-		"int": 25,
-		"wis": 35,
-		"cha": 38,
-		"base_attack_bonus": 32,
-		"cmb": 41,
-		"cmd": 84,
 		"description": [
 			"## Empyreal Lord, Korada",
 			"",
@@ -4039,8 +3234,6 @@
 			"",
 			"**Family:** [Empyreal Lord](monster/family/empyreal_lord)"
 		],
-		"short_description": "This serene, acrobatic man has stiff sideburns, a beard like a monkey, and three golden-furred tails.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"korada": { "copyof": "empyreal_lord,_korada" },
@@ -4051,25 +3244,6 @@
 			"Bestiary 6",
 			"Bestiary 4"
 		],
-		"cr": 26,
-		"alignment": "LG",
-		"size": "huge",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"angel",
-			"extraplanar",
-			"good",
-			"lawful"
-		],
-		"str": 32,
-		"dex": 28,
-		"con": 39,
-		"int": 23,
-		"wis": 22,
-		"cha": 29,
-		"base_attack_bonus": 31,
-		"cmb": 44,
-		"cmd": 76,
 		"description": [
 			"## Empyreal Lord, Ragathiel",
 			"",
@@ -4150,8 +3324,6 @@
 			"",
 			"**Family:** [Empyreal Lord](monster/family/empyreal_lord)"
 		],
-		"short_description": "This towering angelic general has five wings of fire, a flaming bastard sword, and resplendent golden armor.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"ragathiel": { "copyof": "empyreal_lord,_ragathiel" },
@@ -4159,25 +3331,6 @@
 		"name": "Empyreal Lord, Vildeis",
 		"file": "monsterdisplay0f0d.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 28,
-		"alignment": "LG",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"angel",
-			"extraplanar",
-			"good",
-			"lawful"
-		],
-		"str": 35,
-		"dex": 29,
-		"con": 37,
-		"int": 18,
-		"wis": 22,
-		"cha": 21,
-		"base_attack_bonus": 33,
-		"cmb": 46,
-		"cmd": 66,
 		"description": [
 			"## Empyreal Lord, Vildeis",
 			"",
@@ -4261,8 +3414,6 @@
 			"",
 			"**Family:** [Empyreal Lord](monster/family/empyreal_lord)"
 		],
-		"short_description": "This red-winged angel is blindfolded and wrapped with bloody bandages. What shows of her flesh is scarred with celestial runes.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"vildeis": { "copyof": "empyreal_lord,_vildeis" },
@@ -4270,25 +3421,6 @@
 		"name": "Erotundee, Keeper of the Risen Light",
 		"file": "monsterdisplay8593.html",
 		"sources": [ "Demons Revisited" ],
-		"cr": 22,
-		"alignment": "CE",
-		"size": "huge",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"demon",
-			"evil",
-			"extraplanar"
-		],
-		"str": 30,
-		"dex": 15,
-		"con": 31,
-		"int": 36,
-		"wis": 22,
-		"cha": 30,
-		"base_attack_bonus": 21,
-		"cmb": 33,
-		"cmd": 50,
 		"description": [
 			"## Erotundee, Keeper of the Risen Light",
 			"",
@@ -4353,27 +3485,12 @@
 			"",
 			"Those who would seek to conjure Erotundee must use a gate spell to work such a mighty feat. She prefers offerings of heretical writings or rare religious texts, particularly those that hold secrets their faiths would rather see redacted. It's a DC 32 check to research the Keeper of the Risen Light."
 		],
-		"short_description": "This wretched demon combines the worst features of a deformed boar and a repellent hag, then somehow manages to make things worse by decorating the whole with an ugly patchwork of scars and a rancidly obese body.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"eudranis": {
 		"name": "Eudranis",
 		"file": "monsterdisplay100c.html",
 		"sources": [ "Darklands Revisited" ],
-		"cr": 5,
-		"alignment": "CE",
-		"size": "medium",
-		"creature_type": "monstrous humanoid",
-		"str": 14,
-		"dex": 16,
-		"con": 16,
-		"int": 7,
-		"wis": 18,
-		"cha": 10,
-		"base_attack_bonus": 6,
-		"cmb": 8,
-		"cmd": 21,
 		"description": [
 			"## Eudranis",
 			"",
@@ -4424,27 +3541,12 @@
 			"",
 			"Following a night of bloodshed, the morlocks tortured and slew the Pathfinders, whose screams echoed through the ruins of the ancient Azlanti city they had come to plunder. The morlocks soon hailed Eudranis as a prophet of the tribe's new true goddess, Lamashtu. Guiding his tribe fully into Lamashtu's worship, Eudranis has vowed never to be tricked by humanity again. The morlocks of his tribe have embraced their monstrous physiques and abandoned the reverence their race traditionally holds for their human ancestors."
 		],
-		"short_description": "Garbed in tattered robes, this emaciated humanoid creature stares out with unblinking white eyes. In one hand, he clutches a great blade, while his other hand holds an idol of some fell power.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"fyndylsnitch_the_shadowking": {
 		"name": "Fyndylsnitch the Shadowking",
 		"file": "monsterdisplayd3f5.html",
 		"sources": [ "Fey Revisited" ],
-		"cr": 7,
-		"alignment": "CN",
-		"size": "small",
-		"creature_type": "fey",
-		"str": 11,
-		"dex": 18,
-		"con": 12,
-		"int": 14,
-		"wis": 17,
-		"cha": 20,
-		"base_attack_bonus": 4,
-		"cmb": 3,
-		"cmd": 17,
 		"description": [
 			"## Fyndylsnitch the Shadowking",
 			"",
@@ -4491,33 +3593,12 @@
 			"",
 			"A master of shadow magic, Fyndylsnitch delights in using his craft to warp reality. While it is suspected he holds great power, the Lord of Drearwood has never moved from his realm. For this reason, sages speculate he performs some sort of duty for a greater lord in First World."
 		],
-		"short_description": "Dressed entirely in gray worn robes, a tiny, otherworldly man stands cloaked in mysterious shadows, his head crowned by a mane of wild, fiery-orange hair and his green eyes gleaming with madness and delight.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"galundari": {
 		"name": "Galundari, the Scourge of Heaven",
 		"file": "monsterdisplay0c68.html",
 		"sources": [ "Demons Revisited" ],
-		"cr": 25,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"demon",
-			"evil",
-			"extraplanar"
-		],
-		"str": 40,
-		"dex": 23,
-		"con": 40,
-		"int": 26,
-		"wis": 24,
-		"cha": 29,
-		"base_attack_bonus": 25,
-		"cmb": 41,
-		"cmd": 61,
 		"description": [
 			"## Galundari, the Scourge of Heaven",
 			"",
@@ -4574,28 +3655,12 @@
 			"",
 			"Galundari requires the sacrifice of nothing less than a planetar (minimum CR of 18) when conjured-the murder of the planetar must be performed by the conjurer in Galundari's presence, and the angel must be conscious when the murder is performed. It's a DC 35 check to research Galundari, but as long as he remains imprisoned in the Lens of Galundari (itself still lost in the Nemesis Well), he cannot be conjured at all. Assuming the balor lord can be freed, his skill at creating magical armor, weapons, and wondrous items is as significant as his skill in combat."
 		],
-		"short_description": "This towering, burning demon wears black, spiky armor and carries two weapons-a jagged sword and a whip of flames.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"ghristah": {
 		"name": "Ghristah",
 		"file": "monsterdisplayf6b8.html",
 		"sources": [ "Darklands Revisited" ],
-		"cr": 8,
-		"alignment": "NE",
-		"size": "medium",
-		"creature_type": "humanoid",
-		"creature_subtypes": [ "reptilian" ],
-		"str": 14,
-		"dex": 14,
-		"con": 18,
-		"int": 6,
-		"wis": 13,
-		"cha": 11,
-		"base_attack_bonus": 6,
-		"cmb": 8,
-		"cmd": 20,
 		"description": [
 			"## Ghristah",
 			"",
@@ -4644,8 +3709,6 @@
 			"",
 			"Ghristah enjoys teaching other troglodytes the basics of hunting and stalking prey. Because of her wandering nature, she rarely spends much time with a given tribe, but she has perfected working with other troglodytes, making optimal use of their unrefined tactics. When confronted by hostile intruders, Ghristah is not above recruiting local troglodytes and reptiles to work with her in overcoming these foes. She may stalk her prey for months at a time, striking at inopportune moments or using her magic at range to confound foes already caught up with other threats."
 		],
-		"short_description": "Wielding a net of woven moss and a stone javelin, this humanoid reptile wears armor of swamp reeds and bone and the skull of a larger reptile as a menacing mask.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"great_old_one,_atlach-nacha": {
@@ -4655,23 +3718,6 @@
 			"Pathfinder #112: The Whisper Out of Time",
 			"Bestiary 4"
 		],
-		"cr": 28,
-		"alignment": "NE",
-		"size": "huge",
-		"creature_type": "aberration",
-		"creature_subtypes": [
-			"evil",
-			"Great Old One"
-		],
-		"str": 44,
-		"dex": 36,
-		"con": 44,
-		"int": 29,
-		"wis": 33,
-		"cha": 28,
-		"base_attack_bonus": 24,
-		"cmb": 43,
-		"cmd": 77,
 		"description": [
 			"## Great Old One, Atlach-Nacha",
 			"",
@@ -4758,8 +3804,6 @@
 			"",
 			"**Family:** [Great Old One](monster/family/great_old_one)"
 		],
-		"short_description": "The size of a bull elephant, this red-and-black arachnid has a bloated body and spindly legs, made all the more horrifying by the all-too-human appearance of its baleful visage.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"atlach-nacha": { "copyof": "great_old_one,_atlach-nacha" },
@@ -4768,25 +3812,6 @@
 		"name": "Great Old One, Bokrug",
 		"file": "monsterdisplay89cf.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 27,
-		"alignment": "CN",
-		"size": "large",
-		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"aquatic",
-			"chaotic",
-			"extraplanar",
-			"Great Old One"
-		],
-		"str": 40,
-		"dex": 27,
-		"con": 42,
-		"int": 22,
-		"wis": 30,
-		"cha": 27,
-		"base_attack_bonus": 30,
-		"cmb": 46,
-		"cmd": 74,
 		"description": [
 			"## Great Old One, Bokrug",
 			"",
@@ -4868,8 +3893,6 @@
 			"",
 			"**Family:** [Great Old One](monster/family/great_old_one)"
 		],
-		"short_description": "This great reptilian monster is an aquatic lizard with a beard of tentacles and a sting-tipped tail.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"bokrug": { "copyof": "great_old_one,_bokrug" },
@@ -4877,24 +3900,6 @@
 		"name": "Great Old One, Cthulhu",
 		"file": "monsterdisplay73cd.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 30,
-		"alignment": "CE",
-		"size": "colossal",
-		"creature_type": "aberration",
-		"creature_subtypes": [
-			"chaotic",
-			"evil",
-			"Great Old One"
-		],
-		"str": 56,
-		"dex": 21,
-		"con": 45,
-		"int": 31,
-		"wis": 36,
-		"cha": 34,
-		"base_attack_bonus": 27,
-		"cmb": 58,
-		"cmd": 97,
 		"description": [
 			"## Great Old One, Cthulhu",
 			"",
@@ -4972,8 +3977,6 @@
 			"",
 			"**Family:** [Great Old One](monster/family/great_old_one)"
 		],
-		"short_description": "This towering impossibility, neither quite octopus nor dragon nor giant but something far worse, must surely herald the end of times.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"cthulhu": { "copyof": "great_old_one,_cthulhu" },
@@ -4984,24 +3987,6 @@
 			"Pathfinder #114: Black Stars Beckon",
 			"Bestiary 4"
 		],
-		"cr": 29,
-		"alignment": "NE",
-		"size": "colossal",
-		"creature_type": "aberration",
-		"creature_subtypes": [
-			"chaotic",
-			"evil",
-			"Great Old One"
-		],
-		"str": 52,
-		"dex": 33,
-		"con": 43,
-		"int": 29,
-		"wis": 32,
-		"cha": 30,
-		"base_attack_bonus": 26,
-		"cmb": 55,
-		"cmd": 87,
 		"description": [
 			"## Great Old One, Ghatanothoa",
 			"",
@@ -5075,8 +4060,6 @@
 			"",
 			"**Family:** [Great Old One](monster/family/great_old_one)"
 		],
-		"short_description": "An insane tangle of eyes and mouths, arms and legs, tentacles and worse rises up upon itself, a mountain of madness come to life.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"ghatanothoa": { "copyof": "great_old_one,_ghatanothoa" },
@@ -5084,24 +4067,6 @@
 		"name": "Great Old One, Hastur",
 		"file": "monsterdisplay6c60.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 29,
-		"alignment": "CE",
-		"size": "medium",
-		"creature_type": "aberration",
-		"creature_subtypes": [
-			"chaotic",
-			"evil",
-			"Great Old One"
-		],
-		"str": 24,
-		"dex": 43,
-		"con": 44,
-		"int": 35,
-		"wis": 31,
-		"cha": 36,
-		"base_attack_bonus": 25,
-		"cmb": 41,
-		"cmd": 69,
 		"description": [
 			"## Great Old One, Hastur",
 			"",
@@ -5177,8 +4142,6 @@
 			"",
 			"**Family:** [Great Old One](monster/family/great_old_one)"
 		],
-		"short_description": "This entity appears to be a skeletal human form hidden under tattered yellow robes, but it moves with unsettling, inhuman grace.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"hastur": { "copyof": "great_old_one,_hastur" },
@@ -5189,26 +4152,6 @@
 			"Pathfinder #109: In Search of Sanity",
 			"Bestiary 4"
 		],
-		"cr": 28,
-		"alignment": "CE",
-		"size": "gargantuan",
-		"creature_type": "monstrous humanoid",
-		"creature_subtypes": [
-			"air",
-			"chaotic",
-			"cold",
-			"evil",
-			"Great Old One"
-		],
-		"str": 46,
-		"dex": 31,
-		"con": 42,
-		"int": 29,
-		"wis": 31,
-		"cha": 30,
-		"base_attack_bonus": 32,
-		"cmb": 54,
-		"cmd": 95,
 		"description": [
 			"## Great Old One, Ithaqua",
 			"",
@@ -5296,8 +4239,6 @@
 			"",
 			"**Family:** [Great Old One](monster/family/great_old_one)"
 		],
-		"short_description": "This looming humanoid shape has long, gangly limbs, glowing red eyes, and a gaping mouth full of fangs.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"ithaqua": { "copyof": "great_old_one,_ithaqua" },
@@ -5308,24 +4249,6 @@
 			"Pathfinder #138: Rise of New Thassilon",
 			"Bestiary 4"
 		],
-		"cr": 26,
-		"alignment": "CE",
-		"size": "colossal",
-		"creature_type": "aberration",
-		"creature_subtypes": [
-			"chaotic",
-			"evil",
-			"Great Old One"
-		],
-		"str": 42,
-		"dex": 13,
-		"con": 38,
-		"int": 28,
-		"wis": 31,
-		"cha": 29,
-		"base_attack_bonus": 24,
-		"cmb": 48,
-		"cmd": 69,
 		"description": [
 			"## Great Old One, Mhar",
 			"",
@@ -5400,8 +4323,6 @@
 			"",
 			"**Family:** [Great Old One](monster/family/great_old_one)"
 		],
-		"short_description": "Eight pairs of crystalline legs support this enormous volcano. The volcano's crater constantly spews smoke and roiling lava.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"mhar": { "copyof": "great_old_one,_mhar" },
@@ -5412,25 +4333,6 @@
 			"Pathfinder #110: The Thrushmoor Terror",
 			"Bestiary 4"
 		],
-		"cr": 30,
-		"alignment": "CE",
-		"size": "gargantuan",
-		"creature_type": "aberration",
-		"creature_subtypes": [
-			"chaotic",
-			"evil",
-			"Great Old One",
-			"incorporeal"
-		],
-		"str": null,
-		"dex": 40,
-		"con": 44,
-		"int": 33,
-		"wis": 34,
-		"cha": 37,
-		"base_attack_bonus": 26,
-		"cmb": 45,
-		"cmd": 81,
 		"description": [
 			"## Great Old One, Mordiggian",
 			"",
@@ -5510,8 +4412,6 @@
 			"",
 			"**Family:** [Great Old One](monster/family/great_old_one)"
 		],
-		"short_description": "This massive wormlike creature appears to be made of solid darkness that sucks surrounding light into its body to be forever extinguished.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"mordiggian": { "copyof": "great_old_one,_mordiggian" },
@@ -5522,25 +4422,6 @@
 			"Bestiary 6",
 			"Bestiary 4"
 		],
-		"cr": 28,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "aberration",
-		"creature_subtypes": [
-			"aquatic",
-			"chaotic",
-			"evil",
-			"Great Old One"
-		],
-		"str": 46,
-		"dex": 30,
-		"con": 43,
-		"int": 29,
-		"wis": 32,
-		"cha": 29,
-		"base_attack_bonus": 24,
-		"cmb": 43,
-		"cmd": 74,
 		"description": [
 			"## Great Old One, Rhan-Tegoth",
 			"",
@@ -5619,8 +4500,6 @@
 			"",
 			"**Family:** [Great Old One](monster/family/great_old_one)"
 		],
-		"short_description": "This six-legged, spiderlike monstrosity has a bloated abdomen and a hideous face from which three bulbous eyes glare.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"rhan-tegoth": { "copyof": "great_old_one,_rhan-tegoth" },
@@ -5632,24 +4511,6 @@
 			"Bestiary 6",
 			"Bestiary 4"
 		],
-		"cr": 30,
-		"alignment": "CN",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"extraplanar",
-			"Great Old One"
-		],
-		"str": 44,
-		"dex": 36,
-		"con": 43,
-		"int": 35,
-		"wis": 32,
-		"cha": 35,
-		"base_attack_bonus": 35,
-		"cmb": 53,
-		"cmd": 91,
 		"description": [
 			"## Great Old One, Tawil At'umr",
 			"",
@@ -5730,8 +4591,6 @@
 			"",
 			"**Family:** [Great Old One](monster/family/great_old_one)"
 		],
-		"short_description": "A gray robe and veil obscure this humanoid's form, save for a foaming mass of bubbles and tentacles extending from below.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"tawil_at'umr": { "copyof": "great_old_one,_tawil_at'umr" },
@@ -5742,24 +4601,6 @@
 			"Pathfinder #111: Dreams of the Yellow King",
 			"Bestiary 4"
 		],
-		"cr": 29,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "aberration",
-		"creature_subtypes": [
-			"chaotic",
-			"evil",
-			"Great Old One"
-		],
-		"str": 48,
-		"dex": 33,
-		"con": 46,
-		"int": 31,
-		"wis": 32,
-		"cha": 35,
-		"base_attack_bonus": 24,
-		"cmb": 44,
-		"cmd": 75,
 		"description": [
 			"## Great Old One, Tsathoggua",
 			"",
@@ -5852,8 +4693,6 @@
 			"",
 			"**Family:** [Great Old One](monster/family/great_old_one)"
 		],
-		"short_description": "Neither quite humanoid nor quite toad, this lumbering monstrosity maintains a malevolent expression on its batlike face.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"tsathoggua": { "copyof": "great_old_one,_tsathoggua" },
@@ -5864,24 +4703,6 @@
 			"Pathfinder #113: What Grows Within",
 			"Bestiary 4"
 		],
-		"cr": 26,
-		"alignment": "NE",
-		"size": "gargantuan",
-		"creature_type": "plant",
-		"creature_subtypes": [
-			"aquatic",
-			"evil",
-			"Great Old One"
-		],
-		"str": 36,
-		"dex": 30,
-		"con": 45,
-		"int": 19,
-		"wis": 28,
-		"cha": 25,
-		"base_attack_bonus": 21,
-		"cmb": 38,
-		"cmd": 68,
 		"description": [
 			"## Great Old One, Xhamen-Dor",
 			"",
@@ -5961,8 +4782,6 @@
 			"",
 			"**Family:** [Great Old One](monster/family/great_old_one)"
 		],
-		"short_description": "A hideous tangle of hairlike fungal filaments writhes with nauseating purpose. Bones lie tangled in the wriggling mass, arrayed around a central draconic skull.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"xhamen-dor": { "copyof": "great_old_one,_xhamen-dor" },
@@ -5974,24 +4793,6 @@
 			"Bestiary 6",
 			"Bestiary 4"
 		],
-		"cr": 27,
-		"alignment": "CN",
-		"size": "large",
-		"creature_type": "monstrous humanoid",
-		"creature_subtypes": [
-			"chaotic",
-			"Great Old One",
-			"shapechanger"
-		],
-		"str": 38,
-		"dex": 33,
-		"con": 41,
-		"int": 30,
-		"wis": 33,
-		"cha": 30,
-		"base_attack_bonus": 31,
-		"cmb": 46,
-		"cmd": 77,
 		"description": [
 			"## Great Old One, Yig",
 			"",
@@ -6068,8 +4869,6 @@
 			"",
 			"**Family:** [Great Old One](monster/family/great_old_one)"
 		],
-		"short_description": "This green-scaled humanoid has a long, serpentine neck and head, and its brow is marked by a distinctive crescent shape.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"yig": { "copyof": "great_old_one,_yig" },
@@ -6077,19 +4876,6 @@
 		"name": "Grendler Red-Chains",
 		"file": "monsterdisplay0868.html",
 		"sources": [ "Fey Revisited" ],
-		"cr": 11,
-		"alignment": "NE",
-		"size": "medium",
-		"creature_type": "fey",
-		"str": 22,
-		"dex": 19,
-		"con": 22,
-		"int": 16,
-		"wis": 11,
-		"cha": 13,
-		"base_attack_bonus": 7,
-		"cmb": 13,
-		"cmd": 27,
 		"description": [
 			"## Grendler Red-Chains",
 			"",
@@ -6130,8 +4916,6 @@
 			"",
 			"It's said the latent suffering in Varisia's Hollow Mountain-where Thassilonian slaves long ago carved out a labyrinth of intricate corridors-not only attracted Grendler Red-Chains but helped him grow to a size considered monstrous for a redcap. The height of a short man, Grendler Red-Chains stalks the mountain's tunnels with aplomb, terrorizing adventurers and the complex's denizens alike with his wicked scythe and spiked boots. Perhaps because of his larger size, he heals faster than most redcaps; he enjoys self-mutilation almost as much as he enjoys dipping his cap in his victims' blood. Over the years, Grendler Red-Chains has culled bits of chains and shackles from the corpses of long-dead slaves and embedded them into his own flesh, both to terrify his enemies and to fortify his defenses."
 		],
-		"short_description": "Shards of broken manacles, links of chain, and iron flails are imbedded in this hideous, human-sized man's ruddy flesh. Rivulets of congealing blood run from its soaked cap down its mangled face and neck, soaking its tangled white beard; in its arms looms a rusty but clearly sharp scythe.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"grendler_red_chains": { "copyof": "grendler_red-chains" },
@@ -6142,23 +4926,6 @@
 			"Inner Sea Gods",
 			"Pathfinder #41: The Thousand Fangs Below"
 		],
-		"cr": 15,
-		"alignment": "N",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"herald",
-			"incorporeal"
-		],
-		"str": null,
-		"dex": 27,
-		"con": 22,
-		"int": 31,
-		"wis": 20,
-		"cha": 27,
-		"base_attack_bonus": 17,
-		"cmb": 25,
-		"cmd": 44,
 		"description": [
 			"## Herald, Arcanotheign",
 			"",
@@ -6223,8 +4990,6 @@
 			"",
 			"**Family:** [Herald](monster/family/herald)"
 		],
-		"short_description": "This cloud of swirling energy flickers like lightning, with raw magical power playing across its form.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"arcanotheign": { "copyof": "herald,_arcanotheign" },
@@ -6235,26 +5000,6 @@
 			"Inner Sea Gods",
 			"Pathfinder #29: Mother of Flies"
 		],
-		"cr": 15,
-		"alignment": "LE",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"devil",
-			"evil",
-			"extraplanar",
-			"herald",
-			"lawful"
-		],
-		"str": 26,
-		"dex": 22,
-		"con": 25,
-		"int": 26,
-		"wis": 19,
-		"cha": 25,
-		"base_attack_bonus": 16,
-		"cmb": 24,
-		"cmd": 40,
 		"description": [
 			"## Herald, Basileus",
 			"",
@@ -6314,8 +5059,6 @@
 			"",
 			"**Family:** [Herald](monster/family/herald)"
 		],
-		"short_description": "This comely man is clad in fine silken robes. His eyes smolder with infernal flames.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"basileus": { "copyof": "herald,_basileus" },
@@ -6326,23 +5069,6 @@
 			"Pathfinder #64: Beyond the Doomsday Door",
 			"Inner Sea Gods"
 		],
-		"cr": 15,
-		"alignment": "CN",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"extraplanar"
-		],
-		"str": 18,
-		"dex": 17,
-		"con": 24,
-		"int": 17,
-		"wis": 16,
-		"cha": 22,
-		"base_attack_bonus": 18,
-		"cmb": 23,
-		"cmd": 39,
 		"description": [
 			"## Herald, End's Voice",
 			"",
@@ -6419,8 +5145,6 @@
 			"",
 			"**Family:** [Herald](monster/family/herald)"
 		],
-		"short_description": "A long crimson cloak drapes over the form of this large faceless being, which floats just above the ground on footless legs as its menacing flail crackles with blue currents of electricity.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"end's_voice": { "copyof": "herald,_end's_voice" },
@@ -6431,23 +5155,6 @@
 			"Pathfinder #89: Palace of Fallen Stars",
 			"Inner Sea Gods"
 		],
-		"cr": 15,
-		"alignment": "NE",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"evil",
-			"herald"
-		],
-		"str": 20,
-		"dex": 19,
-		"con": 22,
-		"int": 17,
-		"wis": 16,
-		"cha": 19,
-		"base_attack_bonus": 17,
-		"cmb": 23,
-		"cmd": 37,
 		"description": [
 			"## Herald, Gravedragger",
 			"",
@@ -6527,8 +5234,6 @@
 			"",
 			"The herald sometimes associates with various daemons who help him effect these structured accidents, particularly hydrodaemons (death by drowning), leukodaemons (death by plague), meladaemons (death by starvation and thirst), and crucidaemons (death by traps). In the mortal world, Gravedragger has a fondness for pugwampis and trickster fey, especially bogeymen, and has been known to guide their efforts or even transport them over long distances to save them from extermination or help them to find new victims. He sometimes sneaks into a city in his Grinjack form carrying a sack of pugwampis and releases them upon an unsuspecting urban population, cackling glee as he watches the aftermath."
 		],
-		"short_description": "This creature's body rises from the ground in an amorphous mass of grave dirt and eroded bone. Its upper half is humanoid-shaped and wields an enormous pick made from a giant's rib and skull.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"gravedragger": { "copyof": "herald,_gravedragger" },
@@ -6539,25 +5244,6 @@
 			"Pathfinder #93: Forge of the Giant God",
 			"Inner Sea Gods"
 		],
-		"cr": 15,
-		"alignment": "LE",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"evil",
-			"giant",
-			"herald",
-			"lawful"
-		],
-		"str": 29,
-		"dex": 17,
-		"con": 27,
-		"int": 14,
-		"wis": 16,
-		"cha": 16,
-		"base_attack_bonus": 16,
-		"cmb": 26,
-		"cmd": 40,
 		"description": [
 			"## Herald, Great Elder Iuu",
 			"",
@@ -6644,8 +5330,6 @@
 			"",
 			"When he visits the mortal world, Iuu typically travels with other stone giants; it's very rare that he's encountered alone. Usually, his companions are members of the tribe he came to the Material Plane to help. However, in rare cases, the giants who accompany him are his \"proud children\"-worthy petitioners temporarily given mortal bodies in the form of fiendish stone giants. These companions give Iuu many hands to accomplish tasks that, even with his great strength and knowledge, would be difficult to handle alone."
 		],
-		"short_description": "This ancient stone giant towers over others of his kind and has a crown of crystalline growths sprouting from his head. He holds a warhammer made of meteoric stone pierced by natural deposits of glinting metallic ore.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"great_elder_iuu": { "copyof": "herald,_great_elder_iuu" },
@@ -6656,26 +5340,6 @@
 			"Inner Sea Gods",
 			"Pathfinder #26: The Sixfold Trial"
 		],
-		"cr": 15,
-		"alignment": "LG",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"angel",
-			"extraplanar",
-			"good",
-			"herald",
-			"lawful"
-		],
-		"str": 25,
-		"dex": 21,
-		"con": 22,
-		"int": 22,
-		"wis": 24,
-		"cha": 23,
-		"base_attack_bonus": 18,
-		"cmb": 26,
-		"cmd": 41,
 		"description": [
 			"## Herald, Hand of the Inheritor",
 			"",
@@ -6733,8 +5397,6 @@
 			"",
 			"**Family:** [Herald](monster/family/herald)"
 		],
-		"short_description": "This tall angel has a halo of spinning blades, and is clad is radiant golden armor and equally radiant shield.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"hand_of_the_inheritor": { "copyof": "herald,_hand_of_the_inheritor" },
@@ -6745,23 +5407,6 @@
 			"Pathfinder #86: Lords of Rust",
 			"Inner Sea Gods"
 		],
-		"cr": 15,
-		"alignment": "N",
-		"size": "large",
-		"creature_type": "construct",
-		"creature_subtypes": [
-			"extraplanar",
-			"herald"
-		],
-		"str": 29,
-		"dex": 19,
-		"con": null,
-		"int": 21,
-		"wis": 18,
-		"cha": 16,
-		"base_attack_bonus": 18,
-		"cmb": 28,
-		"cmd": 42,
 		"description": [
 			"## Herald, Latten Mechanism",
 			"",
@@ -6846,8 +5491,6 @@
 			"",
 			"Among the servitors of Brigh, Latten Mechanism is admired for its crafting skills and devotion to all artificial creatures. Some servitors who become melancholy and long to become true flesh beings seek counsel from the herald, hoping to gain a better appreciation of their mechanical bodies and the uniqueness of their souls."
 		],
-		"short_description": "This clockwork termite is the size of a rhinoceros and has an oversized head with a humanoid face on it. Multiple apertures along its body sprout tool-wielding limbs, and a human-sized hatch on its abdomen chitters and clicks like a menacing maw.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"latten_mechanism": { "copyof": "herald,_latten_mechanism" },
@@ -6858,23 +5501,6 @@
 			"Pathfinder #47: Ashes at Dawn",
 			"Inner Sea Gods"
 		],
-		"cr": 15,
-		"alignment": "NE",
-		"size": "large",
-		"creature_type": "undead",
-		"creature_subtypes": [
-			"evil",
-			"extraplanar"
-		],
-		"str": 33,
-		"dex": 25,
-		"con": null,
-		"int": 21,
-		"wis": 20,
-		"cha": 22,
-		"base_attack_bonus": 15,
-		"cmb": 27,
-		"cmd": 44,
 		"description": [
 			"## Herald, Mother's Maw",
 			"",
@@ -6944,8 +5570,6 @@
 			"",
 			"**Family:** [Herald](monster/family/herald)"
 		],
-		"short_description": "This skull is as large as an ogre and surrounded by buzzing flies. Its bat wings are too small to actually carry it, yet it moves through the air as easily as a bird. It is surrounded by the stink of rotting meat, spice, and perfume.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"mother's_maw": { "copyof": "herald,_mother's_maw" },
@@ -6956,26 +5580,6 @@
 			"Inner Sea Gods",
 			"Pathfinder #38: Racing to Ruin"
 		],
-		"cr": 15,
-		"alignment": "N",
-		"size": "huge",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"air",
-			"elemental",
-			"extraplanar",
-			"herald",
-			"water"
-		],
-		"str": 28,
-		"dex": 35,
-		"con": 22,
-		"int": 15,
-		"wis": 15,
-		"cha": 18,
-		"base_attack_bonus": 17,
-		"cmb": 28,
-		"cmd": 51,
 		"description": [
 			"## Herald, Personification of Fury",
 			"",
@@ -7042,8 +5646,6 @@
 			"",
 			"**Family:** [Herald](monster/family/herald)"
 		],
-		"short_description": "Jagged bolts of lightning crackle within this massive and vaguely humanoid storm cloud.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"personification_of_fury": { "copyof": "herald,_personification_of_fury" },
@@ -7054,25 +5656,6 @@
 			"Inner Sea Gods",
 			"Pathfinder #44: Trial of the Beast"
 		],
-		"cr": 15,
-		"alignment": "N",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"extraplanar",
-			"herald",
-			"psychopomp",
-			"shapechanger"
-		],
-		"str": 25,
-		"dex": 16,
-		"con": 20,
-		"int": 18,
-		"wis": 21,
-		"cha": 23,
-		"base_attack_bonus": 19,
-		"cmb": 26,
-		"cmd": 49,
 		"description": [
 			"## Herald, Steward of the Skein",
 			"",
@@ -7132,8 +5715,6 @@
 			"",
 			"**Family:** [Herald](monster/family/herald)"
 		],
-		"short_description": "Skulls adorn the armor of this winged woman. Her helm reveals nothing of her features but a pair of glowing eyes.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"steward_of_the_skein": { "copyof": "herald,_steward_of_the_skein" },
@@ -7144,26 +5725,6 @@
 			"Inner Sea Gods",
 			"Pathfinder #20: House of the Beast"
 		],
-		"cr": 15,
-		"alignment": "NG",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"angel",
-			"extraplanar",
-			"good",
-			"herald",
-			"shapechanger"
-		],
-		"str": 24,
-		"dex": 19,
-		"con": 24,
-		"int": 19,
-		"wis": 23,
-		"cha": 22,
-		"base_attack_bonus": 15,
-		"cmb": 23,
-		"cmd": 37,
 		"description": [
 			"## Herald, Sunlord Thalachos",
 			"",
@@ -7225,8 +5786,6 @@
 			"",
 			"**Family:** [Herald](monster/family/herald)"
 		],
-		"short_description": "This platinum-skinned, four-armed angelic being glows with the power of the sun. He bears two flaming scimitars and a bow.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"sunlord_thalachos": { "copyof": "herald,_sunlord_thalachos" },
@@ -7237,20 +5796,6 @@
 			"Inner Sea Gods",
 			"Pathfinder RPG Bestiary"
 		],
-		"cr": 25,
-		"alignment": "CE",
-		"size": "colossal",
-		"creature_type": "magical beast",
-		"creature_subtypes": [ "spawn of Rovagug" ],
-		"str": 41,
-		"dex": 16,
-		"con": 34,
-		"int": 3,
-		"wis": 15,
-		"cha": 14,
-		"base_attack_bonus": 30,
-		"cmb": 53,
-		"cmd": 66,
 		"description": [
 			"## Herald, Tarrasque",
 			"",
@@ -7312,8 +5857,6 @@
 			"",
 			"**Family:** [Herald](monster/family/herald)"
 		],
-		"short_description": "This immense reptilian beast towers over its surroundings, all teeth and horns and claws and thrashing spiked tail.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"tarrasque": { "copyof": "herald,_tarrasque" },
@@ -7324,26 +5867,6 @@
 			"Inner Sea Gods",
 			"Pathfinder #14: Children of the Void"
 		],
-		"cr": 15,
-		"alignment": "CG",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"extraplanar",
-			"good",
-			"herald",
-			"shapechanger"
-		],
-		"str": 24,
-		"dex": 26,
-		"con": 22,
-		"int": 21,
-		"wis": 18,
-		"cha": 24,
-		"base_attack_bonus": 17,
-		"cmb": 25,
-		"cmd": 51,
 		"description": [
 			"## Herald, Thais",
 			"",
@@ -7406,8 +5929,6 @@
 			"",
 			"**Family:** [Herald](monster/family/herald)"
 		],
-		"short_description": "This defiant, angelic woman has two black wings and three white wings, and bears a crystalline halberd.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"thais": { "copyof": "herald,_thais" },
@@ -7418,24 +5939,6 @@
 			"Inner Sea Gods",
 			"Pathfinder #35: War of the River Kings"
 		],
-		"cr": 15,
-		"alignment": "CN",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"extraplanar",
-			"herald"
-		],
-		"str": 32,
-		"dex": 13,
-		"con": 28,
-		"int": 10,
-		"wis": 15,
-		"cha": 13,
-		"base_attack_bonus": 18,
-		"cmb": 30,
-		"cmd": 41,
 		"description": [
 			"## Herald, The First Blade",
 			"",
@@ -7504,8 +6007,6 @@
 			"",
 			"**Family:** [Herald](monster/family/herald)"
 		],
-		"short_description": "Harsh flourishes decorate the armor of this ironclad giant, as though it were the war regalia of some merciless warlord.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"the_first_blade": { "copyof": "herald,_the_first_blade" },
@@ -7513,23 +6014,6 @@
 		"name": "Herald, The Grand Defender",
 		"file": "monsterdisplay0c08.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cr": 15,
-		"alignment": "LG",
-		"size": "huge",
-		"creature_type": "construct",
-		"creature_subtypes": [
-			"extraplanar",
-			"herald"
-		],
-		"str": 32,
-		"dex": 9,
-		"con": null,
-		"int": 15,
-		"wis": 14,
-		"cha": 13,
-		"base_attack_bonus": 18,
-		"cmb": 31,
-		"cmd": 40,
 		"description": [
 			"## Herald, The Grand Defender",
 			"",
@@ -7590,8 +6074,6 @@
 			"",
 			"**Family:** [Herald](monster/family/herald)"
 		],
-		"short_description": "Made of polished iron, this mighty golem resembles a keen-eyed dwarf. It carries a warhammer and a shield bearing Torag's symbol.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"the_grand_defender": { "copyof": "herald,_the_grand_defender" },
@@ -7602,24 +6084,6 @@
 			"Inner Sea Gods",
 			"Pathfinder #32: Rivers Run Red"
 		],
-		"cr": 15,
-		"alignment": "LG",
-		"size": "colossal",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"extraplanar",
-			"good",
-			"lawful"
-		],
-		"str": 39,
-		"dex": 14,
-		"con": 25,
-		"int": 10,
-		"wis": 13,
-		"cha": 12,
-		"base_attack_bonus": 18,
-		"cmb": 40,
-		"cmd": 53,
 		"description": [
 			"## Herald, The Grim White Stag",
 			"",
@@ -7682,8 +6146,6 @@
 			"",
 			"**Family:** [Herald](monster/family/herald)"
 		],
-		"short_description": "This gigantic stag-like being blurs the line between plant and beast, its horns branching like the limbs of some ancient, leaf less tree.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"the_grim_white_stag": { "copyof": "herald,_the_grim_white_stag" },
@@ -7691,25 +6153,6 @@
 		"name": "Herald, The Menotherian",
 		"file": "monsterdisplaye9d9.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cr": 15,
-		"alignment": "CN",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"extraplanar",
-			"herald",
-			"shapechanger"
-		],
-		"str": 28,
-		"dex": 20,
-		"con": 26,
-		"int": 18,
-		"wis": 18,
-		"cha": 20,
-		"base_attack_bonus": 15,
-		"cmb": 25,
-		"cmd": 40,
 		"description": [
 			"## Herald, The Menotherian",
 			"",
@@ -7772,8 +6215,6 @@
 			"",
 			"**Family:** [Herald](monster/family/herald)"
 		],
-		"short_description": "This gangly black wasp has delicate wings, articulate hands on its front legs, and a pair of jagged stingers the length of a human arm.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"the_menotherian": { "copyof": "herald,_the_menotherian" },
@@ -7784,24 +6225,6 @@
 			"Inner Sea Gods",
 			"Pathfinder #53: Tide of Honor"
 		],
-		"cr": 15,
-		"alignment": "LN",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"extraplanar",
-			"herald",
-			"lawful"
-		],
-		"str": 20,
-		"dex": 31,
-		"con": 20,
-		"int": 21,
-		"wis": 31,
-		"cha": 22,
-		"base_attack_bonus": 17,
-		"cmb": 27,
-		"cmd": 57,
 		"description": [
 			"## Herald, The Old Man",
 			"",
@@ -7860,8 +6283,6 @@
 			"",
 			"**Family:** [Herald](monster/family/herald)"
 		],
-		"short_description": "This bald old human man has long white eyebrows and an even longer white beard. He carries a staff adorned with metal rings.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"the_old_man": { "copyof": "herald,_the_old_man" },
@@ -7869,25 +6290,6 @@
 		"name": "Herald, The Spirit of Adoration",
 		"file": "monsterdisplaybb48.html",
 		"sources": [ "Inner Sea Gods" ],
-		"cr": 15,
-		"alignment": "NG",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"extraplanar",
-			"good",
-			"herald",
-			"shapechanger"
-		],
-		"str": 18,
-		"dex": 19,
-		"con": 22,
-		"int": 19,
-		"wis": 22,
-		"cha": 23,
-		"base_attack_bonus": 16,
-		"cmb": 21,
-		"cmd": 42,
 		"description": [
 			"## Herald, The Spirit of Adoration",
 			"",
@@ -7949,8 +6351,6 @@
 			"",
 			"**Family:** [Herald](monster/family/herald)"
 		],
-		"short_description": "This heavenly warrior appears to be a work of art come to life. She grips a fearsome glaive that trails brilliant colors.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"the_spirit_of_adoration": { "copyof": "herald,_the_spirit_of_adoration" },
@@ -7961,25 +6361,6 @@
 			"Inner Sea Gods",
 			"Pathfinder #59: The Price of Infamy"
 		],
-		"cr": 15,
-		"alignment": "NE",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"evil",
-			"extraplanar",
-			"herald",
-			"shapechanger"
-		],
-		"str": 16,
-		"dex": 35,
-		"con": 24,
-		"int": 13,
-		"wis": 15,
-		"cha": 14,
-		"base_attack_bonus": 17,
-		"cmb": 20,
-		"cmd": 43,
 		"description": [
 			"## Herald, The Stabbing Beast",
 			"",
@@ -8043,8 +6424,6 @@
 			"",
 			"**Family:** [Herald](monster/family/herald)"
 		],
-		"short_description": "This towering, scorpion-tailed man stalks with a soundless grace and murderous intent.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"the_stabbing_beast": { "copyof": "herald,_the_stabbing_beast" },
@@ -8052,24 +6431,6 @@
 		"name": "Horsemen of the Apocalypse, Apollyon",
 		"file": "monsterdisplayd84c.html",
 		"sources": [ "Bestiary 6" ],
-		"cr": 29,
-		"alignment": "NE",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"daemon",
-			"evil",
-			"extraplanar"
-		],
-		"str": 42,
-		"dex": 27,
-		"con": 40,
-		"int": 31,
-		"wis": 32,
-		"cha": 33,
-		"base_attack_bonus": 35,
-		"cmb": 51,
-		"cmd": 86,
 		"description": [
 			"## Horsemen of the Apocalypse, Apollyon",
 			"",
@@ -8144,8 +6505,6 @@
 			"",
 			"**Family:** [Horsemen of the Apocalypse](monster/family/horsemen_of_the_apocalypse)"
 		],
-		"short_description": "This muscular figure has a skeletal ram's head and a cloud of flies spews from his mouth.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"apollyon": { "copyof": "horsemen_of_the_apocalypse,_apollyon" },
@@ -8153,24 +6512,6 @@
 		"name": "Horsemen of the Apocalypse, Charon",
 		"file": "monsterdisplay2645.html",
 		"sources": [ "Bestiary 6" ],
-		"cr": 30,
-		"alignment": "NE",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"daemon",
-			"evil",
-			"extraplanar"
-		],
-		"str": 40,
-		"dex": 27,
-		"con": 42,
-		"int": 35,
-		"wis": 32,
-		"cha": 35,
-		"base_attack_bonus": 36,
-		"cmb": 51,
-		"cmd": 89,
 		"description": [
 			"## Horsemen of the Apocalypse, Charon",
 			"",
@@ -8252,8 +6593,6 @@
 			"",
 			"**Family:** [Horsemen of the Apocalypse](monster/family/horsemen_of_the_apocalypse)"
 		],
-		"short_description": "This ancient figure is dressed in black, and its eyes are sunken pits that glint with malevolent cunning.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"charon": { "copyof": "horsemen_of_the_apocalypse,_charon" },
@@ -8261,24 +6600,6 @@
 		"name": "Horsemen of the Apocalypse, Szuriel",
 		"file": "monsterdisplay54b2.html",
 		"sources": [ "Bestiary 6" ],
-		"cr": 28,
-		"alignment": "NE",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"daemon",
-			"evil",
-			"extraplanar"
-		],
-		"str": 46,
-		"dex": 29,
-		"con": 40,
-		"int": 29,
-		"wis": 30,
-		"cha": 31,
-		"base_attack_bonus": 33,
-		"cmb": 51,
-		"cmd": 86,
 		"description": [
 			"## Horsemen of the Apocalypse, Szuriel",
 			"",
@@ -8352,8 +6673,6 @@
 			"",
 			"**Family:** [Horsemen of the Apocalypse](monster/family/horsemen_of_the_apocalypse)"
 		],
-		"short_description": "This blond woman's pitch-black eyes weep tears of blood, and a massive pair of raven's wings spreads from her shoulders.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"szuriel": { "copyof": "horsemen_of_the_apocalypse,_szuriel" },
@@ -8361,24 +6680,6 @@
 		"name": "Horsemen of the Apocalypse, Trelmarixian",
 		"file": "monsterdisplay5244.html",
 		"sources": [ "Bestiary 6" ],
-		"cr": 27,
-		"alignment": "NE",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"daemon",
-			"evil",
-			"extraplanar"
-		],
-		"str": 38,
-		"dex": 29,
-		"con": 40,
-		"int": 31,
-		"wis": 32,
-		"cha": 31,
-		"base_attack_bonus": 32,
-		"cmb": 46,
-		"cmd": 81,
 		"description": [
 			"## Horsemen of the Apocalypse, Trelmarixian",
 			"",
@@ -8454,8 +6755,6 @@
 			"",
 			"**Family:** [Horsemen of the Apocalypse](monster/family/horsemen_of_the_apocalypse)"
 		],
-		"short_description": "This starving-thin man has a trio of jackal's heads with jagged, crystalline teeth. His oily black flesh ripples disturbingly.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"trelmarixian": { "copyof": "horsemen_of_the_apocalypse,_trelmarixian" },
@@ -8463,26 +6762,6 @@
 		"name": "Ilzunae, the Gloom Widow",
 		"file": "monsterdisplayca32.html",
 		"sources": [ "Demons Revisited" ],
-		"cr": 19,
-		"alignment": "CE",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"demon",
-			"evil",
-			"extraplanar",
-			"incorporeal"
-		],
-		"str": null,
-		"dex": 22,
-		"con": 22,
-		"int": 14,
-		"wis": 20,
-		"cha": 26,
-		"base_attack_bonus": 18,
-		"cmb": 24,
-		"cmd": 44,
 		"description": [
 			"## Ilzunae, the Gloom Widow",
 			"",
@@ -8549,33 +6828,12 @@
 			"",
 			"Ilzunae prefers promises of time left to her own devices on the Material Plane, but will accept the bodies of grieving widows or widowers as well. It's a DC 29 check to research the Gloom Widow."
 		],
-		"short_description": "This lithe, shadowy creature is obviously feminine, yet the talons and horns leave no doubt as to her fiendish nature.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"jarl_gnargorak": {
 		"name": "Jarl Gnargorak",
 		"file": "mythicmonsterdisplay28f8.html",
 		"sources": [ "Mythic Realms" ],
-		"cr": 25,
-		"mr": 8,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"cold",
-			"giant"
-		],
-		"str": 37,
-		"dex": 24,
-		"con": 34,
-		"int": 12,
-		"wis": 18,
-		"cha": 18,
-		"base_attack_bonus": 22,
-		"cmb": 36,
-		"cmd": 58,
-		"mythic": true,
 		"description": [
 			"## Jarl Gnargorak",
 			"",
@@ -8638,31 +6896,12 @@
 			"",
 			"The details for the Winter's Heart artifact can be found [here](unknown/here)."
 		],
-		"short_description": "Clad in mithral and furs and armed with a glowing sword made of ice, this towering, blue-skinned humanoid has a regal presence.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"kaiju,_agyra": {
 		"name": "Kaiju, Agyra",
 		"file": "monsterdisplay0751.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 27,
-		"alignment": "CN",
-		"size": "colossal",
-		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"air",
-			"kaiju"
-		],
-		"str": 44,
-		"dex": 25,
-		"con": 41,
-		"int": 3,
-		"wis": 29,
-		"cha": 25,
-		"base_attack_bonus": 32,
-		"cmb": 57,
-		"cmd": 74,
 		"description": [
 			"## Kaiju, Agyra",
 			"",
@@ -8736,8 +6975,6 @@
 			"",
 			"**Family:** [Kaiju](monster/family/kaiju)"
 		],
-		"short_description": "This two-headed monstrosity has vast wings and a long tail covered in a forest of blades.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"agyra": { "copyof": "kaiju,_agyra" },
@@ -8745,23 +6982,6 @@
 		"name": "Kaiju, Bezravnis",
 		"file": "monsterdisplay9e34.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 26,
-		"alignment": "CN",
-		"size": "colossal",
-		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"earth",
-			"kaiju"
-		],
-		"str": 47,
-		"dex": 20,
-		"con": 40,
-		"int": 3,
-		"wis": 26,
-		"cha": 23,
-		"base_attack_bonus": 30,
-		"cmb": 56,
-		"cmd": 71,
 		"description": [
 			"## Kaiju, Bezravnis",
 			"",
@@ -8827,8 +7047,6 @@
 			"",
 			"**Family:** [Kaiju](monster/family/kaiju)"
 		],
-		"short_description": "The armored plates of this immense, three-tailed scorpion are fiery red, and its stingers glow with molten heat.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"bezravnis": { "copyof": "kaiju,_bezravnis" },
@@ -8836,23 +7054,6 @@
 		"name": "Kaiju, Mogaru",
 		"file": "monsterdisplaybbfb.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 28,
-		"alignment": "CN",
-		"size": "colossal",
-		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"kaiju",
-			"water"
-		],
-		"str": 50,
-		"dex": 21,
-		"con": 41,
-		"int": 3,
-		"wis": 30,
-		"cha": 26,
-		"base_attack_bonus": 34,
-		"cmb": 62,
-		"cmd": 79,
 		"description": [
 			"## Kaiju, Mogaru",
 			"",
@@ -8922,8 +7123,6 @@
 			"",
 			"**Family:** [Kaiju](monster/family/kaiju)"
 		],
-		"short_description": "This towering saurian lumbers on its hind legs, its twin tails thrashing and the spines on its back glowing with red energy.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"mogaru": { "copyof": "kaiju,_mogaru" },
@@ -8934,23 +7133,6 @@
 			"Bestiary 6",
 			"Bestiary 4"
 		],
-		"cr": 30,
-		"alignment": "CE",
-		"size": "colossal",
-		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"fire",
-			"kaiju"
-		],
-		"str": 48,
-		"dex": 37,
-		"con": 42,
-		"int": 3,
-		"wis": 30,
-		"cha": 29,
-		"base_attack_bonus": 35,
-		"cmb": 62,
-		"cmd": 86,
 		"description": [
 			"## Kaiju, Varklops",
 			"",
@@ -9023,8 +7205,6 @@
 			"",
 			"**Family:** [Kaiju](monster/family/kaiju)"
 		],
-		"short_description": "This immense, fiery-orange serpent has three horned heads, a pair of draconic wings, and a long tail tipped with four bony spikes.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"varklops": { "copyof": "kaiju,_varklops" },
@@ -9035,23 +7215,6 @@
 			"Bestiary 6",
 			"Bestiary 4"
 		],
-		"cr": 29,
-		"alignment": "CN",
-		"size": "colossal",
-		"creature_type": "ooze",
-		"creature_subtypes": [
-			"kaiju",
-			"water"
-		],
-		"str": 52,
-		"dex": 31,
-		"con": 42,
-		"int": 3,
-		"wis": 32,
-		"cha": 27,
-		"base_attack_bonus": 26,
-		"cmb": 55,
-		"cmd": 76,
 		"description": [
 			"## Kaiju, Vorgozen",
 			"",
@@ -9126,8 +7289,6 @@
 			"",
 			"**Family:** [Kaiju](monster/family/kaiju)"
 		],
-		"short_description": "This mountain of filthy green sludge heaps up on itself, extending six tentacles and unfolding its core to reveal a single red eye.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"vorgozen": { "copyof": "kaiju,_vorgozen" },
@@ -9138,23 +7299,6 @@
 			"Bestiary 6",
 			"Bestiary 4"
 		],
-		"cr": 25,
-		"alignment": "CN",
-		"size": "colossal",
-		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"air",
-			"kaiju"
-		],
-		"str": 46,
-		"dex": 29,
-		"con": 38,
-		"int": 3,
-		"wis": 26,
-		"cha": 21,
-		"base_attack_bonus": 29,
-		"cmb": 55,
-		"cmd": 75,
 		"description": [
 			"## Kaiju, Yarthoon",
 			"",
@@ -9226,8 +7370,6 @@
 			"",
 			"**Family:** [Kaiju](monster/family/kaiju)"
 		],
-		"short_description": "This immense pale blue worm raises one end of its body like a serpent, its many-toothed maw opening amid a ring of glowing eyes.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"yarthoon": { "copyof": "kaiju,_yarthoon" },
@@ -9235,20 +7377,6 @@
 		"name": "Kallas Devil",
 		"file": "monsterdisplay4d71.html",
 		"sources": [ "Fey Revisited" ],
-		"cr": 9,
-		"alignment": "NE",
-		"size": "large",
-		"creature_type": "fey",
-		"creature_subtypes": [ "aquatic" ],
-		"str": 21,
-		"dex": 20,
-		"con": 20,
-		"int": 13,
-		"wis": 15,
-		"cha": 18,
-		"base_attack_bonus": 6,
-		"cmb": 12,
-		"cmd": 29,
 		"description": [
 			"## Kallas Devil",
 			"",
@@ -9301,33 +7429,12 @@
 			"",
 			"The influence of its hag torso drives the beast to want to clothe itself in skin. Other nuckelavees keep trophies of their kills, but the Kallas Devil flays its quarry to create a patchwork cloak of flesh that it drapes over its upper body. The husk of skin tears easily, so the devil requires a steady supply of victims to maintain its appearance. Some villages that suffer under its vengeance try to appease it by staking out criminals and other undesirables for its pleasure. The fey terror takes these sacrifices but shows no favor to its supplicants."
 		],
-		"short_description": "Growing from the back of a horselike beast is the torso of a sea hag with grossly elongated arms and large, clawed hands. Its tangled web of stringy hair does not hide the disturbing fact that the hideous creature has no skin, and is built of gore and viscera.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"kaltestrua": {
 		"name": "Kaltestrua, Governess of Casnoriva",
 		"file": "monsterdisplay5813.html",
 		"sources": [ "Demons Revisited" ],
-		"cr": 21,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"demon",
-			"evil",
-			"extraplanar"
-		],
-		"str": 25,
-		"dex": 23,
-		"con": 34,
-		"int": 20,
-		"wis": 20,
-		"cha": 30,
-		"base_attack_bonus": 19,
-		"cmb": 27,
-		"cmd": 49,
 		"description": [
 			"## Kaltestrua, Governess of Casnoriva",
 			"",
@@ -9385,27 +7492,12 @@
 			"",
 			"It requires a gate spell to conjure Kaltestrua, and even then the marilith is particularly ill-tempered at having been pulled away from her post in the academy. Every second she's gone is another second the ghosts have a chance to regain ground or, in a worst-case scenario, to take control of the building. As a result, if a conjurer has a relatively short-term task (taking less than a day) for the marilith, she is more likely to agree to perform the service than most of her kind, if only so she can get started (and thus finish) the task quickly and return home. A spellcaster who thinks to keep her from returning home had best be prepared for her increasing fury, for even bound, Kaltestrua has other minions who will come to aid her if she is gone for too long. Kaltestrua prefers offerings of magical flails-ghost touch weapons are her favorite, but as long as the flails possess enhancement bonuses of at least +2, they'll do. It's a DC 31 check to research Kaltestrua."
 		],
-		"short_description": "This serpent-bodied, six-armed woman is painfully thin, haggard, and gaunt. Bloody sores dot her flesh, and the skulladorned flails she wields drip black liquid.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"khalirai": {
 		"name": "Khalirai, the Ivory Queen",
 		"file": "monsterdisplay999a.html",
 		"sources": [ "Fey Revisited" ],
-		"cr": 15,
-		"alignment": "CG",
-		"size": "medium",
-		"creature_type": "fey",
-		"str": 8,
-		"dex": 24,
-		"con": 18,
-		"int": 18,
-		"wis": 20,
-		"cha": 30,
-		"base_attack_bonus": 10,
-		"cmb": 17,
-		"cmd": 37,
 		"description": [
 			"## Khalirai, the Ivory Queen",
 			"",
@@ -9464,29 +7556,12 @@
 			"",
 			"Many years ago, Khalirai fell in lust with a young Mwangi man, and has served as his muse ever since. It has been many years since then, and her love is old and frail; soon she will need to find a new bard to inspire."
 		],
-		"short_description": "This slender, seductive woman has bone-white skin and an otherworldly beauty.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"kortash_khain": {
 		"name": "Kortash Khain",
 		"file": "mythicmonsterdisplayca4a.html",
 		"sources": [ "Mythic Realms" ],
-		"cr": 23,
-		"mr": 6,
-		"alignment": "CE",
-		"size": "medium",
-		"creature_type": "undead",
-		"str": 13,
-		"dex": 21,
-		"con": null,
-		"int": 17,
-		"wis": 32,
-		"cha": 31,
-		"base_attack_bonus": 11,
-		"cmb": 12,
-		"cmd": 32,
-		"mythic": true,
 		"description": [
 			"## Kortash Khain",
 			"",
@@ -9564,32 +7639,12 @@
 			"",
 			"Kortash Khain and any other clerics or oracles worshiping Kabriri gain several unique options when summoning or creating undead to serve them. They add the following creatures to their summon monster lists: I-fiendish human zombie (standard or fast zombie); II-fiendish ghoul, fiendish plague zombie; III-fiendish ghast; IV-giant fiendish ghast; V-ghul; VI-fiendish ghul, great ghul; VII-fiendish great ghul, fiendish shaitan; VIII-black jinni; IX-fiendish black jinni. When using create undead, a cleric or oracle of Kabriri can create a ghul or great ghul from the corpse of a genie rather than creating a mummy (minimum caster level 15th). When creating a ghoul, ghast, ghul, or great ghul with this spell, a cleric or oracle of Kabriri can also apply the fiendish template to that creature. This requires the caster to double the normal material component cost or sacrifice a living humanoid as an additional material component of casting the spell."
 		],
-		"short_description": "This withered humanoid wears sooty, fire-blackened robes and a headdress of black and gold.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"kurshu_the_undying": {
 		"name": "Kurshu the Undying",
 		"file": "monsterdisplay0381.html",
 		"sources": [ "Pathfinder #65: Into the Nightmare Rift" ],
-		"cr": 15,
-		"alignment": "LE",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"evil",
-			"extraplanar",
-			"lawful"
-		],
-		"str": 20,
-		"dex": 23,
-		"con": 26,
-		"int": 31,
-		"wis": 20,
-		"cha": 25,
-		"base_attack_bonus": 17,
-		"cmb": 23,
-		"cmd": 41,
 		"description": [
 			"## Kurshu the Undying",
 			"",
@@ -9659,33 +7714,12 @@
 			"",
 			"Kurshu has no compunction about killing something that defies her or appears to be withholding information or objects she wants (if she has to, she can compel answers from its corpse using limited wish to duplicate speak with dead). She feels her pseudo-mortality at all times and fears death, and is likely to flee any encounter in which she feels outmatched."
 		],
-		"short_description": "This large creature has the upper body of a winged woman and the lower body of a snake. She looks withered, like a preserved corpse.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"kyton_demagogue,_inkariax": {
 		"name": "Kyton Demagogue, Inkariax",
 		"file": "monsterdisplay7d86.html",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
-		"cr": 26,
-		"alignment": "LE",
-		"size": "colossal",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"evil",
-			"extraplanar",
-			"kyton",
-			"lawful"
-		],
-		"str": 34,
-		"dex": 37,
-		"con": 36,
-		"int": 27,
-		"wis": 20,
-		"cha": 23,
-		"base_attack_bonus": 33,
-		"cmb": 53,
-		"cmd": 85,
 		"description": [
 			"## Kyton Demagogue, Inkariax",
 			"",
@@ -9764,7 +7798,6 @@
 			"",
 			"**Family:** Kyton Demagogue(monster/family:kyton_demagogue)"
 		],
-		"short_description": "This impeccably formed man has ice-blue skin. Bleeding icicles pierce his lips and form a jagged cloak around his waist and legs.",
 		"display": "monster"
 	},
 	"inkariax": { "copyof": "kyton_demagogue,_inkariax" },
@@ -9772,25 +7805,6 @@
 		"name": "Lorthact",
 		"file": "monsterdisplayff9d.html",
 		"sources": [ "Inner Sea Bestiary" ],
-		"cr": 25,
-		"alignment": "LE",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"devil",
-			"evil",
-			"extraplanar",
-			"lawful"
-		],
-		"str": 22,
-		"dex": 33,
-		"con": 35,
-		"int": 30,
-		"wis": 26,
-		"cha": 37,
-		"base_attack_bonus": 32,
-		"cmb": 38,
-		"cmd": 65,
 		"description": [
 			"## Lorthact",
 			"",
@@ -9864,28 +7878,12 @@
 			"",
 			"In the end, Eiseth's diabolic assassins found him at long last, and he was forced to fake his own death. Yet he still dominates Korvosa from the shadows, controlling the Acadamae through his descendant Toff Ornelos. Little happens in the city without his knowledge, and he plays the part of the mage through shadow-magic, illusions, limited wishes, and the stolen magic of others. However, casters who delve too deeply into his or Korvosa's secrets find themselves at odds with the deadly duke, his powers honed by centuries of exile to undermine and destroy mages who might uncover his identity or unravel his schemes."
 		],
-		"short_description": "This devilish humanoid has five horns growing out of his forehead that resemble a crown. He stands on stout cloven hooves.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"malsandra": {
 		"name": "Malsandra",
 		"file": "monsterdisplayf444.html",
 		"sources": [ "Fey Revisited" ],
-		"cr": 16,
-		"alignment": "NE",
-		"size": "medium",
-		"creature_type": "fey",
-		"creature_subtypes": [ "aquatic" ],
-		"str": 24,
-		"dex": 28,
-		"con": 21,
-		"int": 12,
-		"wis": 11,
-		"cha": 26,
-		"base_attack_bonus": 13,
-		"cmb": 22,
-		"cmd": 43,
 		"description": [
 			"## Malsandra",
 			"",
@@ -9937,28 +7935,12 @@
 			"",
 			"Malsandra prefers to keep as pets a combination of wayward sailors who find their way into her marshy seaside realm and powerful swamp monsters, which have grown ever more prevalent since the Eye of Abendego has taken hold in the region. From time to time, locals even report seeing the temple ghost with a small black dragon, though these may be simple rumors."
 		],
-		"short_description": "Standing amid a roiling fog, this nude, humanoid woman's pale, wet skin glistens. Her long, dark hair moves about her head as though she were submerged underwater, and rapier in her hand crackles with arcane energy.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"malziarax": {
 		"name": "Malziarax, Rune Giant Overlord",
 		"file": "monsterdisplay9cdb.html",
 		"sources": [ "Giants Revisited" ],
-		"cr": 21,
-		"alignment": "LE",
-		"size": "gargantuan",
-		"creature_type": "humanoid",
-		"creature_subtypes": [ "giant" ],
-		"str": 43,
-		"dex": 14,
-		"con": 32,
-		"int": 18,
-		"wis": 21,
-		"cha": 26,
-		"base_attack_bonus": 19,
-		"cmb": 39,
-		"cmd": 53,
 		"description": [
 			"## Malziarax, Rune Giant Overlord",
 			"",
@@ -10007,33 +7989,12 @@
 			"",
 			"Once there, Malziarax and her new clan trekked across the icy wilderness to the Kodar Mountains, in search of clues that might help them unearth ruins of ancient Thassilon, which would inevitably lead them to even greater powers. Though her ancestors gave up on the wild frontier of Varisia and its surrounding lands, Malziarax claims to see the land for its true potential, and knows that somewhere in these vast mountains lie great stores of treasure for the taking and giants for the enslaving."
 		],
-		"short_description": "This enormous, ebon-skinned giant is covered in glowing red runes and exotic plate armor.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"mangvhune": {
 		"name": "Mangvhune, the Temple Hill Slasher",
 		"file": "monsterdisplayf813.html",
 		"sources": [ "Demons Revisited" ],
-		"cr": 16,
-		"alignment": "CE",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"demon",
-			"evil",
-			"extraplanar"
-		],
-		"str": 26,
-		"dex": 18,
-		"con": 26,
-		"int": 16,
-		"wis": 13,
-		"cha": 14,
-		"base_attack_bonus": 14,
-		"cmb": 22,
-		"cmd": 39,
 		"description": [
 			"## Mangvhune, the Temple Hill Slasher",
 			"",
@@ -10085,28 +8046,12 @@
 			"",
 			"Mangvhune does not require any additional offering when conjured, but does require that any service he provides to a conjurer includes an equal amount of time allowed in the conjurer's region to stalk new victims of the babau assassin's choice. Wise conjurers take pains to protect themselves from Mangvhune's additional attentions once his services have been carried out. It's a DC 26 check to research the Temple Hill Slasher."
 		],
-		"short_description": "This leering, single-horned demon seems emaciated even clad in black dragonhide armor. A viscous layer of crimson slime glistens on its flesh, dripping over its armor in red rivulets.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"mardahamman": {
 		"name": "Mardahamman, Cyclops Tyrant",
 		"file": "monsterdisplay765c.html",
 		"sources": [ "Giants Revisited" ],
-		"cr": 15,
-		"alignment": "NE",
-		"size": "large",
-		"creature_type": "humanoid",
-		"creature_subtypes": [ "giant" ],
-		"str": 23,
-		"dex": 16,
-		"con": 21,
-		"int": 10,
-		"wis": 11,
-		"cha": 10,
-		"base_attack_bonus": 17,
-		"cmb": 24,
-		"cmd": 39,
 		"description": [
 			"## Mardahamman, Cyclops Tyrant",
 			"",
@@ -10153,33 +8098,12 @@
 			"",
 			"Shamed by his own actions and angry at the betrayal of the tyrant he had thought to be his father, Mardahamman fled from the hills and into the Kaava Lands, not knowing that his people originally hailed from there decades earlier. In that forest, he met a small conclave of cyclops warriors who had stayed behind when Huratektor took his tribe to the Bandu Hills. Feeling that these rebels would be the closest he'd ever have to a real family again, Mardahamman joined their conclave and trained to become an expert warrior, eventually coming to lead the cyclopes of the Kaava Lands as their tyrant, all in hopes of one day exacting revenge on his treacherous adoptive father, Nukamman."
 		],
-		"short_description": "Attired in various hides and with pauldrons made from the tusks of a mammoth, this towering, one-eyed humanoid wields an equally massive flat club.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"moxix": {
 		"name": "Moxix",
 		"file": "monsterdisplay174a.html",
 		"sources": [ "Inner Sea Bestiary" ],
-		"cr": 20,
-		"alignment": "CE",
-		"size": "gargantuan",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"demon",
-			"evil",
-			"extraplanar"
-		],
-		"str": 30,
-		"dex": 17,
-		"con": 32,
-		"int": 15,
-		"wis": 24,
-		"cha": 25,
-		"base_attack_bonus": 23,
-		"cmb": 37,
-		"cmd": 50,
 		"description": [
 			"## Moxix",
 			"",
@@ -10248,33 +8172,12 @@
 			"",
 			"To this very day, Moxix remains trapped in his island domain, ever eager to draw creatures to the ziggurat he calls home. There he delights in turning people to cannibalism, destruction, and insanity. Obscuring and disease-laden mists swirl around the island, keeping its lands hidden and protected from trespassers. Once per year, however, on the first full moon after the rainy season, the mists part for a single night. Some explorers have mounted expeditions to Moxix's island during these events, but as of yet, no one has returned the same person she used to be; all bear the mark of insanity Moxix stamps on their being."
 		],
-		"short_description": "This strange, four-armed fiend appears to be constructed completely out of stone. Dried blood stains its body.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"nightripper": {
 		"name": "Nightripper",
 		"file": "monsterdisplayd9f2.html",
 		"sources": [ "Inner Sea Bestiary" ],
-		"cr": 24,
-		"alignment": "CE",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"demon",
-			"evil",
-			"extraplanar"
-		],
-		"str": 29,
-		"dex": 32,
-		"con": 39,
-		"int": 18,
-		"wis": 23,
-		"cha": 24,
-		"base_attack_bonus": 27,
-		"cmb": 36,
-		"cmd": 61,
 		"description": [
 			"## Nightripper",
 			"",
@@ -10349,30 +8252,12 @@
 			"",
 			"Scroon's soul went to the Boneyard, where something amazing happened-he passed through to the Abyss with his mind and memories intact. So remarkable was his retention of his identity that it drew the attention of Lamashtu herself, who pulled the killer's soul from the shuddersome bosom of the Abyss and made him her personal assassin, raising him from a broken shell of a soul to a nascent demon lord with greater power than he'd ever hoped for in life. His form had changed, transforming into a shape more befitting one of his horrific nature, yet his mind remained sharp and clear. Nightripper harbors a strong desire for revenge, but for now he serves dutifully as Lamashtu's favored torturer and assassin and as the lord of the dungeons below her palace in the Abyssal realm of Kurnugia. But it is said that someday, when he has repaid his debt to the Mother of Demons for his ascension and rescue from the dregs of the Abyss, the Nightripper will return to his old haunts. Only this time, it will not be individuals he breaks and bleeds and buries in his pits-it will be entire cities."
 		],
-		"short_description": "Twin talons attached to grotesque back-appendages drip blood from this hideously emaciated, jackal-legged albino demon.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"old-mage_jatembe": {
 		"name": "Old-Mage Jatembe",
 		"file": "mythicmonsterdisplay769b.html",
 		"sources": [ "Mythic Realms" ],
-		"cr": 24,
-		"mr": 6,
-		"alignment": "NG",
-		"size": "medium",
-		"creature_type": "humanoid",
-		"creature_subtypes": [ "human" ],
-		"str": 14,
-		"dex": 16,
-		"con": 18,
-		"int": 41,
-		"wis": 24,
-		"cha": 22,
-		"base_attack_bonus": 10,
-		"cmb": 12,
-		"cmd": 31,
-		"mythic": true,
 		"description": [
 			"## Old-Mage Jatembe",
 			"",
@@ -10444,8 +8329,6 @@
 			"",
 			"For reasons unknown, Jatembe departed Golarion; if anyone knows where he left to, they're silent on the matter. Some believe he left to fulfill obligations to the beings who granted him mythic power, and others think a magnificent spell took him. He left his Ten Magic Warriors behind to rule in his place, and forged the Ring of Nine Facets to aid them in his absence. He has created and used other artifacts in his travels, but gave them all away to allies, keeping only the beacon of true faith that one of his patrons gave him."
 		],
-		"short_description": "This gray-haired man with a short, wiry beard wears a nondescript robe festooned with satchels and decorations.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"old_mage_jatembe": { "copyof": "old-mage_jatembe" },
@@ -10453,20 +8336,6 @@
 		"name": "Old Wulunga",
 		"file": "monsterdisplayed76.html",
 		"sources": [ "Mystery Monsters Revisited" ],
-		"cr": 6,
-		"alignment": "N",
-		"size": "large",
-		"creature_type": "magical beast",
-		"creature_subtypes": [ "aquatic" ],
-		"str": 17,
-		"dex": 20,
-		"con": 17,
-		"int": 2,
-		"wis": 15,
-		"cha": 11,
-		"base_attack_bonus": 8,
-		"cmb": 12,
-		"cmd": 27,
 		"description": [
 			"## Old Wulunga",
 			"",
@@ -10518,31 +8387,12 @@
 			"",
 			"The son of the Koboto spirit-talker Harisha was supposedly slain by Old Wulunga while swimming in the Terwa River. Filled with anger, Harisha swore that she will see the creature dead, and promises to mount his thick, tusked skull on her son's grave. The old oracle has offered a rich reward to anyone who kills Wulunga and returns his body intact, but few trust that Harisha will keep her word."
 		],
-		"short_description": "This bloated, pinniped-like mammal is covered in salty grime, and its sturdy, blunt tusks promise an agonizing death.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"oliphaunt_of_jandelay": {
 		"name": "Oliphaunt of Jandelay",
 		"file": "monsterdisplay171f.html",
 		"sources": [ "Mythic Realms" ],
-		"cr": 30,
-		"alignment": "CN",
-		"size": "colossal",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"extraplanar"
-		],
-		"str": 44,
-		"dex": 27,
-		"con": 37,
-		"int": 14,
-		"wis": 17,
-		"cha": 32,
-		"base_attack_bonus": 40,
-		"cmb": 65,
-		"cmd": 103,
 		"description": [
 			"## Oliphaunt of Jandelay",
 			"",
@@ -10616,28 +8466,12 @@
 			"No sane soul born dares trespass fair Jandelay  ",
 			"For the Oliphaunt guards you always."
 		],
-		"short_description": "The elephantine creature is titanic in scale. Curving tusks frame its flexing, muscular trunk and its canyon of a mouth.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"oozlosh": {
 		"name": "Oozlosh, Marsh Giant High Priest",
 		"file": "monsterdisplay9526.html",
 		"sources": [ "Giants Revisited" ],
-		"cr": 14,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "humanoid",
-		"creature_subtypes": [ "giant" ],
-		"str": 25,
-		"dex": 19,
-		"con": 21,
-		"int": 12,
-		"wis": 23,
-		"cha": 14,
-		"base_attack_bonus": 16,
-		"cmb": 24,
-		"cmd": 40,
 		"description": [
 			"## Oozlosh, Marsh Giant High Priest",
 			"",
@@ -10696,28 +8530,12 @@
 			"",
 			"Oozlosh's zealotry for Dagon knows no bounds. He debases himself physically to honor the demon lord and expects his followers to do the same. The high priest's swamp hovel is not grand, but in the muck around his shack, he secretly conceals prizes scavenged from the tribe's victims. Oozlosh also keeps a cage of shocker lizards outside his home, having become addicted to the jolts he receives when chewing the creatures."
 		],
-		"short_description": "This creature has the bulbous eyes of a fish, and his mottled green skin glistens with slime where it isn't bedecked in gaudy jewelry.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"orania": {
 		"name": "Orania, Cloud Giant Oligarch",
 		"file": "monsterdisplay9e7b.html",
 		"sources": [ "Giants Revisited" ],
-		"cr": 18,
-		"alignment": "NE",
-		"size": "huge",
-		"creature_type": "humanoid",
-		"creature_subtypes": [ "giant" ],
-		"str": 34,
-		"dex": 17,
-		"con": 23,
-		"int": 14,
-		"wis": 18,
-		"cha": 22,
-		"base_attack_bonus": 21,
-		"cmb": 35,
-		"cmd": 50,
 		"description": [
 			"## Orania, Cloud Giant Oligarch",
 			"",
@@ -10774,31 +8592,12 @@
 			"",
 			"Now an adult in the fullness of her power, Orania no longer has to fight her own battles, instead sending her minions into combat for her, minions who see her frightful curse of tongues not as a hindrance, but as a god-given gift. Along with her army of cloud giant and mihstu servants, she has traveled along the western side of the Shattered Range for years in search of the fabled floating cloud giant city that lies somewhere within the rocky crags. She has been obsessed with the idea of floating cloud giant castles since she was a child, and sees in these mythic sky towers the means to forever rid herself of her curse. Through her pawns and other agents, she pursues any rumor of a city's discovery, extracting information with torture when lavish gifts won't suffice."
 		],
-		"short_description": "This blue-skinned giant is outfitted in elegant jewelry and white robes, and wields a lightning-infused spear.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"orynox_marchelin": {
 		"name": "Orynox Marchelin, Fire Giant King",
 		"file": "monsterdisplay2614.html",
 		"sources": [ "Giants Revisited" ],
-		"cr": 19,
-		"alignment": "LE",
-		"size": "large",
-		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"fire",
-			"giant"
-		],
-		"str": 31,
-		"dex": 16,
-		"con": 27,
-		"int": 13,
-		"wis": 14,
-		"cha": 16,
-		"base_attack_bonus": 20,
-		"cmb": 31,
-		"cmd": 47,
 		"description": [
 			"## Orynox Marchelin, Fire Giant King",
 			"",
@@ -10842,28 +8641,12 @@
 			"",
 			"Though Orynox seeks to begin a campaign that would expand his empire further across the Mindspin Mountains both south and east, his advisors have noted their king seems especially preoccupied by his latest queen, **Hregana Marchelin** (LE fire giant barbarian 2/fighter 5), a talented warrior who traveled from distant lands to the south to seek Orynox's hand in marriage, and who has proven to be his most formidable wife yet."
 		],
-		"short_description": "This stocky giant has a flaming mane and facial hair, his massive armor and fiery glaive indicating his prowess as a warrior.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"paakis-si": {
 		"name": "Paakis-Si",
 		"file": "monsterdisplay01b8.html",
 		"sources": [ "Mystery Monsters Revisited" ],
-		"cr": 5,
-		"alignment": "LN",
-		"size": "medium",
-		"creature_type": "humanoid",
-		"creature_subtypes": [ "sasquatch" ],
-		"str": 22,
-		"dex": 19,
-		"con": 18,
-		"int": 11,
-		"wis": 14,
-		"cha": 9,
-		"base_attack_bonus": 5,
-		"cmb": 11,
-		"cmd": 25,
 		"description": [
 			"## Paakis-Si",
 			"",
@@ -10914,8 +8697,6 @@
 			"",
 			"Those who have caught a glimpse of Paakis-si report that the sasquatch appears extremely healthy and vital for a semicentennial, and whether he is actually a thousandyear- old nature spirit or just an unusually long-lived and wise sasquatch is left up to debate. Travelers passing near to or through the Churlwood often consider it a lucky omen to spot Paakis-si's signature footprints."
 		],
-		"short_description": "A wicked scar runs the length of this blue-eyed, apish humanoid's face, and he wields a dislodged tree trunk as a club.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"paakis_si": { "copyof": "paakis-si" },
@@ -10923,19 +8704,6 @@
 		"name": "Papa Chupar",
 		"file": "monsterdisplaye2fc.html",
 		"sources": [ "Mystery Monsters Revisited" ],
-		"cr": 7,
-		"alignment": "N",
-		"size": "medium",
-		"creature_type": "magical beast",
-		"str": 17,
-		"dex": 14,
-		"con": 16,
-		"int": 3,
-		"wis": 16,
-		"cha": 6,
-		"base_attack_bonus": 11,
-		"cmb": 14,
-		"cmd": 27,
 		"description": [
 			"## Papa Chupar",
 			"",
@@ -10981,27 +8749,12 @@
 			"",
 			"Papa Chupar has a wide territory, and homesteads from Bloodcove to Nantambu take extra care guarding their herds at night."
 		],
-		"short_description": "Black spines run down the length of this lanky, reptilian creature's back, and short wings protrude from its hunched shoulders.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"prismatic_orrery": {
 		"name": "Prismatic Orrery",
 		"file": "monsterdisplay59a4.html",
 		"sources": [ "Tombs of Golarion" ],
-		"cr": 13,
-		"alignment": "N",
-		"size": "gargantuan",
-		"creature_type": "construct",
-		"str": 25,
-		"dex": 14,
-		"con": null,
-		"int": null,
-		"wis": 10,
-		"cha": 1,
-		"base_attack_bonus": 18,
-		"cmb": 29,
-		"cmd": 41,
 		"description": [
 			"## Prismatic Orrery",
 			"",
@@ -11060,28 +8813,12 @@
 			"",
 			"**Requirements** Craft Construct, animate objects, permanency, prismatic sphere, true seeing, creator must be caster level 17th; **Skill** Craft (clockwork) DC 25; **Cost** 110,000 gp"
 		],
-		"short_description": "A series of metal rings rotates around a giant prismatic sphere.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"phoenix,_pyralisia": {
 		"name": "Phoenix, Pyralisia, the Rain of Embers",
 		"file": "monsterdisplay17a2.html",
 		"sources": [ "Mythical Monsters Revisited" ],
-		"cr": 18,
-		"alignment": "NE",
-		"size": "gargantuan",
-		"creature_type": "magical beast",
-		"creature_subtypes": [ "fire" ],
-		"str": 29,
-		"dex": 23,
-		"con": 24,
-		"int": 23,
-		"wis": 20,
-		"cha": 24,
-		"base_attack_bonus": 23,
-		"cmb": 36,
-		"cmd": 53,
 		"description": [
 			"## Phoenix, Pyralisia, the Rain of Embers",
 			"",
@@ -11136,8 +8873,6 @@
 			"",
 			"This giant ebon bird is streaked in lines of fiery embers and red lightning, clouds of black smoke billowing behind it."
 		],
-		"short_description": "This giant ebon bird is streaked in lines of fiery embers and red lightning, clouds of black smoke billowing behind it.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"pyralisia": { "copyof": "phoenix,_pyralisia" },
@@ -11145,24 +8880,6 @@
 		"name": "Psychopomp Usher, Barzahk",
 		"file": "monsterdisplay7206.html",
 		"sources": [ "Pathfinder #143: Borne by the Sun's Grace" ],
-		"cr": 28,
-		"alignment": "N",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"extraplanar",
-			"psychopomp",
-			"shapechanger"
-		],
-		"str": 30,
-		"dex": 31,
-		"con": 40,
-		"int": 31,
-		"wis": 32,
-		"cha": 33,
-		"base_attack_bonus": 33,
-		"cmb": 43,
-		"cmd": 69,
 		"description": [
 			"## Psychopomp Usher, Barzahk",
 			"",
@@ -11227,7 +8944,6 @@
 			"",
 			"Barzahk normally wanders the Dead Roads among the faceless flocks of ravens, jays, vultures, and whippoorwills that infest the Dead Roads, but they sometimes assume a larger, more humanoid form. In this form, they stand just over 5 feet tall and weigh 200 pounds."
 		],
-		"short_description": "Feathered arms emerge from the shoulders of this hunched raven, clutching a key of bone.",
 		"display": "monster"
 	},
 	"barzahk": { "copyof": "psychopomp_usher,_barzahk" },
@@ -11235,20 +8951,6 @@
 		"name": "Qaishan Yeti",
 		"file": "monsterdisplay4cba.html",
 		"sources": [ "Mystery Monsters Revisited" ],
-		"cr": 7,
-		"alignment": "LN",
-		"size": "large",
-		"creature_type": "monstrous humanoid",
-		"creature_subtypes": [ "cold" ],
-		"str": 24,
-		"dex": 14,
-		"con": 17,
-		"int": 9,
-		"wis": 16,
-		"cha": 8,
-		"base_attack_bonus": 9,
-		"cmb": 19,
-		"cmd": 33,
 		"description": [
 			"## Qaishan Yeti",
 			"",
@@ -11301,33 +9003,12 @@
 			"",
 			"Qaishan monks train their minds and bodies so they can protect the peaks as required by their sacred oaths. They use a unique combination of feral combat and hardened discipline to ward off interplanar invaders as well as foes who would seek to hinder or distract their order. Instead of landing successive strikes with their fists, they rely on their deadly claws to inflict horrendous gashes that blaze with pain thanks to the supernaturally cold energy that infuses their blows. Those seeking to learn the secret techniques of the Qaishan are politely ushered away, and those who press their luck experience the swift and brutal wrath of the normally staid yetis."
 		],
-		"short_description": "This furry hominid's orange eyes blaze not with fury but with wisdom, and the white hair around its face is streaked with gray.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"qlippoth_lord,_chavazvug": {
 		"name": "Qlippoth Lord, Chavazvug",
 		"file": "monsterdisplay77c5.html",
 		"sources": [ "Bestiary 6" ],
-		"cr": 22,
-		"alignment": "CE",
-		"size": "colossal",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"evil",
-			"extraplanar",
-			"qlippoth"
-		],
-		"str": 36,
-		"dex": 25,
-		"con": 34,
-		"int": 23,
-		"wis": 23,
-		"cha": 22,
-		"base_attack_bonus": 25,
-		"cmb": 46,
-		"cmd": 68,
 		"description": [
 			"## Qlippoth Lord, Chavazvug",
 			"",
@@ -11406,8 +9087,6 @@
 			"",
 			"**Family:** [Qlippoth Lord](monster/family/qlippoth_lord)"
 		],
-		"short_description": "This towering, steaming mass of slithering entrails drags ropes of mouthed intestines below his five spidery legs.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"chavazvug": { "copyof": "qlippoth_lord,_chavazvug" },
@@ -11415,26 +9094,6 @@
 		"name": "Qlippoth Lord, Isph-Aun-Vuln",
 		"file": "monsterdisplay605b-2.html",
 		"sources": [ "Bestiary 6" ],
-		"cr": 25,
-		"alignment": "CE",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"evil",
-			"extraplanar",
-			"incorporeal",
-			"qlippoth"
-		],
-		"str": null,
-		"dex": 35,
-		"con": 38,
-		"int": 31,
-		"wis": 28,
-		"cha": 29,
-		"base_attack_bonus": 28,
-		"cmb": 40,
-		"cmd": 60,
 		"description": [
 			"## Qlippoth Lord, Isph-Aun-Vuln",
 			"",
@@ -11511,8 +9170,6 @@
 			"",
 			"**Family:** [Qlippoth Lord](monster/family/qlippoth_lord)"
 		],
-		"short_description": "A cloud of smoke the size of a human condenses, forming a clot of tentacles and eyes surrounding a fanged mouth.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"isph-aun-vuln": { "copyof": "qlippoth_lord,_isph-aun-vuln" },
@@ -11521,26 +9178,6 @@
 		"name": "Qlippoth Lord, Oaur-Ooung",
 		"file": "monsterdisplay1bf6.html",
 		"sources": [ "Bestiary 6" ],
-		"cr": 23,
-		"alignment": "CE",
-		"size": "colossal",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"aquatic",
-			"chaotic",
-			"evil",
-			"extraplanar",
-			"qlippoth"
-		],
-		"str": 44,
-		"dex": 27,
-		"con": 36,
-		"int": 21,
-		"wis": 23,
-		"cha": 22,
-		"base_attack_bonus": 26,
-		"cmb": 51,
-		"cmd": 73,
 		"description": [
 			"## Qlippoth Lord, Oaur-Ooung",
 			"",
@@ -11625,8 +9262,6 @@
 			"",
 			"**Family:** [Qlippoth Lord](monster/family/qlippoth_lord)"
 		],
-		"short_description": "The sides of this tentacled monstrosity-part jellyfish, part mushroom forest-swell with opaque, pulsing blisters.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"oaur-ooung": { "copyof": "qlippoth_lord,_oaur-ooung" },
@@ -11635,25 +9270,6 @@
 		"name": "Qlippoth Lord, Thuskchoon",
 		"file": "monsterdisplay30d0.html",
 		"sources": [ "Bestiary 6" ],
-		"cr": 21,
-		"alignment": "CE",
-		"size": "gargantuan",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"evil",
-			"extraplanar",
-			"qlippoth"
-		],
-		"str": 36,
-		"dex": 30,
-		"con": 33,
-		"int": 3,
-		"wis": 28,
-		"cha": 21,
-		"base_attack_bonus": 24,
-		"cmb": 41,
-		"cmd": 66,
 		"description": [
 			"## Qlippoth Lord, Thuskchoon",
 			"",
@@ -11733,8 +9349,6 @@
 			"",
 			"**Family:** [Qlippoth Lord](monster/family/qlippoth_lord)"
 		],
-		"short_description": "This sluglike creature leaves a swath of tar wherever he goes, and his upper body opens into a gaping, sludge-dripping mouth.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"thuskchoon": { "copyof": "qlippoth_lord,_thuskchoon" },
@@ -11745,25 +9359,6 @@
 			"Pathfinder #64: Beyond the Doomsday Door",
 			"Bestiary 6"
 		],
-		"cr": 24,
-		"alignment": "CE",
-		"size": "gargantuan",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"evil",
-			"extraplanar",
-			"qlippoth"
-		],
-		"str": 36,
-		"dex": 25,
-		"con": 38,
-		"int": 25,
-		"wis": 21,
-		"cha": 22,
-		"base_attack_bonus": 27,
-		"cmb": 44,
-		"cmd": 66,
 		"description": [
 			"## Qlippoth Lord, Yamasoth",
 			"",
@@ -11837,8 +9432,6 @@
 			"",
 			"**Family:** [Qlippoth Lord](monster/family/qlippoth_lord)"
 		],
-		"short_description": "Writhing, hook-covered tentacles unfurl from this behemoth's body, at the center of which gapes a maw with a red eye in its throat.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"yamasoth": { "copyof": "qlippoth_lord,_yamasoth" },
@@ -11846,19 +9439,6 @@
 		"name": "Quetzutrhul",
 		"file": "monsterdisplay7987.html",
 		"sources": [ "Darklands Revisited" ],
-		"cr": 11,
-		"alignment": "CE",
-		"size": "small",
-		"creature_type": "aberration",
-		"str": 10,
-		"dex": 32,
-		"con": 22,
-		"int": 20,
-		"wis": 10,
-		"cha": 12,
-		"base_attack_bonus": 6,
-		"cmb": 5,
-		"cmd": 27,
 		"description": [
 			"## Quetzutrhul",
 			"",
@@ -11913,28 +9493,12 @@
 			"",
 			"Now, Quetzutrhul plies the waters of the Arcadian Ocean, spreading its own version of piracy. The Jade Adder's captain and crew are never the same for longer than a few months at a time, and their unorthodox and rapidly evolving nautical tactics have made and putting an end to its piracy difficult."
 		],
-		"short_description": "This brainlike creature has two clawed legs emerging from its fore and rear and a serpentine proboscis clutching a dagger.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"rahstalshan": {
 		"name": "Rahstalshan, Stone Giant Elder",
 		"file": "monsterdisplay99a7.html",
 		"sources": [ "Giants Revisited" ],
-		"cr": 14,
-		"alignment": "N",
-		"size": "large",
-		"creature_type": "humanoid",
-		"creature_subtypes": [ "giant" ],
-		"str": 25,
-		"dex": 19,
-		"con": 22,
-		"int": 10,
-		"wis": 14,
-		"cha": 22,
-		"base_attack_bonus": 14,
-		"cmb": 22,
-		"cmd": 38,
 		"description": [
 			"## Rahstalshan, Stone Giant Elder",
 			"",
@@ -11992,30 +9556,12 @@
 			"",
 			"Despairing of ever finding a true home, Rahstalshan felt the pull of the towering Kodar Mountains. Choosing a peak at random, she climbed and climbed, heedless of the biting cold. Near the mountain's top she found an inviting cave overlooking the sprawling lands of the frozen north. Though she had no way of being sure, the ancient stone giant felt that these mountains were her true homeland. Settled in her cave, at peace, she waited for death to take her. Instead, for the first time in her long life, she heard the whispers in the stone, awakening within her the ancient earth magic of her people. She descended from the heights and soon came upon a fledgling tribe of stone giants, bereft of an elder and as lost as she had been. She has guided their path ever since."
 		],
-		"short_description": "This sagely stone giant wears loose furs and a long cloak, and wields a large stone club covered with crystals.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"raskineya": {
 		"name": "Raskineya, the Dark Comet",
 		"file": "mythicmonsterdisplay50fe.html",
 		"sources": [ "Mythic Realms" ],
-		"cr": 16,
-		"mr": 6,
-		"alignment": "CE",
-		"size": "huge",
-		"creature_type": "dragon",
-		"creature_subtypes": [ "mythic" ],
-		"str": 31,
-		"dex": 12,
-		"con": 23,
-		"int": 20,
-		"wis": 17,
-		"cha": 20,
-		"base_attack_bonus": 16,
-		"cmb": 28,
-		"cmd": 37,
-		"mythic": true,
 		"description": [
 			"## Raskineya, the Dark Comet",
 			"",
@@ -12083,8 +9629,6 @@
 			"",
 			"Though it seemed she was getting closer to her goal, Raskineya's devotion to Rovagug made her actions unpredictable. Just as she conquered the Star Tower of Vekheen, she heard a pressing call she believed came from Rovagug himself. She flew to the Pit of Gormuz, where she made a den in the Crater of Carnal Joining in anticipation of the Rough Beast's arrival. There she waits, conducting horrific rituals to attract his attention. She brought with her the Sarenite survivors of the raid on the Star Tower, who she keeps alive as subjects for her rites. Once noble soldiers, they're now maimed and driven mad, kept in perpetual darkness within a small cave in Raskineya's lair. The warriors of the Maimed Legion, as she calls them, see light only when they're being tortured."
 		],
-		"short_description": "This spined dragon has black scales that pulse with green light. Her tattered wings show a starscape that whirls in mad patterns.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"sandpoint_devil": {
@@ -12094,20 +9638,6 @@
 			"Inner Sea World Guide",
 			"Mystery Monsters Revisited"
 		],
-		"cr": 8,
-		"alignment": "NE",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [ "native" ],
-		"str": 22,
-		"dex": 17,
-		"con": 19,
-		"int": 8,
-		"wis": 17,
-		"cha": 16,
-		"base_attack_bonus": 12,
-		"cmb": 19,
-		"cmd": 33,
 		"description": [
 			"## Sandpoint Devil",
 			"",
@@ -12165,28 +9695,12 @@
 			"",
 			"A thief of livestock, kidnapper of children, and bringer of woes-countless tales surround the beast. Some explain away the creature as an ancient, wizard-warped beast from a forgotten age. Others hold that the monster was borne by a cursed witch who broke an oath with a devil. Yet perhaps the most disturbing rumors point to the possibility that the creature is but one of many that dwell in the wilds."
 		],
-		"short_description": "This mangy horselike beast walks perversely upright. Wings, a dragon's tail, and a fanged mouth complete its vile appearance.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"scyld_hranni": {
 		"name": "Scyld Hranni, Storm Giant Matriarch",
 		"file": "monsterdisplay106c.html",
 		"sources": [ "Giants Revisited" ],
-		"cr": 20,
-		"alignment": "CG",
-		"size": "huge",
-		"creature_type": "humanoid",
-		"creature_subtypes": [ "giant" ],
-		"str": 40,
-		"dex": 18,
-		"con": 25,
-		"int": 16,
-		"wis": 30,
-		"cha": 17,
-		"base_attack_bonus": 23,
-		"cmb": 40,
-		"cmd": 54,
 		"description": [
 			"## Scyld Hranni, Storm Giant Matriarch",
 			"",
@@ -12243,34 +9757,12 @@
 			"",
 			"Scyld Hranni is a revered storm giant warrior, her family originally hailing from a small islet just west of the island of Thuryan in Cheliax. The Hranni family gave up their holdings not long after Cheliax bound their fate to the devils of Hell, and since their disbanding, Scyld has searched for purpose amid the vast waters of the Arcadian Ocean, traveling along the coast of southern Avistan and northern Garund. Other storm giants regard her violet hair as a sign of being blessed by the gods, a notion she encourages through her devoted worship of Aegirran. Clad in sleek mithral armor and a barnacle-encrusted shield of driftwood and jagged coral, Scyld trains the myriad sea creatures of the Arcadian Ocean to help her in her search for purpose and her ambitions of eliminating evil throughout the region."
 		],
-		"short_description": "This purple-haired giant has dark bronze skin and piercing eyes; she wields an electrified trident and a coral-encrusted shield.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"shamira": {
 		"name": "Shamira",
 		"file": "monsterdisplaye618.html",
 		"sources": [ "Pathfinder #76: The Midnight Isles" ],
-		"cr": 25,
-		"alignment": "CE",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"demon",
-			"evil",
-			"extraplanar",
-			"fire"
-		],
-		"str": 29,
-		"dex": 32,
-		"con": 40,
-		"int": 28,
-		"wis": 25,
-		"cha": 37,
-		"base_attack_bonus": 27,
-		"cmb": 36,
-		"cmd": 71,
 		"description": [
 			"## Shamira",
 			"",
@@ -12343,33 +9835,12 @@
 			"",
 			"Shamira is unique in her appearance. Even before she became a nascent demon lord, her burning wings and flowing crimson hair marked her as a succubus of power. Close-lipped about her history, she appeared in Nocticula's palace one moonrise and seduced the Lady in Shadow, thus earning the position of Lady of Alinythia. (Nocticula banished Shamira's predecessor, an incubus named Ziforian, to the sewers below the city, where he may yet lurk.) None in the Abyss recall this majestic and unmistakable succubus in the city before her arrival in Nocticula's boudoir. Shamira does little to quell rumors that her previous home was a much loftier place than the Abyss, and her resemblance to the deity Sarenrae provides endless speculation."
 		],
-		"short_description": "This crimson-haired demonic woman has wings of fire. She carries a slender bow made of flames.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"shaorhaz": {
 		"name": "Shaorhaz, Glutton of the Green",
 		"file": "monsterdisplay0cde.html",
 		"sources": [ "Demons Revisited" ],
-		"cr": 23,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"demon",
-			"evil",
-			"extraplanar"
-		],
-		"str": 38,
-		"dex": 27,
-		"con": 34,
-		"int": 22,
-		"wis": 28,
-		"cha": 28,
-		"base_attack_bonus": 25,
-		"cmb": 40,
-		"cmd": 59,
 		"description": [
 			"## Shaorhaz, Glutton of the Green",
 			"",
@@ -12428,27 +9899,12 @@
 			"",
 			"Shaorhaz prefers offerings of druids, especially those of the Green Faith. He often promises to let these offerings live if they can reveal to him something of the druidic faith that he has not already confirmed for himself-those druids foolish enough to take the demon at his word get the deaths they deserve. It's a DC 33 check to research the Glutton of the Green."
 		],
-		"short_description": "This four-armed nightmare stands with an elegance that seems out of place, given its demonic visage. Huge black wings fan behind its back, and flickering black blades burn in its hands.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"spawn_of_rovagug,_chemnosit_the_monarch_worm": {
 		"name": "Spawn of Rovagug, Chemnosit (The Monarch Worm)",
 		"file": "monsterdisplayfaf3.html",
 		"sources": [ "Inner Sea Bestiary" ],
-		"cr": 23,
-		"alignment": "CE",
-		"size": "colossal",
-		"creature_type": "magical beast",
-		"str": 36,
-		"dex": 13,
-		"con": 34,
-		"int": 5,
-		"wis": 14,
-		"cha": 21,
-		"base_attack_bonus": 27,
-		"cmb": 48,
-		"cmd": 59,
 		"description": [
 			"## Spawn of Rovagug, Chemnosit (The Monarch Worm)",
 			"",
@@ -12507,8 +9963,6 @@
 			"",
 			"**Family:** [Spawn of Rovagug](monster/family/spawn_of_rovagug)"
 		],
-		"short_description": "This massive beast possesses a mouth of rasping teeth and tentacles with biting mouths. In the center of its maw rests a glowing evil eye.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"chemnosit_the_monarch_worm": { "copyof": "spawn_of_rovagug,_chemnosit_the_monarch_worm" },
@@ -12520,19 +9974,6 @@
 			"Pathfinder #84: Pyramid of the Sky Pharaoh",
 			"Inner Sea Bestiary"
 		],
-		"cr": 24,
-		"alignment": "CE",
-		"size": "colossal",
-		"creature_type": "magical beast",
-		"str": 38,
-		"dex": 21,
-		"con": 35,
-		"int": 3,
-		"wis": 30,
-		"cha": 20,
-		"base_attack_bonus": 30,
-		"cmb": 52,
-		"cmd": 67,
 		"description": [
 			"## Spawn of Rovagug, Festering Ulunat (The Unholy First)",
 			"",
@@ -12601,7 +10042,6 @@
 			"",
 			"**Family:** [Spawn of Rovagug](monster/family/spawn_of_rovagug)"
 		],
-		"is_unique": true,
 		"display": "monster"
 	},
 	"festering_ulunat_the_unholy_first": { "copyof": "spawn_of_rovagug,_festering_ulunat_the_unholy_first" },
@@ -12610,19 +10050,6 @@
 		"name": "Spawn of Rovagug, Volnagur (The End-Singer)",
 		"file": "monsterdisplayc36d-2.html",
 		"sources": [ "Inner Sea Bestiary" ],
-		"cr": 22,
-		"alignment": "CE",
-		"size": "colossal",
-		"creature_type": "magical beast",
-		"str": 34,
-		"dex": 22,
-		"con": 35,
-		"int": 7,
-		"wis": 14,
-		"cha": 21,
-		"base_attack_bonus": 25,
-		"cmb": 45,
-		"cmd": 62,
 		"description": [
 			"## Spawn of Rovagug, Volnagur (The End-Singer)",
 			"",
@@ -12682,8 +10109,6 @@
 			"",
 			"**Family:** [Spawn of Rovagug](monster/family/spawn_of_rovagug)"
 		],
-		"short_description": "This immense creature's warty body is shaped like a many-pointed star, and from it sprout nearly a dozen different wings.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"volnagur_the_end-singer": { "copyof": "spawn_of_rovagug,_volnagur_the_end-singer" },
@@ -12692,24 +10117,6 @@
 		"name": "Talmandor",
 		"file": "monsterdisplay60cd.html",
 		"sources": [ "Andoran, Birthplace of Freedom" ],
-		"cr": 23,
-		"alignment": "NG",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"agathion",
-			"extraplanar",
-			"good"
-		],
-		"str": 26,
-		"dex": 36,
-		"con": 35,
-		"int": 19,
-		"wis": 23,
-		"cha": 24,
-		"base_attack_bonus": 27,
-		"cmb": 36,
-		"cmd": 59,
 		"description": [
 			"## Talmandor",
 			"",
@@ -12787,28 +10194,12 @@
 			"",
 			"Talmandor is closely associated with birds of prey and as a result is the patron of the Steel Falcons order of the Eagle Knights of Andoran, as well as a frequent advisor to leaders within the order. Talmandor inspires their work as ambassadors of liberty, and he sometimes even sends aid to those in the midst of dangerous political missions aimed at cultivating peace. Those who rise to greatness also receive Talmandor's direct blessing, which he sees as a rightful reward for good works and a tool that allows those blessed to achieve even greater things. If called to serve through powerful magic (such as gate), Talmandor generally answers but refuses to grant direct assistance except to those overwhelmingly outmatched by evil foes. Even then, he generally requires any aid he gives be paid for in massive donations to the poor and oppressed, though he also often offers a free alternative to his direct involvement, such as receiving his blessing (often crafted with miracle) or gaining some insight into the caller's foes."
 		],
-		"short_description": "This gloriously plumed anthropomorphic eagle has feathers tipped with shimmering gold, and claws with sharp black talons.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"tanaq_mammoth-eater": {
 		"name": "Tanaq Mammoth-Eater, Taiga Giant Shaman",
 		"file": "monsterdisplaya205.html",
 		"sources": [ "Giants Revisited" ],
-		"cr": 17,
-		"alignment": "CN",
-		"size": "huge",
-		"creature_type": "humanoid",
-		"creature_subtypes": [ "giant" ],
-		"str": 35,
-		"dex": 18,
-		"con": 26,
-		"int": 12,
-		"wis": 21,
-		"cha": 17,
-		"base_attack_bonus": 18,
-		"cmb": 32,
-		"cmd": 51,
 		"description": [
 			"## Tanaq Mammoth-Eater, Taiga Giant Shaman",
 			"",
@@ -12859,8 +10250,6 @@
 			"",
 			"Tanaq Mammoth-Eater is a savage shaman among his clan of taiga giants, and his prowess in both the arctic cold and the towering heights of the Tusks proves the title was rightfully earned. A century ago, he led the tribe from their previous home in Red Rune Canyon in the Realm of the Mammoth Lords when their preferred mammoth-hunting grounds started to reek foully of demonic taint. He wields his father's bloodstone impaler, one of the first of its kind crafted by his people, and his hatred for the Kellid raiders who years ago slew his family still burns fiercely within him."
 		],
-		"short_description": "This towering, gray-skinned giant holds a massive spear, its crimson haft sporting a head of barbed and blackened stone.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"tanaq_mammoth_eater": { "copyof": "tanaq_mammoth-eater" },
@@ -12868,19 +10257,6 @@
 		"name": "Thath-Malal, the Eyeless Prince",
 		"file": "monsterdisplay1816.html",
 		"sources": [ "Darklands Revisited" ],
-		"cr": 13,
-		"alignment": "CE",
-		"size": "huge",
-		"creature_type": "aberration",
-		"str": 26,
-		"dex": 11,
-		"con": 22,
-		"int": 16,
-		"wis": 15,
-		"cha": 21,
-		"base_attack_bonus": 12,
-		"cmb": 22,
-		"cmd": 32,
 		"description": [
 			"## Thath-Malal, the Eyeless Prince",
 			"",
@@ -12926,8 +10302,6 @@
 			"",
 			"Nesting below Dtang Ma, Thath-Malal sends its clutches of seugathi children to entice the residents of the jungles above into worshiping it. Thus far, the young neothelid has enjoyed success among the rural jungle villages, its seugathi convincing the local populace that their master represents one of the nation's abandoned spirits-Yola-At, the Saint of the Pathways Below. Amused, Thath-Malal hopes to expand its influence into Nagajor and Po Li."
 		],
-		"short_description": "This immense, eyeless worm is covered in a midnight blue hide. Four barbed tongues wriggle out from its open, lily-shaped maw.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"thath_malal": { "copyof": "thath-malal" },
@@ -12935,22 +10309,6 @@
 		"name": "The First Owlbear",
 		"file": "mythicmonsterdisplaya1d2.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 10,
-		"mr": 4,
-		"alignment": "N",
-		"size": "large",
-		"creature_type": "magical beast",
-		"creature_subtypes": [ "mythic" ],
-		"str": 27,
-		"dex": 14,
-		"con": 24,
-		"int": 2,
-		"wis": 14,
-		"cha": 10,
-		"base_attack_bonus": 10,
-		"cmb": 19,
-		"cmd": 31,
-		"mythic": true,
 		"description": [
 			"## The First Owlbear",
 			"",
@@ -12996,28 +10354,12 @@
 			"",
 			"Though created long ago, the very first owlbear still lives. Fecund, nomadic and cantankerous, the First Owlbear's offspring are always owlbears, whether the mother is a bear, a giant owl, or an owlbear. He brings his \"harem\" of mates with him when he hunts, driving them off when he tires of their company or food becomes scarce."
 		],
-		"short_description": "This owlbear seems lean and especially mean, and moves with a spookily silent grace.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"the_mistress_of_the_fen": {
 		"name": "The Mistress of the Fen",
 		"file": "monsterdisplay5195.html",
 		"sources": [ "Mystery Monsters Revisited" ],
-		"cr": 12,
-		"alignment": "N",
-		"size": "huge",
-		"creature_type": "magical beast",
-		"creature_subtypes": [ "aquatic" ],
-		"str": 26,
-		"dex": 18,
-		"con": 21,
-		"int": 4,
-		"wis": 13,
-		"cha": 11,
-		"base_attack_bonus": 15,
-		"cmb": 25,
-		"cmd": 39,
 		"description": [
 			"## The Mistress of the Fen",
 			"",
@@ -13075,28 +10417,12 @@
 			"",
 			"Those who live on the edges of the fen avoid the place despite the lure of easy fishing and lost funeral barges said to be crammed with treasure. They know of the Mistress, her followers, and her sacrifices. Many suspect it was the changelings who gave the orm her powers over rot and fecundity, but the witches deny this, claiming that the Mistress has always possessed such gifts. Their chants can be heard at all times across the murky waters of the swamp, and on moonless nights, one can catch a glimpse of the changelings as they take turns kissing the fetid jaws of their revered mother and drinking in her pestilence."
 		],
-		"short_description": "This arching, reptilian creature has an elongated neck and short fins. Its jagged teeth hint at its primordial nature, and the abundant plant growth covering its body suggests both fertility and rot.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"the_mourning_one": {
 		"name": "The Mourning One",
 		"file": "monsterdisplay1920.html",
 		"sources": [ "Mystery Monsters Revisited" ],
-		"cr": 19,
-		"alignment": "CE",
-		"size": "colossal",
-		"creature_type": "aberration",
-		"creature_subtypes": [ "aquatic" ],
-		"str": 44,
-		"dex": 16,
-		"con": 29,
-		"int": 2,
-		"wis": 11,
-		"cha": 13,
-		"base_attack_bonus": 25,
-		"cmb": 46,
-		"cmd": 59,
 		"description": [
 			"## The Mourning One",
 			"",
@@ -13147,28 +10473,12 @@
 			"",
 			"The ghouls of Nemret Noktoria have seen the Mourning One slide through the waters of Lake Nirthran, and avaricious necromancers among their kind occasionally undertake voyages to try to capture the beast for the valuable black blood that seeps from its pores. The skum of Cold Momugado, on the other hand, do not seek the creature for its strange properties-most merely wish the nuisance dead and gone, as it has proven a menace to skum scavengers and raiders since its first sighting. Still other inhabitants of the Darklands would like to see the Mourning One put to different uses-in Delvingulf, drow fleshwarpers view the monstrous sea serpent as a figure of great awe as well as potential. If it were to be captured, they could perhaps learn how to further utilize the strange substance known as black blood in subsequent experiments."
 		],
-		"short_description": "This colossal serpent's skin is like that of decayed, bruised corpses. Cancers rupture from its flesh, and a terrible sickening flow of black blood oozes from each break and sores.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"the_surface_caller": {
 		"name": "The Surface Caller",
 		"file": "monsterdisplaye280.html",
 		"sources": [ "Darklands Revisited" ],
-		"cr": 7,
-		"alignment": "CE",
-		"size": "medium",
-		"creature_type": "humanoid",
-		"creature_subtypes": [ "elf" ],
-		"str": 10,
-		"dex": 16,
-		"con": 14,
-		"int": 8,
-		"wis": 10,
-		"cha": 16,
-		"base_attack_bonus": 6,
-		"cmb": 6,
-		"cmd": 20,
 		"description": [
 			"## The Surface Caller",
 			"",
@@ -13220,34 +10530,12 @@
 			"",
 			"Almost a century later, a mysterious drow trader bringing slaves from the deserts of the surface world first appeared in Delvingulf. Selling her wares to both drow and ghouls alike, this drow proclaimed herself the Surface Caller, a servant of Mestama. Her trademark is to give away every third slave from her stock, taking no payment from the buyer, but removing one of the slave's eyes. What use the Surface Caller has for these eyes is anyone's guess, but she claims it serves Mestama."
 		],
-		"short_description": "This blue-skinned elf has milk-white eyes, a glowing punching dagger, and a shield embossed with a demonic face.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"the_whispering_tyrant": {
 		"name": "The Whispering Tyrant",
 		"file": "mythicmonsterdisplay8929.html",
 		"sources": [ "Mythic Realms" ],
-		"cr": 26,
-		"mr": 10,
-		"alignment": "NE",
-		"size": "medium",
-		"creature_type": "undead",
-		"creature_subtypes": [
-			"augmented humanoid",
-			"human",
-			"mythic"
-		],
-		"str": 14,
-		"dex": 19,
-		"con": null,
-		"int": 36,
-		"wis": 14,
-		"cha": 28,
-		"base_attack_bonus": 10,
-		"cmb": 12,
-		"cmd": 19,
-		"mythic": true,
 		"description": [
 			"## The Whispering Tyrant",
 			"",
@@ -13317,28 +10605,12 @@
 			"",
 			"He soon reestablished his power, animating thousands of dead. For centuries, the forces of the living were unable to resist the tide of the dead-with Aroden gone, nothing could stop the Whispering Tyrant. Only the Shining Crusade had a chance to end his threat. Bearing the Shield of Aroden, General Arnisant faced the lich, but when the Whispering Tyrant used a wish to summon the general's heart to his waiting claw, the symbol of Aroden flared to life, the shield shattered, and the lich's body was destroyed. Without a means to locate the Tyrant's phylactery, let alone destroy it, the crusaders instead sealed him away in his tower, where their descendants remain ever watchful for his return."
 		],
-		"short_description": "Clad in ancient leather and bronze and a great horned helm, this withered gray figure is surrounded by a palpable aura of death.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"almara_kazaar": {
 		"name": "The Would-Be Queen, Almara Kazaar",
 		"file": "monsterdisplay92de.html",
 		"sources": [ "Darklands Revisited" ],
-		"cr": 10,
-		"alignment": "LE",
-		"size": "medium",
-		"creature_type": "humanoid",
-		"creature_subtypes": [ "dwarf" ],
-		"str": 18,
-		"dex": 12,
-		"con": 16,
-		"int": 8,
-		"wis": 16,
-		"cha": 6,
-		"base_attack_bonus": 8,
-		"cmb": 12,
-		"cmd": 23,
 		"description": [
 			"## The Would-Be Queen, Almara Kazaar",
 			"",
@@ -13390,8 +10662,6 @@
 			"",
 			"The leader of Droskar's faithful in Mabbryn, Almara spends much of her time in the Forge Quencher- the massive fortress that protects Mabbryn's water supply. Much of Almara's daily life is fraught with political squabbles with Mabbryn's military leader, Margrave Daguda Urgadan. Nicknamed the \"Would-Be Queen\" by members of Droskar's faithful, Almara maintains a tense relationship with Daguda, but hopes to replace the other political leader of the city one day."
 		],
-		"short_description": "This gray-skinned dwarf wears iron plates over a set of purple and magenta robes and carries a warhammer.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"treerazer": {
@@ -13401,23 +10671,6 @@
 			"Inner Sea World Guide",
 			"Pathfinder #17: A Memory of Darkness"
 		],
-		"cr": 25,
-		"alignment": "CE",
-		"size": "huge",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"demon",
-			"native"
-		],
-		"str": 36,
-		"dex": 30,
-		"con": 40,
-		"int": 21,
-		"wis": 24,
-		"cha": 25,
-		"base_attack_bonus": 28,
-		"cmb": 43,
-		"cmd": 67,
 		"description": [
 			"## Treerazer",
 			"",
@@ -13489,28 +10742,12 @@
 			"",
 			"Treerazer begins most combats by casting time stop and raising an antiplant shell to prevent plant creatures (including creatures under the effect of his aura of corruption) from approaching. If he has time, he also creates walls of thorns and summons demons (usually four nalfeshnees and 12 hezrous). In melee, Treerazer gleefully takes up Blackaxe and makes full attacks against the closest foe, or Greater Vital Strikes if he's forced to move or charge. During the first 3 rounds of combat, he targets obvious spell effects with quickened greater dispel magic. If Treerazer is reduced to fewer than 150 hit points, he teleports back to his fortress, Witchbole, to recover and plan his revenge."
 		],
-		"short_description": "The twenty-foot-tall winged saurian demon wields an acid-dripping axe. Two red eyes glow above a tooth-filled beak.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"triaza": {
 		"name": "Triaza",
 		"file": "monsterdisplayef1c.html",
 		"sources": [ "Darklands Revisited" ],
-		"cr": 10,
-		"alignment": "NE",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [ "native" ],
-		"str": 22,
-		"dex": 16,
-		"con": 21,
-		"int": 18,
-		"wis": 13,
-		"cha": 12,
-		"base_attack_bonus": 8,
-		"cmb": 14,
-		"cmd": 28,
 		"description": [
 			"## Triaza",
 			"",
@@ -13562,32 +10799,12 @@
 			"",
 			"Triaza indulges the dark appetites of her underlings, even allowing her few skaveling bat riders to make short flights to pick off stragglers on the nearby roads. She has few concerns about the adventurers and mercenaries of Riddleport who investigate the attacks, but worries significantly more about retaining power. Triaza keeps the members of her cult pacified by allowing them various means of venting their depraved and violent desires, yet still worries about her tenure as ruler, given that her cult is now cut off from the rest of urdefhan society. A time may come when her underlings decide she is not fit to lead, and instead plot to push her to pair with a daemon to continue the propagation of the cult. She has no solid arguments against the importance of increasing their numbers, but is loath to accede to a plan that would take her away from the bountiful death-dealing opportunities offered by the surface world, which are the only activities in which she finds any pleasure or fulfillment."
 		],
-		"short_description": "This humanoid figure is garbed only in leather straps wrapped around her translucent skin, as well as scattered pieces of armor. She wields a wicked two-pronged blade.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"tychilarius": {
 		"name": "Tychilarius",
 		"file": "monsterdisplay67b2.html",
 		"sources": [ "Occult Bestiary" ],
-		"cr": 23,
-		"alignment": "CE",
-		"size": "colossal",
-		"creature_type": "aberration",
-		"creature_subtypes": [
-			"aquatic",
-			"chaotic",
-			"evil"
-		],
-		"str": 48,
-		"dex": 35,
-		"con": 46,
-		"int": 31,
-		"wis": 35,
-		"cha": 32,
-		"base_attack_bonus": 16,
-		"cmb": 43,
-		"cmd": 76,
 		"description": [
 			"## Tychilarius",
 			"",
@@ -13666,27 +10883,12 @@
 			"",
 			"Many scholars study beings such as Tychilarius out of simple curiosity or-especially among theologians of goodly churches-with an eye toward protecting the world from the ravages of these creatures. Yet the most knowledge of Tychilarius rests in the hands of those who study the Dominion of the Black and among the members of the Night Heralds, who hope to attract the attention of the creatures in the Dark Tapestry and bring about the end of Golarion. In addition to delving into this forbidden knowledge themselves, such cultists do what they can to eliminate it from the libraries of those who might use it to keep Tychilarius sealed away, stealing and destroying documents and even murdering scholars. If they ever successfully open the door to Tychilarius's prison, Golarion will certainly fall under the glaring eye of the Dominion, and it would be only a matter of time before the Dominion of the Black's organic starships begin dropping to the planet's surface."
 		],
-		"short_description": "A host of tentacles-some tipped with eyes and others ending in mouths-flail around a massive spiraling maw ringed with thousands of teeth.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"uchurah": {
 		"name": "Uchurah",
 		"file": "monsterdisplay3360.html",
 		"sources": [ "Darklands Revisited" ],
-		"cr": 12,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "aberration",
-		"str": 27,
-		"dex": 16,
-		"con": 18,
-		"int": 13,
-		"wis": 20,
-		"cha": 9,
-		"base_attack_bonus": 13,
-		"cmb": 22,
-		"cmd": 35,
 		"description": [
 			"## Uchurah",
 			"",
@@ -13733,27 +10935,12 @@
 			"",
 			"Guarding one of a few select entrances to the Midnight Mountains, the rage-filled gug now leads its camp on vicious raids against nearby enclaves of drow and skum. Each victory the camp secures supports Uchurah's claims of divinity, and its followers grow more and more devoted with each passing year. Though Uchurah can't cast any spells or heal its devotees, it nevertheless leads a thriving cult that could grow to be a powerful force in the Darklands."
 		],
-		"short_description": "Though mostly covered in grime-encrusted black fur, the muscles of this creature are still plainly visible along the four forearms that emerge from its split elbows. It wears a crude bone necklace that dangles under its vertically oriented mouth.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"undrella": {
 		"name": "Undrella",
 		"file": "monsterdisplayd494.html",
 		"sources": [ "Mythical Monsters Revisited" ],
-		"cr": 11,
-		"alignment": "CE",
-		"size": "medium",
-		"creature_type": "monstrous humanoid",
-		"str": 10,
-		"dex": 20,
-		"con": 16,
-		"int": 7,
-		"wis": 14,
-		"cha": 19,
-		"base_attack_bonus": 14,
-		"cmb": 14,
-		"cmd": 31,
 		"description": [
 			"## Undrella",
 			"",
@@ -13805,28 +10992,12 @@
 			"",
 			"For more information on Undrella, see the Legacy of Fire Adventure Path."
 		],
-		"short_description": "This fierce and feral-looking woman has huge wings and clawed hands and feet, and carries a wicked-looking longbow.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"urburg_armbreaker": {
 		"name": "Urburg Armbreaker, Hill Giant Chieftain",
 		"file": "monsterdisplay7e3a.html",
 		"sources": [ "Giants Revisited" ],
-		"cr": 13,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "humanoid",
-		"creature_subtypes": [ "giant" ],
-		"str": 29,
-		"dex": 12,
-		"con": 27,
-		"int": 6,
-		"wis": 12,
-		"cha": 10,
-		"base_attack_bonus": 13,
-		"cmb": 23,
-		"cmd": 32,
 		"description": [
 			"## Urburg Armbreaker, Hill Giant Chieftain",
 			"",
@@ -13875,28 +11046,12 @@
 			"",
 			"After nearly 20 years of fending for himself in the untamed wilderness, he reemerged from the woods and tracked down the tribe that had abandoned him so many years before. His people hardly recognized the battlescarred Urburg, but soon found themselves in a state of dread and admiration when the vengeful giant cleaved their current chieftain's head off with one swing of his mighty club, claiming the title for himself. Anger still burns within the betrayed hill giant, and his people know to fear Urburg's frequent bouts of violent, indiscriminate rage."
 		],
-		"short_description": "This heavily scarred, towering giant wears the hide of a black dragon, and wields a massive club studded with dragon's teeth.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"urtleytlar": {
 		"name": "Urtleytlar, The Tempest Queen",
 		"file": "monsterdisplay3fc0.html",
 		"sources": [ "Pathfinder #60: From Hell's Heart" ],
-		"cr": 20,
-		"alignment": "CE",
-		"size": "huge",
-		"creature_type": "aberration",
-		"creature_subtypes": [ "aquatic" ],
-		"str": 35,
-		"dex": 38,
-		"con": 31,
-		"int": 18,
-		"wis": 29,
-		"cha": 24,
-		"base_attack_bonus": 21,
-		"cmb": 35,
-		"cmd": 65,
 		"description": [
 			"## Urtleytlar, The Tempest Queen",
 			"",
@@ -13974,33 +11129,12 @@
 			"- Eager to acquire more power to further her course of destruction, Urtleytlar sends skum scouts to raid the underwater city of Wetan near the Sodden Lands. Once a port city of Lirgen, Wetan fell beneath the waves with the formation of the Eye of Abendego, and after the settlement's destruction, a tribe of locathah squatters sought the protection of its abandoned buildings. There they discovered an inoperable planetary gate and managed to partially activate it. Urtleytlar can sense the power and wants it for her own, despite not knowing exactly what she might gain.",
 			"- Though Urtleytlar enjoys the caress of the Eye, she is hardly contained to one place, and her touch can be felt on the shores of the Shackles, the Sodden Lands, and Mediogalti Isle. Her destructive roaming causes especial trouble for the pirates of the Shackles, and a number of unlikely collaborators have settled their grudges, forming a pact to locate the dangerous scylla and kill her. Of course, with an endeavor like this, the pirates are eager for additional help."
 		],
-		"short_description": "This writhing terror is made of tentacles and the heads of multiple hounds. The figure of a beautiful woman extends from the monster's center, though its fiendish visage is far from welcoming.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"uvaglor": {
 		"name": "Uvaglor, the Misbegotten Prince",
 		"file": "monsterdisplayb508.html",
 		"sources": [ "Demons Revisited" ],
-		"cr": 20,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"demon",
-			"evil",
-			"extraplanar"
-		],
-		"str": 32,
-		"dex": 21,
-		"con": 31,
-		"int": 18,
-		"wis": 22,
-		"cha": 24,
-		"base_attack_bonus": 20,
-		"cmb": 32,
-		"cmd": 47,
 		"description": [
 			"## Uvaglor, the Misbegotten Prince",
 			"",
@@ -14070,31 +11204,12 @@
 			"",
 			"Uvaglor prefers offerings of fine art depicting imagery of Ashava, or of clerics of that empyreal lord-works of art the vrock enjoys befouling and destroying in increasingly creative methods. It's a DC 30 check to research the Misbegotten Prince."
 		],
-		"short_description": "This vulture-headed demon has crimson wings and a baleful third eye in his forehead. He is clad in lengths of chain and metal plates, and carries a cruel-looking sword in one hand and a glowing sphere of violet crystal in the other.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"valonesse_hergrut": {
 		"name": "Valonesse Hergrut, Frost Giant Jarl",
 		"file": "monsterdisplay5783.html",
 		"sources": [ "Giants Revisited" ],
-		"cr": 18,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"cold",
-			"giant"
-		],
-		"str": 39,
-		"dex": 15,
-		"con": 26,
-		"int": 10,
-		"wis": 14,
-		"cha": 13,
-		"base_attack_bonus": 19,
-		"cmb": 34,
-		"cmd": 46,
 		"description": [
 			"## Valonesse Hergrut, Frost Giant Jarl",
 			"",
@@ -14144,31 +11259,12 @@
 			"",
 			"Over the past decades, Valonesse has channeled her unappeased anger into the reestablishment of her forefathers' domain, claiming the title of jarl for her own. She claims to be the consort of Thremyr himself, given a divine mandate to see all of Stormflood Vale bow to her majesty. Though few trust the veracity of such a claim, fewer are those who would speak such doubts openly. Jarl Valonesse rules from Thryheim, an ancient ice fortress that rests high upon a glacial peak rich with untouched supplies of mithral and other rare ores. Though some challenged her right to rule in the early years of her fledgling empire, the period for contesting her reign has long passed-the scars that span her imposing body memorialize her countless victories, both in battle and against challengers seeking to claim her throne."
 		],
-		"short_description": "Thick of limb and torso, this towering female frost giant possesses powerful blue muscles and wields a massive, ice-encrusted battleaxe.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"voice_of_the_damned": {
 		"name": "Voice of the Damned",
 		"file": "monsterdisplay5fb5.html",
 		"sources": [ "Book of the Damned" ],
-		"cr": 25,
-		"alignment": "NE",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"evil",
-			"native"
-		],
-		"str": 38,
-		"dex": 35,
-		"con": 38,
-		"int": 35,
-		"wis": 34,
-		"cha": 27,
-		"base_attack_bonus": 29,
-		"cmb": 44,
-		"cmd": 84,
 		"description": [
 			"## Voice of the Damned",
 			"",
@@ -14234,27 +11330,12 @@
 			"",
 			"The Voice of the Damned is a unique entity bound to the Book of the Damned's demiplane. It can never bodily leave that demiplane (except via its malevolence ability), and it always knows the location of every piece of the Book of the Damned. It seeks to guard the book, its repository, and the Unspeakable Word at the demiplane's center. As long as the Unspeakable Word is active, the Voice of the Damned cannot be slain for long; it resurrects 24 hours later. It can be permanently killed only if the Book of the Damned itself is destroyed."
 		],
-		"short_description": "Blasphemous pages cloak this creature's gaunt, winged form. Within its depthless hood burns a vortex of otherworldly flame.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"yrldak": {
 		"name": "Yrldak",
 		"file": "monsterdisplay30e5.html",
 		"sources": [ "Fey Revisited" ],
-		"cr": 10,
-		"alignment": "LN",
-		"size": "large",
-		"creature_type": "fey",
-		"str": 25,
-		"dex": 12,
-		"con": 26,
-		"int": 17,
-		"wis": 18,
-		"cha": 21,
-		"base_attack_bonus": 6,
-		"cmb": 14,
-		"cmd": 30,
 		"description": [
 			"## Yrldak",
 			"",
@@ -14308,32 +11389,12 @@
 			"",
 			"It was on one such venture that Yrldak met her demise upon the Material Plane, when facing a particularly greedy white dragon who thought the norn trio's treasure would make a good addition to its hoard. As happens to all norns who die outside the First World, Yrldak was reborn on her native plane, and is quickly growing while traversing Golarion looking for her sisters. Exhibiting the dark features of a reborn norn, whose hair and eyes lighten as they age, Yrldak is distinctive among her kind, and though her ebon hair reveals her still undeveloped power, Yrldak is a force to be reckoned with if any stand in her way or tempt fate in her presence. Eager to rejoin her sisters, Yrldak might seek the aid of adventurers, to whom she may promise wealth, prophecy, and other boons if they assist her in her quest."
 		],
-		"short_description": "This breathtaking, giant-sized woman's raven hair falls to her ankles. Her skin is as pale as the glowing moon, and her ebon eyes deeply pensive.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"elemental_lord,_ymeri": {
 		"name": "Elemental Lord, Ymeri",
 		"file": "monsterdisplay7e5e.html",
 		"sources": [ "Planes of Power" ],
-		"cr": 28,
-		"alignment": "NE",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"evil",
-			"extraplanar",
-			"fire"
-		],
-		"str": 30,
-		"dex": 35,
-		"con": 34,
-		"int": 26,
-		"wis": 23,
-		"cha": 31,
-		"base_attack_bonus": 33,
-		"cmb": 44,
-		"cmd": 67,
 		"description": [
 			"## Elemental Lord, Ymeri",
 			"",
@@ -14411,8 +11472,6 @@
 			"",
 			"Ymeri's unholy symbol is a quartet of flaming swords, and her favored weapon is the longsword. She grants access to the Destruction, Evil, Fire, and War domains, and access to the subdomains of Ash, Catastrophe, Fear, and Tactics."
 		],
-		"short_description": "This woman with four armor-clad arms and wings of incandescent magma has the lower torso of a powerful reptile.",
-		"is_unique": true,
 		"display": "monster"
 	},
 	"ymeri": { "copyof": "elemental_lord,_ymeri" },
@@ -14420,25 +11479,6 @@
 		"name": "Zelishkar of the Bitter Flame",
 		"file": "monsterdisplay9106.html",
 		"sources": [ "Inner Sea Bestiary" ],
-		"cr": 21,
-		"alignment": "NE",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"daemon",
-			"evil",
-			"extraplanar",
-			"fire"
-		],
-		"str": 33,
-		"dex": 21,
-		"con": 32,
-		"int": 17,
-		"wis": 22,
-		"cha": 23,
-		"base_attack_bonus": 24,
-		"cmb": 36,
-		"cmd": 52,
 		"description": [
 			"## Zelishkar of the Bitter Flame",
 			"",
@@ -14515,8 +11555,6 @@
 			"",
 			"Through all the long millennia since, Zelishkar and the remnant of his host have remained imprisoned beneath the Labyrinth of Shiman-Sekh, the city founded by the Song Pharaoh upon her victory over the Pharaoh of Forgotten Plagues years after Zelishkar's detention. He has emerged from his prison but once, when Szuriel and the ironically named Incorruptible Pharaoh joined to loose his fiery fury upon one of the sky-cities of Shory. His destructive rampage could not be contained, however, and he devastated several cities and oases of western Osirion before he and his host were finally bound back within their prison. There he remains, plotting burning vengeance upon Osirion and all of Golarion for his ages of durance vile."
 		],
-		"short_description": "This fiendish figure appears to be shaped from pure flame with a feline face. Three wicked tongues dart from the creature's mouth.",
-		"is_unique": true,
 		"display": "monster"
 	}
 }

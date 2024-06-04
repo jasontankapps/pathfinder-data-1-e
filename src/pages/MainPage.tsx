@@ -3,23 +3,11 @@ import { useParams } from 'react-router';
 import DisplayItem from '../components/DisplayItem';
 import main1 from '../json/main.json';
 import main2 from '../json/main2.json';
+import main3 from '../json/main3.json';
 import { ItemProps } from '../types';
 import './Page.css';
 
-const appPages: any[] = [
-	"/rules",//
-	"/races",//
-	"/classes",//
-	"/skills",//
-	"/feats",//
-	"/traits",//
-	"/equipment",//
-	"/magic",//
-	"/spells",//
-	"/faiths",//
-	"/monstersnpcs",
-];
-const main = {...main1, ...main2};
+const main = {...main1, ...main2, ...main3};
 
 const MainPage: React.FC = () => {
 

@@ -2,8 +2,29 @@
 	"main": {
 		"title": "Pathfinder Data 1e",
 		"description": [
-			""
-		]
+			"[Pathfinder Rules](rules)",
+			"",
+			"[Races](races)",
+			"",
+			"[Classes](class)",
+			"",
+			"[Skills](skills)",
+			"",
+			"[Feats](feats)",
+			"",
+			"[Traits](traits)",
+			"",
+			"[Deities and Faiths](faiths)",
+			"",
+			"[Equipment](equipment)",
+			"",
+			"[Magic Items](magic)",
+			"",
+			"[Spells](spells)",
+			"",
+			"[Monsters and NPCs](monsters)"
+		],
+		"_previous": []
 	},
 	"class": {
 		"title": "Classes",
@@ -69,7 +90,8 @@
 			"- [Occultist](class/occultist)",
 			"- [Psychic](class/psychic)",
 			"- [Spiritualist](class/spiritualist)"
-		]
+		],
+		"_previous": [ ["Main", "main"] ]
 	},
 	"skills": {
 		"title": "Skills",
@@ -126,7 +148,8 @@
 				"nullValue": "",
 				"className": "endcaps"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"] ]
 	},
 	"feats_all": {
 		"title": "Feats - All",
@@ -3556,7 +3579,8 @@
 					[ "[Zealous Mind](feat/zealous_mind)", "General", "[Iron Will](feat/iron_will), [Unimpeachable Honor](feat/unimpeachable_honor), lawful alignment.", "Gain additional bonuses against enchantments" ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Feats", "feats"] ]
 	},
 	"feats_general": {
 		"title": "Feats - General",
@@ -5191,7 +5215,8 @@
 					[ "[Zealous Mind](feat/zealous_mind)", "[Iron Will](feat/iron_will), [Unimpeachable Honor](feat/unimpeachable_honor), lawful alignment.", "Gain additional bonuses against enchantments" ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Feats", "feats"] ]
 	},
 	"feats_combat": {
 		"title": "Feats - Combat",
@@ -6518,7 +6543,8 @@
 					[ "[Wyvern Wing](feat/wyvern_wing)", "[Exotic Weapon Proficiency (whip)](feat/exotic_weapon_proficiency), [Wyvern Fury Style](feat/wyvern_fury_style), [Wyvern Sting](feat/wyvern_sting), Acrobatics 10 ranks, brawler's flurry class feature or flurry of blows class feature.", "Make an additional 5ft step between attacks when using Wyvern Style" ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Feats", "feats"] ]
 	},
 	"feats_teamwork": {
 		"title": "Feats - Teamwork, etc",
@@ -6787,7 +6813,8 @@
 					[ "[Metamagical Synergy](feat/metamagical_synergy)", "[Allied Spellcaster](feat/allied_spellcaster).", "You and the other members of your coven can weave your spells together to great effect" ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Feats", "feats"] ]
 	},
 	"feats_mesmerist": {
 		"title": "Feats - Stare/Trick",
@@ -6861,7 +6888,8 @@
 					[ "[Swap Trick](feat/swap_trick)", "Mesmerist tricks class feature.", "Switch which trick is implanted" ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Feats", "feats"] ]
 	},
 	"feats_story": {
 		"title": "Feats - Story",
@@ -6993,7 +7021,8 @@
 					[ "[Wretched Curator](feat/wretched_curator)", "You must have purchased a scroll or spellbook containing a spell with the evil descriptor in a place where such dealings are illegal, or must have the Secret Society Inductee or Diabolical Upbringing background.", "Purchase evil items cheaper, bonus to checks to understand evil items" ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Feats", "feats"] ]
 	},
 	"feats_style": {
 		"title": "Feats - Style",
@@ -7111,7 +7140,8 @@
 					[ "[Wyvern Fury Style](feat/wyvern_fury_style)", "[Exotic Weapon Proficiency (whip)](feat/exotic_weapon_proficiency), Acrobatics 3 ranks, brawler's flurry class feature or flurry of blows class feature.", "Use daggers and whips with your flurry." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Feats", "feats"] ]
 	},
 	"feats_metamagic": {
 		"title": "Feats - Metamagic/Item Creation",
@@ -7311,7 +7341,8 @@
 					[ "[Scribe Scroll](feat/scribe_scroll)", "Caster level 1st.", "Create magic scrolls" ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Feats", "feats"] ]
 	},
 	"feats_grit_panache": {
 		"title": "Feats - Grit/Panache",
@@ -7392,7 +7423,8 @@
 					[ "[Structural Strike](feat/structural_strike)", "Knowledge (engineering) 5 ranks, precise strike class feature or precise strike deed.", "Use precise strike against creatures normally immune" ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Feats", "feats"] ]
 	},
 	"feats_meditation": {
 		"title": "Feats - Meditation",
@@ -7400,7 +7432,7 @@
 		"description": [
 			"**Description Source** [Faiths and Philosophies pg. 19](source/faiths_and_philosophies)  ",
 			"Meditation provides some of the advantages of a monastic refuge anywhere. While meditation can help any character center herself or calm a troubled mind, those specially trained in the art can use it to unlock fantastic abilities within themselves, reflected in the following feats. These feats can be taken by any character who meets the prerequisites, but are most commonly encountered among those who have trained in a monastery.",
-			"",			
+			"",
 			"**Monks and Meditation Feats:** A monk may take a meditation feat in place of a bonus feat. She must meet all of the prerequisites to take the feat as normal."
 		],
 		"tables": [
@@ -7432,7 +7464,8 @@
 					[ "[Slow Time](feat/slow_time)", "Wis 15, [Combat Meditation](feat/combat_meditation), [Meditation Master](feat/meditation_master), character level 7th.", "Gain a brief amount of haste after meditation." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Feats", "feats"] ]
 	},
 	"feats_mastery": {
 		"title": "Feats - Mastery",
@@ -7590,7 +7623,8 @@
 					[ "[Weapon Evoker Mastery](feat/weapon_evoker_mastery)", "Use Magic Device 2 ranks, base Fortitude saving throw bonus +3.", "Amplify the power of a magic weapon that deals energy damage" ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Feats", "feats"] ]
 	},
 	"feats_monster": {
 		"title": "Feats - Monster",
@@ -7659,9 +7693,10 @@
 					[ "[Wingover](feat/wingover)", "Fly speed.", "Turn up to 180 degrees while flying once per round without the need of a fly check." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Feats", "feats"] ]
 	},
-	"feats": { 
+	"feats": {
 		"title": "Feats",
 		"sources": [
 			"Advanced Player's Guide",
@@ -7725,7 +7760,7 @@
 			"",
 			"**Description Source** [Familiar Folio pg. 18](source/familiar_folio)  ",
 			"The following feats can be taken by characters who have familiars that meet the listed prerequisites. Wizards can take a familiar feat as a bonus feat, and witches can select a familiar feat in place of a hex. If you lose your familiar and gain a new familiar that doesn't meet the listed prerequisites for a familiar feat you possess, your new familiar doesn't gain the benefits of that feat. A new familiar that meets the prerequisites automatically gains the benefits of that feat.",
-			"",			
+			"",
 			"When you gain a new level, if your current familiar does not meet the prerequisite of a familiar feat you possess, you can learn a new familiar feat in place of the feat your familiar doesn't qualify for. In effect, you lose the old familiar feat in exchange for the new one. The feat lost can't be a prerequisite for another feat you possess, and your familiar must meet the new feat's prerequisites. You can exchange only one feat in this way each time you gain a level.",
 			"",
 			"`table1`",
@@ -8255,7 +8290,8 @@
 					[ "[Soulless Gaze](feat/soulless_gaze)", "", "Use Intimidate with greater proficiency" ]
 				]
 			}
-		]	
+		],
+		"_previous": [ ["Main", "main"] ]
 	},
 	"traits": {
 		"title": "Traits",
@@ -8298,7 +8334,8 @@
 			"---",
 			"",
 			"**[View Exemplar Traits](traits_exemplar)** (5 traits)"
-		]
+		],
+		"_previous": [ ["Main", "main"] ]
 	},
 	"traits_exemplar": {
 		"title": "Exemplar Traits",
@@ -8336,7 +8373,8 @@
 			"**Exemplar Type** Regional Exemplar",
 			"",
 			"You have learned the ways of many lands. Choose any two skills; each of those skills becomes a class skill for you. For every other regional trait you have, select an additional skill to treat as a class skill."
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_all": {
 		"title": "All Traits",
@@ -10335,7 +10373,8 @@
 					[ "Zest for Battle", "Race", null, "Dwarf", null, null, null, null, null, null ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_religion": {
 		"title": "Religion Traits",
@@ -10567,7 +10606,8 @@
 				"initialColumn": 0,
 				"className": "plain"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_faction": {
 		"title": "Faction Traits",
@@ -10618,7 +10658,8 @@
 				"initialColumn": 1,
 				"className": "plain"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_regional": {
 		"title": "Regional Traits",
@@ -11087,7 +11128,8 @@
 				"nullValue": "",
 				"className": "plain"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_faith": {
 		"title": "Faith Traits",
@@ -11793,7 +11835,8 @@
 			"**Type:** Faith",
 			"",
 			"Your zeal is a danger to those of \"lesser\" faiths. While you have the destruction judgment active, you gain a +1 trait bonus on damage rolls when attacking a foe who can cast divine spells and worships a different deity than you."
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_combat": {
 		"title": "Combat Traits",
@@ -12688,7 +12731,8 @@
 			"**Type:** Combat",
 			"",
 			"You were trained from a young age to ambush the enemies of your order or organization, which makes you hard to trust for most outside your organization if they learn your affiliation. You gain a +1 trait bonus on attack rolls against flat-footed foes, as long as they have not seen you make an attack with this bonus before."
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_campaign": {
 		"title": "Campaign Traits",
@@ -12917,7 +12961,8 @@
 				"nullValue": "*(any)*",
 				"className": "plain"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_race": {
 		"title": "Race Traits",
@@ -13358,7 +13403,8 @@
 				"nullValue": "*(any)*",
 				"className": "plain"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_social": {
 		"title": "Social Traits",
@@ -14369,7 +14415,8 @@
 			"**Type:** Social",
 			"",
 			"You have acquired an unusual breadth of life experience-more than others of your age, race, or culture. Once per day when attempting a skill check for a skill you're untrained in, you can roll twice and take the better result."
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_drawback": {
 		"title": "Drawback Traits",
@@ -14815,7 +14862,8 @@
 			"**Type:** Drawback",
 			"",
 			"You are fanatical in your beliefs, ruled by emotion over reason. When you attack a creature that you know worships a different religion than you do, you take a -5 penalty on the attack roll and a +2 trait bonus on the damage roll with your first attack."
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_equipment": {
 		"title": "Equipment Traits",
@@ -15013,7 +15061,8 @@
 			"**Combat Gear:** Alchemist's fire (2), antitoxin, [potion of keen senses](spell/keen_senses), sunrods (3).  ",
 			"** Other Gear:** Backpack, bedroll, belt pouch, chalk (5 pieces), climber's kit, cold-weather outfit, fishhook, flint and steel, mess kit, pole (10 ft.), shovel, signal whistle, silk rope (50 ft.), trail rations (5 days), waterskin, 2 sp.  ",
 			"**Total Weight:** 108-1/2 lbs. (63-1/4 lbs. for a Small character)."
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_family": {
 		"title": "Family Traits",
@@ -15062,7 +15111,8 @@
 			"**Type:** Family",
 			"",
 			"Whether siblings, spouses, or dedicated members of the same clan, characters who take this trait are an inseparable pair committed to each other. Your partner or partners must also have this trait. You gain a +1 trait bonus on Will saves against charm and compulsion effects if a partner is within 60 feet, increasing to +3 against a command to compromise your relationship or harm a partner."
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_mount": {
 		"title": "Mount Traits",
@@ -15158,7 +15208,8 @@
 			"**Requirements:** Have an Erutaki husky as a mount",
 			"",
 			"Erutaki huskies gain a +4 trait bonus on Fortitude saves to avoid nonlethal damage from cold environments, and only take a -2 penalty on Perception checks made in inclement weather such as rain or snow (instead of the usual -4 penalty)."
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_cosmic": {
 		"title": "Cosmic Traits",
@@ -15254,7 +15305,8 @@
 			"**Requirements:** Born between 21 Erastus and 10 Arodus",
 			"",
 			"Like the vehicle that conveys travelers across the heavens, you are blessed with extraordinary movement capabilities. Once per day as a swift action, you can increase you move speed by 10 feet for 1 round."
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_magic": {
 		"description": [
@@ -16044,7 +16096,8 @@
 			"**Type:** Magic",
 			"",
 			"You narrowly escaped death when a Winter Witch punished you for supporting the Heralds. You gain cold resistance 5 against the first cold damage you take each day, and gain a +2 bonus on saving throws against the fear effects of creatures with the cold subtype."
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"races": {
 		"title": "Races",
@@ -16137,7 +16190,8 @@
 				"nullValue": "",
 				"className": "endcaps"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"] ]
 	},
 	"faiths": {
 		"title": "Deities and Faiths",
@@ -16645,7 +16699,8 @@
 				"initialColumn": 0,
 				"className": "races"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"] ]
 	},
 	"faiths_pantheons": {
 		"title": "Deities/Faiths by Pantheon",
@@ -16707,7 +16762,8 @@
 			"| Taldan Pantheon | [Abadar](deity/abadar), [Cayden Cailean](deity/cayden_cailean), [Norgorber](deity/norgorber), [Shelyn](deity/shelyn) |",
 			"| Vudrani Pantheon | [Irori](deity/irori) |",
 			"| Other Deities/Faiths | [Achaekek](deity/achaekek), [Ah Pook](deity/ah_pook), [Ahriman](deity/ahriman), [Alazhra](deity/alazhra), [Alseta](deity/alseta), [Apsu](deity/apsu), [Arazni](deity/arazni), [Ashukharma](deity/ashukharma), [Besmara](deity/besmara), [Brigh](deity/brigh), [Camazotz](deity/camazotz), [Cihua Couatl](deity/cihua_couatl), [Dahak](deity/dahak), [Dhalavei](deity/dhalavei), [Easivra](deity/easivra), [Erecura](deity/erecura), [Feronia](deity/feronia), [Ghlaunder](deity/ghlaunder), [Grandmother Spider](deity/grandmother_spider), [Green Faith](deity/green_faith), [Groetus](deity/groetus), [Gruhastha](deity/gruhastha), [Gyronna](deity/gyronna), [Hanspur](deity/hanspur), [Kazutal](deity/kazutal), [Kitumu](deity/kitumu), [Kurgess](deity/kurgess), [Lissala](deity/lissala), [Matravash](deity/matravash), [Mazludeh](deity/mazludeh), [Milani](deity/milani), [Naderi](deity/naderi), [Nivi Rhombodazzle](deity/nivi_rhombodazzle), [Nocticula (Redeemed)](deity/nocticula_redeemed), [Omrataji](deity/omrataji), [Sivanah](deity/sivanah), [Speakers of the Depths](deity/speakers_of_the_depths), [Ydersius](deity/ydersius), [Zyphus](deity/zyphus) |"
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Deities and Daiths", "faiths"] ]
 	},
 	"faiths_domains": {
 		"title": "Deities/Faiths by Domain",
@@ -16760,7 +16816,8 @@
 			"| [War](domain/war) | [Acavna](deity/acavna), [Achaekek](deity/achaekek), [Ajids](deity/ajids), [Akuma](deity/akuma), [Angradd](deity/angradd), [Arqueros](deity/arqueros), [Besmara](deity/besmara), [Chaldira](deity/chaldira), [Chaugnar Faugn](deity/chaugnar_faugn), [Chugarra](deity/chugarra), [Cihua Couatl](deity/cihua_couatl), [Deskari](deity/deskari), [Eiseth](deity/eiseth), [Flauros](deity/flauros), [Fumeiyoshi](deity/fumeiyoshi), [General Susumu](deity/general_susumu), [Gorum](deity/gorum), [Hadregash](deity/hadregash), [Iomedae](deity/iomedae), [Izyagna](deity/izyagna), [Kitumu](deity/kitumu), [Kostchtchie](deity/kostchtchie), [Malacoda](deity/malacoda), [Moloch](deity/moloch), [Mrtyu](deity/mrtyu), [Neith](deity/neith), [Nergal](deity/nergal), [Nulgreth](deity/nulgreth), [Psomeira](deity/psomeira), [Rovagug](deity/rovagug), [Ruapceras](deity/ruapceras), [Sekhmet](deity/sekhmet), [Shiggarreb](deity/shiggarreb), [Smiad](deity/smiad), [Sobek](deity/sobek), [Szuriel](deity/szuriel), [Tamede](deity/tamede), [Thremyr](deity/thremyr), [Urazra](deity/urazra), [Urgathoa](deity/urgathoa), [Varg](deity/varg), [Xiquiripat](deity/xiquiripat), [Ydersius](deity/ydersius), [Ymeri](deity/ymeri), [Zelishkar](deity/zelishkar), [Zursvaater](deity/zursvaater), [Zyphus](deity/zyphus) |",
 			"| [Water](domain/water) | [Aegirran](deity/aegirran), [Besmara](deity/besmara), [Bokrug](deity/bokrug), [Charon](deity/charon), [Crocell](deity/crocell), [Dagon](deity/dagon), [Gaap](deity/gaap), [Geryon](deity/geryon), [Ghatanothoa](deity/ghatanothoa), [Gogunta](deity/gogunta), [Gozreh](deity/gozreh), [Guyuku](deity/guyuku), [Hanspur](deity/hanspur), [Hataam](deity/hataam), [Hei Feng](deity/hei_feng), [Inkariax](deity/inkariax), [Jalaijatali](deity/jalaijatali), [Jubilex](deity/jubilex), [Kelizandri](deity/kelizandri), [Matravash](deity/matravash), [Naderi](deity/naderi), [Neith](deity/neith), [Oaur-Ooung](deity/oaur_ooung), [Onos](deity/onos), [Orgesh](deity/orgesh), [Ovonovo](deity/ovonovo), [Pharasma](deity/pharasma), [Pharimia](deity/pharimia), [Ragadahn](deity/ragadahn), [Roqorolos](deity/roqorolos), [Scarmiglione](deity/scarmiglione), [Sobek](deity/sobek), [Speakers of the Depths](deity/speakers_of_the_depths), [The Pale Horse](deity/the_pale_horse), [Thremyr](deity/thremyr), [Tolc](deity/tolc), [Tresmalvos](deity/tresmalvos), [Uzumae](deity/uzumae), [Valmallos](deity/valmallos), [Vorasha](deity/vorasha), [Wadjet](deity/wadjet), [Yamatsumi](deity/yamatsumi), [Ylimancha](deity/ylimancha), [Zogmugot](deity/zogmugot) |",
 			"| [Weather](domain/weather) | [Aegirran](deity/aegirran), [Besmara](deity/besmara), [Bokrug](deity/bokrug), [Daikitsu](deity/daikitsu), [Diceid](deity/diceid), [Elion](deity/elion), [Gozreh](deity/gozreh), [Halcamora](deity/halcamora), [Hataam](deity/hataam), [Hei Feng](deity/hei_feng), [Hshurha](deity/hshurha), [Imot](deity/imot), [Ithaqua](deity/ithaqua), [Ketephys](deity/ketephys), [Maat](deity/maat), [Nataka](deity/nataka), [Ng](deity/ng), [Psomeira](deity/psomeira), [Pulura](deity/pulura), [Rasvocel](deity/rasvocel), [Roqorolos](deity/roqorolos), [Rovagug](deity/rovagug), [Rull](deity/rull), [Set](deity/set), [Sithhud](deity/sithhud), [Trelmarixian](deity/trelmarixian), [Urxehl](deity/urxehl), [Valani](deity/valani), [Vermilion Mother](deity/vermilion_mother), [Vois](deity/vois), [Vonymos](deity/vonymos), [Yan-gant-y-tan](deity/yan_gant_y_tan) |"
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Deities and Daiths", "faiths"] ]
 	},
 	"faiths_subdomains": {
 		"title": "Deities/Faiths by Subdomains",
@@ -16917,7 +16974,8 @@
 			"| Wards | [Acavna](deity/acavna), [Benorus](deity/benorus), [Bifrons](deity/bifrons), [Gaap](deity/gaap), [Hastur](deity/hastur), [Irez](deity/irez), [Lissala (pre-Earthfall)](deity/lissala_pre_earthfall), [Lissala](deity/lissala), [Magdh](deity/magdh), [Magrim](deity/magrim), [Nalinivati](deity/nalinivati), [Nethys](deity/nethys), [Onmyuza](deity/onmyuza), [Sivanah](deity/sivanah), [Thoth](deity/thoth) |",
 			"| Whimsy | [Chucaro](deity/chucaro), [Findeladlara](deity/findeladlara), [Lalaci](deity/lalaci), [Picoperi](deity/picoperi), [Skrymir](deity/skrymir), [Thamir Gixx](deity/thamir_gixx), [Thisamet](deity/thisamet), [Tsathoggua](deity/tsathoggua) |",
 			"| Wind | [Areshkagal](deity/areshkagal), [Baalzebul](deity/baalzebul), [Chupurvagasti](deity/chupurvagasti), [Eligos](deity/eligos), [Geon](deity/geon), [Ghlaunder](deity/ghlaunder), [Gozreh](deity/gozreh), [Hei Feng](deity/hei_feng), [Horus](deity/horus), [Hshurha](deity/hshurha), [Isph-Aun-Vuln](deity/isph_aun_vuln), [Ithaqua](deity/ithaqua), [Libicocco](deity/libicocco), [Llamolaek](deity/llamolaek), [Onos](deity/onos), [Pazuzu](deity/pazuzu), [Rull](deity/rull), [Seramaydiel](deity/seramaydiel), [Sugroz](deity/sugroz), [Tjasse](deity/tjasse), [Uaransaph](deity/uaransaph), [Xiquiripat](deity/xiquiripat), [Ylimancha](deity/ylimancha) |"
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Deities and Daiths", "faiths"] ]
 	},
 	"faiths_alignments": {
 		"title": "Deities/Faiths by Alignment",
@@ -16945,7 +17003,8 @@
 			"| Chaotic Neutral | [Abhoth](deity/abhoth), [Acavna](deity/acavna), [Ashukharma](deity/ashukharma), [Azathoth](deity/azathoth), [Bastet](deity/bastet), [Besmara](deity/besmara), [Bokrug](deity/bokrug), [Calistria](deity/calistria), [Count Ranalc](deity/count_ranalc), [Gorum](deity/gorum), [Groetus](deity/groetus), [Hanspur](deity/hanspur), [Hei Feng](deity/hei_feng), [Il'surrish](deity/il'surrish), [Mhar](deity/mhar), [Narriseminek](deity/narriseminek), [Nephthys](deity/nephthys), [Nocticula (Redeemed)](deity/nocticula_redeemed), [Sekhmet](deity/sekhmet), [Sobek](deity/sobek), [Speakers of the Depths](deity/speakers_of_the_depths), [Ssila'meshnik](deity/ssila'meshnik), [Sun Wukong](deity/sun_wukong), [The Lantern King](deity/the_lantern_king), [Tjasse](deity/tjasse), [Ydajisk](deity/ydajisk), [Yig](deity/yig), [Yog-Sothoth](deity/yog_sothoth) |",
 			"| Chaotic Evil | [Abraxas](deity/abraxas), [Aldinach](deity/aldinach), [Ananshea](deity/ananshea), [Andirifkhu](deity/andirifkhu), [Angazhan](deity/angazhan), [Apep](deity/apep), [Areshkagal](deity/areshkagal), [Baphomet](deity/baphomet), [Camazotz](deity/camazotz), [Chamiaholom](deity/chamiaholom), [Charg](deity/charg), [Chaugnar Faugn](deity/chaugnar_faugn), [Chavazvug](deity/chavazvug), [Cthulhu](deity/cthulhu), [Cyth-V'sug](deity/cyth_v'sug), [Dachzerul](deity/dachzerul), [Daclau-Sar](deity/daclau_sar), [Dagon](deity/dagon), [Dahak](deity/dahak), [Deskari](deity/deskari), [Dretha](deity/dretha), [Flauros](deity/flauros), [Ghlaunder](deity/ghlaunder), [Gogunta](deity/gogunta), [Guyuku](deity/guyuku), [Gyronna](deity/gyronna), [Haagenti](deity/haagenti), [Haggakal](deity/haggakal), [Hastur](deity/hastur), [Hataam](deity/hataam), [Iggeret](deity/iggeret), [Isph-Aun-Vuln](deity/isph_aun_vuln), [Ithaqua](deity/ithaqua), [Izyagna](deity/izyagna), [Jezelda](deity/jezelda), [Jubilex](deity/jubilex), [Kabriri](deity/kabriri), [Kitumu](deity/kitumu), [Kostchtchie](deity/kostchtchie), [Kro'akoth](deity/kro'akoth), [Lady Nanbyo](deity/lady_nanbyo), [Lamashtu](deity/lamashtu), [Lanishra](deity/lanishra), [Mazmezz](deity/mazmezz), [Menxyr](deity/menxyr), [Mestama](deity/mestama), [Mordiggian](deity/mordiggian), [Murnath](deity/murnath), [Nameless](deity/nameless), [Nhimbaloth](deity/nhimbaloth), [Nightripper](deity/nightripper), [Nocticula](deity/nocticula), [Nulgreth](deity/nulgreth), [Nurgal](deity/nurgal), [Nyarlathotep (Black Pharaoh)](deity/nyarlathotep_black_pharaoh), [Nyarlathotep (Faceless Sphinx)](deity/nyarlathotep_faceless_sphinx), [Nyarlathotep (Haunter of the Dark)](deity/nyarlathotep_haunter_of_the_dark), [Oaur-Ooung](deity/oaur_ooung), [Ongalte](deity/ongalte), [Onmyuza](deity/onmyuza), [Orcus](deity/orcus), [Orgesh](deity/orgesh), [Ovonovo](deity/ovonovo), [Ozranvial](deity/ozranvial), [Pazuzu](deity/pazuzu), [Ragadahn](deity/ragadahn), [Rhan-Tegoth](deity/rhan_tegoth), [Rovagug](deity/rovagug), [Rull](deity/rull), [Sezelrian](deity/sezelrian), [Shamira](deity/shamira), [Shawnari](deity/shawnari), [Shax](deity/shax), [Shiggarreb](deity/shiggarreb), [Shivaska](deity/shivaska), [Shub-Niggurath](deity/shub_niggurath), [Sifkesh](deity/sifkesh), [Sithhud](deity/sithhud), [Socothbenoth](deity/socothbenoth), [Thamir Gixx](deity/thamir_gixx), [Thremyr](deity/thremyr), [Thuskchoon](deity/thuskchoon), [Treerazer](deity/treerazer), [Tsathoggua](deity/tsathoggua), [Urazra](deity/urazra), [Urxehl](deity/urxehl), [Ushitora](deity/ushitora), [Varg](deity/varg), [Velgaas](deity/velgaas), [Verex](deity/verex), [Vermilion Mother](deity/vermilion_mother), [Xiquiripat](deity/xiquiripat), [Xoveron](deity/xoveron), [Yamasoth](deity/yamasoth), [Ydersius](deity/ydersius), [Yhidothrus](deity/yhidothrus), [Zagresh](deity/zagresh), [Zevgavizeb](deity/zevgavizeb), [Zipacna](deity/zipacna), [Zogmugot](deity/zogmugot), [Zura](deity/zura) |",
 			"| Unaligned | [Pharimia](deity/pharimia) |"
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Deities and Daiths", "faiths"] ]
 	},
 	"rules": {
 		"title": "All Rules",
@@ -17042,7 +17101,8 @@
 			"- [Relics](rule/relics)",
 			"- [Words of Power](rule/words_of_power)",
 			"- [Wounds and Vigor](rule/wounds_and_vigor)"
-		]
+		],
+		"_previous": [ ["Main", "main"] ]
 	},
 	"equipment": {
 		"title": "Equipment",
@@ -17081,7 +17141,8 @@
 			"**[Artifacts](equipment_tech_artifacts)**",
 			"",
 			"**[Miscellaneous](equipment_tech_misc)**"
-		]
+		],
+		"_previous": [ ["Main", "main"] ]
 	},
 	"equipment_armor": {
 		"title": "Armor",
@@ -17163,7 +17224,8 @@
 				"initialColumn": 1,
 				"className": "simple"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_armorenhancements": {
 		"title": "Armor and Shield Enhancements",
@@ -17200,7 +17262,8 @@
 				"initialColumn": 0,
 				"className": "simple"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_weapons": {
 		"title": "Weapons",
@@ -17704,7 +17767,8 @@
 				"initialColumn": 2,
 				"className": "simple"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_weaponenhancements": {
 		"title": "Weapon Enhancements",
@@ -17737,7 +17801,8 @@
 				"initialColumn": 1,
 				"className": "simple"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_materials": {
 		"title": "Special Materials",
@@ -17818,7 +17883,8 @@
 			"| [Gold](equipment/material/gold) | Typically only used for ceremonial weapons and armor and for display, metal equipment made from gold is fragile, heavy, and expensive. |",
 			"| [Obsidian](equipment/material/obsidian) | This black volcanic glass is extremely sharp, and can be shaped into a variety of weapons that deal piercing and slashing damage. |",
 			"| [Stone](equipment/material/stone) | Stone Age weapons almost always utilize stone in some way. |"
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_siegeengines": {
 		"title": "Siege Engines",
@@ -17891,7 +17957,8 @@
 				"initialColumn": 1,
 				"className": "simple"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_poisons": {
 		"title": "Poisons",
@@ -18065,7 +18132,8 @@
 				"initialColumn": 0,
 				"className": "poisons"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_reagents": {
 		"title": "Alchemical Reagents",
@@ -18129,7 +18197,8 @@
 				"initialColumn": 0,
 				"className": "simple"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_spellbooks": {
 		"title": "Spellbooks",
@@ -18224,7 +18293,8 @@
 				"initialColumn": 0,
 				"className": "endcaps"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_misc": {
 		"title": "Miscellaneous Equipment",
@@ -19979,7 +20049,8 @@
 				"initialColumn": 0,
 				"className": "simple"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_tech_armor": {
 		"title": "Technology - Armor",
@@ -20042,12 +20113,13 @@
 					[ "[panic suit](equipment/tech/armor/panic_suit)", [ 1, "medium" ], 2000, 2, 2, -4, "50%", "20 ft.", "15 ft.", 2, 10, "1 charge/hour, disposable" ],
 					[ "[smart armor (expanded form)](equipment/tech/armor/smart_armor_expanded_form)", [ 2, "heavy" ], 16500, 8, 1, -5, "35%", "20 ft.", "15 ft.", 20, 60, "1 charge/10 minutes" ],
 					[ "[spacesuit](equipment/tech/armor/spacesuit)", [ 2, "heavy" ], 90000, 7, 0, -8, "50%", "20 ft.", "15 ft.", 35, 25, "1 charge/hour" ],
-					[ "[hard light shield](equipment/tech/armor/hard_light_shield)", [ 3, "shield" ], 6400, 2, 0, 0, "10%", "30 ft.", "20 ft.", 1, 20, "1 charge/minute" ]		
+					[ "[hard light shield](equipment/tech/armor/hard_light_shield)", [ 3, "shield" ], 6400, 2, 0, 0, "10%", "30 ft.", "20 ft.", 1, 20, "1 charge/minute" ]
 				],
 				"initialColumns": 1,
 				"className": "simple"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_tech_weapons": {
 		"title": "Technology - Weapons",
@@ -20144,7 +20216,8 @@
 				"initialColumn": 2,
 				"className": "endcaps"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_tech_cybertech": {
 		"title": "Technology - Cybertech",
@@ -20220,7 +20293,8 @@
 				"initialColumn": 0,
 				"className": "simple"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_tech_pharmaceuticals": {
 		"title": "Technology - Pharmaceuticals",
@@ -20266,7 +20340,8 @@
 				"initialColumn": 0,
 				"className": "simple"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_tech_artifacts": {
 		"title": "Technology - Artifacts",
@@ -20316,13 +20391,14 @@
 					[ "[Powered armor](equipment/tech/artifact/powered_armor)", "armor", 50 ],
 					[ "[Psychic imprinter](equipment/tech/artifact/psychic_imprinter)", "misc", 10 ],
 					[ "[Rebirthing chamber](equipment/tech/artifact/rebirthing_chamber)", "misc", 1200 ],
-					[ "[Solar generator](equipment/tech/artifact/solar_generator)", "generator", null ]	,	
+					[ "[Solar generator](equipment/tech/artifact/solar_generator)", "generator", null ]	,
 					[ "[Temporal accelerator](equipment/tech/artifact/temporal_accelerator)", "misc", 1 ]
 				],
 				"initialColumn": 0,
 				"className": "simple"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_tech_misc": {
 		"title": "Technology - Miscellaneous",
@@ -20498,7 +20574,8 @@
 				"nullValue": "",
 				"className": "simple"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"magic": {
 		"title": "Magic Items",
@@ -20522,7 +20599,8 @@
 			"",
 			"[View Miscellaneous Magic Items](magic_misc)  ",
 			"Includes: Altars, Construct Modifications, Elemental Augmentations, Favors, Fetishes, Fleshcrafting, Fungal grafts, Implants, Infused poisons, Necrografts, Necrotoxins, Oils, Plants, Relics, Piercings, Talismans, Tattoos, Thrones, and Magical Sets."
-		]
+		],
+		"_previous": [ ["Main", "main"] ]
 	},
 	"magic_enhancements": {
 		"title": "Magic - Enhancements",
@@ -20891,7 +20969,8 @@
 				"initialColumn": 0,
 				"className": "simple"
 			}
-		]	
+		],
+		"_previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
 	},
 	"magic_misc": {
 		"title": "Miscellaneous Magic Items",
@@ -21186,7 +21265,7 @@
 			"## Relics",
 			"",
 			"**Description Source** [Pathfinder #128: Songbird, Scion, Saboteur](source/pathfinder_#128_songbird,_scion,_saboteur)  ",
-			"Throughout the War for the Crown Adventure Path, PCs can find the following relics, organized below by the volume of the AP in which they appear. To use these relics in other campaigns, consult the information on PC level in parentheses. A relic's stat block details its base abilities followed by the powers the relic gains when it attains one or more triumphs. [Click here for the full rules on Relics.](rule/relics)",	
+			"Throughout the War for the Crown Adventure Path, PCs can find the following relics, organized below by the volume of the AP in which they appear. To use these relics in other campaigns, consult the information on PC level in parentheses. A relic's stat block details its base abilities followed by the powers the relic gains when it attains one or more triumphs. [Click here for the full rules on Relics.](rule/relics)",
 			"",
 			"---",
 			"",
@@ -21462,7 +21541,8 @@
 				"nullValue": "See Text",
 				"className": "simple"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
 	},
 	"magic_armor": {
 		"title": "Magic Armor",
@@ -21733,7 +21813,8 @@
 				"initialColumn": 2,
 				"className": "simple"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
 	},
 	"magic_weapons": {
 		"title": "Magic Weapons",
@@ -22256,7 +22337,8 @@
 				"initialColumn": 1,
 				"className": "simple"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
 	},
 	"magic_rings": {
 		"title": "Magic Rings",
@@ -22504,7 +22586,8 @@
 				"initialColumn": 1,
 				"className": "simple"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
 	},
 	"magic_rods": {
 		"title": "Magic Rods",
@@ -22774,7 +22857,8 @@
 				"initialColumn": 1,
 				"className": "simple"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
 	},
 	"magic_staves": {
 		"title": "Magic Staves",
@@ -22906,7 +22990,8 @@
 				"initialColumn": 1,
 				"className": "simple"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
 	},
 	"magic_wondrous": {
 		"title": "Wondrous Items",
@@ -25501,7 +25586,8 @@
 				"initialColumn": 1,
 				"className": "simple"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
 	},
 	"magic_artifacts": {
 		"title": "Artifacts",
@@ -25858,6 +25944,7 @@
 				"initialColumn": 0,
 				"className": "simple"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
 	}
 }

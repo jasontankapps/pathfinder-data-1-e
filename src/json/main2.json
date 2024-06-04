@@ -78,7 +78,8 @@
 			"---",
 			"",
 			"[Occult Rituals](occult_rituals)"
-		]
+		],
+		"_previous": [ ["Main", "main"] ]
 	},
 	"spells_all": {
 		"title": "All Spells",
@@ -3128,7 +3129,8 @@
 				"initialColumn": 0,
 				"className": "endcaps"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_cleric": {
 		"title": "All Cleric Spells",
@@ -4290,7 +4292,8 @@
 					[ "[Yellow Sign](spell/yellow_sign)", 9, "enchantment", "compulsion", "mind-affecting", "Use this symbol to subject all who view it to the will of Hastur." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_inquisitor": {
 		"title": "All Inquisitor Spells",
@@ -4975,7 +4978,8 @@
 					[ "[Word of Chaos](spell/word_of_chaos)", 6, "evocation", null, "chaotic, sonic", "Kills, confuses, stuns, or deafens nonchaotic subjects." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_oracle": {
 		"title": "All Oracle Spells",
@@ -6131,7 +6135,8 @@
 					[ "[Yellow Sign](spell/yellow_sign)", 9, "enchantment", "compulsion", "mind-affecting", "Use this symbol to subject all who view it to the will of Hastur." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_paladin": {
 		"title": "All Paladin Spells",
@@ -6461,7 +6466,8 @@
 					[ "[Symbol of Healing](spell/symbol_of_healing)", 4, "conjuration", "healing", null, "Triggered rune heals living creatures." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_warpriest": {
 		"title": "All Warpriest Spells",
@@ -7471,7 +7477,8 @@
 					[ "[Word of Recall](spell/word_of_recall)", 6, "conjuration", "teleportation", null, "Teleports you back to designated place." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_alchemist": {
 		"title": "All Alchemist Spells",
@@ -7909,7 +7916,8 @@
 					[ "[Wind Walk](spell/wind_walk)", 6, "transmutation", null, "air", "You and your allies turn vaporous and travel fast." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_arcanist": {
 		"title": "All Arcanist Spells",
@@ -9825,7 +9833,8 @@
 					[ "[Yellow Sign](spell/yellow_sign)", 9, "enchantment", "compulsion", "mind-affecting", "Use this symbol to subject all who view it to the will of Hastur." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_bard": {
 		"title": "All Bard Spells",
@@ -10720,7 +10729,8 @@
 					[ "[Yellow Sign](spell/yellow_sign)", 6, "enchantment", "compulsion", "mind-affecting", "Use this symbol to subject all who view it to the will of Hastur." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_investigator": {
 		"title": "All Investigator Spells",
@@ -11152,7 +11162,8 @@
 					[ "[Wind Walk](spell/wind_walk)", 6, "transmutation", null, "air", "You and your allies turn vaporous and travel fast." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_magus": {
 		"title": "All Magus Spells",
@@ -11665,7 +11676,8 @@
 					[ "[Wall of Iron](spell/wall_of_iron)", 6, "conjuration", "creation", null, "30 hp/four levels; can topple onto foes." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_occultist": {
 		"title": "All Occultist Spells",
@@ -12364,7 +12376,8 @@
 					[ "[Wall of Iron](spell/wall_of_iron)", 6, "conjuration", "creation", null, "30 hp/four levels; can topple onto foes." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_psychic": {
 		"title": "All Psychic Spells",
@@ -13491,7 +13504,8 @@
 					[ "[Wish](spell/wish)", 9, "universal", null, null, "As limited wish, but with fewer limits." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_skald": {
 		"title": "All Skald Spells",
@@ -14370,7 +14384,8 @@
 					[ "[Yellow Sign](spell/yellow_sign)", 6, "enchantment", "compulsion", "mind-affecting", "Use this symbol to subject all who view it to the will of Hastur." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_sorcerer": {
 		"title": "All Sorcerer Spells",
@@ -16281,7 +16296,8 @@
 					[ "[Yellow Sign](spell/yellow_sign)", 9, "enchantment", "compulsion", "mind-affecting", "Use this symbol to subject all who view it to the will of Hastur." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_wizard": {
 		"title": "All Wizard Spells",
@@ -18204,7 +18220,8 @@
 					[ "[Yellow Sign](spell/yellow_sign)", 9, "enchantment", "compulsion", "mind-affecting", "Use this symbol to subject all who view it to the will of Hastur." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_bloodrager": {
 		"title": "All Bloodrager Spells",
@@ -18571,7 +18588,8 @@
 					[ "[Wreath of Blades](spell/wreath_of_blades)", 4, "abjuration", null, null, "Four mithral daggers speed around you, attacking nearby creatures and protecting your spellcasting from attacks of opportunity." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_summoner": {
 		"title": "All Summoner Spells",
@@ -19014,7 +19032,8 @@
 					[ "[Whip of Ants](spell/whip_of_ants)", 6, "conjuration", "summoning", null, "Create a whip made of army ants." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_summoner_uc": {
 		"title": "All Unchained Summoner Spells",
@@ -19406,7 +19425,8 @@
 					[ "[Whip of Ants](spell/whip_of_ants)", 6, "conjuration", "summoning", null, "Create a whip made of army ants." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_druid": {
 		"title": "All Druid Spells",
@@ -20226,7 +20246,8 @@
 					[ "[World Wave](spell/world_wave)", 9, "transmutation", null, "earth, water", "Earth moves you across distances." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_hunter": {
 		"title": "All Hunter Spells",
@@ -21063,7 +21084,8 @@
 					[ "[Whip of Ants](spell/whip_of_ants)", 6, "conjuration", "summoning", null, "Create a whip made of army ants." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_redmantisassassin": {
 		"title": "All Red Mantis Assassin Spells",
@@ -21366,7 +21388,8 @@
 					[ "[Wandering Star Motes](spell/wandering_star_motes)", 4, "illusion", "pattern", "light, mind-affecting", "Outlines subject and produces light as a sunrod." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_witch": {
 		"title": "All Witch Spells",
@@ -22586,7 +22609,8 @@
 					[ "[Yellow Sign](spell/yellow_sign)", 9, "enchantment", "compulsion", "mind-affecting", "Use this symbol to subject all who view it to the will of Hastur." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_sahirafiyun": {
 		"title": "All Sahir-Afiyun Spells",
@@ -22637,7 +22661,8 @@
 					[ "[Symbol of Sleep](spell/symbol_of_sleep)", 5, "enchantment", "compulsion", "mind-affecting", "Triggered rune puts nearby creatures into catatonic slumber." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_medium": {
 		"title": "All Medium Spells",
@@ -23046,7 +23071,8 @@
 					[ "[Shadow Transmutation](spell/shadow_transmutation)", 6, "illusion", "shadow", "shadow", "Alter a creature's body with energy from the Shadow Plane, altering its form to match a shadow creature." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_mesmerist": {
 		"title": "All Mesmerist Spells",
@@ -23627,7 +23653,8 @@
 					[ "[What Grows Within](spell/what_grows_within)", 6, "necromancy", null, "evil", "Infect others with Xhamen-Dor's seeded infestation." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_spiritualist": {
 		"title": "All Spiritualist Spells",
@@ -24064,7 +24091,8 @@
 					[ "[Wither Limb](spell/wither_limb)", 6, "necromancy", null, null, "Make one of the creature's limbs useless." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_ranger": {
 		"title": "All Ranger Spells",
@@ -24483,7 +24511,8 @@
 					[ "[Watchful Animal](spell/watchful_animal)", 4, "divination", "scrying", null, "Place a scrying sensor on your animal companion or familiar." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_antipaladin": {
 		"title": "All Antipaladin Spells",
@@ -24792,7 +24821,8 @@
 					[ "[Plague Bearer](spell/plague_bearer)", 6, "necromancy", null, "disease, evil", "Make the target a carrier of numerous diseases." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_shaman": {
 		"title": "All Shaman Spells",
@@ -25488,7 +25518,8 @@
 					[ "[Winds of Vengeance](spell/winds_of_vengeance)", 9, "evocation", null, "air", "Gives you the ability to fly and attack with wind." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_adept": {
 		"title": "All Adept Spells",
@@ -25594,7 +25625,8 @@
 					[ "[Wall of Stone](spell/wall_of_stone)", 5, "conjuration", "creation", "earth", "Creates a stone wall that can be shaped." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_mythic": {
 		"title": "All Mythic Spells",
@@ -25738,7 +25770,8 @@
 				"initialColumn": 0,
 				"className": "endcaps"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_mythic_arcane": {
 		"title": "Arcane Mythic Spells",
@@ -26267,7 +26300,8 @@
 					[ "[Phantasmal Killer](spell/phantasmal_killer)", 4, "illusion", "phantasm", "emotion, fear, mind-affecting", "Fearsome illusion kills subject or deals 3d6 damage." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_mythic_divine": {
 		"title": "Divine Mythic Spells",
@@ -26711,7 +26745,8 @@
 					[ "[Storm of Vengeance](spell/storm_of_vengeance)", 9, "conjuration", "summoning", null, "Storm rains acid, lightning, and hail." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_mythic_occult": {
 		"title": "Occult Mythic Spells",
@@ -27013,7 +27048,8 @@
 					[ "[Mislead](spell/mislead)", 6, "illusion", "figment, glamer", null, "Turns you invisible and creates illusory double." ]
 				]
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"occult_rituals": {
 		"title": "Occult Rituals",
@@ -27129,6 +27165,7 @@
 				"initialColumn": 1,
 				"className": "endcaps"
 			}
-		]
+		],
+		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	}
 }

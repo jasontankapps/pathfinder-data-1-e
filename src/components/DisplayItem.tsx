@@ -1,4 +1,4 @@
-import { FC, useMemo, ClassAttributes, AnchorHTMLAttributes, HTMLAttributes } from 'react';
+import { FC, useMemo, ClassAttributes, AnchorHTMLAttributes, HTMLAttributes, ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 import Markdown, { ExtraProps } from 'react-markdown';
 import remarkGfm from 'remark-gfm'
@@ -8,9 +8,12 @@ import { Table } from '../types';
 type MDaProps = ClassAttributes<HTMLAnchorElement> & AnchorHTMLAttributes<HTMLAnchorElement> & ExtraProps;
 type MDcodeProps = ClassAttributes<HTMLElement> & HTMLAttributes<HTMLElement> & ExtraProps;
 
+type CodePlugin = (input: string) => false | ReactNode
+
 interface ContainerProps {
 	markdown: string | string[]
 	tables?: Table[]
+	otherCodes?: CodePlugin[]
 }
 
 const plugins = [remarkGfm];
@@ -20,26 +23,45 @@ const doLink = (props: MDaProps) => {
 	return <Link to={"/" + href}>{children}</Link>
 };
 
-const code = (props: MDcodeProps, tables: Table[]) => {
+const code = (props: MDcodeProps, tables: Table[], otherCodes: CodePlugin[]) => {
 	const { children, ...etc } = props;
 	if(typeof(children) === "string") {
-		const m = children.match(/^table([0-9]+)$/);
-		const i = m ? (Number(m[1]) || -1) : -1;
-		return i >= 0 && i < tables.length ? <DisplayTable table={tables[i]} /> : <div><strong>ERROR fetching [{children}]</strong></div>;
+		let m = children.match(/^table([0-9]+)$/);
+		let potentialOutput: false | ReactNode = false;
+		if(m) {
+			const index = parseInt((m as RegExpMatchArray)[1]);
+			if(index >= 0 && index < tables.length) {
+				return <DisplayTable table={tables[index]} />;
+			}
+		} else if (otherCodes.some(func => {
+			// This handles things like children.match(/^CAPSTONE (.+)$/)
+			const result = func(children);
+			if(result) {
+				potentialOutput = result;
+				return true;
+			}
+			return false;
+		})) {
+			if(potentialOutput) {
+				// This stupid `if` is for the sake of TypeScript
+				return potentialOutput;
+			}
+		}
+		return <div><strong>ERROR fetching [{children}]</strong></div>;
 	}
 	return <code {...etc}>ERROR [invalid syntax]</code>;
 };
 
-const makeComponents = (tables: Table[]) => {
+const makeComponents = (tables: Table[], otherCodes: CodePlugin[]) => {
 	return {
 		a: doLink,
-		code: (props: MDcodeProps) => code(props, tables)
+		code: (props: MDcodeProps) => code(props, tables, otherCodes)
 	};
 };
 
-const DisplayItem: FC<ContainerProps> = ({ markdown, tables = [] }) => {
+const DisplayItem: FC<ContainerProps> = ({ markdown, tables = [], otherCodes = [] }) => {
 	const contents = Array.isArray(markdown) ? markdown.join("\n") : markdown;
-	const components = useMemo(() => makeComponents(tables), [tables]);
+	const components = useMemo(() => makeComponents(tables, otherCodes), [tables]);
 	return (
 		<Markdown
 			remarkPlugins={plugins}

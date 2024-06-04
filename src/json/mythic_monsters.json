@@ -4,24 +4,6 @@
 		"name": "Aboleth",
 		"file": "mythicmonsterdisplay2a84.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 9,
-		"mr": 3,
-		"alignment": "LE",
-		"size": "huge",
-		"creature_type": "aberration",
-		"creature_subtypes": [
-			"aquatic",
-			"mythic"
-		],
-		"str": 20,
-		"dex": 12,
-		"con": 22,
-		"int": 15,
-		"wis": 17,
-		"cha": 19,
-		"base_attack_bonus": 6,
-		"cmb": 13,
-		"cmd": 24,
 		"description": [
 			"## Aboleth",
 			"",
@@ -81,31 +63,12 @@
 			"",
 			"A mythic aboleth has exceptional magic, usually gained by staying alive long enough to see some of its dark experiments through to fruition. Brooding and brilliant, it seeks to conquer the dry lands."
 		],
-		"short_description": "A foul mist surrounds this huge, three-eyed, tentacled fish creature, and plates of hardened slime guard its body.",
 		"display": "monster"
 	},
 	"anunnaki_mythic": {
 		"name": "Anunnaki",
 		"file": "mythicmonsterdisplaye4c0.html",
 		"sources": [ "Bestiary 5" ],
-		"cr": 18,
-		"mr": 7,
-		"alignment": "N",
-		"size": "large",
-		"creature_type": "monstrous humanoid",
-		"creature_subtypes": [
-			"mythic",
-			"shapechanger"
-		],
-		"str": 29,
-		"dex": 20,
-		"con": 24,
-		"int": 27,
-		"wis": 27,
-		"cha": 26,
-		"base_attack_bonus": 20,
-		"cmb": 30,
-		"cmd": 53,
 		"description": [
 			"## Anunnaki",
 			"",
@@ -160,33 +123,12 @@
 			"",
 			"Residents of an enigmatic and unknown world that is believed to exist out of phase with the Material Plane, anunnaki are mysterious, god-like beings that shape the very direction of civilizations. Little is known about the anunnaki homeworld, but fragmented information collected by scholars indicates that it comes into contact with the Material Plane only once every few thousand years. During this time, anunnaki travel to other worlds in order to manipulate the course of evolution, creating civilizations and uplifting primitive creatures using their esoteric technology, which includes external power sources called \"lanterns of civilization.\" The anunnaki do not typically remain to guide these societies, and are often remembered as deities by the civilizations they leave behind. Because the anunnaki can take on various forms, piecing together which civilizations have or haven't been visited by anunnaki is exceedingly difficult. The creatures could have arrived to guide one civilization in the guise of powerful, glowing creatures and secretly assimilated into another society by adopting the appearance of members of that society and subtly making changes over the course of decades. Each anunnaki calibrates its form to fit the mores and prejudices of the specific society it means to advance. Anunnaki's role as manipulators of civilization and natural order often puts them into direct confrontation with elohim. The source of the enmity between these mighty creatures is unknown, but the aftershocks of their conflicts can be felt for millennia after the fighting has ended. Some sages believe that the anunnaki and elohim are both working to circumvent some future calamity, but differ along ideological or philosophical lines as to how to prevent this event from coming to pass. Ancient records from cultures that were shaped by the anunnaki reference divine visions of great, devouring rifts in the darkness between the stars and the terrible, unimaginable entities that dwell within them. For all the knowledge and power anunnaki possess, the civilizations they create do not always see them as benevolent saviors. Some anunnaki might have more sinister agendas not shared by the rest of their people. These rogue anunnaki have free rein over the societies they manipulate as long as they can avoid the notice of their fellow anunnaki-and since it is difficult for other creatures to find or contact any of their race, the renegade anunnaki can often do whatever they please. Some of these renegades use their civilizations for large-scale experiments, creating bizarre hybrid creatures. Others advance their subjects too rapidly by the standards of the other anunnaki, attempting to create creatures as advanced as the anunnaki themselves rather than simply giving cultures the means to advance themselves. In many of these cases, the uplifted society isn't truly equipped to handle such vast changes. Rather than advancing in a surge of scientific and creative thought, its members become absorbed with existential doubt or fall into madness as they recognize the gulf between their lofty ambitions and the materials and means they have at their disposal. Anunnaki prefer to interact with most humanoids without being recognized for what they are, and an anunnaki may depart a conversation abruptly if a non-anunnaki reveals that she knows it is not the god or mortal it pretends to be."
 		],
-		"short_description": "This towering humanoid has a strange, stony head. Small, mechanical wings spread out from its back.",
 		"display": "monster"
 	},
 	"apkallu_mythic": {
 		"name": "Apkallu",
 		"file": "mythicmonsterdisplaya525.html",
 		"sources": [ "Bestiary 5" ],
-		"cr": 23,
-		"mr": 9,
-		"alignment": "LN",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"extraplanar",
-			"lawful",
-			"mythic",
-			"water"
-		],
-		"str": 30,
-		"dex": 26,
-		"con": 33,
-		"int": 26,
-		"wis": 27,
-		"cha": 29,
-		"base_attack_bonus": 23,
-		"cmb": 34,
-		"cmd": 52,
 		"description": [
 			"## Apkallu",
 			"",
@@ -274,32 +216,12 @@
 			"",
 			"While apkallus are peaceful by nature, they are nevertheless capable of defending themselves and others with powerful magic, especially in defense of Utopia or mortal cities under their protection."
 		],
-		"short_description": "This muscular humanoid possesses a hawk's head and large, bird-like wings. It is dressed in robes crafted from opalescent scales.",
 		"display": "monster"
 	},
 	"apocalypse_locust_mythic": {
 		"name": "Apocalypse Locust",
 		"file": "mythicmonsterdisplayff7a.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 6,
-		"mr": 3,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"evil",
-			"extraplanar",
-			"mythic"
-		],
-		"str": 22,
-		"dex": 10,
-		"con": 14,
-		"int": 11,
-		"wis": 13,
-		"cha": 15,
-		"base_attack_bonus": 6,
-		"cmb": 13,
-		"cmd": 23,
 		"description": [
 			"## Apocalypse Locust",
 			"",
@@ -356,30 +278,12 @@
 			"",
 			"Apocalypse locusts are damned humans twisted and fused into the form of massive, fiendish insects. They delight in torturing living creatures, drawing out the torment for as long as possible. Though these creatures have average intelligence, they are consumed by hatred and eternal pain, and therefore lack any kind of empathy or sanity. Apocalypse locusts particularly enjoy watching holy warriors suffer their hallucinatory stings."
 		],
-		"short_description": "An unnerving, buzzing drone emerges from a creature resembling a tortured human half transformed into a giant, winged scorpion.",
 		"display": "monster"
 	},
 	"argus_mythic": {
 		"name": "Argus",
 		"file": "mythicmonsterdisplay49ba.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 13,
-		"mr": 6,
-		"alignment": "LN",
-		"size": "gargantuan",
-		"creature_type": "aberration",
-		"creature_subtypes": [
-			"mythic"
-		],
-		"str": 39,
-		"dex": 14,
-		"con": 23,
-		"int": 13,
-		"wis": 12,
-		"cha": 10,
-		"base_attack_bonus": 9,
-		"cmb": 27,
-		"cmd": 43,
 		"description": [
 			"## Argus",
 			"",
@@ -445,31 +349,12 @@
 			"",
 			"An argus stands 25 feet tall and weighs 18,000 pounds."
 		],
-		"short_description": "This misshapen giant is covered in horns, tumorous tentacles, unsightly warts, and strange, staring eyes.",
 		"display": "monster"
 	},
 	"champion_of_the_gilded_host_mythic": {
 		"name": "Champion of the Gilded Host",
 		"file": "mythicmonsterdisplayaed1.html",
 		"sources": [ "Lost Treasures" ],
-		"cr": 18,
-		"mr": 7,
-		"alignment": "N",
-		"size": "colossal",
-		"creature_type": "construct",
-		"creature_subtypes": [
-			"colossus",
-			"mythic"
-		],
-		"str": 48,
-		"dex": 13,
-		"con": null,
-		"int": 7,
-		"wis": 12,
-		"cha": 11,
-		"base_attack_bonus": 19,
-		"cmb": 46,
-		"cmd": 57,
 		"description": [
 			"## Champion of the Gilded Host",
 			"",
@@ -547,30 +432,12 @@
 			"",
 			"**Requirements** Craft Construct, Mythic Crafter, antimagic field, good hope, remove fear, vengeful outrage, wish, creator must be at least mythic rank or tier 6th"
 		],
-		"short_description": "This towering humanoid creature is made almost entirely of gold and radiates a warm light.",
 		"display": "monster"
 	},
 	"chaneque_mythic": {
 		"name": "Chaneque",
 		"file": "mythicmonsterdisplayfd62.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 1,
-		"mr": 1,
-		"alignment": "NE",
-		"size": "small",
-		"creature_type": "fey",
-		"creature_subtypes": [
-			"mythic"
-		],
-		"str": 6,
-		"dex": 17,
-		"con": 10,
-		"int": 13,
-		"wis": 14,
-		"cha": 9,
-		"base_attack_bonus": 1,
-		"cmb": -2,
-		"cmd": 11,
 		"description": [
 			"## Chaneque",
 			"",
@@ -631,30 +498,12 @@
 			"",
 			"A typical chaneque stands about 3 feet tall, with blackish-red, rubbery flesh. It has long, filthy claws it uses to cling to trees. Between the creature's legs and arms hang wide, webbed flaps it uses for gliding. A chaneque also has long, ridged, batlike ears and needlelike teeth."
 		],
-		"short_description": "This creature appears to be a cross between a pixie and a bat with charred flesh. Around its waist dangle tiny fairy skull trophies.",
 		"display": "monster"
 	},
 	"cockatrice_mythic": {
 		"name": "Cockatrice",
 		"file": "mythicmonsterdisplay8558.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 4,
-		"mr": 1,
-		"alignment": "N",
-		"size": "small",
-		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"mythic"
-		],
-		"str": 6,
-		"dex": 17,
-		"con": 11,
-		"int": 2,
-		"wis": 13,
-		"cha": 8,
-		"base_attack_bonus": 6,
-		"cmb": 3,
-		"cmd": 17,
 		"description": [
 			"## Cockatrice",
 			"",
@@ -706,31 +555,12 @@
 			"",
 			"A mythic cockatrice is infused with stone, perhaps because of some aspect of its aging process, or its body has absorbed minerals from countless stony foes, or its incessant grooming has slowly petrified its own flesh. Even more aggressive and territorial than non-mythic kin, a mythic cockatrice recklessly attacks anything that intrudes on its territory."
 		],
-		"short_description": "This beast is an unsettling combination of chicken and lizard, and its claws, beak, and wattles seem made of stone.",
 		"display": "monster"
 	},
 	"colossus,_flesh_colossus_mythic": {
 		"name": "Colossus, Flesh Colossus",
 		"file": "mythicmonsterdisplayb738.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 16,
-		"mr": 6,
-		"alignment": "N",
-		"size": "gargantuan",
-		"creature_type": "construct",
-		"creature_subtypes": [
-			"colossus",
-			"mythic"
-		],
-		"str": 42,
-		"dex": 11,
-		"con": null,
-		"int": 3,
-		"wis": 10,
-		"cha": 7,
-		"base_attack_bonus": 16,
-		"cmb": 36,
-		"cmd": 46,
 		"description": [
 			"## Colossus, Flesh Colossus",
 			"",
@@ -796,7 +626,6 @@
 			"",
 			"**Requirements** Craft Construct, Mythic Crafter 6th mythic tier, animate dead, antimagic field, gentle repose, limited wish; Skill Heal DC 25; **Cost** 70,000 gp"
 		],
-		"short_description": "This enormous monstrosity looks like a pile of fresh humanoid bodies shoved into a shambling humanoid shape.",
 		"display": "monster"
 	},
 	"flesh_colossus_mythic": { "copyof": "colossus,_flesh_colossus_mythic" },
@@ -804,24 +633,6 @@
 		"name": "Colossus, Iron Colossus",
 		"file": "mythicmonsterdisplay2573.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 21,
-		"mr": 8,
-		"alignment": "N",
-		"size": "colossal",
-		"creature_type": "construct",
-		"creature_subtypes": [
-			"colossus",
-			"mythic"
-		],
-		"str": 51,
-		"dex": 9,
-		"con": null,
-		"int": 5,
-		"wis": 10,
-		"cha": 14,
-		"base_attack_bonus": 23,
-		"cmb": 51,
-		"cmd": 62,
 		"description": [
 			"## Colossus, Iron Colossus",
 			"",
@@ -896,7 +707,6 @@
 			"",
 			"**Requirements** Craft Construct, Mythic Crafter, mythic tier or rank 8, antimagic field, cloudkill, meteor swarm, rusting grasp, wall of iron, wish; Skill Craft (blacksmithing) DC 30; **Cost** 300,000 gp"
 		],
-		"short_description": "A siege engineer's nightmare, this giant machine emits noxious fumes from its grinding engine.",
 		"display": "monster"
 	},
 	"iron_colossus_mythic": { "copyof": "colossus,_iron_colossus_mythic" },
@@ -907,24 +717,6 @@
 			"Bestiary 5",
 			"Osirion, Legacy of the Pharaohs"
 		],
-		"cr": 14,
-		"mr": 4,
-		"alignment": "N",
-		"size": "gargantuan",
-		"creature_type": "construct",
-		"creature_subtypes": [
-			"colossus",
-			"mythic"
-		],
-		"str": 40,
-		"dex": 13,
-		"con": null,
-		"int": 10,
-		"wis": 15,
-		"cha": 13,
-		"base_attack_bonus": 18,
-		"cmb": 37,
-		"cmd": 48,
 		"description": [
 			"## Colossus, Sphinx Colossus",
 			"",
@@ -993,7 +785,6 @@
 			"",
 			"**Requirements** Craft Construct, Mythic Crafter, Quicken Spell, 4th mythic rank or tier, antimagic field, limited wish, moment of prescience, true strike; Skill Craft (stonemasonry) DC 25; **Cost** 62,500 gp"
 		],
-		"short_description": "This stone edifice resembles a lion with a regal human face, garbed in royal clothing.",
 		"display": "monster"
 	},
 	"sphinx_colossus_mythic": { "copyof": "colossus,_sphinx_colossus_mythic" },
@@ -1001,24 +792,6 @@
 		"name": "Colossus, Stone Colossus",
 		"file": "mythicmonsterdisplay9772.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 19,
-		"mr": 7,
-		"alignment": "N",
-		"size": "colossal",
-		"creature_type": "construct",
-		"creature_subtypes": [
-			"colossus",
-			"mythic"
-		],
-		"str": 48,
-		"dex": 11,
-		"con": null,
-		"int": 5,
-		"wis": 10,
-		"cha": 7,
-		"base_attack_bonus": 21,
-		"cmb": 48,
-		"cmd": 60,
 		"description": [
 			"## Colossus, Stone Colossus",
 			"",
@@ -1091,7 +864,6 @@
 			"",
 			"**Requirements** Craft Construct, Mythic Crafter, mythic rank or tier 8, antimagic field, magnificent mansion, make whole, wall of stone, wish; Skill Craft (stonemasonry) DC 30; **Cost** 170,000 gp"
 		],
-		"short_description": "This immense stone figure appears to be a keep that uprooted itself and went for a walk.",
 		"display": "monster"
 	},
 	"stone_colossus_mythic": { "copyof": "colossus,_stone_colossus_mythic" },
@@ -1099,24 +871,6 @@
 		"name": "Colossus, Wood Colossus",
 		"file": "mythicmonsterdisplaybfdc.html",
 		"sources": [ "Bestiary 5" ],
-		"cr": 17,
-		"mr": 6,
-		"alignment": "N",
-		"size": "gargantuan",
-		"creature_type": "construct",
-		"creature_subtypes": [
-			"colossus",
-			"mythic"
-		],
-		"str": 45,
-		"dex": 9,
-		"con": null,
-		"int": 5,
-		"wis": 12,
-		"cha": 16,
-		"base_attack_bonus": 18,
-		"cmb": 39,
-		"cmd": 48,
 		"description": [
 			"## Colossus, Wood Colossus",
 			"",
@@ -1180,7 +934,6 @@
 			"",
 			"**Requirements** Craft Construct, Mythic Crafter, 7th mythic rank or tier, antimagic field, magnificent mansion, ironwood, limited wish or miracle Skill Craft (woodworking) DC 30; **Cost** 190,000 gp"
 		],
-		"short_description": "This gigantic construct looks like a walking mansion, its body and limbs composed of various rooms.",
 		"display": "monster"
 	},
 	"wood_colossus_mythic": { "copyof": "colossus,_wood_colossus_mythic" },
@@ -1188,24 +941,6 @@
 		"name": "Cyclops, Great Cyclops",
 		"file": "mythicmonsterdisplay0cdb.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 15,
-		"mr": 6,
-		"alignment": "CE",
-		"size": "huge",
-		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"giant",
-			"mythic"
-		],
-		"str": 38,
-		"dex": 13,
-		"con": 25,
-		"int": 7,
-		"wis": 14,
-		"cha": 12,
-		"base_attack_bonus": 12,
-		"cmb": 28,
-		"cmd": 39,
 		"description": [
 			"## Cyclops, Great Cyclops",
 			"",
@@ -1263,7 +998,6 @@
 			"",
 			"Mythic great cyclopes are the first and oldest of their kind to succumb to visions of rage and destruction. Said to be the lost offspring of gods of lightning and the forge, they wield power over earth and energy, using it to blast open humanoid defenses so they can pluck out the tasty morsels within."
 		],
-		"short_description": "This enormous one-eyed humanoid has a horn protruding from its forehead and fists the size of tree trunks.",
 		"display": "monster"
 	},
 	"great_cyclops_mythic": { "copyof": "cyclops,_great_cyclops_mythic" },
@@ -1271,27 +1005,6 @@
 		"name": "Demon, Marilith",
 		"file": "mythicmonsterdisplay2dc8.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 21,
-		"mr": 8,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"demon",
-			"evil",
-			"extraplanar",
-			"mythic"
-		],
-		"str": 31,
-		"dex": 19,
-		"con": 32,
-		"int": 18,
-		"wis": 18,
-		"cha": 27,
-		"base_attack_bonus": 16,
-		"cmb": 27,
-		"cmd": 45,
 		"description": [
 			"## Demon, Marilith",
 			"",
@@ -1351,7 +1064,6 @@
 			"",
 			"A mythic marilith is a queen of chaos and evil, controlling a large territory in the Abyss and commanding a legion of demons."
 		],
-		"short_description": "This snake-bodied fiend has a six-armed woman's torso, pointed ears, and glittering, otherworldly eyes.",
 		"display": "monster"
 	},
 	"marilith_mythic": { "copyof": "demon,_marilith_mythic" },
@@ -1359,27 +1071,6 @@
 		"name": "Demon, Nalfeshnee",
 		"file": "mythicmonsterdisplayc64c.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 17,
-		"mr": 7,
-		"alignment": "CE",
-		"size": "huge",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"demon",
-			"evil",
-			"extraplanar",
-			"mythic"
-		],
-		"str": 40,
-		"dex": 13,
-		"con": 29,
-		"int": 23,
-		"wis": 22,
-		"cha": 24,
-		"base_attack_bonus": 15,
-		"cmb": 32,
-		"cmd": 47,
 		"description": [
 			"## Demon, Nalfeshnee",
 			"",
@@ -1438,7 +1129,6 @@
 			"",
 			"A mythic nalfeshnee gains its power by tricking or forcing other mythic beings to imbue it. It hoards its many valuable secrets as a dragon hoards gold."
 		],
-		"short_description": "A towering, corpulent beast, this fiend has the hideous head of a boar and arms ending in fatty, four-fingered hands.",
 		"display": "monster"
 	},
 	"nalfeshnee_mythic": { "copyof": "demon,_nalfeshnee_mythic" },
@@ -1446,27 +1136,6 @@
 		"name": "Demon, Vrock",
 		"file": "mythicmonsterdisplay14b5.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 11,
-		"mr": 4,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"demon",
-			"evil",
-			"extraplanar",
-			"mythic"
-		],
-		"str": 23,
-		"dex": 17,
-		"con": 25,
-		"int": 14,
-		"wis": 16,
-		"cha": 16,
-		"base_attack_bonus": 9,
-		"cmb": 16,
-		"cmd": 29,
 		"description": [
 			"## Demon, Vrock",
 			"",
@@ -1522,7 +1191,6 @@
 			"",
 			"A mythic vrock is a violent creature of unrestrained rage that takes out its anger on anything weaker than itself."
 		],
-		"short_description": "A cloud of spores and a trail of feathers surrounds this twisted cross between a man and a gigantic vulture.",
 		"display": "monster"
 	},
 	"vrock_mythic": { "copyof": "demon,_vrock_mythic" },
@@ -1533,24 +1201,6 @@
 			"Bestiary 5",
 			"Pathfinder #78: City of Locusts"
 		],
-		"cr": 22,
-		"mr": 8,
-		"alignment": "CE",
-		"size": "gargantuan",
-		"creature_type": "construct",
-		"creature_subtypes": [
-			"extraplanar",
-			"mythic"
-		],
-		"str": 37,
-		"dex": 23,
-		"con": null,
-		"int": 15,
-		"wis": 18,
-		"cha": 22,
-		"base_attack_bonus": 30,
-		"cmb": 47,
-		"cmd": 71,
 		"description": [
 			"## Devastator",
 			"",
@@ -1606,34 +1256,12 @@
 			"",
 			"In an unholy act of twisted, demonic humor, devastators derive their power from the souls of good outsiders."
 		],
-		"short_description": "Each of this mechanical horror's four monstrous limbs ends in a terrible weapon.",
 		"display": "monster"
 	},
 	"devil,_bone_devil_mythic": {
 		"name": "Devil, Bone Devil",
 		"file": "mythicmonsterdisplay2482.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 11,
-		"mr": 4,
-		"alignment": "LE",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"devil",
-			"evil",
-			"extraplanar",
-			"lawful",
-			"mythic"
-		],
-		"str": 25,
-		"dex": 21,
-		"con": 20,
-		"int": 16,
-		"wis": 15,
-		"cha": 18,
-		"base_attack_bonus": 10,
-		"cmb": 18,
-		"cmd": 33,
 		"description": [
 			"## Devil, Bone Devil",
 			"",
@@ -1692,7 +1320,6 @@
 			"",
 			"Forged from the souls of the first heretics and blasphemers, mythic devils have an ancient legacy of torture and using secrets to lure mortal diabolists into temptation. A mythic bone devil leads Hell's inquisitors in the efforts to root out disobedience among other devils. The authority it wields is even more powerful than its formidable magic, and it commands respect and fear from even pit fiends and dukes of Hell."
 		],
-		"short_description": "Merging the most horrifying features of carrion-fed insect and withered cadaver, this bony devil moves in unsettling lurches.",
 		"display": "monster"
 	},
 	"bone_devil_mythic": { "copyof": "devil,_bone_devil_mythic" },
@@ -1700,27 +1327,6 @@
 		"name": "Devil, Ice Devil",
 		"file": "mythicmonsterdisplaye996.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 16,
-		"mr": 6,
-		"alignment": "LE",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"devil",
-			"evil",
-			"extraplanar",
-			"lawful",
-			"mythic"
-		],
-		"str": 25,
-		"dex": 21,
-		"con": 22,
-		"int": 25,
-		"wis": 22,
-		"cha": 24,
-		"base_attack_bonus": 14,
-		"cmb": 22,
-		"cmd": 37,
 		"description": [
 			"## Devil, Ice Devil",
 			"",
@@ -1782,7 +1388,6 @@
 			"",
 			"A mythic ice devil is a master of strategy, able to adapt to the nature of its opponents and turn its enemy's attacks back at them. Its lean form and upright posture sets it apart from the stockier non-mythic ice devils."
 		],
-		"short_description": "A pair of frozen, multifaceted eyes coldly judge all before this towering, insectile monstrosity.",
 		"display": "monster"
 	},
 	"ice_devil_mythic": { "copyof": "devil,_ice_devil_mythic" },
@@ -1790,24 +1395,6 @@
 		"name": "Dragon (Black), Mature Adult Black Dragon",
 		"file": "mythicmonsterdisplayf3d8.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 15,
-		"mr": 6,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "dragon",
-		"creature_subtypes": [
-			"mythic",
-			"water"
-		],
-		"str": 29,
-		"dex": 12,
-		"con": 23,
-		"int": 14,
-		"wis": 17,
-		"cha": 16,
-		"base_attack_bonus": 16,
-		"cmb": 26,
-		"cmd": 37,
 		"description": [
 			"## Dragon (Black), Mature Adult Black Dragon",
 			"",
@@ -1862,7 +1449,6 @@
 			"**Family:** [True Dragon](monster/family/true_dragon)  ",
 			"**Family:** [Black Dragon](monster/family/black_dragon)"
 		],
-		"short_description": "This sinuous and stinking dragon is covered in black scales, with massive horns curling up from its head.",
 		"display": "monster"
 	},
 	"mature_adult_black_dragon_mythic": { "copyof": "dragon_black,_mature_adult_black_dragon_mythic" },
@@ -1870,24 +1456,6 @@
 		"name": "Dragon (Blue), Mature Adult Blue Dragon",
 		"file": "mythicmonsterdisplayd948.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 17,
-		"mr": 7,
-		"alignment": "LE",
-		"size": "huge",
-		"creature_type": "dragon",
-		"creature_subtypes": [
-			"earth",
-			"mythic"
-		],
-		"str": 27,
-		"dex": 12,
-		"con": 23,
-		"int": 16,
-		"wis": 17,
-		"cha": 16,
-		"base_attack_bonus": 18,
-		"cmb": 28,
-		"cmd": 39,
 		"description": [
 			"## Dragon (Blue), Mature Adult Blue Dragon",
 			"",
@@ -1942,7 +1510,6 @@
 			"**Family:** [True Dragon](monster/family/true_dragon)  ",
 			"**Family:** [Blue Dragon](monster/family/blue_dragon)"
 		],
-		"short_description": "Miniature bolts of electricity and a cloud of swirling sand surround this dragon's hulking, blue-scaled body.",
 		"display": "monster"
 	},
 	"mature_adult_blue_dragon_mythic": { "copyof": "dragon_blue,_mature_adult_blue_dragon_mythic" },
@@ -1950,24 +1517,6 @@
 		"name": "Dragon (Green), Very Old Green Dragon",
 		"file": "mythicmonsterdisplay6b8f.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 20,
-		"mr": 8,
-		"alignment": "LE",
-		"size": "gargantuan",
-		"creature_type": "dragon",
-		"creature_subtypes": [
-			"air",
-			"mythic"
-		],
-		"str": 37,
-		"dex": 8,
-		"con": 23,
-		"int": 18,
-		"wis": 19,
-		"cha": 22,
-		"base_attack_bonus": 21,
-		"cmb": 38,
-		"cmd": 47,
 		"description": [
 			"## Dragon (Green), Very Old Green Dragon",
 			"",
@@ -2025,7 +1574,6 @@
 			"**Family:** [True Dragon](monster/family/true_dragon)  ",
 			"**Family:** [Green Dragon](monster/family/green_dragon)"
 		],
-		"short_description": "Strange shapes dart about within the acrid fog surrounding this green-scaled dragon, and a large horn rises from its snout.",
 		"display": "monster"
 	},
 	"very_old_green_dragon_mythic": { "copyof": "dragon_green,_very_old_green_dragon_mythic" },
@@ -2033,24 +1581,6 @@
 		"name": "Dragon (Red), Wyrm Red Dragon",
 		"file": "mythicmonsterdisplay22f7.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 25,
-		"mr": 10,
-		"alignment": "CE",
-		"size": "gargantuan",
-		"creature_type": "dragon",
-		"creature_subtypes": [
-			"fire",
-			"mythic"
-		],
-		"str": 45,
-		"dex": 6,
-		"con": 29,
-		"int": 20,
-		"wis": 21,
-		"cha": 24,
-		"base_attack_bonus": 27,
-		"cmb": 48,
-		"cmd": 56,
 		"description": [
 			"## Dragon (Red), Wyrm Red Dragon",
 			"",
@@ -2119,7 +1649,6 @@
 			"**Family:** [True Dragon](monster/family/true_dragon)  ",
 			"**Family:** [Red Dragon](monster/family/red_dragon)"
 		],
-		"short_description": "A ruddy glow emanates from beneath this dragon's red, gem-encrusted scales, like lava visible between cracks of cooling stone.",
 		"display": "monster"
 	},
 	"wyrm_red_dragon_mythic": { "copyof": "dragon_red,_wyrm_red_dragon_mythic" },
@@ -2127,24 +1656,6 @@
 		"name": "Dragon (Red), Young Red Dragon",
 		"file": "mythicmonsterdisplay7d96.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 12,
-		"mr": 5,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "dragon",
-		"creature_subtypes": [
-			"fire",
-			"mythic"
-		],
-		"str": 27,
-		"dex": 12,
-		"con": 19,
-		"int": 12,
-		"wis": 13,
-		"cha": 14,
-		"base_attack_bonus": 11,
-		"cmb": 20,
-		"cmd": 31,
 		"description": [
 			"## Dragon (Red), Young Red Dragon",
 			"",
@@ -2203,7 +1714,6 @@
 			"**Family:** [True Dragon](monster/family/true_dragon)  ",
 			"**Family:** [Red Dragon](monster/family/red_dragon)"
 		],
-		"short_description": "A ruddy glow emanates from beneath this dragon's red, gem-encrusted scales, like lava visible between cracks of cooling stone.",
 		"display": "monster"
 	},
 	"young_red_dragon_mythic": { "copyof": "dragon_red,_young_red_dragon_mythic" },
@@ -2211,24 +1721,6 @@
 		"name": "Dragon (White), Juvenile White Dragon",
 		"file": "mythicmonsterdisplayb509.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 9,
-		"mr": 3,
-		"alignment": "CE",
-		"size": "medium",
-		"creature_type": "dragon",
-		"creature_subtypes": [
-			"cold",
-			"mythic"
-		],
-		"str": 23,
-		"dex": 14,
-		"con": 19,
-		"int": 10,
-		"wis": 13,
-		"cha": 10,
-		"base_attack_bonus": 9,
-		"cmb": 15,
-		"cmd": 27,
 		"description": [
 			"## Dragon (White), Juvenile White Dragon",
 			"",
@@ -2279,7 +1771,6 @@
 			"**Family:** [True Dragon](monster/family/true_dragon)  ",
 			"**Family:** [White Dragon](monster/family/white_dragon)"
 		],
-		"short_description": "This dragon's white, ice-encrusted scales glitter like diamonds as it effortlessly makes its way across the snow.",
 		"display": "monster"
 	},
 	"juvenile_white_dragon_mythic": { "copyof": "dragon_white,_juvenile_white_dragon_mythic" },
@@ -2287,23 +1778,6 @@
 		"name": "Drakainia",
 		"file": "mythicmonsterdisplay0f9b.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 25,
-		"mr": 10,
-		"alignment": "NE",
-		"size": "huge",
-		"creature_type": "aberration",
-		"creature_subtypes": [
-			"mythic"
-		],
-		"str": 38,
-		"dex": 20,
-		"con": 46,
-		"int": 29,
-		"wis": 21,
-		"cha": 41,
-		"base_attack_bonus": 18,
-		"cmb": 34,
-		"cmd": 49,
 		"description": [
 			"## Drakainia",
 			"",
@@ -2395,33 +1869,12 @@
 			"| 91-99 | Impenetrable Skin (Ex) The drakainia spawn's skin is tough and scaly. It gains DR/- equal to half its HD (maximum 10). |",
 			"| 100 | Favored Spawn (Su) Favored spawn are those a drakainia has marked as successful or quasisuccessful mutations. These powerful spawn gain a +4 luck bonus on all saving throws, a +4 increase to natural armor, a +4 inherent bonus to two ability scores, and 1 mythic rank. |"
 		],
-		"short_description": "This woman's upper body is shapely and beautiful, but her lower body is bloated, with pulsating tumors and writing tentacles.",
 		"display": "monster"
 	},
 	"elemental_air,_elder_air_elemental_mythic": {
 		"name": "Elemental (Air), Elder Air Elemental",
 		"file": "mythicmonsterdisplay86fb.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 14,
-		"mr": 5,
-		"alignment": "N",
-		"size": "huge",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"air",
-			"elemental",
-			"extraplanar",
-			"mythic"
-		],
-		"str": 28,
-		"dex": 33,
-		"con": 18,
-		"int": 12,
-		"wis": 13,
-		"cha": 11,
-		"base_attack_bonus": 16,
-		"cmb": 27,
-		"cmd": 49,
 		"description": [
 			"## Elemental (Air), Elder Air Elemental",
 			"",
@@ -2476,7 +1929,6 @@
 			"",
 			"A mythic elder air elemental is pure fury and strength, capable of throwing wooden splinters through stone walls and tearing creatures apart with fists of solid wind. Its greatest speed is within its empty core, able to suffocate enemies in moments."
 		],
-		"short_description": "This living tornado draws in all the air that surrounds it, hurling unrestrained objects as it moves.",
 		"display": "monster"
 	},
 	"elder_air_elemental_mythic": { "copyof": "elemental_air,_elder_air_elemental_mythic" },
@@ -2484,26 +1936,6 @@
 		"name": "Elemental (Earth), Elder Earth Elemental",
 		"file": "mythicmonsterdisplay6daf.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 14,
-		"mr": 5,
-		"alignment": "N",
-		"size": "huge",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"earth",
-			"elemental",
-			"extraplanar",
-			"mythic"
-		],
-		"str": 34,
-		"dex": 8,
-		"con": 21,
-		"int": 12,
-		"wis": 13,
-		"cha": 11,
-		"base_attack_bonus": 16,
-		"cmb": 30,
-		"cmd": 41,
 		"description": [
 			"## Elemental (Earth), Elder Earth Elemental",
 			"",
@@ -2561,7 +1993,6 @@
 			"",
 			"Infused with the power and wisdom of the deepest, oldest stone, a mythic elder earth elemental is a rocky bulwark against progress and change. They use innate magic and their very bodies to block enemy advances and preserve treasures of the earth."
 		],
-		"short_description": "This humanoid mountain of stone and earth strides forward on legs like pillars, a vast grove covering its back.",
 		"display": "monster"
 	},
 	"elder_earth_elemental_mythic": { "copyof": "elemental_earth,_elder_earth_elemental_mythic" },
@@ -2569,26 +2000,6 @@
 		"name": "Elemental (Fire), Elder Fire Elemental",
 		"file": "mythicmonsterdisplay5068.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 14,
-		"mr": 5,
-		"alignment": "N",
-		"size": "huge",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"elemental",
-			"extraplanar",
-			"fire",
-			"mythic"
-		],
-		"str": 26,
-		"dex": 29,
-		"con": 18,
-		"int": 12,
-		"wis": 13,
-		"cha": 11,
-		"base_attack_bonus": 16,
-		"cmb": 26,
-		"cmd": 47,
 		"description": [
 			"## Elemental (Fire), Elder Fire Elemental",
 			"",
@@ -2648,7 +2059,6 @@
 			"",
 			"A mythic elder fire elemental is a living fragment of the original fires at the heart of its home plane. Having learned the patience of a slow burn, it lacks both the recklessness of younger fire elementals and the urge to inspire fear in the hearts of flammable mortals. It enjoys using smoke to scatter opponents so it can chase them down and set them alight."
 		],
-		"short_description": "This blazing conflagration is vaguely humanoid in shape, its horned visage almost too bright to look upon.",
 		"display": "monster"
 	},
 	"elder_fire_elemental_mythic": { "copyof": "elemental_fire,_elder_fire_elemental_mythic" },
@@ -2656,26 +2066,6 @@
 		"name": "Elemental (Water), Elder Water Elemental",
 		"file": "mythicmonsterdisplaya089.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 14,
-		"mr": 5,
-		"alignment": "N",
-		"size": "huge",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"elemental",
-			"extraplanar",
-			"mythic",
-			"water"
-		],
-		"str": 30,
-		"dex": 22,
-		"con": 19,
-		"int": 12,
-		"wis": 13,
-		"cha": 11,
-		"base_attack_bonus": 16,
-		"cmb": 28,
-		"cmd": 48,
 		"description": [
 			"## Elemental (Water), Elder Water Elemental",
 			"",
@@ -2732,7 +2122,6 @@
 			"",
 			"A mythic water elemental comes from the unknowable depths of its home plane, predating the current civilizations and gods. A witness to ancient and bizarre acts of life-creation, it is unconcerned about the interests of mortal creatures."
 		],
-		"short_description": "Thousands of gallons of water rise up to become a tentacled face, a bulbous body, and four long tentacular appendages.",
 		"display": "monster"
 	},
 	"elder_water_elemental_mythic": { "copyof": "elemental_water,_elder_water_elemental_mythic" },
@@ -2740,24 +2129,6 @@
 		"name": "Elohim",
 		"file": "mythicmonsterdisplay1b55.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 23,
-		"mr": 6,
-		"alignment": "N",
-		"size": "huge",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"extraplanar",
-			"mythic"
-		],
-		"str": 24,
-		"dex": 22,
-		"con": 32,
-		"int": 25,
-		"wis": 29,
-		"cha": 25,
-		"base_attack_bonus": 22,
-		"cmb": 31,
-		"cmd": 53,
 		"description": [
 			"## Elohim",
 			"",
@@ -2815,31 +2186,12 @@
 			"",
 			"An elohim is a strange being obsessed with creating miniature worlds populated with creatures of its choosing. It creates new permanent demiplanes or alters remote environments in pre-existing planes, seeds them with new life, then eventually abandons them. An elohim might return to its creation decades or centuries later to observe how its progeny have fared, and might allow them to continue or eradicate them completely. Elohim communicate with other beings only rarely, and always in a cryptic fashion."
 		],
-		"short_description": "This one-eyed being is a strange mix of insects, fungi, and other living things shaped into a single winged entity.",
 		"display": "monster"
 	},
 	"ettin_mythic": {
 		"name": "Ettin",
 		"file": "mythicmonsterdisplay6505.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 8,
-		"mr": 3,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"giant",
-			"mythic"
-		],
-		"str": 25,
-		"dex": 8,
-		"con": 15,
-		"int": 6,
-		"wis": 10,
-		"cha": 11,
-		"base_attack_bonus": 7,
-		"cmb": 15,
-		"cmd": 24,
 		"description": [
 			"## Ettin",
 			"",
@@ -2906,31 +2258,12 @@
 			"",
 			"A stone giant-dominant mythic ettin loses its powerful charge and stench abilities, but gains a stone giant's improved rock catching and rock throwing."
 		],
-		"short_description": "Flies buzz around this bestial, two-headed giant, and maggots squirm in the folds of its skin.",
 		"display": "monster"
 	},
 	"gargoyle_mythic": {
 		"name": "Gargoyle",
 		"file": "mythicmonsterdisplay8e0b.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 5,
-		"mr": 2,
-		"alignment": "CE",
-		"size": "medium",
-		"creature_type": "monstrous humanoid",
-		"creature_subtypes": [
-			"earth",
-			"mythic"
-		],
-		"str": 17,
-		"dex": 14,
-		"con": 16,
-		"int": 6,
-		"wis": 11,
-		"cha": 7,
-		"base_attack_bonus": 5,
-		"cmb": 8,
-		"cmd": 20,
 		"description": [
 			"## Gargoyle",
 			"",
@@ -2987,32 +2320,12 @@
 			"",
 			"An aquatic mythic gargoyle is nearly identical to a mythic gargoyle, but usually has an electricity breath weapon instead of acid. Some have the ability to possess coral or wood statues instead of stone."
 		],
-		"short_description": "This living stone statue takes the shape of a horned and winged humanoid, and green acid drips from its mouth.",
 		"display": "monster"
 	},
 	"giant,_fire_giant_mythic": {
 		"name": "Giant, Fire Giant",
 		"file": "mythicmonsterdisplay5015.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 12,
-		"mr": 5,
-		"alignment": "LE",
-		"size": "large",
-		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"fire",
-			"giant",
-			"mythic"
-		],
-		"str": 33,
-		"dex": 9,
-		"con": 23,
-		"int": 10,
-		"wis": 14,
-		"cha": 10,
-		"base_attack_bonus": 11,
-		"cmb": 23,
-		"cmd": 34,
 		"description": [
 			"## Giant, Fire Giant",
 			"",
@@ -3068,7 +2381,6 @@
 			"",
 			"A mythic fire giant burns like the heart of a volcano. Wielding weapons of flame and ash, it brands enemies with its fury and strength."
 		],
-		"short_description": "This giant's hair, beard, and skin are made of lava, and its armor and weapon glow with a dull heat.",
 		"display": "monster"
 	},
 	"fire_giant_mythic": { "copyof": "giant,_fire_giant_mythic" },
@@ -3076,24 +2388,6 @@
 		"name": "Giant, Hill Giant",
 		"file": "mythicmonsterdisplayed04.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 9,
-		"mr": 3,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"giant",
-			"mythic"
-		],
-		"str": 27,
-		"dex": 8,
-		"con": 21,
-		"int": 8,
-		"wis": 10,
-		"cha": 7,
-		"base_attack_bonus": 7,
-		"cmb": 16,
-		"cmd": 25,
 		"description": [
 			"## Giant, Hill Giant",
 			"",
@@ -3148,7 +2442,6 @@
 			"",
 			"A mythic hill giant is a relic from an earlier age, smarter than its degenerate kin and gifted with magic of stone and earth. Some seek to rule, creating tribes with their non-mythic kin and using smaller beings as serfs. Others prefer lives of solitude, intolerant of all other creatures."
 		],
-		"short_description": "Like barnacles made of rock, stone growths encrust the feet of this thick-bodied giant.",
 		"display": "monster"
 	},
 	"hill_giant_mythic": { "copyof": "giant,_hill_giant_mythic" },
@@ -3156,24 +2449,6 @@
 		"name": "Glaistig",
 		"file": "mythicmonsterdisplay0846.html",
 		"sources": [ "Bestiary 5" ],
-		"cr": 21,
-		"mr": 10,
-		"alignment": "CN",
-		"size": "medium",
-		"creature_type": "fey",
-		"creature_subtypes": [
-			"earth",
-			"mythic"
-		],
-		"str": 28,
-		"dex": 35,
-		"con": 30,
-		"int": 27,
-		"wis": 28,
-		"cha": 31,
-		"base_attack_bonus": 12,
-		"cmb": 21,
-		"cmd": 69,
 		"description": [
 			"## Glaistig",
 			"",
@@ -3247,30 +2522,12 @@
 			"",
 			"Among some of the most prevalent cautionary tales involving glaistigs is that they sometimes lure young children deep into their wilderness homes, kidnapping them and even replacing them with some form of fey impostor. In truth, these fey enjoy the innocence, honesty, and playfulness of children, and usually keep them only to chat and dance with for a short while before sending them home unharmed."
 		],
-		"short_description": "A mien of strange, primal beauty surrounds this woman, magnified by the inhuman tone of her skin and her bestial legs.",
 		"display": "monster"
 	},
 	"golem,_flesh_golem_mythic": {
 		"name": "Golem, Flesh Golem",
 		"file": "mythicmonsterdisplay0621.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 9,
-		"mr": 3,
-		"alignment": "N",
-		"size": "large",
-		"creature_type": "construct",
-		"creature_subtypes": [
-			"mythic"
-		],
-		"str": 22,
-		"dex": 9,
-		"con": null,
-		"int": 6,
-		"wis": 11,
-		"cha": 1,
-		"base_attack_bonus": 10,
-		"cmb": 17,
-		"cmd": 26,
 		"description": [
 			"## Golem, Flesh Golem",
 			"",
@@ -3328,7 +2585,6 @@
 			"",
 			"A mythic flesh golem retains an unnatural level of electrical energy from the process that created it. This grants it limited intelligence, extra strength, and the ability to shock its opponents."
 		],
-		"short_description": "Electricity constantly arcs between the bolts and rivets that hold this amalgamated creature's flesh together.",
 		"display": "monster"
 	},
 	"flesh_golem_mythic": { "copyof": "golem,_flesh_golem_mythic" },
@@ -3336,24 +2592,6 @@
 		"name": "Graeae",
 		"file": "mythicmonsterdisplay17ef.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 5,
-		"mr": 2,
-		"alignment": "NE",
-		"size": "medium",
-		"creature_type": "monstrous humanoid",
-		"creature_subtypes": [
-			"evil",
-			"mythic"
-		],
-		"str": 14,
-		"dex": 17,
-		"con": 12,
-		"int": 23,
-		"wis": 13,
-		"cha": 8,
-		"base_attack_bonus": 6,
-		"cmb": 8,
-		"cmd": 21,
 		"description": [
 			"## Graeae",
 			"",
@@ -3420,34 +2658,12 @@
 			"",
 			"All three graeaes must spend a full-round action to take part in this form of cooperative magic. All coven spell-like abilities are CL 9th (or at the highest caster level available to the most powerful graeaes in the coven)."
 		],
-		"short_description": "Haggard and hunched, this blind and snaggletoothed crone guides herself by a gruesomely bloated eyeball she clutches in her claws.",
 		"display": "monster"
 	},
 	"greater_barghest_mythic": {
 		"name": "Greater Barghest",
 		"file": "mythicmonsterdisplay928d.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 8,
-		"mr": 2,
-		"alignment": "LE",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"evil",
-			"extraplanar",
-			"lawful",
-			"mythic",
-			"shapechanger"
-		],
-		"str": 25,
-		"dex": 15,
-		"con": 19,
-		"int": 18,
-		"wis": 18,
-		"cha": 18,
-		"base_attack_bonus": 9,
-		"cmb": 17,
-		"cmd": 29,
 		"description": [
 			"## Greater Barghest",
 			"",
@@ -3510,30 +2726,12 @@
 			"",
 			"If the mythic barghest uses its feed ability on a mythic humanoid's corpse, it gains a mythic growth point instead of a growth point. If a mythic barghest reaches 4 growth points, it transforms into a greater barghest with the agile mythic simple template and loses its mythic growth points. If a mythic barghest gains 4 mythic growth points, it transforms into a mythic greater barghest and loses the agile mythic simple template."
 		],
-		"short_description": "An eerie green fire emerges from the obscenely large mouth of this strange humanoid combination of bat and wolf.",
 		"display": "monster"
 	},
 	"grendel_mythic": {
 		"name": "Grendel",
 		"file": "mythicmonsterdisplay0560.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 19,
-		"mr": 7,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "monstrous humanoid",
-		"creature_subtypes": [
-			"mythic"
-		],
-		"str": 36,
-		"dex": 19,
-		"con": 26,
-		"int": 9,
-		"wis": 15,
-		"cha": 8,
-		"base_attack_bonus": 20,
-		"cmb": 34,
-		"cmd": 48,
 		"description": [
 			"## Grendel",
 			"",
@@ -3586,30 +2784,12 @@
 			"",
 			"This reaver of the cold marsh is not just a monster; he is a force of nature. Where there is peace and prosperity in the world, Grendel strikes, eager to prove that tranquility is transitory and death is the only constant. Grendel stalks the edge of his fens looking for quiet settlements. Under cover of night, he strikes, murdering the strong in their beds and chasing the terrified with demonic glee. He then takes the prize of his carnage deep into his fen where his lust for blood is grotesquely sated."
 		],
-		"short_description": "This lurching hulk carries no weapons, but its eyes burn with menace, and its long claws are caked with blood.",
 		"display": "monster"
 	},
 	"griffon_mythic": {
 		"name": "Griffon",
 		"file": "mythicmonsterdisplayf1ab.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 5,
-		"mr": 2,
-		"alignment": "N",
-		"size": "large",
-		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"mythic"
-		],
-		"str": 18,
-		"dex": 15,
-		"con": 16,
-		"int": 5,
-		"wis": 13,
-		"cha": 8,
-		"base_attack_bonus": 5,
-		"cmb": 10,
-		"cmd": 22,
 		"description": [
 			"## Griffon",
 			"",
@@ -3664,30 +2844,12 @@
 			"",
 			"A mythic griffon can carry up to 400 pounds as a light load, 800 pounds as a medium load, and 1,200 pounds as a heavy load."
 		],
-		"short_description": "This majestic beast combines the features of a sleek black eagle and the strong, lean musculature of a panther.",
 		"display": "monster"
 	},
 	"grogrisant_mythic": {
 		"name": "Grogrisant",
 		"file": "mythicmonsterdisplay0290.html",
 		"sources": [ "Taldor, the First Empire" ],
-		"cr": 16,
-		"mr": 6,
-		"alignment": "N",
-		"size": "huge",
-		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"mythic"
-		],
-		"str": 30,
-		"dex": 15,
-		"con": 24,
-		"int": 6,
-		"wis": 23,
-		"cha": 13,
-		"base_attack_bonus": 18,
-		"cmb": 30,
-		"cmd": 42,
 		"description": [
 			"## Grogrisant",
 			"",
@@ -3751,31 +2913,12 @@
 			"",
 			"The grogrisant stands 18 feet tall at the shoulder and weighs 12,000 pounds."
 		],
-		"short_description": "This golden lion towers over the trees, its six eyes watching every shadow and its mane shining like the sun.",
 		"display": "monster"
 	},
 	"guardian_dragon_mythic": {
 		"name": "Guardian Dragon",
 		"file": "mythicmonsterdisplay7d39.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 24,
-		"mr": 10,
-		"alignment": "N",
-		"size": "gargantuan",
-		"creature_type": "dragon",
-		"creature_subtypes": [
-			"aquatic",
-			"mythic"
-		],
-		"str": 38,
-		"dex": 13,
-		"con": 30,
-		"int": 15,
-		"wis": 24,
-		"cha": 25,
-		"base_attack_bonus": 26,
-		"cmb": 44,
-		"cmd": 51,
 		"description": [
 			"## Guardian Dragon",
 			"",
@@ -3851,34 +2994,12 @@
 			"",
 			"A guardian dragon is 50 feet long when fully uncoiled and weighs 7 tons."
 		],
-		"short_description": "This immense dragon coils its long, serpentine body beneath spreading wings, its eyes glittering like burnished gold.",
 		"display": "monster"
 	},
 	"hell_hound_mythic": {
 		"name": "Hell Hound",
 		"file": "mythicmonsterdisplay699e.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 4,
-		"mr": 1,
-		"alignment": "LE",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"evil",
-			"extraplanar",
-			"fire",
-			"lawful",
-			"mythic"
-		],
-		"str": 15,
-		"dex": 13,
-		"con": 15,
-		"int": 6,
-		"wis": 10,
-		"cha": 6,
-		"base_attack_bonus": 5,
-		"cmb": 7,
-		"cmd": 18,
 		"description": [
 			"## Hell Hound",
 			"",
@@ -3927,34 +3048,12 @@
 			"",
 			"A mythic hell hound is a prince among the wolves of Hell, feral but still subservient to the archdevils. Allowed to run wild, they are the original creatures from which the \"tamer\" common hell hounds were made."
 		],
-		"short_description": "This brawny hound is wreathed in flames, and its footsteps leave burning prints that sputter and smoke.",
 		"display": "monster"
 	},
 	"hell_hound,_nessian_warhound_mythic": {
 		"name": "Hell Hound, Nessian Warhound",
 		"file": "mythicmonsterdisplay153f.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 11,
-		"mr": 4,
-		"alignment": "LE",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"evil",
-			"extraplanar",
-			"fire",
-			"lawful",
-			"mythic"
-		],
-		"str": 29,
-		"dex": 15,
-		"con": 21,
-		"int": 4,
-		"wis": 14,
-		"cha": 6,
-		"base_attack_bonus": 12,
-		"cmb": 22,
-		"cmd": 34,
 		"description": [
 			"## Hell Hound, Nessian Warhound",
 			"",
@@ -4002,7 +3101,6 @@
 			"",
 			"A mythic hell hound is a prince among the wolves of Hell, feral but still subservient to the archdevils. Allowed to run wild, they are the original creatures from which the \"tamer\" common hell hounds were made."
 		],
-		"short_description": "This brawny hound is wreathed in flames, and its footsteps leave burning prints that sputter and smoke.",
 		"display": "monster"
 	},
 	"nessian_warhound_mythic": { "copyof": "hell_hound,_nessian_warhound_mythic" },
@@ -4010,23 +3108,6 @@
 		"name": "Human Skeleton",
 		"file": "mythicmonsterdisplay4e20.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 1,
-		"mr": 1,
-		"alignment": "NE",
-		"size": "medium",
-		"creature_type": "undead",
-		"creature_subtypes": [
-			"mythic"
-		],
-		"str": 15,
-		"dex": 14,
-		"con": null,
-		"int": null,
-		"wis": 10,
-		"cha": 10,
-		"base_attack_bonus": 1,
-		"cmb": 3,
-		"cmd": 15,
 		"description": [
 			"## Human Skeleton",
 			"",
@@ -4096,30 +3177,12 @@
 			"",
 			"To create a mythic skeletal champion, increase its channel resistance by +2, and add the mythic subtype, additional Hit Dice as if the skeletal champion were a zombie of its size, and mythic abilities according to the base skeletal champion's Hit Dice."
 		],
-		"short_description": "Skeleton, Human Skeleton The pile of bones suddenly stirs, rising up to take on a human shape. Its long, bony fingers reach out to claw at the living.",
 		"display": "monster"
 	},
 	"hydra_mythic": {
 		"name": "Hydra",
 		"file": "mythicmonsterdisplayc54c.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 9,
-		"mr": 3,
-		"alignment": "N",
-		"size": "huge",
-		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"mythic"
-		],
-		"str": 17,
-		"dex": 12,
-		"con": 20,
-		"int": 2,
-		"wis": 11,
-		"cha": 9,
-		"base_attack_bonus": 7,
-		"cmb": 12,
-		"cmd": 23,
 		"description": [
 			"## Hydra",
 			"",
@@ -4172,31 +3235,12 @@
 			"",
 			"A mythic hydra is a deadly combination of bites, lunges, speed, and durability. Descended from the very first of its kind, it may run wild. Or created whole by some divine agent, it could be placed as a guardian of a sacred site or a portal to the underworld. Some mythic hydras are reputed to have poisonous breath and blood, or to be so toxic that they corrupt the ground they crawl upon."
 		],
-		"short_description": "This seven-headed serpent has serrated fangs, and moves with incredible speed despite its massive bulk.",
 		"display": "monster"
 	},
 	"irminsul_mythic": {
 		"name": "Irminsul",
 		"file": "mythicmonsterdisplayaa24.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 17,
-		"mr": 7,
-		"alignment": "CN",
-		"size": "gargantuan",
-		"creature_type": "plant",
-		"creature_subtypes": [
-			"extraplanar",
-			"mythic"
-		],
-		"str": 27,
-		"dex": 6,
-		"con": 32,
-		"int": 23,
-		"wis": 28,
-		"cha": 23,
-		"base_attack_bonus": 10,
-		"cmb": 22,
-		"cmd": 30,
 		"description": [
 			"## Irminsul",
 			"",
@@ -4251,33 +3295,12 @@
 			"",
 			"Every irminsul is bound to a specific plane. The bound plane determines the creature's alignment, the nature of its regeneration, and the languages it knows. Sometimes irminsuls have special abilities based on the planes they are linked to. The sample irminsul is bound to the primal land of fey."
 		],
-		"short_description": "A split in the trunk of this strange tree reveals a swirling magical portal to an unknown destination.",
 		"display": "monster"
 	},
 	"julunggali_mythic": {
 		"name": "Julunggali",
 		"file": "mythicmonsterdisplaye192.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 21,
-		"mr": 8,
-		"alignment": "N",
-		"size": "colossal",
-		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"aquatic",
-			"extraplanar",
-			"mythic",
-			"shapechanger"
-		],
-		"str": 38,
-		"dex": 13,
-		"con": 28,
-		"int": 19,
-		"wis": 20,
-		"cha": 21,
-		"base_attack_bonus": 22,
-		"cmb": 44,
-		"cmd": 57,
 		"description": [
 			"## Julunggali",
 			"",
@@ -4338,31 +3361,12 @@
 			"",
 			"A julunggali is wise and can be entreated to perform helpful tasks, such as carving new river channels or pulling water into dry wells. But it is also vengeful, and has been known to punish those who break social taboos or intrude upon sacred places without permission. Those who have undergone rites of passage chosen for them by the julunggali face the harshest repercussions if they act wrongly."
 		],
-		"short_description": "Resplendent lilac and white scales adorn this gigantic serpent. A number of sharp, short horns crown its head.",
 		"display": "monster"
 	},
 	"lamia_mythic": {
 		"name": "Lamia",
 		"file": "mythicmonsterdisplay4be8.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 7,
-		"mr": 3,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "monstrous humanoid",
-		"creature_subtypes": [
-			"mythic",
-			"shapechanger"
-		],
-		"str": 18,
-		"dex": 16,
-		"con": 14,
-		"int": 13,
-		"wis": 17,
-		"cha": 15,
-		"base_attack_bonus": 9,
-		"cmb": 14,
-		"cmd": 28,
 		"description": [
 			"## Lamia",
 			"",
@@ -4430,30 +3434,12 @@
 			"",
 			"In most cases, a mythic lamia will permanently transform into a lamia matriarch, losing her mythic power as she stabilizes in that form. A lamia matriarch that gains mythic power gains the mythic lamia's aura of seduction, a tail slap attack, grab, and constrict. She increases her sorcerer caster level to 8th and usually learns spells that aid her minions, such as freedom of movement and rage. She may use her touch attack to drain Wisdom or drain one use of mythic power from the target and regain one of her own uses of mythic power (save negates)."
 		],
-		"short_description": "This creature has the head and upper body of a beautiful woman, the lower body of a lion, and long, serpentine tail.",
 		"display": "monster"
 	},
 	"leanan_sidhe_mythic": {
 		"name": "Leanan Sidhe",
 		"file": "mythicmonsterdisplay5ad1.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 9,
-		"mr": 3,
-		"alignment": "CN",
-		"size": "medium",
-		"creature_type": "fey",
-		"creature_subtypes": [
-			"mythic"
-		],
-		"str": 10,
-		"dex": 17,
-		"con": 18,
-		"int": 13,
-		"wis": 12,
-		"cha": 21,
-		"base_attack_bonus": 5,
-		"cmb": 5,
-		"cmd": 24,
 		"description": [
 			"## Leanan Sidhe",
 			"",
@@ -4511,32 +3497,12 @@
 			"",
 			"Leanan sidhe are regal fey who pride themselves as patrons of the arts. By establishing a magical link with a talented mortal performer or artist, the leanan sidhe enhances her target's skill, but slowly feeds on his life energy. Many tragic stories of talented artists who have a creative burst and then fall into obscurity or suddenly die can be attributed to the influence of these creatures. A leanan sidhe prefers to avoid direct combat and relies on her minions and devotees to protect her-all of whom hope to become her next special project, despite the cost of this arrangement."
 		],
-		"short_description": "This serene woman has pointed ears and flowing crimson hair, and wears an elegant dress and a crown of twigs.",
 		"display": "monster"
 	},
 	"lich_mythic": {
 		"name": "Lich",
 		"file": "mythicmonsterdisplay37f3.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 17,
-		"mr": 7,
-		"alignment": "LE",
-		"size": "medium",
-		"creature_type": "undead",
-		"creature_subtypes": [
-			"augmented humanoid",
-			"human",
-			"mythic"
-		],
-		"str": 8,
-		"dex": 14,
-		"con": null,
-		"int": 15,
-		"wis": 26,
-		"cha": 20,
-		"base_attack_bonus": 9,
-		"cmb": 8,
-		"cmd": 22,
 		"description": [
 			"## Lich",
 			"",
@@ -4636,34 +3602,12 @@
 			"| 18-19 | 9th | Enhanced spellcasting, sustained by magic |",
 			"| 20+ 10th Channel resistance (immunity), formidable animation |"
 		],
-		"short_description": "This armored undead human wields a heavy mace and wears the trappings of a devil-worshiper.",
 		"display": "monster"
 	},
 	"manasaputra,_solar_pitri_agnishvatta_mythic": {
 		"name": "Manasaputra, Solar Pitri (Agnishvatta)",
 		"file": "mythicmonsterdisplay6945.html",
 		"sources": [ "Bestiary 5" ],
-		"cr": 22,
-		"mr": 8,
-		"alignment": "LG",
-		"size": "large",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"extraplanar",
-			"good",
-			"lawful",
-			"manasaputra",
-			"mythic"
-		],
-		"str": 35,
-		"dex": 25,
-		"con": 26,
-		"int": 24,
-		"wis": 28,
-		"cha": 27,
-		"base_attack_bonus": 24,
-		"cmb": 37,
-		"cmd": 79,
 		"description": [
 			"## Manasaputra, Solar Pitri (Agnishvatta)",
 			"",
@@ -4737,7 +3681,6 @@
 			"",
 			"Because of their unfathomably ancient minds and farreaching plans, solar pitris rarely interact with other creatures. They must restrain their power, lest their very presence prove deadly to other living beings. Solar pitris are creatures of fire, and even witnessing a solar pitri shifting from corporeality to incorporeality from afar can blind mortals. Creatures that come close to a solar pitri are scorched by the outsider's boundless, radiant energies. Adherents of some cults attempt such approaches regardless of the danger, believing that even if they burn to death, their souls will be purified by the solar pitri's presence. Most of what is known about solar pitris comes from the teachings handed down to mortals by lesser manasaputras, the traditions of those samsarans who believe that they are connected to manasaputras (or even that they are some early form of manu), the often wild and fanciful speculation of occult thinkers, the feverish dreams of eccentric mystics, and the few legitimate historical accounts of the various kumaras leaving their contemplation within the Cosmic Fire and interacting with mortals. But even then, only monumental events such as mass extinctions of whole worlds, the death of gods, the eradication of an entire intelligent species, or other reality-shaking events draw solar pitris' attention. Otherwise, their time is spent pondering unknowable truths and guiding other manasaputras from deep within the heart of the Positive Energy Plane."
 		],
-		"short_description": "This massive, red-skinned creature surges with roiling waves of brilliant fire.",
 		"display": "monster"
 	},
 	"agnishvatta_mythic": { "copyof": "manasaputra,_solar_pitri_agnishvatta_mythic" },
@@ -4746,23 +3689,6 @@
 		"name": "Manticore",
 		"file": "mythicmonsterdisplay1f53.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 6,
-		"mr": 2,
-		"alignment": "LE",
-		"size": "large",
-		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"mythic"
-		],
-		"str": 22,
-		"dex": 15,
-		"con": 18,
-		"int": 7,
-		"wis": 12,
-		"cha": 9,
-		"base_attack_bonus": 6,
-		"cmb": 13,
-		"cmd": 25,
 		"description": [
 			"## Manticore",
 			"",
@@ -4818,30 +3744,12 @@
 			"",
 			"A mythic manticore uses its thrown spikes to hold prey in place from a distance so it can leap upon it and tear it apart. It is especially fond of skewering the wings of a flying creature, forcing it to plummet to the ground where it becomes easy pickings. Its weakness-inducing poison makes it especially dangerous to winged mounts, as the poisoned creature may find itself unable to carry a rider."
 		],
-		"short_description": "This fearsome creature has the body of a lion, the wings of a dragon, the face of a snarling man, and a tail of dripping spikes.",
 		"display": "monster"
 	},
 	"medusa_mythic": {
 		"name": "Medusa",
 		"file": "mythicmonsterdisplayb72d.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 9,
-		"mr": 3,
-		"alignment": "LE",
-		"size": "medium",
-		"creature_type": "monstrous humanoid",
-		"creature_subtypes": [
-			"mythic"
-		],
-		"str": 10,
-		"dex": 17,
-		"con": 18,
-		"int": 12,
-		"wis": 15,
-		"cha": 19,
-		"base_attack_bonus": 9,
-		"cmb": 9,
-		"cmd": 22,
 		"description": [
 			"## Medusa",
 			"",
@@ -4899,30 +3807,12 @@
 			"",
 			"A mythic medusa is one of the near-immortal progenitors of the medusa race, who mate with humanoids in order to produce weaker (but still deadly) offspring. With deadly poison, power over snakes, and the ability to animate and command those she has turned to stone, a mythic medusa is a dangerous foe who can't be easily overcome by mirrored shields and blindfolds; she waits, strikes, and retreats, allowing her minions and venom to weaken her foes before she is ready to take their lives."
 		],
-		"short_description": "This unnatural woman has scaled skin, white bird wings, and long snake-hair that hangs past her feet.",
 		"display": "monster"
 	},
 	"minotaur_mythic": {
 		"name": "Minotaur",
 		"file": "mythicmonsterdisplayfe22.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 6,
-		"mr": 2,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "monstrous humanoid",
-		"creature_subtypes": [
-			"mythic"
-		],
-		"str": 21,
-		"dex": 10,
-		"con": 15,
-		"int": 7,
-		"wis": 10,
-		"cha": 8,
-		"base_attack_bonus": 7,
-		"cmb": 13,
-		"cmd": 23,
 		"description": [
 			"## Minotaur",
 			"",
@@ -4976,30 +3866,12 @@
 			"",
 			"A mythic minotaur is but one or two generations removed from the original curse-born minotaurs that founded their race. Once created to punish to those who disobey or circumvent the orders of the gods, they use their innate magic to imprison, stalk, and consume humanoids-especially the descendants of the royal line whose blasphemy inspired the creation of this new race. Some mythic minotaurs are worshiped as demigods by primitive or fear-stricken humanoids, and accept sacrifices of young men and women to sate their hunger. They usually have custom armor and weapons appropriate for their large, inhuman frames, offered as gifts by worshipers or made by enslaved blacksmiths."
 		],
-		"short_description": "With eyes blazing red and magical runes glowing on its horns, this mighty beast has the body of a man and the head of a bull.",
 		"display": "monster"
 	},
 	"mummy_mythic": {
 		"name": "Mummy",
 		"file": "mythicmonsterdisplay2107.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 7,
-		"mr": 3,
-		"alignment": "LE",
-		"size": "medium",
-		"creature_type": "undead",
-		"creature_subtypes": [
-			"mythic"
-		],
-		"str": 26,
-		"dex": 10,
-		"con": null,
-		"int": 6,
-		"wis": 15,
-		"cha": 15,
-		"base_attack_bonus": 6,
-		"cmb": 14,
-		"cmd": 24,
 		"description": [
 			"## Mummy",
 			"",
@@ -5056,30 +3928,12 @@
 			"",
 			"A mythic mummy is the preserved and animated remains or royalty-the honored dead a common mummy is compelled to protect. Wielding powers over sand and able to create new minions to replace the fallen, a mythic mummy is a formidable opponent. Its used to absolute obedience from living and undead subjects. If awakened from its eternal rest, a mythic mummy uses its magic to appear as it did in life, though if angered or surprised it may reveal its undead form."
 		],
-		"short_description": "This regal mummy reeks of preservative spices and wears the clothing and jewelry of a wealthy pharaoh.",
 		"display": "monster"
 	},
 	"myrmecoleon_mythic": {
 		"name": "Myrmecoleon",
 		"file": "mythicmonsterdisplaya468.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 10,
-		"mr": 3,
-		"alignment": "N",
-		"size": "huge",
-		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"mythic"
-		],
-		"str": 23,
-		"dex": 6,
-		"con": 20,
-		"int": 2,
-		"wis": 13,
-		"cha": 5,
-		"base_attack_bonus": 10,
-		"cmb": 18,
-		"cmd": 24,
 		"description": [
 			"## Myrmecoleon",
 			"",
@@ -5135,31 +3989,12 @@
 			"",
 			"Myrmecoleons are known to roll in the corpses of their prey, impaling the bodies upon their carapaces and leaving them there to rot. Why they perform this gruesome act remains unknown. Those who have studied the creature to understand its rudimentary intelligence hypothesize that it might be some sort of a display to showcase its strength to others of its kind, or even be one part of an elaborate mating ritual."
 		],
-		"short_description": "This towering beetle-like horror has thick carapace segments and massive mandibles that leak sizzling acid.",
 		"display": "monster"
 	},
 	"ogre_mythic": {
 		"name": "Ogre",
 		"file": "mythicmonsterdisplay3302.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 4,
-		"mr": 1,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"giant",
-			"mythic"
-		],
-		"str": 21,
-		"dex": 8,
-		"con": 17,
-		"int": 6,
-		"wis": 10,
-		"cha": 7,
-		"base_attack_bonus": 3,
-		"cmb": 9,
-		"cmd": 18,
 		"description": [
 			"## Ogre",
 			"",
@@ -5215,30 +4050,12 @@
 			"",
 			"Sometimes the hilly terrain of a mythic ogre's tribe overlaps with that of a red dragon. If the dragon breeds, the ogres respond to the threat of hatchlings by hunting down the dragon and its offspring and fashioning armor and weapons out of their enemies' bloody remnants. Some of these families eventually develop fire resistance, a trait they pass on to their offspring."
 		],
-		"short_description": "This immense, muscular giant wears heavy scale mail and wields a club adorned with a giant claw.",
 		"display": "monster"
 	},
 	"ophiotaurus_mythic": {
 		"name": "Ophiotaurus",
 		"file": "mythicmonsterdisplaya01c.html",
 		"sources": [ "Bestiary 5" ],
-		"cr": 17,
-		"mr": 7,
-		"alignment": "N",
-		"size": "gargantuan",
-		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"mythic"
-		],
-		"str": 40,
-		"dex": 19,
-		"con": 28,
-		"int": 5,
-		"wis": 26,
-		"cha": 13,
-		"base_attack_bonus": 16,
-		"cmb": 35,
-		"cmd": 49,
 		"description": [
 			"## Ophiotaurus",
 			"",
@@ -5300,30 +4117,12 @@
 			"",
 			"An ophiotaurus is a strange beast tied to apocalyptic prophecies, yet imbued with the power to alter destiny and bend fate. They typically measure about 20 feet long and weigh over 4 tons."
 		],
-		"short_description": "This enormous russet serpent has the head and forequarters of a ruddy bull with bronze horns and hooves.",
 		"display": "monster"
 	},
 	"owlbear_mythic": {
 		"name": "Owlbear",
 		"file": "mythicmonsterdisplaya0a2.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 5,
-		"mr": 2,
-		"alignment": "N",
-		"size": "large",
-		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"mythic"
-		],
-		"str": 21,
-		"dex": 12,
-		"con": 18,
-		"int": 2,
-		"wis": 12,
-		"cha": 10,
-		"base_attack_bonus": 5,
-		"cmb": 11,
-		"cmd": 22,
 		"description": [
 			"## Owlbear",
 			"",
@@ -5371,31 +4170,12 @@
 			"",
 			"A mythic owlbear may have been created by a mythic mage, or adopted as the favored pet of a mythic druid. Though as short-tempered and bloodthirsty as other owlbears, a mythic owlbear has the sense to avoid or flee foes more powerful than itself."
 		],
-		"short_description": "This beast has the general size and shape of a great bear, yet the head and feathers of an owl.",
 		"display": "monster"
 	},
 	"phoenix_mythic": {
 		"name": "Phoenix",
 		"file": "mythicmonsterdisplayc56a.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 18,
-		"mr": 7,
-		"alignment": "NG",
-		"size": "gargantuan",
-		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"fire",
-			"mythic"
-		],
-		"str": 29,
-		"dex": 27,
-		"con": 20,
-		"int": 25,
-		"wis": 22,
-		"cha": 22,
-		"base_attack_bonus": 20,
-		"cmb": 33,
-		"cmd": 53,
 		"description": [
 			"## Phoenix",
 			"",
@@ -5457,31 +4237,12 @@
 			"",
 			"A mythic phoenix is appointed by the gods to watch over the birth, death, and renewal of significant things-such as heroes, religions, or even entire worlds. It uses its powers to destroy evils that would interfere with the great cycle."
 		],
-		"short_description": "This flaming bird burns as brightly as the sun.",
 		"display": "monster"
 	},
 	"plague_swarm,_bat_plague_swarm_mythic": {
 		"name": "Plague Swarm, Bat Plague Swarm",
 		"file": "mythicmonsterdisplayf081.html",
 		"sources": [ "Bestiary 5" ],
-		"cr": 17,
-		"mr": 8,
-		"alignment": "NE",
-		"size": "diminutive",
-		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"mythic",
-			"swarm"
-		],
-		"str": 6,
-		"dex": 25,
-		"con": 18,
-		"int": 11,
-		"wis": 18,
-		"cha": 9,
-		"base_attack_bonus": 21,
-		"cmb": null,
-		"cmd": null,
 		"description": [
 			"## Plague Swarm, Bat Plague Swarm",
 			"",
@@ -5532,7 +4293,6 @@
 			"",
 			"**Family:** [Plague Swarm](monster/family/plague_swarm)"
 		],
-		"short_description": "Sent down by vengeful deities to punish communities that have offended them, plague swarms scour crops, terrorize populations, and lay waste to civilized lands. Normal means of dealing with vermin and pestilence don't drive them off, for these vicious and intelligent mythic swarms carry the destructive blessings of their gods, and breed at an exceptional rate until their spawn consume entire cities. They are single-minded in their devotion to carrying out the furious will of their deities.",
 		"display": "monster"
 	},
 	"bat_plague_swarm_mythic": { "copyof": "plague_swarm,_bat_plague_swarm_mythic" },
@@ -5540,24 +4300,6 @@
 		"name": "Plague Swarm, Locust Plague Swarm",
 		"file": "mythicmonsterdisplayaf8e.html",
 		"sources": [ "Bestiary 5" ],
-		"cr": 15,
-		"mr": 8,
-		"alignment": "NE",
-		"size": "fine",
-		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"mythic",
-			"swarm"
-		],
-		"str": 6,
-		"dex": 19,
-		"con": 12,
-		"int": 5,
-		"wis": 18,
-		"cha": 9,
-		"base_attack_bonus": 21,
-		"cmb": null,
-		"cmd": null,
 		"description": [
 			"## Plague Swarm, Locust Plague Swarm",
 			"",
@@ -5610,7 +4352,6 @@
 			"",
 			"**Family:** [Plague Swarm](monster/family/plague_swarm)"
 		],
-		"short_description": "Sent down by vengeful deities to punish communities that have offended them, plague swarms scour crops, terrorize populations, and lay waste to civilized lands. Normal means of dealing with vermin and pestilence don't drive them off, for these vicious and intelligent mythic swarms carry the destructive blessings of their gods, and breed at an exceptional rate until their spawn consume entire cities. They are single-minded in their devotion to carrying out the furious will of their deities.",
 		"display": "monster"
 	},
 	"locust_plague_swarm_mythic": { "copyof": "plague_swarm,_locust_plague_swarm_mythic" },
@@ -5618,24 +4359,6 @@
 		"name": "Plague Swarm, Rat Plague Swarm",
 		"file": "mythicmonsterdisplay3d93.html",
 		"sources": [ "Bestiary 5" ],
-		"cr": 11,
-		"mr": 8,
-		"alignment": "LE",
-		"size": "tiny",
-		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"mythic",
-			"swarm"
-		],
-		"str": 2,
-		"dex": 19,
-		"con": 8,
-		"int": 19,
-		"wis": 18,
-		"cha": 15,
-		"base_attack_bonus": 16,
-		"cmb": null,
-		"cmd": null,
 		"description": [
 			"## Plague Swarm, Rat Plague Swarm",
 			"",
@@ -5692,7 +4415,6 @@
 			"",
 			"**Family:** [Plague Swarm](monster/family/plague_swarm)"
 		],
-		"short_description": "Sent down by vengeful deities to punish communities that have offended them, plague swarms scour crops, terrorize populations, and lay waste to civilized lands. Normal means of dealing with vermin and pestilence don't drive them off, for these vicious and intelligent mythic swarms carry the destructive blessings of their gods, and breed at an exceptional rate until their spawn consume entire cities. They are single-minded in their devotion to carrying out the furious will of their deities.",
 		"display": "monster"
 	},
 	"rat_plague_swarm_mythic": { "copyof": "plague_swarm,_rat_plague_swarm_mythic" },
@@ -5700,26 +4422,6 @@
 		"name": "Portunus",
 		"file": "mythicmonsterdisplaya246.html",
 		"sources": [ "Pathfinder #125: Tower of the Drowned Dead" ],
-		"cr": 16,
-		"mr": 6,
-		"alignment": "N",
-		"size": "huge",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"elemental",
-			"extraplanar",
-			"mythic",
-			"water"
-		],
-		"str": 28,
-		"dex": 23,
-		"con": 20,
-		"int": 19,
-		"wis": 22,
-		"cha": 25,
-		"base_attack_bonus": 17,
-		"cmb": 28,
-		"cmd": 44,
 		"description": [
 			"## Portunus",
 			"",
@@ -5799,32 +4501,12 @@
 			"",
 			"Portunuses serve as protectors of their harbors and the creatures that live there. While they may be initially wary of humanoids making use of their harbors, most portunuses come to view them as just another part of the bay's ecosystem, as long as the humanoids are respectful of nature."
 		],
-		"short_description": "This creature resembles an enormous, four-armed humanoid made of water. Its two faces move about its head independently.",
 		"display": "monster"
 	},
 	"rakshasa_mythic": {
 		"name": "Rakshasa",
 		"file": "mythicmonsterdisplay5da9.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 12,
-		"mr": 5,
-		"alignment": "LE",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"mythic",
-			"native",
-			"shapechanger"
-		],
-		"str": 16,
-		"dex": 20,
-		"con": 22,
-		"int": 13,
-		"wis": 13,
-		"cha": 21,
-		"base_attack_bonus": 10,
-		"cmb": 13,
-		"cmd": 34,
 		"description": [
 			"## Rakshasa",
 			"",
@@ -5884,32 +4566,12 @@
 			"",
 			"A mythic rakshasa is a natural mind reader and uses its abilities to tempt great heroes into failure and ruin-all toward to ultimate goal of seeding an entire civilization's destruction."
 		],
-		"short_description": "Fine jewelry and clothing accentuate this tiger-headed figure's striped fur and formidable fangs.",
 		"display": "monster"
 	},
 	"shen_mythic": {
 		"name": "Shen",
 		"file": "mythicmonsterdisplay9686.html",
 		"sources": [ "Bestiary 5" ],
-		"cr": 24,
-		"mr": 9,
-		"alignment": "N",
-		"size": "gargantuan",
-		"creature_type": "dragon",
-		"creature_subtypes": [
-			"aquatic",
-			"mythic",
-			"water"
-		],
-		"str": 41,
-		"dex": 14,
-		"con": 30,
-		"int": 23,
-		"wis": 22,
-		"cha": 23,
-		"base_attack_bonus": 29,
-		"cmb": 48,
-		"cmd": 60,
 		"description": [
 			"## Shen",
 			"",
@@ -6004,23 +4666,6 @@
 		"name": "Sphinx",
 		"file": "mythicmonsterdisplay4bdb.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 10,
-		"mr": 4,
-		"alignment": "N",
-		"size": "large",
-		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"mythic"
-		],
-		"str": 24,
-		"dex": 13,
-		"con": 16,
-		"int": 18,
-		"wis": 19,
-		"cha": 21,
-		"base_attack_bonus": 12,
-		"cmb": 20,
-		"cmd": 31,
 		"description": [
 			"## Sphinx",
 			"",
@@ -6074,32 +4719,12 @@
 			"",
 			"A mythic sphinx is often given a task by a deity, such as watching over a city, testing a great mortal hero, or guarding an artifact. She is gifted with magic to compel obedience and curse those who would defy her commands or interfere with her task."
 		],
-		"short_description": "This woman has the upper body of a human queen, the lower body of a lion, a snake-headed tail, and great eagle wings.",
 		"display": "monster"
 	},
 	"titan,_danava_mythic": {
 		"name": "Titan, Danava",
 		"file": "mythicmonsterdisplayc9a2.html",
 		"sources": [ "Bestiary 5" ],
-		"cr": 24,
-		"mr": 9,
-		"alignment": "LN",
-		"size": "colossal",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"extraplanar",
-			"lawful",
-			"mythic"
-		],
-		"str": 47,
-		"dex": 34,
-		"con": 35,
-		"int": 27,
-		"wis": 28,
-		"cha": 34,
-		"base_attack_bonus": 26,
-		"cmb": 52,
-		"cmd": 74,
 		"description": [
 			"## Titan, Danava",
 			"",
@@ -6175,7 +4800,6 @@
 			"",
 			"Yin and Yang (Ex): The danava pillar is connected to the Positive and Negative Energy Planes and the transmigration of souls. Both positive and negative energy heal the pillar (whether channeled to heal or to harm), and it can channel positive and negative energy at will once per round each as a free action. The channeled energy's effect is as a 20th-level cleric's. The danava pillar gains Selective Channeling as a bonus feat. Finally, a creature reduced to 0 hit points or below by any of the danava pillar's attacks is instantly reincarnated into its next life. Unlike the spell reincarnate, this transforms the creature into an infant with no class levels and little or no memory of its former life. Restoring the original creature from its new incarnation requires a miracle, a wish, or similar magic, and as doing so simultaneously eliminates the new incarnation, it could have profound moral or ethical implications for the restorer."
 		],
-		"short_description": "This godlike giant wears armor made of thick plates of blackened iron and wields a great bladed mace.",
 		"display": "monster"
 	},
 	"danava_mythic": { "copyof": "titan,_danava_mythic" },
@@ -6183,26 +4807,6 @@
 		"name": "Titan, Fomorian Titan",
 		"file": "mythicmonsterdisplay25c5.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 22,
-		"mr": 8,
-		"alignment": "CE",
-		"size": "colossal",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"chaotic",
-			"evil",
-			"extraplanar",
-			"mythic"
-		],
-		"str": 42,
-		"dex": 12,
-		"con": 37,
-		"int": 29,
-		"wis": 20,
-		"cha": 27,
-		"base_attack_bonus": 18,
-		"cmb": 42,
-		"cmd": 53,
 		"description": [
 			"## Titan, Fomorian Titan",
 			"",
@@ -6259,7 +4863,6 @@
 			"",
 			"Fomorian titans were the first titans created by the gods. In their pride, the titans intruded on the domain of their masters and created life of their own, so they too might be worshiped. The gods were forced to battle their creations, and though they won, they could not bring themselves to destroy the fomorians, and instead shackled the titans in armor that hid their beauty and imprisoned them in secret prisons across the multiverse."
 		],
-		"short_description": "This godlike giant wears armor made of thick plates of blackened iron and wields a great bladed mace.",
 		"display": "monster"
 	},
 	"fomorian_titan_mythic": { "copyof": "titan,_fomorian_titan_mythic" },
@@ -6267,23 +4870,6 @@
 		"name": "Treant",
 		"file": "mythicmonsterdisplayb378.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 10,
-		"mr": 4,
-		"alignment": "NG",
-		"size": "huge",
-		"creature_type": "plant",
-		"creature_subtypes": [
-			"mythic"
-		],
-		"str": 31,
-		"dex": 8,
-		"con": 21,
-		"int": 12,
-		"wis": 18,
-		"cha": 13,
-		"base_attack_bonus": 9,
-		"cmb": 21,
-		"cmd": 32,
 		"description": [
 			"## Treant",
 			"",
@@ -6347,31 +4933,12 @@
 			"",
 			"A mythic treant is an ancient entity granted power by a deity or magical pool. They're the shepherds of forests, and even less likely to converse with shortlived races."
 		],
-		"short_description": "Standing upright and powerful, this mighty tree-person channels nature's fury into green energy in its gnarled hands.",
 		"display": "monster"
 	},
 	"troll_mythic": {
 		"name": "Troll",
 		"file": "mythicmonsterdisplay358f.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 6,
-		"mr": 2,
-		"alignment": "CE",
-		"size": "large",
-		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"giant",
-			"mythic"
-		],
-		"str": 23,
-		"dex": 14,
-		"con": 23,
-		"int": 6,
-		"wis": 9,
-		"cha": 6,
-		"base_attack_bonus": 4,
-		"cmb": 11,
-		"cmd": 23,
 		"description": [
 			"## Troll",
 			"",
@@ -6442,30 +5009,12 @@
 			"",
 			"A mythic scrag's primal vigor activates even if it is out of water and would not otherwise be able to use its regeneration ability."
 		],
-		"short_description": "This giant humanoid has massive tusks, warty green hide sprouting bone spikes, and forearms thicker than its meaty legs.",
 		"display": "monster"
 	},
 	"tyrant_jelly_mythic": {
 		"name": "Tyrant Jelly",
 		"file": "mythicmonsterdisplay8720.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 9,
-		"mr": 3,
-		"alignment": "N",
-		"size": "large",
-		"creature_type": "ooze",
-		"creature_subtypes": [
-			"mythic"
-		],
-		"str": 18,
-		"dex": 1,
-		"con": 22,
-		"int": 5,
-		"wis": 12,
-		"cha": 13,
-		"base_attack_bonus": 7,
-		"cmb": 12,
-		"cmd": 17,
 		"description": [
 			"## Tyrant Jelly",
 			"",
@@ -6524,31 +5073,12 @@
 			"",
 			"A tyrant jelly's primary interests are food and survival. Magic or telepathy might allow a creature to bargain with it, exchanging food for its cooperation. Some insect cults hunt tyrant jellies, believing their strange substance has properties similar to a giant bee's royal jelly or can increase the intelligence of other vermin."
 		],
-		"short_description": "This amber-colored ooze contains the preserved larva of a giant insect, almost like a monstrous brain.",
 		"display": "monster"
 	},
 	"udaeus_mythic": {
 		"name": "Udaeus",
 		"file": "mythicmonsterdisplayb93d.html",
 		"sources": [ "Bestiary 4" ],
-		"cr": 4,
-		"mr": 1,
-		"alignment": "N",
-		"size": "medium",
-		"creature_type": "humanoid",
-		"creature_subtypes": [
-			"mythic",
-			"udaeus"
-		],
-		"str": 17,
-		"dex": 13,
-		"con": 16,
-		"int": 10,
-		"wis": 12,
-		"cha": 9,
-		"base_attack_bonus": 3,
-		"cmb": 6,
-		"cmd": 17,
 		"description": [
 			"## Udaeus",
 			"",
@@ -6608,32 +5138,12 @@
 			"",
 			"Udaeoi resemble tall, athletic humans with bone-white skin and black hair. They mark themselves with tattoos or brands, usually of weapons, dragons, or battle scenes. When an udaeus hardens its flesh with its innate magic, these markings look like carvings and cracks in a marble statue. Udaeoi might hire themselves out as mercenaries or serve as soldiers in a local army. Udaeoi prefer to fight alongside their own kind, and a squadron usually comprises members of the same fighting company or family unit."
 		],
-		"short_description": "This armored humanoid has skin resembling white bone, carved with images of weapons and dragons.",
 		"display": "monster"
 	},
 	"vampire_mythic": {
 		"name": "Vampire",
 		"file": "mythicmonsterdisplay8a4a.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 10,
-		"mr": 4,
-		"alignment": "NE",
-		"size": "medium",
-		"creature_type": "undead",
-		"creature_subtypes": [
-			"augmented humanoid",
-			"human",
-			"mythic"
-		],
-		"str": 26,
-		"dex": 18,
-		"con": null,
-		"int": 14,
-		"wis": 10,
-		"cha": 19,
-		"base_attack_bonus": 7,
-		"cmb": 15,
-		"cmd": 31,
 		"description": [
 			"## Vampire",
 			"",
@@ -6725,31 +5235,12 @@
 			"| 18-19 | 9th | Blood omen, channel resistance +16 |",
 			"| 20+ | 10th | Eclipse, overcome weakness (running water) |"
 		],
-		"short_description": "This aristocratic figure could easily pass for human if not for the grave-pale skin, red eyes, and long fangs.",
 		"display": "monster"
 	},
 	"winter_wolf_mythic": {
 		"name": "Winter Wolf",
 		"file": "mythicmonsterdisplay05f1.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 6,
-		"mr": 2,
-		"alignment": "NE",
-		"size": "large",
-		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"cold",
-			"mythic"
-		],
-		"str": 22,
-		"dex": 13,
-		"con": 18,
-		"int": 9,
-		"wis": 13,
-		"cha": 10,
-		"base_attack_bonus": 6,
-		"cmb": 13,
-		"cmd": 24,
 		"description": [
 			"## Winter Wolf",
 			"",
@@ -6795,30 +5286,12 @@
 			"",
 			"A mythic winter wolf is usually a leader among its kind. Many form alliances with frost giants or ice witches for mutual benefit."
 		],
-		"short_description": "This giant wolf's fur is so white it's almost blinding to behold.",
 		"display": "monster"
 	},
 	"worg_mythic": {
 		"name": "Worg",
 		"file": "mythicmonsterdisplaycd53.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 3,
-		"mr": 1,
-		"alignment": "NE",
-		"size": "medium",
-		"creature_type": "magical beast",
-		"creature_subtypes": [
-			"mythic"
-		],
-		"str": 17,
-		"dex": 15,
-		"con": 13,
-		"int": 6,
-		"wis": 14,
-		"cha": 10,
-		"base_attack_bonus": 4,
-		"cmb": 7,
-		"cmd": 19,
 		"description": [
 			"## Worg",
 			"",
@@ -6866,30 +5339,12 @@
 			"",
 			"A mythic worg is a creature of fear and foul darkness, usually born under an ominous new moon or by the intervention of a deity of shadows and terror. Many serve vampires, protecting their masters from hunters and hazardous daylight."
 		],
-		"short_description": "A terrifying darkness surrounds this giant wolf.",
 		"display": "monster"
 	},
 	"wyvern_mythic": {
 		"name": "Wyvern",
 		"file": "mythicmonsterdisplayadab.html",
 		"sources": [ "Mythic Adventures" ],
-		"cr": 8,
-		"mr": 3,
-		"alignment": "N",
-		"size": "large",
-		"creature_type": "dragon",
-		"creature_subtypes": [
-			"mythic"
-		],
-		"str": 21,
-		"dex": 12,
-		"con": 18,
-		"int": 7,
-		"wis": 12,
-		"cha": 9,
-		"base_attack_bonus": 7,
-		"cmb": 13,
-		"cmd": 24,
 		"description": [
 			"## Wyvern",
 			"",
@@ -6944,7 +5399,6 @@
 			"",
 			"Some mythic wyverns are closely related to one specific type of chromatic dragon. These lose their energy resistances and the power lift ability, but gain the energy immunity and breath weapon of the appropriate chromatic dragon (80 foot line or 40 foot cone, DC 17, 8d6 energy damage, 1d4 rounds)."
 		],
-		"short_description": "This serpentine dragon has huge wings, two taloned legs, and a tail stinger, and its blue scales are mottled with other colors.",
 		"display": "monster"
 	},
 	"xiomorn,_vault_builder_mythic": {
@@ -6954,26 +5408,6 @@
 			"Planar Adventures",
 			"The Emerald Spire Superdungeon"
 		],
-		"cr": 20,
-		"mr": 8,
-		"alignment": "LN",
-		"size": "medium",
-		"creature_type": "outsider",
-		"creature_subtypes": [
-			"earth",
-			"elemental",
-			"extraplanar",
-			"mythic"
-		],
-		"str": 22,
-		"dex": 31,
-		"con": 25,
-		"int": 29,
-		"wis": 18,
-		"cha": 26,
-		"base_attack_bonus": 19,
-		"cmb": 25,
-		"cmd": 46,
 		"description": [
 			"## Xiomorn, Vault Builder",
 			"",
@@ -7043,7 +5477,6 @@
 			"",
 			"Xiomorns comprise two castes: the four-legged mythic [Vault Builders](unknown/vault_builders) and the two-legged non-mythic [Vault Keepers](unknown/vault_keepers). Both are among the most ancient forms of life-primeval elemental beings who travel to raw, new worlds upon the Material Plane, pursuing strange ecological investigations into the nature of life. The worlds these enigmatic beings have visited feature strange ruins in remote regions and immense, vault-like caverns deep underground where ecologies that shouldn't exist flourish. Xiomorns have little interest in protecting a world's indigenous life, except as necessary for their experiments' goals, and wage war against such races when native empires encroach upon the xiomorns' experimental realms."
 		],
-		"short_description": "This towering, spindly, four-armed entity appears to be made of stone and crystal, yet it moves with a fluid grace.",
 		"display": "monster"
 	},
 	"xiomorn_vault_builder_mythic": { "copyof": "xiomorn,_vault_builder_mythic" }

@@ -2664,7 +2664,7 @@
 					[ "[Yak](class/ability/druidcompanion/yak)", "animal", "Stout and stubborn, the yak is sure footed and dependable in rough terrain." ],
 					[ "[Yolubilis Heron](class/ability/druidcompanion/yolubilis_heron)", "animal", "As tall as a tree, this dark gray bird stands on long legs. Its curved neck supports a sleek head with a slim but wicked beak." ],
 					[ "[Yzobu](class/ability/druidcompanion/yzobu)", "animal", "This four-legged animal with a long-horned, bovine head looks like a cross between a horse and a long-haired yak." ],
-					[ "[Zebra](class/ability/druidcompanion/zebra)", "animal", "The iconic black and white stripes of the zebra make it instantly recognizable." ]		
+					[ "[Zebra](class/ability/druidcompanion/zebra)", "animal", "The iconic black and white stripes of the zebra make it instantly recognizable." ]
 				],
 				"initialColumn": 0,
 				"className": "endcaps"
@@ -4298,7 +4298,7 @@
 					[ "[Venom Infusion, Greater)](class/ability/kinetic/greater_venom_infusion))", "substance infusion", "universal", 7, 4, "[venom speaker](class/ability/kinetic/venom_speaker), [venom infusion](class/ability/kinetic/venom_infusion)", "any simple or composite" ],
 					[ "[Wall](class/ability/kinetic/wall)", "form infusion", "universal", 5, 3, null, "any" ],
 					[ "[Weighing Infusion](class/ability/kinetic/weighing_infusion)", "substance infusion", "void", 2, 2, null, "[Gravity Blast](class/ability/kinetic/gravity_blast), [Void Blast](class/ability/kinetic/void_blast)" ],
-					[ "[Whip Hurricane](class/ability/kinetic/whip_hurricane)", "form infusion", "universal", 6, 4, "[kinetic blade](class/ability/kinetic/kinetic_blade), [kinetic whip](class/ability/kinetic/kinetic_whip), [blade whirlwind](class/ability/kinetic/blade_whirlwind)", "any" ]		
+					[ "[Whip Hurricane](class/ability/kinetic/whip_hurricane)", "form infusion", "universal", 6, 4, "[kinetic blade](class/ability/kinetic/kinetic_blade), [kinetic whip](class/ability/kinetic/kinetic_whip), [blade whirlwind](class/ability/kinetic/blade_whirlwind)", "any" ]
 				],
 				"initialColumn": 1,
 				"className": "infusions"
@@ -4805,7 +4805,7 @@
 					[ "[Throwing Magus](class/ability/magusarcana/throwing_magus)", "3rd", "Your weapon can gain the returning and throwing abilities, and you regain pool points when you hit." ],
 					[ "[Vision-Clouding Strike](class/ability/magusarcana/vision-clouding_strike)", "9th", "Your weapon can cloud the vision of your targets." ],
 					[ "[Wand Mastery](class/ability/magusarcana/wand_mastery)", "3rd", "Use your intelligence modifier for the DCs of wands you use." ],
-					[ "[Wand Wielder](class/ability/magusarcana/wand_wielder)", "3rd", "Use a wand or staff instead of casting a spell in *spell combat*." ]		
+					[ "[Wand Wielder](class/ability/magusarcana/wand_wielder)", "3rd", "Use a wand or staff instead of casting a spell in *spell combat*." ]
 				],
 				"initialColumn": 0,
 				"className": "endcaps"
@@ -5937,7 +5937,7 @@
 					[ "[Water Totem, Greater (Su)](class/ability/ragepower/greater_water_totem)", "10th" ],
 					[ "[World Serpent Spirit (Su)](class/ability/ragepower/world_serpent_spirit)", "6th" ],
 					[ "[World Serpent Totem (Su)](class/ability/ragepower/world_serpent_totem)", "2nd" ],
-					[ "[World Serpent Totem Unity (Su)](class/ability/ragepower/world_serpent_totem_unity)", "10th" ]		
+					[ "[World Serpent Totem Unity (Su)](class/ability/ragepower/world_serpent_totem_unity)", "10th" ]
 				],
 				"initialColumn": 0,
 				"className": "simple"
@@ -6769,7 +6769,7 @@
 					[ "[Positive Blast (Sp)](class/ability/kinetic/positive_blast)", "wood", 0, "energy", "positive energy" ],
 					[ "[Telekinetic Blast (Sp)](class/ability/kinetic/telekinetic_blast)", "aether", 0, "physical", "bludgeoning, piercing, or slashing" ],
 					[ "[Water Blast (Sp)](class/ability/kinetic/water_blast)", "water", 0, "physical", "bludgeoning" ],
-					[ "[Wood Blast (Sp)](class/ability/kinetic/wood_blast)", "wood", 0, "physical", "bludgeoning, piercing, or slashing" ]		
+					[ "[Wood Blast (Sp)](class/ability/kinetic/wood_blast)", "wood", 0, "physical", "bludgeoning, piercing, or slashing" ]
 				],
 				"initialColumn": 0,
 				"className": "endcaps"
