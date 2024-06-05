@@ -15,23 +15,25 @@ const ParentTopics: FC<PageProps> = (props) => {
 	const { parents } = props;
 	const [open, setOpen] = useState(false);
 
+	const immediateParent = parents.pop();
+
 	const previous = useMemo(() => {
-		return parents.length < 2 ? [<></>] : parents.slice(0, -1).map((pair, i) => (
+		return parents.length === 0 ? [<></>] : parents.map((pair, i) => (
 			<IonItem key={`parents/${i}`}>
-				<IonLabel><Link to={pair[0]}>{pair[1]}</Link></IonLabel>
+				<IonLabel><Link to={pair[1]}>{pair[0]}</Link></IonLabel>
 			</IonItem>
-		));
+		)).reverse();
 	}, [parents, open]);
 
 	return (
 		<IonList id="parentLinks">
-			{previous}
-			{parents.length === 0 ? <></> : (
+			{immediateParent ? (
 				<IonItem>
 					<IonButton slot="start"><IonIcon icon={open ? chevronDownCircle : chevronUpCircle} /></IonButton>
-					<IonLabel><Link to={parents.slice(-1)[0][0]}>{parents.slice(-1)[0][1]}</Link></IonLabel>
+					<IonLabel><Link to={immediateParent[0]}>{immediateParent[1]}</Link></IonLabel>
 				</IonItem>
-			)}
+			) : <></>}
+			{previous}
 		</IonList>
 	);
 };

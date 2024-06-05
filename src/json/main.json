@@ -24,7 +24,7 @@
 			"",
 			"[Monsters and NPCs](monsters)"
 		],
-		"_previous": []
+		"previous": []
 	},
 	"class": {
 		"title": "Classes",
@@ -91,7 +91,7 @@
 			"- [Psychic](class/psychic)",
 			"- [Spiritualist](class/spiritualist)"
 		],
-		"_previous": [ ["Main", "main"] ]
+		"previous": [ ["Main", "main"] ]
 	},
 	"skills": {
 		"title": "Skills",
@@ -111,7 +111,7 @@
 					[ "[Artistry (any)](skill/artistry_any)", "INT", null, null, "X", "X", "You are skilled in the creative arts, following your aesthetic sensibilities to bring to life the wonders of your imagination." ],
 					[ "[Bluff](skill/bluff)", "CHA", null, null, null, null, "You know how to tell a lie." ],
 					[ "[Climb](skill/climb)", "STR", null, "X", null, null, "You are skilled at scaling vertical surfaces, from smooth city walls to rocky cliffs." ],
-					[ "[Craft (any)](skill/craft_any)", "INT", null, null, "X", null, null, "You are skilled in the creation of a specific group of items, such as armor or weapons." ],
+					[ "[Craft (any)](skill/craft_any)", "INT", null, null, "X", null, "You are skilled in the creation of a specific group of items, such as armor or weapons." ],
 					[ "[Diplomacy](skill/diplomacy)", "CHA", null, null, null, null, "You can use this skill to persuade others to agree with your arguments, to resolve differences, and to gather valuable information or rumors from people. This skill is also used to negotiate conflicts by using the proper etiquette and manners suitable to the problem." ],
 					[ "[Disable Device](skill/disable_device)", "DEX", "X", "X", null, null, "You are skilled at disarming traps and opening locks. In addition, this skill lets you sabotage simple mechanical devices, such as catapults, wagon wheels, and doors." ],
 					[ "[Disguise](skill/disguise)", "CHA", null, null, null, null, "You are skilled at changing your appearance." ],
@@ -134,7 +134,7 @@
 					[ "[Lore (any)](skill/lore_any)", "INT", "X", null, "X", "X", "You possess a specialized area of knowledge, generally narrower than that of a full-fledged scholar." ],
 					[ "[Perception](skill/perception)", "WIS", null, null, null, null, "Your senses allow you to notice fine details and alert you to danger. Perception covers all five senses, including sight, hearing, touch, taste, and smell." ],
 					[ "[Perform (any)](skill/perform_any)", "CHA", null, null, "X", null, "You are skilled at one form of entertainment, from singing to acting to playing an instrument." ],
-					[ "[Profession (any)](skill/profession_any)", "WIS", "X", null, "X", "You are skilled at a specific job. While a Craft skill represents ability in creating an item, a Profession skill represents an aptitude in a vocation requiring a broader range of less specific knowledge." ],
+					[ "[Profession (any)](skill/profession_any)", "WIS", "X", null, "X", null, "You are skilled at a specific job. While a Craft skill represents ability in creating an item, a Profession skill represents an aptitude in a vocation requiring a broader range of less specific knowledge." ],
 					[ "[Ride](skill/ride)", "DEX", null, "X", null, null, "You are skilled at riding mounts, usually a horse, but possibly something more exotic, like a griffon or pegasus. If you attempt to ride a creature that is ill suited as a mount, you take a -5 penalty on your Ride checks." ],
 					[ "[Sense Motive](skill/sense_motive)", "WIS", null, null, null, null, "You are skilled at detecting falsehoods and true intentions." ],
 					[ "[Sleight of Hand](skill/sleight_of_hand)", "DEX", "X", "X", "X", null, "Your training allows you to pick pockets, draw hidden weapons, and take a variety of actions without being noticed." ],
@@ -149,7 +149,7 @@
 				"className": "endcaps"
 			}
 		],
-		"_previous": [ ["Main", "main"] ]
+		"previous": [ ["Main", "main"] ]
 	},
 	"feats_all": {
 		"title": "Feats - All",
@@ -167,12 +167,7 @@
 		],
 		"tables": [
 			{
-				"headers": [
-					"Feat",
-					"Type",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Type", "Prerequisites", "Description" ],
 				"types": [ null, null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -3580,7 +3575,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Feats", "feats"] ]
+		"previous": [ ["Main", "main"], ["Feats", "feats"] ]
 	},
 	"feats_general": {
 		"title": "Feats - General",
@@ -3598,11 +3593,7 @@
 		],
 		"tables": [
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -5216,7 +5207,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Feats", "feats"] ]
+		"previous": [ ["Main", "main"], ["Feats", "feats"] ]
 	},
 	"feats_combat": {
 		"title": "Feats - Combat",
@@ -5229,11 +5220,7 @@
 		],
 		"tables": [
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -6544,7 +6531,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Feats", "feats"] ]
+		"previous": [ ["Main", "main"], ["Feats", "feats"] ]
 	},
 	"feats_teamwork": {
 		"title": "Feats - Teamwork, etc",
@@ -6575,11 +6562,7 @@
 		],
 		"tables": [
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -6778,11 +6761,7 @@
 				]
 			},
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -6798,11 +6777,7 @@
 				]
 			},
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -6814,7 +6789,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Feats", "feats"] ]
+		"previous": [ ["Main", "main"], ["Feats", "feats"] ]
 	},
 	"feats_mesmerist": {
 		"title": "Feats - Stare/Trick",
@@ -6839,11 +6814,7 @@
 		],
 		"tables": [
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -6869,11 +6840,7 @@
 				]
 			},
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -6889,7 +6856,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Feats", "feats"] ]
+		"previous": [ ["Main", "main"], ["Feats", "feats"] ]
 	},
 	"feats_story": {
 		"title": "Feats - Story",
@@ -6932,11 +6899,7 @@
 		],
 		"tables": [
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -7022,7 +6985,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Feats", "feats"] ]
+		"previous": [ ["Main", "main"], ["Feats", "feats"] ]
 	},
 	"feats_style": {
 		"title": "Feats - Style",
@@ -7037,11 +7000,7 @@
 		],
 		"tables": [
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -7141,7 +7100,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Feats", "feats"] ]
+		"previous": [ ["Main", "main"], ["Feats", "feats"] ]
 	},
 	"feats_metamagic": {
 		"title": "Feats - Metamagic/Item Creation",
@@ -7204,11 +7163,7 @@
 		],
 		"tables": [
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -7302,11 +7257,7 @@
 				]
 			},
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -7342,7 +7293,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Feats", "feats"] ]
+		"previous": [ ["Main", "main"], ["Feats", "feats"] ]
 	},
 	"feats_grit_panache": {
 		"title": "Feats - Grit/Panache",
@@ -7364,11 +7315,7 @@
 		],
 		"tables": [
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -7399,11 +7346,7 @@
 				]
 			},
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -7424,7 +7367,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Feats", "feats"] ]
+		"previous": [ ["Main", "main"], ["Feats", "feats"] ]
 	},
 	"feats_meditation": {
 		"title": "Feats - Meditation",
@@ -7437,11 +7380,7 @@
 		],
 		"tables": [
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -7465,7 +7404,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Feats", "feats"] ]
+		"previous": [ ["Main", "main"], ["Feats", "feats"] ]
 	},
 	"feats_mastery": {
 		"title": "Feats - Mastery",
@@ -7507,11 +7446,7 @@
 		],
 		"tables": [
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -7538,11 +7473,7 @@
 				]
 			},
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -7563,11 +7494,7 @@
 				]
 			},
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -7591,11 +7518,7 @@
 				]
 			},
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -7624,7 +7547,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Feats", "feats"] ]
+		"previous": [ ["Main", "main"], ["Feats", "feats"] ]
 	},
 	"feats_monster": {
 		"title": "Feats - Monster",
@@ -7653,11 +7576,7 @@
 		],
 		"tables": [
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -7694,7 +7613,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Feats", "feats"] ]
+		"previous": [ ["Main", "main"], ["Feats", "feats"] ]
 	},
 	"feats": {
 		"title": "Feats",
@@ -7896,11 +7815,7 @@
 		],
 		"tables": [
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -7938,11 +7853,7 @@
 				]
 			},
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -7960,11 +7871,7 @@
 				]
 			},
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -7978,11 +7885,7 @@
 				]
 			},
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -8001,11 +7904,7 @@
 				]
 			},
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -8023,11 +7922,7 @@
 				]
 			},
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -8039,11 +7934,7 @@
 				]
 			},
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -8057,11 +7948,7 @@
 				]
 			},
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -8078,11 +7965,7 @@
 				]
 			},
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -8115,11 +7998,7 @@
 				]
 			},
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -8138,11 +8017,7 @@
 				]
 			},
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -8167,11 +8042,7 @@
 				]
 			},
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -8184,11 +8055,7 @@
 				]
 			},
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -8215,11 +8082,7 @@
 				]
 			},
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -8233,11 +8096,7 @@
 				]
 			},
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -8250,11 +8109,7 @@
 				]
 			},
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -8273,11 +8128,7 @@
 				]
 			},
 			{
-				"headers": [
-					"Feat",
-					"Prerequisites",
-					"Description"
-				],
+				"headers": [ "Feat", "Prerequisites", "Description" ],
 				"types": [ null, null, 0 ],
 				"initialColumn": 0,
 				"nullValue": "",
@@ -8291,7 +8142,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"] ]
+		"previous": [ ["Main", "main"] ]
 	},
 	"traits": {
 		"title": "Traits",
@@ -8335,7 +8186,7 @@
 			"",
 			"**[View Exemplar Traits](traits_exemplar)** (5 traits)"
 		],
-		"_previous": [ ["Main", "main"] ]
+		"previous": [ ["Main", "main"] ]
 	},
 	"traits_exemplar": {
 		"title": "Exemplar Traits",
@@ -8374,7 +8225,7 @@
 			"",
 			"You have learned the ways of many lands. Choose any two skills; each of those skills becomes a class skill for you. For every other regional trait you have, select an additional skill to treat as a class skill."
 		],
-		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
+		"previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_all": {
 		"title": "All Traits",
@@ -10374,7 +10225,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
+		"previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_religion": {
 		"title": "Religion Traits",
@@ -10607,7 +10458,7 @@
 				"className": "plain"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
+		"previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_faction": {
 		"title": "Faction Traits",
@@ -10659,7 +10510,7 @@
 				"className": "plain"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
+		"previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_regional": {
 		"title": "Regional Traits",
@@ -11129,7 +10980,7 @@
 				"className": "plain"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
+		"previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_faith": {
 		"title": "Faith Traits",
@@ -11836,7 +11687,7 @@
 			"",
 			"Your zeal is a danger to those of \"lesser\" faiths. While you have the destruction judgment active, you gain a +1 trait bonus on damage rolls when attacking a foe who can cast divine spells and worships a different deity than you."
 		],
-		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
+		"previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_combat": {
 		"title": "Combat Traits",
@@ -12732,7 +12583,7 @@
 			"",
 			"You were trained from a young age to ambush the enemies of your order or organization, which makes you hard to trust for most outside your organization if they learn your affiliation. You gain a +1 trait bonus on attack rolls against flat-footed foes, as long as they have not seen you make an attack with this bonus before."
 		],
-		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
+		"previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_campaign": {
 		"title": "Campaign Traits",
@@ -12962,7 +12813,7 @@
 				"className": "plain"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
+		"previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_race": {
 		"title": "Race Traits",
@@ -13404,7 +13255,7 @@
 				"className": "plain"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
+		"previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_social": {
 		"title": "Social Traits",
@@ -14416,7 +14267,7 @@
 			"",
 			"You have acquired an unusual breadth of life experience-more than others of your age, race, or culture. Once per day when attempting a skill check for a skill you're untrained in, you can roll twice and take the better result."
 		],
-		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
+		"previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_drawback": {
 		"title": "Drawback Traits",
@@ -14863,7 +14714,7 @@
 			"",
 			"You are fanatical in your beliefs, ruled by emotion over reason. When you attack a creature that you know worships a different religion than you do, you take a -5 penalty on the attack roll and a +2 trait bonus on the damage roll with your first attack."
 		],
-		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
+		"previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_equipment": {
 		"title": "Equipment Traits",
@@ -15062,7 +14913,7 @@
 			"** Other Gear:** Backpack, bedroll, belt pouch, chalk (5 pieces), climber's kit, cold-weather outfit, fishhook, flint and steel, mess kit, pole (10 ft.), shovel, signal whistle, silk rope (50 ft.), trail rations (5 days), waterskin, 2 sp.  ",
 			"**Total Weight:** 108-1/2 lbs. (63-1/4 lbs. for a Small character)."
 		],
-		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
+		"previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_family": {
 		"title": "Family Traits",
@@ -15112,7 +14963,7 @@
 			"",
 			"Whether siblings, spouses, or dedicated members of the same clan, characters who take this trait are an inseparable pair committed to each other. Your partner or partners must also have this trait. You gain a +1 trait bonus on Will saves against charm and compulsion effects if a partner is within 60 feet, increasing to +3 against a command to compromise your relationship or harm a partner."
 		],
-		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
+		"previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_mount": {
 		"title": "Mount Traits",
@@ -15209,7 +15060,7 @@
 			"",
 			"Erutaki huskies gain a +4 trait bonus on Fortitude saves to avoid nonlethal damage from cold environments, and only take a -2 penalty on Perception checks made in inclement weather such as rain or snow (instead of the usual -4 penalty)."
 		],
-		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
+		"previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_cosmic": {
 		"title": "Cosmic Traits",
@@ -15306,9 +15157,11 @@
 			"",
 			"Like the vehicle that conveys travelers across the heavens, you are blessed with extraordinary movement capabilities. Once per day as a swift action, you can increase you move speed by 10 feet for 1 round."
 		],
-		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
+		"previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"traits_magic": {
+		"title": "Magic Traits",
+		"sources": [],
 		"description": [
 			"Basic traits are broken down into four categories. Combat traits focus on martial and physical aspects of your background. Faith traits focus on your religious and philosophical leanings. Magic traits focus on any magical events or training you have had. Social traits focus on your social class or upbringing.",
 			"",
@@ -16097,7 +15950,7 @@
 			"",
 			"You narrowly escaped death when a Winter Witch punished you for supporting the Heralds. You gain cold resistance 5 against the first cold damage you take each day, and gain a +2 bonus on saving throws against the fear effects of creatures with the cold subtype."
 		],
-		"_previous": [ ["Main", "main"], ["Traits", "traits"] ]
+		"previous": [ ["Main", "main"], ["Traits", "traits"] ]
 	},
 	"races": {
 		"title": "Races",
@@ -16191,7 +16044,7 @@
 				"className": "endcaps"
 			}
 		],
-		"_previous": [ ["Main", "main"] ]
+		"previous": [ ["Main", "main"] ]
 	},
 	"faiths": {
 		"title": "Deities and Faiths",
@@ -16214,24 +16067,8 @@
 		"tables": [
 			{
 				"id": "all deities and faiths table",
-				"headers": [
-					"Deity/Faith",
-					"Pantheon(s)",
-					"Alignment",
-					"Areas of Concern",
-					"Domains",
-					"Subdomains",
-					"Favored Weapon"
-				],
-				"types": [
-					null,
-					null,
-					null,
-					null,
-					null,
-					null,
-					null
-				],
+				"headers": [ "Deity/Faith", "Pantheon(s)", "Alignment", "Areas of Concern", "Domains", "Subdomains", "Favored Weapon" ],
+				"types": [ null, null, null, null, null, null, null ],
 				"data": [
 					[ "[Abadar](deity/abadar)", "Core Deities, Deities of Tian Xia, Halfling Deities, Order of the God Claw Pantheon, Sandpoint Pantheon, Taldan Pantheon", [1, "LN"], "Cities, laws, merchants, wealth", "Earth, Law, Nobility, Protection, Travel", "Aristocracy, Defense, Fortifications, Inevitable, Leadership, Legislation, Martyr, Metal, Portal, Trade", "Light crossbow" ],
 					[ "[Abhoth](deity/abhoth)", "Outer Gods", [7, "CN"], "Disease, fercundity, oozes", "Chaos, Darkness, Earth, Madness, Strength", "Caves, Ferocity, Insanity, Night, Nightmare, Resolve", "Whip" ],
@@ -16700,7 +16537,7 @@
 				"className": "races"
 			}
 		],
-		"_previous": [ ["Main", "main"] ]
+		"previous": [ ["Main", "main"] ]
 	},
 	"faiths_pantheons": {
 		"title": "Deities/Faiths by Pantheon",
@@ -16763,7 +16600,7 @@
 			"| Vudrani Pantheon | [Irori](deity/irori) |",
 			"| Other Deities/Faiths | [Achaekek](deity/achaekek), [Ah Pook](deity/ah_pook), [Ahriman](deity/ahriman), [Alazhra](deity/alazhra), [Alseta](deity/alseta), [Apsu](deity/apsu), [Arazni](deity/arazni), [Ashukharma](deity/ashukharma), [Besmara](deity/besmara), [Brigh](deity/brigh), [Camazotz](deity/camazotz), [Cihua Couatl](deity/cihua_couatl), [Dahak](deity/dahak), [Dhalavei](deity/dhalavei), [Easivra](deity/easivra), [Erecura](deity/erecura), [Feronia](deity/feronia), [Ghlaunder](deity/ghlaunder), [Grandmother Spider](deity/grandmother_spider), [Green Faith](deity/green_faith), [Groetus](deity/groetus), [Gruhastha](deity/gruhastha), [Gyronna](deity/gyronna), [Hanspur](deity/hanspur), [Kazutal](deity/kazutal), [Kitumu](deity/kitumu), [Kurgess](deity/kurgess), [Lissala](deity/lissala), [Matravash](deity/matravash), [Mazludeh](deity/mazludeh), [Milani](deity/milani), [Naderi](deity/naderi), [Nivi Rhombodazzle](deity/nivi_rhombodazzle), [Nocticula (Redeemed)](deity/nocticula_redeemed), [Omrataji](deity/omrataji), [Sivanah](deity/sivanah), [Speakers of the Depths](deity/speakers_of_the_depths), [Ydersius](deity/ydersius), [Zyphus](deity/zyphus) |"
 		],
-		"_previous": [ ["Main", "main"], ["Deities and Daiths", "faiths"] ]
+		"previous": [ ["Main", "main"], ["Deities and Daiths", "faiths"] ]
 	},
 	"faiths_domains": {
 		"title": "Deities/Faiths by Domain",
@@ -16817,7 +16654,7 @@
 			"| [Water](domain/water) | [Aegirran](deity/aegirran), [Besmara](deity/besmara), [Bokrug](deity/bokrug), [Charon](deity/charon), [Crocell](deity/crocell), [Dagon](deity/dagon), [Gaap](deity/gaap), [Geryon](deity/geryon), [Ghatanothoa](deity/ghatanothoa), [Gogunta](deity/gogunta), [Gozreh](deity/gozreh), [Guyuku](deity/guyuku), [Hanspur](deity/hanspur), [Hataam](deity/hataam), [Hei Feng](deity/hei_feng), [Inkariax](deity/inkariax), [Jalaijatali](deity/jalaijatali), [Jubilex](deity/jubilex), [Kelizandri](deity/kelizandri), [Matravash](deity/matravash), [Naderi](deity/naderi), [Neith](deity/neith), [Oaur-Ooung](deity/oaur_ooung), [Onos](deity/onos), [Orgesh](deity/orgesh), [Ovonovo](deity/ovonovo), [Pharasma](deity/pharasma), [Pharimia](deity/pharimia), [Ragadahn](deity/ragadahn), [Roqorolos](deity/roqorolos), [Scarmiglione](deity/scarmiglione), [Sobek](deity/sobek), [Speakers of the Depths](deity/speakers_of_the_depths), [The Pale Horse](deity/the_pale_horse), [Thremyr](deity/thremyr), [Tolc](deity/tolc), [Tresmalvos](deity/tresmalvos), [Uzumae](deity/uzumae), [Valmallos](deity/valmallos), [Vorasha](deity/vorasha), [Wadjet](deity/wadjet), [Yamatsumi](deity/yamatsumi), [Ylimancha](deity/ylimancha), [Zogmugot](deity/zogmugot) |",
 			"| [Weather](domain/weather) | [Aegirran](deity/aegirran), [Besmara](deity/besmara), [Bokrug](deity/bokrug), [Daikitsu](deity/daikitsu), [Diceid](deity/diceid), [Elion](deity/elion), [Gozreh](deity/gozreh), [Halcamora](deity/halcamora), [Hataam](deity/hataam), [Hei Feng](deity/hei_feng), [Hshurha](deity/hshurha), [Imot](deity/imot), [Ithaqua](deity/ithaqua), [Ketephys](deity/ketephys), [Maat](deity/maat), [Nataka](deity/nataka), [Ng](deity/ng), [Psomeira](deity/psomeira), [Pulura](deity/pulura), [Rasvocel](deity/rasvocel), [Roqorolos](deity/roqorolos), [Rovagug](deity/rovagug), [Rull](deity/rull), [Set](deity/set), [Sithhud](deity/sithhud), [Trelmarixian](deity/trelmarixian), [Urxehl](deity/urxehl), [Valani](deity/valani), [Vermilion Mother](deity/vermilion_mother), [Vois](deity/vois), [Vonymos](deity/vonymos), [Yan-gant-y-tan](deity/yan_gant_y_tan) |"
 		],
-		"_previous": [ ["Main", "main"], ["Deities and Daiths", "faiths"] ]
+		"previous": [ ["Main", "main"], ["Deities and Daiths", "faiths"] ]
 	},
 	"faiths_subdomains": {
 		"title": "Deities/Faiths by Subdomains",
@@ -16975,7 +16812,7 @@
 			"| Whimsy | [Chucaro](deity/chucaro), [Findeladlara](deity/findeladlara), [Lalaci](deity/lalaci), [Picoperi](deity/picoperi), [Skrymir](deity/skrymir), [Thamir Gixx](deity/thamir_gixx), [Thisamet](deity/thisamet), [Tsathoggua](deity/tsathoggua) |",
 			"| Wind | [Areshkagal](deity/areshkagal), [Baalzebul](deity/baalzebul), [Chupurvagasti](deity/chupurvagasti), [Eligos](deity/eligos), [Geon](deity/geon), [Ghlaunder](deity/ghlaunder), [Gozreh](deity/gozreh), [Hei Feng](deity/hei_feng), [Horus](deity/horus), [Hshurha](deity/hshurha), [Isph-Aun-Vuln](deity/isph_aun_vuln), [Ithaqua](deity/ithaqua), [Libicocco](deity/libicocco), [Llamolaek](deity/llamolaek), [Onos](deity/onos), [Pazuzu](deity/pazuzu), [Rull](deity/rull), [Seramaydiel](deity/seramaydiel), [Sugroz](deity/sugroz), [Tjasse](deity/tjasse), [Uaransaph](deity/uaransaph), [Xiquiripat](deity/xiquiripat), [Ylimancha](deity/ylimancha) |"
 		],
-		"_previous": [ ["Main", "main"], ["Deities and Daiths", "faiths"] ]
+		"previous": [ ["Main", "main"], ["Deities and Daiths", "faiths"] ]
 	},
 	"faiths_alignments": {
 		"title": "Deities/Faiths by Alignment",
@@ -17004,7 +16841,7 @@
 			"| Chaotic Evil | [Abraxas](deity/abraxas), [Aldinach](deity/aldinach), [Ananshea](deity/ananshea), [Andirifkhu](deity/andirifkhu), [Angazhan](deity/angazhan), [Apep](deity/apep), [Areshkagal](deity/areshkagal), [Baphomet](deity/baphomet), [Camazotz](deity/camazotz), [Chamiaholom](deity/chamiaholom), [Charg](deity/charg), [Chaugnar Faugn](deity/chaugnar_faugn), [Chavazvug](deity/chavazvug), [Cthulhu](deity/cthulhu), [Cyth-V'sug](deity/cyth_v'sug), [Dachzerul](deity/dachzerul), [Daclau-Sar](deity/daclau_sar), [Dagon](deity/dagon), [Dahak](deity/dahak), [Deskari](deity/deskari), [Dretha](deity/dretha), [Flauros](deity/flauros), [Ghlaunder](deity/ghlaunder), [Gogunta](deity/gogunta), [Guyuku](deity/guyuku), [Gyronna](deity/gyronna), [Haagenti](deity/haagenti), [Haggakal](deity/haggakal), [Hastur](deity/hastur), [Hataam](deity/hataam), [Iggeret](deity/iggeret), [Isph-Aun-Vuln](deity/isph_aun_vuln), [Ithaqua](deity/ithaqua), [Izyagna](deity/izyagna), [Jezelda](deity/jezelda), [Jubilex](deity/jubilex), [Kabriri](deity/kabriri), [Kitumu](deity/kitumu), [Kostchtchie](deity/kostchtchie), [Kro'akoth](deity/kro'akoth), [Lady Nanbyo](deity/lady_nanbyo), [Lamashtu](deity/lamashtu), [Lanishra](deity/lanishra), [Mazmezz](deity/mazmezz), [Menxyr](deity/menxyr), [Mestama](deity/mestama), [Mordiggian](deity/mordiggian), [Murnath](deity/murnath), [Nameless](deity/nameless), [Nhimbaloth](deity/nhimbaloth), [Nightripper](deity/nightripper), [Nocticula](deity/nocticula), [Nulgreth](deity/nulgreth), [Nurgal](deity/nurgal), [Nyarlathotep (Black Pharaoh)](deity/nyarlathotep_black_pharaoh), [Nyarlathotep (Faceless Sphinx)](deity/nyarlathotep_faceless_sphinx), [Nyarlathotep (Haunter of the Dark)](deity/nyarlathotep_haunter_of_the_dark), [Oaur-Ooung](deity/oaur_ooung), [Ongalte](deity/ongalte), [Onmyuza](deity/onmyuza), [Orcus](deity/orcus), [Orgesh](deity/orgesh), [Ovonovo](deity/ovonovo), [Ozranvial](deity/ozranvial), [Pazuzu](deity/pazuzu), [Ragadahn](deity/ragadahn), [Rhan-Tegoth](deity/rhan_tegoth), [Rovagug](deity/rovagug), [Rull](deity/rull), [Sezelrian](deity/sezelrian), [Shamira](deity/shamira), [Shawnari](deity/shawnari), [Shax](deity/shax), [Shiggarreb](deity/shiggarreb), [Shivaska](deity/shivaska), [Shub-Niggurath](deity/shub_niggurath), [Sifkesh](deity/sifkesh), [Sithhud](deity/sithhud), [Socothbenoth](deity/socothbenoth), [Thamir Gixx](deity/thamir_gixx), [Thremyr](deity/thremyr), [Thuskchoon](deity/thuskchoon), [Treerazer](deity/treerazer), [Tsathoggua](deity/tsathoggua), [Urazra](deity/urazra), [Urxehl](deity/urxehl), [Ushitora](deity/ushitora), [Varg](deity/varg), [Velgaas](deity/velgaas), [Verex](deity/verex), [Vermilion Mother](deity/vermilion_mother), [Xiquiripat](deity/xiquiripat), [Xoveron](deity/xoveron), [Yamasoth](deity/yamasoth), [Ydersius](deity/ydersius), [Yhidothrus](deity/yhidothrus), [Zagresh](deity/zagresh), [Zevgavizeb](deity/zevgavizeb), [Zipacna](deity/zipacna), [Zogmugot](deity/zogmugot), [Zura](deity/zura) |",
 			"| Unaligned | [Pharimia](deity/pharimia) |"
 		],
-		"_previous": [ ["Main", "main"], ["Deities and Daiths", "faiths"] ]
+		"previous": [ ["Main", "main"], ["Deities and Daiths", "faiths"] ]
 	},
 	"rules": {
 		"title": "All Rules",
@@ -17102,7 +16939,7 @@
 			"- [Words of Power](rule/words_of_power)",
 			"- [Wounds and Vigor](rule/wounds_and_vigor)"
 		],
-		"_previous": [ ["Main", "main"] ]
+		"previous": [ ["Main", "main"] ]
 	},
 	"equipment": {
 		"title": "Equipment",
@@ -17142,7 +16979,7 @@
 			"",
 			"**[Miscellaneous](equipment_tech_misc)**"
 		],
-		"_previous": [ ["Main", "main"] ]
+		"previous": [ ["Main", "main"] ]
 	},
 	"equipment_armor": {
 		"title": "Armor",
@@ -17225,7 +17062,7 @@
 				"className": "simple"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_armorenhancements": {
 		"title": "Armor and Shield Enhancements",
@@ -17233,6 +17070,7 @@
 		"description": [ "`table0`" ],
 		"tables": [
 			{
+				"id": "armor and shield enhancements",
 				"headers": [ "Name", "Cost Adjustment", "Weight Adjustment" ],
 				"types": [ null, "gp+", "lbs+" ],
 				"data": [
@@ -17263,12 +17101,12 @@
 				"className": "simple"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_weapons": {
 		"title": "Weapons",
 		"sources": [],
-		"description |": [ "`table0`" ],
+		"description": [ "`table0`" ],
 		"tables": [
 			{
 				"id": "all weapons",
@@ -17768,7 +17606,7 @@
 				"className": "simple"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_weaponenhancements": {
 		"title": "Weapon Enhancements",
@@ -17802,7 +17640,7 @@
 				"className": "simple"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_materials": {
 		"title": "Special Materials",
@@ -17884,12 +17722,12 @@
 			"| [Obsidian](equipment/material/obsidian) | This black volcanic glass is extremely sharp, and can be shaped into a variety of weapons that deal piercing and slashing damage. |",
 			"| [Stone](equipment/material/stone) | Stone Age weapons almost always utilize stone in some way. |"
 		],
-		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_siegeengines": {
 		"title": "Siege Engines",
 		"sources": [],
-		"_description": [ "`table0`" ],
+		"description": [ "`table0`" ],
 		"tables": [
 			{
 				"id": "siege engines",
@@ -17958,7 +17796,7 @@
 				"className": "simple"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_poisons": {
 		"title": "Poisons",
@@ -18003,7 +17841,7 @@
 					[ "[Bloodbrain Venom](equipment/poison/bloodbrain_venom)", "injury", "Fortitude DC 17", null, "1/round for 6 rounds", "1d6 Str damage, scented 10 minutes / 1d3 Str damage", 400 ],
 					[ "[Bloodpyre](equipment/poison/bloodpyre)", "contact", "Fortitude DC 14", null, "1/round for 6 rounds", "1 Cha, Int, Wis damage, 2d6 fire, see text", 1000 ],
 					[ "[Bloodroot](equipment/poison/bloodroot)", "injury", "Fortitude DC 12", "1 round", "1/round for 4 rounds", "1 Con, 1 Wis, confusion 1 round", 100 ],
-					[ "[Bloodwine](equipment/poison/bloodwine)", "ingested", "Fortitude DC 25 |&mdash;", "1/minute for 6 minutes", "sickened for 1d4 hours / 1d3 Wis damage", 100 ],
+					[ "[Bloodwine](equipment/poison/bloodwine)", "ingested", "Fortitude DC 25", null, "1/minute for 6 minutes", "sickened for 1d4 hours / 1d3 Wis damage", 100 ],
 					[ "[Blue lily extract](equipment/poison/blue_lily_extract)", "contact or injested", "Fortitude DC 14 (18 if injested)", "1 minute", "1/hour for 6 hours", "1d4 Wisdom damage plus -4 penalty on Sense Motive checks and saving throws versus sleep effects for 1 hour", [ 99999, "N/A" ] ],
 					[ "[Blue star](equipment/poison/blue_star)", "ingested", "Fortitude DC 15", "10 minutes", "1/minute for 6 minutes", "1d2 Con damage, -2 vs poison 1/week", 500 ],
 					[ "[Blue Whinnis](equipment/poison/blue_whinnis)", "injury", "Fortitude DC 14", null, "1/round for 2 rounds", "1 Con damage, 1 Wis damage / unconscious 1d3 hours", 120 ],
@@ -18019,7 +17857,7 @@
 					[ "[Cockatrice spit](equipment/poison/cockatrice_spit)", "contact, injury, ingested", "Fortitude DC 12", null, "1/round for 4 rounds", "1d2 Dex damage, petrification (see text)", 1000 ],
 					[ "[Concentrated laxative](equipment/poison/concentrated_laxative)", "ingested", "Fortitude DC 12", "10 minutes", "1/minute for 2 minutes", "sickened 1 min / nauseated 1 minute", 75 ],
 					[ "[Confabulation powder](equipment/poison/confabulation_powder)", "inhaled", "Fortitude 18", null, "1/minute for 2 minutes", "stagged 1 minute / highly suggestible", 80 ],
-					[ "[Count Ambras's punishment](equipment/poison/count_ambras's_punishment)", "contact", "Fortitude DC 16", "1 minute", "1/minute for 6 minutes", "1 Dex drain, nauseated 1 minute", "1d2 Dex drain, sickened 1 minute", 350 ],
+					[ "[Count Ambras's punishment](equipment/poison/count_ambras's_punishment)", "contact", "Fortitude DC 16", "1 minute", "1/minute for 6 minutes", "1 Dex drain, nauseated 1 minute / 1d2 Dex drain, sickened 1 minute", 350 ],
 					[ "[Crone's curse](equipment/poison/crone's_curse)", "inhaled", "Fortitude DC 16", "1d4 hours", "1/day for 6 days", "1 Dex and Wis damage, vulnerable to cold and fire, see text", 600 ],
 					[ "[Cyanide](equipment/poison/cyanide)", "contact", "Fortitude DC 20", "1 minute", "1/round for 6 rounds", "1d4 Con damage/drain (see text)", 4000 ],
 					[ "[Cytillesh extract](equipment/poison/cytillesh_extract)", "ingested", "Fortitude DC 18", null, "1/hour for 8 hours", "Memory problems (see text)", 800 ],
@@ -18029,7 +17867,7 @@
 					[ "[Diplopic serum](equipment/poison/diplopic_serum)", "injury", "Fortitude DC 15", null, "1/round for 6 rounds", "1d2 Wis damage, double vision (see text)", 250 ],
 					[ "[Dragon Bile](equipment/poison/dragon_bile)", "contact", "Fortitude DC 26", null, "1/round for 6 rounds", "1d3 Str damage", 1500 ],
 					[ "[Draughtcap fungus](equipment/poison/draughtcap_fungus)", "ingested", "Fortitude DC 16", "4d6 hours", "1/hour for 8 hours", "1d2 Str damage, dehydration", 150 ],
-					[ "[Dream crystal toxin](equipment/poison/dream_crystal_toxin)", "ingested or injury", "Willpower DC 20", null, "1/hour for 6 hours", 2500 ],
+					[ "[Dream crystal toxin](equipment/poison/dream_crystal_toxin)", "ingested or injury", "Willpower DC 20", null, "1/hour for 6 hours", "1d2 Int drain", 2500 ],
 					[ "[Dreaming death](equipment/poison/dreaming_death)", "inhaled", "Fortitude DC 16", "10 minutes", "1/10 minutes for 1 hour", "sleep 10 minutes, see text", 2500 ],
 					[ "[Drow Poison](equipment/poison/drow_poison)", "injury", "Fortitude DC 13", null, "1/minute for 2 minutes", "unconscious 1 minute / unconscious 2d4 hours", 75 ],
 					[ "[Everwake serum](equipment/poison/everwake_serum)", "ingested", "Fortitude DC 16", null, "1/day for 5 days", "cannot sleep or rest (see text)", 2500 ],
@@ -18069,7 +17907,7 @@
 					[ "[Liquid leprosy](equipment/poison/liquid_leprosy)", "contact", "Fortitude DC", "1 minute", "1/minute for 6 minutes", "Body begins to necrotize (see text)", "750gp" ],
 					[ "[Liquid persuasion](equipment/poison/liquid_persuasion)", "ingested", "Fortitude DC 11", "10 minutes", "1/minute for 5 minutes", "1 Wis damage, helpfulness (see text)", 120 ],
 					[ "[Lungsap powder](equipment/poison/lungsap_powder)", "inhaled", "Fortitude DC 16", null, "1/round for 4 rounds", "staggered, see text", 1200 ],
-					[ "[Lungtaker](equipment/poison/lungtaker)", "inhaled", "Fortitude DC 17", null, "1/round for 6 rounds", "1d6 Str damage, suffocation (see text) $$1200" ],
+					[ "[Lungtaker](equipment/poison/lungtaker)", "inhaled", "Fortitude DC 17", null, "1/round for 6 rounds", "1d6 Str damage, suffocation (see text)", 1200 ],
 					[ "[Maiden lily attar](equipment/poison/maiden_lily_attar)", "inhaled", "Fortitude DC 13", null, "1/round for 4 rounds", "unconscious for 1 minute / unconscious for 1d4 hours", [ 99999, "N/A" ] ],
 					[ "[Malyass Root Paste](equipment/poison/malyass_root_paste)", "contact", "Fortitude DC 16", "1 minute", "1/minute for 6 minutes", "1d2 Dex damage", 250 ],
 					[ "[Marvelous fear gas](equipment/poison/marvelous_fear_gas)", "inhaled", "Fortitude DC 17", "injury or affected by any fear condition or effect", "1/minute for 4 minutes", "shaken for 10 minutes / 1d2 Wisdom damage", 150 ],
@@ -18093,7 +17931,7 @@
 					[ "[Rainbow scarab shell](equipment/poison/rainbow_scarab_shell)", "injury", "Fortitude DC 14", "1 round", "1/round for 4 rounds", "1d4 Strength damage and suffocation", 150 ],
 					[ "[Red bedlam](equipment/poison/red_bedlam)", "ingested", "Fortitude DC 15", "10 minutes", "1/minute for 10 minutes", "confusion", 1200 ],
 					[ "[Red tears](equipment/poison/red_tears)", "injury", "Fortitude DC 15", null, "1/round for 10 rounds", "1d6 points of damage", 50 ],
-					[ "[Sassone Leaf Residue](equipment/poison/sassone_leaf_residue)", "contact", "Fortitude DC 16", "1 minute", "1/minute for 6 minutes", "2d12 hit point damage", "1 Con damage", 300 ],
+					[ "[Sassone Leaf Residue](equipment/poison/sassone_leaf_residue)", "contact", "Fortitude DC 16", "1 minute", "1/minute for 6 minutes", "2d12 hit point damage / 1 Con damage", 300 ],
 					[ "[Scholarblight](equipment/poison/scholarblight)", "inhaled", "Fortitude DC 15", null, "1/minute for 6 minutes", "1d3 Int damage, see text", 1500 ],
 					[ "[Shadow Essence](equipment/poison/shadow_essence)", "injury", "Fortitude DC 17", null, "1/round for 6 rounds", "1 Str drain / 1d2 Str damage", 250 ],
 					[ "[Shamweed](equipment/poison/shamweed)", "contact", "Fortitude DC 18", "immediate and 1 week, see effect", "varies, see effect", "+1 Con/day for 1 week / Con gain removed, 1d6 Con damage/day for 7 days", 6500 ],
@@ -18133,7 +17971,7 @@
 				"className": "poisons"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_reagents": {
 		"title": "Alchemical Reagents",
@@ -18198,7 +18036,7 @@
 				"className": "simple"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_spellbooks": {
 		"title": "Spellbooks",
@@ -18294,7 +18132,7 @@
 				"className": "endcaps"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_misc": {
 		"title": "Miscellaneous Equipment",
@@ -18302,18 +18140,8 @@
 		"tables": [
 			{
 				"id": "misc equipment",
-				"headers": [
-					"Name",
-					"Type",
-					"Cost",
-					"Weight"
-				],
-				"types": [
-					null,
-					null,
-					"gps",
-					"lbs"
-				],
+				"headers": [ "Name", "Type", "Cost", "Weight" ],
+				"types": [ null, null, "gp", "lbs" ],
 				"data": [
 					[ "[A Thread of Silver](equipment/misc/a_thread_of_silver)", "dungeon guide", 6700, 0 ],
 					[ "[abacus](equipment/misc/abacus)", "tool", 2, 2 ],
@@ -18381,7 +18209,7 @@
 					[ "[antitoxin](equipment/misc/antitoxin)", "alchemical remedy", 50, 0 ],
 					[ "[antivenom](equipment/misc/antivenom)", "alchemical remedy", -1, 0 ],
 					[ "[anulite paprika](equipment/misc/anulite_paprika)", "food and drink", 3, 0 ],
-					[ "[anvil](equipment/misc/anvil)", "tool", 5, [ 	10, 	"10 - 100 lbs." ] ],
+					[ "[anvil](equipment/misc/anvil)", "tool", 5, [ 10, "10 - 100 lbs." ] ],
 					[ "[applecheek](equipment/misc/applecheek)", "alchemical remedy", 10, 1 ],
 					[ "[applejack (gallon)](equipment/misc/applejack_gallon)", "food and drink", 0.4, 8 ],
 					[ "[applejack (mug)](equipment/misc/applejack_mug)", "food and drink", 0.08, 1 ],
@@ -18436,7 +18264,7 @@
 					[ "[baluchitherium](equipment/misc/baluchitherium)", "mount or pet", 4800, 0 ],
 					[ "[bamboo palace](equipment/misc/bamboo_palace)", "black market", 1000, 10 ],
 					[ "[bandolier](equipment/misc/bandolier)", "adventuring gear", 0.5, 0 ],
-					[ "[banner](equipment/misc/banner)", "adventuring gear", [ 	1, 	"1 gp - 20 gp" ], 2 ],
+					[ "[banner](equipment/misc/banner)", "adventuring gear", [ 1, "1 gp - 20 gp" ], 2 ],
 					[ "[banquet (per person)](equipment/misc/banquet_per_person)", "food and drink", 10, 0 ],
 					[ "[barbarian chew](equipment/misc/barbarian_chew)", "alchemical tool", 25, 1 ],
 					[ "[barbarian's kit](equipment/misc/barbarian's_kit)", "kits", 9, 26 ],
@@ -18597,21 +18425,21 @@
 					[ "[caphorite dust](equipment/misc/caphorite_dust)", "alchemical tool", 25, 0.5 ],
 					[ "[caravan master's wagon](equipment/misc/caravan_master's_wagon)", "transport, land", 1000, 0 ],
 					[ "[cardice oil](equipment/misc/cardice_oil)", "alchemical tool", 50, 1 ],
-					[ "[cards](equipment/misc/cards)", "entertainment", "^^0.1^1 sp - 100 gp", 1 ],
+					[ "[cards](equipment/misc/cards)", "entertainment", [ 0.1001, "1 sp - 100 gp"], 1 ],
 					[ "[carnivore feed (per day)](equipment/misc/carnivore_feed_per_day)", "animal gear", 0.05, 5 ],
-					[ "[carriage](equipment/misc/carriage)", "transport, land", 100, [ 	0, 	null ] ],
-					[ "[carriage (travel, per mile)](equipment/misc/carriage_travel,_per_mile)", "transport, land", 0.03, [ 	0, 	null ] ],
+					[ "[carriage](equipment/misc/carriage)", "transport, land", 100, [ -100, "N/A" ] ],
+					[ "[carriage (travel, per mile)](equipment/misc/carriage_travel,_per_mile)", "transport, land", 0.03, [ -100, "N/A" ] ],
 					[ "[carrion bait](equipment/misc/carrion_bait)", "alchemical tool", 25, 2 ],
-					[ "[cart](equipment/misc/cart)", "transport, land", 15, [ 	0, 	null ] ],
-					[ "[cart (travel, per mile)](equipment/misc/cart_travel,_per_mile)", "transport, land", 0.01, [ 	0, 	null ] ],
+					[ "[cart](equipment/misc/cart)", "transport, land", 15, [ -100, "N/A" ] ],
+					[ "[cart (travel, per mile)](equipment/misc/cart_travel,_per_mile)", "transport, land", 0.01, [ -100, "N/A" ] ],
 					[ "[casting plaster](equipment/misc/casting_plaster)", "alchemical tool", 0.5, 5 ],
 					[ "[cat (common)](equipment/misc/cat_common)", "mount or pet", 0.03, 8 ],
 					[ "[cat (osirian wise-eye)](equipment/misc/cat_osirian_wise-eye)", "mount or pet", 6, 8 ],
 					[ "[cat (hunting)](equipment/misc/cat_hunting)", "mount or pet", 100, 100 ],
 					[ "[cat burglar's kit](equipment/misc/cat_burglar's_kit)", "kits", 15, 12 ],
-					[ "[cattle](equipment/misc/cattle)", "mount or pet", [ 	10, 	"10 gp - 50 gp" ], 1500 ],
+					[ "[cattle](equipment/misc/cattle)", "mount or pet", [ 10, "10 gp - 50 gp" ], 1500 ],
 					[ "[cauim (gourd)](equipment/misc/cauim_gourd)", "food and drink", 1, 2 ],
-					[ "[caul](equipment/misc/caul)", "clothing", [ 	10, 	"10 gp - 100 gp" ], 0 ],
+					[ "[caul](equipment/misc/caul)", "clothing", [ 10, "10 gp - 100 gp" ], 0 ],
 					[ "[cauldron (mithral)](equipment/misc/cauldron_mithral)", "adventuring gear", 2501, 2.5 ],
 					[ "[cauldron](equipment/misc/cauldron)", "adventuring gear", 1, 5 ],
 					[ "[cavalier's kit](equipment/misc/cavalier's_kit)", "kits", 23, 112 ],
@@ -18632,12 +18460,12 @@
 					[ "[chameleon pill](equipment/misc/chameleon_pill)", "alchemical tool", 100, 0 ],
 					[ "[charcoal](equipment/misc/charcoal)", "adventuring gear", 0.5, 0 ],
 					[ "[charda claws](equipment/misc/charda_claws)", "adventuring gear", 150, 0 ],
-					[ "[chariot (heavy) (travel, per mile)](equipment/misc/chariot_heavy_travel,_per_mile)", "transport, land", 0.02, [ 	0, 	null ] ],
-					[ "[chariot (heavy)](equipment/misc/chariot_heavy)", "transport, land", 200, [ 	0, 	null ] ],
-					[ "[chariot (light) (travel, per mile)](equipment/misc/chariot_light_travel,_per_mile)", "transport, land", 0.02, [ 	0, 	null ] ],
-					[ "[chariot (light)](equipment/misc/chariot_light)", "transport, land", 50, [ 	0, 	null ] ],
-					[ "[chariot (medium) (travel, per mile)](equipment/misc/chariot_medium_travel,_per_mile)", "transport, land", 0.02, [ 	0, 	null ] ],
-					[ "[chariot (medium)](equipment/misc/chariot_medium)", "transport, land", 100, [ 	0, 	null ] ],
+					[ "[chariot (heavy) (travel, per mile)](equipment/misc/chariot_heavy_travel,_per_mile)", "transport, land", 0.02, [ -100, "N/A" ] ],
+					[ "[chariot (heavy)](equipment/misc/chariot_heavy)", "transport, land", 200, [ -100, "N/A" ] ],
+					[ "[chariot (light) (travel, per mile)](equipment/misc/chariot_light_travel,_per_mile)", "transport, land", 0.02, [ -100, "N/A" ] ],
+					[ "[chariot (light)](equipment/misc/chariot_light)", "transport, land", 50, [ -100, "N/A" ] ],
+					[ "[chariot (medium) (travel, per mile)](equipment/misc/chariot_medium_travel,_per_mile)", "transport, land", 0.02, [ -100, "N/A" ] ],
+					[ "[chariot (medium)](equipment/misc/chariot_medium)", "transport, land", 100, [ -100, "N/A" ] ],
 					[ "[chausses](equipment/misc/chausses)", "clothing", 1, 3 ],
 					[ "[cheat sheath](equipment/misc/cheat_sheath)", "tool", 100, 2 ],
 					[ "[cheese](equipment/misc/cheese)", "food and drink", 0.1, 0.5 ],
@@ -18669,8 +18497,8 @@
 					[ "[clockwork prowler (advanced)](equipment/misc/clockwork_prowler_advanced)", "alchemical tool", 1500, 30 ],
 					[ "[clockwork prowler](equipment/misc/clockwork_prowler)", "alchemical tool", 500, 25 ],
 					[ "[cloud puff](equipment/misc/cloud_puff)", "herbs", 100, 0 ],
-					[ "[coach cab](equipment/misc/coach_cab)", "transport, land", 0, [ 	0, 	null ] ],
-					[ "[coach cab (travel, per mile)](equipment/misc/coach_cab_travel,_per_mile)", "transport, land", 0.03, [ 	0, 	null ] ],
+					[ "[coach cab](equipment/misc/coach_cab)", "transport, land", 0, [ -100, "N/A" ] ],
+					[ "[coach cab (travel, per mile)](equipment/misc/coach_cab_travel,_per_mile)", "transport, land", 0.03, [ -100, "N/A" ] ],
 					[ "[cobbled item](equipment/misc/cobbled_item)", "adventuring gear", -1, -1 ],
 					[ "[code rod](equipment/misc/code_rod)", "adventuring gear", 0.1, 1 ],
 					[ "[coffee (cup)](equipment/misc/coffee_cup)", "food and drink", 0.01, 0.5 ],
@@ -18714,7 +18542,7 @@
 					[ "[courtier's outfit](equipment/misc/courtier's_outfit)", "clothing", 30, 6 ],
 					[ "[tear-away courtier's outfit](equipment/misc/tear-away_courtier's_outfit)", "clothing", 35, 6 ],
 					[ "[covenant rings](equipment/misc/covenant_rings)", "clothing", 100, 0 ],
-					[ "[crab](equipment/misc/crab)", "mount or pet", 20, [ 	5, 	"5 - 7 lbs." ] ],
+					[ "[crab](equipment/misc/crab)", "mount or pet", 20, [ 5, "5 - 7 lbs." ] ],
 					[ "[crimson whale](equipment/misc/crimson_whale)", "mount or pet", 8000, 0 ],
 					[ "[crocodile](equipment/misc/crocodile)", "mount or pet", 55, 0 ],
 					[ "[croquet set](equipment/misc/croquet_set)", "entertainment", 0.5, 10 ],
@@ -18770,7 +18598,7 @@
 					[ "[dire wolf](equipment/misc/dire_wolf)", "mount or pet", 380, 0 ],
 					[ "[dire wolverine](equipment/misc/dire_wolverine)", "mount or pet", 500, 0 ],
 					[ "[disguise kit](equipment/misc/disguise_kit)", "tool", 50, 8 ],
-					[ "[disguised holy text](equipment/misc/disguised_holy_text)", "adventuring gear", [ 	1, 	"1 gp - 100 gp" ], [ 	1, 	"1 - 20 lbs." ] ],
+					[ "[disguised holy text](equipment/misc/disguised_holy_text)", "adventuring gear", [ 1, "1 gp - 100 gp" ], [ 1, "1 - 20 lbs." ] ],
 					[ "[display stand](equipment/misc/display_stand)", "adventuring gear", 40, 16 ],
 					[ "[dissipating fan](equipment/misc/dissipating_fan)", "tool", 150, 6 ],
 					[ "[distilled terrap sap](equipment/misc/distilled_terrap_sap)", "alchemical remedy", 30, 0.5 ],
@@ -18785,11 +18613,11 @@
 					[ "[dog (guard)](equipment/misc/dog_guard)", "mount or pet", 25, 25 ],
 					[ "[dog (lap)](equipment/misc/dog_lap)", "mount or pet", 15, 5 ],
 					[ "[dog (riding)](equipment/misc/dog_riding)", "mount or pet", 150, 50 ],
-					[ "[dog sled](equipment/misc/dog_sled)", "transport, land", 20, [ 	0, 	null ] ],
-					[ "[dog sled (travel, per mile)](equipment/misc/dog_sled_travel,_per_mile)", "transport, land", 0.03, [ 	0, 	null ] ],
+					[ "[dog sled](equipment/misc/dog_sled)", "transport, land", 20, [ -100, "N/A" ] ],
+					[ "[dog sled (travel, per mile)](equipment/misc/dog_sled_travel,_per_mile)", "transport, land", 0.03, [ -100, "N/A" ] ],
 					[ "[dolphin](equipment/misc/dolphin)", "mount or pet", 105, 0 ],
 					[ "[dominos](equipment/misc/dominos)", "entertainment", "^^0.1^1 sp - 25 gp", 1 ],
-					[ "[donkey or mule](equipment/misc/donkey_or_mule)", "mount or pet", 8, [ 	600, 	"600 - 800 lbs." ] ],
+					[ "[donkey or mule](equipment/misc/donkey_or_mule)", "mount or pet", 8, [ 600, "600 - 800 lbs." ] ],
 					[ "[donkey rat](equipment/misc/donkey_rat)", "mount or pet", 1, 50 ],
 					[ "[dowsing rod](equipment/misc/dowsing_rod)", "adventuring gear", 10, 1 ],
 					[ "[draconic perfume](equipment/misc/draconic_perfume)", "dragoncraft", 75, 0.5 ],
@@ -18952,8 +18780,8 @@
 					[ "[fury drops](equipment/misc/fury_drops)", "alchemical remedy", 50, 0 ],
 					[ "[giant porcupine](equipment/misc/giant_porcupine)", "mount or pet", 135, 0 ],
 					[ "[gabion](equipment/misc/gabion)", "tool", 1, 2 ],
-					[ "[galley](equipment/misc/galley)", "transport, sea", 30000, [ 	0, 	null ] ],
-					[ "[galley (travel, per mile)](equipment/misc/galley_travel,_per_mile)", "transport, sea", 0.1, [ 	0, 	null ] ],
+					[ "[galley](equipment/misc/galley)", "transport, sea", 30000, [ -100, "N/A" ] ],
+					[ "[galley (travel, per mile)](equipment/misc/galley_travel,_per_mile)", "transport, sea", 0.1, [ -100, "N/A" ] ],
 					[ "[gambeson](equipment/misc/gambeson)", "clothing", 1, 4 ],
 					[ "[gambler's kit (cheating)](equipment/misc/gambler's_kit_cheating)", "kits", 300, 5 ],
 					[ "[gambler's kit (common)](equipment/misc/gambler's_kit_common)", "kits", 75, 5 ],
@@ -18998,7 +18826,7 @@
 					[ "[glue paper](equipment/misc/glue_paper)", "adventuring gear", 0.1, 0 ],
 					[ "[glyptodon](equipment/misc/glyptodon)", "mount or pet", 2700, 0 ],
 					[ "[gnome trail rations](equipment/misc/gnome_trail_rations)", "food and drink", 2, 1 ],
-					[ "[goat](equipment/misc/goat)", "mount or pet", [ 	1, 	"1 gp - 6 gp" ], 50 ],
+					[ "[goat](equipment/misc/goat)", "mount or pet", [ 1, "1 gp - 6 gp" ], 50 ],
 					[ "[goblin dog (combat-trained)](equipment/misc/goblin_dog_combat-trained)", "mount or pet", 50, 0 ],
 					[ "[goblin dog (common)](equipment/misc/goblin_dog_common)", "mount or pet", 35, 0 ],
 					[ "[goblin fishing lure](equipment/misc/goblin_fishing_lure)", "adventuring gear", 5, 0 ],
@@ -19052,7 +18880,7 @@
 					[ "[hedgehog](equipment/misc/hedgehog)", "mount or pet", 5, 3 ],
 					[ "[hellknight barding](equipment/misc/hellknight_barding)", "animal gear", -1, -1 ],
 					[ "[helmet candle](equipment/misc/helmet_candle)", "adventuring gear", 2, 4 ],
-					[ "[hennin](equipment/misc/hennin)", "clothing", [ 	10, 	"10 gp - 100 gp" ], 1 ],
+					[ "[hennin](equipment/misc/hennin)", "clothing", [ 10, "10 gp - 100 gp" ], 1 ],
 					[ "[heratic's fork](equipment/misc/heratic's_fork)", "torture implements", 10, 1 ],
 					[ "[heritage book](equipment/misc/heritage_book)", "adventuring gear", 50, 2 ],
 					[ "[Heroka's Saga, vol. I](equipment/misc/heroka's_saga,_vol._i)", "dungeon guide", 20000, 0 ],
@@ -19092,7 +18920,7 @@
 					[ "[holy symbol (silver)](equipment/misc/holy_symbol_silver)", "adventuring gear", 25, 1 ],
 					[ "[holy symbol (tattoo)](equipment/misc/holy_symbol_tattoo)", "adventuring gear", 100, 0 ],
 					[ "[holy symbol (wooden)](equipment/misc/holy_symbol_wooden)", "adventuring gear", 1, 0 ],
-					[ "[holy text](equipment/misc/holy_text)", "adventuring gear", [ 	1, 	"1 gp - 100 gp" ], [ 	1, 	"1 - 20 lbs." ] ],
+					[ "[holy text](equipment/misc/holy_text)", "adventuring gear", [ 1, "1 gp - 100 gp" ], [ 1, "1 - 20 lbs." ] ],
 					[ "[holy warrior package](equipment/misc/holy_warrior_package)", "kits", 1000, 102 ],
 					[ "[homunculus clay](equipment/misc/homunculus_clay)", "alchemical tool", 2250, 5 ],
 					[ "[honey (jar)](equipment/misc/honey_jar)", "food and drink", 1, 0.5 ],
@@ -19145,7 +18973,7 @@
 					[ "[inn stay (good)](equipment/misc/inn_stay_good)", "lodging or service", 2, 0 ],
 					[ "[inn stay (poor)](equipment/misc/inn_stay_poor)", "lodging or service", 0.2, 0 ],
 					[ "[inn stay (suite, average)](equipment/misc/inn_stay_suite,_average)", "lodging or service", 16, 0 ],
-					[ "[inn stay (suite, luxurious)](equipment/misc/inn_stay_suite,_luxurious)", "lodging or service", [ 	32, 	"32 gp+" ], 0 ],
+					[ "[inn stay (suite, luxurious)](equipment/misc/inn_stay_suite,_luxurious)", "lodging or service", [ 32, "32 gp+" ], 0 ],
 					[ "[inn stay (suite, small)](equipment/misc/inn_stay_suite,_small)", "lodging or service", 4, 0 ],
 					[ "[inquisitor's kit](equipment/misc/inquisitor's_kit)", "kits", 30, 34 ],
 					[ "[inside pocket](equipment/misc/inside_pocket)", "clothing", 4, 0 ],
@@ -19174,15 +19002,15 @@
 					[ "[jug](equipment/misc/jug)", "adventuring gear", 0.03, 9 ],
 					[ "[juggler's kit](equipment/misc/juggler's_kit)", "tool", 15, 10 ],
 					[ "[jungle coffee (cup)](equipment/misc/jungle_coffee_cup)", "food and drink", 0.03, 0.5 ],
-					[ "[junk](equipment/misc/junk)", "transport, sea", 15000, [ 	0, 	null ] ],
-					[ "[junk (travel, per mile)](equipment/misc/junk_travel,_per_mile)", "transport, sea", 0.1, [ 	0, 	null ] ],
+					[ "[junk](equipment/misc/junk)", "transport, sea", 15000, [ -100, "N/A" ] ],
+					[ "[junk (travel, per mile)](equipment/misc/junk_travel,_per_mile)", "transport, sea", 0.1, [ -100, "N/A" ] ],
 					[ "[just scale (abadar)](equipment/misc/just_scale_abadar)", "channel foci", 50, 1 ],
 					[ "[kaava musk](equipment/misc/kaava_musk)", "alchemical tool", 40, 0.5 ],
 					[ "[kahve (cup)](equipment/misc/kahve_cup)", "food and drink", 0.02, 0.5 ],
 					[ "[kangaroo](equipment/misc/kangaroo)", "mount or pet", 30, 0 ],
 					[ "[karazhica](equipment/misc/karazhica)", "food and drink", 1, 0 ],
-					[ "[keelboat](equipment/misc/keelboat)", "transport, sea", 3000, [ 	0, 	null ] ],
-					[ "[keelboat (travel, per mile)](equipment/misc/keelboat_travel,_per_mile)", "transport, sea", 0.1, [ 	0, 	null ] ],
+					[ "[keelboat](equipment/misc/keelboat)", "transport, sea", 3000, [ -100, "N/A" ] ],
+					[ "[keelboat (travel, per mile)](equipment/misc/keelboat_travel,_per_mile)", "transport, sea", 0.1, [ -100, "N/A" ] ],
 					[ "[key-wound rattler](equipment/misc/key-wound_rattler)", "adventuring gear", 350, 25 ],
 					[ "[kilt](equipment/misc/kilt)", "clothing", 0.2, 1 ],
 					[ "[kineticist's kit](equipment/misc/kineticist's_kit)", "kits", 8, 22 ],
@@ -19239,8 +19067,8 @@
 					[ "[lodestone boots](equipment/misc/lodestone_boots)", "clothing", 60, 4 ],
 					[ "[long gloves](equipment/misc/long_gloves)", "clothing", 15, 0 ],
 					[ "[longbeard lambic](equipment/misc/longbeard_lambic)", "alchemical remedy", 20, 1 ],
-					[ "[longship](equipment/misc/longship)", "transport, sea", 10000, [ 	0, 	null ] ],
-					[ "[longship (travel, per mile)](equipment/misc/longship_travel,_per_mile)", "transport, sea", 0.05, [ 	0, 	null ] ],
+					[ "[longship](equipment/misc/longship)", "transport, sea", 10000, [ -100, "N/A" ] ],
+					[ "[longship (travel, per mile)](equipment/misc/longship_travel,_per_mile)", "transport, sea", 0.05, [ -100, "N/A" ] ],
 					[ "[lonoma eel](equipment/misc/lonoma_eel)", "food and drink", 1, 0.5 ],
 					[ "[loping ointment](equipment/misc/loping_ointment)", "alchemical remedy", 60, 1 ],
 					[ "[lore seeker package](equipment/misc/lore_seeker_package)", "kits", 1000, 44 ],
@@ -19349,7 +19177,7 @@
 					[ "[monster hunter's kit (fey)](equipment/misc/monster_hunter's_kit_fey)", "kits", 224, 15.5 ],
 					[ "[monster hunter's kit (ooze)](equipment/misc/monster_hunter's_kit_ooze)", "kits", 232, 17 ],
 					[ "[monster hunter's kit (regular)](equipment/misc/monster_hunter's_kit_regular)", "kits", 202, 15 ],
-					[ "[monster mask](equipment/misc/monster_mask)", "clothing", [ 	5, 	"5 gp - 10 gp" ], 1 ],
+					[ "[monster mask](equipment/misc/monster_mask)", "clothing", [ 5, "5 gp - 10 gp" ], 1 ],
 					[ "[moonrod](equipment/misc/moonrod)", "alchemical tool", 10, 1 ],
 					[ "[mug/tankard](equipment/misc/mug_tankard)", "adventuring gear", 0.02, 1 ],
 					[ "[muscle grout](equipment/misc/muscle_grout)", "alchemical remedy", 100, 1 ],
@@ -19409,7 +19237,7 @@
 					[ "[otter](equipment/misc/otter)", "mount or pet", 20, 10 ],
 					[ "[out-of-towner's kit](equipment/misc/out-of-towner's_kit)", "kits", 55, 1 ],
 					[ "[owl (verduran)](equipment/misc/owl_verduran)", "mount or pet", 20, 3 ],
-					[ "[owl (common)](equipment/misc/owl_common)", "mount or pet", 20, [ 	1, 	"1 - 3 lbs." ] ],
+					[ "[owl (common)](equipment/misc/owl_common)", "mount or pet", 20, [ 1, "1 - 3 lbs." ] ],
 					[ "[pachycephalosaurus](equipment/misc/pachycephalosaurus)", "mount or pet", 1000, 0 ],
 					[ "[pack animal (musk ox)](equipment/misc/pack_animal_musk_ox)", "mount or pet", 24, 0 ],
 					[ "[pack animal (ox)](equipment/misc/pack_animal_ox)", "mount or pet", 15, 2000 ],
@@ -19460,7 +19288,7 @@
 					[ "[tear-away pickpocket's outfit](equipment/misc/tear-away_pickpocket's_outfit)", "clothing", 10, 3 ],
 					[ "[piecemeal weapon](equipment/misc/piecemeal_weapon)", "adventuring gear", 50, 10 ],
 					[ "[pig grease](equipment/misc/pig_grease)", "tool", 0.1, 1 ],
-					[ "[pig](equipment/misc/pig)", "mount or pet", [ 	3, 	"3 gp - 10 gp" ], [ 	100, 	"100 - 300 lbs." ] ],
+					[ "[pig](equipment/misc/pig)", "mount or pet", [ 3, "3 gp - 10 gp" ], [ 100, "100 - 300 lbs." ] ],
 					[ "[pirate clothes (basic)](equipment/misc/pirate_clothes_basic)", "clothing", 0.1, 2 ],
 					[ "[pirate clothes (fancy)](equipment/misc/pirate_clothes_fancy)", "clothing", 30, 6 ],
 					[ "[pitcher](equipment/misc/pitcher)", "adventuring gear", 0.02, 5 ],
@@ -19534,7 +19362,7 @@
 					[ "[pump water canister](equipment/misc/pump_water_canister)", "adventuring gear", 75, 5 ],
 					[ "[purification pellet](equipment/misc/purification_pellet)", "alchemical remedy", 10, 0 ],
 					[ "[purity test](equipment/misc/purity_test)", "black market", 10, 2 ],
-					[ "[puzzle box](equipment/misc/puzzle_box)", "entertainment", [ 	1, 	"1 gp - 1,000 gp" ], 1 ],
+					[ "[puzzle box](equipment/misc/puzzle_box)", "entertainment", [ 1, "1 gp - 1,000 gp" ], 1 ],
 					[ "[puzzle heel](equipment/misc/puzzle_heel)", "adventuring gear", -1, 0 ],
 					[ "[pyramid buster's kit](equipment/misc/pyramid_buster's_kit)", "kits", 310, 8 ],
 					[ "[pyrography kit](equipment/misc/pyrography_kit)", "kits", 1, 2 ],
@@ -19549,8 +19377,8 @@
 					[ "[rabbit](equipment/misc/rabbit)", "mount or pet", 2, 3 ],
 					[ "[raccoon](equipment/misc/raccoon)", "mount or pet", 5, 7 ],
 					[ "[rack](equipment/misc/rack)", "torture implements", 300, 500 ],
-					[ "[raft](equipment/misc/raft)", "transport, sea", 0, [ 	0, 	null ] ],
-					[ "[raft (travel, per mile)](equipment/misc/raft_travel,_per_mile)", "transport, sea", 0.01, [ 	0, 	null ] ],
+					[ "[raft](equipment/misc/raft)", "transport, sea", 0, [ -100, "N/A" ] ],
+					[ "[raft (travel, per mile)](equipment/misc/raft_travel,_per_mile)", "transport, sea", 0.01, [ -100, "N/A" ] ],
 					[ "[rager's aid](equipment/misc/rager's_aid)", "alchemical remedy", 25, 0 ],
 					[ "[rake's friend](equipment/misc/rake's_friend)", "alchemical tool", 120, 0 ],
 					[ "[ram (combat-trained)](equipment/misc/ram_combat-trained)", "mount or pet", 50, 0 ],
@@ -19595,8 +19423,8 @@
 					[ "[rope recaller](equipment/misc/rope_recaller)", "adventuring gear", 250, 30 ],
 					[ "[roperunner](equipment/misc/roperunner)", "tool", 50, 3 ],
 					[ "[rounders gear](equipment/misc/rounders_gear)", "entertainment", 0.1, 0.5 ],
-					[ "[rowboat](equipment/misc/rowboat)", "transport, sea", 50, [ 	0, 	null ] ],
-					[ "[rowboat (travel, per mile)](equipment/misc/rowboat_travel,_per_mile)", "transport, sea", 0.02, [ 	0, 	null ] ],
+					[ "[rowboat](equipment/misc/rowboat)", "transport, sea", 50, [ -100, "N/A" ] ],
+					[ "[rowboat (travel, per mile)](equipment/misc/rowboat_travel,_per_mile)", "transport, sea", 0.02, [ -100, "N/A" ] ],
 					[ "[royal outfit](equipment/misc/royal_outfit)", "clothing", 200, 15 ],
 					[ "[tear-away royal outfit](equipment/misc/tear-away_royal_outfit)", "clothing", 205, 15 ],
 					[ "[rumboozle (cup)](equipment/misc/rumboozle_cup)", "food and drink", 0.1, 0.5 ],
@@ -19610,8 +19438,8 @@
 					[ "[saddle (pack)](equipment/misc/saddle_pack)", "animal gear", 5, 15 ],
 					[ "[saddle (riding)](equipment/misc/saddle_riding)", "animal gear", 10, 25 ],
 					[ "[saddlebags](equipment/misc/saddlebags)", "animal gear", 4, 8 ],
-					[ "[sailing ship](equipment/misc/sailing_ship)", "transport, sea", 10000, [ 	0, 	null ] ],
-					[ "[sailing ship (travel, per mile)](equipment/misc/sailing_ship_travel,_per_mile)", "transport, sea", 0.2, [ 	0, 	null ] ],
+					[ "[sailing ship](equipment/misc/sailing_ship)", "transport, sea", 10000, [ -100, "N/A" ] ],
+					[ "[sailing ship (travel, per mile)](equipment/misc/sailing_ship_travel,_per_mile)", "transport, sea", 0.2, [ -100, "N/A" ] ],
 					[ "[salt tablets (10)](equipment/misc/salt_tablets_10)", "alchemical remedy", 1, 0 ],
 					[ "[samsaran life wheel](equipment/misc/samsaran_life_wheel)", "tool", 25, 0.5 ],
 					[ "[sanctified rings (pair)](equipment/misc/sanctified_rings_pair)", "channel foci", 5, 0 ],
@@ -19660,13 +19488,13 @@
 					[ "[shears (adamantine)](equipment/misc/shears_adamantine)", "tool", 3003, 8 ],
 					[ "[shears (lopping)](equipment/misc/shears_lopping)", "tool", 3, 8 ],
 					[ "[shears (small)](equipment/misc/shears_small)", "tool", 0.5, 0.5 ],
-					[ "[sheep](equipment/misc/sheep)", "mount or pet", [ 	2, 	"2 gp - 20 gp" ], 150 ],
+					[ "[sheep](equipment/misc/sheep)", "mount or pet", [ 2, "2 gp - 20 gp" ], 150 ],
 					[ "[sherrif's whistle](equipment/misc/sherrif's_whistle)", "adventuring gear", 1, 0 ],
 					[ "[shield sconce](equipment/misc/shield_sconce)", "adventuring gear", 1, 0.5 ],
 					[ "[shinobi shozoku](equipment/misc/shinobi_shozoku)", "clothing", 50, 2 ],
-					[ "[ship's boat](equipment/misc/ship's_boat)", "transport, sea", 500, [ 	0, 	null ] ],
-					[ "[ship's boat (travel, per mile)](equipment/misc/ship's_boat_travel,_per_mile)", "transport, sea", 0.02, [ 	0, 	null ] ],
-					[ "[ship's passage](equipment/misc/ship's_passage)", "transport, sea", 0.1, [ 	0, 	null ] ],
+					[ "[ship's boat](equipment/misc/ship's_boat)", "transport, sea", 500, [ -100, "N/A" ] ],
+					[ "[ship's boat (travel, per mile)](equipment/misc/ship's_boat_travel,_per_mile)", "transport, sea", 0.02, [ -100, "N/A" ] ],
+					[ "[ship's passage](equipment/misc/ship's_passage)", "transport, sea", 0.1, [ -100, "N/A" ] ],
 					[ "[shoddy item](equipment/misc/shoddy_item)", "adventuring gear", -1, -1 ],
 					[ "[shovel (common)](equipment/misc/shovel_common)", "adventuring gear", 2, 8 ],
 					[ "[shovel (folding)](equipment/misc/shovel_folding)", "adventuring gear", 10, 12 ],
@@ -19702,12 +19530,12 @@
 					[ "[slave (specialized)](equipment/misc/slave_specialized)", "black market", 500, 160 ],
 					[ "[slave](equipment/misc/slave)", "black market", 75, 175 ],
 					[ "[slayer's kit](equipment/misc/slayer's_kit)", "kits", 22, 43.5 ],
-					[ "[sled](equipment/misc/sled)", "transport, land", 20, [ 	0, 	null ] ],
-					[ "[sled (travel, per mile)](equipment/misc/sled_travel,_per_mile)", "transport, land", 0, [ 	0, 	null ] ],
+					[ "[sled](equipment/misc/sled)", "transport, land", 20, [ -100, "N/A" ] ],
+					[ "[sled (travel, per mile)](equipment/misc/sled_travel,_per_mile)", "transport, land", 0, [ -100, "N/A" ] ],
 					[ "[sledge](equipment/misc/sledge)", "adventuring gear", 1, 10 ],
 					[ "[sleeve holster](equipment/misc/sleeve_holster)", "tool", 100, 1 ],
-					[ "[sleigh](equipment/misc/sleigh)", "transport, land", 100, [ 	0, 	null ] ],
-					[ "[sleigh (travel, per mile)](equipment/misc/sleigh_travel,_per_mile)", "transport, land", 0.02, [ 	0, 	null ] ],
+					[ "[sleigh](equipment/misc/sleigh)", "transport, land", 100, [ -100, "N/A" ] ],
+					[ "[sleigh (travel, per mile)](equipment/misc/sleigh_travel,_per_mile)", "transport, land", 0.02, [ -100, "N/A" ] ],
 					[ "[slow-heart concoction](equipment/misc/slow-heart_concoction)", "alchemical concoction", 50, 0 ],
 					[ "[smelling salts](equipment/misc/smelling_salts)", "alchemical remedy", 25, 0 ],
 					[ "[smoke bomb](equipment/misc/smoke_bomb)", "alchemical tool", 100, 1 ],
@@ -19776,7 +19604,7 @@
 					[ "[tear-away squire's outfit](equipment/misc/tear-away_squire's_outfit)", "clothing", 10, 8 ],
 					[ "[squirrel (common)](equipment/misc/squirrel_common)", "mount or pet", 1, 2 ],
 					[ "[squirrel (flying)](equipment/misc/squirrel_flying)", "mount or pet", 20, 1 ],
-					[ "[stabling (per day)](equipment/misc/stabling_per_day)", "animal gear", 0.5, [ 	0, 	null ] ],
+					[ "[stabling (per day)](equipment/misc/stabling_per_day)", "animal gear", 0.5, [ -100, "N/A" ] ],
 					[ "[stagnant fog sack](equipment/misc/stagnant_fog_sack)", "alchemical tool", 80, 1 ],
 					[ "[stalker's oil](equipment/misc/stalker's_oil)", "alchemical tool", 50, 0 ],
 					[ "[star charts](equipment/misc/star_charts)", "tool", 200, 0.5 ],
@@ -19961,18 +19789,18 @@
 					[ "[wading boots](equipment/misc/wading_boots)", "clothing", 50, 2 ],
 					[ "[waffle iron (common)](equipment/misc/waffle_iron_common)", "adventuring gear", 1, 5 ],
 					[ "[waffle iron (mithral)](equipment/misc/waffle_iron_mithral)", "adventuring gear", 2501, 2.5 ],
-					[ "[wagon (heavy)](equipment/misc/wagon_heavy)", "transport, land", 100, [ 	0, 	null ] ],
-					[ "[wagon (heavy) (travel, per mile)](equipment/misc/wagon_heavy_travel,_per_mile)", "transport, land", 0.03, [ 	0, 	null ] ],
-					[ "[wagon (light)](equipment/misc/wagon_light)", "transport, land", 50, [ 	0, 	null ] ],
-					[ "[wagon (medium)](equipment/misc/wagon_medium)", "transport, land", 75, [ 	0, 	null ] ],
+					[ "[wagon (heavy)](equipment/misc/wagon_heavy)", "transport, land", 100, [ -100, "N/A" ] ],
+					[ "[wagon (heavy) (travel, per mile)](equipment/misc/wagon_heavy_travel,_per_mile)", "transport, land", 0.03, [ -100, "N/A" ] ],
+					[ "[wagon (light)](equipment/misc/wagon_light)", "transport, land", 50, [ -100, "N/A" ] ],
+					[ "[wagon (medium)](equipment/misc/wagon_medium)", "transport, land", 75, [ -100, "N/A" ] ],
 					[ "[wall hook](equipment/misc/wall_hook)", "adventuring gear", 0.2, 0.5 ],
 					[ "[wandermeal (per day)](equipment/misc/wandermeal_per_day)", "food and drink", 0.01, 0.5 ],
 					[ "[war spirit pouch](equipment/misc/war_spirit_pouch)", "alchemical remedy", 50, 0 ],
 					[ "[warding ash](equipment/misc/warding_ash)", "alchemical tool", 100, 0.5 ],
 					[ "[warka jar](equipment/misc/warka_jar)", "adventuring gear", 2, 0.5 ],
 					[ "[warpriest's kit](equipment/misc/warpriest's_kit)", "kits", 16, 31 ],
-					[ "[warship](equipment/misc/warship)", "transport, sea", 25000, [ 	0, 	null ] ],
-					[ "[warship (travel, per mile)](equipment/misc/warship_travel,_per_mile)", "transport, sea", 0.2, [ 	0, 	null ] ],
+					[ "[warship](equipment/misc/warship)", "transport, sea", 25000, [ -100, "N/A" ] ],
+					[ "[warship (travel, per mile)](equipment/misc/warship_travel,_per_mile)", "transport, sea", 0.2, [ -100, "N/A" ] ],
 					[ "[wasp metheglin](equipment/misc/wasp_metheglin)", "food and drink", 400, 2 ],
 					[ "[waspguts](equipment/misc/waspguts)", "alchemical tool", 100, 2 ],
 					[ "[waster](equipment/misc/waster)", "tool", 1, -1 ],
@@ -20002,7 +19830,7 @@
 					[ "[whiskey (cup)](equipment/misc/whiskey_cup)", "food and drink", 0.1, 0.5 ],
 					[ "[whistle (signal)](equipment/misc/whistle_signal)", "adventuring gear", 0.8, 0 ],
 					[ "[whistle (silent)](equipment/misc/whistle_silent)", "adventuring gear", 0.9, 0 ],
-					[ "[wig](equipment/misc/wig)", "clothing", [ 	5, 	"5 gp - 500 gp" ], 0.5 ],
+					[ "[wig](equipment/misc/wig)", "clothing", [ 5, "5 gp - 500 gp" ], 0.5 ],
 					[ "[wild-blood concoction](equipment/misc/wild-blood_concoction)", "alchemical concoction", 100, 0 ],
 					[ "[wilderness wanderer package](equipment/misc/wilderness_wanderer_package)", "kits", 1000, 108.5 ],
 					[ "[wind chime](equipment/misc/wind_chime)", "adventuring gear", 1, 1 ],
@@ -20011,7 +19839,7 @@
 					[ "[wine (common, pitcher)](equipment/misc/wine_common,_pitcher)", "food and drink", 0.2, 6 ],
 					[ "[wine (fine, bottle)](equipment/misc/wine_fine,_bottle)", "food and drink", 10, 1.5 ],
 					[ "[wing cloak](equipment/misc/wing_cloak)", "clothing", 1200, 1 ],
-					[ "[wing hobble](equipment/misc/wing_hobble)", "adventuring gear", 75, [ 	1, 	"1 - 20 lbs." ] ],
+					[ "[wing hobble](equipment/misc/wing_hobble)", "adventuring gear", 75, [ 1, "1 - 20 lbs." ] ],
 					[ "[wing hooks](equipment/misc/wing_hooks)", "tool", 150, 2 ],
 					[ "[wing oil](equipment/misc/wing_oil)", "alchemical remedy", 1, 0 ],
 					[ "[wing sheaths](equipment/misc/wing_sheaths)", "adventuring gear", 10, 10 ],
@@ -20050,7 +19878,7 @@
 				"className": "simple"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_tech_armor": {
 		"title": "Technology - Armor",
@@ -20090,7 +19918,7 @@
 			{
 				"id": "tech armor",
 				"headers": [ "Name", "Armor Type", "Cost", "Armor/Shield Bonus", "Max Dex Bonus", "Armor Check Penalty", "Arcane Spell Failure Chance", "Speed (30 ft.)", "Speed (20 ft.)", "Weight", "Capacity", "Usage" ],
-				"types": [ null, null, "gps", "bonus", "bonus", "num", null, null, null, "lbs", "num", null ],
+				"types": [ null, null, "gp", "bonus", "bonus", "num", null, null, null, "lbs", "num", null ],
 				"data": [
 					[ "[chameleon suit](equipment/tech/armor/chameleon_suit)", [ 0, "light" ], 15000, 2, 6, 0, "10%", "30 ft.", "20 ft.", 5, 50, "1 charge/minute" ],
 					[ "[deep diving suit](equipment/tech/armor/deep_diving_suit)", [ 0, "light" ], 26000, 3, 5, -2, "30%", "30 ft.", "20 ft.", 20, 25, "1 charge/hour" ],
@@ -20115,11 +19943,11 @@
 					[ "[spacesuit](equipment/tech/armor/spacesuit)", [ 2, "heavy" ], 90000, 7, 0, -8, "50%", "20 ft.", "15 ft.", 35, 25, "1 charge/hour" ],
 					[ "[hard light shield](equipment/tech/armor/hard_light_shield)", [ 3, "shield" ], 6400, 2, 0, 0, "10%", "30 ft.", "20 ft.", 1, 20, "1 charge/minute" ]
 				],
-				"initialColumns": 1,
+				"initialColumn": 1,
 				"className": "simple"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_tech_weapons": {
 		"title": "Technology - Weapons",
@@ -20217,7 +20045,7 @@
 				"className": "endcaps"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_tech_cybertech": {
 		"title": "Technology - Cybertech",
@@ -20294,7 +20122,7 @@
 				"className": "simple"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_tech_pharmaceuticals": {
 		"title": "Technology - Pharmaceuticals",
@@ -20341,7 +20169,7 @@
 				"className": "simple"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_tech_artifacts": {
 		"title": "Technology - Artifacts",
@@ -20391,14 +20219,14 @@
 					[ "[Powered armor](equipment/tech/artifact/powered_armor)", "armor", 50 ],
 					[ "[Psychic imprinter](equipment/tech/artifact/psychic_imprinter)", "misc", 10 ],
 					[ "[Rebirthing chamber](equipment/tech/artifact/rebirthing_chamber)", "misc", 1200 ],
-					[ "[Solar generator](equipment/tech/artifact/solar_generator)", "generator", null ]	,
+					[ "[Solar generator](equipment/tech/artifact/solar_generator)", "generator", null ],
 					[ "[Temporal accelerator](equipment/tech/artifact/temporal_accelerator)", "misc", 1 ]
 				],
 				"initialColumn": 0,
 				"className": "simple"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"equipment_tech_misc": {
 		"title": "Technology - Miscellaneous",
@@ -20575,7 +20403,7 @@
 				"className": "simple"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
+		"previous": [ ["Main", "main"], ["Equipment", "equipment"] ]
 	},
 	"magic": {
 		"title": "Magic Items",
@@ -20600,7 +20428,7 @@
 			"[View Miscellaneous Magic Items](magic_misc)  ",
 			"Includes: Altars, Construct Modifications, Elemental Augmentations, Favors, Fetishes, Fleshcrafting, Fungal grafts, Implants, Infused poisons, Necrografts, Necrotoxins, Oils, Plants, Relics, Piercings, Talismans, Tattoos, Thrones, and Magical Sets."
 		],
-		"_previous": [ ["Main", "main"] ]
+		"previous": [ ["Main", "main"] ]
 	},
 	"magic_enhancements": {
 		"title": "Magic - Enhancements",
@@ -20613,24 +20441,8 @@
 		"tables": [
 			{
 				"id": "all magic enhancements table",
-				"headers": [
-					"Enhancement",
-					"Base Price Modifier (bonus equivalent)",
-					"Base Price Modifier (raw)",
-					"Armor",
-					"Shield",
-					"Melee Weapon",
-					"Ranged Weapon"
-				],
-				"types": [
-					null,
-					"bonus",
-					"gp+",
-					null,
-					null,
-					null,
-					null
-				],
+				"headers": [ "Enhancement", "Base Price Modifier (bonus equivalent)", "Base Price Modifier (raw)", "Armor", "Shield", "Melee Weapon", "Ranged Weapon" ],
+				"types": [ null, "bonus", "gp+", null, null, null, null ],
 				"data": [
 					[ "[Adamant](magic/enhancement/adamant)", 2, null, [0, "Yes"], [1, "No"], [1, "No"], [1, "No"] ],
 					[ "[Adaptive](magic/enhancement/adaptive)", null, 1000, [1, "No"], [1, "No"], [1, "No"], [0, "Yes"] ],
@@ -20970,7 +20782,7 @@
 				"className": "simple"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
+		"previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
 	},
 	"magic_misc": {
 		"title": "Miscellaneous Magic Items",
@@ -21324,16 +21136,8 @@
 		"tables": [
 			{
 				"id": "magic altars table",
-				"headers": [
-					"Altar",
-					"Price",
-					"Weight"
-				],
-				"types": [
-					null,
-					"gp",
-					"lbs"
-				],
+				"headers": [ "Altar", "Price", "Weight" ],
+				"types": [ null, "gp", "lbs" ],
 				"data": [
 					[ "[Altar of Abadar](magic/altar/altar_of_abadar)", 10000, 1000 ],
 					[ "[Altar of Asmodeus](magic/altar/altar_of_asmodeus)", 16000, 750 ],
@@ -21363,16 +21167,8 @@
 			},
 			{
 				"id": "demonic implants table",
-				"headers": [
-					"Implant",
-					"Price",
-					"Weight"
-				],
-				"types": [
-					null,
-					"gp",
-					"lbs"
-				],
+				"headers": [ "Implant", "Price", "Weight" ],
+				"types": [ null, "gp", "lbs" ],
 				"data": [
 					[ "[Baleful Eye](magic/implant/baleful_eye)", 7000, 1 ],
 					[ "[Brazen Hooves](magic/implant/brazen_hooves)", 15000, 4 ],
@@ -21391,18 +21187,8 @@
 			},
 			{
 				"id": "fleshcraftings table",
-				"headers": [
-					"Favor",
-					"Slot",
-					"Price",
-					"Elixir Price"
-				],
-				"types": [
-					null,
-					null,
-					"gp",
-					"gp"
-				],
+				"headers": [ "Favor", "Slot", "Price", "Elixir Price" ],
+				"types": [ null, null, "gp", "gp" ],
 				"data": [
 					[ "[Adhesive Slime](magic/fleshcrafting/adhesive_slime)", "none", null, 500 ],
 					[ "[Antennae](magic/fleshcrafting/antennae)", "eyes", 70000, 1250 ],
@@ -21427,16 +21213,8 @@
 			},
 			{
 				"id": "magical plants table",
-				"headers": [
-					"Plant",
-					"Price",
-					"Weight"
-				],
-				"types": [
-					null,
-					"gp",
-					"lbs"
-				],
+				"headers": [ "Plant", "Price", "Weight" ],
+				"types": [ null, "gp", "lbs" ],
 				"data": [
 					[ "[Acidic Lemon Tree](magic/plant/acidic_lemon_tree)", 12000, 500 ],
 					[ "[Altitude Fern](magic/plant/altitude_fern)", 12000, 50 ],
@@ -21465,14 +21243,8 @@
 			},
 			{
 				"id": "magic tattoos table",
-				"headers": [
-					"Tattoo",
-					"Cost"
-				],
-				"types": [
-					null,
-					"gp"
-				],
+				"headers": [ "Tattoo", "Cost" ],
+				"types": [ null, "gp" ],
 				"data": [
 					[ "[Animal Totem Tattoo](magic/tattoo/animal_totem_tattoo)", 12000 ],
 					[ "[Caster's Tattoo (Greater)](magic/tattoo/caster's_tattoo_greater)", 48000 ],
@@ -21497,16 +21269,8 @@
 			},
 			{
 				"id": "construct mods table",
-				"headers": [
-					"Construct Mod",
-					"Type",
-					"Cost"
-				],
-				"types": [
-					null,
-					null,
-					"gp"
-				],
+				"headers": [ "Construct Mod", "Type", "Cost" ],
+				"types": [ null, null, "gp" ],
 				"data": [
 					[ "[Ability Score Increase](magic/artifact/ability_score_increase)", "Basic", 5000 ],
 					[ "[Armor Modification](magic/artifact/armor_modification)", "Basic", null ],
@@ -21542,7 +21306,7 @@
 				"className": "simple"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
+		"previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
 	},
 	"magic_armor": {
 		"title": "Magic Armor",
@@ -21551,20 +21315,8 @@
 		"tables": [
 			{
 				"id": "magic armor table",
-				"headers": [
-					"Armor",
-					"Slot",
-					"Cost",
-					"Weight",
-					"Cursed?"
-				],
-				"types": [
-					null,
-					null,
-					"gp",
-					"lbs",
-					null
-				],
+				"headers": [ "Armor", "Slot", "Cost", "Weight", "Cursed?" ],
+				"types": [ null, null, "gp", "lbs", null ],
 				"data": [
 					[ "[Mithral Shirt](magic/armor/mithral_shirt)", "armor", 1100, 10, [ 1, "No" ] ],
 					[ "[Mistmail](magic/armor/mistmail)", "armor", 2250, 25, [ 1, "No" ] ],
@@ -21814,7 +21566,7 @@
 				"className": "simple"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
+		"previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
 	},
 	"magic_weapons": {
 		"title": "Magic Weapons",
@@ -21823,20 +21575,8 @@
 		"tables": [
 			{
 				"id": "magic weapon table",
-				"headers": [
-					"Weapon",
-					"Cost",
-					"Weight",
-					"Slot",
-					"Cursed?"
-				],
-				"types": [
-					null,
-					"gp",
-					"lbs",
-					null,
-					null
-				],
+				"headers": [ "Weapon", "Cost", "Weight", "Slot", "Cursed?" ],
+				"types": [ null, "gp", "lbs", null, null ],
 				"data": [
 					[ "[Darkness Arrow](magic/weapon/darkness_arrow)", 80, 0, null, [ 1, "No" ] ],
 					[ "[Vine Arrow](magic/weapon/vine_arrow)", 80, 0, null, [ 1, "No" ] ],
@@ -22338,7 +22078,7 @@
 				"className": "simple"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
+		"previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
 	},
 	"magic_rings": {
 		"title": "Magic Rings",
@@ -22347,18 +22087,8 @@
 		"tables": [
 			{
 				"id": "magic rings table",
-				"headers": [
-					"Ring",
-					"Cost",
-					"Weight",
-					"Cursed?"
-				],
-				"types": [
-					null,
-					"gp",
-					"lbs",
-					null
-				],
+				"headers": [ "Ring", "Cost", "Weight", "Cursed?" ],
+				"types": [ null, "gp", "lbs", null ],
 				"data": [
 					[ "[Dungeon Ring (prisoner's)](magic/ring/dungeon_ring_prisoner's)", 250, 0, [ 1, "No" ] ],
 					[ "[Ironbound Ring (Minion)](magic/ring/ironbound_ring_minion)", 500, 0, [ 1, "No" ] ],
@@ -22587,7 +22317,7 @@
 				"className": "simple"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
+		"previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
 	},
 	"magic_rods": {
 		"title": "Magic Rods",
@@ -22596,18 +22326,8 @@
 		"tables": [
 			{
 				"id": "magic rods table",
-				"headers": [
-					"Rod",
-					"Cost",
-					"Weight",
-					"Cursed?"
-				],
-				"types": [
-					null,
-					"gp",
-					"lbs",
-					null
-				],
+				"headers": [ "Rod", "Cost", "Weight", "Cursed?" ],
+				"types": [ null, "gp", "lbs", null ],
 				"data": [
 					[ "[Rod of Metamagic, Eclipsed (lesser)](magic/rod/rod_of_metamagic,_eclipsed_lesser)", 1500, 5, [ 1, "No" ] ],
 					[ "[Rod of Metamagic, Merciful (lesser)](magic/rod/rod_of_metamagic,_merciful_lesser)", 1500, 5, [ 1, "No" ] ],
@@ -22858,7 +22578,7 @@
 				"className": "simple"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
+		"previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
 	},
 	"magic_staves": {
 		"title": "Magic Staves",
@@ -22867,18 +22587,8 @@
 		"tables": [
 			{
 				"id": "magic staves table",
-				"headers": [
-					"Staff",
-					"Cost",
-					"Weight",
-					"Cursed?"
-				],
-				"types": [
-					null,
-					"gp",
-					"lbs",
-					null
-				],
+				"headers": [ "Staff", "Cost", "Weight", "Cursed?" ],
+				"types": [ null, "gp", "lbs", null ],
 				"data": [
 					[ "[Staff of Blessed Relief](magic/staff/staff_of_blessed_relief)", 7200, 5, [ 1, "No" ] ],
 					[ "[Staff of Minor Arcana](magic/staff/staff_of_minor_arcana)", 8000, 5, [ 1, "No" ] ],
@@ -22991,7 +22701,7 @@
 				"className": "simple"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
+		"previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
 	},
 	"magic_wondrous": {
 		"title": "Wondrous Items",
@@ -23000,20 +22710,8 @@
 		"tables": [
 			{
 				"id": "wondrous items table",
-				"headers": [
-					"Item",
-					"Cost",
-					"Weight",
-					"Slot",
-					"Cursed?"
-				],
-				"types": [
-					null,
-					"gp",
-					"lbs",
-					null,
-					null
-				],
+				"headers": [ "Item", "Cost", "Weight", "Slot", "Cursed?" ],
+				"types": [ null, "gp", "lbs", null, null ],
 				"data": [
 					[ "[Hex Nail](magic/wondrous/hex_nail)", 20, 0, "none", [ 1, "No" ] ],
 					[ "[Riffle Scroll (Cantrip)](magic/wondrous/riffle_scroll_cantrip)", 25, 1, "none", [ 1, "No" ] ],
@@ -25587,7 +25285,7 @@
 				"className": "simple"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
+		"previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
 	},
 	"magic_artifacts": {
 		"title": "Artifacts",
@@ -25596,20 +25294,8 @@
 		"tables": [
 			{
 				"id": "magic artifact table",
-				"headers": [
-					"Artifact",
-					"Weight",
-					"Slot",
-					"Intelligent?",
-					"Cursed?"
-				],
-				"types": [
-					null,
-					"lbs",
-					null,
-					null,
-					null
-				],
+				"headers": [ "Artifact", "Weight", "Slot", "Intelligent?", "Cursed?" ],
+				"types": [ null, "lbs", null, null, null ],
 				"data": [
 					[ "[Abyssal Runestone](magic/artifact/abyssal_runestone)", 1, null, [ 1, "No" ], [ 1, "No" ] ],
 					[ "[Aegis](magic/artifact/aegis)", 15, "shield", [ 1, "No" ], [ 1, "No" ] ],
@@ -25945,6 +25631,6 @@
 				"className": "simple"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
+		"previous": [ ["Main", "main"], ["Magic Items", "magic"] ]
 	}
 }

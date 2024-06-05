@@ -33,5 +33,7 @@ export interface Table {
 export interface ItemProps {
 	title: string,
 	description: string[],
-	tables?: Table[]
+	tables?: Table[],
+	sources?: string[]
+	previous?: [string, string][]
 }

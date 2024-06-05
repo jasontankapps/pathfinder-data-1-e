@@ -79,7 +79,7 @@
 			"",
 			"[Occult Rituals](occult_rituals)"
 		],
-		"_previous": [ ["Main", "main"] ]
+		"previous": [ ["Main", "main"] ]
 	},
 	"spells_all": {
 		"title": "All Spells",
@@ -88,18 +88,8 @@
 		"tables": [
 			{
 				"id": "all spells table",
-				"headers": [
-					"Spell",
-					"Level(s)",
-					"School",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level(s)", "School", "Description" ],
+				"types": [ null, "num", null, 0 ],
 				"data": [
 					[ "[Abadar's Truthtelling](spell/abadar's_truthtelling)", 1, "enchantment", "Force the target to speak the truth." ],
 					[ "[Abeyance](spell/abeyance)", 2, "abjuration", "Suppress the effects of a single curse." ],
@@ -3130,7 +3120,7 @@
 				"className": "endcaps"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_cleric": {
 		"title": "All Cleric Spells",
@@ -3139,22 +3129,8 @@
 		"tables": [
 			{
 				"id": "cleric spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -4293,7 +4269,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_inquisitor": {
 		"title": "All Inquisitor Spells",
@@ -4302,22 +4278,8 @@
 		"tables": [
 			{
 				"id": "inquisitor spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -4979,7 +4941,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_oracle": {
 		"title": "All Oracle Spells",
@@ -4988,22 +4950,8 @@
 		"tables": [
 			{
 				"id": "oracle spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -6136,7 +6084,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_paladin": {
 		"title": "All Paladin Spells",
@@ -6145,22 +6093,8 @@
 		"tables": [
 			{
 				"id": "paladin spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -6467,7 +6401,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_warpriest": {
 		"title": "All Warpriest Spells",
@@ -6476,22 +6410,8 @@
 		"tables": [
 			{
 				"id": "warpriest spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -7478,7 +7398,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_alchemist": {
 		"title": "All Alchemist Spells",
@@ -7487,22 +7407,8 @@
 		"tables": [
 			{
 				"id": "alchemist spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -7917,7 +7823,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_arcanist": {
 		"title": "All Arcanist Spells",
@@ -7926,22 +7832,8 @@
 		"tables": [
 			{
 				"id": "arcanist spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -9834,7 +9726,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_bard": {
 		"title": "All Bard Spells",
@@ -9843,22 +9735,8 @@
 		"tables": [
 			{
 				"id": "bard spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -10730,7 +10608,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_investigator": {
 		"title": "All Investigator Spells",
@@ -10739,22 +10617,8 @@
 		"tables": [
 			{
 				"id": "investigator spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -11163,7 +11027,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_magus": {
 		"title": "All Magus Spells",
@@ -11172,22 +11036,8 @@
 		"tables": [
 			{
 				"id": "magus spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -11677,7 +11527,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_occultist": {
 		"title": "All Occultist Spells",
@@ -11686,22 +11536,8 @@
 		"tables": [
 			{
 				"id": "occultist spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -12377,7 +12213,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_psychic": {
 		"title": "All Psychic Spells",
@@ -12386,22 +12222,8 @@
 		"tables": [
 			{
 				"id": "psychic spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -13505,7 +13327,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_skald": {
 		"title": "All Skald Spells",
@@ -13514,22 +13336,8 @@
 		"tables": [
 			{
 				"id": "skald spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -14385,7 +14193,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_sorcerer": {
 		"title": "All Sorcerer Spells",
@@ -14394,22 +14202,8 @@
 		"tables": [
 			{
 				"id": "sorcerer spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -16297,7 +16091,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_wizard": {
 		"title": "All Wizard Spells",
@@ -16306,22 +16100,8 @@
 		"tables": [
 			{
 				"id": "wizard spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -18221,7 +18001,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_bloodrager": {
 		"title": "All Bloodrager Spells",
@@ -18230,22 +18010,8 @@
 		"tables": [
 			{
 				"id": "bloodrager spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -18589,7 +18355,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_summoner": {
 		"title": "All Summoner Spells",
@@ -18598,22 +18364,8 @@
 		"tables": [
 			{
 				"id": "summoner spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -19033,7 +18785,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_summoner_uc": {
 		"title": "All Unchained Summoner Spells",
@@ -19042,22 +18794,8 @@
 		"tables": [
 			{
 				"id": "summoner_uc spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -19426,7 +19164,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_druid": {
 		"title": "All Druid Spells",
@@ -19435,22 +19173,8 @@
 		"tables": [
 			{
 				"id": "druid spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -20247,7 +19971,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_hunter": {
 		"title": "All Hunter Spells",
@@ -20256,22 +19980,8 @@
 		"tables": [
 			{
 				"id": "hunter spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -21085,7 +20795,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_redmantisassassin": {
 		"title": "All Red Mantis Assassin Spells",
@@ -21094,22 +20804,8 @@
 		"tables": [
 			{
 				"id": "redmantisassassin spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -21389,7 +21085,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_witch": {
 		"title": "All Witch Spells",
@@ -21398,22 +21094,8 @@
 		"tables": [
 			{
 				"id": "witch spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -22610,7 +22292,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_sahirafiyun": {
 		"title": "All Sahir-Afiyun Spells",
@@ -22619,22 +22301,8 @@
 		"tables": [
 			{
 				"id": "sahirafiyun spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -22662,7 +22330,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_medium": {
 		"title": "All Medium Spells",
@@ -22671,22 +22339,8 @@
 		"tables": [
 			{
 				"id": "medium spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -23072,7 +22726,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_mesmerist": {
 		"title": "All Mesmerist Spells",
@@ -23081,22 +22735,8 @@
 		"tables": [
 			{
 				"id": "mesmerist spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -23654,7 +23294,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_spiritualist": {
 		"title": "All Spiritualist Spells",
@@ -23663,22 +23303,8 @@
 		"tables": [
 			{
 				"id": "spiritualist spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -24092,7 +23718,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_ranger": {
 		"title": "All Ranger Spells",
@@ -24101,22 +23727,8 @@
 		"tables": [
 			{
 				"id": "ranger spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -24512,7 +24124,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_antipaladin": {
 		"title": "All Antipaladin Spells",
@@ -24521,22 +24133,8 @@
 		"tables": [
 			{
 				"id": "antipaladin spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -24822,7 +24420,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_shaman": {
 		"title": "All Shaman Spells",
@@ -24831,22 +24429,8 @@
 		"tables": [
 			{
 				"id": "shaman spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -25519,7 +25103,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_adept": {
 		"title": "All Adept Spells",
@@ -25528,22 +25112,8 @@
 		"tables": [
 			{
 				"id": "adept spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -25626,7 +25196,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_mythic": {
 		"title": "All Mythic Spells",
@@ -25771,7 +25341,7 @@
 				"className": "endcaps"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_mythic_arcane": {
 		"title": "Arcane Mythic Spells",
@@ -25816,22 +25386,8 @@
 		"tables": [
 			{
 				"id": "arcanist sorcerer wizards mythic spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -25877,7 +25433,7 @@
 					[ "[Stinking Cloud](spell/stinking_cloud)", 3, "conjuration", "creation", "poison", "Nauseating vapors, 1 round/level." ],
 					[ "[Strangling Hair](spell/strangling_hair)", 3, "transmutation", null, null, "Your hair animates and grapples." ],
 					[ "[Touch Injection](spell/touch_injection)", 3, "transmutation", null, null, "You can deliver an infusion, elixir, poison, or potion as a touch attack." ],
-					[ "[Beast Shape II](spell/beast_shape_2)", 4, "transmutation", "You take the form and some of the powers of a Tiny or Large animal." ],
+					[ "[Beast Shape II](spell/beast_shape_2)", 4, "transmutation", "polymorph", null, "You take the form and some of the powers of a Tiny or Large animal." ],
 					[ "[Contagion](spell/contagion)", 4, "necromancy", null, "disease, evil", "Infects subject with chosen disease." ],
 					[ "[Dragon's Breath](spell/dragon's_breath)", 4, "evocation", null, "acid, cold, electricity, fire", "Gives you a dragon's breath weapon." ],
 					[ "[Elemental Body I](spell/elemental_body_i)", 4, "transmutation", "polymorph", null, "Turns you into a Small elemental." ],
@@ -25886,30 +25442,30 @@
 					[ "[Named Bullet](spell/named_bullet)", 4, "divination", null, null, "Imbues ammunition with accuracy against a specific creature type." ],
 					[ "[Phantasmal Killer](spell/phantasmal_killer)", 4, "illusion", "phantasm", "emotion, fear, mind-affecting", "Fearsome illusion kills subject or deals 3d6 damage." ],
 					[ "[Stone Shape](spell/stone_shape)", 4, "transmutation", null, "earth", "Sculpts stone into any shape." ],
-					[ "[Beast Shape III](spell/beast_shape_3)", 5, "transmutation", "You take the form of a Diminutive or Huge animal, or Small or Medium magical beast." ],
+					[ "[Beast Shape III](spell/beast_shape_3)", 5, "transmutation", "polymorph", null, "You take the form of a Diminutive or Huge animal, or Small or Medium magical beast." ],
 					[ "[Damnation Stride](spell/damnation_stride)", 5, "conjuration", "teleportation", "fire", "As dimension door, except you leave behind a burst of flame." ],
 					[ "[Dominate Person](spell/dominate_person)", 5, "enchantment", "compulsion", "mind-affecting", "Controls humanoid telepathically." ],
-					[ "[Elemental Body II](spell/elemental_body_2)", 5, "transmutation", "Turns you into a Medium elemental." ],
+					[ "[Elemental Body II](spell/elemental_body_2)", 5, "transmutation", "polymorph", null, "Turns you into a Medium elemental." ],
 					[ "[Fire Snake](spell/fire_snake)", 5, "evocation", null, "fire", "Creates a serpentine path of fire 5 ft. long/level that deals 1d6 fire damage/level." ],
 					[ "[Sending](spell/sending)", 5, "evocation", null, null, "Delivers short message anywhere, instantly." ],
 					[ "[Telekinesis](spell/telekinesis)", 5, "transmutation", null, null, "Moves object, attacks creature, or hurls object or creature." ],
 					[ "[Wall of Stone](spell/wall_of_stone)", 5, "conjuration", "creation", "earth", "Creates a stone wall that can be shaped." ],
 					[ "[Antimagic Field](spell/antimagic_field)", 6, "abjuration", null, null, "Negates magic within 10 ft." ],
 					[ "[Battlemind Link](spell/battlemind_link)", 6, "divination", null, "mind-affecting", "You and an ally gain attack and AC bonuses." ],
-					[ "[Beast Shape IV](spell/beast_shape_4)", 6, "transmutation", "You take the form of a Diminutive to Huge animal or a Tiny to Large magical beast." ],
+					[ "[Beast Shape IV](spell/beast_shape_4)", 6, "transmutation", "polymorph", null, "You take the form of a Diminutive to Huge animal or a Tiny to Large magical beast." ],
 					[ "[Chain Lightning](spell/chain_lightning)", 6, "evocation", null, "electricity", "1d6/level damage and 1 secondary bolt/level." ],
 					[ "[Contingency](spell/contingency)", 6, "evocation", null, null, "Sets trigger condition for another spell." ],
 					[ "[Disintegrate](spell/disintegrate)", 6, "transmutation", null, null, "Reduces one creature or object to dust." ],
-					[ "[Elemental Body III](spell/elemental_body_3)", 6, "transmutation", "Turns you into a Large elemental." ],
-					[ "[Form of the Dragon I](spell/form_of_the_dragon_1)", 6, "transmutation", "Turns you into a Medium dragon." ],
+					[ "[Elemental Body III](spell/elemental_body_3)", 6, "transmutation", "polymorph", null, "Turns you into a Large elemental." ],
+					[ "[Form of the Dragon I](spell/form_of_the_dragon_1)", 6, "transmutation", "polymorph", null, "Turns you into a Medium dragon." ],
 					[ "[Globe of Invulnerability](spell/globe_of_invulnerability)", 6, "abjuration", null, null, "As lesser globe of invulnerability, plus 4th-level spell effects." ],
 					[ "[Mislead](spell/mislead)", 6, "illusion", "figment, glamer", null, "Turns you invisible and creates illusory double." ],
 					[ "[Move Earth](spell/move_earth)", 6, "transmutation", null, "earth", "Digs trenches and builds hills." ],
-					[ "[Elemental Body IV](spell/elemental_body_4)", 7, "transmutation", "Turns you into a Huge elemental." ],
+					[ "[Elemental Body IV](spell/elemental_body_4)", 7, "transmutation", "polymorph", null, "Turns you into a Huge elemental." ],
 					[ "[Finger of Death](spell/finger_of_death)", 7, "necromancy", null, "death", "Deals 10 damage/level to one subject." ],
-					[ "[Form of the Dragon II](spell/form_of_the_dragon_2)", 7, "transmutation", "Turns you into a Large dragon." ],
+					[ "[Form of the Dragon II](spell/form_of_the_dragon_2)", 7, "transmutation", "polymorph", null, "Turns you into a Large dragon." ],
 					[ "[Scouring Winds](spell/scouring_winds)", 7, "evocation", null, "air, earth", "Winds block vision and deal 3d6 damage per round." ],
-					[ "[Form of the Dragon III](spell/form_of_the_dragon_3)", 8, "transmutation", "Turns you into a Huge dragon." ],
+					[ "[Form of the Dragon III](spell/form_of_the_dragon_3)", 8, "transmutation", "polymorph", null, "Turns you into a Huge dragon." ],
 					[ "[Maze](spell/maze)", 8, "conjuration", "teleportation", null, "Traps subject in extradimensional maze." ],
 					[ "[Orb of the Void](spell/orb_of_the_void)", 8, "necromancy", null, null, "Sphere inflicts negative levels." ],
 					[ "[Polar Ray](spell/polar_ray)", 8, "evocation", null, "cold", "Ranged touch attack deals 1d6/level cold damage and 1d4 points of Dexterity drain." ],
@@ -25922,22 +25478,8 @@
 			},
 			{
 				"id": "alchemist mythic spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -25954,36 +25496,22 @@
 					[ "[Gaseous Form](spell/gaseous_form)", 3, "transmutation", null, null, "Subject becomes insubstantial and can fly slowly." ],
 					[ "[Haste](spell/haste)", 3, "transmutation", null, null, "One creature/level moves faster, receives +1 on attack rolls, AC, and Reflex saves." ],
 					[ "[Heroism](spell/heroism)", 3, "enchantment", "compulsion", "mind-affecting", "Gives +2 on attack rolls, saves, skill checks." ],
-					[ "[Beast Shape II](spell/beast_shape_2)", 4, "transmutation", "You take the form and some of the powers of a Tiny or Large animal." ],
+					[ "[Beast Shape II](spell/beast_shape_2)", 4, "transmutation", "polymorph", null, "You take the form and some of the powers of a Tiny or Large animal." ],
 					[ "[Dragon's Breath](spell/dragon's_breath)", 4, "evocation", null, "acid, cold, electricity, fire", "Gives you a dragon's breath weapon." ],
 					[ "[Elemental Body I](spell/elemental_body_i)", 4, "transmutation", "polymorph", null, "Turns you into a Small elemental." ],
-					[ "[Beast Shape III](spell/beast_shape_3)", 5, "transmutation", "You take the form of a Diminutive or Huge animal, or Small or Medium magical beast." ],
-					[ "[Elemental Body II](spell/elemental_body_2)", 5, "transmutation", "Turns you into a Medium elemental." ],
+					[ "[Beast Shape III](spell/beast_shape_3)", 5, "transmutation", "polymorph", null, "You take the form of a Diminutive or Huge animal, or Small or Medium magical beast." ],
+					[ "[Elemental Body II](spell/elemental_body_2)", 5, "transmutation", "polymorph", null, "Turns you into a Medium elemental." ],
 					[ "[Sending](spell/sending)", 5, "evocation", null, null, "Delivers short message anywhere, instantly." ],
-					[ "[Beast Shape IV](spell/beast_shape_4)", 6, "transmutation", "You take the form of a Diminutive to Huge animal or a Tiny to Large magical beast." ],
-					[ "[Elemental Body III](spell/elemental_body_3)", 6, "transmutation", "Turns you into a Large elemental." ],
-					[ "[Form of the Dragon I](spell/form_of_the_dragon_1)", 6, "transmutation", "Turns you into a Medium dragon." ],
+					[ "[Beast Shape IV](spell/beast_shape_4)", 6, "transmutation", "polymorph", null, "You take the form of a Diminutive to Huge animal or a Tiny to Large magical beast." ],
+					[ "[Elemental Body III](spell/elemental_body_3)", 6, "transmutation", "polymorph", null, "Turns you into a Large elemental." ],
+					[ "[Form of the Dragon I](spell/form_of_the_dragon_1)", 6, "transmutation", "polymorph", null, "Turns you into a Medium dragon." ],
 					[ "[Mislead](spell/mislead)", 6, "illusion", "figment, glamer", null, "Turns you invisible and creates illusory double." ]
 				]
 			},
 			{
 				"id": "investigator mythic spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -26000,36 +25528,22 @@
 					[ "[Gaseous Form](spell/gaseous_form)", 3, "transmutation", null, null, "Subject becomes insubstantial and can fly slowly." ],
 					[ "[Haste](spell/haste)", 3, "transmutation", null, null, "One creature/level moves faster, receives +1 on attack rolls, AC, and Reflex saves." ],
 					[ "[Heroism](spell/heroism)", 3, "enchantment", "compulsion", "mind-affecting", "Gives +2 on attack rolls, saves, skill checks." ],
-					[ "[Beast Shape II](spell/beast_shape_2)", 4, "transmutation", "You take the form and some of the powers of a Tiny or Large animal." ],
+					[ "[Beast Shape II](spell/beast_shape_2)", 4, "transmutation", "polymorph", null, "You take the form and some of the powers of a Tiny or Large animal." ],
 					[ "[Dragon's Breath](spell/dragon's_breath)", 4, "evocation", null, "acid, cold, electricity, fire", "Gives you a dragon's breath weapon." ],
 					[ "[Elemental Body I](spell/elemental_body_i)", 4, "transmutation", "polymorph", null, "Turns you into a Small elemental." ],
-					[ "[Beast Shape III](spell/beast_shape_3)", 5, "transmutation", "You take the form of a Diminutive or Huge animal, or Small or Medium magical beast." ],
-					[ "[Elemental Body II](spell/elemental_body_2)", 5, "transmutation", "Turns you into a Medium elemental." ],
+					[ "[Beast Shape III](spell/beast_shape_3)", 5, "transmutation", "polymorph", null, "You take the form of a Diminutive or Huge animal, or Small or Medium magical beast." ],
+					[ "[Elemental Body II](spell/elemental_body_2)", 5, "transmutation", "polymorph", null, "Turns you into a Medium elemental." ],
 					[ "[Sending](spell/sending)", 5, "evocation", null, null, "Delivers short message anywhere, instantly." ],
-					[ "[Beast Shape IV](spell/beast_shape_4)", 6, "transmutation", "You take the form of a Diminutive to Huge animal or a Tiny to Large magical beast." ],
-					[ "[Elemental Body III](spell/elemental_body_3)", 6, "transmutation", "Turns you into a Large elemental." ],
+					[ "[Beast Shape IV](spell/beast_shape_4)", 6, "transmutation", "polymorph", null, "You take the form of a Diminutive to Huge animal or a Tiny to Large magical beast." ],
+					[ "[Elemental Body III](spell/elemental_body_3)", 6, "transmutation", "polymorph", null, "Turns you into a Large elemental." ],
 					[ "[Form of the Dragon I](spell/form_of_the_dragon_i)", 6, "transmutation", "polymorph", null, "Turns you into a Medium dragon." ],
 					[ "[Mislead](spell/mislead)", 6, "illusion", "figment, glamer", null, "Turns you invisible and creates illusory double." ]
 				]
 			},
 			{
 				"id": "summoner mythic spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -26048,22 +25562,8 @@
 			},
 			{
 				"id": "summoner_uc mythic spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -26083,22 +25583,8 @@
 			},
 			{
 				"id": "bard and skald mythic spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -26126,22 +25612,8 @@
 			},
 			{
 				"id": "magus mythic spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -26162,43 +25634,29 @@
 					[ "[Hydraulic Torrent](spell/hydraulic_torrent)", 3, "evocation", null, "water", "Creates torrent of water that bull rushes any creature in its path." ],
 					[ "[Slow](spell/slow)", 3, "transmutation", null, null, "One subject/level takes only one action/round, -1 to AC, Reflex saves, and attack rolls." ],
 					[ "[Stinking Cloud](spell/stinking_cloud)", 3, "conjuration", "creation", "poison", "Nauseating vapors, 1 round/level." ],
-					[ "[Beast Shape II](spell/beast_shape_2)", 4, "transmutation", "You take the form and some of the powers of a Tiny or Large animal." ],
+					[ "[Beast Shape II](spell/beast_shape_2)", 4, "transmutation", "polymorph", null, "You take the form and some of the powers of a Tiny or Large animal." ],
 					[ "[Dragon's Breath](spell/dragon's_breath)", 4, "evocation", null, "acid, cold, electricity, fire", "Gives you a dragon's breath weapon." ],
 					[ "[Elemental Body I](spell/elemental_body_i)", 4, "transmutation", "polymorph", null, "Turns you into a Small elemental." ],
 					[ "[Ice Storm](spell/ice_storm)", 4, "evocation", null, "cold", "Hail deals 5d6 damage in cylinder 40 ft. across." ],
 					[ "[Phantasmal Killer](spell/phantasmal_killer)", 4, "illusion", "phantasm", "emotion, fear, mind-affecting", "Fearsome illusion kills subject or deals 3d6 damage." ],
 					[ "[Shield of the Dawnflower](spell/shield_of_the_dawnflower)", 4, "evocation", null, "fire, good, light", "Create a protective shield of sunlight." ],
-					[ "[Beast Shape III](spell/beast_shape_3)", 5, "transmutation", "You take the form of a Diminutive or Huge animal, or Small or Medium magical beast." ],
-					[ "[Elemental Body II](spell/elemental_body_2)", 5, "transmutation", "Turns you into a Medium elemental." ],
+					[ "[Beast Shape III](spell/beast_shape_3)", 5, "transmutation", "polymorph", null, "You take the form of a Diminutive or Huge animal, or Small or Medium magical beast." ],
+					[ "[Elemental Body II](spell/elemental_body_2)", 5, "transmutation", "polymorph", null, "Turns you into a Medium elemental." ],
 					[ "[Fire Snake](spell/fire_snake)", 5, "evocation", null, "fire", "Creates a serpentine path of fire 5 ft. long/level that deals 1d6 fire damage/level." ],
 					[ "[Telekinesis](spell/telekinesis)", 5, "transmutation", null, null, "Moves object, attacks creature, or hurls object or creature." ],
 					[ "[Wall of Stone](spell/wall_of_stone)", 5, "conjuration", "creation", "earth", "Creates a stone wall that can be shaped." ],
-					[ "[Beast Shape IV](spell/beast_shape_4)", 6, "transmutation", "You take the form of a Diminutive to Huge animal or a Tiny to Large magical beast." ],
+					[ "[Beast Shape IV](spell/beast_shape_4)", 6, "transmutation", "polymorph", null, "You take the form of a Diminutive to Huge animal or a Tiny to Large magical beast." ],
 					[ "[Chain Lightning](spell/chain_lightning)", 6, "evocation", null, "electricity", "1d6/level damage and 1 secondary bolt/level." ],
 					[ "[Disintegrate](spell/disintegrate)", 6, "transmutation", null, null, "Reduces one creature or object to dust." ],
-					[ "[Elemental Body III](spell/elemental_body_3)", 6, "transmutation", "Turns you into a Large elemental." ],
+					[ "[Elemental Body III](spell/elemental_body_3)", 6, "transmutation", "polymorph", null, "Turns you into a Large elemental." ],
 					[ "[Form of the Dragon I](spell/form_of_the_dragon_i)", 6, "transmutation", "polymorph", null, "Turns you into a Medium dragon." ],
 					[ "[Mislead](spell/mislead)", 6, "illusion", "figment, glamer", null, "Turns you invisible and creates illusory double." ]
 				]
 			},
 			{
 				"id": "witch mythic spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -26249,22 +25707,8 @@
 			},
 			{
 				"id": "bloodrager mythic spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -26291,7 +25735,7 @@
 					[ "[Hydraulic Torrent](spell/hydraulic_torrent)", 3, "evocation", null, "water", "Creates torrent of water that bull rushes any creature in its path." ],
 					[ "[Slow](spell/slow)", 3, "transmutation", null, null, "One subject/level takes only one action/round, -1 to AC, Reflex saves, and attack rolls." ],
 					[ "[Stinking Cloud](spell/stinking_cloud)", 3, "conjuration", "creation", "poison", "Nauseating vapors, 1 round/level." ],
-					[ "[Beast Shape II](spell/beast_shape_2)", 4, "transmutation", "You take the form and some of the powers of a Tiny or Large animal." ],
+					[ "[Beast Shape II](spell/beast_shape_2)", 4, "transmutation", "polymorph", null, "You take the form and some of the powers of a Tiny or Large animal." ],
 					[ "[Contagion](spell/contagion)", 4, "necromancy", null, "disease, evil", "Infects subject with chosen disease." ],
 					[ "[Dragon's Breath](spell/dragon's_breath)", 4, "evocation", null, "acid, cold, electricity, fire", "Gives you a dragon's breath weapon." ],
 					[ "[Elemental Body I](spell/elemental_body_i)", 4, "transmutation", "polymorph", null, "Turns you into a Small elemental." ],
@@ -26301,7 +25745,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_mythic_divine": {
 		"title": "Divine Mythic Spells",
@@ -26346,22 +25790,8 @@
 		"tables": [
 			{
 				"id": "cleric oracle mythic spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -26407,22 +25837,8 @@
 			},
 			{
 				"id": "druid mythic spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -26458,22 +25874,8 @@
 			},
 			{
 				"id": "ranger mythic spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -26489,22 +25891,8 @@
 			},
 			{
 				"id": "hunter mythic spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -26534,22 +25922,8 @@
 			},
 			{
 				"id": "inquisitor mythic spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -26579,22 +25953,8 @@
 			},
 			{
 				"id": "warpriest mythic spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -26632,22 +25992,8 @@
 			},
 			{
 				"id": "paladin mythic spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -26663,22 +26009,8 @@
 			},
 			{
 				"id": "antipaladin mythic spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -26696,22 +26028,8 @@
 			},
 			{
 				"id": "shaman mythic spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -26746,7 +26064,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"spells_mythic_occult": {
 		"title": "Occult Mythic Spells",
@@ -26775,22 +26093,8 @@
 		"tables": [
 			{
 				"id": "medium mythic spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -26818,22 +26122,8 @@
 			},
 			{
 				"id": "mesmerist mythic spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -26867,22 +26157,8 @@
 			},
 			{
 				"id": "occultist mythic spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -26930,22 +26206,8 @@
 			},
 			{
 				"id": "psychic mythic spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -27004,22 +26266,8 @@
 			},
 			{
 				"id": "spiritualist mythic spells table",
-				"headers": [
-					"Spell",
-					"Level",
-					"School",
-					"Subschool",
-					"Descriptor",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					null,
-					null,
-					0
-				],
+				"headers": [ "Spell", "Level", "School", "Subschool", "Descriptor", "Description" ],
+				"types": [ null, "num", null, null, null, 0 ],
 				"initialColumn": 1,
 				"className": "endcaps",
 				"data": [
@@ -27049,7 +26297,7 @@
 				]
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	},
 	"occult_rituals": {
 		"title": "Occult Rituals",
@@ -27067,18 +26315,8 @@
 		"tables": [
 			{
 				"id": "occult rituals table",
-				"headers": [
-					"Ritual",
-					"Level",
-					"School",
-					"Description"
-				],
-				"types": [
-					null,
-					"num",
-					null,
-					0
-				],
+				"headers": [ "Ritual", "Level", "School", "Description" ],
+				"types": [ null, "num", null, 0 ],
 				"data": [
 					[ "[Analytical Congress](spell/analytical_congress)", 4, "transmutation", "Grant a group an increased capacity to research and learn" ],
 					[ "[Avoidance Ward](spell/avoidance_ward)", 4, "enchantment", "Prevents creatures of a specific type or subtype from interacting with a specific door." ],
@@ -27166,6 +26404,6 @@
 				"className": "endcaps"
 			}
 		],
-		"_previous": [ ["Main", "main"], ["Spells", "spells"] ]
+		"previous": [ ["Main", "main"], ["Spells", "spells"] ]
 	}
 }
