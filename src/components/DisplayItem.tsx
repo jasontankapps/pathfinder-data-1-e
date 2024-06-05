@@ -3,18 +3,10 @@ import { Link } from 'react-router-dom';
 import Markdown, { ExtraProps } from 'react-markdown';
 import remarkGfm from 'remark-gfm'
 import DisplayTable from './DisplayTable';
-import { Table } from '../types';
+import { CodePlugin, DisplayItemProps, Table } from '../types';
 
 type MDaProps = ClassAttributes<HTMLAnchorElement> & AnchorHTMLAttributes<HTMLAnchorElement> & ExtraProps;
 type MDcodeProps = ClassAttributes<HTMLElement> & HTMLAttributes<HTMLElement> & ExtraProps;
-
-type CodePlugin = (input: string) => false | ReactNode
-
-interface ContainerProps {
-	markdown: string | string[]
-	tables?: Table[]
-	otherCodes?: CodePlugin[]
-}
 
 const plugins = [remarkGfm];
 
@@ -59,7 +51,7 @@ const makeComponents = (tables: Table[], otherCodes: CodePlugin[]) => {
 	};
 };
 
-const DisplayItem: FC<ContainerProps> = ({ markdown, tables = [], otherCodes = [] }) => {
+const DisplayItem: FC<DisplayItemProps> = ({ markdown, tables = [], otherCodes = [] }) => {
 	const contents = Array.isArray(markdown) ? markdown.join("\n") : markdown;
 	const components = useMemo(() => makeComponents(tables, otherCodes), [tables]);
 	return (

@@ -2,7 +2,7 @@ import { FC, PropsWithChildren, useCallback, useMemo, useState } from 'react';
 import { IonIcon } from '@ionic/react';
 import { caretDown, caretUp } from 'ionicons/icons';
 import Markdown from 'react-markdown';
-import { Datum, RawDatum, Table, Types } from '../types';
+import { Datum, RawDatum, Table, TableColumnInfoTypes } from '../types';
 
 type TriggerSortFunc = (index: number, descending: boolean) => void;
 
@@ -16,7 +16,7 @@ interface ThProps {
 
 interface TdProps {
 	datum: Datum
-	type: Types
+	type: TableColumnInfoTypes
 }
 
 const translateGp = (gp: number, adjustment: boolean = false): string => {

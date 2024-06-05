@@ -21,7 +21,7 @@ interface AppPage {
 
 const appPages: AppPage[] = [
 	{
-		title: "General Rules",
+		title: "Pathfinder Rules",
 		url: "/rules",
 		icon: "../icons/read.svg"
 	},

@@ -33,7 +33,7 @@ const App: React.FC = () => {
 				<IonSplitPane contentId="main">
 					<Menu />
 					<IonRouterOutlet id="main">
-						<Route path="/" exact={true} render={(props) => <></>} />
+						<Route path="/" exact={true} render={(props) => <MainPage />} />
 						<Route path="/class/prestige/:id" render={(props) => <></>} />
 						<Route path="/class/npc/:id" render={(props) => <></>} />
 						<Route path="/class/companion/:id" render={(props) => <></>} />
