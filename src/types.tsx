@@ -48,3 +48,8 @@ export interface DisplayItemProps {
 	tables?: Table[]
 	otherCodes?: CodePlugin[]
 }
+
+export interface SourceProps {
+	title: string,
+	url: string
+}

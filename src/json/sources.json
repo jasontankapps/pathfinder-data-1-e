@@ -1,461 +1,1838 @@
 {
-	"Academy of Secrets": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderModules/v5748btpy8j5w",
-	"Advanced Class Guide": "https://paizo.com/products/btpy978v?Pathfinder-Roleplaying-Game-Advanced-Class-Guide",
-	"Advanced Class Origins": "https://paizo.com/products/btpy965z?Pathfinder-Player-Companion-Advanced-Class-Origins",
-	"Advanced Player's Guide": "https://paizo.com/pathfinderRPG/v5748btpy8fo1",
-	"Advanced Race Guide": "https://paizo.com/products/btpy8rv2?Pathfinder-Roleplaying-Game-Advanced-Race-Guide",
-	"Adventurer's Armory 2": "https://paizo.com/products/btpy9q01?Pathfinder-Player-Companion-Adventurers-Armory-2",
-	"Adventurer's Armory": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/pathfinderRPG/v5748btpy8dmf",
-	"Adventurer's Guide": "https://paizo.com/products/btpy9sjo?Pathfinder-Roleplaying-Game-Adventurers-Guide",
-	"Agents of Evil": "https://paizo.com/products/btpy9he0?Pathfinder-Player-Companion-Agents-of-Evil",
-	"Alchemy Manual": "https://paizo.com/products/btpy959n?Pathfinder-Player-Companion-Alchemy-Manual",
-	"Andoran, Birthplace of Freedom": "https://paizo.com/products/btpy9dz4?Pathfinder-Campaign-Setting-Andoran-Birthplace-of-Freedom",
-	"Andoran, Spirit of Liberty": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/pathfinderRPG/v5748btpy8bc3",
-	"Animal Archive": "https://paizo.com/products/btpy8w7p?Pathfinder-Player-Companion-Animal-Archive",
-	"Antihero's Handbook": "https://paizo.com/products/btpy9s2i?Pathfinder-Player-Companion-Antiheros-Handbook",
-	"Aquatic Adventures": "https://paizo.com/products/btpy9q00?Pathfinder-Campaign-Setting-Aquatic-Adventures",
-	"Arcane Anthology": "https://paizo.com/products/btpy9i8l?Pathfinder-Player-Companion-Arcane-Anthology",
-	"Armor Master's Handbook": "https://paizo.com/products/btpy9jbh?Pathfinder-Player-Companion-Armor-Masters-Handbook",
-	"Artifacts and Legends": "https://paizo.com/products/btpy8u7k?Pathfinder-Campaign-Setting-Artifacts-Legends",
-	"Bastards of Golarion": "https://paizo.com/products/btpy93na?Pathfinder-Player-Companion-Bastards-of-Golarion",
-	"Belkzen, Hold of the Orc Hordes": "https://paizo.com/products/btpy97lw?Pathfinder-Campaign-Setting-Belkzen-Hold-of-the-Orc-Hordes",
-	"Bestiary 2": "https://paizo.com/pathfinderRPG/v5748btpy8hif",
-	"Bestiary 3": "https://paizo.com/products/btpy8odu?Pathfinder-Roleplaying-Game-Bestiary-3",
-	"Bestiary 4": "https://paizo.com/products/btpy91ds?Pathfinder-Roleplaying-Game-Bestiary-4",
-	"Bestiary 5": "https://paizo.com/products/btpy9g9x?Pathfinder-Roleplaying-Game-Bestiary-5",
-	"Bestiary 6": "https://paizo.com/products/btpy9oge?Pathfinder-Roleplaying-Game-Bestiary-6-Hardcover",
-	"Beyond the Vault of Souls": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy88zo",
-	"Black Markets": "https://paizo.com/products/btpy9h7x?Pathfinder-Player-Companion-Black-Markets",
-	"Blood of Angels": "https://paizo.com/products/btpy8sa7?Pathfinder-Player-Companion-Blood-of-Angels",
-	"Blood of Dragonscar": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy8739",
-	"Blood of Fiends": "https://paizo.com/products/btpy8qzz?Pathfinder-Player-Companion-Blood-of-Fiends",
-	"Blood of Shadows": "https://paizo.com/products/btpy9j6s?Pathfinder-Player-Companion-Blood-of-Shadows",
-	"Blood of the Ancients": "https://paizo.com/products/btpy9wmz?Pathfinder-Player-Companion-Blood-of-the-Ancients",
-	"Blood of the Beast": "https://paizo.com/products/btpy9oo8?Pathfinder-Player-Companion-Blood-of-the-Beast",
-	"Blood of the Coven": "https://paizo.com/products/btpy9s3z?Pathfinder-Player-Companion-Blood-of-the-Coven",
-	"Blood of the Elements": "https://paizo.com/products/btpy978p?Pathfinder-Player-Companion-Blood-of-the-Elements",
-	"Blood of the Moon": "https://paizo.com/products/btpy91dq?Pathfinder-Player-Companion-Blood-of-the-Moon",
-	"Blood of the Night": "https://paizo.com/products/btpy8v33?Pathfinder-Player-Companion-Blood-of-the-Night",
-	"Blood of the Sea": "https://paizo.com/products/btpy9qjp?Pathfinder-Player-Companion-Blood-of-the-Sea",
-	"Bonus Bestiary": "https://paizo.com/pathfinderRPG/v5748btpy88x4",
-	"Book of the Damned - Volume 1 Princes of Darkness": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/pathfinderRPG/v5748btpy8a6f",
-	"Book of the Damned - Volume 2 Lords of Chaos": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderChronicles/v5748btpy8hij",
-	"Book of the Damned - Volume 3 Horsemen of the Apocalypse": "https://paizo.com/products/btpy8odg?Pathfinder-Campaign-Setting-Book-of-the-Damned-Volume-3-Horsemen-of-the-Apocalypse",
-	"Book of the Damned": "https://paizo.com/products/btpy9tok",
-	"Broken Chains": "https://paizo.com/products/btpy8w7n?Pathfinder-Module-Broken-Chains",
-	"Carnival of Tears": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy80op",
-	"Carrion Crown Player's Guide": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/carrionCrown/v5748btpy8j0q",
-	"Carrion Hill": "https://paizo.com/store/paizo/pathfinder/modules/pathfinderRPG/v5748btpy8baj",
-	"Castles of the Inner Sea": "https://paizo.com/products/btpy8yvg?Pathfinder-Campaign-Setting-Castles-of-the-Inner-Sea",
-	"Champions of Balance": "https://paizo.com/products/btpy93nc?Pathfinder-Player-Companion-Champions-of-Balance",
-	"Champions of Corruption": "https://paizo.com/products/btpy991x?Pathfinder-Player-Companion-Champions-of-Corruption",
-	"Champions of Purity": "https://paizo.com/products/btpy8x1s?Pathfinder-Player-Companion-Champions-of-Purity",
-	"Cheliax, Empire of Devils": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/pathfinderRPG/v5748btpy89ca",
-	"Cheliax, the Infernal Empire": "https://paizo.com/products/btpy9hdv?Pathfinder-Campaign-Setting-Cheliax-The-Infernal-Empire",
-	"Chronicle of Legends": "https://paizo.com/products/btq01yji?Pathfinder-Player-Companion-Chronicle-of-Legends",
-	"Chronicle of the Righteous": "https://paizo.com/products/btpy8xe9?Pathfinder-Campaign-Setting-Chronicle-of-the-Righteous",
-	"Cities of Golarion": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/pathfinderRPG/v5748btpy8b9l",
-	"City of Golden Death": "https://paizo.com/store/paizo/pathfinder/modules/pathfinderRPG/v5748btpy8dmj",
-	"City of Strangers": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/pathfinderRPG/v5748btpy8fda",
-	"Clash of the Kingslayers": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy86uz",
-	"Classic Horrors Revisited": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/pathfinderRPG/v5748btpy8ban",
-	"Classic Monsters Revisited": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/35E/v5748btpy82r5",
-	"Classic Treasures Revisited": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/pathfinderRPG/v5748btpy8dmn",
-	"Cohorts and Companions": "https://paizo.com/products/btpy9e1c?Pathfinder-Player-Companion-Cohorts-Companions",
-	"Concordance of Rivals": "https://paizo.com/products/btq01x4d?Pathfinder-Campaign-Setting-Concordance-of-Rivals",
-	"Conquest of Bloodsworn Vale": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy7zd8",
-	"Construct Handbook": "https://paizo.com/products/btq01vam",
-	"Council of Thieves Player's Guide": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/councilOfThieves/v5748btpy89m7",
-	"Cradle of Night": "https://paizo.com/products/btpy9sk9?Pathfinder-Module-Cradle-of-Night",
-	"Crown of the Kobold King": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy7yqz",
-	"Crucible of Chaos": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy81qt",
-	"Cult of the Ebon Destroyers": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderModules/v5748btpy8ihu",
-	"Curse of the Crimson Throne": "https://paizo.com/products/btpy9nme?Pathfinder-Adventure-Path-Curse-of-the-Crimson-Throne",
-	"Curse of the Crimson Throne Player's Guide": "https://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/adventurePath/curseOfTheCrimsonThrone/v5748btpy8bdb",
-	"Curse of the Riven Sky": "https://paizo.com/store/paizo/pathfinder/modules/pathfinderRPG/v5748btpy8fd9",
-	"Dark Markets - A Guide to Katapesh": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/35E/v5748btpy87ut",
-	"Darklands Revisited": "https://paizo.com/products/btpy9j72?Pathfinder-Campaign-Setting-Darklands-Revisited",
-	"Daughters of Fury": "https://paizo.com/products/btpy9au7?Pathfinder-Module-Daughters-of-Fury",
-	"Demon Hunter's Handbook": "https://paizo.com/products/btpy8ywa?Pathfinder-Player-Companion-Demon-Hunters-Handbook",
-	"Demons Revisited": "https://paizo.com/products/btpy8yvo?Pathfinder-Campaign-Setting-Demons-Revisited",
-	"Dirty Tactics Toolbox": "https://paizo.com/products/btpy9g23?Pathfinder-Player-Companion-Dirty-Tactics-Toolbox",
-	"Disciple's Doctrine": "https://paizo.com/products/btpy9xew?Pathfinder-Player-Companion-Disciples-Doctrine",
-	"Distant Realms": "https://paizo.com/products/btpy9x05?Pathfinder-Campaign-Setting-Distant-Realms",
-	"Distant Shores": "https://paizo.com/products/btpy9gro?Pathfinder-Campaign-Setting-Distant-Shores",
-	"Distant Worlds": "https://paizo.com/products/btpy8qib?Pathfinder-Campaign-Setting-Distant-Worlds",
-	"Divine Anthology": "https://paizo.com/products/btpy9nvh?Pathfinder-Player-Companion-Divine-Anthology",
-	"Doom Comes to Dustpawn": "https://paizo.com/products/btpy8xc5?Pathfinder-Module-Doom-Comes-to-Dustpawn",
-	"Down the Blighted Path": "https://paizo.com/products/btpy9j6u?Pathfinder-Module-Down-the-Blighted-Path",
-	"Dragon Empires Gazetteer": "https://paizo.com/products/btpy8pfu?Pathfinder-Campaign-Setting-Dragon-Empires-Gazetteer",
-	"Dragon Empires Primer": "https://paizo.com/products/btpy8pg0?Pathfinder-Player-Companion-Dragon-Empires-Primer",
-	"Dragons Revisited": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/35E/v5748btpy87gg",
-	"Dragonslayer's Handbook": "https://paizo.com/products/btpy8yw4?Pathfinder-Player-Companion-Dragonslayer-s-Handbook",
-	"Druma, Profit and Prophecy": "https://paizo.com/products/btq01zow",
-	"Dungeon Denizens Revisited": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/35E/v5748btpy87v1",
-	"Dungeoneer's Handbook": "https://paizo.com/products/btpy8wfn?Pathfinder-Player-Companion-Dungeoneers-Handbook",
-	"Dungeons of Golarion": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderChronicles/v5748btpy8lv5",
-	"Dwarves of Golarion": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/pathfinderRPG/v5748btpy8b9j",
-	"Elemental Master's Handbook": "https://paizo.com/products/btpy9qyb?Pathfinder-Player-Companion-Elemental-Masters-Handbook",
-	"Elves of Golarion": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/35E/v5748btpy85el",
-	"Entombed with the Pharaohs": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy80ea",
-	"Faction Guide": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/pathfinderRPG/v5748btpy8emo",
-	"Faiths and Philosophies": "https://paizo.com/products/btpy8yw8?Pathfinder-Player-Companion-Faiths-Philosophies",
-	"Faiths of Balance": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderCompanion/v5748btpy8lvb",
-	"Faiths of Corruption": "https://paizo.com/products/btpy8odc?Pathfinder-Player-Companion-Faiths-of-Corruption",
-	"Faiths of Golarion": "https://paizo.com/products/btq01vao",
-	"Faiths of Purity": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderCompanion/v5748btpy8j60",
-	"Familiar Folio": "https://paizo.com/products/btpy98d3?Pathfinder-Player-Companion-Familiar-Folio",
-	"Fangwood Keep": "https://paizo.com/products/btpy8x1o?Pathfinder-Module-Fangwood-Keep",
-	"Feast of Dust": "https://paizo.com/products/btpy9grq?Pathfinder-Module-Feast-of-Dust",
-	"Feast of Ravenmoor": "https://paizo.com/products/btpy8mw2?Pathfinder-Module-Feast-of-Ravenmoor",
-	"Fey Revisited": "https://paizo.com/products/btpy8xeb?Pathfinder-Campaign-Setting-Fey-Revisited",
-	"Flight of the Red Raven": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy82tv",
-	"From Shore to Sea": "https://paizo.com/store/paizo/pathfinder/modules/pathfinderRPG/v5748btpy8evj",
-	"Gallery of Evil": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy804h",
-	"Gallows of Madness": "https://paizo.com/products/btpy9nfu/discuss&amp;page=last?Pathfinder-Module-Gallows-of-Madness",
-	"GameMastery Guide": "https://paizo.com/pathfinderRPG/v5748btpy8ffn",
-	"GameMastery Condition Cards": "https://paizo.com/products/btpy8x9f?GameMastery-Condition-Cards",
-	"Giant Hunter's Handbook": "https://paizo.com/products/btpy99s4?Pathfinder-Player-Companion-Giant-Hunters-Handbook",
-	"Giants Revisited": "https://paizo.com/products/btpy8rv4?Pathfinder-Campaign-Setting-Giants-Revisited",
-	"Giantslayer Player's Guide": "https://paizo.com/products/btpy9bsv?Pathfinder-Adventure-Path-Giantslayer-Players-Guide",
-	"Gnomes of Golarion": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/pathfinderRPG/v5748btpy8dmh",
-	"Goblins of Golarion": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderCompanion/v5748btpy8mfk",
-	"Gods and Magic": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/35E/v5748btpy85eh",
-	"Guardians of Dragonfall": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy811p",
-	"Guide to Darkmoon Vale": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/35E/v5748btpy83yv",
-	"Guide to Korvosa": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/35E/v5748btpy81xy",
-	"Guide to the River Kingdoms": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/pathfinderRPG/v5748btpy8d50",
-	"Halflings of Golarion": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderCompanion/v5748btpy8i8p",
-	"Haunted Heroes Handbook": "https://paizo.com/products/btpy9nft?Pathfinder-Player-Companion-Haunted-Heroes-Handbook",
-	"Healer's Handbook": "https://paizo.com/products/btpy9nd4?Pathfinder-Player-Companion-Healers-Handbook",
-	"Heart of the Jungle": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/pathfinderRPG/v5748btpy8evh",
-	"Heaven Unleashed": "https://paizo.com/products/btpy9jbd?Pathfinder-Campaign-Setting-Heaven-Unleashed",
-	"Hell Unleashed": "https://paizo.com/products/btpy9ext?Pathfinder-Campaign-Setting-Hell-Unleashed",
-	"Hell's Rebels Player's Guide": "https://paizo.com/products/btpy9g44?Pathfinder-Adventure-Path-Hells-Rebels-Players-Guide",
-	"Hell's Vengeance Player's Guide": "https://paizo.com/products/btpy9jva",
-	"Heroes from the Fringe": "https://paizo.com/products/btpy9xdr?Pathfinder-Player-Companion-Heroes-from-the-Fringe",
-	"Heroes of Golarion": "https://paizo.com/products/btq01wom",
-	"Heroes of the Darklands": "https://paizo.com/products/btpy9sjq",
-	"Heroes of the High Court": "https://paizo.com/products/btpy9nda?Pathfinder-Player-Companion-Heroes-of-the-High-Court",
-	"Heroes of the Streets": "https://paizo.com/products/btpy9ghc?Pathfinder-Player-Companion-Heroes-of-the-Streets",
-	"Heroes of the Wild": "https://paizo.com/products/btpy9cro?Pathfinder-Player-Companion-Heroes-of-the-Wild",
-	"Hollow's Last Hope": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy82qz",
-	"Horror Adventures": "https://paizo.com/products/btpy9n5a?Pathfinder-Roleplaying-Game-Horror-Adventures",
-	"Horror Realms": "https://paizo.com/products/btpy9op8?Pathfinder-Campaign-Setting-Horror-Realms",
-	"Humans of Golarion": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderCompanion/v5748btpy8l3k",
-	"Hungry are the Dead": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy85en",
-	"Inner Sea Bestiary": "https://paizo.com/products/btpy8v2x?Pathfinder-Campaign-Setting-Inner-Sea-Bestiary",
-	"Inner Sea Combat": "https://paizo.com/products/btpy95b1?Pathfinder-Campaign-Setting-Inner-Sea-Combat",
-	"Inner Sea Faiths": "https://paizo.com/products/btpy9j74?Pathfinder-Campaign-Setting-Inner-Sea-Faiths",
-	"Inner Sea Gods": "https://paizo.com/products/btpy94wj?Pathfinder-Campaign-Setting-Inner-Sea-Gods-Hardcover",
-	"Inner Sea Intrigue": "https://paizo.com/products/btpy9l37/discuss&amp;page=5?Pathfinder-Campaign-Setting-Inner-Sea-Intrigue",
-	"Inner Sea Magic": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderChronicles/v5748btpy8mfs",
-	"Inner Sea Monster Codex": "https://paizo.com/products/btpy9elc?Pathfinder-Campaign-Setting-Inner-Sea-Monster-Codex",
-	"Inner Sea NPC Codex": "https://paizo.com/products/btpy92lj?Pathfinder-Campaign-Setting-Inner-Sea-NPC-Codex",
-	"Inner Sea Primer": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/pathfinderRPG/v5748btpy8hih",
-	"Inner Sea Races": "https://paizo.com/products/btpy9g9v?Pathfinder-Campaign-Setting-Inner-Sea-Races",
-	"Inner Sea Taverns": "https://paizo.com/products/btpy9zk9?Pathfinder-Campaign-Setting-Inner-Sea-Taverns",
-	"Inner Sea Temples": "https://paizo.com/products/btpy9op7?Pathfinder-Campaign-Setting-Inner-Sea-Temples",
-	"Inner Sea World Guide": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderChronicles/v5748btpy8ief",
-	"Into the Darklands": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/35E/v5748btpy85ej",
-	"Ire of the Storm": "https://paizo.com/products/btpy9jbf?Pathfinder-Module-Ire-of-the-Storm",
-	"Iron Gods Player's Guide": "https://paizo.com/products/btpy98lf?Pathfinder-Adventure-Path-Iron-Gods-Players-Guide",
-	"Ironfang Invasion Player's Guide": "https://paizo.com/products/btpy9sc5",
-	"Irrisen - Land of Eternal Winter": "https://paizo.com/products/btpy8w7f?Pathfinder-Campaign-Setting-Irrisen-Land-of-Eternal-Winter",
-	"Isles of the Shackles": "https://paizo.com/products/btpy8qzx?Pathfinder-Campaign-Setting-Isles-of-the-Shackles",
-	"Jade Regent Player's Guide": "https://paizo.com/products/btpy8mh3?Pathfinder-Adventure-Path-Jade-Regent-Players-Guide",
-	"Kingmaker Player's Guide": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/kingmaker/v5748btpy8dqh",
-	"Knights of the Inner Sea": "https://paizo.com/products/btpy8ufc?Pathfinder-Player-Companion-Knights-of-the-Inner-Sea",
-	"Kobolds of Golarion": "https://paizo.com/products/btpy8yw0?Pathfinder-Player-Companion-Kobolds-of-Golarion",
-	"Lands of the Linnorm Kings": "https://paizo.com/products/btpy8ode?Pathfinder-Campaign-Setting-Lands-of-the-Linnorm-Kings",
-	"Legacy of Dragons": "https://paizo.com/products/btpy9nfl?Pathfinder-Player-Companion-Legacy-of-Dragons",
-	"Legacy of Fire Player's Guide": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/35E/v5748btpy8737",
-	"Legacy of the First World": "https://paizo.com/products/btpy9pn6?Pathfinder-Player-Companion-Legacy-of-the-First-World",
-	"Lost Cities of Golarion": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderChronicles/v5748btpy8i8t",
-	"Lost Kingdoms": "https://paizo.com/products/btpy8sa5?Pathfinder-Campaign-Setting-Lost-Kingdoms",
-	"Lost Treasures": "https://paizo.com/products/btpy99sa?Pathfinder-Campaign-Setting-Lost-Treasures",
-	"Magic Tactics Toolbox": "https://paizo.com/products/btpy9l2u?Pathfinder-Player-Companion-Magic-Tactics-Toolbox",
-	"Magic of Thassilon": "https://paizo.com/paizo/blog/tags/freeStuff/v5748dyo5la2f",
-	"Magical Marketplace": "https://paizo.com/products/btpy92lv?Pathfinder-Player-Companion-Magical-Marketplace",
-	"Magnimar, City of Monuments": "https://paizo.com/products/btpy8slp?Pathfinder-Campaign-Setting-Magnimar-City-of-Monuments",
-	"Martial Arts Handbook": "https://paizo.com/products/btpya0b6",
-	"Masks of the Living God": "https://paizo.com/store/paizo/pathfinder/modules/pathfinderRPG/v5748btpy8bal",
-	"Melee Tactics Toolbox": "https://paizo.com/products/btpy9c23?Pathfinder-Player-Companion-Melee-Tactics-Toolbox",
-	"Merchant's Manifest": "https://paizo.com/products/btpy9vn1?Pathfinder-Player-Companion-Merchants-Manifest",
-	"Misfit Monsters Redeemed": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/pathfinderRPG/v5748btpy8gnj",
-	"Monster Codex": "https://paizo.com/products/btpy9926?Pathfinder-Roleplaying-Game-Monster-Codex",
-	"Monster Hunter's Handbook": "https://paizo.com/products/btpy9s7z",
-	"Monster Summoner's Handbook": "https://paizo.com/products/btpy9ela?Pathfinder-Player-Companion-Monster-Summoners-Handbook",
-	"Mummy's Mask Player's Guide": "https://paizo.com/products/btpy94z3?Pathfinder-Adventure-Path-Mummys-Mask-Players-Guide",
-	"Murder's Mark": "https://paizo.com/products/btpy8tj9?Pathfinder-Module-Murders-Mark",
-	"Mystery Monsters Revisited": "https://paizo.com/products/btpy8v2z?Pathfinder-Campaign-Setting-Mystery-Monsters-Revisited",
-	"Mythic Adventures": "https://paizo.com/products/btpy8ywe?Pathfinder-Roleplaying-Game-Mythic-Adventures",
-	"Mythic Origins": "https://paizo.com/products/btpy90qd?Pathfinder-Player-Companion-Mythic-Origins",
-	"Mythic Realms": "https://paizo.com/products/btpy90q7?Pathfinder-Campaign-Setting-Mythic-Realms",
-	"Mythical Monsters Revisited": "https://paizo.com/products/btpy8pfw?Pathfinder-Campaign-Setting-Mythical-Monsters-Revisited",
-	"Nidal, Land of Shadows": "https://paizo.com/products/btpy9vtf?Pathfinder-Campaign-Setting-Nidal-Land-of-Shadows",
-	"No Response from Deepmar": "https://paizo.com/products/btpy8rgl?Pathfinder-Module-No-Response-from-Deepmar",
-	"NPC Codex": "https://paizo.com/products/btpy8v3a?Pathfinder-Roleplaying-Game-NPC-Codex",
-	"Numeria, Land of Fallen Stars": "https://paizo.com/products/btpy978l?Pathfinder-Campaign-Setting-Numeria-Land-of-Fallen-Stars",
-	"Occult Adventures": "https://paizo.com/products/btpy9egu?Pathfinder-Roleplaying-Game-Occult-Adventures",
-	"Occult Bestiary": "https://paizo.com/products/btpy9g21?Pathfinder-Campaign-Setting-Occult-Bestiary",
-	"Occult Mysteries": "https://paizo.com/products/btpy95zo?Pathfinder-Campaign-Setting-Occult-Mysteries",
-	"Occult Origins": "https://paizo.com/products/btpy9grw?Pathfinder-Player-Companion-Occult-Origins",
-	"Occult Realms": "https://paizo.com/products/btpy9hdt?Pathfinder-Campaign-Setting-Occult-Realms",
-	"Orcs of Golarion": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/pathfinderRPG/v5748btpy8b81",
-	"Osirion, Land of the Pharaohs": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/35E/v5748btpy86j7",
-	"Osirion, Legacy of the Pharaohs": "https://paizo.com/products/btpy93n8?Pathfinder-Campaign-Setting-Osirion-Legacy-of-Pharaohs",
-	"PRPG Core Rulebook": "https://paizo.com/pathfinderRPG/v5748btpy88yj",
-	"Paizo Blog - Golarion Day Subdomains": "https://paizo.com/paizo/blog/v5748dyo5lbvp",
-	"Paizo_Blog - Hodgepodge from the Grand Lodge": "https://paizo.com/community/blog/v5748dyo6sgn6?Hodgepodge-from-the-Grand-Lodge",
-	"Paizo Blog - The Gauntlet Will Be Ours!": "https://paizo.com/community/blog/v5748dyo5lg4g?The-Gauntlet-Will-Be-Ours",
-	"Paizo Blog - Ultimate Cantrips": "https://paizo.com/paizo/blog/v5748dyo5lc7e",
-	"Path of the Hellknight": "https://paizo.com/products/btpy9l39?Pathfinder-Campaign-Setting-Path-of-the-Hellknight",
-	"Pathfinder #100 A Song of Silver": "https://paizo.com/products/btpy9grm?Pathfinder-Adventure-Path-100-A-Song-of-Silver",
-	"Pathfinder #101 The Kintargo Contract": "https://paizo.com/products/btpy9hdr?Pathfinder-Adventure-Path-101-The-Kintargo-Contract",
-	"Pathfinder #102 Breaking the Bones of Hell": "https://paizo.com/products/btpy9i8d?Pathfinder-Adventure-Path-102-Breaking-the-Bones-of-Hell",
-	"Pathfinder #103 The Hellfire Compact": "https://paizo.com/products/btpy9j6n?Pathfinder-Adventure-Path-103-The-Hellfire-Compact",
-	"Pathfinder #104 Wrath of Thrune": "https://paizo.com/products/btpy9jb7?Pathfinder-Adventure-Path-104-Wrath-of-Thrune",
-	"Pathfinder #105 The Inferno Gate": "https://paizo.com/products/btpy9jb9?Pathfinder-Adventure-Path-105-The-Inferno-Gate",
-	"Pathfinder #106 For Queen and Empire": "https://paizo.com/products/btpy9l3b?Pathfinder-Adventure-Path-106-For-Queen-Empire",
-	"Pathfinder #107 Scourge of the Godclaw": "https://paizo.com/products/btpy9n0j?Pathfinder-Adventure-Path-107-Scourge-of-the-Godclaw",
-	"Pathfinder #108 Hell Comes to Westcrown": "https://paizo.com/products/btpy9nmc?Pathfinder-Adventure-Path-108-Hell-Comes-to-Westcrown",
-	"Pathfinder #109 In Search of Sanity": "https://paizo.com/products/btpy9nry?Pathfinder-Adventure-Path-109-In-Search-of-Sanity",
-	"Pathfinder #10 A History of Ashes": "https://paizo.com/pathfinder/adventurePath/curseOfTheCrimsonThrone/v5748btpy82u9",
-	"Pathfinder #110 The Thrushmoor Terror": "https://paizo.com/products/btpy9l3g",
-	"Pathfinder #111 Dreams of the Yellow King": "https://paizo.com/products/btpy9pmo?Pathfinder-Adventure-Path-111-Dreams-of-the-Yellow-King",
-	"Pathfinder #112 The Whisper Out of Time": "https://paizo.com/products/btpy9q9o?Pathfinder-Adventure-Path-112-The-Whisper-Out-of-Time",
-	"Pathfinder #113 What Grows Within": "https://paizo.com/products/btpy9qcl?Pathfinder-Adventure-Path-113-What-Grows-Within",
-	"Pathfinder #114 Black Stars Beckon": "https://paizo.com/products/btpy9qcm?Pathfinder-Adventure-Path-114-Black-Stars-Beckon",
-	"Pathfinder #115 Trail of the Hunted": "https://paizo.com/products/btpy9npj",
-	"Pathfinder #116 Fangs of War": "https://paizo.com/products/btpy9npk",
-	"Pathfinder #117 Assault on Longshadow": "https://paizo.com/products/btpy9p1h",
-	"Pathfinder #118 Siege of Stone": "https://paizo.com/products/btpy9pn4",
-	"Pathfinder #119 Prisoners of the Blight": "https://paizo.com/products/btpy9npn",
-	"Pathfinder #11 Skeletons of Scarwall": "https://paizo.com/pathfinder/adventurePath/curseOfTheCrimsonThrone/v5748btpy83yw",
-	"Pathfinder #120 Vault of the Onyx Citadel": "https://paizo.com/products/btpy9npo",
-	"Pathfinder #121 The Lost Outpost": "https://paizo.com/products/btpy9trj?Pathfinder-Adventure-Path-121-The-Lost-Outpost",
-	"Pathfinder #122 Into the Shattered Continent": "https://paizo.com/products/btpy9uk0?Pathfinder-Adventure-Path-122-Into-the-Shattered-Continent",
-	"Pathfinder #123 The Flooded Cathedral": "https://paizo.com/products/btpy9uk2?Pathfinder-Adventure-Path-123-The-Flooded-Cathedral",
-	"Pathfinder #124 City in the Deep": "https://paizo.com/products/btpy9x2h?Pathfinder-Adventure-Path-124-City-in-the-Deep",
-	"Pathfinder #125 Tower of the Drowned Dead": "https://paizo.com/products/btpy9xa1?Pathfinder-Adventure-Path-125-Tower-of-the-Drowned-Dead",
-	"Pathfinder #126 Beyond the Veiled Past": "https://paizo.com/products/btpy9xf0?Pathfinder-Adventure-Path-126-Beyond-the-Veiled-Past",
-	"Pathfinder #127 Crownfall": "https://paizo.com/products/btpy9zk7?Pathfinder-Adventure-Path-127-Crownfall",
-	"Pathfinder #128 Songbird, Scion, Saboteur": "https://paizo.com/products/btpy9vn0?Pathfinder-Adventure-Path-128-Songbird-Scion-Saboteur",
-	"Pathfinder #129 The Twilight Child": "https://paizo.com/products/btpy9vte?Pathfinder-Adventure-Path-129-The-Twilight-Child",
-	"Pathfinder #12 Crown of Fangs": "https://paizo.com/pathfinder/adventurePath/curseOfTheCrimsonThrone/v5748btpy84el",
-	"Pathfinder #130 City in the Lion's Eye": "https://paizo.com/products/btpy9wmy?Pathfinder-Adventure-Path-City-in-the-Lions-Eye",
-	"Pathfinder #131 The Reaper's Right Hand": "https://paizo.com/products/btpy9x04?Pathfinder-Adventure-Path-The-Reaper-s-Right-Hand",
-	"Pathfinder #132 The Six-Legend Soul": "https://paizo.com/products/btpy9xdq?Pathfinder-Adventure-Path-The-SixLegend-Soul",
-	"Pathfinder #133 Secrets of Roderic's Cove": "https://paizo.com/products/btpy9y26?Pathfinder-Adventure-Path-133-Secrets-of-Rodericks-Cove",
-	"Pathfinder #134 It Came from Hollow Mountain": "https://paizo.com/products/btpy9z14?Pathfinder-Adventure-Path-134-It-Came-from-Hollow-Mountain",
-	"Pathfinder #135 Runeplague": "https://paizo.com/products/btpy9zsl",
-	"Pathfinder #136 Temple of the Peacock Spirit": "https://paizo.com/products/btpya0b5",
-	"Pathfinder #137 The City Outside of Time": "https://paizo.com/products/btq01vak",
-	"Pathfinder #138 Rise of New Thassilon": "https://paizo.com/products/btq01w1w",
-	"Pathfinder #139 The Dead Road": "https://paizo.com/products/btq01ws3",
-	"Pathfinder #13 Shadow in the Sky": "https://paizo.com/pathfinder/adventurePath/secondDarkness/v5748btpy84em",
-	"Pathfinder #140 Eulogy for Roslar's Coffer": "https://paizo.com/products/btq01x4b",
-	"Pathfinder #141 Last Watch": "https://paizo.com/products/btq01x4f?Pathfinder-Adventure-Path-141-Last-Watch",
-	"Pathfinder #142 Gardens of Gallowspire": "https://paizo.com/products/btq01yj6?Pathfinder-Adventure-Path-142-Gardens-of-Gallowspire",
-	"Pathfinder #143 Borne by the Sun's Grace": "https://paizo.com/products/btq01vyh",
-	"Pathfinder #144 Midwives to Death": "https://paizo.com/products/btq01zno",
-	"Pathfinder #14 Children of the Void": "https://paizo.com/pathfinder/adventurePath/secondDarkness/v5748btpy85ed",
-	"Pathfinder #15 The Armageddon Echo": "https://paizo.com/pathfinder/adventurePath/secondDarkness/v5748btpy85ep",
-	"Pathfinder #16 Endless Night": "https://paizo.com/pathfinder/adventurePath/secondDarkness/v5748btpy85er",
-	"Pathfinder #17 A Memory of Darkness": "https://paizo.com/pathfinder/adventurePath/secondDarkness/v5748btpy86j6",
-	"Pathfinder #18 Descent into Midnight": "https://paizo.com/pathfinder/adventurePath/secondDarkness/v5748btpy86v1",
-	"Pathfinder #19 Howl of the Carrion King": "https://paizo.com/pathfinder/adventurePath/legacyOfFire/v5748btpy8735",
-	"Pathfinder #1 Burnt Offerings": "https://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy7zkq",
-	"Pathfinder #20 House of the Beast": "https://paizo.com/pathfinder/adventurePath/legacyOfFire/v5748btpy86xw",
-	"Pathfinder #21 The Jackal's Price": "https://paizo.com/pathfinder/adventurePath/legacyOfFire/v5748btpy87uv",
-	"Pathfinder #22 The End of Eternity": "https://paizo.com/pathfinder/adventurePath/legacyOfFire/v5748btpy87ux",
-	"Pathfinder #23 The Impossible Eye": "https://paizo.com/pathfinder/adventurePath/legacyOfFire/v5748btpy88tp",
-	"Pathfinder #24 The Final Wish": "https://paizo.com/pathfinder/adventurePath/legacyOfFire/v5748btpy89a2",
-	"Pathfinder #25 The Bastards of Erebus": "https://paizo.com/pathfinder/v5748btpy89a4",
-	"Pathfinder #26 The Sixfold Trial": "https://paizo.com/pathfinder/adventurePath/councilOfThieves/v5748btpy89vw",
-	"Pathfinder #27 What Lies in Dust": "https://paizo.com/pathfinder/adventurePath/councilOfThieves/v5748btpy8b8h",
-	"Pathfinder #28 The Infernal Syndrome": "https://paizo.com/pathfinder/adventurePath/councilOfThieves/v5748btpy8b9h",
-	"Pathfinder #29 Mother of Flies": "https://paizo.com/pathfinder/adventurePath/councilOfThieves/v5748btpy8bc1",
-	"Pathfinder #2 The Skinsaw Murders": "https://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy8029",
-	"Pathfinder #30 The Twice-Damned Prince": "https://paizo.com/pathfinder/adventurePath/councilOfThieves/v5748btpy8d54",
-	"Pathfinder #31 Stolen Land": "https://paizo.com/pathfinder/adventurePath/kingmaker/v5748btpy8dhc",
-	"Pathfinder #32 Rivers Run Red": "https://paizo.com/pathfinder/adventurePath/kingmaker/v5748btpy8dml",
-	"Pathfinder #33 The Varnhold Vanishing": "https://paizo.com/pathfinder/adventurePath/kingmaker/v5748btpy8e7e",
-	"Pathfinder #34 Blood for Blood": "https://paizo.com/pathfinder/adventurePath/kingmaker/v5748btpy8b7w",
-	"Pathfinder #35 War of the River Kings": "https://paizo.com/pathfinder/adventurePath/kingmaker/v5748btpy8b7u",
-	"Pathfinder #36 Sound of a Thousand Screams": "https://paizo.com/pathfinder/adventurePath/kingmaker/v5748btpy8b7x",
-	"Pathfinder #37 Souls for Smuggler's Shiv": "https://paizo.com/pathfinder/adventurePath/theSerpentsSkull/v5748btpy8b7v",
-	"Pathfinder #38 Racing to Ruin": "https://paizo.com/pathfinder/adventurePath/theSerpentsSkull/v5748btpy8ddc",
-	"Pathfinder #39 The City of Seven Spears": "https://paizo.com/pathfinder/adventurePath/theSerpentsSkull/v5748btpy8ddd",
-	"Pathfinder #3 The Hook Mountain Massacre": "https://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy80e4",
-	"Pathfinder #40 Vaults of Madness": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/serpentsSkull/v5748btpy8i1u",
-	"Pathfinder #41 The Thousand Fangs Below": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/serpentsSkull/v5748btpy8i8r",
-	"Pathfinder #42 Sanctum of the Serpent God": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/serpentsSkull/v5748btpy8ihw",
-	"Pathfinder #43 Haunting of Harrowstone": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/carrionCrown/v5748btpy8ihy",
-	"Pathfinder #44 Trial of the Beast": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/carrionCrown/v5748btpy8j5s",
-	"Pathfinder #45 Broken Moon": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/carrionCrown/v5748btpy8jtl",
-	"Pathfinder #46 Wake of the Watcher": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/carrionCrown/v5748btpy8l3e",
-	"Pathfinder #47 Ashes at Dawn": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/carrionCrown/v5748btpy8lv2",
-	"Pathfinder #48 Shadows of Gallowspire": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/carrionCrown/v5748btpy8mgb",
-	"Pathfinder #49 The Brinewall Legacy": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/jadeRegent/v5748btpy8mfv",
-	"Pathfinder #4 Fortress of the Stone Giants": "https://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy80hm",
-	"Pathfinder #50 Night of Frozen Shadows": "https://paizo.com/pathfinder/v5748btpy8jrr",
-	"Pathfinder #51 The Hungry Storm": "https://paizo.com/pathfinder/v5748btpy8kgv",
-	"Pathfinder #52 Forest of Spirits": "https://paizo.com/pathfinder/v5748btpy8l2h",
-	"Pathfinder #53 Tide of Honor": "https://paizo.com/pathfinder/v5748btpy8mh0",
-	"Pathfinder #54 The Empty Throne": "https://paizo.com/pathfinder/v5748btpy8mh1",
-	"Pathfinder #55 The Wormwood Mutiny": "https://paizo.com/pathfinder/adventurePath/skullAndShackles/v5748btpy8mh2",
-	"Pathfinder #56 Raiders of the Fever Sea": "https://paizo.com/pathfinder/adventurePath/skullAndShackles/v5748btpy8moe",
-	"Pathfinder #57 Tempest Rising": "https://paizo.com/pathfinder/adventurePath/skullAndShackles/v5748btpy8mof",
-	"Pathfinder #58 Island of Empty Eyes": "https://paizo.com/pathfinder/adventurePath/skullAndShackles/v5748btpy8mog",
-	"Pathfinder #59 The Price of Infamy": "https://paizo.com/pathfinder/adventurePath/skullAndShackles/v5748btpy8moh",
-	"Pathfinder #5 Sins of the Saviors": "https://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy815o",
-	"Pathfinder #60 From Hell's Heart": "https://paizo.com/pathfinder/adventurePath/skullAndShackles/v5748btpy8moi",
-	"Pathfinder #61 Shards of Sin": "https://paizo.com/products/btpy8rcj?Pathfinder-Adventure-Path-61-Shards-of-Sin",
-	"Pathfinder #62 Curse of the Lady's Light": "https://paizo.com/products/btpy8run?Pathfinder-Adventure-Path-62-Curse-of-the-Ladys-Light",
-	"Pathfinder #63 The Asylum Stone": "https://paizo.com/products/btpy8sds?Pathfinder-Adventure-Path-63-The-Asylum-Stone",
-	"Pathfinder #64 Beyond the Doomsday Door": "https://paizo.com/products/btpy8t35?Pathfinder-Adventure-Path-64-Beyond-the-Doomsday%20Door",
-	"Pathfinder #65 Into the Nightmare Rift": "https://paizo.com/products/btpy8tdh?Pathfinder-Adventure-Path-65-Into-the-Nightmare-Rift",
-	"Pathfinder #66 The Dead Heart of Xin": "https://paizo.com/products/btpy8tvr?Pathfinder-Adventure-Path-66-The-Dead-Heart-of-Xin",
-	"Pathfinder #67 The Snows of Summer": "https://paizo.com/products/btpy8ubg?Pathfinder-Adventure-Path-67-The-Snows-of-Summer",
-	"Pathfinder #68 The Shackled Hut": "https://paizo.com/products/btpy8uwz?Pathfinder-Adventure-Path-67-The-Shackled-Hut",
-	"Pathfinder #69 Maiden, Mother, Crone": "https://paizo.com/products/btpy8xbz?Pathfinder-Adventure-Path-69-Maiden-Mother-Crone",
-	"Pathfinder #6 Spires of Xin-Shalast": "https://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy817c",
-	"Pathfinder #70 The Frozen Stars": "https://paizo.com/products/btpy8yv3?Pathfinder-Adventure-Path-70-The-Frozen-Stars",
-	"Pathfinder #71 Rasputin Must Die!": "https://paizo.com/products/btpy8yv5?Pathfinder-Adventure-Path-71-Rasputin-Must-Die",
-	"Pathfinder #72 The Witch Queen's Revenge": "https://paizo.com/products/btpy8yv7?Pathfinder-Adventure-Path-72-The-Witch-Queen-s-Revenge",
-	"Pathfinder #73 The Worldwound Incursion": "https://paizo.com/products/btpy90q9?Pathfinder-Adventure-Path-73-The-Worldwound-Incursion",
-	"Pathfinder #74 Sword of Valor": "https://paizo.com/products/btpy90qb?Pathfinder-Adventure-Path-74-Sword-of-Valor",
-	"Pathfinder #75 Demon's Heresy": "https://paizo.com/products/btpy91dm?Pathfinder-Adventure-Path-75-Demons-Heresy",
-	"Pathfinder #76 The Midnight Isles": "https://paizo.com/products/btpy92lf?Pathfinder-Adventure-Path-76-The-Midnight-Isles",
-	"Pathfinder #77 Herald of the Ivory Labyrinth": "https://paizo.com/products/btpy92lh?Pathfinder-Adventure-Path-77-Herald-of-the-Ivory-Labyrinth",
-	"Pathfinder #78 City of Locusts": "https://paizo.com/products/btpy93qo?Pathfinder-Adventure-Path-78-City-of-Locusts",
-	"Pathfinder #79 The Half-Dead City": "https://paizo.com/products/btpy94qz?Pathfinder-Adventure-Path-79-The-HalfDead-City",
-	"Pathfinder #7 Edge of Anarchy": "https://paizo.com/pathfinder/adventurePath/curseOfTheCrimsonThrone/v5748btpy81xw",
-	"Pathfinder #80 Empty Graves": "https://paizo.com/products/btpy94vv?Pathfinder-Adventure-Path-80-Empty-Graves",
-	"Pathfinder #81 Shifting Sands": "https://paizo.com/products/btpy92qb",
-	"Pathfinder #82 Secrets of the Sphinx": "https://paizo.com/products/btpy978j?Pathfinder-Adventure-Path-82-Secrets-of-the-Sphinx",
-	"Pathfinder #83 The Slave Trenches of Hakotep": "https://paizo.com/products/btpy97at?Pathfinder-Adventure-Path-83-The-Slave-Trenches-of-Hakotep",
-	"Pathfinder #84 Pyramid of the Sky Pharaoh": "https://paizo.com/products/btpy97av?Pathfinder-Adventure-Path-84-Pyramid-of-the-Sky-Pharaoh",
-	"Pathfinder #85 Fires of Creation": "https://paizo.com/products/btpy97ax?Pathfinder-Adventure-Path-85-Fires-of-Creation",
-	"Pathfinder #86 Lords of Rust": "https://paizo.com/products/btpy97az?Pathfinder-Adventure-Path-86-Lords-of-Rust",
-	"Pathfinder #87 The Choking Tower": "https://paizo.com/products/btpy991p?Pathfinder-Adventure-Path-87-The-Choking-Tower",
-	"Pathfinder #88 Valley of the Brain Collectors": "https://paizo.com/products/btpy99sg?Pathfinder-Adventure-Path-88-Valley-of-the-Brain-Collectors",
-	"Pathfinder #89 Palace of Fallen Stars": "https://paizo.com/products/btpy99si?Pathfinder-Adventure-Path-89-Palace-of-Fallen-Stars",
-	"Pathfinder #8 Seven Days to the Grave": "https://paizo.com/pathfinder/adventurePath/curseOfTheCrimsonThrone/v5748btpy82qy",
-	"Pathfinder #90 The Divinity Drive": "https://paizo.com/products/btpy95bw?Pathfinder-Adventure-Path-90-The-Divinity-Drive",
-	"Pathfinder #91 Battle of Bloodmarch Hills": "https://paizo.com/products/btpy9aub?Pathfinder-Adventure-Path-91-Battle-of-Bloodmarch-Hill",
-	"Pathfinder #92 The Hill Giant's Pledge": "https://paizo.com/products/btpy9c1v?Pathfinder-Adventure-Path-92-The-Hill-Giants-Pledge",
-	"Pathfinder #93 Forge of the Giant God": "https://paizo.com/products/btpy9c1x?Pathfinder-Adventure-Path-93-Forge-of-the-Giant-God",
-	"Pathfinder #94 Ice Tomb of the Giant Queen": "https://paizo.com/products/btpy9dz6?Pathfinder-Adventure-Path-94-Ice-Tomb-of-the-Giant-Queen",
-	"Pathfinder #95 Anvil of Fire": "https://paizo.com/products/btpy9et7?Pathfinder-Adventure-Path-95-Anvil-of-Fire",
-	"Pathfinder #96 Shadow of the Storm Tyrant": "https://paizo.com/products/btpy9et9?Pathfinder-Adventure-Path-96-Shadow-of-the-Storm-Tyrant",
-	"Pathfinder #97 In Hell's Bright Shadow": "https://paizo.com/products/btpy9g0q?Pathfinder-Adventure-Path-97-In-Hells-Bright-Shadow",
-	"Pathfinder #98 Turn of the Torrent": "https://paizo.com/products/btpy9gcx?Pathfinder-Adventure-Path-98-Turn-of-the-Torrent",
-	"Pathfinder #99 Dance of the Damned": "https://paizo.com/products/btpy9grk?Pathfinder-Adventure-Path-99-Dance-of-the-Damned",
-	"Pathfinder #9 Escape from Old Korvosa": "https://paizo.com/pathfinder/adventurePath/curseOfTheCrimsonThrone/v5748btpy82t5",
-	"Pathfinder Campaign Setting": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/35E/v5748btpy84eo",
-	"Pathfinder Comics #10": "https://paizo.com/products/btpy915f",
-	"Pathfinder Comics #11": "https://paizo.com/products/btpy915k",
-	"Pathfinder Comics #12": "https://paizo.com/products/btpy915p",
-	"Pathfinder Comics #3": "https://paizo.com/products/btpy8u1d",
-	"Pathfinder Comics #5": "https://paizo.com/products/btpy8wrb",
-	"Pathfinder RPG Bestiary": "https://paizo.com/products/btpy8auu?Pathfinder-Roleplaying-Game-Bestiary",
-	"Pathfinder Society Field Guide": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderChronicles/v5748btpy8mfq",
-	"Pathfinder Society Primer": "https://paizo.com/products/btpy8yw6?Pathfinder-Player-Companion-Pathfinder-Society-Primer",
-	"Pathfinder Unchained": "https://paizo.com/products/btpy9c25?Pathfinder-Roleplaying-Game-Pathfinder-Unchained",
-	"Pathfinder Goblins #1": "https://paizo.com/products/btpy8yxv",
-	"Pathfinder Goblins #5": "https://paizo.com/products/btpy915v",
-	"Pathfinder Hollow Mountain #1": "https://paizo.com/products/btpy9goq",
-	"Pathfinder Hollow Mountain #4": "https://paizo.com/products/btpy9iot",
-	"Pathfinder Origins #6 Ezren": "https://paizo.com/products/btpy9e2f",
-	"Pathfinder Runescars #1": "https://paizo.com/products/btpy9sgo",
-	"Pathfinder Runescars #4": "https://paizo.com/products/btpy9u6c",
-	"Pathfinder Spiral of Bones #3": "https://paizo.com/",
-	"Pathfinder Spiral of Bones #5": "https://paizo.com/",
-	"Pathfinder Worldscape #1": "https://paizo.com/products/btpy9oco",
-	"Pathfinder Worldscape #2": "https://paizo.com/products/btpy9oza",
-	"Paths of Prestige": "http://paizo.com/products/btpy8thj?Pathfinder-Campaign-Setting-Paths-of-Prestige",
-	"Paths of the Righteous": "https://paizo.com/products/btpy9oo9?Pathfinder-Player-Companion-Paths-of-the-Righteous",
-	"People of the North": "https://paizo.com/products/btpy8v35?Pathfinder-Player-Companion-People-of-the-North",
-	"People of the River": "https://paizo.com/products/btpy978r?Pathfinder-Player-Companion-People-of-the-River",
-	"People of the Sands": "https://paizo.com/products/btpy92lx?Pathfinder-Player-Companion-People-of-the-Sands",
-	"People of the Stars": "https://paizo.com/products/btpy95d3?Pathfinder-Player-Companion-People-of-the-Stars",
-	"People of the Wastes": "https://paizo.com/products/btpy9sk7?Pathfinder-Player-Companion-People-of-the-Wastes",
-	"Pirates of the Inner Sea": "https://paizo.com/products/btpy8qif?Pathfinder-Player-Companion-Pirates-of-the-Inner-Sea",
-	"Planar Adventures": "https://paizo.com/products/btpya1am",
-	"Plane-Hopper's Handbook": "https://paizo.com/products/btpy9z15?Pathfinder-Player-Companion-PlaneHopper-s-Handbook",
-	"Planes of Power": "https://paizo.com/products/btpy9ng0?Pathfinder-Campaign-Setting-Planes-of-Power",
-	"Plunder and Peril": "https://paizo.com/products/btpy99se?Pathfinder-Module-Plunder-Peril",
-	"Potions and Poisons": "https://paizo.com/products/btpy9xa4?Pathfinder-Player-Companion-Potions-Poisons",
-	"Psychic Anthology": "https://paizo.com/products/btpy9qhr?Pathfinder-Player-Companion-Psychic-Anthology",
-	"Qadira, Gateway to the East": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/pathfinderRPG/v5748btpy88zq",
-	"Qadira, Jewel of the East": "https://paizo.com/products/btpy9nd2?Pathfinder-Campaign-Setting-Qadira-Jewel-of-the-East",
-	"Quests and Campaigns": "https://paizo.com/products/btpy8yw2?Pathfinder-Player-Companion-Quests-Campaigns",
-	"Ranged Tactics Toolbox": "https://paizo.com/products/btpy99s6?Pathfinder-Player-Companion-Ranged-Tactics-Toolbox",
-	"Realm of the Fellnight Queen": "https://paizo.com/store/paizo/pathfinder/modules/pathfinderRPG/v5748btpy8d52",
-	"Reign of Winter Player's Guide": "https://paizo.com/products/btpy8x1t?Pathfinder-Adventure-Path-Reign-of-Winter-Players-Guide",
-	"Return of the Runelords Players Guide": "https://paizo.com/products/btq01su5",
-	"Revenge of the Kobold King": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy83w1",
-	"Rise of the Runelords Anniversary Edition Player's Guide": "https://paizo.com/products/btpy8tgl?Pathfinder-Adventure-Path-Rise-of-the-Runelords-Anniversary-Edition-Players-Guide",
-	"Rise of the Runelords Anniversary Edition": "https://paizo.com/products/btpy8tc0?Pathfinder-Adventure-Path-Rise-of-the-Runelords-Anniversary-Edition",
-	"Rise of the Runelords Player's Guide": "https://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy8bd9",
-	"Rival Guide": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderChronicles/v5748btpy8kc2",
-	"Rivers into Darkness": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy82qf",
-	"Ruins of Azlant Player's Guide": "https://paizo.com/products/btpy9uir",
-	"Sargava, the Lost Colony": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/pathfinderRPG/v5748btpy8ey2",
-	"Second Darkness Player's Guide": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/35E/v5748btpy84en",
-	"Seekers of Secrets": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/pathfinderRPG/v5748btpy8az2",
-	"Seers of the Drowned City": "https://paizo.com/products/btpy9op2?Pathfinder-Module-Seers-of-the-Drowned-City",
-	"Serpent's Skull Player's Guide": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/serpentsSkull/v5748btpy8g6d",
-	"Seven Swords of Sin": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy7zke",
-	"Shattered Star Player's Guide": "https://paizo.com/products/btpy8txj?Pathfinder-Adventure-Path-Shattered-Star-Players-Guide",
-	"Ships of the Inner Sea": "https://paizo.com/products/btpy991v?Pathfinder-Campaign-Setting-Ships-of-the-Inner-Sea",
-	"Skull and Shackles Player's Guide": "https://paizo.com/products/btpy8rwc?Pathfinder-Adventure-Path-Skull-Shackles-Players-Guide",
-	"Spymaster's Handbook": "https://paizo.com/products/btpy9l2w?Pathfinder-Player-Companion-Spymasters-Handbook",
-	"Strange Aeons Player's Guide": "https://paizo.com/products/btpy9nrw",
-	"Taldor, Echoes of Glory": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/35E/v5748btpy8853",
-	"Taldor, the First Empire": "https://paizo.com/products/btpy9wzs?Pathfinder-Campaign-Setting-Taldor-the-First-Empire",
-	"Tears at Bitter Manor": "https://paizo.com/products/btpy93qw?Pathfinder-Module-Tears-at-Bitter-Manor",
-	"Technology Guide": "https://paizo.com/products/btpy95d2?Pathfinder-Campaign-Setting-Technology-Guide",
-	"The Demon Within": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy82qh",
-	"The Dragon's Demand": "https://paizo.com/products/btpy8yvy?Pathfinder-Module-The-Dragons-Demand",
-	"The Emerald Spire Superdungeon": "https://paizo.com/products/btpy8yqx?Pathfinder-Module-The-Emerald-Spire-Superdungeon",
-	"The First World, Realm of the Fey": "https://paizo.com/products/btpy9op9?Pathfinder-Campaign-Setting-The-First-World-Realm-of-the-Fey",
-	"The Godsmouth Heresy": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderModules/v5748btpy8hil",
-	"The Great Beyond - A Guide to the Multiverse": "https://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/campaignSetting/35E/v5748btpy87uz",
-	"The Harrow Handbook": "https://paizo.com/products/btpy95zm?Pathfinder-Player-Companion-The-Harrow-Handbook",
-	"The Harrowing": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderModules/v5748btpy8lv9",
-	"The House on Hook Street": "https://paizo.com/products/btpy9grs?Pathfinder-Module-The-House-on-Hook-Street",
-	"The Midnight Mirror": "https://paizo.com/products/btpy8rgj?Pathfinder-Module-The-Midnight-Mirror",
-	"The Moonscar": "https://paizo.com/products/btpy8ssi?Pathfinder-Module-The-Moonscar",
-	"The Pact Stone Pyramid": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy85y2",
-	"The Ruby Phoenix Tournament": "https://paizo.com/products/btpy8qid?Pathfinder-Module-The-Ruby-Phoenix-Tournament",
-	"The Witchwar Legacy": "https://paizo.com/store/downloads/pathfinder/pathfinderModules/pathfinderRPG/v5748btpy8go0",
-	"The Worldwound": "https://paizo.com/products/btpy8yvk?Pathfinder-Campaign-Setting-The-Worldwound",
-	"Tomb of the Iron Medusa": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderModules/v5748btpy8j5y",
-	"Tombs of Golarion": "https://paizo.com/products/btpy98yu?Pathfinder-Campaign-Setting-Tombs-of-Golarion",
-	"Tower of the Last Baron": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy83wa",
-	"Treasure of Chimera Cove": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy85ef",
-	"Tyrant's Grasp Player's Guide": "https://paizo.com/products/btq01xdp",
-	"Ultimate Campaign": "https://paizo.com/products/btpy8x64?Pathfinder-Roleplaying-Game-Ultimate-Campaign",
-	"Ultimate Combat": "https://paizo.com/pathfinderRPG/v5748btpy8mcz",
-	"Ultimate Equipment": "https://paizo.com/products/btpy8tmc?Pathfinder-Roleplaying-Game-Ultimate-Equipment",
-	"Ultimate Intrigue": "https://paizo.com/products/btpy9j6p?Pathfinder-Roleplaying-Game-Ultimate-Intrigue",
-	"Ultimate Magic": "https://paizo.com/pathfinderRPG/v5748btpy8k8r",
-	"Ultimate Wilderness": "https://paizo.com/products/btpy9ujo",
-	"Undead Revisited": "https://paizo.com/products/btpy8l3g",
-	"Undead Slayer's Handbook": "https://paizo.com/products/btpy94vx?Pathfinder-Player-Companion-Undead-Slayer-s-Handbook",
-	"Undead Unleashed": "https://paizo.com/products/btpy991t?Pathfinder-Campaign-Setting-Undead-Unleashed",
-	"Varisia, Birthplace of Legends": "https://paizo.com/products/btpy8tim?Pathfinder-Player-Companion-Varisia-Birthplace-of-Legends",
-	"Villain Codex": "https://paizo.com/products/btpy9oo7?Pathfinder-Roleplaying-Game-Villain-Codex",
-	"War for the Crown Player's Guide": "https://paizo.com/products/btpya08v",
-	"Wardens of the Reborn Forge": "https://paizo.com/products/btpy92lr?Pathfinder-Module-Wardens-of-the-Reborn-Forge",
-	"We Be Goblins Free!": "https://paizo.com/products/btpy9c20?Pathfinder-Module-We-Be-Goblins-Free",
-	"We Be Goblins Too!": "https://paizo.com/products/btpy8xc3?Pathfinder-Module-We-Be-Goblins-Too",
-	"We Be Goblins!": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderModules/v5748btpy8l3i",
-	"Weapon Master's Handbook": "https://paizo.com/products/btpy9hdy?Pathfinder-Player-Companion-Weapon-Masters-Handbook",
-	"Wilderness Origins": "https://paizo.com/products/btq01w1y",
-	"Wrath of the Righteous Player's Guide": "https://paizo.com/products/btpy919c?Pathfinder-Adventure-Path-Wrath-of-the-Righteous-Players-Guide"
+	"Academy of Secrets": {
+		"title": "Academy of Secrets",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderModules/v5748btpy8j5w"
+	},
+	"Advanced Class Guide": {
+		"title": "Advanced Class Guide",
+		"url": "https://paizo.com/products/btpy978v?Pathfinder-Roleplaying-Game-Advanced-Class-Guide"
+	},
+	"Advanced Class Origins": {
+		"title": "Advanced Class Origins",
+		"url": "https://paizo.com/products/btpy965z?Pathfinder-Player-Companion-Advanced-Class-Origins"
+	},
+	"Advanced Player's Guide": {
+		"title": "Advanced Player's Guide",
+		"url": "https://paizo.com/pathfinderRPG/v5748btpy8fo1"
+	},
+	"Advanced Race Guide": {
+		"title": "Advanced Race Guide",
+		"url": "https://paizo.com/products/btpy8rv2?Pathfinder-Roleplaying-Game-Advanced-Race-Guide"
+	},
+	"Adventurer's Armory 2": {
+		"title": "Adventurer's Armory 2",
+		"url": "https://paizo.com/products/btpy9q01?Pathfinder-Player-Companion-Adventurers-Armory-2"
+	},
+	"Adventurer's Armory": {
+		"title": "Adventurer's Armory",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/pathfinderRPG/v5748btpy8dmf"
+	},
+	"Adventurer's Guide": {
+		"title": "Adventurer's Guide",
+		"url": "https://paizo.com/products/btpy9sjo?Pathfinder-Roleplaying-Game-Adventurers-Guide"
+	},
+	"Agents of Evil": {
+		"title": "Agents of Evil",
+		"url": "https://paizo.com/products/btpy9he0?Pathfinder-Player-Companion-Agents-of-Evil"
+	},
+	"Alchemy Manual": {
+		"title": "Alchemy Manual",
+		"url": "https://paizo.com/products/btpy959n?Pathfinder-Player-Companion-Alchemy-Manual"
+	},
+	"Andoran, Birthplace of Freedom": {
+		"title": "Andoran, Birthplace of Freedom",
+		"url": "https://paizo.com/products/btpy9dz4?Pathfinder-Campaign-Setting-Andoran-Birthplace-of-Freedom"
+	},
+	"Andoran, Spirit of Liberty": {
+		"title": "Andoran, Spirit of Liberty",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/pathfinderRPG/v5748btpy8bc3"
+	},
+	"Animal Archive": {
+		"title": "Animal Archive",
+		"url": "https://paizo.com/products/btpy8w7p?Pathfinder-Player-Companion-Animal-Archive"
+	},
+	"Antihero's Handbook": {
+		"title": "Antihero's Handbook",
+		"url": "https://paizo.com/products/btpy9s2i?Pathfinder-Player-Companion-Antiheros-Handbook"
+	},
+	"Aquatic Adventures": {
+		"title": "Aquatic Adventures",
+		"url": "https://paizo.com/products/btpy9q00?Pathfinder-Campaign-Setting-Aquatic-Adventures"
+	},
+	"Arcane Anthology": {
+		"title": "Arcane Anthology",
+		"url": "https://paizo.com/products/btpy9i8l?Pathfinder-Player-Companion-Arcane-Anthology"
+	},
+	"Armor Master's Handbook": {
+		"title": "Armor Master's Handbook",
+		"url": "https://paizo.com/products/btpy9jbh?Pathfinder-Player-Companion-Armor-Masters-Handbook"
+	},
+	"Artifacts and Legends": {
+		"title": "Artifacts and Legends",
+		"url": "https://paizo.com/products/btpy8u7k?Pathfinder-Campaign-Setting-Artifacts-Legends"
+	},
+	"Bastards of Golarion": {
+		"title": "Bastards of Golarion",
+		"url": "https://paizo.com/products/btpy93na?Pathfinder-Player-Companion-Bastards-of-Golarion"
+	},
+	"Belkzen, Hold of the Orc Hordes": {
+		"title": "Belkzen, Hold of the Orc Hordes",
+		"url": "https://paizo.com/products/btpy97lw?Pathfinder-Campaign-Setting-Belkzen-Hold-of-the-Orc-Hordes"
+	},
+	"Bestiary 2": {
+		"title": "Bestiary 2",
+		"url": "https://paizo.com/pathfinderRPG/v5748btpy8hif"
+	},
+	"Bestiary 3": {
+		"title": "Bestiary 3",
+		"url": "https://paizo.com/products/btpy8odu?Pathfinder-Roleplaying-Game-Bestiary-3"
+	},
+	"Bestiary 4": {
+		"title": "Bestiary 4",
+		"url": "https://paizo.com/products/btpy91ds?Pathfinder-Roleplaying-Game-Bestiary-4"
+	},
+	"Bestiary 5": {
+		"title": "Bestiary 5",
+		"url": "https://paizo.com/products/btpy9g9x?Pathfinder-Roleplaying-Game-Bestiary-5"
+	},
+	"Bestiary 6": {
+		"title": "Bestiary 6",
+		"url": "https://paizo.com/products/btpy9oge?Pathfinder-Roleplaying-Game-Bestiary-6-Hardcover"
+	},
+	"Beyond the Vault of Souls": {
+		"title": "Beyond the Vault of Souls",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy88zo"
+	},
+	"Black Markets": {
+		"title": "Black Markets",
+		"url": "https://paizo.com/products/btpy9h7x?Pathfinder-Player-Companion-Black-Markets"
+	},
+	"Blood of Angels": {
+		"title": "Blood of Angels",
+		"url": "https://paizo.com/products/btpy8sa7?Pathfinder-Player-Companion-Blood-of-Angels"
+	},
+	"Blood of Dragonscar": {
+		"title": "Blood of Dragonscar",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy8739"
+	},
+	"Blood of Fiends": {
+		"title": "Blood of Fiends",
+		"url": "https://paizo.com/products/btpy8qzz?Pathfinder-Player-Companion-Blood-of-Fiends"
+	},
+	"Blood of Shadows": {
+		"title": "Blood of Shadows",
+		"url": "https://paizo.com/products/btpy9j6s?Pathfinder-Player-Companion-Blood-of-Shadows"
+	},
+	"Blood of the Ancients": {
+		"title": "Blood of the Ancients",
+		"url": "https://paizo.com/products/btpy9wmz?Pathfinder-Player-Companion-Blood-of-the-Ancients"
+	},
+	"Blood of the Beast": {
+		"title": "Blood of the Beast",
+		"url": "https://paizo.com/products/btpy9oo8?Pathfinder-Player-Companion-Blood-of-the-Beast"
+	},
+	"Blood of the Coven": {
+		"title": "Blood of the Coven",
+		"url": "https://paizo.com/products/btpy9s3z?Pathfinder-Player-Companion-Blood-of-the-Coven"
+	},
+	"Blood of the Elements": {
+		"title": "Blood of the Elements",
+		"url": "https://paizo.com/products/btpy978p?Pathfinder-Player-Companion-Blood-of-the-Elements"
+	},
+	"Blood of the Moon": {
+		"title": "Blood of the Moon",
+		"url": "https://paizo.com/products/btpy91dq?Pathfinder-Player-Companion-Blood-of-the-Moon"
+	},
+	"Blood of the Night": {
+		"title": "Blood of the Night",
+		"url": "https://paizo.com/products/btpy8v33?Pathfinder-Player-Companion-Blood-of-the-Night"
+	},
+	"Blood of the Sea": {
+		"title": "Blood of the Sea",
+		"url": "https://paizo.com/products/btpy9qjp?Pathfinder-Player-Companion-Blood-of-the-Sea"
+	},
+	"Bonus Bestiary": {
+		"title": "Bonus Bestiary",
+		"url": "https://paizo.com/pathfinderRPG/v5748btpy88x4"
+	},
+	"Book of the Damned - Volume 1 Princes of Darkness": {
+		"title": "Book of the Damned - Volume 1: Princes of Darkness",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/pathfinderRPG/v5748btpy8a6f"
+	},
+	"Book of the Damned - Volume 2 Lords of Chaos": {
+		"title": "Book of the Damned - Volume 2: Lords of Chaos",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderChronicles/v5748btpy8hij"
+	},
+	"Book of the Damned - Volume 3 Horsemen of the Apocalypse": {
+		"title": "Book of the Damned - Volume 3: Horsemen of the Apocalypse",
+		"url": "https://paizo.com/products/btpy8odg?Pathfinder-Campaign-Setting-Book-of-the-Damned-Volume-3-Horsemen-of-the-Apocalypse"
+	},
+	"Book of the Damned": {
+		"title": "Book of the Damned",
+		"url": "https://paizo.com/products/btpy9tok"
+	},
+	"Broken Chains": {
+		"title": "Broken Chains",
+		"url": "https://paizo.com/products/btpy8w7n?Pathfinder-Module-Broken-Chains"
+	},
+	"Carnival of Tears": {
+		"title": "Carnival of Tears",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy80op"
+	},
+	"Carrion Crown Player's Guide": {
+		"title": "Carrion Crown Player's Guide",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/carrionCrown/v5748btpy8j0q"
+	},
+	"Carrion Hill": {
+		"title": "Carrion Hill",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/pathfinderRPG/v5748btpy8baj"
+	},
+	"Castles of the Inner Sea": {
+		"title": "Castles of the Inner Sea",
+		"url": "https://paizo.com/products/btpy8yvg?Pathfinder-Campaign-Setting-Castles-of-the-Inner-Sea"
+	},
+	"Champions of Balance": {
+		"title": "Champions of Balance",
+		"url": "https://paizo.com/products/btpy93nc?Pathfinder-Player-Companion-Champions-of-Balance"
+	},
+	"Champions of Corruption": {
+		"title": "Champions of Corruption",
+		"url": "https://paizo.com/products/btpy991x?Pathfinder-Player-Companion-Champions-of-Corruption"
+	},
+	"Champions of Purity": {
+		"title": "Champions of Purity",
+		"url": "https://paizo.com/products/btpy8x1s?Pathfinder-Player-Companion-Champions-of-Purity"
+	},
+	"Cheliax, Empire of Devils": {
+		"title": "Cheliax, Empire of Devils",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/pathfinderRPG/v5748btpy89ca"
+	},
+	"Cheliax, the Infernal Empire": {
+		"title": "Cheliax, the Infernal Empire",
+		"url": "https://paizo.com/products/btpy9hdv?Pathfinder-Campaign-Setting-Cheliax-The-Infernal-Empire"
+	},
+	"Chronicle of Legends": {
+		"title": "Chronicle of Legends",
+		"url": "https://paizo.com/products/btq01yji?Pathfinder-Player-Companion-Chronicle-of-Legends"
+	},
+	"Chronicle of the Righteous": {
+		"title": "Chronicle of the Righteous",
+		"url": "https://paizo.com/products/btpy8xe9?Pathfinder-Campaign-Setting-Chronicle-of-the-Righteous"
+	},
+	"Cities of Golarion": {
+		"title": "Cities of Golarion",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/pathfinderRPG/v5748btpy8b9l"
+	},
+	"City of Golden Death": {
+		"title": "City of Golden Death",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/pathfinderRPG/v5748btpy8dmj"
+	},
+	"City of Strangers": {
+		"title": "City of Strangers",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/pathfinderRPG/v5748btpy8fda"
+	},
+	"Clash of the Kingslayers": {
+		"title": "Clash of the Kingslayers",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy86uz"
+	},
+	"Classic Horrors Revisited": {
+		"title": "Classic Horrors Revisited",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/pathfinderRPG/v5748btpy8ban"
+	},
+	"Classic Monsters Revisited": {
+		"title": "Classic Monsters Revisited",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/35E/v5748btpy82r5"
+	},
+	"Classic Treasures Revisited": {
+		"title": "Classic Treasures Revisited",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/pathfinderRPG/v5748btpy8dmn"
+	},
+	"Cohorts and Companions": {
+		"title": "Cohorts and Companions",
+		"url": "https://paizo.com/products/btpy9e1c?Pathfinder-Player-Companion-Cohorts-Companions"
+	},
+	"Concordance of Rivals": {
+		"title": "Concordance of Rivals",
+		"url": "https://paizo.com/products/btq01x4d?Pathfinder-Campaign-Setting-Concordance-of-Rivals"
+	},
+	"Conquest of Bloodsworn Vale": {
+		"title": "Conquest of Bloodsworn Vale",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy7zd8"
+	},
+	"Construct Handbook": {
+		"title": "Construct Handbook",
+		"url": "https://paizo.com/products/btq01vam"
+	},
+	"Council of Thieves Player's Guide": {
+		"title": "Council of Thieves Player's Guide",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/councilOfThieves/v5748btpy89m7"
+	},
+	"Cradle of Night": {
+		"title": "Cradle of Night",
+		"url": "https://paizo.com/products/btpy9sk9?Pathfinder-Module-Cradle-of-Night"
+	},
+	"Crown of the Kobold King": {
+		"title": "Crown of the Kobold King",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy7yqz"
+	},
+	"Crucible of Chaos": {
+		"title": "Crucible of Chaos",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy81qt"
+	},
+	"Cult of the Ebon Destroyers": {
+		"title": "Cult of the Ebon Destroyers",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderModules/v5748btpy8ihu"
+	},
+	"Curse of the Crimson Throne": {
+		"title": "Curse of the Crimson Throne",
+		"url": "https://paizo.com/products/btpy9nme?Pathfinder-Adventure-Path-Curse-of-the-Crimson-Throne"
+	},
+	"Curse of the Crimson Throne Player's Guide": {
+		"title": "Curse of the Crimson Throne Player's Guide",
+		"url": "https://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/adventurePath/curseOfTheCrimsonThrone/v5748btpy8bdb"
+	},
+	"Curse of the Riven Sky": {
+		"title": "Curse of the Riven Sky",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/pathfinderRPG/v5748btpy8fd9"
+	},
+	"Dark Markets - A Guide to Katapesh": {
+		"title": "Dark Markets - A Guide to Katapesh",
+		"url": "https://paizo.com/products/btpy87ut?Pathfinder-Chronicles-Dark-Markets-A-Guide-to-Katapesh"
+	},
+	"Darklands Revisited": {
+		"title": "Darklands Revisited",
+		"url": "https://paizo.com/products/btpy9j72?Pathfinder-Campaign-Setting-Darklands-Revisited"
+	},
+	"Daughters of Fury": {
+		"title": "Daughters of Fury",
+		"url": "https://paizo.com/products/btpy9au7?Pathfinder-Module-Daughters-of-Fury"
+	},
+	"Demon Hunter's Handbook": {
+		"title": "Demon Hunter's Handbook",
+		"url": "https://paizo.com/products/btpy8ywa?Pathfinder-Player-Companion-Demon-Hunters-Handbook"
+	},
+	"Demons Revisited": {
+		"title": "Demons Revisited",
+		"url": "https://paizo.com/products/btpy8yvo?Pathfinder-Campaign-Setting-Demons-Revisited"
+	},
+	"Dirty Tactics Toolbox": {
+		"title": "Dirty Tactics Toolbox",
+		"url": "https://paizo.com/products/btpy9g23?Pathfinder-Player-Companion-Dirty-Tactics-Toolbox"
+	},
+	"Disciple's Doctrine": {
+		"title": "Disciple's Doctrine",
+		"url": "https://paizo.com/products/btpy9xew?Pathfinder-Player-Companion-Disciples-Doctrine"
+	},
+	"Distant Realms": {
+		"title": "Distant Realms",
+		"url": "https://paizo.com/products/btpy9x05?Pathfinder-Campaign-Setting-Distant-Realms"
+	},
+	"Distant Shores": {
+		"title": "Distant Shores",
+		"url": "https://paizo.com/products/btpy9gro?Pathfinder-Campaign-Setting-Distant-Shores"
+	},
+	"Distant Worlds": {
+		"title": "Distant Worlds",
+		"url": "https://paizo.com/products/btpy8qib?Pathfinder-Campaign-Setting-Distant-Worlds"
+	},
+	"Divine Anthology": {
+		"title": "Divine Anthology",
+		"url": "https://paizo.com/products/btpy9nvh?Pathfinder-Player-Companion-Divine-Anthology"
+	},
+	"Doom Comes to Dustpawn": {
+		"title": "Doom Comes to Dustpawn",
+		"url": "https://paizo.com/products/btpy8xc5?Pathfinder-Module-Doom-Comes-to-Dustpawn"
+	},
+	"Down the Blighted Path": {
+		"title": "Down the Blighted Path",
+		"url": "https://paizo.com/products/btpy9j6u?Pathfinder-Module-Down-the-Blighted-Path"
+	},
+	"Dragon Empires Gazetteer": {
+		"title": "Dragon Empires Gazetteer",
+		"url": "https://paizo.com/products/btpy8pfu?Pathfinder-Campaign-Setting-Dragon-Empires-Gazetteer"
+	},
+	"Dragon Empires Primer": {
+		"title": "Dragon Empires Primer",
+		"url": "https://paizo.com/products/btpy8pg0?Pathfinder-Player-Companion-Dragon-Empires-Primer"
+	},
+	"Dragons Revisited": {
+		"title": "Dragons Revisited",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/35E/v5748btpy87gg"
+	},
+	"Dragonslayer's Handbook": {
+		"title": "Dragonslayer's Handbook",
+		"url": "https://paizo.com/products/btpy8yw4?Pathfinder-Player-Companion-Dragonslayer-s-Handbook"
+	},
+	"Druma, Profit and Prophecy": {
+		"title": "Druma, Profit and Prophecy",
+		"url": "https://paizo.com/products/btq01zow"
+	},
+	"Dungeon Denizens Revisited": {
+		"title": "Dungeon Denizens Revisited",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/35E/v5748btpy87v1"
+	},
+	"Dungeoneer's Handbook": {
+		"title": "Dungeoneer's Handbook",
+		"url": "https://paizo.com/products/btpy8wfn?Pathfinder-Player-Companion-Dungeoneers-Handbook"
+	},
+	"Dungeons of Golarion": {
+		"title": "Dungeons of Golarion",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderChronicles/v5748btpy8lv5"
+	},
+	"Dwarves of Golarion": {
+		"title": "Dwarves of Golarion",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/pathfinderRPG/v5748btpy8b9j"
+	},
+	"Elemental Master's Handbook": {
+		"title": "Elemental Master's Handbook",
+		"url": "https://paizo.com/products/btpy9qyb?Pathfinder-Player-Companion-Elemental-Masters-Handbook"
+	},
+	"Elves of Golarion": {
+		"title": "Elves of Golarion",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/35E/v5748btpy85el"
+	},
+	"Entombed with the Pharaohs": {
+		"title": "Entombed with the Pharaohs",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy80ea"
+	},
+	"Faction Guide": {
+		"title": "Faction Guide",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/pathfinderRPG/v5748btpy8emo"
+	},
+	"Faiths and Philosophies": {
+		"title": "Faiths and Philosophies",
+		"url": "https://paizo.com/products/btpy8yw8?Pathfinder-Player-Companion-Faiths-Philosophies"
+	},
+	"Faiths of Balance": {
+		"title": "Faiths of Balance",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderCompanion/v5748btpy8lvb"
+	},
+	"Faiths of Corruption": {
+		"title": "Faiths of Corruption",
+		"url": "https://paizo.com/products/btpy8odc?Pathfinder-Player-Companion-Faiths-of-Corruption"
+	},
+	"Faiths of Golarion": {
+		"title": "Faiths of Golarion",
+		"url": "https://paizo.com/products/btq01vao"
+	},
+	"Faiths of Purity": {
+		"title": "Faiths of Purity",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderCompanion/v5748btpy8j60"
+	},
+	"Familiar Folio": {
+		"title": "Familiar Folio",
+		"url": "https://paizo.com/products/btpy98d3?Pathfinder-Player-Companion-Familiar-Folio"
+	},
+	"Fangwood Keep": {
+		"title": "Fangwood Keep",
+		"url": "https://paizo.com/products/btpy8x1o?Pathfinder-Module-Fangwood-Keep"
+	},
+	"Feast of Dust": {
+		"title": "Feast of Dust",
+		"url": "https://paizo.com/products/btpy9grq?Pathfinder-Module-Feast-of-Dust"
+	},
+	"Feast of Ravenmoor": {
+		"title": "Feast of Ravenmoor",
+		"url": "https://paizo.com/products/btpy8mw2?Pathfinder-Module-Feast-of-Ravenmoor"
+	},
+	"Fey Revisited": {
+		"title": "Fey Revisited",
+		"url": "https://paizo.com/products/btpy8xeb?Pathfinder-Campaign-Setting-Fey-Revisited"
+	},
+	"Flight of the Red Raven": {
+		"title": "Flight of the Red Raven",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy82tv"
+	},
+	"From Shore to Sea": {
+		"title": "From Shore to Sea",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/pathfinderRPG/v5748btpy8evj"
+	},
+	"Gallery of Evil": {
+		"title": "Gallery of Evil",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy804h"
+	},
+	"Gallows of Madness": {
+		"title": "Gallows of Madness",
+		"url": "https://paizo.com/products/btpy9nfu/discuss&amp;page=last?Pathfinder-Module-Gallows-of-Madness"
+	},
+	"GameMastery Guide": {
+		"title": "GameMastery Guide",
+		"url": "https://paizo.com/pathfinderRPG/v5748btpy8ffn"
+	},
+	"GameMastery Condition Cards": {
+		"title": "GameMastery Condition Cards",
+		"url": "https://paizo.com/products/btpy8x9f?GameMastery-Condition-Cards"
+	},
+	"Giant Hunter's Handbook": {
+		"title": "Giant Hunter's Handbook",
+		"url": "https://paizo.com/products/btpy99s4?Pathfinder-Player-Companion-Giant-Hunters-Handbook"
+	},
+	"Giants Revisited": {
+		"title": "Giants Revisited",
+		"url": "https://paizo.com/products/btpy8rv4?Pathfinder-Campaign-Setting-Giants-Revisited"
+	},
+	"Giantslayer Player's Guide": {
+		"title": "Giantslayer Player's Guide",
+		"url": "https://paizo.com/products/btpy9bsv?Pathfinder-Adventure-Path-Giantslayer-Players-Guide"
+	},
+	"Gnomes of Golarion": {
+		"title": "Gnomes of Golarion",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/pathfinderRPG/v5748btpy8dmh"
+	},
+	"Goblins of Golarion": {
+		"title": "Goblins of Golarion",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderCompanion/v5748btpy8mfk"
+	},
+	"Gods and Magic": {
+		"title": "Gods and Magic",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/35E/v5748btpy85eh"
+	},
+	"Guardians of Dragonfall": {
+		"title": "Guardians of Dragonfall",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy811p"
+	},
+	"Guide to Darkmoon Vale": {
+		"title": "Guide to Darkmoon Vale",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/35E/v5748btpy83yv"
+	},
+	"Guide to Korvosa": {
+		"title": "Guide to Korvosa",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/35E/v5748btpy81xy"
+	},
+	"Guide to the River Kingdoms": {
+		"title": "Guide to the River Kingdoms",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/pathfinderRPG/v5748btpy8d50"
+	},
+	"Halflings of Golarion": {
+		"title": "Halflings of Golarion",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderCompanion/v5748btpy8i8p"
+	},
+	"Haunted Heroes Handbook": {
+		"title": "Haunted Heroes Handbook",
+		"url": "https://paizo.com/products/btpy9nft?Pathfinder-Player-Companion-Haunted-Heroes-Handbook"
+	},
+	"Healer's Handbook": {
+		"title": "Healer's Handbook",
+		"url": "https://paizo.com/products/btpy9nd4?Pathfinder-Player-Companion-Healers-Handbook"
+	},
+	"Heart of the Jungle": {
+		"title": "Heart of the Jungle",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/pathfinderRPG/v5748btpy8evh"
+	},
+	"Heaven Unleashed": {
+		"title": "Heaven Unleashed",
+		"url": "https://paizo.com/products/btpy9jbd?Pathfinder-Campaign-Setting-Heaven-Unleashed"
+	},
+	"Hell Unleashed": {
+		"title": "Hell Unleashed",
+		"url": "https://paizo.com/products/btpy9ext?Pathfinder-Campaign-Setting-Hell-Unleashed"
+	},
+	"Hell's Rebels Player's Guide": {
+		"title": "Hell's Rebels Player's Guide",
+		"url": "https://paizo.com/products/btpy9g44?Pathfinder-Adventure-Path-Hells-Rebels-Players-Guide"
+	},
+	"Hell's Vengeance Player's Guide": {
+		"title": "Hell's Vengeance Player's Guide",
+		"url": "https://paizo.com/products/btpy9jva"
+	},
+	"Heroes from the Fringe": {
+		"title": "Heroes from the Fringe",
+		"url": "https://paizo.com/products/btpy9xdr?Pathfinder-Player-Companion-Heroes-from-the-Fringe"
+	},
+	"Heroes of Golarion": {
+		"title": "Heroes of Golarion",
+		"url": "https://paizo.com/products/btq01wom"
+	},
+	"Heroes of the Darklands": {
+		"title": "Heroes of the Darklands",
+		"url": "https://paizo.com/products/btpy9sjq"
+	},
+	"Heroes of the High Court": {
+		"title": "Heroes of the High Court",
+		"url": "https://paizo.com/products/btpy9nda?Pathfinder-Player-Companion-Heroes-of-the-High-Court"
+	},
+	"Heroes of the Streets": {
+		"title": "Heroes of the Streets",
+		"url": "https://paizo.com/products/btpy9ghc?Pathfinder-Player-Companion-Heroes-of-the-Streets"
+	},
+	"Heroes of the Wild": {
+		"title": "Heroes of the Wild",
+		"url": "https://paizo.com/products/btpy9cro?Pathfinder-Player-Companion-Heroes-of-the-Wild"
+	},
+	"Hollow's Last Hope": {
+		"title": "Hollow's Last Hope",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy82qz"
+	},
+	"Horror Adventures": {
+		"title": "Horror Adventures",
+		"url": "https://paizo.com/products/btpy9n5a?Pathfinder-Roleplaying-Game-Horror-Adventures"
+	},
+	"Horror Realms": {
+		"title": "Horror Realms",
+		"url": "https://paizo.com/products/btpy9op8?Pathfinder-Campaign-Setting-Horror-Realms"
+	},
+	"Humans of Golarion": {
+		"title": "Humans of Golarion",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderCompanion/v5748btpy8l3k"
+	},
+	"Hungry are the Dead": {
+		"title": "Hungry are the Dead",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy85en"
+	},
+	"Inner Sea Bestiary": {
+		"title": "Inner Sea Bestiary",
+		"url": "https://paizo.com/products/btpy8v2x?Pathfinder-Campaign-Setting-Inner-Sea-Bestiary"
+	},
+	"Inner Sea Combat": {
+		"title": "Inner Sea Combat",
+		"url": "https://paizo.com/products/btpy95b1?Pathfinder-Campaign-Setting-Inner-Sea-Combat"
+	},
+	"Inner Sea Faiths": {
+		"title": "Inner Sea Faiths",
+		"url": "https://paizo.com/products/btpy9j74?Pathfinder-Campaign-Setting-Inner-Sea-Faiths"
+	},
+	"Inner Sea Gods": {
+		"title": "Inner Sea Gods",
+		"url": "https://paizo.com/products/btpy94wj?Pathfinder-Campaign-Setting-Inner-Sea-Gods-Hardcover"
+	},
+	"Inner Sea Intrigue": {
+		"title": "Inner Sea Intrigue",
+		"url": "https://paizo.com/products/btpy9l37/discuss&amp;page=5?Pathfinder-Campaign-Setting-Inner-Sea-Intrigue"
+	},
+	"Inner Sea Magic": {
+		"title": "Inner Sea Magic",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderChronicles/v5748btpy8mfs"
+	},
+	"Inner Sea Monster Codex": {
+		"title": "Inner Sea Monster Codex",
+		"url": "https://paizo.com/products/btpy9elc?Pathfinder-Campaign-Setting-Inner-Sea-Monster-Codex"
+	},
+	"Inner Sea NPC Codex": {
+		"title": "Inner Sea NPC Codex",
+		"url": "https://paizo.com/products/btpy92lj?Pathfinder-Campaign-Setting-Inner-Sea-NPC-Codex"
+	},
+	"Inner Sea Primer": {
+		"title": "Inner Sea Primer",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/pathfinderRPG/v5748btpy8hih"
+	},
+	"Inner Sea Races": {
+		"title": "Inner Sea Races",
+		"url": "https://paizo.com/products/btpy9g9v?Pathfinder-Campaign-Setting-Inner-Sea-Races"
+	},
+	"Inner Sea Taverns": {
+		"title": "Inner Sea Taverns",
+		"url": "https://paizo.com/products/btpy9zk9?Pathfinder-Campaign-Setting-Inner-Sea-Taverns"
+	},
+	"Inner Sea Temples": {
+		"title": "Inner Sea Temples",
+		"url": "https://paizo.com/products/btpy9op7?Pathfinder-Campaign-Setting-Inner-Sea-Temples"
+	},
+	"Inner Sea World Guide": {
+		"title": "Inner Sea World Guide",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderChronicles/v5748btpy8ief"
+	},
+	"Into the Darklands": {
+		"title": "Into the Darklands",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/35E/v5748btpy85ej"
+	},
+	"Ire of the Storm": {
+		"title": "Ire of the Storm",
+		"url": "https://paizo.com/products/btpy9jbf?Pathfinder-Module-Ire-of-the-Storm"
+	},
+	"Iron Gods Player's Guide": {
+		"title": "Iron Gods Player's Guide",
+		"url": "https://paizo.com/products/btpy98lf?Pathfinder-Adventure-Path-Iron-Gods-Players-Guide"
+	},
+	"Ironfang Invasion Player's Guide": {
+		"title": "Ironfang Invasion Player's Guide",
+		"url": "https://paizo.com/products/btpy9sc5"
+	},
+	"Irrisen - Land of Eternal Winter": {
+		"title": "Irrisen - Land of Eternal Winter",
+		"url": "https://paizo.com/products/btpy8w7f?Pathfinder-Campaign-Setting-Irrisen-Land-of-Eternal-Winter"
+	},
+	"Isles of the Shackles": {
+		"title": "Isles of the Shackles",
+		"url": "https://paizo.com/products/btpy8qzx?Pathfinder-Campaign-Setting-Isles-of-the-Shackles"
+	},
+	"Jade Regent Player's Guide": {
+		"title": "Jade Regent Player's Guide",
+		"url": "https://paizo.com/products/btpy8mh3?Pathfinder-Adventure-Path-Jade-Regent-Players-Guide"
+	},
+	"Kingmaker Player's Guide": {
+		"title": "Kingmaker Player's Guide",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/kingmaker/v5748btpy8dqh"
+	},
+	"Knights of the Inner Sea": {
+		"title": "Knights of the Inner Sea",
+		"url": "https://paizo.com/products/btpy8ufc?Pathfinder-Player-Companion-Knights-of-the-Inner-Sea"
+	},
+	"Kobolds of Golarion": {
+		"title": "Kobolds of Golarion",
+		"url": "https://paizo.com/products/btpy8yw0?Pathfinder-Player-Companion-Kobolds-of-Golarion"
+	},
+	"Lands of the Linnorm Kings": {
+		"title": "Lands of the Linnorm Kings",
+		"url": "https://paizo.com/products/btpy8ode?Pathfinder-Campaign-Setting-Lands-of-the-Linnorm-Kings"
+	},
+	"Legacy of Dragons": {
+		"title": "Legacy of Dragons",
+		"url": "https://paizo.com/products/btpy9nfl?Pathfinder-Player-Companion-Legacy-of-Dragons"
+	},
+	"Legacy of Fire Player's Guide": {
+		"title": "Legacy of Fire Player's Guide",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/35E/v5748btpy8737"
+	},
+	"Legacy of the First World": {
+		"title": "Legacy of the First World",
+		"url": "https://paizo.com/products/btpy9pn6?Pathfinder-Player-Companion-Legacy-of-the-First-World"
+	},
+	"Lost Cities of Golarion": {
+		"title": "Lost Cities of Golarion",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderChronicles/v5748btpy8i8t"
+	},
+	"Lost Kingdoms": {
+		"title": "Lost Kingdoms",
+		"url": "https://paizo.com/products/btpy8sa5?Pathfinder-Campaign-Setting-Lost-Kingdoms"
+	},
+	"Lost Treasures": {
+		"title": "Lost Treasures",
+		"url": "https://paizo.com/products/btpy99sa?Pathfinder-Campaign-Setting-Lost-Treasures"
+	},
+	"Magic Tactics Toolbox": {
+		"title": "Magic Tactics Toolbox",
+		"url": "https://paizo.com/products/btpy9l2u?Pathfinder-Player-Companion-Magic-Tactics-Toolbox"
+	},
+	"Magic of Thassilon": {
+		"title": "Magic of Thassilon",
+		"url": "https://paizo.com/paizo/blog/tags/freeStuff/v5748dyo5la2f"
+	},
+	"Magical Marketplace": {
+		"title": "Magical Marketplace",
+		"url": "https://paizo.com/products/btpy92lv?Pathfinder-Player-Companion-Magical-Marketplace"
+	},
+	"Magnimar, City of Monuments": {
+		"title": "Magnimar, City of Monuments",
+		"url": "https://paizo.com/products/btpy8slp?Pathfinder-Campaign-Setting-Magnimar-City-of-Monuments"
+	},
+	"Martial Arts Handbook": {
+		"title": "Martial Arts Handbook",
+		"url": "https://paizo.com/products/btpya0b6"
+	},
+	"Masks of the Living God": {
+		"title": "Masks of the Living God",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/pathfinderRPG/v5748btpy8bal"
+	},
+	"Melee Tactics Toolbox": {
+		"title": "Melee Tactics Toolbox",
+		"url": "https://paizo.com/products/btpy9c23?Pathfinder-Player-Companion-Melee-Tactics-Toolbox"
+	},
+	"Merchant's Manifest": {
+		"title": "Merchant's Manifest",
+		"url": "https://paizo.com/products/btpy9vn1?Pathfinder-Player-Companion-Merchants-Manifest"
+	},
+	"Misfit Monsters Redeemed": {
+		"title": "Misfit Monsters Redeemed",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/pathfinderRPG/v5748btpy8gnj"
+	},
+	"Monster Codex": {
+		"title": "Monster Codex",
+		"url": "https://paizo.com/products/btpy9926?Pathfinder-Roleplaying-Game-Monster-Codex"
+	},
+	"Monster Hunter's Handbook": {
+		"title": "Monster Hunter's Handbook",
+		"url": "https://paizo.com/products/btpy9s7z"
+	},
+	"Monster Summoner's Handbook": {
+		"title": "Monster Summoner's Handbook",
+		"url": "https://paizo.com/products/btpy9ela?Pathfinder-Player-Companion-Monster-Summoners-Handbook"
+	},
+	"Mummy's Mask Player's Guide": {
+		"title": "Mummy's Mask Player's Guide",
+		"url": "https://paizo.com/products/btpy94z3?Pathfinder-Adventure-Path-Mummys-Mask-Players-Guide"
+	},
+	"Murder's Mark": {
+		"title": "Murder's Mark",
+		"url": "https://paizo.com/products/btpy8tj9?Pathfinder-Module-Murders-Mark"
+	},
+	"Mystery Monsters Revisited": {
+		"title": "Mystery Monsters Revisited",
+		"url": "https://paizo.com/products/btpy8v2z?Pathfinder-Campaign-Setting-Mystery-Monsters-Revisited"
+	},
+	"Mythic Adventures": {
+		"title": "Mythic Adventures",
+		"url": "https://paizo.com/products/btpy8ywe?Pathfinder-Roleplaying-Game-Mythic-Adventures"
+	},
+	"Mythic Origins": {
+		"title": "Mythic Origins",
+		"url": "https://paizo.com/products/btpy90qd?Pathfinder-Player-Companion-Mythic-Origins"
+	},
+	"Mythic Realms": {
+		"title": "Mythic Realms",
+		"url": "https://paizo.com/products/btpy90q7?Pathfinder-Campaign-Setting-Mythic-Realms"
+	},
+	"Mythical Monsters Revisited": {
+		"title": "Mythical Monsters Revisited",
+		"url": "https://paizo.com/products/btpy8pfw?Pathfinder-Campaign-Setting-Mythical-Monsters-Revisited"
+	},
+	"Nidal, Land of Shadows": {
+		"title": "Nidal, Land of Shadows",
+		"url": "https://paizo.com/products/btpy9vtf?Pathfinder-Campaign-Setting-Nidal-Land-of-Shadows"
+	},
+	"No Response from Deepmar": {
+		"title": "No Response from Deepmar",
+		"url": "https://paizo.com/products/btpy8rgl?Pathfinder-Module-No-Response-from-Deepmar"
+	},
+	"NPC Codex": {
+		"title": "NPC Codex",
+		"url": "https://paizo.com/products/btpy8v3a?Pathfinder-Roleplaying-Game-NPC-Codex"
+	},
+	"Numeria, Land of Fallen Stars": {
+		"title": "Numeria, Land of Fallen Stars",
+		"url": "https://paizo.com/products/btpy978l?Pathfinder-Campaign-Setting-Numeria-Land-of-Fallen-Stars"
+	},
+	"Occult Adventures": {
+		"title": "Occult Adventures",
+		"url": "https://paizo.com/products/btpy9egu?Pathfinder-Roleplaying-Game-Occult-Adventures"
+	},
+	"Occult Bestiary": {
+		"title": "Occult Bestiary",
+		"url": "https://paizo.com/products/btpy9g21?Pathfinder-Campaign-Setting-Occult-Bestiary"
+	},
+	"Occult Mysteries": {
+		"title": "Occult Mysteries",
+		"url": "https://paizo.com/products/btpy95zo?Pathfinder-Campaign-Setting-Occult-Mysteries"
+	},
+	"Occult Origins": {
+		"title": "Occult Origins",
+		"url": "https://paizo.com/products/btpy9grw?Pathfinder-Player-Companion-Occult-Origins"
+	},
+	"Occult Realms": {
+		"title": "Occult Realms",
+		"url": "https://paizo.com/products/btpy9hdt?Pathfinder-Campaign-Setting-Occult-Realms"
+	},
+	"Orcs of Golarion": {
+		"title": "Orcs of Golarion",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/pathfinderRPG/v5748btpy8b81"
+	},
+	"Osirion, Land of the Pharaohs": {
+		"title": "Osirion, Land of the Pharaohs",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/35E/v5748btpy86j7"
+	},
+	"Osirion, Legacy of the Pharaohs": {
+		"title": "Osirion, Legacy of the Pharaohs",
+		"url": "https://paizo.com/products/btpy93n8?Pathfinder-Campaign-Setting-Osirion-Legacy-of-Pharaohs"
+	},
+	"PRPG Core Rulebook": {
+		"title": "PRPG Core Rulebook",
+		"url": "https://paizo.com/pathfinderRPG/v5748btpy88yj"
+	},
+	"Paizo Blog - Golarion Day Subdomains": {
+		"title": "Paizo Blog - Golarion Day Subdomains",
+		"url": "https://paizo.com/paizo/blog/v5748dyo5lbvp"
+	},
+	"Paizo Blog - Hodgepodge from the Grand Lodge": {
+		"title": "Paizo Blog - Hodgepodge from the Grand Lodge",
+		"url": "https://paizo.com/community/blog/v5748dyo6sgn6?Hodgepodge-from-the-Grand-Lodge"
+	},
+	"Paizo Blog - The Gauntlet Will Be Ours!": {
+		"title": "Paizo Blog - The Gauntlet Will Be Ours!",
+		"url": "https://paizo.com/community/blog/v5748dyo5lg4g?The-Gauntlet-Will-Be-Ours"
+	},
+	"Paizo Blog - Ultimate Cantrips": {
+		"title": "Paizo Blog - Ultimate Cantrips",
+		"url": "https://paizo.com/paizo/blog/v5748dyo5lc7e"
+	},
+	"Path of the Hellknight": {
+		"title": "Path of the Hellknight",
+		"url": "https://paizo.com/products/btpy9l39?Pathfinder-Campaign-Setting-Path-of-the-Hellknight"
+	},
+	"Pathfinder #100 A Song of Silver": {
+		"title": "Pathfinder #100: A Song of Silver",
+		"url": "https://paizo.com/products/btpy9grm?Pathfinder-Adventure-Path-100-A-Song-of-Silver"
+	},
+	"Pathfinder #101 The Kintargo Contract": {
+		"title": "Pathfinder #101: The Kintargo Contract",
+		"url": "https://paizo.com/products/btpy9hdr?Pathfinder-Adventure-Path-101-The-Kintargo-Contract"
+	},
+	"Pathfinder #102 Breaking the Bones of Hell": {
+		"title": "Pathfinder #102: Breaking the Bones of Hell",
+		"url": "https://paizo.com/products/btpy9i8d?Pathfinder-Adventure-Path-102-Breaking-the-Bones-of-Hell"
+	},
+	"Pathfinder #103 The Hellfire Compact": {
+		"title": "Pathfinder #103: The Hellfire Compact",
+		"url": "https://paizo.com/products/btpy9j6n?Pathfinder-Adventure-Path-103-The-Hellfire-Compact"
+	},
+	"Pathfinder #104 Wrath of Thrune": {
+		"title": "Pathfinder #104: Wrath of Thrune",
+		"url": "https://paizo.com/products/btpy9jb7?Pathfinder-Adventure-Path-104-Wrath-of-Thrune"
+	},
+	"Pathfinder #105 The Inferno Gate": {
+		"title": "Pathfinder #105: The Inferno Gate",
+		"url": "https://paizo.com/products/btpy9jb9?Pathfinder-Adventure-Path-105-The-Inferno-Gate"
+	},
+	"Pathfinder #106 For Queen and Empire": {
+		"title": "Pathfinder #106: For Queen and Empire",
+		"url": "https://paizo.com/products/btpy9l3b?Pathfinder-Adventure-Path-106-For-Queen-Empire"
+	},
+	"Pathfinder #107 Scourge of the Godclaw": {
+		"title": "Pathfinder #107: Scourge of the Godclaw",
+		"url": "https://paizo.com/products/btpy9n0j?Pathfinder-Adventure-Path-107-Scourge-of-the-Godclaw"
+	},
+	"Pathfinder #108 Hell Comes to Westcrown": {
+		"title": "Pathfinder #108: Hell Comes to Westcrown",
+		"url": "https://paizo.com/products/btpy9nmc?Pathfinder-Adventure-Path-108-Hell-Comes-to-Westcrown"
+	},
+	"Pathfinder #109 In Search of Sanity": {
+		"title": "Pathfinder #109: In Search of Sanity",
+		"url": "https://paizo.com/products/btpy9nry?Pathfinder-Adventure-Path-109-In-Search-of-Sanity"
+	},
+	"Pathfinder #10 A History of Ashes": {
+		"title": "Pathfinder #10: A History of Ashes",
+		"url": "https://paizo.com/pathfinder/adventurePath/curseOfTheCrimsonThrone/v5748btpy82u9"
+	},
+	"Pathfinder #110 The Thrushmoor Terror": {
+		"title": "Pathfinder #110: The Thrushmoor Terror",
+		"url": "https://paizo.com/products/btpy9l3g"
+	},
+	"Pathfinder #111 Dreams of the Yellow King": {
+		"title": "Pathfinder #111: Dreams of the Yellow King",
+		"url": "https://paizo.com/products/btpy9pmo?Pathfinder-Adventure-Path-111-Dreams-of-the-Yellow-King"
+	},
+	"Pathfinder #112 The Whisper Out of Time": {
+		"title": "Pathfinder #112: The Whisper Out of Time",
+		"url": "https://paizo.com/products/btpy9q9o?Pathfinder-Adventure-Path-112-The-Whisper-Out-of-Time"
+	},
+	"Pathfinder #113 What Grows Within": {
+		"title": "Pathfinder #113: What Grows Within",
+		"url": "https://paizo.com/products/btpy9qcl?Pathfinder-Adventure-Path-113-What-Grows-Within"
+	},
+	"Pathfinder #114 Black Stars Beckon": {
+		"title": "Pathfinder #114: Black Stars Beckon",
+		"url": "https://paizo.com/products/btpy9qcm?Pathfinder-Adventure-Path-114-Black-Stars-Beckon"
+	},
+	"Pathfinder #115 Trail of the Hunted": {
+		"title": "Pathfinder #115: Trail of the Hunted",
+		"url": "https://paizo.com/products/btpy9npj"
+	},
+	"Pathfinder #116 Fangs of War": {
+		"title": "Pathfinder #116: Fangs of War",
+		"url": "https://paizo.com/products/btpy9npk"
+	},
+	"Pathfinder #117 Assault on Longshadow": {
+		"title": "Pathfinder #117: Assault on Longshadow",
+		"url": "https://paizo.com/products/btpy9p1h"
+	},
+	"Pathfinder #118 Siege of Stone": {
+		"title": "Pathfinder #118: Siege of Stone",
+		"url": "https://paizo.com/products/btpy9pn4"
+	},
+	"Pathfinder #119 Prisoners of the Blight": {
+		"title": "Pathfinder #119: Prisoners of the Blight",
+		"url": "https://paizo.com/products/btpy9npn"
+	},
+	"Pathfinder #11 Skeletons of Scarwall": {
+		"title": "Pathfinder #11: Skeletons of Scarwall",
+		"url": "https://paizo.com/pathfinder/adventurePath/curseOfTheCrimsonThrone/v5748btpy83yw"
+	},
+	"Pathfinder #120 Vault of the Onyx Citadel": {
+		"title": "Pathfinder #120: Vault of the Onyx Citadel",
+		"url": "https://paizo.com/products/btpy9npo"
+	},
+	"Pathfinder #121 The Lost Outpost": {
+		"title": "Pathfinder #121: The Lost Outpost",
+		"url": "https://paizo.com/products/btpy9trj?Pathfinder-Adventure-Path-121-The-Lost-Outpost"
+	},
+	"Pathfinder #122 Into the Shattered Continent": {
+		"title": "Pathfinder #122: Into the Shattered Continent",
+		"url": "https://paizo.com/products/btpy9uk0?Pathfinder-Adventure-Path-122-Into-the-Shattered-Continent"
+	},
+	"Pathfinder #123 The Flooded Cathedral": {
+		"title": "Pathfinder #123: The Flooded Cathedral",
+		"url": "https://paizo.com/products/btpy9uk2?Pathfinder-Adventure-Path-123-The-Flooded-Cathedral"
+	},
+	"Pathfinder #124 City in the Deep": {
+		"title": "Pathfinder #124: City in the Deep",
+		"url": "https://paizo.com/products/btpy9x2h?Pathfinder-Adventure-Path-124-City-in-the-Deep"
+	},
+	"Pathfinder #125 Tower of the Drowned Dead": {
+		"title": "Pathfinder #125: Tower of the Drowned Dead",
+		"url": "https://paizo.com/products/btpy9xa1?Pathfinder-Adventure-Path-125-Tower-of-the-Drowned-Dead"
+	},
+	"Pathfinder #126 Beyond the Veiled Past": {
+		"title": "Pathfinder #126: Beyond the Veiled Past",
+		"url": "https://paizo.com/products/btpy9xf0?Pathfinder-Adventure-Path-126-Beyond-the-Veiled-Past"
+	},
+	"Pathfinder #127 Crownfall": {
+		"title": "Pathfinder #127: Crownfall",
+		"url": "https://paizo.com/products/btpy9zk7?Pathfinder-Adventure-Path-127-Crownfall"
+	},
+	"Pathfinder #128 Songbird, Scion, Saboteur": {
+		"title": "Pathfinder #128: Songbird, Scion, Saboteur",
+		"url": "https://paizo.com/products/btpy9vn0?Pathfinder-Adventure-Path-128-Songbird-Scion-Saboteur"
+	},
+	"Pathfinder #129 The Twilight Child": {
+		"title": "Pathfinder #129: The Twilight Child",
+		"url": "https://paizo.com/products/btpy9vte?Pathfinder-Adventure-Path-129-The-Twilight-Child"
+	},
+	"Pathfinder #12 Crown of Fangs": {
+		"title": "Pathfinder #12: Crown of Fangs",
+		"url": "https://paizo.com/pathfinder/adventurePath/curseOfTheCrimsonThrone/v5748btpy84el"
+	},
+	"Pathfinder #130 City in the Lion's Eye": {
+		"title": "Pathfinder #130: City in the Lion's Eye",
+		"url": "https://paizo.com/products/btpy9wmy?Pathfinder-Adventure-Path-City-in-the-Lions-Eye"
+	},
+	"Pathfinder #131 The Reaper's Right Hand": {
+		"title": "Pathfinder #131: The Reaper's Right Hand",
+		"url": "https://paizo.com/products/btpy9x04?Pathfinder-Adventure-Path-The-Reaper-s-Right-Hand"
+	},
+	"Pathfinder #132 The Six-Legend Soul": {
+		"title": "Pathfinder #132: The Six-Legend Soul",
+		"url": "https://paizo.com/products/btpy9xdq?Pathfinder-Adventure-Path-The-SixLegend-Soul"
+	},
+	"Pathfinder #133 Secrets of Roderic's Cove": {
+		"title": "Pathfinder #133: Secrets of Roderic's Cove",
+		"url": "https://paizo.com/products/btpy9y26?Pathfinder-Adventure-Path-133-Secrets-of-Rodericks-Cove"
+	},
+	"Pathfinder #134 It Came from Hollow Mountain": {
+		"title": "Pathfinder #134: It Came from Hollow Mountain",
+		"url": "https://paizo.com/products/btpy9z14?Pathfinder-Adventure-Path-134-It-Came-from-Hollow-Mountain"
+	},
+	"Pathfinder #135 Runeplague": {
+		"title": "Pathfinder #135: Runeplague",
+		"url": "https://paizo.com/products/btpy9zsl"
+	},
+	"Pathfinder #136 Temple of the Peacock Spirit": {
+		"title": "Pathfinder #136: Temple of the Peacock Spirit",
+		"url": "https://paizo.com/products/btpya0b5"
+	},
+	"Pathfinder #137 The City Outside of Time": {
+		"title": "Pathfinder #137: The City Outside of Time",
+		"url": "https://paizo.com/products/btq01vak"
+	},
+	"Pathfinder #138 Rise of New Thassilon": {
+		"title": "Pathfinder #138: Rise of New Thassilon",
+		"url": "https://paizo.com/products/btq01w1w"
+	},
+	"Pathfinder #139 The Dead Road": {
+		"title": "Pathfinder #139: The Dead Road",
+		"url": "https://paizo.com/products/btq01ws3"
+	},
+	"Pathfinder #13 Shadow in the Sky": {
+		"title": "Pathfinder #13: Shadow in the Sky",
+		"url": "https://paizo.com/pathfinder/adventurePath/secondDarkness/v5748btpy84em"
+	},
+	"Pathfinder #140 Eulogy for Roslar's Coffer": {
+		"title": "Pathfinder #140: Eulogy for Roslar's Coffer",
+		"url": "https://paizo.com/products/btq01x4b"
+	},
+	"Pathfinder #141 Last Watch": {
+		"title": "Pathfinder #141: Last Watch",
+		"url": "https://paizo.com/products/btq01x4f?Pathfinder-Adventure-Path-141-Last-Watch"
+	},
+	"Pathfinder #142 Gardens of Gallowspire": {
+		"title": "Pathfinder #142: Gardens of Gallowspire",
+		"url": "https://paizo.com/products/btq01yj6?Pathfinder-Adventure-Path-142-Gardens-of-Gallowspire"
+	},
+	"Pathfinder #143 Borne by the Sun's Grace": {
+		"title": "Pathfinder #143: Borne by the Sun's Grace",
+		"url": "https://paizo.com/products/btq01vyh"
+	},
+	"Pathfinder #144 Midwives to Death": {
+		"title": "Pathfinder #144: Midwives to Death",
+		"url": "https://paizo.com/products/btq01zno"
+	},
+	"Pathfinder #14 Children of the Void": {
+		"title": "Pathfinder #14: Children of the Void",
+		"url": "https://paizo.com/pathfinder/adventurePath/secondDarkness/v5748btpy85ed"
+	},
+	"Pathfinder #15 The Armageddon Echo": {
+		"title": "Pathfinder #15: The Armageddon Echo",
+		"url": "https://paizo.com/pathfinder/adventurePath/secondDarkness/v5748btpy85ep"
+	},
+	"Pathfinder #16 Endless Night": {
+		"title": "Pathfinder #16: Endless Night",
+		"url": "https://paizo.com/pathfinder/adventurePath/secondDarkness/v5748btpy85er"
+	},
+	"Pathfinder #17 A Memory of Darkness": {
+		"title": "Pathfinder #17: A Memory of Darkness",
+		"url": "https://paizo.com/pathfinder/adventurePath/secondDarkness/v5748btpy86j6"
+	},
+	"Pathfinder #18 Descent into Midnight": {
+		"title": "Pathfinder #18: Descent into Midnight",
+		"url": "https://paizo.com/pathfinder/adventurePath/secondDarkness/v5748btpy86v1"
+	},
+	"Pathfinder #19 Howl of the Carrion King": {
+		"title": "Pathfinder #19: Howl of the Carrion King",
+		"url": "https://paizo.com/pathfinder/adventurePath/legacyOfFire/v5748btpy8735"
+	},
+	"Pathfinder #1 Burnt Offerings": {
+		"title": "Pathfinder #1: Burnt Offerings",
+		"url": "https://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy7zkq"
+	},
+	"Pathfinder #20 House of the Beast": {
+		"title": "Pathfinder #20: House of the Beast",
+		"url": "https://paizo.com/pathfinder/adventurePath/legacyOfFire/v5748btpy86xw"
+	},
+	"Pathfinder #21 The Jackal's Price": {
+		"title": "Pathfinder #21: The Jackal's Price",
+		"url": "https://paizo.com/pathfinder/adventurePath/legacyOfFire/v5748btpy87uv"
+	},
+	"Pathfinder #22 The End of Eternity": {
+		"title": "Pathfinder #22: The End of Eternity",
+		"url": "https://paizo.com/pathfinder/adventurePath/legacyOfFire/v5748btpy87ux"
+	},
+	"Pathfinder #23 The Impossible Eye": {
+		"title": "Pathfinder #23: The Impossible Eye",
+		"url": "https://paizo.com/pathfinder/adventurePath/legacyOfFire/v5748btpy88tp"
+	},
+	"Pathfinder #24 The Final Wish": {
+		"title": "Pathfinder #24: The Final Wish",
+		"url": "https://paizo.com/pathfinder/adventurePath/legacyOfFire/v5748btpy89a2"
+	},
+	"Pathfinder #25 The Bastards of Erebus": {
+		"title": "Pathfinder #25: The Bastards of Erebus",
+		"url": "https://paizo.com/pathfinder/v5748btpy89a4"
+	},
+	"Pathfinder #26 The Sixfold Trial": {
+		"title": "Pathfinder #26: The Sixfold Trial",
+		"url": "https://paizo.com/pathfinder/adventurePath/councilOfThieves/v5748btpy89vw"
+	},
+	"Pathfinder #27 What Lies in Dust": {
+		"title": "Pathfinder #27: What Lies in Dust",
+		"url": "https://paizo.com/pathfinder/adventurePath/councilOfThieves/v5748btpy8b8h"
+	},
+	"Pathfinder #28 The Infernal Syndrome": {
+		"title": "Pathfinder #28: The Infernal Syndrome",
+		"url": "https://paizo.com/pathfinder/adventurePath/councilOfThieves/v5748btpy8b9h"
+	},
+	"Pathfinder #29 Mother of Flies": {
+		"title": "Pathfinder #29: Mother of Flies",
+		"url": "https://paizo.com/pathfinder/adventurePath/councilOfThieves/v5748btpy8bc1"
+	},
+	"Pathfinder #2 The Skinsaw Murders": {
+		"title": "Pathfinder #2: The Skinsaw Murders",
+		"url": "https://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy8029"
+	},
+	"Pathfinder #30 The Twice-Damned Prince": {
+		"title": "Pathfinder #30: The Twice-Damned Prince",
+		"url": "https://paizo.com/pathfinder/adventurePath/councilOfThieves/v5748btpy8d54"
+	},
+	"Pathfinder #31 Stolen Land": {
+		"title": "Pathfinder #31: Stolen Land",
+		"url": "https://paizo.com/pathfinder/adventurePath/kingmaker/v5748btpy8dhc"
+	},
+	"Pathfinder #32 Rivers Run Red": {
+		"title": "Pathfinder #32: Rivers Run Red",
+		"url": "https://paizo.com/pathfinder/adventurePath/kingmaker/v5748btpy8dml"
+	},
+	"Pathfinder #33 The Varnhold Vanishing": {
+		"title": "Pathfinder #33: The Varnhold Vanishing",
+		"url": "https://paizo.com/pathfinder/adventurePath/kingmaker/v5748btpy8e7e"
+	},
+	"Pathfinder #34 Blood for Blood": {
+		"title": "Pathfinder #34: Blood for Blood",
+		"url": "https://paizo.com/pathfinder/adventurePath/kingmaker/v5748btpy8b7w"
+	},
+	"Pathfinder #35 War of the River Kings": {
+		"title": "Pathfinder #35: War of the River Kings",
+		"url": "https://paizo.com/pathfinder/adventurePath/kingmaker/v5748btpy8b7u"
+	},
+	"Pathfinder #36 Sound of a Thousand Screams": {
+		"title": "Pathfinder #36: Sound of a Thousand Screams",
+		"url": "https://paizo.com/pathfinder/adventurePath/kingmaker/v5748btpy8b7x"
+	},
+	"Pathfinder #37 Souls for Smuggler's Shiv": {
+		"title": "Pathfinder #37: Souls for Smuggler's Shiv",
+		"url": "https://paizo.com/pathfinder/adventurePath/theSerpentsSkull/v5748btpy8b7v"
+	},
+	"Pathfinder #38 Racing to Ruin": {
+		"title": "Pathfinder #38: Racing to Ruin",
+		"url": "https://paizo.com/pathfinder/adventurePath/theSerpentsSkull/v5748btpy8ddc"
+	},
+	"Pathfinder #39 The City of Seven Spears": {
+		"title": "Pathfinder #39: The City of Seven Spears",
+		"url": "https://paizo.com/pathfinder/adventurePath/theSerpentsSkull/v5748btpy8ddd"
+	},
+	"Pathfinder #3 The Hook Mountain Massacre": {
+		"title": "Pathfinder #3: The Hook Mountain Massacre",
+		"url": "https://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy80e4"
+	},
+	"Pathfinder #40 Vaults of Madness": {
+		"title": "Pathfinder #40: Vaults of Madness",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/serpentsSkull/v5748btpy8i1u"
+	},
+	"Pathfinder #41 The Thousand Fangs Below": {
+		"title": "Pathfinder #41: The Thousand Fangs Below",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/serpentsSkull/v5748btpy8i8r"
+	},
+	"Pathfinder #42 Sanctum of the Serpent God": {
+		"title": "Pathfinder #42: Sanctum of the Serpent God",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/serpentsSkull/v5748btpy8ihw"
+	},
+	"Pathfinder #43 Haunting of Harrowstone": {
+		"title": "Pathfinder #43: Haunting of Harrowstone",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/carrionCrown/v5748btpy8ihy"
+	},
+	"Pathfinder #44 Trial of the Beast": {
+		"title": "Pathfinder #44: Trial of the Beast",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/carrionCrown/v5748btpy8j5s"
+	},
+	"Pathfinder #45 Broken Moon": {
+		"title": "Pathfinder #45: Broken Moon",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/carrionCrown/v5748btpy8jtl"
+	},
+	"Pathfinder #46 Wake of the Watcher": {
+		"title": "Pathfinder #46: Wake of the Watcher",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/carrionCrown/v5748btpy8l3e"
+	},
+	"Pathfinder #47 Ashes at Dawn": {
+		"title": "Pathfinder #47: Ashes at Dawn",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/carrionCrown/v5748btpy8lv2"
+	},
+	"Pathfinder #48 Shadows of Gallowspire": {
+		"title": "Pathfinder #48: Shadows of Gallowspire",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/carrionCrown/v5748btpy8mgb"
+	},
+	"Pathfinder #49 The Brinewall Legacy": {
+		"title": "Pathfinder #49: The Brinewall Legacy",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/jadeRegent/v5748btpy8mfv"
+	},
+	"Pathfinder #4 Fortress of the Stone Giants": {
+		"title": "Pathfinder #4: Fortress of the Stone Giants",
+		"url": "https://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy80hm"
+	},
+	"Pathfinder #50 Night of Frozen Shadows": {
+		"title": "Pathfinder #50: Night of Frozen Shadows",
+		"url": "https://paizo.com/pathfinder/v5748btpy8jrr"
+	},
+	"Pathfinder #51 The Hungry Storm": {
+		"title": "Pathfinder #51: The Hungry Storm",
+		"url": "https://paizo.com/pathfinder/v5748btpy8kgv"
+	},
+	"Pathfinder #52 Forest of Spirits": {
+		"title": "Pathfinder #52: Forest of Spirits",
+		"url": "https://paizo.com/pathfinder/v5748btpy8l2h"
+	},
+	"Pathfinder #53 Tide of Honor": {
+		"title": "Pathfinder #53: Tide of Honor",
+		"url": "https://paizo.com/pathfinder/v5748btpy8mh0"
+	},
+	"Pathfinder #54 The Empty Throne": {
+		"title": "Pathfinder #54: The Empty Throne",
+		"url": "https://paizo.com/pathfinder/v5748btpy8mh1"
+	},
+	"Pathfinder #55 The Wormwood Mutiny": {
+		"title": "Pathfinder #55: The Wormwood Mutiny",
+		"url": "https://paizo.com/pathfinder/adventurePath/skullAndShackles/v5748btpy8mh2"
+	},
+	"Pathfinder #56 Raiders of the Fever Sea": {
+		"title": "Pathfinder #56: Raiders of the Fever Sea",
+		"url": "https://paizo.com/pathfinder/adventurePath/skullAndShackles/v5748btpy8moe"
+	},
+	"Pathfinder #57 Tempest Rising": {
+		"title": "Pathfinder #57: Tempest Rising",
+		"url": "https://paizo.com/pathfinder/adventurePath/skullAndShackles/v5748btpy8mof"
+	},
+	"Pathfinder #58 Island of Empty Eyes": {
+		"title": "Pathfinder #58: Island of Empty Eyes",
+		"url": "https://paizo.com/pathfinder/adventurePath/skullAndShackles/v5748btpy8mog"
+	},
+	"Pathfinder #59 The Price of Infamy": {
+		"title": "Pathfinder #59: The Price of Infamy",
+		"url": "https://paizo.com/pathfinder/adventurePath/skullAndShackles/v5748btpy8moh"
+	},
+	"Pathfinder #5 Sins of the Saviors": {
+		"title": "Pathfinder #5: Sins of the Saviors",
+		"url": "https://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy815o"
+	},
+	"Pathfinder #60 From Hell's Heart": {
+		"title": "Pathfinder #60: From Hell's Heart",
+		"url": "https://paizo.com/pathfinder/adventurePath/skullAndShackles/v5748btpy8moi"
+	},
+	"Pathfinder #61 Shards of Sin": {
+		"title": "Pathfinder #61: Shards of Sin",
+		"url": "https://paizo.com/products/btpy8rcj?Pathfinder-Adventure-Path-61-Shards-of-Sin"
+	},
+	"Pathfinder #62 Curse of the Lady's Light": {
+		"title": "Pathfinder #62: Curse of the Lady's Light",
+		"url": "https://paizo.com/products/btpy8run?Pathfinder-Adventure-Path-62-Curse-of-the-Ladys-Light"
+	},
+	"Pathfinder #63 The Asylum Stone": {
+		"title": "Pathfinder #63: The Asylum Stone",
+		"url": "https://paizo.com/products/btpy8sds?Pathfinder-Adventure-Path-63-The-Asylum-Stone"
+	},
+	"Pathfinder #64 Beyond the Doomsday Door": {
+		"title": "Pathfinder #64: Beyond the Doomsday Door",
+		"url": "https://paizo.com/products/btpy8t35?Pathfinder-Adventure-Path-64-Beyond-the-Doomsday%20Door"
+	},
+	"Pathfinder #65 Into the Nightmare Rift": {
+		"title": "Pathfinder #65: Into the Nightmare Rift",
+		"url": "https://paizo.com/products/btpy8tdh?Pathfinder-Adventure-Path-65-Into-the-Nightmare-Rift"
+	},
+	"Pathfinder #66 The Dead Heart of Xin": {
+		"title": "Pathfinder #66: The Dead Heart of Xin",
+		"url": "https://paizo.com/products/btpy8tvr?Pathfinder-Adventure-Path-66-The-Dead-Heart-of-Xin"
+	},
+	"Pathfinder #67 The Snows of Summer": {
+		"title": "Pathfinder #67: The Snows of Summer",
+		"url": "https://paizo.com/products/btpy8ubg?Pathfinder-Adventure-Path-67-The-Snows-of-Summer"
+	},
+	"Pathfinder #68 The Shackled Hut": {
+		"title": "Pathfinder #68: The Shackled Hut",
+		"url": "https://paizo.com/products/btpy8uwz?Pathfinder-Adventure-Path-67-The-Shackled-Hut"
+	},
+	"Pathfinder #69 Maiden, Mother, Crone": {
+		"title": "Pathfinder #69: Maiden, Mother, Crone",
+		"url": "https://paizo.com/products/btpy8xbz?Pathfinder-Adventure-Path-69-Maiden-Mother-Crone"
+	},
+	"Pathfinder #6 Spires of Xin-Shalast": {
+		"title": "Pathfinder #6: Spires of Xin-Shalast",
+		"url": "https://paizo.com/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy817c"
+	},
+	"Pathfinder #70 The Frozen Stars": {
+		"title": "Pathfinder #70: The Frozen Stars",
+		"url": "https://paizo.com/products/btpy8yv3?Pathfinder-Adventure-Path-70-The-Frozen-Stars"
+	},
+	"Pathfinder #71 Rasputin Must Die!": {
+		"title": "Pathfinder #71: Rasputin Must Die!",
+		"url": "https://paizo.com/products/btpy8yv5?Pathfinder-Adventure-Path-71-Rasputin-Must-Die"
+	},
+	"Pathfinder #72 The Witch Queen's Revenge": {
+		"title": "Pathfinder #72: The Witch Queen's Revenge",
+		"url": "https://paizo.com/products/btpy8yv7?Pathfinder-Adventure-Path-72-The-Witch-Queen-s-Revenge"
+	},
+	"Pathfinder #73 The Worldwound Incursion": {
+		"title": "Pathfinder #73: The Worldwound Incursion",
+		"url": "https://paizo.com/products/btpy90q9?Pathfinder-Adventure-Path-73-The-Worldwound-Incursion"
+	},
+	"Pathfinder #74 Sword of Valor": {
+		"title": "Pathfinder #74: Sword of Valor",
+		"url": "https://paizo.com/products/btpy90qb?Pathfinder-Adventure-Path-74-Sword-of-Valor"
+	},
+	"Pathfinder #75 Demon's Heresy": {
+		"title": "Pathfinder #75: Demon's Heresy",
+		"url": "https://paizo.com/products/btpy91dm?Pathfinder-Adventure-Path-75-Demons-Heresy"
+	},
+	"Pathfinder #76 The Midnight Isles": {
+		"title": "Pathfinder #76: The Midnight Isles",
+		"url": "https://paizo.com/products/btpy92lf?Pathfinder-Adventure-Path-76-The-Midnight-Isles"
+	},
+	"Pathfinder #77 Herald of the Ivory Labyrinth": {
+		"title": "Pathfinder #77: Herald of the Ivory Labyrinth",
+		"url": "https://paizo.com/products/btpy92lh?Pathfinder-Adventure-Path-77-Herald-of-the-Ivory-Labyrinth"
+	},
+	"Pathfinder #78 City of Locusts": {
+		"title": "Pathfinder #78: City of Locusts",
+		"url": "https://paizo.com/products/btpy93qo?Pathfinder-Adventure-Path-78-City-of-Locusts"
+	},
+	"Pathfinder #79 The Half-Dead City": {
+		"title": "Pathfinder #79: The Half-Dead City",
+		"url": "https://paizo.com/products/btpy94qz?Pathfinder-Adventure-Path-79-The-HalfDead-City"
+	},
+	"Pathfinder #7 Edge of Anarchy": {
+		"title": "Pathfinder #7: Edge of Anarchy",
+		"url": "https://paizo.com/pathfinder/adventurePath/curseOfTheCrimsonThrone/v5748btpy81xw"
+	},
+	"Pathfinder #80 Empty Graves": {
+		"title": "Pathfinder #80: Empty Graves",
+		"url": "https://paizo.com/products/btpy94vv?Pathfinder-Adventure-Path-80-Empty-Graves"
+	},
+	"Pathfinder #81 Shifting Sands": {
+		"title": "Pathfinder #81: Shifting Sands",
+		"url": "https://paizo.com/products/btpy92qb"
+	},
+	"Pathfinder #82 Secrets of the Sphinx": {
+		"title": "Pathfinder #82: Secrets of the Sphinx",
+		"url": "https://paizo.com/products/btpy978j?Pathfinder-Adventure-Path-82-Secrets-of-the-Sphinx"
+	},
+	"Pathfinder #83 The Slave Trenches of Hakotep": {
+		"title": "Pathfinder #83: The Slave Trenches of Hakotep",
+		"url": "https://paizo.com/products/btpy97at?Pathfinder-Adventure-Path-83-The-Slave-Trenches-of-Hakotep"
+	},
+	"Pathfinder #84 Pyramid of the Sky Pharaoh": {
+		"title": "Pathfinder #84: Pyramid of the Sky Pharaoh",
+		"url": "https://paizo.com/products/btpy97av?Pathfinder-Adventure-Path-84-Pyramid-of-the-Sky-Pharaoh"
+	},
+	"Pathfinder #85 Fires of Creation": {
+		"title": "Pathfinder #85: Fires of Creation",
+		"url": "https://paizo.com/products/btpy97ax?Pathfinder-Adventure-Path-85-Fires-of-Creation"
+	},
+	"Pathfinder #86 Lords of Rust": {
+		"title": "Pathfinder #86: Lords of Rust",
+		"url": "https://paizo.com/products/btpy97az?Pathfinder-Adventure-Path-86-Lords-of-Rust"
+	},
+	"Pathfinder #87 The Choking Tower": {
+		"title": "Pathfinder #87: The Choking Tower",
+		"url": "https://paizo.com/products/btpy991p?Pathfinder-Adventure-Path-87-The-Choking-Tower"
+	},
+	"Pathfinder #88 Valley of the Brain Collectors": {
+		"title": "Pathfinder #88: Valley of the Brain Collectors",
+		"url": "https://paizo.com/products/btpy99sg?Pathfinder-Adventure-Path-88-Valley-of-the-Brain-Collectors"
+	},
+	"Pathfinder #89 Palace of Fallen Stars": {
+		"title": "Pathfinder #89: Palace of Fallen Stars",
+		"url": "https://paizo.com/products/btpy99si?Pathfinder-Adventure-Path-89-Palace-of-Fallen-Stars"
+	},
+	"Pathfinder #8 Seven Days to the Grave": {
+		"title": "Pathfinder #8: Seven Days to the Grave",
+		"url": "https://paizo.com/pathfinder/adventurePath/curseOfTheCrimsonThrone/v5748btpy82qy"
+	},
+	"Pathfinder #90 The Divinity Drive": {
+		"title": "Pathfinder #90: The Divinity Drive",
+		"url": "https://paizo.com/products/btpy95bw?Pathfinder-Adventure-Path-90-The-Divinity-Drive"
+	},
+	"Pathfinder #91 Battle of Bloodmarch Hills": {
+		"title": "Pathfinder #91: Battle of Bloodmarch Hills",
+		"url": "https://paizo.com/products/btpy9aub?Pathfinder-Adventure-Path-91-Battle-of-Bloodmarch-Hill"
+	},
+	"Pathfinder #92 The Hill Giant's Pledge": {
+		"title": "Pathfinder #92: The Hill Giant's Pledge",
+		"url": "https://paizo.com/products/btpy9c1v?Pathfinder-Adventure-Path-92-The-Hill-Giants-Pledge"
+	},
+	"Pathfinder #93 Forge of the Giant God": {
+		"title": "Pathfinder #93: Forge of the Giant God",
+		"url": "https://paizo.com/products/btpy9c1x?Pathfinder-Adventure-Path-93-Forge-of-the-Giant-God"
+	},
+	"Pathfinder #94 Ice Tomb of the Giant Queen": {
+		"title": "Pathfinder #94: Ice Tomb of the Giant Queen",
+		"url": "https://paizo.com/products/btpy9dz6?Pathfinder-Adventure-Path-94-Ice-Tomb-of-the-Giant-Queen"
+	},
+	"Pathfinder #95 Anvil of Fire": {
+		"title": "Pathfinder #95: Anvil of Fire",
+		"url": "https://paizo.com/products/btpy9et7?Pathfinder-Adventure-Path-95-Anvil-of-Fire"
+	},
+	"Pathfinder #96 Shadow of the Storm Tyrant": {
+		"title": "Pathfinder #96: Shadow of the Storm Tyrant",
+		"url": "https://paizo.com/products/btpy9et9?Pathfinder-Adventure-Path-96-Shadow-of-the-Storm-Tyrant"
+	},
+	"Pathfinder #97 In Hell's Bright Shadow": {
+		"title": "Pathfinder #97: In Hell's Bright Shadow",
+		"url": "https://paizo.com/products/btpy9g0q?Pathfinder-Adventure-Path-97-In-Hells-Bright-Shadow"
+	},
+	"Pathfinder #98 Turn of the Torrent": {
+		"title": "Pathfinder #98: Turn of the Torrent",
+		"url": "https://paizo.com/products/btpy9gcx?Pathfinder-Adventure-Path-98-Turn-of-the-Torrent"
+	},
+	"Pathfinder #99 Dance of the Damned": {
+		"title": "Pathfinder #99: Dance of the Damned",
+		"url": "https://paizo.com/products/btpy9grk?Pathfinder-Adventure-Path-99-Dance-of-the-Damned"
+	},
+	"Pathfinder #9 Escape from Old Korvosa": {
+		"title": "Pathfinder #9: Escape from Old Korvosa",
+		"url": "https://paizo.com/pathfinder/adventurePath/curseOfTheCrimsonThrone/v5748btpy82t5"
+	},
+	"Pathfinder Campaign Setting": {
+		"title": "Pathfinder Campaign Setting",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/35E/v5748btpy84eo"
+	},
+	"Pathfinder Comics #10": {
+		"title": "Pathfinder Comics #10",
+		"url": "https://paizo.com/products/btpy915f"
+	},
+	"Pathfinder Comics #11": {
+		"title": "Pathfinder Comics #11",
+		"url": "https://paizo.com/products/btpy915k"
+	},
+	"Pathfinder Comics #12": {
+		"title": "Pathfinder Comics #12",
+		"url": "https://paizo.com/products/btpy915p"
+	},
+	"Pathfinder Comics #3": {
+		"title": "Pathfinder Comics #3",
+		"url": "https://paizo.com/products/btpy8u1d"
+	},
+	"Pathfinder Comics #5": {
+		"title": "Pathfinder Comics #5",
+		"url": "https://paizo.com/products/btpy8wrb"
+	},
+	"Pathfinder RPG Bestiary": {
+		"title": "Pathfinder RPG Bestiary",
+		"url": "https://paizo.com/products/btpy8auu?Pathfinder-Roleplaying-Game-Bestiary"
+	},
+	"Pathfinder Society Field Guide": {
+		"title": "Pathfinder Society Field Guide",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderChronicles/v5748btpy8mfq"
+	},
+	"Pathfinder Society Primer": {
+		"title": "Pathfinder Society Primer",
+		"url": "https://paizo.com/products/btpy8yw6?Pathfinder-Player-Companion-Pathfinder-Society-Primer"
+	},
+	"Pathfinder Unchained": {
+		"title": "Pathfinder Unchained",
+		"url": "https://paizo.com/products/btpy9c25?Pathfinder-Roleplaying-Game-Pathfinder-Unchained"
+	},
+	"Pathfinder Goblins #1": {
+		"title": "Pathfinder Goblins #1",
+		"url": "https://paizo.com/products/btpy8yxv"
+	},
+	"Pathfinder Goblins #5": {
+		"title": "Pathfinder Goblins #5",
+		"url": "https://paizo.com/products/btpy915v"
+	},
+	"Pathfinder Hollow Mountain #1": {
+		"title": "Pathfinder Hollow Mountain #1",
+		"url": "https://paizo.com/products/btpy9goq"
+	},
+	"Pathfinder Hollow Mountain #4": {
+		"title": "Pathfinder Hollow Mountain #4",
+		"url": "https://paizo.com/products/btpy9iot"
+	},
+	"Pathfinder Origins #6 Ezren": {
+		"title": "Pathfinder Origins #6 Ezren",
+		"url": "https://paizo.com/products/btpy9e2f"
+	},
+	"Pathfinder Runescars #1": {
+		"title": "Pathfinder Runescars #1",
+		"url": "https://paizo.com/products/btpy9sgo"
+	},
+	"Pathfinder Runescars #4": {
+		"title": "Pathfinder Runescars #4",
+		"url": "https://paizo.com/products/btpy9u6c"
+	},
+	"Pathfinder Spiral of Bones #3": {
+		"title": "Pathfinder Spiral of Bones #3",
+		"url": "https://paizo.com/"
+	},
+	"Pathfinder Spiral of Bones #5": {
+		"title": "Pathfinder Spiral of Bones #5",
+		"url": "https://paizo.com/"
+	},
+	"Pathfinder Worldscape #1": {
+		"title": "Pathfinder Worldscape #1",
+		"url": "https://paizo.com/products/btpy9oco"
+	},
+	"Pathfinder Worldscape #2": {
+		"title": "Pathfinder Worldscape #2",
+		"url": "https://paizo.com/products/btpy9oza"
+	},
+	"Paths of Prestige": {
+		"title": "Paths of Prestige",
+		"url": "https://paizo.com/products/btpy8thj?Pathfinder-Campaign-Setting-Paths-of-Prestige"
+	},
+	"Paths of the Righteous": {
+		"title": "Paths of the Righteous",
+		"url": "https://paizo.com/products/btpy9oo9?Pathfinder-Player-Companion-Paths-of-the-Righteous"
+	},
+	"People of the North": {
+		"title": "People of the North",
+		"url": "https://paizo.com/products/btpy8v35?Pathfinder-Player-Companion-People-of-the-North"
+	},
+	"People of the River": {
+		"title": "People of the River",
+		"url": "https://paizo.com/products/btpy978r?Pathfinder-Player-Companion-People-of-the-River"
+	},
+	"People of the Sands": {
+		"title": "People of the Sands",
+		"url": "https://paizo.com/products/btpy92lx?Pathfinder-Player-Companion-People-of-the-Sands"
+	},
+	"People of the Stars": {
+		"title": "People of the Stars",
+		"url": "https://paizo.com/products/btpy95d3?Pathfinder-Player-Companion-People-of-the-Stars"
+	},
+	"People of the Wastes": {
+		"title": "People of the Wastes",
+		"url": "https://paizo.com/products/btpy9sk7?Pathfinder-Player-Companion-People-of-the-Wastes"
+	},
+	"Pirates of the Inner Sea": {
+		"title": "Pirates of the Inner Sea",
+		"url": "https://paizo.com/products/btpy8qif?Pathfinder-Player-Companion-Pirates-of-the-Inner-Sea"
+	},
+	"Planar Adventures": {
+		"title": "Planar Adventures",
+		"url": "https://paizo.com/products/btpya1am"
+	},
+	"Plane-Hopper's Handbook": {
+		"title": "Plane-Hopper's Handbook",
+		"url": "https://paizo.com/products/btpy9z15?Pathfinder-Player-Companion-PlaneHopper-s-Handbook"
+	},
+	"Planes of Power": {
+		"title": "Planes of Power",
+		"url": "https://paizo.com/products/btpy9ng0?Pathfinder-Campaign-Setting-Planes-of-Power"
+	},
+	"Plunder and Peril": {
+		"title": "Plunder and Peril",
+		"url": "https://paizo.com/products/btpy99se?Pathfinder-Module-Plunder-Peril"
+	},
+	"Potions and Poisons": {
+		"title": "Potions and Poisons",
+		"url": "https://paizo.com/products/btpy9xa4?Pathfinder-Player-Companion-Potions-Poisons"
+	},
+	"Psychic Anthology": {
+		"title": "Psychic Anthology",
+		"url": "https://paizo.com/products/btpy9qhr?Pathfinder-Player-Companion-Psychic-Anthology"
+	},
+	"Qadira, Gateway to the East": {
+		"title": "Qadira, Gateway to the East",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/pathfinderRPG/v5748btpy88zq"
+	},
+	"Qadira, Jewel of the East": {
+		"title": "Qadira, Jewel of the East",
+		"url": "https://paizo.com/products/btpy9nd2?Pathfinder-Campaign-Setting-Qadira-Jewel-of-the-East"
+	},
+	"Quests and Campaigns": {
+		"title": "Quests and Campaigns",
+		"url": "https://paizo.com/products/btpy8yw2?Pathfinder-Player-Companion-Quests-Campaigns"
+	},
+	"Ranged Tactics Toolbox": {
+		"title": "Ranged Tactics Toolbox",
+		"url": "https://paizo.com/products/btpy99s6?Pathfinder-Player-Companion-Ranged-Tactics-Toolbox"
+	},
+	"Realm of the Fellnight Queen": {
+		"title": "Realm of the Fellnight Queen",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/pathfinderRPG/v5748btpy8d52"
+	},
+	"Reign of Winter Player's Guide": {
+		"title": "Reign of Winter Player's Guide",
+		"url": "https://paizo.com/products/btpy8x1t?Pathfinder-Adventure-Path-Reign-of-Winter-Players-Guide"
+	},
+	"Return of the Runelords Players Guide": {
+		"title": "Return of the Runelords Players Guide",
+		"url": "https://paizo.com/products/btq01su5"
+	},
+	"Revenge of the Kobold King": {
+		"title": "Revenge of the Kobold King",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy83w1"
+	},
+	"Rise of the Runelords Anniversary Edition Player's Guide": {
+		"title": "Rise of the Runelords Anniversary Edition Player's Guide",
+		"url": "https://paizo.com/products/btpy8tgl?Pathfinder-Adventure-Path-Rise-of-the-Runelords-Anniversary-Edition-Players-Guide"
+	},
+	"Rise of the Runelords Anniversary Edition": {
+		"title": "Rise of the Runelords Anniversary Edition",
+		"url": "https://paizo.com/products/btpy8tc0?Pathfinder-Adventure-Path-Rise-of-the-Runelords-Anniversary-Edition"
+	},
+	"Rise of the Runelords Player's Guide": {
+		"title": "Rise of the Runelords Player's Guide",
+		"url": "https://paizo.com/store/byCompany/p/paizoPublishingLLC/pathfinder/adventurePath/riseOfTheRunelords/v5748btpy8bd9"
+	},
+	"Rival Guide": {
+		"title": "Rival Guide",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderChronicles/v5748btpy8kc2"
+	},
+	"Rivers into Darkness": {
+		"title": "Rivers into Darkness",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy82qf"
+	},
+	"Ruins of Azlant Player's Guide": {
+		"title": "Ruins of Azlant Player's Guide",
+		"url": "https://paizo.com/products/btpy9uir"
+	},
+	"Sargava, the Lost Colony": {
+		"title": "Sargava, the Lost Colony",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/pathfinderRPG/v5748btpy8ey2"
+	},
+	"Second Darkness Player's Guide": {
+		"title": "Second Darkness Player's Guide",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/35E/v5748btpy84en"
+	},
+	"Seekers of Secrets": {
+		"title": "Seekers of Secrets",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderChronicles/pathfinderRPG/v5748btpy8az2"
+	},
+	"Seers of the Drowned City": {
+		"title": "Seers of the Drowned City",
+		"url": "https://paizo.com/products/btpy9op2?Pathfinder-Module-Seers-of-the-Drowned-City"
+	},
+	"Serpent's Skull Player's Guide": {
+		"title": "Serpent's Skull Player's Guide",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderAdventurePath/serpentsSkull/v5748btpy8g6d"
+	},
+	"Seven Swords of Sin": {
+		"title": "Seven Swords of Sin",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy7zke"
+	},
+	"Shattered Star Player's Guide": {
+		"title": "Shattered Star Player's Guide",
+		"url": "https://paizo.com/products/btpy8txj?Pathfinder-Adventure-Path-Shattered-Star-Players-Guide"
+	},
+	"Ships of the Inner Sea": {
+		"title": "Ships of the Inner Sea",
+		"url": "https://paizo.com/products/btpy991v?Pathfinder-Campaign-Setting-Ships-of-the-Inner-Sea"
+	},
+	"Skull and Shackles Player's Guide": {
+		"title": "Skull and Shackles Player's Guide",
+		"url": "https://paizo.com/products/btpy8rwc?Pathfinder-Adventure-Path-Skull-Shackles-Players-Guide"
+	},
+	"Spymaster's Handbook": {
+		"title": "Spymaster's Handbook",
+		"url": "https://paizo.com/products/btpy9l2w?Pathfinder-Player-Companion-Spymasters-Handbook"
+	},
+	"Strange Aeons Player's Guide": {
+		"title": "Strange Aeons Player's Guide",
+		"url": "https://paizo.com/products/btpy9nrw"
+	},
+	"Taldor, Echoes of Glory": {
+		"title": "Taldor, Echoes of Glory",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderCompanion/35E/v5748btpy8853"
+	},
+	"Taldor, the First Empire": {
+		"title": "Taldor, the First Empire",
+		"url": "https://paizo.com/products/btpy9wzs?Pathfinder-Campaign-Setting-Taldor-the-First-Empire"
+	},
+	"Tears at Bitter Manor": {
+		"title": "Tears at Bitter Manor",
+		"url": "https://paizo.com/products/btpy93qw?Pathfinder-Module-Tears-at-Bitter-Manor"
+	},
+	"Technology Guide": {
+		"title": "Technology Guide",
+		"url": "https://paizo.com/products/btpy95d2?Pathfinder-Campaign-Setting-Technology-Guide"
+	},
+	"The Demon Within": {
+		"title": "The Demon Within",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy82qh"
+	},
+	"The Dragon's Demand": {
+		"title": "The Dragon's Demand",
+		"url": "https://paizo.com/products/btpy8yvy?Pathfinder-Module-The-Dragons-Demand"
+	},
+	"The Emerald Spire Superdungeon": {
+		"title": "The Emerald Spire Superdungeon",
+		"url": "https://paizo.com/products/btpy8yqx?Pathfinder-Module-The-Emerald-Spire-Superdungeon"
+	},
+	"The First World, Realm of the Fey": {
+		"title": "The First World, Realm of the Fey",
+		"url": "https://paizo.com/products/btpy9op9?Pathfinder-Campaign-Setting-The-First-World-Realm-of-the-Fey"
+	},
+	"The Godsmouth Heresy": {
+		"title": "The Godsmouth Heresy",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderModules/v5748btpy8hil"
+	},
+	"The Great Beyond - A Guide to the Multiverse": {
+		"title": "The Great Beyond - A Guide to the Multiverse",
+		"url": "https://paizo.com/products/btpy87uz?Pathfinder-Chronicles-The-Great-Beyond-A-Guide-to-the-Multiverse"
+	},
+	"The Harrow Handbook": {
+		"title": "The Harrow Handbook",
+		"url": "https://paizo.com/products/btpy95zm?Pathfinder-Player-Companion-The-Harrow-Handbook"
+	},
+	"The Harrowing": {
+		"title": "The Harrowing",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderModules/v5748btpy8lv9"
+	},
+	"The House on Hook Street": {
+		"title": "The House on Hook Street",
+		"url": "https://paizo.com/products/btpy9grs?Pathfinder-Module-The-House-on-Hook-Street"
+	},
+	"The Midnight Mirror": {
+		"title": "The Midnight Mirror",
+		"url": "https://paizo.com/products/btpy8rgj?Pathfinder-Module-The-Midnight-Mirror"
+	},
+	"The Moonscar": {
+		"title": "The Moonscar",
+		"url": "https://paizo.com/products/btpy8ssi?Pathfinder-Module-The-Moonscar"
+	},
+	"The Pact Stone Pyramid": {
+		"title": "The Pact Stone Pyramid",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy85y2"
+	},
+	"The Ruby Phoenix Tournament": {
+		"title": "The Ruby Phoenix Tournament",
+		"url": "https://paizo.com/products/btpy8qid?Pathfinder-Module-The-Ruby-Phoenix-Tournament"
+	},
+	"The Witchwar Legacy": {
+		"title": "The Witchwar Legacy",
+		"url": "https://paizo.com/store/downloads/pathfinder/pathfinderModules/pathfinderRPG/v5748btpy8go0"
+	},
+	"The Worldwound": {
+		"title": "The Worldwound",
+		"url": "https://paizo.com/products/btpy8yvk?Pathfinder-Campaign-Setting-The-Worldwound"
+	},
+	"Tomb of the Iron Medusa": {
+		"title": "Tomb of the Iron Medusa",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderModules/v5748btpy8j5y"
+	},
+	"Tombs of Golarion": {
+		"title": "Tombs of Golarion",
+		"url": "https://paizo.com/products/btpy98yu?Pathfinder-Campaign-Setting-Tombs-of-Golarion"
+	},
+	"Tower of the Last Baron": {
+		"title": "Tower of the Last Baron",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy83wa"
+	},
+	"Treasure of Chimera Cove": {
+		"title": "Treasure of Chimera Cove",
+		"url": "https://paizo.com/store/paizo/pathfinder/modules/35E/v5748btpy85ef"
+	},
+	"Tyrant's Grasp Player's Guide": {
+		"title": "Tyrant's Grasp Player's Guide",
+		"url": "https://paizo.com/products/btq01xdp"
+	},
+	"Ultimate Campaign": {
+		"title": "Ultimate Campaign",
+		"url": "https://paizo.com/products/btpy8x64?Pathfinder-Roleplaying-Game-Ultimate-Campaign"
+	},
+	"Ultimate Combat": {
+		"title": "Ultimate Combat",
+		"url": "https://paizo.com/pathfinderRPG/v5748btpy8mcz"
+	},
+	"Ultimate Equipment": {
+		"title": "Ultimate Equipment",
+		"url": "https://paizo.com/products/btpy8tmc?Pathfinder-Roleplaying-Game-Ultimate-Equipment"
+	},
+	"Ultimate Intrigue": {
+		"title": "Ultimate Intrigue",
+		"url": "https://paizo.com/products/btpy9j6p?Pathfinder-Roleplaying-Game-Ultimate-Intrigue"
+	},
+	"Ultimate Magic": {
+		"title": "Ultimate Magic",
+		"url": "https://paizo.com/pathfinderRPG/v5748btpy8k8r"
+	},
+	"Ultimate Wilderness": {
+		"title": "Ultimate Wilderness",
+		"url": "https://paizo.com/products/btpy9ujo"
+	},
+	"Undead Revisited": {
+		"title": "Undead Revisited",
+		"url": "https://paizo.com/products/btpy8l3g"
+	},
+	"Undead Slayer's Handbook": {
+		"title": "Undead Slayer's Handbook",
+		"url": "https://paizo.com/products/btpy94vx?Pathfinder-Player-Companion-Undead-Slayer-s-Handbook"
+	},
+	"Undead Unleashed": {
+		"title": "Undead Unleashed",
+		"url": "https://paizo.com/products/btpy991t?Pathfinder-Campaign-Setting-Undead-Unleashed"
+	},
+	"Varisia, Birthplace of Legends": {
+		"title": "Varisia, Birthplace of Legends",
+		"url": "https://paizo.com/products/btpy8tim?Pathfinder-Player-Companion-Varisia-Birthplace-of-Legends"
+	},
+	"Villain Codex": {
+		"title": "Villain Codex",
+		"url": "https://paizo.com/products/btpy9oo7?Pathfinder-Roleplaying-Game-Villain-Codex"
+	},
+	"War for the Crown Player's Guide": {
+		"title": "War for the Crown Player's Guide",
+		"url": "https://paizo.com/products/btpya08v"
+	},
+	"Wardens of the Reborn Forge": {
+		"title": "Wardens of the Reborn Forge",
+		"url": "https://paizo.com/products/btpy92lr?Pathfinder-Module-Wardens-of-the-Reborn-Forge"
+	},
+	"We Be Goblins Free!": {
+		"title": "We Be Goblins Free!",
+		"url": "https://paizo.com/products/btpy9c20?Pathfinder-Module-We-Be-Goblins-Free"
+	},
+	"We Be Goblins Too!": {
+		"title": "We Be Goblins Too!",
+		"url": "https://paizo.com/products/btpy8xc3?Pathfinder-Module-We-Be-Goblins-Too"
+	},
+	"We Be Goblins!": {
+		"title": "We Be Goblins!",
+		"url": "https://paizo.com/store/games/roleplayingGames/p/pathfinderRPG/paizo/pathfinderModules/v5748btpy8l3i"
+	},
+	"Weapon Master's Handbook": {
+		"title": "Weapon Master's Handbook",
+		"url": "https://paizo.com/products/btpy9hdy?Pathfinder-Player-Companion-Weapon-Masters-Handbook"
+	},
+	"Wilderness Origins": {
+		"title": "Wilderness Origins",
+		"url": "https://paizo.com/products/btq01w1y"
+	},
+	"Wrath of the Righteous Player's Guide": {
+		"title": "Wrath of the Righteous Player's Guide",
+		"url": "https://paizo.com/products/btpy919c?Pathfinder-Adventure-Path-Wrath-of-the-Righteous-Players-Guide"
+	}
 }

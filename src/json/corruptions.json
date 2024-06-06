@@ -1491,7 +1491,7 @@
 			"",
 			"**Source** [Psychic Anthology pg. 31](source/psychic_anthology)  ",
 			"You can attack your enemies with your mind.  ",
-			"**Gift:** You gain the [kineticist's kinetic blast](class/kineticist) class feature, as well as the [telekinetic blast](class/ability/kinetic/telekinetic_blast) wild talent. Use your manifestation level as your effective kineticist level to determine the effects of these abilities. If you have the elemental focus (aether) or expanded element (aether) class ability, you instead gain a bonus on damage rolls with your telekinetic blast equal to half your manifestation level (minimum +1).  ",
+			"**Gift:** You gain the [kineticist's kinetic blast](class/kineticist) class feature, as well as the [telekinetic blast](kinetic/telekinetic_blast) wild talent. Use your manifestation level as your effective kineticist level to determine the effects of these abilities. If you have the elemental focus (aether) or expanded element (aether) class ability, you instead gain a bonus on damage rolls with your telekinetic blast equal to half your manifestation level (minimum +1).  ",
 			"**Stain:** Your cranium swells massively. You take a -2 penalty on all Wisdom- and Charisma-based checks and skill checks.",
 			"",
 			"**Psychometabolic Jaunt**",
@@ -1507,7 +1507,7 @@
 			"**Source** [Psychic Anthology pg. 31](source/psychic_anthology)  ",
 			"You can project a shield with your mind.  ",
 			"**Prerequisite:** Manifestation level 2nd.  ",
-			"**Gift:** You gain the [force ward](class/ability/kinetic/force_ward) defense wild talent. Use your kineticist level or your manifestation level (whichever is higher) as your effective kineticist level to determine the effects of these abilities. You can spend 1 point of psychometabolic power to enhance your force ward as if you had accepted a point of burn. If you already have the force ward defense wild talent, this gift has no effect.  ",
+			"**Gift:** You gain the [force ward](kinetic/force_ward) defense wild talent. Use your kineticist level or your manifestation level (whichever is higher) as your effective kineticist level to determine the effects of these abilities. You can spend 1 point of psychometabolic power to enhance your force ward as if you had accepted a point of burn. If you already have the force ward defense wild talent, this gift has no effect.  ",
 			"**Stain:** You reflexes become sluggish. You take a -1 penalty on your AC and on Reflex saving throws."
 		],
 		"display": "corruption"

@@ -167,7 +167,7 @@
 			"",
 			"The painful rituals that create a hag-riven can work for any creatures tenacious enough to endure them, and the art has sprung up as a defense against the devastating power of hags in various remote communities.",
 			"",
-			"**Arcane Influence:** A hag-riven bloodrager does not gain proficiency with martial weapons and must choose from one of the following bloodrager bloodlines: [arcane](class/ability/bloodragerbloodline/arcane), [destined](class/ability/bloodragerbloodline/destined), [elemental](class/ability/bloodragerbloodline/elemental), [fey](class/ability/bloodragerbloodline/fey), or [hag](class/ability/bloodragerbloodline/hag).",
+			"**Arcane Influence:** A hag-riven bloodrager does not gain proficiency with martial weapons and must choose from one of the following bloodrager bloodlines: [arcane](bloodragerbloodline/arcane), [destined](bloodragerbloodline/destined), [elemental](bloodragerbloodline/elemental), [fey](bloodragerbloodline/fey), or [hag](bloodragerbloodline/hag).",
 			"",
 			"This alters the bloodrager's weapon and armor proficiencies.",
 			"",
@@ -415,7 +415,7 @@
 			"",
 			"**Adopted Magic:** At 7th level, an urban bloodrager learns some of the secrets of other magical traditions from other denizens of the city. She can select from the [bard](unknown/bard_spell_list) or [magus](unknown/magus_spell_list) spell list any spell of a level she can cast, and add it to her bloodrager spell list and to her bloodrager spells known. At 10th level and every 3 levels thereafter, the urban bloodrager can add another such spell to her spell list and spells known. If she chooses to learn a new spell in place of an old one, she can exchange a bard or magus spell for another. This ability replaces damage reduction.",
 			"",
-			"**Bloodline:** The following bloodlines are especially suitable for an urban bloodrager, reflecting either a more nuanced origin or ancestry from city-dwelling magical creatures: [aberrant](class/ability/bloodragerbloodline/aberrant), [arcane](class/ability/bloodragerbloodline/arcane), [celestial](class/ability/bloodragerbloodline/celestial), [destined](class/ability/bloodragerbloodline/destined), [infernal](class/ability/bloodragerbloodline/infernal), and [undead](class/ability/bloodragerbloodline/undead)."
+			"**Bloodline:** The following bloodlines are especially suitable for an urban bloodrager, reflecting either a more nuanced origin or ancestry from city-dwelling magical creatures: [aberrant](bloodragerbloodline/aberrant), [arcane](bloodragerbloodline/arcane), [celestial](bloodragerbloodline/celestial), [destined](bloodragerbloodline/destined), [infernal](bloodragerbloodline/infernal), and [undead](bloodragerbloodline/undead)."
 		],
 		"display": "archetype/bloodrager"
 	}

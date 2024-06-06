@@ -10270,7 +10270,7 @@
 			"",
 			"**Stagnant Aura (Su)** The air within 240 feet of a living doldrums is always still. Naturally occurring winds flow around this radius without disturbing anything inside (though precipitation falls as normal). Mundane attempts to create airflow within the aura (such as with a fan) are only half as strong as normal. Air elementals, gaseous creatures, and winged creatures (other than living doldrums) have their maneuverability reduced by one category within the aura. This aura does not inhibit magical air and wind effects.",
 			"",
-			"**Vulnerability to Magic Wind (Ex)** Damaging effects from moving air (such as a [kineticist's](class/kineticist) [air blast](class/ability/kinetic/air_blast)) deal 50% more damage to a living doldrums. A living doldrums that begins its turn in the area of a nondamaging magical wind effect takes 1d6 points of damage per spell level of the effect.",
+			"**Vulnerability to Magic Wind (Ex)** Damaging effects from moving air (such as a [kineticist's](class/kineticist) [air blast](kinetic/air_blast)) deal 50% more damage to a living doldrums. A living doldrums that begins its turn in the area of a nondamaging magical wind effect takes 1d6 points of damage per spell level of the effect.",
 			"",
 			"#### Description",
 			"",

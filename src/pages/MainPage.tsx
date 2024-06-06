@@ -12,9 +12,9 @@ const MainPage: React.FC = () => {
 
 	const { mainpage = "main" } = useParams<{ mainpage?: keyof typeof main; }>();
 
-	const { title, description, tables, previous } = (main[mainpage] || main.main) as JsonDataProps;
+	const { title, description: markdown, tables, previous: hierarchy, sources } = (main[mainpage] || main.main) as JsonDataProps;
 
-	return <BasicPage title={title} displayItem={{markdown: description, tables: tables}} />;
+	return <BasicPage title={title} displayItem={{markdown, tables}} {...{hierarchy, sources}} />;
 };
 
 export default MainPage;
