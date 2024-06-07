@@ -2,8 +2,6 @@
 	"_prefix": "umr",
 	"curse": {
 		"name": "Curse (Su)",
-		"searchable_name": "Curse",
-		"file": "umr00ce.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Curse (Su)",
@@ -18,8 +16,6 @@
 	},
 	"hold_breath": {
 		"name": "Hold Breath (Ex)",
-		"searchable_name": "Hold Breath",
-		"file": "umr05f0.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Hold Breath (Ex)",
@@ -34,8 +30,6 @@
 	},
 	"telepathy": {
 		"name": "Telepathy (Su)",
-		"searchable_name": "Telepathy",
-		"file": "umr0b82.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Telepathy (Su)",
@@ -50,8 +44,6 @@
 	},
 	"sound_mimicry": {
 		"name": "Sound Mimicry (Ex)",
-		"searchable_name": "Sound Mimicry",
-		"file": "umr10d1.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Sound Mimicry (Ex)",
@@ -66,8 +58,6 @@
 	},
 	"amorphous": {
 		"name": "Amorphous (Ex)",
-		"searchable_name": "Amorphous",
-		"file": "umr11c6.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Amorphous (Ex)",
@@ -82,8 +72,6 @@
 	},
 	"rock_catching": {
 		"name": "Rock Catching (Ex)",
-		"searchable_name": "Rock Catching",
-		"file": "umr12a1.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Rock Catching (Ex)",
@@ -98,8 +86,6 @@
 	},
 	"simple_divine_spellcasting": {
 		"name": "Simple Divine Spellcasting [Mythic]",
-		"searchable_name": "Simple Divine Spellcasting",
-		"file": "umr1552.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"### Simple Divine Spellcasting [Mythic]",
@@ -114,8 +100,6 @@
 	},
 	"darkvision": {
 		"name": "Darkvision (Ex or Su)",
-		"searchable_name": "Darkvision",
-		"file": "umr1597.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Darkvision (Ex or Su)",
@@ -130,8 +114,6 @@
 	},
 	"pounce": {
 		"name": "Pounce (Ex)",
-		"searchable_name": "Pounce",
-		"file": "umr167f.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Pounce (Ex)",
@@ -146,8 +128,6 @@
 	},
 	"sand_glide": {
 		"name": "Sand Glide (Ex) [Mythic]",
-		"searchable_name": "Sand Glide",
-		"file": "umr185a.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"### Sand Glide (Ex) [Mythic]",
@@ -162,8 +142,6 @@
 	},
 	"multiweapon_mastery": {
 		"name": "Multiweapon Mastery (Ex)",
-		"searchable_name": "Multiweapon Mastery",
-		"file": "umr19cb.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"### Multiweapon Mastery (Ex)",
@@ -178,8 +156,6 @@
 	},
 	"powerful_blows": {
 		"name": "Powerful Blows (Ex) [Mythic]",
-		"searchable_name": "Powerful Blows",
-		"file": "umr1a74.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"### Powerful Blows (Ex) [Mythic]",
@@ -194,8 +170,6 @@
 	},
 	"push": {
 		"name": "Push (Ex)",
-		"searchable_name": "Push",
-		"file": "umr1b75.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Push (Ex)",
@@ -210,8 +184,6 @@
 	},
 	"energy_drain": {
 		"name": "Energy Drain (Su)",
-		"searchable_name": "Energy Drain",
-		"file": "umr1d8d.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Energy Drain (Su)",
@@ -226,8 +198,6 @@
 	},
 	"bleed": {
 		"name": "Bleed (Ex)",
-		"searchable_name": "Bleed",
-		"file": "umr1def.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Bleed (Ex)",
@@ -242,8 +212,6 @@
 	},
 	"undead_traits": {
 		"name": "Undead Traits (Ex)",
-		"searchable_name": "Undead Traits",
-		"file": "umr1e4f.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Undead Traits (Ex)",
@@ -258,8 +226,6 @@
 	},
 	"amphibious": {
 		"name": "Amphibious (Ex)",
-		"searchable_name": "Amphibious",
-		"file": "umr1ec3.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Amphibious (Ex)",
@@ -274,8 +240,6 @@
 	},
 	"sunlight_powerlessness": {
 		"name": "Sunlight Powerlessness (Ex)",
-		"searchable_name": "Sunlight Powerlessness",
-		"file": "umr20ca.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Sunlight Powerlessness (Ex)",
@@ -290,8 +254,6 @@
 	},
 	"pull": {
 		"name": "Pull (Ex)",
-		"searchable_name": "Pull",
-		"file": "umr24c5.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Pull (Ex)",
@@ -306,8 +268,6 @@
 	},
 	"x-ray_vision": {
 		"name": "X-Ray Vision (Su) [Mythic]",
-		"searchable_name": "X-Ray Vision",
-		"file": "umr2530.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"### X-Ray Vision (Su) [Mythic]",
@@ -322,8 +282,6 @@
 	},
 	"earth_glide": {
 		"name": "Earth Glide (Ex)",
-		"searchable_name": "Earth Glide",
-		"file": "umr253f.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Earth Glide (Ex)",
@@ -338,8 +296,6 @@
 	},
 	"feral_savagery": {
 		"name": "Feral Savagery (Su) [Mythic]",
-		"searchable_name": "Feral Savagery",
-		"file": "umr25e3.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"### Feral Savagery (Su) [Mythic]",
@@ -354,8 +310,6 @@
 	},
 	"light_sensitivity": {
 		"name": "Light Sensitivity (Ex)",
-		"searchable_name": "Light Sensitivity",
-		"file": "umr264b.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Light Sensitivity (Ex)",
@@ -370,8 +324,6 @@
 	},
 	"blindsense": {
 		"name": "Blindsense (Ex)",
-		"searchable_name": "Blindsense",
-		"file": "umr26b1.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Blindsense (Ex)",
@@ -386,8 +338,6 @@
 	},
 	"formian_traits": {
 		"name": "Formian Traits (Ex or Su)",
-		"searchable_name": "Formian Traits",
-		"file": "umr26bf.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Formian Traits (Ex or Su)",
@@ -405,8 +355,6 @@
 	},
 	"damage_reduction": {
 		"name": "Damage Reduction (Ex or Su)",
-		"searchable_name": "Damage Reduction",
-		"file": "umr276b.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Damage Reduction (Ex or Su)",
@@ -435,8 +383,6 @@
 	},
 	"mythic_magic": {
 		"name": "Mythic Magic (Su) [Mythic]",
-		"searchable_name": "Mythic Magic",
-		"file": "umr27e6.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"### Mythic Magic (Su) [Mythic]",
@@ -451,8 +397,6 @@
 	},
 	"dual_initiative": {
 		"name": "Dual Initiative (Ex) [Mythic]",
-		"searchable_name": "Dual Initiative",
-		"file": "umr28be.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"### Dual Initiative (Ex) [Mythic]",
@@ -467,8 +411,6 @@
 	},
 	"web": {
 		"name": "Web (Ex)",
-		"searchable_name": "Web",
-		"file": "umr2bbb.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Web (Ex)",
@@ -487,8 +429,6 @@
 	},
 	"block_attacks": {
 		"name": "Block Attacks (Ex) [Mythic]",
-		"searchable_name": "Block Attacks",
-		"file": "umr2d15.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"### Block Attacks (Ex) [Mythic]",
@@ -503,8 +443,6 @@
 	},
 	"grab": {
 		"name": "Grab (Ex)",
-		"searchable_name": "Grab",
-		"file": "umr3185.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Grab (Ex)",
@@ -521,8 +459,6 @@
 	},
 	"plantbringer": {
 		"name": "Plantbringer (Su) [Mythic]",
-		"searchable_name": "Plantbringer",
-		"file": "umr3915.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Plantbringer (Su) [Mythic]",
@@ -537,8 +473,6 @@
 	},
 	"entrap": {
 		"name": "Entrap (Ex or Su)",
-		"searchable_name": "Entrap",
-		"file": "umr3aff.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"### Entrap (Ex or Su)",
@@ -553,8 +487,6 @@
 	},
 	"construct_traits": {
 		"name": "Construct Traits (Ex)",
-		"searchable_name": "Construct Traits",
-		"file": "umr3be3.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Construct Traits (Ex)",
@@ -569,8 +501,6 @@
 	},
 	"amazing_initiative": {
 		"name": "Amazing Initiative (Ex) [Mythic]",
-		"searchable_name": "Amazing Initiative",
-		"file": "umr3cf6.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Amazing Initiative (Ex) [Mythic]",
@@ -585,8 +515,6 @@
 	},
 	"psychic_magic": {
 		"name": "Psychic Magic (Sp)",
-		"searchable_name": "Psychic Magic",
-		"file": "umr3d56.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Psychic Magic (Sp)",
@@ -601,8 +529,6 @@
 	},
 	"fast_swallow": {
 		"name": "Fast Swallow (Ex)",
-		"searchable_name": "Fast Swallow",
-		"file": "umr424d.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Fast Swallow (Ex)",
@@ -617,8 +543,6 @@
 	},
 	"dragon_blood": {
 		"name": "Dragon Blood (Su) [Mythic]",
-		"searchable_name": "Dragon Blood",
-		"file": "umr426f.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"### Dragon Blood (Su) [Mythic]",
@@ -643,8 +567,6 @@
 	},
 	"simple_arcane_spellcasting": {
 		"name": "Simple Arcane Spellcasting [Mythic]",
-		"searchable_name": "Simple Arcane Spellcasting",
-		"file": "umr42d4.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"### Simple Arcane Spellcasting [Mythic]",
@@ -659,8 +581,6 @@
 	},
 	"archdevil_traits": {
 		"name": "Archdevil Traits (Ex, Sp, or Su)",
-		"searchable_name": "Archdevil Traits",
-		"file": "umr44c4.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"### Archdevil Traits (Ex, Sp, or Su)",
@@ -683,8 +603,6 @@
 	},
 	"paralysis": {
 		"name": "Paralysis (Ex or Su)",
-		"searchable_name": "Paralysis",
-		"file": "umr452b.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Paralysis (Ex or Su)",
@@ -699,8 +617,6 @@
 	},
 	"frightful_presence": {
 		"name": "Frightful Presence (Ex)",
-		"searchable_name": "Frightful Presence",
-		"file": "umr4581.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Frightful Presence (Ex)",
@@ -715,8 +631,6 @@
 	},
 	"blood_rage": {
 		"name": "Blood Rage (Ex)",
-		"searchable_name": "Blood Rage",
-		"file": "umr4783.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Blood Rage (Ex)",
@@ -731,8 +645,6 @@
 	},
 	"light_blindness": {
 		"name": "Light Blindness (Ex)",
-		"searchable_name": "Light Blindness",
-		"file": "umr481e.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Light Blindness (Ex)",
@@ -747,8 +659,6 @@
 	},
 	"spell_resistance": {
 		"name": "Spell Resistance (Ex)",
-		"searchable_name": "Spell Resistance",
-		"file": "umr49cc.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Spell Resistance (Ex)",
@@ -763,8 +673,6 @@
 	},
 	"fear": {
 		"name": "Fear (Su or Sp)",
-		"searchable_name": "Fear",
-		"file": "umr4fa2.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Fear (Su or Sp)",
@@ -783,8 +691,6 @@
 	},
 	"empyreal_lord_traits": {
 		"name": "Empyreal Lord Traits (Ex, Sp, or Su)",
-		"searchable_name": "Empyreal Lord Traits",
-		"file": "umr54fb.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Empyreal Lord Traits (Ex, Sp, or Su)",
@@ -806,8 +712,6 @@
 	},
 	"engulf": {
 		"name": "Engulf (Ex)",
-		"searchable_name": "Engulf",
-		"file": "umr5797.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Engulf (Ex)",
@@ -822,8 +726,6 @@
 	},
 	"blindsight": {
 		"name": "Blindsight (Ex)",
-		"searchable_name": "Blindsight",
-		"file": "umr5eed.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Blindsight (Ex)",
@@ -838,8 +740,6 @@
 	},
 	"vulnerabilities": {
 		"name": "Vulnerabilities (Ex or Su)",
-		"searchable_name": "Vulnerabilities",
-		"file": "umr622c.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Vulnerabilities (Ex or Su)",
@@ -854,8 +754,6 @@
 	},
 	"strangle": {
 		"name": "Strangle (Ex)",
-		"searchable_name": "Strangle",
-		"file": "umr62e1.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Strangle (Ex)",
@@ -870,8 +768,6 @@
 	},
 	"low-light_vision": {
 		"name": "Low-Light Vision (Ex)",
-		"searchable_name": "Low-Light Vision",
-		"file": "umr6677.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Low-Light Vision (Ex)",
@@ -886,8 +782,6 @@
 	},
 	"lingering_breath": {
 		"name": "Lingering Breath (Su) [Mythic]",
-		"searchable_name": "Lingering Breath",
-		"file": "umr6937.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"### Lingering Breath (Su) [Mythic]",
@@ -912,8 +806,6 @@
 	},
 	"rend": {
 		"name": "Rend (Ex)",
-		"searchable_name": "Rend",
-		"file": "umr6a05.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Rend (Ex)",
@@ -928,8 +820,6 @@
 	},
 	"channel_resistance": {
 		"name": "Channel Resistance (Ex)",
-		"searchable_name": "Channel Resistance",
-		"file": "umr6a07.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Channel Resistance (Ex)",
@@ -944,8 +834,6 @@
 	},
 	"scent": {
 		"name": "Scent (Ex)",
-		"searchable_name": "Scent",
-		"file": "umr6bd3.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Scent (Ex)",
@@ -966,8 +854,6 @@
 	},
 	"see_in_darkness": {
 		"name": "See in Darkness (Su)",
-		"searchable_name": "See in Darkness",
-		"file": "umr6fbb.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### See in Darkness (Su)",
@@ -982,8 +868,6 @@
 	},
 	"lycanthropic_empathy": {
 		"name": "Lycanthropic Empathy (Ex)",
-		"searchable_name": "Lycanthropic Empathy",
-		"file": "umr732f.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"### Lycanthropic Empathy (Ex)",
@@ -998,8 +882,6 @@
 	},
 	"hardness": {
 		"name": "Hardness (Ex)",
-		"searchable_name": "Hardness",
-		"file": "umr761f.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Hardness (Ex)",
@@ -1014,8 +896,6 @@
 	},
 	"compression": {
 		"name": "Compression (Ex)",
-		"searchable_name": "Compression",
-		"file": "umr76c9.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Compression (Ex)",
@@ -1030,8 +910,6 @@
 	},
 	"emotion_aura": {
 		"name": "Emotion Aura (Su)",
-		"searchable_name": "Emotion Aura",
-		"file": "umr78e2.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Emotion Aura (Su)",
@@ -1046,8 +924,6 @@
 	},
 	"unstoppable": {
 		"name": "Unstoppable (Ex) [Mythic]",
-		"searchable_name": "Unstoppable",
-		"file": "umr7ab7.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Unstoppable (Ex) [Mythic]",
@@ -1062,8 +938,6 @@
 	},
 	"steal": {
 		"name": "Steal (Ex) [Mythic]",
-		"searchable_name": "Steal",
-		"file": "umr806e.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"### Steal (Ex) [Mythic]",
@@ -1078,8 +952,6 @@
 	},
 	"capsize": {
 		"name": "Capsize (Ex)",
-		"searchable_name": "Capsize",
-		"file": "umr8ddd.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Capsize (Ex)",
@@ -1094,8 +966,6 @@
 	},
 	"plant_traits": {
 		"name": "Plant Traits (Ex)",
-		"searchable_name": "Plant Traits",
-		"file": "umr90a0.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Plant Traits (Ex)",
@@ -1110,8 +980,6 @@
 	},
 	"whirlwind": {
 		"name": "Whirlwind (Su)",
-		"searchable_name": "Whirlwind",
-		"file": "umr90af.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"### Whirlwind (Su)",
@@ -1138,8 +1006,6 @@
 	},
 	"incorporeal": {
 		"name": "Incorporeal (Ex)",
-		"searchable_name": "Incorporeal",
-		"file": "umr90f6.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Incorporeal (Ex)",
@@ -1162,8 +1028,6 @@
 	},
 	"breath_weapon": {
 		"name": "Breath Weapon (Su)",
-		"searchable_name": "Breath Weapon",
-		"file": "umr9469.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Breath Weapon (Su)",
@@ -1178,8 +1042,6 @@
 	},
 	"burn": {
 		"name": "Burn (Ex)",
-		"searchable_name": "Burn",
-		"file": "umr9672.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Burn (Ex)",
@@ -1194,7 +1056,6 @@
 	},
 	"umr988d.html": {
 		"name": "Natural Attacks",
-		"file": "umr988d.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Natural Attacks",
@@ -1234,8 +1095,6 @@
 	},
 	"spell-like_abilities": {
 		"name": "Spell-Like Abilities (Sp)",
-		"searchable_name": "Spell-Like Abilities",
-		"file": "umr99ba.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Spell-Like Abilities (Sp)",
@@ -1256,8 +1115,6 @@
 	},
 	"jet": {
 		"name": "Jet (Ex)",
-		"searchable_name": "Jet",
-		"file": "umr9ad9.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"### Jet (Ex)",
@@ -1272,8 +1129,6 @@
 	},
 	"thoughtsense": {
 		"name": "Thoughtsense (Su)",
-		"searchable_name": "Thoughtsense",
-		"file": "umr9cbc.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Thoughtsense (Su)",
@@ -1288,8 +1143,6 @@
 	},
 	"rake": {
 		"name": "Rake (Ex)",
-		"searchable_name": "Rake",
-		"file": "umr9cd7.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Rake (Ex)",
@@ -1304,8 +1157,6 @@
 	},
 	"horseman_traits": {
 		"name": "Horseman Traits (Ex, Sp, or Su)",
-		"searchable_name": "Horseman Traits",
-		"file": "umra124.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"### Horseman Traits (Ex, Sp, or Su)",
@@ -1327,8 +1178,6 @@
 	},
 	"dragon_fury": {
 		"name": "Dragon Fury (Su) [Mythic]",
-		"searchable_name": "Dragon Fury",
-		"file": "umra1b7.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"### Dragon Fury (Su) [Mythic]",
@@ -1343,8 +1192,6 @@
 	},
 	"water_dependency": {
 		"name": "Water Dependency (Ex)",
-		"searchable_name": "Water Dependency",
-		"file": "umra38b.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Water Dependency (Ex)",
@@ -1359,8 +1206,6 @@
 	},
 	"mythic_power": {
 		"name": "Mythic Power (Su) [Mythic]",
-		"searchable_name": "Mythic Power",
-		"file": "umra3a5.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"### Mythic Power (Su) [Mythic]",
@@ -1375,8 +1220,6 @@
 	},
 	"ooze_traits": {
 		"name": "Ooze Traits (Ex)",
-		"searchable_name": "Ooze Traits",
-		"file": "umra55c.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Ooze Traits (Ex)",
@@ -1391,7 +1234,6 @@
 	},
 	"umra916.html": {
 		"name": "Psychopomp Usher Traits",
-		"file": "umra916.html",
 		"sources": [ "Pathfinder #143: Borne by the Sun's Grace" ],
 		"description": [
 			"### Psychopomp Usher Traits",
@@ -1417,8 +1259,6 @@
 	},
 	"rock_throwing": {
 		"name": "Rock Throwing (Ex)",
-		"searchable_name": "Rock Throwing",
-		"file": "umraf55.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Rock Throwing (Ex)",
@@ -1433,7 +1273,6 @@
 	},
 	"umraff4.html": {
 		"name": "Spells",
-		"file": "umraff4.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Spells",
@@ -1445,8 +1284,6 @@
 	},
 	"freeze": {
 		"name": "Freeze (Ex)",
-		"searchable_name": "Freeze",
-		"file": "umrb0cc.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Freeze (Ex)",
@@ -1461,8 +1298,6 @@
 	},
 	"swallow_whole": {
 		"name": "Swallow Whole (Ex)",
-		"searchable_name": "Swallow Whole",
-		"file": "umrb792.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Swallow Whole (Ex)",
@@ -1477,8 +1312,6 @@
 	},
 	"dragon_cantrips": {
 		"name": "Dragon Cantrips (Su) [Mythic]",
-		"searchable_name": "Dragon Cantrips",
-		"file": "umrb91f.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"### Dragon Cantrips (Su) [Mythic]",
@@ -1493,8 +1326,6 @@
 	},
 	"split": {
 		"name": "Split (Ex)",
-		"searchable_name": "Split",
-		"file": "umrb9ea.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"### Split (Ex)",
@@ -1509,8 +1340,6 @@
 	},
 	"natural_invisibility": {
 		"name": "Natural Invisibility (Ex or Su)",
-		"searchable_name": "Natural Invisibility",
-		"file": "umrbeb7.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Natural Invisibility (Ex or Su)",
@@ -1525,8 +1354,6 @@
 	},
 	"greensight": {
 		"name": "Greensight (Su)",
-		"searchable_name": "Greensight",
-		"file": "umrc252.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"### Greensight (Su)",
@@ -1541,8 +1368,6 @@
 	},
 	"water_breathing": {
 		"name": "Water Breathing (Ex)",
-		"searchable_name": "Water Breathing",
-		"file": "umrc285.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"### Water Breathing (Ex)",
@@ -1557,8 +1382,6 @@
 	},
 	"second_save": {
 		"name": "Second Save (Ex) [Mythic]",
-		"searchable_name": "Second Save",
-		"file": "umrc28f.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"### Second Save (Ex) [Mythic]",
@@ -1573,8 +1396,6 @@
 	},
 	"tremorsense": {
 		"name": "Tremorsense (Ex)",
-		"searchable_name": "Tremorsense",
-		"file": "umrc5b4.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Tremorsense (Ex)",
@@ -1589,8 +1410,6 @@
 	},
 	"regeneration": {
 		"name": "Regeneration (Ex)",
-		"searchable_name": "Regeneration",
-		"file": "umrc848.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Regeneration (Ex)",
@@ -1609,8 +1428,6 @@
 	},
 	"curse_of_lycanthropy": {
 		"name": "Curse of Lycanthropy (Su)",
-		"searchable_name": "Curse of Lycanthropy",
-		"file": "umrc8bd.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Curse of Lycanthropy (Su)",
@@ -1625,8 +1442,6 @@
 	},
 	"keen_scent": {
 		"name": "Keen Scent (Ex)",
-		"searchable_name": "Keen Scent",
-		"file": "umrc8ec.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Keen Scent (Ex)",
@@ -1641,8 +1456,6 @@
 	},
 	"unnatural_aura": {
 		"name": "Unnatural Aura (Su)",
-		"searchable_name": "Unnatural Aura",
-		"file": "umrc949.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Unnatural Aura (Su)",
@@ -1657,8 +1470,6 @@
 	},
 	"lifesense": {
 		"name": "Lifesense (Su)",
-		"searchable_name": "Lifesense",
-		"file": "umrca4c.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Lifesense (Su)",
@@ -1673,8 +1484,6 @@
 	},
 	"trample": {
 		"name": "Trample (Ex)",
-		"searchable_name": "Trample",
-		"file": "umrcb84.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Trample (Ex)",
@@ -1689,8 +1498,6 @@
 	},
 	"recuperation": {
 		"name": "Recuperation (Ex) [Mythic]",
-		"searchable_name": "Recuperation",
-		"file": "umrcc05.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Recuperation (Ex) [Mythic]",
@@ -1705,8 +1512,6 @@
 	},
 	"fortification": {
 		"name": "Fortification (Ex)",
-		"searchable_name": "Fortification",
-		"file": "umrcc18.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"### Fortification (Ex)",
@@ -1721,8 +1526,6 @@
 	},
 	"poisonous_blood": {
 		"name": "Poisonous Blood (Ex) [Mythic]",
-		"searchable_name": "Poisonous Blood",
-		"file": "umrce45.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"### Poisonous Blood (Ex) [Mythic]",
@@ -1737,8 +1540,6 @@
 	},
 	"mythic_immortality": {
 		"name": "Mythic Immortality (Su) [Mythic]",
-		"searchable_name": "Mythic Immortality",
-		"file": "umrd005.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Mythic Immortality (Su) [Mythic]",
@@ -1753,8 +1554,6 @@
 	},
 	"smother": {
 		"name": "Smother (Ex)",
-		"searchable_name": "Smother",
-		"file": "umrd03c.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"### Smother (Ex)",
@@ -1773,8 +1572,6 @@
 	},
 	"surge": {
 		"name": "Surge (Su) [Mythic]",
-		"searchable_name": "Surge",
-		"file": "umrd0a4.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"### Surge (Su) [Mythic]",
@@ -1786,8 +1583,6 @@
 	},
 	"change_shape": {
 		"name": "Change Shape (Su)",
-		"searchable_name": "Change Shape",
-		"file": "umrd354.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Change Shape (Su)",
@@ -1802,8 +1597,6 @@
 	},
 	"fast_healing": {
 		"name": "Fast Healing (Ex)",
-		"searchable_name": "Fast Healing",
-		"file": "umrd4ec.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Fast Healing (Ex)",
@@ -1818,8 +1611,6 @@
 	},
 	"constrict": {
 		"name": "Constrict (Ex)",
-		"searchable_name": "Constrict",
-		"file": "umrd5f5.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Constrict (Ex)",
@@ -1834,8 +1625,6 @@
 	},
 	"display_of_strength": {
 		"name": "Display of Strength (Su) [Mythic]",
-		"searchable_name": "Display of Strength",
-		"file": "umrdb13.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Display of Strength (Su) [Mythic]",
@@ -1850,8 +1639,6 @@
 	},
 	"disease": {
 		"name": "Disease (Ex or Su)",
-		"searchable_name": "Disease",
-		"file": "umrdb18.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Disease (Ex or Su)",
@@ -1866,8 +1653,6 @@
 	},
 	"blood_drain": {
 		"name": "Blood Drain (Ex)",
-		"searchable_name": "Blood Drain",
-		"file": "umrdc2a.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Blood Drain (Ex)",
@@ -1882,8 +1667,6 @@
 	},
 	"no_breath": {
 		"name": "No Breath (Ex)",
-		"searchable_name": "No Breath",
-		"file": "umrdc48.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### No Breath (Ex)",
@@ -1898,8 +1681,6 @@
 	},
 	"mistsight": {
 		"name": "Mistsight (Ex)",
-		"searchable_name": "Mistsight",
-		"file": "umrddd0.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"### Mistsight (Ex)",
@@ -1914,8 +1695,6 @@
 	},
 	"ferocity": {
 		"name": "Ferocity (Ex)",
-		"searchable_name": "Ferocity",
-		"file": "umrde9c.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Ferocity (Ex)",
@@ -1930,8 +1709,6 @@
 	},
 	"psychic_resilience": {
 		"name": "Psychic Resilience (Ex)",
-		"searchable_name": "Psychic Resilience",
-		"file": "umre069.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Psychic Resilience (Ex)",
@@ -1946,8 +1723,6 @@
 	},
 	"mental_static_aura": {
 		"name": "Mental Static Aura (Su)",
-		"searchable_name": "Mental Static Aura",
-		"file": "umre1e8.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Mental Static Aura (Su)",
@@ -1962,8 +1737,6 @@
 	},
 	"ability_damage_and_drain": {
 		"name": "Ability Damage and Drain (Ex or Su)",
-		"searchable_name": "Ability Damage and Drain",
-		"file": "umre39d.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Ability Damage and Drain (Ex or Su)",
@@ -1978,8 +1751,6 @@
 	},
 	"all-around_vision": {
 		"name": "All-Around Vision (Ex)",
-		"searchable_name": "All-Around Vision",
-		"file": "umre40d.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### All-Around Vision (Ex)",
@@ -1994,8 +1765,6 @@
 	},
 	"trip": {
 		"name": "Trip (Ex)",
-		"searchable_name": "Trip",
-		"file": "umre53b.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Trip (Ex)",
@@ -2010,8 +1779,6 @@
 	},
 	"demon_lord_traits": {
 		"name": "Demon Lord Traits (Ex, Sp, or Su)",
-		"searchable_name": "Demon Lord Traits",
-		"file": "umre571.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Demon Lord Traits (Ex, Sp, or Su)",
@@ -2033,8 +1800,6 @@
 	},
 	"qlippoth_lord_traits": {
 		"name": "Qlippoth Lord Traits (Ex, Sp, or Su)",
-		"searchable_name": "Qlippoth Lord Traits",
-		"file": "umre704.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"### Qlippoth Lord Traits (Ex, Sp, or Su)",
@@ -2055,8 +1820,6 @@
 	},
 	"powerful_charge": {
 		"name": "Powerful Charge (Ex)",
-		"searchable_name": "Powerful Charge",
-		"file": "umre7fb.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Powerful Charge (Ex)",
@@ -2071,8 +1834,6 @@
 	},
 	"stench": {
 		"name": "Stench (Ex)",
-		"searchable_name": "Stench",
-		"file": "umreacf.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Stench (Ex)",
@@ -2087,8 +1848,6 @@
 	},
 	"summon": {
 		"name": "Summon (Sp)",
-		"searchable_name": "Summon",
-		"file": "umread1.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Summon (Sp)",
@@ -2103,8 +1862,6 @@
 	},
 	"flight": {
 		"name": "Flight (Ex or Su)",
-		"searchable_name": "Flight",
-		"file": "umreca5.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Flight (Ex or Su)",
@@ -2119,8 +1876,6 @@
 	},
 	"resistance": {
 		"name": "Resistance (Ex)",
-		"searchable_name": "Resistance",
-		"file": "umreeef.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Resistance (Ex)",
@@ -2135,8 +1890,6 @@
 	},
 	"immunity": {
 		"name": "Immunity (Ex or Su)",
-		"searchable_name": "Immunity",
-		"file": "umrf19e.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Immunity (Ex or Su)",
@@ -2151,8 +1904,6 @@
 	},
 	"poison": {
 		"name": "Poison (Ex or Su)",
-		"searchable_name": "Poison",
-		"file": "umrf286.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Poison (Ex or Su)",
@@ -2167,8 +1918,6 @@
 	},
 	"undersized_weapons": {
 		"name": "Undersized Weapons (Ex)",
-		"searchable_name": "Undersized Weapons",
-		"file": "umrf6bf.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Undersized Weapons (Ex)",
@@ -2183,8 +1932,6 @@
 	},
 	"gaze": {
 		"name": "Gaze (Su)",
-		"searchable_name": "Gaze",
-		"file": "umrf9e0.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Gaze (Su)",
@@ -2207,8 +1954,6 @@
 	},
 	"attach": {
 		"name": "Attach (Ex)",
-		"searchable_name": "Attach",
-		"file": "umrfd86.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Attach (Ex)",
@@ -2223,8 +1968,6 @@
 	},
 	"distraction": {
 		"name": "Distraction (Ex)",
-		"searchable_name": "Distraction",
-		"file": "umrfdc9.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Distraction (Ex)",
@@ -2239,8 +1982,6 @@
 	},
 	"negative_energy_affinity": {
 		"name": "Negative Energy Affinity (Ex)",
-		"searchable_name": "Negative Energy Affinity",
-		"file": "umrff18.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Negative Energy Affinity (Ex)",
@@ -2255,8 +1996,6 @@
 	},
 	"heat": {
 		"name": "Heat (Ex)",
-		"searchable_name": "Heat",
-		"file": "umrff1f.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"### Heat (Ex)",

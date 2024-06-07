@@ -2,7 +2,6 @@
 	"_prefix": "equipment-tech-misc",
 	"access_card_black": {
 		"name": "access card (black)",
-		"file": "equipmenttechmiscdisplay7e52.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Access card",
@@ -26,64 +25,54 @@
 	},
 	"access_card_blue": {
 		"name": "access card (blue)",
-		"file": "equipmenttechmiscdisplay9dcb.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "access_card_black",
 		"display": "equiptechmisc"
 	},
 	"access_card_brown": {
 		"name": "access card (brown)",
-		"file": "equipmenttechmiscdisplay7552.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "access_card_black",
 		"display": "equiptechmisc"
 	},
 	"access_card_gray": {
 		"name": "access card (gray)",
-		"file": "equipmenttechmiscdisplayda40.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "access_card_black",
 		"display": "equiptechmisc"
 	},
 	"access_card_green": {
 		"name": "access card (green)",
-		"file": "equipmenttechmiscdisplay40c3.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "access_card_black",
 		"display": "equiptechmisc"
 	},
 	"access_card_orange": {
 		"name": "access card (orange)",
-		"file": "equipmenttechmiscdisplay1ef3.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "access_card_black",
 		"display": "equiptechmisc"
 	},
 	"access_card_prismatic": {
 		"name": "access card (prismatic)",
-		"file": "equipmenttechmiscdisplay9ec2.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "access_card_black",
 		"display": "equiptechmisc"
 	},
 	"access_card_red": {
 		"name": "access card (red)",
-		"file": "equipmenttechmiscdisplay6a1f.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "access_card_black",
 		"display": "equiptechmisc"
 	},
 	"access_card_white": {
 		"name": "access card (white)",
-		"file": "equipmenttechmiscdisplay0e2e.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "access_card_black",
 		"display": "equiptechmisc"
 	},
 	"e-pick_black": {
 		"name": "e-pick (black)",
-		"searchable_name": "epick black",
-		"file": "equipmenttechmiscdisplay3153.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## E-pick",
@@ -120,8 +109,6 @@
 	},
 	"e-pick_blue": {
 		"name": "e-pick (blue)",
-		"searchable_name": "epick blue",
-		"file": "equipmenttechmiscdisplay2cf6.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "epick_black",
 		"display": "equiptechmisc"
@@ -131,8 +118,6 @@
 	},
 	"e-pick_brown": {
 		"name": "e-pick (brown)",
-		"searchable_name": "epick brown",
-		"file": "equipmenttechmiscdisplay1a99.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "epick_black",
 		"display": "equiptechmisc"
@@ -142,8 +127,6 @@
 	},
 	"e-pick_gray": {
 		"name": "e-pick (gray)",
-		"searchable_name": "epick gray",
-		"file": "equipmenttechmiscdisplay6bee.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "epick_black",
 		"display": "equiptechmisc"
@@ -153,8 +136,6 @@
 	},
 	"e-pick_green": {
 		"name": "e-pick (green)",
-		"searchable_name": "epick green",
-		"file": "equipmenttechmiscdisplayff4a.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "epick_black",
 		"display": "equiptechmisc"
@@ -164,8 +145,6 @@
 	},
 	"e-pick_orange": {
 		"name": "e-pick (orange)",
-		"searchable_name": "epick orange",
-		"file": "equipmenttechmiscdisplayc057.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "epick_black",
 		"display": "equiptechmisc"
@@ -175,8 +154,6 @@
 	},
 	"e-pick_prismatic": {
 		"name": "e-pick (prismatic)",
-		"searchable_name": "epick prismatic",
-		"file": "equipmenttechmiscdisplay31eb.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "epick_black",
 		"display": "equiptechmisc"
@@ -186,8 +163,6 @@
 	},
 	"e-pick_red": {
 		"name": "e-pick (red)",
-		"searchable_name": "epick red",
-		"file": "equipmenttechmiscdisplayaf04.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "epick_black",
 		"display": "equiptechmisc"
@@ -197,8 +172,6 @@
 	},
 	"e-pick_white": {
 		"name": "e-pick (white)",
-		"searchable_name": "epick white",
-		"file": "equipmenttechmiscdisplayc95e.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "epick_black",
 		"display": "equiptechmisc"
@@ -208,7 +181,6 @@
 	},
 	"lock_coder_black": {
 		"name": "lock coder (black)",
-		"file": "equipmenttechmiscdisplay8161.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Lock coder",
@@ -242,63 +214,54 @@
 	},
 	"lock_coder_blue": {
 		"name": "lock coder (blue)",
-		"file": "equipmenttechmiscdisplay3a1d.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "lock_coder_black",
 		"display": "equiptechmisc"
 	},
 	"lock_coder_brown": {
 		"name": "lock coder (brown)",
-		"file": "equipmenttechmiscdisplayebf2.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "lock_coder_black",
 		"display": "equiptechmisc"
 	},
 	"lock_coder_gray": {
 		"name": "lock coder (gray)",
-		"file": "equipmenttechmiscdisplay7804.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "lock_coder_black",
 		"display": "equiptechmisc"
 	},
 	"lock_coder_green": {
 		"name": "lock coder (green)",
-		"file": "equipmenttechmiscdisplay963f.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "lock_coder_black",
 		"display": "equiptechmisc"
 	},
 	"lock_coder_orange": {
 		"name": "lock coder (orange)",
-		"file": "equipmenttechmiscdisplayd310.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "lock_coder_black",
 		"display": "equiptechmisc"
 	},
 	"lock_coder_prismatic": {
 		"name": "lock coder (prismatic)",
-		"file": "equipmenttechmiscdisplaye6f2.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "lock_coder_black",
 		"display": "equiptechmisc"
 	},
 	"lock_coder_red": {
 		"name": "lock coder (red)",
-		"file": "equipmenttechmiscdisplayd178.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "lock_coder_black",
 		"display": "equiptechmisc"
 	},
 	"lock_coder_white": {
 		"name": "lock coder (white)",
-		"file": "equipmenttechmiscdisplayafb1.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "lock_coder_black",
 		"display": "equiptechmisc"
 	},
 	"battery": {
 		"name": "battery",
-		"file": "equipmenttechmiscdisplayafc2.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Battery",
@@ -321,7 +284,6 @@
 	},
 	"power_cable": {
 		"name": "power cable",
-		"file": "equipmenttechmiscdisplay8c48.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Power cable",
@@ -342,7 +304,6 @@
 	},
 	"power_receiver": {
 		"name": "power receiver",
-		"file": "equipmenttechmiscdisplay1bab.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Power receiver",
@@ -363,7 +324,6 @@
 	},
 	"cylex": {
 		"name": "cylex",
-		"file": "equipmenttechmiscdisplayb5a2.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cylex",
@@ -384,7 +344,6 @@
 	},
 	"detonator": {
 		"name": "detonator",
-		"file": "equipmenttechmiscdisplay100b.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Detonator",
@@ -405,7 +364,6 @@
 	},
 	"grenade_arc_grenade": {
 		"name": "grenade (arc grenade)",
-		"file": "equipmenttechmiscdisplayd920.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (arc grenade)",
@@ -445,7 +403,6 @@
 	},
 	"grenade_atom_grenade": {
 		"name": "grenade (atom grenade)",
-		"file": "equipmenttechmiscdisplayec3d.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (atom grenade)",
@@ -460,7 +417,6 @@
 	},
 	"grenade_bang_grenade": {
 		"name": "grenade (bang grenade)",
-		"file": "equipmenttechmiscdisplay53da.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (bang grenade)",
@@ -475,7 +431,6 @@
 	},
 	"grenade_bio_grenade": {
 		"name": "grenade (bio grenade)",
-		"file": "equipmenttechmiscdisplay8839.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (bio grenade)",
@@ -490,7 +445,6 @@
 	},
 	"grenade_concussion_grenade": {
 		"name": "grenade (concussion grenade)",
-		"file": "equipmenttechmiscdisplay2451.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (concussion grenade)",
@@ -505,7 +459,6 @@
 	},
 	"grenade_emp_grenade": {
 		"name": "grenade (emp grenade)",
-		"file": "equipmenttechmiscdisplay6e76.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (EMP grenade)",
@@ -520,7 +473,6 @@
 	},
 	"grenade_flash_grenade": {
 		"name": "grenade (flash grenade)",
-		"file": "equipmenttechmiscdisplay2466.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (flash grenade)",
@@ -535,7 +487,6 @@
 	},
 	"grenade_flechette_grenade": {
 		"name": "grenade (flechette grenade)",
-		"file": "equipmenttechmiscdisplay1e3e.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (flechette grenade)",
@@ -550,7 +501,6 @@
 	},
 	"grenade_fragmentation_grenade": {
 		"name": "grenade (fragmentation grenade)",
-		"file": "equipmenttechmiscdisplayf70a.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (fragmentation grenade)",
@@ -565,7 +515,6 @@
 	},
 	"grenade_gas_grenade": {
 		"name": "grenade (gas grenade)",
-		"file": "equipmenttechmiscdisplay6a6f.html",
 		"sources": [ "Pathfinder #86: Lords of Rust" ],
 		"description": [
 			"## Grenade (gas grenade)",
@@ -586,7 +535,6 @@
 	},
 	"grenade_gravity_grenade": {
 		"name": "grenade (gravity grenade)",
-		"file": "equipmenttechmiscdisplay56b1.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (gravity grenade)",
@@ -601,7 +549,6 @@
 	},
 	"grenade_inferno_grenade": {
 		"name": "grenade (inferno grenade)",
-		"file": "equipmenttechmiscdisplay1059.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (inferno grenade)",
@@ -616,7 +563,6 @@
 	},
 	"grenade_plasma_grenade": {
 		"name": "grenade (plasma grenade)",
-		"file": "equipmenttechmiscdisplay3d2e.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (plasma grenade)",
@@ -631,7 +577,6 @@
 	},
 	"grenade_soft_grenade": {
 		"name": "grenade (soft grenade)",
-		"file": "equipmenttechmiscdisplay00db.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (soft grenade)",
@@ -646,7 +591,6 @@
 	},
 	"grenade_sonic_grenade": {
 		"name": "grenade (sonic grenade)",
-		"file": "equipmenttechmiscdisplay8928.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (sonic grenade)",
@@ -661,7 +605,6 @@
 	},
 	"grenade_zero_grenade": {
 		"name": "grenade (zero grenade)",
-		"file": "equipmenttechmiscdisplay032a.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grenade (zero grenade)",
@@ -676,7 +619,6 @@
 	},
 	"chemalyzer": {
 		"name": "chemalyzer",
-		"file": "equipmenttechmiscdisplay121d.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Chemalyzer",
@@ -697,7 +639,6 @@
 	},
 	"clonepod": {
 		"name": "clonepod",
-		"file": "equipmenttechmiscdisplay0f1d.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Clonepod",
@@ -724,7 +665,6 @@
 	},
 	"cortex_gun_mark_i": {
 		"name": "cortex gun (mark I)",
-		"file": "equipmenttechmiscdisplay38af.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cortex gun (mark I)",
@@ -762,7 +702,6 @@
 	},
 	"cortex_gun_mark_ii": {
 		"name": "cortex gun (mark II)",
-		"file": "equipmenttechmiscdisplayb4a3.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cortex gun (mark II)",
@@ -777,7 +716,6 @@
 	},
 	"cortex_gun_mark_iii": {
 		"name": "cortex gun (mark III)",
-		"file": "equipmenttechmiscdisplayfc42.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cortex gun (mark III)",
@@ -792,7 +730,6 @@
 	},
 	"cortex_gun_mark_iv": {
 		"name": "cortex gun (mark IV)",
-		"file": "equipmenttechmiscdisplay5ec6.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cortex gun (mark IV)",
@@ -807,7 +744,6 @@
 	},
 	"cortex_gun_mark_v": {
 		"name": "cortex gun (mark V)",
-		"file": "equipmenttechmiscdisplay6c59.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cortex gun (mark V)",
@@ -822,7 +758,6 @@
 	},
 	"envoy's_mouthpiece": {
 		"name": "envoy's mouthpiece",
-		"file": "equipmenttechmiscdisplay6a24.html",
 		"sources": [ "Pathfinder #86: Lords of Rust" ],
 		"description": [
 			"## Envoy's mouthpiece",
@@ -845,7 +780,6 @@
 	},
 	"filter_mask": {
 		"name": "filter mask",
-		"file": "equipmenttechmiscdisplayfa88.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Filter mask",
@@ -866,7 +800,6 @@
 	},
 	"goo_tube": {
 		"name": "goo tube",
-		"file": "equipmenttechmiscdisplaye618.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Goo tube",
@@ -887,7 +820,6 @@
 	},
 	"medlance": {
 		"name": "medlance",
-		"file": "equipmenttechmiscdisplay7286.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Medlance",
@@ -908,7 +840,6 @@
 	},
 	"mindmelder": {
 		"name": "mindmelder",
-		"file": "equipmenttechmiscdisplay478c.html",
 		"sources": [ "Pathfinder #90: The Divinity Drive" ],
 		"description": [
 			"## Mindmelder",
@@ -929,7 +860,6 @@
 	},
 	"nanite_canister": {
 		"name": "nanite canister",
-		"file": "equipmenttechmiscdisplay1a6a.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Nanite canister",
@@ -950,7 +880,6 @@
 	},
 	"nanite_hypogun_black": {
 		"name": "nanite hypogun (black)",
-		"file": "equipmenttechmiscdisplay80a9.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Nanite hypogun",
@@ -986,63 +915,54 @@
 	},
 	"nanite_hypogun_blue": {
 		"name": "nanite hypogun (blue)",
-		"file": "equipmenttechmiscdisplay8dd1.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "nanite_hypogun_black",
 		"display": "equiptechmisc"
 	},
 	"nanite_hypogun_brown": {
 		"name": "nanite hypogun (brown)",
-		"file": "equipmenttechmiscdisplayaf93.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "nanite_hypogun_black",
 		"display": "equiptechmisc"
 	},
 	"nanite_hypogun_gray": {
 		"name": "nanite hypogun (gray)",
-		"file": "equipmenttechmiscdisplayd944.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "nanite_hypogun_black",
 		"display": "equiptechmisc"
 	},
 	"nanite_hypogun_green": {
 		"name": "nanite hypogun (green)",
-		"file": "equipmenttechmiscdisplayb4db.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "nanite_hypogun_black",
 		"display": "equiptechmisc"
 	},
 	"nanite_hypogun_orange": {
 		"name": "nanite hypogun (orange)",
-		"file": "equipmenttechmiscdisplay4d5c.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "nanite_hypogun_black",
 		"display": "equiptechmisc"
 	},
 	"nanite_hypogun_prismatic": {
 		"name": "nanite hypogun (prismatic)",
-		"file": "equipmenttechmiscdisplayacf8.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "nanite_hypogun_black",
 		"display": "equiptechmisc"
 	},
 	"nanite_hypogun_red": {
 		"name": "nanite hypogun (red)",
-		"file": "equipmenttechmiscdisplaye17b.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "nanite_hypogun_black",
 		"display": "equiptechmisc"
 	},
 	"nanite_hypogun_white": {
 		"name": "nanite hypogun (white)",
-		"file": "equipmenttechmiscdisplaya775.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "nanite_hypogun_black",
 		"display": "equiptechmisc"
 	},
 	"neurocam": {
 		"name": "neurocam",
-		"file": "equipmenttechmiscdisplay695e.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Neurocam",
@@ -1067,7 +987,6 @@
 	},
 	"nutrient_training_node": {
 		"name": "nutrient training node",
-		"file": "equipmenttechmiscdisplay9fbf.html",
 		"sources": [ "Pathfinder #87: The Choking Tower" ],
 		"description": [
 			"## Nutrient training node",
@@ -1092,7 +1011,6 @@
 	},
 	"proximity_helmet": {
 		"name": "proximity helmet",
-		"file": "equipmenttechmiscdisplay28c8.html",
 		"sources": [ "Pathfinder #85: Fires of Creation" ],
 		"description": [
 			"## Proximity helmet",
@@ -1113,7 +1031,6 @@
 	},
 	"skillchip_mark_i": {
 		"name": "skillchip (mark I)",
-		"file": "equipmenttechmiscdisplayb8f7.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Skillchip (mark I)",
@@ -1145,7 +1062,6 @@
 	},
 	"skillchip_mark_ii": {
 		"name": "skillchip (mark II)",
-		"file": "equipmenttechmiscdisplay2d96.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Skillchip (mark II)",
@@ -1160,7 +1076,6 @@
 	},
 	"skillchip_mark_iii": {
 		"name": "skillchip (mark III)",
-		"file": "equipmenttechmiscdisplay27b9.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Skillchip (mark III)",
@@ -1175,7 +1090,6 @@
 	},
 	"skillchip_mark_iv": {
 		"name": "skillchip (mark IV)",
-		"file": "equipmenttechmiscdisplayba28.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Skillchip (mark IV)",
@@ -1190,7 +1104,6 @@
 	},
 	"skillchip_mark_v": {
 		"name": "skillchip (mark V)",
-		"file": "equipmenttechmiscdisplay4e05.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Skillchip (mark V)",
@@ -1205,7 +1118,6 @@
 	},
 	"trauma_pack": {
 		"name": "trauma pack",
-		"file": "equipmenttechmiscdisplayee8f.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Trauma pack",
@@ -1226,7 +1138,6 @@
 	},
 	"trauma_pack_plus": {
 		"name": "trauma pack plus",
-		"file": "equipmenttechmiscdisplayec3c.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Trauma pack plus",
@@ -1247,7 +1158,6 @@
 	},
 	"veemod_black": {
 		"name": "veemod (black)",
-		"file": "equipmenttechmiscdisplayafcf.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Veemod",
@@ -1290,63 +1200,54 @@
 	},
 	"veemod_blue": {
 		"name": "veemod (blue)",
-		"file": "equipmenttechmiscdisplaye14d.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "veemod_black",
 		"display": "equiptechmisc"
 	},
 	"veemod_brown": {
 		"name": "veemod (brown)",
-		"file": "equipmenttechmiscdisplay82b3.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "veemod_black",
 		"display": "equiptechmisc"
 	},
 	"veemod_gray": {
 		"name": "veemod (gray)",
-		"file": "equipmenttechmiscdisplayf5b0.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "veemod_black",
 		"display": "equiptechmisc"
 	},
 	"veemod_green": {
 		"name": "veemod (green)",
-		"file": "equipmenttechmiscdisplay63cc.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "veemod_black",
 		"display": "equiptechmisc"
 	},
 	"veemod_orange": {
 		"name": "veemod (orange)",
-		"file": "equipmenttechmiscdisplay2d87.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "veemod_black",
 		"display": "equiptechmisc"
 	},
 	"veemod_prismatic": {
 		"name": "veemod (prismatic)",
-		"file": "equipmenttechmiscdisplay6c32.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "veemod_black",
 		"display": "equiptechmisc"
 	},
 	"veemod_red": {
 		"name": "veemod (red)",
-		"file": "equipmenttechmiscdisplay40df.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "veemod_black",
 		"display": "equiptechmisc"
 	},
 	"veemod_white": {
 		"name": "veemod (white)",
-		"file": "equipmenttechmiscdisplayd496.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "veemod_black",
 		"display": "equiptechmisc"
 	},
 	"veemod_goggles": {
 		"name": "veemod goggles",
-		"file": "equipmenttechmiscdisplay84c6.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Veemod goggles",
@@ -1369,7 +1270,6 @@
 	},
 	"camera": {
 		"name": "camera",
-		"file": "equipmenttechmiscdisplay5f0d.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Camera",
@@ -1390,7 +1290,6 @@
 	},
 	"chipfinder_black": {
 		"name": "chipfinder (black)",
-		"file": "equipmenttechmiscdisplay9a06.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Chipfinder",
@@ -1424,63 +1323,54 @@
 	},
 	"chipfinder_blue": {
 		"name": "chipfinder (blue)",
-		"file": "equipmenttechmiscdisplay7f27.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "chipfinder_black",
 		"display": "equiptechmisc"
 	},
 	"chipfinder_brown": {
 		"name": "chipfinder (brown)",
-		"file": "equipmenttechmiscdisplay560a.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "chipfinder_black",
 		"display": "equiptechmisc"
 	},
 	"chipfinder_gray": {
 		"name": "chipfinder (gray)",
-		"file": "equipmenttechmiscdisplay2894.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "chipfinder_black",
 		"display": "equiptechmisc"
 	},
 	"chipfinder_green": {
 		"name": "chipfinder (green)",
-		"file": "equipmenttechmiscdisplay4591.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "chipfinder_black",
 		"display": "equiptechmisc"
 	},
 	"chipfinder_orange": {
 		"name": "chipfinder (orange)",
-		"file": "equipmenttechmiscdisplayea48.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "chipfinder_black",
 		"display": "equiptechmisc"
 	},
 	"chipfinder_prismatic": {
 		"name": "chipfinder (prismatic)",
-		"file": "equipmenttechmiscdisplay9619.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "chipfinder_black",
 		"display": "equiptechmisc"
 	},
 	"chipfinder_red": {
 		"name": "chipfinder (red)",
-		"file": "equipmenttechmiscdisplayfb10.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "chipfinder_black",
 		"display": "equiptechmisc"
 	},
 	"chipfinder_white": {
 		"name": "chipfinder (white)",
-		"file": "equipmenttechmiscdisplayf797.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "chipfinder_black",
 		"display": "equiptechmisc"
 	},
 	"commset": {
 		"name": "commset",
-		"file": "equipmenttechmiscdisplay3cb6.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Commset",
@@ -1501,7 +1391,6 @@
 	},
 	"emergency_beacon": {
 		"name": "emergency beacon",
-		"file": "equipmenttechmiscdisplay6690.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Emergency beacon",
@@ -1522,7 +1411,6 @@
 	},
 	"emergency_raft": {
 		"name": "emergency raft",
-		"file": "equipmenttechmiscdisplaydd1f.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Emergency raft",
@@ -1543,7 +1431,6 @@
 	},
 	"emergency_shelter": {
 		"name": "emergency shelter",
-		"file": "equipmenttechmiscdisplay669d.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Emergency shelter",
@@ -1564,7 +1451,6 @@
 	},
 	"fire_extinguisher": {
 		"name": "fire extinguisher",
-		"file": "equipmenttechmiscdisplayaddd.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Fire extinguisher",
@@ -1587,7 +1473,6 @@
 	},
 	"flashlight": {
 		"name": "flashlight",
-		"file": "equipmenttechmiscdisplayc02a.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Flashlight",
@@ -1608,7 +1493,6 @@
 	},
 	"force_field_black": {
 		"name": "force field (black)",
-		"file": "equipmenttechmiscdisplayab47.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Force field",
@@ -1646,63 +1530,54 @@
 	},
 	"force_field_blue": {
 		"name": "force field (blue)",
-		"file": "equipmenttechmiscdisplayad48.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "force_field_black",
 		"display": "equiptechmisc"
 	},
 	"force_field_brown": {
 		"name": "force field (brown)",
-		"file": "equipmenttechmiscdisplay73f6.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "force_field_black",
 		"display": "equiptechmisc"
 	},
 	"force_field_gray": {
 		"name": "force field (gray)",
-		"file": "equipmenttechmiscdisplayc4eb.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "force_field_black",
 		"display": "equiptechmisc"
 	},
 	"force_field_green": {
 		"name": "force field (green)",
-		"file": "equipmenttechmiscdisplay6eb8.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "force_field_black",
 		"display": "equiptechmisc"
 	},
 	"force_field_orange": {
 		"name": "force field (orange)",
-		"file": "equipmenttechmiscdisplay1b73.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "force_field_black",
 		"display": "equiptechmisc"
 	},
 	"force_field_prismatic": {
 		"name": "force field (prismatic)",
-		"file": "equipmenttechmiscdisplay0f98.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "force_field_black",
 		"display": "equiptechmisc"
 	},
 	"force_field_red": {
 		"name": "force field (red)",
-		"file": "equipmenttechmiscdisplay42cc.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "force_field_black",
 		"display": "equiptechmisc"
 	},
 	"force_field_white": {
 		"name": "force field (white)",
-		"file": "equipmenttechmiscdisplayda22.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "force_field_black",
 		"display": "equiptechmisc"
 	},
 	"gravity_clip": {
 		"name": "gravity clip",
-		"file": "equipmenttechmiscdisplay4094.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Gravity clip",
@@ -1723,7 +1598,6 @@
 	},
 	"grip_of_death": {
 		"name": "grip of death",
-		"file": "equipmenttechmiscdisplay0276.html",
 		"sources": [ "Pathfinder #88: Valley of the Brain Collectors" ],
 		"description": [
 			"## Grip of death",
@@ -1745,7 +1619,6 @@
 	},
 	"grippers": {
 		"name": "grippers",
-		"file": "equipmenttechmiscdisplay4293.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Grippers",
@@ -1766,7 +1639,6 @@
 	},
 	"hologram_generator_black": {
 		"name": "hologram generator (black)",
-		"file": "equipmenttechmiscdisplay74ea.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Hologram generator",
@@ -1816,63 +1688,54 @@
 	},
 	"hologram_generator_blue": {
 		"name": "hologram generator (blue)",
-		"file": "equipmenttechmiscdisplay9d67.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "hologram_generator_black",
 		"display": "equiptechmisc"
 	},
 	"hologram_generator_brown": {
 		"name": "hologram generator (brown)",
-		"file": "equipmenttechmiscdisplaycc24.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "hologram_generator_black",
 		"display": "equiptechmisc"
 	},
 	"hologram_generator_gray": {
 		"name": "hologram generator (gray)",
-		"file": "equipmenttechmiscdisplay8fa0.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "hologram_generator_black",
 		"display": "equiptechmisc"
 	},
 	"hologram_generator_green": {
 		"name": "hologram generator (green)",
-		"file": "equipmenttechmiscdisplaye330.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "hologram_generator_black",
 		"display": "equiptechmisc"
 	},
 	"hologram_generator_orange": {
 		"name": "hologram generator (orange)",
-		"file": "equipmenttechmiscdisplay62ba.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "hologram_generator_black",
 		"display": "equiptechmisc"
 	},
 	"hologram_generator_prismatic": {
 		"name": "hologram generator (prismatic)",
-		"file": "equipmenttechmiscdisplay959f.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "hologram_generator_black",
 		"display": "equiptechmisc"
 	},
 	"hologram_generator_red": {
 		"name": "hologram generator (red)",
-		"file": "equipmenttechmiscdisplay0c62.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "hologram_generator_black",
 		"display": "equiptechmisc"
 	},
 	"hologram_generator_white": {
 		"name": "hologram generator (white)",
-		"file": "equipmenttechmiscdisplay33cb.html",
 		"sources": [ "Technology Guide" ],
 		"copyof": "hologram_generator_black",
 		"display": "equiptechmisc"
 	},
 	"inertial_dampening_belt": {
 		"name": "inertial dampening belt",
-		"file": "equipmenttechmiscdisplay0495.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Inertial dampening belt",
@@ -1893,7 +1756,6 @@
 	},
 	"ion_tape": {
 		"name": "ion tape",
-		"file": "equipmenttechmiscdisplayf13d.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Ion tape",
@@ -1914,7 +1776,6 @@
 	},
 	"jetpack": {
 		"name": "jetpack",
-		"file": "equipmenttechmiscdisplay4f91.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Jetpack",
@@ -1939,7 +1800,6 @@
 	},
 	"laser_sight": {
 		"name": "laser sight",
-		"file": "equipmenttechmiscdisplayb526.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Laser sight",
@@ -1960,7 +1820,6 @@
 	},
 	"lighter": {
 		"name": "lighter",
-		"file": "equipmenttechmiscdisplay1efd.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Lighter",
@@ -1981,7 +1840,6 @@
 	},
 	"magboots": {
 		"name": "magboots",
-		"file": "equipmenttechmiscdisplayd23c.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Magboots",
@@ -2002,7 +1860,6 @@
 	},
 	"motion_tracker": {
 		"name": "motion tracker",
-		"file": "equipmenttechmiscdisplay5d76.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Motion tracker",
@@ -2023,7 +1880,6 @@
 	},
 	"quantum_box": {
 		"name": "quantum box",
-		"file": "equipmenttechmiscdisplay1aac.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Quantum box",
@@ -2044,7 +1900,6 @@
 	},
 	"radiation_detector": {
 		"name": "radiation detector",
-		"file": "equipmenttechmiscdisplay84a7.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Radiation detector",
@@ -2065,7 +1920,6 @@
 	},
 	"robojack": {
 		"name": "robojack",
-		"file": "equipmenttechmiscdisplay1fd6.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Robojack",
@@ -2086,7 +1940,6 @@
 	},
 	"signal_booster": {
 		"name": "signal booster",
-		"file": "equipmenttechmiscdisplay4f99.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Signal booster",
@@ -2107,7 +1960,6 @@
 	},
 	"signal_jammer": {
 		"name": "signal jammer",
-		"file": "equipmenttechmiscdisplay880a.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Signal jammer",
@@ -2128,7 +1980,6 @@
 	},
 	"tracker_chip": {
 		"name": "tracker chip",
-		"file": "equipmenttechmiscdisplaya6c3.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Tracker chip",
@@ -2151,7 +2002,6 @@
 	},
 	"zipstick": {
 		"name": "zipstick",
-		"file": "equipmenttechmiscdisplayd447.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Zipstick",

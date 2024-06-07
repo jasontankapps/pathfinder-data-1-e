@@ -2,7 +2,6 @@
 	"_prefix": "archetype-ranger",
 	"abendego_diver": {
 		"name": "Abendego Diver",
-		"file": "archetypedisplay31d7.html",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
 			"## Abendego Diver",
@@ -42,7 +41,6 @@
 	},
 	"battle_scout": {
 		"name": "Battle Scout",
-		"file": "archetypedisplay7a91.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Battle Scout",
@@ -70,7 +68,6 @@
 	},
 	"beast_master": {
 		"name": "Beast Master",
-		"file": "archetypedisplayea64.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Beast Master",
@@ -92,7 +89,6 @@
 	},
 	"blightwarden": {
 		"name": "Blightwarden",
-		"file": "archetypedisplay9e79.html",
 		"sources": [ "People of the Wastes" ],
 		"description": [
 			"## Blightwarden",
@@ -126,7 +122,6 @@
 	},
 	"bow_nomad": {
 		"name": "Bow Nomad",
-		"file": "archetypedisplay89eb.html",
 		"sources": [ "People of the Stars" ],
 		"description": [
 			"## Bow Nomad",
@@ -160,7 +155,6 @@
 	},
 	"cinderwalker": {
 		"name": "Cinderwalker",
-		"file": "archetypedisplay7dd9.html",
 		"sources": [ "Pathfinder #95: Anvil of Fire" ],
 		"description": [
 			"## Cinderwalker",
@@ -178,7 +172,6 @@
 	},
 	"code_runner": {
 		"name": "Code Runner",
-		"file": "archetypedisplayb8f5.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Code Runner",
@@ -204,7 +197,6 @@
 	},
 	"corpse_hunter": {
 		"name": "Corpse Hunter",
-		"file": "archetypedisplayfa20-2.html",
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Corpse Hunter",
@@ -228,7 +220,6 @@
 	},
 	"dandy": {
 		"name": "Dandy",
-		"file": "archetypedisplay08e5.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Dandy",
@@ -276,7 +267,6 @@
 	},
 	"darklands_sailor": {
 		"name": "Darklands Sailor",
-		"file": "archetypedisplaycef0.html",
 		"sources": [ "Heroes of the Darklands" ],
 		"description": [
 			"## Darklands Sailor",
@@ -308,7 +298,6 @@
 	},
 	"deep_walker": {
 		"name": "Deep Walker",
-		"file": "archetypedisplayc341.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Deep Walker",
@@ -328,7 +317,6 @@
 	},
 	"divine_tracker": {
 		"name": "Divine Tracker",
-		"file": "archetypedisplay3070.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Divine Tracker",
@@ -346,7 +334,6 @@
 	},
 	"dragon_hunter": {
 		"name": "Dragon Hunter",
-		"file": "archetypedisplay76c5.html",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Dragon Hunter",
@@ -372,7 +359,6 @@
 	},
 	"drake_warden": {
 		"name": "Drake Warden",
-		"file": "archetypedisplay4f10.html",
 		"sources": [ "Legacy of Dragons" ],
 		"description": [
 			"## Drake Warden",
@@ -388,7 +374,6 @@
 	},
 	"dungeon_rover": {
 		"name": "Dungeon Rover",
-		"file": "archetypedisplay5300.html",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Dungeon Rover",
@@ -412,7 +397,6 @@
 	},
 	"dusk_stalker": {
 		"name": "Dusk Stalker",
-		"file": "archetypedisplay0f2e.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Dusk Stalker",
@@ -432,7 +416,6 @@
 	},
 	"elemental_envoy": {
 		"name": "Elemental Envoy",
-		"file": "archetypedisplay4bea.html",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
 			"## Elemental Envoy",
@@ -452,7 +435,6 @@
 	},
 	"falconer": {
 		"name": "Falconer",
-		"file": "archetypedisplay88a2.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Falconer",
@@ -478,7 +460,6 @@
 	},
 	"flamewarden": {
 		"name": "Flamewarden",
-		"file": "archetypedisplaybe86.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Flamewarden",
@@ -516,7 +497,6 @@
 	},
 	"fortune-finder": {
 		"name": "Fortune-Finder",
-		"file": "archetypedisplayb8b2.html",
 		"sources": [ "Blood of the Beast" ],
 		"description": [
 			"## Fortune-Finder",
@@ -550,7 +530,6 @@
 	},
 	"freebooter": {
 		"name": "Freebooter",
-		"file": "archetypedisplay8db6.html",
 		"sources": [ "Pirates of the Inner Sea" ],
 		"description": [
 			"## Freebooter",
@@ -570,7 +549,6 @@
 	},
 	"galvanic_saboteur": {
 		"name": "Galvanic Saboteur",
-		"file": "archetypedisplay955d.html",
 		"sources": [ "People of the River" ],
 		"description": [
 			"## Galvanic Saboteur",
@@ -608,7 +586,6 @@
 	},
 	"groom": {
 		"name": "Groom",
-		"file": "archetypedisplay3ebc.html",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Groom",
@@ -626,7 +603,6 @@
 	},
 	"guide": {
 		"name": "Guide",
-		"file": "archetypedisplaye032.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Guide",
@@ -650,7 +626,6 @@
 	},
 	"guildbreaker": {
 		"name": "Guildbreaker",
-		"file": "archetypedisplay53e8.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Guildbreaker",
@@ -686,7 +661,6 @@
 	},
 	"hooded_champion": {
 		"name": "Hooded Champion",
-		"file": "archetypedisplay6120.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Hooded Champion",
@@ -710,7 +684,6 @@
 	},
 	"horse_lord": {
 		"name": "Horse Lord",
-		"file": "archetypedisplay470d.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Horse Lord",
@@ -730,7 +703,6 @@
 	},
 	"ilsurian_archer": {
 		"name": "Ilsurian Archer",
-		"file": "archetypedisplay0b29.html",
 		"sources": [],
 		"description": [
 			"## Ilsurian Archer",
@@ -754,7 +726,6 @@
 	},
 	"infiltrator": {
 		"name": "Infiltrator",
-		"file": "archetypedisplaye51a.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Infiltrator",
@@ -816,7 +787,6 @@
 	},
 	"jungle_lord": {
 		"name": "Jungle Lord",
-		"file": "archetypedisplaycc85.html",
 		"sources": [ "Pathfinder: Worldscape #4" ],
 		"description": [
 			"## Jungle Lord",
@@ -870,7 +840,6 @@
 	},
 	"lantern_lighter": {
 		"name": "Lantern Lighter",
-		"file": "archetypedisplay95b0.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Inner Sea Intrigue"
@@ -927,7 +896,6 @@
 	},
 	"nirmathi_irregular": {
 		"name": "Nirmathi Irregular",
-		"file": "archetypedisplay8b12.html",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"## Nirmathi Irregular",
@@ -951,7 +919,6 @@
 	},
 	"planar_scout": {
 		"name": "Planar Scout",
-		"file": "archetypedisplaydaed.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Planar Scout",
@@ -1007,7 +974,6 @@
 	},
 	"poison_darter": {
 		"name": "Poison Darter",
-		"file": "archetypedisplaya4be.html",
 		"sources": [ "Blood of the Beast" ],
 		"description": [
 			"## Poison Darter",
@@ -1039,7 +1005,6 @@
 	},
 	"raven_master": {
 		"name": "Raven Master",
-		"file": "archetypedisplayccd1.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Raven Master",
@@ -1083,7 +1048,6 @@
 	},
 	"realm_wanderer": {
 		"name": "Realm Wanderer",
-		"file": "archetypedisplayec21.html",
 		"sources": [ "Distant Realms" ],
 		"description": [
 			"## Realm Wanderer",
@@ -1119,7 +1083,6 @@
 	},
 	"sable_company_marine": {
 		"name": "Sable Company Marine",
-		"file": "archetypedisplaye37e.html",
 		"sources": [
 			"Inner Sea Combat",
 			"Paizo Blog - Sable Company Marine"
@@ -1138,7 +1101,6 @@
 	},
 	"sentinel": {
 		"name": "Sentinel",
-		"file": "archetypedisplaybc69.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Sentinel",
@@ -1172,7 +1134,6 @@
 	},
 	"shapeshifter": {
 		"name": "Shapeshifter",
-		"file": "archetypedisplaya53e.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Shapeshifter",
@@ -1220,7 +1181,6 @@
 	},
 	"skirmisher": {
 		"name": "Skirmisher",
-		"file": "archetypedisplay9fd1.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Skirmisher",
@@ -1288,7 +1248,6 @@
 	},
 	"spirit_ranger": {
 		"name": "Spirit Ranger",
-		"file": "archetypedisplay73dc.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Spirit Ranger",
@@ -1304,7 +1263,6 @@
 	},
 	"stormwalker": {
 		"name": "Stormwalker",
-		"file": "archetypedisplay8256.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Stormwalker",
@@ -1340,7 +1298,6 @@
 	},
 	"summit_sentinel": {
 		"name": "Summit Sentinel",
-		"file": "archetypedisplay80b3.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Summit Sentinel",
@@ -1378,7 +1335,6 @@
 	},
 	"sword-devil": {
 		"name": "Sword-Devil",
-		"file": "archetypedisplayab67.html",
 		"sources": [ "Pathfinder: Worldscape #1" ],
 		"description": [
 			"## Sword-Devil",
@@ -1420,7 +1376,6 @@
 	},
 	"tanglebriar_demonslayer": {
 		"name": "Tanglebriar Demonslayer",
-		"file": "archetypedisplayd3b0.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Tanglebriar Demonslayer",
@@ -1444,7 +1399,6 @@
 	},
 	"tidal_hunter": {
 		"name": "Tidal Hunter",
-		"file": "archetypedisplayee0f.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Tidal Hunter",
@@ -1476,7 +1430,6 @@
 	},
 	"toxic_herbalist": {
 		"name": "Toxic Herbalist",
-		"file": "archetypedisplayedd8.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Toxic Herbalist",
@@ -1518,7 +1471,6 @@
 	},
 	"toxophilite": {
 		"name": "Toxophilite",
-		"file": "archetypedisplay3ab8.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Toxophilite",
@@ -1540,7 +1492,6 @@
 	},
 	"transporter": {
 		"name": "Transporter",
-		"file": "archetypedisplay9df2.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Transporter",
@@ -1574,7 +1525,6 @@
 	},
 	"trapper": {
 		"name": "Trapper",
-		"file": "archetypedisplay0a1c.html",
 		"sources": [],
 		"description": [
 			"## Trapper",
@@ -1594,7 +1544,6 @@
 	},
 	"trophy_hunter": {
 		"name": "Trophy Hunter",
-		"file": "archetypedisplayb7b7.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Trophy Hunter",
@@ -1612,7 +1561,6 @@
 	},
 	"urban_ranger": {
 		"name": "Urban Ranger",
-		"file": "archetypedisplay36ef.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Urban Ranger",
@@ -1640,7 +1588,6 @@
 	},
 	"warden": {
 		"name": "Warden",
-		"file": "archetypedisplay6e35.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Warden",
@@ -1662,7 +1609,6 @@
 	},
 	"wave_warden": {
 		"name": "Wave Warden",
-		"file": "archetypedisplay6b65.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Wave Warden",
@@ -1684,7 +1630,6 @@
 	},
 	"wild_hunter": {
 		"name": "Wild Hunter",
-		"file": "archetypedisplay167a.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Wild Hunter",
@@ -1700,7 +1645,6 @@
 	},
 	"wild_shadow": {
 		"name": "Wild Shadow",
-		"file": "archetypedisplay026a.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Wild Shadow",
@@ -1726,7 +1670,6 @@
 	},
 	"wild_soul": {
 		"name": "Wild Soul",
-		"file": "archetypedisplay68a7.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Wild Soul",
@@ -1762,7 +1705,6 @@
 	},
 	"wild_stalker": {
 		"name": "Wild Stalker",
-		"file": "archetypedisplay07d7.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Wild Stalker",
@@ -1784,7 +1726,6 @@
 	},
 	"wilderness_explorer": {
 		"name": "Wilderness Explorer",
-		"file": "archetypedisplayc8da.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Wilderness Explorer",
@@ -1822,7 +1763,6 @@
 	},
 	"wilderness_medic": {
 		"name": "Wilderness Medic",
-		"file": "archetypedisplayf256.html",
 		"sources": [ "Healer's Handbook" ],
 		"description": [
 			"## Wilderness Medic",
@@ -1852,7 +1792,6 @@
 	},
 	"witchguard": {
 		"name": "Witchguard",
-		"file": "archetypedisplay5a6a.html",
 		"sources": [ "People of the North" ],
 		"description": [
 			"## Witchguard",
@@ -1876,7 +1815,6 @@
 	},
 	"yokai_hunter": {
 		"name": "Yokai Hunter",
-		"file": "archetypedisplay4213.html",
 		"sources": [ "Dragon Empires Primer" ],
 		"description": [
 			"## Yokai Hunter",

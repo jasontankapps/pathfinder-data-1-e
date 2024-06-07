@@ -2,7 +2,6 @@
 	"_prefix": "magic-altar",
 	"altar_of_pharasma": {
 		"name": "Altar of Pharasma",
-		"file": "magicaltarsdisplaycae8.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Altar of Pharasma",
@@ -21,7 +20,6 @@
 	},
 	"altar_of_cayden_cailean": {
 		"name": "Altar of Cayden Cailean",
-		"file": "magicaltarsdisplay6960.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Altar of Cayden Cailean",
@@ -40,7 +38,6 @@
 	},
 	"altar_of_gorum": {
 		"name": "Altar of Gorum",
-		"file": "magicaltarsdisplay22f7.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Altar of Gorum",
@@ -59,7 +56,6 @@
 	},
 	"altar_of_gozreh": {
 		"name": "Altar of Gozreh",
-		"file": "magicaltarsdisplay8ae1.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Altar of Gozreh",
@@ -78,7 +74,6 @@
 	},
 	"altar_of_iomedae": {
 		"name": "Altar of Iomedae",
-		"file": "magicaltarsdisplay7a38.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Altar of Iomedae",
@@ -97,7 +92,6 @@
 	},
 	"altar_of_irori": {
 		"name": "Altar of Irori",
-		"file": "magicaltarsdisplay9ec9.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Altar of Irori",
@@ -116,7 +110,6 @@
 	},
 	"altar_of_nethys": {
 		"name": "Altar of Nethys",
-		"file": "magicaltarsdisplay63c7.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Altar of Nethys",
@@ -135,7 +128,6 @@
 	},
 	"altar_of_sarenrae": {
 		"name": "Altar of Sarenrae",
-		"file": "magicaltarsdisplayf43a.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Altar of Sarenrae",
@@ -154,7 +146,6 @@
 	},
 	"altar_of_shelyn": {
 		"name": "Altar of Shelyn",
-		"file": "magicaltarsdisplay6b7d.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Altar of Shelyn",
@@ -173,7 +164,6 @@
 	},
 	"altar_of_urgathoa": {
 		"name": "Altar of Urgathoa",
-		"file": "magicaltarsdisplayd9b8.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Altar of Urgathoa",
@@ -192,7 +182,6 @@
 	},
 	"altar_of_zon-kuthon": {
 		"name": "Altar of Zon-Kuthon",
-		"file": "magicaltarsdisplayfb67.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Altar of Zon-Kuthon",
@@ -214,7 +203,6 @@
 	},
 	"altar_of_abadar": {
 		"name": "Altar of Abadar",
-		"file": "magicaltarsdisplay1c40.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Altar of Abadar",
@@ -233,7 +221,6 @@
 	},
 	"altar_of_desna": {
 		"name": "Altar of Desna",
-		"file": "magicaltarsdisplay157e.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Altar of Desna",
@@ -252,7 +239,6 @@
 	},
 	"altar_of_erastil": {
 		"name": "Altar of Erastil",
-		"file": "magicaltarsdisplay03c9.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Altar of Erastil",
@@ -271,7 +257,6 @@
 	},
 	"altar_of_lamashtu": {
 		"name": "Altar of Lamashtu",
-		"file": "magicaltarsdisplay1ca3.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Altar of Lamashtu",
@@ -290,7 +275,6 @@
 	},
 	"altar_of_norgorber": {
 		"name": "Altar of Norgorber",
-		"file": "magicaltarsdisplay8651.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Altar of Norgorber",
@@ -309,7 +293,6 @@
 	},
 	"altar_of_rovagug": {
 		"name": "Altar of Rovagug",
-		"file": "magicaltarsdisplayad2b.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Altar of Rovagug",
@@ -328,7 +311,6 @@
 	},
 	"altar_of_the_dawnflower": {
 		"name": "Altar of the Dawnflower",
-		"file": "magicaltarsdisplaye5e1.html",
 		"sources": [ "Inner Sea Temples" ],
 		"description": [
 			"## Altar of the Dawnflower",
@@ -349,7 +331,6 @@
 	},
 	"altar_of_torag": {
 		"name": "Altar of Torag",
-		"file": "magicaltarsdisplay6ea9.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Altar of Torag",
@@ -368,7 +349,6 @@
 	},
 	"altar_of_zursvaater": {
 		"name": "Altar of Zursvaater",
-		"file": "magicaltarsdisplay13b3.html",
 		"sources": [ "Pathfinder #95: Anvil of Fire" ],
 		"description": [
 			"## Altar of Zursvaater",
@@ -387,7 +367,6 @@
 	},
 	"altar_of_asmodeus": {
 		"name": "Altar of Asmodeus",
-		"file": "magicaltarsdisplay5ff3.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Altar of Asmodeus",
@@ -406,7 +385,6 @@
 	},
 	"altar_of_calistria": {
 		"name": "Altar of Calistria",
-		"file": "magicaltarsdisplay6d53.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Altar of Calistria",

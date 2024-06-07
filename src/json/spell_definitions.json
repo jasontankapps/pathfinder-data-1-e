@@ -2,7 +2,6 @@
 	"_prefix": "spell-def",
 	"abjuration": {
 		"name": "Abjuration",
-		"file": "spelldefinitionsdfb4.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "school",
 		"description": [
@@ -20,7 +19,6 @@
 	},
 	"conjuration": {
 		"name": "Conjuration",
-		"file": "spelldefinitions1c06.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "school",
 		"description": [
@@ -38,7 +36,6 @@
 	},
 	"divination": {
 		"name": "Divination",
-		"file": "spelldefinitionsdc08.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "school",
 		"description": [
@@ -54,7 +51,6 @@
 	},
 	"enchantment": {
 		"name": "Enchantment",
-		"file": "spelldefinitions5ced.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "school",
 		"description": [
@@ -68,7 +64,6 @@
 	},
 	"evocation": {
 		"name": "Evocation",
-		"file": "spelldefinitions53e5.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "school",
 		"description": [
@@ -82,7 +77,6 @@
 	},
 	"illusion": {
 		"name": "Illusion",
-		"file": "spelldefinitions3439.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "school",
 		"description": [
@@ -96,7 +90,6 @@
 	},
 	"necromancy": {
 		"name": "Necromancy",
-		"file": "spelldefinitionsc655.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "school",
 		"description": [
@@ -110,7 +103,6 @@
 	},
 	"transmutation": {
 		"name": "Transmutation",
-		"file": "spelldefinitionsfc86.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "school",
 		"description": [
@@ -124,7 +116,6 @@
 	},
 	"universal": {
 		"name": "Universal",
-		"file": "spelldefinitions5a25.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "school",
 		"description": [
@@ -138,7 +129,6 @@
 	},
 	"calling": {
 		"name": "Calling",
-		"file": "spelldefinitionsf723.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "subschool",
 		"description": [
@@ -154,7 +144,6 @@
 	},
 	"charm": {
 		"name": "Charm",
-		"file": "spelldefinitions87ac.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "subschool",
 		"description": [
@@ -170,7 +159,6 @@
 	},
 	"compulsion": {
 		"name": "Compulsion",
-		"file": "spelldefinitionse996.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "subschool",
 		"description": [
@@ -186,7 +174,6 @@
 	},
 	"creation": {
 		"name": "Creation",
-		"file": "spelldefinitionsbd47.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "subschool",
 		"description": [
@@ -202,7 +189,6 @@
 	},
 	"figment": {
 		"name": "Figment",
-		"file": "spelldefinitionsb2d5.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "subschool",
 		"description": [
@@ -222,7 +208,6 @@
 	},
 	"glamer": {
 		"name": "Glamer",
-		"file": "spelldefinitionsd2c2.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "subschool",
 		"description": [
@@ -238,7 +223,6 @@
 	},
 	"haunted": {
 		"name": "Haunted",
-		"file": "spelldefinitions6dda.html",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"type": "subschool",
 		"description": [
@@ -260,7 +244,6 @@
 	},
 	"healing": {
 		"name": "Healing",
-		"file": "spelldefinitions1707.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "subschool",
 		"description": [
@@ -276,7 +259,6 @@
 	},
 	"pattern": {
 		"name": "Pattern",
-		"file": "spelldefinitionse248.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "subschool",
 		"description": [
@@ -292,7 +274,6 @@
 	},
 	"phantasm": {
 		"name": "Phantasm",
-		"file": "spelldefinitionsbf3c.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "subschool",
 		"description": [
@@ -308,7 +289,6 @@
 	},
 	"polymorph": {
 		"name": "Polymorph",
-		"file": "spelldefinitions18df.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "subschool",
 		"description": [
@@ -348,7 +328,6 @@
 	},
 	"scrying": {
 		"name": "Scrying",
-		"file": "spelldefinitions1acc.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "subschool",
 		"description": [
@@ -368,7 +347,6 @@
 	},
 	"shadow_subschoool": {
 		"name": "Shadow (subschoool)",
-		"file": "spelldefinitionse205.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "subschool",
 		"description": [
@@ -384,7 +362,6 @@
 	},
 	"summoning": {
 		"name": "Summoning",
-		"file": "spelldefinitions2f56.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "subschool",
 		"description": [
@@ -402,7 +379,6 @@
 	},
 	"teleportation": {
 		"name": "Teleportation",
-		"file": "spelldefinitionsa856.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"type": "subschool",
 		"description": [
@@ -420,7 +396,6 @@
 	},
 	"acid": {
 		"name": "Acid",
-		"file": "spelldefinitionsf2a6.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [
@@ -434,7 +409,6 @@
 	},
 	"air": {
 		"name": "Air",
-		"file": "spelldefinitionsff21.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [
@@ -448,7 +422,6 @@
 	},
 	"chaotic": {
 		"name": "Chaotic",
-		"file": "spelldefinitions6d6a.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [
@@ -462,7 +435,6 @@
 	},
 	"cold": {
 		"name": "Cold",
-		"file": "spelldefinitions245c.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [
@@ -476,7 +448,6 @@
 	},
 	"curse": {
 		"name": "Curse",
-		"file": "spelldefinitions87c0.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [
@@ -490,7 +461,6 @@
 	},
 	"darkness": {
 		"name": "Darkness",
-		"file": "spelldefinitionsac7a.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [
@@ -504,7 +474,6 @@
 	},
 	"death": {
 		"name": "Death",
-		"file": "spelldefinitionse0c3.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [
@@ -518,7 +487,6 @@
 	},
 	"disease": {
 		"name": "Disease",
-		"file": "spelldefinitionsf4e5.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [
@@ -532,7 +500,6 @@
 	},
 	"draconic": {
 		"name": "Draconic",
-		"file": "spelldefinitions02b1.html",
 		"sources": [ "Legacy of Dragons" ],
 		"type": "descriptor",
 		"description": [
@@ -546,7 +513,6 @@
 	},
 	"earth": {
 		"name": "Earth",
-		"file": "spelldefinitions1d3d.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [
@@ -560,7 +526,6 @@
 	},
 	"electricity": {
 		"name": "Electricity",
-		"file": "spelldefinitions387c.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [
@@ -574,7 +539,6 @@
 	},
 	"emotion": {
 		"name": "Emotion",
-		"file": "spelldefinitionsbeb7.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [
@@ -588,7 +552,6 @@
 	},
 	"evil": {
 		"name": "Evil",
-		"file": "spelldefinitions1d1f.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [
@@ -602,7 +565,6 @@
 	},
 	"fear": {
 		"name": "Fear",
-		"file": "spelldefinitions0e03.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [
@@ -616,7 +578,6 @@
 	},
 	"fire": {
 		"name": "Fire",
-		"file": "spelldefinitions1d44.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [
@@ -630,7 +591,6 @@
 	},
 	"force": {
 		"name": "Force",
-		"file": "spelldefinitions99af.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [
@@ -644,7 +604,6 @@
 	},
 	"good": {
 		"name": "Good",
-		"file": "spelldefinitions8bdb.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [
@@ -658,7 +617,6 @@
 	},
 	"language-dependent": {
 		"name": "Language-Dependent",
-		"file": "spelldefinitions69ca.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [
@@ -672,7 +630,6 @@
 	},
 	"lawful": {
 		"name": "Lawful",
-		"file": "spelldefinitions6f59.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [
@@ -686,7 +643,6 @@
 	},
 	"light": {
 		"name": "Light",
-		"file": "spelldefinitions6907.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [
@@ -700,7 +656,6 @@
 	},
 	"meditative": {
 		"name": "Meditative",
-		"file": "spelldefinitions9b9b.html",
 		"sources": [ "Divine Anthology" ],
 		"type": "descriptor",
 		"description": [
@@ -714,7 +669,6 @@
 	},
 	"mind-affecting": {
 		"name": "Mind-Affecting",
-		"file": "spelldefinitions2a7e.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [
@@ -728,7 +682,6 @@
 	},
 	"pain": {
 		"name": "Pain",
-		"file": "spelldefinitions3fd3.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [
@@ -742,7 +695,6 @@
 	},
 	"poison": {
 		"name": "Poison",
-		"file": "spelldefinitionsf826.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [
@@ -756,7 +708,6 @@
 	},
 	"ruse": {
 		"name": "Ruse",
-		"file": "spelldefinitions3444.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"type": "descriptor",
 		"description": [
@@ -770,7 +721,6 @@
 	},
 	"shadow_descriptor": {
 		"name": "Shadow (descriptor)",
-		"file": "spelldefinitions1bd3.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [
@@ -784,7 +734,6 @@
 	},
 	"sonic": {
 		"name": "Sonic",
-		"file": "spelldefinitions9ca5.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [
@@ -798,7 +747,6 @@
 	},
 	"water": {
 		"name": "Water",
-		"file": "spelldefinitions898f.html",
 		"sources": [ "Ultimate Magic" ],
 		"type": "descriptor",
 		"description": [

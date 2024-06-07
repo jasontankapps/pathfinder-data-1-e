@@ -2,7 +2,6 @@
 	"_prefix": "class_abilities-hellknight_order",
 	"order_of_the_chain": {
 		"name": "Order of the Chain",
-		"file": "hellknightordersdisplay2372.html",
 		"sources": [ "Path of the Hellknight" ],
 		"description": [
 			"### Order of the Chain",
@@ -35,7 +34,6 @@
 	},
 	"order_of_the_gate": {
 		"name": "Order of the Gate",
-		"file": "hellknightordersdisplaye5e0.html",
 		"sources": [ "Path of the Hellknight" ],
 		"description": [
 			"### Order of the Gate",
@@ -68,7 +66,6 @@
 	},
 	"order_of_the_godclaw": {
 		"name": "Order of the Godclaw",
-		"file": "hellknightordersdisplay15c0.html",
 		"sources": [ "Path of the Hellknight" ],
 		"description": [
 			"### Order of the Godclaw",
@@ -101,7 +98,6 @@
 	},
 	"order_of_the_nail": {
 		"name": "Order of the Nail",
-		"file": "hellknightordersdisplaye565.html",
 		"sources": [ "Path of the Hellknight" ],
 		"description": [
 			"### Order of the Nail",
@@ -134,7 +130,6 @@
 	},
 	"order_of_the_pyre": {
 		"name": "Order of the Pyre",
-		"file": "hellknightordersdisplayb4de.html",
 		"sources": [ "Path of the Hellknight" ],
 		"description": [
 			"### Order of the Pyre",
@@ -168,7 +163,6 @@
 	},
 	"order_of_the_rack": {
 		"name": "Order of the Rack",
-		"file": "hellknightordersdisplayd6db.html",
 		"sources": [ "Path of the Hellknight" ],
 		"description": [
 			"### Order of the Rack",
@@ -202,7 +196,6 @@
 	},
 	"order_of_the_scourge": {
 		"name": "Order of the Scourge",
-		"file": "hellknightordersdisplay66a2.html",
 		"sources": [ "Path of the Hellknight" ],
 		"description": [
 			"### Order of the Scourge",
@@ -236,7 +229,6 @@
 	},
 	"order_of_the_coil_minor_order": {
 		"name": "Order of the Coil (Minor Order)",
-		"file": "hellknightordersdisplay50d2.html",
 		"sources": [ "Path of the Hellknight" ],
 		"description": [
 			"### Order of the Coil (Minor Order)",
@@ -271,7 +263,6 @@
 	},
 	"order_of_the_crux_minor_order": {
 		"name": "Order of the Crux (Minor Order)",
-		"file": "hellknightordersdisplayb6aa.html",
 		"sources": [ "Path of the Hellknight" ],
 		"description": [
 			"### Order of the Crux (Minor Order)",
@@ -298,7 +289,6 @@
 	},
 	"order_of_the_glyph_minor_order": {
 		"name": "Order of the Glyph (Minor Order)",
-		"file": "hellknightordersdisplayb64a.html",
 		"sources": [ "Path of the Hellknight" ],
 		"description": [
 			"### Order of the Glyph (Minor Order)",
@@ -334,7 +324,6 @@
 	},
 	"order_of_the_pike_minor_order": {
 		"name": "Order of the Pike (Minor Order)",
-		"file": "hellknightordersdisplaye377.html",
 		"sources": [ "Path of the Hellknight" ],
 		"description": [
 			"### Order of the Pike (Minor Order)",
@@ -370,7 +359,6 @@
 	},
 	"order_of_the_scar_minor_order": {
 		"name": "Order of the Scar (Minor Order)",
-		"file": "hellknightordersdisplay65f9.html",
 		"sources": [ "Path of the Hellknight" ],
 		"description": [
 			"### Order of the Scar (Minor Order)",
@@ -405,7 +393,6 @@
 	},
 	"order_of_the_torrent_minor_order": {
 		"name": "Order of the Torrent (Minor Order)",
-		"file": "hellknightordersdisplay9583.html",
 		"sources": [
 			"Path of the Hellknight",
 			"Pathfinder #98: Turn of the Torrent"
@@ -444,7 +431,6 @@
 	},
 	"order_of_the_wall_minor_order": {
 		"name": "Order of the Wall (Minor Order)",
-		"file": "hellknightordersdisplaycb0d.html",
 		"sources": [ "Path of the Hellknight" ],
 		"description": [
 			"### Order of the Wall (Minor Order)",

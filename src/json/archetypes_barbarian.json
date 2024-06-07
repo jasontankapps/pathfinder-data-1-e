@@ -2,7 +2,6 @@
 	"_prefix": "archetype-barbarian",
 	"armored_hulk": {
 		"name": "Armored Hulk",
-		"file": "archetypedisplay2faa.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Armored Hulk",
@@ -26,7 +25,6 @@
 	},
 	"beastkin_berserker": {
 		"name": "Beastkin Berserker",
-		"file": "archetypedisplay578f.html",
 		"sources": [ "Heroes of the Darklands" ],
 		"description": [
 			"## Beastkin Berserker",
@@ -52,7 +50,6 @@
 	},
 	"breaker": {
 		"name": "Breaker",
-		"file": "archetypedisplay8251.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Breaker",
@@ -70,7 +67,6 @@
 	},
 	"brutal_pugilist": {
 		"name": "Brutal Pugilist",
-		"file": "archetypedisplay89de.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Brutal Pugilist",
@@ -90,7 +86,6 @@
 	},
 	"brutish_swamper": {
 		"name": "Brutish Swamper",
-		"file": "archetypedisplaybb43.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Brutish Swamper",
@@ -124,7 +119,6 @@
 	},
 	"cave_dweller": {
 		"name": "Cave Dweller",
-		"file": "archetypedisplay8ef2.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Cave Dweller",
@@ -154,7 +148,6 @@
 	},
 	"deepwater_rager": {
 		"name": "Deepwater Rager",
-		"file": "archetypedisplay4ff1.html",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"## Deepwater Rager",
@@ -188,7 +181,6 @@
 	},
 	"dreadnought": {
 		"name": "Dreadnought",
-		"file": "archetypedisplay1885.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Dreadnought",
@@ -216,7 +208,6 @@
 	},
 	"drunken_brute": {
 		"name": "Drunken Brute",
-		"file": "archetypedisplay783f.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Drunken Brute",
@@ -232,7 +223,6 @@
 	},
 	"drunken_rager": {
 		"name": "Drunken Rager",
-		"file": "archetypedisplay5268.html",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Drunken Rager",
@@ -256,7 +246,6 @@
 	},
 	"elemental_kin": {
 		"name": "Elemental Kin",
-		"file": "archetypedisplayb90f.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Elemental Kin",
@@ -272,7 +261,6 @@
 	},
 	"fearsome_defender": {
 		"name": "Fearsome Defender",
-		"file": "archetypedisplay7308.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Fearsome Defender",
@@ -300,7 +288,6 @@
 	},
 	"feral_gnasher": {
 		"name": "Feral Gnasher",
-		"file": "archetypedisplay87c7.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Feral Gnasher",
@@ -330,7 +317,6 @@
 	},
 	"flesheater": {
 		"name": "Flesheater",
-		"file": "archetypedisplaye68b.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Flesheater",
@@ -354,7 +340,6 @@
 	},
 	"geminate_invoker": {
 		"name": "Geminate Invoker",
-		"file": "archetypedisplayfe42.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Geminate Invoker",
@@ -384,7 +369,6 @@
 	},
 	"giant_stalker": {
 		"name": "Giant Stalker",
-		"file": "archetypedisplay867f.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Giant Stalker",
@@ -422,7 +406,6 @@
 	},
 	"hateful_rager": {
 		"name": "Hateful Rager",
-		"file": "archetypedisplay881e.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Hateful Rager",
@@ -448,7 +431,6 @@
 	},
 	"hurler": {
 		"name": "Hurler",
-		"file": "archetypedisplayb67f.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Hurler",
@@ -464,7 +446,6 @@
 	},
 	"invulnerable_rager": {
 		"name": "Invulnerable Rager",
-		"file": "archetypedisplay7b4d.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Invulnerable Rager",
@@ -482,7 +463,6 @@
 	},
 	"jungle_rager": {
 		"name": "Jungle Rager",
-		"file": "archetypedisplay8a5d.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Jungle Rager",
@@ -504,7 +484,6 @@
 	},
 	"mad_dog": {
 		"name": "Mad Dog",
-		"file": "archetypedisplay04b1.html",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Mad Dog",
@@ -530,7 +509,6 @@
 	},
 	"mooncursed": {
 		"name": "Mooncursed",
-		"file": "archetypedisplaye5a2.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Mooncursed",
@@ -560,7 +538,6 @@
 	},
 	"mounted_fury": {
 		"name": "Mounted Fury",
-		"file": "archetypedisplay4bca.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Mounted Fury",
@@ -578,7 +555,6 @@
 	},
 	"numerian_liberator": {
 		"name": "Numerian Liberator",
-		"file": "archetypedisplay19ca.html",
 		"sources": [ "People of the River" ],
 		"description": [
 			"## Numerian Liberator",
@@ -600,7 +576,6 @@
 	},
 	"pack_hunter": {
 		"name": "Pack Hunter",
-		"file": "archetypedisplaye70f.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Pack Hunter",
@@ -626,7 +601,6 @@
 	},
 	"pack_rager": {
 		"name": "Pack Rager",
-		"file": "archetypedisplay2555.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Pack Rager",
@@ -650,7 +624,6 @@
 	},
 	"primal_hunter": {
 		"name": "Primal Hunter",
-		"file": "archetypedisplay2584.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Primal Hunter",
@@ -668,7 +641,6 @@
 	},
 	"raging_cannibal": {
 		"name": "Raging Cannibal",
-		"file": "archetypedisplay2b5e.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Champions of Corruption"
@@ -705,7 +677,6 @@
 	},
 	"savage_barbarian": {
 		"name": "Savage Barbarian",
-		"file": "archetypedisplay69de.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Savage Barbarian",
@@ -723,7 +694,6 @@
 	},
 	"savage_technologist": {
 		"name": "Savage Technologist",
-		"file": "archetypedisplaybe0d.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Savage Technologist",
@@ -747,7 +717,6 @@
 	},
 	"scarred_rager": {
 		"name": "Scarred Rager",
-		"file": "archetypedisplay1f34.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Scarred Rager",
@@ -769,7 +738,6 @@
 	},
 	"sea_reaver": {
 		"name": "Sea Reaver",
-		"file": "archetypedisplaydac3.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Sea Reaver",
@@ -793,7 +761,6 @@
 	},
 	"sharptooth": {
 		"name": "Sharptooth",
-		"file": "archetypedisplay21d2.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Sharptooth",
@@ -823,7 +790,6 @@
 	},
 	"shoanti_burn_rider": {
 		"name": "Shoanti Burn Rider",
-		"file": "archetypedisplay2dda.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Shoanti Burn Rider",
@@ -847,7 +813,6 @@
 	},
 	"superstitious": {
 		"name": "Superstitious",
-		"file": "archetypedisplay3c8f.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Superstitious",
@@ -865,7 +830,6 @@
 	},
 	"titan_mauler": {
 		"name": "Titan Mauler",
-		"file": "archetypedisplay948d.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Titan Mauler",
@@ -890,7 +854,6 @@
 	},
 	"totem_warrior": {
 		"name": "Totem Warrior",
-		"file": "archetypedisplayfb30.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"replace_array": [],
 		"description": [
@@ -905,7 +868,6 @@
 	},
 	"true_primitive": {
 		"name": "True Primitive",
-		"file": "archetypedisplaycf83.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## True Primitive",
@@ -927,7 +889,6 @@
 	},
 	"untamed_rager": {
 		"name": "Untamed Rager",
-		"file": "archetypedisplay6a1e.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Untamed Rager",
@@ -947,7 +908,6 @@
 	},
 	"urban_barbarian": {
 		"name": "Urban Barbarian",
-		"file": "archetypedisplay8dd7.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Urban Barbarian",
@@ -971,7 +931,6 @@
 	},
 	"wild_rager": {
 		"name": "Wild Rager",
-		"file": "archetypedisplay9104.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Wild Rager",
@@ -991,7 +950,6 @@
 	},
 	"wildborn": {
 		"name": "Wildborn",
-		"file": "archetypedisplayfa20.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Wildborn",

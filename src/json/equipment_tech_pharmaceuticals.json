@@ -2,7 +2,6 @@
 	"_prefix": "equipment-tech-pharma",
 	"azonite_pellets": {
 		"name": "azonite pellets",
-		"file": "equipmenttechpharmaceuticalsdisplayc9be.html",
 		"sources": [ "Pathfinder #89: Palace of Fallen Stars" ],
 		"description": [
 			"## Azonite Pellets",
@@ -21,7 +20,6 @@
 	},
 	"baseline": {
 		"name": "baseline",
-		"file": "equipmenttechpharmaceuticalsdisplay16e4.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Baseline",
@@ -40,7 +38,6 @@
 	},
 	"cardioamp": {
 		"name": "cardioamp",
-		"file": "equipmenttechpharmaceuticalsdisplay4485.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cardioamp",
@@ -61,7 +58,6 @@
 	},
 	"cureall": {
 		"name": "cureall",
-		"file": "equipmenttechpharmaceuticalsdisplay8f4d.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cureall",
@@ -82,7 +78,6 @@
 	},
 	"hemochem_grade_i": {
 		"name": "hemochem (grade I)",
-		"file": "equipmenttechpharmaceuticalsdisplaya51c.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Hemochem (Grade I)",
@@ -109,7 +104,6 @@
 	},
 	"hemochem_grade_ii": {
 		"name": "hemochem (grade II)",
-		"file": "equipmenttechpharmaceuticalsdisplayb00f.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Hemochem (Grade II)",
@@ -122,7 +116,6 @@
 	},
 	"hemochem_grade_iii": {
 		"name": "hemochem (grade III)",
-		"file": "equipmenttechpharmaceuticalsdisplay0bcc.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Hemochem (Grade III)",
@@ -135,7 +128,6 @@
 	},
 	"hemochem_grade_iv": {
 		"name": "hemochem (grade IV)",
-		"file": "equipmenttechpharmaceuticalsdisplay07a4.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Hemochem (Grade IV)",
@@ -148,7 +140,6 @@
 	},
 	"hemochem_grave_v": {
 		"name": "hemochem (grave V)",
-		"file": "equipmenttechpharmaceuticalsdisplay39ef.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Hemochem (Grave V)",
@@ -161,7 +152,6 @@
 	},
 	"hype": {
 		"name": "hype",
-		"file": "equipmenttechpharmaceuticalsdisplay7b89.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Hype",
@@ -180,7 +170,6 @@
 	},
 	"soothe": {
 		"name": "soothe",
-		"file": "equipmenttechpharmaceuticalsdisplayb24b.html",
 		"sources": [ "Pathfinder #86: Lords of Rust" ],
 		"description": [
 			"## Soothe",
@@ -199,7 +188,6 @@
 	},
 	"torpinal": {
 		"name": "torpinal",
-		"file": "equipmenttechpharmaceuticalsdisplay5de3.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Torpinal",
@@ -220,7 +208,6 @@
 	},
 	"universal_serum": {
 		"name": "universal serum",
-		"file": "equipmenttechpharmaceuticalsdisplay6761.html",
 		"sources": [ "Pathfinder #85: Fires of Creation" ],
 		"description": [
 			"## Universal Serum",
@@ -239,7 +226,6 @@
 	},
 	"vitality_serum": {
 		"name": "vitality serum",
-		"file": "equipmenttechpharmaceuticalsdisplay3750.html",
 		"sources": [ "Pathfinder #85: Fires of Creation" ],
 		"description": [
 			"## Vitality Serum",
@@ -258,7 +244,6 @@
 	},
 	"vive": {
 		"name": "vive",
-		"file": "equipmenttechpharmaceuticalsdisplay523c.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Vive",
@@ -277,7 +262,6 @@
 	},
 	"zortaphen": {
 		"name": "zortaphen",
-		"file": "equipmenttechpharmaceuticalsdisplay6bab.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Zortaphen",

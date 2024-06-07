@@ -2,7 +2,6 @@
 	"_prefix": "archetype-bloodrager",
 	"ancestral_harbinger": {
 		"name": "Ancestral Harbinger",
-		"file": "archetypedisplay5989.html",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
 			"## Ancestral Harbinger",
@@ -20,7 +19,6 @@
 	},
 	"blood_conduit": {
 		"name": "Blood Conduit",
-		"file": "archetypedisplay21a5.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Blood Conduit",
@@ -38,7 +36,6 @@
 	},
 	"bloodrider": {
 		"name": "Bloodrider",
-		"file": "archetypedisplay6ee1.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Bloodrider",
@@ -56,7 +53,6 @@
 	},
 	"bloody-knuckled_rowdy": {
 		"name": "Bloody-Knuckled Rowdy",
-		"file": "archetypedisplaya4c8.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Bloody-Knuckled Rowdy",
@@ -78,7 +74,6 @@
 	},
 	"crossblooded_rager": {
 		"name": "Crossblooded Rager",
-		"file": "archetypedisplay2da6.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Crossblooded Rager",
@@ -102,7 +97,6 @@
 	},
 	"enlightened_bloodrager": {
 		"name": "Enlightened Bloodrager",
-		"file": "archetypedisplayaeac.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Arcane Anthology"
@@ -139,7 +133,6 @@
 	},
 	"greenrager": {
 		"name": "Greenrager",
-		"file": "archetypedisplay8434.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Greenrager",
@@ -157,7 +150,6 @@
 	},
 	"hag-riven": {
 		"name": "Hag-Riven",
-		"file": "archetypedisplay56d9.html",
 		"sources": [ "Blood of the Coven" ],
 		"description": [
 			"## Hag-Riven",
@@ -193,7 +185,6 @@
 	},
 	"id_rager": {
 		"name": "Id Rager",
-		"file": "archetypedisplay308f.html",
 		"sources": [ "Occult Origins" ],
 		"description": [
 			"## Id Rager",
@@ -237,7 +228,6 @@
 	},
 	"metamagic_rager": {
 		"name": "Metamagic Rager",
-		"file": "archetypedisplay4fe1.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Metamagic Rager",
@@ -251,7 +241,6 @@
 	},
 	"primalist": {
 		"name": "Primalist",
-		"file": "archetypedisplaya0fc.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Primalist",
@@ -265,7 +254,6 @@
 	},
 	"prowler_at_world's_end": {
 		"name": "Prowler at World's End",
-		"file": "archetypedisplay682a.html",
 		"sources": [ "Blood of the Beast" ],
 		"description": [
 			"## Prowler at World's End",
@@ -297,7 +285,6 @@
 	},
 	"rageshaper": {
 		"name": "Rageshaper",
-		"file": "archetypedisplay1401.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Rageshaper",
@@ -313,7 +300,6 @@
 	},
 	"spelleater": {
 		"name": "Spelleater",
-		"file": "archetypedisplay3991.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Spelleater",
@@ -329,7 +315,6 @@
 	},
 	"steelblood": {
 		"name": "Steelblood",
-		"file": "archetypedisplay9b87.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Steelblood",
@@ -351,7 +336,6 @@
 	},
 	"symbol_striker": {
 		"name": "Symbol Striker",
-		"file": "archetypedisplay2fee.html",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
 			"## Symbol Striker",
@@ -381,7 +365,6 @@
 	},
 	"untouchable_rager": {
 		"name": "Untouchable Rager",
-		"file": "archetypedisplayf9aa.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Untouchable Rager",
@@ -397,7 +380,6 @@
 	},
 	"urban_bloodrager": {
 		"name": "Urban Bloodrager",
-		"file": "archetypedisplaye219.html",
 		"sources": [ "Heroes of the Streets" ],
 		"description": [
 			"## Urban Bloodrager",

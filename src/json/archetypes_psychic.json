@@ -2,7 +2,6 @@
 	"_prefix": "archetype-psychic",
 	"amnesiac": {
 		"name": "Amnesiac",
-		"file": "archetypedisplayc5ad.html",
 		"sources": [],
 		"description": [
 			"## Amnesiac",
@@ -31,7 +30,6 @@
 	},
 	"esoteric_starseeker": {
 		"name": "Esoteric Starseeker",
-		"file": "archetypedisplay476f.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Esoteric Starseeker",
@@ -75,7 +73,6 @@
 	},
 	"formless_adept": {
 		"name": "Formless Adept",
-		"file": "archetypedisplay6792.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Formless Adept",
@@ -107,7 +104,6 @@
 	},
 	"magaambyan_telepath": {
 		"name": "Magaambyan Telepath",
-		"file": "archetypedisplay0e67.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Magaambyan Telepath",
@@ -137,7 +133,6 @@
 	},
 	"mutation_mind": {
 		"name": "Mutation Mind",
-		"file": "archetypedisplay6375.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Mutation Mind",
@@ -193,7 +188,6 @@
 	},
 	"psychic_duelist": {
 		"name": "Psychic Duelist",
-		"file": "archetypedisplayf6e7.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Psychic Duelist",
@@ -223,7 +217,6 @@
 	},
 	"psychic_marauder": {
 		"name": "Psychic Marauder",
-		"file": "archetypedisplay3f97.html",
 		"sources": [ "Heroes of the Darklands" ],
 		"description": [
 			"## Psychic Marauder",
@@ -259,7 +252,6 @@
 	},
 	"terror_weaver": {
 		"name": "Terror Weaver",
-		"file": "archetypedisplay2305.html",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
 			"## Terror Weaver",

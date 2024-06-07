@@ -1,7 +1,6 @@
 {
 	"dull_gray_stone": {
 		"name": "Dull Gray Stone",
-		"file": "magicwondrousdisplay0543.html",
 		"sources": [
 			"Seekers of Secrets",
 			"Adventurer's Guide",
@@ -68,7 +67,6 @@
 	},
 	"amethyst_pyramid": {
 		"name": "Amethyst Pyramid",
-		"file": "magicwondrousdisplay3dd3.html",
 		"sources": [ "Pathfinder Society Primer" ],
 		"cost": 150,
 		"description": [
@@ -131,7 +129,6 @@
 	},
 	"gold_nodule": {
 		"name": "Gold Nodule",
-		"file": "magicwondrousdisplay30f5.html",
 		"sources": [ "Pathfinder Society Primer" ],
 		"cost": 150,
 		"description": [
@@ -194,7 +191,6 @@
 	},
 	"deep_red_sphere": {
 		"name": "Deep Red Sphere",
-		"file": "magicwondrousdisplaycd5f.html",
 		"sources": [
 			"Adventurer's Guide",
 			"PRPG Core Rulebook",
@@ -262,7 +258,6 @@
 	},
 	"incandescent_blue_sphere": {
 		"name": "Incandescent Blue Sphere",
-		"file": "magicwondrousdisplay0949.html",
 		"sources": [
 			"Adventurer's Guide",
 			"PRPG Core Rulebook",
@@ -330,7 +325,6 @@
 	},
 	"mossy_disk": {
 		"name": "Mossy Disk",
-		"file": "magicwondrousdisplayc78a.html",
 		"sources": [
 			"Pathfinder #122: Into the Shattered Continent",
 			"Seekers of Secrets",
@@ -400,7 +394,6 @@
 	},
 	"pale_blue_rhomboid": {
 		"name": "Pale Blue Rhomboid",
-		"file": "magicwondrousdisplayea80.html",
 		"sources": [
 			"Adventurer's Guide",
 			"PRPG Core Rulebook",
@@ -468,7 +461,6 @@
 	},
 	"pale_ruby_trillian": {
 		"name": "Pale Ruby Trillian",
-		"file": "magicwondrousdisplaye7ea.html",
 		"sources": [ "Seekers of Secrets" ],
 		"cost": 200,
 		"description": [
@@ -531,7 +523,6 @@
 	},
 	"pink_and_green_sphere": {
 		"name": "Pink and Green Sphere",
-		"file": "magicwondrousdisplay3b6e.html",
 		"sources": [
 			"Adventurer's Guide",
 			"PRPG Core Rulebook",
@@ -599,7 +590,6 @@
 	},
 	"scarlet_and_blue_sphere": {
 		"name": "Scarlet and Blue Sphere",
-		"file": "magicwondrousdisplay0c61.html",
 		"sources": [
 			"Adventurer's Guide",
 			"PRPG Core Rulebook",
@@ -667,7 +657,6 @@
 	},
 	"turquoise_sphere": {
 		"name": "Turquoise Sphere",
-		"file": "magicwondrousdisplay245a.html",
 		"sources": [ "Seekers of Secrets" ],
 		"cost": 200,
 		"description": [
@@ -730,7 +719,6 @@
 	},
 	"dark_blue_rhomboid": {
 		"name": "Dark Blue Rhomboid",
-		"file": "magicwondrousdisplay976a.html",
 		"sources": [
 			"Adventurer's Guide",
 			"PRPG Core Rulebook",
@@ -798,7 +786,6 @@
 	},
 	"mulberry_pentacle": {
 		"name": "Mulberry Pentacle",
-		"file": "magicwondrousdisplay9c4f.html",
 		"sources": [ "Seekers of Secrets" ],
 		"cost": 400,
 		"description": [
@@ -861,7 +848,6 @@
 	},
 	"vermilion_rhomboid": {
 		"name": "Vermilion Rhomboid",
-		"file": "magicwondrousdisplay29bc-2.html",
 		"sources": [ "Seekers of Secrets" ],
 		"cost": 400,
 		"description": [
@@ -924,7 +910,6 @@
 	},
 	"agate_ellipsoid": {
 		"name": "Agate Ellipsoid",
-		"file": "magicwondrousdisplaydb12.html",
 		"sources": [ "Pathfinder Society Primer" ],
 		"cost": 500,
 		"description": [
@@ -987,7 +972,6 @@
 	},
 	"dusty_rose_prism": {
 		"name": "Dusty Rose Prism",
-		"file": "magicwondrousdisplayf786.html",
 		"sources": [
 			"Adventurer's Guide",
 			"PRPG Core Rulebook",
@@ -1055,7 +1039,6 @@
 	},
 	"iridescent_spindle": {
 		"name": "Iridescent Spindle",
-		"file": "magicwondrousdisplay44ef.html",
 		"sources": [
 			"Adventurer's Guide",
 			"PRPG Core Rulebook",
@@ -1123,7 +1106,6 @@
 	},
 	"tourmaline_sphere": {
 		"name": "Tourmaline Sphere",
-		"file": "magicwondrousdisplay7685.html",
 		"sources": [
 			"Pathfinder #122: Into the Shattered Continent",
 			"Pathfinder Society Primer",
@@ -1193,7 +1175,6 @@
 	},
 	"magenta_prism": {
 		"name": "Magenta Prism",
-		"file": "magicwondrousdisplay2eea.html",
 		"sources": [ "Pathfinder Society Primer" ],
 		"cost": 800,
 		"description": [
@@ -1256,7 +1237,6 @@
 	},
 	"clear_spindle": {
 		"name": "Clear Spindle",
-		"file": "magicwondrousdisplay5f96.html",
 		"sources": [
 			"Adventurer's Guide",
 			"PRPG Core Rulebook",
@@ -1324,7 +1304,6 @@
 	},
 	"nacreous_gray_sphere": {
 		"name": "Nacreous Gray Sphere",
-		"file": "magicwondrousdisplaybf6e.html",
 		"sources": [ "Seekers of Secrets" ],
 		"cost": 1000,
 		"description": [
@@ -1387,7 +1366,6 @@
 	},
 	"orange_prism": {
 		"name": "Orange Prism",
-		"file": "magicwondrousdisplayb06d.html",
 		"sources": [
 			"Adventurer's Guide",
 			"PRPG Core Rulebook",
@@ -1455,7 +1433,6 @@
 	},
 	"pink_rhomboid": {
 		"name": "Pink Rhomboid",
-		"file": "magicwondrousdisplay4de0.html",
 		"sources": [
 			"Adventurer's Guide",
 			"PRPG Core Rulebook",
@@ -1523,7 +1500,6 @@
 	},
 	"scarlet_and_green_cabochon": {
 		"name": "Scarlet and Green Cabochon",
-		"file": "magicwondrousdisplayb672.html",
 		"sources": [ "Seekers of Secrets" ],
 		"cost": 1400,
 		"description": [
@@ -1586,7 +1562,6 @@
 	},
 	"gamboge_nodule": {
 		"name": "Gamboge Nodule",
-		"file": "magicwondrousdisplayc8f2.html",
 		"sources": [ "Seekers of Secrets" ],
 		"cost": 1500,
 		"description": [
@@ -1649,7 +1624,6 @@
 	},
 	"opalescent_white_pyramid": {
 		"name": "Opalescent White Pyramid",
-		"file": "magicwondrousdisplayeb5e.html",
 		"sources": [ "Seekers of Secrets" ],
 		"cost": 1500,
 		"description": [
@@ -1712,7 +1686,6 @@
 	},
 	"pale_orange_rhomboid": {
 		"name": "Pale Orange Rhomboid",
-		"file": "magicwondrousdisplayb8d0.html",
 		"sources": [ "Pathfinder Society Primer" ],
 		"cost": 1800,
 		"description": [
@@ -1775,7 +1748,6 @@
 	},
 	"emerald_ellipsoid": {
 		"name": "Emerald Ellipsoid",
-		"file": "magicwondrousdisplayb029.html",
 		"sources": [ "Seekers of Secrets" ],
 		"cost": 2000,
 		"description": [
@@ -1838,7 +1810,6 @@
 	},
 	"vibrant_purple_prism": {
 		"name": "Vibrant Purple Prism",
-		"file": "magicwondrousdisplay2229.html",
 		"sources": [
 			"Seekers of Secrets",
 			"Adventurer's Guide",
@@ -1907,7 +1878,6 @@
 	},
 	"pale_lavender_ellipsoid": {
 		"name": "Pale Lavender Ellipsoid",
-		"file": "magicwondrousdisplay3fb6.html",
 		"sources": [
 			"Adventurer's Guide",
 			"PRPG Core Rulebook",
@@ -1975,7 +1945,6 @@
 	},
 	"brown_thorny": {
 		"name": "Brown Thorny",
-		"file": "magicwondrousdisplayf443.html",
 		"sources": [ "Inner Sea Combat" ],
 		"cost": 3200,
 		"description": [
@@ -2040,7 +2009,6 @@
 	},
 	"crimson_thorny": {
 		"name": "Crimson Thorny",
-		"file": "magicwondrousdisplay1396.html",
 		"sources": [ "Inner Sea Combat" ],
 		"cost": 3200,
 		"description": [
@@ -2105,7 +2073,6 @@
 	},
 	"orange_thorny": {
 		"name": "Orange Thorny",
-		"file": "magicwondrousdisplay33f3.html",
 		"sources": [ "Inner Sea Combat" ],
 		"cost": 3200,
 		"description": [
@@ -2170,7 +2137,6 @@
 	},
 	"silver_thorny": {
 		"name": "Silver Thorny",
-		"file": "magicwondrousdisplay4a63.html",
 		"sources": [ "Inner Sea Combat" ],
 		"cost": 3200,
 		"description": [
@@ -2235,7 +2201,6 @@
 	},
 	"teal_thorny": {
 		"name": "Teal Thorny",
-		"file": "magicwondrousdisplay1116.html",
 		"sources": [ "Inner Sea Combat" ],
 		"cost": 3200,
 		"description": [
@@ -2300,7 +2265,6 @@
 	},
 	"violet_thorny": {
 		"name": "Violet Thorny",
-		"file": "magicwondrousdisplayf230.html",
 		"sources": [ "Inner Sea Combat" ],
 		"cost": 3200,
 		"description": [
@@ -2365,7 +2329,6 @@
 	},
 	"amber_spindle": {
 		"name": "Amber Spindle",
-		"file": "magicwondrousdisplay264a.html",
 		"sources": [ "Seekers of Secrets" ],
 		"cost": 3400,
 		"description": [
@@ -2428,7 +2391,6 @@
 	},
 	"pearly_white_spindle": {
 		"name": "Pearly White Spindle",
-		"file": "magicwondrousdisplay04a9.html",
 		"sources": [
 			"Adventurer's Guide",
 			"PRPG Core Rulebook",
@@ -2496,7 +2458,6 @@
 	},
 	"pale_green_prism": {
 		"name": "Pale Green Prism",
-		"file": "magicwondrousdisplay11ba.html",
 		"sources": [
 			"Adventurer's Guide",
 			"PRPG Core Rulebook",
@@ -2564,7 +2525,6 @@
 	},
 	"western_star": {
 		"name": "Western Star",
-		"file": "magicwondrousdisplaycb90.html",
 		"sources": [ "Occult Mysteries" ],
 		"cost": 4000,
 		"description": [
@@ -2587,7 +2547,6 @@
 	},
 	"eastern_star": {
 		"name": "Eastern Star",
-		"file": "magicwondrousdisplayfa3d.html",
 		"sources": [
 			"The Emerald Spire Superdungeon",
 			"Occult Mysteries"
@@ -2613,7 +2572,6 @@
 	},
 	"azure_briolette": {
 		"name": "Azure Briolette",
-		"file": "magicwondrousdisplay92f8.html",
 		"sources": [ "Pathfinder #125 Tower of the Drowned Dead" ],
 		"cost": 8000,
 		"description": [
@@ -2676,7 +2634,6 @@
 	},
 	"dark_green_rhomboid": {
 		"name": "Dark Green Rhomboid",
-		"file": "magicwondrousdisplayd8e0.html",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"cost": 8000,
 		"description": [
@@ -2699,7 +2656,6 @@
 	},
 	"southern_star": {
 		"name": "Southern Star",
-		"file": "magicwondrousdisplay2aaf.html",
 		"sources": [ "Heroes from the Fringe" ],
 		"cost": 8000,
 		"description": [
@@ -2726,7 +2682,6 @@
 	},
 	"deep_brown_sphere": {
 		"name": "Deep Brown Sphere",
-		"file": "magicwondrousdisplaybc48.html",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"cost": 10000,
 		"description": [
@@ -2749,7 +2704,6 @@
 	},
 	"lavender_and_green_ellipsoid": {
 		"name": "Lavender and Green Ellipsoid",
-		"file": "magicwondrousdisplayb407.html",
 		"sources": [
 			"Adventurer's Guide",
 			"PRPG Core Rulebook",
@@ -2817,7 +2771,6 @@
 	},
 	"northern_star": {
 		"name": "Northern Star",
-		"file": "magicwondrousdisplayda2e.html",
 		"sources": [ "Heroes from the Fringe" ],
 		"cost": 10000,
 		"description": [
@@ -2844,7 +2797,6 @@
 	},
 	"crimson_sphere": {
 		"name": "Crimson Sphere",
-		"file": "magicwondrousdisplaycf6a.html",
 		"sources": [ "Seekers of Secrets" ],
 		"cost": 12000,
 		"description": [
@@ -2907,7 +2859,6 @@
 	},
 	"onyx_rhomboid": {
 		"name": "Onyx Rhomboid",
-		"file": "magicwondrousdisplay5509.html",
 		"sources": [ "Seekers of Secrets" ],
 		"cost": 12000,
 		"description": [
@@ -2970,7 +2921,6 @@
 	},
 	"silver_spindle": {
 		"name": "Silver Spindle",
-		"file": "magicwondrousdisplaye8e8.html",
 		"sources": [ "Pathfinder Society Primer" ],
 		"cost": 12000,
 		"description": [
@@ -3033,7 +2983,6 @@
 	},
 	"emerald_wedge": {
 		"name": "Emerald Wedge",
-		"file": "magicwondrousdisplayf099.html",
 		"sources": [ "Pathfinder #138: Rise of New Thassilon" ],
 		"cost": 32000,
 		"description": [
@@ -3056,7 +3005,6 @@
 	},
 	"pearlescent_pyramid": {
 		"name": "Pearlescent Pyramid",
-		"file": "magicwondrousdisplay3fea.html",
 		"sources": [ "Pathfinder #125 Tower of the Drowned Dead" ],
 		"cost": 32000,
 		"description": [
@@ -3119,7 +3067,6 @@
 	},
 	"sepia_ellipsoid": {
 		"name": "Sepia Ellipsoid",
-		"file": "magicwondrousdisplay5285.html",
 		"sources": [ "Seekers of Secrets" ],
 		"cost": 68000,
 		"description": [

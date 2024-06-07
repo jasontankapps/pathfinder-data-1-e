@@ -2,7 +2,6 @@
 	"_prefix": "archetype-vigilante",
 	"agathiel": {
 		"name": "Agathiel",
-		"file": "archetypedisplayf26d.html",
 		"sources": [ "Spymaster's Handbook" ],
 		"description": [
 			"## Agathiel",
@@ -28,7 +27,6 @@
 	},
 	"anaphexia_thought-killer": {
 		"name": "Anaphexia Thought-Killer",
-		"file": "archetypedisplaybf45.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Anaphexia Thought-Killer",
@@ -60,7 +58,6 @@
 	},
 	"avenging_beast": {
 		"name": "Avenging Beast",
-		"file": "archetypedisplaye8ea.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Avenging Beast",
@@ -96,7 +93,6 @@
 	},
 	"bellflower_harvester": {
 		"name": "Bellflower Harvester",
-		"file": "archetypedisplay341c.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Spymaster's Handbook"
@@ -131,7 +127,6 @@
 	},
 	"brute": {
 		"name": "Brute",
-		"file": "archetypedisplayc409.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Brute",
@@ -185,7 +180,6 @@
 	},
 	"cabalist": {
 		"name": "Cabalist",
-		"file": "archetypedisplay858b.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Cabalist",
@@ -247,7 +241,6 @@
 	},
 	"chu_ye_enforcer": {
 		"name": "Chu Ye Enforcer",
-		"file": "archetypedisplay3505.html",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
 			"## Chu Ye Enforcer",
@@ -281,7 +274,6 @@
 	},
 	"darklantern": {
 		"name": "Darklantern",
-		"file": "archetypedisplaya621.html",
 		"sources": [ "Heroes of the Darklands" ],
 		"description": [
 			"## Darklantern",
@@ -309,7 +301,6 @@
 	},
 	"dragonscale_loyalist": {
 		"name": "Dragonscale Loyalist",
-		"file": "archetypedisplay30c8.html",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [
 			"## Dragonscale Loyalist",
@@ -355,7 +346,6 @@
 	},
 	"experimenter": {
 		"name": "Experimenter",
-		"file": "archetypedisplay2ae2.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Experimenter",
@@ -399,7 +389,6 @@
 	},
 	"faceless_enforcer": {
 		"name": "Faceless Enforcer",
-		"file": "archetypedisplay9694.html",
 		"sources": [ "Path of the Hellknight" ],
 		"description": [
 			"## Faceless Enforcer",
@@ -439,7 +428,6 @@
 	},
 	"ferocious_hunter": {
 		"name": "Ferocious Hunter",
-		"file": "archetypedisplay0f43.html",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
 			"## Ferocious Hunter",
@@ -467,7 +455,6 @@
 	},
 	"gunmaster": {
 		"name": "Gunmaster",
-		"file": "archetypedisplay0142.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Gunmaster",
@@ -505,7 +492,6 @@
 	},
 	"half-elf_double_scion": {
 		"name": "Half-Elf Double Scion",
-		"file": "archetypedisplay9869.html",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
 			"## Half-Elf Double Scion",
@@ -529,7 +515,6 @@
 	},
 	"hangman": {
 		"name": "Hangman",
-		"file": "archetypedisplay6d15.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Hangman",
@@ -573,7 +558,6 @@
 	},
 	"hidden_current": {
 		"name": "Hidden Current",
-		"file": "archetypedisplay8e59.html",
 		"sources": [ "Blood of the Sea" ],
 		"description": [
 			"## Hidden Current",
@@ -597,7 +581,6 @@
 	},
 	"imperial_agent": {
 		"name": "Imperial Agent",
-		"file": "archetypedisplay14cf.html",
 		"sources": [ "Blood of the Ancients" ],
 		"description": [
 			"## Imperial Agent",
@@ -621,7 +604,6 @@
 	},
 	"magical_child": {
 		"name": "Magical Child",
-		"file": "archetypedisplay27fd.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Magical Child",
@@ -663,7 +645,6 @@
 	},
 	"masked_maiden": {
 		"name": "Masked Maiden",
-		"file": "archetypedisplay7684.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Masked Maiden",
@@ -695,7 +676,6 @@
 	},
 	"mounted_fury": {
 		"name": "Mounted Fury",
-		"file": "archetypedisplay30af.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Mounted Fury",
@@ -737,7 +717,6 @@
 	},
 	"mutated_defender": {
 		"name": "Mutated Defender",
-		"file": "archetypedisplaycace.html",
 		"sources": [ "People of the Wastes" ],
 		"description": [
 			"## Mutated Defender",
@@ -763,7 +742,6 @@
 	},
 	"psychometrist": {
 		"name": "Psychometrist",
-		"file": "archetypedisplaye9e9.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Psychometrist",
@@ -799,7 +777,6 @@
 	},
 	"serial_killer": {
 		"name": "Serial Killer",
-		"file": "archetypedisplay6080.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Serial Killer",
@@ -849,7 +826,6 @@
 	},
 	"splintersoul": {
 		"name": "Splintersoul",
-		"file": "archetypedisplay146d.html",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Splintersoul",
@@ -879,7 +855,6 @@
 	},
 	"teisatsu": {
 		"name": "Teisatsu",
-		"file": "archetypedisplay13b9.html",
 		"sources": [ "Spymaster's Handbook" ],
 		"description": [
 			"## Teisatsu",
@@ -911,7 +886,6 @@
 	},
 	"warlock": {
 		"name": "Warlock",
-		"file": "archetypedisplay97ff.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Warlock",
@@ -967,7 +941,6 @@
 	},
 	"wildsoul": {
 		"name": "Wildsoul",
-		"file": "archetypedisplayb917.html",
 		"sources": [
 			"Ultimate Intrigue",
 			"(Pathfinder Player Companion: Blood of the Beast pg. 7)"
@@ -1026,7 +999,6 @@
 	},
 	"zealot": {
 		"name": "Zealot",
-		"file": "archetypedisplay227d.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Zealot",

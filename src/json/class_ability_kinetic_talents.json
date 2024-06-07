@@ -2,7 +2,6 @@
 	"_prefix": "class_abilities-kinetic",
 	"air_blast": {
 		"name": "Air Blast (Sp)",
-		"searchable_name": "Air Blast",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "air" ],
 		"type": "simple blast",
@@ -21,7 +20,6 @@
 	},
 	"cold_blast": {
 		"name": "Cold Blast (Sp)",
-		"searchable_name": "Cold Blast",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "water" ],
 		"type": "simple blast",
@@ -40,7 +38,6 @@
 	},
 	"earth_blast": {
 		"name": "Earth Blast (Sp)",
-		"searchable_name": "Earth Blast",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "earth" ],
 		"type": "simple blast",
@@ -59,7 +56,6 @@
 	},
 	"electric_blast": {
 		"name": "Electric Blast (Sp)",
-		"searchable_name": "Electric Blast",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "air" ],
 		"type": "simple blast",
@@ -78,7 +74,6 @@
 	},
 	"fire_blast": {
 		"name": "Fire Blast (Sp)",
-		"searchable_name": "Fire Blast",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "fire" ],
 		"type": "simple blast",
@@ -97,7 +92,6 @@
 	},
 	"gravity_blast": {
 		"name": "Gravity Blast (Sp)",
-		"searchable_name": "Gravity Blast",
 		"sources": [ "Occult Origins" ],
 		"elements": [ "void" ],
 		"type": "simple blast",
@@ -116,7 +110,6 @@
 	},
 	"negative_blast": {
 		"name": "Negative Blast (Sp)",
-		"searchable_name": "Negative Blast",
 		"sources": [ "Occult Origins" ],
 		"elements": [ "void" ],
 		"type": "simple blast",
@@ -135,7 +128,6 @@
 	},
 	"positive_blast": {
 		"name": "Positive Blast (Sp)",
-		"searchable_name": "Positive Blast",
 		"sources": [
 			"Ultimate Wilderness",
 			"Psychic Anthology"
@@ -157,7 +149,6 @@
 	},
 	"telekinetic_blast": {
 		"name": "Telekinetic Blast (Sp)",
-		"searchable_name": "Telekinetic Blast",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "aether" ],
 		"type": "simple blast",
@@ -176,7 +167,6 @@
 	},
 	"water_blast": {
 		"name": "Water Blast (Sp)",
-		"searchable_name": "Water Blast",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "water" ],
 		"type": "simple blast",
@@ -195,7 +185,6 @@
 	},
 	"wood_blast": {
 		"name": "Wood Blast (Sp)",
-		"searchable_name": "Wood Blast",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -217,7 +206,6 @@
 	},
 	"aetheric_boost": {
 		"name": "Aetheric Boost (Sp)",
-		"searchable_name": "Aetheric Boost",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "aether" ],
 		"type": "composite blast",
@@ -237,7 +225,6 @@
 	},
 	"autumn_blast": {
 		"name": "Autumn Blast (Sp)",
-		"searchable_name": "Autumn Blast",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -263,7 +250,6 @@
 	},
 	"blizzard_blast": {
 		"name": "Blizzard Blast (Sp)",
-		"searchable_name": "Blizzard Blast",
 		"sources": [ "Occult Adventures" ],
 		"elements": [
 			"air",
@@ -286,7 +272,6 @@
 	},
 	"blue_flame_blast": {
 		"name": "Blue Flame Blast (Sp)",
-		"searchable_name": "Blue Flame Blast",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "fire" ],
 		"type": "composite blast",
@@ -306,7 +291,6 @@
 	},
 	"charged_water_blast": {
 		"name": "Charged Water Blast (Sp)",
-		"searchable_name": "Charged Water Blast",
 		"sources": [ "Occult Adventures" ],
 		"elements": [
 			"air",
@@ -329,7 +313,6 @@
 	},
 	"force_blast": {
 		"name": "Force Blast (Sp)",
-		"searchable_name": "Force Blast",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "aether" ],
 		"type": "composite blast",
@@ -349,7 +332,6 @@
 	},
 	"gravitic_boost": {
 		"name": "Gravitic Boost (Sp)",
-		"searchable_name": "Gravitic Boost",
 		"sources": [ "Occult Origins" ],
 		"elements": [ "void" ],
 		"type": "composite blast",
@@ -369,7 +351,6 @@
 	},
 	"ice_blast": {
 		"name": "Ice Blast (Sp)",
-		"searchable_name": "Ice Blast",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "water" ],
 		"type": "composite blast",
@@ -389,7 +370,6 @@
 	},
 	"magma_blast": {
 		"name": "Magma Blast (Sp)",
-		"searchable_name": "Magma Blast",
 		"sources": [ "Occult Adventures" ],
 		"elements": [
 			"earth",
@@ -412,7 +392,6 @@
 	},
 	"metal_blast": {
 		"name": "Metal Blast (Sp)",
-		"searchable_name": "Metal Blast",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "earth" ],
 		"type": "composite blast",
@@ -432,7 +411,6 @@
 	},
 	"mud_blast": {
 		"name": "Mud Blast (Sp)",
-		"searchable_name": "Mud Blast",
 		"sources": [ "Occult Adventures" ],
 		"elements": [
 			"earth",
@@ -455,7 +433,6 @@
 	},
 	"negative_admixture": {
 		"name": "Negative Admixture (Sp)",
-		"searchable_name": "Negative Admixture",
 		"sources": [ "Occult Origins" ],
 		"elements": [ "void" ],
 		"type": "composite blast",
@@ -475,7 +452,6 @@
 	},
 	"plasma_blast": {
 		"name": "Plasma Blast (Sp)",
-		"searchable_name": "Plasma Blast",
 		"sources": [ "Occult Adventures" ],
 		"elements": [
 			"air",
@@ -498,7 +474,6 @@
 	},
 	"positive_admixture": {
 		"name": "Positive Admixture (Sp)",
-		"searchable_name": "Positive Admixture",
 		"sources": [
 			"Ultimate Wilderness",
 			"Psychic Anthology"
@@ -521,7 +496,6 @@
 	},
 	"sandstorm_blast": {
 		"name": "Sandstorm Blast (Sp)",
-		"searchable_name": "Sandstorm Blast",
 		"sources": [ "Occult Adventures" ],
 		"elements": [
 			"air",
@@ -544,7 +518,6 @@
 	},
 	"spring_blast": {
 		"name": "Spring Blast (Sp)",
-		"searchable_name": "Spring Blast",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -570,7 +543,6 @@
 	},
 	"steam_blast": {
 		"name": "Steam Blast (Sp)",
-		"searchable_name": "Steam Blast",
 		"sources": [ "Occult Adventures" ],
 		"elements": [
 			"fire",
@@ -593,7 +565,6 @@
 	},
 	"summer_blast": {
 		"name": "Summer Blast (Sp)",
-		"searchable_name": "Summer Blast",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -619,7 +590,6 @@
 	},
 	"thunderstorm_blast": {
 		"name": "Thunderstorm Blast (Sp)",
-		"searchable_name": "Thunderstorm Blast",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "air" ],
 		"type": "composite blast",
@@ -639,7 +609,6 @@
 	},
 	"verdant_blast": {
 		"name": "Verdant Blast (Sp)",
-		"searchable_name": "Verdant Blast",
 		"sources": [
 			"Ultimate Wilderness",
 			"Psychic Anthology"
@@ -662,7 +631,6 @@
 	},
 	"void_blast": {
 		"name": "Void Blast (Sp)",
-		"searchable_name": "Void Blast",
 		"sources": [ "Occult Origins" ],
 		"elements": [ "void" ],
 		"type": "composite blast",
@@ -682,7 +650,6 @@
 	},
 	"winter_blast": {
 		"name": "Winter Blast (Sp)",
-		"searchable_name": "Winter Blast",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -708,7 +675,6 @@
 	},
 	"emptiness": {
 		"name": "Emptiness (Su)",
-		"searchable_name": "Emptiness",
 		"sources": [ "Occult Origins" ],
 		"elements": [ "void" ],
 		"type": "defense",
@@ -724,7 +690,6 @@
 	},
 	"enveloping_winds": {
 		"name": "Enveloping Winds (Su)",
-		"searchable_name": "Enveloping Winds",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "air" ],
 		"type": "defense",
@@ -740,7 +705,6 @@
 	},
 	"flesh_of_stone": {
 		"name": "Flesh of Stone (Su)",
-		"searchable_name": "Flesh of Stone",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "earth" ],
 		"type": "defense",
@@ -756,7 +720,6 @@
 	},
 	"flesh_of_wood": {
 		"name": "Flesh of Wood (Su)",
-		"searchable_name": "Flesh of Wood",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -775,7 +738,6 @@
 	},
 	"force_ward": {
 		"name": "Force Ward (Su)",
-		"searchable_name": "Force Ward",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "aether" ],
 		"type": "defense",
@@ -791,7 +753,6 @@
 	},
 	"searing_flesh": {
 		"name": "Searing Flesh (Su)",
-		"searchable_name": "Searing Flesh",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "fire" ],
 		"type": "defense",
@@ -809,7 +770,6 @@
 	},
 	"shroud_of_water": {
 		"name": "Shroud of Water (Su)",
-		"searchable_name": "Shroud of Water",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "water" ],
 		"type": "defense",
@@ -1063,7 +1023,6 @@
 	},
 	"greater_darkness_infusion": {
 		"name": "Darkness Infusion, Greater",
-		"searchable_name": "Greater Darkness Infusion",
 		"sources": [ "Occult Origins" ],
 		"elements": [ "void" ],
 		"type": "infusion",
@@ -1467,7 +1426,6 @@
 	},
 	"foxfire_infusion": {
 		"name": "Foxfire Infusion (Sp)",
-		"searchable_name": "Foxfire Infusion",
 		"sources": [
 			"Ultimate Wilderness",
 			"Psychic Anthology"
@@ -1811,7 +1769,6 @@
 	},
 	"pure-flame_infusion": {
 		"name": "Pure-Flame Infusion",
-		"searchable_name": "Pure Flame Infusion",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "fire" ],
 		"type": "infusion",
@@ -1876,7 +1833,6 @@
 	},
 	"rare-metal_infusion": {
 		"name": "Rare-Metal Infusion",
-		"searchable_name": "Rare Metal Infusion",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "earth" ],
 		"type": "infusion",
@@ -2160,7 +2116,6 @@
 	},
 	"greater_toxic_infusion": {
 		"name": "Toxic Infusion, Greater",
-		"searchable_name": "Greater Toxic Infusion",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -2405,7 +2360,6 @@
 	},
 	"greater_venom_infusion": {
 		"name": "Venom Infusion, Greater",
-		"searchable_name": "Greater Venom Infusion",
 		"sources": [ "Heroes of Golarion" ],
 		"elements": [ "universal" ],
 		"type": "infusion",
@@ -2484,7 +2438,6 @@
 	},
 	"absentia": {
 		"name": "Absentia (Sp)",
-		"searchable_name": "Absentia",
 		"sources": [ "Psychic Anthology" ],
 		"elements": [ "void" ],
 		"type": "utility",
@@ -2502,7 +2455,6 @@
 	},
 	"aerial_adaptation": {
 		"name": "Aerial Adaptation (Sp)",
-		"searchable_name": "Aerial Adaptation",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "air" ],
 		"type": "utility",
@@ -2519,7 +2471,6 @@
 	},
 	"aerial_evasion": {
 		"name": "Aerial Evasion (Su)",
-		"searchable_name": "Aerial Evasion",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "air" ],
 		"type": "utility",
@@ -2537,7 +2488,6 @@
 	},
 	"aether_architect": {
 		"name": "Aether Architect (Su)",
-		"searchable_name": "Aether Architect",
 		"sources": [ "Psychic Anthology" ],
 		"elements": [ "aether" ],
 		"type": "utility",
@@ -2554,7 +2504,6 @@
 	},
 	"aether_puppet": {
 		"name": "Aether Puppet (Sp)",
-		"searchable_name": "Aether Puppet",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "aether" ],
 		"type": "utility",
@@ -2571,7 +2520,6 @@
 	},
 	"air_cushion": {
 		"name": "Air Cushion (Sp)",
-		"searchable_name": "Air Cushion",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "air" ],
 		"type": "utility",
@@ -2588,7 +2536,6 @@
 	},
 	"air_shroud": {
 		"name": "Air Shroud (Sp)",
-		"searchable_name": "Air Shroud",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "air" ],
 		"type": "utility",
@@ -2605,7 +2552,6 @@
 	},
 	"greater_air_shroud": {
 		"name": "Air Shroud, Greater (Sp)",
-		"searchable_name": "Greater Air Shroud",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "air" ],
 		"type": "utility",
@@ -2623,7 +2569,6 @@
 	},
 	"air's_leap": {
 		"name": "Air's Leap (Su)",
-		"searchable_name": "Air's Leap",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "air" ],
 		"type": "utility",
@@ -2640,7 +2585,6 @@
 	},
 	"air's_reach": {
 		"name": "Air's Reach (Su)",
-		"searchable_name": "Air's Reach",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "air" ],
 		"type": "utility",
@@ -2657,7 +2601,6 @@
 	},
 	"angelic_protection": {
 		"name": "Angelic Protection (Sp)",
-		"searchable_name": "Angelic Protection",
 		"sources": [ "Plane-Hopper's Handbook" ],
 		"elements": [
 			"aether",
@@ -2681,7 +2624,6 @@
 	},
 	"basic_aerokinesis": {
 		"name": "Basic Aerokinesis (Sp)",
-		"searchable_name": "Basic Aerokinesis",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "air" ],
 		"type": "utility",
@@ -2700,7 +2642,6 @@
 	},
 	"basic_chaokinesis": {
 		"name": "Basic Chaokinesis (Sp)",
-		"searchable_name": "Basic Chaokinesis",
 		"sources": [ "Occult Origins" ],
 		"elements": [ "void" ],
 		"type": "utility",
@@ -2717,7 +2658,6 @@
 	},
 	"basic_geokinesis": {
 		"name": "Basic Geokinesis (Sp)",
-		"searchable_name": "Basic Geokinesis",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "earth" ],
 		"type": "utility",
@@ -2734,7 +2674,6 @@
 	},
 	"basic_hydrokinesis": {
 		"name": "Basic Hydrokinesis (Sp)",
-		"searchable_name": "Basic Hydrokinesis",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "water" ],
 		"type": "utility",
@@ -2751,7 +2690,6 @@
 	},
 	"basic_phytokinesis": {
 		"name": "Basic Phytokinesis (Sp)",
-		"searchable_name": "Basic Phytokinesis",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -2771,7 +2709,6 @@
 	},
 	"basic_pyrokinesis": {
 		"name": "Basic Pyrokinesis (Sp)",
-		"searchable_name": "Basic Pyrokinesis",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "fire" ],
 		"type": "utility",
@@ -2788,7 +2725,6 @@
 	},
 	"basic_telekinesis": {
 		"name": "Basic Telekinesis (Sp)",
-		"searchable_name": "Basic Telekinesis",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "aether" ],
 		"type": "utility",
@@ -2805,7 +2741,6 @@
 	},
 	"body_of_air": {
 		"name": "Body of Air (Sp)",
-		"searchable_name": "Body of Air",
 		"sources": [ "Psychic Anthology" ],
 		"elements": [ "air" ],
 		"type": "utility",
@@ -2822,7 +2757,6 @@
 	},
 	"brachiation": {
 		"name": "Brachiation (Su)",
-		"searchable_name": "Brachiation",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -2842,7 +2776,6 @@
 	},
 	"celerity": {
 		"name": "Celerity (Sp)",
-		"searchable_name": "Celerity",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "air" ],
 		"type": "utility",
@@ -2859,7 +2792,6 @@
 	},
 	"clockwork_heart": {
 		"name": "Clockwork Heart (Su)",
-		"searchable_name": "Clockwork Heart",
 		"sources": [ "Heroes of Golarion" ],
 		"elements": [ "earth" ],
 		"type": "utility",
@@ -2877,7 +2809,6 @@
 	},
 	"clockwork_puppet": {
 		"name": "Clockwork Puppet (Su)",
-		"searchable_name": "Clockwork Puppet",
 		"sources": [ "Heroes of Golarion" ],
 		"elements": [ "earth" ],
 		"type": "utility",
@@ -2895,7 +2826,6 @@
 	},
 	"cold_adaptation": {
 		"name": "Cold Adaptation (Sp)",
-		"searchable_name": "Cold Adaptation",
 		"sources": [ "Occult Adventures" ],
 		"elements": [
 			"fire",
@@ -2915,7 +2845,6 @@
 	},
 	"cold_snap": {
 		"name": "Cold Snap (Sp)",
-		"searchable_name": "Cold Snap",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "water" ],
 		"type": "utility",
@@ -2933,7 +2862,6 @@
 	},
 	"corpse_puppet": {
 		"name": "Corpse Puppet (Sp)",
-		"searchable_name": "Corpse Puppet",
 		"sources": [ "Psychic Anthology" ],
 		"elements": [ "void" ],
 		"type": "utility",
@@ -2950,7 +2878,6 @@
 	},
 	"cryokinetic_stasis": {
 		"name": "Cryokinetic Stasis (Sp)",
-		"searchable_name": "Cryokinetic Stasis",
 		"sources": [ "Psychic Anthology" ],
 		"elements": [ "water" ],
 		"type": "utility",
@@ -2967,7 +2894,6 @@
 	},
 	"curse_breaker": {
 		"name": "Curse Breaker (Sp)",
-		"searchable_name": "Curse Breaker",
 		"sources": [ "Psychic Anthology" ],
 		"elements": [ "void" ],
 		"type": "utility",
@@ -2985,7 +2911,6 @@
 	},
 	"earth_child": {
 		"name": "Earth Child (Su)",
-		"searchable_name": "Earth Child",
 		"sources": [ "Occult Realms" ],
 		"elements": [ "earth" ],
 		"type": "utility",
@@ -3008,7 +2933,6 @@
 	},
 	"earth_climb": {
 		"name": "Earth Climb (Su)",
-		"searchable_name": "Earth Climb",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "earth" ],
 		"type": "utility",
@@ -3025,7 +2949,6 @@
 	},
 	"earth_glide": {
 		"name": "Earth Glide (Su)",
-		"searchable_name": "Earth Glide",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "earth" ],
 		"type": "utility",
@@ -3043,7 +2966,6 @@
 	},
 	"earth_tongue": {
 		"name": "Earth Tongue (Sp)",
-		"searchable_name": "Earth Tongue",
 		"sources": [ "Psychic Anthology" ],
 		"elements": [ "earth" ],
 		"type": "utility",
@@ -3061,7 +2983,6 @@
 	},
 	"earth_walk": {
 		"name": "Earth Walk (Su)",
-		"searchable_name": "Earth Walk",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "earth" ],
 		"type": "utility",
@@ -3078,7 +2999,6 @@
 	},
 	"earthmeld": {
 		"name": "Earthmeld (Sp)",
-		"searchable_name": "Earthmeld",
 		"sources": [ "Ultimate Intrigue" ],
 		"elements": [ "earth" ],
 		"type": "utility",
@@ -3096,7 +3016,6 @@
 	},
 	"elemental_exile": {
 		"name": "Elemental Exile (Sp)",
-		"searchable_name": "Elemental Exile",
 		"sources": [ "Wilderness Origins" ],
 		"elements": [ "universal" ],
 		"type": "utility",
@@ -3115,7 +3034,6 @@
 	},
 	"elemental_grip": {
 		"name": "Elemental Grip (Sp)",
-		"searchable_name": "Elemental Grip",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "universal" ],
 		"type": "utility",
@@ -3134,7 +3052,6 @@
 	},
 	"elemental_transmission": {
 		"name": "Elemental Transmission (Sp)",
-		"searchable_name": "Elemental Transmission",
 		"sources": [ "Wilderness Origins" ],
 		"elements": [
 			"earth",
@@ -3157,7 +3074,6 @@
 	},
 	"elemental_whispers": {
 		"name": "Elemental Whispers (Su)",
-		"searchable_name": "Elemental Whispers",
 		"sources": [ "Horror Adventures" ],
 		"elements": [ "universal" ],
 		"type": "utility",
@@ -3174,7 +3090,6 @@
 	},
 	"greater_elemental_whispers": {
 		"name": "Elemental Whispers, Greater (Su)",
-		"searchable_name": "Greater Elemental Whispers",
 		"sources": [ "Horror Adventures" ],
 		"elements": [ "universal" ],
 		"type": "utility",
@@ -3192,7 +3107,6 @@
 	},
 	"enduring_earth": {
 		"name": "Enduring Earth (Su)",
-		"searchable_name": "Enduring Earth",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "earth" ],
 		"type": "utility",
@@ -3209,7 +3123,6 @@
 	},
 	"engulfing_winds": {
 		"name": "Engulfing Winds (Sp)",
-		"searchable_name": "Engulfing Winds",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "air" ],
 		"type": "utility",
@@ -3226,7 +3139,6 @@
 	},
 	"expanded_defense": {
 		"name": "Expanded Defense (Su)",
-		"searchable_name": "Expanded Defense",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "universal" ],
 		"type": "utility",
@@ -3243,7 +3155,6 @@
 	},
 	"eyes_of_the_void": {
 		"name": "Eyes of the Void (Su)",
-		"searchable_name": "Eyes of the Void",
 		"sources": [ "Occult Origins" ],
 		"elements": [ "void" ],
 		"type": "utility",
@@ -3260,7 +3171,6 @@
 	},
 	"greater_eyes_of_the_void": {
 		"name": "Eyes of the Void, Greater (Su)",
-		"searchable_name": "Greater Eyes of the Void",
 		"sources": [ "Occult Origins" ],
 		"elements": [ "void" ],
 		"type": "utility",
@@ -3278,7 +3188,6 @@
 	},
 	"fire_corridor": {
 		"name": "Fire Corridor (Sp)",
-		"searchable_name": "Fire Corridor",
 		"sources": [ "Wilderness Origins" ],
 		"elements": [ "fire" ],
 		"type": "utility",
@@ -3295,7 +3204,6 @@
 	},
 	"fire_sculptor": {
 		"name": "Fire Sculptor (Sp)",
-		"searchable_name": "Fire Sculptor",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "fire" ],
 		"type": "utility",
@@ -3312,7 +3220,6 @@
 	},
 	"fire_steed": {
 		"name": "Fire Steed (Sp)",
-		"searchable_name": "Fire Steed",
 		"sources": [ "Wilderness Origins" ],
 		"elements": [ "fire" ],
 		"type": "utility",
@@ -3329,7 +3236,6 @@
 	},
 	"fire's_fury": {
 		"name": "Fire's Fury (Su)",
-		"searchable_name": "Fire's Fury",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "fire" ],
 		"type": "utility",
@@ -3346,7 +3252,6 @@
 	},
 	"firesight": {
 		"name": "Firesight (Su)",
-		"searchable_name": "Firesight",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "fire" ],
 		"type": "utility",
@@ -3363,7 +3268,6 @@
 	},
 	"flame_jet": {
 		"name": "Flame Jet (Sp)",
-		"searchable_name": "Flame Jet",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "fire" ],
 		"type": "utility",
@@ -3380,7 +3284,6 @@
 	},
 	"greater_flame_jet": {
 		"name": "Flame Jet, Greater (Sp)",
-		"searchable_name": "Greater Flame Jet",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "fire" ],
 		"type": "utility",
@@ -3398,7 +3301,6 @@
 	},
 	"flame_shield": {
 		"name": "Flame Shield (Sp)",
-		"searchable_name": "Flame Shield",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "fire" ],
 		"type": "utility",
@@ -3416,7 +3318,6 @@
 	},
 	"flame_trap": {
 		"name": "Flame Trap (Sp)",
-		"searchable_name": "Flame Trap",
 		"sources": [ "Ultimate Intrigue" ],
 		"elements": [ "fire" ],
 		"type": "utility",
@@ -3433,7 +3334,6 @@
 	},
 	"force_barrier": {
 		"name": "Force Barrier (Sp)",
-		"searchable_name": "Force Barrier",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "aether" ],
 		"type": "utility",
@@ -3451,7 +3351,6 @@
 	},
 	"forest_siege": {
 		"name": "Forest Siege (Sp)",
-		"searchable_name": "Forest Siege",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -3471,7 +3370,6 @@
 	},
 	"foxfire": {
 		"name": "Foxfire (Sp)",
-		"searchable_name": "Foxfire",
 		"sources": [
 			"Ultimate Wilderness",
 			"Psychic Anthology"
@@ -3497,7 +3395,6 @@
 	},
 	"from_the_ashes": {
 		"name": "From the Ashes (Sp)",
-		"searchable_name": "From the Ashes",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "fire" ],
 		"type": "utility",
@@ -3514,7 +3411,6 @@
 	},
 	"gravity_control": {
 		"name": "Gravity Control (Sp)",
-		"searchable_name": "Gravity Control",
 		"sources": [ "Occult Origins" ],
 		"elements": [ "void" ],
 		"type": "utility",
@@ -3531,7 +3427,6 @@
 	},
 	"greater_gravity_control": {
 		"name": "Gravity Control, Greater (Sp)",
-		"searchable_name": "Greater Gravity Control",
 		"sources": [ "Occult Origins" ],
 		"elements": [ "void" ],
 		"type": "utility",
@@ -3549,7 +3444,6 @@
 	},
 	"gravity_master": {
 		"name": "Gravity Master (Sp)",
-		"searchable_name": "Gravity Master",
 		"sources": [ "Occult Origins" ],
 		"elements": [ "void" ],
 		"type": "utility",
@@ -3567,7 +3461,6 @@
 	},
 	"greater_fire_steed": {
 		"name": "Greater Fire Steed (Sp)",
-		"searchable_name": "Greater Fire Steed",
 		"sources": [ "Wilderness Origins" ],
 		"elements": [ "fire" ],
 		"type": "utility",
@@ -3585,7 +3478,6 @@
 	},
 	"green_tongue": {
 		"name": "Green Tongue (Su)",
-		"searchable_name": "Green Tongue",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -3605,7 +3497,6 @@
 	},
 	"greater_green_tongue": {
 		"name": "Green Tongue, Greater (Su)",
-		"searchable_name": "Greater Green Tongue",
 		"sources": [
 			"Ultimate Wilderness",
 			"Psychic Anthology"
@@ -3626,7 +3517,6 @@
 	},
 	"greensight": {
 		"name": "Greensight (Su)",
-		"searchable_name": "Greensight",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -3646,7 +3536,6 @@
 	},
 	"healing_burst": {
 		"name": "Healing Burst (Sp)",
-		"searchable_name": "Healing Burst",
 		"sources": [
 			"Ultimate Wilderness",
 			"Psychic Anthology"
@@ -3674,7 +3563,6 @@
 	},
 	"heat_adaptation": {
 		"name": "Heat Adaptation (Sp)",
-		"searchable_name": "Heat Adaptation",
 		"sources": [ "Occult Adventures" ],
 		"elements": [
 			"fire",
@@ -3694,7 +3582,6 @@
 	},
 	"heat_wave": {
 		"name": "Heat Wave (Sp)",
-		"searchable_name": "Heat Wave",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "fire" ],
 		"type": "utility",
@@ -3712,7 +3599,6 @@
 	},
 	"herbal_antivenom": {
 		"name": "Herbal Antivenom (Sp)",
-		"searchable_name": "Herbal Antivenom",
 		"sources": [
 			"Ultimate Wilderness",
 			"Psychic Anthology"
@@ -3732,7 +3618,6 @@
 	},
 	"hurricane_queen": {
 		"name": "Hurricane Queen (Su)",
-		"searchable_name": "Hurricane Queen",
 		"sources": [ "Occult Realms" ],
 		"elements": [ "air" ],
 		"type": "utility",
@@ -3755,7 +3640,6 @@
 	},
 	"ice_path": {
 		"name": "Ice Path (Su)",
-		"searchable_name": "Ice Path",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "water" ],
 		"type": "utility",
@@ -3773,7 +3657,6 @@
 	},
 	"ice_sculptor": {
 		"name": "Ice Sculptor (Sp)",
-		"searchable_name": "Ice Sculptor",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "water" ],
 		"type": "utility",
@@ -3790,7 +3673,6 @@
 	},
 	"icewalker": {
 		"name": "Icewalker (Su)",
-		"searchable_name": "Icewalker",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "water" ],
 		"type": "utility",
@@ -3807,7 +3689,6 @@
 	},
 	"improved_fire_steed": {
 		"name": "Improved Fire Steed (Sp)",
-		"searchable_name": "Improved Fire Steed",
 		"sources": [ "Wilderness Origins" ],
 		"elements": [ "fire" ],
 		"type": "utility",
@@ -3825,7 +3706,6 @@
 	},
 	"infernal_bargain": {
 		"name": "Infernal Bargain (Sp)",
-		"searchable_name": "Infernal Bargain",
 		"sources": [ "Plane-Hopper's Handbook" ],
 		"elements": [ "universal" ],
 		"type": "utility",
@@ -3845,7 +3725,6 @@
 	},
 	"jagged_flesh": {
 		"name": "Jagged Flesh (Sp)",
-		"searchable_name": "Jagged Flesh",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "earth" ],
 		"type": "utility",
@@ -3863,7 +3742,6 @@
 	},
 	"kinetic_awe": {
 		"name": "Kinetic Awe (Su)",
-		"searchable_name": "Kinetic Awe",
 		"sources": [ "Heroes of Golarion" ],
 		"elements": [ "universal" ],
 		"type": "utility",
@@ -3880,7 +3758,6 @@
 	},
 	"kinetic_cover": {
 		"name": "Kinetic Cover (Sp)",
-		"searchable_name": "Kinetic Cover",
 		"sources": [ "Occult Adventures" ],
 		"elements": [
 			"aether",
@@ -3902,7 +3779,6 @@
 	},
 	"kinetic_dissolution": {
 		"name": "Kinetic Dissolution (Su)",
-		"searchable_name": "Kinetic Dissolution",
 		"sources": [ "Heroes of Golarion" ],
 		"elements": [ "universal" ],
 		"type": "utility",
@@ -3920,7 +3796,6 @@
 	},
 	"kinetic_form": {
 		"name": "Kinetic Form (Sp)",
-		"searchable_name": "Kinetic Form",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "universal" ],
 		"type": "utility",
@@ -3937,7 +3812,6 @@
 	},
 	"kinetic_healer": {
 		"name": "Kinetic Healer (Sp)",
-		"searchable_name": "Kinetic Healer",
 		"sources": [ "Occult Adventures" ],
 		"elements": [
 			"aether",
@@ -3959,7 +3833,6 @@
 	},
 	"kinetic_restoration": {
 		"name": "Kinetic Restoration (Su)",
-		"searchable_name": "Kinetic Restoration",
 		"sources": [ "Healer's Handbook" ],
 		"elements": [ "universal" ],
 		"type": "utility",
@@ -3978,7 +3851,6 @@
 	},
 	"kinetic_revivification": {
 		"name": "Kinetic Revivification (Su)",
-		"searchable_name": "Kinetic Revivification",
 		"sources": [ "Healer's Handbook" ],
 		"elements": [
 			"aether",
@@ -4001,7 +3873,6 @@
 	},
 	"living_capacitor": {
 		"name": "Living Capacitor (Sp)",
-		"searchable_name": "Living Capacitor",
 		"sources": [ "Psychic Anthology" ],
 		"elements": [ "air" ],
 		"type": "utility",
@@ -4018,7 +3889,6 @@
 	},
 	"magnetism": {
 		"name": "Magnetism (Sp)",
-		"searchable_name": "Magnetism",
 		"sources": [ "Elemental Master's Handbook" ],
 		"elements": [
 			"air",
@@ -4041,7 +3911,6 @@
 	},
 	"greater_magnetism": {
 		"name": "Magnetism, Greater (Sp)",
-		"searchable_name": "Greater Magnetism",
 		"sources": [ "Elemental Master's Handbook" ],
 		"elements": [
 			"air",
@@ -4064,7 +3933,6 @@
 	},
 	"merciful_foliage": {
 		"name": "Merciful Foliage (Su)",
-		"searchable_name": "Merciful Foliage",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -4084,7 +3952,6 @@
 	},
 	"mesmerizing_elementalist": {
 		"name": "Mesmerizing Elementalist (Su)",
-		"searchable_name": "Mesmerizing Elementalist",
 		"sources": [ "Heroes of Golarion" ],
 		"elements": [ "universal" ],
 		"type": "utility",
@@ -4102,7 +3969,6 @@
 	},
 	"nine-tailed_kineticist": {
 		"name": "Nine-Tailed Kineticist (Su)",
-		"searchable_name": "Nine Tailed Kineticist",
 		"sources": [ "Heroes of Golarion" ],
 		"elements": [ "universal" ],
 		"type": "utility",
@@ -4120,7 +3986,6 @@
 	},
 	"no_breath": {
 		"name": "No Breath (Su)",
-		"searchable_name": "No Breath",
 		"sources": [ "Occult Origins" ],
 		"elements": [ "void" ],
 		"type": "utility",
@@ -4138,7 +4003,6 @@
 	},
 	"past_life_evoker": {
 		"name": "Past Life Evoker (Su)",
-		"searchable_name": "Past Life Evoker",
 		"sources": [ "Heroes of Golarion" ],
 		"elements": [ "universal" ],
 		"type": "utility",
@@ -4156,7 +4020,6 @@
 	},
 	"pillar": {
 		"name": "Pillar (Sp)",
-		"searchable_name": "Pillar",
 		"sources": [ "Elemental Master's Handbook" ],
 		"elements": [
 			"earth",
@@ -4182,7 +4045,6 @@
 	},
 	"plant_disguise": {
 		"name": "Plant Disguise (Sp)",
-		"searchable_name": "Plant Disguise",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -4202,7 +4064,6 @@
 	},
 	"plant_puppet": {
 		"name": "Plant Puppet (Sp)",
-		"searchable_name": "Plant Puppet",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -4222,7 +4083,6 @@
 	},
 	"primal_aether": {
 		"name": "Primal Aether (Su)",
-		"searchable_name": "Primal Aether",
 		"sources": [ "Occult Realms" ],
 		"elements": [ "aether" ],
 		"type": "utility",
@@ -4245,7 +4105,6 @@
 	},
 	"purging_flame": {
 		"name": "Purging Flame (Sp)",
-		"searchable_name": "Purging Flame",
 		"sources": [ "Occult Realms" ],
 		"elements": [ "fire" ],
 		"type": "utility",
@@ -4268,7 +4127,6 @@
 	},
 	"purifying_flames": {
 		"name": "Purifying Flames (Sp)",
-		"searchable_name": "Purifying Flames",
 		"sources": [ "Wilderness Origins" ],
 		"elements": [ "fire" ],
 		"type": "utility",
@@ -4285,7 +4143,6 @@
 	},
 	"reverse_shift": {
 		"name": "Reverse Shift (Sp)",
-		"searchable_name": "Reverse Shift",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "universal" ],
 		"type": "utility",
@@ -4302,7 +4159,6 @@
 	},
 	"ride_the_blast": {
 		"name": "Ride the Blast (Sp)",
-		"searchable_name": "Ride the Blast",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "universal" ],
 		"type": "utility",
@@ -4319,7 +4175,6 @@
 	},
 	"roots": {
 		"name": "Roots (Su)",
-		"searchable_name": "Roots",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -4339,7 +4194,6 @@
 	},
 	"searing_flame": {
 		"name": "Searing Flame (Su)",
-		"searchable_name": "Searing Flame",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "fire" ],
 		"type": "utility",
@@ -4357,7 +4211,6 @@
 	},
 	"seismic_master": {
 		"name": "Seismic Master (Sp)",
-		"searchable_name": "Seismic Master",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "earth" ],
 		"type": "utility",
@@ -4374,7 +4227,6 @@
 	},
 	"self_telekinesis": {
 		"name": "Self Telekinesis (Sp)",
-		"searchable_name": "Self Telekinesis",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "aether" ],
 		"type": "utility",
@@ -4391,7 +4243,6 @@
 	},
 	"greater_self_telekinesis": {
 		"name": "Self Telekinesis, Greater (Sp)",
-		"searchable_name": "Greater Self Telekinesis",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "aether" ],
 		"type": "utility",
@@ -4409,7 +4260,6 @@
 	},
 	"shape_wood": {
 		"name": "Shape Wood (Sp)",
-		"searchable_name": "Shape Wood",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -4429,7 +4279,6 @@
 	},
 	"shift_earth": {
 		"name": "Shift Earth (Sp)",
-		"searchable_name": "Shift Earth",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "earth" ],
 		"type": "utility",
@@ -4449,7 +4298,6 @@
 	},
 	"greater_shift_earth": {
 		"name": "Shift Earth, Greater (Sp)",
-		"searchable_name": "Greater Shift Earth",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "earth" ],
 		"type": "utility",
@@ -4467,7 +4315,6 @@
 	},
 	"shimmering_mirage": {
 		"name": "Shimmering Mirage (Sp)",
-		"searchable_name": "Shimmering Mirage",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "water" ],
 		"type": "utility",
@@ -4485,7 +4332,6 @@
 	},
 	"skilled_kineticist": {
 		"name": "Skilled Kineticist (Su)",
-		"searchable_name": "Skilled Kineticist",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "universal" ],
 		"type": "utility",
@@ -4502,7 +4348,6 @@
 	},
 	"greater_skilled_kineticist": {
 		"name": "Skilled Kineticist, Greater (Su)",
-		"searchable_name": "Greater Skilled Kineticist",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "universal" ],
 		"type": "utility",
@@ -4520,7 +4365,6 @@
 	},
 	"sky_walk": {
 		"name": "Sky Walk (Su)",
-		"searchable_name": "Sky Walk",
 		"sources": [ "Heroes of Golarion" ],
 		"elements": [ "air" ],
 		"type": "utility",
@@ -4538,7 +4382,6 @@
 	},
 	"slick": {
 		"name": "Slick (Sp)",
-		"searchable_name": "Slick",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "water" ],
 		"type": "utility",
@@ -4557,7 +4400,6 @@
 	},
 	"smoke_storm": {
 		"name": "Smoke Storm (Sp)",
-		"searchable_name": "Smoke Storm",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "fire" ],
 		"type": "utility",
@@ -4576,7 +4418,6 @@
 	},
 	"spark_of_innovation": {
 		"name": "Spark of Innovation (Sp)",
-		"searchable_name": "Spark of Innovation",
 		"sources": [ "Heroes of Golarion" ],
 		"elements": [ "earth" ],
 		"type": "utility",
@@ -4594,7 +4435,6 @@
 	},
 	"spark_of_life": {
 		"name": "Spark of Life (Sp)",
-		"searchable_name": "Spark of Life",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "universal" ],
 		"type": "utility",
@@ -4611,7 +4451,6 @@
 	},
 	"spell_deflection": {
 		"name": "Spell Deflection (Sp)",
-		"searchable_name": "Spell Deflection",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "aether" ],
 		"type": "utility",
@@ -4628,7 +4467,6 @@
 	},
 	"splash_of_the_styx": {
 		"name": "Splash of the Styx (Sp)",
-		"searchable_name": "Splash of the Styx",
 		"sources": [ "Plane-Hopper's Handbook" ],
 		"elements": [ "water" ],
 		"type": "utility",
@@ -4648,7 +4486,6 @@
 	},
 	"spying_touchsight": {
 		"name": "Spying Touchsight (Sp)",
-		"searchable_name": "Spying Touchsight",
 		"sources": [ "Ultimate Intrigue" ],
 		"elements": [ "aether" ],
 		"type": "utility",
@@ -4666,7 +4503,6 @@
 	},
 	"stone_sculptor": {
 		"name": "Stone Sculptor (Sp)",
-		"searchable_name": "Stone Sculptor",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "earth" ],
 		"type": "utility",
@@ -4683,7 +4519,6 @@
 	},
 	"suffocate": {
 		"name": "Suffocate (Sp)",
-		"searchable_name": "Suffocate",
 		"sources": [ "Occult Adventures" ],
 		"elements": [
 			"aether",
@@ -4707,7 +4542,6 @@
 	},
 	"telekinetic_deflection": {
 		"name": "Telekinetic Deflection (Sp)",
-		"searchable_name": "Telekinetic Deflection",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "aether" ],
 		"type": "utility",
@@ -4724,7 +4558,6 @@
 	},
 	"telekinetic_finesse": {
 		"name": "Telekinetic Finesse (Sp)",
-		"searchable_name": "Telekinetic Finesse",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "aether" ],
 		"type": "utility",
@@ -4741,7 +4574,6 @@
 	},
 	"telekinetic_globe": {
 		"name": "Telekinetic Globe (Sp)",
-		"searchable_name": "Telekinetic Globe",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "aether" ],
 		"type": "utility",
@@ -4759,7 +4591,6 @@
 	},
 	"telekinetic_haul": {
 		"name": "Telekinetic Haul (Sp)",
-		"searchable_name": "Telekinetic Haul",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "aether" ],
 		"type": "utility",
@@ -4777,7 +4608,6 @@
 	},
 	"telekinetic_invisibility": {
 		"name": "Telekinetic Invisibility (Sp)",
-		"searchable_name": "Telekinetic Invisibility",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "aether" ],
 		"type": "utility",
@@ -4794,7 +4624,6 @@
 	},
 	"telekinetic_maneuvers": {
 		"name": "Telekinetic Maneuvers (Sp)",
-		"searchable_name": "Telekinetic Maneuvers",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "aether" ],
 		"type": "utility",
@@ -4813,7 +4642,6 @@
 	},
 	"tengu_blade_lore": {
 		"name": "Tengu Blade Lore (Su)",
-		"searchable_name": "Tengu Blade Lore",
 		"sources": [ "Heroes of Golarion" ],
 		"elements": [ "universal" ],
 		"type": "utility",
@@ -4831,7 +4659,6 @@
 	},
 	"thorn_flesh": {
 		"name": "Thorn Flesh (Sp)",
-		"searchable_name": "Thorn Flesh",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -4852,7 +4679,6 @@
 	},
 	"tidal_wave": {
 		"name": "Tidal Wave (Sp)",
-		"searchable_name": "Tidal Wave",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "water" ],
 		"type": "utility",
@@ -4869,7 +4695,6 @@
 	},
 	"touchsight": {
 		"name": "Touchsight (Su)",
-		"searchable_name": "Touchsight",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "aether" ],
 		"type": "utility",
@@ -4886,7 +4711,6 @@
 	},
 	"reactive_touchsight": {
 		"name": "Touchsight, Reactive (Su)",
-		"searchable_name": "Reactive Touchsight",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "aether" ],
 		"type": "utility",
@@ -4904,7 +4728,6 @@
 	},
 	"trail_of_flames": {
 		"name": "Trail of Flames (Sp)",
-		"searchable_name": "Trail of Flames",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "fire" ],
 		"type": "utility",
@@ -4923,7 +4746,6 @@
 	},
 	"tree_step": {
 		"name": "Tree Step (Sp)",
-		"searchable_name": "Tree Step",
 		"sources": [
 			"Ultimate Wilderness",
 			"Psychic Anthology"
@@ -4944,7 +4766,6 @@
 	},
 	"tremorsense": {
 		"name": "Tremorsense (Su)",
-		"searchable_name": "Tremorsense",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "earth" ],
 		"type": "utility",
@@ -4961,7 +4782,6 @@
 	},
 	"greater_tremorsense": {
 		"name": "Tremorsense, Greater (Su)",
-		"searchable_name": "Greater Tremorsense",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "earth" ],
 		"type": "utility",
@@ -4979,7 +4799,6 @@
 	},
 	"undead_grip": {
 		"name": "Undead Grip (Sp)",
-		"searchable_name": "Undead Grip",
 		"sources": [ "Psychic Anthology" ],
 		"elements": [ "void" ],
 		"type": "utility",
@@ -4998,7 +4817,6 @@
 	},
 	"veil_of_mists": {
 		"name": "Veil of Mists (Su)",
-		"searchable_name": "Veil of Mists",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "water" ],
 		"type": "utility",
@@ -5015,7 +4833,6 @@
 	},
 	"venom_speaker": {
 		"name": "Venom Speaker (Su)",
-		"searchable_name": "Venom Speaker",
 		"sources": [ "Heroes of Golarion" ],
 		"elements": [ "universal" ],
 		"type": "utility",
@@ -5032,7 +4849,6 @@
 	},
 	"voice_of_the_wind": {
 		"name": "Voice of the Wind (Sp)",
-		"searchable_name": "Voice of the Wind",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "air" ],
 		"type": "utility",
@@ -5051,7 +4867,6 @@
 	},
 	"greater_voice_of_the_wind": {
 		"name": "Voice of the Wind, Greater (Sp)",
-		"searchable_name": "Greater Voice of the Wind",
 		"sources": [ "Ultimate Intrigue" ],
 		"elements": [ "air" ],
 		"type": "utility",
@@ -5069,7 +4884,6 @@
 	},
 	"void_healer": {
 		"name": "Void Healer (Sp)",
-		"searchable_name": "Void Healer",
 		"sources": [ "Occult Origins" ],
 		"elements": [ "void" ],
 		"type": "utility",
@@ -5086,7 +4900,6 @@
 	},
 	"warp_wood": {
 		"name": "Warp Wood (Sp)",
-		"searchable_name": "Warp Wood",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -5106,7 +4919,6 @@
 	},
 	"water_alteration": {
 		"name": "Water Alteration (Sp)",
-		"searchable_name": "Water Alteration",
 		"sources": [ "Occult Realms" ],
 		"elements": [ "water" ],
 		"type": "utility",
@@ -5129,7 +4941,6 @@
 	},
 	"water_manipulator": {
 		"name": "Water Manipulator (Sp)",
-		"searchable_name": "Water Manipulator",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "water" ],
 		"type": "utility",
@@ -5149,7 +4960,6 @@
 	},
 	"waterdancer": {
 		"name": "Waterdancer (Sp)",
-		"searchable_name": "Waterdancer",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "water" ],
 		"type": "utility",
@@ -5166,7 +4976,6 @@
 	},
 	"greater_waterdancer": {
 		"name": "Waterdancer, Greater (Su)",
-		"searchable_name": "Greater Waterdancer",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "water" ],
 		"type": "utility",
@@ -5184,7 +4993,6 @@
 	},
 	"watersense": {
 		"name": "Watersense (Su)",
-		"searchable_name": "Watersense",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "water" ],
 		"type": "utility",
@@ -5201,7 +5009,6 @@
 	},
 	"greater_watersense": {
 		"name": "Watersense, Greater (Su)",
-		"searchable_name": "Greater Watersense",
 		"sources": [ "Ultimate Intrigue" ],
 		"elements": [ "water" ],
 		"type": "utility",
@@ -5219,7 +5026,6 @@
 	},
 	"weather_master": {
 		"name": "Weather Master (Sp)",
-		"searchable_name": "Weather Master",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "air" ],
 		"type": "utility",
@@ -5236,7 +5042,6 @@
 	},
 	"wild_growth": {
 		"name": "Wild Growth (Sp)",
-		"searchable_name": "Wild Growth",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -5256,7 +5061,6 @@
 	},
 	"wind_manipulator": {
 		"name": "Wind Manipulator (Sp)",
-		"searchable_name": "Wind Manipulator",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "air" ],
 		"type": "utility",
@@ -5274,7 +5078,6 @@
 	},
 	"windsight": {
 		"name": "Windsight (Su)",
-		"searchable_name": "Windsight",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "air" ],
 		"type": "utility",
@@ -5291,7 +5094,6 @@
 	},
 	"greater_windsight": {
 		"name": "Windsight, Greater (Su)",
-		"searchable_name": "Greater Windsight",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "air" ],
 		"type": "utility",
@@ -5309,7 +5111,6 @@
 	},
 	"wings_of_air": {
 		"name": "Wings of Air (Sp)",
-		"searchable_name": "Wings of Air",
 		"sources": [ "Occult Adventures" ],
 		"elements": [ "air" ],
 		"type": "utility",
@@ -5327,7 +5128,6 @@
 	},
 	"wood_healer": {
 		"name": "Wood Healer (Sp)",
-		"searchable_name": "Wood Healer",
 		"sources": [
 			"Ultimate Wilderness",
 			"Psychic Anthology"
@@ -5350,7 +5150,6 @@
 	},
 	"wood_soldiers": {
 		"name": "Wood Soldiers (Su)",
-		"searchable_name": "Wood Soldiers",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -5370,7 +5169,6 @@
 	},
 	"woodland_step": {
 		"name": "Woodland Step (Su)",
-		"searchable_name": "Woodland Step",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"
@@ -5390,7 +5188,6 @@
 	},
 	"greater_woodland_step": {
 		"name": "Woodland Step, Greater (Sp)",
-		"searchable_name": "Greater Woodland Step",
 		"sources": [
 			"Ultimate Wilderness",
 			"Occult Origins"

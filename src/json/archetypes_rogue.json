@@ -2,7 +2,6 @@
 	"_prefix": "archetype-rogue",
 	"acrobat": {
 		"name": "Acrobat",
-		"file": "archetypedisplayf0e3.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Acrobat",
@@ -22,7 +21,6 @@
 	},
 	"bandit": {
 		"name": "Bandit",
-		"file": "archetypedisplay11ce.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Bandit",
@@ -42,7 +40,6 @@
 	},
 	"bekyar_kidnapper": {
 		"name": "Bekyar Kidnapper",
-		"file": "archetypedisplay0c6c.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Bekyar Kidnapper",
@@ -62,7 +59,6 @@
 	},
 	"bellflower_irrigator": {
 		"name": "Bellflower Irrigator",
-		"file": "archetypedisplayabc2.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Bellflower Irrigator",
@@ -90,7 +86,6 @@
 	},
 	"burglar": {
 		"name": "Burglar",
-		"file": "archetypedisplay1fdf.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Burglar",
@@ -110,7 +105,6 @@
 	},
 	"carnivalist": {
 		"name": "Carnivalist",
-		"file": "archetypedisplay8d5b.html",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Carnivalist",
@@ -136,7 +130,6 @@
 	},
 	"cat_burglar": {
 		"name": "Cat Burglar",
-		"file": "archetypedisplaydf0c.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Cat Burglar",
@@ -156,7 +149,6 @@
 	},
 	"chameleon": {
 		"name": "Chameleon",
-		"file": "archetypedisplayb7d0.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Chameleon",
@@ -176,7 +168,6 @@
 	},
 	"charlatan": {
 		"name": "Charlatan",
-		"file": "archetypedisplay1fcf.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Charlatan",
@@ -196,7 +187,6 @@
 	},
 	"consigliere": {
 		"name": "Consigliere",
-		"file": "archetypedisplayc920.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Consigliere",
@@ -232,7 +222,6 @@
 	},
 	"construct_saboteur": {
 		"name": "Construct Saboteur",
-		"file": "archetypedisplay169a.html",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"## Construct Saboteur",
@@ -268,7 +257,6 @@
 	},
 	"counterfeit_mage": {
 		"name": "Counterfeit Mage",
-		"file": "archetypedisplay9952.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Counterfeit Mage",
@@ -290,7 +278,6 @@
 	},
 	"cutpurse": {
 		"name": "Cutpurse",
-		"file": "archetypedisplay016b.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Cutpurse",
@@ -310,7 +297,6 @@
 	},
 	"dark_lurker": {
 		"name": "Dark Lurker",
-		"file": "archetypedisplay253c.html",
 		"sources": [ "Heroes of the Streets" ],
 		"description": [
 			"## Dark Lurker",
@@ -336,7 +322,6 @@
 	},
 	"deadly_courtesan": {
 		"name": "Deadly Courtesan",
-		"file": "archetypedisplay56e8.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Deadly Courtesan",
@@ -360,7 +345,6 @@
 	},
 	"desert_raider": {
 		"name": "Desert Raider",
-		"file": "archetypedisplay792a.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Desert Raider",
@@ -390,7 +374,6 @@
 	},
 	"discretion_specialist": {
 		"name": "Discretion Specialist",
-		"file": "archetypedisplay1322.html",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Discretion Specialist",
@@ -430,7 +413,6 @@
 	},
 	"dreamthief": {
 		"name": "Dreamthief",
-		"file": "archetypedisplayfa5f.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Dreamthief",
@@ -468,7 +450,6 @@
 	},
 	"driver": {
 		"name": "Driver",
-		"file": "archetypedisplay1b07.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Driver",
@@ -488,7 +469,6 @@
 	},
 	"earthshadow": {
 		"name": "Earthshadow",
-		"file": "archetypedisplaye9ae.html",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
 			"## Earthshadow",
@@ -520,7 +500,6 @@
 	},
 	"eldritch_raider": {
 		"name": "Eldritch Raider",
-		"file": "archetypedisplaye83e.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Eldritch Raider",
@@ -550,7 +529,6 @@
 	},
 	"eldritch_scoundrel": {
 		"name": "Eldritch Scoundrel",
-		"file": "archetypedisplay9aaa.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## Eldritch Scoundrel",
@@ -578,7 +556,6 @@
 	},
 	"escapologist": {
 		"name": "Escapologist",
-		"file": "archetypedisplay5d69.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Escapologist",
@@ -596,7 +573,6 @@
 	},
 	"false_medium": {
 		"name": "False Medium",
-		"file": "archetypedisplay18ac.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## False Medium",
@@ -620,7 +596,6 @@
 	},
 	"fey_prankster": {
 		"name": "Fey Prankster",
-		"file": "archetypedisplayeba5.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Fey Prankster",
@@ -658,7 +633,6 @@
 	},
 	"filcher": {
 		"name": "Filcher",
-		"file": "archetypedisplay0b94.html",
 		"sources": [],
 		"description": [
 			"## Filcher",
@@ -684,7 +658,6 @@
 	},
 	"galtan_agitator": {
 		"name": "Galtan Agitator",
-		"file": "archetypedisplaybe56.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Galtan Agitator",
@@ -720,7 +693,6 @@
 	},
 	"guerrilla": {
 		"name": "Guerrilla",
-		"file": "archetypedisplaya0e0.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Guerrilla",
@@ -756,7 +728,6 @@
 	},
 	"guild_agent": {
 		"name": "Guild Agent",
-		"file": "archetypedisplay275a.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Guild Agent",
@@ -788,7 +759,6 @@
 	},
 	"gun_smuggler": {
 		"name": "Gun Smuggler",
-		"file": "archetypedisplayd419.html",
 		"sources": [ "People of the Wastes" ],
 		"description": [
 			"## Gun Smuggler",
@@ -824,7 +794,6 @@
 	},
 	"heister": {
 		"name": "Heister",
-		"file": "archetypedisplay4237.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Heister",
@@ -852,7 +821,6 @@
 	},
 	"investigator": {
 		"name": "Investigator",
-		"file": "archetypedisplay4c44.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Investigator",
@@ -870,7 +838,6 @@
 	},
 	"kintargo_rebel": {
 		"name": "Kintargo Rebel",
-		"file": "archetypedisplayf5c1.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Kintargo Rebel",
@@ -890,7 +857,6 @@
 	},
 	"kitsune_trickster": {
 		"name": "Kitsune Trickster",
-		"file": "archetypedisplayaede.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Kitsune Trickster",
@@ -910,7 +876,6 @@
 	},
 	"knife_master": {
 		"name": "Knife Master",
-		"file": "archetypedisplaya605.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Knife Master",
@@ -932,7 +897,6 @@
 	},
 	"makeshift_scrapper": {
 		"name": "Makeshift Scrapper",
-		"file": "archetypedisplaya0d2.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Makeshift Scrapper",
@@ -956,7 +920,6 @@
 	},
 	"master_of_disguise": {
 		"name": "Master of Disguise",
-		"file": "archetypedisplay6146.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Master of Disguise",
@@ -980,7 +943,6 @@
 	},
 	"nameless_shadow": {
 		"name": "Nameless Shadow",
-		"file": "archetypedisplay3f11.html",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Nameless Shadow",
@@ -1002,7 +964,6 @@
 	},
 	"needler": {
 		"name": "Needler",
-		"file": "archetypedisplay1251.html",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Needler",
@@ -1030,7 +991,6 @@
 	},
 	"numerian_scavenger": {
 		"name": "Numerian Scavenger",
-		"file": "archetypedisplay593e.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Numerian Scavenger",
@@ -1048,7 +1008,6 @@
 	},
 	"okeno_liberator": {
 		"name": "Okeno Liberator",
-		"file": "archetypedisplay86b6.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Okeno Liberator",
@@ -1070,7 +1029,6 @@
 	},
 	"phantom_thief": {
 		"name": "Phantom Thief",
-		"file": "archetypedisplay6a1d.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Phantom Thief",
@@ -1102,7 +1060,6 @@
 	},
 	"pirate": {
 		"name": "Pirate",
-		"file": "archetypedisplayc902.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Pirate",
@@ -1124,7 +1081,6 @@
 	},
 	"planar_sneak": {
 		"name": "Planar Sneak",
-		"file": "archetypedisplay2b39.html",
 		"sources": [ "Planes of Power" ],
 		"description": [
 			"## Planar Sneak",
@@ -1148,7 +1104,6 @@
 	},
 	"poisoner": {
 		"name": "Poisoner",
-		"file": "archetypedisplay61b5.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Poisoner",
@@ -1168,7 +1123,6 @@
 	},
 	"rake": {
 		"name": "Rake",
-		"file": "archetypedisplaye09d.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Rake",
@@ -1188,7 +1142,6 @@
 	},
 	"relic_raider": {
 		"name": "Relic Raider",
-		"file": "archetypedisplay7516.html",
 		"sources": [ "Black Markets" ],
 		"description": [
 			"## Relic Raider",
@@ -1212,7 +1165,6 @@
 	},
 	"river_rat": {
 		"name": "River Rat",
-		"file": "archetypedisplay7f54.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"People of the River"
@@ -1245,7 +1197,6 @@
 	},
 	"roof_runner": {
 		"name": "Roof Runner",
-		"file": "archetypedisplay9da6.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Roof Runner",
@@ -1265,7 +1216,6 @@
 	},
 	"rotdrinker": {
 		"name": "Rotdrinker",
-		"file": "archetypedisplaye772.html",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Rotdrinker",
@@ -1291,7 +1241,6 @@
 	},
 	"sanctified_rogue": {
 		"name": "Sanctified Rogue",
-		"file": "archetypedisplayac5e.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Sanctified Rogue",
@@ -1311,7 +1260,6 @@
 	},
 	"sapper": {
 		"name": "Sapper",
-		"file": "archetypedisplay573b.html",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Sapper",
@@ -1329,7 +1277,6 @@
 	},
 	"scout": {
 		"name": "Scout",
-		"file": "archetypedisplaycba6.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Scout",
@@ -1349,7 +1296,6 @@
 	},
 	"scroll_scoundrel": {
 		"name": "Scroll Scoundrel",
-		"file": "archetypedisplay6212.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
 			"## Scroll Scoundrel",
@@ -1371,7 +1317,6 @@
 	},
 	"sczarni_swindler": {
 		"name": "Sczarni Swindler",
-		"file": "archetypedisplay3375.html",
 		"sources": [ "The Harrow Handbook" ],
 		"description": [
 			"## Sczarni Swindler",
@@ -1397,7 +1342,6 @@
 	},
 	"seeker_of_the_lost": {
 		"name": "Seeker of the Lost",
-		"file": "archetypedisplaycf60.html",
 		"sources": [ "Blood of the Sea" ],
 		"description": [
 			"## Seeker of the Lost",
@@ -1425,7 +1369,6 @@
 	},
 	"shadow_scion": {
 		"name": "Shadow Scion",
-		"file": "archetypedisplaye495.html",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"## Shadow Scion",
@@ -1461,7 +1404,6 @@
 	},
 	"shadow_walker": {
 		"name": "Shadow Walker",
-		"file": "archetypedisplay08b8.html",
 		"sources": [ "Blood of Shadows" ],
 		"description": [
 			"## Shadow Walker",
@@ -1489,7 +1431,6 @@
 	},
 	"sharper": {
 		"name": "Sharper",
-		"file": "archetypedisplay6dc8.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Sharper",
@@ -1521,7 +1462,6 @@
 	},
 	"skulking_slayer": {
 		"name": "Skulking Slayer",
-		"file": "archetypedisplay6e20.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Skulking Slayer",
@@ -1555,7 +1495,6 @@
 	},
 	"sly_saboteur": {
 		"name": "Sly Saboteur",
-		"file": "archetypedisplay7d2b.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Sly Saboteur",
@@ -1589,7 +1528,6 @@
 	},
 	"smuggler": {
 		"name": "Smuggler",
-		"file": "archetypedisplay9d47.html",
 		"sources": [ "Pirates of the Inner Sea" ],
 		"description": [
 			"## Smuggler",
@@ -1607,7 +1545,6 @@
 	},
 	"snare_setter": {
 		"name": "Snare Setter",
-		"file": "archetypedisplay89e0.html",
 		"sources": [ "Kobolds of Golarion" ],
 		"description": [
 			"## Snare Setter",
@@ -1637,7 +1574,6 @@
 	},
 	"sniper": {
 		"name": "Sniper",
-		"file": "archetypedisplayc87d.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Sniper",
@@ -1657,7 +1593,6 @@
 	},
 	"snoop": {
 		"name": "Snoop",
-		"file": "archetypedisplay94bc.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Snoop",
@@ -1687,7 +1622,6 @@
 	},
 	"spy": {
 		"name": "Spy",
-		"file": "archetypedisplay305f.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Spy",
@@ -1707,7 +1641,6 @@
 	},
 	"survivalist": {
 		"name": "Survivalist",
-		"file": "archetypedisplay8793.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Survivalist",
@@ -1727,7 +1660,6 @@
 	},
 	"swamp_poisoner": {
 		"name": "Swamp Poisoner",
-		"file": "archetypedisplaya646.html",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Swamp Poisoner",
@@ -1755,7 +1687,6 @@
 	},
 	"swashbuckler": {
 		"name": "Swashbuckler",
-		"file": "archetypedisplay88b5.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Swashbuckler",
@@ -1775,7 +1706,6 @@
 	},
 	"swordmaster": {
 		"name": "Swordmaster",
-		"file": "archetypedisplay6b0f.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Swordmaster",
@@ -1811,7 +1741,6 @@
 	},
 	"sylvan_trickster": {
 		"name": "Sylvan Trickster",
-		"file": "archetypedisplayca33.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Sylvan Trickster",
@@ -1847,7 +1776,6 @@
 	},
 	"thug": {
 		"name": "Thug",
-		"file": "archetypedisplayed6d.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Thug",
@@ -1867,7 +1795,6 @@
 	},
 	"tidal_trickster": {
 		"name": "Tidal Trickster",
-		"file": "archetypedisplay9819.html",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Tidal Trickster",
@@ -1891,7 +1818,6 @@
 	},
 	"toxic_talon": {
 		"name": "Toxic Talon",
-		"file": "archetypedisplayed0d.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Toxic Talon",
@@ -1925,7 +1851,6 @@
 	},
 	"trapsmith": {
 		"name": "Trapsmith",
-		"file": "archetypedisplaye642.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Trapsmith",
@@ -1945,7 +1870,6 @@
 	},
 	"underground_chemist": {
 		"name": "Underground Chemist",
-		"file": "archetypedisplayc057.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Underground Chemist",
@@ -1967,7 +1891,6 @@
 	},
 	"vexing_dodger": {
 		"name": "Vexing Dodger",
-		"file": "archetypedisplayaa11.html",
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
 			"## Vexing Dodger",
@@ -1991,7 +1914,6 @@
 	},
 	"waylayer": {
 		"name": "Waylayer",
-		"file": "archetypedisplay5247.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Waylayer",

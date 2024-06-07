@@ -2,7 +2,6 @@
 	"_prefix": "archetype-druid",
 	"aerie_protector": {
 		"name": "Aerie Protector",
-		"file": "archetypedisplay710a.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Aerie Protector",
@@ -42,7 +41,6 @@
 	},
 	"ancient_guardian": {
 		"name": "Ancient Guardian",
-		"file": "archetypedisplay235f.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Ancient Guardian",
@@ -68,7 +66,6 @@
 	},
 	"ape_shaman": {
 		"name": "Ape Shaman",
-		"file": "archetypedisplayd6fc.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Ape Shaman",
@@ -96,7 +93,6 @@
 	},
 	"aquatic_druid": {
 		"name": "Aquatic Druid",
-		"file": "archetypedisplay3139.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Aquatic Druid",
@@ -122,7 +118,6 @@
 	},
 	"arctic_druid": {
 		"name": "Arctic Druid",
-		"file": "archetypedisplay44cd.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Arctic Druid",
@@ -146,7 +141,6 @@
 	},
 	"ashvawg_tamer": {
 		"name": "Ashvawg Tamer",
-		"file": "archetypedisplaye56d.html",
 		"sources": [ "Pathfinder #5: Sins of the Saviors" ],
 		"description": [
 			"## Ashvawg Tamer",
@@ -190,7 +184,6 @@
 	},
 	"bat_shaman": {
 		"name": "Bat Shaman",
-		"file": "archetypedisplay1157.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Bat Shaman",
@@ -218,7 +211,6 @@
 	},
 	"bear_shaman": {
 		"name": "Bear Shaman",
-		"file": "archetypedisplay9190.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Bear Shaman",
@@ -242,7 +234,6 @@
 	},
 	"blight_druid": {
 		"name": "Blight Druid",
-		"file": "archetypedisplay331e.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Blight Druid",
@@ -264,7 +255,6 @@
 	},
 	"boar_shaman": {
 		"name": "Boar Shaman",
-		"file": "archetypedisplay3841.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Boar Shaman",
@@ -290,7 +280,6 @@
 	},
 	"cave_druid": {
 		"name": "Cave Druid",
-		"file": "archetypedisplay0356.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Cave Druid",
@@ -316,7 +305,6 @@
 	},
 	"death_druid": {
 		"name": "Death Druid",
-		"file": "archetypedisplayca2e.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Death Druid",
@@ -344,7 +332,6 @@
 	},
 	"defender_of_the_true_world": {
 		"name": "Defender of the True World",
-		"file": "archetypedisplay1161.html",
 		"sources": [ "Monster Hunter's Handbook" ],
 		"description": [
 			"## Defender of the True World",
@@ -386,7 +373,6 @@
 	},
 	"desert_druid": {
 		"name": "Desert Druid",
-		"file": "archetypedisplay5044.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Desert Druid",
@@ -410,7 +396,6 @@
 	},
 	"devolutionist": {
 		"name": "Devolutionist",
-		"file": "archetypedisplayab53.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Devolutionist",
@@ -436,7 +421,6 @@
 	},
 	"dinosaur_druid": {
 		"name": "Dinosaur Druid",
-		"file": "archetypedisplaybfe5.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Dinosaur Druid",
@@ -482,7 +466,6 @@
 	},
 	"draconic_druid": {
 		"name": "Draconic Druid",
-		"file": "archetypedisplay498d.html",
 		"sources": [ "Legacy of Dragons" ],
 		"description": [
 			"## Draconic Druid",
@@ -510,7 +493,6 @@
 	},
 	"dragon_shaman": {
 		"name": "Dragon Shaman",
-		"file": "archetypedisplay5def.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Dragon Shaman",
@@ -536,7 +518,6 @@
 	},
 	"drovier": {
 		"name": "Drovier",
-		"file": "archetypedisplay6ade.html",
 		"sources": [ "Magic Tactics Toolbox" ],
 		"description": [
 			"## Drovier",
@@ -558,7 +539,6 @@
 	},
 	"eagle_shaman": {
 		"name": "Eagle Shaman",
-		"file": "archetypedisplay14ca.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Eagle Shaman",
@@ -582,7 +562,6 @@
 	},
 	"elemental_ally": {
 		"name": "Elemental Ally",
-		"file": "archetypedisplay71ce.html",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
 			"## Elemental Ally",
@@ -614,7 +593,6 @@
 	},
 	"feral_child": {
 		"name": "Feral Child",
-		"file": "archetypedisplay51fe.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Feral Child",
@@ -650,7 +628,6 @@
 	},
 	"feral_shifter": {
 		"name": "Feral Shifter",
-		"file": "archetypedisplay5e49.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Feral Shifter",
@@ -666,7 +643,6 @@
 	},
 	"feyspeaker": {
 		"name": "Feyspeaker",
-		"file": "archetypedisplay43a3.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Feyspeaker",
@@ -692,7 +668,6 @@
 	},
 	"fungal_pilgrim": {
 		"name": "Fungal Pilgrim",
-		"file": "archetypedisplay784f.html",
 		"sources": [ "Heroes of the Darklands" ],
 		"description": [
 			"## Fungal Pilgrim",
@@ -724,7 +699,6 @@
 	},
 	"goliath_druid": {
 		"name": "Goliath Druid",
-		"file": "archetypedisplay59d7.html",
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
 			"## Goliath Druid",
@@ -786,7 +760,6 @@
 	},
 	"green_faith_initiate": {
 		"name": "Green Faith Initiate",
-		"file": "archetypedisplay9b5c.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Faiths and Philosophies"
@@ -821,7 +794,6 @@
 	},
 	"green_scourge": {
 		"name": "Green Scourge",
-		"file": "archetypedisplay7226.html",
 		"sources": [ "Monster Hunter's Handbook" ],
 		"description": [
 			"## Green Scourge",
@@ -851,7 +823,6 @@
 	},
 	"halcyon_druid": {
 		"name": "Halcyon Druid",
-		"file": "archetypedisplaye73a.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Halcyon Druid",
@@ -895,7 +866,6 @@
 	},
 	"jungle_druid": {
 		"name": "Jungle Druid",
-		"file": "archetypedisplay26fd.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Jungle Druid",
@@ -917,7 +887,6 @@
 	},
 	"kraken_caller": {
 		"name": "Kraken Caller",
-		"file": "archetypedisplayffae.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Kraken Caller",
@@ -949,7 +918,6 @@
 	},
 	"leshy_warden": {
 		"name": "Leshy Warden",
-		"file": "archetypedisplayce71.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Familiar Folio"
@@ -988,7 +956,6 @@
 	},
 	"life_channeler": {
 		"name": "Life Channeler",
-		"file": "archetypedisplay36df.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Life Channeler",
@@ -1020,7 +987,6 @@
 	},
 	"lion_shaman": {
 		"name": "Lion Shaman",
-		"file": "archetypedisplay309f.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Lion Shaman",
@@ -1044,7 +1010,6 @@
 	},
 	"mantella": {
 		"name": "Mantella",
-		"file": "archetypedisplaya7d7.html",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Mantella",
@@ -1064,7 +1029,6 @@
 	},
 	"menhir_savant": {
 		"name": "Menhir Savant",
-		"file": "archetypedisplaye912.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Menhir Savant",
@@ -1084,7 +1048,6 @@
 	},
 	"mooncaller": {
 		"name": "Mooncaller",
-		"file": "archetypedisplayad08.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Mooncaller",
@@ -1104,7 +1067,6 @@
 	},
 	"mountain_druid": {
 		"name": "Mountain Druid",
-		"file": "archetypedisplay082a.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Mountain Druid",
@@ -1128,7 +1090,6 @@
 	},
 	"naga_aspirant": {
 		"name": "Naga Aspirant",
-		"file": "archetypedisplayb6f0.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Naga Aspirant",
@@ -1176,7 +1137,6 @@
 	},
 	"nature_fang": {
 		"name": "Nature Fang",
-		"file": "archetypedisplay883c.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Nature Fang",
@@ -1200,7 +1160,6 @@
 	},
 	"nature_priest": {
 		"name": "Nature Priest",
-		"file": "archetypedisplay32e2.html",
 		"sources": [ "Healer's Handbook" ],
 		"description": [
 			"## Nature Priest",
@@ -1238,7 +1197,6 @@
 	},
 	"nithveil_adept": {
 		"name": "Nithveil Adept",
-		"file": "archetypedisplayb314.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Nithveil Adept",
@@ -1268,7 +1226,6 @@
 	},
 	"pack_lord": {
 		"name": "Pack Lord",
-		"file": "archetypedisplayddb3.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Pack Lord",
@@ -1286,7 +1243,6 @@
 	},
 	"plains_druid": {
 		"name": "Plains Druid",
-		"file": "archetypedisplayabd8.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Plains Druid",
@@ -1310,7 +1266,6 @@
 	},
 	"planar_extremist": {
 		"name": "Planar Extremist",
-		"file": "archetypedisplay4cc9.html",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Planar Extremist",
@@ -1354,7 +1309,6 @@
 	},
 	"progenitor": {
 		"name": "Progenitor",
-		"file": "archetypedisplay9409.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Progenitor",
@@ -1390,7 +1344,6 @@
 	},
 	"reincarnated_druid": {
 		"name": "Reincarnated Druid",
-		"file": "archetypedisplay3ab7.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Reincarnated Druid",
@@ -1414,7 +1367,6 @@
 	},
 	"restorer": {
 		"name": "Restorer",
-		"file": "archetypedisplay5eb1.html",
 		"sources": [ "Healer's Handbook" ],
 		"description": [
 			"## Restorer",
@@ -1442,7 +1394,6 @@
 	},
 	"river_druid": {
 		"name": "River Druid",
-		"file": "archetypedisplay8270.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"People of the River"
@@ -1481,7 +1432,6 @@
 	},
 	"road_keeper": {
 		"name": "Road Keeper",
-		"file": "archetypedisplaybf0a.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Road Keeper",
@@ -1515,7 +1465,6 @@
 	},
 	"rot_warden": {
 		"name": "Rot Warden",
-		"file": "archetypedisplaybc89.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Rot Warden",
@@ -1553,7 +1502,6 @@
 	},
 	"saurian_shaman": {
 		"name": "Saurian Shaman",
-		"file": "archetypedisplay37d2.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Saurian Shaman",
@@ -1577,7 +1525,6 @@
 	},
 	"season_keeper": {
 		"name": "Season Keeper",
-		"file": "archetypedisplayfd3e.html",
 		"sources": [ "People of the Stars" ],
 		"description": [
 			"## Season Keeper",
@@ -1601,7 +1548,6 @@
 	},
 	"season_sage": {
 		"name": "Season Sage",
-		"file": "archetypedisplayb49b.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Season Sage",
@@ -1639,7 +1585,6 @@
 	},
 	"serpent_shaman": {
 		"name": "Serpent Shaman",
-		"file": "archetypedisplaycddb.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Serpent Shaman",
@@ -1663,7 +1608,6 @@
 	},
 	"shark_shaman": {
 		"name": "Shark Shaman",
-		"file": "archetypedisplaya5a4.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Shark Shaman",
@@ -1687,7 +1631,6 @@
 	},
 	"skinshaper": {
 		"name": "Skinshaper",
-		"file": "archetypedisplay9c34.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Skinshaper",
@@ -1719,7 +1662,6 @@
 	},
 	"sky_druid": {
 		"name": "Sky Druid",
-		"file": "archetypedisplayc918.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Sky Druid",
@@ -1747,7 +1689,6 @@
 	},
 	"storm_druid": {
 		"name": "Storm Druid",
-		"file": "archetypedisplayf8ed.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Storm Druid",
@@ -1773,7 +1714,6 @@
 	},
 	"sunrider": {
 		"name": "Sunrider",
-		"file": "archetypedisplay878b.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Sunrider",
@@ -1813,7 +1753,6 @@
 	},
 	"supernaturalist": {
 		"name": "Supernaturalist",
-		"file": "archetypedisplaydd18.html",
 		"sources": [ "Occult Origins" ],
 		"description": [
 			"## Supernaturalist",
@@ -1851,7 +1790,6 @@
 	},
 	"survivor": {
 		"name": "Survivor",
-		"file": "archetypedisplay2d93.html",
 		"sources": [ "Champions of Balance" ],
 		"description": [
 			"## Survivor",
@@ -1877,7 +1815,6 @@
 	},
 	"swamp_druid": {
 		"name": "Swamp Druid",
-		"file": "archetypedisplayd2e9.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Swamp Druid",
@@ -1899,7 +1836,6 @@
 	},
 	"swarm_monger": {
 		"name": "Swarm Monger",
-		"file": "archetypedisplaya739.html",
 		"sources": [ "Blood of the Beast" ],
 		"description": [
 			"## Swarm Monger",
@@ -1937,7 +1873,6 @@
 	},
 	"tempest_druid": {
 		"name": "Tempest Druid",
-		"file": "archetypedisplay5f6d.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Inner Sea Magic"
@@ -1986,7 +1921,6 @@
 	},
 	"tempest_tamer": {
 		"name": "Tempest Tamer",
-		"file": "archetypedisplaya22d.html",
 		"sources": [ "Blood of the Sea" ],
 		"description": [
 			"## Tempest Tamer",
@@ -2014,7 +1948,6 @@
 	},
 	"toxicologist": {
 		"name": "Toxicologist",
-		"file": "archetypedisplayfb5f.html",
 		"sources": [ "Magic Tactics Toolbox" ],
 		"description": [
 			"## Toxicologist",
@@ -2042,7 +1975,6 @@
 	},
 	"treesinger": {
 		"name": "Treesinger",
-		"file": "archetypedisplayccd8-2.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Treesinger",
@@ -2100,7 +2032,6 @@
 	},
 	"troll_fury": {
 		"name": "Troll Fury",
-		"file": "archetypedisplay20d9.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Troll Fury",
@@ -2120,7 +2051,6 @@
 	},
 	"undine_adept": {
 		"name": "Undine Adept",
-		"file": "archetypedisplay1fd2.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Undine Adept",
@@ -2144,7 +2074,6 @@
 	},
 	"urban_druid": {
 		"name": "Urban Druid",
-		"file": "archetypedisplay6730.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Urban Druid",
@@ -2170,7 +2099,6 @@
 	},
 	"urushiol": {
 		"name": "Urushiol",
-		"file": "archetypedisplay5310.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Urushiol",
@@ -2202,7 +2130,6 @@
 	},
 	"wild_whisperer": {
 		"name": "Wild Whisperer",
-		"file": "archetypedisplay55da.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Wild Whisperer",
@@ -2224,7 +2151,6 @@
 	},
 	"wolf_shaman": {
 		"name": "Wolf Shaman",
-		"file": "archetypedisplayfe7b.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Wolf Shaman",
@@ -2248,7 +2174,6 @@
 	},
 	"world_walker": {
 		"name": "World Walker",
-		"file": "archetypedisplay7e71.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## World Walker",

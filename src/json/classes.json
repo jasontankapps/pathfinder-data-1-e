@@ -1,7 +1,6 @@
 {
 	"alchemist": {
 		"name": "alchemist",
-		"file": "alchemist.html",
 		"sources": [
 			"Advanced Player's Guide",
 			"Chronicle of Legends",
@@ -230,7 +229,6 @@
 	},
 	"antipaladin": {
 		"name": "antipaladin",
-		"file": "antipaladin.html",
 		"sources": [
 			"Advanced Player's Guide",
 			"Chronicle of Legends",
@@ -437,7 +435,6 @@
 	},
 	"arcanist": {
 		"name": "arcanist",
-		"file": "arcanist.html",
 		"sources": [
 			"Advanced Class Guide",
 			"Chronicle of Legends",
@@ -622,7 +619,6 @@
 	},
 	"barbarian": {
 		"name": "barbarian",
-		"file": "barbarian.html",
 		"sources": [
 			"Advanced Class Guide",
 			"Advanced Player's Guide",
@@ -826,7 +822,6 @@
 	},
 	"unchained_barbarian": {
 		"name": "unchained barbarian",
-		"file": "barbarian_unchained.html",
 		"sources": [
 			"Pathfinder Unchained",
 			"Chronicle of Legends",
@@ -966,7 +961,6 @@
 	},
 	"bard": {
 		"name": "bard",
-		"file": "bard.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Chronicle of Legends",
@@ -1244,7 +1238,6 @@
 	},
 	"bloodrager": {
 		"name": "bloodrager",
-		"file": "bloodrager.html",
 		"sources": [
 			"Advanced Class Guide",
 			"Chronicle of Legends",
@@ -1477,7 +1470,6 @@
 	},
 	"brawler": {
 		"name": "brawler",
-		"file": "brawler.html",
 		"sources": [
 			"Advanced Class Guide",
 			"Chronicle of Legends",
@@ -1663,7 +1655,6 @@
 	},
 	"cavalier": {
 		"name": "cavalier",
-		"file": "cavalier.html",
 		"sources": [
 			"Advanced Player's Guide",
 			"Chronicle of Legends",
@@ -1875,7 +1866,6 @@
 	},
 	"cleric": {
 		"name": "cleric",
-		"file": "cleric.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Chronicle of Legends",
@@ -2098,7 +2088,6 @@
 	},
 	"druid": {
 		"name": "druid",
-		"file": "druid.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Chronicle of Legends",
@@ -2377,7 +2366,6 @@
 	},
 	"fighter": {
 		"name": "fighter",
-		"file": "fighter.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Chronicle of Legends",
@@ -2572,7 +2560,6 @@
 	},
 	"gunslinger": {
 		"name": "gunslinger",
-		"file": "gunslinger.html",
 		"sources": [
 			"Ultimate Combat",
 			"Chronicle of Legends",
@@ -2747,7 +2734,6 @@
 	},
 	"hunter": {
 		"name": "hunter",
-		"file": "hunter.html",
 		"sources": [
 			"Advanced Class Guide",
 			"Chronicle of Legends",
@@ -2993,7 +2979,6 @@
 	},
 	"inquisitor": {
 		"name": "inquisitor",
-		"file": "inquisitor.html",
 		"sources": [
 			"Advanced Player's Guide",
 			"Chronicle of Legends",
@@ -3263,7 +3248,6 @@
 	},
 	"investigator": {
 		"name": "investigator",
-		"file": "investigator.html",
 		"sources": [
 			"Advanced Class Guide",
 			"Chronicle of Legends",
@@ -3456,7 +3440,6 @@
 	},
 	"kineticist": {
 		"name": "kineticist",
-		"file": "kineticist.html",
 		"sources": [
 			"Blood of Shadows",
 			"Blood of the Beast",
@@ -3679,7 +3662,6 @@
 	},
 	"magus": {
 		"name": "magus",
-		"file": "magus.html",
 		"sources": [
 			"Ultimate Magic",
 			"Chronicle of Legends",
@@ -3875,7 +3857,6 @@
 	},
 	"medium": {
 		"name": "medium",
-		"file": "medium.html",
 		"sources": [
 			"Occult Adventures",
 			"Chronicle of Legends",
@@ -4082,7 +4063,6 @@
 	},
 	"mesmerist": {
 		"name": "mesmerist",
-		"file": "mesmerist.html",
 		"sources": [
 			"Occult Adventures",
 			"Chronicle of Legends",
@@ -4310,7 +4290,6 @@
 	},
 	"monk": {
 		"name": "monk",
-		"file": "monk.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Chronicle of Legends",
@@ -4573,7 +4552,6 @@
 	},
 	"unchained_monk": {
 		"name": "unchained monk",
-		"file": "monk_unchained.html",
 		"sources": [
 			"Pathfinder Unchained",
 			"Chronicle of Legends",
@@ -4749,7 +4727,6 @@
 	},
 	"ninja": {
 		"name": "ninja",
-		"file": "ninja.html",
 		"sources": [
 			"Ultimate Combat",
 			"Chronicle of Legends",
@@ -4881,7 +4858,6 @@
 	},
 	"occultist": {
 		"name": "occultist",
-		"file": "occultist.html",
 		"sources": [
 			"Blood of the Beast",
 			"Chronicle of Legends",
@@ -5067,7 +5043,6 @@
 	},
 	"oracle": {
 		"name": "oracle",
-		"file": "oracle.html",
 		"sources": [
 			"Advanced Player's Guide",
 			"Advanced Race Guide",
@@ -5311,7 +5286,6 @@
 	},
 	"paladin": {
 		"name": "paladin",
-		"file": "paladin.html",
 		"sources": [
 			"Advanced Player's Guide",
 			"Advanced Race Guide",
@@ -5567,7 +5541,6 @@
 	},
 	"psychic": {
 		"name": "psychic",
-		"file": "psychic.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Blood of Shadows",
@@ -5766,7 +5739,6 @@
 	},
 	"ranger": {
 		"name": "ranger",
-		"file": "ranger.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Chronicle of Legends",
@@ -6068,7 +6040,6 @@
 	},
 	"rogue": {
 		"name": "rogue",
-		"file": "rogue.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Chronicle of Legends",
@@ -6297,7 +6268,6 @@
 	},
 	"unchained_rogue": {
 		"name": "unchained rogue",
-		"file": "rogue_unchained.html",
 		"sources": [
 			"Pathfinder Unchained",
 			"Chronicle of Legends",
@@ -6458,7 +6428,6 @@
 	},
 	"samurai": {
 		"name": "samurai",
-		"file": "cavalier.html",
 		"sources": [
 			"Advanced Player's Guide",
 			"Chronicle of Legends",
@@ -6663,7 +6632,6 @@
 	},
 	"shaman": {
 		"name": "shaman",
-		"file": "shaman.html",
 		"sources": [
 			"Advanced Class Guide",
 			"Adventurer's Guide",
@@ -6857,7 +6825,6 @@
 	},
 	"shifter": {
 		"name": "shifter",
-		"file": "shifter.html",
 		"sources": [
 			"Blood of the Beast",
 			"Chronicle of Legends",
@@ -7062,7 +7029,6 @@
 	},
 	"skald": {
 		"name": "skald",
-		"file": "skald.html",
 		"sources": [
 			"Advanced Class Guide",
 			"Advanced Player's Guide",
@@ -7343,7 +7309,6 @@
 	},
 	"slayer": {
 		"name": "slayer",
-		"file": "slayer.html",
 		"sources": [
 			"Advanced Class Guide",
 			"Chronicle of Legends",
@@ -7515,7 +7480,6 @@
 	},
 	"sorcerer": {
 		"name": "sorcerer",
-		"file": "sorcerer.html",
 		"sources": [
 			"Advanced Player's Guide",
 			"Advanced Race Guide",
@@ -7742,7 +7706,6 @@
 	},
 	"spiritualist": {
 		"name": "spiritualist",
-		"file": "spiritualist.html",
 		"sources": [
 			"Occult Adventures",
 			"Chronicle of Legends",
@@ -7970,7 +7933,6 @@
 	},
 	"summoner": {
 		"name": "summoner",
-		"file": "summoner.html",
 		"sources": [
 			"Advanced Player's Guide",
 			"Chronicle of Legends",
@@ -8190,7 +8152,6 @@
 	},
 	"unchained_summoner": {
 		"name": "unchained summoner",
-		"file": "summoner_unchained.html",
 		"sources": [
 			"Pathfinder Unchained",
 			"Chronicle of Legends",
@@ -8364,7 +8325,6 @@
 	},
 	"swashbuckler": {
 		"name": "swashbuckler",
-		"file": "swashbuckler.html",
 		"sources": [
 			"Advanced Class Guide",
 			"Chronicle of Legends",
@@ -8524,7 +8484,6 @@
 	},
 	"vigilante": {
 		"name": "vigilante",
-		"file": "vigilante.html",
 		"sources": [
 			"Ultimate Intrigue",
 			"Chronicle of Legends",
@@ -8696,7 +8655,6 @@
 	},
 	"warpriest": {
 		"name": "warpriest",
-		"file": "warpriest.html",
 		"sources": [
 			"Advanced Class Guide",
 			"Blood of Shadows",
@@ -8903,7 +8861,6 @@
 	},
 	"witch": {
 		"name": "witch",
-		"file": "witch.html",
 		"sources": [
 			"Advanced Player's Guide",
 			"Advanced Race Guide",
@@ -9133,7 +9090,6 @@
 	},
 	"wizard": {
 		"name": "wizard",
-		"file": "wizard.html",
 		"sources": [
 			"Advanced Player's Guide",
 			"Advanced Race Guide",

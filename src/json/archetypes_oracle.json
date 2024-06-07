@@ -2,7 +2,6 @@
 	"_prefix": "archetype-oracle",
 	"ancient_lorekeeper": {
 		"name": "Ancient Lorekeeper",
-		"file": "archetypedisplay5873.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Ancient Lorekeeper",
@@ -20,7 +19,6 @@
 	},
 	"black-blooded_oracle": {
 		"name": "Black-Blooded Oracle",
-		"file": "archetypedisplay1842.html",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"## Black-Blooded Oracle",
@@ -50,7 +48,6 @@
 	},
 	"community_guardian": {
 		"name": "Community Guardian",
-		"file": "archetypedisplay66de.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Community Guardian",
@@ -76,7 +73,6 @@
 	},
 	"cyclopean_seer": {
 		"name": "Cyclopean Seer",
-		"file": "archetypedisplay625c.html",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"## Cyclopean Seer",
@@ -110,7 +106,6 @@
 	},
 	"divine_numerologist": {
 		"name": "Divine Numerologist",
-		"file": "archetypedisplay9b4e.html",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
 			"## Divine Numerologist",
@@ -140,7 +135,6 @@
 	},
 	"dual-cursed_oracle": {
 		"name": "Dual-Cursed Oracle",
-		"file": "archetypedisplay7138.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Dual-Cursed Oracle",
@@ -166,7 +160,6 @@
 	},
 	"elementalist_oracle": {
 		"name": "Elementalist Oracle",
-		"file": "archetypedisplayd794.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"People of the Sands"
@@ -198,7 +191,6 @@
 	},
 	"enlightened_philosopher": {
 		"name": "Enlightened Philosopher",
-		"file": "archetypedisplay102e.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Enlightened Philosopher",
@@ -224,7 +216,6 @@
 	},
 	"hermit": {
 		"name": "Hermit",
-		"file": "archetypedisplayac21.html",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"## Hermit",
@@ -252,7 +243,6 @@
 	},
 	"inerrant_voice": {
 		"name": "Inerrant Voice",
-		"file": "archetypedisplay2625.html",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [
 			"## Inerrant Voice",
@@ -274,7 +264,6 @@
 	},
 	"keleshite_prophet": {
 		"name": "Keleshite Prophet",
-		"file": "archetypedisplay9f6e.html",
 		"sources": [],
 		"description": [
 			"## Keleshite Prophet",
@@ -310,7 +299,6 @@
 	},
 	"ocean's_echo": {
 		"name": "Ocean's Echo",
-		"file": "archetypedisplay30ab.html",
 		"sources": [ "Blood of the Sea" ],
 		"description": [
 			"## Ocean's Echo",
@@ -334,7 +322,6 @@
 	},
 	"pei_zin_practitioner": {
 		"name": "Pei Zin Practitioner",
-		"file": "archetypedisplayfbd5.html",
 		"sources": [ "Healer's Handbook" ],
 		"description": [
 			"## Pei Zin Practitioner",
@@ -370,7 +357,6 @@
 	},
 	"planar_oracle": {
 		"name": "Planar Oracle",
-		"file": "archetypedisplay9d10.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Planar Oracle",
@@ -392,7 +378,6 @@
 	},
 	"possessed_oracle": {
 		"name": "Possessed Oracle",
-		"file": "archetypedisplay3b23.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Possessed Oracle",
@@ -414,7 +399,6 @@
 	},
 	"psychic_searcher": {
 		"name": "Psychic Searcher",
-		"file": "archetypedisplaycbc1.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Psychic Searcher",
@@ -434,7 +418,6 @@
 	},
 	"purifier": {
 		"name": "Purifier",
-		"file": "archetypedisplay32d0.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Purifier",
@@ -468,7 +451,6 @@
 	},
 	"reincarnated_oracle": {
 		"name": "Reincarnated Oracle",
-		"file": "archetypedisplay17fd.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Reincarnated Oracle",
@@ -492,7 +474,6 @@
 	},
 	"river_soul": {
 		"name": "River Soul",
-		"file": "archetypedisplaycb57.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## River Soul",
@@ -524,7 +505,6 @@
 	},
 	"seeker": {
 		"name": "Seeker",
-		"file": "archetypedisplay3d0d.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
 			"## Seeker",
@@ -542,7 +522,6 @@
 	},
 	"seer": {
 		"name": "Seer",
-		"file": "archetypedisplay2bb9.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Seer",
@@ -564,7 +543,6 @@
 	},
 	"shigenjo": {
 		"name": "Shigenjo",
-		"file": "archetypedisplayf158.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Shigenjo",
@@ -600,7 +578,6 @@
 	},
 	"spirit_guide": {
 		"name": "Spirit Guide",
-		"file": "archetypedisplay4168.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Spirit Guide",
@@ -624,7 +601,6 @@
 	},
 	"stargazer": {
 		"name": "Stargazer",
-		"file": "archetypedisplay1eed.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Stargazer",
@@ -648,7 +624,6 @@
 	},
 	"tree_soul": {
 		"name": "Tree Soul",
-		"file": "archetypedisplay89a1.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Tree Soul",
@@ -686,7 +661,6 @@
 	},
 	"warsighted": {
 		"name": "Warsighted",
-		"file": "archetypedisplayb3ac.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Warsighted",

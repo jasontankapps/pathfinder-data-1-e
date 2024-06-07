@@ -2,7 +2,6 @@
 	"_prefix": "archetype-summoner",
 	"blood_god_disciple": {
 		"name": "Blood God Disciple",
-		"file": "archetypedisplaye8fe.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Blood God Disciple",
@@ -26,7 +25,6 @@
 	},
 	"blood_summoner": {
 		"name": "Blood Summoner",
-		"file": "archetypedisplayba24.html",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
 			"## Blood Summoner",
@@ -48,7 +46,6 @@
 	},
 	"broodmaster": {
 		"name": "Broodmaster",
-		"file": "archetypedisplaydae5.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Broodmaster",
@@ -92,7 +89,6 @@
 	},
 	"counter-summoner": {
 		"name": "Counter-Summoner",
-		"file": "archetypedisplay17a9-2.html",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
 			"## Counter-Summoner",
@@ -112,7 +108,6 @@
 	},
 	"evolutionist": {
 		"name": "Evolutionist",
-		"file": "archetypedisplaydb92.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Evolutionist",
@@ -130,7 +125,6 @@
 	},
 	"first_worlder": {
 		"name": "First Worlder",
-		"file": "archetypedisplay29d5.html",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"## First Worlder",
@@ -170,7 +164,6 @@
 	},
 	"god_caller": {
 		"name": "God Caller",
-		"file": "archetypedisplay985b.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## God Caller",
@@ -206,7 +199,6 @@
 	},
 	"leshy_caller": {
 		"name": "Leshy Caller",
-		"file": "archetypedisplay2e6c.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Leshy Caller",
@@ -242,7 +234,6 @@
 	},
 	"master_summoner": {
 		"name": "Master Summoner",
-		"file": "archetypedisplay5af8.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Master Summoner",
@@ -264,7 +255,6 @@
 	},
 	"morphic_savant": {
 		"name": "Morphic Savant",
-		"file": "archetypedisplay5b09.html",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
 			"## Morphic Savant",
@@ -290,7 +280,6 @@
 	},
 	"naturalist": {
 		"name": "Naturalist",
-		"file": "archetypedisplay180a.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Naturalist",
@@ -316,7 +305,6 @@
 	},
 	"pyroclast": {
 		"name": "Pyroclast",
-		"file": "archetypedisplayf1ca.html",
 		"sources": [ "Pathfinder #95: Anvil of Fire" ],
 		"description": [
 			"## Pyroclast",
@@ -336,7 +324,6 @@
 	},
 	"shadow_caller": {
 		"name": "Shadow Caller",
-		"file": "archetypedisplay9c42.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Shadow Caller",
@@ -376,7 +363,6 @@
 	},
 	"shaitan_binder": {
 		"name": "Shaitan Binder",
-		"file": "archetypedisplay09c6.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Shaitan Binder",
@@ -404,7 +390,6 @@
 	},
 	"spirit_summoner": {
 		"name": "Spirit Summoner",
-		"file": "archetypedisplay8ec0.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Spirit Summoner",
@@ -432,7 +417,6 @@
 	},
 	"storm_caller": {
 		"name": "Storm Caller",
-		"file": "archetypedisplay9bba.html",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
 			"## Storm Caller",
@@ -472,7 +456,6 @@
 	},
 	"story_summoner": {
 		"name": "Story Summoner",
-		"file": "archetypedisplay946b.html",
 		"sources": [ "The Harrow Handbook" ],
 		"description": [
 			"## Story Summoner",
@@ -490,7 +473,6 @@
 	},
 	"synthesist": {
 		"name": "Synthesist",
-		"file": "archetypedisplayf829.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Synthesist",
@@ -522,7 +504,6 @@
 	},
 	"twinned_summoner": {
 		"name": "Twinned Summoner",
-		"file": "archetypedisplay6ebd.html",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"## Twinned Summoner",
@@ -548,7 +529,6 @@
 	},
 	"unwavering_conduit": {
 		"name": "Unwavering Conduit",
-		"file": "archetypedisplay87bf.html",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
 			"## Unwavering Conduit",
@@ -574,7 +554,6 @@
 	},
 	"wild_caller_arg": {
 		"name": "Wild Caller (ARG)",
-		"file": "archetypedisplay7fe8.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Wild Caller (ARG)",
@@ -596,7 +575,6 @@
 	},
 	"wild_caller_hotw": {
 		"name": "Wild Caller (HotW)",
-		"file": "archetypedisplay7c6c.html",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
 			"## Wild Caller (HotW)",

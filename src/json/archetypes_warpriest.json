@@ -2,7 +2,6 @@
 	"_prefix": "archetype-warpriest",
 	"calamity_caller": {
 		"name": "Calamity Caller",
-		"file": "archetypedisplay4afb.html",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
 			"## Calamity Caller",
@@ -46,7 +45,6 @@
 	},
 	"champion_of_the_faith": {
 		"name": "Champion of the Faith",
-		"file": "archetypedisplay4d09.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Champion of the Faith",
@@ -74,7 +72,6 @@
 	},
 	"cult_leader": {
 		"name": "Cult Leader",
-		"file": "archetypedisplay5b99.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Cult Leader",
@@ -100,7 +97,6 @@
 	},
 	"disenchanter": {
 		"name": "Disenchanter",
-		"file": "archetypedisplayad7b.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Disenchanter",
@@ -118,7 +114,6 @@
 	},
 	"divine_champion": {
 		"name": "Divine Champion",
-		"file": "archetypedisplay72f9.html",
 		"sources": [ "Divine Anthology" ],
 		"description": [
 			"## Divine Champion",
@@ -146,7 +141,6 @@
 	},
 	"divine_commander": {
 		"name": "Divine Commander",
-		"file": "archetypedisplay4217.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Divine Commander",
@@ -174,7 +168,6 @@
 	},
 	"feral_champion": {
 		"name": "Feral Champion",
-		"file": "archetypedisplay8895.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Feral Champion",
@@ -198,7 +191,6 @@
 	},
 	"fist_of_the_godclaw": {
 		"name": "Fist of the Godclaw",
-		"file": "archetypedisplay4bc9.html",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
 			"## Fist of the Godclaw",
@@ -232,7 +224,6 @@
 	},
 	"forgepriest": {
 		"name": "Forgepriest",
-		"file": "archetypedisplay502c.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Forgepriest",
@@ -258,7 +249,6 @@
 	},
 	"jistkan_magistrate": {
 		"name": "Jistkan Magistrate",
-		"file": "archetypedisplay771d.html",
 		"sources": [],
 		"description": [
 			"## Jistkan Magistrate",
@@ -299,7 +289,6 @@
 	},
 	"liberty's_blade": {
 		"name": "Liberty's Blade",
-		"file": "archetypedisplay85b4.html",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
 			"## Liberty's Blade",
@@ -319,7 +308,6 @@
 	},
 	"mantis_zealot": {
 		"name": "Mantis Zealot",
-		"file": "archetypedisplay24fc.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Advanced Class Origins"
@@ -352,7 +340,6 @@
 	},
 	"molthuni_arsenal_chaplain": {
 		"name": "Molthuni Arsenal Chaplain",
-		"file": "archetypedisplay2980.html",
 		"sources": [ "Weapon Master's Handbook" ],
 		"description": [
 			"## Molthuni Arsenal Chaplain",
@@ -380,7 +367,6 @@
 	},
 	"proclaimer": {
 		"name": "Proclaimer",
-		"file": "archetypedisplay1b7a.html",
 		"sources": [ "People of the Wastes" ],
 		"description": [
 			"## Proclaimer",
@@ -404,7 +390,6 @@
 	},
 	"proselytizer": {
 		"name": "Proselytizer",
-		"file": "archetypedisplay5b55.html",
 		"sources": [],
 		"description": [
 			"## Proselytizer",
@@ -467,7 +452,6 @@
 	},
 	"sacred_fist": {
 		"name": "Sacred Fist",
-		"file": "archetypedisplayd8de.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Sacred Fist",
@@ -499,7 +483,6 @@
 	},
 	"shieldbearer": {
 		"name": "Shieldbearer",
-		"file": "archetypedisplayb718.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Shieldbearer",
@@ -523,7 +506,6 @@
 	},
 	"sixth_wing_bulwark": {
 		"name": "Sixth Wing Bulwark",
-		"file": "archetypedisplayd7ca.html",
 		"sources": [ "Distant Realms" ],
 		"description": [
 			"## Sixth Wing Bulwark",

@@ -2,7 +2,6 @@
 	"_prefix": "class_abilities-discipline",
 	"abomination": {
 		"name": "Abomination",
-		"file": "psychicdisciplinesdisplay1020.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Abomination",
@@ -31,7 +30,6 @@
 	},
 	"bleaching": {
 		"name": "Bleaching",
-		"file": "psychicdisciplinesdisplay5b1d.html",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
 			"## Bleaching",
@@ -54,7 +52,6 @@
 	},
 	"dream": {
 		"name": "Dream",
-		"file": "psychicdisciplinesdisplayf711.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Dream",
@@ -79,7 +76,6 @@
 	},
 	"enlightenment": {
 		"name": "Enlightenment",
-		"file": "psychicdisciplinesdisplay484c.html",
 		"sources": [ "Occult Origins" ],
 		"description": [
 			"## Enlightenment",
@@ -104,7 +100,6 @@
 	},
 	"faith": {
 		"name": "Faith",
-		"file": "psychicdisciplinesdisplay1565.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Faith",
@@ -129,7 +124,6 @@
 	},
 	"ferocity": {
 		"name": "Ferocity",
-		"file": "psychicdisciplinesdisplayde9c.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Ferocity",
@@ -154,8 +148,6 @@
 	},
 	"hag-called": {
 		"name": "Hag-Called",
-		"searchable_name": "Hag Called",
-		"file": "psychicdisciplinesdisplayef6c.html",
 		"sources": [ "Blood of the Coven" ],
 		"description": [
 			"## Hag-Called",
@@ -180,7 +172,6 @@
 	},
 	"haunted": {
 		"name": "Haunted",
-		"file": "psychicdisciplinesdisplayef7f.html",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
 			"## Haunted",
@@ -203,7 +194,6 @@
 	},
 	"lore": {
 		"name": "Lore",
-		"file": "psychicdisciplinesdisplayd63b.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Lore",
@@ -232,7 +222,6 @@
 	},
 	"mindtech": {
 		"name": "Mindtech",
-		"file": "psychicdisciplinesdisplay8744.html",
 		"sources": [ "Occult Realms" ],
 		"description": [
 			"## Mindtech",
@@ -255,7 +244,6 @@
 	},
 	"pageantry": {
 		"name": "Pageantry",
-		"file": "psychicdisciplinesdisplay8c69.html",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [
 			"## Pageantry",
@@ -280,7 +268,6 @@
 	},
 	"pain": {
 		"name": "Pain",
-		"file": "psychicdisciplinesdisplayd29b.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Pain",
@@ -305,7 +292,6 @@
 	},
 	"psychedelia": {
 		"name": "Psychedelia",
-		"file": "psychicdisciplinesdisplay1899.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Psychedelia",
@@ -330,7 +316,6 @@
 	},
 	"rapport": {
 		"name": "Rapport",
-		"file": "psychicdisciplinesdisplay7ad7.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Rapport",
@@ -357,7 +342,6 @@
 	},
 	"rebirth": {
 		"name": "Rebirth",
-		"file": "psychicdisciplinesdisplay24f5.html",
 		"sources": [ "Occult Origins" ],
 		"description": [
 			"## Rebirth",
@@ -382,7 +366,6 @@
 	},
 	"rivethun": {
 		"name": "Rivethun",
-		"file": "psychicdisciplinesdisplaybf00.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Rivethun",
@@ -407,8 +390,6 @@
 	},
 	"self-perfection": {
 		"name": "Self-Perfection",
-		"searchable_name": "Self Perfection",
-		"file": "psychicdisciplinesdisplay50c0.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Self-Perfection",
@@ -433,7 +414,6 @@
 	},
 	"shadow": {
 		"name": "Shadow",
-		"file": "psychicdisciplinesdisplay372c.html",
 		"sources": [ "Blood of Shadows" ],
 		"description": [
 			"## Shadow",
@@ -456,7 +436,6 @@
 	},
 	"sorrow": {
 		"name": "Sorrow",
-		"file": "psychicdisciplinesdisplay973d.html",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"## Sorrow",
@@ -481,7 +460,6 @@
 	},
 	"superiority": {
 		"name": "Superiority",
-		"file": "psychicdisciplinesdisplayf6c1.html",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
 			"## Superiority",
@@ -504,7 +482,6 @@
 	},
 	"symbiosis": {
 		"name": "Symbiosis",
-		"file": "psychicdisciplinesdisplay4510.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Symbiosis",
@@ -529,7 +506,6 @@
 	},
 	"tranquility": {
 		"name": "Tranquility",
-		"file": "psychicdisciplinesdisplayc34e.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Tranquility",
@@ -552,7 +528,6 @@
 	},
 	"warp": {
 		"name": "Warp",
-		"file": "psychicdisciplinesdisplayec1c.html",
 		"sources": [ "Blood of the Beast" ],
 		"description": [
 			"## Warp",

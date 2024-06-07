@@ -2,7 +2,6 @@
 	"_prefix": "magic-tattoo",
 	"spell_tattoo": {
 		"name": "Spell Tattoo",
-		"file": "magictattoodisplay0aaf.html",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"## Spell Tattoo",
@@ -21,7 +20,6 @@
 	},
 	"hypnotic_tattoo": {
 		"name": "Hypnotic Tattoo",
-		"file": "magictattoodisplaye0f7.html",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Hypnotic Tattoo",
@@ -42,7 +40,6 @@
 	},
 	"runeward_tattoo": {
 		"name": "Runeward Tattoo",
-		"file": "magictattoodisplaya6f9.html",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Runeward Tattoo",
@@ -61,7 +58,6 @@
 	},
 	"radiant_tattoo": {
 		"name": "Radiant Tattoo",
-		"file": "magictattoodisplayf595.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Radiant Tattoo",
@@ -80,7 +76,6 @@
 	},
 	"kin's_face_tattoo": {
 		"name": "Kin's Face Tattoo",
-		"file": "magictattoodisplay0f84.html",
 		"sources": [
 			"Pathfinder #91: Battle of Bloodmarch Hills",
 			"Bastards of Golarion"
@@ -104,7 +99,6 @@
 	},
 	"serpentine_tattoo": {
 		"name": "Serpentine Tattoo",
-		"file": "magictattoodisplay4878.html",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Serpentine Tattoo",
@@ -123,7 +117,6 @@
 	},
 	"caster's_tattoo_lesser": {
 		"name": "Caster's Tattoo (Lesser)",
-		"file": "magictattoodisplay1fdc.html",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"## Caster's Tattoo",
@@ -147,7 +140,6 @@
 	},
 	"watchtower_tattoo": {
 		"name": "Watchtower Tattoo",
-		"file": "magictattoodisplayf6a6.html",
 		"sources": [ "Feast of Dust" ],
 		"description": [
 			"## Watchtower Tattoo",
@@ -168,7 +160,6 @@
 	},
 	"reservoir_tattoo": {
 		"name": "Reservoir Tattoo",
-		"file": "magictattoodisplay5a26.html",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"## Reservoir Tattoo",
@@ -187,7 +178,6 @@
 	},
 	"weapon_tattoo": {
 		"name": "Weapon Tattoo",
-		"file": "magictattoodisplay96eb.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Weapon Tattoo",
@@ -206,7 +196,6 @@
 	},
 	"mesmerizing_tattoo": {
 		"name": "Mesmerizing Tattoo",
-		"file": "magictattoodisplaycbc5.html",
 		"sources": [ "Blood of Shadows" ],
 		"description": [
 			"## Mesmerizing Tattoo",
@@ -227,7 +216,6 @@
 	},
 	"animal_totem_tattoo": {
 		"name": "Animal Totem Tattoo",
-		"file": "magictattoodisplay8b58.html",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Animal Totem Tattoo",
@@ -246,7 +234,6 @@
 	},
 	"swirling_smoke_tattoo": {
 		"name": "Swirling Smoke Tattoo",
-		"file": "magictattoodisplay354f.html",
 		"sources": [ "Blood of Shadows" ],
 		"description": [
 			"## Swirling Smoke Tattoo",
@@ -265,7 +252,6 @@
 	},
 	"viper_tattoo": {
 		"name": "Viper Tattoo",
-		"file": "magictattoodisplay3480.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Viper Tattoo",
@@ -290,7 +276,6 @@
 	},
 	"caster's_tattoo_normal": {
 		"name": "Caster's Tattoo (Normal)",
-		"file": "magictattoodisplay0214.html",
 		"sources": [ "Inner Sea Magic" ],
 		"copyof": "caster's_tattoo_lesser",
 		"display": "magic/tattoo"
@@ -300,7 +285,6 @@
 	},
 	"penumbra_tattoo": {
 		"name": "Penumbra Tattoo",
-		"file": "magictattoodisplay3eb7.html",
 		"sources": [ "Blood of Shadows" ],
 		"description": [
 			"## Penumbra Tattoo",
@@ -319,7 +303,6 @@
 	},
 	"caster's_tattoo_greater": {
 		"name": "Caster's Tattoo (Greater)",
-		"file": "magictattoodisplay0908.html",
 		"sources": [ "Inner Sea Magic" ],
 		"copyof": "caster's_tattoo_lesser",
 		"display": "magic/tattoo"

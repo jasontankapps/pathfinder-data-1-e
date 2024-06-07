@@ -2,7 +2,6 @@
 	"_prefix": "equipment-spellbook",
 	"apprentice_chapbook_of_rul_thaven": {
 		"name": "Apprentice Chapbook of Rul Thaven",
-		"file": "spellbookdisplay3152.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Apprentice Chapbook of Rul Thaven",
@@ -24,7 +23,6 @@
 	},
 	"arctic_call": {
 		"name": "Arctic Call",
-		"file": "spellbookdisplay6da1.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Arctic Call",
@@ -57,7 +55,6 @@
 	},
 	"arrowsong's_sorrow": {
 		"name": "Arrowsong's Sorrow",
-		"file": "spellbookdisplay6a15.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## Arrowsong's Sorrow",
@@ -82,7 +79,6 @@
 	},
 	"book_of_harms": {
 		"name": "Book of Harms",
-		"file": "spellbookdisplayb4cd.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Book of Harms",
@@ -111,7 +107,6 @@
 	},
 	"book_of_the_grave": {
 		"name": "Book of the Grave",
-		"file": "spellbookdisplay43e0.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Book of the Grave",
@@ -140,7 +135,6 @@
 	},
 	"calamaes_fragment": {
 		"name": "Calamaes Fragment",
-		"file": "spellbookdisplay2539.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## Calamaes Fragment",
@@ -162,7 +156,6 @@
 	},
 	"chymist's_guidebook": {
 		"name": "Chymist's Guidebook",
-		"file": "spellbookdisplayc4e9.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Chymist's Guidebook",
@@ -186,7 +179,6 @@
 	},
 	"cold_irony": {
 		"name": "Cold Irony",
-		"file": "spellbookdisplay6dab.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## Cold Irony",
@@ -213,7 +205,6 @@
 	},
 	"cyrusian_codex": {
 		"name": "Cyrusian Codex",
-		"file": "spellbookdisplay108b.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## Cyrusian Codex",
@@ -242,7 +233,6 @@
 	},
 	"defensive_primer": {
 		"name": "Defensive Primer",
-		"file": "spellbookdisplay4fe2.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Defensive Primer",
@@ -265,7 +255,6 @@
 	},
 	"erages_journeyman's_manual": {
 		"name": "Erages Journeyman's Manual",
-		"file": "spellbookdisplayfffa.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## Erages Journeyman's Manual",
@@ -290,7 +279,6 @@
 	},
 	"galtan_cookbook": {
 		"name": "Galtan Cookbook",
-		"file": "spellbookdisplay39e0.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## Galtan Cookbook",
@@ -315,7 +303,6 @@
 	},
 	"grandfather's_legacy": {
 		"name": "Grandfather's Legacy",
-		"file": "spellbookdisplay24c5.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Grandfather's Legacy",
@@ -344,7 +331,6 @@
 	},
 	"grimoire_of_glittering_eyes": {
 		"name": "Grimoire of Glittering Eyes",
-		"file": "spellbookdisplayfd13.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Grimoire of Glittering Eyes",
@@ -375,7 +361,6 @@
 	},
 	"guardian_grimoire": {
 		"name": "Guardian Grimoire",
-		"file": "spellbookdisplaye7c9.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Guardian Grimoire",
@@ -409,7 +394,6 @@
 	},
 	"insights_of_far-seeing_taernis": {
 		"name": "Insights of Far-Seeing Taernis",
-		"file": "spellbookdisplay6182.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Insights of Far-Seeing Taernis",
@@ -442,7 +426,6 @@
 	},
 	"journal_of_the_beast_within": {
 		"name": "Journal of the Beast Within",
-		"file": "spellbookdisplayc34b.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Journal of the Beast Within",
@@ -468,7 +451,6 @@
 	},
 	"journeyman_book_of_rul_thaven": {
 		"name": "Journeyman Book of Rul Thaven",
-		"file": "spellbookdisplay84c7.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Journeyman Book of Rul Thaven",
@@ -500,7 +482,6 @@
 	},
 	"lab_journal_of_constance_inflix": {
 		"name": "Lab Journal of Constance Inflix",
-		"file": "spellbookdisplay0f2d.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Lab Journal of Constance Inflix",
@@ -524,7 +505,6 @@
 	},
 	"library_of_the_dancer_of_skins": {
 		"name": "Library of the Dancer of Skins",
-		"file": "spellbookdisplay4644.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Library of the Dancer of Skins",
@@ -555,7 +535,6 @@
 	},
 	"manual_of_binding": {
 		"name": "Manual of Binding",
-		"file": "spellbookdisplay124d.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Manual of Binding",
@@ -591,7 +570,6 @@
 	},
 	"manuscript_of_jack_were-son": {
 		"name": "Manuscript of Jack Were-son",
-		"file": "spellbookdisplay7208.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Manuscript of Jack Were-son",
@@ -615,7 +593,6 @@
 	},
 	"master_books_of_rul_thaven": {
 		"name": "Master Books of Rul Thaven",
-		"file": "spellbookdisplayb284.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Master Books of Rul Thaven",
@@ -651,7 +628,6 @@
 	},
 	"mastery_of_word_and_thought": {
 		"name": "Mastery of Word and Thought",
-		"file": "spellbookdisplayad2b.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Mastery of Word and Thought",
@@ -687,7 +663,6 @@
 	},
 	"mysteries_of_shadow": {
 		"name": "Mysteries of Shadow",
-		"file": "spellbookdisplay1782.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Mysteries of Shadow",
@@ -722,7 +697,6 @@
 	},
 	"nyzam's_remedies": {
 		"name": "Nyzam's Remedies",
-		"file": "spellbookdisplay12b0.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## Nyzam's Remedies",
@@ -745,7 +719,6 @@
 	},
 	"quest_eternal": {
 		"name": "Quest Eternal",
-		"file": "spellbookdisplay9e10.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Quest Eternal",
@@ -778,7 +751,6 @@
 	},
 	"runes_of_wealth": {
 		"name": "Runes of Wealth",
-		"file": "spellbookdisplay1e01.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## Runes of Wealth",
@@ -810,7 +782,6 @@
 	},
 	"sarini's_workbook": {
 		"name": "Sarini's Workbook",
-		"file": "spellbookdisplayc6ee.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## Sarini's Workbook",
@@ -838,7 +809,6 @@
 	},
 	"songs_of_the_linnorm_kings": {
 		"name": "Songs of the Linnorm Kings",
-		"file": "spellbookdisplaye55f.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## Songs of the Linnorm Kings",
@@ -863,7 +833,6 @@
 	},
 	"the_formulae_of_master_gebr": {
 		"name": "The Formulae of Master Gebr",
-		"file": "spellbookdisplay5d9c.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## The Formulae of Master Gebr",
@@ -892,7 +861,6 @@
 	},
 	"the_guide's_analects": {
 		"name": "The Guide's Analects",
-		"file": "spellbookdisplay21db.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## The Guide's Analects",
@@ -917,7 +885,6 @@
 	},
 	"the_last_azlanti's_analects": {
 		"name": "The Last Azlanti's Analects",
-		"file": "spellbookdisplayfde6.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## The Last Azlanti's Analects",
@@ -948,7 +915,6 @@
 	},
 	"the_prying_eye": {
 		"name": "The Prying Eye",
-		"file": "spellbookdisplayb310.html",
 		"sources": [ "Divine Anthology" ],
 		"description": [
 			"## The Prying Eye",
@@ -974,7 +940,6 @@
 	},
 	"the_swordsman's_analects": {
 		"name": "The Swordsman's Analects",
-		"file": "spellbookdisplay09b8.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## The Swordsman's Analects",
@@ -998,7 +963,6 @@
 	},
 	"tome_of_stone_wards": {
 		"name": "Tome of Stone Wards",
-		"file": "spellbookdisplay7608.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## Tome of Stone Wards",
@@ -1029,7 +993,6 @@
 	},
 	"tome_of_the_transmuter": {
 		"name": "Tome of the Transmuter",
-		"file": "spellbookdisplay51f3.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Tome of the Transmuter",
@@ -1060,7 +1023,6 @@
 	},
 	"traveler's_tome": {
 		"name": "Traveler's Tome",
-		"file": "spellbookdisplay31ff.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Traveler's Tome",
@@ -1084,7 +1046,6 @@
 	},
 	"unnamed_journal": {
 		"name": "Unnamed Journal",
-		"file": "spellbookdisplay57a2.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Unnamed Journal",
@@ -1104,7 +1065,6 @@
 	},
 	"wisdom_of_jatembe_nine_warriors_edition": {
 		"name": "Wisdom of Jatembe (Nine Warriors Edition)",
-		"file": "spellbookdisplayd534.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## Wisdom of Jatembe (Nine Warriors Edition)",
@@ -1135,7 +1095,6 @@
 	},
 	"wisdom_of_jatembe_six_warriors_edition": {
 		"name": "Wisdom of Jatembe (Six Warriors Edition)",
-		"file": "spellbookdisplay64db.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## Wisdom of Jatembe (Six Warriors Edition)",
@@ -1163,7 +1122,6 @@
 	},
 	"wisdom_of_jatembe_three_warriors_edition": {
 		"name": "Wisdom of Jatembe (Three Warriors Edition)",
-		"file": "spellbookdisplay585d.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## Wisdom of Jatembe (Three Warriors Edition)",

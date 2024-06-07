@@ -2,7 +2,6 @@
 	"_prefix": "archetype-swashbuckler",
 	"arrow_champion": {
 		"name": "Arrow Champion",
-		"file": "archetypedisplayb81a.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Arrow Champion",
@@ -44,7 +43,6 @@
 	},
 	"azatariel": {
 		"name": "Azatariel",
-		"file": "archetypedisplayc536.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Azatariel",
@@ -88,7 +86,6 @@
 	},
 	"courser": {
 		"name": "Courser",
-		"file": "archetypedisplay0014.html",
 		"sources": [ "Blood of the Beast" ],
 		"description": [
 			"## Courser",
@@ -124,7 +121,6 @@
 	},
 	"daring_infiltrator": {
 		"name": "Daring Infiltrator",
-		"file": "archetypedisplaybefb.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Daring Infiltrator",
@@ -150,7 +146,6 @@
 	},
 	"dashing_thief": {
 		"name": "Dashing Thief",
-		"file": "archetypedisplay4e3c.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Dashing Thief",
@@ -182,7 +177,6 @@
 	},
 	"flying_blade": {
 		"name": "Flying Blade",
-		"file": "archetypedisplay18e2.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Flying Blade",
@@ -216,7 +210,6 @@
 	},
 	"guiding_blade": {
 		"name": "Guiding Blade",
-		"file": "archetypedisplayac4a.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Guiding Blade",
@@ -252,7 +245,6 @@
 	},
 	"inspired_blade": {
 		"name": "Inspired Blade",
-		"file": "archetypedisplay9c30.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Inspired Blade",
@@ -278,7 +270,6 @@
 	},
 	"mouser": {
 		"name": "Mouser",
-		"file": "archetypedisplaya491.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Mouser",
@@ -302,7 +293,6 @@
 	},
 	"musketeer": {
 		"name": "Musketeer",
-		"file": "archetypedisplay63a9.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Musketeer",
@@ -322,7 +312,6 @@
 	},
 	"mysterious_avenger": {
 		"name": "Mysterious Avenger",
-		"file": "archetypedisplay61bc.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Mysterious Avenger",
@@ -352,7 +341,6 @@
 	},
 	"noble_fencer": {
 		"name": "Noble Fencer",
-		"file": "archetypedisplay5a91.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Noble Fencer",
@@ -384,7 +372,6 @@
 	},
 	"okayo_corsair": {
 		"name": "Okayo Corsair",
-		"file": "archetypedisplay2cf9.html",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
 			"## Okayo Corsair",
@@ -430,7 +417,6 @@
 	},
 	"picaroon": {
 		"name": "Picaroon",
-		"file": "archetypedisplaye7e4.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Picaroon",
@@ -456,7 +442,6 @@
 	},
 	"rondelero_swashbuckler": {
 		"name": "Rondelero Swashbuckler",
-		"file": "archetypedisplay4514.html",
 		"sources": [ "Weapon Master's Handbook" ],
 		"description": [
 			"## Rondelero Swashbuckler",
@@ -484,7 +469,6 @@
 	},
 	"rostland_bravo": {
 		"name": "Rostland Bravo",
-		"file": "archetypedisplay4613.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Rostland Bravo",
@@ -516,7 +500,6 @@
 	},
 	"shackles_corsair": {
 		"name": "Shackles Corsair",
-		"file": "archetypedisplay2f7b.html",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
 			"## Shackles Corsair",
@@ -538,7 +521,6 @@
 	},
 	"veiled_blade": {
 		"name": "Veiled Blade",
-		"file": "archetypedisplay24dc.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Veiled Blade",
@@ -570,7 +552,6 @@
 	},
 	"whirling_dervish": {
 		"name": "Whirling Dervish",
-		"file": "archetypedisplayabb7.html",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
 			"## Whirling Dervish",
@@ -596,7 +577,6 @@
 	},
 	"wildstrider": {
 		"name": "Wildstrider",
-		"file": "archetypedisplaya1cc.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Wildstrider",

@@ -2,7 +2,6 @@
 	"_prefix": "monster-template",
 	"accursed": {
 		"name": "Accursed",
-		"file": "monstertemplates50a6.html",
 		"sources": [ "Horror Adventures" ],
 		"cr_1": true,
 		"acquired": true,
@@ -26,7 +25,6 @@
 	},
 	"advanced": {
 		"name": "Advanced",
-		"file": "monstertemplates3b26.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"cr_1": true,
 		"acquired": true,
@@ -50,7 +48,6 @@
 	},
 	"aerial": {
 		"name": "Aerial",
-		"file": "monstertemplatesc3f5.html",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"cr_0": true,
 		"cr_1": true,
@@ -79,7 +76,6 @@
 	},
 	"aggregate": {
 		"name": "Aggregate",
-		"file": null,
 		"sources": [ "Technology Guide" ],
 		"cr_1": true,
 		"acquired": true,
@@ -122,7 +118,6 @@
 	},
 	"alchemically_invisible": {
 		"name": "Alchemically Invisible",
-		"file": "monstertemplatesa8d1.html",
 		"sources": [ "Rival Guide" ],
 		"cr_2": true,
 		"acquired": true,
@@ -144,7 +139,6 @@
 	},
 	"alebrije": {
 		"name": "Alebrije",
-		"file": "monstertemplatesb16c.html",
 		"sources": [ "Pathfinder #144: Midwives to Death" ],
 		"cr_2": true,
 		"acquired": true,
@@ -194,7 +188,6 @@
 	},
 	"alter_ego": {
 		"name": "Alter Ego",
-		"file": "monstertemplatesf714.html",
 		"sources": [ "Bestiary 6" ],
 		"cr_0": true,
 		"acquired": true,
@@ -258,7 +251,6 @@
 	},
 	"animal_lord": {
 		"name": "Animal Lord",
-		"file": "monstertemplatesaa9e.html",
 		"sources": [ "Bestiary 3" ],
 		"cr_2": true,
 		"inherited": true,
@@ -330,7 +322,6 @@
 	},
 	"animus_shade": {
 		"name": "Animus Shade",
-		"file": "monstertemplatesd69c.html",
 		"sources": [ "Bestiary 6" ],
 		"cr_2": true,
 		"acquired": true,
@@ -394,7 +385,6 @@
 	},
 	"apostle_kyton": {
 		"name": "Apostle Kyton",
-		"file": "monstertemplates07da.html",
 		"sources": [ "Horror Adventures" ],
 		"cr_2": true,
 		"acquired": true,
@@ -456,7 +446,6 @@
 	},
 	"aqueous": {
 		"name": "Aqueous",
-		"file": "monstertemplates3fcd.html",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"cr_0": true,
 		"cr_1": true,
@@ -485,7 +474,6 @@
 	},
 	"barbarian": {
 		"name": "Barbarian",
-		"file": "monstertemplatese2cd.html",
 		"sources": [ "Monster Codex" ],
 		"cr_2": true,
 		"cr_3": true,
@@ -510,7 +498,6 @@
 	},
 	"bard": {
 		"name": "Bard",
-		"file": "monstertemplatesaec9.html",
 		"sources": [ "Monster Codex" ],
 		"cr_1": true,
 		"cr_2": true,
@@ -545,7 +532,6 @@
 	},
 	"blighted_fey": {
 		"name": "Blighted Fey",
-		"file": "monstertemplates83d2.html",
 		"sources": [ "Bestiary 6" ],
 		"cr_2": true,
 		"acquired": true,
@@ -609,7 +595,6 @@
 	},
 	"boreal_creature": {
 		"name": "Boreal Creature",
-		"file": "monstertemplatesd967.html",
 		"sources": [ "Pathfinder #67: The Snows of Summer" ],
 		"cr_1": true,
 		"inherited": true,
@@ -642,7 +627,6 @@
 	},
 	"broken_soul": {
 		"name": "Broken Soul",
-		"file": "monstertemplatesc861.html",
 		"sources": [ "Bestiary 4" ],
 		"cr_2": true,
 		"acquired": true,
@@ -682,7 +666,6 @@
 	},
 	"calcified": {
 		"name": "Calcified",
-		"file": "monstertemplatesfb61.html",
 		"sources": [ "Plunder and Peril" ],
 		"cr_1": true,
 		"acquired": true,
@@ -704,7 +687,6 @@
 	},
 	"celestial": {
 		"name": "Celestial",
-		"file": "monstertemplates9813.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"cr_0": true,
 		"cr_1": true,
@@ -735,8 +717,6 @@
 	},
 	"child_of_yog-sothoth": {
 		"name": "Child of Yog-Sothoth",
-		"searchable_name": "Child of Yog Sothoth",
-		"file": "monstertemplatesc581.html",
 		"sources": [ "Pathfinder #113: What Grows Within" ],
 		"cr_1": true,
 		"inherited": true,
@@ -801,7 +781,6 @@
 	},
 	"chthonic": {
 		"name": "Chthonic",
-		"file": "monstertemplatesb116.html",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"cr_0": true,
 		"cr_1": true,
@@ -830,7 +809,6 @@
 	},
 	"cleric": {
 		"name": "Cleric",
-		"file": "monstertemplates1daf.html",
 		"sources": [ "Monster Codex" ],
 		"cr_1": true,
 		"cr_2": true,
@@ -868,8 +846,6 @@
 	},
 	"colour-blighted": {
 		"name": "Colour-Blighted",
-		"searchable_name": "Colour Blighted",
-		"file": "monstertemplates0e6c.html",
 		"sources": [
 			"Pathfinder #46: Wake of the Watcher",
 			"Bestiary 4"
@@ -898,7 +874,6 @@
 	},
 	"commando_construct": {
 		"name": "Commando Construct",
-		"file": "monstertemplatese4f2.html",
 		"sources": [ "Construct Handbook" ],
 		"cr_1": true,
 		"cr_2": true,
@@ -965,7 +940,6 @@
 	},
 	"counterpoised": {
 		"name": "Counterpoised",
-		"file": "monstertemplatesf2e2.html",
 		"sources": [ "Champions of Balance" ],
 		"cr_0": true,
 		"cr_1": true,
@@ -994,7 +968,6 @@
 	},
 	"cytillesh_zombie": {
 		"name": "Cytillesh Zombie",
-		"file": "monstertemplatesdef5.html",
 		"sources": [ "No Response from Deepmar" ],
 		"cr_1": true,
 		"acquired": true,
@@ -1014,7 +987,6 @@
 	},
 	"dark": {
 		"name": "Dark",
-		"file": "monstertemplates834b.html",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"cr_0": true,
 		"cr_1": true,
@@ -1043,7 +1015,6 @@
 	},
 	"deep_creature": {
 		"name": "Deep Creature",
-		"file": "monstertemplates2f9c.html",
 		"sources": [ "Horror Adventures" ],
 		"cr_1": true,
 		"acquired": true,
@@ -1067,7 +1038,6 @@
 	},
 	"degenerate": {
 		"name": "Degenerate",
-		"file": "monstertemplates6cc7.html",
 		"sources": [ "Pathfinder #99: Dance of the Damned" ],
 		"cr_-1": true,
 		"acquired": true,
@@ -1091,7 +1061,6 @@
 	},
 	"demonic_vermin": {
 		"name": "Demonic Vermin",
-		"file": "monstertemplates408a.html",
 		"sources": [ "The Worldwound" ],
 		"cr_1": true,
 		"acquired": true,
@@ -1145,7 +1114,6 @@
 	},
 	"devilbound": {
 		"name": "Devilbound",
-		"file": "monstertemplates97c9.html",
 		"sources": [ "Bestiary 4" ],
 		"cr_1": true,
 		"acquired": true,
@@ -1228,7 +1196,6 @@
 	},
 	"divine_guardian": {
 		"name": "Divine Guardian",
-		"file": "monstertemplates62c5.html",
 		"sources": [ "Bestiary 4" ],
 		"cr_1": true,
 		"acquired": true,
@@ -1293,7 +1260,6 @@
 	},
 	"dread_lord": {
 		"name": "Dread Lord",
-		"file": "monstertemplatesdab9.html",
 		"sources": [ "Horror Adventures" ],
 		"cr_1": true,
 		"acquired": true,
@@ -1368,7 +1334,6 @@
 	},
 	"dream_eater": {
 		"name": "Dream Eater",
-		"file": "monstertemplates0b9f.html",
 		"sources": [ "Dungeons of Golarion" ],
 		"cr_2": true,
 		"acquired": true,
@@ -1401,7 +1366,6 @@
 	},
 	"dreamspawn": {
 		"name": "Dreamspawn",
-		"file": "monstertemplates4e63.html",
 		"sources": [ "The House on Hook Street" ],
 		"cr_1": true,
 		"acquired": true,
@@ -1442,7 +1406,6 @@
 	},
 	"druid": {
 		"name": "Druid",
-		"file": "monstertemplates8c2d.html",
 		"sources": [ "Monster Codex" ],
 		"cr_1": true,
 		"cr_2": true,
@@ -1484,7 +1447,6 @@
 	},
 	"echohusk": {
 		"name": "Echohusk",
-		"file": "monstertemplates8395.html",
 		"sources": [ "Occult Bestiary" ],
 		"cr_special": true,
 		"acquired": true,
@@ -1585,7 +1547,6 @@
 	},
 	"ectoplasmic": {
 		"name": "Ectoplasmic",
-		"file": "monstertemplates58a5.html",
 		"sources": [ "Bestiary 4" ],
 		"cr_1": true,
 		"acquired": true,
@@ -1652,8 +1613,6 @@
 	},
 	"elemental-infused_creature": {
 		"name": "Elemental-Infused Creature",
-		"searchable_name": "Elemental Infused Creature",
-		"file": "monstertemplates6485.html",
 		"sources": [ "Planes of Power" ],
 		"cr_1": true,
 		"cr_2": true,
@@ -1752,7 +1711,6 @@
 	},
 	"energized": {
 		"name": "Energized",
-		"file": "monstertemplates3c75.html",
 		"sources": [ "Construct Handbook" ],
 		"cr_2": true,
 		"acquired": true,
@@ -1814,7 +1772,6 @@
 	},
 	"enlightened_construct": {
 		"name": "Enlightened Construct",
-		"file": "monstertemplatesd218.html",
 		"sources": [ "Construct Handbook" ],
 		"cr_1": true,
 		"cr_2": true,
@@ -1898,7 +1855,6 @@
 	},
 	"entothrope": {
 		"name": "Entothrope",
-		"file": "monstertemplates922e.html",
 		"sources": [ "Bestiary 6" ],
 		"cr_1": true,
 		"acquired": true,
@@ -1972,7 +1928,6 @@
 	},
 	"entropic": {
 		"name": "Entropic",
-		"file": "monstertemplates3826.html",
 		"sources": [ "Bestiary 2" ],
 		"cr_0": true,
 		"cr_1": true,
@@ -2003,7 +1958,6 @@
 	},
 	"eruphyte": {
 		"name": "Eruphyte",
-		"file": "monstertemplates1e45.html",
 		"sources": [ "Pathfinder #142: Gardens of Gallowspire" ],
 		"cr_1": true,
 		"acquired": true,
@@ -2041,7 +1995,6 @@
 	},
 	"exoskeleton": {
 		"name": "Exoskeleton",
-		"file": "monstertemplatesd1d9.html",
 		"sources": [ "Bestiary 6" ],
 		"cr_special": true,
 		"acquired": true,
@@ -2135,7 +2088,6 @@
 	},
 	"failed_prophet": {
 		"name": "Failed Prophet",
-		"file": "monstertemplates47e5.html",
 		"sources": [ "Druma, Profit and Prophecy" ],
 		"cr_2": true,
 		"acquired": true,
@@ -2185,7 +2137,6 @@
 	},
 	"fey_animal": {
 		"name": "Fey Animal",
-		"file": "monstertemplatesd22f.html",
 		"sources": [ "Lands of the Linnorm Kings" ],
 		"cr_1": true,
 		"acquired": true,
@@ -2238,7 +2189,6 @@
 	},
 	"fey_creature": {
 		"name": "Fey Creature",
-		"file": "monstertemplatesb99b.html",
 		"sources": [ "Bestiary 3" ],
 		"cr_1": true,
 		"cr_2": true,
@@ -2304,8 +2254,6 @@
 	},
 	"fey-touched_creature": {
 		"name": "Fey-Touched Creature",
-		"searchable_name": "Fey Touched Creature",
-		"file": "monstertemplatese159.html",
 		"sources": [ "Heroes from the Fringe" ],
 		"cr_0": true,
 		"cr_1": true,
@@ -2341,8 +2289,6 @@
 	},
 	"fiend-infused": {
 		"name": "Fiend-Infused",
-		"searchable_name": "Fiend Infused",
-		"file": "monstertemplatesc3d4.html",
 		"sources": [ "Cheliax, the Infernal Empire" ],
 		"cr_2": true,
 		"inherited": true,
@@ -2387,7 +2333,6 @@
 	},
 	"fiendish": {
 		"name": "Fiendish",
-		"file": "monstertemplates80d1.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"cr_0": true,
 		"cr_1": true,
@@ -2418,7 +2363,6 @@
 	},
 	"fiery": {
 		"name": "Fiery",
-		"file": "monstertemplates7d55.html",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"cr_0": true,
 		"cr_1": true,
@@ -2447,7 +2391,6 @@
 	},
 	"fighter": {
 		"name": "Fighter",
-		"file": "monstertemplates3651.html",
 		"sources": [ "Monster Codex" ],
 		"cr_1": true,
 		"cr_2": true,
@@ -2472,7 +2415,6 @@
 	},
 	"first_world_creature": {
 		"name": "First World Creature",
-		"file": "monstertemplatesd5b3.html",
 		"sources": [ "The First World, Realm of the Fey" ],
 		"cr_0": true,
 		"cr_1": true,
@@ -2504,7 +2446,6 @@
 	},
 	"fleshwarped_creature": {
 		"name": "Fleshwarped Creature",
-		"file": "monstertemplatescba0.html",
 		"sources": [ "Horror Adventures" ],
 		"cr_1": true,
 		"acquired": true,
@@ -2528,7 +2469,6 @@
 	},
 	"floodslain": {
 		"name": "Floodslain",
-		"file": "monstertemplates1718.html",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"cr_1": true,
 		"acquired": true,
@@ -2576,7 +2516,6 @@
 	},
 	"foo_creature": {
 		"name": "Foo Creature",
-		"file": "monstertemplates0bdd.html",
 		"sources": [ "Bestiary 3" ],
 		"cr_1": true,
 		"inherited": true,
@@ -2635,7 +2574,6 @@
 	},
 	"frostfallen_creature": {
 		"name": "Frostfallen Creature",
-		"file": "monstertemplatesff9d.html",
 		"sources": [ "Pathfinder #51: The Hungry Storm" ],
 		"cr_1": true,
 		"acquired": true,
@@ -2698,7 +2636,6 @@
 	},
 	"fungal_creature": {
 		"name": "Fungal Creature",
-		"file": "monstertemplates47c8.html",
 		"sources": [ "Bestiary 4" ],
 		"cr_1": true,
 		"inherited": true,
@@ -2759,7 +2696,6 @@
 	},
 	"fungoid": {
 		"name": "Fungoid",
-		"file": "monstertemplates2ec4.html",
 		"sources": [ "Bestiary 6" ],
 		"cr_1": true,
 		"acquired": true,
@@ -2783,7 +2719,6 @@
 	},
 	"ghost": {
 		"name": "Ghost",
-		"file": "monstertemplatesa37e.html",
 		"sources": [
 			"Pathfinder RPG Bestiary",
 			"Classic Horrors Revisited"
@@ -2861,7 +2796,6 @@
 	},
 	"ghoulish_creature": {
 		"name": "Ghoulish Creature",
-		"file": "monstertemplates8316.html",
 		"sources": [ "Horror Adventures" ],
 		"cr_1": true,
 		"acquired": true,
@@ -2885,7 +2819,6 @@
 	},
 	"giant": {
 		"name": "Giant",
-		"file": "monstertemplates1d95.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"cr_1": true,
 		"acquired": true,
@@ -2909,7 +2842,6 @@
 	},
 	"giantkin_ogre": {
 		"name": "Giantkin Ogre",
-		"file": "monstertemplatesfc40.html",
 		"sources": [ "Monster Codex" ],
 		"cr_1": true,
 		"inherited": true,
@@ -2941,7 +2873,6 @@
 	},
 	"gnarled_creature": {
 		"name": "Gnarled Creature",
-		"file": "monstertemplatesf361.html",
 		"sources": [ "The Witchwar Legacy" ],
 		"cr_1": true,
 		"acquired": true,
@@ -2965,7 +2896,6 @@
 	},
 	"granule_construct_host": {
 		"name": "Granule Construct Host",
-		"file": "monstertemplatesd062.html",
 		"sources": [ "Seven Swords of Sin" ],
 		"cr_0": true,
 		"acquired": true,
@@ -3027,7 +2957,6 @@
 	},
 	"graveknight": {
 		"name": "Graveknight",
-		"file": "monstertemplatesf6ba.html",
 		"sources": [
 			"Bestiary 3",
 			"Undead Revisited"
@@ -3097,7 +3026,6 @@
 	},
 	"guardian_spirit": {
 		"name": "Guardian Spirit",
-		"file": "monstertemplates8ad0.html",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"cr_special": true,
 		"acquired": true,
@@ -3162,8 +3090,6 @@
 	},
 	"half-celestial": {
 		"name": "Half-Celestial",
-		"searchable_name": "Half Celestial",
-		"file": "monstertemplates6c5b.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"cr_1": true,
 		"cr_2": true,
@@ -3225,8 +3151,6 @@
 	},
 	"half-dragon": {
 		"name": "Half-Dragon",
-		"searchable_name": "Half Dragon",
-		"file": "monstertemplatesf32d.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"cr_2": true,
 		"acquired": true,
@@ -3278,8 +3202,6 @@
 	},
 	"half-fiend": {
 		"name": "Half-Fiend",
-		"searchable_name": "Half Fiend",
-		"file": "monstertemplates248d.html",
 		"sources": [
 			"Pathfinder RPG Bestiary",
 			"Demons Revisited"
@@ -3499,8 +3421,6 @@
 	},
 	"half-janni": {
 		"name": "Half-Janni",
-		"searchable_name": "Half Janni",
-		"file": "monstertemplates1e5e.html",
 		"sources": [ "Qadira, Gateway to the East" ],
 		"cr_2": true,
 		"acquired": true,
@@ -3561,7 +3481,6 @@
 	},
 	"haunted_construct": {
 		"name": "Haunted Construct",
-		"file": "monstertemplates3a46.html",
 		"sources": [ "Construct Handbook" ],
 		"cr_1": true,
 		"acquired": true,
@@ -3617,7 +3536,6 @@
 	},
 	"haunted_one": {
 		"name": "Haunted One",
-		"file": "monstertemplates1d2f.html",
 		"sources": [ "Rival Guide" ],
 		"cr_1": true,
 		"acquired": true,
@@ -3673,7 +3591,6 @@
 	},
 	"hell_engine": {
 		"name": "Hell Engine",
-		"file": "monstertemplatesba6b.html",
 		"sources": [ "Construct Handbook" ],
 		"cr_1": true,
 		"acquired": true,
@@ -3739,7 +3656,6 @@
 	},
 	"hellbound_creature": {
 		"name": "Hellbound Creature",
-		"file": "monstertemplatesdc11.html",
 		"sources": [ "Horror Adventures" ],
 		"cr_1": true,
 		"acquired": true,
@@ -3771,7 +3687,6 @@
 	},
 	"hive_creature": {
 		"name": "Hive Creature",
-		"file": "monstertemplates1247.html",
 		"sources": [ "Horror Adventures" ],
 		"cr_1": true,
 		"acquired": true,
@@ -3795,7 +3710,6 @@
 	},
 	"hivemind_swarm": {
 		"name": "Hivemind Swarm",
-		"file": "monstertemplates9355.html",
 		"sources": [ "Bestiary 6" ],
 		"cr_special": true,
 		"acquired": true,
@@ -3855,7 +3769,6 @@
 	},
 	"id_mutant": {
 		"name": "Id Mutant",
-		"file": "monstertemplates5341.html",
 		"sources": [ "Doom Comes to Dustpawn" ],
 		"cr_1": true,
 		"acquired": true,
@@ -3904,7 +3817,6 @@
 	},
 	"implacable_stalker": {
 		"name": "Implacable Stalker",
-		"file": "monstertemplatesb4c3.html",
 		"sources": [ "Horror Adventures" ],
 		"cr_2": true,
 		"acquired": true,
@@ -3960,8 +3872,6 @@
 	},
 	"jiang-shi": {
 		"name": "Jiang-Shi",
-		"searchable_name": "Jiang Shi",
-		"file": "monstertemplatesd01f.html",
 		"sources": [ "Bestiary 3" ],
 		"cr_2": true,
 		"acquired": true,
@@ -4013,7 +3923,6 @@
 	},
 	"juju_zombie": {
 		"name": "JuJu Zombie",
-		"file": "monstertemplates0715.html",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder #71: Rasputin Must Die!"
@@ -4058,7 +3967,6 @@
 	},
 	"kanabo": {
 		"name": "Kanabo",
-		"file": "monstertemplates31ed.html",
 		"sources": [ "Distant Shores" ],
 		"cr_0": true,
 		"cr_1": true,
@@ -4101,7 +4009,6 @@
 	},
 	"lich": {
 		"name": "Lich",
-		"file": "monstertemplates37f3.html",
 		"sources": [
 			"Horror Adventures",
 			"Pathfinder RPG Bestiary"
@@ -4170,7 +4077,6 @@
 	},
 	"lich_creature": {
 		"name": "Lich Creature",
-		"file": "monstertemplates69a0.html",
 		"sources": [ "Horror Adventures" ],
 		"cr_1": true,
 		"acquired": true,
@@ -4194,7 +4100,6 @@
 	},
 	"lycanthrope": {
 		"name": "Lycanthrope",
-		"file": "monstertemplatesc814.html",
 		"sources": [
 			"Horror Adventures",
 			"Pathfinder RPG Bestiary"
@@ -4366,7 +4271,6 @@
 	},
 	"lycanthropic_creature": {
 		"name": "Lycanthropic Creature",
-		"file": "monstertemplatesd824.html",
 		"sources": [ "Horror Adventures" ],
 		"cr_1": true,
 		"acquired": true,
@@ -4390,7 +4294,6 @@
 	},
 	"mana_wastes_mutant": {
 		"name": "Mana Wastes Mutant",
-		"file": "monstertemplatesab0c.html",
 		"sources": [ "Inner Sea Bestiary" ],
 		"cr_1": true,
 		"acquired": true,
@@ -4462,8 +4365,6 @@
 	},
 	"man-eating_animal": {
 		"name": "Man-Eating Animal",
-		"searchable_name": "Man Eating Animal",
-		"file": "monstertemplates897d.html",
 		"sources": [ "Pathfinder #74: Sword of Valor" ],
 		"cr_1": true,
 		"cr_2": true,
@@ -4527,7 +4428,6 @@
 	},
 	"mongrel_giant": {
 		"name": "Mongrel Giant",
-		"file": "monstertemplates0a33.html",
 		"sources": [ "Bestiary 6" ],
 		"cr_1": true,
 		"inherited": true,
@@ -4609,7 +4509,6 @@
 	},
 	"monk": {
 		"name": "Monk",
-		"file": "monstertemplates9dae.html",
 		"sources": [ "Monster Codex" ],
 		"cr_2": true,
 		"cr_3": true,
@@ -4634,7 +4533,6 @@
 	},
 	"mummified_animal": {
 		"name": "Mummified Animal",
-		"file": "monstertemplates438c.html",
 		"sources": [ "Pathfinder #81: Shifting Sands" ],
 		"cr_1": true,
 		"acquired": true,
@@ -4666,7 +4564,6 @@
 	},
 	"mummified_creature": {
 		"name": "Mummified Creature",
-		"file": "monstertemplates68a8.html",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder #81: Shifting Sands"
@@ -4780,7 +4677,6 @@
 	},
 	"mummy_lord": {
 		"name": "Mummy Lord",
-		"file": "monstertemplatesc939.html",
 		"sources": [ "Bestiary 5" ],
 		"cr_2": true,
 		"acquired": true,
@@ -4840,7 +4736,6 @@
 	},
 	"mutant": {
 		"name": "Mutant",
-		"file": "monstertemplatesbab5.html",
 		"sources": [ "Bestiary 5" ],
 		"cr_1": true,
 		"acquired": true,
@@ -4942,7 +4837,6 @@
 	},
 	"mutant_goblin": {
 		"name": "Mutant Goblin",
-		"file": "monstertemplates8a81.html",
 		"sources": [ "Monster Codex" ],
 		"cr_1": true,
 		"acquired": true,
@@ -4977,7 +4871,6 @@
 	},
 	"nightmare_creature": {
 		"name": "Nightmare Creature",
-		"file": "monstertemplates0aed.html",
 		"sources": [ "Bestiary 4" ],
 		"cr_1": true,
 		"acquired": true,
@@ -5043,7 +4936,6 @@
 	},
 	"nosferatu": {
 		"name": "Nosferatu",
-		"file": "monstertemplatesab75.html",
 		"sources": [ "Bestiary 4" ],
 		"cr_2": true,
 		"acquired": true,
@@ -5107,7 +4999,6 @@
 	},
 	"ogrekin": {
 		"name": "Ogrekin",
-		"file": "monstertemplatesb046.html",
 		"sources": [
 			"Bestiary 2",
 			"Inner Sea Monster Codex"
@@ -5218,7 +5109,6 @@
 	},
 	"osirion_mummy": {
 		"name": "Osirion Mummy",
-		"file": "monstertemplatesb046.html",
 		"sources": [ "Entombed with the Pharaohs" ],
 		"cr_1": true,
 		"acquired": true,
@@ -5300,7 +5190,6 @@
 	},
 	"paladin": {
 		"name": "Paladin",
-		"file": "monstertemplates3035.html",
 		"sources": [ "Monster Codex" ],
 		"cr_2": true,
 		"cr_3": true,
@@ -5325,7 +5214,6 @@
 	},
 	"pallid_vector": {
 		"name": "Pallid Vector",
-		"file": "monstertemplates12b4.html",
 		"sources": [ "Villain Codex" ],
 		"cr_2": true,
 		"acquired": true,
@@ -5370,7 +5258,6 @@
 	},
 	"penanggalen": {
 		"name": "Penanggalen",
-		"file": "monstertemplatesd163.html",
 		"sources": [ "Bestiary 3" ],
 		"cr_1": true,
 		"acquired": true,
@@ -5423,7 +5310,6 @@
 	},
 	"petitioner": {
 		"name": "Petitioner",
-		"file": "monstertemplates5d4a.html",
 		"sources": [ "Bestiary 2" ],
 		"acquired": true,
 		"simple": false,
@@ -5475,7 +5361,6 @@
 	},
 	"pickin_ogre": {
 		"name": "Pickin Ogre",
-		"file": "monstertemplates0fb1.html",
 		"sources": [ "Monster Codex" ],
 		"cr_0": true,
 		"inherited": true,
@@ -5499,7 +5384,6 @@
 	},
 	"plagued_beast": {
 		"name": "Plagued Beast",
-		"file": "monstertemplatesa1ef.html",
 		"sources": [ "Bestiary 5" ],
 		"cr_1": true,
 		"acquired": true,
@@ -5541,8 +5425,6 @@
 	},
 	"pod-spawned": {
 		"name": "Pod-Spawned",
-		"searchable_name": "Pod Spawned",
-		"file": "monstertemplatescba4.html",
 		"sources": [ "Bestiary 4" ],
 		"cr_-2": true,
 		"cr_-1": true,
@@ -5581,7 +5463,6 @@
 	},
 	"possessed_creature": {
 		"name": "Possessed Creature",
-		"file": "monstertemplatesa81e.html",
 		"sources": [ "Horror Adventures" ],
 		"cr_1": true,
 		"acquired": true,
@@ -5605,7 +5486,6 @@
 	},
 	"prana_ghost": {
 		"name": "Prana Ghost",
-		"file": "monstertemplatesb7ec.html",
 		"sources": [ "Occult Bestiary" ],
 		"cr_1": true,
 		"acquired": true,
@@ -5669,7 +5549,6 @@
 	},
 	"primordial": {
 		"name": "Primordial",
-		"file": "monstertemplatesd0b6.html",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"cr_0": true,
 		"cr_1": true,
@@ -5698,7 +5577,6 @@
 	},
 	"promethean_creature": {
 		"name": "Promethean Creature",
-		"file": "monstertemplatescde5.html",
 		"sources": [ "Horror Adventures" ],
 		"cr_1": true,
 		"acquired": true,
@@ -5722,8 +5600,6 @@
 	},
 	"prophecy-addled_creature": {
 		"name": "Prophecy-Addled Creature",
-		"searchable_name": "Prophecy Addled Creature",
-		"file": "monstertemplates7546.html",
 		"sources": [ "Pathfinder #125: Tower of the Drowned Dead" ],
 		"cr_1": true,
 		"acquired": true,
@@ -5748,7 +5624,6 @@
 	},
 	"psychic_lich": {
 		"name": "Psychic Lich",
-		"file": "monstertemplates5798.html",
 		"sources": [ "Occult Bestiary" ],
 		"cr_2": true,
 		"acquired": true,
@@ -5814,7 +5689,6 @@
 	},
 	"psychic_vampire": {
 		"name": "Psychic Vampire",
-		"file": "monstertemplates4efc.html",
 		"sources": [ "Occult Bestiary" ],
 		"cr_2": true,
 		"acquired": true,
@@ -5890,7 +5764,6 @@
 	},
 	"psychoplasmic": {
 		"name": "Psychoplasmic",
-		"file": "monstertemplates93ab.html",
 		"sources": [ "Occult Bestiary" ],
 		"cr_1": true,
 		"acquired": true,
@@ -5959,7 +5832,6 @@
 	},
 	"radiant_creature": {
 		"name": "Radiant Creature",
-		"file": "monstertemplatese700.html",
 		"sources": [ "Planar Adventures" ],
 		"cr_1": true,
 		"acquired": true,
@@ -5986,7 +5858,6 @@
 	},
 	"rampant": {
 		"name": "Rampant",
-		"file": "monstertemplatesd9d5.html",
 		"sources": [ "Pathfinder #142: Gardens of Gallowspire" ],
 		"cr_1": true,
 		"acquired": true,
@@ -6024,7 +5895,6 @@
 	},
 	"ranger": {
 		"name": "Ranger",
-		"file": "monstertemplates3a9e.html",
 		"sources": [ "Monster Codex" ],
 		"cr_1": true,
 		"cr_2": true,
@@ -6049,7 +5919,6 @@
 	},
 	"ravener": {
 		"name": "Ravener",
-		"file": "monstertemplates5263.html",
 		"sources": [
 			"Bestiary 2",
 			"Undead Revisited"
@@ -6108,7 +5977,6 @@
 	},
 	"recycled_construct": {
 		"name": "Recycled Construct",
-		"file": "monstertemplates1c9e.html",
 		"sources": [ "Construct Handbook" ],
 		"cr_-1": true,
 		"acquired": true,
@@ -6174,7 +6042,6 @@
 	},
 	"resolute": {
 		"name": "Resolute",
-		"file": "monstertemplatesc872.html",
 		"sources": [ "Bestiary 2" ],
 		"cr_0": true,
 		"cr_1": true,
@@ -6205,7 +6072,6 @@
 	},
 	"rogue": {
 		"name": "Rogue",
-		"file": "monstertemplates8ec3.html",
 		"sources": [ "Monster Codex" ],
 		"cr_1": true,
 		"cr_2": true,
@@ -6230,7 +6096,6 @@
 	},
 	"runeplated_construct": {
 		"name": "Runeplated Construct",
-		"file": "monstertemplatesa805.html",
 		"sources": [ "Construct Handbook" ],
 		"cr_1": true,
 		"acquired": true,
@@ -6313,7 +6178,6 @@
 	},
 	"runeslave": {
 		"name": "Runeslave",
-		"file": "monstertemplatesdedc.html",
 		"sources": [ "Rise of the Runelords Anniversary Edition" ],
 		"cr_1": true,
 		"acquired": true,
@@ -6367,7 +6231,6 @@
 	},
 	"runewarped_creature": {
 		"name": "Runewarped Creature",
-		"file": "monstertemplatesb3d1.html",
 		"sources": [ "Return of the Runelords Players Guide" ],
 		"cr_1": true,
 		"acquired": true,
@@ -6419,8 +6282,6 @@
 	},
 	"sea-sworn": {
 		"name": "Sea-Sworn",
-		"searchable_name": "Sea Sworn",
-		"file": "monstertemplates0cb7.html",
 		"sources": [ "Treasure of Chimera Cove" ],
 		"cr_1": true,
 		"acquired": true,
@@ -6484,7 +6345,6 @@
 	},
 	"seeded": {
 		"name": "Seeded",
-		"file": "monstertemplates3119.html",
 		"sources": [ "Pathfinder #113: What Grows Within" ],
 		"cr_1": true,
 		"inherited": true,
@@ -6546,7 +6406,6 @@
 	},
 	"shadow": {
 		"name": "Shadow",
-		"file": "monstertemplates372c.html",
 		"sources": [ "Bestiary 4" ],
 		"cr_1": true,
 		"inherited": true,
@@ -6583,7 +6442,6 @@
 	},
 	"shadow_animal": {
 		"name": "Shadow Animal",
-		"file": "monstertemplatesb29e.html",
 		"sources": [ "Nidal, Land of Shadows" ],
 		"cr_1": true,
 		"cr_2": true,
@@ -6665,7 +6523,6 @@
 	},
 	"shadow_creature": {
 		"name": "Shadow Creature",
-		"file": "monstertemplates82a5.html",
 		"sources": [ "Advanced Race Guide" ],
 		"cr_1": true,
 		"inherited": true,
@@ -6691,7 +6548,6 @@
 	},
 	"shadow_lord": {
 		"name": "Shadow Lord",
-		"file": "monstertemplates8cd7.html",
 		"sources": [ "Bestiary 4" ],
 		"cr_2": true,
 		"acquired": true,
@@ -6744,7 +6600,6 @@
 	},
 	"shadowbound_creature": {
 		"name": "Shadowbound Creature",
-		"file": "monstertemplatesb894.html",
 		"sources": [ "Horror Adventures" ],
 		"cr_1": true,
 		"acquired": true,
@@ -6766,7 +6621,6 @@
 	},
 	"shadowfire_creature": {
 		"name": "Shadowfire Creature",
-		"file": "monstertemplates496d.html",
 		"sources": [ "The Emerald Spire Superdungeon" ],
 		"cr_1": true,
 		"inherited": true,
@@ -6806,7 +6660,6 @@
 	},
 	"shaggra_ogre": {
 		"name": "Shaggra Ogre",
-		"file": "monstertemplates9c80.html",
 		"sources": [ "Monster Codex" ],
 		"cr_1": true,
 		"inherited": true,
@@ -6830,7 +6683,6 @@
 	},
 	"siabrae": {
 		"name": "Siabrae",
-		"file": "monstertemplatesa65b.html",
 		"sources": [ "Bestiary 6" ],
 		"cr_2": true,
 		"acquired": true,
@@ -6880,7 +6732,6 @@
 	},
 	"silverblood_lycanthrope": {
 		"name": "Silverblood Lycanthrope",
-		"file": "monstertemplates39ae.html",
 		"sources": [ "Andoran, Birthplace of Freedom" ],
 		"cr_2": true,
 		"acquired": true,
@@ -6930,7 +6781,6 @@
 	},
 	"skeletal_champion": {
 		"name": "Skeletal Champion",
-		"file": "monstertemplates3c7b.html",
 		"sources": [
 			"Pathfinder RPG Bestiary",
 			"Dungeons of Golarion"
@@ -6998,7 +6848,6 @@
 	},
 	"skeleton": {
 		"name": "Skeleton",
-		"file": "monstertemplatesca0a.html",
 		"sources": [
 			"Pathfinder RPG Bestiary",
 			"Classic Horrors Revisited"
@@ -7146,7 +6995,6 @@
 	},
 	"sorcerer": {
 		"name": "Sorcerer",
-		"file": "monstertemplates54b6.html",
 		"sources": [ "Monster Codex" ],
 		"cr_1": true,
 		"cr_2": true,
@@ -7185,7 +7033,6 @@
 	},
 	"soulbound_construct": {
 		"name": "Soulbound Construct",
-		"file": "monstertemplates6395.html",
 		"sources": [ "Construct Handbook" ],
 		"cr_1": true,
 		"cr_2": true,
@@ -7261,7 +7108,6 @@
 	},
 	"spore_zombie": {
 		"name": "Spore Zombie",
-		"file": "monstertemplatesd85f.html",
 		"sources": [ "Bestiary 6" ],
 		"cr_1": true,
 		"acquired": true,
@@ -7313,8 +7159,6 @@
 	},
 	"steam-powered_construct": {
 		"name": "Steam-Powered Construct",
-		"searchable_name": "Steam Powered Construct",
-		"file": "monstertemplates1f68.html",
 		"sources": [ "Construct Handbook" ],
 		"cr_2": true,
 		"inherited": true,
@@ -7377,7 +7221,6 @@
 	},
 	"sunbaked_zombie": {
 		"name": "Sunbaked Zombie",
-		"file": "monstertemplates69fd.html",
 		"sources": [ "Pathfinder #80: Empty Graves" ],
 		"cr_special": true,
 		"acquired": true,
@@ -7471,7 +7314,6 @@
 	},
 	"taxidermic_creature": {
 		"name": "Taxidermic Creature",
-		"file": "monstertemplatesa241.html",
 		"sources": [ "Bestiary 5" ],
 		"cr_special": true,
 		"acquired": true,
@@ -7576,7 +7418,6 @@
 	},
 	"terror_creature": {
 		"name": "Terror Creature",
-		"file": "monstertemplates1d0e.html",
 		"sources": [ "City of Golden Death" ],
 		"cr_0": true,
 		"acquired": true,
@@ -7598,7 +7439,6 @@
 	},
 	"thicken_ogre": {
 		"name": "Thicken Ogre",
-		"file": "monstertemplates383d.html",
 		"sources": [ "Monster Codex" ],
 		"cr_0": true,
 		"inherited": true,
@@ -7622,7 +7462,6 @@
 	},
 	"trompe_l'oeil": {
 		"name": "Trompe l'Oeil",
-		"file": "monstertemplates0b6f.html",
 		"sources": [ "Horror Adventures" ],
 		"cr_1": true,
 		"inherited": true,
@@ -7674,7 +7513,6 @@
 	},
 	"tsukumogami": {
 		"name": "Tsukumogami",
-		"file": "monstertemplates4d07.html",
 		"sources": [ "Bestiary 5" ],
 		"cr_2": true,
 		"acquired": true,
@@ -7725,7 +7563,6 @@
 	},
 	"tulpa": {
 		"name": "Tulpa",
-		"file": "monstertemplates1ed0.html",
 		"sources": [ "Bestiary 5" ],
 		"cr_2": true,
 		"inherited": true,
@@ -7777,7 +7614,6 @@
 	},
 	"unknown": {
 		"name": "Unknown",
-		"file": "monstertemplatesb904.html",
 		"sources": [ "Horror Adventures" ],
 		"cr_2": true,
 		"acquired": true,
@@ -7839,7 +7675,6 @@
 	},
 	"vahana": {
 		"name": "Vahana",
-		"file": "monstertemplates9926.html",
 		"sources": [ "Bestiary 5" ],
 		"cr_2": true,
 		"acquired": true,
@@ -7881,7 +7716,6 @@
 	},
 	"vampire": {
 		"name": "Vampire",
-		"file": "monstertemplates8a4a.html",
 		"sources": [
 			"Pathfinder RPG Bestiary",
 			"Classic Horrors Revisited",
@@ -8019,7 +7853,6 @@
 	},
 	"vampire_spawn": {
 		"name": "Vampire Spawn",
-		"file": "monstertemplatese3c5.html",
 		"sources": [ "Monster Codex" ],
 		"cr_1": true,
 		"acquired": true,
@@ -8062,7 +7895,6 @@
 	},
 	"vampiric_creature": {
 		"name": "Vampiric Creature",
-		"file": "monstertemplates6d7b.html",
 		"sources": [ "Horror Adventures" ],
 		"cr_1": true,
 		"acquired": true,
@@ -8086,7 +7918,6 @@
 	},
 	"vetala": {
 		"name": "Vetala",
-		"file": "monstertemplates008f.html",
 		"sources": [ "Inner Sea Bestiary" ],
 		"cr_2": true,
 		"acquired": true,
@@ -8148,7 +7979,6 @@
 	},
 	"waxwork": {
 		"name": "Waxwork",
-		"file": "monstertemplates31b1.html",
 		"sources": [ "Horror Adventures" ],
 		"cr_special": true,
 		"inherited": true,
@@ -8269,7 +8099,6 @@
 	},
 	"winter_fey": {
 		"name": "Winter Fey",
-		"file": "monstertemplatesaeaf.html",
 		"sources": [ "Pathfinder #68: The Shackled Hut" ],
 		"cr_1": true,
 		"inherited": true,
@@ -8304,8 +8133,6 @@
 	},
 	"winter-touched_fey": {
 		"name": "Winter-Touched Fey",
-		"searchable_name": "Winter Touched Fey",
-		"file": "monstertemplates0287.html",
 		"sources": [ "Pathfinder #67: The Snows of Summer" ],
 		"cr_0": true,
 		"acquired": true,
@@ -8334,7 +8161,6 @@
 	},
 	"wizard": {
 		"name": "Wizard",
-		"file": "monstertemplates3fa3.html",
 		"sources": [ "Monster Codex" ],
 		"cr_1": true,
 		"cr_2": true,
@@ -8374,7 +8200,6 @@
 	},
 	"worm_that_walks": {
 		"name": "Worm that Walks",
-		"file": "monstertemplatesf490.html",
 		"sources": [ "Bestiary 2" ],
 		"cr_2": true,
 		"acquired": true,
@@ -8428,7 +8253,6 @@
 	},
 	"young": {
 		"name": "Young",
-		"file": "monstertemplates6f0a.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"cr_-1": true,
 		"acquired": true,
@@ -8452,7 +8276,6 @@
 	},
 	"zombie": {
 		"name": "Zombie",
-		"file": "monstertemplates36fa.html",
 		"sources": [
 			"Horror Realms",
 			"Pathfinder RPG Bestiary",
@@ -8632,7 +8455,6 @@
 	},
 	"zombie_lord": {
 		"name": "Zombie Lord",
-		"file": "monstertemplates2089.html",
 		"sources": [ "Bestiary 4" ],
 		"cr_1": true,
 		"acquired": true,

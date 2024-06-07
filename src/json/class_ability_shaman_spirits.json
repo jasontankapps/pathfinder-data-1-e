@@ -2,7 +2,6 @@
 	"_prefix": "class_abilities-shaman_spirit",
 	"ancestors": {
 		"name": "Ancestors",
-		"file": "shamanspiritdisplay435a.html",
 		"sources": [ "Cohorts and Companions" ],
 		"description": [
 			"## Ancestors",
@@ -43,7 +42,6 @@
 	},
 	"battle": {
 		"name": "Battle",
-		"file": "shamanspiritdisplay55dc.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Battle",
@@ -84,7 +82,6 @@
 	},
 	"bones": {
 		"name": "Bones",
-		"file": "shamanspiritdisplay706f.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Bones",
@@ -127,7 +124,6 @@
 	},
 	"dark_tapestry": {
 		"name": "Dark Tapestry",
-		"file": "shamanspiritdisplay7137.html",
 		"sources": [ "Horror Realms" ],
 		"description": [
 			"## Dark Tapestry",
@@ -176,7 +172,6 @@
 	},
 	"flame": {
 		"name": "Flame",
-		"file": "shamanspiritdisplay5771.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Flame",
@@ -217,7 +212,6 @@
 	},
 	"frost": {
 		"name": "Frost",
-		"file": "shamanspiritdisplayc7e5.html",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
 			"## Frost",
@@ -260,7 +254,6 @@
 	},
 	"heavens": {
 		"name": "Heavens",
-		"file": "shamanspiritdisplay923d.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Heavens",
@@ -301,7 +294,6 @@
 	},
 	"life": {
 		"name": "Life",
-		"file": "shamanspiritdisplay195c.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Life",
@@ -342,7 +334,6 @@
 	},
 	"lore": {
 		"name": "Lore",
-		"file": "shamanspiritdisplayd63b.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Lore",
@@ -383,7 +374,6 @@
 	},
 	"mammoth": {
 		"name": "Mammoth",
-		"file": "shamanspiritdisplay6775.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Mammoth",
@@ -426,7 +416,6 @@
 	},
 	"nature": {
 		"name": "Nature",
-		"file": "shamanspiritdisplayd262.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Nature",
@@ -467,8 +456,6 @@
 	},
 	"restoration": {
 		"name": "Restoration",
-		"searchable_name": "Restoration",
-		"file": "shamanspiritdisplay195c.html",
 		"sources": [
 			"Advanced Class Guide",
 			"Healer's Handbook"
@@ -517,7 +504,6 @@
 	},
 	"slums": {
 		"name": "Slums",
-		"file": "shamanspiritdisplayfecf.html",
 		"sources": [ "Heroes of the Streets" ],
 		"description": [
 			"## Slums",
@@ -556,7 +542,6 @@
 	},
 	"stone": {
 		"name": "Stone",
-		"file": "shamanspiritdisplay1180.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Stone",
@@ -597,7 +582,6 @@
 	},
 	"tribe": {
 		"name": "Tribe",
-		"file": "shamanspiritdisplaya62b.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Tribe",
@@ -638,7 +622,6 @@
 	},
 	"waves": {
 		"name": "Waves",
-		"file": "shamanspiritdisplay037d.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Waves",
@@ -679,7 +662,6 @@
 	},
 	"wind": {
 		"name": "Wind",
-		"file": "shamanspiritdisplay437e.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Wind",
@@ -720,7 +702,6 @@
 	},
 	"wood": {
 		"name": "Wood",
-		"file": "shamanspiritdisplay696e.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Heroes of the Wild"

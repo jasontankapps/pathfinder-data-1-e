@@ -2,7 +2,6 @@
 	"_prefix": "archetype-monk-uc",
 	"black_asp": {
 		"name": "Black Asp",
-		"file": "archetypedisplay256a.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Black Asp",
@@ -30,7 +29,6 @@
 	},
 	"brazen_disciple": {
 		"name": "Brazen Disciple",
-		"file": "archetypedisplay3c2b.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Brazen Disciple",
@@ -68,7 +66,6 @@
 	},
 	"disciple_of_wholeness": {
 		"name": "Disciple of Wholeness",
-		"file": "archetypedisplay939d.html",
 		"sources": [ "Healer's Handbook" ],
 		"description": [
 			"## Disciple of Wholeness",
@@ -96,7 +93,6 @@
 	},
 	"elemental_monk": {
 		"name": "Elemental Monk",
-		"file": "archetypedisplayef51.html",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
 			"## Elemental Monk",
@@ -132,7 +128,6 @@
 	},
 	"invested_regent": {
 		"name": "Invested Regent",
-		"file": "archetypedisplay5e2a.html",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [
 			"## Invested Regent",
@@ -229,7 +224,6 @@
 	},
 	"lifting_hand": {
 		"name": "Lifting Hand",
-		"file": "archetypedisplay3598.html",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
 			"## Lifting Hand",
@@ -261,7 +255,6 @@
 	},
 	"monk_of_the_mantis": {
 		"name": "Monk of the Mantis",
-		"file": "archetypedisplay50c3.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Monk of the Mantis",
@@ -279,7 +272,6 @@
 	},
 	"perfect_scholar": {
 		"name": "Perfect Scholar",
-		"file": "archetypedisplay5d02.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Perfect Scholar",
@@ -311,7 +303,6 @@
 	},
 	"sage_counselor": {
 		"name": "Sage Counselor",
-		"file": "archetypedisplay302a.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Sage Counselor",
@@ -339,7 +330,6 @@
 	},
 	"scaled_fist": {
 		"name": "Scaled Fist",
-		"file": "archetypedisplay7cfc.html",
 		"sources": [ "Legacy of Dragons" ],
 		"description": [
 			"## Scaled Fist",
@@ -373,7 +363,6 @@
 	},
 	"serpent-fire_adept": {
 		"name": "Serpent-Fire Adept",
-		"file": "archetypedisplaye179.html",
 		"sources": [ "Occult Origins" ],
 		"description": [
 			"## Serpent-Fire Adept",
@@ -399,7 +388,6 @@
 	},
 	"softstrike_monk": {
 		"name": "Softstrike Monk",
-		"file": "archetypedisplayd7b8.html",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
 			"## Softstrike Monk",
@@ -439,7 +427,6 @@
 	},
 	"soul_shepherd": {
 		"name": "Soul Shepherd",
-		"file": "archetypedisplaye9d8.html",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
 			"## Soul Shepherd",
@@ -469,7 +456,6 @@
 	},
 	"windstep_master": {
 		"name": "Windstep Master",
-		"file": "archetypedisplay1153.html",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
 			"## Windstep Master",

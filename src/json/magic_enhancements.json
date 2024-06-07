@@ -2,7 +2,6 @@
 	"_prefix": "magic-enhancement",
 	"advancing": {
 		"name": "advancing",
-		"file": "magicarmordisplaybd39.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Advancing",
@@ -21,7 +20,6 @@
 	},
 	"balanced": {
 		"name": "balanced",
-		"file": "magicarmordisplay8917.html",
 		"sources": [
 			"Armor Master's Handbook",
 			"Ultimate Equipment"
@@ -43,7 +41,6 @@
 	},
 	"benevolent": {
 		"name": "benevolent",
-		"file": "magicarmordisplay7b1c.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Benevolent",
@@ -62,7 +59,6 @@
 	},
 	"billowing": {
 		"name": "billowing",
-		"file": "magicarmordisplay4846.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Billowing",
@@ -81,7 +77,6 @@
 	},
 	"bitter": {
 		"name": "bitter",
-		"file": "magicarmordisplay08b4.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder Society Field Guide"
@@ -105,7 +100,6 @@
 	},
 	"bolstering": {
 		"name": "bolstering",
-		"file": "magicarmordisplay0517.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Bolstering",
@@ -124,7 +118,6 @@
 	},
 	"calming": {
 		"name": "calming",
-		"file": "magicarmordisplay5baa.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Calming",
@@ -143,7 +136,6 @@
 	},
 	"champion": {
 		"name": "champion",
-		"file": "magicarmordisplay52f4.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -165,7 +157,6 @@
 	},
 	"cocooning": {
 		"name": "cocooning",
-		"file": "magicarmordisplaye924.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Cocooning",
@@ -184,7 +175,6 @@
 	},
 	"crusading": {
 		"name": "crusading",
-		"file": "magicarmordisplay77af.html",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
 			"## Crusading",
@@ -203,7 +193,6 @@
 	},
 	"dastard": {
 		"name": "dastard",
-		"file": "magicarmordisplay022e.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -225,7 +214,6 @@
 	},
 	"deathless": {
 		"name": "deathless",
-		"file": "magicarmordisplaydb9c.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Deathless",
@@ -244,7 +232,6 @@
 	},
 	"defiant": {
 		"name": "defiant",
-		"file": "magicarmordisplayd4a7.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Defiant",
@@ -263,7 +250,6 @@
 	},
 	"evolving": {
 		"name": "evolving",
-		"file": "magicarmordisplaye3e7.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Evolving",
@@ -282,7 +268,6 @@
 	},
 	"fortification_light": {
 		"name": "Fortification (light)",
-		"file": "magicarmordisplay7af0.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -307,7 +292,6 @@
 	},
 	"grinding": {
 		"name": "grinding",
-		"file": "magicarmordisplay474d.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Grinding",
@@ -326,7 +310,6 @@
 	},
 	"impervious": {
 		"name": "impervious",
-		"file": "magicarmordisplay25e9.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Impervious",
@@ -345,7 +328,6 @@
 	},
 	"mirrored": {
 		"name": "mirrored",
-		"file": "magicarmordisplayfb55.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Mirrored",
@@ -364,7 +346,6 @@
 	},
 	"poisoning": {
 		"name": "poisoning",
-		"file": "magicarmordisplay68e3.html",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Poisoning",
@@ -383,7 +364,6 @@
 	},
 	"resonating": {
 		"name": "resonating",
-		"file": "magicarmordisplay888b.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Resonating",
@@ -402,7 +382,6 @@
 	},
 	"spell_storing": {
 		"name": "spell storing",
-		"file": "magicarmordisplayc4e1.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Spell Storing",
@@ -421,7 +400,6 @@
 	},
 	"spellsink": {
 		"name": "spellsink",
-		"file": "magicarmordisplay3041.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Spellsink",
@@ -440,7 +418,6 @@
 	},
 	"stanching": {
 		"name": "stanching",
-		"file": "magicarmordisplay83e5.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Stanching",
@@ -459,7 +436,6 @@
 	},
 	"terrain-striding": {
 		"name": "Terrain-striding",
-		"file": "magicarmordisplay4e9b.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Terrain-striding",
@@ -481,7 +457,6 @@
 	},
 	"trapwarding": {
 		"name": "trapwarding",
-		"file": "magicarmordisplay5d8c.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
 			"## Trapwarding",
@@ -500,7 +475,6 @@
 	},
 	"vouchsafing": {
 		"name": "vouchsafing",
-		"file": "magicarmordisplayb70e.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Vouchsafing",
@@ -519,7 +493,6 @@
 	},
 	"warding": {
 		"name": "warding",
-		"file": "magicarmordisplayae0e.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Warding",
@@ -538,7 +511,6 @@
 	},
 	"withstanding": {
 		"name": "withstanding",
-		"file": "magicarmordisplayb611.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Withstanding",
@@ -557,7 +529,6 @@
 	},
 	"buoyant_light_armor": {
 		"name": "Buoyant (light armor)",
-		"file": "magicarmordisplay6c0c.html",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Buoyant",
@@ -576,7 +547,6 @@
 	},
 	"cushioned": {
 		"name": "cushioned",
-		"file": "magicarmordisplay62b1.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Cushioned",
@@ -595,7 +565,6 @@
 	},
 	"buoyant_medium_heavy_armor": {
 		"name": "Buoyant (medium/heavy armor)",
-		"file": "magicarmordisplaya1bf.html",
 		"sources": [ "Magical Marketplace" ],
 		"copyof": "buoyant_light_armor",
 		"display": "magic/enhancements"
@@ -611,7 +580,6 @@
 	},
 	"fitting": {
 		"name": "fitting",
-		"file": "magicarmordisplay643b.html",
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
 			"## Fitting",
@@ -630,7 +598,6 @@
 	},
 	"poison-resistant": {
 		"name": "Poison-Resistant",
-		"file": "magicarmordisplayeb9d.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Poison-Resistant",
@@ -652,7 +619,6 @@
 	},
 	"glamered": {
 		"name": "glamered",
-		"file": "magicarmordisplay8e76.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -674,7 +640,6 @@
 	},
 	"mental_focus": {
 		"name": "mental focus",
-		"file": "magicarmordisplay14bc.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Mental Focus",
@@ -693,7 +658,6 @@
 	},
 	"aquadynamic": {
 		"name": "aquadynamic",
-		"file": "magicarmordisplay95ff.html",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Aquadynamic",
@@ -712,7 +676,6 @@
 	},
 	"jousting": {
 		"name": "jousting",
-		"file": "magicarmordisplay18c3.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -734,7 +697,6 @@
 	},
 	"shadow": {
 		"name": "shadow",
-		"file": "magicarmordisplay372c.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -756,7 +718,6 @@
 	},
 	"slick": {
 		"name": "slick",
-		"file": "magicarmordisplay4bf1.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -778,7 +739,6 @@
 	},
 	"adamant": {
 		"name": "adamant",
-		"file": "magicarmordisplaydf3f.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Adamant",
@@ -797,7 +757,6 @@
 	},
 	"bloodthirsty": {
 		"name": "bloodthirsty",
-		"file": "magicarmordisplay4e68.html",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"## Bloodthirsty",
@@ -816,7 +775,6 @@
 	},
 	"frosted": {
 		"name": "frosted",
-		"file": "magicarmordisplay4668.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Frosted",
@@ -835,7 +793,6 @@
 	},
 	"ghost_spike": {
 		"name": "ghost spike",
-		"file": "magicarmordisplay5885.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Ghost Spike",
@@ -854,7 +811,6 @@
 	},
 	"jarring": {
 		"name": "jarring",
-		"file": "magicarmordisplay9597.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Jarring",
@@ -873,7 +829,6 @@
 	},
 	"mind_buttressing": {
 		"name": "mind buttressing",
-		"file": "magicarmordisplay68d5.html",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Mind Buttressing",
@@ -892,7 +847,6 @@
 	},
 	"phantasmal": {
 		"name": "phantasmal",
-		"file": "magicarmordisplayd124.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Phantasmal",
@@ -911,7 +865,6 @@
 	},
 	"rampaging": {
 		"name": "rampaging",
-		"file": "magicarmordisplayf935.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Rampaging",
@@ -930,7 +883,6 @@
 	},
 	"shadow_blending": {
 		"name": "shadow blending",
-		"file": "magicarmordisplay598b.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Shadow Blending",
@@ -949,7 +901,6 @@
 	},
 	"spell_dodging": {
 		"name": "spell dodging",
-		"file": "magicarmordisplaya879.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Spell Dodging",
@@ -968,7 +919,6 @@
 	},
 	"spell_resistance_13": {
 		"name": "Spell Resistance (13)",
-		"file": "magicarmordisplay3a8d.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -990,7 +940,6 @@
 	},
 	"steaming": {
 		"name": "steaming",
-		"file": "magicarmordisplay4deb.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Steaming",
@@ -1013,7 +962,6 @@
 	},
 	"volcanic": {
 		"name": "volcanic",
-		"file": "magicarmordisplay0b95.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Volcanic",
@@ -1032,7 +980,6 @@
 	},
 	"burdenless": {
 		"name": "burdenless",
-		"file": "magicarmordisplayb3d3.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Burdenless",
@@ -1051,7 +998,6 @@
 	},
 	"expeditious": {
 		"name": "expeditious",
-		"file": "magicarmordisplay93d3.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Expeditious",
@@ -1070,7 +1016,6 @@
 	},
 	"amorphous": {
 		"name": "amorphous",
-		"file": "magicarmordisplay11c6.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Amorphous",
@@ -1089,7 +1034,6 @@
 	},
 	"restful": {
 		"name": "restful",
-		"file": "magicarmordisplay45d5.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Restful",
@@ -1108,7 +1052,6 @@
 	},
 	"cloudburst": {
 		"name": "cloudburst",
-		"file": "magicarmordisplayab37.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Cloudburst",
@@ -1127,7 +1070,6 @@
 	},
 	"comfort": {
 		"name": "comfort",
-		"file": "magicarmordisplay4722.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
 			"## Comfort",
@@ -1146,7 +1088,6 @@
 	},
 	"corsair": {
 		"name": "corsair",
-		"file": "magicarmordisplayc521.html",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
 			"## Corsair",
@@ -1165,7 +1106,6 @@
 	},
 	"creeping": {
 		"name": "creeping",
-		"file": "magicarmordisplay4ef4.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Creeping",
@@ -1184,7 +1124,6 @@
 	},
 	"deceiving": {
 		"name": "deceiving",
-		"file": "magicarmordisplay57f1.html",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"## Deceiving",
@@ -1203,7 +1142,6 @@
 	},
 	"malevolent": {
 		"name": "malevolent",
-		"file": "magicarmordisplaya998.html",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"## Malevolent",
@@ -1222,7 +1160,6 @@
 	},
 	"rallying": {
 		"name": "rallying",
-		"file": "magicarmordisplay575a.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Rallying",
@@ -1241,7 +1178,6 @@
 	},
 	"spirit-bonded": {
 		"name": "Spirit-bonded",
-		"file": "magicarmordisplay2882.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Spirit-bonded",
@@ -1263,7 +1199,6 @@
 	},
 	"locksmith": {
 		"name": "locksmith",
-		"file": "magicarmordisplayab02.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Locksmith",
@@ -1282,7 +1217,6 @@
 	},
 	"adhesive": {
 		"name": "adhesive",
-		"file": "magicarmordisplayd9d2.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Adhesive",
@@ -1301,7 +1235,6 @@
 	},
 	"spiteful": {
 		"name": "spiteful",
-		"file": "magicarmordisplayfeef.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Spiteful",
@@ -1320,7 +1253,6 @@
 	},
 	"hosteling": {
 		"name": "hosteling",
-		"file": "magicarmordisplay747e.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Hosteling",
@@ -1345,7 +1277,6 @@
 	},
 	"radiant": {
 		"name": "radiant",
-		"file": "magicarmordisplay999b.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Radiant",
@@ -1364,7 +1295,6 @@
 	},
 	"trackless": {
 		"name": "trackless",
-		"file": "magicarmordisplay161b.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Trackless",
@@ -1383,7 +1313,6 @@
 	},
 	"arrow-collecting": {
 		"name": "Arrow-collecting",
-		"file": "magicarmordisplayf58c.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Arrow-collecting",
@@ -1405,7 +1334,6 @@
 	},
 	"brawling": {
 		"name": "brawling",
-		"file": "magicarmordisplay9eee.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Brawling",
@@ -1424,7 +1352,6 @@
 	},
 	"cotraveling": {
 		"name": "cotraveling",
-		"file": "magicarmordisplay6bf9.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Cotraveling",
@@ -1443,7 +1370,6 @@
 	},
 	"fortification_moderate": {
 		"name": "Fortification (moderate)",
-		"file": "magicarmordisplaya46e.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1468,7 +1394,6 @@
 	},
 	"ghost_touch_armor": {
 		"name": "ghost touch",
-		"file": "magicarmordisplay58b9.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1495,7 +1420,6 @@
 	},
 	"invulnerability": {
 		"name": "invulnerability",
-		"file": "magicarmordisplaya65a.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1517,7 +1441,6 @@
 	},
 	"sensing": {
 		"name": "sensing",
-		"file": "magicarmordisplaydd5e.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Sensing",
@@ -1536,7 +1459,6 @@
 	},
 	"spell_resistance_15": {
 		"name": "Spell Resistance (15)",
-		"file": "magicarmordisplay2e04.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1546,7 +1468,6 @@
 	},
 	"titanic": {
 		"name": "titanic",
-		"file": "magicarmordisplay858d.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Titanic",
@@ -1565,7 +1486,6 @@
 	},
 	"wild": {
 		"name": "wild",
-		"file": "magicarmordisplay1577.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1587,7 +1507,6 @@
 	},
 	"phase_lurching": {
 		"name": "phase lurching",
-		"file": "magicarmordisplayfa39.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Phase Lurching",
@@ -1606,7 +1525,6 @@
 	},
 	"delving": {
 		"name": "delving",
-		"file": "magicarmordisplayd2f8.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Dungeon Denizens Revisited"
@@ -1628,7 +1546,6 @@
 	},
 	"putrid": {
 		"name": "putrid",
-		"file": "magicarmordisplayc558.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Putrid",
@@ -1647,7 +1564,6 @@
 	},
 	"harmonizing": {
 		"name": "harmonizing",
-		"file": "magicarmordisplay4a32.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Harmonizing",
@@ -1670,7 +1586,6 @@
 	},
 	"improved_aquadynamic": {
 		"name": "improved aquadynamic",
-		"file": "magicarmordisplaye9eb.html",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Aquadynamic",
@@ -1689,7 +1604,6 @@
 	},
 	"radiant_flight": {
 		"name": "radiant flight",
-		"file": "magicarmordisplay78c2.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Radiant Flight",
@@ -1708,7 +1622,6 @@
 	},
 	"shadow,_improved": {
 		"name": "Shadow, Improved",
-		"file": "magicarmordisplay18ec.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1733,7 +1646,6 @@
 	},
 	"slick,_improved": {
 		"name": "Slick, Improved",
-		"file": "magicarmordisplayc998.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1758,7 +1670,6 @@
 	},
 	"venom-eating": {
 		"name": "Venom-eating",
-		"file": "magicarmordisplay7de5.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Venom-eating",
@@ -1780,7 +1691,6 @@
 	},
 	"denying": {
 		"name": "denying",
-		"file": "magicarmordisplayca51.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Denying",
@@ -1799,7 +1709,6 @@
 	},
 	"spell_resistance_17": {
 		"name": "Spell Resistance (17)",
-		"file": "magicarmordisplay5535.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1809,7 +1718,6 @@
 	},
 	"energy_resistance": {
 		"name": "energy resistance",
-		"file": "magicarmordisplay859c.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1831,7 +1739,6 @@
 	},
 	"martyring": {
 		"name": "martyring",
-		"file": "magicarmordisplay2999.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Martyring",
@@ -1850,7 +1757,6 @@
 	},
 	"dread_wing": {
 		"name": "dread wing",
-		"file": "magicarmordisplay7e11.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Dread Wing",
@@ -1869,7 +1775,6 @@
 	},
 	"fortification_heavy": {
 		"name": "Fortification (heavy)",
-		"file": "magicarmordisplay2929.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1894,7 +1799,6 @@
 	},
 	"spell_resistance_19": {
 		"name": "Spell Resistance (19)",
-		"file": "magicarmordisplay25a4.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1904,7 +1808,6 @@
 	},
 	"unbowed": {
 		"name": "unbowed",
-		"file": "magicarmordisplaybd8e.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Unbowed",
@@ -1923,7 +1826,6 @@
 	},
 	"righteous": {
 		"name": "righteous",
-		"file": "magicarmordisplay4bef.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -1945,7 +1847,6 @@
 	},
 	"unbound": {
 		"name": "unbound",
-		"file": "magicarmordisplayfe5d.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Unbound",
@@ -1964,7 +1865,6 @@
 	},
 	"unrighteous": {
 		"name": "unrighteous",
-		"file": "magicarmordisplayfd9b.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -1986,7 +1886,6 @@
 	},
 	"vigilant": {
 		"name": "vigilant",
-		"file": "magicarmordisplayc77d.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Vigilant",
@@ -2005,7 +1904,6 @@
 	},
 	"determination": {
 		"name": "determination",
-		"file": "magicarmordisplay6bdc.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -2027,7 +1925,6 @@
 	},
 	"greater_aquadynamic": {
 		"name": "greater aquadynamic",
-		"file": "magicarmordisplay16bd.html",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Aquadynamic",
@@ -2046,7 +1943,6 @@
 	},
 	"shadow,_greater": {
 		"name": "Shadow, Greater",
-		"file": "magicarmordisplayff1d.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2071,7 +1967,6 @@
 	},
 	"slick,_greater": {
 		"name": "Slick, Greater",
-		"file": "magicarmordisplay9c11.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2096,7 +1991,6 @@
 	},
 	"energy_resistance,_improved": {
 		"name": "Energy Resistance, Improved",
-		"file": "magicarmordisplaya307.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2121,7 +2015,6 @@
 	},
 	"etherealness": {
 		"name": "etherealness",
-		"file": "magicarmordisplayfdb2.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2143,7 +2036,6 @@
 	},
 	"undead_controlling": {
 		"name": "undead controlling",
-		"file": "magicarmordisplay8e05.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2165,7 +2057,6 @@
 	},
 	"energy_resistance,_greater": {
 		"name": "Energy Resistance, Greater",
-		"file": "magicarmordisplay0939.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2190,7 +2081,6 @@
 	},
 	"arrow_catching": {
 		"name": "arrow catching",
-		"file": "magicarmordisplay684a.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2212,7 +2102,6 @@
 	},
 	"assiduous": {
 		"name": "assiduous",
-		"file": "magicarmordisplay83ea.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Assiduous",
@@ -2231,7 +2120,6 @@
 	},
 	"bashing": {
 		"name": "bashing",
-		"file": "magicarmordisplaybe2c.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2253,7 +2141,6 @@
 	},
 	"blinding": {
 		"name": "blinding",
-		"file": "magicarmordisplay7fba.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2275,7 +2162,6 @@
 	},
 	"clangorous": {
 		"name": "clangorous",
-		"file": "magicarmordisplay343e.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Clangorous",
@@ -2294,7 +2180,6 @@
 	},
 	"folding": {
 		"name": "folding",
-		"file": "magicarmordisplay24f3.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Folding",
@@ -2313,7 +2198,6 @@
 	},
 	"guarding": {
 		"name": "guarding",
-		"file": "magicarmordisplay71ce.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Guarding",
@@ -2332,7 +2216,6 @@
 	},
 	"heraldric": {
 		"name": "heraldric",
-		"file": "magicarmordisplay7f5b.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Heraldric",
@@ -2351,7 +2234,6 @@
 	},
 	"ramming": {
 		"name": "ramming",
-		"file": "magicarmordisplaye2c7.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ramming",
@@ -2370,7 +2252,6 @@
 	},
 	"rebounding": {
 		"name": "rebounding",
-		"file": "magicarmordisplayb7d7.html",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Rebounding",
@@ -2389,7 +2270,6 @@
 	},
 	"singing": {
 		"name": "singing",
-		"file": "magicarmordisplayd0c4.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Singing",
@@ -2408,7 +2288,6 @@
 	},
 	"spellrending": {
 		"name": "spellrending",
-		"file": "magicarmordisplay5f11.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Spellrending",
@@ -2427,14 +2306,12 @@
 	},
 	"buoyant_shield": {
 		"name": "Buoyant (shield)",
-		"file": "magicarmordisplay1942.html",
 		"sources": [ "Magical Marketplace" ],
 		"copyof": "buoyant_light_armor",
 		"display": "magic/enhancements"
 	},
 	"animated": {
 		"name": "animated",
-		"file": "magicarmordisplayb41d.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2456,7 +2333,6 @@
 	},
 	"arrow_deflection": {
 		"name": "arrow deflection",
-		"file": "magicarmordisplay8c4f.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2478,7 +2354,6 @@
 	},
 	"guarding,_greater": {
 		"name": "Guarding, Greater",
-		"file": "magicarmordisplaye091.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Guarding, Greater",
@@ -2500,7 +2375,6 @@
 	},
 	"jawbreaker": {
 		"name": "jawbreaker",
-		"file": "magicarmordisplaybfb3.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Jawbreaker",
@@ -2523,7 +2397,6 @@
 	},
 	"mastering": {
 		"name": "mastering",
-		"file": "magicarmordisplayf176.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Mastering",
@@ -2542,7 +2415,6 @@
 	},
 	"merging": {
 		"name": "merging",
-		"file": "magicarmordisplayb0cf.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Merging",
@@ -2561,7 +2433,6 @@
 	},
 	"weeping": {
 		"name": "weeping",
-		"file": "magicarmordisplayd66a.html",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"## Weeping",
@@ -2580,7 +2451,6 @@
 	},
 	"wyrmsbreath": {
 		"name": "wyrmsbreath",
-		"file": "magicarmordisplay39e1.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Wyrmsbreath",
@@ -2599,7 +2469,6 @@
 	},
 	"deflecting": {
 		"name": "deflecting",
-		"file": "magicarmordisplayb3cc.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Deflecting",
@@ -2618,7 +2487,6 @@
 	},
 	"bastion": {
 		"name": "bastion",
-		"file": "magicarmordisplayeb30.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Bastion",
@@ -2637,7 +2505,6 @@
 	},
 	"channeling": {
 		"name": "channeling",
-		"file": "magicarmordisplaye144.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Channeling",
@@ -2656,7 +2523,6 @@
 	},
 	"reflecting": {
 		"name": "reflecting",
-		"file": "magicarmordisplayddab.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2678,7 +2544,6 @@
 	},
 	"shrinking": {
 		"name": "shrinking",
-		"file": "magicweaponsdisplayaa20.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Shrinking",
@@ -2697,7 +2562,6 @@
 	},
 	"agile": {
 		"name": "agile",
-		"file": "magicweaponsdisplay88a2.html",
 		"sources": [
 			"Pathfinder #100: A Song of Silver",
 			"Pathfinder Society Field Guide"
@@ -2719,7 +2583,6 @@
 	},
 	"allying": {
 		"name": "allying",
-		"file": "magicweaponsdisplay9ffa.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -2741,7 +2604,6 @@
 	},
 	"answering": {
 		"name": "answering",
-		"file": "magicweaponsdisplaye46b.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Answering",
@@ -2760,7 +2622,6 @@
 	},
 	"bane": {
 		"name": "bane",
-		"file": "magicweaponsdisplay5187.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2798,7 +2659,6 @@
 	},
 	"benevolent_weapon": {
 		"name": "benevolent (weapon)",
-		"file": "magicweaponsdisplay7b1c.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Benevolent",
@@ -2817,7 +2677,6 @@
 	},
 	"bewildering": {
 		"name": "bewildering",
-		"file": "magicweaponsdisplayca30.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Bewildering",
@@ -2836,7 +2695,6 @@
 	},
 	"blood-hunting": {
 		"name": "blood-hunting",
-		"file": "magicweaponsdisplay2e92.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Blood-Hunting",
@@ -2872,7 +2730,6 @@
 	},
 	"bloodsong": {
 		"name": "bloodsong",
-		"file": "magicweaponsdisplay84b0.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Bloodsong",
@@ -2891,7 +2748,6 @@
 	},
 	"brawling_weapon": {
 		"name": "brawling (weapon)",
-		"file": "magicweaponsdisplay9eee.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Brawling",
@@ -2910,7 +2766,6 @@
 	},
 	"breaking": {
 		"name": "breaking",
-		"file": "magicweaponsdisplay681f.html",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Breaking",
@@ -2929,7 +2784,6 @@
 	},
 	"called": {
 		"name": "called",
-		"file": "magicweaponsdisplayea17.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Called",
@@ -2948,7 +2802,6 @@
 	},
 	"catalytic": {
 		"name": "catalytic",
-		"file": "magicweaponsdisplaycc25.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Catalytic",
@@ -2967,7 +2820,6 @@
 	},
 	"compassionate": {
 		"name": "compassionate",
-		"file": "magicweaponsdisplay1539.html",
 		"sources": [ "Champions of Purity" ],
 		"description": [
 			"## Compassionate",
@@ -2986,7 +2838,6 @@
 	},
 	"conductive": {
 		"name": "conductive",
-		"file": "magicweaponsdisplaybe5c.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3008,7 +2859,6 @@
 	},
 	"confounding": {
 		"name": "confounding",
-		"file": "magicweaponsdisplay15be.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Confounding",
@@ -3027,7 +2877,6 @@
 	},
 	"corrosive": {
 		"name": "corrosive",
-		"file": "magicweaponsdisplayd947.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3049,7 +2898,6 @@
 	},
 	"countering": {
 		"name": "countering",
-		"file": "magicweaponsdisplay177c.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Countering",
@@ -3068,7 +2916,6 @@
 	},
 	"courageous": {
 		"name": "courageous",
-		"file": "magicweaponsdisplay3d95.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Courageous",
@@ -3087,7 +2934,6 @@
 	},
 	"cruel": {
 		"name": "cruel",
-		"file": "magicweaponsdisplayb70f.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Race Guide"
@@ -3109,7 +2955,6 @@
 	},
 	"cunning": {
 		"name": "cunning",
-		"file": "magicweaponsdisplay94fb.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3131,7 +2976,6 @@
 	},
 	"dazzling_radiance": {
 		"name": "dazzling radiance",
-		"file": "magicweaponsdisplay9786.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Dazzling Radiance",
@@ -3150,7 +2994,6 @@
 	},
 	"deadly": {
 		"name": "deadly",
-		"file": "magicweaponsdisplay7ae0.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Race Guide"
@@ -3172,7 +3015,6 @@
 	},
 	"debilitating": {
 		"name": "debilitating",
-		"file": "magicweaponsdisplayfa8d.html",
 		"sources": [ "Spymaster's Handbook" ],
 		"description": [
 			"## Debilitating",
@@ -3193,7 +3035,6 @@
 	},
 	"deceptive": {
 		"name": "deceptive",
-		"file": "magicweaponsdisplay40f4.html",
 		"sources": [ "Pathfinder Society Primer" ],
 		"description": [
 			"## Deceptive",
@@ -3212,7 +3053,6 @@
 	},
 	"defending": {
 		"name": "defending",
-		"file": "magicweaponsdisplay998d.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3234,7 +3074,6 @@
 	},
 	"disjoining": {
 		"name": "disjoining",
-		"file": "magicweaponsdisplaye216.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Disjoining",
@@ -3253,7 +3092,6 @@
 	},
 	"dispelling": {
 		"name": "dispelling",
-		"file": "magicweaponsdisplaydadf.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Dispelling",
@@ -3272,7 +3110,6 @@
 	},
 	"distracting": {
 		"name": "distracting",
-		"file": "magicweaponsdisplay3cd8.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Distracting",
@@ -3291,7 +3128,6 @@
 	},
 	"drowscourge": {
 		"name": "drowscourge",
-		"file": "magicweaponsdisplayfa3a.html",
 		"sources": [ "Faction Guide" ],
 		"description": [
 			"## Drowscourge",
@@ -3310,7 +3146,6 @@
 	},
 	"dueling_psfg": {
 		"name": "dueling (PSFG)",
-		"file": "magicweaponsdisplaye43d.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
 			"## Dueling (PSFG)",
@@ -3332,7 +3167,6 @@
 	},
 	"fate-stealing": {
 		"name": "fate-stealing",
-		"file": "magicweaponsdisplayf7bd.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Fate-Stealing",
@@ -3356,7 +3190,6 @@
 	},
 	"fervent": {
 		"name": "fervent",
-		"file": "magicweaponsdisplay0407.html",
 		"sources": [ "Quests and Campaigns" ],
 		"description": [
 			"## Fervent",
@@ -3377,7 +3210,6 @@
 	},
 	"flamboyant": {
 		"name": "flamboyant",
-		"file": "magicweaponsdisplay7f1d.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Flamboyant",
@@ -3398,7 +3230,6 @@
 	},
 	"flaming": {
 		"name": "flaming",
-		"file": "magicweaponsdisplay0b68.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3420,7 +3251,6 @@
 	},
 	"fortuitous": {
 		"name": "fortuitous",
-		"file": "magicweaponsdisplay60b6.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Fortuitous",
@@ -3439,7 +3269,6 @@
 	},
 	"frost": {
 		"name": "frost",
-		"file": "magicweaponsdisplayc7e5.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3461,7 +3290,6 @@
 	},
 	"furious": {
 		"name": "furious",
-		"file": "magicweaponsdisplay2060.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3483,7 +3311,6 @@
 	},
 	"ghost_touch_weapon": {
 		"name": "ghost touch (weapon)",
-		"file": "magicweaponsdisplay58b9.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3507,7 +3334,6 @@
 	},
 	"grayflame": {
 		"name": "grayflame",
-		"file": "magicweaponsdisplayf8d9.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3529,7 +3355,6 @@
 	},
 	"grounding": {
 		"name": "grounding",
-		"file": "magicweaponsdisplay0034.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Grounding",
@@ -3548,7 +3373,6 @@
 	},
 	"growing": {
 		"name": "growing",
-		"file": "magicweaponsdisplay430b.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Growing",
@@ -3567,7 +3391,6 @@
 	},
 	"guardian": {
 		"name": "guardian",
-		"file": "magicweaponsdisplayd09e.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder Society Field Guide"
@@ -3591,7 +3414,6 @@
 	},
 	"guided": {
 		"name": "guided",
-		"file": "magicweaponsdisplay4e49.html",
 		"sources": [ "Pathfinder #10: A History of Ashes" ],
 		"description": [
 			"## Guided",
@@ -3610,7 +3432,6 @@
 	},
 	"heartseeker": {
 		"name": "heartseeker",
-		"file": "magicweaponsdisplay32ec.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Heartseeker",
@@ -3629,7 +3450,6 @@
 	},
 	"huntsman": {
 		"name": "huntsman",
-		"file": "magicweaponsdisplay62d6.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3651,7 +3471,6 @@
 	},
 	"injecting": {
 		"name": "injecting",
-		"file": "magicweaponsdisplay7fee.html",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"## Injecting",
@@ -3670,7 +3489,6 @@
 	},
 	"inspired": {
 		"name": "inspired",
-		"file": "magicweaponsdisplayb274.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Inspired",
@@ -3689,7 +3507,6 @@
 	},
 	"jurist": {
 		"name": "jurist",
-		"file": "magicweaponsdisplay2f4f.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3711,7 +3528,6 @@
 	},
 	"keen": {
 		"name": "keen",
-		"file": "magicweaponsdisplay7362.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3733,7 +3549,6 @@
 	},
 	"ki_focus": {
 		"name": "ki focus",
-		"file": "magicweaponsdisplay636a.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3755,7 +3570,6 @@
 	},
 	"kinslayer": {
 		"name": "kinslayer",
-		"file": "magicweaponsdisplay4bc1.html",
 		"sources": [ "Quests and Campaigns" ],
 		"description": [
 			"## Kinslayer",
@@ -3774,7 +3588,6 @@
 	},
 	"leveraging": {
 		"name": "leveraging",
-		"file": "magicweaponsdisplay39a8.html",
 		"sources": [ "Weapon Master's Handbook" ],
 		"description": [
 			"## Leveraging",
@@ -3793,7 +3606,6 @@
 	},
 	"limning": {
 		"name": "limning",
-		"file": "magicweaponsdisplay5820.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Limning",
@@ -3812,7 +3624,6 @@
 	},
 	"menacing": {
 		"name": "menacing",
-		"file": "magicweaponsdisplay5615.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3834,7 +3645,6 @@
 	},
 	"merciful": {
 		"name": "merciful",
-		"file": "magicweaponsdisplay307a.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3856,7 +3666,6 @@
 	},
 	"mighty_cleaving": {
 		"name": "mighty cleaving",
-		"file": "magicweaponsdisplayed0d.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3878,7 +3687,6 @@
 	},
 	"mimetic": {
 		"name": "mimetic",
-		"file": "magicweaponsdisplaye444.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Mimetic",
@@ -3897,7 +3705,6 @@
 	},
 	"miserable": {
 		"name": "miserable",
-		"file": "magicweaponsdisplay3a52.html",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"## Miserable",
@@ -3916,7 +3723,6 @@
 	},
 	"mythic_bane": {
 		"name": "mythic bane",
-		"file": "magicweaponsdisplayd1e4.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Mythic Bane",
@@ -3935,7 +3741,6 @@
 	},
 	"neutralizing": {
 		"name": "neutralizing",
-		"file": "magicweaponsdisplayfa29.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Neutralizing",
@@ -3954,7 +3759,6 @@
 	},
 	"ominous": {
 		"name": "ominous",
-		"file": "magicweaponsdisplay1c40.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ominous",
@@ -3973,7 +3777,6 @@
 	},
 	"patriotic": {
 		"name": "patriotic",
-		"file": "magicweaponsdisplay061b.html",
 		"sources": [ "Quests and Campaigns" ],
 		"description": [
 			"## Patriotic",
@@ -3994,7 +3797,6 @@
 	},
 	"pitfall": {
 		"name": "pitfall",
-		"file": "magicweaponsdisplay204b.html",
 		"sources": [ "Taldor, Echoes of Glory" ],
 		"description": [
 			"## Pitfall",
@@ -4013,7 +3815,6 @@
 	},
 	"planar": {
 		"name": "planar",
-		"file": "magicweaponsdisplayb64b.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Planar",
@@ -4032,7 +3833,6 @@
 	},
 	"quenching": {
 		"name": "quenching",
-		"file": "magicweaponsdisplay36cc.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Quenching",
@@ -4051,7 +3851,6 @@
 	},
 	"rusting": {
 		"name": "rusting",
-		"file": "magicweaponsdisplayd376.html",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Rusting",
@@ -4070,7 +3869,6 @@
 	},
 	"sacred": {
 		"name": "sacred",
-		"file": "magicweaponsdisplayb6cb.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Sacred",
@@ -4091,7 +3889,6 @@
 	},
 	"sapping": {
 		"name": "sapping",
-		"file": "magicweaponsdisplayd35a.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Sapping",
@@ -4110,7 +3907,6 @@
 	},
 	"seaborne": {
 		"name": "seaborne",
-		"file": "magicweaponsdisplay0772.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Seaborne",
@@ -4129,7 +3925,6 @@
 	},
 	"shock": {
 		"name": "shock",
-		"file": "magicweaponsdisplayf62f.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4151,7 +3946,6 @@
 	},
 	"skewering": {
 		"name": "skewering",
-		"file": "magicweaponsdisplaya705.html",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
 			"## Skewering",
@@ -4170,7 +3964,6 @@
 	},
 	"slithering": {
 		"name": "slithering",
-		"file": "magicweaponsdisplayc335.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Slithering",
@@ -4189,7 +3982,6 @@
 	},
 	"smashing": {
 		"name": "smashing",
-		"file": "magicweaponsdisplay5f8c.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Smashing",
@@ -4208,7 +4000,6 @@
 	},
 	"spell_storing_weapon": {
 		"name": "spell storing (weapon)",
-		"file": "magicweaponsdisplayc4e1.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4232,7 +4023,6 @@
 	},
 	"spirit-hunting": {
 		"name": "spirit-hunting",
-		"file": "magicweaponsdisplay937b.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Spirit-Hunting",
@@ -4267,7 +4057,6 @@
 	},
 	"sticky": {
 		"name": "sticky",
-		"file": "magicweaponsdisplay1d86.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Sticky",
@@ -4286,7 +4075,6 @@
 	},
 	"summon_bane": {
 		"name": "summon bane",
-		"file": "magicweaponsdisplay165a.html",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
 			"## Summon Bane",
@@ -4305,7 +4093,6 @@
 	},
 	"thawing": {
 		"name": "thawing",
-		"file": "magicweaponsdisplay87ae.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Thawing",
@@ -4324,7 +4111,6 @@
 	},
 	"throwing": {
 		"name": "throwing",
-		"file": "magicweaponsdisplaya12d.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4346,7 +4132,6 @@
 	},
 	"thundering": {
 		"name": "thundering",
-		"file": "magicweaponsdisplaye500.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4368,7 +4153,6 @@
 	},
 	"training": {
 		"name": "training",
-		"file": "magicweaponsdisplay21f5.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Training",
@@ -4387,7 +4171,6 @@
 	},
 	"unaligned": {
 		"name": "unaligned",
-		"file": "magicweaponsdisplay2a87.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Unaligned",
@@ -4406,7 +4189,6 @@
 	},
 	"underwater": {
 		"name": "underwater",
-		"file": "magicweaponsdisplay276c.html",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Underwater",
@@ -4425,7 +4207,6 @@
 	},
 	"valiant": {
 		"name": "valiant",
-		"file": "magicweaponsdisplayd5e5.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Valiant",
@@ -4444,7 +4225,6 @@
 	},
 	"vampiric": {
 		"name": "vampiric",
-		"file": "magicweaponsdisplay4477.html",
 		"sources": [
 			"Horror Adventures",
 			"Weapon Master's Handbook"
@@ -4468,7 +4248,6 @@
 	},
 	"vicious": {
 		"name": "vicious",
-		"file": "magicweaponsdisplaye026.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4490,7 +4269,6 @@
 	},
 	"virulent": {
 		"name": "virulent",
-		"file": "magicweaponsdisplay5b08.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Virulent",
@@ -4509,7 +4287,6 @@
 	},
 	"prehensile": {
 		"name": "prehensile",
-		"file": "magicweaponsdisplay727e.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Prehensile",
@@ -4528,7 +4305,6 @@
 	},
 	"concealed,_lesser": {
 		"name": "concealed, lesser",
-		"file": "magicweaponsdisplay1854.html",
 		"sources": [ "Spymaster's Handbook" ],
 		"description": [
 			"## Concealed, Lesser",
@@ -4550,7 +4326,6 @@
 	},
 	"impervious_weapon": {
 		"name": "impervious (weapon)",
-		"file": "magicweaponsdisplay25e9.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Impervious",
@@ -4569,7 +4344,6 @@
 	},
 	"exclusionary": {
 		"name": "exclusionary",
-		"file": "magicweaponsdisplay664c.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Exclusionary",
@@ -4588,7 +4362,6 @@
 	},
 	"glamered_weapon": {
 		"name": "glamered (weapon)",
-		"file": "magicweaponsdisplay8e76.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Glamered",
@@ -4607,7 +4380,6 @@
 	},
 	"resizing": {
 		"name": "resizing",
-		"file": "magicweaponsdisplay8fa7.html",
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
 			"## Resizing",
@@ -4626,7 +4398,6 @@
 	},
 	"sacrosanct": {
 		"name": "sacrosanct",
-		"file": "magicweaponsdisplay3d70.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Sacrosanct",
@@ -4647,7 +4418,6 @@
 	},
 	"sneaky": {
 		"name": "sneaky",
-		"file": "magicweaponsdisplay9e56.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Sneaky",
@@ -4666,7 +4436,6 @@
 	},
 	"liberating_wmh": {
 		"name": "liberating (WMH)",
-		"file": "magicweaponsdisplay556f.html",
 		"sources": [ "Weapon Master's Handbook" ],
 		"description": [
 			"## Liberating (WMH)",
@@ -4685,7 +4454,6 @@
 	},
 	"concealed": {
 		"name": "concealed",
-		"file": "magicweaponsdisplay5be3.html",
 		"sources": [ "Spymaster's Handbook" ],
 		"description": [
 			"## Concealed",
@@ -4708,7 +4476,6 @@
 	},
 	"advancing_weapon": {
 		"name": "advancing (weapon)",
-		"file": "magicweaponsdisplaybd39.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Advancing",
@@ -4727,7 +4494,6 @@
 	},
 	"anarchic": {
 		"name": "anarchic",
-		"file": "magicweaponsdisplay7ea1.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4749,7 +4515,6 @@
 	},
 	"anchoring": {
 		"name": "anchoring",
-		"file": "magicweaponsdisplay103b.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Anchoring",
@@ -4768,7 +4533,6 @@
 	},
 	"axiomatic": {
 		"name": "axiomatic",
-		"file": "magicweaponsdisplay10ea.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4790,7 +4554,6 @@
 	},
 	"burning": {
 		"name": "burning",
-		"file": "magicweaponsdisplay275d.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Burning",
@@ -4813,7 +4576,6 @@
 	},
 	"corrosive_burst": {
 		"name": "corrosive burst",
-		"file": "magicweaponsdisplay33ac.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -4837,7 +4599,6 @@
 	},
 	"culling": {
 		"name": "culling",
-		"file": "magicweaponsdisplayc49d.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Culling",
@@ -4856,7 +4617,6 @@
 	},
 	"defiant_weapon": {
 		"name": "defiant (weapon)",
-		"file": "magicweaponsdisplayd4a7.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Defiant",
@@ -4875,7 +4635,6 @@
 	},
 	"dispelling_burst": {
 		"name": "dispelling burst",
-		"file": "magicweaponsdisplaydef7.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Dispelling Burst",
@@ -4896,7 +4655,6 @@
 	},
 	"disruption": {
 		"name": "disruption",
-		"file": "magicweaponsdisplayfc6d.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4918,7 +4676,6 @@
 	},
 	"distracting,_greater": {
 		"name": "distracting, greater",
-		"file": "magicweaponsdisplayb222.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Distracting, Greater",
@@ -4940,7 +4697,6 @@
 	},
 	"flaming_burst": {
 		"name": "flaming burst",
-		"file": "magicweaponsdisplay24ed.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4964,7 +4720,6 @@
 	},
 	"furyborn": {
 		"name": "furyborn",
-		"file": "magicweaponsdisplay1a71.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Furyborn",
@@ -4983,7 +4738,6 @@
 	},
 	"fury-born": {
 		"name": "fury-born",
-		"file": "magicweaponsdisplay1ec2.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Fury-Born",
@@ -5005,7 +4759,6 @@
 	},
 	"glorious": {
 		"name": "glorious",
-		"file": "magicweaponsdisplay481c.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Glorious",
@@ -5024,7 +4777,6 @@
 	},
 	"harvesting": {
 		"name": "harvesting",
-		"file": "magicweaponsdisplay15d7.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Harvesting",
@@ -5045,7 +4797,6 @@
 	},
 	"heretical": {
 		"name": "heretical",
-		"file": "magicweaponsdisplay7990.html",
 		"sources": [ "Quests and Campaigns" ],
 		"description": [
 			"## Heretical",
@@ -5064,7 +4815,6 @@
 	},
 	"holy": {
 		"name": "holy",
-		"file": "magicweaponsdisplay86e5.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5086,7 +4836,6 @@
 	},
 	"icy_burst": {
 		"name": "icy burst",
-		"file": "magicweaponsdisplay02b9.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5110,7 +4859,6 @@
 	},
 	"igniting": {
 		"name": "igniting",
-		"file": "magicweaponsdisplayd68b.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Igniting",
@@ -5129,7 +4877,6 @@
 	},
 	"impact": {
 		"name": "impact",
-		"file": "magicweaponsdisplay0a34.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Impact",
@@ -5148,7 +4895,6 @@
 	},
 	"invigorating": {
 		"name": "invigorating",
-		"file": "magicweaponsdisplay0e11.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Invigorating",
@@ -5167,7 +4913,6 @@
 	},
 	"ki_intensifying": {
 		"name": "ki intensifying",
-		"file": "magicweaponsdisplaya531.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ki Intensifying",
@@ -5190,7 +4935,6 @@
 	},
 	"legbreaker": {
 		"name": "legbreaker",
-		"file": "magicweaponsdisplayeb3b.html",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Legbreaker",
@@ -5209,7 +4953,6 @@
 	},
 	"liberating_ui": {
 		"name": "liberating (UI)",
-		"file": "magicweaponsdisplay5921.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Liberating (UI)",
@@ -5228,7 +4971,6 @@
 	},
 	"lifesurge": {
 		"name": "lifesurge",
-		"file": "magicweaponsdisplay6b41.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Lifesurge",
@@ -5249,7 +4991,6 @@
 	},
 	"negating": {
 		"name": "negating",
-		"file": "magicweaponsdisplayff10.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Negating",
@@ -5268,7 +5009,6 @@
 	},
 	"obliviating": {
 		"name": "obliviating",
-		"file": "magicweaponsdisplaye4a3.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Obliviating",
@@ -5287,7 +5027,6 @@
 	},
 	"peaceful": {
 		"name": "peaceful",
-		"file": "magicweaponsdisplay53f0.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Peaceful",
@@ -5306,7 +5045,6 @@
 	},
 	"phase_locking": {
 		"name": "phase locking",
-		"file": "magicweaponsdisplayac9c.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Phase Locking",
@@ -5325,7 +5063,6 @@
 	},
 	"planestriking": {
 		"name": "planestriking",
-		"file": "magicweaponsdisplay09d3.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Planestriking",
@@ -5344,7 +5081,6 @@
 	},
 	"potent": {
 		"name": "potent",
-		"file": "magicweaponsdisplaydd18.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Potent",
@@ -5363,7 +5099,6 @@
 	},
 	"quaking": {
 		"name": "quaking",
-		"file": "magicweaponsdisplayfbf2.html",
 		"sources": [ "Weapon Master's Handbook" ],
 		"description": [
 			"## Quaking",
@@ -5382,7 +5117,6 @@
 	},
 	"runeforged": {
 		"name": "runeforged",
-		"file": "magicweaponsdisplay2793.html",
 		"sources": [
 			"Rise of the Runelords Anniversary Edition",
 			"Pathfinder #5: Sins of the Saviors"
@@ -5426,7 +5160,6 @@
 	},
 	"sharding": {
 		"name": "sharding",
-		"file": "magicweaponsdisplay6d48.html",
 		"sources": [ "Weapon Master's Handbook" ],
 		"description": [
 			"## Sharding",
@@ -5445,7 +5178,6 @@
 	},
 	"shattering": {
 		"name": "shattering",
-		"file": "magicweaponsdisplay3aaa.html",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Shattering",
@@ -5466,7 +5198,6 @@
 	},
 	"shocking_burst": {
 		"name": "shocking burst",
-		"file": "magicweaponsdisplay4179.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5490,7 +5221,6 @@
 	},
 	"silencing": {
 		"name": "silencing",
-		"file": "magicweaponsdisplayc645.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Silencing",
@@ -5511,7 +5241,6 @@
 	},
 	"stalking": {
 		"name": "stalking",
-		"file": "magicweaponsdisplay7749.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Stalking",
@@ -5532,7 +5261,6 @@
 	},
 	"toxic": {
 		"name": "toxic",
-		"file": "magicweaponsdisplay52d2.html",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"## Toxic",
@@ -5551,7 +5279,6 @@
 	},
 	"treasonous": {
 		"name": "treasonous",
-		"file": "magicweaponsdisplay669f.html",
 		"sources": [ "Quests and Campaigns" ],
 		"description": [
 			"## Treasonous",
@@ -5570,7 +5297,6 @@
 	},
 	"truthful": {
 		"name": "truthful",
-		"file": "magicweaponsdisplay5f52.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Truthful",
@@ -5591,7 +5317,6 @@
 	},
 	"unholy": {
 		"name": "unholy",
-		"file": "magicweaponsdisplay85c0.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5613,7 +5338,6 @@
 	},
 	"unseen": {
 		"name": "unseen",
-		"file": "magicweaponsdisplayaf55.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Unseen",
@@ -5632,7 +5356,6 @@
 	},
 	"vampiric,_greater": {
 		"name": "vampiric, greater",
-		"file": "magicweaponsdisplay5ed3.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Vampiric, Greater",
@@ -5654,7 +5377,6 @@
 	},
 	"wounding": {
 		"name": "wounding",
-		"file": "magicweaponsdisplay05ea.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5676,7 +5398,6 @@
 	},
 	"transformative": {
 		"name": "transformative",
-		"file": "magicweaponsdisplayda85.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -5698,7 +5419,6 @@
 	},
 	"dueling": {
 		"name": "dueling",
-		"file": "magicweaponsdisplaycefb.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -5720,7 +5440,6 @@
 	},
 	"transformative,_greater": {
 		"name": "transformative, greater",
-		"file": "magicweaponsdisplay6f04.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Transformative, Greater",
@@ -5742,7 +5461,6 @@
 	},
 	"exhausting": {
 		"name": "exhausting",
-		"file": "magicweaponsdisplay3825.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Exhausting",
@@ -5761,7 +5479,6 @@
 	},
 	"flamboyant,_greater": {
 		"name": "flamboyant, greater",
-		"file": "magicweaponsdisplay3e82.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Flamboyant, Greater",
@@ -5783,7 +5500,6 @@
 	},
 	"gory": {
 		"name": "gory",
-		"file": "magicweaponsdisplay274e.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Gory",
@@ -5802,7 +5518,6 @@
 	},
 	"nullifying": {
 		"name": "nullifying",
-		"file": "magicweaponsdisplay6727.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Nullifying",
@@ -5821,7 +5536,6 @@
 	},
 	"redeemed": {
 		"name": "redeemed",
-		"file": "magicweaponsdisplayb2c8.html",
 		"sources": [ "Champions of Purity" ],
 		"description": [
 			"## Redeemed",
@@ -5840,7 +5554,6 @@
 	},
 	"repositioning": {
 		"name": "repositioning",
-		"file": "magicweaponsdisplay0cc4.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Repositioning",
@@ -5859,7 +5572,6 @@
 	},
 	"speed": {
 		"name": "speed",
-		"file": "magicweaponsdisplay6bb5.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5881,7 +5593,6 @@
 	},
 	"spellstealing": {
 		"name": "spellstealing",
-		"file": "magicweaponsdisplay7172.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Spellstealing",
@@ -5900,7 +5611,6 @@
 	},
 	"umbral": {
 		"name": "umbral",
-		"file": "magicweaponsdisplayb845.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Umbral",
@@ -5921,7 +5631,6 @@
 	},
 	"brilliant_energy": {
 		"name": "brilliant energy",
-		"file": "magicweaponsdisplay90ea.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5943,7 +5652,6 @@
 	},
 	"dancing": {
 		"name": "dancing",
-		"file": "magicweaponsdisplayca87.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5965,7 +5673,6 @@
 	},
 	"flying": {
 		"name": "flying",
-		"file": "magicweaponsdisplayef96.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Flying",
@@ -5984,7 +5691,6 @@
 	},
 	"spell_siphon": {
 		"name": "spell siphon",
-		"file": "magicweaponsdisplayd6ec.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Spell Siphon",
@@ -6005,7 +5711,6 @@
 	},
 	"vorpal": {
 		"name": "vorpal",
-		"file": "magicweaponsdisplay6b1e.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -6027,7 +5732,6 @@
 	},
 	"adaptive": {
 		"name": "adaptive",
-		"file": "magicweaponsdisplayadb6.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Adaptive",
@@ -6046,7 +5750,6 @@
 	},
 	"dry_load": {
 		"name": "dry load",
-		"file": "magicweaponsdisplay3982.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -6072,7 +5775,6 @@
 	},
 	"sniping_normal": {
 		"name": "sniping (normal)",
-		"file": "magicweaponsdisplay9a84.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Sniping (normal)",
@@ -6094,7 +5796,6 @@
 	},
 	"ambushing": {
 		"name": "ambushing",
-		"file": "magicweaponsdisplay6e89.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Ambushing",
@@ -6113,7 +5814,6 @@
 	},
 	"beaming": {
 		"name": "beaming",
-		"file": "magicweaponsdisplaye8a2.html",
 		"sources": [ "Blood of Shadows" ],
 		"description": [
 			"## Beaming",
@@ -6132,7 +5832,6 @@
 	},
 	"clustershot": {
 		"name": "clustershot",
-		"file": "magicweaponsdisplay8ae1.html",
 		"sources": [ "Elves of Golarion" ],
 		"description": [
 			"## Clustershot",
@@ -6151,7 +5850,6 @@
 	},
 	"conserving": {
 		"name": "conserving",
-		"file": "magicweaponsdisplayfeb8.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Conserving",
@@ -6170,7 +5868,6 @@
 	},
 	"distance": {
 		"name": "distance",
-		"file": "magicweaponsdisplay2c40.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -6192,7 +5889,6 @@
 	},
 	"driving": {
 		"name": "driving",
-		"file": "magicweaponsdisplay2198.html",
 		"sources": [ "Weapon Master's Handbook" ],
 		"description": [
 			"## Driving",
@@ -6211,7 +5907,6 @@
 	},
 	"healer's_sorrow": {
 		"name": "healer's sorrow",
-		"file": "magicweaponsdisplay063e.html",
 		"sources": [ "Elves of Golarion" ],
 		"description": [
 			"## Healer's Sorrow",
@@ -6230,7 +5925,6 @@
 	},
 	"lucky": {
 		"name": "lucky",
-		"file": "magicweaponsdisplay8a2b.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -6252,7 +5946,6 @@
 	},
 	"plummeting": {
 		"name": "plummeting",
-		"file": "magicweaponsdisplay9117.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Plummeting",
@@ -6271,7 +5964,6 @@
 	},
 	"reliable": {
 		"name": "reliable",
-		"file": "magicweaponsdisplayae55.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -6293,7 +5985,6 @@
 	},
 	"returning": {
 		"name": "returning",
-		"file": "magicweaponsdisplayc81f.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -6315,7 +6006,6 @@
 	},
 	"seeking": {
 		"name": "seeking",
-		"file": "magicweaponsdisplayef15.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -6337,7 +6027,6 @@
 	},
 	"shadowshooting": {
 		"name": "shadowshooting",
-		"file": "magicweaponsdisplay344a.html",
 		"sources": [ "Blood of Shadows" ],
 		"description": [
 			"## Shadowshooting",
@@ -6358,7 +6047,6 @@
 	},
 	"sparkfly_crystal_arrow": {
 		"name": "sparkfly crystal arrow",
-		"file": "magicweaponsdisplayf856.html",
 		"sources": [ "Elves of Golarion" ],
 		"description": [
 			"## Sparkfly Crystal Arrow",
@@ -6377,7 +6065,6 @@
 	},
 	"spell_hurling": {
 		"name": "spell hurling",
-		"file": "magicweaponsdisplay9eae.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Spell Hurling",
@@ -6396,7 +6083,6 @@
 	},
 	"veering": {
 		"name": "veering",
-		"file": "magicweaponsdisplay6704.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Veering",
@@ -6415,7 +6101,6 @@
 	},
 	"phantom_ammunition": {
 		"name": "phantom ammunition",
-		"file": "magicweaponsdisplaycf53.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Phantom Ammunition",
@@ -6436,7 +6121,6 @@
 	},
 	"sniping_improved": {
 		"name": "sniping (improved)",
-		"file": "magicweaponsdisplay5950.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Sniping (improved)",
@@ -6458,7 +6142,6 @@
 	},
 	"cyclonic": {
 		"name": "cyclonic",
-		"file": "magicweaponsdisplayb87c.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Cyclonic",
@@ -6477,7 +6160,6 @@
 	},
 	"dazzling": {
 		"name": "dazzling",
-		"file": "magicweaponsdisplayd65c.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Dazzling",
@@ -6496,7 +6178,6 @@
 	},
 	"designating_lesser": {
 		"name": "designating (lesser)",
-		"file": "magicweaponsdisplayacaf.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Designating (lesser)",
@@ -6518,7 +6199,6 @@
 	},
 	"endless_ammunition": {
 		"name": "endless ammunition",
-		"file": "magicweaponsdisplaya79d.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Endless Ammunition",
@@ -6539,7 +6219,6 @@
 	},
 	"glitterwake": {
 		"name": "glitterwake",
-		"file": "magicweaponsdisplaydfd4.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Glitterwake",
@@ -6558,7 +6237,6 @@
 	},
 	"penetrating": {
 		"name": "penetrating",
-		"file": "magicweaponsdisplayf02d.html",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Penetrating",
@@ -6577,7 +6255,6 @@
 	},
 	"sniping": {
 		"name": "sniping",
-		"file": "magicweaponsdisplay95cd.html",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Sniping",
@@ -6596,7 +6273,6 @@
 	},
 	"sniping_greater": {
 		"name": "sniping (greater)",
-		"file": "magicweaponsdisplay6fd5.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Sniping (greater)",
@@ -6618,7 +6294,6 @@
 	},
 	"lucky,_greater": {
 		"name": "lucky, greater",
-		"file": "magicweaponsdisplay4a0c.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -6643,7 +6318,6 @@
 	},
 	"reliable_greater": {
 		"name": "reliable (greater)",
-		"file": "magicweaponsdisplayc4a5.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Ultimate Combat"
@@ -6668,7 +6342,6 @@
 	},
 	"sonic_boom": {
 		"name": "sonic boom",
-		"file": "magicweaponsdisplay87bc.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Sonic Boom",
@@ -6687,7 +6360,6 @@
 	},
 	"tailwind": {
 		"name": "tailwind",
-		"file": "magicweaponsdisplay5522.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Tailwind",
@@ -6706,7 +6378,6 @@
 	},
 	"designating_greater": {
 		"name": "designating (greater)",
-		"file": "magicweaponsdisplay15c8.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Designating (greater)",
@@ -6728,7 +6399,6 @@
 	},
 	"nimble_shot": {
 		"name": "nimble shot",
-		"file": "magicweaponsdisplayc24b.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Nimble Shot",
@@ -6747,7 +6417,6 @@
 	},
 	"second_chance": {
 		"name": "second chance",
-		"file": "magicweaponsdisplayb60c.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Second Chance",
@@ -6766,7 +6435,6 @@
 	},
 	"heart-piercing": {
 		"name": "heart-piercing",
-		"file": "magicweaponsdisplayb795.html",
 		"sources": [ "Weapon Master's Handbook" ],
 		"description": [
 			"## Heart-Piercing",
@@ -6788,7 +6456,6 @@
 	},
 	"interfering": {
 		"name": "interfering",
-		"file": "magicweaponsdisplay3628.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Interfering",

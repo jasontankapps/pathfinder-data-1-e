@@ -2,7 +2,6 @@
 	"_prefix": "archetype-ninja",
 	"frozen_shadow": {
 		"name": "Frozen Shadow",
-		"file": "archetypedisplay3964.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Frozen Shadow",
@@ -34,7 +33,6 @@
 	},
 	"gunpowder_bombardier": {
 		"name": "Gunpowder Bombardier",
-		"file": "archetypedisplay0d8c.html",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
 			"## Gunpowder Bombardier",
@@ -58,7 +56,6 @@
 	},
 	"hunting_serpent": {
 		"name": "Hunting Serpent",
-		"file": "archetypedisplay8fb0.html",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Hunting Serpent",
@@ -86,7 +83,6 @@
 	},
 	"mask_of_the_living_god": {
 		"name": "Mask of the Living God",
-		"file": "archetypedisplayff53.html",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
 			"## Mask of the Living God",
@@ -120,7 +116,6 @@
 	},
 	"petal_ninja": {
 		"name": "Petal Ninja",
-		"file": "archetypedisplay3296.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Petal Ninja",

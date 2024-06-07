@@ -2,7 +2,6 @@
 	"_prefix": "magic-plant",
 	"grabbing_vines": {
 		"name": "Grabbing Vines",
-		"file": "magicplantsdisplay4f4b.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Grabbing Vines",
@@ -23,7 +22,6 @@
 	},
 	"tree_of_knowledge": {
 		"name": "Tree of Knowledge",
-		"file": "magicplantsdisplay5475.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Tree of Knowledge",
@@ -44,7 +42,6 @@
 	},
 	"restful_birch": {
 		"name": "Restful Birch",
-		"file": "magicplantsdisplay9961.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Restful Birch",
@@ -67,7 +64,6 @@
 	},
 	"fireapple_tree": {
 		"name": "Fireapple Tree",
-		"file": "magicplantsdisplay433e.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Fireapple Tree",
@@ -88,7 +84,6 @@
 	},
 	"cleanthistle": {
 		"name": "Cleanthistle",
-		"file": "magicplantsdisplayd182.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Cleanthistle",
@@ -109,7 +104,6 @@
 	},
 	"goodberry_bush": {
 		"name": "Goodberry Bush",
-		"file": "magicplantsdisplay739b.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Goodberry Bush",
@@ -130,7 +124,6 @@
 	},
 	"salvation_cactus": {
 		"name": "Salvation Cactus",
-		"file": "magicplantsdisplay5e01.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Salvation Cactus",
@@ -151,7 +144,6 @@
 	},
 	"palm_of_decadent_feasts": {
 		"name": "Palm of Decadent Feasts",
-		"file": "magicplantsdisplayce1e.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Palm of Decadent Feasts",
@@ -172,7 +164,6 @@
 	},
 	"breezeblown_dandelion": {
 		"name": "Breezeblown Dandelion",
-		"file": "magicplantsdisplay0ce3.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Breezeblown Dandelion",
@@ -193,7 +184,6 @@
 	},
 	"ghostblossom": {
 		"name": "Ghostblossom",
-		"file": "magicplantsdisplayfc9f.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Ghostblossom",
@@ -214,7 +204,6 @@
 	},
 	"acidic_lemon_tree": {
 		"name": "Acidic Lemon Tree",
-		"file": "magicplantsdisplaya7dd.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Acidic Lemon Tree",
@@ -235,7 +224,6 @@
 	},
 	"altitude_fern": {
 		"name": "Altitude Fern",
-		"file": "magicplantsdisplaybffd.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Altitude Fern",
@@ -256,7 +244,6 @@
 	},
 	"helping_hands_vine": {
 		"name": "Helping Hands Vine",
-		"file": "magicplantsdisplay6645.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Helping Hands Vine",
@@ -277,7 +264,6 @@
 	},
 	"sheltershrub": {
 		"name": "Sheltershrub",
-		"file": "magicplantsdisplay6b83.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Sheltershrub",
@@ -298,7 +284,6 @@
 	},
 	"gravebane_petals": {
 		"name": "Gravebane Petals",
-		"file": "magicplantsdisplaya823.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Gravebane Petals",
@@ -319,7 +304,6 @@
 	},
 	"tree_of_woe": {
 		"name": "Tree of Woe",
-		"file": "magicplantsdisplay6460.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Tree of Woe",
@@ -340,7 +324,6 @@
 	},
 	"ambrosial_lotus": {
 		"name": "Ambrosial Lotus",
-		"file": "magicplantsdisplayf99f.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Ambrosial Lotus",
@@ -361,7 +344,6 @@
 	},
 	"fishweed": {
 		"name": "Fishweed",
-		"file": "magicplantsdisplay0aae.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Fishweed",
@@ -382,7 +364,6 @@
 	},
 	"waterwalk_reeds": {
 		"name": "Waterwalk Reeds",
-		"file": "magicplantsdisplay6dfc.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Waterwalk Reeds",
@@ -403,7 +384,6 @@
 	},
 	"portal_oak": {
 		"name": "Portal Oak",
-		"file": "magicplantsdisplay42c7.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Portal Oak",
@@ -424,7 +404,6 @@
 	},
 	"poison_siphon_tree": {
 		"name": "Poison Siphon Tree",
-		"file": "magicplantsdisplayc1c3.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Poison Siphon Tree",

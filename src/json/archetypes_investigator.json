@@ -2,7 +2,6 @@
 	"_prefix": "archetype-investigator",
 	"antiquarian": {
 		"name": "Antiquarian",
-		"file": "archetypedisplayee01.html",
 		"sources": [ "Blood of the Ancients" ],
 		"description": [
 			"## Antiquarian",
@@ -34,7 +33,6 @@
 	},
 	"bonded_investigator": {
 		"name": "Bonded Investigator",
-		"file": "archetypedisplay6e51.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Bonded Investigator",
@@ -64,7 +62,6 @@
 	},
 	"cartographer": {
 		"name": "Cartographer",
-		"file": "archetypedisplay5837.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Cartographer",
@@ -98,7 +95,6 @@
 	},
 	"cipher": {
 		"name": "Cipher",
-		"file": "archetypedisplay23c0.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Cipher",
@@ -146,7 +142,6 @@
 	},
 	"conspirator": {
 		"name": "Conspirator",
-		"file": "archetypedisplayd5aa.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Conspirator",
@@ -168,7 +163,6 @@
 	},
 	"cryptid_scholar": {
 		"name": "Cryptid Scholar",
-		"file": "archetypedisplay1715.html",
 		"sources": [ "Magic Tactics Toolbox" ],
 		"description": [
 			"## Cryptid Scholar",
@@ -194,7 +188,6 @@
 	},
 	"cult_hunter": {
 		"name": "Cult Hunter",
-		"file": "archetypedisplay3f33.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Cult Hunter",
@@ -242,7 +235,6 @@
 	},
 	"dread_investigator": {
 		"name": "Dread Investigator",
-		"file": "archetypedisplay202f.html",
 		"sources": [ "Cohorts and Companions" ],
 		"description": [
 			"## Dread Investigator",
@@ -266,7 +258,6 @@
 	},
 	"empiricist": {
 		"name": "Empiricist",
-		"file": "archetypedisplayb9d9.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Empiricist",
@@ -286,7 +277,6 @@
 	},
 	"engineer": {
 		"name": "Engineer",
-		"file": "archetypedisplay10a2.html",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"## Engineer",
@@ -306,7 +296,6 @@
 	},
 	"forensic_physician": {
 		"name": "Forensic Physician",
-		"file": "archetypedisplay7b59.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Forensic Physician",
@@ -332,7 +321,6 @@
 	},
 	"gravedigger": {
 		"name": "Gravedigger",
-		"file": "archetypedisplayef83.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Gravedigger",
@@ -378,7 +366,6 @@
 	},
 	"guardian_of_immortality": {
 		"name": "Guardian of Immortality",
-		"file": "archetypedisplay5135.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Guardian of Immortality",
@@ -412,7 +399,6 @@
 	},
 	"hallucinist": {
 		"name": "Hallucinist",
-		"file": "archetypedisplayb127.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Hallucinist",
@@ -448,7 +434,6 @@
 	},
 	"holomog_demolitionist": {
 		"name": "Holomog Demolitionist",
-		"file": "archetypedisplay9339.html",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
 			"## Holomog Demolitionist",
@@ -482,7 +467,6 @@
 	},
 	"infiltrator": {
 		"name": "Infiltrator",
-		"file": "archetypedisplay3b23-2.html",
 		"sources": [],
 		"description": [
 			"## Infiltrator",
@@ -511,7 +495,6 @@
 	},
 	"jinyiwei": {
 		"name": "Jinyiwei",
-		"file": "archetypedisplay8392.html",
 		"sources": [ "Blood of the Ancients" ],
 		"description": [
 			"## Jinyiwei",
@@ -539,7 +522,6 @@
 	},
 	"lamplighter": {
 		"name": "Lamplighter",
-		"file": "archetypedisplay1ca3.html",
 		"sources": [ "Heroes of the Streets" ],
 		"description": [
 			"## Lamplighter",
@@ -559,7 +541,6 @@
 	},
 	"lepidstadt_inspector": {
 		"name": "Lepidstadt Inspector",
-		"file": "archetypedisplay79c7.html",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
 			"## Lepidstadt Inspector",
@@ -579,7 +560,6 @@
 	},
 	"majordomo": {
 		"name": "Majordomo",
-		"file": "archetypedisplayd0f0.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Majordomo",
@@ -615,7 +595,6 @@
 	},
 	"malice_binder": {
 		"name": "Malice Binder",
-		"file": "archetypedisplayb5ac.html",
 		"sources": [ "Blood of the Coven" ],
 		"description": [
 			"## Malice Binder",
@@ -669,7 +648,6 @@
 	},
 	"mastermind": {
 		"name": "Mastermind",
-		"file": "archetypedisplay9d91.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Mastermind",
@@ -695,7 +673,6 @@
 	},
 	"natural_philosopher": {
 		"name": "Natural Philosopher",
-		"file": "archetypedisplay5ebf.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Natural Philosopher",
@@ -727,7 +704,6 @@
 	},
 	"portal_seeker": {
 		"name": "Portal Seeker",
-		"file": "archetypedisplay7e4f.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Portal Seeker",
@@ -761,7 +737,6 @@
 	},
 	"profiler": {
 		"name": "Profiler",
-		"file": "archetypedisplay43ad.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Profiler",
@@ -791,7 +766,6 @@
 	},
 	"psychic_detective": {
 		"name": "Psychic Detective",
-		"file": "archetypedisplay5e7c.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Psychic Detective",
@@ -831,7 +805,6 @@
 	},
 	"questioner": {
 		"name": "Questioner",
-		"file": "archetypedisplay5f25.html",
 		"sources": [ "Magic Tactics Toolbox" ],
 		"description": [
 			"## Questioner",
@@ -865,7 +838,6 @@
 	},
 	"reckless_epicurean": {
 		"name": "Reckless Epicurean",
-		"file": "archetypedisplaya43d.html",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Reckless Epicurean",
@@ -891,7 +863,6 @@
 	},
 	"ruthless_agent": {
 		"name": "Ruthless Agent",
-		"file": "archetypedisplay779e.html",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Ruthless Agent",
@@ -935,7 +906,6 @@
 	},
 	"scavenger": {
 		"name": "Scavenger",
-		"file": "archetypedisplaya1c3.html",
 		"sources": [ "Blood of the Beast" ],
 		"description": [
 			"## Scavenger",
@@ -965,7 +935,6 @@
 	},
 	"skeptic": {
 		"name": "Skeptic",
-		"file": "archetypedisplay2a4b.html",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
 			"## Skeptic",
@@ -993,7 +962,6 @@
 	},
 	"sleuth": {
 		"name": "Sleuth",
-		"file": "archetypedisplaydb90.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Sleuth",
@@ -1037,7 +1005,6 @@
 	},
 	"spiritualist": {
 		"name": "Spiritualist",
-		"file": "archetypedisplaya502.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Spiritualist",
@@ -1067,7 +1034,6 @@
 	},
 	"star_watcher": {
 		"name": "Star Watcher",
-		"file": "archetypedisplay799e.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Star Watcher",
@@ -1107,7 +1073,6 @@
 	},
 	"steel_hound": {
 		"name": "Steel Hound",
-		"file": "archetypedisplay263d.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Steel Hound",
@@ -1131,7 +1096,6 @@
 	},
 	"tekritanin_arbiter": {
 		"name": "Tekritanin Arbiter",
-		"file": "archetypedisplay6024.html",
 		"sources": [ "Blood of the Ancients" ],
 		"description": [
 			"## Tekritanin Arbiter",
@@ -1159,7 +1123,6 @@
 	},
 	"toxin_codexer": {
 		"name": "Toxin Codexer",
-		"file": "archetypedisplay2440.html",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Toxin Codexer",

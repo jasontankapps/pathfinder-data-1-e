@@ -2,7 +2,6 @@
 	"_prefix": "archetype-antipaladin",
 	"blighted_myrmidon": {
 		"name": "Blighted Myrmidon",
-		"file": "archetypedisplayfb0e.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Blighted Myrmidon",
@@ -38,7 +37,6 @@
 	},
 	"dread_vanguard": {
 		"name": "Dread Vanguard",
-		"file": "archetypedisplay654f.html",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
 			"## Dread Vanguard",
@@ -72,7 +70,6 @@
 	},
 	"fearmonger": {
 		"name": "Fearmonger",
-		"file": "archetypedisplay8856.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Fearmonger",
@@ -94,7 +91,6 @@
 	},
 	"insinuator": {
 		"name": "Insinuator",
-		"file": "archetypedisplay0e8c.html",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"## Insinuator",
@@ -152,7 +148,6 @@
 	},
 	"iron_tyrant": {
 		"name": "Iron Tyrant",
-		"file": "archetypedisplayed58.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Iron Tyrant",
@@ -184,7 +179,6 @@
 	},
 	"knight_of_the_sepulcher": {
 		"name": "Knight of the Sepulcher",
-		"file": "archetypedisplay5c54.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Knight of the Sepulcher",
@@ -214,7 +208,6 @@
 	},
 	"rough_rampager": {
 		"name": "Rough Rampager",
-		"file": "archetypedisplay5e4d.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Rough Rampager",
@@ -232,7 +225,6 @@
 	},
 	"seal-breaker": {
 		"name": "Seal-Breaker",
-		"file": "archetypedisplay025d.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Seal-Breaker",
@@ -258,7 +250,6 @@
 	},
 	"tyrant": {
 		"name": "Tyrant",
-		"file": "archetypedisplay3334.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Tyrant",

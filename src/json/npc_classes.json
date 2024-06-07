@@ -2,7 +2,6 @@
 	"_prefix": "class-npc",
 	"adept": {
 		"name": "adept",
-		"file": "NPC_adept.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Blood of the Beast"
@@ -67,7 +66,6 @@
 	},
 	"aristocrat": {
 		"name": "aristocrat",
-		"file": "NPC_aristocrat.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Blood of the Beast"
@@ -116,7 +114,6 @@
 	},
 	"commoner": {
 		"name": "commoner",
-		"file": "NPC_commoner.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Blood of the Beast"
@@ -165,7 +162,6 @@
 	},
 	"expert": {
 		"name": "expert",
-		"file": "NPC_expert.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Blood of the Beast"
@@ -214,7 +210,6 @@
 	},
 	"warrior": {
 		"name": "warrior",
-		"file": "NPC_warrior.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Blood of the Beast"

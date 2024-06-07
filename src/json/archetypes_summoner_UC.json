@@ -2,7 +2,6 @@
 	"_prefix": "archetype-summoner-uc",
 	"construct_caller": {
 		"name": "Construct Caller",
-		"file": "archetypedisplay48c1.html",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"## Construct Caller",
@@ -22,7 +21,6 @@
 	},
 	"devil_binder": {
 		"name": "Devil Binder",
-		"file": "archetypedisplayf823.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Devil Binder",
@@ -54,7 +52,6 @@
 	},
 	"devil_impostor": {
 		"name": "Devil Impostor",
-		"file": "archetypedisplay77b5.html",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"## Devil Impostor",
@@ -80,7 +77,6 @@
 	},
 	"fey_caller": {
 		"name": "Fey Caller",
-		"file": "archetypedisplayb8be.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Fey Caller",
@@ -124,7 +120,6 @@
 	},
 	"god_caller": {
 		"name": "God Caller",
-		"file": "archetypedisplay8ec9.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## God Caller",
@@ -160,7 +155,6 @@
 	},
 	"leshy_caller": {
 		"name": "Leshy Caller",
-		"file": "archetypedisplay19d6.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Leshy Caller",
@@ -196,7 +190,6 @@
 	},
 	"soulbound_summoner": {
 		"name": "Soulbound Summoner",
-		"file": "archetypedisplaycbb0.html",
 		"sources": [ "Pathfinder #144: Midwives to Death" ],
 		"description": [
 			"## Soulbound Summoner",
@@ -224,7 +217,6 @@
 	},
 	"storm_caller": {
 		"name": "Storm Caller",
-		"file": "archetypedisplay336c.html",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
 			"## Storm Caller",
@@ -264,7 +256,6 @@
 	},
 	"twinned_summoner": {
 		"name": "Twinned Summoner",
-		"file": "archetypedisplay4a96.html",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"## Twinned Summoner",

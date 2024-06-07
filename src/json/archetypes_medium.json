@@ -2,7 +2,6 @@
 	"_prefix": "archetype-medium",
 	"fiend_keeper": {
 		"name": "Fiend Keeper",
-		"file": "archetypedisplay39e9.html",
 		"sources": [ "Blood of the Beast" ],
 		"description": [
 			"## Fiend Keeper",
@@ -36,7 +35,6 @@
 	},
 	"kami_medium": {
 		"name": "Kami Medium",
-		"file": "archetypedisplay26c3.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Kami Medium",
@@ -66,7 +64,6 @@
 	},
 	"medium_of_the_master": {
 		"name": "Medium of the Master",
-		"file": "archetypedisplayac7b.html",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
 			"## Medium of the Master",
@@ -118,7 +115,6 @@
 	},
 	"nexian_channeler": {
 		"name": "Nexian Channeler",
-		"file": "archetypedisplayd68a.html",
 		"sources": [ "Occult Origins" ],
 		"description": [
 			"## Nexian Channeler",
@@ -140,7 +136,6 @@
 	},
 	"outer_channeler": {
 		"name": "Outer Channeler",
-		"file": "archetypedisplay618c.html",
 		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Outer Channeler",
@@ -182,7 +177,6 @@
 	},
 	"reanimated_medium": {
 		"name": "Reanimated Medium",
-		"file": "archetypedisplay7609.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Reanimated Medium",
@@ -210,7 +204,6 @@
 	},
 	"relic_channeler": {
 		"name": "Relic Channeler",
-		"file": "archetypedisplay50e6.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Relic Channeler",
@@ -232,7 +225,6 @@
 	},
 	"rivethun_spirit_channeler": {
 		"name": "Rivethun Spirit Channeler",
-		"file": "archetypedisplay0313.html",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
 			"## Rivethun Spirit Channeler",
@@ -264,7 +256,6 @@
 	},
 	"spirit_dancer": {
 		"name": "Spirit Dancer",
-		"file": "archetypedisplay8082.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Spirit Dancer",
@@ -298,7 +289,6 @@
 	},
 	"spirit_eater": {
 		"name": "Spirit Eater",
-		"file": "archetypedisplaycddd.html",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
 			"## Spirit Eater",
@@ -320,7 +310,6 @@
 	},
 	"storm_dreamer": {
 		"name": "Storm Dreamer",
-		"file": "archetypedisplay7412.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Storm Dreamer",
@@ -352,7 +341,6 @@
 	},
 	"storyteller": {
 		"name": "Storyteller",
-		"file": "archetypedisplayb77b.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Storyteller",
@@ -386,7 +374,6 @@
 	},
 	"uda_wendo": {
 		"name": "Uda Wendo",
-		"file": "archetypedisplayf375.html",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
 			"## Uda Wendo",
@@ -424,7 +411,6 @@
 	},
 	"vessel_of_the_failed": {
 		"name": "Vessel of the Failed",
-		"file": "archetypedisplaya643.html",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
 			"## Vessel of the Failed",
@@ -476,7 +462,6 @@
 	},
 	"voice_of_the_void": {
 		"name": "Voice of the Void",
-		"file": "archetypedisplay9362.html",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Voice of the Void",

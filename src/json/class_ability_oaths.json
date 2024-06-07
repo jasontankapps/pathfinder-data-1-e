@@ -2,7 +2,6 @@
 	"_prefix": "class_abilities-oath",
 	"oath_against_chaos": {
 		"name": "Oath against Chaos",
-		"file": "oathdisplayb4a4.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Oath against Chaos",
@@ -25,7 +24,6 @@
 	},
 	"oath_against_corruption": {
 		"name": "Oath against Corruption",
-		"file": "oathdisplay3ffc.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Oath against Corruption",
@@ -50,7 +48,6 @@
 	},
 	"oath_against_fiends": {
 		"name": "Oath against Fiends",
-		"file": "oathdisplaya821.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Oath against Fiends",
@@ -75,7 +72,6 @@
 	},
 	"oath_against_grotesquery": {
 		"name": "Oath against Grotesquery",
-		"file": "oathdisplay6faf.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Oath against Grotesquery",
@@ -96,7 +92,6 @@
 	},
 	"oath_against_savagery": {
 		"name": "Oath against Savagery",
-		"file": "oathdisplay0c3f.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Oath against Savagery",
@@ -117,7 +112,6 @@
 	},
 	"oath_against_the_whispering_way": {
 		"name": "Oath against the Whispering Way",
-		"file": "oathdisplay3ced.html",
 		"sources": [ "Divine Anthology" ],
 		"description": [
 			"## Oath against the Whispering Way",
@@ -138,7 +132,6 @@
 	},
 	"oath_against_the_wyrm": {
 		"name": "Oath against the Wyrm",
-		"file": "oathdisplay5189.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Oath against the Wyrm",
@@ -161,7 +154,6 @@
 	},
 	"oath_against_undeath": {
 		"name": "Oath against Undeath",
-		"file": "oathdisplay2c93.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Oath against Undeath",
@@ -188,7 +180,6 @@
 	},
 	"oath_of_charity": {
 		"name": "Oath of Charity",
-		"file": "oathdisplay4e9a.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Oath of Charity",
@@ -209,7 +200,6 @@
 	},
 	"oath_of_chastity": {
 		"name": "Oath of Chastity",
-		"file": "oathdisplay2b7b.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Oath of Chastity",
@@ -230,7 +220,6 @@
 	},
 	"oath_of_loyalty": {
 		"name": "Oath of Loyalty",
-		"file": "oathdisplay12ad.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Oath of Loyalty",
@@ -253,7 +242,6 @@
 	},
 	"oath_of_the_mendevian_crusade": {
 		"name": "Oath of the Mendevian Crusade",
-		"file": "oathdisplay24d9.html",
 		"sources": [ "Divine Anthology" ],
 		"description": [
 			"## Oath of the Mendevian Crusade",
@@ -278,7 +266,6 @@
 	},
 	"oath_of_the_people's_council": {
 		"name": "Oath of the People's Council",
-		"file": "oathdisplay5644.html",
 		"sources": [ "Divine Anthology" ],
 		"description": [
 			"## Oath of the People's Council",
@@ -311,7 +298,6 @@
 	},
 	"oath_of_the_skyseeker": {
 		"name": "Oath of the Skyseeker",
-		"file": "oathdisplay2970.html",
 		"sources": [ "Divine Anthology" ],
 		"description": [
 			"## Oath of the Skyseeker",
@@ -346,7 +332,6 @@
 	},
 	"oath_of_vengeance": {
 		"name": "Oath of Vengeance",
-		"file": "oathdisplayb39a.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Oath of Vengeance",

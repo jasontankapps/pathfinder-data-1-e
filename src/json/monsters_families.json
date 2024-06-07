@@ -2,7 +2,6 @@
 	"_prefix": "monster-family",
 	"aeon": {
 		"name": "Aeon",
-		"file": "monsterfamiliesc452.html",
 		"sources": [ "Bestiary 2" ],
 		"members": [
 			"- [Agnoia](monster/agnoia)",
@@ -48,7 +47,6 @@
 	},
 	"agathion": {
 		"name": "Agathion",
-		"file": "monsterfamiliesb5c3.html",
 		"sources": [ "Bestiary 2" ],
 		"members": [
 			"- [Avoral](monster/avoral)",
@@ -98,7 +96,6 @@
 	},
 	"alghollthu": {
 		"name": "Alghollthu",
-		"file": "monsterfamiliesf34c.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Aboleth](monster/aboleth)",
@@ -119,7 +116,6 @@
 	},
 	"angel": {
 		"name": "Angel",
-		"file": "monsterfamilies1c35.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Astral Deva](monster/astral_deva)",
@@ -181,7 +177,6 @@
 	},
 	"archdevil": {
 		"name": "Archdevil",
-		"file": "monsterfamilies8675.html",
 		"sources": [ "Bestiary 6" ],
 		"members": [
 			"- [Baalzebul](monster/baalzebul)",
@@ -208,7 +203,6 @@
 	},
 	"archon": {
 		"name": "Archon",
-		"file": "monsterfamilies2393.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Bastion Archon](monster/bastion_archon)",
@@ -257,7 +251,6 @@
 	},
 	"asura": {
 		"name": "Asura",
-		"file": "monsterfamilies97c2.html",
 		"sources": [ "Bestiary 3" ],
 		"members": [
 			"- [Adhukait](monster/adhukait)",
@@ -313,7 +306,6 @@
 	},
 	"automaton": {
 		"name": "Automaton",
-		"file": "monsterfamilies334b.html",
 		"sources": [ "Construct Handbook" ],
 		"members": [
 			"- [Champion Automaton](monster/champion_automaton)",
@@ -352,7 +344,6 @@
 	},
 	"azata": {
 		"name": "Azata",
-		"file": "monsterfamilies54da.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Bralani](monster/bralani)",
@@ -399,7 +390,6 @@
 	},
 	"baba_yaga's_rider": {
 		"name": "Baba Yaga's Rider",
-		"file": "monsterfamilies1788.html",
 		"sources": [ "Irrisen - Land of Eternal Winter" ],
 		"members": [
 			"- [Black Rider](monster/black_rider)",
@@ -435,7 +425,6 @@
 	},
 	"beheaded": {
 		"name": "Beheaded",
-		"file": "monsterfamiliese925.html",
 		"sources": [ "Bestiary 4" ],
 		"members": [
 			"- [Beheaded](monster/beheaded)",
@@ -456,7 +445,6 @@
 	},
 	"behemoth": {
 		"name": "Behemoth",
-		"file": "monsterfamilies9ba4.html",
 		"sources": [ "Bestiary 3" ],
 		"members": [
 			"- [Ravener](monster/ravener)",
@@ -491,7 +479,6 @@
 	},
 	"blight": {
 		"name": "Blight",
-		"file": "monsterfamilies0c82.html",
 		"sources": [ "Bestiary 6" ],
 		"members": [
 			"- [Cave Blight](monster/cave_blight)",
@@ -525,7 +512,6 @@
 	},
 	"bore_worm": {
 		"name": "Bore Worm",
-		"file": "monsterfamilies0805.html",
 		"sources": [ "Pathfinder #117: Assault on Longshadow" ],
 		"members": [
 			"- [Bore Worm Monarch](monster/bore_worm_monarch)",
@@ -543,7 +529,6 @@
 	},
 	"clockwork": {
 		"name": "Clockwork",
-		"file": "monsterfamilies5175.html",
 		"sources": [ "Bestiary 3" ],
 		"members": [
 			"- [Clockwork Angel](monster/clockwork_angel)",
@@ -597,7 +582,6 @@
 	},
 	"colossus": {
 		"name": "Colossus",
-		"file": "monsterfamilies6bdf.html",
 		"sources": [ "Bestiary 4" ],
 		"mythic_members": [
 			"- [Flesh Colossus](monster/flesh_colossus)",
@@ -632,7 +616,6 @@
 	},
 	"daemon": {
 		"name": "Daemon",
-		"file": "monsterfamilies2e84.html",
 		"sources": [ "Bestiary 2" ],
 		"members": [
 			"- [Acrididaemon](monster/acrididaemon)",
@@ -688,7 +671,6 @@
 	},
 	"dark_folk": {
 		"name": "Dark Folk",
-		"file": "monsterfamilies5610.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Caligni](monster/caligni)",
@@ -711,7 +693,6 @@
 	},
 	"demodand": {
 		"name": "Demodand",
-		"file": "monsterfamilies89e7.html",
 		"sources": [ "Bestiary 3" ],
 		"members": [
 			"- [Gristly Demodand](monster/gristly_demodand)",
@@ -746,7 +727,6 @@
 	},
 	"demon": {
 		"name": "Demon",
-		"file": "monsterfamilies4381.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Abrikandilu](monster/abrikandilu)",
@@ -830,7 +810,6 @@
 	},
 	"demon_lord": {
 		"name": "Demon Lord",
-		"file": "monsterfamilies79a6.html",
 		"sources": [ "Bestiary 4" ],
 		"members": [
 			"- [Baphomet](monster/baphomet)",
@@ -877,7 +856,6 @@
 	},
 	"devil": {
 		"name": "Devil",
-		"file": "monsterfamiliesd73f.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Accomplice Devil (Hesperian)](monster/accomplice_devil_hesperian)",
@@ -968,7 +946,6 @@
 	},
 	"dinosaur": {
 		"name": "Dinosaur",
-		"file": "monsterfamilies5326.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Allosaurus](monster/allosaurus)",
@@ -1011,7 +988,6 @@
 	},
 	"div": {
 		"name": "Div",
-		"file": "monsterfamilies3fe4.html",
 		"sources": [ "Bestiary 3" ],
 		"members": [
 			"- [Aghash](monster/aghash)",
@@ -1053,7 +1029,6 @@
 	},
 	"dragon_true": {
 		"name": "Dragon (True)",
-		"searchable_name": "True Dragon",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [],
 		"mythic_members": [],
@@ -1166,8 +1141,6 @@
 	},
 	"dragon_black": {
 		"name": "Dragon (Black)",
-		"searchable_name": "Black Dragon",
-		"file": "monsterfamiliesf0da.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Adult Black Dragon](monster/adult_black_dragon)",
@@ -1222,8 +1195,6 @@
 	},
 	"dragon_blue": {
 		"name": "Dragon (Blue)",
-		"searchable_name": "Blue Dragon",
-		"file": "monsterfamilies8688.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Adult Blue Dragon](monster/adult_blue_dragon)",
@@ -1276,8 +1247,6 @@
 	},
 	"dragon_brass": {
 		"name": "Dragon (Brass)",
-		"searchable_name": "Brass Dragon",
-		"file": "monsterfamilies97db.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Adult Brass Dragon](monster/adult_brass_dragon)",
@@ -1312,8 +1281,6 @@
 	},
 	"dragon_bronze": {
 		"name": "Dragon (Bronze)",
-		"searchable_name": "Bronze Dragon",
-		"file": "monsterfamilies9593.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Adult Bronze Dragon](monster/adult_bronze_dragon)",
@@ -1351,8 +1318,6 @@
 	},
 	"dragon_copper": {
 		"name": "Dragon (Copper)",
-		"searchable_name": "Copper Dragon",
-		"file": "monsterfamiliesd013.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Adult Copper Dragon](monster/adult_copper_dragon)",
@@ -1390,8 +1355,6 @@
 	},
 	"dragon_esoteric": {
 		"name": "Dragon (Esoteric)",
-		"searchable_name": "Esoteric Dragon",
-		"file": "monsterfamiliesd900.html",
 		"other_files": [
 			"monsterfamilies3e50.html",
 			"monsterfamilies3ffe.html",
@@ -1530,8 +1493,6 @@
 	},
 	"dragon_gold": {
 		"name": "Dragon (Gold)",
-		"searchable_name": "Gold Dragon",
-		"file": "monsterfamiliesbe2a.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Adult Gold Dragon](monster/adult_gold_dragon)",
@@ -1569,8 +1530,6 @@
 	},
 	"dragon_green": {
 		"name": "Dragon (Green)",
-		"searchable_name": "Green Dragon",
-		"file": "monsterfamiliese5b7.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Adult Green Dragon](monster/adult_green_dragon)",
@@ -1609,7 +1568,6 @@
 	},
 	"dragon_imperial": {
 		"name": "Dragon (Imperial)",
-		"searchable_name": "Imperial Dragon",
 		"sources": [ "Bestiary 3" ],
 		"members": [],
 		"description": [
@@ -1628,8 +1586,6 @@
 	},
 	"dragon_imperial,_forest": {
 		"name": "Dragon (Imperial, Forest)",
-		"searchable_name": "Forest Dragon",
-		"file": "monsterfamiliese30e.html",
 		"sources": [ "Bestiary 3" ],
 		"members": [
 			"- [Adult Forest Dragon](monster/adult_forest_dragon)",
@@ -1677,8 +1633,6 @@
 	},
 	"dragon_imperial,_sea": {
 		"name": "Dragon (Imperial, Sea)",
-		"searchable_name": "Sea Dragon",
-		"file": "monsterfamilies917f.html",
 		"sources": [ "Bestiary 3" ],
 		"members": [
 			"- [Adult Sea Dragon](monster/adult_sea_dragon)",
@@ -1724,8 +1678,6 @@
 	},
 	"dragon_imperial,_sky": {
 		"name": "Dragon (Imperial, Sky)",
-		"searchable_name": "Sky Dragon",
-		"file": "monsterfamiliese432.html",
 		"sources": [ "Bestiary 3" ],
 		"members": [
 			"- [Adult Sky Dragon](monster/adult_sky_dragon)",
@@ -1773,8 +1725,6 @@
 	},
 	"dragon_imperial,_sovereign": {
 		"name": "Dragon (Imperial, Sovereign)",
-		"searchable_name": "Sovereign Dragon",
-		"file": "monsterfamiliesa09c.html",
 		"sources": [ "Bestiary 3" ],
 		"members": [
 			"- [Adult Sovereign Dragon](monster/adult_sovereign_dragon)",
@@ -1820,8 +1770,6 @@
 	},
 	"dragon_imperial,_underworld": {
 		"name": "Dragon (Imperial, Underworld)",
-		"searchable_name": "Underworld Dragon",
-		"file": "monsterfamiliesd84c.html",
 		"sources": [ "Bestiary 3" ],
 		"members": [
 			"- [Adult Underworld Dragon](monster/adult_underworld_dragon)",
@@ -1865,7 +1813,6 @@
 	},
 	"dragon_outer": {
 		"name": "Dragon (Outer)",
-		"searchable_name": "Outer Dragon",
 		"sources": [ "Bestiary 4" ],
 		"members": [],
 		"description": [
@@ -1884,8 +1831,6 @@
 	},
 	"dragon_outer,_lunar": {
 		"name": "Dragon (Outer, Lunar)",
-		"searchable_name": "Lunar Dragon",
-		"file": "monsterfamilies46f7.html",
 		"sources": [ "Bestiary 4" ],
 		"members": [
 			"- [Adult Lunar Dragon](monster/adult_lunar_dragon)",
@@ -1933,8 +1878,6 @@
 	},
 	"dragon_outer,_solar": {
 		"name": "Dragon (Outer, Solar)",
-		"searchable_name": "Solar Dragon",
-		"file": "monsterfamiliesde49.html",
 		"sources": [ "Bestiary 4" ],
 		"members": [
 			"- [Adult Solar Dragon](monster/adult_solar_dragon)",
@@ -1980,8 +1923,6 @@
 	},
 	"dragon_outer,_time": {
 		"name": "Dragon (Outer, Time)",
-		"searchable_name": "Time Dragon",
-		"file": "monsterfamiliesc0d1.html",
 		"sources": [ "Bestiary 4" ],
 		"members": [
 			"- [Adult Time Dragon](monster/adult_time_dragon)",
@@ -2029,8 +1970,6 @@
 	},
 	"dragon_outer,_void": {
 		"name": "Dragon (Outer, Void)",
-		"searchable_name": "Void Dragon",
-		"file": "monsterfamilies8eaf.html",
 		"sources": [ "Bestiary 4" ],
 		"members": [
 			"- [Adult Void Dragon](monster/adult_void_dragon)",
@@ -2076,8 +2015,6 @@
 	},
 	"dragon_outer,_vortex": {
 		"name": "Dragon (Outer, Vortex)",
-		"searchable_name": "Vortex Dragon",
-		"file": "monsterfamilies36e2.html",
 		"sources": [ "Bestiary 4" ],
 		"members": [
 			"- [Adult Vortex Dragon](monster/adult_vortex_dragon)",
@@ -2123,7 +2060,6 @@
 	},
 	"dragon_planar": {
 		"name": "Dragon (Planar)",
-		"searchable_name": "Planar Dragon",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #137: The City Outside of Time"
@@ -2145,8 +2081,6 @@
 	},
 	"dragon_planar,_apocalypse": {
 		"name": "Dragon (Planar, Apocalypse)",
-		"searchable_name": "Apocalypse Dragon",
-		"file": "monsterfamilies4c2a.html",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"members": [
 			"- [Adult Apocalypse Dragon](monster/adult_apocalypse_dragon)",
@@ -2169,8 +2103,6 @@
 	},
 	"dragon_planar,_bliss": {
 		"name": "Dragon (Planar, Bliss)",
-		"searchable_name": "Bliss Dragon",
-		"file": "monsterfamilies5a8e.html",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"members": [
 			"- [Adult Bliss Dragon](monster/adult_bliss_dragon)",
@@ -2193,8 +2125,6 @@
 	},
 	"dragon_planar,_crypt": {
 		"name": "Dragon (Planar, Crypt)",
-		"searchable_name": "Crypt Dragon",
-		"file": "monsterfamiliesa113.html",
 		"sources": [ "Bestiary 6" ],
 		"members": [
 			"- [Adult Crypt Dragon](monster/adult_crypt_dragon)",
@@ -2217,8 +2147,6 @@
 	},
 	"dragon_planar,_edict": {
 		"name": "Dragon (Planar, Edict)",
-		"searchable_name": "Edict Dragon",
-		"file": "monsterfamilies7d4e.html",
 		"sources": [ "Pathfinder #131: The Reaper's Right Hand" ],
 		"members": [
 			"- [Adult Edict Dragon](monster/adult_edict_dragon)",
@@ -2334,8 +2262,6 @@
 	},
 	"dragon_planar,_havoc": {
 		"name": "Dragon (Planar, Havoc)",
-		"searchable_name": "Havoc Dragon",
-		"file": "monsterfamiliesae01.html",
 		"sources": [ "Bestiary 6" ],
 		"members": [
 			"- [Adult Havoc Dragon](monster/adult_havoc_dragon)",
@@ -2358,8 +2284,6 @@
 	},
 	"dragon_planar,_infernal": {
 		"name": "Dragon (Planar, Infernal)",
-		"searchable_name": "Infernal Dragon",
-		"file": "monsterfamilies0448.html",
 		"sources": [ "Bestiary 6" ],
 		"members": [
 			"- [Adult Infernal Dragon](monster/adult_infernal_dragon)",
@@ -2382,8 +2306,6 @@
 	},
 	"dragon_planar,_paradise": {
 		"name": "Dragon (Planar, Paradise)",
-		"searchable_name": "Paradise Dragon",
-		"file": "monsterfamilies34c0.html",
 		"sources": [ "Bestiary 6" ],
 		"members": [
 			"- [Adult Paradise Dragon](monster/adult_paradise_dragon)",
@@ -2406,8 +2328,6 @@
 	},
 	"dragon_planar,_rift": {
 		"name": "Dragon (Planar, Rift)",
-		"searchable_name": "Rift Dragon",
-		"file": "monsterfamilies2d89.html",
 		"sources": [ "Bestiary 6" ],
 		"members": [
 			"- [Adult Rift Dragon](monster/adult_rift_dragon)",
@@ -2430,8 +2350,6 @@
 	},
 	"dragon_planar,_tumult": {
 		"name": "Dragon (Planar, Tumult)",
-		"searchable_name": "Tumult Dragon",
-		"file": "monsterfamilies0afb.html",
 		"sources": [ "Pathfinder #138: Rise of New Thassilon" ],
 		"members": [
 			"- [Adult Tumult Dragon](monster/adult_tumult_dragon)",
@@ -2454,7 +2372,6 @@
 	},
 	"dragon_primal": {
 		"name": "Dragon (Primal)",
-		"searchable_name": "Primal Dragon",
 		"sources": [ "Bestiary 2" ],
 		"members": [],
 		"description": [
@@ -2473,8 +2390,6 @@
 	},
 	"dragon_primal,_brine": {
 		"name": "Dragon (Primal, Brine)",
-		"searchable_name": "Brine Dragon",
-		"file": "monsterfamilies0d0f.html",
 		"sources": [ "Bestiary 2" ],
 		"members": [
 			"- [Adult Brine Dragon](monster/adult_brine_dragon)",
@@ -2518,8 +2433,6 @@
 	},
 	"dragon_primal,_cloud": {
 		"name": "Dragon (Primal, Cloud)",
-		"searchable_name": "Cloud Dragon",
-		"file": "monsterfamilies6b1d.html",
 		"sources": [ "Bestiary 2" ],
 		"members": [
 			"- [Adult Cloud Dragon](monster/adult_cloud_dragon)",
@@ -2565,8 +2478,6 @@
 	},
 	"dragon_primal,_crystal": {
 		"name": "Dragon (Primal, Crystal)",
-		"searchable_name": "Crystal Dragon",
-		"file": "monsterfamiliesd66f.html",
 		"sources": [ "Bestiary 2" ],
 		"members": [
 			"- [Adult Crystal Dragon](monster/adult_crystal_dragon)",
@@ -2612,8 +2523,6 @@
 	},
 	"dragon_primal,_magma": {
 		"name": "Dragon (Primal, Magma)",
-		"searchable_name": "Magma Dragon",
-		"file": "monsterfamilies8ab0.html",
 		"sources": [ "Bestiary 2" ],
 		"members": [
 			"- [Adult Magma Dragon](monster/adult_magma_dragon)",
@@ -2657,8 +2566,6 @@
 	},
 	"dragon_primal,_umbral": {
 		"name": "Dragon (Primal, Umbral)",
-		"searchable_name": "Umbral Dragon",
-		"file": "monsterfamilies6fa5.html",
 		"sources": [ "Bestiary 2" ],
 		"members": [
 			"- [Adult Umbral Dragon](monster/adult_umbral_dragon)",
@@ -2708,8 +2615,6 @@
 	},
 	"dragon_red": {
 		"name": "Dragon (Red)",
-		"searchable_name": "Red Dragon",
-		"file": "monsterfamilies01e7.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Adult Red Dragon](monster/adult_red_dragon)",
@@ -2747,8 +2652,6 @@
 	},
 	"dragon_silver": {
 		"name": "Dragon (Silver)",
-		"searchable_name": "Silver Dragon",
-		"file": "monsterfamilies43c0.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Adult Silver Dragon](monster/adult_silver_dragon)",
@@ -2788,8 +2691,6 @@
 	},
 	"dragon_white": {
 		"name": "Dragon (White)",
-		"searchable_name": "White Dragon",
-		"file": "monsterfamiliesf99a.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Adult White Dragon](monster/adult_white_dragon)",
@@ -2830,7 +2731,6 @@
 	},
 	"drake": {
 		"name": "Drake",
-		"file": "monsterfamiliesaddd.html",
 		"sources": [ "Bestiary 2" ],
 		"members": [
 			"- [Desert Drake](monster/desert_drake)",
@@ -2858,7 +2758,6 @@
 	},
 	"elemental": {
 		"name": "Elemental",
-		"file": "monsterfamilies14cf.html",
 		"sources": [
 			"Pathfinder RPG Bestiary",
 			"Bestiary 2",
@@ -2885,8 +2784,6 @@
 	},
 	"elemental_aether": {
 		"name": "Elemental (Aether)",
-		"searchable_name": "Aether Elemental",
-		"file": "monsterfamilies5748.html",
 		"sources": [ "Bestiary 5" ],
 		"members": [
 			"- [Elder Aether Elemental](monster/elder_aether_elemental)",
@@ -2928,8 +2825,6 @@
 	},
 	"elemental_air": {
 		"name": "Elemental (Air)",
-		"searchable_name": "Air Elemental",
-		"file": "monsterfamilies14cf.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Elder Air Elemental](monster/elder_air_elemental)",
@@ -2975,8 +2870,6 @@
 	},
 	"elemental_earth": {
 		"name": "Elemental (Earth)",
-		"searchable_name": "Earth Elemental",
-		"file": "monsterfamilies6fa6.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Elder Earth Elemental](monster/elder_earth_elemental)",
@@ -3022,8 +2915,6 @@
 	},
 	"elemental_fire": {
 		"name": "Elemental (Fire)",
-		"searchable_name": "Fire Elemental",
-		"file": "monsterfamilies9195.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Elder Fire Elemental](monster/elder_fire_elemental)",
@@ -3071,8 +2962,6 @@
 	},
 	"elemental_ice": {
 		"name": "Elemental (Ice)",
-		"searchable_name": "Ice Elemental",
-		"file": "monsterfamilies6992.html",
 		"sources": [ "Bestiary 2" ],
 		"members": [
 			"- [Elder Ice Elemental](monster/elder_ice_elemental)",
@@ -3108,8 +2997,6 @@
 	},
 	"elemental_lightning": {
 		"name": "Elemental (Lightning)",
-		"searchable_name": "Lightning Elemental",
-		"file": "monsterfamilies7450.html",
 		"sources": [ "Bestiary 2" ],
 		"members": [
 			"- [Elder Lightning Elemental](monster/elder_lightning_elemental)",
@@ -3143,8 +3030,6 @@
 	},
 	"elemental_magma": {
 		"name": "Elemental (Magma)",
-		"searchable_name": "Magma Elemental",
-		"file": "monsterfamiliesaff8.html",
 		"sources": [ "Bestiary 2" ],
 		"members": [
 			"- [Elder Magma Elemental](monster/elder_magma_elemental)",
@@ -3178,8 +3063,6 @@
 	},
 	"elemental_mud": {
 		"name": "Elemental (Mud)",
-		"searchable_name": "Mud Elemental",
-		"file": "monsterfamilies4fed.html",
 		"sources": [ "Bestiary 2" ],
 		"members": [
 			"- [Elder Mud Elemental](monster/elder_mud_elemental)",
@@ -3211,8 +3094,6 @@
 	},
 	"elemental_water": {
 		"name": "Elemental (Water)",
-		"searchable_name": "Water Elemental",
-		"file": "monsterfamiliesb275.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Elder Water Elemental](monster/elder_water_elemental)",
@@ -3260,7 +3141,6 @@
 	},
 	"empyreal_lord": {
 		"name": "Empyreal Lord",
-		"file": "monsterfamiliescd5b.html",
 		"sources": [ "Bestiary 4" ],
 		"members": [
 			"- [Arshea](monster/arshea)",
@@ -3322,7 +3202,6 @@
 	},
 	"familiar": {
 		"name": "Familiar",
-		"file": "monsterfamilies477d.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Archaeopteryx](monster/archaeopteryx)",
@@ -3415,8 +3294,6 @@
 	},
 	"fiend-bred_animal": {
 		"name": "Fiend-Bred Animal",
-		"searchable_name": "Fiend Bred Animal",
-		"file": "monsterfamilies9d10.html",
 		"sources": [ "Pathfinder #103: The Hellfire Compact" ],
 		"members": [
 			"- [Chelish Hell-Bred Dog](monster/chelish_hell-bred_dog)",
@@ -3439,7 +3316,6 @@
 	},
 	"fleshwarp": {
 		"name": "Fleshwarp",
-		"file": "monsterfamiliesfd89.html",
 		"sources": [ "Bestiary 4" ],
 		"members": [
 			"- [Drider](monster/drider)",
@@ -3472,7 +3348,6 @@
 	},
 	"formian": {
 		"name": "Formian",
-		"file": "monsterfamilies6b67.html",
 		"sources": [ "Bestiary 4" ],
 		"members": [
 			"- [Formian Myrmarch](monster/formian_myrmarch)",
@@ -3514,7 +3389,6 @@
 	},
 	"gargoyle": {
 		"name": "Gargoyle",
-		"file": "monsterfamilies8e0b.html",
 		"sources": [ "Classic Horrors Revisited" ],
 		"members": [
 			"- [Four-Armed Gargoyle](monster/four-armed_gargoyle)",
@@ -3534,7 +3408,6 @@
 	},
 	"genie": {
 		"name": "Genie",
-		"file": "monsterfamilies493f.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Djinni](monster/djinni)",
@@ -3554,7 +3427,6 @@
 	},
 	"gigas": {
 		"name": "Gigas",
-		"file": "monsterfamiliesdae2.html",
 		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
 		"members": [
 			"- [Abaddon Gigas](monster/abaddon_gigas)",
@@ -3572,7 +3444,6 @@
 	},
 	"golem": {
 		"name": "Golem",
-		"file": "monsterfamilies51b3.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Adamantine Golem](monster/adamantine_golem)",
@@ -3664,7 +3535,6 @@
 	},
 	"great_old_one": {
 		"name": "Great Old One",
-		"file": "monsterfamilies287c.html",
 		"sources": [ "Bestiary 4" ],
 		"members": [
 			"- [Atlach-Nacha](monster/atlach-nacha)",
@@ -3700,7 +3570,6 @@
 	},
 	"gremlin": {
 		"name": "Gremlin",
-		"file": "monsterfamilies622c.html",
 		"sources": [ "Bestiary 2" ],
 		"members": [
 			"- [Drexin](monster/drexin)",
@@ -3737,7 +3606,6 @@
 	},
 	"hag": {
 		"name": "Hag",
-		"file": "monsterfamilies0733.html",
 		"sources": [ "Classic Horrors Revisited" ],
 		"members": [
 			"- [Annis Hag](monster/annis_hag)",
@@ -3763,7 +3631,6 @@
 	},
 	"herald": {
 		"name": "Herald",
-		"file": "monsterfamiliesc514.html",
 		"sources": [ "Inner Sea Gods" ],
 		"members": [
 			"- [Arcanotheign](monster/arcanotheign)",
@@ -3809,7 +3676,6 @@
 	},
 	"herd_animal": {
 		"name": "Herd Animal",
-		"file": "monsterfamilies94f1.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Antelope](monster/antelope)",
@@ -3833,7 +3699,6 @@
 	},
 	"hive": {
 		"name": "Hive",
-		"file": "monsterfamilies2d16.html",
 		"sources": [ "Horror Adventures" ],
 		"members": [
 			"- [Hive Brute](monster/hive_brute)",
@@ -3875,7 +3740,6 @@
 	},
 	"horsemen_of_the_apocalypse": {
 		"name": "Horsemen of the Apocalypse",
-		"file": "monsterfamilies72f1.html",
 		"sources": [ "Bestiary 6" ],
 		"members": [
 			"- [Apollyon](monster/apollyon)",
@@ -3900,7 +3764,6 @@
 	},
 	"house_spirit": {
 		"name": "House Spirit",
-		"file": "monsterfamiliesa688.html",
 		"sources": [
 			"Pathfinder #67: The Snows of Summer",
 			"Bestiary 5"
@@ -3927,7 +3790,6 @@
 	},
 	"idol": {
 		"name": "Idol",
-		"file": "monsterfamilies4441.html",
 		"sources": [ "Pathfinder #27: What Lies in Dust" ],
 		"members": [
 			"- [Bone](monster/bone)",
@@ -3954,7 +3816,6 @@
 	},
 	"inevitable": {
 		"name": "Inevitable",
-		"file": "monsterfamilies3992.html",
 		"sources": [ "Bestiary 2" ],
 		"members": [
 			"- [Arbiter](monster/arbiter)",
@@ -4003,7 +3864,6 @@
 	},
 	"kaiju": {
 		"name": "Kaiju",
-		"file": "monsterfamiliesec22.html",
 		"sources": [ "Bestiary 4" ],
 		"members": [
 			"- [Agyra](monster/agyra)",
@@ -4054,7 +3914,6 @@
 	},
 	"kami": {
 		"name": "Kami",
-		"file": "monsterfamilies9402.html",
 		"sources": [ "Bestiary 3" ],
 		"members": [
 			"- [Dosojin](monster/dosojin)",
@@ -4095,7 +3954,6 @@
 	},
 	"kyton": {
 		"name": "Kyton",
-		"file": "monsterfamilies2ecb.html",
 		"sources": [ "Bestiary 3" ],
 		"members": [
 			"- [Apocrisiarius](monster/apocrisiarius)",
@@ -4148,7 +4006,6 @@
 	},
 	"kyton_demagogue": {
 		"name": "Kyton Demagogue",
-		"file": "monsterfamiliesb671.html",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"members": [
 			"[Inkariax](monster/inkariax)"
@@ -4164,7 +4021,6 @@
 	},
 	"leshy": {
 		"name": "Leshy",
-		"file": "monsterfamilies0db4.html",
 		"sources": [ "Bestiary 3" ],
 		"members": [
 			"- [Cactus Leshy](monster/cactus_leshy)",
@@ -4211,7 +4067,6 @@
 	},
 	"linnorm": {
 		"name": "Linnorm",
-		"file": "monsterfamilies1955.html",
 		"sources": [ "Bestiary 3" ],
 		"members": [
 			"- [Cairn Linnorm](monster/cairn_linnorm)",
@@ -4257,7 +4112,6 @@
 	},
 	"lurking_ray": {
 		"name": "Lurking Ray",
-		"file": "monsterfamiliescfc8.html",
 		"sources": [ "Bestiary 4" ],
 		"members": [
 			"- [Executioner's Hood](monster/executioner's_hood)",
@@ -4277,7 +4131,6 @@
 	},
 	"manasaputra": {
 		"name": "Manasaputra",
-		"file": "monsterfamiliesd444.html",
 		"sources": [ "Bestiary 5" ],
 		"members": [
 			"- [Maharishi Manu](monster/maharishi_manu)",
@@ -4313,7 +4166,6 @@
 	},
 	"megafauna": {
 		"name": "Megafauna",
-		"file": "monsterfamiliesa308.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Archelon](monster/archelon)",
@@ -4345,7 +4197,6 @@
 	},
 	"mortic": {
 		"name": "Mortic",
-		"file": "monsterfamiliesbf7d.html",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"members": [
 			"- [Angheuvore](monster/angheuvore)",
@@ -4366,7 +4217,6 @@
 	},
 	"naga": {
 		"name": "Naga",
-		"file": "monsterfamiliese818.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Dark Naga](monster/dark_naga)",
@@ -4390,7 +4240,6 @@
 	},
 	"nightshade": {
 		"name": "Nightshade",
-		"file": "monsterfamilies1bc5.html",
 		"sources": [ "Bestiary 2" ],
 		"members": [
 			"- [Nightcrawler](monster/nightcrawler)",
@@ -4426,7 +4275,6 @@
 	},
 	"oni": {
 		"name": "Oni",
-		"file": "monsterfamilies4db8.html",
 		"sources": [ "Bestiary 3" ],
 		"members": [
 			"- [Atamahuta](monster/atamahuta)",
@@ -4481,7 +4329,6 @@
 	},
 	"ossumental": {
 		"name": "Ossumental",
-		"file": "monsterfamilies21d1.html",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 		"members": [
 			"- [Ossumental (Air)](monster/ossumental_air)",
@@ -4500,7 +4347,6 @@
 	},
 	"phantom_armor": {
 		"name": "Phantom Armor",
-		"file": "monsterfamiliesf9bf.html",
 		"sources": [ "Pathfinder #47: Ashes at Dawn" ],
 		"members": [
 			"- [Giant Phantom Armor](monster/giant_phantom_armor)",
@@ -4521,7 +4367,6 @@
 	},
 	"plague_swarm": {
 		"name": "Plague Swarm",
-		"file": "monsterfamilies6217.html",
 		"sources": [ "Bestiary 5" ],
 		"mythic_members": [
 			"- [Bat Plague Swarm](monster/bat_plague_swarm)",
@@ -4554,7 +4399,6 @@
 	},
 	"poppet": {
 		"name": "Poppet",
-		"file": "monsterfamilies727b.html",
 		"sources": [ "Adventurer's Armory 2" ],
 		"members": [
 			"- [Poppet, Small](monster/poppet,_small)",
@@ -4571,7 +4415,6 @@
 	},
 	"primeval_sea_creature": {
 		"name": "Primeval Sea Creature",
-		"file": "monsterfamiliese918.html",
 		"sources": [ "Pathfinder #60: From Hell's Heart" ],
 		"members": [
 			"- [Kronosaurus](monster/kronosaurus)",
@@ -4589,7 +4432,6 @@
 	},
 	"protean": {
 		"name": "Protean",
-		"file": "monsterfamilies681d.html",
 		"sources": [ "Bestiary 2" ],
 		"members": [
 			"- [Akizendri](monster/akizendri)",
@@ -4660,7 +4502,6 @@
 	},
 	"psychopomp": {
 		"name": "Psychopomp",
-		"file": "monsterfamilies01d9.html",
 		"sources": [ "Bestiary 4" ],
 		"members": [
 			"- [Ahmuuth](monster/ahmuuth)",
@@ -4720,7 +4561,6 @@
 	},
 	"qlippoth": {
 		"name": "Qlippoth",
-		"file": "monsterfamilies3d0f.html",
 		"sources": [ "Bestiary 2" ],
 		"members": [
 			"- [Augnagar](monster/augnagar)",
@@ -4767,7 +4607,6 @@
 	},
 	"qlippoth_lord": {
 		"name": "Qlippoth Lord",
-		"file": "monsterfamiliesbae8.html",
 		"sources": [ "Bestiary 6" ],
 		"members": [
 			"- [Chavazvug](monster/chavazvug)",
@@ -4805,7 +4644,6 @@
 	},
 	"rakshasa": {
 		"name": "Rakshasa",
-		"file": "monsterfamilies5da9.html",
 		"sources": [ "Bestiary 3" ],
 		"members": [
 			"- [Amanusya](monster/amanusya)",
@@ -4861,7 +4699,6 @@
 	},
 	"robot": {
 		"name": "Robot",
-		"file": "monsterfamilies338d.html",
 		"sources": [
 			"Inner Sea Bestiary",
 			"Bestiary 5"
@@ -4941,7 +4778,6 @@
 	},
 	"rot_grub": {
 		"name": "Rot Grub",
-		"file": "monsterfamiliesfa5c.html",
 		"sources": [ "Pathfinder #25: The Bastards of Erebus" ],
 		"members": [
 			"- [Giant Rot Grub](monster/giant_rot_grub)",
@@ -4968,7 +4804,6 @@
 	},
 	"sahkil": {
 		"name": "Sahkil",
-		"file": "monsterfamilies3898.html",
 		"sources": [ "Bestiary 5" ],
 		"members": [
 			"- [Esipil](monster/esipil)",
@@ -5004,7 +4839,6 @@
 	},
 	"siktempora": {
 		"name": "Siktempora",
-		"file": "monsterfamilies3049.html",
 		"sources": [ "Pathfinder #135: Runeplague" ],
 		"members": [
 			"[Misery Siktempora](monster/misery_siktempora)"
@@ -5027,7 +4861,6 @@
 	},
 	"spawn_of_rovagug": {
 		"name": "Spawn of Rovagug",
-		"file": "monsterfamiliescc76.html",
 		"sources": [ "Inner Sea Bestiary" ],
 		"members": [
 			"- [Chemnosit (The Monarch Worm)](monster/chemnosit_the_monarch_worm)",
@@ -5070,7 +4903,6 @@
 	},
 	"sphinx": {
 		"name": "Sphinx",
-		"file": "monsterfamilies4bdb.html",
 		"sources": [ "Bestiary 3" ],
 		"members": [
 			"- [Androsphinx](monster/androsphinx)",
@@ -5109,7 +4941,6 @@
 	},
 	"thassilonian_sentinel": {
 		"name": "Thassilonian Sentinel",
-		"file": "monsterfamilies0057.html",
 		"sources": [ "Pathfinder #134: It Came from Hollow Mountain" ],
 		"members": [
 			"- [Bronze Sentinel](monster/bronze_sentinel)",
@@ -5130,7 +4961,6 @@
 	},
 	"thriae": {
 		"name": "Thriae",
-		"file": "monsterfamilies9821.html",
 		"sources": [ "Bestiary 3" ],
 		"members": [
 			"- [Thriae Constructor](monster/thriae_constructor)",
@@ -5162,7 +4992,6 @@
 	},
 	"titan": {
 		"name": "Titan",
-		"file": "monsterfamiliesd8fa.html",
 		"sources": [ "Bestiary 2" ],
 		"members": [
 			"- [Elysian](monster/elysian)",
@@ -5184,7 +5013,6 @@
 	},
 	"troll": {
 		"name": "Troll",
-		"file": "monsterfamilies358f.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"members": [
 			"- [Canopy Troll](monster/canopy_troll)",
@@ -5218,7 +5046,6 @@
 	},
 	"troop": {
 		"name": "Troop",
-		"file": "monsterfamiliesc9d6.html",
 		"sources": [ "Bestiary 6" ],
 		"members": [
 			"- [Barrier Breaker Troop](monster/barrier_breaker_troop)",
@@ -5242,7 +5069,6 @@
 	},
 	"troops": {
 		"name": "Troops",
-		"file": "monsterfamilies4b5d.html",
 		"sources": [ "Pathfinder #100: A Song of Silver" ],
 		"members": [
 			"- [Dottari Troop](monster/dottari_troop)",
@@ -5293,7 +5119,6 @@
 	},
 	"vampire_servant": {
 		"name": "Vampire Servant",
-		"file": "monsterfamiliesdcdd.html",
 		"sources": [ "Monster Codex" ],
 		"members": [
 			"- [Coffin Guard](monster/coffin_guard)",
@@ -5310,7 +5135,6 @@
 	},
 	"veela": {
 		"name": "Veela",
-		"file": "monsterfamilies892c.html",
 		"sources": [ "Bestiary 5" ],
 		"members": [
 			"- [Air Veela](monster/air_veela)",
@@ -5331,7 +5155,6 @@
 	},
 	"wild_hunt": {
 		"name": "Wild Hunt",
-		"file": "monsterfamilies4e9b.html",
 		"sources": [ "Bestiary 6" ],
 		"members": [
 			"- [Wild Hunt Archer](monster/wild_hunt_archer)",
@@ -5367,7 +5190,6 @@
 	},
 	"wysp": {
 		"name": "Wysp",
-		"file": "monsterfamilies087b.html",
 		"sources": [ "Bestiary 5" ],
 		"members": [
 			"- [Aether Wysp](monster/aether_wysp)",

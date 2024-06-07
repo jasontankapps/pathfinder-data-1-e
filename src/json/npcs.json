@@ -2,7 +2,6 @@
 	"_prefix": "npc",
 	"acolyte": {
 		"name": "Acolyte",
-		"file": "npcdisplay418a.html",
 		"description": [
 			"## Acolyte",
 			"",
@@ -50,7 +49,6 @@
 	},
 	"apprentice_jeweler": {
 		"name": "Apprentice Jeweler",
-		"file": "npcdisplayec11.html",
 		"description": [
 			"## Apprentice Jeweler",
 			"",
@@ -94,7 +92,6 @@
 	},
 	"beggar": {
 		"name": "Beggar",
-		"file": "npcdisplay2cb1.html",
 		"description": [
 			"## Beggar",
 			"",
@@ -138,7 +135,6 @@
 	},
 	"crusader_squire": {
 		"name": "Crusader (Squire)",
-		"file": "npcdisplay87d7.html",
 		"description": [
 			"## Crusader (Squire)",
 			"",
@@ -185,7 +181,6 @@
 	},
 	"military_foot_soldier": {
 		"name": "Military (Foot Soldier)",
-		"file": "npcdisplay258f.html",
 		"description": [
 			"## Military (Foot Soldier)",
 			"",
@@ -235,7 +230,6 @@
 	},
 	"page": {
 		"name": "Page",
-		"file": "npcdisplay784f.html",
 		"description": [
 			"## Page",
 			"",
@@ -279,7 +273,6 @@
 	},
 	"recruit": {
 		"name": "Recruit",
-		"file": "npcdisplaycb1d.html",
 		"description": [
 			"## Recruit",
 			"",
@@ -326,7 +319,6 @@
 	},
 	"villager_village_idiot": {
 		"name": "Villager (Village Idiot)",
-		"file": "npcdisplaye689.html",
 		"description": [
 			"## Villager (Village Idiot)",
 			"",
@@ -373,7 +365,6 @@
 	},
 	"brigand": {
 		"name": "Brigand",
-		"file": "npcdisplayb913.html",
 		"description": [
 			"## Brigand",
 			"",
@@ -418,7 +409,6 @@
 	},
 	"brigand_bandit": {
 		"name": "Brigand (Bandit)",
-		"file": "npcdisplay0208.html",
 		"description": [
 			"## Brigand (Bandit)",
 			"",
@@ -465,7 +455,6 @@
 	},
 	"callous_rake": {
 		"name": "Callous Rake",
-		"file": "npcdisplay9aa1.html",
 		"description": [
 			"## Callous Rake",
 			"",
@@ -516,7 +505,6 @@
 	},
 	"careful_initiate": {
 		"name": "Careful Initiate",
-		"file": "npcdisplay67a5.html",
 		"description": [
 			"## Careful Initiate",
 			"",
@@ -561,7 +549,6 @@
 	},
 	"cautious_mage": {
 		"name": "Cautious Mage",
-		"file": "npcdisplay8ce4.html",
 		"description": [
 			"## Cautious Mage",
 			"",
@@ -614,7 +601,6 @@
 	},
 	"city_guard_magnimar": {
 		"name": "City Guard (Magnimar)",
-		"file": "npcdisplayb4c9.html",
 		"description": [
 			"## City Guard (Magnimar)",
 			"",
@@ -660,7 +646,6 @@
 	},
 	"criminal_pickpocket": {
 		"name": "Criminal (Pickpocket)",
-		"file": "npcdisplay4006.html",
 		"description": [
 			"## Criminal (Pickpocket)",
 			"",
@@ -707,7 +692,6 @@
 	},
 	"cutpurse": {
 		"name": "Cutpurse",
-		"file": "npcdisplay36d9.html",
 		"description": [
 			"## Cutpurse",
 			"",
@@ -761,7 +745,6 @@
 	},
 	"initiate_of_flame": {
 		"name": "Initiate of Flame",
-		"file": "npcdisplayef13.html",
 		"description": [
 			"## Initiate of Flame",
 			"",
@@ -815,7 +798,6 @@
 	},
 	"mercenary_healer": {
 		"name": "Mercenary Healer",
-		"file": "npcdisplay0e05.html",
 		"description": [
 			"## Mercenary Healer",
 			"",
@@ -875,7 +857,6 @@
 	},
 	"mercenary_magician": {
 		"name": "Mercenary Magician",
-		"file": "npcdisplay85db.html",
 		"description": [
 			"## Mercenary Magician",
 			"",
@@ -927,7 +908,6 @@
 	},
 	"novice_scout": {
 		"name": "Novice Scout",
-		"file": "npcdisplaydcb7.html",
 		"description": [
 			"## Novice Scout",
 			"",
@@ -981,7 +961,6 @@
 	},
 	"old_sailor": {
 		"name": "Old Sailor",
-		"file": "npcdisplayd25c.html",
 		"description": [
 			"## Old Sailor",
 			"",
@@ -1027,7 +1006,6 @@
 	},
 	"pig_farmer": {
 		"name": "Pig Farmer",
-		"file": "npcdisplayb1ad.html",
 		"description": [
 			"## Pig Farmer",
 			"",
@@ -1070,7 +1048,6 @@
 	},
 	"pirate_sailor": {
 		"name": "Pirate (Sailor)",
-		"file": "npcdisplayd594.html",
 		"description": [
 			"## Pirate (Sailor)",
 			"",
@@ -1117,7 +1094,6 @@
 	},
 	"princess": {
 		"name": "Princess",
-		"file": "npcdisplaya186.html",
 		"description": [
 			"## Princess",
 			"",
@@ -1161,7 +1137,6 @@
 	},
 	"sailor_shipmate": {
 		"name": "Sailor (Shipmate)",
-		"file": "npcdisplay252e.html",
 		"description": [
 			"## Sailor (Shipmate)",
 			"",
@@ -1210,7 +1185,6 @@
 	},
 	"savage_mercenary": {
 		"name": "Savage Mercenary",
-		"file": "npcdisplayf304.html",
 		"description": [
 			"## Savage Mercenary",
 			"",
@@ -1263,7 +1237,6 @@
 	},
 	"shaman": {
 		"name": "Shaman",
-		"file": "npcdisplay9494.html",
 		"description": [
 			"## Shaman",
 			"",
@@ -1313,7 +1286,6 @@
 	},
 	"superstitious_mercenary": {
 		"name": "Superstitious Mercenary",
-		"file": "npcdisplay5cd5.html",
 		"description": [
 			"## Superstitious Mercenary",
 			"",
@@ -1362,7 +1334,6 @@
 	},
 	"tavern_barmaid": {
 		"name": "Tavern (Barmaid)",
-		"file": "npcdisplayd917.html",
 		"description": [
 			"## Tavern (Barmaid)",
 			"",
@@ -1409,7 +1380,6 @@
 	},
 	"tavern_singer": {
 		"name": "Tavern Singer",
-		"file": "npcdisplay2777.html",
 		"description": [
 			"## Tavern Singer",
 			"",
@@ -1462,7 +1432,6 @@
 	},
 	"temple_acolyte": {
 		"name": "Temple (Acolyte)",
-		"file": "npcdisplay5c03.html",
 		"description": [
 			"## Temple (Acolyte)",
 			"",
@@ -1514,7 +1483,6 @@
 	},
 	"ulfen_raider": {
 		"name": "Ulfen Raider",
-		"file": "npcdisplaycebd.html",
 		"description": [
 			"## Ulfen Raider",
 			"",
@@ -1567,7 +1535,6 @@
 	},
 	"villager_farmer": {
 		"name": "Villager (Farmer)",
-		"file": "npcdisplay44f7.html",
 		"description": [
 			"## Villager (Farmer)",
 			"",
@@ -1612,7 +1579,6 @@
 	},
 	"bullying_brawler": {
 		"name": "Bullying Brawler",
-		"file": "npcdisplay9715.html",
 		"description": [
 			"## Bullying Brawler",
 			"",
@@ -1659,7 +1625,6 @@
 	},
 	"city_watch_guard": {
 		"name": "City Watch (Guard)",
-		"file": "npcdisplay62a0.html",
 		"description": [
 			"## City Watch (Guard)",
 			"",
@@ -1704,7 +1669,6 @@
 	},
 	"criminal_street_thug": {
 		"name": "Criminal (Street Thug)",
-		"file": "npcdisplay5ae3.html",
 		"description": [
 			"## Criminal (Street Thug)",
 			"",
@@ -1751,7 +1715,6 @@
 	},
 	"daring_bravo": {
 		"name": "Daring Bravo",
-		"file": "npcdisplayaf3e.html",
 		"description": [
 			"## Daring Bravo",
 			"",
@@ -1800,7 +1763,6 @@
 	},
 	"dwarven_rager": {
 		"name": "Dwarven Rager",
-		"file": "npcdisplay2bc9.html",
 		"description": [
 			"## Dwarven Rager",
 			"",
@@ -1847,7 +1809,6 @@
 	},
 	"entertainer_storyteller": {
 		"name": "Entertainer (Storyteller)",
-		"file": "npcdisplay8629.html",
 		"description": [
 			"## Entertainer (Storyteller)",
 			"",
@@ -1895,7 +1856,6 @@
 	},
 	"fighting_school_initiate": {
 		"name": "Fighting School (Initiate)",
-		"file": "npcdisplay1e64.html",
 		"description": [
 			"## Fighting School (Initiate)",
 			"",
@@ -1944,7 +1904,6 @@
 	},
 	"first_guard_of_absalom": {
 		"name": "First Guard of Absalom",
-		"file": "npcdisplay4fca.html",
 		"description": [
 			"## First Guard of Absalom",
 			"",
@@ -1990,7 +1949,6 @@
 	},
 	"gem_sorcerer": {
 		"name": "Gem Sorcerer",
-		"file": "npcdisplay9c01.html",
 		"description": [
 			"## Gem Sorcerer",
 			"",
@@ -2042,7 +2000,6 @@
 	},
 	"guard": {
 		"name": "Guard",
-		"file": "npcdisplay0aac.html",
 		"description": [
 			"## Guard",
 			"",
@@ -2088,7 +2045,6 @@
 	},
 	"honorable_outcast": {
 		"name": "Honorable Outcast",
-		"file": "npcdisplay1a2f.html",
 		"description": [
 			"## Honorable Outcast",
 			"",
@@ -2136,7 +2092,6 @@
 	},
 	"initiate": {
 		"name": "Initiate",
-		"file": "npcdisplayaf81.html",
 		"description": [
 			"## Initiate",
 			"",
@@ -2185,7 +2140,6 @@
 	},
 	"mercenary_caravan_guard": {
 		"name": "Mercenary (Caravan Guard)",
-		"file": "npcdisplayb87f.html",
 		"description": [
 			"## Mercenary (Caravan Guard)",
 			"",
@@ -2231,7 +2185,6 @@
 	},
 	"merchant_shopkeep": {
 		"name": "Merchant (Shopkeep)",
-		"file": "npcdisplay8672.html",
 		"description": [
 			"## Merchant (Shopkeep)",
 			"",
@@ -2278,7 +2231,6 @@
 	},
 	"miner": {
 		"name": "Miner",
-		"file": "npcdisplay2df0.html",
 		"description": [
 			"## Miner",
 			"",
@@ -2322,7 +2274,6 @@
 	},
 	"road_vagabond": {
 		"name": "Road (Vagabond)",
-		"file": "npcdisplayabce.html",
 		"description": [
 			"## Road (Vagabond)",
 			"",
@@ -2369,7 +2320,6 @@
 	},
 	"sail_master": {
 		"name": "Sail Master",
-		"file": "npcdisplaybfb8.html",
 		"description": [
 			"## Sail Master",
 			"",
@@ -2420,7 +2370,6 @@
 	},
 	"sczarni_thug": {
 		"name": "Sczarni Thug",
-		"file": "npcdisplay60d6.html",
 		"description": [
 			"## Sczarni Thug",
 			"",
@@ -2477,7 +2426,6 @@
 	},
 	"seasoned_trapper": {
 		"name": "Seasoned Trapper",
-		"file": "npcdisplaye87c.html",
 		"description": [
 			"## Seasoned Trapper",
 			"",
@@ -2522,7 +2470,6 @@
 	},
 	"seer_doomsayer": {
 		"name": "Seer (Doomsayer)",
-		"file": "npcdisplaya85d.html",
 		"description": [
 			"## Seer (Doomsayer)",
 			"",
@@ -2571,7 +2518,6 @@
 	},
 	"skulking_brute": {
 		"name": "Skulking Brute",
-		"file": "npcdisplay4b6a.html",
 		"description": [
 			"## Skulking Brute",
 			"",
@@ -2625,7 +2571,6 @@
 	},
 	"squire": {
 		"name": "Squire",
-		"file": "npcdisplay9198.html",
 		"description": [
 			"## Squire",
 			"",
@@ -2670,7 +2615,6 @@
 	},
 	"street_beggar": {
 		"name": "Street (Beggar)",
-		"file": "npcdisplay2d46.html",
 		"description": [
 			"## Street (Beggar)",
 			"",
@@ -2717,7 +2661,6 @@
 	},
 	"street_prostitute": {
 		"name": "Street (Prostitute)",
-		"file": "npcdisplaye308.html",
 		"description": [
 			"## Street (Prostitute)",
 			"",
@@ -2764,7 +2707,6 @@
 	},
 	"street_magician": {
 		"name": "Street Magician",
-		"file": "npcdisplaybaa6.html",
 		"description": [
 			"## Street Magician",
 			"",
@@ -2818,7 +2760,6 @@
 	},
 	"street_performer": {
 		"name": "Street Performer",
-		"file": "npcdisplay6503.html",
 		"description": [
 			"## Street Performer",
 			"",
@@ -2870,7 +2811,6 @@
 	},
 	"tavern_drunkard": {
 		"name": "Tavern (Drunkard)",
-		"file": "npcdisplay19aa.html",
 		"description": [
 			"## Tavern (Drunkard)",
 			"",
@@ -2915,7 +2855,6 @@
 	},
 	"town_watcher": {
 		"name": "Town Watcher",
-		"file": "npcdisplayc7ac.html",
 		"description": [
 			"## Town Watcher",
 			"",
@@ -2968,7 +2907,6 @@
 	},
 	"tribe_cannibal": {
 		"name": "Tribe (Cannibal)",
-		"file": "npcdisplay4b6e.html",
 		"description": [
 			"## Tribe (Cannibal)",
 			"",
@@ -3020,7 +2958,6 @@
 	},
 	"war_priest": {
 		"name": "War Priest",
-		"file": "npcdisplaybe18.html",
 		"description": [
 			"## War Priest",
 			"",
@@ -3074,7 +3011,6 @@
 	},
 	"accomplished_angler": {
 		"name": "Accomplished Angler",
-		"file": "npcdisplay93c1.html",
 		"description": [
 			"## Accomplished Angler",
 			"",
@@ -3117,7 +3053,6 @@
 	},
 	"axe_warrior": {
 		"name": "Axe Warrior",
-		"file": "npcdisplay265f.html",
 		"description": [
 			"## Axe Warrior",
 			"",
@@ -3172,7 +3107,6 @@
 	},
 	"battle_mage": {
 		"name": "Battle Mage",
-		"file": "npcdisplay86f6.html",
 		"description": [
 			"## Battle Mage",
 			"",
@@ -3224,7 +3158,6 @@
 	},
 	"criminal_burglar": {
 		"name": "Criminal (Burglar)",
-		"file": "npcdisplaybc74.html",
 		"description": [
 			"## Criminal (Burglar)",
 			"",
@@ -3272,7 +3205,6 @@
 	},
 	"doom_prophet": {
 		"name": "Doom Prophet",
-		"file": "npcdisplaybba8.html",
 		"description": [
 			"## Doom Prophet",
 			"",
@@ -3323,7 +3255,6 @@
 	},
 	"duergar_slaver": {
 		"name": "Duergar Slaver",
-		"file": "npcdisplay66a2.html",
 		"description": [
 			"## Duergar Slaver",
 			"",
@@ -3372,7 +3303,6 @@
 	},
 	"dungeon_prisoner": {
 		"name": "Dungeon (Prisoner)",
-		"file": "npcdisplay966c.html",
 		"description": [
 			"## Dungeon (Prisoner)",
 			"",
@@ -3415,7 +3345,6 @@
 	},
 	"eagle_knight": {
 		"name": "Eagle Knight",
-		"file": "npcdisplaya4cd.html",
 		"description": [
 			"## Eagle Knight",
 			"",
@@ -3467,7 +3396,6 @@
 	},
 	"haughty_avenger": {
 		"name": "Haughty Avenger",
-		"file": "npcdisplay286a.html",
 		"description": [
 			"## Haughty Avenger",
 			"",
@@ -3523,7 +3451,6 @@
 	},
 	"heir_apparent": {
 		"name": "Heir Apparent",
-		"file": "npcdisplay348f.html",
 		"description": [
 			"## Heir Apparent",
 			"",
@@ -3568,7 +3495,6 @@
 	},
 	"hellknight_armiger": {
 		"name": "Hellknight Armiger",
-		"file": "npcdisplayb72c.html",
 		"description": [
 			"## Hellknight Armiger",
 			"",
@@ -3614,7 +3540,6 @@
 	},
 	"heretic_cultist": {
 		"name": "Heretic (Cultist)",
-		"file": "npcdisplay621b.html",
 		"description": [
 			"## Heretic (Cultist)",
 			"",
@@ -3667,7 +3592,6 @@
 	},
 	"jinx_eater": {
 		"name": "Jinx Eater",
-		"file": "npcdisplayc7d2.html",
 		"description": [
 			"## Jinx Eater",
 			"",
@@ -3720,7 +3644,6 @@
 	},
 	"journeyman_carpenter": {
 		"name": "Journeyman Carpenter",
-		"file": "npcdisplaye2b0.html",
 		"description": [
 			"## Journeyman Carpenter",
 			"",
@@ -3767,7 +3690,6 @@
 	},
 	"kitharodian_academy_performer": {
 		"name": "Kitharodian Academy Performer",
-		"file": "npcdisplayb1bb.html",
 		"description": [
 			"## Kitharodian Academy Performer",
 			"",
@@ -3817,7 +3739,6 @@
 	},
 	"local_celebrity": {
 		"name": "Local Celebrity",
-		"file": "npcdisplay06ca.html",
 		"description": [
 			"## Local Celebrity",
 			"",
@@ -3869,7 +3790,6 @@
 	},
 	"mystery_cultist": {
 		"name": "Mystery Cultist",
-		"file": "npcdisplayb9f9.html",
 		"description": [
 			"## Mystery Cultist",
 			"",
@@ -3928,7 +3848,6 @@
 	},
 	"noble_noble_scion": {
 		"name": "Noble (Noble Scion)",
-		"file": "npcdisplayae84.html",
 		"description": [
 			"## Noble (Noble Scion)",
 			"",
@@ -3973,7 +3892,6 @@
 	},
 	"pirate_smuggler": {
 		"name": "Pirate (Smuggler)",
-		"file": "npcdisplay1d2b.html",
 		"description": [
 			"## Pirate (Smuggler)",
 			"",
@@ -4020,7 +3938,6 @@
 	},
 	"poacher": {
 		"name": "Poacher",
-		"file": "npcdisplay0903.html",
 		"description": [
 			"## Poacher",
 			"",
@@ -4070,7 +3987,6 @@
 	},
 	"road_wanderer": {
 		"name": "Road (Wanderer)",
-		"file": "npcdisplay7827.html",
 		"description": [
 			"## Road (Wanderer)",
 			"",
@@ -4121,7 +4037,6 @@
 	},
 	"scholar_priest": {
 		"name": "Scholar Priest",
-		"file": "npcdisplaybe6e.html",
 		"description": [
 			"## Scholar Priest",
 			"",
@@ -4174,7 +4089,6 @@
 	},
 	"sczarni_thief": {
 		"name": "Sczarni Thief",
-		"file": "npcdisplay62ca.html",
 		"description": [
 			"## Sczarni Thief",
 			"",
@@ -4222,7 +4136,6 @@
 	},
 	"shifty_noble": {
 		"name": "Shifty Noble",
-		"file": "npcdisplaycb54.html",
 		"description": [
 			"## Shifty Noble",
 			"",
@@ -4274,7 +4187,6 @@
 	},
 	"shoanti_gladiator": {
 		"name": "Shoanti Gladiator",
-		"file": "npcdisplayc8b0.html",
 		"description": [
 			"## Shoanti Gladiator",
 			"",
@@ -4328,7 +4240,6 @@
 	},
 	"skilled_sniper": {
 		"name": "Skilled Sniper",
-		"file": "npcdisplaycca1.html",
 		"description": [
 			"## Skilled Sniper",
 			"",
@@ -4383,7 +4294,6 @@
 	},
 	"skinsaw_cultist": {
 		"name": "Skinsaw Cultist",
-		"file": "npcdisplayb05b.html",
 		"description": [
 			"## Skinsaw Cultist",
 			"",
@@ -4437,7 +4347,6 @@
 	},
 	"sylvan_protector": {
 		"name": "Sylvan Protector",
-		"file": "npcdisplay9fdd.html",
 		"description": [
 			"## Sylvan Protector",
 			"",
@@ -4491,7 +4400,6 @@
 	},
 	"traitorous_brigand": {
 		"name": "Traitorous Brigand",
-		"file": "npcdisplay5a8e.html",
 		"description": [
 			"## Traitorous Brigand",
 			"",
@@ -4540,7 +4448,6 @@
 	},
 	"veteran_buccaneer": {
 		"name": "Veteran Buccaneer",
-		"file": "npcdisplay4d87.html",
 		"description": [
 			"## Veteran Buccaneer",
 			"",
@@ -4585,7 +4492,6 @@
 	},
 	"vigilant_bodyguard": {
 		"name": "Vigilant Bodyguard",
-		"file": "npcdisplay994b.html",
 		"description": [
 			"## Vigilant Bodyguard",
 			"",
@@ -4632,7 +4538,6 @@
 	},
 	"whiteclaw_sorcerer": {
 		"name": "Whiteclaw Sorcerer",
-		"file": "npcdisplaya2ee.html",
 		"description": [
 			"## Whiteclaw Sorcerer",
 			"",
@@ -4684,7 +4589,6 @@
 	},
 	"absalom_wave_rider": {
 		"name": "Absalom Wave Rider",
-		"file": "npcdisplaye34b.html",
 		"description": [
 			"## Absalom Wave Rider",
 			"",
@@ -4735,7 +4639,6 @@
 	},
 	"barmaid": {
 		"name": "Barmaid",
-		"file": "npcdisplay1a40.html",
 		"description": [
 			"## Barmaid",
 			"",
@@ -4778,7 +4681,6 @@
 	},
 	"berserker_cannibal": {
 		"name": "Berserker Cannibal",
-		"file": "npcdisplay8a1e.html",
 		"description": [
 			"## Berserker Cannibal",
 			"",
@@ -4834,7 +4736,6 @@
 	},
 	"bleachling_lunatic": {
 		"name": "Bleachling Lunatic",
-		"file": "npcdisplay2ee6.html",
 		"description": [
 			"## Bleachling Lunatic",
 			"",
@@ -4890,7 +4791,6 @@
 	},
 	"border_guard": {
 		"name": "Border Guard",
-		"file": "npcdisplay3d2e.html",
 		"description": [
 			"## Border Guard",
 			"",
@@ -4944,7 +4844,6 @@
 	},
 	"charlatan": {
 		"name": "Charlatan",
-		"file": "npcdisplayfa9e.html",
 		"description": [
 			"## Charlatan",
 			"",
@@ -4998,7 +4897,6 @@
 	},
 	"chernasardo_sniper": {
 		"name": "Chernasardo Sniper",
-		"file": "npcdisplayabad.html",
 		"description": [
 			"## Chernasardo Sniper",
 			"",
@@ -5044,7 +4942,6 @@
 	},
 	"city_watch_guard_officer": {
 		"name": "City Watch (Guard Officer)",
-		"file": "npcdisplay91a8.html",
 		"description": [
 			"## City Watch (Guard Officer)",
 			"",
@@ -5092,7 +4989,6 @@
 	},
 	"criminal_slaver": {
 		"name": "Criminal (Slaver)",
-		"file": "npcdisplay72a9.html",
 		"description": [
 			"## Criminal (Slaver)",
 			"",
@@ -5141,7 +5037,6 @@
 	},
 	"dog_rider": {
 		"name": "Dog Rider",
-		"file": "npcdisplay1c4d.html",
 		"description": [
 			"## Dog Rider",
 			"",
@@ -5189,7 +5084,6 @@
 	},
 	"dungeon_turnkey": {
 		"name": "Dungeon (Turnkey)",
-		"file": "npcdisplayfb65.html",
 		"description": [
 			"## Dungeon (Turnkey)",
 			"",
@@ -5236,7 +5130,6 @@
 	},
 	"enforcer": {
 		"name": "Enforcer",
-		"file": "npcdisplay140a.html",
 		"description": [
 			"## Enforcer",
 			"",
@@ -5286,7 +5179,6 @@
 	},
 	"falconer": {
 		"name": "Falconer",
-		"file": "npcdisplay08cb.html",
 		"description": [
 			"## Falconer",
 			"",
@@ -5329,7 +5221,6 @@
 	},
 	"frontier_trapper": {
 		"name": "Frontier (Trapper)",
-		"file": "npcdisplayeb10.html",
 		"description": [
 			"## Frontier (Trapper)",
 			"",
@@ -5376,7 +5267,6 @@
 	},
 	"harbinger_disciple": {
 		"name": "Harbinger Disciple",
-		"file": "npcdisplay9024.html",
 		"description": [
 			"## Harbinger Disciple",
 			"",
@@ -5423,7 +5313,6 @@
 	},
 	"investigator_wizard": {
 		"name": "Investigator Wizard",
-		"file": "npcdisplay9caf.html",
 		"description": [
 			"## Investigator Wizard",
 			"",
@@ -5476,7 +5365,6 @@
 	},
 	"lastwall_border_scout": {
 		"name": "Lastwall Border Scout",
-		"file": "npcdisplayd44c.html",
 		"description": [
 			"## Lastwall Border Scout",
 			"",
@@ -5524,7 +5412,6 @@
 	},
 	"lumber_consortium_enforcer": {
 		"name": "Lumber Consortium Enforcer",
-		"file": "npcdisplay44cd.html",
 		"description": [
 			"## Lumber Consortium Enforcer",
 			"",
@@ -5576,7 +5463,6 @@
 	},
 	"murderous_halfling": {
 		"name": "Murderous Halfling",
-		"file": "npcdisplaya287.html",
 		"description": [
 			"## Murderous Halfling",
 			"",
@@ -5625,7 +5511,6 @@
 	},
 	"pirate_officer": {
 		"name": "Pirate Officer",
-		"file": "npcdisplayfa58.html",
 		"description": [
 			"## Pirate Officer",
 			"",
@@ -5677,7 +5562,6 @@
 	},
 	"red_mantis_initiate": {
 		"name": "Red Mantis Initiate",
-		"file": "npcdisplay1585.html",
 		"description": [
 			"## Red Mantis Initiate",
 			"",
@@ -5724,7 +5608,6 @@
 	},
 	"river_cleric": {
 		"name": "River Cleric",
-		"file": "npcdisplay35b2.html",
 		"description": [
 			"## River Cleric",
 			"",
@@ -5783,7 +5666,6 @@
 	},
 	"road_pilgrim": {
 		"name": "Road (Pilgrim)",
-		"file": "npcdisplay1bdb.html",
 		"description": [
 			"## Road (Pilgrim)",
 			"",
@@ -5830,7 +5712,6 @@
 	},
 	"sapper": {
 		"name": "Sapper",
-		"file": "npcdisplayc954.html",
 		"description": [
 			"## Sapper",
 			"",
@@ -5873,7 +5754,6 @@
 	},
 	"savage_plant_sage": {
 		"name": "Savage Plant Sage",
-		"file": "npcdisplay5059.html",
 		"description": [
 			"## Savage Plant Sage",
 			"",
@@ -5929,7 +5809,6 @@
 	},
 	"shoreline_cleric": {
 		"name": "Shoreline Cleric",
-		"file": "npcdisplayf34a.html",
 		"description": [
 			"## Shoreline Cleric",
 			"",
@@ -5985,7 +5864,6 @@
 	},
 	"skirmishing_crusader": {
 		"name": "Skirmishing Crusader",
-		"file": "npcdisplayed20.html",
 		"description": [
 			"## Skirmishing Crusader",
 			"",
@@ -6037,7 +5915,6 @@
 	},
 	"spry_ambusher": {
 		"name": "Spry Ambusher",
-		"file": "npcdisplay0b97.html",
 		"description": [
 			"## Spry Ambusher",
 			"",
@@ -6087,7 +5964,6 @@
 	},
 	"street_dealer": {
 		"name": "Street (Dealer)",
-		"file": "npcdisplayfe17.html",
 		"description": [
 			"## Street (Dealer)",
 			"",
@@ -6135,7 +6011,6 @@
 	},
 	"tainted_sorcerer": {
 		"name": "Tainted Sorcerer",
-		"file": "npcdisplayac45.html",
 		"description": [
 			"## Tainted Sorcerer",
 			"",
@@ -6189,7 +6064,6 @@
 	},
 	"taunting_comedian": {
 		"name": "Taunting Comedian",
-		"file": "npcdisplay3862.html",
 		"description": [
 			"## Taunting Comedian",
 			"",
@@ -6242,7 +6116,6 @@
 	},
 	"tavern_barkeep": {
 		"name": "Tavern (Barkeep)",
-		"file": "npcdisplayb636.html",
 		"description": [
 			"## Tavern (Barkeep)",
 			"",
@@ -6289,7 +6162,6 @@
 	},
 	"tavern_champion": {
 		"name": "Tavern Champion",
-		"file": "npcdisplayae17.html",
 		"description": [
 			"## Tavern Champion",
 			"",
@@ -6335,7 +6207,6 @@
 	},
 	"technic_league_hireling": {
 		"name": "Technic League Hireling",
-		"file": "npcdisplay8222.html",
 		"description": [
 			"## Technic League Hireling",
 			"",
@@ -6392,7 +6263,6 @@
 	},
 	"aspis_agent": {
 		"name": "Aspis Agent",
-		"file": "npcdisplayb2a1.html",
 		"description": [
 			"## Aspis Agent",
 			"",
@@ -6449,7 +6319,6 @@
 	},
 	"besmaran_priest": {
 		"name": "Besmaran Priest",
-		"file": "npcdisplayd7b9.html",
 		"description": [
 			"## Besmaran Priest",
 			"",
@@ -6505,7 +6374,6 @@
 	},
 	"bramble_sorcerer": {
 		"name": "Bramble Sorcerer",
-		"file": "npcdisplay6a5d.html",
 		"description": [
 			"## Bramble Sorcerer",
 			"",
@@ -6566,7 +6434,6 @@
 	},
 	"cautious_archer": {
 		"name": "Cautious Archer",
-		"file": "npcdisplayc001.html",
 		"description": [
 			"## Cautious Archer",
 			"",
@@ -6618,7 +6485,6 @@
 	},
 	"cavern_defender": {
 		"name": "Cavern Defender",
-		"file": "npcdisplayb129.html",
 		"description": [
 			"## Cavern Defender",
 			"",
@@ -6681,7 +6547,6 @@
 	},
 	"city_watch_captain_magnimar": {
 		"name": "City Watch Captain (Magnimar)",
-		"file": "npcdisplay3f5e.html",
 		"description": [
 			"## City Watch Captain (Magnimar)",
 			"",
@@ -6731,7 +6596,6 @@
 	},
 	"corrupt_politician": {
 		"name": "Corrupt Politician",
-		"file": "npcdisplay0a6a.html",
 		"description": [
 			"## Corrupt Politician",
 			"",
@@ -6790,7 +6654,6 @@
 	},
 	"court_poet": {
 		"name": "Court Poet",
-		"file": "npcdisplayd534.html",
 		"description": [
 			"## Court Poet",
 			"",
@@ -6853,7 +6716,6 @@
 	},
 	"cruel_devotee": {
 		"name": "Cruel Devotee",
-		"file": "npcdisplay0bd7.html",
 		"description": [
 			"## Cruel Devotee",
 			"",
@@ -6899,7 +6761,6 @@
 	},
 	"devil's_perch_rebel": {
 		"name": "Devil's Perch Rebel",
-		"file": "npcdisplay152d.html",
 		"description": [
 			"## Devil's Perch Rebel",
 			"",
@@ -6948,7 +6809,6 @@
 	},
 	"expert_blacksmith": {
 		"name": "Expert Blacksmith",
-		"file": "npcdisplay8e3d.html",
 		"description": [
 			"## Expert Blacksmith",
 			"",
@@ -6993,7 +6853,6 @@
 	},
 	"fighting_school_battle_monk": {
 		"name": "Fighting School (Battle Monk)",
-		"file": "npcdisplay868d.html",
 		"description": [
 			"## Fighting School (Battle Monk)",
 			"",
@@ -7041,7 +6900,6 @@
 	},
 	"god_caller": {
 		"name": "God Caller",
-		"file": "npcdisplay9c1a.html",
 		"description": [
 			"## God Caller",
 			"",
@@ -7124,7 +6982,6 @@
 	},
 	"grizzled_mercenary": {
 		"name": "Grizzled Mercenary",
-		"file": "npcdisplay16a3.html",
 		"description": [
 			"## Grizzled Mercenary",
 			"",
@@ -7170,7 +7027,6 @@
 	},
 	"guild_initiate": {
 		"name": "Guild Initiate",
-		"file": "npcdisplayf4f9.html",
 		"description": [
 			"## Guild Initiate",
 			"",
@@ -7224,7 +7080,6 @@
 	},
 	"guru": {
 		"name": "Guru",
-		"file": "npcdisplayd4ab.html",
 		"description": [
 			"## Guru",
 			"",
@@ -7273,7 +7128,6 @@
 	},
 	"hammer_of_justice": {
 		"name": "Hammer of Justice",
-		"file": "npcdisplaye122.html",
 		"description": [
 			"## Hammer of Justice",
 			"",
@@ -7324,7 +7178,6 @@
 	},
 	"jungle_wizard": {
 		"name": "Jungle Wizard",
-		"file": "npcdisplay63af.html",
 		"description": [
 			"## Jungle Wizard",
 			"",
@@ -7387,7 +7240,6 @@
 	},
 	"longboat_captain": {
 		"name": "Longboat Captain",
-		"file": "npcdisplay2df6.html",
 		"description": [
 			"## Longboat Captain",
 			"",
@@ -7444,7 +7296,6 @@
 	},
 	"mounted_archer": {
 		"name": "Mounted Archer",
-		"file": "npcdisplay2c11.html",
 		"description": [
 			"## Mounted Archer",
 			"",
@@ -7499,7 +7350,6 @@
 	},
 	"noble_crusader": {
 		"name": "Noble Crusader",
-		"file": "npcdisplayec84.html",
 		"description": [
 			"## Noble Crusader",
 			"",
@@ -7563,7 +7413,6 @@
 	},
 	"officer": {
 		"name": "Officer",
-		"file": "npcdisplayab72.html",
 		"description": [
 			"## Officer",
 			"",
@@ -7608,7 +7457,6 @@
 	},
 	"scholar_hedge_wizard": {
 		"name": "Scholar (Hedge Wizard)",
-		"file": "npcdisplaybfdb.html",
 		"description": [
 			"## Scholar (Hedge Wizard)",
 			"",
@@ -7659,7 +7507,6 @@
 	},
 	"seer_medium": {
 		"name": "Seer (Medium)",
-		"file": "npcdisplay1c49.html",
 		"description": [
 			"## Seer (Medium)",
 			"",
@@ -7713,7 +7560,6 @@
 	},
 	"shoanti_burn_rider": {
 		"name": "Shoanti Burn Rider",
-		"file": "npcdisplay4069.html",
 		"description": [
 			"## Shoanti Burn Rider",
 			"",
@@ -7769,7 +7615,6 @@
 	},
 	"shopkeeper": {
 		"name": "Shopkeeper",
-		"file": "npcdisplaya1ea.html",
 		"description": [
 			"## Shopkeeper",
 			"",
@@ -7813,7 +7658,6 @@
 	},
 	"sodden_scavenger": {
 		"name": "Sodden Scavenger",
-		"file": "npcdisplay54d5.html",
 		"description": [
 			"## Sodden Scavenger",
 			"",
@@ -7859,7 +7703,6 @@
 	},
 	"usij_cabalist": {
 		"name": "Usij Cabalist",
-		"file": "npcdisplay4fb4.html",
 		"description": [
 			"## Usij Cabalist",
 			"",
@@ -7912,7 +7755,6 @@
 	},
 	"wayward_crusader": {
 		"name": "Wayward Crusader",
-		"file": "npcdisplayf7e1.html",
 		"description": [
 			"## Wayward Crusader",
 			"",
@@ -7995,7 +7837,6 @@
 	},
 	"wild_lancer": {
 		"name": "Wild Lancer",
-		"file": "npcdisplay012a.html",
 		"description": [
 			"## Wild Lancer",
 			"",
@@ -8043,7 +7884,6 @@
 	},
 	"winter_witch_baroness": {
 		"name": "Winter Witch Baroness",
-		"file": "npcdisplay53e0.html",
 		"description": [
 			"## Winter Witch Baroness",
 			"",
@@ -8105,7 +7945,6 @@
 	},
 	"adventurer_battle_mage": {
 		"name": "Adventurer (Battle Mage)",
-		"file": "npcdisplay3b12.html",
 		"description": [
 			"## Adventurer (Battle Mage)",
 			"",
@@ -8154,7 +7993,6 @@
 	},
 	"adventurer_monster_hunter": {
 		"name": "Adventurer (Monster Hunter)",
-		"file": "npcdisplay8c2a.html",
 		"description": [
 			"## Adventurer (Monster Hunter)",
 			"",
@@ -8201,7 +8039,6 @@
 	},
 	"adventurer_tomb_raider": {
 		"name": "Adventurer (Tomb Raider)",
-		"file": "npcdisplay24f2.html",
 		"description": [
 			"## Adventurer (Tomb Raider)",
 			"",
@@ -8247,7 +8084,6 @@
 	},
 	"adventuring_blacksmith": {
 		"name": "Adventuring Blacksmith",
-		"file": "npcdisplay24cd.html",
 		"description": [
 			"## Adventuring Blacksmith",
 			"",
@@ -8297,7 +8133,6 @@
 	},
 	"aldori_swordlord": {
 		"name": "Aldori Swordlord",
-		"file": "npcdisplay3192.html",
 		"description": [
 			"## Aldori Swordlord",
 			"",
@@ -8349,7 +8184,6 @@
 	},
 	"android_impostor": {
 		"name": "Android Impostor",
-		"file": "npcdisplay7d07.html",
 		"description": [
 			"## Android Impostor",
 			"",
@@ -8408,7 +8242,6 @@
 	},
 	"blackraven_scout": {
 		"name": "Blackraven Scout",
-		"file": "npcdisplayae94.html",
 		"description": [
 			"## Blackraven Scout",
 			"",
@@ -8462,7 +8295,6 @@
 	},
 	"carousing_champion": {
 		"name": "Carousing Champion",
-		"file": "npcdisplaye723.html",
 		"description": [
 			"## Carousing Champion",
 			"",
@@ -8524,7 +8356,6 @@
 	},
 	"cave_stalker": {
 		"name": "Cave Stalker",
-		"file": "npcdisplayad19.html",
 		"description": [
 			"## Cave Stalker",
 			"",
@@ -8579,7 +8410,6 @@
 	},
 	"chelish_opera_singer": {
 		"name": "Chelish Opera Singer",
-		"file": "npcdisplayc5ef.html",
 		"description": [
 			"## Chelish Opera Singer",
 			"",
@@ -8628,7 +8458,6 @@
 	},
 	"coliseum_gladiator": {
 		"name": "Coliseum (Gladiator)",
-		"file": "npcdisplay8474.html",
 		"description": [
 			"## Coliseum (Gladiator)",
 			"",
@@ -8676,7 +8505,6 @@
 	},
 	"con_artist": {
 		"name": "Con Artist",
-		"file": "npcdisplaybce4.html",
 		"description": [
 			"## Con Artist",
 			"",
@@ -8740,7 +8568,6 @@
 	},
 	"dungeon_torturer": {
 		"name": "Dungeon (Torturer)",
-		"file": "npcdisplay858e.html",
 		"description": [
 			"## Dungeon (Torturer)",
 			"",
@@ -8785,7 +8612,6 @@
 	},
 	"entertainer_minstrel": {
 		"name": "Entertainer (Minstrel)",
-		"file": "npcdisplay2a6b.html",
 		"description": [
 			"## Entertainer (Minstrel)",
 			"",
@@ -8834,7 +8660,6 @@
 	},
 	"evasive_slip": {
 		"name": "Evasive Slip",
-		"file": "npcdisplay42d8.html",
 		"description": [
 			"## Evasive Slip",
 			"",
@@ -8898,7 +8723,6 @@
 	},
 	"expert_bodyguard": {
 		"name": "Expert Bodyguard",
-		"file": "npcdisplay16e3.html",
 		"description": [
 			"## Expert Bodyguard",
 			"",
@@ -8943,7 +8767,6 @@
 	},
 	"forest_guardian": {
 		"name": "Forest Guardian",
-		"file": "npcdisplay63c8.html",
 		"description": [
 			"## Forest Guardian",
 			"",
@@ -8990,7 +8813,6 @@
 	},
 	"hermit": {
 		"name": "Hermit",
-		"file": "npcdisplay7459.html",
 		"description": [
 			"## Hermit",
 			"",
@@ -9040,7 +8862,6 @@
 	},
 	"holy_archer": {
 		"name": "Holy Archer",
-		"file": "npcdisplay129e.html",
 		"description": [
 			"## Holy Archer",
 			"",
@@ -9091,7 +8912,6 @@
 	},
 	"marauder_raider": {
 		"name": "Marauder (Raider)",
-		"file": "npcdisplay3aa6.html",
 		"description": [
 			"## Marauder (Raider)",
 			"",
@@ -9143,7 +8963,6 @@
 	},
 	"mayor": {
 		"name": "Mayor",
-		"file": "npcdisplay76ad.html",
 		"description": [
 			"## Mayor",
 			"",
@@ -9188,7 +9007,6 @@
 	},
 	"merchant_traveling_merchant": {
 		"name": "Merchant (Traveling Merchant)",
-		"file": "npcdisplay88f0.html",
 		"description": [
 			"## Merchant (Traveling Merchant)",
 			"",
@@ -9233,7 +9051,6 @@
 	},
 	"military_cavalry": {
 		"name": "Military (Cavalry)",
-		"file": "npcdisplaybc65.html",
 		"description": [
 			"## Military (Cavalry)",
 			"",
@@ -9281,7 +9098,6 @@
 	},
 	"night_scale_assassin": {
 		"name": "Night Scale Assassin",
-		"file": "npcdisplay2f67.html",
 		"description": [
 			"## Night Scale Assassin",
 			"",
@@ -9332,7 +9148,6 @@
 	},
 	"nimble_shuriken_thrower": {
 		"name": "Nimble Shuriken Thrower",
-		"file": "npcdisplaybc99.html",
 		"description": [
 			"## Nimble Shuriken Thrower",
 			"",
@@ -9378,7 +9193,6 @@
 	},
 	"pirate_captain": {
 		"name": "Pirate Captain",
-		"file": "npcdisplay6943.html",
 		"description": [
 			"## Pirate Captain",
 			"",
@@ -9429,7 +9243,6 @@
 	},
 	"risen_guard": {
 		"name": "Risen Guard",
-		"file": "npcdisplay6ac5.html",
 		"description": [
 			"## Risen Guard",
 			"",
@@ -9484,7 +9297,6 @@
 	},
 	"ruffian": {
 		"name": "Ruffian",
-		"file": "npcdisplayb151.html",
 		"description": [
 			"## Ruffian",
 			"",
@@ -9529,7 +9341,6 @@
 	},
 	"seer_fortune_teller": {
 		"name": "Seer (Fortune Teller)",
-		"file": "npcdisplay8dc3.html",
 		"description": [
 			"## Seer (Fortune Teller)",
 			"",
@@ -9579,7 +9390,6 @@
 	},
 	"shackled_sorcerer": {
 		"name": "Shackled Sorcerer",
-		"file": "npcdisplayeebf.html",
 		"description": [
 			"## Shackled Sorcerer",
 			"",
@@ -9636,7 +9446,6 @@
 	},
 	"silent_enforcer": {
 		"name": "Silent Enforcer",
-		"file": "npcdisplay2a2e.html",
 		"description": [
 			"## Silent Enforcer",
 			"",
@@ -9681,7 +9490,6 @@
 	},
 	"storm_sorcerer": {
 		"name": "Storm Sorcerer",
-		"file": "npcdisplay5387.html",
 		"description": [
 			"## Storm Sorcerer",
 			"",
@@ -9744,7 +9552,6 @@
 	},
 	"successful_merchant": {
 		"name": "Successful Merchant",
-		"file": "npcdisplay00cf.html",
 		"description": [
 			"## Successful Merchant",
 			"",
@@ -9789,7 +9596,6 @@
 	},
 	"tribal_seer": {
 		"name": "Tribal Seer",
-		"file": "npcdisplay17d6.html",
 		"description": [
 			"## Tribal Seer",
 			"",
@@ -9852,7 +9658,6 @@
 	},
 	"tribe_shaman": {
 		"name": "Tribe (Shaman)",
-		"file": "npcdisplay7776.html",
 		"description": [
 			"## Tribe (Shaman)",
 			"",
@@ -9901,7 +9706,6 @@
 	},
 	"tunnel_rat": {
 		"name": "Tunnel Rat",
-		"file": "npcdisplay72af.html",
 		"description": [
 			"## Tunnel Rat",
 			"",
@@ -9951,7 +9755,6 @@
 	},
 	"aloof_archer": {
 		"name": "Aloof Archer",
-		"file": "npcdisplay35ca.html",
 		"description": [
 			"## Aloof Archer",
 			"",
@@ -9996,7 +9799,6 @@
 	},
 	"bloodfire_sorcerer": {
 		"name": "Bloodfire Sorcerer",
-		"file": "npcdisplay0523.html",
 		"description": [
 			"## Bloodfire Sorcerer",
 			"",
@@ -10059,7 +9861,6 @@
 	},
 	"blue_warder": {
 		"name": "Blue Warder",
-		"file": "npcdisplay2d40.html",
 		"description": [
 			"## Blue Warder",
 			"",
@@ -10110,7 +9911,6 @@
 	},
 	"brigand_highwayman": {
 		"name": "Brigand (Highwayman)",
-		"file": "npcdisplay799f.html",
 		"description": [
 			"## Brigand (Highwayman)",
 			"",
@@ -10156,7 +9956,6 @@
 	},
 	"cannibal_zealot": {
 		"name": "Cannibal Zealot",
-		"file": "npcdisplayb53a.html",
 		"description": [
 			"## Cannibal Zealot",
 			"",
@@ -10210,7 +10009,6 @@
 	},
 	"city_watch_watch_captain": {
 		"name": "City Watch (Watch Captain)",
-		"file": "npcdisplay6b2a.html",
 		"description": [
 			"## City Watch (Watch Captain)",
 			"",
@@ -10258,7 +10056,6 @@
 	},
 	"coliseum_beast_master": {
 		"name": "Coliseum (Beast Master)",
-		"file": "npcdisplayb886.html",
 		"description": [
 			"## Coliseum (Beast Master)",
 			"",
@@ -10307,7 +10104,6 @@
 	},
 	"crusader_holy_warrior": {
 		"name": "Crusader (Holy Warrior)",
-		"file": "npcdisplayf13e.html",
 		"description": [
 			"## Crusader (Holy Warrior)",
 			"",
@@ -10357,7 +10153,6 @@
 	},
 	"diplomat": {
 		"name": "Diplomat",
-		"file": "npcdisplay70a9.html",
 		"description": [
 			"## Diplomat",
 			"",
@@ -10403,7 +10198,6 @@
 	},
 	"dog_rider_knight": {
 		"name": "Dog Rider Knight",
-		"file": "npcdisplay8db2.html",
 		"description": [
 			"## Dog Rider Knight",
 			"",
@@ -10457,7 +10251,6 @@
 	},
 	"freelance_thief": {
 		"name": "Freelance Thief",
-		"file": "npcdisplaycd38.html",
 		"description": [
 			"## Freelance Thief",
 			"",
@@ -10511,7 +10304,6 @@
 	},
 	"frontier_hermit": {
 		"name": "Frontier (Hermit)",
-		"file": "npcdisplaybccb.html",
 		"description": [
 			"## Frontier (Hermit)",
 			"",
@@ -10560,7 +10352,6 @@
 	},
 	"gambler": {
 		"name": "Gambler",
-		"file": "npcdisplayab04.html",
 		"description": [
 			"## Gambler",
 			"",
@@ -10623,7 +10414,6 @@
 	},
 	"harrying_brute": {
 		"name": "Harrying Brute",
-		"file": "npcdisplay20ca.html",
 		"description": [
 			"## Harrying Brute",
 			"",
@@ -10671,7 +10461,6 @@
 	},
 	"heretic": {
 		"name": "Heretic",
-		"file": "npcdisplaya809.html",
 		"description": [
 			"## Heretic",
 			"",
@@ -10721,7 +10510,6 @@
 	},
 	"heretic_conjurist": {
 		"name": "Heretic (Conjurist)",
-		"file": "npcdisplayfe40.html",
 		"description": [
 			"## Heretic (Conjurist)",
 			"",
@@ -10772,7 +10560,6 @@
 	},
 	"island_defender": {
 		"name": "Island Defender",
-		"file": "npcdisplaydbed.html",
 		"description": [
 			"## Island Defender",
 			"",
@@ -10834,7 +10621,6 @@
 	},
 	"molthuni_commander": {
 		"name": "Molthuni Commander",
-		"file": "npcdisplay3fd2.html",
 		"description": [
 			"## Molthuni Commander",
 			"",
@@ -10905,7 +10691,6 @@
 	},
 	"mountaineer": {
 		"name": "Mountaineer",
-		"file": "npcdisplaya200.html",
 		"description": [
 			"## Mountaineer",
 			"",
@@ -10956,7 +10741,6 @@
 	},
 	"numerian_fluid_scavenger": {
 		"name": "Numerian Fluid Scavenger",
-		"file": "npcdisplay80ac.html",
 		"description": [
 			"## Numerian Fluid Scavenger",
 			"",
@@ -11013,7 +10797,6 @@
 	},
 	"numerian_gunslinger": {
 		"name": "Numerian Gunslinger",
-		"file": "npcdisplay3efd.html",
 		"description": [
 			"## Numerian Gunslinger",
 			"",
@@ -11070,7 +10853,6 @@
 	},
 	"pure_legionnaire": {
 		"name": "Pure Legionnaire",
-		"file": "npcdisplay7d8d.html",
 		"description": [
 			"## Pure Legionnaire",
 			"",
@@ -11115,7 +10897,6 @@
 	},
 	"royalty_princess": {
 		"name": "Royalty (Princess)",
-		"file": "npcdisplay898a.html",
 		"description": [
 			"## Royalty (Princess)",
 			"",
@@ -11160,7 +10941,6 @@
 	},
 	"scholar_archaeologist": {
 		"name": "Scholar (Archaeologist)",
-		"file": "npcdisplay1a23.html",
 		"description": [
 			"## Scholar (Archaeologist)",
 			"",
@@ -11205,7 +10985,6 @@
 	},
 	"signifer_of_the_nail": {
 		"name": "Signifer of the Nail",
-		"file": "npcdisplaye8b7.html",
 		"description": [
 			"## Signifer of the Nail",
 			"",
@@ -11261,7 +11040,6 @@
 	},
 	"spell_hunter": {
 		"name": "Spell Hunter",
-		"file": "npcdisplay87dd.html",
 		"description": [
 			"## Spell Hunter",
 			"",
@@ -11309,7 +11087,6 @@
 	},
 	"sundering_axe": {
 		"name": "Sundering Axe",
-		"file": "npcdisplay71f8.html",
 		"description": [
 			"## Sundering Axe",
 			"",
@@ -11356,7 +11133,6 @@
 	},
 	"thunder_wizard": {
 		"name": "Thunder Wizard",
-		"file": "npcdisplay62fe.html",
 		"description": [
 			"## Thunder Wizard",
 			"",
@@ -11421,7 +11197,6 @@
 	},
 	"usaro_rebel": {
 		"name": "Usaro Rebel",
-		"file": "npcdisplay97fc.html",
 		"description": [
 			"## Usaro Rebel",
 			"",
@@ -11471,7 +11246,6 @@
 	},
 	"village_elder": {
 		"name": "Village Elder",
-		"file": "npcdisplay6e54.html",
 		"description": [
 			"## Village Elder",
 			"",
@@ -11517,7 +11291,6 @@
 	},
 	"vivisectionist_cleric": {
 		"name": "Vivisectionist Cleric",
-		"file": "npcdisplay5254.html",
 		"description": [
 			"## Vivisectionist Cleric",
 			"",
@@ -11581,7 +11354,6 @@
 	},
 	"wise_sage": {
 		"name": "Wise Sage",
-		"file": "npcdisplay3f6e.html",
 		"description": [
 			"## Wise Sage",
 			"",
@@ -11623,7 +11395,6 @@
 	},
 	"averaka_giant_slayer": {
 		"name": "Averaka Giant Slayer",
-		"file": "npcdisplay6bda.html",
 		"description": [
 			"## Averaka Giant Slayer",
 			"",
@@ -11674,7 +11445,6 @@
 	},
 	"axe_dancer": {
 		"name": "Axe Dancer",
-		"file": "npcdisplay8147.html",
 		"description": [
 			"## Axe Dancer",
 			"",
@@ -11720,7 +11490,6 @@
 	},
 	"cavalry_soldier": {
 		"name": "Cavalry Soldier",
-		"file": "npcdisplay4fe0.html",
 		"description": [
 			"## Cavalry Soldier",
 			"",
@@ -11771,7 +11540,6 @@
 	},
 	"constable": {
 		"name": "Constable",
-		"file": "npcdisplayf5b7.html",
 		"description": [
 			"## Constable",
 			"",
@@ -11816,7 +11584,6 @@
 	},
 	"cutthroat_lawyer": {
 		"name": "Cutthroat Lawyer",
-		"file": "npcdisplay6e0f.html",
 		"description": [
 			"## Cutthroat Lawyer",
 			"",
@@ -11865,7 +11632,6 @@
 	},
 	"daggermark_poisoner": {
 		"name": "Daggermark Poisoner",
-		"file": "npcdisplay98dc.html",
 		"description": [
 			"## Daggermark Poisoner",
 			"",
@@ -11925,7 +11691,6 @@
 	},
 	"desert_protector": {
 		"name": "Desert Protector",
-		"file": "npcdisplay7f7f.html",
 		"description": [
 			"## Desert Protector",
 			"",
@@ -11981,7 +11746,6 @@
 	},
 	"fastidious_sharpshooter": {
 		"name": "Fastidious Sharpshooter",
-		"file": "npcdisplay8a83.html",
 		"description": [
 			"## Fastidious Sharpshooter",
 			"",
@@ -12032,7 +11796,6 @@
 	},
 	"frontier_guide": {
 		"name": "Frontier (Guide)",
-		"file": "npcdisplaya884.html",
 		"description": [
 			"## Frontier (Guide)",
 			"",
@@ -12077,7 +11840,6 @@
 	},
 	"glaive_rager": {
 		"name": "Glaive Rager",
-		"file": "npcdisplay9299.html",
 		"description": [
 			"## Glaive Rager",
 			"",
@@ -12125,7 +11887,6 @@
 	},
 	"gray_gardener": {
 		"name": "Gray Gardener",
-		"file": "npcdisplay3cc6.html",
 		"description": [
 			"## Gray Gardener",
 			"",
@@ -12183,7 +11944,6 @@
 	},
 	"gray_maiden": {
 		"name": "Gray Maiden",
-		"file": "npcdisplay1777.html",
 		"description": [
 			"## Gray Maiden",
 			"",
@@ -12228,7 +11988,6 @@
 	},
 	"healer": {
 		"name": "Healer",
-		"file": "npcdisplayc0d1.html",
 		"description": [
 			"## Healer",
 			"",
@@ -12285,7 +12044,6 @@
 	},
 	"hellknight_signifer": {
 		"name": "Hellknight Signifer",
-		"file": "npcdisplay8dc5.html",
 		"description": [
 			"## Hellknight Signifer",
 			"",
@@ -12341,7 +12099,6 @@
 	},
 	"knight": {
 		"name": "Knight",
-		"file": "npcdisplay0fbb.html",
 		"description": [
 			"## Knight",
 			"",
@@ -12391,7 +12148,6 @@
 	},
 	"knight_of_ozem": {
 		"name": "Knight of Ozem",
-		"file": "npcdisplay8209.html",
 		"description": [
 			"## Knight of Ozem",
 			"",
@@ -12446,7 +12202,6 @@
 	},
 	"marauder_viking": {
 		"name": "Marauder (Viking)",
-		"file": "npcdisplay4120.html",
 		"description": [
 			"## Marauder (Viking)",
 			"",
@@ -12494,7 +12249,6 @@
 	},
 	"mercenary_sellsword": {
 		"name": "Mercenary (Sellsword)",
-		"file": "npcdisplay4515.html",
 		"description": [
 			"## Mercenary (Sellsword)",
 			"",
@@ -12542,7 +12296,6 @@
 	},
 	"noble_knight": {
 		"name": "Noble (Knight)",
-		"file": "npcdisplayd1e7.html",
 		"description": [
 			"## Noble (Knight)",
 			"",
@@ -12591,7 +12344,6 @@
 	},
 	"orc_slayer": {
 		"name": "Orc Slayer",
-		"file": "npcdisplay61e9.html",
 		"description": [
 			"## Orc Slayer",
 			"",
@@ -12642,7 +12394,6 @@
 	},
 	"osirionologist": {
 		"name": "Osirionologist",
-		"file": "npcdisplay2374.html",
 		"description": [
 			"## Osirionologist",
 			"",
@@ -12698,7 +12449,6 @@
 	},
 	"ossuary_agent": {
 		"name": "Ossuary Agent",
-		"file": "npcdisplay6528.html",
 		"description": [
 			"## Ossuary Agent",
 			"",
@@ -12745,7 +12495,6 @@
 	},
 	"sea_captain": {
 		"name": "Sea Captain",
-		"file": "npcdisplayb6a6.html",
 		"description": [
 			"## Sea Captain",
 			"",
@@ -12811,7 +12560,6 @@
 	},
 	"seductive_enchanter": {
 		"name": "Seductive Enchanter",
-		"file": "npcdisplay8d62.html",
 		"description": [
 			"## Seductive Enchanter",
 			"",
@@ -12876,7 +12624,6 @@
 	},
 	"street_artist": {
 		"name": "Street Artist",
-		"file": "npcdisplay31c6.html",
 		"description": [
 			"## Street Artist",
 			"",
@@ -12939,7 +12686,6 @@
 	},
 	"thrune_agent": {
 		"name": "Thrune Agent",
-		"file": "npcdisplay21bb.html",
 		"description": [
 			"## Thrune Agent",
 			"",
@@ -12985,7 +12731,6 @@
 	},
 	"trapsmith": {
 		"name": "Trapsmith",
-		"file": "npcdisplay14ae.html",
 		"description": [
 			"## Trapsmith",
 			"",
@@ -13031,7 +12776,6 @@
 	},
 	"trickster_mage": {
 		"name": "Trickster Mage",
-		"file": "npcdisplayebc9.html",
 		"description": [
 			"## Trickster Mage",
 			"",
@@ -13095,7 +12839,6 @@
 	},
 	"wrath_priest": {
 		"name": "Wrath Priest",
-		"file": "npcdisplayc890.html",
 		"description": [
 			"## Wrath Priest",
 			"",
@@ -13160,7 +12903,6 @@
 	},
 	"aloof_scholar": {
 		"name": "Aloof Scholar",
-		"file": "npcdisplay4f1b.html",
 		"description": [
 			"## Aloof Scholar",
 			"",
@@ -13218,7 +12960,6 @@
 	},
 	"blackstrike": {
 		"name": "Blackstrike",
-		"file": "npcdisplayb39e.html",
 		"description": [
 			"## Blackstrike",
 			"",
@@ -13275,7 +13016,6 @@
 	},
 	"cave_wizard": {
 		"name": "Cave Wizard",
-		"file": "npcdisplay82c4.html",
 		"description": [
 			"## Cave Wizard",
 			"",
@@ -13337,7 +13077,6 @@
 	},
 	"celestial_theurge": {
 		"name": "Celestial Theurge",
-		"file": "npcdisplaya174.html",
 		"description": [
 			"## Celestial Theurge",
 			"",
@@ -13410,7 +13149,6 @@
 	},
 	"criminal_slayer": {
 		"name": "Criminal (Slayer)",
-		"file": "npcdisplay2ec0.html",
 		"description": [
 			"## Criminal (Slayer)",
 			"",
@@ -13456,7 +13194,6 @@
 	},
 	"cruel_instructor": {
 		"name": "Cruel Instructor",
-		"file": "npcdisplay6448.html",
 		"description": [
 			"## Cruel Instructor",
 			"",
@@ -13522,7 +13259,6 @@
 	},
 	"cultist": {
 		"name": "Cultist",
-		"file": "npcdisplay0202.html",
 		"description": [
 			"## Cultist",
 			"",
@@ -13579,7 +13315,6 @@
 	},
 	"cyphermage": {
 		"name": "Cyphermage",
-		"file": "npcdisplayc238.html",
 		"description": [
 			"## Cyphermage",
 			"",
@@ -13634,7 +13369,6 @@
 	},
 	"deadly_spy": {
 		"name": "Deadly Spy",
-		"file": "npcdisplay9c6c.html",
 		"description": [
 			"## Deadly Spy",
 			"",
@@ -13691,7 +13425,6 @@
 	},
 	"death_priest": {
 		"name": "Death Priest",
-		"file": "npcdisplay6de9.html",
 		"description": [
 			"## Death Priest",
 			"",
@@ -13758,7 +13491,6 @@
 	},
 	"desert_hermit": {
 		"name": "Desert Hermit",
-		"file": "npcdisplaye355.html",
 		"description": [
 			"## Desert Hermit",
 			"",
@@ -13820,7 +13552,6 @@
 	},
 	"divine_loremaster": {
 		"name": "Divine Loremaster",
-		"file": "npcdisplay267d.html",
 		"description": [
 			"## Divine Loremaster",
 			"",
@@ -13885,7 +13616,6 @@
 	},
 	"duergar_strandrider": {
 		"name": "Duergar Strandrider",
-		"file": "npcdisplay9108.html",
 		"description": [
 			"## Duergar Strandrider",
 			"",
@@ -13965,7 +13695,6 @@
 	},
 	"gladiator_champion": {
 		"name": "Gladiator Champion",
-		"file": "npcdisplaye36d.html",
 		"description": [
 			"## Gladiator Champion",
 			"",
@@ -14018,7 +13747,6 @@
 	},
 	"green_warden": {
 		"name": "Green Warden",
-		"file": "npcdisplay6b3f.html",
 		"description": [
 			"## Green Warden",
 			"",
@@ -14073,7 +13801,6 @@
 	},
 	"halfling_slinger": {
 		"name": "Halfling Slinger",
-		"file": "npcdisplayddce.html",
 		"description": [
 			"## Halfling Slinger",
 			"",
@@ -14131,7 +13858,6 @@
 	},
 	"king": {
 		"name": "King",
-		"file": "npcdisplayc9ac.html",
 		"description": [
 			"## King",
 			"",
@@ -14180,7 +13906,6 @@
 	},
 	"machine_slayer": {
 		"name": "Machine Slayer",
-		"file": "npcdisplayebf1.html",
 		"description": [
 			"## Machine Slayer",
 			"",
@@ -14238,7 +13963,6 @@
 	},
 	"master_entertainer": {
 		"name": "Master Entertainer",
-		"file": "npcdisplayf906.html",
 		"description": [
 			"## Master Entertainer",
 			"",
@@ -14293,7 +14017,6 @@
 	},
 	"mud_shaman": {
 		"name": "Mud Shaman",
-		"file": "npcdisplay59da.html",
 		"description": [
 			"## Mud Shaman",
 			"",
@@ -14360,7 +14083,6 @@
 	},
 	"mushfens_cabalist": {
 		"name": "Mushfens Cabalist",
-		"file": "npcdisplay4133.html",
 		"description": [
 			"## Mushfens Cabalist",
 			"",
@@ -14413,7 +14135,6 @@
 	},
 	"noble_noble": {
 		"name": "Noble (Noble)",
-		"file": "npcdisplay187c.html",
 		"description": [
 			"## Noble (Noble)",
 			"",
@@ -14458,7 +14179,6 @@
 	},
 	"queen_of_staves": {
 		"name": "Queen of Staves",
-		"file": "npcdisplay2610.html",
 		"description": [
 			"## Queen of Staves",
 			"",
@@ -14516,7 +14236,6 @@
 	},
 	"raging_swimmer": {
 		"name": "Raging Swimmer",
-		"file": "npcdisplay999c.html",
 		"description": [
 			"## Raging Swimmer",
 			"",
@@ -14572,7 +14291,6 @@
 	},
 	"sacred_killer": {
 		"name": "Sacred Killer",
-		"file": "npcdisplay2a2b.html",
 		"description": [
 			"## Sacred Killer",
 			"",
@@ -14634,7 +14352,6 @@
 	},
 	"sacred_sorcerer": {
 		"name": "Sacred Sorcerer",
-		"file": "npcdisplay4555.html",
 		"description": [
 			"## Sacred Sorcerer",
 			"",
@@ -14694,7 +14411,6 @@
 	},
 	"sailor_first_mate": {
 		"name": "Sailor (First Mate)",
-		"file": "npcdisplay4f8f.html",
 		"description": [
 			"## Sailor (First Mate)",
 			"",
@@ -14739,7 +14455,6 @@
 	},
 	"saintly_knight": {
 		"name": "Saintly Knight",
-		"file": "npcdisplaydbcc.html",
 		"description": [
 			"## Saintly Knight",
 			"",
@@ -14802,7 +14517,6 @@
 	},
 	"shieldmarshal": {
 		"name": "Shieldmarshal",
-		"file": "npcdisplayf600.html",
 		"description": [
 			"## Shieldmarshal",
 			"",
@@ -14856,7 +14570,6 @@
 	},
 	"stage_magician": {
 		"name": "Stage Magician",
-		"file": "npcdisplayd7fd.html",
 		"description": [
 			"## Stage Magician",
 			"",
@@ -14908,7 +14621,6 @@
 	},
 	"steadfast_defender": {
 		"name": "Steadfast Defender",
-		"file": "npcdisplaybc3c.html",
 		"description": [
 			"## Steadfast Defender",
 			"",
@@ -14964,7 +14676,6 @@
 	},
 	"storm_prophet": {
 		"name": "Storm Prophet",
-		"file": "npcdisplay9956.html",
 		"description": [
 			"## Storm Prophet",
 			"",
@@ -15022,7 +14733,6 @@
 	},
 	"swampwalker": {
 		"name": "Swampwalker",
-		"file": "npcdisplay7074.html",
 		"description": [
 			"## Swampwalker",
 			"",
@@ -15081,7 +14791,6 @@
 	},
 	"temple_priest": {
 		"name": "Temple (Priest)",
-		"file": "npcdisplay3017.html",
 		"description": [
 			"## Temple (Priest)",
 			"",
@@ -15134,7 +14843,6 @@
 	},
 	"traitor": {
 		"name": "Traitor",
-		"file": "npcdisplayb081.html",
 		"description": [
 			"## Traitor",
 			"",
@@ -15180,7 +14888,6 @@
 	},
 	"tribal_champion": {
 		"name": "Tribal Champion",
-		"file": "npcdisplay1b45.html",
 		"description": [
 			"## Tribal Champion",
 			"",
@@ -15235,7 +14942,6 @@
 	},
 	"villager_mayor": {
 		"name": "Villager (Mayor)",
-		"file": "npcdisplay2ec7.html",
 		"description": [
 			"## Villager (Mayor)",
 			"",
@@ -15280,7 +14986,6 @@
 	},
 	"blackscale_sorcerer": {
 		"name": "Blackscale Sorcerer",
-		"file": "npcdisplay557b.html",
 		"description": [
 			"## Blackscale Sorcerer",
 			"",
@@ -15343,7 +15048,6 @@
 	},
 	"cannibalistic_hunter": {
 		"name": "Cannibalistic Hunter",
-		"file": "npcdisplay38ee.html",
 		"description": [
 			"## Cannibalistic Hunter",
 			"",
@@ -15398,7 +15102,6 @@
 	},
 	"cautious_hunter": {
 		"name": "Cautious Hunter",
-		"file": "npcdisplaya230.html",
 		"description": [
 			"## Cautious Hunter",
 			"",
@@ -15454,7 +15157,6 @@
 	},
 	"coliseum_champion": {
 		"name": "Coliseum (Champion)",
-		"file": "npcdisplayf069.html",
 		"description": [
 			"## Coliseum (Champion)",
 			"",
@@ -15502,7 +15204,6 @@
 	},
 	"dancing_dervish": {
 		"name": "Dancing Dervish",
-		"file": "npcdisplay0208-2.html",
 		"description": [
 			"## Dancing Dervish",
 			"",
@@ -15557,7 +15258,6 @@
 	},
 	"griffon_rider": {
 		"name": "Griffon Rider",
-		"file": "npcdisplayd046.html",
 		"description": [
 			"## Griffon Rider",
 			"",
@@ -15616,7 +15316,6 @@
 	},
 	"harrower": {
 		"name": "Harrower",
-		"file": "npcdisplayd6b0.html",
 		"description": [
 			"## Harrower",
 			"",
@@ -15669,7 +15368,6 @@
 	},
 	"merchant_merchant_prince": {
 		"name": "Merchant (Merchant Prince)",
-		"file": "npcdisplaydf9c.html",
 		"description": [
 			"## Merchant (Merchant Prince)",
 			"",
@@ -15713,7 +15411,6 @@
 	},
 	"mother_of_beasts": {
 		"name": "Mother of Beasts",
-		"file": "npcdisplay80ab.html",
 		"description": [
 			"## Mother of Beasts",
 			"",
@@ -15778,7 +15475,6 @@
 	},
 	"old_ones_cultist": {
 		"name": "Old Ones Cultist",
-		"file": "npcdisplayc9fa.html",
 		"description": [
 			"## Old Ones Cultist",
 			"",
@@ -15832,7 +15528,6 @@
 	},
 	"pathfinder_chronicler": {
 		"name": "Pathfinder Chronicler",
-		"file": "npcdisplay5297.html",
 		"description": [
 			"## Pathfinder Chronicler",
 			"",
@@ -15880,7 +15575,6 @@
 	},
 	"pious_guard": {
 		"name": "Pious Guard",
-		"file": "npcdisplayd074.html",
 		"description": [
 			"## Pious Guard",
 			"",
@@ -15941,7 +15635,6 @@
 	},
 	"pirate_queen": {
 		"name": "Pirate Queen",
-		"file": "npcdisplay582a.html",
 		"description": [
 			"## Pirate Queen",
 			"",
@@ -16000,7 +15693,6 @@
 	},
 	"prankster_illusionist": {
 		"name": "Prankster Illusionist",
-		"file": "npcdisplay4dde.html",
 		"description": [
 			"## Prankster Illusionist",
 			"",
@@ -16069,7 +15761,6 @@
 	},
 	"razmiran_priest": {
 		"name": "Razmiran Priest",
-		"file": "npcdisplayd3cf.html",
 		"description": [
 			"## Razmiran Priest",
 			"",
@@ -16120,7 +15811,6 @@
 	},
 	"seance_medium": {
 		"name": "Seance Medium",
-		"file": "npcdisplay9c56.html",
 		"description": [
 			"## Seance Medium",
 			"",
@@ -16183,7 +15873,6 @@
 	},
 	"sleepless_detective": {
 		"name": "Sleepless Detective",
-		"file": "npcdisplaye430.html",
 		"description": [
 			"## Sleepless Detective",
 			"",
@@ -16238,7 +15927,6 @@
 	},
 	"technic_league_captain": {
 		"name": "Technic League Captain",
-		"file": "npcdisplay3bd8.html",
 		"description": [
 			"## Technic League Captain",
 			"",
@@ -16292,7 +15980,6 @@
 	},
 	"water_merchant": {
 		"name": "Water Merchant",
-		"file": "npcdisplay42d8-2.html",
 		"description": [
 			"## Water Merchant",
 			"",
@@ -16356,7 +16043,6 @@
 	},
 	"winter_witch_cold_sister": {
 		"name": "Winter Witch Cold Sister",
-		"file": "npcdisplay91c1.html",
 		"description": [
 			"## Winter Witch Cold Sister",
 			"",
@@ -16430,7 +16116,6 @@
 	},
 	"aspis_consortium_spy": {
 		"name": "Aspis Consortium Spy",
-		"file": "npcdisplay96d3.html",
 		"description": [
 			"## Aspis Consortium Spy",
 			"",
@@ -16480,7 +16165,6 @@
 	},
 	"belkzen_warchief": {
 		"name": "Belkzen Warchief",
-		"file": "npcdisplaydf77.html",
 		"description": [
 			"## Belkzen Warchief",
 			"",
@@ -16529,7 +16213,6 @@
 	},
 	"chameleon": {
 		"name": "Chameleon",
-		"file": "npcdisplay4f59.html",
 		"description": [
 			"## Chameleon",
 			"",
@@ -16591,7 +16274,6 @@
 	},
 	"contract_killer": {
 		"name": "Contract Killer",
-		"file": "npcdisplay7019.html",
 		"description": [
 			"## Contract Killer",
 			"",
@@ -16646,7 +16328,6 @@
 	},
 	"criminal_guild_master": {
 		"name": "Criminal (Guild Master)",
-		"file": "npcdisplayb894.html",
 		"description": [
 			"## Criminal (Guild Master)",
 			"",
@@ -16692,7 +16373,6 @@
 	},
 	"double_axe_fury": {
 		"name": "Double Axe Fury",
-		"file": "npcdisplaydc6d.html",
 		"description": [
 			"## Double Axe Fury",
 			"",
@@ -16746,7 +16426,6 @@
 	},
 	"duergar_ironclad": {
 		"name": "Duergar Ironclad",
-		"file": "npcdisplay7a2f.html",
 		"description": [
 			"## Duergar Ironclad",
 			"",
@@ -16793,7 +16472,6 @@
 	},
 	"elven_honorblade": {
 		"name": "Elven Honorblade",
-		"file": "npcdisplayf5aa.html",
 		"description": [
 			"## Elven Honorblade",
 			"",
@@ -16856,7 +16534,6 @@
 	},
 	"entertainer_celebrity_bard": {
 		"name": "Entertainer (Celebrity Bard)",
-		"file": "npcdisplayd4a6.html",
 		"description": [
 			"## Entertainer (Celebrity Bard)",
 			"",
@@ -16905,7 +16582,6 @@
 	},
 	"fire_cleric": {
 		"name": "Fire Cleric",
-		"file": "npcdisplay8140.html",
 		"description": [
 			"## Fire Cleric",
 			"",
@@ -16968,7 +16644,6 @@
 	},
 	"giant-killer": {
 		"name": "Giant-Killer",
-		"file": "npcdisplay71b9.html",
 		"description": [
 			"## Giant-Killer",
 			"",
@@ -17028,7 +16703,6 @@
 	},
 	"hellknight": {
 		"name": "Hellknight",
-		"file": "npcdisplayf7f0.html",
 		"description": [
 			"## Hellknight",
 			"",
@@ -17091,7 +16765,6 @@
 	},
 	"lucky_mage": {
 		"name": "Lucky Mage",
-		"file": "npcdisplay69b5.html",
 		"description": [
 			"## Lucky Mage",
 			"",
@@ -17157,7 +16830,6 @@
 	},
 	"magaambya_arcanist": {
 		"name": "Magaambya Arcanist",
-		"file": "npcdisplayfe07.html",
 		"description": [
 			"## Magaambya Arcanist",
 			"",
@@ -17211,7 +16883,6 @@
 	},
 	"military_general": {
 		"name": "Military (General)",
-		"file": "npcdisplaycf09.html",
 		"description": [
 			"## Military (General)",
 			"",
@@ -17255,7 +16926,6 @@
 	},
 	"mistress_of_high_places": {
 		"name": "Mistress of High Places",
-		"file": "npcdisplay0e77.html",
 		"description": [
 			"## Mistress of High Places",
 			"",
@@ -17322,7 +16992,6 @@
 	},
 	"poisononous_performer": {
 		"name": "Poisononous Performer",
-		"file": "npcdisplaydd3c.html",
 		"description": [
 			"## Poisononous Performer",
 			"",
@@ -17377,7 +17046,6 @@
 	},
 	"royalty_queen": {
 		"name": "Royalty (Queen)",
-		"file": "npcdisplay77b9.html",
 		"description": [
 			"## Royalty (Queen)",
 			"",
@@ -17422,7 +17090,6 @@
 	},
 	"scheming_fencer": {
 		"name": "Scheming Fencer",
-		"file": "npcdisplay5897.html",
 		"description": [
 			"## Scheming Fencer",
 			"",
@@ -17474,7 +17141,6 @@
 	},
 	"sister_of_the_golden_erinyes": {
 		"name": "Sister of the Golden Erinyes",
-		"file": "npcdisplay0bea.html",
 		"description": [
 			"## Sister of the Golden Erinyes",
 			"",
@@ -17518,7 +17184,6 @@
 	},
 	"tribe_chieftain": {
 		"name": "Tribe (Chieftain)",
-		"file": "npcdisplay734c.html",
 		"description": [
 			"## Tribe (Chieftain)",
 			"",
@@ -17565,7 +17230,6 @@
 	},
 	"undead_creator": {
 		"name": "Undead Creator",
-		"file": "npcdisplay2f1e.html",
 		"description": [
 			"## Undead Creator",
 			"",
@@ -17631,7 +17295,6 @@
 	},
 	"uskwood_druid": {
 		"name": "Uskwood Druid",
-		"file": "npcdisplaybeb0.html",
 		"description": [
 			"## Uskwood Druid",
 			"",
@@ -17723,7 +17386,6 @@
 	},
 	"anaphexia_agent": {
 		"name": "Anaphexia Agent",
-		"file": "npcdisplay67f1.html",
 		"description": [
 			"## Anaphexia Agent",
 			"",
@@ -17769,7 +17431,6 @@
 	},
 	"bounty_hunter": {
 		"name": "Bounty Hunter",
-		"file": "npcdisplay581c.html",
 		"description": [
 			"## Bounty Hunter",
 			"",
@@ -17828,7 +17489,6 @@
 	},
 	"brigand_bandit_lord": {
 		"name": "Brigand (Bandit Lord)",
-		"file": "npcdisplay6638.html",
 		"description": [
 			"## Brigand (Bandit Lord)",
 			"",
@@ -17872,7 +17532,6 @@
 	},
 	"castaway": {
 		"name": "Castaway",
-		"file": "npcdisplay5e98.html",
 		"description": [
 			"## Castaway",
 			"",
@@ -17939,7 +17598,6 @@
 	},
 	"courtesan": {
 		"name": "Courtesan",
-		"file": "npcdisplayc7d5.html",
 		"description": [
 			"## Courtesan",
 			"",
@@ -18002,7 +17660,6 @@
 	},
 	"crusader_saint": {
 		"name": "Crusader (Saint)",
-		"file": "npcdisplayc626.html",
 		"description": [
 			"## Crusader (Saint)",
 			"",
@@ -18053,7 +17710,6 @@
 	},
 	"dilettante": {
 		"name": "Dilettante",
-		"file": "npcdisplay8eb8.html",
 		"description": [
 			"## Dilettante",
 			"",
@@ -18112,7 +17768,6 @@
 	},
 	"fey_enchantress": {
 		"name": "Fey Enchantress",
-		"file": "npcdisplay917d.html",
 		"description": [
 			"## Fey Enchantress",
 			"",
@@ -18175,7 +17830,6 @@
 	},
 	"fierani_demon_hunter": {
 		"name": "Fierani Demon Hunter",
-		"file": "npcdisplay86a9.html",
 		"description": [
 			"## Fierani Demon Hunter",
 			"",
@@ -18225,7 +17879,6 @@
 	},
 	"forge_rider": {
 		"name": "Forge Rider",
-		"file": "npcdisplayac91.html",
 		"description": [
 			"## Forge Rider",
 			"",
@@ -18283,7 +17936,6 @@
 	},
 	"giant_slayer": {
 		"name": "Giant Slayer",
-		"file": "npcdisplay44d1.html",
 		"description": [
 			"## Giant Slayer",
 			"",
@@ -18338,7 +17990,6 @@
 	},
 	"heretic_cult_leader": {
 		"name": "Heretic (Cult Leader)",
-		"file": "npcdisplaye235.html",
 		"description": [
 			"## Heretic (Cult Leader)",
 			"",
@@ -18390,7 +18041,6 @@
 	},
 	"marauder_pirate_captain": {
 		"name": "Marauder (Pirate Captain)",
-		"file": "npcdisplaya1c7.html",
 		"description": [
 			"## Marauder (Pirate Captain)",
 			"",
@@ -18435,7 +18085,6 @@
 	},
 	"mercenary_bounty_hunter": {
 		"name": "Mercenary (Bounty Hunter)",
-		"file": "npcdisplay02c6.html",
 		"description": [
 			"## Mercenary (Bounty Hunter)",
 			"",
@@ -18483,7 +18132,6 @@
 	},
 	"sailor_captain": {
 		"name": "Sailor (Captain)",
-		"file": "npcdisplay08f6.html",
 		"description": [
 			"## Sailor (Captain)",
 			"",
@@ -18527,7 +18175,6 @@
 	},
 	"scholar_sage": {
 		"name": "Scholar (Sage)",
-		"file": "npcdisplay3a3d.html",
 		"description": [
 			"## Scholar (Sage)",
 			"",
@@ -18576,7 +18223,6 @@
 	},
 	"shieldbreaker": {
 		"name": "Shieldbreaker",
-		"file": "npcdisplayec1b.html",
 		"description": [
 			"## Shieldbreaker",
 			"",
@@ -18633,7 +18279,6 @@
 	},
 	"swift_brawler": {
 		"name": "Swift Brawler",
-		"file": "npcdisplay4468.html",
 		"description": [
 			"## Swift Brawler",
 			"",
@@ -18690,7 +18335,6 @@
 	},
 	"toothy_transmuter": {
 		"name": "Toothy Transmuter",
-		"file": "npcdisplayc7b7.html",
 		"description": [
 			"## Toothy Transmuter",
 			"",
@@ -18752,7 +18396,6 @@
 	},
 	"trickster_priest": {
 		"name": "Trickster Priest",
-		"file": "npcdisplay5534.html",
 		"description": [
 			"## Trickster Priest",
 			"",
@@ -18820,7 +18463,6 @@
 	},
 	"acid_terror": {
 		"name": "Acid Terror",
-		"file": "npcdisplayf22f.html",
 		"description": [
 			"## Acid Terror",
 			"",
@@ -18884,7 +18526,6 @@
 	},
 	"arcanothief": {
 		"name": "Arcanothief",
-		"file": "npcdisplay6b47.html",
 		"description": [
 			"## Arcanothief",
 			"",
@@ -18947,7 +18588,6 @@
 	},
 	"azure_bolt_sorcerer": {
 		"name": "Azure Bolt Sorcerer",
-		"file": "npcdisplay18c8.html",
 		"description": [
 			"## Azure Bolt Sorcerer",
 			"",
@@ -19012,7 +18652,6 @@
 	},
 	"brutal_warlord": {
 		"name": "Brutal Warlord",
-		"file": "npcdisplayc160.html",
 		"description": [
 			"## Brutal Warlord",
 			"",
@@ -19066,7 +18705,6 @@
 	},
 	"champion_of_magic": {
 		"name": "Champion of Magic",
-		"file": "npcdisplaye79b.html",
 		"description": [
 			"## Champion of Magic",
 			"",
@@ -19132,7 +18770,6 @@
 	},
 	"death_initiate": {
 		"name": "Death Initiate",
-		"file": "npcdisplay9940.html",
 		"description": [
 			"## Death Initiate",
 			"",
@@ -19188,7 +18825,6 @@
 	},
 	"dragon_smiter": {
 		"name": "Dragon Smiter",
-		"file": "npcdisplay0561.html",
 		"description": [
 			"## Dragon Smiter",
 			"",
@@ -19250,7 +18886,6 @@
 	},
 	"feisty_hotspur": {
 		"name": "Feisty Hotspur",
-		"file": "npcdisplay7b9c.html",
 		"description": [
 			"## Feisty Hotspur",
 			"",
@@ -19303,7 +18938,6 @@
 	},
 	"fey_friend": {
 		"name": "Fey Friend",
-		"file": "npcdisplay68d2.html",
 		"description": [
 			"## Fey Friend",
 			"",
@@ -19367,7 +19001,6 @@
 	},
 	"fiendslayer": {
 		"name": "Fiendslayer",
-		"file": "npcdisplay5c12.html",
 		"description": [
 			"## Fiendslayer",
 			"",
@@ -19427,7 +19060,6 @@
 	},
 	"guildmaster": {
 		"name": "Guildmaster",
-		"file": "npcdisplay97ea.html",
 		"description": [
 			"## Guildmaster",
 			"",
@@ -19482,7 +19114,6 @@
 	},
 	"mad_prophet": {
 		"name": "Mad Prophet",
-		"file": "npcdisplay1bd9.html",
 		"description": [
 			"## Mad Prophet",
 			"",
@@ -19545,7 +19176,6 @@
 	},
 	"midnight_dancer": {
 		"name": "Midnight Dancer",
-		"file": "npcdisplay441f.html",
 		"description": [
 			"## Midnight Dancer",
 			"",
@@ -19605,7 +19235,6 @@
 	},
 	"monastic_sniper": {
 		"name": "Monastic Sniper",
-		"file": "npcdisplay763a.html",
 		"description": [
 			"## Monastic Sniper",
 			"",
@@ -19660,7 +19289,6 @@
 	},
 	"nature_scholar": {
 		"name": "Nature Scholar",
-		"file": "npcdisplay94ab.html",
 		"description": [
 			"## Nature Scholar",
 			"",
@@ -19720,7 +19348,6 @@
 	},
 	"profane_general": {
 		"name": "Profane General",
-		"file": "npcdisplayb2c6.html",
 		"description": [
 			"## Profane General",
 			"",
@@ -19789,7 +19416,6 @@
 	},
 	"prophet_of_kalistrade": {
 		"name": "Prophet of Kalistrade",
-		"file": "npcdisplayaa9f.html",
 		"description": [
 			"## Prophet of Kalistrade",
 			"",
@@ -19847,7 +19473,6 @@
 	},
 	"pyromaniac_mage": {
 		"name": "Pyromaniac Mage",
-		"file": "npcdisplay73c4.html",
 		"description": [
 			"## Pyromaniac Mage",
 			"",
@@ -19907,7 +19532,6 @@
 	},
 	"savage_rider": {
 		"name": "Savage Rider",
-		"file": "npcdisplaya520.html",
 		"description": [
 			"## Savage Rider",
 			"",
@@ -19964,7 +19588,6 @@
 	},
 	"sound_warrior": {
 		"name": "Sound Warrior",
-		"file": "npcdisplay06d4.html",
 		"description": [
 			"## Sound Warrior",
 			"",
@@ -20034,7 +19657,6 @@
 	},
 	"temple_high_priest": {
 		"name": "Temple (High Priest)",
-		"file": "npcdisplay204c.html",
 		"description": [
 			"## Temple (High Priest)",
 			"",
@@ -20087,7 +19709,6 @@
 	},
 	"tournament_champion": {
 		"name": "Tournament Champion",
-		"file": "npcdisplay2487.html",
 		"description": [
 			"## Tournament Champion",
 			"",
@@ -20152,7 +19773,6 @@
 	},
 	"tribal_leader": {
 		"name": "Tribal Leader",
-		"file": "npcdisplay69ab.html",
 		"description": [
 			"## Tribal Leader",
 			"",
@@ -20217,7 +19837,6 @@
 	},
 	"arcane_experimenter": {
 		"name": "Arcane Experimenter",
-		"file": "npcdisplayb51b.html",
 		"description": [
 			"## Arcane Experimenter",
 			"",
@@ -20275,7 +19894,6 @@
 	},
 	"arcane_pretender": {
 		"name": "Arcane Pretender",
-		"file": "npcdisplaye703.html",
 		"description": [
 			"## Arcane Pretender",
 			"",
@@ -20330,7 +19948,6 @@
 	},
 	"aspis_consortium_commander": {
 		"name": "Aspis Consortium Commander",
-		"file": "npcdisplay1782.html",
 		"description": [
 			"## Aspis Consortium Commander",
 			"",
@@ -20380,7 +19997,6 @@
 	},
 	"chain_mauler": {
 		"name": "Chain Mauler",
-		"file": "npcdisplayd4af.html",
 		"description": [
 			"## Chain Mauler",
 			"",
@@ -20432,7 +20048,6 @@
 	},
 	"desert_stalker": {
 		"name": "Desert Stalker",
-		"file": "npcdisplay0b17.html",
 		"description": [
 			"## Desert Stalker",
 			"",
@@ -20493,7 +20108,6 @@
 	},
 	"fury_of_flame": {
 		"name": "Fury of Flame",
-		"file": "npcdisplay7c86.html",
 		"description": [
 			"## Fury of Flame",
 			"",
@@ -20562,7 +20176,6 @@
 	},
 	"ice_mage": {
 		"name": "Ice Mage",
-		"file": "npcdisplay9c75.html",
 		"description": [
 			"## Ice Mage",
 			"",
@@ -20626,7 +20239,6 @@
 	},
 	"little_fist": {
 		"name": "Little Fist",
-		"file": "npcdisplay42b0.html",
 		"description": [
 			"## Little Fist",
 			"",
@@ -20681,7 +20293,6 @@
 	},
 	"mage_sniper": {
 		"name": "Mage Sniper",
-		"file": "npcdisplay1bbe.html",
 		"description": [
 			"## Mage Sniper",
 			"",
@@ -20750,7 +20361,6 @@
 	},
 	"numerian_ascetic": {
 		"name": "Numerian Ascetic",
-		"file": "npcdisplayffe3.html",
 		"description": [
 			"## Numerian Ascetic",
 			"",
@@ -20802,7 +20412,6 @@
 	},
 	"pathfinder_venture-captain": {
 		"name": "Pathfinder Venture-Captain",
-		"file": "npcdisplaydd06.html",
 		"description": [
 			"## Pathfinder Venture-Captain",
 			"",
@@ -20856,7 +20465,6 @@
 	},
 	"red_mantis_assassin": {
 		"name": "Red Mantis Assassin",
-		"file": "npcdisplaybe26.html",
 		"description": [
 			"## Red Mantis Assassin",
 			"",
@@ -20904,7 +20512,6 @@
 	},
 	"rider_of_the_steppe": {
 		"name": "Rider of the Steppe",
-		"file": "npcdisplay18d5.html",
 		"description": [
 			"## Rider of the Steppe",
 			"",
@@ -20965,7 +20572,6 @@
 	},
 	"sacred_guardian": {
 		"name": "Sacred Guardian",
-		"file": "npcdisplay0bb6.html",
 		"description": [
 			"## Sacred Guardian",
 			"",
@@ -21034,7 +20640,6 @@
 	},
 	"tunnel_drummer": {
 		"name": "Tunnel Drummer",
-		"file": "npcdisplayaa22.html",
 		"description": [
 			"## Tunnel Drummer",
 			"",
@@ -21099,7 +20704,6 @@
 	},
 	"angel_slayer": {
 		"name": "Angel Slayer",
-		"file": "npcdisplay49d8.html",
 		"description": [
 			"## Angel Slayer",
 			"",
@@ -21156,7 +20760,6 @@
 	},
 	"arclord_of_nex": {
 		"name": "Arclord of Nex",
-		"file": "npcdisplay15bb.html",
 		"description": [
 			"## Arclord of Nex",
 			"",
@@ -21229,7 +20832,6 @@
 	},
 	"creeping_death": {
 		"name": "Creeping Death",
-		"file": "npcdisplay71fd.html",
 		"description": [
 			"## Creeping Death",
 			"",
@@ -21294,7 +20896,6 @@
 	},
 	"cruel_conjurer": {
 		"name": "Cruel Conjurer",
-		"file": "npcdisplay42b9.html",
 		"description": [
 			"## Cruel Conjurer",
 			"",
@@ -21358,7 +20959,6 @@
 	},
 	"diabolical_charmer": {
 		"name": "Diabolical Charmer",
-		"file": "npcdisplayf91c.html",
 		"description": [
 			"## Diabolical Charmer",
 			"",
@@ -21417,7 +21017,6 @@
 	},
 	"fighting_school_master": {
 		"name": "Fighting School (Master)",
-		"file": "npcdisplayee5d.html",
 		"description": [
 			"## Fighting School (Master)",
 			"",
@@ -21461,7 +21060,6 @@
 	},
 	"giant_hunter": {
 		"name": "Giant Hunter",
-		"file": "npcdisplay4c7d.html",
 		"description": [
 			"## Giant Hunter",
 			"",
@@ -21524,7 +21122,6 @@
 	},
 	"improvised_hurler": {
 		"name": "Improvised Hurler",
-		"file": "npcdisplay5c1b.html",
 		"description": [
 			"## Improvised Hurler",
 			"",
@@ -21579,7 +21176,6 @@
 	},
 	"life_stealer": {
 		"name": "Life Stealer",
-		"file": "npcdisplayae75.html",
 		"description": [
 			"## Life Stealer",
 			"",
@@ -21635,7 +21231,6 @@
 	},
 	"lion_tamer": {
 		"name": "Lion Tamer",
-		"file": "npcdisplay7a7e.html",
 		"description": [
 			"## Lion Tamer",
 			"",
@@ -21698,7 +21293,6 @@
 	},
 	"mammoth_rider": {
 		"name": "Mammoth Rider",
-		"file": "npcdisplay84f6.html",
 		"description": [
 			"## Mammoth Rider",
 			"",
@@ -21797,7 +21391,6 @@
 	},
 	"master_of_undeath": {
 		"name": "Master of Undeath",
-		"file": "npcdisplay68ad.html",
 		"description": [
 			"## Master of Undeath",
 			"",
@@ -21861,7 +21454,6 @@
 	},
 	"pirate_king": {
 		"name": "Pirate King",
-		"file": "npcdisplaybf37.html",
 		"description": [
 			"## Pirate King",
 			"",
@@ -21913,7 +21505,6 @@
 	},
 	"royalty_king": {
 		"name": "Royalty (King)",
-		"file": "npcdisplay658b.html",
 		"description": [
 			"## Royalty (King)",
 			"",
@@ -21958,7 +21549,6 @@
 	},
 	"unseen_archer": {
 		"name": "Unseen Archer",
-		"file": "npcdisplay1a90.html",
 		"description": [
 			"## Unseen Archer",
 			"",
@@ -22013,7 +21603,6 @@
 	},
 	"deep_marshal": {
 		"name": "Deep Marshal",
-		"file": "npcdisplay7931.html",
 		"description": [
 			"## Deep Marshal",
 			"",
@@ -22072,7 +21661,6 @@
 	},
 	"drow_matron": {
 		"name": "Drow Matron",
-		"file": "npcdisplay2858.html",
 		"description": [
 			"## Drow Matron",
 			"",
@@ -22132,7 +21720,6 @@
 	},
 	"dwarven_arbalester": {
 		"name": "Dwarven Arbalester",
-		"file": "npcdisplayc4f1.html",
 		"description": [
 			"## Dwarven Arbalester",
 			"",
@@ -22184,7 +21771,6 @@
 	},
 	"elemental_priest": {
 		"name": "Elemental Priest",
-		"file": "npcdisplay2da2.html",
 		"description": [
 			"## Elemental Priest",
 			"",
@@ -22246,7 +21832,6 @@
 	},
 	"horse_monk": {
 		"name": "Horse Monk",
-		"file": "npcdisplay6923.html",
 		"description": [
 			"## Horse Monk",
 			"",
@@ -22301,7 +21886,6 @@
 	},
 	"mage_slayer": {
 		"name": "Mage Slayer",
-		"file": "npcdisplay92b6.html",
 		"description": [
 			"## Mage Slayer",
 			"",
@@ -22359,7 +21943,6 @@
 	},
 	"mounted_paragon": {
 		"name": "Mounted Paragon",
-		"file": "npcdisplayc166.html",
 		"description": [
 			"## Mounted Paragon",
 			"",
@@ -22422,7 +22005,6 @@
 	},
 	"natural_arcanist": {
 		"name": "Natural Arcanist",
-		"file": "npcdisplay22ae.html",
 		"description": [
 			"## Natural Arcanist",
 			"",
@@ -22484,7 +22066,6 @@
 	},
 	"spellsword": {
 		"name": "Spellsword",
-		"file": "npcdisplay8ac6.html",
 		"description": [
 			"## Spellsword",
 			"",
@@ -22547,7 +22128,6 @@
 	},
 	"taiga_stalker": {
 		"name": "Taiga Stalker",
-		"file": "npcdisplay5756.html",
 		"description": [
 			"## Taiga Stalker",
 			"",
@@ -22608,7 +22188,6 @@
 	},
 	"undead_hunter": {
 		"name": "Undead Hunter",
-		"file": "npcdisplay65eb.html",
 		"description": [
 			"## Undead Hunter",
 			"",
@@ -22663,7 +22242,6 @@
 	},
 	"undead_slayer": {
 		"name": "Undead Slayer",
-		"file": "npcdisplay3617.html",
 		"description": [
 			"## Undead Slayer",
 			"",
@@ -22720,7 +22298,6 @@
 	},
 	"axe_lord": {
 		"name": "Axe Lord",
-		"file": "npcdisplayc77b.html",
 		"description": [
 			"## Axe Lord",
 			"",
@@ -22780,7 +22357,6 @@
 	},
 	"black_ice": {
 		"name": "Black Ice",
-		"file": "npcdisplay5048.html",
 		"description": [
 			"## Black Ice",
 			"",
@@ -22847,7 +22423,6 @@
 	},
 	"daredevil_hunter": {
 		"name": "Daredevil Hunter",
-		"file": "npcdisplayf0a7.html",
 		"description": [
 			"## Daredevil Hunter",
 			"",
@@ -22903,7 +22478,6 @@
 	},
 	"death_master": {
 		"name": "Death Master",
-		"file": "npcdisplaye828.html",
 		"description": [
 			"## Death Master",
 			"",
@@ -22973,7 +22547,6 @@
 	},
 	"dragon_chieftain": {
 		"name": "Dragon Chieftain",
-		"file": "npcdisplay0a6b.html",
 		"description": [
 			"## Dragon Chieftain",
 			"",
@@ -23027,7 +22600,6 @@
 	},
 	"elven_recluse": {
 		"name": "Elven Recluse",
-		"file": "npcdisplay9bee.html",
 		"description": [
 			"## Elven Recluse",
 			"",
@@ -23080,7 +22652,6 @@
 	},
 	"fiery_dragonkin": {
 		"name": "Fiery Dragonkin",
-		"file": "npcdisplayea4b.html",
 		"description": [
 			"## Fiery Dragonkin",
 			"",
@@ -23139,7 +22710,6 @@
 	},
 	"graceful_slayer": {
 		"name": "Graceful Slayer",
-		"file": "npcdisplay51ad.html",
 		"description": [
 			"## Graceful Slayer",
 			"",
@@ -23194,7 +22764,6 @@
 	},
 	"hateful_scourge": {
 		"name": "Hateful Scourge",
-		"file": "npcdisplay155c.html",
 		"description": [
 			"## Hateful Scourge",
 			"",
@@ -23261,7 +22830,6 @@
 	},
 	"herald_of_armageddon": {
 		"name": "Herald of Armageddon",
-		"file": "npcdisplay5c1c.html",
 		"description": [
 			"## Herald of Armageddon",
 			"",
@@ -23325,7 +22893,6 @@
 	},
 	"iron_duelist": {
 		"name": "Iron Duelist",
-		"file": "npcdisplay0b83.html",
 		"description": [
 			"## Iron Duelist",
 			"",
@@ -23379,7 +22946,6 @@
 	},
 	"mage_spy": {
 		"name": "Mage Spy",
-		"file": "npcdisplay1918.html",
 		"description": [
 			"## Mage Spy",
 			"",
@@ -23437,7 +23003,6 @@
 	},
 	"masked_lord": {
 		"name": "Masked Lord",
-		"file": "npcdisplay65d0.html",
 		"description": [
 			"## Masked Lord",
 			"",
@@ -23492,7 +23057,6 @@
 	},
 	"master_historian": {
 		"name": "Master Historian",
-		"file": "npcdisplay9451.html",
 		"description": [
 			"## Master Historian",
 			"",
@@ -23551,7 +23115,6 @@
 	},
 	"master_storycrafter": {
 		"name": "Master Storycrafter",
-		"file": "npcdisplay902a.html",
 		"description": [
 			"## Master Storycrafter",
 			"",
@@ -23615,7 +23178,6 @@
 	},
 	"murderous_scythe": {
 		"name": "Murderous Scythe",
-		"file": "npcdisplayf09a.html",
 		"description": [
 			"## Murderous Scythe",
 			"",
@@ -23677,7 +23239,6 @@
 	},
 	"notorious_foil": {
 		"name": "Notorious Foil",
-		"file": "npcdisplayeca9.html",
 		"description": [
 			"## Notorious Foil",
 			"",
@@ -23742,7 +23303,6 @@
 	},
 	"spirit_avenger": {
 		"name": "Spirit Avenger",
-		"file": "npcdisplayacc9.html",
 		"description": [
 			"## Spirit Avenger",
 			"",
@@ -23801,7 +23361,6 @@
 	},
 	"undead_bane": {
 		"name": "Undead Bane",
-		"file": "npcdisplay20be.html",
 		"description": [
 			"## Undead Bane",
 			"",
@@ -23864,7 +23423,6 @@
 	},
 	"vaultbreaker": {
 		"name": "Vaultbreaker",
-		"file": "npcdisplay7eba.html",
 		"description": [
 			"## Vaultbreaker",
 			"",
@@ -23925,7 +23483,6 @@
 	},
 	"warren_chief": {
 		"name": "Warren Chief",
-		"file": "npcdisplay9545.html",
 		"description": [
 			"## Warren Chief",
 			"",
@@ -23973,7 +23530,6 @@
 	},
 	"dagger_master": {
 		"name": "Dagger Master",
-		"file": "npcdisplayec92.html",
 		"description": [
 			"## Dagger Master",
 			"",
@@ -24027,7 +23583,6 @@
 	},
 	"dark_nature_priest": {
 		"name": "Dark Nature Priest",
-		"file": "npcdisplayc873.html",
 		"description": [
 			"## Dark Nature Priest",
 			"",
@@ -24089,7 +23644,6 @@
 	},
 	"demon-blooded_sorcerer": {
 		"name": "Demon-Blooded Sorcerer",
-		"file": "npcdisplaycc79.html",
 		"description": [
 			"## Demon-Blooded Sorcerer",
 			"",
@@ -24152,7 +23706,6 @@
 	},
 	"failed_disciple": {
 		"name": "Failed Disciple",
-		"file": "npcdisplay5df0.html",
 		"description": [
 			"## Failed Disciple",
 			"",
@@ -24206,7 +23759,6 @@
 	},
 	"furious_crusader": {
 		"name": "Furious Crusader",
-		"file": "npcdisplay5289.html",
 		"description": [
 			"## Furious Crusader",
 			"",
@@ -24271,7 +23823,6 @@
 	},
 	"golem-breaker": {
 		"name": "Golem-Breaker",
-		"file": "npcdisplaybb6f.html",
 		"description": [
 			"## Golem-Breaker",
 			"",
@@ -24332,7 +23883,6 @@
 	},
 	"grand_necromancer": {
 		"name": "Grand Necromancer",
-		"file": "npcdisplay181a.html",
 		"description": [
 			"## Grand Necromancer",
 			"",
@@ -24393,7 +23943,6 @@
 	},
 	"grove_guardian": {
 		"name": "Grove Guardian",
-		"file": "npcdisplayb713.html",
 		"description": [
 			"## Grove Guardian",
 			"",
@@ -24445,7 +23994,6 @@
 	},
 	"refined_reaver": {
 		"name": "Refined Reaver",
-		"file": "npcdisplaycb18.html",
 		"description": [
 			"## Refined Reaver",
 			"",
@@ -24494,7 +24042,6 @@
 	},
 	"rival_explorer": {
 		"name": "Rival Explorer",
-		"file": "npcdisplay3b77.html",
 		"description": [
 			"## Rival Explorer",
 			"",
@@ -24559,7 +24106,6 @@
 	},
 	"shadow_cleric": {
 		"name": "Shadow Cleric",
-		"file": "npcdisplayc8c3.html",
 		"description": [
 			"## Shadow Cleric",
 			"",
@@ -24631,7 +24177,6 @@
 	},
 	"crime_lord": {
 		"name": "Crime Lord",
-		"file": "npcdisplaybf8a.html",
 		"description": [
 			"## Crime Lord",
 			"",
@@ -24685,7 +24230,6 @@
 	},
 	"death_dealer": {
 		"name": "Death Dealer",
-		"file": "npcdisplay9189.html",
 		"description": [
 			"## Death Dealer",
 			"",
@@ -24733,7 +24277,6 @@
 	},
 	"death_whisperer": {
 		"name": "Death Whisperer",
-		"file": "npcdisplaydb64.html",
 		"description": [
 			"## Death Whisperer",
 			"",
@@ -24787,7 +24330,6 @@
 	},
 	"fate-bound_mage": {
 		"name": "Fate-Bound Mage",
-		"file": "npcdisplay23c8.html",
 		"description": [
 			"## Fate-Bound Mage",
 			"",
@@ -24848,7 +24390,6 @@
 	},
 	"geb_blood_lord": {
 		"name": "Geb Blood Lord",
-		"file": "npcdisplaydba9.html",
 		"description": [
 			"## Geb Blood Lord",
 			"",
@@ -24900,7 +24441,6 @@
 	},
 	"mage_hunter": {
 		"name": "Mage Hunter",
-		"file": "npcdisplayf43f.html",
 		"description": [
 			"## Mage Hunter",
 			"",
@@ -24953,7 +24493,6 @@
 	},
 	"master_spy": {
 		"name": "Master Spy",
-		"file": "npcdisplay53b7.html",
 		"description": [
 			"## Master Spy",
 			"",
@@ -25016,7 +24555,6 @@
 	},
 	"mithral_master": {
 		"name": "Mithral Master",
-		"file": "npcdisplay0cc2.html",
 		"description": [
 			"## Mithral Master",
 			"",
@@ -25075,7 +24613,6 @@
 	},
 	"priest_of_oblivion": {
 		"name": "Priest of Oblivion",
-		"file": "npcdisplay6fc6.html",
 		"description": [
 			"## Priest of Oblivion",
 			"",
@@ -25136,7 +24673,6 @@
 	},
 	"puppet_master": {
 		"name": "Puppet Master",
-		"file": "npcdisplay6500.html",
 		"description": [
 			"## Puppet Master",
 			"",
@@ -25201,7 +24737,6 @@
 	},
 	"rage_flame": {
 		"name": "Rage Flame",
-		"file": "npcdisplayc91f.html",
 		"description": [
 			"## Rage Flame",
 			"",
@@ -25263,7 +24798,6 @@
 	},
 	"sword_savant": {
 		"name": "Sword Savant",
-		"file": "npcdisplay083d.html",
 		"description": [
 			"## Sword Savant",
 			"",
@@ -25318,7 +24852,6 @@
 	},
 	"ageless_master": {
 		"name": "Ageless Master",
-		"file": "npcdisplay17f4.html",
 		"description": [
 			"## Ageless Master",
 			"",
@@ -25370,7 +24903,6 @@
 	},
 	"arisen_sorcerer": {
 		"name": "Arisen Sorcerer",
-		"file": "npcdisplay2cf5.html",
 		"description": [
 			"## Arisen Sorcerer",
 			"",
@@ -25432,7 +24964,6 @@
 	},
 	"battle_skald": {
 		"name": "Battle Skald",
-		"file": "npcdisplay086b.html",
 		"description": [
 			"## Battle Skald",
 			"",
@@ -25491,7 +25022,6 @@
 	},
 	"blade_lord": {
 		"name": "Blade Lord",
-		"file": "npcdisplay6ebe.html",
 		"description": [
 			"## Blade Lord",
 			"",
@@ -25543,7 +25073,6 @@
 	},
 	"chaos_arrow": {
 		"name": "Chaos Arrow",
-		"file": "npcdisplay2fbe.html",
 		"description": [
 			"## Chaos Arrow",
 			"",
@@ -25611,7 +25140,6 @@
 	},
 	"darkstar": {
 		"name": "Darkstar",
-		"file": "npcdisplayb2a8.html",
 		"description": [
 			"## Darkstar",
 			"",
@@ -25669,7 +25197,6 @@
 	},
 	"demon_hunter": {
 		"name": "Demon Hunter",
-		"file": "npcdisplay9aa8.html",
 		"description": [
 			"## Demon Hunter",
 			"",
@@ -25725,7 +25252,6 @@
 	},
 	"demonologist": {
 		"name": "Demonologist",
-		"file": "npcdisplay127a.html",
 		"description": [
 			"## Demonologist",
 			"",
@@ -25784,7 +25310,6 @@
 	},
 	"doomsayer": {
 		"name": "Doomsayer",
-		"file": "npcdisplay4594.html",
 		"description": [
 			"## Doomsayer",
 			"",
@@ -25844,7 +25369,6 @@
 	},
 	"earthfather": {
 		"name": "Earthfather",
-		"file": "npcdisplay1098.html",
 		"description": [
 			"## Earthfather",
 			"",
@@ -25906,7 +25430,6 @@
 	},
 	"fatal_axe": {
 		"name": "Fatal Axe",
-		"file": "npcdisplay7dc9.html",
 		"description": [
 			"## Fatal Axe",
 			"",
@@ -25961,7 +25484,6 @@
 	},
 	"fire_diabolist": {
 		"name": "Fire Diabolist",
-		"file": "npcdisplay7f54.html",
 		"description": [
 			"## Fire Diabolist",
 			"",
@@ -26025,7 +25547,6 @@
 	},
 	"god_stealer": {
 		"name": "God Stealer",
-		"file": "npcdisplay2e4c.html",
 		"description": [
 			"## God Stealer",
 			"",
@@ -26091,7 +25612,6 @@
 	},
 	"holy_battle_mage": {
 		"name": "Holy Battle Mage",
-		"file": "npcdisplay1088.html",
 		"description": [
 			"## Holy Battle Mage",
 			"",
@@ -26162,7 +25682,6 @@
 	},
 	"ice_maiden": {
 		"name": "Ice Maiden",
-		"file": "npcdisplayacc6.html",
 		"description": [
 			"## Ice Maiden",
 			"",
@@ -26230,7 +25749,6 @@
 	},
 	"infernal_champion": {
 		"name": "Infernal Champion",
-		"file": "npcdisplay2102.html",
 		"description": [
 			"## Infernal Champion",
 			"",
@@ -26278,7 +25796,6 @@
 	},
 	"master_duelist": {
 		"name": "Master Duelist",
-		"file": "npcdisplay9997.html",
 		"description": [
 			"## Master Duelist",
 			"",
@@ -26335,7 +25852,6 @@
 	},
 	"master_universalist": {
 		"name": "Master Universalist",
-		"file": "npcdisplaye34a.html",
 		"description": [
 			"## Master Universalist",
 			"",
@@ -26393,7 +25909,6 @@
 	},
 	"mithral_wizard": {
 		"name": "Mithral Wizard",
-		"file": "npcdisplayc496.html",
 		"description": [
 			"## Mithral Wizard",
 			"",
@@ -26455,7 +25970,6 @@
 	},
 	"scarred_wanderer": {
 		"name": "Scarred Wanderer",
-		"file": "npcdisplay758f.html",
 		"description": [
 			"## Scarred Wanderer",
 			"",
@@ -26509,7 +26023,6 @@
 	},
 	"supreme_hunter": {
 		"name": "Supreme Hunter",
-		"file": "npcdisplay0f0e.html",
 		"description": [
 			"## Supreme Hunter",
 			"",

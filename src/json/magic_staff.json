@@ -2,7 +2,6 @@
 	"_prefix": "magic-staff",
 	"staff_of_blessed_relief": {
 		"name": "Staff of Blessed Relief",
-		"file": "magicstavesdisplay6c32.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Staff of Blessed Relief",
@@ -25,7 +24,6 @@
 	},
 	"staff_of_minor_arcana": {
 		"name": "Staff of Minor Arcana",
-		"file": "magicstavesdisplaye74f.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Staff of Minor Arcana",
@@ -47,7 +45,6 @@
 	},
 	"staff_of_tricks": {
 		"name": "Staff of Tricks",
-		"file": "magicstavesdisplayedad.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Staff of Tricks",
@@ -71,7 +68,6 @@
 	},
 	"staff_of_the_scout": {
 		"name": "Staff of the Scout",
-		"file": "magicstavesdisplay1941.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Staff of the Scout",
@@ -94,7 +90,6 @@
 	},
 	"monstrification_staff": {
 		"name": "Monstrification Staff",
-		"file": "magicstavesdisplay5fbe.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Monstrification Staff",
@@ -116,7 +111,6 @@
 	},
 	"gravedigger's_spade": {
 		"name": "Gravedigger's Spade",
-		"file": "magicstavesdisplayc7b6.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Gravedigger's Spade",
@@ -139,7 +133,6 @@
 	},
 	"spark_staff": {
 		"name": "Spark Staff",
-		"file": "magicstavesdisplay58d7.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Spark Staff",
@@ -162,7 +155,6 @@
 	},
 	"ember_staff": {
 		"name": "Ember Staff",
-		"file": "magicstavesdisplayeade.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Ember Staff",
@@ -187,7 +179,6 @@
 	},
 	"staff_of_eidolons": {
 		"name": "Staff of Eidolons",
-		"file": "magicstavesdisplaycf7f.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Staff of Eidolons",
@@ -210,7 +201,6 @@
 	},
 	"staff_of_understanding": {
 		"name": "Staff of Understanding",
-		"file": "magicstavesdisplayfaa2.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder Society Field Guide"
@@ -236,7 +226,6 @@
 	},
 	"staff_of_accompaniment": {
 		"name": "Staff of Accompaniment",
-		"file": "magicstavesdisplaya313.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Staff of Accompaniment",
@@ -259,7 +248,6 @@
 	},
 	"crook_of_cildhureen": {
 		"name": "Crook of Cildhureen",
-		"file": "magicstavesdisplay0e8c.html",
 		"sources": [ "Realm of the Fellnight Queen" ],
 		"description": [
 			"## Crook of Cildhureen",
@@ -284,7 +272,6 @@
 	},
 	"staff_of_charming": {
 		"name": "Staff of Charming",
-		"file": "magicstavesdisplayfd94.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -309,7 +296,6 @@
 	},
 	"staff_of_fire": {
 		"name": "Staff of Fire",
-		"file": "magicstavesdisplay9aca.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -335,7 +321,6 @@
 	},
 	"staff_of_belittling": {
 		"name": "Staff of Belittling",
-		"file": "magicstavesdisplaya100.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Staff of Belittling",
@@ -359,7 +344,6 @@
 	},
 	"staff_of_courage": {
 		"name": "Staff of Courage",
-		"file": "magicstavesdisplay9da8.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder Society Field Guide"
@@ -386,7 +370,6 @@
 	},
 	"staff_of_feast_and_famine": {
 		"name": "Staff of Feast and Famine",
-		"file": "magicstavesdisplay893f.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Staff of Feast and Famine",
@@ -411,7 +394,6 @@
 	},
 	"staff_of_internal_assault": {
 		"name": "Staff of Internal Assault",
-		"file": "magicstavesdisplaydc35.html",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Source [Dragonslayer's Handbook pg. 31](source/dragonslayer's_handbook)",
@@ -433,7 +415,6 @@
 	},
 	"staff_of_rigor": {
 		"name": "Staff of Rigor",
-		"file": "magicstavesdisplayf653.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -461,7 +442,6 @@
 	},
 	"shory_acolyte's_staff": {
 		"name": "Shory Acolyte's Staff",
-		"file": "magicstavesdisplay65f2.html",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
 			"## Shory Acolyte's Staff",
@@ -484,7 +464,6 @@
 	},
 	"cephalopod_staff": {
 		"name": "Cephalopod Staff",
-		"file": "magicstavesdisplayf9d7.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Cephalopod Staff",
@@ -509,7 +488,6 @@
 	},
 	"staff_of_swarming_insects": {
 		"name": "Staff of Swarming Insects",
-		"file": "magicstavesdisplay79a7.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -534,7 +512,6 @@
 	},
 	"staff_of_authority": {
 		"name": "Staff of Authority",
-		"file": "magicstavesdisplaycd72.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Staff of Authority",
@@ -557,7 +534,6 @@
 	},
 	"staff_of_radiance": {
 		"name": "Staff of Radiance",
-		"file": "magicstavesdisplay6330.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder Society Field Guide"
@@ -583,7 +559,6 @@
 	},
 	"zenj_totem_staff": {
 		"name": "Zenj Totem Staff",
-		"file": "magicstavesdisplay650f.html",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
 			"## Zenj Totem Staff",
@@ -611,7 +586,6 @@
 	},
 	"staff_of_size_alteration": {
 		"name": "Staff of Size Alteration",
-		"file": "magicstavesdisplay45c2.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -639,7 +613,6 @@
 	},
 	"staff_of_curchanus": {
 		"name": "Staff of Curchanus",
-		"file": "magicstavesdisplaye703.html",
 		"sources": [ "Pathfinder #122: Into the Shattered Continent" ],
 		"description": [
 			"## Staff of Curchanus",
@@ -666,7 +639,6 @@
 	},
 	"staff_of_journeys": {
 		"name": "Staff of Journeys",
-		"file": "magicstavesdisplay8cb0.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -694,7 +666,6 @@
 	},
 	"staff_of_acid": {
 		"name": "Staff of Acid",
-		"file": "magicstavesdisplay9e4d.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Staff of Acid",
@@ -717,7 +688,6 @@
 	},
 	"chaotic_staff": {
 		"name": "Chaotic Staff",
-		"file": "magicstavesdisplayeb13.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Chaotic Staff",
@@ -741,7 +711,6 @@
 	},
 	"holy_staff": {
 		"name": "Holy Staff",
-		"file": "magicstavesdisplay9491.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Holy Staff",
@@ -765,7 +734,6 @@
 	},
 	"lawful_staff": {
 		"name": "Lawful Staff",
-		"file": "magicstavesdisplayde78.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Lawful Staff",
@@ -789,7 +757,6 @@
 	},
 	"staff_of_healing": {
 		"name": "Staff of Healing",
-		"file": "magicstavesdisplay2f8e.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -816,7 +783,6 @@
 	},
 	"unholy_staff": {
 		"name": "Unholy Staff",
-		"file": "magicstavesdisplayf0c8.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Unholy Staff",
@@ -840,7 +806,6 @@
 	},
 	"hungering_staff": {
 		"name": "Hungering Staff",
-		"file": "magicstavesdisplaycff6.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Hungering Staff",
@@ -867,7 +832,6 @@
 	},
 	"staff_of_the_master": {
 		"name": "Staff of the Master",
-		"file": "magicstavesdisplaye0f8.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Staff of the Master",
@@ -892,7 +856,6 @@
 	},
 	"staff_of_spiders": {
 		"name": "Staff of Spiders",
-		"file": "magicstavesdisplay41fa-2.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Staff of Spiders",
@@ -915,7 +878,6 @@
 	},
 	"oaken_staff": {
 		"name": "Oaken Staff",
-		"file": "magicstavesdisplay5458.html",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
 			"## Oaken Staff",
@@ -940,7 +902,6 @@
 	},
 	"staff_of_electricity": {
 		"name": "Staff of Electricity",
-		"file": "magicstavesdisplayae71.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Staff of Electricity",
@@ -963,7 +924,6 @@
 	},
 	"heretic's_bane": {
 		"name": "Heretic's Bane",
-		"file": "magicstavesdisplayce92.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Heretic's Bane",
@@ -987,7 +947,6 @@
 	},
 	"many-eyed_staff": {
 		"name": "Many-Eyed Staff",
-		"file": "magicstavesdisplay91d0.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Many-Eyed Staff",
@@ -1015,7 +974,6 @@
 	},
 	"musical_staff": {
 		"name": "Musical Staff",
-		"file": "magicstavesdisplaya5b5.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Musical Staff",
@@ -1041,7 +999,6 @@
 	},
 	"staff_of_souls": {
 		"name": "Staff of Souls",
-		"file": "magicstavesdisplayf66c.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -1069,7 +1026,6 @@
 	},
 	"staff_of_toxins": {
 		"name": "Staff of Toxins",
-		"file": "magicstavesdisplay81bf.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -1094,7 +1050,6 @@
 	},
 	"staff_of_shrieking": {
 		"name": "Staff of Shrieking",
-		"file": "magicstavesdisplay8407.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -1120,7 +1075,6 @@
 	},
 	"staff_of_the_avenger": {
 		"name": "Staff of the Avenger",
-		"file": "magicstavesdisplay9018.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Staff of the Avenger",
@@ -1144,7 +1098,6 @@
 	},
 	"staff_of_aspects": {
 		"name": "Staff of Aspects",
-		"file": "magicstavesdisplay9055.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Staff of Aspects",
@@ -1168,7 +1121,6 @@
 	},
 	"staff_of_the_prime_mover": {
 		"name": "Staff of the Prime Mover",
-		"file": "magicstavesdisplay3155.html",
 		"sources": [ "Down the Blighted Path" ],
 		"description": [
 			"## Staff of the Prime Mover",
@@ -1199,7 +1151,6 @@
 	},
 	"staff_of_spirit-talking": {
 		"name": "Staff of Spirit-Talking",
-		"file": "magicstavesdisplay76ef.html",
 		"sources": [ "Sargava, the Lost Colony" ],
 		"description": [
 			"## Staff of Spirit-Talking",
@@ -1227,7 +1178,6 @@
 	},
 	"staff_of_stealth": {
 		"name": "Staff of Stealth",
-		"file": "magicstavesdisplayc245.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -1254,7 +1204,6 @@
 	},
 	"staff_of_frost": {
 		"name": "Staff of Frost",
-		"file": "magicstavesdisplaydf8b.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1280,7 +1229,6 @@
 	},
 	"staff_of_bolstering": {
 		"name": "Staff of Bolstering",
-		"file": "magicstavesdisplay47e3.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -1307,7 +1255,6 @@
 	},
 	"spherewalker's_staff": {
 		"name": "Spherewalker's Staff",
-		"file": "magicstavesdisplayb1ea.html",
 		"sources": [ "Pathfinder #75: Demon's Heresy" ],
 		"description": [
 			"## Spherewalker's Staff",
@@ -1335,7 +1282,6 @@
 	},
 	"staff_of_curses": {
 		"name": "Staff of Curses",
-		"file": "magicstavesdisplayd170.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Staff of Curses",
@@ -1361,7 +1307,6 @@
 	},
 	"staff_of_the_dark_tapestry": {
 		"name": "Staff of the Dark Tapestry",
-		"file": "magicstavesdisplaye7d1.html",
 		"sources": [ "Pathfinder #88: Valley of the Brain Collectors" ],
 		"description": [
 			"## Staff of the Dark Tapestry",
@@ -1388,7 +1333,6 @@
 	},
 	"staff_of_fortune": {
 		"name": "Staff of Fortune",
-		"file": "magicstavesdisplay242d.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Staff of Fortune",
@@ -1410,7 +1354,6 @@
 	},
 	"staff_of_dark_flame": {
 		"name": "Staff of Dark Flame",
-		"file": "magicstavesdisplay1784.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Staff of Dark Flame",
@@ -1435,7 +1378,6 @@
 	},
 	"staff_of_performance": {
 		"name": "Staff of Performance",
-		"file": "magicstavesdisplayfe67.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -1465,7 +1407,6 @@
 	},
 	"animate_staff": {
 		"name": "Animate Staff",
-		"file": "magicstavesdisplayd0fb.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Animate Staff",
@@ -1490,7 +1431,6 @@
 	},
 	"staff_of_hunting": {
 		"name": "Staff of Hunting",
-		"file": "magicstavesdisplayd572.html",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Source [Dragonslayer's Handbook pg. 31](source/dragonslayer's_handbook)",
@@ -1513,7 +1453,6 @@
 	},
 	"staff_of_revelations": {
 		"name": "Staff of Revelations",
-		"file": "magicstavesdisplay2aa7.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -1540,7 +1479,6 @@
 	},
 	"staff_of_illumination": {
 		"name": "Staff of Illumination",
-		"file": "magicstavesdisplay0012.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1567,7 +1505,6 @@
 	},
 	"staff_of_the_freed_man": {
 		"name": "Staff of the Freed Man",
-		"file": "magicstavesdisplaydd80.html",
 		"sources": [ "Champions of Purity" ],
 		"description": [
 			"## Source [Champions of Purity pg. 31](source/champions_of_purity)",
@@ -1590,7 +1527,6 @@
 	},
 	"doomsday_staff": {
 		"name": "Doomsday Staff",
-		"file": "magicstavesdisplay17e1.html",
 		"sources": [ "Pathfinder #64: Beyond the Doomsday Door" ],
 		"description": [
 			"## Doomsday Staff",
@@ -1615,7 +1551,6 @@
 	},
 	"staff_of_obstacles": {
 		"name": "Staff of Obstacles",
-		"file": "magicstavesdisplaydecd.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -1644,7 +1579,6 @@
 	},
 	"staff_of_heaven_and_earth": {
 		"name": "Staff of Heaven and Earth",
-		"file": "magicstavesdisplay468b.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder #4: Fortress of the Stone Giants",
@@ -1673,7 +1607,6 @@
 	},
 	"staff_of_travel": {
 		"name": "Staff of Travel",
-		"file": "magicstavesdisplay7f80.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Staff of Travel",
@@ -1698,7 +1631,6 @@
 	},
 	"staff_of_hoarding": {
 		"name": "Staff of Hoarding",
-		"file": "magicstavesdisplay0ffe.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -1726,7 +1658,6 @@
 	},
 	"crook_of_unseen_forces": {
 		"name": "Crook of Unseen Forces",
-		"file": "magicstavesdisplayc1d5.html",
 		"sources": [ "Down the Blighted Path" ],
 		"description": [
 			"## Crook of Unseen Forces",
@@ -1753,7 +1684,6 @@
 	},
 	"staff_of_cackling_wrath": {
 		"name": "Staff of Cackling Wrath",
-		"file": "magicstavesdisplayf4d9.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -1783,7 +1713,6 @@
 	},
 	"staff_of_traps": {
 		"name": "Staff of Traps",
-		"file": "magicstavesdisplayee34.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -1812,7 +1741,6 @@
 	},
 	"staff_of_many_rays": {
 		"name": "Staff of Many Rays",
-		"file": "magicstavesdisplay4774.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -1840,7 +1768,6 @@
 	},
 	"staff_of_speaking": {
 		"name": "Staff of Speaking",
-		"file": "magicstavesdisplayec1e.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Staff of Speaking",
@@ -1865,7 +1792,6 @@
 	},
 	"staff_of_mithral_might": {
 		"name": "Staff of Mithral Might",
-		"file": "magicstavesdisplaye69c.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder #5: Sins of the Saviors",
@@ -1893,7 +1819,6 @@
 	},
 	"staff_of_wings": {
 		"name": "Staff of Wings",
-		"file": "magicstavesdisplay56f4.html",
 		"sources": [ "Chronicle of the Righteous" ],
 		"description": [
 			"## Source [Chronicle of the Righteous pg. 53](source/chronicle_of_the_righteous)",
@@ -1915,7 +1840,6 @@
 	},
 	"staff_of_defense": {
 		"name": "Staff of Defense",
-		"file": "magicstavesdisplay6c46.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1942,7 +1866,6 @@
 	},
 	"staff_of_stoneweaving": {
 		"name": "Staff of Stoneweaving",
-		"file": "magicstavesdisplayaf99.html",
 		"sources": [ "Pathfinder #34: Blood for Blood" ],
 		"description": [
 			"## Staff of Stoneweaving",
@@ -1969,7 +1892,6 @@
 	},
 	"staff_of_the_planes": {
 		"name": "Staff of the Planes",
-		"file": "magicstavesdisplayccc1.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Staff of the Planes",
@@ -1994,7 +1916,6 @@
 	},
 	"staff_of_hungry_shadows": {
 		"name": "Staff of Hungry Shadows",
-		"file": "magicstavesdisplay9a77.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder #5: Sins of the Saviors",
@@ -2024,7 +1945,6 @@
 	},
 	"quiema's_branch": {
 		"name": "Quiema's Branch",
-		"file": "magicstavesdisplay3434.html",
 		"sources": [ "Pathfinder #34: Blood for Blood" ],
 		"description": [
 			"## Quiema's Branch",
@@ -2049,7 +1969,6 @@
 	},
 	"dragon_staff": {
 		"name": "Dragon Staff",
-		"file": "magicstavesdisplay3218.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Dragon Staff",
@@ -2075,7 +1994,6 @@
 	},
 	"staff_of_slumber": {
 		"name": "Staff of Slumber",
-		"file": "magicstavesdisplay5f53.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -2104,7 +2022,6 @@
 	},
 	"staff_of_abjuration": {
 		"name": "Staff of Abjuration",
-		"file": "magicstavesdisplay3874.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2133,7 +2050,6 @@
 	},
 	"staff_of_conjuration": {
 		"name": "Staff of Conjuration",
-		"file": "magicstavesdisplaya144.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2162,7 +2078,6 @@
 	},
 	"staff_of_divination": {
 		"name": "Staff of Divination",
-		"file": "magicstavesdisplay4f7d.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2191,7 +2106,6 @@
 	},
 	"staff_of_enchantment": {
 		"name": "Staff of Enchantment",
-		"file": "magicstavesdisplay3564.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2220,7 +2134,6 @@
 	},
 	"staff_of_evocation": {
 		"name": "Staff of Evocation",
-		"file": "magicstavesdisplay0aae.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2249,7 +2162,6 @@
 	},
 	"staff_of_illusion": {
 		"name": "Staff of Illusion",
-		"file": "magicstavesdisplayddc4.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2278,7 +2190,6 @@
 	},
 	"staff_of_necromancy": {
 		"name": "Staff of Necromancy",
-		"file": "magicstavesdisplayf097.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2307,7 +2218,6 @@
 	},
 	"staff_of_transmutation": {
 		"name": "Staff of Transmutation",
-		"file": "magicstavesdisplayc220.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2336,7 +2246,6 @@
 	},
 	"staff_of_weather": {
 		"name": "Staff of Weather",
-		"file": "magicstavesdisplaycaad.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -2365,7 +2274,6 @@
 	},
 	"staff_of_earth_and_stone": {
 		"name": "Staff of Earth and Stone",
-		"file": "magicstavesdisplayaac9.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2390,7 +2298,6 @@
 	},
 	"staff_of_vision": {
 		"name": "Staff of Vision",
-		"file": "magicstavesdisplay5cf5.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -2419,7 +2326,6 @@
 	},
 	"staff_of_waves": {
 		"name": "Staff of Waves",
-		"file": "magicstavesdisplay3eaa.html",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Staff of Waves",
@@ -2444,7 +2350,6 @@
 	},
 	"staff_of_the_woodlands": {
 		"name": "Staff of the Woodlands",
-		"file": "magicstavesdisplay0f0b.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2475,7 +2380,6 @@
 	},
 	"staff_of_life": {
 		"name": "Staff of Life",
-		"file": "magicstavesdisplay2835.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2500,7 +2404,6 @@
 	},
 	"staff_of_nethys": {
 		"name": "Staff of Nethys",
-		"file": "magicstavesdisplayf31b.html",
 		"sources": [ "Divine Anthology" ],
 		"description": [
 			"## Staff of Nethys",
@@ -2528,7 +2431,6 @@
 	},
 	"staff_of_one_hundred_hands": {
 		"name": "Staff of One Hundred Hands",
-		"file": "magicstavesdisplay6683.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Staff of One Hundred Hands",
@@ -2555,7 +2457,6 @@
 	},
 	"vril_staff": {
 		"name": "Vril Staff",
-		"file": "magicstavesdisplayf266.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Vril Staff",
@@ -2586,7 +2487,6 @@
 	},
 	"staff_of_passage": {
 		"name": "Staff of Passage",
-		"file": "magicstavesdisplaye7c4.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2614,7 +2514,6 @@
 	},
 	"staff_of_the_hierophant": {
 		"name": "Staff of the Hierophant",
-		"file": "magicstavesdisplay7f3e.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Staff of the Hierophant",
@@ -2648,7 +2547,6 @@
 	},
 	"winter's_reach": {
 		"name": "Winter's Reach",
-		"file": "magicstavesdisplay24b1.html",
 		"sources": [ "Pathfinder #72: The Witch Queen's Revenge" ],
 		"description": [
 			"## Source [Pathfinder #72: The Witch Queen's Revenge pg. 63](source/pathfinder_#72_the_witch_queen's_revenge)",
@@ -2676,7 +2574,6 @@
 	},
 	"staff_of_power": {
 		"name": "Staff of Power",
-		"file": "magicstavesdisplayc7c5.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2715,7 +2612,6 @@
 	},
 	"lasirro's_staff": {
 		"name": "Lasirro's Staff",
-		"file": "magicstavesdisplay6c67.html",
 		"sources": [ "Lost Treasures" ],
 		"description": [
 			"## Lasirro's Staff",
@@ -2749,7 +2645,6 @@
 	},
 	"staff_of_magical_decline": {
 		"name": "Staff of Magical Decline",
-		"file": "magiccurseddisplaye9e8.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Staff of Magical Decline",
@@ -2770,7 +2665,6 @@
 	},
 	"staff_of_occasional_wonder": {
 		"name": "Staff of Occasional Wonder",
-		"file": "magiccurseddisplay4341.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Source [Ultimate Equipment pg. 351](source/ultimate_equipment)",

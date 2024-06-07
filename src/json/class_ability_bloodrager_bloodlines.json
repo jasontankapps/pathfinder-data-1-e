@@ -2,7 +2,6 @@
 	"_prefix": "class_abilities-bloodrager_bloodline",
 	"aberrant": {
 		"name": "Aberrant",
-		"file": "bloodragerbloodlinedisplay20be.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Aberrant Bloodline",
@@ -32,7 +31,6 @@
 	},
 	"abyssal": {
 		"name": "Abyssal",
-		"file": "bloodragerbloodlinedisplay7aee.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Abyssal Bloodline",
@@ -62,7 +60,6 @@
 	},
 	"aquatic": {
 		"name": "Aquatic",
-		"file": "bloodragerbloodlinedisplay92d2.html",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"### Aquatic Bloodline",
@@ -94,7 +91,6 @@
 	},
 	"arcane": {
 		"name": "Arcane",
-		"file": "bloodragerbloodlinedisplayaee0.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Arcane Bloodline",
@@ -124,7 +120,6 @@
 	},
 	"black_blood": {
 		"name": "Black Blood",
-		"file": "bloodragerbloodlinedisplay4155.html",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
 			"### Black Blood Bloodline",
@@ -160,7 +155,6 @@
 	},
 	"celestial": {
 		"name": "Celestial",
-		"file": "bloodragerbloodlinedisplay9813.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Celestial Bloodline",
@@ -190,7 +184,6 @@
 	},
 	"destined": {
 		"name": "Destined",
-		"file": "bloodragerbloodlinedisplay4903.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Destined Bloodline",
@@ -220,7 +213,6 @@
 	},
 	"draconic": {
 		"name": "Draconic",
-		"file": "bloodragerbloodlinedisplay3acf.html",
 		"sources": [
 			"Advanced Class Guide",
 			"Legacy of Dragons"
@@ -334,7 +326,6 @@
 	},
 	"elemental": {
 		"name": "Elemental",
-		"file": "bloodragerbloodlinedisplay04c4.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Elemental Bloodline",
@@ -375,7 +366,6 @@
 	},
 	"fey": {
 		"name": "Fey",
-		"file": "bloodragerbloodlinedisplaycdfa.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Fey Bloodline",
@@ -405,7 +395,6 @@
 	},
 	"hag": {
 		"name": "Hag",
-		"file": "bloodragerbloodlinedisplay0733.html",
 		"sources": [ "Blood of the Coven" ],
 		"description": [
 			"### Hag Bloodline",
@@ -433,7 +422,6 @@
 	},
 	"infernal": {
 		"name": "Infernal",
-		"file": "bloodragerbloodlinedisplay423f.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Infernal Bloodline",
@@ -463,7 +451,6 @@
 	},
 	"kyton": {
 		"name": "Kyton",
-		"file": "bloodragerbloodlinedisplay2ecb.html",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
 			"### Kyton Bloodline",
@@ -493,7 +480,6 @@
 	},
 	"martyred": {
 		"name": "Martyred",
-		"file": "bloodragerbloodlinedisplayc754.html",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"### Martyred Bloodline",
@@ -523,7 +509,6 @@
 	},
 	"medusa": {
 		"name": "Medusa",
-		"file": "bloodragerbloodlinedisplayb72d.html",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
 			"### Medusa Bloodline",
@@ -553,7 +538,6 @@
 	},
 	"naga": {
 		"name": "Naga",
-		"file": "bloodragerbloodlinedisplaye818.html",
 		"sources": [ "Blood of the Beast" ],
 		"description": [
 			"### Naga Bloodline",
@@ -583,7 +567,6 @@
 	},
 	"phoenix": {
 		"name": "Phoenix",
-		"file": "bloodragerbloodlinedisplayc56a.html",
 		"sources": [ "Pathfinder #144: Midwives to Death" ],
 		"description": [
 			"### Phoenix Bloodline",
@@ -613,7 +596,6 @@
 	},
 	"salamander": {
 		"name": "Salamander",
-		"file": "bloodragerbloodlinedisplayb6a2.html",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
 			"### Salamander Bloodline",
@@ -643,7 +625,6 @@
 	},
 	"shadow": {
 		"name": "Shadow",
-		"file": "bloodragerbloodlinedisplay372c.html",
 		"sources": [ "Blood of Shadows" ],
 		"description": [
 			"### Shadow Bloodline",
@@ -673,7 +654,6 @@
 	},
 	"shapechanger": {
 		"name": "Shapechanger",
-		"file": "bloodragerbloodlinedisplay8846.html",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"### Shapechanger Bloodline",
@@ -703,7 +683,6 @@
 	},
 	"sphinx": {
 		"name": "Sphinx",
-		"file": "bloodragerbloodlinedisplay4bdb.html",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
 			"### Sphinx Bloodline",
@@ -733,7 +712,6 @@
 	},
 	"undead": {
 		"name": "Undead",
-		"file": "bloodragerbloodlinedisplaya695.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Undead Bloodline",
@@ -763,7 +741,6 @@
 	},
 	"verdant": {
 		"name": "Verdant",
-		"file": "bloodragerbloodlinedisplay8c6b.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Verdant Bloodline",
@@ -793,7 +770,6 @@
 	},
 	"vestige": {
 		"name": "Vestige",
-		"file": "bloodragerbloodlinedisplay14e4.html",
 		"sources": [ "Blood of the Ancients" ],
 		"description": [
 			"### Vestige Bloodline",

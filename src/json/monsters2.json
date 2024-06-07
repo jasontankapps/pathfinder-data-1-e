@@ -2,7 +2,6 @@
 	"_prefix": "monster",
 	"d'ziriak": {
 		"name": "D'ziriak",
-		"file": "monsterdisplaye189.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## D'ziriak",
@@ -64,7 +63,6 @@
 	"d_ziriak": { "copyof": "d'ziriak" },
 	"daemon,_acrididaemon": {
 		"name": "Daemon, Acrididaemon",
-		"file": "monsterdisplay2211.html",
 		"sources": [
 			"Feast of Dust",
 			"Bestiary 2"
@@ -136,7 +134,6 @@
 	"acrididaemon": { "copyof": "daemon,_acrididaemon" },
 	"daemon,_astradaemon": {
 		"name": "Daemon, Astradaemon",
-		"file": "monsterdisplay611d.html",
 		"sources": [
 			"Bestiary 2",
 			"The Great Beyond - A Guide to the Multiverse"
@@ -204,7 +201,6 @@
 	"astradaemon": { "copyof": "daemon,_astradaemon" },
 	"daemon,_bibliodaemon": {
 		"name": "Daemon, Bibliodaemon",
-		"file": "monsterdisplayb48e.html",
 		"sources": [
 			"Druma, Profit and Prophecy",
 			"Bestiary 2"
@@ -270,7 +266,6 @@
 	"bibliodaemon": { "copyof": "daemon,_bibliodaemon" },
 	"daemon,_cacodaemon": {
 		"name": "Daemon, Cacodaemon",
-		"file": "monsterdisplay9570.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Daemon, Cacodaemon",
@@ -337,7 +332,6 @@
 	"cacodaemon": { "copyof": "daemon,_cacodaemon" },
 	"daemon,_ceustodaemon": {
 		"name": "Daemon, Ceustodaemon",
-		"file": "monsterdisplay8cd8.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Daemon, Ceustodaemon",
@@ -406,7 +400,6 @@
 	"ceustodaemon": { "copyof": "daemon,_ceustodaemon" },
 	"daemon,_crucidaemon": {
 		"name": "Daemon, Crucidaemon",
-		"file": "monsterdisplaya47e.html",
 		"sources": [
 			"Bestiary 3",
 			"Bestiary 2"
@@ -475,7 +468,6 @@
 	"crucidaemon": { "copyof": "daemon,_crucidaemon" },
 	"daemon,_derghodaemon": {
 		"name": "Daemon, Derghodaemon",
-		"file": "monsterdisplayfbac.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Daemon, Derghodaemon",
@@ -543,7 +535,6 @@
 	"derghodaemon": { "copyof": "daemon,_derghodaemon" },
 	"daemon,_erodaemon": {
 		"name": "Daemon, Erodaemon",
-		"file": "monsterdisplay7efa.html",
 		"sources": [
 			"Bestiary 6",
 			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
@@ -612,7 +603,6 @@
 	"erodaemon": { "copyof": "daemon,_erodaemon" },
 	"daemon,_genthodaemon": {
 		"name": "Daemon, Genthodaemon",
-		"file": "monsterdisplayd8cc.html",
 		"sources": [
 			"Pathfinder #71: Rasputin Must Die!",
 			"Bestiary 2"
@@ -704,7 +694,6 @@
 	"genthodaemon": { "copyof": "daemon,_genthodaemon" },
 	"daemon,_hydrodaemon": {
 		"name": "Daemon, Hydrodaemon",
-		"file": "monsterdisplay3c1e.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Daemon, Hydrodaemon",
@@ -772,7 +761,6 @@
 	"hydrodaemon": { "copyof": "daemon,_hydrodaemon" },
 	"daemon,_lacridaemon": {
 		"name": "Daemon, Lacridaemon",
-		"file": "monsterdisplay77cd.html",
 		"sources": [
 			"Bestiary 6",
 			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
@@ -845,7 +833,6 @@
 	"lacridaemon": { "copyof": "daemon,_lacridaemon" },
 	"daemon,_lapsudaemon": {
 		"name": "Daemon, Lapsudaemon",
-		"file": "monsterdisplay7990.html",
 		"sources": [
 			"Pathfinder #106: For Queen and Empire",
 			"Bestiary 2"
@@ -936,7 +923,6 @@
 	"lapsudaemon": { "copyof": "daemon,_lapsudaemon" },
 	"daemon,_leukodaemon": {
 		"name": "Daemon, Leukodaemon",
-		"file": "monsterdisplayc8ba.html",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder #8: Seven Days to the Grave"
@@ -1008,7 +994,6 @@
 	"leukodaemon": { "copyof": "daemon,_leukodaemon" },
 	"daemon,_meladaemon": {
 		"name": "Daemon, Meladaemon",
-		"file": "monsterdisplay5f90.html",
 		"sources": [
 			"Bestiary 2",
 			"Beyond the Vault of Souls"
@@ -1079,7 +1064,6 @@
 	"meladaemon": { "copyof": "daemon,_meladaemon" },
 	"daemon,_nixudaemon": {
 		"name": "Daemon, Nixudaemon",
-		"file": "monsterdisplaya2b7.html",
 		"sources": [
 			"Pathfinder #96: Shadow of the Storm Tyrant",
 			"Bestiary 2"
@@ -1165,7 +1149,6 @@
 	"nixudaemon": { "copyof": "daemon,_nixudaemon" },
 	"daemon,_obcisidaemon": {
 		"name": "Daemon, Obcisidaemon",
-		"file": "monsterdisplay279b.html",
 		"sources": [
 			"Bestiary 6",
 			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
@@ -1253,7 +1236,6 @@
 	"obcisidaemon": { "copyof": "daemon,_obcisidaemon" },
 	"daemon,_olethrodaemon": {
 		"name": "Daemon, Olethrodaemon",
-		"file": "monsterdisplay2b53.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Daemon, Olethrodaemon",
@@ -1339,7 +1321,6 @@
 	"olethrodaemon": { "copyof": "daemon,_olethrodaemon" },
 	"daemon,_phasmadaemon": {
 		"name": "Daemon, Phasmadaemon",
-		"file": "monsterdisplay46e5.html",
 		"sources": [
 			"Bestiary 6",
 			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
@@ -1409,7 +1390,6 @@
 	"phasmadaemon": { "copyof": "daemon,_phasmadaemon" },
 	"daemon,_piscodaemon": {
 		"name": "Daemon, Piscodaemon",
-		"file": "monsterdisplaya08b.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Daemon, Piscodaemon",
@@ -1477,7 +1457,6 @@
 	"piscodaemon": { "copyof": "daemon,_piscodaemon" },
 	"daemon,_purrodaemon": {
 		"name": "Daemon, Purrodaemon",
-		"file": "monsterdisplayf7b3.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Daemon, Purrodaemon",
@@ -1540,7 +1519,6 @@
 	"purrodaemon": { "copyof": "daemon,_purrodaemon" },
 	"daemon,_sangudaemon": {
 		"name": "Daemon, Sangudaemon",
-		"file": "monsterdisplay8756.html",
 		"sources": [
 			"Bestiary 6",
 			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
@@ -1612,7 +1590,6 @@
 	"sangudaemon": { "copyof": "daemon,_sangudaemon" },
 	"daemon,_sepsidaemon": {
 		"name": "Daemon, Sepsidaemon",
-		"file": "monsterdisplay041b.html",
 		"sources": [
 			"Book of the Damned",
 			"Bestiary 2"
@@ -1679,7 +1656,6 @@
 	"sepsidaemon": { "copyof": "daemon,_sepsidaemon" },
 	"daemon,_suspiridaemon": {
 		"name": "Daemon, Suspiridaemon",
-		"file": "monsterdisplayb638.html",
 		"sources": [
 			"Bestiary 6",
 			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
@@ -1754,7 +1730,6 @@
 	"suspiridaemon": { "copyof": "daemon,_suspiridaemon" },
 	"daemon,_temerdaemon": {
 		"name": "Daemon, Temerdaemon",
-		"file": "monsterdisplay1039.html",
 		"sources": [
 			"Bestiary 6",
 			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
@@ -1827,7 +1802,6 @@
 	"temerdaemon": { "copyof": "daemon,_temerdaemon" },
 	"daemon,_thanadaemon": {
 		"name": "Daemon, Thanadaemon",
-		"file": "monsterdisplay00c4.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Daemon, Thanadaemon",
@@ -1892,7 +1866,6 @@
 	"thanadaemon": { "copyof": "daemon,_thanadaemon" },
 	"daemon,_venedaemon": {
 		"name": "Daemon, Venedaemon",
-		"file": "monsterdisplay7e84.html",
 		"sources": [
 			"Bestiary 6",
 			"Book of the Damned - Volume 3: Horsemen of the Apocalypse",
@@ -1968,7 +1941,6 @@
 	"venedaemon": { "copyof": "daemon,_venedaemon" },
 	"daemon,_vulnudaemon": {
 		"name": "Daemon, Vulnudaemon",
-		"file": "monsterdisplay3a2e.html",
 		"sources": [
 			"Bestiary 3",
 			"Bestiary 2"
@@ -2038,7 +2010,6 @@
 	"vulnudaemon": { "copyof": "daemon,_vulnudaemon" },
 	"dahzagan": {
 		"name": "Dahzagan",
-		"file": "monsterdisplayc59f.html",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"## Dahzagan",
@@ -2105,7 +2076,6 @@
 	},
 	"daitengu": {
 		"name": "Daitengu",
-		"file": "monsterdisplayb026.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Daitengu",
@@ -2168,7 +2138,6 @@
 	},
 	"dallo": {
 		"name": "Dallo",
-		"file": "monsterdisplay2311.html",
 		"sources": [ "Pathfinder #118: Siege of Stone" ],
 		"description": [
 			"## Dallo",
@@ -2223,7 +2192,6 @@
 	},
 	"dancing_hut_of_baba_yaga": {
 		"name": "Dancing Hut of Baba Yaga",
-		"file": "monsterdisplaycc50.html",
 		"sources": [
 			"Pathfinder #68: The Shackled Hut",
 			"Artifacts and Legends"
@@ -2284,7 +2252,6 @@
 	},
 	"danse_macabre": {
 		"name": "Danse Macabre",
-		"file": "monsterdisplayf420.html",
 		"sources": [
 			"Curse of the Crimson Throne",
 			"Pathfinder #11: Skeletons of Scarwall"
@@ -2359,7 +2326,6 @@
 	},
 	"danthienne": {
 		"name": "Danthienne",
-		"file": "monsterdisplayefe4.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Danthienne",
@@ -2418,7 +2384,6 @@
 	},
 	"dark_folk,_caligni": {
 		"name": "Dark Folk, Caligni",
-		"file": "monsterdisplay30d2.html",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder RPG Bestiary"
@@ -2490,7 +2455,6 @@
 	"caligni": { "copyof": "dark_folk,_caligni" },
 	"dark_folk,_dark_caller": {
 		"name": "Dark Folk, Dark Caller",
-		"file": "monsterdisplay696a.html",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder RPG Bestiary"
@@ -2563,7 +2527,6 @@
 	"dark_caller": { "copyof": "dark_folk,_dark_caller" },
 	"dark_folk,_dark_champion": {
 		"name": "Dark Folk, Dark Champion",
-		"file": "monsterdisplay2995.html",
 		"sources": [
 			"Cradle of Night",
 			"Pathfinder RPG Bestiary"
@@ -2629,7 +2592,6 @@
 	"dark_champion": { "copyof": "dark_folk,_dark_champion" },
 	"dark_folk,_dark_creeper": {
 		"name": "Dark Folk, Dark Creeper",
-		"file": "monsterdisplay2dd9.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dark Folk, Dark Creeper",
@@ -2698,7 +2660,6 @@
 	"dark_creeper": { "copyof": "dark_folk,_dark_creeper" },
 	"dark_folk,_dark_dancer": {
 		"name": "Dark Folk, Dark Dancer",
-		"file": "monsterdisplaydc9a.html",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder RPG Bestiary"
@@ -2764,7 +2725,6 @@
 	"dark_dancer": { "copyof": "dark_folk,_dark_dancer" },
 	"dark_folk,_dark_empath": {
 		"name": "Dark Folk, Dark Empath",
-		"file": "monsterdisplay5800.html",
 		"sources": [
 			"Occult Bestiary",
 			"Pathfinder RPG Bestiary"
@@ -2834,7 +2794,6 @@
 	"dark_empath": { "copyof": "dark_folk,_dark_empath" },
 	"dark_folk,_dark_slayer": {
 		"name": "Dark Folk, Dark Slayer",
-		"file": "monsterdisplay9332.html",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -2906,7 +2865,6 @@
 	"dark_slayer": { "copyof": "dark_folk,_dark_slayer" },
 	"dark_folk,_dark_stalker": {
 		"name": "Dark Folk, Dark Stalker",
-		"file": "monsterdisplayb6b6.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dark Folk, Dark Stalker",
@@ -2975,7 +2933,6 @@
 	"dark_stalker": { "copyof": "dark_folk,_dark_stalker" },
 	"dark_young_of_shub-niggurath": {
 		"name": "Dark Young of Shub-Niggurath",
-		"file": "monsterdisplay9c9f.html",
 		"sources": [ "Pathfinder #46: Wake of the Watcher" ],
 		"description": [
 			"## Dark Young of Shub-Niggurath",
@@ -3037,7 +2994,6 @@
 	"dark_young_of_shub_niggurath": { "copyof": "dark_young_of_shub-niggurath" },
 	"darkmantle": {
 		"name": "Darkmantle",
-		"file": "monsterdisplay0c91.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Darkmantle",
@@ -3092,7 +3048,6 @@
 	},
 	"daughter_of_urgathoa": {
 		"name": "Daughter of Urgathoa",
-		"file": "monsterdisplayadd2.html",
 		"sources": [
 			"Inner Sea World Guide",
 			"Pathfinder #8: Seven Days to the Grave"
@@ -3163,7 +3118,6 @@
 	},
 	"dawn_piper": {
 		"name": "Dawn Piper",
-		"file": "monsterdisplayfc5f.html",
 		"sources": [ "Pathfinder #68: The Shackled Hut" ],
 		"description": [
 			"## Dawn Piper",
@@ -3245,7 +3199,6 @@
 	},
 	"deadfall_dweller": {
 		"name": "Deadfall Dweller",
-		"file": "monsterdisplay7724.html",
 		"sources": [ "Tears at Bitter Manor" ],
 		"description": [
 			"## Deadfall Dweller",
@@ -3310,7 +3263,6 @@
 	},
 	"death_coach": {
 		"name": "Death Coach",
-		"file": "monsterdisplay45cc.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Death Coach",
@@ -3372,7 +3324,6 @@
 	},
 	"death_dog": {
 		"name": "Death Dog",
-		"file": "monsterdisplayac2a.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Death Dog",
@@ -3435,7 +3386,6 @@
 	},
 	"death_worm": {
 		"name": "Death Worm",
-		"file": "monsterdisplay69f3.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Death Worm",
@@ -3498,7 +3448,6 @@
 	},
 	"death_worm,_death_worm_leviathan": {
 		"name": "Death Worm, Death Worm Leviathan",
-		"file": "monsterdisplay1784.html",
 		"sources": [ "Mystery Monsters Revisited" ],
 		"description": [
 			"## Death Worm, Death Worm Leviathan",
@@ -3560,7 +3509,6 @@
 	"death_worm_leviathan": { "copyof": "death_worm,_death_worm_leviathan" },
 	"deathsnatcher": {
 		"name": "Deathsnatcher",
-		"file": "monsterdisplay48d9.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Deathsnatcher",
@@ -3624,7 +3572,6 @@
 	},
 	"deathtrap_ooze": {
 		"name": "Deathtrap Ooze",
-		"file": "monsterdisplaya8a4.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Deathtrap Ooze",
@@ -3685,7 +3632,6 @@
 	},
 	"deathweb": {
 		"name": "Deathweb",
-		"file": "monsterdisplay1378.html",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #4: Fortress of the Stone Giants"
@@ -3751,7 +3697,6 @@
 	},
 	"decapus": {
 		"name": "Decapus",
-		"file": "monsterdisplaye04f.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Decapus",
@@ -3815,7 +3760,6 @@
 	},
 	"deep_merfolk": {
 		"name": "Deep Merfolk",
-		"file": "monsterdisplayf249.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Deep Merfolk",
@@ -3879,7 +3823,6 @@
 	},
 	"deep_one": {
 		"name": "Deep One",
-		"file": "monsterdisplay29b5.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Deep One",
@@ -3944,7 +3887,6 @@
 	},
 	"deep_one,_deep_one_hybrid": {
 		"name": "Deep One, Deep One Hybrid",
-		"file": "monsterdisplay2c5b.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Deep One, Deep One Hybrid",
@@ -4009,7 +3951,6 @@
 	"deep_one_hybrid": { "copyof": "deep_one,_deep_one_hybrid" },
 	"deep_one,_elder_deep_one": {
 		"name": "Deep One, Elder Deep One",
-		"file": "monsterdisplay1b48.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Deep One, Elder Deep One",
@@ -4084,7 +4025,6 @@
 	"elder_deep_one": { "copyof": "deep_one,_elder_deep_one" },
 	"deep_sea_serpent": {
 		"name": "Deep Sea Serpent",
-		"file": "monsterdisplay6695.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Deep Sea Serpent",
@@ -4145,7 +4085,6 @@
 	},
 	"deep_walker": {
 		"name": "Deep Walker",
-		"file": "monsterdisplayac35.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Deep Walker",
@@ -4208,7 +4147,6 @@
 	},
 	"deeplit": {
 		"name": "Deeplit",
-		"file": "monsterdisplaya5bc.html",
 		"sources": [ "Down the Blighted Path" ],
 		"description": [
 			"## Deeplit",
@@ -4270,7 +4208,6 @@
 	},
 	"delgeth": {
 		"name": "Delgeth",
-		"file": "monsterdisplay1489.html",
 		"sources": [
 			"Bestiary 5",
 			"Tears at Bitter Manor"
@@ -4334,7 +4271,6 @@
 	},
 	"delver": {
 		"name": "Delver",
-		"file": "monsterdisplayf1b5.html",
 		"sources": [ "Misfit Monsters Redeemed" ],
 		"description": [
 			"## Delver",
@@ -4399,7 +4335,6 @@
 	},
 	"demodand,_gristly_demodand": {
 		"name": "Demodand, Gristly Demodand",
-		"file": "monsterdisplayb833.html",
 		"sources": [
 			"Bestiary 5",
 			"Bestiary 3"
@@ -4468,7 +4403,6 @@
 	"gristly_demodand": { "copyof": "demodand,_gristly_demodand" },
 	"demodand,_shaggy_demodand": {
 		"name": "Demodand, Shaggy Demodand",
-		"file": "monsterdisplayb85a.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Demodand, Shaggy Demodand",
@@ -4528,7 +4462,6 @@
 	"shaggy_demodand": { "copyof": "demodand,_shaggy_demodand" },
 	"demodand,_slimy_demodand": {
 		"name": "Demodand, Slimy Demodand",
-		"file": "monsterdisplaye8c0.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Demodand, Slimy Demodand",
@@ -4595,7 +4528,6 @@
 	"slimy_demodand": { "copyof": "demodand,_slimy_demodand" },
 	"demodand,_squamous_demodand": {
 		"name": "Demodand, Squamous Demodand",
-		"file": "monsterdisplaydbef.html",
 		"sources": [
 			"Book of the Damned",
 			"Bestiary 3"
@@ -4669,7 +4601,6 @@
 	"squamous_demodand": { "copyof": "demodand,_squamous_demodand" },
 	"demodand,_stringy_demodand": {
 		"name": "Demodand, Stringy Demodand",
-		"file": "monsterdisplayff74.html",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder #77: Herald of the Ivory Labyrinth",
@@ -4739,7 +4670,6 @@
 	"stringy_demodand": { "copyof": "demodand,_stringy_demodand" },
 	"demodand,_tarry_demodand": {
 		"name": "Demodand, Tarry Demodand",
-		"file": "monsterdisplayd728.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Demodand, Tarry Demodand",
@@ -4802,7 +4732,6 @@
 	"tarry_demodand": { "copyof": "demodand,_tarry_demodand" },
 	"demon,_abrikandilu": {
 		"name": "Demon, Abrikandilu",
-		"file": "monsterdisplay2d79.html",
 		"sources": [
 			"Bestiary 5",
 			"The Worldwound",
@@ -4875,7 +4804,6 @@
 	"abrikandilu": { "copyof": "demon,_abrikandilu" },
 	"demon,_andrazku": {
 		"name": "Demon, Andrazku",
-		"file": "monsterdisplay7c8b.html",
 		"sources": [
 			"Pathfinder #69: Maiden, Mother, Crone",
 			"Pathfinder RPG Bestiary"
@@ -4967,7 +4895,6 @@
 	"andrazku": { "copyof": "demon,_andrazku" },
 	"demon,_babau": {
 		"name": "Demon, Babau",
-		"file": "monsterdisplayac5d.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Demon, Babau",
@@ -5032,7 +4959,6 @@
 	"babau": { "copyof": "demon,_babau" },
 	"demon,_balor": {
 		"name": "Demon, Balor",
-		"file": "monsterdisplaya6e5.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Demon, Balor",
@@ -5123,7 +5049,6 @@
 	"balor": { "copyof": "demon,_balor" },
 	"demon,_brimorak": {
 		"name": "Demon, Brimorak",
-		"file": "monsterdisplayfbaf.html",
 		"sources": [
 			"Bestiary 6",
 			"Book of the Damned - Volume 2: Lords of Chaos",
@@ -5195,7 +5120,6 @@
 	"brimorak": { "copyof": "demon,_brimorak" },
 	"demon,_cambion": {
 		"name": "Demon, Cambion",
-		"file": "monsterdisplaycd01.html",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder #76: The Midnight Isles",
@@ -5271,7 +5195,6 @@
 	"cambion": { "copyof": "demon,_cambion" },
 	"demon,_coloxus": {
 		"name": "Demon, Coloxus",
-		"file": "monsterdisplayc928.html",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -5343,7 +5266,6 @@
 	"coloxus": { "copyof": "demon,_coloxus" },
 	"demon,_derakni": {
 		"name": "Demon, Derakni",
-		"file": "monsterdisplay7dde.html",
 		"sources": [
 			"The Worldwound",
 			"Pathfinder RPG Bestiary"
@@ -5413,7 +5335,6 @@
 	"derakni": { "copyof": "demon,_derakni" },
 	"demon,_dretch": {
 		"name": "Demon, Dretch",
-		"file": "monsterdisplay780f.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Demon, Dretch",
@@ -5472,7 +5393,6 @@
 	"dretch": { "copyof": "demon,_dretch" },
 	"demon,_gallu": {
 		"name": "Demon, Gallu",
-		"file": "monsterdisplaybd2a.html",
 		"sources": [
 			"The Worldwound",
 			"Pathfinder RPG Bestiary"
@@ -5550,7 +5470,6 @@
 	"gallu": { "copyof": "demon,_gallu" },
 	"demon,_ghalzarokh": {
 		"name": "Demon, Ghalzarokh",
-		"file": "monsterdisplay2131.html",
 		"sources": [
 			"Book of the Damned",
 			"Pathfinder RPG Bestiary"
@@ -5615,7 +5534,6 @@
 	"ghalzarokh": { "copyof": "demon,_ghalzarokh" },
 	"demon,_gibrileth": {
 		"name": "Demon, Gibrileth",
-		"file": "monsterdisplaye8b7.html",
 		"sources": [
 			"The Worldwound",
 			"Pathfinder RPG Bestiary"
@@ -5687,7 +5605,6 @@
 	"gibrileth": { "copyof": "demon,_gibrileth" },
 	"demon,_glabrezu": {
 		"name": "Demon, Glabrezu",
-		"file": "monsterdisplaya512.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Demon, Glabrezu",
@@ -5747,7 +5664,6 @@
 	"glabrezu": { "copyof": "demon,_glabrezu" },
 	"demon,_hala": {
 		"name": "Demon, Hala",
-		"file": "monsterdisplay1f62.html",
 		"sources": [
 			"Pathfinder #49: The Brinewall Legacy",
 			"Pathfinder RPG Bestiary"
@@ -5834,7 +5750,6 @@
 	"hala": { "copyof": "demon,_hala" },
 	"demon,_hezrou": {
 		"name": "Demon, Hezrou",
-		"file": "monsterdisplay00e4-2.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Demon, Hezrou",
@@ -5901,7 +5816,6 @@
 	"hezrou": { "copyof": "demon,_hezrou" },
 	"demon,_incubus": {
 		"name": "Demon, Incubus",
-		"file": "monsterdisplay9d4f.html",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -5969,7 +5883,6 @@
 	"incubus": { "copyof": "demon,_incubus" },
 	"demon,_kalavakus": {
 		"name": "Demon, Kalavakus",
-		"file": "monsterdisplay75b4.html",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -6036,7 +5949,6 @@
 	"kalavakus": { "copyof": "demon,_kalavakus" },
 	"demon,_katpaskir": {
 		"name": "Demon, Katpaskir",
-		"file": "monsterdisplaycd50.html",
 		"sources": [
 			"Pathfinder #78: City of Locusts",
 			"Pathfinder RPG Bestiary"
@@ -6122,7 +6034,6 @@
 	"katpaskir": { "copyof": "demon,_katpaskir" },
 	"demon,_kithangian": {
 		"name": "Demon, Kithangian",
-		"file": "monsterdisplayd8a7.html",
 		"sources": [
 			"The Worldwound",
 			"Pathfinder RPG Bestiary"
@@ -6194,7 +6105,6 @@
 	"kithangian": { "copyof": "demon,_kithangian" },
 	"demon,_larva": {
 		"name": "Demon, Larva",
-		"file": "monsterdisplayea80.html",
 		"sources": [
 			"Pathfinder #76: The Midnight Isles",
 			"Pathfinder RPG Bestiary"
@@ -6243,7 +6153,6 @@
 	"larva": { "copyof": "demon,_larva" },
 	"demon,_lilitu": {
 		"name": "Demon, Lilitu",
-		"file": "monsterdisplay21d7.html",
 		"sources": [
 			"Bestiary 6",
 			"The Worldwound",
@@ -6336,7 +6245,6 @@
 	"lilitu": { "copyof": "demon,_lilitu" },
 	"demon,_marilith": {
 		"name": "Demon, Marilith",
-		"file": "monsterdisplay2dc8.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Demon, Marilith",
@@ -6405,7 +6313,6 @@
 	"marilith": { "copyof": "demon,_marilith" },
 	"demon,_nabasu": {
 		"name": "Demon, Nabasu",
-		"file": "monsterdisplay99b0.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Demon, Nabasu",
@@ -6467,7 +6374,6 @@
 	"nabasu": { "copyof": "demon,_nabasu" },
 	"demon,_nalfeshnee": {
 		"name": "Demon, Nalfeshnee",
-		"file": "monsterdisplayc64c.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Demon, Nalfeshnee",
@@ -6531,7 +6437,6 @@
 	"nalfeshnee": { "copyof": "demon,_nalfeshnee" },
 	"demon,_omox": {
 		"name": "Demon, Omox",
-		"file": "monsterdisplayc83f.html",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder #16: Endless Night",
@@ -6603,7 +6508,6 @@
 	"omox": { "copyof": "demon,_omox" },
 	"demon,_oolioddroo": {
 		"name": "Demon, Oolioddroo",
-		"file": "monsterdisplaya6a1.html",
 		"sources": [
 			"Bestiary 6",
 			"The Worldwound",
@@ -6686,7 +6590,6 @@
 	"oolioddroo": { "copyof": "demon,_oolioddroo" },
 	"demon,_painajai": {
 		"name": "Demon, Painajai",
-		"file": "monsterdisplayff4a.html",
 		"sources": [
 			"Occult Bestiary",
 			"Pathfinder RPG Bestiary"
@@ -6758,7 +6661,6 @@
 	"painajai": { "copyof": "demon,_painajai" },
 	"demon,_quasit": {
 		"name": "Demon, Quasit",
-		"file": "monsterdisplaybb0b.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Demon, Quasit",
@@ -6825,7 +6727,6 @@
 	"quasit": { "copyof": "demon,_quasit" },
 	"demon,_schir": {
 		"name": "Demon, Schir",
-		"file": "monsterdisplay4050.html",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -6896,7 +6797,6 @@
 	"schir": { "copyof": "demon,_schir" },
 	"demon,_seraptis": {
 		"name": "Demon, Seraptis",
-		"file": "monsterdisplayd7f6.html",
 		"sources": [
 			"Bestiary 5",
 			"Book of the Damned - Volume 2: Lords of Chaos",
@@ -6968,7 +6868,6 @@
 	"seraptis": { "copyof": "demon,_seraptis" },
 	"demon,_shachath": {
 		"name": "Demon, Shachath",
-		"file": "monsterdisplay2817.html",
 		"sources": [
 			"Pathfinder #75: Demon's Heresy",
 			"Pathfinder RPG Bestiary"
@@ -7050,7 +6949,6 @@
 	"shachath": { "copyof": "demon,_shachath" },
 	"demon,_shadow_demon": {
 		"name": "Demon, Shadow Demon",
-		"file": "monsterdisplay8baa.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Demon, Shadow Demon",
@@ -7117,7 +7015,6 @@
 	"shadow_demon": { "copyof": "demon,_shadow_demon" },
 	"demon,_shemhazian": {
 		"name": "Demon, Shemhazian",
-		"file": "monsterdisplay47ba.html",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder #5: Sins of the Saviors",
@@ -7187,7 +7084,6 @@
 	"shemhazian": { "copyof": "demon,_shemhazian" },
 	"demon,_succubus": {
 		"name": "Demon, Succubus",
-		"file": "monsterdisplay0753.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Demon, Succubus",
@@ -7250,7 +7146,6 @@
 	"succubus": { "copyof": "demon,_succubus" },
 	"demon,_swaithe": {
 		"name": "Demon, Swaithe",
-		"file": "monsterdisplay88da.html",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder RPG Bestiary"
@@ -7327,7 +7222,6 @@
 	"swaithe": { "copyof": "demon,_swaithe" },
 	"demon,_thoxel_demon": {
 		"name": "Demon, Thoxel Demon",
-		"file": "monsterdisplay9f09.html",
 		"sources": [
 			"Pathfinder #74: Sword of Valor",
 			"Pathfinder RPG Bestiary"
@@ -7411,7 +7305,6 @@
 	"thoxel_demon": { "copyof": "demon,_thoxel_demon" },
 	"demon,_ulkreth": {
 		"name": "Demon, Ulkreth",
-		"file": "monsterdisplay8cc3.html",
 		"sources": [
 			"Pathfinder #73: The Worldwound Incursion",
 			"Pathfinder RPG Bestiary"
@@ -7498,7 +7391,6 @@
 	"ulkreth": { "copyof": "demon,_ulkreth" },
 	"demon,_vavakia": {
 		"name": "Demon, Vavakia",
-		"file": "monsterdisplay94a8.html",
 		"sources": [
 			"Bestiary 6",
 			"Book of the Damned - Volume 2: Lords of Chaos",
@@ -7579,7 +7471,6 @@
 	"vavakia": { "copyof": "demon,_vavakia" },
 	"demon,_vermlek": {
 		"name": "Demon, Vermlek",
-		"file": "monsterdisplay44ed.html",
 		"sources": [
 			"Bestiary 6",
 			"Book of the Damned - Volume 2: Lords of Chaos",
@@ -7650,7 +7541,6 @@
 	"vermlek": { "copyof": "demon,_vermlek" },
 	"demon,_vilsteth": {
 		"name": "Demon, Vilsteth",
-		"file": "monsterdisplay2886.html",
 		"sources": [
 			"Pathfinder #77: Herald of the Ivory Labyrinth",
 			"Pathfinder RPG Bestiary"
@@ -7733,7 +7623,6 @@
 	"vilsteth": { "copyof": "demon,_vilsteth" },
 	"demon,_vrock": {
 		"name": "Demon, Vrock",
-		"file": "monsterdisplay14b5.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Demon, Vrock",
@@ -7799,7 +7688,6 @@
 	"vrock": { "copyof": "demon,_vrock" },
 	"demon,_vrolikai": {
 		"name": "Demon, Vrolikai",
-		"file": "monsterdisplay999c.html",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -7870,7 +7758,6 @@
 	"vrolikai": { "copyof": "demon,_vrolikai" },
 	"demon,_yaenit": {
 		"name": "Demon, Yaenit",
-		"file": "monsterdisplay8b40.html",
 		"sources": [
 			"Bestiary 6",
 			"Broken Chains",
@@ -7940,7 +7827,6 @@
 	"yaenit": { "copyof": "demon,_yaenit" },
 	"denizen_of_leng": {
 		"name": "Denizen of Leng",
-		"file": "monsterdisplay8098.html",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder #6: Spires of Xin-Shalast"
@@ -8008,7 +7894,6 @@
 	},
 	"derhii": {
 		"name": "Derhii",
-		"file": "monsterdisplay2344.html",
 		"sources": [
 			"Bestiary 3",
 			"Lost Cities of Golarion",
@@ -8077,7 +7962,6 @@
 	},
 	"derro": {
 		"name": "Derro",
-		"file": "monsterdisplayf42f.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Derro",
@@ -8146,7 +8030,6 @@
 	},
 	"derro,_derro_bodysnatcher": {
 		"name": "Derro, Derro Bodysnatcher",
-		"file": "monsterdisplay08df.html",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"## Derro, Derro Bodysnatcher",
@@ -8206,7 +8089,6 @@
 	"derro_bodysnatcher": { "copyof": "derro,_derro_bodysnatcher" },
 	"derro,_derro_brainwasher": {
 		"name": "Derro, Derro Brainwasher",
-		"file": "monsterdisplay6f7d.html",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"## Derro, Derro Brainwasher",
@@ -8267,7 +8149,6 @@
 	"derro_brainwasher": { "copyof": "derro,_derro_brainwasher" },
 	"derro,_derro_magister": {
 		"name": "Derro, Derro Magister",
-		"file": "monsterdisplay611d-2.html",
 		"sources": [
 			"Bestiary 6",
 			"Occult Bestiary"
@@ -8336,7 +8217,6 @@
 	"derro_magister": { "copyof": "derro,_derro_magister" },
 	"derro,_urban_stalker": {
 		"name": "Derro, Urban Stalker",
-		"file": "monsterdisplayf190.html",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"## Derro, Urban Stalker",
@@ -8394,7 +8274,6 @@
 	"urban_stalker": { "copyof": "derro,_urban_stalker" },
 	"derro,_white-eyed_torturer": {
 		"name": "Derro, White-Eyed Torturer",
-		"file": "monsterdisplaye175.html",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"## Derro, White-Eyed Torturer",
@@ -8456,7 +8335,6 @@
 	"white_eyed_torturer": { "copyof": "derro,_white-eyed_torturer" },
 	"desert_vermin,_giant_ground_wasp": {
 		"name": "Desert Vermin, Giant Ground Wasp",
-		"file": "monsterdisplay36dc.html",
 		"sources": [ "Pathfinder #81: Shifting Sands" ],
 		"description": [
 			"## Desert Vermin, Giant Ground Wasp",
@@ -8510,7 +8388,6 @@
 	"giant_ground_wasp": { "copyof": "desert_vermin,_giant_ground_wasp" },
 	"desert_vermin,_giant_walking_stick": {
 		"name": "Desert Vermin, Giant Walking Stick",
-		"file": "monsterdisplay33c2.html",
 		"sources": [ "Pathfinder #81: Shifting Sands" ],
 		"description": [
 			"## Desert Vermin, Giant Walking Stick",
@@ -8565,7 +8442,6 @@
 	"giant_walking_stick": { "copyof": "desert_vermin,_giant_walking_stick" },
 	"despoiler": {
 		"name": "Despoiler",
-		"file": "monsterdisplayade3.html",
 		"sources": [ "Seers of the Drowned City" ],
 		"description": [
 			"## Despoiler",
@@ -8621,7 +8497,6 @@
 	},
 	"destrachan": {
 		"name": "Destrachan",
-		"file": "monsterdisplayee03.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Destrachan",
@@ -8682,7 +8557,6 @@
 	},
 	"devil_monkey": {
 		"name": "Devil Monkey",
-		"file": "monsterdisplay529e.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Devil Monkey",
@@ -8737,7 +8611,6 @@
 	},
 	"devil,_accomplice_devil_hesperian": {
 		"name": "Devil, Accomplice Devil (Hesperian)",
-		"file": "monsterdisplay45bd.html",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder RPG Bestiary"
@@ -8810,7 +8683,6 @@
 	"accomplice_devil": { "copyof": "devil,_accomplice_devil_hesperian" },
 	"devil,_accuser_devil_zebub": {
 		"name": "Devil, Accuser Devil (Zebub)",
-		"file": "monsterdisplayd5b7.html",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -8882,7 +8754,6 @@
 	"accuser_devil": { "copyof": "devil,_accuser_devil_zebub" },
 	"devil,_advodaza": {
 		"name": "Devil, Advodaza",
-		"file": "monsterdisplayc7f9.html",
 		"sources": [
 			"Pathfinder #30: The Twice-Damned Prince",
 			"Pathfinder RPG Bestiary"
@@ -8960,7 +8831,6 @@
 	"advodaza": { "copyof": "devil,_advodaza" },
 	"devil,_apostate_devil_deimavigga": {
 		"name": "Devil, Apostate Devil (Deimavigga)",
-		"file": "monsterdisplayf741.html",
 		"sources": [
 			"Bestiary 5",
 			"Book of the Damned - Volume 1: Princes of Darkness",
@@ -9045,7 +8915,6 @@
 	"apostate_devil": { "copyof": "devil,_apostate_devil_deimavigga" },
 	"devil,_barbed_devil_hamatula": {
 		"name": "Devil, Barbed Devil (Hamatula)",
-		"file": "monsterdisplaye6e7.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Devil, Barbed Devil (Hamatula)",
@@ -9113,7 +8982,6 @@
 	"barbed_devil": { "copyof": "devil,_barbed_devil_hamatula" },
 	"devil,_bearded_devil_barbazu": {
 		"name": "Devil, Bearded Devil (Barbazu)",
-		"file": "monsterdisplaybb00.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Devil, Bearded Devil (Barbazu)",
@@ -9180,7 +9048,6 @@
 	"bearded_devil": { "copyof": "devil,_bearded_devil_barbazu" },
 	"devil,_belier_devil_bdellavritra": {
 		"name": "Devil, Belier Devil (Bdellavritra)",
-		"file": "monsterdisplay52a7.html",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder #12: Crown of Fangs",
@@ -9248,7 +9115,6 @@
 	"belier_devil": { "copyof": "devil,_belier_devil_bdellavritra" },
 	"devil,_bone_devil_osyluth": {
 		"name": "Devil, Bone Devil (Osyluth)",
-		"file": "monsterdisplaydd98.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Devil, Bone Devil (Osyluth)",
@@ -9315,7 +9181,6 @@
 	"bone_devil": { "copyof": "devil,_bone_devil_osyluth" },
 	"devil,_cabal_devil_uniila": {
 		"name": "Devil, Cabal Devil (Uniila)",
-		"file": "monsterdisplay3420.html",
 		"sources": [
 			"Pathfinder #28: The Infernal Syndrome",
 			"Pathfinder RPG Bestiary"
@@ -9403,7 +9268,6 @@
 	"cabal_devil": { "copyof": "devil,_cabal_devil_uniila" },
 	"devil,_chortov": {
 		"name": "Devil, Chortov",
-		"file": "monsterdisplaya337.html",
 		"sources": [
 			"Pathfinder #27: What Lies in Dust",
 			"Pathfinder RPG Bestiary"
@@ -9473,7 +9337,6 @@
 	"chortov": { "copyof": "devil,_chortov" },
 	"devil,_contract_devil_phistophilus": {
 		"name": "Devil, Contract Devil (Phistophilus)",
-		"file": "monsterdisplay864a.html",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #12: Crown of Fangs",
@@ -9565,7 +9428,6 @@
 	"contract_devil": { "copyof": "devil,_contract_devil_phistophilus" },
 	"devil,_curse_devil_phiam": {
 		"name": "Devil, Curse Devil (Phiam)",
-		"file": "monsterdisplay0416.html",
 		"sources": [
 			"Daughters of Fury",
 			"Pathfinder RPG Bestiary"
@@ -9638,7 +9500,6 @@
 	"curse_devil": { "copyof": "devil,_curse_devil_phiam" },
 	"devil,_drowning_devil_sarglagon": {
 		"name": "Devil, Drowning Devil (Sarglagon)",
-		"file": "monsterdisplay199f.html",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder #60: From Hell's Heart",
@@ -9710,7 +9571,6 @@
 	"drowning_devil": { "copyof": "devil,_drowning_devil_sarglagon" },
 	"devil,_erinyes": {
 		"name": "Devil, Erinyes",
-		"file": "monsterdisplay8d62.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Devil, Erinyes",
@@ -9774,7 +9634,6 @@
 	"erinyes": { "copyof": "devil,_erinyes" },
 	"devil,_executioner_devil_munagola": {
 		"name": "Devil, Executioner Devil (Munagola)",
-		"file": "monsterdisplay9969.html",
 		"sources": [
 			"Book of the Damned",
 			"Pathfinder RPG Bestiary"
@@ -9837,7 +9696,6 @@
 	"executioner_devil": { "copyof": "devil,_executioner_devil_munagola" },
 	"devil,_gambling_devil_magadaz": {
 		"name": "Devil, Gambling Devil (Magadaz)",
-		"file": "monsterdisplay8aa3.html",
 		"sources": [
 			"Pathfinder #97: In Hell's Bright Shadow",
 			"Pathfinder RPG Bestiary"
@@ -9925,7 +9783,6 @@
 	"gambling_devil": { "copyof": "devil,_gambling_devil_magadaz" },
 	"devil,_handmaiden_devil_gylou": {
 		"name": "Devil, Handmaiden Devil (Gylou)",
-		"file": "monsterdisplaya270.html",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -9996,7 +9853,6 @@
 	"handmaiden_devil": { "copyof": "devil,_handmaiden_devil_gylou" },
 	"devil,_heresy_devil_ayngavhaul": {
 		"name": "Devil, Heresy Devil (Ayngavhaul)",
-		"file": "monsterdisplaya289.html",
 		"sources": [
 			"Bestiary 5",
 			"Book of the Damned - Volume 1: Princes of Darkness",
@@ -10070,7 +9926,6 @@
 	"heresy_devil": { "copyof": "devil,_heresy_devil_ayngavhaul" },
 	"devil,_horned_devil_cornugon": {
 		"name": "Devil, Horned Devil (Cornugon)",
-		"file": "monsterdisplay00e3.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Devil, Horned Devil (Cornugon)",
@@ -10136,7 +9991,6 @@
 	"horned_devil": { "copyof": "devil,_horned_devil_cornugon" },
 	"devil,_host_devil,_greater_magaav": {
 		"name": "Devil, Host Devil, Greater (Magaav)",
-		"file": "monsterdisplay725d.html",
 		"sources": [
 			"Bestiary 4",
 			"Book of the Damned - Volume 1: Princes of Darkness",
@@ -10208,7 +10062,6 @@
 	"greater_host_devil": { "copyof": "devil,_host_devil,_greater_magaav" },
 	"devil,_host_devil,_lesser_gaav": {
 		"name": "Devil, Host Devil, Lesser (Gaav)",
-		"file": "monsterdisplay8d48.html",
 		"sources": [
 			"Book of the Damned - Volume 1: Princes of Darkness",
 			"Pathfinder RPG Bestiary"
@@ -10281,7 +10134,6 @@
 	"lesser_host_devil": { "copyof": "devil,_host_devil,_lesser_gaav" },
 	"devil,_ice_devil_gelugon": {
 		"name": "Devil, Ice Devil (Gelugon)",
-		"file": "monsterdisplay1909.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Devil, Ice Devil (Gelugon)",
@@ -10347,7 +10199,6 @@
 	"ice_devil": { "copyof": "devil,_ice_devil_gelugon" },
 	"devil,_immolation_devil_puragaus": {
 		"name": "Devil, Immolation Devil (Puragaus)",
-		"file": "monsterdisplay05e8.html",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -10415,7 +10266,6 @@
 	"immolation_devil": { "copyof": "devil,_immolation_devil_puragaus" },
 	"devil,_imp": {
 		"name": "Devil, Imp",
-		"file": "monsterdisplay4a88.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Devil, Imp",
@@ -10483,7 +10333,6 @@
 	"imp": { "copyof": "devil,_imp" },
 	"devil,_lemure": {
 		"name": "Devil, Lemure",
-		"file": "monsterdisplay44fa.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Devil, Lemure",
@@ -10533,7 +10382,6 @@
 	"lemure": { "copyof": "devil,_lemure" },
 	"devil,_mnemor": {
 		"name": "Devil, Mnemor",
-		"file": "monsterdisplay1fdc.html",
 		"sources": [
 			"Occult Bestiary",
 			"Pathfinder RPG Bestiary"
@@ -10605,7 +10453,6 @@
 	"mnemor": { "copyof": "devil,_mnemor" },
 	"devil,_nemesis_devil_advodaza": {
 		"name": "Devil, Nemesis Devil (Advodaza)",
-		"file": "monsterdisplay6629.html",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder RPG Bestiary"
@@ -10691,7 +10538,6 @@
 	"nemesis_devil": { "copyof": "devil,_nemesis_devil_advodaza" },
 	"devil,_nupperibo": {
 		"name": "Devil, Nupperibo",
-		"file": "monsterdisplay89e0.html",
 		"sources": [
 			"Pathfinder #61: Shards of Sin",
 			"Pathfinder RPG Bestiary"
@@ -10744,7 +10590,6 @@
 	"nupperibo": { "copyof": "devil,_nupperibo" },
 	"devil,_pit_fiend": {
 		"name": "Devil, Pit Fiend",
-		"file": "monsterdisplayfa5c.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Devil, Pit Fiend",
@@ -10825,7 +10670,6 @@
 	"pit_fiend": { "copyof": "devil,_pit_fiend" },
 	"devil,_possession_devil,_greater_gidim": {
 		"name": "Devil, Possession Devil, Greater (Gidim)",
-		"file": "monsterdisplayc4b9.html",
 		"sources": [
 			"Pathfinder #29: Mother of Flies",
 			"Pathfinder RPG Bestiary"
@@ -10904,7 +10748,6 @@
 	"greater_possession_devil": { "copyof": "devil,_possession_devil,_greater_gidim" },
 	"devil,_possession_devil,_lesser_gidim": {
 		"name": "Devil, Possession Devil, Lesser (Gidim)",
-		"file": "monsterdisplayef50.html",
 		"sources": [
 			"Pathfinder #29: Mother of Flies",
 			"Pathfinder RPG Bestiary"
@@ -10986,7 +10829,6 @@
 	"lesser_possession_devil": { "copyof": "devil,_possession_devil,_lesser_gidim" },
 	"devil,_rust_devil_ferrugon": {
 		"name": "Devil, Rust Devil (Ferrugon)",
-		"file": "monsterdisplay7d67.html",
 		"sources": [
 			"Pathfinder #101: The Kintargo Contract",
 			"Pathfinder RPG Bestiary"
@@ -11088,7 +10930,6 @@
 	"rust_devil": { "copyof": "devil,_rust_devil_ferrugon" },
 	"devil,_salikotal": {
 		"name": "Devil, Salikotal",
-		"file": "monsterdisplay39ac.html",
 		"sources": [
 			"Pathfinder #26: The Sixfold Trial",
 			"Pathfinder RPG Bestiary"
@@ -11169,7 +11010,6 @@
 	"salikotal": { "copyof": "devil,_salikotal" },
 	"devil,_sire_devil_patraavex": {
 		"name": "Devil, Sire Devil (Patraavex)",
-		"file": "monsterdisplay7b4b.html",
 		"sources": [
 			"Cheliax, the Infernal Empire",
 			"Pathfinder RPG Bestiary"
@@ -11239,7 +11079,6 @@
 	"sire_devil": { "copyof": "devil,_sire_devil_patraavex" },
 	"devil,_tinder_devil_ukobach": {
 		"name": "Devil, Tinder Devil (Ukobach)",
-		"file": "monsterdisplay0ea4.html",
 		"sources": [
 			"Pathfinder #25: The Bastards of Erebus",
 			"Pathfinder RPG Bestiary"
@@ -11319,7 +11158,6 @@
 	"tinder_devil": { "copyof": "devil,_tinder_devil_ukobach" },
 	"devil,_warmonger_devil_levaloch": {
 		"name": "Devil, Warmonger Devil (Levaloch)",
-		"file": "monsterdisplay4969.html",
 		"sources": [
 			"Bestiary 5",
 			"Book of the Damned - Volume 1: Princes of Darkness",
@@ -11394,7 +11232,6 @@
 	"warmonger_devil": { "copyof": "devil,_warmonger_devil_levaloch" },
 	"devilfish": {
 		"name": "Devilfish",
-		"file": "monsterdisplaycb2b.html",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder #7: Edge of Anarchy"
@@ -11462,7 +11299,6 @@
 	},
 	"devourer": {
 		"name": "Devourer",
-		"file": "monsterdisplay4e10.html",
 		"sources": [
 			"Pathfinder RPG Bestiary",
 			"Undead Revisited"
@@ -11535,7 +11371,6 @@
 	},
 	"dhampir": {
 		"name": "Dhampir",
-		"file": "monsterdisplay8263.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Dhampir",
@@ -11603,7 +11438,6 @@
 	},
 	"digmaul": {
 		"name": "Digmaul",
-		"file": "monsterdisplayaeb6.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Digmaul",
@@ -11664,7 +11498,6 @@
 	},
 	"dimensional_shambler": {
 		"name": "Dimensional Shambler",
-		"file": "monsterdisplay08cf.html",
 		"sources": [ "Pathfinder #46: Wake of the Watcher" ],
 		"description": [
 			"## Dimensional Shambler",
@@ -11728,7 +11561,6 @@
 	},
 	"dinosaur,_allosaurus": {
 		"name": "Dinosaur, Allosaurus",
-		"file": "monsterdisplay1f19.html",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -11782,7 +11614,6 @@
 	"allosaurus": { "copyof": "dinosaur,_allosaurus" },
 	"dinosaur,_amargasaurus": {
 		"name": "Dinosaur, Amargasaurus",
-		"file": "monsterdisplaydc13.html",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary"
@@ -11836,7 +11667,6 @@
 	"amargasaurus": { "copyof": "dinosaur,_amargasaurus" },
 	"dinosaur,_ankylosaurus": {
 		"name": "Dinosaur, Ankylosaurus",
-		"file": "monsterdisplay9ac7.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dinosaur, Ankylosaurus",
@@ -11890,7 +11720,6 @@
 	"ankylosaurus": { "copyof": "dinosaur,_ankylosaurus" },
 	"dinosaur,_brachiosaurus": {
 		"name": "Dinosaur, Brachiosaurus",
-		"file": "monsterdisplay3f5f.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dinosaur, Brachiosaurus",
@@ -11941,7 +11770,6 @@
 	"brachiosaurus": { "copyof": "dinosaur,_brachiosaurus" },
 	"dinosaur,_ceratosaurus": {
 		"name": "Dinosaur, Ceratosaurus",
-		"file": "monsterdisplaycacf.html",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder RPG Bestiary"
@@ -11996,7 +11824,6 @@
 	"ceratosaurus": { "copyof": "dinosaur,_ceratosaurus" },
 	"dinosaur,_compsognathus": {
 		"name": "Dinosaur, Compsognathus",
-		"file": "monsterdisplayace8.html",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -12055,7 +11882,6 @@
 	"compsognathus": { "copyof": "dinosaur,_compsognathus" },
 	"dinosaur,_deinonychus": {
 		"name": "Dinosaur, Deinonychus",
-		"file": "monsterdisplayde66.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dinosaur, Deinonychus",
@@ -12107,7 +11933,6 @@
 	"deinonychus": { "copyof": "dinosaur,_deinonychus" },
 	"dinosaur,_dimetrodon": {
 		"name": "Dinosaur, Dimetrodon",
-		"file": "monsterdisplayf8de.html",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -12167,7 +11992,6 @@
 	"dimetrodon": { "copyof": "dinosaur,_dimetrodon" },
 	"dinosaur,_dimorphodon": {
 		"name": "Dinosaur, Dimorphodon",
-		"file": "monsterdisplaya089.html",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder #37: Souls for Smuggler's Shiv",
@@ -12229,7 +12053,6 @@
 	"dimorphodon": { "copyof": "dinosaur,_dimorphodon" },
 	"dinosaur,_diplodocus": {
 		"name": "Dinosaur, Diplodocus",
-		"file": "monsterdisplay27d6.html",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder RPG Bestiary"
@@ -12287,7 +12110,6 @@
 	"diplodocus": { "copyof": "dinosaur,_diplodocus" },
 	"dinosaur,_elasmosaurus": {
 		"name": "Dinosaur, Elasmosaurus",
-		"file": "monsterdisplayfa38.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dinosaur, Elasmosaurus",
@@ -12337,7 +12159,6 @@
 	"elasmosaurus": { "copyof": "dinosaur,_elasmosaurus" },
 	"dinosaur,_giganotosaurus": {
 		"name": "Dinosaur, Giganotosaurus",
-		"file": "monsterdisplay2462.html",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary"
@@ -12391,7 +12212,6 @@
 	"giganotosaurus": { "copyof": "dinosaur,_giganotosaurus" },
 	"dinosaur,_iguanodon": {
 		"name": "Dinosaur, Iguanodon",
-		"file": "monsterdisplay95d2.html",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -12451,7 +12271,6 @@
 	"iguanodon": { "copyof": "dinosaur,_iguanodon" },
 	"dinosaur,_kentrosaurus": {
 		"name": "Dinosaur, Kentrosaurus",
-		"file": "monsterdisplaye9c7.html",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder RPG Bestiary"
@@ -12512,7 +12331,6 @@
 	"kentrosaurus": { "copyof": "dinosaur,_kentrosaurus" },
 	"dinosaur,_pachycephalosaurus": {
 		"name": "Dinosaur, Pachycephalosaurus",
-		"file": "monsterdisplay7ac4.html",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -12572,7 +12390,6 @@
 	"pachycephalosaurus": { "copyof": "dinosaur,_pachycephalosaurus" },
 	"dinosaur,_parasaurolophus": {
 		"name": "Dinosaur, Parasaurolophus",
-		"file": "monsterdisplay644e.html",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -12625,7 +12442,6 @@
 	"parasaurolophus": { "copyof": "dinosaur,_parasaurolophus" },
 	"dinosaur,_plesiosaurus": {
 		"name": "Dinosaur, Plesiosaurus",
-		"file": "monsterdisplaya6fb.html",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder RPG Bestiary"
@@ -12685,7 +12501,6 @@
 	"plesiosaurus": { "copyof": "dinosaur,_plesiosaurus" },
 	"dinosaur,_pteranodon": {
 		"name": "Dinosaur, Pteranodon",
-		"file": "monsterdisplayc7cb.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dinosaur, Pteranodon",
@@ -12737,7 +12552,6 @@
 	"pteranodon": { "copyof": "dinosaur,_pteranodon" },
 	"dinosaur,_quetzalcoatlus": {
 		"name": "Dinosaur, Quetzalcoatlus",
-		"file": "monsterdisplay5c76.html",
 		"sources": [
 			"Bestiary 6",
 			"Pathfinder #37: Souls for Smuggler's Shiv",
@@ -12798,7 +12612,6 @@
 	"quetzalcoatlus": { "copyof": "dinosaur,_quetzalcoatlus" },
 	"dinosaur,_spinosaurus": {
 		"name": "Dinosaur, Spinosaurus",
-		"file": "monsterdisplay80aa.html",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder RPG Bestiary"
@@ -12853,7 +12666,6 @@
 	"spinosaurus": { "copyof": "dinosaur,_spinosaurus" },
 	"dinosaur,_stegosaurus": {
 		"name": "Dinosaur, Stegosaurus",
-		"file": "monsterdisplay969c.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dinosaur, Stegosaurus",
@@ -12903,7 +12715,6 @@
 	"stegosaurus": { "copyof": "dinosaur,_stegosaurus" },
 	"dinosaur,_styracosaurus": {
 		"name": "Dinosaur, Styracosaurus",
-		"file": "monsterdisplay55f1.html",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder RPG Bestiary"
@@ -12964,7 +12775,6 @@
 	"styracosaurus": { "copyof": "dinosaur,_styracosaurus" },
 	"dinosaur,_therizinosaurus": {
 		"name": "Dinosaur, Therizinosaurus",
-		"file": "monsterdisplay507e.html",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder RPG Bestiary"
@@ -13026,7 +12836,6 @@
 	"therizinosaurus": { "copyof": "dinosaur,_therizinosaurus" },
 	"dinosaur,_triceratops": {
 		"name": "Dinosaur, Triceratops",
-		"file": "monsterdisplayee33.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dinosaur, Triceratops",
@@ -13079,7 +12888,6 @@
 	"triceratops": { "copyof": "dinosaur,_triceratops" },
 	"dinosaur,_troodon": {
 		"name": "Dinosaur, Troodon",
-		"file": "monsterdisplayd950.html",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder RPG Bestiary"
@@ -13138,7 +12946,6 @@
 	"troodon": { "copyof": "dinosaur,_troodon" },
 	"dinosaur,_tylosaurus": {
 		"name": "Dinosaur, Tylosaurus",
-		"file": "monsterdisplay898c.html",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder RPG Bestiary"
@@ -13192,7 +12999,6 @@
 	"tylosaurus": { "copyof": "dinosaur,_tylosaurus" },
 	"dinosaur,_tyrannosaurus": {
 		"name": "Dinosaur, Tyrannosaurus",
-		"file": "monsterdisplay8dde.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dinosaur, Tyrannosaurus",
@@ -13248,7 +13054,6 @@
 	"tyrannosaurus": { "copyof": "dinosaur,_tyrannosaurus" },
 	"dinosaur,_velociraptor": {
 		"name": "Dinosaur, Velociraptor",
-		"file": "monsterdisplay44f6-2.html",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder RPG Bestiary"
@@ -13308,7 +13113,6 @@
 	"velociraptor": { "copyof": "dinosaur,_velociraptor" },
 	"dire_corby": {
 		"name": "Dire Corby",
-		"file": "monsterdisplay10d1.html",
 		"sources": [
 			"Bestiary 3",
 			"Misfit Monsters Redeemed"
@@ -13376,7 +13180,6 @@
 	},
 	"disenchanter": {
 		"name": "Disenchanter",
-		"file": "monsterdisplay4473.html",
 		"sources": [
 			"Bestiary 3",
 			"Misfit Monsters Redeemed"
@@ -13442,7 +13245,6 @@
 	},
 	"div,_aghash": {
 		"name": "Div, Aghash",
-		"file": "monsterdisplay5643.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Div, Aghash",
@@ -13507,7 +13309,6 @@
 	"aghash": { "copyof": "div,_aghash" },
 	"div,_akvan": {
 		"name": "Div, Akvan",
-		"file": "monsterdisplayf833.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Div, Akvan",
@@ -13601,7 +13402,6 @@
 	"akvan": { "copyof": "div,_akvan" },
 	"div,_bushyasta": {
 		"name": "Div, Bushyasta",
-		"file": "monsterdisplay66c3.html",
 		"sources": [
 			"Book of the Damned",
 			"Bestiary 3"
@@ -13674,7 +13474,6 @@
 	"bushyasta": { "copyof": "div,_bushyasta" },
 	"div,_doru": {
 		"name": "Div, Doru",
-		"file": "monsterdisplay8857.html",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #19: Howl of the Carrion King"
@@ -13745,7 +13544,6 @@
 	"doru": { "copyof": "div,_doru" },
 	"div,_druj_nasu": {
 		"name": "Div, Druj Nasu",
-		"file": "monsterdisplayda77.html",
 		"sources": [
 			"Pathfinder #113: What Grows Within",
 			"Bestiary 3"
@@ -13838,7 +13636,6 @@
 	"druj_nasu": { "copyof": "div,_druj_nasu" },
 	"div,_ghawwas": {
 		"name": "Div, Ghawwas",
-		"file": "monsterdisplay9c02.html",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #22: The End of Eternity"
@@ -13912,7 +13709,6 @@
 	"ghawwas": { "copyof": "div,_ghawwas" },
 	"div,_pairaka": {
 		"name": "Div, Pairaka",
-		"file": "monsterdisplay800f.html",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #20: House of the Beast"
@@ -13985,7 +13781,6 @@
 	"pairaka": { "copyof": "div,_pairaka" },
 	"div,_sepid": {
 		"name": "Div, Sepid",
-		"file": "monsterdisplay70d6.html",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #23: The Impossible Eye"
@@ -14056,7 +13851,6 @@
 	"sepid": { "copyof": "div,_sepid" },
 	"div,_shira": {
 		"name": "Div, Shira",
-		"file": "monsterdisplay3446.html",
 		"sources": [
 			"Bestiary 3",
 			"Pathfinder #21: The Jackal's Price"
@@ -14129,7 +13923,6 @@
 	"shira": { "copyof": "div,_shira" },
 	"dog": {
 		"name": "Dog",
-		"file": "monsterdisplay0af5.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dog",
@@ -14183,7 +13976,6 @@
 	},
 	"dog,_riding_dog": {
 		"name": "Dog, Riding Dog",
-		"file": "monsterdisplay326e.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dog, Riding Dog",
@@ -14230,7 +14022,6 @@
 	"riding_dog": { "copyof": "dog,_riding_dog" },
 	"dolphin": {
 		"name": "Dolphin",
-		"file": "monsterdisplay18f4.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dolphin",
@@ -14281,7 +14072,6 @@
 	},
 	"dolphin,_orca": {
 		"name": "Dolphin, Orca",
-		"file": "monsterdisplaya77d.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dolphin, Orca",
@@ -14330,7 +14120,6 @@
 	"orca": { "copyof": "dolphin,_orca" },
 	"dolphin,_popoto": {
 		"name": "Dolphin, Popoto",
-		"file": "monsterdisplay920e.html",
 		"sources": [ "Familiar Folio" ],
 		"description": [
 			"## Dolphin, Popoto",
@@ -14376,7 +14165,6 @@
 	"popoto": { "copyof": "dolphin,_popoto" },
 	"doppeldrek": {
 		"name": "Doppeldrek",
-		"file": "monsterdisplayfd9d.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Doppeldrek",
@@ -14429,7 +14217,6 @@
 	},
 	"doppelganger": {
 		"name": "Doppelganger",
-		"file": "monsterdisplay7e5d.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Doppelganger",
@@ -14492,7 +14279,6 @@
 	},
 	"dorvae": {
 		"name": "Dorvae",
-		"file": "monsterdisplayc423.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Dorvae",
@@ -14554,7 +14340,6 @@
 	},
 	"dossenus": {
 		"name": "Dossenus",
-		"file": "monsterdisplay654e.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Dossenus",
@@ -14621,7 +14406,6 @@
 	},
 	"dragon_black,_adult_black_dragon": {
 		"name": "Dragon (Black), Adult Black Dragon",
-		"file": "monsterdisplay8871.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Black), Adult Black Dragon",
@@ -14679,7 +14463,6 @@
 	"adult_black_dragon": { "copyof": "dragon_black,_adult_black_dragon" },
 	"dragon_black,_ancient_black_dragon": {
 		"name": "Dragon (Black), Ancient Black Dragon",
-		"file": "monsterdisplaye824.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Black), Ancient Black Dragon",
@@ -14741,7 +14524,6 @@
 	"ancient_black_dragon": { "copyof": "dragon_black,_ancient_black_dragon" },
 	"dragon_black,_young_black_dragon": {
 		"name": "Dragon (Black), Young Black Dragon",
-		"file": "monsterdisplay4ed0.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Black), Young Black Dragon",
@@ -14794,7 +14576,6 @@
 	"young_black_dragon": { "copyof": "dragon_black,_young_black_dragon" },
 	"dragon_blue,_adult_blue_dragon": {
 		"name": "Dragon (Blue), Adult Blue Dragon",
-		"file": "monsterdisplay0084.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Blue), Adult Blue Dragon",
@@ -14870,7 +14651,6 @@
 	"adult_blue_dragon": { "copyof": "dragon_blue,_adult_blue_dragon" },
 	"dragon_blue,_ancient_blue_dragon": {
 		"name": "Dragon (Blue), Ancient Blue Dragon",
-		"file": "monsterdisplayd253.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Blue), Ancient Blue Dragon",
@@ -14933,7 +14713,6 @@
 	"ancient_blue_dragon": { "copyof": "dragon_blue,_ancient_blue_dragon" },
 	"dragon_blue,_young_blue_dragon": {
 		"name": "Dragon (Blue), Young Blue Dragon",
-		"file": "monsterdisplay3a67.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Blue), Young Blue Dragon",
@@ -14989,7 +14768,6 @@
 	"young_blue_dragon": { "copyof": "dragon_blue,_young_blue_dragon" },
 	"dragon_brass,_adult_brass_dragon": {
 		"name": "Dragon (Brass), Adult Brass Dragon",
-		"file": "monsterdisplay8c76.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Brass), Adult Brass Dragon",
@@ -15049,7 +14827,6 @@
 	"adult_brass_dragon": { "copyof": "dragon_brass,_adult_brass_dragon" },
 	"dragon_brass,_ancient_brass_dragon": {
 		"name": "Dragon (Brass), Ancient Brass Dragon",
-		"file": "monsterdisplay43e2.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Brass), Ancient Brass Dragon",
@@ -15113,7 +14890,6 @@
 	"ancient_brass_dragon": { "copyof": "dragon_brass,_ancient_brass_dragon" },
 	"dragon_brass,_young_brass_dragon": {
 		"name": "Dragon (Brass), Young Brass Dragon",
-		"file": "monsterdisplay024e.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Brass), Young Brass Dragon",
@@ -15173,7 +14949,6 @@
 	"young_brass_dragon": { "copyof": "dragon_brass,_young_brass_dragon" },
 	"dragon_bronze,_adult_bronze_dragon": {
 		"name": "Dragon (Bronze), Adult Bronze Dragon",
-		"file": "monsterdisplay8e3f.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Bronze), Adult Bronze Dragon",
@@ -15233,7 +15008,6 @@
 	"adult_bronze_dragon": { "copyof": "dragon_bronze,_adult_bronze_dragon" },
 	"dragon_bronze,_ancient_bronze_dragon": {
 		"name": "Dragon (Bronze), Ancient Bronze Dragon",
-		"file": "monsterdisplay4c64.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Bronze), Ancient Bronze Dragon",
@@ -15297,7 +15071,6 @@
 	"ancient_bronze_dragon": { "copyof": "dragon_bronze,_ancient_bronze_dragon" },
 	"dragon_bronze,_young_bronze_dragon": {
 		"name": "Dragon (Bronze), Young Bronze Dragon",
-		"file": "monsterdisplay2473.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Bronze), Young Bronze Dragon",
@@ -15355,7 +15128,6 @@
 	"young_bronze_dragon": { "copyof": "dragon_bronze,_young_bronze_dragon" },
 	"dragon_copper,_adult_copper_dragon": {
 		"name": "Dragon (Copper), Adult Copper Dragon",
-		"file": "monsterdisplayfbf4.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Copper), Adult Copper Dragon",
@@ -15415,7 +15187,6 @@
 	"adult_copper_dragon": { "copyof": "dragon_copper,_adult_copper_dragon" },
 	"dragon_copper,_ancient_copper_dragon": {
 		"name": "Dragon (Copper), Ancient Copper Dragon",
-		"file": "monsterdisplay6114.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Copper), Ancient Copper Dragon",
@@ -15479,7 +15250,6 @@
 	"ancient_copper_dragon": { "copyof": "dragon_copper,_ancient_copper_dragon" },
 	"dragon_copper,_young_copper_dragon": {
 		"name": "Dragon (Copper), Young Copper Dragon",
-		"file": "monsterdisplay1b22.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Copper), Young Copper Dragon",
@@ -15537,7 +15307,6 @@
 	"young_copper_dragon": { "copyof": "dragon_copper,_young_copper_dragon" },
 	"dragon_esoteric,_astral,_adult_astral_dragon": {
 		"name": "Dragon (Esoteric, Astral), Adult Astral Dragon",
-		"file": "monsterdisplayf351.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Dragon (Esoteric, Astral), Adult Astral Dragon",
@@ -15592,7 +15361,6 @@
 	"adult_astral_dragon": { "copyof": "dragon_esoteric,_astral,_adult_astral_dragon" },
 	"dragon_esoteric,_astral,_ancient_astral_dragon": {
 		"name": "Dragon (Esoteric, Astral), Ancient Astral Dragon",
-		"file": "monsterdisplaye752.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Dragon (Esoteric, Astral), Ancient Astral Dragon",
@@ -15647,7 +15415,6 @@
 	"ancient_astral_dragon": { "copyof": "dragon_esoteric,_astral,_ancient_astral_dragon" },
 	"dragon_esoteric,_astral,_young_astral_dragon": {
 		"name": "Dragon (Esoteric, Astral), Young Astral Dragon",
-		"file": "monsterdisplay974e.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Dragon (Esoteric, Astral), Young Astral Dragon",
@@ -15703,7 +15470,6 @@
 	"young_astral_dragon": { "copyof": "dragon_esoteric,_astral,_young_astral_dragon" },
 	"dragon_esoteric,_dream,_adult_dream_dragon": {
 		"name": "Dragon (Esoteric, Dream), Adult Dream Dragon",
-		"file": "monsterdisplaye7c8.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Dragon (Esoteric, Dream), Adult Dream Dragon",
@@ -15758,7 +15524,6 @@
 	"adult_dream_dragon": { "copyof": "dragon_esoteric,_dream,_adult_dream_dragon" },
 	"dragon_esoteric,_dream,_ancient_dream_dragon": {
 		"name": "Dragon (Esoteric, Dream), Ancient Dream Dragon",
-		"file": "monsterdisplay2417.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Dragon (Esoteric, Dream), Ancient Dream Dragon",
@@ -15813,7 +15578,6 @@
 	"ancient_dream_dragon": { "copyof": "dragon_esoteric,_dream,_ancient_dream_dragon" },
 	"dragon_esoteric,_dream,_young_dream_dragon": {
 		"name": "Dragon (Esoteric, Dream), Young Dream Dragon",
-		"file": "monsterdisplay9366.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Dragon (Esoteric, Dream), Young Dream Dragon",
@@ -15868,7 +15632,6 @@
 	"young_dream_dragon": { "copyof": "dragon_esoteric,_dream,_young_dream_dragon" },
 	"dragon_esoteric,_etheric,_adult_etheric_dragon": {
 		"name": "Dragon (Esoteric, Etheric), Adult Etheric Dragon",
-		"file": "monsterdisplay3c44.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Dragon (Esoteric, Etheric), Adult Etheric Dragon",
@@ -15923,7 +15686,6 @@
 	"adult_etheric_dragon": { "copyof": "dragon_esoteric,_etheric,_adult_etheric_dragon" },
 	"dragon_esoteric,_etheric,_ancient_etheric_dragon": {
 		"name": "Dragon (Esoteric, Etheric), Ancient Etheric Dragon",
-		"file": "monsterdisplayd958.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Dragon (Esoteric, Etheric), Ancient Etheric Dragon",
@@ -15978,7 +15740,6 @@
 	"ancient_etheric_dragon": { "copyof": "dragon_esoteric,_etheric,_ancient_etheric_dragon" },
 	"dragon_esoteric,_etheric,_young_etheric_dragon": {
 		"name": "Dragon (Esoteric, Etheric), Young Etheric Dragon",
-		"file": "monsterdisplay48e7.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Dragon (Esoteric, Etheric), Young Etheric Dragon",
@@ -16032,7 +15793,6 @@
 	"young_etheric_dragon": { "copyof": "dragon_esoteric,_etheric,_young_etheric_dragon" },
 	"dragon_esoteric,_nightmare,_adult_nightmare_dragon": {
 		"name": "Dragon (Esoteric, Nightmare), Adult Nightmare Dragon",
-		"file": "monsterdisplayb988.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Dragon (Esoteric, Nightmare), Adult Nightmare Dragon",
@@ -16087,7 +15847,6 @@
 	"adult_nightmare_dragon": { "copyof": "dragon_esoteric,_nightmare,_adult_nightmare_dragon" },
 	"dragon_esoteric,_nightmare,_ancient_nightmare_dragon": {
 		"name": "Dragon (Esoteric, Nightmare), Ancient Nightmare Dragon",
-		"file": "monsterdisplaya2f0.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Dragon (Esoteric, Nightmare), Ancient Nightmare Dragon",
@@ -16142,7 +15901,6 @@
 	"ancient_nightmare_dragon": { "copyof": "dragon_esoteric,_nightmare,_ancient_nightmare_dragon" },
 	"dragon_esoteric,_nightmare,_young_nightmare_dragon": {
 		"name": "Dragon (Esoteric, Nightmare), Young Nightmare Dragon",
-		"file": "monsterdisplayc569.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Dragon (Esoteric, Nightmare), Young Nightmare Dragon",
@@ -16195,7 +15953,6 @@
 	"young_nightmare_dragon": { "copyof": "dragon_esoteric,_nightmare,_young_nightmare_dragon" },
 	"dragon_esoteric,_occult,_adult_occult_dragon": {
 		"name": "Dragon (Esoteric, Occult), Adult Occult Dragon",
-		"file": "monsterdisplayc3c3.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Dragon (Esoteric, Occult), Adult Occult Dragon",
@@ -16250,7 +16007,6 @@
 	"adult_occult_dragon": { "copyof": "dragon_esoteric,_occult,_adult_occult_dragon" },
 	"dragon_esoteric,_occult,_ancient_occult_dragon": {
 		"name": "Dragon (Esoteric, Occult), Ancient Occult Dragon",
-		"file": "monsterdisplay9b48.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Dragon (Esoteric, Occult), Ancient Occult Dragon",
@@ -16305,7 +16061,6 @@
 	"ancient_occult_dragon": { "copyof": "dragon_esoteric,_occult,_ancient_occult_dragon" },
 	"dragon_esoteric,_occult,_young_occult_dragon": {
 		"name": "Dragon (Esoteric, Occult), Young Occult Dragon",
-		"file": "monsterdisplay8bbe.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Dragon (Esoteric, Occult), Young Occult Dragon",
@@ -16361,7 +16116,6 @@
 	"young_occult_dragon": { "copyof": "dragon_esoteric,_occult,_young_occult_dragon" },
 	"dragon_gold,_adult_gold_dragon": {
 		"name": "Dragon (Gold), Adult Gold Dragon",
-		"file": "monsterdisplayf39f.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Gold), Adult Gold Dragon",
@@ -16422,7 +16176,6 @@
 	"adult_gold_dragon": { "copyof": "dragon_gold,_adult_gold_dragon" },
 	"dragon_gold,_ancient_gold_dragon": {
 		"name": "Dragon (Gold), Ancient Gold Dragon",
-		"file": "monsterdisplay528b.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Gold), Ancient Gold Dragon",
@@ -16487,7 +16240,6 @@
 	"ancient_gold_dragon": { "copyof": "dragon_gold,_ancient_gold_dragon" },
 	"dragon_gold,_young_gold_dragon": {
 		"name": "Dragon (Gold), Young Gold Dragon",
-		"file": "monsterdisplayc44a.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Gold), Young Gold Dragon",
@@ -16546,7 +16298,6 @@
 	"young_gold_dragon": { "copyof": "dragon_gold,_young_gold_dragon" },
 	"dragon_green,_adult_green_dragon": {
 		"name": "Dragon (Green), Adult Green Dragon",
-		"file": "monsterdisplay5929.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Green), Adult Green Dragon",
@@ -16605,7 +16356,6 @@
 	"adult_green_dragon": { "copyof": "dragon_green,_adult_green_dragon" },
 	"dragon_green,_ancient_green_dragon": {
 		"name": "Dragon (Green), Ancient Green Dragon",
-		"file": "monsterdisplay4a01.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Green), Ancient Green Dragon",
@@ -16668,7 +16418,6 @@
 	"ancient_green_dragon": { "copyof": "dragon_green,_ancient_green_dragon" },
 	"dragon_green,_young_green_dragon": {
 		"name": "Dragon (Green), Young Green Dragon",
-		"file": "monsterdisplayc8d4.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Green), Young Green Dragon",
@@ -16724,7 +16473,6 @@
 	"young_green_dragon": { "copyof": "dragon_green,_young_green_dragon" },
 	"dragon_imperial,_forest,_adult_forest_dragon": {
 		"name": "Dragon (Imperial, Forest), Adult Forest Dragon",
-		"file": "monsterdisplayb1cc.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Dragon (Imperial, Forest), Adult Forest Dragon",
@@ -16784,7 +16532,6 @@
 	"adult_forest_dragon": { "copyof": "dragon_imperial,_forest,_adult_forest_dragon" },
 	"dragon_imperial,_forest,_ancient_forest_dragon": {
 		"name": "Dragon (Imperial, Forest), Ancient Forest Dragon",
-		"file": "monsterdisplayad41.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Dragon (Imperial, Forest), Ancient Forest Dragon",
@@ -16848,7 +16595,6 @@
 	"ancient_forest_dragon": { "copyof": "dragon_imperial,_forest,_ancient_forest_dragon" },
 	"dragon_imperial,_forest,_young_forest_dragon": {
 		"name": "Dragon (Imperial, Forest), Young Forest Dragon",
-		"file": "monsterdisplayacfb.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Dragon (Imperial, Forest), Young Forest Dragon",
@@ -16907,7 +16653,6 @@
 	"young_forest_dragon": { "copyof": "dragon_imperial,_forest,_young_forest_dragon" },
 	"dragon_imperial,_sea,_adult_sea_dragon": {
 		"name": "Dragon (Imperial, Sea), Adult Sea Dragon",
-		"file": "monsterdisplayda34.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Dragon (Imperial, Sea), Adult Sea Dragon",
@@ -16967,7 +16712,6 @@
 	"adult_sea_dragon": { "copyof": "dragon_imperial,_sea,_adult_sea_dragon" },
 	"dragon_imperial,_sea,_ancient_sea_dragon": {
 		"name": "Dragon (Imperial, Sea), Ancient Sea Dragon",
-		"file": "monsterdisplay9357.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Dragon (Imperial, Sea), Ancient Sea Dragon",
@@ -17031,7 +16775,6 @@
 	"ancient_sea_dragon": { "copyof": "dragon_imperial,_sea,_ancient_sea_dragon" },
 	"dragon_imperial,_sea,_young_sea_dragon": {
 		"name": "Dragon (Imperial, Sea), Young Sea Dragon",
-		"file": "monsterdisplay8c19.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Dragon (Imperial, Sea), Young Sea Dragon",
@@ -17090,7 +16833,6 @@
 	"young_sea_dragon": { "copyof": "dragon_imperial,_sea,_young_sea_dragon" },
 	"dragon_imperial,_sky,_adult_sky_dragon": {
 		"name": "Dragon (Imperial, Sky), Adult Sky Dragon",
-		"file": "monsterdisplay6891.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Dragon (Imperial, Sky), Adult Sky Dragon",
@@ -17150,7 +16892,6 @@
 	"adult_sky_dragon": { "copyof": "dragon_imperial,_sky,_adult_sky_dragon" },
 	"dragon_imperial,_sky,_ancient_sky_dragon": {
 		"name": "Dragon (Imperial, Sky), Ancient Sky Dragon",
-		"file": "monsterdisplayb07c.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Dragon (Imperial, Sky), Ancient Sky Dragon",
@@ -17213,7 +16954,6 @@
 	"ancient_sky_dragon": { "copyof": "dragon_imperial,_sky,_ancient_sky_dragon" },
 	"dragon_imperial,_sky,_young_sky_dragon": {
 		"name": "Dragon (Imperial, Sky), Young Sky Dragon",
-		"file": "monsterdisplayf847.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Dragon (Imperial, Sky), Young Sky Dragon",
@@ -17272,7 +17012,6 @@
 	"young_sky_dragon": { "copyof": "dragon_imperial,_sky,_young_sky_dragon" },
 	"dragon_imperial,_sovereign,_adult_sovereign_dragon": {
 		"name": "Dragon (Imperial, Sovereign), Adult Sovereign Dragon",
-		"file": "monsterdisplay73ec.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Dragon (Imperial, Sovereign), Adult Sovereign Dragon",
@@ -17332,7 +17071,6 @@
 	"adult_sovereign_dragon": { "copyof": "dragon_imperial,_sovereign,_adult_sovereign_dragon" },
 	"dragon_imperial,_sovereign,_ancient_sovereign_dragon": {
 		"name": "Dragon (Imperial, Sovereign), Ancient Sovereign Dragon",
-		"file": "monsterdisplaya7e2.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Dragon (Imperial, Sovereign), Ancient Sovereign Dragon",
@@ -17396,7 +17134,6 @@
 	"ancient_sovereign_dragon": { "copyof": "dragon_imperial,_sovereign,_ancient_sovereign_dragon" },
 	"dragon_imperial,_sovereign,_young_sovereign_dragon": {
 		"name": "Dragon (Imperial, Sovereign), Young Sovereign Dragon",
-		"file": "monsterdisplay5b9d.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Dragon (Imperial, Sovereign), Young Sovereign Dragon",
@@ -17455,7 +17192,6 @@
 	"young_sovereign_dragon": { "copyof": "dragon_imperial,_sovereign,_young_sovereign_dragon" },
 	"dragon_imperial,_underworld,_adult_underworld_dragon": {
 		"name": "Dragon (Imperial, Underworld), Adult Underworld Dragon",
-		"file": "monsterdisplayc873.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Dragon (Imperial, Underworld), Adult Underworld Dragon",
@@ -17515,7 +17251,6 @@
 	"adult_underworld_dragon": { "copyof": "dragon_imperial,_underworld,_adult_underworld_dragon" },
 	"dragon_imperial,_underworld,_ancient_underworld_dragon": {
 		"name": "Dragon (Imperial, Underworld), Ancient Underworld Dragon",
-		"file": "monsterdisplaydfed.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Dragon (Imperial, Underworld), Ancient Underworld Dragon",
@@ -17579,7 +17314,6 @@
 	"ancient_underworld_dragon": { "copyof": "dragon_imperial,_underworld,_ancient_underworld_dragon" },
 	"dragon_imperial,_underworld,_young_underworld_dragon": {
 		"name": "Dragon (Imperial, Underworld), Young Underworld Dragon",
-		"file": "monsterdisplay2046.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Dragon (Imperial, Underworld), Young Underworld Dragon",
@@ -17639,7 +17373,6 @@
 	"young_underworld_dragon": { "copyof": "dragon_imperial,_underworld,_young_underworld_dragon" },
 	"dragon_other,_faerie_dragon": {
 		"name": "Dragon (Other), Faerie Dragon",
-		"file": "monsterdisplayd468.html",
 		"sources": [
 			"Bestiary 3",
 			"Bonus Bestiary"
@@ -17710,7 +17443,6 @@
 	"faerie_dragon": { "copyof": "dragon_other,_faerie_dragon" },
 	"dragon_other,_prism_dragon": {
 		"name": "Dragon (Other), Prism Dragon",
-		"file": "monsterdisplay28c7.html",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
 			"## Dragon (Other), Prism Dragon",
@@ -17789,7 +17521,6 @@
 	"prism_dragon": { "copyof": "dragon_other,_prism_dragon" },
 	"dragon_other,_spine_dragon": {
 		"name": "Dragon (Other), Spine Dragon",
-		"file": "monsterdisplay07da.html",
 		"sources": [ "Inner Sea World Guide" ],
 		"description": [
 			"## Dragon (Other), Spine Dragon",
@@ -17856,7 +17587,6 @@
 	"spine_dragon": { "copyof": "dragon_other,_spine_dragon" },
 	"dragon_other,_tidepool_dragon": {
 		"name": "Dragon (Other), Tidepool Dragon",
-		"file": "monsterdisplay1459.html",
 		"sources": [ "Pathfinder #55: The Wormwood Mutiny" ],
 		"description": [
 			"## Dragon (Other), Tidepool Dragon",
@@ -17939,7 +17669,6 @@
 	"tidepool_dragon": { "copyof": "dragon_other,_tidepool_dragon" },
 	"dragon_outer,_lunar,_adult_lunar_dragon": {
 		"name": "Dragon (Outer, Lunar), Adult Lunar Dragon",
-		"file": "monsterdisplayb343.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Dragon (Outer, Lunar), Adult Lunar Dragon",
@@ -17999,7 +17728,6 @@
 	"adult_lunar_dragon": { "copyof": "dragon_outer,_lunar,_adult_lunar_dragon" },
 	"dragon_outer,_lunar,_ancient_lunar_dragon": {
 		"name": "Dragon (Outer, Lunar), Ancient Lunar Dragon",
-		"file": "monsterdisplayc26a.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Dragon (Outer, Lunar), Ancient Lunar Dragon",
@@ -18064,7 +17792,6 @@
 	"ancient_lunar_dragon": { "copyof": "dragon_outer,_lunar,_ancient_lunar_dragon" },
 	"dragon_outer,_lunar,_young_lunar_dragon": {
 		"name": "Dragon (Outer, Lunar), Young Lunar Dragon",
-		"file": "monsterdisplay553a.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Dragon (Outer, Lunar), Young Lunar Dragon",
@@ -18123,7 +17850,6 @@
 	"young_lunar_dragon": { "copyof": "dragon_outer,_lunar,_young_lunar_dragon" },
 	"dragon_outer,_solar,_adult_solar_dragon": {
 		"name": "Dragon (Outer, Solar), Adult Solar Dragon",
-		"file": "monsterdisplayc512.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Dragon (Outer, Solar), Adult Solar Dragon",
@@ -18183,7 +17909,6 @@
 	"adult_solar_dragon": { "copyof": "dragon_outer,_solar,_adult_solar_dragon" },
 	"dragon_outer,_solar,_ancient_solar_dragon": {
 		"name": "Dragon (Outer, Solar), Ancient Solar Dragon",
-		"file": "monsterdisplay7eb3.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Dragon (Outer, Solar), Ancient Solar Dragon",
@@ -18247,7 +17972,6 @@
 	"ancient_solar_dragon": { "copyof": "dragon_outer,_solar,_ancient_solar_dragon" },
 	"dragon_outer,_solar,_young_solar_dragon": {
 		"name": "Dragon (Outer, Solar), Young Solar Dragon",
-		"file": "monsterdisplay6f52.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Dragon (Outer, Solar), Young Solar Dragon",
@@ -18306,7 +18030,6 @@
 	"young_solar_dragon": { "copyof": "dragon_outer,_solar,_young_solar_dragon" },
 	"dragon_outer,_time,_adult_time_dragon": {
 		"name": "Dragon (Outer, Time), Adult Time Dragon",
-		"file": "monsterdisplayb97c.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Dragon (Outer, Time), Adult Time Dragon",
@@ -18367,7 +18090,6 @@
 	"adult_time_dragon": { "copyof": "dragon_outer,_time,_adult_time_dragon" },
 	"dragon_outer,_time,_ancient_time_dragon": {
 		"name": "Dragon (Outer, Time), Ancient Time Dragon",
-		"file": "monsterdisplay7c19.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Dragon (Outer, Time), Ancient Time Dragon",
@@ -18432,7 +18154,6 @@
 	"ancient_time_dragon": { "copyof": "dragon_outer,_time,_ancient_time_dragon" },
 	"dragon_outer,_time,_young_time_dragon": {
 		"name": "Dragon (Outer, Time), Young Time Dragon",
-		"file": "monsterdisplayb725.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Dragon (Outer, Time), Young Time Dragon",
@@ -18492,7 +18213,6 @@
 	"young_time_dragon": { "copyof": "dragon_outer,_time,_young_time_dragon" },
 	"dragon_outer,_void,_adult_void_dragon": {
 		"name": "Dragon (Outer, Void), Adult Void Dragon",
-		"file": "monsterdisplay4ce7.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Dragon (Outer, Void), Adult Void Dragon",
@@ -18552,7 +18272,6 @@
 	"adult_void_dragon": { "copyof": "dragon_outer,_void,_adult_void_dragon" },
 	"dragon_outer,_void,_ancient_void_dragon": {
 		"name": "Dragon (Outer, Void), Ancient Void Dragon",
-		"file": "monsterdisplay3311.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Dragon (Outer, Void), Ancient Void Dragon",
@@ -18617,7 +18336,6 @@
 	"ancient_void_dragon": { "copyof": "dragon_outer,_void,_ancient_void_dragon" },
 	"dragon_outer,_void,_young_void_dragon": {
 		"name": "Dragon (Outer, Void), Young Void Dragon",
-		"file": "monsterdisplay48bd.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Dragon (Outer, Void), Young Void Dragon",
@@ -18676,7 +18394,6 @@
 	"young_void_dragon": { "copyof": "dragon_outer,_void,_young_void_dragon" },
 	"dragon_outer,_vortex,_adult_vortex_dragon": {
 		"name": "Dragon (Outer, Vortex), Adult Vortex Dragon",
-		"file": "monsterdisplay9729.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Dragon (Outer, Vortex), Adult Vortex Dragon",
@@ -18737,7 +18454,6 @@
 	"adult_vortex_dragon": { "copyof": "dragon_outer,_vortex,_adult_vortex_dragon" },
 	"dragon_outer,_vortex,_ancient_vortex_dragon": {
 		"name": "Dragon (Outer, Vortex), Ancient Vortex Dragon",
-		"file": "monsterdisplaycb99.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Dragon (Outer, Vortex), Ancient Vortex Dragon",
@@ -18802,7 +18518,6 @@
 	"ancient_vortex_dragon": { "copyof": "dragon_outer,_vortex,_ancient_vortex_dragon" },
 	"dragon_outer,_vortex,_young_vortex_dragon": {
 		"name": "Dragon (Outer, Vortex), Young Vortex Dragon",
-		"file": "monsterdisplaya276.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Dragon (Outer, Vortex), Young Vortex Dragon",
@@ -18862,7 +18577,6 @@
 	"young_vortex_dragon": { "copyof": "dragon_outer,_vortex,_young_vortex_dragon" },
 	"dragon_planar,_apocalypse,_adult_apocalypse_dragon": {
 		"name": "Dragon (Planar, Apocalypse), Adult Apocalypse Dragon",
-		"file": "monsterdisplayc486.html",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"## Dragon (Planar, Apocalypse), Adult Apocalypse Dragon",
@@ -18916,7 +18630,6 @@
 	"adult_apocalypse_dragon": { "copyof": "dragon_planar,_apocalypse,_adult_apocalypse_dragon" },
 	"dragon_planar,_apocalypse,_ancient_apocalypse_dragon": {
 		"name": "Dragon (Planar, Apocalypse), Ancient Apocalypse Dragon",
-		"file": "monsterdisplay272a.html",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"## Dragon (Planar, Apocalypse), Ancient Apocalypse Dragon",
@@ -18974,7 +18687,6 @@
 	"ancient_apocalypse_dragon": { "copyof": "dragon_planar,_apocalypse,_ancient_apocalypse_dragon" },
 	"dragon_planar,_apocalypse,_young_apocalypse_dragon": {
 		"name": "Dragon (Planar, Apocalypse), Young Apocalypse Dragon",
-		"file": "monsterdisplay3755.html",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"## Dragon (Planar, Apocalypse), Young Apocalypse Dragon",
@@ -19024,7 +18736,6 @@
 	"young_apocalypse_dragon": { "copyof": "dragon_planar,_apocalypse,_young_apocalypse_dragon" },
 	"dragon_planar,_bliss,_adult_bliss_dragon": {
 		"name": "Dragon (Planar, Bliss), Adult Bliss Dragon",
-		"file": "monsterdisplay5f09.html",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"## Dragon (Planar, Bliss), Adult Bliss Dragon",
@@ -19078,7 +18789,6 @@
 	"adult_bliss_dragon": { "copyof": "dragon_planar,_bliss,_adult_bliss_dragon" },
 	"dragon_planar,_bliss,_ancient_bliss_dragon": {
 		"name": "Dragon (Planar, Bliss), Ancient Bliss Dragon",
-		"file": "monsterdisplay138b.html",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"## Dragon (Planar, Bliss), Ancient Bliss Dragon",
@@ -19136,7 +18846,6 @@
 	"ancient_bliss_dragon": { "copyof": "dragon_planar,_bliss,_ancient_bliss_dragon" },
 	"dragon_planar,_bliss,_young_bliss_dragon": {
 		"name": "Dragon (Planar, Bliss), Young Bliss Dragon",
-		"file": "monsterdisplay7c34.html",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"## Dragon (Planar, Bliss), Young Bliss Dragon",
@@ -19187,7 +18896,6 @@
 	"young_bliss_dragon": { "copyof": "dragon_planar,_bliss,_young_bliss_dragon" },
 	"dragon_planar,_crypt,_adult_crypt_dragon": {
 		"name": "Dragon (Planar, Crypt), Adult Crypt Dragon",
-		"file": "monsterdisplay18db.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Dragon (Planar, Crypt), Adult Crypt Dragon",
@@ -19247,7 +18955,6 @@
 	"adult_crypt_dragon": { "copyof": "dragon_planar,_crypt,_adult_crypt_dragon" },
 	"dragon_planar,_crypt,_ancient_crypt_dragon": {
 		"name": "Dragon (Planar, Crypt), Ancient Crypt Dragon",
-		"file": "monsterdisplayef4d.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Dragon (Planar, Crypt), Ancient Crypt Dragon",
@@ -19311,7 +19018,6 @@
 	"ancient_crypt_dragon": { "copyof": "dragon_planar,_crypt,_ancient_crypt_dragon" },
 	"dragon_planar,_crypt,_young_crypt_dragon": {
 		"name": "Dragon (Planar, Crypt), Young Crypt Dragon",
-		"file": "monsterdisplay4e98.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Dragon (Planar, Crypt), Young Crypt Dragon",
@@ -19368,7 +19074,6 @@
 	"young_crypt_dragon": { "copyof": "dragon_planar,_crypt,_young_crypt_dragon" },
 	"dragon_planar,_edict,_adult_edict_dragon": {
 		"name": "Dragon (Planar, Edict), Adult Edict Dragon",
-		"file": "monsterdisplaye560.html",
 		"sources": [ "Pathfinder #131: The Reaper's Right Hand" ],
 		"description": [
 			"## Dragon (Planar, Edict), Adult Edict Dragon",
@@ -19426,7 +19131,6 @@
 	"adult_edict_dragon": { "copyof": "dragon_planar,_edict,_adult_edict_dragon" },
 	"dragon_planar,_edict,_ancient_edict_dragon": {
 		"name": "Dragon (Planar, Edict), Ancient Edict Dragon",
-		"file": "monsterdisplay4fb2.html",
 		"sources": [ "Pathfinder #131: The Reaper's Right Hand" ],
 		"description": [
 			"## Dragon (Planar, Edict), Ancient Edict Dragon",
@@ -19488,7 +19192,6 @@
 	"ancient_edict_dragon": { "copyof": "dragon_planar,_edict,_ancient_edict_dragon" },
 	"dragon_planar,_edict,_young_edict_dragon": {
 		"name": "Dragon (Planar, Edict), Young Edict Dragon",
-		"file": "monsterdisplay8663.html",
 		"sources": [ "Pathfinder #131: The Reaper's Right Hand" ],
 		"description": [
 			"## Dragon (Planar, Edict), Young Edict Dragon",
@@ -19542,7 +19245,6 @@
 	"young_edict_dragon": { "copyof": "dragon_planar,_edict,_young_edict_dragon" },
 	"dragon_planar,_havoc,_adult_havoc_dragon": {
 		"name": "Dragon (Planar, Havoc), Adult Havoc Dragon",
-		"file": "monsterdisplay29b1.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Dragon (Planar, Havoc), Adult Havoc Dragon",
@@ -19602,7 +19304,6 @@
 	"adult_havoc_dragon": { "copyof": "dragon_planar,_havoc,_adult_havoc_dragon" },
 	"dragon_planar,_havoc,_ancient_havoc_dragon": {
 		"name": "Dragon (Planar, Havoc), Ancient Havoc Dragon",
-		"file": "monsterdisplayff26.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Dragon (Planar, Havoc), Ancient Havoc Dragon",
@@ -19666,7 +19367,6 @@
 	"ancient_havoc_dragon": { "copyof": "dragon_planar,_havoc,_ancient_havoc_dragon" },
 	"dragon_planar,_havoc,_young_havoc_dragon": {
 		"name": "Dragon (Planar, Havoc), Young Havoc Dragon",
-		"file": "monsterdisplay5675.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Dragon (Planar, Havoc), Young Havoc Dragon",
@@ -19723,7 +19423,6 @@
 	"young_havoc_dragon": { "copyof": "dragon_planar,_havoc,_young_havoc_dragon" },
 	"dragon_planar,_infernal,_adult_infernal_dragon": {
 		"name": "Dragon (Planar, Infernal), Adult Infernal Dragon",
-		"file": "monsterdisplay45fd.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Dragon (Planar, Infernal), Adult Infernal Dragon",
@@ -19783,7 +19482,6 @@
 	"adult_infernal_dragon": { "copyof": "dragon_planar,_infernal,_adult_infernal_dragon" },
 	"dragon_planar,_infernal,_ancient_infernal_dragon": {
 		"name": "Dragon (Planar, Infernal), Ancient Infernal Dragon",
-		"file": "monsterdisplaye2f4.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Dragon (Planar, Infernal), Ancient Infernal Dragon",
@@ -19849,7 +19547,6 @@
 	"ancient_infernal_dragon": { "copyof": "dragon_planar,_infernal,_ancient_infernal_dragon" },
 	"dragon_planar,_infernal,_young_infernal_dragon": {
 		"name": "Dragon (Planar, Infernal), Young Infernal Dragon",
-		"file": "monsterdisplay7f59.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Dragon (Planar, Infernal), Young Infernal Dragon",
@@ -19905,7 +19602,6 @@
 	"young_infernal_dragon": { "copyof": "dragon_planar,_infernal,_young_infernal_dragon" },
 	"dragon_planar,_paradise,_adult_paradise_dragon": {
 		"name": "Dragon (Planar, Paradise), Adult Paradise Dragon",
-		"file": "monsterdisplaycaf4.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Dragon (Planar, Paradise), Adult Paradise Dragon",
@@ -19965,7 +19661,6 @@
 	"adult_paradise_dragon": { "copyof": "dragon_planar,_paradise,_adult_paradise_dragon" },
 	"dragon_planar,_paradise,_ancient_paradise_dragon": {
 		"name": "Dragon (Planar, Paradise), Ancient Paradise Dragon",
-		"file": "monsterdisplay7981.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Dragon (Planar, Paradise), Ancient Paradise Dragon",
@@ -20029,7 +19724,6 @@
 	"ancient_paradise_dragon": { "copyof": "dragon_planar,_paradise,_ancient_paradise_dragon" },
 	"dragon_planar,_paradise,_young_paradise_dragon": {
 		"name": "Dragon (Planar, Paradise), Young Paradise Dragon",
-		"file": "monsterdisplay1443.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Dragon (Planar, Paradise), Young Paradise Dragon",
@@ -20086,7 +19780,6 @@
 	"young_paradise_dragon": { "copyof": "dragon_planar,_paradise,_young_paradise_dragon" },
 	"dragon_planar,_rift,_adult_rift_dragon": {
 		"name": "Dragon (Planar, Rift), Adult Rift Dragon",
-		"file": "monsterdisplay6b51.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Dragon (Planar, Rift), Adult Rift Dragon",
@@ -20146,7 +19839,6 @@
 	"adult_rift_dragon": { "copyof": "dragon_planar,_rift,_adult_rift_dragon" },
 	"dragon_planar,_rift,_ancient_rift_dragon": {
 		"name": "Dragon (Planar, Rift), Ancient Rift Dragon",
-		"file": "monsterdisplay512b.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Dragon (Planar, Rift), Ancient Rift Dragon",
@@ -20210,7 +19902,6 @@
 	"ancient_rift_dragon": { "copyof": "dragon_planar,_rift,_ancient_rift_dragon" },
 	"dragon_planar,_rift,_young_rift_dragon": {
 		"name": "Dragon (Planar, Rift), Young Rift Dragon",
-		"file": "monsterdisplayca28.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Dragon (Planar, Rift), Young Rift Dragon",
@@ -20266,7 +19957,6 @@
 	"young_rift_dragon": { "copyof": "dragon_planar,_rift,_young_rift_dragon" },
 	"dragon_planar,_tumult,_adult_tumult_dragon": {
 		"name": "Dragon (Planar, Tumult), Adult Tumult Dragon",
-		"file": "monsterdisplay430a.html",
 		"sources": [ "Pathfinder #138: Rise of New Thassilon" ],
 		"description": [
 			"## Dragon (Planar, Tumult), Adult Tumult Dragon",
@@ -20320,7 +20010,6 @@
 	"adult_tumult_dragon": { "copyof": "dragon_planar,_tumult,_adult_tumult_dragon" },
 	"dragon_planar,_tumult,_ancient_tumult_dragon": {
 		"name": "Dragon (Planar, Tumult), Ancient Tumult Dragon",
-		"file": "monsterdisplayf1b5-2.html",
 		"sources": [ "Pathfinder #138: Rise of New Thassilon" ],
 		"description": [
 			"## Dragon (Planar, Tumult), Ancient Tumult Dragon",
@@ -20378,7 +20067,6 @@
 	"ancient_tumult_dragon": { "copyof": "dragon_planar,_tumult,_ancient_tumult_dragon" },
 	"dragon_planar,_tumult,_young_tumult_dragon": {
 		"name": "Dragon (Planar, Tumult), Young Tumult Dragon",
-		"file": "monsterdisplayd748.html",
 		"sources": [ "Pathfinder #138: Rise of New Thassilon" ],
 		"description": [
 			"## Dragon (Planar, Tumult), Young Tumult Dragon",
@@ -20428,7 +20116,6 @@
 	"young_tumult_dragon": { "copyof": "dragon_planar,_tumult,_young_tumult_dragon" },
 	"dragon_primal,_brine,_adult_brine_dragon": {
 		"name": "Dragon (Primal, Brine), Adult Brine Dragon",
-		"file": "monsterdisplay82de.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Dragon (Primal, Brine), Adult Brine Dragon",
@@ -20488,7 +20175,6 @@
 	"adult_brine_dragon": { "copyof": "dragon_primal,_brine,_adult_brine_dragon" },
 	"dragon_primal,_brine,_ancient_brine_dragon": {
 		"name": "Dragon (Primal, Brine), Ancient Brine Dragon",
-		"file": "monsterdisplay2caa.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Dragon (Primal, Brine), Ancient Brine Dragon",
@@ -20553,7 +20239,6 @@
 	"ancient_brine_dragon": { "copyof": "dragon_primal,_brine,_ancient_brine_dragon" },
 	"dragon_primal,_brine,_young_brine_dragon": {
 		"name": "Dragon (Primal, Brine), Young Brine Dragon",
-		"file": "monsterdisplayc8a5.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Dragon (Primal, Brine), Young Brine Dragon",
@@ -20611,7 +20296,6 @@
 	"young_brine_dragon": { "copyof": "dragon_primal,_brine,_young_brine_dragon" },
 	"dragon_primal,_cloud,_adult_cloud_dragon": {
 		"name": "Dragon (Primal, Cloud), Adult Cloud Dragon",
-		"file": "monsterdisplay9d72.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Dragon (Primal, Cloud), Adult Cloud Dragon",
@@ -20670,7 +20354,6 @@
 	"adult_cloud_dragon": { "copyof": "dragon_primal,_cloud,_adult_cloud_dragon" },
 	"dragon_primal,_cloud,_ancient_cloud_dragon": {
 		"name": "Dragon (Primal, Cloud), Ancient Cloud Dragon",
-		"file": "monsterdisplay9466.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Dragon (Primal, Cloud), Ancient Cloud Dragon",
@@ -20734,7 +20417,6 @@
 	"ancient_cloud_dragon": { "copyof": "dragon_primal,_cloud,_ancient_cloud_dragon" },
 	"dragon_primal,_cloud,_young_cloud_dragon": {
 		"name": "Dragon (Primal, Cloud), Young Cloud Dragon",
-		"file": "monsterdisplay8f30.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Dragon (Primal, Cloud), Young Cloud Dragon",
@@ -20788,7 +20470,6 @@
 	"young_cloud_dragon": { "copyof": "dragon_primal,_cloud,_young_cloud_dragon" },
 	"dragon_primal,_crystal,_adult_crystal_dragon": {
 		"name": "Dragon (Primal, Crystal), Adult Crystal Dragon",
-		"file": "monsterdisplay3ce3.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Dragon (Primal, Crystal), Adult Crystal Dragon",
@@ -20848,7 +20529,6 @@
 	"adult_crystal_dragon": { "copyof": "dragon_primal,_crystal,_adult_crystal_dragon" },
 	"dragon_primal,_crystal,_ancient_crystal_dragon": {
 		"name": "Dragon (Primal, Crystal), Ancient Crystal Dragon",
-		"file": "monsterdisplay2f0e.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Dragon (Primal, Crystal), Ancient Crystal Dragon",
@@ -20912,7 +20592,6 @@
 	"ancient_crystal_dragon": { "copyof": "dragon_primal,_crystal,_ancient_crystal_dragon" },
 	"dragon_primal,_crystal,_young_crystal_dragon": {
 		"name": "Dragon (Primal, Crystal), Young Crystal Dragon",
-		"file": "monsterdisplay67db.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Dragon (Primal, Crystal), Young Crystal Dragon",
@@ -20970,7 +20649,6 @@
 	"young_crystal_dragon": { "copyof": "dragon_primal,_crystal,_young_crystal_dragon" },
 	"dragon_primal,_magma,_adult_magma_dragon": {
 		"name": "Dragon (Primal, Magma), Adult Magma Dragon",
-		"file": "monsterdisplaye455.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Dragon (Primal, Magma), Adult Magma Dragon",
@@ -21031,7 +20709,6 @@
 	"adult_magma_dragon": { "copyof": "dragon_primal,_magma,_adult_magma_dragon" },
 	"dragon_primal,_magma,_ancient_magma_dragon": {
 		"name": "Dragon (Primal, Magma), Ancient Magma Dragon",
-		"file": "monsterdisplay4172.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Dragon (Primal, Magma), Ancient Magma Dragon",
@@ -21098,7 +20775,6 @@
 	"ancient_magma_dragon": { "copyof": "dragon_primal,_magma,_ancient_magma_dragon" },
 	"dragon_primal,_magma,_young_magma_dragon": {
 		"name": "Dragon (Primal, Magma), Young Magma Dragon",
-		"file": "monsterdisplay5d93.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Dragon (Primal, Magma), Young Magma Dragon",
@@ -21157,7 +20833,6 @@
 	"young_magma_dragon": { "copyof": "dragon_primal,_magma,_young_magma_dragon" },
 	"dragon_primal,_umbral,_adult_umbral_dragon": {
 		"name": "Dragon (Primal, Umbral), Adult Umbral Dragon",
-		"file": "monsterdisplay4ee3.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Dragon (Primal, Umbral), Adult Umbral Dragon",
@@ -21217,7 +20892,6 @@
 	"adult_umbral_dragon": { "copyof": "dragon_primal,_umbral,_adult_umbral_dragon" },
 	"dragon_primal,_umbral,_ancient_umbral_dragon": {
 		"name": "Dragon (Primal, Umbral), Ancient Umbral Dragon",
-		"file": "monsterdisplay8d93.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Dragon (Primal, Umbral), Ancient Umbral Dragon",
@@ -21282,7 +20956,6 @@
 	"ancient_umbral_dragon": { "copyof": "dragon_primal,_umbral,_ancient_umbral_dragon" },
 	"dragon_primal,_umbral,_young_umbral_dragon": {
 		"name": "Dragon (Primal, Umbral), Young Umbral Dragon",
-		"file": "monsterdisplay77a9.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Dragon (Primal, Umbral), Young Umbral Dragon",
@@ -21341,7 +21014,6 @@
 	"young_umbral_dragon": { "copyof": "dragon_primal,_umbral,_young_umbral_dragon" },
 	"dragon_red,_adult_red_dragon": {
 		"name": "Dragon (Red), Adult Red Dragon",
-		"file": "monsterdisplay8bc6.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Red), Adult Red Dragon",
@@ -21401,7 +21073,6 @@
 	"adult_red_dragon": { "copyof": "dragon_red,_adult_red_dragon" },
 	"dragon_red,_ancient_red_dragon": {
 		"name": "Dragon (Red), Ancient Red Dragon",
-		"file": "monsterdisplay01bb.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Red), Ancient Red Dragon",
@@ -21464,7 +21135,6 @@
 	"ancient_red_dragon": { "copyof": "dragon_red,_ancient_red_dragon" },
 	"dragon_red,_young_red_dragon": {
 		"name": "Dragon (Red), Young Red Dragon",
-		"file": "monsterdisplay7d96.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Red), Young Red Dragon",
@@ -21523,7 +21193,6 @@
 	"young_red_dragon": { "copyof": "dragon_red,_young_red_dragon" },
 	"dragon_silver,_adult_silver_dragon": {
 		"name": "Dragon (Silver), Adult Silver Dragon",
-		"file": "monsterdisplay1104.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Silver), Adult Silver Dragon",
@@ -21584,7 +21253,6 @@
 	"adult_silver_dragon": { "copyof": "dragon_silver,_adult_silver_dragon" },
 	"dragon_silver,_ancient_silver_dragon": {
 		"name": "Dragon (Silver), Ancient Silver Dragon",
-		"file": "monsterdisplay2c26.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Silver), Ancient Silver Dragon",
@@ -21649,7 +21317,6 @@
 	"ancient_silver_dragon": { "copyof": "dragon_silver,_ancient_silver_dragon" },
 	"dragon_silver,_young_silver_dragon": {
 		"name": "Dragon (Silver), Young Silver Dragon",
-		"file": "monsterdisplayae46.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (Silver), Young Silver Dragon",
@@ -21709,7 +21376,6 @@
 	"young_silver_dragon": { "copyof": "dragon_silver,_young_silver_dragon" },
 	"dragon_white,_adult_white_dragon": {
 		"name": "Dragon (White), Adult White Dragon",
-		"file": "monsterdisplay5801.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (White), Adult White Dragon",
@@ -21768,7 +21434,6 @@
 	"adult_white_dragon": { "copyof": "dragon_white,_adult_white_dragon" },
 	"dragon_white,_ancient_white_dragon": {
 		"name": "Dragon (White), Ancient White Dragon",
-		"file": "monsterdisplay3018.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (White), Ancient White Dragon",
@@ -21830,7 +21495,6 @@
 	"ancient_white_dragon": { "copyof": "dragon_white,_ancient_white_dragon" },
 	"dragon_white,_young_white_dragon": {
 		"name": "Dragon (White), Young White Dragon",
-		"file": "monsterdisplayc74a.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon (White), Young White Dragon",
@@ -21885,7 +21549,6 @@
 	"young_white_dragon": { "copyof": "dragon_white,_young_white_dragon" },
 	"dragon_horse": {
 		"name": "Dragon Horse",
-		"file": "monsterdisplay5bb2.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Dragon Horse",
@@ -21951,7 +21614,6 @@
 	},
 	"dragon_turtle": {
 		"name": "Dragon Turtle",
-		"file": "monsterdisplay5c2b.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dragon Turtle",
@@ -22013,7 +21675,6 @@
 	},
 	"dragonkin": {
 		"name": "Dragonkin",
-		"file": "monsterdisplayf5f5.html",
 		"sources": [
 			"Bestiary 5",
 			"Distant Worlds"
@@ -22075,7 +21736,6 @@
 	},
 	"dragonne": {
 		"name": "Dragonne",
-		"file": "monsterdisplay619a.html",
 		"sources": [
 			"Bestiary 3",
 			"Bonus Bestiary"
@@ -22139,7 +21799,6 @@
 	},
 	"drake,_desert_drake": {
 		"name": "Drake, Desert Drake",
-		"file": "monsterdisplay4811.html",
 		"sources": [
 			"Bestiary 3",
 			"Bestiary 2"
@@ -22208,7 +21867,6 @@
 	"desert_drake": { "copyof": "drake,_desert_drake" },
 	"drake,_ether_drake": {
 		"name": "Drake, Ether Drake",
-		"file": "monsterdisplayc137.html",
 		"sources": [
 			"Bestiary 5",
 			"Bestiary 2"
@@ -22277,7 +21935,6 @@
 	"ether_drake": { "copyof": "drake,_ether_drake" },
 	"drake,_flame_drake": {
 		"name": "Drake, Flame Drake",
-		"file": "monsterdisplaye1e7.html",
 		"sources": [
 			"Bestiary 2",
 			"Conquest of Bloodsworn Vale"
@@ -22344,7 +22001,6 @@
 	"flame_drake": { "copyof": "drake,_flame_drake" },
 	"drake,_forest_drake": {
 		"name": "Drake, Forest Drake",
-		"file": "monsterdisplay635f.html",
 		"sources": [
 			"Bestiary 2",
 			"Pathfinder #15: The Armageddon Echo"
@@ -22415,7 +22071,6 @@
 	"forest_drake": { "copyof": "drake,_forest_drake" },
 	"drake,_frost_drake": {
 		"name": "Drake, Frost Drake",
-		"file": "monsterdisplay995d.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Drake, Frost Drake",
@@ -22482,7 +22137,6 @@
 	"frost_drake": { "copyof": "drake,_frost_drake" },
 	"drake,_jungle_drake": {
 		"name": "Drake, Jungle Drake",
-		"file": "monsterdisplayc1ff.html",
 		"sources": [
 			"Bestiary 5",
 			"Bestiary 2"
@@ -22553,7 +22207,6 @@
 	"jungle_drake": { "copyof": "drake,_jungle_drake" },
 	"drake,_lava_drake": {
 		"name": "Drake, Lava Drake",
-		"file": "monsterdisplay1fab.html",
 		"sources": [
 			"Bestiary 4",
 			"Bestiary 2"
@@ -22621,7 +22274,6 @@
 	"lava_drake": { "copyof": "drake,_lava_drake" },
 	"drake,_mist_drake": {
 		"name": "Drake, Mist Drake",
-		"file": "monsterdisplay6000.html",
 		"sources": [
 			"Bestiary 4",
 			"Bestiary 2"
@@ -22692,7 +22344,6 @@
 	"mist_drake": { "copyof": "drake,_mist_drake" },
 	"drake,_rift_drake": {
 		"name": "Drake, Rift Drake",
-		"file": "monsterdisplaya00a.html",
 		"sources": [
 			"Bestiary 3",
 			"Bestiary 2"
@@ -22761,7 +22412,6 @@
 	"rift_drake": { "copyof": "drake,_rift_drake" },
 	"drake,_river_drake": {
 		"name": "Drake, River Drake",
-		"file": "monsterdisplayf3eb.html",
 		"sources": [
 			"Bestiary 3",
 			"Bestiary 2"
@@ -22831,7 +22481,6 @@
 	"river_drake": { "copyof": "drake,_river_drake" },
 	"drake,_sea_drake": {
 		"name": "Drake, Sea Drake",
-		"file": "monsterdisplaybe93.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Drake, Sea Drake",
@@ -22897,7 +22546,6 @@
 	"sea_drake": { "copyof": "drake,_sea_drake" },
 	"drake,_shadow_drake": {
 		"name": "Drake, Shadow Drake",
-		"file": "monsterdisplay1acf.html",
 		"sources": [
 			"Bestiary 4",
 			"Bestiary 2"
@@ -22967,7 +22615,6 @@
 	"shadow_drake": { "copyof": "drake,_shadow_drake" },
 	"drake,_spire_drake": {
 		"name": "Drake, Spire Drake",
-		"file": "monsterdisplay5c7e.html",
 		"sources": [
 			"Bestiary 4",
 			"Bestiary 2"
@@ -23038,7 +22685,6 @@
 	"spire_drake": { "copyof": "drake,_spire_drake" },
 	"draugr": {
 		"name": "Draugr",
-		"file": "monsterdisplay9e1d.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Draugr",
@@ -23098,7 +22744,6 @@
 	},
 	"drekavac": {
 		"name": "Drekavac",
-		"file": "monsterdisplay61c1.html",
 		"sources": [ "Pathfinder #31: Stolen Land" ],
 		"description": [
 			"## Drekavac",
@@ -23171,7 +22816,6 @@
 	},
 	"drocha_swarm": {
 		"name": "Drocha Swarm",
-		"file": "monsterdisplay09fa.html",
 		"sources": [ "Pathfinder #75: Demon's Heresy" ],
 		"description": [
 			"## Drocha Swarm",
@@ -23244,7 +22888,6 @@
 	},
 	"drochtac": {
 		"name": "Drochtac",
-		"file": "monsterdisplaybedc.html",
 		"sources": [ "Gallows of Madness" ],
 		"description": [
 			"## Drochtac",
@@ -23306,7 +22949,6 @@
 	},
 	"drow": {
 		"name": "Drow",
-		"file": "monsterdisplayde00.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Drow",
@@ -23370,7 +23012,6 @@
 	},
 	"drow,_drow_demonic_champion": {
 		"name": "Drow, Drow Demonic Champion",
-		"file": "monsterdisplay8cde.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Drow, Drow Demonic Champion",
@@ -23437,7 +23078,6 @@
 	"drow_demonic_champion": { "copyof": "drow,_drow_demonic_champion" },
 	"drow,_drow_house_captain": {
 		"name": "Drow, Drow House Captain",
-		"file": "monsterdisplay2d2d.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Drow, Drow House Captain",
@@ -23492,7 +23132,6 @@
 	"drow_house_captain": { "copyof": "drow,_drow_house_captain" },
 	"drow,_drow_house_guard": {
 		"name": "Drow, Drow House Guard",
-		"file": "monsterdisplayed88.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Drow, Drow House Guard",
@@ -23550,7 +23189,6 @@
 	"drow_house_guard": { "copyof": "drow,_drow_house_guard" },
 	"drow,_drow_master_scout": {
 		"name": "Drow, Drow Master Scout",
-		"file": "monsterdisplay2a89.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Drow, Drow Master Scout",
@@ -23609,7 +23247,6 @@
 	"drow_master_scout": { "copyof": "drow,_drow_master_scout" },
 	"drow,_drow_matron": {
 		"name": "Drow, Drow Matron",
-		"file": "monsterdisplay2858.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Drow, Drow Matron",
@@ -23679,7 +23316,6 @@
 	"drow_matron": { "copyof": "drow,_drow_matron" },
 	"drow,_drow_noble": {
 		"name": "Drow, Drow Noble",
-		"file": "monsterdisplay6b50.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Drow, Drow Noble",
@@ -23747,7 +23383,6 @@
 	"drow_noble": { "copyof": "drow,_drow_noble" },
 	"drow,_drow_poisoner": {
 		"name": "Drow, Drow Poisoner",
-		"file": "monsterdisplay2478.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Drow, Drow Poisoner",
@@ -23812,7 +23447,6 @@
 	"drow_poisoner": { "copyof": "drow,_drow_poisoner" },
 	"drow,_drow_priest": {
 		"name": "Drow, Drow Priest",
-		"file": "monsterdisplayb7cd.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Drow, Drow Priest",
@@ -23882,7 +23516,6 @@
 	"drow_priest": { "copyof": "drow,_drow_priest" },
 	"drow,_drow_scout": {
 		"name": "Drow, Drow Scout",
-		"file": "monsterdisplayd06b.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Drow, Drow Scout",
@@ -23937,7 +23570,6 @@
 	"drow_scout": { "copyof": "drow,_drow_scout" },
 	"dryad": {
 		"name": "Dryad",
-		"file": "monsterdisplayb6e2.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Dryad",
@@ -24005,7 +23637,6 @@
 	},
 	"duergar": {
 		"name": "Duergar",
-		"file": "monsterdisplay6677.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Duergar",
@@ -24063,7 +23694,6 @@
 	},
 	"duergar,_duergar_anvil": {
 		"name": "Duergar, Duergar Anvil",
-		"file": "monsterdisplayd253-2.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Duergar, Duergar Anvil",
@@ -24114,7 +23744,6 @@
 	"duergar_anvil": { "copyof": "duergar,_duergar_anvil" },
 	"duergar,_duergar_bombardier": {
 		"name": "Duergar, Duergar Bombardier",
-		"file": "monsterdisplay5b0e.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Duergar, Duergar Bombardier",
@@ -24177,7 +23806,6 @@
 	"duergar_bombardier": { "copyof": "duergar,_duergar_bombardier" },
 	"duergar,_duergar_captain": {
 		"name": "Duergar, Duergar Captain",
-		"file": "monsterdisplay02f4.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Duergar, Duergar Captain",
@@ -24230,7 +23858,6 @@
 	"duergar_captain": { "copyof": "duergar,_duergar_captain" },
 	"duergar,_duergar_hammer": {
 		"name": "Duergar, Duergar Hammer",
-		"file": "monsterdisplayed25.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Duergar, Duergar Hammer",
@@ -24283,7 +23910,6 @@
 	"duergar_hammer": { "copyof": "duergar,_duergar_hammer" },
 	"duergar,_duergar_high_priest": {
 		"name": "Duergar, Duergar High Priest",
-		"file": "monsterdisplay4d97.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Duergar, Duergar High Priest",
@@ -24355,7 +23981,6 @@
 	"duergar_high_priest": { "copyof": "duergar,_duergar_high_priest" },
 	"duergar,_duergar_lieutenant": {
 		"name": "Duergar, Duergar Lieutenant",
-		"file": "monsterdisplay06e2-2.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Duergar, Duergar Lieutenant",
@@ -24415,7 +24040,6 @@
 	"duergar_lieutenant": { "copyof": "duergar,_duergar_lieutenant" },
 	"duergar,_duergar_sergeant": {
 		"name": "Duergar, Duergar Sergeant",
-		"file": "monsterdisplay3358.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Duergar, Duergar Sergeant",
@@ -24467,7 +24091,6 @@
 	"duergar_sergeant": { "copyof": "duergar,_duergar_sergeant" },
 	"duergar,_duergar_sharpshooter": {
 		"name": "Duergar, Duergar Sharpshooter",
-		"file": "monsterdisplayc691.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Duergar, Duergar Sharpshooter",
@@ -24520,7 +24143,6 @@
 	"duergar_sharpshooter": { "copyof": "duergar,_duergar_sharpshooter" },
 	"duergar,_duergar_slaver": {
 		"name": "Duergar, Duergar Slaver",
-		"file": "monsterdisplay66a2.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Duergar, Duergar Slaver",
@@ -24573,7 +24195,6 @@
 	"duergar_slaver": { "copyof": "duergar,_duergar_slaver" },
 	"duergar,_duergar_taskmaster": {
 		"name": "Duergar, Duergar Taskmaster",
-		"file": "monsterdisplaye722.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Duergar, Duergar Taskmaster",
@@ -24629,7 +24250,6 @@
 	"duergar_taskmaster": { "copyof": "duergar,_duergar_taskmaster" },
 	"duergar,_duergar_tyrant": {
 		"name": "Duergar, Duergar Tyrant",
-		"file": "monsterdisplay087a.html",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
 			"## Duergar, Duergar Tyrant",
@@ -24695,7 +24315,6 @@
 	"duergar_tyrant": { "copyof": "duergar,_duergar_tyrant" },
 	"dullahan": {
 		"name": "Dullahan",
-		"file": "monsterdisplayac05.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Dullahan",
@@ -24755,7 +24374,6 @@
 	},
 	"duneshaker": {
 		"name": "Duneshaker",
-		"file": "monsterdisplay25d3.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Duneshaker",
@@ -24809,7 +24427,6 @@
 	},
 	"duppy": {
 		"name": "Duppy",
-		"file": "monsterdisplayd354.html",
 		"sources": [
 			"Bestiary 5",
 			"Isles of the Shackles"
@@ -24875,7 +24492,6 @@
 	},
 	"duskwalker": {
 		"name": "Duskwalker",
-		"file": "monsterdisplay41f7.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Duskwalker",
@@ -24947,7 +24563,6 @@
 	},
 	"dust_digger": {
 		"name": "Dust Digger",
-		"file": "monsterdisplaydcee.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Dust Digger",
@@ -25003,7 +24618,6 @@
 	},
 	"dweomercat": {
 		"name": "Dweomercat",
-		"file": "monsterdisplay2078.html",
 		"sources": [ "Pathfinder #36: Sound of a Thousand Screams" ],
 		"description": [
 			"## Dweomercat",
@@ -25076,7 +24690,6 @@
 	},
 	"dweomercat,_dweomercat_cub": {
 		"name": "Dweomercat, Dweomercat Cub",
-		"file": "monsterdisplay81c0.html",
 		"sources": [ "Pathfinder #36: Sound of a Thousand Screams" ],
 		"description": [
 			"## Dweomercat, Dweomercat Cub",
@@ -25139,7 +24752,6 @@
 	"dweomercat_cub": { "copyof": "dweomercat,_dweomercat_cub" },
 	"dwiergeth": {
 		"name": "Dwiergeth",
-		"file": "monsterdisplayfe57.html",
 		"sources": [
 			"Bestiary 5",
 			"The Worldwound"
@@ -25202,7 +24814,6 @@
 	},
 	"dybbuk": {
 		"name": "Dybbuk",
-		"file": "monsterdisplay83a5.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Dybbuk",
@@ -25263,7 +24874,6 @@
 	},
 	"eagle": {
 		"name": "Eagle",
-		"file": "monsterdisplay374c.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Eagle",
@@ -25315,7 +24925,6 @@
 	},
 	"eagle,_giant_eagle": {
 		"name": "Eagle, Giant Eagle",
-		"file": "monsterdisplay6521.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Eagle, Giant Eagle",
@@ -25367,7 +24976,6 @@
 	"giant_eagle": { "copyof": "eagle,_giant_eagle" },
 	"eaisge": {
 		"name": "Eaisge",
-		"file": "monsterdisplay6bd7.html",
 		"sources": [ "Ire of the Storm" ],
 		"description": [
 			"## Eaisge",
@@ -25427,7 +25035,6 @@
 	},
 	"ebon_acolytus": {
 		"name": "Ebon Acolytus",
-		"file": "monsterdisplaybe9b.html",
 		"sources": [ "Pathfinder #30: The Twice-Damned Prince" ],
 		"description": [
 			"## Ebon Acolytus",
@@ -25488,7 +25095,6 @@
 	},
 	"echeneis": {
 		"name": "Echeneis",
-		"file": "monsterdisplay4560.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Echeneis",
@@ -25545,7 +25151,6 @@
 	},
 	"ecorche": {
 		"name": "Ecorche",
-		"file": "monsterdisplayd398.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Ecorche",
@@ -25605,7 +25210,6 @@
 	},
 	"eel,_electric_eel": {
 		"name": "Eel, Electric Eel",
-		"file": "monsterdisplayb17f.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Eel, Electric Eel",
@@ -25657,7 +25261,6 @@
 	"electric_eel": { "copyof": "eel,_electric_eel" },
 	"eel,_giant_moray_eel": {
 		"name": "Eel, Giant Moray Eel",
-		"file": "monsterdisplaya21a.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Eel, Giant Moray Eel",
@@ -25710,7 +25313,6 @@
 	"giant_moray_eel": { "copyof": "eel,_giant_moray_eel" },
 	"egophage": {
 		"name": "Egophage",
-		"file": "monsterdisplaya73e.html",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
 			"## Egophage",
@@ -25771,7 +25373,6 @@
 	},
 	"egregore": {
 		"name": "Egregore",
-		"file": "monsterdisplay9957.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Egregore",
@@ -25860,7 +25461,6 @@
 	},
 	"eidolon,_unfettered": {
 		"name": "Eidolon, Unfettered",
-		"file": "monsterdisplayc13f.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"## Eidolon, Unfettered",
@@ -25933,7 +25533,6 @@
 	"unfettered_eidolon": { "copyof": "eidolon,_unfettered" },
 	"einherji": {
 		"name": "Einherji",
-		"file": "monsterdisplay33c2-2.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Einherji",
@@ -26001,7 +25600,6 @@
 	},
 	"ekekeh": {
 		"name": "Ekekeh",
-		"file": "monsterdisplaya70f.html",
 		"sources": [ "The First World, Realm of the Fey" ],
 		"description": [
 			"## Ekekeh",
@@ -26061,7 +25659,6 @@
 	},
 	"elder_thing": {
 		"name": "Elder Thing",
-		"file": "monsterdisplaya5d0.html",
 		"sources": [
 			"Bestiary 4",
 			"Pathfinder #46: Wake of the Watcher"
@@ -26122,7 +25719,6 @@
 	},
 	"elder_wyrm": {
 		"name": "Elder Wyrm",
-		"file": "monsterdisplay6d27.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Elder Wyrm",
@@ -26212,7 +25808,6 @@
 	},
 	"elemental_aether,_elder_aether_elemental": {
 		"name": "Elemental (Aether), Elder Aether Elemental",
-		"file": "monsterdisplaya4d9.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Elemental (Aether), Elder Aether Elemental",
@@ -26263,7 +25858,6 @@
 	"elder_aether_elemental": { "copyof": "elemental_aether,_elder_aether_elemental" },
 	"elemental_aether,_greater_aether_elemental": {
 		"name": "Elemental (Aether), Greater Aether Elemental",
-		"file": "monsterdisplayb446.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Elemental (Aether), Greater Aether Elemental",
@@ -26314,7 +25908,6 @@
 	"greater_aether_elemental": { "copyof": "elemental_aether,_greater_aether_elemental" },
 	"elemental_aether,_huge_aether_elemental": {
 		"name": "Elemental (Aether), Huge Aether Elemental",
-		"file": "monsterdisplay57b9.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Elemental (Aether), Huge Aether Elemental",
@@ -26365,7 +25958,6 @@
 	"huge_aether_elemental": { "copyof": "elemental_aether,_huge_aether_elemental" },
 	"elemental_aether,_large_aether_elemental": {
 		"name": "Elemental (Aether), Large Aether Elemental",
-		"file": "monsterdisplay6211.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Elemental (Aether), Large Aether Elemental",
@@ -26416,7 +26008,6 @@
 	"large_aether_elemental": { "copyof": "elemental_aether,_large_aether_elemental" },
 	"elemental_aether,_medium_aether_elemental": {
 		"name": "Elemental (Aether), Medium Aether Elemental",
-		"file": "monsterdisplayeb08.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Elemental (Aether), Medium Aether Elemental",
@@ -26466,7 +26057,6 @@
 	"medium_aether_elemental": { "copyof": "elemental_aether,_medium_aether_elemental" },
 	"elemental_aether,_small_aether_elemental": {
 		"name": "Elemental (Aether), Small Aether Elemental",
-		"file": "monsterdisplay8e35.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Elemental (Aether), Small Aether Elemental",
@@ -26518,7 +26108,6 @@
 	"small_aether_elemental": { "copyof": "elemental_aether,_small_aether_elemental" },
 	"elemental_air,_elder_air_elemental": {
 		"name": "Elemental (Air), Elder Air Elemental",
-		"file": "monsterdisplay86fb.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Air), Elder Air Elemental",
@@ -26568,7 +26157,6 @@
 	"elder_air_elemental": { "copyof": "elemental_air,_elder_air_elemental" },
 	"elemental_air,_greater_air_elemental": {
 		"name": "Elemental (Air), Greater Air Elemental",
-		"file": "monsterdisplayce95.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Air), Greater Air Elemental",
@@ -26618,7 +26206,6 @@
 	"greater_air_elemental": { "copyof": "elemental_air,_greater_air_elemental" },
 	"elemental_air,_huge_air_elemental": {
 		"name": "Elemental (Air), Huge Air Elemental",
-		"file": "monsterdisplayadcc.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Air), Huge Air Elemental",
@@ -26668,7 +26255,6 @@
 	"huge_air_elemental": { "copyof": "elemental_air,_huge_air_elemental" },
 	"elemental_air,_large_air_elemental": {
 		"name": "Elemental (Air), Large Air Elemental",
-		"file": "monsterdisplay6a9c.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Air), Large Air Elemental",
@@ -26718,7 +26304,6 @@
 	"large_air_elemental": { "copyof": "elemental_air,_large_air_elemental" },
 	"elemental_air,_medium_air_elemental": {
 		"name": "Elemental (Air), Medium Air Elemental",
-		"file": "monsterdisplay9e17.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Air), Medium Air Elemental",
@@ -26767,7 +26352,6 @@
 	"medium_air_elemental": { "copyof": "elemental_air,_medium_air_elemental" },
 	"elemental_air,_small_air_elemental": {
 		"name": "Elemental (Air), Small Air Elemental",
-		"file": "monsterdisplay4c8d.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Air), Small Air Elemental",
@@ -26818,7 +26402,6 @@
 	"small_air_elemental": { "copyof": "elemental_air,_small_air_elemental" },
 	"elemental_earth,_elder_earth_elemental": {
 		"name": "Elemental (Earth), Elder Earth Elemental",
-		"file": "monsterdisplay6daf.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Earth), Elder Earth Elemental",
@@ -26868,7 +26451,6 @@
 	"elder_earth_elemental": { "copyof": "elemental_earth,_elder_earth_elemental" },
 	"elemental_earth,_greater_earth_elemental": {
 		"name": "Elemental (Earth), Greater Earth Elemental",
-		"file": "monsterdisplay0602.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Earth), Greater Earth Elemental",
@@ -26918,7 +26500,6 @@
 	"greater_earth_elemental": { "copyof": "elemental_earth,_greater_earth_elemental" },
 	"elemental_earth,_huge_earth_elemental": {
 		"name": "Elemental (Earth), Huge Earth Elemental",
-		"file": "monsterdisplayf0d4.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Earth), Huge Earth Elemental",
@@ -26968,7 +26549,6 @@
 	"huge_earth_elemental": { "copyof": "elemental_earth,_huge_earth_elemental" },
 	"elemental_earth,_large_earth_elemental": {
 		"name": "Elemental (Earth), Large Earth Elemental",
-		"file": "monsterdisplay0636.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Earth), Large Earth Elemental",
@@ -27018,7 +26598,6 @@
 	"large_earth_elemental": { "copyof": "elemental_earth,_large_earth_elemental" },
 	"elemental_earth,_medium_earth_elemental": {
 		"name": "Elemental (Earth), Medium Earth Elemental",
-		"file": "monsterdisplay2489.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Earth), Medium Earth Elemental",
@@ -27067,7 +26646,6 @@
 	"medium_earth_elemental": { "copyof": "elemental_earth,_medium_earth_elemental" },
 	"elemental_earth,_small_earth_elemental": {
 		"name": "Elemental (Earth), Small Earth Elemental",
-		"file": "monsterdisplayc02c.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Earth), Small Earth Elemental",
@@ -27118,7 +26696,6 @@
 	"small_earth_elemental": { "copyof": "elemental_earth,_small_earth_elemental" },
 	"elemental_fire,_elder_fire_elemental": {
 		"name": "Elemental (Fire), Elder Fire Elemental",
-		"file": "monsterdisplay5068.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Fire), Elder Fire Elemental",
@@ -27169,7 +26746,6 @@
 	"elder_fire_elemental": { "copyof": "elemental_fire,_elder_fire_elemental" },
 	"elemental_fire,_greater_fire_elemental": {
 		"name": "Elemental (Fire), Greater Fire Elemental",
-		"file": "monsterdisplay6997.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Fire), Greater Fire Elemental",
@@ -27220,7 +26796,6 @@
 	"greater_fire_elemental": { "copyof": "elemental_fire,_greater_fire_elemental" },
 	"elemental_fire,_huge_fire_elemental": {
 		"name": "Elemental (Fire), Huge Fire Elemental",
-		"file": "monsterdisplayb23c.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Fire), Huge Fire Elemental",
@@ -27271,7 +26846,6 @@
 	"huge_fire_elemental": { "copyof": "elemental_fire,_huge_fire_elemental" },
 	"elemental_fire,_large_fire_elemental": {
 		"name": "Elemental (Fire), Large Fire Elemental",
-		"file": "monsterdisplay7cf7.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Fire), Large Fire Elemental",
@@ -27322,7 +26896,6 @@
 	"large_fire_elemental": { "copyof": "elemental_fire,_large_fire_elemental" },
 	"elemental_fire,_medium_fire_elemental": {
 		"name": "Elemental (Fire), Medium Fire Elemental",
-		"file": "monsterdisplay07d7.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Fire), Medium Fire Elemental",
@@ -27372,7 +26945,6 @@
 	"medium_fire_elemental": { "copyof": "elemental_fire,_medium_fire_elemental" },
 	"elemental_fire,_small_fire_elemental": {
 		"name": "Elemental (Fire), Small Fire Elemental",
-		"file": "monsterdisplayd4bf.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Fire), Small Fire Elemental",
@@ -27424,7 +26996,6 @@
 	"small_fire_elemental": { "copyof": "elemental_fire,_small_fire_elemental" },
 	"elemental_ice,_elder_ice_elemental": {
 		"name": "Elemental (Ice), Elder Ice Elemental",
-		"file": "monsterdisplaya86b.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Ice), Elder Ice Elemental",
@@ -27476,7 +27047,6 @@
 	"elder_ice_elemental": { "copyof": "elemental_ice,_elder_ice_elemental" },
 	"elemental_ice,_greater_ice_elemental": {
 		"name": "Elemental (Ice), Greater Ice Elemental",
-		"file": "monsterdisplayf15a.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Ice), Greater Ice Elemental",
@@ -27528,7 +27098,6 @@
 	"greater_ice_elemental": { "copyof": "elemental_ice,_greater_ice_elemental" },
 	"elemental_ice,_huge_ice_elemental": {
 		"name": "Elemental (Ice), Huge Ice Elemental",
-		"file": "monsterdisplay384d.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Ice), Huge Ice Elemental",
@@ -27580,7 +27149,6 @@
 	"huge_ice_elemental": { "copyof": "elemental_ice,_huge_ice_elemental" },
 	"elemental_ice,_large_ice_elemental": {
 		"name": "Elemental (Ice), Large Ice Elemental",
-		"file": "monsterdisplay34ac.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Ice), Large Ice Elemental",
@@ -27632,7 +27200,6 @@
 	"large_ice_elemental": { "copyof": "elemental_ice,_large_ice_elemental" },
 	"elemental_ice,_medium_ice_elemental": {
 		"name": "Elemental (Ice), Medium Ice Elemental",
-		"file": "monsterdisplay212e.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Ice), Medium Ice Elemental",
@@ -27683,7 +27250,6 @@
 	"medium_ice_elemental": { "copyof": "elemental_ice,_medium_ice_elemental" },
 	"elemental_ice,_small_ice_elemental": {
 		"name": "Elemental (Ice), Small Ice Elemental",
-		"file": "monsterdisplay4ceb.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Ice), Small Ice Elemental",
@@ -27736,7 +27302,6 @@
 	"small_ice_elemental": { "copyof": "elemental_ice,_small_ice_elemental" },
 	"elemental_lightning,_elder_lightning_elemental": {
 		"name": "Elemental (Lightning), Elder Lightning Elemental",
-		"file": "monsterdisplay79f6.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Lightning), Elder Lightning Elemental",
@@ -27786,7 +27351,6 @@
 	"elder_lightning_elemental": { "copyof": "elemental_lightning,_elder_lightning_elemental" },
 	"elemental_lightning,_greater_lightning_elemental": {
 		"name": "Elemental (Lightning), Greater Lightning Elemental",
-		"file": "monsterdisplaybcba.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Lightning), Greater Lightning Elemental",
@@ -27836,7 +27400,6 @@
 	"greater_lightning_elemental": { "copyof": "elemental_lightning,_greater_lightning_elemental" },
 	"elemental_lightning,_huge_lightning_elemental": {
 		"name": "Elemental (Lightning), Huge Lightning Elemental",
-		"file": "monsterdisplayd73b.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Lightning), Huge Lightning Elemental",
@@ -27886,7 +27449,6 @@
 	"huge_lightning_elemental": { "copyof": "elemental_lightning,_huge_lightning_elemental" },
 	"elemental_lightning,_large_lightning_elemental": {
 		"name": "Elemental (Lightning), Large Lightning Elemental",
-		"file": "monsterdisplay0b7e.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Lightning), Large Lightning Elemental",
@@ -27936,7 +27498,6 @@
 	"large_lightning_elemental": { "copyof": "elemental_lightning,_large_lightning_elemental" },
 	"elemental_lightning,_medium_lightning_elemental": {
 		"name": "Elemental (Lightning), Medium Lightning Elemental",
-		"file": "monsterdisplaye83c.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Lightning), Medium Lightning Elemental",
@@ -27985,7 +27546,6 @@
 	"medium_lightning_elemental": { "copyof": "elemental_lightning,_medium_lightning_elemental" },
 	"elemental_lightning,_small_lightning_elemental": {
 		"name": "Elemental (Lightning), Small Lightning Elemental",
-		"file": "monsterdisplay86dd.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Lightning), Small Lightning Elemental",
@@ -28036,7 +27596,6 @@
 	"small_lightning_elemental": { "copyof": "elemental_lightning,_small_lightning_elemental" },
 	"elemental_magma,_elder_magma_elemental": {
 		"name": "Elemental (Magma), Elder Magma Elemental",
-		"file": "monsterdisplay762b.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Magma), Elder Magma Elemental",
@@ -28088,7 +27647,6 @@
 	"elder_magma_elemental": { "copyof": "elemental_magma,_elder_magma_elemental" },
 	"elemental_magma,_greater_magma_elemental": {
 		"name": "Elemental (Magma), Greater Magma Elemental",
-		"file": "monsterdisplayf2e7.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Magma), Greater Magma Elemental",
@@ -28140,7 +27698,6 @@
 	"greater_magma_elemental": { "copyof": "elemental_magma,_greater_magma_elemental" },
 	"elemental_magma,_huge_magma_elemental": {
 		"name": "Elemental (Magma), Huge Magma Elemental",
-		"file": "monsterdisplay9e24.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Magma), Huge Magma Elemental",
@@ -28192,7 +27749,6 @@
 	"huge_magma_elemental": { "copyof": "elemental_magma,_huge_magma_elemental" },
 	"elemental_magma,_large_magma_elemental": {
 		"name": "Elemental (Magma), Large Magma Elemental",
-		"file": "monsterdisplay291e.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Magma), Large Magma Elemental",
@@ -28244,7 +27800,6 @@
 	"large_magma_elemental": { "copyof": "elemental_magma,_large_magma_elemental" },
 	"elemental_magma,_medium_magma_elemental": {
 		"name": "Elemental (Magma), Medium Magma Elemental",
-		"file": "monsterdisplay23d3.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Magma), Medium Magma Elemental",
@@ -28295,7 +27850,6 @@
 	"medium_magma_elemental": { "copyof": "elemental_magma,_medium_magma_elemental" },
 	"elemental_magma,_small_magma_elemental": {
 		"name": "Elemental (Magma), Small Magma Elemental",
-		"file": "monsterdisplay035a.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Magma), Small Magma Elemental",
@@ -28348,7 +27902,6 @@
 	"small_magma_elemental": { "copyof": "elemental_magma,_small_magma_elemental" },
 	"elemental_mud,_elder_mud_elemental": {
 		"name": "Elemental (Mud), Elder Mud Elemental",
-		"file": "monsterdisplay731c.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Mud), Elder Mud Elemental",
@@ -28398,7 +27951,6 @@
 	"elder_mud_elemental": { "copyof": "elemental_mud,_elder_mud_elemental" },
 	"elemental_mud,_greater_mud_elemental": {
 		"name": "Elemental (Mud), Greater Mud Elemental",
-		"file": "monsterdisplayfced.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Mud), Greater Mud Elemental",
@@ -28448,7 +28000,6 @@
 	"greater_mud_elemental": { "copyof": "elemental_mud,_greater_mud_elemental" },
 	"elemental_mud,_huge_mud_elemental": {
 		"name": "Elemental (Mud), Huge Mud Elemental",
-		"file": "monsterdisplay0c9b.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Mud), Huge Mud Elemental",
@@ -28498,7 +28049,6 @@
 	"huge_mud_elemental": { "copyof": "elemental_mud,_huge_mud_elemental" },
 	"elemental_mud,_large_mud_elemental": {
 		"name": "Elemental (Mud), Large Mud Elemental",
-		"file": "monsterdisplay6144.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Mud), Large Mud Elemental",
@@ -28548,7 +28098,6 @@
 	"large_mud_elemental": { "copyof": "elemental_mud,_large_mud_elemental" },
 	"elemental_mud,_medium_mud_elemental": {
 		"name": "Elemental (Mud), Medium Mud Elemental",
-		"file": "monsterdisplay8207.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Mud), Medium Mud Elemental",
@@ -28597,7 +28146,6 @@
 	"medium_mud_elemental": { "copyof": "elemental_mud,_medium_mud_elemental" },
 	"elemental_mud,_small_mud_elemental": {
 		"name": "Elemental (Mud), Small Mud Elemental",
-		"file": "monsterdisplay3a04.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"## Elemental (Mud), Small Mud Elemental",
@@ -28648,7 +28196,6 @@
 	"small_mud_elemental": { "copyof": "elemental_mud,_small_mud_elemental" },
 	"elemental_water,_elder_water_elemental": {
 		"name": "Elemental (Water), Elder Water Elemental",
-		"file": "monsterdisplaya089-2.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Water), Elder Water Elemental",
@@ -28698,7 +28245,6 @@
 	"elder_water_elemental": { "copyof": "elemental_water,_elder_water_elemental" },
 	"elemental_water,_greater_water_elemental": {
 		"name": "Elemental (Water), Greater Water Elemental",
-		"file": "monsterdisplayf1a8.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Water), Greater Water Elemental",
@@ -28748,7 +28294,6 @@
 	"greater_water_elemental": { "copyof": "elemental_water,_greater_water_elemental" },
 	"elemental_water,_huge_water_elemental": {
 		"name": "Elemental (Water), Huge Water Elemental",
-		"file": "monsterdisplay1e71.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Water), Huge Water Elemental",
@@ -28798,7 +28343,6 @@
 	"huge_water_elemental": { "copyof": "elemental_water,_huge_water_elemental" },
 	"elemental_water,_large_water_elemental": {
 		"name": "Elemental (Water), Large Water Elemental",
-		"file": "monsterdisplay3cf7.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Water), Large Water Elemental",
@@ -28848,7 +28392,6 @@
 	"large_water_elemental": { "copyof": "elemental_water,_large_water_elemental" },
 	"elemental_water,_medium_water_elemental": {
 		"name": "Elemental (Water), Medium Water Elemental",
-		"file": "monsterdisplay310c.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Water), Medium Water Elemental",
@@ -28897,7 +28440,6 @@
 	"medium_water_elemental": { "copyof": "elemental_water,_medium_water_elemental" },
 	"elemental_water,_small_water_elemental": {
 		"name": "Elemental (Water), Small Water Elemental",
-		"file": "monsterdisplay374f.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elemental (Water), Small Water Elemental",
@@ -28948,7 +28490,6 @@
 	"small_water_elemental": { "copyof": "elemental_water,_small_water_elemental" },
 	"elephant": {
 		"name": "Elephant",
-		"file": "monsterdisplayfb24.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elephant",
@@ -28996,7 +28537,6 @@
 	},
 	"elephant,_mastodon": {
 		"name": "Elephant, Mastodon",
-		"file": "monsterdisplayf345.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Elephant, Mastodon",
@@ -29045,7 +28585,6 @@
 	"mastodon": { "copyof": "elephant,_mastodon" },
 	"embalming_bear": {
 		"name": "Embalming Bear",
-		"file": "monsterdisplay1ccb.html",
 		"sources": [ "Tears at Bitter Manor" ],
 		"description": [
 			"## Embalming Bear",
@@ -29108,7 +28647,6 @@
 	},
 	"emerald_automaton": {
 		"name": "Emerald Automaton",
-		"file": "monsterdisplay4470.html",
 		"sources": [ "The Emerald Spire Superdungeon" ],
 		"description": [
 			"## Emerald Automaton",
@@ -29176,7 +28714,6 @@
 	},
 	"emotion_ooze": {
 		"name": "Emotion Ooze",
-		"file": "monsterdisplaybba2.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Emotion Ooze",
@@ -29257,7 +28794,6 @@
 	},
 	"emperor_stag": {
 		"name": "Emperor Stag",
-		"file": "monsterdisplaydcf2.html",
 		"sources": [ "Taldor, the First Empire" ],
 		"description": [
 			"## Emperor Stag",
@@ -29312,7 +28848,6 @@
 	},
 	"empusa": {
 		"name": "Empusa",
-		"file": "monsterdisplayc075.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Empusa",
@@ -29378,7 +28913,6 @@
 	},
 	"encantado": {
 		"name": "Encantado",
-		"file": "monsterdisplayce93.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Encantado",
@@ -29442,7 +28976,6 @@
 	},
 	"enchanter_heron": {
 		"name": "Enchanter Heron",
-		"file": "monsterdisplayfaf7.html",
 		"sources": [ "Pathfinder #121: The Lost Outpost" ],
 		"description": [
 			"## Enchanter Heron",
@@ -29495,7 +29028,6 @@
 	},
 	"ephemeral_echo": {
 		"name": "Ephemeral Echo",
-		"file": "monsterdisplaybd7d.html",
 		"sources": [ "Tears at Bitter Manor" ],
 		"description": [
 			"## Ephemeral Echo",
@@ -29557,7 +29089,6 @@
 	},
 	"erlking": {
 		"name": "Erlking",
-		"file": "monsterdisplay558a.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Erlking",
@@ -29621,7 +29152,6 @@
 	},
 	"escorite": {
 		"name": "Escorite",
-		"file": "monsterdisplay5f7c.html",
 		"sources": [ "The First World, Realm of the Fey" ],
 		"description": [
 			"## Escorite",
@@ -29687,7 +29217,6 @@
 	},
 	"estuarine_worm,_estuarine_worm_ahket_form": {
 		"name": "Estuarine Worm, Estuarine Worm (Ahket Form)",
-		"file": "monsterdisplayeb34.html",
 		"sources": [ "Pathfinder #82: Secrets of the Sphinx" ],
 		"description": [
 			"## Estuarine Worm, Estuarine Worm (Ahket Form)",
@@ -29762,7 +29291,6 @@
 	"estuarine_worm_ahket_form": { "copyof": "estuarine_worm,_estuarine_worm_ahket_form" },
 	"estuarine_worm,_estuarine_worm_shemu_form": {
 		"name": "Estuarine Worm, Estuarine Worm (Shemu Form)",
-		"file": "monsterdisplay0130.html",
 		"sources": [ "Pathfinder #82: Secrets of the Sphinx" ],
 		"description": [
 			"## Estuarine Worm, Estuarine Worm (Shemu Form)",
@@ -29837,7 +29365,6 @@
 	"estuarine_worm_shemu_form": { "copyof": "estuarine_worm,_estuarine_worm_shemu_form" },
 	"etheroot": {
 		"name": "Etheroot",
-		"file": "monsterdisplay7a22.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Etheroot",
@@ -29895,7 +29422,6 @@
 	},
 	"etiainen": {
 		"name": "Etiainen",
-		"file": "monsterdisplaye0be.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Etiainen",
@@ -29959,7 +29485,6 @@
 	},
 	"ettercap": {
 		"name": "Ettercap",
-		"file": "monsterdisplay3377.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Ettercap",
@@ -30024,7 +29549,6 @@
 	},
 	"ettin": {
 		"name": "Ettin",
-		"file": "monsterdisplay6505.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"## Ettin",
@@ -30090,7 +29614,6 @@
 	},
 	"euryale": {
 		"name": "Euryale",
-		"file": "monsterdisplay9095.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Euryale",
@@ -30184,7 +29707,6 @@
 	},
 	"eurypterid,_bluetip_eurypterid": {
 		"name": "Eurypterid, Bluetip Eurypterid",
-		"file": "monsterdisplay17fa.html",
 		"sources": [ "Pathfinder #37: Souls for Smuggler's Shiv" ],
 		"description": [
 			"## Eurypterid, Bluetip Eurypterid",
@@ -30237,7 +29759,6 @@
 	"bluetip_eurypterid": { "copyof": "eurypterid,_bluetip_eurypterid" },
 	"eurypterid,_common_eurypterid": {
 		"name": "Eurypterid, Common Eurypterid",
-		"file": "monsterdisplayc783.html",
 		"sources": [
 			"Pathfinder #37: Souls for Smuggler's Shiv",
 			"Bestiary 6"
@@ -30293,7 +29814,6 @@
 	"eurypterid": { "copyof": "eurypterid,_common_eurypterid" },
 	"eurypterid,_ochre_eurypterid": {
 		"name": "Eurypterid, Ochre Eurypterid",
-		"file": "monsterdisplay2878.html",
 		"sources": [ "Pathfinder #37: Souls for Smuggler's Shiv" ],
 		"description": [
 			"## Eurypterid, Ochre Eurypterid",
@@ -30347,7 +29867,6 @@
 	"ochre_eurypterid": { "copyof": "eurypterid,_ochre_eurypterid" },
 	"eurypterid,_spiny_eurypterid": {
 		"name": "Eurypterid, Spiny Eurypterid",
-		"file": "monsterdisplay025c.html",
 		"sources": [
 			"Pathfinder #37: Souls for Smuggler's Shiv",
 			"Bestiary 6"
@@ -30405,7 +29924,6 @@
 	"spiny_eurypterid": { "copyof": "eurypterid,_spiny_eurypterid" },
 	"eurypterid,_spitting_eurypterid": {
 		"name": "Eurypterid, Spitting Eurypterid",
-		"file": "monsterdisplayef98.html",
 		"sources": [ "Pathfinder #37: Souls for Smuggler's Shiv" ],
 		"description": [
 			"## Eurypterid, Spitting Eurypterid",
@@ -30460,7 +29978,6 @@
 	"spitting_eurypterid": { "copyof": "eurypterid,_spitting_eurypterid" },
 	"exiled_shade": {
 		"name": "Exiled Shade",
-		"file": "monsterdisplayed8c.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Exiled Shade",
@@ -30522,7 +30039,6 @@
 	},
 	"ez-azael": {
 		"name": "Ez-azael",
-		"file": "monsterdisplay1044.html",
 		"sources": [ "Pathfinder #107: Scourge of the Godclaw" ],
 		"description": [
 			"## Ez-azael",

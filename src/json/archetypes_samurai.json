@@ -2,7 +2,6 @@
 	"_prefix": "archetype-samurai",
 	"brawling_blademaster": {
 		"name": "Brawling Blademaster",
-		"file": "archetypedisplayd733.html",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
 			"## Brawling Blademaster",
@@ -38,7 +37,6 @@
 	},
 	"ironbound_sword": {
 		"name": "Ironbound Sword",
-		"file": "archetypedisplay722f.html",
 		"sources": [ "Blood of the Ancients" ],
 		"description": [
 			"## Ironbound Sword",
@@ -62,7 +60,6 @@
 	},
 	"soverign_blade": {
 		"name": "Soverign Blade",
-		"file": "archetypedisplay75b9.html",
 		"sources": [ "Legacy of Dragons" ],
 		"description": [
 			"## Soverign Blade",
@@ -92,7 +89,6 @@
 	},
 	"sword_saint": {
 		"name": "Sword Saint",
-		"file": "archetypedisplay00bc.html",
 		"sources": [],
 		"description": [
 			"## Sword Saint",
@@ -118,7 +114,6 @@
 	},
 	"ward_speaker": {
 		"name": "Ward Speaker",
-		"file": "archetypedisplayc6cc.html",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
 			"## Ward Speaker",
@@ -154,7 +149,6 @@
 	},
 	"warrior_poet": {
 		"name": "Warrior Poet",
-		"file": "archetypedisplay7c80.html",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
 			"## Warrior Poet",
@@ -202,7 +196,6 @@
 	},
 	"yojimbo": {
 		"name": "Yojimbo",
-		"file": "archetypedisplayd00e.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Yojimbo",

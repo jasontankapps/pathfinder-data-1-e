@@ -2,7 +2,6 @@
 	"_prefix": "class_abilities-order",
 	"order_of_the_asp": {
 		"name": "Order of the Asp",
-		"file": "cavalierorders8b22.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"### Order of the Asp",
@@ -28,8 +27,6 @@
 	},
 	"order_of_the_beast_acg": {
 		"name": "Order of the Beast (ACG)",
-		"searchable_name": "Order of the Beast ACG",
-		"file": "cavalierordersc745.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Order of the Beast (ACG)",
@@ -55,8 +52,6 @@
 	},
 	"order_of_the_beast_isc": {
 		"name": "Order of the Beast (ISC)",
-		"searchable_name": "Order of the Beast ISC",
-		"file": "cavalierordersb83b.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"### Order of the Beast (ISC)",
@@ -84,7 +79,6 @@
 	},
 	"order_of_the_blossom": {
 		"name": "Order of the Blossom",
-		"file": "cavalierorders7075.html",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"### Order of the Blossom",
@@ -110,7 +104,6 @@
 	},
 	"order_of_the_blue_rose": {
 		"name": "Order of the Blue Rose",
-		"file": "cavalierorders3ebd.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Order of the Blue Rose",
@@ -136,7 +129,6 @@
 	},
 	"order_of_the_cockatrice": {
 		"name": "Order of the Cockatrice",
-		"file": "cavalierordersd70a.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Order of the Cockatrice",
@@ -162,7 +154,6 @@
 	},
 	"order_of_the_dragon": {
 		"name": "Order of the Dragon",
-		"file": "cavalierorders37b9.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Order of the Dragon",
@@ -188,7 +179,6 @@
 	},
 	"order_of_the_eastern_star": {
 		"name": "Order of the Eastern Star",
-		"file": "cavalierordersdf26.html",
 		"sources": [ "Occult Adventures" ],
 		"feats": [
 			"Psychic Sensitivity"
@@ -219,7 +209,6 @@
 	},
 	"order_of_the_eclipse": {
 		"name": "Order of the Eclipse&ast;",
-		"file": "cavalierordersff4f.html",
 		"sources": [ "Distant Shores" ],
 		"description": [
 			"### Order of the Eclipse",
@@ -245,7 +234,6 @@
 	},
 	"order_of_the_eel": {
 		"name": "Order of the Eel",
-		"file": "cavalierorders46af.html",
 		"sources": [ "Blood of the Sea" ],
 		"description": [
 			"### Order of the Eel",
@@ -271,7 +259,6 @@
 	},
 	"order_of_the_ennead_star": {
 		"name": "Order of the Ennead Star",
-		"file": "cavalierorders1297.html",
 		"sources": [ "Path of the Hellknight" ],
 		"description": [
 			"### Order of the Ennead Star",
@@ -297,7 +284,6 @@
 	},
 	"order_of_the_first_law": {
 		"name": "Order of the First Law",
-		"file": "cavalierordersc692.html",
 		"sources": [ "People of the Sands" ],
 		"description": [
 			"### Order of the First Law",
@@ -323,7 +309,6 @@
 	},
 	"order_of_the_flame": {
 		"name": "Order of the Flame",
-		"file": "cavalierordersdaa6.html",
 		"sources": [ "Blood of the Elements" ],
 		"description": [
 			"### Order of the Flame",
@@ -349,7 +334,6 @@
 	},
 	"order_of_the_green": {
 		"name": "Order of the Green",
-		"file": "cavalierorders0f00.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Heroes of the Wild"
@@ -378,7 +362,6 @@
 	},
 	"order_of_the_guard": {
 		"name": "Order of the Guard",
-		"file": "cavalierordersd99c.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"### Order of the Guard",
@@ -404,7 +387,6 @@
 	},
 	"order_of_the_hammer": {
 		"name": "Order of the Hammer",
-		"file": "cavalierorders70d3.html",
 		"sources": [ "The Harrow Handbook" ],
 		"description": [
 			"### Order of the Hammer",
@@ -430,7 +412,6 @@
 	},
 	"order_of_the_hero": {
 		"name": "Order of the Hero",
-		"file": "cavalierorders552e.html",
 		"sources": [ "Monster Hunter's Handbook" ],
 		"description": [
 			"### Order of the Hero",
@@ -456,7 +437,6 @@
 	},
 	"order_of_the_land": {
 		"name": "Order of the Land",
-		"file": "cavalierorderse27f.html",
 		"sources": [ "Knights of the Inner Sea" ],
 		"description": [
 			"### Order of the Land",
@@ -482,7 +462,6 @@
 	},
 	"order_of_the_lion": {
 		"name": "Order of the Lion",
-		"file": "cavalierordersfc75.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Order of the Lion",
@@ -508,7 +487,6 @@
 	},
 	"order_of_the_monument": {
 		"name": "Order of the Monument",
-		"file": "cavalierorders0ba2.html",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
 			"### Order of the Monument",
@@ -534,7 +512,6 @@
 	},
 	"order_of_the_paw": {
 		"name": "Order of the Paw",
-		"file": "cavalierordersc1a9.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"### Order of the Paw",
@@ -560,7 +537,6 @@
 	},
 	"order_of_the_penitent": {
 		"name": "Order of the Penitent",
-		"file": "cavalierorders82a9.html",
 		"sources": [ "Knights of the Inner Sea" ],
 		"description": [
 			"### Order of the Penitent",
@@ -586,7 +562,6 @@
 	},
 	"order_of_the_reins": {
 		"name": "Order of the Reins",
-		"file": "cavalierorders944d.html",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"### Order of the Reins",
@@ -612,7 +587,6 @@
 	},
 	"order_of_the_saddle": {
 		"name": "Order of the Saddle",
-		"file": "cavalierorders024a.html",
 		"sources": [ "Qadira, Jewel of the East" ],
 		"description": [
 			"### Order of the Saddle",
@@ -640,7 +614,6 @@
 	},
 	"order_of_the_scales": {
 		"name": "Order of the Scales",
-		"file": "cavalierorders6849.html",
 		"sources": [ "Champions of Balance" ],
 		"description": [
 			"### Order of the Scales",
@@ -666,7 +639,6 @@
 	},
 	"order_of_the_seal": {
 		"name": "Order of the Seal",
-		"file": "cavalierordersc4d8.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Order of the Seal",
@@ -692,7 +664,6 @@
 	},
 	"order_of_the_shield": {
 		"name": "Order of the Shield",
-		"file": "cavalierordersb99b.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Order of the Shield",
@@ -718,7 +689,6 @@
 	},
 	"order_of_the_shroud": {
 		"name": "Order of the Shroud",
-		"file": "cavalierordersfe6f.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"### Order of the Shroud",
@@ -744,7 +714,6 @@
 	},
 	"order_of_the_songbird": {
 		"name": "Order of the Songbird&ast;",
-		"file": "cavalierorders7d35.html",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
 			"### Order of the Songbird",
@@ -770,7 +739,6 @@
 	},
 	"order_of_the_staff": {
 		"name": "Order of the Staff",
-		"file": "cavalierordersab22.html",
 		"sources": [ "Knights of the Inner Sea" ],
 		"description": [
 			"### Order of the Staff",
@@ -796,7 +764,6 @@
 	},
 	"order_of_the_star": {
 		"name": "Order of the Star",
-		"file": "cavalierorderscc9e.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Order of the Star",
@@ -822,7 +789,6 @@
 	},
 	"order_of_the_sword": {
 		"name": "Order of the Sword",
-		"file": "cavalierorders04fa.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Order of the Sword",
@@ -848,7 +814,6 @@
 	},
 	"order_of_the_tome": {
 		"name": "Order of the Tome",
-		"file": "cavalierordersc4b1.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Order of the Tome",
@@ -874,7 +839,6 @@
 	},
 	"order_of_the_warrior": {
 		"name": "Order of the Warrior&ast;",
-		"file": "cavalierorders5962.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Order of the Warrior",
@@ -900,7 +864,6 @@
 	},
 	"order_of_the_waves": {
 		"name": "Order of the Waves",
-		"file": "cavalierordersaece.html",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"### Order of the Waves",
@@ -926,7 +889,6 @@
 	},
 	"order_of_the_whip": {
 		"name": "Order of the Whip",
-		"file": "cavalierordersaae9.html",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"### Order of the Whip",
@@ -952,7 +914,6 @@
 	},
 	"order_of_vengeance": {
 		"name": "Order of Vengeance",
-		"file": "cavalierordersec1d.html",
 		"sources": [ "People of the River" ],
 		"description": [
 			"### Order of Vengeance",
@@ -978,7 +939,6 @@
 	},
 	"ronin": {
 		"name": "Ronin&ast;",
-		"file": "cavalierorderse6ff.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Ronin",

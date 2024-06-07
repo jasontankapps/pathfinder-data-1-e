@@ -2,7 +2,6 @@
 	"_prefix": "magic-relic",
 	"band_of_the_crusader's_alliance": {
 		"name": "Band of the Crusader's Alliance",
-		"file": "relics85c9.html",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
 			"## Band of the Crusader's Alliance",
@@ -27,7 +26,6 @@
 	},
 	"belt_of_the_last_wall": {
 		"name": "Belt of the Last Wall",
-		"file": "relicsb03e.html",
 		"sources": [ "Pathfinder #141: Last Watch" ],
 		"description": [
 			"## Belt of the Last Wall",
@@ -52,7 +50,6 @@
 	},
 	"dignity's_barb": {
 		"name": "Dignity's Barb",
-		"file": "relics7278.html",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
 			"## Dignity's Barb",
@@ -81,7 +78,6 @@
 	},
 	"envoy_ring": {
 		"name": "Envoy Ring",
-		"file": "relicsd537.html",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
 			"## Envoy Ring",
@@ -110,7 +106,6 @@
 	},
 	"grace_of_the_last_azlanti": {
 		"name": "Grace of the Last Azlanti",
-		"file": "relics2f44.html",
 		"sources": [ "Pathfinder #141: Last Watch" ],
 		"description": [
 			"## Grace of the Last Azlanti",
@@ -135,7 +130,6 @@
 	},
 	"jalnesin's_broken_bonds": {
 		"name": "Jalnesin's Broken Bonds",
-		"file": "relicsfb30.html",
 		"sources": [ "Pathfinder #141: Last Watch" ],
 		"description": [
 			"## Jalnesin's Broken Bonds",
@@ -160,7 +154,6 @@
 	},
 	"koriana's_blade": {
 		"name": "Koriana's Blade",
-		"file": "relicsc5b5.html",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
 			"## Koriana's Blade",
@@ -189,7 +182,6 @@
 	},
 	"lance_of_the_leaping_lion": {
 		"name": "Lance of the Leaping Lion",
-		"file": "relics8e81.html",
 		"sources": [ "Pathfinder #141: Last Watch" ],
 		"description": [
 			"## Lance of the Leaping Lion",
@@ -214,7 +206,6 @@
 	},
 	"ovetrian's_plate": {
 		"name": "Ovetrian's Plate",
-		"file": "relics1241.html",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
 			"## Ovetrian's Plate",
@@ -237,7 +228,6 @@
 	},
 	"scion's_dagger": {
 		"name": "Scion's Dagger",
-		"file": "relics846f.html",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
 			"## Scion's Dagger",
@@ -264,7 +254,6 @@
 	},
 	"standard_of_conquest": {
 		"name": "Standard of Conquest",
-		"file": "relicsab5a.html",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
 			"## Standard of Conquest",
@@ -291,7 +280,6 @@
 	},
 	"subtle_mask": {
 		"name": "Subtle Mask",
-		"file": "relics1f0e.html",
 		"sources": [ "Pathfinder #128: Songbird, Scion, Saboteur" ],
 		"description": [
 			"## Subtle Mask",
@@ -318,7 +306,6 @@
 	},
 	"taldaris's_bequeathal": {
 		"name": "Taldaris's Bequeathal",
-		"file": "relicsfd55.html",
 		"sources": [ "Pathfinder #141: Last Watch" ],
 		"description": [
 			"## Taldaris's Bequeathal",

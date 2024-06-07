@@ -2,7 +2,6 @@
 	"_prefix": "archetype-mesmerist",
 	"aromaphile": {
 		"name": "Aromaphile",
-		"file": "archetypedisplay853a.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Aromaphile",
@@ -28,7 +27,6 @@
 	},
 	"autohypnotist": {
 		"name": "Autohypnotist",
-		"file": "archetypedisplay07e1.html",
 		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Autohypnotist",
@@ -50,7 +48,6 @@
 	},
 	"chart_caster": {
 		"name": "Chart Caster",
-		"file": "archetypedisplaycd9c.html",
 		"sources": [ "Blood of the Ancients" ],
 		"description": [
 			"## Chart Caster",
@@ -78,7 +75,6 @@
 	},
 	"cult_master": {
 		"name": "Cult Master",
-		"file": "archetypedisplay34b3.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Cult Master",
@@ -118,7 +114,6 @@
 	},
 	"dreamstalker": {
 		"name": "Dreamstalker",
-		"file": "archetypedisplayd6ef.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Dreamstalker",
@@ -154,7 +149,6 @@
 	},
 	"enigma": {
 		"name": "Enigma",
-		"file": "archetypedisplayefa6.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Enigma",
@@ -194,7 +188,6 @@
 	},
 	"eyebiter": {
 		"name": "Eyebiter",
-		"file": "archetypedisplay3f09.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Eyebiter",
@@ -232,7 +225,6 @@
 	},
 	"fey_trickster": {
 		"name": "Fey Trickster",
-		"file": "archetypedisplayf973.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Fey Trickster",
@@ -276,7 +268,6 @@
 	},
 	"gaslighter": {
 		"name": "Gaslighter",
-		"file": "archetypedisplayfda3.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Gaslighter",
@@ -310,7 +301,6 @@
 	},
 	"hate-monger": {
 		"name": "Hate-Monger",
-		"file": "archetypedisplay3da8.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Hate-Monger",
@@ -344,7 +334,6 @@
 	},
 	"material_manipulator": {
 		"name": "Material Manipulator",
-		"file": "archetypedisplayde9e.html",
 		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Material Manipulator",
@@ -370,7 +359,6 @@
 	},
 	"mindwyrm_mesmer": {
 		"name": "Mindwyrm Mesmer",
-		"file": "archetypedisplay838f.html",
 		"sources": [ "Legacy of Dragons" ],
 		"description": [
 			"## Mindwyrm Mesmer",
@@ -400,7 +388,6 @@
 	},
 	"projectionist": {
 		"name": "Projectionist",
-		"file": "archetypedisplaybc59.html",
 		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Projectionist",
@@ -426,7 +413,6 @@
 	},
 	"spirit_walker": {
 		"name": "Spirit Walker",
-		"file": "archetypedisplayb963.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Spirit Walker",
@@ -448,7 +434,6 @@
 	},
 	"thought_eater": {
 		"name": "Thought Eater",
-		"file": "archetypedisplay38ae.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Thought Eater",
@@ -476,7 +461,6 @@
 	},
 	"toxitician": {
 		"name": "Toxitician",
-		"file": "archetypedisplayec05.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Toxitician",
@@ -522,7 +506,6 @@
 	},
 	"umbral_mesmerist": {
 		"name": "Umbral Mesmerist",
-		"file": "archetypedisplay069c.html",
 		"sources": [ "Occult Realms" ],
 		"description": [
 			"## Umbral Mesmerist",
@@ -546,7 +529,6 @@
 	},
 	"vexing_daredevil": {
 		"name": "Vexing Daredevil",
-		"file": "archetypedisplay9927.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Vexing Daredevil",
@@ -584,7 +566,6 @@
 	},
 	"vexing_trickster": {
 		"name": "Vexing Trickster",
-		"file": "archetypedisplay0d69.html",
 		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Vexing Trickster",
@@ -612,7 +593,6 @@
 	},
 	"vizier": {
 		"name": "Vizier",
-		"file": "archetypedisplay213b.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Vizier",
@@ -636,7 +616,6 @@
 	},
 	"vox": {
 		"name": "Vox",
-		"file": "archetypedisplay4187.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Vox",

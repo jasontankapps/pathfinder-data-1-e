@@ -2,7 +2,6 @@
 	"_prefix": "monster",
 	"aboleth_mythic": {
 		"name": "Aboleth",
-		"file": "mythicmonsterdisplay2a84.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Aboleth",
@@ -67,7 +66,6 @@
 	},
 	"anunnaki_mythic": {
 		"name": "Anunnaki",
-		"file": "mythicmonsterdisplaye4c0.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Anunnaki",
@@ -127,7 +125,6 @@
 	},
 	"apkallu_mythic": {
 		"name": "Apkallu",
-		"file": "mythicmonsterdisplaya525.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Apkallu",
@@ -220,7 +217,6 @@
 	},
 	"apocalypse_locust_mythic": {
 		"name": "Apocalypse Locust",
-		"file": "mythicmonsterdisplayff7a.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Apocalypse Locust",
@@ -282,7 +278,6 @@
 	},
 	"argus_mythic": {
 		"name": "Argus",
-		"file": "mythicmonsterdisplay49ba.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Argus",
@@ -353,7 +348,6 @@
 	},
 	"champion_of_the_gilded_host_mythic": {
 		"name": "Champion of the Gilded Host",
-		"file": "mythicmonsterdisplayaed1.html",
 		"sources": [ "Lost Treasures" ],
 		"description": [
 			"## Champion of the Gilded Host",
@@ -436,7 +430,6 @@
 	},
 	"chaneque_mythic": {
 		"name": "Chaneque",
-		"file": "mythicmonsterdisplayfd62.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Chaneque",
@@ -502,7 +495,6 @@
 	},
 	"cockatrice_mythic": {
 		"name": "Cockatrice",
-		"file": "mythicmonsterdisplay8558.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Cockatrice",
@@ -559,7 +551,6 @@
 	},
 	"colossus,_flesh_colossus_mythic": {
 		"name": "Colossus, Flesh Colossus",
-		"file": "mythicmonsterdisplayb738.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Colossus, Flesh Colossus",
@@ -631,7 +622,6 @@
 	"flesh_colossus_mythic": { "copyof": "colossus,_flesh_colossus_mythic" },
 	"colossus,_iron_colossus_mythic": {
 		"name": "Colossus, Iron Colossus",
-		"file": "mythicmonsterdisplay2573.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Colossus, Iron Colossus",
@@ -712,7 +702,6 @@
 	"iron_colossus_mythic": { "copyof": "colossus,_iron_colossus_mythic" },
 	"colossus,_sphinx_colossus_mythic": {
 		"name": "Colossus, Sphinx Colossus",
-		"file": "mythicmonsterdisplayf2fd.html",
 		"sources": [
 			"Bestiary 5",
 			"Osirion, Legacy of the Pharaohs"
@@ -790,7 +779,6 @@
 	"sphinx_colossus_mythic": { "copyof": "colossus,_sphinx_colossus_mythic" },
 	"colossus,_stone_colossus_mythic": {
 		"name": "Colossus, Stone Colossus",
-		"file": "mythicmonsterdisplay9772.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Colossus, Stone Colossus",
@@ -869,7 +857,6 @@
 	"stone_colossus_mythic": { "copyof": "colossus,_stone_colossus_mythic" },
 	"colossus,_wood_colossus_mythic": {
 		"name": "Colossus, Wood Colossus",
-		"file": "mythicmonsterdisplaybfdc.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Colossus, Wood Colossus",
@@ -939,7 +926,6 @@
 	"wood_colossus_mythic": { "copyof": "colossus,_wood_colossus_mythic" },
 	"cyclops,_great_cyclops_mythic": {
 		"name": "Cyclops, Great Cyclops",
-		"file": "mythicmonsterdisplay0cdb.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Cyclops, Great Cyclops",
@@ -1003,7 +989,6 @@
 	"great_cyclops_mythic": { "copyof": "cyclops,_great_cyclops_mythic" },
 	"demon,_marilith_mythic": {
 		"name": "Demon, Marilith",
-		"file": "mythicmonsterdisplay2dc8.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Demon, Marilith",
@@ -1069,7 +1054,6 @@
 	"marilith_mythic": { "copyof": "demon,_marilith_mythic" },
 	"demon,_nalfeshnee_mythic": {
 		"name": "Demon, Nalfeshnee",
-		"file": "mythicmonsterdisplayc64c.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Demon, Nalfeshnee",
@@ -1134,7 +1118,6 @@
 	"nalfeshnee_mythic": { "copyof": "demon,_nalfeshnee_mythic" },
 	"demon,_vrock_mythic": {
 		"name": "Demon, Vrock",
-		"file": "mythicmonsterdisplay14b5.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Demon, Vrock",
@@ -1196,7 +1179,6 @@
 	"vrock_mythic": { "copyof": "demon,_vrock_mythic" },
 	"devastator_mythic": {
 		"name": "Devastator",
-		"file": "mythicmonsterdisplayf864.html",
 		"sources": [
 			"Bestiary 5",
 			"Pathfinder #78: City of Locusts"
@@ -1260,7 +1242,6 @@
 	},
 	"devil,_bone_devil_mythic": {
 		"name": "Devil, Bone Devil",
-		"file": "mythicmonsterdisplay2482.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Devil, Bone Devil",
@@ -1325,7 +1306,6 @@
 	"bone_devil_mythic": { "copyof": "devil,_bone_devil_mythic" },
 	"devil,_ice_devil_mythic": {
 		"name": "Devil, Ice Devil",
-		"file": "mythicmonsterdisplaye996.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Devil, Ice Devil",
@@ -1393,7 +1373,6 @@
 	"ice_devil_mythic": { "copyof": "devil,_ice_devil_mythic" },
 	"dragon_black,_mature_adult_black_dragon_mythic": {
 		"name": "Dragon (Black), Mature Adult Black Dragon",
-		"file": "mythicmonsterdisplayf3d8.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Dragon (Black), Mature Adult Black Dragon",
@@ -1454,7 +1433,6 @@
 	"mature_adult_black_dragon_mythic": { "copyof": "dragon_black,_mature_adult_black_dragon_mythic" },
 	"dragon_blue,_mature_adult_blue_dragon_mythic": {
 		"name": "Dragon (Blue), Mature Adult Blue Dragon",
-		"file": "mythicmonsterdisplayd948.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Dragon (Blue), Mature Adult Blue Dragon",
@@ -1515,7 +1493,6 @@
 	"mature_adult_blue_dragon_mythic": { "copyof": "dragon_blue,_mature_adult_blue_dragon_mythic" },
 	"dragon_green,_very_old_green_dragon_mythic": {
 		"name": "Dragon (Green), Very Old Green Dragon",
-		"file": "mythicmonsterdisplay6b8f.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Dragon (Green), Very Old Green Dragon",
@@ -1579,7 +1556,6 @@
 	"very_old_green_dragon_mythic": { "copyof": "dragon_green,_very_old_green_dragon_mythic" },
 	"dragon_red,_wyrm_red_dragon_mythic": {
 		"name": "Dragon (Red), Wyrm Red Dragon",
-		"file": "mythicmonsterdisplay22f7.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Dragon (Red), Wyrm Red Dragon",
@@ -1654,7 +1630,6 @@
 	"wyrm_red_dragon_mythic": { "copyof": "dragon_red,_wyrm_red_dragon_mythic" },
 	"dragon_red,_young_red_dragon_mythic": {
 		"name": "Dragon (Red), Young Red Dragon",
-		"file": "mythicmonsterdisplay7d96.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Dragon (Red), Young Red Dragon",
@@ -1719,7 +1694,6 @@
 	"young_red_dragon_mythic": { "copyof": "dragon_red,_young_red_dragon_mythic" },
 	"dragon_white,_juvenile_white_dragon_mythic": {
 		"name": "Dragon (White), Juvenile White Dragon",
-		"file": "mythicmonsterdisplayb509.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Dragon (White), Juvenile White Dragon",
@@ -1776,7 +1750,6 @@
 	"juvenile_white_dragon_mythic": { "copyof": "dragon_white,_juvenile_white_dragon_mythic" },
 	"drakainia": {
 		"name": "Drakainia",
-		"file": "mythicmonsterdisplay0f9b.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Drakainia",
@@ -1873,7 +1846,6 @@
 	},
 	"elemental_air,_elder_air_elemental_mythic": {
 		"name": "Elemental (Air), Elder Air Elemental",
-		"file": "mythicmonsterdisplay86fb.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Elemental (Air), Elder Air Elemental",
@@ -1934,7 +1906,6 @@
 	"elder_air_elemental_mythic": { "copyof": "elemental_air,_elder_air_elemental_mythic" },
 	"elemental_earth,_elder_earth_elemental_mythic": {
 		"name": "Elemental (Earth), Elder Earth Elemental",
-		"file": "mythicmonsterdisplay6daf.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Elemental (Earth), Elder Earth Elemental",
@@ -1998,7 +1969,6 @@
 	"elder_earth_elemental_mythic": { "copyof": "elemental_earth,_elder_earth_elemental_mythic" },
 	"elemental_fire,_elder_fire_elemental_mythic": {
 		"name": "Elemental (Fire), Elder Fire Elemental",
-		"file": "mythicmonsterdisplay5068.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Elemental (Fire), Elder Fire Elemental",
@@ -2064,7 +2034,6 @@
 	"elder_fire_elemental_mythic": { "copyof": "elemental_fire,_elder_fire_elemental_mythic" },
 	"elemental_water,_elder_water_elemental_mythic": {
 		"name": "Elemental (Water), Elder Water Elemental",
-		"file": "mythicmonsterdisplaya089.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Elemental (Water), Elder Water Elemental",
@@ -2127,7 +2096,6 @@
 	"elder_water_elemental_mythic": { "copyof": "elemental_water,_elder_water_elemental_mythic" },
 	"elohim_mythic": {
 		"name": "Elohim",
-		"file": "mythicmonsterdisplay1b55.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Elohim",
@@ -2190,7 +2158,6 @@
 	},
 	"ettin_mythic": {
 		"name": "Ettin",
-		"file": "mythicmonsterdisplay6505.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Ettin",
@@ -2262,7 +2229,6 @@
 	},
 	"gargoyle_mythic": {
 		"name": "Gargoyle",
-		"file": "mythicmonsterdisplay8e0b.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Gargoyle",
@@ -2324,7 +2290,6 @@
 	},
 	"giant,_fire_giant_mythic": {
 		"name": "Giant, Fire Giant",
-		"file": "mythicmonsterdisplay5015.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Giant, Fire Giant",
@@ -2386,7 +2351,6 @@
 	"fire_giant_mythic": { "copyof": "giant,_fire_giant_mythic" },
 	"giant,_hill_giant_mythic": {
 		"name": "Giant, Hill Giant",
-		"file": "mythicmonsterdisplayed04.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Giant, Hill Giant",
@@ -2447,7 +2411,6 @@
 	"hill_giant_mythic": { "copyof": "giant,_hill_giant_mythic" },
 	"glaistig_mythic": {
 		"name": "Glaistig",
-		"file": "mythicmonsterdisplay0846.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Glaistig",
@@ -2526,7 +2489,6 @@
 	},
 	"golem,_flesh_golem_mythic": {
 		"name": "Golem, Flesh Golem",
-		"file": "mythicmonsterdisplay0621.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Golem, Flesh Golem",
@@ -2590,7 +2552,6 @@
 	"flesh_golem_mythic": { "copyof": "golem,_flesh_golem_mythic" },
 	"graeae_mythic": {
 		"name": "Graeae",
-		"file": "mythicmonsterdisplay17ef.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Graeae",
@@ -2662,7 +2623,6 @@
 	},
 	"greater_barghest_mythic": {
 		"name": "Greater Barghest",
-		"file": "mythicmonsterdisplay928d.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Greater Barghest",
@@ -2730,7 +2690,6 @@
 	},
 	"grendel_mythic": {
 		"name": "Grendel",
-		"file": "mythicmonsterdisplay0560.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Grendel",
@@ -2788,7 +2747,6 @@
 	},
 	"griffon_mythic": {
 		"name": "Griffon",
-		"file": "mythicmonsterdisplayf1ab.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Griffon",
@@ -2848,7 +2806,6 @@
 	},
 	"grogrisant_mythic": {
 		"name": "Grogrisant",
-		"file": "mythicmonsterdisplay0290.html",
 		"sources": [ "Taldor, the First Empire" ],
 		"description": [
 			"## Grogrisant",
@@ -2917,7 +2874,6 @@
 	},
 	"guardian_dragon_mythic": {
 		"name": "Guardian Dragon",
-		"file": "mythicmonsterdisplay7d39.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Guardian Dragon",
@@ -2998,7 +2954,6 @@
 	},
 	"hell_hound_mythic": {
 		"name": "Hell Hound",
-		"file": "mythicmonsterdisplay699e.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Hell Hound",
@@ -3052,7 +3007,6 @@
 	},
 	"hell_hound,_nessian_warhound_mythic": {
 		"name": "Hell Hound, Nessian Warhound",
-		"file": "mythicmonsterdisplay153f.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Hell Hound, Nessian Warhound",
@@ -3106,7 +3060,6 @@
 	"nessian_warhound_mythic": { "copyof": "hell_hound,_nessian_warhound_mythic" },
 	"human_skeleton_mythic": {
 		"name": "Human Skeleton",
-		"file": "mythicmonsterdisplay4e20.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Human Skeleton",
@@ -3181,7 +3134,6 @@
 	},
 	"hydra_mythic": {
 		"name": "Hydra",
-		"file": "mythicmonsterdisplayc54c.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Hydra",
@@ -3239,7 +3191,6 @@
 	},
 	"irminsul_mythic": {
 		"name": "Irminsul",
-		"file": "mythicmonsterdisplayaa24.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Irminsul",
@@ -3299,7 +3250,6 @@
 	},
 	"julunggali_mythic": {
 		"name": "Julunggali",
-		"file": "mythicmonsterdisplaye192.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Julunggali",
@@ -3365,7 +3315,6 @@
 	},
 	"lamia_mythic": {
 		"name": "Lamia",
-		"file": "mythicmonsterdisplay4be8.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Lamia",
@@ -3438,7 +3387,6 @@
 	},
 	"leanan_sidhe_mythic": {
 		"name": "Leanan Sidhe",
-		"file": "mythicmonsterdisplay5ad1.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Leanan Sidhe",
@@ -3501,7 +3449,6 @@
 	},
 	"lich_mythic": {
 		"name": "Lich",
-		"file": "mythicmonsterdisplay37f3.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Lich",
@@ -3606,7 +3553,6 @@
 	},
 	"manasaputra,_solar_pitri_agnishvatta_mythic": {
 		"name": "Manasaputra, Solar Pitri (Agnishvatta)",
-		"file": "mythicmonsterdisplay6945.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Manasaputra, Solar Pitri (Agnishvatta)",
@@ -3687,7 +3633,6 @@
 	"solar_pitri_mythic": { "copyof": "manasaputra,_solar_pitri_agnishvatta_mythic" },
 	"manticore_mythic": {
 		"name": "Manticore",
-		"file": "mythicmonsterdisplay1f53.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Manticore",
@@ -3748,7 +3693,6 @@
 	},
 	"medusa_mythic": {
 		"name": "Medusa",
-		"file": "mythicmonsterdisplayb72d.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Medusa",
@@ -3811,7 +3755,6 @@
 	},
 	"minotaur_mythic": {
 		"name": "Minotaur",
-		"file": "mythicmonsterdisplayfe22.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Minotaur",
@@ -3870,7 +3813,6 @@
 	},
 	"mummy_mythic": {
 		"name": "Mummy",
-		"file": "mythicmonsterdisplay2107.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Mummy",
@@ -3932,7 +3874,6 @@
 	},
 	"myrmecoleon_mythic": {
 		"name": "Myrmecoleon",
-		"file": "mythicmonsterdisplaya468.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Myrmecoleon",
@@ -3993,7 +3934,6 @@
 	},
 	"ogre_mythic": {
 		"name": "Ogre",
-		"file": "mythicmonsterdisplay3302.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Ogre",
@@ -4054,7 +3994,6 @@
 	},
 	"ophiotaurus_mythic": {
 		"name": "Ophiotaurus",
-		"file": "mythicmonsterdisplaya01c.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Ophiotaurus",
@@ -4121,7 +4060,6 @@
 	},
 	"owlbear_mythic": {
 		"name": "Owlbear",
-		"file": "mythicmonsterdisplaya0a2.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Owlbear",
@@ -4174,7 +4112,6 @@
 	},
 	"phoenix_mythic": {
 		"name": "Phoenix",
-		"file": "mythicmonsterdisplayc56a.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Phoenix",
@@ -4241,7 +4178,6 @@
 	},
 	"plague_swarm,_bat_plague_swarm_mythic": {
 		"name": "Plague Swarm, Bat Plague Swarm",
-		"file": "mythicmonsterdisplayf081.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Plague Swarm, Bat Plague Swarm",
@@ -4298,7 +4234,6 @@
 	"bat_plague_swarm_mythic": { "copyof": "plague_swarm,_bat_plague_swarm_mythic" },
 	"plague_swarm,_locust_plague_swarm_mythic": {
 		"name": "Plague Swarm, Locust Plague Swarm",
-		"file": "mythicmonsterdisplayaf8e.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Plague Swarm, Locust Plague Swarm",
@@ -4357,7 +4292,6 @@
 	"locust_plague_swarm_mythic": { "copyof": "plague_swarm,_locust_plague_swarm_mythic" },
 	"plague_swarm,_rat_plague_swarm_mythic": {
 		"name": "Plague Swarm, Rat Plague Swarm",
-		"file": "mythicmonsterdisplay3d93.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Plague Swarm, Rat Plague Swarm",
@@ -4420,7 +4354,6 @@
 	"rat_plague_swarm_mythic": { "copyof": "plague_swarm,_rat_plague_swarm_mythic" },
 	"portunus_mythic": {
 		"name": "Portunus",
-		"file": "mythicmonsterdisplaya246.html",
 		"sources": [ "Pathfinder #125: Tower of the Drowned Dead" ],
 		"description": [
 			"## Portunus",
@@ -4505,7 +4438,6 @@
 	},
 	"rakshasa_mythic": {
 		"name": "Rakshasa",
-		"file": "mythicmonsterdisplay5da9.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Rakshasa",
@@ -4570,7 +4502,6 @@
 	},
 	"shen_mythic": {
 		"name": "Shen",
-		"file": "mythicmonsterdisplay9686.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Shen",
@@ -4664,7 +4595,6 @@
 	},
 	"sphinx_mythic": {
 		"name": "Sphinx",
-		"file": "mythicmonsterdisplay4bdb.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Sphinx",
@@ -4723,7 +4653,6 @@
 	},
 	"titan,_danava_mythic": {
 		"name": "Titan, Danava",
-		"file": "mythicmonsterdisplayc9a2.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"## Titan, Danava",
@@ -4805,7 +4734,6 @@
 	"danava_mythic": { "copyof": "titan,_danava_mythic" },
 	"titan,_fomorian_titan_mythic": {
 		"name": "Titan, Fomorian Titan",
-		"file": "mythicmonsterdisplay25c5.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Titan, Fomorian Titan",
@@ -4868,7 +4796,6 @@
 	"fomorian_titan_mythic": { "copyof": "titan,_fomorian_titan_mythic" },
 	"treant_mythic": {
 		"name": "Treant",
-		"file": "mythicmonsterdisplayb378.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Treant",
@@ -4937,7 +4864,6 @@
 	},
 	"troll_mythic": {
 		"name": "Troll",
-		"file": "mythicmonsterdisplay358f.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Troll",
@@ -5013,7 +4939,6 @@
 	},
 	"tyrant_jelly_mythic": {
 		"name": "Tyrant Jelly",
-		"file": "mythicmonsterdisplay8720.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Tyrant Jelly",
@@ -5077,7 +5002,6 @@
 	},
 	"udaeus_mythic": {
 		"name": "Udaeus",
-		"file": "mythicmonsterdisplayb93d.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Udaeus",
@@ -5142,7 +5066,6 @@
 	},
 	"vampire_mythic": {
 		"name": "Vampire",
-		"file": "mythicmonsterdisplay8a4a.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Vampire",
@@ -5239,7 +5162,6 @@
 	},
 	"winter_wolf_mythic": {
 		"name": "Winter Wolf",
-		"file": "mythicmonsterdisplay05f1.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Winter Wolf",
@@ -5290,7 +5212,6 @@
 	},
 	"worg_mythic": {
 		"name": "Worg",
-		"file": "mythicmonsterdisplaycd53.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Worg",
@@ -5343,7 +5264,6 @@
 	},
 	"wyvern_mythic": {
 		"name": "Wyvern",
-		"file": "mythicmonsterdisplayadab.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Wyvern",
@@ -5403,7 +5323,6 @@
 	},
 	"xiomorn,_vault_builder_mythic": {
 		"name": "Xiomorn, Vault Builder",
-		"file": "mythicmonsterdisplay1bac.html",
 		"sources": [
 			"Planar Adventures",
 			"The Emerald Spire Superdungeon"

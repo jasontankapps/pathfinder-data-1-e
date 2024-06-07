@@ -2,7 +2,6 @@
 	"_prefix": "archetype-hunter",
 	"aquatic_beastmaster": {
 		"name": "Aquatic Beastmaster",
-		"file": "archetypedisplay683d.html",
 		"sources": [ "Blood of the Sea" ],
 		"description": [
 			"## Aquatic Beastmaster",
@@ -42,7 +41,6 @@
 	},
 	"chameleon_adept": {
 		"name": "Chameleon Adept",
-		"file": "archetypedisplayd3b2.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Chameleon Adept",
@@ -82,7 +80,6 @@
 	},
 	"colluding_scoundrel": {
 		"name": "Colluding Scoundrel",
-		"file": "archetypedisplay6a48.html",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Colluding Scoundrel",
@@ -110,7 +107,6 @@
 	},
 	"courtly_hunter": {
 		"name": "Courtly Hunter",
-		"file": "archetypedisplayfa61.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Courtly Hunter",
@@ -162,7 +158,6 @@
 	},
 	"divine_hunter": {
 		"name": "Divine Hunter",
-		"file": "archetypedisplay37ae.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Divine Hunter",
@@ -188,7 +183,6 @@
 	},
 	"feral_hunter": {
 		"name": "Feral Hunter",
-		"file": "archetypedisplay5665.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Feral Hunter",
@@ -214,7 +208,6 @@
 	},
 	"feykiller": {
 		"name": "Feykiller",
-		"file": "archetypedisplay3767.html",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"## Feykiller",
@@ -252,7 +245,6 @@
 	},
 	"flood_flourisher": {
 		"name": "Flood Flourisher",
-		"file": "archetypedisplaye953.html",
 		"sources": [ "People of the Wastes" ],
 		"description": [
 			"## Flood Flourisher",
@@ -300,7 +292,6 @@
 	},
 	"forester": {
 		"name": "Forester",
-		"file": "archetypedisplayd2bc.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Forester",
@@ -348,7 +339,6 @@
 	},
 	"packmaster": {
 		"name": "Packmaster",
-		"file": "archetypedisplayd1aa.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Packmaster",
@@ -374,7 +364,6 @@
 	},
 	"patient_ambusher": {
 		"name": "Patient Ambusher",
-		"file": "archetypedisplay92b1.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Magic Tactics Toolbox"
@@ -409,7 +398,6 @@
 	},
 	"pelagic_hunter": {
 		"name": "Pelagic Hunter",
-		"file": "archetypedisplay5881.html",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Pelagic Hunter",
@@ -457,7 +445,6 @@
 	},
 	"plant_master": {
 		"name": "Plant Master",
-		"file": "archetypedisplay8c82.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Plant Master",
@@ -511,7 +498,6 @@
 	},
 	"primal_companion_hunter": {
 		"name": "Primal Companion Hunter",
-		"file": "archetypedisplayd51c.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Primal Companion Hunter",
@@ -537,7 +523,6 @@
 	},
 	"roof_runner": {
 		"name": "Roof Runner",
-		"file": "archetypedisplaybd42.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Roof Runner",
@@ -569,7 +554,6 @@
 	},
 	"scarab_stalker": {
 		"name": "Scarab Stalker",
-		"file": "archetypedisplayb9c8.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Advanced Class Origins"
@@ -620,7 +604,6 @@
 	},
 	"totem-bonded": {
 		"name": "Totem-Bonded",
-		"file": "archetypedisplayad80.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Totem-Bonded",
@@ -648,7 +631,6 @@
 	},
 	"treestrider": {
 		"name": "Treestrider",
-		"file": "archetypedisplaya923.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Treestrider",
@@ -676,7 +658,6 @@
 	},
 	"uprooter_scout": {
 		"name": "Uprooter Scout",
-		"file": "archetypedisplay075a.html",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
 			"## Uprooter Scout",
@@ -694,7 +675,6 @@
 	},
 	"urban_hunter": {
 		"name": "Urban Hunter",
-		"file": "archetypedisplay74d2.html",
 		"sources": [ "Heroes of the Streets" ],
 		"description": [
 			"## Urban Hunter",
@@ -718,7 +698,6 @@
 	},
 	"verminous_hunter": {
 		"name": "Verminous Hunter",
-		"file": "archetypedisplayb01b.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Verminous Hunter",

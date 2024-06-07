@@ -2019,7 +2019,6 @@
 	"_prefix": "magic-ring",
 	"dungeon_ring_prisoner's": {
 		"name": "Dungeon Ring (prisoner's)",
-		"file": "magicringsdisplay0d24.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -2043,7 +2042,6 @@
 	},
 	"ironbound_ring_minion": {
 		"name": "Ironbound Ring (Minion)",
-		"file": "magicringsdisplay5d43.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Ironbound Ring",
@@ -2062,7 +2060,6 @@
 	},
 	"fool's_malady": {
 		"name": "Fool's Malady",
-		"file": "magicringsdisplay776a.html",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Fool's Malady",
@@ -2083,7 +2080,6 @@
 	},
 	"kyton_ring": {
 		"name": "Kyton Ring",
-		"file": "magicringsdisplay99e3.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Kyton Ring",
@@ -2102,7 +2098,6 @@
 	},
 	"ring_of_arcane_signets": {
 		"name": "Ring of Arcane Signets",
-		"file": "magicringsdisplaye286.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -2124,7 +2119,6 @@
 	},
 	"ring_of_inurement": {
 		"name": "Ring of Inurement",
-		"file": "magicringsdisplay1aef.html",
 		"sources": [ "Ire of the Storm" ],
 		"description": [
 			"## Ring of Inurement",
@@ -2143,7 +2137,6 @@
 	},
 	"ring_of_the_faithful_dead": {
 		"name": "Ring of the Faithful Dead",
-		"file": "magicringsdisplay16ad.html",
 		"sources": [ "Inner Sea Temples" ],
 		"description": [
 			"## Ring of the Faithful Dead",
@@ -2162,7 +2155,6 @@
 	},
 	"riverclub_ring": {
 		"name": "Riverclub Ring",
-		"file": "magicringsdisplaycb5e.html",
 		"sources": [ "People of the River" ],
 		"description": [
 			"## Riverclub Ring",
@@ -2181,7 +2173,6 @@
 	},
 	"ring_of_serene_contortions": {
 		"name": "Ring of Serene Contortions",
-		"file": "magicringsdisplay8ef3.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Ring of Serene Contortions",
@@ -2200,7 +2191,6 @@
 	},
 	"dark_life_ring": {
 		"name": "Dark Life Ring",
-		"file": "magicringsdisplayd162.html",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
 			"## Dark Life Ring",
@@ -2221,7 +2211,6 @@
 	},
 	"ring_of_resistance_+1": {
 		"name": "Ring of Resistance (+1)",
-		"file": "magicringsdisplayf881.html",
 		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
 		"description": [
 			"## Ring of Resistance",
@@ -2243,7 +2232,6 @@
 	},
 	"deadeye's_spotter_ring": {
 		"name": "Deadeye's Spotter Ring",
-		"file": "magicringsdisplayfe7e.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Deadeye's Spotter Ring",
@@ -2262,7 +2250,6 @@
 	},
 	"ring_of_spell_knowledge_type_1": {
 		"name": "Ring of Spell Knowledge (type I)",
-		"file": "magicringsdisplayd764.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ring of Spell Knowledge",
@@ -2285,7 +2272,6 @@
 	},
 	"ring_of_balanced_grip": {
 		"name": "Ring of Balanced Grip",
-		"file": "magicringsdisplayfd5d.html",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Ring of Balanced Grip",
@@ -2304,7 +2290,6 @@
 	},
 	"ring_of_starlight": {
 		"name": "Ring of Starlight",
-		"file": "magicringsdisplay4d4d.html",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Ring of Starlight",
@@ -2323,7 +2308,6 @@
 	},
 	"ring_of_protection_+1": {
 		"name": "Ring of Protection (+1)",
-		"file": "magicringsdisplayc981.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2348,7 +2332,6 @@
 	},
 	"bloodletting_thimble": {
 		"name": "Bloodletting Thimble",
-		"file": "magicringsdisplayd8b4.html",
 		"sources": [
 			"Monster Codex",
 			"Blood of the Night"
@@ -2370,7 +2353,6 @@
 	},
 	"ring_of_lingering_blood_magic": {
 		"name": "Ring of Lingering Blood Magic",
-		"file": "magicringsdisplay3500.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Ring of Lingering Blood Magic",
@@ -2389,7 +2371,6 @@
 	},
 	"ring_of_the_grasping_grave": {
 		"name": "Ring of the Grasping Grave",
-		"file": "magicringsdisplay3a3f.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ring of the Grasping Grave",
@@ -2408,7 +2389,6 @@
 	},
 	"ring_of_feather_falling": {
 		"name": "Ring of Feather Falling",
-		"file": "magicringsdisplay5b93.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2430,7 +2410,6 @@
 	},
 	"ring_of_climbing": {
 		"name": "Ring of Climbing",
-		"file": "magicringsdisplay2a72.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2452,7 +2431,6 @@
 	},
 	"ring_of_jumping": {
 		"name": "Ring of Jumping",
-		"file": "magicringsdisplay43b4.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2474,7 +2452,6 @@
 	},
 	"ring_of_sustenance": {
 		"name": "Ring of Sustenance",
-		"file": "magicringsdisplay36ff.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2496,7 +2473,6 @@
 	},
 	"ring_of_swimming": {
 		"name": "Ring of Swimming",
-		"file": "magicringsdisplay23b4.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2518,7 +2494,6 @@
 	},
 	"droskar's_guiding_ring": {
 		"name": "Droskar's Guiding Ring",
-		"file": "magicringsdisplay89bf.html",
 		"sources": [
 			"Inner Sea Gods",
 			"Gods and Magic"
@@ -2540,7 +2515,6 @@
 	},
 	"ring_of_natural_attunement_leshy": {
 		"name": "Ring of Natural Attunement (Leshy)",
-		"file": "magicringsdisplaye2e6.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Ring of Natural Attunement (Leshy)",
@@ -2559,7 +2533,6 @@
 	},
 	"knight-inheritor's_ring": {
 		"name": "Knight-Inheritor's Ring",
-		"file": "magicringsdisplay3595.html",
 		"sources": [
 			"Pathfinder #103: The Hellfire Compact",
 			"Inner Sea Gods"
@@ -2584,7 +2557,6 @@
 	},
 	"profane_seal_signet": {
 		"name": "Profane Seal Signet",
-		"file": "magicringsdisplayd6cd.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Profane Seal Signet",
@@ -2603,7 +2575,6 @@
 	},
 	"ring_of_austere_majesty": {
 		"name": "Ring of Austere Majesty",
-		"file": "magicringsdisplay558f.html",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Ring of Austere Majesty",
@@ -2622,7 +2593,6 @@
 	},
 	"ring_of_ferocious_action": {
 		"name": "Ring of Ferocious Action",
-		"file": "magicringsdisplay5d2e.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Race Guide"
@@ -2644,7 +2614,6 @@
 	},
 	"ring_of_powerful_blood_magic": {
 		"name": "Ring of Powerful Blood Magic",
-		"file": "magicringsdisplaydc45.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Ring of Powerful Blood Magic",
@@ -2663,7 +2632,6 @@
 	},
 	"tyrant's_friend": {
 		"name": "Tyrant's Friend",
-		"file": "magicringsdisplay3433.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
 			"## Tyrant's Friend",
@@ -2682,7 +2650,6 @@
 	},
 	"ring_of_eloquence": {
 		"name": "Ring of Eloquence",
-		"file": "magicringsdisplay7563.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Ring of Eloquence",
@@ -2703,7 +2670,6 @@
 	},
 	"ring_of_stairs_and_stars": {
 		"name": "Ring of Stairs and Stars",
-		"file": "magicringsdisplay886f.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Ring of Stairs and Stars",
@@ -2722,7 +2688,6 @@
 	},
 	"ring_of_ancestral_blood_magic": {
 		"name": "Ring of Ancestral Blood Magic",
-		"file": "magicringsdisplay77ad.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Ring of Ancestral Blood Magic",
@@ -2741,7 +2706,6 @@
 	},
 	"ring_of_counterspells": {
 		"name": "Ring of Counterspells",
-		"file": "magicringsdisplay26ea.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2763,7 +2727,6 @@
 	},
 	"ring_of_planar_focus": {
 		"name": "Ring of Planar Focus",
-		"file": "magicringsdisplaycc22.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Ring of Planar Focus",
@@ -2784,7 +2747,6 @@
 	},
 	"ring_of_seven_lovely_colors": {
 		"name": "Ring of Seven Lovely Colors",
-		"file": "magicringsdisplay56fc.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Ring of Seven Lovely Colors",
@@ -2803,7 +2765,6 @@
 	},
 	"saltspray_ring": {
 		"name": "Saltspray Ring",
-		"file": "magicringsdisplay1c06.html",
 		"sources": [ "Pathfinder #121: The Lost Outpost" ],
 		"description": [
 			"## Saltspray Ring",
@@ -2824,7 +2785,6 @@
 	},
 	"red_hound_ring": {
 		"name": "Red Hound Ring",
-		"file": "magicringsdisplayc2f6.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Red Hound Ring",
@@ -2843,7 +2803,6 @@
 	},
 	"ring_of_delayed_doom_1_stone": {
 		"name": "Ring of Delayed Doom (1 stone)",
-		"file": "magicringsdisplayb3cf.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Ring of Delayed Doom",
@@ -2862,7 +2821,6 @@
 	},
 	"gluttonous_feasting_ring": {
 		"name": "Gluttonous Feasting Ring",
-		"file": "magicringsdisplayd565.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Gluttonous Feasting Ring",
@@ -2881,7 +2839,6 @@
 	},
 	"ring_of_maniacal_devices": {
 		"name": "Ring of Maniacal Devices",
-		"file": "magicringsdisplay9c5d.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -2903,7 +2860,6 @@
 	},
 	"ring_of_rat_fangs": {
 		"name": "Ring of Rat Fangs",
-		"file": "magicringsdisplay7db0.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Race Guide"
@@ -2925,7 +2881,6 @@
 	},
 	"glorious_flame_ring": {
 		"name": "Glorious Flame Ring",
-		"file": "magicringsdisplay4a2a.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Glorious Flame Ring",
@@ -2946,7 +2901,6 @@
 	},
 	"ring_of_vengeful_blood_magic": {
 		"name": "Ring of Vengeful Blood Magic",
-		"file": "magicringsdisplayd8c7.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Ring of Vengeful Blood Magic",
@@ -2965,7 +2919,6 @@
 	},
 	"ring_of_resistance_+2": {
 		"name": "Ring of Resistance (+2)",
-		"file": "magicringsdisplaya975.html",
 		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
 		"copyof": "ring_of_resistance_+1",
 		"display": "magic/ring"
@@ -2975,7 +2928,6 @@
 	},
 	"communique_rings": {
 		"name": "Communique Rings",
-		"file": "magicringsdisplay6ce2.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Communique Rings",
@@ -2994,7 +2946,6 @@
 	},
 	"ring_of_far_strike": {
 		"name": "Ring of Far Strike",
-		"file": "magicringsdisplay4df4.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Ring of Far Strike",
@@ -3013,7 +2964,6 @@
 	},
 	"ring_of_return": {
 		"name": "Ring of Return",
-		"file": "magicringsdisplay89bc.html",
 		"sources": [
 			"Qadira, Jewel of the East",
 			"Ultimate Equipment"
@@ -3035,7 +2985,6 @@
 	},
 	"ring_of_sacred_mistletoe": {
 		"name": "Ring of Sacred Mistletoe",
-		"file": "magicringsdisplay879d.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ring of Sacred Mistletoe",
@@ -3056,7 +3005,6 @@
 	},
 	"ring_of_sundering_metals": {
 		"name": "Ring of Sundering Metals",
-		"file": "magicringsdisplay4f35.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Ring of Sundering Metals",
@@ -3075,7 +3023,6 @@
 	},
 	"ring_of_swarming_stabs": {
 		"name": "Ring of Swarming Stabs",
-		"file": "magicringsdisplay584c.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Race Guide"
@@ -3097,14 +3044,12 @@
 	},
 	"ring_of_spell_knowledge_type_2": {
 		"name": "Ring of Spell Knowledge (type II)",
-		"file": "magicringsdisplay8e73.html",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "ring_of_spell_knowledge_type_1",
 		"display": "magic/ring"
 	},
 	"ring_of_unquenchable_passions": {
 		"name": "Ring of Unquenchable Passions",
-		"file": "magicringsdisplay2c08.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Ring of Unquenchable Passions",
@@ -3123,7 +3068,6 @@
 	},
 	"ring_of_grit_mastery": {
 		"name": "Ring of Grit Mastery",
-		"file": "magicringsdisplay2f63.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ring of Grit Mastery",
@@ -3148,7 +3092,6 @@
 	},
 	"ring_of_summoning_affinity_archon": {
 		"name": "Ring of Summoning Affinity (Archon)",
-		"file": "magicringsdisplaya682.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Ring of Summoning Affinity (Archon)",
@@ -3167,7 +3110,6 @@
 	},
 	"ring_of_summoning_affinity_angel": {
 		"name": "Ring of Summoning Affinity (Angel)",
-		"file": "magicringsdisplayc1ed.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Ring of Summoning Affinity (Angel)",
@@ -3186,7 +3128,6 @@
 	},
 	"ring_of_summoning_affinity_protean": {
 		"name": "Ring of Summoning Affinity (Protean)",
-		"file": "magicringsdisplayc0b6.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Ring of Summoning Affinity (Protean)",
@@ -3205,7 +3146,6 @@
 	},
 	"ring_of_summoning_affinity_kyton": {
 		"name": "Ring of Summoning Affinity (Kyton)",
-		"file": "magicringsdisplay7b78.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Ring of Summoning Affinity (Kyton)",
@@ -3224,7 +3164,6 @@
 	},
 	"ring_of_summoning_affinity_asura": {
 		"name": "Ring of Summoning Affinity (Asura)",
-		"file": "magicringsdisplay6336.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Ring of Summoning Affinity (Asura)",
@@ -3243,7 +3182,6 @@
 	},
 	"ring_of_summoning_affinity_psychopomp": {
 		"name": "Ring of Summoning Affinity (Psychopomp)",
-		"file": "magicringsdisplay5e6f.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Ring of Summoning Affinity (Psychopomp)",
@@ -3262,7 +3200,6 @@
 	},
 	"ring_of_summoning_affinity_agathion": {
 		"name": "Ring of Summoning Affinity (Agathion)",
-		"file": "magicringsdisplay75f6.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Ring of Summoning Affinity (Agathion)",
@@ -3281,7 +3218,6 @@
 	},
 	"ring_of_culturemeld": {
 		"name": "Ring of Culturemeld",
-		"file": "magicringsdisplay0a6e.html",
 		"sources": [ "Bastards of Golarion" ],
 		"description": [
 			"## Ring of Culturemeld",
@@ -3302,7 +3238,6 @@
 	},
 	"ring_of_natural_attunement_kami": {
 		"name": "Ring of Natural Attunement (Kami)",
-		"file": "magicringsdisplay7e84.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Ring of Natural Attunement (Kami)",
@@ -3321,7 +3256,6 @@
 	},
 	"ring_of_summoning_affinity_aeon": {
 		"name": "Ring of Summoning Affinity (Aeon)",
-		"file": "magicringsdisplayc246.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Ring of Summoning Affinity (Aeon)",
@@ -3340,7 +3274,6 @@
 	},
 	"ring_of_the_godless_+1": {
 		"name": "Ring of the Godless (+1)",
-		"file": "magicringsdisplayc564.html",
 		"sources": [ "People of the Sands" ],
 		"description": [
 			"## Ring of the Godless",
@@ -3364,7 +3297,6 @@
 	},
 	"ring_of_protection_+2": {
 		"name": "Ring of Protection (+2)",
-		"file": "magicringsdisplay7f13.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3377,7 +3309,6 @@
 	},
 	"maintenance_overseer's_ring": {
 		"name": "Maintenance Overseer's Ring",
-		"file": "magicringsdisplayea83.html",
 		"sources": [ "Heroes of the Streets" ],
 		"description": [
 			"## Maintenance Overseer's Ring",
@@ -3398,14 +3329,12 @@
 	},
 	"ironbound_ring_master": {
 		"name": "Ironbound Ring (Master)",
-		"file": "magicringsdisplayde76.html",
 		"sources": [ "Adventurer's Guide" ],
 		"copyof": "ironbound_ring_minion",
 		"display": "magic/ring"
 	},
 	"ring_of_forcefangs": {
 		"name": "Ring of Forcefangs",
-		"file": "magicringsdisplayac6c.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3427,7 +3356,6 @@
 	},
 	"ring_of_heroes": {
 		"name": "Ring of Heroes",
-		"file": "magicringsdisplayee59.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Ring of Heroes",
@@ -3446,7 +3374,6 @@
 	},
 	"ring_of_mind_shielding": {
 		"name": "Ring of Mind Shielding",
-		"file": "magicringsdisplay92cb.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3468,7 +3395,6 @@
 	},
 	"ring_of_strength_sapping": {
 		"name": "Ring of Strength Sapping",
-		"file": "magicringsdisplay1c22.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ring of Strength Sapping",
@@ -3487,7 +3413,6 @@
 	},
 	"ring_of_the_beast": {
 		"name": "Ring of the Beast",
-		"file": "magicringsdisplay5b51.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
 			"## Ring of the Beast",
@@ -3506,7 +3431,6 @@
 	},
 	"society_ring": {
 		"name": "Society Ring",
-		"file": "magicringsdisplaye99c.html",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Society Ring",
@@ -3529,7 +3453,6 @@
 	},
 	"soultether_ring": {
 		"name": "Soultether Ring",
-		"file": "magicringsdisplay3c06.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Soultether Ring",
@@ -3548,7 +3471,6 @@
 	},
 	"ring_of_summoning_affinity_inevitable": {
 		"name": "Ring of Summoning Affinity (Inevitable)",
-		"file": "magicringsdisplaycacb.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Ring of Summoning Affinity (Inevitable)",
@@ -3567,7 +3489,6 @@
 	},
 	"band_of_toxic_nullification": {
 		"name": "Band of Toxic Nullification",
-		"file": "magicringsdisplay8627.html",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Band of Toxic Nullification",
@@ -3586,7 +3507,6 @@
 	},
 	"contract_rings": {
 		"name": "Contract Rings",
-		"file": "magicringsdisplay90d0.html",
 		"sources": [ "Cohorts and Companions" ],
 		"description": [
 			"## Contract Rings",
@@ -3607,7 +3527,6 @@
 	},
 	"ring_of_force_shield": {
 		"name": "Ring of Force Shield",
-		"file": "magicringsdisplayecdb.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3629,7 +3548,6 @@
 	},
 	"ring_of_summoning_affinity_qlippoth": {
 		"name": "Ring of Summoning Affinity (Qlippoth)",
-		"file": "magicringsdisplay89c2.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Ring of Summoning Affinity (Qlippoth)",
@@ -3648,7 +3566,6 @@
 	},
 	"ring_of_the_ram": {
 		"name": "Ring of the Ram",
-		"file": "magicringsdisplayea11.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3674,7 +3591,6 @@
 	},
 	"scholar's_ring": {
 		"name": "Scholar's Ring",
-		"file": "magicringsdisplaya380.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Scholar's Ring",
@@ -3695,7 +3611,6 @@
 	},
 	"ring_of_protected_life": {
 		"name": "Ring of Protected Life",
-		"file": "magicringsdisplayb613.html",
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Ring of Protected Life",
@@ -3714,7 +3629,6 @@
 	},
 	"rings_of_friend-finding": {
 		"name": "Rings of Friend-Finding",
-		"file": "magicringsdisplay089d.html",
 		"sources": [ "Cohorts and Companions" ],
 		"description": [
 			"## Rings of Friend-Finding",
@@ -3736,7 +3650,6 @@
 	},
 	"ring_of_summoning_affinity_div": {
 		"name": "Ring of Summoning Affinity (Div)",
-		"file": "magicringsdisplayb748.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Ring of Summoning Affinity (Div)",
@@ -3755,7 +3668,6 @@
 	},
 	"band_of_efficacious_death": {
 		"name": "Band of Efficacious Death",
-		"file": "magicringsdisplayf5bd.html",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Band of Efficacious Death",
@@ -3774,7 +3686,6 @@
 	},
 	"splendorous_ring": {
 		"name": "Splendorous Ring",
-		"file": "magicringsdisplay12b5.html",
 		"sources": [ "Chronicle of the Righteous" ],
 		"description": [
 			"## Source [Chronicle of the Righteous pg. 53](source/chronicle_of_the_righteous)",
@@ -3794,14 +3705,12 @@
 	},
 	"ring_of_delayed_doom_2_stones": {
 		"name": "Ring of Delayed Doom (2 stones)",
-		"file": "magicringsdisplayab05.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "ring_of_delayed_doom_1_stone",
 		"display": "magic/ring"
 	},
 	"ring_of_revelation_lesser": {
 		"name": "Ring of Revelation (lesser)",
-		"file": "magicringsdisplayd713.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3828,7 +3737,6 @@
 	},
 	"ring_of_climbing_improved": {
 		"name": "Ring of Climbing (improved)",
-		"file": "magicringsdisplayae45.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3853,7 +3761,6 @@
 	},
 	"ring_of_curing": {
 		"name": "Ring of Curing",
-		"file": "magicringsdisplay90f0.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ring of Curing",
@@ -3872,7 +3779,6 @@
 	},
 	"ring_of_foe_focus": {
 		"name": "Ring of Foe Focus",
-		"file": "magicringsdisplay1202.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ring of Foe Focus",
@@ -3891,7 +3797,6 @@
 	},
 	"ring_of_jumping_improved": {
 		"name": "Ring of Jumping (improved)",
-		"file": "magicringsdisplay74e6.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3916,7 +3821,6 @@
 	},
 	"ring_of_ki_mastery": {
 		"name": "Ring of Ki Mastery",
-		"file": "magicringsdisplay9a6e.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ring of Ki Mastery",
@@ -3939,7 +3843,6 @@
 	},
 	"ring_of_seven_virtues": {
 		"name": "Ring of Seven Virtues",
-		"file": "magicringsdisplayda81.html",
 		"sources": [ "Pathfinder #39: The City of Seven Spears" ],
 		"description": [
 			"## Ring of Seven Virtues",
@@ -3958,7 +3861,6 @@
 	},
 	"ring_of_swimming_improved": {
 		"name": "Ring of Swimming (improved)",
-		"file": "magicringsdisplay1426.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3983,7 +3885,6 @@
 	},
 	"ring_of_summoning_affinity_daemon": {
 		"name": "Ring of Summoning Affinity (Daemon)",
-		"file": "magicringsdisplayde1f.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Ring of Summoning Affinity (Daemon)",
@@ -4002,7 +3903,6 @@
 	},
 	"ring_of_animal_friendship": {
 		"name": "Ring of Animal Friendship",
-		"file": "magicringsdisplay2007.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4024,7 +3924,6 @@
 	},
 	"ring_of_the_iron_skull": {
 		"name": "Ring of the Iron Skull",
-		"file": "magicringsdisplayd8ae.html",
 		"sources": [ "Pathfinder #57: Tempest Rising" ],
 		"description": [
 			"## Ring of the Iron Skull",
@@ -4043,7 +3942,6 @@
 	},
 	"ring_of_transposition": {
 		"name": "Ring of Transposition",
-		"file": "magicringsdisplay4f2d.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ring of Transposition",
@@ -4062,7 +3960,6 @@
 	},
 	"holdout_ring": {
 		"name": "Holdout Ring",
-		"file": "magicringsdisplayce34.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Holdout Ring",
@@ -4083,7 +3980,6 @@
 	},
 	"ring_of_tactical_precision": {
 		"name": "Ring of Tactical Precision",
-		"file": "magicringsdisplay6ecb.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ring of Tactical Precision",
@@ -4102,7 +3998,6 @@
 	},
 	"ring_of_the_sophisticate": {
 		"name": "Ring of the Sophisticate",
-		"file": "magicringsdisplay5042.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Race Guide"
@@ -4124,7 +4019,6 @@
 	},
 	"decoy_ring": {
 		"name": "Decoy Ring",
-		"file": "magicringsdisplaybc78.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Decoy Ring",
@@ -4143,7 +4037,6 @@
 	},
 	"ring_of_energy_resistance_minor": {
 		"name": "Ring of Energy Resistance (minor)",
-		"file": "magicringsdisplaye95e.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4170,7 +4063,6 @@
 	},
 	"ring_of_blood_calling": {
 		"name": "Ring of Blood Calling",
-		"file": "magicringsdisplay9180.html",
 		"sources": [ "Pathfinder #106: For Queen and Empire" ],
 		"description": [
 			"## Ring of Blood Calling",
@@ -4193,7 +4085,6 @@
 	},
 	"ring_of_craft_magic": {
 		"name": "Ring of Craft Magic",
-		"file": "magicringsdisplayf881.html",
 		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
 		"description": [
 			"## Ring of Resistance",
@@ -4212,7 +4103,6 @@
 	},
 	"ring_of_ectoplasmic_invigoration": {
 		"name": "Ring of Ectoplasmic Invigoration",
-		"file": "magicringsdisplay219f.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ring of Ectoplasmic Invigoration",
@@ -4231,7 +4121,6 @@
 	},
 	"ring_of_immolation": {
 		"name": "Ring of Immolation",
-		"file": "magicringsdisplayb337.html",
 		"sources": [
 			"Curse of the Crimson Throne",
 			"Pathfinder #11: Skeletons of Scarwall"
@@ -4253,7 +4142,6 @@
 	},
 	"ring_of_retreat": {
 		"name": "Ring of Retreat",
-		"file": "magicringsdisplay26b3.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Ring of Retreat",
@@ -4272,7 +4160,6 @@
 	},
 	"ring_of_the_troglodyte": {
 		"name": "Ring of the Troglodyte",
-		"file": "magicringsdisplay92f3.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ring of the Troglodyte",
@@ -4293,7 +4180,6 @@
 	},
 	"steelhand_circle": {
 		"name": "Steelhand Circle",
-		"file": "magicringsdisplaye6a8.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Steelhand Circle",
@@ -4314,7 +4200,6 @@
 	},
 	"ring_of_chameleon_power": {
 		"name": "Ring of Chameleon Power",
-		"file": "magicringsdisplayefb5.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4336,7 +4221,6 @@
 	},
 	"ring_of_natural_attunement_drake": {
 		"name": "Ring of Natural Attunement (Drake)",
-		"file": "magicringsdisplay2a0b.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Ring of Natural Attunement (Drake)",
@@ -4355,7 +4239,6 @@
 	},
 	"ghost_battling_ring": {
 		"name": "Ghost Battling Ring",
-		"file": "magicringsdisplay17f1.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Ghost Battling Ring",
@@ -4374,7 +4257,6 @@
 	},
 	"ring_of_resistance_+3": {
 		"name": "Ring of Resistance (+3)",
-		"file": "magicringsdisplay84f0.html",
 		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
 		"copyof": "ring_of_resistance_+1",
 		"display": "magic/ring"
@@ -4384,14 +4266,12 @@
 	},
 	"ring_of_spell_knowledge_type_3": {
 		"name": "Ring of Spell Knowledge (type III)",
-		"file": "magicringsdisplay27cf.html",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "ring_of_spell_knowledge_type_1",
 		"display": "magic/ring"
 	},
 	"ring_of_rulership": {
 		"name": "Ring of Rulership",
-		"file": "magicringsdisplayff42.html",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Ring of Rulership",
@@ -4414,7 +4294,6 @@
 	},
 	"ring_of_the_sea_strider": {
 		"name": "Ring of the Sea Strider",
-		"file": "magicringsdisplay1bf0.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ring of the Sea Strider",
@@ -4433,7 +4312,6 @@
 	},
 	"duxotar's_signet": {
 		"name": "Duxotar's Signet",
-		"file": "magicringsdisplay5150.html",
 		"sources": [ "Pathfinder #108: Hell Comes to Westcrown" ],
 		"description": [
 			"## Duxotar's Signet",
@@ -4452,14 +4330,12 @@
 	},
 	"ring_of_delayed_doom_3_stones": {
 		"name": "Ring of Delayed Doom (3 stones)",
-		"file": "magicringsdisplayab55.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "ring_of_delayed_doom_1_stone",
 		"display": "magic/ring"
 	},
 	"ophidian_coil": {
 		"name": "Ophidian Coil",
-		"file": "magicringsdisplaya0a2.html",
 		"sources": [ "Down the Blighted Path" ],
 		"description": [
 			"## Ophidian Coil",
@@ -4484,7 +4360,6 @@
 	},
 	"ring_of_adept_maneuvers": {
 		"name": "Ring of Adept Maneuvers",
-		"file": "magicringsdisplaya5dc.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Ring of Adept Maneuvers",
@@ -4507,7 +4382,6 @@
 	},
 	"ring_of_resilience": {
 		"name": "Ring of Resilience",
-		"file": "magicringsdisplay76c3.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Ring of Resilience",
@@ -4526,7 +4400,6 @@
 	},
 	"ring_of_retribution": {
 		"name": "Ring of Retribution",
-		"file": "magicringsdisplay6eb4.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -4548,7 +4421,6 @@
 	},
 	"ring_of_the_cacodaemon": {
 		"name": "Ring of the Cacodaemon",
-		"file": "magicringsdisplay2236.html",
 		"sources": [ "Book of the Damned" ],
 		"description": [
 			"## Ring of the Cacodaemon",
@@ -4567,7 +4439,6 @@
 	},
 	"ring_of_water_walking": {
 		"name": "Ring of Water Walking",
-		"file": "magicringsdisplay4860.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4589,7 +4460,6 @@
 	},
 	"scavenger's_ring": {
 		"name": "Scavenger's Ring",
-		"file": "magicringsdisplay8663.html",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Scavenger's Ring",
@@ -4608,7 +4478,6 @@
 	},
 	"ring_of_revelation_greater": {
 		"name": "Ring of Revelation (greater)",
-		"file": "magicringsdisplay48cf.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -4621,7 +4490,6 @@
 	},
 	"heavenly_aegis_ring": {
 		"name": "Heavenly Aegis Ring",
-		"file": "magicringsdisplay72c7.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Heavenly Aegis Ring",
@@ -4644,7 +4512,6 @@
 	},
 	"dungeon_ring_jailer's": {
 		"name": "Dungeon Ring (jailer's)",
-		"file": "magicringsdisplay6a9b.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -4654,7 +4521,6 @@
 	},
 	"ring_of_perfect_sizing": {
 		"name": "Ring of Perfect Sizing",
-		"file": "magicringsdisplayed1a.html",
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
 			"## Ring of Perfect Sizing",
@@ -4673,7 +4539,6 @@
 	},
 	"sigil_of_kraggodan": {
 		"name": "Sigil of Kraggodan",
-		"file": "magicringsdisplay89f5.html",
 		"sources": [ "Pathfinder #118: Siege of Stone" ],
 		"description": [
 			"## Sigil of Kraggodan",
@@ -4692,7 +4557,6 @@
 	},
 	"ring_of_entropy_and_order": {
 		"name": "Ring of Entropy and Order",
-		"file": "magicringsdisplayb922.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Ring of Entropy and Order",
@@ -4711,7 +4575,6 @@
 	},
 	"ring_of_the_godless_+2": {
 		"name": "Ring of the Godless (+2)",
-		"file": "magicringsdisplayc76c.html",
 		"sources": [ "People of the Sands" ],
 		"copyof": "ring_of_the_godless_+1",
 		"display": "magic/ring"
@@ -4721,7 +4584,6 @@
 	},
 	"ring_of_protection_+3": {
 		"name": "Ring of Protection (+3)",
-		"file": "magicringsdisplay4bc3.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4734,7 +4596,6 @@
 	},
 	"ring_of_inner_fortitude_minor": {
 		"name": "Ring of Inner Fortitude (minor)",
-		"file": "magicringsdisplaydae6.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ring of Inner Fortitude",
@@ -4762,7 +4623,6 @@
 	},
 	"ring_of_spell_storing_minor": {
 		"name": "Ring of Spell Storing (minor)",
-		"file": "magicringsdisplay59ea.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4787,7 +4647,6 @@
 	},
 	"ring_of_stony_flesh": {
 		"name": "Ring of Stony Flesh",
-		"file": "magicringsdisplay2d60.html",
 		"sources": [ "Pathfinder #83: The Slave Trenches of Hakotep" ],
 		"description": [
 			"## Ring of Stony Flesh",
@@ -4806,7 +4665,6 @@
 	},
 	"rings_of_bondage": {
 		"name": "Rings of Bondage",
-		"file": "magicringsdisplayc730.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Rings of Bondage",
@@ -4831,7 +4689,6 @@
 	},
 	"ring_of_energy_shroud": {
 		"name": "Ring of Energy Shroud",
-		"file": "magicringsdisplay3d65.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ring of Energy Shroud",
@@ -4850,14 +4707,12 @@
 	},
 	"ring_of_delayed_doom_4_stones": {
 		"name": "Ring of Delayed Doom (4 stones)",
-		"file": "magicringsdisplayfda3.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "ring_of_delayed_doom_1_stone",
 		"display": "magic/ring"
 	},
 	"nethysian_ring_of_minor_spell_storing": {
 		"name": "Nethysian Ring of Minor Spell Storing",
-		"file": "magicringsdisplay84a7.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Nethysian Ring of Minor Spell Storing",
@@ -4876,7 +4731,6 @@
 	},
 	"ring_of_arcane_mastery": {
 		"name": "Ring of Arcane Mastery",
-		"file": "magicringsdisplay0301.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ring of Arcane Mastery",
@@ -4899,7 +4753,6 @@
 	},
 	"ring_of_invisibility": {
 		"name": "Ring of Invisibility",
-		"file": "magicringsdisplay41e4.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -4921,7 +4774,6 @@
 	},
 	"ring_of_phrenic_prowess": {
 		"name": "Ring of Phrenic Prowess",
-		"file": "magicringsdisplay444f.html",
 		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Ring of Phrenic Prowess",
@@ -4944,7 +4796,6 @@
 	},
 	"ring_of_plagues": {
 		"name": "Ring of Plagues",
-		"file": "magicringsdisplayb602.html",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
 			"## Ring of Plagues",
@@ -4965,7 +4816,6 @@
 	},
 	"ring_of_terrible_cost": {
 		"name": "Ring of Terrible Cost",
-		"file": "magicringsdisplayf521.html",
 		"sources": [ "Cheliax, Empire of Devils" ],
 		"description": [
 			"## Ring of Terrible Cost",
@@ -4990,7 +4840,6 @@
 	},
 	"ring_of_wizardry_type_1": {
 		"name": "Ring of Wizardry (type I)",
-		"file": "magicringsdisplayc7e7.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5012,7 +4861,6 @@
 	},
 	"ring_of_mysticism_type_1": {
 		"name": "Ring of Mysticism (Type I)",
-		"file": "magicringsdisplay19e8.html",
 		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Ring of Mysticism",
@@ -5031,7 +4879,6 @@
 	},
 	"ring_of_resistance_+4": {
 		"name": "Ring of Resistance (+4)",
-		"file": "magicringsdisplay88e2.html",
 		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
 		"copyof": "ring_of_resistance_+1",
 		"display": "magic/ring"
@@ -5041,7 +4888,6 @@
 	},
 	"ring_of_revelation_superior": {
 		"name": "Ring of Revelation (superior)",
-		"file": "magicringsdisplaycae3.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -5051,21 +4897,18 @@
 	},
 	"ring_of_spell_knowledge_type_4": {
 		"name": "Ring of Spell Knowledge (type IV)",
-		"file": "magicringsdisplay381e.html",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "ring_of_spell_knowledge_type_1",
 		"display": "magic/ring"
 	},
 	"ring_of_delayed_doom_5_stones": {
 		"name": "Ring of Delayed Doom (5 stones)",
-		"file": "magicringsdisplayc1fe.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "ring_of_delayed_doom_1_stone",
 		"display": "magic/ring"
 	},
 	"ring_of_evasion": {
 		"name": "Ring of Evasion",
-		"file": "magicringsdisplay95db.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5087,7 +4930,6 @@
 	},
 	"ring_of_x-ray_vision": {
 		"name": "Ring of X-Ray Vision",
-		"file": "magicringsdisplay59c5.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5114,7 +4956,6 @@
 	},
 	"witness_hunter's_ring": {
 		"name": "Witness Hunter's Ring",
-		"file": "magicringsdisplay3b8c.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Witness Hunter's Ring",
@@ -5133,7 +4974,6 @@
 	},
 	"swarmwalker's_ring": {
 		"name": "Swarmwalker's Ring",
-		"file": "magicringsdisplay4142.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Swarmwalker's Ring",
@@ -5156,7 +4996,6 @@
 	},
 	"ring_of_the_godless_+3": {
 		"name": "Ring of the Godless (+3)",
-		"file": "magicringsdisplaydaaa.html",
 		"sources": [ "People of the Sands" ],
 		"copyof": "ring_of_the_godless_+1",
 		"display": "magic/ring"
@@ -5166,7 +5005,6 @@
 	},
 	"ring_of_blinking": {
 		"name": "Ring of Blinking",
-		"file": "magicringsdisplay03cc.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5188,7 +5026,6 @@
 	},
 	"ring_of_energy_resistance_major": {
 		"name": "Ring of Energy Resistance (major)",
-		"file": "magicringsdisplay731c.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5198,7 +5035,6 @@
 	},
 	"ring_of_the_ecclesiarch": {
 		"name": "Ring of the Ecclesiarch",
-		"file": "magicringsdisplayaedb.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ring of the Ecclesiarch",
@@ -5219,14 +5055,12 @@
 	},
 	"ring_of_delayed_doom_6_stones": {
 		"name": "Ring of Delayed Doom (6 stones)",
-		"file": "magicringsdisplay29bb.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "ring_of_delayed_doom_1_stone",
 		"display": "magic/ring"
 	},
 	"elemental_ring": {
 		"name": "Elemental Ring",
-		"file": "magicringsdisplaydc98.html",
 		"sources": [ "Cohorts and Companions" ],
 		"description": [
 			"## Elemental Ring",
@@ -5247,7 +5081,6 @@
 	},
 	"planefarer's_band": {
 		"name": "Planefarer's Band",
-		"file": "magicringsdisplayeb51.html",
 		"sources": [ "Planes of Power" ],
 		"description": [
 			"## Planefarer's Band",
@@ -5274,7 +5107,6 @@
 	},
 	"ring_of_transcendent_spells": {
 		"name": "Ring of Transcendent Spells",
-		"file": "magicringsdisplay756f.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Ring of Transcendent Spells",
@@ -5297,7 +5129,6 @@
 	},
 	"rings_of_alien_geometries": {
 		"name": "Rings of Alien Geometries",
-		"file": "magicringsdisplay854a.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Rings of Alien Geometries",
@@ -5318,7 +5149,6 @@
 	},
 	"ring_of_resumption": {
 		"name": "Ring of Resumption",
-		"file": "magicringsdisplaya660.html",
 		"sources": [ "Healer's Handbook" ],
 		"description": [
 			"## Ring of Resumption",
@@ -5339,7 +5169,6 @@
 	},
 	"ring_of_energy_dampening": {
 		"name": "Ring of Energy Dampening",
-		"file": "magicringsdisplay5d09.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Ring of Energy Dampening",
@@ -5358,7 +5187,6 @@
 	},
 	"ring_of_protection_+4": {
 		"name": "Ring of Protection (+4)",
-		"file": "magicringsdisplay855e.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5371,7 +5199,6 @@
 	},
 	"ring_of_refusal": {
 		"name": "Ring of Refusal",
-		"file": "magicringsdisplay2fd2.html",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"## Ring of Refusal",
@@ -5392,14 +5219,12 @@
 	},
 	"ring_of_delayed_doom_7_stones": {
 		"name": "Ring of Delayed Doom (7 stones)",
-		"file": "magicringsdisplay344f.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "ring_of_delayed_doom_1_stone",
 		"display": "magic/ring"
 	},
 	"sihedron_ring": {
 		"name": "Sihedron Ring",
-		"file": "magicringsdisplay4473.html",
 		"sources": [
 			"Rise of the Runelords Anniversary Edition",
 			"Pathfinder #6: Spires of Xin-Shalast"
@@ -5423,7 +5248,6 @@
 	},
 	"ring_of_resistance_+5": {
 		"name": "Ring of Resistance (+5)",
-		"file": "magicringsdisplaye74b.html",
 		"sources": [ "Pathfinder #123: The Flooded Cathedral" ],
 		"copyof": "ring_of_resistance_+1",
 		"display": "magic/ring"
@@ -5433,7 +5257,6 @@
 	},
 	"ring_of_the_godless_+4": {
 		"name": "Ring of the Godless (+4)",
-		"file": "magicringsdisplay2e44.html",
 		"sources": [ "People of the Sands" ],
 		"copyof": "ring_of_the_godless_+1",
 		"display": "magic/ring"
@@ -5443,14 +5266,12 @@
 	},
 	"ring_of_delayed_doom_8_stones": {
 		"name": "Ring of Delayed Doom (8 stones)",
-		"file": "magicringsdisplay3597.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "ring_of_delayed_doom_1_stone",
 		"display": "magic/ring"
 	},
 	"ring_of_freedom_of_movement": {
 		"name": "Ring of Freedom of Movement",
-		"file": "magicringsdisplayde33.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5472,14 +5293,12 @@
 	},
 	"ring_of_mysticism_type_2": {
 		"name": "Ring of Mysticism (Type II)",
-		"file": "magicringsdisplay5a10.html",
 		"sources": [ "Psychic Anthology" ],
 		"copyof": "ring_of_mysticism_type_1",
 		"display": "magic/ring"
 	},
 	"ring_of_wizardry_type_2": {
 		"name": "Ring of Wizardry (type II)",
-		"file": "magicringsdisplay9aef.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5489,14 +5308,12 @@
 	},
 	"ring_of_inner_fortitude_major": {
 		"name": "Ring of Inner Fortitude (major)",
-		"file": "magicringsdisplay9eab.html",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "ring_of_inner_fortitude_minor",
 		"display": "magic/ring"
 	},
 	"rings_of_bondage,_greater": {
 		"name": "Rings of Bondage, Greater",
-		"file": "magicringsdisplay5759.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Rings of Bondage, Greater",
@@ -5520,7 +5337,6 @@
 	},
 	"ring_of_energy_resistance_greater": {
 		"name": "Ring of Energy Resistance (greater)",
-		"file": "magicringsdisplaybd53.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5533,14 +5349,12 @@
 	},
 	"ring_of_delayed_doom_9_stones": {
 		"name": "Ring of Delayed Doom (9 stones)",
-		"file": "magicringsdisplay1dd5.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"copyof": "ring_of_delayed_doom_1_stone",
 		"display": "magic/ring"
 	},
 	"ring_of_delayed_doom": {
 		"name": "Ring of Delayed Doom",
-		"file": "magicringsdisplay5a0a.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ring of Delayed Doom",
@@ -5559,7 +5373,6 @@
 	},
 	"ring_of_fear_reflection": {
 		"name": "Ring of Fear Reflection",
-		"file": "magicringsdisplaydb46.html",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Source [Dragonslayer's Handbook pg. 31](source/dragonslayer's_handbook)",
@@ -5581,7 +5394,6 @@
 	},
 	"ring_of_protection_+5": {
 		"name": "Ring of Protection (+5)",
-		"file": "magicringsdisplay6f42.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5594,7 +5406,6 @@
 	},
 	"ring_of_the_godless_+5": {
 		"name": "Ring of the Godless (+5)",
-		"file": "magicringsdisplay9dbb.html",
 		"sources": [ "People of the Sands" ],
 		"copyof": "ring_of_the_godless_+1",
 		"display": "magic/ring"
@@ -5604,7 +5415,6 @@
 	},
 	"band_of_triumph": {
 		"name": "Band of Triumph",
-		"file": "magicringsdisplay5cb2.html",
 		"sources": [ "Pathfinder #131: The Reaper's Right Hand" ],
 		"description": [
 			"## Band of Triumph",
@@ -5625,7 +5435,6 @@
 	},
 	"ring_of_friend_shield": {
 		"name": "Ring of Friend Shield",
-		"file": "magicringsdisplay14c0.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5647,7 +5456,6 @@
 	},
 	"ring_of_psychic_mastery": {
 		"name": "Ring of Psychic Mastery",
-		"file": "magicringsdisplayae3a.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Ring of Psychic Mastery",
@@ -5666,7 +5474,6 @@
 	},
 	"ring_of_shooting_stars": {
 		"name": "Ring of Shooting Stars",
-		"file": "magicringsdisplayba03.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5714,7 +5521,6 @@
 	},
 	"ring_of_spell_storing": {
 		"name": "Ring of Spell Storing",
-		"file": "magicringsdisplayeea7.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5742,7 +5548,6 @@
 	},
 	"ring_of_continuation": {
 		"name": "Ring of Continuation",
-		"file": "magicringsdisplay82d7.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Ring of Continuation",
@@ -5761,7 +5566,6 @@
 	},
 	"survivor's_ring": {
 		"name": "Survivor's Ring",
-		"file": "magicringsdisplay1bfd.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Survivor's Ring",
@@ -5780,7 +5584,6 @@
 	},
 	"ring_of_inner_fortitude_greater": {
 		"name": "Ring of Inner Fortitude (greater)",
-		"file": "magicringsdisplay0291.html",
 		"sources": [ "Ultimate Equipment" ],
 		"copyof": "ring_of_inner_fortitude_minor",
 		"display": "magic/ring"
@@ -5790,7 +5593,6 @@
 	},
 	"spiritualist_rings": {
 		"name": "Spiritualist Rings",
-		"file": "magicringsdisplay9eda.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Spiritualist Rings",
@@ -5814,7 +5616,6 @@
 	},
 	"ring_of_wizardry_type_3": {
 		"name": "Ring of Wizardry (type III)",
-		"file": "magicringsdisplay7e34.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5824,14 +5625,12 @@
 	},
 	"ring_of_mysticism_type_3": {
 		"name": "Ring of Mysticism (Type III)",
-		"file": "magicringsdisplay4975.html",
 		"sources": [ "Psychic Anthology" ],
 		"copyof": "ring_of_mysticism_type_1",
 		"display": "magic/ring"
 	},
 	"ring_of_telekinesis": {
 		"name": "Ring of Telekinesis",
-		"file": "magicringsdisplay243f.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5853,7 +5652,6 @@
 	},
 	"ring_of_regeneration": {
 		"name": "Ring of Regeneration",
-		"file": "magicringsdisplayaf85.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5875,7 +5673,6 @@
 	},
 	"ring_of_spell_turning": {
 		"name": "Ring of Spell Turning",
-		"file": "magicringsdisplay0dfb.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5897,14 +5694,12 @@
 	},
 	"ring_of_mysticism_type_4": {
 		"name": "Ring of Mysticism (Type IV)",
-		"file": "magicringsdisplayf062.html",
 		"sources": [ "Psychic Anthology" ],
 		"copyof": "ring_of_mysticism_type_1",
 		"display": "magic/ring"
 	},
 	"ring_of_wizardry_type_4": {
 		"name": "Ring of Wizardry (type IV)",
-		"file": "magicringsdisplay4839.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5914,7 +5709,6 @@
 	},
 	"ring_of_the_shadow_victim": {
 		"name": "Ring of the Shadow Victim",
-		"file": "magicringsdisplay0187.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Ring of the Shadow Victim",
@@ -5939,7 +5733,6 @@
 	},
 	"ring_of_three_wishes": {
 		"name": "Ring of Three Wishes",
-		"file": "magicringsdisplay6ea1.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5961,7 +5754,6 @@
 	},
 	"ring_of_djinni_calling": {
 		"name": "Ring of Djinni Calling",
-		"file": "magicringsdisplay7021.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -5983,7 +5775,6 @@
 	},
 	"ring_of_the_recalled_soul": {
 		"name": "Ring of the Recalled Soul",
-		"file": "magicringsdisplay7aa0.html",
 		"sources": [ "Pathfinder #132: The Six-Legend Soul" ],
 		"description": [
 			"## Ring of the Recalled Soul",
@@ -6006,7 +5797,6 @@
 	},
 	"ring_of_the_hidden_psyche": {
 		"name": "Ring of the Hidden Psyche",
-		"file": "magicringsdisplaybf5d.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Ring of the Hidden Psyche",
@@ -6029,7 +5819,6 @@
 	},
 	"ring_of_splendid_security": {
 		"name": "Ring of Splendid Security",
-		"file": "magicringsdisplaya17a.html",
 		"sources": [
 			"Curse of the Crimson Throne",
 			"Pathfinder #12: Crown of Fangs"
@@ -6051,7 +5840,6 @@
 	},
 	"ring_of_elemental_command": {
 		"name": "Ring of Elemental Command",
-		"file": "magicringsdisplay8d30.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -6133,7 +5921,6 @@
 	},
 	"ring_of_spell_storing_major": {
 		"name": "Ring of Spell Storing (major)",
-		"file": "magicringsdisplay47da.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -6155,7 +5942,6 @@
 	},
 	"wary_ring": {
 		"name": "Wary Ring",
-		"file": "magicintelligentdisplay2663.html",
 		"sources": [ "Magical Marketplace" ],
 		"description": [
 			"## Wary Ring",
@@ -6181,7 +5967,6 @@
 	},
 	"ring_of_the_weary_sky": {
 		"name": "Ring of the Weary Sky",
-		"file": "magicintelligentdisplay5eec.html",
 		"sources": [ "Lost Treasures" ],
 		"description": [
 			"## Ring of the Weary Sky",
@@ -6209,7 +5994,6 @@
 	},
 	"obsession_ring": {
 		"name": "Obsession Ring",
-		"file": "magicintelligentdisplayd29f.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Source [Ultimate Equipment pg. 359](source/ultimate_equipment)",
@@ -6244,7 +6028,6 @@
 	},
 	"cannibal_ring": {
 		"name": "Cannibal Ring",
-		"file": "magiccurseddisplayf8bc.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -6267,7 +6050,6 @@
 	},
 	"chatter_ring": {
 		"name": "Chatter Ring",
-		"file": "magiccurseddisplay30f0.html",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Chatter Ring",
@@ -6286,7 +6068,6 @@
 	},
 	"ring_of_clumsiness": {
 		"name": "Ring of Clumsiness",
-		"file": "magiccurseddisplaye03d.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -6307,7 +6088,6 @@
 	},
 	"ring_of_lifebleed": {
 		"name": "Ring of Lifebleed",
-		"file": "magiccurseddisplayf773.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Source [Ultimate Equipment pg. 349](source/ultimate_equipment)",
@@ -6325,7 +6105,6 @@
 	},
 	"ring_of_spell_devouring": {
 		"name": "Ring of Spell Devouring",
-		"file": "magiccurseddisplay4200.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Source [Ultimate Equipment pg. 349](source/ultimate_equipment)",
@@ -6343,7 +6122,6 @@
 	},
 	"ring_of_truth": {
 		"name": "Ring of Truth",
-		"file": "magiccurseddisplay3a6c.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"

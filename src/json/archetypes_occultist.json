@@ -2,7 +2,6 @@
 	"_prefix": "archetype-occultist",
 	"ancestral_aspirant": {
 		"name": "Ancestral Aspirant",
-		"file": "archetypedisplayc67f.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Ancestral Aspirant",
@@ -30,7 +29,6 @@
 	},
 	"battle_host": {
 		"name": "Battle Host",
-		"file": "archetypedisplay61f7.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Battle Host",
@@ -58,7 +56,6 @@
 	},
 	"construct_collector": {
 		"name": "Construct Collector",
-		"file": "archetypedisplayafe8.html",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"## Construct Collector",
@@ -78,7 +75,6 @@
 	},
 	"curator": {
 		"name": "Curator",
-		"file": "archetypedisplay07d1.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Curator",
@@ -114,7 +110,6 @@
 	},
 	"esoteric_initiate": {
 		"name": "Esoteric Initiate",
-		"file": "archetypedisplay809d.html",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
 			"## Esoteric Initiate",
@@ -138,7 +133,6 @@
 	},
 	"extemporaneous_channeler": {
 		"name": "Extemporaneous Channeler",
-		"file": "archetypedisplayeddd.html",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
 			"## Extemporaneous Channeler",
@@ -170,7 +164,6 @@
 	},
 	"geomancer": {
 		"name": "Geomancer",
-		"file": "archetypedisplayf566.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Geomancer",
@@ -232,7 +225,6 @@
 	},
 	"haunt_collector": {
 		"name": "Haunt Collector",
-		"file": "archetypedisplayacf9.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Haunt Collector",
@@ -268,7 +260,6 @@
 	},
 	"naturalist": {
 		"name": "Naturalist",
-		"file": "archetypedisplayb5f8.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Naturalist",
@@ -300,7 +291,6 @@
 	},
 	"necroccultist": {
 		"name": "Necroccultist",
-		"file": "archetypedisplay428c.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Necroccultist",
@@ -320,7 +310,6 @@
 	},
 	"occult_historian": {
 		"name": "Occult Historian",
-		"file": "archetypedisplay7778.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Occult Historian",
@@ -346,7 +335,6 @@
 	},
 	"panoply_savant": {
 		"name": "Panoply Savant",
-		"file": "archetypedisplaycf1b.html",
 		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Panoply Savant",
@@ -380,7 +368,6 @@
 	},
 	"planar_harmonizer": {
 		"name": "Planar Harmonizer",
-		"file": "archetypedisplay1fb4.html",
 		"sources": [ "Plane-Hopper's Handbook" ],
 		"description": [
 			"## Planar Harmonizer",
@@ -408,7 +395,6 @@
 	},
 	"psychodermist": {
 		"name": "Psychodermist",
-		"file": "archetypedisplaydcff.html",
 		"sources": [ "Monster Hunter's Handbook" ],
 		"description": [
 			"## Psychodermist",
@@ -472,7 +458,6 @@
 	},
 	"reliquarian": {
 		"name": "Reliquarian",
-		"file": "archetypedisplay7c90.html",
 		"sources": [ "Occult Origins" ],
 		"description": [
 			"## Reliquarian",
@@ -498,7 +483,6 @@
 	},
 	"secret_broker": {
 		"name": "Secret Broker",
-		"file": "archetypedisplay773c.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Secret Broker",
@@ -540,7 +524,6 @@
 	},
 	"sha'ir": {
 		"name": "Sha'ir",
-		"file": "archetypedisplayb7d8.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Sha'ir",
@@ -570,7 +553,6 @@
 	},
 	"silksworn": {
 		"name": "Silksworn",
-		"file": "archetypedisplay9169.html",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [
 			"## Silksworn",
@@ -622,7 +604,6 @@
 	},
 	"talisman_crafter": {
 		"name": "Talisman Crafter",
-		"file": "archetypedisplay0081.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Talisman Crafter",
@@ -652,7 +633,6 @@
 	},
 	"tome_eater": {
 		"name": "Tome Eater",
-		"file": "archetypedisplay3890.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Tome Eater",

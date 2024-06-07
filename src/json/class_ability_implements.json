@@ -2,7 +2,6 @@
 	"_prefix": "class_abilities-implement",
 	"abjuration": {
 		"name": "Abjuration",
-		"file": "occultistimplementsdisplay358b.html",
 		"description": [
 			"## Abjuration",
 			"",
@@ -43,7 +42,6 @@
 	},
 	"conjuration": {
 		"name": "Conjuration",
-		"file": "occultistimplementsdisplay27e8.html",
 		"description": [
 			"## Conjuration",
 			"",
@@ -84,7 +82,6 @@
 	},
 	"divination": {
 		"name": "Divination",
-		"file": "occultistimplementsdisplay3f63.html",
 		"description": [
 			"## Divination",
 			"",
@@ -117,7 +114,6 @@
 	},
 	"enchantment": {
 		"name": "Enchantment",
-		"file": "occultistimplementsdisplay21b2.html",
 		"description": [
 			"## Enchantment",
 			"",
@@ -158,7 +154,6 @@
 	},
 	"evocation": {
 		"name": "Evocation",
-		"file": "occultistimplementsdisplayb0e9.html",
 		"description": [
 			"## Evocation",
 			"",
@@ -199,7 +194,6 @@
 	},
 	"illusion": {
 		"name": "Illusion",
-		"file": "occultistimplementsdisplay2703.html",
 		"description": [
 			"## Illusion",
 			"",
@@ -240,7 +234,6 @@
 	},
 	"necromancy": {
 		"name": "Necromancy",
-		"file": "occultistimplementsdisplay685a.html",
 		"description": [
 			"## Necromancy",
 			"",
@@ -281,7 +274,6 @@
 	},
 	"transmutation": {
 		"name": "Transmutation",
-		"file": "occultistimplementsdisplayfc8f.html",
 		"description": [
 			"## Transmutation",
 			"",
@@ -322,7 +314,6 @@
 	},
 	"mage's_paraphernalia_panoply": {
 		"name": "Mage's Paraphernalia (Panoply)",
-		"file": "occultistimplementsdisplay60e6.html",
 		"description": [
 			"## Mage's Paraphernalia",
 			"",
@@ -349,7 +340,6 @@
 	},
 	"performer's_accoutrements_panoply": {
 		"name": "Performer's Accoutrements (Panoply)",
-		"file": "occultistimplementsdisplaya3d6.html",
 		"description": [
 			"## Performer's Accoutrements",
 			"",
@@ -376,7 +366,6 @@
 	},
 	"saint's_holy_regalia_panoply": {
 		"name": "Saint's Holy Regalia (Panoply)",
-		"file": "occultistimplementsdisplay6025.html",
 		"description": [
 			"## Saint's Holy Regalia",
 			"",
@@ -403,7 +392,6 @@
 	},
 	"trappings_of_the_warrior_panoply": {
 		"name": "Trappings of the Warrior (Panoply)",
-		"file": "occultistimplementsdisplay9440.html",
 		"description": [
 			"## Trappings of the Warrior",
 			"",

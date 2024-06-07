@@ -2,7 +2,6 @@
 	"_prefix": "archetype-inquisitor",
 	"abolisher": {
 		"name": "Abolisher",
-		"file": "archetypedisplay9d18.html",
 		"sources": [ "Monster Hunter's Handbook" ],
 		"description": [
 			"## Abolisher",
@@ -30,7 +29,6 @@
 	},
 	"cloaked_wolf": {
 		"name": "Cloaked Wolf",
-		"file": "archetypedisplayccc3.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Cloaked Wolf",
@@ -60,7 +58,6 @@
 	},
 	"cold_iron_warden": {
 		"name": "Cold Iron Warden",
-		"file": "archetypedisplayaca8.html",
 		"sources": [ "Demon Hunter's Handbook" ],
 		"description": [
 			"## Cold Iron Warden",
@@ -86,7 +83,6 @@
 	},
 	"exarch": {
 		"name": "Exarch",
-		"file": "archetypedisplay85aa.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Exarch",
@@ -112,7 +108,6 @@
 	},
 	"exorcist": {
 		"name": "Exorcist",
-		"file": "archetypedisplay4214.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Exorcist",
@@ -132,7 +127,6 @@
 	},
 	"expulsionist": {
 		"name": "Expulsionist",
-		"file": "archetypedisplayd09b.html",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
 			"## Expulsionist",
@@ -162,7 +156,6 @@
 	},
 	"faith_hunter": {
 		"name": "Faith Hunter",
-		"file": "archetypedisplay3ec8.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Faith Hunter",
@@ -190,7 +183,6 @@
 	},
 	"green_faith_marshal": {
 		"name": "Green Faith Marshal",
-		"file": "archetypedisplayeb27.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Heroes of the Wild"
@@ -221,7 +213,6 @@
 	},
 	"heretic": {
 		"name": "Heretic",
-		"file": "archetypedisplay248c.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Heretic",
@@ -245,7 +236,6 @@
 	},
 	"hexenhammer": {
 		"name": "Hexenhammer",
-		"file": "archetypedisplay21f7.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Hexenhammer",
@@ -283,7 +273,6 @@
 	},
 	"iconoclast": {
 		"name": "Iconoclast",
-		"file": "archetypedisplay1b94.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Iconoclast",
@@ -305,7 +294,6 @@
 	},
 	"immolator": {
 		"name": "Immolator",
-		"file": "archetypedisplay7068.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Immolator",
@@ -327,7 +315,6 @@
 	},
 	"infiltrator": {
 		"name": "Infiltrator",
-		"file": "archetypedisplay95db.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Infiltrator",
@@ -347,7 +334,6 @@
 	},
 	"keeper_of_construct": {
 		"name": "Keeper of Construct",
-		"file": "archetypedisplay8faf.html",
 		"sources": [ "People of the Wastes" ],
 		"description": [
 			"## Keeper of Construct",
@@ -377,7 +363,6 @@
 	},
 	"keeper_of_the_current": {
 		"name": "Keeper of the Current",
-		"file": "archetypedisplay48bc.html",
 		"sources": [ "Blood of the Sea" ],
 		"description": [
 			"## Keeper of the Current",
@@ -401,7 +386,6 @@
 	},
 	"kinslayer": {
 		"name": "Kinslayer",
-		"file": "archetypedisplay7d96.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Kinslayer",
@@ -439,7 +423,6 @@
 	},
 	"living_grimoire": {
 		"name": "Living Grimoire",
-		"file": "archetypedisplay6fe2.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Living Grimoire",
@@ -481,7 +464,6 @@
 	},
 	"monster_tactician": {
 		"name": "Monster Tactician",
-		"file": "archetypedisplayf7c6.html",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
 			"## Monster Tactician",
@@ -501,7 +483,6 @@
 	},
 	"oathkeeper": {
 		"name": "Oathkeeper",
-		"file": "archetypedisplay4261.html",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Oathkeeper",
@@ -531,7 +512,6 @@
 	},
 	"preacher": {
 		"name": "Preacher",
-		"file": "archetypedisplay107a.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Preacher",
@@ -553,7 +533,6 @@
 	},
 	"ravener_hunter": {
 		"name": "Ravener Hunter",
-		"file": "archetypedisplayfd1e.html",
 		"sources": [ "Blood of the Beast" ],
 		"description": [
 			"## Ravener Hunter",
@@ -581,7 +560,6 @@
 	},
 	"reaper_of_secrets": {
 		"name": "Reaper of Secrets",
-		"file": "archetypedisplayc11c.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Reaper of Secrets",
@@ -605,7 +583,6 @@
 	},
 	"relic_hunter": {
 		"name": "Relic Hunter",
-		"file": "archetypedisplay1621.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Relic Hunter",
@@ -633,7 +610,6 @@
 	},
 	"royal_accuser": {
 		"name": "Royal Accuser",
-		"file": "archetypedisplay379b.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Royal Accuser",
@@ -677,7 +653,6 @@
 	},
 	"sacred_huntsmaster": {
 		"name": "Sacred Huntsmaster",
-		"file": "archetypedisplaye3ab.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Sacred Huntsmaster",
@@ -703,7 +678,6 @@
 	},
 	"sanctified_slayer": {
 		"name": "Sanctified Slayer",
-		"file": "archetypedisplayd484.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Sanctified Slayer",
@@ -725,7 +699,6 @@
 	},
 	"secret_seeker": {
 		"name": "Secret Seeker",
-		"file": "archetypedisplayea77.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Secret Seeker",
@@ -751,7 +724,6 @@
 	},
 	"sin_eater": {
 		"name": "Sin Eater",
-		"file": "archetypedisplay53d3.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Sin Eater",
@@ -779,7 +751,6 @@
 	},
 	"spellbreaker": {
 		"name": "Spellbreaker",
-		"file": "archetypedisplayee93.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Spellbreaker",
@@ -799,7 +770,6 @@
 	},
 	"suit_seeker": {
 		"name": "Suit Seeker",
-		"file": "archetypedisplay37b1.html",
 		"sources": [],
 		"description": [
 			"## Suit Seeker",
@@ -849,7 +819,6 @@
 	},
 	"sworn_of_the_eldest": {
 		"name": "Sworn of the Eldest",
-		"file": "archetypedisplay0485.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Sworn of the Eldest",
@@ -883,7 +852,6 @@
 	},
 	"tactical_leader": {
 		"name": "Tactical Leader",
-		"file": "archetypedisplay3a39.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Tactical Leader",
@@ -911,7 +879,6 @@
 	},
 	"traceless_operative": {
 		"name": "Traceless Operative",
-		"file": "archetypedisplaydfff.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Traceless Operative",
@@ -939,7 +906,6 @@
 	},
 	"umbral_stalker": {
 		"name": "Umbral Stalker",
-		"file": "archetypedisplayafc4.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Umbral Stalker",
@@ -975,7 +941,6 @@
 	},
 	"urban_infiltrator": {
 		"name": "Urban Infiltrator",
-		"file": "archetypedisplay4fd0.html",
 		"sources": [ "Magic Tactics Toolbox" ],
 		"description": [
 			"## Urban Infiltrator",
@@ -999,7 +964,6 @@
 	},
 	"vampire_hunter": {
 		"name": "Vampire Hunter",
-		"file": "archetypedisplayb748.html",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"## Vampire Hunter",
@@ -1025,7 +989,6 @@
 	},
 	"vigilant_defender": {
 		"name": "Vigilant Defender",
-		"file": "archetypedisplay2d89.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Vigilant Defender",
@@ -1055,7 +1018,6 @@
 	},
 	"witch_hunter": {
 		"name": "Witch Hunter",
-		"file": "archetypedisplayc534.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Witch Hunter",

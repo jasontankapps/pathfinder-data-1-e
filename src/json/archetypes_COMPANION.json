@@ -2,7 +2,6 @@
 	"_prefix": "archetype_companion",
 	"aberrant_companion": {
 		"name": "Aberrant Companion",
-		"file": "archetypedisplay75e3.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Aberrant Companion",
@@ -30,7 +29,6 @@
 	},
 	"accursed_companion": {
 		"name": "Accursed Companion",
-		"file": "archetypedisplay34c4.html",
 		"sources": [ "Horror Realms" ],
 		"description": [
 			"## Accursed Companion",
@@ -72,7 +70,6 @@
 	},
 	"ambusher": {
 		"name": "Ambusher",
-		"file": "archetypedisplay3446.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Ambusher",
@@ -92,7 +89,6 @@
 	},
 	"apex_species": {
 		"name": "Apex Species",
-		"file": "archetypedisplay582b.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Apex Species",
@@ -146,7 +142,6 @@
 	},
 	"augmented_companion": {
 		"name": "Augmented Companion",
-		"file": "archetypedisplay140f.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Augmented Companion",
@@ -170,7 +165,6 @@
 	},
 	"auspice": {
 		"name": "Auspice",
-		"file": "archetypedisplay5e60.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Auspice",
@@ -192,7 +186,6 @@
 	},
 	"bodyguard": {
 		"name": "Bodyguard",
-		"file": "archetypedisplay6070.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Animal Archive"
@@ -225,7 +218,6 @@
 	},
 	"bully": {
 		"name": "Bully",
-		"file": "archetypedisplay3701.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Bully",
@@ -245,7 +237,6 @@
 	},
 	"charger": {
 		"name": "Charger",
-		"file": "archetypedisplaye0df.html",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Charger",
@@ -269,7 +260,6 @@
 	},
 	"daredevil": {
 		"name": "Daredevil",
-		"file": "archetypedisplay11f2.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Daredevil",
@@ -293,7 +283,6 @@
 	},
 	"deathtouched_companion": {
 		"name": "Deathtouched Companion",
-		"file": "archetypedisplay8cda.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Deathtouched Companion",
@@ -319,7 +308,6 @@
 	},
 	"draconic_companion": {
 		"name": "Draconic Companion",
-		"file": "archetypedisplay18ab.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Draconic Companion",
@@ -351,7 +339,6 @@
 	},
 	"elemental_companion": {
 		"name": "Elemental Companion",
-		"file": "archetypedisplay2a4e.html",
 		"sources": [ "Plane-Hopper's Handbook" ],
 		"description": [
 			"## Elemental Companion",
@@ -373,7 +360,6 @@
 	},
 	"feytouched_companion": {
 		"name": "Feytouched Companion",
-		"file": "archetypedisplay2452.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Feytouched Companion",
@@ -401,7 +387,6 @@
 	},
 	"precocious_companion": {
 		"name": "Precocious Companion",
-		"file": "archetypedisplay0b9b.html",
 		"sources": [],
 		"description": [
 			"## Precocious Companion",
@@ -421,7 +406,6 @@
 	},
 	"racer": {
 		"name": "Racer",
-		"file": "archetypedisplay5a1d.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Animal Archive"
@@ -446,7 +430,6 @@
 	},
 	"totem_guide": {
 		"name": "Totem Guide",
-		"file": "archetypedisplayc54a.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Animal Archive"
@@ -477,7 +460,6 @@
 	},
 	"tracker": {
 		"name": "Tracker",
-		"file": "archetypedisplayfc2a.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Tracker",
@@ -497,7 +479,6 @@
 	},
 	"unexpected_intellectual": {
 		"name": "Unexpected Intellectual",
-		"file": "archetypedisplay8125.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Unexpected Intellectual",
@@ -515,7 +496,6 @@
 	},
 	"verdant_companion": {
 		"name": "Verdant Companion",
-		"file": "archetypedisplayf3fa.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Verdant Companion",
@@ -535,7 +515,6 @@
 	},
 	"wrecker": {
 		"name": "Wrecker",
-		"file": "archetypedisplay8eb3.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Wrecker",

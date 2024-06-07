@@ -2,7 +2,6 @@
 	"_prefix": "equipment-tech-artifact",
 	"arms_of_the_iron_god": {
 		"name": "Arms of the Iron God",
-		"file": "equipmenttechartifactsdisplaye869.html",
 		"sources": [ "Pathfinder #90: The Divinity Drive" ],
 		"description": [
 			"## Arms of the Iron God",
@@ -26,7 +25,6 @@
 	},
 	"autodoc": {
 		"name": "Autodoc",
-		"file": "equipmenttechartifactsdisplay3f4e.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Autodoc",
@@ -56,7 +54,6 @@
 	},
 	"beam_cannon_gravity_cannon": {
 		"name": "Beam cannon (gravity cannon)",
-		"file": "equipmenttechartifactsdisplaycd6b.html",
 		"sources": [ "Pathfinder #89: Palace of Fallen Stars" ],
 		"description": [
 			"## Beam Cannon (Gravity Cannon)",
@@ -84,7 +81,6 @@
 	},
 	"compact_ai_core": {
 		"name": "Compact AI Core",
-		"file": "equipmenttechartifactsdisplay7649.html",
 		"sources": [ "Pathfinder #88: Valley of the Brain Collectors" ],
 		"description": [
 			"## Compact AI Core",
@@ -109,7 +105,6 @@
 	},
 	"divinity_drive": {
 		"name": "Divinity Drive",
-		"file": "equipmenttechartifactsdisplayee89.html",
 		"sources": [ "Pathfinder #90: The Divinity Drive" ],
 		"description": [
 			"## Divinity Drive",
@@ -141,7 +136,6 @@
 	},
 	"extinction_wave_device": {
 		"name": "Extinction Wave Device",
-		"file": "equipmenttechartifactsdisplay1680.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Extinction Wave Device",
@@ -158,8 +152,6 @@
 	},
 	"memory_facet_aggression,_ego,_inhibitor": {
 		"name": "Memory facet (aggression, ego, inhibitor)",
-		"searchable_name": "memory facet aggression ego inhibitor",
-		"file": "equipmenttechartifactsdisplay03d9.html",
 		"sources": [ "Pathfinder #86: Lords of Rust" ],
 		"description": [
 			"## Memory Facet (Aggression, Ego, Inhibitor)",
@@ -185,8 +177,6 @@
 	},
 	"memory_facet_compassion,_ingenuity": {
 		"name": "Memory facet (compassion, ingenuity)",
-		"searchable_name": "memory facet compassion ingenuity",
-		"file": "equipmenttechartifactsdisplay9ea7.html",
 		"sources": [ "Pathfinder #88: Valley of the Brain Collectors" ],
 		"description": [
 			"## Memory Facet (Compassion, Ingenuity)",
@@ -207,8 +197,6 @@
 	},
 	"memory_facet_creativity,_cruelty,_instinct,_intuition,_logic,_psyche": {
 		"name": "Memory facet (creativity, cruelty, instinct, intuition, logic, psyche)",
-		"searchable_name": "memory facet creativity cruelty instinct intuition logic psyche",
-		"file": "equipmenttechartifactsdisplay18d4.html",
 		"sources": [ "Pathfinder #90: The Divinity Drive" ],
 		"description": [
 			"## Memory Facet (Creativity, Cruelty, Instinct, Intuition, Logic, Psyche)",
@@ -233,8 +221,6 @@
 	},
 	"memory_facet_discipline,_entropy,_guile": {
 		"name": "Memory facet (discipline, entropy, guile)",
-		"searchable_name": "memory facet discipline entropy guile",
-		"file": "equipmenttechartifactsdisplay1906.html",
 		"sources": [ "Pathfinder #89: Palace of Fallen Stars" ],
 		"description": [
 			"## Memory Facet (Discipline, Entropy, Guile)",
@@ -256,7 +242,6 @@
 	},
 	"power_relay": {
 		"name": "Power relay",
-		"file": "equipmenttechartifactsdisplay34e6.html",
 		"sources": [ "Pathfinder #85: Fires of Creation" ],
 		"description": [
 			"## Power Relay",
@@ -281,7 +266,6 @@
 	},
 	"powered_armor": {
 		"name": "Powered armor",
-		"file": "equipmenttechartifactsdisplayfe34.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Powered Armor",
@@ -323,7 +307,6 @@
 	},
 	"psychic_imprinter": {
 		"name": "Psychic imprinter",
-		"file": "equipmenttechartifactsdisplay0467.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Psychic Imprinter",
@@ -342,7 +325,6 @@
 	},
 	"rebirthing_chamber": {
 		"name": "Rebirthing chamber",
-		"file": "equipmenttechartifactsdisplayd49a.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Rebirthing Chamber",
@@ -365,7 +347,6 @@
 	},
 	"temporal_accelerator": {
 		"name": "Temporal accelerator",
-		"file": "equipmenttechartifactsdisplayc64f.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Temporal Accelerator",
@@ -384,7 +365,6 @@
 	},
 	"fission_reactor": {
 		"name": "Fission Reactor",
-		"file": null,
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Fission Reactor",
@@ -397,7 +377,6 @@
 	},
 	"fusion_reactor": {
 		"name": "Fusion Reactor",
-		"file": null,
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Fusion Reactor",
@@ -410,7 +389,6 @@
 	},
 	"geothermal_generator": {
 		"name": "Geothermal Generator",
-		"file": null,
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Geothermal Generator",
@@ -423,7 +401,6 @@
 	},
 	"graviton_reactor": {
 		"name": "Graviton Reactor",
-		"file": null,
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Graviton Reactor",
@@ -436,7 +413,6 @@
 	},
 	"solar_generator": {
 		"name": "Solar Generator",
-		"file": null,
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Solar Generator",

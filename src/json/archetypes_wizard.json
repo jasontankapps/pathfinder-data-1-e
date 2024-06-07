@@ -2,7 +2,6 @@
 	"_prefix": "archetype-wizard",
 	"absalom_arcanamirium_crafter": {
 		"name": "Absalom: Arcanamirium Crafter",
-		"file": "archetypedisplaya2b5.html",
 		"sources": [ "Inner Sea Primer" ],
 		"description": [
 			"## Absalom: Arcanamirium Crafter",
@@ -20,7 +19,6 @@
 	},
 	"arcane_bomber": {
 		"name": "Arcane Bomber",
-		"file": "archetypedisplay117c.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Arcane Bomber",
@@ -38,7 +36,6 @@
 	},
 	"arcane_physician": {
 		"name": "Arcane Physician",
-		"file": "archetypedisplayca00.html",
 		"sources": [ "Healer's Handbook" ],
 		"description": [
 			"## Arcane Physician",
@@ -60,7 +57,6 @@
 	},
 	"arcane_warden": {
 		"name": "Arcane Warden",
-		"file": "archetypedisplayd580.html",
 		"sources": [ "Blood of the Ancients" ],
 		"description": [
 			"## Arcane Warden",
@@ -92,7 +88,6 @@
 	},
 	"bonded_wizard": {
 		"name": "Bonded Wizard",
-		"file": "archetypedisplayc2ce.html",
 		"sources": [ "Cohorts and Companions" ],
 		"description": [
 			"## Bonded Wizard",
@@ -122,7 +117,6 @@
 	},
 	"cheliax_egorian_academy_infernal_binder": {
 		"name": "Cheliax: Egorian Academy Infernal Binder",
-		"file": "archetypedisplayeb81.html",
 		"sources": [ "Inner Sea Primer" ],
 		"description": [
 			"## Cheliax: Egorian Academy Infernal Binder",
@@ -150,7 +144,6 @@
 	},
 	"chronomancer": {
 		"name": "Chronomancer",
-		"file": "archetypedisplay0b5b.html",
 		"sources": [],
 		"description": [
 			"## Chronomancer",
@@ -176,7 +169,6 @@
 	},
 	"clocksmith": {
 		"name": "Clocksmith",
-		"file": "archetypedisplay9744.html",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"## Clocksmith",
@@ -204,7 +196,6 @@
 	},
 	"cruoromancer": {
 		"name": "Cruoromancer",
-		"file": "archetypedisplay176b.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Cruoromancer",
@@ -238,7 +229,6 @@
 	},
 	"elder_mythos_scholar": {
 		"name": "Elder Mythos Scholar",
-		"file": "archetypedisplay2b14.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Elder Mythos Scholar",
@@ -272,7 +262,6 @@
 	},
 	"exploiter_wizard": {
 		"name": "Exploiter Wizard",
-		"file": "archetypedisplay075a-2.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Exploiter Wizard",
@@ -288,7 +277,6 @@
 	},
 	"familiar_adept": {
 		"name": "Familiar Adept",
-		"file": "archetypedisplay0242.html",
 		"sources": [ "Familiar Folio" ],
 		"description": [
 			"## Familiar Adept",
@@ -308,7 +296,6 @@
 	},
 	"first_world_caller": {
 		"name": "First World Caller",
-		"file": "archetypedisplay4a9e.html",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
 			"## First World Caller",
@@ -334,7 +321,6 @@
 	},
 	"hallowed_necromancer": {
 		"name": "Hallowed Necromancer",
-		"file": "archetypedisplayd66c.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Hallowed Necromancer",
@@ -370,7 +356,6 @@
 	},
 	"instructor": {
 		"name": "Instructor",
-		"file": "archetypedisplaye6f7.html",
 		"sources": [ "Cohorts and Companions" ],
 		"description": [
 			"## Instructor",
@@ -392,7 +377,6 @@
 	},
 	"pact_wizard_ff": {
 		"name": "Pact Wizard (FF)",
-		"file": "archetypedisplaya4d4.html",
 		"sources": [ "Familiar Folio" ],
 		"description": [
 			"## Pact Wizard (FF)",
@@ -416,7 +400,6 @@
 	},
 	"pact_wizard_hhh": {
 		"name": "Pact Wizard (HHH)",
-		"file": "archetypedisplay82a7.html",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
 			"## Pact Wizard (HHH)",
@@ -448,7 +431,6 @@
 	},
 	"poleiheira_adherent": {
 		"name": "Poleiheira Adherent",
-		"file": "archetypedisplay68e9.html",
 		"sources": [ "Blood of the Ancients" ],
 		"description": [
 			"## Poleiheira Adherent",
@@ -476,7 +458,6 @@
 	},
 	"primalist": {
 		"name": "Primalist",
-		"file": "archetypedisplaye4f9.html",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"## Primalist",
@@ -496,7 +477,6 @@
 	},
 	"qadira_mage_of_the_veil": {
 		"name": "Qadira: Mage of the Veil",
-		"file": "archetypedisplay5fe5.html",
 		"sources": [ "Inner Sea Primer" ],
 		"description": [
 			"## Qadira: Mage of the Veil",
@@ -524,7 +504,6 @@
 	},
 	"runesage": {
 		"name": "Runesage",
-		"file": "archetypedisplayf486.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Runesage",
@@ -546,7 +525,6 @@
 	},
 	"scroll_scholar": {
 		"name": "Scroll Scholar",
-		"file": "archetypedisplay9329.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
 			"## Scroll Scholar",
@@ -564,7 +542,6 @@
 	},
 	"scrollmaster": {
 		"name": "Scrollmaster",
-		"file": "archetypedisplay2fcd.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Scrollmaster",
@@ -596,7 +573,6 @@
 	},
 	"shadowcaster": {
 		"name": "Shadowcaster",
-		"file": "archetypedisplay96f4.html",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"## Shadowcaster",
@@ -614,7 +590,6 @@
 	},
 	"siege_mage": {
 		"name": "Siege Mage",
-		"file": "archetypedisplay55de.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Siege Mage",
@@ -634,7 +609,6 @@
 	},
 	"spell_sage": {
 		"name": "Spell Sage",
-		"file": "archetypedisplay08e6.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Spell Sage",
@@ -652,7 +626,6 @@
 	},
 	"spellbinder": {
 		"name": "Spellbinder",
-		"file": "archetypedisplayf7e6.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Spellbinder",
@@ -670,7 +643,6 @@
 	},
 	"spellslinger": {
 		"name": "Spellslinger",
-		"file": "archetypedisplay719e.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Spellslinger",
@@ -694,7 +666,6 @@
 	},
 	"spirit_binder": {
 		"name": "Spirit Binder",
-		"file": "archetypedisplay1810.html",
 		"sources": [ "Familiar Folio" ],
 		"description": [
 			"## Spirit Binder",
@@ -714,7 +685,6 @@
 	},
 	"spirit_whisperer": {
 		"name": "Spirit Whisperer",
-		"file": "archetypedisplay7b40.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Spirit Whisperer",
@@ -732,7 +702,6 @@
 	},
 	"sword_binder": {
 		"name": "Sword Binder",
-		"file": "archetypedisplaybe31.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## Sword Binder",
@@ -756,7 +725,6 @@
 	},
 	"thassilonian_specialist": {
 		"name": "Thassilonian Specialist",
-		"file": "archetypedisplay1009.html",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"## Thassilonian Specialist",
@@ -792,7 +760,6 @@
 	},
 	"undead_master": {
 		"name": "Undead Master",
-		"file": "archetypedisplay2bc6.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Undead Master",
@@ -826,7 +793,6 @@
 	},
 	"wind_listener": {
 		"name": "Wind Listener",
-		"file": "archetypedisplay957d.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Wind Listener",
@@ -850,7 +816,6 @@
 	},
 	"worldseeker": {
 		"name": "Worldseeker",
-		"file": "archetypedisplay0c6d.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Worldseeker",

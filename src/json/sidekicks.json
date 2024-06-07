@@ -2,7 +2,6 @@
 	"_prefix": "sidekick",
 	"animal_companion": {
 		"name": "Animal Companion",
-		"file": "COMPANION.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"archetypes": "archetypes_COMPANION.json",
 		"archetype_portions": [
@@ -87,7 +86,6 @@
 	},
 	"drake": {
 		"name": "Drake",
-		"file": "DRAKE.html",
 		"sources": [ "Legacy of Dragons" ],
 		"description": [
 			"## Drake",
@@ -198,7 +196,6 @@
 	},
 	"eidolon": {
 		"name": "Eidolon",
-		"file": "EIDOLON.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Eidolon",
@@ -278,7 +275,6 @@
 	},
 	"unchained_eidolon": {
 		"name": "Unchained Eidolon",
-		"file": "EIDOLON_unchained.html",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"## Unchained Eidolon",
@@ -358,7 +354,6 @@
 	},
 	"familiar": {
 		"name": "Familiar",
-		"file": "FAMILIAR.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"archetypes": "archetypes_FAMILIAR.json",
 		"archetype_portions": [
@@ -451,7 +446,6 @@
 	},
 	"phantom": {
 		"name": "Phantom",
-		"file": "PHANTOM.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Phantom",

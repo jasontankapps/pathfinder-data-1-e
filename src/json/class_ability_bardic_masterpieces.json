@@ -965,7 +965,6 @@
 	},
 	"the_cat-step": {
 		"name": "The Cat-Step",
-		"searchable_name": "The Cat Step",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"#### The Cat-Step (Dance)",
@@ -1138,7 +1137,6 @@
 	},
 	"the_requiem_of_the_fallen_priest-king": {
 		"name": "The Requiem of the Fallen Priest-King",
-		"searchable_name": "The Requiem of the Fallen Priest King",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"#### The Requiem of the Fallen Priest-King (Oratory, Sing)",

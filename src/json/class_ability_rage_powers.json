@@ -2,7 +2,6 @@
 	"_prefix": "class_abilities-rage",
 	"animal_fury": {
 		"name": "Animal Fury (Ex)",
-		"searchable_name": "Animal Fury",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Animal Fury (Ex)",
@@ -21,7 +20,6 @@
 	},
 	"auspicious_mark": {
 		"name": "Auspicious Mark (Su)",
-		"searchable_name": "Auspicious Mark",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Auspicious Mark (Su)",
@@ -31,7 +29,6 @@
 	},
 	"autumn_rage": {
 		"name": "Autumn Rage (Su)",
-		"searchable_name": "Autumn Rage",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Autumn Rage (Su)",
@@ -41,7 +38,6 @@
 	},
 	"battle_roar": {
 		"name": "Battle Roar (Su)",
-		"searchable_name": "Battle Roar",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Battle Roar (Su)",
@@ -51,7 +47,6 @@
 	},
 	"bleeding_blow": {
 		"name": "Bleeding Blow (Ex)",
-		"searchable_name": "Bleeding Blow",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Bleeding Blow (Ex)",
@@ -61,7 +56,6 @@
 	},
 	"bloody_bite": {
 		"name": "Bloody Bite (Ex)",
-		"searchable_name": "Bloody Bite",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"### Bloody Bite (Ex)",
@@ -71,7 +65,6 @@
 	},
 	"bloody_fist": {
 		"name": "Bloody Fist (Ex)",
-		"searchable_name": "Bloody Fist",
 		"sources": [ "Demon Hunter's Handbook" ],
 		"description": [
 			"### Bloody Fist (Ex)",
@@ -90,7 +83,6 @@
 	},
 	"body_bludgeon": {
 		"name": "Body Bludgeon (Ex)",
-		"searchable_name": "Body Bludgeon",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Body Bludgeon (Ex)",
@@ -109,7 +101,6 @@
 	},
 	"greater_brawler": {
 		"name": "Brawler, Greater",
-		"searchable_name": "Greater Brawler",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Brawler, Greater",
@@ -119,7 +110,6 @@
 	},
 	"breathtaker": {
 		"name": "Breathtaker (Ex)",
-		"searchable_name": "Breathtaker",
 		"sources": [ "People of the River" ],
 		"description": [
 			"### Breathtaker (Ex)",
@@ -129,7 +119,6 @@
 	},
 	"crippling_blow": {
 		"name": "Crippling Blow (Ex)",
-		"searchable_name": "Crippling Blow",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Crippling Blow (Ex)",
@@ -139,7 +128,6 @@
 	},
 	"deadly_accuracy": {
 		"name": "Deadly Accuracy (Ex)",
-		"searchable_name": "Deadly Accuracy",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Deadly Accuracy (Ex)",
@@ -158,7 +146,6 @@
 	},
 	"elemental_rage": {
 		"name": "Elemental Rage (Su)",
-		"searchable_name": "Elemental Rage",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Elemental Rage (Su)",
@@ -168,7 +155,6 @@
 	},
 	"greater_elemental_rage": {
 		"name": "Elemental Rage, Greater (Su)",
-		"searchable_name": "Greater Elemental Rage",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Elemental Rage, Greater (Su)",
@@ -178,7 +164,6 @@
 	},
 	"lesser_elemental_rage": {
 		"name": "Elemental Rage, Lesser (Su)",
-		"searchable_name": "Lesser Elemental Rage",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Elemental Rage, Lesser (Su)",
@@ -188,7 +173,6 @@
 	},
 	"enhance_venom": {
 		"name": "Enhance Venom (Ex)",
-		"searchable_name": "Enhance Venom",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"### Enhance Venom (Ex)",
@@ -198,7 +182,6 @@
 	},
 	"erratic_charge": {
 		"name": "Erratic Charge (Ex)",
-		"searchable_name": "Erratic Charge",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"### Erratic Charge (Ex)",
@@ -208,7 +191,6 @@
 	},
 	"greater_erratic_charge": {
 		"name": "Erratic Charge, Greater (Ex)",
-		"searchable_name": "Greater Erratic Charge",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"### Erratic Charge, Greater (Ex)",
@@ -218,7 +200,6 @@
 	},
 	"feasting_bite": {
 		"name": "Feasting Bite (Ex)",
-		"searchable_name": "Feasting Bite",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"### Feasting Bite (Ex)",
@@ -228,7 +209,6 @@
 	},
 	"ferocious_trample": {
 		"name": "Ferocious Trample (Ex)",
-		"searchable_name": "Ferocious Trample",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Ferocious Trample (Ex)",
@@ -238,7 +218,6 @@
 	},
 	"greater_ferocious_trample": {
 		"name": "Ferocious Trample, Greater (Ex)",
-		"searchable_name": "Greater Ferocious Trample",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Ferocious Trample, Greater (Ex)",
@@ -248,7 +227,6 @@
 	},
 	"fierce_fortitude": {
 		"name": "Fierce Fortitude (Ex)",
-		"searchable_name": "Fierce Fortitude",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Fierce Fortitude (Ex)",
@@ -258,7 +236,6 @@
 	},
 	"furious_barrage": {
 		"name": "Furious Barrage (Ex)",
-		"searchable_name": "Furious Barrage",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"### Furious Barrage (Ex)",
@@ -268,7 +245,6 @@
 	},
 	"gearbreaker": {
 		"name": "Gearbreaker (Ex)",
-		"searchable_name": "Gearbreaker",
 		"sources": [ "People of the River" ],
 		"description": [
 			"### Gearbreaker (Ex)",
@@ -278,7 +254,6 @@
 	},
 	"greater_animal_fury": {
 		"name": "Greater Animal Fury (Ex)",
-		"searchable_name": "Greater Animal Fury",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
 			"### Greater Animal Fury (Ex)",
@@ -288,7 +263,6 @@
 	},
 	"ground_breaker": {
 		"name": "Ground Breaker (Ex)",
-		"searchable_name": "Ground Breaker",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Ground Breaker (Ex)",
@@ -298,7 +272,6 @@
 	},
 	"greater_ground_breaker": {
 		"name": "Ground Breaker, Greater (Ex)",
-		"searchable_name": "Greater Ground Breaker",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Ground Breaker, Greater (Ex)",
@@ -308,7 +281,6 @@
 	},
 	"hissing_rage": {
 		"name": "Hissing Rage (Su)",
-		"searchable_name": "Hissing Rage",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Hissing Rage (Su)",
@@ -320,7 +292,6 @@
 	},
 	"hurling": {
 		"name": "Hurling (Ex)",
-		"searchable_name": "Hurling",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Hurling (Ex)",
@@ -330,7 +301,6 @@
 	},
 	"hurling_charge": {
 		"name": "Hurling Charge (Ex)",
-		"searchable_name": "Hurling Charge",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Hurling Charge (Ex)",
@@ -340,7 +310,6 @@
 	},
 	"greater_hurling": {
 		"name": "Hurling, Greater (Ex)",
-		"searchable_name": "Greater Hurling",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Hurling, Greater (Ex)",
@@ -350,7 +319,6 @@
 	},
 	"lesser_hurling": {
 		"name": "Hurling, Lesser (Ex)",
-		"searchable_name": "Lesser Hurling",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Hurling, Lesser (Ex)",
@@ -360,7 +328,6 @@
 	},
 	"impelling_disarm": {
 		"name": "Impelling Disarm (Ex)",
-		"searchable_name": "Impelling Disarm",
 		"sources": [ "Champions of Balance" ],
 		"description": [
 			"### Impelling Disarm (Ex)",
@@ -370,7 +337,6 @@
 	},
 	"intimidating_glare": {
 		"name": "Intimidating Glare (Ex)",
-		"searchable_name": "Intimidating Glare",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Intimidating Glare (Ex)",
@@ -380,7 +346,6 @@
 	},
 	"knockback": {
 		"name": "Knockback (Ex)",
-		"searchable_name": "Knockback",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Knockback (Ex)",
@@ -390,7 +355,6 @@
 	},
 	"knockdown": {
 		"name": "Knockdown (Ex)",
-		"searchable_name": "Knockdown",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Knockdown (Ex)",
@@ -400,7 +364,6 @@
 	},
 	"lethal_accuracy": {
 		"name": "Lethal Accuracy (Ex)",
-		"searchable_name": "Lethal Accuracy",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Lethal Accuracy (Ex)",
@@ -410,7 +373,6 @@
 	},
 	"cairn_linnorm_death_curse": {
 		"name": "Linnorm Death Curse, Cairn (Su)",
-		"searchable_name": "Linnorm Death Curse Cairn",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Linnorm Death Curse, Cairn (Su)",
@@ -420,7 +382,6 @@
 	},
 	"crag_linnorm_death_curse": {
 		"name": "Linnorm Death Curse, Crag (Su)",
-		"searchable_name": "Linnorm Death Curse Crag",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Linnorm Death Curse, Crag (Su)",
@@ -430,7 +391,6 @@
 	},
 	"fjord_linnorm_death_curse": {
 		"name": "Linnorm Death Curse, Fjord (Su)",
-		"searchable_name": "Linnorm Death Curse Fjord",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Linnorm Death Curse, Fjord (Su)",
@@ -440,7 +400,6 @@
 	},
 	"ice_linnorm_death_curse": {
 		"name": "Linnorm Death Curse, Ice (Su)",
-		"searchable_name": "Linnorm Death Curse Ice",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Linnorm Death Curse, Ice (Su)",
@@ -450,7 +409,6 @@
 	},
 	"taiga_linnorm_death_curse": {
 		"name": "Linnorm Death Curse, Taiga (Su)",
-		"searchable_name": "Linnorm Death Curse Taiga",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Linnorm Death Curse, Taiga (Su)",
@@ -460,7 +418,6 @@
 	},
 	"tarn_linnorm_death_curse": {
 		"name": "Linnorm Death Curse, Tarn (Su)",
-		"searchable_name": "Linnorm Death Curse Tarn",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Linnorm Death Curse, Tarn (Su)",
@@ -470,7 +427,6 @@
 	},
 	"tor_linnorm_death_curse": {
 		"name": "Linnorm Death Curse, Tor (Su)",
-		"searchable_name": "Linnorm Death Curse Tor",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Linnorm Death Curse, Tor (Su)",
@@ -480,7 +436,6 @@
 	},
 	"mighty_swing": {
 		"name": "Mighty Swing (Ex)",
-		"searchable_name": "Mighty Swing",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Mighty Swing (Ex)",
@@ -490,7 +445,6 @@
 	},
 	"overbearing_advance": {
 		"name": "Overbearing Advance (Ex)",
-		"searchable_name": "Overbearing Advance",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Overbearing Advance (Ex)",
@@ -500,7 +454,6 @@
 	},
 	"overbearing_onslaught": {
 		"name": "Overbearing Onslaught (Ex)",
-		"searchable_name": "Overbearing Onslaught",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Overbearing Onslaught (Ex)",
@@ -510,7 +463,6 @@
 	},
 	"penetrating_bite": {
 		"name": "Penetrating Bite (Ex)",
-		"searchable_name": "Penetrating Bite",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
 			"### Penetrating Bite (Ex)",
@@ -520,7 +472,6 @@
 	},
 	"powerful_blow": {
 		"name": "Powerful Blow (Ex)",
-		"searchable_name": "Powerful Blow",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Powerful Blow (Ex)",
@@ -530,7 +481,6 @@
 	},
 	"quick_reflexes": {
 		"name": "Quick Reflexes (Ex)",
-		"searchable_name": "Quick Reflexes",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Quick Reflexes (Ex)",
@@ -540,7 +490,6 @@
 	},
 	"raging_grappler": {
 		"name": "Raging Grappler (Ex)",
-		"searchable_name": "Raging Grappler",
 		"sources": [ "People of the River" ],
 		"description": [
 			"### Raging Grappler (Ex)",
@@ -550,7 +499,6 @@
 	},
 	"reckless_abandon": {
 		"name": "Reckless Abandon (Ex)",
-		"searchable_name": "Reckless Abandon",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Reckless Abandon (Ex)",
@@ -560,7 +508,6 @@
 	},
 	"savage_dirty_trick": {
 		"name": "Savage Dirty Trick (Ex)",
-		"searchable_name": "Savage Dirty Trick",
 		"sources": [ "Champions of Balance" ],
 		"description": [
 			"### Savage Dirty Trick (Ex)",
@@ -584,7 +531,6 @@
 	},
 	"savage_hurl": {
 		"name": "Savage Hurl (Ex)",
-		"searchable_name": "Savage Hurl",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"### Savage Hurl (Ex)",
@@ -594,7 +540,6 @@
 	},
 	"savage_jaw": {
 		"name": "Savage Jaw (Ex)",
-		"searchable_name": "Savage Jaw",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
 			"### Savage Jaw (Ex)",
@@ -604,7 +549,6 @@
 	},
 	"sharpened_accuracy": {
 		"name": "Sharpened Accuracy (Ex)",
-		"searchable_name": "Sharpened Accuracy",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Sharpened Accuracy (Ex)",
@@ -614,7 +558,6 @@
 	},
 	"smasher": {
 		"name": "Smasher (Ex)",
-		"searchable_name": "Smasher",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Smasher (Ex)",
@@ -624,7 +567,6 @@
 	},
 	"spell_sunder": {
 		"name": "Spell Sunder (Su)",
-		"searchable_name": "Spell Sunder",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Spell Sunder (Su)",
@@ -634,7 +576,6 @@
 	},
 	"strength_surge": {
 		"name": "Strength Surge (Ex)",
-		"searchable_name": "Strength Surge",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Strength Surge (Ex)",
@@ -644,7 +585,6 @@
 	},
 	"summer_rage": {
 		"name": "Summer Rage (Su)",
-		"searchable_name": "Summer Rage",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Summer Rage (Su)",
@@ -654,7 +594,6 @@
 	},
 	"sunder_enchantment": {
 		"name": "Sunder Enchantment (Su)",
-		"searchable_name": "Sunder Enchantment",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Sunder Enchantment (Su)",
@@ -664,7 +603,6 @@
 	},
 	"surprise_accuracy": {
 		"name": "Surprise Accuracy (Ex)",
-		"searchable_name": "Surprise Accuracy",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Surprise Accuracy (Ex)",
@@ -674,7 +612,6 @@
 	},
 	"terrifying_howl": {
 		"name": "Terrifying Howl (Ex)",
-		"searchable_name": "Terrifying Howl",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Terrifying Howl (Ex)",
@@ -684,7 +621,6 @@
 	},
 	"two-fanged_pounce": {
 		"name": "Two-Fanged Pounce",
-		"searchable_name": "Two Fanged Pounce",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"### Two-Fanged Pounce",
@@ -694,7 +630,6 @@
 	},
 	"unexpected_strike": {
 		"name": "Unexpected Strike (Ex)",
-		"searchable_name": "Unexpected Strike",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Unexpected Strike (Ex)",
@@ -704,7 +639,6 @@
 	},
 	"viper's_breath": {
 		"name": "Viper's Breath (Ex)",
-		"searchable_name": "Viper's Breath",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"### Viper's Breath (Ex)",
@@ -714,7 +648,6 @@
 	},
 	"viper's_kiss": {
 		"name": "Viper's Kiss (Ex)",
-		"searchable_name": "Viper's Kiss",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"### Viper's Kiss (Ex)",
@@ -724,7 +657,6 @@
 	},
 	"winter_rage": {
 		"name": "Winter Rage (Su)",
-		"searchable_name": "Winter Rage",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Winter Rage (Su)",
@@ -734,7 +666,6 @@
 	},
 	"witch_hunter": {
 		"name": "Witch Hunter (Ex)",
-		"searchable_name": "Witch Hunter",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Witch Hunter (Ex)",
@@ -744,7 +675,6 @@
 	},
 	"aryzul's_curse": {
 		"name": "Aryzul's Curse (Su)",
-		"searchable_name": "Aryzul's Curse",
 		"sources": [ "Planes of Power" ],
 		"description": [
 			"### Aryzul's Curse (Su)",
@@ -754,7 +684,6 @@
 	},
 	"hshurha's_veil": {
 		"name": "Hshurha's Veil (Su)",
-		"searchable_name": "Hshurha's Veil",
 		"sources": [ "Planes of Power" ],
 		"description": [
 			"### Hshurha's Veil (Su)",
@@ -764,7 +693,6 @@
 	},
 	"kelizandri's_tide": {
 		"name": "Kelizandri's Tide (Su)",
-		"searchable_name": "Kelizandri's Tide",
 		"sources": [ "Planes of Power" ],
 		"description": [
 			"### Kelizandri's Tide (Su)",
@@ -774,7 +702,6 @@
 	},
 	"ymeri's_pyre": {
 		"name": "Ymeri's Pyre (Su)",
-		"searchable_name": "Ymeri's Pyre",
 		"sources": [ "Planes of Power" ],
 		"description": [
 			"### Ymeri's Pyre (Su)",
@@ -784,7 +711,6 @@
 	},
 	"air_totem": {
 		"name": "Air Totem (Su)",
-		"searchable_name": "Air Totem",
 		"sources": [ "Blood of the Elements" ],
 		"description": [
 			"### Air Totem (Su)",
@@ -794,7 +720,6 @@
 	},
 	"greater_air_totem": {
 		"name": "Air Totem, Greater (Su)",
-		"searchable_name": "Greater Air Totem",
 		"sources": [ "Blood of the Elements" ],
 		"description": [
 			"### Air Totem, Greater (Su)",
@@ -804,7 +729,6 @@
 	},
 	"ancestor_totem": {
 		"name": "Ancestor Totem (Su)",
-		"searchable_name": "Ancestor Totem",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"### Ancestor Totem (Su)",
@@ -814,7 +738,6 @@
 	},
 	"greater_ancestor_totem": {
 		"name": "Ancestor Totem, Greater (Su)",
-		"searchable_name": "Greater Ancestor Totem",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"### Ancestor Totem, Greater (Su)",
@@ -824,7 +747,6 @@
 	},
 	"lesser_ancestor_totem": {
 		"name": "Ancestor Totem, Lesser (Su)",
-		"searchable_name": "Lesser Ancestor Totem",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"### Ancestor Totem, Lesser (Su)",
@@ -834,7 +756,6 @@
 	},
 	"atavism_totem": {
 		"name": "Atavism Totem (Su)",
-		"searchable_name": "Atavism Totem",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"### Atavism Totem (Su)",
@@ -844,7 +765,6 @@
 	},
 	"greater_atavism_totem": {
 		"name": "Atavism Totem, Greater (Su)",
-		"searchable_name": "Greater Atavism Totem",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"### Atavism Totem, Greater (Su)",
@@ -854,7 +774,6 @@
 	},
 	"lesser_atavism_totem": {
 		"name": "Atavism Totem, Lesser (Su)",
-		"searchable_name": "Lesser Atavism Totem",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"### Atavism Totem, Lesser (Su)",
@@ -864,7 +783,6 @@
 	},
 	"beast_totem": {
 		"name": "Beast Totem (Su)",
-		"searchable_name": "Beast Totem",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Beast Totem (Su)",
@@ -874,7 +792,6 @@
 	},
 	"greater_beast_totem": {
 		"name": "Beast Totem, Greater (Su)",
-		"searchable_name": "Greater Beast Totem",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Beast Totem, Greater (Su)",
@@ -884,7 +801,6 @@
 	},
 	"lesser_beast_totem": {
 		"name": "Beast Totem, Lesser (Su)",
-		"searchable_name": "Lesser Beast Totem",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Beast Totem, Lesser (Su)",
@@ -894,7 +810,6 @@
 	},
 	"celestial_totem": {
 		"name": "Celestial Totem (Su)",
-		"searchable_name": "Celestial Totem",
 		"sources": [ "Champions of Purity" ],
 		"description": [
 			"### Celestial Totem (Su)",
@@ -904,7 +819,6 @@
 	},
 	"greater_celestial_totem": {
 		"name": "Celestial Totem, Greater (Su)",
-		"searchable_name": "Greater Celestial Totem",
 		"sources": [ "Champions of Purity" ],
 		"description": [
 			"### Celestial Totem, Greater (Su)",
@@ -914,7 +828,6 @@
 	},
 	"lesser_celestial_totem": {
 		"name": "Celestial Totem, Lesser (Su)",
-		"searchable_name": "Lesser Celestial Totem",
 		"sources": [ "Champions of Purity" ],
 		"description": [
 			"### Celestial Totem, Lesser (Su)",
@@ -924,7 +837,6 @@
 	},
 	"chaos_totem": {
 		"name": "Chaos Totem (Su)",
-		"searchable_name": "Chaos Totem",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Chaos Totem (Su)",
@@ -934,7 +846,6 @@
 	},
 	"greater_chaos_totem": {
 		"name": "Chaos Totem, Greater (Su)",
-		"searchable_name": "Greater Chaos Totem",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Chaos Totem, Greater (Su)",
@@ -944,7 +855,6 @@
 	},
 	"lesser_chaos_totem": {
 		"name": "Chaos Totem, Lesser (Su)",
-		"searchable_name": "Lesser Chaos Totem",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Chaos Totem, Lesser (Su)",
@@ -954,7 +864,6 @@
 	},
 	"cult_totem": {
 		"name": "Cult Totem (Ex)",
-		"searchable_name": "Cult Totem",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"### Cult Totem (Ex)",
@@ -964,7 +873,6 @@
 	},
 	"greater_cult_totem": {
 		"name": "Cult Totem, Greater (Ex)",
-		"searchable_name": "Greater Cult Totem",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"### Cult Totem, Greater (Ex)",
@@ -974,7 +882,6 @@
 	},
 	"lesser_cult_totem": {
 		"name": "Cult Totem, Lesser (Ex)",
-		"searchable_name": "Lesser Cult Totem",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"### Cult Totem, Lesser (Ex)",
@@ -984,7 +891,6 @@
 	},
 	"daemon_totem": {
 		"name": "Daemon Totem (Su)",
-		"searchable_name": "Daemon Totem",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"### Daemon Totem (Su)",
@@ -994,7 +900,6 @@
 	},
 	"greater_daemon_totem": {
 		"name": "Daemon Totem, Greater (Su)",
-		"searchable_name": "Greater Daemon Totem",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"### Daemon Totem, Greater (Su)",
@@ -1004,7 +909,6 @@
 	},
 	"lesser_daemon_totem": {
 		"name": "Daemon Totem, Lesser",
-		"searchable_name": "Lesser Daemon Totem",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"### Daemon Totem, Lesser",
@@ -1014,7 +918,6 @@
 	},
 	"dragon_totem": {
 		"name": "Dragon Totem (Su)",
-		"searchable_name": "Dragon Totem",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Dragon Totem (Su)",
@@ -1024,7 +927,6 @@
 	},
 	"dragon_totem_resilience": {
 		"name": "Dragon Totem Resilience (Su)",
-		"searchable_name": "Dragon Totem Resilience",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Dragon Totem Resilience (Su)",
@@ -1034,7 +936,6 @@
 	},
 	"dragon_totem_wings": {
 		"name": "Dragon Totem Wings (Su)",
-		"searchable_name": "Dragon Totem Wings",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Dragon Totem Wings (Su)",
@@ -1044,7 +945,6 @@
 	},
 	"earth_totem": {
 		"name": "Earth Totem (Ex)",
-		"searchable_name": "Earth Totem",
 		"sources": [ "Blood of the Elements" ],
 		"description": [
 			"### Earth Totem (Ex)",
@@ -1054,7 +954,6 @@
 	},
 	"greater_earth_totem": {
 		"name": "Earth Totem, Greater (Su)",
-		"searchable_name": "Greater Earth Totem",
 		"sources": [ "Blood of the Elements" ],
 		"description": [
 			"### Earth Totem, Greater (Su)",
@@ -1064,7 +963,6 @@
 	},
 	"lesser_elemental_totem": {
 		"name": "Elemental Totem, Lesser (Su)",
-		"searchable_name": "Lesser Elemental Totem",
 		"sources": [ "Blood of the Elements" ],
 		"description": [
 			"### Elemental Totem, Lesser (Su)",
@@ -1074,7 +972,6 @@
 	},
 	"fiend_totem": {
 		"name": "Fiend Totem (Su)",
-		"searchable_name": "Fiend Totem",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Fiend Totem (Su)",
@@ -1084,7 +981,6 @@
 	},
 	"greater_fiend_totem": {
 		"name": "Fiend Totem, Greater (Su)",
-		"searchable_name": "Greater Fiend Totem",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Fiend Totem, Greater (Su)",
@@ -1094,7 +990,6 @@
 	},
 	"lesser_fiend_totem": {
 		"name": "Fiend Totem, Lesser (Su)",
-		"searchable_name": "Lesser Fiend Totem",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Fiend Totem, Lesser (Su)",
@@ -1104,7 +999,6 @@
 	},
 	"fire_totem": {
 		"name": "Fire Totem (Su)",
-		"searchable_name": "Fire Totem",
 		"sources": [ "Blood of the Elements" ],
 		"description": [
 			"### Fire Totem (Su)",
@@ -1114,7 +1008,6 @@
 	},
 	"greater_fire_totem": {
 		"name": "Fire Totem, Greater (Su)",
-		"searchable_name": "Greater Fire Totem",
 		"sources": [ "Blood of the Elements" ],
 		"description": [
 			"### Fire Totem, Greater (Su)",
@@ -1124,7 +1017,6 @@
 	},
 	"hive_totem": {
 		"name": "Hive Totem (Su)",
-		"searchable_name": "Hive Totem",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Hive Totem (Su)",
@@ -1134,7 +1026,6 @@
 	},
 	"hive_totem_resilience": {
 		"name": "Hive Totem Resilience (Su)",
-		"searchable_name": "Hive Totem Resilience",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Hive Totem Resilience (Su)",
@@ -1144,7 +1035,6 @@
 	},
 	"hive_totem_toxicity": {
 		"name": "Hive Totem Toxicity (Su)",
-		"searchable_name": "Hive Totem Toxicity",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Hive Totem Toxicity (Su)",
@@ -1154,7 +1044,6 @@
 	},
 	"moon_totem": {
 		"name": "Moon Totem (Su)",
-		"searchable_name": "Moon Totem",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"### Moon Totem (Su)",
@@ -1164,7 +1053,6 @@
 	},
 	"greater_moon_totem": {
 		"name": "Moon Totem, Greater (Su)",
-		"searchable_name": "Greater Moon Totem",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"### Moon Totem, Greater (Su)",
@@ -1174,7 +1062,6 @@
 	},
 	"lesser_moon_totem": {
 		"name": "Moon Totem, Lesser (Su)",
-		"searchable_name": "Lesser Moon Totem",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"### Moon Totem, Lesser (Su)",
@@ -1193,7 +1080,6 @@
 	},
 	"greater_psychopomp_totem": {
 		"name": "Psychopomp Totem, Greater",
-		"searchable_name": "Greater Psychopomp Totem",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
 			"### Psychopomp Totem, Greater",
@@ -1203,7 +1089,6 @@
 	},
 	"lesser_psychopomp_totem": {
 		"name": "Psychopomp Totem, Lesser",
-		"searchable_name": "Lesser Psychopomp Totem",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
 			"### Psychopomp Totem, Lesser",
@@ -1213,7 +1098,6 @@
 	},
 	"spire_totem": {
 		"name": "Spire Totem (Su)",
-		"searchable_name": "Spire Totem",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"### Spire Totem (Su)",
@@ -1223,7 +1107,6 @@
 	},
 	"greater_spire_totem": {
 		"name": "Spire Totem, Greater (Su)",
-		"searchable_name": "Greater Spire Totem",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"### Spire Totem, Greater (Su)",
@@ -1233,7 +1116,6 @@
 	},
 	"lesser_spire_totem": {
 		"name": "Spire Totem, Lesser (Su)",
-		"searchable_name": "Lesser Spire Totem",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"### Spire Totem, Lesser (Su)",
@@ -1243,7 +1125,6 @@
 	},
 	"spirit_totem": {
 		"name": "Spirit Totem (Su)",
-		"searchable_name": "Spirit Totem",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Spirit Totem (Su)",
@@ -1253,7 +1134,6 @@
 	},
 	"greater_spirit_totem": {
 		"name": "Spirit Totem, Greater (Su)",
-		"searchable_name": "Greater Spirit Totem",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Spirit Totem, Greater (Su)",
@@ -1263,7 +1143,6 @@
 	},
 	"lesser_spirit_totem": {
 		"name": "Spirit Totem, Lesser (Su)",
-		"searchable_name": "Lesser Spirit Totem",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Spirit Totem, Lesser (Su)",
@@ -1273,7 +1152,6 @@
 	},
 	"sun_totem": {
 		"name": "Sun Totem (Su)",
-		"searchable_name": "Sun Totem",
 		"sources": [ "Qadira, Jewel of the East" ],
 		"description": [
 			"### Sun Totem (Su)",
@@ -1283,7 +1161,6 @@
 	},
 	"greater_sun_totem": {
 		"name": "Sun Totem, Greater (Su)",
-		"searchable_name": "Greater Sun Totem",
 		"sources": [ "Qadira, Jewel of the East" ],
 		"description": [
 			"### Sun Totem, Greater (Su)",
@@ -1293,7 +1170,6 @@
 	},
 	"lesser_sun_totem": {
 		"name": "Sun Totem, Lesser (Su)",
-		"searchable_name": "Lesser Sun Totem",
 		"sources": [ "Qadira, Jewel of the East" ],
 		"description": [
 			"### Sun Totem, Lesser (Su)",
@@ -1303,7 +1179,6 @@
 	},
 	"tyrant_totem": {
 		"name": "Tyrant Totem (Ex)",
-		"searchable_name": "Tyrant Totem",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Tyrant Totem (Ex)",
@@ -1313,7 +1188,6 @@
 	},
 	"greater_tyrant_totem": {
 		"name": "Tyrant Totem, Greater (Su)",
-		"searchable_name": "Greater Tyrant Totem",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Tyrant Totem, Greater (Su)",
@@ -1323,7 +1197,6 @@
 	},
 	"lesser_tyrant_totem": {
 		"name": "Tyrant Totem, Lesser (Ex)",
-		"searchable_name": "Lesser Tyrant Totem",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Tyrant Totem, Lesser (Ex)",
@@ -1333,7 +1206,6 @@
 	},
 	"water_totem": {
 		"name": "Water Totem (Ex)",
-		"searchable_name": "Water Totem",
 		"sources": [ "Blood of the Elements" ],
 		"description": [
 			"### Water Totem (Ex)",
@@ -1343,7 +1215,6 @@
 	},
 	"greater_water_totem": {
 		"name": "Water Totem, Greater (Su)",
-		"searchable_name": "Greater Water Totem",
 		"sources": [ "Blood of the Elements" ],
 		"description": [
 			"### Water Totem, Greater (Su)",
@@ -1353,7 +1224,6 @@
 	},
 	"world_serpent_spirit": {
 		"name": "World Serpent Spirit (Su)",
-		"searchable_name": "World Serpent Spirit",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### World Serpent Spirit (Su)",
@@ -1363,7 +1233,6 @@
 	},
 	"world_serpent_totem": {
 		"name": "World Serpent Totem (Su)",
-		"searchable_name": "World Serpent Totem",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### World Serpent Totem (Su)",
@@ -1373,7 +1242,6 @@
 	},
 	"world_serpent_totem_unity": {
 		"name": "World Serpent Totem Unity (Su)",
-		"searchable_name": "World Serpent Totem Unity",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### World Serpent Totem Unity (Su)",
@@ -1383,7 +1251,6 @@
 	},
 	"clear_mind": {
 		"name": "Clear Mind (Ex)",
-		"searchable_name": "Clear Mind",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Clear Mind (Ex)",
@@ -1402,7 +1269,6 @@
 	},
 	"eater_of_magic": {
 		"name": "Eater of Magic (Su)",
-		"searchable_name": "Eater of Magic",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Eater of Magic (Su)",
@@ -1412,7 +1278,6 @@
 	},
 	"energy_absorption": {
 		"name": "Energy Absorption (Su)",
-		"searchable_name": "Energy Absorption",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Energy Absorption (Su)",
@@ -1422,7 +1287,6 @@
 	},
 	"energy_resistance": {
 		"name": "Energy Resistance (Ex)",
-		"searchable_name": "Energy Resistance",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Energy Resistance (Ex)",
@@ -1432,7 +1296,6 @@
 	},
 	"greater_energy_resistance": {
 		"name": "Energy Resistance, Greater (Ex)",
-		"searchable_name": "Greater Energy Resistance",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Energy Resistance, Greater (Ex)",
@@ -1442,7 +1305,6 @@
 	},
 	"fearless_rage": {
 		"name": "Fearless Rage (Ex)",
-		"searchable_name": "Fearless Rage",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Fearless Rage (Ex)",
@@ -1452,7 +1314,6 @@
 	},
 	"feast_of_blood": {
 		"name": "Feast of Blood (Su)",
-		"searchable_name": "Feast of Blood",
 		"sources": [ "Demon Hunter's Handbook" ],
 		"description": [
 			"### Feast of Blood (Su)",
@@ -1462,7 +1323,6 @@
 	},
 	"flesh_wound": {
 		"name": "Flesh Wound (Ex)",
-		"searchable_name": "Flesh Wound",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Flesh Wound (Ex)",
@@ -1472,7 +1332,6 @@
 	},
 	"ghost_rager": {
 		"name": "Ghost Rager (Su)",
-		"searchable_name": "Ghost Rager",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Ghost Rager (Su)",
@@ -1482,7 +1341,6 @@
 	},
 	"good_for_what_ails_you": {
 		"name": "Good for What Ails You (Ex)",
-		"searchable_name": "Good for What Ails You",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Good for What Ails You (Ex)",
@@ -1492,7 +1350,6 @@
 	},
 	"guarded_life": {
 		"name": "Guarded Life (Ex)",
-		"searchable_name": "Guarded Life",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Guarded Life (Ex)",
@@ -1502,7 +1359,6 @@
 	},
 	"greater_guarded_life": {
 		"name": "Guarded Life, Greater (Ex)",
-		"searchable_name": "Greater Guarded Life",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Guarded Life, Greater (Ex)",
@@ -1512,7 +1368,6 @@
 	},
 	"guarded_stance": {
 		"name": "Guarded Stance (Ex)",
-		"searchable_name": "Guarded Stance",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Guarded Stance (Ex)",
@@ -1522,7 +1377,6 @@
 	},
 	"increased_damage_reduction": {
 		"name": "Increased Damage Reduction (Ex)",
-		"searchable_name": "Increased Damage Reduction",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Increased Damage Reduction (Ex)",
@@ -1532,7 +1386,6 @@
 	},
 	"internal_fortitude": {
 		"name": "Internal Fortitude (Ex)",
-		"searchable_name": "Internal Fortitude",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Internal Fortitude (Ex)",
@@ -1551,7 +1404,6 @@
 	},
 	"liquid_courage": {
 		"name": "Liquid Courage (Ex)",
-		"searchable_name": "Liquid Courage",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Liquid Courage (Ex)",
@@ -1561,7 +1413,6 @@
 	},
 	"reflexive_dodge": {
 		"name": "Reflexive Dodge (Ex)",
-		"searchable_name": "Reflexive Dodge",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Reflexive Dodge (Ex)",
@@ -1571,7 +1422,6 @@
 	},
 	"regenerative_vigor": {
 		"name": "Regenerative Vigor (Ex)",
-		"searchable_name": "Regenerative Vigor",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Regenerative Vigor (Ex)",
@@ -1581,7 +1431,6 @@
 	},
 	"renewed_life": {
 		"name": "Renewed Life (Ex)",
-		"searchable_name": "Renewed Life",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Renewed Life (Ex)",
@@ -1591,7 +1440,6 @@
 	},
 	"renewed_vigor": {
 		"name": "Renewed Vigor (Ex)",
-		"searchable_name": "Renewed Vigor",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Renewed Vigor (Ex)",
@@ -1601,7 +1449,6 @@
 	},
 	"renewed_vitality": {
 		"name": "Renewed Vitality (Ex)",
-		"searchable_name": "Renewed Vitality",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Renewed Vitality (Ex)",
@@ -1611,7 +1458,6 @@
 	},
 	"rolling_dodge": {
 		"name": "Rolling Dodge (Ex)",
-		"searchable_name": "Rolling Dodge",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Rolling Dodge (Ex)",
@@ -1630,7 +1476,6 @@
 	},
 	"spring_rage": {
 		"name": "Spring Rage (Su)",
-		"searchable_name": "Spring Rage",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Spring Rage (Su)",
@@ -1640,7 +1485,6 @@
 	},
 	"staggering_drunk": {
 		"name": "Staggering Drunk (Ex)",
-		"searchable_name": "Staggering Drunk",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Staggering Drunk (Ex)",
@@ -1650,7 +1494,6 @@
 	},
 	"superstition": {
 		"name": "Superstition (Ex)",
-		"searchable_name": "Superstition",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Superstition (Ex)",
@@ -1669,7 +1512,6 @@
 	},
 	"abyssal_blood": {
 		"name": "Abyssal Blood (Su)",
-		"searchable_name": "Abyssal Blood",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Abyssal Blood (Su)",
@@ -1679,7 +1521,6 @@
 	},
 	"greater_abyssal_blood": {
 		"name": "Abyssal Blood, Greater (Su)",
-		"searchable_name": "Greater Abyssal Blood",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Abyssal Blood, Greater (Su)",
@@ -1689,7 +1530,6 @@
 	},
 	"lesser_abyssal_blood": {
 		"name": "Abyssal Blood, Lesser (Su)",
-		"searchable_name": "Lesser Abyssal Blood",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Abyssal Blood, Lesser (Su)",
@@ -1699,7 +1539,6 @@
 	},
 	"celestial_blood": {
 		"name": "Celestial Blood (Su)",
-		"searchable_name": "Celestial Blood",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Celestial Blood (Su)",
@@ -1709,7 +1548,6 @@
 	},
 	"greater_celestial_blood": {
 		"name": "Celestial Blood, Greater (Su)",
-		"searchable_name": "Greater Celestial Blood",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Celestial Blood, Greater (Su)",
@@ -1719,7 +1557,6 @@
 	},
 	"lesser_celestial_blood": {
 		"name": "Celestial Blood, Lesser (Su)",
-		"searchable_name": "Lesser Celestial Blood",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Celestial Blood, Lesser (Su)",
@@ -1729,7 +1566,6 @@
 	},
 	"draconic_blood": {
 		"name": "Draconic Blood (Su)",
-		"searchable_name": "Draconic Blood",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Draconic Blood (Su)",
@@ -1739,7 +1575,6 @@
 	},
 	"greater_draconic_blood": {
 		"name": "Draconic Blood, Greater (Su)",
-		"searchable_name": "Greater Draconic Blood",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Draconic Blood, Greater (Su)",
@@ -1749,7 +1584,6 @@
 	},
 	"lesser_draconic_blood": {
 		"name": "Draconic Blood, Lesser (Su)",
-		"searchable_name": "Lesser Draconic Blood",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Draconic Blood, Lesser (Su)",
@@ -1759,7 +1593,6 @@
 	},
 	"elemental_blood": {
 		"name": "Elemental Blood (Su)",
-		"searchable_name": "Elemental Blood",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Elemental Blood (Su)",
@@ -1769,7 +1602,6 @@
 	},
 	"greater_elemental_blood": {
 		"name": "Elemental Blood, Greater (Su)",
-		"searchable_name": "Greater Elemental Blood",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Elemental Blood, Greater (Su)",
@@ -1779,7 +1611,6 @@
 	},
 	"lesser_elemental_blood": {
 		"name": "Elemental Blood, Lesser (Su)",
-		"searchable_name": "Lesser Elemental Blood",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Elemental Blood, Lesser (Su)",
@@ -1789,7 +1620,6 @@
 	},
 	"fey_blood": {
 		"name": "Fey Blood (Su)",
-		"searchable_name": "Fey Blood",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Fey Blood (Su)",
@@ -1799,7 +1629,6 @@
 	},
 	"greater_fey_blood": {
 		"name": "Fey Blood, Greater (Su)",
-		"searchable_name": "Greater Fey Blood",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Fey Blood, Greater (Su)",
@@ -1809,7 +1638,6 @@
 	},
 	"lesser_fey_blood": {
 		"name": "Fey Blood, Lesser (Su)",
-		"searchable_name": "Lesser Fey Blood",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Fey Blood, Lesser (Su)",
@@ -1819,7 +1647,6 @@
 	},
 	"infernal_blood": {
 		"name": "Infernal Blood (Su)",
-		"searchable_name": "Infernal Blood",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Infernal Blood (Su)",
@@ -1829,7 +1656,6 @@
 	},
 	"greater_infernal_blood": {
 		"name": "Infernal Blood, Greater (Su)",
-		"searchable_name": "Greater Infernal Blood",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Infernal Blood, Greater (Su)",
@@ -1839,7 +1665,6 @@
 	},
 	"lesser_infernal_blood": {
 		"name": "Infernal Blood, Lesser (Su)",
-		"searchable_name": "Lesser Infernal Blood",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Infernal Blood, Lesser (Su)",
@@ -1849,7 +1674,6 @@
 	},
 	"undead_blood": {
 		"name": "Undead Blood (Su)",
-		"searchable_name": "Undead Blood",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Undead Blood (Su)",
@@ -1859,7 +1683,6 @@
 	},
 	"greater_undead_blood": {
 		"name": "Undead Blood, Greater (Su)",
-		"searchable_name": "Greater Undead Blood",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Undead Blood, Greater (Su)",
@@ -1869,7 +1692,6 @@
 	},
 	"lesser_undead_blood": {
 		"name": "Undead Blood, Lesser (Su)",
-		"searchable_name": "Lesser Undead Blood",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Undead Blood, Lesser (Su)",
@@ -1879,7 +1701,6 @@
 	},
 	"bestial_climber": {
 		"name": "Bestial Climber (Ex)",
-		"searchable_name": "Bestial Climber",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Bestial Climber (Ex)",
@@ -1889,7 +1710,6 @@
 	},
 	"bestial_flyer": {
 		"name": "Bestial Flyer (Ex)",
-		"searchable_name": "Bestial Flyer",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Bestial Flyer (Ex)",
@@ -1899,7 +1719,6 @@
 	},
 	"bestial_leaper": {
 		"name": "Bestial Leaper (Ex)",
-		"searchable_name": "Bestial Leaper",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Bestial Leaper (Ex)",
@@ -1909,7 +1728,6 @@
 	},
 	"bestial_swimmer": {
 		"name": "Bestial Swimmer (Ex)",
-		"searchable_name": "Bestial Swimmer",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Bestial Swimmer (Ex)",
@@ -1919,7 +1737,6 @@
 	},
 	"boasting_taunt": {
 		"name": "Boasting Taunt (Ex)",
-		"searchable_name": "Boasting Taunt",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Boasting Taunt (Ex)",
@@ -1929,7 +1746,6 @@
 	},
 	"come_and_get_me": {
 		"name": "Come and Get Me (Ex)",
-		"searchable_name": "Come and Get Me",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Come and Get Me (Ex)",
@@ -1939,7 +1755,6 @@
 	},
 	"contagious_rage": {
 		"name": "Contagious Rage (Su)",
-		"searchable_name": "Contagious Rage",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Contagious Rage (Su)",
@@ -1958,7 +1773,6 @@
 	},
 	"dissipating_rage": {
 		"name": "Dissipating Rage (Su)",
-		"searchable_name": "Dissipating Rage",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Dissipating Rage (Su)",
@@ -1968,7 +1782,6 @@
 	},
 	"eclipsing_rage": {
 		"name": "Eclipsing Rage (Su)",
-		"searchable_name": "Eclipsing Rage",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Eclipsing Rage (Su)",
@@ -1978,7 +1791,6 @@
 	},
 	"greater_eclipsing_rage": {
 		"name": "Eclipsing Rage, Greater (Su)",
-		"searchable_name": "Greater Eclipsing Rage",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Eclipsing Rage, Greater (Su)",
@@ -1988,7 +1800,6 @@
 	},
 	"energy_eruption": {
 		"name": "Energy Eruption (Su)",
-		"searchable_name": "Energy Eruption",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Energy Eruption (Su)",
@@ -1998,7 +1809,6 @@
 	},
 	"ferocious_beast": {
 		"name": "Ferocious Beast (Ex)",
-		"searchable_name": "Ferocious Beast",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"### Ferocious Beast (Ex)",
@@ -2008,7 +1818,6 @@
 	},
 	"greater_ferocious_beast": {
 		"name": "Ferocious Beast, Greater (Ex)",
-		"searchable_name": "Greater Ferocious Beast",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"### Ferocious Beast, Greater (Ex)",
@@ -2018,7 +1827,6 @@
 	},
 	"ferocious_mount": {
 		"name": "Ferocious Mount (Ex)",
-		"searchable_name": "Ferocious Mount",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Ferocious Mount (Ex)",
@@ -2028,7 +1836,6 @@
 	},
 	"greater_ferocious_mount": {
 		"name": "Ferocious Mount, Greater (Ex)",
-		"searchable_name": "Greater Ferocious Mount",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Ferocious Mount, Greater (Ex)",
@@ -2065,7 +1872,6 @@
 	},
 	"inspire_ferocity": {
 		"name": "Inspire Ferocity (Ex)",
-		"searchable_name": "Inspire Ferocity",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Inspire Ferocity (Ex)",
@@ -2075,7 +1881,6 @@
 	},
 	"lizard_stride": {
 		"name": "Lizard Stride (Su)",
-		"searchable_name": "Lizard Stride",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Lizard Stride (Su)",
@@ -2085,7 +1890,6 @@
 	},
 	"low-light_vision": {
 		"name": "Low-Light Vision (Ex)",
-		"searchable_name": "Low Light Vision",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Low-Light Vision (Ex)",
@@ -2095,7 +1899,6 @@
 	},
 	"master_of_the_deep": {
 		"name": "Master of the Deep (Su)",
-		"searchable_name": "Master of the Deep",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"### Master of the Deep (Su)",
@@ -2105,7 +1908,6 @@
 	},
 	"moment_of_clarity": {
 		"name": "Moment of Clarity (Ex)",
-		"searchable_name": "Moment of Clarity",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Moment of Clarity (Ex)",
@@ -2115,7 +1917,6 @@
 	},
 	"night_vision": {
 		"name": "Night Vision (Ex)",
-		"searchable_name": "Night Vision",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Night Vision (Ex)",
@@ -2125,7 +1926,6 @@
 	},
 	"no_escape": {
 		"name": "No Escape (Ex)",
-		"searchable_name": "No Escape",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### No Escape (Ex)",
@@ -2135,7 +1935,6 @@
 	},
 	"pack_rage": {
 		"name": "Pack Rage (Ex)",
-		"searchable_name": "Pack Rage",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Pack Rage (Ex)",
@@ -2145,7 +1944,6 @@
 	},
 	"perfect_clarity": {
 		"name": "Perfect Clarity (Ex)",
-		"searchable_name": "Perfect Clarity",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Perfect Clarity (Ex)",
@@ -2155,7 +1953,6 @@
 	},
 	"primal_scent": {
 		"name": "Primal Scent (Ex)",
-		"searchable_name": "Primal Scent",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Primal Scent (Ex)",
@@ -2165,7 +1962,6 @@
 	},
 	"raging_climber": {
 		"name": "Raging Climber (Ex)",
-		"searchable_name": "Raging Climber",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Raging Climber (Ex)",
@@ -2175,7 +1971,6 @@
 	},
 	"raging_flier": {
 		"name": "Raging Flier (Su)",
-		"searchable_name": "Raging Flier",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Raging Flier (Su)",
@@ -2185,7 +1980,6 @@
 	},
 	"raging_flyer": {
 		"name": "Raging Flyer (Ex)",
-		"searchable_name": "Raging Flyer",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Raging Flyer (Ex)",
@@ -2195,7 +1989,6 @@
 	},
 	"raging_leaper": {
 		"name": "Raging Leaper (Ex)",
-		"searchable_name": "Raging Leaper",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Raging Leaper (Ex)",
@@ -2205,7 +1998,6 @@
 	},
 	"raging_swimmer": {
 		"name": "Raging Swimmer (Ex)",
-		"searchable_name": "Raging Swimmer",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Raging Swimmer (Ex)",
@@ -2215,7 +2007,6 @@
 	},
 	"raging_whirlwind": {
 		"name": "Raging Whirlwind (Su)",
-		"searchable_name": "Raging Whirlwind",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Raging Whirlwind (Su)",
@@ -2225,7 +2016,6 @@
 	},
 	"roaring_drunk": {
 		"name": "Roaring Drunk (Ex)",
-		"searchable_name": "Roaring Drunk",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Roaring Drunk (Ex)",
@@ -2235,7 +2025,6 @@
 	},
 	"roused_anger": {
 		"name": "Roused Anger (Ex)",
-		"searchable_name": "Roused Anger",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Roused Anger (Ex)",
@@ -2254,7 +2043,6 @@
 	},
 	"scent": {
 		"name": "Scent (Ex)",
-		"searchable_name": "Scent",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Scent (Ex)",
@@ -2273,7 +2061,6 @@
 	},
 	"spirit_steed": {
 		"name": "Spirit Steed (Su)",
-		"searchable_name": "Spirit Steed",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"### Spirit Steed (Su)",
@@ -2283,7 +2070,6 @@
 	},
 	"sprint": {
 		"name": "Sprint (Ex)",
-		"searchable_name": "Sprint",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"### Sprint (Ex)",
@@ -2293,7 +2079,6 @@
 	},
 	"suffocating_grip": {
 		"name": "Suffocating Grip (Ex)",
-		"searchable_name": "Suffocating Grip",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"### Suffocating Grip (Ex)",
@@ -2303,7 +2088,6 @@
 	},
 	"greater_suffocating_grip": {
 		"name": "Suffocating Grip, Greater (Ex)",
-		"searchable_name": "Greater Suffocating Grip",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"### Suffocating Grip, Greater (Ex)",
@@ -2313,7 +2097,6 @@
 	},
 	"swift_foot": {
 		"name": "Swift Foot (Ex)",
-		"searchable_name": "Swift Foot",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Swift Foot (Ex)",
@@ -2323,7 +2106,6 @@
 	},
 	"ultimate_clarity": {
 		"name": "Ultimate Clarity (Su)",
-		"searchable_name": "Ultimate Clarity",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"### Ultimate Clarity (Su)",
@@ -2333,7 +2115,6 @@
 	},
 	"water_sense": {
 		"name": "Water Sense (Ex)",
-		"searchable_name": "Water Sense",
 		"sources": [ "People of the River" ],
 		"description": [
 			"### Water Sense (Ex)",

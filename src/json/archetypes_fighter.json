@@ -2,7 +2,6 @@
 	"_prefix": "archetype-fighter",
 	"aerial_assaulter": {
 		"name": "Aerial Assaulter",
-		"file": "archetypedisplay4d73.html",
 		"sources": [ "Blood of the Ancients" ],
 		"description": [
 			"## Aerial Assaulter",
@@ -34,7 +33,6 @@
 	},
 	"airborne_ambusher": {
 		"name": "Airborne Ambusher",
-		"file": "archetypedisplay4642.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Airborne Ambusher",
@@ -58,7 +56,6 @@
 	},
 	"aldori_defender": {
 		"name": "Aldori Defender",
-		"file": "archetypedisplayd824.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Inner Sea Primer"
@@ -93,7 +90,6 @@
 	},
 	"aquanaut": {
 		"name": "Aquanaut",
-		"file": "archetypedisplay736a.html",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Aquanaut",
@@ -125,7 +121,6 @@
 	},
 	"archer": {
 		"name": "Archer",
-		"file": "archetypedisplayc33a.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Archer",
@@ -155,7 +150,6 @@
 	},
 	"armiger": {
 		"name": "Armiger",
-		"file": "archetypedisplayaf5c.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Armiger",
@@ -185,7 +179,6 @@
 	},
 	"armor_master": {
 		"name": "Armor Master",
-		"file": "archetypedisplayd57f.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Armor Master",
@@ -205,7 +198,6 @@
 	},
 	"brawler": {
 		"name": "Brawler",
-		"file": "archetypedisplayd6ee.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Brawler",
@@ -229,7 +221,6 @@
 	},
 	"cad": {
 		"name": "Cad",
-		"file": "archetypedisplay2946.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Cad",
@@ -265,7 +256,6 @@
 	},
 	"calistrian_hunter": {
 		"name": "Calistrian Hunter",
-		"file": "archetypedisplaye1a7.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Calistrian Hunter",
@@ -293,7 +283,6 @@
 	},
 	"cavern_sniper": {
 		"name": "Cavern Sniper",
-		"file": "archetypedisplay3f12.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Cavern Sniper",
@@ -319,7 +308,6 @@
 	},
 	"child_of_acavna_and_amaznen": {
 		"name": "Child of Acavna and Amaznen",
-		"file": "archetypedisplay3e00.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## Child of Acavna and Amaznen",
@@ -351,7 +339,6 @@
 	},
 	"corsair": {
 		"name": "Corsair",
-		"file": "archetypedisplayf690.html",
 		"sources": [ "Pirates of the Inner Sea" ],
 		"description": [
 			"## Corsair",
@@ -371,7 +358,6 @@
 	},
 	"crossbowman": {
 		"name": "Crossbowman",
-		"file": "archetypedisplay8349.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Crossbowman",
@@ -403,7 +389,6 @@
 	},
 	"cyber-soldier": {
 		"name": "Cyber-Soldier",
-		"file": "archetypedisplaya115.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Cyber-Soldier",
@@ -421,7 +406,6 @@
 	},
 	"dirty_fighter": {
 		"name": "Dirty Fighter",
-		"file": "archetypedisplaye61c.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Dirty Fighter",
@@ -441,7 +425,6 @@
 	},
 	"dragonheir_scion": {
 		"name": "Dragonheir Scion",
-		"file": "archetypedisplay3bc9.html",
 		"sources": [],
 		"description": [
 			"## Dragonheir Scion",
@@ -496,7 +479,6 @@
 	},
 	"dragoon": {
 		"name": "Dragoon",
-		"file": "archetypedisplayc896.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Dragoon",
@@ -524,7 +506,6 @@
 	},
 	"drill_sergeant": {
 		"name": "Drill Sergeant",
-		"file": "archetypedisplay012b.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Drill Sergeant",
@@ -546,7 +527,6 @@
 	},
 	"druman_blackjacket": {
 		"name": "Druman Blackjacket",
-		"file": "archetypedisplay954d.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Druman Blackjacket",
@@ -570,7 +550,6 @@
 	},
 	"eldritch_guardian": {
 		"name": "Eldritch Guardian",
-		"file": "archetypedisplayf3a0.html",
 		"sources": [ "Familiar Folio" ],
 		"description": [
 			"## Eldritch Guardian",
@@ -590,7 +569,6 @@
 	},
 	"foehammer": {
 		"name": "Foehammer",
-		"file": "archetypedisplaya141.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Foehammer",
@@ -622,7 +600,6 @@
 	},
 	"free_hand_fighter": {
 		"name": "Free Hand Fighter",
-		"file": "archetypedisplayb10d.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Free Hand Fighter",
@@ -646,7 +623,6 @@
 	},
 	"gladiator": {
 		"name": "Gladiator",
-		"file": "archetypedisplay4208.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Gladiator",
@@ -666,7 +642,6 @@
 	},
 	"gloomblade": {
 		"name": "Gloomblade",
-		"file": "archetypedisplayd8ec.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Gloomblade",
@@ -705,7 +680,6 @@
 	},
 	"high_guardian": {
 		"name": "High Guardian",
-		"file": "archetypedisplay0ceb.html",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [
 			"## High Guardian",
@@ -739,7 +713,6 @@
 	},
 	"lore_warden": {
 		"name": "Lore Warden",
-		"file": "archetypedisplay9cdd.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Lore Warden",
@@ -773,7 +746,6 @@
 	},
 	"lore_warden_pfs_field_guide": {
 		"name": "Lore Warden (PFS Field Guide)",
-		"file": "archetypedisplay5ba5.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
 			"## Lore Warden (PFS Field Guide)",
@@ -799,7 +771,6 @@
 	},
 	"martial_master": {
 		"name": "Martial Master",
-		"file": "archetypedisplay6b07.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Martial Master",
@@ -825,7 +796,6 @@
 	},
 	"mobile_fighter": {
 		"name": "Mobile Fighter",
-		"file": "archetypedisplay3312.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Mobile Fighter",
@@ -847,7 +817,6 @@
 	},
 	"molthuni_defender": {
 		"name": "Molthuni Defender",
-		"file": "archetypedisplayec89.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Molthuni Defender",
@@ -865,7 +834,6 @@
 	},
 	"mutation_warrior": {
 		"name": "Mutation Warrior",
-		"file": "archetypedisplay2b6f.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Mutation Warrior",
@@ -881,7 +849,6 @@
 	},
 	"opportunist": {
 		"name": "Opportunist",
-		"file": "archetypedisplayfebc.html",
 		"sources": [ "Blood of the Beast" ],
 		"description": [
 			"## Opportunist",
@@ -921,7 +888,6 @@
 	},
 	"pack_mule": {
 		"name": "Pack Mule",
-		"file": "archetypedisplayc337.html",
 		"sources": [ "Black Markets" ],
 		"description": [
 			"## Pack Mule",
@@ -945,7 +911,6 @@
 	},
 	"phalanx_soldier": {
 		"name": "Phalanx Soldier",
-		"file": "archetypedisplay16fc.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Phalanx Soldier",
@@ -975,7 +940,6 @@
 	},
 	"polearm_master": {
 		"name": "Polearm Master",
-		"file": "archetypedisplay1349.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Polearm Master",
@@ -1003,7 +967,6 @@
 	},
 	"qadira_dawnflower_dervish": {
 		"name": "Qadira: Dawnflower Dervish",
-		"file": "archetypedisplayf013.html",
 		"sources": [ "Inner Sea Primer" ],
 		"description": [
 			"## Qadira: Dawnflower Dervish",
@@ -1025,7 +988,6 @@
 	},
 	"relic_master": {
 		"name": "Relic Master",
-		"file": "archetypedisplaya59b.html",
 		"sources": [ "Weapon Master's Handbook" ],
 		"description": [
 			"## Relic Master",
@@ -1045,7 +1007,6 @@
 	},
 	"roughrider": {
 		"name": "Roughrider",
-		"file": "archetypedisplay0858.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Roughrider",
@@ -1073,7 +1034,6 @@
 	},
 	"savage_warrior": {
 		"name": "Savage Warrior",
-		"file": "archetypedisplay0043.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Savage Warrior",
@@ -1097,7 +1057,6 @@
 	},
 	"scrapper": {
 		"name": "Scrapper",
-		"file": "archetypedisplay0bae.html",
 		"sources": [],
 		"description": [
 			"## Scrapper",
@@ -1117,7 +1076,6 @@
 	},
 	"seasoned_commander": {
 		"name": "Seasoned Commander",
-		"file": "archetypedisplayd589.html",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Seasoned Commander",
@@ -1157,7 +1115,6 @@
 	},
 	"sensate": {
 		"name": "Sensate",
-		"file": "archetypedisplayf71b.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Sensate",
@@ -1189,7 +1146,6 @@
 	},
 	"shielded_fighter": {
 		"name": "Shielded Fighter",
-		"file": "archetypedisplay6664.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Shielded Fighter",
@@ -1215,7 +1171,6 @@
 	},
 	"siegebreaker": {
 		"name": "Siegebreaker",
-		"file": "archetypedisplay3c45.html",
 		"sources": [ "Heroes of the Streets" ],
 		"description": [
 			"## Siegebreaker",
@@ -1239,7 +1194,6 @@
 	},
 	"skirmisher": {
 		"name": "Skirmisher",
-		"file": "archetypedisplayf01f.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Skirmisher",
@@ -1286,7 +1240,6 @@
 	},
 	"spear_fighter": {
 		"name": "Spear Fighter",
-		"file": "archetypedisplay3c27.html",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
 			"## Spear Fighter",
@@ -1318,7 +1271,6 @@
 	},
 	"steelbound_fighter": {
 		"name": "Steelbound Fighter",
-		"file": "archetypedisplaydb47.html",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
 			"## Steelbound Fighter",
@@ -1352,7 +1304,6 @@
 	},
 	"swarm_fighter": {
 		"name": "Swarm Fighter",
-		"file": "archetypedisplay866a.html",
 		"sources": [ "Kobolds of Golarion" ],
 		"description": [
 			"## Swarm Fighter",
@@ -1396,7 +1347,6 @@
 	},
 	"tactician": {
 		"name": "Tactician",
-		"file": "archetypedisplaye9c0.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Tactician",
@@ -1422,7 +1372,6 @@
 	},
 	"taldor_rondelero_duelist": {
 		"name": "Taldor: Rondelero Duelist",
-		"file": "archetypedisplayd7ad.html",
 		"sources": [ "Inner Sea Primer" ],
 		"description": [
 			"## Taldor: Rondelero Duelist",
@@ -1446,7 +1395,6 @@
 	},
 	"thunderstriker": {
 		"name": "Thunderstriker",
-		"file": "archetypedisplay917f.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Thunderstriker",
@@ -1472,7 +1420,6 @@
 	},
 	"titan_fighter": {
 		"name": "Titan Fighter",
-		"file": "archetypedisplay9597.html",
 		"sources": [ "Giant Hunter's Handbook" ],
 		"description": [
 			"## Titan Fighter",
@@ -1490,7 +1437,6 @@
 	},
 	"tower_shield_specialist": {
 		"name": "Tower Shield Specialist",
-		"file": "archetypedisplayc3e6.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Tower Shield Specialist",
@@ -1514,7 +1460,6 @@
 	},
 	"trench_fighter": {
 		"name": "Trench Fighter",
-		"file": "archetypedisplayf33e.html",
 		"sources": [ "Pathfinder #71: Rasputin Must Die!" ],
 		"description": [
 			"## Trench Fighter",
@@ -1547,7 +1492,6 @@
 	},
 	"tribal_fighter": {
 		"name": "Tribal Fighter",
-		"file": "archetypedisplayf03e.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Tribal Fighter",
@@ -1569,7 +1513,6 @@
 	},
 	"two-handed_fighter": {
 		"name": "Two-Handed Fighter",
-		"file": "archetypedisplaya742.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Two-Handed Fighter",
@@ -1595,7 +1538,6 @@
 	},
 	"two-weapon_warrior": {
 		"name": "Two-Weapon Warrior",
-		"file": "archetypedisplay60b4.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Two-Weapon Warrior",
@@ -1623,7 +1565,6 @@
 	},
 	"unarmed_fighter": {
 		"name": "Unarmed Fighter",
-		"file": "archetypedisplay61dc.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Unarmed Fighter",
@@ -1659,7 +1600,6 @@
 	},
 	"unbreakable": {
 		"name": "Unbreakable",
-		"file": "archetypedisplayb627.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Unbreakable",
@@ -1691,7 +1631,6 @@
 	},
 	"ustalavic_duelist": {
 		"name": "Ustalavic Duelist",
-		"file": "archetypedisplay4680.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Ustalavic Duelist",
@@ -1715,7 +1654,6 @@
 	},
 	"varisian_free-style_fighter": {
 		"name": "Varisian Free-Style Fighter",
-		"file": "archetypedisplay53c7.html",
 		"sources": [ "Weapon Master's Handbook" ],
 		"description": [
 			"## Varisian Free-Style Fighter",
@@ -1733,7 +1671,6 @@
 	},
 	"venomblade": {
 		"name": "Venomblade",
-		"file": "archetypedisplay0a14.html",
 		"sources": [],
 		"description": [
 			"## Venomblade",
@@ -1757,7 +1694,6 @@
 	},
 	"viking": {
 		"name": "Viking",
-		"file": "archetypedisplay5056.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"People of the North"
@@ -1792,7 +1728,6 @@
 	},
 	"warlord": {
 		"name": "Warlord",
-		"file": "archetypedisplay2fb2.html",
 		"sources": [ "Pathfinder: Worldscape #3" ],
 		"description": [
 			"## Warlord",
@@ -1830,7 +1765,6 @@
 	},
 	"weapon_bearer_squire": {
 		"name": "Weapon Bearer Squire",
-		"file": "archetypedisplay3b08.html",
 		"sources": [ "Knights of the Inner Sea" ],
 		"description": [
 			"## Weapon Bearer Squire",
@@ -1848,7 +1782,6 @@
 	},
 	"weapon_master": {
 		"name": "Weapon Master",
-		"file": "archetypedisplay8d76.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Weapon Master",

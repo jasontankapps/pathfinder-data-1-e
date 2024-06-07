@@ -2,7 +2,6 @@
 	"_prefix": "magic-fetish",
 	"black_blessing": {
 		"name": "Black Blessing",
-		"file": "_magicjujufetishes.html",
 		"sources": [ "Pathfinder #39: The City of Seven Spears" ],
 		"description": [
 			"## Black Blessing",
@@ -23,7 +22,6 @@
 	},
 	"ganji_doll": {
 		"name": "Ganji Doll",
-		"file": "_magicjujufetishes.html",
 		"sources": [ "Pathfinder #39: The City of Seven Spears" ],
 		"description": [
 			"## Ganji Doll",
@@ -52,7 +50,6 @@
 	},
 	"ganji_doll,_greater": {
 		"name": "Ganji Doll, Greater",
-		"file": "_magicjujufetishes.html",
 		"sources": [ "Pathfinder #39: The City of Seven Spears" ],
 		"description": [
 			"## Greater Ganji Doll",
@@ -84,7 +81,6 @@
 	},
 	"laubo_powder": {
 		"name": "Laubo Powder",
-		"file": "_magicjujufetishes.html",
 		"sources": [ "Pathfinder #39: The City of Seven Spears" ],
 		"description": [
 			"## Laubo Powder",
@@ -107,7 +103,6 @@
 	},
 	"spirit_tear": {
 		"name": "Spirit Tear",
-		"file": "_magicjujufetishes.html",
 		"sources": [ "Pathfinder #39: The City of Seven Spears" ],
 		"description": [
 			"## Spirit Tear",

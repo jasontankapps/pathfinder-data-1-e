@@ -2,7 +2,6 @@
 	"_prefix": "archetype-kineticist",
 	"aquakinetcist": {
 		"name": "Aquakinetcist",
-		"file": "archetypedisplay3ca6.html",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Aquakinetcist",
@@ -34,7 +33,6 @@
 	},
 	"arakineticist": {
 		"name": "Arakineticist",
-		"file": "archetypedisplay48eb.html",
 		"sources": [ "Blood of the Coven" ],
 		"description": [
 			"## Arakineticist",
@@ -60,7 +58,6 @@
 	},
 	"blightburner": {
 		"name": "Blightburner",
-		"file": "archetypedisplay3dc9.html",
 		"sources": [ "Heroes of the Darklands" ],
 		"description": [
 			"## Blightburner",
@@ -98,7 +95,6 @@
 	},
 	"blighted_defiler": {
 		"name": "Blighted Defiler",
-		"file": "archetypedisplay9c63.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Blighted Defiler",
@@ -144,7 +140,6 @@
 	},
 	"blood_kineticist": {
 		"name": "Blood Kineticist",
-		"file": "archetypedisplayfdb8.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Blood Kineticist",
@@ -174,7 +169,6 @@
 	},
 	"cinderlands_adept": {
 		"name": "Cinderlands Adept",
-		"file": "archetypedisplaye4a1.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Cinderlands Adept",
@@ -202,7 +196,6 @@
 	},
 	"dark_elementalist": {
 		"name": "Dark Elementalist",
-		"file": "archetypedisplay2c90.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Dark Elementalist",
@@ -230,7 +223,6 @@
 	},
 	"elemental_annihilator": {
 		"name": "Elemental Annihilator",
-		"file": "archetypedisplayb4f8.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Elemental Annihilator",
@@ -258,7 +250,6 @@
 	},
 	"elemental_ascetic": {
 		"name": "Elemental Ascetic",
-		"file": "archetypedisplay96ce.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Elemental Ascetic",
@@ -278,7 +269,6 @@
 	},
 	"elemental_purist": {
 		"name": "Elemental Purist",
-		"file": "archetypedisplay9209.html",
 		"sources": [ "Planes of Power" ],
 		"description": [
 			"## Elemental Purist",
@@ -300,7 +290,6 @@
 	},
 	"elysiokineticist": {
 		"name": "Elysiokineticist",
-		"file": "archetypedisplay701e.html",
 		"sources": [ "People of the Wastes" ],
 		"description": [
 			"## Elysiokineticist",
@@ -330,7 +319,6 @@
 	},
 	"ioun_kineticist": {
 		"name": "Ioun Kineticist",
-		"file": "archetypedisplaycd29.html",
 		"sources": [ "Blood of the Ancients" ],
 		"description": [
 			"## Ioun Kineticist",
@@ -368,7 +356,6 @@
 	},
 	"kinetic_chirurgeon": {
 		"name": "Kinetic Chirurgeon",
-		"file": "archetypedisplayc29b.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Kinetic Chirurgeon",
@@ -386,7 +373,6 @@
 	},
 	"kinetic_knight": {
 		"name": "Kinetic Knight",
-		"file": "archetypedisplay4900.html",
 		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Kinetic Knight",
@@ -418,7 +404,6 @@
 	},
 	"leshykineticist": {
 		"name": "Leshykineticist",
-		"file": "archetypedisplay95e3.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Leshykineticist",
@@ -446,7 +431,6 @@
 	},
 	"overwhelming_soul": {
 		"name": "Overwhelming Soul",
-		"file": "archetypedisplay01e0.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Overwhelming Soul",
@@ -464,7 +448,6 @@
 	},
 	"psammokinetic": {
 		"name": "Psammokinetic",
-		"file": "archetypedisplayc759.html",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
 			"## Psammokinetic",
@@ -508,7 +491,6 @@
 	},
 	"psychokineticist": {
 		"name": "Psychokineticist",
-		"file": "archetypedisplay5a36.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Psychokineticist",
@@ -532,7 +514,6 @@
 	},
 	"terrakineticist": {
 		"name": "Terrakineticist",
-		"file": "archetypedisplay7874.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Terrakineticist",

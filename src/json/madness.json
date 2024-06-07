@@ -2,7 +2,6 @@
 	"_prefix": "madness",
 	"hallucination": {
 		"name": "Hallucination",
-		"file": "madnessesa202.html",
 		"sources": [ "Horror Adventures" ],
 		"type": "lesser madness",
 		"will_save": "DC 14",
@@ -22,7 +21,6 @@
 	},
 	"mania": {
 		"name": "Mania",
-		"file": "madnessesaa94.html",
 		"sources": [
 			"Horror Adventures",
 			"GameMastery Guide"
@@ -45,7 +43,6 @@
 	},
 	"melancholia": {
 		"name": "Melancholia",
-		"file": "madnesses83f4.html",
 		"sources": [ "Horror Adventures" ],
 		"type": "lesser madness",
 		"will_save": "DC 14",
@@ -65,7 +62,6 @@
 	},
 	"phobia": {
 		"name": "Phobia",
-		"file": "madnessesc69a.html",
 		"sources": [
 			"Horror Adventures",
 			"GameMastery Guide"
@@ -88,7 +84,6 @@
 	},
 	"delirium": {
 		"name": "Delirium",
-		"file": "madnesses1ee4.html",
 		"sources": [ "Horror Adventures" ],
 		"type": "lesser madness",
 		"will_save": "DC 16",
@@ -108,7 +103,6 @@
 	},
 	"delusion": {
 		"name": "Delusion",
-		"file": "madnessesa281.html",
 		"sources": [ "Horror Adventures" ],
 		"type": "lesser madness",
 		"will_save": "DC 16",
@@ -130,7 +124,6 @@
 	},
 	"night_terrors": {
 		"name": "Night Terrors",
-		"file": "madnesses4f19.html",
 		"sources": [ "Horror Adventures" ],
 		"type": "lesser madness",
 		"will_save": "DC 16",
@@ -150,7 +143,6 @@
 	},
 	"paranoid": {
 		"name": "Paranoid",
-		"file": "madnessesffee.html",
 		"sources": [
 			"Horror Adventures",
 			"GameMastery Guide"
@@ -173,7 +165,6 @@
 	},
 	"fugue": {
 		"name": "Fugue",
-		"file": "madnessesf1d9.html",
 		"sources": [ "Horror Adventures" ],
 		"type": "lesser madness",
 		"will_save": "DC 18",
@@ -193,7 +184,6 @@
 	},
 	"cognitive_block": {
 		"name": "Cognitive Block",
-		"file": "madnessesf100.html",
 		"sources": [ "Horror Adventures" ],
 		"type": "greater madness",
 		"will_save": "DC 20",
@@ -213,7 +203,6 @@
 	},
 	"dissociated_identity": {
 		"name": "Dissociated Identity",
-		"file": "madnessese29f.html",
 		"sources": [
 			"Horror Adventures",
 			"GameMastery Guide"
@@ -238,7 +227,6 @@
 	},
 	"psychosomatic_loss": {
 		"name": "Psychosomatic Loss",
-		"file": "madnesses07f3.html",
 		"sources": [ "Horror Adventures" ],
 		"type": "greater madness",
 		"will_save": "DC 20",
@@ -258,7 +246,6 @@
 	},
 	"amnesia": {
 		"name": "Amnesia",
-		"file": "madnesses1f66.html",
 		"sources": [
 			"Horror Adventures",
 			"GameMastery Guide"
@@ -283,7 +270,6 @@
 	},
 	"moral_insanity": {
 		"name": "Moral Insanity",
-		"file": "madnesses1367.html",
 		"sources": [
 			"Horror Adventures",
 			"GameMastery Guide"
@@ -306,7 +292,6 @@
 	},
 	"schizophrenia": {
 		"name": "Schizophrenia",
-		"file": "madnesses3ff1.html",
 		"sources": [
 			"Horror Adventures",
 			"GameMastery Guide"
@@ -329,7 +314,6 @@
 	},
 	"catatonia": {
 		"name": "Catatonia",
-		"file": "madnesses9a4e.html",
 		"sources": [ "Horror Adventures" ],
 		"type": "greater madness",
 		"will_save": "DC 24",

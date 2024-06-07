@@ -2,7 +2,6 @@
 	"_prefix": "archetype-magus",
 	"armored_battlemage": {
 		"name": "Armored Battlemage",
-		"file": "archetypedisplayb7dd.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Armored Battlemage",
@@ -38,7 +37,6 @@
 	},
 	"beastblade": {
 		"name": "Beastblade",
-		"file": "archetypedisplay9632.html",
 		"sources": [ "Familiar Folio" ],
 		"description": [
 			"## Beastblade",
@@ -58,7 +56,6 @@
 	},
 	"bladebound": {
 		"name": "Bladebound",
-		"file": "archetypedisplayff04.html",
 		"sources": [],
 		"description": [
 			"## Bladebound",
@@ -125,7 +122,6 @@
 	},
 	"card_caster": {
 		"name": "Card Caster",
-		"file": "archetypedisplay2c61.html",
 		"sources": [ "The Harrow Handbook" ],
 		"description": [
 			"## Card Caster",
@@ -145,7 +141,6 @@
 	},
 	"deep_marshal": {
 		"name": "Deep Marshal",
-		"file": "archetypedisplay9dc1.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## Deep Marshal",
@@ -169,7 +164,6 @@
 	},
 	"eldritch_archer": {
 		"name": "Eldritch Archer",
-		"file": "archetypedisplay0b87.html",
 		"sources": [],
 		"description": [
 			"## Eldritch Archer",
@@ -195,7 +189,6 @@
 	},
 	"eldritch_scion": {
 		"name": "Eldritch Scion",
-		"file": "archetypedisplay52c5.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Eldritch Scion",
@@ -229,7 +222,6 @@
 	},
 	"elemental_knight": {
 		"name": "Elemental Knight",
-		"file": "archetypedisplayc025.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Elemental Knight",
@@ -253,7 +245,6 @@
 	},
 	"esoteric": {
 		"name": "Esoteric",
-		"file": "archetypedisplay752d.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Esoteric",
@@ -285,7 +276,6 @@
 	},
 	"fiend_flayer": {
 		"name": "Fiend Flayer",
-		"file": "archetypedisplay83a0.html",
 		"sources": [ "Advanced Race Guide" ],
 		"replace_array": [],
 		"description": [
@@ -312,7 +302,6 @@
 	},
 	"greensting_slayer": {
 		"name": "Greensting Slayer",
-		"file": "archetypedisplay3757.html",
 		"sources": [ "Bastards of Golarion" ],
 		"description": [
 			"## Greensting Slayer",
@@ -336,7 +325,6 @@
 	},
 	"hexbreaker": {
 		"name": "Hexbreaker",
-		"file": "archetypedisplay79ea.html",
 		"sources": [ "Blood of the Coven" ],
 		"description": [
 			"## Hexbreaker",
@@ -366,7 +354,6 @@
 	},
 	"hexcrafter": {
 		"name": "Hexcrafter",
-		"file": "archetypedisplaybc2f.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Hexcrafter",
@@ -388,7 +375,6 @@
 	},
 	"iron-ring_striker": {
 		"name": "Iron-Ring Striker",
-		"file": "archetypedisplayccff.html",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
 			"## Iron-Ring Striker",
@@ -434,7 +420,6 @@
 	},
 	"jistkan_artificer": {
 		"name": "Jistkan Artificer",
-		"file": "archetypedisplay6cb3.html",
 		"sources": [ "Blood of the Ancients" ],
 		"description": [
 			"## Jistkan Artificer",
@@ -478,7 +463,6 @@
 	},
 	"kapenia_dancer": {
 		"name": "Kapenia Dancer",
-		"file": "archetypedisplay9d53.html",
 		"sources": [ "Varisia, Birthplace of Legends" ],
 		"description": [
 			"## Kapenia Dancer",
@@ -510,7 +494,6 @@
 	},
 	"kensai": {
 		"name": "Kensai",
-		"file": "archetypedisplay3b87.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Kensai",
@@ -550,7 +533,6 @@
 	},
 	"magic_warrior": {
 		"name": "Magic Warrior",
-		"file": "archetypedisplay2eaf.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Inner Sea Intrigue"
@@ -587,7 +569,6 @@
 	},
 	"mindblade": {
 		"name": "Mindblade",
-		"file": "archetypedisplay47dc.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Mindblade",
@@ -625,7 +606,6 @@
 	},
 	"myrmidarch": {
 		"name": "Myrmidarch",
-		"file": "archetypedisplay874b.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Myrmidarch",
@@ -653,7 +633,6 @@
 	},
 	"nature-bonded_magus": {
 		"name": "Nature-Bonded Magus",
-		"file": "archetypedisplayff2e.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Nature-Bonded Magus",
@@ -683,7 +662,6 @@
 	},
 	"puppetmaster": {
 		"name": "Puppetmaster",
-		"file": "archetypedisplay6306.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## Puppetmaster",
@@ -709,7 +687,6 @@
 	},
 	"sigilus": {
 		"name": "Sigilus",
-		"file": "archetypedisplay1039.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Sigilus",
@@ -741,7 +718,6 @@
 	},
 	"skirnir": {
 		"name": "Skirnir",
-		"file": "archetypedisplaya98a.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Skirnir",
@@ -775,7 +751,6 @@
 	},
 	"sorrowblade": {
 		"name": "Sorrowblade",
-		"file": "archetypedisplay61f7-2.html",
 		"sources": [ "Pathfinder: Spiral of Bones #4" ],
 		"description": [
 			"## Sorrowblade",
@@ -797,7 +772,6 @@
 	},
 	"soul_forger": {
 		"name": "Soul Forger",
-		"file": "archetypedisplay4d1f.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Soul Forger",
@@ -833,7 +807,6 @@
 	},
 	"spell_dancer": {
 		"name": "Spell Dancer",
-		"file": "archetypedisplay6ae4.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Spell Dancer",
@@ -861,7 +834,6 @@
 	},
 	"spell_trapper": {
 		"name": "Spell Trapper",
-		"file": "archetypedisplaya3d8.html",
 		"sources": [ "Magic Tactics Toolbox" ],
 		"description": [
 			"## Spell Trapper",
@@ -891,7 +863,6 @@
 	},
 	"spellblade": {
 		"name": "Spellblade",
-		"file": "archetypedisplayda2c.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Spellblade",
@@ -915,7 +886,6 @@
 	},
 	"spire_defender": {
 		"name": "Spire Defender",
-		"file": "archetypedisplay0ae4.html",
 		"sources": [],
 		"description": [
 			"## Spire Defender",
@@ -933,7 +903,6 @@
 	},
 	"staff_magus": {
 		"name": "Staff Magus",
-		"file": "archetypedisplay9d69.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Staff Magus",

@@ -2,7 +2,6 @@
 	"_prefix": "class_abilities-mystery",
 	"ancestor": {
 		"name": "Ancestor",
-		"file": "mysterydisplay1854.html",
 		"sources": [ "Ultimate Magic" ],
 		"deities": [
 			"Erastil",
@@ -47,7 +46,6 @@
 	},
 	"apocalypse": {
 		"name": "Apocalypse",
-		"file": "mysterydisplaya5ab.html",
 		"sources": [ "Monster Codex" ],
 		"deities": [
 			"Gorum",
@@ -93,7 +91,6 @@
 	},
 	"ascetic": {
 		"name": "Ascetic",
-		"file": "mysterydisplayd1c6.html",
 		"sources": [ "Villain Codex" ],
 		"deities": [
 			"Gozreh",
@@ -133,7 +130,6 @@
 	},
 	"battle": {
 		"name": "Battle",
-		"file": "mysterydisplay55dc.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"deities": [
 			"Cayden Cailean",
@@ -179,7 +175,6 @@
 	},
 	"bones": {
 		"name": "Bones",
-		"file": "mysterydisplay706f.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"deities": [
 			"Norgorber",
@@ -224,7 +219,6 @@
 	},
 	"dark_tapestry": {
 		"name": "Dark Tapestry",
-		"file": "mysterydisplay7137.html",
 		"sources": [ "Ultimate Magic" ],
 		"deities": [
 			"Lamashtu",
@@ -269,7 +263,6 @@
 	},
 	"dragon": {
 		"name": "Dragon",
-		"file": "mysterydisplay1041.html",
 		"sources": [ "Legacy of Dragons" ],
 		"deities": [
 			"Dahak",
@@ -322,7 +315,6 @@
 	},
 	"elemental": {
 		"name": "Elemental",
-		"file": "mysterydisplay04c4.html",
 		"sources": [ "Elemental Master's Handbook" ],
 		"deities": [
 			"Elemental Lords",
@@ -372,7 +364,6 @@
 	},
 	"flame": {
 		"name": "Flame",
-		"file": "mysterydisplay5771.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"deities": [
 			"Asmodeus",
@@ -416,7 +407,6 @@
 	},
 	"godclaw": {
 		"name": "Godclaw",
-		"file": "mysterydisplay7ee6.html",
 		"sources": [ "Path of the Hellknight" ],
 		"deities": [
 			"Abadar",
@@ -465,7 +455,6 @@
 	},
 	"heavens": {
 		"name": "Heavens",
-		"file": "mysterydisplay923d.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"deities": [
 			"Desna",
@@ -511,7 +500,6 @@
 	},
 	"intrigue": {
 		"name": "Intrigue",
-		"file": "mysterydisplayb269.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"deities": [
 			"Calistria",
@@ -555,7 +543,6 @@
 	},
 	"juju": {
 		"name": "Juju",
-		"file": "mysterydisplay935e.html",
 		"sources": [
 			"Faiths and Philosophies",
 			"Pathfinder #39: The City of Seven Spears"
@@ -599,7 +586,6 @@
 	},
 	"life": {
 		"name": "Life",
-		"file": "mysterydisplay195c.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"deities": [
 			"Gozreh",
@@ -644,7 +630,6 @@
 	},
 	"lore": {
 		"name": "Lore",
-		"file": "mysterydisplayd63b.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"deities": [
 			"Abadar",
@@ -689,7 +674,6 @@
 	},
 	"lunar": {
 		"name": "Lunar",
-		"file": "mysterydisplayd77f.html",
 		"sources": [ "Blood of the Moon" ],
 		"deities": [
 			"Ashava",
@@ -737,7 +721,6 @@
 	},
 	"metal": {
 		"name": "Metal",
-		"file": "mysterydisplay508a.html",
 		"sources": [ "Ultimate Magic" ],
 		"deities": [
 			"Abadar",
@@ -782,7 +765,6 @@
 	},
 	"nature": {
 		"name": "Nature",
-		"file": "mysterydisplayd262.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"deities": [
 			"Erastil",
@@ -826,7 +808,6 @@
 	},
 	"occult": {
 		"name": "Occult",
-		"file": "mysterydisplay546d.html",
 		"sources": [
 			"Occult Mysteries",
 			"Pathfinder #71: Rasputin Must Die!"
@@ -877,7 +858,6 @@
 	},
 	"outer_rifts": {
 		"name": "Outer Rifts",
-		"file": "mysterydisplay0ce0.html",
 		"sources": [ "Inner Sea Magic" ],
 		"deities": [
 			"Iomedae",
@@ -923,7 +903,6 @@
 	},
 	"reaper": {
 		"name": "Reaper",
-		"file": "mysterydisplay928f.html",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"deities": [
 			"Achaekek",
@@ -970,7 +949,6 @@
 	},
 	"shadow": {
 		"name": "Shadow",
-		"file": "mysterydisplay372c.html",
 		"sources": [ "Blood of Shadows" ],
 		"deities": [
 			"Groetus",
@@ -1016,7 +994,6 @@
 	},
 	"solar": {
 		"name": "Solar",
-		"file": "mysterydisplay1559.html",
 		"sources": [ "The Harrow Handbook" ],
 		"deities": [
 			"Desna",
@@ -1068,7 +1045,6 @@
 	},
 	"spellscar": {
 		"name": "Spellscar",
-		"file": "mysterydisplayf6bd.html",
 		"sources": [ "Inner Sea Magic" ],
 		"deities": [
 			"Gozreh",
@@ -1114,7 +1090,6 @@
 	},
 	"stone": {
 		"name": "Stone",
-		"file": "mysterydisplay1180.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"deities": [
 			"Abadar",
@@ -1159,7 +1134,6 @@
 	},
 	"streets": {
 		"name": "Streets",
-		"file": "mysterydisplay18c8.html",
 		"sources": [ "Heroes of the Streets" ],
 		"deities": [
 			"Cayden Cailean",
@@ -1202,7 +1176,6 @@
 	},
 	"succor": {
 		"name": "Succor",
-		"file": "mysterydisplay04f8.html",
 		"sources": [ "Healer's Handbook" ],
 		"deities": [
 			"Milani",
@@ -1252,7 +1225,6 @@
 	},
 	"time": {
 		"name": "Time",
-		"file": "mysterydisplay65b9.html",
 		"sources": [ "Ultimate Magic" ],
 		"deities": [
 			"Gozreh",
@@ -1297,7 +1269,6 @@
 	},
 	"volcano": {
 		"name": "Volcano",
-		"file": "mysterydisplay6f38.html",
 		"sources": [ "Pathfinder #95: Anvil of Fire" ],
 		"deities": [
 			"Flauros",
@@ -1345,7 +1316,6 @@
 	},
 	"waves": {
 		"name": "Waves",
-		"file": "mysterydisplay037d.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"deities": [
 			"Gozreh",
@@ -1389,7 +1359,6 @@
 	},
 	"whimsy": {
 		"name": "Whimsy",
-		"file": "mysterydisplayb47e.html",
 		"sources": [ "Legacy of the First World" ],
 		"deities": [
 			"Green Mother",
@@ -1437,7 +1406,6 @@
 	},
 	"wind": {
 		"name": "Wind",
-		"file": "mysterydisplay437e.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"deities": [
 			"Gozreh",
@@ -1481,7 +1449,6 @@
 	},
 	"winter": {
 		"name": "Winter",
-		"file": "mysterydisplay05e6.html",
 		"sources": [ "People of the North" ],
 		"deities": [
 			"Gorum",
@@ -1528,7 +1495,6 @@
 	},
 	"wood": {
 		"name": "Wood",
-		"file": "mysterydisplay696e.html",
 		"sources": [ "Ultimate Magic" ],
 		"deities": [
 			"Erastil",

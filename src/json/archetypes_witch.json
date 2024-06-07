@@ -2,7 +2,6 @@
 	"_prefix": "archetype-witch",
 	"alley_witch": {
 		"name": "Alley Witch",
-		"file": "archetypedisplay20d3.html",
 		"sources": [ "Heroes of the Streets" ],
 		"description": [
 			"## Alley Witch",
@@ -26,7 +25,6 @@
 	},
 	"ashiftah": {
 		"name": "Ashiftah",
-		"file": "archetypedisplaye99a.html",
 		"sources": [ "Qadira, Jewel of the East" ],
 		"description": [
 			"## Ashiftah",
@@ -52,7 +50,6 @@
 	},
 	"beast-bonded": {
 		"name": "Beast-Bonded",
-		"file": "archetypedisplay40dc.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Beast-Bonded",
@@ -78,7 +75,6 @@
 	},
 	"bonded_witch": {
 		"name": "Bonded Witch",
-		"file": "archetypedisplay9788.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Bonded Witch",
@@ -108,7 +104,6 @@
 	},
 	"bouda": {
 		"name": "Bouda",
-		"file": "archetypedisplay8401.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Bouda",
@@ -138,7 +133,6 @@
 	},
 	"cartomancer": {
 		"name": "Cartomancer",
-		"file": "archetypedisplay0944.html",
 		"sources": [ "The Harrow Handbook" ],
 		"description": [
 			"## Cartomancer",
@@ -164,7 +158,6 @@
 	},
 	"coral_witch": {
 		"name": "Coral Witch",
-		"file": "archetypedisplay4478.html",
 		"sources": [ "Blood of the Sea" ],
 		"description": [
 			"## Coral Witch",
@@ -196,7 +189,6 @@
 	},
 	"demon-sworn": {
 		"name": "Demon-Sworn",
-		"file": "archetypedisplay949c.html",
 		"sources": [ "Heroes of the Darklands" ],
 		"description": [
 			"## Demon-Sworn",
@@ -224,7 +216,6 @@
 	},
 	"dimensional_occultist": {
 		"name": "Dimensional Occultist",
-		"file": "archetypedisplay843f.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
 			"## Dimensional Occultist",
@@ -244,7 +235,6 @@
 	},
 	"dreamweaver": {
 		"name": "Dreamweaver",
-		"file": "archetypedisplayb621.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Dreamweaver",
@@ -274,7 +264,6 @@
 	},
 	"flood_walker": {
 		"name": "Flood Walker",
-		"file": "archetypedisplay5ef5.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Flood Walker",
@@ -314,7 +303,6 @@
 	},
 	"gingerbread_witch": {
 		"name": "Gingerbread Witch",
-		"file": "archetypedisplay35c0.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Gingerbread Witch",
@@ -354,7 +342,6 @@
 	},
 	"gravewalker": {
 		"name": "Gravewalker",
-		"file": "archetypedisplay0a40.html",
 		"sources": [],
 		"description": [
 			"## Gravewalker",
@@ -384,7 +371,6 @@
 	},
 	"hag_of_gyronna": {
 		"name": "Hag of Gyronna",
-		"file": "archetypedisplayad6f.html",
 		"sources": [ "People of the River" ],
 		"description": [
 			"## Hag of Gyronna",
@@ -406,7 +392,6 @@
 	},
 	"hagbound": {
 		"name": "Hagbound",
-		"file": "archetypedisplay2cfd.html",
 		"sources": [ "Blood of the Coven" ],
 		"description": [
 			"## Hagbound",
@@ -440,7 +425,6 @@
 	},
 	"havocker": {
 		"name": "Havocker",
-		"file": "archetypedisplay948d-2.html",
 		"sources": [ "Magic Tactics Toolbox" ],
 		"description": [
 			"## Havocker",
@@ -462,7 +446,6 @@
 	},
 	"hedge_witch": {
 		"name": "Hedge Witch",
-		"file": "archetypedisplay8a35.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Hedge Witch",
@@ -486,7 +469,6 @@
 	},
 	"herb_witch": {
 		"name": "Herb Witch",
-		"file": "archetypedisplay7229.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Heroes of the Wild"
@@ -523,7 +505,6 @@
 	},
 	"hex_channeler": {
 		"name": "Hex Channeler",
-		"file": "archetypedisplayb4c7.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Hex Channeler",
@@ -547,7 +528,6 @@
 	},
 	"invoker": {
 		"name": "Invoker",
-		"file": "archetypedisplay8939.html",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
 			"## Invoker",
@@ -587,7 +567,6 @@
 	},
 	"jinx_witch": {
 		"name": "Jinx Witch",
-		"file": "archetypedisplay507c.html",
 		"sources": [ "Blood of the Beast" ],
 		"description": [
 			"## Jinx Witch",
@@ -623,7 +602,6 @@
 	},
 	"ley_line_guardian": {
 		"name": "Ley Line Guardian",
-		"file": "archetypedisplayb64f.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Ley Line Guardian",
@@ -641,7 +619,6 @@
 	},
 	"medium": {
 		"name": "Medium",
-		"file": "archetypedisplayd60c.html",
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Medium",
@@ -667,7 +644,6 @@
 	},
 	"mirror_witch": {
 		"name": "Mirror Witch",
-		"file": "archetypedisplay8419.html",
 		"sources": [],
 		"description": [
 			"## Mirror Witch",
@@ -727,7 +703,6 @@
 	},
 	"mountain_witch": {
 		"name": "Mountain Witch",
-		"file": "archetypedisplay4b93.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Mountain Witch",
@@ -751,7 +726,6 @@
 	},
 	"nexian_spellspy": {
 		"name": "Nexian Spellspy",
-		"file": "archetypedisplay622b.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Nexian Spellspy",
@@ -783,7 +757,6 @@
 	},
 	"pact_witch": {
 		"name": "Pact Witch",
-		"file": "archetypedisplayef49.html",
 		"sources": [],
 		"description": [
 			"## Pact Witch",
@@ -836,7 +809,6 @@
 	},
 	"patron_familiars": {
 		"name": "Patron Familiars",
-		"file": "archetypedisplayc3c2.html",
 		"sources": [ "Familiar Folio" ],
 		"description": [
 			"## Patron Familiars",
@@ -872,7 +844,6 @@
 	},
 	"putrefactor": {
 		"name": "Putrefactor",
-		"file": "archetypedisplay09ed.html",
 		"sources": [ "Blood of the Coven" ],
 		"description": [
 			"## Putrefactor",
@@ -904,7 +875,6 @@
 	},
 	"rhetorician": {
 		"name": "Rhetorician",
-		"file": "archetypedisplaya964.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## Rhetorician",
@@ -922,7 +892,6 @@
 	},
 	"scarred_witch_doctor": {
 		"name": "Scarred Witch Doctor",
-		"file": "archetypedisplay31b3.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Scarred Witch Doctor",
@@ -954,7 +923,6 @@
 	},
 	"sea_witch": {
 		"name": "Sea Witch",
-		"file": "archetypedisplaycbe1.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Sea Witch",
@@ -980,7 +948,6 @@
 	},
 	"season_witch": {
 		"name": "Season Witch",
-		"file": "archetypedisplayb6d0.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Season Witch",
@@ -1012,7 +979,6 @@
 	},
 	"seducer": {
 		"name": "Seducer",
-		"file": "archetypedisplay6e29.html",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"## Seducer",
@@ -1040,7 +1006,6 @@
 	},
 	"synergist": {
 		"name": "Synergist",
-		"file": "archetypedisplay0e0b.html",
 		"sources": [ "Familiar Folio" ],
 		"description": [
 			"## Synergist",
@@ -1068,7 +1033,6 @@
 	},
 	"tatterdemalion": {
 		"name": "Tatterdemalion",
-		"file": "archetypedisplaye0de.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Tatterdemalion",
@@ -1104,7 +1068,6 @@
 	},
 	"vellemancer": {
 		"name": "Vellemancer",
-		"file": "archetypedisplayd4b5.html",
 		"sources": [ "Blood of the Coven" ],
 		"description": [
 			"## Vellemancer",
@@ -1132,7 +1095,6 @@
 	},
 	"veneficus_witch": {
 		"name": "Veneficus Witch",
-		"file": "archetypedisplay2174.html",
 		"sources": [ "People of the River" ],
 		"description": [
 			"## Veneficus Witch",
@@ -1162,7 +1124,6 @@
 	},
 	"venom_siphoner": {
 		"name": "Venom Siphoner",
-		"file": "archetypedisplay743e.html",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Venom Siphoner",
@@ -1184,7 +1145,6 @@
 	},
 	"white-haired_witch": {
 		"name": "White-Haired Witch",
-		"file": "archetypedisplaybd48.html",
 		"sources": [ "Dragon Empires Primer" ],
 		"description": [
 			"## White-Haired Witch",
@@ -1214,7 +1174,6 @@
 	},
 	"winter_witch": {
 		"name": "Winter Witch",
-		"file": "archetypedisplayf2ab.html",
 		"sources": [
 			"Reign of Winter Player's Guide",
 			"Inner Sea Magic"
@@ -1247,7 +1206,6 @@
 	},
 	"witch-watcher": {
 		"name": "Witch-Watcher",
-		"file": "archetypedisplayf681.html",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [
 			"## Witch-Watcher",
@@ -1273,7 +1231,6 @@
 	},
 	"wyrm_witch": {
 		"name": "Wyrm Witch",
-		"file": "archetypedisplay1cfc.html",
 		"sources": [ "Legacy of Dragons" ],
 		"description": [
 			"## Wyrm Witch",

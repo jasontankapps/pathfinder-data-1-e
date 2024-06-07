@@ -2,7 +2,6 @@
 	"_prefix": "archetype-shifter",
 	"adaptive_shifter": {
 		"name": "Adaptive Shifter",
-		"file": "archetypedisplayaafb.html",
 		"sources": [ "Distant Realms" ],
 		"description": [
 			"## Adaptive Shifter",
@@ -66,7 +65,6 @@
 	},
 	"dragonblood_shifter": {
 		"name": "Dragonblood Shifter",
-		"file": "archetypedisplay2999.html",
 		"sources": [],
 		"description": [
 			"## Dragonblood Shifter",
@@ -119,7 +117,6 @@
 	},
 	"elementalist_shifter": {
 		"name": "Elementalist Shifter",
-		"file": "archetypedisplay33b5.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Elementalist Shifter",
@@ -205,7 +202,6 @@
 	},
 	"feyform_shifter": {
 		"name": "Feyform Shifter",
-		"file": "archetypedisplay65bd.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Feyform Shifter",
@@ -251,7 +247,6 @@
 	},
 	"fiendflesh_shifter": {
 		"name": "Fiendflesh Shifter",
-		"file": "archetypedisplaye81b.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Fiendflesh Shifter",
@@ -307,7 +302,6 @@
 	},
 	"holy_beast": {
 		"name": "Holy Beast",
-		"file": "archetypedisplayadab.html",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
 			"## Holy Beast",
@@ -329,7 +323,6 @@
 	},
 	"leafshifter": {
 		"name": "Leafshifter",
-		"file": "archetypedisplayb401.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Leafshifter",
@@ -369,7 +362,6 @@
 	},
 	"oozemorph": {
 		"name": "Oozemorph",
-		"file": "archetypedisplay2e14.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Official Paizo FAQ"
@@ -430,7 +422,6 @@
 	},
 	"rageshaper": {
 		"name": "Rageshaper",
-		"file": "archetypedisplaya1a2.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Rageshaper",
@@ -476,7 +467,6 @@
 	},
 	"style_shifter": {
 		"name": "Style Shifter",
-		"file": "archetypedisplay8cc2.html",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
 			"## Style Shifter",
@@ -524,7 +514,6 @@
 	},
 	"swarm_shifter": {
 		"name": "Swarm Shifter",
-		"file": "archetypedisplaya860.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Swarm Shifter",
@@ -582,7 +571,6 @@
 	},
 	"verdant_shifter": {
 		"name": "Verdant Shifter",
-		"file": "archetypedisplayacde.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Verdant Shifter",
@@ -612,7 +600,6 @@
 	},
 	"weretouched": {
 		"name": "Weretouched",
-		"file": "archetypedisplaydf97.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Weretouched",
@@ -638,7 +625,6 @@
 	},
 	"wild_effigy": {
 		"name": "Wild Effigy",
-		"file": "archetypedisplay940b.html",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"## Wild Effigy",

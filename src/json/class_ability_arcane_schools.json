@@ -2,7 +2,6 @@
 	"_prefix": "class_abilities-arcane_school",
 	"abjuration": {
 		"name": "Abjuration",
-		"file": "schooldisplay358b.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide"
@@ -44,7 +43,6 @@
 	},
 	"conjuration": {
 		"name": "Conjuration",
-		"file": "schooldisplay27e8.html",
 		"sources": [
 			"Advanced Player's Guide",
 			"Black Markets",
@@ -116,7 +114,6 @@
 	},
 	"divination": {
 		"name": "Divination",
-		"file": "schooldisplay3f63.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide"
@@ -169,7 +166,6 @@
 	},
 	"enchantment": {
 		"name": "Enchantment",
-		"file": "schooldisplay21b2.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide"
@@ -211,7 +207,6 @@
 	},
 	"evocation": {
 		"name": "Evocation",
-		"file": "schooldisplayb0e9.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide"
@@ -253,7 +248,6 @@
 	},
 	"illusion": {
 		"name": "Illusion",
-		"file": "schooldisplay2703.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Adventurer's Guide",
@@ -329,7 +323,6 @@
 	},
 	"necromancy": {
 		"name": "Necromancy",
-		"file": "schooldisplay685a.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide"
@@ -369,7 +362,6 @@
 	},
 	"transmutation": {
 		"name": "Transmutation",
-		"file": "schooldisplayfc8f.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide"
@@ -409,7 +401,6 @@
 	},
 	"universalist": {
 		"name": "Universalist",
-		"file": "schooldisplaycb6b.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Inner Sea Primer"
@@ -438,7 +429,6 @@
 	},
 	"aether": {
 		"name": "Aether",
-		"file": "schooldisplayd3d1.html",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
 			"## Aether",
@@ -459,7 +449,6 @@
 	},
 	"air": {
 		"name": "Air",
-		"file": "schooldisplaybfc6.html",
 		"sources": [
 			"Advanced Player's Guide",
 			"Elemental Master's Handbook"
@@ -501,7 +490,6 @@
 	},
 	"earth": {
 		"name": "Earth",
-		"file": "schooldisplaydbe1.html",
 		"sources": [
 			"Advanced Player's Guide",
 			"Elemental Master's Handbook"
@@ -543,7 +531,6 @@
 	},
 	"fire": {
 		"name": "Fire",
-		"file": "schooldisplayb4ee.html",
 		"sources": [
 			"Advanced Player's Guide",
 			"Elemental Master's Handbook"
@@ -585,7 +572,6 @@
 	},
 	"metal": {
 		"name": "Metal",
-		"file": "schooldisplay508a.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Metal",
@@ -606,7 +592,6 @@
 	},
 	"void": {
 		"name": "Void",
-		"file": "schooldisplay2c1e.html",
 		"sources": [ "Dragon Empires Primer" ],
 		"description": [
 			"## Void",
@@ -627,7 +612,6 @@
 	},
 	"water": {
 		"name": "Water",
-		"file": "schooldisplayc28e.html",
 		"sources": [
 			"Advanced Player's Guide",
 			"Elemental Master's Handbook"
@@ -669,7 +653,6 @@
 	},
 	"wood": {
 		"name": "Wood",
-		"file": "schooldisplay696e.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Wood",

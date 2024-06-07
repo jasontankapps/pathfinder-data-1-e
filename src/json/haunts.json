@@ -2,7 +2,6 @@
 	"_prefix": "haunt",
 	"isolation_haunt": {
 		"name": "Isolation Haunt",
-		"file": "haunts2230.html",
 		"sources": [ "Construct Handbook" ],
 		"cr": null,
 		"type": "NE haunt",
@@ -26,7 +25,6 @@
 	},
 	"bloody_handprints": {
 		"name": "Bloody Handprints",
-		"file": "haunts0c17.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": -4,
 		"type": "NE haunt",
@@ -50,7 +48,6 @@
 	},
 	"scratching_behind_the_wall": {
 		"name": "Scratching Behind the Wall",
-		"file": "hauntsfa45.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": -2,
 		"type": "CE haunt",
@@ -74,7 +71,6 @@
 	},
 	"cold_spot": {
 		"name": "Cold Spot",
-		"file": "haunts7911.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": 1,
 		"type": "NE haunt",
@@ -98,7 +94,6 @@
 	},
 	"rapping_spirit": {
 		"name": "Rapping Spirit",
-		"file": "haunts2323.html",
 		"sources": [ "Occult Adventures" ],
 		"cr": 1,
 		"type": "Alignment varies persistent haunt",
@@ -122,7 +117,6 @@
 	},
 	"spectral_screams": {
 		"name": "Spectral Screams",
-		"file": "haunts115d.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": 2,
 		"type": "NE haunt",
@@ -146,7 +140,6 @@
 	},
 	"demanding_dead": {
 		"name": "Demanding Dead",
-		"file": "haunts9101.html",
 		"sources": [ "Occult Adventures" ],
 		"cr": 3,
 		"type": "Alignment varies persistent haunt",
@@ -170,7 +163,6 @@
 	},
 	"foreboding_mist": {
 		"name": "Foreboding Mist",
-		"file": "hauntsfa1e.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": 3,
 		"type": "NE persistent haunt",
@@ -194,7 +186,6 @@
 	},
 	"buried_alive": {
 		"name": "Buried Alive",
-		"file": "hauntse96e.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": 4,
 		"type": "NE persistent haunt",
@@ -218,7 +209,6 @@
 	},
 	"flytrap": {
 		"name": "Flytrap",
-		"file": "haunts24f1.html",
 		"sources": [ "Pathfinder #144: Midwives to Death" ],
 		"cr": 4,
 		"type": "N persistent botanical haunt",
@@ -238,7 +228,6 @@
 	},
 	"following_footsteps": {
 		"name": "Following Footsteps",
-		"file": "hauntsd173.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"cr": 4,
 		"type": "CN variant haunt",
@@ -259,7 +248,6 @@
 	},
 	"belated_arrival": {
 		"name": "Belated Arrival",
-		"file": "hauntsb24e.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": 5,
 		"type": "N chained haunt",
@@ -283,7 +271,6 @@
 	},
 	"bleeding_walls": {
 		"name": "Bleeding Walls",
-		"file": "hauntsbe76.html",
 		"sources": [ "GameMastery Guide" ],
 		"cr": 5,
 		"type": "CE haunt",
@@ -303,7 +290,6 @@
 	},
 	"spectral_vermin": {
 		"name": "Spectral Vermin",
-		"file": "haunts7e0e.html",
 		"sources": [ "Occult Adventures" ],
 		"cr": 5,
 		"type": "CE free-roaming persistent vaporous haunt",
@@ -327,7 +313,6 @@
 	},
 	"arcane_storm": {
 		"name": "Arcane Storm",
-		"file": "hauntsec83.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": 6,
 		"type": "N persistent variant haunt",
@@ -356,7 +341,6 @@
 	},
 	"death_of_curchanus": {
 		"name": "Death of Curchanus",
-		"file": "haunts9147.html",
 		"sources": [ "Horror Realms" ],
 		"cr": 6,
 		"type": "CE persistent variant haunt",
@@ -388,7 +372,6 @@
 	},
 	"unsolved_murder": {
 		"name": "Unsolved Murder",
-		"file": "hauntsf2c8.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": 6,
 		"type": "NE latent persistent possessing haunt",
@@ -412,7 +395,6 @@
 	},
 	"betrayal": {
 		"name": "Betrayal",
-		"file": "haunts908c.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": 7,
 		"type": "CE persistent haunt",
@@ -436,7 +418,6 @@
 	},
 	"drought's_end": {
 		"name": "Drought's End",
-		"file": "hauntsf570.html",
 		"sources": [ "Horror Realms" ],
 		"cr": 7,
 		"type": "N persistent variant haunt",
@@ -468,7 +449,6 @@
 	},
 	"malignant_weapon": {
 		"name": "Malignant Weapon",
-		"file": "haunts8907.html",
 		"sources": [ "Occult Adventures" ],
 		"cr": 7,
 		"type": "LE persistent item-bound haunt",
@@ -492,7 +472,6 @@
 	},
 	"bountiful_feat": {
 		"name": "Bountiful Feat",
-		"file": "hauntsf093.html",
 		"sources": [ "Pathfinder #144: Midwives to Death" ],
 		"cr": 8,
 		"type": "N persistent botanical haunt",
@@ -520,7 +499,6 @@
 	},
 	"dimensional_tear": {
 		"name": "Dimensional Tear",
-		"file": "hauntsb610.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"cr": 8,
 		"type": "N persistent variant haunt",
@@ -542,7 +520,6 @@
 	},
 	"robotic_reactivation": {
 		"name": "Robotic Reactivation",
-		"file": "haunts28e9.html",
 		"sources": [ "Horror Realms" ],
 		"cr": 8,
 		"type": "N chained persistent variant haunt",
@@ -574,7 +551,6 @@
 	},
 	"watery_grave": {
 		"name": "Watery Grave",
-		"file": "hauntsdaae.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": 8,
 		"type": "CE chained free-roaming persistent haunt",
@@ -598,7 +574,6 @@
 	},
 	"devouring_maws": {
 		"name": "Devouring Maws",
-		"file": "hauntsa171.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": 9,
 		"type": "CE persistent haunt",
@@ -622,7 +597,6 @@
 	},
 	"insidious_presence": {
 		"name": "Insidious Presence",
-		"file": "haunts5043.html",
 		"sources": [ "Occult Adventures" ],
 		"cr": 9,
 		"type": "NE possessing persistent spiteful haunt",
@@ -648,7 +622,6 @@
 	},
 	"network_of_lasers": {
 		"name": "Network of Lasers",
-		"file": "hauntsd4c9.html",
 		"sources": [ "Horror Realms" ],
 		"cr": 9,
 		"type": "N persistent variant haunt",
@@ -680,7 +653,6 @@
 	},
 	"shifting_seasons": {
 		"name": "Shifting Seasons",
-		"file": "haunts6f27.html",
 		"sources": [ "Horror Realms" ],
 		"cr": 9,
 		"type": "CN persistent variant haunt",
@@ -713,7 +685,6 @@
 	},
 	"enchanting_demise": {
 		"name": "Enchanting Demise",
-		"file": "hauntsd5c5.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"cr": 10,
 		"type": "CN persistent variant haunt",
@@ -735,7 +706,6 @@
 	},
 	"living_decay": {
 		"name": "Living Decay",
-		"file": "hauntsbbfa.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": 10,
 		"type": "NE persistent haunt",
@@ -765,7 +735,6 @@
 	},
 	"maddening_influence": {
 		"name": "Maddening Influence",
-		"file": "haunts17bc.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": 10,
 		"type": "CE free-roaming persistent variant haunt",
@@ -791,7 +760,6 @@
 	},
 	"psychic_echo_anger": {
 		"name": "Psychic Echo (Anger)",
-		"file": "haunts1efd.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": 10,
 		"type": "N persistent variant haunt",
@@ -819,7 +787,6 @@
 	},
 	"servants_of_the_book": {
 		"name": "Servants of the Book",
-		"file": "hauntscf60.html",
 		"sources": [ "Book of the Damned" ],
 		"cr": 10,
 		"type": "NE haunt",
@@ -845,7 +812,6 @@
 	},
 	"eternal_pyre": {
 		"name": "Eternal Pyre",
-		"file": "hauntsf3c4.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": 11,
 		"type": "CE chained fast free-roaming persistent spiteful tenacious haunt",
@@ -869,7 +835,6 @@
 	},
 	"spawn_of_the_abyss": {
 		"name": "Spawn of the Abyss",
-		"file": "haunts6f24.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": 11,
 		"type": "CE persistent vaporous variant haunt",
@@ -905,7 +870,6 @@
 	},
 	"breach_to_the_quickening": {
 		"name": "Breach to the Quickening",
-		"file": "haunts6804.html",
 		"sources": [ "Horror Realms" ],
 		"cr": 12,
 		"type": "CN persistent variant haunt",
@@ -946,7 +910,6 @@
 	},
 	"dissolving_vat": {
 		"name": "Dissolving Vat",
-		"file": "haunts3801.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": 12,
 		"type": "CE fast persistent haunt",
@@ -970,7 +933,6 @@
 	},
 	"heart_explosion": {
 		"name": "Heart Explosion",
-		"file": "haunts5fda.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": 13,
 		"type": "CE fast persistent haunt",
@@ -994,7 +956,6 @@
 	},
 	"crushing_terror": {
 		"name": "Crushing Terror",
-		"file": "hauntsb677.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": 14,
 		"type": "NE persistent haunt",
@@ -1018,7 +979,6 @@
 	},
 	"final_soldier": {
 		"name": "Final Soldier",
-		"file": "hauntse34e.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": 15,
 		"type": "NE belligerent chained fast persistent tenacious vaporous haunt",
@@ -1042,7 +1002,6 @@
 	},
 	"fallen_from_the_sky": {
 		"name": "Fallen from the Sky",
-		"file": "haunts07f1.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": 16,
 		"type": "NE fast increased area persistent unyielding haunt",
@@ -1066,7 +1025,6 @@
 	},
 	"haunted_dungeon": {
 		"name": "Haunted Dungeon",
-		"file": "haunts27d5.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": 17,
 		"type": "CE belligerent elusive free-roaming increased area persistent tenacious haunt",
@@ -1090,7 +1048,6 @@
 	},
 	"flayed_suicide": {
 		"name": "Flayed Suicide",
-		"file": "haunts5a7b.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": 18,
 		"type": "NE belligerent persistent unyielding haunt",
@@ -1114,7 +1071,6 @@
 	},
 	"soul_vortex": {
 		"name": "Soul Vortex",
-		"file": "haunts999d.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": 19,
 		"type": "NE belligerent fast persistent unyielding haunt",
@@ -1138,7 +1094,6 @@
 	},
 	"twisted_wish": {
 		"name": "Twisted Wish",
-		"file": "hauntsa40c.html",
 		"sources": [ "Horror Adventures" ],
 		"cr": 20,
 		"type": "LE belligerent free-roaming unyielding haunt",

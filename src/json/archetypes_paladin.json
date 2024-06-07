@@ -2,7 +2,6 @@
 	"_prefix": "archetype-paladin",
 	"banishing_warden": {
 		"name": "Banishing Warden",
-		"file": "archetypedisplay71b7.html",
 		"sources": [ "Monster Hunter's Handbook" ],
 		"description": [
 			"## Banishing Warden",
@@ -28,7 +27,6 @@
 	},
 	"champion_of_the_cascade": {
 		"name": "Champion of the Cascade",
-		"file": "archetypedisplay7c00.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Champion of the Cascade",
@@ -62,7 +60,6 @@
 	},
 	"chaos_knight": {
 		"name": "Chaos Knight",
-		"file": "archetypedisplaya101.html",
 		"sources": [],
 		"description": [
 			"## Chaos Knight",
@@ -95,7 +92,6 @@
 	},
 	"chosen_one": {
 		"name": "Chosen One",
-		"file": "archetypedisplay8f08.html",
 		"sources": [ "Familiar Folio" ],
 		"description": [
 			"## Chosen One",
@@ -121,7 +117,6 @@
 	},
 	"combat_healer_squire": {
 		"name": "Combat Healer Squire",
-		"file": "archetypedisplay106f.html",
 		"sources": [ "Knights of the Inner Sea" ],
 		"description": [
 			"## Combat Healer Squire",
@@ -139,7 +134,6 @@
 	},
 	"divine_defender": {
 		"name": "Divine Defender",
-		"file": "archetypedisplayca12.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Divine Defender",
@@ -157,7 +151,6 @@
 	},
 	"divine_guardian": {
 		"name": "Divine Guardian",
-		"file": "archetypedisplay360b.html",
 		"sources": [ "Cohorts and Companions" ],
 		"description": [
 			"## Divine Guardian",
@@ -179,7 +172,6 @@
 	},
 	"divine_hunter": {
 		"name": "Divine Hunter",
-		"file": "archetypedisplay37d9.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Divine Hunter",
@@ -207,7 +199,6 @@
 	},
 	"dusk_knight": {
 		"name": "Dusk Knight",
-		"file": "archetypedisplay573f.html",
 		"sources": [ "Blood of Shadows" ],
 		"description": [
 			"## Dusk Knight",
@@ -243,7 +234,6 @@
 	},
 	"empyreal_knight": {
 		"name": "Empyreal Knight",
-		"file": "archetypedisplaydd0f.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Empyreal Knight",
@@ -269,7 +259,6 @@
 	},
 	"faithful_wanderer": {
 		"name": "Faithful Wanderer",
-		"file": "archetypedisplay8512.html",
 		"sources": [ "People of the Wastes" ],
 		"description": [
 			"## Faithful Wanderer",
@@ -297,7 +286,6 @@
 	},
 	"forest_preserver": {
 		"name": "Forest Preserver",
-		"file": "archetypedisplay8153.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Forest Preserver",
@@ -339,7 +327,6 @@
 	},
 	"forgefather's_seeker": {
 		"name": "Forgefather's Seeker",
-		"file": "archetypedisplayadc1.html",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"## Forgefather's Seeker",
@@ -373,7 +360,6 @@
 	},
 	"ghost_hunter": {
 		"name": "Ghost Hunter",
-		"file": "archetypedisplaycefd.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Ghost Hunter",
@@ -391,7 +377,6 @@
 	},
 	"gray_paladin": {
 		"name": "Gray Paladin",
-		"file": "archetypedisplay4e66.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Gray Paladin",
@@ -431,7 +416,6 @@
 	},
 	"holy_guide": {
 		"name": "Holy Guide",
-		"file": "archetypedisplay8ce8.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Holy Guide",
@@ -449,7 +433,6 @@
 	},
 	"holy_gun": {
 		"name": "Holy Gun",
-		"file": "archetypedisplay8749.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Holy Gun",
@@ -475,7 +458,6 @@
 	},
 	"holy_tactician": {
 		"name": "Holy Tactician",
-		"file": "archetypedisplayaf57.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Holy Tactician",
@@ -503,7 +485,6 @@
 	},
 	"hospitaler": {
 		"name": "Hospitaler",
-		"file": "archetypedisplay8d5a.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Hospitaler",
@@ -521,7 +502,6 @@
 	},
 	"hunting_paladin": {
 		"name": "Hunting Paladin",
-		"file": "archetypedisplay0dce.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Hunting Paladin",
@@ -563,7 +543,6 @@
 	},
 	"invigorator": {
 		"name": "Invigorator",
-		"file": "archetypedisplayc64a.html",
 		"sources": [ "Healer's Handbook" ],
 		"description": [
 			"## Invigorator",
@@ -593,7 +572,6 @@
 	},
 	"iomedaen_enforcer": {
 		"name": "Iomedaen Enforcer",
-		"file": "archetypedisplayccd8.html",
 		"sources": [ "Divine Anthology" ],
 		"description": [
 			"## Iomedaen Enforcer",
@@ -625,7 +603,6 @@
 	},
 	"iroran_paladin": {
 		"name": "Iroran Paladin",
-		"file": "archetypedisplay6a62.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Iroran Paladin",
@@ -657,7 +634,6 @@
 	},
 	"knight_of_coins": {
 		"name": "Knight of Coins",
-		"file": "archetypedisplay86e1.html",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Knight of Coins",
@@ -695,7 +671,6 @@
 	},
 	"kraken_slayer": {
 		"name": "Kraken Slayer",
-		"file": "archetypedisplay4a4e.html",
 		"sources": [ "Blood of the Sea" ],
 		"description": [
 			"## Kraken Slayer",
@@ -723,7 +698,6 @@
 	},
 	"legate": {
 		"name": "Legate",
-		"file": "archetypedisplay0f88.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Legate",
@@ -739,7 +713,6 @@
 	},
 	"martyr": {
 		"name": "Martyr",
-		"file": "archetypedisplay4edd.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Martyr",
@@ -771,7 +744,6 @@
 	},
 	"mind_sword": {
 		"name": "Mind Sword",
-		"file": "archetypedisplayf5cd.html",
 		"sources": [ "Occult Origins" ],
 		"description": [
 			"## Mind Sword",
@@ -789,7 +761,6 @@
 	},
 	"pearl_seeker": {
 		"name": "Pearl Seeker",
-		"file": "archetypedisplay1d6b.html",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Pearl Seeker",
@@ -823,7 +794,6 @@
 	},
 	"redeemer": {
 		"name": "Redeemer",
-		"file": "archetypedisplay4d1a.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Redeemer",
@@ -845,7 +815,6 @@
 	},
 	"sacred_servant": {
 		"name": "Sacred Servant",
-		"file": "archetypedisplay6fe6.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Sacred Servant",
@@ -867,7 +836,6 @@
 	},
 	"sacred_shield": {
 		"name": "Sacred Shield",
-		"file": "archetypedisplay7976.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Sacred Shield",
@@ -891,7 +859,6 @@
 	},
 	"scion_of_talmandor": {
 		"name": "Scion of Talmandor",
-		"file": "archetypedisplay4abf.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Scion of Talmandor",
@@ -925,7 +892,6 @@
 	},
 	"shining_knight": {
 		"name": "Shining Knight",
-		"file": "archetypedisplay3d2b.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Shining Knight",
@@ -943,7 +909,6 @@
 	},
 	"silver_champion": {
 		"name": "Silver Champion",
-		"file": "archetypedisplay1358.html",
 		"sources": [ "Legacy of Dragons" ],
 		"description": [
 			"## Silver Champion",
@@ -971,7 +936,6 @@
 	},
 	"soul_sentinel": {
 		"name": "Soul Sentinel",
-		"file": "archetypedisplayc9dc.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Soul Sentinel",
@@ -995,7 +959,6 @@
 	},
 	"stonelord": {
 		"name": "Stonelord",
-		"file": "archetypedisplay99e0.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Stonelord",
@@ -1027,7 +990,6 @@
 	},
 	"sword_of_valor": {
 		"name": "Sword of Valor",
-		"file": "archetypedisplay41c9.html",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"## Sword of Valor",
@@ -1047,7 +1009,6 @@
 	},
 	"tempered_champion": {
 		"name": "Tempered Champion",
-		"file": "archetypedisplayc81c.html",
 		"sources": [ "Weapon Master's Handbook" ],
 		"description": [
 			"## Tempered Champion",
@@ -1065,7 +1026,6 @@
 	},
 	"temple_champion": {
 		"name": "Temple Champion",
-		"file": "archetypedisplay7833.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Temple Champion",
@@ -1083,7 +1043,6 @@
 	},
 	"tortured_crusader": {
 		"name": "Tortured Crusader",
-		"file": "archetypedisplay59e3.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Tortured Crusader",
@@ -1119,7 +1078,6 @@
 	},
 	"tranquil_guardian": {
 		"name": "Tranquil Guardian",
-		"file": "archetypedisplay3cd3.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Tranquil Guardian",
@@ -1145,7 +1103,6 @@
 	},
 	"undead_scourge": {
 		"name": "Undead Scourge",
-		"file": "archetypedisplay8c78.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Undead Scourge",
@@ -1163,7 +1120,6 @@
 	},
 	"vindictive_bastard": {
 		"name": "Vindictive Bastard",
-		"file": "archetypedisplay9d9d.html",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Vindictive Bastard",
@@ -1229,7 +1185,6 @@
 	},
 	"virtuous_bravo": {
 		"name": "Virtuous Bravo",
-		"file": "archetypedisplay33b8.html",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [
 			"## Virtuous Bravo",
@@ -1267,7 +1222,6 @@
 	},
 	"warrior_of_the_holy_light": {
 		"name": "Warrior of the Holy Light",
-		"file": "archetypedisplayb4df.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Warrior of the Holy Light",
@@ -1293,7 +1247,6 @@
 	},
 	"wilderness_warden": {
 		"name": "Wilderness Warden",
-		"file": "archetypedisplay44e1.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Wilderness Warden",

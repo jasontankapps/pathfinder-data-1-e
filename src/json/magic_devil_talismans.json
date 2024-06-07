@@ -2,7 +2,6 @@
 	"_prefix": "magic-talisman",
 	"bilious_talisman_minor_artifact": {
 		"name": "Bilious Talisman (Minor Artifact)",
-		"file": "_magicdeviltalismans.html",
 		"sources": [
 			"Book of the Damned",
 			"Book of the Damned - Volume 1: Princes of Darkness"
@@ -34,7 +33,6 @@
 	},
 	"melancholic_talisman": {
 		"name": "Melancholic Talisman",
-		"file": "_magicdeviltalismans.html",
 		"sources": [
 			"Book of the Damned",
 			"Book of the Damned - Volume 1: Princes of Darkness"
@@ -64,7 +62,6 @@
 	},
 	"sanguine_talisman": {
 		"name": "Sanguine Talisman",
-		"file": "_magicdeviltalismans.html",
 		"sources": [
 			"Book of the Damned",
 			"Book of the Damned - Volume 1: Princes of Darkness"

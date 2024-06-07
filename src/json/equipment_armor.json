@@ -297,7 +297,6 @@
 	},
 	"spider-silk_bodysuit": {
 		"name": "spider-silk bodysuit",
-		"searchable_name": "spider silk bodysuit",
 		"file": "equipmentarmordisplay8a8e.html",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
@@ -454,7 +453,6 @@
 	},
 	"do-maru": {
 		"name": "do-maru",
-		"searchable_name": "do maru",
 		"file": "equipmentarmordisplay6106.html",
 		"sources": [
 			"Ultimate Equipment",
@@ -584,7 +582,6 @@
 	},
 	"four-mirror": {
 		"name": "four-mirror",
-		"searchable_name": "four mirror",
 		"file": "equipmentarmordisplay194d.html",
 		"sources": [
 			"Ultimate Equipment",
@@ -733,7 +730,6 @@
 	},
 	"tatami-do": {
 		"name": "tatami-do",
-		"searchable_name": "tatami do",
 		"file": "equipmentarmordisplaybb50.html",
 		"sources": [
 			"Ultimate Equipment",
@@ -755,7 +751,6 @@
 	},
 	"agile_half-plate": {
 		"name": "agile half-plate",
-		"searchable_name": "agile half plate",
 		"file": "equipmentarmordisplay5d51.html",
 		"sources": [
 			"Ultimate Equipment",
@@ -792,7 +787,6 @@
 	},
 	"half-plate": {
 		"name": "half-plate",
-		"searchable_name": "half plate",
 		"file": "equipmentarmordisplay9477.html",
 		"sources": [
 			"Ultimate Equipment",
@@ -814,7 +808,6 @@
 	},
 	"hellknight_half-plate": {
 		"name": "hellknight half-plate",
-		"searchable_name": "hellknight half plate",
 		"file": "equipmentarmordisplayc383.html",
 		"sources": [
 			"Adventurer's Guide",
@@ -854,7 +847,6 @@
 	},
 	"o-yoroi": {
 		"name": "o-yoroi",
-		"searchable_name": "o yoroi",
 		"file": "equipmentarmordisplay5016.html",
 		"sources": [
 			"Ultimate Equipment",
@@ -1153,7 +1145,6 @@
 	},
 	"war-shield,_dwarven": {
 		"name": "war-shield, dwarven",
-		"searchable_name": "dwarven war shield",
 		"file": "equipmentarmordisplay989f.html",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
@@ -1225,7 +1216,6 @@
 	},
 	"snarlshield,_steel": {
 		"name": "snarlshield, steel",
-		"searchable_name": "steel snarlshield",
 		"file": "equipmentarmordisplay1c33.html",
 		"sources": [
 			"Adventurer's Armory 2",
@@ -1247,7 +1237,6 @@
 	},
 	"snarlshield,_wooden": {
 		"name": "snarlshield, wooden",
-		"searchable_name": "wooden snarlshield",
 		"file": "equipmentarmordisplaya53c.html",
 		"sources": [
 			"Adventurer's Armory 2",

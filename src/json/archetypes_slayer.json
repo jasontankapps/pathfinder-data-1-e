@@ -2,7 +2,6 @@
 	"_prefix": "archetype-slayer",
 	"ankou's_shadow": {
 		"name": "Ankou's Shadow",
-		"file": "archetypedisplay5e27.html",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"## Ankou's Shadow",
@@ -38,7 +37,6 @@
 	},
 	"avalancher": {
 		"name": "Avalancher",
-		"file": "archetypedisplay25ff.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Avalancher",
@@ -72,7 +70,6 @@
 	},
 	"bloody_jake": {
 		"name": "Bloody Jake",
-		"file": "archetypedisplay8c64.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Bloody Jake",
@@ -118,7 +115,6 @@
 	},
 	"bounty_hunter": {
 		"name": "Bounty Hunter",
-		"file": "archetypedisplay4d73-2.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Bounty Hunter",
@@ -142,7 +138,6 @@
 	},
 	"butterfly_blade": {
 		"name": "Butterfly Blade",
-		"file": "archetypedisplay95e5.html",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [
 			"## Butterfly Blade",
@@ -176,7 +171,6 @@
 	},
 	"cleaner": {
 		"name": "Cleaner",
-		"file": "archetypedisplay8ac3.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Cleaner",
@@ -198,7 +192,6 @@
 	},
 	"covenbane": {
 		"name": "Covenbane",
-		"file": "archetypedisplay4e4b.html",
 		"sources": [ "Blood of the Coven" ],
 		"description": [
 			"## Covenbane",
@@ -226,7 +219,6 @@
 	},
 	"cutthroat": {
 		"name": "Cutthroat",
-		"file": "archetypedisplay2b9b.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Cutthroat",
@@ -250,7 +242,6 @@
 	},
 	"deliverer": {
 		"name": "Deliverer",
-		"file": "archetypedisplay94c3.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Deliverer",
@@ -276,7 +267,6 @@
 	},
 	"dune_rider": {
 		"name": "Dune Rider",
-		"file": "archetypedisplay80e0.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Dune Rider",
@@ -308,7 +298,6 @@
 	},
 	"family_hunter": {
 		"name": "Family Hunter",
-		"file": "archetypedisplayc3af.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Family Hunter",
@@ -336,7 +325,6 @@
 	},
 	"grave_warden": {
 		"name": "Grave Warden",
-		"file": "archetypedisplay1f60.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Grave Warden",
@@ -358,7 +346,6 @@
 	},
 	"guerrilla": {
 		"name": "Guerrilla",
-		"file": "archetypedisplay0d5d.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Guerrilla",
@@ -382,7 +369,6 @@
 	},
 	"pureblade": {
 		"name": "Pureblade",
-		"file": "archetypedisplay9f45.html",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
 			"## Pureblade",
@@ -404,7 +390,6 @@
 	},
 	"sczarni_executioner": {
 		"name": "Sczarni Executioner",
-		"file": "archetypedisplayb06f.html",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
 			"## Sczarni Executioner",
@@ -430,7 +415,6 @@
 	},
 	"sniper": {
 		"name": "Sniper",
-		"file": "archetypedisplay3b1a.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Sniper",
@@ -450,7 +434,6 @@
 	},
 	"spawn_slayer": {
 		"name": "Spawn Slayer",
-		"file": "archetypedisplay98b7.html",
 		"sources": [ "Blood of the Ancients" ],
 		"description": [
 			"## Spawn Slayer",
@@ -474,7 +457,6 @@
 	},
 	"spire_diver": {
 		"name": "Spire Diver",
-		"file": "archetypedisplay8dc9.html",
 		"sources": [ "Pathfinder #124: City in the Deep" ],
 		"description": [
 			"## Spire Diver",
@@ -510,7 +492,6 @@
 	},
 	"spiritslayer": {
 		"name": "Spiritslayer",
-		"file": "archetypedisplay7528.html",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
 			"## Spiritslayer",
@@ -546,7 +527,6 @@
 	},
 	"stygian_slayer": {
 		"name": "Stygian Slayer",
-		"file": "archetypedisplay17a9.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Stygian Slayer",
@@ -570,7 +550,6 @@
 	},
 	"toxic_sniper": {
 		"name": "Toxic Sniper",
-		"file": "archetypedisplaye0f0.html",
 		"sources": [ "People of the Wastes" ],
 		"description": [
 			"## Toxic Sniper",
@@ -608,7 +587,6 @@
 	},
 	"turncoat": {
 		"name": "Turncoat",
-		"file": "archetypedisplay4156.html",
 		"sources": [ "Heroes of the Darklands" ],
 		"description": [
 			"## Turncoat",
@@ -634,7 +612,6 @@
 	},
 	"vanguard": {
 		"name": "Vanguard",
-		"file": "archetypedisplayd0b3.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Vanguard",
@@ -658,7 +635,6 @@
 	},
 	"velvet_blade": {
 		"name": "Velvet Blade",
-		"file": "archetypedisplay44c4.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Velvet Blade",
@@ -692,7 +668,6 @@
 	},
 	"witch_killer": {
 		"name": "Witch Killer",
-		"file": "archetypedisplay7c98.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Witch Killer",
@@ -724,7 +699,6 @@
 	},
 	"woodland_sniper": {
 		"name": "Woodland Sniper",
-		"file": "archetypedisplay895c.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Woodland Sniper",

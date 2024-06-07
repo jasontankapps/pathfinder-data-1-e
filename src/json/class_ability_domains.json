@@ -2,7 +2,6 @@
 	"_prefix": "class_abilities-domain",
 	"air": {
 		"name": "Air",
-		"file": "domaindisplaybfc6.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide",
@@ -67,7 +66,6 @@
 	},
 	"animal": {
 		"name": "Animal",
-		"file": "domaindisplay59e5.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide",
@@ -136,7 +134,6 @@
 	},
 	"artifice": {
 		"name": "Artifice",
-		"file": "domaindisplayc9f7.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Divine Anthology",
@@ -233,7 +230,6 @@
 	},
 	"chaos": {
 		"name": "Chaos",
-		"file": "domaindisplay62a5.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide",
@@ -385,7 +381,6 @@
 	},
 	"charm": {
 		"name": "Charm",
-		"file": "domaindisplay7b1f.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Divine Anthology",
@@ -450,7 +445,6 @@
 	},
 	"community": {
 		"name": "Community",
-		"file": "domaindisplaye759.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Inner Sea Gods",
@@ -528,7 +522,6 @@
 	},
 	"darkness": {
 		"name": "Darkness",
-		"file": "domaindisplay95e4.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide",
@@ -608,7 +601,6 @@
 	},
 	"death": {
 		"name": "Death",
-		"file": "domaindisplay1db1.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Paizo Blog - Golarion Day Subdomains",
@@ -720,7 +712,6 @@
 	},
 	"destruction": {
 		"name": "Destruction",
-		"file": "domaindisplay4d6f.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide",
@@ -799,7 +790,6 @@
 	},
 	"earth": {
 		"name": "Earth",
-		"file": "domaindisplaydbe1.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide",
@@ -880,7 +870,6 @@
 	},
 	"evil": {
 		"name": "Evil",
-		"file": "domaindisplay4f4d.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Champions of Corruption",
@@ -1039,7 +1028,6 @@
 	},
 	"fire": {
 		"name": "Fire",
-		"file": "domaindisplayb4ee.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Book of the Damned",
@@ -1104,7 +1092,6 @@
 	},
 	"glory": {
 		"name": "Glory",
-		"file": "domaindisplay7908.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Heroes of the High Court",
@@ -1198,7 +1185,6 @@
 	},
 	"good": {
 		"name": "Good",
-		"file": "domaindisplay8701.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide",
@@ -1289,7 +1275,6 @@
 	},
 	"healing": {
 		"name": "Healing",
-		"file": "domaindisplay20a8.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Divine Anthology",
@@ -1372,7 +1357,6 @@
 	},
 	"knowledge": {
 		"name": "Knowledge",
-		"file": "domaindisplayf339.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Champions of Balance",
@@ -1462,7 +1446,6 @@
 	},
 	"law": {
 		"name": "Law",
-		"file": "domaindisplay4ce9.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide",
@@ -1626,7 +1609,6 @@
 	},
 	"liberation": {
 		"name": "Liberation",
-		"file": "domaindisplay774d.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide",
@@ -1691,7 +1673,6 @@
 	},
 	"luck": {
 		"name": "Luck",
-		"file": "domaindisplaye325.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide",
@@ -1754,7 +1735,6 @@
 	},
 	"madness": {
 		"name": "Madness",
-		"file": "domaindisplay5f1e.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide",
@@ -1819,7 +1799,6 @@
 	},
 	"magic": {
 		"name": "Magic",
-		"file": "domaindisplay61f2.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Divine Anthology",
@@ -1899,7 +1878,6 @@
 	},
 	"nobility": {
 		"name": "Nobility",
-		"file": "domaindisplay96ee.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Champions of Balance",
@@ -1998,7 +1976,6 @@
 	},
 	"plant": {
 		"name": "Plant",
-		"file": "domaindisplay918f.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide",
@@ -2079,7 +2056,6 @@
 	},
 	"protection": {
 		"name": "Protection",
-		"file": "domaindisplayee20.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide",
@@ -2156,7 +2132,6 @@
 	},
 	"repose": {
 		"name": "Repose",
-		"file": "domaindisplay2df8.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide",
@@ -2240,7 +2215,6 @@
 	},
 	"rune": {
 		"name": "Rune",
-		"file": "domaindisplay45fc.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide",
@@ -2305,7 +2279,6 @@
 	},
 	"scalykind": {
 		"name": "Scalykind",
-		"file": "domaindisplay5cf6.html",
 		"sources": [
 			"Book of the Damned",
 			"Inner Sea World Guide",
@@ -2372,7 +2345,6 @@
 	},
 	"strength": {
 		"name": "Strength",
-		"file": "domaindisplay4234.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Heroes of the Streets",
@@ -2465,7 +2437,6 @@
 	},
 	"sun": {
 		"name": "Sun",
-		"file": "domaindisplay57b3.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide",
@@ -2546,7 +2517,6 @@
 	},
 	"travel": {
 		"name": "Travel",
-		"file": "domaindisplayba15.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide",
@@ -2613,7 +2583,6 @@
 	},
 	"trickery": {
 		"name": "Trickery",
-		"file": "domaindisplay3da5.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Kobolds of Golarion",
@@ -2738,7 +2707,6 @@
 	},
 	"void": {
 		"name": "Void",
-		"file": "domaindisplay2c1e.html",
 		"sources": [
 			"Book of the Damned",
 			"Gods and Magic",
@@ -2809,7 +2777,6 @@
 	},
 	"war": {
 		"name": "War",
-		"file": "domaindisplayf936.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Advanced Player's Guide",
@@ -2872,7 +2839,6 @@
 	},
 	"water": {
 		"name": "Water",
-		"file": "domaindisplayc28e.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Book of the Damned",
@@ -2965,7 +2931,6 @@
 	},
 	"weather": {
 		"name": "Weather",
-		"file": "domaindisplay2941.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Divine Anthology",

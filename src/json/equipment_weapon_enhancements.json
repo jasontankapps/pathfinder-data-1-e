@@ -2,7 +2,6 @@
 	"_prefix": "equipment-weapon-enhance",
 	"consecrated_weapon": {
 		"name": "consecrated weapon",
-		"file": "equipmentmiscdisplay0b21.html",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Consecrated weapon",
@@ -17,7 +16,6 @@
 	},
 	"sawback_sword": {
 		"name": "sawback sword",
-		"file": "equipmentmiscdisplayc832.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Adventurer's Armory"
@@ -34,7 +32,6 @@
 	},
 	"undine_weaponshaft": {
 		"name": "undine weaponshaft",
-		"file": "equipmentmiscdisplayb290.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Undine weaponshaft",
@@ -48,7 +45,6 @@
 	},
 	"brutally_weighted": {
 		"name": "brutally weighted",
-		"file": "equipmentweaponsdisplay3ffc.html",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Brutally weighted",
@@ -62,8 +58,6 @@
 	},
 	"dual-balanced": {
 		"name": "dual-balanced",
-		"searchable_name": "dual balanced",
-		"file": "equipmentweaponsdisplay3f30.html",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Dual-balanced",
@@ -80,7 +74,6 @@
 	},
 	"jagged_hooks": {
 		"name": "jagged hooks",
-		"file": "equipmentweaponsdisplay8808.html",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Jagged hooks",
@@ -94,8 +87,6 @@
 	},
 	"razor-sharp": {
 		"name": "razor-sharp",
-		"searchable_name": "razor sharp",
-		"file": "equipmentweaponsdisplay1a76.html",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Razor-sharp",
@@ -112,7 +103,6 @@
 	},
 	"serrated_edge": {
 		"name": "serrated edge",
-		"file": "equipmentweaponsdisplay2675.html",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Serrated edge",
@@ -126,7 +116,6 @@
 	},
 	"tactically_adapted": {
 		"name": "tactically adapted",
-		"file": "equipmentweaponsdisplay15a7.html",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Tactically adapted",
@@ -140,7 +129,6 @@
 	},
 	"versatile_design": {
 		"name": "versatile design",
-		"file": "equipmentweaponsdisplay527a.html",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Versatile design",

@@ -2,7 +2,6 @@
 	"_prefix": "archetype-sorcerer",
 	"bloodline_familiars": {
 		"name": "Bloodline Familiars",
-		"file": "archetypedisplayd788.html",
 		"sources": [ "Familiar Folio" ],
 		"description": [
 			"## Bloodline Familiars",
@@ -38,7 +37,6 @@
 	},
 	"crossblooded": {
 		"name": "Crossblooded",
-		"file": "archetypedisplay002f.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Crossblooded",
@@ -66,7 +64,6 @@
 	},
 	"dragon_drinker": {
 		"name": "Dragon Drinker",
-		"file": "archetypedisplay16c6.html",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Dragon Drinker",
@@ -92,7 +89,6 @@
 	},
 	"eldritch_scrapper": {
 		"name": "Eldritch Scrapper",
-		"file": "archetypedisplay3d26.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Eldritch Scrapper",
@@ -114,7 +110,6 @@
 	},
 	"mongrel_mage": {
 		"name": "Mongrel Mage",
-		"file": "archetypedisplayeb22.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Mongrel Mage",
@@ -148,7 +143,6 @@
 	},
 	"nine-tailed_heir": {
 		"name": "Nine-Tailed Heir",
-		"file": "archetypedisplaycf03.html",
 		"sources": [ "Blood of the Beast" ],
 		"description": [
 			"## Nine-Tailed Heir",
@@ -166,7 +160,6 @@
 	},
 	"razmiran_priest": {
 		"name": "Razmiran Priest",
-		"file": "archetypedisplay0849.html",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"## Razmiran Priest",
@@ -184,7 +177,6 @@
 	},
 	"seeker": {
 		"name": "Seeker",
-		"file": "archetypedisplay2d6a.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
 			"## Seeker",
@@ -202,7 +194,6 @@
 	},
 	"sorcerer_of_sleep": {
 		"name": "Sorcerer of Sleep",
-		"file": "archetypedisplay6d21.html",
 		"sources": [ "Black Markets" ],
 		"description": [
 			"## Sorcerer of Sleep",
@@ -220,7 +211,6 @@
 	},
 	"stone_warder": {
 		"name": "Stone Warder",
-		"file": "archetypedisplaydcc4.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## Stone Warder",
@@ -242,7 +232,6 @@
 	},
 	"tattooed_sorcerer": {
 		"name": "Tattooed Sorcerer",
-		"file": "archetypedisplay9207.html",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"## Tattooed Sorcerer",
@@ -266,7 +255,6 @@
 	},
 	"umbral_scion": {
 		"name": "Umbral Scion",
-		"file": "archetypedisplay575a.html",
 		"sources": [ "Blood of Shadows" ],
 		"description": [
 			"## Umbral Scion",
@@ -298,7 +286,6 @@
 	},
 	"wishcrafter": {
 		"name": "Wishcrafter",
-		"file": "archetypedisplay3ddd.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Wishcrafter",

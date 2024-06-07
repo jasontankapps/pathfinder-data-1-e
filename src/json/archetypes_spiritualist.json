@@ -2,7 +2,6 @@
 	"_prefix": "archetype-spiritualist",
 	"drowned_channeler": {
 		"name": "Drowned Channeler",
-		"file": "archetypedisplay4ffc.html",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Drowned Channeler",
@@ -30,7 +29,6 @@
 	},
 	"ectoplasmatist": {
 		"name": "Ectoplasmatist",
-		"file": "archetypedisplay4b92.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Ectoplasmatist",
@@ -76,7 +74,6 @@
 	},
 	"exciter": {
 		"name": "Exciter",
-		"file": "archetypedisplayb367.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Exciter",
@@ -120,7 +117,6 @@
 	},
 	"fated_guide": {
 		"name": "Fated Guide",
-		"file": "archetypedisplay14ef.html",
 		"sources": [ "Occult Origins" ],
 		"description": [
 			"## Fated Guide",
@@ -154,7 +150,6 @@
 	},
 	"fractured_mind": {
 		"name": "Fractured Mind",
-		"file": "archetypedisplay28db.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Fractured Mind",
@@ -186,7 +181,6 @@
 	},
 	"geist_channeler": {
 		"name": "Geist Channeler",
-		"file": "archetypedisplayf6f9.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Geist Channeler",
@@ -218,7 +212,6 @@
 	},
 	"grim_apostle": {
 		"name": "Grim Apostle",
-		"file": "archetypedisplay71ae.html",
 		"sources": [ "Pathfinder #144: Midwives to Death" ],
 		"description": [
 			"## Grim Apostle",
@@ -316,7 +309,6 @@
 	},
 	"hag-haunted": {
 		"name": "Hag-Haunted",
-		"file": "archetypedisplayf93b.html",
 		"sources": [ "Blood of the Coven" ],
 		"description": [
 			"## Hag-Haunted",
@@ -340,7 +332,6 @@
 	},
 	"haunted": {
 		"name": "Haunted",
-		"file": "archetypedisplay96bf.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Haunted",
@@ -366,7 +357,6 @@
 	},
 	"involutionist": {
 		"name": "Involutionist",
-		"file": "archetypedisplaydca3.html",
 		"sources": [],
 		"description": [
 			"## Involutionist",
@@ -413,7 +403,6 @@
 	},
 	"necrologist": {
 		"name": "Necrologist",
-		"file": "archetypedisplayc517.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Necrologist",
@@ -465,7 +454,6 @@
 	},
 	"onmyoji": {
 		"name": "Onmyoji",
-		"file": "archetypedisplaybfcd.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Onmyoji",
@@ -483,7 +471,6 @@
 	},
 	"phantom_blade": {
 		"name": "Phantom Blade",
-		"file": "archetypedisplay1d9d.html",
 		"sources": [],
 		"description": [
 			"## Phantom Blade",
@@ -560,7 +547,6 @@
 	},
 	"plague_eater": {
 		"name": "Plague Eater",
-		"file": "archetypedisplayebdf.html",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
 			"## Plague Eater",
@@ -606,7 +592,6 @@
 	},
 	"priest_of_the_fallen": {
 		"name": "Priest of the Fallen",
-		"file": "archetypedisplay4bbb.html",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
 			"## Priest of the Fallen",
@@ -654,7 +639,6 @@
 	},
 	"quintessentialist": {
 		"name": "Quintessentialist",
-		"file": "archetypedisplay3788.html",
 		"sources": [ "Distant Realms" ],
 		"description": [
 			"## Quintessentialist",
@@ -674,7 +658,6 @@
 	},
 	"scourge": {
 		"name": "Scourge",
-		"file": "archetypedisplay6703.html",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
 			"## Scourge",
@@ -702,7 +685,6 @@
 	},
 	"seeker_of_enlightenment": {
 		"name": "Seeker of Enlightenment",
-		"file": "archetypedisplay8da0.html",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
 			"## Seeker of Enlightenment",
@@ -738,7 +720,6 @@
 	},
 	"shadow_caller": {
 		"name": "Shadow Caller",
-		"file": "archetypedisplayc14c.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Shadow Caller",
@@ -792,7 +773,6 @@
 	},
 	"soul_warden": {
 		"name": "Soul Warden",
-		"file": "archetypedisplay7cc8.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Soul Warden",
@@ -824,7 +804,6 @@
 	},
 	"totem_spiritualist": {
 		"name": "Totem Spiritualist",
-		"file": "archetypedisplay25bc.html",
 		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Totem Spiritualist",
@@ -862,7 +841,6 @@
 	},
 	"usher_of_lost_souls": {
 		"name": "Usher of Lost Souls",
-		"file": "archetypedisplayed95.html",
 		"sources": [ "Psychic Anthology" ],
 		"description": [
 			"## Usher of Lost Souls",
@@ -892,7 +870,6 @@
 	},
 	"ward_spiritualist": {
 		"name": "Ward Spiritualist",
-		"file": "archetypedisplay92c9.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Ward Spiritualist",
@@ -924,7 +901,6 @@
 	},
 	"zeitgeist_binder": {
 		"name": "Zeitgeist Binder",
-		"file": "archetypedisplayf527.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Zeitgeist Binder",

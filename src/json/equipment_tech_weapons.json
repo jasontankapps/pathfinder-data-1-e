@@ -2,7 +2,6 @@
 	"_prefix": "equipment-tech-weapon",
 	"monowhip": {
 		"name": "monowhip",
-		"file": "equipmenttechweaponsdisplay1804.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Monowhip",
@@ -25,7 +24,6 @@
 	},
 	"null_blade": {
 		"name": "null blade",
-		"file": "equipmenttechweaponsdisplay3b73.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Null blade",
@@ -50,7 +48,6 @@
 	},
 	"plasma_blade": {
 		"name": "plasma blade",
-		"file": "equipmenttechweaponsdisplay310a.html",
 		"sources": [ "Pathfinder #100: A Song of Silver" ],
 		"description": [
 			"## Plasma blade",
@@ -72,7 +69,6 @@
 	},
 	"chainsaw": {
 		"name": "chainsaw",
-		"file": "equipmenttechweaponsdisplay222d.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Chainsaw",
@@ -95,7 +91,6 @@
 	},
 	"neural_inhibitor": {
 		"name": "neural inhibitor",
-		"file": "equipmenttechweaponsdisplay6304.html",
 		"sources": [ "Pathfinder #85: Fires of Creation" ],
 		"description": [
 			"## Neural inhibitor",
@@ -118,7 +113,6 @@
 	},
 	"laser_torch": {
 		"name": "laser torch",
-		"file": "equipmenttechweaponsdisplay35d8.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Laser torch",
@@ -141,7 +135,6 @@
 	},
 	"stun_baton": {
 		"name": "stun baton",
-		"file": "equipmenttechweaponsdisplayedce.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Stun baton",
@@ -164,7 +157,6 @@
 	},
 	"starfall_spade": {
 		"name": "starfall spade",
-		"file": "equipmenttechweaponsdisplay865e.html",
 		"sources": [ "Pathfinder #89: Palace of Fallen Stars" ],
 		"description": [
 			"## Starfall spade",
@@ -188,7 +180,6 @@
 	},
 	"arc_pistol": {
 		"name": "arc pistol",
-		"file": "equipmenttechweaponsdisplayaf74.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Arc pistol",
@@ -211,7 +202,6 @@
 	},
 	"dart_gun": {
 		"name": "dart gun",
-		"file": "equipmenttechweaponsdisplayd9f8.html",
 		"sources": [ "Technology Guide" ],
 		"capacity_nanite": 1,
 		"description": [
@@ -235,7 +225,6 @@
 	},
 	"death_ray": {
 		"name": "death ray",
-		"file": "equipmenttechweaponsdisplay90b9.html",
 		"sources": [ "Technology Guide" ],
 		"capacity_nanite": 1,
 		"description": [
@@ -261,7 +250,6 @@
 	},
 	"emp_pistol": {
 		"name": "emp pistol",
-		"file": "equipmenttechweaponsdisplay72ff.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## EMP pistol",
@@ -284,7 +272,6 @@
 	},
 	"flare_gun": {
 		"name": "flare gun",
-		"file": "equipmenttechweaponsdisplayfc9b.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Flare gun",
@@ -307,7 +294,6 @@
 	},
 	"gravity_pistol": {
 		"name": "gravity pistol",
-		"file": "equipmenttechweaponsdisplay4e7e.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Gravity pistol",
@@ -330,7 +316,6 @@
 	},
 	"inferno_pistol": {
 		"name": "inferno pistol",
-		"file": "equipmenttechweaponsdisplay54f4.html",
 		"sources": [ "Pathfinder #85: Fires of Creation" ],
 		"capacity_nanite": 1,
 		"description": [
@@ -354,7 +339,6 @@
 	},
 	"laser_pistol": {
 		"name": "laser pistol",
-		"file": "equipmenttechweaponsdisplayd922.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Laser pistol",
@@ -377,7 +361,6 @@
 	},
 	"mind_burner": {
 		"name": "mind burner",
-		"file": "equipmenttechweaponsdisplay1020.html",
 		"sources": [ "Pathfinder #86: Lords of Rust" ],
 		"description": [
 			"## Mind burner",
@@ -402,7 +385,6 @@
 	},
 	"mindrender": {
 		"name": "mindrender",
-		"file": "equipmenttechweaponsdisplaya5d5.html",
 		"sources": [ "Technology Guide" ],
 		"capacity_nanite": 1,
 		"description": [
@@ -426,7 +408,6 @@
 	},
 	"sonic_pistol": {
 		"name": "sonic pistol",
-		"file": "equipmenttechweaponsdisplayd01e.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Sonic pistol",
@@ -449,7 +430,6 @@
 	},
 	"stun_gun": {
 		"name": "stun gun",
-		"file": "equipmenttechweaponsdisplayb4ab.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Stun gun",
@@ -472,7 +452,6 @@
 	},
 	"zero_pistol": {
 		"name": "zero pistol",
-		"file": "equipmenttechweaponsdisplay3fc9.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Zero pistol",
@@ -495,7 +474,6 @@
 	},
 	"arc_rifle": {
 		"name": "arc rifle",
-		"file": "equipmenttechweaponsdisplay8936.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Arc rifle",
@@ -518,7 +496,6 @@
 	},
 	"autograpnel": {
 		"name": "autograpnel",
-		"file": "equipmenttechweaponsdisplay6e47.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Autograpnel",
@@ -545,7 +522,6 @@
 	},
 	"emp_rifle": {
 		"name": "emp rifle",
-		"file": "equipmenttechweaponsdisplayc73a.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## EMP rifle",
@@ -568,7 +544,6 @@
 	},
 	"gravity_rifle": {
 		"name": "gravity rifle",
-		"file": "equipmenttechweaponsdisplayda71.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Gravity rifle",
@@ -591,7 +566,6 @@
 	},
 	"id_rifle": {
 		"name": "id rifle",
-		"file": "equipmenttechweaponsdisplay1a46.html",
 		"sources": [ "Technology Guide" ],
 		"capacity_nanite": 1,
 		"description": [
@@ -619,7 +593,6 @@
 	},
 	"laser_rifle": {
 		"name": "laser rifle",
-		"file": "equipmenttechweaponsdisplayd3d8.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Laser rifle",
@@ -642,7 +615,6 @@
 	},
 	"sonic_rifle": {
 		"name": "sonic rifle",
-		"file": "equipmenttechweaponsdisplayca16.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Sonic rifle",
@@ -665,7 +637,6 @@
 	},
 	"zero_rifle": {
 		"name": "zero rifle",
-		"file": "equipmenttechweaponsdisplay4480.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Zero rifle",
@@ -688,7 +659,6 @@
 	},
 	"atom_gun": {
 		"name": "Atom gun",
-		"file": "equipmenttechweaponsdisplaya652.html",
 		"sources": [
 			"Technology Guide"
 		],
@@ -714,7 +684,6 @@
 	},
 	"beam_cannon_arc_cannon": {
 		"name": "Beam cannon (arc cannon)",
-		"file": "equipmenttechweaponsdisplay00a3.html",
 		"sources": [
 			"Pathfinder #89: Palace of Fallen Stars"
 		],
@@ -752,7 +721,6 @@
 	},
 	"beam_cannon_emp_cannon": {
 		"name": "Beam cannon (EMP cannon)",
-		"file": "equipmenttechweaponsdisplayeaa6.html",
 		"sources": [
 			"Pathfinder #89: Palace of Fallen Stars"
 		],
@@ -790,7 +758,6 @@
 	},
 	"beam_cannon_laser_cannon": {
 		"name": "Beam cannon (laser cannon)",
-		"file": "equipmenttechweaponsdisplay8a53.html",
 		"sources": [
 			"Pathfinder #89: Palace of Fallen Stars"
 		],
@@ -828,7 +795,6 @@
 	},
 	"beam_cannon_sonic_cannon": {
 		"name": "Beam cannon (sonic cannon)",
-		"file": "equipmenttechweaponsdisplayf9f6.html",
 		"sources": [
 			"Pathfinder #89: Palace of Fallen Stars"
 		],
@@ -866,7 +832,6 @@
 	},
 	"beam_cannon_zero_cannon": {
 		"name": "Beam cannon (zero cannon)",
-		"file": "equipmenttechweaponsdisplay257f.html",
 		"sources": [
 			"Pathfinder #89: Palace of Fallen Stars"
 		],
@@ -904,7 +869,6 @@
 	},
 	"fleshnet_cannon": {
 		"name": "Fleshnet cannon",
-		"file": "equipmenttechweaponsdisplay3287.html",
 		"sources": [
 			"Pathfinder #88: Valley of the Brain Collectors"
 		],
@@ -934,7 +898,6 @@
 	},
 	"grenade_launcher": {
 		"name": "Grenade launcher",
-		"file": "equipmenttechweaponsdisplay87bf.html",
 		"sources": [
 			"Technology Guide"
 		],
@@ -958,7 +921,6 @@
 	},
 	"nuclear_resonator": {
 		"name": "Nuclear resonator",
-		"file": "equipmenttechweaponsdisplay4b6e.html",
 		"sources": [
 			"Technology Guide"
 		],
@@ -986,7 +948,6 @@
 	},
 	"plasmathrower": {
 		"name": "Plasmathrower",
-		"file": "equipmenttechweaponsdisplayb6e4.html",
 		"sources": [
 			"Technology Guide"
 		],
@@ -1010,7 +971,6 @@
 	},
 	"rail_gun": {
 		"name": "Rail gun",
-		"file": "equipmenttechweaponsdisplay4e63.html",
 		"sources": [
 			"Technology Guide"
 		],
@@ -1036,7 +996,6 @@
 	},
 	"rocket_launcher": {
 		"name": "Rocket launcher",
-		"file": "equipmenttechweaponsdisplayb920.html",
 		"sources": [
 			"Technology Guide"
 		],
@@ -1060,7 +1019,6 @@
 	},
 	"vortex_gun": {
 		"name": "Vortex gun",
-		"file": "equipmenttechweaponsdisplay6132.html",
 		"sources": [
 			"Technology Guide"
 		],
@@ -1084,7 +1042,6 @@
 	},
 	"x-laser": {
 		"name": "X-laser",
-		"file": "equipmenttechweaponsdisplay95c9.html",
 		"sources": [
 			"Technology Guide"
 		],

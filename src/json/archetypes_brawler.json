@@ -2,7 +2,6 @@
 	"_prefix": "archetype-brawler",
 	"battle_dancer": {
 		"name": "Battle Dancer",
-		"file": "archetypedisplay1efd.html",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
 			"## Battle Dancer",
@@ -38,7 +37,6 @@
 	},
 	"bouncer": {
 		"name": "Bouncer",
-		"file": "archetypedisplayca53.html",
 		"sources": [ "Inner Sea Taverns" ],
 		"description": [
 			"## Bouncer",
@@ -66,7 +64,6 @@
 	},
 	"constructed_pugilist": {
 		"name": "Constructed Pugilist",
-		"file": "archetypedisplay6df4.html",
 		"sources": [ "People of the Wastes" ],
 		"description": [
 			"## Constructed Pugilist",
@@ -108,7 +105,6 @@
 	},
 	"exemplar": {
 		"name": "Exemplar",
-		"file": "archetypedisplay786d.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Exemplar",
@@ -126,7 +122,6 @@
 	},
 	"feral_striker": {
 		"name": "Feral Striker",
-		"file": "archetypedisplaye7a6.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Feral Striker",
@@ -150,7 +145,6 @@
 	},
 	"hinyasi": {
 		"name": "Hinyasi",
-		"file": "archetypedisplay44e1-2.html",
 		"sources": [ "Blood of the Ancients" ],
 		"description": [
 			"## Hinyasi",
@@ -180,7 +174,6 @@
 	},
 	"living_avalanche": {
 		"name": "Living Avalanche",
-		"file": "archetypedisplay250e.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Living Avalanche",
@@ -218,7 +211,6 @@
 	},
 	"mutagenic_mauler": {
 		"name": "Mutagenic Mauler",
-		"file": "archetypedisplay32e4.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Mutagenic Mauler",
@@ -238,7 +230,6 @@
 	},
 	"shield_champion": {
 		"name": "Shield Champion",
-		"file": "archetypedisplay1137.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Shield Champion",
@@ -266,7 +257,6 @@
 	},
 	"snakebite_striker": {
 		"name": "Snakebite Striker",
-		"file": "archetypedisplay9f82.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Snakebite Striker",
@@ -286,7 +276,6 @@
 	},
 	"steel-breaker": {
 		"name": "Steel-Breaker",
-		"file": "archetypedisplayda84.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Steel-Breaker",
@@ -306,7 +295,6 @@
 	},
 	"strangler": {
 		"name": "Strangler",
-		"file": "archetypedisplay4f90.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Strangler",
@@ -328,7 +316,6 @@
 	},
 	"strong-side_boxer": {
 		"name": "Strong-Side Boxer",
-		"file": "archetypedisplay70a0.html",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
 			"## Strong-Side Boxer",
@@ -352,7 +339,6 @@
 	},
 	"turfer": {
 		"name": "Turfer",
-		"file": "archetypedisplayac2f.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Turfer",
@@ -374,7 +360,6 @@
 	},
 	"ulfen_beast-wrestler": {
 		"name": "Ulfen Beast-Wrestler",
-		"file": "archetypedisplay8c66.html",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
 			"## Ulfen Beast-Wrestler",
@@ -392,7 +377,6 @@
 	},
 	"venomfist": {
 		"name": "Venomfist",
-		"file": "archetypedisplay85df.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Venomfist",
@@ -418,7 +402,6 @@
 	},
 	"verdant_grappler": {
 		"name": "Verdant Grappler",
-		"file": "archetypedisplay1f58.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Verdant Grappler",
@@ -442,7 +425,6 @@
 	},
 	"wild_child": {
 		"name": "Wild Child",
-		"file": "archetypedisplayb8a8.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Wild Child",
@@ -464,7 +446,6 @@
 	},
 	"winding_path_renegade": {
 		"name": "Winding Path Renegade",
-		"file": "archetypedisplay4c82.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Winding Path Renegade",

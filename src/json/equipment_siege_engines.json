@@ -2,7 +2,6 @@
 	"_prefix": "equipment-siege",
 	"alchemist's_fire": {
 		"name": "alchemist's fire",
-		"file": "equipmentweaponsdisplay35d1.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Alchemist's fire",
@@ -17,7 +16,6 @@
 	},
 	"blast_shot": {
 		"name": "blast shot",
-		"file": "equipmentweaponsdisplayb9e4.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Blast Shot",
@@ -32,7 +30,6 @@
 	},
 	"bomb": {
 		"name": "bomb",
-		"file": "equipmentweaponsdisplay8558.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Bomb",
@@ -47,7 +44,6 @@
 	},
 	"chain_shot": {
 		"name": "chain shot",
-		"file": "equipmentweaponsdisplay5357.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Chain shot",
@@ -62,7 +58,6 @@
 	},
 	"defoliant_shot": {
 		"name": "defoliant shot",
-		"file": "equipmentweaponsdisplaydf27.html",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"## Defoliant Shot",
@@ -79,7 +74,6 @@
 	},
 	"entangling_bolt": {
 		"name": "entangling bolt",
-		"file": "equipmentweaponsdisplayb644.html",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"## Entangling Bolt",
@@ -96,7 +90,6 @@
 	},
 	"liquid_ice": {
 		"name": "liquid ice",
-		"file": "equipmentweaponsdisplayec8f.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Liquid ice",
@@ -111,7 +104,6 @@
 	},
 	"plague_bundle": {
 		"name": "plague bundle",
-		"file": "equipmentweaponsdisplayd7f6.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Plague bundle",
@@ -126,7 +118,6 @@
 	},
 	"rockwasp_bomb": {
 		"name": "rockwasp bomb",
-		"file": "equipmentweaponsdisplaydb52.html",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"## Rockwasp Bomb",
@@ -141,7 +132,6 @@
 	},
 	"smoke_shot": {
 		"name": "smoke shot",
-		"file": "equipmentweaponsdisplay5d5e.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Smoke shot",
@@ -156,7 +146,6 @@
 	},
 	"ballista_net": {
 		"name": "ballista net",
-		"file": "equipmentweaponsdisplay3a3f.html",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Ballista net",
@@ -171,7 +160,6 @@
 	},
 	"flak": {
 		"name": "flak",
-		"file": "equipmentweaponsdisplay7611.html",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Flak",
@@ -186,7 +174,6 @@
 	},
 	"flechette_bolt": {
 		"name": "flechette bolt",
-		"file": "equipmentweaponsdisplayc223.html",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Flechette bolt",
@@ -203,7 +190,6 @@
 	},
 	"weighted_bolt": {
 		"name": "weighted bolt",
-		"file": "equipmentweaponsdisplay0e56.html",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Weighted bolt",
@@ -218,8 +204,6 @@
 	},
 	"ballista,_light": {
 		"name": "ballista, light",
-		"searchable_name": "light ballista",
-		"file": "equipmentweaponsdisplaydace.html",
 		"sources": [
 			"Ultimate Combat",
 			"PRPG Core Rulebook"
@@ -255,7 +239,6 @@
 	},
 	"cannon": {
 		"name": "cannon",
-		"file": "equipmentweaponsdisplayde18.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Cannon",
@@ -272,8 +255,6 @@
 	},
 	"ballista,_heavy": {
 		"name": "ballista, heavy",
-		"searchable_name": "heavy ballista",
-		"file": "equipmentweaponsdisplay9267.html",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "light_ballista",
 		"display": "equipsiege"
@@ -283,8 +264,6 @@
 	},
 	"cannon,_fiend's_mouth": {
 		"name": "cannon, fiend's mouth",
-		"searchable_name": "cannon fiend's mouth",
-		"file": "equipmentweaponsdisplayd566.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Cannon, fiend's mouth",
@@ -304,7 +283,6 @@
 	},
 	"firedrake": {
 		"name": "firedrake",
-		"file": "equipmentweaponsdisplaydde4.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Firedrake",
@@ -321,7 +299,6 @@
 	},
 	"manticore's_tail": {
 		"name": "manticore's tail",
-		"file": "equipmentweaponsdisplaydce8.html",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"## Manticore's Tail",
@@ -338,8 +315,6 @@
 	},
 	"ballista,_gate_breaker": {
 		"name": "ballista, gate breaker",
-		"searchable_name": "ballista gate breaker",
-		"file": "equipmentweaponsdisplay816c.html",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "light_ballista",
 		"display": "equipsiege"
@@ -349,7 +324,6 @@
 	},
 	"firewyrm": {
 		"name": "firewyrm",
-		"file": "equipmentweaponsdisplay1317.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Firewyrm",
@@ -366,8 +340,6 @@
 	},
 	"bombard,_light": {
 		"name": "bombard, light",
-		"searchable_name": "light bombard",
-		"file": "equipmentweaponsdisplay1ec7.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Bombard",
@@ -400,8 +372,6 @@
 	},
 	"catapult,_light": {
 		"name": "catapult, light",
-		"searchable_name": "light catapult",
-		"file": "equipmentweaponsdisplayd144.html",
 		"sources": [
 			"Ultimate Combat",
 			"PRPG Core Rulebook"
@@ -437,8 +407,6 @@
 	},
 	"trebuchet,_light": {
 		"name": "trebuchet, light",
-		"searchable_name": "light trebuchet",
-		"file": "equipmentweaponsdisplaye756.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Trebuchet",
@@ -471,8 +439,6 @@
 	},
 	"bombard,_standard": {
 		"name": "bombard, standard",
-		"searchable_name": "bombard standard",
-		"file": "equipmentweaponsdisplayc038.html",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "light_bombard",
 		"display": "equipsiege"
@@ -482,8 +448,6 @@
 	},
 	"catapult,_standard": {
 		"name": "catapult, standard",
-		"searchable_name": "catapult standard",
-		"file": "equipmentweaponsdisplay2eba.html",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "light_catapult",
 		"display": "equipsiege"
@@ -493,8 +457,6 @@
 	},
 	"springal,_arrow": {
 		"name": "springal, arrow",
-		"searchable_name": "arrow springal",
-		"file": "equipmentweaponsdisplayf0b8.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Springal, arrow",
@@ -521,8 +483,6 @@
 	},
 	"springal,_rocket": {
 		"name": "springal, rocket",
-		"searchable_name": "rocket springal",
-		"file": "equipmentweaponsdisplaya4ad.html",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "arrow_springal",
 		"display": "equipsiege"
@@ -532,8 +492,6 @@
 	},
 	"trebuchet,_standard": {
 		"name": "trebuchet, standard",
-		"searchable_name": "standard trebuchet",
-		"file": "equipmentweaponsdisplay0ab2.html",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "light_trebuchet",
 		"display": "equipsiege"
@@ -543,8 +501,6 @@
 	},
 	"bombard,_heavy": {
 		"name": "bombard, heavy",
-		"searchable_name": "heavy bombard",
-		"file": "equipmentweaponsdisplayf759.html",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "light_bombard",
 		"display": "equipsiege"
@@ -554,8 +510,6 @@
 	},
 	"catapult,_heavy": {
 		"name": "catapult, heavy",
-		"searchable_name": "heavy catapult",
-		"file": "equipmentweaponsdisplaybb6a.html",
 		"sources": [
 			"Ultimate Combat",
 			"PRPG Core Rulebook"
@@ -568,8 +522,6 @@
 	},
 	"trebuchet,_heavy": {
 		"name": "trebuchet, heavy",
-		"searchable_name": "heavy trebuchet",
-		"file": "equipmentweaponsdisplay79c3.html",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "light_trebuchet",
 		"display": "equipsiege"
@@ -579,8 +531,6 @@
 	},
 	"bridge,_assault,_colossal": {
 		"name": "bridge, assault, colossal",
-		"searchable_name": "colossal assault bridge",
-		"file": "equipmentweaponsdisplay62b3.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Bridge, assault",
@@ -628,8 +578,6 @@
 	},
 	"bridge,_assault,_gargantuan": {
 		"name": "bridge, assault, gargantuan",
-		"searchable_name": "gargantuan assault bridge",
-		"file": "equipmentweaponsdisplay2c10.html",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "colossal_assault_bridge",
 		"display": "equipsiege"
@@ -639,8 +587,6 @@
 	},
 	"bridge,_assault,_huge": {
 		"name": "bridge, assault, huge",
-		"searchable_name": "huge assault bridge",
-		"file": "equipmentweaponsdisplaya6d0.html",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "colossal_assault_bridge",
 		"display": "equipsiege"
@@ -650,8 +596,6 @@
 	},
 	"bridge,_assault,_large": {
 		"name": "bridge, assault, large",
-		"searchable_name": "large assault bridge",
-		"file": "equipmentweaponsdisplayd200.html",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "colossal_assault_bridge",
 		"display": "equipsiege"
@@ -661,7 +605,6 @@
 	},
 	"corvus": {
 		"name": "corvus",
-		"file": "equipmentweaponsdisplay9f57.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Corvus",
@@ -680,7 +623,6 @@
 	},
 	"crushing_wheel": {
 		"name": "crushing wheel",
-		"file": "equipmentweaponsdisplay2585.html",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"## Crushing Wheel",
@@ -699,7 +641,6 @@
 	},
 	"earthmaul": {
 		"name": "earthmaul",
-		"file": "equipmentweaponsdisplay1786.html",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"## Earthmaul",
@@ -718,8 +659,6 @@
 	},
 	"gallery,_colossal": {
 		"name": "gallery, colossal",
-		"searchable_name": "colossal gallery",
-		"file": "equipmentweaponsdisplay4a89.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Gallery",
@@ -762,8 +701,6 @@
 	},
 	"gallery,_gargantuan": {
 		"name": "gallery, gargantuan",
-		"searchable_name": "gargantuan gallery",
-		"file": "equipmentweaponsdisplay2ab2.html",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "colossal_gallery",
 		"display": "equipsiege"
@@ -773,8 +710,6 @@
 	},
 	"gallery,_huge": {
 		"name": "gallery, huge",
-		"searchable_name": "huge gallery",
-		"file": "equipmentweaponsdisplay7b0e.html",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "colossal_gallery",
 		"display": "equipsiege"
@@ -784,8 +719,6 @@
 	},
 	"gallery,_large": {
 		"name": "gallery, large",
-		"searchable_name": "large gallery",
-		"file": "equipmentweaponsdisplaye4dc.html",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "colossal_gallery",
 		"display": "equipsiege"
@@ -795,7 +728,6 @@
 	},
 	"harvester": {
 		"name": "harvester",
-		"file": "equipmentweaponsdisplay94a3.html",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"## Harvester",
@@ -814,8 +746,6 @@
 	},
 	"ladder,_escalade,_gargantuan": {
 		"name": "ladder, escalade, gargantuan",
-		"searchable_name": "gargantuan ladder escalade",
-		"file": "equipmentweaponsdisplay4775.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Ladder, escalade",
@@ -863,8 +793,6 @@
 	},
 	"ladder,_escalade,_colossal": {
 		"name": "ladder, escalade, colossal",
-		"searchable_name": "colossal ladder escalade",
-		"file": "equipmentweaponsdisplayfed9.html",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "gargantuan_ladder_escalade",
 		"display": "equipsiege"
@@ -874,8 +802,6 @@
 	},
 	"ladder,_escalade,_huge": {
 		"name": "ladder, escalade, huge",
-		"searchable_name": "huge ladder escalade",
-		"file": "equipmentweaponsdisplay9887.html",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "gargantuan_ladder_escalade",
 		"display": "equipsiege"
@@ -885,8 +811,6 @@
 	},
 	"ladder,_escalade,_large": {
 		"name": "ladder, escalade, large",
-		"searchable_name": "large ladder escalade",
-		"file": "equipmentweaponsdisplaybc26.html",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "gargantuan_ladder_escalade",
 		"display": "equipsiege"
@@ -896,8 +820,6 @@
 	},
 	"ram,_large": {
 		"name": "ram, large",
-		"searchable_name": "large ram",
-		"file": "equipmentweaponsdisplay0ea7.html",
 		"sources": [
 			"Ultimate Combat",
 			"PRPG Core Rulebook"
@@ -955,8 +877,6 @@
 	},
 	"ram,_colossal": {
 		"name": "ram, colossal",
-		"searchable_name": "colossal ram",
-		"file": "equipmentweaponsdisplayc553.html",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "large_ram",
 		"display": "equipsiege"
@@ -966,8 +886,6 @@
 	},
 	"ram,_gargantuan": {
 		"name": "ram, gargantuan",
-		"searchable_name": "gargantuan ram",
-		"file": "equipmentweaponsdisplayfc3a.html",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "large_ram",
 		"display": "equipsiege"
@@ -977,8 +895,6 @@
 	},
 	"ram,_huge": {
 		"name": "ram, huge",
-		"searchable_name": "huge ram",
-		"file": "equipmentweaponsdisplay6211.html",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "large_ram",
 		"display": "equipsiege"
@@ -988,8 +904,6 @@
 	},
 	"siege_tower,_colossal": {
 		"name": "siege tower, colossal",
-		"searchable_name": "colossal siege tower",
-		"file": "equipmentweaponsdisplay6d9b.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Siege tower",
@@ -1041,8 +955,6 @@
 	},
 	"siege_tower,_gargantuan": {
 		"name": "siege tower, gargantuan",
-		"searchable_name": "gargantuan siege tower",
-		"file": "equipmentweaponsdisplay07d0.html",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "colossal_siege_tower",
 		"display": "equipsiege"
@@ -1052,8 +964,6 @@
 	},
 	"siege_tower,_huge": {
 		"name": "siege tower, huge",
-		"searchable_name": "huge siege tower",
-		"file": "equipmentweaponsdisplay4460.html",
 		"sources": [ "Ultimate Combat" ],
 		"copyof": "colossal_siege_tower",
 		"display": "equipsiege"
@@ -1063,8 +973,6 @@
 	},
 	"siege_tower,_large": {
 		"name": "siege tower, large",
-		"searchable_name": "large siege tower",
-		"file": "equipmentweaponsdisplay68cb.html",
 		"sources": [
 			"Ultimate Combat",
 			"PRPG Core Rulebook"

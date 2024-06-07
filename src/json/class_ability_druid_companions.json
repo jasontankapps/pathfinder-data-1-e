@@ -1,7 +1,6 @@
 {
 	"amargasaurus": {
 		"name": "Amargasaurus",
-		"file": "druidcompanionsdc13.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"### Amargasaurus",
@@ -18,7 +17,6 @@
 	},
 	"anglerfish": {
 		"name": "Anglerfish",
-		"file": "druidcompanions7d1e.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Anglerfish",
@@ -35,8 +33,6 @@
 	},
 	"ant,_giant": {
 		"name": "Ant, Giant",
-		"searchable_name": "Giant Ant",
-		"file": "druidcompanionsaa24.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"### Ant, Giant",
@@ -56,7 +52,6 @@
 	"giant_ant": { "copyof": "ant,_giant" },
 	"antelope": {
 		"name": "Antelope",
-		"file": "druidcompanionsf593.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"### Antelope",
@@ -75,7 +70,6 @@
 	},
 	"ape": {
 		"name": "Ape",
-		"file": "druidcompanions41ce.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Ape",
@@ -94,7 +88,6 @@
 	},
 	"archaeopyeryx": {
 		"name": "Archaeopyeryx",
-		"file": "druidcompanions2266.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Archaeopyeryx",
@@ -113,7 +106,6 @@
 	},
 	"armorfish": {
 		"name": "Armorfish",
-		"file": "druidcompanionsc43d.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Armorfish",
@@ -130,8 +122,6 @@
 	},
 	"assassin_bug,_giant": {
 		"name": "Assassin Bug, Giant",
-		"searchable_name": "Giant Assassin Bug",
-		"file": "druidcompanionsd6b0.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Assassin Bug, Giant",
@@ -151,7 +141,6 @@
 	"giant_assassin_bug": { "copyof": "assassin_bug,_giant" },
 	"aurochs": {
 		"name": "Aurochs",
-		"file": "druidcompanionsab4a.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"### Aurochs",
@@ -174,7 +163,6 @@
 	"bison": { "copyof": "aurochs" },
 	"axe_beak": {
 		"name": "Axe Beak",
-		"file": "druidcompanions6014.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"### Axe Beak",
@@ -193,7 +181,6 @@
 	},
 	"baboon": {
 		"name": "Baboon",
-		"file": "druidcompanions0794.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"### Baboon",
@@ -212,7 +199,6 @@
 	},
 	"bacallia": {
 		"name": "Bacallia",
-		"file": "druidcompanionsb8e4.html",
 		"sources": [ "Druma, Profit and Prophecy" ],
 		"description": [
 			"### Bacallia",
@@ -231,8 +217,6 @@
 	},
 	"badger": {
 		"name": "Badger (Wolverine)",
-		"searchable_name": "Badger",
-		"file": "druidcompanionscbd7.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Badger (Wolverine)",
@@ -252,7 +236,6 @@
 	"wolverine": { "copyof": "badger" },
 	"bear": {
 		"name": "Bear",
-		"file": "druidcompanions5285.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Bear",
@@ -271,8 +254,6 @@
 	},
 	"beetle,_giant": {
 		"name": "Beetle, Giant",
-		"searchable_name": "Giant Beetle",
-		"file": "druidcompanions1e74.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"### Beetle, Giant",
@@ -290,8 +271,6 @@
 	"giant_beetle": { "copyof": "beetle,_giant" },
 	"bird": {
 		"name": "Bird (Eagle/Hawk/Owl)",
-		"searchable_name": "Bird",
-		"file": "druidcompanions0451.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Bird (Eagle/Hawk/Owl)",
@@ -313,7 +292,6 @@
 	"owl": { "copyof": "bird" },
 	"blackwisp_egret": {
 		"name": "Blackwisp Egret",
-		"file": "druidcompanions10f6.html",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
 		"description": [
 			"### Blackwisp Egret",
@@ -332,7 +310,6 @@
 	},
 	"blue_whale": {
 		"name": "Blue Whale",
-		"file": "druidcompanionsb831.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Blue Whale",
@@ -351,7 +328,6 @@
 	},
 	"boar": {
 		"name": "Boar",
-		"file": "druidcompanionsea21.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Boar",
@@ -370,7 +346,6 @@
 	},
 	"bristle_boar": {
 		"name": "Bristle Boar",
-		"file": "druidcompanionsf533.html",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"### Bristle Boar",
@@ -389,7 +364,6 @@
 	},
 	"brontotherium": {
 		"name": "Brontotherium",
-		"file": "druidcompanionsb4b4.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"### Brontotherium",
@@ -406,7 +380,6 @@
 	},
 	"bull_of_zagresh": {
 		"name": "Bull of Zagresh",
-		"file": "druidcompanionse93d.html",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"### Bull of Zagresh",
@@ -425,7 +398,6 @@
 	},
 	"bustard": {
 		"name": "Bustard",
-		"file": "druidcompanionse899.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Bustard",
@@ -442,7 +414,6 @@
 	},
 	"camel": {
 		"name": "Camel",
-		"file": "druidcompanions5a78.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Camel",
@@ -461,7 +432,6 @@
 	},
 	"cameroceras": {
 		"name": "Cameroceras",
-		"file": "druidcompanionsa97d.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Cameroceras",
@@ -480,7 +450,6 @@
 	},
 	"capybara": {
 		"name": "Capybara",
-		"file": "druidcompanions4805.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Capybara",
@@ -497,8 +466,6 @@
 	},
 	"cat,_big": {
 		"name": "Cat, Big (Lion, Tiger)",
-		"searchable_name": "Big Cat",
-		"file": "druidcompanions3165.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Cat, Big (Lion, Tiger)",
@@ -519,8 +486,6 @@
 	"tiger": { "copyof": "cat,_big" },
 	"cat,_small_cheetah,_leopard": {
 		"name": "Cat, Small (Cheetah, Leopard)",
-		"searchable_name": "Small Cat",
-		"file": "druidcompanions6e6b.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Cat, Small (Cheetah, Leopard)",
@@ -541,8 +506,6 @@
 	"leopard": { "copyof": "cat,_small_cheetah,_leopard" },
 	"caterpillar,_giant": {
 		"name": "Caterpillar, Giant",
-		"searchable_name": "Giant Caterpillar",
-		"file": "druidcompanionsd7de.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Caterpillar, Giant",
@@ -560,7 +523,6 @@
 	"giant_caterpillar": { "copyof": "caterpillar,_giant" },
 	"cattle": {
 		"name": "Cattle",
-		"file": "druidcompanions41c2.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Cattle",
@@ -579,7 +541,6 @@
 	},
 	"cave_salamander": {
 		"name": "Cave Salamander",
-		"file": "druidcompanions4d5d.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"### Cave Salamander",
@@ -598,8 +559,6 @@
 	},
 	"centipede,_giant": {
 		"name": "Centipede, Giant",
-		"searchable_name": "Giant Centipede",
-		"file": "druidcompanionse84d.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"### Centipede, Giant",
@@ -619,7 +578,6 @@
 	"giant_centipede": { "copyof": "centipede,_giant" },
 	"ceratosaurus": {
 		"name": "Ceratosaurus",
-		"file": "druidcompanionscacf.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Ceratosaurus",
@@ -636,7 +594,6 @@
 	},
 	"chalicotherium": {
 		"name": "Chalicotherium",
-		"file": "druidcompanions3795.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Chalicotherium",
@@ -653,7 +610,6 @@
 	},
 	"chimpanzee": {
 		"name": "Chimpanzee",
-		"file": "druidcompanionsa27f.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Chimpanzee",
@@ -670,8 +626,6 @@
 	},
 	"cockroach,_giant": {
 		"name": "Cockroach, Giant",
-		"searchable_name": "Giant Cockroach",
-		"file": "druidcompanionsb307.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Cockroach, Giant",
@@ -691,8 +645,6 @@
 	"giant_cockroach": { "copyof": "cockroach,_giant" },
 	"corpse-eater_fungus": {
 		"name": "Corpse-Eater Fungus",
-		"searchable_name": "Corpse Eater Fungus",
-		"file": "druidcompanions3ad9.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Corpse-Eater Fungus",
@@ -709,8 +661,6 @@
 	},
 	"crab,_giant": {
 		"name": "Crab, Giant",
-		"searchable_name": "Giant Crab",
-		"file": "druidcompanions98a7.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"### Crab, Giant",
@@ -730,7 +680,6 @@
 	"giant_crab": { "copyof": "crab,_giant" },
 	"creeping_puffball": {
 		"name": "Creeping Puffball",
-		"file": "druidcompanions80ad.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Creeping Puffball",
@@ -747,8 +696,6 @@
 	},
 	"crocodile": {
 		"name": "Crocodile (Alligator)",
-		"searchable_name": "Crocodile",
-		"file": "druidcompanionsa3e2.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Crocodile (Alligator)",
@@ -768,7 +715,6 @@
 	"alligator": { "copyof": "crocodile" },
 	"dallo": {
 		"name": "Dallo",
-		"file": "druidcompanions2311.html",
 		"sources": [ "Pathfinder #118: Siege of Stone" ],
 		"description": [
 			"### Dallo",
@@ -787,7 +733,6 @@
 	},
 	"deinotherium": {
 		"name": "Deinotherium",
-		"file": "druidcompanions9aa6.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"### Deinotherium",
@@ -804,7 +749,6 @@
 	},
 	"devil_monkey": {
 		"name": "Devil Monkey",
-		"file": "druidcompanions529e.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"### Devil Monkey",
@@ -823,7 +767,6 @@
 	},
 	"digmaul": {
 		"name": "Digmaul",
-		"file": "druidcompanionsaeb6.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Digmaul",
@@ -842,7 +785,6 @@
 	},
 	"allosaurus": {
 		"name": "Allosaurus",
-		"file": "druidcompanions55f9.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"### Dinosaur (Allosaurus)",
@@ -861,7 +803,6 @@
 	},
 	"ankylosaurus": {
 		"name": "Ankylosaurus",
-		"file": "druidcompanionsfe59.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"### Dinosaur (Ankylosaurus)",
@@ -880,7 +821,6 @@
 	},
 	"brachiosaurus": {
 		"name": "Brachiosaurus",
-		"file": "druidcompanions5832.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"### Dinosaur (Brachiosaurus)",
@@ -899,7 +839,6 @@
 	},
 	"deinonychus": {
 		"name": "Deinonychus",
-		"file": "druidcompanions32df.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Dinosaur (Deinonychus)",
@@ -918,7 +857,6 @@
 	},
 	"dimetrodon": {
 		"name": "Dimetrodon",
-		"file": "druidcompanions38ab.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"### Dinosaur (Dimetrodon)",
@@ -937,7 +875,6 @@
 	},
 	"dimorphodon": {
 		"name": "Dimorphodon",
-		"file": "druidcompanionsd282.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Dinosaur (Dimorphodon)",
@@ -956,7 +893,6 @@
 	},
 	"diplodocus": {
 		"name": "Diplodocus",
-		"file": "druidcompanionsebc7.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Dinosaur (Diplodocus)",
@@ -975,7 +911,6 @@
 	},
 	"elasmosaurus": {
 		"name": "Elasmosaurus",
-		"file": "druidcompanionse838.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"### Dinosaur (Elasmosaurus)",
@@ -994,7 +929,6 @@
 	},
 	"iguanodon": {
 		"name": "Iguanodon",
-		"file": "druidcompanionsd3f4.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"### Dinosaur (Iguanodon)",
@@ -1013,7 +947,6 @@
 	},
 	"pachycephalosaurus": {
 		"name": "Pachycephalosaurus",
-		"file": "druidcompanions8997.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"### Dinosaur (Pachycephalosaurus)",
@@ -1032,7 +965,6 @@
 	},
 	"parasaurolophus": {
 		"name": "Parasaurolophus",
-		"file": "druidcompanions37dc.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"### Dinosaur (Parasaurolophus)",
@@ -1051,7 +983,6 @@
 	},
 	"pteranodon": {
 		"name": "Pteranodon",
-		"file": "druidcompanions7a29.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"### Dinosaur (Pteranodon)",
@@ -1070,7 +1001,6 @@
 	},
 	"spinosaurus": {
 		"name": "Spinosaurus",
-		"file": "druidcompanionse024.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"### Dinosaur (Spinosaurus)",
@@ -1089,7 +1019,6 @@
 	},
 	"stegosaurus": {
 		"name": "Stegosaurus",
-		"file": "druidcompanions2814.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"### Dinosaur (Stegosaurus)",
@@ -1108,7 +1037,6 @@
 	},
 	"styracosaurus": {
 		"name": "Styracosaurus",
-		"file": "druidcompanionsc75d.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Dinosaur (Styracosaurus)",
@@ -1127,7 +1055,6 @@
 	},
 	"triceratops": {
 		"name": "Triceratops",
-		"file": "druidcompanions2aa1.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"### Dinosaur (Triceratops)",
@@ -1146,7 +1073,6 @@
 	},
 	"tylosaurus": {
 		"name": "Tylosaurus",
-		"file": "druidcompanionsfd93.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"### Dinosaur (Tylosaurus)",
@@ -1165,7 +1091,6 @@
 	},
 	"tyrannosaurus": {
 		"name": "Tyrannosaurus",
-		"file": "druidcompanionscae9.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"### Dinosaur (Tyrannosaurus)",
@@ -1184,7 +1109,6 @@
 	},
 	"velociraptor": {
 		"name": "Velociraptor",
-		"file": "druidcompanionsc124.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Dinosaur (Velociraptor)",
@@ -1203,7 +1127,6 @@
 	},
 	"dire_bat": {
 		"name": "Dire Bat",
-		"file": "druidcompanions50de.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"### Dire Bat",
@@ -1222,7 +1145,6 @@
 	},
 	"dire_polar_bear": {
 		"name": "Dire Polar Bear",
-		"file": "druidcompanions4bb8.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Dire Polar Bear",
@@ -1241,7 +1163,6 @@
 	},
 	"dire_rat": {
 		"name": "Dire Rat",
-		"file": "druidcompanionsb84a.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"### Dire Rat",
@@ -1260,7 +1181,6 @@
 	},
 	"dog": {
 		"name": "Dog",
-		"file": "druidcompanions0af5.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Dog",
@@ -1279,7 +1199,6 @@
 	},
 	"dolphin": {
 		"name": "Dolphin",
-		"file": "druidcompanions18f4.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"### Dolphin",
@@ -1298,8 +1217,6 @@
 	},
 	"dragonfly,_giant": {
 		"name": "Dragonfly, Giant",
-		"searchable_name": "Giant Dragonfly",
-		"file": "druidcompanions2392.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Dragonfly, Giant",
@@ -1319,7 +1236,6 @@
 	"giant_dragonfly": { "copyof": "dragonfly,_giant" },
 	"dunkleosteus": {
 		"name": "Dunkleosteus",
-		"file": "druidcompanionsb290.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"### Dunkleosteus",
@@ -1338,7 +1254,6 @@
 	},
 	"elasmotherium": {
 		"name": "Elasmotherium",
-		"file": "druidcompanions1258.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"### Elasmotherium",
@@ -1355,7 +1270,6 @@
 	},
 	"electric_eel": {
 		"name": "Electric Eel",
-		"file": "druidcompanionsb17f.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"### Electric Eel",
@@ -1374,8 +1288,6 @@
 	},
 	"elephant_mastodon": {
 		"name": "Elephant/Mastodon",
-		"searchable_name": "Elephant or Mastodon",
-		"file": "druidcompanionsc89a.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"### Elephant/Mastodon",
@@ -1396,7 +1308,6 @@
 	"mastodon": { "copyof": "elephant_mastodon" },
 	"elk": {
 		"name": "Elk",
-		"file": "druidcompanionse519.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"### Elk",
@@ -1415,7 +1326,6 @@
 	},
 	"enchanter_heron": {
 		"name": "Enchanter Heron",
-		"file": "druidcompanionsfaf7.html",
 		"sources": [ "Pathfinder #121: The Lost Outpost" ],
 		"description": [
 			"### Enchanter Heron",
@@ -1434,7 +1344,6 @@
 	},
 	"eohippus": {
 		"name": "Eohippus",
-		"file": "druidcompanions8cfe.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Eohippus",
@@ -1451,7 +1360,6 @@
 	},
 	"eurypterid": {
 		"name": "Eurypterid",
-		"file": "druidcompanions5110.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Eurypterid",
@@ -1468,7 +1376,6 @@
 	},
 	"faerie_mount": {
 		"name": "Faerie Mount",
-		"file": "druidcompanions4f9c.html",
 		"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
 		"description": [
 			"### Faerie Mount",
@@ -1487,7 +1394,6 @@
 	},
 	"falcon": {
 		"name": "Falcon",
-		"file": "druidcompanions19a9.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Falcon",
@@ -1504,8 +1410,6 @@
 	},
 	"frilled_lizard,_giant": {
 		"name": "Frilled Lizard, Giant",
-		"searchable_name": "Giant Frilled Lizard",
-		"file": "druidcompanionsd83e.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Frilled Lizard, Giant",
@@ -1525,7 +1429,6 @@
 	"giant_frilled_lizard": { "copyof": "frilled_lizard,_giant" },
 	"frog_father": {
 		"name": "Frog Father",
-		"file": "druidcompanions3ccc.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Frog Father",
@@ -1544,7 +1447,6 @@
 	},
 	"frog": {
 		"name": "Frog",
-		"file": "druidcompanions85ed.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"### Frog",
@@ -1563,7 +1465,6 @@
 	},
 	"gallerok": {
 		"name": "Gallerok",
-		"file": "druidcompanions1347.html",
 		"sources": [ "Pathfinder #118: Siege of Stone" ],
 		"description": [
 			"### Gallerok",
@@ -1582,7 +1483,6 @@
 	},
 	"gar": {
 		"name": "Gar",
-		"file": "druidcompanions03ca.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"### Gar",
@@ -1601,7 +1501,6 @@
 	},
 	"giganotosaurus": {
 		"name": "Giganotosaurus",
-		"file": "druidcompanions2462.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"### Giganotosaurus",
@@ -1618,7 +1517,6 @@
 	},
 	"giraffe": {
 		"name": "Giraffe",
-		"file": "druidcompanions650a.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Giraffe",
@@ -1637,7 +1535,6 @@
 	},
 	"gliding_turtle": {
 		"name": "Gliding Turtle",
-		"file": "druidcompanionsa97b.html",
 		"sources": [ "Pathfinder #121: The Lost Outpost" ],
 		"description": [
 			"### Gliding Turtle",
@@ -1654,7 +1551,6 @@
 	},
 	"goblin_dog": {
 		"name": "Goblin Dog",
-		"file": "druidcompanions4336.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"### Goblin Dog",
@@ -1673,7 +1569,6 @@
 	},
 	"goliath_frog": {
 		"name": "Goliath Frog",
-		"file": "druidcompanionseab2.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Goliath Frog",
@@ -1692,7 +1587,6 @@
 	},
 	"gorthek": {
 		"name": "Gorthek",
-		"file": "druidcompanions950f.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"### Gorthek",
@@ -1711,7 +1605,6 @@
 	},
 	"griffon": {
 		"name": "Griffon",
-		"file": "druidcompanionsf1ab.html",
 		"sources": [ "Inner Sea Combat" ],
 		"languages": "Common (cannot speak)",
 		"description": [
@@ -1733,7 +1626,6 @@
 	},
 	"grizzly_bear": {
 		"name": "Grizzly Bear",
-		"file": "druidcompanionsf8c3.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Grizzly Bear",
@@ -1752,7 +1644,6 @@
 	},
 	"gulper_plant": {
 		"name": "Gulper Plant",
-		"file": "druidcompanionsbd3f.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Gulper Plant",
@@ -1769,7 +1660,6 @@
 	},
 	"hammerhead_shark": {
 		"name": "Hammerhead Shark",
-		"file": "druidcompanions8ce5.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Hammerhead Shark",
@@ -1788,7 +1678,6 @@
 	},
 	"hippocampus": {
 		"name": "Hippocampus",
-		"file": "druidcompanions8b54.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"### Hippocampus",
@@ -1807,7 +1696,6 @@
 	},
 	"hippogriff": {
 		"name": "Hippogriff",
-		"file": "druidcompanionsc82e.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"### Hippogriff",
@@ -1826,7 +1714,6 @@
 	},
 	"hippopotamus": {
 		"name": "Hippopotamus",
-		"file": "druidcompanionsf013.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"### Hippopotamus",
@@ -1845,7 +1732,6 @@
 	},
 	"hobbe_hound": {
 		"name": "Hobbe Hound",
-		"file": "druidcompanionsecdb.html",
 		"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
 		"description": [
 			"### Hobbe Hound",
@@ -1864,7 +1750,6 @@
 	},
 	"horse": {
 		"name": "Horse",
-		"file": "druidcompanions9d65.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Horse",
@@ -1883,7 +1768,6 @@
 	},
 	"hunting_cactus": {
 		"name": "Hunting Cactus",
-		"file": "druidcompanionsd7fa.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Hunting Cactus",
@@ -1900,7 +1784,6 @@
 	},
 	"hyena": {
 		"name": "Hyena",
-		"file": "druidcompanions52fb.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"### Hyena",
@@ -1917,7 +1800,6 @@
 	},
 	"impaler_shrike": {
 		"name": "Impaler Shrike",
-		"file": "druidcompanions6570.html",
 		"sources": [ "Pathfinder #97: In Hell's Bright Shadow" ],
 		"description": [
 			"### Impaler Shrike",
@@ -1936,7 +1818,6 @@
 	},
 	"kangaroo": {
 		"name": "Kangaroo",
-		"file": "druidcompanions789f.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"### Kangaroo",
@@ -1955,7 +1836,6 @@
 	},
 	"kaprosuchus": {
 		"name": "Kaprosuchus",
-		"file": "druidcompanionscbe1.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Kaprosuchus",
@@ -1972,7 +1852,6 @@
 	},
 	"kentrosaurus": {
 		"name": "Kentrosaurus",
-		"file": "druidcompanionse9c7.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"### Kentrosaurus",
@@ -1989,8 +1868,6 @@
 	},
 	"leech,_giant": {
 		"name": "Leech, Giant",
-		"searchable_name": "Giant Leech",
-		"file": "druidcompanions839a.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"### Leech, Giant",
@@ -2010,8 +1887,6 @@
 	"giant_leech": { "copyof": "leech,_giant" },
 	"lizard_giant_chameleon": {
 		"name": "Lizard (Giant Chameleon)",
-		"searchable_name": "Lizard Giant Chameleon",
-		"file": "druidcompanions0526.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"### Lizard (Giant Chameleon)",
@@ -2032,8 +1907,6 @@
 	"giant_gecko": { "copyof": "lizard_giant_gecko" },
 	"lizard_giant_gecko": {
 		"name": "Lizard (Giant Gecko)",
-		"searchable_name": "Lizard Giant Gecko",
-		"file": "druidcompanions5167.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"### Lizard (Giant Gecko)",
@@ -2052,8 +1925,6 @@
 	},
 	"lizard_monitor_lizard": {
 		"name": "Lizard (Monitor Lizard)",
-		"searchable_name": "Lizard Monitor Lizard",
-		"file": "druidcompanionsc868.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"### Lizard (Monitor Lizard)",
@@ -2073,7 +1944,6 @@
 	"monitor_lizard": { "copyof": "lizard_monitor_lizard" },
 	"llama": {
 		"name": "Llama",
-		"file": "druidcompanionsf9de.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Llama",
@@ -2092,8 +1962,6 @@
 	},
 	"locust,_giant": {
 		"name": "Locust, Giant",
-		"searchable_name": "Giant Locust",
-		"file": "druidcompanions0df2.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Locust, Giant",
@@ -2113,7 +1981,6 @@
 	"giant_locust": { "copyof": "locust,_giant" },
 	"manta_ray": {
 		"name": "Manta Ray",
-		"file": "druidcompanionsa02c.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"### Manta Ray",
@@ -2132,8 +1999,6 @@
 	},
 	"mantis_shrimp,_giant": {
 		"name": "Mantis Shrimp, Giant",
-		"searchable_name": "Giant Mantis Shrimp",
-		"file": "druidcompanions3a2e.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Mantis Shrimp, Giant",
@@ -2153,8 +2018,6 @@
 	"giant_mantis_shrimp": { "copyof": "mantis_shrimp,_giant" },
 	"mantis,_giant": {
 		"name": "Mantis, Giant",
-		"searchable_name": "Giant Mantis",
-		"file": "druidcompanions1d5b.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"### Mantis, Giant",
@@ -2174,7 +2037,6 @@
 	"giant_mantis": { "copyof": "mantis,_giant" },
 	"marax": {
 		"name": "Marax",
-		"file": "druidcompanionsa33c.html",
 		"sources": [ "Pathfinder #90: The Divinity Drive" ],
 		"description": [
 			"### Marax",
@@ -2193,7 +2055,6 @@
 	},
 	"marsupial_devil": {
 		"name": "Marsupial Devil",
-		"file": "druidcompanions94b2.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Marsupial Devil",
@@ -2210,7 +2071,6 @@
 	},
 	"marsupial_lion": {
 		"name": "Marsupial Lion",
-		"file": "druidcompanions4903.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Marsupial Lion",
@@ -2227,7 +2087,6 @@
 	},
 	"archelon": {
 		"name": "Archelon",
-		"file": "druidcompanions440a.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"### Megafauna (Archelon)",
@@ -2246,7 +2105,6 @@
 	},
 	"arsinoitherium": {
 		"name": "Arsinoitherium",
-		"file": "druidcompanions44f8.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"### Megafauna (Arsinoitherium)",
@@ -2265,7 +2123,6 @@
 	},
 	"baluchitherium": {
 		"name": "Baluchitherium",
-		"file": "druidcompanions475c.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"### Megafauna (Baluchitherium)",
@@ -2284,7 +2141,6 @@
 	},
 	"basilosaurus": {
 		"name": "Basilosaurus",
-		"file": "druidcompanions85a5.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"### Megafauna (Basilosaurus)",
@@ -2303,7 +2159,6 @@
 	},
 	"chalicotherium_2": {
 		"name": "Chalicotherium",
-		"file": "druidcompanionsc919.html",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
 		"description": [
 			"### Megafauna (Chalicotherium)",
@@ -2322,7 +2177,6 @@
 	},
 	"deinotherium_2": {
 		"name": "Deinotherium",
-		"file": "druidcompanions3679.html",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
 		"description": [
 			"### Megafauna (Deinotherium)",
@@ -2341,7 +2195,6 @@
 	},
 	"embolotherium": {
 		"name": "Embolotherium",
-		"file": "druidcompanions0a5f.html",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
 		"description": [
 			"### Megafauna (Embolotherium)",
@@ -2360,7 +2213,6 @@
 	},
 	"glyptodon": {
 		"name": "Glyptodon",
-		"file": "druidcompanionse2b7.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"### Megafauna (Glyptodon)",
@@ -2377,7 +2229,6 @@
 	},
 	"megalania": {
 		"name": "Megalania",
-		"file": "druidcompanions3dbd.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"### Megafauna (Megalania)",
@@ -2396,7 +2247,6 @@
 	},
 	"megaloceros": {
 		"name": "Megaloceros",
-		"file": "druidcompanionsa13e.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"### Megafauna (Megaloceros)",
@@ -2415,7 +2265,6 @@
 	},
 	"megatherium": {
 		"name": "Megatherium",
-		"file": "druidcompanions2978.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"### Megafauna (Megatherium)",
@@ -2434,7 +2283,6 @@
 	},
 	"megaprimatus": {
 		"name": "Megaprimatus",
-		"file": "druidcompanionse159.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Megaprimatus",
@@ -2451,7 +2299,6 @@
 	},
 	"mindspin_ram": {
 		"name": "Mindspin Ram",
-		"file": "druidcompanions7604.html",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
 		"description": [
 			"### Mindspin Ram",
@@ -2470,7 +2317,6 @@
 	},
 	"moa": {
 		"name": "Moa",
-		"file": "druidcompanions2a6b.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Moa",
@@ -2487,8 +2333,6 @@
 	},
 	"mokele-mbembe": {
 		"name": "Mokele-Mbembe",
-		"searchable_name": "Mokele Mbembe",
-		"file": "druidcompanionsbbe2.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"### Mokele-Mbembe",
@@ -2507,8 +2351,6 @@
 	},
 	"mole,_giant": {
 		"name": "Mole, Giant",
-		"searchable_name": "Giant Mole",
-		"file": "druidcompanions3457.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Mole, Giant",
@@ -2526,7 +2368,6 @@
 	"giant_mole": { "copyof": "mole,_giant" },
 	"mome_rath": {
 		"name": "Mome Rath",
-		"file": "druidcompanions7d7c.html",
 		"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
 		"description": [
 			"### Mome Rath",
@@ -2545,7 +2386,6 @@
 	},
 	"moose": {
 		"name": "Moose",
-		"file": "druidcompanions7717.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Moose",
@@ -2564,7 +2404,6 @@
 	},
 	"moray_eel": {
 		"name": "Moray Eel",
-		"file": "druidcompanionsd567.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"### Moray Eel",
@@ -2584,8 +2423,6 @@
 	"giant_moray_eel": { "copyof": "moray_eel" },
 	"mosquito,_giant": {
 		"name": "Mosquito, Giant",
-		"searchable_name": "Giant Mosquito",
-		"file": "druidcompanionsd242.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Mosquito, Giant",
@@ -2605,7 +2442,6 @@
 	"giant_mosquito": { "copyof": "mosquito,_giant" },
 	"narwhal": {
 		"name": "Narwhal",
-		"file": "druidcompanions552f.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Narwhal",
@@ -2624,7 +2460,6 @@
 	},
 	"octopus": {
 		"name": "Octopus",
-		"file": "druidcompanionsd7f0.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"### Octopus",
@@ -2643,7 +2478,6 @@
 	},
 	"orca": {
 		"name": "Orca",
-		"file": "druidcompanionsa77d.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"### Orca",
@@ -2660,7 +2494,6 @@
 	},
 	"ornithomimosaur": {
 		"name": "Ornithomimosaur",
-		"file": "druidcompanions85d4.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Ornithomimosaur",
@@ -2677,7 +2510,6 @@
 	},
 	"ostrich": {
 		"name": "Ostrich",
-		"file": "druidcompanionsffba.html",
 		"sources": [ "Osirion, Legacy of the Pharaohs" ],
 		"description": [
 			"### Ostrich",
@@ -2696,8 +2528,6 @@
 	},
 	"owl,_giant": {
 		"name": "Owl, Giant",
-		"searchable_name": "Giant Owl",
-		"file": "druidcompanionsbce2.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Owl, Giant",
@@ -2717,7 +2547,6 @@
 	"giant_owl": { "copyof": "owl,_giant" },
 	"panda": {
 		"name": "Panda",
-		"file": "druidcompanions4088.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Panda",
@@ -2736,7 +2565,6 @@
 	},
 	"pilo": {
 		"name": "Pilo",
-		"file": "druidcompanions8e8f.html",
 		"sources": [ "Pathfinder #85: Fires of Creation" ],
 		"description": [
 			"### Pilo",
@@ -2755,7 +2583,6 @@
 	},
 	"pleiosaurus": {
 		"name": "Pleiosaurus",
-		"file": "druidcompanions8a9a.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Pleiosaurus",
@@ -2772,7 +2599,6 @@
 	},
 	"polar_bear": {
 		"name": "Polar Bear",
-		"file": "druidcompanions9f63.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Polar Bear",
@@ -2791,7 +2617,6 @@
 	},
 	"pony": {
 		"name": "Pony",
-		"file": "druidcompanions59b4.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Pony",
@@ -2810,8 +2635,6 @@
 	},
 	"porcupine,_giant": {
 		"name": "Porcupine, Giant",
-		"searchable_name": "Giant Porcupine",
-		"file": "druidcompanions5072.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Porcupine, Giant",
@@ -2831,7 +2654,6 @@
 	"giant_porcupine": { "copyof": "porcupine,_giant" },
 	"prionosuchus": {
 		"name": "Prionosuchus",
-		"file": "druidcompanions2780.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Prionosuchus",
@@ -2848,7 +2670,6 @@
 	},
 	"dimorphodon_2": {
 		"name": "Dimorphodon",
-		"file": "druidcompanions3fcb.html",
 		"sources": [ "Pathfinder #37: Souls for Smuggler's Shiv" ],
 		"description": [
 			"### Pterosaur (Dimorphodon)",
@@ -2867,7 +2688,6 @@
 	},
 	"quetzalcoatlus": {
 		"name": "Quetzalcoatlus",
-		"file": "druidcompanionsf1b0.html",
 		"sources": [ "Pathfinder #37: Souls for Smuggler's Shiv" ],
 		"description": [
 			"### Pterosaur (Quetzalcoatlus)",
@@ -2886,7 +2706,6 @@
 	},
 	"pygmy_hippopotamus": {
 		"name": "Pygmy Hippopotamus",
-		"file": "druidcompanionsfe43.html",
 		"sources": [ "Heart of the Jungle" ],
 		"description": [
 			"### Pygmy Hippopotamus",
@@ -2905,7 +2724,6 @@
 	},
 	"quetzalcoatlus_2": {
 		"name": "Quetzalcoatlus",
-		"file": "druidcompanions5c76.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"### Quetzalcoatlus",
@@ -2922,7 +2740,6 @@
 	},
 	"ram": {
 		"name": "Ram",
-		"file": "druidcompanions0901.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"### Ram",
@@ -2941,7 +2758,6 @@
 	},
 	"rash_creeper": {
 		"name": "Rash Creeper",
-		"file": "druidcompanions5204.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Rash Creeper",
@@ -2958,8 +2774,6 @@
 	},
 	"raven,_giant": {
 		"name": "Raven, Giant",
-		"searchable_name": "Giant Raven",
-		"file": "druidcompanions37cf.html",
 		"sources": [
 			"Pathfinder #97: In Hell's Bright Shadow",
 			"Bestiary 6"
@@ -2982,7 +2796,6 @@
 	"giant_raven": { "copyof": "raven,_giant" },
 	"reef_snake": {
 		"name": "Reef Snake",
-		"file": "druidcompanions9a63.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Reef Snake",
@@ -2999,7 +2812,6 @@
 	},
 	"reindeer": {
 		"name": "Reindeer",
-		"file": "druidcompanions2bc5.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Reindeer",
@@ -3016,7 +2828,6 @@
 	},
 	"rhinoceros": {
 		"name": "Rhinoceros",
-		"file": "druidcompanionsa955.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"### Rhinoceros",
@@ -3035,7 +2846,6 @@
 	},
 	"riding_python": {
 		"name": "Riding Python",
-		"file": "druidcompanionsc4be.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"### Riding Python",
@@ -3054,7 +2864,6 @@
 	},
 	"riding_rat": {
 		"name": "Riding Rat",
-		"file": "druidcompanions9a59.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"### Riding Rat",
@@ -3073,7 +2882,6 @@
 	},
 	"ringhorn": {
 		"name": "Ringhorn",
-		"file": "druidcompanionsf2a5.html",
 		"sources": [ "Pathfinder #115: Trail of the Hunted" ],
 		"description": [
 			"### Ringhorn",
@@ -3092,7 +2900,6 @@
 	},
 	"roc": {
 		"name": "Roc",
-		"file": "druidcompanionsf13a.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"### Roc",
@@ -3111,8 +2918,6 @@
 	},
 	"saber-toothed_cat": {
 		"name": "Saber-Toothed Cat",
-		"searchable_name": "Saber Toothed Cat",
-		"file": "druidcompanionse0fb.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Saber-Toothed Cat",
@@ -3129,8 +2934,6 @@
 	},
 	"salamander,_giant": {
 		"name": "Salamander, Giant",
-		"searchable_name": "Giant Salamander",
-		"file": "druidcompanions9f00.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Salamander, Giant",
@@ -3148,8 +2951,6 @@
 	"giant_salamander": { "copyof": "salamander,_giant" },
 	"scorpion,_giant": {
 		"name": "Scorpion, Giant",
-		"searchable_name": "Giant Scorpion",
-		"file": "druidcompanionsaed1.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"### Scorpion, Giant",
@@ -3169,7 +2970,6 @@
 	"giant_scorpion": { "copyof": "scorpion,_giant" },
 	"sea_crawler": {
 		"name": "Sea Crawler",
-		"file": "druidcompanions7071.html",
 		"sources": [ "Pathfinder #121: The Lost Outpost" ],
 		"description": [
 			"### Sea Crawler",
@@ -3188,8 +2988,6 @@
 	},
 	"seahorse,_giant": {
 		"name": "Seahorse, Giant",
-		"searchable_name": "Giant Seahorse",
-		"file": "druidcompanionsfdfa.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Seahorse, Giant",
@@ -3209,7 +3007,6 @@
 	"giant_seahorse": { "copyof": "seahorse,_giant" },
 	"shark": {
 		"name": "Shark",
-		"file": "druidcompanionsfeed.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Shark",
@@ -3228,7 +3025,6 @@
 	},
 	"shissah": {
 		"name": "Shissah",
-		"file": "druidcompanions5eb9.html",
 		"sources": [ "Qadira, Jewel of the East" ],
 		"description": [
 			"### Shissah",
@@ -3247,7 +3043,6 @@
 	},
 	"skittergoat": {
 		"name": "Skittergoat",
-		"file": "druidcompanionsb78a.html",
 		"sources": [ "Pathfinder #91: Battle of Bloodmarch Hills" ],
 		"description": [
 			"### Skittergoat",
@@ -3266,8 +3061,6 @@
 	},
 	"skunk,_giant": {
 		"name": "Skunk, Giant",
-		"searchable_name": "Giant Skunk",
-		"file": "druidcompanions4cb7.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Skunk, Giant",
@@ -3287,7 +3080,6 @@
 	"giant_skunk": { "copyof": "skunk,_giant" },
 	"slithering_sundew": {
 		"name": "Slithering Sundew",
-		"file": "druidcompanionscb21.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Slithering Sundew",
@@ -3304,8 +3096,6 @@
 	},
 	"slug,_giant": {
 		"name": "Slug, Giant",
-		"searchable_name": "Giant Slug",
-		"file": "druidcompanionsccb0.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"### Slug, Giant",
@@ -3325,8 +3115,6 @@
 	"giant_slug": { "copyof": "slug,_giant" },
 	"snake,_constrictor": {
 		"name": "Snake, Constrictor",
-		"searchable_name": "Constrictor Snake",
-		"file": "druidcompanions9f03.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Snake, Constrictor",
@@ -3346,8 +3134,6 @@
 	"constrictor_snake": { "copyof": "snake,_constrictor" },
 	"snake,_viper": {
 		"name": "Snake, Viper",
-		"searchable_name": "Viper",
-		"file": "druidcompanions0ccf.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Snake, Viper",
@@ -3367,7 +3153,6 @@
 	"viper": { "copyof": "snake,_viper" },
 	"snapping_flytrap": {
 		"name": "Snapping Flytrap",
-		"file": "druidcompanions8ff8.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Snapping Flytrap",
@@ -3384,7 +3169,6 @@
 	},
 	"sniper_cactus": {
 		"name": "Sniper Cactus",
-		"file": "druidcompanions0e50.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Sniper Cactus",
@@ -3401,8 +3185,6 @@
 	},
 	"solifugid,_giant": {
 		"name": "Solifugid, Giant",
-		"searchable_name": "Giant Solifugid",
-		"file": "druidcompanionsece4.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Solifugid, Giant",
@@ -3422,7 +3204,6 @@
 	"giant_solifugid": { "copyof": "solifugid,_giant" },
 	"sorico": {
 		"name": "Sorico",
-		"file": "druidcompanionsaffc.html",
 		"sources": [ "Pathfinder #85: Fires of Creation" ],
 		"description": [
 			"### Sorico",
@@ -3441,8 +3222,6 @@
 	},
 	"spider,_giant": {
 		"name": "Spider, Giant",
-		"searchable_name": "Giant Spider",
-		"file": "druidcompanionsb01b.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"### Spider, Giant",
@@ -3462,8 +3241,6 @@
 	"giant_spider": { "copyof": "spider,_giant" },
 	"spider,_web_tyrant": {
 		"name": "Spider, Web Tyrant",
-		"searchable_name": "Web Tyrant Spider",
-		"file": "druidcompanionsdd1f.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Spider, Web Tyrant",
@@ -3480,7 +3257,6 @@
 	},
 	"spitting_cobra": {
 		"name": "Spitting Cobra",
-		"file": "druidcompanions1400.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Spitting Cobra",
@@ -3497,7 +3273,6 @@
 	},
 	"squid": {
 		"name": "Squid",
-		"file": "druidcompanionsc59b.html",
 		"sources": [ "Pathfinder RPG Bestiary" ],
 		"description": [
 			"### Squid",
@@ -3516,8 +3291,6 @@
 	},
 	"squid,_giant": {
 		"name": "Squid, Giant",
-		"searchable_name": "Giant Squid",
-		"file": "druidcompanionse1cf.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Squid, Giant",
@@ -3537,7 +3310,6 @@
 	"giant_squid": { "copyof": "squid,_giant" },
 	"stag": {
 		"name": "Stag",
-		"file": "druidcompanions0df8.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Stag",
@@ -3556,7 +3328,6 @@
 	},
 	"stingray": {
 		"name": "Stingray",
-		"file": "druidcompanionsec65.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"### Stingray",
@@ -3575,8 +3346,6 @@
 	},
 	"swan,_trumpeter": {
 		"name": "Swan, Trumpeter",
-		"searchable_name": "Trumpeter Swan",
-		"file": "druidcompanionsc233.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Swan, Trumpeter",
@@ -3596,7 +3365,6 @@
 	"trumpeter_swan": { "copyof": "swan,_trumpeter" },
 	"switchback_jackal": {
 		"name": "Switchback Jackal",
-		"file": "druidcompanions200c.html",
 		"sources": [ "Pathfinder #115: Trail of the Hunted" ],
 		"description": [
 			"### Switchback Jackal",
@@ -3615,8 +3383,6 @@
 	},
 	"termite,_giant": {
 		"name": "Termite, Giant",
-		"searchable_name": "Giant Termite",
-		"file": "druidcompanions28fe.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Termite, Giant",
@@ -3636,7 +3402,6 @@
 	"giant_termite": { "copyof": "termite,_giant" },
 	"therizinosaurus": {
 		"name": "Therizinosaurus",
-		"file": "druidcompanions507e.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Therizinosaurus",
@@ -3653,7 +3418,6 @@
 	},
 	"thylacine": {
 		"name": "Thylacine",
-		"file": "druidcompanionsf73c.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"### Thylacine",
@@ -3672,7 +3436,6 @@
 	},
 	"titanoboa": {
 		"name": "Titanoboa",
-		"file": "druidcompanions75ff.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"### Titanoboa",
@@ -3689,8 +3452,6 @@
 	},
 	"tortoise,_giant": {
 		"name": "Tortoise, Giant",
-		"searchable_name": "Giant Tortoise",
-		"file": "druidcompanions8e00.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Tortoise, Giant",
@@ -3710,7 +3471,6 @@
 	"giant_tortoise": { "copyof": "tortoise,_giant" },
 	"troodon": {
 		"name": "Troodon",
-		"file": "druidcompanionsd950.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Troodon",
@@ -3727,8 +3487,6 @@
 	},
 	"turtle,_giant_snapping": {
 		"name": "Turtle, Giant Snapping",
-		"searchable_name": "Giant Snapping Turtle",
-		"file": "druidcompanions88b1.html",
 		"sources": [ "Bestiary 2" ],
 		"description": [
 			"### Turtle, Giant Snapping",
@@ -3748,7 +3506,6 @@
 	"giant_snapping_turtle": { "copyof": "turtle,_giant_snapping" },
 	"uintatherium": {
 		"name": "Uintatherium",
-		"file": "druidcompanionsbe05.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Uintatherium",
@@ -3765,8 +3522,6 @@
 	},
 	"vulture,_giant": {
 		"name": "Vulture, Giant",
-		"searchable_name": "Giant Vulture",
-		"file": "druidcompanions6a2b.html",
 		"sources": [ "Bestiary 3" ],
 		"description": [
 			"### Vulture, Giant",
@@ -3786,7 +3541,6 @@
 	"giant_vulture": { "copyof": "vulture,_giant" },
 	"walrus": {
 		"name": "Walrus",
-		"file": "druidcompanions9889.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Walrus",
@@ -3803,7 +3557,6 @@
 	},
 	"warcat_of_rull": {
 		"name": "Warcat of Rull",
-		"file": "druidcompanionsd0e6.html",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"### Warcat of Rull",
@@ -3822,8 +3575,6 @@
 	},
 	"wasp,_giant": {
 		"name": "Wasp, Giant",
-		"searchable_name": "Giant Wasp",
-		"file": "druidcompanionsa68f.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"### Wasp, Giant",
@@ -3843,8 +3594,6 @@
 	"giant_wasp": { "copyof": "wasp,_giant" },
 	"weasel,_giant": {
 		"name": "Weasel, Giant",
-		"searchable_name": "Giant Weasel",
-		"file": "druidcompanionsc12b.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"### Weasel, Giant",
@@ -3864,8 +3613,6 @@
 	"giant_weasel": { "copyof": "weasel,_giant" },
 	"whiptail_centipede,_giant": {
 		"name": "Whiptail Centipede, Giant",
-		"searchable_name": "Giant Whiptail Centipede",
-		"file": "druidcompanions819e.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Whiptail Centipede, Giant",
@@ -3885,7 +3632,6 @@
 	"giant_whiptail_centipede": { "copyof": "whiptail_centipede,_giant" },
 	"whisperfall_vulture": {
 		"name": "Whisperfall Vulture",
-		"file": "druidcompanions460f.html",
 		"sources": [ "Belkzen, Hold of the Orc Hordes" ],
 		"description": [
 			"### Whisperfall Vulture",
@@ -3904,7 +3650,6 @@
 	},
 	"wolf": {
 		"name": "Wolf",
-		"file": "druidcompanions53e5.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"### Wolf",
@@ -3923,7 +3668,6 @@
 	},
 	"wolfdog": {
 		"name": "Wolfdog",
-		"file": "druidcompanions39a6.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Wolfdog",
@@ -3940,7 +3684,6 @@
 	},
 	"wolliped": {
 		"name": "Wolliped",
-		"file": "druidcompanionsc221.html",
 		"sources": [ "Bestiary 5" ],
 		"description": [
 			"### Wolliped",
@@ -3959,7 +3702,6 @@
 	},
 	"worg": {
 		"name": "Worg",
-		"file": "druidcompanionscd53.html",
 		"sources": [ "Inner Sea Combat" ],
 		"languages": "Common, Goblin",
 		"description": [
@@ -3981,7 +3723,6 @@
 	},
 	"yak": {
 		"name": "Yak",
-		"file": "druidcompanionsd2b6.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Yak",
@@ -3998,7 +3739,6 @@
 	},
 	"yolubilis_heron": {
 		"name": "Yolubilis Heron",
-		"file": "druidcompanions5d1c.html",
 		"sources": [ "Pathfinder #97: In Hell's Bright Shadow" ],
 		"description": [
 			"### Yolubilis Heron",
@@ -4017,7 +3757,6 @@
 	},
 	"yzobu": {
 		"name": "Yzobu",
-		"file": "druidcompanions8a84.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"### Yzobu",
@@ -4036,7 +3775,6 @@
 	},
 	"zebra": {
 		"name": "Zebra",
-		"file": "druidcompanions2c59.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"### Zebra",

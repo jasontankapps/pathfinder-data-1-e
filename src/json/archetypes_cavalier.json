@@ -2,7 +2,6 @@
 	"_prefix": "archetype-cavalier",
 	"beast_rider": {
 		"name": "Beast Rider",
-		"file": "archetypedisplay314f.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Beast Rider",
@@ -32,7 +31,6 @@
 	},
 	"castellan": {
 		"name": "Castellan",
-		"file": "archetypedisplaye95d.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"description": [
 			"## Castellan",
@@ -56,7 +54,6 @@
 	},
 	"charger": {
 		"name": "Charger",
-		"file": "archetypedisplay8d73.html",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"## Charger",
@@ -82,7 +79,6 @@
 	},
 	"circuit_judge": {
 		"name": "Circuit Judge",
-		"file": "archetypedisplay7ba0.html",
 		"sources": [ "Path of the Hellknight" ],
 		"description": [
 			"## Circuit Judge",
@@ -114,7 +110,6 @@
 	},
 	"constable": {
 		"name": "Constable",
-		"file": "archetypedisplay9a77.html",
 		"sources": [ "Heroes of the Streets" ],
 		"description": [
 			"## Constable",
@@ -140,7 +135,6 @@
 	},
 	"courtly_knight": {
 		"name": "Courtly Knight",
-		"file": "archetypedisplay7122.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Courtly Knight",
@@ -164,7 +158,6 @@
 	},
 	"daring_champion": {
 		"name": "Daring Champion",
-		"file": "archetypedisplayda1d.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Daring Champion",
@@ -188,7 +181,6 @@
 	},
 	"daring_general": {
 		"name": "Daring General",
-		"file": "archetypedisplay3a4f.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Daring General",
@@ -226,7 +218,6 @@
 	},
 	"disciple_of_the_pike": {
 		"name": "Disciple of the Pike",
-		"file": "archetypedisplayc83c.html",
 		"sources": [ "Monster Hunter's Handbook" ],
 		"description": [
 			"## Disciple of the Pike",
@@ -262,7 +253,6 @@
 	},
 	"drakerider": {
 		"name": "Drakerider",
-		"file": "archetypedisplaya383.html",
 		"sources": [ "Legacy of Dragons" ],
 		"description": [
 			"## Drakerider",
@@ -280,7 +270,6 @@
 	},
 	"emissary": {
 		"name": "Emissary",
-		"file": "archetypedisplay8414.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Emissary",
@@ -306,7 +295,6 @@
 	},
 	"esquire": {
 		"name": "Esquire",
-		"file": "archetypedisplay8e20.html",
 		"sources": [ "Cohorts and Companions" ],
 		"description": [
 			"## Esquire",
@@ -336,7 +324,6 @@
 	},
 	"fell_rider": {
 		"name": "Fell Rider",
-		"file": "archetypedisplay7a5d.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Fell Rider",
@@ -362,7 +349,6 @@
 	},
 	"first_mother's_fang": {
 		"name": "First Mother's Fang",
-		"file": "archetypedisplay2798.html",
 		"sources": [ "Blood of the Beast" ],
 		"description": [
 			"## First Mother's Fang",
@@ -392,7 +378,6 @@
 	},
 	"gallant": {
 		"name": "Gallant",
-		"file": "archetypedisplay93c7.html",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [
 			"## Gallant",
@@ -416,7 +401,6 @@
 	},
 	"gendarme": {
 		"name": "Gendarme",
-		"file": "archetypedisplayba09.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Gendarme",
@@ -432,7 +416,6 @@
 	},
 	"ghost_rider": {
 		"name": "Ghost Rider",
-		"file": "archetypedisplay4235.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Ghost Rider",
@@ -464,7 +447,6 @@
 	},
 	"green_knight": {
 		"name": "Green Knight",
-		"file": "archetypedisplayd986.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Green Knight",
@@ -512,7 +494,6 @@
 	},
 	"herald_squire": {
 		"name": "Herald Squire",
-		"file": "archetypedisplay5258.html",
 		"sources": [ "Knights of the Inner Sea" ],
 		"description": [
 			"## Herald Squire",
@@ -530,7 +511,6 @@
 	},
 	"honor_guard": {
 		"name": "Honor Guard",
-		"file": "archetypedisplay74fd.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Honor Guard",
@@ -550,7 +530,6 @@
 	},
 	"hooded_knight": {
 		"name": "Hooded Knight",
-		"file": "archetypedisplay8ea2.html",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"## Hooded Knight",
@@ -584,7 +563,6 @@
 	},
 	"huntmaster": {
 		"name": "Huntmaster",
-		"file": "archetypedisplay54d0.html",
 		"sources": [ "Animal Archive" ],
 		"description": [
 			"## Huntmaster",
@@ -624,7 +602,6 @@
 	},
 	"hussar": {
 		"name": "Hussar",
-		"file": "archetypedisplay0b08.html",
 		"sources": [],
 		"description": [
 			"## Hussar",
@@ -658,7 +635,6 @@
 	},
 	"knight_of_arnisant": {
 		"name": "Knight of Arnisant",
-		"file": "archetypedisplaya3d4.html",
 		"sources": [ "Armor Master's Handbook" ],
 		"description": [
 			"## Knight of Arnisant",
@@ -694,7 +670,6 @@
 	},
 	"luring_cavalier": {
 		"name": "Luring Cavalier",
-		"file": "archetypedisplay0d3e.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Luring Cavalier",
@@ -722,7 +697,6 @@
 	},
 	"musketeer": {
 		"name": "Musketeer",
-		"file": "archetypedisplay2893.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Musketeer",
@@ -748,7 +722,6 @@
 	},
 	"oceanrider": {
 		"name": "Oceanrider",
-		"file": "archetypedisplay9cab.html",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Oceanrider",
@@ -768,7 +741,6 @@
 	},
 	"qabarat_outrider": {
 		"name": "Qabarat Outrider",
-		"file": "archetypedisplaye409.html",
 		"sources": [ "People of the Stars" ],
 		"description": [
 			"## Qabarat Outrider",
@@ -798,7 +770,6 @@
 	},
 	"qadiran_horselord": {
 		"name": "Qadiran Horselord",
-		"file": "archetypedisplaye2d5.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Inner Sea Combat"
@@ -841,7 +812,6 @@
 	},
 	"saurian_champion": {
 		"name": "Saurian Champion",
-		"file": "archetypedisplayef03.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Saurian Champion",
@@ -889,7 +859,6 @@
 	},
 	"sister-in-arms": {
 		"name": "Sister-in-Arms",
-		"file": "archetypedisplay6181.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Sister-in-Arms",
@@ -927,7 +896,6 @@
 	},
 	"spellscar_drifter": {
 		"name": "Spellscar Drifter",
-		"file": "archetypedisplay260c.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Spellscar Drifter",
@@ -961,7 +929,6 @@
 	},
 	"standard_bearer": {
 		"name": "Standard Bearer",
-		"file": "archetypedisplaydcc5.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Standard Bearer",
@@ -981,7 +948,6 @@
 	},
 	"strategist": {
 		"name": "Strategist",
-		"file": "archetypedisplay5141.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Strategist",
@@ -1001,7 +967,6 @@
 	},
 	"verdivant": {
 		"name": "Verdivant",
-		"file": "archetypedisplayf59c.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Verdivant",
@@ -1055,7 +1020,6 @@
 	},
 	"vermin_tamer": {
 		"name": "Vermin Tamer",
-		"file": "archetypedisplay1c49.html",
 		"sources": [ "Heroes of the Darklands" ],
 		"description": [
 			"## Vermin Tamer",
@@ -1081,7 +1045,6 @@
 	},
 	"wave_rider": {
 		"name": "Wave Rider",
-		"file": "archetypedisplay96a6.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Wave Rider",

@@ -1,7 +1,6 @@
 {
 	"acrobatics": {
 		"name": "Acrobatics",
-		"file": "skillsc087.html",
 		"sources": [
 			"Pathfinder Unchained",
 			"PRPG Core Rulebook"
@@ -90,7 +89,6 @@
 	},
 	"appraise": {
 		"name": "Appraise",
-		"file": "skills18ed.html",
 		"sources": [
 			"Occult Adventures",
 			"Pathfinder Unchained",
@@ -145,7 +143,6 @@
 	},
 	"artistry_any": {
 		"name": "Artistry (any)",
-		"file": "skillArtistry.html",
 		"sources": [
 			"Pathfinder Unchained"
 		],
@@ -205,7 +202,6 @@
 	},
 	"bluff": {
 		"name": "Bluff",
-		"file": "skills2a30.html",
 		"sources": [
 			"Pathfinder Unchained",
 			"PRPG Core Rulebook",
@@ -274,7 +270,6 @@
 	},
 	"climb": {
 		"name": "Climb",
-		"file": "skills3343.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Pathfinder Unchained"
@@ -344,7 +339,6 @@
 	},
 	"craft_any": {
 		"name": "Craft (any)",
-		"file": "skills097e.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Combat",
@@ -497,7 +491,6 @@
 	},
 	"diplomacy": {
 		"name": "Diplomacy",
-		"file": "skills0f34.html",
 		"sources": [
 			"GameMastery Guide",
 			"PRPG Core Rulebook",
@@ -594,7 +587,6 @@
 	},
 	"disable_device": {
 		"name": "Disable Device",
-		"file": "skills77c6.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Technology Guide",
@@ -675,7 +667,6 @@
 	},
 	"disguise": {
 		"name": "Disguise",
-		"file": "skillsa363.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Pathfinder Unchained"
@@ -742,7 +733,6 @@
 	},
 	"escape_artist": {
 		"name": "Escape Artist",
-		"file": "skillsd16a.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Pathfinder Unchained"
@@ -796,7 +786,6 @@
 	},
 	"fly": {
 		"name": "Fly",
-		"file": "skills7085.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Pathfinder Unchained"
@@ -866,7 +855,6 @@
 	},
 	"handle_animal": {
 		"name": "Handle Animal",
-		"file": "skills311e.html",
 		"sources": [
 			"Animal Archive",
 			"PRPG Core Rulebook",
@@ -1104,7 +1092,6 @@
 	},
 	"heal": {
 		"name": "Heal",
-		"file": "skillsda83.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Wilderness",
@@ -1222,7 +1209,6 @@
 	},
 	"intimidate": {
 		"name": "Intimidate",
-		"file": "skills9d0b.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Pathfinder Unchained",
@@ -1280,7 +1266,6 @@
 	},
 	"knowledge_arcana": {
 		"name": "Knowledge (arcana)",
-		"file": "skillsf339.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Occult Adventures",
@@ -1395,7 +1380,6 @@
 	},
 	"knowledge_dungeoneering": {
 		"name": "Knowledge (dungeoneering)",
-		"file": "skillsf339.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Occult Adventures",
@@ -1460,7 +1444,6 @@
 	},
 	"knowledge_engineering": {
 		"name": "Knowledge (engineering)",
-		"file": "skillsf339.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Occult Adventures",
@@ -1531,7 +1514,6 @@
 	},
 	"knowledge_geography": {
 		"name": "Knowledge (geography)",
-		"file": "skillsf339.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Occult Adventures",
@@ -1602,7 +1584,6 @@
 	},
 	"knowledge_history": {
 		"name": "Knowledge (history)",
-		"file": "skillsf339.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Occult Adventures",
@@ -1665,7 +1646,6 @@
 	},
 	"knowledge_local": {
 		"name": "Knowledge (local)",
-		"file": "skillsf339.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Occult Adventures",
@@ -1747,7 +1727,6 @@
 	},
 	"knowledge_nature": {
 		"name": "Knowledge (nature)",
-		"file": "skillsf339.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Occult Adventures",
@@ -1828,7 +1807,6 @@
 	},
 	"knowledge_nobility": {
 		"name": "Knowledge (nobility)",
-		"file": "skillsf339.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Occult Adventures",
@@ -1905,7 +1883,6 @@
 	},
 	"knowledge_planes": {
 		"name": "Knowledge (planes)",
-		"file": "skillsf339.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Occult Adventures",
@@ -1969,7 +1946,6 @@
 	},
 	"knowledge_religion": {
 		"name": "Knowledge (religion)",
-		"file": "skillsf339.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Occult Adventures",
@@ -2049,7 +2025,6 @@
 	},
 	"linguistics": {
 		"name": "Linguistics",
-		"file": "skills8dcc.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Occult Adventures",
@@ -2157,7 +2132,6 @@
 	},
 	"lore_any": {
 		"name": "Lore (any)",
-		"file": "skillLore.html",
 		"sources": [
 			"Pathfinder Unchained"
 		],
@@ -2212,7 +2186,6 @@
 	},
 	"perception": {
 		"name": "Perception",
-		"file": "skills5e09.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Occult Adventures",
@@ -2320,7 +2293,6 @@
 	},
 	"perform_any": {
 		"name": "Perform (any)",
-		"file": "skillsb7b0.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Pathfinder Unchained"
@@ -2383,7 +2355,6 @@
 	},
 	"profession_any": {
 		"name": "Profession (any)",
-		"file": "skills7267.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Wilderness",
@@ -2449,7 +2420,6 @@
 	},
 	"ride": {
 		"name": "Ride",
-		"file": "skills068c.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Pathfinder Unchained"
@@ -2519,7 +2489,6 @@
 	},
 	"sense_motive": {
 		"name": "Sense Motive",
-		"file": "skills0629.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Occult Adventures",
@@ -2595,7 +2564,6 @@
 	},
 	"sleight_of_hand": {
 		"name": "Sleight of Hand",
-		"file": "skills96c1.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Pathfinder Unchained",
@@ -2657,7 +2625,6 @@
 	},
 	"spellcraft": {
 		"name": "Spellcraft",
-		"file": "skillsf976.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Wilderness",
@@ -2719,7 +2686,6 @@
 	},
 	"stealth": {
 		"name": "Stealth",
-		"file": "skillsabd1.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Pathfinder Unchained"
@@ -2765,7 +2731,6 @@
 	},
 	"survival": {
 		"name": "Survival",
-		"file": "skillsd63e.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Heroes of the Wild",
@@ -2985,7 +2950,6 @@
 	},
 	"swim": {
 		"name": "Swim",
-		"file": "skills9df6.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Pathfinder Unchained"
@@ -3033,7 +2997,6 @@
 	},
 	"use_magic_device": {
 		"name": "Use Magic Device",
-		"file": "skillsb538.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Pathfinder Unchained",

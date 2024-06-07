@@ -30,7 +30,6 @@
 	},
 	"cold-blooded": {
 		"name": "Cold-Blooded",
-		"searchable_name": "Cold Blooded",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"**Cold-Blooded** ([Monster Codex](source/monster_codex)): Your blood turns sluggish without sufficient heat, and you must seek warmth and shelter earlier than most. This oracle curse is common among lizardfolk and other oracles with the reptilian subtype. You take a -4 penalty on saves against cold spells and effects, and whenever you fail such a saving throw, you are staggered for 1 round. You can survive without food four times longer than a typical creature of your species before you begin to starve. At 5th level, poisons affecting you have their onset time doubled and last half as long if they end after a set time (for example, a poison with a frequency of 1/round for 6 rounds would instead have a frequency of 1/round for 3 rounds). Poisons with no onset time gain an onset time of 1 round. At 10th level, whenever an action you have readied is triggered, you can take an additional move action at half your speed-along with your readied action-even if you have already taken a move action that round. At 15th level, you can take an additional move action a number of times per day equal to your Charisma modifier. You can take these additional move actions only on your turn, and can take only one of these extra move actions per turn."
@@ -89,7 +88,6 @@
 	},
 	"god-meddled": {
 		"name": "God-Meddled",
-		"searchable_name": "God Meddled",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
 			"**God-Meddled** ([Heroes of Golarion](source/heroes_of_golarion)): The isle of Iblydos is populated and watched over by hero-gods, some of whom are known for entangling mortals in their own affairs. The gods' interference in your life has left you with strange, unpredictable powers dependent on divine whim. Bizarre side effects occur whenever you are affected by a spell from a divine caster-for better or for worse. Once per round, when a creature casts a divine spell including you as a target, roll 1d20 and consult the table below. The effect resulting from this roll begins at the end of that enemy's turn. This effect targets only you, even if other creatures were included as targets of the triggering spell. At 5th level, you gain a +2 competence bonus on saving throws to resist divine spells. At 10th level, you become immune to the confused condition. At 15th level, you gain a +4 competence bonus on saving throws to resist mind-affecting effects.",
@@ -245,7 +243,6 @@
 	},
 	"site-bound": {
 		"name": "Site-Bound",
-		"searchable_name": "Site Bound",
 		"sources": [ "Inner Sea Monster Codex" ],
 		"description": [
 			"**Site-Bound** ([Inner Sea Monster Codex](source/inner_sea_monster_codex)): You bond with a particular 10-foot square, and must remain within 1,500 feet of that site or immediately become sickened. You must succeed at a DC 15 Fortitude save each minute you spend outside of the boundary or become nauseated. For every hour spent outside of the boundary, you also take 1d4 points of Constitution damage (no save). When within range of your bonded site, you gain a +1 bonus to your caster level when casting oracle spells. At 5th level, the radius increases to 2,250 feet. At 10th level, the radius increases to 3,000 feet and the bonus to your caster level when casting oracle spells within the boundary increases by 1. At 15th level, you can move up to 1 mile from your bonded site."
@@ -253,7 +250,6 @@
 	},
 	"song-bound": {
 		"name": "Song-Bound",
-		"searchable_name": "Song Bound",
 		"sources": [ "Blood of the Sea" ],
 		"description": [
 			"**Song-Bound** ([Blood of the Sea](source/blood_of_the_sea)): ([Merfolk](race/merfolk) only) Whenever you speak, you are compelled to sing loudly, and you draw out even short utterances with vocal scales or simple melodies. You cannot speak in less than a loud voice, although you may choose not to speak. You can perform the countersong bardic performance (using Perform [sing] only) for a number of rounds per day equal to your oracle level. If you gain the bardic performance class feature, these rounds are in addition to any other bardic performance rounds you gain, but they can be used only for the countersong bardic performance. At 5th level, add command and suggestion to your list of spells known. At 10th level, add 1 to the difficulty class of saving throws against language-dependent spells you cast. At 15th level, add [greater command](spell/greater_command) and [mass suggestion](spell/mass_suggestion) to your list of spells known."

@@ -2,7 +2,6 @@
 	"_prefix": "archetype-skald",
 	"augur": {
 		"name": "Augur",
-		"file": "archetypedisplaya9f0.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## Augur",
@@ -20,7 +19,6 @@
 	},
 	"bacchanal": {
 		"name": "Bacchanal",
-		"file": "archetypedisplay0844.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Bacchanal",
@@ -54,7 +52,6 @@
 	},
 	"battle_scion": {
 		"name": "Battle Scion",
-		"file": "archetypedisplay2d25.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Battle Scion",
@@ -84,7 +81,6 @@
 	},
 	"bekyar_demon_dancer": {
 		"name": "Bekyar Demon Dancer",
-		"file": "archetypedisplayad46.html",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
 			"## Bekyar Demon Dancer",
@@ -106,7 +102,6 @@
 	},
 	"belkzen_war_drummer": {
 		"name": "Belkzen War Drummer",
-		"file": "archetypedisplayf00d.html",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
 			"## Belkzen War Drummer",
@@ -130,7 +125,6 @@
 	},
 	"boaster": {
 		"name": "Boaster",
-		"file": "archetypedisplay2e34.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Boaster",
@@ -170,7 +164,6 @@
 	},
 	"bold_schemer": {
 		"name": "Bold Schemer",
-		"file": "archetypedisplaycd50.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Bold Schemer",
@@ -198,7 +191,6 @@
 	},
 	"court_poet": {
 		"name": "Court Poet",
-		"file": "archetypedisplayb8c2.html",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [
 			"## Court Poet",
@@ -222,7 +214,6 @@
 	},
 	"dragon_skald": {
 		"name": "Dragon Skald",
-		"file": "archetypedisplayedad.html",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
 			"## Dragon Skald",
@@ -244,7 +235,6 @@
 	},
 	"elegist": {
 		"name": "Elegist",
-		"file": "archetypedisplay4107-2.html",
 		"sources": [ "Pathfinder: Spiral of Bones #4" ],
 		"description": [
 			"## Elegist",
@@ -272,7 +262,6 @@
 	},
 	"fated_champion": {
 		"name": "Fated Champion",
-		"file": "archetypedisplaya1a2-2.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Fated Champion",
@@ -294,7 +283,6 @@
 	},
 	"herald_of_the_horn": {
 		"name": "Herald of the Horn",
-		"file": "archetypedisplay899e.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Herald of the Horn",
@@ -316,7 +304,6 @@
 	},
 	"hunt_caller": {
 		"name": "Hunt Caller",
-		"file": "archetypedisplay9728.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Hunt Caller",
@@ -350,7 +337,6 @@
 	},
 	"instigator": {
 		"name": "Instigator",
-		"file": "archetypedisplayb3ee.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Instigator",
@@ -378,7 +364,6 @@
 	},
 	"red_tongue": {
 		"name": "Red Tongue",
-		"file": "archetypedisplay68b9.html",
 		"sources": [ "Blood of the Beast" ],
 		"description": [
 			"## Red Tongue",
@@ -406,7 +391,6 @@
 	},
 	"serpent_herald": {
 		"name": "Serpent Herald",
-		"file": "archetypedisplayded9.html",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"## Serpent Herald",
@@ -432,7 +416,6 @@
 	},
 	"spell_warrior": {
 		"name": "Spell Warrior",
-		"file": "archetypedisplayf2cd.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Spell Warrior",
@@ -468,7 +451,6 @@
 	},
 	"sunsinger": {
 		"name": "Sunsinger",
-		"file": "archetypedisplay63ef.html",
 		"sources": [ "Qadira, Jewel of the East" ],
 		"description": [
 			"## Sunsinger",
@@ -492,7 +474,6 @@
 	},
 	"totem_channeler": {
 		"name": "Totem Channeler",
-		"file": "archetypedisplaye4d1.html",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
 			"## Totem Channeler",
@@ -516,7 +497,6 @@
 	},
 	"totemic_skald": {
 		"name": "Totemic Skald",
-		"file": "archetypedisplay4fe5.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Totemic Skald",
@@ -544,7 +524,6 @@
 	},
 	"twilight_speaker": {
 		"name": "Twilight Speaker",
-		"file": "archetypedisplay1aa1.html",
 		"sources": [ "Heroes from the Fringe" ],
 		"description": [
 			"## Twilight Speaker",
@@ -586,7 +565,6 @@
 	},
 	"undying_word": {
 		"name": "Undying Word",
-		"file": "archetypedisplaye624.html",
 		"sources": [ "People of the Wastes" ],
 		"description": [
 			"## Undying Word",
@@ -620,7 +598,6 @@
 	},
 	"urban_skald": {
 		"name": "Urban Skald",
-		"file": "archetypedisplay8d73-2.html",
 		"sources": [ "Heroes of the Streets" ],
 		"description": [
 			"## Urban Skald",
@@ -648,7 +625,6 @@
 	},
 	"war_painter": {
 		"name": "War Painter",
-		"file": "archetypedisplaye897.html",
 		"sources": [ "Blood of the Beast" ],
 		"description": [
 			"## War Painter",
@@ -676,7 +652,6 @@
 	},
 	"warlord": {
 		"name": "Warlord",
-		"file": "archetypedisplayf7de.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Warlord",
@@ -710,7 +685,6 @@
 	},
 	"wyrm_singer": {
 		"name": "Wyrm Singer",
-		"file": "archetypedisplaycdcb.html",
 		"sources": [ "Legacy of Dragons" ],
 		"description": [
 			"## Wyrm Singer",

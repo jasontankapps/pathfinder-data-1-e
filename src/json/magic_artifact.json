@@ -2,7 +2,6 @@
 	"_prefix": "magic-artifact",
 	"figurine_of_the_concealed_companion": {
 		"name": "Figurine of the Concealed Companion",
-		"file": "magicartifactsdisplay3c4f.html",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Figurine of the Concealed Companion",
@@ -21,7 +20,6 @@
 	},
 	"hourglass_of_transfiguration": {
 		"name": "Hourglass of Transfiguration",
-		"file": "magicartifactsdisplay0d3e.html",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Hourglass of Transfiguration",
@@ -40,7 +38,6 @@
 	},
 	"scar_of_destiny": {
 		"name": "Scar of Destiny",
-		"file": "magicartifactsdisplay1701.html",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Scar of Destiny",
@@ -59,7 +56,6 @@
 	},
 	"sliver_of_the_amalgam_mind": {
 		"name": "Sliver of the Amalgam Mind",
-		"file": "magicartifactsdisplay80f1.html",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Sliver of the Amalgam Mind",
@@ -78,7 +74,6 @@
 	},
 	"bracers_of_the_immortal_hunt": {
 		"name": "Bracers of the Immortal Hunt",
-		"file": "magicartifactsdisplay4ba7.html",
 		"sources": [ "Mythic Origins" ],
 		"description": [
 			"## Bracers of the Immortal Hunt",
@@ -110,7 +105,6 @@
 	},
 	"abyssal_runestone": {
 		"name": "Abyssal Runestone",
-		"file": "magicartifactsdisplayb2c1.html",
 		"sources": [ "Pathfinder #134: It Came from Hollow Mountain" ],
 		"description": [
 			"## Abyssal Runestone",
@@ -133,7 +127,6 @@
 	},
 	"aegis": {
 		"name": "Aegis",
-		"file": "magicartifactsdisplayb37b.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Aegis",
@@ -156,7 +149,6 @@
 	},
 	"aiger's_kiss": {
 		"name": "Aiger's Kiss",
-		"file": "magicartifactsdisplay5d60.html",
 		"sources": [
 			"Skull & Shackles Adventure Path",
 			"Pathfinder #59: The Price of Infamy"
@@ -182,7 +174,6 @@
 	},
 	"amatatsu_seal": {
 		"name": "Amatatsu Seal",
-		"file": "magicartifactsdisplay74dc.html",
 		"sources": [
 			"Jade Regent Adventure Path",
 			"Pathfinder #49: The Brinewall Legacy"
@@ -204,7 +195,6 @@
 	},
 	"amethyst_crescent_ioun_stone": {
 		"name": "Amethyst Crescent Ioun Stone",
-		"file": "magicartifactsdisplayf14d.html",
 		"sources": [ "Pathfinder #126: Beyond the Veiled Past" ],
 		"description": [
 			"## Amethyst Crescent Ioun Stone",
@@ -223,7 +213,6 @@
 	},
 	"argental_font": {
 		"name": "Argental Font",
-		"file": "magicartifactsdisplay4fdd.html",
 		"sources": [
 			"Serpent's Skull Adventure Path",
 			"Pathfinder #40: Vaults of Madness"
@@ -245,7 +234,6 @@
 	},
 	"artrosa_ring": {
 		"name": "Artrosa Ring",
-		"file": "magicartifactsdisplay6d82.html",
 		"sources": [
 			"Reign of Winter Adventure Path",
 			"Pathfinder #69: Maiden, Mother, Crone"
@@ -280,7 +268,6 @@
 	},
 	"automaton_core": {
 		"name": "Automaton Core",
-		"file": "magicartifactsdisplay9b74.html",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"## Automaton Core",
@@ -311,7 +298,6 @@
 	},
 	"azlanti_orrery": {
 		"name": "Azlanti Orrery",
-		"file": "magicartifactsdisplay7ac4.html",
 		"sources": [ "Pathfinder #122: Into the Shattered Continent" ],
 		"description": [
 			"## Azlanti Orrery",
@@ -330,7 +316,6 @@
 	},
 	"azlanti_sealstone": {
 		"name": "Azlanti Sealstone",
-		"file": "magicartifactsdisplay775c.html",
 		"sources": [ "Revenge of the Kobold King" ],
 		"description": [
 			"## Azlanti Sealstone",
@@ -349,7 +334,6 @@
 	},
 	"baba_yaga's_besom": {
 		"name": "Baba Yaga's Besom",
-		"file": "magicartifactsdisplaye768.html",
 		"sources": [
 			"Reign of Winter Adventure Path",
 			"Pathfinder #72: The Witch Queen's Revenge"
@@ -376,7 +360,6 @@
 	},
 	"baba_yaga's_mortar_and_pestle": {
 		"name": "Baba Yaga's Mortar and Pestle",
-		"file": "magicartifactsdisplaye882.html",
 		"sources": [
 			"Reign of Winter Adventure Path",
 			"Pathfinder #72: The Witch Queen's Revenge"
@@ -403,7 +386,6 @@
 	},
 	"balgorrah": {
 		"name": "Balgorrah",
-		"file": "magicartifactsdisplay7d8c.html",
 		"sources": [
 			"Hell's Rebels Adventure Path",
 			"Pathfinder #102: Breaking the Bones of Hell"
@@ -427,7 +409,6 @@
 	},
 	"beacon_of_true_faith": {
 		"name": "Beacon of True Faith",
-		"file": "magicartifactsdisplay6094.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -456,7 +437,6 @@
 	},
 	"bell_of_mercy": {
 		"name": "Bell of Mercy",
-		"file": "magicartifactsdisplay759f.html",
 		"sources": [
 			"Wrath of the Righteous Adventure Path",
 			"Pathfinder #75: Demon's Heresy"
@@ -480,7 +460,6 @@
 	},
 	"black_iron_axe": {
 		"name": "Black Iron Axe",
-		"file": "magicartifactsdisplay2be3.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Black Iron Axe",
@@ -499,7 +478,6 @@
 	},
 	"bone_house": {
 		"name": "Bone House",
-		"file": "magicartifactsdisplay8a18.html",
 		"sources": [
 			"Artifacts and Legends",
 			"Pathfinder #10: A History of Ashes"
@@ -527,7 +505,6 @@
 	},
 	"book_of_infinite_spells": {
 		"name": "Book of Infinite Spells",
-		"file": "magicartifactsdisplay0df9.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -564,7 +541,6 @@
 	},
 	"branch_of_life": {
 		"name": "Branch of Life",
-		"file": "magicartifactsdisplay98d1.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Source [Ultimate Equipment pg. 328](source/ultimate_equipment)",
@@ -584,7 +560,6 @@
 	},
 	"bullroarers_of_outburst": {
 		"name": "Bullroarers of Outburst",
-		"file": "magicartifactsdisplay979d.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Bullroarers of Outburst",
@@ -609,7 +584,6 @@
 	},
 	"cloud_diadem": {
 		"name": "Cloud Diadem",
-		"file": "magicartifactsdisplay2499.html",
 		"sources": [
 			"Giantslayer Adventure Path",
 			"Pathfinder #96: Shadow of the Storm Tyrant"
@@ -635,7 +609,6 @@
 	},
 	"crown_of_the_iron_king": {
 		"name": "Crown of the Iron King",
-		"file": "magicartifactsdisplayee45.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Source [Ultimate Equipment pg. 328](source/ultimate_equipment)",
@@ -655,7 +628,6 @@
 	},
 	"crown_of_the_simurgh": {
 		"name": "Crown of the Simurgh",
-		"file": "magicartifactsdisplay9a76.html",
 		"sources": [
 			"Artifacts and Legends",
 			"Pathfinder #24: The Final Wish"
@@ -681,7 +653,6 @@
 	},
 	"crystal_control_rod": {
 		"name": "Crystal Control Rod",
-		"file": "magicartifactsdisplay97b6.html",
 		"sources": [ "Tombs of Golarion" ],
 		"description": [
 			"## Crystal Control Rod",
@@ -708,7 +679,6 @@
 	},
 	"cubic_spiral": {
 		"name": "Cubic Spiral",
-		"file": "magicartifactsdisplayf748.html",
 		"sources": [ "Pathfinder #120: Vault of the Onyx Citadel" ],
 		"description": [
 			"## Cubic Spiral",
@@ -739,7 +709,6 @@
 	},
 	"cup_of_forbidden_knowledge": {
 		"name": "Cup of Forbidden Knowledge",
-		"file": "magicartifactsdisplay68dc.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Cup of Forbidden Knowledge",
@@ -760,7 +729,6 @@
 	},
 	"dark_grimoire": {
 		"name": "Dark Grimoire",
-		"file": "magicartifactsdisplay2e88.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Dark Grimoire",
@@ -785,7 +753,6 @@
 	},
 	"dawnflower's_kiss": {
 		"name": "Dawnflower's Kiss",
-		"file": "magicartifactsdisplay6362.html",
 		"sources": [
 			"Wrath of the Righteous Adventure Path",
 			"Pathfinder #77: Herald of the Ivory Labyrinth"
@@ -811,7 +778,6 @@
 	},
 	"decemvirate_helm": {
 		"name": "Decemvirate Helm",
-		"file": "magicartifactsdisplay051c.html",
 		"sources": [
 			"Artifacts and Legends",
 			"Pathfinder Society Field Guide"
@@ -833,7 +799,6 @@
 	},
 	"deck_of_harrowed_tales": {
 		"name": "Deck of Harrowed Tales",
-		"file": "magicartifactsdisplay077b.html",
 		"sources": [
 			"Artifacts and Legends",
 			"The Harrowing"
@@ -855,7 +820,6 @@
 	},
 	"deck_of_many_things": {
 		"name": "Deck of Many Things",
-		"file": "magicartifactsdisplay6123.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -949,7 +913,6 @@
 	},
 	"drakesbane_horn": {
 		"name": "Drakesbane Horn",
-		"file": "magicartifactsdisplayfc9d.html",
 		"sources": [
 			"Giantslayer Adventure Path",
 			"Pathfinder #93: Forge of the Giant God"
@@ -983,7 +946,6 @@
 	},
 	"earth's_eye": {
 		"name": "Earth's Eye",
-		"file": "magicartifactsdisplaye57e.html",
 		"sources": [ "Pathfinder #120: Vault of the Onyx Citadel" ],
 		"description": [
 			"## Earth's Eye",
@@ -1014,7 +976,6 @@
 	},
 	"elder_sign": {
 		"name": "Elder Sign",
-		"file": "magicartifactsdisplayfda0.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Elder Sign",
@@ -1037,7 +998,6 @@
 	},
 	"elemental_chain": {
 		"name": "Elemental Chain",
-		"file": "magicartifactsdisplay345d.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Elemental Chain",
@@ -1056,7 +1016,6 @@
 	},
 	"eye_of_abenatrex": {
 		"name": "Eye of Abenatrex",
-		"file": "magicartifactsdisplayb930.html",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Eye of Abenatrex",
@@ -1081,7 +1040,6 @@
 	},
 	"eye_of_rapture": {
 		"name": "Eye of Rapture",
-		"file": "magicartifactsdisplay0ab5.html",
 		"sources": [ "Carnival of Tears" ],
 		"description": [
 			"## Eye of Rapture",
@@ -1096,7 +1054,6 @@
 	},
 	"fasciculus_labyrinthum": {
 		"name": "Fasciculus Labyrinthum",
-		"file": "magicartifactsdisplay2377.html",
 		"sources": [
 			"Wrath of the Righteous Adventure Path",
 			"Pathfinder #76: The Midnight Isles"
@@ -1118,7 +1075,6 @@
 	},
 	"fetoring_maw": {
 		"name": "Fetoring Maw",
-		"file": "magicartifactsdisplay2b81.html",
 		"sources": [ "Pathfinder #140: Eulogy for Roslar's Coffer" ],
 		"description": [
 			"## Fetoring Maw",
@@ -1153,7 +1109,6 @@
 	},
 	"final_blade": {
 		"name": "Final Blade",
-		"file": "magicartifactsdisplay65de.html",
 		"sources": [ "Inner Sea World Guide" ],
 		"description": [
 			"## Final Blade",
@@ -1174,7 +1129,6 @@
 	},
 	"flamma_horacalcum": {
 		"name": "Flamma Horacalcum",
-		"file": "magicartifactsdisplayb279.html",
 		"sources": [
 			"Shattered Star Adventure Path",
 			"Pathfinder #66: The Dead Heart of Xin"
@@ -1204,7 +1158,6 @@
 	},
 	"fleshhook_of_mythic_sustenance": {
 		"name": "Fleshhook of Mythic Sustenance",
-		"file": "magicartifactsdisplay92f8.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Fleshhook of Mythic Sustenance",
@@ -1225,7 +1178,6 @@
 	},
 	"fluttered_wing": {
 		"name": "Fluttered Wing",
-		"file": "magicartifactsdisplay301e.html",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"## Fluttered Wing",
@@ -1246,7 +1198,6 @@
 	},
 	"fortune's_arrow": {
 		"name": "Fortune's Arrow",
-		"file": "magicartifactsdisplayc1be.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Fortune's Arrow",
@@ -1269,7 +1220,6 @@
 	},
 	"funeral_mask_of_the_four_pharaohs_of_ascension": {
 		"name": "Funeral Mask of the Four Pharaohs of Ascension",
-		"file": "magicartifactsdisplayd982.html",
 		"sources": [ "Entombed with the Pharaohs" ],
 		"description": [
 			"## Funeral Mask of the Four Pharaohs of Ascension",
@@ -1288,7 +1238,6 @@
 	},
 	"funerary_crown_of_the_true_king": {
 		"name": "Funerary Crown of the True King",
-		"file": "magicartifactsdisplay0da9.html",
 		"sources": [ "Ships of the Inner Sea" ],
 		"description": [
 			"## Funerary Crown of the True King",
@@ -1309,7 +1258,6 @@
 	},
 	"glabrezu_claw": {
 		"name": "Glabrezu Claw",
-		"file": "magicartifactsdisplay2734.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Glabrezu Claw",
@@ -1336,7 +1284,6 @@
 	},
 	"godclaw_gauntlets": {
 		"name": "Godclaw Gauntlets",
-		"file": "magicartifactsdisplayd4c5.html",
 		"sources": [
 			"Hell's Vengeance Adventure Path",
 			"Pathfinder #107: Scourge of the Godclaw"
@@ -1362,7 +1309,6 @@
 	},
 	"hammer_of_thunderbolts": {
 		"name": "Hammer of Thunderbolts",
-		"file": "magicartifactsdisplayff44.html",
 		"sources": [
 			"Giantslayer Adventure Path",
 			"Pathfinder #95: Anvil of Fire",
@@ -1388,7 +1334,6 @@
 	},
 	"harp_of_night's_hope": {
 		"name": "Harp of Night's Hope",
-		"file": "magicartifactsdisplay9781.html",
 		"sources": [ "Nidal, Land of Shadows" ],
 		"description": [
 			"## Harp of Night's Hope",
@@ -1413,7 +1358,6 @@
 	},
 	"haykali's_house_of_cards": {
 		"name": "Haykali's House of Cards",
-		"file": "magicartifactsdisplay811e.html",
 		"sources": [ "Classic Treasures Revisited" ],
 		"description": [
 			"## Haykali's House of Cards",
@@ -1432,7 +1376,6 @@
 	},
 	"heart_of_nhur_athemon": {
 		"name": "Heart of Nhur Athemon",
-		"file": "magicartifactsdisplay7ec6.html",
 		"sources": [ "The Emerald Spire Superdungeon" ],
 		"description": [
 			"## Heart of Nhur Athemon",
@@ -1455,7 +1398,6 @@
 	},
 	"hellfire_halo": {
 		"name": "Hellfire Halo",
-		"file": "magicartifactsdisplaye1f0.html",
 		"sources": [
 			"Hell's Vengeance Adventure Path",
 			"Pathfinder #107: Scourge of the Godclaw"
@@ -1477,7 +1419,6 @@
 	},
 	"helm_of_governance": {
 		"name": "Helm of Governance",
-		"file": "magicartifactsdisplay8e9d.html",
 		"sources": [ "Pathfinder #126: Beyond the Veiled Past" ],
 		"description": [
 			"## Helm of Governance",
@@ -1498,7 +1439,6 @@
 	},
 	"hermetic_flask": {
 		"name": "Hermetic Flask",
-		"file": "magicartifactsdisplay432a.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Hermetic Flask",
@@ -1525,7 +1465,6 @@
 	},
 	"hourglass_of_shadows": {
 		"name": "Hourglass of Shadows",
-		"file": "magicartifactsdisplay7dfb.html",
 		"sources": [
 			"Artifacts and Legends",
 			"The Demon Within"
@@ -1549,7 +1488,6 @@
 	},
 	"id_portrait": {
 		"name": "Id Portrait",
-		"file": "magicartifactsdisplay5be8.html",
 		"sources": [
 			"Artifacts and Legends",
 			"Gallery of Evil"
@@ -1581,7 +1519,6 @@
 	},
 	"imperial_diadem": {
 		"name": "Imperial Diadem",
-		"file": "magicartifactsdisplay9e5d.html",
 		"sources": [ "Pathfinder #114: Black Stars Beckon" ],
 		"description": [
 			"## Imperial Diadem",
@@ -1602,7 +1539,6 @@
 	},
 	"ioun_stones-thassilonian": {
 		"name": "Ioun Stones-Thassilonian",
-		"file": "magicartifactsdisplay285b.html",
 		"sources": [
 			"Rise of the Runelords Adventure Path",
 			"Rise of the Runelords Anniversary Edition"
@@ -1627,7 +1563,6 @@
 	},
 	"jaundiced_skull_ioun_stone": {
 		"name": "Jaundiced Skull Ioun Stone",
-		"file": "magicartifactsdisplay69e4.html",
 		"sources": [ "Pathfinder #126: Beyond the Veiled Past" ],
 		"description": [
 			"## Jaundiced Skull Ioun Stone",
@@ -1648,7 +1583,6 @@
 	},
 	"knucklebone_of_fickle_fortune": {
 		"name": "Knucklebone of Fickle Fortune",
-		"file": "magicartifactsdisplayc9d0.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -1691,7 +1625,6 @@
 	},
 	"life_lantern": {
 		"name": "Life Lantern",
-		"file": "magicartifactsdisplay68c5.html",
 		"sources": [
 			"Mummy's Mask Adventure Path",
 			"Pathfinder #83: The Slave Trenches of Hakotep"
@@ -1719,7 +1652,6 @@
 	},
 	"lotus_stone_of_namrut": {
 		"name": "Lotus Stone of Namrut",
-		"file": "magicartifactsdisplayc74a.html",
 		"sources": [
 			"Mummy's Mask Adventure Path",
 			"Pathfinder #83: The Slave Trenches of Hakotep"
@@ -1745,7 +1677,6 @@
 	},
 	"magi_staff_of_the_deep_black": {
 		"name": "Magi Staff of the Deep Black",
-		"file": "magicartifactsdisplay70e6.html",
 		"sources": [ "Classic Treasures Revisited" ],
 		"description": [
 			"## Magi Staff of the Deep Black",
@@ -1776,7 +1707,6 @@
 	},
 	"magi_staff_of_the_mammoth": {
 		"name": "Magi Staff of the Mammoth",
-		"file": "magicartifactsdisplay270f.html",
 		"sources": [ "Classic Treasures Revisited" ],
 		"description": [
 			"## Magi Staff of the Mammoth",
@@ -1801,7 +1731,6 @@
 	},
 	"magi_staff_of_the_necromancer": {
 		"name": "Magi Staff of the Necromancer",
-		"file": "magicartifactsdisplayece4.html",
 		"sources": [ "Classic Treasures Revisited" ],
 		"description": [
 			"## Magi Staff of the Necromancer",
@@ -1830,7 +1759,6 @@
 	},
 	"magi_staff_of_the_scholar": {
 		"name": "Magi Staff of the Scholar",
-		"file": "magicartifactsdisplay339f.html",
 		"sources": [ "Classic Treasures Revisited" ],
 		"description": [
 			"## Magi Staff of the Scholar",
@@ -1849,7 +1777,6 @@
 	},
 	"maleficus_spike": {
 		"name": "Maleficus Spike",
-		"file": "magicartifactsdisplay6444.html",
 		"sources": [
 			"Artifacts and Legends",
 			"Pathfinder #17: A Memory of Darkness"
@@ -1875,7 +1802,6 @@
 	},
 	"mantis_blade": {
 		"name": "Mantis Blade",
-		"file": "magicartifactsdisplay428f.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Artifacts and Legends",
@@ -1913,7 +1839,6 @@
 	},
 	"mindbind_figurine": {
 		"name": "Mindbind Figurine",
-		"file": "magicartifactsdisplayc680.html",
 		"sources": [ "The Moonscar" ],
 		"description": [
 			"## Mindbind Figurine",
@@ -1936,7 +1861,6 @@
 	},
 	"monkey's_paw": {
 		"name": "Monkey's Paw",
-		"file": "magicartifactsdisplay8272.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Source [Ultimate Equipment pg. 331](source/ultimate_equipment)",
@@ -1954,7 +1878,6 @@
 	},
 	"mythic_amulet_of_the_abyss": {
 		"name": "Mythic Amulet of the Abyss",
-		"file": "magicartifactsdisplayf55b.html",
 		"sources": [
 			"Wrath of the Righteous Adventure Path",
 			"Pathfinder #77: Herald of the Ivory Labyrinth"
@@ -1986,7 +1909,6 @@
 	},
 	"nahyndrian_chisel": {
 		"name": "Nahyndrian Chisel",
-		"file": "magicartifactsdisplay3475.html",
 		"sources": [
 			"Wrath of the Righteous Adventure Path",
 			"Pathfinder #78: City of Locusts"
@@ -2008,7 +1930,6 @@
 	},
 	"nahyndrian_crystal": {
 		"name": "Nahyndrian Crystal",
-		"file": "magicartifactsdisplay6903.html",
 		"sources": [
 			"Wrath of the Righteous Adventure Path",
 			"Pathfinder #76: The Midnight Isles"
@@ -2038,7 +1959,6 @@
 	},
 	"nahyndrian_elixir": {
 		"name": "Nahyndrian Elixir",
-		"file": "magicartifactsdisplay7b38.html",
 		"sources": [
 			"Wrath of the Righteous Adventure Path",
 			"Pathfinder #76: The Midnight Isles"
@@ -2064,7 +1984,6 @@
 	},
 	"nargrym's_steel_hand": {
 		"name": "Nargrym's Steel Hand",
-		"file": "magicartifactsdisplay639f.html",
 		"sources": [
 			"Giantslayer Adventure Path",
 			"Pathfinder #93: Forge of the Giant God"
@@ -2086,7 +2005,6 @@
 	},
 	"necropyre_crystal": {
 		"name": "Necropyre Crystal",
-		"file": "magicartifactsdisplayab5b.html",
 		"sources": [ "Blood of Dragonscar" ],
 		"description": [
 			"## Necropyre Crystal",
@@ -2109,7 +2027,6 @@
 	},
 	"nexus_crystal": {
 		"name": "Nexus Crystal",
-		"file": "magicartifactsdisplay7f02.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Nexus Crystal",
@@ -2136,7 +2053,6 @@
 	},
 	"oculus_of_abaddon": {
 		"name": "Oculus of Abaddon",
-		"file": "magicartifactsdisplay1a58.html",
 		"sources": [
 			"Kingmaker Adventure Path",
 			"Pathfinder #33: The Varnhold Vanishing"
@@ -2170,7 +2086,6 @@
 	},
 	"orb_of_dragon_mastery": {
 		"name": "Orb of Dragon Mastery",
-		"file": "magicartifactsdisplay2f0b.html",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Orb of Dragon Mastery",
@@ -2189,7 +2104,6 @@
 	},
 	"orb_of_dragonkin": {
 		"name": "Orb of Dragonkin",
-		"file": "magicartifactsdisplay3d73.html",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Orb of Dragonkin",
@@ -2220,7 +2134,6 @@
 	},
 	"orb_of_dragonshape": {
 		"name": "Orb of Dragonshape",
-		"file": "magicartifactsdisplay8002.html",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Orb of Dragonshape",
@@ -2250,7 +2163,6 @@
 	},
 	"orrery_of_distant_worlds": {
 		"name": "Orrery of Distant Worlds",
-		"file": "magicartifactsdisplayacfc.html",
 		"sources": [ "Doom Comes to Dustpawn" ],
 		"description": [
 			"## Source [Doom Comes to Dustpawn pg. 28](source/doom_comes_to_dustpawn)",
@@ -2287,7 +2199,6 @@
 	},
 	"osa_painting": {
 		"name": "Osa Painting",
-		"file": "magicartifactsdisplay898d.html",
 		"sources": [ "Horror Realms" ],
 		"description": [
 			"## Osa Painting",
@@ -2306,7 +2217,6 @@
 	},
 	"ovinrbaane-enemy_of_all_enemies": {
 		"name": "Ovinrbaane-Enemy of All Enemies",
-		"file": "magicartifactsdisplay0995.html",
 		"sources": [
 			"Artifacts and Legends",
 			"Pathfinder #34: Blood for Blood"
@@ -2343,7 +2253,6 @@
 	},
 	"pendant_of_the_first_tears": {
 		"name": "Pendant of the First Tears",
-		"file": "magicartifactsdisplayce00.html",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"## Pendant of the First Tears",
@@ -2366,7 +2275,6 @@
 	},
 	"perfect_golden_lute": {
 		"name": "Perfect Golden Lute",
-		"file": "magicartifactsdisplayc92c.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -2387,7 +2295,6 @@
 	},
 	"pharaoh's_key": {
 		"name": "Pharaoh's Key",
-		"file": "magicartifactsdisplaya6cd.html",
 		"sources": [
 			"Mummy's Mask Adventure Path",
 			"Pathfinder #83: The Slave Trenches of Hakotep"
@@ -2409,7 +2316,6 @@
 	},
 	"philosopher's_stone": {
 		"name": "Philosopher's Stone",
-		"file": "magicartifactsdisplay03b4.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2432,7 +2338,6 @@
 	},
 	"phylactery_of_the_failed": {
 		"name": "Phylactery of the Failed",
-		"file": "magicartifactsdisplay5947.html",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Phylactery of the Failed",
@@ -2457,7 +2362,6 @@
 	},
 	"portal_network": {
 		"name": "Portal Network",
-		"file": "magicartifactsdisplayb6e7.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Portal Network",
@@ -2482,7 +2386,6 @@
 	},
 	"primordial_symbol": {
 		"name": "Primordial Symbol",
-		"file": "magicartifactsdisplay436c.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Primordial Symbol",
@@ -2510,7 +2413,6 @@
 	},
 	"quake_cannon": {
 		"name": "Quake Cannon",
-		"file": "magicartifactsdisplay0d23.html",
 		"sources": [ "Wardens of the Reborn Forge" ],
 		"description": [
 			"## Quake Cannon",
@@ -2533,7 +2435,6 @@
 	},
 	"radiant_blue_ioun_stone": {
 		"name": "Radiant Blue Ioun Stone",
-		"file": "magicartifactsdisplay074a.html",
 		"sources": [ "Pathfinder #126: Beyond the Veiled Past" ],
 		"description": [
 			"## Radiant Blue Ioun Stone",
@@ -2552,7 +2453,6 @@
 	},
 	"raven's_head": {
 		"name": "Raven's Head",
-		"file": "magicartifactsdisplay4a52.html",
 		"sources": [
 			"Artifacts and Legends",
 			"Pathfinder #46: Wake of the Watcher"
@@ -2574,7 +2474,6 @@
 	},
 	"reprisal": {
 		"name": "Reprisal",
-		"file": "magicartifactsdisplay97c9.html",
 		"sources": [
 			"Hell's Rebels Adventure Path",
 			"Pathfinder #99: Dance of the Damned"
@@ -2596,7 +2495,6 @@
 	},
 	"revelation_quill": {
 		"name": "Revelation Quill",
-		"file": "magicartifactsdisplay370c.html",
 		"sources": [
 			"Rise of the Runelords Adventure Path",
 			"Rise of the Runelords Anniversary Edition",
@@ -2621,7 +2519,6 @@
 	},
 	"rift-born_sphere": {
 		"name": "Rift-Born Sphere",
-		"file": "magicartifactsdisplaydeb0.html",
 		"sources": [ "Classic Treasures Revisited" ],
 		"description": [
 			"## Rift-Born Sphere",
@@ -2643,7 +2540,6 @@
 	},
 	"ring_of_equilibrium": {
 		"name": "Ring of Equilibrium",
-		"file": "magicartifactsdisplayaca2.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Ring of Equilibrium",
@@ -2668,7 +2564,6 @@
 	},
 	"rod_of_spell_sundering": {
 		"name": "Rod of Spell Sundering",
-		"file": "magicartifactsdisplay8d30.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Rod of Spell Sundering",
@@ -2691,7 +2586,6 @@
 	},
 	"runescarred_dragonship": {
 		"name": "Runescarred Dragonship",
-		"file": "magicartifactsdisplayc195.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Source [Ultimate Equipment pg. 332](source/ultimate_equipment)",
@@ -2709,7 +2603,6 @@
 	},
 	"runeslave_cauldron": {
 		"name": "Runeslave Cauldron",
-		"file": "magicartifactsdisplayf87b.html",
 		"sources": [
 			"Rise of the Runelords Adventure Path",
 			"Rise of the Runelords Anniversary Edition",
@@ -2738,7 +2631,6 @@
 	},
 	"runewarded_gauntlets": {
 		"name": "Runewarded Gauntlets",
-		"file": "magicartifactsdisplay7e0f.html",
 		"sources": [ "Pathfinder #133: Secrets of Roderic's Cove" ],
 		"description": [
 			"## Runewarded Gauntlets",
@@ -2757,7 +2649,6 @@
 	},
 	"runewell_amulet_envy": {
 		"name": "Runewell Amulet (Envy)",
-		"file": "magicartifactsdisplay2b2e.html",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"## Runewell Amulet (Envy)",
@@ -2776,7 +2667,6 @@
 	},
 	"runewell_amulet_greed": {
 		"name": "Runewell Amulet (Greed)",
-		"file": "magicartifactsdisplay0941.html",
 		"sources": [
 			"Rise of the Runelords Adventure Path",
 			"Rise of the Runelords Anniversary Edition",
@@ -2799,7 +2689,6 @@
 	},
 	"runewell-minor": {
 		"name": "Runewell-Minor",
-		"file": "magicartifactsdisplaya7a4.html",
 		"sources": [
 			"Rise of the Runelords Adventure Path",
 			"Rise of the Runelords Anniversary Edition"
@@ -2830,7 +2719,6 @@
 	},
 	"screaming_spear_of_the_sun": {
 		"name": "Screaming Spear of the Sun",
-		"file": "magicartifactsdisplayb67f.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Screaming Spear of the Sun",
@@ -2853,7 +2741,6 @@
 	},
 	"shadow_urn": {
 		"name": "Shadow Urn",
-		"file": "magicartifactsdisplaya7b9.html",
 		"sources": [ "The Demon Within" ],
 		"description": [
 			"## Shadow Urn",
@@ -2872,7 +2759,6 @@
 	},
 	"shinobi_fuhonsen": {
 		"name": "Shinobi Fuhonsen",
-		"file": "magicartifactsdisplayce06.html",
 		"sources": [
 			"Jade Regent Adventure Path",
 			"Pathfinder #53: Tide of Honor"
@@ -2912,7 +2798,6 @@
 	},
 	"sigils_of_the_great_cataclysm": {
 		"name": "Sigils of the Great Cataclysm",
-		"file": "magicartifactsdisplayeabc.html",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Sigils of the Great Cataclysm",
@@ -2949,7 +2834,6 @@
 	},
 	"sihedron_tome_envy": {
 		"name": "Sihedron Tome (Envy)",
-		"file": "magicartifactsdisplaye9b0.html",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"## Sihedron Tome (Envy)",
@@ -2968,7 +2852,6 @@
 	},
 	"sihedron_tome_greed": {
 		"name": "Sihedron Tome (Greed)",
-		"file": "magicartifactsdisplayc456.html",
 		"sources": [
 			"Rise of the Runelords Adventure Path",
 			"Rise of the Runelords Anniversary Edition",
@@ -2991,7 +2874,6 @@
 	},
 	"sistrum_of_bastet": {
 		"name": "Sistrum of Bastet",
-		"file": "magicartifactsdisplay145b.html",
 		"sources": [
 			"Mummy's Mask Adventure Path",
 			"Pathfinder #83: The Slave Trenches of Hakotep"
@@ -3017,7 +2899,6 @@
 	},
 	"slime_tendril": {
 		"name": "Slime Tendril",
-		"file": "magicartifactsdisplay9afe.html",
 		"sources": [ "Pathfinder #122: Into the Shattered Continent" ],
 		"description": [
 			"## Slime Tendril",
@@ -3040,7 +2921,6 @@
 	},
 	"soul_lens": {
 		"name": "Soul Lens",
-		"file": "magicartifactsdisplaye6bd.html",
 		"sources": [
 			"Rise of the Runelords Adventure Path",
 			"Rise of the Runelords Anniversary Edition"
@@ -3062,7 +2942,6 @@
 	},
 	"soul_portrait": {
 		"name": "Soul Portrait",
-		"file": "magicartifactsdisplay0ca4.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Soul Portrait",
@@ -3089,7 +2968,6 @@
 	},
 	"sparkling_blue_rhomboid_ioun_stone": {
 		"name": "Sparkling Blue Rhomboid Ioun Stone",
-		"file": "magicartifactsdisplay5e35.html",
 		"sources": [ "Pathfinder #126: Beyond the Veiled Past" ],
 		"description": [
 			"## Sparkling Blue Rhomboid Ioun Stone",
@@ -3108,7 +2986,6 @@
 	},
 	"spear_of_shards": {
 		"name": "Spear of Shards",
-		"file": "magicartifactsdisplay070e.html",
 		"sources": [ "Pathfinder #120: Vault of the Onyx Citadel" ],
 		"description": [
 			"## Spear of Shards",
@@ -3131,7 +3008,6 @@
 	},
 	"sphere_of_annihilation": {
 		"name": "Sphere of Annihilation",
-		"file": "magicartifactsdisplaya159.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3160,7 +3036,6 @@
 	},
 	"sphere_of_bleeding_snowflakes": {
 		"name": "Sphere of Bleeding Snowflakes",
-		"file": "magicartifactsdisplayadf7.html",
 		"sources": [ "Classic Treasures Revisited" ],
 		"description": [
 			"## Sphere of Bleeding Snowflakes",
@@ -3179,7 +3054,6 @@
 	},
 	"spindle_of_perfect_knowledge": {
 		"name": "Spindle of Perfect Knowledge",
-		"file": "magicartifactsdisplay584c.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3200,7 +3074,6 @@
 	},
 	"staff_of_eldritch_sovereignty": {
 		"name": "Staff of Eldritch Sovereignty",
-		"file": "magicartifactsdisplay90ae.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Staff of Eldritch Sovereignty",
@@ -3256,7 +3129,6 @@
 	},
 	"staff_of_rightful_rule": {
 		"name": "Staff of Rightful Rule",
-		"file": "magicartifactsdisplayc643.html",
 		"sources": [
 			"Mummy's Mask Adventure Path",
 			"Pathfinder #83: The Slave Trenches of Hakotep",
@@ -3286,7 +3158,6 @@
 	},
 	"staff_of_the_magi": {
 		"name": "Staff of the Magi",
-		"file": "magicartifactsdisplaybaf1.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3335,7 +3206,6 @@
 	},
 	"stannum_crown": {
 		"name": "Stannum Crown",
-		"file": "magicartifactsdisplay3d17.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Stannum Crown",
@@ -3358,7 +3228,6 @@
 	},
 	"storm_kindler's_rod": {
 		"name": "Storm Kindler's Rod",
-		"file": "magicartifactsdisplay2b58.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Storm Kindler's Rod",
@@ -3383,7 +3252,6 @@
 	},
 	"suishen-guardian_of_the_amatatsu": {
 		"name": "Suishen-Guardian of the Amatatsu",
-		"file": "magicartifactsdisplay4e20.html",
 		"sources": [
 			"Jade Regent Adventure Path",
 			"Pathfinder #50: Night of Frozen Shadows"
@@ -3427,7 +3295,6 @@
 	},
 	"sun_orchid_elixir": {
 		"name": "Sun Orchid Elixir",
-		"file": "magicartifactsdisplayce7f.html",
 		"sources": [ "Inner Sea World Guide" ],
 		"description": [
 			"## Sun Orchid Elixir",
@@ -3448,7 +3315,6 @@
 	},
 	"sword_of_the_mists": {
 		"name": "Sword of the Mists",
-		"file": "magicartifactsdisplaycbd5.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Sword of the Mists",
@@ -3471,7 +3337,6 @@
 	},
 	"talisman_of_pure_good": {
 		"name": "Talisman of Pure Good",
-		"file": "magicartifactsdisplaye13b.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3494,7 +3359,6 @@
 	},
 	"talisman_of_reluctant_wishes": {
 		"name": "Talisman of Reluctant Wishes",
-		"file": "magicartifactsdisplayc807.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -3525,7 +3389,6 @@
 	},
 	"talisman_of_the_sphere": {
 		"name": "Talisman of the Sphere",
-		"file": "magicartifactsdisplay8032.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3548,7 +3411,6 @@
 	},
 	"talisman_of_ultimate_evil": {
 		"name": "Talisman of Ultimate Evil",
-		"file": "magicartifactsdisplaya6ca.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -3571,7 +3433,6 @@
 	},
 	"tentacle_of_the_vaults": {
 		"name": "Tentacle of the Vaults",
-		"file": "magicartifactsdisplay6775.html",
 		"sources": [ "Pathfinder #120: Vault of the Onyx Citadel" ],
 		"description": [
 			"## Tentacle of the Vaults",
@@ -3598,7 +3459,6 @@
 	},
 	"terendelev's_scales": {
 		"name": "Terendelev's Scales",
-		"file": "magicartifactsdisplay9155.html",
 		"sources": [
 			"Wrath of the Righteous Adventure Path",
 			"Pathfinder #73: The Worldwound Incursion"
@@ -3630,7 +3490,6 @@
 	},
 	"tessarael's_book_of_infinite_spells": {
 		"name": "Tessarael's Book of Infinite Spells",
-		"file": "magicartifactsdisplay530d.html",
 		"sources": [ "Fangwood Keep" ],
 		"description": [
 			"## Source [Fangwood Keep pg. 27](source/fangwood_keep)",
@@ -3661,7 +3520,6 @@
 	},
 	"the_elder_decks": {
 		"name": "The Elder Decks",
-		"file": "magicartifactsdisplay1bdc.html",
 		"sources": [ "Classic Treasures Revisited" ],
 		"description": [
 			"## The Elder Decks",
@@ -3680,7 +3538,6 @@
 	},
 	"the_enthroned_king": {
 		"name": "The Enthroned King",
-		"file": "magicartifactsdisplay24a5.html",
 		"sources": [ "Pathfinder #118: Siege of Stone" ],
 		"description": [
 			"## The Enthroned King",
@@ -3699,7 +3556,6 @@
 	},
 	"the_last_theorem": {
 		"name": "The Last Theorem",
-		"file": "magicartifactsdisplay91ba.html",
 		"sources": [ "The Pact Stone Pyramid" ],
 		"description": [
 			"## The Last Theorem",
@@ -3716,7 +3572,6 @@
 	},
 	"the_morrowfall": {
 		"name": "The Morrowfall",
-		"file": "magicartifactsdisplay87b5.html",
 		"sources": [
 			"Council of Thieves Adventure Path",
 			"Pathfinder #27: What Lies in Dust"
@@ -3740,7 +3595,6 @@
 	},
 	"the_totemrix": {
 		"name": "The Totemrix",
-		"file": "magicartifactsdisplay0665.html",
 		"sources": [
 			"Council of Thieves Adventure Path",
 			"Pathfinder #29: Mother of Flies"
@@ -3768,7 +3622,6 @@
 	},
 	"thought_record": {
 		"name": "Thought Record",
-		"file": "magicartifactsdisplay65c7.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Thought Record",
@@ -3797,7 +3650,6 @@
 	},
 	"throne_of_blasphemy": {
 		"name": "Throne of Blasphemy",
-		"file": "magicartifactsdisplay6ef7.html",
 		"sources": [ "Hell Unleashed" ],
 		"description": [
 			"## Throne of Blasphemy",
@@ -3824,7 +3676,6 @@
 	},
 	"throne_of_ydersius_ascendant": {
 		"name": "Throne of Ydersius Ascendant",
-		"file": "magicartifactsdisplay1055.html",
 		"sources": [
 			"Serpent's Skull Adventure Path",
 			"Pathfinder #41: The Thousand Fangs Below"
@@ -3846,7 +3697,6 @@
 	},
 	"thrushmoor_star_stelae": {
 		"name": "Thrushmoor Star Stelae",
-		"file": "magicartifactsdisplaye488.html",
 		"sources": [ "Pathfinder #110: The Thrushmoor Terror" ],
 		"description": [
 			"## Thrushmoor Star Stelae",
@@ -3879,7 +3729,6 @@
 	},
 	"timeglass": {
 		"name": "Timeglass",
-		"file": "magicartifactsdisplaya97f.html",
 		"sources": [
 			"Shattered Star Adventure Path",
 			"Pathfinder #66: The Dead Heart of Xin"
@@ -3907,7 +3756,6 @@
 	},
 	"torc_of_kostchtchie": {
 		"name": "Torc of Kostchtchie",
-		"file": "magicartifactsdisplay5bf9-2.html",
 		"sources": [
 			"Artifacts and Legends",
 			"The Witchwar Legacy"
@@ -3931,7 +3779,6 @@
 	},
 	"torc_of_the_heavens": {
 		"name": "Torc of the Heavens",
-		"file": "magicartifactsdisplay9447.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Torc of the Heavens",
@@ -3952,7 +3799,6 @@
 	},
 	"totem_of_angazhan": {
 		"name": "Totem of Angazhan",
-		"file": "magicartifactsdisplay763a.html",
 		"sources": [
 			"Artifacts and Legends",
 			"Pathfinder #42: Sanctum of the Serpent God"
@@ -3986,7 +3832,6 @@
 	},
 	"twin_spheres": {
 		"name": "Twin Spheres",
-		"file": "magicartifactsdisplay7c28.html",
 		"sources": [ "Classic Treasures Revisited" ],
 		"description": [
 			"## Twin Spheres",
@@ -4005,7 +3850,6 @@
 	},
 	"vernal_key": {
 		"name": "Vernal Key",
-		"file": "magicartifactsdisplay64d1.html",
 		"sources": [
 			"Artifacts and Legends",
 			"Flight of the Red Raven"
@@ -4029,7 +3873,6 @@
 	},
 	"vicious_link": {
 		"name": "Vicious Link",
-		"file": "magicartifactsdisplay9c30.html",
 		"sources": [ "Path of the Hellknight" ],
 		"description": [
 			"## Vicious Link",
@@ -4052,7 +3895,6 @@
 	},
 	"visionary_lens": {
 		"name": "Visionary Lens",
-		"file": "magicartifactsdisplay3aaa.html",
 		"sources": [
 			"Artifacts and Legends",
 			"Realm of the Fellnight Queen"
@@ -4080,7 +3922,6 @@
 	},
 	"vivacious_rose_prism_ioun_stone": {
 		"name": "Vivacious Rose Prism Ioun Stone",
-		"file": "magicartifactsdisplay9d76.html",
 		"sources": [ "Pathfinder #126: Beyond the Veiled Past" ],
 		"description": [
 			"## Vivacious Rose Prism Ioun Stone",
@@ -4099,7 +3940,6 @@
 	},
 	"void_crystal": {
 		"name": "Void Crystal",
-		"file": "magicartifactsdisplay15d4.html",
 		"sources": [ "Undead Unleashed" ],
 		"description": [
 			"## Void Crystal",
@@ -4124,7 +3964,6 @@
 	},
 	"warding_box": {
 		"name": "Warding Box",
-		"file": "magicartifactsdisplay3879.html",
 		"sources": [
 			"Artifacts and Legends",
 			"Pathfinder #49: The Brinewall Legacy"
@@ -4146,7 +3985,6 @@
 	},
 	"wardstone": {
 		"name": "Wardstone",
-		"file": "magicartifactsdisplay0ede.html",
 		"sources": [
 			"Inner Sea World Guide",
 			"The Demon Within"
@@ -4168,7 +4006,6 @@
 	},
 	"wardstone_shard": {
 		"name": "Wardstone Shard",
-		"file": "magicartifactsdisplayd18c.html",
 		"sources": [
 			"Wrath of the Righteous Adventure Path",
 			"Pathfinder #73: The Worldwound Incursion"
@@ -4194,7 +4031,6 @@
 	},
 	"weird_queen's_magpie": {
 		"name": "Weird Queen's Magpie",
-		"file": "magicartifactsdisplay9030.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Source [Ultimate Equipment pg. 334](source/ultimate_equipment)",
@@ -4220,7 +4056,6 @@
 	},
 	"wheel_of_worlds": {
 		"name": "Wheel of Worlds",
-		"file": "magicartifactsdisplay0f03.html",
 		"sources": [ "Book of the Damned" ],
 		"description": [
 			"## Wheel of Worlds",
@@ -4258,7 +4093,6 @@
 	},
 	"winter's_heart": {
 		"name": "Winter's Heart",
-		"file": "magicartifactsdisplaya179.html",
 		"sources": [ "Mythic Realms" ],
 		"description": [
 			"## Winter's Heart",
@@ -4285,7 +4119,6 @@
 	},
 	"witch_ice_shard": {
 		"name": "Witch Ice Shard",
-		"file": "magicartifactsdisplay2f44.html",
 		"sources": [ "Carnival of Tears" ],
 		"description": [
 			"## Witch Ice Shard",
@@ -4302,7 +4135,6 @@
 	},
 	"witherfang": {
 		"name": "Witherfang",
-		"file": "magicartifactsdisplay415a.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Witherfang",
@@ -4323,7 +4155,6 @@
 	},
 	"zellara's_harrow_deck": {
 		"name": "Zellara's Harrow Deck",
-		"file": "magicartifactsdisplayf521.html",
 		"sources": [
 			"Curse of the Crimson Throne Adventure Path",
 			"Curse of the Crimson Throne",
@@ -4355,7 +4186,6 @@
 	},
 	"agrimmosh": {
 		"name": "Agrimmosh",
-		"file": "magicartifactsdisplayfa0b.html",
 		"sources": [
 			"Giantslayer Adventure Path",
 			"Pathfinder #91: Battle of Bloodmarch Hills"
@@ -4388,7 +4218,6 @@
 	},
 	"alaznist's_hateful_ranseur": {
 		"name": "Alaznist's Hateful Ranseur",
-		"file": "magicartifactsdisplaya9bf.html",
 		"sources": [ "Pathfinder #138: Rise of New Thassilon" ],
 		"description": [
 			"## Alaznist's Hateful Ranseur",
@@ -4414,7 +4243,6 @@
 	},
 	"anathema_archive": {
 		"name": "Anathema Archive",
-		"file": "magicartifactsdisplayc75b.html",
 		"sources": [
 			"Rise of the Runelords Adventure Path",
 			"Rise of the Runelords Anniversary Edition"
@@ -4444,7 +4272,6 @@
 	},
 	"anima_focus": {
 		"name": "Anima Focus",
-		"file": "magicartifactsdisplayacbe.html",
 		"sources": [
 			"Rise of the Runelords Adventure Path",
 			"Rise of the Runelords Anniversary Edition",
@@ -4467,7 +4294,6 @@
 	},
 	"apocalypse_box": {
 		"name": "Apocalypse Box",
-		"file": "magicartifactsdisplaye2a0.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Apocalypse Box",
@@ -4499,7 +4325,6 @@
 	},
 	"apollyon_ring": {
 		"name": "Apollyon Ring",
-		"file": "magicartifactsdisplay1851.html",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Apollyon Ring",
@@ -4525,7 +4350,6 @@
 	},
 	"avernus_claw": {
 		"name": "Avernus Claw",
-		"file": "magicartifactsdisplay64b4.html",
 		"sources": [ "Hell Unleashed" ],
 		"description": [
 			"## Avernus Claw",
@@ -4544,7 +4368,6 @@
 	},
 	"axe_of_the_dwarvish_lords": {
 		"name": "Axe of the Dwarvish Lords",
-		"file": "magicartifactsdisplay5bb7.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Artifacts and Legends",
@@ -4566,7 +4389,6 @@
 	},
 	"barding_of_pleated_light": {
 		"name": "Barding of Pleated Light",
-		"file": "magicartifactsdisplay1fb5.html",
 		"sources": [
 			"Wrath of the Righteous Adventure Path",
 			"Pathfinder #74: Sword of Valor"
@@ -4590,7 +4412,6 @@
 	},
 	"belimarius's_invidious_halberd": {
 		"name": "Belimarius's Invidious Halberd",
-		"file": "magicartifactsdisplaydbc2.html",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"## Belimarius's Invidious Halberd",
@@ -4621,7 +4442,6 @@
 	},
 	"bellwether_brooch": {
 		"name": "Bellwether Brooch",
-		"file": "magicartifactsdisplay8e28.html",
 		"sources": [ "Guardians of Dragonfall" ],
 		"description": [
 			"## Bellwether Brooch",
@@ -4640,7 +4460,6 @@
 	},
 	"blackaxe": {
 		"name": "Blackaxe",
-		"file": "magicartifactsdisplay7132.html",
 		"sources": [
 			"Artifacts and Legends",
 			"Inner Sea World Guide"
@@ -4662,7 +4481,6 @@
 	},
 	"bloodstones_of_arazni": {
 		"name": "Bloodstones of Arazni",
-		"file": "magicartifactsdisplay0983.html",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Bloodstones of Arazni",
@@ -4688,7 +4506,6 @@
 	},
 	"book_of_the_damned": {
 		"name": "Book of the Damned",
-		"file": "magicartifactsdisplay7e4b.html",
 		"sources": [
 			"Book of the Damned",
 			"Artifacts and Legends"
@@ -4728,7 +4545,6 @@
 	},
 	"book_of_the_damned_apocrypha": {
 		"name": "Book of the Damned (Apocrypha)",
-		"file": "magicartifactsdisplay5e06.html",
 		"sources": [ "Book of the Damned" ],
 		"description": [
 			"## Book of the Damned (Apocrypha)",
@@ -4755,7 +4571,6 @@
 	},
 	"book_of_the_damned_daemonic": {
 		"name": "Book of the Damned (Daemonic)",
-		"file": "magicartifactsdisplay0193.html",
 		"sources": [
 			"Book of the Damned",
 			"Book of the Damned - Volume 3: Horsemen of the Apocalypse"
@@ -4785,7 +4600,6 @@
 	},
 	"book_of_the_damned_demonic": {
 		"name": "Book of the Damned (Demonic)",
-		"file": "magicartifactsdisplay9457.html",
 		"sources": [
 			"Book of the Damned",
 			"Book of the Damned - Volume 2: Lords of Chaos"
@@ -4813,7 +4627,6 @@
 	},
 	"book_of_the_damned_diabolic": {
 		"name": "Book of the Damned (Diabolic)",
-		"file": "magicartifactsdisplaybe21.html",
 		"sources": [
 			"Book of the Damned",
 			"Book of the Damned - Volume 1: Princes of Darkness"
@@ -4845,7 +4658,6 @@
 	},
 	"bottle_of_the_bound": {
 		"name": "Bottle of the Bound",
-		"file": "magicartifactsdisplay1959.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide",
@@ -4871,7 +4683,6 @@
 	},
 	"brazen_egg": {
 		"name": "Brazen Egg",
-		"file": "magicartifactsdisplaye9c8.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Source [Ultimate Equipment pg. 335](source/ultimate_equipment)",
@@ -4891,7 +4702,6 @@
 	},
 	"briar": {
 		"name": "Briar",
-		"file": "magicartifactsdisplaya735.html",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Briar",
@@ -4920,7 +4730,6 @@
 	},
 	"calabash_of_last_draughts": {
 		"name": "Calabash of Last Draughts",
-		"file": "magicartifactsdisplay0434.html",
 		"sources": [ "Feast of Dust" ],
 		"description": [
 			"## Calabash of Last Draughts",
@@ -4943,7 +4752,6 @@
 	},
 	"cantorian_spring": {
 		"name": "Cantorian Spring",
-		"file": "magicartifactsdisplayb20a.html",
 		"sources": [ "Gods and Magic" ],
 		"description": [
 			"## Cantorian Spring",
@@ -4966,7 +4774,6 @@
 	},
 	"celestial_lens": {
 		"name": "Celestial Lens",
-		"file": "magicartifactsdisplay0981.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Lost Cities of Golarion"
@@ -4993,7 +4800,6 @@
 	},
 	"chalice_of_lissala": {
 		"name": "Chalice of Lissala",
-		"file": "magicartifactsdisplay7029.html",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"## Chalice of Lissala",
@@ -5016,7 +4822,6 @@
 	},
 	"chalice_of_ozem": {
 		"name": "Chalice of Ozem",
-		"file": "magicartifactsdisplay3e4f.html",
 		"sources": [
 			"Wrath of the Righteous Adventure Path",
 			"Pathfinder #77: Herald of the Ivory Labyrinth"
@@ -5042,7 +4847,6 @@
 	},
 	"chronicle_of_the_righteous": {
 		"name": "Chronicle of the Righteous",
-		"file": "magicartifactsdisplay8569.html",
 		"sources": [ "Chronicle of the Righteous" ],
 		"description": [
 			"## Source [Chronicle of the Righteous pg. 52](source/chronicle_of_the_righteous)",
@@ -5066,7 +4870,6 @@
 	},
 	"cicatrix": {
 		"name": "Cicatrix",
-		"file": "magicartifactsdisplayf779.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Cicatrix",
@@ -5085,7 +4888,6 @@
 	},
 	"cloud_castle_of_the_storm_king": {
 		"name": "Cloud Castle of the Storm King",
-		"file": "magicartifactsdisplay4b9b.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -5115,7 +4917,6 @@
 	},
 	"codex_of_the_infinite_planes": {
 		"name": "Codex of the Infinite Planes",
-		"file": "magicartifactsdisplay6ef8.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook",
@@ -5144,7 +4945,6 @@
 	},
 	"cradle_of_night": {
 		"name": "Cradle of Night",
-		"file": "magicartifactsdisplay8fcf.html",
 		"sources": [ "Cradle of Night" ],
 		"description": [
 			"## Cradle of Night",
@@ -5163,7 +4963,6 @@
 	},
 	"crook_and_flail_of_kings": {
 		"name": "Crook and Flail of Kings",
-		"file": "magicartifactsdisplay65dc.html",
 		"sources": [
 			"Mummy's Mask Adventure Path",
 			"Pathfinder #84: Pyramid of the Sky Pharaoh"
@@ -5191,7 +4990,6 @@
 	},
 	"crown_of_fangs": {
 		"name": "Crown of Fangs",
-		"file": "magicartifactsdisplay604b.html",
 		"sources": [
 			"Curse of the Crimson Throne Adventure Path",
 			"Curse of the Crimson Throne",
@@ -5223,7 +5021,6 @@
 	},
 	"crown_of_infernal_majesty": {
 		"name": "Crown of Infernal Majesty",
-		"file": "magicartifactsdisplaye067.html",
 		"sources": [
 			"Hell's Vengeance Adventure Path",
 			"Pathfinder #106: For Queen and Empire"
@@ -5247,7 +5044,6 @@
 	},
 	"dancing_hut_of_baba_yaga": {
 		"name": "Dancing Hut of Baba Yaga",
-		"file": "magicartifactsdisplaycc50.html",
 		"sources": [
 			"Reign of Winter Adventure Path",
 			"Pathfinder #68: The Shackled Hut",
@@ -5284,7 +5080,6 @@
 	},
 	"demon_prince_armor": {
 		"name": "Demon Prince Armor",
-		"file": "magicartifactsdisplayafc1.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Source [Ultimate Equipment pg. 337](source/ultimate_equipment)",
@@ -5308,7 +5103,6 @@
 	},
 	"deskari's_tooth": {
 		"name": "Deskari's Tooth",
-		"file": "magicartifactsdisplay1075.html",
 		"sources": [
 			"Wrath of the Righteous Adventure Path",
 			"Pathfinder #78: City of Locusts"
@@ -5330,7 +5124,6 @@
 	},
 	"diadem_of_nod": {
 		"name": "Diadem of Nod",
-		"file": "magicartifactsdisplayc0cb.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Diadem of Nod",
@@ -5351,7 +5144,6 @@
 	},
 	"dryad's_song": {
 		"name": "Dryad's Song",
-		"file": "magicartifactsdisplay998c.html",
 		"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
 		"description": [
 			"## Dryad's Song",
@@ -5384,7 +5176,6 @@
 	},
 	"dryad's_song_corrupted": {
 		"name": "Dryad's Song (Corrupted)",
-		"file": "magicartifactsdisplay5f84.html",
 		"sources": [ "Pathfinder #119: Prisoners of the Blight" ],
 		"description": [
 			"## Dryad's Song (Corrupted)",
@@ -5415,7 +5206,6 @@
 	},
 	"emperor's_mammoth": {
 		"name": "Emperor's Mammoth",
-		"file": "magicartifactsdisplay22bb.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Emperor's Mammoth",
@@ -5438,7 +5228,6 @@
 	},
 	"everdawn_pool": {
 		"name": "Everdawn Pool",
-		"file": "magicartifactsdisplay710a.html",
 		"sources": [
 			"Curse of the Crimson Throne Adventure Path",
 			"Curse of the Crimson Throne"
@@ -5478,7 +5267,6 @@
 	},
 	"eyjatas": {
 		"name": "Eyjatas",
-		"file": "magicartifactsdisplayec58.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Eyjatas",
@@ -5499,7 +5287,6 @@
 	},
 	"flame_of_guidance": {
 		"name": "Flame of Guidance",
-		"file": "magicartifactsdisplay2d47.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Lost Cities of Golarion"
@@ -5520,7 +5307,6 @@
 	},
 	"fork_of_the_forgotten_one": {
 		"name": "Fork of the Forgotten One",
-		"file": "magicartifactsdisplayffd7.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -5543,7 +5329,6 @@
 	},
 	"frozen_heart_of_cocytus": {
 		"name": "Frozen Heart of Cocytus",
-		"file": "magicartifactsdisplayde73.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Frozen Heart of Cocytus",
@@ -5568,7 +5353,6 @@
 	},
 	"gem_of_dreams": {
 		"name": "Gem of Dreams",
-		"file": "magicartifactsdisplay88be.html",
 		"sources": [ "Dungeons of Golarion" ],
 		"description": [
 			"## Gem of Dreams",
@@ -5587,7 +5371,6 @@
 	},
 	"greatcube_of_jayalakshmi": {
 		"name": "Greatcube of Jayalakshmi",
-		"file": "magicartifactsdisplayfd7c.html",
 		"sources": [ "Gods and Magic" ],
 		"description": [
 			"## Greatcube of Jayalakshmi",
@@ -5612,7 +5395,6 @@
 	},
 	"guardian_key": {
 		"name": "Guardian Key",
-		"file": "magicartifactsdisplay038d.html",
 		"sources": [
 			"Shattered Star Adventure Path",
 			"Pathfinder #66: The Dead Heart of Xin"
@@ -5636,7 +5418,6 @@
 	},
 	"handflower_of_genocide": {
 		"name": "Handflower of Genocide",
-		"file": "magicartifactsdisplayb737.html",
 		"sources": [ "Feast of Dust" ],
 		"description": [
 			"## Handflower of Genocide",
@@ -5659,7 +5440,6 @@
 	},
 	"harrow_deck_of_many_things": {
 		"name": "Harrow Deck of Many Things",
-		"file": "magicartifactsdisplay604a.html",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Harrow Deck of Many Things",
@@ -5688,7 +5468,6 @@
 	},
 	"heart_of_the_herald": {
 		"name": "Heart of the Herald",
-		"file": "magicartifactsdisplay2d4a.html",
 		"sources": [
 			"Wrath of the Righteous Adventure Path",
 			"Pathfinder #77: Herald of the Ivory Labyrinth"
@@ -5714,7 +5493,6 @@
 	},
 	"heart's_bane": {
 		"name": "Heart's Bane",
-		"file": "magicartifactsdisplay2b70.html",
 		"sources": [
 			"Hell's Vengeance Adventure Path",
 			"Pathfinder #108: Hell Comes to Westcrown"
@@ -5738,7 +5516,6 @@
 	},
 	"heart's_edge": {
 		"name": "Heart's Edge",
-		"file": "magicartifactsdisplayfb4e.html",
 		"sources": [
 			"Hell's Vengeance Adventure Path",
 			"Pathfinder #108: Hell Comes to Westcrown"
@@ -5762,7 +5539,6 @@
 	},
 	"helicyon": {
 		"name": "Helicyon",
-		"file": "magicartifactsdisplay5230.html",
 		"sources": [ "Heaven Unleashed" ],
 		"description": [
 			"## Helicyon",
@@ -5781,7 +5557,6 @@
 	},
 	"horn_of_lies": {
 		"name": "Horn of Lies",
-		"file": "magicartifactsdisplay90f0.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Horn of Lies",
@@ -5802,7 +5577,6 @@
 	},
 	"horns_of_naraga": {
 		"name": "Horns of Naraga",
-		"file": "magicartifactsdisplay49b3.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Artifacts and Legends",
@@ -5824,7 +5598,6 @@
 	},
 	"icecrown_of_irrisen": {
 		"name": "Icecrown of Irrisen",
-		"file": "magicartifactsdisplayc939.html",
 		"sources": [
 			"Reign of Winter Adventure Path",
 			"Pathfinder #72: The Witch Queen's Revenge"
@@ -5853,7 +5626,6 @@
 	},
 	"ihystear": {
 		"name": "Ihystear",
-		"file": "magicartifactsdisplay0bd9.html",
 		"sources": [ "Book of the Damned" ],
 		"description": [
 			"## Ihystear",
@@ -5876,7 +5648,6 @@
 	},
 	"imago_lens": {
 		"name": "Imago Lens",
-		"file": "magicartifactsdisplayd519.html",
 		"sources": [
 			"Wrath of the Righteous Adventure Path",
 			"Pathfinder #76: The Midnight Isles"
@@ -5898,7 +5669,6 @@
 	},
 	"infensus_mucro": {
 		"name": "Infensus Mucro",
-		"file": "magicartifactsdisplay183c.html",
 		"sources": [ "Tomb of the Iron Medusa" ],
 		"description": [
 			"## Infensus Mucro",
@@ -5926,7 +5696,6 @@
 	},
 	"invidian_eye": {
 		"name": "Invidian Eye",
-		"file": "magicartifactsdisplay8d57.html",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Invidian Eye",
@@ -5951,7 +5720,6 @@
 	},
 	"jar_of_dragon's_teeth": {
 		"name": "Jar of Dragon's Teeth",
-		"file": "magicartifactsdisplay5bf9.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Source [Ultimate Equipment pg. 337](source/ultimate_equipment)",
@@ -5981,7 +5749,6 @@
 	},
 	"jawbone_of_the_venerable_galevius": {
 		"name": "Jawbone of the Venerable Galevius",
-		"file": "magicartifactsdisplay0aab.html",
 		"sources": [
 			"Wrath of the Righteous Adventure Path",
 			"Pathfinder #74: Sword of Valor"
@@ -6015,7 +5782,6 @@
 	},
 	"karzoug's_burning_glaive": {
 		"name": "Karzoug's Burning Glaive",
-		"file": "magicartifactsdisplaye145.html",
 		"sources": [
 			"Rise of the Runelords Adventure Path",
 			"Rise of the Runelords Anniversary Edition"
@@ -6049,7 +5815,6 @@
 	},
 	"lamentation_of_the_faithless": {
 		"name": "Lamentation of the Faithless",
-		"file": "magicartifactsdisplay35dd.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Lamentation of the Faithless",
@@ -6068,7 +5833,6 @@
 	},
 	"legendsbane": {
 		"name": "Legendsbane",
-		"file": "magicartifactsdisplaye032.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Legendsbane",
@@ -6091,7 +5855,6 @@
 	},
 	"lens_of_galundari": {
 		"name": "Lens of Galundari",
-		"file": "magicartifactsdisplayfd80.html",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Lens of Galundari",
@@ -6116,7 +5879,6 @@
 	},
 	"linnorm's_lament": {
 		"name": "Linnorm's Lament",
-		"file": "magicartifactsdisplayfe72.html",
 		"sources": [ "Classic Treasures Revisited" ],
 		"description": [
 			"## Linnorm's Lament",
@@ -6135,7 +5897,6 @@
 	},
 	"lung_bloodstone_of_arazni": {
 		"name": "Lung Bloodstone of Arazni",
-		"file": "magicartifactsdisplay572a.html",
 		"sources": [ "Pathfinder #141: Last Watch" ],
 		"description": [
 			"## Lung Bloodstone of Arazni",
@@ -6154,7 +5915,6 @@
 	},
 	"mask_of_the_forgotten_pharaoh": {
 		"name": "Mask of the Forgotten Pharaoh",
-		"file": "magicartifactsdisplay3b94.html",
 		"sources": [
 			"Mummy's Mask Adventure Path",
 			"Pathfinder #80: Empty Graves"
@@ -6188,7 +5948,6 @@
 	},
 	"minderhal's_forge": {
 		"name": "Minderhal's Forge",
-		"file": "magicartifactsdisplay4e00.html",
 		"sources": [
 			"Giantslayer Adventure Path",
 			"Pathfinder #93: Forge of the Giant God"
@@ -6226,7 +5985,6 @@
 	},
 	"mirror_of_sorshen": {
 		"name": "Mirror of Sorshen",
-		"file": "magicartifactsdisplay23ab.html",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"## Mirror of Sorshen",
@@ -6249,7 +6007,6 @@
 	},
 	"mog-lathar,_the_petrified_spider": {
 		"name": "Mog-Lathar, the Petrified Spider",
-		"file": "magicartifactsdisplayf8eb.html",
 		"sources": [ "The House on Hook Street" ],
 		"description": [
 			"## Mog-Lathar, the Petrified Spider",
@@ -6275,7 +6032,6 @@
 	},
 	"netherworld_cauldron": {
 		"name": "Netherworld Cauldron",
-		"file": "magicartifactsdisplay0c46.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Netherworld Cauldron",
@@ -6298,7 +6054,6 @@
 	},
 	"nimbus_of_radiant_truth": {
 		"name": "Nimbus of Radiant Truth",
-		"file": "magicartifactsdisplayf9b7.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Nimbus of Radiant Truth",
@@ -6330,7 +6085,6 @@
 	},
 	"noriznigath": {
 		"name": "Noriznigath",
-		"file": "magicartifactsdisplaycb78.html",
 		"sources": [
 			"Wrath of the Righteous Adventure Path",
 			"Pathfinder #78: City of Locusts"
@@ -6352,7 +6106,6 @@
 	},
 	"omat's_sarcophagus": {
 		"name": "Omat's Sarcophagus",
-		"file": "magicartifactsdisplay4ab3.html",
 		"sources": [
 			"Mummy's Mask Adventure Path",
 			"Pathfinder #83: The Slave Trenches of Hakotep"
@@ -6378,7 +6131,6 @@
 	},
 	"orbs_of_dragonkind": {
 		"name": "Orbs of Dragonkind",
-		"file": "magicartifactsdisplayedc8.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Artifacts and Legends",
@@ -6413,7 +6165,6 @@
 	},
 	"pauper's_thighbone": {
 		"name": "Pauper's Thighbone",
-		"file": "magicartifactsdisplayf115.html",
 		"sources": [
 			"Wrath of the Righteous Adventure Path",
 			"Pathfinder #74: Sword of Valor"
@@ -6441,7 +6192,6 @@
 	},
 	"perfection's_key": {
 		"name": "Perfection's Key",
-		"file": "magicartifactsdisplay2c6d.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Source [Ultimate Equipment pg. 339](source/ultimate_equipment)",
@@ -6459,7 +6209,6 @@
 	},
 	"plaguebringer": {
 		"name": "Plaguebringer",
-		"file": "magicartifactsdisplay362c.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Plaguebringer",
@@ -6501,7 +6250,6 @@
 	},
 	"primogen_crown": {
 		"name": "Primogen Crown",
-		"file": "magicartifactsdisplay77c6.html",
 		"sources": [ "Pathfinder #127: Crownfall" ],
 		"description": [
 			"## Primogen Crown",
@@ -6522,7 +6270,6 @@
 	},
 	"radiance": {
 		"name": "Radiance",
-		"file": "magicartifactsdisplaybe9d.html",
 		"sources": [
 			"Wrath of the Righteous Adventure Path",
 			"Pathfinder #73: The Worldwound Incursion"
@@ -6548,7 +6295,6 @@
 	},
 	"ravenous_blade": {
 		"name": "Ravenous Blade",
-		"file": "magicartifactsdisplay4b0d.html",
 		"sources": [ "Feast of Dust" ],
 		"description": [
 			"## Ravenous Blade",
@@ -6569,7 +6315,6 @@
 	},
 	"relic_of_kazavon-armor_of_skulls": {
 		"name": "Relic of Kazavon-Armor of Skulls",
-		"file": "magicartifactsdisplay888d.html",
 		"sources": [
 			"Artifacts and Legends",
 			"Pathfinder #12: Crown of Fangs"
@@ -6602,7 +6347,6 @@
 	},
 	"relic_of_kazavon-bound_blade": {
 		"name": "Relic of Kazavon-Bound Blade",
-		"file": "magicartifactsdisplay23d9.html",
 		"sources": [
 			"Artifacts and Legends",
 			"Pathfinder #12: Crown of Fangs"
@@ -6636,7 +6380,6 @@
 	},
 	"relic_of_kazavon-crown_of_fangs": {
 		"name": "Relic of Kazavon-Crown of Fangs",
-		"file": "magicartifactsdisplaye4d9.html",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Relic of Kazavon, Crown of Fangs",
@@ -6666,7 +6409,6 @@
 	},
 	"relic_of_kazavon-howling_horn": {
 		"name": "Relic of Kazavon-Howling Horn",
-		"file": "magicartifactsdisplaye981.html",
 		"sources": [
 			"Artifacts and Legends",
 			"Pathfinder #12: Crown of Fangs"
@@ -6699,7 +6441,6 @@
 	},
 	"relic_of_kazavon-shredskin": {
 		"name": "Relic of Kazavon-Shredskin",
-		"file": "magicartifactsdisplay979b.html",
 		"sources": [
 			"Artifacts and Legends",
 			"Pathfinder #12: Crown of Fangs"
@@ -6732,7 +6473,6 @@
 	},
 	"relic_of_kazavon-staff_of_the_slain": {
 		"name": "Relic of Kazavon-Staff of the Slain",
-		"file": "magicartifactsdisplay829a.html",
 		"sources": [
 			"Artifacts and Legends",
 			"Pathfinder #12: Crown of Fangs"
@@ -6767,7 +6507,6 @@
 	},
 	"relic_of_kazavon-throne_of_nalt": {
 		"name": "Relic of Kazavon-Throne of Nalt",
-		"file": "magicartifactsdisplaya386.html",
 		"sources": [
 			"Artifacts and Legends",
 			"Pathfinder #12: Crown of Fangs"
@@ -6802,7 +6541,6 @@
 	},
 	"riftcarver": {
 		"name": "Riftcarver",
-		"file": "magicartifactsdisplay3f5c.html",
 		"sources": [
 			"Wrath of the Righteous Adventure Path",
 			"Pathfinder #78: City of Locusts"
@@ -6828,7 +6566,6 @@
 	},
 	"ring_of_nine_facets": {
 		"name": "Ring of Nine Facets",
-		"file": "magicartifactsdisplaybd2a.html",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Ring of Nine Facets",
@@ -6865,7 +6602,6 @@
 	},
 	"robe_of_the_rifts": {
 		"name": "Robe of the Rifts",
-		"file": "magicartifactsdisplayca33.html",
 		"sources": [
 			"Wrath of the Righteous Adventure Path",
 			"Pathfinder #78: City of Locusts"
@@ -6892,7 +6628,6 @@
 	},
 	"runewell_of_greed": {
 		"name": "Runewell of Greed",
-		"file": "magicartifactsdisplay1c63.html",
 		"sources": [
 			"Rise of the Runelords Adventure Path",
 			"Rise of the Runelords Anniversary Edition"
@@ -6920,7 +6655,6 @@
 	},
 	"runewell_of_wrath": {
 		"name": "Runewell of Wrath",
-		"file": "magicartifactsdisplay63de.html",
 		"sources": [ "Pathfinder #138: Rise of New Thassilon" ],
 		"description": [
 			"## Runewell of Wrath",
@@ -6939,7 +6673,6 @@
 	},
 	"saint_cuthbert's_mace": {
 		"name": "Saint Cuthbert's Mace",
-		"file": "magicartifactsdisplaycc24.html",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Saint Cuthbert's Mace",
@@ -6960,7 +6693,6 @@
 	},
 	"scepter_of_ages": {
 		"name": "Scepter of Ages",
-		"file": "magicartifactsdisplay8740.html",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Scepter of Ages",
@@ -6981,7 +6713,6 @@
 	},
 	"scepter_of_alaznist": {
 		"name": "Scepter of Alaznist",
-		"file": "magicartifactsdisplayeb28.html",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"## Scepter of Alaznist",
@@ -7004,7 +6735,6 @@
 	},
 	"scepter_of_shibaxet": {
 		"name": "Scepter of Shibaxet",
-		"file": "magicartifactsdisplay3be2.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Scepter of Shibaxet",
@@ -7023,7 +6753,6 @@
 	},
 	"scepter_of_the_shining_lord": {
 		"name": "Scepter of the Shining Lord",
-		"file": "magicartifactsdisplay357d.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Scepter of the Shining Lord",
@@ -7055,7 +6784,6 @@
 	},
 	"scintillating_garment": {
 		"name": "Scintillating Garment",
-		"file": "magicartifactsdisplay07bc.html",
 		"sources": [ "Pathfinder #138: Rise of New Thassilon" ],
 		"description": [
 			"## Scintillating Garment",
@@ -7074,7 +6802,6 @@
 	},
 	"scroll_of_kakishon": {
 		"name": "Scroll of Kakishon",
-		"file": "magicartifactsdisplay17cb.html",
 		"sources": [
 			"Artifacts and Legends",
 			"Pathfinder #21: The Jackal's Price"
@@ -7096,7 +6823,6 @@
 	},
 	"serithtial": {
 		"name": "Serithtial",
-		"file": "magicartifactsdisplay6b53.html",
 		"sources": [
 			"Curse of the Crimson Throne Adventure Path",
 			"Curse of the Crimson Throne",
@@ -7135,7 +6861,6 @@
 	},
 	"shadowstaff": {
 		"name": "Shadowstaff",
-		"file": "magicartifactsdisplay8fe3.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook",
@@ -7162,7 +6887,6 @@
 	},
 	"shadowwraith_heart": {
 		"name": "Shadowwraith Heart",
-		"file": "magicartifactsdisplay4f60.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Shadowwraith Heart",
@@ -7181,7 +6905,6 @@
 	},
 	"shard_of_envy": {
 		"name": "Shard of Envy",
-		"file": "magicartifactsdisplay15a2.html",
 		"sources": [
 			"Shattered Star Adventure Path",
 			"Pathfinder #61: Shards of Sin"
@@ -7205,7 +6928,6 @@
 	},
 	"shard_of_gluttony": {
 		"name": "Shard of Gluttony",
-		"file": "magicartifactsdisplayc9ea.html",
 		"sources": [
 			"Shattered Star Adventure Path",
 			"Pathfinder #61: Shards of Sin"
@@ -7229,7 +6951,6 @@
 	},
 	"shard_of_greed": {
 		"name": "Shard of Greed",
-		"file": "magicartifactsdisplayb9e0.html",
 		"sources": [
 			"Shattered Star Adventure Path",
 			"Pathfinder #61: Shards of Sin"
@@ -7253,7 +6974,6 @@
 	},
 	"shard_of_lust": {
 		"name": "Shard of Lust",
-		"file": "magicartifactsdisplay4b73.html",
 		"sources": [
 			"Shattered Star Adventure Path",
 			"Pathfinder #61: Shards of Sin"
@@ -7277,7 +6997,6 @@
 	},
 	"shard_of_pride": {
 		"name": "Shard of Pride",
-		"file": "magicartifactsdisplay5617.html",
 		"sources": [
 			"Shattered Star Adventure Path",
 			"Pathfinder #61: Shards of Sin"
@@ -7301,7 +7020,6 @@
 	},
 	"shard_of_sloth": {
 		"name": "Shard of Sloth",
-		"file": "magicartifactsdisplay18c1.html",
 		"sources": [
 			"Shattered Star Adventure Path",
 			"Pathfinder #61: Shards of Sin"
@@ -7325,7 +7043,6 @@
 	},
 	"shard_of_wrath": {
 		"name": "Shard of Wrath",
-		"file": "magicartifactsdisplay5b69.html",
 		"sources": [
 			"Shattered Star Adventure Path",
 			"Pathfinder #61: Shards of Sin"
@@ -7349,7 +7066,6 @@
 	},
 	"shelana_the_mother_deck": {
 		"name": "Shelana the Mother Deck",
-		"file": "magicartifactsdisplay00c0.html",
 		"sources": [ "Classic Treasures Revisited" ],
 		"description": [
 			"## Shelana the Mother Deck",
@@ -7375,7 +7091,6 @@
 	},
 	"shield_of_aroden": {
 		"name": "Shield of Aroden",
-		"file": "magicartifactsdisplay346c.html",
 		"sources": [
 			"Artifacts and Legends",
 			"Gods and Magic",
@@ -7402,7 +7117,6 @@
 	},
 	"shield_of_xin-undoros": {
 		"name": "Shield of Xin-Undoros",
-		"file": "magicartifactsdisplaye0a5.html",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"## Shield of Xin-Undoros",
@@ -7428,7 +7142,6 @@
 	},
 	"shroud_of_flies": {
 		"name": "Shroud of Flies",
-		"file": "magicartifactsdisplay068f.html",
 		"sources": [ "Feast of Dust" ],
 		"description": [
 			"## Shroud of Flies",
@@ -7451,7 +7164,6 @@
 	},
 	"sihedron": {
 		"name": "Sihedron",
-		"file": "magicartifactsdisplaye066.html",
 		"sources": [
 			"Pathfinder #137: The City Outside of Time",
 			"Pathfinder #66: The Dead Heart of Xin"
@@ -7503,7 +7215,6 @@
 	},
 	"silver_maiden": {
 		"name": "Silver Maiden",
-		"file": "magicartifactsdisplay85da.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Silver Maiden",
@@ -7528,7 +7239,6 @@
 	},
 	"skull_of_ydersius": {
 		"name": "Skull of Ydersius",
-		"file": "magicartifactsdisplay2c45.html",
 		"sources": [
 			"Artifacts and Legends",
 			"Pathfinder #42: Sanctum of the Serpent God"
@@ -7558,7 +7268,6 @@
 	},
 	"skullsoul": {
 		"name": "Skullsoul",
-		"file": "magicartifactsdisplay2eca.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Source [Ultimate Equipment pg. 339](source/ultimate_equipment)",
@@ -7576,7 +7285,6 @@
 	},
 	"song_of_extinction_music_box": {
 		"name": "Song of Extinction (Music Box)",
-		"file": "magicartifactsdisplayd5d6.html",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Song of Extinction (Music Box)",
@@ -7599,7 +7307,6 @@
 	},
 	"sorshen's_sinuous_guisarme": {
 		"name": "Sorshen's Sinuous Guisarme",
-		"file": "magicartifactsdisplay4ed1.html",
 		"sources": [ "Pathfinder #138: Rise of New Thassilon" ],
 		"description": [
 			"## Sorshen's Sinuous Guisarme",
@@ -7627,7 +7334,6 @@
 	},
 	"soulforge": {
 		"name": "Soulforge",
-		"file": "magicartifactsdisplay24c1.html",
 		"sources": [ "Tombs of Golarion" ],
 		"description": [
 			"## Soulforge",
@@ -7656,7 +7362,6 @@
 	},
 	"spherical_boat_of_zutha": {
 		"name": "Spherical Boat of Zutha",
-		"file": "magicartifactsdisplaya858.html",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"## Spherical Boat of Zutha",
@@ -7697,7 +7402,6 @@
 	},
 	"staff_of_elemental_castigation": {
 		"name": "Staff of Elemental Castigation",
-		"file": "magicartifactsdisplay2298.html",
 		"sources": [ "Classic Treasures Revisited" ],
 		"description": [
 			"## Staff of Elemental Castigation",
@@ -7722,7 +7426,6 @@
 	},
 	"stole_of_the_inheritor": {
 		"name": "Stole of the Inheritor",
-		"file": "magicartifactsdisplaydf35.html",
 		"sources": [
 			"Wrath of the Righteous Adventure Path",
 			"Pathfinder #77: Herald of the Ivory Labyrinth"
@@ -7744,7 +7447,6 @@
 	},
 	"surcease_of_sorows": {
 		"name": "Surcease of Sorows",
-		"file": "magicartifactsdisplay01ad.html",
 		"sources": [ "Pathfinder #143: Borne by the Sun's Grace" ],
 		"description": [
 			"## Surcease of Sorows",
@@ -7765,7 +7467,6 @@
 	},
 	"sword_of_gluttony-ungarato": {
 		"name": "Sword of Gluttony-Ungarato",
-		"file": "magicartifactsdisplay2a7e.html",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Sword of Gluttony, Ungarato",
@@ -7797,7 +7498,6 @@
 	},
 	"sword_of_greed-chellan": {
 		"name": "Sword of Greed-Chellan",
-		"file": "magicartifactsdisplay008b.html",
 		"sources": [
 			"Rise of the Runelords Adventure Path",
 			"Rise of the Runelords Anniversary Edition",
@@ -7836,7 +7536,6 @@
 	},
 	"sword_of_lust-asheia": {
 		"name": "Sword of Lust-Asheia",
-		"file": "magicartifactsdisplay8ce7.html",
 		"sources": [
 			"Artifacts and Legends",
 			"Seven Swords of Sin"
@@ -7871,7 +7570,6 @@
 	},
 	"sword_of_pride-baraket": {
 		"name": "Sword of Pride-Baraket",
-		"file": "magicartifactsdisplaya291.html",
 		"sources": [
 			"Pathfinder #133: Secrets of Roderic's Cove",
 			"Artifacts and Legends"
@@ -7908,7 +7606,6 @@
 	},
 	"sword_of_sloth,_shin-tari": {
 		"name": "Sword of Sloth, Shin-Tari",
-		"file": "magicartifactsdisplayb692.html",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Sword of Sloth, Shin-Tari",
@@ -7940,7 +7637,6 @@
 	},
 	"sword_of_valor": {
 		"name": "Sword of Valor",
-		"file": "magicartifactsdisplayef3e.html",
 		"sources": [
 			"Wrath of the Righteous Adventure Path",
 			"Pathfinder #74: Sword of Valor"
@@ -7962,7 +7658,6 @@
 	},
 	"sword_of_wrath-garvok": {
 		"name": "Sword of Wrath-Garvok",
-		"file": "magicartifactsdisplaye8ce.html",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Sword of Wrath, Garvok",
@@ -7994,7 +7689,6 @@
 	},
 	"synchrony_device": {
 		"name": "Synchrony Device",
-		"file": "magicartifactsdisplayd123.html",
 		"sources": [ "Pathfinder #126: Beyond the Veiled Past" ],
 		"description": [
 			"## Synchrony Device",
@@ -8041,7 +7735,6 @@
 	},
 	"tannaris-sword_of_envy": {
 		"name": "Tannaris-Sword of Envy",
-		"file": "magicartifactsdisplay545f.html",
 		"sources": [
 			"Pathfinder #137: The City Outside of Time",
 			"Artifacts and Legends"
@@ -8074,7 +7767,6 @@
 	},
 	"tarnhelm": {
 		"name": "Tarnhelm",
-		"file": "magicartifactsdisplay9cc3.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Tarnhelm",
@@ -8101,7 +7793,6 @@
 	},
 	"tathlum": {
 		"name": "Tathlum",
-		"file": "magicartifactsdisplay7660.html",
 		"sources": [
 			"Hell's Vengeance Adventure Path",
 			"Pathfinder #108: Hell Comes to Westcrown"
@@ -8127,7 +7818,6 @@
 	},
 	"the_aqualinth": {
 		"name": "The Aqualinth",
-		"file": "magicartifactsdisplaydb99.html",
 		"sources": [ "Lost Cities of Golarion" ],
 		"description": [
 			"## The Aqualinth",
@@ -8154,7 +7844,6 @@
 	},
 	"the_bone_grimoire": {
 		"name": "The Bone Grimoire",
-		"file": "magicartifactsdisplay5a0e.html",
 		"sources": [ "Pathfinder #135: Runeplague" ],
 		"description": [
 			"## The Bone Grimoire",
@@ -8175,7 +7864,6 @@
 	},
 	"the_demonscope": {
 		"name": "The Demonscope",
-		"file": "magicartifactsdisplay7276.html",
 		"sources": [ "The Demon Within" ],
 		"description": [
 			"## The Demonscope",
@@ -8200,7 +7888,6 @@
 	},
 	"the_doom_idol_of_ib": {
 		"name": "The Doom Idol of Ib",
-		"file": "magicartifactsdisplaydf75.html",
 		"sources": [ "Pathfinder #111: Dreams of the Yellow King" ],
 		"description": [
 			"## The Doom Idol of Ib",
@@ -8223,7 +7910,6 @@
 	},
 	"the_dreamstone": {
 		"name": "The Dreamstone",
-		"file": "magicartifactsdisplay0b9a.html",
 		"sources": [ "The House on Hook Street" ],
 		"description": [
 			"## The Dreamstone",
@@ -8248,7 +7934,6 @@
 	},
 	"the_eclipsing_eye": {
 		"name": "The Eclipsing Eye",
-		"file": "magicartifactsdisplay0e7a.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## The Eclipsing Eye",
@@ -8267,7 +7952,6 @@
 	},
 	"the_gasping_pearl": {
 		"name": "The Gasping Pearl",
-		"file": "magicartifactsdisplay28ea.html",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## The Gasping Pearl",
@@ -8286,7 +7970,6 @@
 	},
 	"the_gluttonous_tome": {
 		"name": "The Gluttonous Tome",
-		"file": "magicartifactsdisplayf4f9.html",
 		"sources": [
 			"Rise of the Runelords Adventure Path",
 			"Magic of Thassilon"
@@ -8336,7 +8019,6 @@
 	},
 	"the_impossible_eye": {
 		"name": "The Impossible Eye",
-		"file": "magicartifactsdisplayc504.html",
 		"sources": [
 			"Legacy of Fire Adventure Path",
 			"Pathfinder #23: The Impossible Eye"
@@ -8362,7 +8044,6 @@
 	},
 	"the_jewel_of_everlasting_gold": {
 		"name": "The Jewel of Everlasting Gold",
-		"file": "magicartifactsdisplaya2d8.html",
 		"sources": [ "City of Golden Death" ],
 		"description": [
 			"## The Jewel of Everlasting Gold",
@@ -8393,7 +8074,6 @@
 	},
 	"the_moaning_diamond": {
 		"name": "The Moaning Diamond",
-		"file": "magicartifactsdisplayf8c2.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide",
@@ -8416,7 +8096,6 @@
 	},
 	"the_shield_of_the_sun": {
 		"name": "The Shield of the Sun",
-		"file": "magicartifactsdisplay80e3.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Advanced Player's Guide"
@@ -8439,7 +8118,6 @@
 	},
 	"the_viridian_crown": {
 		"name": "The Viridian Crown",
-		"file": "magicartifactsdisplayc1bb.html",
 		"sources": [ "Elves of Golarion" ],
 		"description": [
 			"## The Viridian Crown",
@@ -8460,7 +8138,6 @@
 	},
 	"thorncrown_of_iomedae": {
 		"name": "Thorncrown of Iomedae",
-		"file": "magicartifactsdisplay7f07.html",
 		"sources": [ "Artifacts and Legends" ],
 		"description": [
 			"## Thorncrown of Iomedae",
@@ -8481,7 +8158,6 @@
 	},
 	"trueforge": {
 		"name": "Trueforge",
-		"file": "magicartifactsdisplay3df1.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## Trueforge",
@@ -8514,7 +8190,6 @@
 	},
 	"usher_of_the_black_rain": {
 		"name": "Usher of the Black Rain",
-		"file": "magicartifactsdisplay6cc2.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Usher of the Black Rain",
@@ -8533,7 +8208,6 @@
 	},
 	"vesper's_rapier": {
 		"name": "Vesper's Rapier",
-		"file": "magicartifactsdisplay2a95.html",
 		"sources": [
 			"Artifacts and Legends",
 			"Gods and Magic"
@@ -8557,7 +8231,6 @@
 	},
 	"visineir": {
 		"name": "Visineir",
-		"file": "magicartifactsdisplayc0ae.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Visineir",
@@ -8578,7 +8251,6 @@
 	},
 	"was_scepter": {
 		"name": "Was Scepter",
-		"file": "magicartifactsdisplayac50.html",
 		"sources": [
 			"Mummy's Mask Adventure Path",
 			"Pathfinder #83: The Slave Trenches of Hakotep"
@@ -8607,7 +8279,6 @@
 	},
 	"winter_collector": {
 		"name": "Winter Collector",
-		"file": "magicartifactsdisplayc1e0.html",
 		"sources": [
 			"Reign of Winter Adventure Path",
 			"Pathfinder #72: The Witch Queen's Revenge"

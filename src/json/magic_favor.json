@@ -2,7 +2,6 @@
 	"_prefix": "magic-favor",
 	"kerchief_of_remembrance": {
 		"name": "Kerchief of Remembrance",
-		"file": "magicfavorsdisplay8eb5.html",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [
 			"## Kerchief of Remembrance",
@@ -21,7 +20,6 @@
 	},
 	"paper_flower": {
 		"name": "Paper Flower",
-		"file": "magicfavorsdisplay714f.html",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [
 			"## Paper Flower",
@@ -40,7 +38,6 @@
 	},
 	"lucky_button": {
 		"name": "Lucky Button",
-		"file": "magicfavorsdisplaya4a3.html",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [
 			"## Lucky Button",
@@ -59,7 +56,6 @@
 	},
 	"laurel_of_the_champion": {
 		"name": "Laurel of the Champion",
-		"file": "magicfavorsdisplaya72d.html",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [
 			"## Laurel of the Champion",
@@ -78,7 +74,6 @@
 	},
 	"token_of_gallantry": {
 		"name": "Token of Gallantry",
-		"file": "magicfavorsdisplay585d.html",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [
 			"## Token of Gallantry",

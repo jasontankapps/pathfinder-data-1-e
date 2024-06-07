@@ -2,7 +2,6 @@
 	"_prefix": "archetype-gunslinger",
 	"black_powder_vaulter": {
 		"name": "Black Powder Vaulter",
-		"file": "archetypedisplay351c.html",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
 			"## Black Powder Vaulter",
@@ -36,7 +35,6 @@
 	},
 	"blatherskite": {
 		"name": "Blatherskite",
-		"file": "archetypedisplay8e46.html",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Blatherskite",
@@ -74,7 +72,6 @@
 	},
 	"bolt_ace": {
 		"name": "Bolt Ace",
-		"file": "archetypedisplay9002.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Bolt Ace",
@@ -110,7 +107,6 @@
 	},
 	"buccaneer": {
 		"name": "Buccaneer",
-		"file": "archetypedisplay700b.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Buccaneer",
@@ -146,7 +142,6 @@
 	},
 	"bushwhacker": {
 		"name": "Bushwhacker",
-		"file": "archetypedisplay1d7a.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Bushwhacker",
@@ -168,7 +163,6 @@
 	},
 	"commando": {
 		"name": "Commando",
-		"file": "archetypedisplay1aac.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Commando",
@@ -212,7 +206,6 @@
 	},
 	"experimental_gunsmith": {
 		"name": "Experimental Gunsmith",
-		"file": "archetypedisplay256c.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Experimental Gunsmith",
@@ -240,7 +233,6 @@
 	},
 	"firebrand": {
 		"name": "Firebrand",
-		"file": "archetypedisplay8932.html",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
 			"## Firebrand",
@@ -276,7 +268,6 @@
 	},
 	"graveslinger": {
 		"name": "Graveslinger",
-		"file": "archetypedisplay98bb.html",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
 			"## Graveslinger",
@@ -312,7 +303,6 @@
 	},
 	"gulch_gunner": {
 		"name": "Gulch Gunner",
-		"file": "archetypedisplay0b2e.html",
 		"sources": [],
 		"description": [
 			"## Gulch Gunner",
@@ -340,7 +330,6 @@
 	},
 	"gun_scavenger": {
 		"name": "Gun Scavenger",
-		"file": "archetypedisplay23bc.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Gun Scavenger",
@@ -364,7 +353,6 @@
 	},
 	"gun_tank": {
 		"name": "Gun Tank",
-		"file": "archetypedisplay7828.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Gun Tank",
@@ -388,7 +376,6 @@
 	},
 	"gunner_squire": {
 		"name": "Gunner Squire",
-		"file": "archetypedisplayf99a.html",
 		"sources": [ "Knights of the Inner Sea" ],
 		"description": [
 			"## Gunner Squire",
@@ -408,7 +395,6 @@
 	},
 	"maverick": {
 		"name": "Maverick",
-		"file": "archetypedisplayd1e9.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Maverick",
@@ -434,7 +420,6 @@
 	},
 	"musket_master": {
 		"name": "Musket Master",
-		"file": "archetypedisplay20d6.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Musket Master",
@@ -460,7 +445,6 @@
 	},
 	"mysterious_stranger": {
 		"name": "Mysterious Stranger",
-		"file": "archetypedisplay6dba.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Mysterious Stranger",
@@ -484,7 +468,6 @@
 	},
 	"pistolero": {
 		"name": "Pistolero",
-		"file": "archetypedisplay7e24.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Pistolero",
@@ -511,7 +494,6 @@
 	},
 	"planar_rifter": {
 		"name": "Planar Rifter",
-		"file": "archetypedisplayd668.html",
 		"sources": [ "Plane-Hopper's Handbook" ],
 		"description": [
 			"## Planar Rifter",
@@ -553,7 +535,6 @@
 	},
 	"scatter_gunner": {
 		"name": "Scatter Gunner",
-		"file": "archetypedisplay55f2.html",
 		"sources": [ "People of the Wastes" ],
 		"description": [
 			"## Scatter Gunner",
@@ -589,7 +570,6 @@
 	},
 	"siege_gunner": {
 		"name": "Siege Gunner",
-		"file": "archetypedisplay1964.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Siege Gunner",
@@ -613,7 +593,6 @@
 	},
 	"techslinger": {
 		"name": "Techslinger",
-		"file": "archetypedisplay94de.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Techslinger",
@@ -641,7 +620,6 @@
 	},
 	"thronewarden": {
 		"name": "Thronewarden",
-		"file": "archetypedisplay7ca2.html",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [
 			"## Thronewarden",
@@ -675,7 +653,6 @@
 	},
 	"wyrm_sniper": {
 		"name": "Wyrm Sniper",
-		"file": "archetypedisplay5029.html",
 		"sources": [ "Dragonslayer's Handbook" ],
 		"description": [
 			"## Wyrm Sniper",

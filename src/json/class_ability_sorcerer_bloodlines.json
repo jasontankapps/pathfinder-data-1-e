@@ -2,7 +2,6 @@
 	"_prefix": "class_abilities-sorcerer_bloodline",
 	"aberrant": {
 		"name": "Aberrant",
-		"file": "bloodlinedisplay20be.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Aberrant",
@@ -60,7 +59,6 @@
 	},
 	"abyssal": {
 		"name": "Abyssal",
-		"file": "bloodlinedisplay7aee.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Abyssal",
@@ -103,7 +101,6 @@
 	},
 	"accursed": {
 		"name": "Accursed",
-		"file": "bloodlinedisplay50a6.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Accursed",
@@ -134,7 +131,6 @@
 	},
 	"aquatic": {
 		"name": "Aquatic",
-		"file": "bloodlinedisplay92d2.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Aquatic",
@@ -177,7 +173,6 @@
 	},
 	"arcane": {
 		"name": "Arcane",
-		"file": "bloodlinedisplayaee0.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Arcane",
@@ -220,7 +215,6 @@
 	},
 	"astral": {
 		"name": "Astral",
-		"file": "bloodlinedisplay03b9.html",
 		"sources": [ "Distant Realms" ],
 		"description": [
 			"## Astral",
@@ -251,7 +245,6 @@
 	},
 	"boreal": {
 		"name": "Boreal",
-		"file": "bloodlinedisplayf7d8.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Boreal",
@@ -294,7 +287,6 @@
 	},
 	"celestial": {
 		"name": "Celestial",
-		"file": "bloodlinedisplay9813.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Celestial",
@@ -337,7 +329,6 @@
 	},
 	"daemon": {
 		"name": "Daemon",
-		"file": "bloodlinedisplay2e84.html",
 		"sources": [ "Blood of Fiends" ],
 		"description": [
 			"## Daemon",
@@ -368,7 +359,6 @@
 	},
 	"deep_earth": {
 		"name": "Deep Earth",
-		"file": "bloodlinedisplay8368.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Deep Earth",
@@ -411,7 +401,6 @@
 	},
 	"destined": {
 		"name": "Destined",
-		"file": "bloodlinedisplay4903.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Destined",
@@ -454,7 +443,6 @@
 	},
 	"div": {
 		"name": "Div",
-		"file": "bloodlinedisplay3fe4.html",
 		"sources": [ "People of the Sands" ],
 		"description": [
 			"## Div",
@@ -485,7 +473,6 @@
 	},
 	"djinni": {
 		"name": "Djinni",
-		"file": "bloodlinedisplay19a4.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Djinni",
@@ -518,7 +505,6 @@
 	},
 	"draconic": {
 		"name": "Draconic",
-		"file": "bloodlinedisplay3acf.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Legacy of Dragons"
@@ -642,7 +628,6 @@
 	},
 	"dreamspun": {
 		"name": "Dreamspun",
-		"file": "bloodlinedisplay4b4a.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"##  Dreamspun",
@@ -685,7 +670,6 @@
 	},
 	"ectoplasm": {
 		"name": "Ectoplasm",
-		"file": "bloodlinedisplayfda9.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"##  Ectoplasm",
@@ -718,7 +702,6 @@
 	},
 	"efreeti": {
 		"name": "Efreeti",
-		"file": "bloodlinedisplay896f.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"##  Efreeti",
@@ -751,7 +734,6 @@
 	},
 	"elemental": {
 		"name": "Elemental",
-		"file": "bloodlinedisplay04c4.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"##  Elemental",
@@ -815,7 +797,6 @@
 	},
 	"fey": {
 		"name": "Fey",
-		"file": "bloodlinedisplaycdfa.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"##  Fey",
@@ -872,7 +853,6 @@
 	},
 	"ghoul": {
 		"name": "Ghoul",
-		"file": "bloodlinedisplay30e4.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"##  Ghoul",
@@ -905,7 +885,6 @@
 	},
 	"harrow": {
 		"name": "Harrow",
-		"file": "bloodlinedisplay1f5b.html",
 		"sources": [ "The Harrow Handbook" ],
 		"description": [
 			"##  Harrow",
@@ -936,7 +915,6 @@
 	},
 	"imperious": {
 		"name": "Imperious",
-		"file": "bloodlinedisplay0d3c.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"##  Imperious",
@@ -969,7 +947,6 @@
 	},
 	"impossible": {
 		"name": "Impossible",
-		"file": "bloodlinedisplaydc8e.html",
 		"sources": [ "Champions of Balance" ],
 		"description": [
 			"##  Impossible",
@@ -1000,7 +977,6 @@
 	},
 	"infernal": {
 		"name": "Infernal",
-		"file": "bloodlinedisplay423f.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"##  Infernal",
@@ -1043,7 +1019,6 @@
 	},
 	"kobold_sorcerer": {
 		"name": "Kobold Sorcerer",
-		"file": "bloodlinedisplay15c1.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"##  Kobold Sorcerer",
@@ -1074,7 +1049,6 @@
 	},
 	"maestro": {
 		"name": "Maestro",
-		"file": "bloodlinedisplay55d3.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"##  Maestro",
@@ -1105,7 +1079,6 @@
 	},
 	"marid": {
 		"name": "Marid",
-		"file": "bloodlinedisplaycbf2.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"##  Marid",
@@ -1150,7 +1123,6 @@
 	},
 	"martyred": {
 		"name": "Martyred",
-		"file": "bloodlinedisplayc754.html",
 		"sources": [ "Blood of Angels" ],
 		"description": [
 			"##  Martyred",
@@ -1193,7 +1165,6 @@
 	},
 	"naga": {
 		"name": "Naga",
-		"file": "bloodlinedisplaye818.html",
 		"sources": [ "Blood of the Beast" ],
 		"description": [
 			"##  Naga",
@@ -1224,7 +1195,6 @@
 	},
 	"nanite": {
 		"name": "Nanite",
-		"file": "bloodlinedisplaye470.html",
 		"sources": [ "People of the River" ],
 		"description": [
 			"##  Nanite",
@@ -1255,7 +1225,6 @@
 	},
 	"oni": {
 		"name": "Oni",
-		"file": "bloodlinedisplay4db8.html",
 		"sources": [ "Dragon Empires Primer" ],
 		"description": [
 			"##  Oni",
@@ -1286,7 +1255,6 @@
 	},
 	"orc": {
 		"name": "Orc",
-		"file": "bloodlinedisplay6130.html",
 		"sources": [ "Orcs of Golarion" ],
 		"description": [
 			"##  Orc",
@@ -1317,7 +1285,6 @@
 	},
 	"pestilence": {
 		"name": "Pestilence",
-		"file": "bloodlinedisplay89ef.html",
 		"sources": [ "Pathfinder #29: Mother of Flies" ],
 		"description": [
 			"##  Pestilence",
@@ -1348,7 +1315,6 @@
 	},
 	"phoenix": {
 		"name": "Phoenix",
-		"file": "bloodlinedisplayc56a.html",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
 			"##  Phoenix",
@@ -1379,7 +1345,6 @@
 	},
 	"possessed": {
 		"name": "Possessed",
-		"file": "bloodlinedisplaycb4e.html",
 		"sources": [ "Haunted Heroes Handbook" ],
 		"description": [
 			"##  Possessed",
@@ -1410,7 +1375,6 @@
 	},
 	"protean": {
 		"name": "Protean",
-		"file": "bloodlinedisplay681d.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Protean",
@@ -1453,7 +1417,6 @@
 	},
 	"psychic": {
 		"name": "Psychic",
-		"file": "bloodlinedisplayfc45.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Psychic",
@@ -1484,7 +1447,6 @@
 	},
 	"rakshasa": {
 		"name": "Rakshasa",
-		"file": "bloodlinedisplay5da9.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Rakshasa",
@@ -1515,7 +1477,6 @@
 	},
 	"salamander": {
 		"name": "Salamander",
-		"file": "bloodlinedisplayb6a2.html",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
 			"## Salamander",
@@ -1546,7 +1507,6 @@
 	},
 	"scorpion": {
 		"name": "Scorpion",
-		"file": "bloodlinedisplay0f26.html",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Scorpion",
@@ -1583,7 +1543,6 @@
 	},
 	"serpentine": {
 		"name": "Serpentine",
-		"file": "bloodlinedisplaye9f6.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Serpentine",
@@ -1626,7 +1585,6 @@
 	},
 	"shadow": {
 		"name": "Shadow",
-		"file": "bloodlinedisplay372c.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Shadow",
@@ -1669,7 +1627,6 @@
 	},
 	"shaitan": {
 		"name": "Shaitan",
-		"file": "bloodlinedisplay5a9f.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Shaitan",
@@ -1702,7 +1659,6 @@
 	},
 	"shapechanger": {
 		"name": "Shapechanger",
-		"file": "bloodlinedisplay8846.html",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"## Shapechanger",
@@ -1733,7 +1689,6 @@
 	},
 	"solar": {
 		"name": "Solar",
-		"file": "bloodlinedisplay1559.html",
 		"sources": [ "Qadira, Jewel of the East" ],
 		"description": [
 			"## Solar",
@@ -1764,7 +1719,6 @@
 	},
 	"starsoul": {
 		"name": "Starsoul",
-		"file": "bloodlinedisplay4a2e.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Starsoul",
@@ -1809,7 +1763,6 @@
 	},
 	"stormborn": {
 		"name": "Stormborn",
-		"file": "bloodlinedisplay281f.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Stormborn",
@@ -1852,7 +1805,6 @@
 	},
 	"undead": {
 		"name": "Undead",
-		"file": "bloodlinedisplaya695.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Undead",
@@ -1895,7 +1847,6 @@
 	},
 	"unicorn": {
 		"name": "Unicorn",
-		"file": "bloodlinedisplay19f1.html",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
 			"## Unicorn",
@@ -1926,7 +1877,6 @@
 	},
 	"verdant": {
 		"name": "Verdant",
-		"file": "bloodlinedisplay8c6b.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Verdant",
@@ -1969,7 +1919,6 @@
 	},
 	"vestige": {
 		"name": "Vestige",
-		"file": "bloodlinedisplay14e4.html",
 		"sources": [ "Blood of the Ancients" ],
 		"description": [
 			"## Vestige",

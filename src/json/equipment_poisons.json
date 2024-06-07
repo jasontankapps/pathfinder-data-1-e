@@ -173,7 +173,6 @@
 	],
 	"black_lotus_extract": {
 		"name": "Black Lotus Extract",
-		"file": "poisondisplayc0da.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -193,7 +192,6 @@
 	},
 	"blackfrost": {
 		"name": "Blackfrost",
-		"file": "poisondisplay1c14.html",
 		"sources": [ "Pathfinder #51: The Hungry Storm" ],
 		"description": [
 			"## Blackfrost",
@@ -210,7 +208,6 @@
 	},
 	"blue_lily_extract": {
 		"name": "Blue lily extract",
-		"file": "poisondisplaye523.html",
 		"sources": [ "Horror Realms" ],
 		"description": [
 			"## Blue lily extract",
@@ -229,7 +226,6 @@
 	},
 	"burnt_other_fumes": {
 		"name": "Burnt Other Fumes",
-		"file": "poisondisplayebcd.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Burnt Other Fumes",
@@ -246,7 +242,6 @@
 	},
 	"green_prismatic_poison": {
 		"name": "Green Prismatic Poison",
-		"file": "poisondisplay2e7b.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"description": [
 			"## Green Prismatic Poison",
@@ -263,7 +258,6 @@
 	},
 	"king's_sleep": {
 		"name": "King's Sleep",
-		"file": "poisondisplay1549.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -283,7 +277,6 @@
 	},
 	"lethe_water": {
 		"name": "Lethe water",
-		"file": "poisondisplaybdc8.html",
 		"sources": [ "Feast of Dust" ],
 		"description": [
 			"## Lethe water",
@@ -304,7 +297,6 @@
 	},
 	"maiden_lily_attar": {
 		"name": "Maiden lily attar",
-		"file": "poisondisplay0842.html",
 		"sources": [ "Murder's Mark" ],
 		"description": [
 			"## Maiden lily attar",
@@ -321,7 +313,6 @@
 	},
 	"quicklime": {
 		"name": "Quicklime",
-		"file": "poisondisplaycb9d.html",
 		"sources": [ "Pathfinder #95: Anvil of Fire" ],
 		"description": [
 			"## Quicklime",
@@ -340,7 +331,6 @@
 	},
 	"slow_nectar": {
 		"name": "Slow nectar",
-		"file": "poisondisplayaec3.html",
 		"sources": [ "Pathfinder #93: Forge of the Giant God" ],
 		"description": [
 			"## Slow nectar",
@@ -359,7 +349,6 @@
 	},
 	"spidervine_poison": {
 		"name": "Spidervine poison",
-		"file": "poisondisplayecf0.html",
 		"sources": [ "Heart of the Jungle" ],
 		"description": [
 			"## Spidervine poison",
@@ -376,7 +365,6 @@
 	},
 	"tears_of_death": {
 		"name": "Tears of Death",
-		"file": "poisondisplayf121.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -395,7 +383,6 @@
 	},
 	"ungol_dust": {
 		"name": "Ungol Dust",
-		"file": "poisondisplay791f.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -415,7 +402,6 @@
 	},
 	"wyvern_poison": {
 		"name": "Wyvern Poison",
-		"file": "poisondisplay13ba.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -435,7 +421,6 @@
 	},
 	"pupil's_friend": {
 		"name": "Pupil's friend",
-		"file": "poisondisplaya08e.html",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Pupil's friend",
@@ -454,7 +439,6 @@
 	},
 	"red_tears": {
 		"name": "Red tears",
-		"file": "poisondisplayac84.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Red tears",
@@ -471,7 +455,6 @@
 	},
 	"might_blight": {
 		"name": "Might blight",
-		"file": "poisondisplay1af3.html",
 		"sources": [ "Merchant's Manifest" ],
 		"description": [
 			"## Might blight",
@@ -490,7 +473,6 @@
 	},
 	"addlemind": {
 		"name": "Addlemind",
-		"file": "poisondisplay1d56.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Addlemind",
@@ -507,7 +489,6 @@
 	},
 	"concentrated_laxative": {
 		"name": "Concentrated laxative",
-		"file": "poisondisplay1707.html",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Concentrated laxative",
@@ -524,7 +505,6 @@
 	},
 	"drow_poison": {
 		"name": "Drow Poison",
-		"file": "poisondisplay2ad5.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -544,7 +524,6 @@
 	},
 	"gelidburn_oil": {
 		"name": "Gelidburn oil",
-		"file": "poisondisplay97aa.html",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Gelidburn oil",
@@ -563,7 +542,6 @@
 	},
 	"goblin's_eye": {
 		"name": "Goblin's eye",
-		"file": "poisondisplay9201.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Goblin's eye",
@@ -582,7 +560,6 @@
 	},
 	"vampire's_kiss": {
 		"name": "Vampire's kiss",
-		"file": "poisondisplayef94.html",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Vampire's kiss",
@@ -604,7 +581,6 @@
 	},
 	"confabulation_powder": {
 		"name": "Confabulation powder",
-		"file": "poisondisplayf3c3.html",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Confabulation powder",
@@ -626,7 +602,6 @@
 	},
 	"baneberry": {
 		"name": "Baneberry",
-		"file": "poisondisplayae69.html",
 		"sources": [ "Guide to the River Kingdoms" ],
 		"description": [
 			"## Baneberry",
@@ -643,7 +618,6 @@
 	},
 	"oil_of_taggit": {
 		"name": "Oil of Taggit",
-		"file": "poisondisplayc6d1.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -663,7 +637,6 @@
 	},
 	"small_centipede_poison": {
 		"name": "Small Centipede Poison",
-		"file": "poisondisplay5724.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -683,7 +656,6 @@
 	},
 	"thornapple": {
 		"name": "Thornapple",
-		"file": "poisondisplayceef.html",
 		"sources": [ "Guide to the River Kingdoms" ],
 		"description": [
 			"## Thornapple",
@@ -700,7 +672,6 @@
 	},
 	"belladonna": {
 		"name": "Belladonna",
-		"file": "poisondisplay2899.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -720,7 +691,6 @@
 	},
 	"bloodroot": {
 		"name": "Bloodroot",
-		"file": "poisondisplaye7db.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -740,7 +710,6 @@
 	},
 	"bloodwine": {
 		"name": "Bloodwine",
-		"file": "poisondisplayb310.html",
 		"sources": [ "Pathfinder #41: The Thousand Fangs Below" ],
 		"description": [
 			"## Bloodwine",
@@ -757,7 +726,6 @@
 	},
 	"frightshade": {
 		"name": "Frightshade",
-		"file": "poisondisplay0298.html",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Frightshade",
@@ -774,7 +742,6 @@
 	},
 	"frostspore": {
 		"name": "Frostspore",
-		"file": "poisondisplaye024.html",
 		"sources": [ "Pathfinder #61: Shards of Sin" ],
 		"description": [
 			"## Frostspore",
@@ -791,7 +758,6 @@
 	},
 	"greenblood_oil": {
 		"name": "Greenblood Oil",
-		"file": "poisondisplayea83.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -811,7 +777,6 @@
 	},
 	"woundweal": {
 		"name": "Woundweal",
-		"file": "poisondisplay7c66.html",
 		"sources": [ "Adventurer's Armory" ],
 		"description": [
 			"## Woundweal",
@@ -830,7 +795,6 @@
 	},
 	"arsenic": {
 		"name": "Arsenic",
-		"file": "poisondisplay657a.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -850,7 +814,6 @@
 	},
 	"black_adder_venom": {
 		"name": "Black Adder Venom",
-		"file": "poisondisplay0c12.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -870,7 +833,6 @@
 	},
 	"blue_whinnis": {
 		"name": "Blue Whinnis",
-		"file": "poisondisplay842e.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -890,7 +852,6 @@
 	},
 	"calotropis": {
 		"name": "Calotropis",
-		"file": "poisondisplayca9f.html",
 		"sources": [ "Guide to the River Kingdoms" ],
 		"description": [
 			"## Calotropis",
@@ -907,7 +868,6 @@
 	},
 	"liquid_persuasion": {
 		"name": "Liquid persuasion",
-		"file": "poisondisplay82f0.html",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Liquid persuasion",
@@ -929,7 +889,6 @@
 	},
 	"goblinvine_oil": {
 		"name": "Goblinvine oil",
-		"file": "poisondisplay1705.html",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
 			"## Goblinvine oil",
@@ -948,7 +907,6 @@
 	},
 	"id_moss": {
 		"name": "Id Moss",
-		"file": "poisondisplay0c74.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -968,7 +926,6 @@
 	},
 	"draughtcap_fungus": {
 		"name": "Draughtcap fungus",
-		"file": "poisondisplayf27c.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Draughtcap fungus",
@@ -987,7 +944,6 @@
 	},
 	"marvelous_fear_gas": {
 		"name": "Marvelous fear gas",
-		"file": "poisondisplayb362.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Marvelous fear gas",
@@ -1006,7 +962,6 @@
 	},
 	"medium_spider_venom": {
 		"name": "Medium Spider Venom",
-		"file": "poisondisplay62bf.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -1026,7 +981,6 @@
 	},
 	"rainbow_scarab_shell": {
 		"name": "Rainbow scarab shell",
-		"file": "poisondisplay95da.html",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Rainbow scarab shell",
@@ -1045,7 +999,6 @@
 	},
 	"alchemical_isolation": {
 		"name": "Alchemical isolation",
-		"file": "poisondisplay84f8.html",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Alchemical isolation",
@@ -1067,7 +1020,6 @@
 	},
 	"insecticide": {
 		"name": "Insecticide",
-		"file": "poisondisplay622d.html",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Insecticide",
@@ -1086,7 +1038,6 @@
 	},
 	"striped_toadstool": {
 		"name": "Striped Toadstool",
-		"file": "poisondisplay40da.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -1106,7 +1057,6 @@
 	},
 	"black_whinnis": {
 		"name": "Black whinnis",
-		"file": "poisondisplay5bfe.html",
 		"sources": [ "Pathfinder #105: The Inferno Gate" ],
 		"description": [
 			"## Black whinnis",
@@ -1125,7 +1075,6 @@
 	},
 	"chelish_deathapple": {
 		"name": "Chelish deathapple",
-		"file": "poisondisplay0a62.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Chelish deathapple",
@@ -1144,7 +1093,6 @@
 	},
 	"hazemind_concentrate": {
 		"name": "Hazemind concentrate",
-		"file": "poisondisplayafc0.html",
 		"sources": [ "Familiar Folio" ],
 		"description": [
 			"## Hazemind concentrate",
@@ -1161,7 +1109,6 @@
 	},
 	"large_scorpion_venom": {
 		"name": "Large Scorpion Venom",
-		"file": "poisondisplay9c16.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -1181,7 +1128,6 @@
 	},
 	"spellscorch": {
 		"name": "Spellscorch",
-		"file": "poisondisplay3b7c.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Spellscorch",
@@ -1198,7 +1144,6 @@
 	},
 	"giant_wasp_poison": {
 		"name": "Giant Wasp Poison",
-		"file": "poisondisplayf164.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -1218,7 +1163,6 @@
 	},
 	"hazemind_mist": {
 		"name": "Hazemind mist",
-		"file": "poisondisplay17d5.html",
 		"sources": [ "Familiar Folio" ],
 		"description": [
 			"## Hazemind mist",
@@ -1235,7 +1179,6 @@
 	},
 	"diplopic_serum": {
 		"name": "Diplopic serum",
-		"file": "poisondisplay82fb.html",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Diplopic serum",
@@ -1254,7 +1197,6 @@
 	},
 	"malyass_root_paste": {
 		"name": "Malyass Root Paste",
-		"file": "poisondisplay8dd5.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -1274,7 +1216,6 @@
 	},
 	"nymph's_lure": {
 		"name": "Nymph's lure",
-		"file": "poisondisplay66a3.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Nymph's lure",
@@ -1293,7 +1234,6 @@
 	},
 	"shadow_essence": {
 		"name": "Shadow Essence",
-		"file": "poisondisplay6e07.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -1313,7 +1253,6 @@
 	},
 	"blackfinger's_salt": {
 		"name": "Blackfinger's salt",
-		"file": "poisondisplay6362.html",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Blackfinger's salt",
@@ -1332,7 +1271,6 @@
 	},
 	"sassone_leaf_residue": {
 		"name": "Sassone Leaf Residue",
-		"file": "poisondisplaybcfd.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -1352,7 +1290,6 @@
 	},
 	"sloth's_bite": {
 		"name": "Sloth's bite",
-		"file": "poisondisplay056e.html",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Sloth's bite",
@@ -1369,7 +1306,6 @@
 	},
 	"starving_nettle": {
 		"name": "Starving nettle",
-		"file": "poisondisplayd6e1.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Starving nettle",
@@ -1388,7 +1324,6 @@
 	},
 	"count_ambras's_punishment": {
 		"name": "Count Ambras's punishment",
-		"file": "poisondisplayfd99.html",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Count Ambras's punishment",
@@ -1410,7 +1345,6 @@
 	},
 	"ossivane": {
 		"name": "Ossivane",
-		"file": "poisondisplay13e1.html",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Ossivane",
@@ -1429,7 +1363,6 @@
 	},
 	"slaver's_will": {
 		"name": "Slaver's will",
-		"file": "poisondisplay660b.html",
 		"sources": [ "Heroes of the Darklands" ],
 		"description": [
 			"## Slaver's will",
@@ -1448,7 +1381,6 @@
 	},
 	"blackfinder's_silence": {
 		"name": "Blackfinder's silence",
-		"file": "poisondisplaya0b9.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Blackfinder's silence",
@@ -1467,7 +1399,6 @@
 	},
 	"bloodbrain_venom": {
 		"name": "Bloodbrain Venom",
-		"file": "poisondisplay9d3c.html",
 		"sources": [ "Pathfinder #118: Siege of Stone" ],
 		"description": [
 			"## Bloodbrain Venom",
@@ -1488,7 +1419,6 @@
 	},
 	"brinestump_special": {
 		"name": "Brinestump special",
-		"file": "poisondisplayce16.html",
 		"sources": [ "Heroes of the Wild" ],
 		"description": [
 			"## Brinestump special",
@@ -1507,7 +1437,6 @@
 	},
 	"cloudthorn_venom": {
 		"name": "Cloudthorn venom",
-		"file": "poisondisplay02bc.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Cloudthorn venom",
@@ -1526,7 +1455,6 @@
 	},
 	"gray_justice": {
 		"name": "Gray justice",
-		"file": "poisondisplayfac9.html",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"## Gray justice",
@@ -1545,7 +1473,6 @@
 	},
 	"lich_dust": {
 		"name": "Lich Dust",
-		"file": "poisondisplay50cd.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -1565,7 +1492,6 @@
 	},
 	"peasant's_woe": {
 		"name": "Peasant's woe",
-		"file": "poisondisplaye0ba.html",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
 			"## Peasant's woe",
@@ -1582,7 +1508,6 @@
 	},
 	"rainbow_jellyfish_toxin": {
 		"name": "Rainbow jellyfish toxin",
-		"file": "poisondisplay8b3b.html",
 		"sources": [ "Rival Guide" ],
 		"description": [
 			"## Rainbow jellyfish toxin",
@@ -1599,7 +1524,6 @@
 	},
 	"swampseer_poison": {
 		"name": "Swampseer poison",
-		"file": "poisondisplaye28e.html",
 		"sources": [
 			"Ultimate Equipment",
 			"Pathfinder #34: Blood for Blood"
@@ -1619,7 +1543,6 @@
 	},
 	"terinav_root": {
 		"name": "Terinav Root",
-		"file": "poisondisplay7926.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -1639,7 +1562,6 @@
 	},
 	"blue_star": {
 		"name": "Blue star",
-		"file": "poisondisplayd831.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Blue star",
@@ -1658,7 +1580,6 @@
 	},
 	"calistria's_revenge": {
 		"name": "Calistria's revenge",
-		"file": "poisondisplaydc2c.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Calistria's revenge",
@@ -1677,7 +1598,6 @@
 	},
 	"fiddleback_venom": {
 		"name": "Fiddleback venom",
-		"file": "poisondisplaye1e1.html",
 		"sources": [ "Rival Guide" ],
 		"description": [
 			"## Fiddleback venom",
@@ -1694,7 +1614,6 @@
 	},
 	"halo_mushroom_toxin": {
 		"name": "Halo mushroom toxin",
-		"file": "poisondisplayd54f.html",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Halo mushroom toxin",
@@ -1713,7 +1632,6 @@
 	},
 	"laughing_gas": {
 		"name": "Laughing gas",
-		"file": "poisondisplay6217.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Laughing gas",
@@ -1730,7 +1648,6 @@
 	},
 	"wolfsbane": {
 		"name": "Wolfsbane",
-		"file": "poisondisplay0028.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1750,7 +1667,6 @@
 	},
 	"crone's_curse": {
 		"name": "Crone's curse",
-		"file": "poisondisplay99e7.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Crone's curse",
@@ -1769,7 +1685,6 @@
 	},
 	"jackalroot_essence": {
 		"name": "Jackalroot essence",
-		"file": "poisondisplay80c1.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Heroes of the Wild"
@@ -1791,7 +1706,6 @@
 	},
 	"smell_of_fear": {
 		"name": "Smell of fear",
-		"file": "poisondisplay470b.html",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Smell of fear",
@@ -1813,7 +1727,6 @@
 	},
 	"tears_of_perfection": {
 		"name": "Tears of perfection",
-		"file": "poisondisplay49f3.html",
 		"sources": [ "Faction Guide" ],
 		"description": [
 			"## Tears of perfection",
@@ -1830,7 +1743,6 @@
 	},
 	"tongue_twist": {
 		"name": "Tongue twist",
-		"file": "poisondisplay0a05.html",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Tongue twist",
@@ -1849,7 +1761,6 @@
 	},
 	"nitharit": {
 		"name": "Nitharit",
-		"file": "poisondisplay9060.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -1869,7 +1780,6 @@
 	},
 	"witch-hunter's_sword": {
 		"name": "Witch-hunter's sword",
-		"file": "poisondisplayd2a1.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Witch-hunter's sword",
@@ -1888,7 +1798,6 @@
 	},
 	"purple_worm_poison": {
 		"name": "Purple Worm Poison",
-		"file": "poisondisplaye358.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -1908,7 +1817,6 @@
 	},
 	"juvebloom": {
 		"name": "Juvebloom",
-		"file": "poisondisplaycd2f.html",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Juvebloom",
@@ -1927,7 +1835,6 @@
 	},
 	"liquid_leprosy": {
 		"name": "Liquid leprosy",
-		"file": "poisondisplay0b85.html",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Liquid leprosy",
@@ -1952,7 +1859,6 @@
 	},
 	"muddling_heresy": {
 		"name": "Muddling heresy",
-		"file": "poisondisplaye9da.html",
 		"sources": [ "Pathfinder #107: Scourge of the Godclaw" ],
 		"description": [
 			"## Muddling heresy",
@@ -1971,7 +1877,6 @@
 	},
 	"twilight_illness": {
 		"name": "Twilight illness",
-		"file": "poisondisplay8710.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Twilight illness",
@@ -1990,7 +1895,6 @@
 	},
 	"vessel_between": {
 		"name": "Vessel between",
-		"file": "poisondisplay03a3.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Vessel between",
@@ -2009,7 +1913,6 @@
 	},
 	"black_spider_marsh_poison": {
 		"name": "Black spider marsh poison",
-		"file": "poisondisplay8975.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Black spider marsh poison",
@@ -2026,7 +1929,6 @@
 	},
 	"brain_blot": {
 		"name": "Brain blot",
-		"file": "poisondisplayaaa3.html",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
 			"## Brain blot",
@@ -2043,7 +1945,6 @@
 	},
 	"cytillesh_extract": {
 		"name": "Cytillesh extract",
-		"file": "poisondisplayf4de.html",
 		"sources": [
 			"Alchemy Manual",
 			"Classic Horrors Revisited",
@@ -2070,7 +1971,6 @@
 	},
 	"dark_reaver_powder": {
 		"name": "Dark Reaver Powder",
-		"file": "poisondisplay9092.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -2090,7 +1990,6 @@
 	},
 	"violet_venom": {
 		"name": "Violet venom",
-		"file": "poisondisplay369a.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Heroes of the Wild"
@@ -2112,7 +2011,6 @@
 	},
 	"flaming_doom": {
 		"name": "Flaming doom",
-		"file": "poisondisplay3cf7.html",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Flaming doom",
@@ -2134,7 +2032,6 @@
 	},
 	"fury_gas": {
 		"name": "Fury gas",
-		"file": "poisondisplay07d3.html",
 		"sources": [ "Alchemy Manual" ],
 		"description": [
 			"## Fury gas",
@@ -2156,7 +2053,6 @@
 	},
 	"nights-eye_dust": {
 		"name": "Nights-eye dust",
-		"file": "poisondisplayf707.html",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Nights-eye dust",
@@ -2175,7 +2071,6 @@
 	},
 	"sweetdream": {
 		"name": "Sweetdream",
-		"file": "poisondisplayf21e.html",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Sweetdream",
@@ -2196,7 +2091,6 @@
 	},
 	"third_eye": {
 		"name": "Third eye",
-		"file": "poisondisplay3d28.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Third eye",
@@ -2215,7 +2109,6 @@
 	},
 	"bloodpyre": {
 		"name": "Bloodpyre",
-		"file": "poisondisplay52ad.html",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"## Bloodpyre",
@@ -2234,7 +2127,6 @@
 	},
 	"cockatrice_spit": {
 		"name": "Cockatrice spit",
-		"file": "poisondisplayd99a.html",
 		"sources": [ "Rival Guide" ],
 		"description": [
 			"## Cockatrice spit",
@@ -2251,7 +2143,6 @@
 	},
 	"ragespittle": {
 		"name": "Ragespittle",
-		"file": "poisondisplay7f9b.html",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"## Ragespittle",
@@ -2270,7 +2161,6 @@
 	},
 	"blistercap_spore_poison": {
 		"name": "Blistercap spore poison",
-		"file": "poisondisplay08f3.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Blistercap spore poison",
@@ -2289,7 +2179,6 @@
 	},
 	"lungsap_powder": {
 		"name": "Lungsap powder",
-		"file": "poisondisplayc691.html",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Lungsap powder",
@@ -2306,7 +2195,6 @@
 	},
 	"lungtaker": {
 		"name": "Lungtaker",
-		"file": "poisondisplayf4a0.html",
 		"sources": [ "Magnimar, City of Monuments" ],
 		"description": [
 			"## Lungtaker",
@@ -2323,7 +2211,6 @@
 	},
 	"red_bedlam": {
 		"name": "Red bedlam",
-		"file": "poisondisplay905e.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Heroes of the Wild"
@@ -2345,7 +2232,6 @@
 	},
 	"skinsap_extract": {
 		"name": "Skinsap extract",
-		"file": "poisondisplayfadd.html",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Skinsap extract",
@@ -2364,7 +2250,6 @@
 	},
 	"azure_lily_pollen": {
 		"name": "Azure lily pollen",
-		"file": "poisondisplay5b00.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Azure lily pollen",
@@ -2381,7 +2266,6 @@
 	},
 	"breath_of_the_mantis_god": {
 		"name": "Breath of the mantis god",
-		"file": "poisondisplayec12.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Inner Sea Intrigue"
@@ -2405,7 +2289,6 @@
 	},
 	"demon_nettle_sap": {
 		"name": "Demon nettle sap",
-		"file": "poisondisplayb7ff.html",
 		"sources": [ "The Moonscar" ],
 		"description": [
 			"## Demon nettle sap",
@@ -2421,7 +2304,6 @@
 	},
 	"dragon_bile": {
 		"name": "Dragon Bile",
-		"file": "poisondisplayacd6.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -2440,7 +2322,6 @@
 	},
 	"hag_spit": {
 		"name": "Hag spit",
-		"file": "poisondisplayf185.html",
 		"sources": [ "Rival Guide" ],
 		"description": [
 			"## Hag spit",
@@ -2457,7 +2338,6 @@
 	},
 	"insanity_mist": {
 		"name": "Insanity Mist",
-		"file": "poisondisplay24fc.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -2477,7 +2357,6 @@
 	},
 	"leng's_tears": {
 		"name": "Leng's tears",
-		"file": "poisondisplayd245.html",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Leng's tears",
@@ -2496,7 +2375,6 @@
 	},
 	"nerveblast": {
 		"name": "Nerveblast",
-		"file": "poisondisplay0448.html",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Nerveblast",
@@ -2515,7 +2393,6 @@
 	},
 	"scholarblight": {
 		"name": "Scholarblight",
-		"file": "poisondisplayc878.html",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"## Scholarblight",
@@ -2534,7 +2411,6 @@
 	},
 	"mindrust": {
 		"name": "Mindrust",
-		"file": "poisondisplayc616.html",
 		"sources": [ "Path of the Hellknight" ],
 		"description": [
 			"## Mindrust",
@@ -2555,7 +2431,6 @@
 	},
 	"aconite_root": {
 		"name": "Aconite root",
-		"file": "poisondisplay6eb8.html",
 		"sources": [ "Guide to the River Kingdoms" ],
 		"description": [
 			"## Aconite root",
@@ -2572,7 +2447,6 @@
 	},
 	"deathblade": {
 		"name": "Deathblade",
-		"file": "poisondisplayc71d.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2592,7 +2466,6 @@
 	},
 	"nightmare_vapor": {
 		"name": "Nightmare Vapor",
-		"file": "poisondisplay9cbb.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Ultimate Equipment"
@@ -2612,7 +2485,6 @@
 	},
 	"burnt_othur_fumes": {
 		"name": "Burnt othur fumes",
-		"file": "poisondisplayf7bf.html",
 		"sources": [ "Ultimate Equipment" ],
 		"description": [
 			"## Burnt othur fumes",
@@ -2629,7 +2501,6 @@
 	},
 	"grinding_joint_paste": {
 		"name": "Grinding joint paste",
-		"file": "poisondisplay124d.html",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [
 			"## Grinding joint paste",
@@ -2648,7 +2519,6 @@
 	},
 	"dream_crystal_toxin": {
 		"name": "Dream crystal toxin",
-		"file": "poisondisplay74cf.html",
 		"sources": [ "Doom Comes to Dustpawn" ],
 		"description": [
 			"## Dream crystal toxin",
@@ -2667,7 +2537,6 @@
 	},
 	"dreaming_death": {
 		"name": "Dreaming death",
-		"file": "poisondisplayd20f.html",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"## Dreaming death",
@@ -2688,7 +2557,6 @@
 	},
 	"everwake_serum": {
 		"name": "Everwake serum",
-		"file": "poisondisplaydaba.html",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
 			"## Everwake serum",
@@ -2705,7 +2573,6 @@
 	},
 	"hemlock": {
 		"name": "Hemlock",
-		"file": "poisondisplay480e.html",
 		"sources": [
 			"Ultimate Equipment",
 			"PRPG Core Rulebook"
@@ -2725,7 +2592,6 @@
 	},
 	"hydrofluoric_acid": {
 		"name": "Hydrofluoric acid",
-		"file": "poisondisplaye304.html",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Hydrofluoric acid",
@@ -2744,7 +2610,6 @@
 	},
 	"snap_will": {
 		"name": "Snap will",
-		"file": "poisondisplay11dd.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Snap will",
@@ -2761,7 +2626,6 @@
 	},
 	"styx_sap": {
 		"name": "Styx sap",
-		"file": "poisondisplaya98f.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Styx sap",
@@ -2780,7 +2644,6 @@
 	},
 	"cyanide": {
 		"name": "Cyanide",
-		"file": "poisondisplay3ba3.html",
 		"sources": [ "Heroes of the Darklands" ],
 		"description": [
 			"## Cyanide",
@@ -2799,7 +2662,6 @@
 	},
 	"leopard's_bane": {
 		"name": "Leopard's bane",
-		"file": "poisondisplaye92c.html",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Leopard's bane",
@@ -2816,7 +2678,6 @@
 	},
 	"whisperwound": {
 		"name": "Whisperwound",
-		"file": "poisondisplay4ebc.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Whisperwound",
@@ -2833,7 +2694,6 @@
 	},
 	"shamweed": {
 		"name": "Shamweed",
-		"file": "poisondisplay509a.html",
 		"sources": [ "Guide to the River Kingdoms" ],
 		"description": [
 			"## Shamweed",
@@ -2850,7 +2710,6 @@
 	},
 	"widow's_kiss": {
 		"name": "Widow's kiss",
-		"file": "poisondisplaya656.html",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"## Widow's kiss",
@@ -2871,7 +2730,6 @@
 	},
 	"kiss_of_barbatos": {
 		"name": "Kiss of barbatos",
-		"file": "poisondisplay7f40.html",
 		"sources": [ "Magnimar, City of Monuments" ],
 		"description": [
 			"## Kiss of barbatos",
@@ -2888,7 +2746,6 @@
 	},
 	"fool's_leprosy": {
 		"name": "Fool's Leprosy",
-		"file": "poisondisplay8c4c.html",
 		"sources": [ "Curse of the Crimson Throne" ],
 		"description": [
 			"## Fool's Leprosy",

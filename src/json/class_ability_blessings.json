@@ -2,7 +2,6 @@
 	"_prefix": "class_abilities-blessing",
 	"air": {
 		"name": "Air",
-		"file": "warpriestblessingdisplaybfc6.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Air",
@@ -17,7 +16,6 @@
 	},
 	"animal": {
 		"name": "Animal",
-		"file": "warpriestblessingdisplay59e5.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Animal",
@@ -32,7 +30,6 @@
 	},
 	"artifice": {
 		"name": "Artifice",
-		"file": "warpriestblessingdisplayc9f7.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Artifice",
@@ -47,7 +44,6 @@
 	},
 	"chaos": {
 		"name": "Chaos",
-		"file": "warpriestblessingdisplay62a5.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Chaos",
@@ -62,7 +58,6 @@
 	},
 	"charm": {
 		"name": "Charm",
-		"file": "warpriestblessingdisplay7b1f.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Charm",
@@ -77,7 +72,6 @@
 	},
 	"community": {
 		"name": "Community",
-		"file": "warpriestblessingdisplaye759.html",
 		"sources": [
 			"Advanced Class Guide",
 			"Healer's Handbook"
@@ -104,7 +98,6 @@
 	},
 	"curse": {
 		"name": "Curse",
-		"file": "warpriestblessingdisplay00ce.html",
 		"sources": [ "Magic Tactics Toolbox" ],
 		"description": [
 			"## Curse",
@@ -119,7 +112,6 @@
 	},
 	"darkness": {
 		"name": "Darkness",
-		"file": "warpriestblessingdisplay95e4.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Darkness",
@@ -134,7 +126,6 @@
 	},
 	"death": {
 		"name": "Death",
-		"file": "warpriestblessingdisplay1db1.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Death",
@@ -149,7 +140,6 @@
 	},
 	"destruction": {
 		"name": "Destruction",
-		"file": "warpriestblessingdisplay4d6f.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Destruction",
@@ -164,7 +154,6 @@
 	},
 	"earth": {
 		"name": "Earth",
-		"file": "warpriestblessingdisplaydbe1.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Earth",
@@ -179,7 +168,6 @@
 	},
 	"earthquake": {
 		"name": "Earthquake",
-		"file": "warpriestblessingdisplay1f03.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Earthquake",
@@ -194,7 +182,6 @@
 	},
 	"evil": {
 		"name": "Evil",
-		"file": "warpriestblessingdisplay4f4d.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Evil",
@@ -209,7 +196,6 @@
 	},
 	"fire": {
 		"name": "Fire",
-		"file": "warpriestblessingdisplayb4ee.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Fire",
@@ -224,7 +210,6 @@
 	},
 	"flood": {
 		"name": "Flood",
-		"file": "warpriestblessingdisplay4be3.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Flood",
@@ -239,7 +224,6 @@
 	},
 	"glory": {
 		"name": "Glory",
-		"file": "warpriestblessingdisplay7908.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Glory",
@@ -254,7 +238,6 @@
 	},
 	"godclaw": {
 		"name": "Godclaw",
-		"file": "warpriestblessingdisplay7ee6.html",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
 			"## Godclaw",
@@ -269,7 +252,6 @@
 	},
 	"good": {
 		"name": "Good",
-		"file": "warpriestblessingdisplay8701.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Good",
@@ -284,7 +266,6 @@
 	},
 	"healing": {
 		"name": "Healing",
-		"file": "warpriestblessingdisplay20a8.html",
 		"sources": [
 			"Advanced Class Guide",
 			"Healer's Handbook"
@@ -319,7 +300,6 @@
 	},
 	"knowledge": {
 		"name": "Knowledge",
-		"file": "warpriestblessingdisplayf339.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Knowledge",
@@ -334,7 +314,6 @@
 	},
 	"law": {
 		"name": "Law",
-		"file": "warpriestblessingdisplay4ce9.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Law",
@@ -349,7 +328,6 @@
 	},
 	"liberation": {
 		"name": "Liberation",
-		"file": "warpriestblessingdisplay774d.html",
 		"sources": [
 			"Advanced Class Guide",
 			"Healer's Handbook"
@@ -376,7 +354,6 @@
 	},
 	"luck": {
 		"name": "Luck",
-		"file": "warpriestblessingdisplaye325.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Luck",
@@ -391,7 +368,6 @@
 	},
 	"madness": {
 		"name": "Madness",
-		"file": "warpriestblessingdisplay5f1e.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Madness",
@@ -406,7 +382,6 @@
 	},
 	"magic": {
 		"name": "Magic",
-		"file": "warpriestblessingdisplay61f2.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Magic",
@@ -421,7 +396,6 @@
 	},
 	"nobility": {
 		"name": "Nobility",
-		"file": "warpriestblessingdisplay96ee.html",
 		"sources": [
 			"Advanced Class Guide",
 			"Healer's Handbook"
@@ -448,7 +422,6 @@
 	},
 	"plant": {
 		"name": "Plant",
-		"file": "warpriestblessingdisplay918f.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Plant",
@@ -463,7 +436,6 @@
 	},
 	"protection": {
 		"name": "Protection",
-		"file": "warpriestblessingdisplayee20.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Protection",
@@ -478,7 +450,6 @@
 	},
 	"repose": {
 		"name": "Repose",
-		"file": "warpriestblessingdisplay2df8.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Repose",
@@ -493,7 +464,6 @@
 	},
 	"rune": {
 		"name": "Rune",
-		"file": "warpriestblessingdisplay45fc.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Rune",
@@ -508,7 +478,6 @@
 	},
 	"scalykind": {
 		"name": "Scalykind",
-		"file": "warpriestblessingdisplay5cf6.html",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
 			"## Scalykind",
@@ -523,7 +492,6 @@
 	},
 	"shadow": {
 		"name": "Shadow",
-		"file": "warpriestblessingdisplay372c.html",
 		"sources": [ "Blood of Shadows" ],
 		"description": [
 			"## Shadow",
@@ -538,7 +506,6 @@
 	},
 	"strength": {
 		"name": "Strength",
-		"file": "warpriestblessingdisplay4234.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Strength",
@@ -553,7 +520,6 @@
 	},
 	"sun": {
 		"name": "Sun",
-		"file": "warpriestblessingdisplay57b3.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Sun",
@@ -568,7 +534,6 @@
 	},
 	"tornado": {
 		"name": "Tornado",
-		"file": "warpriestblessingdisplayff6a.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Tornado",
@@ -583,7 +548,6 @@
 	},
 	"travel": {
 		"name": "Travel",
-		"file": "warpriestblessingdisplayba15.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Travel",
@@ -598,7 +562,6 @@
 	},
 	"trickery": {
 		"name": "Trickery",
-		"file": "warpriestblessingdisplay3da5.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Trickery",
@@ -613,7 +576,6 @@
 	},
 	"void": {
 		"name": "Void",
-		"file": "warpriestblessingdisplay2c1e.html",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
 			"## Void",
@@ -628,7 +590,6 @@
 	},
 	"war": {
 		"name": "War",
-		"file": "warpriestblessingdisplayf936.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## War",
@@ -643,7 +604,6 @@
 	},
 	"water": {
 		"name": "Water",
-		"file": "warpriestblessingdisplayc28e.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Water",
@@ -658,7 +618,6 @@
 	},
 	"weather": {
 		"name": "Weather",
-		"file": "warpriestblessingdisplay2941.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Weather",
@@ -673,7 +632,6 @@
 	},
 	"wildfire": {
 		"name": "Wildfire",
-		"file": "warpriestblessingdisplay463a.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Wildfire",

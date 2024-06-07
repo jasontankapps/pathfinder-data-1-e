@@ -2,7 +2,6 @@
 	"_prefix": "archetype-shaman",
 	"animist": {
 		"name": "Animist",
-		"file": "archetypedisplaycde4.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Animist",
@@ -44,7 +43,6 @@
 	},
 	"benefactor": {
 		"name": "Benefactor",
-		"file": "archetypedisplay0e3a.html",
 		"sources": [ "Healer's Handbook" ],
 		"description": [
 			"## Benefactor",
@@ -70,7 +68,6 @@
 	},
 	"crystal_tender": {
 		"name": "Crystal Tender",
-		"file": "archetypedisplay9b2b.html",
 		"sources": [ "Heroes of the Darklands" ],
 		"description": [
 			"## Crystal Tender",
@@ -100,7 +97,6 @@
 	},
 	"deep_shaman": {
 		"name": "Deep Shaman",
-		"file": "archetypedisplay5d4b.html",
 		"sources": [ "Aquatic Adventures" ],
 		"description": [
 			"## Deep Shaman",
@@ -132,7 +128,6 @@
 	},
 	"draconic_shaman": {
 		"name": "Draconic Shaman",
-		"file": "archetypedisplay5ab9.html",
 		"sources": [ "Legacy of Dragons" ],
 		"description": [
 			"## Draconic Shaman",
@@ -148,7 +143,6 @@
 	},
 	"grasping_vine": {
 		"name": "Grasping Vine",
-		"file": "archetypedisplayef4a.html",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"## Grasping Vine",
@@ -178,7 +172,6 @@
 	},
 	"name-keeper": {
 		"name": "Name-Keeper",
-		"file": "archetypedisplay4b9b.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Name-Keeper",
@@ -218,7 +211,6 @@
 	},
 	"overseer": {
 		"name": "Overseer",
-		"file": "archetypedisplayc551.html",
 		"sources": [ "Magic Tactics Toolbox" ],
 		"description": [
 			"## Overseer",
@@ -238,7 +230,6 @@
 	},
 	"possessed_shaman": {
 		"name": "Possessed Shaman",
-		"file": "archetypedisplaybf21.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Possessed Shaman",
@@ -256,7 +247,6 @@
 	},
 	"primal_warden": {
 		"name": "Primal Warden",
-		"file": "archetypedisplayc48d.html",
 		"sources": [ "People of the Wastes" ],
 		"description": [
 			"## Primal Warden",
@@ -288,7 +278,6 @@
 	},
 	"serendipity_shaman": {
 		"name": "Serendipity Shaman",
-		"file": "archetypedisplay2df5.html",
 		"sources": [ "Blood of the Beast" ],
 		"description": [
 			"## Serendipity Shaman",
@@ -318,7 +307,6 @@
 	},
 	"speaker_for_the_past": {
 		"name": "Speaker for the Past",
-		"file": "archetypedisplay060a.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Speaker for the Past",
@@ -336,7 +324,6 @@
 	},
 	"spirit_warden": {
 		"name": "Spirit Warden",
-		"file": "archetypedisplayedb5.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Spirit Warden",
@@ -356,7 +343,6 @@
 	},
 	"true_silvered_throne": {
 		"name": "True Silvered Throne",
-		"file": "archetypedisplayb7b8.html",
 		"sources": [ "Occult Origins" ],
 		"description": [
 			"## True Silvered Throne",
@@ -380,7 +366,6 @@
 	},
 	"unsworn_shaman": {
 		"name": "Unsworn Shaman",
-		"file": "archetypedisplay3040.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Unsworn Shaman",
@@ -404,7 +389,6 @@
 	},
 	"visionary": {
 		"name": "Visionary",
-		"file": "archetypedisplaye5ae.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Visionary",
@@ -430,7 +414,6 @@
 	},
 	"witch_doctor": {
 		"name": "Witch Doctor",
-		"file": "archetypedisplay52d1.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Witch Doctor",

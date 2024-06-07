@@ -2,7 +2,6 @@
 	"_prefix": "magic-piercing",
 	"body_piercings_minor": {
 		"name": "Body Piercings (Minor)",
-		"file": "shadowpiercingsdisplay3e55.html",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
 			"## Body Piercings",
@@ -28,7 +27,6 @@
 	},
 	"chest_piercings_minor": {
 		"name": "Chest Piercings (Minor)",
-		"file": "shadowpiercingsdisplay7475.html",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
 			"## Chest Piercings",
@@ -54,28 +52,24 @@
 	},
 	"body_piercings_major": {
 		"name": "Body Piercings (Major)",
-		"file": "shadowpiercingsdisplaya3a3.html",
 		"sources": [ "Champions of Corruption" ],
 		"copyof": "body_piercings_minor",
 		"display": "magic/shadow_piercings"
 	},
 	"body_piercings_greater": {
 		"name": "Body Piercings (Greater)",
-		"file": "shadowpiercingsdisplayce07.html",
 		"sources": [ "Champions of Corruption" ],
 		"copyof": "body_piercings_minor",
 		"display": "magic/shadow_piercings"
 	},
 	"chest_piercings_major": {
 		"name": "Chest Piercings (Major)",
-		"file": "shadowpiercingsdisplay4b45.html",
 		"sources": [ "Champions of Corruption" ],
 		"copyof": "chest_piercings_minor",
 		"display": "magic/shadow_piercings"
 	},
 	"head_piercings_minor": {
 		"name": "Head Piercings (Minor)",
-		"file": "shadowpiercingsdisplay6380.html",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
 			"## Head Piercings",
@@ -101,21 +95,18 @@
 	},
 	"chest_piercings_greater": {
 		"name": "Chest Piercings (Greater)",
-		"file": "shadowpiercingsdisplaycf3e.html",
 		"sources": [ "Champions of Corruption" ],
 		"copyof": "chest_piercings_minor",
 		"display": "magic/shadow_piercings"
 	},
 	"head_piercings_major": {
 		"name": "Head Piercings (Major)",
-		"file": "shadowpiercingsdisplay10bc.html",
 		"sources": [ "Champions of Corruption" ],
 		"copyof": "head_piercings_minor",
 		"display": "magic/shadow_piercings"
 	},
 	"eye_piercings_minor": {
 		"name": "Eye Piercings (Minor)",
-		"file": "shadowpiercingsdisplayc46e.html",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
 			"## Eye Piercings",
@@ -141,7 +132,6 @@
 	},
 	"suspension_piercings_minor": {
 		"name": "Suspension Piercings (Minor)",
-		"file": "shadowpiercingsdisplay7971.html",
 		"sources": [ "Champions of Corruption" ],
 		"description": [
 			"## Suspension Piercings",
@@ -167,35 +157,30 @@
 	},
 	"suspension_piercings_major": {
 		"name": "Suspension Piercings (Major)",
-		"file": "shadowpiercingsdisplayd8dc.html",
 		"sources": [ "Champions of Corruption" ],
 		"copyof": "suspension_piercings_minor",
 		"display": "magic/shadow_piercings"
 	},
 	"suspension_piercings_greater": {
 		"name": "Suspension Piercings (Greater)",
-		"file": "shadowpiercingsdisplay0477.html",
 		"sources": [ "Champions of Corruption" ],
 		"copyof": "suspension_piercings_minor",
 		"display": "magic/shadow_piercings"
 	},
 	"eye_piercings_major": {
 		"name": "Eye Piercings (Major)",
-		"file": "shadowpiercingsdisplaycf58.html",
 		"sources": [ "Champions of Corruption" ],
 		"copyof": "eye_piercings_minor",
 		"display": "magic/shadow_piercings"
 	},
 	"eye_piercings_greater": {
 		"name": "Eye Piercings (Greater)",
-		"file": "shadowpiercingsdisplay8e0b.html",
 		"sources": [ "Champions of Corruption" ],
 		"copyof": "eye_piercings_minor",
 		"display": "magic/shadow_piercings"
 	},
 	"head_piercings_greater": {
 		"name": "Head Piercings (Greater)",
-		"file": "shadowpiercingsdisplay21c0.html",
 		"sources": [ "Champions of Corruption" ],
 		"copyof": "head_piercings_minor",
 		"display": "magic/shadow_piercings"

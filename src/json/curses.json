@@ -2,7 +2,6 @@
 	"_prefix": "curse",
 	"baleful_polymorph_spell": {
 		"name": "Baleful Polymorph Spell",
-		"file": "curses9eaf.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"saving_throw": "Fortitude DC 17",
 		"description": [
@@ -16,7 +15,6 @@
 	},
 	"bestow_curse_trap": {
 		"name": "Bestow Curse Trap",
-		"file": "curses2737.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"saving_throw": "Will DC 14",
 		"description": [
@@ -30,7 +28,6 @@
 	},
 	"blasted_vitality": {
 		"name": "Blasted Vitality",
-		"file": "curses73df.html",
 		"sources": [ "Horror Adventures" ],
 		"saving_throw": "Fortitude DC 19",
 		"description": [
@@ -44,7 +41,6 @@
 	},
 	"curse_of_the_ages": {
 		"name": "Curse of the Ages",
-		"file": "cursesc0cd.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"saving_throw": "Will DC 17",
 		"description": [
@@ -59,7 +55,6 @@
 	},
 	"cursed_earth": {
 		"name": "Cursed Earth",
-		"file": "curses9a82.html",
 		"sources": [ "Horror Adventures" ],
 		"saving_throw": "Will DC 23",
 		"description": [
@@ -73,7 +68,6 @@
 	},
 	"endless_night": {
 		"name": "Endless Night",
-		"file": "curses8fd0.html",
 		"sources": [ "Horror Adventures" ],
 		"saving_throw": "Will DC 22",
 		"description": [
@@ -88,7 +82,6 @@
 	},
 	"haunting,_major": {
 		"name": "Haunting, Major",
-		"file": "curses4418.html",
 		"sources": [ "Horror Adventures" ],
 		"saving_throw": "Will DC 17",
 		"description": [
@@ -103,7 +96,6 @@
 	},
 	"haunting,_minor": {
 		"name": "Haunting, Minor",
-		"file": "cursesd1c6.html",
 		"sources": [ "Horror Adventures" ],
 		"saving_throw": "Will DC 13",
 		"description": [
@@ -118,7 +110,6 @@
 	},
 	"hunt_of_the_ankou": {
 		"name": "Hunt of the Ankou",
-		"file": "curses7439.html",
 		"sources": [ "Horror Adventures" ],
 		"saving_throw": "Will DC 22",
 		"description": [
@@ -133,7 +124,6 @@
 	},
 	"hunt_of_the_bogeyman": {
 		"name": "Hunt of the Bogeyman",
-		"file": "curses6dea.html",
 		"sources": [ "Horror Adventures" ],
 		"saving_throw": "Will DC 19",
 		"description": [
@@ -148,7 +138,6 @@
 	},
 	"jealous_structure": {
 		"name": "Jealous Structure",
-		"file": "curses65ab.html",
 		"sources": [ "Horror Adventures" ],
 		"saving_throw": "Will DC 19",
 		"description": [
@@ -163,7 +152,6 @@
 	},
 	"mummy_rot": {
 		"name": "Mummy Rot",
-		"file": "curses0cea.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"saving_throw": "Fortitude DC 16",
 		"description": [
@@ -180,7 +168,6 @@
 	},
 	"perilous_demesne,_grand": {
 		"name": "Perilous Demesne, Grand",
-		"file": "cursese8e3.html",
 		"sources": [ "Horror Adventures" ],
 		"saving_throw": "Will DC 22",
 		"description": [
@@ -195,7 +182,6 @@
 	},
 	"perilous_demesne,_greater": {
 		"name": "Perilous Demesne, Greater",
-		"file": "curses9e33.html",
 		"sources": [ "Horror Adventures" ],
 		"saving_throw": "Will DC 19",
 		"description": [
@@ -210,7 +196,6 @@
 	},
 	"perilous_demesne,_major": {
 		"name": "Perilous Demesne, Major",
-		"file": "curses369e.html",
 		"sources": [ "Horror Adventures" ],
 		"saving_throw": "Will DC 16",
 		"description": [
@@ -224,7 +209,6 @@
 	},
 	"perilous_demesne,_minor": {
 		"name": "Perilous Demesne, Minor",
-		"file": "curses7751.html",
 		"sources": [ "Horror Adventures" ],
 		"saving_throw": "Will DC 13",
 		"description": [
@@ -238,7 +222,6 @@
 	},
 	"sealed_fate": {
 		"name": "Sealed Fate",
-		"file": "curses8a29.html",
 		"sources": [ "Horror Adventures" ],
 		"saving_throw": "Will DC 23",
 		"description": [
@@ -253,7 +236,6 @@
 	},
 	"shattered_self": {
 		"name": "Shattered Self",
-		"file": "curses2720.html",
 		"sources": [ "Horror Adventures" ],
 		"saving_throw": "Will DC 20",
 		"description": [
@@ -269,7 +251,6 @@
 	},
 	"tormenting_visions": {
 		"name": "Tormenting Visions",
-		"file": "cursesadfe.html",
 		"sources": [ "Horror Adventures" ],
 		"saving_throw": "Will DC 15",
 		"description": [
@@ -284,7 +265,6 @@
 	},
 	"unluck": {
 		"name": "Unluck",
-		"file": "curses7303.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"saving_throw": "Will DC 20",
 		"description": [
@@ -299,7 +279,6 @@
 	},
 	"unseasonable_weather": {
 		"name": "Unseasonable Weather",
-		"file": "curses4da3.html",
 		"sources": [ "Horror Adventures" ],
 		"saving_throw": "Will DC 23",
 		"description": [
@@ -314,7 +293,6 @@
 	},
 	"weeping_wound": {
 		"name": "Weeping Wound",
-		"file": "curses2391.html",
 		"sources": [ "Horror Adventures" ],
 		"saving_throw": "Fortitude DC 14",
 		"description": [
@@ -328,7 +306,6 @@
 	},
 	"werewolf_lycanthropy": {
 		"name": "Werewolf Lycanthropy",
-		"file": "curses1c9f.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"saving_throw": "Fortitude DC 15",
 		"description": [

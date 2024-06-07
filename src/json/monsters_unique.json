@@ -2,7 +2,6 @@
 	"_prefix": "monster",
 	"agmazar_the_star_titan": {
 		"name": "Agmazar the Star Titan",
-		"file": "monsterdisplaye180.html",
 		"sources": [ "Mythic Realms" ],
 		"description": [
 			"## Agmazar the Star Titan",
@@ -86,7 +85,6 @@
 	},
 	"ahriman": {
 		"name": "Ahriman, Lord of All Divs",
-		"file": "monsterdisplay5553.html",
 		"sources": [
 			"Mythic Realms",
 			"Pathfinder #24: The Final Wish"
@@ -178,7 +176,6 @@
 	},
 	"akilep": {
 		"name": "Akilep, Lady of Stone",
-		"file": "monsterdisplay41d0.html",
 		"sources": [ "Mythical Monsters Revisited" ],
 		"description": [
 			"## Akilep, Lady of Stone",
@@ -229,7 +226,6 @@
 	},
 	"amalya": {
 		"name": "Amalya",
-		"file": "monsterdisplay21f5.html",
 		"sources": [ "Fey Revisited" ],
 		"description": [
 			"## Amalya",
@@ -285,7 +281,6 @@
 	},
 	"arazni": {
 		"name": "Arazni",
-		"file": "mythicmonsterdisplayea52.html",
 		"sources": [ "Mythic Realms" ],
 		"description": [
 			"## Arazni",
@@ -364,7 +359,6 @@
 	},
 	"archdevil,_baalzebul": {
 		"name": "Archdevil, Baalzebul",
-		"file": "monsterdisplay93ee.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Archdevil, Baalzebul",
@@ -449,7 +443,6 @@
 	"baalzebul": { "copyof": "archdevil,_baalzebul" },
 	"archdevil,_barbatos": {
 		"name": "Archdevil, Barbatos",
-		"file": "monsterdisplayec3a.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Archdevil, Barbatos",
@@ -529,7 +522,6 @@
 	"barbatos": { "copyof": "archdevil,_barbatos" },
 	"archdevil,_belial": {
 		"name": "Archdevil, Belial",
-		"file": "monsterdisplay8aaf.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Archdevil, Belial",
@@ -615,7 +607,6 @@
 	"belial": { "copyof": "archdevil,_belial" },
 	"archdevil,_dispater": {
 		"name": "Archdevil, Dispater",
-		"file": "monsterdisplayb286.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Archdevil, Dispater",
@@ -694,7 +685,6 @@
 	"dispater": { "copyof": "archdevil,_dispater" },
 	"archdevil,_geryon": {
 		"name": "Archdevil, Geryon",
-		"file": "monsterdisplaycf54.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Archdevil, Geryon",
@@ -779,7 +769,6 @@
 	"geryon": { "copyof": "archdevil,_geryon" },
 	"archdevil,_mammon": {
 		"name": "Archdevil, Mammon",
-		"file": "monsterdisplay57a1.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Archdevil, Mammon",
@@ -858,7 +847,6 @@
 	"mammon": { "copyof": "archdevil,_mammon" },
 	"archdevil,_mephistopheles": {
 		"name": "Archdevil, Mephistopheles",
-		"file": "monsterdisplayce09.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Archdevil, Mephistopheles",
@@ -937,7 +925,6 @@
 	"mephistopheles": { "copyof": "archdevil,_mephistopheles" },
 	"archdevil,_moloch": {
 		"name": "Archdevil, Moloch",
-		"file": "monsterdisplay743d.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Archdevil, Moloch",
@@ -1022,7 +1009,6 @@
 	"moloch": { "copyof": "archdevil,_moloch" },
 	"aridus": {
 		"name": "Aridus, the Desert's Howl",
-		"file": "monsterdisplay893f.html",
 		"sources": [ "Mythical Monsters Revisited" ],
 		"description": [
 			"## Aridus, the Desert's Howl",
@@ -1077,7 +1063,6 @@
 	},
 	"ayandamahla": {
 		"name": "Ayandamahla, the Crimson Lotus",
-		"file": "monsterdisplaye9bf.html",
 		"sources": [ "Demons Revisited" ],
 		"description": [
 			"## Ayandamahla, the Crimson Lotus",
@@ -1139,7 +1124,6 @@
 	},
 	"baba_yaga": {
 		"name": "Baba Yaga",
-		"file": "mythicmonsterdisplay6ace.html",
 		"sources": [ "Pathfinder #72: The Witch Queen's Revenge" ],
 		"description": [
 			"## Baba Yaga",
@@ -1212,7 +1196,6 @@
 	},
 	"baba_yaga's_rider,_black_rider": {
 		"name": "Baba Yaga's Rider, Black Rider",
-		"file": "monsterdisplaye8ce.html",
 		"sources": [ "Irrisen - Land of Eternal Winter" ],
 		"description": [
 			"## Baba Yaga's Rider, Black Rider",
@@ -1280,7 +1263,6 @@
 	"black_rider": { "copyof": "baba_yaga's_rider,_black_rider" },
 	"baba_yaga's_rider,_red_rider": {
 		"name": "Baba Yaga's Rider, Red Rider",
-		"file": "monsterdisplayc039.html",
 		"sources": [ "Irrisen - Land of Eternal Winter" ],
 		"description": [
 			"## Baba Yaga's Rider, Red Rider",
@@ -1347,7 +1329,6 @@
 	"red_rider": { "copyof": "baba_yaga's_rider,_red_rider" },
 	"baba_yaga's_rider,_white_rider": {
 		"name": "Baba Yaga's Rider, White Rider",
-		"file": "monsterdisplay37a1.html",
 		"sources": [ "Irrisen - Land of Eternal Winter" ],
 		"description": [
 			"## Baba Yaga's Rider, White Rider",
@@ -1416,7 +1397,6 @@
 	"white_rider": { "copyof": "baba_yaga's_rider,_white_rider" },
 	"balravnus": {
 		"name": "Balravnus, Lord of the Deep Pools",
-		"file": "monsterdisplay298e.html",
 		"sources": [ "Demons Revisited" ],
 		"description": [
 			"## Balravnus, Lord of the Deep Pools",
@@ -1476,7 +1456,6 @@
 	},
 	"bee-man_of_bellis": {
 		"name": "Bee-Man of Bellis",
-		"file": "monsterdisplay9120.html",
 		"sources": [ "Andoran, Birthplace of Freedom" ],
 		"description": [
 			"## Bee-Man of Bellis",
@@ -1541,7 +1520,6 @@
 	"bee_man_of_bellis": { "copyof": "bee-man_of_bellis" },
 	"bezilak": {
 		"name": "Bezilak, the Silken Fang",
-		"file": "monsterdisplay9449.html",
 		"sources": [ "Demons Revisited" ],
 		"description": [
 			"## Bezilak, the Silken Fang",
@@ -1597,7 +1575,6 @@
 	},
 	"black_magga": {
 		"name": "Black Magga",
-		"file": "monsterdisplayf7e1.html",
 		"sources": [
 			"Rise of the Runelords Anniversary Edition",
 			"Pathfinder #3: The Hook Mountain Massacre"
@@ -1684,7 +1661,6 @@
 	},
 	"captain_ignisco": {
 		"name": "Captain Ignisco",
-		"file": "monsterdisplayedaa.html",
 		"sources": [ "Darklands Revisited" ],
 		"description": [
 			"## Captain Ignisco",
@@ -1740,7 +1716,6 @@
 	},
 	"courage_heart": {
 		"name": "Courage Heart",
-		"file": "monsterdisplay0bf4.html",
 		"sources": [ "Pathfinder #68: The Shackled Hut" ],
 		"description": [
 			"## Courage Heart",
@@ -1830,7 +1805,6 @@
 	},
 	"daemonic_harbinger,_braismois": {
 		"name": "Daemonic Harbinger, Braismois",
-		"file": "monsterdisplay1fc0.html",
 		"sources": [ "Druma, Profit and Prophecy" ],
 		"description": [
 			"## Daemonic Harbinger, Braismois",
@@ -1917,7 +1891,6 @@
 	"braismois": { "copyof": "daemonic_harbinger,_braismois" },
 	"demon_lord,_baphomet": {
 		"name": "Demon Lord, Baphomet",
-		"file": "monsterdisplayc6d7.html",
 		"sources": [
 			"Pathfinder #77: Herald of the Ivory Labyrinth",
 			"Bestiary 4"
@@ -2006,7 +1979,6 @@
 	"baphomet": { "copyof": "demon_lord,_baphomet" },
 	"demon_lord,_dagon": {
 		"name": "Demon Lord, Dagon",
-		"file": "monsterdisplaya05d.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Demon Lord, Dagon",
@@ -2087,7 +2059,6 @@
 	"dagon": { "copyof": "demon_lord,_dagon" },
 	"demon_lord,_deskari": {
 		"name": "Demon Lord, Deskari",
-		"file": "monsterdisplayb7b9-2.html",
 		"sources": [
 			"Pathfinder #78: City of Locusts",
 			"Bestiary 4"
@@ -2176,7 +2147,6 @@
 	"deskari": { "copyof": "demon_lord,_deskari" },
 	"demon_lord,_kostchtchie": {
 		"name": "Demon Lord, Kostchtchie",
-		"file": "monsterdisplaya2ba.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Demon Lord, Kostchtchie",
@@ -2263,7 +2233,6 @@
 	"kostchtchie": { "copyof": "demon_lord,_kostchtchie" },
 	"demon_lord,_nocticula": {
 		"name": "Demon Lord, Nocticula",
-		"file": "monsterdisplay12da.html",
 		"sources": [
 			"Pathfinder #76: The Midnight Isles",
 			"Bestiary 4"
@@ -2352,7 +2321,6 @@
 	"nocticula": { "copyof": "demon_lord,_nocticula" },
 	"demon_lord,_pazuzu": {
 		"name": "Demon Lord, Pazuzu",
-		"file": "monsterdisplay273a.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Demon Lord, Pazuzu",
@@ -2437,7 +2405,6 @@
 	"pazuzu": { "copyof": "demon_lord,_pazuzu" },
 	"demon_lord,_shax": {
 		"name": "Demon Lord, Shax",
-		"file": "monsterdisplay629b.html",
 		"sources": [
 			"Pathfinder #74: Sword of Valor",
 			"Bestiary 4"
@@ -2527,7 +2494,6 @@
 	"shax": { "copyof": "demon_lord,_shax" },
 	"demon_lord,_sifkesh": {
 		"name": "Demon Lord, Sifkesh",
-		"file": "monsterdisplay5802.html",
 		"sources": [
 			"Pathfinder #75: Demon's Heresy",
 			"Bestiary 4"
@@ -2616,7 +2582,6 @@
 	"sifkesh": { "copyof": "demon_lord,_sifkesh" },
 	"demon_lord,_xoveron": {
 		"name": "Demon Lord, Xoveron",
-		"file": "monsterdisplay7517.html",
 		"sources": [
 			"Pathfinder #73: The Worldwound Incursion",
 			"Bestiary 4"
@@ -2702,7 +2667,6 @@
 	"xoveron": { "copyof": "demon_lord,_xoveron" },
 	"emperor_of_scales": {
 		"name": "Emperor of Scales",
-		"file": "monsterdisplaye1f0.html",
 		"sources": [ "Pathfinder #42: Sanctum of the Serpent God" ],
 		"description": [
 			"## Emperor of Scales",
@@ -2775,7 +2739,6 @@
 	},
 	"empyreal_lord,_arshea": {
 		"name": "Empyreal Lord, Arshea",
-		"file": "monsterdisplay317c.html",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 4"
@@ -2862,7 +2825,6 @@
 	"arshea": { "copyof": "empyreal_lord,_arshea" },
 	"empyreal_lord,_ashava": {
 		"name": "Empyreal Lord, Ashava",
-		"file": "monsterdisplayb117.html",
 		"sources": [
 			"Pathfinder #134: It Came from Hollow Mountain",
 			"Bestiary 4"
@@ -2952,7 +2914,6 @@
 	"ashava": { "copyof": "empyreal_lord,_ashava" },
 	"empyreal_lord,_black_butterfly": {
 		"name": "Empyreal Lord, Black Butterfly",
-		"file": "monsterdisplaya56f.html",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 4"
@@ -3043,7 +3004,6 @@
 	"black_butterfly": { "copyof": "empyreal_lord,_black_butterfly" },
 	"empyreal_lord,_cernunnos": {
 		"name": "Empyreal Lord, Cernunnos",
-		"file": "monsterdisplay588b.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Empyreal Lord, Cernunnos",
@@ -3148,7 +3108,6 @@
 	"cernunnos": { "copyof": "empyreal_lord,_cernunnos" },
 	"empyreal_lord,_korada": {
 		"name": "Empyreal Lord, Korada",
-		"file": "monsterdisplayd072.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Empyreal Lord, Korada",
@@ -3239,7 +3198,6 @@
 	"korada": { "copyof": "empyreal_lord,_korada" },
 	"empyreal_lord,_ragathiel": {
 		"name": "Empyreal Lord, Ragathiel",
-		"file": "monsterdisplay013c.html",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 4"
@@ -3329,7 +3287,6 @@
 	"ragathiel": { "copyof": "empyreal_lord,_ragathiel" },
 	"empyreal_lord,_vildeis": {
 		"name": "Empyreal Lord, Vildeis",
-		"file": "monsterdisplay0f0d.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Empyreal Lord, Vildeis",
@@ -3419,7 +3376,6 @@
 	"vildeis": { "copyof": "empyreal_lord,_vildeis" },
 	"erotundee": {
 		"name": "Erotundee, Keeper of the Risen Light",
-		"file": "monsterdisplay8593.html",
 		"sources": [ "Demons Revisited" ],
 		"description": [
 			"## Erotundee, Keeper of the Risen Light",
@@ -3489,7 +3445,6 @@
 	},
 	"eudranis": {
 		"name": "Eudranis",
-		"file": "monsterdisplay100c.html",
 		"sources": [ "Darklands Revisited" ],
 		"description": [
 			"## Eudranis",
@@ -3545,7 +3500,6 @@
 	},
 	"fyndylsnitch_the_shadowking": {
 		"name": "Fyndylsnitch the Shadowking",
-		"file": "monsterdisplayd3f5.html",
 		"sources": [ "Fey Revisited" ],
 		"description": [
 			"## Fyndylsnitch the Shadowking",
@@ -3597,7 +3551,6 @@
 	},
 	"galundari": {
 		"name": "Galundari, the Scourge of Heaven",
-		"file": "monsterdisplay0c68.html",
 		"sources": [ "Demons Revisited" ],
 		"description": [
 			"## Galundari, the Scourge of Heaven",
@@ -3659,7 +3612,6 @@
 	},
 	"ghristah": {
 		"name": "Ghristah",
-		"file": "monsterdisplayf6b8.html",
 		"sources": [ "Darklands Revisited" ],
 		"description": [
 			"## Ghristah",
@@ -3713,7 +3665,6 @@
 	},
 	"great_old_one,_atlach-nacha": {
 		"name": "Great Old One, Atlach-Nacha",
-		"file": "monsterdisplay8226.html",
 		"sources": [
 			"Pathfinder #112: The Whisper Out of Time",
 			"Bestiary 4"
@@ -3810,7 +3761,6 @@
 	"atlach_nacha": { "copyof": "great_old_one,_atlach-nacha" },
 	"great_old_one,_bokrug": {
 		"name": "Great Old One, Bokrug",
-		"file": "monsterdisplay89cf.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Great Old One, Bokrug",
@@ -3898,7 +3848,6 @@
 	"bokrug": { "copyof": "great_old_one,_bokrug" },
 	"great_old_one,_cthulhu": {
 		"name": "Great Old One, Cthulhu",
-		"file": "monsterdisplay73cd.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Great Old One, Cthulhu",
@@ -3982,7 +3931,6 @@
 	"cthulhu": { "copyof": "great_old_one,_cthulhu" },
 	"great_old_one,_ghatanothoa": {
 		"name": "Great Old One, Ghatanothoa",
-		"file": "monsterdisplay2615.html",
 		"sources": [
 			"Pathfinder #114: Black Stars Beckon",
 			"Bestiary 4"
@@ -4065,7 +4013,6 @@
 	"ghatanothoa": { "copyof": "great_old_one,_ghatanothoa" },
 	"great_old_one,_hastur": {
 		"name": "Great Old One, Hastur",
-		"file": "monsterdisplay6c60.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Great Old One, Hastur",
@@ -4147,7 +4094,6 @@
 	"hastur": { "copyof": "great_old_one,_hastur" },
 	"great_old_one,_ithaqua": {
 		"name": "Great Old One, Ithaqua",
-		"file": "monsterdisplay5bed.html",
 		"sources": [
 			"Pathfinder #109: In Search of Sanity",
 			"Bestiary 4"
@@ -4244,7 +4190,6 @@
 	"ithaqua": { "copyof": "great_old_one,_ithaqua" },
 	"great_old_one,_mhar": {
 		"name": "Great Old One, Mhar",
-		"file": "monsterdisplayb5e7.html",
 		"sources": [
 			"Pathfinder #138: Rise of New Thassilon",
 			"Bestiary 4"
@@ -4328,7 +4273,6 @@
 	"mhar": { "copyof": "great_old_one,_mhar" },
 	"great_old_one,_mordiggian": {
 		"name": "Great Old One, Mordiggian",
-		"file": "monsterdisplay8027.html",
 		"sources": [
 			"Pathfinder #110: The Thrushmoor Terror",
 			"Bestiary 4"
@@ -4417,7 +4361,6 @@
 	"mordiggian": { "copyof": "great_old_one,_mordiggian" },
 	"great_old_one,_rhan-tegoth": {
 		"name": "Great Old One, Rhan-Tegoth",
-		"file": "monsterdisplay1bc8.html",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 4"
@@ -4506,7 +4449,6 @@
 	"rhan_tegoth": { "copyof": "great_old_one,_rhan-tegoth" },
 	"great_old_one,_tawil_at'umr": {
 		"name": "Great Old One, Tawil At'umr",
-		"file": "monsterdisplay4ca1.html",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 4"
@@ -4596,7 +4538,6 @@
 	"tawil_at'umr": { "copyof": "great_old_one,_tawil_at'umr" },
 	"great_old_one,_tsathoggua": {
 		"name": "Great Old One, Tsathoggua",
-		"file": "monsterdisplay33d7.html",
 		"sources": [
 			"Pathfinder #111: Dreams of the Yellow King",
 			"Bestiary 4"
@@ -4698,7 +4639,6 @@
 	"tsathoggua": { "copyof": "great_old_one,_tsathoggua" },
 	"great_old_one,_xhamen-dor": {
 		"name": "Great Old One, Xhamen-Dor",
-		"file": "monsterdisplay8f72.html",
 		"sources": [
 			"Pathfinder #113: What Grows Within",
 			"Bestiary 4"
@@ -4788,7 +4728,6 @@
 	"xhamen_dor": { "copyof": "great_old_one,_xhamen-dor" },
 	"great_old_one,_yig": {
 		"name": "Great Old One, Yig",
-		"file": "monsterdisplay8046.html",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 4"
@@ -4874,7 +4813,6 @@
 	"yig": { "copyof": "great_old_one,_yig" },
 	"grendler_red-chains": {
 		"name": "Grendler Red-Chains",
-		"file": "monsterdisplay0868.html",
 		"sources": [ "Fey Revisited" ],
 		"description": [
 			"## Grendler Red-Chains",
@@ -4921,7 +4859,6 @@
 	"grendler_red_chains": { "copyof": "grendler_red-chains" },
 	"herald,_arcanotheign": {
 		"name": "Herald, Arcanotheign",
-		"file": "monsterdisplay5b75.html",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder #41: The Thousand Fangs Below"
@@ -4995,7 +4932,6 @@
 	"arcanotheign": { "copyof": "herald,_arcanotheign" },
 	"herald,_basileus": {
 		"name": "Herald, Basileus",
-		"file": "monsterdisplay13e0.html",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder #29: Mother of Flies"
@@ -5064,7 +5000,6 @@
 	"basileus": { "copyof": "herald,_basileus" },
 	"herald,_end's_voice": {
 		"name": "Herald, End's Voice",
-		"file": "monsterdisplay2b54.html",
 		"sources": [
 			"Pathfinder #64: Beyond the Doomsday Door",
 			"Inner Sea Gods"
@@ -5150,7 +5085,6 @@
 	"end's_voice": { "copyof": "herald,_end's_voice" },
 	"herald,_gravedragger": {
 		"name": "Herald, Gravedragger",
-		"file": "monsterdisplaybbd5.html",
 		"sources": [
 			"Pathfinder #89: Palace of Fallen Stars",
 			"Inner Sea Gods"
@@ -5239,7 +5173,6 @@
 	"gravedragger": { "copyof": "herald,_gravedragger" },
 	"herald,_great_elder_iuu": {
 		"name": "Herald, Great Elder Iuu",
-		"file": "monsterdisplaydbbe.html",
 		"sources": [
 			"Pathfinder #93: Forge of the Giant God",
 			"Inner Sea Gods"
@@ -5335,7 +5268,6 @@
 	"great_elder_iuu": { "copyof": "herald,_great_elder_iuu" },
 	"herald,_hand_of_the_inheritor": {
 		"name": "Herald, Hand of the Inheritor",
-		"file": "monsterdisplay93f7.html",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder #26: The Sixfold Trial"
@@ -5402,7 +5334,6 @@
 	"hand_of_the_inheritor": { "copyof": "herald,_hand_of_the_inheritor" },
 	"herald,_latten_mechanism": {
 		"name": "Herald, Latten Mechanism",
-		"file": "monsterdisplay1a0f.html",
 		"sources": [
 			"Pathfinder #86: Lords of Rust",
 			"Inner Sea Gods"
@@ -5496,7 +5427,6 @@
 	"latten_mechanism": { "copyof": "herald,_latten_mechanism" },
 	"herald,_mother's_maw": {
 		"name": "Herald, Mother's Maw",
-		"file": "monsterdisplay7f06.html",
 		"sources": [
 			"Pathfinder #47: Ashes at Dawn",
 			"Inner Sea Gods"
@@ -5575,7 +5505,6 @@
 	"mother's_maw": { "copyof": "herald,_mother's_maw" },
 	"herald,_personification_of_fury": {
 		"name": "Herald, Personification of Fury",
-		"file": "monsterdisplay91a1.html",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder #38: Racing to Ruin"
@@ -5651,7 +5580,6 @@
 	"personification_of_fury": { "copyof": "herald,_personification_of_fury" },
 	"herald,_steward_of_the_skein": {
 		"name": "Herald, Steward of the Skein",
-		"file": "monsterdisplaya710.html",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder #44: Trial of the Beast"
@@ -5720,7 +5648,6 @@
 	"steward_of_the_skein": { "copyof": "herald,_steward_of_the_skein" },
 	"herald,_sunlord_thalachos": {
 		"name": "Herald, Sunlord Thalachos",
-		"file": "monsterdisplaybf00.html",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder #20: House of the Beast"
@@ -5791,7 +5718,6 @@
 	"sunlord_thalachos": { "copyof": "herald,_sunlord_thalachos" },
 	"herald,_tarrasque": {
 		"name": "Herald, Tarrasque",
-		"file": "monsterdisplay0340.html",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder RPG Bestiary"
@@ -5862,7 +5788,6 @@
 	"tarrasque": { "copyof": "herald,_tarrasque" },
 	"herald,_thais": {
 		"name": "Herald, Thais",
-		"file": "monsterdisplay3a7f.html",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder #14: Children of the Void"
@@ -5934,7 +5859,6 @@
 	"thais": { "copyof": "herald,_thais" },
 	"herald,_the_first_blade": {
 		"name": "Herald, The First Blade",
-		"file": "monsterdisplay36a6.html",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder #35: War of the River Kings"
@@ -6012,7 +5936,6 @@
 	"the_first_blade": { "copyof": "herald,_the_first_blade" },
 	"herald,_the_grand_defender": {
 		"name": "Herald, The Grand Defender",
-		"file": "monsterdisplay0c08.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Herald, The Grand Defender",
@@ -6079,7 +6002,6 @@
 	"the_grand_defender": { "copyof": "herald,_the_grand_defender" },
 	"herald,_the_grim_white_stag": {
 		"name": "Herald, The Grim White Stag",
-		"file": "monsterdisplay8cfb.html",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder #32: Rivers Run Red"
@@ -6151,7 +6073,6 @@
 	"the_grim_white_stag": { "copyof": "herald,_the_grim_white_stag" },
 	"herald,_the_menotherian": {
 		"name": "Herald, The Menotherian",
-		"file": "monsterdisplaye9d9.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Herald, The Menotherian",
@@ -6220,7 +6141,6 @@
 	"the_menotherian": { "copyof": "herald,_the_menotherian" },
 	"herald,_the_old_man": {
 		"name": "Herald, The Old Man",
-		"file": "monsterdisplay6914.html",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder #53: Tide of Honor"
@@ -6288,7 +6208,6 @@
 	"the_old_man": { "copyof": "herald,_the_old_man" },
 	"herald,_the_spirit_of_adoration": {
 		"name": "Herald, The Spirit of Adoration",
-		"file": "monsterdisplaybb48.html",
 		"sources": [ "Inner Sea Gods" ],
 		"description": [
 			"## Herald, The Spirit of Adoration",
@@ -6356,7 +6275,6 @@
 	"the_spirit_of_adoration": { "copyof": "herald,_the_spirit_of_adoration" },
 	"herald,_the_stabbing_beast": {
 		"name": "Herald, The Stabbing Beast",
-		"file": "monsterdisplay0805.html",
 		"sources": [
 			"Inner Sea Gods",
 			"Pathfinder #59: The Price of Infamy"
@@ -6429,7 +6347,6 @@
 	"the_stabbing_beast": { "copyof": "herald,_the_stabbing_beast" },
 	"horsemen_of_the_apocalypse,_apollyon": {
 		"name": "Horsemen of the Apocalypse, Apollyon",
-		"file": "monsterdisplayd84c.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Horsemen of the Apocalypse, Apollyon",
@@ -6510,7 +6427,6 @@
 	"apollyon": { "copyof": "horsemen_of_the_apocalypse,_apollyon" },
 	"horsemen_of_the_apocalypse,_charon": {
 		"name": "Horsemen of the Apocalypse, Charon",
-		"file": "monsterdisplay2645.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Horsemen of the Apocalypse, Charon",
@@ -6598,7 +6514,6 @@
 	"charon": { "copyof": "horsemen_of_the_apocalypse,_charon" },
 	"horsemen_of_the_apocalypse,_szuriel": {
 		"name": "Horsemen of the Apocalypse, Szuriel",
-		"file": "monsterdisplay54b2.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Horsemen of the Apocalypse, Szuriel",
@@ -6678,7 +6593,6 @@
 	"szuriel": { "copyof": "horsemen_of_the_apocalypse,_szuriel" },
 	"horsemen_of_the_apocalypse,_trelmarixian": {
 		"name": "Horsemen of the Apocalypse, Trelmarixian",
-		"file": "monsterdisplay5244.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Horsemen of the Apocalypse, Trelmarixian",
@@ -6760,7 +6674,6 @@
 	"trelmarixian": { "copyof": "horsemen_of_the_apocalypse,_trelmarixian" },
 	"ilzunae": {
 		"name": "Ilzunae, the Gloom Widow",
-		"file": "monsterdisplayca32.html",
 		"sources": [ "Demons Revisited" ],
 		"description": [
 			"## Ilzunae, the Gloom Widow",
@@ -6832,7 +6745,6 @@
 	},
 	"jarl_gnargorak": {
 		"name": "Jarl Gnargorak",
-		"file": "mythicmonsterdisplay28f8.html",
 		"sources": [ "Mythic Realms" ],
 		"description": [
 			"## Jarl Gnargorak",
@@ -6900,7 +6812,6 @@
 	},
 	"kaiju,_agyra": {
 		"name": "Kaiju, Agyra",
-		"file": "monsterdisplay0751.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Kaiju, Agyra",
@@ -6980,7 +6891,6 @@
 	"agyra": { "copyof": "kaiju,_agyra" },
 	"kaiju,_bezravnis": {
 		"name": "Kaiju, Bezravnis",
-		"file": "monsterdisplay9e34.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Kaiju, Bezravnis",
@@ -7052,7 +6962,6 @@
 	"bezravnis": { "copyof": "kaiju,_bezravnis" },
 	"kaiju,_mogaru": {
 		"name": "Kaiju, Mogaru",
-		"file": "monsterdisplaybbfb.html",
 		"sources": [ "Bestiary 4" ],
 		"description": [
 			"## Kaiju, Mogaru",
@@ -7128,7 +7037,6 @@
 	"mogaru": { "copyof": "kaiju,_mogaru" },
 	"kaiju,_varklops": {
 		"name": "Kaiju, Varklops",
-		"file": "monsterdisplay6547.html",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 4"
@@ -7210,7 +7118,6 @@
 	"varklops": { "copyof": "kaiju,_varklops" },
 	"kaiju,_vorgozen": {
 		"name": "Kaiju, Vorgozen",
-		"file": "monsterdisplay79b1.html",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 4"
@@ -7294,7 +7201,6 @@
 	"vorgozen": { "copyof": "kaiju,_vorgozen" },
 	"kaiju,_yarthoon": {
 		"name": "Kaiju, Yarthoon",
-		"file": "monsterdisplayac41.html",
 		"sources": [
 			"Bestiary 6",
 			"Bestiary 4"
@@ -7375,7 +7281,6 @@
 	"yarthoon": { "copyof": "kaiju,_yarthoon" },
 	"kallas_devil": {
 		"name": "Kallas Devil",
-		"file": "monsterdisplay4d71.html",
 		"sources": [ "Fey Revisited" ],
 		"description": [
 			"## Kallas Devil",
@@ -7433,7 +7338,6 @@
 	},
 	"kaltestrua": {
 		"name": "Kaltestrua, Governess of Casnoriva",
-		"file": "monsterdisplay5813.html",
 		"sources": [ "Demons Revisited" ],
 		"description": [
 			"## Kaltestrua, Governess of Casnoriva",
@@ -7496,7 +7400,6 @@
 	},
 	"khalirai": {
 		"name": "Khalirai, the Ivory Queen",
-		"file": "monsterdisplay999a.html",
 		"sources": [ "Fey Revisited" ],
 		"description": [
 			"## Khalirai, the Ivory Queen",
@@ -7560,7 +7463,6 @@
 	},
 	"kortash_khain": {
 		"name": "Kortash Khain",
-		"file": "mythicmonsterdisplayca4a.html",
 		"sources": [ "Mythic Realms" ],
 		"description": [
 			"## Kortash Khain",
@@ -7643,7 +7545,6 @@
 	},
 	"kurshu_the_undying": {
 		"name": "Kurshu the Undying",
-		"file": "monsterdisplay0381.html",
 		"sources": [ "Pathfinder #65: Into the Nightmare Rift" ],
 		"description": [
 			"## Kurshu the Undying",
@@ -7718,7 +7619,6 @@
 	},
 	"kyton_demagogue,_inkariax": {
 		"name": "Kyton Demagogue, Inkariax",
-		"file": "monsterdisplay7d86.html",
 		"sources": [ "Pathfinder #137: The City Outside of Time" ],
 		"description": [
 			"## Kyton Demagogue, Inkariax",
@@ -7803,7 +7703,6 @@
 	"inkariax": { "copyof": "kyton_demagogue,_inkariax" },
 	"lorthact": {
 		"name": "Lorthact",
-		"file": "monsterdisplayff9d.html",
 		"sources": [ "Inner Sea Bestiary" ],
 		"description": [
 			"## Lorthact",
@@ -7882,7 +7781,6 @@
 	},
 	"malsandra": {
 		"name": "Malsandra",
-		"file": "monsterdisplayf444.html",
 		"sources": [ "Fey Revisited" ],
 		"description": [
 			"## Malsandra",
@@ -7939,7 +7837,6 @@
 	},
 	"malziarax": {
 		"name": "Malziarax, Rune Giant Overlord",
-		"file": "monsterdisplay9cdb.html",
 		"sources": [ "Giants Revisited" ],
 		"description": [
 			"## Malziarax, Rune Giant Overlord",
@@ -7993,7 +7890,6 @@
 	},
 	"mangvhune": {
 		"name": "Mangvhune, the Temple Hill Slasher",
-		"file": "monsterdisplayf813.html",
 		"sources": [ "Demons Revisited" ],
 		"description": [
 			"## Mangvhune, the Temple Hill Slasher",
@@ -8050,7 +7946,6 @@
 	},
 	"mardahamman": {
 		"name": "Mardahamman, Cyclops Tyrant",
-		"file": "monsterdisplay765c.html",
 		"sources": [ "Giants Revisited" ],
 		"description": [
 			"## Mardahamman, Cyclops Tyrant",
@@ -8102,7 +7997,6 @@
 	},
 	"moxix": {
 		"name": "Moxix",
-		"file": "monsterdisplay174a.html",
 		"sources": [ "Inner Sea Bestiary" ],
 		"description": [
 			"## Moxix",
@@ -8176,7 +8070,6 @@
 	},
 	"nightripper": {
 		"name": "Nightripper",
-		"file": "monsterdisplayd9f2.html",
 		"sources": [ "Inner Sea Bestiary" ],
 		"description": [
 			"## Nightripper",
@@ -8256,7 +8149,6 @@
 	},
 	"old-mage_jatembe": {
 		"name": "Old-Mage Jatembe",
-		"file": "mythicmonsterdisplay769b.html",
 		"sources": [ "Mythic Realms" ],
 		"description": [
 			"## Old-Mage Jatembe",
@@ -8334,7 +8226,6 @@
 	"old_mage_jatembe": { "copyof": "old-mage_jatembe" },
 	"old_wulunga": {
 		"name": "Old Wulunga",
-		"file": "monsterdisplayed76.html",
 		"sources": [ "Mystery Monsters Revisited" ],
 		"description": [
 			"## Old Wulunga",
@@ -8391,7 +8282,6 @@
 	},
 	"oliphaunt_of_jandelay": {
 		"name": "Oliphaunt of Jandelay",
-		"file": "monsterdisplay171f.html",
 		"sources": [ "Mythic Realms" ],
 		"description": [
 			"## Oliphaunt of Jandelay",
@@ -8470,7 +8360,6 @@
 	},
 	"oozlosh": {
 		"name": "Oozlosh, Marsh Giant High Priest",
-		"file": "monsterdisplay9526.html",
 		"sources": [ "Giants Revisited" ],
 		"description": [
 			"## Oozlosh, Marsh Giant High Priest",
@@ -8534,7 +8423,6 @@
 	},
 	"orania": {
 		"name": "Orania, Cloud Giant Oligarch",
-		"file": "monsterdisplay9e7b.html",
 		"sources": [ "Giants Revisited" ],
 		"description": [
 			"## Orania, Cloud Giant Oligarch",
@@ -8596,7 +8484,6 @@
 	},
 	"orynox_marchelin": {
 		"name": "Orynox Marchelin, Fire Giant King",
-		"file": "monsterdisplay2614.html",
 		"sources": [ "Giants Revisited" ],
 		"description": [
 			"## Orynox Marchelin, Fire Giant King",
@@ -8645,7 +8532,6 @@
 	},
 	"paakis-si": {
 		"name": "Paakis-Si",
-		"file": "monsterdisplay01b8.html",
 		"sources": [ "Mystery Monsters Revisited" ],
 		"description": [
 			"## Paakis-Si",
@@ -8702,7 +8588,6 @@
 	"paakis_si": { "copyof": "paakis-si" },
 	"papa_chupar": {
 		"name": "Papa Chupar",
-		"file": "monsterdisplaye2fc.html",
 		"sources": [ "Mystery Monsters Revisited" ],
 		"description": [
 			"## Papa Chupar",
@@ -8753,7 +8638,6 @@
 	},
 	"prismatic_orrery": {
 		"name": "Prismatic Orrery",
-		"file": "monsterdisplay59a4.html",
 		"sources": [ "Tombs of Golarion" ],
 		"description": [
 			"## Prismatic Orrery",
@@ -8817,7 +8701,6 @@
 	},
 	"phoenix,_pyralisia": {
 		"name": "Phoenix, Pyralisia, the Rain of Embers",
-		"file": "monsterdisplay17a2.html",
 		"sources": [ "Mythical Monsters Revisited" ],
 		"description": [
 			"## Phoenix, Pyralisia, the Rain of Embers",
@@ -8878,7 +8761,6 @@
 	"pyralisia": { "copyof": "phoenix,_pyralisia" },
 	"psychopomp_usher,_barzahk": {
 		"name": "Psychopomp Usher, Barzahk",
-		"file": "monsterdisplay7206.html",
 		"sources": [ "Pathfinder #143: Borne by the Sun's Grace" ],
 		"description": [
 			"## Psychopomp Usher, Barzahk",
@@ -8949,7 +8831,6 @@
 	"barzahk": { "copyof": "psychopomp_usher,_barzahk" },
 	"qaishan_yeti": {
 		"name": "Qaishan Yeti",
-		"file": "monsterdisplay4cba.html",
 		"sources": [ "Mystery Monsters Revisited" ],
 		"description": [
 			"## Qaishan Yeti",
@@ -9007,7 +8888,6 @@
 	},
 	"qlippoth_lord,_chavazvug": {
 		"name": "Qlippoth Lord, Chavazvug",
-		"file": "monsterdisplay77c5.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Qlippoth Lord, Chavazvug",
@@ -9092,7 +8972,6 @@
 	"chavazvug": { "copyof": "qlippoth_lord,_chavazvug" },
 	"qlippoth_lord,_isph-aun-vuln": {
 		"name": "Qlippoth Lord, Isph-Aun-Vuln",
-		"file": "monsterdisplay605b-2.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Qlippoth Lord, Isph-Aun-Vuln",
@@ -9176,7 +9055,6 @@
 	"isph_aun_vuln": { "copyof": "qlippoth_lord,_isph-aun-vuln" },
 	"qlippoth_lord,_oaur-ooung": {
 		"name": "Qlippoth Lord, Oaur-Ooung",
-		"file": "monsterdisplay1bf6.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Qlippoth Lord, Oaur-Ooung",
@@ -9268,7 +9146,6 @@
 	"oaur_ooung": { "copyof": "qlippoth_lord,_oaur-ooung" },
 	"qlippoth_lord,_thuskchoon": {
 		"name": "Qlippoth Lord, Thuskchoon",
-		"file": "monsterdisplay30d0.html",
 		"sources": [ "Bestiary 6" ],
 		"description": [
 			"## Qlippoth Lord, Thuskchoon",
@@ -9354,7 +9231,6 @@
 	"thuskchoon": { "copyof": "qlippoth_lord,_thuskchoon" },
 	"qlippoth_lord,_yamasoth": {
 		"name": "Qlippoth Lord, Yamasoth",
-		"file": "monsterdisplaye725.html",
 		"sources": [
 			"Pathfinder #64: Beyond the Doomsday Door",
 			"Bestiary 6"
@@ -9437,7 +9313,6 @@
 	"yamasoth": { "copyof": "qlippoth_lord,_yamasoth" },
 	"quetzutrhul": {
 		"name": "Quetzutrhul",
-		"file": "monsterdisplay7987.html",
 		"sources": [ "Darklands Revisited" ],
 		"description": [
 			"## Quetzutrhul",
@@ -9497,7 +9372,6 @@
 	},
 	"rahstalshan": {
 		"name": "Rahstalshan, Stone Giant Elder",
-		"file": "monsterdisplay99a7.html",
 		"sources": [ "Giants Revisited" ],
 		"description": [
 			"## Rahstalshan, Stone Giant Elder",
@@ -9560,7 +9434,6 @@
 	},
 	"raskineya": {
 		"name": "Raskineya, the Dark Comet",
-		"file": "mythicmonsterdisplay50fe.html",
 		"sources": [ "Mythic Realms" ],
 		"description": [
 			"## Raskineya, the Dark Comet",
@@ -9633,7 +9506,6 @@
 	},
 	"sandpoint_devil": {
 		"name": "Sandpoint Devil",
-		"file": "monsterdisplay1c45.html",
 		"sources": [
 			"Inner Sea World Guide",
 			"Mystery Monsters Revisited"
@@ -9699,7 +9571,6 @@
 	},
 	"scyld_hranni": {
 		"name": "Scyld Hranni, Storm Giant Matriarch",
-		"file": "monsterdisplay106c.html",
 		"sources": [ "Giants Revisited" ],
 		"description": [
 			"## Scyld Hranni, Storm Giant Matriarch",
@@ -9761,7 +9632,6 @@
 	},
 	"shamira": {
 		"name": "Shamira",
-		"file": "monsterdisplaye618.html",
 		"sources": [ "Pathfinder #76: The Midnight Isles" ],
 		"description": [
 			"## Shamira",
@@ -9839,7 +9709,6 @@
 	},
 	"shaorhaz": {
 		"name": "Shaorhaz, Glutton of the Green",
-		"file": "monsterdisplay0cde.html",
 		"sources": [ "Demons Revisited" ],
 		"description": [
 			"## Shaorhaz, Glutton of the Green",
@@ -9903,7 +9772,6 @@
 	},
 	"spawn_of_rovagug,_chemnosit_the_monarch_worm": {
 		"name": "Spawn of Rovagug, Chemnosit (The Monarch Worm)",
-		"file": "monsterdisplayfaf3.html",
 		"sources": [ "Inner Sea Bestiary" ],
 		"description": [
 			"## Spawn of Rovagug, Chemnosit (The Monarch Worm)",
@@ -9969,7 +9837,6 @@
 	"chemnosit": { "copyof": "spawn_of_rovagug,_chemnosit_the_monarch_worm" },
 	"spawn_of_rovagug,_festering_ulunat_the_unholy_first": {
 		"name": "Spawn of Rovagug, Festering Ulunat (The Unholy First)",
-		"file": "monsterdisplayc830.html",
 		"sources": [
 			"Pathfinder #84: Pyramid of the Sky Pharaoh",
 			"Inner Sea Bestiary"
@@ -10048,7 +9915,6 @@
 	"festering_ulunat": { "copyof": "spawn_of_rovagug,_festering_ulunat_the_unholy_first" },
 	"spawn_of_rovagug,_volnagur_the_end-singer": {
 		"name": "Spawn of Rovagug, Volnagur (The End-Singer)",
-		"file": "monsterdisplayc36d-2.html",
 		"sources": [ "Inner Sea Bestiary" ],
 		"description": [
 			"## Spawn of Rovagug, Volnagur (The End-Singer)",
@@ -10115,7 +9981,6 @@
 	"volnagur": { "copyof": "spawn_of_rovagug,_volnagur_the_end-singer" },
 	"talmandor": {
 		"name": "Talmandor",
-		"file": "monsterdisplay60cd.html",
 		"sources": [ "Andoran, Birthplace of Freedom" ],
 		"description": [
 			"## Talmandor",
@@ -10198,7 +10063,6 @@
 	},
 	"tanaq_mammoth-eater": {
 		"name": "Tanaq Mammoth-Eater, Taiga Giant Shaman",
-		"file": "monsterdisplaya205.html",
 		"sources": [ "Giants Revisited" ],
 		"description": [
 			"## Tanaq Mammoth-Eater, Taiga Giant Shaman",
@@ -10255,7 +10119,6 @@
 	"tanaq_mammoth_eater": { "copyof": "tanaq_mammoth-eater" },
 	"thath-malal": {
 		"name": "Thath-Malal, the Eyeless Prince",
-		"file": "monsterdisplay1816.html",
 		"sources": [ "Darklands Revisited" ],
 		"description": [
 			"## Thath-Malal, the Eyeless Prince",
@@ -10307,7 +10170,6 @@
 	"thath_malal": { "copyof": "thath-malal" },
 	"the_first_owlbear": {
 		"name": "The First Owlbear",
-		"file": "mythicmonsterdisplaya1d2.html",
 		"sources": [ "Mythic Adventures" ],
 		"description": [
 			"## The First Owlbear",
@@ -10358,7 +10220,6 @@
 	},
 	"the_mistress_of_the_fen": {
 		"name": "The Mistress of the Fen",
-		"file": "monsterdisplay5195.html",
 		"sources": [ "Mystery Monsters Revisited" ],
 		"description": [
 			"## The Mistress of the Fen",
@@ -10421,7 +10282,6 @@
 	},
 	"the_mourning_one": {
 		"name": "The Mourning One",
-		"file": "monsterdisplay1920.html",
 		"sources": [ "Mystery Monsters Revisited" ],
 		"description": [
 			"## The Mourning One",
@@ -10477,7 +10337,6 @@
 	},
 	"the_surface_caller": {
 		"name": "The Surface Caller",
-		"file": "monsterdisplaye280.html",
 		"sources": [ "Darklands Revisited" ],
 		"description": [
 			"## The Surface Caller",
@@ -10534,7 +10393,6 @@
 	},
 	"the_whispering_tyrant": {
 		"name": "The Whispering Tyrant",
-		"file": "mythicmonsterdisplay8929.html",
 		"sources": [ "Mythic Realms" ],
 		"description": [
 			"## The Whispering Tyrant",
@@ -10609,7 +10467,6 @@
 	},
 	"almara_kazaar": {
 		"name": "The Would-Be Queen, Almara Kazaar",
-		"file": "monsterdisplay92de.html",
 		"sources": [ "Darklands Revisited" ],
 		"description": [
 			"## The Would-Be Queen, Almara Kazaar",
@@ -10666,7 +10523,6 @@
 	},
 	"treerazer": {
 		"name": "Treerazer",
-		"file": "monsterdisplay1b33.html",
 		"sources": [
 			"Inner Sea World Guide",
 			"Pathfinder #17: A Memory of Darkness"
@@ -10746,7 +10602,6 @@
 	},
 	"triaza": {
 		"name": "Triaza",
-		"file": "monsterdisplayef1c.html",
 		"sources": [ "Darklands Revisited" ],
 		"description": [
 			"## Triaza",
@@ -10803,7 +10658,6 @@
 	},
 	"tychilarius": {
 		"name": "Tychilarius",
-		"file": "monsterdisplay67b2.html",
 		"sources": [ "Occult Bestiary" ],
 		"description": [
 			"## Tychilarius",
@@ -10887,7 +10741,6 @@
 	},
 	"uchurah": {
 		"name": "Uchurah",
-		"file": "monsterdisplay3360.html",
 		"sources": [ "Darklands Revisited" ],
 		"description": [
 			"## Uchurah",
@@ -10939,7 +10792,6 @@
 	},
 	"undrella": {
 		"name": "Undrella",
-		"file": "monsterdisplayd494.html",
 		"sources": [ "Mythical Monsters Revisited" ],
 		"description": [
 			"## Undrella",
@@ -10996,7 +10848,6 @@
 	},
 	"urburg_armbreaker": {
 		"name": "Urburg Armbreaker, Hill Giant Chieftain",
-		"file": "monsterdisplay7e3a.html",
 		"sources": [ "Giants Revisited" ],
 		"description": [
 			"## Urburg Armbreaker, Hill Giant Chieftain",
@@ -11050,7 +10901,6 @@
 	},
 	"urtleytlar": {
 		"name": "Urtleytlar, The Tempest Queen",
-		"file": "monsterdisplay3fc0.html",
 		"sources": [ "Pathfinder #60: From Hell's Heart" ],
 		"description": [
 			"## Urtleytlar, The Tempest Queen",
@@ -11133,7 +10983,6 @@
 	},
 	"uvaglor": {
 		"name": "Uvaglor, the Misbegotten Prince",
-		"file": "monsterdisplayb508.html",
 		"sources": [ "Demons Revisited" ],
 		"description": [
 			"## Uvaglor, the Misbegotten Prince",
@@ -11208,7 +11057,6 @@
 	},
 	"valonesse_hergrut": {
 		"name": "Valonesse Hergrut, Frost Giant Jarl",
-		"file": "monsterdisplay5783.html",
 		"sources": [ "Giants Revisited" ],
 		"description": [
 			"## Valonesse Hergrut, Frost Giant Jarl",
@@ -11263,7 +11111,6 @@
 	},
 	"voice_of_the_damned": {
 		"name": "Voice of the Damned",
-		"file": "monsterdisplay5fb5.html",
 		"sources": [ "Book of the Damned" ],
 		"description": [
 			"## Voice of the Damned",
@@ -11334,7 +11181,6 @@
 	},
 	"yrldak": {
 		"name": "Yrldak",
-		"file": "monsterdisplay30e5.html",
 		"sources": [ "Fey Revisited" ],
 		"description": [
 			"## Yrldak",
@@ -11393,7 +11239,6 @@
 	},
 	"elemental_lord,_ymeri": {
 		"name": "Elemental Lord, Ymeri",
-		"file": "monsterdisplay7e5e.html",
 		"sources": [ "Planes of Power" ],
 		"description": [
 			"## Elemental Lord, Ymeri",
@@ -11477,7 +11322,6 @@
 	"ymeri": { "copyof": "elemental_lord,_ymeri" },
 	"zelishkar_of_the_bitter_flame": {
 		"name": "Zelishkar of the Bitter Flame",
-		"file": "monsterdisplay9106.html",
 		"sources": [ "Inner Sea Bestiary" ],
 		"description": [
 			"## Zelishkar of the Bitter Flame",

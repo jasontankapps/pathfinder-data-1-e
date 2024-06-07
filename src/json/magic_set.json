@@ -2,7 +2,6 @@
 	"_prefix": "magic-set",
 	"archmage's_vestments": {
 		"name": "Archmage's Vestments",
-		"file": "magicsetsd485.html",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
 			"## Source [Chronicle of Legends pg. 24](source/chronicle_of_legends)",
@@ -31,7 +30,6 @@
 	},
 	"aroden's_array": {
 		"name": "Aroden's Array",
-		"file": "magicsetsfa0a.html",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
 			"## Source [Chronicle of Legends pg. 25](source/chronicle_of_legends)",
@@ -60,7 +58,6 @@
 	},
 	"beastmaster's_will": {
 		"name": "Beastmaster's Will",
-		"file": "magicsetsfbc0.html",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
 			"## Source [Chronicle of Legends pg. 25](source/chronicle_of_legends)",
@@ -85,7 +82,6 @@
 	},
 	"besmara's_bounty": {
 		"name": "Besmara's Bounty",
-		"file": "magicsets9ccf.html",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
 			"## Source [Chronicle of Legends pg. 26](source/chronicle_of_legends)",
@@ -114,7 +110,6 @@
 	},
 	"dread_demonic_armor": {
 		"name": "Dread Demonic Armor",
-		"file": "magicsets1d71.html",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
 			"## Source [Chronicle of Legends pg. 26](source/chronicle_of_legends)",
@@ -143,7 +138,6 @@
 	},
 	"irori's_meditation": {
 		"name": "Irori's Meditation",
-		"file": "magicsetse471.html",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
 			"## Source [Chronicle of Legends pg. 27](source/chronicle_of_legends)",
@@ -164,7 +158,6 @@
 	},
 	"pharasma's_command": {
 		"name": "Pharasma's Command",
-		"file": "magicsets5fd0.html",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
 			"## Source [Chronicle of Legends pg. 27](source/chronicle_of_legends)",
@@ -193,7 +186,6 @@
 	},
 	"urgathoa's_gluttony": {
 		"name": "Urgathoa's Gluttony",
-		"file": "magicsets915d.html",
 		"sources": [ "Chronicle of Legends" ],
 		"description": [
 			"## Source [Chronicle of Legends pg. 27](source/chronicle_of_legends)",

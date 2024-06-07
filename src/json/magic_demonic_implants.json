@@ -2,7 +2,6 @@
 	"_prefix": "magic-implant",
 	"baleful_eye": {
 		"name": "Baleful Eye",
-		"file": "_magicdemonicimplants.html",
 		"sources": [ "Pathfinder #74: Sword of Valor" ],
 		"description": [
 			"## Baleful Eye",
@@ -23,7 +22,6 @@
 	},
 	"brazen_hooves": {
 		"name": "Brazen Hooves",
-		"file": "_magicdemonicimplants.html",
 		"sources": [ "Pathfinder #74: Sword of Valor" ],
 		"description": [
 			"## Brazen Hooves",
@@ -46,7 +44,6 @@
 	},
 	"crown_of_horns": {
 		"name": "Crown of Horns",
-		"file": "_magicdemonicimplants.html",
 		"sources": [ "Pathfinder #74: Sword of Valor" ],
 		"description": [
 			"## Crown of Horns",
@@ -67,7 +64,6 @@
 	},
 	"demon_blood": {
 		"name": "Demon Blood",
-		"file": "_magicdemonicimplants.html",
 		"sources": [
 			"Pathfinder #74: Sword of Valor",
 			"Book of the Damned - Volume 2: Lords of Chaos"
@@ -91,7 +87,6 @@
 	},
 	"demon_heart": {
 		"name": "Demon Heart",
-		"file": "_magicdemonicimplants.html",
 		"sources": [ "Pathfinder #74: Sword of Valor" ],
 		"description": [
 			"## Demon Heart",
@@ -112,7 +107,6 @@
 	},
 	"demon_senses": {
 		"name": "Demon Senses",
-		"file": "_magicdemonicimplants.html",
 		"sources": [ "Book of the Damned - Volume 2: Lords of Chaos" ],
 		"description": [
 			"## Demon Senses",
@@ -133,7 +127,6 @@
 	},
 	"demon_talon": {
 		"name": "Demon Talon",
-		"file": "_magicdemonicimplants.html",
 		"sources": [ "Book of the Damned - Volume 2: Lords of Chaos" ],
 		"description": [
 			"## Demon Talon",
@@ -154,7 +147,6 @@
 	},
 	"demon_tongue": {
 		"name": "Demon Tongue",
-		"file": "_magicdemonicimplants.html",
 		"sources": [ "Pathfinder #74: Sword of Valor" ],
 		"description": [
 			"## Demon Tongue",
@@ -175,7 +167,6 @@
 	},
 	"demonhide": {
 		"name": "Demonhide",
-		"file": "_magicdemonicimplants.html",
 		"sources": [ "Pathfinder #74: Sword of Valor" ],
 		"description": [
 			"## Demonhide",
@@ -196,7 +187,6 @@
 	},
 	"splintered_mind": {
 		"name": "Splintered Mind",
-		"file": "_magicdemonicimplants.html",
 		"sources": [ "Pathfinder #74: Sword of Valor" ],
 		"description": [
 			"## Splintered Mind",
@@ -219,7 +209,6 @@
 	},
 	"wicked_wings": {
 		"name": "Wicked Wings",
-		"file": "_magicdemonicimplants.html",
 		"sources": [ "Pathfinder #74: Sword of Valor" ],
 		"description": [
 			"## Wicked Wings",

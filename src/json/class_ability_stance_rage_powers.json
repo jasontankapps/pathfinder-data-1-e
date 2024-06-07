@@ -2,7 +2,6 @@
 	"_prefix": "class_abilities-rage_stance",
 	"accurate_stance": {
 		"name": "Accurate Stance (Ex)",
-		"searchable_name": "Accurate Stance",
 		"description": [
 			"## Accurate Stance (Ex)",
 			"",
@@ -11,7 +10,6 @@
 	},
 	"calm_stance": {
 		"name": "Calm Stance (Ex)",
-		"searchable_name": "Calm Stance",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"## Calm Stance (Ex)",
@@ -21,7 +19,6 @@
 	},
 	"elemental_stance": {
 		"name": "Elemental Stance (Su)",
-		"searchable_name": "Elemental Stance",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"## Elemental Stance (Su)",
@@ -31,7 +28,6 @@
 	},
 	"guarded_stance": {
 		"name": "Guarded Stance (Ex)",
-		"searchable_name": "Guarded Stance",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"## Guarded Stance (Ex)",
@@ -41,7 +37,6 @@
 	},
 	"knockdown_stance": {
 		"name": "Knockdown Stance (Ex)",
-		"searchable_name": "Knockdown Stance",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"## Knockdown Stance (Ex)",
@@ -51,7 +46,6 @@
 	},
 	"powerful_stance": {
 		"name": "Powerful Stance (Ex)",
-		"searchable_name": "Powerful Stance",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"## Powerful Stance (Ex)",
@@ -61,7 +55,6 @@
 	},
 	"reckless_stance": {
 		"name": "Reckless Stance (Ex)",
-		"searchable_name": "Reckless Stance",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"## Reckless Stance (Ex)",
@@ -71,7 +64,6 @@
 	},
 	"regenerative_stance": {
 		"name": "Regenerative Stance (Ex)",
-		"searchable_name": "Regenerative Stance",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"## Regenerative Stance (Ex)",
@@ -81,7 +73,6 @@
 	},
 	"strength_stance": {
 		"name": "Strength Stance (Ex)",
-		"searchable_name": "Strength Stance",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"## Strength Stance (Ex)",
@@ -91,7 +82,6 @@
 	},
 	"taunting_stance": {
 		"name": "Taunting Stance (Ex)",
-		"searchable_name": "Taunting Stance",
 		"sources": [ "Pathfinder Unchained" ],
 		"description": [
 			"## Taunting Stance (Ex)",

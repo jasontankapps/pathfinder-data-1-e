@@ -2,7 +2,6 @@
 	"_prefix": "archetype_familiar",
 	"ambassador": {
 		"name": "Ambassador",
-		"file": "archetypedisplayd52f.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Ambassador",
@@ -26,7 +25,6 @@
 	},
 	"animal_exemplar": {
 		"name": "Animal Exemplar",
-		"file": "archetypedisplay879b.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Animal Exemplar",
@@ -46,7 +44,6 @@
 	},
 	"arcane_amplifier": {
 		"name": "Arcane Amplifier",
-		"file": "archetypedisplay34fc.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Arcane Amplifier",
@@ -72,7 +69,6 @@
 	},
 	"decoy": {
 		"name": "Decoy",
-		"file": "archetypedisplay5946.html",
 		"sources": [ "Familiar Folio" ],
 		"description": [
 			"## Decoy",
@@ -92,7 +88,6 @@
 	},
 	"egotist": {
 		"name": "Egotist",
-		"file": "archetypedisplayeaad.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Egotist",
@@ -122,7 +117,6 @@
 	},
 	"elemental_familiar": {
 		"name": "Elemental Familiar",
-		"file": "archetypedisplay98ba.html",
 		"sources": [ "Plane-Hopper's Handbook" ],
 		"description": [
 			"## Elemental Familiar",
@@ -144,7 +138,6 @@
 	},
 	"emissary": {
 		"name": "Emissary",
-		"file": "archetypedisplay04c9.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Familiar Folio"
@@ -175,7 +168,6 @@
 	},
 	"figment": {
 		"name": "Figment",
-		"file": "archetypedisplay080c.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Familiar Folio"
@@ -198,7 +190,6 @@
 	},
 	"infiltrator": {
 		"name": "Infiltrator",
-		"file": "archetypedisplay3510.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Animal Archive"
@@ -235,7 +226,6 @@
 	},
 	"mascot": {
 		"name": "Mascot",
-		"file": "archetypedisplay6f48.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Familiar Folio"
@@ -276,7 +266,6 @@
 	},
 	"mauler": {
 		"name": "Mauler",
-		"file": "archetypedisplay560c.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Familiar Folio"
@@ -311,7 +300,6 @@
 	},
 	"occult_messenger": {
 		"name": "Occult Messenger",
-		"file": "archetypedisplaycc51.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Occult Messenger",
@@ -331,7 +319,6 @@
 	},
 	"parasite": {
 		"name": "Parasite",
-		"file": "archetypedisplayd146-2.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Parasite",
@@ -355,7 +342,6 @@
 	},
 	"pilferer": {
 		"name": "Pilferer",
-		"file": "archetypedisplay087f.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Animal Archive"
@@ -388,7 +374,6 @@
 	},
 	"prankster": {
 		"name": "Prankster",
-		"file": "archetypedisplay66b0.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Prankster",
@@ -426,7 +411,6 @@
 	},
 	"protector": {
 		"name": "Protector",
-		"file": "archetypedisplay0710.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Familiar Folio"
@@ -453,7 +437,6 @@
 	},
 	"sage": {
 		"name": "Sage",
-		"file": "archetypedisplay55dd.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Familiar Folio"
@@ -478,7 +461,6 @@
 	},
 	"school_familiar": {
 		"name": "School Familiar",
-		"file": "archetypedisplaya819.html",
 		"sources": [ "Familiar Folio" ],
 		"description": [
 			"## School Familiar",
@@ -564,7 +546,6 @@
 	},
 	"soulbound_familiar": {
 		"name": "Soulbound Familiar",
-		"file": "archetypedisplaycaf3.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Soulbound Familiar",
@@ -584,7 +565,6 @@
 	},
 	"valet": {
 		"name": "Valet",
-		"file": "archetypedisplay6a1f.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Animal Archive"

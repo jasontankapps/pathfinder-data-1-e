@@ -2,7 +2,6 @@
 	"_prefix": "archetype-cleric",
 	"angelfire_apostle": {
 		"name": "Angelfire Apostle",
-		"file": "archetypedisplay778a.html",
 		"sources": [ "Healer's Handbook" ],
 		"description": [
 			"## Angelfire Apostle",
@@ -32,7 +31,6 @@
 	},
 	"appeaser": {
 		"name": "Appeaser",
-		"file": "archetypedisplay18ec.html",
 		"sources": [ "Agents of Evil" ],
 		"description": [
 			"## Appeaser",
@@ -56,7 +54,6 @@
 	},
 	"asmodean_advocate": {
 		"name": "Asmodean Advocate",
-		"file": "archetypedisplaya2e9.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Asmodean Advocate",
@@ -76,7 +73,6 @@
 	},
 	"blossoming_light": {
 		"name": "Blossoming Light",
-		"file": "archetypedisplay1f50.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Blossoming Light",
@@ -112,7 +108,6 @@
 	},
 	"cardinal": {
 		"name": "Cardinal",
-		"file": "archetypedisplayd146.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Cardinal",
@@ -132,7 +127,6 @@
 	},
 	"channeler_of_the_unknown": {
 		"name": "Channeler of the Unknown",
-		"file": "archetypedisplay1fa2.html",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Channeler of the Unknown",
@@ -172,7 +166,6 @@
 	},
 	"cloistered_cleric": {
 		"name": "Cloistered Cleric",
-		"file": "archetypedisplayb8a7.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Cloistered Cleric",
@@ -200,7 +193,6 @@
 	},
 	"crashing_wave": {
 		"name": "Crashing Wave",
-		"file": "archetypedisplay1106.html",
 		"sources": [],
 		"description": [
 			"## Crashing Wave",
@@ -244,7 +236,6 @@
 	},
 	"crusader": {
 		"name": "Crusader",
-		"file": "archetypedisplay0380.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Crusader",
@@ -262,7 +253,6 @@
 	},
 	"demonic_apostle": {
 		"name": "Demonic Apostle",
-		"file": "archetypedisplayf9cb.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Demonic Apostle",
@@ -282,7 +272,6 @@
 	},
 	"divine_paragon": {
 		"name": "Divine Paragon",
-		"file": "archetypedisplaybecb.html",
 		"sources": [ "Divine Anthology" ],
 		"description": [
 			"## Divine Paragon",
@@ -306,7 +295,6 @@
 	},
 	"divine_scourge": {
 		"name": "Divine Scourge",
-		"file": "archetypedisplay3326.html",
 		"sources": [ "Magic Tactics Toolbox" ],
 		"description": [
 			"## Divine Scourge",
@@ -330,7 +318,6 @@
 	},
 	"divine_strategist": {
 		"name": "Divine Strategist",
-		"file": "archetypedisplaya449.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Divine Strategist",
@@ -350,7 +337,6 @@
 	},
 	"ecclesitheurge": {
 		"name": "Ecclesitheurge",
-		"file": "archetypedisplay6a5f.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Ecclesitheurge",
@@ -380,7 +366,6 @@
 	},
 	"elder_mythos_cultist": {
 		"name": "Elder Mythos Cultist",
-		"file": "archetypedisplaye855.html",
 		"sources": [ "Horror Adventures" ],
 		"description": [
 			"## Elder Mythos Cultist",
@@ -418,7 +403,6 @@
 	},
 	"evangelist": {
 		"name": "Evangelist",
-		"file": "archetypedisplayf6f2.html",
 		"sources": [],
 		"description": [
 			"## Evangelist",
@@ -450,7 +434,6 @@
 	},
 	"fiendish_vessel": {
 		"name": "Fiendish Vessel",
-		"file": "archetypedisplayae29.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Fiendish Vessel",
@@ -488,7 +471,6 @@
 	},
 	"forgemaster": {
 		"name": "Forgemaster",
-		"file": "archetypedisplay71d1.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Forgemaster",
@@ -542,7 +524,6 @@
 	},
 	"foundation_of_faith": {
 		"name": "Foundation of Faith",
-		"file": "archetypedisplay2979.html",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
 			"## Foundation of Faith",
@@ -566,7 +547,6 @@
 	},
 	"herald_caller": {
 		"name": "Herald Caller",
-		"file": "archetypedisplay375a.html",
 		"sources": [ "Monster Summoner's Handbook" ],
 		"description": [
 			"## Herald Caller",
@@ -590,7 +570,6 @@
 	},
 	"hidden_priest": {
 		"name": "Hidden Priest",
-		"file": "archetypedisplay9387.html",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"## Hidden Priest",
@@ -614,7 +593,6 @@
 	},
 	"idealist": {
 		"name": "Idealist",
-		"file": "archetypedisplay9a4f.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Idealist",
@@ -678,7 +656,6 @@
 	},
 	"iron_priest": {
 		"name": "Iron Priest",
-		"file": "archetypedisplay0f48.html",
 		"sources": [ "Technology Guide" ],
 		"description": [
 			"## Iron Priest",
@@ -696,7 +673,6 @@
 	},
 	"lawspeaker": {
 		"name": "Lawspeaker",
-		"file": "archetypedisplay21d4.html",
 		"sources": [ "Blood of the Ancients" ],
 		"description": [
 			"## Lawspeaker",
@@ -734,7 +710,6 @@
 	},
 	"mendevian_priest": {
 		"name": "Mendevian Priest",
-		"file": "archetypedisplay8318.html",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"## Mendevian Priest",
@@ -754,7 +729,6 @@
 	},
 	"merciful_healer": {
 		"name": "Merciful Healer",
-		"file": "archetypedisplay9852.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Merciful Healer",
@@ -776,7 +750,6 @@
 	},
 	"roaming_exorcist": {
 		"name": "Roaming Exorcist",
-		"file": "archetypedisplayd63b.html",
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Roaming Exorcist",
@@ -802,7 +775,6 @@
 	},
 	"sacred_attendant": {
 		"name": "Sacred Attendant",
-		"file": "archetypedisplay9696.html",
 		"sources": [ "Healer's Handbook" ],
 		"description": [
 			"## Sacred Attendant",
@@ -830,7 +802,6 @@
 	},
 	"scroll_scholar": {
 		"name": "Scroll Scholar",
-		"file": "archetypedisplayfe11.html",
 		"sources": [ "Pathfinder Society Field Guide" ],
 		"description": [
 			"## Scroll Scholar",
@@ -848,7 +819,6 @@
 	},
 	"separatist": {
 		"name": "Separatist",
-		"file": "archetypedisplay97c1.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Separatist",
@@ -868,7 +838,6 @@
 	},
 	"stoic_caregiver": {
 		"name": "Stoic Caregiver",
-		"file": "archetypedisplay6718.html",
 		"sources": [ "Healer's Handbook" ],
 		"description": [
 			"## Stoic Caregiver",
@@ -896,7 +865,6 @@
 	},
 	"theologian": {
 		"name": "Theologian",
-		"file": "archetypedisplayc5ff.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Theologian",
@@ -914,7 +882,6 @@
 	},
 	"triadic_priest": {
 		"name": "Triadic Priest",
-		"file": "archetypedisplaya185.html",
 		"sources": [ "Blood of the Coven" ],
 		"description": [
 			"## Triadic Priest",
@@ -944,7 +911,6 @@
 	},
 	"undead_lord": {
 		"name": "Undead Lord",
-		"file": "archetypedisplay07c4.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Undead Lord",
@@ -966,7 +932,6 @@
 	},
 	"varisian_pilgrim": {
 		"name": "Varisian Pilgrim",
-		"file": "archetypedisplayad00.html",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"## Varisian Pilgrim",

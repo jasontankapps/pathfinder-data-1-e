@@ -2,7 +2,6 @@
 	"_prefix": "archetype-monk",
 	"black_asp": {
 		"name": "Black Asp",
-		"file": "archetypedisplayd2ba.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Black Asp",
@@ -30,7 +29,6 @@
 	},
 	"brazen_disciple": {
 		"name": "Brazen Disciple",
-		"file": "archetypedisplayab73.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Brazen Disciple",
@@ -68,7 +66,6 @@
 	},
 	"disciple_of_wholeness": {
 		"name": "Disciple of Wholeness",
-		"file": "archetypedisplay392e.html",
 		"sources": [ "Healer's Handbook" ],
 		"description": [
 			"## Disciple of Wholeness",
@@ -96,7 +93,6 @@
 	},
 	"drunken_master": {
 		"name": "Drunken Master",
-		"file": "archetypedisplay607c.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Drunken Master",
@@ -118,7 +114,6 @@
 	},
 	"elemental_monk": {
 		"name": "Elemental Monk",
-		"file": "archetypedisplaya5e8.html",
 		"sources": [ "Disciple's Doctrine" ],
 		"description": [
 			"## Elemental Monk",
@@ -154,7 +149,6 @@
 	},
 	"far_strike_monk": {
 		"name": "Far Strike Monk",
-		"file": "archetypedisplay546d.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Far Strike Monk",
@@ -184,7 +178,6 @@
 	},
 	"flowing_monk": {
 		"name": "Flowing Monk",
-		"file": "archetypedisplay90aa.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Flowing Monk",
@@ -210,7 +203,6 @@
 	},
 	"gray_disciple": {
 		"name": "Gray Disciple",
-		"file": "archetypedisplayf6b2.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Gray Disciple",
@@ -234,7 +226,6 @@
 	},
 	"hamatulatsu_master": {
 		"name": "Hamatulatsu Master",
-		"file": "archetypedisplay95e9.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Hamatulatsu Master",
@@ -256,7 +247,6 @@
 	},
 	"harrow_warden": {
 		"name": "Harrow Warden",
-		"file": "archetypedisplay3f8e.html",
 		"sources": [ "The Harrow Handbook" ],
 		"description": [
 			"## Harrow Warden",
@@ -280,7 +270,6 @@
 	},
 	"hellcat": {
 		"name": "Hellcat",
-		"file": "archetypedisplay4610.html",
 		"sources": [ "Villain Codex" ],
 		"description": [
 			"## Hellcat",
@@ -328,7 +317,6 @@
 	},
 	"hungry_ghost_monk": {
 		"name": "Hungry Ghost Monk",
-		"file": "archetypedisplay0e1b.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Hungry Ghost Monk",
@@ -350,7 +338,6 @@
 	},
 	"invested_regent": {
 		"name": "Invested Regent",
-		"file": "archetypedisplay5742.html",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [
 			"## Invested Regent",
@@ -447,7 +434,6 @@
 	},
 	"ironskin_monk": {
 		"name": "Ironskin Monk",
-		"file": "archetypedisplay3eda.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Ironskin Monk",
@@ -477,7 +463,6 @@
 	},
 	"karmic_monk": {
 		"name": "Karmic Monk",
-		"file": "archetypedisplay1b48.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Karmic Monk",
@@ -507,7 +492,6 @@
 	},
 	"kata_master": {
 		"name": "Kata Master",
-		"file": "archetypedisplay9e92.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Kata Master",
@@ -529,7 +513,6 @@
 	},
 	"ki_mystic": {
 		"name": "Ki Mystic",
-		"file": "archetypedisplay6dd7.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Ki Mystic",
@@ -551,7 +534,6 @@
 	},
 	"lifting_hand": {
 		"name": "Lifting Hand",
-		"file": "archetypedisplay9403.html",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
 			"## Lifting Hand",
@@ -583,7 +565,6 @@
 	},
 	"maneuver_master": {
 		"name": "Maneuver Master",
-		"file": "archetypedisplay26a3.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Maneuver Master",
@@ -609,7 +590,6 @@
 	},
 	"martial_artist": {
 		"name": "Martial Artist",
-		"file": "archetypedisplayb1cd.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Martial Artist",
@@ -645,7 +625,6 @@
 	},
 	"master_of_many_styles": {
 		"name": "Master of Many Styles",
-		"file": "archetypedisplayc923.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Master of Many Styles",
@@ -669,7 +648,6 @@
 	},
 	"menhir_guardian": {
 		"name": "Menhir Guardian",
-		"file": "archetypedisplay6b78.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Menhir Guardian",
@@ -707,7 +685,6 @@
 	},
 	"monk_of_the_empty_hand": {
 		"name": "Monk of the Empty Hand",
-		"file": "archetypedisplaya7dc.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Monk of the Empty Hand",
@@ -731,7 +708,6 @@
 	},
 	"monk_of_the_four_winds": {
 		"name": "Monk of the Four Winds",
-		"file": "archetypedisplayd232.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Monk of the Four Winds",
@@ -763,7 +739,6 @@
 	},
 	"monk_of_the_healing_hand": {
 		"name": "Monk of the Healing Hand",
-		"file": "archetypedisplay6eca.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Monk of the Healing Hand",
@@ -781,7 +756,6 @@
 	},
 	"monk_of_the_lotus": {
 		"name": "Monk of the Lotus",
-		"file": "archetypedisplay2b76.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Monk of the Lotus",
@@ -801,7 +775,6 @@
 	},
 	"monk_of_the_mantis": {
 		"name": "Monk of the Mantis",
-		"file": "archetypedisplay271e.html",
 		"sources": [ "Dirty Tactics Toolbox" ],
 		"description": [
 			"## Monk of the Mantis",
@@ -819,7 +792,6 @@
 	},
 	"monk_of_the_sacred_mountain": {
 		"name": "Monk of the Sacred Mountain",
-		"file": "archetypedisplay0e60.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Monk of the Sacred Mountain",
@@ -841,7 +813,6 @@
 	},
 	"monk_of_the_seven_forms": {
 		"name": "Monk of the Seven Forms",
-		"file": "archetypedisplay5d1a.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Monk of the Seven Forms",
@@ -865,7 +836,6 @@
 	},
 	"nimble_guardian": {
 		"name": "Nimble Guardian",
-		"file": "archetypedisplayd8f6.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Nimble Guardian",
@@ -887,7 +857,6 @@
 	},
 	"nornkith": {
 		"name": "Nornkith",
-		"file": "archetypedisplayfe35.html",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"## Nornkith",
@@ -929,7 +898,6 @@
 	},
 	"ouat": {
 		"name": "Ouat",
-		"file": "archetypedisplayaaf0.html",
 		"sources": [ "Inner Sea Combat" ],
 		"description": [
 			"## Ouat",
@@ -951,7 +919,6 @@
 	},
 	"perfect_scholar": {
 		"name": "Perfect Scholar",
-		"file": "archetypedisplayb023.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Perfect Scholar",
@@ -983,7 +950,6 @@
 	},
 	"qinggong_monk": {
 		"name": "Qinggong Monk",
-		"file": "archetypedisplayf639.html",
 		"sources": [],
 		"description": [
 			"## Qinggong Monk",
@@ -1283,7 +1249,6 @@
 	},
 	"sage_counselor": {
 		"name": "Sage Counselor",
-		"file": "archetypedisplaydff3.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Sage Counselor",
@@ -1311,7 +1276,6 @@
 	},
 	"scaled_fist": {
 		"name": "Scaled Fist",
-		"file": "archetypedisplay5673.html",
 		"sources": [ "Legacy of Dragons" ],
 		"description": [
 			"## Scaled Fist",
@@ -1349,7 +1313,6 @@
 	},
 	"scarred_monk": {
 		"name": "Scarred Monk",
-		"file": "archetypedisplay0e60-2.html",
 		"sources": [ "Horror Realms" ],
 		"description": [
 			"## Scarred Monk",
@@ -1393,7 +1356,6 @@
 	},
 	"sensei": {
 		"name": "Sensei",
-		"file": "archetypedisplay77b2.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Sensei",
@@ -1415,7 +1377,6 @@
 	},
 	"serpent-fire_adept": {
 		"name": "Serpent-Fire Adept",
-		"file": "archetypedisplaya183.html",
 		"sources": [ "Occult Origins" ],
 		"description": [
 			"## Serpent-Fire Adept",
@@ -1441,7 +1402,6 @@
 	},
 	"sin_monk": {
 		"name": "Sin Monk",
-		"file": "archetypedisplay420a.html",
 		"sources": [ "Antihero's Handbook" ],
 		"description": [
 			"## Sin Monk",
@@ -1495,7 +1455,6 @@
 	},
 	"softstrike_monk": {
 		"name": "Softstrike Monk",
-		"file": "archetypedisplay2e31.html",
 		"sources": [ "Martial Arts Handbook" ],
 		"description": [
 			"## Softstrike Monk",
@@ -1535,7 +1494,6 @@
 	},
 	"sohei": {
 		"name": "Sohei",
-		"file": "archetypedisplayd30b.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Sohei",
@@ -1563,7 +1521,6 @@
 	},
 	"soul_shepherd": {
 		"name": "Soul Shepherd",
-		"file": "archetypedisplay23cf.html",
 		"sources": [ "Pathfinder #139: The Dead Road" ],
 		"description": [
 			"## Soul Shepherd",
@@ -1593,7 +1550,6 @@
 	},
 	"spirit_master": {
 		"name": "Spirit Master",
-		"file": "archetypedisplay2bf1.html",
 		"sources": [ "Undead Slayer's Handbook" ],
 		"description": [
 			"## Spirit Master",
@@ -1619,7 +1575,6 @@
 	},
 	"student_of_stone": {
 		"name": "Student of Stone",
-		"file": "archetypedisplay02ef.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Student of Stone",
@@ -1645,7 +1600,6 @@
 	},
 	"terra-cotta_monk": {
 		"name": "Terra-Cotta Monk",
-		"file": "archetypedisplay6260.html",
 		"sources": [ "Dungeoneer's Handbook" ],
 		"description": [
 			"## Terra-Cotta Monk",
@@ -1671,7 +1625,6 @@
 	},
 	"tetori": {
 		"name": "Tetori",
-		"file": "archetypedisplay6fc0.html",
 		"sources": [
 			"Ultimate Combat",
 			"Link"
@@ -1702,7 +1655,6 @@
 	},
 	"treetop_monk": {
 		"name": "Treetop Monk",
-		"file": "archetypedisplaye595.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Treetop Monk",
@@ -1720,7 +1672,6 @@
 	},
 	"underfoot_adept": {
 		"name": "Underfoot Adept",
-		"file": "archetypedisplay58fd.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Underfoot Adept",
@@ -1738,7 +1689,6 @@
 	},
 	"wanderer": {
 		"name": "Wanderer",
-		"file": "archetypedisplayab13.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Wanderer",
@@ -1766,7 +1716,6 @@
 	},
 	"wasteland_meditant": {
 		"name": "Wasteland Meditant",
-		"file": "archetypedisplaybbe5.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Wasteland Meditant",
@@ -1802,7 +1751,6 @@
 	},
 	"water_dancer": {
 		"name": "Water Dancer",
-		"file": "archetypedisplayc729.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Water Dancer",
@@ -1846,7 +1794,6 @@
 	},
 	"weapon_adept": {
 		"name": "Weapon Adept",
-		"file": "archetypedisplay4828.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Weapon Adept",
@@ -1868,7 +1815,6 @@
 	},
 	"wildcat": {
 		"name": "Wildcat",
-		"file": "archetypedisplay3cee.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Wildcat",
@@ -1898,7 +1844,6 @@
 	},
 	"windstep_master": {
 		"name": "Windstep Master",
-		"file": "archetypedisplaya941.html",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
 			"## Windstep Master",
@@ -1926,7 +1871,6 @@
 	},
 	"zen_archer": {
 		"name": "Zen Archer",
-		"file": "archetypedisplay9a49.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Zen Archer",

@@ -7,7 +7,6 @@
 	],
 	"aboleth": {
 		"name": "Aboleth",
-		"file": "corruptions2a84.html",
 		"sources": [ "Horror Realms" ],
 		"short_description": "The veiled masters have long controlled countless minions in the Inner Sea region's political arenas.",
 		"description": [
@@ -110,7 +109,6 @@
 	},
 	"accursed": {
 		"name": "Accursed",
-		"file": "corruptions50a6.html",
 		"sources": [ "Horror Adventures" ],
 		"short_description": "A foul curse has a deep hold on your body and soul. Your resentment toward the one who cursed you has taken on a life of its own. You notice slights against you by everyone around you, and can gain solace only by punishing them.",
 		"description": [
@@ -215,7 +213,6 @@
 	},
 	"amoral": {
 		"name": "Amoral",
-		"file": "corruptionsef69.html",
 		"sources": [ "Antihero's Handbook" ],
 		"short_description": "While even the noblest heroes can fall victim to corruption of body, mind, or spirit, antiheroes who tread ethically gray waters are often at higher risk of losing themselves to the moral decay detailed below. // When an otherwise upstanding person turns to evil deeds to achieve his goals-whether by accident, due to sinister influence, or through desperation-he begins to slip, every excuse and justification furthering his descent into evil.",
 		"description": [
@@ -323,7 +320,6 @@
 	},
 	"deep_one": {
 		"name": "Deep One",
-		"file": "corruptions29b5.html",
 		"sources": [ "Horror Adventures" ],
 		"short_description": "The waves call to you, like a siren's song echoing across crashing surf.",
 		"description": [
@@ -435,7 +431,6 @@
 	},
 	"demonic": {
 		"name": "Demonic",
-		"file": "corruptionse310.html",
 		"sources": [ "Horror Realms" ],
 		"short_description": "Close contact with the Abyss or demons clouds your mind and twists your body.",
 		"description": [
@@ -540,7 +535,6 @@
 	},
 	"ghoul": {
 		"name": "Ghoul",
-		"file": "corruptions30e4.html",
 		"sources": [ "Horror Adventures" ],
 		"short_description": "A hunger for the flesh of the living grows more every day, until every sentient creature seems no more than a meal.",
 		"description": [
@@ -657,7 +651,6 @@
 	},
 	"hellbound": {
 		"name": "Hellbound",
-		"file": "corruptions0ba2.html",
 		"sources": [ "Horror Adventures" ],
 		"short_description": "The pit of Hell waits for your damned soul.",
 		"description": [
@@ -761,7 +754,6 @@
 	},
 	"hive": {
 		"name": "Hive",
-		"file": "corruptions2d16.html",
 		"sources": [ "Horror Adventures" ],
 		"short_description": "Your body is a vessel for an invasive otherworldly species that seek to spread across the stars and devour all other life.",
 		"description": [
@@ -875,7 +867,6 @@
 	},
 	"lich": {
 		"name": "Lich",
-		"file": "corruptions37f3.html",
 		"sources": [ "Horror Adventures" ],
 		"short_description": "Your attempt to transition into unlife has gone horribly awry and your soul is trapped. Lich corruption also works for becoming another sort of corporeal undead (except ghouls and vampires, which have their own corruptions).",
 		"description": [
@@ -980,7 +971,6 @@
 	},
 	"lycanthropy": {
 		"name": "Lycanthropy",
-		"file": "corruptions42e8.html",
 		"sources": [ "Horror Adventures" ],
 		"short_description": "There is a sound pulsing through your blood, a call to the wild and savage places of the world, where you are free to hunt and to kill to satisfy your bloodlust. You are filled with the desire to rend foes limb from limb with tooth and claw.",
 		"description": [
@@ -1087,7 +1077,6 @@
 	},
 	"plagued": {
 		"name": "Plagued",
-		"file": "corruptionsaa32.html",
 		"sources": [ "Horror Realms" ],
 		"short_description": "Disease can become a corruption when it causes long-lasting and physical changes to the body.",
 		"description": [
@@ -1193,7 +1182,6 @@
 	},
 	"possessed": {
 		"name": "Possessed",
-		"file": "corruptionscb4e.html",
 		"sources": [ "Horror Adventures" ],
 		"short_description": "Whether it's an actual spirit or an alternate personality, another mind vies with you for control of your body.",
 		"description": [
@@ -1299,7 +1287,6 @@
 	},
 	"promethean": {
 		"name": "Promethean",
-		"file": "corruptions18d3.html",
 		"sources": [ "Horror Adventures" ],
 		"short_description": "Your body is slowly wasting away. As your body decays, you must gradually replace more and more of it with artificial components-corpse flesh, bone, wood, metal, or other exotic materials.",
 		"description": [
@@ -1418,7 +1405,6 @@
 	},
 	"psychometabolic": {
 		"name": "Psychometabolic",
-		"file": "corruptionsd26f.html",
 		"sources": [ "Psychic Anthology" ],
 		"short_description": "Strange powers exist on Golarion and beyond. Those who survive a brush with cosmic phenomena, occult mysteries, or horrors from beyond the veil occasionally find psychic abilities awakening in their minds. Although potent, such power corrupts the body, subconscious mind, and emotions-often with disastrous results. // The following corruption can be contracted by those who delve into occult lore better left forgotten.",
 		"description": [
@@ -1514,7 +1500,6 @@
 	},
 	"shadowbound": {
 		"name": "Shadowbound",
-		"file": "corruptionsd4c3.html",
 		"sources": [ "Horror Adventures" ],
 		"short_description": "Darkness and fear are all that guide you. As the shadow consumes you, you are becoming a gaunt caricature of your former self, emptied of life and color.",
 		"description": [
@@ -1620,7 +1605,6 @@
 	},
 	"vampirism": {
 		"name": "Vampirism",
-		"file": "corruptions1c83.html",
 		"sources": [ "Horror Adventures" ],
 		"short_description": "You salivate when blood is spilled, and struggle against the urge to sink your teeth into the necks of friends and innocents.",
 		"description": [

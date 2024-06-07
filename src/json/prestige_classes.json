@@ -2,7 +2,6 @@
 	"_prefix": "class-prestige",
 	"agent_of_the_grave": {
 		"name": "Agent of the Grave",
-		"file": "prestigeclassesdisplay94ee.html",
 		"sources": [ "Pathfinder #45: Broken Moon" ],
 		"short_description": "Promising servant of the Whispering Way.",
 		"description": [
@@ -72,7 +71,6 @@
 	},
 	"aldori_swordlord": {
 		"name": "Aldori Swordlord",
-		"file": "prestigeclassesdisplay3192.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Paths of Prestige"
@@ -144,7 +142,6 @@
 	},
 	"arcane_archer": {
 		"name": "Arcane Archer",
-		"file": "prestigeclassesdisplaya2f9.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"short_description": "An arcane spellcaster who draws upon ancient elven traditions to infuse his arrows with potent magical power.",
 		"description": [
@@ -224,8 +221,6 @@
 	},
 	"deadeye_devotee_arcane_archer": {
 		"name": "Deadeye Devotee (Arcane Archer)",
-		"searchable_name": "Deadeye Devotee",
-		"file": "prestigearchetypedisplay428e.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"short_description": "Dedicated followers can tap into the power of the Elk Father, who guides and empowers their arrows.",
 		"description": [
@@ -262,7 +257,6 @@
 	},
 	"arcane_trickster": {
 		"name": "Arcane Trickster",
-		"file": "prestigeclassesdisplay710b.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"short_description": "A troublemaker and a scoundrel who uses arcane magic to enhance her thievery and trickery.",
 		"description": [
@@ -333,8 +327,6 @@
 	},
 	"thought_thief_arcane_trickster": {
 		"name": "Thought Thief (Arcane Trickster)",
-		"searchable_name": "Thought Thief",
-		"file": "prestigearchetypedisplayb899.html",
 		"sources": [ "Paizo Blog - Hodgepodge from the Grand Lodge" ],
 		"short_description": "A thought thief will happily rip ideas from their victim's head and their gold from their purse.",
 		"description": [
@@ -370,7 +362,6 @@
 	},
 	"arclord_of_nex": {
 		"name": "Arclord of Nex",
-		"file": "prestigeclassesdisplay15bb.html",
 		"sources": [ "Paths of Prestige" ],
 		"short_description": "Formally trained Nexian diviner.",
 		"description": [
@@ -441,7 +432,6 @@
 	},
 	"argent_dramaturge": {
 		"name": "Argent Dramaturge",
-		"file": "prestigeclassesdisplay7dca.html",
 		"sources": [ "Adventurer's Guide" ],
 		"short_description": "Bard who wields anti-fiend magic",
 		"description": [
@@ -519,7 +509,6 @@
 	},
 	"asavir": {
 		"name": "Asavir",
-		"file": "prestigeclassesdisplayb882.html",
 		"sources": [ "Adventurer's Guide" ],
 		"short_description": "Al-Zabriti horseman with a genie-blessed horse",
 		"description": [
@@ -595,7 +584,6 @@
 	},
 	"ashavic_dancer": {
 		"name": "Ashavic Dancer",
-		"file": "prestigeclassesdisplayd9c6.html",
 		"sources": [ "Paths of the Righteous" ],
 		"short_description": "Servants of Ashava who use mystical dances to bring rest to the undead ",
 		"description": [
@@ -661,7 +649,6 @@
 	},
 	"aspis_agent": {
 		"name": "Aspis Agent",
-		"file": "prestigeclassesdisplayb2a1.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Paths of Prestige"
@@ -751,7 +738,6 @@
 	},
 	"assassin": {
 		"name": "Assassin",
-		"file": "prestigeclassesdisplay7601.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"short_description": "A remorseless murderer who kills for money and the sheer thrill of death-dealing.",
 		"description": [
@@ -835,7 +821,6 @@
 	},
 	"balanced_scale_of_abadar": {
 		"name": "Balanced Scale of Abadar",
-		"file": "prestigeclassesdisplay5ed3.html",
 		"sources": [ "Dark Markets - A Guide to Katapesh" ],
 		"short_description": "Treasure seeking servant of Abadar.",
 		"description": [
@@ -905,7 +890,6 @@
 	},
 	"battle_herald": {
 		"name": "Battle Herald",
-		"file": "prestigeclassesdisplaya04c.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"short_description": "A veteran whose masterful tactics and air of command inspire allies to greater feats of heroism.",
 		"description": [
@@ -1013,7 +997,6 @@
 	},
 	"bellflower_tiller": {
 		"name": "Bellflower Tiller",
-		"file": "prestigeclassesdisplayec55.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Paths of Prestige"
@@ -1087,7 +1070,6 @@
 	},
 	"blackfire_adept": {
 		"name": "Blackfire Adept",
-		"file": "prestigeclassesdisplay2361.html",
 		"sources": [ "Paths of Prestige" ],
 		"short_description": "Evil summoner of fiends.",
 		"description": [
@@ -1161,7 +1143,6 @@
 	},
 	"bloatmage": {
 		"name": "Bloatmage",
-		"file": "prestigeclassesdisplay4db7.html",
 		"sources": [ "City of Strangers" ],
 		"short_description": "Master of the arcane art of hemotheurgy.",
 		"description": [
@@ -1245,7 +1226,6 @@
 	},
 	"brewkeeper": {
 		"name": "Brewkeeper",
-		"file": "prestigeclassesdisplay70c5.html",
 		"sources": [ "Paths of the Righteous" ],
 		"short_description": "Sacred brewers of Cayden Cailean who can distill spells into liquor",
 		"description": [
@@ -1335,7 +1315,6 @@
 	},
 	"brightness_seeker": {
 		"name": "Brightness Seeker",
-		"file": "prestigeclassesdisplaycf68.html",
 		"sources": [ "Elves of Golarion" ],
 		"short_description": "Revered seer of elven-kind.",
 		"description": [
@@ -1409,7 +1388,6 @@
 	},
 	"brother_of_the_seal": {
 		"name": "Brother of the Seal",
-		"file": "prestigeclassesdisplaydd9e.html",
 		"sources": [ "Paths of Prestige" ],
 		"short_description": "Guardian of ancient secrets.",
 		"description": [
@@ -1488,7 +1466,6 @@
 	},
 	"champion_of_irori": {
 		"name": "Champion of Irori",
-		"file": "prestigeclassesdisplay6e5c.html",
 		"sources": [ "Paths of Prestige" ],
 		"short_description": "Devout hand-to-hand master.",
 		"description": [
@@ -1567,7 +1544,6 @@
 	},
 	"chernasardo_warden": {
 		"name": "Chernasardo Warden",
-		"file": "prestigeclassesdisplay8114.html",
 		"sources": [ "Pathfinder #116: Fangs of War" ],
 		"short_description": "Chernasardo warden is a title that few can reasonably hope to earn. Among the freedom fighters, wardens have proven themselves again and again, taking on enemies that threaten the fate of Nirmathas.",
 		"description": [
@@ -1656,7 +1632,6 @@
 	},
 	"chevalier": {
 		"name": "Chevalier",
-		"file": "prestigeclassesdisplay8e48.html",
 		"sources": [ "Pathfinder #14: Children of the Void" ],
 		"short_description": "A heroic do-gooder with Cayden Cailean aspirations.",
 		"description": [
@@ -1710,7 +1685,6 @@
 	},
 	"crimson_templar": {
 		"name": "Crimson Templar",
-		"file": "prestigeclassesdisplay320a.html",
 		"sources": [ "Paths of the Righteous" ],
 		"short_description": "Holy warriors of Ragathiel who fight the forces of Hell with sacred fire",
 		"description": [
@@ -1785,7 +1759,6 @@
 	},
 	"cyphermage": {
 		"name": "Cyphermage",
-		"file": "prestigeclassesdisplayc238.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Inner Sea Magic"
@@ -1869,7 +1842,6 @@
 	},
 	"daggermark_poisoner": {
 		"name": "Daggermark Poisoner",
-		"file": "prestigeclassesdisplay98dc.html",
 		"sources": [ "Paths of Prestige" ],
 		"short_description": "Devious and crafty toxicologist.",
 		"description": [
@@ -1960,7 +1932,6 @@
 	},
 	"daivrat": {
 		"name": "Daivrat",
-		"file": "prestigeclassesdisplay9497.html",
 		"sources": [ "Qadira, Gateway to the East" ],
 		"short_description": "Friend of genies, diplomat amongst their kind.",
 		"description": [
@@ -2040,7 +2011,6 @@
 	},
 	"darechaser": {
 		"name": "Darechaser",
-		"file": "prestigeclassesdisplay607f.html",
 		"sources": [ "Paths of the Righteous" ],
 		"short_description": "Athletes of Kurgess who push themselves to exceed their limits ",
 		"description": [
@@ -2124,7 +2094,6 @@
 	},
 	"dawnflower_anchorite": {
 		"name": "Dawnflower Anchorite",
-		"file": "prestigeclassesdisplay36fb.html",
 		"sources": [ "Paths of the Righteous" ],
 		"short_description": "Hermits of Sarenrae who channel light to smite their foes.",
 		"description": [
@@ -2203,7 +2172,6 @@
 	},
 	"dawnflower_dissident": {
 		"name": "Dawnflower Dissident",
-		"file": "prestigeclassesdisplay128d.html",
 		"sources": [ "Paths of Prestige" ],
 		"short_description": "Secretive emissary of Sarenrae.",
 		"description": [
@@ -2283,7 +2251,6 @@
 	},
 	"death_slayer": {
 		"name": "Death Slayer",
-		"file": "prestigeclassesdisplay5140.html",
 		"sources": [ "Adventurer's Guide" ],
 		"short_description": "Hired assassin of the undead",
 		"description": [
@@ -2353,7 +2320,6 @@
 	},
 	"demoniac": {
 		"name": "Demoniac",
-		"file": "prestigeclassesdisplay9e46.html",
 		"sources": [
 			"Book of the Damned",
 			"Pathfinder #15: The Armageddon Echo",
@@ -2432,7 +2398,6 @@
 	},
 	"devoted_muse": {
 		"name": "Devoted Muse",
-		"file": "prestigeclassesdisplay5dd1.html",
 		"sources": [ "Paths of the Righteous" ],
 		"short_description": "Muses of Shelyn who have mastered an artistic form of combat for self-defense",
 		"description": [
@@ -2508,7 +2473,6 @@
 	},
 	"diabolist": {
 		"name": "Diabolist",
-		"file": "prestigeclassesdisplay9e20.html",
 		"sources": [
 			"Book of the Damned",
 			"Book of the Damned - Volume 1: Princes of Darkness"
@@ -2592,7 +2556,6 @@
 	},
 	"divine_scion": {
 		"name": "Divine Scion",
-		"file": "prestigeclassesdisplay6d3e.html",
 		"sources": [ "Inner Sea Magic" ],
 		"short_description": "Chosen by a god to fulfill a sacred mission, the divine scion has the spark of divinity within them.",
 		"description": [
@@ -2696,7 +2659,6 @@
 	},
 	"dragon_disciple": {
 		"name": "Dragon Disciple",
-		"file": "prestigeclassesdisplay8e63.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"short_description": "An arcane spellcaster who has embraced his latent draconic heritage and, over the course of training and devotion, undergoes a partial transformation into a dragon.",
 		"description": [
@@ -2773,7 +2735,6 @@
 	},
 	"duelist": {
 		"name": "Duelist",
-		"file": "prestigeclassesdisplay1a22.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"short_description": "A swashbuckling swordfighter who relies upon grace, poise, and acrobatics to win the day.",
 		"description": [
@@ -2855,7 +2816,6 @@
 	},
 	"eldritch_knight": {
 		"name": "Eldritch Knight",
-		"file": "prestigeclassesdisplay5bd1.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"short_description": "An arcane spellcaster who augments his magical skills with combat to create a deadly combination of weapons and magic.",
 		"description": [
@@ -2916,7 +2876,6 @@
 	},
 	"enchanting_courtesan": {
 		"name": "Enchanting Courtesan",
-		"file": "prestigeclassesdisplay3830.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"short_description": "Diviners and enchanters who use their talents to become information brokers.",
 		"description": [
@@ -2992,7 +2951,6 @@
 	},
 	"envoy_of_balance": {
 		"name": "Envoy of Balance",
-		"file": "prestigeclassesdisplay58a6.html",
 		"sources": [ "Champions of Balance" ],
 		"short_description": "Standing beyond good and evil, outside law and chaos, an envoy of balance serves as the countering force against any extremism that seeks to elevate one alignment above all others.",
 		"description": [
@@ -3070,7 +3028,6 @@
 	},
 	"esoteric_knight": {
 		"name": "Esoteric Knight",
-		"file": "prestigeclassesdisplayf484.html",
 		"sources": [ "Chronicle of Legends" ],
 		"short_description": "Powerful warriors who combine martial technique with occult or elemental power",
 		"description": [
@@ -3147,7 +3104,6 @@
 	},
 	"evangelist": {
 		"name": "Evangelist",
-		"file": "prestigeclassesdisplay0fb9.html",
 		"sources": [ "Inner Sea Gods" ],
 		"short_description": "Of all the preeminent followers of the core deities, the evangelist is the hardest to predict and shows the most variety in her abilities.",
 		"description": [
@@ -3236,7 +3192,6 @@
 	},
 	"exalted": {
 		"name": "Exalted",
-		"file": "prestigeclassesdisplay0ae4.html",
 		"sources": [ "Inner Sea Gods" ],
 		"short_description": "The exalted exemplifies the teachings of her faith. More than a religious leader, she is the embodiment of faith that all members of the religion strive to emulate.",
 		"description": [
@@ -3321,7 +3276,6 @@
 	},
 	"feysworn": {
 		"name": "Feysworn",
-		"file": "prestigeclassesdisplaye45c.html",
 		"sources": [ "The First World, Realm of the Fey" ],
 		"short_description": "Servents of the enigmatic Eldest",
 		"description": [
@@ -3409,7 +3363,6 @@
 	},
 	"genie_binder": {
 		"name": "Genie Binder",
-		"file": "prestigeclassesdisplay526c.html",
 		"sources": [
 			"Elemental Master's Handbook",
 			"Pathfinder #22: The End of Eternity"
@@ -3478,7 +3431,6 @@
 	},
 	"golden_legionnaire": {
 		"name": "Golden Legionnaire",
-		"file": "prestigeclassesdisplay53a9.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Paths of Prestige"
@@ -3559,7 +3511,6 @@
 	},
 	"gray_corsair": {
 		"name": "Gray Corsair",
-		"file": "prestigeclassesdisplayb0ea.html",
 		"sources": [ "Adventurer's Guide" ],
 		"short_description": "Naval member of Andor's Eagle Knights",
 		"description": [
@@ -3642,7 +3593,6 @@
 	},
 	"gray_gardener": {
 		"name": "Gray Gardener",
-		"file": "prestigeclassesdisplay3cc6.html",
 		"sources": [ "Paths of Prestige" ],
 		"short_description": "Deadly agent of the Revolutionary Council.",
 		"description": [
@@ -3723,7 +3673,6 @@
 	},
 	"green_faith_acolyte": {
 		"name": "Green Faith Acolyte",
-		"file": "prestigeclassesdisplay454c.html",
 		"sources": [ "Paths of Prestige" ],
 		"short_description": "Talented member of a druidic order.",
 		"description": [
@@ -3804,7 +3753,6 @@
 	},
 	"halfling_opportunist": {
 		"name": "Halfling Opportunist",
-		"file": "prestigeclassesdisplay642b.html",
 		"sources": [ "Halflings of Golarion" ],
 		"short_description": "Halfling that makes his own luck.",
 		"description": [
@@ -3873,7 +3821,6 @@
 	},
 	"harrower": {
 		"name": "Harrower",
-		"file": "prestigeclassesdisplayd6b0.html",
 		"sources": [
 			"Inner Sea World Guide",
 			"Pathfinder Campaign Setting"
@@ -3968,7 +3915,6 @@
 	},
 	"hellknight_signifer": {
 		"name": "Hellknight Signifer",
-		"file": "prestigeclassesdisplay8dc5.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Paths of Prestige"
@@ -4054,7 +4000,6 @@
 	},
 	"hellknight": {
 		"name": "Hellknight",
-		"file": "prestigeclassesdisplayf7f0.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Inner Sea World Guide"
@@ -4129,7 +4074,6 @@
 	},
 	"heritor_knight": {
 		"name": "Heritor Knight",
-		"file": "prestigeclassesdisplayc0c1.html",
 		"sources": [ "Paths of the Righteous" ],
 		"short_description": "Knights of Iomedae that seek to emulate her mortal life.",
 		"description": [
@@ -4205,7 +4149,6 @@
 	},
 	"hinterlander": {
 		"name": "Hinterlander",
-		"file": "prestigeclassesdisplay2213.html",
 		"sources": [ "Paths of the Righteous" ],
 		"short_description": "Archers of Erastil that guard frontier towns",
 		"description": [
@@ -4287,7 +4230,6 @@
 	},
 	"holy_vindicator": {
 		"name": "Holy Vindicator",
-		"file": "prestigeclassesdisplaya2e9.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"short_description": "A pious warrior who spreads religion at the edge of a sword.",
 		"description": [
@@ -4369,7 +4311,6 @@
 	},
 	"horizon_walker": {
 		"name": "Horizon Walker",
-		"file": "prestigeclassesdisplay2d11.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"short_description": "A scout and wanderer comfortable in even the strangest terrain.",
 		"description": [
@@ -4470,7 +4411,6 @@
 	},
 	"inheritor's_crusader": {
 		"name": "Inheritor's Crusader",
-		"file": "prestigeclassesdisplayd503.html",
 		"sources": [ "Pathfinder #26: The Sixfold Trial" ],
 		"short_description": "Righteous champion of Iomedae.",
 		"description": [
@@ -4527,7 +4467,6 @@
 	},
 	"inner_sea_pirate": {
 		"name": "Inner Sea Pirate",
-		"file": "prestigeclassesdisplay59da.html",
 		"sources": [ "Pirates of the Inner Sea" ],
 		"short_description": "Pirates of the Inner Sea region sail many different bodies of water in search of plunder.",
 		"description": [
@@ -4614,7 +4553,6 @@
 	},
 	"justicar": {
 		"name": "Justicar",
-		"file": "prestigeclassesdisplay7087.html",
 		"sources": [ "Pathfinder #8: Seven Days to the Grave" ],
 		"short_description": "Holy enforcer of the teachings of Abadar.",
 		"description": [
@@ -4678,7 +4616,6 @@
 	},
 	"knight_of_ozem": {
 		"name": "Knight of Ozem",
-		"file": "prestigeclassesdisplay8209.html",
 		"sources": [ "Paths of Prestige" ],
 		"short_description": "Zealous destroyer of undead.",
 		"description": [
@@ -4749,7 +4686,6 @@
 	},
 	"lantern_bearer": {
 		"name": "Lantern Bearer",
-		"file": "prestigeclassesdisplay7b9b.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Paths of Prestige"
@@ -4834,7 +4770,6 @@
 	},
 	"liberator": {
 		"name": "Liberator",
-		"file": "prestigeclassesdisplaya44c.html",
 		"sources": [ "Second Darkness Player's Guide" ],
 		"short_description": "The hope of slaves everywhere.",
 		"description": [
@@ -4907,7 +4842,6 @@
 	},
 	"lion_blade": {
 		"name": "Lion Blade",
-		"file": "prestigeclassesdisplayeb21.html",
 		"sources": [
 			"Inner Sea Intrigue",
 			"Taldor, Echoes of Glory"
@@ -4993,7 +4927,6 @@
 	},
 	"living_monolith": {
 		"name": "Living Monolith",
-		"file": "prestigeclassesdisplay356f.html",
 		"sources": [
 			"People of the Sands",
 			"Osirion, Land of the Pharaohs"
@@ -5082,7 +5015,6 @@
 	},
 	"loremaster": {
 		"name": "Loremaster",
-		"file": "prestigeclassesdisplay637b.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"short_description": "A spellcaster who devotes his life to research and rumination upon the mysteries of the world.",
 		"description": [
@@ -5163,7 +5095,6 @@
 	},
 	"low_templar": {
 		"name": "Low Templar",
-		"file": "prestigeclassesdisplaya2de.html",
 		"sources": [
 			"Inner Sea World Guide",
 			"Pathfinder Campaign Setting"
@@ -5247,7 +5178,6 @@
 	},
 	"magaambyan_arcanist": {
 		"name": "Magaambyan Arcanist",
-		"file": "prestigeclassesdisplayafdc.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Paths of Prestige"
@@ -5325,7 +5255,6 @@
 	},
 	"mammoth_rider": {
 		"name": "Mammoth Rider",
-		"file": "prestigeclassesdisplay84f6.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Paths of Prestige"
@@ -5403,7 +5332,6 @@
 	},
 	"master_chymist": {
 		"name": "Master Chymist",
-		"file": "prestigeclassesdisplay5da9.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"short_description": "An alchemist whose mutagens create an alternate, brutish personality.",
 		"description": [
@@ -5504,7 +5432,6 @@
 	},
 	"master_spy": {
 		"name": "Master Spy",
-		"file": "prestigeclassesdisplay53b7.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"short_description": "An espionage expert specializing in disguises and striking swiftly from the shadows.",
 		"description": [
@@ -5589,7 +5516,6 @@
 	},
 	"mortal_usher": {
 		"name": "Mortal Usher",
-		"file": "prestigeclassesdisplay68ed.html",
 		"sources": [ "Pathfinder #144: Midwives to Death" ],
 		"short_description": "Servants of the psychopomps who can act where the psychopomps cannot",
 		"description": [
@@ -5655,7 +5581,6 @@
 	},
 	"mystery_cultist": {
 		"name": "Mystery Cultist",
-		"file": "prestigeclassesdisplayb9f9.html",
 		"sources": [ "Chronicle of the Righteous" ],
 		"short_description": "These zealots hone their spellcasting powers in honor of their patron empyreal lord and dedicate their lives to the teachings of this entity.",
 		"description": [
@@ -5734,7 +5659,6 @@
 	},
 	"mystic_theurge": {
 		"name": "Mystic Theurge",
-		"file": "prestigeclassesdisplay665f.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"short_description": "Equally devoted to divine and arcane magic, the mystic theurge combines both magical traditions into one incredibly diverse class.",
 		"description": [
@@ -5795,7 +5719,6 @@
 	},
 	"nature_warden": {
 		"name": "Nature Warden",
-		"file": "prestigeclassesdisplayd6e6.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"short_description": "A master of the wilderness bonded spiritually to a fearsome animal companion.",
 		"description": [
@@ -5885,7 +5808,6 @@
 	},
 	"noble_scion": {
 		"name": "Noble Scion",
-		"file": "prestigeclassesdisplay8748.html",
 		"sources": [ "Paths of Prestige" ],
 		"short_description": "Resource-laden member of foreign royalty.",
 		"description": [
@@ -5993,7 +5915,6 @@
 	},
 	"pain_taster": {
 		"name": "Pain Taster",
-		"file": "prestigeclassesdisplay239c.html",
 		"sources": [
 			"Occult Mysteries",
 			"Pathfinder #15: The Armageddon Echo"
@@ -6083,7 +6004,6 @@
 	},
 	"pathfinder_chronicler": {
 		"name": "Pathfinder Chronicler",
-		"file": "prestigeclassesdisplay5297.html",
 		"sources": [
 			"PRPG Core Rulebook",
 			"Pathfinder Campaign Setting"
@@ -6169,7 +6089,6 @@
 	},
 	"pathfinder_delver": {
 		"name": "Pathfinder Delver",
-		"file": "prestigeclassesdisplayb7db.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Seekers of Secrets"
@@ -6242,7 +6161,6 @@
 	},
 	"pathfinder_field_agent": {
 		"name": "Pathfinder Field Agent",
-		"file": "prestigeclassesdisplaye5ec.html",
 		"sources": [ "Pathfinder Society Primer" ],
 		"short_description": "Equipped with a variety of skills and trained to keep a cool head even in the most dire circumstances, a practiced Pathfinder field agent is a boon to any adventuring party.",
 		"description": [
@@ -6335,7 +6253,6 @@
 	},
 	"pathfinder_savant": {
 		"name": "Pathfinder Savant",
-		"file": "prestigeclassesdisplay2feb.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Seekers of Secrets"
@@ -6409,7 +6326,6 @@
 	},
 	"pit_fighter": {
 		"name": "Pit Fighter",
-		"file": "prestigeclassesdisplay3b6f.html",
 		"sources": [ "Paths of Prestige" ],
 		"short_description": "Gladiatorial brawler and performer.",
 		"description": [
@@ -6488,7 +6404,6 @@
 	},
 	"proctor": {
 		"name": "Proctor",
-		"file": "prestigeclassesdisplay815d.html",
 		"sources": [ "Concordance of Rivals" ],
 		"short_description": "Ardent worshipers of a monitor demigod: an aeon, primal inevitable, protean lord, or psychopomp usher.",
 		"description": [
@@ -6569,7 +6484,6 @@
 	},
 	"prophet_of_kalistrade": {
 		"name": "Prophet of Kalistrade",
-		"file": "prestigeclassesdisplayaa9f.html",
 		"sources": [ "Paths of Prestige" ],
 		"short_description": "Savvy mercantile spellcaster.",
 		"description": [
@@ -6641,7 +6555,6 @@
 	},
 	"pure_legion_enforcer": {
 		"name": "Pure Legion Enforcer",
-		"file": "prestigeclassesdisplayc206.html",
 		"sources": [ "Inner Sea Combat" ],
 		"short_description": "The Pure Legion is a government-sponsored military organization created to enforce the Laws of Man within Rahadoum's borders and territorial waters. ",
 		"description": [
@@ -6721,7 +6634,6 @@
 	},
 	"rage_prophet": {
 		"name": "Rage Prophet",
-		"file": "prestigeclassesdisplay10b4.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"short_description": "A bold and barbaric champion who embraces otherworldly powers in order to perfect the art of combat.",
 		"description": [
@@ -6800,7 +6712,6 @@
 	},
 	"razmiran_priest": {
 		"name": "Razmiran Priest",
-		"file": "prestigeclassesdisplayd3cf.html",
 		"sources": [ "Paths of Prestige" ],
 		"short_description": "False divine caster of Razmir.",
 		"description": [
@@ -6874,7 +6785,6 @@
 	},
 	"red_mantis_assassin": {
 		"name": "Red Mantis Assassin",
-		"file": "prestigeclassesdisplaybe26.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Pathfinder #9: Escape from Old Korvosa",
@@ -6953,7 +6863,6 @@
 	},
 	"riftwarden": {
 		"name": "Riftwarden",
-		"file": "prestigeclassesdisplay3974.html",
 		"sources": [ "Paths of Prestige" ],
 		"short_description": "Sealer of extraplanar portals.",
 		"description": [
@@ -7029,7 +6938,6 @@
 	},
 	"ritualist": {
 		"name": "Ritualist",
-		"file": "prestigeclassesdisplay4c6a.html",
 		"sources": [ "Chronicle of Legends" ],
 		"short_description": "Individuals who specialize in using occult rituals, being able to perform rituals more quickly and easily",
 		"description": [
@@ -7107,7 +7015,6 @@
 	},
 	"rivethun_emissary": {
 		"name": "Rivethun Emissary",
-		"file": "prestigeclassesdisplay9267.html",
 		"sources": [ "Adventurer's Guide" ],
 		"short_description": "Animists of a dwarven spiritual religion",
 		"description": [
@@ -7191,7 +7098,6 @@
 	},
 	"rose_warden": {
 		"name": "Rose Warden",
-		"file": "prestigeclassesdisplay3d91.html",
 		"sources": [ "Paths of the Righteous" ],
 		"short_description": "Champions of Milani who protect and guide revolutions ",
 		"description": [
@@ -7276,7 +7182,6 @@
 	},
 	"runeguard": {
 		"name": "Runeguard",
-		"file": "prestigeclassesdisplay2272.html",
 		"sources": [ "Paths of the Righteous" ],
 		"short_description": "Arcanists of Soralyon who use the benevolent form of ancient Thassilonian rune magic",
 		"description": [
@@ -7349,7 +7254,6 @@
 	},
 	"sacred_sentinel": {
 		"name": "Sacred Sentinel",
-		"file": "prestigeclassesdisplayac30.html",
 		"sources": [ "Paths of the Righteous" ],
 		"short_description": "Guardians of Torag that serve as a shield for their allies.",
 		"description": [
@@ -7421,7 +7325,6 @@
 	},
 	"sanguine_angel": {
 		"name": "Sanguine Angel",
-		"file": "prestigeclassesdisplay4a9d.html",
 		"sources": [ "Adventurer's Guide" ],
 		"short_description": "Former Gray Maidens who have entered the service of Cheliax and the Queens of the Night",
 		"description": [
@@ -7506,7 +7409,6 @@
 	},
 	"scar_seeker": {
 		"name": "Scar Seeker",
-		"file": "prestigeclassesdisplayf9f2.html",
 		"sources": [ "Paths of the Righteous" ],
 		"short_description": "Followers of Vildeis who scar their bodies to prove their devotion",
 		"description": [
@@ -7580,7 +7482,6 @@
 	},
 	"sentinel": {
 		"name": "Sentinel",
-		"file": "prestigeclassesdisplayac18.html",
 		"sources": [ "Inner Sea Gods" ],
 		"short_description": "The sentinel is a warrior who receives special powers in exchange for his service to a deity, and often serves as a guard for the deity's clergy.",
 		"description": [
@@ -7673,7 +7574,6 @@
 	},
 	"shackles_pirate": {
 		"name": "Shackles Pirate",
-		"file": "prestigeclassesdisplay7ae6.html",
 		"sources": [ "Pathfinder Campaign Setting" ],
 		"short_description": "Gifted pirate of the Shackles.",
 		"description": [
@@ -7770,7 +7670,6 @@
 	},
 	"shadowdancer": {
 		"name": "Shadowdancer",
-		"file": "prestigeclassesdisplay7b69.html",
 		"sources": [ "PRPG Core Rulebook" ],
 		"short_description": "A mysterious adventurer who walks the boundaries between the real world and the realm of shadows, and who can command shadows to do her bidding.",
 		"description": [
@@ -7859,7 +7758,6 @@
 	},
 	"shieldmarshal": {
 		"name": "Shieldmarshal",
-		"file": "prestigeclassesdisplayf600.html",
 		"sources": [ "Paths of Prestige" ],
 		"short_description": "Gun-wielding officer of Alkenstar.",
 		"description": [
@@ -7945,7 +7843,6 @@
 	},
 	"skyseeker": {
 		"name": "Skyseeker",
-		"file": "prestigeclassesdisplay655f.html",
 		"sources": [ "Paths of Prestige" ],
 		"short_description": "Excavator of dwarven Sky Citadels.",
 		"description": [
@@ -8018,7 +7915,6 @@
 	},
 	"sleepless_detective": {
 		"name": "Sleepless Detective",
-		"file": "prestigeclassesdisplaye430.html",
 		"sources": [ "Paths of Prestige" ],
 		"short_description": "Expert urban sleuthhound.",
 		"description": [
@@ -8089,7 +7985,6 @@
 	},
 	"soul_warden": {
 		"name": "Soul Warden",
-		"file": "prestigeclassesdisplay9018.html",
 		"sources": [ "Undead Slayer's Handbook" ],
 		"short_description": "Bygone products of an ancient war, soul wardens are an enigma of themselves. The original soul wardens were a specially trained cadre of anti-necromantic commandos in the Nexian army during the Age of Destiny.",
 		"description": [
@@ -8169,7 +8064,6 @@
 	},
 	"souldrinker": {
 		"name": "Souldrinker",
-		"file": "prestigeclassesdisplayb7c5.html",
 		"sources": [
 			"Book of the Damned",
 			"Book of the Damned - Volume 3: Horsemen of the Apocalypse"
@@ -8258,7 +8152,6 @@
 	},
 	"sphere_singer": {
 		"name": "Sphere Singer",
-		"file": "prestigeclassesdisplay65db.html",
 		"sources": [ "Paths of the Righteous" ],
 		"short_description": "Wanderers of Desna who manipulate dreams and luck to aid their travels",
 		"description": [
@@ -8333,7 +8226,6 @@
 	},
 	"spherewalker": {
 		"name": "Spherewalker",
-		"file": "prestigeclassesdisplay2fc4.html",
 		"sources": [ "Pathfinder #2: The Skinsaw Murders" ],
 		"short_description": "Magical traveler of Desna.",
 		"description": [
@@ -8401,7 +8293,6 @@
 	},
 	"stalwart_defender": {
 		"name": "Stalwart Defender",
-		"file": "prestigeclassesdisplay72ca.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"short_description": "A master of defending territory and holding the line at all costs.",
 		"description": [
@@ -8507,7 +8398,6 @@
 	},
 	"stargazer": {
 		"name": "Stargazer",
-		"file": "prestigeclassesdisplay0bec.html",
 		"sources": [ "Paths of the Righteous" ],
 		"short_description": "Astronomers of Pulura who look to the heaven for guidance",
 		"description": [
@@ -8592,7 +8482,6 @@
 	},
 	"steel_falcon": {
 		"name": "Steel Falcon",
-		"file": "prestigeclassesdisplay7a07.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Andoran, Spirit of Liberty"
@@ -8668,7 +8557,6 @@
 	},
 	"storm_kindler": {
 		"name": "Storm Kindler",
-		"file": "prestigeclassesdisplayac25.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Paths of Prestige"
@@ -8749,7 +8637,6 @@
 	},
 	"student_of_perfection": {
 		"name": "Student of Perfection",
-		"file": "prestigeclassesdisplayf864.html",
 		"sources": [ "Adventurer's Guide" ],
 		"short_description": "Member of one of the Houses of Perfection",
 		"description": [
@@ -8840,7 +8727,6 @@
 	},
 	"student_of_war": {
 		"name": "Student of War",
-		"file": "prestigeclassesdisplayd552.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Seekers of Secrets"
@@ -8916,7 +8802,6 @@
 	},
 	"tattooed_mystic": {
 		"name": "Tattooed Mystic",
-		"file": "prestigeclassesdisplaybc6c.html",
 		"sources": [ "Paths of Prestige" ],
 		"short_description": "Wandering Varisian magician.",
 		"description": [
@@ -8991,7 +8876,6 @@
 	},
 	"technomancer": {
 		"name": "Technomancer",
-		"file": "prestigeclassesdisplay30a4.html",
 		"sources": [ "Technology Guide" ],
 		"short_description": "The true power in Numeria lies with the Technic League, not the Black Sovereign, and it is technomancers who rule the League.",
 		"description": [
@@ -9070,7 +8954,6 @@
 	},
 	"thuvian_alchemist": {
 		"name": "Thuvian Alchemist",
-		"file": "prestigeclassesdisplay4913.html",
 		"sources": [ "People of the Sands" ],
 		"short_description": "Using the long-neglected art of herbalism and the reinvigorated science of alchemy, the Thuvian Alchemist specializes on a practice that combines the two.",
 		"description": [
@@ -9150,7 +9033,6 @@
 	},
 	"twilight_talon": {
 		"name": "Twilight Talon",
-		"file": "prestigeclassesdisplay40ec.html",
 		"sources": [ "Adventurer's Guide" ],
 		"short_description": "Secret agents of Andor",
 		"description": [
@@ -9217,7 +9099,6 @@
 	},
 	"ulfen_guard": {
 		"name": "Ulfen Guard",
-		"file": "prestigeclassesdisplay1cd6.html",
 		"sources": [ "Inner Sea Combat" ],
 		"short_description": "After centuries of raiding and pillaging throughout Avistan, the Ulfen have earned their reputation for ferocity and fearlessness. Though seemingly at odds with this perception of barbarism, Ulfen are also known for their staunch loyalty, strong sense of honor, and unyielding resolve.",
 		"description": [
@@ -9297,7 +9178,6 @@
 	},
 	"umbral_court_agent": {
 		"name": "Umbral Court Agent",
-		"file": "prestigeclassesdisplay15f1.html",
 		"sources": [ "Paths of Prestige" ],
 		"short_description": "Nidalese shadow saboteur.",
 		"description": [
@@ -9369,7 +9249,6 @@
 	},
 	"veiled_illusionist": {
 		"name": "Veiled Illusionist",
-		"file": "prestigeclassesdisplay4217.html",
 		"sources": [ "Paths of Prestige" ],
 		"short_description": "Shadowy shapechanger.",
 		"description": [
@@ -9447,7 +9326,6 @@
 	},
 	"westcrown_devil": {
 		"name": "Westcrown Devil",
-		"file": "prestigeclassesdisplay355c.html",
 		"sources": [ "Adventurer's Guide" ],
 		"short_description": "Agent of the Council of Thieves",
 		"description": [
@@ -9524,7 +9402,6 @@
 	},
 	"winter_witch": {
 		"name": "Winter Witch",
-		"file": "prestigeclassesdisplay39c1.html",
 		"sources": [
 			"Reign of Winter Player's Guide",
 			"Paths of Prestige"

@@ -2,7 +2,6 @@
 	"_prefix": "archetype-arcanist",
 	"aeromancer": {
 		"name": "Aeromancer",
-		"file": "archetypedisplay0a5a.html",
 		"sources": [],
 		"description": [
 			"## Aeromancer",
@@ -28,7 +27,6 @@
 	},
 	"arcane_tinkerer": {
 		"name": "Arcane Tinkerer",
-		"file": "archetypedisplayaf79.html",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"## Arcane Tinkerer",
@@ -48,7 +46,6 @@
 	},
 	"blade_adept": {
 		"name": "Blade Adept",
-		"file": "archetypedisplay7315.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Blade Adept",
@@ -76,7 +73,6 @@
 	},
 	"blood_arcanist": {
 		"name": "Blood Arcanist",
-		"file": "archetypedisplaydee6.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Blood Arcanist",
@@ -94,7 +90,6 @@
 	},
 	"brown-fur_transmuter": {
 		"name": "Brown-Fur Transmuter",
-		"file": "archetypedisplaydd87.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Brown-Fur Transmuter",
@@ -112,7 +107,6 @@
 	},
 	"eldritch_font": {
 		"name": "Eldritch Font",
-		"file": "archetypedisplayede3.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Eldritch Font",
@@ -134,7 +128,6 @@
 	},
 	"elemental_master": {
 		"name": "Elemental Master",
-		"file": "archetypedisplayfbad.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Elemental Master",
@@ -156,7 +149,6 @@
 	},
 	"harrowed_society_student": {
 		"name": "Harrowed Society Student",
-		"file": "archetypedisplayb24b.html",
 		"sources": [ "Occult Origins" ],
 		"description": [
 			"## Harrowed Society Student",
@@ -190,7 +182,6 @@
 	},
 	"magaambyan_initiate": {
 		"name": "Magaambyan Initiate",
-		"file": "archetypedisplayaec7.html",
 		"sources": [
 			"Adventurer's Guide",
 			"Arcane Anthology"
@@ -225,7 +216,6 @@
 	},
 	"occultist": {
 		"name": "Occultist",
-		"file": "archetypedisplay3727.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Occultist",
@@ -245,7 +235,6 @@
 	},
 	"school_savant": {
 		"name": "School Savant",
-		"file": "archetypedisplay3dcd.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## School Savant",
@@ -261,7 +250,6 @@
 	},
 	"spell_specialist": {
 		"name": "Spell Specialist",
-		"file": "archetypedisplayda3e.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Spell Specialist",
@@ -285,7 +273,6 @@
 	},
 	"twilight_sage": {
 		"name": "Twilight Sage",
-		"file": "archetypedisplay52aa.html",
 		"sources": [ "Advanced Class Origins" ],
 		"description": [
 			"## Twilight Sage",
@@ -307,7 +294,6 @@
 	},
 	"unlettered_arcanist": {
 		"name": "Unlettered Arcanist",
-		"file": "archetypedisplayfe51.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Unlettered Arcanist",
@@ -323,7 +309,6 @@
 	},
 	"white_mage": {
 		"name": "White Mage",
-		"file": "archetypedisplay689f.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## White Mage",

@@ -61,7 +61,6 @@
 	},
 	"shield_boss_breakaway,_masterwork": {
 		"name": "shield boss (breakaway, masterwork)",
-		"searchable_name": "shield boss breakaway masterwork",
 		"file": "equipmentmiscdisplayea63.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway",
@@ -72,7 +71,6 @@
 	},
 	"shield_boss_hooked,_masterwork": {
 		"name": "shield boss (hooked, masterwork)",
-		"searchable_name": "shield boss hooked masterwork",
 		"file": "equipmentmiscdisplayea63.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway",
@@ -83,7 +81,6 @@
 	},
 	"shield_boss_illuminating,_masterwork": {
 		"name": "shield boss (illuminating, masterwork)",
-		"searchable_name": "shield boss illuminating masterwork",
 		"file": "equipmentmiscdisplay6dec.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway",
@@ -94,7 +91,6 @@
 	},
 	"shield_boss_reinforcing_boss,_masterwork": {
 		"name": "shield boss (reinforcing boss, masterwork)",
-		"searchable_name": "shield boss reinforcing boss masterwork",
 		"file": "equipmentmiscdisplay159e.html",
 		"sources": [ "Melee Tactics Toolbox" ],
 		"copyof": "shield_boss_breakaway",
@@ -222,7 +218,6 @@
 	},
 	"double-plated": {
 		"name": "double-plated",
-		"searchable_name": "double plated",
 		"file": "equipmentarmordisplayfbd9.html",
 		"sources": [ "Adventurer's Armory 2" ],
 		"description": [

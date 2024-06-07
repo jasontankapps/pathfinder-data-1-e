@@ -2,7 +2,6 @@
 	"_prefix": "construct",
 	"armor_modification": {
 		"name": "Armor Modification",
-		"file": "constructmods2268.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Armor Modification",
@@ -20,7 +19,6 @@
 	},
 	"hit_dice_modification": {
 		"name": "Hit Dice Modification",
-		"file": "constructmods08de.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Hit Dice Modification",
@@ -38,7 +36,6 @@
 	},
 	"movement_modification": {
 		"name": "Movement Modification",
-		"file": "constructmods712a.html",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"## Movement Modification",
@@ -58,7 +55,6 @@
 	},
 	"resistances": {
 		"name": "Resistances",
-		"file": "constructmods90d1.html",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"## Resistances",
@@ -76,7 +72,6 @@
 	},
 	"sense_modifications": {
 		"name": "Sense Modifications",
-		"file": "constructmodsb338.html",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"## Sense Modifications",
@@ -94,7 +89,6 @@
 	},
 	"spell-like_ability_modification": {
 		"name": "Spell-Like Ability Modification",
-		"file": "constructmods971a.html",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"## Spell-Like Ability Modification",
@@ -112,7 +106,6 @@
 	},
 	"weapon_modification": {
 		"name": "Weapon Modification",
-		"file": "constructmods1e35.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Weapon Modification",
@@ -130,7 +123,6 @@
 	},
 	"ability_score_increase": {
 		"name": "Ability Score Increase",
-		"file": "constructmodsdf7f.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Ability Score Increase",
@@ -148,7 +140,6 @@
 	},
 	"alarm_link": {
 		"name": "Alarm Link",
-		"file": "constructmodsef1e.html",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"## Alarm Link",
@@ -166,7 +157,6 @@
 	},
 	"frost_mist_stash_shatter_stash": {
 		"name": "Frost Mist Stash (Shatter Stash)",
-		"file": "constructmods73ca.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Shatter Stash",
@@ -226,25 +216,21 @@
 	},
 	"corrosive_jet_stash_shatter_stash": {
 		"name": "Corrosive Jet Stash (Shatter Stash)",
-		"file": "constructmods11b9.html",
 		"copyof": "frost_mist_stash_shatter_stash",
 		"display": "constructmod"
 	},
 	"firebomb_stash_shatter_stash": {
 		"name": "Firebomb Stash (Shatter Stash)",
-		"file": "constructmods171d.html",
 		"copyof": "frost_mist_stash_shatter_stash",
 		"display": "constructmod"
 	},
 	"lightning_lash_stash_shatter_stash": {
 		"name": "Lightning Lash Stash (Shatter Stash)",
-		"file": "constructmods51e9.html",
 		"copyof": "frost_mist_stash_shatter_stash",
 		"display": "constructmod"
 	},
 	"rune_of_shielding_rune_carved": {
 		"name": "Rune of Shielding (Rune Carved)",
-		"file": "constructmods0067.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Rune Carved",
@@ -328,7 +314,6 @@
 	},
 	"self-repair": {
 		"name": "Self-Repair",
-		"file": "constructmods6490.html",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"## Self-Repair",
@@ -346,19 +331,16 @@
 	},
 	"rune_of_lightning_rune_carved": {
 		"name": "Rune of Lightning (Rune Carved)",
-		"file": "constructmodsd6e6.html",
 		"copyof": "rune_of_shielding_rune_carved",
 		"display": "constructmod"
 	},
 	"willsap_gas_stash_shatter_stash": {
 		"name": "Willsap Gas Stash (Shatter Stash)",
-		"file": "constructmods33eb.html",
 		"copyof": "frost_mist_stash_shatter_stash",
 		"display": "constructmod"
 	},
 	"self-destruct": {
 		"name": "Self-Destruct",
-		"file": "constructmods74e4.html",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"## Self-Destruct",
@@ -376,7 +358,6 @@
 	},
 	"crafter's_eyes": {
 		"name": "Crafter's Eyes",
-		"file": "constructmods6602.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Crafter's Eyes",
@@ -396,13 +377,11 @@
 	},
 	"rune_of_terror_rune_carved": {
 		"name": "Rune of Terror (Rune Carved)",
-		"file": "constructmodsdc8a.html",
 		"copyof": "rune_of_shielding_rune_carved",
 		"display": "constructmod"
 	},
 	"construct_shelter": {
 		"name": "Construct Shelter",
-		"file": "constructmodsfa01.html",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"## Construct Shelter",
@@ -422,7 +401,6 @@
 	},
 	"construct_storage": {
 		"name": "Construct Storage",
-		"file": "constructmodsc6cc.html",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"## Construct Storage",
@@ -440,7 +418,6 @@
 	},
 	"mind_link": {
 		"name": "Mind Link",
-		"file": "constructmods440b.html",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"## Mind Link",
@@ -458,13 +435,11 @@
 	},
 	"rune_of_agony_rune_carved": {
 		"name": "Rune of Agony (Rune Carved)",
-		"file": "constructmodsbf89.html",
 		"copyof": "rune_of_shielding_rune_carved",
 		"display": "constructmod"
 	},
 	"bioconstruct_modification": {
 		"name": "Bioconstruct Modification",
-		"file": "constructmods5579.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Bioconstruct Modification",
@@ -488,7 +463,6 @@
 	},
 	"construct_limb": {
 		"name": "Construct Limb",
-		"file": "constructmodsee7c.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Construct Limb",
@@ -510,7 +484,6 @@
 	},
 	"construct_armor": {
 		"name": "Construct Armor",
-		"file": "constructmods312f.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Construct Armor",
@@ -530,7 +503,6 @@
 	},
 	"rune_of_imprisonment_rune_carved": {
 		"name": "Rune of Imprisonment (Rune Carved)",
-		"file": "constructmods29a9.html",
 		"copyof": "rune_of_shielding_rune_carved",
 		"display": "constructmod"
 	}

@@ -2,7 +2,6 @@
 	"_prefix": "class_abilities-aspect",
 	"bat": {
 		"name": "Bat",
-		"file": "shifteraspectsd725.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Bat",
@@ -19,7 +18,6 @@
 	},
 	"bear": {
 		"name": "Bear",
-		"file": "shifteraspects5285.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Bear",
@@ -36,7 +34,6 @@
 	},
 	"boar": {
 		"name": "Boar",
-		"file": "shifteraspectsea21.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Boar",
@@ -53,7 +50,6 @@
 	},
 	"bull": {
 		"name": "Bull",
-		"file": "shifteraspects2ad4.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Bull",
@@ -70,7 +66,6 @@
 	},
 	"crocodile": {
 		"name": "Crocodile",
-		"file": "shifteraspects7c67.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Crocodile",
@@ -87,7 +82,6 @@
 	},
 	"deinonychus": {
 		"name": "Deinonychus",
-		"file": "shifteraspectsde66.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Deinonychus",
@@ -104,7 +98,6 @@
 	},
 	"dolphin": {
 		"name": "Dolphin",
-		"file": "shifteraspects18f4.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Dolphin",
@@ -121,7 +114,6 @@
 	},
 	"dragonfly": {
 		"name": "Dragonfly",
-		"file": "shifteraspectsd6a7.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Dragonfly",
@@ -138,7 +130,6 @@
 	},
 	"electric_eel": {
 		"name": "Electric Eel",
-		"file": "shifteraspectsb17f.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Electric Eel",
@@ -155,7 +146,6 @@
 	},
 	"elephant": {
 		"name": "Elephant",
-		"file": "shifteraspectsfb24.html",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
 			"## Elephant",
@@ -172,7 +162,6 @@
 	},
 	"falcon": {
 		"name": "Falcon",
-		"file": "shifteraspects19a9.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Falcon",
@@ -189,7 +178,6 @@
 	},
 	"frog": {
 		"name": "Frog",
-		"file": "shifteraspects85ed.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Frog",
@@ -208,7 +196,6 @@
 	},
 	"giant_wasp": {
 		"name": "Giant Wasp",
-		"file": "shifteraspects22af.html",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
 			"## Giant Wasp",
@@ -229,7 +216,6 @@
 	},
 	"horse": {
 		"name": "Horse",
-		"file": "shifteraspects9d65.html",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
 			"## Horse",
@@ -246,7 +232,6 @@
 	},
 	"lion": {
 		"name": "Lion",
-		"file": "shifteraspects8e5d.html",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
 			"## Lion",
@@ -263,7 +248,6 @@
 	},
 	"lizard": {
 		"name": "Lizard",
-		"file": "shifteraspects871f.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Lizard",
@@ -280,7 +264,6 @@
 	},
 	"mantis": {
 		"name": "Mantis",
-		"file": "shifteraspects9318.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Mantis",
@@ -297,7 +280,6 @@
 	},
 	"monkey": {
 		"name": "Monkey",
-		"file": "shifteraspects7783.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Monkey",
@@ -314,7 +296,6 @@
 	},
 	"mouse": {
 		"name": "Mouse",
-		"file": "shifteraspects5626.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Mouse",
@@ -331,7 +312,6 @@
 	},
 	"octopus": {
 		"name": "Octopus",
-		"file": "shifteraspectsd7f0.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Octopus",
@@ -350,7 +330,6 @@
 	},
 	"owl": {
 		"name": "Owl",
-		"file": "shifteraspects20c8.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Owl",
@@ -367,7 +346,6 @@
 	},
 	"peafowl": {
 		"name": "Peafowl",
-		"file": "shifteraspects189e.html",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
 			"## Peafowl",
@@ -384,7 +362,6 @@
 	},
 	"scorpion": {
 		"name": "Scorpion",
-		"file": "shifteraspects0f26.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Scorpion",
@@ -403,7 +380,6 @@
 	},
 	"snake": {
 		"name": "Snake",
-		"file": "shifteraspects1e20.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Snake",
@@ -422,7 +398,6 @@
 	},
 	"snapping_turtle": {
 		"name": "Snapping Turtle",
-		"file": "shifteraspects38e6.html",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
 			"## Snapping Turtle",
@@ -439,7 +414,6 @@
 	},
 	"spider": {
 		"name": "Spider",
-		"file": "shifteraspectsaf7d.html",
 		"sources": [ "Wilderness Origins" ],
 		"description": [
 			"## Spider",
@@ -456,7 +430,6 @@
 	},
 	"stag": {
 		"name": "Stag",
-		"file": "shifteraspects0df8.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Stag",
@@ -473,7 +446,6 @@
 	},
 	"tiger": {
 		"name": "Tiger",
-		"file": "shifteraspects59c7.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Tiger",
@@ -490,7 +462,6 @@
 	},
 	"wolf": {
 		"name": "Wolf",
-		"file": "shifteraspects53e5.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Wolf",
@@ -507,7 +478,6 @@
 	},
 	"wolverine": {
 		"name": "Wolverine",
-		"file": "shifteraspects0d54.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Wolverine",

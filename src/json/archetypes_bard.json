@@ -2,7 +2,6 @@
 	"_prefix": "archetype-bard",
 	"animal_speaker": {
 		"name": "Animal Speaker",
-		"file": "archetypedisplay659d.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Animal Speaker",
@@ -28,7 +27,6 @@
 	},
 	"arcane_duelist": {
 		"name": "Arcane Duelist",
-		"file": "archetypedisplay88c4.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Arcane Duelist",
@@ -56,7 +54,6 @@
 	},
 	"arcane_healer": {
 		"name": "Arcane Healer",
-		"file": "archetypedisplayb895.html",
 		"sources": [ "Faiths and Philosophies" ],
 		"description": [
 			"## Arcane Healer",
@@ -72,7 +69,6 @@
 	},
 	"archaeologist": {
 		"name": "Archaeologist",
-		"file": "archetypedisplayfa78.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Archaeologist",
@@ -100,7 +96,6 @@
 	},
 	"archivist": {
 		"name": "Archivist",
-		"file": "archetypedisplayb1fd.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Archivist",
@@ -128,7 +123,6 @@
 	},
 	"argent_voice": {
 		"name": "Argent Voice",
-		"file": "archetypedisplay04b2.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Argent Voice",
@@ -162,7 +156,6 @@
 	},
 	"arrowsong_minstrel": {
 		"name": "Arrowsong Minstrel",
-		"file": "archetypedisplay20a0.html",
 		"sources": [ "Arcane Anthology" ],
 		"description": [
 			"## Arrowsong Minstrel",
@@ -192,7 +185,6 @@
 	},
 	"averaka_arbiter": {
 		"name": "Averaka Arbiter",
-		"file": "archetypedisplay0f41.html",
 		"sources": [ "Bastards of Golarion" ],
 		"description": [
 			"## Averaka Arbiter",
@@ -212,7 +204,6 @@
 	},
 	"brazen_deceiver": {
 		"name": "Brazen Deceiver",
-		"file": "archetypedisplaye3d8.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Brazen Deceiver",
@@ -244,7 +235,6 @@
 	},
 	"buccaneer": {
 		"name": "Buccaneer",
-		"file": "archetypedisplay34f2.html",
 		"sources": [ "Pirates of the Inner Sea" ],
 		"description": [
 			"## Buccaneer",
@@ -266,7 +256,6 @@
 	},
 	"busker": {
 		"name": "Busker",
-		"file": "archetypedisplayefb2.html",
 		"sources": [ "Heroes of the Streets" ],
 		"description": [
 			"## Busker",
@@ -298,7 +287,6 @@
 	},
 	"celebrity": {
 		"name": "Celebrity",
-		"file": "archetypedisplay2d4d.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Celebrity",
@@ -322,7 +310,6 @@
 	},
 	"chelish_diva": {
 		"name": "Chelish Diva",
-		"file": "archetypedisplay4ed3.html",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"## Chelish Diva",
@@ -352,7 +339,6 @@
 	},
 	"chronicler_of_worlds": {
 		"name": "Chronicler of Worlds",
-		"file": "archetypedisplay817a.html",
 		"sources": [ "Planar Adventures" ],
 		"description": [
 			"## Chronicler of Worlds",
@@ -390,7 +376,6 @@
 	},
 	"court_bard": {
 		"name": "Court Bard",
-		"file": "archetypedisplaye7df.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Court Bard",
@@ -416,7 +401,6 @@
 	},
 	"court_fool": {
 		"name": "Court Fool",
-		"file": "archetypedisplay14a7.html",
 		"sources": [ "Heroes of the High Court" ],
 		"description": [
 			"## Court Fool",
@@ -446,7 +430,6 @@
 	},
 	"cultivator": {
 		"name": "Cultivator",
-		"file": "archetypedisplayfa0b.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Cultivator",
@@ -480,7 +463,6 @@
 	},
 	"daredevil": {
 		"name": "Daredevil",
-		"file": "archetypedisplay766f.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Daredevil",
@@ -504,7 +486,6 @@
 	},
 	"dawnflower_dervish": {
 		"name": "Dawnflower Dervish",
-		"file": "archetypedisplay3883.html",
 		"sources": [ "Inner Sea Magic" ],
 		"description": [
 			"## Dawnflower Dervish",
@@ -532,7 +513,6 @@
 	},
 	"demagogue": {
 		"name": "Demagogue",
-		"file": "archetypedisplay7bd6.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Demagogue",
@@ -554,7 +534,6 @@
 	},
 	"dervish_dancer": {
 		"name": "Dervish Dancer",
-		"file": "archetypedisplay0061.html",
 		"sources": [ "Ultimate Combat" ],
 		"description": [
 			"## Dervish Dancer",
@@ -588,7 +567,6 @@
 	},
 	"detective": {
 		"name": "Detective",
-		"file": "archetypedisplaya484.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Detective",
@@ -614,7 +592,6 @@
 	},
 	"dirge_bard": {
 		"name": "Dirge Bard",
-		"file": "archetypedisplayb175.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Dirge Bard",
@@ -636,7 +613,6 @@
 	},
 	"disciple_of_the_forked_tongue": {
 		"name": "Disciple of the Forked Tongue",
-		"file": "archetypedisplay9062.html",
 		"sources": [ "Potions and Poisons" ],
 		"description": [
 			"## Disciple of the Forked Tongue",
@@ -662,7 +638,6 @@
 	},
 	"dragon_herald": {
 		"name": "Dragon Herald",
-		"file": "archetypedisplay0b76.html",
 		"sources": [],
 		"description": [
 			"## Dragon Herald",
@@ -710,7 +685,6 @@
 	},
 	"dragon_yapper": {
 		"name": "Dragon Yapper",
-		"file": "archetypedisplay4e1d.html",
 		"sources": [ "Monster Codex" ],
 		"description": [
 			"## Dragon Yapper",
@@ -730,7 +704,6 @@
 	},
 	"duettist": {
 		"name": "Duettist",
-		"file": "archetypedisplaydd31.html",
 		"sources": [ "Familiar Folio" ],
 		"description": [
 			"## Duettist",
@@ -754,7 +727,6 @@
 	},
 	"dwarven_scholar": {
 		"name": "Dwarven Scholar",
-		"file": "archetypedisplay4d74.html",
 		"sources": [ "Blood of the Ancients" ],
 		"description": [
 			"## Dwarven Scholar",
@@ -784,7 +756,6 @@
 	},
 	"faith_singer": {
 		"name": "Faith Singer",
-		"file": "archetypedisplay8e17.html",
 		"sources": [ "Healer's Handbook" ],
 		"description": [
 			"## Faith Singer",
@@ -802,7 +773,6 @@
 	},
 	"fey_courtier": {
 		"name": "Fey Courtier",
-		"file": "archetypedisplayce18.html",
 		"sources": [],
 		"description": [
 			"## Fey Courtier",
@@ -840,7 +810,6 @@
 	},
 	"fey_prankster": {
 		"name": "Fey Prankster",
-		"file": "archetypedisplaybfa6.html",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"## Fey Prankster",
@@ -878,7 +847,6 @@
 	},
 	"filidh": {
 		"name": "Filidh",
-		"file": "archetypedisplay13d2.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Filidh",
@@ -924,7 +892,6 @@
 	},
 	"first_world_minstrel": {
 		"name": "First World Minstrel",
-		"file": "archetypedisplay4070.html",
 		"sources": [ "Legacy of the First World" ],
 		"description": [
 			"## First World Minstrel",
@@ -958,7 +925,6 @@
 	},
 	"flame_dancer": {
 		"name": "Flame Dancer",
-		"file": "archetypedisplay5b51.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Flame Dancer",
@@ -980,7 +946,6 @@
 	},
 	"flamesinger": {
 		"name": "Flamesinger",
-		"file": "archetypedisplaydaa4.html",
 		"sources": [ "Elemental Master's Handbook" ],
 		"description": [
 			"## Flamesinger",
@@ -1006,7 +971,6 @@
 	},
 	"fortune-teller": {
 		"name": "Fortune-Teller",
-		"file": "archetypedisplay0d84.html",
 		"sources": [],
 		"description": [
 			"## Fortune-Teller",
@@ -1048,7 +1012,6 @@
 	},
 	"geisha": {
 		"name": "Geisha",
-		"file": "archetypedisplaycfc0.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Geisha",
@@ -1068,7 +1031,6 @@
 	},
 	"hatharat_agent": {
 		"name": "Hatharat Agent",
-		"file": "archetypedisplaydffb.html",
 		"sources": [ "Qadira, Jewel of the East" ],
 		"description": [
 			"## Hatharat Agent",
@@ -1098,7 +1060,6 @@
 	},
 	"hoaxer": {
 		"name": "Hoaxer",
-		"file": "archetypedisplayf33f.html",
 		"sources": [ "Black Markets" ],
 		"description": [
 			"## Hoaxer",
@@ -1132,7 +1093,6 @@
 	},
 	"impervious_messenger": {
 		"name": "Impervious Messenger",
-		"file": "archetypedisplay4b10.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Impervious Messenger",
@@ -1162,7 +1122,6 @@
 	},
 	"juggler": {
 		"name": "Juggler",
-		"file": "archetypedisplay4362.html",
 		"sources": [ "Ranged Tactics Toolbox" ],
 		"description": [
 			"## Juggler",
@@ -1184,7 +1143,6 @@
 	},
 	"lotus_geisha": {
 		"name": "Lotus Geisha",
-		"file": "archetypedisplaybf58.html",
 		"sources": [ "Dragon Empires Primer" ],
 		"description": [
 			"## Lotus Geisha",
@@ -1208,7 +1166,6 @@
 	},
 	"luring_piper": {
 		"name": "Luring Piper",
-		"file": "archetypedisplay252c.html",
 		"sources": [ "Monster Hunter's Handbook" ],
 		"description": [
 			"## Luring Piper",
@@ -1250,7 +1207,6 @@
 	},
 	"magician": {
 		"name": "Magician",
-		"file": "archetypedisplay551c.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Magician",
@@ -1282,7 +1238,6 @@
 	},
 	"masked_performer": {
 		"name": "Masked Performer",
-		"file": "archetypedisplayb548.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Masked Performer",
@@ -1326,7 +1281,6 @@
 	},
 	"mute_musician": {
 		"name": "Mute Musician",
-		"file": "archetypedisplaye424.html",
 		"sources": [ "Horror Realms" ],
 		"description": [
 			"## Mute Musician",
@@ -1376,7 +1330,6 @@
 	},
 	"negotiator": {
 		"name": "Negotiator",
-		"file": "archetypedisplay724b.html",
 		"sources": [ "Champions of Balance" ],
 		"description": [
 			"## Negotiator",
@@ -1404,7 +1357,6 @@
 	},
 	"phrenologist": {
 		"name": "Phrenologist",
-		"file": "archetypedisplayb272.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Phrenologist",
@@ -1430,7 +1382,6 @@
 	},
 	"pitax_academy_of_grand_arts": {
 		"name": "Pitax: Academy of Grand Arts",
-		"file": "archetypedisplaydafc.html",
 		"sources": [ "Guide to the River Kingdoms" ],
 		"description": [
 			"## Pitax: Academy of Grand Arts",
@@ -1444,7 +1395,6 @@
 	},
 	"plant_speaker": {
 		"name": "Plant Speaker",
-		"file": "archetypedisplay1052.html",
 		"sources": [ "Ultimate Wilderness" ],
 		"description": [
 			"## Plant Speaker",
@@ -1470,7 +1420,6 @@
 	},
 	"prankster": {
 		"name": "Prankster",
-		"file": "archetypedisplaya5d0.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Prankster",
@@ -1498,7 +1447,6 @@
 	},
 	"provocateur": {
 		"name": "Provocateur",
-		"file": "archetypedisplay29ab.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Provocateur",
@@ -1524,7 +1472,6 @@
 	},
 	"ringleader_ag": {
 		"name": "Ringleader (AG)",
-		"file": "archetypedisplayb0f4.html",
 		"sources": [ "Adventurer's Guide" ],
 		"description": [
 			"## Ringleader (AG)",
@@ -1554,7 +1501,6 @@
 	},
 	"ringleader_ui": {
 		"name": "Ringleader (UI)",
-		"file": "archetypedisplay1ed6.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Ringleader (UI)",
@@ -1592,7 +1538,6 @@
 	},
 	"sandman": {
 		"name": "Sandman",
-		"file": "archetypedisplay2ef8.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Sandman",
@@ -1626,7 +1571,6 @@
 	},
 	"savage_skald": {
 		"name": "Savage Skald",
-		"file": "archetypedisplay8f2a.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Savage Skald",
@@ -1650,7 +1594,6 @@
 	},
 	"sea_singer": {
 		"name": "Sea Singer",
-		"file": "archetypedisplay4107.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Sea Singer",
@@ -1678,7 +1621,6 @@
 	},
 	"shadow_puppeteer": {
 		"name": "Shadow Puppeteer",
-		"file": "archetypedisplay928c.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Shadow Puppeteer",
@@ -1696,7 +1638,6 @@
 	},
 	"silver_balladeer": {
 		"name": "Silver Balladeer",
-		"file": "archetypedisplay593c.html",
 		"sources": [ "Occult Adventures" ],
 		"description": [
 			"## Silver Balladeer",
@@ -1722,7 +1663,6 @@
 	},
 	"solacer": {
 		"name": "Solacer",
-		"file": "archetypedisplay97d4.html",
 		"sources": [ "Healer's Handbook" ],
 		"description": [
 			"## Solacer",
@@ -1758,7 +1698,6 @@
 	},
 	"songhealer": {
 		"name": "Songhealer",
-		"file": "archetypedisplayb3b0.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Songhealer",
@@ -1778,7 +1717,6 @@
 	},
 	"sorrowsoul": {
 		"name": "Sorrowsoul",
-		"file": "archetypedisplay28d0.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Sorrowsoul",
@@ -1808,7 +1746,6 @@
 	},
 	"sound_striker": {
 		"name": "Sound Striker",
-		"file": "archetypedisplay4999.html",
 		"sources": [ "Ultimate Magic" ],
 		"description": [
 			"## Sound Striker",
@@ -1827,7 +1764,6 @@
 	},
 	"speaker_of_the_palatine_eye": {
 		"name": "Speaker of the Palatine Eye",
-		"file": "archetypedisplayb4fc.html",
 		"sources": [ "Heroes of Golarion" ],
 		"description": [
 			"## Speaker of the Palatine Eye",
@@ -1857,7 +1793,6 @@
 	},
 	"stonesinger": {
 		"name": "Stonesinger",
-		"file": "archetypedisplay088b.html",
 		"sources": [ "Heroes of the Darklands" ],
 		"description": [
 			"## Stonesinger",
@@ -1885,7 +1820,6 @@
 	},
 	"street_performer": {
 		"name": "Street Performer",
-		"file": "archetypedisplayc9ec.html",
 		"sources": [ "Advanced Player's Guide" ],
 		"description": [
 			"## Street Performer",
@@ -1913,7 +1847,6 @@
 	},
 	"studious_librarian": {
 		"name": "Studious Librarian",
-		"file": "archetypedisplay97e6.html",
 		"sources": [ "Inner Sea Intrigue" ],
 		"description": [
 			"## Studious Librarian",
@@ -1945,7 +1878,6 @@
 	},
 	"thundercaller": {
 		"name": "Thundercaller",
-		"file": "archetypedisplaydcd8.html",
 		"sources": [
 			"Ultimate Wilderness",
 			"Varisia, Birthplace of Legends"
@@ -1982,7 +1914,6 @@
 	},
 	"voice_of_brigh": {
 		"name": "Voice of Brigh",
-		"file": "archetypedisplay620a.html",
 		"sources": [ "Construct Handbook" ],
 		"description": [
 			"## Voice of Brigh",
@@ -2014,7 +1945,6 @@
 	},
 	"voice_of_the_wild": {
 		"name": "Voice of the Wild",
-		"file": "archetypedisplayae27.html",
 		"sources": [ "Advanced Class Guide" ],
 		"description": [
 			"## Voice of the Wild",
@@ -2034,7 +1964,6 @@
 	},
 	"wasteland_chronicler": {
 		"name": "Wasteland Chronicler",
-		"file": "archetypedisplayd949.html",
 		"sources": [ "People of the Wastes" ],
 		"description": [
 			"## Wasteland Chronicler",
@@ -2056,7 +1985,6 @@
 	},
 	"watersinger": {
 		"name": "Watersinger",
-		"file": "archetypedisplayc2ae.html",
 		"sources": [ "Advanced Race Guide" ],
 		"description": [
 			"## Watersinger",
@@ -2078,7 +2006,6 @@
 	},
 	"wit": {
 		"name": "Wit",
-		"file": "archetypedisplay5424.html",
 		"sources": [ "Ultimate Intrigue" ],
 		"description": [
 			"## Wit",
