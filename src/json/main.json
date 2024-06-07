@@ -16537,7 +16537,7 @@
 					[ "[Zyphus](deity/zyphus)", "Other Deities", [5, "NE"], "Accidental death, graveyards, tragedy", "Death, Destruction, Evil, Plant, War", "Blood, Catastrophe, Daemon, Decay, Murder, Thorns, Undead", "Heavy pick" ]
 				],
 				"initialColumn": 0,
-				"className": "races"
+				"className": "faiths"
 			}
 		],
 		"previous": [ ["Main", "main"] ]

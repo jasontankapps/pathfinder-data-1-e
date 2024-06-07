@@ -33,12 +33,23 @@ export interface Table {
 	className: string
 }
 
-export interface JsonDataProps {
+export interface JsonDataPropsMain {
 	title: string,
 	description: string[],
 	tables?: Table[],
 	sources?: string[]
 	previous?: HierarchyArray
+}
+
+export interface JsonDataProps {
+	name: string,
+	description: string[],
+	tables?: Table[],
+	sources: string[]
+}
+
+export interface CopyOf<T> extends Partial<JsonDataProps> {
+	copyof: T
 }
 
 export type CodePlugin = (input: string) => false | ReactNode
