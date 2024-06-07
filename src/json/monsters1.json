@@ -1,5 +1,13 @@
 {
-	"_prefix": "monster",
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested monster."
+		]
+	},
 	"aashaq's_wyvern": {
 		"name": "Aashaq's Wyvern",
 		"sources": [ "Isles of the Shackles" ],

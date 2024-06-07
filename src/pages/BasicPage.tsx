@@ -1,11 +1,11 @@
 import { FC, PropsWithChildren, useState } from 'react';
 import { IonButton, IonButtons, IonContent, IonFooter, IonHeader, IonIcon, IonMenuButton, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { chevronBack, chevronForward, informationCircle } from 'ionicons/icons';
 import DisplayItem from '../components/DisplayItem';
+import HierarchyTab from '../components/HierarchyTab';
+import SourcesModal from '../components/SourcesModal';
 import { DisplayItemProps, HierarchyArray } from '../types';
 import './Page.css';
-import HierarchyTab from '../components/HierarchyTab';
-import { chevronBack, chevronForward, informationCircle } from 'ionicons/icons';
-import SourcesModal from '../components/SourcesModal';
 
 interface PageProps {
 	title: string

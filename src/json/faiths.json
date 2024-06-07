@@ -1,13 +1,12 @@
 {
-	"_prefix": "faith",
-	"_searchable_properties": {
-		"STRING": [ "alignment" ],
-		"KEYS": [
-			"pantheons",
-			"domains",
-			"subdomains"
-		],
-		"ARRAY_MARKDOWN": [ "description" ]
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested faith."
+		]
 	},
 	"abadar": {
 		"name": "Abadar",

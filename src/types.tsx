@@ -45,7 +45,8 @@ export interface JsonDataProps {
 	name: string,
 	description: string[],
 	tables?: Table[],
-	sources: string[]
+	sources: string[],
+	subhierarchy?: [string, string][]
 }
 
 export interface CopyOf<T> extends Partial<JsonDataProps> {

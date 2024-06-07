@@ -12,7 +12,6 @@ import {
 	IonTitle,
 	IonToolbar
 } from '@ionic/react';
-import { Link } from 'react-router-dom';
 import { closeCircle } from 'ionicons/icons';
 import sourceJson from '../json/sources.json';
 import './Page.css';

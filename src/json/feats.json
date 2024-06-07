@@ -1,4 +1,13 @@
 {
+	"unknown": {
+		"name": "Unknown",
+		"sources": [],
+		"description": [
+			"## Error",
+			"",
+			"Unable to find the requested feat."
+		]
+	},
 	"aberrant_tumor": {
 		"name": "Aberrant Tumor",
 		"sources": [ "Advanced Class Guide" ],

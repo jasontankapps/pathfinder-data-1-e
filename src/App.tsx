@@ -4,6 +4,12 @@ import { Route } from 'react-router-dom';
 import Menu from './components/Menu';
 import MainPage from './pages/MainPage';
 import RacePage from './pages/RacePage';
+import TraitPage from './pages/TraitPage';
+import FaithPage from './pages/FaithPage';
+import SpellPage from './pages/SpellPage';
+import FeatPage from './pages/FeatPage';
+import MonsterPage from './pages/MonsterPage';
+import EquipmentArmorPage from './pages/EquipmentArmorPage';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -53,7 +59,7 @@ const App: React.FC = () => {
 						<Route path="/drug/:id" render={() => <></>} />
 						<Route path="/druidcompanion/:id" render={() => <></>} />
 						<Route path="/druiddomain/:id" render={() => <></>} />
-						<Route path="/equipment/armor/:id" render={() => <></>} />
+						<Route path="/equipment/armor/:id" render={() => <EquipmentArmorPage />} />
 						<Route path="/equipment/armorenhancement/:id" render={() => <></>} />
 						<Route path="/equipment/material/:id" render={() => <></>} />
 						<Route path="/equipment/misc/:id" render={() => <></>} />
@@ -70,7 +76,8 @@ const App: React.FC = () => {
 						<Route path="/equipment/weapon/:id" render={() => <></>} />
 						<Route path="/equipment/weaponenhance/:id" render={() => <></>} />
 						<Route path="/exploit/:id" render={() => <></>} />
-						<Route path="/faith/:id" render={() => <></>} />
+						<Route path="/feat/:id" render={() => <FeatPage />} />
+						<Route path="/faith/:id" render={() => <FaithPage />} />
 						<Route path="/greaterexploit/:id" render={() => <></>} />
 						<Route path="/haunt/:id" render={() => <></>} />
 						<Route path="/hellknightorder/:id" render={() => <></>} />
@@ -106,7 +113,7 @@ const App: React.FC = () => {
 						<Route path="/magic/weapon/:id" render={() => <></>} />
 						<Route path="/magic/wondrous/:id" render={() => <></>} />
 						<Route path="/magusarcana/:id" render={() => <></>} />
-						<Route path="/monster/:id" render={() => <></>} />
+						<Route path="/monster/:id" render={() => <MonsterPage />} />
 						<Route path="/monster/family/:id" render={() => <></>} />
 						<Route path="/monster/subtype/:id" render={() => <></>} />
 						<Route path="/monster/template/:id" render={() => <></>} />
@@ -114,7 +121,6 @@ const App: React.FC = () => {
 						<Route path="/mystery/:id" render={() => <></>} />
 						<Route path="/npc/:id" render={() => <></>} />
 						<Route path="/oath/:id" render={() => <></>} />
-						<Route path="/occultritual/:id" render={() => <></>} />
 						<Route path="/oraclecurse/:id" render={() => <></>} />
 						<Route path="/order/:id" render={() => <></>} />
 						<Route path="/outsiderspirit/:id" render={() => <></>} />
@@ -125,11 +131,11 @@ const App: React.FC = () => {
 						<Route path="/skill/:id" render={() => <></>} />
 						<Route path="/sorcererbloodline/:id" render={() => <></>} />
 						<Route path="/source/:id" render={() => <></>} />
-						<Route path="/spell/:id" render={() => <></>} />
+						<Route path="/spell/:id" render={() => <SpellPage />} />
 						<Route path="/spell/definition/:id" render={() => <></>} />
 						<Route path="/spirit/:id" render={() => <></>} />
 						<Route path="/stanceragepower/:id" render={() => <></>} />
-						<Route path="/trait/:id" render={() => <></>} />
+						<Route path="/trait/:id" render={() => <TraitPage />} />
 						<Route path="/trap/:id" render={() => <></>} />
 						<Route path="/umr/:id" render={() => <></>} />
 						<Route path="/:mainpage" render={() => <MainPage />} />
