@@ -1,11 +1,15 @@
 import { useParams } from 'react-router';
 import getItem from '../components/getItem';
-import spells from '../json/spells.json';
+import spells1 from '../json/spells.json';
+import spells2 from '../json/spells2.json';
+import spells3 from '../json/spells3.json';
 import BasicPage from './BasicPage';
 import { HierarchyArray } from '../types';
 import './Page.css';
 
 const hierarchy: HierarchyArray = [["Spells", "spells"]];
+
+const spells = {...spells1, ...spells2, ...spells3};
 
 type Data = typeof spells;
 
